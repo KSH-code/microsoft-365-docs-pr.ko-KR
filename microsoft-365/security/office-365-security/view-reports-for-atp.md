@@ -17,14 +17,14 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: 보안 및 준수 센터에서 Office 365 용 Microsoft Defender에 대 한 보고서를 찾아서 사용 &amp; 합니다.
+description: 보안 & 준수 센터에서 Office 365 용 Microsoft Defender에 대 한 보고서를 찾아서 사용 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8885eea2168cc40c497f6fa1066ae020dda7fd7c
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 5efaef018c78bd161c9cde81af36be92173479ae
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087721"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561730"
 ---
 # <a name="view-reports-for-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에 대 한 보고서 보기
 
@@ -35,7 +35,7 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
 
 ![보안 & 준수 센터의 보고서 대시보드](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
-## <a name="defender-for-office-365-file-types-report"></a>Office 365용 Defender 파일 형식 보고서
+## <a name="defender-for-office-365-file-types-report"></a>Defender for Office 365 파일 형식 보고서
 
 **Office 용 Defender 365 파일 형식 보고서** 보고서에는 [안전한 첨부 파일](atp-safe-attachments.md)에서 악의적으로 검색 된 파일 유형이 표시 됩니다.
 
@@ -119,7 +119,7 @@ Microsoft Defender for Office 365 조 직 (예: Microsoft 365 E5 구독 또는 m
 
 보고서 보기로 돌아가려면 **보고서 보기** 를 클릭 합니다.
 
-## <a name="defender-for-office-365-message-disposition-report"></a>Office 365용 Defender 메시지 처리 보고서
+## <a name="defender-for-office-365-message-disposition-report"></a>Defender for Office 365 메시지 처리 보고서
 
 **ATP 메시지 처리** 보고서에는 악성 콘텐츠가 있는 것으로 검색 된 전자 메일 메시지에 대해 수행 된 작업이 표시 됩니다.
 
@@ -338,7 +338,7 @@ Details 테이블에는 각 탭에 대 한 동일한 정보가 포함 되어 있
 
 ## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Office 365 보고서용 Defender를 확인 하는 데 필요한 사용 권한은 무엇입니까?
 
-이 항목에서 설명 하는 보고서를 보고 사용 하려면 보안 및 **&amp; 준수 센터와 Exchange 관리 센터 둘 다에 대해 적절 한 역할이 할당 되어 있어야 합니다**.
+이 항목에서 설명 하는 보고서를 보고 사용 하려면 **보안 & 준수 센터와 Exchange 관리 센터 둘 다에 대해 적절 한 역할이 할당 되어 있어야 합니다**.
 
 - 보안 & 준수 센터에는 다음 역할 중 하나가 할당 되어 있어야 합니다.
 

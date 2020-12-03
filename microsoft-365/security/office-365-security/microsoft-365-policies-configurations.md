@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-overview
-ms.openlocfilehash: 993dd1ed66ca5bc6635c0eadf2dc7345ab84b57d
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 0144e9478e74e252e0c4ccc0c902df376129c388
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356922"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558289"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -110,7 +110,7 @@ Azure AD는 id 관리 기능을 완벽 하 게 제공 합니다. 이러한 기�
 
 |기능 또는 특징|설명|라이선싱|
 |---|---|---|
-|[MFA(Multi-Factor Authentication)](/azure/active-directory/authentication/concept-mfa-howitworks)|사용자는 MFA를 사용 하 여 Microsoft 인증자 앱 또는 전화 통화의 알림과 같은 두 가지 형태의 확인을 제공 해야 합니다. MFA는 도난당 한 자격 증명이 환경에 액세스 하는 데 사용 될 수 있는 위험을 크게 줄여줍니다. Microsoft 365에서는 MFA 기반 로그인에 대해 Azure Multi-factor Authentication 서비스를 사용 합니다.|Microsoft 365 E3 혹은 E5|
+|[MFA(Multi-Factor Authentication)](/azure/active-directory/authentication/concept-mfa-howitworks)|사용자는 MFA를 사용 하 여 Microsoft 인증자 앱 또는 전화 통화의 알림과 같은 두 가지 형태의 확인을 제공 해야 합니다. MFA는 도난당 한 자격 증명이 환경에 액세스 하는 데 사용 될 수 있는 위험을 크게 줄여줍니다. Microsoft 365에서는 MFA 기반 로그인에 대해 Azure AD 다단계 인증 서비스를 사용 합니다.|Microsoft 365 E3 혹은 E5|
 |[조건부 액세스](/azure/active-directory/conditional-access/overview)|Azure AD는 사용자 로그인의 조건을 평가 하 고 조건부 액세스 정책을 사용 하 여 허용 되는 액세스를 결정 합니다. 예를 들어이 가이드에서는 중요 한 데이터에 액세스 하기 위한 장치 준수를 요구 하는 조건부 액세스 정책을 만드는 방법을 보여 줍니다. 이렇게 하면 해커 들이 자신의 장치와 도난당 한 자격 증명을 사용 하 여 중요 한 데이터에 액세스할 수 있는 위험이 크게 줄어듭니다. 또한 장치는 상태 및 보안에 대 한 특정 요구 사항을 충족 해야 하므로 장치에서 중요 한 데이터를 보호 합니다.|Microsoft 365 E3 혹은 E5|
 |[Azure AD 그룹](/azure/active-directory/fundamentals/active-directory-manage-groups)|조건부 액세스 정책, Intune을 사용한 장치 관리 및 조직의 파일 및 사이트에 대 한 권한이 있는 사용자 계정 또는 Azure AD 그룹에 대 한 할당을 사용 합니다. 구현 하려는 보호 수준에 해당 하는 Azure AD 그룹을 만드는 것이 좋습니다. 예를 들어 경영 직원이 해커의 가치 목표 보다 높은 것을 들 수 있습니다. 따라서 이러한 직원의 사용자 계정을 Azure AD 그룹에 추가 하 고이 그룹을 조건부 액세스 정책 및 액세스를 위해 더 높은 수준의 보호를 적용 하는 기타 정책에 할당 하는 것이 좋습니다.|Microsoft 365 E3 혹은 E5|
 |[장치 등록](/azure/active-directory/devices/overview)|장치를 Azure AD에 등록 하 여 장치에 대 한 id를 만듭니다. 이 id는 사용자가 로그인 하 고 도메인에 가입 하거나 준수 하는 Pc가 필요한 조건부 액세스 정책을 적용 하는 데 사용 됩니다. 이 지침에서는 장치 등록을 사용 하 여 도메인에 가입 된 Windows 컴퓨터를 자동으로 등록 합니다. 장치 등록은 Intune을 사용 하 여 장치를 관리 하기 위한 필수 구성 요소입니다.|Microsoft 365 E3 혹은 E5|

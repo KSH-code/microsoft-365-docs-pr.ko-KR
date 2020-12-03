@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: 조직 이름, 주소, 전화, 기술 담당자 및 전자 메일과 같은 조직 프로필을 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 17202bb35e6d5e7d40b135f65467aef111aad070
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 19769c827284000e1ad0e86e3666d9980322b6a9
+ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645110"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49560860"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>조직 주소, 기술 담당자 등 변경
 
@@ -50,9 +50,9 @@ ms.locfileid: "48645110"
   
 1. 관리 센터에서 조직 설정 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**Org settings**</a> 페이지로 이동 합니다.
 
-2. **조직 프로필** 탭에서 **조직 정보**를 선택 합니다.
+2. **조직 프로필** 탭에서 **조직 정보** 를 선택 합니다.
 
-3. 조직의 정보를 업데이트 한 다음 **변경 내용 저장**을 선택 합니다.
+3. 조직의 정보를 업데이트 한 다음 **변경 내용 저장** 을 선택 합니다.
 
     각 필드에 대한 설명은 다음과 같습니다.
 
@@ -73,14 +73,15 @@ ms.locfileid: "48645110"
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터로</a>이동 합니다.
 
-2. 머리글에서 프로필 아이콘을 선택한 다음 **내 계정**을 선택 합니다.
+2. 머리글에서 프로필 아이콘을 선택 하 고 **계정 보기** 를 선택 합니다.
 
-3. 왼쪽에서 **개인 정보**를 선택 합니다.
+3. 왼쪽에서 **보안 정보** 를 선택 합니다.
 
-4. **연락처 정보** 카드에서 **편집**을 선택 합니다.
+4. 전자 메일 섹션에서 **변경을** 선택 합니다.
 
-5. **대체 전자 메일** 상자에서 주소를 편집한 다음 **저장**을 선택 합니다.
+5. **대체 전자 메일** 상자에서 주소를 편집 하 고 **다음** 을 선택 합니다.
 
+6. 대체 전자 메일 주소로 전송 된 코드를 입력 하 고 **확인** 을 선택 하 여 변경 내용을 확인 합니다.
 다른 프로필 정보를 변경 하는 방법에 대 한 자세한 내용은 [연락처 기본 설정 변경](change-contact-preferences.md) 또는 [표시 언어 변경을](https://support.microsoft.com/office/6f238bff-5252-441e-b32b-655d5d85d15b.aspx)참조 하세요.
   
 ### <a name="email-signatures"></a>전자 메일 서명

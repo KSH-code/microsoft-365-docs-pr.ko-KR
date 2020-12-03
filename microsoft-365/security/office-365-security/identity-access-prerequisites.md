@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 4b354d124cfd9c1ae0eab19c8feee7e0fd59df25
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 67835f4140179c69b5e0f2cd0287e656dd4c49ad
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357806"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558553"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Id 및 장치 액세스 정책을 구현 하기 위한 필수 작업
 
@@ -45,7 +45,7 @@ ms.locfileid: "49357806"
 |[PHS를 구성](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization)합니다.  누수 된 자격 증명을 검색 하 고 위험 기반 조건부 액세스에 대해이를 수행 하려면이 옵션을 사용 하도록 설정 해야 합니다. **참고:** 조직에서 페더레이션 인증을 사용 하는지 여부에 관계 없이 필요 합니다.|클라우드 전용|
 |[원활한 single sign-on을 사용](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso) 하 여 조직 네트워크에 연결 된 조직 장치에 있을 때 사용자가 자동으로 로그인 하도록 합니다.|클라우드 전용 및 페더레이션|
 |[명명된 네트워크 구성](https://docs.microsoft.com/azure/active-directory/active-directory-known-networks-azure-portal). Azure AD ID 보호는 모든 사용 가능한 세션 데이터를 수집하고 분석하여 위험 점수를 생성합니다. 네트워크에 대 한 조직의 공용 IP 범위를 Azure AD 라는 네트워크 구성에서 지정 하는 것이 좋습니다. 이러한 범위에서 들어오는 트래픽에는 위험 점수가 절감 되 고 조직 환경 외부 로부터의 트래픽에는 위험 점수가 더 높은 것으로 지정 됩니다.||
-|[SSPR (셀프 서비스 암호 재설정) 및 MFA (multi-factor authentication)에 대 한 모든 사용자를 등록](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-converged)합니다. Azure Multi-factor Authentication을 위해 사용자에 게 미리 등록 하는 것이 좋습니다. Azure AD Id 보호는 Azure Multi-factor Authentication을 사용 하 여 추가 보안 확인을 수행 합니다. 또한 최상의 로그인 환경을 위해 사용자가 자신의 장치에 [Microsoft Authenticator 앱](https://docs.microsoft.com/azure/active-directory/user-help/microsoft-authenticator-app-how-to) 과 Microsoft 회사 포털 앱을 설치 하는 것이 좋습니다. 이러한 응용 프로그램은 각 플랫폼에 대해 앱 스토어에서 설치할 수 있습니다.||
+|[SSPR (셀프 서비스 암호 재설정) 및 MFA (multi-factor authentication)에 대 한 모든 사용자를 등록](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-converged)합니다. Azure AD 다단계 인증을 위해 사용자를 사전에 등록 하는 것이 좋습니다. Azure AD Id 보호는 Azure AD Multi-factor Authentication을 사용 하 여 추가 보안 확인을 수행 합니다. 또한 최상의 로그인 환경을 위해 사용자가 자신의 장치에 [Microsoft Authenticator 앱](https://docs.microsoft.com/azure/active-directory/user-help/microsoft-authenticator-app-how-to) 과 Microsoft 회사 포털 앱을 설치 하는 것이 좋습니다. 이러한 응용 프로그램은 각 플랫폼에 대해 앱 스토어에서 설치할 수 있습니다.||
 |[도메인에 가입 된 Windows 컴퓨터의 자동 장치 등록을 사용 하도록 설정](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup)합니다. 조건부 액세스는 앱에 연결 하는 장치가 도메인에 가입 되었는지 또는 준수 되는지를 확인 합니다. Windows 컴퓨터에서 이 기능을 지원하려면 Azure AD를 사용하여 장치를 등록해야 합니다.  이 문서에서는 자동 장치 등록을 구성하는 방법에 대해 설명합니다.|클라우드 전용|
 |**사용자의 지원 팀 준비**. MFA를 완료할 수 없는 사용자에 대한 계획을 시행합니다. 이를 정책 제외 그룹에 추가 하거나 새 MFA 정보를 등록할 수 있습니다. 이러한 보안 관련 변경 사항을 적용 하기 전에 실제 사용자가 요청을 수행 하 고 있는지 확인 해야 합니다. 사용자의 관리자에 대해 승인을 통해 도움을 주도록 요구하는 것이 효과적인 단계입니다.||
 |[온-프레미스 AD에 대한 암호 쓰기 저장 구성](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started). 암호 쓰기 저장을 사용 하면 높은 위험 계정 손상 감지 시 사용자가 온-프레미스 암호를 변경 하도록 할 수 있습니다. Azure ad Connect 설치 마법사의 선택적 기능 화면에서 **암호 쓰기 저장** 을 사용 하도록 설정 하거나 Windows PowerShell을 통해 사용 하도록 설정 하 여 Azure ad connect를 사용 하 여이 기능을 사용 하도록 설정할 수 있습니다.|클라우드 전용|
@@ -93,11 +93,11 @@ BYOD Windows 장치에서는 사용자가 **회사 또는 학교 계정 추가**
 
 |플랫폼|Word/Excel/PowerPoint|OneNote|OneDrive 앱|SharePoint 앱|[OneDrive 동기화 클라이언트](https://docs.microsoft.com/onedrive/enable-conditional-access)|
 |---|---|---|---|---|---|
-|Windows 8.1|지원|지원|해당 없음|해당 없음|지원|
-|Windows 10|지원|지원|해당 없음|해당 없음|지원|
-|Android|지원|지원|지원|지원|해당 없음|
-|iOS|지원|지원|지원|지원|해당 없음|
-|macOS|지원|지원|해당 없음|해당 없음|지원되지 않음|
+|Windows 8.1|지원됨|지원됨|해당 없음|해당 없음|지원됨|
+|Windows 10|지원됨|지원됨|해당 없음|해당 없음|지원됨|
+|Android|지원됨|지원됨|지원됨|지원됨|해당 없음|
+|iOS|지원됨|지원됨|지원됨|지원됨|해당 없음|
+|macOS|지원됨|지원됨|해당 없음|해당 없음|지원되지 않음|
 |Linux|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음|
 |
 

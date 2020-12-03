@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: Microsoft cloud 전라남도 (Microsoft 클라우드 독일)에서 새 독일어 데이터 센터 지역의 Office 365 서비스로 이동할 때의 추가 장치 정보입니다.'
-ms.openlocfilehash: da05a3c2eb6a8d579c53d403a1ef575c389eda12
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 941b836871f4ffb7f39f6e144675e9ee15510270
+ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551956"
+ms.locfileid: "49560863"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Microsoft Cloud 독일의 마이그레이션에 대 한 추가 장치 정보
 
@@ -136,6 +136,12 @@ Private key state : Okay
 
 
 ## <a name="windows-azure-ad-join"></a>Windows Azure AD 조인
+
+**중요:** Commerce 마이그레이션 후에는 Intune 서비스 사용자가 사용 하도록 설정 되므로 Azure AD 장치 등록을 활성화 하는 것을 알 수 있습니다. 마이그레이션 전에 Azure AD Device Registration을 차단한 경우 azure ad portal을 사용 하 여 azure ad 장치 등록을 사용 하지 않도록 설정 하려면 Intune 서비스 사용자를 PowerShell에서 사용 하지 않도록 설정 해야 합니다. 이 명령을 사용 하 여 Intune 서비스 사용자를 Graph 모듈의 Azure Active Directory PowerShell에서 사용 하지 않도록 설정할 수 있습니다.
+
+```powershell
+Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "0000000a-0000-0000-c000-000000000000" | Set-AzureADServicePrincipal -AccountEnabled:$false
+```
 
 ### <a name="unjoin"></a>않도록
 
@@ -275,7 +281,7 @@ IOS 장치에서는 사용자가 Microsoft 인증자에서 캐시 된 계정을 
 
 전환을 통해 이동 하는 경우:
 
-- [마이그레이션 단계 작업 및 영향](ms-cloud-germany-transition-phases.md)
+- [문장 작업 및 영향 마이그레이션](ms-cloud-germany-transition-phases.md)
 - [추가 사전 작업](ms-cloud-germany-transition-add-pre-work.md)
 - [서비스](ms-cloud-germany-transition-add-general.md), [장치](ms-cloud-germany-transition-add-devices.md), [환경](ms-cloud-germany-transition-add-experience.md)및 [AD FS](ms-cloud-germany-transition-add-adfs.md)에 대 한 추가 정보
 

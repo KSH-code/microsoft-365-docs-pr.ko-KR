@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 기업에 대 한 Microsoft 365의 보안 기능을 사용 하는 방법
-ms.openlocfilehash: a72a770029328eaddf76cbe1b2039386c50c2750
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 5c951a973fbebeff92040f9411ad2c81788f920a
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920421"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558397"
 ---
 # <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Contoso Corporation의 엔터프라이즈 보안용 Microsoft 365 요약
 
@@ -56,7 +56,7 @@ Contoso는 다음 단계를 수행 하 여 기업에 대 한 Microsoft 365 배�
 
 - MFA 및 PIM이 있는 전용 전역 관리자 계정
 
-  Contoso는 매일 사용자 계정에 전역 관리자 역할을 할당 하는 대신 강력한 암호를 사용 하 여 세 개의 전용 전역 관리자 계정을 만들었습니다. 계정은 MFA (Multi-factor Authentication) 및 azure AD (권한 Id 관리)에 의해 보호 됩니다. *PIM은 Microsoft 365 E5에서만 사용할 수 있습니다.*
+  Contoso는 매일 사용자 계정에 전역 관리자 역할을 할당 하는 대신 강력한 암호를 사용 하 여 세 개의 전용 전역 관리자 계정을 만들었습니다. 계정이 Azure MFA (Multi-factor Authentication) 및 azure AD (특권 Id 관리)에 의해 보호 됩니다. *PIM은 Microsoft 365 E5에서만 사용할 수 있습니다.*
 
   전역 관리자 계정으로 로그인 하는 것은 특정 관리 작업에 대해서만 수행 됩니다. 암호는 지정 된 직원 에게만 알려진 것 이며 Azure AD PIM에서 구성 되는 기간 내 에서만 사용 될 수 있습니다.
 

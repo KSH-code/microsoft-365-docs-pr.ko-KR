@@ -14,14 +14,14 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: 위협 탐색기 및 실시간 검색 보고서를 사용 하 여 보안 및 준수 센터에서 위협을 조사 및 대응 하는 방법에 대해 알아봅니다 &amp; .
+description: 위협 탐색기 및 실시간 검색 보고서를 사용 하 여 보안 & 준수 센터에서 위협을 조사 및 대응 하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9412350384c0b2092c376db371e93fa5295c454
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+ms.openlocfilehash: 551425bf3e6b2c4fbb429dd6698b4f85e30d1ebe
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367192"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561234"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색의 보기
 
@@ -30,7 +30,7 @@ ms.locfileid: "49367192"
 
 ![위협 탐색기](../../media/ThreatExplorerFirstOpened.png)
 
-[위협 탐색기](threat-explorer.md) 및 실시간 검색 보고서는 보안 운영 팀에서 보안 및 준수 센터의 위협에 대해 조사 하 고 대응 하는 데 도움을 주는 강력 하 고도 비슷한 실시간 도구입니다 &amp; . Explorer (and 실시간 검색 보고서)에는 조직에 대 한 기타 보안 위협 및 위험 뿐 아니라 전자 메일 및 Office 365의 파일에 있는 의심 스러운 맬웨어 및 피싱에 대 한 정보가 표시 됩니다.
+[위협 탐색기](threat-explorer.md) 및 실시간 검색 보고서는 보안 운영 팀이 보안 & 준수 센터에서 위협을 조사 하 고 대응 하는 데 도움을 주는 강력 하 고도 비슷한 실시간 도구입니다. Explorer (and 실시간 검색 보고서)에는 조직에 대 한 기타 보안 위협 및 위험 뿐 아니라 전자 메일 및 Office 365의 파일에 있는 의심 스러운 맬웨어 및 피싱에 대 한 정보가 표시 됩니다.
 
 - [Microsoft Defender For Office 365](office-365-atp.md) 계획 2가 있는 경우 Explorer가 있습니다.
 - Microsoft Defender for Office 365 계획 1을 사용 하는 경우에는 실시간 검색이 가능 합니다.

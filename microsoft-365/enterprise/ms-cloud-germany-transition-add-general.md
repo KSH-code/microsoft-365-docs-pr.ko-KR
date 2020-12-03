@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: Microsoft cloud 전라남도 (Microsoft 클라우드 독일)에서 새 독일어 데이터 센터 지역의 Office 365 서비스로 이동할 때의 추가 일반 정보를 서비스에 대해 설명 합니다.'
-ms.openlocfilehash: 6fa09165f8aaa68e0f9fc567d96a4e53baaa594e
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 93692200f2519dbc647bb4e81b4bd8c646815858
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551785"
+ms.locfileid: "49558433"
 ---
 # <a name="additional-general-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Microsoft Cloud 독일의 마이그레이션에 대 한 추가 일반 정보
 
 다음 섹션에서는 서비스, 사전 작업 고려 사항 및 고객 환경에 대 한 추가 정보를 제공 합니다.
 
-## <a name="azure-active-directory"></a>Azure Active Directory Domain Services
+## <a name="azure-active-directory"></a>Azure Active Directory
 
 Azure 독일어 클라우드에서 Azure 공개 클라우드로의 이동을 완료 하려면 응용 프로그램에 대 한 인증 끝점, Azure Active Directory (Azure AD) 그래프 및 MS Graph 끝점이 OpenID Connect (OIDC) 끝점을 사용할 때 상업용 클라우드의 사용자에 게 업데이트 되 고 상업용 클라우드 끝점에 대 한 보고를 시작 하는 것이 좋습니다 `https://login.microsoftonline.com/\<TenantIdOrDomain\>/.well-known/openid-configuration` . 
  
@@ -49,14 +49,14 @@ Azure 독일어 클라우드에서 Azure 공개 클라우드로의 이동을 완
 
 응용 프로그램은 다음 중 하나일 수 있습니다.
 
-- SPA (단일 페이지 응용 프로그램)
-- 사용자에 게 로그인 하는 웹 앱
-- 웹 Api를 호출 하는 웹 앱
-- Protected web API
-- 웹 Api를 호출 하는 웹 API
-- 데스크톱 앱
-- 데몬 앱
-- 모바일 앱
+- [SPA (단일 페이지 응용 프로그램)](https://docs.microsoft.com/azure/active-directory/develop/scenario-spa-overview)
+- [사용자에 게 로그인 하는 웹 앱](https://docs.microsoft.com/azure/active-directory/develop/scenario-web-app-sign-user-overview)
+- [웹 Api를 호출 하는 웹 앱](https://docs.microsoft.com/azure/active-directory/develop/scenario-web-app-call-api-overview)
+- [Protected web API](https://docs.microsoft.com/azure/active-directory/develop/scenario-protected-web-api-overview)
+- [웹 Api를 호출 하는 웹 API](https://docs.microsoft.com/azure/active-directory/develop/scenario-web-api-call-api-overview)
+- [데스크톱 앱](https://docs.microsoft.com/azure/active-directory/develop/scenario-desktop-overview)
+- [데몬 앱](https://docs.microsoft.com/azure/active-directory/develop/scenario-daemon-overview)
+- [모바일 앱](https://docs.microsoft.com/azure/active-directory/develop/scenario-mobile-overview)
  
 > [!NOTE] 
 > 응용 프로그램이 사용 권한으로 전환 되 면 `login.microsoftonline.com` 토큰이이 새로운 기관에 의해 서명 됩니다. 다른 앱에서 호출 하는 리소스 응용 프로그램을 호스트 하는 경우에는 느슨한 토큰 유효성 검사를 허용 해야 합니다. 즉, 앱이 Azure AD 전라남도 및 Azure AD 공용 클라우드에서 서명 된 토큰을 허용 해야 합니다. 이 느슨한 토큰 유효성 검사는 서비스를 호출 하는 모든 클라이언트 응용 프로그램이 Azure AD 공용 클라우드로 완전히 마이그레이션될 때까지 필요 합니다. 마이그레이션 후에는 리소스 응용 프로그램에서 Azure AD 공용 클라우드로 서명 된 토큰만 허용 하기만 하면 됩니다.
@@ -76,10 +76,10 @@ Azure 독일어 클라우드에서 Azure 공개 클라우드로의 이동을 완
 
 5. `AzurePublic` `AzureGermany` 다음에 대 한 관리 도구 및 스크립트에서 환경 매개 변수를 다음으로 업데이트 (대신) 합니다.
 
-    - Azure PowerShell
-    - Azure AD PowerShell (MSOnline)
-    - Azure AD PowerShell (AzureAD)
-    - Azure CLI
+    - [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.8.0&viewFallbackFrom=azurermps-5.6.0)
+    - [Azure AD PowerShell (MSOnline)](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)
+    - [Azure AD PowerShell (AzureAD)](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)
+    - [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest)
  
 **게시 하는 응용 프로그램**
 
@@ -163,7 +163,7 @@ Office에서 가장 최근에 사용 된 (MRU) 서비스는 마이그레이션�
 
 전환을 통해 이동 하는 경우:
 
-- [마이그레이션 단계 작업 및 영향](ms-cloud-germany-transition-phases.md)
+- [문장 작업 및 영향 마이그레이션](ms-cloud-germany-transition-phases.md)
 - [추가 사전 작업](ms-cloud-germany-transition-add-pre-work.md)
 - [서비스](ms-cloud-germany-transition-add-general.md), [장치](ms-cloud-germany-transition-add-devices.md), [환경](ms-cloud-germany-transition-add-experience.md)및 [AD FS](ms-cloud-germany-transition-add-adfs.md)에 대 한 추가 정보
 

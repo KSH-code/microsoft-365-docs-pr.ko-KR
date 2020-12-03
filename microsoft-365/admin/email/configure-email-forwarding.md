@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Office365을 사용 하 여 하나 이상의 전자 메일 계정으로 전자 메일을 전달 하도록 설정 합니다.
-ms.openlocfilehash: acdca0b19eda70d7da34ce1093a4a1b11052fd79
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: c821d4363a053b432c4376d7b4fec4926df7b568
+ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551837"
+ms.locfileid: "49560795"
 ---
 # <a name="configure-email-forwarding"></a>전자 메일 전달 구성
 
@@ -39,6 +39,9 @@ ms.locfileid: "49551837"
 ::: moniker-end
   
 조직의 관리자는 사용자 사서함에 대 한 전자 메일 전달을 설정 하기 위한 회사 요구 사항이 있을 수 있습니다. 전자 메일 전달을 사용 하면 사용자의 사서함에 전송 된 전자 메일 메시지를 조직의 내부 또는 외부에 있는 다른 사용자의 사서함으로 전달할 수 있습니다.
+
+> [!IMPORTANT]
+> 아웃 바운드 스팸 필터 정책을 사용 하 여 외부의 받는 사람에 대 한 자동 전달을 제어할 수 있습니다. 자세한 내용은 [Control automatic external email 착신 전환의 Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/external-email-forwarding?view=o365-worldwide#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls)을 참조 하세요.
 
   
 ## <a name="configure-email-forwarding"></a>전자 메일 전달 구성
@@ -102,5 +105,6 @@ ms.locfileid: "49551837"
      또는 관리 센터에서 [메일 그룹을 만들고](../setup/create-distribution-lists.md) [여기에 주소를 추가한](add-user-or-contact-to-distribution-list.md)다음이 문서의 지침을 사용 하 여 DL을 가리키도록 착신 전환을 설정 합니다.
     
 5. 전달 하는 전자 메일 사용자의 계정을 삭제 하지 마세요, 아니면 해당 라이선스를 제거 합니다.  이렇게 하면 전자 메일 전달이 중지 됩니다. 
+
 
 ::: moniker-end 

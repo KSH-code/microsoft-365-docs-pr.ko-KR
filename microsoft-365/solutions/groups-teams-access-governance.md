@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Microsoft 365 그룹, 팀 및 SharePoint의 액세스 권한 관리에 대해 알아봅니다.
-ms.openlocfilehash: ec4e62f4d77b9aadbdc7457631ac1c4b498221c3
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+ms.openlocfilehash: 2a3a5a126a340a8ec1036eaebd22a0a0a81cf6c3
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377572"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558225"
 ---
 # <a name="governing-access-in-microsoft-365-groups-teams-and-sharepoint"></a>Microsoft 365 그룹, 팀 및 SharePoint의 액세스 제어
 
@@ -35,7 +35,7 @@ ms.locfileid: "48377572"
 ||규칙을 기반으로 하는 동적 그룹 구성원|[Azure Active Directory에서 동적 그룹 만들기 또는 업데이트](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)|
 ||파일, 폴더 및 사이트를 공유할 수 있는 사용자를 제어 합니다.|[액세스 요청 설정 및 관리](https://support.microsoft.com/office/94b26e0b-2822-49d4-929a-8455698654b3)|
 |조건부 액세스|||
-||다단계 인증|[Azure Multi-factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)|
+||다단계 인증|[Azure AD Multi-factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)|
 ||그룹, 팀 또는 사이트 민감도를 기반으로 장치 액세스를 제어 합니다.|[민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)|
 ||관리 되지 않는 장치에 대 한 사이트 액세스를 제한 합니다.|[관리 되지 않는 장치에서 SharePoint 액세스 제어](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)|
 ||위치를 기반으로 사이트 액세스 제어|[네트워크 위치에 따라 SharePoint 및 OneDrive 데이터에 대한 액세스 제어](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)|
@@ -73,7 +73,7 @@ SharePoint 사이트는 그룹 또는 팀 구성원 자격을 제외 하 고 소
 
 Microsoft 365를 사용 하 여 조직 내부 및 외부 사용자에 대해 다단계 인증을 요구할 수 있습니다. 두 번째 인증 요인을 사용자에 게 묻는 메시지가 표시 되는 상황에 대 한 다양 한 옵션이 있습니다. 조직에 다단계 인증을 배포 하는 것이 좋습니다.
 
-- [Azure Multi-factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)
+- [Azure AD Multi-factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)
 
 일부 그룹과 팀에 중요 한 정보가 있는 경우 그룹 또는 팀의 민감도 레이블을 기반으로 장치 관리 정책을 적용할 수 있습니다. 관리 되지 않는 장치에서 완전히 액세스를 차단 하거나 제한 된 웹 전용 액세스를 허용할 수 있습니다.
 

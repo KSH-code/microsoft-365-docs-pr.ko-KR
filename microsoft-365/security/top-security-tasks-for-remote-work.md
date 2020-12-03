@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다.
-ms.openlocfilehash: 8f170079a5542f703376139cdd6ec4550712d0fd
-ms.sourcegitcommit: dab50e1cc5bba920720b80033c93457f5ca1c330
+ms.openlocfilehash: df6d837c31244efb1b6cea804972601acdb5dc17
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944382"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558541"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
@@ -42,16 +42,16 @@ ms.locfileid: "48944382"
 
 |단계|작업|모든 Office 365 Enterprise 요금제|Microsoft 365 E3|Microsoft 365 E5|
 |---|---|---|---|---|
-|1 |[Azure MFA (Multi-factor Authentication) 사용](#1-enable-azure-multi-factor-authentication-mfa)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|2|[위협으로부터 보호](#2-protect-against-threats)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|3(sp3)|[Office 365 용 Microsoft Defender 구성](#3-configure-microsoft-defender-for-office-365)|||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|1 |[Azure MFA (Multi-factor Authentication) 사용](#1-enable-azure-ad-multi-factor-authentication-mfa)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|2 |[위협으로부터 보호](#2-protect-against-threats)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|3 |[Office 365 용 Microsoft Defender 구성](#3-configure-microsoft-defender-for-office-365)|||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |4 |[Id에 대 한 Microsoft Defender 구성](#4-configure-microsoft-defender-for-identity)|||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |5 |[Microsoft 365 Defender 켜기](#5-turn-on-microsoft-365-defender)|||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6 |[전화 및 태블릿에서 Intune 모바일 앱 보호 구성](#6-configure-intune-mobile-app-protection-for-phones-and-tablets)||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |7 |[Intune 앱 보호를 포함 하 여 게스트에 대 한 MFA 및 조건부 액세스 구성](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |8 |[Pc를 장치 관리에 등록 하 고 준수 Pc 필요](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |9 |[클라우드 연결용 네트워크 최적화](#9-optimize-your-network-for-cloud-connectivity)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|10  |[사용자 교육](#10-train-users)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|10 |[사용자 교육](#10-train-users)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |11 |[Microsoft Cloud App Security 시작](#11-get-started-with-microsoft-cloud-app-security)|||![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |12 |[위협 모니터링 및 작업 수행](#12-monitor-for-threats-and-take-action)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |
@@ -60,7 +60,7 @@ ms.locfileid: "48944382"
 
 ![Microsoft 보안 점수 스크린샷](../media/secure-score.png)
 
-## <a name="1-enable-azure-multi-factor-authentication-mfa"></a>1: MFA (다단계 인증)를 사용 하도록 설정
+## <a name="1-enable-azure-ad-multi-factor-authentication-mfa"></a>1: MFA (Azure AD Multi-factor Authentication) 사용
 
 집에서 작업 하는 직원에 대 한 보안을 개선 하기 위해 수행할 수 있는 가장 좋은 방법은 MFA를 켜는 것입니다. 아직 프로세스가 없는 경우에는이를 응급 파일럿으로 취급 하 고, 직원이 중단 되는 직원 들에 게 도움을 받을 수 있도록 지원 서비스를 제공 해야 합니다. 하드웨어 보안 장치를 배포할 수 없는 것 처럼 Windows Hello 생체 인식 및 smartphone 인증 앱 (예를 들어 Microsoft 인증자)을 사용 합니다.
 
@@ -112,7 +112,7 @@ Exchange Online 관리자 및 SharePoint Online 관리자와 협력 하 여 이�
 
 ## <a name="4-configure-microsoft-defender-for-identity"></a>4: Id를 위해 Microsoft Defender 구성
 
-[ID용 Microsoft Defender](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)는 온-프레미스 Active Directory 신호를 활용하여 조직에서 일어나는 고급 위협, ID 손상 및 악의적인 내부자 작업을 식별, 감지 및 조사하는 클라우드 기반 보안 솔루션입니다. 다음에는 온-프레미스 및 클라우드 인프라를 보호 하 고, 종속성 이나 필수 구성 요소가 없으며, 즉각적인 이점을 제공할 수 있으므로 중점적으로 설명 합니다.
+[Microsoft Defender For Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) 는 온-프레미스 Active Directory 신호를 활용 하 여 고급 위협, 손상 된 id 및 조직에서 보낸 악의적인 참가자 작업을 식별, 감지 및 조사 하기 위한 클라우드 기반 보안 솔루션입니다. 다음에는 온-프레미스 및 클라우드 인프라를 보호 하 고, 종속성 이나 필수 구성 요소가 없으며, 즉각적인 이점을 제공할 수 있으므로 중점적으로 설명 합니다.
 
 - 신속한 설치를 위해 [Microsoft Defender For Identity 퀵 스타트](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) 를 참조 하세요.
 - [비디오 보기: id 용 Microsoft Defender 소개](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)

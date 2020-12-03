@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: 이 문서를 사용 하 여 Office 365에서 권한이 부여 된 액세스 관리를 사용 하도록 설정 하 고 구성 하는 방법을 자세히 알아보세요.
-ms.openlocfilehash: d75a8944cdacb6df2d6ee6570c0ce327d0e7ae00
-ms.sourcegitcommit: 79a21583a52aedd06317bbcabd8be40663379dec
+ms.openlocfilehash: 6018d3b842dcadb60208e6ab53707a50e26f9d35
+ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341206"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49560876"
 ---
 # <a name="get-started-with-privileged-access-management"></a>권한이 부여된 액세스 관리 시작
 
@@ -66,7 +66,7 @@ ms.locfileid: "48341206"
 
 - [3 단계: 액세스 정책 만들기](privileged-access-management-configuration.md#step3)
 
-    승인 정책을 만들면 개별 작업에서 범위가 지정 되는 특정 승인 요구 사항을 정의할 수 있습니다. 승인 유형 옵션은 **자동** 또는 **수동**입니다.
+    승인 정책을 만들면 개별 작업에서 범위가 지정 되는 특정 승인 요구 사항을 정의할 수 있습니다. 승인 유형 옵션은 **자동** 또는 **수동** 입니다.
 
 - [4 단계: 권한 있는 액세스 요청 제출/승인](privileged-access-management-configuration.md#step4)
 
@@ -83,9 +83,9 @@ ms.locfileid: "48341206"
 
 1. 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 그룹으로 **이동 하 여**  >  **그룹을 추가**합니다.
+2. 관리 센터에서 그룹으로 **이동 하 여**  >  **그룹을 추가** 합니다.
 
-3. **메일 사용이 가능한 보안 그룹** 을 선택 하 고 새 그룹에 대 한 **이름**, **그룹 전자 메일 주소**및 **설명** 필드를 입력 합니다.
+3. **메일 사용이 가능한 보안 그룹** 을 선택 하 고 새 그룹에 대 한 **이름**, **그룹 전자 메일 주소** 및 **설명** 필드를 입력 합니다.
 
 4. 그룹을 저장 합니다. 그룹을 완전히 구성 하 고 Microsoft 365 관리 센터에 표시 하는 데 몇 분 정도 걸릴 수 있습니다.
 
@@ -101,11 +101,11 @@ ms.locfileid: "48341206"
 
 1. 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스** 로 이동 합니다.
 
 3. 권한 있는 **작업에 대 한 승인 필요** 컨트롤을 사용 하도록 설정 합니다.
 
-4. 1 단계에서 만든 승인자 그룹을 **기본 승인자 그룹**으로 지정 합니다.
+4. 1 단계에서 만든 승인자 그룹을 **기본 승인자 그룹** 으로 지정 합니다.
 
 5. **저장** 하 고 **닫습니다**.
 
@@ -120,7 +120,7 @@ Enable-ElevatedAccessControl -AdminGroup '<default approver group>' -SystemAccou
 예제:
 
 ```PowerShell
-Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', sys2@fabrikamorg.onmicrosoft.com')
+Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', 'sys2@fabrikamorg.onmicrosoft.com')
 ```
 
 >[!NOTE]
@@ -136,11 +136,11 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 
 1. 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스** 로 이동 합니다.
 
-3. **액세스 정책 및 요청 관리를**선택 합니다.
+3. **액세스 정책 및 요청 관리를** 선택 합니다.
 
-4. 정책 **구성을** 선택 하 고 **정책 추가**를 선택 합니다.
+4. 정책 **구성을** 선택 하 고 **정책 추가** 를 선택 합니다.
 
 5. 드롭다운 필드에서 조직에 적합 한 값을 선택 합니다.
     
@@ -154,7 +154,7 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 
     **승인 그룹**: 1 단계에서 만든 승인자 그룹을 선택 합니다.
 
-6. **만들기** 를 선택한 다음 **닫기를**선택 합니다. 정책을 완전히 구성 및 사용 하도록 설정 하는 데 몇 분 정도 걸릴 수 있습니다.
+6. **만들기** 를 선택한 다음 **닫기를** 선택 합니다. 정책을 완전히 구성 및 사용 하도록 설정 하는 데 몇 분 정도 걸릴 수 있습니다.
 
 ### <a name="in-exchange-management-powershell"></a>Exchange 관리 PowerShell에서
 
@@ -182,11 +182,11 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 
 1. 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스** 로 이동 합니다.
 
-3. **액세스 정책 및 요청 관리를**선택 합니다.
+3. **액세스 정책 및 요청 관리를** 선택 합니다.
 
-4. **새 요청**을 선택 합니다. 드롭다운 필드에서 조직에 적합 한 값을 선택 합니다.
+4. **새 요청** 을 선택 합니다. 드롭다운 필드에서 조직에 적합 한 값을 선택 합니다.
 
     **요청 유형**: 작업, 역할 또는 역할 그룹
 
@@ -198,7 +198,7 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 
     **설명**: 액세스 요청과 관련 된 설명에 대 한 텍스트 필드입니다.
 
-5. **저장** 을 선택한 다음 **닫기를**선택 합니다. 요청은 전자 메일을 통해 승인자 그룹에 전송 됩니다.
+5. **저장** 을 선택한 다음 **닫기를** 선택 합니다. 요청은 전자 메일을 통해 승인자 그룹에 전송 됩니다.
 
 #### <a name="in-exchange-management-powershell"></a>Exchange 관리 PowerShell에서
 
@@ -222,11 +222,11 @@ New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting t
 
 1. 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스** 로 이동 합니다.
 
-3. **액세스 정책 및 요청 관리를**선택 합니다.
+3. **액세스 정책 및 요청 관리를** 선택 합니다.
 
-4. **보기** 를 선택 하 여 **대기**, **승인**, **거부**또는 **사용자 Lockbox** 상태를 기준으로 제출 된 요청을 필터링 합니다.
+4. **보기** 를 선택 하 여 **대기**, **승인**, **거부** 또는 **사용자 Lockbox** 상태를 기준으로 제출 된 요청을 필터링 합니다.
 
 #### <a name="in-exchange-management-powershell"></a>Exchange 관리 PowerShell에서
 
@@ -250,13 +250,13 @@ Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | selec
 
 1. 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스** 로 이동 합니다.
 
-3. **액세스 정책 및 요청 관리를**선택 합니다.
+3. **액세스 정책 및 요청 관리를** 선택 합니다.
 
 4. 나열 된 요청을 선택 하 여 세부 정보를 보고 요청에 대해 작업을 수행 합니다.
 
-5. 요청을 승인 하려면 **승인을** 선택 하 고 요청을 거부 하려면 **거부** 를 선택 합니다. 이전에 승인 된 요청은 **취소**를 선택 하 여 액세스를 취소할 수 있습니다.
+5. 요청을 승인 하려면 **승인을** 선택 하 고 요청을 거부 하려면 **거부** 를 선택 합니다. 이전에 승인 된 요청은 **취소** 를 선택 하 여 액세스를 취소할 수 있습니다.
 
 #### <a name="in-exchange-management-powershell"></a>Exchange 관리 PowerShell에서
 
@@ -292,15 +292,15 @@ Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comm
 
 1. 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스** 로 이동 합니다.
 
-3. **액세스 정책 및 요청 관리를**선택 합니다.
+3. **액세스 정책 및 요청 관리를** 선택 합니다.
 
-4. **정책 구성을**선택 합니다.
+4. **정책 구성을** 선택 합니다.
 
-5. 삭제할 정책을 선택 하 고 **정책 제거**를 선택 합니다.
+5. 삭제할 정책을 선택 하 고 **정책 제거** 를 선택 합니다.
 
-6. **닫기**를 선택합니다.
+6. **닫기** 를 선택합니다.
 
 ### <a name="in-exchange-management-powershell"></a>Exchange 관리 PowerShell에서
 
@@ -318,7 +318,7 @@ Remove-ElevatedAccessApprovalPolicy -Identity <identity GUID of the policy you w
 
 1. 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정**  >  **조직 설정**  >  **보안 & 개인 정보**  >  **권한 부여 액세스** 로 이동 합니다.
 
 3. 권한 있는 **액세스 제어에 대 한 승인 필요** 를 사용 하도록 설정 합니다.
 

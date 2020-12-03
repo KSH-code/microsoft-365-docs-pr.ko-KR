@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Microsoft defender for Office 365와 Microsoft Defender for Endpoint를 함께 사용 하 여 장치 및 전자 메일 콘텐츠에 대 한 위협에 대 한 자세한 정보를 확인 하세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7f668aa1234509789dacd2b018b94f1bfbc79e2c
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 8a598dce3a8049d97d43b742477ca8f7a2bfeadb
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357782"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561222"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Microsoft defender for Office 365 with Endpoint for for 끝점 사용
 
@@ -47,7 +47,7 @@ Microsoft defender for Office 365을 끝점에 통합 하면 사용자의 장치
 
 - 조직에 Office 365 (또는 Office 365 E5) 용 Microsoft Defender가 있고 끝점에 대 한 Microsoft Defender가 있어야 합니다.
     
-- 전역 관리자 이거나 보안 및 [ &amp; 준수 센터](https://protection.office.com)에서 보안 관리자 역할 (예: 보안 관리자)을 할당 해야 합니다. ( [보안 및 &amp; 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)참조)
+- 보안 [& 준수 센터](https://protection.office.com)에서 전역 관리자 이거나 보안 관리자 역할 (예: 보안 관리자)을 할당 해야 합니다. ( [보안 & 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)참조)
     
 - 보안 & 준수 센터 및 Microsoft Defender 보안 센터에서 두 [탐색기 (또는 실시간 검색)](threat-explorer.md) 에 액세스할 수 있어야 합니다.
     
@@ -73,6 +73,6 @@ Microsoft defender for Office 365을 끝점에 통합 하면 사용자의 장치
 
 [Office 365의 위협 조사 및 응답 기능](office-365-ti.md)
   
-[Office 365용 Microsoft Defender](office-365-atp.md)
+[Microsoft Defender for Office 365](office-365-atp.md)
   
-[엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection)
+[끝점에 대 한 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection)

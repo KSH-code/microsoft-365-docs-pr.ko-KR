@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 9c8d9dbc0087f1b7311863ea63e578bad3040249
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 793f51146dc85dc1c6750e82301d0e1206187ad9
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357437"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558202"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
@@ -92,8 +92,6 @@ Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 �
 ## <a name="step-3-configure-prerequisites-for-templates"></a>3 단계: 서식 파일의 필수 조건 구성
 
 대부분의 참가자 위험 관리 템플릿에는 관련 작업 알림을 생성 하도록 정책 표시기에 대해 구성 해야 하는 필수 구성 요소가 있습니다. 조직에 대해 구성할 정책에 따라 적절 한 필수 구성 요소를 구성 합니다.
-
-전자 메일 정책 서식 파일 *에서 공격적인 언어* 를 사용 하 여 정책을 구성 하는 경우이 단계를 건너뛰고 **4 단계로** 바로 이동할 수 있습니다.
 
 ### <a name="configure-microsoft-365-hr-connector"></a>Microsoft 365 HR 커넥터 구성
 

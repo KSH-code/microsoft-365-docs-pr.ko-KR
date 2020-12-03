@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: Microsoft cloud 전라남도 (Microsoft 클라우드 독일)에서 새 독일어 데이터 센터 지역의 Office 365 서비스로 이동할 때 추가 고객 환경 정보를 제공 합니다.'
-ms.openlocfilehash: b282a12966e7a6dc8a1a331409834322c5087a10
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 1eef8be624a92bf2dcaba8f0df2147697202be3a
+ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551878"
+ms.locfileid: "49560841"
 ---
 # <a name="additional-experience-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Microsoft Cloud 독일의 마이그레이션에 대 한 추가 환경 정보 
 
@@ -101,7 +101,7 @@ ms.locfileid: "49551878"
 
 | 단계 | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
-| Office 클라이언트를 시작 하는 동안 클라이언트, Office Online에서 Azure AD는 Office 365 서비스를 가리키도록 테 넌 트 범위를 마무리 합니다.<!--v-gmoor: What?--> | 이 구성 변경은 Office 클라이언트에서 Office 365 서비스 끝점을 업데이트 하 고 가리킬 수 있도록 합니다. | 모든 Office 고객 | -고객 소유의 DNS에서 MSOID CName을 제거 합니다 (있는 경우). <br><br> -사용자에 게 _모든_ office 앱을 닫고 다시 로그인 (또는 클라이언트를 다시 시작 하 고 로그인 해야 함) 하 여 office 클라이언트에서 변경 내용을 선택할 수 있도록 합니다. <br><br> -사용자에 게 알리거나 지원 센터 직원에 게 사용자에 게 알림-72 시간 이내에 Office 앱을 다시 정품 인증 하 라는 메시지를 표시 하는 Office 배너가 표시 *될 수 있습니다* . <br><br> -개인 컴퓨터의 모든 Office 응용 프로그램을 종료 해야 하 고 사용자가 로그 아웃 한 다음 다시 로그인 해야 합니다. 노란색 정품 인증 표시줄에서 로그인 하 여 Office 365 서비스에 대해 다시 활성화 합니다. <br><br> -공유 컴퓨터에는 개인 컴퓨터와 유사한 작업이 필요 하며 특별 한 절차가 필요 하지 않습니다. <br><br> -모바일 장치에서는 사용자가 앱에서 로그 아웃 하 고 닫은 다음 다시 로그인 해야 합니다. |
+| Office 클라이언트를 시작 하는 동안 클라이언트, Office Online에서 Azure AD는 Office 365 서비스를 가리키도록 테 넌 트 범위를 마무리 합니다. | 이 구성 변경은 Office 클라이언트에서 Office 365 서비스 끝점을 업데이트 하 고 가리킬 수 있도록 합니다. | 모든 Office 고객 | -고객 소유의 DNS에서 MSOID CName을 제거 합니다 (있는 경우). <br><br> -사용자에 게 _모든_ office 앱을 닫고 다시 로그인 (또는 클라이언트를 다시 시작 하 고 로그인 해야 함) 하 여 office 클라이언트에서 변경 내용을 선택할 수 있도록 합니다. <br><br> -사용자에 게 알리거나 지원 센터 직원에 게 사용자에 게 알림-72 시간 이내에 Office 앱을 다시 정품 인증 하 라는 메시지를 표시 하는 Office 배너가 표시 *될 수 있습니다* . <br><br> -개인 컴퓨터의 모든 Office 응용 프로그램을 종료 해야 하 고 사용자가 로그 아웃 한 다음 다시 로그인 해야 합니다. 노란색 정품 인증 표시줄에서 로그인 하 여 Office 365 서비스에 대해 다시 활성화 합니다. <br><br> -공유 컴퓨터에는 개인 컴퓨터와 유사한 작업이 필요 하며 특별 한 절차가 필요 하지 않습니다. <br><br> -모바일 장치에서는 사용자가 앱에서 로그 아웃 하 고 닫은 다음 다시 로그인 해야 합니다. |
 |||||
 
 <!--
@@ -117,7 +117,7 @@ EDiscovery:
 
 | 단계 | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
-| 마이그레이션 중에 eDiscovery 검색은 SharePoint Online, 비즈니스용 OneDrive 및 마이그레이션된 Exchange Online 위치에 대해 실패 하거나 결과가 반환 됩니다. | 마이그레이션 중에 고객은 보안 & 준수 센터에서 콘텐츠 검색을 포함 하 여 사례, 보존, 검색 및 내보내기를 계속 만들 수 있습니다.  그러나 SharePoint Online, 비즈니스용 OneDrive 및 마이그레이션된 Exchange Online 위치에 대 한 검색은 0 결과를 반환 하거나 오류를 생성 합니다. 업데이트 관리에 대 한 내용은 _영향_ 열을 참조 하십시오. | EDiscovery를 사용 하는 모든 고객 |  마이그레이션 중에 검색 결과가 0 이거나 오류가 반환 되는 경우에는 SharePoint Online에 대해 다음 작업을 수행 하세요. <br><br>  [Onedrive 또는 sharepoint에서 다운로드 파일 및 폴더](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05)의 지침을 수행 하 여 SharePoint Online/비즈니스용 OneDrive 사이트에서 직접 사이트를 다운로드 합니다. 이 방법을 사용 하려면 사이트에 대 한 SharePoint Online 관리자 권한 또는 읽기 전용 권한이 필요 합니다. <br><br> [Onedrive 또는 SharePoint에서 다운로드 파일 및 폴더](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05)에 설명 된 대로 제한이 초과 되는 경우 고객은 [sharepoint 및 팀 파일을 컴퓨터와 동기화](https://support.office.com/article/sync-sharepoint-files-with-the-new-onedrive-sync-app-6de9ede8-5b6e-4503-80b2-6190f3354a88)하는 지침을 따라 비즈니스용 OneDrive 동기화 클라이언트를 사용할 수 있습니다. <br><br> -Exchange Online <br><br> - [Exchange Server의 원본 위치 eDiscovery](https://docs.microsoft.com/Exchange/policy-and-compliance/ediscovery/ediscovery) |
+| 마이그레이션 중에 eDiscovery 검색은 SharePoint Online, 비즈니스용 OneDrive 및 마이그레이션된 Exchange Online 위치에 대해 실패 하거나 결과가 반환 됩니다. | 마이그레이션 중에 고객은 [보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)에서 [콘텐츠 검색](https://docs.microsoft.com/microsoft-365/compliance/search-for-content)을 포함 하 여 사례, 보존, 검색 및 내보내기를 계속 만들 수 있습니다.  그러나 SharePoint Online, 비즈니스용 OneDrive 및 마이그레이션된 Exchange Online 위치에 대 한 검색은 0 결과를 반환 하거나 오류를 생성 합니다. 업데이트 관리에 대 한 내용은 _영향_ 열을 참조 하십시오. | EDiscovery를 사용 하는 모든 고객 |  마이그레이션 중에 검색 결과가 0 이거나 오류가 반환 되는 경우에는 SharePoint Online에 대해 다음 작업을 수행 하세요. <br><br>  [Onedrive 또는 sharepoint에서 다운로드 파일 및 폴더](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05)의 지침을 수행 하 여 SharePoint Online/비즈니스용 OneDrive 사이트에서 직접 사이트를 다운로드 합니다. 이 방법을 사용 하려면 사이트에 대 한 SharePoint Online 관리자 권한 또는 읽기 전용 권한이 필요 합니다. <br><br> [Onedrive 또는 SharePoint에서 다운로드 파일 및 폴더](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05)에 설명 된 대로 제한이 초과 되는 경우 고객은 [sharepoint 및 팀 파일을 컴퓨터와 동기화](https://support.office.com/article/sync-sharepoint-files-with-the-new-onedrive-sync-app-6de9ede8-5b6e-4503-80b2-6190f3354a88)하는 지침을 따라 비즈니스용 OneDrive 동기화 클라이언트를 사용할 수 있습니다. <br><br> -Exchange Online <br><br> - [Exchange Server의 원본 위치 eDiscovery](https://docs.microsoft.com/Exchange/policy-and-compliance/ediscovery/ediscovery) |
 |||||
 
 <!--
@@ -260,7 +260,7 @@ EDiscovery:
 
 전환을 통해 이동 하는 경우:
 
-- [마이그레이션 단계 작업 및 영향](ms-cloud-germany-transition-phases.md)
+- [문장 작업 및 영향 마이그레이션](ms-cloud-germany-transition-phases.md)
 - [추가 사전 작업](ms-cloud-germany-transition-add-pre-work.md)
 - [서비스](ms-cloud-germany-transition-add-general.md), [장치](ms-cloud-germany-transition-add-devices.md), [환경](ms-cloud-germany-transition-add-experience.md)및 [AD FS](ms-cloud-germany-transition-add-adfs.md)에 대 한 추가 정보
 

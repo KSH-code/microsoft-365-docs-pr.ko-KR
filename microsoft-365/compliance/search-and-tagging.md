@@ -2,8 +2,8 @@
 title: 검색 및 태그 지정
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 audience: ITPro
@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 22f5adad-1bc0-460d-94a9-8732929f5b99
 description: 고급 eDiscovery에서 검색 및 태그 지정 모듈을 사용 하 여 사용자의 경우 문서를 검색, 미리 보기 및 구성할 수 있습니다. 현재이 모듈은 베타 버전입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eba95f4832e674bae0a26d3fa8466b0118a9715d
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 7afa106d07e60dfc297b90c25965dafeeb7337a7
+ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818897"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49562935"
 ---
 # <a name="search-and-tagging"></a>검색 및 태그 지정
 
@@ -64,11 +64,11 @@ ms.locfileid: "44818897"
 |**[tagname] relevancetag_**\*\* <br/> | 항목에 관련성을 수동으로 태그가 지정 된 경우 [tagname]에 정의 된 태그입니다. <br/> |
 |||
 
-\*Themes 모듈을 실행 한 경우에만 사용할 수 있습니다.
+\* Themes 모듈을 실행 한 경우에만 사용할 수 있습니다.
 
-\*\*관련성 모듈이 실행 된 경우에만 사용할 수 있습니다.
+\*\* 관련성 모듈이 실행 된 경우에만 사용할 수 있습니다.
 
-또는 고급 eDiscovery 검색 도구에서 조건 카드를 사용 하 여 검색 쿼리에 조건 (선택한 속성)을 추가할 수 있습니다. 다음 스크린샷은 쿼리에 추가할 수 있는 조건을 보여 줍니다. **그룹** 열은 속성을 전자 메일, 사이트 문서 또는 둘 다에 적용할지를 나타냅니다 ( *공통*값으로 표시 됨). 또한이 열은 관련성 모듈을 실행 한 후에 사용할 수 있는 검색 가능한 속성을 식별 합니다.
+또는 고급 eDiscovery 검색 도구에서 조건 카드를 사용 하 여 검색 쿼리에 조건 (선택한 속성)을 추가할 수 있습니다. 다음 스크린샷은 쿼리에 추가할 수 있는 조건을 보여 줍니다. **그룹** 열은 속성을 전자 메일, 사이트 문서 또는 둘 다에 적용할지를 나타냅니다 ( *공통* 값으로 표시 됨). 또한이 열은 관련성 모듈을 실행 한 후에 사용할 수 있는 검색 가능한 속성을 식별 합니다.
 
 ![Advanced eDiscovery 검색 도구의 검색 조건](../media/AeDSearchConditions.png)
 

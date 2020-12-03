@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 위협 수정
 appliesto:
 - Microsoft 365 Defender
-ms.openlocfilehash: 5568a296697c7cdbbada333d45f498a2876603f9
-ms.sourcegitcommit: 5480982967a90ca3060a59676a6b29155f2de861
+ms.openlocfilehash: 4adabe3e85b2bff26167bfad92a9a7fcbf24e58e
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350737"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561294"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Office 365에서 제공 되는 악성 전자 메일 재구성
 

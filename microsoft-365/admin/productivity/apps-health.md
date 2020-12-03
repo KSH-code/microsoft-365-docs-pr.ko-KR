@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 Apps 상태 기술에 대 한 자세한 내용은 생산성 성과를 경험 합니다.
-ms.openlocfilehash: c38f2109ed41377cfccb9838c95dbfbebbfd322a
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: a84e919ce01775b8791ed7a1992464e4f52c7234
+ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123514"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49562946"
 ---
-# <a name="microsoft-365-apps-health--technology-experiences"></a>Microsoft 365 앱 상태-기술 환경
+# <a name="microsoft-365-apps-health--technology-experiences"></a>Microsoft 365 Apps 상태 - 기술 경험
 
-생산성 점수 조직은 조직에서 Microsoft 365 앱과 지원 되는 기술 환경을 사용 하는 방법에 대 한 메트릭으로 작업을 수행 하는 방식을 변환 합니다. 점수에는 사용자와 기술 경력 범주에 대 한&#39;s 조직의 성과를 반영 하 고 사용자의 성과와 같은 조직에 대 한 점수가 비교 됩니다. 앱 상태 범주는 기술 환경에 따라 측정 되는 측정값의 일부입니다. 자세한 내용은 [생산성 점수 개요](productivity-score.md) 를 참조 하세요.
+생산성 점수는 Microsoft 365 및이를 지 원하는 기술 환경을 통해 조직의 디지털 변환에 대 한 정보를 제공 합니다. 조직의 점수가 사용자 및 기술 경험 측정법을 반영 하며,이에 해당 하는 조직에 대 한 벤치 마크와 비교할 수 있습니다. 앱 상태 범주는 기술 환경에 따라 측정 되는 측정값의 일부입니다. 자세한 내용은 [생산성 점수 개요](productivity-score.md) 를 확인 하 고 [Microsoft의 개인 정보 취급 방침](https://privacy.microsoft.com/privacystatement)을 읽어 보세요.
 
 ## <a name="why-your-organization39s-microsoft-365-apps-health-score-matters"></a>조직의&#39;s Microsoft 365 앱 상태 점수가 중요 한 이유
 
@@ -101,11 +101,11 @@ Microsoft 365 apps 상태 점수는 장치가 권장 채널 및 최신 버전에
 
 :::image type="content" source="../../media/trendline-devices-supportedversions.png" alt-text="시간에 따라 지원 되는 장치 수와 최신 버전의 앱이 실행 되는 방식을 나타내는 차트입니다.":::
 
-## <a name="people-in-your-organization"></a>조직 내부 사용자
+## <a name="devices-in-your-organization"></a>조직의 장치
 
 이 섹션에서는 Microsoft 365 앱 상태 기술 환경의 모든 메트릭에 대 한 관련 정보를 제공 하 여 중점적으로 확인할 메트릭에 대해 설명 합니다.
 
-사용자 수준에서 다음 열이 표에 표시 됩니다.
+다음 열은 채널/버전 수준에 있는 표에 나와 있습니다.
 
 - **채널** : 장치의 현재 Microsoft 365 앱 채널입니다.
 - **상태:**   Microsoft 365 apps 현재 채널 및 버전을 기반으로 하는 장치의 상태를 지원 합니다.

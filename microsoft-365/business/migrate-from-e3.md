@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 E3에서 Microsoft 365 Business Premium로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: b8aa58f1f050ec6247479ed02e142507a2df45fc
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: eebf78c24ed4bfd1a4fc2d843f37aebbe3d35e31
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842163"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558261"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Office 365 E3에서 Microsoft 365 Business Premium으로 마이그레이션 
 
@@ -53,7 +53,7 @@ Microsoft 365 Business Premium에는 최고급 비즈니스에 필요한 모든 
 | **위협 방지**        | | | 
 | Defender for Office 365 계획 1 | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | 포함 되지 않지만 추가할 수 있음 | 
 | **Id 관리**        | | | 
-| 하이브리드 Azure Active Directory에 대 한 셀프 서비스 암호 재설정 (Azure AD) 계정, Azure MFA (다단계 인증), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장|     ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    |  | 
+| 하이브리드 Azure Active Directory (Azure AD) 계정에 대 한 셀프 서비스 암호 재설정, Azure ad (multi-factor authentication (MFA), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장)|     ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    |  | 
 | **장치 및 앱 관리**        | | |
 | Microsoft Intune, Windows AutoPilot|     ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    |  |
 | 공유 컴퓨터 활성화|     ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Office 365 E3에 포함](../media/check-mark.png)| 

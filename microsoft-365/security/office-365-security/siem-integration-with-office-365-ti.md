@@ -18,21 +18,21 @@ ms.collection:
 - M365-security-compliance
 description: Office 365 활동 관리 API에서 조직의 SIEM 서버를 Microsoft Defender for Office 365 및 관련 위협 이벤트와 통합 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 185e6e816cfff4131d7b5af11c4e3ea9cf94b338
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 6253ed0133bf53bdbeca71bb595a850e25441311
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843579"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561708"
 ---
 # <a name="siem-integration-with-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 SIEM 통합
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-조직에서 SIEM (보안 정보 및 이벤트 관리) 서버를 사용 하는 경우 Office 365 용 Microsoft Defender를 SIEM 서버와 통합할 수 있습니다. [Office 365 활동 관리 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 사용 하 여이 통합을 설정할 수 있습니다. 
+조직에서 SIEM (보안 정보 및 이벤트 관리) 서버를 사용 하는 경우 Office 365 용 Microsoft Defender를 SIEM 서버와 통합할 수 있습니다. [Office 365 활동 관리 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 사용 하 여이 통합을 설정할 수 있습니다.
 
-SIEM 통합을 사용 하면 SIEM server reports에서 Microsoft Defender for Office 365에서 검색 된 맬웨어 또는 피싱 같은 정보를 볼 수 있습니다. 
+SIEM 통합을 사용 하면 SIEM server reports에서 Microsoft Defender for Office 365에서 검색 된 맬웨어 또는 피싱 같은 정보를 볼 수 있습니다.
 
 - 365 Office 365 용 Microsoft Defender와의 SIEM 통합에 대 한 예를 보려면 [기술 커뮤니티 블로그: Office 365 용 Defender와 O365 관리 API의 효율성 향상](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185)을 참조 하세요.
 
@@ -40,11 +40,11 @@ SIEM 통합을 사용 하면 SIEM server reports에서 Microsoft Defender for Of
 
 ## <a name="how-siem-integration-works"></a>SIEM 통합 작동 방식
 
-Office 365 활동 관리 API는 조직의 Microsoft 365 및 Azure Active Directory 활동 로그에서 사용자, 관리자, 시스템 및 정책 작업과 이벤트에 대 한 정보를 검색 합니다. 조직에 Microsoft Defender for Office 365 계획 1 또는 2 또는 Office 365 E5가 있는 경우 [Microsoft defender For office 365 schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema)를 사용할 수 있습니다.  
+Office 365 활동 관리 API는 조직의 Microsoft 365 및 Azure Active Directory 활동 로그에서 사용자, 관리자, 시스템 및 정책 작업과 이벤트에 대 한 정보를 검색 합니다. 조직에 Microsoft Defender for Office 365 계획 1 또는 2 또는 Office 365 E5가 있는 경우 [Microsoft defender For office 365 schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema)를 사용할 수 있습니다.
 
 최근에 [Microsoft Defender For Office 365 계획 2](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2) 의 자동화 된 조사 및 응답 기능의 이벤트가 Office 365 관리 활동 API에 추가 되었습니다. API에는 ID, 이름 및 상태와 같은 핵심 조사 세부 정보에 대 한 데이터를 포함 하는 것 외에 조사 작업과 엔터티에 대 한 높은 수준의 정보도 포함 되어 있습니다.
 
-SIEM 서버 또는 기타 유사한 시스템은 검색 이벤트에 액세스 하기 위한 **감사의 일반적인** 작업을 폴링합니다. 자세한 내용은 [Office 365 관리 api 시작](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)하기를 참조 하세요. 
+SIEM 서버 또는 기타 유사한 시스템은 검색 이벤트에 액세스 하기 위한 **감사의 일반적인** 작업을 폴링합니다. 자세한 내용은 [Office 365 관리 api 시작](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)하기를 참조 하세요.
 
 ## <a name="enum-auditlogrecordtype---type-edmint32"></a>Enum: AuditLogRecordType: Edm. i a i. Int32
 

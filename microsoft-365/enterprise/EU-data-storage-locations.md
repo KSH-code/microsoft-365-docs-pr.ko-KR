@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 유럽 연합 내에서 Microsoft 365 고객 데이터가 저장되는 위치 확인
-ms.openlocfilehash: 5a50600c123dad1a0e4d14fd8f47283f951d3edc
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: 78c2ae75656df017631fce0a189f6e25ee44f20f
+ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376717"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49527688"
 ---
 # <a name="data-locations-for-the-european-union"></a>유럽 연합의 데이터 위치
 
@@ -63,8 +63,10 @@ Microsoft 365 서비스를 사용할 때는 기업 고객이 비즈니스 데이
 ||||| 
 
 >[!Note]
->Office 365 Education 구독이 프랑스 또는 독일의 청구 주소를 사용하는 경우, 데이터가 유럽 연합 지역 데이터 센터에 저장될 수 있습니다. 
+>Office 365 Education 구독이 프랑스 또는 독일의 청구 주소를 사용하는 경우, 데이터가 유럽 연합 지역 데이터 센터에 저장될 수 있습니다. EU 외 지역의 테넌트 데이터 위치에 대해서는 [Microsoft 365 고객 데이터가 저장되는 위치](o365-data-locations.md)를 참조하세요.
 >
+
+
 
 ### <a name="where-eu-data-is-computed"></a>EU 데이터가 계산되는 위치
 

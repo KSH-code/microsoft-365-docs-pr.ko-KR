@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: 하드웨어 기반 격리의 최신 버전을 다운로드 합니다. 악용 또는 악성 링크와 같은 현재 및 신흥 공격을 방지 하 여 직원의 생산성 및 기업 보안을 방해 하지 않도록 합니다.
-ms.openlocfilehash: c9b31ff91521b6badda31b6eb3202f370769a0fd
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+ms.openlocfilehash: 075006bb8f000dbbda2fd564e0c7cf83c1a15129
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49021076"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561438"
 ---
 # <a name="application-guard-for-office-public-preview-for-admins"></a>관리자를 위한 Application Guard for Office (공용 미리 보기)
 
@@ -29,8 +29,8 @@ ms.locfileid: "49021076"
 
 **적용 대상:** Word, Excel 및 PowerPoint for Microsoft 365, Windows 10 Enterprise
 
->[!IMPORTANT]
->일부 정보는 상업적으로 출시 되기 전에 크게 수정 될 수 있는 prereleased 제품과 관련 되어 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> [!IMPORTANT]
+> 일부 정보는 상업적으로 출시 되기 전에 크게 수정 될 수 있는 prereleased 제품과 관련 되어 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 Microsoft Defender Application Guard for Office (Application Guard for office)를 사용 하면 신뢰할 수 없는 파일이 신뢰할 수 있는 리소스에 액세스 하지 못하도록 방지 하 여 기업이 새로운 공격 으로부터 안전 하 게 보호 되도록 할 수 있습니다. 이 문서에서는 Office 용 응용 프로그램 보호를 미리 볼 장치를 설정 하는 관리자를 안내 합니다. 장치에서 Office 용 Application Guard를 사용 하도록 설정 하는 시스템 요구 사항 및 설치 단계에 대 한 정보를 제공 합니다.
 
@@ -38,15 +38,15 @@ Microsoft Defender Application Guard for Office (Application Guard for office)�
 
 ### <a name="minimum-hardware-requirements"></a>최소 하드웨어 요구 사항
 
-* **CPU** : 64 비트, 4 코어 (실제 또는 가상), 가상화 확장 (Intel VT-x 또는 AMD-V), 핵심 i5가 동일 하거나 더 권장 됩니다.
-* **실제 메모리** : 8gb RAM
-* **하드 디스크** : 시스템 드라이브에 10gb의 사용 가능한 공간 (SSD 권장)
+* **CPU**: 64 비트, 4 코어 (실제 또는 가상), 가상화 확장 (Intel VT-x 또는 AMD-V), 핵심 i5가 동일 하거나 더 권장 됩니다.
+* **실제 메모리**: 8gb RAM
+* **하드 디스크**: 시스템 드라이브에 10gb의 사용 가능한 공간 (SSD 권장)
 
 ### <a name="minimum-software-requirements"></a>최소 소프트웨어 요구 사항
 
-* **Windows 10** : Windows 10 Enterprise Edition, 클라이언트 빌드 버전 2004 (20H1) 빌드 19041
-* **Office** : Office 베타 채널 빌드 버전 2008 16.0.13212 이상
-* **업데이트 패키지** : Windows 10 누적 월별 보안 업데이트 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756)
+* **Windows 10**: Windows 10 Enterprise Edition, 클라이언트 빌드 버전 2004 (20H1) 빌드 19041
+* **Office**: Office 베타 채널 빌드 버전 2008 16.0.13212 이상
+* **업데이트 패키지**: Windows 10 누적 월별 보안 업데이트 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756)
 
 시스템 요구 사항에 대 한 자세한 내용은 [Microsoft Defender Application Guard에 대 한 시스템 요구 사항을](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard)참조 하세요. Office Insider Preview 빌드에 대 한 자세한 내용은 [Office 참가자 빌드 배포 시작](https://insider.office.com/business/deploy)을 참조 하세요.
 

@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 이동성 및 보안은 Microsoft 365 계획의 일부입니다.
-ms.openlocfilehash: b9568d0aad03fc3c8a5c81d02f98f5b238124a82
-ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+ms.openlocfilehash: 8724b3dccbdb5949190ceda4b804b9f1f2a5d4b2
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48930168"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561498"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>기본 이동성 및 보안 또는 Intune 중에서 선택
 
@@ -33,7 +33,7 @@ ms.locfileid: "48930168"
  
 기본 Mobility and Security 및 Intune은 다음 표에 설명 된 것과 같이 다양 한 계획에 포함 되어 있습니다.
 
-|**플랜**|**기본 이동성 및 보안**|**Microsoft Intune**|
+| 계획 | 기본 모바일 및 보안 | Microsoft Intune |
 |:-----|:-----|:-----|
 |Microsoft 365 앱|예|아니요|
 |Microsoft 365 Business Basic|예|아니요|
@@ -64,11 +64,11 @@ Microsoft Intune과 기본 제공 되는 기본 이동성 및 보안 둘 다 조
 >[!NOTE]
 >*기본 mobility And security을 먼저 설정한 다음 Microsoft Intune을 추가 하 여* 동일한 Microsoft 365 Business Standard 조 직에서 Intune과 기본 이동성 및 보안을 모두 사용 하 여 사용자 및 모바일 장치를 관리할 수 있습니다. 이를 통해 기본 모바일 및 보안 기능 또는 기능이 풍부한 Intune 솔루션을 선택할 수 있습니다. Intune 기능을 사용 하기 위해 Intune 라이선스를 할당 합니다.
 
-|**기능 영역**|**주요 기능**|**기본 이동성 및 보안**|**Microsoft Intune**|
+| 기능 영역 | 주요 기능 | 기본 모바일 및 보안 | Microsoft Intune |
 |:-----|:-----|:-----|:-----|
 |장치 유형|여러 OS 플랫폼 및 주요 관리 모드 변형 관리 |Windows<br/>iOS<br/>Android<br/>Android Samsung KNOX<br/>|Windows<br/>iOS<br/>Android<br/>Android Samsung KNOX<br/>mac OS, iPad OS|
 |장치 준수|장치 수준 PIN 잠금 및 jailbreak 검색 등의 보안 정책을 설정 하 고 관리 합니다. |Android 9 이상 장치에 대 한 제한 [세부 정보](capabilities.md)를 참조 하세요. |예|
-|장치 규정 준수에 따른 조건부 액세스 |비규격 장치가 클라우드의 회사 전자 메일 및 데이터에 액세스 하지 못하도록 합니다. |Windows 10에서는 지원 되지 않습니다.<br/>Exchange Online, SharePoint Online 및 Outlook에 대 한 액세스를 제어 하는 것으로 제한 됩니다. |아니요 |
+|장치 규정 준수에 따른 조건부 액세스 |비규격 장치가 클라우드의 회사 전자 메일 및 데이터에 액세스 하지 못하도록 합니다. |Windows 10에서는 지원 되지 않습니다.<br/>Exchange Online, SharePoint Online 및 Outlook에 대 한 액세스를 제어 하는 것으로 제한 됩니다. |예 |
 |장치 구성  |장치 설정 구성 (예: 카메라 사용 안 함)|장치 준수|장치 수준 PIN 잠금 및 jailbreak 검색 등의 보안 정책을 설정 하 고 관리 합니다. |Android 9 이상 장치에 대 한 제한 [세부 정보](capabilities.md)를 참조 하세요. |예|
  |제한 된 설정 집합입니다. |예|
 |전자 메일 프로필  |장치에서 기본 전자 메일 프로필을 프로 비전 합니다. |예|예|

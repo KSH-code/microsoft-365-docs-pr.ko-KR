@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Microsoft 예약이 자주 묻는 질문입니다.
-ms.openlocfilehash: 40605cfc7e5d30e12cd34a463a76e8d9c324efc7
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 47bb71476c3fd0b32f9be3e71b188bef6efe2498
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445454"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561558"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Microsoft 예약 faq (질문과 대답)
 
@@ -29,7 +29,7 @@ Microsoft 예약은 약속을 간편 하 게 예약 하 고 관리 하는 Micros
 
 ### <a name="who-has-access-to-microsoft-bookings"></a>Microsoft 예약에 액세스할 수 있는 사람은 누구 인가요?
 
-예약은 전 세계 Microsoft 365 Business Premium, A3, A5, E3 및 E5 고객에 대해 기본적으로 사용 가능 하 고 활성화 됩니다. 예약 기능은 21Vianet에서 운영 하는 Office 365 에서도 사용할 수 있습니다.
+예약은 기본적으로 사용 가능 하며 Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 및 E5 고객의 경우에만 활성화 됩니다. 예약 기능은 21Vianet에서 운영 하는 Office 365 에서도 사용할 수 있습니다.
 
 ### <a name="will-my-customers-see-my-personal-or-business-calendar"></a>고객이 개인 또는 비즈니스 일정을 볼 수 있습니까?
 
@@ -37,7 +37,7 @@ Microsoft 예약은 약속을 간편 하 게 예약 하 고 관리 하는 Micros
 
 ### <a name="how-do-end-users-access-the-bookings-app"></a>최종 사용자가 예약 앱에 액세스 하는 방법
 
-Microsoft 365 Business Premium, A3, A5, E3, E5에 대해 라이선스가 부여 된 모든 사용자 또는 관리자 또는 Viewer 역할이 Microsoft 365 웹 환경 내에서 앱 선택의 예약에 액세스할 수 있습니다. IOS 및 Android에도 사용할 수 있는 자매 앱이 있습니다.
+Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3, E5 또는 직원 구성원으로 추가 되는 모든 사용자는 관리자 또는 Viewer 역할이 Microsoft 365 웹 환경 내에서 앱 선택의 예약에 액세스할 수 있습니다. IOS 및 Android에도 사용할 수 있는 자매 앱이 있습니다.
 
 ### <a name="can-i-use-bookings-in-my-own-web-site"></a>자체 웹 사이트에서 예약을 사용할 수 있나요?
 
@@ -49,9 +49,9 @@ Microsoft 365 Business Premium, A3, A5, E3, E5에 대해 라이선스가 부여 
 
 ### <a name="can-our-it-department-control-whether-end-users-can-access-bookings"></a>IT 부서가 최종 사용자가 예약에 액세스할 수 있는지 여부를 제어할 수 있나요?
 
-예약 기능은 Business Premium, M365 A3/A5 및 E3/E5 테 넌 트에서 기본적으로 제공 되지만 관리자가 원하는 경우 Microsoft 365 관리 센터에서이 기능을 해제할 수 있습니다. 이렇게 하려면 [다음 지침을 따릅니다](turn-bookings-on-or-off.md).
+예약 기능은 Microsoft 365 Business Premium, Microsoft 365 Business Standard, M365 A3/A5 및 E3/E5 테 넌 트에 기본적으로 제공 되지만 관리자가 원하는 경우 Microsoft 365 관리 센터에서이 기능을 해제할 수 있습니다. 이렇게 하려면 [다음 지침을 따릅니다](turn-bookings-on-or-off.md).
 
-고객이 테 넌 트에서 적합 한 특정 라이선스의 예약에 대 한 액세스를 사용 하지 않도록 설정 하려는 경우에는 사용자가 그룹 정책을 통해 라이선스를 제한 하거나, 새 예약 일정을 만들 수 있는 사용자를 제한 하는 OWA 사서함 정책을 구현할 수 있습니다.
+고객이 테 넌 트에서 적합 한 특정 라이선스의 예약에 대 한 액세스를 사용 하지 않도록 설정 하려는 경우 그룹 정책을 사용 하 여 라이선스를 제한 하거나 새 예약 일정을 만들 수 있는 사용자를 제한 하는 OWA 사서함 정책을 구현할 수 있습니다.
 
 OWA 사서함 정책을 사용 하 여 예약에 대 한 액세스를 사용 하지 않도록 설정 하는 경우 모든 사용자에 게 예약 라이선스가 포함 되지만, 앱에 액세스 하려고 하면 정책에 포함 되어 있거나 기존 예약 일정에 직원으로 추가 된 경우에만 성공 합니다. 자세한 내용은 "선택한 사용자만 예약 일정을 만들도록 허용" [섹션을 참조](turn-bookings-on-or-off.md) 하십시오.
 
@@ -114,7 +114,7 @@ OWA 사서함 정책을 사용 하 여 예약에 대 한 액세스를 사용 하
 
 ### <a name="how-do-i-get-microsoft-bookings"></a>Microsoft 예약을 가져오려면 어떻게 해야 하나요?
 
-예약은 Microsoft 365에서 Business Premium, A3, A5, E3 및 E5 라이선스가 있는 고객을 위한 iOS 및 Android 자매 앱과 함께 사용할 수 있습니다. 예약을 독립 실행형 앱으로 사용할 수 없습니다. Outlook Web App 또는 웹용 Outlook은 Outlook 내에 데이터를 저장 하므로 예약을 사용 하도록 설정 해야 합니다.
+예약은 microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 및 E5 라이선스와 함께 iOS 및 Android 자매 앱이 포함 된 고객을 위해 365 제공 됩니다. 예약을 독립 실행형 앱으로 사용할 수 없습니다. Outlook Web App 또는 웹용 Outlook은 Outlook 내에 데이터를 저장 하므로 예약을 사용 하도록 설정 해야 합니다.
 
 예약 라이선스는 일정 만들기 및 관리를 포함 하 여 제품에 대 한 모든 기능을 제공 합니다. 또한 사용자가 관리자 또는 뷰어 역할에 직원으로 추가 된 경우 사용자가 기존 일정을 보고 편집할 수 있습니다.
 
@@ -172,9 +172,9 @@ Microsoft는 많은 조직에서 마이크로소프트 365의 사용권이 섞�
 
 ### <a name="how-does-bookings-work-across-time-zones"></a>여러 표준 시간대에서 예약이 작동 하는 방식
 
-모든 시간은 기본적으로 회사 표준 시간대 (현지 표준 시간대)에 있습니다. 즉, 작업 시간 등의 예약 일정에 대해 구성한 설정이이 표준 시간대에 표시 됩니다. 셀프 서비스 페이지에는 최종 사용자의 표준 시간대에서 모든 약속 시간을 표시할 수 있으며, 원한다 면 해제할 수도 있습니다.예약 페이지 탭에서 **비즈니스 표준 시간대의 시간 슬롯을 항상 표시** 하지 않으면 페이지를 방문 하는 사용자에 게 자체 현지 표준 시간대의 시간 슬롯이 표시 됩니다.
+모든 시간은 기본적으로 회사 표준 시간대 (현지 표준 시간대)에 있습니다. 즉, 작업 시간 등의 예약 일정에 대해 구성한 설정이이 표준 시간대에 표시 됩니다. 셀프 서비스 페이지에는 최종 사용자의 표준 시간대에서 모든 약속 시간을 표시할 수 있으며, 원한다 면 해제할 수도 있습니다. 예약 페이지 탭에서 **비즈니스 표준 시간대의 시간 슬롯을 항상 표시** 하지 않으면 페이지를 방문 하는 사용자에 게 자체 현지 표준 시간대의 시간 슬롯이 표시 됩니다.
 
-:::image type="content" source="media/bookings-faq-region.png" alt-text="예약 예약":::
+:::image type="content" source="media/bookings-faq-region.png" alt-text="예약 지역 및 표준 시간대 설정":::
 
 예약에서 직원에 대 한 표준 시간대를 설정할 수는 없습니다. 직원 표준 시간대 및 업무 시간은 업무 시간 영역에 해당 합니다.
 
@@ -200,9 +200,9 @@ SMS 메시지는 현재 북미에서 사용 가능 하며, SMS 배달에는 Skyp
 
 ### <a name="can-calendars-remain-unpublished-not-public-facing-but-still-accessible-to-designated-users"></a>게시 되지 않은 상태 (공개 되지는 않음)를 유지할 수는 있지만 지정 된 사용자가 계속 액세스 합니까?
 
-예. 웹 앱의 예약 페이지 탭에는 **조직에서 Microsoft 365 또는 Office 365 계정을 통합 문서에 요구 하**는 확인란이 있습니다. 이 확인란을 선택 하면 셀프 서비스 페이지 액세스를 테 넌 트 내에 있는 사용자 에게만 제한 합니다. 만들기 및 관리를 위해 웹 앱 내에 배치 되는 예약 일정은 관리자 또는 Viewer 역할을 가진 페이지에 직원으로 추가 된 사용자만 액세스할 수 있습니다.
+예. 웹 앱의 예약 페이지 탭에는 **조직에서 Microsoft 365 또는 Office 365 계정을 통합 문서에 요구 하** 는 확인란이 있습니다. 이 확인란을 선택 하면 셀프 서비스 페이지 액세스를 테 넌 트 내에 있는 사용자 에게만 제한 합니다. 만들기 및 관리를 위해 웹 앱 내에 배치 되는 예약 일정은 관리자 또는 Viewer 역할을 가진 페이지에 직원으로 추가 된 사용자만 액세스할 수 있습니다.
 
-:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="예약 예약":::
+:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="예약에서 페이지 액세스 제어 예약":::
 
 ### <a name="how-frequently-does-the-home-page-update"></a>홈 페이지 업데이트 빈도
 
@@ -250,7 +250,7 @@ SMS 메시지는 현재 북미에서 사용 가능 하며, SMS 배달에는 Skyp
 
 예약 웹 앱에 대 한 액세스에는 일반 AAD (Azure Active Directory) 인증을 통한 인증이 포함 됩니다. 웹 페이지 링크를 사용 하 여 모든 사용자가 셀프 서비스 예약 페이지를 사용할 수 있습니다. 그러나 **microsoft 365 또는 조직에서 책으로 Office 365 계정을** 사용 하도록 설정 설정이 선택 되어 있으면이 페이지는 Microsoft 365 테 넌 트 (AAD 인증 사용) 내 에서만 사용할 수 있도록 제한 됩니다.
 
-:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="예약 예약":::
+:::image type="content" source="media/bookings-faq-access-ctrl.png" alt-text="예약에서 페이지 액세스 제어 예약":::
 
 ### <a name="does-customer-data-leave-the-production-system-for-any-reason"></a>고객 데이터가 어떤 이유로 든 프로덕션 시스템에서 탈퇴 하나요?
 
@@ -303,39 +303,41 @@ SMS 텍스트 메시지를 사용 하 여 약속을 예약 하는 경우 고객�
 
 1. Microsoft 365에 로그인 한 다음 앱 시작 관리자에서 **Outlook** 을 선택 합니다.
 
-   ![앱 시작 관리자의 Outlook 이미지](../media/bookings-applauncher-outlook.png)
+   > [!div class="mx-imgBorder"]
+   > ![앱 시작 관리자의 Outlook 이미지](../media/bookings-applauncher-outlook.png)
 
-1. 페이지 맨 위에서 일정 **공유** 를 선택 \> **Calendar**합니다.
+1. 페이지 맨 위에서 일정 **공유** 를 선택 \> **Calendar** 합니다.
 
    ![일정 공유 메뉴 이미지](../media/bookings-share-calendar.png)
 
-1. **조직 내부 사용자** 섹션에서 **내 조직**옆의 드롭다운 상자를 선택 하 고 **약속 있음/없음 보기**를 선택 합니다.
+1. **조직 내부 사용자** 섹션에서 **내 조직** 옆의 드롭다운 상자를 선택 하 고 **약속 있음/없음 보기** 를 선택 합니다.
 
-> [!NOTE]
-> 이 설정은 약속 있음/없음 정보를 예약 및 조직의 다른 사용자와 공유 합니다. 예약 된 약속 유형, 약속을 예약한 사용자 또는 위치와 같은 다른 정보는 여기에 포함 되지 않습니다.
+   > [!NOTE]
+   > 이 설정은 약속 있음/없음 정보를 예약 및 조직의 다른 사용자와 공유 합니다. 예약 된 약속 유형, 약속을 예약한 사용자 또는 위치와 같은 다른 정보는 여기에 포함 되지 않습니다.
 
-   ![사용 중일 때 볼 수 있는 일정 공유 화면 이미지](../media/bookings-view-busy.png)
+   > [!div class="mx-imgBorder"]
+   > ![사용 중일 때 볼 수 있는 일정 공유 화면 이미지](../media/bookings-view-busy.png)
 
-1. **완료**를 선택합니다.
+1. **완료** 를 선택합니다.
 
 ### <a name="we-cant-find-a-staff-member-in-our-organization"></a>조직에서 교직원 구성원을 찾을 수 없습니다.
 
 직원이 회사에서 Microsoft 365 또는 Office 365 조직에서이를 제거한 경우에도 예약에서 해당 사용자를 제거 하 여 일정에 표시 되지 않도록 하 고 고객에 게 약속을 예약 하는 것을 방지 해야 합니다.
 
-1. Microsoft 365에 로그인 한 다음 **예약** \> **직원**에 게 이동 합니다.
+1. Microsoft 365에 로그인 한 다음 **예약** \> **직원** 에 게 이동 합니다.
 
 1. 직원 구성원의 이름 위에 마우스 커서를 올려 놓으세요. 아이콘 **편집** 및 **삭제** 아이콘이 **전화** 열 오른쪽에 표시 됩니다.
 
 1. **삭제** 아이콘을 선택 합니다.
 
-1. 확인 상자에서 **확인**을 선택 합니다.
+1. 확인 상자에서 **확인** 을 선택 합니다.
 
 > [!NOTE]
 > 예약 달력이 두 개 이상 있는 경우 해당 사용자를 모두 제거 해야 합니다.
 
-달력이 두 개 이상 있는지 확인 하려면 왼쪽 메뉴에서 회사 이름 옆의 드롭다운 화살표를 선택 하 고 **열기**를 선택 합니다. 달력이 하나만 있는 경우 예약 일정 추가 옵션만 표시 됩니다. 이 예에서는 "Contoso CO" 라는 두 번째 달력이 있음을 보여 줍니다.
+달력이 두 개 이상 있는지 확인 하려면 왼쪽 메뉴에서 회사 이름 옆의 드롭다운 화살표를 선택 하 고 **열기** 를 선택 합니다. 달력이 하나만 있는 경우 예약 일정 추가 옵션만 표시 됩니다. 이 예에서는 "Contoso CO" 라는 두 번째 달력이 있음을 보여 줍니다.
 
-   ![두 번째 달력이 표시 된 일정 선택 달력 화면 이미지](../media/bookings-choose-calendar.png)
+![두 번째 달력이 표시 된 일정 선택 달력 화면 이미지](../media/bookings-choose-calendar.png)
 
 ### <a name="theres-a-syncing-error-we-cant-identify"></a>확인할 수 없는 동기화 오류가 있습니다.
 

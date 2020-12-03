@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: beffbe01-ce2d-4614-9ae5-7898868e2729
 description: 사용자 사서함을 사용 하 여 사용자의 활동을 파악 하기 위해 사서함 사용 현황 보고서를 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: 8d942f507c1e3102f909fb33eb16e00f7ebf05ea
-ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
+ms.openlocfilehash: 988f6e638e01cb5929e2ad9dd74e3d08f8e51c97
+ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49126570"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561462"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---mailbox-usage"></a>관리 센터의 Microsoft 365 보고서-사서함 사용량
 
@@ -36,9 +36,9 @@ ms.locfileid: "49126570"
 ## <a name="how-to-get-to-the-mailbox-usage-report"></a>사서함 사용량 보고서에 액세스하는 방법
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요.
-
 2. **활성 사용자-Microsoft 365 서비스** 에서 **자세히 보기** 를 선택 합니다. 
 3. **활성 사용자** 드롭다운 목록에서 **Exchange** \> **사서함 사용** 을 선택 합니다.
+
   
 ## <a name="interpret-the-mailbox-usage-report"></a>사서함 사용량 보고서 해석
 

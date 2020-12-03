@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Microsoft 365 Business Premium에서 Microsoft 365 E3로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3f840a27cdcf50bba7710681135f6c2e241ad14b
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+ms.openlocfilehash: 3f1bb9591e1bd2bac49326325ce6c8c2d6778497
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367058"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558242"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Microsoft 365 Business Premium에서 Microsoft 365 E3로 마이그레이션
 
@@ -62,7 +62,7 @@ Microsoft 365 Business Premium에는 소규모 기업에 필요한 모든 것이
 | 공격 표면 축소 기능    | [이 목록 보기](#threat-protection) | Microsoft Edge에 대 한 하드웨어 기반 격리의 엔터프라이즈 관리 | 
 | Defender for Office 365 계획 1 | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | 포함 되지 않지만 추가할 수 있음 | 
 | **Id 관리**        | | | 
-| 하이브리드 Azure Active Directory에 대 한 셀프 서비스 암호 재설정 (Azure AD) 계정, Azure MFA (다단계 인증), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장|     ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| 하이브리드 Azure Active Directory (Azure AD) 계정에 대 한 셀프 서비스 암호 재설정, Azure ad (multi-factor authentication (MFA), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장)|     ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | Cloud App Discovery, Azure AD Connect Health    |     | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | Azure AD Office 365 apps SSO (Single Sign-On): 사용자 당 10 개의 앱 (예: Salesforce 등의 SaaS 응용 프로그램) * | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | Azure AD Premium 1 SSO: 제한 없음 (Self-Service 앱 통합 서식 파일을 사용 하 여 Azure AD 응용 프로그램 프록시 및 비 갤러리 앱을 통한 온-프레미스 앱)    |     | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
