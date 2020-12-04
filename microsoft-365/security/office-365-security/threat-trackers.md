@@ -1,5 +1,5 @@
 ---
-title: 위협 추적기-신규 및 주목할 만한
+title: 위협 트래커 - 신규 및 주목할 만한 사항
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,93 +16,93 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: 조직에서 보안 문제를 계속 유지 하는 데 도움이 되는 새로운 주요 추적기를 비롯 한 위협 추적기에 대해 알아봅니다.
-ms.openlocfilehash: bdd15f7c2e74a2e30b2e4c5296cfde5e59bfb378
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+description: 조직이 보안 문제를 가장 잘 아는 데 도움이 되는 새로운 주목할 만한 추적기 등 위협 트래커에 대해 자세히 알아보는 방법을 배워야 합니다.
+ms.openlocfilehash: e173bb2b4ee6e7c54c7414c7f102d8c4d1d06641
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561284"
+ms.locfileid: "49568459"
 ---
-# <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-신규 및 주목할 만한
+# <a name="threat-trackers---new-and-noteworthy"></a>위협 트래커 - 신규 및 주목할 만한 사항
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-[Office 365 위협 조사 및 응답](office-365-ti.md) 기능을 통해 조직의 보안 팀이 cybersecurity 위협에 대 한 조치를 검색 하 고 작업을 수행할 수 있습니다. Office 365 위협 조사 및 응답 기능은 중요 한 추적기를 비롯 한 위협 추적 기능을 포함 합니다. 이 문서를 읽으면 이러한 새로운 기능과 다음 단계의 개요를 확인할 수 있습니다. 
+[Office 365 위협](office-365-ti.md) 조사 및 대응 기능을 통해 조직의 보안 팀은 사이버 보안 위협을 검색하고 조치를 취할 수 있습니다. Office 365 위협 조사 및 응답 기능에는 주목할 만한 추적기 등의 위협 트래커 기능이 포함되어 있습니다. 이 문서를 읽고 이러한 새로운 기능과 다음 단계를 간략하게 살펴 읽습니다.
 
 > [!IMPORTANT]
-> Office 365 위협 인텔리전스는 이제 Office 365 용 Microsoft Defender 계획 2와 추가 위협 방지 기능을 함께 제공 합니다. 자세한 내용은 [Microsoft defender For office 365 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Microsoft defender For Office 365 Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)을 참조 하세요.
-  
-## <a name="what-are-threat-trackers"></a>위협 추적기 란?
+> 이제 Office 365 위협 인텔리전스가 추가 위협 방지 기능과 함께 Office 365 계획 2용 Microsoft Defender가 됩니다. 자세한 내용은 [Microsoft Defender for Office 365 요금제](https://products.office.com/exchange/advance-threat-protection) 및 가격 및 [Office 365용 Microsoft Defender](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)서비스 설명을 참조하세요.
 
-위협 추적기는 회사에 영향을 줄 수 있는 다양 한 cybersecurity 문제에 대 한 인텔리전스를 제공 하는 정보 관련 위젯 및 보기입니다. 예를 들어 위협 추적기를 사용 하 여 추세 맬웨어 캠페인에 대 한 정보를 볼 수 있습니다.
-  
-![맬웨어 캠페인을 보여 주는 위협 추적기의 예](../../media/a883b5ac-8e2b-469a-90e0-f8ad39bb63b7.png)
-  
-대부분의 추적기 페이지에는 주기적으로 업데이트 되는 추세 번호, 즉 가장 큰 문제를 이해 하는 데 도움이 되 고, **작업** 열에서 탐색기로 이동 하는 빠른 링크가 포함 되어 있어 자세한 정보를 볼 수 있습니다. 
-  
-![탐색기의 캠페인 정보 예제](../../media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
-  
-추적기는 [Microsoft Defender For Office 365 계획 2](office-365-ti.md)에서 제공 하는 여러 가지 유용한 기능 중 일부에 불과합니다. 위협 추적기에는 [참고 가치가 있는 추적기](#noteworthy-trackers), [추세 분석](#trending-trackers), [추적 된 쿼리](#tracked-queries)및 저장 되는 [쿼리가](#saved-queries)포함 됩니다.
-  
-조직에 대 한 위협 추적기를 보고 사용 하려면 Security & 준수 센터 ()로 이동 하 여 [https://protection.office.com](https://protection.office.com) **위협 관리** \> **위협 추적기** 를 선택 합니다.
-  
+## <a name="what-are-threat-trackers"></a>위협 트래커란?
+
+위협 추적은 회사에 영향을 줄 수 있는 다양한 사이버 보안 문제에 대한 인텔리전스를 제공하는 정보 위젯 및 보기입니다. 예를 들어 위협 트래커를 사용하여 추세 맬웨어 캠페인에 대한 정보를 볼 수 있습니다.
+
+![맬웨어 캠페인을 보여주는 위협 트래커의 예](../../media/a883b5ac-8e2b-469a-90e0-f8ad39bb63b7.png)
+
+대부분의 추적 페이지에는 주기적으로 업데이트되는 추세 수치, 가장 큰 문제 또는 가장 큰 증가를 파악하는 데 **Actions** 도움이 되는 위젯, 더 자세한 정보를 볼 수 있는 탐색기로 연결되는 작업 열의 빠른 링크가 포함됩니다.
+
+![탐색기에서 캠페인 정보의 예](../../media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
+
+추적 기능은 [Office 365 계획 2용 Microsoft Defender에서](office-365-ti.md)얻을 수 있는 많은 기능 중 일부에 불과합니다. 위협 추적에는 [Noteworth 추적기,](#noteworthy-trackers) [인기](#trending-trackers)추적기, 추적된 [쿼리](#tracked-queries)및 [저장된 쿼리가 포함됩니다.](#saved-queries)
+
+조직에 대한 위협 트래커를 보고 사용, 보안 & 준수 센터() 및 위협 관리 [https://protection.office.com](https://protection.office.com) **Threat management** \> **위협 추적기 선택.**
+
 > [!NOTE]
-> 위협 추적기를 사용 하려면 전역 관리자, 보안 관리자 또는 보안 판독기 여야 합니다. [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요. 
-  
-### <a name="noteworthy-trackers"></a>중요 한 추적기
+> 위협 트래커를 사용하려면 전역 관리자, 보안 관리자 또는 보안 독자가 되어야 합니다. 보안 [및 준수 센터에서 & 참조합니다.](permissions-in-the-security-and-compliance-center.md)
 
-중요 한 추적기를 통해 사용자가 알고 있어야 하는 크고 작은 위협과 위험을 확인할 수 있습니다. 중요 한 추적기는 이러한 문제가 Microsoft 365 환경에 있는지 여부를 확인 하 고, 예를 들어, 이와 같은 문서에 대 한 링크를 통해 상황에 대 한 자세한 정보를 제공 하 고, 조직의 Office 365 사용에 미치는 영향을 확인할 수 있습니다. 새로운 위협 (예: Wannacry, Petya) 또는 새 챌린지를 만들 수 있는 기존 위협 (다른 inaugural 주목할 항목-Nemucod)이 있는 경우에는이 기능을 통해 중요 한 새 항목을 찾을 수 있으며, 보안 팀은 주기적으로 검토 하 고 조사 해야 합니다.
-  
-일반적으로 새 위협을 식별 하 고이 기능이 제공 하는 추가 표시를 필요로 할 수 있다고 생각 되는 경우에는 중요 한 추적기가 몇 주에만 게시 됩니다. 위협에 대 한 가장 큰 위험이 전달 되 면 해당 하는 항목을 제거 하 게 됩니다. 이렇게 하면 목록을 최신 상태를 유지 하는 다른 새 항목을 최신 상태로 유지할 수 있습니다.
-  
-### <a name="trending-trackers"></a>추세 분석
+### <a name="noteworthy-trackers"></a>주목할 만한 추적기
 
-추세 추적기 (이전의 캠페인 이라고 함)는 지난 주에 조직의 전자 메일에 수신 된 새 위협을 강조 표시 합니다.
-  
-![추세 맬웨어 캠페인 위젯 예](../../media/d2ccc1a0-2a1d-4e36-99b5-6766c207772f.png)
-  
-추세 추적기를 통해 더 폭넓은 회사 환경을 공격에 대비 하 여 확인 해야 하는 새로운 위협을 이해할 수 있습니다.
-  
-### <a name="tracked-queries"></a>추적 된 쿼리
+주목할 만한 추적기에서는 알아야 할 크고 작은 위협과 위험을 찾을 수 있습니다. 주목할 만한 추적은 이러한 문제가 Microsoft 365 환경에 존재하는지 여부와, 진행 중이 어떻게 되는지, Office 365의 사용에 미치는 영향에 대한 자세한 내용을 설명하는 문서(예: 문서)에 대한 링크를 찾을 수 있도록 도와 줍니다. 새로운 위협(예: Wannacry, 페티야) 또는 몇 가지 새로운 문제가 생성될 수 있는 기존 위협(예: 다른 취임 메모 항목 - 네무코드)에 여부에 따라서는 사용자와 보안 팀이 주기적으로 검토하고 검사해야 하는 중요한 새 항목을 찾을 수 있습니다.
 
-추적 쿼리는 저장 된 쿼리를 활용 하 여 조직의 Microsoft 365 활동을 주기적으로 평가 합니다. 이를 통해 이벤트 추세를 확인할 수 있으며 향후 달에 더 많이 제공 됩니다. 추적 된 쿼리는 쿼리를 다시 실행 하지 않고도 최신 정보를 제공 하 여 자동으로 실행 됩니다.
-  
-![선택한 1 개의 추적 된 쿼리 예제](../../media/0c556174-06eb-4ae5-b32a-5ff76b9e4f13.png)
-  
+일반적으로 새로운 위협을 식별하고 이 기능이 제공하는 추가 가시성이 필요할 수 있는 것으로 생각되는 경우 주목할 만한 추적 기능은 몇 주 동안 게시됩니다. 위협에 대한 가장 큰 위험이 지나면 해당 참고 항목은 제거됩니다. 이렇게 하면 다른 관련 새 항목과 함께 목록을 최신으로 유지할 수 있습니다.
+
+### <a name="trending-trackers"></a>인기 추적기
+
+인기 있는 추적기(이전의 캠페인)는 지난 주에 조직의 전자 메일에 수신된 새로운 위협을 강조합니다.
+
+![인기 맬웨어 캠페인 위젯의 예](../../media/d2ccc1a0-2a1d-4e36-99b5-6766c207772f.png)
+
+추세 추적기에서 더 광범위한 회사 환경을 공격에 대비하기 위해 검토해야 하는 새로운 위협에 대한 아이디어를 제공합니다.
+
+### <a name="tracked-queries"></a>추적된 쿼리
+
+추적된 쿼리는 저장된 쿼리를 활용하여 조직에서 Microsoft 365 활동을 주기적으로 평가합니다. 이 경우 이벤트 추세가 제공될 것이고 그 다음 달에 더 많은 이벤트가 발생하게 될 것입니다. 추적된 쿼리는 자동으로 실행되어 쿼리를 다시 실행할 필요 없이 최신 정보를 제공합니다.
+
+![선택한 쿼리가 하나인 추적된 쿼리의 예](../../media/0c556174-06eb-4ae5-b32a-5ff76b9e4f13.png)
+
 ### <a name="saved-queries"></a>저장된 쿼리
 
-저장 된 쿼리도 추적기 섹션에서 찾을 수 있습니다. 저장 된 쿼리를 사용 하 여 매번 검색을 다시 만들지 않고도 신속 하 고 반복적으로 다시 표시할 일반 탐색기 검색을 저장할 수 있습니다.
-  
-![선택한 항목을 가진 저장 된 쿼리 예제](../../media/188cf3ff-58f1-41ea-81aa-76158d8f40c3.png)
-  
-폴더 위쪽에 있는 **쿼리 저장** 단추를 사용 하 여 중요 한 추적기 쿼리나 자체 탐색기 쿼리를 언제 든 지 저장할 수 있습니다. 저장 된 모든 내용이 추적기 페이지의 **저장 된 쿼리** 목록에 표시 됩니다. 
-  
+저장된 쿼리는 Trackers 섹션에도 있습니다. 저장된 쿼리를 사용하여 매번 검색을 다시 만들지 않고도 더 빠르고 반복적으로 되돌리기 원하는 공통 탐색기 검색을 저장할 수 있습니다.
+
+![선택한 쿼리가 하나인 저장된 쿼리의 예](../../media/188cf3ff-58f1-41ea-81aa-76158d8f40c3.png)
+
+항상 탐색기 페이지 맨 위에 있는 저장 쿼리 단추를 사용하여 **Save query** 기록 추적기 쿼리 또는 자체 탐색기 쿼리를 저장할 수 있습니다. 여기에 저장된 모든 항목은 추적기 페이지의 **저장된** 쿼리 목록에 표시됩니다.
+
 ## <a name="trackers-and-explorer"></a>추적기 및 탐색기
 
-전자 메일, 콘텐츠 또는 Office 활동 (출시 예정)에 관계 없이 Explorer 및 추적기는 보안 위험과 위협을 조사 하 고 추적 하는 데 도움이 됩니다. 또한 추적기는 클라우드로 이동할 때 비즈니스를 보다 안전 하 게 보호 하는 새로운 문제를 강조 하 여 사용자를 보호 하기 위한 정보를 제공 합니다.
-  
-또한 [보안 & 준수 센터 개요](https://support.microsoft.com/office/a5f2fd18-b029-4257-b5a8-ae83e7768c85)의 오른쪽 아래 모서리에 있는 **사용자 의견** 단추를 클릭 하 여이 문제 또는 기타 Microsoft 365 보안 기능에 대 한 의견을 제공할 수 있습니다.
-  
-![보안 및 준수 센터](../../media/86c330db-8132-4150-8475-220258fe04fb.png)
-  
-## <a name="trackers-and-microsoft-defender-for-office-365"></a>추적기 및 Office 용 Microsoft Defender 365
+전자 메일, 콘텐츠 또는 Office 활동을 검토하는지(출시 예정) 탐색기 및 추적기는 함께 작동하여 보안 위험 및 위협을 조사하고 추적하는 데 도움을 줄 수 있습니다. 또한 추적기에서는 새로운 문제, 주목할만한 문제 및 자주 검색되는 문제를 강조 표시하여 사용자를 보호하는 정보를 제공합니다. 클라우드로 전환할 때 비즈니스를 보다 잘 보호할 수 있습니다.
 
-Inaugural 주목할 않은 위협을 통해 [안전한 첨부 파일](atp-safe-attachments.md)에서 검색 하는 고급 맬웨어 위협을 강조 합니다. Office 365 Enterprise E5 customer이 고 [office 365 용 Microsoft Defender](office-365-atp.md)를 사용 하 고 있지 않은 경우 구독에 포함 해야 합니다. Defender for Office 365에서는 Office 365 서비스와의 전자 메일 흐름을 필터링 하는 다른 보안 도구가 있는 경우에도 값을 제공 합니다. 그러나 스팸 방지 및 [안전 링크](atp-safe-links.md) 기능은 주요 전자 메일 보안 솔루션이 Office 365를 통해 제공 되는 경우 가장 효율적으로 작동 합니다.
-  
-![보안 & 준수 센터의 Office 365 용 Microsoft Defender](../../media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
-  
-오늘날의 위협에서 일반적인 맬웨어 방지 검색만 실행 하는 경우에는 공격에 riddled 충분히 보호 되지 않습니다. 오늘날 보다 복잡 한 공격자는 일반적인 서명 기반 맬웨어 방지 엔진에서 인식 되지 않는 새로운, 난독 처리 되거나, 지연 된 공격을 만들기 위해 일반적으로 사용 가능한 도구를 사용 합니다. 안전한 첨부 파일 기능은 전자 메일 첨부 파일을 사용 하 여이를 가상 환경에 검색 하 안전한 지 또는 악의적 인지를 확인 합니다. 이 샌드 박싱 프로세스에서는 가상 컴퓨터 환경의 각 파일을 열고 파일을 연 후에 수행 되는 작업을 조사 합니다. PDF, 압축 파일 또는 Office 문서 인지 여부에 관계 없이 악성 코드를 파일에서 숨겨 공격에 따라 컴퓨터에서 열린 후에 한 번만 정품 인증을 받을 수 있습니다. Detonating에서는 전자 메일 흐름에 따라 파일을 분석 하 고, Defender for Office 365 기능을 사용 하 여 이러한 위협을 문제, 파일 신뢰도 및 여러 추론 규칙을 기반으로 찾아냅니다.
-  
-새로운 주목할 위협 필터는 최근에 안전한 첨부 파일을 통해 검색 된 항목을 강조 표시 합니다. 이러한 검색은 전자 메일 흐름이 나 다른 고객의 전자 메일에서 이전에 Microsoft 365에서 찾지 못한 새로운 악성 파일인 항목을 나타냅니다. 중요 한 위협 추적기의 항목에 주의를 기울여야 하 고, 누가 대상으로 지정 했는지 확인 하 고, 고급 분석 탭에 표시 된 샌드 박싱 세부 정보 (탐색기에서 전자 메일의 제목을 클릭 하 여 찾음)를 검토 합니다. 참고 안전한 첨부 파일 기능을 통해 검색 되는 전자 메일 에서만이 탭을 찾습니다.-이 중요 한 추적기는 해당 필터를 포함 하지만 탐색기의 다른 검색에도 해당 필터를 사용할 수 있습니다.
-  
+또한 보안 및 준수 센터의 개요 오른쪽 아래 모서리에 있는 피드백 단추를 클릭하여 항상 이 또는 기타 Microsoft 365 보안 기능에 대한 피드백을 & [있습니다.](https://support.microsoft.com/office/a5f2fd18-b029-4257-b5a8-ae83e7768c85) **Feedback**
+
+![보안 및 준수 센터](../../media/86c330db-8132-4150-8475-220258fe04fb.png)
+
+## <a name="trackers-and-microsoft-defender-for-office-365"></a>Office 365용 추적기 및 Microsoft Defender
+
+시작된 주목할 만한 위협으로 안전한 첨부 파일에서 감지된 고급 맬웨어 위협을 [강조하고 있습니다.](atp-safe-attachments.md) Office 365 Enterprise E5 [고객이고 Office 365용 Microsoft Defender를](office-365-atp.md)사용하지 않는 경우 구독에 포함되어야 합니다. Office 365용 Defender는 Office 365 서비스로 전자 메일 흐름을 필터링하는 다른 보안 도구가 있는 경우에도 값을 제공합니다. 그러나 기본 전자 [Safe Links](atp-safe-links.md) 메일 보안 솔루션이 Office 365를 통해 진행되는 경우 스팸 방지 및 안전한 링크 기능이 가장 잘 작동됩니다.
+
+![보안 및 준수 센터의 Office 365용 Microsoft defender &](../../media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
+
+오늘날의 위협이 제거된 세계에서 기존의 맬웨어 방지 검사만 실행하면 공격으로부터 충분히 보호되지 않습니다. 오늘날의 보다 정교한 공격자는 일반적으로 사용 가능한 도구를 사용하여 기존의 서명 기반 맬웨어 방지 엔진에서 인식되지 않는 새로운, 난독 또는 지연된 공격을 만들 수 있습니다. 안전한 첨부 파일 기능은 전자 메일 첨부 파일을 사용하여 가상 환경에서 이를 확인하여 안전하거나 악의적인지 여부를 판단합니다. 이 데토니타 프로세스는 가상 컴퓨터 환경에서 각 파일을 연 다음 파일을 연 후 어떤 일이 일어나는지 확인합니다. PDF 및 압축 파일이든 Office 문서이든, 파일에서 악성 코드가 숨겨져 있으며, 희생자가 컴퓨터에서 파일을 열 때만 활성화할 수 있습니다. Office 365용 Defender는 전자 메일 흐름에서 파일을 검색하고 분석하여 동작, 파일 신뢰도 및 다양한 방어 규칙을 기반으로 이러한 위협을 검색합니다.
+
+새로운 주목할 만한 위협 필터는 안전 첨부 파일을 통해 최근에 검색된 항목을 강조합니다. 이러한 검색은 전자 메일 흐름 또는 다른 고객의 전자 메일에서 이전에 Microsoft 365에서 찾지 못했던 새로운 악성 파일인 항목을 나타내고 있습니다. Noteworthy Threat Tracker의 항목에 주의를 기울여서 대상을 지정한 사람 및 고급 분석 탭에 표시된 데토니타이트 세부 정보를 검토합니다(탐색기에서 전자 메일의 제목을 클릭하여 찾음). 안전 첨부 파일 기능에서 검색된 전자 메일에서만 이 탭을 찾을 수 있습니다. 이 참고 사항 추적기는 해당 필터를 포함하지만 탐색기에서 다른 검색에 해당 필터를 사용할 수도 있습니다.
+
 ## <a name="next-steps"></a>다음 단계
 
-- 조직에 이러한 Office 365 위협 조사 및 응답 기능이 아직 없는 경우 [office 365 위협 조사 및 응답 기능을 확인 하는 방법은 무엇입니까?](office-365-ti.md)를 참조 하세요.
+- 조직에 이러한 Office 365 위협 조사 및 응답 기능이 아직 없는 경우 [Office 365](office-365-ti.md)위협 조사 및 응답 기능을 어떻게 얻을 수 있나요?
 
-- 보안 팀에서 올바른 역할과 사용 권한을 할당 했는지 확인 합니다. 전역 관리자 이거나 보안 관리자 또는 검색 및 삭제 역할이 할당 되 & 준수 센터에 있어야 합니다. [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+- 보안 팀에 올바른 역할 및 사용 권한이 할당되어 있는지 확인합니다. 전역 관리자 또는 보안 관리자 또는 검색 및 제거 역할이 보안 및 준수 센터에 & 있어야 합니다. 보안 [및 준수 센터에서 & 참조합니다.](permissions-in-the-security-and-compliance-center.md)
 
-- Microsoft 365 환경에 표시 될 새 추적기를 시청 하세요. 사용 가능한 경우 [여기](https://protection.office.com/)에서 추적기를 찾을 수 있습니다. **위협 관리** \> **위협 추적기** 로 이동 합니다.
+- 새 추적기에서 Microsoft 365 환경에 표시하는지 감시합니다. 사용 가능한 경우 여기에서 추적을 찾을 수 [있습니다.](https://protection.office.com/) 위협 **Threat management** 관리 \> **위협 추적기로 이동.**
 
-- 아직 수행 하지 않은 경우 [안전한 링크](atp-safe-links.md) 및 [안전한 첨부 파일](atp-safe-attachments.md)을 포함 하 여 조직에서 [Office 365에 대 한 Microsoft Defender](office-365-atp.md) 에 대해 자세히 알아보고 구성 합니다.
+- 아직 수행하지 않은 경우 안전한 링크 및 안전한 첨부 파일을 포함하여 조직용 [Office 365용 Microsoft Defender에](office-365-atp.md) 대해 자세히 알아보고 [구성하세요.](atp-safe-attachments.md) [Safe links](atp-safe-links.md)

@@ -1,5 +1,5 @@
 ---
-title: 통신 사이트 만들기
+title: 통신 사이트를 만듭니다.
 f1.keywords:
 - NOCSH
 ms.author: samanro
@@ -22,48 +22,48 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 캠페인에 대 한 통신 사이트를 만듭니다.
-ms.openlocfilehash: 3435ede554c16bb787b87a6ea76e0c41f62b8fe5
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+description: 캠페인에 대한 커뮤니케이션 사이트를 만드시다.
+ms.openlocfilehash: 5bd0dd36188f5ec1d550c9baa875e18debd99528
+ms.sourcegitcommit: 26c2f01d6f88f6c288b04f9f08062d68dd1e67e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165724"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49569966"
 ---
-# <a name="create-a-communications-site-for-your-campaign"></a>캠페인에 대 한 통신 사이트 만들기
+# <a name="create-a-communications-site-for-your-campaign"></a>캠페인에 대한 커뮤니케이션 사이트 만들기
 
-우선 순위를 전달 하 고, 전략 문서를 공유 하 고, 예정 된 이벤트를 강조 표시 하는 좋은 방법은 SharePoint의 통신 사이트를 사용 하는 것입니다. 통신 사이트는 전체 캠페인에서 광범위 한 항목을 공유 하기 위한 것입니다. 사용자의 내부 캠페인 사이트입니다.
+우선 순위를 전달하고, 전략 문서를 공유하고, 예정된 이벤트를 강조 표시하는 좋은 방법은 SharePoint에서 커뮤니케이션 사이트를 사용하는 것입니다. 커뮤니케이션 사이트는 전체 캠페인에서 광범위하게 정보를 공유하기 위한 것입니다. 내부 캠페인 사이트입니다.
 
 ## <a name="best-practices"></a>모범 사례
 
-커뮤니케이션 사이트에 다음 요소를 포함 합니다.
+Communications 사이트에 다음 요소를 포함합니다.
 
-1. 캠페인 로고 및 색을 머리글 이미지 및 테마로 추가
-2. **영웅의 웹 파트**에 전략, 메시지, 중요 한 문서, 디렉터리 및 FAQ가 포함 되어 있습니다.
-3. 팀에 대 한 후보 문을 **텍스트 웹 파트**에 포함 합니다.
-4. 모든 사용자가 향후 작업을 볼 수 있도록 **이벤트 웹 파트** 에 캠페인 이벤트를 추가 합니다.
-5. 사용자가 **이미지 갤러리 웹 파트**에 사용 하거나 공유할 수 있는 사진을 추가 합니다.
+1. 캠페인 로고 및 색을 헤더 이미지 및 테마로 추가
+2. **Hero** 웹 파트에서 전략, 메시지, 중요한 문서, 디렉터리 및 FAQ를 확인합니다.
+3. 텍스트 웹 파트에 팀에 후보 **문을 포함합니다.**
+4. 모든 사람이 다가올 기능을 볼 수 있도록 이벤트 웹 파트에 캠페인 이벤트를 추가합니다. **Events web part**
+5. 이미지 갤러리 웹 파트에 사용하거나 공유할 수 있는 사진을 **추가합니다.**
 
-![캠페인에 필요한 공통 요소에 대 한 공간이 있는 SharePoint Communications page의 다이어그램](../media/m365-democracy-comms-site.png)
+![캠페인에 필요한 공통 요소에 대한 공간이 있는 SharePoint 통신 페이지의 다이어그램](../media/m365-democracy-comms-site.png)
 
-## <a name="infographic-create-a-communications-site-infographic"></a>Infographic: Communications Site Infographic 만들기 
-다음 PowerPoint 및 PDF 링크는 tabloid 형식 (장부, 11 x 17, A3이 라고도 함)으로 다운로드 하 고 인쇄할 수 있습니다.
+## <a name="infographic-create-a-communications-site-infographic"></a>인포그래픽: 커뮤니케이션 사이트 정보 그래픽 만들기 
+PowerPoint 및 PDF에 대한 다음 링크를 다운로드하여 타블로이드 형식으로 인쇄할 수 있습니다(ledger 11 x 17 또는 A3).
 
-[![Communications site infographic 이미지](../media/M365-Campaigns-CreateCommunicationSite-358-201.png)](downloads/M365CampaignsCreateCommunicationSite.pdf)
+[![커뮤니케이션 사이트 정보 그래픽 이미지](../media/M365-Campaigns-CreateCommunicationSite-358-201.png)](downloads/M365CampaignsCreateCommunicationSite.pdf)
 
-[PDF](downloads/M365CampaignsCreateCommunicationSite.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsCreateCommunicationSite.pptx)
+[PDF](downloads/M365CampaignsCreateCommunicationSite.pdf)  |  [PowerPoint](downloads/M365CampaignsCreateCommunicationSite.pptx)
 
 
 ## <a name="set-it-up"></a>설정하기
 
-1. 에 https://Office.com로그인 합니다.
-2. 페이지의 왼쪽 위 모서리에서 앱 시작 관리자 아이콘을 선택 하 고 **SharePoint** 타일을 선택 합니다. **Sharepoint** 타일이 표시 되지 않는 경우 **사이트** 타일 또는 sharepoint가 표시 되지 않는 경우 **모두** 를 클릭 합니다.
-3. SharePoint 홈 페이지 맨 위에서 **+ 사이트 만들기** 를 클릭 하 고 **통신 사이트** 옵션을 선택 합니다.
+1. https://Office.com에 로그인합니다.
+2. 페이지의 왼쪽 위 모서리에서 앱 시작 프로그램 아이콘을 선택한 다음 **SharePoint 타일을** 선택합니다. SharePoint 타일이 표시되지 않는 경우 **SharePoint가** **All** 표시되지 않는 경우 사이트 타일 또는 모두를 클릭합니다. **Sites**
+3. SharePoint 홈 페이지 위쪽에서 **+** 사이트 만들기를 클릭하고 커뮤니케이션 사이트 **옵션을** 선택합니다.
 
-[통신 사이트](https://support.office.com/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) 및 [SharePoint Online에서 통신 사이트를 만드는](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb)방법에 대해 알아봅니다.
+[SharePoint Online에서](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb) [커뮤니케이션](https://support.office.com/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) 사이트 및 커뮤니케이션 사이트를 만드는 방법에 대해 자세히 알아보고
 
 
-## <a name="admin-settings"></a>관리 설정
+## <a name="admin-settings"></a>관리자 설정
 
-**+ 사이트 만들기** 링크가 표시 되지 않으면 Microsoft 365에서 셀프 서비스 사이트 만들기를 사용 하지 못할 수 있습니다. 팀 사이트를 만들려면 조직에서 Microsoft 365을 관리 하는 사람에 게 문의 하십시오. Microsoft 365 관리자 인 경우 sharepoint online [에서 사이트 만들기 관리](https://docs.microsoft.com/sharepoint/manage-site-creation) 를 참조 하 여 조직에서 셀프 서비스 사이트 만들기를 사용 하도록 설정 하거나 [새 sharepoint 관리 센터에서 사이트를 관리](https://docs.microsoft.com/sharepoint/manage-sites-in-new-admin-center) 하 여 sharepoint Online 관리 센터에서 사이트를 만듭니다.
+**+** 사이트 만들기 링크가 없는 경우 Microsoft 365에서 셀프 서비스 사이트 만들기를 사용할 수 없는 것일 수 있습니다. 팀 사이트를 만들 경우 조직에서 Microsoft 365를 관리하는 담당자에게 문의하세요. Microsoft 365 관리자인 경우 [SharePoint Online에서](https://docs.microsoft.com/sharepoint/manage-site-creation) 사이트 만들기 관리를 참조하여 조직에 대해 셀프 서비스 사이트 만들기를 사용하도록 설정하거나 새 SharePoint 관리 센터의 사이트를 관리하여 [SharePoint](https://docs.microsoft.com/sharepoint/manage-sites-in-new-admin-center) Online 관리 센터에서 사이트를 만들 수 있습니다.
   
