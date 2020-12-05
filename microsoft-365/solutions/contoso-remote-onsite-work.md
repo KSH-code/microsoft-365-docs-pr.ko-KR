@@ -1,5 +1,5 @@
 ---
-title: Contoso의 COVID-19 대응 및 원격 및 방문 작업에 대 한 지원
+title: Contoso의 COVID-19 응답 및 원격 및 부사장 작업 지원
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -13,78 +13,78 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Contoso Corporation이 COVID-19 pandemic에 응답 하 고 원격 및 방문 작업을 위한 소프트웨어 설치 및 업데이트 인프라를 엔지니어링 한 방법을 이해 합니다.
-ms.openlocfilehash: 8e25b399d7acd2cb3486283623d29315eac9491e
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+description: Contoso Corporation이 COVID-19 팬데믹에 대응하고 원격 및 인사이트 작업을 위한 소프트웨어 설치 및 업데이트 인프라를 설계한 방법을 이해합니다.
+ms.openlocfilehash: d04b4efcdd4dd04315ad37311cdd2cfbc2e64e88
+ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371778"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49580676"
 ---
-# <a name="contosos-covid-19-response-and-support-for-remote-and-onsite-work"></a>Contoso의 COVID-19 대응 및 원격 및 방문 작업에 대 한 지원
+# <a name="contosos-covid-19-response-and-support-for-remote-and-onsite-work"></a>Contoso의 COVID-19 응답 및 원격 및 부사장 작업 지원
 
-Contoso는 파리 본사의 중앙 VPN 서버를 통해 온-프레미스 리소스에 액세스 하는 원격 작업자를 항상 지원 했습니다. Contoso는 모든 원격 작업자에 게 관리 되는 랩톱을 발급 했습니다. 온-프레미스 작업 자가 데스크톱 컴퓨터와 랩톱을 혼합 했습니다.
+Contoso는 항상 파리 본사의 중앙 VPN 서버를 통해 프레미스 리소스에 액세스한 원격 작업자를 지원했습니다. Contoso는 모든 원격 작업자에게 관리되는 노트북을 발급했습니다. On-premises workers had a mixture of desktop computers and laptops.
 
-## <a name="contosos-response-to-covid-19"></a>Contoso의 COVID-19에 대 한 응답
+## <a name="contosos-response-to-covid-19"></a>CONtoso의 COVID-19에 대한 응답
 
-COVID-19 pandemic의 onset을 사용 하 여 모든 필수 작업 자가 원격 작업자 였지만 모든 작업을 수행 했습니다. Contoso는 직원 들이 집에서 작업 하기 위해 인력을 이동 하 고, 온-프레미스 리소스에 대 한 원격 액세스와 Microsoft 365 클라우드 서비스를 사용 하 여 온라인으로 기본 작업을 수행 합니다.
+COVID-19 팬데믹이 시작된 후 갑자기 필수적인 작업자를 모두 원격 작업자로 시작했습니다. Contoso는 인력을 집에서 일하고 Microsoft 365 클라우드 서비스를 사용하여 온라인으로 원격 액세스를 통해 기본 활동을 수행하게 하여 대응했습니다.
 
-Contoso는 기존 원격 인력의 25%를 지원 하기 위해 파리 본사 사무실에 원격 액세스 VPN 서버를 제공 했지만, 해당 직원의 90%를 지원 하기 위해 it의 원격 액세스 용량을 빠르게 수평으로 이동 했습니다. Contoso는 원격 작업자 들이 Contoso 인트라넷 액세스를 위해 지역적으로 close 진입점을 사용할 수 있도록 각 위성 사무실에 원격 액세스 VPN 서버를 배포 했습니다.
+Contoso는 이미 원격 인력의 25%를 지원하기 위해 파리 본사에 원격 액세스 VPN 서버를 사용했지만, 인력의 90%를 지원하기 위해 원격 액세스 용량을 확장하기 위해 빠르게 이동했습니다. Contoso는 원격 작업자가 Contoso 인트라넷에 액세스하기 위해 지역적으로 가까운 진입점을 사용할 수 있도록 각 위성 사무실에 원격 액세스 VPN 서버를 배포했습니다.
 
-또한 Contoso는 분할 터널링을 위해 랩톱, 태블릿 및 스마트 전화에 설치 된 VPN 클라이언트의 구성을 업데이트 하 여, 최적화 된 Office 365 끝점에 대 한 트래픽이 VPN 연결을 무시 하 고 인터넷을 통해 직접 전송 되도록 합니다. 자세한 내용은 [VPN 분할 터널링을 사용 하 여 원격 사용자에 대 한 Office 365 연결 최적화](../enterprise/microsoft-365-vpn-split-tunnel.md)를 참조 하세요.
+Contoso는 또한 분할 터널링을 위해 랩톱, 태블릿 및 스마트폰에 설치된 VPN 클라이언트의 구성을 업데이트하여 최적화된 Office 365 끝점 집합에 대한 트래픽이 VPN 연결을 무시하고 인터넷을 통해 직접 전송되었습니다. 자세한 내용은 VPN 분할 터널링을 사용하여 원격 사용자에 대한 [Office 365 연결 최적화를 참조하세요.](../enterprise/microsoft-365-vpn-split-tunnel.md)
 
-파리 본부 및 각 위성 사무소에 설치 된 VPN 장치를 사용한 결과 구성은 다음과 같습니다. 
+다음은 파리 본사 및 각 위성 사무소에 VPN 장치를 설치한 결과 구성입니다. 
 
 ![Contoso의 VPN 인프라](../media/contoso-remote-onsite-work/contoso-vpn-infrastructure.png)
 
-설치 된 VPN 클라이언트를 사용 하는 원격 작업자는 DNS를 사용 하 여 가장 가까운 지역적으로의 office를 검색 하 고 여기에 설치 된 VPN 장치에 연결 합니다. 분할 터널링을 사용 하는 경우 Microsoft 365 최적화 끝점에 대 한 트래픽은 지역적으로 가장 가까운 Microsoft 365 네트워크 위치로 바로 전송 됩니다. 다른 모든 트래픽은 vpn 연결을 통해 VPN 장치로 전송 됩니다.
+설치된 VPN 클라이언트가 있는 원격 작업원은 DNS를 사용하여 지역적으로 가장 가까운 사무실을 찾은 후 설치된 VPN 장치에 연결합니다. 분할 터널링을 통해 Microsoft 365 최적화 끝점에 대한 트래픽이 지역적으로 가장 가까운 Microsoft 365 네트워크 위치로 직접 전송됩니다. 다른 모든 트래픽은 VPN 연결을 통해 VPN 장치로 전송됩니다.
 
-## <a name="contosos-support-for-remote-and-onsite-work"></a>원격 및 방문 작업에 대 한 Contoso의 지원
+## <a name="contosos-support-for-remote-and-onsite-work"></a>Contoso의 원격 및 인사이트 작업 지원
 
-처음 변경한 후에는 지역별 잠금을 중에 대부분의 원격 작업자를 지원 하기 위해 Contoso는 다음과 같은 작업을 수행 하기 위해 인프라를 변경 하 여 작업자에 게 제공 될 수 있습니다.
+지역 잠금 중에 대부분 원격 작업자를 지원하기 위해 초기 변경이 적용된 후 Contoso는 원격 및 출장 작업을 지원하기 위해 인프라를 변경하여 작업자가 다음을 할 수 있도록 합니다.
 
-- Always 원격
-- 항상 온-프레미스로 설정 합니다.
-- 원격 및 온-프레미스의 조합입니다.
+- 항상 원격.
+- 항상 Onsite.
+- 사설 및 원격의 조합입니다.
 
-Microsoft 365 id, 보안 및 규정 준수 기능은 제로 트러스트를 위해 설계 되었으며 사용자 및 해당 장치의 위치에 관계 없이 작동 합니다. 자세한 내용은 [제로 트러스트](https://www.microsoft.com/security/business/zero-trust)를 참조 하십시오.
+Microsoft 365 ID, 보안 및 규정 준수 기능은 제로 트러스트용으로 설계되었습니다. 사용자 및 장치의 위치에 관계없이 작동하도록 디자인되었습니다. 자세한 내용은 [제로 트러스트를 참조하세요.](https://www.microsoft.com/security/business/zero-trust)
 
-그러나 소프트웨어를 새로 설치 하 고 업데이트 하는 것은 설치할 소프트웨어를 온-프레미스 또는 인터넷 원본에서 가져올 수 있기 때문에 장치 위치에 따라 달라 집니다. Contoso IT 설계자는 작업자 대신 장치 위치에 따라 새로운 설치 및 업데이트 인프라를 설계 했습니다.
+그러나 설치할 소프트웨어가 온-프레미스 또는 인터넷 원본에서 제공될 수 있기 때문에 새 소프트웨어 설치 및 업데이트 관리는 장치의 위치에 따라 달라집니다. Contoso IT 설계자는 새로운 설치 및 업데이트 인프라를 작업자가 아닌 디바이스의 위치에 따라 설계했습니다.
 
-두 가지 유형의 장치 (전용 온-프레미스 및 로밍)를 지정 했습니다.
+이 두 가지 유형의 장치를 지정했습니다. 전용은 전용 On-premises 및 roaming입니다.
 
-### <a name="dedicated-on-premises"></a>전용 온-프레미스
+### <a name="dedicated-on-premises"></a>전용 On-premises
 
-전용 온-프레미스 장치는 Contoso 인트라넷을 떠나 VPN 클라이언트를 설치 하지 않은 데스크톱 또는 서버 컴퓨터입니다. 이러한 온-프레미스 장치는 Windows 10, Microsoft 365 앱 및에 지 브라우저의 설치 및 업데이트를 위해 Microsoft Endpoint Configuration Manager 및 해당 배포 지점을 계속 사용 합니다.
+전용 On-premises 장치는 Contoso 인트라넷을 떠나지 않는 데스크톱 또는 서버 컴퓨터로, VPN 클라이언트가 설치되어 있지 않습니다. 이러한 On-premises 장치는 Windows 10, 엔터프라이즈용 Microsoft 365 앱 및 에지 브라우저의 설치 및 업데이트에 Microsoft Endpoint Configuration Manager 및 배포 지점을 계속 사용합니다.
 
 ### <a name="roaming"></a>로밍
 
-로밍 장치는 contoso 인트라넷을 사용 하 고 많은 office 작업자 및 모든 원격 작업자 및 기타 조직 소유 장치 (예: Contoso VPN 클라이언트를 설치한 경우)와 smart 휴대폰 및 태블릿 등의 조직이 소유한 장치로 사서함을 포함할 수 있습니다. 
+로밍 장치는 Contoso 인트라넷을 떠날 수 있으며, Contoso VPN 클라이언트가 설치된 스마트폰 및 태블릿과 같은 여러 사무실 작업자와 모든 원격 작업자 및 기타 조직 소유의 장치에 발급된 랩톱을 포함합니다. 
 
-이러한 장치는 언제 든 지 인터넷에 연결 될 수 있기 때문에 Windows 10의 설치 및 업데이트를 위해 Intune 또는 기타 클라우드 기반 서비스를 사용 하 고, Microsoft 365 for 엔터프라이즈 및 Edge에 대해 설명 합니다. 기존 온-프레미스 구성 관리자 배포 지점은 사용 되지 않습니다.
+이러한 장치는 인터넷에 연결할 수 있기 때문에 Windows 10, 엔터프라이즈용 Microsoft 365 앱 및 Edge의 설치 및 업데이트에 Intune 또는 기타 클라우드 기반 서비스를 사용하게 됩니다. 기존 On-premises Configuration Manager 배포 지점을 사용하지 않습니다.
 
-즉, 로밍 장치에 대 한 일부 설치 및 업데이트는 온-프레미스에 있고 인트라넷에 연결 되어 있는 동안 인터넷을 통해 수행 됩니다. 그러나 Contoso IT 설계자는 인트라넷 대역폭 최적화 (특히 대부분의 원격 작업 자가 인트라넷에 거의 연결 되지 않은 경우) 보다 구성 단순함 보다 더 중요 하다 고 결정 했습니다.
+즉, 로밍 장치에 대한 일부 설치 및 업데이트는 인터넷을 통해 수행되고, 이러한 설치 및 업데이트는 인트라넷에 연결되어 있는 동안 수행됩니다. 그러나 Contoso IT 설계자는 특히 대부분의 원격 작업자가 인트라넷에 연결되지 않은 경우 인터넷에 대한 인트라넷 대역폭을 최적화하는 것보다 구성의 단순성을 중요하게 결정했습니다.
 
-결과 인프라는 다음과 같습니다.
+결과 인프라는 다음과 있습니다.
 
 ![Contoso의 설치 및 업데이트 인프라](../media/contoso-remote-onsite-work/contoso-updates-infrastructure.png)
 
-설치 및 업데이트 동작은 장치에 대 한 컴퓨터 계정을 다음 그룹 중 하나의 구성원으로 만들어 결정 합니다.
+설치 및 업데이트 동작은 장치의 컴퓨터 계정을 다음 그룹 중 하나의 구성원으로 설정하여 결정됩니다.
 
 - OnPremDevices
 
-  장치의 Configuration Manager 클라이언트에서 설치 및 업데이트를 위한 배포 지점을 사용 합니다.
+  장치의 Configuration Manager 클라이언트는 설치 및 업데이트에 배포 지점을 사용합니다.
 
 - RoamingDevices
 
-  Intune 및 장치의 기타 설정 설치 및 업데이트를 위해 Microsoft 365 네트워크의 사용을 지정 합니다.
+  Intune 및 디바이스의 기타 설정은 설치 및 업데이트에 Microsoft 365 네트워크 사용을 지정합니다.
 
-## <a name="new-onboarding-process"></a>새 온 보 딩 프로세스
+## <a name="new-onboarding-process"></a>새 온보더링 프로세스
 
-새 작업자에 게 발급 되거나 데이터 센터의 새 서버에 대해 새 전용 온-프레미스 장치를 실행 하는 경우, 해당 작업자에 로그인 하는 경우 OnPremDevices 그룹의 해당 장치 구성원을 기반으로 하는 Configuration Manager 클라이언트는 Windows 365 10 용 최신 업데이트를 다운로드 하 고 설치 합니다. 완료 되 면 전용 온-프레미스 장치를 사용할 준비가 되 고 이러한 배포 지점을 사용 하 여 업데이트를 진행 하 게 됩니다.
+새 작업자 또는 데이터 센터의 새 서버에 대해 발급된 새 전용 On-premises 장치의 경우, 사용자가 로그인하면 OnPremDevices 그룹의 디바이스 멤버 자격에 따라 Configuration Manager 클라이언트가 Windows 10, 엔터프라이즈용 Microsoft 365 앱 및 Edge에 대한 최신 업데이트를 다운로드하여 설치합니다. 완료되면 전용 On-premises 장치를 사용할 수 있으며 지속적인 업데이트에 이러한 배포 지점을 사용합니다.
 
-새 작업자에 게 발급 된 새 원격 장치의 경우, 작업자에 로그인 하면 해당 장치는 RoamingDevices 그룹의 구성원을 기반으로 하 여 Intune 클라우드 서비스 및 기타 서비스에 연결 하 고 Windows 10 용 최신 업데이트를 다운로드 하 고 설치 합니다 (Microsoft 365 for enterprise 및 Edge). 완료 되 면 원격 장치가 사용 가능 하 게 준비 되 고 설치 된 VPN 클라이언트를 사용 하 여 온-프레미스 리소스에 액세스 하 고 Microsoft 365 네트워크를 통해 진행 중인 업데이트를 수행 합니다.
+새 작업 담당자에게 발급된 새 원격 장치의 경우, 로밍Devices 그룹의 구성원 자격에 따라 장치가 Intune 클라우드 서비스 및 기타 서비스에 연결하고 Windows 10, 엔터프라이즈용 Microsoft 365 앱 및 Edge에 대한 최신 업데이트를 다운로드하고 설치합니다. 완료되면 원격 장치를 사용할 준비가 완료되고 설치된 VPN 클라이언트를 사용하여 진행되는 업데이트에 대한 Microsoft 365 네트워크 및 Microsoft 365 리소스에 액세스할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 
-조직의 [원격 작업자에 게 역량을](empower-people-to-work-remotely.md) 부여 합니다.
+[조직의 원격 작업자에게](empower-people-to-work-remotely.md) 권한을 부여합니다.
