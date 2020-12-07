@@ -527,7 +527,7 @@
               href: ./office-365-security/campaigns.md
             - name: 악성 전자 메일 조사
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
-            - name: 보안 및 규정 준수 센터의 보고서 보기
+            - name: 보안 및 준수 센터에서 Office 365용 Defender 보고서 보기
               href: ./office-365-security/view-reports-for-atp.md
             - name: 자동화 조사 세부정보 및 결과 보기
               href: ./office-365-security/air-view-investigation-results.md
