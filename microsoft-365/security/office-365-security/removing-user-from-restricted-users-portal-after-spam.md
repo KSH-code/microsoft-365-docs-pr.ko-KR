@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365의 제한된 사용자 포털에서 사용자를 제거 하는 방법을 알아볼 수 있습니다. 사용자는 일반적으로 계정 손상의 결과로 아웃바운드 스팸 전송을 위해 제한된 사용자 포털에 추가됩니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c63d50fcf24e19c6a3265d57ea34fb8ab852c61c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: f464a2c02ae6b6290e79cc9aff7d3a37bc08a6ff
+ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201558"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49572444"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Office 365의 제한된 사용자 포털에서 차단된 사용자 제거
 
@@ -45,43 +45,42 @@ ms.locfileid: "48201558"
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
-- 이 항목의 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다.
+- 이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 할당받아야 합니다.
+  - 제한된 사용자 포털에서 사용자를 제거하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원이어야 합니다.
+  - 제한된 사용자 포털에 대한 읽기 전용 액세스를 위해서는 **글로벌 리더** 또는 **보안 리더** 역할 그룹의 구성원이어야 합니다.
 
-  - 제한된 사용자 포털에서 사용자를 제거하려면 다음 역할 그룹 중 하나의 구성원이어야 합니다.
+  자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
-    - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **조직 관리** 또는 **보안 관리자**
-    - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **조직 관리** 및 **예방 조치 관리**
+  **참고**:
 
-  - 제한된 사용자 포털에 대한 읽기 전용 엑세스를 위해서는 다음 역할 그룹 중 하나의 구성원이어야 합니다.
-
-    - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **보안 읽기**
-    - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리**
+  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요.
+  - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - 아웃바운드 전자 메일 제한을 초과 하는 보낸 사람은 손상된 계정을 나타냅니다. 제한된 사용자 포털에서 사용자를 제거하기 전에 해당 계정을 다시 제어하기 위해 필요한 단계를 수행해야 합니다. 자세한 내용은 [Office 365에서 손상된 전자 메일 계정에 응답](responding-to-a-compromised-email-account.md)을 참조하세요.
 
 ## <a name="use-the-security--compliance-center-to-remove-a-user-from-the-restricted-users-list"></a>보안 및 규정 준수 센터를 사용하여 제한 된 사용자 목록에서 사용자 제거
 
-1. 보안 및 규정 준수 센터에서 **위협 관리** \> **검토** \> **제한된 사용자**로 이동합니다.
+1. 보안 및 규정 준수 센터에서 **위협 관리** \> **검토** \> **제한된 사용자** 로 이동합니다.
 
-2. 차단을 해제하려는 사용자를 찾아 선택합니다. **동작** 열에서 **차단 해제**를 클릭합니다.
+2. 차단을 해제하려는 사용자를 찾아 선택합니다. **동작** 열에서 **차단 해제** 를 클릭합니다.
 
-3. 플라이아웃하면 전송이 제한된 계정에 대한 세부 정보로 이동합니다. 계정이 실제로 손상될 경우에 적절한 조치를 취하는지 확인하기 위해 권장 사항을 검토해야 합니다. 완료되면 **다음**을 선택합니다.
+3. 플라이아웃하면 전송이 제한된 계정에 대한 세부 정보로 이동합니다. 계정이 실제로 손상될 경우에 적절한 조치를 취하는지 확인하기 위해 권장 사항을 검토해야 합니다. 완료되면 **다음** 을 선택합니다.
 
-4. 다음 화면에는 이후 손상을 방지하는 데 도움이 되는 권장 사항이 있습니다. MFA(다단계 인증)를 사용하도록 설정하고 암호를 변경하는 것이 좋습니다. 작업이 완료되면 **사용자 차단 해제**를 클릭합니다.
+4. 다음 화면에는 이후 손상을 방지하는 데 도움이 되는 권장 사항이 있습니다. MFA(다단계 인증)를 사용하도록 설정하고 암호를 변경하는 것이 좋습니다. 작업이 완료되면 **사용자 차단 해제** 를 클릭합니다.
 
-5. **예**를 클릭하여 변경 내용을 확인합니다.
+5. **예** 를 클릭하여 변경 내용을 확인합니다.
 
    > [!NOTE]
    > 제한이 제거되기까지 30분 정도 걸릴 수 있습니다.
 
 ## <a name="verify-the-alert-settings-for-restricted-users"></a>제한된 사용자에 대한 경고 설정 확인
 
-**전자 메일을 보내지 못하도록 제한된 사용자**라는 기본 경고 정책은 사용자가 아웃바운드 메일을 보내지 못하도록 차단되었을 때 관리자에게 알립니다. 이러한 설정을 확인하고 알림을 보낼 사용자를 더 추가할 수 있습니다. 경고 정책에 대한 자세한 내용은 [보안 및 규정 준수 센터의 경고 정책](../../compliance/alert-policies.md)을 참조하세요.
+**전자 메일을 보내지 못하도록 제한된 사용자** 라는 기본 경고 정책은 사용자가 아웃바운드 메일을 보내지 못하도록 차단되었을 때 관리자에게 알립니다. 이러한 설정을 확인하고 알림을 보낼 사용자를 더 추가할 수 있습니다. 경고 정책에 대한 자세한 내용은 [보안 및 규정 준수 센터의 경고 정책](../../compliance/alert-policies.md)을 참조하세요.
 
 > [!IMPORTANT]
 > 경고가 작동하려면 감사 로그 검색이 설정되어 있어야 합니다. 자세한 내용은 [감사 로그 검색 설정 및 해제](../../compliance/turn-audit-log-search-on-or-off.md)를 참조하세요.
 
-1. 보안 및 규정 준수 센터에서 **경고** \> **경고 정책**으로 이동합니다.
+1. 보안 및 규정 준수 센터에서 **경고** \> **경고 정책** 으로 이동합니다.
 
 2. **전자 메일을 보내지 못하도록 제한된 사용자** 경고를 찾아 선택합니다.
 
@@ -89,17 +88,17 @@ ms.locfileid: "48201558"
 
    - **상태**: 경고가 ![토글 켬](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png)으로 설정되어 있는지 확인합니다.
 
-   - **전자 메일 받는 사람**: **편집**을 클릭하고 **받는 사람 편집** 플라이아웃이 나타나면 다음 설정을 확인하거나 구성합니다.
+   - **전자 메일 받는 사람**: **편집** 을 클릭하고 **받는 사람 편집** 플라이아웃이 나타나면 다음 설정을 확인하거나 구성합니다.
 
      - **전자 메일 알림 보내기**: 확인란이 선택(**설정**)되어 있는지 확인합니다.
 
      - **전자 메일 받는 사람**: 기본값은 **TenantAdmins**(즉, **전역 관리자** 구성원)입니다. 받는 사람을 더 추가하려면 상자의 빈 영역을 클릭합니다. 받는 사람 목록이 표시되면 이름을 입력하여 필터링하고 받는 사람을 선택할 수 있습니다. 해당 이름 옆의 ![제거 아이콘](../../media/scc-remove-icon.png)을 클릭하여 상자에서 기존의 받는 사람을 제거할 수 있습니다.
 
-     - **일별 알림 제한**: 기본값은 **제한 없음**이지만 일별 최대 알림 수에 대한 한도를 선택할 수 있습니다.
+     - **일별 알림 제한**: 기본값은 **제한 없음** 이지만 일별 최대 알림 수에 대한 한도를 선택할 수 있습니다.
 
-     작업을 마쳤으면 **저장**을 클릭합니다.
+     작업을 마쳤으면 **저장** 을 클릭합니다.
 
-4. **전자 메일을 보내지 못하도록 제한된 사용자** 플라이아웃으로 돌아가서 **닫기**를 클릭합니다.
+4. **전자 메일을 보내지 못하도록 제한된 사용자** 플라이아웃으로 돌아가서 **닫기** 를 클릭합니다.
 
 ## <a name="use-exchange-online-powershell-to-view-and-remove-users-from-the-restricted-users-list"></a>Exchange Online PowerShell을 사용하여 제한된 사용자 목록에서 사용자 보기 및 제거
 
