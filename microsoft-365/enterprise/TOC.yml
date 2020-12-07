@@ -195,6 +195,8 @@
       items:
         - name: Microsoft 365 서비스 상태
           href: microsoft-365-service-health.md
+        - name: Exchange Online 모니터링
+          href: microsoft-365-exchange-monitoring.md
         - name: 설정 가이드
           href: setup-guides-for-microsoft-365.md
     - name: 여러 테넌트

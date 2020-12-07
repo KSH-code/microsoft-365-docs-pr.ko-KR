@@ -82,7 +82,7 @@
           href: get-started/access-admin-portal.md
         - name: 관리 포털에서 관리자 연락처 추가 및 확인
           href: get-started/add-admin-contacts.md
-        - name: 조건부 액세스 조정
+        - name: 등록 후 설정 수정
           href: get-started/conditional-access.md
         - name: 라이선스 할당
           href: get-started/assign-licenses.md

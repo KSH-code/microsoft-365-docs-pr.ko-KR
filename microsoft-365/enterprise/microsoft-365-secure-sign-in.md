@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: ''
 description: 사용자가 MFA(다단계 인증) 및 기타 기능을 사용하여 안전하게 로그인하도록 합니다.
-ms.openlocfilehash: a3a63dfc06f5470c2151cd2ff140ad5dee19b0ce
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 8426d902ff8be8541b5d770af6d34cdf71868047
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446080"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558529"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Microsoft 365 테넌트에 사용자 로그인 보안 기능
 
@@ -52,7 +52,7 @@ MFA에서는 사용자 로그인이 사용자 계정 비밀번호 외에 추가 
 
 ![올바른 암호와 추가적인 확인을 수행하면 로그인에 성공합니다.](../media/empower-people-to-work-remotely/remote-workers-mfa.png)
 
-MFA를 사용하는 첫 번째 단계는 ***모든 관리자 계정(예를 들어, 권한 있는 계정이라고도 함)에 해당 항목을 요청***하는 것입니다.
+MFA를 사용하는 첫 번째 단계는 **모든 관리자 계정(예를 들어, 권한 있는 계정이라고도 함)에 해당 항목을 요청** 하는 것입니다.
 
 첫 번째 단계를 넘어서, Microsoft는 모든 사용자에 대해 MFA를 권장합니다.
 
@@ -67,7 +67,7 @@ Microsoft 365 플랜에 따라 관리자나 사용자가 MFA를 사용하도록 
 
 ### <a name="security-defaults"></a>보안 기본값
 
-보안 기본값은 2019년 10월 21일 이후에 개발된 Microsoft 365 및 Office 365 유료 또는 평가판 구독을위한 새로운 기능입니다. 이 구독에는 보안 기본값이 설정되어 있으며 ***모든 사용자가 Microsoft Authenticator 앱과 함께 MFA를 사용해야 합니다***.
+보안 기본값은 2019년 10월 21일 이후에 개발된 Microsoft 365 및 Office 365 유료 또는 평가판 구독을위한 새로운 기능입니다. 이 구독에는 보안 기본값이 설정되어 있으며 _*_모든 사용자가 Microsoft Authenticator 앱과 함께 MFA를 사용해야 합니다_*_.
  
 사용자는 스마트 폰에서 Microsoft Authenticator 앱으로 MFA에 14일 간 등록할 수 있으며, 이는 보안 기본값이 활성화된 후 처음 로그인 할 때부터 시작됩니다. 14일이 지나면 MFA 등록이 완료될 때까지 사용자가 로그인할 수 없습니다.
 
@@ -102,7 +102,7 @@ Windows 10을 실행하는 노트북과 같은 호환 장치에서 로그인을 
 
 | 메서드 | 사용 | 사용 안 함 | 추가 인증 방법 |
 |:-------|:-----|:-------|:-------|
-| **보안 기본값**  | 조건부 액세스 정책을 사용할 수 없습니다 | 조건부 액세스 정책을 사용할 수 있습니다 | Microsoft Authenticator 앱 |
+| _ *보안 기본값**  | 조건부 액세스 정책을 사용할 수 없습니다 | 조건부 액세스 정책을 사용할 수 있습니다 | Microsoft Authenticator 앱 |
 | **조건부 액세스 정책** | 이 중 하나가 사용되는 경우 보안 기본값을 사용할 수 없습니다. | 상기 수단을 모두 사용하지 않도록 설정한 경우, MFA 등록 중 사용자가 지정한   | 보안 기본값을 사용할 수 있습니다  |
 ||||
 
@@ -146,7 +146,7 @@ Azure AD ID 보호를 사용하면 다음을 수행할 수 있습니다.
 - [Microsoft 365에 대한 MFA](../admin/security-and-compliance/multi-factor-authentication-microsoft-365.md)
 - [Microsoft 365의 ID 로드맵](identity-roadmap-microsoft-365.md)
 - [Azure Academy Azure AD 교육 비디오](https://www.youtube.com/watch?v=pN8o0owHfI0&list=PL-V4YVm6AmwUFpC3rXr2i2piRQ708q_ia)
-- [Azure Multi-Factor Authentication 등록 정책 구성](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
+- [Azure 다단계 인증 등록 정책 구성](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 - [ID 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md)
 
 ## <a name="next-step"></a>다음 단계
