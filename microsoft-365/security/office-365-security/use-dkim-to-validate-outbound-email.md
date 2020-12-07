@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
-ms.openlocfilehash: 7f9e33a6f117f5da592d875e40cefc6a0072fd4a
-ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
+ms.openlocfilehash: 66f352b6c3a5d3b3beff3043a3f0d1a435d1e5d1
+ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49126676"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49560887"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -130,6 +130,9 @@ DKIM을 구성하려면 다음 단계를 수행합니다.
 
 DNS에 DKIM 서명을 추가하려는 각 도메인에 대해 두 개의 CNAME 레코드를 게시해야 합니다.
 
+> [!NOTE]
+> 전체 기사를 읽지 않은 경우 시간을 절약하는 다음과 같은 PowerShell 연결 정보를 놓쳤을 수 있습니다. [PowerShell을 통해 Office 365 워크로드](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)에 연결합니다. (Cmdlet은 Exchange Online에서 제공됩니다.) 
+
 다음 명령을 실행하여 선택기 레코드를 만듭니다.
 
 ```powershell
@@ -187,8 +190,6 @@ TTL:                3600
 > [!NOTE]
 > 두 번째 레코드를 만드는 것도 중요하지만, 생성 시 선택 도구 중 하나만 사용할 수 있습니다. 본질적으로, 두 번째 선택기는 아직 생성되지 않은 주소를 가리킬 수 있습니다. 키 회전이 원활하게 진행되므로 두 번째 CNAME 레코드를 만드는 것을 당사는 계속 권장했습니다.
 
-> [!CAUTION]
-> 당사는 키를 만드는 방법의 일부 설계 변경을 구현하고 있어서 자동 키 회전이 일시적으로 사용되지 않도록 설정되었습니다. 주기적으로 회전할 수 있도록 키를 여러 개 유지하는 것이 좋습니다. 비록 크랙을 하기는 어렵지만 이는 가장과 같은 위반을 방지하는 실질적인 완화 전략입니다. [Rotate-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig) 문서를 따라 조직에서 이 작업을 수행하는 데 도움을 줄 수 있습니다. 2020년 8월에 자동 회전이 다시 설정될 예정입니다.
 
 ### <a name="enable-dkim-signing-for-your-custom-domain"></a>사용자 지정 도메인에 DKIM 서명 사용
 <a name="EnableDKIMinO365"> </a>
@@ -350,3 +351,7 @@ Return-Path: <communication@bulkemailprovider.com>
 <a name="DKIMNextSteps"> </a>
 
 DKIM은 스푸핑을 방지하도록 설계되었지만 SPF 및 DMARC에서 더 잘 작동합니다. DKIM을 설정한 후에 SPF를 아직 설정하지 않은 경우 설정을 수행해야합니다. SPF를 빠르게 도입하여 신속하게 구성하려면 [스푸핑 방지를 위해 Microsoft 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)을 참조하세요. Microsoft 365에서 SPF를 사용하는 방법이나 문제 해결 또는 비표준 배포(예: 하이브리드 배포)에 대한 자세한 내용은 [Microsoft 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 차단하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)을 참조하세요. 다음으로 [DMARC를 사용하여 전자 메일 유효성 검사](use-dmarc-to-validate-email.md)를 참조하세요. [스팸 방지 메시지 헤더](anti-spam-message-headers.md)에는 Microsoft 365에서 DKIM 검사에 사용하는 구문 및 헤더 필드가 포함됩니다.
+
+## <a name="more-information"></a>추가 정보
+
+[회전-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig)을 통한 키 회전

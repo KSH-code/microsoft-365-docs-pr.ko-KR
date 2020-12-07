@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 원격 작업자는 MFA(다단계 인증)를 사용하여 로그인해야 합니다.
-ms.openlocfilehash: aa9b122ca18c4d8a8123914ee2d29d41c9ec789e
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 85bac90085b47b5114db875c822d98aa1365cf97
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681459"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558167"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>1단계. MFA를 사용하여 원격 작업자에 대 한 로그인 보안 강화
 
@@ -43,7 +43,7 @@ ms.locfileid: "48681459"
 
 ## <a name="security-defaults"></a>보안 기본값
 
-보안 기본값은 2019년 10월 21일 이후에 개발된 Microsoft 365 및 Office 365 유료 또는 평가판 구독을위한 새로운 기능입니다. 이 구독에는 보안 기본값이 설정되어 있으며 **모든 사용자가 Microsoft Authenticator 앱과 함께 MFA를 사용해야 합니다**_.
+보안 기본값은 2019년 10월 21일 이후에 개발된 Microsoft 365 및 Office 365 유료 또는 평가판 구독을위한 새로운 기능입니다. 이 구독에는 보안 기본값이 설정되어 있으며 **모든 사용자가 Microsoft Authenticator 앱과 함께 MFA를 사용해야 합니다** _.
  
 사용자는 스마트 폰에서 Microsoft Authenticator 앱으로 MFA에 14일 간 등록할 수 있으며, 이는 보안 기본값이 활성화된 후 처음 로그인 할 때부터 시작됩니다. 14일이 지나면 MFA 등록이 완료될 때까지 사용자가 로그인할 수 없습니다.
 
@@ -75,7 +75,7 @@ Azure AD ID 보호 기능은 Microsoft 365 E5에 포함된 Azure AD Premium P2 �
 
 자세한 내용은 [위험에 기반한 조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk#require-mfa-medium-or-high-sign-in-risk-users)를 참조하세요.
 
-Azure AD ID 보호를 사용하여 사용자가 MFA에 등록하도록 요구하는 정책을 만들 수도 있습니다. 더 자세한 내용은 [Azure Multi-Factor Authentication 등록 정책 구성](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)을 참조하세요.
+Azure AD ID 보호를 사용하여 사용자가 MFA에 등록하도록 요구하는 정책을 만들 수도 있습니다. 더 자세한 내용은 [Azure AD 다단계 인증 등록 정책 구성](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)을 참조하세요.
 
 
 ## <a name="using-these-methods-together"></a>이 방법들을 함께 사용
@@ -91,7 +91,7 @@ Azure AD ID 보호를 사용하여 사용자가 MFA에 등록하도록 요구하
 
 | 메서드 | 사용 | 사용 안 함 | 추가 인증 방법 |
 |:-------|:-----|:-------|:-------|
-| _*보안 기본값**  | 조건부 액세스 정책을 사용할 수 없습니다 | 조건부 액세스 정책을 사용할 수 있습니다 | Microsoft Authenticator 앱 |
+| _ *보안 기본값**  | 조건부 액세스 정책을 사용할 수 없습니다 | 조건부 액세스 정책을 사용할 수 있습니다 | Microsoft Authenticator 앱 |
 | **조건부 액세스 정책** | 이 중 하나가 사용되는 경우 보안 기본값을 사용할 수 없습니다. | 상기 수단을 모두 사용하지 않도록 설정한 경우, MFA 등록 중 사용자가 지정한   | 보안 기본값을 사용할 수 있습니다  |
 ||||
 

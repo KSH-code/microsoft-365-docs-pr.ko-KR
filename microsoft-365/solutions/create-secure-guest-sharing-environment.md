@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Microsoft 365에서 안전한 게스트 공유 환경을 만드는 데 사용할 수 있는 옵션에 대해 알아보고, 공동 작업을 위한 게스트 액세스를 제공합니다.
-ms.openlocfilehash: e0b943ce698cc6b93bd250a83b1c94eba406c484
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+ms.openlocfilehash: 4e2045113a6c98e2b3839a3a2cdd83105be94023
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030020"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558191"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>보안 게스트 공유 환경 만들기
 
@@ -66,7 +66,7 @@ ms.locfileid: "49030020"
 
 ### <a name="more-information"></a>추가 정보
 
-[Azure 다단계 인증 배포 계획](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
+[Azure AD 다단계 인증 배포 계획](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
 
 ## <a name="set-up-a-terms-of-use-for-guests"></a>게스트에 대한 사용 약관 설정
 
@@ -100,7 +100,7 @@ Azure AD 사용 약관을 만들려면
 5. **사용자 및 그룹** 블레이드에서 **사용자 및 그룹 선택** 을 선택하고 **모든 게스트 및 외부 사용자** 확인란을 선택합니다.
 6. **할당** 에서 **클라우드 앱 또는 작업** 을 클릭합니다.
 7. **포함** 탭에서 **앱 선택** 을 선택한 후 **선택** 을 클릭합니다.
-8. **선택** 블레이드에서 **Microsoft Teams** , **Office 365 SharePoint Online** , 및 **Outlook Groups** 를 선택한 후 **선택** 을 클릭합니다.
+8. **선택** 블레이드에서 **Microsoft Teams**, **Office 365 SharePoint Online**, 및 **Outlook Groups** 를 선택한 후 **선택** 을 클릭합니다.
 9. **액세스 제어** 아래에서 **허용** 을 선택합니다.
 10. **허용** 블레이드에서 **게스트 사용 약관** 을 선택한 후 **선택** 을 클릭합니다.
 11. **새로 만들기** 블레이드의 **정책 사용** 에서 **설정** 을 클릭한 후 **만들기** 를 클릭합니다.
@@ -174,7 +174,7 @@ Microsoft 365 그룹 및 Teams의 경우, Azure AD 조건부 액세스 정책을
 8. **선택** 블레이드에서 **Microsoft Teams** 및 **Outlook Groups** 를 선택한 후 **선택** 을 클릭합니다.
 9. **할당** 아래에서 **조건** 을 클릭합니다.
 10. **조건** 블레이드에서 **클라이언트 앱** 을 클릭합니다.
-11. **클라이언트 앱** 블레이드에서 **구성** 의 경우 **예** 를 클릭하고 **모바일 앱 및 데스크톱 클라이언트** , **Exchange ActiveSync 클라이언트** 그리고 **기타 클라이언트** 설정을 선택합니다. **브라우저** 확인란을 선택 취소합니다.
+11. **클라이언트 앱** 블레이드에서 **구성** 의 경우 **예** 를 클릭하고 **모바일 앱 및 데스크톱 클라이언트**, **Exchange ActiveSync 클라이언트** 그리고 **기타 클라이언트** 설정을 선택합니다. **브라우저** 확인란을 선택 취소합니다.
 
     ![Azure AD 조건부 액세스 클라이언트 앱 설정 스크린샷](../media/azure-ad-conditional-access-client-mobile.png)
 
@@ -205,7 +205,7 @@ SharePoint 관리 센터의 이 설정은 Azure AD에 지원 조건부 액세스
 5. **사용자 및 그룹** 블레이드에서 **사용자 및 그룹 선택** 을 선택하고 **모든 게스트 및 외부 사용자** 확인란을 선택합니다.
 6. **할당** 에서 **클라우드 앱 또는 작업** 을 클릭합니다.
 7. **포함** 탭에서 **앱 선택** 을 선택한 후 **선택** 을 클릭합니다.
-8. **선택** 블레이드에서 **Microsoft Teams** , **Office 365 SharePoint Online** , 및 **Outlook Groups** 를 선택한 후 **선택** 을 클릭합니다.
+8. **선택** 블레이드에서 **Microsoft Teams**, **Office 365 SharePoint Online**, 및 **Outlook Groups** 를 선택한 후 **선택** 을 클릭합니다.
 9. **액세스 제어** 아래에서 **세션** 을 클릭합니다.
 10. **세션** 블레이드에서 **로그인 빈도** 를 선택합니다.
 11. 시간에서 **1** 과 **일** 을 선택한 후 **선택** 을 클릭합니다.
