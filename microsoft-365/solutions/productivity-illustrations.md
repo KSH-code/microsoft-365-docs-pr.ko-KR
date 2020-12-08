@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 생산성 일러스트레이션
-description: 팀 아키텍처 다이어그램과 같은 이러한 그림을 사용 하 여 Microsoft 365 생산성 솔루션을 구현 하기 위한 아키텍처 기본 사항을 이해 합니다.
+description: Teams 아키텍처 다이어그램과 같은 다음 그림을 사용하여 Microsoft 365 생산성 솔루션을 구현하기 위한 아키텍처 기본을 이해합니다.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -13,23 +13,23 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 9bd5ad3e2544e0c715ade59ca4744e08c8a548a6
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+ms.openlocfilehash: 81e729d9b0ff145d1d10a385cdd3f0856287dd9f
+ms.sourcegitcommit: 490a65d32b6d656c661c36a2cc8dda03bf6cba77
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376668"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588588"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Microsoft 365 생산성 일러스트레이션
 
-Microsoft 365 enterprise 솔루션 시리즈는 Microsoft 365 기능을 구현 하기 위한 지침을 제공 하며, 특히 기능 간의 기술 (예: 팀 아키텍처 다이어그램)을 포함 합니다.
+Microsoft 365 Enterprise 솔루션 시리즈는 Microsoft 365 기능을 구현하기 위한 지침을 제공합니다. 특히 Teams 아키텍처 다이어그램을 비롯한 기술이 교차되는 경우.
 
 ### <a name="microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects"></a>IT 설계자용 Microsoft 365의 Microsoft Teams 및 관련 생산성 서비스
 Microsoft Teams로 시장을 선도하는 Microsoft 365 생산성 서비스의 논리적 아키텍처입니다.
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![팀 논리 아키텍처 포스터](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>2019년 4월에 업데이트됨   |Microsoft는 생산성 서비스 제품군을 제공하여 데이터 관리, 보안 및 규정 준수 기능이 포함된 공동 작업 환경을 제공합니다. <br/> <br/>이 일러스트레이션 시리즈는 엔터프라이즈 설계자를 위해 Microsoft Teams로 시장을 선도하는 생산성 서비스의 논리 아키텍처를 보여줍니다.|
+|[![Teams 논리 아키텍처 포스터](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>2019년 4월에 업데이트됨   |Microsoft는 생산성 서비스 제품군을 제공하여 데이터 관리, 보안 및 규정 준수 기능이 포함된 공동 작업 환경을 제공합니다. <br/> <br/>이 일러스트레이션 시리즈는 엔터프라이즈 설계자를 위해 Microsoft Teams로 시장을 선도하는 생산성 서비스의 논리 아키텍처를 보여줍니다.|
 
 
 ### <a name="groups-in-microsoft-365-for-it-architects"></a>IT 설계자용 Microsoft 365의 그룹
@@ -37,18 +37,18 @@ IT 설계자가 Microsoft 365의 그룹에 대해 알아야 하는 점
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![그룹 인포그래픽용 축소판 이미지](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) <br> 업데이트 된 2020 년 5 월|이러한 일러스트레이션은 다양한 그룹의 종류, 그룹을 만들고 관리하는 방법, 몇 가지 관리 권장 사항에 대해 자세한 설명을 제공합니다.|
+|[![그룹 인포그래픽용 축소판 이미지](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) <br> 2020년 5월 업데이트|이러한 일러스트레이션은 다양한 그룹의 종류, 그룹을 만들고 관리하는 방법, 몇 가지 관리 권장 사항에 대해 자세한 설명을 제공합니다.|
 
-### <a name="microsoft-365-information-protection-and-compliance-capabilities"></a>Microsoft 365 정보 보호 및 준수 기능
+### <a name="microsoft-365-information-protection-and-compliance-capabilities"></a>Microsoft 365 정보 보호 및 규정 준수 기능
 
-Microsoft 365에는 광범위 한 정보 보호 및 준수 기능이 포함 되어 있습니다. Microsoft의 생산성 도구와 함께 이러한 기능은 조직이 엄격한 규정 준수 프레임 워크를 준수 하면서 실시간으로 공동 작업 하는 데 도움이 되도록 설계 되었습니다. 
+Microsoft 365에는 광범위한 정보 보호 및 규정 준수 기능이 포함되어 있습니다. 이러한 기능은 Microsoft의 생산성 도구와 함께 엄격한 규정 준수 프레임워크를 준수하면서 조직이 실시간으로 공동 작업을 할 수 있도록 디자인되었습니다. 
 
-이 그림 집합은 가장 규정 된 업계 금융 서비스 중 하나를 사용 하 여 일반적인 규정 요구 사항에 맞게 이러한 기능을 적용할 수 있는 방법을 보여 줍니다. 사용자 개인 용도로 이 그림을 사용할 수 있습니다. 
+이 그림 집합은 가장 규제가 많은 산업인 금융 서비스 중 하나를 사용하여 이러한 기능을 적용하여 일반적인 규제 요구 사항을 충족하는 방법을 보여줄 수 있습니다. 사용자 개인 용도로 이 그림을 사용할 수 있습니다. 
 
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![모델 포스터: Microsoft 365 정보 보호 및 규정 준수 기능](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> 영어: [PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) \| [다운로드로 Visio로](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) 다운로드   <br/> 일본어: [PDF](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf) \| [다운로드로 Visio로](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) 다운로드   <br/> 2020 년 11 월 업데이트|개의 <ul><li>  Microsoft 정보 보호 및 데이터 손실 방지</li><li>보존 정책 및 보존 레이블 </li><li>정보 장벽</li><li>커뮤니케이션 규정 준수</li><li>참가자 위험</li><li>타사 데이터 수집</li>|
+|[![모델 포스터: Microsoft 365 정보 보호 및 규정 준수 기능](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> 영어: [PDF로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> 일본어: [PDF로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) <br/> 2020년 11월에 업데이트됨|포함 항목: <ul><li>  Microsoft 정보 보호 및 데이터 손실 방지</li><li>보존 정책 및 보존 레이블 </li><li>정보 장벽</li><li>커뮤니케이션 규정 준수</li><li>참가자 위험</li><li>타사 데이터 수집</li>|
 
 
 ### <a name="security-and-information-protection-for-multi-region-organizations"></a>다중 영역 조직에 대한 보안 및 정보 보호
@@ -56,35 +56,35 @@ Microsoft 365에는 광범위 한 정보 보호 및 준수 기능이 포함 되�
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![다중 지역 infographic](../media/solutions-architecture-center/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx)<br>2020년 3월에 업데이트됨 |글로벌 조직에 단일 Microsoft 365 테넌트의 사용은 많은 이유로 최선의 선택과 경험이 될 것입니다. 하지만 많은 설계자들이 다양한 영역에 걸쳐 보안 및 정보 보호 목적을 충족하기 위한 방법을 고심하고 있습니다. 이 항목의 집합은 권장 사항을 제공합니다. |
+|[![다중 영역 정보 그래픽](../media/solutions-architecture-center/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx)<br>2020년 3월에 업데이트됨 |글로벌 조직에 단일 Microsoft 365 테넌트의 사용은 많은 이유로 최선의 선택과 경험이 될 것입니다. 하지만 많은 설계자들이 다양한 영역에 걸쳐 보안 및 정보 보호 목적을 충족하기 위한 방법을 고심하고 있습니다. 이 항목의 집합은 권장 사항을 제공합니다. |
 
-### <a name="microsoft-defender-for-endpoint-deployment-strategy"></a>끝점 배포 전략 용 Microsoft Defender
+### <a name="microsoft-defender-for-endpoint-deployment-strategy"></a>끝점용 Microsoft Defender 배포 전략
 
 환경에 따라 일부 도구는 특정 아키텍처에 더 적합합니다.
 
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![끝점 배포 전략 용 Microsoft Defender에 대 한 축소판 이미지](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>2020년 2월에 업데이트됨| 건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li>
+|[![엔드포인트 배포 전략용 Microsoft Defender의 축소판 이미지](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>2020년 2월에 업데이트됨| 건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li>
 
 
 <a name="BKMK_O365IDP"></a>
-### <a name="identity-and-device-protection-for-microsoft-365"></a>Microsoft 365에 대 한 id 및 장치 보호
+### <a name="identity-and-device-protection-for-microsoft-365"></a>Microsoft 365의 ID 및 장치 보호
 
-Microsoft 365, 기타 SaaS 서비스 및 Azure AD 응용 프로그램 프록시를 사용 하 여 게시 된 온-프레미스 응용 프로그램에 액세스 하는 id 및 장치를 보호 하기 위한 권장 기능
+Azure AD 응용 프로그램 프록시를 사용하여 게시된 Microsoft 365, 기타 SaaS 서비스 및프레미스 응용 프로그램에 액세스하는 ID 및 장치를 보호하기 위한 권장 기능입니다.
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![모델 포스터: Microsoft 365에 대 한 Id 및 장치 보호](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [PDF](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| 로 보기 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| 로 다운로드 [Visio로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> 2020 년 9 월 업데이트|데이터, ID 및 장치 전반에 걸쳐 일관된 보호 수준을 사용하는 것이 중요합니다. 이 모델에서는 id 및 장치를 보호 하기 위한 기능에 대 한 자세한 정보와 어떤 기능을 사용할 수 있는지를 보여 줍니다.  <br/> |
+|[![모델 포스터: Microsoft 365의 ID 및 장치 보호](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [PDF로 보기](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Visio로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> 2020년 9월 업데이트|데이터, ID 및 장치 전반에 걸쳐 일관된 보호 수준을 사용하는 것이 중요합니다. 이 모델에서는 ID 및 장치를 보호하기 위한 기능에 대한 자세한 정보와 비교할 수 있는 기능을 보여 제공합니다.  <br/> |
  
 <a name="BKMK_ediscovery"></a>
 ### <a name="advanced-ediscovery-architecture-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 아키텍처
 
-Microsoft 365 다중 지역 환경 내에서의 고급 eDiscovery 종단간 워크플로 및 데이터 흐름 
+Microsoft 365 Multi-Geo 환경 내를 비롯한 고급 eDiscovery 종단식 워크플로 및 데이터 흐름 
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![모델 포스터: Microsoft 365의 고급 eDiscovery 아키텍처](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [이미지로 보기](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [PDF](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| 로 다운로드 [Visio로 다운로드](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> 업데이트 날짜: 2020년 10월|개의 <ul><li>  단일 환경의 종단 간 워크플로</li><li>Microsoft 365 다중 지리적 환경의 종단 간 워크플로 </li><li>EDRM 워크플로를 지 원하는 종단 간 데이터 흐름</li> |
+|[![모델 포스터: Microsoft 365의 고급 eDiscovery 아키텍처](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [이미지로 보기](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [PDF로 다운로드](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Visio로 다운로드](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> 2020년 10월 업데이트|포함 항목: <ul><li>  단일 환경의 종단-종단 워크플로</li><li>Microsoft 365 Multi-Geo 환경의 종단 내 워크플로 </li><li>EDRM 워크플로를 지원하는 종단 내 데이터 흐름</li> |
   
 <!--
 
@@ -130,7 +130,26 @@ Microsoft는 Microsoft 클라우드에서 팀을 처음 경험할 때 몇 가지
 2019년 1월에 업데이트됨
 
 자세한 내용은이 포스터에 대한 문서인 [Microsoft 전화 통신 솔루션](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)을 참조하세요.
-  
+
+### <a name="empower-remote-workers"></a>원격 작업자 권한 부여
+
+Microsoft 365 및 기타 Microsoft 클라우드 기술을 사용하여 직원들이 가정에서 조직의 클라우드 기반 정보, 도구 및 리소스에 안전하게 액세스할 수 있도록 할 수 있습니다. 
+
+[![원격 작업자 지원](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf) <br/>
+[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf)  |  [PowerPoint](https://download.microsoft.com/download/5/1/1/511b77a9-a34c-4ea7-af2a-32b07f20b780/empower-remote-workers.pptx) <br>
+2020년 7월 업데이트
+
+자세한 내용은 이 포스터에 대한 문서를 참조하세요. [Microsoft 365를](empower-people-to-work-remotely.md)사용하여 원격 작업자의 역량을 강화하세요.
+
+### <a name="microsoft-teams-with-security-isolation"></a>보안이 있는 Microsoft Teams
+
+Microsoft 365를 사용하면 Microsoft Teams에서 개인 팀을 구성하고 SharePoint 사이트 보안 설정 및 고유한 민감도 레이블을 사용하여 팀 구성원만 암호를 해독할 수 있도록 파일을 암호화할 수 있습니다.
+
+[![보안 격리를 사용하여 Microsoft Teams 구성하기](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf) <br/>
+[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) <br> 2020년 8월 업데이트
+
+자세한 내용은 이 포스터에 대한 문서인 보안이 있는 팀 [구성을 참조하세요.](secure-teams-security-isolation.md)
+
   
 ## <a name="see-also"></a>참고 항목
 
