@@ -99,25 +99,37 @@
       items:
         - name: Teams 아키텍처 포스터
           href: 'https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-        - name: 전화 통신 솔루션
+        - name: Microsoft 365 Teams 음성 배포
           items:
-            - name: Teams 음성 솔루션 선택
+            - name: 개요
+              href: deploy-voice.md
+            - name: 1단계. 음성 솔루션을 선택합니다.
               href: 'https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: 2단계. 전화 시스템 설정
+              href: 'https://docs.microsoft.com/microsoftteams/setting-up-your-phone-system?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: 3단계. PSTN 연결 설정
+              items:
+                - name: 통화 플랜 옵션
+                  href: 'https://docs.microsoft.com/microsoftteams/set-up-calling-plans?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+                - name: 직접 라우팅 옵션
+                  href: 'https://docs.microsoft.com/microsoftteams/direct-routing-configure?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: 다국적 기업에 대한 사례 연구
               href: 'https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: 공동 작업 거버넌스
           items:
             - name: 개요
               href: collaboration-governance-overview.md
-            - name: 거버넌스 우선
+            - name: 거버넌스 계획 짜기
               href: collaboration-governance-first.md
-            - name: SharePoint가 있는 그룹
-              href: groups-sharepoint-governance.md
-            - name: '그룹, SharePoint 및 Teams'
-              href: groups-sharepoint-teams-governance.md
-            - name: 서비스 상호 작용 참조
-              href: groups-services-interactions.md
-            - name: 접근
+            - name: 서비스 설정
+              items:
+                - name: SharePoint를 사용하는 그룹
+                  href: groups-sharepoint-governance.md
+                - name: '그룹, SharePoint 및 Teams'
+                  href: groups-sharepoint-teams-governance.md
+                - name: 다른 서비스를 사용하는 그룹
+                  href: groups-services-interactions.md
+            - name: 액세스
               href: groups-teams-access-governance.md
             - name: 규정 준수
               href: groups-teams-compliance-governance.md
