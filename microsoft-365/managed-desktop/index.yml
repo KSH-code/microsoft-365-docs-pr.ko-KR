@@ -1,21 +1,21 @@
 ### YamlMime:Landing
-title: 'Microsoft Managed Desktop 문서 '
-summary: Microsoft Managed Desktop은 Microsoft 365 Enterprise, Microsoft의 클라우드 기반 장치 관리 및 보안 모니터링을 함께 사용하여 IT 팀이 핵심 비즈니스 요구 사항에 집중할 수 있도록 합니다.
+title: Microsoft Managed Desktop 문서
+summary: Microsoft Managed Desktop은 IT 사용자가 신뢰할 수 있는 안전하고 생산성 높은 장치 환경을 사용자에게 제공하는 방식으로 끝점 관리 및 보안 모니터링을 결합하는 독특한 ITaaS 솔루션입니다.
 metadata:
-  title: 'Microsoft Managed Desktop 문서 '
+  title: Microsoft Managed Desktop 문서
   description: Microsoft Managed Desktop은 Microsoft 365 Enterprise, Microsoft의 클라우드 기반 장치 관리 및 보안 모니터링을 함께 사용하여 IT 팀이 핵심 비즈니스 요구 사항에 집중할 수 있도록 합니다.
   keywords: device, app, management
   ms.service: m365-md
   ms.topic: landing-page
   author: jaimeo
   ms.author: jaimeo
-  ms.date: 07/13/2020
-  ms.openlocfilehash: 08ff51dcc2ecc7bb5f7a11616f011964d99287f2
-  ms.sourcegitcommit: 48f3c002678906189bfba079bbf055d67d08a60f
+  ms.date: 12/04/2020
+  ms.openlocfilehash: 59d8d4ae0986af58c086ea08f486feca5cb23f71
+  ms.sourcegitcommit: 9d5ddfc856926ce6919498c9c42a7421fef78328
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 08/05/2020
-  ms.locfileid: "46564146"
+  ms.lasthandoff: 12/04/2020
+  ms.locfileid: "49576778"
 landingContent:
 - title: Microsoft Managed Desktop 소개
   linkLists:
@@ -33,21 +33,33 @@ landingContent:
       url: get-started/index.md
     - text: Microsoft Managed Desktop 사용
       url: /microsoft-365/managed-desktop/working-with-managed-desktop/
-- title: 새 문서 및 블로그 게시물
+- title: 문서 및 블로그 게시물
   linkLists:
-  - linkListType: whats-new
+  - linkListType: learn
     links:
-    - text: '[로드맵] Microsoft Managed Desktop에 대한 전체 로드맵'
-      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482
-    - text: '[백서] 연구: Microsoft Desktop 서비스에 대한 수요의 증가'
-      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182
-    - text: '[전자 책] 현대 업무 환경에서의 회사의 기쁨'
-      url: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw
-- title: 동영상
+    - text: '[블로그] 회사 장치는 새로운 ‘무료 간식’'
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/workplace-devices-are-the-new-free-snacks/ba-p/1675936
+    - text: '[백서] 연구: Microsoft Managed Desktop으로 시간 및 비용 절감'
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/study-microsoft-managed-desktop-saves-time-and-costs/ba-p/1403408
+    - text: '[백서] Microsoft Managed Desktop을 통해 참여를 높일 수 있음'
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/microsoft-managed-desktop-can-help-boost-engagement/ba-p/1031932
+    - text: '[백서] SA Power Network는 사용자 요구를 충족하기 위해 Microsoft Managed Desktop을 배포'
+      url: https://customers.microsoft.com/story/832888-sa-power-networks-case-study-energy-microsoft-managed-desktop
+- title: 이점 및 하이라이트
   linkLists:
   - linkListType: video
     links:
-    - text: Lloyds 뱅킹 그룹의 엔지니어링 디렉터에서 Microsoft 관리 데스크톱의 이점에 대해 알아봅니다.
+    - text: Microsoft Managed Desktop - IT 관리자 환경 제공
+      url: https://www.youtube.com/watch?v=UQ8VRSysUXw&feature=youtu.be
+    - text: Microsoft Managed Desktop에서 기업들이 좋아하는 것
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE4yjfL
+    - text: Microsoft Managed Desktop - 환상적인 장치 환경
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE41urx?autoplay=false
+    - text: Microsoft Managed Desktop - 보안 운영
+      url: https://www.microsoft.com/videoplayer/embed/RE4COuk
+    - text: Microsoft Managed Desktop - 변경 및 릴리스 프로세스
+      url: https://www.microsoft.com/videoplayer/embed/RE4COuk
+    - text: Shiproom/IGM/에피소드 29 - 보안으로 사용자 환경 우선 순위 설정
+      url: https://www.youtube.com/watch?v=im11J9C1MTA&feature=youtu.be
+    - text: Shiproom/Lloyds 뱅킹 그룹/에피소드 25 - 빠른 변환을 통한 리더십
       url: https://www.youtube.com/watch?v=B9Gqj66qxNo&feature=youtu.be
-    - text: 연례 Ignite 컨퍼런스에서 Microsoft Managed Desktop의 주요 내용을 설명합니다.
-      url: /microsoft-365/managed-desktop/service-description
