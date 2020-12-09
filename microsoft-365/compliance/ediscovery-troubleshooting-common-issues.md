@@ -16,110 +16,109 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Office 365 eDiscovery에서 일반적인 문제를 해결 하기 위해 수행할 수 있는 기본적인 문제 해결 단계에 대해 알아봅니다.
+description: Office 365 eDiscovery에서 일반적인 문제를 해결하기 위해 취할 수 있는 기본 문제 해결 단계에 대해 자세히 알아보십시오.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a2db7fac04f29587f451b8feff5b641624e0cf45
-ms.sourcegitcommit: 8ad481ed61cb6dabf8afb0fb04296666fa166450
+ms.openlocfilehash: 4f1bad23705729c15976959a3902501f05da7600
+ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2020
-ms.locfileid: "49422867"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49602039"
 ---
-# <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결 및 해결
+# <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결
 
-이 항목에서는 eDiscovery 검색 중에 발생할 수 있는 문제를 파악 하 고 해결 하기 위해 수행할 수 있는 기본적인 문제 해결 단계를 설명 합니다. 이러한 시나리오 중 일부를 해결 하려면 Microsoft 기술 지원 서비스에서 도움을 받아야 합니다. Microsoft 지원 센터에 문의 하는 방법에 대 한 정보는 해결 방법에 포함 되어 있습니다.
+이 항목에서는 eDiscovery 검색 중 또는 eDiscovery 프로세스의 다른 곳에서 발생할 수 있는 문제를 식별하고 해결하기 위해 취할 수 있는 기본 문제 해결 단계를 다단계로 제공합니다. 이러한 시나리오 중 일부를 해소하려면 Microsoft 지원의 도움이 필요합니다. Microsoft 지원에 문의하는 경우의 정보는 해결 단계에 포함되어 있습니다.
 
 ## <a name="errorissue-ambiguous-location"></a>오류/문제: 모호한 위치
 
-사용자의 사서함 위치를 검색에 추가 하려고 했지만 EOP (Exchange Online Protection) 디렉터리에 동일한 userID가 있는 개체가 중복 되거나 충돌 하는 경우에는 다음 오류가 발생 `The compliance search contains the following invalid location(s):useralias@contoso.com. The location "useralias@contoso.com" is ambiguous` 합니다.
+검색할 사용자의 사서함 위치를 추가하려고 하여 EOP(Exchange Online Protection) 디렉터리에 동일한 userID를 사용하여 중복되거나 충돌하는 개체가 있는 경우 다음 오류가 `The compliance search contains the following invalid location(s):useralias@contoso.com. The location "useralias@contoso.com" is ambiguous` 발생합니다.
 
 ### <a name="resolution"></a>해결 방법
 
-동일한 사용자 ID의 중복 된 사용자 또는 메일 그룹을 확인 합니다.
+사용자 ID가 같은 중복 사용자 또는 메일 목록을 검사합니다.
 
-1. [보안 & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)에 연결 합니다.
+1. 보안 및 [& 센터 PowerShell에 연결합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
-2. 다음 명령을 실행 하 여 username의 모든 인스턴스를 검색 합니다.
+2. 다음 명령을 실행하여 사용자 이름의 모든 인스턴스를 검색합니다.
 
     ```powershell
     Get-Recipient <username>
     ```
 
-   ' Useralias@contoso.com '의 출력은 다음과 유사 합니다.
+   'useralias@contoso.com'의 출력은 다음과 유사합니다.
 
    > 
    > |이름|RecipientType|
    > |---|---|
-   > |별칭, 사용자|Enable-mailuser|
+   > |별칭, 사용자|MailUser|
    > |별칭, 사용자|사용자|
 
-3. 여러 사용자가 반환 되 면 충돌 하는 개체를 찾아서 수정 합니다.
+3. 여러 사용자가 반환되는 경우 충돌하는 개체를 찾아 수정합니다.
 
 ## <a name="errorissue-search-fails-on-specific-locations"></a>오류/문제: 특정 위치에서 검색 실패
 
-EDiscovery 또는 콘텐츠 검색 시 다음 오류가 발생할 수 있습니다.
->이 검색은 (#) 오류와 함께 완료 되었습니다.  실패 한 위치에서 검색을 다시 시도 하 시겠습니까?
+eDiscovery 또는 콘텐츠 검색에서는 다음 오류가 발생할 수 있습니다. `This search completed with (#) errors.  Would you like to retry the search on the failed locations?`
 
-![검색 별 위치 실패 오류 스크린샷](../media/edisc-tshoot-specific-location-search-fails.png)
+![검색 관련 위치 실패 오류 스크린샷](../media/edisc-tshoot-specific-location-search-fails.png)
 
 ### <a name="resolution"></a>해결 방법
 
-이 오류가 표시 되는 경우 검색에 실패 한 위치를 확인 한 다음 실패 한 위치 에서만 검색을 다시 실행 하는 것이 좋습니다.
+이 오류가 발생하면 검색에 실패한 위치를 확인한 다음 실패한 위치에서만 검색을 다시 발생하는 것이 좋습니다.
 
-1. [보안 & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 에 연결한 후 다음 명령을 실행 합니다.
+1. 보안 & 준수 센터 [PowerShell에](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 연결한 다음 다음 명령을 실행합니다.
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
    ```
 
-2. PowerShell 출력의 오류 필드에서 실패 한 위치를 확인 하거나, 오류에 있는 상태 세부 정보를 검색 결과에 표시 합니다.
+2. PowerShell 출력에서 오류 필드의 실패한 위치를 보거나 검색 출력에서 오류의 상태 세부 정보를 볼 수 있습니다.
 
-3. 실패 한 위치 에서만 eDiscovery 검색을 다시 시도 합니다.
+3. 실패한 위치에서만 eDiscovery 검색을 다시 시도합니다.
 
-4. 계속 해 서 이러한 오류가 표시 되 면 다른 문제 해결 단계에 대 한 [다시 시도 실패 위치](https://docs.microsoft.com/Office365/SecurityCompliance/retry-failed-content-search) 를 참조 하십시오.
+4. 이러한 오류가 계속 발생하는 경우 [Retry failed locations](https://docs.microsoft.com/Office365/SecurityCompliance/retry-failed-content-search) 추가 문제 해결 단계를 위해 실패한 위치를 다시 시도하십시오.
 
-## <a name="errorissue-file-not-found"></a>오류/문제: 파일을 찾을 수 없음
+## <a name="errorissue-file-not-found"></a>오류/문제: 파일을 찾을 수 없습니다.
 
-SharePoint Online 및 업무용 위치를 포함 하는 eDiscovery 검색을 실행할 때 해당 `File Not Found` 파일이 사이트에 있더라도 오류가 표시 될 수 있습니다. 이 오류는 내보내기 경고에 표시 되 고 errors.csv 하거나 items.csv 건너 뜁니다. 이 오류는 사이트에서 파일을 찾을 수 없거나 인덱스가 오래 된 경우에 발생할 수 있습니다. 다음은 실제 오류 (강조 추가 됨)의 텍스트입니다.
+SharePoint Online 및 비즈니스용 OneDiscovery 위치를 포함하는 eDiscovery 검색을 실행하는 경우 파일이 사이트에 있는 경우 오류가 발생할 `File Not Found` 수 있습니다. 이 오류는 내보내기 경고에 추가되거나 errors.csv 건너뜁니다items.csv. 사이트에서 파일을 찾을 수 없는 경우나 인덱스가 최신이 아니면 이러한 문제가 발생할 수 있습니다. 다음은 실제 오류 텍스트입니다(강조 표시 추가).
 
-> 28.06.2019 10:02:19_FailedToExportItem_Failed 콘텐츠를 다운로드 합니다. 추가 진단 정보: ContentDownloadTemporaryFailure: 콘텐츠 6ea52149-91cd-4965-b5bb-82ca6a3ec9be 문서를 다운로드 하지 못했습니다. 상관 관계 Id: 3bd84722-937b-4c23-b61b-08d6fba9ec32. ServerErrorCode:-2147024894---> Microsoft web.config. Servererrorcode: ***파일을 찾을 수 없습니다***. ProcessResponseStream (Stream responseStream)의 Microsoft sharepoint. Clientrequest ()---내부 예외 스택 추적의 끝을---합니다.
-
-### <a name="resolution"></a>해결 방법
-
-1. 검색에서 확인 된 위치를 확인 하 여 파일 위치가 올바르며 검색 위치에 추가 되었는지 확인 합니다.
-
-2. [수동으로 크롤링을 요청 하 고 사이트, 라이브러리 또는 목록을 다시 인덱싱하여 사이트의](https://docs.microsoft.com/sharepoint/crawl-site-content) 인덱스를 해제 하는 절차를 사용 합니다.
-
-## <a name="errorissue-search-fails-because-recipient-is-not-found"></a>오류/문제: 받는 사람이 발견 되지 않아 검색이 실패 합니다.
-
-EDiscovery 검색이 실패 하 고 오류가 발생 `recipient not found` 합니다. 이 오류는 EOP (Exchange Online Protection)에서 개체가 동기화 되지 않아 사용자 개체를 찾을 수 없는 경우에 발생할 수 있습니다.
+> 28.06.2019 10:02:19_FailedToExportItem_Failed 콘텐츠를 다운로드합니다. 추가 진단 정보: Microsoft.Office.Compliance.EDiscovery.ExportWorker.Exceptions.ContentDownloadTemporaryFailure: 문서 유형의 콘텐츠 6ea52149-91cd-4965-b5bb-82ca6a3ec9be에서 다운로드하지 못했습니다. 상관 관계 ID: 3bd84722-937b-4c23-b61b-08d6fba9ec32. ServerErrorCode: -2147024894 --->.SharePoint.Client.ServerException: ***파일을 찾을 수 없습니다.*** Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)의 Microsoft.SharePoint.Client.ClientRequest.ProcessResponse() --- 내부 예외 스택 추적 종료 ---
 
 ### <a name="resolution"></a>해결 방법
 
-1. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)에 연결 합니다.
+1. 검색에서 식별된 위치를 확인하여 파일의 위치가 올바른지 확인하고 검색 위치에 추가하는지 확인합니다.
 
-2. 사용자가 Exchange Online Protection과 동기화 되었는지 확인 하려면 다음 명령을 실행 합니다.
+2. 사이트, [라이브러리](https://docs.microsoft.com/sharepoint/crawl-site-content) 또는 목록의 크롤링 및 다시 인덱싱을 수동으로 요청하는 절차에 따라 사이트를 다시 인덱싱합니다.
+
+## <a name="errorissue-search-fails-because-recipient-is-not-found"></a>오류/문제: 받는 사람을 찾을 수 없는 경우 검색이 실패합니다.
+
+eDiscovery 검색은 오류와 함께 `recipient not found` 실패합니다. 개체가 동기화되지 않은 경우 EOP(Exchange Online Protection)에서 사용자 개체를 찾을 수 없는 경우 이 오류가 발생할 수 있습니다.
+
+### <a name="resolution"></a>해결 방법
+
+1. Exchange [Online PowerShell에 연결합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+
+2. 다음 명령을 실행하여 사용자가 Exchange Online Protection에 동기화된지 확인할 수 있습니다.
 
    ```powershell
    Get-Recipient <userId> | FL
    ```
 
-3. 사용자 질문에 대 한 메일 사용자 개체가 있어야 합니다. 아무 것도 반환 하지 않으면 사용자 개체를 조사 합니다. 개체를 동기화 할 수 없으면 Microsoft 지원에 문의 하세요.
+3. 사용자 질문에 대한 메일 사용자 개체가 있습니다. 반환되는 개체가 없는 경우 사용자 개체를 조사합니다. 개체를 동기화할 수 없는 경우 Microsoft 지원에 문의합니다.
 
-## <a name="errorissue-exporting-search-results-is-slow"></a>오류/문제: 검색 결과를 내보내는 속도가 느림
+## <a name="errorissue-exporting-search-results-is-slow"></a>오류/문제: 검색 결과 내보내기 속도가 느립니다.
 
-보안 및 준수 센터에서 eDiscovery 또는 콘텐츠 검색의 검색 결과를 내보낼 때 다운로드가 예상 보다 오래 걸립니다.  다운로드 해야 하는 데이터의 양을 확인 하 고 내보내기 속도를 높일 수 있습니다.
+보안 및 준수 센터에서 eDiscovery 또는 콘텐츠 검색에서 검색 결과를 내보낼 때 다운로드 시간이 예상보다 오래 소요됩니다.  다운로드할 데이터의 양을 확인하고 내보내기 속도를 늘일 수 있습니다.
 
 ### <a name="resolution"></a>해결 방법
 
-1. [보안 & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 에 연결한 후 다음 명령을 실행 합니다.
+1. 보안 & 준수 센터 [PowerShell에](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 연결한 다음 다음 명령을 실행합니다.
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
    ```
 
-2. SearchResults 및 Searchresults 매개 변수로 다운로드할 데이터 양을 찾습니다.
+2. SearchResults 및 SearchStatistics 매개 변수에서 다운로드할 데이터 양을 검색합니다.
 
 3. 다음 명령을 실행합니다.
 
@@ -127,67 +126,67 @@ EDiscovery 검색이 실패 하 고 오류가 발생 `recipient not found` 합�
    Get-ComplianceSearchAction | FL
    ```
 
-4. 결과 필드에서 내보낸 데이터를 찾아 발생 한 오류를 확인 합니다.
+4. 결과 필드에서 내보낼 데이터를 찾고 발생하는 오류를 찾습니다.
 
-5. 오류에 대해 콘텐츠를 내보낸 디렉터리에 있는 trace 파일을 확인 합니다.
+5. 콘텐츠를 내보낼 디렉터리에 있는 trace.log 파일에서 오류가 없는지 확인합니다.
 
-6. 여전히 문제가 있는 경우 큰 결과 집합을 반환 하는 검색을 더 작은 검색으로 나누는 것이 좋습니다. 예를 들어 검색 쿼리에 날짜 범위를 사용 하 여 더 빠르게 다운로드할 수 있는 더 작은 결과 집합을 반환할 수 있습니다.
+6. 그래도 문제가 있는 경우 많은 결과 집합을 더 작은 검색으로 반환하는 검색을 나중을 고려합니다. 예를 들어 검색 쿼리에서 날짜 범위를 사용하여 더 빠르게 다운로드할 수 있는 더 작은 결과 집합을 반환할 수 있습니다.
 
-## <a name="errorissue-internal-server-error-500-occurred"></a>오류/문제: "내부 서버 오류 (500)가 발생 했습니다."
+## <a name="errorissue-internal-server-error-500-occurred"></a>오류/문제: "내부 서버 오류(500)가 발생했습니다."
 
-EDiscovery 검색을 실행할 때 "내부 서버 오류 (500)이 발생 했습니다."와 유사한 오류와 함께 검색이 계속 실패 하면 특정 사서함 위치에 대해서만 검색을 다시 실행 해야 할 수 있습니다.
+eDiscovery 검색을 실행하는 경우 "내부 서버 오류(500)가 발생했습니다."와 유사한 오류로 검색이 계속 실패하면 특정 사서함 위치에서만 검색을 다시 실행해야 할 수 있습니다.
 
 ![내부 서버 오류 500 스크린샷](../media/edisc-tshoot-error-500.png)
 
 ### <a name="resolution"></a>해결 방법
 
-1. 검색을 더 작은 검색으로 나누고 검색을 다시 실행 합니다.  더 작은 날짜 범위를 사용 하거나 검색 중인 위치 수를 제한 합니다.
+1. 더 작은 검색으로 검색을 중단하고 검색을 다시 실행합니다.  더 작은 날짜 범위를 사용해 보거나 검색할 위치 수를 제한합니다.
 
-2. [보안 & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 에 연결한 후 다음 명령을 실행 합니다.
+2. 보안 & 준수 센터 [PowerShell에](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 연결한 다음 다음 명령을 실행합니다.
 
    ```powershell Set-CaseHoldPolicy <policyname> -RetryDistribution
    Get-ComplianceSearch <searchname> | FL
    ```
 
-3. 결과 및 오류에 대 한 출력을 검사 합니다.
+3. 출력에서 결과 및 오류를 검사합니다.
 
-4. 추적 .log 파일을 검사 합니다. 검색 결과를 내보낸 것과 같은 폴더에 있습니다.
+4. trace.log 파일을 검사합니다. 검색 결과를 내보낼 때와 동일한 폴더에 있습니다.
 
 5. Microsoft 지원 팀에 문의합니다.
 
-## <a name="errorissue-holds-dont-sync"></a>오류/문제: 보류가 동기화 되지 않음
+## <a name="errorissue-holds-dont-sync"></a>오류/문제: 보류가 동기화되지 않습니다.
 
-eDiscovery 사례 보류 정책 동기화 배포 오류입니다. 오류는 다음과 같습니다.
+eDiscovery 케이스 보류 정책 동기화 배포 오류입니다. 이 오류는 다음을 읽습니다.
 
-> "리소스: 정책을 배포 하는 데 예상 보다 오래 걸리고 있습니다. 최종 배포 상태를 업데이트 하는 데 2 시간이 더 소요 될 수도 있으므로 몇 시간 후에 다시 확인 하세요. "
+> "리소스: 정책을 배포하는 데 예상보다 시간이 오래 필요합니다. 최종 배포 상태를 업데이트하는 데 2시간이 추가로 걸릴 수 있으므로 몇 시간 후 다시 확인해 보아야 합니다."
 
 ### <a name="resolution"></a>해결 방법
 
-1. [보안 & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 에 연결한 후 eDiscovery 사례 보류에 대해 다음 명령을 실행 합니다.
+1. 보안 & 준수 센터 [PowerShell에](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 연결한 다음 eDiscovery 사례 보류에 대해 다음 명령을 실행합니다.
 
    ```powershell
    Get-CaseHoldPolicy <policyname> - DistributionDetail | FL
    ```
 
-    보존 정책에 대해 다음 명령을 실행 합니다.
+    보존 정책의 경우 다음 명령을 실행합니다.
 
    ```powershell
    Get-RetentionCompliancePolicy <policyname> - DistributionDetail | FL
    ```
 
-2. DistributionDetail 매개 변수의 값을 검사 하 여 다음과 같은 오류를 확인 합니다.
+2. DistributionDetail 매개 변수의 값에서 다음과 같은 오류를 검사합니다.
 
-   > 오류: 리소스: 정책을 배포 하는 데 예상 보다 오래 걸립니다. 최종 배포 상태를 업데이트 하는 데 2 시간이 더 소요 될 수도 있으므로 몇 시간 후에 다시 확인 하세요. "
+   > 오류: 리소스: 정책을 배포하는 데 예상보다 시간이 오래 필요합니다. 최종 배포 상태를 업데이트하는 데 2시간이 추가로 걸릴 수 있으므로 몇 시간 후 다시 확인해 보아야 합니다."
 
-3. 문제가 있는 정책에서 RetryDistribution 매개 변수를 실행 해 봅니다.
+3. 문제의 정책에서 RetryDistribution 매개 변수를 실행해 보겠습니다.
 
-   EDiscovery 사례 보류의 경우:
+   eDiscovery 사례 보류의 경우:
 
    ```powershell
    Set-CaseHoldPolicy <policyname> -RetryDistribution
    ```
 
-   보존 정책:
+   보존 정책의 경우:
 
    ```powershell
    Set-RetentionCompliancePolicy <policyname> -RetryDistribution
@@ -195,6 +194,14 @@ eDiscovery 사례 보류 정책 동기화 배포 오류입니다. 오류는 다�
 
 4. Microsoft 지원 팀에 문의합니다.
 
+## <a name="error-the-condition-specified-using-http-conditional-headers-is-not-met"></a>오류: "HTTP 조건부 헤더를 사용하여 지정한 조건이 충족되지 않았습니다."
+
+eDiscovery 내보내기 도구를 사용하여 검색 결과를 다운로드할 때 다음과 같은 오류가 발생할 수 있습니다. 이는 일반적으로 Azure Storage 위치에서 발생하는 일시적인 `System.Net.WebException: The remote server returned an error: (412) The condition specified using HTTP conditional header(s) is not met.` 오류입니다.
+
+### <a name="resolution"></a>해결 방법
+
+이 문제를 해결하려면 검색 [downloading the search results](export-search-results.md#step-2-download-the-search-results)결과 다운로드를 다시 시도하여 eDiscovery 내보내기 도구를 다시 시작합니다.
+
 ## <a name="see-also"></a>참고 항목
 
-- [콘텐츠 위치 오류를 방지 하기 위한 팁](retry-failed-content-search.md#tips-to-avoid-content-location-errors)
+- [콘텐츠 위치 오류를 방지하는 팁](retry-failed-content-search.md#tips-to-avoid-content-location-errors)

@@ -18,16 +18,16 @@ ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
 description: 조직 내에서 Exchange, SharePoint 및 비즈니스용 OneDrive에서 부분적으로 인덱싱된(또는 인덱싱되지 않은) 항목을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 132a174f0c163c75939b75906baa3833c6387fa7
-ms.sourcegitcommit: 490a65d32b6d656c661c36a2cc8dda03bf6cba77
+ms.openlocfilehash: 94dc568aa889e76241ef7bd48e3dedaba9b92f2f
+ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/08/2020
-ms.locfileid: "49588565"
+ms.locfileid: "49602065"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>eDiscovery에서 부분적으로 인덱싱된 항목 조사
 
-Microsoft 365 준수 센터에서 실행되는 eDiscovery 검색에는 검색을 실행할 때 예상 검색 결과에 부분적으로 인덱싱된 항목이 자동으로 포함됩니다. 부분적으로 인덱싱된 항목은 특정 이유로 검색을 위해 완전히 인덱싱되지 않은 SharePoint 및 비즈니스용 OneDrive 사이트의 Exchange 사서함 항목 및 문서입니다. 대부분의 전자 메일 메시지와 사이트 문서는 전자 메일 메시지의 인덱싱 제한에 해당하기 때문에 성공적으로 [인덱싱됩니다.](limits-for-content-search.md#indexing-limits-for-email-messages) 그러나 일부 항목은 이러한 인덱싱 제한을 초과할 수 있으며 부분적으로 인덱싱됩니다. 다음은 검색을 위해 항목을 인덱싱할 수 없는 다른 이유와 eDiscovery 검색을 실행할 때 부분적으로 인덱싱된 항목으로 반환되는 다른 이유입니다.
+Microsoft 365 준수 센터에서 실행되는 eDiscovery 검색에는 검색을 실행할 때 예상 검색 결과에 부분적으로 인덱싱된 항목이 자동으로 포함됩니다. 부분적으로 인덱싱된 항목은 특정 이유로 검색을 위해 완전히 인덱싱되지 않은 SharePoint 및 비즈니스용 OneDrive 사이트의 Exchange 사서함 항목 및 문서입니다. 대부분의 전자 메일 메시지와 사이트 문서는 전자 메일 메시지의 인덱싱 제한에 해당하기 때문에 성공적으로 [인덱싱됩니다.](limits-for-content-search.md#indexing-limits-for-email-messages) 그러나 일부 항목은 이러한 인덱싱 제한을 초과할 수 있으며 부분적으로 인덱싱됩니다. 다음은 검색을 위해 항목을 인덱싱할 수 없는 다른 이유와 eDiscovery 검색을 실행할 때 부분적으로 인덱싱된 항목으로 반환되는 이유입니다.
   
 - 전자 메일 메시지에 이미지 파일과 같은 유효한 처리기 없이 첨부된 파일이 있습니다. 부분적으로 인덱싱된 전자 메일 항목의 가장 일반적인 원인입니다.
 
@@ -37,9 +37,9 @@ Microsoft 365 준수 센터에서 실행되는 eDiscovery 검색에는 검색을
 
 - 파일 형식 인덱싱은 지원되지만 특정 파일에 대해 인덱싱 오류가 발생했습니다.
 
-각 조직마다 다르지만 대부분의 조직 고객은 볼륨별로 콘텐츠의 1% 미만을 차지하고 부분적으로 인덱싱되는 크기에 따라 콘텐츠의 12% 미만을 차지합니다. 볼륨과 크기 간에 차이가 있는 이유는 파일이 크면 완전히 인덱싱할 수 없는 콘텐츠가 들어 있을 가능성이 더 높기 때문에 그렇습니다.
+각 조직마다 다르지만 대부분의 조직 고객은 볼륨별로 콘텐츠의 1% 미만을 차지하고 부분적으로 인덱싱되는 크기에 따라 콘텐츠의 12% 미만을 차지합니다. 볼륨과 크기 간의 차이는 파일이 크면 완전히 인덱싱할 수 없는 콘텐츠가 들어 있을 가능성이 더 높기 때문에 그렇습니다.
   
-## <a name="why-does-the-partially-indexed-item-count-change-for-a-search"></a>검색을 위해 부분적으로 인덱싱된 항목 수가 변경된 이유는 무엇입니까?
+## <a name="why-does-the-partially-indexed-item-count-change-for-a-search"></a>검색에 대해 부분적으로 인덱싱된 항목 수가 변경된 이유는 무엇입니까?
 
 eDiscovery 검색을 실행한 후 검색된 위치에 있는 부분적으로 인덱싱된 항목의 총 수와 크기가 검색에 대한 자세한 통계에 표시되는 검색 결과 통계에 나열됩니다. 이러한 항목을 검색 통계에서  *인덱서되지*  않은 항목이라고 합니다. 다음은 검색 결과에 반환되는 부분적으로 인덱싱된 항목 수에 영향을 주는 몇 가지 사항입니다.
   
@@ -72,7 +72,7 @@ eDiscovery 검색을 실행한 후 검색된 위치에 있는 부분적으로 �
 
 `(316 MB/4830 MB) x 100 = 6.54%`
 
-따라서 이전 예에서는 전체 사서함 항목 크기의 6.54%가 부분적으로 인덱싱된 항목에서 비례합니다. 앞서 설명한 것 처럼 대부분의 조직 고객은 볼륨당 콘텐츠의 1% 미만, 부분적으로 인덱싱되는 크기로 콘텐츠의 12% 미만을 차지합니다.
+따라서 이전 예에서 사서함 항목의 전체 크기 중 6.54%는 부분적으로 인덱싱된 항목에서 비례합니다. 앞서 언급했듯이 대부분의 조직 고객은 볼륨당 콘텐츠의 1% 미만, 부분적으로 인덱싱되는 크기로 콘텐츠의 12% 미만을 차지합니다.
 
 ## <a name="working-with-partially-indexed-items"></a>부분적으로 인덱싱된 항목 작업
 
@@ -83,7 +83,7 @@ eDiscovery 검색을 실행한 후 검색된 위치에 있는 부분적으로 �
 이러한 옵션 중 하나를 사용하여 eDiscovery 검색 결과 또는 검색 보고서를 내보낼 때 내보내기에는 Unindexed라는 보고서가 Items.csv. 이 보고서에는 파일 파일과 대부분의 동일한 ResultsLog.csv 포함됩니다. 그러나 인덱싱되지 않은 Items.csv 파일에는 부분적으로 인덱싱된 항목과 관련된 두 개의 필드인 **오류** 태그 및 오류 속성도 **포함됩니다.** 이러한 필드에는 부분적으로 인덱싱된 각 항목의 인덱싱 오류에 대한 정보가 들어 있습니다. 이러한 두 필드의 정보를 사용하면 특정 인덱싱 오류로 조사에 영향을 줄지 여부를 결정할 수 있습니다. 이 경우 대상 검색을 수행하고 특정 전자 메일 메시지와 SharePoint 또는 OneDrive 문서를 검색하고 내보내 조사와 관련이 있는지 확인할 수 있습니다. 단계별 지침은 [Office 365에서](csv-file-for-an-id-list-content-search.md)대상 검색을 위한 CSV 파일 준비를 참조하세요.
 
 > [!NOTE]
-> 또한 인덱서되지 않은 Items.csv 파일에는 **오류** 형식 및 오류 메시지라는 **필드도 포함되어 있습니다.** 이러한 필드는 오류 태그 및 오류 속성 필드의 정보와 **Error Properties** 비슷하지만 덜 자세한 정보가 포함된 정보를 포함하는 레거시 필드입니다. **Error Tags** 이러한 레거시 필드는 무시해도 됩니다.
+> 또한 Unindexed Items.csv 파일에는 **오류** 유형 및 오류 메시지라는 **필드가 포함되어 있습니다.** 이러한 필드는 오류 태그 및 오류 속성 필드의 정보와 **Error Properties** 비슷하지만 덜 자세한 정보가 포함된 정보를 포함하는 레거시 필드입니다. **Error Tags** 이러한 레거시 필드는 무시해도 됩니다.
   
 ## <a name="errors-related-to-partially-indexed-items"></a>부분적으로 인덱싱된 항목과 관련된 오류
 
@@ -124,66 +124,67 @@ eDiscovery 검색을 실행한 후 검색된 위치에 있는 부분적으로 �
   
 1. 파일 이름 접미사 .ps1을 사용하여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장합니다. 예를 들면 다음과 `PartiallyIndexedItems.ps1` 같습니다.
 
-```powershell
-  write-host "**************************************************"
-  write-host "     Security & Compliance Center      " -foregroundColor yellow -backgroundcolor darkgreen
-  write-host "   eDiscovery Partially Indexed Item Statistics   " -foregroundColor yellow -backgroundcolor darkgreen
-  write-host "**************************************************"
-  " " 
-  # Create a search with Error Tags Refinders enabled
-  Remove-ComplianceSearch "RefinerTest" -Confirm:$false -ErrorAction 'SilentlyContinue'
-  New-ComplianceSearch -Name "RefinerTest" -ContentMatchQuery "size>0" -RefinerNames ErrorTags -ExchangeLocation ALL
-  Start-ComplianceSearch "RefinerTest"
-  # Loop while search is in progress
-  do{
-      Write-host "Waiting for search to complete..."
-      Start-Sleep -s 5
-      $complianceSearch = Get-ComplianceSearch "RefinerTest"
-  }while ($complianceSearch.Status -ne 'Completed')
-  $refiners = $complianceSearch.Refiners | ConvertFrom-Json
-  $errorTagProperties = $refiners.Entries | Get-Member -MemberType NoteProperty
-  $partiallyIndexedRatio = $complianceSearch.UnindexedItems / $complianceSearch.Items
-  $partiallyIndexedSizeRatio = $complianceSearch.UnindexedSize / $complianceSearch.Size
-  " "
-  "===== Partially indexed items ====="
-  "         Total          Ratio"
-  "Count    {0:N0}{1:P2}" -f $complianceSearch.Items.ToString("N0").PadRight(15, " "), $partiallyIndexedRatio
-  "Size(GB) {0:N2}{1:P2}" -f ($complianceSearch.Size / 1GB).ToString("N2").PadRight(15, " "), $partiallyIndexedSizeRatio
-  " "
-  Write-Host ===== Reasons for partially indexed items =====
-  foreach($errorTagProperty in $errorTagProperties)
-  {
-      $name = $refiners.Entries.($errorTagProperty.Name).Name
-      $count = $refiners.Entries.($errorTagProperty.Name).TotalCount
-      $frag = $name.Split("{_}")
-      $errorTag = $frag[0]
-      $fileType = $frag[1]
-      if ($errorTag -ne $lastErrorTag)
-      {
-          $errorTag
-      }
-      "    " + $fileType + " => " + $count
-      $lastErrorTag = $errorTag
-  }
-```
+   ```powershell
+     write-host "**************************************************"
+     write-host "     Security & Compliance Center      " -foregroundColor yellow -backgroundcolor darkgreen
+     write-host "   eDiscovery Partially Indexed Item Statistics   " -foregroundColor yellow -backgroundcolor darkgreen
+     write-host "**************************************************"
+     " " 
+     # Create a search with Error Tags Refinders enabled
+     Remove-ComplianceSearch "RefinerTest" -Confirm:$false -ErrorAction 'SilentlyContinue'
+     New-ComplianceSearch -Name "RefinerTest" -ContentMatchQuery "size>0" -RefinerNames ErrorTags -ExchangeLocation ALL
+     Start-ComplianceSearch "RefinerTest"
+     # Loop while search is in progress
+     do{
+         Write-host "Waiting for search to complete..."
+         Start-Sleep -s 5
+         $complianceSearch = Get-ComplianceSearch "RefinerTest"
+     }while ($complianceSearch.Status -ne 'Completed')
+     $refiners = $complianceSearch.Refiners | ConvertFrom-Json
+     $errorTagProperties = $refiners.Entries | Get-Member -MemberType NoteProperty
+     $partiallyIndexedRatio = $complianceSearch.UnindexedItems / $complianceSearch.Items
+     $partiallyIndexedSizeRatio = $complianceSearch.UnindexedSize / $complianceSearch.Size
+     " "
+     "===== Partially indexed items ====="
+     "         Total          Ratio"
+     "Count    {0:N0}{1:P2}" -f $complianceSearch.Items.ToString("N0").PadRight(15, " "), $partiallyIndexedRatio
+     "Size(GB) {0:N2}{1:P2}" -f ($complianceSearch.Size / 1GB).ToString("N2").PadRight(15, " "), $partiallyIndexedSizeRatio
+     " "
+     Write-Host ===== Reasons for partially indexed items =====
+     foreach($errorTagProperty in $errorTagProperties)
+     {
+         $name = $refiners.Entries.($errorTagProperty.Name).Name
+         $count = $refiners.Entries.($errorTagProperty.Name).TotalCount
+         $frag = $name.Split("{_}")
+         $errorTag = $frag[0]
+         $fileType = $frag[1]
+         if ($errorTag -ne $lastErrorTag)
+         {
+             $errorTag
+         }
+         "    " + $fileType + " => " + $count
+         $lastErrorTag = $errorTag
+     }
+   ```
 
 2. [보안 및 준수 센터 PowerShell에 연결하기](https://go.microsoft.com/fwlink/p/?linkid=627084)
 
 3. 보안 & 준수 센터 PowerShell에서 1단계에서 스크립트를 저장한 폴더로 이동한 다음 스크립트를 실행합니다. 예를 들어:
 
-    ```powershell
-    .\PartiallyIndexedItems.ps1
-    ```
+   ```powershell
+   .\PartiallyIndexedItems.ps1
+   ```
 
 다음은 스크립트에서 반환된 출력을 fo로 설정하는 예제입니다.
   
 ![부분적으로 인덱싱된 전자 메일 항목에 대한 조직의 노출에 대한 보고서를 생성하는 스크립트의 출력 예](../media/aeab5943-c15d-431a-bdb2-82f135abc2f3.png)
-  
-다음에 유의하세요.
-  
-1. 전자 메일 항목의 총 수와 크기, 부분적으로 인덱싱된 전자 메일 항목의 조직 비율(개수 및 크기)
 
-2. 목록 오류 태그 및 오류가 발생한 해당 파일 형식
+> [!NOTE]
+> 다음에 유의하세요.
+>  
+> - 전자 메일 항목의 총 수와 크기, 부분적으로 인덱싱된 전자 메일 항목의 조직 비율(개수 및 크기)입니다.
+> 
+> - 목록 오류 태그 및 오류가 발생한 해당 파일 형식
   
 ## <a name="see-also"></a>참고 항목
 

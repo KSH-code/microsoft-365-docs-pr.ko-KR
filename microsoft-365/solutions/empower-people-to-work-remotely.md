@@ -18,18 +18,18 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: 원격 작업자의 생산성을 극대화하고 서버, 데이터 및 클라우드에 대한 보안 액세스를 유지하려면 Microsoft 365의 모든 기능을 사용하도록 설정했는지 확인합니다.
-ms.openlocfilehash: 833f0351c3eb78afb7218ea1c1c51151d70bb608
-ms.sourcegitcommit: bdf65d48b20f0f428162c39ee997accfa84f4e5d
+ms.openlocfilehash: 1af5d1dd2fbc6f5792ee0458e521dfa2f46f46b5
+ms.sourcegitcommit: 490a65d32b6d656c661c36a2cc8dda03bf6cba77
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49371505"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588576"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
 
 직원들이 회사의 사내 구축 환경 및 클라우드 기반 정보, 도구 및 리소스에 안전하게 액세스할 수 있도록 해야 합니다. 직원이 원격으로 작업할 수 있도록 하는 것은 조직에 다음과 같은 이유로 중요합니다.
 
-- 사무실 공간을 절약할 수 있습니다.
+- 사무실 공간에 저장
 - 이동할 의사가 없는 직원을 고용하고 유지할 수 있습니다.
 - 직원의 출퇴근를 줄여 업무 이외에 생산성을 높이고 스트레스 해소 활동을 위한 시간을 늘릴 수 있습니다.
 
@@ -69,7 +69,7 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 
   - 작업을 분할하고 완료하기 위한 공유 작업 및 워크플로 
 
-원활하게 로그인하려면 온-프레미스 Active Directory 도메인 서비스(AD DS) 사용자 계정을 Azure AD(Active Directory)와 동기화해야 합니다. Windows 10 장치를 보호하려면 Intune에서 장치를 등록해야 합니다. 다음은 인프라의 개괄적인 보기입니다.
+원활하게 로그인하려면 온-프레미스 Active Directory 도메인 서비스(AD DS) 사용자 계정을 Azure Active Directory(Azure AD)와 동기화해야 합니다. Windows 10 장치를 보호하려면 Intune에서 장치를 등록해야 합니다. 다음은 인프라의 개괄적인 보기입니다.
 
 ![Microsoft 365를 사용하는 원격 작업자용 기본 인프라](../media/empower-people-to-work-remotely/remote-workers-basic-infrastructure.png)
 
@@ -100,6 +100,16 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 [![원격 작업자 지원](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf)
 
 이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf) 형식으로 다운로드 할 수 있고 편지형, 법률형, 타블로이드(11 x 17) 크기 용지에 인쇄할 수 있습니다.
+
+## <a name="provide-remote-working-for-all-of-your-workers"></a>모든 직원에게 원격 작업 제공
+
+모든 직원이 다음 장치를 사용하여 어디서나 생산성을 유지할 수 있도록 할 수 있습니다.
+
+- 웹을 통해 직접 Microsoft 365 클라우드 앱 및 서비스에 액세스할 수 있는 기능, 보안 및 성능을 갖춘 Surface 노트북 및 Windows 10과 같은 최신 장치
+
+- 빠르게 배포된 [Windows 10 기반 가상 데스크톱](empower-people-to-work-remotely-remote-access.md#deploy-windows-virtual-desktop-to-provide-remote-access-for-remote-workers-using-personal-devices)을 통해 간접적으로 Microsoft 365 클라우드 앱 및 서비스에 액세스할 수 있는 가정에서 사용되는 구형 노트북 또는 데스크톱을 포함한 모든 장치 이 옵션은 고성능, 강력한 보안 및 단순화된 IT 관리를 제공합니다.
+
+## <a name="next-steps"></a>다음 단계
 
 다음 단계를 사용하여 조직의 서버 및 클라우드 서비스에 대한 액세스를 보호하고 최적화하며 원격 작업자의 생산성을 극대화합니다.
 

@@ -1,5 +1,5 @@
 ---
-title: 민감도 레이블을 콘텐츠에 자동으로 적용
+title: Microsoft 365에서 콘텐츠에 민감도 레이블을 자동 적용
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -15,33 +15,38 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 2cfe509e61737cde77dbf865d4d56d9e7f8d0d33
-ms.sourcegitcommit: 95b85a1fdf43e3f0839483fa22e279262703f15f
+description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
+ms.openlocfilehash: 15b841f857eee1861a39a3d0e2e27025fadb90f4
+ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "49407352"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568500"
 ---
-# <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
+# <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수에 대한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
-민감도 레이블을 만들 때 사용자가 지정한 조건과 일치하는 경우 해당 레이블을 콘텐츠에 자동으로 할당할 수 있습니다.
+> [!NOTE]
+> 현재 Azure Purview(미리 보기)에서 레이블 자동 적용에 대한 자세한 내용은 [Azure Purview에서 콘텐츠에 레이블 자동 적용](https://docs.microsoft.com/azure/purview/create-sensitivity-label)을 참조하세요.
 
-콘텐츠에 자동으로 민감도 레이블을 적용하는 기능도 다음과 같은 이유로 중요합니다.
+민감도 레이블을 만들 때 사용자가 지정한 조건과 일치하는 경우 해당 레이블을 파일 및 전자 메일에 자동으로 붙일 수 있습니다.
+
+콘텐츠에 자동으로 민감도 레이블을 적용하는 기능은 다음과 같은 이유로 중요합니다.
 
 - 사용자에게 각 분류를 언제 사용할지 교육할 필요가 없습니다.
 
 - 모든 콘텐츠를 올바르게 분류하기 위해 사용자에게 의존할 필요가 없습니다.
 
-- 사용자가 더 이상 정책을 알아야 할 필요가 없으며, 그 대신 업무에 집중할 수 있습니다.
+- 사용자가 더 이상 정책을 알 필요가 없으며, 대신 업무에 집중할 수 있습니다.
 
-민감도 레이블을 자동으로 적용하는 방법에는 두 가지가 있습니다.
+콘텐츠에 수동으로 레이블을 지정한 경우 해당 레이블은 자동 레이블로 대체되지 않습니다. 그러나 자동으로 적용된 [우선 순위 낮은 레이블](sensitivity-labels.md#label-priority-order-matters)이 자동 레이블 적용 기능에 의해 변경될 수 있습니다.
 
-- **사용자가 문서를 편집하거나 전자 메일 작성(답장 또는 전달) 시 클라이언트 쪽 레이블 지정**: Office 앱(Word, Excel, PowerPoint 및 Outlook)에 자동 레이블 지정을 위해 구성된 레이블을 사용합니다. 
+Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하는 방법에는 두 가지가 있습니다.
+
+- **사용자가 문서를 편집하거나 전자 메일을 작성(답장 또는 전달) 시 클라이언트 쪽 레이블 지정**: 파일 및 전자 메일(Word, Excel, PowerPoint 및 Outlook 포함)에 자동 레이블을 지정하기 위해 구성된 레이블을 사용합니다. 
     
-    이 방법은 자동 레이블 적용뿐만 아니라 사용자에게 레이블을 제안합니다. 그러나 두 경우 모두 사용자가 레이블을 수락할지 또는 거부할지 결정하여 내용에 올바른 레이블을 지정할 수 있도록 합니다. 이 클라이언트 쪽 레이블에는 문서가 저장되기 전에 레이블을 지정할 수 있으므로 문서에 대한 지연 시간이 최소화됩니다. 그러나 일부 클라이언트 앱에서는 자동 레이블 지정을 지원하지 않습니다. 이 기능은 Azure Information Protection 통합 레이블 지정 클라이언트 및 [일부 버전의 Office](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)에서 지원됩니다. 
+    이 방법은 자동 레이블 적용 뿐만 아니라 사용자에게 레이블 권장을 지원합니다. 그러나 두 경우 모두 사용자가 레이블을 수락할지 또는 거부할지 결정하여 내용에 올바른 레이블을 지정할 수 있도록 합니다. 이 클라이언트 쪽 레이블에는 문서가 저장되기 전에 레이블을 지정할 수 있으므로 문서에 대한 지연 시간이 최소화됩니다. 그러나 일부 클라이언트 앱에서는 자동 레이블 지정을 지원하지 않습니다. 이 기능은 Azure Information Protection 통합 레이블 지정 클라이언트 및 [일부 버전의 Office](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)에서 지원됩니다. 
     
     구성 방법에 대한 자세한 내용은 이 페이지에서 [Office 앱에 대한 자동 레이블 지정 구성 방법](#how-to-configure-auto-labeling-for-office-apps)을 참조하세요.
 
@@ -73,7 +78,7 @@ ms.locfileid: "49407352"
 
 다음 표를 사용하면 두 가지 보완적인 자동 레이블 지정 방법의 동작이 어떻게 차이나는지 알아볼 수 있습니다.
 
-|기능 또는 동작|레이블 지정 설정: Office 앱에 대한 자동 레이블 지정 |정책: 자동 레이블 지정|
+|기능 또는 동작|레이블 설정: 파일 및 전자 메일에 자동 레이블 지정  |정책: 자동 레이블 지정|
 |:-----|:-----|:-----|
 |앱 종속성|[예](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps) |아니요\* |
 |위치별 제한|아니오 |예 |
@@ -86,12 +91,9 @@ ms.locfileid: "49407352"
 |레이블 없이 적용된 IRM 암호화 재정의|예(사용자에게 내보내기의 최소 사용 권한이 있는 경우) |예(전자 메일만 해당) |
 |받는 전자 메일에 레이블 지정|아니요 |예(암호화가 적용되지 않음) |
 
-\* 현재 모든 지역에서 자동 레이블을 사용할 수 있는 것은 아닙니다. 테넌트에서 이 기능을 지원할 수 없는 경우 자동 레이블 지정 탭은 관리 레이블 센터에 표시되지 않습니다.
+\* 현재 모든 지역에서 자동 레이블을 사용할 수 있는 것은 아닙니다. 테넌트가 이 기능을 지원할 수 없는 경우 자동 레이블 지정 탭은 관리 레이블 센터에 표시되지 않습니다.
 
-> [!NOTE]
-> 콘텐츠에 수동으로 레이블을 지정한 경우 해당 레이블은 자동 레이블로 대체되지 않습니다. 그러나 자동 레이블 지정 정책은 Office 앱에 대한 자동 레이블 지정을 사용하여 적용된 [우선 순위가 낮은 레이블](sensitivity-labels.md#label-priority-order-matters)을 대체할 수 있습니다.
-
-## <a name="how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label"></a>두 개 이상 레이블에 적용했을 때 여러 조건의 평가 방식
+## <a name="how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label"></a>여러 조건에 두 개 이상의 레이블을 적용했을 때 평가 방식
 
 레이블은 정책에서 지정한 위치에 따라 평가되도록 정렬됩니다. 먼저 배치된 레이블은 가장 낮은 위치에 있고(가장 민감하지 않음) 마지막에 위치한 레이블은 가장 높은 위치에 배치됩니다(가장 민감합니다). 우선 순위에 대한 자세한 내용은 [레이블 우선 순위 (순서 관련 문제)](sensitivity-labels.md#label-priority-order-matters)를 참조하세요.
 
@@ -109,9 +111,9 @@ Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection
 
 [민감도 레이블을 만들거나 편집](create-sensitivity-labels.md)하는 경우, Office 앱에 대한 자동 레이블 지정 설정을 사용할 수 있습니다. **파일 및 전자 메일** 이 레이블 범위에서 선택되어 있는지 확인합니다. 
 
-![파일 및 전자 메일에 대한 민감도 레이블 범위 옵션](../media/filesandemails-scope-options-sensitivity-label.png)
+![파일 및 전자 메일의 민감도 레이블 범위 옵션](../media/filesandemails-scope-options-sensitivity-label.png)
 
-마법사를 거쳐가면서 중요한 정보 유형 또는 교육 가능한 분류자 목록에서 사용자가 선택할 수 있는 **Office 앱에 대한 자동 레이블 지정** 페이지가 표시됩니다.
+마법사를 거쳐 이동하면서 중요한 정보 유형 또는 교육 가능한 분류자 목록에서 사용자가 선택할 수 있는 **파일 및 전자 메일의 자동 레이블 지정** 페이지를 볼 수 있습니다.
 
 ![Office 앱에서 자동 레이블 지정에 대한 레이블 조건](../media/sensitivity-labels-conditions.png)
 
