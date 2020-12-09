@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Microsoft 365 그룹을 만들 수 있는 사용자를 제어하는 방법을 배워야 합니다.
-ms.openlocfilehash: e3424a9cc916c9464478fbe4411bbbf7b971d989
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 3a0ac5ef48eabfd06e0df3f509c7d8e4be3cff10
+ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572624"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49602022"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Microsoft 365 그룹을 만들 수 있는 사용자 관리
 
@@ -74,7 +74,7 @@ Microsoft 365 그룹 만들기를 특정 보안 그룹의 구성원으로 제한
 위에 나열된 역할의 관리자는 이 그룹의 구성원이 아니어도 그룹을 만들 수 있습니다.
 
 > [!IMPORTANT]
-> 보안 그룹을 사용하여 **security group** 그룹을 만들 수 있는 사용자만 제한해야 합니다. Microsoft 365 그룹 사용은 지원되지 않습니다.
+> 보안 그룹을 **사용하여** 그룹을 만들 수 있는 사용자만 제한해야 합니다. Microsoft 365 그룹 사용은 지원되지 않습니다.
 
 1. 관리 센터에서 그룹 [페이지로 이동합니다.](https://admin.microsoft.com/adminportal/home#/groups)
 
@@ -114,7 +114,7 @@ PowerShell 창에서 파일을 저장한 위치("CD"를 입력)로 <FileLocation
 
 ```PowerShell
 $GroupName = "<SecurityGroupName>"
-$AllowGroupCreation = $False"
+$AllowGroupCreation = $False
 
 Connect-AzureAD
 
@@ -158,7 +158,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 
 2. **Planner 타일을** 선택합니다.
 
-3. Planner의 왼쪽 **탐색에서** 새 계획을 선택하여 계획을 만들 수 있습니다.
+3. Planner의 **왼쪽** 탐색에서 새 계획을 선택하여 계획을 만들 수 있습니다.
 
 4. 계획 및 그룹 만들기를 사용하지 않도록 설정했다는 메시지가 표시됩니다.
 
