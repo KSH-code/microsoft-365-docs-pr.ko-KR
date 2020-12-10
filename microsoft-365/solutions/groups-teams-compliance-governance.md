@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 그룹, 팀 및 SharePoint 공동 작업에 대 한 준수 옵션
+title: Microsoft 365 그룹, Teams 및 SharePoint 공동 작업을 위한 규정 준수 옵션
 ms.reviewer: ''
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,69 +14,69 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Microsoft 365 그룹, 팀 및 SharePoint 공동 작업에 대 한 준수 옵션에 대해 알아봅니다.
-ms.openlocfilehash: 0383b0728d9b8ea12ce75de8bf0e250932d14ae5
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+description: Microsoft 365 그룹, Teams 및 SharePoint 공동 작업의 규정 준수 옵션에 대해 자세히 알아보습니다.
+ms.openlocfilehash: e1ca6e638b2d44ae3b04e2a0f13222424e89714d
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377536"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613633"
 ---
-# <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Microsoft 365 그룹, 팀 및 SharePoint 공동 작업에 대 한 준수 옵션
+# <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Microsoft 365 그룹, Teams 및 SharePoint 공동 작업을 위한 규정 준수 옵션
 
-Microsoft 365에서는 사용자가 공동 작업을 수행 하는 동안 준수를 유지 관리 하는 완전 한 도구를 제공 합니다. 이러한 옵션을 검토 하 여 비즈니스 요구 사항, 데이터의 민감도, 사용자가 공동 작업을 수행 하는 데 필요한 사용자 범위 등을 고려해 야 합니다.
+Microsoft 365는 사용자가 공동 작업을 할 때 규정 준수를 유지하기 위한 전체 도구 모음을 제공합니다. 이러한 옵션을 검토하고 비즈니스 요구에 매핑되는 방식, 데이터의 민감도 및 사용자가 공동 작업해야 하는 사용자의 범위를 고려합니다.
 
-다음 표에서는 Microsoft 365에서 사용할 수 있는 준수 컨트롤에 대 한 빠른 참조를 제공 합니다. 다음 섹션에서는 자세한 정보를 제공 합니다.
+다음 표에서는 Microsoft 365에서 사용할 수 있는 준수 컨트롤에 대한 빠른 참조를 제공합니다. 자세한 내용은 다음 섹션에서 제공됩니다.
 
 |범주|설명|참조|
 |:-------|:----------|:--------|
 |정보 보존|||
-||그룹 보존 메일 및 SharePoint 콘텐츠|[SharePoint 및 OneDrive의 보존 정책에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-sharepoint)|
+||그룹 메일 및 SharePoint 콘텐츠 보존|[SharePoint 및 OneDrive의 보존 정책에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-sharepoint)|
 ||채팅 및 메시지 보존|[Microsoft Teams의 보존 정책에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)|
 |정보 분류|||
 ||그룹 및 팀 분류|[민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)|
-||중요 한 콘텐츠 자동 분류|[민감도 레이블을 콘텐츠에 자동으로 적용](https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically)|
-||중요 한 콘텐츠 암호화|[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels)|
+||중요한 콘텐츠 자동 분류|[민감도 레이블을 콘텐츠에 자동으로 적용](https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically)|
+||중요한 콘텐츠 암호화|[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels)|
 |정보 보호|||
-||중요 한 정보의 손실을 방지 합니다.|[데이터 손실 방지 개요](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)|
-||채팅의 중요 한 정보를 보호 합니다.|[데이터 손실 방지 및 Microsoft 팀](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)|
-||조직의 중요 한 정보 정의|[사용자 지정 중요한 정보 유형](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types)|
+||중요한 정보 손실 방지|[데이터 손실 방지 개요](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)|
+||채팅에서 중요한 정보를 보호합니다.|[데이터 손실 방지 및 Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)|
+||조직의 중요한 정보 정의|[사용자 지정 중요한 정보 유형](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types)|
 |사용자 분할|||
-||사용자 세그먼트 간 통신 제한|[정보 장벽](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)|
+||사용자 세그먼트 간의 통신 제한|[정보 장벽](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)|
 
 ## <a name="information-retention"></a>정보 보존
 
-보존 정책은 파일, 메시지 및 메일을 포함 하 여 그룹 및 팀에서 공동 작업에 사용 되는 항목을 보존 하거나 삭제 하는 데 사용할 수 있습니다. 정책을 보존 및 삭제, 보존 전용 또는 삭제로 설정할 수 있습니다. 보존 정책이 적용 되는 정보는 그룹이 나 팀이 만료 되거나 삭제 될 경우 보호 됩니다.
+보존 정책은 파일, 메시지 및 메일을 포함하여 그룹 및 팀의 공동 작업에 사용되는 항목을 보존하거나 삭제할 수 있습니다. 정책을 보존 및 삭제, 보존만 또는 삭제하기 위해 설정할 수 있습니다. 보존 정책에서 다루는 정보는 그룹 또는 팀이 만료되거나 삭제되는 경우 보호됩니다.
 
-Microsoft 365 그룹에 대 한 보존 정책을 구성 하면 그룹 사서함과 연결 된 SharePoint 사이트 및 파일이 포함 됩니다.
+Microsoft 365 그룹에 대한 보존 정책을 구성하는 작업에서는 그룹 사서함 및 연결된 SharePoint 사이트 및 파일에 대해 다를 수 있습니다.
 
 - [SharePoint 및 OneDrive의 보존 정책에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-sharepoint)
 
-팀에 대 한 보존 정책은 채팅 및 채널 메시지를 유지 합니다. 채팅 및 채널 메시지는 Exchange 사서함에 저장 되지만 Exchange 보존 정책의 영향을 받지 않습니다. 팀 대화방 및 팀 채널 메시지에 적용 되도록 보존 정책을 설정 해야 합니다.
+Teams에 대한 보존 정책은 채팅 및 채널 메시지를 보존합니다. 채팅 및 채널 메시지는 Exchange 사서함에 저장되는 동안 Exchange 보존 정책의 영향을 받지 않습니다. Teams 채팅 및 Teams 채널 메시지에 적용하려면 보존 정책을 설정해야 합니다.
 
 - [Microsoft Teams의 보존 정책에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
 
 - [Microsoft Teams의 보존 정책](https://docs.microsoft.com/microsoftteams/retention-policies)
 
-단일 보존 정책을 Microsoft 365 그룹, 팀 채팅 및 팀 채널 메시지에 적용 하도록 설정할 수 있습니다. 
+단일 보존 정책을 설정하여 Microsoft 365 그룹, Teams 채팅 및 Teams 채널 메시지에 적용할 수 있습니다. 
 
 추가 리소스:
 
 - [보존 정책에 대한 자세한 정보](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)
 
-- Exchange의 [보존 태그 및 보존 정책](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
+- Exchange의 보존 태그 [및 보존 정책](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
 
 ## <a name="information-classification"></a>정보 분류
 
-민감도 레이블을 사용 하 여 게스트 액세스, 그룹 및 팀 개인 정보를 제어 하 고 그룹 및 팀을 위한 관리 되지 않는 장치에 대 한 액세스를 제어할 수 있습니다. 이 설정은 레이블을 적용 하 여 레이블 설정에 의해 지정 된 대로 자동으로 구성 됩니다.
+민감도 레이블을 사용하여 게스트 액세스, 그룹 및 팀 개인 정보 보호, 그룹 및 팀에 대한 관리되지 않는 장치 액세스를 관리할 수 있습니다. 레이블을 적용하면 레이블 설정에 지정된 경우 이러한 설정이 자동으로 구성됩니다.
 
 - [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-Trainable 분류자와 함께 중요 한 정보 유형 또는 패턴 일치를 검색 하는 등 지정한 조건에 따라 민감도 레이블을 자동으로 파일 및 전자 메일에 적용 하도록 Microsoft 365을 구성할 수 있습니다.
+중요한 정보 유형 또는 학습 가능한 분류자와 패턴 일치를 검색하는 등 지정한 기준에 따라 파일 및 전자 메일에 민감도 레이블을 자동으로 적용하도록 Microsoft 365를 구성할 수 있습니다.
 
 - [민감도 레이블을 콘텐츠에 자동으로 적용](https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically)
 
-민감도 레이블을 사용 하 여 파일을 암호화할 수 있으며,이를 해독 하 고 읽을 사용 권한이 있는 사용자만 허용 됩니다.
+민감도 레이블을 사용하여 파일을 암호화할 수 있으며, 사용 권한이 있는 레이블만 암호를 해독하고 읽을 수 있습니다.
 
 - [민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels)
 
@@ -89,32 +89,34 @@ Trainable 분류자와 함께 중요 한 정보 유형 또는 패턴 일치를 �
 
 ## <a name="information-protection"></a>정보 보호
 
-DLP 정책을 통해 SharePoint, Exchange 및 팀 간에 중요 한 정보가 실수로 공유 되지 않도록 할 수 있습니다. 규칙 집합에 따라 수행 해야 하는 작업 (예: 액세스 차단)을 지정 하는 정책을 만들 수 있습니다.
+DLP 정책은 SharePoint, Exchange 및 Teams에서 중요한 정보를 실수로 공유하지 못하게 할 수 있습니다. 규칙 집합에 따라 수행할 작업(예: 액세스 차단)을 지정하는 정책을 만들 수 있습니다.
 
 - [데이터 손실 방지 개요](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
 
-팀의 DLP는 중요 한 정보가 포함 된 메시지를 삭제 하 여 팀 채팅 및 채널 메시지의 중요 한 정보를 보호 하는 데 도움이 됩니다.
+Teams의 DLP는 중요한 정보가 포함된 메시지를 삭제하여 Teams 채팅 및 채널 메시지의 중요한 정보를 보호할 수 있습니다.
 
-- [데이터 손실 방지 및 Microsoft 팀](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)
+- [데이터 손실 방지 및 Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)
 
-프로젝트 코드 이름과 같이 조직에 고유한 중요 한 정보가 있는 경우 고유한 중요 한 정보 유형을 만들고이를 DLP 정책에 적용 하 여 그룹, 팀 및 Sharepoint의 콘텐츠를 보호할 수 있습니다.
+프로젝트 코드 이름과 같이 조직 고유의 중요한 정보가 있는 경우 고유한 중요한 정보 유형을 만들어 DLP 정책에 적용하여 그룹, 팀 및 Sharepoint의 콘텐츠를 보호할 수 있습니다.
 
 - [사용자 지정 중요한 정보 유형](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types)
 
 ## <a name="user-segmentation"></a>사용자 분할
 
-정보 장애물을 사용 하 여 데이터와 사용자를 분할 하 여 그룹 간의 원치 않는 통신 및 공동 작업을 제한 하 고 조직에서 발생할 수 있는 충돌을 방지할 수도 있습니다. 정보 장애물을 사용 하면 조직 내 사용자 그룹 간의 파일 공동 작업, 채팅, 통화 또는 모임 초대를 허용 하거나 방지 하는 정책을 만들 수 있습니다.
+정보 장벽을 통해 데이터와 사용자를 분할하여 그룹 간의 원치 않는 통신 및 공동 작업을 제한하고 조직에서 이해의 충돌을 방지할 수 있습니다. 정보 장벽을 통해 조직의 사용자 그룹 간에 파일 공동 작업, 채팅, 통화 또는 모임 초대를 허용하거나 차단하는 정책을 만들 수 있습니다.
 
 - [정보 장벽](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)
 
-- [Microsoft 팀의 정보 장벽](https://docs.microsoft.com/microsoftteams/information-barriers-in-teams)
+- [Microsoft Teams의 정보 장벽](https://docs.microsoft.com/microsoftteams/information-barriers-in-teams)
 
 - [SharePoint에서 정보 장벽 사용](https://docs.microsoft.com/sharepoint/information-barriers)
 
 ## <a name="related-topics"></a>관련 항목
 
-[Exchange Online의 보안 및 규정 준수](https://docs.microsoft.com/exchange/security-and-compliance/security-and-compliance)
+[공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
+
+[Exchange Online에 대한 보안 및 규정 준수](https://docs.microsoft.com/exchange/security-and-compliance/security-and-compliance)
 
 [정보를 보호](https://docs.microsoft.com/microsoft-365/compliance/protect-information)
-
-

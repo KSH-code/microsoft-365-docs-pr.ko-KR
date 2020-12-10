@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 그룹 명명 정책
+title: Microsoft 365 그룹 이름 정책
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -16,97 +16,97 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
-description: Microsoft 365 그룹에 대 한 명명 정책을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 55faf5c61d577b35b34923efc7b65457fe46de29
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+description: Microsoft 365 그룹에 대한 이름 정책을 만드는 방법을 학습합니다.
+ms.openlocfilehash: 15fcbace737398c6edd2062e72622e8551ebd222
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377608"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613505"
 ---
-# <a name="microsoft-365-groups-naming-policy"></a>Microsoft 365 그룹 명명 정책
+# <a name="microsoft-365-groups-naming-policy"></a>Microsoft 365 그룹 이름 정책
 
-그룹 명명 정책을 사용 하 여 조직의 사용자가 만든 그룹에 대 한 일관 된 명명 전략을 적용할 수 있습니다. 명명 정책을 통해 그룹, 구성원, 지리적 위치 또는 그룹을 만든 사용자의 기능을 식별 하는 데 도움이 될 수 있습니다. 또한 명명 정책은 주소록의 그룹을 분류 하는 데 도움이 됩니다. 정책을 사용 하 여 그룹 이름 및 별칭에 특정 단어를 사용 하지 못하도록 차단할 수 있습니다.
+그룹 이름 정책을 사용하여 조직의 사용자가 만든 그룹에 대해 일관된 이름 전략을 적용할 수 있습니다. 명명 정책은 사용자와 그룹, 구성원 자격, 지리적 지역 또는 그룹을 만든 사용자를 식별하는 데 도움이 될 수 있습니다. 또한 이름 정책은 주소 책에서 그룹을 분류하는 데 도움이 될 수 있습니다. 이 정책을 사용하여 특정 단어가 그룹 이름 및 별칭에 사용되지 못하도록 차단할 수 있습니다.
 
-명명 정책은 모든 그룹 작업 (예: Outlook, Microsoft 팀, SharePoint, Planner, Yammer 등)에 걸쳐 만들어지는 그룹에 적용 됩니다. 그룹 이름과 그룹 별칭에 모두 적용 됩니다. 사용자가 그룹을 만들 때와 기존 그룹에 대 한 그룹 이름 또는 별칭을 편집한 경우에 적용 됩니다.
+이름 정책은 모든 그룹 워크로드(예: Outlook, Microsoft Teams, SharePoint, Planner, Yammer 등)에서 만들어진 그룹에 적용됩니다. 그룹 이름과 그룹 별칭에 모두 적용됩니다. 이 설정은 사용자가 그룹을 만들고 기존 그룹에 대해 그룹 이름 또는 별칭을 편집할 때 적용됩니다.
 
 > [!TIP]
-> Microsoft 365 그룹 명명 정책은 Microsoft 365 그룹에만 적용 됩니다. Exchange Online에서 만든 메일 그룹에는 적용 되지 않습니다. 메일 그룹에 대 한 명명 정책을 만들려면 [메일 그룹 명명 정책 만들기](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy)를 참조 하십시오.
+> Microsoft 365 그룹 이름 정책은 Microsoft 365 그룹에만 적용됩니다. Exchange Online에서 만든 메일 그룹에는 적용되지 않습니다. 메일 그룹에 대한 이름 정책을 만들 경우 메일 그룹 이름 정책 [만들기를 참조합니다.](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy)
 
-그룹 명명 정책은 다음과 같은 기능으로 구성 됩니다.
+그룹 이름 정책은 다음 기능으로 구성됩니다.
 
-- **접두사 접미사 명명 정책**: 접두사 또는 접미사를 사용 하 여 그룹 명명 규칙을 정의할 수 있습니다 (예: "US \_ My Group \_ 엔지니어링"). 접두사/접미사는 고정 문자열이 나 [부서]와 같은 사용자 특성으로, 그룹을 만드는 사용자에 따라 대체 될 수 있습니다.
+- **접두사-접미사** 명명 정책: 접두사 또는 접미어를 사용하여 그룹의 명명 규칙(예: "US \_ My Group Engineering")을 정의할 수 \_ 있습니다. 접두사/접미사는 고정 문자열 또는 [Department] 같은 사용자 특성일 수 있습니다. 이 특성은 그룹을 만드는 사용자를 기반으로 대체됩니다.
 
-- **사용자 지정 차단 된 단어**: 사용자가 만든 그룹에서 차단 되는 조직에 대 한 차단 되는 단어 집합을 업로드할 수 있습니다. (예: "CEO, 급여, HR").
+- **사용자 지정 차단** 단어: 사용자가 만든 그룹에서 차단되는 조직 관련 차단 단어 집합을 업로드할 수 있습니다. (예: "CEO, 급여, HR").
 
 ## <a name="licensing-requirements"></a>라이선스 요구 사항
 
-Microsoft 365 그룹에 대해 Azure AD 명명 정책을 사용 하려면 하나 이상의 Microsoft 365 그룹 구성원 인 각 고유 사용자 (게스트 포함)에 대해 Azure Active Directory Premium P1 라이선스 또는 Azure AD Basic .EDU 라이선스를 소유 하 고 있지 않아도 됩니다.
+Microsoft 365 그룹에 대해 Azure AD 이름 지정 정책을 사용하려면 사용자가 소유해야 하지만 하나 이상의 Microsoft 365 그룹의 구성원인 각 고유 사용자(게스트 포함)에 대해 Azure Active Directory Premium P1 라이선스 또는 Azure AD Basic EDU 라이선스를 할당할 필요는 없습니다.
 
-이는 그룹 명명 정책을 만드는 관리자 에게도 필요 합니다.
+그룹 이름 정책을 만드는 관리자에게도 필요합니다.
 
-## <a name="prefix-suffix-naming-policy"></a>접두사 접미사 명명 정책
+## <a name="prefix-suffix-naming-policy"></a>Prefix-Suffix 이름 정책
 
-접두사와 접미사는 고정 문자열이 나 사용자 특성 일 수 있습니다.
+접두사와 접미사는 고정 문자열 또는 사용자 특성일 수 있습니다.
 
 ### <a name="fixed-strings"></a>고정 문자열
 
-그룹 작업의 GAL 및 왼쪽 탐색 창에 있는 그룹을 구별 하는 데 도움이 되는 짧은 문자열을 사용할 수 있습니다. 일반적인 접두사 접미사 중 일부는 ' Grp \_ Name ', ' \# name ', ' \_ name '과 같은 키워드입니다.
+GAL에서 그룹을 차별화하고 그룹 워크로드의 왼쪽 탐색을 차별화하는 데 도움이 되는 짧은 문자열을 사용할 수 있습니다. 일반적인 접두사 접미사 중 일부는 'Grp \_ Name', \# 'Name', \_ 'Name' 같은 키워드입니다.
 
-### <a name="attributes"></a>특성만
+### <a name="attributes"></a>특성
 
-[부서] 그룹과 같은 그룹을 만든 사람과이를 [Country] like에서 만든 위치를 식별 하는 데 도움이 되는 특성을 사용할 수 있습니다.
+[Department]과 같은 그룹을 만든 사용자와 [국가]에서 그룹을 만든 위치를 식별하는 데 도움이 되는 특성을 사용할 수 있습니다.
 
 예제:
 
-- Policy = "GRP [GroupName] [부서]"
-- 사용자의 부서 = 공학
-- 만든 그룹 이름 = "그룹 엔지니어링 그룹화"
+- 정책 = "GRP [GroupName] [Department]"
+- 사용자의 부서 = 엔지니어링
+- 생성된 그룹 이름 = "GRP My Group Engineering"
 
-지원 되는 Azure Active Directory (Azure AD) 특성은 [부서], [Company], [Office], [StateOrProvince], [CountryOrRegion] 및 [Title]입니다.
+지원되는 Azure AD(Azure Active Directory) 특성은 [부서], [회사], [Office], [StateOrProvince], [CountryOrRegion], [Title]입니다.
 
-- 지원 되지 않는 사용자 특성은 고정 문자열로 간주 됩니다 (예: [postalCode]).
+- 지원되지 않는 사용자 특성은 고정 문자열(예: [postalCode])로 간주됩니다.
 
-- Extension 특성 및 사용자 지정 특성은 지원 되지 않습니다.
+- 확장 특성 및 사용자 지정 특성은 지원되지 않습니다.
 
-조직의 모든 사용자에 대해 값이 채워진 특성을 사용 하 고 값이 더 긴 특성을 사용 하지 않는 것이 좋습니다.
+조직의 모든 사용자에 대해 값이 채워진 특성을 사용하며 값이 더 긴 특성을 사용하지 않는 것이 좋습니다.
 
-### <a name="things-to-look-out-for"></a>검색할 사항
+### <a name="things-to-look-out-for"></a>살펴보아야 할 것
 
-- 정책 생성 중 총 접두사 및 접미사 문자열 길이는 53 자로 제한 됩니다.
+- 정책을 만들 때 전체 접두사와 접미사 문자열 길이는 53자로 제한됩니다.
 
-- 접두사와 접미사는 그룹 이름 및 그룹 별칭에서 지원 되는 특수 문자를 포함할 수 있습니다. 접두사 및 접미사에 그룹 별칭에서 허용 되지 않는 특수 문자가 포함 되어 있으면 그룹 이름에만 적용 됩니다. 따라서 그룹 이름에 적용 되는 접두사와 접미사는 그룹 별칭에 적용 된 접두 번호와 접미사가 다릅니다.
+- 접두사와 접미사는 그룹 이름 및 그룹 별칭에서 지원되는 특수 문자를 포함할 수 있습니다. 접두사와 접미사에 그룹 별칭에서 허용되지 않는 특수 문자가 포함되어 있는 경우 그룹 이름에만 적용됩니다. 따라서 이 경우 그룹 이름에 적용되는 접두사와 접미사는 그룹 별칭에 적용된 접두사와 다릅니다.
 
   > [!NOTE]
-  > 이름을 시작 하거나 끝낼 때를 제외 하 고 그룹 이름의 모든 위치에서 마침표 (.) 또는 하이픈 (-)을 사용할 수 있습니다. 이름 시작 부분이 나 끝 부분을 포함 하 여 그룹 이름의 모든 위치에서 밑줄 (_)을 사용할 수 있습니다.
+  > 이름의 시작이나 끝을 제외한 그룹 이름의 아무 곳에나 기간(.) 또는 하이픈(-)을 사용할 수 있습니다. 밑선(_)은 이름의 시작 또는 끝을 포함하여 그룹 이름의 아무 곳에나 사용할 수 있습니다.
 
-- Yammer Office 365 연결 된 그룹을 사용 하는 경우에는 이름 지정 정책에서 @,,,,에 다음 문자를 사용 하지 않도록 \# \[ \] \<, and \> 합니다. 이러한 문자가 이름 지정 정책에 있는 경우 일반 Yammer 사용자는 그룹을 만들 수 없습니다.
+- Office 365 Yammer 그룹을 사용하는 경우 이름 정책에 @, , , , . \# \[ \] \<, and \> 이러한 문자가 이름 정책에 있는 경우 일반 Yammer 사용자가 그룹을 만들 수 없습니다.
 
 > [!Tip]
-> - 짧은 문자열을 접미사로 사용 합니다.
-> - 값과 함께 특성을 사용 합니다.
-> - 창의적인 작업이 너무 많으면 총 이름 길이는 최대 264 자입니다.
-> - 조직의 특정 차단 된 단어를 업로드 하 여 사용을 제한 합니다.
+> - 짧은 문자열을 접미사로 사용
+> - 값과 함께 특성을 사용합니다.
+> - 창의적이지 말고 총 이름 길이는 최대 264자입니다.
+> - 조직 특정 차단 단어를 업로드하여 사용을 제한합니다.
 
-## <a name="custom-blocked-words"></a>사용자 지정 차단 된 단어
+## <a name="custom-blocked-words"></a>사용자 지정 차단된 단어
 
-그룹 이름 및 별칭에서 차단 되는 차단 된 단어의 쉼표로 구분 된 목록을 입력할 수 있습니다.
+그룹 이름 및 별칭에서 차단될 차단된 단어의 콤보로 구분된 목록을 입력할 수 있습니다.
 
-하위 문자열 검색은 수행 되지 않습니다. 특히 오류를 발생 시키려면 사용자가 입력 한 이름과 사용자 지정 차단 된 단어 사이에 정확 하 게 일치 하는 이름이 필요 합니다.
+하위 문자열 검색은 수행하지 않습니다. 특히, 사용자가 입력한 이름과 사용자 지정 차단 단어 간의 정확한 일치는 실패를 트리거하는 데 필요합니다.
 
-다음 **항목을 확인 해야 합니다**.
+**다음에 대해 살펴보아야 할 사항:**
 
-- 차단 된 단어는 대/소문자를 구분 하지 않습니다.
+- 차단된 단어는 대소문자 미구분입니다.
 
-- 사용자가 차단 된 단어를 입력 하면 그룹 클라이언트는 차단 된 단어와 함께 오류 메시지를 표시 합니다.
+- 사용자가 차단된 단어를 입력하면 그룹 클라이언트에 차단된 단어가 있는 오류 메시지가 표시됩니다.
 
-- 차단 된 단어에는 문자 제한이 적용 되지 않습니다.
+- 사용되는 차단된 단어에는 문자 제한이 없습니다.
 
-- 차단 된 단어로 설정할 수 있는 5000 단어는 제한이 없습니다.
+- 차단된 단어로 설정할 수 있는 단어는 5,000개로 제한됩니다.
 
-## <a name="admin-override"></a>관리 재정의
+## <a name="admin-override"></a>관리자 다시 설정
 
-일부 관리자는 모든 그룹 작업 및 끝점에서 이러한 정책에 의해 제외 되므로 이러한 차단 된 단어를 사용 하 여 그룹을 만들고 원하는 명명 규칙을 사용할 수 있습니다. 다음은 그룹 명명 정책에서 제외 된 관리자 역할 목록입니다.
+일부 관리자는 모든 그룹 워크로드 및 끝점에서 이러한 정책에서 제외됩니다. 따라서 이러한 차단된 단어와 원하는 이름 규칙을 사용하여 그룹을 만들 수 있습니다. 다음은 그룹 명명 정책에서 제외된 관리자 역할 목록입니다.
 
 - 전역 관리자
 
@@ -118,19 +118,23 @@ Microsoft 365 그룹에 대해 Azure AD 명명 정책을 사용 하려면 하나
 
 - 디렉터리 작성자
 
-## <a name="how-to-set-up-the-naming-policy"></a>명명 정책을 설정 하는 방법
+## <a name="how-to-set-up-the-naming-policy"></a>이름 정책을 설정하는 방법
 
-명명 정책을 설정 하려면 다음을 수행 합니다.
+이름 정책을 설정하는 경우:
 
-1. [Azure Active Directory](https://aad.portal.azure.com)의 **관리**에서 **그룹**을 클릭 합니다.
-2. **설정**아래에서 **이름 지정 정책을**클릭 합니다.
-3. **그룹 명명 정책** 탭을 선택 합니다.
-4. **현재 정책**에서 접두사 또는 접미사를 필요한 경우 또는 둘 다를 선택 하 고 해당 하는 확인란을 선택 합니다.
-5. 각 줄에 대해 **특성** 및 **문자열** 을 선택한 다음 특성 또는 문자열을 지정 합니다.
-6. 필요한 접두 번호와 접미사를 추가한 후 **저장**을 클릭 합니다.
+1. [Azure Active Directory의](https://aad.portal.azure.com) **관리 아래에서** 그룹을 **클릭합니다.**
+2. 설정 **아래에서** **이름 정책 을 클릭합니다.**
+3. 그룹 이름 **정책 탭을** 선택합니다.
+4. 현재 **정책에서** 접두사나 접미사 또는 둘 다를 요구할지 선택하고 적절한 확인란을 선택합니다.
+5. 각 **줄에 대해 특성과** **문자열을** 선택한 다음 특성 또는 문자열을 지정합니다.
+6. 필요한 접두사와 접미사를 추가한 후 저장을 **클릭합니다.**
 
-![Azure Active Directory의 그룹 명명 정책 설정 스크린샷](../media/groups-naming-policy-azure.png)
+![Azure Active Directory의 그룹 이름 정책 설정 스크린샷](../media/groups-naming-policy-azure.png)
 
 ## <a name="related-topics"></a>관련 항목
+
+[공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 
 [그룹 설정 구성을 위한 Azure Active Directory cmdlet](https://go.microsoft.com/fwlink/?linkid=868341)

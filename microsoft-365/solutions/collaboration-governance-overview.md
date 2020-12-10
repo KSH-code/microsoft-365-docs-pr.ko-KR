@@ -15,23 +15,23 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Microsoft 365 그룹, Teams, SharePoint 및 Microsoft 365의 관련 기능을 Yammer.
-ms.openlocfilehash: 2e4064ec64c52d4d3afe3d2e83f34079b3749f97
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+description: Microsoft 365 그룹, Teams, SharePoint 및 Microsoft 365 그룹의 관련 기능을 Yammer.
+ms.openlocfilehash: 2319a0f5b8c74925569d00eb781d247fe61a5a76
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568447"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613035"
 ---
 # <a name="what-is-collaboration-governance"></a>공동 작업 거버넌스란?
 
-공동 작업 거버넌스를 통해 리소스에 대한 사용자의 액세스 권한을 관리하고 비즈니스 표준을 준수하며 데이터의 보안을 보장할 수 있습니다.
+공동 작업 거버넌스를 통해 리소스에 대한 사용자의 액세스 권한을 관리하고, 비즈니스 표준을 준수하고, 데이터의 보안을 보장합니다.
 
-오늘날 조직은 다양한 도구 집합을 사용하고 있습니다. 팀 채팅을 사용하는 개발자 팀, 전자 메일을 보내는 임원 및 엔터프라이즈 소셜을 통해 연결하는 전체 조직이 있습니다. 모든 그룹이 고유하며 고유한 기능 요구 및 작업 스타일이 있기 때문에 여러 공동 작업 도구가 사용 중입니다. 일부는 전자 메일만 사용하고 다른 일부는 주로 채팅에 거주합니다. 
+오늘날 조직은 다양한 도구 집합을 사용하고 있습니다. 팀 채팅, 전자 메일을 보내는 임원 및 엔터프라이즈 소셜을 통해 연결하는 전체 조직을 사용하는 개발자 팀이 있습니다. 모든 그룹이 고유하며 고유한 기능 요구 및 작업 스타일이 있기 때문에 여러 공동 작업 도구가 사용 중입니다. 일부는 전자 메일만 사용하고 다른 일부는 주로 채팅에 거주합니다. 
 
 사용자가 IT 제공 도구가 요구에 맞지 않다고 생각되는 경우 시나리오를 지원하는 선호하는 소비자 앱을 다운로드할 수 있습니다. 이 프로세스를 통해 사용자는 빠르게 시작할 수 있습니다. 그러나 여러 로그인, 공유에 어려움을 겪고 콘텐츠를 볼 수 있는 단일 장소가 없는 조직 전체에서 사용자 환경이 난감해지게 됩니다. 이 개념을 "섀도 IT"라고 하여 조직에 심각한 위험을 내포합니다. 이렇게 하면 사용자 액세스를 균일하게 관리하고 보안 및 서비스 준수 요구 사항을 충족할 수 있습니다.
 
-Microsoft 365 그룹, Teams 및 Yammer 같은 서비스는 공동 작업하는 데 필요한 도구를 제공하여 사용자를 지원하고 섀도 IT의 위험을 줄입니다. Microsoft 365에는 조직에 필요할 수 있는 거버넌스 기능을 구현하는 다양한 도구 집합이 있습니다. 
+Microsoft 365 그룹, Teams 및 Yammer 서비스를 사용하면 공동 작업하는 데 필요한 도구를 제공하여 섀도 IT의 위험을 줄일 수 있습니다. Microsoft 365에는 조직에 필요할 수 있는 거버넌스 기능을 구현하기 위한 다양한 도구 집합이 있습니다. 
 
 ![Microsoft 365의 공동 작업 거버넌스 옵션을 보여주는 차트](../media/collaboration-governance-overview.png)
 
@@ -62,7 +62,7 @@ Microsoft 365 그룹에는 만료 정책, 이름 규칙 및 차단된 단어 정
 
 ## <a name="define-a-collaboration-strategy-for-your-organization"></a>조직의 공동 작업 전략 정의
 
-Microsoft 365 내에서 공동 작업하고 대화할 수 있는 여러 위치가 있습니다. 사용자가 대화를 시작할 수 있는 위치를 이해하면 커뮤니케이션 전략을 정의하는 데 도움이 될 수 있습니다.
+Microsoft 365 내에서 공동 작업하고 대화할 수 있는 장소가 여러 개 있습니다. 사용자가 대화를 시작할 수 있는 위치를 이해하면 커뮤니케이션 전략을 정의하는 데 도움이 될 수 있습니다.
 
 Microsoft 365에서 지원하는 세 가지 주요 통신 방법이 있습니다.
 
@@ -73,8 +73,8 @@ Microsoft 365에서 지원하는 세 가지 주요 통신 방법이 있습니다
 ![Teams, 사용자 및 Outlook을 사용하는 Yammer 다이어그램](../media/inner-loop-outer-loop.png)
 
 - Teams: 채팅 기반 작업 영역(고속 공동 작업) – 내부 루프
-  - 사용자가 매일 작업하는 사용자와의 공동 작업을 위해 구축
-  - 단일 환경으로 사용자의 손 끝에 정보를 넣습니다.
+  - 사용자가 매일 함께 작업하는 사용자와의 공동 작업을 위해 구축
+  - 단일 환경으로 사용자의 손 끝에 정보를 제공합니다.
   - 탭, 커넥터 및 봇 추가
   - 라이브 채팅, 오디오/비디오 회의, 녹음된 모임
 
@@ -100,17 +100,17 @@ Microsoft 365에서 공동 작업 기능을 사용하는 방법을 결정할 때
 
 - **위험 및 이점** 균형 - 비즈니스, 규정, 법률 및 규정 준수 요구 사항을 검토하고 모든 결과에 최적화된 솔루션을 계획합니다.
 
-- **조직 및 콘텐츠** 및 시나리오 유형에 맞게 조정 - 그룹이나 부서마다 요구되는 다양한 요구와 인트라넷 콘텐츠와 사용자의 OneDrive 콘텐츠 등의 콘텐츠 형식을 고려합니다.
+- **다양한 조직** 및 다양한 유형의 콘텐츠 및 시나리오에 맞게 조정 - 그룹 또는 부서마다 다른 요구 사항을 고려하고 인트라넷 콘텐츠와 사용자의 OneDrive 콘텐츠 등의 콘텐츠 형식을 고려합니다.
 
 - **비즈니스 우선 순위에 맞추기** - 비즈니스 목표는 거버넌스에 투자해야 하는 시간 및 에너지의 정도를 정의하는 데 도움이 됩니다.
 
-- **만든** 솔루션에 직접 거버넌스 결정이 추가됩니다. Microsoft 365의 기능을 켜거나 끄면 많은 거버넌스 결정을 구현할 수 있습니다.
+- **직접 만든** 솔루션에 거버넌스 결정이 직접 추가됩니다. Microsoft 365의 기능을 켜거나 끄면 많은 거버넌스 결정을 구현할 수 있습니다.
 
 - **교육 강화** - [Microsoft 365](https://docs.microsoft.com/office365/customlearning) 학습 경로와 같은 솔루션을 조정하여 Microsoft에서 제공하는 교육을 통해 조직별 기대치가 강화되도록 합니다.
 
 - **조직에서** 거버넌스 정책 및 지침을 전달하기 위한 전략이 있습니다. SharePoint 커뮤니케이션 사이트에 Microsoft 365 채택 센터를 만들어 정책 및 절차를 전달합니다.
 
-- **역할 및** 책임 정의 - 거버넌스 핵심 팀을 식별하고 프로비전 및 이름 및 외부 액세스에 대한 주요 거버넌스 결정을 먼저 파악한 다음 나머지 결정을 내릴 수 있습니다.
+- **역할 및** 책임 정의 - 거버넌스 핵심 팀을 식별하고 프로비저닝 및 이름 및 외부 액세스에 대한 주요 거버넌스 결정을 먼저 파악한 다음 나머지 결정을 내릴 수 있습니다.
 
 - **비즈니스 및** 기술 변경에 따라 결정을 다시 검토 - 정기적으로 새로운 기능과 새로운 비즈니스 기대치를 검토합니다.
 
@@ -141,7 +141,7 @@ Microsoft 365의 공동 작업을 위한 거버넌스 기능에는 Microsoft 365
 |그룹 만료 정책|비활성 그룹 및 팀이 만료되고 지정된 기간 후에 삭제될 수 있습니다.|Azure AD Premium 라이선스가 있는 Microsoft 365 E5 또는 E3|
 |그룹별 게스트 액세스|그룹 기준으로 조직 외부의 사용자와 팀 및 그룹 공유를 허용하거나 금지합니다.|Microsoft 365 E5 또는 E3|
 
-## <a name="create-your-governance-plan"></a>거버넌스 계획 만들기
+## <a name="collaboration-governance-planning-step-by-step"></a>공동 작업 거버넌스 계획 단계별
 
 다음 기본 단계에 따라 거버넌스 계획을 만들 수 있습니다.
 
@@ -208,12 +208,12 @@ Microsoft Teams로 시장을 선도하는 Microsoft 365 생산성 서비스의 �
 
 Microsoft 365에는 광범위한 정보 보호 및 규정 준수 기능이 포함되어 있습니다. 이러한 기능은 Microsoft의 생산성 도구와 함께 엄격한 규정 준수 프레임워크를 준수하면서 조직이 실시간으로 공동 작업을 할 수 있도록 디자인되었습니다. 
 
-이 그림 집합은 가장 규제가 많은 산업인 금융 서비스 중 하나를 사용하여 이러한 기능을 적용하여 일반적인 규제 요구 사항을 충족하는 방법을 보여줄 수 있습니다. 이러한 그림을 직접 사용하기 위해 자유롭게 적응할 수 있습니다. 
+이 그림 집합은 가장 규제가 많은 산업인 금융 서비스 중 하나를 사용하여 이러한 기능을 적용하여 일반적인 규제 요구 사항을 충족하는 방법을 보여줄 수 있습니다. 사용자 개인 용도로 이 그림을 사용할 수 있습니다. 
 
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![모델 포스터: Microsoft 365 정보 보호 및 규정 준수 기능](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> 영어: [Download as a PDF](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) \| [Visio로](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) PDF 다운로드로 다운로드   <br/> 일본어: [Download as a PDF](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf) \| [Visio로](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) PDF 다운로드   <br/> 2020년 11월 업데이트|다음이 포함됩니다. <ul><li>  Microsoft 정보 보호 및 데이터 손실 방지</li><li>보존 정책 및 보존 레이블 </li><li>정보 장벽</li><li>커뮤니케이션 규정 준수</li><li>내부자 위험</li><li>타사 데이터 수집</li>|
+|[![모델 포스터: Microsoft 365 정보 보호 및 규정 준수 기능](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> 영어: [PDF로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> 일본어: [PDF로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) <br/> 2020년 11월에 업데이트됨|포함 항목: <ul><li>  Microsoft 정보 보호 및 데이터 손실 방지</li><li>보존 정책 및 보존 레이블 </li><li>정보 장벽</li><li>커뮤니케이션 규정 준수</li><li>참가자 위험</li><li>타사 데이터 수집</li>|
 
 ## <a name="conference-sessions"></a>회의 세션
 
@@ -221,18 +221,18 @@ Microsoft 365 그룹 및 Teams의 거버넌스에 대해 자세히 알아보는 
 
 **기본**
 
-대규모의 관리 및 거버넌스, 사용 및 채택을 추진하기 위한 모범 사례, 셀프 서비스를 포함하여 Microsoft 365 그룹의 기본 및 새로운 혁신에 대해 알아보습니다.
+대규모의 관리 및 거버넌스, 사용 및 채택을 추진하기 위한 모범 사례, 셀프 서비스를 포함하여 Microsoft 365 그룹의 기본 및 새로운 혁신에 대해 학습합니다.
 
 - [Microsoft 365 그룹 수용](https://www.youtube.com/watch?v=dAamBF1gb7M)
 
 **거버넌스**
 
-그룹 만료 수명 주기, 이름 지정 정책, 분류 레이블, 외부 게스트와의 공동 작업을 설정하고 그룹 만들기 권한을 관리하는 방법에 대해 자세히 알아보습니다.
+그룹 만료 수명 주기, 이름 지정 정책, 분류 레이블, 외부 게스트와의 공동 작업을 설정하고 그룹 만들기 권한을 관리하는 방법을 학습합니다.
 
 - [Office 365 그룹을 통해 공동 작업 변환 및 섀도 IT 격투](https://www.youtube.com/watch?v=Bhf_bKx3lAg)
 
 **고객 예**
 
-Microsoft 365 그룹, SharePoint, Teams 및 그룹이 함께 작동하여 글로벌 공동 작업 플랫폼을 제공하는 방법에 대한 Yammer 예를 참조합니다.
+Microsoft 365 그룹, SharePoint, Teams 및 그룹이 함께 작동하여 글로벌 공동 작업 플랫폼을 제공하는 방법에 대한 Yammer 예제를 참조합니다.
 
 - [Office 365 그룹, SharePoint, Teams 및 Office 365를 통해 공동 작업을 위한 멋진 Yammer](https://www.youtube.com/watch?v=Rx9eVwqXeQk)

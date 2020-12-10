@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 작업 솔루션 및 시나리오
-description: 설명이.
+title: Microsoft 365 워크로드 솔루션 및 시나리오
+description: 설명.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -12,13 +12,14 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 85c85c086260932308da53fc511127e8c94fb6bb
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ROBOTS: NOINDEX
+ms.openlocfilehash: d7243c68ca52ac2c84d96e3db0fa60b9592cbac3
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521292"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613551"
 ---
-# <a name="microsoft-365-workload-solutions-and-scenarios"></a>Microsoft 365 작업 솔루션 및 시나리오
+# <a name="microsoft-365-workload-solutions-and-scenarios"></a>Microsoft 365 워크로드 솔루션 및 시나리오
 
-![개체 ](https://docs.microsoft.com/office/media/icons/objects-blue.png) **작업 시나리오 및 솔루션** 이러한 시나리오 및 솔루션은 특정 비즈니스 목표를 달성 하는 데 도움이 됩니다. 기초 솔루션에 추가 하 여 환경에 기능을 추가할 수 있습니다.
+![개체 ](https://docs.microsoft.com/office/media/icons/objects-blue.png) **작업 시나리오 및 솔루션**  이러한 시나리오 및 솔루션은 특정 비즈니스 목표를 달성하는 데 도움이 됩니다. 기본 솔루션에 추가하여 환경에 기능을 추가할 수 있습니다.

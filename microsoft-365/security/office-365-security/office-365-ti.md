@@ -1,5 +1,5 @@
 ---
-title: 위협 조사 & 응답 기능-Microsoft Defender for Office 365 계획 2
+title: 위협 조사 & 대응 기능 - Office 365 계획 2용 Microsoft Defender
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -19,31 +19,31 @@ ms.collection:
 - m365initiative-m365-defender
 ms.custom:
 - seo-marvel-apr2020
-description: Microsoft Defender for Office 365 계획의 위협 조사 및 응답 기능에 대해 알아봅니다.
-ms.openlocfilehash: 7ae61e7ea70d8be5c31ec12443c8943f6e54bcf4
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+description: Office 365 계획용 Microsoft Defender의 위협 조사 및 대응 기능에 대해 자세히 알아보는 방법을 설명하는 정보를 제공합니다.
+ms.openlocfilehash: cbda50dacd6b892c976ce55632c8fc35813839b7
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561258"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614777"
 ---
 # <a name="threat-investigation-and-response"></a>위협 조사 및 응답
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-[Microsoft Defender For Office 365](office-365-atp.md) 의 위협 조사 및 응답 기능-보안 분석가와 관리자는 다음을 통해 조직의 microsoft 365을 보호 하는 데 도움이 됩니다.
+[Office 365용 Microsoft Defender의](office-365-atp.md) 위협 조사 및 대응 기능은 보안 분석가 및 관리자가 다음을 통해 조직의 비즈니스용 Microsoft 365 사용자를 보호하는 데 도움이 됩니다.
 
-- 고 사이버 공격를 쉽게 식별, 모니터링 및 이해할 수 있도록 설정
-- Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 위협에 빠르게 문제를 해결 하는 데 도움을 줍니다.
-- 보안 작업에 도움이 되는 통찰력 및 지식을 제공 하 여 조직에 대 한 고 사이버 공격 방지
-- 중요 전자 메일 기반 위협에 대 한 [Office 365의 자동화 된 조사 및 응답](automated-investigation-response-office.md) 채택
+- 사이버 공격을 쉽게 식별, 모니터링 및 이해
+- Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams에서 위협을 빠르게 해결
+- 보안 운영에서 조직에 대한 사이버 공격을 방지하는 데 도움이 되는 인사이트 및 지식 제공
+- Office [365에서](automated-investigation-response-office.md) 중요한 전자 메일 기반 위협에 대한 자동화된 조사 및 대응 사용
 
-위협 조사 및 응답 기능은 보안 & 준수 센터에서 사용할 수 있는 위협 및 관련 된 응답 작업에 대 한 정보를 제공 합니다. 이러한 통찰력은 조직의 보안 팀이 전자 메일 또는 파일 기반 공격 으로부터 사용자를 보호 하는 데 도움이 될 수 있습니다. 이 기능은 사용자 활동, 인증, 전자 메일, 손상 된 Pc 및 보안 인시던트와 같은 여러 원본의 데이터를 수집 하 고 신호를 모니터링 하는 데 도움이 됩니다. 비즈니스 의사 결정권자 및 보안 운영 팀은이 정보를 사용 하 여 조직에 대 한 위협을 파악 하 고 대응 하 고 지적 재산을 보호할 수 있습니다.
+위협 조사 및 대응 기능은 보안 및 준수 센터에서 사용할 수 있는 위협 및 관련 & 정보를 제공합니다. 이러한 인사이트는 조직의 보안 팀이 전자 메일 또는 파일 기반 공격으로부터 사용자를 보호하는 데 도움이 될 수 있습니다. 이 기능은 신호를 모니터링하고 사용자 활동, 인증, 전자 메일, 손상된 PC 및 보안 인시던트와 같은 여러 원본에서 데이터를 수집하는 데 도움이 됩니다. 비즈니스 의사 결정권자 및 보안 운영 팀은 이 정보를 사용하여 조직에 대한 위협을 이해하고 대응하고 지적 재산을 보호할 수 있습니다.
 
-## <a name="get-acquainted-with-threat-investigation-and-response-tools"></a>위협 조사 및 응답 도구 익히기
+## <a name="get-acquainted-with-threat-investigation-and-response-tools"></a>위협 조사 및 응답 도구에 대해 잘 아는 경우
 
-보안 & 준수 센터의 위협 조사 및 응답 기능으로, 다음을 비롯 한 도구 및 응답 워크플로 집합으로 제공 됩니다.
+위협 조사 및 대응 기능은 보안 & 준수 센터에 다음과 같은 도구 및 응답 워크플로 집합으로 사용됩니다.
 
 - [위협 대시보드](#threat-dashboard)
 - [탐색기](#threat-explorer)
@@ -53,54 +53,54 @@ ms.locfileid: "49561258"
 
 ### <a name="threat-dashboard"></a>위협 대시보드
 
-위협 대시보드 ( [보안 대시보드](security-dashboard.md)라고도 함)를 사용 하 여 해결 된 위협을 빠르게 확인 하 고, Microsoft 365 서비스가 비즈니스를 보호 하는 방법을 비즈니스 의사 결정권자에 게 보고 하는 방법을 설명 합니다.
+위협 대시보드(보안 대시보드라고도 지칭)를 사용하여 해결된 위협을 빠르게 확인할 수 있으며, Microsoft 365 서비스가 비즈니스를 보호하는 방법을 비즈니스 의사 결정권자에게 시각적으로 보고할 수 있습니다. [](security-dashboard.md)
 
 ![위협 대시보드](../../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
 
-이 대시보드를 보고 사용 하려면 보안 & 준수 센터에서 **위협 관리** \> **대시보드로** 이동 합니다.
+이 대시보드를 보고 사용하세요. 보안 및 준수 & 위협 관리 **대시보드로** \> **이동하세요.**
 
 ### <a name="threat-explorer"></a>위협 탐색기
 
-위협 [탐색기 (및 실시간 검색)](threat-explorer.md) 를 사용 하 여 위협을 분석 하 고, 시간에 따른 공격 량을 확인 하 고, 위협 계열, 침입자 인프라 등을 기준으로 데이터를 분석 합니다. 위협 탐색기 (탐색기 라고도 함)는 모든 보안 분석가의 조사 워크플로에서 시작 되는 위치입니다.
+위협 탐색기(및 [실시간](threat-explorer.md) 검색)를 사용하여 위협을 분석하고, 시간의 따라 공격의 양을 보고, 위협 패밀리, 공격자 인프라 등에서 데이터를 분석합니다. 위협 탐색기(탐색기라고도 지칭)는 보안 분석가의 조사 워크플로를 위한 시작점입니다.
 
 ![위협 탐색기](../../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
 
-이 보고서를 보고 사용 하려면 보안 & 준수 센터에서 **위협 관리** \> **탐색기** 로 이동 합니다.
+이 보고서를 보고 사용하려면 보안 및 준수 & 위협 관리 **탐색기로** \> **이동해야 합니다.**
 
 ### <a name="incidents"></a>인시던트
 
-문제 목록 (조사가 라고도 함)을 사용 하 여 비행 보안 인시던트 목록을 확인 합니다. 인시던트는 의심 스러운 전자 메일 메시지와 같은 위협을 추적 하 고 추가 조사 및 수정을 수행 하는 데 사용 됩니다.
+인시던트 목록(조사라고도 합니다)을 사용하여 진행 보안 인시던트 목록을 볼 수 있습니다. 인시던트는 의심스러운 전자 메일 메시지와 같은 위협을 추적하고 추가 조사 및 수정을 수행하기 위해 사용됩니다.
 
 ![Office 365의 현재 위협 인시던트 목록](../../media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
 
-조직의 현재 인시던트 목록을 보려면 보안 & 준수 센터에서 **위협 관리** \> **검토** \> **인시던트** 로 이동 합니다.
+조직의 현재 인시던트 목록을 확인하면 보안 및 준수 & 위협 **관리** 검토 인시던트로 \>  \> **이동하십시오.**
 
-![보안 & 준수 센터에서 위협 관리 검토를 선택 합니다. \>](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
+![보안 및 & 센터에서 위협 관리 \> 검토를 선택](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
 
 ### <a name="attack-simulator"></a>공격 시뮬레이터
 
-공격 시뮬레이터를 사용 하 여 조직에서 현실적인 고 사이버 공격를 설정 및 실행 하 고, 실제에서는 사이버 공격과 비즈니스에 영향을 주기 전에 취약 한 사용자를 식별 합니다. 자세한 내용은 [Office 365의 Attack 시뮬레이터](attack-simulator.md)를 참조 하세요.
+공격 시뮬레이터를 사용하여 조직에서 현실적인 사이버 공격을 설정하고 실행하고 실제 사이버 공격이 비즈니스에 영향을 미치기 전에 취약한 사용자 식별 자세한 내용은 [Office 365의 공격 시뮬레이터를 참조하세요.](attack-simulator.md)
 
 ### <a name="automated-investigation-and-response"></a>자동화된 조사 및 응답
 
-자동화 된 조사 및 응답 (AIR) 기능을 사용 하 여 조직의 위협 으로부터 발생 하는 콘텐츠, 장치 및 사용자와 관련 된 시간과 노력을 절감할 수 있습니다. AIR 프로세스는 특정 알림이 트리거될 때 또는 보안 운영 팀이 시작 될 때 시작 될 수 있습니다. 자세한 내용은 [Office 365의 자동화 된 조사 및 응답](automated-investigation-response-office.md)을 참조 하세요.
+자동화된 조사 및 대응(AIR) 기능을 사용하여 조직에서 위협으로부터 콘텐츠, 장치 및 사용자와 관련한 시간과 노력을 절약할 수 있습니다. AIR 프로세스는 특정 경고가 트리거될 때마다 또는 보안 운영 팀에서 시작할 때 시작할 수 있습니다. 자세한 내용은 [Office 365의](automated-investigation-response-office.md)자동화된 조사 및 응답을 참조합니다.
 
 ## <a name="threat-intelligence-widgets"></a>위협 인텔리전스 위젯
 
-Microsoft Defender for Office 365 계획 2 제공의 일부로, 보안 분석가는 알려진 위협에 대 한 세부 정보를 검토할 수 있습니다. 이 기능은 사용자가 안전 하 게 유지 하기 위해 수행할 수 있는 추가 예방 조치/단계가 있는지 여부를 확인 하는 데 유용 합니다.
+Microsoft Defender for Office 365 계획 2 제공의 일부로 보안 분석가가 알려진 위협에 대한 세부 정보를 검토할 수 있습니다. 이는 사용자를 안전하게 유지하기 위해 추가로 예방 조치/단계가 있는지 여부를 확인하는 데 유용합니다.
 
-![최근 위협에 대 한 정보를 보여 주는 보안 경향](../../media/11e7d40d-139b-4c56-8d52-c091c8654151.png)
+![최근 위협에 대한 정보를 보여주는 보안 추세](../../media/11e7d40d-139b-4c56-8d52-c091c8654151.png)
 
-## <a name="how-do-we-get-these-capabilities"></a>이러한 기능은 어떻게 얻을 수 있나요?
+## <a name="how-do-we-get-these-capabilities"></a>이러한 기능을 어떻게 얻을 수 있나요?
 
-Microsoft 365 위협 조사 및 응답 기능은 Enterprise E5에 포함 된 Microsoft Defender for Office 365 계획 2, 특정 구독에 대 한 추가 기능으로 포함 되어 있습니다. 자세한 내용은 [Defender For Office 365 계획 1 및 계획 2](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2)를 참조 하십시오.
+Microsoft 365 위협 조사 및 응답 기능은 Enterprise E5 또는 특정 구독의 추가 기능으로 포함된 Microsoft Defender for Office 365 계획 2에 포함되어 있습니다. 자세한 내용은 Office 365 계획 1 및 계획 [2용 Defender를 참조합니다.](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2)
 
 ## <a name="required-roles-and-permissions"></a>필요한 역할 및 사용 권한 할당
 
-Microsoft Defender for Office 365는 역할 기반 액세스 제어를 사용 합니다. 사용 권한은 Azure Active Directory의 특정 역할, Microsoft 365 관리 센터 또는 보안 & 준수 센터를 통해 할당 됩니다.
+Office 365용 Microsoft Defender는 역할 기반 액세스 제어를 사용 합니다. 사용 권한은 Azure Active Directory, Microsoft 365 관리 센터 또는 보안 및 준수 센터의 특정 역할을 & 할당됩니다.
 
 > [!TIP]
-> 보안 관리자와 같은 일부 역할은 보안 & 준수 센터에서 할당할 수 있지만 대신 Microsoft 365 관리 센터 또는 Azure Active Directory를 사용 하는 것이 좋습니다. 역할, 역할 그룹 및 권한에 대 한 자세한 내용은 다음 리소스를 참조 하십시오.
+> 보안 관리자와 같은 일부 역할은 보안 및 준수 센터에서 할당할 수 & Microsoft 365 관리 센터 또는 Azure Active Directory를 대신 사용하는 것이 좋습니다. 역할, 역할 그룹 및 사용 권한에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 >
 > - [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
 >
@@ -110,19 +110,19 @@ Microsoft Defender for Office 365는 역할 기반 액세스 제어를 사용 �
 
 |활동|역할 및 사용 권한|
 |---|---|
-|위협 대시보드 (또는 새 [보안 대시보드](security-dashboard.md)) 사용<br/> <br/>최근 또는 현재 위협에 대 한 정보 보기|다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** <br/>- **보안 독자** <br/> <br/>이러한 역할은 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 할당할 수 있습니다 [https://admin.microsoft.com](https://admin.microsoft.com) .|
-|[위협 탐색기 (및 실시간 검색)](threat-explorer.md) 를 사용 하 여 위협 분석|다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** <br/>- **보안 독자** <br/> <br/>이러한 역할은 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 할당할 수 있습니다 [https://admin.microsoft.com](https://admin.microsoft.com) .|
-|인시던트 보기 (조사가 라고도 함) <br/> 인시던트에 전자 메일 메시지 추가|다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** <br/>- **보안 독자** <br/> <br/>이러한 역할은 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 할당할 수 있습니다 [https://admin.microsoft.com](https://admin.microsoft.com) .|
-|인시던트에서 전자 메일 작업 트리거 <br/> <br/> 의심 스러운 전자 메일 메시지 찾기 및 삭제|다음 중 하나가 필요합니다. <br/>- **전역 관리자**  <br/> - **보안 관리자** 와 **검색 및 제거** 역할<br/><br/>**전역 관리자** 및 **보안 관리자** 역할은 Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) 또는 Microsoft 365 관리 센터 ()에서 할당 될 수 있습니다 [https://admin.microsoft.com](https://admin.microsoft.com) . <br/><br/>**검색 및 제거** 역할은 Security & 준수 센터 ()에서 할당 되어야 합니다 [https://protection.office.com](https://protection.office.com) .|
-|끝점에 microsoft Defender for Office 365 계획 2 통합  <br/><br/> SIEM 서버에 Microsoft Defender for Office 365 계획 2 통합|Azure Active Directory () 또는 Microsoft 365 관리 센터 ()에서 할당 된 **전역 관리자** 또는 **보안 관리자** 역할 [https://portal.azure.com](https://portal.azure.com) [https://admin.microsoft.com](https://admin.microsoft.com) 입니다.<br/>--- **기호** ---<br/>추가 응용 프로그램에서 할당 되는 적절 한 역할 (예: [Microsoft Defender Security Center](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) 또는 siem server)|
+|위협 대시보드(또는 새 [보안](security-dashboard.md)대시보드) 사용 <p> 최근 또는 현재 위협에 대한 정보 보기|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기**</li></ul> <p> 이러한 역할은 Azure Active Directory() 또는 Microsoft 365 관리 센터()에서 할당할 <https://portal.azure.com> 수 <https://admin.microsoft.com> 있습니다.|
+|[위협 탐색기(및 실시간 검색)를](threat-explorer.md) 사용하여 위협 분석|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기**</li></ul> <p> 이러한 역할은 Azure Active Directory() 또는 Microsoft 365 관리 센터()에서 할당할 <https://portal.azure.com> 수 <https://admin.microsoft.com> 있습니다.|
+|인시던트 보기(조사라고도 지칭) <p> 인시던트에 전자 메일 메시지 추가|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자**</li><li>**보안 읽기**</li></ul> <p> 이러한 역할은 Azure Active Directory() 또는 Microsoft 365 관리 센터()에서 할당할 <https://portal.azure.com> 수 <https://admin.microsoft.com> 있습니다.|
+|인시던트에서 전자 메일 작업 트리거 <p> 의심스러운 전자 메일 메시지 찾기 및 삭제|다음 중 하나가 필요합니다. <ul><li>**전역 관리자**</li><li>**보안 관리자** 및 **검색 및 제거 역할**</li></ul> <p> 전역 **관리자** **및** 보안 관리자 역할은 Azure Active Directory() 또는 Microsoft 365 관리 센터()에서 할당할 <https://portal.azure.com> 수 <https://admin.microsoft.com> 있습니다. <p> 검색 **및** 제거 역할은 보안 & 준수 센터()에 할당해야 <https://protection.office.com> 합니다.|
+|Microsoft Defender for Office 365 계획 2와 끝점용 Microsoft Defender 통합  <p> Microsoft Defender for Office 365 계획 2와 SIEM 서버 통합|Azure Active  Directory()  또는 Microsoft 365 관리 센터()에 할당된 전역 관리자 또는 보안 관리자 <https://portal.azure.com> <https://admin.microsoft.com> 역할. <p> --- **plus** --- <p> 추가 응용 [프로그램(예: Microsoft Defender 보안](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) 센터 또는 SIEM 서버)에 할당된 적절한 역할|
 |
 
 ## <a name="next-steps"></a>다음 단계
 
-- [위협 추적기에 대해 알아보기-신규 및 중요](threat-trackers.md)
+- [위협 트래커에 대한 자세한 내용은 신규 및 참고 사항](threat-trackers.md)
 
-- [배달 된 악성 전자 메일 찾기 및 조사 (Office 365 위협 조사 및 응답)](investigate-malicious-email-that-was-delivered.md)
+- [배달된 악성 전자 메일 찾기 및 조사(Office 365 위협 조사 및 대응)](investigate-malicious-email-that-was-delivered.md)
 
-- [끝점에 대 한 Microsoft Defender와 Office 365 위협 조사 및 응답 통합](integrate-office-365-ti-with-wdatp.md)
+- [Office 365 위협 조사 및 대응을 끝점용 Microsoft Defender와 통합](integrate-office-365-ti-with-wdatp.md)
 
-- [공격 시뮬레이터에 대 한 자세한 정보](attack-simulator.md)
+- [공격 시뮬레이터에 대해 자세히 알아보십시오.](attack-simulator.md)

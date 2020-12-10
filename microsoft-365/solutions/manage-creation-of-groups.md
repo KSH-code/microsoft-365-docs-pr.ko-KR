@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Microsoft 365 그룹을 만들 수 있는 사용자를 제어하는 방법을 배워야 합니다.
-ms.openlocfilehash: 3a0ac5ef48eabfd06e0df3f509c7d8e4be3cff10
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: 2954f68dce289d43b37bf8f5c6ff43fe1b5c48c7
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602022"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613563"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Microsoft 365 그룹을 만들 수 있는 사용자 관리
 
@@ -36,7 +36,7 @@ ms.locfileid: "49602022"
 - Microsoft Teams
 - Microsoft Stream
 - Planner
-- PowerBI(클래식)
+- Power BI(클래식)
 - 웹용 프로젝트/로드맵
 
 Microsoft 365 그룹 만들기를 특정 보안 그룹의 구성원으로 제한할 수 있습니다. 이를 구성하기 위해 다음을 Windows PowerShell. 이 문서에서는 필요한 단계를 단계로 진행합니다.
@@ -167,7 +167,11 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 > [!NOTE]
 > 보안 그룹의 구성원이 그룹을 만들 수 없는 경우 해당 OWA 사서함 정책을 통해 차단되지 [않는지 검사합니다.](https://go.microsoft.com/fwlink/?linkid=852135)
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-topics"></a>관련 항목
+
+[공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 
 [Office 365 PowerShell 시작](https://go.microsoft.com/fwlink/p/?LinkId=808033)
 

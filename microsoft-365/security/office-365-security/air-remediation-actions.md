@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender for Office 365의 자동화 된 조사 후의 수정 작업
-keywords: AIR, autoIR, ATP, 자동화, 조사, 대응, 재구성, 위협, 고급, 위협, 보호
+title: Office 365용 Microsoft Defender의 자동화된 조사에 따라 수정 작업
+keywords: AIR, autoIR, ATP, 자동화된, 조사, 대응, 수정, 위협, 고급, 위협, 보호
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -16,25 +16,25 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Office 365 용 Microsoft Defender의 자동화 된 조사에 따라 수정 작업에 대해 알아봅니다.
+description: Office 365용 Microsoft Defender의 자동화된 조사에 따라 수정 조치에 대해 자세히 알아보는 방법을 설명하는 예제입니다.
 ms.date: 09/29/2020
 ms.custom:
 - air
-ms.openlocfilehash: 7727d74642c7eb1798322c7c5c1845806f83ba7c
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 75550352170841b1e6a26512c9e857a7c9e3acd3
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357459"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616143"
 ---
-# <a name="remediation-actions-following-automated-investigation-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 자동화 된 조사 후의 수정 작업
+# <a name="remediation-actions-following-automated-investigation-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 자동화된 조사에 따라 수정 작업
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
 ## <a name="remediation-actions"></a>수정 작업
 
-[Microsoft Defender For Office 365](office-365-atp.md) 의 [자동화 된 조사 및 대응 기능](office-365-air.md) (AIR)은 특정 수정 작업을 포함 합니다. 자동화 조사가 실행되고 있거나 완료된 경우, 일반적으로 보안 운영 팀이 진행해야 하는 하나 이상의 수정 조치를 보게됩니다. 이러한 교정 작업에는 다음이 포함 될 수 있습니다.
+[Office](office-365-air.md) [365용 Microsoft Defender의](office-365-atp.md) 자동화된 조사 및 대응 기능(AIR)에는 특정 수정 작업이 포함됩니다. 자동화 조사가 실행되고 있거나 완료된 경우, 일반적으로 보안 운영 팀이 진행해야 하는 하나 이상의 수정 조치를 보게됩니다. 이러한 수정 작업에는 다음이 포함됩니다.
 
 - 전자 메일 메시지 또는 클러스터의 일시 삭제
 - 차단 URL(클릭 시간)
@@ -42,39 +42,39 @@ ms.locfileid: "49357459"
 - 위임 해제
 
 > [!NOTE]
-> Microsoft Defender for Office 365에서는 자동화 된 조사로 인해 자동 수정 작업이 수행 되지 않습니다. 관리 작업은 조직의 보안 운영 팀이 승인 하는 경우에만 수행 됩니다.
+> Office 365용 Microsoft Defender에서 자동화된 조사는 자동으로 수행되는 수정 작업이 수행되지 않습니다. 수정 작업은 조직의 보안 운영 팀이 승인한 경우만 수행됩니다.
 
-## <a name="threats-and-remediation-actions"></a>위협 및 업데이트 관리 작업
+## <a name="threats-and-remediation-actions"></a>위협 및 수정 작업
 
-다음 표에는 Microsoft Defender for Office 365의 위협과 해당 교정 작업에 대 한 설명이 요약 되어 있습니다. 일부 경우에는 자동화 된 조사로 인해 특정 업데이트 관리 작업이 수행 되지 않습니다. 보안 운영 팀은 아래 표에 설명 된 대로 적절 한 조치를 더 조사 하 고 수행할 수 있습니다.
+다음 표에는 Office 365용 Microsoft Defender의 위협 및 적절한 수정 작업이 요약됩니다. 경우에 따라 자동화된 조사가 특정 수정 작업을 수행하지 않는 경우도 있습니다. 보안 운영 팀은 아래 표에 설명된 바와 같이 추가 조사를 수행하고 적절한 조치를 취할 수 있습니다.
 
 ****
 
-|범주|위협/위험|재구성 작업|
+|범주|위협/위험|수정 작업|
 |---|---|---|
-|이메일|맬웨어|전자 메일/클러스터 일시 삭제 <p> 클러스터에 맬웨어를 포함 하는 소수의 전자 메일 메시지가 여러 개 있는 경우 클러스터가 악성으로 간주 됩니다.|
-|이메일|악성 URL<br/>( [Microsoft Defender For Office 365의 안전한 링크](atp-safe-links.md)에서 악성 URL이 검색 되었습니다.|전자 메일/클러스터 일시 삭제 <p> 악성 URL이 포함 된 전자 메일은 악성으로 간주 됩니다.|
-|이메일|피싱|전자 메일/클러스터 일시 삭제 <p> 클러스터의 전자 메일 메시지 중 몇 개 이상이 피싱 시도를 포함 하는 경우 클러스터는 피싱 것으로 간주 됩니다.|
-|이메일|Zapped 피싱 <br/>(전자 메일 메시지를 배달 하 고 [zapped](zero-hour-auto-purge.md).)|전자 메일/클러스터 일시 삭제 <p> 보고서를 사용 하 여 zapped 메시지를 볼 수 있습니다. [ZAP이 메시지 및 faq를 이동 하는지 확인](zero-hour-auto-purge.md#how-to-see-if-zap-moved-your-message)합니다.|
-|이메일|사용자가 [보고](enable-the-report-message-add-in.md) 하는 누락 된 피싱 전자 메일|[사용자의 보고서에 의해 트리거되는 자동화 된 조사](automated-investigation-response-office.md#example-a-user-reported-phish-message-launches-an-investigation-playbook)|
-|이메일|볼륨 변칙 <br/>일치 조건으로 최근 전자 메일 수량이 이전 7-10 일을 초과 합니다.|자동 조사로 인해 보류 중인 특정 작업은 발생 하지 않습니다. <p> 볼륨 변칙은 확실 한 위협이 되지 않지만, 지난 7-10 일에 비해 더 큰 전자 메일 볼륨을 최근 기간으로 표시 하는 것은 매우 큽니다. 이는 잠재적 문제를 나타낼 수 있지만 악성 verdicts 또는 전자 메일 메시지/클러스터의 수동 검토 측면에서 확인이 필요 합니다. [배달 된 의심 스러운 전자 메일 찾기를](investigate-malicious-email-that-was-delivered.md#find-suspicious-email-that-was-delivered)참조 하세요.|
-|이메일|발견 된 위협 없음 <br/>(시스템에서 전자 메일 클러스터 verdicts의 파일, url 또는 분석을 기반으로 위협을 찾지 못했습니다.)|자동 조사로 인해 보류 중인 특정 작업은 발생 하지 않습니다. <p> 발견 된 위협 및 조사가 완료 된 후 [zapped](zero-hour-auto-purge.md) 은 조사 결과에 반영 되지 않지만 [위협 탐색기](threat-explorer.md)에서 이러한 위협을 볼 수 있습니다.|
-|사용자|사용자가 악성 URL을 클릭 한 경우 <br/>(나중에 악성으로 확인 한 페이지를 탐색 하거나 사용자가 [안전한 링크 경고 페이지](atp-safe-links.md#warning-pages-from-safe-links) 를 건너뛰고 악의적인 페이지로 이동할 수 있습니다.)|자동 조사로 인해 보류 중인 특정 작업은 발생 하지 않습니다. <p> 위협 탐색기를 사용 하 여 [url에 대 한 데이터를 확인 하 고 verdicts를 클릭](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict)합니다. <p> 조직에서 [끝점에 대해 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)를 사용 하는 경우 [사용자의](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-user) 계정이 손상 되었는지 확인 하는 것을 조사 하는 것이 좋습니다.|
-|사용자|사용자가 맬웨어/피싱를 보내는 중입니다.|자동 조사로 인해 보류 중인 특정 작업은 발생 하지 않습니다. <p> 사용자가 맬웨어/피싱를 보고할 수도 있고, 다른 사용자가 공격의 일부로 [사용자를 스푸핑](anti-spoofing-protection.md) 했을 수 있습니다. [위협 탐색기](threat-explorer.md) 를 사용 하 여 [맬웨어](threat-explorer-views.md#email--malware) 또는 [피싱](threat-explorer-views.md#email--phish)가 포함 된 전자 메일을 보고 처리 합니다.|
-|사용자|전자 메일 전달 <br/>(이 경우 데이터 exfiltration에 사용할 수 있는 사서함 전달 규칙이 구성 됩니다.)|전달 규칙 제거 <p> 전달 된 전자 메일에 대 한 좀 더 구체적인 세부 정보를 보려면 [자동 전달 메시지 보고서](mfi-auto-forwarded-messages-report.md)를 포함 하 여 [메일 흐름 정보](mail-flow-insights-v2.md)를 사용 합니다.|
-|사용자|전자 메일 위임 규칙 <br/>(사용자의 계정에 위임 설정 됨)|위임 규칙 제거 <p> 조직에서 [끝점에 대해 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)를 사용 하는 경우 위임 권한을 얻는 [사용자를 조사](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-user) 하는 것이 좋습니다.|
-|사용자|데이터 유출<br/>(사용자가 전자 메일 또는 파일 공유 [DLP 정책을](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)위반 했습니다.)|자동 조사로 인해 보류 중인 특정 작업은 발생 하지 않습니다. <p> [DLP 보고서를 보고 작업을 수행](https://docs.microsoft.com/microsoft-365/compliance/view-the-dlp-reports)합니다.|
-|사용자|비정상 전자 메일 보내기 <br/>(사용자가 최근 7-10 일 보다 더 많은 전자 메일을 보낸 경우)|자동 조사로 인해 보류 중인 특정 작업은 발생 하지 않습니다. <p> 많은 전자 메일을 보내는 것 자체가 악의적이 지는 않습니다. 사용자는 여러 받는 사람에 게 이벤트에 대 한 전자 메일을 전송 했을 수 있습니다. 조사 하려면 [메일 흐름 맵 보고서](mfi-mail-flow-map-report.md) 를 비롯 한 [메일 흐름 정보](mail-flow-insights-v2.md)를 사용 하 여 진행 중인 작업을 확인 하 고 조치를 취해야 합니다.|
+|전자 메일|맬웨어|전자 메일/클러스터를 소프트 삭제 <br> 클러스터의 여러 전자 메일 메시지에 맬웨어가 포함된 경우 클러스터는 악성으로 간주됩니다.|
+|전자 메일|악성 URL <br> (Office [365용 Microsoft Defender의 안전한 링크에서](atp-safe-links.md)악성 URL이 검색되었습니다.)|전자 메일/클러스터 소프트 삭제 <p> 악의적인 URL이 포함된 전자 메일은 악의적인 것으로 간주됩니다.|
+|전자 메일|피싱|전자 메일/클러스터를 소프트 삭제 <br> 클러스터에 있는 여러 전자 메일 메시지에 피싱 시도가 포함된 경우 클러스터는 피싱으로 간주됩니다.|
+|전자 메일|Zapped 피싱 <br> (전자 메일 메시지가 배달 및 [zapped.)](zero-hour-auto-purge.md)|전자 메일/클러스터를 소프트 삭제 <p> 보고서는 zapped 메시지를 볼 수 있습니다. [ZAP에서 메시지와 FAQ를 이동한지 확인](zero-hour-auto-purge.md#how-to-see-if-zap-moved-your-message)|
+|전자 메일|사용자가 보고한 누락된 [피싱](enable-the-report-message-add-in.md) 전자 메일|[사용자 보고서에 의해 트리거된 자동화된 조사](automated-investigation-response-office.md#example-a-user-reported-phish-message-launches-an-investigation-playbook)|
+|전자 메일|볼륨 이상 <br> (최근 전자 메일 수량은 일치하는 조건에 대해 이전 7-10일을 초과합니다.)|자동화된 조사는 특정 보류 중인 작업을 수행하지 않습니다. <p> 볼륨 이상은 명확한 위협이 아니며, 지난 7~10일과 비교할 때 최근 며칠 동안 더 큰 전자 메일 볼륨을 나타냈기만 합니다. 이는 잠재적인 문제를 나타낼 수 있습니다. 그러나 악의적인 판정이나 전자 메일 메시지/클러스터의 수동 검토와 관련한 확인이 필요합니다. 배달된 [의심스러운 전자 메일 찾기를 참조하세요.](investigate-malicious-email-that-was-delivered.md#find-suspicious-email-that-was-delivered)|
+|전자 메일|위협을 찾을 수 없음 <br> (시스템에서 전자 메일 클러스터 결과의 파일, URL 또는 분석을 기반으로 위협을 찾지 못했습니다.)|자동화된 조사는 특정 보류 중인 작업을 수행하지 않습니다. <p> 조사가 완료된 후 [발견](zero-hour-auto-purge.md) 및 잠기는 위협은 조사의 수치적 발견에 반영되지 않지만 위협 탐색기에서 이러한 위협을 볼 [수 있습니다.](threat-explorer.md)|
+|사용자|사용자가 악성 URL을 클릭한 경우 <br> 사용자가 나중에 악의적인 것으로 확인된 페이지로 이동하거나 사용자가 안전한 [](atp-safe-links.md#warning-pages-from-safe-links) 링크 경고 페이지를 무시하여 악의적인 페이지로 이동했습니다.|자동화된 조사는 특정 보류 중인 작업을 수행하지 않습니다. <p> 위협 탐색기를 사용하여 URL에 대한 데이터를 [보고 판정을 클릭합니다.](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) <p> 조직에서 [끝점용 Microsoft Defender를](https://docs.microsoft.com/windows/security/threat-protection/) [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-user) 사용하는 경우 사용자를 조사하여 계정이 손상된지 확인하는 것이 있습니다.|
+|사용자|사용자가 맬웨어/피싱을 보내고 있습니다.|자동화된 조사는 특정 보류 중인 작업을 수행하지 않습니다. <p> 사용자가 맬웨어/피싱을 보고하거나 공격의 [](anti-spoofing-protection.md) 일부로 사용자를 스푸핑할 수 있습니다. 위협 [탐색기를](threat-explorer.md) 사용하여 맬웨어 또는 피싱이 포함된 [전자](threat-explorer-views.md#email--malware) 메일을 [보고 처리합니다.](threat-explorer-views.md#email--phish)|
+|사용자|전자 메일 전달 <br> 사서함 전달 규칙은 데이터 유출에 사용할 수 있도록 구성됩니다.|전달 규칙 제거 <p> 자동 [전달](mail-flow-insights-v2.md)메시지 보고서를 [](mfi-auto-forwarded-messages-report.md)비롯한 메일 흐름 정보를 사용하여 전달된 전자 메일에 대한 보다 구체적인 세부 정보를 볼 수 있습니다.|
+|사용자|전자 메일 위임 규칙 <br> 사용자의 계정에 위임이 설정되어 있습니다.|위임 규칙 제거 <p> 조직에서 [끝점용 Microsoft Defender를](https://docs.microsoft.com/windows/security/threat-protection/) [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-user) 사용하는 경우 위임 권한을 받고 있는 사용자를 조사하는 것이 있습니다.|
+|사용자|데이터 유출 <br> (사용자가 전자 메일 또는 파일 공유 DLP 정책을 [위반했습니다.)](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)|자동화된 조사는 특정 보류 중인 작업을 수행하지 않습니다. <p> [DLP 보고서를 보고 조치를 취합니다.](https://docs.microsoft.com/microsoft-365/compliance/view-the-dlp-reports)|
+|사용자|Anomalous email sending(전자 메일 보내기) <br> 사용자가 최근에 이전 7-10일 동안보다 더 많은 전자 메일을 보냈습니다.|자동화된 조사는 특정 보류 중인 작업을 수행하지 않습니다. <p> 많은 전자 메일을 보내는 것은 자체적으로 악성이 아닙니다. 사용자가 이벤트를 위해 대규모 받는 사람 그룹에 전자 메일을 보냈을 수 있습니다. 조사를 위해 [](mail-flow-insights-v2.md)메일 흐름 맵 보고서를 [](mfi-mail-flow-map-report.md) 비롯한 메일 흐름 정보를 사용하여 진행되는 작업을 파악하고 조치를 취합니다.|
 |
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Microsoft Defender for Office 365에서 자동화 된 조사에 대 한 세부 정보 및 결과 보기](air-view-investigation-results.md)
+- [Microsoft Defender for Office 365의 자동화된 조사 세부 정보 및 결과 보기](air-view-investigation-results.md)
 
-- [Microsoft Defender for Office 365에서 자동화 된 조사에 따라 보류 중 또는 완료 되는 재구성 작업 보기](air-review-approve-pending-completed-actions.md)
+- [Office 365용 Microsoft Defender에서 자동화된 조사 후 보류 중 또는 완료된 수정 작업 보기](air-review-approve-pending-completed-actions.md)
 
 ## <a name="related-articles"></a>관련 문서
 
-- [끝점에 대 한 Microsoft Defender의 자동화 된 조사에 대해 자세히 알아보기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
+- [끝점용 Microsoft Defender의 자동화된 조사에 대해 자세히 알아보기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
 - [Microsoft 365 Defender의 추가 기능에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)

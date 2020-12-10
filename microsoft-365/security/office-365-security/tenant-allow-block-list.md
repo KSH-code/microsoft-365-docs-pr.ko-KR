@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 보안 및 준수 센터의 테넌트 허용/차단 목록에서 URL & 수 있습니다.
-ms.openlocfilehash: 1aae54ffd6026a7fc131017a10f9676d96be9b69
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: 0fdfa23ba22b240032e7a6888948de180aa0f6ae
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572644"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614967"
 ---
 # <a name="manage-urls-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록의 URL 관리
 
@@ -34,7 +34,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 보안 및 규정 준수 센터의 테넌트 허용/차단 & Microsoft 365 필터링 판정을 수동으로 다시우는 방법을 제공합니다. 테넌트 허용/차단 목록은 메일 흐름 중과 사용자가 클릭할 때 사용됩니다. 테넌트 허용/차단 목록에서 허용하거나 차단할 URL을 지정할 수 있습니다.
 
-이 항목에서는 보안 & 준수 센터 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell)에서 테넌트 허용/차단 목록의 항목을 구성하는 방법에 대해 설명합니다.
+이 항목에서는 보안 & 준수 센터 또는 PowerShell(Exchange Online에 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell)에서 테넌트 허용/차단 목록의 항목을 구성하는 방법을 설명합니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
@@ -52,34 +52,34 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
-- 이 문서의 절차를 수행하려면 먼저 보안 및 준수 & 사용 권한을 할당해야 합니다.
+- 이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 받아야 합니다.
   - 테넌트 허용/차단 목록에서 값을 추가하고 제거하려면 **조직** 관리 또는 보안 관리자 역할 그룹의 **구성원이** 되거나 제거해야 합니다.
-  - 테넌트 허용/차단 목록에 대한 읽기 전용 액세스 권한을 사용하려면 **Global Reader** 전역 읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되거나,
+  - 테넌트 허용/차단 목록에 대한 읽기 전용 액세스 권한을 사용하려면  전역 읽기 또는 보안 읽기 권한이 있는 사용자 역할 그룹의 **구성원이면** 됩니다.
 
   자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
   **참고**:
 
-  - Microsoft 365 관리 센터에서 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 & _and_ 준수 센터에서 필요한 사용 권한과 Microsoft 365의 다른 기능에 대한 사용 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요.
-  - [또한 Exchange Online의](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) 보기 **전용 조직** 관리 역할 그룹은 기능에 대한 읽기 전용 액세스를 제공합니다.
+  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요.
+  - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>보안 및 & 센터를 사용하여 테넌트 허용/차단 목록에 URL 항목 만들기
 
 URL 항목의 구문에 대한 자세한 내용은 이 항목 부분의 [테넌트 허용/차단 목록 섹션에](#url-syntax-for-the-tenant-allowblock-list) 대한 URL 구문을 참조하십시오.
 
-1. 보안 & 준수 센터에서 위협 **관리** 정책 \> **Policy** \> **테넌트 허용/차단 목록으로 이동하십시오.**
+1. 보안 & 준수 센터에서 위협 **관리** 정책 \>  \> **테넌트 허용/차단 목록으로 이동하십시오.**
 
 2. **테넌트 허용/차단 목록** 페이지에서 **URL** 탭이 선택되어 있는지 확인한 다음 **추가를 클릭합니다.**
 
 3. 나타나는 **새 URL** 추가 플라이아웃에서 다음 설정을 구성합니다.
 
-   - **와일드카드를** 사용하여 URL 추가: 줄당 하나의 URL을 입력하고 최대 20개까지 입력합니다.
+   - **와일드카드를** 사용하여 URL 추가: 줄당 URL을 하나씩 입력하고 최대 20개까지 입력할 수 있습니다.
 
-   - **차단/허용:** 지정한 URL을 **Block** 허용할지 차단할지 여부를 선택합니다. **Allow**
+   - **차단/허용:** 지정한 URL을  허용할지 차단할지 여부를 선택합니다. 
 
    - **만료 안 하세요.** 다음 단계 중 하나를 수행합니다.
 
-     - 설정이 꺼져 있는지(토글 해제) 확인란을 사용하여 항목의 만료 날짜를 ![ ](../../media/scc-toggle-off.png) 지정합니다. **Expires on**
+     - 설정이 꺼져 있는지 확인하고(토글 해제) 만료 상자를 사용하여 항목의 만료 ![ ](../../media/scc-toggle-off.png) 날짜를 지정합니다. 
 
      또는
 
@@ -91,11 +91,11 @@ URL 항목의 구문에 대한 자세한 내용은 이 항목 부분의 [테넌�
 
 ## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>보안 및 & 센터를 사용하여 테넌트 허용/차단 목록의 항목 보기
 
-1. 보안 & 준수 센터에서 위협 **관리** 정책 \> **Policy** \> **테넌트 허용/차단 목록으로 이동하십시오.**
+1. 보안 & 준수 센터에서 위협 **관리** 정책 \>  \> **테넌트 허용/차단 목록으로 이동하십시오.**
 
 2. URL **탭을** 선택합니다.
 
-다음 열 제목을 클릭하여 오차 또는 내선 순서로 정렬합니다.
+다음 열 머리 단추를 클릭하여 오차 또는 내선 순서로 정렬합니다.
 
 - **값**
 - **작업:** **차단** **또는** 허용.
@@ -103,15 +103,15 @@ URL 항목의 구문에 대한 자세한 내용은 이 항목 부분의 [테넌�
 - **만료 날짜**
 - **참고**
 
-그룹을 **클릭하여** 작업(차단 **Action** 또는 **Block** **허용)** 또는 없음으로 항목을 **그룹화합니다.**
+그룹을 **클릭하여** 작업(차단  또는 **허용)** 또는 없음으로 항목을 **그룹화합니다.**
 
 검색을 **클릭하고** 값의 전체 또는 일부를 입력한 다음 Enter를 눌러 특정 값을 찾습니다. 완료되면 검색 지우기 **검색 아이콘을** ![ ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) 클릭합니다.
 
-필터를 **클릭합니다.** 필터 **Filter** 플라이아웃이 나타나면 다음 설정을 구성합니다.
+필터를 **클릭합니다.** 필터  플라이아웃이 나타나면 다음 설정을 구성합니다.
 
 - **작업:** **허용,** **차단** 또는 둘 다를 선택합니다.
 
-- **만료 안**:를 선택(해제)하거나 (토글) ![ ](../../media/scc-toggle-off.png) ![ 을(를) ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) 끄기.
+- **만료되지 않습니다.**(해제) 또는 ![ ](../../media/scc-toggle-off.png) (토글 ![ 끄기) 를 ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) 선택합니다.
 
 - **Last updated**: Select a start date **(From),** an end date (**To)** or both.
 
@@ -119,17 +119,17 @@ URL 항목의 구문에 대한 자세한 내용은 이 항목 부분의 [테넌�
 
 완료되면 적용을 **클릭합니다.**
 
-기존 필터를 지우려면 **필터를** 클릭하고 나타나는 필터 **Filter** 플라이아웃에서 필터 **지우기 를 클릭합니다.**
+기존 필터를 지우려면 **필터를** 클릭하고 나타나는 필터  플라이아웃에서 필터 **지우기 를 클릭합니다.**
 
 ## <a name="use-the-security--compliance-center-to-modify-entries-in-the-tenant-allowblock-list"></a>보안 및 & 센터를 사용하여 테넌트 허용/차단 목록의 항목 수정
 
 URL 값 자체는 수정할 수 없습니다. 대신 항목을 삭제하고 다시 해야 합니다.
 
-1. 보안 & 준수 센터에서 위협 **관리** 정책 \> **Policy** \> **테넌트 허용/차단 목록으로 이동하십시오.**
+1. 보안 & 준수 센터에서 위협 **관리** 정책 \>  \> **테넌트 허용/차단 목록으로 이동하십시오.**
 
 2. URL **탭을** 선택합니다.
 
-3. 수정할 항목을 선택하고 편집 **Edit** ![ 아이콘을 ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 클릭합니다.
+3. 수정할 항목을 선택하고 편집  ![ 아이콘을 ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 클릭합니다.
 
 4. 플라이아웃이 나타나면 다음 설정을 구성합니다.
 
@@ -137,7 +137,7 @@ URL 값 자체는 수정할 수 없습니다. 대신 항목을 삭제하고 다�
 
    - **만료 안 하세요.** 다음 단계 중 하나를 수행합니다.
 
-     - 설정이 꺼져 있는지(토글 해제) 확인란을 사용하여 항목의 만료 날짜를 ![ ](../../media/scc-toggle-off.png) 지정합니다. **Expires on**
+     - 설정이 꺼져 있는지(토글 해제) 확인란을 사용하여 항목의 만료 날짜를 ![ ](../../media/scc-toggle-off.png) 지정합니다. 
 
      또는
 
@@ -149,7 +149,7 @@ URL 값 자체는 수정할 수 없습니다. 대신 항목을 삭제하고 다�
 
 ## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a>보안 및 & 센터를 사용하여 테넌트 허용/차단 목록에서 항목 제거
 
-1. 보안 & 준수 센터에서 위협 **관리** 정책 \> **Policy** \> **테넌트 허용/차단 목록으로 이동하십시오.**
+1. 보안 & 준수 센터에서 위협 **관리** 정책 \>  \> **테넌트 허용/차단 목록으로 이동하십시오.**
 
 2. URL **탭을** 선택합니다.
 
@@ -269,7 +269,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
     예를 들어 `~contoso.com` 다음을 `contoso.com` `*.contoso.com` 포함합니다.
 
-- URL 항목은 모든 프로토콜에 적용될 수 있기 때문에 프로토콜(예: 또는 )을 포함하는 URL 항목은 `http://` `https://` `ftp://` 실패합니다.
+- URL 항목은 모든 프로토콜에 적용될 수 있기 때문에 프로토콜(예: 또는 )이 포함된 URL 항목은 `http://` `https://` `ftp://` 실패합니다.
 
 - 사용자 이름 또는 암호는 지원되거나 필요하지 않습니다.
 
@@ -296,7 +296,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
   - test.com/q=contoso.com
   - www.contoso.com
   - www.contoso.com/q=a@contoso.com
-  
+
 - **블록 일치**:
 
   - contoso.com
@@ -313,7 +313,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
 **항목:**`*.contoso.com`
 
-- **일치 및** **차단 일치 허용:**
+- **일치 및** **차단 일치 허용**:
 
   - www.contoso.com
   - xyz.abc.contoso.com
@@ -324,12 +324,12 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
   - contoso.com
   - test.com/contoso.com
   - www.contoso.com/abc
-  
+
 #### <a name="scenario-right-wildcard-at-top-of-path"></a>시나리오: 경로 맨 위에 있는 오른쪽 와일드카드
 
 **항목:**`contoso.com/a/*`
 
-- **일치 및** **차단 일치 허용:**
+- **일치 및** **차단 일치 허용**:
 
   - contoso.com/a/b
   - contoso.com/a/b/c
@@ -341,12 +341,12 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
   - contoso.com/a
   - www.contoso.com
   - www.contoso.com/q=a@contoso.com
-  
-#### <a name="scenario-left-tilde"></a>시나리오: 왼쪽 누적
+
+#### <a name="scenario-left-tilde"></a>시나리오: 왼쪽으로 밀기
 
 **항목:**`~contoso.com`
 
-- **일치 및** **차단 일치 허용:**
+- **일치 및** **차단 일치 허용**:
 
   - contoso.com
   - www.contoso.com
@@ -362,7 +362,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
 **항목:**`contoso.com/*`
 
-- **일치 및** **차단 일치 허용:**
+- **일치 및** **차단 일치 허용**:
 
   - contoso.com/?q=whatever@fabrikam.com
   - contoso.com/a
@@ -378,7 +378,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
 **항목:**`*.contoso.com/*`
 
-- **일치 및** **차단 일치 허용:**
+- **일치 및** **차단 일치 허용**:
 
   - abc.contoso.com/ab
   - abc.xyz.contoso.com/a/b/c
@@ -392,7 +392,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
 **항목:**`~contoso.com~`
 
-- **일치 및** **차단 일치 허용:**
+- **일치 및** **차단 일치 허용**:
 
   - contoso.com
   - contoso.com/a
@@ -420,7 +420,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
 **항목:**`1.2.3.4/*`
 
-- **일치 및** **차단 일치 허용:**
+- **일치 및** **차단 일치 허용**:
 
   - 1.2.3.4/b
   - 1.2.3.4/baaaa

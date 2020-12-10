@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
-ms.openlocfilehash: 66f352b6c3a5d3b3beff3043a3f0d1a435d1e5d1
-ms.sourcegitcommit: ff1f0a97e9d43bc786f04d2ea7e01695531b9f28
+ms.openlocfilehash: f8ae6334a078d635de069d2fe7af351ad42d8df3
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49560887"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615363"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -90,7 +90,7 @@ SPF는 메시지 봉투에 정보를 추가하지만 DKIM은 실제로 메시지
    1. [PowerShell을 통해 Office 365 작업 부하에 연결합니다](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (Cmdlet은 Exchange Online에서 제공됩니다.)
    1. 다음 명령을 실행합니다.
 
-      ```powershell 
+      ```powershell
       Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}
       ```
 
@@ -131,7 +131,7 @@ DKIM을 구성하려면 다음 단계를 수행합니다.
 DNS에 DKIM 서명을 추가하려는 각 도메인에 대해 두 개의 CNAME 레코드를 게시해야 합니다.
 
 > [!NOTE]
-> 전체 기사를 읽지 않은 경우 시간을 절약하는 다음과 같은 PowerShell 연결 정보를 놓쳤을 수 있습니다. [PowerShell을 통해 Office 365 워크로드](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)에 연결합니다. (Cmdlet은 Exchange Online에서 제공됩니다.) 
+> 전체 기사를 읽지 않은 경우 시간을 절약하는 다음과 같은 PowerShell 연결 정보를 놓쳤을 수 있습니다. [PowerShell을 통해 Office 365 워크로드](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)에 연결합니다. (Cmdlet은 Exchange Online에서 제공됩니다.)
 
 다음 명령을 실행하여 선택기 레코드를 만듭니다.
 
@@ -254,7 +254,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 
 나중에 다른 사용자 지정 도메인을 추가하기로 결정하고 새 도메인에 대해 DKIM을 활성화하려는 경우 각 도메인에 대해 이 문서의 단계를 완료해야 합니다. 특히 [DKIM을 수동으로 설정하려면 수행해야 할 작업](use-dkim-to-validate-outbound-email.md#SetUpDKIMO365)의 모든 단계를 완료합니다.
 
-## <a name="disabling-the-dkim-signing-policy-for-a-custom-domain"></a>사용자 지정 도메인에 대해 DKIM 서명 정책을 사용 하지 않도록 설정 
+## <a name="disabling-the-dkim-signing-policy-for-a-custom-domain"></a>사용자 지정 도메인에 대해 DKIM 서명 정책을 사용 하지 않도록 설정
 <a name="DisableDKIMSigningPolicy"> </a>
 
 서명 정책을 비활성화해도 DKIM이 완전히 비활성화되지는 않습니다. 일정 시간이 지나면 Microsoft 365는 도메인에 대한 기본 Microsoft 365 정책을 자동으로 적용합니다. 자세한 내용은 [DKIM 및 Microsoft 365의 기본 동작](use-dkim-to-validate-outbound-email.md#DefaultDKIMbehavior)을 참조합니다.
@@ -336,7 +336,7 @@ Return-Path: <communication@bulkemailprovider.com>
    > sender@**contoso.com**
 
    > d=**contoso.com**
-   
+
 ## <a name="identify-domains-that-do-not-send-email"></a>전자 메일을 보내지 않는 도메인을 식별합니다.
 
 조직은 도메인이 해당 도메인에 대해 DKIM 레코드에 `v=DKIM1; p=`을(를) 지정하여 전자 메일을 보내지 않는지 명시적으로 명시해야 합니다. 이것은 전자 메일 서버를 수신할 때 도메인에 대한 유효한 공용 키가 없으며 해당 도메인에서 왔다고 주장하는 전자 메일은 거부되어야 한다는 것을 알려줍니다. 와일드카드 DKIM을 사용하여 각 도메인 및 하위 도메인에 대해 이 작업을 수행해야 합니다.

@@ -17,49 +17,49 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 EOP (Exchange Online Protection)의 스팸 방지 보호 기능에 대 한 질문과 대답을 볼 수 있습니다.
-ms.openlocfilehash: d2505eea572e512b306cf26c7a57d1dc1b705c0b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: 관리자는 EOP(Exchange Online Protection)에서 스팸 방지 보호에 대한 질문과 대답을 볼 수 있습니다.
+ms.openlocfilehash: 21c70f1942703b8e5f3f4d96b136aff46afcc32b
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844467"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615435"
 ---
 # <a name="anti-spam-protection-faq"></a>스팸 방지 보호 FAQ
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-이 항목에서는 exchange online 사서함이 없는 Microsoft 365 조 직의 사서함과 EOP (독립 실행형 Exchange Online Protection) 조직에 대 한 맬웨어 방지 보호 기능에 대 한 질문과 대답을 제공 합니다.
+이 항목에서는 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직을 위한 맬웨어 방지 보호에 대한 질문과 대답을 제공합니다.
 
 격리에 대한 질문과 대답은 [격리 FAQ](quarantine-faq.md)를 참조하세요.
 
-맬웨어 방지 보호 기능에 대 한 질문과 대답은 [맬웨어 방지 보호 FAQ](anti-malware-protection-faq-eop.md)를 참조 하세요.
+맬웨어 방지 보호에 대한 질문과 대답은 맬웨어 방지 [보호 FAQ를 참조하세요.](anti-malware-protection-faq-eop.md)
 
-스푸핑 방지 보호에 대 한 질문과 대답은 스푸핑 방지 [보호 FAQ](anti-spoofing-protection-faq.md)를 참조 하세요.
+스푸핑 방지 보호에 대한 질문과 대답은 스푸핑 방지 보호 [FAQ를 참조하세요.](anti-spoofing-protection-faq.md)
 
 ## <a name="by-default-what-happens-to-a-spam-detected-message"></a>스팸으로 검색된 메시지에 대해 기본적으로 수행되는 작업은 무엇입니까?
 
-**인바운드 메시지의 경우:** 대부분의 스팸은 원본 전자 메일 서버의 IP 주소를 기반으로 하는 연결 필터링을 통해 삭제 됩니다. 스팸 방지 정책 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)은 메시지를 조사 하 여 스팸, 대량 또는 피싱으로 분류 합니다. 기본적으로 스팸으로 분류 된 메시지는 받는 사람의 정크 메일 폴더로 배달 되며, 피싱로 분류 된 메시지는 격리 됩니다. 모든 받는 사람에 게 적용 되는 기본 스팸 방지 정책을 수정 하거나, 특정 사용자 그룹에 대 한 보다 엄격한 설정으로 사용자 지정 스팸 방지 정책을 만들 수 있습니다 (예: 임원에 전송 된 스팸 격리 가능). 자세한 내용은 [스팸 방지 정책 구성](configure-your-spam-filter-policies.md) 및 [권장 되는 스팸 방지 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)참조 하십시오.
+**인바운드 메시지의 경우:** 스팸은 대부분 원본 전자 메일 서버의 IP 주소를 기반으로 하는 연결 필터링을 통해 삭제됩니다. 스팸 방지 정책(스팸 필터 정책 또는 콘텐츠 필터 정책)은 메시지를 스팸, 대량 또는 피싱으로 검사하고 분류합니다. 기본적으로 스팸 또는 대량으로 분류된 메시지는 받는 사람의 정크 메일 폴더로 배달되는 반면 피싱으로 분류된 메시지는 스팸으로 분류됩니다. 기본 스팸 방지 정책(모든 받는 사람에게 적용)을 수정하거나 특정 사용자 그룹에 대해 더 엄격한 설정을 사용하여 사용자 지정 스팸 방지 정책을 만들 수 있습니다(예: 임원에게 전송된 스팸을 차단할 수 있습니다). 자세한 내용은 스팸 [방지](configure-your-spam-filter-policies.md) 정책 및 권장 스팸 방지 정책 설정 [구성을 참조하세요.](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)
 
 > [!IMPORTANT]
-> EOP가 온-프레미스 사서함을 보호 하는 하이브리드 배포에서는 메시지에 추가 되는 EOP 스팸 필터링 헤더를 검색 하도록 온-프레미스 Exchange 조직에서 두 가지 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.
+> EOP가 전자 메일 사서함을 보호하는 하이브리드 배포에서는 메시지에 추가된 EOP 스팸 필터링 헤더를 검색하도록 Exchange 메일 흐름 규칙(전송 규칙)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.
 
- **아웃 바운드 메시지의 경우:** 메시지가 [위험성이 높은 배달 풀](high-risk-delivery-pool-for-outbound-messages.md) 을 통해 라우팅되고 있거나 배달 못 함 보고서 (NDR 또는 바운스 메시지로 알려짐)에서 보낸 사람에 게 반환 됩니다. 아웃 바운드 스팸 방지에 대 한 자세한 내용은 [아웃 바운드 스팸 제어](outbound-spam-controls.md)를 참조 하십시오.
+ **아웃바운드 메시지의 경우:** 이 메시지는 위험이 높은 [](high-risk-delivery-pool-for-outbound-messages.md) 배달 풀을 통해 라우팅되거나 배달되지 않은 보고서(NDR 또는 반송 메시지라고도 합니다)에서 보낸 사람으로 반환됩니다. 아웃바운드 스팸 보호에 대한 자세한 내용은 아웃바운드 스팸 [컨트롤을 참조하세요.](outbound-spam-controls.md)
 
-## <a name="whats-a-zero-day-spam-variant-and-how-is-it-handled-by-the-service"></a>스팸이 0 일에 해당 하는 것은 무엇 이며, 서비스에서 처리 하는 방법은 무엇 인가요?
+## <a name="whats-a-zero-day-spam-variant-and-how-is-it-handled-by-the-service"></a>제로 데이 스팸 변형이란 무엇일까요? 이 변형은 서비스에서 어떻게 처리하나요?
 
-0 일의 스팸 변형은 첫 번째 세대 이며, 이전에는 캡처되지 않거나 분석 되지 않은 스팸의 변종 이며, 스팸 방지 필터에는 아직 해당 정보를 검색 하는 데 사용할 수 있는 정보가 없습니다. 스팸 분석가에 의해 0 일 동안의 스팸 샘플이 캡처 및 분석 된 후 스팸 분류 조건을 충족 하는 경우이를 검색 하기 위해 스팸 방지 필터를 업데이트 했으며 더 이상 "0 일"로 간주 되지 않습니다.
+제로 데이 스팸 변형은 이전에 알 수 없는 1세대의 스팸 변형으로 캡처 또는 분석되지 않았기 때문에 스팸 방지 필터는 이를 검색하는 데 사용할 수 있는 정보가 아직 없습니다. 스팸 분석가가 제로 데이 스팸 샘플을 캡처하고 분석한 후 스팸 분류 기준을 충족하는 경우 스팸 방지 필터가 이를 검색하기 위해 업데이트되고 더 이상 "제로 데이"로 간주되지 않습니다.
 
-**참고:** 서비스를 개선 하는 데 도움이 되도록 0 일 동안의 스팸 변종 메시지를 받은 경우에는 [보고서 메시지 및 파일](report-junk-email-messages-to-microsoft.md)에 설명 된 방법 중 하나를 microsoft에 제출 하십시오.
+**참고:** 제로 데이 스팸 변형일 수 있는 메시지가 수신되는 경우 서비스를 개선하는 데 도움이 될 수 있도록 보고서 메시지 및 파일에 설명된 방법 중 하나를 사용하여 [Microsoft에](report-junk-email-messages-to-microsoft.md)메시지를 제출하십시오.
 
 ## <a name="do-i-need-to-configure-the-service-to-provide-anti-spam-protection"></a>스팸 방지 보호 기능을 제공하도록 서비스를 구성해야 합니까?
 
-서비스에 등록 하 고 도메인을 추가 하 고 나면 스팸 필터링이 자동으로 사용 하도록 설정 됩니다. 기본적으로 스팸 필터링은 혼합 환경의 독립 실행형 EOP 독립 실행형 고객에 대해 앞에서 설명한 예외를 제외 하 고는 추가 구성 없이도 사용자를 보호할 수 있도록 조정 됩니다. 관리자는 기본 스팸 필터링 설정을 조직의 요구에 가장 잘 맞게 편집할 수 있습니다. 세분성을 높이기 위해 조직의 지정 된 사용자, 그룹 또는 도메인에 적용 되는 스팸 방지 정책 및 아웃 바운드 스팸 방지 정책을 만들 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만 사용자 지정 정책의 우선 순위(즉, 실행 순서)를 변경할 수 있습니다.
+서비스에 등록하고 도메인을 추가하면 스팸 필터링이 자동으로 사용하도록 설정됩니다. 기본적으로 스팸 필터링은 추가 구성 없이 보호됩니다(하이브리드 환경의 독립 실행형 EOP 독립 실행형 고객의 경우 이전에 언급한 예외 제외). 관리자는 조직의 요구 사항을 가장 잘 충족하기 위해 기본 스팸 필터링 설정을 편집할 수 있습니다. 세분성을 강화하기 위해 조직의 지정된 사용자, 그룹 또는 도메인에 적용되는 스팸 방지 정책 및 아웃바운드 스팸 방지 정책을 만들 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만 사용자 지정 정책의 우선 순위(즉, 실행 순서)를 변경할 수 있습니다.
 
 자세한 내용은 아래 항목을 참조하세요.
 
-[EOP 및 Office 용 Microsoft Defender 365 보안에 대 한 권장 설정](recommended-settings-for-eop-and-office365-atp.md)
+[EOP 및 Office 365용 Microsoft Defender 보안에 대한 권장 설정](recommended-settings-for-eop-and-office365-atp.md)
 
 [EOP에서 연결 필터링 구성](configure-the-connection-filter-policy.md)
 
@@ -73,11 +73,11 @@ ms.locfileid: "48844467"
 
 ## <a name="is-bulk-email-filtering-automatically-enabled"></a>대량 전자 메일 필터링은 자동으로 사용하도록 설정됩니까?
 
-예. 대량 전자 메일에 대 한 자세한 내용은 [정크 메일과 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md)을 참조 하세요.
+예. 대량 전자 메일에 대한 자세한 내용은 정크 메일과 대량 전자 메일의 [차이점을 참조하세요.](what-s-the-difference-between-junk-email-and-bulk-email.md)
 
 ## <a name="does-the-service-provide-url-filtering"></a>서비스에서 URL 필터링 기능을 제공합니까?
 
-예, 서비스에 메시지 내의 url을 확인 하는 URL 필터가 있습니다. 알려진 스팸 또는 악성 콘텐츠와 관련 된 Url이 검색 되 면 메시지가 스팸으로 표시 됩니다.
+예. 서비스에는 메시지 내의 URL을 검사하는 URL 필터가 있습니다. 알려진 스팸 또는 악성 콘텐츠와 연결된 URL이 검색되면 메시지가 스팸으로 표시됩니다.
 
 ## <a name="how-can-customers-using-the-service-send-false-negative-spam-and-false-positive-non-spam-messages-to-microsoft"></a>서비스를 사용하는 고객이 거짓 부정(스팸) 및 가양성(스팸 아님) 메시지를 Microsoft로 보내려면 어떻게 해야 합니까?
 
@@ -85,51 +85,51 @@ ms.locfileid: "48844467"
 
 ## <a name="can-i-get-spam-reports"></a>스팸 보고서를 확인할 수 있습니까?
 
-예를 들어 Microsoft 365 관리 센터에서 스팸 검색 보고서를 받을 수 있습니다. 이 보고서는 스팸 볼륨을 고유한 메시지의 수로 표시 합니다. 보고에 대한 자세한 내용은 다음 링크를 참조하십시오.
+예, 예를 들어 Microsoft 365 관리 센터에서 스팸 검색 보고서를 받을 수 있습니다. 이 보고서에는 스팸 볼륨이 고유한 메시지 수로 표시됩니다. 보고에 대한 자세한 내용은 다음 링크를 참조하십시오.
 
-Exchange Online 고객: [Exchange online의 모니터링, 보고 및 메시지 추적](https://docs.microsoft.com/exchange/monitoring/monitoring)
+Exchange Online 고객: [Exchange Online의 모니터링,](https://docs.microsoft.com/exchange/monitoring/monitoring) 보고 및 메시지 추적
 
-독립 실행형 EOP 고객: [Exchange Online Protection의 보고 및 메시지 추적](reporting-and-message-trace-in-exchange-online-protection.md)
+독립 실행형 EOP 고객: [Exchange Online Protection의](reporting-and-message-trace-in-exchange-online-protection.md) 보고 및 메시지 추적
 
-## <a name="someone-sent-me-a-message-and-i-cant-find-it-i-suspect-that-it-may-have-been-detected-as-spam-is-there-a-tool-that-i-can-use-to-find-out"></a>다른 사용자가 메시지를 보냈지만 찾을 수 없습니다. 이는 스팸으로 검색 된 것으로 의심 됩니다. 를 확인 하는 데 사용할 수 있는 도구가 있나요?
+## <a name="someone-sent-me-a-message-and-i-cant-find-it-i-suspect-that-it-may-have-been-detected-as-spam-is-there-a-tool-that-i-can-use-to-find-out"></a>누군가가 메시지를 보냈을 때 메시지를 찾을 수 없습니다. 스팸으로 검색된 것일 수 있습니다. 찾을 수 있는 도구가 있나요?
 
-예, 메시지 추적 도구를 사용 하면 전자 메일 메시지가 서비스를 통과 하는 대로 진행 되는 상황을 확인할 수 있습니다. 메시지 추적 도구를 사용 하 여 메시지가 스팸으로 표시 된 이유를 확인 하는 방법에 대 한 자세한 내용은 [메시지가 스팸으로 표시 되었습니까?](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/message-trace-faq#was-a-message-marked-as-spam) 를 참조 하세요.
+예. 메시지 추적 도구를 사용하면 서비스를 통과하는 전자 메일 메시지를 추적하여 해당 메시지에 어떤 일이 일어나는지 알 수 있습니다. 메시지 추적 도구를 사용하여 메시지가 스팸으로 표시된 이유를 찾는 방법에 대한 자세한 내용은 메시지가 스팸으로 [표시되어 있습니까?](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/message-trace-faq#was-a-message-marked-as-spam)
 
-## <a name="will-the-service-throttle-rate-limit-my-mail-if-my-users-send-outbound-spam"></a>사용자가 아웃 바운드 스팸을 보낼 때 서비스 제한 (속도 제한)은 내 메일 입니까?
+## <a name="will-the-service-throttle-rate-limit-my-mail-if-my-users-send-outbound-spam"></a>사용자가 아웃바운드 스팸을 보내는 경우 서비스에서 내 메일을 제한합니까?(속도 제한)
 
-특정 시간대 (예: 시간당)에서 서비스를 통해 사용자가 보낸 메일의 절반 이상이 EOP에 의해 스팸으로 확인 되 면 사용자는 메시지를 보낼 수 없게 됩니다. 대부분의 경우 아웃 바운드 메시지가 스팸으로 확인 되 면이 메시지는 높은 위험 배달 풀을 통해 라우팅되며, 일반 아웃 바운드 IP 풀이 차단 목록에 추가 될 가능성을 줄입니다.
+특정 시간 프레임(예: 시간당)에 사용자를 통해 보낸 메일의 절반 이상이 EOP에서 스팸으로 확인되면 사용자는 메시지 보내기가 차단됩니다. 대부분의 경우 아웃바운드 메시지가 스팸으로 확인되면 위험 가능성이 높은 배달 풀을 통해 라우팅되는 것이 일반 아웃바운드 IP 풀이 차단 목록에 추가될 가능성이 줄어듭습니다.
 
-보낸 사람이 아웃바운드 스팸을 보낼 수 없도록 차단된 경우 지정된 전자 메일 주소로 알림을 보낼 수 있습니다. 이 설정에 대 한 자세한 내용은 [아웃 바운드 스팸 정책 구성을](configure-the-outbound-spam-policy.md)참조 하십시오.
+보낸 사람이 아웃바운드 스팸을 보낼 수 없도록 차단된 경우 지정된 전자 메일 주소로 알림을 보낼 수 있습니다. 이 설정에 대한 자세한 내용은 아웃바운드 스팸 정책 [구성을 참조하십시오.](configure-the-outbound-spam-policy.md)
 
 ## <a name="can-i-use-a-third-party-anti-spam-and-anti-malware-provider-in-conjunction-with-exchange-online"></a>타사 스팸 방지 및 맬웨어 방지 공급자와 Exchange Online을 함께 사용할 수 있습니까?
 
-예. Microsoft에 대 한 MX 레코드를 가리키는 것이 좋지만 Microsoft가 아닌 다른 사람에 게 전자 메일을 라우팅하는 합법적인 비즈니스 이유가 있다는 것을 알게 되었습니다.
+예. MX 레코드를 Microsoft를 설정하는 것이 좋습니다. 그러나 Microsoft가 먼저 전자 메일을 다른 곳으로 라우팅해야 하는 합법적인 비즈니스 이유가 있습니다.
 
-- **Inbound** : 타사 공급자를 가리키도록 MX 레코드를 변경한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
+- **인바운드:** 타사 공급자를 설정하기 위해 MX 레코드를 변경한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션합니다. 자세한 내용은 Exchange Online의 커넥터에 대한 향상된 [필터링을 참조하세요.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
 
-- **Outbound** : Microsoft 365에서 대상 타사 공급자로의 스마트 호스트 라우팅을 구성 합니다.
+- **아웃바운드**: Microsoft 365에서 대상 타사 공급자로의 스마트 호스트 라우팅을 구성합니다.
 
 ## <a name="does-microsoft-have-any-documentation-about-how-i-can-protect-myself-from-phishing-scams"></a>Microsoft에 피싱 메일로부터 자기 자신을 보호할 수 있는 방법에 대한 설명서가 있습니까?
 
-예. 자세한 내용은 [인터넷에서 개인 정보 보호](https://support.microsoft.com/help/4091455) 를 참조 하세요.
+예. 자세한 내용은 [인터넷에서 개인 정보 보호를 참조하세요.](https://support.microsoft.com/help/4091455)
 
 ## <a name="are-spam-and-malware-messages-being-investigated-as-to-who-sent-them-or-being-transferred-to-law-enforcement-entities"></a>스팸 및 맬웨어 메시지의 경우 보낸 사람을 조사하거나 법 집행 기관으로 전송됩니까?
 
-서비스는 스팸 및 맬웨어 감지 및 제거에 중점을 둔 반면, 특히 위험 하거나 스팸을 손상 하거나 캠페인을 공격 하 고 perpetrators를 추진 하는 경우가 있습니다. 이는 발신자의 botnet을 차단 하 고, 스팸 발송자가 서비스를 사용 하는 경우 (아웃 바운드 전자 메일을 보내는 데 사용 하는 경우), 범죄 법정에 대 한 정보를 법률 집행 기관에 전달 하는 법적 및 디지털 범죄를 이용 하는 것을 포함 합니다.
+이 서비스는 스팸 및 맬웨어 감지 및 제거에 중점을 두지만 경우에 따라 특히 위험하거나 손상된 스팸 또는 공격 캠페인을 조사하고 가해자에 대해 진행할 수 있습니다. 여기에는 법률 및 디지털 범죄 단위와 협력하여 스패머 봇넷을 다운하고, 스패머가 서비스를 사용하지 못하도록 차단하고(아웃바운드 전자 메일을 보내는 데 사용하는 경우), 사법 기관에 정보를 전달하여 범죄 기소를 위한 정보를 전달할 수 있습니다.
 
 ## <a name="what-are-a-set-of-best-outbound-mailing-practices-that-will-ensure-that-my-mail-is-delivered"></a>메일 배달을 보장할 수 있는 가장 좋은 아웃바운드 메일 보내기 방법은 무엇입니까?
 
 아래에 나와 있는 지침이 아웃바운드 전자 메일 메시지를 보내는 모범 사례입니다.
 
-- **원본 전자 메일 도메인이 DNS에서 확인 해야 합니다.**
+- **원본 전자 메일 도메인이 DNS에서 확인됩니다.**
 
-  예를 들어 보낸 사람이 user@fabrikam 되는 경우 도메인 fabrikam은 IP 주소 192.0.43.10 확인 합니다.
-  
-  보내는 도메인의 A 레코드와 MX 레코드가 DNS에 없으면 서비스에서는 메시지 내용이 스팸인지 여부에 관계없이 위험성이 높은 배달 풀을 통하여 해당 메시지를 라우팅합니다. 위험성이 높은 배달 풀에 대 한 자세한 내용은 [아웃 바운드 메시지에 대 한 위험성이 높은 배달 풀](high-risk-delivery-pool-for-outbound-messages.md)을 참조 하십시오.
+  예를 들어 보낸 사람이 user@fabrikam fabrikam 도메인은 IP 주소 192.0.43.10으로 확인됩니다.
 
-- **아웃 바운드 메일 eserver에는 역방향 DNS (PTR) 항목이 있어야 합니다.**
+  보내는 도메인의 A 레코드와 MX 레코드가 DNS에 없으면 서비스에서는 메시지 내용이 스팸인지 여부에 관계없이 위험성이 높은 배달 풀을 통하여 해당 메시지를 라우팅합니다. 위험도가 높은 배달 풀에 대한 자세한 내용은 아웃바운드 메시지에 대한 위험도가 높은 [배달 풀을 참조하세요.](high-risk-delivery-pool-for-outbound-messages.md)
 
-  예를 들어 전자 메일 원본 IP 주소가 192.0.43.10 인 경우 역방향 DNS 항목은 `43-10.any.icann.org` 입니다. '
+- **아웃바운드 메일 서버는 역방향 DNS(PTR) 항목이 있습니다.**
+
+  예를 들어 전자 메일 원본 IP 주소가 192.0.43.10이면 역방향 DNS 항목이 `43-10.any.icann.org` .'
 
 - **HELO/EHLO 및 MAIL FROM 명령은 일관성이 있어야 하며 IP 주소가 아닌 도메인 이름 형식으로 지정해야 합니다.**
 
@@ -155,17 +155,17 @@ Exchange Online 고객: [Exchange online의 모니터링, 보고 및 메시지 �
 
   메시지 본문에는 제공 사항, 서비스 또는 제품이 명확하게 표시되어 있어야 합니다. 예를 들어 보낸 사람이 Contoso라는 회사를 위해 대량의 메일을 보내는 경우 전자 메일의 보낸 사람 및 제목은 다음과 같아야 합니다.
 
-  > 보낸 사람: marketing@contoso.com <br/> 제목: 업데이트된 크리스마스 시즌용 신규 카탈로그!
+  > 보낸 사람: marketing@contoso.com <br> 제목: 업데이트된 크리스마스 시즌용 신규 카탈로그!
 
   다음은 대량 메일임을 충분히 설명하지 않으므로 부적합한 메일의 예입니다.
 
-  > 보낸 사람: user@hotmail.com <br/> 제목: 카탈로그
+  > 보낸 사람: user@hotmail.com <br> 제목: 카탈로그
 
 - **뉴스레터 형식의 메시지를 많은 수의 받는 사람에게 대량 메일로 보내는 경우에는 메시지 아래쪽에 구독을 취소할 수 있는 수단이 있어야 합니다.**
 
   다음과 같은 구독 취소 옵션을 포함해야 합니다.
 
-  > 이 메시지는 sender@fabrikam.com에서 example.@contoso.com으로 전송된 것입니다. 프로필/전자 메일 주소 업데이트 | **Safeunsubscribe 취소** 를 사용한 빠른 제거 &trade; | 개인 정보 보호 정책
+  > 이 메시지는 sender@fabrikam.com에서 example.@contoso.com으로 전송된 것입니다. 프로필/전자 메일 주소 업데이트 | **SafeUnsubscribe로 즉시 제거** &trade; | 개인 정보 취급 방침
 
 - **대량 전자 메일을 보내는 경우에는 이중 옵트인(opt in)을 통해 목록을 확보해야 합니다. 이중 옵트인(opt in)은 대량 메일러에 대한 업계 모범 사례입니다.**
 
@@ -187,9 +187,9 @@ Exchange Online 고객: [Exchange online의 모니터링, 보고 및 메시지 �
 
   4. 추적 픽셀(웹 버그 또는 탐지 장치)을 사용할 때는 공개 개인 정보 또는 P3P 설정에서 그러한 항목이 있음을 명기합니다.
 
-- **아웃 바운드 바운스 메시지의 형식을 지정 합니다.**
+- **아웃바운드 반송 메시지의 형식을 지정합니다.**
 
-  배달 상태 알림 메시지 (배달 못 함 보고서, Ndr 또는 바운스 메시지)를 생성할 때 보낸 사람은 [RFC 3464](https://www.ietf.org/rfc/rfc3464.txt)에 지정 된 바운스 형식을 따라야 합니다.
+  배달 상태 알림 메시지(배달하지 않는 보고서, NDRS 또는 반송 메시지라고도 합니다)를 생성하는 경우 보낸 사람이 [RFC 3464에](https://www.ietf.org/rfc/rfc3464.txt)지정된 바운스 형식을 따라야 합니다.
 
 - **존재하지 않는 사용자의 반송된 전자 메일 주소를 제거합니다.**
 

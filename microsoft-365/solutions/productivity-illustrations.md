@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 생산성 일러스트레이션
-description: Teams 아키텍처 다이어그램과 같은 다음 그림을 사용하여 Microsoft 365 생산성 솔루션을 구현하기 위한 아키텍처 기본을 이해합니다.
+description: Teams 아키텍처 다이어그램과 같은 그림을 사용하여 Microsoft 365 생산성 솔루션을 구현하기 위한 아키텍처 기본을 이해합니다.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 81e729d9b0ff145d1d10a385cdd3f0856287dd9f
-ms.sourcegitcommit: 490a65d32b6d656c661c36a2cc8dda03bf6cba77
+ms.openlocfilehash: 1a82fc414bfed2f7a054ae533700c52a8270ed6d
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49588588"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615291"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Microsoft 365 생산성 일러스트레이션
 
@@ -75,7 +75,7 @@ Azure AD 응용 프로그램 프록시를 사용하여 게시된 Microsoft 365, 
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![모델 포스터: Microsoft 365의 ID 및 장치 보호](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [PDF로 보기](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Visio로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> 2020년 9월 업데이트|데이터, ID 및 장치 전반에 걸쳐 일관된 보호 수준을 사용하는 것이 중요합니다. 이 모델에서는 ID 및 장치를 보호하기 위한 기능에 대한 자세한 정보와 비교할 수 있는 기능을 보여 제공합니다.  <br/> |
+|[![모델 포스터: Microsoft 365의 ID 및 장치 보호](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [PDF로 보기](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Visio로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> 2020년 9월 업데이트|데이터, ID 및 장치 전반에 걸쳐 일관된 보호 수준을 사용하는 것이 중요합니다. 이 모델에서는 ID 및 장치를 보호하기 위한 기능에 대한 자세한 정보와 비교할 수 있는 기능을 보여줍니다.  <br/> |
  
 <a name="BKMK_ediscovery"></a>
 ### <a name="advanced-ediscovery-architecture-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 아키텍처
@@ -133,7 +133,7 @@ Microsoft는 Microsoft 클라우드에서 팀을 처음 경험할 때 몇 가지
 
 ### <a name="empower-remote-workers"></a>원격 작업자 권한 부여
 
-Microsoft 365 및 기타 Microsoft 클라우드 기술을 사용하여 직원들이 가정에서 조직의 클라우드 기반 정보, 도구 및 리소스에 안전하게 액세스할 수 있도록 할 수 있습니다. 
+Microsoft 365 및 기타 Microsoft 클라우드 기술을 사용하여 직원들이 자신의 가정에서 조직의 클라우드 기반 정보, 도구 및 리소스에 안전하게 액세스할 수 있도록 할 수 있습니다. 
 
 [![원격 작업자 지원](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf) <br/>
 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf)  |  [PowerPoint](https://download.microsoft.com/download/5/1/1/511b77a9-a34c-4ea7-af2a-32b07f20b780/empower-remote-workers.pptx) <br>
@@ -143,10 +143,10 @@ Microsoft 365 및 기타 Microsoft 클라우드 기술을 사용하여 직원들
 
 ### <a name="microsoft-teams-with-security-isolation"></a>보안이 있는 Microsoft Teams
 
-Microsoft 365를 사용하면 Microsoft Teams에서 개인 팀을 구성하고 SharePoint 사이트 보안 설정 및 고유한 민감도 레이블을 사용하여 팀 구성원만 암호를 해독할 수 있도록 파일을 암호화할 수 있습니다.
+Microsoft 365를 사용하면 Microsoft Teams에서 비공개 팀을 구성하고 SharePoint 사이트 보안 설정 및 고유한 민감도 레이블을 사용하여 팀 구성원만 암호를 해독할 수 있도록 파일을 암호화할 수 있습니다.
 
 [![보안 격리를 사용하여 Microsoft Teams 구성하기](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf) <br/>
-[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) <br> 2020년 8월 업데이트
+[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf)  |  [PowerPoint](https://download.microsoft.com/download/8/0/5/8057fc16-c044-40b6-a652-7ed555ba2895/team-security-isolation-poster.pptx) <br> 2020년 8월 업데이트
 
 자세한 내용은 이 포스터에 대한 문서인 보안이 있는 팀 [구성을 참조하세요.](secure-teams-security-isolation.md)
 

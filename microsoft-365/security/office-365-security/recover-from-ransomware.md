@@ -13,151 +13,151 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-description: Microsoft 365 관리자는 랜 섬 웨어 공격 으로부터 복구 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: a1369e64821902e3c2a3061acd1bbebeeb6c85ac
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+description: Microsoft 365 관리자는 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
+ms.openlocfilehash: ad3f044e338abeb56046538bdda8df7b8510be0e
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357100"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615903"
 ---
-# <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Microsoft 365에서 랜 섬 웨어 공격 으로부터 복구
+# <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Microsoft 365의 랜섬웨어 공격으로부터 복구
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-조직을 보호 하기 위해 모든 예방책을 사용 하는 경우에도 여전히 [랜 섬 웨어](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) 공격을 막을 수 있습니다. 랜 섬 웨어는 대규모 비즈니스로, 공격은 매우 정교 합니다.
+조직을 보호하기 위해 모든 예방 조치를 취하는 경우에도 랜섬웨어 공격의 피해자가 될 [수](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) 있습니다. 랜섬웨어는 대기업에 있으며 공격은 매우 정교합니다.
 
-이 문서에서 설명 하는 단계에서는 데이터를 복구 하 고 감염의 내부 확산을 중지할 수 있는 최상의 기회를 제공 합니다. 시작하기 전에 다음 항목을 고려하세요.
+이 문서의 단계는 데이터를 복구하고 내부 감염 확산을 중지할 수 있는 최상의 기회를 제공합니다. 시작하기 전에 다음 항목을 고려하세요.
 
-- Ransom의 비용을 지불 하면 파일에 대 한 액세스 권한이 반환 된다는 보장이 없습니다. 실제로 ransom를 지불할 경우 더 많은 랜 섬 웨어를 대상으로 할 수 있습니다.
+- 대금을 지불하면 파일에 대한 액세스 권한이 반환된다고 보장할 수 없습니다. 실제로 대가를 지불하면 더 많은 랜섬웨어의 대상이 될 수 있습니다.
 
-  이미 지불 되었지만 공격자의 솔루션을 사용 하지 않고 복구 한 경우에는 해당 은행에 연락 하 여 트랜잭션을 차단할 수 있는지 확인 합니다.
+  이미 결제했지만 공격자 솔루션을 사용하지 않고 복구한 경우 은행에 문의하여 거래를 차단할 수 있는지 문의합니다.
 
-  또한이 문서 뒷부분에 설명 된 대로, 섬 웨어 공격을 법 집행, 사기 보고 웹 사이트 및 Microsoft에 보고 하는 것이 좋습니다.
+  또한 랜섬웨어 공격을 법 집행 기관, 사기 보고 웹 사이트 및 Microsoft에 보고하는 것이 좋습니다.
 
-- 공격에 빠르게 응답 하 고 그 결과를 처리 하는 것이 중요 합니다. 기다리는 시간이 길수록 영향을 받는 데이터를 복구할 수 있다는 것을 덜 가능성이 줄어듭니다.
+- 공격과 그 결과에 빠르게 대응하는 것이 중요합니다. 대기 시간이 길면 영향을 받는 데이터를 복구할 가능성이 낮아질 수 있습니다.
 
-## <a name="step-1-verify-your-backups"></a>1 단계: 백업 확인
+## <a name="step-1-verify-your-backups"></a>1단계: 백업 확인
 
-오프 라인 백업이 있는 경우 환경에서 맬웨어 (랜 섬 웨어 페이로드)를 제거한 **후** 에 암호화 된 데이터를 복원할 수 있습니다.
+오프라인 백업이 있는 경우 환경에서 랜섬웨어  페이로드(맬웨어)를 제거한 후 암호화된 데이터를 복원할 수 있습니다.
 
-백업이 없거나 해당 백업이 랜 섬 웨어의 영향을 받는 경우에는이 단계를 건너뛰어도 됩니다.
+백업이 없는 경우 또는 백업이 랜섬웨어의 영향을 받은 경우 이 단계를 건너뛸 수 있습니다.
 
-## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>2 단계: Exchange ActiveSync 및 OneDrive 동기화 사용 안 함
+## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>2단계: Exchange ActiveSync 및 OneDrive 동기화를 사용하지 않도록 설정
 
-여기서 중요 한 점은 랜 섬 웨어에의 한 데이터 암호화 확산을 중지 하는 것입니다.
+여기서 핵심적인 점은 랜섬웨어에 의해 데이터 암호화 확산을 중지하는 것입니다.
 
-전자 메일이 랜 섬 웨어 암호화의 대상으로 의심 되는 경우 사서함에 대 한 사용자 액세스를 일시적으로 사용 하지 않도록 설정 합니다. Exchange ActiveSync는 장치와 Exchange Online 사서함 간에 데이터를 동기화 합니다.
+전자 메일이 랜섬웨어 암호화의 대상으로 의심되는 경우 사서함에 대한 사용자 액세스를 일시적으로 사용하지 않도록 설정하십시오. Exchange ActiveSync Exchange Online 사서함 간에 데이터를 동기화할 수 있습니다.
 
-사서함에 대해 Exchange ActiveSync를 사용 하지 않도록 설정 하려면 [Exchange Online에서 사용자에 대해 Exchange activesync를 사용 하지 않도록 설정 하는 방법을](https://support.microsoft.com/help/2795303)참조 하세요.
+사서함에 Exchange ActiveSync 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 Exchange Online에서 사용자에 대해 Exchange ActiveSync 사용하지 않도록 [설정하는 방법을 참조하세요.](https://support.microsoft.com/help/2795303)
 
-사서함에 대 한 다른 유형의 액세스를 사용 하지 않도록 설정 하려면 다음을 참조 하세요.
+다른 유형의 사서함 액세스를 사용하지 않도록 설정하는 경우 다음을 참조합니다.
 
-- [사서함에 대해 MAPI를 사용 하거나 사용 하지 않도록](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-mapi)설정 합니다.
+- [사서함에 대해 MAPI를 사용하도록 설정하거나 사용하지 않도록 설정](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-mapi)
 
-- [사용자에 대해 POP3 또는 IMAP4 액세스를 사용 하거나 사용 하지 않도록 설정](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
+- [사용자에 대해 POP3 또는 IMAP4 액세스 사용 또는 사용 안 하도록 설정](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
 
-OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 의해 클라우드 데이터가 업데이트 되는 것을 방지할 수 있습니다. 자세한 내용은 [OneDrive에서 동기화 일시 중지 및 다시 시작 하는 방법을](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)참조 하세요.
+OneDrive 동기화를 Pausing하면 잠재적으로 감염된 장치에 의해 클라우드 데이터가 업데이트되지 못하도록 보호할 수 있습니다. 자세한 내용은 [OneDrive에서 동기화를](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)일시 중지하고 다시 시작하는 방법을 참조하세요.
 
-## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>3 단계: 영향을 받는 장치에서 맬웨어 제거
+## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>3단계: 영향을 받는 장치에서 맬웨어 제거
 
-의심 되는 모든 컴퓨터 및 장치에 대해 최신 바이러스 백신 검사를 실행 하 여 랜 섬 웨어와 연결 된 페이로드를 검색 하 고 제거 합니다.
+의심되는 모든 컴퓨터 및 장치에서 전체 최신 바이러스 백신 검색을 실행하여 랜섬웨어와 연결된 페이로드를 검색하고 제거합니다.
 
-데이터를 동기화 하는 장치를 검색 하거나 매핑된 네트워크 드라이브의 대상을 잊어 버리는 것은 잊지 마십시오.
+데이터를 동기화하는 장치 또는 매핑된 네트워크 드라이브의 대상을 검색하는 것을 잊지 마세요.
 
-[Windows Defender](https://www.microsoft.com/windows/comprehensive-security) 또는 (이전 클라이언트용) [Microsoft Security Essentials](https://www.microsoft.com/download/details.aspx?id=5201)를 사용할 수 있습니다.
+.에서 [Windows Defender](https://www.microsoft.com/windows/comprehensive-security) 또는 (이전 클라이언트의 [경우)](https://www.microsoft.com/download/details.aspx?id=5201)Microsoft Security Essentials.
 
-랜 섬 웨어 또는 맬웨어를 제거 하는 데 도움이 되는 또 다른 방법은 [악성 소프트웨어 제거 도구 (MSRT)](https://www.microsoft.com/download/details.aspx?id=9905)입니다.
+랜섬웨어 또는 맬웨어를 제거하는 데 도움이 되는 [MSRT(악성](https://www.microsoft.com/download/details.aspx?id=9905)소프트웨어 제거 도구)를 대신 사용할 수 있습니다.
 
-이러한 옵션이 작동 하지 않으면 [Windows Defender offline](https://support.microsoft.com/help/17466) 을 시도 하거나 [맬웨어 검색 및 제거 문제를 해결할](https://support.microsoft.com/help/4466982)수 있습니다.
+이러한 옵션이 작동하지 않는 경우 오프라인으로 전환하거나 Windows Defender 맬웨어 검색 및 제거 문제를 [해결할 수 있습니다.](https://support.microsoft.com/help/4466982) [](https://support.microsoft.com/help/17466)
 
-## <a name="step-4-recover-files-on-a-cleaned-computer-or-device"></a>4 단계: 치료 된 컴퓨터 또는 장치에서 파일 복구
+## <a name="step-4-recover-files-on-a-cleaned-computer-or-device"></a>4단계: 정리된 컴퓨터 또는 장치에서 파일 복구
 
-이전 단계를 완료 하 여 환경에서 랜 섬 웨어 페이로드를 제거한 후 (섬 웨어 파일을 암호화 하거나 제거 하지 못하게 함) windows 10 및 Windows 8.1의 [파일 기록을](https://support.microsoft.com/help/17128) 사용 하 여 로컬 파일 및 폴더 복구를 시도할 수 있습니다.
+사용자 환경에서 랜섬웨어 페이로드를 제거하는 이전 단계를 완료한 후(랜섬웨어가 파일을 암호화하거나 제거하지 못하게 하려는 [](https://support.microsoft.com/help/17128) 경우) Windows 10 및 Windows 8.1의 파일 기록 또는 Windows 7의 시스템 보호를 사용하여 로컬 파일 및 폴더를 복구할 수 있습니다.
 
-**참고:**
+**참고**:
 
-- 일부 랜 섬 웨어도 백업 버전을 암호화 하거나 삭제 하므로 파일 기록 또는 시스템 보호를 사용 하 여 파일을 복원할 수 없습니다. 이 경우 다음 섹션에 설명 된 대로 랜 섬 웨어 또는 OneDrive의 영향을 받지 않았던 외부 드라이브 또는 장치에서 백업을 사용 해야 합니다.
+- 일부 랜섬웨어는 또한 백업 버전을 암호화하거나 삭제하기 때문에 파일 기록 또는 시스템 보호를 사용하여 파일을 복원할 수 없습니다. 이 경우 다음 섹션에 설명된 바와 같이 랜섬웨어 또는 OneDrive의 영향을 받지 않는 외부 드라이브 또는 디바이스에서 백업을 사용해야 합니다.
 
-- 폴더가 OneDrive에 동기화 되 고 최신 버전의 Windows를 사용 하지 않는 경우 파일 히스토리를 사용 하 여 몇 가지 제한이 있을 수 있습니다.
+- 폴더가 OneDrive와 동기화된 경우 최신 버전의 Windows를 사용하지 않는 경우 파일 기록을 사용하는 데 몇 가지 제한이 있을 수 있습니다.
 
-## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>5 단계: 비즈니스용 OneDrive에서 파일 복구
+## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>5단계: 비즈니스용 OneDrive에서 파일 복구
 
-비즈니스용 OneDrive의 파일 복원 기능을 사용 하면 지난 30 일 이내에 이전 시점으로 전체 OneDrive를 복원할 수 있습니다. 자세한 내용은 [OneDrive 복원을](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15)참조 하세요.
+비즈니스용 OneDrive에서 파일 복원을 사용하면 지난 30일 이내에 전체 OneDrive를 이전 시점으로 복원할 수 있습니다. 자세한 내용은 [OneDrive 복원을 참조하세요.](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15)
 
-## <a name="step-6-recover-deleted-email"></a>6 단계: 삭제 된 전자 메일 복구
+## <a name="step-6-recover-deleted-email"></a>6단계: 삭제된 전자 메일 복구
 
-드물지만 랜 섬 웨어가 모든 전자 메일을 삭제 한 경우에는 삭제 된 항목을 복구할 수 있습니다. 자세한 내용은 다음을 참조하시기 바랍니다.
+드물지만 랜섬웨어가 모든 전자 메일을 삭제한 경우 삭제된 항목을 복구할 수 있습니다. 자세한 내용은 다음을 참조하시기 바랍니다.
 
 - [사용자의 사서함에서 삭제된 메시지 복구](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/recover-deleted-messages)
 
 - [Windows용 Outlook에서 삭제된 항목 복구](https://support.microsoft.com/office/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce)
 
-## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>7 단계: Exchange ActiveSync 및 OneDrive 동기화 다시 사용
+## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>7단계: Exchange ActiveSync 및 OneDrive 동기화 다시 사용하도록 설정
 
-컴퓨터 및 장치를 청소 하 고 데이터를 복구한 후에는 [2 단계](#step-2-disable-exchange-activesync-and-onedrive-sync)에서 이전에 사용 하지 않도록 설정한 Exchange ActiveSync 및 OneDrive 동기화를 다시 사용 하도록 설정할 수 있습니다.
+컴퓨터와 장치를 정리하고 데이터를 복구한 후 이전에 [2단계에서](#step-2-disable-exchange-activesync-and-onedrive-sync)사용하지 않도록 Exchange ActiveSync 및 OneDrive 동기화를 다시 사용하도록 설정할 수 있습니다.
 
-## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>8 단계 (선택 사항): 특정 파일 확장명에 대 한 OneDrive 동기화 차단
+## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>8단계(선택 사항): 특정 파일 확장명에 대한 OneDrive 동기화 차단
 
-복구한 후에는 비즈니스용 OneDrive 클라이언트에서이 랜 섬에 영향을 받은 파일 형식을 동기화 하지 못할 수 있습니다. 자세한 내용은 [get-spotenantsyncclientrestriction](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction) 를 참조 하세요.
+복구한 후 비즈니스용 OneDrive 클라이언트가 이 랜섬웨어의 영향을 받은 파일 형식을 동기화하지 못하게 할 수 있습니다. 자세한 내용은 [Set-SPOTenantSyncClientRestriction을 참조하세요.](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
 
 ## <a name="report-the-attack"></a>공격 보고
 
-### <a name="contact-law-enforcement"></a>담당자 법률 집행
+### <a name="contact-law-enforcement"></a>담당자 법 집행
 
-지역 또는 연방 법 집행 기관에 문의 해야 합니다. 예를 들어 미국에 있는 경우 [FBI 로컬 필드인 office](https://www.fbi.gov/contact-us/field), [IC3](http://www.ic3.gov/complaint/default.aspx) 또는 [Secret Service](http://www.secretservice.gov/)에 연결할 수 있습니다.
+해당 지역의 법 집행 기관에 문의해야 합니다. 예를 들어 미국에 있는 경우 [FBI](https://www.fbi.gov/contact-us/field)현지 사무실 [IC3](http://www.ic3.gov/complaint/default.aspx) 또는 비밀 서비스에 [문의할 수 있습니다.](http://www.secretservice.gov/)
 
-### <a name="submit-a-report-to-your-countrys-scam-reporting-website"></a>해당 국가의 사기 보고 웹 사이트로 보고서 제출
+### <a name="submit-a-report-to-your-countrys-scam-reporting-website"></a>국가의 사기 보고 웹 사이트에 보고서 제출
 
-사기 보고 웹 사이트는 사기를 방지 하 고 방지 하는 방법에 대 한 정보를 제공 합니다. 또한 사기가 피해자 인지 여부를 보고 하는 메커니즘도 제공 합니다.
+사기 보고 웹 사이트는 사기를 방지하고 방지하는 방법에 대한 정보를 제공합니다. 또한 사기를 당했다고 보고하는 메커니즘도 제공합니다.
 
-- 오스트레일리아: [Scamwatch](http://www.scamwatch.gov.au/)
+- 오스트레일리아: [SCAMwatch](http://www.scamwatch.gov.au/)
 
-- 캐나다: [캐나다 사기 방지 센터](http://www.antifraudcentre-centreantifraude.ca/)
+- 캐나다: [캐나다의 사기 방지 센터](http://www.antifraudcentre-centreantifraude.ca/)
 
-- 프랑스: [agence de la sécurité des systèmes d'information](http://www.ssi.gouv.fr/)
+- 프랑스: [Agence nationale de la sécurité des systémes d'information](http://www.ssi.gouv.fr/)
 
-- 독일: [Bundesamt Für Sicherheit in Der Informationstechnik](https://www.bsi.bund.de/DE/Home/home_node.html)
+- 독일: [der Informationstechnik의 번들어amt für Sicherheit](https://www.bsi.bund.de/DE/Home/home_node.html)
 
-- 아일랜드: [Garda Síochána](http://www.garda.ie/)
+- 아일랜드: [가르다 신오크라나](http://www.garda.ie/)
 
-- 뉴질랜드: 소비자에 게 [사기](http://www.consumeraffairs.govt.nz/scams)
+- 뉴질랜드: [소비자 사기](http://www.consumeraffairs.govt.nz/scams)
 
 - 영국: [작업 사기](http://www.actionfraud.police.uk/)
 
-- 미국: [온라인 보호 설정](http://www.onguardonline.gov/)
+- 미국: [On Guard Online](http://www.onguardonline.gov/)
 
-해당 국가가 나열 되지 않으면 지역 또는 연방 법 집행 기관에 문의 하세요.
+해당 국가가 목록에 없는 경우 현지 또는 연방 법 집행 기관에 요청합니다.
 
-### <a name="submit-email-messages-to-microsoft"></a>Microsoft로 전자 메일 메시지 제출
+### <a name="submit-email-messages-to-microsoft"></a>Microsoft에 전자 메일 메시지 제출
 
-몇 가지 방법 중 하나를 사용 하 여 랜 섬 웨어가 포함 된 피싱 메시지를 보고할 수 있습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
+여러 방법 중 하나를 사용하여 랜섬웨어가 포함된 피싱 메시지를 보고할 수 있습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 
-- [랜](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware)
+- [랜섬웨어](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware)
 
-- [랜 섬 웨어 응답-비용 청구 또는 결제 안 하나요?](https://www.microsoft.com/security/blog/2019/12/16/ransomware-response-to-pay-or-not-to-pay/)
+- [랜섬웨어 응답 - 지불할지 또는 지불하지 않을 것인가?](https://www.microsoft.com/security/blog/2019/12/16/ransomware-response-to-pay-or-not-to-pay/)
 
-- [Norsk Hydro 투명도를 사용한 랜 섬 웨어 공격에 응답](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
+- [Norsk 연산은 투명성을 통해 랜섬웨어 공격에 대응합니다.](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
 
-- [랜 섬 웨어 검색 및 OneDrive에서 파일 복구](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
+- [OneDrive에서 랜섬웨어 검색 및 파일 복구](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 
 - [Microsoft 보안 인텔리전스 보고서](https://www.microsoft.com/securityinsights/)
 
-- [Office 파일에서 매크로를 사용 하거나 사용 하지 않도록 설정](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
+- [Office 파일에서 매크로 사용 또는 사용 안 하도록 설정](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
 
-- [EOP 및 Office 용 Microsoft Defender 365 보안에 대 한 권장 설정](recommended-settings-for-eop-and-office365-atp.md)
+- [EOP 및 Office 365용 Microsoft Defender 보안에 대한 권장 설정](recommended-settings-for-eop-and-office365-atp.md)
 
-- [훌륭한 업그레이드: Windows 10의 차세대 보안은 2017에서 랜 섬 웨어에 대 한 복원성을 입증 합니다.](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
+- [업그레이드 가치가 있는 업그레이드: Windows 10의 차세대 보안은 2017년 랜섬웨어 발생에 대해 탄력적인 업그레이드를 증명합니다.](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
 
-- [Ma 없음, Samas:이 랜 섬 웨어의 modus 기능 andi](https://www.microsoft.com/security/blog/2016/03/17/no-mas-samas-whats-in-this-ransomwares-modus-operandi/)
+- [No mas, Samas: What's in this ransomware's modus operandi?](https://www.microsoft.com/security/blog/2016/03/17/no-mas-samas-whats-in-this-ransomwares-modus-operandi/)
 
-- [Locky 맬웨어, 피하는 운이 좋습니다.](https://www.microsoft.com/security/blog/2016/02/24/locky-malware-lucky-to-avoid-it/)
+- [잠긴 맬웨어, 방지할 수 있는 다행](https://www.microsoft.com/security/blog/2016/02/24/locky-malware-lucky-to-avoid-it/)
 
-- [MSRT 7 월 2016 일: (으)](https://www.microsoft.com/security/blog/2016/07/12/msrt-july-2016-cerber-ransomware/)
+- [MSRT 2016년 7월: Cerber 랜섬웨어](https://www.microsoft.com/security/blog/2016/07/12/msrt-july-2016-cerber-ransomware/)
 
-- [Cerberus의 세 가지 헤드](https://www.microsoft.com/security/blog/2016/03/09/the-three-heads-of-the-cerberus-like-cerber-ransomware/)
+- [Cerberus와 같은 Cerber 랜섬웨어의 세 가지 헤드](https://www.microsoft.com/security/blog/2016/03/09/the-three-heads-of-the-cerberus-like-cerber-ransomware/)
 
-- [Da 다빈치 코드의 영향을 받은 Troldesh 랜 섬 웨어](https://www.microsoft.com/security/blog/2016/07/13/troldesh-ransomware-influenced-by-the-da-vinci-code/)
+- [(the) Da Vinci 코드의 영향을 Troldesh 랜섬웨어](https://www.microsoft.com/security/blog/2016/07/13/troldesh-ransomware-influenced-by-the-da-vinci-code/)

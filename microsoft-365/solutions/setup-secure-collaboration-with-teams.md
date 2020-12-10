@@ -2,7 +2,7 @@
 title: Microsoft 365를 사용하여 안전한 공동 작업 설정
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-jun2020
 f1.keywords: NOCSH
 description: Teams에서 보안 콘텐츠 공동 작업을 설정하여 민감도에 따라 데이터를 보호하는 방법을 알아보겠습니다.
-ms.openlocfilehash: 4f2e157025f00660e77ba3377221368e37e45445
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: f65657125fef8b8cf7e4e229d70d8fe211153392
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602076"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613587"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Microsoft 365를 사용하여 안전한 공동 작업 설정
 
@@ -33,13 +33,13 @@ ms.locfileid: "49602076"
 
 ![적절한 보호를 사용하여 Teams 배포 및 적절한 보안 설정으로 외부 공유 구성](..\media\solutions-architecture-center\secure-collaboration-overview.png)
 
-다용도 및 사용하기 쉬운 콘텐츠 공동 작업 도구를 사용할 수 없는 경우 사용자는 문서를 전자 메일로 보내 공동 작업을 하는 경우가 종종 있습니다. 이는 공동 작업의 지우고 오류가 발생할 수 있는 방법으로, 부적절한 정보 공유의 위험을 증가할 수 있습니다. 사용자가 정보 공유가 너무 어렵다는 것을 발견하면 IT에서 관리하지 않는 소비자 제품을 다시 사용할 수 있습니다. 이는 훨씬 더 큰 위험을 내포할 수 있습니다.
+다용도 및 사용하기 쉬운 콘텐츠 공동 작업 도구를 사용할 수 없는 경우 사용자는 문서를 전자 메일로 보내 공동 작업을 하는 경우가 종종 있습니다. 이는 공동 작업의 지우고 오류가 발생할 수 있는 방법으로, 부적절한 정보 공유의 위험을 증가할 수 있습니다. 공유 정보가 너무 어렵다는 것을 발견하면 IT에서 관리하지 않는 소비자 제품을 다시 사용할 수 있습니다. 이는 훨씬 더 큰 위험을 내포할 수 있습니다.
 
 Microsoft 365를 사용하면 다음을 도와주는 다양한 구성으로 Teams를 배포할 수 있습니다.
 
 - 지적 재산 보호
 - 간편한 공동 작업 사용
-- 사용자 만족도를 향상하고 섀도 IT의 위험을 줄이는 보안과 사용성 간의 균형 유지
+- 보안과 사용성 간의 균형을 유지하여 사용자 만족도를 향상하고 섀도 IT의 위험을 줄입니다.
 
 대부분의 조직에서는 정보가 부적절하게 공유되는 경우 민감도 및 비즈니스 영향 정도가 다양한 다양한 정보를 제공합니다. 특정 정보의 민감도에 따라 다음과의 공유를 허용할 수 있습니다.
 
@@ -76,7 +76,7 @@ Microsoft 365를 사용하면 다음을 도와주는 다양한 구성으로 Team
 ![Teams 논리 아키텍처 포스터의 축소판 그림 이미지](../media/solutions-architecture-center/Teams-tiers-of-protection-1.png)
 
 
-이러한 계층(기준, *sensitive* 중요 및 *highly sensitive* 높은 중요도)은 다음 표와 같이 과도하게 공유 및 잠재적인 정보 누출을 방지하는 데 도움이 되는 보호 기능을 점진적으로 늘려나가고 있습니다. *baseline*
+이러한 계층(기준, 중요 및  중요도)은 다음 표와 같이 과도하게 공유 및 잠재적인 정보 누출을 방지하는 데 도움이 되는 보호 기능을 점진적으로 늘려나가고 있습니다. 
 
 |-|**기준 계층**|**중요 계층**|**높은 중요 계층**|
 |:--|:-----------|:------------|:-------------------|
@@ -92,10 +92,10 @@ Microsoft 365를 사용하면 다음을 도와주는 다양한 구성으로 Team
 
 - 게스트 액세스 및 비공개 채널에 대한 Teams의 설정 구성
 - 팀의 연결된 SharePoint 사이트에서 내부 및 게스트 공유, 액세스 요청 및 공유 링크를 위한 설정 구성
-- 중요하고 *sensitive* 매우 *중요한* 계층의 경우 팀을 분류하고, 관리되지 않는 장치에서 게스트 공유 및 액세스를 제어하기 위해 민감도 레이블을 구성합니다.
-- 매우 중요한 *계층의* 경우 민감도 레이블이 적용되는 문서를 암호화할 민감도 레이블 구성
+- 중요하고  매우 *중요한* 계층의 경우 팀을 분류하고, 관리되지 않는 장치에서 게스트 공유 및 액세스를 제어하기 위해 민감도 레이블을 구성합니다.
+- 매우 *중요한 계층의* 경우 민감도 레이블을 구성하여 해당 계층이 적용되는 문서를 암호화합니다.
 
-기준 계층으로 시작한 다음, 필요한 경우 *sensitive* 중요하고 중요한 계층을 사용하는 팀을 추가하여 조직의 정보를 보호합니다. *highly sensitive* 시작을 위해 다음 리소스를 참조합니다.
+기준 계층으로 시작한 다음, 필요한 경우  중요하고 중요한 계층을 사용하는 팀을 추가하여 조직의 정보를 보호합니다.  시작을 위해 다음 리소스를 참조합니다.
 
 - [기본 보호 기능으로 팀 구성](configure-teams-baseline-protection.md)
 - [중요한 데이터를 보호하는 팀 구성하기](configure-teams-sensitive-protection.md)
@@ -110,7 +110,7 @@ Microsoft 365를 사용하면 다음을 도와주는 다양한 구성으로 Team
 이러한 리소스는 조직 외부의 사용자와 공동 작업을 위한 환경을 설정하는 데 도움이 됩니다.
 
 - [개별 폴더 파일을 공유하기](collaborate-on-documents.md) 위해 문서에 대해 공동 작업을 합니다.
-- [Collaborate in a site](collaborate-in-site.md) SharePoint 사이트에서 게스트와 공동 작업을 할 수 있는 사이트에서 공동 작업을 합니다.
+- [](collaborate-in-site.md) SharePoint 사이트에서 게스트와 공동 작업을 할 수 있는 사이트에서 공동 작업을 합니다.
 - [팀의](collaborate-as-team.md) 게스트와 공동 작업을 위한 팀으로 공동 작업을 합니다.
 
 공유되는 정보의 민감도에 따라 과도하게 공유되지 않도록 보호 장치를 추가할 수 있습니다. 이러한 리소스는 조직에 필요한 보호를 설정하는 데 도움이 됩니다.
@@ -119,7 +119,7 @@ Microsoft 365를 사용하면 다음을 도와주는 다양한 구성으로 Team
 - [파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출 제한하기](share-limit-accidental-exposure.md)
 - [보안 게스트 공유 환경 만들기](create-secure-guest-sharing-environment.md)
 
-파트너 조직이 있는 주요 프로젝트가 있는 경우 Azure 권리 관리 기능을 사용하여 프로젝트에 대해 설정한 팀에서 해당 조직의 게스트를 관리할 수 있습니다. 자세한 [내용은 관리되는 게스트가 있는 B2B 엑스트라넷](b2b-extranet.md) 만들기를 참조합니다.
+파트너 조직이 있는 주요 프로젝트가 있는 경우 Azure 권한 관리 기능을 사용하여 해당 조직의 게스트를 프로젝트에 대해 설정한 팀에서 관리할 수 있습니다. 자세한 [내용은 관리되는 게스트가 있는 B2B 엑스트라넷](b2b-extranet.md) 만들기를 참조합니다.
 
 ## <a name="deploy-the-secure-collaboration-solution"></a>보안 공동 작업 솔루션 배포
 

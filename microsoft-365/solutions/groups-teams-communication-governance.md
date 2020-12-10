@@ -1,5 +1,5 @@
 ---
-title: 공동 작업 시나리오에 대 한 통신 거 버 넌 스
+title: 공동 작업 시나리오에 대한 통신 거버넌스
 ms.reviewer: ''
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,60 +14,64 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: 통신 관리 방식 공동 작업 시나리오에 대해 알아봅니다.
-ms.openlocfilehash: 05644b5d86fc3ca83e7d140a73666a172937bd54
-ms.sourcegitcommit: 9841058fcc95f7c2fed6af92bc3c3686944829b6
+description: 통신 거버넌스 공동 작업 시나리오에 대해 설명합니다.
+ms.openlocfilehash: 4b60f0be3cde23330880d652bc62110cf4e55175
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48377524"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613681"
 ---
-# <a name="communications-governance-for-collaboration-scenarios"></a>공동 작업 시나리오에 대 한 통신 거 버 넌 스
+# <a name="communications-governance-for-collaboration-scenarios"></a>공동 작업 시나리오에 대한 통신 거버넌스
 
-Microsoft 365에서는 메시징 및 모임 설정을 비롯 하 여 조직에서 통신을 제어 하는 데 도움이 되는 다양 한 컨트롤을 제공 합니다. 이러한 옵션을 검토 하 여 비즈니스 요구 사항, 데이터의 민감도, 사용자가 공동 작업을 수행 하는 데 필요한 사용자 범위 등을 고려해 야 합니다.
+Microsoft 365는 메시징 및 모임 설정을 포함하여 조직의 통신을 제어하는 데 도움이 되는 다양한 컨트롤을 제공합니다. 이러한 옵션을 검토하고 비즈니스 요구에 매핑되는 방식, 데이터의 민감도 및 사용자가 공동 작업해야 하는 사용자의 범위를 고려합니다.
 
-다음 표에서는 Microsoft 365에서 사용할 수 있는 통신 컨트롤에 대 한 빠른 참조를 제공 합니다. 다음 섹션에서는 자세한 정보를 제공 합니다.
+다음 표에서는 Microsoft 365에서 사용할 수 있는 통신 컨트롤에 대한 빠른 참조를 제공합니다. 자세한 내용은 다음 섹션에서 제공됩니다.
 
 |범주|설명|참조|
 |:-------|:----------|:--------|
 |메시징|||
-||팀의 메시징에서 사용자가 수행할 수 있는 작업을 관리 합니다.|[Teams에서 메시징 정책 관리](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams)|
-||채널의 게시물을 시작 하 고 글에 회신할 수 있는 사람을 제어 합니다.|[Microsoft 팀에서 채널 중재 설정 및 관리](https://docs.microsoft.com/microsoftteams/manage-channel-moderation-in-teams)|
+||Teams에서 메시징하는 동안 사용자가 할 수 있는 작업을 관리합니다.|[Teams에서 메시징 정책 관리](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams)|
+||채널의 게시물을 시작하고 게시물에 회신할 수 있는 사용자 제어|[Microsoft Teams에서 채널 중재 설정 및 관리](https://docs.microsoft.com/microsoftteams/manage-channel-moderation-in-teams)|
 |Meetings|||
-||모임 참가자가 수행할 수 있는 작업을 관리 합니다.|[Teams에서의 모임 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)|
-||익명 사용자가 모임에 참가 하도록 허용 하거나 차단 합니다.|[익명 사용자가 모임에 참가할 수 있도록 허용](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)|
+||모임 참가자가 할 수 있는 작업을 관리합니다.|[Teams에서의 모임 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)|
+||익명 사용자가 모임에 참가할 수 있도록 허용하거나 금지합니다.|[익명 사용자가 모임에 참가하도록 허용](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)|
 |커뮤니케이션 규정 준수|||
-||Careless 및 negligent 통신에 대 한 화면 및 응답|[Microsoft 365의 통신 준수](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)|
+||부재 중 및 과실 통신에 표면화 및 대응|[Microsoft 365의 커뮤니케이션 규정 준수](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)|
 
 ## <a name="messaging"></a>메시징
 
-메시징 정책을 사용 하 여 Microsoft 팀의 사용자가 사용할 수 있는 메시지 편집 또는 삭제와 같은 채팅 및 채널 메시징 기능을 제어할 수 있습니다. 다른 사용자 및 그룹에 대해 서로 다른 정책을 만들 수 있습니다.
+메시징 정책을 사용하여 Microsoft Teams의 사용자가 사용할 수 있는 채팅 및 채널 메시징 기능(예: 메시지 편집 또는 삭제)을 제어할 수 있습니다. 사용자 및 그룹에 대해 서로 다른 정책을 만들 수 있습니다.
 
 [Teams에서 메시징 정책 관리](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams)
 
-채널 중재를 구성 하 여 새 게시물을 시작 하 고 팀 채널의 게시물에 회신할 수 있는 사용자를 제어할 수 있습니다.
+채널 중재를 구성하여 Teams 채널에서 새 게시물을 시작하고 게시물에 회신할 수 있는 사용자들을 제어할 수 있습니다.
 
-[Microsoft 팀에서 채널 중재 설정 및 관리](https://docs.microsoft.com/microsoftteams/manage-channel-moderation-in-teams)
+[Microsoft Teams에서 채널 중재 설정 및 관리](https://docs.microsoft.com/microsoftteams/manage-channel-moderation-in-teams)
 
 ## <a name="meetings"></a>Meetings
 
-예약, 콘텐츠 공유, 참가자, 오디오 및 비디오 정책을 포함 하 여 팀 회의 참가자가 사용할 수 있는 기능을 제어할 수 있습니다.
+계획, 콘텐츠 공유, 참가자 및 오디오/비디오 정책을 포함하여 Teams 모임 참가자가 사용할 수 있는 기능을 제어할 수 있습니다.
 
 [Teams에서의 모임 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)
 
-모임에 대 한 링크를 포함 하는 모든 사용자가 참가할 수 있도록 하는 팀 회의에 대 한 익명 참가를 제어할 수 있습니다.
+모임에 대한 링크가 있는 모든 사용자가 참가할 수 있는 Teams 모임에 대한 익명 참가를 제어할 수 있습니다.
 
-[익명 사용자가 모임에 참가할 수 있도록 허용](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)
+[익명 사용자가 모임에 참가하도록 허용](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)
 
 
 ## <a name="communication-compliance"></a>커뮤니케이션 규정 준수
 
-Microsoft 365의 통신 준수를 통해 악의적인 언어, 중요 한 정보, 내부 및 규정 표준에 관련 된 정보에 대 한 통신을 조사할 수 있습니다. 채팅 통신, 사서함 및 Yammer 메시지를 모두 모니터링 하 여 알림을 생성할 수 있습니다. 관리 도구를 사용 하면 정책과 일치 하는 메시지를 빠르게 식별 하 고 작업을 수행할 수 있습니다.
+Microsoft 365의 통신 규정 준수를 통해 공격적인 언어, 중요한 정보 및 내부 및 규정 표준과 관련된 정보에 대한 통신을 검사할 수 있습니다. 채팅 통신, 사서함 및 Yammer 모두 모니터링하여 경고를 생성합니다. 관리 도구를 사용하면 정책 일치가 있는 메시지를 빠르게 식별하고 조치를 취할 수 있습니다.
 
-[Microsoft 365의 통신 준수](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)
+[Microsoft 365의 커뮤니케이션 규정 준수](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)
 
 ## <a name="related-topics"></a>관련 항목
 
-[조직의 Microsoft 팀 설정 관리](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
+[공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+
+[공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
+
+[조직의 Microsoft Teams 설정 관리](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
 
 [Yammer 데이터 규정 준수 관리](https://docs.microsoft.com/yammer/manage-security-and-compliance/manage-data-compliance)

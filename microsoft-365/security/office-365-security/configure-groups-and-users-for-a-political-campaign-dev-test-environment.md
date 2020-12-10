@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: '요약: 정치적 캠페인 개발/테스트 환경의 사용자 및 그룹을 사용하여 Office 365 및 EMS(Enterprise Mobility + Security) 평가판 구독을 만듭니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 80454477bc55ab54ae7edf14ded5b4fa49fe1530
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 1fac15cc0b2a512745e0538ec689bd5f17555419
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203362"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614909"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
 
@@ -38,7 +38,7 @@ ms.locfileid: "48203362"
 
 이 단계에서는 정치적 캠페인을 표방하는 가상의 조직을 위해 Office 365 E5 및 EMS(Enterprise Mobility + Security) E5에 대한 평가판 구독을 얻습니다.
 
-먼저 [간단한 기본 구성](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)의 **2단계**에 나와 있는 지침을 따르세요.
+먼저 [간단한 기본 구성](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)의 **2단계** 에 나와 있는 지침을 따르세요.
 
 다음으로, EMS E5 평가판 구독을 등록하고 평가판 구독과 동일한 조직에 추가합니다.
 
@@ -46,22 +46,22 @@ ms.locfileid: "48203362"
 
 2. **관리** 타일을 클릭합니다.
 
-3. 브라우저의 **Microsoft 365 관리 센터** 탭에 있는 왼쪽 탐색 영역에서 **대금 청구 > 서비스 구매**를 차례로 클릭합니다.
+3. 브라우저의 **Microsoft 365 관리 센터** 탭에 있는 왼쪽 탐색 영역에서 **대금 청구 > 서비스 구매** 를 차례로 클릭합니다.
 
 4. 
-            **구매 서비스** 페이지에서 **Enterprise Mobility + Security E5** 항목을 찾습니다. 마우스 포인터를 가져간 후 **평가판 시작**을 클릭합니다.
+            **구매 서비스** 페이지에서 **Enterprise Mobility + Security E5** 항목을 찾습니다. 마우스 포인터를 가져간 후 **평가판 시작** 을 클릭합니다.
 
-5. **주문 확인** 페이지에서 **지금 평가판 사용**을 클릭합니다.
+5. **주문 확인** 페이지에서 **지금 평가판 사용** 을 클릭합니다.
 
-6. **주문 접수** 페이지에서 **계속**을 클릭합니다.
+6. **주문 접수** 페이지에서 **계속** 을 클릭합니다.
 
 그런 다음 전역 관리자 계정에 대해 EMS E5 라이선스를 사용하도록 설정합니다.
 
-1. 브라우저의 **Microsoft 365 관리 센터** 탭에 있는 왼쪽 탐색 영역에서 **사용자 > 활성 사용자**를 차례로 클릭합니다.
+1. 브라우저의 **Microsoft 365 관리 센터** 탭에 있는 왼쪽 탐색 영역에서 **사용자 > 활성 사용자** 를 차례로 클릭합니다.
 
-2. 전역 관리자 계정을 클릭한 다음, **제품 라이선스**에 대해 **편집**을 클릭합니다.
+2. 전역 관리자 계정을 클릭한 다음, **제품 라이선스** 에 대해 **편집** 을 클릭합니다.
 
-3. **제품 라이선스** 창에서 **Enterprise Mobility + Security E5**에 대한 제품 라이선스를 **설정**으로 바꾸고 **저장**을 클릭한 후 **닫기**를 두 번 클릭합니다.
+3. **제품 라이선스** 창에서 **Enterprise Mobility + Security E5** 에 대한 제품 라이선스를 **설정** 으로 바꾸고 **저장** 을 클릭한 후 **닫기** 를 두 번 클릭합니다.
 
 ## <a name="phase-2-create-and-configure-your-azure-active-directory-ad-groups"></a>2단계: Azure AD(Active Directory) 그룹 만들기 및 구성
 
@@ -69,9 +69,9 @@ ms.locfileid: "48203362"
 
 먼저 Azure Portal을 사용하여 일반적인 정치적 캠페인에 대한 그룹 집합을 만듭니다.
 
-1. 브라우저의 별도 탭에서 Azure Portal([https://portal.azure.com](https://portal.azure.com))로 이동합니다. 필요한 경우 Office 365 E5 평가판 구독에 대한 전역 관리자 계정의 자격 증명으로 로그인합니다.
+1. 브라우저의 별도 탭에서 Azure Portal(<https://portal.azure.com>)로 이동합니다. 필요한 경우 Office 365 E5 평가판 구독에 대한 전역 관리자 계정의 자격 증명으로 로그인합니다.
 
-2. Azure Portal에서 **Azure Active Directory > 사용자 및 그룹 > 모든 그룹**을 클릭합니다.
+2. Azure Portal에서 **Azure Active Directory > 사용자 및 그룹 > 모든 그룹** 을 클릭합니다.
 
 3. 이 목록의 각 그룹 이름에 대해 다음 단계를 수행합니다.
 
@@ -87,33 +87,33 @@ ms.locfileid: "48203362"
 
    - Field staff
 
-1. **모든 그룹** 블레이드에서 **+ 새 그룹**을 클릭합니다.
+1. **모든 그룹** 블레이드에서 **+ 새 그룹** 을 클릭합니다.
 
-2. **이름**에 목록의 그룹 이름을 입력합니다.
+2. **이름** 에 목록의 그룹 이름을 입력합니다.
 
-3. **멤버 자격**에서 **동적 사용자**를 선택합니다.
+3. **멤버 자격** 에서 **동적 사용자** 를 선택합니다.
 
-4. **Office 기능 사용**에 **예**를 클릭합니다.
+4. **Office 기능 사용** 에 **예** 를 클릭합니다.
 
-5. **동적 쿼리 추가**를 클릭합니다.
+5. **동적 쿼리 추가** 를 클릭합니다.
 
-6. **사용자를 추가할 위치**에서 **부서**를 선택합니다.
+6. **사용자를 추가할 위치** 에서 **부서** 를 선택합니다.
 
-7. 다음 필드에서 **같음**을 선택합니다.
+7. 다음 필드에서 **같음** 을 선택합니다.
 
 8. 다음 필드에 목록의 그룹 이름을 입력합니다.
 
-9. **쿼리 추가**를 클릭한 다음, **만들기**를 클릭합니다.
+9. **쿼리 추가** 를 클릭한 다음, **만들기** 를 클릭합니다.
 
-10. **사용자 및 그룹 - 모든 그룹**을 클릭합니다.
+10. **사용자 및 그룹 - 모든 그룹** 을 클릭합니다.
 
 다음으로, 멤버에 Office 365 E5 및 EMS E5 라이선스가 자동으로 할당되도록 그룹을 구성합니다.
 
-1. Azure Portal에서 **Azure Active Directory > 라이선스 > 모든 제품**을 차례로 클릭합니다.
+1. Azure Portal에서 **Azure Active Directory > 라이선스 > 모든 제품** 을 차례로 클릭합니다.
 
-2. 목록에서 **Enterprise Mobility + Security E5** 및 **Office 365 Enterprise E5**를 선택하고 **+ 할당**을 클릭합니다.
+2. 목록에서 **Enterprise Mobility + Security E5** 및 **Office 365 Enterprise E5** 를 선택하고 **+ 할당** 을 클릭합니다.
 
-3. **라이선스 할당** 블레이드에서 **사용자 및 그룹**을 클릭합니다.
+3. **라이선스 할당** 블레이드에서 **사용자 및 그룹** 을 클릭합니다.
 
 4. 그룹 목록에서 다음을 선택합니다.
 
@@ -129,7 +129,7 @@ ms.locfileid: "48203362"
 
    - Senior and strategic staff
 
-5. **선택**을 클릭하고 **할당**을 클릭합니다.
+5. **선택** 을 클릭하고 **할당** 을 클릭합니다.
 
 6. 브라우저에서 Azure Portal 탭을 닫습니다.
 
@@ -176,15 +176,15 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 
 1. 브라우저의 **Microsoft Office 홈** 탭에서 **관리** 타일을 클릭합니다.
 
-2. 브라우저의 새 **Microsoft 365 관리 센터** 탭에서 **사용자**를 클릭합니다.
+2. 브라우저의 새 **Microsoft 365 관리 센터** 탭에서 **사용자** 를 클릭합니다.
 
-3. 사용자 목록에서 **후보**를 클릭합니다.
+3. 사용자 목록에서 **후보** 를 클릭합니다.
 
 4. **후보** 사용자 계정의 속성을 나열하는 창에서 다음을 확인합니다.
 
-   - **Senior and strategic staff** 그룹의 멤버인지 여부(**그룹 멤버 자격**에서)
+   - **Senior and strategic staff** 그룹의 멤버인지 여부(**그룹 멤버 자격** 에서)
 
-   - **Enterprise Mobility + Security E5** 및 **Office 365 Enterprise E5** 라이선스가 할당되었는지 여부(**제품 라이선스**에서)
+   - **Enterprise Mobility + Security E5** 및 **Office 365 Enterprise E5** 라이선스가 할당되었는지 여부(**제품 라이선스** 에서)
 
 5. **후보** 사용자 계정 창을 닫습니다.
 

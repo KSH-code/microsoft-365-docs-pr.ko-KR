@@ -25,355 +25,355 @@ search.appverid:
 - ZPP160
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
-description: 이 문서에서는 관리자가 Defender for Office 365의 안전 링크 보호에 대해 알아보고 악의적인 Url을 사용 하는 피싱 및 기타 공격 으로부터 조직을 보호할 수 있습니다.
-ms.openlocfilehash: 869cb2f330b81481a2a0a013564853274654d0ef
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: 이 문서에서 관리자는 피싱 및 악의적인 URL을 사용하는 기타 공격으로부터 조직을 보호하기 위해 Office 365용 Defender의 안전 링크 보호에 대해 학습할 수 있습니다.
+ms.openlocfilehash: f2a747b0776a16ac981158ab866f28699583a06b
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846059"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616323"
 ---
-# <a name="safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 안전한 링크
+# <a name="safe-links-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 안전한 링크
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 > [!IMPORTANT]
-> 이 문서는 [Office 365 용 Microsoft Defender](office-365-atp.md)가 있는 비즈니스 고객을 위한 것입니다. Outlook.com, Microsoft 365 제품군 또는 Microsoft 365 Personal을 사용 하 고 있고 Outlook의 Safelinks에 대 한 정보를 찾으려는 경우 [Advanced Outlook.com security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.
+> 이 문서는 [Office 365용 Microsoft Defender가](office-365-atp.md)있는 비즈니스 고객을 위한 것입니다. Outlook.com, Microsoft 365 Family 또는 Microsoft 365 Personal을 사용 중일 때 Outlook의 Safelinks에 대한 자세한 내용은 고급 보안 Outlook.com [참조하세요.](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)
 
-안전한 링크는 [Defender For Office 365](office-365-atp.md) 의 기능으로, 메일 흐름에서 인바운드 전자 메일 메시지의 url 검색 및 다시 쓰기를 제공 하 고 전자 메일 메시지 및 기타 위치의 url 및 링크에 대 한 클릭 시간을 확인할 수 있습니다. 안전한 링크 검색은 EOP (Exchange Online Protection)의 인바운드 전자 메일 메시지에 있는 일반 [스팸 방지 및 맬웨어 방지 보호 기능](anti-spam-and-anti-malware-protection.md) 외에도 발생 합니다. 안전한 링크 검색 기능은 피싱 및 기타 공격에 사용 되는 악의적인 링크 로부터 조직을 보호 하는 데 도움이 될 수 있습니다.
+안전한 링크는 [Office 365용 Defender의](office-365-atp.md) 기능으로, 메일 흐름에서 인바운드 전자 메일 메시지의 URL 검색 및 다시 기록, 클릭 시 전자 메일 메시지 및 기타 위치의 URL 및 링크 확인을 제공합니다. EOP(Exchange Online Protection)의 인바운드 전자 메일 메시지에서 일반 스팸 방지 및 맬웨어 방지 보호 기능 외에 안전한 링크 검색이 실행됩니다. [](anti-spam-and-anti-malware-protection.md) 안전한 링크 검색은 피싱 및 기타 공격에 사용되는 악의적인 링크로부터 조직을 보호하는 데 도움이 될 수 있습니다.
 
 안전한 링크 보호는 다음 위치에서 사용할 수 있습니다.
 
-- **전자 메일 메시지** : 전자 메일 메시지의 링크에 대 한 안전한 링크 보호는 안전한 링크 정책에 의해 제어 됩니다. 안전한 링크 정책 없이도 **전자 메일 메시지의 안전한 링크를 보호 하려면 하나 이상의 안전한 링크 정책을 만들어야** 합니다. 자세한 내용은 [Office 용 Microsoft Defender 365에서 안전한 링크 정책 설정을](set-up-atp-safe-links-policies.md)참조 하십시오.
+- **전자 메일 메시지:** 전자 메일 메시지의 링크에 대한 안전한 링크 보호는 안전한 링크 정책에 의해 제어됩니다. 기본 안전 링크 정책은 없습니다. 따라서 전자 메일 메시지의 안전한 링크 보호를 위해 하나 이상의 안전한 링크 정책을 **만들어야 합니다.** 자세한 내용은 [Office 365용 Microsoft Defender에서 안전한](set-up-atp-safe-links-policies.md)링크 정책 설정을 참조하세요.
 
-  전자 메일 메시지에 대 한 안전한 링크 보호에 대 한 자세한 내용은이 문서 뒷부분의 [전자 메일 메시지에 대 한 안전한 링크 설정](#safe-links-settings-for-email-messages) 섹션을 참조 하십시오.
+  전자 메일 메시지의 안전한 링크 보호에 [](#safe-links-settings-for-email-messages) 대한 자세한 내용은 이 문서 부분의 전자 메일 메시지에 대한 안전 링크 설정을 참조하세요.
 
-- **Microsoft 팀** (현재 탭 미리 보기): 팀 대화, 그룹 채팅 또는 채널의 링크에 대 한 안전한 링크 보호도 안전한 링크 정책에 의해 제어 됩니다. 안전한 링크 정책이 없는 경우 **팀의 안전한 링크를 보호 하려면 하나 이상의 안전한 링크 정책을 만들어야** 합니다.
+- **Microsoft Teams(현재** TAP 미리 보기에서): Teams 대화, 그룹 채팅 또는 채널의 링크에 대한 안전한 링크 보호도 안전한 링크 정책에 의해 제어됩니다. 기본 안전 링크 정책은 없습니다. 따라서 Teams에서 안전한 링크 보호를 위해 하나 이상의 안전한 링크 정책을 **만들어야 합니다.**
 
-  팀의 안전한 링크 보호에 대 한 자세한 내용은이 항목 뒷부분의 [Microsoft 팀에 대 한 안전한 링크 설정](#safe-links-settings-for-microsoft-teams) 섹션을 참조 하십시오.
+  Teams의 안전한 링크 보호에 대한 자세한 내용은 이 항목 부분의 [Microsoft Teams에](#safe-links-settings-for-microsoft-teams) 대한 안전 링크 설정을 참조하세요.
 
-- **Office 365 앱** : office 365 앱에 대 한 안전한 링크 보호는 지원 되는 데스크톱, 모바일 및 웹 ap에서 사용할 수 있습니다. 안전한 링크 정책을 **벗어나는** 전역 설정에서 Office 365 앱에 대 한 안전한 링크 보호를 **구성** 합니다. 자세한 내용은 [Office 용 Microsoft Defender 365에서 안전한 링크 설정에 대 한 전역 설정 구성을](configure-global-settings-for-safe-links.md)참조 하세요.
+- **Office 365 앱:** Office 365 앱에 대한 안전한 링크 보호는 지원되는 데스크톱, 모바일 및 웹 aps에서 사용할 수 있습니다. 안전 **링크** 정책 외부의 전역 설정에서 Office 365 앱에 대해 안전한 링크 보호를 구성합니다.  자세한 내용은 [Office 365용 Microsoft Defender에서](configure-global-settings-for-safe-links.md)안전한 링크 설정에 대한 전역 설정 구성을 참조하세요.
 
-  그러나 Office 365 앱에 대 한 안전한 링크 보호는 활성 안전한 링크 정책에 포함 된 사용자 에게만 **적용** 됩니다. 활성 안전한 링크 정책에 사용자가 포함 되어 있지 않으면 사용자가 지원 되는 Office 365 앱에서 안전한 링크 보호를 받지 않습니다.
+  그러나 Office 365 앱에 대한  안전한 링크 보호는 활성 안전 링크 정책에 포함된 사용자에게만 적용됩니다. 사용자가 활성 안전 링크 정책에 포함되지 않은 경우 사용자는 지원되는 Office 365 앱에서 안전 링크 보호를 받을 수 없습니다.
 
-  Office 365 앱의 안전한 링크 보호에 대 한 자세한 내용은이 문서 뒷부분에 있는 [office 365 앱에 대 한 안전한 링크 설정](#safe-links-settings-for-office-365-apps) 섹션을 참조 하십시오.
+  Office 365 앱의 안전한 링크 보호에 대한 자세한 내용은 이 문서의 부분에 있는 [Office 365](#safe-links-settings-for-office-365-apps) 앱에 대한 안전 링크 설정을 참조하세요.
 
-이 문서에는 다음과 같은 유형의 안전한 링크 설정에 대 한 자세한 설명이 포함 되어 있습니다.
+이 문서에는 다음과 같은 유형의 안전 링크 설정에 대한 자세한 설명이 포함되어 있습니다.
 
-- **안전한 링크 정책의 설정** : 이러한 설정은 특정 정책에 포함 된 사용자 에게만 적용 되며 정책 간에는 설정이 다를 수 있습니다. 이러한 설정은 다음과 같습니다.
+- **안전한 링크** 정책의 설정: 이러한 설정은 특정 정책에 포함된 사용자에게만 적용될 수 있으며 정책 간에 설정이 다를 수 있습니다. 이러한 설정은 다음과 같습니다.
 
-  - [전자 메일 메시지에 대 한 안전한 링크 설정](#safe-links-settings-for-email-messages)
-  - [Microsoft 팀에 대 한 안전한 링크 설정](#safe-links-settings-for-microsoft-teams)
-  - [안전한 링크 정책의 "다음 Url을 다시 쓰지 않음" 목록](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)
+  - [전자 메일 메시지에 대한 안전한 링크 설정](#safe-links-settings-for-email-messages)
+  - [Microsoft Teams의 안전한 링크 설정](#safe-links-settings-for-microsoft-teams)
+  - [안전한 링크 정책에서 "다음 URL을 다시 덮어치지 않습니다." 목록](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)
 
-- **전역 안전 링크 설정** : 이러한 설정은 안전한 링크 정책이 아닌 전역적으로 구성 됩니다. 그러나이 설정은 활성 안전한 링크 정책에 포함 된 사용자 에게만 적용 됩니다. 이러한 설정은 다음과 같습니다.
+- **전역 안전 링크 설정:** 이러한 설정은 안전한 링크 정책이 아니라 전역으로 구성됩니다. 그러나 설정은 활성 안전 링크 정책에 포함된 사용자에게만 적용됩니다. 이러한 설정은 다음과 같습니다.
 
-  - [Office 365 앱에 대 한 안전한 링크 설정](#safe-links-settings-for-office-365-apps)
-  - [안전한 링크에 대 한 "다음 Url 차단" 목록](#block-the-following-urls-list-for-safe-links)
+  - [Office 365 앱의 안전한 링크 설정](#safe-links-settings-for-office-365-apps)
+  - [안전한 링크에 대해 "다음 URL 차단" 목록](#block-the-following-urls-list-for-safe-links)
 
-다음 표에서는 Microsoft 365 및 Office 365 조 직 용 Defender for Office 365 (즉, 라이선스 부족은 예제에서는 문제가 되지 않음)의 안전한 링크 시나리오에 대해 설명 합니다.
+다음 표에서는 Office 365용 Defender를 포함 하는 Microsoft 365 및 Office 365 조직의 안전 링크에 대 한 시나리오에 설명 합니다(즉, 라이선스 부족은 예에서 문제가 아닙니다).
 
 ****
 
 |시나리오|결과|
 |---|---|
-|Jean은 마케팅 부서의 구성원입니다. 안전한 링크 보호 Office 365 앱은 안전한 링크에 대 한 전역 설정에 설정 되어 있으며, 마케팅 부서의 구성원에 게 적용 되는 안전한 링크 정책이 있습니다. Jean에서 PowerPoint 프레젠테이션을 전자 메일 메시지로 열고 프레젠테이션에서 URL을 클릭 합니다.|Jean는 안전한 링크로 보호 됩니다. <br/><br/> Jean는 안전한 링크 정책에 포함 되어 있으며 Office 365 앱에 대 한 안전한 링크 보호 기능이 설정 되어 있습니다. <br/><br/> Office 365 앱의 안전한 링크 보호 요구 사항에 대 한 자세한 내용은이 문서 뒷부분의 [office 365 apps에 대 한 안전한 링크 설정](#safe-links-settings-for-office-365-apps) 섹션을 참조 하십시오.|
-|Chris의 Microsoft 365 E5 조직에는 구성 된 안전한 링크 정책이 없습니다. Chris는 궁극적으로 클릭 하는 악성 웹 사이트에 대 한 URL이 포함 된 외부 보낸 사람의 전자 메일을 받습니다.|Chris가 안전한 링크를 통해 보호 되지 않습니다. <br/><br/> 관리자는 인바운드 전자 메일 메시지에서 안전한 링크 보호를 가져올 수 있도록 모든 사용자에 대해 하나 이상의 안전한 링크 정책을 만들어야 합니다. 안전한 링크 보호를 얻으려면 정책 조건에 Chris가 포함 되어야 합니다.|
-|Pat의 조직에서는 관리자가 안전한 링크 정책을 만들지 않았지만 Office 365 앱에 대 한 안전한 링크 보호가 설정 되어 있습니다. Word 문서를 열고 파일의 URL을 클릭 합니다.|Pat가 안전한 링크로 보호 되지 않습니다. <br/><br/> Office 365 앱에 대 한 안전한 링크 보호 기능은 전역적으로 켜져 있지만, Pat는 활성 안전한 링크 정책에 포함 되어 있지 않으므로 보호 기능을 적용할 수 없습니다.|
-|Lee 조직의 조직에서 `https://tailspintoys.com` 안전한 링크에 대 한 전역 설정의 **다음 url 차단** 목록에 구성 되어 있습니다. Lee이 포함 된 안전한 링크 정책이 이미 있습니다. Lee에서 URL을 포함 하는 전자 메일 메시지를 받습니다 `https://tailspintoys.com/aboutus/trythispage` . Lee에서 URL을 클릭 합니다.|URL이 Lee에 대해 자동으로 차단 될 수 있습니다. 이는 목록의 URL 항목과 사용 되는 전자 메일 클라이언트 Lee에 따라 달라 집니다. 자세한 내용은이 항목 뒷부분에 나오는 ["다음 Url 차단" 안전한 링크에 대 한 목록](#block-the-following-urls-list-for-safe-links) 보기 섹션을 참조 하십시오.|
-|Contoso.com에 대해 작업자와 줄리아가 모두 작동 합니다. 오랜 시간 전에 관리자가 구성한 안전한 링크 정책이 김 및 줄리아 모두에 적용 됩니다. 이 전자 메일에 악성 URL이 포함 되어 있다는 것을 모르는 경우에는 전자 메일이 줄리아로 전송 됩니다.|줄리아는 안전한 링크 정책이 내부 받는 사람 간의 메시지에 적용 되도록 구성 된 **경우** 안전 링크에 의해 보호 됩니다. 자세한 내용은이 항목 뒷부분에 나오는 [전자 메일 메시지에 대 한 안전한 링크 설정](#safe-links-settings-for-email-messages) 섹션을 참조 하십시오.|
+|지민은 마케팅 부서의 구성원입니다. Office 365 앱에 대한 안전한 링크 보호는 안전한 링크에 대한 전역 설정에서 켜져 있으며 마케팅 부서의 구성원에게 적용되는 안전한 링크 정책이 존재합니다. 전자 메일 메시지에 PowerPoint 프레젠테이션이 열리면 프레젠테이션의 URL을 클릭합니다.|도장은 안전한 링크로 보호됩니다. <p> 보관은 안전한 링크 정책에 포함되어 있으며 Office 365 앱에 대한 안전한 링크 보호가 켜져 있습니다. <p> Office 365 앱에서 안전한 링크 보호를 위한 요구 사항에 대한 자세한 내용은 이 문서 부분의 [Office 365](#safe-links-settings-for-office-365-apps) 앱에 대한 안전 링크 설정을 참조하세요.|
+|Chris의 Microsoft 365 E5 조직에는 안전한 링크 정책이 구성되어 없습니다. Chris는 최종적으로 클릭하는 악성 웹 사이트에 대한 URL이 포함된 외부 보낸 사람으로부터 전자 메일을 수신합니다.|Chris는 안전한 링크로 보호되지 않습니다. <p> 관리자는 인바운드 전자 메일 메시지에서 안전한 링크 보호를 받을 수 있도록 모든 사용자에 대해 하나 이상의 안전 링크 정책을 만들어야 합니다. Chris는 안전한 링크 보호를 위해 정책 조건에 포함되어야 합니다.|
+|Pat의 조직에서는 관리자가 안전한 링크 정책을 만들지 않지만 Office 365 앱에 대한 안전한 링크 보호가 켜져 있습니다. Pat에서 Word 문서를 열고 파일의 URL을 클릭합니다.|Pat는 안전한 링크로 보호되지 않습니다. <p> Office 365 앱에 대한 안전한 링크 보호는 전역으로 설정되어 있습니다. 그러나 Pat는 활성 안전 링크 정책에 포함되지 않습니다. 따라서 보호를 적용할 수 없습니다.|
+|이민호의 조직에서 안전한 링크에 대한 전역 설정의 다음 URL 차단 목록에서 `https://tailspintoys.com` 구성됩니다.  이민호를 포함하는 안전한 링크 정책이 이미 있습니다. 이민호는 URL이 포함된 전자 메일 메시지를 `https://tailspintoys.com/aboutus/trythispage` 수신합니다. 이민호는 URL을 클릭합니다.|이민호의 URL이 자동으로 차단될 수 있습니다. 이 설정은 목록의 URL 항목과 이진호가 사용한 전자 메일 클라이언트에 따라 다를 수 있습니다. 자세한 내용은 이 항목 부분의 안전 링크 섹션에 대한 ["다음 URL 차단"](#block-the-following-urls-list-for-safe-links) 목록을 참조하세요.|
+|Jamie와 Julia는 둘 다 contoso.com. 오래 전에 관리자는 Jamie와 Julia 모두에 적용되는 안전 링크 정책을 구성했습니다. Jamie는 전자 메일에 악의적인 URL이 포함되어 있는 것을 알지 못하고 조지민 에게 전자 메일을 전송합니다.|조지민 의원에게  적용되는 안전한 링크 정책이 내부 받는 사람 간의 메시지에 적용하도록 구성된 경우 Julia는 안전한 링크로 보호됩니다. 자세한 내용은 이 [](#safe-links-settings-for-email-messages) 항목의 부분에 있는 전자 메일 메시지에 대한 안전한 링크 설정을 참조하세요.|
 
-## <a name="safe-links-settings-for-email-messages"></a>전자 메일 메시지에 대 한 안전한 링크 설정
+## <a name="safe-links-settings-for-email-messages"></a>전자 메일 메시지에 대한 안전한 링크 설정
 
-안전한 링크는 들어오는 전자 메일에서 알려진 악성 하이퍼링크를 검사 합니다. 검사 된 Url은 Microsoft 표준 URL 접두사:을 사용 하 여 다시 쓰여집니다. `https://nam01.safelinks.protection.outlook.com` 링크를 다시 쓴 후에는 잠재적으로 악의적인 콘텐츠를 분석 합니다.
+안전한 링크는 들어오는 전자 메일에서 알려진 악성 하이퍼링크를 검색합니다. 검사된 URL은 다음 Microsoft 표준 URL prefix를 사용하여 다시 덮어 `https://nam01.safelinks.protection.outlook.com` 습니다. 링크를 다시 덮어 입력하면 잠재적으로 악의적인 콘텐츠가 분석됩니다.
 
-안전한 링크에서 URL을 다시 작성 한 후에는 메시지가 전달 되거나 회신 되는 경우에도 URL이 다시 기록 됩니다. 전달 되거나 회신 된 메시지에 추가 되는 추가 링크는 다시 쓰여지지 않습니다.
+안전한 링크가 URL을 다시 덮어도 메시지가 전달되거나 다시 덮어지지도 URL이 다시 덮어지지 않습니다. 전달되거나 메시지에 해당되는 추가 링크는 다시 덮어지지 않습니다.
 
-전자 메일 메시지에 적용 되는 안전 링크 정책의 설정은 다음 목록에 설명 되어 있습니다.
+전자 메일 메시지에 적용되는 안전한 링크 정책의 설정은 다음 목록에 설명되어 있습니다.
 
-- **메시지에서 알 수 없는 잠재적 악성 url에 대 한 작업 선택** : 전자 메일 메시지에서 안전한 링크 검색을 사용 하거나 사용 하지 않도록 설정 합니다. 권장 값은 **On** 입니다. 이 설정을 켜면 다음과 같은 동작이 발생 합니다.
+- **메시지에서** 알 수 없는 악의적인 URL에 대한 작업을 선택합니다. 전자 메일 메시지에서 안전한 링크 검색을 사용 또는 사용하지 않도록 설정 권장되는 값은 **On입니다.** 이 설정을 켜면 다음 작업이 수행됩니다.
 
-  - Windows의 Outlook (C2R)에서 안전한 링크 검색이 사용 되도록 설정 됩니다.
-  - Url이 다시 작성 되 고 사용자가 메시지의 Url을 클릭할 때 안전한 링크 보호를 통해 라우팅됩니다.
-  - 이 단추를 클릭 하면 알려진 악성 Url 목록과 ["다음 Url 차단" 목록](#block-the-following-urls-list-for-safe-links)에 대해 url을 확인 합니다.
-  - 유효한 신뢰도가 없는 Url은 백그라운드에서 비동기적으로 열.
+  - 안전 링크 검사는 Windows의 Outlook(C2R)에서 사용하도록 설정됩니다.
+  - URL이 다시 덮어 들이고 사용자가 메시지에서 URL을 클릭할 때 안전한 링크 보호를 통해 라우팅됩니다.
+  - 클릭하면 알려진 악성 URL 목록 및 "다음 URL 차단" 목록에 대해 URL이 [확인됩니다.](#block-the-following-urls-list-for-safe-links)
+  - 유효한 신뢰도에 없는 URL은 백그라운드에서 비동기적으로 확인됩니다.
 
-- **의심 스러운 링크 및 파일을 가리키는 링크에 대해 실시간 URL 검사 적용** : 다운로드 가능한 콘텐츠를 가리키는 전자 메일 메시지의 링크를 비롯 한 실시간 링크 검색을 사용 하도록 설정 합니다. 권장 값은 사용 하도록 설정 되어 있습니다.
+- **파일을** 지정하는 의심스러운 링크 및 링크에 대한 실시간 URL 검색을 적용합니다. 다운로드 가능한 콘텐츠를 지정하는 전자 메일 메시지의 링크를 포함하여 링크를 실시간으로 검색할 수 있습니다. 권장되는 값은 사용하도록 설정되어 있습니다.
 
-  - **메시지를 배달 하기 전에 URL 검색이 완료 될 때까지 기다립니다**.
+  - **메시지를 배달하기 전에 URL 검색이 완료될 때까지 기다릴 수 있습니다.**
 
-    - Enabled: 검색이 완료 될 때까지 Url이 포함 된 메시지가 저장 됩니다. 메시지는 Url이 안전한 것으로 확인 된 후에만 배달 됩니다. 권장 값은 다음과 같습니다.
-    - 사용 안 함: URL 검색을 완료할 수 없는 경우 메시지를 배달 합니다.
+    - 사용: URL이 포함된 메시지는 검사가 완료될 때까지 보류됩니다. 메시지는 URL이 안전한 것으로 확인된 후에만 배달됩니다. 이 값은 권장 값입니다.
+    - 사용 안 하세요: URL 검색을 완료할 수 없는 경우 메시지를 배달합니다.
 
-- **조직 내에서 전송 되는 전자 메일 메시지에 안전한 링크 적용** : 같은 Exchange Online 조직 내에서 내부 보낸 사람과 내부 받는 사람 간에 전송 되는 메시지에 대해 안전한 링크 검색을 사용 하거나 사용 하지 않도록 설정 합니다. 권장 값은 사용 하도록 설정 되어 있습니다.
+- **조직 내에서** 보낸 전자 메일 메시지에 안전한 링크 적용: 동일한 Exchange Online 조직 내의 내부 보낸 사람 및 내부 받는 사람 간에 전송된 메시지에 대해 안전한 링크 검색을 사용 또는 사용하지 않도록 설정 권장되는 값은 사용하도록 설정되어 있습니다.
 
-- **사용자 클릭 추적 안 함** : 안전한 링크 저장을 사용 하거나 사용 하지 않도록 설정 전자 메일 메시지에서 클릭 한 url의 데이터를 클릭 합니다. 권장 값은 사용자 클릭을 추적 하기 위해이 설정을 선택 하지 않은 채로 두는 것입니다.
+- **사용자 클릭 추적** 안 하세요. 전자 메일 메시지에서 클릭한 URL에 대한 안전한 링크 클릭 데이터를 저장하거나 저장하지 않도록 합니다. 권장 값은 이 설정을 선택하지 않은(사용자 클릭 추적)하는 것입니다.
 
-  URL 내부 보낸 사람과 내부 받는 사람 간에 전송 되는 전자 메일 메시지의 링크를 클릭 하는 것은 현재 지원 되지 않습니다.
+  내부 보낸 사람과 내부 받는 사람 간에 전송된 전자 메일 메시지의 링크에 대한 URL 클릭 추적은 현재 지원되지 않습니다.
 
-- **사용자가 원래 url로 클릭 하도록 허용 안 함** : 사용자가 [경고 페이지](#warning-pages-from-safe-links) 를 통해 원래 url을 클릭 하지 못하도록 차단 합니다. 권장 값은 사용 하도록 설정 되어 있습니다.
+- **사용자가 원래 URL을 클릭할** 수 있도록 허용하지 않습니다. [](#warning-pages-from-safe-links) 사용자가 원래 URL에 대한 경고 페이지를 클릭할 수 있도록 허용하거나 차단합니다. 권장 값을 사용하도록 설정합니다.
 
-- Url은 그대로 유지 **하 고 다음 url은 다시 쓰지** 않습니다. 검색 하지 않아도 되는 안전한 Url의 사용자 지정 목록을 보관 합니다. 이 목록은 각 안전한 링크 정책에 대해 고유 합니다. **다음 url에 다시 쓰지** 않음 목록에 대 한 자세한 내용은이 문서 뒷부분의 ["안전한 링크 정책에서 다음 url을 다시 쓰지 않음"](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies) 항목을 참조 하십시오.
+- **다음 URL을** 다시 덮어치지 않습니다. URL을 그대로 떠날 수 있습니다. 검사할 필요가 없는 안전한 URL의 사용자 지정 목록을 보관합니다. 이 목록은 각 안전 링크 정책에 대해 고유합니다. 다음 URL 목록을  다시 덮어 두지 않는 목록에 대한 자세한 내용은 이 문서 부분의 안전 링크 정책 섹션에서 ["다음 URL을](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies) 다시 덮어치지 않습니다." 목록을 참조하십시오.
 
-안전한 링크 정책의 표준 및 엄격한 정책 설정에 대 한 권장 값에 대 한 자세한 내용은 [안전한 링크 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings)참조 하십시오.
+안전 링크 정책에 대한 표준 및 엄격한 정책 설정에 대한 권장 값에 대한 자세한 내용은 안전 링크 정책 설정을 [참조하세요.](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings)
 
-- **받는 사람 필터** : 정책을 적용할 사람을 결정 하는 예외 및 받는 사람 조건을 지정 해야 합니다. 다음 속성을 사용 하 여 조건 및 예외를 확인할 수 있습니다.
+- **받는 사람 필터:** 정책을 적용하는 사람을 결정하는 받는 사람 조건 및 예외를 지정해야 합니다. 조건 및 예외에 대해 다음 속성을 사용할 수 있습니다.
 
   - **받는 사람이 다음과 같음**
   - **받는 사람 도메인**
   - **받는 사람이 다음의 구성원임**
 
-  조건 또는 예외는 한 번만 사용할 수 있지만 조건 또는 예외에 여러 값이 포함 될 수 있습니다. 동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_ ). 다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_ ).
+  조건 또는 예외는 한 번만 사용할 수 있지만 조건 또는 예외에 여러 값이 포함될 수 있습니다. 동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_). 다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_).
 
-- **우선 순위** : 여러 정책을 만드는 경우 적용 되는 순서를 지정할 수 있습니다. 두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.
+- **우선** 순위: 여러 정책을 만드는 경우 정책이 적용되는 순서를 지정할 수 있습니다. 두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.
 
   우선순위 및 여러 정책을 평가하고 적용하는 방법에 대 한 자세한 내용은 전자 메일의 [전자 메일의 우선순위 및 보호](how-policies-and-protections-are-combined.md)를 참조하세요.
 
-### <a name="how-safe-links-works-in-email-messages"></a>전자 메일 메시지에서 안전한 링크가 작동 하는 방법
+### <a name="how-safe-links-works-in-email-messages"></a>전자 메일 메시지에서 안전한 링크가 작동하는 방식
 
-다음은 전자 메일 메시지의 Url에 대 한 안전한 링크 보호 작동 수준입니다.
+높은 수준에서 안전한 링크 보호가 전자 메일 메시지의 URL에서 작동하는 방식은 다음과 같습니다.
 
-1. 모든 전자 메일은 메시지가 받는 사람의 사서함으로 배달 되기 전에 IP (인터넷 프로토콜) 및 봉투 필터, 서명 기반 맬웨어 방지, 스팸 방지 및 맬웨어 방지 필터를 제공 하는 EOP를 통해 진행 됩니다.
+1. 모든 전자 메일은 메시지가 받는 사람의 사서함으로 배달되기 전에 IP(인터넷 프로토콜) 및 봉투 필터, 서명 기반 맬웨어 보호, 스팸 방지 및 맬웨어 방지 필터가 있는 EOP를 통과합니다.
 
-2. 사용자가 사서함에서 메시지를 열고 메시지의 URL을 클릭 합니다.
+2. 사용자가 사서함에서 메시지를 열고 메시지의 URL을 클릭합니다.
 
-3. 안전한 링크는 웹 사이트를 열기 전에 즉시 URL을 확인 합니다.
+3. 안전한 링크는 웹 사이트를 열기 전에 URL을 즉시 확인합니다.
 
-   - URL이 **다음 Url 차단** 목록에 포함 되어 있는 경우 [차단 된 url 경고가](#blocked-url-warning) 열립니다.
+   - URL이 다음 URL  차단 목록에 포함되어 있는 경우 차단된 [URL 경고가](#blocked-url-warning) 열립니다.
 
-   - URL이 악의적인 것으로 확인 된 웹 사이트를 가리키는 경우 [악의 있는 웹 사이트 경고](#malicious-website-warning) 페이지 (또는 다른 경고 페이지)가 열립니다.
+   - URL이 악성으로 확인된 웹 사이트를 표시하면 [](#malicious-website-warning) 악성 웹 사이트 경고 페이지(또는 다른 경고 페이지)가 열립니다.
 
-   - URL이 다운로드 가능한 파일을 가리키며 해당 **링크에 대해 실시간 URL 검색 및 파일을 가리키는 링크** 를 사용자에 게 적용 되는 정책에서 사용 하도록 설정 된 경우 다운로드 가능한 파일이 검사 됩니다.
+   - URL이 다운로드 가능한 파일을 지정하고 파일 설정을 지정하는 실시간 **URL** 적용 검색이 사용자에게 적용되는 정책에서 사용하도록 설정되어 있는 경우 다운로드 가능한 파일이 확인됩니다.
 
-   - URL이 안전한 것으로 확인 되 면 웹 사이트가 열립니다.
+   - URL이 안전한 것으로 확인되면 웹 사이트가 열립니다.
 
-## <a name="safe-links-settings-for-microsoft-teams"></a>Microsoft 팀에 대 한 안전한 링크 설정
+## <a name="safe-links-settings-for-microsoft-teams"></a>Microsoft Teams의 안전한 링크 설정
 
 > [!IMPORTANT]
-> 3 월 2020 현재까지이 기능은 미리 보기 상태 이며 Microsoft 팀 기술 채택 프로그램의 구성원만 사용할 수 있습니다 (탭). 릴리스 일정에 대 한 자세한 내용은 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=&searchterms=Safe%2CLinks%2CProtection%2Cfor%2CMicrosoft%2CTeams)를 참조 하세요.
+> 2020년 3월 현재 이 기능은 미리 보기로 제공된 기능으로, TAP(Microsoft Teams Technology Adoption Program)의 구성원만 사용할 수 있습니다. 릴리스 일정에 대한 자세한 내용은 [Microsoft 365 로드맵을 참조하십시오.](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=&searchterms=Safe%2CLinks%2CProtection%2Cfor%2CMicrosoft%2CTeams)
 
-안전한 링크 정책에서 Microsoft 팀에 대 한 안전한 링크 보호를 사용 하거나 사용 하지 않도록 설정 합니다. 특히 **Microsoft 팀 내에서 알 수 없거나 악성 url에 대 한 작업 선택** 설정을 사용 합니다. 권장 값은 **On** 입니다.
+안전한 링크 정책에서 Microsoft Teams에 대한 안전 링크 보호를 사용하도록 설정하거나 사용하지 않도록 설정할 수 있습니다. 특히 Microsoft Teams 설정 내에서 알 수 없는 URL이나 악의적인 **URL에** 대한 선택 작업을 사용할 수 있습니다. 권장되는 값은 **On입니다.**
 
-전자 메일 메시지의 링크에 적용 되는 안전한 링크 정책에서 팀의 링크에도 적용 되는 다음 설정은 다음과 같습니다.
+전자 메일 메시지의 링크에 적용되는 안전한 링크 정책의 다음 설정은 Teams의 링크에도 적용됩니다.
 
-- **의심 스러운 링크에 대 한 실시간 URL 검사 및 파일을 가리키는 링크를 적용 합니다.**
-- **사용자 클릭 추적 안 함**
-- **사용자가 원래 URL로 클릭 하도록 허용 안 함**
+- **파일을 지정하는 의심스러운 링크 및 링크에 대한 실시간 URL 검사 적용**
+- **사용자 클릭 추적 안 하도록 설정**
+- **사용자가 원래 URL을 클릭할 수 있도록 허용 안 하세요.**
 
-이러한 설정은 [전자 메일 메시지에 대 한 이전 안전한 링크 설정](#safe-links-settings-for-email-messages) 섹션에 설명 되어 있습니다.
+이러한 설정은 전자 메일 메시지에 대한 이전 안전 링크 설정 [섹션에서 설명합니다.](#safe-links-settings-for-email-messages)
 
-Microsoft 팀에 대 한 안전한 링크 보호를 설정한 후에는 보호 된 사용자가 링크를 클릭할 때 알려진 악성 링크 목록 (팀의 Url)이 확인 됩니다 (클릭 시간 보호). Url은 다시 작성 되지 않습니다. 링크가 악성 인 경우 사용자는 다음과 같은 환경을 사용할 수 있습니다.
+Microsoft Teams에 대해 안전한 링크 보호를 켜면 보호된 사용자가 링크를 클릭할 때 Teams의 URL이 알려진 악성 링크 목록에 대해 확인됩니다(클릭 시간 보호). URL은 다시 덮어지지 않습니다. 링크가 악성으로 확인된 경우 사용자는 다음과 같은 경험을 하게 됩니다.
 
-- 팀 대화, 그룹 채팅 또는 채널에서 링크를 클릭 한 경우 아래 스크린샷에 표시 된 경고 페이지가 기본 웹 브라우저에 표시 됩니다.
-- 고정 된 탭에서 링크를 클릭 한 경우에는 해당 탭 내의 팀 인터페이스에 경고 페이지가 표시 됩니다. 보안상의 이유로 링크를 웹 브라우저에서 여는 옵션은 사용 하지 않도록 설정 되어 있습니다.
-- **사용자가 정책의 원래 url을 클릭** 하는 것을 허용 하지 않음 설정이 구성 된 방법에 따라 사용자는 원래 url (스크린샷에서는 **계속 됨)** 을 클릭할 수 있습니다. 사용자가 원래 url로 이동할 수 없도록 **하려면 사용자가 원래 url로 클릭 하도록 허용 안 함** 설정을 사용 하도록 설정 하는 것이 좋습니다.
+- 링크가 Teams 대화, 그룹 채팅 또는 채널에서 클릭된 경우 아래 스크린샷에 표시된 경고 페이지가 기본 웹 브라우저에 표시됩니다.
+- 고정된 탭에서 링크를 클릭한 경우 해당 탭 내의 Teams 인터페이스에 경고 페이지가 표시됩니다. 보안상의 이유로 웹 브라우저에서 링크를 여는 옵션을 사용할 수 없습니다.
+- 사용자가 정책의 원래 URL 설정을 클릭할 수 있도록 허용하지 않는 방법에 따라 사용자는 원래 **URL(스크린샷에서** 권장되지 않음)을 클릭할 수 있는지 또는 클릭할 수 없습니다. 사용자가 원래 **URL을** 클릭할 수 있도록 사용자가 원래 URL 설정을 클릭하지 못하도록 허용하지 않는 것이 좋습니다.
 
-링크를 보낸 사용자가 팀 보호를 사용할 수 있는 안전한 링크 정책에 포함 되어 있지 않은 경우 사용자는 자신의 컴퓨터나 장치에서 원래 URL로 이동할 수 있습니다.
+링크를 보낸 사용자가 Teams 보호가 설정된 안전한 링크 정책에 포함되지 않은 경우 사용자는 컴퓨터 또는 장치의 원래 URL을 클릭할 수 있습니다.
 
-![악성 링크를 보고 하는 팀에 대 한 안전한 링크 페이지입니다.](../../media/tp-safe-links-for-teams-malicious.png)
+![악의적인 링크를 보고하는 Teams의 안전한 링크입니다.](../../media/tp-safe-links-for-teams-malicious.png)
 
-경고 페이지에서 **뒤로 이동** 단추를 클릭 하면 사용자가 원래 컨텍스트나 URL 위치로 돌아갑니다. 그러나 원래 링크를 다시 클릭 하면 안전 링크를 통해 URL이 검사 되므로 경고 페이지가 나타납니다.
+경고 페이지에서 **뒤로 이동** 단추를 클릭하면 사용자가 원래 컨텍스트 또는 URL 위치로 돌아갈 수 있습니다. 그러나 원래 링크를 다시 클릭하면 안전한 링크가 URL을 다시 검색할 수 있으므로 경고 페이지가 다시 나타납니다.
 
-### <a name="how-safe-links-works-in-teams"></a>팀에서의 안전한 링크 작동 방식
+### <a name="how-safe-links-works-in-teams"></a>Teams에서 안전한 링크가 작동하는 방식
 
-다음은 Microsoft 팀의 Url에 대 한 안전한 링크 보호 작동 수준입니다.
+Microsoft Teams의 URL에 대해 안전한 링크 보호가 작동하는 방식은 다음과 같습니다.
 
-1. 사용자가 팀 앱을 시작 합니다.
+1. 사용자가 Teams 앱을 시작합니다.
 
-2. Microsoft 365에서는 사용자의 조직에 Microsoft Defender for Office 365가 포함 되어 있으며 사용자가 Microsoft 팀에 대 한 보호가 사용 하도록 설정 된 활성 안전한 링크 정책에 포함 되어 있는지 확인 합니다.
+2. Microsoft 365는 사용자의 조직에 Office 365용 Microsoft Defender가 포함되어 있으며 Microsoft Teams에 대한 보호가 설정된 활성 안전 링크 정책에 해당 사용자가 포함되어 있는지 확인합니다.
 
-3. Url은 대화방, 그룹 채팅, 채널 및 탭에서 사용자를 클릭 하는 시점에 유효성을 검사 합니다.
+3. 채팅, 그룹 채팅, 채널 및 탭에서 사용자를 클릭할 때 URL의 유효성이 검사됩니다.
 
-## <a name="safe-links-settings-for-office-365-apps"></a>Office 365 앱에 대 한 안전한 링크 설정
+## <a name="safe-links-settings-for-office-365-apps"></a>Office 365 앱의 안전한 링크 설정
 
-안전한 링크 보호 Office 365 앱은 전자 메일 메시지의 링크가 아니라 Office 문서의 링크를 확인 하지만 문서를 연 후 전자 메일 메시지에서 첨부 된 Office 문서의 링크를 확인할 수 있습니다.
+Office 365 앱의 안전한 링크 보호는 전자 메일 메시지의 링크가 아닌 Office 문서의 링크를 검사합니다(문서가 열리면 전자 메일 메시지에 첨부된 Office 문서의 링크를 확인할 수 있습니다).
 
-Office 365 앱에 대 한 안전한 링크 보호는 다음과 같은 클라이언트 요구 사항을 충족 합니다.
+Office 365 앱의 안전한 링크 보호에는 다음과 같은 클라이언트 요구 사항이 있습니다.
 
 - Microsoft 365 앱 또는 Microsoft 365 Business Premium
-  - Windows, Mac 또는 웹 브라우저에서 현재 버전의 Word, Excel 및 PowerPoint입니다.
-  - IOS 또는 Android 장치에 대 한 Office 앱
-  - Windows의 Visio
-  - 웹 브라우저의 OneNote
+  - Windows, Mac 또는 웹 브라우저의 현재 버전의 Word, Excel 및 PowerPoint.
+  - iOS 또는 Android 장치의 Office 앱.
+  - Windows의 Visio.
+  - 웹 브라우저의 OneNote.
 
-- Office 365 앱은 최신 인증을 사용 하도록 구성 됩니다. 자세한 내용은 [office 2013, office 2016 및 office 2019 클라이언트 앱에 대 한 최신 인증이 작동 하는 방법을](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)참조 하세요.
+- Office 365 앱은 최신 인증을 사용하도록 구성됩니다. 자세한 내용은 [Office 2013, Office 2016 및 Office 2019](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)클라이언트 앱에 대해 최신 인증이 작동하는 방법을 참조하세요.
 
-- 사용자가 회사 또는 학교 계정을 사용 하 여 로그인 되어 있습니다. 자세한 내용은 [Office에 로그인](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426)를 참조 하세요.
+- 사용자가 자신의 직장 또는 학교 계정을 사용하여 로그인합니다. 자세한 내용은 [Office에 로그인을 참조하세요.](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426)
 
-안전한 링크 정책이 아닌 안전한 링크에 대 한 전역 설정에서 Office 365 앱에 대 한 안전한 링크 보호를 구성 합니다. 그러나 Office 365 앱에 대 한 안전한 링크 보호를 적용 하려면 Office 문서를 열고 링크를 클릭 하는 사용자가 활성 안전한 링크 정책에 포함 되어 있어야 합니다.
+안전한 링크 정책이 아니라 안전한 링크에 대한 전역 설정에서 Office 365 앱에 대한 안전한 링크 보호를 구성합니다. 그러나 Office 365 앱에 대한 안전한 링크 보호를 적용하려면 Office 문서를 열고 링크를 클릭하는 사용자가 활성 안전 링크 정책에 포함되어야 합니다.
 
-Office 365 앱에 대해 다음과 같은 안전한 링크 설정을 사용할 수 있습니다.
+Office 365 앱에서 사용할 수 있는 안전한 링크 설정은 다음과 같습니다.
 
-- **Office 365 응용 프로그램** : 지원 되는 Office 365 앱에서 안전한 링크 검색을 사용 하거나 사용 하지 않도록 설정 합니다. 기본값 및 권장 값이 **설정** 되어 있습니다.
+- **Office 365 응용 프로그램:** 지원되는 Office 365 앱에서 안전한 링크 검색을 활성화 또는 비활성화합니다. 기본값과 권장 값은 **On입니다.**
 
-- **사용자가 안전한 링크를 클릭 하는 경우를 추적 하지 않음** : 안전한 링크 저장 사용 또는 사용 안 함 데스크톱 버전 Word, Excel, PowerPoint 및 Visio에서 클릭 한 url의 데이터를 클릭 합니다. 권장 값은 **Off** 이며, 사용자 클릭이 추적 됨을 의미 합니다.
+- **사용자가 안전한** 링크를 클릭하는 경우를 추적하지 않습니다. 데스크톱 버전 Word, Excel, PowerPoint 및 Visio에서 클릭한 URL에 대한 안전한 링크 클릭 데이터를 저장하거나 저장하지 않도록 합니다. 권장되는 값은 **Off입니다.** 즉, 사용자 클릭이 추적됩니다.
 
-- **사용자가 원본 url에 대 한 안전한 링크를 클릭** 하는 것을 허용 하지 않음: 사용자가 데스크톱 버전 Word, Excel, PowerPoint 및 Visio의 원래 url로 [경고 페이지](#warning-pages-from-safe-links) 를 클릭 하는 것을 허용 하거나 차단 합니다. 기본값 및 권장 값이 **설정** 되어 있습니다.
+- **사용자가 원래 URL에** 대한 안전한 링크를 클릭할 수 있도록 허용하지 않습니다. 사용자가 데스크톱 버전 Word, Excel, PowerPoint 및 Visio에서 원래 URL에 대한 경고 페이지를 클릭하지 못하게 허용하거나 차단합니다. [](#warning-pages-from-safe-links) 기본값과 권장 값은 **On입니다.**
 
-Office 365 앱에 대 한 안전한 링크 설정을 구성 하려면 [office 365 앱에 대 한 안전한 링크 보호 구성](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-security--compliance-center)를 참조 하세요.
+Office 365 앱에 대한 안전한 링크 설정을 구성하려면 Office 365 앱에 대한 안전한 링크 보호 [구성을 참조하세요.](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-security--compliance-center)
 
-표준 및 엄격한 정책 설정에 대 한 권장 값에 대 한 자세한 내용은 [안전한 링크에 대 한 전역 설정을](recommended-settings-for-eop-and-office365-atp.md#global-settings-for-safe-links)참조 하십시오.
+표준 및 엄격 정책 설정의 권장 값에 대한 자세한 내용은 안전 링크에 대한 전역 설정을 [참조하세요.](recommended-settings-for-eop-and-office365-atp.md#global-settings-for-safe-links)
 
-### <a name="how-safe-links-works-in-office-365-apps"></a>Office 365 앱에서 안전한 링크가 작동 하는 방식
+### <a name="how-safe-links-works-in-office-365-apps"></a>Office 365 앱에서 안전한 링크가 작동하는 방식
 
-다음은 Office 365 앱의 Url에 대 한 안전한 링크 보호 작동 수준입니다. 지원 되는 Office 365 앱은 이전 섹션에 설명 되어 있습니다.
+Office 365 앱에서 URL에 대해 안전한 링크 보호가 작동하는 방식은 다음과 같은 높은 수준에서 다를 수 있습니다. 지원되는 Office 365 앱은 이전 섹션에 설명되어 있습니다.
 
-1. 사용자는 Microsoft 365 앱 또는 Microsoft 365 Business Premium이 포함 된 조직의 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
+1. 사용자가 Microsoft 365 앱 또는 Microsoft 365 Business Premium을 포함하는 조직에서 직장 또는 학교 계정을 사용하여 로그인합니다.
 
-2. 사용자가 지원 되는 Office 앱에서 Office 문서 링크를 열고 클릭 합니다.
+2. 사용자가 지원되는 Office 앱에서 Office 문서를 열고 링크를 클릭합니다.
 
-3. 안전한 링크는 대상 웹 사이트를 열기 전에 즉시 URL을 확인 합니다.
+3. 안전한 링크는 대상 웹 사이트를 열기 전에 URL을 즉시 확인합니다.
 
-   - 안전한 링크 검색을 건너뛰는 목록에 URL이 포함 되어 있는 경우 ( **다음 url 목록 차단** ) [차단 된 url 경고](#blocked-url-warning) 페이지가 열립니다.
+   - 안전한 링크 검색(다음 URL 목록 **차단)을** 건너뛰는 목록에 URL이 포함되어 있는 경우 [차단된 URL](#blocked-url-warning) 경고 페이지가 열립니다.
 
-   - URL이 악의적인 것으로 확인 된 웹 사이트를 가리키는 경우 [악의 있는 웹 사이트 경고](#malicious-website-warning) 페이지 (또는 다른 경고 페이지)가 열립니다.
+   - URL이 악성으로 확인된 웹 사이트를 표시하면 [](#malicious-website-warning) 악성 웹 사이트 경고 페이지(또는 다른 경고 페이지)가 열립니다.
 
-   - URL이 다운로드 가능한 파일을 가리키고 사용자에 게 적용 되는 안전 링크 정책이 다운로드 가능한 콘텐츠에 대 한 링크를 검색 하도록 구성 된 경우 ( **의심 스러운 링크 및 파일을 가리키는 링크에 대해 실시간 URL 검색 적용** ) 다운로드 가능한 파일이 검사 됩니다.
+   - URL이 다운로드 가능한 파일을, 그리고 사용자에게 적용되는 안전한 링크 정책이 다운로드 가능한 콘텐츠에 대한 링크를 검색하도록 구성되어 있는 경우(의심스러운 링크 및 파일을 지정하는 링크를 위한 실시간 **URL** 검색 적용), 다운로드 가능한 파일이 확인됩니다.
 
-   - URL이 안전한 것으로 간주 되 면 사용자는 웹 사이트로 이동 됩니다.
+   - URL이 안전한 것으로 간주되는 경우 사용자는 웹 사이트로 이동됩니다.
 
-   - 안전한 링크 검색을 완료할 수 없는 경우 안전한 링크 보호가 트리거되지 않습니다. Office 데스크톱 클라이언트에서는 대상 웹 사이트로 진행 하기 전에 사용자에 게 경고가 표시 됩니다.
+   - 안전한 링크 검색을 완료할 수 없는 경우 안전한 링크 보호가 트리거되지 않습니다. Office 데스크톱 클라이언트에서는 대상 웹 사이트로 이동하기 전에 사용자에게 경고가 표시됩니다.
 
 > [!NOTE]
-> 각 세션이 시작 되는 동안 사용자가 Office에 대 한 안전한 링크를 사용 하도록 설정 되어 있는지 확인 하는 데 몇 초 정도 걸릴 수 있습니다.
+> 각 세션이 시작될 때 사용자에게 Office용 안전 링크가 설정되어 있는지 확인하는 데 몇 초 정도 걸릴 수 있습니다.
 
-## <a name="block-the-following-urls-list-for-safe-links"></a>안전한 링크에 대 한 "다음 Url 차단" 목록
+## <a name="block-the-following-urls-list-for-safe-links"></a>안전한 링크에 대해 "다음 URL 차단" 목록
 
-**다음 Url 차단** 목록에서는 다음 위치에 있는 안전한 링크 검색에서 항상 차단 되는 링크를 정의 합니다.
+다음 URL 차단 **목록은** 다음 위치에서 안전 링크 검색에 의해 항상 차단되는 링크를 정의합니다.
 
-- 전자 메일 메시지
-- Windows 및 Mac의 Office 365 앱에 있는 문서입니다.
-- IOS 및 Android 용 Office의 문서입니다.
+- 전자 메일 메시지입니다.
+- Windows 및 Mac의 Office 365 앱에 있는 문서.
+- iOS 및 Android용 Office의 문서.
 
-활성 안전한 링크 정책의 사용자가 지원 되는 앱에서 차단 된 링크를 클릭 하면 [차단 된 URL 경고](#blocked-url-warning) 페이지로 이동 합니다.
+활성 안전 링크 정책의 사용자가 지원되는 앱에서 차단된 링크를 클릭하면 차단된 URL 경고 [페이지로 이동됩니다.](#blocked-url-warning)
 
-안전한 링크에 대 한 전역 설정에서 Url 목록을 구성 합니다. 자세한 내용은 Configure the ["다음 Url 차단" 목록을](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center)참조 하세요.
+안전한 링크에 대한 전역 설정에서 URL 목록을 구성합니다. 자세한 내용은 ["다음 URL 차단" 목록](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center)구성을 참조하세요.
 
-**참고** :
+**참고**:
 
-- 모든 범위에서 차단 되는 Url의 진정한 범용 목록은 [테 넌 트 허용/차단 목록에서 Url 관리](tenant-allow-block-list.md)를 참조 하십시오.
+- 모든 곳에서 차단되는 진정한 범용 URL 목록은 테넌트 허용/차단 목록에서 URL 관리를 [참조하세요.](tenant-allow-block-list.md)
 
-- 크기
-  - 최대 항목 수는 500입니다.
-  - 항목의 최대 길이는 128 자입니다.
-  - 모든 항목은 1만 자를 초과할 수 없습니다.
+- 제한:
+  - 최대 항목 수는 500개입니다.
+  - 항목의 최대 길이는 128자입니다.
+  - 모든 항목은 10,000자까지 입력할 수 있습니다.
 
-- URL의 끝에 슬래시 ()를 포함 하지 마십시오 `/` . 예를 들어 `https://www.contoso.com` ,를 사용 `https://www.contoso.com/` 합니다.
+- URL의 끝에 `/` 슬래시()를 포함하지 않습니다. 예를 들어 `https://www.contoso.com` 다음을 사용하지 `https://www.contoso.com/` 않습니다.
 
-- 도메인 전용-URL (예: `contoso.com` 또는 `tailspintoys.com` )은 도메인을 포함 하는 모든 url을 차단 합니다.
+- 도메인 전용 URL(예: 또는 )은 도메인이 포함된 `contoso.com` `tailspintoys.com` 모든 URL을 차단합니다.
 
-- 전체 도메인을 차단 하지 않고 하위 도메인을 차단할 수 있습니다. 예를 `toys.contoso.com*` 들어 하위 도메인이 포함 된 모든 url을 차단 하지만 전체 도메인을 포함 하는 url은 차단 되지 않습니다 `contoso.com` .
+- 전체 도메인을 차단하지 않고 하위 도메인을 차단할 수 있습니다. 예를 들어 하위 도메인이 포함된 URL은 차단하지만 전체 도메인을 포함하는 `toys.contoso.com*` URL은 차단하지 `contoso.com` 않습니다.
 
-- URL 항목당 최대 3 개의 와일드 카드 ()를 포함할 수 있습니다 `*` .
+- URL 항목당 와일드카드()를 `*` 세 개까지 포함할 수 있습니다.
 
-### <a name="entry-syntax-for-the-block-the-following-urls-list"></a>"다음 Url 차단" 목록의 항목 구문
+### <a name="entry-syntax-for-the-block-the-following-urls-list"></a>"다음 URL 차단" 목록에 대한 항목 구문
 
-입력할 수 있는 값과 결과에 대 한 예는 다음 표에 설명 되어 있습니다.
+다음 표에는 입력할 수 있는 값과 해당 결과가 설명되어 있습니다.
 
 ****
 
 |값|결과|
 |---|---|
-|`contoso.com` <br/> 또는 <br/> `*contoso.com*`|Domain, 하위 도메인 및 경로를 차단 합니다. 예를 들어 `https://www.contoso.com` `https://sub.contoso.com` and `https://contoso.com/abc` 는 차단 됩니다.|
-|`https://contoso.com/a`|블록 `https://contoso.com/a` 이지만 추가 하위 경로는 `https://contoso.com/a/b` 아닙니다.|
-|`https://contoso.com/a*`|블록과 `https://contoso.com/a` 추가 하위 경로를 선택 `https://contoso.com/a/b` 합니다.|
-|`https://toys.contoso.com*`|하위 도메인 ( `toys` 이 예에서)을 차단 하지만 클릭이 다른 도메인 url (예: `https://contoso.com` 또는 `https://home.contoso.com` )을 허용 합니다.|
+|`contoso.com` <p> 또는 <p> `*contoso.com*`|도메인, 하위 도메인 및 경로를 차단합니다. 예를 들어 `https://www.contoso.com` `https://sub.contoso.com` `https://contoso.com/abc` 차단됩니다.|
+|`https://contoso.com/a`|처럼 `https://contoso.com/a` 추가 하위 경로는 차단하지만 차단하지는 `https://contoso.com/a/b` 않습니다.|
+|`https://contoso.com/a*`|처럼 `https://contoso.com/a` 블록 및 추가 하위 `https://contoso.com/a/b` 경로|
+|`https://toys.contoso.com*`|하위 도메인(이 예의 경우)을 차단하지만 다른 도메인 URL(예: 또는 )을 클릭할 수 `toys` `https://contoso.com` `https://home.contoso.com` 있습니다.|
 |
 
-## <a name="do-not-rewrite-the-following-urls-lists-in-safe-links-policies"></a>안전한 링크 정책의 "다음 Url을 다시 쓰지 않음" 목록
+## <a name="do-not-rewrite-the-following-urls-lists-in-safe-links-policies"></a>안전한 링크 정책에서 "다음 URL을 다시 덮어치지 않습니다." 목록
 
 > [!NOTE]
-> 조직에서 안전한 링크 정책을 사용 하는 경우 타사 피싱 테스트 **에서는 다음 url** 목록만 지원 됩니다.
+> 조직에서 안전한 링크 정책을  사용하는 경우 다음 URL 목록을 다시 기록하지 않는 것이 타사 피싱 테스트에 대해 지원되는 유일한 방법입니다.
 
-각 안전 링크 정책에는 안전한 링크 검색을 통해 다시 쓰지 않는 Url을 지정 하는 데 사용할 수 있는 **다음 url** 목록이 포함 되어 있습니다. 즉,이 목록을 사용 하면 정책에 포함 된 사용자가 안전한 링크에 의해 차단 되는 지정 된 Url에 액세스할 수 있습니다. 서로 다른 안전한 링크 정책에서 서로 다른 목록을 구성할 수 있습니다. 사용자에 게 첫 번째 (우선 순위가 가장 높은) 정책이 적용 된 후에는 정책 처리가 중지 됩니다. 따라서 여러 활성 안전한 링크 정책에 포함 된 사용자에 게는 **다음 url 목록을 다시 쓰지** 않습니다.
+각 안전 링크  정책에는 안전 링크 검색으로 다시 덮어지지 않는 URL을 지정하는 데 사용할 수 있는 다음 URL 목록을 다시 덮어 들이지 않습니다. 즉, 이 목록을 사용하면 정책에 포함된 사용자가 안전한 링크로 차단되는 지정된 URL에 액세스할 수 있습니다. 서로 다른 안전 링크 정책에서 서로 다른 목록을 구성할 수 있습니다. 정책 처리는 사용자에게 첫 번째(우선 순위가 가장 높은) 정책이 적용된 후 중지됩니다. 따라서 여러 활성 안전 링크 정책에 포함된 사용자에게는 다음 **URL** 목록을 다시 만들지 않습니다.
 
-새 또는 기존 안전한 링크 정책에서 목록에 항목을 추가 하려면 [안전한 링크 정책 만들기](set-up-atp-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) 또는 [안전한 링크 정책 수정을](set-up-atp-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies)참조 하십시오.
+새 정책 또는 기존 안전 링크 정책의 [](set-up-atp-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) 목록에 항목을 추가하려면 안전 링크 정책 만들기 또는 안전 링크 수정 [정책을 참조하세요.](set-up-atp-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies)
 
-**참고** :
+**참고**:
 
-- 다음 클라이언트는 안전한 링크 정책에서 **다음 url 목록을 다시 쓰지 않습니다** .를 인식 하지 못합니다. 정책에 포함 된 사용자는 다음 클라이언트에서 안전한 링크 검색 결과에 따라 Url에 액세스 하지 못하도록 차단할 수 있습니다.
+- 다음 클라이언트는 안전 링크 정책에서 다음 **URL** 목록을 다시 덮어 들이지 못합니다. 이러한 클라이언트에서 안전한 링크 검색 결과를 기반으로 하여, 보안에 포함된 사용자는 URL에 액세스하지 않을 수 있습니다.
 
   - Microsoft Teams
-  - Office web apps
+  - Office Web Apps
 
-  모든 위치에서 허용 되는 진정한 범용 Url 목록은 [테 넌 트 허용/차단 목록에서 Url 관리](tenant-allow-block-list.md)를 참조 하십시오.
+  모든 곳에서 허용되는 진정한 범용 URL 목록은 테넌트 허용/차단 목록에서 URL 관리를 [참조하세요.](tenant-allow-block-list.md)
 
-- 일반적으로 사용 되는 내부 Url을 목록에 추가 하 여 사용자 환경을 개선 하는 것이 좋습니다. 예를 들어 비즈니스용 Skype 또는 SharePoint와 같은 온-프레미스 서비스를 사용 하는 경우 해당 Url을 추가 하 여 검색에서 제외할 수 있습니다.
+- 사용자 환경을 개선하기 위해 일반적으로 사용되는 내부 URL을 목록에 추가하는 것이 있습니다. 예를 들어 비즈니스용 Skype 또는 SharePoint와 같은 프레미스 서비스가 있는 경우 해당 URL을 추가하여 검색에서 제외할 수 있습니다.
 
-- 안전한 링크 정책에서 **다음 url 항목을 이미 다시 작성 하지** 않은 경우에는 목록을 검토 하 고 필요에 따라 와일드 카드를 추가 해야 합니다. 예를 들어 목록에 항목이 있고 `https://contoso.com/a` 나중에 하위 경로를 포함 하기로 결정 하는 경우를 예로 들 수 있습니다 `https://contoso.com/a/b` . 새 항목을 추가 하는 대신 기존 항목에 와일드 카드를 추가 하 여 해당 항목이 되도록 `https://contoso.com/a/*` 합니다.
+- 안전 링크 정책에서 다음 **URL** 항목을 이미 다시 작성하지 않은 경우 목록을 검토하고 필요한 경우 와일드카드를 추가해야 합니다. 예를 들어 목록에 다음과 같은 항목이 있으며 나중에 다음과 같은 하위 `https://contoso.com/a` 경로가 포함될 수 `https://contoso.com/a/b` 있습니다. 새 항목을 추가하는 대신 기존 항목에 와일드카드를 추가하면 와일드카드가 `https://contoso.com/a/*` 됩니다.
 
-- URL 항목당 최대 3 개의 와일드 카드 ()를 포함할 수 있습니다 `*` . 와일드 카드에 접두사 또는 하위 도메인이 명시적으로 포함 됩니다. 예를 들어 항목은 `contoso.com` `*.contoso.com/*` `*.contoso.com/*` 지정 된 도메인의 하위 도메인과 경로를 방문 하도록 허용 하므로와는 다릅니다.
+- URL 항목당 와일드카드()를 `*` 세 개까지 포함할 수 있습니다. 와일드카드에는 명시적으로 prefixes 또는 subdomains가 포함됩니다. 예를 들어 사용자가 지정된 도메인의 하위 도메인 및 경로를 방문할 수 있기 때문에 항목은 `contoso.com` `*.contoso.com/*` `*.contoso.com/*` 동일하지 않습니다.
 
-### <a name="entry-syntax-for-the-do-not-rewrite-the-following-urls-list"></a>"다음 Url을 다시 쓰지 않음" 목록의 항목 구문
+### <a name="entry-syntax-for-the-do-not-rewrite-the-following-urls-list"></a>"다음 URL을 다시 덮어치지 않습니다." 목록에 대한 항목 구문
 
-입력할 수 있는 값과 결과에 대 한 예는 다음 표에 설명 되어 있습니다.
+다음 표에는 입력할 수 있는 값과 해당 결과가 설명되어 있습니다.
 
 ****
 
 |값|결과|
 |---|---|
-|`contoso.com`|하위 `https://contoso.com` 도메인 이나 경로가 아닌 액세스를 허용 합니다.|
-|`*.contoso.com/*`|도메인, 하위 도메인 및 경로 (예:,, 또는)에 대 한 액세스를 허용 `https://www.contoso.com` `https://www.contoso.com` `https://maps.contoso.com` `https://www.contoso.com/a` 합니다. <br/><br/> 이 항목은 `*contoso.com*` 다음과 같이 잠재적으로 사기성 사이트를 허용 하지 않기 때문에 보다 안전 합니다. `https://www.falsecontoso.com``https://www.false.contoso.completelyfalse.com`|
-|`https://contoso.com/a`|경로 액세스를 허용 `https://contoso.com/a` 하지만 `https://contoso.com/a/b`|
-|`https://contoso.com/a/*`|같은 액세스 및 하위 경로를 사용할 수 있습니다. `https://contoso.com/a``https://contoso.com/a/b`|
+|`contoso.com`|하위omain 또는 경로에는 액세스할 수 있지만 액세스할 `https://contoso.com` 수 없습니다.|
+|`*.contoso.com/*`|도메인, 하위 도메인 및 경로(예: , 또는 )에 대한 액세스를 `https://www.contoso.com` `https://www.contoso.com` `https://maps.contoso.com` `https://www.contoso.com/a` 허용합니다. <p> 이 항목은 다음 항목보다 본질적으로 더 좋습니다. 이러한 항목은 또는 `*contoso.com*` `https://www.falsecontoso.com``https://www.false.contoso.completelyfalse.com`|
+|`https://contoso.com/a`|하위 경로에 대한 액세스를 허용하지만 하위 경로는 `https://contoso.com/a` 허용하지 않습니다. `https://contoso.com/a/b`|
+|`https://contoso.com/a/*`|같은 하위 경로 `https://contoso.com/a` 및 액세스 허용 `https://contoso.com/a/b`|
 |
 
 ## <a name="warning-pages-from-safe-links"></a>안전한 링크의 경고 페이지
 
-이 섹션에는 URL을 클릭 했을 때 안전한 링크 보호에 의해 트리거되는 다양 한 경고 페이지 예제가 포함 되어 있습니다.
+이 섹션에는 URL을 클릭할 때 안전한 링크 보호에 의해 트리거되는 다양한 경고 페이지의 예가 포함되어 있습니다.
 
-여러 개의 경고 페이지가 업데이트 되었습니다. 업데이트 된 페이지가 표시 되지 않으면 곧 제공 될 예정입니다. 업데이트 된 페이지에는 지정 된 경고 및 권장 사항에도 불구 하 고 사이트를 계속 진행 하는 기능 및 새로운 색 구성표가 포함 되어 있습니다.
+여러 경고 페이지가 업데이트되었습니다. 업데이트된 페이지가 아직 없는 경우 곧 업데이트됩니다. 업데이트된 페이지에는 새로운 색 구성표, 세부 정보 및 제공된 경고 및 권장 사항에도 불구하고 사이트로 진행할 수 있는 능력이 포함되어 있습니다.
 
-### <a name="scan-in-progress-notification"></a>검색 진행 중 알림
+### <a name="scan-in-progress-notification"></a>검사 진행 중 알림
 
-클릭 한 URL을 안전한 링크에서 검색 하 고 있습니다. 잠시 기다린 후에 링크를 다시 시도해 야 할 수 있습니다.
+클릭한 URL이 안전한 링크로 검색되고 있습니다. 링크를 다시 시도하기 전에 몇 분 정도 기다려야 할 수 있습니다.
 
-!["링크를 검색 하 고 있습니다." 알림](../../media/ee8dd5ed-6b91-4248-b054-12b719e8d0ed.png)
+!["링크가 검사 중입니다." 알림](../../media/ee8dd5ed-6b91-4248-b054-12b719e8d0ed.png)
 
-원래 알림 페이지는 다음과 같습니다.
+원래 알림 페이지는 다음과 같이 표시했습니다.
 
-![원본 "링크를 검색 하 고 있습니다." 알림](../../media/04368763-763f-43d6-94a4-a48291d36893.png)
+![원래 "링크가 검색되고 있습니다." 알림](../../media/04368763-763f-43d6-94a4-a48291d36893.png)
 
-### <a name="suspicious-message-warning"></a>의심 스러운 메시지 경고
+### <a name="suspicious-message-warning"></a>의심스러운 메시지 경고
 
-클릭 한 URL이 다른 의심 스러운 메시지와 비슷한 전자 메일 메시지에 있습니다. 사이트를 진행 하기 전에 전자 메일 메시지를 두 번 확인 하는 것이 좋습니다.
+클릭한 URL이 다른 의심스러운 메시지와 유사한 전자 메일 메시지에 있습니다. 사이트로 진행하기 전에 전자 메일 메시지를 다시 검사하는 것이 좋습니다.
 
-!["의심 스러운 메시지에서 링크를 클릭 했습니다." 경고](../../media/33f57923-23e3-4b0f-838b-6ad589ba897b.png)
+!["의심스러운 메시지에서 링크를 클릭했습니다." 경고](../../media/33f57923-23e3-4b0f-838b-6ad589ba897b.png)
 
 ### <a name="phishing-attempt-warning"></a>피싱 시도 경고
 
-클릭 한 URL이 피싱 공격으로 식별 된 전자 메일 메시지에 있습니다. 따라서 전자 메일 메시지의 모든 Url이 차단 됩니다. 해당 사이트로 이동 하지 않는 것이 좋습니다.
+클릭한 URL은 피싱 공격으로 식별된 전자 메일 메시지에 있습니다. 따라서 전자 메일 메시지의 모든 URL이 차단됩니다. 사이트로 진행하지 않는 것이 좋습니다.
 
-!["피싱 메시지에서 링크 클릭 됨" 경고](../../media/6e544a28-0604-4821-aba6-d5a57bb917e5.png)
+!["링크가 피싱 메시지에서 클릭된 경우" 경고](../../media/6e544a28-0604-4821-aba6-d5a57bb917e5.png)
 
-### <a name="malicious-website-warning"></a>악의적인 웹 사이트 경고
+### <a name="malicious-website-warning"></a>악성 웹 사이트 경고
 
-클릭 한 URL이 악성으로 식별 된 사이트를 가리킵니다. 해당 사이트로 이동 하지 않는 것이 좋습니다.
+클릭한 URL은 악의적인 것으로 확인된 사이트를 지정합니다. 사이트로 진행하지 않는 것이 좋습니다.
 
-!["이 웹 사이트가 악성으로 분류 되어 있습니다." 경고](../../media/058883c8-23f0-4672-9c1c-66b084796177.png)
+!["이 웹 사이트는 악성으로 분류됩니다." 경고](../../media/058883c8-23f0-4672-9c1c-66b084796177.png)
 
-원래 경고 페이지는 다음과 같이 표시 됩니다.
+원래 경고 페이지는 다음과 같이 표시했습니다.
 
-![원본 "이 웹 사이트가 악의적인 것으로 분류 됨" 경고](../../media/b9efda09-6dd8-46ef-82cb-56e4d538b8f5.png)
+![원래 "이 웹 사이트가 악성으로 분류" 경고](../../media/b9efda09-6dd8-46ef-82cb-56e4d538b8f5.png)
 
-### <a name="blocked-url-warning"></a>차단 된 URL 경고
+### <a name="blocked-url-warning"></a>차단된 URL 경고
 
-조직의 관리자가 클릭 한 URL을 수동으로 차단 했습니다 (안전한 링크에 대 한 전역 설정에서 **다음 url 목록 차단** ). 링크가 수동으로 차단 되었기 때문에 안전한 링크에서 검색 되지 않았습니다.
+클릭한 URL은 조직의 관리자가 수동으로 차단했습니다(안전한 링크에 대한 전역 설정의 다음 **URL** 차단 목록). 링크가 수동으로 차단된 것이기 때문에 안전한 링크에서 링크를 검색하지 못했습니다.
 
-관리자가 특정 Url을 수동으로 차단 하는 이유에는 여러 가지가 있습니다. 사이트를 차단 하지 않을 것으로 생각 되 면 관리자에 게 문의 하세요.
+관리자가 특정 URL을 수동으로 차단하는 몇 가지 이유가 있습니다. 사이트가 차단되지 않을 것으로 생각되는 경우 관리자에게 문의하세요.
 
-!["이 웹 사이트가 관리자에 의해 차단 되었습니다." 경고](../../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
+!["이 웹 사이트가 관리자가 차단했습니다." 경고](../../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
 
-원래 경고 페이지는 다음과 같이 표시 됩니다.
+원래 경고 페이지는 다음과 같이 표시했습니다.
 
-![원본 "이 웹 사이트가 조직의 URL 정책에 따라 차단 되었습니다." 경고](../../media/3d6ba028-30bf-45fc-958e-d3aad3defc83.png)
+![원래 "이 웹 사이트가 조직의 URL 정책에 따라 차단했습니다." 경고](../../media/3d6ba028-30bf-45fc-958e-d3aad3defc83.png)
 
 ### <a name="error-warning"></a>오류 경고
 
-오류가 발생 하 여 URL을 열 수 없습니다.
+일부 오류가 발생하여 URL을 열 수 없습니다.
 
-!["액세스 하려는 페이지를 로드할 수 없습니다." 경고](../../media/2f7465a4-1cf4-4c1c-b7d4-3c07e4b795b4.png)
+!["액세스하려는 페이지를 로드할 수 없습니다." 경고](../../media/2f7465a4-1cf4-4c1c-b7d4-3c07e4b795b4.png)
 
-원래 경고 페이지는 다음과 같이 표시 됩니다.
+원래 경고 페이지는 다음과 같이 표시했습니다.
 
-![원본 "이 웹 페이지를 로드할 수 없습니다." 경고](../../media/9aaa4383-2f23-48be-bdaa-8efbcb2acc70.png)
+![원래 "이 웹 페이지를 로드할 수 없습니다." 경고](../../media/9aaa4383-2f23-48be-bdaa-8efbcb2acc70.png)
