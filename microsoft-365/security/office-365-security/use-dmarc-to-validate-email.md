@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: 사용자의 조직에서 보낸 메시지의 유효성을 검사하기 위해 도메인 기반 메시지 인증, 보고 및 적합성(DMARC)을 구성하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4ff2c93e420957714815100243a6502e7ea087a7
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 9dd97b1fc60f0b6198bb6c55af291c7dd103ac5d
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446374"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615339"
 ---
 # <a name="use-dmarc-to-validate-email"></a>DMARC를 사용하여 전자 메일의 유효성 검사
 
@@ -142,13 +142,13 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
 
 여기서 각 부분이 나타내는 의미는 다음과 같습니다.
 
-- *도메인*은 사용자가 보호할 도메인입니다. 기본적으로 레코드는 도메인 및 모든 하위 도메인의 메일을 보호합니다. 예를 들어 \_dmarc.contoso.com을 지정하면 DMARC는 housewares.contoso.com 또는 plumbing.contoso.com과 같은 도메인 및 모든 하위 도메인에서 메일을 보호합니다.
+- *도메인* 은 사용자가 보호할 도메인입니다. 기본적으로 레코드는 도메인 및 모든 하위 도메인의 메일을 보호합니다. 예를 들어 \_dmarc.contoso.com을 지정하면 DMARC는 housewares.contoso.com 또는 plumbing.contoso.com과 같은 도메인 및 모든 하위 도메인에서 메일을 보호합니다.
 
-- *TTL*은 항상 1시간에 해당합니다. TTL에 사용되는 단위 (시간 (1시간), 분 (60분) 또는 초 (3,600초))는 도메인의 등록 기관에 따라 다릅니다.
+- *TTL* 은 항상 1시간에 해당합니다. TTL에 사용되는 단위 (시간 (1시간), 분 (60분) 또는 초 (3,600초))는 도메인의 등록 기관에 따라 다릅니다.
 
-- *pct = 100*은 이 규칙을 전자 메일의 100%에 사용해야 함을 나타냅니다.
+- *pct = 100* 은 이 규칙을 전자 메일의 100%에 사용해야 함을 나타냅니다.
 
-- *정책*은 DMARC가 실패하는 경우 수신 서버에서 어떤 정책을 따를 것인지를 지정합니다. 정책을 없음, 격리 또는 거부로 설정할 수 있습니다.
+- *정책* 은 DMARC가 실패하는 경우 수신 서버에서 어떤 정책을 따를 것인지를 지정합니다. 정책을 없음, 격리 또는 거부로 설정할 수 있습니다.
 
 사용할 옵션에 대한 자세한 내용은 [Microsoft 365에서 DMARC를 구현하기 위한 모범 사례](#best-practices-for-implementing-dmarc-in-microsoft-365)의 개념을 숙지하세요.
 
@@ -191,7 +191,7 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
 3. 외부 메일 시스템이 DMARC에 실패한 메시지를 허용하지 않도록 요청
 
     마지막 단계는 거부 정책을 구현하는 것입니다. 거부 정책은 정책이 거부 (p=reject)로 설정된 DMARC TXT 레코드입니다. 이렇게 하면 DMARC 수신자에게 DMARC 검사에 실패한 메시지를 수락하지 않도록 요청합니다.
-    
+
 4. 하위 도메인에 대해 DMARC를 설정하는 방법은 무엇입니까?
 
 DMARC는 정책을 DNS에 TXT 레코드로 게시하여 구현되며 계층적입니다(예: contoso.com에 대해 게시된 정책은 하위 도메인에 대해 명시적으로 다른 정책이 정의되지 않는 한 sub.domain.contonos.com에 적용됩니다). 이 기능은 조직에서 상위 DMARC 레코드를 더 적은 수로 지정하여 더 넓은 범위를 제공할 수 있기 때문에 유용합니다. 하위 도메인이 최상위 도메인의 DMARC 레코드를 상속하지 않도록 하려면 주의해야 합니다.
@@ -249,7 +249,7 @@ DMARC에 대한 자세한 정보가 필요하신가요? 다음 리소스가 도�
 
 - [스팸 방지 메시지 헤더](anti-spam-message-headers.md)에는 Microsoft 365에서 DMARC 검사에 사용하는 구문 및 헤더 필드가 포함됩니다.
 
-- M <sup>3 </sup>AAWG (Messaging, Malware, Mobile Anti-Abuse Working Group)의 [DMARC 교육 시리즈](https://www.m3aawg.org/activities/training/dmarc-training-series)를 이용하세요.
+- M<sup>3</sup>AAWG (Messaging, Malware, Mobile Anti-Abuse Working Group)의 [DMARC 교육 시리즈](https://www.m3aawg.org/activities/training/dmarc-training-series)를 이용하세요.
 
 - [dmarcian](https://space.dmarcian.com/deployment/)의 검사 목록을 사용하세요.
 

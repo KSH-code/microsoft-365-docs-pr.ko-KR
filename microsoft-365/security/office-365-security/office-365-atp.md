@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: 11b6445e17fc870c2999ddb56715b0c5cee5b5fc
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: 86e738fa9390cc40b06c10a27f3198715bb991fd
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357710"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49614813"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 
@@ -72,10 +72,10 @@ Office 365용 Microsoft Defender가 처음이거나 *사용하면서* 배우기 
 
 |Office 365용 Microsoft Defender 플랜 1|Office 365용 Microsoft Defender 플랜 2|
 |---|---|
-|<br/>구성, 보호 및 검색 기능: <ul><li>[안전한 첨부 파일](atp-safe-attachments.md)</li><li>[안전한 링크](atp-safe-links.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)</li><li>[Office 365용 Defender 보호의 피싱 방지](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[실시간 탐지](threat-explorer.md)</li></ul>|Office 365용 Microsoft Defender 플랜 1 기능<br/>--- 추가 ---<br/>자동화, 조사, 수정 및 교육 기능:</li><li>[위협 트래커](threat-trackers.md)</li><li>[위협 탐색기](threat-explorer.md)</li><li>[자동화된 조사 및 응답](office-365-air.md)</li><li>[공격 시뮬레이터](attack-simulator.md)</li></ul>|
+|구성, 보호 및 검색 기능: <ul><li>[안전한 첨부 파일](atp-safe-attachments.md)</li><li>[안전한 링크](atp-safe-links.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)</li><li>[Office 365용 Defender 보호의 피싱 방지](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[실시간 탐지](threat-explorer.md)</li></ul>|Office 365용 Microsoft Defender 플랜 1 기능 <br>--- 추가 ---<br> 자동화, 조사, 수정 및 교육 기능:<ul><li>[위협 트래커](threat-trackers.md)</li><li>[위협 탐색기](threat-explorer.md)</li><li>[자동화된 조사 및 응답](office-365-air.md)</li><li>[공격 시뮬레이터](attack-simulator.md)</li><li>[캠페인 보기](campaigns.md)</li></ul>|
 |
 
-- Office 365용 Microsoft Defender 플랜 2는 Office 365 E5, Office 365 A5, Microsoft 365 E5 보안 및 Microsoft 365 E5에 포함되어 있습니다.
+- Office 365용 Microsoft Defender 플랜 2는 Office 365 E5, Office 365 A5, Microsoft 365 E5 Security 및 Microsoft 365 E5에 포함되어 있습니다.
 
 - Office 365용 Microsoft Defender 플랜 1은 Microsoft 365 Business Premium에 포함되어 있습니다.
 
@@ -87,7 +87,7 @@ Office 365용 Microsoft Defender가 처음이거나 *사용하면서* 배우기 
 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Office 365용 Microsoft Defender 정책 구성
 
-Office 365용 Microsoft Defender를 사용하여 조직의 보안팀은 보안 및 준수 센터에서 정책을 정의하여 보호를 구성할 수 있습니다.([https://protection.office.com](https://protection.office.com) > **위협 관리** > **정책** 으로 이동하세요.)
+Office 365용 Microsoft Defender를 사용하여 조직의 보안팀은 보안 및 준수 센터에서 정책을 정의하여 보호를 구성할 수 있습니다.(<https://protection.office.com> \> **위협 관리** \> **정책** 으로 이동하세요.)
 
 > [!TIP]
 > 정의할 정책의 빠른 목록을 보려면 [위협으로부터 보호](protect-against-threats.md)를 참조하세요.
@@ -106,7 +106,7 @@ Office 365용 Microsoft Defender를 사용하여 조직의 보안팀은 보안 �
 
 ## <a name="view-microsoft-defender-for-office-365-reports"></a>Office 365용 Microsoft Defender 보고서 보기
 
-Office 365용 Microsoft Defender에는 고급 [보고 대시보드](view-reports-for-atp.md)가 포함되어 있으며 이를 통해 Office 365용 Defender 성능을 모니터링할 수 있습니다. 보안 및 준수 센터의 **보고서** > **대시보드** 에서 액세스할 수 있습니다.
+Office 365용 Microsoft Defender에는 고급 [보고 대시보드](view-reports-for-atp.md)가 포함되어 있으며 이를 통해 Office 365용 Defender 성능을 모니터링할 수 있습니다. 보안 및 준수 센터의 **보고서** \> **대시보드** 에서 액세스할 수 있습니다.
 
 보고서는 실시간으로 업데이트되어 최신 정보를 제공합니다. 이 보고서는 또한 권장 사항을 제공하고 임박한 위협에 대해 경고합니다. 사전 정의된 보고서에는 다음이 포함됩니다.
 

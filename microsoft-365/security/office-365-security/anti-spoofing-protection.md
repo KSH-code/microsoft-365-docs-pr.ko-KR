@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: 관리자는 스푸핑된 보낸 사람 및 도메인의 피싱 공격을 완화하는 데 도움이 되며 EOP(Exchange Online Protection)에서 사용할 수 있는 스푸핑 방지 기능에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 57d6dc8d9c1935578db15abdbb3e17e72bb64257
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: cae99cce070e6dc362dc678c153074fee53ca6a6
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130832"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616719"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>EOP의 스푸핑 방지 보호 기능
 
@@ -84,13 +84,13 @@ Microsoft는 서로 다른 두 가지 유형의 스푸핑 메일을 구분합니
 - **조직 내 스푸핑**: _자체_ 스푸핑으로도 알려졌습니다. 예시:
 
   - 보낸 사람과 받는 사람이 같은 도메인 소속입니다.
-    > 보낸 사람: jihoo@contoso.com <br/> To: michelle@contoso.com
+    > 보낸 사람: jihoo@contoso.com <br> To: michelle@contoso.com
 
   - 보낸 사람과 받는 사람이 같은 도메인의 하위 도메인 소속입니다.
-    > 보낸 사람: laura@marketing.fabrikam.com <br/> 받는 사람: julia@engineering.fabrikam.com
+    > 보낸 사람: laura@marketing.fabrikam.com <br> 받는 사람: julia@engineering.fabrikam.com
 
   - 보낸 사람과 받는 사람이 동일한 조직에 속하는 다른 도메인 소속입니다(즉, 동일한 조직에서 두 도메인이 모두 [허용 도메인](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)으로 구성되어 있음).
-    > 발신자: 보낸 사람@microsoft.com <br/> 수신자: 받는 사람@bing.com
+    > 발신자: 보낸 사람@microsoft.com <br> 수신자: 받는 사람@bing.com
 
     스팸봇 수확을 방지하고자 전자 메일 주소에서 공백이 사용됩니다.
 
@@ -105,7 +105,7 @@ Microsoft는 서로 다른 두 가지 유형의 스푸핑 메일을 구분합니
   - SFTY는 메일의 보안 수준을 말합니다. 9는 피싱, 11은 조직 내 스푸핑을 나타냅니다.
 
 - **도메인 간 스푸핑**: 보낸 사람과 받는 사람 도메인이 다르고 서로 아무 관계가 없습니다(또는 외부 도메인). 예시:
-    > 보낸 사람: jihoo@contoso.com <br/> 받는 사람: michelle@tailspintoys.com
+    > 보낸 사람: jihoo@contoso.com <br> 받는 사람: michelle@tailspintoys.com
 
   도메인 간 스푸핑으로 인해 [복합 인증](email-validation-and-authentication.md#composite-authentication)에 실패하는 메일에는 다음 머리글 값이 포함됩니다.
 
@@ -133,11 +133,11 @@ Office 365용 Microsoft Defender 조직은 보안 및 준수 센터의 위협 �
 
 예를 들어 Gabriela Laureano(glaureano@contoso.com)는 새 관찰에 관심이 있고 birdwatchers@fabrikam.com이라는 메일 그룹에 참여하여 그룹에 다음 메일을 전송합니다.
 
-> **보낸 사람:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **대상: Birdwatcher의 토론 목록**\<birdwatchers@fabrikam.com\> <br/> **제목:** 산 정상에서 바라보는 파란색 제비의 장관 레이니어 이번 주 <p> 이번 주에 레이니어 산에서 이 광경을 확인하고 싶은  사람이 있습니까?
+> **보낸 사람:** "Gabriela Laureano" \<glaureano@contoso.com\> <br> **대상: Birdwatcher의 토론 목록**\<birdwatchers@fabrikam.com\> <br> **제목:** 산 정상에서 바라보는 파란색 제비의 장관 레이니어 이번 주 <p> 이번 주에 레이니어 산에서 이 광경을 확인하고 싶은  사람이 있습니까?
 
 메일 그룹 서버에서 메시지를 수신하고, 내용을 수정하며, 목록 구성원에게 재생합니다. 재생된 메시지의 보낸 사람 주소(glaureano@contoso.com)는 같지만 제목 줄에 태그가 추가되고 메일의 맨 아래에 바닥글이 추가되었습니다. 이러한 수정 유형은 메일 그룹에서 일반적이며 스푸핑 오탐지를 초래할 수 있습니다.
 
-> **보낸 사람:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **대상: Birdwatcher의 토론 목록**\<birdwatchers@fabrikam.com\> <br/> **제목:** [새 구경] 산 정상에서 바라보는 파란색 제비의 장관 레이니어 이번 주 <p> 이번 주에 레이니어 산에서 이 광경을 확인하고 싶은  사람이 있습니까? <p> Birdwatchers 토론 목록에 이 메시지가 전송되었습니다. 구독은 언제든지 취소할 수 있습니다.
+> **보낸 사람:** "Gabriela Laureano" \<glaureano@contoso.com\> <br> **대상: Birdwatcher의 토론 목록**\<birdwatchers@fabrikam.com\> <br> **제목:** [새 구경] 산 정상에서 바라보는 파란색 제비의 장관 레이니어 이번 주 <p> 이번 주에 레이니어 산에서 이 광경을 확인하고 싶은  사람이 있습니까? <p> Birdwatchers 토론 목록에 이 메시지가 전송되었습니다. 구독은 언제든지 취소할 수 있습니다.
 
 메일 그룹 메일이 스푸핑 방지 검사를 통과할 수 있도록 메일 그룹 제어 여부에 따라 다음 단계를 수행하세요.
 

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책 및 보존 레이블 정책과 함께 유지 잠금을 사용하여 규정 요구 사항을 충족하고 로그 관리자로부터의 안전 보호를 지원합니다.
-ms.openlocfilehash: 6f6cfc5bef9b93af08fcc9b703b29facb9a7c576
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 9890c73495bd14ea7264f3314f6313254ef1bf6b
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920718"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49612990"
 ---
 # <a name="use-preservation-lock-to-restrict-changes-to-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책 변경을 제한하기 위한 유지 잠금 사용
 
@@ -28,18 +28,27 @@ ms.locfileid: "48920718"
 
 유지 잠금은 전역 관리자를 비롯하여 누구도 정책을 해제하거나 삭제하거나 덜 제한적으로 만들 수 없도록 보존 정책 또는 보존 레이블 정책을 잠급니다. 해당 구성은 규정 요구 사항에 필요할 수 있으며 로그 관리자로부터의 안전 보호를 지원할 수 있습니다.
 
-보존 정책을 잠근 경우:
+보존 정책이 잠기는 경우:
 
-- 아무도 끌 수 없습니다.
+- 누구도 정책을 사용하지 않도록 설정하거나 삭제할 수 없습니다.
 - 위치는 추가할 수 있지만 제거할 수는 없습니다.
 - 보존 기간을 연장할 수 있지만 줄일 수는 없습니다.
 
+보존 레이블 정책이 잠기는 경우:
+
+- 누구도 정책을 사용하지 않도록 설정하거나 삭제할 수 없습니다.
+- 위치는 추가할 수 있지만 제거할 수는 없습니다.
+- 레이블은 추가할 수 있지만 제거할 수는 없습니다.
+
 요약하면 잠긴 정책은 늘리거나 확장할 수 있지만 줄이거나 해제할 수 없습니다.
-  
+
 > [!IMPORTANT]
 > 보존 정책 또는 보존 레이블 정책을 잠그기 전에 해당 정책의 영향을 이해하고 조직에 해당 정책이 필요한지 여부를 확인하는 것이 중요합니다. 예를 들어 규정 요구 사항을 충족해야 할 수 있습니다. 유지 잠금이 적용된 후에는 관리자가 해당 정책을 사용하지 않도록 설정하거나 삭제할 수 없습니다.
 
 [게시](create-apply-retention-labels.md)하거나 [자동 적용](apply-retention-labels-automatically.md)하는 [보존 정책](create-retention-policies.md) 또는 보존 레이블 정책을 생성한 후에 유지 잠금을 구성합니다. 
+
+> [!NOTE]
+> 레이블 정책을 잠그더라도 관리자는 잠긴 정책에 포함된 레이블의 보존 기간을 단축할 수 없습니다. 이 요구 사항은 다른 제한 사항과 함께 항목을 [규제 기록](records-management.md#records)으로 표시하도록 레이블을 구성할 때 충족될 수 있습니다.
 
 ## <a name="how-to-lock-a-retention-policy-or-retention-label-policy"></a>보존 정책 또는 보존 레이블 정책을 잠그는 방법
 
@@ -49,7 +58,7 @@ ms.locfileid: "48920718"
 
 1. [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)합니다.
 
-2. [Get-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancepolicy)를 실행하여 잠그려는 정책의 이름을 찾습니다. 예제:
+2. [Get-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancepolicy)를 실행하여 잠그려는 정책의 이름을 찾습니다. 예를 들어,
     
    ![PowerShell의 보존 정책 목록](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
 
@@ -59,7 +68,7 @@ ms.locfileid: "48920718"
     Set-RetentionCompliancePolicy -Identity "<Name of Policy>" –RestrictiveRetention $true
     ```
     
-    예제:
+    예시:
     
     ![PowerShell의 RestrictiveRetention 매개 변수](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
     

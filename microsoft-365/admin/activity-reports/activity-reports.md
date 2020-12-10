@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Microsoft 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 9c3416f415c43377669b2c032e10696343c4416f
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: d2c5b4f67d93500f7341463a01313271d182dc38
+ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988461"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611352"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -90,9 +90,13 @@ ms.locfileid: "48988461"
     
 - [사서함 사용 현황](mailbox-usage.md)
     
-- [Office 정품 인증](microsoft-office-activations.md)
+- [Office 정품 인증](microsoft-office-activations-ww.md)
 
-- [활성 사용자](active-users.md)
+- [미국식 정부 기관용 Office 정품 인증](microsoft-office-activations.md)
+
+- [활성 사용자](active-users-ww.md)
+
+- [미국 정부 기관용 활성 사용자](active-users.md)
   
 - [이메일 앱 사용 현황](email-apps-usage.md)
 
@@ -104,7 +108,9 @@ ms.locfileid: "48988461"
   
 - [미국 정부 기관용 Dynamics 365 고객 음성 활동](forms-pro-activity.md)
 
-- [Microsoft 365 그룹](office-365-groups.md)
+- [Microsoft 365 그룹](office-365-groups-ww.md)
+
+- [미국 정부 기관용 Microsoft 365 그룹](office-365-groups.md)
   
 - [비즈니스용 OneDrive 사용자 활동](onedrive-for-business-activity-ww.md)
 
@@ -114,7 +120,9 @@ ms.locfileid: "48988461"
 
 - [미국 정부 기관용 비즈니스용 OneDrive 사용](onedrive-for-business-usage.md)
 
-- [Microsoft 365 앱 사용 현황](microsoft365-apps-usage.md)
+- [Microsoft 365 앱 사용 현황](microsoft365-apps-usage-ww.md)
+
+- [미국 정보 기관용 Microsoft 365 앱 사용 현황](microsoft365-apps-usage.md)
   
 - [SharePoint 사이트 사용 현황](sharepoint-site-usage-ww.md)
 
@@ -203,6 +211,8 @@ ms.locfileid: "48988461"
 서비스 보고서를 사용하여 특정 사용자가 서비스를 얼마나 사용하고 있는지를 조사할 수 있습니다. 예를 들어 특정 사용자가 사용한 사서함 저장소의 양을 확인하려면 사서함 사용량 보고서를 열고 이름을 기준으로 사용자를 정렬합니다. 사용자가 수천 명인 경우 보고서를 Excel로 내보내서 목록을 빠르게 필터링할 수 있습니다.
   
 사용자의 계정을 입력한 다음 사용자가 사용 중인 서비스와 서비스의 양이 포함된 목록을 얻는 보고서는 생성할 수 없습니다.
+
+새 사용자가 **알 수 없음** 으로 표시되는 상황이 있습니다. 이는 일반적으로 사용자 프로핑 생성이 지연되는 경우가 있어 발생합니다.  
   
 ## <a name="hide-user-details-in-the-reports"></a>보고서에서 사용자 세부 정보 숨기기
 

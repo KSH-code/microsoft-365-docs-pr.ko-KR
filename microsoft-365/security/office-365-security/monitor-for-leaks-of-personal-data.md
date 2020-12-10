@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
-ms.openlocfilehash: 67cce80435aa0f01f496ec67d617f0a2dfff8ec8
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: a212067d75ab3d9e195e3d869e0a6ae7d1ed4d01
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202702"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616383"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -117,7 +117,6 @@ Microsoft Cloud App Security는 클라우드 앱에 대해 보다 자세한 가�
 Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 
 - 중요한 정보 유형
-
 - Microsoft 365 및 Azure Information Protection의 통합된 레이블
 
 ### <a name="cloud-app-security-dashboard"></a>Cloud App Security 대시보드
@@ -142,69 +141,24 @@ Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 
 신용 카드 번호를 포함하는 파일이 승인된 클라우드 앱에서 공유될 때 경고합니다.
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><strong>제어</strong></th>
-<th align="left"><strong>설정</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">정책 유형</td>
-<td align="left">파일 정책</td>
-</tr>
-<tr class="even">
-<td align="left">정책 템플릿</td>
-<td align="left">템플릿 없음</td>
-</tr>
-<tr class="odd">
-<td align="left">정책 심각도</td>
-<td align="left">높음</td>
-</tr>
-<tr class="even">
-<td align="left">범주</td>
-<td align="left">DLP</td>
-</tr>
-<tr class="odd">
-<td align="left">필터 설정</td>
-<td align="left"><p>액세스 수준 = 공용(인터넷), 공용, 외부</p>
-<p>앱 = &lt;앱 선택&gt;(특정 SaaS 앱으로 모니터링을 제한하려는 경우 이 설정 사용)</p></td>
-</tr>
-<tr class="even">
-<td align="left">적용 대상</td>
-<td align="left">모든 파일, 모든 소유자</td>
-</tr>
-<tr class="odd">
-<td align="left">콘텐츠 검사</td>
-<td align="left"><p>현재 식과 일치하는 파일 포함: 모든 국가: 재무: 신용 카드 번호</p>
-<p>관련 컨텍스트는 필요하지 않음: (regex 뿐만 아니라 키워드도 검색 대상임)</p>
-<p>일치하는 항목이 1개 이상인 파일 포함</p>
-<p>위반의 마지막 4자 마스크 해제: 선택 취소됨</p></td>
-</tr>
-<tr class="even">
-<td align="left">경고</td>
-<td align="left"><p>각각의 일치 파일에 대한 경고 만들기: 선택됨</p>
-<p>일별 경고 제한: 1000</p>
-<p>전자 메일 알림 선택: 선택됨</p>
-<p>받는 사람: infosec@contoso.com</p></td>
-</tr>
-<tr class="odd">
-<td align="left">거버넌스</td>
-<td align="left"><p>Microsoft 비즈니스용 OneDrive</p>
-<p>비공개로 지정: 외부 사용자 제거 선택</p>
-<p>다른 모든 설정: 선택되지 않음</p>
-<p>Microsoft SharePoint Online</p>
-<p>비공개로 지정: 외부 사용자 제거 선택</p>
-<p>다른 모든 설정: 선택되지 않음</p></td>
-</tr>
-</tbody>
-</table>
+****
+
+|제어|설정|
+|---|---|
+|정책 유형|파일 정책|
+|정책 템플릿|템플릿 없음|
+|정책 심각도|높음|
+|범주|DLP|
+|필터 설정|액세스 수준 = 공용(인터넷), 공용, 외부 <p> 앱 = \<select apps\>(특정 SaaS 앱으로 모니터링을 제한하려는 경우 이 설정 사용)|
+|적용 대상|모든 파일, 모든 소유자|
+|콘텐츠 검사|현재 식과 일치하는 파일 포함: 모든 국가: 재무: 신용 카드 번호 <p> 관련 컨텍스트는 필요하지 않음: (regex 뿐만 아니라 키워드도 검색 대상임) <p> 일치하는 항목이 1개 이상인 파일 포함 <p> 위반의 마지막 4자 마스크 해제: 선택 취소됨|
+|경고|각각의 일치 파일에 대한 경고 만들기: 선택됨 <p> 일별 경고 제한: 1000 <p> 전자 메일 알림 선택: 선택됨 <p> 받는 사람: infosec@contoso.com|
+|거버넌스|Microsoft 비즈니스용 OneDrive <p> 비공개로 지정: 외부 사용자 제거 선택 <p> 다른 모든 설정: 선택되지 않음 <p> Microsoft SharePoint Online <p> 비공개로 지정: 외부 사용자 제거 선택 <p> 다른 모든 설정: 선택되지 않음|
+|
 
 비슷한 정책:
 
 - PII를 포함하는 파일 공유 감지 - 전자 메일 주소
-
 - PII를 포함하는 파일 공유 감지 - 여권 번호
 
 ### <a name="detect-customer-or-hr-data-in-box-or-onedrive-for-business"></a>Box 또는 비즈니스용 OneDrive에서 고객 또는 HR 데이터 감지
@@ -214,64 +168,23 @@ Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 참고:
 
 - Box 모니터링을 사용하려면 API Connector SDK를 사용하여 커넥터를 구성해야 합니다.
-
 - 이 정책에는 현재 비공개 미리 보기 상태인 기능이 필요합니다.
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><strong>제어</strong></th>
-<th align="left"><strong>설정</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">정책 유형</td>
-<td align="left">활동 정책</td>
-</tr>
-<tr class="even">
-<td align="left">정책 템플릿</td>
-<td align="left">템플릿 없음</td>
-</tr>
-<tr class="odd">
-<td align="left">정책 심각도</td>
-<td align="left">높음</td>
-</tr>
-<tr class="even">
-<td align="left">범주</td>
-<td align="left">제어 공유</td>
-</tr>
-<tr class="odd">
-<td align="left">작업</td>
-<td align="left">단일 활동</td>
-</tr>
-<tr class="even">
-<td align="left">필터 설정</td>
-<td align="left"><p>활동 유형 = 파일 업로드</p>
-<p>앱 = Microsoft 비즈니스용 OneDrive 및 Box</p>
-<p>분류 레이블(현재 비공개 미리 보기로 제공): Azure Information Protection = 고객 데이터, 인사 — 급여 데이터, 인사 - 직원 데이터</p></td>
-</tr>
-<tr class="odd">
-<td align="left">경고</td>
-<td align="left"><p>경고 만들기: 선택됨</p>
-<p>일별 경고 제한: 1000</p>
-<p>전자 메일 알림 선택: 선택됨</p>
-<p>받는 사람: infosec@contoso.com</p></td>
-</tr>
-<tr class="even">
-<td align="left">거버넌스</td>
-<td align="left"><p>모든 앱</p>
-<p>사용자 격리: 선택</p>
-<p>다른 모든 설정: 선택되지 않음</p>
-<p>Office 365</p>
-<p>사용자 격리: 선택</p>
-<p>다른 모든 설정: 선택되지 않음</p></td>
-</tr>
-</tbody>
-</table>
+****
+
+|제어|설정|
+|---|---|
+|정책 유형|활동 정책|
+|정책 템플릿|템플릿 없음|
+|정책 심각도|높음|
+|범주|제어 공유|
+|작업|단일 활동|
+|필터 설정|활동 유형 = 파일 업로드 <p> 앱 = Microsoft 비즈니스용 OneDrive 및 Box <p> 분류 레이블(현재 비공개 미리 보기로 제공): Azure Information Protection = 고객 데이터, 인사 — 급여 데이터, 인사 - 직원 데이터|
+|경고|경고 만들기: 선택됨 <p> 일별 경고 제한: 1000 <p> 전자 메일 알림 선택: 선택됨 <p> 받는 사람: infosec@contoso.com|
+|거버넌스|모든 앱 <p> 사용자 격리: 선택 <p> 다른 모든 설정: 선택되지 않음 <p> Office 365 <p> 사용자 격리: 선택 <p> 다른 모든 설정: 선택되지 않음|
+|
 
 비슷한 정책:
 
 - 고객 데이터나 HR 데이터의 대량 다운로드 감지 - 고객 데이터 또는 HR 데이터를 포함하는 많은 수의 파일을 짧은 기간 내에 단일 사용자가 다운로드한 것이 감지되면 경고합니다.
-
 - 고객 및 HR 데이터 공유 감지 — 고객 또는 HR 데이터를 포함하는 파일이 공유될 때 경고합니다.

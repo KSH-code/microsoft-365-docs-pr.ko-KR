@@ -2,7 +2,7 @@
 title: Microsoft 365 게스트 공유 설정 참조
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: 조직 외부 사용자와의 공유에 영향을 줄 수 있는 Microsoft 365에서 사용할 수 있는 게스트 공유 설정에 대해 알아봅니다.
-ms.openlocfilehash: 184962b1de8d1dccf86541dba302ca9de26989c2
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+ms.openlocfilehash: 0c734d1046a1c2d180c8102187b8cf07de7dc4dc
+ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030080"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49613047"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 게스트 공유 설정 참조
 
@@ -78,7 +78,7 @@ Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조�
 
 |**설정**|**기본값**|**설명**|
 |:-----|:-----|:-----|
-|조직 외부의 그룹 구성원이 그룹 콘텐츠에 액세스하도록 허용|켜짐|**켜짐** 으로 설정되면 게스트가 그룹 콘텐츠에 액세스할 수 있습니다. **해제** 로 설정하면 할 수 없습니다. 게스트 사용자가 Microsoft 365 그룹 또는 Teams와 상호 작용하는 모든 시나리오의 경우 이 설정을 **켜짐** 으로 지정해야 합니다.|
+|조직 외부의 그룹 구성원이 그룹 콘텐츠에 액세스하도록 허용|켜짐|**켜짐** 으로 설정되면 게스트가 그룹 콘텐츠에 액세스할 수 있습니다. **해제** 로 설정하면 할 수 없습니다. 게스트가 Microsoft 365 그룹 또는 Teams와 상호 작용하는 모든 시나리오의 경우 이 설정을 **켜짐** 으로 지정해야 합니다.|
 |그룹 소유자가 조직 외부의 사람을 그룹에 추가하도록 허용|켜짐|**켜짐** 으로 설정되면 Microsoft 365 그룹 또는 Teams 소유자는 새 게스트를 그룹에 초대할 수 있습니다. 이 기능을 **해제** 하면 소유자는 이미 디렉토리에 있는 게스트만 초대할 수 있습니다.|
 
 이러한 설정은 조직 수준에 있습니다. PowerShell을 사용하여 그룹 수준에서 이러한 설정을 변경하는 방법에 대한 자세한 내용은 [특정 그룹에 대한 설정 만들기](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#create-settings-for-a-specific-group)를 참조하세요.
@@ -197,7 +197,7 @@ SharePoint 및 OneDrive에서 게스트와 공유할 수 있는 사용자를 제
 |선택된 보안 그룹에 있는 사용자만 인증된 외부 사용자와 공유하도록 허용|해제|**켜짐** 이 설정되면 지정된 보안 그룹에 속한 사용자만 외부 사용자와 공유할 수 있습니다. *특정 사용자* 링크만 사용할 수 있습니다. **선택한 보안 그룹에 있는 사용자만 인증된 외부 사용자와 공유하고 익명 링크를 사용** 하도록 **설정** 하지 않은 경우 *모든 사용자* 공유가 효과적으로 해제됩니다.|
 |선택된 보안 그룹에 있는 사용자들만 인증된 외부 사용자들과 공유하고 익명의 링크를 사용하도록 허용|해제|**켜짐** 이 설정되면 지정된 보안 그룹에 속한 사용자만 게스트와 공유할 수 있습니다. *모든 사용자* 와 *특정 사용자* 링크를 사용할 수 있습니다.|
 
-이 두 가지 설정은 동시에 사용할 수 있습니다. 사용자가 두 설정에 대해 지정된 보안 그룹에 있는 경우 더 높은 사용 권한 수준이 우선합니다( *모든 사용자* + *특정 사용자* ). 중첩 된 보안 그룹이 지원 됩니다.
+이 두 가지 설정은 동시에 사용할 수 있습니다. 사용자가 두 설정에 대해 지정된 보안 그룹에 있는 경우 더 높은 사용 권한 수준이 우선합니다(*모든 사용자* + *특정 사용자*). 중첩 된 보안 그룹이 지원 됩니다.
 
 ## <a name="sharepoint-site-level"></a>SharePoint(사이트 수준)
 

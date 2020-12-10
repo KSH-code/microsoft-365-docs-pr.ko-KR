@@ -18,8 +18,32 @@
       href: compliance-extensibility.md
 - name: 참가자 위험 관리
   items:
+    - name: Microsoft 365 참가자 위험 솔루션
+      href: insider-risk-solution-overview.md
+    - name: 커뮤니케이션 규정 준수
+      items:
+        - name: 개요
+          href: communication-compliance-solution-overview.md
+        - name: 커뮤니케이션 규정 준수에 대해 알아보기
+          href: communication-compliance.md
+        - name: 커뮤니케이션 규정 준수 계획
+          href: communication-compliance-plan.md
+        - name: 커뮤니케이션 규정 준수 시작
+          href: communication-compliance-configure.md
+        - name: 커뮤니케이션 규정 준수 알림 검사 및 수정
+          href: communication-compliance-investigate-remediate.md
+        - name: 커뮤니케이션 규정 준수에 대한 기능 참조
+          href: communication-compliance-feature-reference.md
+        - name: 사례 연구 - Contoso에서 빠르게 무례한 언어 정책을 구성합니다
+          href: communication-compliance-case-study.md
+        - name: Office 365에서의 감독 정책
+          href: supervision-policies.md
+        - name: Office 365에 대한 감독 정책 구성
+          href: configure-supervision-policies.md
     - name: 내부자 위험 관리
       items:
+        - name: 개요
+          href: insider-risk-management-solution-overview.md
         - name: 내부자 위험 관리에 대해 알아보기
           href: insider-risk-management.md
         - name: 내부자 위험 관리 계획
@@ -40,27 +64,12 @@
           href: insider-risk-management-users.md
         - name: 내부자 위험 알림 서식 파일 만들기
           href: insider-risk-management-notices.md
-    - name: 커뮤니케이션 규정 준수
-      items:
-        - name: 커뮤니케이션 규정 준수에 대해 알아보기
-          href: communication-compliance.md
-        - name: 커뮤니케이션 규정 준수 계획
-          href: communication-compliance-plan.md
-        - name: 커뮤니케이션 규정 준수 시작
-          href: communication-compliance-configure.md
-        - name: 커뮤니케이션 규정 준수 알림 검사 및 수정
-          href: communication-compliance-investigate-remediate.md
-        - name: 커뮤니케이션 규정 준수에 대한 기능 참조
-          href: communication-compliance-feature-reference.md
-        - name: 사례 연구 - Contoso에서 빠르게 무례한 언어 정책을 구성합니다
-          href: communication-compliance-case-study.md
-        - name: Office 365에서의 감독 정책
-          href: supervision-policies.md
-        - name: Office 365에 대한 감독 정책 구성
-          href: configure-supervision-policies.md
     - name: 정보 장벽
-      href: information-barriers.md
       items:
+        - name: 개요
+          href: information-barriers-solution-overview.md
+        - name: 정보 장벽에 대해 알아보기
+          href: information-barriers.md
         - name: 정보 장벽 정책 정의
           href: information-barriers-policies.md
         - name: 정보 장벽 정책의 속성
@@ -71,6 +80,8 @@
           href: information-barriers-edit-segments-policies.md
     - name: 권한이 부여된 액세스 관리
       items:
+        - name: 개요
+          href: privileged-access-management-solution-overview.md
         - name: 권한이 부여된 액세스 관리에 대한 자세한 정보
           href: privileged-access-management-overview.md
         - name: 권한이 부여된 액세스 관리 시작
@@ -346,7 +357,7 @@
               href: archive-ciscojabberonmssql-data.md
             - name: EML
               href: archive-eml-data.md
-            - name: FX Connect
+            - name: FX 연결
               href: archive-fxconnect-data.md
             - name: Jive
               href: archive-jive-data.md
