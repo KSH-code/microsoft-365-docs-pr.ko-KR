@@ -2,6 +2,7 @@
 title: SharePoint Syntex 설정
 ms.author: mikeplum
 author: MikePlumleyMSFT
+ms.reviewer: ssquires
 manager: serdars
 audience: admin
 ms.topic: article
@@ -10,12 +11,12 @@ ms.collection: enabler-strategic
 search.appverid: MET150
 localization_priority: Priority
 description: Project Cortex에서 콘텐츠 이해 설정
-ms.openlocfilehash: dfbcc8e41a28e3107b58ac6b8d471e3a2a08d036
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 1abcc71200642de3f74a92e83299e079ffffb038
+ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087574"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49604271"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
@@ -23,12 +24,12 @@ ms.locfileid: "49087574"
 
 시작하기 전에 다음을 고려해야 합니다.
 
-- Which SharePoint sites will you enable form processing? All of them, some, or select sites?
+- 양식 처리를 활성화할 SharePoint 사이트는 무엇입니까? 전부요, 일부인가요, 아니면 특정 사이트인가요?
 - 기본 컨텐츠 센터의 이름을 무엇으로 지정하시겠어요?
 
 Microsoft 365 관리 센터에서 초기 설정 후 설정을 변경할 수 있습니다.
 
-Prior to setup, make sure to plan for the best way to set up and configure content understanding in your environment. For example, you need to make considerations about the following names of:
+설정하기 전에 사용자 환경에서 컨텐츠 이해도를 설정하고 구성하는 최선의 방법을 계획해야 합니다. 예를 들어 다음 이름을 고려해야 합니다.
 
 - 양식 처리를 실행하려는 SharePoint 사이트(모든 사이트, 일부 사이트 또는 선택한 사이트)입니다.
 - 컨텐츠 센터 및 주 사이트 관리자의 이름입니다.
@@ -51,7 +52,7 @@ Prior to setup, make sure to plan for the best way to set up and configure conte
     > [!div class="mx-imgBorder"]
     > ![설치 시작](../media/content-understanding/admin-content-understanding-get-started.png)</br>
 
-4. On the **Configure Form Processing** page, you can choose if you want to let users be able to create form processing models in specific SharePoint document libraries. A menu option will be available in the document library ribbon to **Create a form processing model** in SharePoint document libraries in which it is enabled.
+4. **양식 처리 구성** 페이지에서 사용자가 특정 SharePoint 문서 라이브러리에 양식 처리 모델을 생성할 수 있도록 허용할지 여부를 선택할 수 있습니다. 사용 설정된 해당 Sharepoint 문서 라이브러리 리본에서 **양식 처리 모델을 만들기** 위한 문서 라이브러리 리본의 메뉴 옵션을 사용할 수 있습니다.
  
      **양식 처리 모델** 을(를) 생성하기 위해 어떤 SharePoint 라이브러리에 표시할 것인지에 대해 다음을 선택할 수 있습니다.</br>
       - **모든 SharePoint 라이브러리** 를 조직의 모든 SharePoint 라이브러리에서 사용할 수 있도록 합니다.</br>
@@ -68,18 +69,18 @@ Prior to setup, make sure to plan for the best way to set up and configure conte
 
     1. **사이트 이름** 에 대해 콘텐츠 센터 사이트에 지정할 이름을 입력합니다.
     
-    1. The **Site address** will show the URL for your site, based on what you selected for the site name. If you want to change it, click **Edit**.
+    1. **사이트 주소** 는 사이트 이름에 대해 선택한 항목에 따라 사이트의 URL을 표시합니다. 변경하려는 경우 **편집** 을 클릭합니다.
 
        > [!div class="mx-imgBorder"]
        > ![콘텐츠 센터 만들기](../media/content-understanding/admin-cu-create-cc.png)</br>
 
        **다음** 을 선택합니다.
 
-6. On the **Review and finish** page, you can look at your selected setting and choose to make changes. If you are satisfied with your selections, select **Activate**.
+6. **검토 및 마침** 페이지에서 선택한 설정을 보고 변경하도록 선택할 수 있습니다. 원하는 항목을 선택한 경우 **활성화** 를 선택합니다.
 
 7. 확인 페이지에서 **완료** 를 클릭합니다.
 
-8. You'll be returned to your **Automate content understanding** page. From this page, you can select **Manage** to make any changes to your configuration settings. 
+8. **콘텐츠 이해 자동화** 페이지로 돌아갑니다. 이 페이지에서 **관리** 를 선택하여 구성 설정을 변경할 수 있습니다. 
 
 ## <a name="assign-licenses"></a>라이선스 할당
 
@@ -93,16 +94,16 @@ SharePoint Syntex를 구성한 후에는 SharePoint Syntex 기능을 사용할 �
 
 3. **추가 할당** 을 선택합니다.
 
-4. Select **SharePoint Syntex**. Under **Apps**, make sure **Common Data Service for SharePoint Syntex**, **SharePoint Syntex**, and **SharePoint Syntex - SPO type** are all selected.
+4. **SharePoint Syntax** 를 선택합니다. **앱** 에서 **SharePoint Syntex용 일반 데이터 서비스**, **SharePoint Syntex** 및 **SharePoint Syntex - SPO 유형** 이 모두 선택되어 있는지 확인합니다.
 
     > [!div class="mx-imgBorder"]
     > ![Microsoft 365 관리 센터의 SharePoint Syntex 라이선스](../media/content-understanding/sharepoint-syntex-licenses.png)
 
-5. **변경 내용 저장** 을 클릭합니다.
+5. **변경 사항 저장** 를 클릭합니다.
 
 ## <a name="ai-builder-credits"></a>AI Builder 크레딧
 
-If you have 300 or more SharePoint Syntex licenses for SharePoint Syntex in your organization, you will be allocated one million AI Builder credits. If you have fewer than 300 licenses, you must purchase AI Builder credits in order to use forms processing.
+조직에 SharePoint Syntex에 대한 SharePoint Syntex 라이선스가 300개 이상 있는 경우 100만 개의 AI Builder 크레딧이 할당됩니다. 라이선스 수가 300개 미만인 경우 양식 처리를 사용하려면 AI Builder 크레딧을 구입해야 합니다.
 
 [AI Builder 계산기](https://powerapps.microsoft.com/ai-builder-calculator)을(를) 사용하여 사용자에게 적합한 AI Builder 용량을 추정할 수 있습니다.
 

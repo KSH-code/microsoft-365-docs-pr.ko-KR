@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: 관리자는 Exchange Online Protection(EOP)에서 메시지에 추가한 헤더 필드에 대해 알아볼 수 있습니다. 이러한 헤더 필드는 메시지와 해당 메시지가 처리되는 방법에 대한 정보를 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f54ffad5107e0de00b0098d5f347ab37ae92d80
-ms.sourcegitcommit: 2d3e85173c65a9e0ce92624a80ed7a9839f5b8bd
+ms.openlocfilehash: bb3b2eb9e4ce4a63d4bef276dde9e19b491aae53
+ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49123476"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49615543"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Microsoft 365의 스팸 방지 메시지 헤더
 
@@ -60,7 +60,7 @@ ms.locfileid: "49123476"
 |필드|설명|
 |---|---|
 |`ARC`|`ARC` 프로토콜에는 다음 필드가 있습니다. <ul><li>`AAR`: DMARC에서 **인증-결과** 헤더의 내용을 기록합니다.</li><li>`AMS`: 메시지의 암호화 서명을 포함합니다.</li><li>`AS`: 메시지 헤더의 암호화 서명을 포함합니다. 이 필드에는 `"cv="`이라는 체인 유효성 검사 태그가 포함되어 있습니다. 여기에는 **해당 없음**, **통과** 또는 **실패** 로 체인 유효성 검사 결과가 포함됩니다.</li></ul>|
-|`CAT:`|메시지에 적용 되는 보호 정책의 범주: <ul><li>`BULK`: 대량</li><li>`DIMP`: 도메인 가장</li><li>`GIMP`: [사서함 인텔리전스 기반 가장](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>`HPHSH` 또는 `HPHISH`: 높은 신뢰도의 피싱</li><li>`HSPM`: 신뢰도가 높은 스팸</li><li>`MALW`: 악성 코드</li><li>`PHSH`: 피싱</li><li>`SPM`: 스팸</li><li>`SPOOF`: 스푸핑</li><li>`UIMP` : 사용자 가장</li><li>`AMP` : 맬웨어 방지</li><li>`SAP` : 안전한 첨부 파일</li><li>`OSPM` : 발신 스팸</li></ul><br/>인바운드 메시지는 여러 유형의 보호 및 다중 검색 검사에 의해 플래그가 지정될 수 있습니다. 정책의 우선 순위가 다르기 때문에 우선 순위가 가장 높은 정책이 먼저 적용됩니다. 자세한 내용을 알고 싶다면 [전자 메일에 여러 보호 방법과 검색 검사가 실행될 때 어떤 정책이 적용되는지](how-policies-and-protections-are-combined.md)를 확인합니다.|
+|`CAT:`|메시지에 적용 되는 보호 정책의 범주: <ul><li>`BULK`: 대량</li><li>`DIMP`: 도메인 명의 도용</li><li>`GIMP`: [사서함 인텔리전스 기반 가장](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>`HPHSH` 또는 `HPHISH`: 높은 신뢰도의 피싱</li><li>`HSPM`: 신뢰도가 높은 스팸</li><li>`MALW`: 악성 코드</li><li>`PHSH`: 피싱</li><li>`SPM`: 스팸</li><li>`SPOOF`: 스푸핑</li><li>`UIMP` : 사용자 가장</li><li>`AMP` : 맬웨어 방지</li><li>`SAP` : 안전한 첨부 파일</li><li>`OSPM` : 발신 스팸</li></ul> <p> 인바운드 메시지는 여러 유형의 보호 및 다중 검색 검사에 의해 플래그가 지정될 수 있습니다. 정책의 우선 순위가 다르기 때문에 우선 순위가 가장 높은 정책이 먼저 적용됩니다. 자세한 내용을 알고 싶다면 [전자 메일에 여러 보호 방법과 검색 검사가 실행될 때 어떤 정책이 적용되는지](how-policies-and-protections-are-combined.md)를 확인합니다.|
 |`CIP:[IP address]`|연결할 IP 주소. IP 허용 목록 또는 IP 차단 목록에 이 IP 주소를 사용할 수 있습니다. 자세한 내용은 [연결 필터링 구성](configure-the-connection-filter-policy.md)을 참조하십시오.|
 |`CTRY`|연결 IP 주소(원래 메시지를 보낸 IP 주소와 다를 수도 있음)를 통해 확인되는 원본 국가입니다.|
 |`H:[helostring]`|연결 전자 메일 서버의 HELO 또는 EHLO 문자열입니다.|
@@ -70,9 +70,9 @@ ms.locfileid: "49123476"
 |`PTR:[ReverseDNS]`|원본 IP 주소의 PTR 레코드 (역 DNS 조회라고도 함).|
 |`SCL`|메시지의 SCL(스팸 지수)입니다. 값이 높을수록 메시지가 스팸일 가능성이 더 높습니다. 자세한 내용은 [SCL(스팸 지수)](spam-confidence-levels.md)을 참조하세요.|
 |`SFTY`|메시지가 피싱 메일로 확인되었으므로 다음 값 중 하나로 표시됩니다. <ul><li>9.1: 기본값. 메시지에는 피싱 URL, 기타 피싱 콘텐츠 또는 온사이트 Exchange에서 피싱으로 표시된 일부 또는 전체가 포함됩니다.</li><li>[9.11: 조직 내 또는 자체 스푸핑](anti-spoofing-protection.md#different-types-of-spoofing) 조직 내 스푸핑에 대한 안전 정보가 메시지에 추가됩니다.</li><li>9.19: 도메인 가장. 보내는 도메인이 [보호된 도메인을 사용자 도용](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)하려고 시도하고 있습니다. 도메인 가장에 대한 안전 팁이 메시지에 추가됩니다(사용 가능한 경우).</li><li>9.20: 사용자 가장. 발신 사용자가 수신자 조직의 사용자 또는 Office 365용 Microsoft Defender의 피싱 방지 정책에 지정된 보호된 사용자를 가장하려고 합니다. 사용자 가장에 대한 안전 팁이 메시지에 추가됩니다(사용 가능한 경우).</li><li>9.21: [교차 도메인 스푸핑](anti-spoofing-protection.md#different-types-of-spoofing)입니다. 메시지가 스푸핑 방지 확인에 실패했습니다. 보낸 사람 헤더에 있는 보낸 사람의 전자 메일 도메인은 인증되지 않으며 외부 도메인입니다. [ 복합 인증](#authentication-results-message-header-fields)과(와) 함께 사용됩니다.</li><li>9.22: 9.21과 동일하며, 다른 사항은 사용자에게 재정의된 [수신 허용 - 보낸 사람]이 있다는 점입니다.</li><li>9.23: 9.22와 동일하며, 다른 사항은 조직에 재정의된 허용된 보낸 사람 또는 도메인이 있다는 점입니다.</li><li>9.24: 9.23과 동일하며, 다른 사항은 사용자에게 재정의된 Exchange 메일 흐름 규칙(전송 규칙이라고도 함)이 있다는 점입니다.</li></ul>|
-|`SFV:BLK`|사용자의 차단된 보낸 사람 목록에 있는 주소에서 보낸 메시지이므로 필터링을 건너뛰고 메시지를 차단했습니다.<br/></br> 관리자가 사용자의 차단된 보낸 사람 목록을 관리하는 방법에 대한 자세한 내용은 [Exchange Online 사서함](configure-junk-email-settings-on-exo-mailboxes.md)에서 정크 전자 메일 설정 구성을 참조하시기 바랍니다.|
+|`SFV:BLK`|사용자의 차단된 보낸 사람 목록에 있는 주소에서 보낸 메시지이므로 필터링을 건너뛰고 메시지를 차단했습니다. <p> 관리자가 사용자의 차단된 보낸 사람 목록을 관리하는 방법에 대한 자세한 내용은 [Exchange Online 사서함](configure-junk-email-settings-on-exo-mailboxes.md)에서 정크 전자 메일 설정 구성을 참조하시기 바랍니다.|
 |`SFV:NSPM`|스팸 필터링은 메시지를 비스팸으로 표시했으며 메시지가 원하는 수신자에게 전송되었습니다.|
-|`SFV:SFE`|필터를 건너뛰고 사용자의 안전 보낸 사람 목록에 있는 주소에서 보낸 메시지이므로 이 메시지가 허용되었습니다.<br/></br> 관리자가 사용자의 안전한 보낸 사람 목록을 관리하는 방법에 대한 자세한 내용은 [Exchange Online 사서함](configure-junk-email-settings-on-exo-mailboxes.md)에서 정크 전자 메일 설정 구성을 참조하시기 바랍니다.|
+|`SFV:SFE`|필터를 건너뛰고 사용자의 안전 보낸 사람 목록에 있는 주소에서 보낸 메시지이므로 이 메시지가 허용되었습니다. <p> 관리자가 사용자의 안전한 보낸 사람 목록을 관리하는 방법에 대한 자세한 내용은 [Exchange Online 사서함](configure-junk-email-settings-on-exo-mailboxes.md)에서 정크 전자 메일 설정 구성을 참조하시기 바랍니다.|
 |`SFV:SKA`|보낸 사람이 안티스팸 정책의 허용된 보낸 사람 목록 또는 허용된 도메인 목록에 있으므로 스팸 필터링을 건너뛰고 받은 편지함으로 배달되었습니다. 자세한 내용은 [안티스팸 정책 구성](configure-your-spam-filter-policies.md)을(를) 참조합니다.|
 |`SFV:SKB`|메시지는 차단된 보낸 사람 목록 또는 안티스팸 정책의 차단된 도메인 목록의 보낸 사람과 일치하기 때문에 스팸으로 표시되었습니다. 자세한 내용은 [안티스팸 정책 구성](configure-your-spam-filter-policies.md)을(를) 참조합니다.|
 |`SFV:SKI`|SFV와 유사합니다.SKN, 메시지는 다른 이유로 스팸 필터링을 건너뛰었습니다(예: 테넌트 내의 조직 내 전자 메일).|
