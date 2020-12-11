@@ -15,56 +15,56 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Salesforce Chatter, Yahoo Messenger 또는 Yammer와 같은 데이터 원본에서 타사 데이터를 가져오도록 사용자 지정 커넥터를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 97e36566c3dcc9b069a39eb50e203cda971ba3c2
-ms.sourcegitcommit: 24826e1b61e7aace12fc9e8ae84ae3e760658b50
+description: Salesforce Chatter, Yahoo Messenger 또는 2013과 같은 데이터 원본에서 타사 데이터를 가져오기 위해 사용자 지정 커넥터를 설정하는 Yammer.
+ms.openlocfilehash: 64e903604ea56e5f53e3cc154bd54459a6d8d554
+ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48931950"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620214"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data"></a>타사 데이터를 저장하는 데 파트너와 협력
 
-Microsoft 파트너와 협력 하 여 타사 데이터 원본에서 Microsoft 365로 데이터를 가져오고 보관할 수 있습니다. 파트너는 타사 데이터 원본에서 정기적으로 항목을 추출 하 고 해당 항목을 가져오기 위해 구성 된 사용자 지정 커넥터를 제공할 수 있습니다. 파트너 커넥터는 항목의 콘텐츠를 데이터 원본에서 전자 메일 메시지 형식으로 변환한 다음 항목을 사서함에 저장 합니다. 타사 데이터를 가져온 후에는이 데이터에 소송 보존, eDiscovery, In-Place 보관, 감사 및 Microsoft 365 고정 정책 등의 Microsoft 365 준수 기능을 적용할 수 있습니다.
- 
+Microsoft 파트너와 협력하여 타사 데이터 원본에서 Microsoft 365로 데이터를 가져오고 보관할 수 있습니다. 파트너는 타사 데이터 원본에서 항목을 추출한 다음(정기적으로) 해당 항목을 가져오도록 구성된 사용자 지정 커넥터를 제공할 수 있습니다. 파트너 커넥터는 항목의 내용을 데이터 원본에서 전자 메일 메시지 형식으로 변환한 다음 사서함에 항목을 저장합니다. 타사 데이터를 가져온 후 소송 보존, eDiscovery, In-Place 보관, 감사 및 Microsoft 365 보존 정책과 같은 Microsoft 365 규정 준수 기능을 이 데이터에 적용할 수 있습니다.
+
 >[!IMPORTANT]
->Microsoft 365의 [통신 준수](communication-compliance.md) 솔루션은이 문서에 설명 된 파트너 커넥터로 가져온 타사 데이터에는 적용할 수 없습니다. 
- 
-타사 데이터를 가져오기 위해 Microsoft 파트너와 함께 작업 하는 데 필요한 프로세스 및 단계의 개요는 다음과 같습니다.
+>Microsoft [](communication-compliance.md) 365의 통신 준수 솔루션은 이 문서에 언급된 파트너 커넥터에서 가져온 타사 데이터에 적용할 수 없습니다. 
+
+다음은 타사 데이터를 가져오기 위해 Microsoft 파트너와 협력하는 데 필요한 프로세스 및 단계에 대한 개요입니다.
 
 [Step 1: Find a third-party data partner](#step-1-find-a-third-party-data-partner)
 
-[2 단계: 타사 데이터 사서함 만들기 및 구성](#step-2-create-and-configure-a-third-party-data-mailbox-in-office-365)
+[2단계: 타사 데이터 사서함 만들기 및 구성](#step-2-create-and-configure-a-third-party-data-mailbox-in-microsoft-365)
 
 [Step 3: Configure user mailboxes for third-party data](#step-3-configure-user-mailboxes-for-third-party-data)
 
 [4단계: 파트너에게 정보 제공](#step-4-provide-your-partner-with-information)
 
-[5 단계: Azure Active Directory에서 타사 데이터 커넥터 등록](#step-5-register-the-third-party-data-connector-in-azure-active-directory)
+[5단계: Azure Active Directory에 타사 데이터 커넥터 등록](#step-5-register-the-third-party-data-connector-in-azure-active-directory)
 
 ## <a name="how-the-third-party-data-import-process-works"></a>타사 데이터 가져오기 프로세스의 작동 방식
 
-다음 그림 및 설명은 파트너와 함께 작업 하는 경우 타사 데이터 가져오기 프로세스의 작동 방식에 대해 설명 합니다.
+다음 그림과 설명은 파트너와 함께 작업할 때 타사 데이터 가져오기 프로세스가 작동하는 방식에 대해 설명합니다.
   
 ![타사 데이터 가져오기 프로세스의 작동 방식](../media/5d4cf8e9-b4cc-4547-90c8-d12d04a9f0e7.png)
   
-1. 고객은 선택한 파트너와 함께 작업 하 여 타사 데이터 원본에서 항목을 추출 하 고 해당 항목을 Microsoft 365로 가져오는 커넥터를 구성 합니다.
+1. 고객은 선택한 파트너와 협력하여 타사 데이터 원본에서 항목을 추출한 다음 해당 항목을 Microsoft 365로 가져오는 커넥터를 구성합니다.
     
-2. 파트너 커넥터가 타사 API (예약 또는 구성 된 기준)를 통해 타사 데이터 원본에 연결 하 고 데이터 원본에서 항목을 추출 합니다. 파트너 커넥터는 항목의 내용을 전자 메일 메시지 형식으로 변환합니다. 메시지 형식 스키마에 대 한 [자세한 내용은 More information](#more-information) 섹션을 참조 하십시오. 
+2. 파트너 커넥터는 타사 API를 통해(예약 또는 구성에 따라) 타사 데이터 원본에 연결하고 데이터 원본에서 항목을 추출합니다. 파트너 커넥터는 항목의 내용을 전자 메일 메시지 형식으로 변환합니다. 메시지 형식 schema에 대한 설명은 [추가](#more-information) 정보 섹션을 참조하세요. 
     
-3. 파트너 커넥터는 잘 알려진 끝점을 통해 EWS (Exchange 웹 서비스)를 사용 하 여 Microsoft 365의 Azure 서비스에 연결 합니다.
+3. 파트너 커넥터는 잘 알려진 끝점을 통해 EWS(Exchange 웹 서비스)를 사용하여 Microsoft 365의 Azure 서비스에 연결합니다.
     
 4. 항목은 특정 사용자의 사서함 또는 "범용" 타사 데이터 사서함으로 가져오기됩니다. 항목을 특정 사용자 사서함으로 가져올지 또는 타사 데이터 사서함으로 가져올지는 다음 기준을 기반으로 합니다.
     
-   1. **사용자 계정에 해당 하는 사용자 ID가 있는 항목:** 파트너 커넥터가 타사 데이터 원본 항목의 사용자 ID를 Office 365의 특정 사용자 ID에 매핑할 수 있는 경우 해당 항목은 사용자의 복구 가능한 항목 폴더에 있는 **제거** 폴더에 복사 됩니다. 제거 폴더의 항목에는 액세스할 수 없습니다. 그러나 eDiscovery 도구를 사용 하 여 제거 폴더에서 항목을 검색할 수는 있습니다.
+   1. 사용자 계정에 해당하는 사용자 **ID가 있는 항목:** 파트너 커넥터가 타사 데이터 원본에 있는 항목의 사용자 ID를 Microsoft 365의 특정 사용자 ID에 매핑할  수 있는 경우 해당 항목이 사용자의 복구 가능한 항목 폴더에 있는 제거 폴더에 복사됩니다. 제거 폴더의 항목에는 액세스할 수 없습니다. 그러나 eDiscovery 도구를 사용하여 제거 폴더의 항목을 검색할 수 있습니다.
     
-   1. **사용자 계정에 해당 하는 사용자 ID가 없는 항목:** 파트너 커넥터가 항목의 사용자 ID를 특정 사용자 ID에 매핑할 수 없는 경우 항목은 타사 데이터 사서함의 **받은 편지함** 폴더에 복사 됩니다. 받은 편지함에 항목을 가져올 수 있으면 관리자 또는 조직의 누군가가 타사 사서함에 로그인하여 이러한 항목을 보고 관리할 수 있으며 파트너 커넥터 구성을 조정해야 하는지 확인할 수 있습니다.
+   1. 사용자 계정에 해당하는 사용자 **ID가 없는 항목:** 파트너 커넥터에서 항목의 사용자 ID를 특정 사용자 ID에 매핑할 수 없는 경우  항목이 타사 데이터 사서함의 받은 편지함 폴더에 복사됩니다. 받은 편지함에 항목을 가져올 수 있으면 관리자 또는 조직의 누군가가 타사 사서함에 로그인하여 이러한 항목을 보고 관리할 수 있으며 파트너 커넥터 구성을 조정해야 하는지 확인할 수 있습니다.
  
 ## <a name="step-1-find-a-third-party-data-partner"></a>1단계: 타사 데이터 파트너 찾기
 
-Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소는 타사 데이터 원본에서 데이터를 캡처하고 Office 365로 가져오는 Microsoft 파트너를 찾고 사용 하는 것입니다. 데이터를 가져온 후에는 조직의 다른 Microsoft 데이터 (예: Exchange의 전자 메일, SharePoint의 문서 및 비즈니스용 OneDrive)와 함께 보관 하 고 보존할 수 있습니다. 파트너는 조직의 타사 데이터 원본 (예: BlackBerry, Facebook, Google +,: Thomson Reuters, Twitter)에서 데이터를 추출 하는 커넥터를 만들고 해당 데이터를 Exchange 사서함에 전자 메일 메시지로 가져오는 Office 365 API에 전달 합니다. 
+Microsoft 365에서 타사 데이터를 보관하는 주요 구성 요소는 타사 데이터 원본에서 데이터를 캡처하고 Microsoft 365로 가져오는 전문 Microsoft 파트너를 찾아 협력하는 것입니다. 데이터를 가져온 후 Exchange의 전자 메일, SharePoint 및 비즈니스용 OneDrive의 문서와 같은 조직의 다른 Microsoft 데이터와 함께 데이터를 보관하고 보존할 수 있습니다. 파트너는 조직의 타사 데이터 원본(예: BlackBerry, Facebook, Google+, Thomson Reuters, Twitter 및 YouTube)에서 데이터를 추출하고 해당 데이터를 Exchange 사서함에 전자 메일 메시지로 가져오는 Microsoft 365 API로 전달하는 커넥터를 만듭니다.
   
-다음 섹션에는 Office 365에서 타사 데이터를 보관 하기 위한 프로그램에 참여 하는 Microsoft 파트너 (지원 되는 타사 데이터 원본)이 나와 있습니다.
+다음 섹션에서는 Microsoft 365에서 타사 데이터를 보관하기 위한 프로그램에 참여하는 Microsoft 파트너(및 지원되는 타사 데이터 원본)를 나열합니다.
 
 [17a-4 LLC](#17a-4-llc)
   
@@ -80,7 +80,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
   
 ### <a name="17a-4-llc"></a>17a-4 LLC
 
-[17a-4 LLC](https://www.17a-4.com) 에서는 다음 타사 데이터 원본을 지원 합니다.
+[17a-4 LLC는](https://www.17a-4.com) 다음과 같은 타사 데이터 원본을 지원합니다.
   
 - BlackBerry
     
@@ -116,7 +116,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
     
 - SQL 데이터베이스
     
-- Squawker
+- 스쿼커
     
 - Thomson Reuters Eikon Messenger
   
@@ -124,17 +124,17 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
   
 ### <a name="archivesocial"></a>ArchiveSocial
 
-[ArchiveSocial ](https://www.archivesocial.com) 에서는 다음의 타사 데이터 원본을 지원 합니다. 
+[ArchiveSocial은 ](https://www.archivesocial.com) 다음과 같은 타사 데이터 원본을 지원합니다. 
   
 - Facebook
     
 - Flickr
     
-- 명령이 있는 agram
+- 인자
     
 - LinkedIn
     
-- 유 이율
+- Pinterest
     
 - Twitter
     
@@ -144,7 +144,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
   
 ### <a name="globanet"></a>Globanet
 
-[Globanet](https://www.globanet.com) 에서는 다음의 타사 데이터 원본을 지원 합니다. 
+[Globanet은](https://www.globanet.com) 다음과 같은 타사 데이터 원본을 지원합니다. 
   
 - AOL with Pivot Client  
     
@@ -164,21 +164,21 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
     
 - CipherCloud for Salesforce Chatter
     
-- Cisco IM &amp; 현재 상태 서버 (v10, v 10.5.1 SU1, v 11.0, v 11.5 SU2)
+- Cisco IM &amp; Presence Server(v10, v10.5.1 SU1, v11.0, v11.5 SU2)
 
-- Cisco Webex 팀
+- Cisco Webex Teams
 
-- Citrix 작업 영역 &amp; sharefile
+- Citrix Workspace &amp; ShareFile
 
 - CrowdCompass
 
-- 사용자 지정 구분 텍스트 파일
+- 사용자 지정으로분된 텍스트 파일
     
 - 사용자 지정 XML 파일
     
-- Facebook (페이지)
+- Facebook(Pages)
     
-- Factset
+- 팩트 집합
     
 - FXConnect
     
@@ -224,7 +224,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
   
 ### <a name="opentext"></a>OpenText
 
-[OpenText](https://www.opentext.com/what-we-do/products/opentext-product-offerings-catalog/rebranded-products/daegis) 에서는 다음의 타사 데이터 원본을 지원 합니다. 
+[OpenText는](https://www.opentext.com/what-we-do/products/opentext-product-offerings-catalog/rebranded-products/daegis) 다음과 같은 타사 데이터 원본을 지원합니다. 
   
 - Axs Encrypted
     
@@ -242,7 +242,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
   
 ### <a name="smarsh"></a>Smarsh
 
-[Smarsh](https://www.smarsh.com) 에서는 다음의 타사 데이터 원본을 지원 합니다. 
+[Smarsh는](https://www.smarsh.com) 다음과 같은 타사 데이터 원본을 지원합니다. 
   
 - AIM
     
@@ -270,7 +270,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
     
 - Bloomberg Mail
     
-- 셀 신뢰
+- CellTrust
     
 - Chat Import
     
@@ -278,7 +278,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
     
 - Chatter
     
-- Cisco IM &amp; 현재 상태 서버 (v 9.0.1, v 9.1, v 9.1.1 SU1, v10, v 10.5.1 SU1)
+- Cisco IM &amp; Presence Server(v9.0.1, v9.1, v9.1.1 SU1, v10, v10.5.1 SU1)
     
 - Cisco Unified Presence Server(v8.6.3, v8.6.4, v8.6.5)
     
@@ -296,11 +296,11 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
     
 - Gnutella
     
-- Google +
+- Google+
     
 - GoToMyPC
     
-- Hopster
+- 홉스터
     
 - HubConnex
     
@@ -322,7 +322,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
     
 - IBM SameTime Meeting 8.5.2 IFR1
     
-- 아이스/YellowJacket
+- ICE/YellowJacket
     
 - IM Import
     
@@ -360,17 +360,17 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
     
 - Mobile Guard
     
-- 수신
+- MSN
     
 - My Space
     
 - NEONetwork
     
-- Office 365 Lync Dedicated
+- Microsoft 365 Lync Dedicated
     
-- Office 365 Shared IM
+- Microsoft 365 공유 IM
     
-- 유 이율
+- Pinterest
     
 - Pivot
     
@@ -386,7 +386,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
     
 - Thomson Reuters Messenger
     
-- 한자
+- Tor
     
 - TTT
     
@@ -405,7 +405,7 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
 
 ### <a name="verba"></a>Verba
 
-[Verba](https://www.verba.com) 는 다음 타사 데이터 원본을 지원 합니다. 
+[Verba는](https://www.verba.com) 다음과 같은 타사 데이터 원본을 지원합니다. 
   
 - Avaya Aura Video
     
@@ -427,9 +427,9 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
     
 - Cisco UC Voice
     
-- Cisco c s p/c h i v 비디오
+- Cisco UCCX/UCCE 비디오
     
-- Cisco c s p/c h 음성
+- Cisco UCCX/UCCE Voice
     
 - ESChat Radio
     
@@ -471,48 +471,48 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
     
 - Windows 데스크톱 컴퓨터 화면
   
-## <a name="step-2-create-and-configure-a-third-party-data-mailbox-in-office-365"></a>2단계: Office 365에서 타사 데이터 사서함 만들기 및 구성
+## <a name="step-2-create-and-configure-a-third-party-data-mailbox-in-microsoft-365"></a>2단계: Microsoft 365에서 타사 데이터 사서함 만들기 및 구성
 
-다음은 Office 365로 데이터를 가져오기 위한 타사 데이터 사서함을 만들고 구성 하는 단계입니다. 앞에서 설명한 것 처럼 파트너 커넥터에서 항목의 사용자 ID를 사용자 계정에 매핑할 수 없는 경우에는이 사서함으로 항목을 가져옵니다.
+Microsoft 365로 데이터를 가져오기 위한 타사 데이터 사서함을 만들고 구성하는 단계는 다음과 같습니다. 앞서 설명한 것 처럼 파트너 커넥터에서 항목의 사용자 ID를 사용자 계정에 매핑할 수 없는 경우 항목이 이 사서함으로 가져오기됩니다.
   
- **Microsoft 365 관리 센터에서이 작업 완료**
+ **Microsoft 365 관리 센터에서 이러한 작업 완료**
   
-1. 사용자 계정을 만들고이 계정에 Exchange Online 계획 2 라이선스를 할당 합니다. [Office 365에 사용자 추가를](https://go.microsoft.com/fwlink/p/?LinkId=692098)참조 하세요. 계획 2 라이선스는 사서함을 소송 보존 상태로 설정 하거나 저장소 할당량이 무제한 인 보관 사서함을 사용 하는 데 필요 합니다.
+1. 사용자 계정을 만들고 Exchange Online 계획 2 라이선스를 할당합니다. [Microsoft 365에 사용자 추가를 참조합니다.](https://go.microsoft.com/fwlink/p/?LinkId=692098) 사서함을 소송 자료 유지로 설정하거나 저장소 할당량 제한이 없는 보관 사서함을 사용하도록 설정하려면 계획 2 라이선스가 필요합니다.
     
-2. 타사 데이터 사서함에 대 한 사용자 계정을 Office 365의 **Exchange 관리자** 관리자 역할에 추가 합니다. [Office 365에서 관리자 역할 할당을](https://go.microsoft.com/fwlink/p/?LinkId=532393)참조 하세요.
+2. 타사 데이터 사서함의 사용자 계정을 Microsoft 365의 **Exchange** 관리자 역할에 추가합니다. [Microsoft 365에서](https://go.microsoft.com/fwlink/p/?LinkId=532393)관리자 역할 할당을 참조하세요.
     
     > [!TIP]
     > 이 사용자 계정의 자격 증명을 기록해 둡니다. 4단계에서 설명한 것처럼 파트너에게 제공해야 합니다. 
   
- **Exchange 관리 센터에서 다음 작업 완료**
+ **Exchange 관리 센터에서 이러한 작업 완료**
   
-1. 조직의 주소록 및 기타 주소 목록에서 타사 데이터 사서함을 숨깁니다. [사용자 사서함 관리](https://go.microsoft.com/fwlink/p/?LinkId=616058)를 참조 하세요. 또는 다음 PowerShell 명령을 실행할 수 있습니다.
+1. 조직의 주소 책 및 기타 주소 목록에서 타사 데이터 사서함을 숨기기 사용자 [사서함 관리 참조.](https://go.microsoft.com/fwlink/p/?LinkId=616058) 또는 다음 PowerShell 명령을 실행할 수 있습니다.
     
     ```powershell
     Set-Mailbox -Identity <identity of third-party data mailbox> -HiddenFromAddressListsEnabled $true
     ```
 
-2. Administrators 또는 규정 준수 관리자가 Outlook 데스크톱 클라이언트에서 타사 데이터 사서함을 열 수 있도록 타사 데이터 사서함에 대 한 **FullAccess** 권한을 할당 합니다. [받는 사람의 사용 권한 관리를](https://go.microsoft.com/fwlink/p/?LinkId=692104)참조 하세요.
+2. 관리자 또는 준수 관리자가 Outlook 데스크톱 클라이언트에서 타사 데이터 사서함을 열 수 있도록 타사 데이터 사서함에 **FullAccess** 권한을 할당합니다. 받는 [사람에 대한 사용 권한 관리 참조.](https://go.microsoft.com/fwlink/p/?LinkId=692104)
     
-3. 타사 데이터 사서함에 대해 다음과 같은 준수 관련 기능을 사용 하도록 설정 합니다.
+3. 타사 데이터 사서함에 대해 다음 준수 관련 기능을 사용하도록 설정하십시오.
     
-    - 보관 사서함을 사용 하도록 설정 합니다. [보관 사서함 사용](enable-archive-mailboxes.md) 및 [무제한 보관 사용](enable-unlimited-archiving.md)을 참조 하세요. 이렇게 하면 타사 데이터 항목을 보관 사서함으로 이동 하는 보관 정책을 설정 하 여 기본 사서함의 저장 공간을 확보할 수 있습니다. 이를 통해 타사 데이터에 대해 무제한 저장소를 사용할 수 있습니다.
+    - 보관 사서함을 사용하도록 설정 see [Enable archive mailboxes](enable-archive-mailboxes.md) and [Enable unlimited archiving](enable-unlimited-archiving.md). 이렇게 하면 타사 데이터 항목을 보관 사서함으로 이동하는 보관 정책을 설정하여 기본 사서함의 저장소 공간을 자유롭게 사용할 수 있습니다. 이를 통해 타사 데이터에 대한 무제한 저장소를 제공합니다.
     
-    - 타사 데이터 사서함에 소송 보존을 적용합니다. 보안 및 준수 센터에서 Microsoft 365 보존 정책을 적용할 수도 있습니다. 이 사서함을 보류 상태로 두면 타사 데이터 항목 (무기한 또는 지정 된 기간 동안)이 유지 되 고 사서함에서 제거 되는 것을 방지할 수 있습니다. 다음 항목 중 하나를 참조 하세요.
+    - 타사 데이터 사서함에 소송 보존을 적용합니다. 보안 및 준수 센터에서 Microsoft 365 보존 정책을 적용할 수 있습니다. 이 사서함을 보류하면 타사 데이터 항목(무기한 또는 지정된 기간 동안)이 유지되고 사서함에서 제거되지 않습니다. 다음 항목 중 하나를 참조하세요.
     
       - [사서함을 소송 자료 보존으로 설정](https://go.microsoft.com/fwlink/p/?LinkId=404420)
     
       - [보존 정책 및 보존 레이블에 대해 알아보기](retention.md)
     
-    - 타사 데이터 사서함에 대 한 소유자, 대리인 및 관리자 액세스에 대 한 사서함 감사 로깅을 사용 하도록 설정 합니다. [사서함 감사 사용](enable-mailbox-auditing.md)을 참조 하십시오. 이렇게 하면 타사 데이터 사서함에 대 한 액세스 권한이 있는 모든 사용자가 수행한 모든 작업을 감사할 수 있습니다.
+    - 타사 데이터 사서함에 대한 소유자, 대리인 및 관리자 액세스에 대해 사서함 감사 로깅을 사용하도록 설정 사서함 [감사 사용을 참조합니다.](enable-mailbox-auditing.md) 이렇게 하면 타사 데이터 사서함에 액세스할 수 있는 사용자가 수행한 모든 활동을 감사할 수 있습니다.
 
 ## <a name="step-3-configure-user-mailboxes-for-third-party-data"></a>3단계: 타사 데이터에 대한 사용자 사서함 구성
 
-다음 단계는 타사 데이터를 지원하도록 사용자 사서함을 구성하는 것입니다. Exchange 관리 센터를 사용 하거나 해당 Windows PowerShell cmdlet을 사용 하 여 이러한 작업을 완료 합니다.
+다음 단계는 타사 데이터를 지원하도록 사용자 사서함을 구성하는 것입니다. Exchange 관리 센터를 사용하여 또는 해당 cmdlet을 사용하여 이러한 Windows PowerShell 완료합니다.
   
-1. 각 사용자에 대해 보관 사서함을 사용 하도록 설정 합니다. [보관 사서함 사용](enable-archive-mailboxes.md) 및 [무제한 보관 사용](enable-unlimited-archiving.md)을 참조 하세요.
+1. 각 사용자에 대해 보관 사서함을 사용하도록 설정 see [Enable archive mailboxes](enable-archive-mailboxes.md) and [Enable unlimited archiving](enable-unlimited-archiving.md).
     
-2. 사용자 사서함을 소송 보존으로 설정 하거나 Microsoft 365 보관 정책을 적용 합니다. 다음 항목 중 하나를 참조 하세요. 
+2. 사용자 사서함에 소송 보존을 적용하거나 Microsoft 365 보존 정책을 적용합니다. 다음 항목 중 하나를 참조하세요. 
     
     - [사서함을 소송 자료 보존으로 설정](https://go.microsoft.com/fwlink/p/?LinkId=404420)
     
@@ -522,58 +522,58 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
 
 ## <a name="step-4-provide-your-partner-with-information"></a>4단계: 파트너에게 정보 제공
 
-마지막 단계는 조직에 연결 하 여 데이터를 사용자 사서함 및 타사 데이터 사서함으로 가져오기 위해 커넥터를 구성할 수 있도록 파트너에 게 다음 정보를 제공 하는 것입니다. 
+마지막 단계는 조직에 연결하여 데이터를 사용자 사서함 및 타사 데이터 사서함으로 가져오도록 커넥터를 구성할 수 있도록 파트너에게 다음 정보를 제공하는 것입니다. 
   
-- Office 365에서 Azure 서비스에 연결 하는 데 사용 되는 끝점:
+- Microsoft 365의 Azure 서비스에 연결하는 데 사용되는 끝점:
 
     ```http
     https://office365ingestionsvc.gble1.protection.outlook.com/service/ThirdPartyIngestionService.svc
     ```
 
-- 2 단계에서 만든 타사 데이터 사서함의 로그인 자격 증명 (Microsoft 365 사용자 ID 및 암호)입니다. 이러한 자격 증명은 파트너 커넥터가 항목을 액세스하고 사용자 사서함 및 타사 데이터 사서함으로 가져올 수 있도록 하는 데 필요합니다.
+- 2단계에서 만든 타사 데이터 사서함의 로그인 자격 증명(Microsoft 365 사용자 ID 및 암호)입니다. 이러한 자격 증명은 파트너 커넥터가 항목을 액세스하고 사용자 사서함 및 타사 데이터 사서함으로 가져올 수 있도록 하는 데 필요합니다.
  
-## <a name="step-5-register-the-third-party-data-connector-in-azure-active-directory"></a>5 단계: Azure Active Directory에서 타사 데이터 커넥터 등록
+## <a name="step-5-register-the-third-party-data-connector-in-azure-active-directory"></a>5단계: Azure Active Directory에 타사 데이터 커넥터 등록
 
-2018 년 9 월 30 일부 부터는 Office 365의 Azure 서비스가 Exchange Online의 최신 인증을 사용 하 여 데이터를 가져오기 위해 조직에 연결을 시도 하는 타사 데이터 커넥터를 인증 합니다. 이러한 변경이 발생 하는 이유는 최신 인증이 이전에 설명한 끝점을 사용 하 여 Azure 서비스에 연결 하는 타사 커넥터에 대 한 허용 목록을 기반으로 하는 현재 방법 보다 더 많은 보안을 제공 한다는 것입니다.
+2018년 9월 30일부터 Microsoft 365의 Azure 서비스는 Exchange Online의 최신 인증을 사용하여 조직에 연결하여 데이터를 가져오는 타사 데이터 커넥터를 인증합니다. 이러한 변경의 이유는 최신 인증이 Azure 서비스에 연결하기 위해 앞서 설명한 끝점을 사용하는 타사 커넥터에 대한 허용 목록을 기반으로 했던 현재 방법보다 더 높은 보안을 제공하기 위한 것입니다.
 
-최신 인증 방법을 사용 하 여 타사 데이터 커넥터에서 Office 365에 연결할 수 있도록 하려면 조직의 관리자가 해당 커넥터를 Azure Active Directory의 신뢰할 수 있는 서비스 응용 프로그램으로 등록 하는 것이 동의 해야 합니다. 이 작업은 사용 권한 요청을 수락 하 여 커넥터가 Azure Active Directory에서 조직의 데이터에 액세스할 수 있도록 허용 합니다. 이 요청을 수락 하면 타사 데이터 커넥터가 엔터프라이즈 응용 프로그램으로 Azure Active Directory에 추가 되 고 서비스 사용자로 표시 됩니다. 승인 프로세스에 대 한 자세한 내용은  [테 넌 트 관리자 동의](https://docs.microsoft.com/skype-sdk/trusted-application-api/docs/tenantadminconsent)를 참조 하십시오.
+타사 데이터 커넥터가 새로운 최신 인증 방법을 사용하여 Microsoft 365에 연결할 수 있도록 설정하려면 조직의 관리자가 커넥터를 Azure Active Directory에서 신뢰할 수 있는 서비스 응용 프로그램으로 등록하는 데 동의해야 합니다. 이 수행은 커넥터가 Azure Active Directory에서 조직의 데이터에 액세스할 수 있도록 허용하는 사용 권한 요청을 수락하여 수행됩니다. 이 요청을 수락하면 타사 데이터 커넥터가 Azure Active Directory에 엔터프라이즈 응용 프로그램으로 추가된 후 서비스 사용자로 표시됩니다. 동의 프로세스에 대한 자세한 내용은 [테넌트 관리자 동의를 참조하세요.](https://docs.microsoft.com/skype-sdk/trusted-application-api/docs/tenantadminconsent)
 
-커넥터 등록을 위한 요청에 액세스 하 고 수락 하는 단계는 다음과 같습니다.
+커넥터 등록 요청을 액세스하고 수락하는 단계는 다음과 같습니다.
 
-1. [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=8dfbc50b-2111-4d03-9b4d-dd0d00aae7a2&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) 이동 하 여 전역 관리자의 자격 증명을 사용 하 여 로그인 합니다.
+1. 이 [페이지로 이동하여](https://login.microsoftonline.com/common/oauth2/authorize?client_id=8dfbc50b-2111-4d03-9b4d-dd0d00aae7a2&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) 전역 관리자의 자격 증명을 사용하여 로그인합니다.
 
-   다음 대화 상자가 표시 됩니다. Carets를 확장 하 여 커넥터에 할당 되는 사용 권한을 검토할 수 있습니다.
+   다음 대화 상자가 표시됩니다. 캐터를 확장하여 커넥터에 할당할 사용 권한을 검토할 수 있습니다.
 
-   ![사용 권한 요청 대화 상자가 표시 됩니다.](../media/O365-ThirdPartyDataConnector-OptIn1.png)
+   ![사용 권한 요청 대화 상자가 표시됩니다.](../media/O365-ThirdPartyDataConnector-OptIn1.png)
 
 2. **Accept(동의함)** 를 클릭합니다.
 
-요청을 수락 하면 [Azure portal](https://portal.azure.com) 이 표시 됩니다. 조직의 응용 프로그램 목록을 보려면 **Azure Active Directory**  >  **Enterprise 응용 프로그램** 을 클릭 합니다. Office 365 타사 데이터 커넥터가 **엔터프라이즈 응용 프로그램** 블레이드에서 나열 됩니다.
+요청을 수락하면 [Azure Portal이](https://portal.azure.com) 표시됩니다. 조직의 응용 프로그램 목록을 보려면 **Azure Active Directory Enterprise** 응용 프로그램을  >  **클릭합니다.** Microsoft 365 타사 데이터 커넥터가 엔터프라이즈 응용 프로그램 **블레이드에 나열됩니다.**
 
 > [!IMPORTANT]
-> Azure Active Directory에 타사 데이터 커넥터를 등록 하지 않으면, 2018 년 9 월 30 일 이후에는 타사 데이터를 조직의 사서함으로 가져올 수 없게 됩니다. 참고 5 단계에 나와 있는 절차에 따라 기존 타사 데이터 커넥터 (9 월 30 일 이전에는 2018)도 Azure Active Directory에 등록 되어 있어야 합니다.
+> 2018년 9월 30일 이후에는 Azure Active Directory에 타사 데이터 커넥터를 등록하지 않은 경우 더 이상 타사 데이터를 조직의 사서함으로 가져오지 않습니다. 5단계의 절차에 따라 기존 타사 데이터 커넥터(2018년 9월 30일 전에 만든 커넥터)도 Azure Active Directory에 등록해야 합니다.
 
-### <a name="revoking-consent-for-a-third-party-data-connector"></a>타사 데이터 커넥터에 대 한 동의 해지
+### <a name="revoking-consent-for-a-third-party-data-connector"></a>타사 데이터 커넥터에 대한 동의 해지
 
-조직이 Azure Active Directory에서 타사 데이터 커넥터를 등록 하기 위해 권한 요청을 consents 후에는 조직에서 언제 든 지 해당 동의를 해지할 수 있습니다. 그러나 커넥터에 대 한 동의를 취소 하는 것은 타사 데이터 원본의 데이터를 더 이상 Office 365로 가져올 수 없다는 것을 의미 합니다.
+조직에서 Azure Active Directory에 타사 데이터 커넥터를 등록하기 위해 사용 권한 요청에 동의하면 조직은 해당 동의를 취소할 수 있습니다. 그러나 커넥터에 대한 동의를 해지하면 타사 데이터 원본의 데이터를 Microsoft 365로 더 이상 가져올 수 없습니다.
 
-타사 데이터 커넥터에 대 한 동의를 해지 하려면 Azure portal에서 **엔터프라이즈 응용 프로그램** 블레이드를 사용 하 여 Azure Active Directory에서 해당 서비스 사용자를 삭제 하거나 Office 365 PowerShell의 [(new-msolserviceprincipal에서 제거](https://docs.microsoft.com/powershell/module/msonline/remove-msolserviceprincipal) 를 사용 하 여 응용 프로그램을 삭제할 수 있습니다. Azure Active Directory PowerShell에서 [AzureADServicePrincipal](https://docs.microsoft.com/powershell/module/azuread/remove-azureadserviceprincipal) cmdlet을 사용할 수도 있습니다.
+타사 데이터 커넥터에 대한 동의를 해지하려면 Azure Portal의 엔터프라이즈 응용 프로그램 블레이드를 사용하여 Azure  Active Directory에서 또는 Microsoft 365 PowerShell에서 [Remove-MsolServicePrincipal을](https://docs.microsoft.com/powershell/module/msonline/remove-msolserviceprincipal) 사용하여 해당 서비스 계정을 삭제하여 응용 프로그램을 삭제할 수 있습니다. Azure Active Directory PowerShell에서 [Remove-AzureADServicePrincipal](https://docs.microsoft.com/powershell/module/azuread/remove-azureadserviceprincipal) cmdlet을 사용할 수 있습니다.
   
 ## <a name="more-information"></a>추가 정보
 
-- 앞서 설명한 것처럼 타사 데이터 원본의 항목을 Exchange 사서함에 전자 메일 메시지로 가져옵니다. 파트너 커넥터는 Office 365 API에 필요한 스키마를 사용 하 여 항목을 가져옵니다. 다음 표에서는 타사 데이터 원본 항목을 Exchange 사서함에 전자 메일 메시지로 가져온 후, 타사 데이터 원본 항목에 대한 메시지 속성을 설명합니다. 또한 이 표는 메시지 속성이 필수인지 여부를 나타냅니다. 필수 속성은 채워야 합니다. 항목에 필수 속성이 없는 경우에는 Office 365로 가져올 수 없습니다. 가져오기 프로세스를 진행 하면 항목을 가져오지 못한 이유와 해당 속성이 누락 된 이유를 설명 하는 오류 메시지가 반환 됩니다.<br/><br/>
+- 앞서 설명한 것처럼 타사 데이터 원본의 항목을 Exchange 사서함에 전자 메일 메시지로 가져옵니다. 파트너 커넥터는 Microsoft 365 API에 필요한 스마마를 사용하여 항목을 가져올 수 있습니다. 다음 표에서는 타사 데이터 원본 항목을 Exchange 사서함에 전자 메일 메시지로 가져온 후, 타사 데이터 원본 항목에 대한 메시지 속성을 설명합니다. 또한 이 표는 메시지 속성이 필수인지 여부를 나타냅니다. 필수 속성은 채워야 합니다. 필수 속성이 없는 항목은 Microsoft 365로 가져오지 않습니다. 가져오기 프로세스에서는 항목을 가져오지 않은 이유와 누락된 속성을 설명하는 오류 메시지가 반환됩니다.<br/><br/>
     
-    |**메시지 속성**|**강제?**|**설명**|**예제 값**|
+    |**메시지 속성**|**필수 여부**|**설명**|**예제 값**|
     |:-----|:-----|:-----|:-----|
-    |**보낸 사람** <br/> |예  <br/> |타사 데이터 원본 항목을 처음 만들었거나 보낸 사람입니다. 파트너 커넥터는 원본 항목 (예: Twitter 핸들)의 사용자 ID를 모든 참가자 (시작 및 대상 필드의 사용자)의 사용자 계정에 매핑하도록 시도 합니다. 메시지 복사본을 모든 참가자의 사서함으로 가져옵니다. 항목에서 사용자 계정에 매핑할 수 없는 참가자가 없는 경우 Office 365에서 타사 보관 사서함으로 항목을 가져옵니다.  <br/> <br/> 항목을 보낸 사람으로 식별 된 참석자는 해당 항목을 가져올 조직의 활성 사서함이 있어야 합니다. 보낸 사람에게 활성 사서함이 없으면 다음과 같은 오류가 반환됩니다.<br/><br/>  `One or more messages in the Request failed to be delivered to either From or Sender email address. You will need to resend your entire Request. Error: The request failed. The remote server returned an error: (401) Unauthorized.`  | `bob@contoso.com` <br/> |
+    |**보낸 사람** <br/> |예  <br/> |타사 데이터 원본 항목을 처음 만들었거나 보낸 사람입니다. 파트너 커넥터는 원본 항목(예: Twitter 핸들)의 사용자 ID를 모든 참가자(FROM 및 TO 필드의 사용자)의 사용자 계정에 매핑하려고 시도합니다. 메시지 복사본을 모든 참가자의 사서함으로 가져옵니다. 항목의 참가자를 사용자 계정에 매핑할 수 없는 경우 해당 항목을 Microsoft 365의 타사 보관 사서함으로 가져올 수 있습니다.  <br/> <br/> 항목의 보낸 사람으로 식별된 참가자는 항목을 가져오는 조직에서 활성 사서함을 가져와야 합니다. 보낸 사람에게 활성 사서함이 없으면 다음과 같은 오류가 반환됩니다.<br/><br/>  `One or more messages in the Request failed to be delivered to either From or Sender email address. You will need to resend your entire Request. Error: The request failed. The remote server returned an error: (401) Unauthorized.`  | `bob@contoso.com` <br/> |
     |**받는 사람** <br/> |예  <br/> |데이터 원본의 항목을 받은 사람입니다(해당되는 경우).  <br/> | `bob@contoso.com` <br/> |
     |**제목** <br/> |아니요  <br/> |원본 항목의 제목입니다.  <br/> | `"Mega deals with Contoso coming your way! #ContosoHolidayDeals"` <br/> |
-    |**종료일** <br/> |예  <br/> |항목이 처음으로 작성 되거나 고객 데이터 원본에 게시 된 날짜입니다. 예를 들어, Twitter 메시지가 tweeted 된 날짜입니다.  <br/> | `01 NOV 2015` <br/> |
-    |**보내기** <br/> |아니요  <br/> |메시지 또는 게시물의 콘텐츠입니다. 일부 데이터 원본의 경우 이 속성의 콘텐츠는 **SUBJECT** 속성의 콘텐츠와 같을 수 있습니다. 가져오기 프로세스 중에 파트너 커넥터는 가능한 한 콘텐츠 원본에서 완전 한 충실도를 유지 하려고 시도 합니다. 가능한 경우 원본 항목의 본문에서 가져온 파일, 그래픽 또는 기타 콘텐츠가 이 속성에 포함됩니다. 그렇지 않은 경우 원본 항목의 콘텐츠가 **ATTACHMENT** 속성에 포함됩니다. 이 속성의 내용은 파트너 커넥터와 원본 플랫폼의 기능에 따라 달라 집니다.  <br/> | `Author: bob@contoso.com` <br/>  `Date: 10 DEC 2014` <br/>  `Tweet: "Mega deals with Contoso coming your way! #ContosoHolidayDeals"` <br/>  `Date: 01 NOV 2015` <br/> |
-    |**덧붙인** <br/> |아니요  <br/> |데이터 원본의 항목 (예: Twitter 또는 인스턴트 메시징 대화에 있는 tweet)에 첨부 된 파일이 있거나 이미지를 포함 하는 경우, 파트너 연결에서는 먼저 **BODY** 속성에 첨부 파일을 포함 하 려 합니다. 이것이 가능 하지 않으면 * * ATTACHMENT * * 속성에 추가 됩니다. 첨부 파일의 다른 예로는 Facebook의 좋아요, 콘텐츠 원본의 메타데이터, 메시지 또는 게시물에 대한 응답이 있습니다.  <br/> | `image.gif` <br/> |
-    |**MESSAGECLASS** <br/> |예  <br/> | 파트너 커넥터가 만들어서 채우는 다중 값 속성입니다. 이 속성의 형식은  `IPM.NOTE.Source.Event` 입니다. (이 속성은로 시작 해야 합니다  `IPM.NOTE` . 이 형식은 메시지 클래스의 형식과 유사  `IPM.NOTE.X` 합니다. 이 속성에는 다음 정보가 포함 됩니다.  <br/><br/>`Source`: 타사 데이터 원본을 나타냅니다. 예: Twitter, Facebook 또는 BlackBerry를 예로 들 있습니다.  <br/> <br/>  `Event`: 항목을 생성 한 타사 데이터 원본에서 수행한 작업의 유형을 나타냅니다. 예를 들어, Twitter에 있는 tweet 또는 Facebook의 게시물입니다. 이벤트는 데이터 원본에 따라 다릅니다.  <br/> <br/>  이 속성의 한 가지 목적은 항목이 시작된 데이터 원본이나 이벤트의 유형에 따라 특정 항목을 필터링하는 것입니다. 예를 들어 eDiscovery 검색에서 특정 사용자가 게시한 모든 트윗을 찾는 검색 쿼리를 만들 수 있습니다.  <br/> | `IPM.NOTE.Twitter.Tweet` <br/> |
+    |**DATE** <br/> |예  <br/> |항목을 처음 만들거나 고객 데이터 원본에 게시한 날짜입니다. 예를 들어 Twitter 메시지가 트윗된 날짜입니다.  <br/> | `01 NOV 2015` <br/> |
+    |**BODY** <br/> |아니요  <br/> |메시지 또는 게시물의 콘텐츠입니다. 일부 데이터 원본의 경우 이 속성의 콘텐츠는 **SUBJECT** 속성의 콘텐츠와 같을 수 있습니다. 가져오기 프로세스 중에 파트너 커넥터는 콘텐츠 원본에서 최대한 완전한 고화성을 유지하려고 시도합니다. 가능한 경우 원본 항목의 본문에서 가져온 파일, 그래픽 또는 기타 콘텐츠가 이 속성에 포함됩니다. 그렇지 않은 경우 원본 항목의 콘텐츠가 **ATTACHMENT** 속성에 포함됩니다. 이 속성의 내용은 파트너 커넥터 및 원본 플랫폼의 기능에 따라 달라 습니다.  <br/> | `Author: bob@contoso.com` <br/>  `Date: 10 DEC 2014` <br/>  `Tweet: "Mega deals with Contoso coming your way! #ContosoHolidayDeals"` <br/>  `Date: 01 NOV 2015` <br/> |
+    |**첨부 파일** <br/> |아니요  <br/> |데이터 원본의 항목(예: Twitter의 트윗 또는 인스턴트 메시징 대화)에 첨부 파일이 있는 경우 또는 이미지가 포함된 경우 파트너 연결은 먼저 **BODY** 속성에 첨부 파일을 포함하려고 시도합니다. If that't possible, then it's added to the ** ATTACHMENT ** property. 첨부 파일의 다른 예로는 Facebook의 좋아요, 콘텐츠 원본의 메타데이터, 메시지 또는 게시물에 대한 응답이 있습니다.  <br/> | `image.gif` <br/> |
+    |**MESSAGECLASS** <br/> |예  <br/> | 파트너 커넥터가 만들어서 채우는 다중 값 속성입니다. 이 속성의 형식은  `IPM.NOTE.Source.Event` . 이 속성은 .로 시작해야  `IPM.NOTE` 합니다. 이 형식은 메시지 클래스의 형식과  `IPM.NOTE.X` 유사합니다. 이 속성에는 다음 정보가 포함됩니다.  <br/><br/>`Source`: 타사 데이터 원본을 나타냅니다. 예: Twitter, Facebook 또는 BlackBerry.  <br/> <br/>  `Event`: 항목을 생성한 타사 데이터 원본에서 수행된 활동 유형을 나타냅니다. 예를 들어 Twitter의 트윗이나 Facebook의 게시물을 예로 들 수 있습니다. 이벤트는 데이터 원본과 관련이 있습니다.  <br/> <br/>  이 속성의 한 가지 목적은 항목이 시작된 데이터 원본이나 이벤트의 유형에 따라 특정 항목을 필터링하는 것입니다. 예를 들어 eDiscovery 검색에서 특정 사용자가 게시한 모든 트윗을 찾는 검색 쿼리를 만들 수 있습니다.  <br/> | `IPM.NOTE.Twitter.Tweet` <br/> |
    
-- Office 365에서 사서함에 항목을 성공적으로 가져오면 고유한 식별자가 HTTP 응답의 일부로 다시 발신자에 게 반환 됩니다. 이 식별자는  `x-IngestionCorrelationID` 종단 간 항목 추적을 위해 파트너의 후속 문제 해결을 위해 사용 될 수 있습니다. 파트너는 이 정보를 수집하고 적절하게 기록해두는 것이 좋습니다. 이 식별자를 나타내는 HTTP 응답의 예는 다음과 같습니다.
+- 항목을 Microsoft 365의 사서함으로 가져오면 HTTP 응답의 일부로 고유 식별자가 호출자에 다시 반환됩니다. 파트너가 항목의 종단을 추적하기 위해 후속 문제 해결 목적으로 이 식별자를 사용할  `x-IngestionCorrelationID` 수 있습니다. 파트너는 이 정보를 수집하고 적절하게 기록해두는 것이 좋습니다. 이 식별자를 나타내는 HTTP 응답의 예는 다음과 같습니다.
 
     ```http
     HTTP/1.1 200 OK
@@ -585,17 +585,16 @@ Microsoft 365에서 타사 데이터를 보관 하기 위한 주요 구성 요�
     Date: Tue, 02 Feb 2016 22:55:33 GMT 
     ```
 
-- 보안 및 준수 센터의 콘텐츠 검색 도구를 사용 하 여 타사 데이터 원본에서 사서함으로 가져온 항목을 검색할 수 있습니다. 이러한 가져온 항목을 구체적으로 검색 하려면 콘텐츠 검색의 키워드 상자에 다음과 같은 메시지 속성-값 쌍을 사용할 수 있습니다.
+- 보안 및 준수 센터의 콘텐츠 검색 도구를 사용하여 타사 데이터 원본에서 사서함으로 가져온 항목을 검색할 수 있습니다. 이러한 가져온 항목을 구체적으로 검색하기 위해 콘텐츠 검색의 키워드 상자에 다음 메시지 속성 값 쌍을 사용할 수 있습니다.
     
-  - **`kind:externaldata`** :이 속성-값 쌍을 사용 하 여 모든 타사 데이터 형식을 검색 합니다. 예를 들어 타사 데이터 원본에서 가져온 항목과 가져온 항목의 Subject 속성에 "contoso" 라는 단어가 포함 된 항목을 검색 하려면 keyword 쿼리를 사용  `kind:externaldata AND subject:contoso` 합니다.
+  - **`kind:externaldata`**: 이 속성-값 쌍을 사용하여 모든 타사 데이터 형식을 검색합니다. 예를 들어 타사 데이터 원본에서 가져온 항목을 검색하고 가져온 항목의 Subject 속성에 "contoso"라는 단어를 포함하면 키워드 쿼리를  `kind:externaldata AND subject:contoso` 사용합니다.
     
-  - **`itemclass:ipm.externaldata.<third-party data type>`** :이 속성-값 쌍을 사용 하 여 지정 된 타사 데이터 형식만 검색 합니다. 예를 들어 Subject 속성에서 "contoso" 라는 단어가 포함 된 Facebook 데이터만 검색 하려면 keyword 쿼리를 사용  `itemclass:ipm.externaldata.Facebook* AND subject:contoso` 합니다. 
+  - **`itemclass:ipm.externaldata.<third-party data type>`**: 이 속성-값 쌍을 사용하여 타사 데이터 지정 형식만 검색합니다. 예를 들어 Subject 속성에 "contoso"라는 단어가 포함된 Facebook 데이터만 검색하기 위해 키워드 쿼리를  `itemclass:ipm.externaldata.Facebook* AND subject:contoso` 사용합니다. 
 
-  속성의 타사 데이터 형식에 사용할 값의 전체 목록은  `itemclass` [Office 365로 가져온 타사 데이터를 검색 하려면 사용 콘텐츠 검색](use-content-search-to-search-third-party-data-that-was-imported.md)을 참조 하십시오.
+  속성의 타사 데이터 형식에 사용할 값의 전체 목록은 콘텐츠 검색을 사용하여  `itemclass` [Microsoft 365로](use-content-search-to-search-third-party-data-that-was-imported.md)가져온 타사 데이터를 검색합니다.
     
    콘텐츠 검색 사용 및 키워드 검색 쿼리를 만드는 방법에 대한 자세한 내용은 다음을 참조하세요.
     
-  - [Office 365의 콘텐츠 검색](content-search.md)
+  - [콘텐츠 검색](content-search.md)
     
   - [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)
- 
