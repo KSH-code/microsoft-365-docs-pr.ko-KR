@@ -169,6 +169,18 @@
           href: 'https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: 규정 준수
       items:
+        - name: Microsoft 365의 참가자 위험 솔루션
+          items:
+            - name: 개요
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/insider-risk-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: 커뮤니케이션 규정 준수
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: 내부자 위험 관리
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: 정보 장벽
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/information-barriers-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: 권한이 부여된 액세스 관리
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-solution-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: 규정 준수 조치 계획
           items:
             - name: ISO - 권장 실행 계획
@@ -179,6 +191,8 @@
               href: 'https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: GDPR — 권장 실행 계획
               href: 'https://docs.microsoft.com/microsoft-365/compliance/gdpr?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Contoso 규정 준수 사례 연구
+          href: 'https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-case-study?view=o365-worldwide?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Contoso 사례 연구
       items:
         - name: Contoso Corporation의 Microsoft 365 솔루션
