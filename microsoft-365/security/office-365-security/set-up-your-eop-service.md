@@ -14,12 +14,12 @@ ms.custom:
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: 관리자는 독립 실행형 EOP(Exchange Online Protection)를 설정하여온-프레미스 전자 메일 환경을 보호하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: ab34d715bd8196bb2376926402f6a88018d1d7ae
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 2d63057e77e6965616e19452de824a94ba0ccda8
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615675"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659420"
 ---
 # <a name="set-up-your-standalone-eop-service"></a>독립 실행형 EOP 서비스 설정
 
@@ -29,19 +29,19 @@ ms.locfileid: "49615675"
 이 항목에서는 독립 실행형 EOP(Exchange Online Protection)를 설정하는 방법을 설명합니다. Office 365 도메인 마법사에서 여기로 이동했으며 Exchange Online Protection를 사용하지 않으려면 Office 365 도메인 마법사로 돌아갑니다. 커넥터 구성 방법에 대한 자세한 내용를 보려면 [Configure mail flow using connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)을 참조하세요.
 
 > [!NOTE]
-> 이 항목에서는 사용자가온-프레미스 사서함을 사용하며 독립 실행형 시나리오라고 하는 EOP를 통해 보호하려는 것으로 가정합니다. Exchange Online을 통해 클라우드에서 모든 사서함을 호스팅하려는 경우 이 항목의 모든 단계를 완료하지는 않습니다. Exchange [Online 요금제](https://products.office.com/exchange/compare-microsoft-exchange-online-plans) 비교로 이동하여 클라우드 사서함을 등록하고 구매합니다.
+> 이 항목에서는 사용자가온-프레미스 사서함을 사용하며 독립 실행형 시나리오라고 하는 EOP를 통해 보호하려는 것으로 가정합니다. Exchange Online을 통해 클라우드에서 모든 사서함을 호스팅하려는 경우 이 문서의 모든 단계를 완료하지는 않습니다. Exchange [Online 요금제](https://products.office.com/exchange/compare-microsoft-exchange-online-plans) 비교로 이동하여 클라우드 사서함을 등록하고 구매합니다.
 >
-> 일부 사서함과 클라우드의 일부 사서함을 호스트하려는 경우 이를 하이브리드 시나리오라고 합니다. 고급 메일 흐름 설정이 필요합니다. [Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid) 하이브리드 배포에서는 하이브리드 메일 흐름에 대해 설명하고 하이브리드 메일 흐름을 설정하는 방법을 보여 주는 리소스에 대한 링크가 있습니다.
+> 일부 사서함을 프레미스에 호스팅하고 클라우드에서 일부 사서함을 호스팅하려는 경우 이를 하이브리드 시나리오라고 합니다. 고급 메일 흐름 설정이 필요합니다. [Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid) 하이브리드 배포에서는 하이브리드 메일 흐름에 대해 설명하고 이를 설정하는 방법을 보여 주는 리소스에 대한 링크가 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 이 작업의 예상 완료 시간: 1시간
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 특히 MailFlowAdministrator 및 OrganizationManagement(전역 관리자) 역할 그룹에 기본적으로 할당되는 원격 및 허용 도메인 역할이 필요합니다. 자세한 내용은 독립 실행형 [EOP의](feature-permissions-in-eop.md) 사용 권한을 참조하고 EAC를 사용하여 역할 그룹의 구성원 목록을 [수정합니다.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
+- 이 문서의 절차를 수행하려면 먼저 Exchange Online Protection에서 사용 권한을 할당해야 합니다. 특히 조직 관리(전역 관리자) 및 메일 흐름 관리자  역할 그룹에 기본적으로 할당되는 **원격** 및 허용 도메인 역할이 필요합니다.  자세한 내용은 독립 실행형 [EOP의](feature-permissions-in-eop.md) 사용 권한을 참조하고 EAC를 사용하여 역할 그룹의 구성원 목록을 [수정합니다.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
 - 아직 EOP에 등록하지 않은 경우 [Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection)을 방문하여 서비스를 구입하거나 평가판을 신청합니다.
 
-- 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 [Exchange Online의 Exchange](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)관리 센터에 대한 바로 가기 키를 참조하십시오.
+- 이 문서의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 [Exchange Online의 Exchange](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)관리 센터에 대한 바로 가기 키를 참조하십시오.
 
 > [!TIP]
 > 문제가 있나요? [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) 포럼에서 도움을 요청하세요.
@@ -53,7 +53,7 @@ ms.locfileid: "49615675"
 2. 도메인 소유권 확인을 위해 해당 DNS 레코드를 DNS 호스팅 공급자에 추가하는 단계를 수행합니다.
 
 > [!TIP]
-> [Office 365에](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) 도메인을 추가하고 모든 DNS 호스팅 공급자에서 [Office 365용 DNS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) 레코드를 만들면 서비스에 도메인을 추가하고 DNS를 구성할 때 참조할 수 있는 유용한 리소스가 됩니다.
+> [Office 365에](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) 도메인을 추가하고 모든 DNS 호스팅 공급자에서 [Office 365용 DNS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) 레코드 만들기는 서비스에 도메인을 추가하고 DNS를 구성할 때 참조하는 데 도움이 되는 리소스입니다.
 
 ## <a name="step-2-add-recipients-and-optionally-enable-dbeb"></a>2단계: 받는 사람을 추가하고 선택적으로 DBEB 사용
 
@@ -100,4 +100,4 @@ EOP 및 온-프레미스 메일 서버 간의 메일 흐름을 가능하게 하�
 > [!TIP]
 > 설정이 완료된 후 EOP에서 스팸 및 맬웨어를 제거하도록 추가 단계를 수행할 필요는 없습니다. EOP는 스팸과 맬웨어를 자동으로 제거합니다. 그러나 비즈니스 요구 사항에 따라 설정을 미세 조정할 수 있습니다. 자세한 내용은 [Office 365의](anti-spam-and-anti-malware-protection.md) 스팸 방지 및 맬웨어 방지 보호 기능 및 스푸핑 인텔리전스 [구성을 참조하세요.](learn-about-spoof-intelligence.md)
 >
-> 이제 서비스가 실행되고 있으며 [EOP를](best-practices-for-configuring-eop.md)설정한 후의 권장 설정 및 고려 사항을 설명하는 EOP 구성에 대한 모범 사례를 읽어보는 것이 좋습니다.
+> 이제 서비스가 실행되고 있으며 [EOP를](best-practices-for-configuring-eop.md)설정한 후의 권장 설정 및 고려 사항을 설명하는 EOP 구성 모범 사례를 읽어보는 것이 좋습니다.

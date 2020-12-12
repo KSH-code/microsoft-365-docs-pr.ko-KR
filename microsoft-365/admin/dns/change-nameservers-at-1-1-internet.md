@@ -1,5 +1,5 @@
 ---
-title: 이름 서버를 변경 하 여 Microsoft에서 설정 1&1gb 이상 OS
+title: 1 IONOS가 1인 경우 이름&변경
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,19 +20,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 31efc571-c8b9-46fb-b42d-203c2fb25289
-description: 1&인터넷이 DNS 호스팅 공급자 일 때 21Vianet에서 운영 하는 Office 365을 설정 하 여 DNS 레코드를 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8a783be20d2f8dbdb26e9826018f911289b35235
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: 21Vianet에서 운영하는 Office 365를 설정하여 DNS 레코드를 관리하는 방법을 알아보고, DNS 호스팅 공급자로는 1&인터넷이 있습니다.
+ms.openlocfilehash: b363718c7d1d1845117f44317ae9e6b24e9a2e28
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646562"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658035"
 ---
-# <a name="change-nameservers-to-set-up-microsoft-365-with-11-ionos"></a>이름 서버를 변경 하 여 Microsoft 365을 설정 하 고 1&1gb 이상 OS
+# <a name="change-nameservers-to-set-up-microsoft-365-with-11-ionos"></a>1 IONOS가 1인 Microsoft 365를 설정하기 위해&변경
 
- 원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요. 
+ 원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요. 
   
-Microsoft 365에서 Microsoft 365 DNS 레코드를 관리 하도록 하려면 다음 지침을 따릅니다. 원하는 경우 [모든 Microsoft 365 DNS 레코드를 1&1GB os)로 관리할](create-dns-records-at-1-1-internet.md)수 있습니다. 
+Microsoft 365에서 Microsoft 365 DNS 레코드를 관리하게 하려는 경우 다음 지침을 따릅니다. 원하는 경우 [1 IONOS 1에서 모든 Microsoft 365 DNS&수 있습니다.](create-dns-records-at-1-1-internet.md) 
   
 
     
@@ -46,15 +46,15 @@ Microsoft 365에서 사용자 도메인을 사용하려면 먼저 도메인을 �
   
 아래 단계를 따르거나 [비디오를 시청하세요(0:42에 시작)](https://support.microsoft.com/office/0ef1b3b5-d27a-4004-8ca1-fbe0453a0ea3).
   
-1. 시작 하려면 [이 링크](https://account.1and1.com/?redirect_url=https%3A%2F%2Fmy.1and1.com%2F)를 통해 1&1gb os의 도메인 페이지로 이동 합니다. You'll be prompted to log in. 
+1. To get started, go to your domains page at 1&1 IONOS via [this link.](https://account.1and1.com/?redirect_url=https%3A%2F%2Fmy.1and1.com%2F) You'll be prompted to log in. 
     
-2. **내 도메인**아래에서 **도메인 관리**를 선택 합니다.
+2. MY **DOMAINS에서** 도메인 **관리를 선택합니다.**
     
-3. **Domain Center (도메인 센터** ) 페이지에서 업데이트 하려는 도메인을 찾습니다. 그런 다음 해당 도메인에 대 한 **패널** ( **v**) 컨트롤을 선택 합니다.
+3. On the **Domain Center** page, find the domain that you want to update; 그런 다음 해당 **도메인에** 대한 **패널(v)** 컨트롤을 선택합니다.
     
-4. **도메인 설정** 영역에서 **DNS 설정 편집**을 선택 합니다.
+4. 도메인 설정 **영역에서** DNS 설정 **편집을 선택합니다.**
     
-5. **TXT 및 SRV 레코드** 섹션에서 **레코드 추가**를 선택 합니다.
+5. **TXT 및 SRV 레코드** 섹션에서 레코드 **추가를 선택합니다.**
     
     (아래로 스크롤해야 할 수 있습니다.) 
     
@@ -63,12 +63,12 @@ Microsoft 365에서 사용자 도메인을 사용하려면 먼저 도메인을 �
 ||||
 |:-----|:-----|:-----|
 |**종류** <br/> |**Prefix(접두사)** <br/> |**Name Value(이름 값)** <br/> |
-|TXT  <br/> |(Leave this field empty.)  <br/> |MS=ms *XXXXXXXX* <br/> **참고**:이는 예입니다. 여기에는 Microsoft 365의 표에 있는 특정 **주소를 지정할 대상 또는 지점** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md) <br/> |
+|TXT  <br/> |(Leave this field empty.)  <br/> |MS=ms *XXXXXXXX* <br/> **참고**: 예시입니다. 여기에는 Microsoft 365의 표에 있는 특정 **주소를 지정할 대상 또는 지점** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md) <br/> |
 
    
-7. **저장**을 선택한 다음 다시 **저장** 을 선택 합니다. 
+7. **저장을** 선택한 다음 다시 **저장을** 선택합니다. 
     
-8. **DNS 설정 편집** 대화 상자에서 **예**를 선택 합니다.
+8. DNS 설정 **편집** 대화 상자에서 **예를 선택합니다.**
     
 9. 방금 만든 레코드가 인터넷에서 업데이트될 수 있도록 몇 분 정도 기다립니다.
     
@@ -76,38 +76,38 @@ Microsoft 365에서 사용자 도메인을 사용하려면 먼저 도메인을 �
   
 Microsoft 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
-1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
+1. I관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인</a> 페이지로 이동하십시오.
     
 2. **도메인** 페이지에서 확인 중인 도메인을 선택합니다. 
     
-3. **설정** 페이지에서 **설정 시작**을 선택합니다.
+3. **설정** 페이지에서 **설정 시작** 을 선택합니다.
     
-4. **도메인 확인** 페이지에서 **확인**을 선택합니다.
+4. **도메인 확인** 페이지에서 **확인** 을 선택합니다.
     
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제에 문제가 있는 경우 [Microsoft 365에서 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조 하세요. 
+> Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [Microsoft 365에서](../get-help-with-domains/find-and-fix-issues.md)도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결을 참조합니다. 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>도메인의 NS(이름 서버) 레코드 변경
 
-Microsoft 365을 사용 하 여 도메인 설정을 완료 하려면 도메인 등록 기관에서 도메인의 NS 레코드가 Microsoft 365 기본 및 보조 이름 서버를 가리키도록 변경 합니다. 이렇게 하면 Microsoft 365이 설정 되어 도메인의 DNS 레코드를 업데이트 합니다. 전자 메일, 비즈니스용 Skype Online, 공개 웹 사이트가 사용자의 도메인을 사용하도록 모든 레코드가 자동으로 추가되고 모든 설정이 완료됩니다.
+Microsoft 365를 사용하여 도메인 설정을 완료하려면 도메인 등록 기관에서 Microsoft 365 기본 및 보조 이름 서버를 지점으로 도메인의 NS 레코드를 변경합니다. 이렇게 하면 Microsoft 365가 도메인의 DNS 레코드를 자동으로 업데이트합니다. 전자 메일, 비즈니스용 Skype Online, 공개 웹 사이트가 사용자의 도메인을 사용하도록 모든 레코드가 자동으로 추가되고 모든 설정이 완료됩니다.
   
 > [!CAUTION]
-> Microsoft 365 이름 서버를 가리키도록 도메인의 NS 레코드를 변경 하면 현재 도메인에 연결 된 모든 서비스가 영향을 받습니다. 예를 들어 도메인으로 전송 되는 모든 전자 메일 (rob@ *your_domain*  )이 변경 된 후 Microsoft 365으로 시작 됩니다. 
+> Microsoft 365 이름 서버를 설정하기 위해 도메인의 NS 레코드를 변경하면 현재 도메인과 연결된 모든 서비스가 영향을 받는 것입니다. 예를 들어 도메인으로 전송된 모든 전자 메일(예: rob@ *your_domain*  .com)은 이 변경을 한 후 Microsoft 365로 전송됩니다. 
   
-Microsoft 365에서 도메인을 설정할 수 있도록 NS 레코드를 변경할 준비가 되셨습니까? 아래 단계를 따르거나 [비디오를 시청 하세요 (2:47에 시작)](https://support.microsoft.com/office/0ef1b3b5-d27a-4004-8ca1-fbe0453a0ea3).
+Microsoft 365에서 도메인을 설정할 수 있도록 NS 레코드를 변경할 준비가 되신가요? 아래 단계를 따르거나 [비디오를 시청하세요(2:47에 시작).](https://support.microsoft.com/office/0ef1b3b5-d27a-4004-8ca1-fbe0453a0ea3)
   
 > [!IMPORTANT]
->  다음 절차에서는 목록에서 원치 않는 이름 서버를 삭제 하는 방법 및 올바른 이름 서버가 나열 되어 있지 않은 경우 추가 하는 방법을 보여 줍니다. >이 섹션의 단계를 완료 한 후에는 > ns1.bdm.microsoftonline.com > ns2.bdm.microsoftonline.com > ns3.bdm.microsoftonline.com > ns4.bdm.microsoftonline.com와 같은 4 가지 이름 서버를 나열 해야 합니다. 
+>  다음 절차에서는 원치 않는 다른 이름 서스터를 목록에서 삭제하는 방법과 올바른 이름 서비스(아직 나열되지 않은 경우)를 추가하는 방법을 보여 합니다. > 이 섹션의 단계를 완료하면 다음 네 가지 이름만 나열됩니다. > ns1.bdm.microsoftonline.com > ns2.bdm.microsoftonline.com > ns3.bdm.microsoftonline.com > ns4.bdm.microsoftonline.com 
   
-1. 시작 하려면 [이 링크](https://account.1and1.com/?redirect_url=https%3A%2F%2Fmy.1and1.com%2F)를 사용 하 여 1&1gb os의 도메인 페이지로 이동 합니다. You'll be prompted to log in. 
+1. To get started, go to your domains page at 1&1 IONOS by using [this link.](https://account.1and1.com/?redirect_url=https%3A%2F%2Fmy.1and1.com%2F) You'll be prompted to log in. 
     
-2. **내 도메인**아래에서 **도메인 관리**를 선택 합니다.
+2. MY **DOMAINS에서** 도메인 **관리를 선택합니다.**
     
-3. **Domain Center (도메인 센터** ) 페이지에서 업데이트 하려는 도메인을 찾은 다음 해당 도메인에 대 한 **패널** ( **v**) 컨트롤을 선택 합니다.
+3. 도메인 센터 **페이지에서** 업데이트할 도메인을 찾은 다음 해당 도메인에 대한 **패널(v)** 컨트롤을 선택합니다. 
     
-4. **도메인 설정** 영역에서 **DNS 설정 편집**을 선택 합니다.
+4. 도메인 설정 **영역에서** DNS 설정 **편집을 선택합니다.**
     
-5. **이름 서버 설정** 구역에서 **다른 이름 서버**를 선택합니다.
+5. **이름 서버 설정** 구역에서 **다른 이름 서버** 를 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -127,7 +127,7 @@ Microsoft 365에서 도메인을 설정할 수 있도록 NS 레코드를 변경�
    
    ![이름 서버 1 상자에 값 입력](../../media/34509935-461f-427f-9796-c3cf840bd9be.png)
   
-2. **다른 이름 서버** 드롭다운 목록에서 **내 보조 이름 서버**를 선택합니다.
+2. **다른 이름 서버** 드롭다운 목록에서 **내 보조 이름 서버** 를 선택합니다.
     
     ![Choosing My secondary name servers in the list](../../media/7eb14856-86da-45c2-910c-c72312250a18.png)
   
@@ -141,16 +141,16 @@ Microsoft 365에서 도메인을 설정할 수 있도록 NS 레코드를 변경�
    
 ![이름 서버 값 입력](../../media/0f15880c-88b6-4133-8f31-62f0d98ee63f.png)
   
-4. **저장**을 선택합니다.
+4. **저장** 을 선택합니다.
     
-    ![이름 서버 설정 페이지에서 저장 선택](../../media/864f7927-7127-4784-b8d2-dadfea2f9dc8.png)
+    ![이름 서버 설정에서 저장 선택 페이지](../../media/864f7927-7127-4784-b8d2-dadfea2f9dc8.png)
   
-5. **DNS 설정 편집** 대화 상자에서 **예**를 선택 합니다.
+5. DNS 설정 **편집** 대화 상자에서 **예를 선택합니다.**
     
     ![DNS 설정 편집 대화 상자에서 저장 선택](../../media/0558e24c-17cd-428c-9ec1-5ed46481af7c.png)
   
 > [!NOTE]
-> Your nameserver record updates may take up to several hours to update across the Internet's DNS system. 그러면 Microsoft 전자 메일 및 기타 서비스가 모두 도메인에서 작동 하도록 설정 됩니다. 
+> Your nameserver record updates may take up to several hours to update across the Internet's DNS system. 그런 다음 Microsoft 전자 메일 및 기타 서비스가 모두 도메인에서 작동하게 설정됩니다. 
   
 ### <a name="if-there-are-nameservers-already-listed"></a>이름 서버가 나열되어 있는 경우
 
@@ -172,16 +172,16 @@ Microsoft 365에서 도메인을 설정할 수 있도록 NS 레코드를 변경�
    
    ![이름 서버 값 입력](../../media/52826bd1-0596-4103-a728-d5d28b9610d2.png)
   
-3. **저장**을 선택합니다.
+3. **저장** 을 선택합니다.
     
-    ![이름 서버 설정 페이지에서 저장 선택](../../media/cd10e4fb-b7fa-480f-855b-a443f2705cf2.png)
+    ![이름 서버 설정에서 저장 선택 페이지](../../media/cd10e4fb-b7fa-480f-855b-a443f2705cf2.png)
   
-4. **DNS 설정 편집** 대화 상자에서 **예**를 선택 합니다.
+4. DNS 설정 **편집** 대화 상자에서 **예를 선택합니다.**
     
     ![DNS 설정 편집 대화 상자에서 저장 선택](../../media/0558e24c-17cd-428c-9ec1-5ed46481af7c.png)
   
 > [!NOTE]
-> Your nameserver record updates may take up to several hours to update across the Internet's DNS system. 그러면 Microsoft 전자 메일 및 기타 서비스가 모두 도메인에서 작동 하도록 설정 됩니다. 
+> Your nameserver record updates may take up to several hours to update across the Internet's DNS system. 그런 다음 Microsoft 전자 메일 및 기타 서비스가 모두 도메인에서 작동하게 설정됩니다. 
   
 
 

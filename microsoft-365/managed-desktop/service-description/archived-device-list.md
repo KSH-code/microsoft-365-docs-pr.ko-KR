@@ -1,6 +1,6 @@
 ---
 title: Microsoft Managed Desktop 보관 장치
-description: 여전히 등록이 가능 하지만 지원 기간이 줄어들 것을 곧 폐기 하는 장치
+description: 아직 등록할 수 있지만 지원 기간이 단축되는 장치 사용 중지
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -11,68 +11,69 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 4b2c53ee8535c2e99acb83060a2ee04d8f5033db
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 57b49e49a20ee9e088301e90590c19cfabf89a2b
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754519"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658944"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관 장치
 
-최상의 사용자 환경을 보장 하기 위해 Microsoft Managed Desktop은 특정 지점의 장치에 대 한 지원을 retires 합니다. 이 항목에서는 다음 몇 년 동안 곧 만료 되는 장치를 나열 하며, "보관 된"를 호출 합니다. 이미 보유 한 장치를 사용 하 여 Microsoft Managed Desktop을 시작 하는 경우이 목록을 신중히 확인 해야 합니다.
+최상의 사용자 환경을 보장하기 위해 Microsoft Managed Desktop은 특정 시점에 장치에 대한 지원을 중지합니다. 이 항목에서는 "보관"이라고 하는 몇 년 후에 사용 중지될 예정인 디바이스를 나열합니다. 이미 있는 장치를 사용하여 Microsoft Managed Desktop을 시작하는 경우 이 목록을 주의 깊게 검사해야 합니다.
 
 >[!IMPORTANT]
->이러한 장치는 지금 등록할 수 있지만 Microsoft Managed Desktop의 서비스 수명이 단축 됩니다. 새 장치를 구입 하는 경우 [활성 장치 목록의](./device-list.md)모델을 사용 해야 합니다.
+>지금도 이러한 장치를 등록할 수 있지만 Microsoft Managed Desktop을 사용하면 서비스 수명이 짧아지게 됩니다. 새 장치를 구입하는 경우 활성 장치 목록의 모델을 [사용해야 합니다.](./device-list.md)
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
-Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나 여야 하며, RAM, 프로세서 제품군 및 디스크 공간에 대해 나열 된 사양을 충족 하거나 초과 해야 합니다. 다른 사용자 지정은 지원 되지 않습니다.
+Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나에 있어야 하며 RAM, 프로세서 패밀리 및 디스크 공간에 대한 나열된 사양을 충족하거나 초과해야 합니다. 다른 사용자 지정은 지원되지 않습니다.
 
 
 
 >[!NOTE]
->이 표에서 "퇴직 date"는 Microsoft Managed Desktop에서이 모델을 더 이상 지원 하지 않는 날짜입니다. 해당 날짜에이 모델의 등록 된 모든 장치는 등록 시점에 관계 없이 Microsoft Managed Desktop에서 제거 됩니다.
+>이 표에서 "사용 중지 날짜"는 Microsoft Managed Desktop에서 이 모델을 더 이상 지원하지 않는 날짜입니다. 이 날짜에 이 모델의 등록된 모든 장치가 등록된 경우와 상관없이 Microsoft Managed Desktop에서 제거됩니다.
 
 #### <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관 장치
 
-| 모델  | 최소 사양  | 추가 요구 사항   | 퇴직 날짜 |
+| 모델  | 최소 사양  | 추가 요구 사항   | 사용 중지 날짜 |
 |---------|---------|---------|---------|
-|Dell Precision 3530| 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | **5 월 22 일, 2023** |
-|Dell Latitude 5300/5300 2-1/5400/5500 | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | **2024 년 6 월 1 일**  |
-|Dell Latitude 5490 | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | **1 월 9 일, 2023** |
-|Dell Latitude 7200 2-1 | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | **5 월 1 일, 2024** |
-|Dell Latitude 7300/7400/7400 2-i-1 | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | **5 월 1 일, 2024**  |
-|Dell Latitude 7390/7390 2-1/7490 | 256 GB/Intel i5/8gb RAM   | IR 카메라 필요 | **1 월 9 일, 2023** |
-|Dell Optiplex 3070 | 128 GB/Intel i3/8gb RAM | 없음 | **5 월 1 일, 2025**  |
-|HP EliteBook 830/840/850 G5| 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **2 월 15 일 2023** |
-|HP EliteBook 830/840/850 G6| 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **11 월 30 일, 2023** |
-|HP 정예 x2 1013 G3| 256 GB/Intel i5/8gb RAM | 5VS03AV를 사용한 SKU, IR 카메라 필요 |**5 월 14 일 2023** |
-|HP EliteBook x360 1030 G5| 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 |**5 월 14 일 2023** |
-|HP EliteBook x360 1030 G6| 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 |**11 월 30 일, 2023** |
-|HP EliteBook x360 1040 G5| 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 | **2023 년 10 월 23 일** |
-|HP EliteBook x360 1040 G6| 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 | **11 월 30 일, 2023** |
-|HP ProBook x360 440 G1| 128 GB/Intel i3/8gb RAM | 5VS04AV, IR 카메라 또는 지문 판독기가 필요한 SKU | **7 월 6 일 2023** |
-|HP EliteDesk 800 G4 DM | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | **7 월 18 일 2023** |
-|HP EliteDesk 800 G4 SFF | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | **7 월 18 일 2023** |
-|AIO HP EliteOne 800 G4 23.8 |128 GB/Intel i3/8gb RAM |5VS04AV를 사용한 SKU| **7 월 18 일 2023** |
-|HP ZBook 14u/15u G6 모바일 워크스테이션 |256 GB/Intel i5/8gb RAM |5VS04AV를 사용한 SKU, IR 카메라 필요| **11 월 30 일, 2023** |
-|Surface Book 2| 256 GB/Intel i5/8gb RAM | 없음 | **2022 년 11 월 16 일** |
-|표면 이동| 128 GB/Intel 4415Y/8GB RAM | 없음 | **8 월 2 일, 2023** |
-|Surface 랩탑| 256 GB/Intel i5/8gb RAM | 없음 | **5 월 20 일, 2022** |
-|Surface Pro| 256 GB/Intel i5/8gb RAM | 없음 | **6 월 15 일 2022** |
+|Dell Precision 3530| 256GB/Intel i5/8GB RAM | IR 카메라 필요 | **2023년 5월 22일** |
+|Dell Latitude 5300/ 5300 2-in-1/ 5400/ 5500 | 256GB/Intel i5/8GB RAM | IR 카메라 필요 | **2024년 6월 1일**  |
+|Dell Latitude 5490 | 256GB/Intel i5/8GB RAM | IR 카메라 필요 | **2023년 1월 9일** |
+|Dell Latitude 7200 2-in-1 | 256GB/Intel i5/8GB RAM | IR 카메라 필요 | **2024년 5월 1일** |
+|Dell Latitude 7300/ 7400/ 7400 2-in-1 | 256GB/Intel i5/8GB RAM | IR 카메라 필요 | **2024년 5월 1일**  |
+|Dell Latitude 7390/ 7390 2-in-1/ 7490 | 256GB/Intel i5/8GB RAM   | IR 카메라 필요 | **2023년 1월 9일** |
+|Dell Optiplex 3070 | 128GB/Intel i3/8GB RAM | 없음 | **2025년 5월 1일**  |
+|HP EliteBook 830/840/850 G5| 128GB/Intel i5/8GB RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **2023년 2월 15일** |
+|HP EliteBook 830/840/850 G6| 128GB/Intel i5/8GB RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **2023년 11월 30일** |
+|HP Elite x2 1013 G3| 256GB/Intel i5/8GB RAM | 5VS03AV가 있는 SKU, IR 카메라 필요 |**2023년 5월 14일** |
+|HP EliteBook x360 1030 G5| 256GB/Intel i5/8GB RAM | 5VS01AV가 있는 SKU, IR 카메라 필요 |**2023년 5월 14일** |
+|HP EliteBook x360 1030 G6| 256GB/Intel i5/8GB RAM | 5VS01AV가 있는 SKU, IR 카메라 필요 |**2023년 11월 30일** |
+|HP EliteBook x360 1040 G5| 256GB/Intel i5/8GB RAM | 5VS01AV가 있는 SKU, IR 카메라 필요 | **2023년 10월 23일** |
+|HP EliteBook x360 1040 G6| 256GB/Intel i5/8GB RAM | 5VS01AV가 있는 SKU, IR 카메라 필요 | **2023년 11월 30일** |
+|HP ProBook x360 440 G1| 128GB/Intel i3/8GB RAM | 5VS04AV, IR 카메라 또는 지문 판독기가 필요한 SKU | **2023년 6월 6일** |
+|HP EliteDesk 800 G4 DM | 128GB/Intel i3/8GB RAM | 5VS04AV가 있는 SKU | **2023년 7월 18일** |
+|HP EliteDesk 800 G4 SFF | 128GB/Intel i3/8GB RAM | 5VS04AV가 있는 SKU | **2023년 7월 18일** |
+|HP EliteOne 800 G4 23.8in AIO |128GB/Intel i3/8GB RAM |5VS04AV가 있는 SKU| **2023년 7월 18일** |
+|HP ZBook 14u/15u G6 Mobile Workstation |256GB/Intel i5/8GB RAM |5VS04AV가 있는 SKU, IR 카메라 필요| **2023년 11월 30일** |
+|Surface Book 2| 256GB/Intel i5/8GB RAM | 없음 | **2022년 11월 16일** |
+|Surface Go| 128GB/Intel 4415Y/8GB RAM | 없음 | **2023년 8월 2일** |
+|Surface 노트북| 256GB/Intel i5/8GB RAM | 없음 | **2022년 5월 20일** |
+|Surface 노트북 2| 128GB/Intel i5/8GB RAM | 없음 | **2023년 10월 16일** |
+|Surface Pro| 256GB/Intel i5/8GB RAM | 없음 | **2022년 6월 15일** |
+|Surface Pro 6| 128GB/Intel i5/8GB RAM | 없음 | **2023년 10월 16일** |
 
+또한 디바이스는 다음을 해야 합니다.
 
-또한 장치는 다음을 수행 해야 합니다.
-
-- Microsoft Managed Desktop에서 이미지를 승인 받아야 합니다. 장치를 주문할 때 Microsoft Managed Desktop과 함께 사용 되도록 지정 해야 합니다.
-- Windows 최초 실행 환경을 완료 하지 않은 경우
-- [장치 등록](https://aka.ms/mmddrhelp) 기능을 사용 하 여 Microsoft Managed Desktop에 등록 해야 합니다.
+- Microsoft Managed Desktop에서 승인한 이미지가 있습니다. 디바이스를 주문할 때 Microsoft Managed Desktop에서 사용 중이라 지정해야 합니다.
+- Windows 첫 실행 환경을 완료하지 않은 경우
+- 장치 등록 기능을 사용하여 Microsoft Managed [Desktop에 등록](https://aka.ms/mmddrhelp)
 
 #### <a name="additional-help"></a>추가 도움말
 
-이러한 리소스는 특정 장치에 대 한 질문에 대 한 답을 얻을 수 있도록 도와줍니다.
+이러한 리소스는 특정 장치에 대해 질문할 수 있는 질문에 답변하는 데 도움이 될 수 있습니다.
 
-- Dell 장치에 대 한 자세한 내용은 [MMD_at_dell@dell.com](mailto:MMD_at_dell@dell.com)에 문의 하십시오.
+- Dell 장치에 대한 자세한 내용은 다음 [MMD_at_dell@dell.com.](mailto:MMD_at_dell@dell.com)
 
-- HP 장치에 대 한 자세한 내용은 미국 ([mmd-americas@hp.com](mailto:mmd-americas@hp.com))에 문의 하세요. 유럽/중동/아프리카 ([mmd-emea@hp.com](mailto:mmd-emea@hp.com)); 아시아 태평양/일본 ([mmd-apj@hp.com](mailto:mmd-apj@hp.com)); Global ([mmd@hp.com](mailto:mmd@hp.com))
+- HP 디바이스에 대한 자세한 질문은 미주(mmd-americas@hp.com[);](mailto:mmd-americas@hp.com) 유럽/중동/아프리카(mmd-emea@hp.com );[](mailto:mmd-emea@hp.com) 아시아 태평양/일본(mmd-apj@hp.com );[](mailto:mmd-apj@hp.com) Global([mmd@hp.com](mailto:mmd@hp.com))

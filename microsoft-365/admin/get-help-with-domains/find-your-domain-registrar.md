@@ -22,23 +22,23 @@ search.appverid:
 - GEA150
 ms.assetid: b5b633ba-1e56-4a98-8ff5-2acaac63a5c8
 description: InterNIC 검색을 사용하여 도메인 등록 기관 및 DNS 호스팅 공급자를 찾는 방법에 대해 알아보세요.
-ms.openlocfilehash: 8fa75800125179f046f3af76eea490d760b9f6cd
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 434e30709b112cf591159a1692540b8ef2b6bb65
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645326"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49655545"
 ---
 # <a name="find-your-domain-registrar"></a>도메인 등록 기관 찾기
 
- 원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요. 
+ 원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요. 
   
 ## <a name="domain-registrar"></a>도메인 등록 기관
   
 ### <a name="find-your-domain-name-registrar"></a>도메인 이름 등록 기관 찾기
 
 >[!NOTE]
-> *.COM*, *.NET*, and *.EDU*로 끝나는 도메인만이 이 도구를 사용할 수 있습니다.
+> *.COM*, *.NET*, and *.EDU* 로 끝나는 도메인만이 이 도구를 사용할 수 있습니다.
   
 1. [InterNIC 검색 페이지](https://go.microsoft.com/fwlink/p/?LinkId=402770)의 **Whois Search(Whois 검색)** 상자에 도메인을 입력합니다. 예: *contoso.com.* 
     
@@ -51,7 +51,7 @@ ms.locfileid: "48645326"
 ### <a name="find-your-dns-hosting-provider"></a>DNS 호스팅 공급자 찾기
 
 >[!NOTE]
-> *.COM*, *.NET*, and *.EDU*로 끝나는 도메인만이 이 도구를 사용할 수 있습니다.
+> *.COM*, *.NET*, and *.EDU* 로 끝나는 도메인만이 이 도구를 사용할 수 있습니다.
   
 1. [InterNIC 검색 페이지]( https://go.microsoft.com/fwlink/p/?LinkId=402770)의 **Whois Search(Whois 검색)** 상자에 도메인을 입력합니다. 예로 contoso.com 등을 들 수 있습니다. 
     

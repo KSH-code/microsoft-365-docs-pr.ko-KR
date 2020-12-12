@@ -19,23 +19,23 @@ ms.collection:
 - m365initiative-defender-office365
 description: 보안 및 준수 센터에서 Microsoft Defender for Office 365에 대한 보고서를 & 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2818362eea4071430bb2c784ceb0ce0eeb970a79
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 82c003478538274be1dd1d2e04816de80d1eae6d
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615579"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659456"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>보안 및 준수 센터의 보고서 대시보드에서 Office 365용 & 보기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Office 365 계획 1용 Microsoft Defender 또는 Office 365 계획 2 추가 기능용 Microsoft Defender)에는 다양한 보안 관련 보고서가 포함되어 있습니다. 필요한 사용 [](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)권한이 있는 경우 보고서 대시보드로 & 보안 및 준수 센터에서 이러한 보고서를 볼 **수** \> **있습니다.** 보고서 대시보드로 직접 이동하기 위해 를 열 수 <https://protection.office.com/insightdashboard> 있습니다.
+Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Office 365 계획 1용 Microsoft Defender 또는 Office 365 계획 2 추가 기능용 Microsoft Defender)에는 다양한 보안 관련 보고서가 포함되어 있습니다. 필요한 사용 [](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)권한이 있는 경우 보고서 대시보드로 & 보안 및 준수 센터에서 이러한 보고서를 볼 **수** \> **있습니다.** 보고서 대시보드로 직접 이동하기 위해 를 <https://protection.office.com/insightdashboard> 열습니다.
 
 ![보안 및 준수 센터의 & 대시보드](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
-## <a name="defender-for-office-365-file-types-report"></a>Office 365 파일 형식용 Defender 보고서
+## <a name="defender-for-office-365-file-types-report"></a>Office 365용 Defender 파일 형식 보고서
 
 **Office 365용 Defender** 파일 형식 보고서에는 안전한 첨부 파일에서 악성으로 감지된 파일 [형식이 표시됩니다.](atp-safe-attachments.md)
 
@@ -63,7 +63,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
   - **악성 실행 파일 첨부 파일**
   - **기타**
 
-  특정 일(데이터 포인트)에 마우스를 대면 [EOP의](anti-malware-protection.md)안전 첨부 파일 및 [](atp-safe-attachments.md) 맬웨어 방지 보호 기능에서 검색된 악성 파일 유형의 분석 정보를 볼 수 있습니다.
+  특정 일(데이터 포인트)에 마우스를 대면 [EOP에서](anti-malware-protection.md)안전한 첨부 파일 및 [](atp-safe-attachments.md) 맬웨어 방지 보호로 검색된 악성 파일 유형의 분석 정보를 볼 수 있습니다.
 
   ![Office 365용 Defender 파일 형식 보고서의 파일 보기](../../media/atp-file-types-report-file-view.png)
 
@@ -88,7 +88,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 ### <a name="details-table-view-for-the-defender-for-office-365-file-types-report"></a>Office 365용 Defender 파일 형식 보고서에 대한 세부 정보 테이블 보기
 
-세부 정보 표 보기를 클릭하면 보고서에서 지난 10일 동안 조직 내에서 발생된 모든 클릭 수를 거의 실시간으로 볼 수 있습니다. 표시되는 정보는 보고 있는 차트에 따라 다를 수 있습니다.
+세부 정보 보기 테이블을 클릭하면 보고서에서 지난 10일 동안 조직 내에서 발생된 모든 클릭 수를 거의 실시간으로 볼 수 있습니다. 표시되는 정보는 보고 있는 차트에 따라 다를 수 있습니다.
 
 - **데이터 보기: 파일:**
 
@@ -119,7 +119,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 보고서 보기로 돌아가려면 보고서 **보기를 클릭합니다.**
 
-## <a name="defender-for-office-365-message-disposition-report"></a>Office 365 메시지 처리 보고서용 Defender
+## <a name="defender-for-office-365-message-disposition-report"></a>Office 365용 Defender 메시지 처리 보고서
 
 **ATP 메시지 처리 보고서에는** 악성 콘텐츠가 있는 것으로 감지된 전자 메일 메시지에 대해 수행된 작업이 표시됩니다.
 
@@ -159,7 +159,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
   - **악성 실행 파일 첨부 파일**
   - **기타**
 
-  특정 일(데이터 포인트)에 마우스를 대면 [EOP의](anti-malware-protection.md)안전 첨부 파일 및 [](atp-safe-attachments.md) 맬웨어 방지 보호 기능에서 검색된 악성 파일 유형의 분석 정보를 볼 수 있습니다.
+  특정 일(데이터 포인트)에 마우스를 대면 [EOP에서](anti-malware-protection.md)안전한 첨부 파일 및 [](atp-safe-attachments.md) 맬웨어 방지 보호로 검색된 악성 파일 유형의 분석 정보를 볼 수 있습니다.
 
   ![Office 365용 Defender 파일 형식 보고서의 파일 보기](../../media/atp-file-types-report-file-view.png)
 
@@ -170,7 +170,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 ### <a name="details-table-view-for-the-defender-for-office-365-message-disposition-report"></a>Office 365용 Defender 메시지 처리 보고서에 대한 세부 정보 테이블 보기
 
-세부 정보 표 보기를 클릭하면 보고서에서 지난 10일 동안 조직 내에서 발생된 모든 클릭 수를 거의 실시간으로 볼 수 있습니다. 표시되는 정보는 보고 있는 차트에 따라 다를 수 있습니다.
+세부 정보 보기 테이블을 클릭하면 보고서에서 지난 10일 동안 조직 내에서 발생된 모든 클릭 수를 거의 실시간으로 볼 수 있습니다. 표시되는 정보는 보고 있는 차트에 따라 다를 수 있습니다.
 
 - **데이터 보기: 메시지:**
 
@@ -228,7 +228,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 이 차트에는 다음 범주로 구성된 메시지가 표시됩니다.
 
 - **메일 배달 대기 시간**
-- **데스토인 대기 시간**
+- **Detonation latency**
 
 차트에서 범주 위에 마우스를 대면 각 범주의 대기 시간 분석이 표시됩니다.
 
@@ -258,7 +258,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 ## <a name="threat-protection-status-report"></a>위협 방지 상태 보고서
 
-**위협 방지** 상태 보고서는 EOP(Exchange [Online Protection)](exchange-online-protection-overview.md) 및 Office 365용 Microsoft Defender에서 검색 및 차단되는 악성 콘텐츠 및 악의적인 전자 메일에 대한 정보를 수집하는 단일 보기입니다. 자세한 내용은 위협 방지 상태 [보고서를 참조하세요.](view-email-security-reports.md#threat-protection-status-report)
+**위협 방지** 상태 보고서는 EOP(Exchange [Online Protection)](exchange-online-protection-overview.md) 및 Office 365용 Microsoft Defender에서 검색 및 차단되는 악의적인 콘텐츠 및 악의적인 전자 메일에 대한 정보를 수집하는 단일 보기입니다. 자세한 내용은 위협 방지 상태 [보고서를 참조하세요.](view-email-security-reports.md#threat-protection-status-report)
 
 ## <a name="url-threat-protection-report"></a>URL 위협 방지 보고서
 
@@ -290,7 +290,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
   ![URL 위협 방지 보고서의 URL 클릭 보호 작업 보기](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 
-- **응용 프로그램당 URL 클릭:** 안전한 링크를 지원하는 응용 프로그램의 URL 클릭 수를 보여 주며,
+- **응용 프로그램당** URL 클릭: 안전한 링크를 지원하는 응용 프로그램의 URL 클릭 수를 보여줍니다.
 
   - **전자 메일 클라이언트**
   - **PowerPoint**
@@ -322,7 +322,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 ## <a name="additional-reports-to-view"></a>볼 추가 보고서
 
-이 항목에 설명된 보고서 외에도 다음 표에 설명된 몇 가지 다른 보고서를 사용할 수 있습니다.
+이 문서에 설명된 보고서 외에도 다음 표에 설명된 몇 가지 다른 보고서를 사용할 수 있습니다.
 
 ****
 
@@ -330,7 +330,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 |---|---|
 |**탐색기(Office** 365 계획 2용 Microsoft Defender) 또는 실시간 **검색(Office** 365 계획 1용 Microsoft Defender)|[위협 탐색기 (실시간 검출)](threat-explorer.md)|
 |**최상위 보낸** 사람 및 받는 사람 보고서, 스푸핑 메일 보고서 및 스팸 검색 보고서와 같은 전자 메일 보안 보고서|[보안 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)|
-|**전달 보고서,** 메일 흐름 상태 보고서, 최상위 보낸 사람 및 받는 사람 보고서와 같은 메일 흐름 보고서|[보안 및 준수 센터에서 & 흐름 보고서 보기](view-mail-flow-reports.md)|
+|**전달 보고서,** 메일 흐름 상황 보고서, 최상위 보낸 사람 및 받는 사람 보고서 등의 메일 흐름 보고서|[보안 및 준수 센터에서 & 흐름 보고서 보기](view-mail-flow-reports.md)|
 |**안전한 링크에 대한 URL** 추적(PowerShell만 해당). 이 cmdlet의 출력은 지난 7일 동안의 안전 링크 작업 결과를 보여줍니다.|[Get-UrlTrace](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
 |**EOP 및 Office 365용 Microsoft Defender에** 대한 메일 트래픽 결과(PowerShell만 해당) 이 cmdlet의 출력에는 도메인, 날짜, 이벤트 유형, 방향, 동작 및 메시지 수에 대한 정보가 포함되어 있습니다.|[Get-MailTrafficATPReport](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport)|
 |**EOP 및 Office 365** 검색용 Defender에 대한 메일 세부 정보 보고서(PowerShell에만 해당) 이 cmdlet의 출력에는 전자 메일 또는 파일의 악성 파일 또는 URL, 피싱 시도, 가장 및 기타 잠재적 위협에 대한 세부 정보가 포함되어 있습니다.|[Get-MailDetailATPReport](https://docs.microsoft.com/powershell/module/exchange/get-maildetailatpreport)|
@@ -338,12 +338,12 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 
 ## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Office 365용 Defender 보고서를 보는 데 필요한 사용 권한은 무엇입니까?
 
-이 항목에 설명된 보고서를 보고 사용하려면 보안 및 준수 센터에서 다음 역할 그룹 중 하나에 & 해야 합니다.
+이 문서에 설명된 보고서를 보고 사용하려면 Security & 준수 센터에서 다음 역할 그룹 중 하나에 & 합니다.
 
 - **조직 관리**
 - **보안 관리자**
 - **보안 읽기**
-- **전역 읽기 권한자**
+- **전역 읽기**
 
 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 

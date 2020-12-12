@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 구성 분석기를 사용하여 표준 보호 및 엄격한 보호 미리 설정 보안 정책 아래에 있는 보안 정책을 찾아 수정하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 5a57e16dcac6afee910ce546d3a40c2c9c669f2d
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: af7cf269151c7e947a0a2f653ce8638d46ccd905
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616155"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658664"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Office 365용 Microsoft Defender의 보호 정책에 대한 구성 분석기
 
@@ -30,7 +30,7 @@ ms.locfileid: "49616155"
 
 
 > [!NOTE]
-> 이 항목에 설명된 기능은 미리 보기로 제공되어 있으며, 일부 조직에서는 사용할 수 없는 기능으로 변경될 수 있습니다. 릴리스 일정에 대한 자세한 내용은 [Microsoft 365 로드맵을 참조하십시오.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=config%2Canalyzer)
+> 이 문서에 설명된 기능은 미리 보기로 제공되어 있으며, 일부 조직에서는 사용할 수 없는 기능으로 변경될 수 있습니다. 릴리스 일정에 대한 자세한 내용은 [Microsoft 365 로드맵을 참조하십시오.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=config%2Canalyzer)
 
 보안 및 준수 & 센터의 구성 분석기는 설정이 미리 설정된 보안 정책의 표준 보호 및 엄격한 보호 프로필 설정 아래에 있는 보안 정책을 찾고 수정할 수 있는 중앙 [위치를 제공합니다.](preset-security-policies.md)
 
@@ -54,11 +54,11 @@ ms.locfileid: "49616155"
 
   - [안전한 첨부 파일 정책.](set-up-atp-safe-attachments-policies.md)
 
-기준으로 **사용되는** **표준** 및 엄격한 정책 설정 값은 EOP 및 [Office 365용 Microsoft Defender](recommended-settings-for-eop-and-office365-atp.md)보안에 대한 권장 설정에 설명되어 있습니다.
+기준으로 사용되는 **표준** 및 **엄격한** 정책 설정 값은 [EOP 및 Office 365용 Microsoft Defender](recommended-settings-for-eop-and-office365-atp.md)보안에 대한 권장 설정에 설명되어 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 구성 분석기 **페이지로** 직접 이동하려면 <https://protection.office.com/configurationAnalyzer> 다음을 사용하세요.
+- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 구성 분석기 **페이지로** 직접 이동하려면 <https://protection.office.com/configurationAnalyzer> .
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
@@ -87,7 +87,7 @@ ms.locfileid: "49616155"
 
 ### <a name="setting-and-recommendations-tab-in-the-configuration-analyzer"></a>구성 분석기에서 설정 및 추천 탭
 
-기본적으로 표준 보호 프로필과 비교할 때 탭이 열립니다. Strict 추천 보기를 클릭하여 Strict protection 프로필 비교로 **전환할 수 있습니다.** 다시 전환하려면 표준 권장 **사항 보기를 선택합니다.**
+기본적으로 표준 보호 프로필과 비교할 때 탭이 열립니다. Strict 추천 보기를 클릭하여 Strict protection 프로필 비교로 전환할 **수 있습니다.** 다시 전환하려면 표준 권장 **사항 보기를 선택합니다.**
 
 ![구성 분석기에서 설정 및 권장 사항 보기](../../media/configuration-analyzer-settings-and-recommendations-view.png)
 

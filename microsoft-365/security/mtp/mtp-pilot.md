@@ -1,7 +1,7 @@
 ---
 title: 파일럿 Microsoft 365 Defender 프로젝트 실행
-description: Microsoft 365 Defender의 이점과 채택을 효과적으로 확인 하기 위해 프로덕션 환경에서 파일럿 Microsoft 365 Defender 프로젝트를 실행 합니다.
-keywords: Microsoft 위협 보호 파일럿, 파일럿 Microsoft 위협 보호 프로젝트를 실행 하 고, microsoft threat protection 파일럿 프로젝트, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, id, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화 된 조사 및 업데이트, 고급 구하기 등을 평가 합니다.
+description: 프로덕션에서 파일럿 Microsoft 365 Defender 프로젝트를 실행하여 Microsoft 365 Defender의 이점과 채택을 효과적으로 파악합니다.
+keywords: Microsoft 위협 방지 파일럿, 파일럿 Microsoft Threat Protection 프로젝트 실행, 프로덕션에서 Microsoft Threat Protection 평가, Microsoft Threat Protection 파일럿 프로젝트, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-overview
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: 50f334a055a5bd974f9ea1f39c8fa38d44be9c26
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: f01e918d35ce77d9239c200355c7b4c48c9e2b84
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131287"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659324"
 ---
 # <a name="run-your-pilot-microsoft-365-defender-project"></a>파일럿 Microsoft 365 Defender 프로젝트 실행 
 
@@ -35,43 +35,49 @@ ms.locfileid: "49131287"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender의 이점과 채택을 효과적으로 확인 하기 위해 파일럿 프로젝트를 실행할 수 있습니다. 프로덕션 환경에서 Microsoft 365 Defender를 사용 하도록 설정 하 고 사용 사례를 시작 하기 전에 파일럿 프로젝트에 대해 수행할 작업을 결정 하 고 성공 기준을 설정 하는 것이 가장 좋습니다. 
 
-
-## <a name="how-to-use-this-pilot-playbook"></a>이 파일럿 playbook를 사용 하는 방법
-
-이 가이드에서는 Microsoft 365 Defender에 대 한 개요와 파일럿 프로젝트를 설정 하는 방법에 대 한 단계별 지침을 제공 합니다. 
-
-Microsoft 365 Defender는 여러 끝점, id, 전자 메일 및 응용 프로그램 간의 보호, 검색, 예방, 조사 및 응답을 고유 하 게 조정 하 고 복잡 한 공격에 대 한 통합 된 보호 기능을 제공 하는 통합 사전 및 사후 위반 엔터프라이즈 방어 제품군입니다. 이를 위해 다음과 같은 기능을 단일 보안 솔루션으로 결합 하 고 orchestrating 합니다.
-  - 끝점에 대 한 microsoft Defender, Microsoft Defender Advanced Threat Protection의 새 이름 (끝점)
-  - Microsoft Defender for Office 365, Office 365 ATP의 새 이름 (전자 메일) 
-  - Id 용 Microsoft Defender, Azure ATP의 새 이름 (id) 
-  - Microsoft Cloud App Security (앱)
-
-![Image of_Microsoft 365 Defender solution for users 365, for a for a for a for a for a for a for a for a 사용자](../../media/mtp/m365pillars.png)
-
-통합 Microsoft 365 Defender 솔루션을 사용 하 여 보안 전문가는 끝점, microsoft Defender for Office 365, microsoft Defender for Identity 및 Microsoft Cloud App Security receive에 대 한 위협 신호를 보내고, 위협의 전체 범위와 영향, 해당 환경의 진입 방식, 영향을 받는 방식 및 현재 조직에 영향을 주는 방법을 결정 합니다. Microsoft 365 Defender는 자동 작업을 수행 하 여 공격을 방지 하거나 중지 하 고 영향을 받는 사서함, 끝점 및 사용자 id를 자체 치유 합니다. 자세한 내용은 [Microsoft 365 Defender overview](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 를 참조 하세요.
+이 가이드는 체계적인 계획을 세우고, 공격 시뮬레이션 기능을 사용하는 방법을 안내하고, 마지막으로 주요 이행을 통해 파일럿을 끝내고, 결과를 반영하고 문서화하는 포인터를 제공하여 파일럿 프로젝트를 실행할 수 있도록 합니다.
 
 ![Microsoft 365 Defender 파일럿 실행 단계](../../media/pilotphases.png)
 
-다음의 시간 표시 막대는 환경에 적절 한 리소스가 있는 경우에 따라 달라 집니다. 일부 검색 및 워크플로에는 다른 일부 사용자 보다 더 많은 학습 시간이 필요할 수 있습니다.
 
-![Microsoft 365 Defender 파일럿 실행의 샘플 시간 표시줄](../../media/phase-diagrams/pilot-phases.png)
+파일럿을 실행하면 Microsoft 365 Defender 채택의 이점을 효과적으로 확인할 수 있습니다. 프로덕션 환경에서 Microsoft 365 Defender를 사용하도록 설정하고 사용 사례를 시작하기 전에 파일럿 프로젝트에 대해 수행할 작업을 결정하고 성공 기준을 설정하는 것이 가장 좋습니다. 
+
+
+## <a name="how-to-use-this-pilot-playbook"></a>이 파일럿 플레이북을 사용하는 방법
+
+이 가이드에서는 Microsoft 365 Defender에 대한 개요와 파일럿 프로젝트를 설정하는 방법에 대한 단계별 지침을 제공합니다. 
+
+Microsoft 365 Defender는 엔드포인트, ID, 전자 메일 및 응용 프로그램에서 기본적으로 보호, 탐지, 예방, 조사 및 대응을 조정하여 정교한 공격으로부터 통합된 보호를 제공하는 통합 사전 및 사후 위반 엔터프라이즈 방어 제품군입니다. 이를 위해 다음 기능을 결합하고 단일 보안 솔루션으로 오케스트레이션합니다.
+  - Microsoft Defender for Endpoint, Microsoft Defender Advanced Threat Protection의 새 이름(끝점)
+  - Office 365 ATP의 새로운 이름인 Office 365용 Microsoft Defender(전자 메일) 
+  - Azure ATP의 새 이름인 ID용 Microsoft Defender(ID) 
+  - Microsoft Cloud App Security(앱)
+
+![클라우드 of_Microsoft, Microsoft Cloud App Security 및 데이터용 끝점용 Microsoft Defender for Identity에 대한 사용자용 이미지 365 Defender 솔루션, ID용 Microsoft Defender](../../media/mtp/m365pillars.png)
+
+통합된 Microsoft 365 Defender 솔루션을 사용하여 보안 전문가는 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, ID용 Microsoft Defender 및 Microsoft Cloud App Security에서 수신하는 위협 신호를 통합하고 위협의 전체 범위와 영향, 위협이 환경에 들어오고 있는 방법, 영향을 받는 방법 및 현재 조직에 미치는 영향을 확인할 수 있습니다. Microsoft 365 Defender는 공격을 방지하거나 중지하고 영향을 받는 사서함, 끝점 및 사용자 ID를 자체적으로 예방하거나 중지하는 자동 조치를 취합니다. 자세한 내용은 [Microsoft 365 Defender 개요를](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 참조하세요.
+
+
+
+다음 샘플 타임라인은 환경에 적합한 리소스가 있는 데 따라 다릅니다. 일부 검색 및 워크플로는 다른 검색 및 워크플로보다 학습 시간이 더 필요할 수 있습니다.
+
+![Microsoft 365 Defender 파일럿 실행 샘플 타임라인](../../media/phase-diagrams/pilot-phases.png)
 
 >[!IMPORTANT]
->최적의 결과를 위해 파일럿 지침을 최대한 면밀 하 게 따릅니다.
+>최적의 결과를 얻기 위해 가능한 한 파일럿 지침을 따르세요.
 
 
-### <a name="pilot-playbook-phases"></a>파일럿 playbook 단계 
+### <a name="pilot-playbook-phases"></a>파일럿 플레이북 단계 
 
-Microsoft 365 Defender 파일럿을 실행 하는 데는 다음과 같은 네 가지 단계가 있습니다.
+Microsoft 365 Defender 파일럿을 실행하는 네 가지 단계가 있습니다.
 
 |단계 | 설명 | 
 |:-------|:-----|
-| [계획](mtp-pilot-plan.md)<br> ~ 1 일| Microsoft 365 Defender 파일럿 프로젝트를 실행 하기 전에 고려해 야 할 사항에 대해 알아봅니다. <br><br>-범위 <br> -사용 사례 <br>- 요구 사항 <br>-테스트 계획 <br> -성공 조건 <br> -성과 기록표 
-| [미리](mtp-evaluation.md) <br>~ 2 일|  Microsoft 365 보안 센터에 액세스 하 여 Microsoft 365 Defender 파일럿 환경을 설정 합니다. 다음을 안내 합니다.<br><br>-관련자 식별 및 파일럿에 대 한 승인 찾기 <br> -환경 고려 사항 <br>-액세스 <br>-Azure Active Directory 설치 <br> -구성 순서 <br> -Microsoft 365 E5 평가판 등록 <br> -도메인 구성 <br>-Microsoft 365 E5 라이선스 할당 <br> -포털에서 설치 마법사 완료|
-| [공격 시뮬레이션](mtp-pilot-simulate.md) <br>~ 2 일| 공격을 시뮬레이트하기 위해 다음을 안내 합니다.<br><br>-테스트 환경 요구 사항 확인 <br>-시뮬레이션을 실행 합니다. <br>-문제 조사 <br>-인시던트를 해결 합니다. 
-| [맺음말 및 요약](mtp-pilot-close.md) <br>~ 1 일| 프로세스의 끝에 도달 하면 다음을 안내 합니다.<br><br>-최종 출력으로 이동<br>-결과를 이해 관계자에 게 제공 <br>-사용자 의견 제공 <br>-다음 단계 수행 
+| [계획](mtp-pilot-plan.md)<br> ~ 1일| Microsoft 365 Defender 파일럿 프로젝트를 실행하기 전에 고려해야 할 내용을 알아보고 다음을 실행합니다. <br><br>- 범위 <br> - 사용 사례 <br>- 요구 사항 <br>- 테스트 계획 <br> - 성공 기준 <br> - Scorecard 
+| [준비](mtp-evaluation.md) <br>~2일|  Microsoft 365 보안 센터에 액세스하여 Microsoft 365 Defender 파일럿 환경을 설정할 수 있습니다. 다음을 안내합니다.<br><br>- 관련자 식별 및 파일럿에 대한 사인오프 모색 <br> - 환경 고려 사항 <br>- Access <br>- Azure Active Directory 설정 <br> - 구성 순서 <br> - Microsoft 365 E5 평가판 등록 <br> - 도메인 구성 <br>- Microsoft 365 E5 라이선스 할당 <br> - 포털에서 설정 마법사 완료|
+| [공격 시뮬레이션](mtp-pilot-simulate.md) <br>~2일| 공격을 시뮬레이트하기 위해 다음을 안내합니다.<br><br>- 테스트 환경 요구 사항 확인 <br>- 시뮬레이션 실행 <br>- 인시던트 조사 <br>- 인시던트 해결 
+| [닫기 및 요약](mtp-pilot-close.md) <br>~ 1일| 프로세스가 끝났을 때 다음을 안내합니다.<br><br>- 최종 출력을 진행합니다.<br>- 이해 관계자에게 출력 표시 <br>- 피드백 제공 <br>- 다음 단계 수행 
 
 ## <a name="next-step"></a>다음 단계
 |[계획 단계](mtp-pilot-plan.md) | Microsoft 365 Defender 파일럿 프로젝트 계획 

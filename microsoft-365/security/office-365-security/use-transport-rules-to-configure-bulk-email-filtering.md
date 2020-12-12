@@ -16,31 +16,33 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 EOP(Exchange Online Protection)에서 메일 흐름 규칙(전송 규칙)을 사용하여 대량 메일(회색 메일)을 식별하고 필터링하는 방법을 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1f88358973648846d650700bb5939c052851c789
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: b029e805147218551ba6ff80fb5abfda3fbfef7f
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615639"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658640"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>메일 흐름 규칙을 사용하여 EOP에서 대량 전자 메일 필터링
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Exchange Online 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에 사서함이 있는 Microsoft 365 조직에서 EOP는 스팸 방지 정책(스팸 필터 정책 또는 콘텐츠 필터 정책)을 사용하여 인바운드 메시지에서 스팸 및 대량 메일(회색 메일)을 검색합니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 EOP는 스팸 방지 정책(스팸 필터 정책 또는 콘텐츠 필터 정책)을 사용하여 인바운드 메시지에서 스팸 및 대량 메일(회색 메일)을 검색합니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 대량 메일을 필터링하는 더 많은 옵션을 사용하려는 경우 메일 흐름 규칙(전송 규칙)을 만들어 대량 메일에서 자주 발견되는 텍스트 패턴 또는 구를 검색하고 해당 메시지를 스팸으로 표시하면 됩니다. 대량 메일에 대한 자세한 [](what-s-the-difference-between-junk-email-and-bulk-email.md) 내용은 EOP의 정크 메일과 대량 전자 메일의 차이점과 [BCL(대량 불만 수준)을 참조하세요.](bulk-complaint-level-values.md)
 
 이 항목에서는 EAC(Exchange 관리 센터) 및 PowerShell(Exchange Online에 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직을 위한 독립 실행형 EOP PowerShell)에서 이러한 메일 흐름 규칙을 만드는 방법을 설명합니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
-- 다음 절차를 수행하려면 먼저 사용 권한을 할당해야 합니다.
+- 이 문서의 절차를 수행하려면 먼저 Exchange Online 또는 Exchange Online Protection에서 사용 권한을 할당해야 합니다. 특히 조직 관리,  준수 관리(전역 관리자) 및  **레코드** 관리 역할 그룹에 기본적으로 할당되는 전송 규칙 역할이 필요합니다.
 
-  - Exchange Online에서 Exchange Online의 기능 사용 권한에서 "메일 흐름" [항목을 참조하세요.](https://docs.microsoft.com/Exchange/permissions-exo/feature-permissions)
+  자세한 내용은 아래 항목을 참조하세요.
 
-  - 독립 실행형 EOP에는 기본적으로 OrganizationManagement, ComplianceManagement 및 RecordsManagement 역할에 할당되는 전송 규칙 역할이 필요합니다. 자세한 내용은 독립 실행형 [EOP의](feature-permissions-in-eop.md) 사용 권한을 참조하고 EAC를 사용하여 역할 그룹의 구성원 목록을 [수정합니다.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
+  - [Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
+  - [독립 실행형 EOP의 사용 권한](feature-permissions-in-eop.md)
+  - [EAC를 사용하여 역할 그룹의 구성원 목록 수정](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
 - Exchange Online에서 EAC를 열하려면 [Exchange Online의 Exchange 관리 센터를 참조하세요.](https://docs.microsoft.com/Exchange/exchange-admin-center) 독립 실행형 EOP에서 EAC를 열하려면 독립 실행형 [EOP의 Exchange 관리 센터를 참조하세요.](exchange-admin-center-in-exchange-online-protection-eop.md)
 
@@ -113,7 +115,7 @@ Exchange Online 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(
 
        작업을 마친 후 **확인** 을 클릭합니다.
 
-   - **다음을 선택합니다.** SCL(스팸 **지수)을** 설정하는 메시지 속성 \> **수정을 선택합니다.** 나타나는 **SCL 지정** 대화 상자에서 다음 설정 중 하나를 구성합니다.
+   - **다음을 선택합니다.** SCL(스팸 지수)을 설정하는 메시지 속성  \> **수정을 선택합니다.** 나타나는 **SCL 지정** 대화 상자에서 다음 설정 중 하나를 구성합니다.
 
      - 메시지를 스팸으로 **표시하려면** **6을 선택합니다.** 스팸 방지 정책에서 스팸  필터링 판정에 대해 구성한 작업이 메시지에 적용됩니다(기본값은 정크 메일 폴더로 메시지 **이동).**
 
@@ -149,7 +151,7 @@ New-TransportRule -Name "Bulk email filtering - Words" -SubjectOrBodyContainsWor
 
 대량 전자 메일을 필터링하도록 메일 흐름 규칙이 구성되어 있는지 확인을 위해 다음 단계를 수행합니다.
 
-- EAC에서 메일 흐름 **규칙으로** 이동하여 편집 아이콘을 클릭하는 규칙을 선택하고 \>  \> 설정을 \>  ![ ](../../media/ITPro-EAC-EditIcon.png) 확인합니다.
+- EAC에서 메일 흐름 **규칙으로** 이동하여 편집 아이콘을 클릭하는 규칙을 선택하고 설정을 \>  \> \>  ![ ](../../media/ITPro-EAC-EditIcon.png) 확인합니다.
 
 - PowerShell에서 규칙 이름으로 바꾸고 다음 명령을 실행하여 설정을 \<Rule Name\> 확인합니다.
 

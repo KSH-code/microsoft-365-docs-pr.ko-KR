@@ -21,18 +21,18 @@ search.appverid:
 - MOE150
 ms.assetid: 9982191d-ed79-46a9-b2e7-317d1a3a9867
 description: My Domain for Microsoft에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype 온라인 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: 13660b4f3fd899d4d055a2c18aaff90cb3ba19c3
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 13fa707f28fcc6de24c3fdf58e56174d7a271776
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645962"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49657854"
 ---
 # <a name="create-dns-records-at-mydomain-for-microsoft"></a>MyDomain for Microsoft에서 DNS 레코드 만들기
 
 
   
- 원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요. 
+ 원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요. 
   
 > [!CAUTION]
 > MyDomain 웹 사이트는 SRV 레코드를 지원하지 않습니다. 따라서 일부 비즈니스용 Skype Online 및 Outlook Web App 기능이 작동하지 않습니다. 어떤 Microsoft 플랜을 사용하든 관계없이 MyDomain에서 DNS 레코드를 관리하는 경우에는 [상당한 서비스 제한 사항](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)이 있으며 다른 DNS 호스팅 공급자로 전환해야 할 수도 있습니다. 
@@ -56,13 +56,13 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 1. 시작하려면 [이 링크](https://www.mydomain.com/controlpanel)를 사용하여 MyDomain의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
-2. **내 즐겨 찾기** 섹션에서 **도메인 센터**를 선택합니다.
+2. **내 즐겨 찾기** 섹션에서 **도메인 센터** 를 선택합니다.
     
-3. **도메인**에서 편집할 도메인 이름을 선택합니다.
+3. **도메인** 에서 편집할 도메인 이름을 선택합니다.
     
-4. **개요** 행에서 **DNS**를 선택합니다.
+4. **개요** 행에서 **DNS** 를 선택합니다.
     
-5. **수정** 드롭다운 목록에서 **TXT/SPF 레코드**를 선택합니다.
+5. **수정** 드롭다운 목록에서 **TXT/SPF 레코드** 를 선택합니다.
     
 6. 
             **콘텐츠** 아래의 새 레코드에 대한 상자에 다음 표의 값을 입력하거나 복사하여 붙여넣습니다.
@@ -72,7 +72,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     |**콘텐츠** <br/> |
     |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
    
-7. **추가**를 선택합니다.
+7. **추가** 를 선택합니다.
     
 8. 방금 만든 레코드가 인터넷에서 업데이트될 수 있도록 몇 분 정도 기다립니다.
     
@@ -84,9 +84,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
 2. **도메인** 페이지에서 확인 중인 도메인을 선택합니다. 
     
-3. **설정** 페이지에서 **설정 시작**을 선택합니다.
+3. **설정** 페이지에서 **설정 시작** 을 선택합니다.
     
-4. **도메인 확인** 페이지에서 **확인**을 선택합니다.
+4. **도메인 확인** 페이지에서 **확인** 을 선택합니다.
     
 > [!NOTE]
 > Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제가 발생하는 경우 [도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결하기](../get-help-with-domains/find-and-fix-issues.md)를 참조하세요. 
@@ -96,11 +96,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
 1. 시작하려면 [이 링크](https://www.mydomain.com/controlpanel)를 사용하여 MyDomain의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
-2. **내 즐겨 찾기** 섹션에서 **도메인 센터**를 선택합니다.
+2. **내 즐겨 찾기** 섹션에서 **도메인 센터** 를 선택합니다.
     
-3. **도메인**에서 편집할 도메인 이름을 선택합니다.
+3. **도메인** 에서 편집할 도메인 이름을 선택합니다.
     
-4. **개요** 행에서 **DNS**를 선택합니다.
+4. **개요** 행에서 **DNS** 를 선택합니다.
     
 5. 
             **Modify(수정)** 드롭다운 목록에서 **MX Record(MX 레코드)** 를 선택합니다.
@@ -115,7 +115,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
    
     ![MyDomain-BP-Configure-2-2](../../media/3e19cec3-7f3b-493d-81f7-cda30ba007d5.png)
   
-7. **추가**를 선택합니다.
+7. **추가** 를 선택합니다.
     
     ![MyDomain-BP-Configure-2-3](../../media/1a1951a8-11d7-405d-bef5-285bbb053ce8.png)
   
@@ -123,7 +123,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![MyDomain-BP-Configure-2-4](../../media/42576149-e056-4a81-a5fd-2c5dfac44e2e.png)
   
-9. **확인**을 선택합니다.
+9. **확인** 을 선택합니다.
     
     ![MyDomain-BP-Configure-2-5](../../media/d6b70eb7-b79c-499e-82ff-ecef2e300368.png)
   
@@ -132,11 +132,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
 1. 시작하려면 [이 링크](https://www.mydomain.com/controlpanel)를 사용하여 MyDomain의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
-2. **내 즐겨 찾기** 섹션에서 **도메인 센터**를 선택합니다.
+2. **내 즐겨 찾기** 섹션에서 **도메인 센터** 를 선택합니다.
     
-3. **도메인**에서 편집할 도메인 이름을 선택합니다.
+3. **도메인** 에서 편집할 도메인 이름을 선택합니다.
     
-4. **개요** 행에서 **DNS**를 선택합니다.
+4. **개요** 행에서 **DNS** 를 선택합니다.
     
 5. 
             **Modify(수정)** 드롭다운 목록에서 **CNAME Alias(CNAME 별칭)** 를 선택합니다.
@@ -157,13 +157,13 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
    
     ![MyDomain-BP-Configure-3-2](../../media/3c8660b3-40bb-453d-8b99-4d22032bc4b3.png)
   
-7. **추가**를 선택하여 첫 번째 레코드를 추가합니다. 
+7. **추가** 를 선택하여 첫 번째 레코드를 추가합니다. 
     
     ![MyDomain-BP-Configure-3-3](../../media/103a1d99-70da-4fdf-9291-7dd058ec6c4a.png)
   
 8. 두 번째 CNAME 레코드를 추가합니다.
     
-    위 표의 두 번째 행의 값을 사용한 다음 **추가**를 선택하여 두 번째 레코드를 추가합니다. 
+    위 표의 두 번째 행의 값을 사용한 다음 **추가** 를 선택하여 두 번째 레코드를 추가합니다. 
     
     표의 세 번째, 네 번째, 다섯 번째 및 여섯 번째 행의 값을 사용하여 같은 방법으로 나머지 레코드를 추가합니다.
     
@@ -171,18 +171,18 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 필수 Microsoft 값을 현재 레코드에 추가하여 두 값 집합을 모두 포함하는 단일 SPF 레코드가 있도록 합니다. 예제가 필요하세요? [Microsoft에 대한 외부 Domain Name System 레코드](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records#bkmk_spfrecords)를 참조하세요. To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 필수 Microsoft 값을 현재 레코드에 추가하여 두 값 집합을 모두 포함하는 단일 SPF 레코드가 있도록 합니다. 예제가 필요하세요? [Microsoft에 대한 외부 Domain Name System 레코드](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records#bkmk_spfrecords)를 참조하세요. To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.yml). 
   
 1. 시작하려면 [이 링크](https://www.mydomain.com/controlpanel)를 사용하여 MyDomain의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
-2. **내 즐겨 찾기** 섹션에서 **도메인 센터**를 선택합니다.
+2. **내 즐겨 찾기** 섹션에서 **도메인 센터** 를 선택합니다.
     
-3. **도메인**에서 편집할 도메인 이름을 선택합니다.
+3. **도메인** 에서 편집할 도메인 이름을 선택합니다.
     
-4. **개요** 행에서 **DNS**를 선택합니다.
+4. **개요** 행에서 **DNS** 를 선택합니다.
     
 5. 
-            **수정** 드롭다운 목록에서 **TXT/SPF 레코드**를 선택합니다.
+            **수정** 드롭다운 목록에서 **TXT/SPF 레코드** 를 선택합니다.
     
     ![MyDomain-BP-Configure-4-1](../../media/c461c762-52e6-4fde-b5bc-4dd5e5d62ed3.png)
   
@@ -195,7 +195,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
    
     ![MyDomain-BP-Configure-4-2](../../media/17d43106-88e6-47e5-aeba-0f18484acf3e.png)
   
-7. **추가**를 선택합니다.
+7. **추가** 를 선택합니다.
     
     ![MyDomain-BP-Configure-4-3](../../media/b3670563-b620-470c-a42b-2c77888981f8.png)
   

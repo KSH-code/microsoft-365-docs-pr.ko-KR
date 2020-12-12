@@ -21,39 +21,39 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ec6f4bd8-5996-4505-ba68-afaf8a141fb9
-description: 도메인 연결 사용 등록 기관을 사용 하 여 작업 하 고 도메인을 Microsoft 365에 추가 하는 방법을 알아봅니다.
-ms.openlocfilehash: e907317ec5b606c2fe73232a73c9abdfce26feea
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: 도메인 연결 사용 등록 기관으로 작업하고 Microsoft 365에 도메인을 추가하는 방법을 알아보고
+ms.openlocfilehash: 109255d82100e636e3472242866a519ff64a9e54
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645350"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49655615"
 ---
 # <a name="using-domain-connect"></a>도메인 연결 사용
 
- 원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요.
+ 원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요.
   
-[도메인 연결 ](https://www.domainconnect.org/) 사용 등록 기관는 3 단계 프로세스에서 분 단위로 Microsoft 365에 도메인을 추가할 수 있도록 합니다. 
+[도메인 연결 ](https://www.domainconnect.org/) 사용 등록 기관을 사용하면 몇 분 정도 걸리는 3단계 프로세스에서 도메인을 Microsoft 365에 추가할 수 있습니다. 
   
-이 마법사에서는 도메인을 소유 하 고 있는지 확인 하 고, 사용자의 도메인 레코드를 자동으로 설정 하 여 전자 메일이 Microsoft 365 및 기타 Microsoft 365 서비스 (예를 들어, 사용자의 도메인으로 작업)를 제공 합니다.
+마법사에서 도메인을 소유하고 있는 것을 확인한 다음 도메인의 레코드를 자동으로 설정하게 되며, 전자 메일이 Microsoft 365 및 Teams와 같은 기타 Microsoft 365 서비스로 전송되어 도메인과 함께 작업합니다.
   
 > [!NOTE]
 > 설정 마법사를 시작하기 전에 브라우저의 팝업 차단 기능을 해제하세요.
   
-## <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>도메인 연결 등록 기관 Microsoft 365 통합
+## <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Microsoft 365와 통합하는 도메인 연결 등록자
 
-- [1 &amp; 1gb 이상 os](https://www.1and1.com/)
+- [1 &amp; 1 IONOS](https://www.1and1.com/)
 - [123Reg](https://www.123-reg.co.uk/)
 - [GoDaddy](https://www.godaddy.com/)
 - [WordPress](https://wordpress.com/)
 - [Plesk](https://www.plesk.com/)
 - [MediaTemple](https://mediatemple.net/)
-- SecureServer 또는 WildWestDomains (SecureServer DNS 호스팅을 사용 하는 GoDaddy 리셀러)
+- SecureServer 또는 WildWestDomains(SecureServer DNS 호스팅을 사용하는 GoDaddy 리셀러)
     - [MadDog 도메인](https://www.maddogdomains.com/)
     - [CheapNames](https://www.cheapnames.com)
 
-## <a name="what-happens-to-my-email-and-website"></a>전자 메일 및 웹 사이트는 어떻게 되나요?
+## <a name="what-happens-to-my-email-and-website"></a>전자 메일 및 웹 사이트는 어떻게 하나요?
 
-설치를 마친 후에는 도메인에 대 한 MX 레코드가 Microsoft 365를 가리키도록 업데이트 되 고 도메인의 모든 전자 메일이 Microsoft 365로 시작 됩니다. 도메인에 전자 메일을 보내는 모든 사용자에 대해 사용자를 추가 하 고 Microsoft 365에 사서함을 설정 했는지 확인 합니다.
+설치를 마친 후 도메인의 MX 레코드가 Microsoft 365를 지점으로 업데이트하고 도메인의 모든 전자 메일이 Microsoft 365로 전송됩니다. 도메인에서 전자 메일을 받는 모든 사용자에 대해 Microsoft 365에서 사용자를 추가하고 사서함을 설정해야 합니다.
   
 업무에 사용하는 웹 사이트가 있는 경우 어디에 있든 작동이 유지됩니다. 도메인 연결 설정 단계는 웹 사이트에 영향을 주지 않습니다.

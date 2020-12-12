@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: bbe341899599d5092db0b0961add5a9825eca3b4
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 76cd560c3b97bb67d25d2e4ff2c219669c3d4f0d
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616599"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658884"
 ---
 # <a name="control-automatic-external-email-forwarding-in-microsoft-365"></a>Microsoft 365에서 자동 외부 전자 메일 전달 제어
 
@@ -31,17 +31,15 @@ Microsoft 365에서는 다음과 같은 유형의 자동 전달을 사용할 수
 
 - 사용자는 외부 [](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59) 보낸 사람(또는 계정이 손상된 결과)에게 자동으로 메시지를 전달하도록 받은 편지함 규칙을 구성할 수 있습니다.
 
-- 관리자는 외부 [](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) 받는 사람에게 메시지를 자동으로 전달하도록 사서함 _전달(SMTP_ 전달)을 구성할 수 있습니다.
+- 관리자는 외부 [](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) 받는 사람에게 메시지를 자동으로 전달하도록 사서함 _전달(SMTP_ 전달)을 구성할 수 있습니다. 관리자는 단순히 메시지를 전달할지 또는 전달된 메시지의 복사본을 사서함에 유지할지 선택할 수 있습니다.
 
-아웃바운드 스팸 필터 정책을 사용하여 외부 받는 사람에게 자동 전달을 제어할 수 있습니다. 다음 세 가지 설정을 사용할 수 있습니다.
+아웃바운드 스팸 필터 정책을 사용하여 외부 받는 사람에게 자동 전달을 제어할 수 있습니다. 세 가지 설정을 사용할 수 있습니다.
 
 - **자동**: 자동 외부 전달이 차단됩니다. 메시지의 내부 자동 전달은 계속 작동됩니다. 기본 설정입니다.
-
 - **On**: 자동 외부 전달이 허용되고 제한되지 않습니다.
+- **해제:** 자동 외부 전달이 사용하지 않도록 설정되어 보낸 사람에 대한 배달되지 않는 보고서(NDR 또는 반송 메시지라고도 합니다.)가 표시됩니다.
 
-- **해제:** 자동 외부 전달이 사용되지 않도록 설정되어 보낸 사람에 대한 배달되지 않는 보고서(NDR 또는 반송 메시지라고도 합니다.)가 표시됩니다.
-
-이러한 설정을 구성하는 방법에 대한 지침은 EOP에서 아웃바운드 스팸 필터링 구성을 [참조하세요.](configure-the-outbound-spam-policy.md)
+이러한 설정을 구성하는 방법에 대한 지침은 EOP에서 아웃바운드 스팸 필터링 [구성을 참조하세요.](configure-the-outbound-spam-policy.md)
 
 > [!NOTE]
 >
@@ -53,13 +51,13 @@ Microsoft 365에서는 다음과 같은 유형의 자동 전달을 사용할 수
 
 ## <a name="how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls"></a>아웃바운드 스팸 필터 정책 설정이 다른 자동 전자 메일 전달 컨트롤과 함께 작동되는 방식
 
-관리자는 자동 전자 메일 전달을 허용하거나 차단하도록 다른 컨트롤을 이미 구성한 것일 수 있습니다. 예시:
+관리자는 자동 전자 메일 전달을 허용하거나 차단하도록 다른 컨트롤을 이미 구성한 것일 수 있습니다. 예를 들어,
 
 - [일부 또는](https://docs.microsoft.com/exchange/mail-flow-best-practices/remote-domains/remote-domains) 모든 외부 도메인으로 자동 전자 메일 전달을 허용하거나 차단하는 원격 도메인
 
 - [외부](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) 받는 사람에게 자동으로 전달되는 메시지를 검색하고 차단하기 위해 Exchange 메일 흐름 규칙의 조건 및 작업(전송 규칙)입니다.
 
-원격 도메인 설정 및 메일 흐름 규칙은 아웃바운드 스팸 필터 정책의 설정과 독립적입니다. 예시:
+원격 도메인 설정 및 메일 흐름 규칙은 아웃바운드 스팸 필터 정책의 설정과 독립적입니다. 예를 들어,
 
 - 원격 도메인에 대해 자동 전달을 허용하지만 아웃바운드 스팸 필터 정책에서는 자동 전달을 차단합니다. 이 예에서는 자동으로 전달된 메시지가 차단됩니다.
 

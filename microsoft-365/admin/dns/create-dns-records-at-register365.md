@@ -1,5 +1,5 @@
 ---
-title: R 365에서 Microsoft에 대 한 DNS 레코드 만들기
+title: Register365에서 Microsoft용 DNS 레코드 만들기
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,17 +20,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 004030b4-10ad-4026-96e7-011b6afc7e73
-description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft 용 R 365에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: a4c66a4c16960332150a51779207defb00df3044
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Microsoft용 Register365에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 배워야 합니다.
+ms.openlocfilehash: 6cefdeff3da1256911d80066b55b00f5bef24055
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645770"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49656918"
 ---
-# <a name="create-dns-records-at-register365-for-microsoft"></a>R 365에서 Microsoft에 대 한 DNS 레코드 만들기
+# <a name="create-dns-records-at-register365-for-microsoft"></a>Register365에서 Microsoft용 DNS 레코드 만들기
 
- **원하는 정보는 찾지 못한 경우 [도메인 질문과 대답을 확인](../setup/domains-faq.md)** 하세요. 
+ **원하는 정보는 찾지 못한 경우 [도메인 질문과 대답을 확인](../setup/domains-faq.yml)** 하세요. 
   
 DNS 호스팅 공급자로 Register365를 사용하고 있는 경우, 이 문서에 나와 있는 단계를 따라 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 등에 대한 DNS 레코드를 설정합니다. 
   
@@ -40,13 +40,13 @@ DNS 호스팅 공급자로 Register365를 사용하고 있는 경우, 이 문서
     
 - [사용자 도메인의 전자 메일이 Microsoft로 전송되도록 MX 레코드 추가하기](#add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft)
     
-- [Microsoft에 필요한 6 개의 CNAME 레코드를 추가 합니다.](#add-the-six-cname-records-that-are-required-for-microsoft)
+- [Microsoft에 필요한 6개의 CNAME 레코드 추가](#add-the-six-cname-records-that-are-required-for-microsoft)
     
 - [전자 메일 스팸 방지에 유용한 SPF용 TXT 레코드 추가](#add-a-txt-record-for-spf-to-help-prevent-email-spam)
     
 - [Microsoft 필요한 2개의 SRV 레코드 추가하기](#add-the-two-srv-records-that-are-required-for-microsoft)
     
-Microsoft에서 이러한 레코드를 추가 하 고 나면 도메인이 Microsoft 서비스에서 작동 하도록 설정 됩니다.
+Microsoft에서 이러한 레코드를 추가하고 나면 도메인이 Microsoft 서비스에서 작동할 수 있도록 설정됩니다.
   
 > [!NOTE]
 >  일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
@@ -63,7 +63,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     ![제어판 로그인 페이지](../../media/d7ec9791-d03f-45dd-b080-8aaae5d19ea6.png)
   
-2. **대시보드** 페이지에서 업데이트 중인 도메인 이름을 찾은 다음 드롭다운 목록에서 **DNS 설정**을 선택합니다. 
+2. **대시보드** 페이지에서 업데이트 중인 도메인 이름을 찾은 다음 드롭다운 목록에서 **DNS 설정** 을 선택합니다. 
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -73,7 +73,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    행을 추가 해야 하는 경우 **a/CNAME 레코드 추가 (+)** 를 선택 합니다.
+    행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)를** 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -83,7 +83,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
    
     ![DNS 영역 추가/수정 페이지에서 값 입력](../../media/22326005-de95-464d-8e33-08ea31a89b2d.png)
   
-4. **저장**을 선택합니다.
+4. **저장** 을 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -95,17 +95,17 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
-1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
+1. I관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인</a> 페이지로 이동하십시오.
     
 2. **도메인** 페이지에서 확인 중인 도메인을 선택합니다. 
     
     
   
-3. **설정** 페이지에서 **설정 시작**을 선택합니다.
+3. **설정** 페이지에서 **설정 시작** 을 선택합니다.
     
     
   
-4. **도메인 확인** 페이지에서 **확인**을 선택합니다.
+4. **도메인 확인** 페이지에서 **확인** 을 선택합니다.
     
     
   
@@ -119,7 +119,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![제어판 로그인 페이지](../../media/d7ec9791-d03f-45dd-b080-8aaae5d19ea6.png)
   
-2. **대시보드** 페이지에서 업데이트 중인 도메인 이름을 찾은 다음 드롭다운 목록에서 **DNS 설정**을 선택합니다. 
+2. **대시보드** 페이지에서 업데이트 중인 도메인 이름을 찾은 다음 드롭다운 목록에서 **DNS 설정** 을 선택합니다. 
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -131,11 +131,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**호스트 이름**|**우선 순위**|**결과**|
     |:-----|:-----|:-----|
-    |(이 필드는 비워 둡니다.)  <br/> |1   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:**  *\<domain-key\>*  Microsoft 계정에서를 다운로드 하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)     |
+    |(이 필드는 비워 둡니다.)  <br/> |1   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)     |
    
     ![DNS 영역 추가/수정 페이지에서 값 입력](../../media/2d3645a8-9cb8-435e-b895-5535b6b1fffd.png)
   
-4. **저장**을 선택합니다.
+4. **저장** 을 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -145,20 +145,20 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Deleting records in the Mail exchange records section](../../media/8cc37e4f-2e85-4242-af0e-78149434167f.png)
   
-6. **저장**을 선택합니다.
+6. **저장** 을 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
     ![저장을 선택합니다.](../../media/1fb69bb5-b5df-4060-adf1-eb26cfaa6c4f.png)
   
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Microsoft에 필요한 6 개의 CNAME 레코드를 추가 합니다.
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Microsoft에 필요한 6개의 CNAME 레코드 추가
 <a name="BKMK_add_CNAME"> </a>
 
 1. 시작하려면 [이 링크](https://admin.register365.com/dns/)를 사용하여 Register365의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
     ![제어판 로그인 페이지](../../media/d7ec9791-d03f-45dd-b080-8aaae5d19ea6.png)
   
-2. **대시보드** 페이지에서 업데이트 중인 도메인 이름을 찾은 다음 드롭다운 목록에서 **DNS 설정**을 선택합니다. 
+2. **대시보드** 페이지에서 업데이트 중인 도메인 이름을 찾은 다음 드롭다운 목록에서 **DNS 설정** 을 선택합니다. 
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -168,7 +168,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    행을 추가 해야 하는 경우 **a/CNAME 레코드 추가 (+)** 를 선택 합니다.
+    행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)를** 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -182,7 +182,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
    
     ![DNS 영역 추가/수정 페이지에서 값 입력](../../media/3b79f0de-9cab-4c98-8fa8-c92b35241e8b.png)
   
-4. **저장**을 선택합니다.
+4. **저장** 을 선택합니다.
     
     ![저장을 선택합니다.](../../media/8ded6428-af97-4fd8-9104-477fa22a5586.png)
   
@@ -190,13 +190,13 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신 두 값 집합을 모두 포함하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필요한 Microsoft 값을 추가합니다. 
   
 1. 시작하려면 [이 링크](https://admin.register365.com/dns/)를 사용하여 Register365의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
     ![제어판 로그인 페이지](../../media/d7ec9791-d03f-45dd-b080-8aaae5d19ea6.png)
   
-2. **대시보드** 페이지에서 업데이트 중인 도메인 이름을 찾은 다음 드롭다운 목록에서 **DNS 설정**을 선택합니다. 
+2. **대시보드** 페이지에서 업데이트 중인 도메인 이름을 찾은 다음 드롭다운 목록에서 **DNS 설정** 을 선택합니다. 
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -206,7 +206,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    행을 추가 해야 하는 경우 **a/CNAME 레코드 추가 (+)** 를 선택 합니다.
+    행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)를** 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -216,7 +216,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
    
     ![DNS 영역 추가/수정 페이지에서 값 입력](../../media/33976398-da8a-439b-8e3d-534503b20ee0.png)
   
-4. **저장**을 선택합니다.
+4. **저장** 을 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -229,7 +229,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![제어판 로그인 페이지](../../media/d7ec9791-d03f-45dd-b080-8aaae5d19ea6.png)
   
-2. **대시보드** 페이지에서 업데이트 중인 도메인 이름을 찾은 다음 드롭다운 목록에서 **DNS 설정**을 선택합니다. 
+2. **대시보드** 페이지에서 업데이트 중인 도메인 이름을 찾은 다음 드롭다운 목록에서 **DNS 설정** 을 선택합니다. 
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -246,7 +246,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
    
     ![서비스 레코드 섹션에 값 입력](../../media/56bb1813-90e2-40c8-98bf-750e2dc3f8b6.png)
   
-4. **저장**을 선택합니다.
+4. **저장** 을 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
     

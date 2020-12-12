@@ -22,16 +22,16 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: 도메인 관리에 도움이 되는 도메인 및 관련 DNS 레코드에 대해 알아봅니다.
-ms.openlocfilehash: 3f913a96395424e86d0d88dbb29bcb58a076ebb8
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 1f5d49eb588a7c4245751360fa3309bf20496512
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645362"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658534"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
 
- 원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요. 
+ 원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요. 
   
 ::: moniker range="o365-worldwide"
 
@@ -59,11 +59,11 @@ ms.locfileid: "48645362"
 
 도메인 이름은 URL 및 전자 메일 주소에서 사용되며 여러 수준으로 구성됩니다. 예를 들어, mail.contoso.com에는 다음과 같은 세 수준이 있습니다.
   
-- **.com**은 최상위 도메인입니다. 
+- **.com** 은 최상위 도메인입니다. 
     
-- **contoso**는 두 번째 수준 도메인입니다. 
+- **contoso** 는 두 번째 수준 도메인입니다. 
     
-- **mail**은 세 번째 수준 도메인입니다. 
+- **mail** 은 세 번째 수준 도메인입니다. 
     
 세 번째 수준 도메인을 사용하는 이유는 무엇일까요? 사용자가 마케팅 또는 블로그에 다른 도메인 이름을 원할 수 있습니다. 예를 들어 blog.contoso.com입니다. 일반적으로 Microsoft에서 사용하도록 contoso.com과 같은 두 번째 수준 도메인을 추가하지만, 원한다면 세 번째 수준 도메인을 사용할 수도 있습니다.
   
