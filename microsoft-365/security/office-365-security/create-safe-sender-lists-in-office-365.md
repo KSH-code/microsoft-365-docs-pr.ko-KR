@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP(Exchange Online Protection)에서 인바운드 메시지를 허용하는 사용 가능한 옵션 및 기본 옵션에 대해 학습할 수 있습니다.
-ms.openlocfilehash: 71c413cdf3f9a189420c33953d7bce41362ab6a9
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 38f1ab2451191dd63d5738075dbf42f8201a34ca
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616635"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659907"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>EOP에서 수신 가능한 보낸 사람 목록 만들기
 
@@ -37,17 +37,17 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 3. IP 허용 목록(연결 필터링)
 4. 허용된 보낸 사람 목록 또는 허용된 도메인 목록(스팸 방지 정책)
 
-메일 흐름 규칙을 사용하면 올바른 메시지만 허용할 수 있는 유연성을 확보할 수 있습니다. 스팸 방지 정책에서 허용된 보낸 사람 및 허용된 도메인 목록은 IP 허용 목록만큼 안전하지 않습니다. 보낸 사람 전자 메일 도메인은 쉽게 스푸핑됩니다. 그러나 IP 허용 목록은 해당 IP 주소에서  보낸 모든 도메인의 전자 메일이 스팸 필터링을 무시하기 때문에 위험을 제공합니다.
+메일 흐름 규칙을 사용하면 올바른 메시지만 허용할 수 있는 유연성을 확보할 수 있습니다. 스팸 방지 정책에서 허용된 보낸 사람 및 허용된 도메인 목록은 보낸 사람 전자 메일 도메인이 쉽게 스푸핑될 수 있기 때문에 IP 허용 목록만큼 안전하지 않습니다. 그러나 IP 허용 목록은 해당 IP 주소에서  보낸 모든 도메인의 전자 메일이 스팸 필터링을 무시하기 때문에 위험을 제공합니다.
 
 > [!IMPORTANT]
 >
 > - 수신이 가능한  보낸 사람 목록을 사용하여 스팸 필터링에 대한 예외를 면밀하게 모니터링해야 합니다.
 >
-> - 수신 가능 보낸 사람 목록을 사용하여 가음성(스팸으로 표시된 양호한 전자 메일)을 지원할 수 있는 반면, 수신 가능하면 피해야 하는 임시 솔루션으로 수신 가능 보낸 사람 목록을 사용하는 것이 좋습니다. 스팸 필터링에 대한 예외로 조직이 스푸핑 및 기타 공격을 하게 될 수 있기 때문에 안전한 보낸 사람 목록을 사용하여 가짓 긍정을 관리하는 것은 권장되지 않습니다. 수신이 가능한 보낸 사람 목록을 사용하여 가짓 긍정을 관리하는 경우 신세를 들이고 항목 보고서 메시지 및 파일을 [Microsoft에](report-junk-email-messages-to-microsoft.md) 준비된 것으로 유지해야 합니다.
+> - 수신 가능 보낸 사람 목록을 사용하여 가음성(스팸으로 표시된 양호한 전자 메일)을 지원할 수 있는 반면, 수신 가능하면 안전한 보낸 사람 목록을 임시 솔루션으로 사용하는 것을 고려해야 합니다. 스팸 필터링에 대한 예외로 조직이 스푸핑 및 기타 공격을 하게 될 수 있기 때문에 안전한 보낸 사람 목록을 사용하여 가짓 긍정을 관리하는 것은 권장되지 않습니다. 수신이 가능한 보낸 사람 목록을 사용하여 가짓 긍정을 관리하는 경우, 신세를 들이고 항목의 메시지와 파일을 [Microsoft에](report-junk-email-messages-to-microsoft.md) 준비된 것으로 보고해야 합니다.
 >
-> - 도메인에서 비인식 전자 메일(스푸핑 방지 보호 무시)을 보내지만 스팸 방지 및 맬웨어 방지 검사를 무시하지 못하도록 허용하려면 [AllowedToSpoof](walkthrough-spoof-intelligence-insight.md) 수신 허용 - 보낸 사람 목록에 추가하면 됩니다.
+> - 도메인이 허용하지 않은 전자 메일(스푸핑 방지 보호 무시)을 보내지만 스팸 방지 및 맬웨어 방지 검사를 무시하지 못하도록 허용하려면 [AllowedToSpoof](walkthrough-spoof-intelligence-insight.md) 수신 허용 - 보낸 사람 목록에 추가하면 됩니다.
 >
-> - EOP 및 Outlook에서는 서로 다른 메시지 속성을 검사하여 메시지 보낸 사람 확인 자세한 내용은 이 [](#considerations-for-bulk-email) 항목의 부분에 있는 대량 전자 메일에 대한 고려 사항 섹션을 참조하세요.
+> - EOP 및 Outlook에서는 서로 다른 메시지 속성을 검사하여 메시지 보낸 사람 확인 자세한 내용은 이 [](#considerations-for-bulk-email) 문서 부분의 대량 전자 메일에 대한 고려 사항 섹션을 참조하세요.
 
 반면에 차단된 보낸 사람 목록을 사용하여 특정 원본의 전자 메일을 차단하는 몇 가지 _옵션도 있습니다._ 자세한 내용은 [EOP에서 차단할 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조하세요.
 
@@ -61,17 +61,17 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 조건
 
 2. 다음 설정 중 하나를 구성합니다.
 
-   - **메일 흐름 규칙 조건:** 메시지 헤더에는 헤더 이름 : 헤더  \>  \>  `Authentication-Results` \> **값**: `dmarc=pass` 또는 `dmarc=bestguesspass` .
+   - **메일 흐름 규칙 조건:** 메시지 헤더에는 다음 단어 헤더  \>  \> **이름**: `Authentication-Results` \> **헤더 값**: `dmarc=pass` 또는 `dmarc=bestguesspass` .
 
      이 조건은 보내는 전자 메일 도메인의 전자 메일 인증 상태를 확인하여 보내는 도메인이 스푸핑되지 않는지 검사합니다. 전자 메일 인증에 대한 자세한 내용은 [SPF,](set-up-spf-in-office-365-to-help-prevent-spoofing.md) [DKIM](use-dkim-to-validate-outbound-email.md)및 [DMARC를 참조하세요.](use-dmarc-to-validate-email.md)
 
    - **IP 허용 목록:** 연결 필터 정책에서 원본 IP 주소 또는 주소 범위를 지정합니다.
 
-     보내는 도메인에서 전자 메일 인증을 사용하지 않는 경우 이 설정을 사용하세요. IP 허용 목록의 원본 IP 주소에 대한 경우 최대한 제한적으로 설정해야 합니다. IP 주소 범위가 /24 이하인 것이 좋습니다(적을 좋음). 소비자 서비스(예: outlook.com) 또는 공유 인프라에 속하는 IP 주소 범위를 사용하지 않습니다.
+     보내는 도메인에서 전자 메일 인증을 사용하지 않는 경우 이 설정을 사용하세요. IP 허용 목록의 원본 IP 주소와 최대한 제한적으로 설정해야 합니다. IP 주소 범위가 /24 이하인 것이 좋습니다(적을 좋음). 소비자 서비스(예: outlook.com) 또는 공유 인프라에 속하는 IP 주소 범위를 사용하지 않습니다.
 
    > [!IMPORTANT]
    >
-   > - 스팸 필터링을 건너뛰기 위한 조건으로 보낸 사람 도메인만 사용하여 메일 흐름 규칙을 구성하지 않습니다.  이렇게 하면  공격자가 보내는 도메인을 스푸핑(또는 전체 전자 메일 주소 가장)하고, 모든 스팸 필터링을 건너뛰고, 메시지가 받는 사람의 받은 편지함으로 도착하도록 보낸 사람 인증 검사를 건너뛸 가능성이 크게 증가합니다.
+   > - 스팸 필터링을 건너뛰기 위한 조건으로 보낸 사람 도메인만 사용하여 메일 흐름 규칙을 구성하지 않습니다.  이렇게 하면  공격자가 보내는 도메인을 스푸핑하거나 전체 전자 메일 주소를 가장할 가능성이 크게 증가하고, 모든 스팸 필터링을 건너뛰고, 보낸 사람 인증 검사를 건너뛰어 메시지가 받는 사람의 받은 편지함으로 도착하도록 할 수 있습니다.
    >
    > - 소유한 도메인(허용 도메인) 또는 인기 있는 도메인(예: microsoft.com)을 메일 흐름 규칙의 조건으로 사용하지 않습니다. 이렇게 하면 공격자가 필터링되는 전자 메일을 보낼 수 있는 기회가 만들어지기 때문에 높은 위험으로 간주됩니다.
    >
@@ -107,7 +107,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 조건
 
 **참고**:
 
-- 허용되는 IP 주소 수를 최소로 유지하는 것이 중요하기 때문에 가능하면 전체 IP 주소 범위를 사용하지 않도록 합니다.
+- 허용되는 IP 주소 수를 최소로 유지하는 것이 중요합니다. 따라서 가능하면 전체 IP 주소 범위를 사용하지 않도록 합니다.
 
 - 소비자 서비스(예: outlook.com) 또는 공유 인프라에 속하는 IP 주소 범위를 사용하지 않습니다.
 
@@ -146,10 +146,10 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 조건
 
 EOP의 스팸 방지 정책의 수신 허용 - 보낸 사람 목록 및 수신 허용 - 도메인 목록은 주소만 검사합니다. 이는 주소를 사용하는 Outlook 수신 허용 - 보낸 사람과 `5322.From` `5322.From` 유사합니다.
 
-이 메시지가 필터링되지 않도록 방지하기 위해 다음 단계를 수행하면 됩니다.
+이 메시지가 필터링되지 않도록 설정하기 위해 다음 단계를 수행하면 됩니다.
 
 - Outlook blueyonder@news.blueyonderairlines.com 보낸 사람으로 `5322.From` 주소(주소)를 추가합니다.
 
-- [메일 흐름 규칙은](#recommended-use-mail-flow-rules) 주소, blueyonder@news.blueyonderairlines.com(주소, blueyonder.airlines@margiestravel.com 또는 둘 다)에서 메시지를 `5322.From` blueyonder.airlines@margiestravel.com `5321.MailFrom` 조건과 함께 사용하세요.
+- [메일 흐름 규칙에](#recommended-use-mail-flow-rules) 주소, blueyonder@news.blueyonderairlines.com(주소, blueyonder.airlines@margiestravel.com 또는 둘 다)를 사용하는 `5322.From` `5321.MailFrom` 조건이 있습니다.
 
 자세한 내용은 [EOP에서 수신이 가능한 보낸 사람 목록 만들기를 참조하세요.](create-safe-sender-lists-in-office-365.md)

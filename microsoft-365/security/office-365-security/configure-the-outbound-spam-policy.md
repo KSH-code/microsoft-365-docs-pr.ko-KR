@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP(Exchange Online Protection)에서 아웃바운드 스팸 정책을 보고, 만들고, 수정하고, 삭제하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 237703d9ad6ed652a3feb4dda57a7af0e99240f7
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 0deafe2817c3e10371b02349aca2612af090af65
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614943"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49659705"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>EOP에서 아웃바운드 스팸 필터링 구성
 
@@ -32,7 +32,7 @@ ms.locfileid: "49614943"
 
 Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 EOP를 통해 전송되는 아웃바운드 전자 메일 메시지에서 스팸 및 비정상적인 보내는 활동이 자동으로 확인됩니다.
 
-조직의 사용자로부터의 아웃바운드 스팸은 일반적으로 손상된 계정을 나타냅니다. 의심스러운 아웃바운드 메시지는 스팸으로 표시되어(스팸 지수 또는 SCL에 상관없이) [](high-risk-delivery-pool-for-outbound-messages.md) 서비스의 신뢰도 보호를 위해 높은 위험 배달 풀을 통해 라우팅됩니다(즉, Microsoft 365 원본 전자 메일 서버를 IP 차단 목록에서 유지). 관리자는 경고 정책을 통해 의심스러운 아웃바운드 전자 메일 활동 및 차단된 사용자에게 자동으로 [알림을 제공합니다.](../../compliance/alert-policies.md)
+조직의 사용자로부터의 아웃바운드 스팸은 일반적으로 계정이 손상된 것을 나타냅니다. 의심스러운 아웃바운드 메시지는 스팸으로 표시되어(스팸 지수 또는 SCL에 상관없이) [](high-risk-delivery-pool-for-outbound-messages.md) 서비스의 신뢰도 보호를 위해 높은 위험 배달 풀을 통해 라우팅됩니다(즉, Microsoft 365 원본 전자 메일 서버를 IP 차단 목록에서 유지). 관리자는 경고 정책을 통해 의심스러운 아웃바운드 전자 메일 활동 및 차단된 사용자에게 자동으로 [알림을 제공합니다.](../../compliance/alert-policies.md)
 
 EOP는 스팸에 대한 조직의 전반적인 방어의 일부로 아웃바운드 스팸 정책을 사용 합니다. 자세한 내용은 [스팸 방지 보호](anti-spam-protection.md)를 참조하세요.
 
@@ -45,13 +45,13 @@ EOP에서 아웃바운드 스팸 정책의 기본 요소는 다음입니다.
 - **아웃바운드 스팸 필터 정책:** 아웃바운드 스팸 필터링 판정 및 알림 옵션에 대한 작업을 지정합니다.
 - **아웃바운드 스팸 필터 규칙:** 아웃바운드 스팸 필터 정책에 대한 우선 순위 및 받는 사람 필터(정책이 적용되는 사람)를 지정합니다.
 
-보안 및 준수 센터에서 아웃바운드 스팸 & 경우 이러한 두 요소의 차이는 명확하지 않습니다.
+보안 및 준수 센터에서 아웃바운드 스팸 & 두 요소의 차이는 명확하지 않습니다.
 
 - 정책을 만들 때 실제로 둘 다에 대해 동일한 이름을 사용하여 아웃바운드 스팸 필터 규칙과 연결된 아웃바운드 스팸 필터 정책을 동시에 만드는 것입니다.
 - 정책을 수정할 때 이름, 우선 순위, 사용 또는 사용하지 않도록 설정된 설정 및 받는 사람 필터와 관련된 설정은 아웃바운드 스팸 필터 규칙을 수정합니다. 다른 모든 설정은 연결된 아웃바운드 스팸 필터 정책을 수정합니다.
 - 정책을 제거하면 아웃바운드 스팸 필터 규칙 및 연결된 아웃바운드 스팸 필터 정책이 제거됩니다.
 
-Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책과 규칙을 개별적으로 관리합니다. 자세한 내용은 이 항목 부분의 Exchange Online PowerShell 또는 독립 실행형 [EOP PowerShell을](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies) 사용하여 아웃바운드 스팸 정책 구성 섹션을 참조하세요.
+Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책과 규칙을 개별적으로 관리합니다. 자세한 내용은 이 문서 부분의 Exchange Online PowerShell 또는 독립 실행형 [EOP PowerShell을](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies) 사용하여 아웃바운드 스팸 정책 구성 섹션을 참조하세요.
 
 모든 조직에는 다음 속성이 있는 Default라는 기본 제공 아웃바운드 스팸 정책이 있습니다.
 
@@ -129,7 +129,7 @@ Security & 준수 센터에서 사용자 지정 아웃바운드 스팸 정책을
      >
      > - 전자 [메일을](../../compliance/alert-policies.md) 보내지 않는 **사용자** 제한이라는 기본 경고 정책은 사용자가 받는 사람 제한 섹션의 제한을 초과하여 차단된 경우 **TenantAdmins(전역** **관리자)** 그룹의 구성원에게 이미 전자 메일 알림을 보냅니다.  아웃바운드 스팸 정책에서 이 설정 대신 경고 정책을 사용하여 관리자 및 기타 사용자에게 **알리는 것이 좋습니다.** 자세한 내용은 제한된 [사용자에 대한 경고 설정 확인을 참조하세요.](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users)
 
-5. (선택 사항) 받는 사람 제한 **섹션을 확장하여** 의심스러운 아웃바운드 전자 메일 메시지에 대한 제한 및 작업을 구성합니다.
+5. (선택 사항) 받는 사람 제한 섹션을 **확장하여** 의심스러운 아웃바운드 전자 메일 메시지에 대한 제한 및 작업을 구성합니다.
 
    > [!NOTE]
    > 이러한 설정은 클라우드 기반 사서함에만 적용됩니다.
@@ -148,17 +148,17 @@ Security & 준수 센터에서 사용자 지정 아웃바운드 스팸 정책을
 
      - **다음 날까지** 사용자가 메일을 보내지 못하도록 제한합니다. 이 값은 기본값입니다. 전자 메일 알림이 전송됩니다. 사용자는 UTC 시간을 기준으로 다음 날까지 더 이상 메시지를 보낼 수 없습니다. 관리자가 이 블록을 다시 정할 수 있는 방법은 없습니다.
 
-       - 전자 메일을 보내지 못하도록 제한된 **User라는** 활동 경고는 전자 메일을 통해 관리자에게 알림(전자 메일 및 알림 보기 **페이지)에 표시됩니다.**
+       - 전자 메일을 보내지 못하도록 제한된 **User라는** 활동 경고는 전자 메일을 통해 관리자에게 알리고 알림 보기 **페이지에** 표시됩니다.
 
        - 정책에서 아웃바운드 스팸 설정으로 인해 보낸 사람이 차단된 경우 특정 사용자에게 알림에 지정된 모든 받는 사람도 알림을 보냅니다. 
 
        - 사용자는 UTC 시간을 기준으로 다음 날까지 더 이상 메시지를 보낼 수 없습니다. 관리자가 이 블록을 다시 정할 수 있는 방법은 없습니다.
 
-     - 사용자가 메일을 보내지 못하도록 **제한:** 전자 메일 알림이 전송되고, 사용자가 보안 & 준수 센터의 **[제한된 사용자] <https://sip.protection.office.com/restrictedusers>** 포털에 추가되고,  관리자가 제한된 사용자 포털에서 전자 메일을 제거할 때까지 전자 메일을 보낼 수 없습니다. 관리자가 목록에서 사용자를 제거하면 해당 일에 대해 사용자가 다시 제한되지 않습니다. 자세한 내용은 스팸 메일을 전송한 후 제한된 사용자 포털에서 [사용자 제거를 참조하세요.](removing-user-from-restricted-users-portal-after-spam.md)
+     - 사용자가 메일을 보내지 못하도록 **제한:** 전자 메일 알림이 전송되고, 사용자가 보안 & 준수 센터의 **[제한된 사용자] <https://sip.protection.office.com/restrictedusers>** 포털에 추가되고,  관리자가 제한된 사용자 포털에서 전자 메일을 제거할 때까지 전자 메일을 보낼 수 없습니다. 관리자가 목록에서 사용자를 제거하면 해당 일에 대해 사용자가 다시 제한되지 않습니다. 자세한 내용은 스팸 전자 메일을 전송한 후 제한된 사용자 포털에서 [사용자 제거를 참조하세요.](removing-user-from-restricted-users-portal-after-spam.md)
 
      - **작업 없음, 알림만:** 전자 메일 알림이 전송됩니다.
 
-6. (선택 사항) 자동 **전달 섹션을 확장하여** 사용자가 외부 보낸 사람에 대한 자동 전자 메일 전달을 제어합니다. 자동 전달에 대한 자세한 내용은 전자 메일 전달 [구성을 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/email/configure-email-forwarding)
+6. (선택 사항) 자동 **전달 섹션을 확장하여** 사용자가 외부 보낸 사람에 대한 자동 전자 메일 전달을 제어합니다. 자세한 내용은 [Microsoft 365에서](external-email-forwarding.md)자동 외부 전자 메일 전달 제어를 참조하세요.
 
    > [!NOTE]
    >
@@ -166,11 +166,11 @@ Security & 준수 센터에서 사용자 지정 아웃바운드 스팸 정책을
    >
    > - 이러한 설정은 클라우드 기반 사서함에만 적용됩니다.
    >
-   > - 자동 전달을 사용하지 않도록 설정하면 외부 보낸 사람이 전달이 있는 사서함으로 전자 메일을 보내는 경우 받는 사람은 배달 못함 보고서(NDR 또는 반송 메시지라고도함)를 받게 됩니다. 내부 보낸 사람이 전자 메일을 보내는 경우 보낸 사람이 NDR을 얻게 됩니다.
+   > - 자동 전달을 사용하지 않도록 설정하면 외부 보낸 사람이 전달이 있는 사서함으로 전자 메일을 보내는 경우 받는 사람은 배달 못함 보고서(NDR 또는 반송 메시지라고도함)를 받게 됩니다. 내부 보낸 사람이 메시지를 보내고  전달 방법이 사서함 [](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) _전달(SMTP_ 전달)인 경우 내부 보낸 사람이 NDR을 얻습니다. 받은 편지함 규칙으로 인해 전달이 발생한 경우 내부 보낸 사람이 NDR을 얻지 못합니다.
 
    사용 가능한 값은 다음과 같습니다.
 
-   - **자동 - 시스템 제어**: 아웃바운드 스팸 필터링이 자동 외부 전자 메일 전달을 제어할 수 있습니다. 이 값은 기본값입니다.
+   - **자동 - 시스템 제어**: 아웃바운드 스팸 필터링을 통해 자동 외부 전자 메일 전달을 제어할 수 있습니다. 이 값은 기본값입니다.
    - **On**: 자동 외부 전자 메일 전달이 정책에 의해 사용하지 않도록 설정되지 않습니다.
    - **해제:** 정책에 의해 모든 자동 외부 전자 메일 전달이 사용하지 않도록 설정됩니다.
 
@@ -182,9 +182,9 @@ Security & 준수 센터에서 사용자 지정 아웃바운드 스팸 정책을
 
     - **보낸 사람 도메인**: 조직에서 구성된 허용 도메인 중 하나 이상에서 보낸 사람 지정 **태그 추가** 상자를 클릭하여 도메인을 확인하고 선택합니다. 두 개 이상의 도메인을 사용할 수 있는 경우, **태그 추가** 상자를 다시 클릭하여 추가 도메인을 선택합니다.
 
-    - **보낸 사람 :** 조직에서 하나 이상의 사용자를 지정합니다. **태그 추가** 를 클릭하고, 입력을 시작하여 목록을 필터링합니다. 태그 추가 **상자를 다시** 클릭하여 보낸 사람 추가를 선택합니다.
+    - **보낸 사람 :** 조직에서 하나 이상의 사용자를 지정합니다. **태그 추가** 를 클릭하고, 입력을 시작하여 목록을 필터링합니다. 태그 추가 상자를 **다시** 클릭하여 보낸 사람 추가를 선택합니다.
 
-    - **보낸 사람이 다음의** 구성원입니다. 조직에서 하나 이상의 그룹을 지정합니다. **태그 추가** 를 클릭하고, 입력을 시작하여 목록을 필터링합니다. 태그 추가 **상자를 다시** 클릭하여 보낸 사람 추가를 선택합니다.
+    - **보낸 사람이 다음의** 구성원입니다. 조직에서 하나 이상의 그룹을 지정합니다. **태그 추가** 를 클릭하고, 입력을 시작하여 목록을 필터링합니다. 태그 추가 상자를 **다시** 클릭하여 보낸 사람 추가를 선택합니다.
 
     - **다음의 경우 제외**: 규칙에 대한 예외를 추가하려면 **조건 추가** 를 세 번 클릭하여 사용 가능한 모든 예외를 표시합니다. 설정 및 동작은 조건과 정확히 같습니다.
 
@@ -216,7 +216,7 @@ Security & 준수 센터에서 사용자 지정 아웃바운드 스팸 정책을
 
 사용자 지정 아웃바운드 스팸 정책의 경우 플라이아웃에 나타나는 사용 가능한 설정은 보안 및 준수 센터를 사용하여 [아웃바운드](#use-the-security--compliance-center-to-create-outbound-spam-policies) 스팸 정책 & 설명된 설정과 동일합니다.
 
-아웃바운드 스팸 필터 정책이라는 기본 아웃바운드 스팸 정책의 경우 적용된 섹션을 사용할 수 없습니다(정책은 모든 사용자에 적용), 정책의 이름을 바을 수 없습니다. 
+아웃바운드 스팸 필터 정책이라는 기본 아웃바운드 스팸 정책의 경우 적용된 섹션을 사용할 수 없습니다(정책은 모든 사용자에 적용), 정책 이름을 바을 수 없습니다. 
 
 정책을 사용하거나 사용하지 않도록 설정하거나, 정책 우선순위 순서를 설정하거나, 최종 사용자 격리 알림을 구성하려면, 다음 섹션을 참조하세요.
 
@@ -273,7 +273,7 @@ Security & 준수 센터에서 사용자 지정 아웃바운드 스팸 정책을
 Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서는 아웃바운드 스팸 필터 정책과 아웃바운드 스팸 필터 규칙의 차이점이 분명합니다. **\* -HostedOutboundSpamFilterPolicy** cmdlet을 사용하여 아웃바운드 스팸 필터 정책을 관리하고 **\* -HostedOutboundSpamFilterRule** cmdlet을 사용하여 아웃바운드 스팸 필터 규칙을 관리합니다.
 
 - PowerShell에서 먼저 아웃바운드 스팸 필터 정책을 만든 다음 규칙이 적용되는 정책을 식별하는 아웃바운드 스팸 필터 규칙을 생성합니다.
-- PowerShell에서는 아웃바운드 스팸 필터 정책 및 아웃바운드 스팸 필터 규칙의 설정을 별도로 수정합니다.
+- PowerShell에서는 아웃바운드 스팸 필터 정책 및 아웃바운드 스팸 필터 규칙의 설정을 개별적으로 수정합니다.
 - PowerShell에서 아웃바운드 스팸 필터 정책을 제거하면 해당 아웃바운드 스팸 필터 규칙이 자동으로 제거되지는 않습니다.
 
 ### <a name="use-powershell-to-create-outbound-spam-policies"></a>PowerShell을 사용하여 아웃바운드 스팸 정책 만들기
@@ -324,7 +324,7 @@ New-HostedOutboundSpamFilterRule -Name "<RuleName>" -HostedOutboundSpamFilterPol
 
 이 예에서는 다음 설정을 사용하여 Contoso Executives라는 새 아웃바운드 스팸 필터 규칙을 만듭니다.
 
-- Contoso Executives라는 아웃바운드 스팸 필터 정책은 규칙과 연결됩니다.
+- Contoso Executives라는 아웃바운드 스팸 필터 정책이 규칙과 연결됩니다.
 
 - 이 규칙은 Contoso Executives라는 그룹의 구성원에게 적용됩니다.
 
@@ -396,10 +396,10 @@ Get-HostedOutboundSpamFilterRule -Identity "Contoso Executives" | Format-List
 
 ### <a name="use-powershell-to-modify-outbound-spam-filter-policies"></a>PowerShell을 사용하여 아웃바운드 스팸 필터 정책 수정
 
-PowerShell에서 맬웨어 필터 정책을 수정할 때와 [1단계: PowerShell을](#step-1-use-powershell-to-create-an-outbound-spam-filter-policy) 사용하여 이 항목의 앞부분에서 설명한 대로 정책을 만들 때와 동일한 설정을 사용할 수 있습니다.
+PowerShell에서 맬웨어 필터 정책을 수정할 때와 이 문서 앞부분의 [1단계: PowerShell을](#step-1-use-powershell-to-create-an-outbound-spam-filter-policy) 사용하여 아웃바운드 스팸 필터 정책 섹션을 만들 때와 동일한 설정을 사용할 수 있습니다.
 
 > [!NOTE]
-> 아웃바운드 스팸 필터 정책의 이름을 바울 수 **없습니다(Set-HostedOutboundSpamFilterPolicy** cmdlet에는 _Name_ 매개 변수가 없음). 보안 및 준수 센터에서 아웃바운드 스팸 정책의 이름을 & 아웃바운드 스팸 필터 규칙의 이름만 _바)_
+> 아웃바운드 스팸 필터 정책의 이름을 바울 수 **없습니다(Set-HostedOutboundSpamFilterPolicy** cmdlet에는 Name 매개 _변수가_ 없음). 보안 및 준수 센터에서 아웃바운드 스팸 정책의 이름을 & 아웃바운드 스팸 필터 규칙의 이름만 바
 
 아웃바운드 스팸 필터 정책을 수정하려면 다음 구문을 사용 합니다.
 
@@ -413,7 +413,7 @@ Set-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>" <Settings>
 
 PowerShell에서 아웃바운드 스팸 필터 규칙을 수정할 때 사용할 수 없는 설정은 _사용되지_ 않는 규칙을 만들 수 있는 Enabled 매개 변수뿐입니다. 기존 아웃바운드 스팸 필터 규칙을 사용하도록 설정하거나 사용하지 않도록 설정하려면 다음 섹션을 참조하세요.
 
-그렇지 않으면 PowerShell에서 아웃바운드 스팸 필터 규칙을 수정할 때 추가 설정을 사용할 수 없습니다. [2단계: PowerShell을](#step-2-use-powershell-to-create-an-outbound-spam-filter-rule) 사용하여 이 항목의 앞부분에서 설명한 대로 아웃바운드 스팸 필터 규칙 섹션을 만들 때도 동일한 설정을 사용할 수 있습니다.
+그렇지 않으면 PowerShell에서 아웃바운드 스팸 필터 규칙을 수정할 때 추가 설정을 사용할 수 없습니다. [2단계: PowerShell을](#step-2-use-powershell-to-create-an-outbound-spam-filter-rule) 사용하여 이 문서 앞부분의 아웃바운드 스팸 필터 규칙 섹션을 만드는 2단계에서 설명한 대로 규칙을 만들 때도 동일한 설정을 사용할 수 있습니다.
 
 아웃바운드 스팸 필터 규칙을 수정하려면 다음 구문을 사용 합니다.
 
@@ -425,7 +425,7 @@ Set-HostedOutboundSpamFilterRule -Identity "<RuleName>" <Settings>
 
 ### <a name="use-powershell-to-enable-or-disable-outbound-spam-filter-rules"></a>PowerShell을 사용하여 아웃바운드 스팸 필터 규칙을 활성화 또는 비활성화
 
-PowerShell에서 아웃바운드 스팸 필터 규칙을 사용하도록 설정하거나 사용하지 않도록 설정하면 전체 아웃바운드 스팸 정책(아웃바운드 스팸 필터 규칙 및 할당된 아웃바운드 스팸 필터 정책)이 사용 또는 사용되지 않도록 설정됩니다. 기본 아웃바운드 스팸 정책은 활성화하거나 사용하지 않도록 설정할 수 없습니다(항상 모든 받는 사람에게 적용).
+PowerShell에서 아웃바운드 스팸 필터 규칙을 사용하도록 설정하거나 사용하지 않도록 설정하면 전체 아웃바운드 스팸 정책(아웃바운드 스팸 필터 규칙 및 할당된 아웃바운드 스팸 필터 정책)이 사용 또는 사용되지 않도록 설정됩니다. 기본 아웃바운드 스팸 정책을 활성화 또는 비활성화할 수 없습니다(항상 모든 받는 사람에게 적용).
 
 PowerShell에서 아웃바운드 스팸 필터 규칙을 사용하도록 설정하거나 사용하지 않도록 설정하려면 다음 구문을 사용 합니다.
 

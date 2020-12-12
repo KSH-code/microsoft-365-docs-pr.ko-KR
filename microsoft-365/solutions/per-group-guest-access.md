@@ -15,24 +15,24 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: 게스트가 특정 그룹에 추가되지 않도록 하는 방법에 대해 자세히 알아보기
-ms.openlocfilehash: 99e78932b29d25054922b56fcadb608a7dfca432
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 8bee26bf5ec323536ca1ac6f25ce96927634cee7
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613059"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49660051"
 ---
 # <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>게스트가 특정 Microsoft 365 그룹 또는 Microsoft Teams 팀에 추가되지 않도록 방지
 
-대부분의 그룹 및 팀에 대한 게스트 액세스를 허용하지만 게스트 액세스를 차단하려는 경우 개별 그룹 및 팀에 대한 게스트 액세스를 차단할 수 있습니다. (게스트의 팀 액세스 차단은 연결된 그룹에 대한 게스트 액세스를 차단하여 수행됩니다.) 이렇게 하면 새 게스트가 추가되는 것을 방지할 수 있지만 이미 그룹 또는 팀에 있는 게스트는 제거되지 않습니다.
+대부분의 그룹 및 팀에 대한 게스트 액세스를 허용하지만 게스트 액세스를 차단하려는 경우 개별 그룹 및 팀에 대한 게스트 액세스를 차단할 수 있습니다. (팀에 대한 게스트 액세스 차단은 연결된 그룹에 대한 게스트 액세스를 차단하여 수행됩니다.) 이렇게 하면 새 게스트가 추가되지 않지만 그룹 또는 팀에 이미 있는 게스트는 제거되지 않습니다.
 
 조직에서 민감도 레이블을 사용하는 경우 이를 사용하여 그룹 기준으로 게스트 액세스를 제어하는 것이 좋습니다. 이 작업을 하는 방법에 대한 자세한 내용은 민감도 레이블을 사용하여 [Microsoft Teams, Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)그룹 및 SharePoint 사이트의 콘텐츠를 보호합니다. 가능한 한 이 방법을 사용하는 것이 좋습니다.
 
 ## <a name="change-group-settings-using-microsoft-powershell"></a>Microsoft PowerShell을 사용하여 그룹 설정 변경
 
-PowerShell을 사용하여 개별 그룹에 새 게스트를 추가하지 못하게 할 수도 있습니다.
+PowerShell을 사용하여 개별 그룹에 새 게스트를 추가하지 못하게 할 수도 있습니다. 팀의 연결된 SharePoint 사이트에는 별도의 게스트 공유 [컨트롤이 있습니다.](https://docs.microsoft.com/sharepoint/change-external-sharing-site)
 
-그룹 수준 게스트 액세스 설정을 변경하려면 Azure [Active Directory PowerShell for Graph(모듈](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) 이름 **AzureADPreview)의** 미리 보기 버전을 사용하여 다음을 변경해야 합니다.
+Azure [Active Directory PowerShell for Graph(모듈](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) 이름 **AzureADPreview)의** 미리 보기 버전을 사용하여 그룹 수준 게스트 액세스 설정을 변경해야 합니다.
 
 - 이전에 Azure AD PowerShell 모듈의 어떠한 버전도 설치하지 않은 경우 [Azure AD 모듈 설치](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview&preserve-view=true)를 참조하고 지침에 따라 공개 미리 보기 릴리스를 설치합니다.
 
@@ -69,13 +69,13 @@ Get-AzureADObjectSetting -TargetObjectId $groupID -TargetType Groups | fl Values
   
 ## <a name="allow-or-block-guest-access-based-on-their-domain"></a>도메인에 따라 게스트 액세스 허용 또는 차단
 
-특정 도메인을 사용하는 게스트를 허용하거나 차단할 수 있습니다. 예를 들어 비즈니스(Contoso)가 다른 비즈니스(Fabrikam)와 파트너 관계를 체결한 경우 사용자가 해당 게스트를 그룹에 추가할 수 있도록 허용 목록에 Fabrikam을 추가할 수 있습니다.
+특정 도메인을 사용하는 게스트를 허용하거나 차단할 수 있습니다. 예를 들어 비즈니스(Contoso)가 다른 비즈니스(Fabrikam)와 파트너 관계가 있는 경우 사용자가 그룹에 해당 게스트를 추가할 수 있도록 허용 목록에 Fabrikam을 추가할 수 있습니다.
 
 자세한 내용은 특정 조직의 B2B 사용자에 대한 초대 허용 또는 [차단을 참조하세요.](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
 
 ## <a name="add-guests-to-the-global-address-list"></a>전체 주소 목록에 게스트 추가
 
-기본적으로 게스트는 Exchange 전체 주소 목록에 표시되지 않습니다. 아래에 나열된 단계를 사용하여 게스트가 전체 주소 목록에 표시될 수 있도록 합니다.
+기본적으로 게스트는 Exchange 전체 주소 목록에 표시되지 않습니다. 아래에 나열된 단계를 사용하여 게스트를 전체 주소 목록에 표시
 
 다음을 실행하여 게스트의 ObjectID를 찾을 수 있습니다.
 
@@ -83,7 +83,7 @@ Get-AzureADObjectSetting -TargetObjectId $groupID -TargetType Groups | fl Values
 Get-AzureADUser -Filter "userType eq 'Guest'"
 ```
 
-그런 다음 ObjectID, GivenName, Surname, DisplayName 및 TelephoneNumber에 적절한 값을 사용하여 다음을 실행합니다.
+그런 다음 ObjectID, GivenName, Surname, DisplayName 및 TelephoneNumber에 대한 적절한 값을 사용하여 다음을 실행합니다.
 
 ```PowerShell
 Set-AzureADUser -ObjectId cfcbd1a0-ed18-4210-9b9d-cf0ba93cf6b2 -ShowInAddressList $true -GivenName 'Megan' -Surname 'Bowen' -DisplayName 'Megan Bowen' -TelephoneNumber '555-555-5555'

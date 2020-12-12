@@ -17,20 +17,20 @@ search.appverid:
 - MET150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: 구성원이 Microsoft 365 그룹으로 전자 메일을 보내거나 Microsoft 365 그룹을 대신하여 전자 메일을 보낼 수 있도록 허용하는 방법을 배워야 합니다.
-ms.openlocfilehash: 2abf0668411ccd08db5bbd8408605dcd0aa2d832
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 6dff559eceec1b719f31d577d7fff8f604636a47
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613575"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663586"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>구성원이 그룹으로 보내거나 그룹을 대신하여 보낼 수 있도록 허용
 
-다른 사람으로 보내기 또는 대신 보내기  권한이 부여된 Microsoft 365 그룹의 구성원은 그룹으로 또는 그룹을 대신하여 전자 메일을 보낼 수 있습니다.  이 문서에서는 관리자가 이러한 권한을 설정하는 방법에 대해 설명합니다.
+다른 사람으로 보내기 또는 대신 보내기  권한이 부여된 Microsoft 365 그룹의 구성원은 그룹으로 또는 그룹을 대신하여 전자 메일을 보낼 수 있습니다.  이 문서에서는 전역 또는 Exchange 관리자가 이러한 권한을 설정하는 방법에 대해 설명합니다.
   
 예를 들어 Megan Bowen이 **교육** Microsoft 365 그룹의  일부이고 그룹에 대한 권한으로 보내기 권한을 가지는 경우 그룹으로  전자 메일을 보내는 경우 교육 그룹이 전자 메일을 보낸 것 같습니다. 
   
-대신 **보내기 권한을** 사용하면 Microsoft 365 그룹을 대신하여 전자 메일을 보낼 수 있습니다. 예를 들어 Alex Wilber가 **마케팅** Microsoft 365 그룹의 일부로, 대신 보내기 권한을 가지고 그룹으로 전자 메일을 보내는 경우 이 전자 메일은 마케팅을 대신하여 **Alex Wilber가** 보낸 것 같습니다. 
+대신 **보내기** 권한을 사용하면 Microsoft 365 그룹 대신 전자 메일을 보낼 수 있습니다. 예를 들어 Alex Wilber가 마케팅 **Microsoft** 365 그룹의 일부로, 대신 보내기 권한을 가지고 그룹으로 전자 메일을 보내는 경우 이 전자 메일은 마케팅을 대신하여 **Alex Wilber가** 보낸 것 같습니다. 
 
 > [!IMPORTANT]
 > 특정 사용자에 대해  **다른** 사람으로 보내기 또는 대신 보내기 구성할 수 있지만 둘 다 구성할 수 없습니다. 두 가지를 모두 구성하는 경우 기본적으로 "다른 사람으로 **보내기"가 사용됩니다.**
@@ -62,11 +62,11 @@ ms.locfileid: "49613575"
   
 1. Exchange 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">센터에서</a>받는 사람 **그룹으로** \> **이동 합니다.**
     
-2. 사용자가 **다른 사람으로** 보낼 수 있도록 허용할 그룹에서 편집 그룹 ![ ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 아이콘을 선택합니다. 
+2. 사용자가 **다른 사람으로** 보낼 수 있도록 허용할 그룹 편집 ![ ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 아이콘을 선택합니다. 
     
 3. 그룹 **위임 선택.**
     
-4. 대신 보내기 섹션에서 그룹으로 보낼 사용자를 추가하려면 **+** 기호를 선택합니다. 
+4. 대신 보내기 섹션에서 그룹으로 보낼 사용자를 추가할 기호를 **+** 선택합니다. 
     
     ![대화 상자 대신 보내기 스크린샷](../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
   
@@ -80,7 +80,7 @@ ms.locfileid: "49613575"
 
 [공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 
-[Microsoft 365 그룹에 대해 자세히 알아보기](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Microsoft 365 그룹에 대한 자세한 내용은](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 [Add-RecipientPermission](https://go.microsoft.com/fwlink/p/?LinkId=723960)
 
