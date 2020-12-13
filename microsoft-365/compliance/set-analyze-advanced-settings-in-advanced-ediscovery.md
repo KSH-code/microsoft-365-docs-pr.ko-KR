@@ -1,9 +1,9 @@
 ---
-title: 고급 eDiscovery에서 분석 고급 설정에 대 한 설정
+title: Advanced eDiscovery에서 고급 설정 분석 설정 설정
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 ms.date: 9/14/2017
@@ -15,37 +15,37 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a797682f-ad85-4c08-a354-3850ba2237ee
-description: 고급 eDiscovery의 분석 프로세스에 대 한 중복 항목, 전자 메일 스레드 및 테마를 포함 하 여 고급 설정을 구성 하는 방법을 알아봅니다.
+description: Advanced eDiscovery의 분석 프로세스에 대해 중복에 가까운 전자 메일, 전자 메일 스레드 및 테마를 비롯한 고급 설정을 구성하는 방법을 확인합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 39d99609cfff92dcd6e6d2f4483076b8bfe808be
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: ac1300eb26338691722d9ccd15269ccf7f964f58
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936755"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663493"
 ---
-# <a name="set-analyze-advanced-settings-in-advanced-ediscovery"></a>고급 eDiscovery에서 분석 고급 설정에 대 한 설정
+# <a name="set-analyze-advanced-settings-in-advanced-ediscovery"></a>Advanced eDiscovery에서 고급 설정 분석 설정 설정
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
   
-Advanced eDiscovery는 모듈 설정 분석을 위한 기본 고급 매개 변수를 제공 합니다. 다음 절차에서는 지정할 수 있는 설정에 대해 설명 합니다.
+Advanced eDiscovery는 모듈 설정 분석에 대한 기본 고급 매개 변수를 제공합니다. 다음 절차에서는 지정할 수 있는 설정에 대해 설명합니다.
   
-1. ** \> \> 설치 분석 준비** 탭에서 **고급 설정** (페이지 맨 아래)을 클릭 합니다. 다음 패널이 표시 됩니다. 
+1. 설치 분석 **\> \> 준비** 탭에서 페이지 아래쪽의 **고급** 설정을 클릭합니다. 다음 패널이 표시됩니다. 
     
     ![고급 설정 설정 분석](../media/c9ea3017-e19a-456b-a742-c3d07121a3f6.png)
   
-2. **거의 중복 항목 및 전자 메일 스레드 매개 변수**에서 필요에 따라 다음에 대 한 값을 선택 합니다.
+2. 중복에 **가까운** 전자 메일 스레드 매개 변수에서 필요한 경우 다음에 대한 값을 선택합니다.
     
-  - **최소 단어 수**: 아래의 파일은 거의 중복 된 분석을 위해 제출 되지 않는 단어의 최소 개수입니다. 
+  - **최소 단어 수:** 중복에 가까운 분석을 위해 파일이 제출되지 않는 단어의 최소 수입니다. 
     
-  - **최대 단어 수**: 위 단어의 최대 수, 즉 파일을 거의 중복 된 분석용으로 전송 하지 않습니다.
+  - **최대 단어 수:** 중복에 가까운 분석을 위해 파일이 전송되지 않는 단어의 최대 수입니다.
     
-  - **전자 메일 유사**: 두 개의 전자 메일을 유사한 것으로 간주 하는 최소 resemblance 수준입니다. 값은 항상 문서 유사성 보다 크거나 같습니다. 기본값은 90%입니다.
+  - **전자 메일 유사성:** 비슷한 것으로 간주되는 두 전자 메일에 대한 최소 수준의 유사성 값은 항상 같거나 문서 유사성보다 습니다. 기본값은 90%입니다.
     
-3. 분석 중에 테마를 처리 하는 데 숫자를 포함 하려면 **테마 매개 변수**에서 **숫자를 테마 분석에 포함** 확인란을 선택 합니다. 
+3. 테마 **매개 변수에서**  분석 중에 테마 처리에 숫자를 포함하려면 테마 분석의 숫자 포함 확인란을 선택합니다. 
     
-4. **저장**을 클릭합니다. 
+4. **저장** 을 클릭합니다. 
     
 ## <a name="related-topics"></a>관련 항목
 
@@ -53,9 +53,9 @@ Advanced eDiscovery는 모듈 설정 분석을 위한 기본 고급 매개 변�
   
 [문서 유사성 이해](understand-document-similarity-in-advanced-ediscovery.md)
   
-[분석 옵션 설정](set-analyze-options-in-advanced-ediscovery.md)
+[설정 분석 옵션](set-analyze-options-in-advanced-ediscovery.md)
   
-[무시 텍스트 설정](set-ignore-text-in-advanced-ediscovery.md)
+[텍스트 무시 설정](set-ignore-text-in-advanced-ediscovery.md)
   
 [분석 결과 보기](view-analyze-results-in-advanced-ediscovery.md)
 

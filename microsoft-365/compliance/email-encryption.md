@@ -18,17 +18,17 @@ ms.collection:
 - M365-security-compliance
 - m365solution-mip
 - m365initiative-compliance
-description: OME(Office 메시지 암호화), S/MIME, IRM(정보 권한 관리)를 비롯한 Microsoft 365 암호화 옵션을 비교하고 TLS(전송 계층 보안)에 대해 자세히 알아보세요.
-ms.openlocfilehash: 4b18110664c602b5b09e60cbd791559069297be4
-ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
+description: OME(Office 365 메시지 암호화), S/MIME, IRM(정보 권한 관리)를 비롯한 Microsoft 365 암호화 옵션을 비교하고 TLS(전송 계층 보안)에 대해 자세히 알아봅니다.
+ms.openlocfilehash: 25568d4e39c2fe7ca2dea214276be5d7f6986518
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49580711"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663023"
 ---
 # <a name="email-encryption"></a>전자 메일 암호화
 
-이 문서에서는 OME(Office 365 메시지 암호화), S/MIME, IRM(정보 권한 관리)을 포함한 Microsoft 365의 암호화 옵션을 비교하고 TLS(전송 계층 보안)을 소개합니다.
+이 문서에서는 OME(Office 메시지 암호화), S/MIME, IRM(정보 권한 관리)을 비롯한 Microsoft 365의 암호화 옵션을 비교하고 TLS(전송 계층 보안)을 소개합니다.
   
 Microsoft 365는 전자 메일 보안에 대한 비즈니스 요구를 충족하는데 도움이 되는 여러 가지 암호화 옵션을 제공합니다. 이 문서에서는 Office 365에서 전자 메일을 암호화하는 세 가지 방법을 제공합니다. Office 365의 모든 보안 기능에 대한 자세한 내용을 보려면 [office 365 보안 센터](https://go.microsoft.com/fwlink/p/?LinkID=282470)를 방문하세요. 이 문서에서는 Office 365에서 Microsoft 365 관리자가 전자 메일 보안을 위해 사용할 수 있는 세 가지 암호화 유형을 소개합니다.
   
@@ -38,7 +38,7 @@ Microsoft 365는 전자 메일 보안에 대한 비즈니스 요구를 충족하
 
 - IRM(정보 권한 관리)
 
-## <a name="email-encryption-and-how-microsoft-365-uses-it"></a>전자 메일 암호화 및 Microsoft 365가 이를 사용하는 방법
+## <a name="what-is-email-encryption-and-how-does-microsoft-365-use-it"></a>전자 메일 암호화란 무엇이며 Microsoft 365가 이 기능을 어떻게 사용하나요?
 
 암호화는 정보가 인코딩되어 권한이 주어진 받는 사람만이 해당 정보를 디코딩하고 정보를 사용할 수 있도록 하는 프로세스입니다. Microsoft 365는 암호화를 서비스에서와 고객 제어로의 두 가지 방식으로 사용합니다. 서비스에서는 기본적으로 Microsoft 365에서 암호화가 사용됩니다. 따라서 아무 것도 구성할 필요가 없습니다. 예를 들어 Microsoft 365는 TLS(전송 계층 보안)를 사용하여 두 서버 간의 연결 또는 세션을 암호화합니다. 
   
@@ -68,16 +68,11 @@ Microsoft 365 내에서 조직 간의 통신, Microsoft 365와 Microsoft 365 외
 |권장 사항 및 예제 시나리오|조직 외부 사람에게 중요한 비즈니스 정보를 보내려는 경우 그들이 소비자이든 다른 비즈니스 기업이든 상관없이 OME를 사용하는 것이 좋습니다. 예:  <br/>  은행 직원이 고객에게 신용 카드 청구서를 보내는 경우  <br/>  병원에서 환자에게 의료 기록을 보내는 경우  <br/>  한 변호사가 다른 변호사에게 기밀 법적 정보를 보내는 경우|사용 제한뿐만 아니라 암호화도 적용하려는 경우 IRM을 사용하는 것이 좋습니다. 예를 들면 다음과 같습니다.  <br/>  자신의 팀에 새 제품 관련 기밀 정보를 보내는 관리자가 “전달 금지” 옵션을 적용하는 경우  <br/>  임원이 Office 365를 사용하는 파트너의 첨부 파일이 포함된 입찰 제안서를 다른 회사와 공유해야 하는데 전자 메일과 첨부 파일이 모두 보호되어야 하는 경우|사용자의 조직 또는 받는 사람의 조직이 진정한 피어 투 피어 암호화를 요구하는 경우 S/MIME를 사용하는 것이 좋습니다.  <br/>  S/MIME는 다음과 같은 시나리오에서 가장 많이 사용됩니다.  <br/>  정부 기관이 다른 정부 기관과 통신하는 경우  <br/>  기업이 정부 기관과 통신하는 경우|
 ||
 
-[Azure Information Protection](https://docs.microsoft.com/microsoft-365/compliance/protect-information) 및 전자 메일 암호화를 모두 사용하여 데이터를 보호하는 경우, 다음을 고려하세요.
-- OME 및 IRM 암호화에 민감도 레이블을 사용할 수 있습니다. 자세한 내용은 [민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠에 대한 액세스 제한](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#what-happens-to-existing-encryption-when-a-labels-applied)을 참조하세요.
-- S/MIME를 사용하여 디지털 서명이 된 전자 메일에 민감도 레이블을 적용할 수 있습니다.
-- 종단 간 암호화로 보호되는 메시지는 정책에서 처리되지 않으므로 S/MIME를 사용하여 암호화된 전자 메일에 민감도 레이블을 적용할 수 없습니다.
-
-## <a name="encryption-options-available-for-my-microsoft-365-subscription"></a>내 Microsoft 365 구독에 사용할 수 있는 암호화 옵션
+## <a name="what-encryption-options-are-available-for-my-microsoft-365-subscription"></a>내 Microsoft 365 구독에 대해 사용할 수 있는 암호화 옵션은 무엇이 있나요?
 
 Microsoft 365 구독의 전자 메일 암호화 옵션에 대한 내용은 [Exchange Online 서비스 설명](https://technet.microsoft.com/library/exchange-online-service-description.aspx)을 참조하세요. 여기서 다음 암호화 기능에 대한 정보를 찾을 수 있습니다.
-
-- IRM 기능과 새 OME 기능을 포함하는 Azure RMS
+  
+- IRM 기능 및 OME 모두를 비롯한 Azure RMS
 
 - S/MIME
 

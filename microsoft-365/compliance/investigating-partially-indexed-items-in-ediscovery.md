@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 1/26/2018
+ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
@@ -17,17 +17,17 @@ search.appverid:
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
-description: 조직 내에서 Exchange, SharePoint 및 비즈니스용 OneDrive에서 부분적으로 인덱싱된(또는 인덱싱되지 않은) 항목을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 94dc568aa889e76241ef7bd48e3dedaba9b92f2f
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+description: 조직 내에서 Exchange, SharePoint 및 비즈니스용 OneDrive에서 부분적으로 인덱싱된 항목(인덱싱되지 않은 항목이라고도 하는 항목)을 관리하는 방법을 알아보습니다.
+ms.openlocfilehash: 6a2a1d042c52a445538903fd7db9fc54305e6c13
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602065"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49655452"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>eDiscovery에서 부분적으로 인덱싱된 항목 조사
 
-Microsoft 365 준수 센터에서 실행되는 eDiscovery 검색에는 검색을 실행할 때 예상 검색 결과에 부분적으로 인덱싱된 항목이 자동으로 포함됩니다. 부분적으로 인덱싱된 항목은 특정 이유로 검색을 위해 완전히 인덱싱되지 않은 SharePoint 및 비즈니스용 OneDrive 사이트의 Exchange 사서함 항목 및 문서입니다. 대부분의 전자 메일 메시지와 사이트 문서는 전자 메일 메시지의 인덱싱 제한에 해당하기 때문에 성공적으로 [인덱싱됩니다.](limits-for-content-search.md#indexing-limits-for-email-messages) 그러나 일부 항목은 이러한 인덱싱 제한을 초과할 수 있으며 부분적으로 인덱싱됩니다. 다음은 검색을 위해 항목을 인덱싱할 수 없는 다른 이유와 eDiscovery 검색을 실행할 때 부분적으로 인덱싱된 항목으로 반환되는 이유입니다.
+Microsoft 365 준수 센터에서 실행되는 eDiscovery 검색에는 검색을 실행할 때 예상 검색 결과에 부분적으로 인덱싱된 항목이 자동으로 포함됩니다. 부분적으로 인덱싱된 항목은 특정 이유로 검색을 위해 완전히 인덱싱되지 않은 SharePoint 및 비즈니스용 OneDrive 사이트의 Exchange 사서함 항목 및 문서입니다. 대부분의 전자 메일 메시지와 사이트 문서는 전자 메일 메시지의 인덱싱 제한에 해당하기 때문에 성공적으로 [인덱싱됩니다.](limits-for-content-search.md#indexing-limits-for-email-messages) 그러나 일부 항목은 이러한 인덱싱 제한을 초과할 수 있으며 부분적으로 인덱싱됩니다. 다음은 검색을 위해 항목을 인덱싱할 수 없는 다른 이유와 eDiscovery 검색을 실행할 때 부분적으로 인덱싱된 항목으로 반환되는 다른 이유입니다.
   
 - 전자 메일 메시지에 이미지 파일과 같은 유효한 처리기 없이 첨부된 파일이 있습니다. 부분적으로 인덱싱된 전자 메일 항목의 가장 일반적인 원인입니다.
 
@@ -45,10 +45,10 @@ eDiscovery 검색을 실행한 후 검색된 위치에 있는 부분적으로 �
   
 - 항목이 부분적으로 인덱싱된 경우 검색 쿼리와 일치하는 항목은 검색 결과 항목의 개수 및 크기와 부분적으로 인덱싱된 항목에 모두 포함됩니다. 그러나 동일한 검색의 결과를 내보내면 항목은 검색 결과 집합에만 포함됩니다. 부분적으로 인덱싱된 항목으로 포함되지 않습니다.
 
-- 검색 쿼리에 대한 날짜 범위를 키워드 쿼리에 포함하거나 조건을 사용하여 지정하는 경우 날짜 범위와 일치하지 않는 부분적으로 인덱싱된 항목은 부분적으로 인덱싱된 항목 수에 포함되지 않습니다. 날짜 범위에 포함된 부분적으로 인덱싱된 항목만 인덱싱된 항목 수에 포함됩니다.
+- 검색 쿼리에 날짜 범위를 지정하는 경우(키워드 쿼리에 포함하거나 조건을 사용하여) 날짜 범위와 일치하지 않는 부분적으로 인덱싱된 항목은 부분적으로 인덱싱된 항목 수에 포함되지 않습니다. 날짜 범위에 포함된 부분적으로 인덱싱된 항목은 인덱싱된 항목 수에 포함됩니다.
 
   > [!NOTE]
-  > SharePoint 및 OneDrive 사이트에 있는 부분적으로 인덱싱된 항목은 검색에 대한 자세한 통계에 표시되는 부분적으로 인덱싱된 항목의 예상치에 포함되지 않습니다. *are not* 그러나 eDiscovery 검색 결과를 내보낼 때 부분적으로 인덱싱된 항목을 내보낼 수 있습니다. 예를 들어 사이트만 검색하는 경우 부분적으로 인덱싱된 예상 항목 수는 0이 됩니다.
+  > SharePoint 및 OneDrive 사이트에 있는 부분적으로 인덱싱된 항목은 검색에 대한 자세한 통계에 표시되는 부분적으로 인덱싱된 항목의 예상 항목에 포함되지 않습니다.  그러나 eDiscovery 검색 결과를 내보낼 때 부분적으로 인덱싱된 항목을 내보낼 수 있습니다. 예를 들어 사이트만 검색하는 경우 부분적으로 인덱싱된 예상 항목 수는 0이 됩니다.
   
 ## <a name="calculating-the-ratio-of-partially-indexed-items-in-your-organization"></a>조직에서 부분적으로 인덱싱된 항목의 비율 계산
 
@@ -72,18 +72,18 @@ eDiscovery 검색을 실행한 후 검색된 위치에 있는 부분적으로 �
 
 `(316 MB/4830 MB) x 100 = 6.54%`
 
-따라서 이전 예에서 사서함 항목의 전체 크기 중 6.54%는 부분적으로 인덱싱된 항목에서 비례합니다. 앞서 언급했듯이 대부분의 조직 고객은 볼륨당 콘텐츠의 1% 미만, 부분적으로 인덱싱되는 크기로 콘텐츠의 12% 미만을 차지합니다.
+따라서 이전 예에서 사서함 항목의 전체 크기 중 6.54%는 부분적으로 인덱싱된 항목에서 비례합니다. 앞서 설명한 것 처럼 대부분의 조직 고객은 볼륨당 콘텐츠의 1% 미만, 부분적으로 인덱싱되는 크기로 콘텐츠의 12% 미만을 차지합니다.
 
 ## <a name="working-with-partially-indexed-items"></a>부분적으로 인덱싱된 항목 작업
 
-부분적으로 항목을 검사하여 관련 정보가 없는지 검사해야 하는 경우 부분적으로 인덱싱된 항목에 대한 정보가 포함된 콘텐츠 검색 보고서를 내보낼 수 있습니다. [export a content search report](export-a-content-search-report.md) 콘텐츠 검색 보고서를 내보낼 때 부분적으로 인덱싱된 항목이 포함된 내보내기 옵션 중 하나를 선택해야 합니다.
+부분적으로 항목을 검사하여 관련 정보가 없는지 검사해야 하는 경우 부분적으로 인덱싱된 항목에 대한 정보가 포함된 콘텐츠 검색 보고서를 내보낼 수 있습니다. [](export-a-content-search-report.md) 콘텐츠 검색 보고서를 내보낼 때 부분적으로 인덱싱된 항목이 포함된 내보내기 옵션 중 하나를 선택해야 합니다.
   
 ![부분적으로 인덱싱된 항목을 내보내는 두 번째 또는 세 번째 옵션 선택](../media/624a62b4-78f7-4329-ab5d-e62e3b369885.png)
   
-이러한 옵션 중 하나를 사용하여 eDiscovery 검색 결과 또는 검색 보고서를 내보낼 때 내보내기에는 Unindexed라는 보고서가 Items.csv. 이 보고서에는 파일 파일과 대부분의 동일한 ResultsLog.csv 포함됩니다. 그러나 인덱싱되지 않은 Items.csv 파일에는 부분적으로 인덱싱된 항목과 관련된 두 개의 필드인 **오류** 태그 및 오류 속성도 **포함됩니다.** 이러한 필드에는 부분적으로 인덱싱된 각 항목의 인덱싱 오류에 대한 정보가 들어 있습니다. 이러한 두 필드의 정보를 사용하면 특정 인덱싱 오류로 조사에 영향을 줄지 여부를 결정할 수 있습니다. 이 경우 대상 검색을 수행하고 특정 전자 메일 메시지와 SharePoint 또는 OneDrive 문서를 검색하고 내보내 조사와 관련이 있는지 확인할 수 있습니다. 단계별 지침은 [Office 365에서](csv-file-for-an-id-list-content-search.md)대상 검색을 위한 CSV 파일 준비를 참조하세요.
+이러한 옵션 중 하나를 사용하여 eDiscovery 검색 결과 또는 검색 보고서를 내보낼 때 내보내기에는 Unindexed라는 보고서가 Items.csv. 이 보고서에는 파일 파일과 대부분의 동일한 ResultsLog.csv 포함됩니다. 그러나 인덱싱되지 않은 Items.csv 파일에는 부분적으로 인덱싱된 항목과 관련된 두 개의 필드인 **오류** 태그 및 오류 속성도 **포함됩니다.** 이러한 필드에는 부분적으로 인덱싱된 각 항목에 대한 인덱싱 오류에 대한 정보가 들어 있습니다. 이러한 두 필드의 정보를 사용하면 특정 인덱싱 오류로 조사에 영향을 줄지 여부를 결정할 수 있습니다. 이 경우 대상 검색을 수행하고 특정 전자 메일 메시지와 SharePoint 또는 OneDrive 문서를 검색하고 내보내 조사와 관련이 있는지 확인할 수 있습니다. 단계별 지침은 [Office 365에서](csv-file-for-an-id-list-content-search.md)대상 검색을 위한 CSV 파일 준비를 참조하세요.
 
 > [!NOTE]
-> 또한 Unindexed Items.csv 파일에는 **오류** 유형 및 오류 메시지라는 **필드가 포함되어 있습니다.** 이러한 필드는 오류 태그 및 오류 속성 필드의 정보와 **Error Properties** 비슷하지만 덜 자세한 정보가 포함된 정보를 포함하는 레거시 필드입니다. **Error Tags** 이러한 레거시 필드는 무시해도 됩니다.
+> 또한 Unindexed Items.csv 파일에는 **오류** 유형 및 오류 메시지라는 **필드가 포함되어 있습니다.** 이러한 필드는 오류 태그 및 오류 속성 필드의 정보와  비슷하지만 덜 자세한 정보가 포함된 정보를 포함하는 레거시 필드입니다.  이러한 레거시 필드는 무시해도 됩니다.
   
 ## <a name="errors-related-to-partially-indexed-items"></a>부분적으로 인덱싱된 항목과 관련된 오류
 
@@ -103,7 +103,7 @@ eDiscovery 검색을 실행한 후 검색된 위치에 있는 부분적으로 �
 | `attachmentdepth` <br/> |콘텐츠 검색기 및 문서 파서에서 다른 첨부 파일 내에 중첩된 너무 많은 수준의 첨부 파일을 찾은 경우 이러한 첨부 파일 중 일부는 처리되지 않습니다.  <br/> |
 | `attachmentrms` <br/> |첨부 파일이 RMS로 보호되어 디코딩에 실패했습니다.  <br/> |
 | `attachmentsize` <br/> |전자 메일 메시지에 첨부된 파일이 너무 크며 처리될 수 없습니다.  <br/> |
-| `indexingtruncated` <br/> |처리된 전자 메일 메시지를 인덱스에 쓸 때 인덱싱 가능한 속성 중 하나가 너무 크며 잘리게 됩니다. 잘못된 속성은 오류 속성 필드에 나열됩니다.  <br/> |
+| `indexingtruncated` <br/> |처리된 전자 메일 메시지를 인덱스에 쓸 때 인덱싱 가능한 속성 중 하나가 너무 크며 잘리게 됩니다. 이 속성은 오류 속성 필드에 나열됩니다.  <br/> |
 | `invalidunicode` <br/> |전자 메일 메시지에 유효한 유니코드로 처리될 수 없는 텍스트가 포함되어 있습니다. 이 항목에 대한 인덱싱이 불완전할 수 있습니다.  <br/> |
 | `parserencrypted` <br/> |첨부 파일 또는 전자 메일 메시지의 콘텐츠가 암호화되고 Microsoft 365에서 콘텐츠를 디코딩할 수 없습니다.  <br/> |
 | `parsererror` <br/> |구문 분석 중에 알 수 없는 오류가 발생했습니다. 이는 일반적으로 소프트웨어 버그 또는 서비스 충돌의 결과입니다.  <br/> |
@@ -167,7 +167,7 @@ eDiscovery 검색을 실행한 후 검색된 위치에 있는 부분적으로 �
      }
    ```
 
-2. [보안 및 준수 센터 PowerShell에 연결하기](https://go.microsoft.com/fwlink/p/?linkid=627084)
+2. [보안 및 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=627084)합니다.
 
 3. 보안 & 준수 센터 PowerShell에서 1단계에서 스크립트를 저장한 폴더로 이동한 다음 스크립트를 실행합니다. 예를 들어:
 
@@ -186,6 +186,6 @@ eDiscovery 검색을 실행한 후 검색된 위치에 있는 부분적으로 �
 > 
 > - 목록 오류 태그 및 오류가 발생한 해당 파일 형식
   
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 
 [eDiscovery의 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)

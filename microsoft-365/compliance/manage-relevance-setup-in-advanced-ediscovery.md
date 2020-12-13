@@ -2,8 +2,8 @@
 title: Advanced eDiscovery에서 관련성 설정 관리하기
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
 titleSuffix: Office 365
 audience: Admin
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: fd6be6d3-2e8d-449d-9851-03ab7546e6aa
 description: 관련성별로 파일 점수를 매기고 분석 결과를 생성하도록 Advanced eDiscovery의 관련성 학습을 설정하기 위한 권장 사항을 읽어보세요.
-ms.openlocfilehash: 40e73dae3317cba5226180f8c57c71c792875ee0
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: a6bec149e11fa80fb57cb811120218fa7f2cc45b
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528144"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662873"
 ---
 # <a name="manage-relevance-setup-in-advanced-ediscovery-classic"></a>Advanced eDiscovery(클래식)에서 관련성 설정 관리
 
@@ -33,7 +33,7 @@ ms.locfileid: "46528144"
   
 ## <a name="guidelines-for-setting-up-relevance-training"></a>관련성 학습 설정 지침
 
- Advanced eDiscovery의 **사례** 창에서 사례를 선택하고 **사례로 이동**을 클릭합니다. **관련성** \> **관련성 설정**을 클릭합니다. 권장 지침에 따라 관련성을 설정합니다. 
+ Advanced eDiscovery의 **사례** 창에서 사례를 선택하고 **사례로 이동** 을 클릭합니다. **관련성** \> **관련성 설정** 을 클릭합니다. 권장 지침에 따라 관련성을 설정합니다. 
   
 - **태그 지정**: 반복적인 관련성 학습 프로세스의 효과는 정확도 및 일관성을 유지하면서 파일 샘플에 태그를 지정하는 전문가의 능력에 달려 있습니다.
 
@@ -61,7 +61,7 @@ ms.locfileid: "46528144"
 
 ## <a name="setting-up-case-issues"></a>사례 문제 설정
 
-이 섹션에 설명된 매개 변수는 Advanced eDiscovery **관련성** \> **관련성 설정**에서 사용할 수 있습니다.
+이 섹션에 설명된 매개 변수는 Advanced eDiscovery **관련성** \> **관련성 설정** 에서 사용할 수 있습니다.
   
 - 문제는 파일을 학습하는 사용자에게 할당되어야 합니다.
 

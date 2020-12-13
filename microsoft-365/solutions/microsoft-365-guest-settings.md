@@ -17,12 +17,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: 조직 외부 사용자와의 공유에 영향을 줄 수 있는 Microsoft 365에서 사용할 수 있는 게스트 공유 설정에 대해 알아봅니다.
-ms.openlocfilehash: 0c734d1046a1c2d180c8102187b8cf07de7dc4dc
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 997ce1375660f1a0e87d0babe647caada09e9e93
+ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613047"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49663658"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 게스트 공유 설정 참조
 
@@ -208,6 +208,8 @@ SharePoint 및 OneDrive에서 게스트와 공유할 수 있는 사용자를 제
 ### <a name="site-sharing"></a>사이트 공유
 
 SharePoint의 각 사이트에 대한 게스트 공유 권한을 설정할 수 있습니다. 이 설정은 사이트 공유와 파일 및 폴더 공유 둘 다에 적용됩니다. (사이트 공유에는 *모든 사용자* 공유는 사용할 수 없습니다. **모든 사용자** 를 선택하면 사용자는 *모든 사용자* 링크를 사용하여 파일 및 폴더를 공유하고 사이트 자체는 신규 및 기존 게스트와 공유할 수 있습니다.
+
+사이트에 민감도 레이블이 적용된 경우, 해당 레이블이 외부 공유 설정을 컨트롤할 수 있습니다. 자세한 내용은 [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)를 참조하세요.
 
 **탐색:** SharePoint 관리 센터 > 활성 사이트 > 사이트 선택 > 정책 탭 > 외부 공유 편집
 

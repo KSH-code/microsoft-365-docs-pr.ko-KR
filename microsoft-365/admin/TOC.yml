@@ -198,7 +198,7 @@
         - name: 사용자 지정 도메인에서 Microsoft 365 파일럿
           href: misc/pilot-microsoft-365-from-my-custom-domain.md
         - name: 도메인 FAQ
-          href: setup/domains-faq.md
+          href: setup/domains-faq.yml
         - name: 호스트별 지침
           items:
             - name: DNS 호스트에서 이름 서버 변경
@@ -237,7 +237,7 @@
           href: manage/customize-the-app-launcher.md
         - name: 사용자의 앱 시작 관리자에 앱 고정
           href: manage/pin-apps-to-app-launcher.md
-        - name: 사용자를 최신 앱으로 업그레이드
+        - name: 사용자를 최신 앱으로 업그레이드합니다.
           href: setup/upgrade-users-to-latest-office-client.md
         - name: 추가 기능의 중앙 집중식 배포
           items:
