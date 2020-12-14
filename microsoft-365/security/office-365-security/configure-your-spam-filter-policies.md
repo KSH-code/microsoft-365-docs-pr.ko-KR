@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection(EOP)에서 스팸 방지 정책을 보고, 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 81c5e74ec45cc633b3a4ba46c7865d0a643af2cd
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: d83c41b52db5c0533a9a5d52ab20ace9b612e1e6
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616695"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49658652"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성하기
 
@@ -45,7 +45,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange online 
 - 스팸 방지 정책을 수정하는 경우, 이름, 우선 순위, 사용 또는 사용 안 함 및 받는 사람 필터와 관련된 설정은 스팸 필터 규칙을 수정합니다. 다른 모든 설정은 관련 스팸 필터 정책을 수정합니다.
 - 스팸 방지 정책을 제거하면, 스팸 필터 규칙과 관련 스팸 필터 정책이 제거됩니다.
 
-Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책과 규칙을 개별적으로 관리합니다. 자세한 내용은 이 항목의 뒷부분에 나오는 [Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell을 사용하여 스팸 방지 정책 구성](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies) 섹션을 참조하세요.
+Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책과 규칙을 개별적으로 관리합니다. 자세한 내용은 이 문서의 뒷부분에 나오는 [Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell을 사용하여 스팸 방지 정책 구성](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies) 섹션을 참조하세요.
 
 모든 조직에는 다음과 같은 속성을 포함하는 기본 제공되는 Default 스팸 방지 정책이 있습니다.
 
@@ -86,7 +86,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
    - **이름**: 정책을 설명하는 고유한 이름을 입력합니다. `\ % & * + / = ? { } | < > ( ) ; : , [ ] "` 문자를 사용하지 마세요.
 
-      이전에 EAC(Exchange 관리 센터)에서 이러한 문자가 포함된 스팸 방지 정책을 만들었다면 PowerShell에서 스팸 방지 정책의 이름을 바꾸어야 합니다. 자세한 내용은 이 항목의 뒷부분에 나오는 [PowerShell을 사용하여 스팸 필터 규칙 수정하기](#use-powershell-to-modify-spam-filter-rules) 섹션을 참조하세요.
+      이전에 EAC(Exchange 관리 센터)에서 이러한 문자가 포함된 스팸 방지 정책을 만들었다면 PowerShell에서 스팸 방지 정책의 이름을 바꾸어야 합니다. 자세한 내용은 이 문서 뒷부분의 [PowerShell을 사용하여 스팸 필터 규칙 수정](#use-powershell-to-modify-spam-filter-rules) 섹션을 참조하세요.
 
    - **설명**: 정책에 대한 선택적 설명을 입력합니다.
 
@@ -382,7 +382,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서는 스�
 
 다음 스팸 방지 정책 설정은 PowerShell에서만 사용할 수 있습니다.
 
-- 기본적으로 `On` 상태인 _MarkAsSpamBulkMail_ 매개 변수. 이 설정의 효과는 이 항목의 앞부분에 있는 [보안 및 준수 센터를 사용하여 스팸 방지 정책 만들기](#use-the-security--compliance-center-to-create-anti-spam-policies) 섹션에서 설명했습니다.
+- 기본적으로 `On` 상태인 _MarkAsSpamBulkMail_ 매개 변수. 이 설정의 효과는 이 문서의 앞부분에 있는 [보안 및 준수 센터를 사용하여 스팸 방지 정책 만들기](#use-the-security--compliance-center-to-create-anti-spam-policies) 섹션에서 설명했습니다.
 
 - 최종 사용자 스팸 격리 알림을 위한 다음 설정:
 
@@ -513,7 +513,7 @@ Get-HostedContentFilterRule -Identity "Contoso Executives" | Format-List
 
 ### <a name="use-powershell-to-modify-spam-filter-policies"></a>PowerShell을 사용하여 스팸 필터 정책 수정하기
 
-다음과 같은 항목 외에 PowerShell에서 스팸 필터 정책을 수정할 때 이 항목 앞부분의 [1단계 : PowerShell을 사용하여 스팸 필터 정책 만들기](#step-1-use-powershell-to-create-a-spam-filter-policy) 섹션에 설명된 대로 정책을 만들 때 같은 설정을 사용할 수 있습니다.
+다음과 같은 항목 외에 PowerShell에서 스팸 필터 정책을 수정할 때 이 문서 앞부분의 [1단계 : PowerShell을 사용하여 스팸 필터 정책 만들기](#step-1-use-powershell-to-create-a-spam-filter-policy) 섹션에 설명된 대로 정책을 만들 때 같은 설정을 사용할 수 있습니다.
 
 - 지정된 정책을 기본 정책으로 바꾸는 _MakeDefault_ 스위치(모든 사용자에게 적용, 항상 우선순위가 **가장 낮으며** 삭제할 수 없음)는 PowerShell에서 스팸 필터 정책을 수정할 때만 사용할 수 있습니다.
 
@@ -531,7 +531,7 @@ Set-HostedContentFilterPolicy -Identity "<PolicyName>" <Settings>
 
 PowerShell에서 스팸 필터 규칙을 수정할 때 사용할 수 없는 유일한 설정은 비활성화된 규칙을 만들 수 있는 _Enabled_ 매개 변수입니다. 기존 스팸 필터 규칙을 사용하거나 사용하지 않도록 설정하려면 다음 섹션을 참조하세요.
 
-그렇지 않으면 PowerShell에서 스팸 필터 규칙을 수정할 때 추가 설정을 사용할 수 없습니다. 이 항목 앞부분의 [2단계: PowerShell을 사용하여 스팸 필터 규칙 만들기](#step-2-use-powershell-to-create-a-spam-filter-rule) 섹션에 설명된 대로 규칙을 만들 때 같은 설정을 사용할 수 있습니다.
+그렇지 않으면 PowerShell에서 스팸 필터 규칙을 수정할 때 추가 설정을 사용할 수 없습니다. 이 문서 앞부분의 [2단계: PowerShell을 사용하여 스팸 필터 규칙 만들기](#step-2-use-powershell-to-create-a-spam-filter-rule) 섹션에 설명된 대로 규칙을 만들 때 같은 설정을 사용할 수 있습니다.
 
 스팸 필터 규칙을 수정하려면 다음 구문을 사용하세요.
 
