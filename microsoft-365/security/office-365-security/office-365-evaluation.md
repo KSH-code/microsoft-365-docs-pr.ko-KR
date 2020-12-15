@@ -17,12 +17,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b5b095a1d75ead0f963a71d816e7d879b7cd3697
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 54acf9d21e3dd935f8b87c6ee4a13ab30e7bc59e
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614801"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49668076"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender 평가
 
@@ -62,8 +62,8 @@ Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 �
 
 평가에 액세스하려면 라이선스 요구 사항을 충족해야 합니다. 다음 라이선스 중 한 개가 작동됩니다.
 
-- Microsoft Defender for Office 365 요금제 1
-- Microsoft Defender for Office 365 요금제 2
+- Office 365용 Microsoft Defender 플랜 1
+- Office 365용 Microsoft Defender 플랜 2
 - Microsoft 365 E5, Microsoft 365 E5 보안
 - Office 365 E5
 

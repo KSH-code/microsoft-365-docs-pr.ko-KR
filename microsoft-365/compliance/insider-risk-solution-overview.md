@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: a7a37464dc011d319021496c6d06bdf975c53f82
-ms.sourcegitcommit: 21b0ea5715e20b4ab13719eb18c97fadb49b563d
+ms.openlocfilehash: 6e6ad80697d332d0bccb248071b8deadf09fe8de
+ms.sourcegitcommit: 8252377f63de188d32ed1ccd37540d92cba3cb65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49624800"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49671019"
 ---
 # <a name="insider-risk-solutions-in-microsoft-365"></a>Microsoft 365의 참가자 위험 솔루션
 
@@ -51,8 +51,8 @@ Microsoft 365 위험 방지 기능은 내부자 위험 제품 및 솔루션에 �
 
 | 솔루션/기능 | 설명 | 라이선싱 |
 | :------------------------ | :-------------- | :------------ |
-| 커뮤니케이션 규정 준수 | 커뮤니케이션 규정 준수는 조직에서 부적절한 메시지를 검색, 캡처 및 처리하도록 하여 통신 위험을 최소화하는 데 도움이 됩니다. | Microsoft 365 E5 <br> Microsoft 365 E3 구독 + Microsoft 365 E5 Insider Risk Management 추가 기능 <br> Microsoft 365 E3 구독 + Microsoft 365 E5 규정 준수 추가 기능 |
-| 내부자 위험 관리 | 내부자 위험 관리는 조직에서 악의적이고 부수적인 활동을 감지, 조사 및 작업할 수 있도록 하여 내부 위험을 최소화하는 데 도움이 됩니다. | Microsoft 365 E5 <br> Microsoft 365 E3 구독 + Microsoft 365 E5 Insider Risk Management 추가 기능 <br> Microsoft 365 E3 구독 + Microsoft 365 E5 규정 준수 추가 기능 |
+| 커뮤니케이션 규정 준수 | 커뮤니케이션 규정 준수는 조직에서 부적절한 메시지를 검색, 캡처 및 처리하도록 하여 통신 위험을 최소화하는 데 도움이 됩니다. | Microsoft 365 E5 구독(유료 또는 평가판) <br> Microsoft 365 E3 구독 + Microsoft 365 E5 규정 준수 추가 기능 <br> Microsoft 365 E3 구독 + Microsoft 365 E5 내부자 위험 관리 추가 기능 <br> Microsoft 365 A5 구독(유료 또는 평가판) <br> Microsoft 365 A3 구독 + Microsoft 365 A5 준수 추가 기능 <br> Microsoft 365 A3 구독 + Microsoft 365 A5 내부자 위험 관리 추가 기능 <br> Microsoft 365 G5 구독(유료 또는 평가판) <br> Microsoft 365 G5 구독 + Microsoft 365 G5 규정 준수 추가 기능 <br> Microsoft 365 G5 구독 + Microsoft 365 G5 Insider Risk Management 추가 기능 <br> Office 365 Enterprise E5 구독(유료 또는 평가판) <br> Office 365 A5 구독(유료 또는 평가판) <br> Office 365 Enterprise E3 구독 + Office 365 고급 준수 추가 기능(새 구독에서 더 이상 사용할 수 없음) |
+| 내부자 위험 관리 | 내부자 위험 관리는 조직에서 악의적이고 부수적인 활동을 감지, 조사 및 작업할 수 있도록 하여 내부 위험을 최소화하는 데 도움이 됩니다. | Microsoft 365 E5 구독(유료 또는 평가판) Microsoft 365 E3 구독 + Microsoft 365 E5 규정 준수 추가 기능 <br> Microsoft 365 E3 구독 + Microsoft 365 E5 내부자 위험 관리 추가 기능 <br> Microsoft 365 A5 구독(유료 또는 평가판) <br> Microsoft 365 A3 구독 + Microsoft 365 A5 준수 추가 기능 <br> Microsoft 365 A3 구독 + Microsoft 365 A5 내부자 위험 관리 추가 기능 |
 | 정보 장벽 | 정보 장벽을 통해 두 내부 그룹 간의 통신 및 공동 작업을 제한하여 조직에서 이해의 충돌을 피할 수 있습니다.  | Microsoft 365 E5/A5 <br> Office 365 E5/A5 <br> Office 365 Advanced Compliance <br> Microsoft 365 규정 준수 E5/A5 <br> Microsoft 365 내부자 위험 관리 |
 | 권한이 부여된 액세스 관리 | 권한이 부여된 액세스 관리를 사용하면 Office 365의 권한이 부여된 Exchange Online 관리 작업을 세부적인 액세스 제어가 허용됩니다. 중요한 데이터에 대한 액세스 또는 중요한 구성 설정에 대한 액세스 권한이 있는 기존 권한 있는 관리자 계정을 사용하는 위반으로부터 조직을 보호하는 데 도움이 될 수 있습니다. | Microsoft 365 E5/A5 <br> Office 365 E5/A5 <br> Microsoft 365 E5/A5 규정 준수 <br> Microsoft 365 E5/A5 정보 보호 및 거버넌스 |
 
