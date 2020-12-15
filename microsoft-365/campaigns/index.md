@@ -48,7 +48,7 @@ Microsoft 365 Business Premium을 포함하는 보안 구성으로 다음과 같
 - 관리하기 쉬운 엔터프라이즈급 보안 기능으로 모든 iOS, Android 및 Windows 10 장치에서 업무 파일을 보호합니다.
 - 사용자 계정 및 ID에 대해 추가 보호를 적용합니다.
 
-![Microsoft 365 Business Premium은 생산성 도구, 공동 작업 도구, 파일 저장소, 전자 메일, 장치 및 ID를 보호합니다.](../media/M365-WhatIsIt-SecurityFocus.png)
+![Microsoft 365 Business Premium은 생산성 도구, 협업 도구, 파일 스토리지, 전자 메일, 장치 및 ID를 보호합니다.](../media/M365-WhatIsIt-SecurityFocus.png)
 
 미국의 연방 선거 캠페인은 Microsoft 365 Business Premium의 특별 가격을 적용할 수 있지만, 이 계획을 가진 모든 조직은 이 지침을 활용하여 보안 강화를 구성하고 안전한 협업 방법을 배울 수 있습니다.
 
@@ -60,12 +60,12 @@ Microsoft 365 Business Premium을 포함하는 보안 구성으로 다음과 같
 
 포함된 항목에 대한 자세한 내용은 [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business)을 참조하시기 바랍니다.
 
-<a name="get-started"></a>시작
+<a name="get-started"></a>시작하기
 --------------------------
 
 시작하려면 다음 단계를 따릅니다.
 
-- [Microsoft 365 캠페인 가져오기](get-microsoft-365-campaigns.md)
+- [Microsoft 365 캠페인을 가져오기](get-microsoft-365-campaigns.md)
 - [사용자가 Microsoft 365에서 작업하는 방법 배우기](m365-campaigns-users.md)
 - [Microsoft 365 캠페인을 설치](microsoft-365-campaigns-setup-overview.md)
 
@@ -74,15 +74,15 @@ Microsoft 365 Business Premium을 포함하는 보안 구성으로 다음과 같
 
 보안 Microsoft 365 환경을 설정한 후 다음 솔루션을 사용하여 작업할 수 있습니다.
 
-| 공동 작업을 위한 팀 생성 | 온라인 모임 설정 |
+| 협업을 위한 팀 생성 | 온라인 모임 설정 |
 | ------------- | ------------- |
 | ![SharePoint 커뮤니케이션 사이트](../media/sm-m365-democracy-teams-collab.png) | ![온라인 모임](../media/m365-democracy-teams-meetings.png) |
-| 주요 직원, 모든 직원 및 파트너 또는 공급 업체가 팀과 공동 작업을 수행합니다. [팀 만들기](create-teams-for-collaboration.md) | 오디오, 비디오 및 Microsoft Teams로 모임을 예약하고 공유합니다. [모임을 설정합니다](set-up-meetings.md) |
+| 주요 직원, 모든 직원 및 파트너 또는 공급 업체가 팀과 공동 작업을 수행합니다. [팀 만들기](create-teams-for-collaboration.md) | 오디오, 비디오 및 Microsoft 팀과의 공유로 미팅 일정을 잡습니다. [모임을 설정합니다](set-up-meetings.md) |
 
 | 중요한 전자 메일을 암호화하거나 레이블을 지정합니다. | 통신 사이트 만들기 |
 | ------------- | ------------- |
-| ![암호화되고 레이블이 지정된 전자 메일](../media/sm-m365-campaign-email-encrypt.png) | ![SharePoint 커뮤니케이션 사이트](../media/sm-m365-democracy-comms-site.png) |
-| 암호화 및 민감도 레이블을 사용하여 기밀 또는 중요한 정보가 포함된 전자 메일을 보호합니다. [암호화된 전자 메일 전송](send-encrypted-email.md) | SharePoint로 작성된 내부 통신 사이트에서 팀과 이벤트, 메시지, 이미지 등을 공유할 수 있습니다. [사이트 만들기](create-communications-site.md) |
+| ![암호화 되고 레이블이 지정 된 전자 메일](../media/sm-m365-campaign-email-encrypt.png) | ![SharePoint 커뮤니케이션 사이트](../media/sm-m365-democracy-comms-site.png) |
+| 암호화 및 민감도 레이블을 사용하여 기밀 또는 중요한 정보가 포함된 전자 메일을 보호합니다. [암호화된 전자 메일을 보냅니다](send-encrypted-email.md) | SharePoint로 작성된 내부 통신 사이트에서 팀과 이벤트, 메시지, 이미지 등을 공유할 수 있습니다. [사이트 만들기](create-communications-site.md) |
 
 | 파일 및 동영상 공유 |
 | ------------- |
