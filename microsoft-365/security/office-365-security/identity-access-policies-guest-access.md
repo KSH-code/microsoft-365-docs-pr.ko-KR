@@ -1,6 +1,6 @@
 ---
-title: 게스트 및 외부 B2B 액세스를 허용 하기 위한 id 및 장치 액세스 정책 | Microsoft 365 Microsoft Docs
-description: 게스트 및 외부 사용자의 액세스를 보호 하기 위한 권장 조건부 액세스 및 관련 정책에 대해 설명 합니다.
+title: 게스트 및 외부 B2B 액세스를 허용하기 위한 ID 및 장치 액세스 정책 - 엔터프라이즈용 Microsoft 365 | Microsoft Docs
+description: 게스트 및 외부 사용자의 액세스를 보호하기 위한 권장 조건부 액세스 및 관련 정책에 대해 설명
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.author: josephd
@@ -17,76 +17,74 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: 55a84fa8ba31cfd4f981f2820811b541ae340a27
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+ms.openlocfilehash: c2c01278831433c02e5c869dba83f223eea57d27
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49357626"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683238"
 ---
-# <a name="policies-for-allowing-guest-and-external-b2b-access"></a>게스트 및 외부 B2B 액세스를 허용 하기 위한 정책
+# <a name="policies-for-allowing-guest-and-external-b2b-access"></a>게스트 및 외부 B2B 액세스를 허용하는 정책
 
-이 문서에서는 azure AD (B2B 기업 간) 계정을 가진 게스트 및 외부 사용자에 대 한 액세스를 허용 하도록 권장 되는 일반 id 및 장치 액세스 정책을 조정 하는 방법에 대해 설명 합니다. 이 지침은 [일반 id 및 장치 액세스 정책을](identity-access-policies.md)기반으로 합니다.
+이 문서에서는 Azure AD(Azure Active Directory) B2B(Business-to-Business) 계정이 있는 게스트 및 외부 사용자에 대한 액세스를 허용하도록 권장되는 일반 ID 및 장치 액세스 정책을 조정하는 방법을 설명합니다. 이 지침은 공통 ID 및 장치 액세스 [정책을 빌드합니다.](identity-access-policies.md)
 
-이러한 권장 사항은 보호의 **기본** 계층에 적용 되도록 설계 되었습니다. 그러나 **중요** 및 **높은 규제** 보호에 대 한 요구 사항의 세분성을 기반으로 권장 사항을 조정할 수도 있습니다.
+이러한 권장 사항은 보호의 기준 **계층에** 적용하도록 디자인됩니다. 그러나 중요하고 높은 규제 대상 보호에 대한 요구의 세분성에 따라 권장 **사항을** **조정할 수도** 있습니다.
 
-Azure AD 테 넌 트에서 인증 하기 위해 B2B 계정에 대 한 경로를 제공 하면 이러한 계정에 전체 환경에 대 한 액세스 권한이 부여 되지 않습니다. B2B 사용자 및 해당 계정은 조건부 액세스 정책에 부여 된 서비스 내에서 파일과 같이 공유 되는 리소스에만 액세스할 수 있습니다.
+B2B 계정이 Azure AD 테넌트에 인증하는 경로를 제공해도 이러한 계정에 전체 환경에 대한 액세스 권한이 부여되지는 않습니다. B2B 사용자 및 해당 계정은 조건부 액세스 정책에 부여된 서비스 내에서 공유되는 리소스(예: 파일)에만 액세스할 수 있습니다.
 
-## <a name="updating-the-common-policies-to-allow-and-protect-guest-and-external-access"></a>게스트 및 외부 액세스를 허용 하 고 보호 하기 위해 일반 정책 업데이트
+## <a name="updating-the-common-policies-to-allow-and-protect-guest-and-external-access"></a>게스트 및 외부 액세스를 허용하고 보호하기 위한 일반 정책 업데이트
 
-Azure AD B2B 계정을 사용 하 여 게스트 및 외부 액세스를 보호 하기 위해 일반 id 및 장치 액세스 정책에서 추가 하거나 업데이트할 정책을 다음 다이어그램에서 설명 합니다.
+다음 다이어그램은 Azure AD B2B 계정으로 게스트 및 외부 액세스를 보호하기 위해 공통 ID 및 장치 액세스 정책에서 추가하거나 업데이트할 정책을 보여 주며,
 
 [![게스트 액세스 보호를 위한 정책 업데이트 요약](../../media/microsoft-365-policies-configurations/identity-access-ruleset-guest.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-guest.png)
 
 [이 이미지의 더 큰 버전 보기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-guest.png)
 
-다음 표에는 만들고 업데이트 해야 하는 정책이 나와 있습니다. 공통 정책- [일반 id 및 장치 액세스 정책](identity-access-policies.md) 문서의 관련 구성 지침에 대 한 링크를 제공 합니다.
+다음 표에는 만들고 업데이트해야 하는 정책이 나열되어 있습니다. 일반 정책은 일반 ID 및 장치 액세스 정책 문서의 관련 구성 [지침에 연결됩니다.](identity-access-policies.md)
 
 |보호 수준|정책|추가 정보|
 |---|---|---|
-|**기준**|[게스트 및 외부 사용자에 대 한 MFA 항상 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|이 새 정책을 만들고 다음을 구성 합니다. <ul><li> **포함 > 사용자 및 그룹 > 할당** 에 대해 **사용자 및 그룹 선택을** 선택 하 고 **모든 게스트 및 외부 사용자** 를 선택 합니다. </li><li> **로그인 > > 조건** 에 대해 항상 MFA (multi-factor authentication)를 적용 하도록 모든 옵션을 선택 하지 않은 상태로 유지 합니다.</li>|
-||[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|이 정책을 수정 하 여 게스트 및 외부 사용자를 제외 합니다.|
-||[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|이 정책을 수정 하 여 게스트 및 외부 사용자를 제외 합니다.|
+|**기준**|[게스트 및 외부 사용자에 대해 MFA가 항상 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|이 새 정책을 만들고 구성합니다. <ul><li> Assignments > 사용자 및 > **포함,** 사용자 및 그룹 **선택,** 모든 게스트 및 외부 **사용자를 선택합니다.** </li><li> 배정 **> 조건>** 로그인의 경우 항상 MFA(다단계 인증)를 적용하도록 모든 옵션을 선택하지 않은 상태로 하세요.</li>|
+||[로그인 위험이 중간 또는 높음인 경우 MFA *필요*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|게스트 및 외부 사용자를 제외하도록 이 정책을 수정합니다.|
+||[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|게스트 및 외부 사용자를 제외하도록 이 정책을 수정합니다.|
 
-조건부 액세스 정책에서 게스트 및 외부 사용자를 포함 하거나 제외 하려면 **사용자 및 그룹에 포함 또는 제외 > > 할당** 에 대해 **모든 게스트 및 외부 사용자** 를 확인 합니다. **Exclude**
+조건부 액세스 정책에서 게스트 및 외부 사용자를 포함하거나 제외하기 위해 **Assignments** > 사용자 및 그룹에 대해 포함 또는 제외> 모든 게스트 및 외부 사용자를 **검사합니다.**
 
-![게스트 및 외부 사용자를 제외 하기 위한 컨트롤의 화면 캡처](../../media/microsoft-365-policies-configurations/identity-access-exclude-guests-ui.png)
+![게스트 및 외부 사용자를 제외하는 컨트롤의 화면 캡처](../../media/microsoft-365-policies-configurations/identity-access-exclude-guests-ui.png)
 
 ## <a name="more-information"></a>추가 정보
 
-### <a name="guest-and-external-access-with-microsoft-teams"></a>Microsoft 팀과의 게스트 및 외부 액세스
+### <a name="guest-and-external-access-with-microsoft-teams"></a>Microsoft Teams를 통해 게스트 및 외부 액세스
 
-Microsoft 팀에서는 다음을 정의 합니다.
+Microsoft Teams는 다음을 정의합니다.
 
-- **게스트 액세스** 에서는 팀 구성원으로 추가할 수 있는 AZURE AD B2B 계정을 사용 하며, 모든 고유한에 팀의 통신 및 리소스에 대 한 액세스 권한을 갖습니다.
+- **게스트 액세스는** 팀 구성원으로 추가할 수 있는 Azure AD B2B 계정을 사용하며 팀의 통신 및 리소스에 대한 모든 사용 권한이 부여됩니다.
 
-- **외부 액세스** 는 B2B 계정이 없는 외부 사용자에 대 한 것입니다. 외부 액세스에는 초대 및 참여를 포함할 수 있지만 팀 구성원 자격 및 팀의 리소스에 대 한 액세스는 포함 되지 않습니다.
+- **외부 액세스는** B2B 계정이 없는 외부 사용자에 대한 것입니다. 외부 액세스에는 초대 및 통화, 채팅 및 모임 참가가 포함할 수 있지만 팀 구성원 자격 및 팀 리소스에 대한 액세스는 포함하지 않습니다.
 
-자세한 내용은 [팀에 대 한 게스트 및 외부 액세스 간 비교](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access)를 참조 하세요.
+자세한 내용은 팀에 대한 게스트와 외부 액세스 [간 비교를 참조하세요.](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access)
 
-조건부 액세스 정책은 해당 Azure AD B2B 계정이 있기 때문에 팀의 게스트 액세스에만 적용 됩니다.
+Teams의 ID 및 장치 액세스 정책 보안에 대한 자세한 내용은 [Teams 채팅,](teams-access-policies.md) 그룹 및 파일을 보호하기 위한 정책 권장 사항을 참조하세요.
 
-팀에 대 한 id 및 장치 액세스 정책 보호에 대 한 자세한 내용은 [팀 대화방, 그룹 및 파일 보호에 대 한 정책 권장 사항을](teams-access-policies.md) 참조 하세요.
+### <a name="require-mfa-always-for-guest-and-external-users"></a>게스트 및 외부 사용자에 대해 MFA가 항상 필요
 
-### <a name="require-mfa-always-for-guest-and-external-users"></a>게스트 및 외부 사용자에 대 한 MFA 항상 필요
+이 정책은 게스트가 홈 테넌트에 MFA에 등록되어 있는지 여부에 관계없이 테넌트에 MFA를 등록하라는 메시지를 제공합니다. 테넌트의 리소스에 액세스할 때 게스트 및 외부 사용자는 모든 요청에 대해 MFA를 사용해야 합니다.
 
-이 정책은 해당 홈 테 넌 트에서 MFA에 대 한 등록 여부에 관계 없이 테 넌 트에 MFA를 등록 하 라는 메시지를 표시 합니다. 테 넌 트의 리소스에 액세스할 때 게스트 및 외부 사용자는 모든 요청에 대해 MFA를 사용 해야 합니다.
+### <a name="excluding-guest-and-external-users-from-risk-based-mfa"></a>위험 기반 MFA에서 게스트 및 외부 사용자 제외
 
-### <a name="excluding-guest-and-external-users-from-risk-based-mfa"></a>위험 기반 MFA 로부터 게스트 및 외부 사용자 제외
+조직에서는 Azure AD ID 보호를 사용하여 B2B 사용자에 대해 위험 기반 정책을 적용할 수 있는 반면, 홈 디렉터리에 기존 ID로 인해 리소스 디렉터리의 B2B 공동 작업 사용자에 대한 Azure AD ID 보호를 구현하는 데 제한이 있습니다. 이러한 제한으로 인해 Microsoft는 위험 기반 MFA 정책에서 게스트 사용자를 제외하고 이러한 사용자에게 항상 MFA를 사용하게 하는 것이 좋습니다.
 
-조직은 Azure AD Id 보호를 사용 하 여 B2B 사용자에 게 위험 기반 정책을 적용할 수 있지만, 해당 홈 디렉터리에 있는 id로 인해 리소스 디렉터리의 B2B 공동 작업 사용자에 대 한 Azure AD Id 보호 구현에는 제한이 있습니다. 이러한 제한으로 인해 Microsoft는 위험 기반 MFA 정책에서 게스트 사용자를 제외 하 고이 사용자가 항상 MFA를 사용 하도록 요구 하는 것이 좋습니다.
-
-자세한 내용은 [B2B 공동 작업 사용자에 대 한 Id 보호의 제한 사항을](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-b2b#limitations-of-identity-protection-for-b2b-collaboration-users)참조 하세요.
+자세한 내용은 B2B 공동 작업 사용자에 대한 ID 보호 제한 [사항을 참조하세요.](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-b2b#limitations-of-identity-protection-for-b2b-collaboration-users)
 
 ### <a name="excluding-guest-and-external-users-from-device-management"></a>장치 관리에서 게스트 및 외부 사용자 제외
 
-한 조직 에서만 장치를 관리할 수 있습니다. 장치 준수를 요구 하는 정책에서 게스트 및 외부 사용자를 제외 하지 않으면 이러한 정책은 이러한 사용자를 차단 합니다.
+한 조직만 장치를 관리할 수 있습니다. 게스트 및 외부 사용자를 장치 준수가 필요한 정책에서 제외하지 않는 경우 이러한 정책은 이러한 사용자를 차단합니다.
 
 ## <a name="next-step"></a>다음 단계
 
-![4 단계: Microsoft 365 클라우드 앱에 대 한 정책](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+![4단계: Microsoft 365 클라우드 앱에 대한 정책](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
-다음에 대 한 조건부 액세스 정책 구성:
+조건부 액세스 정책 구성:
 
 - [Microsoft Teams](teams-access-policies.md)
 - [Exchange Online](secure-email-recommended-policies.md)

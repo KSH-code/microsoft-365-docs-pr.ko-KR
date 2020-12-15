@@ -29,7 +29,7 @@ Microsoft 정보 거버넌스(MIG) 기능을 사용하여 규정 준수 또는 �
 
 ![데이터 관리 - 정보 거버넌스 및 레코드 관리](../media/information-governance-records-management.png)
 
-데이터 보호가 필요하신가요? [Microsoft 365의 Microsoft Information Protection](information-protection.md)을 참조하세요.
+데이터 보호에 대해 찾고 있으신가요? [Microsoft 365의 Microsoft 정보 보호](information-protection.md)를 참조하세요.
 
 ## <a name="information-governance"></a>정보 거버넌스
 

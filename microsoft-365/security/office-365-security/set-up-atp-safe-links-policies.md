@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365용 Microsoft Defender에서 안전한 링크 정책 및 전역 안전 링크 설정을 보고, 만들고, 수정하고, 삭제하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 8a6d8a7ad567b658f04cb0b28800d4edbc33ec67
-ms.sourcegitcommit: f81ca61f74f11a7436a6172538c3bda81b484d62
+ms.openlocfilehash: 7a00b73855302f5046afa0605fd7188007394ed7
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/15/2020
-ms.locfileid: "49675244"
+ms.locfileid: "49683166"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender에서 안전한 링크 정책 설정
 
@@ -178,7 +178,7 @@ Security & 준수 센터에서 사용자 지정 안전 링크 정책을 만들�
 
    - 토글을 왼쪽으로 이동하여 정책을 사용하지 않도록 설정합니다. ![정책 끄기](../../media/scc-toggle-off.png).
 
-   - 토글을 오른쪽으로 이동하여 정책을 사용하도록 설정합니다. ![정책 켜기](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png).
+   - 토글을 오른쪽으로 이동하여 정책을 사용하도록 설정합니다. ![정책 켜기](../../media/scc-toggle-on.png).
 
 ### <a name="set-the-priority-of-safe-links-policies"></a>안전한 링크 정책의 우선 순위 설정
 

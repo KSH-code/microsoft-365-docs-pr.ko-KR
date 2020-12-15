@@ -8,6 +8,8 @@
       href: work-with-topics.md
     - name: 사용자에게 항목 센터에 대한 사용 권한 부여
       href: give-user-permissions-to-the-topic-center.md
+    - name: 환경 준비
+      href: topic-experiences-get-ready.md
 - name: 설치 및 관리
   items:
     - name: 항목 보안
@@ -24,3 +26,7 @@
       href: topic-experiences-user-permissions.md
     - name: 항목 센터 이름 변경
       href: topic-experiences-administration.md
+- name: 채택
+  items:
+    - name: 채택을 주도하기 시작
+      href: topics-adoption-getstarted.md

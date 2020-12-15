@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 보안 및 준수 센터의 테넌트 허용/차단 목록에서 URL & 수 있습니다.
-ms.openlocfilehash: 4bf5e2e29a9f48c434be527a2447ca4bf98c4208
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: f60e2f29bf9b880e9d2247fa59554300ae348a03
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49660001"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683214"
 ---
 # <a name="manage-urls-in-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록의 URL 관리
 
@@ -34,13 +34,13 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 보안 및 규정 준수 센터의 테넌트 허용/차단 & Microsoft 365 필터링 판정을 수동으로 다시우는 방법을 제공합니다. 테넌트 허용/차단 목록은 메일 흐름 중과 사용자가 클릭할 때 사용됩니다. 테넌트 허용/차단 목록에서 허용하거나 차단할 URL을 지정할 수 있습니다.
 
-이 항목에서는 보안 & 준수 센터 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell)에서 테넌트 허용/차단 목록의 항목을 구성하는 방법에 대해 설명합니다.
+이 항목에서는 보안 & 준수 센터 또는 PowerShell(Exchange Online에 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell)에서 테넌트 허용/차단 목록의 항목을 구성하는 방법을 설명합니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 테넌트 **허용/차단** 목록 페이지로 직접 이동하기 위해 <https://protection.office.com/tenantAllowBlockList> 다음을 사용하세요.
 
-- 사용 가능한 URL 값은 이 문서 부분의 테넌트 [허용/차단 목록 섹션에](#url-syntax-for-the-tenant-allowblock-list) 대한 URL 구문에 설명되어 있습니다.
+- 사용 가능한 URL 값은 이 문서 부분의 [테넌트 허용/차단 목록 섹션에](#url-syntax-for-the-tenant-allowblock-list) 대한 URL 구문에 설명되어 있습니다.
 
 - 테넌트 허용/차단 목록에는 URL에 최대 500개 항목이 허용됩니다.
 
@@ -54,7 +54,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 - 이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 받아야 합니다.
   - 테넌트 허용/차단 목록에서 값을 추가하고 제거하려면 **조직** 관리 또는 보안 관리자 역할 그룹의 **구성원이** 되거나 제거해야 합니다.
-  - 테넌트 허용/차단 목록에 대한 읽기 전용 액세스 권한을 사용하려면  전역 읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되거나,
+  - 테넌트 허용/차단 목록에 대한 읽기 전용 액세스 권한을 사용하려면  전역 읽기 또는 보안 읽기 권한이 있는 사용자 역할 그룹의 **구성원이면** 됩니다.
 
   자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
@@ -73,17 +73,17 @@ URL 항목의 구문에 대한 자세한 내용은 이 문서 부분의 [테넌�
 
 3. 나타나는 **새 URL** 추가 플라이아웃에서 다음 설정을 구성합니다.
 
-   - **와일드카드를** 사용하여 URL 추가: 줄당 URL을 하나씩 입력하고 최대 20개까지 입력할 수 있습니다.
+   - **와일드카드를** 사용하여 URL 추가: 줄당 하나의 URL을 입력하고 최대 20개까지 입력합니다.
 
    - **차단/허용:** 지정한 URL을  허용할지 차단할지 여부를 선택합니다. 
 
    - **만료 안 하세요.** 다음 단계 중 하나를 수행합니다.
 
-     - 설정이 꺼져 있는지(토글 해제) 확인란을 사용하여 항목의 만료 날짜를 ![ ](../../media/scc-toggle-off.png) 지정합니다. 
+     - 설정이 꺼져 있는지 확인하고(토글 해제) 만료 상자를 사용하여 항목의 만료 ![ ](../../media/scc-toggle-off.png) 날짜를 지정합니다. 
 
      또는
 
-     - 토글을 오른쪽으로 이동하여 항목이 만료되지 않습니다. ![토글 켬](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png).
+     - 토글을 오른쪽으로 이동하여 항목이 만료되지 않습니다. ![토글 켬](../../media/scc-toggle-on.png).
 
    - **선택 사항**: 항목에 대한 설명 텍스트를 입력합니다.
 
@@ -95,7 +95,7 @@ URL 항목의 구문에 대한 자세한 내용은 이 문서 부분의 [테넌�
 
 2. URL **탭을** 선택합니다.
 
-다음 열 제목을 클릭하여 오차 또는 내선 순서로 정렬합니다.
+다음 열 머리 단추를 클릭하여 오차 또는 내선 순서로 정렬합니다.
 
 - **값**
 - **작업:** **차단** **또는** 허용.
@@ -111,7 +111,7 @@ URL 항목의 구문에 대한 자세한 내용은 이 문서 부분의 [테넌�
 
 - **작업:** **허용,** **차단** 또는 둘 다를 선택합니다.
 
-- **만료 안**:를 선택(해제)하거나 (토글) ![ ](../../media/scc-toggle-off.png) ![ 을(를) ](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) 끄기.
+- **만료 안 하게:** 해제 선택: 해제 ![ 또는 ](../../media/scc-toggle-off.png) 끄기: ![ 토글 ](../../media/scc-toggle-on.png)
 
 - **Last updated**: Select a start date **(From),** an end date (**To)** or both.
 
@@ -141,7 +141,7 @@ URL 값 자체는 수정할 수 없습니다. 대신 항목을 삭제하고 다�
 
      또는
 
-     - 토글을 오른쪽으로 이동하여 항목이 만료되지 못하도록 구성합니다. ![토글 켬](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png).
+     - 토글을 오른쪽으로 이동하여 항목이 만료되지 못하도록 구성합니다. ![토글 켬](../../media/scc-toggle-on.png).
 
    - **선택 사항**: 항목에 대한 설명 텍스트를 입력합니다.
 
@@ -167,7 +167,7 @@ URL 값 자체는 수정할 수 없습니다. 대신 항목을 삭제하고 다�
 New-TenantAllowBlockListItems -ListType Url -Action <Allow | Block> -Entries <String[]> [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
 ```
 
-이 예제에서는 contoso.com 및 모든 하위 contoso.com, www.contoso.com 및 하위 xyz.abc.contoso.com URL 블록 항목을 추가합니다. ExpirationDate 또는 NoExpiration 매개 변수를 사용하지 않았기 때문에 항목이 30일 후에 만료됩니다.
+이 예제에서는 contoso.com, contoso.com, www.contoso.com 및 하위 xyz.abc.contoso.com. ExpirationDate 또는 NoExpiration 매개 변수를 사용하지 않았기 때문에 항목이 30일 후에 만료됩니다.
 
 ```powershell
 New-TenantAllowBlockListItem -ListType Url -Action Block -Entries ~contoso.com
@@ -313,7 +313,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
 **항목:**`*.contoso.com`
 
-- **일치 및** **차단 일치 허용:**
+- **일치 및** **차단 일치 허용**:
 
   - www.contoso.com
   - xyz.abc.contoso.com
@@ -342,11 +342,11 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
   - www.contoso.com
   - www.contoso.com/q=a@contoso.com
 
-#### <a name="scenario-left-tilde"></a>시나리오: 왼쪽으로 밀기
+#### <a name="scenario-left-tilde"></a>시나리오: 왼쪽 누적
 
 **항목:**`~contoso.com`
 
-- **일치 및** **차단 일치 허용:**
+- **일치 및** **차단 일치 허용**:
 
   - contoso.com
   - www.contoso.com
@@ -362,7 +362,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
 **항목:**`contoso.com/*`
 
-- **일치 및** **차단 일치 허용:**
+- **일치 및** **차단 일치 허용**:
 
   - contoso.com/?q=whatever@fabrikam.com
   - contoso.com/a
@@ -378,7 +378,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
 **항목:**`*.contoso.com/*`
 
-- **일치 및** **차단 일치 허용:**
+- **일치 및** **차단 일치 허용**:
 
   - abc.contoso.com/ab
   - abc.xyz.contoso.com/a/b/c
@@ -388,11 +388,11 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
 - **일치하지 않는 허용** 및 **일치하지 않는** 차단 : contoso.com/b
 
-#### <a name="scenario-left-and-right-tilde"></a>시나리오: 왼쪽 및 오른쪽 바른 바른 선
+#### <a name="scenario-left-and-right-tilde"></a>시나리오: 왼쪽 및 오른쪽 바른 바스
 
 **항목:**`~contoso.com~`
 
-- **일치 및** **차단 일치 허용:**
+- **일치 및** **차단 일치 허용**:
 
   - contoso.com
   - contoso.com/a
@@ -420,7 +420,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
 **항목:**`1.2.3.4/*`
 
-- **일치 및** **차단 일치 허용:**
+- **일치 및** **차단 일치 허용**:
 
   - 1.2.3.4/b
   - 1.2.3.4/baaaa

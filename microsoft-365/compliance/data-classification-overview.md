@@ -51,7 +51,7 @@ Microsoft 365 관리자 또는 준수 관리자는 조직의 콘텐츠가 이동
 
 다양한 구독에서 끝점 DLP를 지원합니다. 끝점 DLP 라이선스 옵션을 보려면 [지침에 관한 Information Protection](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)을 참조하세요. 
 
-### <a name="permissions"></a>사용 권한
+### <a name="permissions"></a>권한
 
  테이터 분류 페이지에 액세스하려면 계정에 다음 역할이나 역할 그룹 중 하나의 구성원 자격이 할당되어야 합니다.
 

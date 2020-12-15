@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: ''
 description: '요약: 새로운 엔드포인트 웹 서비스에는 특정 시나리오에 맞는 적은 수의 엔드포인트가 포함되어 있지 않습니다.'
 hideEdit: true
-ms.openlocfilehash: b94bd187eb0e450a2a85d4d156472e1f96420261
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: 8e1d464a4bb24594ae783a8e1e272050b6c038bb
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558179"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682856"
 ---
 # <a name="additional-endpoints-not-included-in-the-office-365-ip-address-and-url-web-service"></a>Office 365 IP 주소 및 URL 웹 서비스에 포함되지 않은 추가 엔드포인트
 
@@ -55,7 +55,7 @@ DNS 외에도 설명된 특정 시나리오가 필요하지 않는 경우 대부
 | 8  | [Exchange 하이브리드](https://docs.microsoft.com/exchange/exchange-deployment-assistant) 프록시 인증 | 고객 온-프레미스 STS | 인바운드 서버 트래픽 |
 | 9  | [Exchange 하이브리드 구성 마법사](https://docs.microsoft.com/exchange/hybrid-configuration-wizard)를 사용하여 [Exchange 하이브리드](https://docs.microsoft.com/exchange/exchange-deployment-assistant)를 구성하는 데 사용됩니다. <br> 참고 :이 끝점은 Exchange 하이브리드 구성에만 필요합니다  | TCP 포트 80 및 443의 domains.live.com. Exchange 2010 SP3 하이브리드 구성 마법사에서만 필요합니다.<BR> <BR> GCC High, DoD IP 주소: 40.118.209.192/32; 168.62.190.41/32 <BR> <BR> 전 세계 사용 및 & GCC: *.store.core.windows.net; asl.configure.office.com; mshrcstorageprod.blob.core.windows.net; tds.configure.office.com; mshybridservice.trafficmanager.net <BR>  | 아웃바운드 서버 전용 트래픽 |
 | 10  | AutoDetect 서비스는 [Exchange 하이브리드](https://docs.microsoft.com/exchange/exchange-deployment-assistant) 시나리오에서 [iOS 및 Android용 Outlook을 통한 하이브리드 최신 인증](https://docs.microsoft.com/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth)과 함께 사용됩니다. <BR> <BR> ```*.acompli.net``` <BR> <BR> ```*.outlookmobile.com``` <BR> <BR> ```*.outlookmobile.us``` <BR> <BR> ```52.125.128.0/20``` <BR> ```52.127.96.0/23``` <BR> | TCP 443의 고객 온-프레미스 Exchange 서버 | 인바운드 서버 트래픽 |
-| 11  | Exchange 하이브리드 Azure AD 인증 | * msappproxy.net | TCP 아웃 바운드 서버 전용 트래픽 |
+| 11  | Exchange 하이브리드 Azure AD 인증 | *.msappproxy.net | TCP 아웃바운드 서버 전용 트래픽 |
 | 12   | Office 2016의 비즈니스용 Skype에는 UDP 포트를 사용하는 비디오 기반 화면 공유 기능이 포함되어 있습니다. Office 2013 이하의 이전 비즈니스용 Skype 클라이언트에서는 TCP 포트 443을 사용하는 RDP를 이용했었습니다. | 52.112.0.0/14에 열린 TCP 포트 443 | Office 2013 이전의 비즈니스용 Skype 이전 클라이언트 버전 |
 | 13   | 비즈니스용 Skype Online에 대한 비즈니스용 Skype 하이브리드 온-프레미스 서버 연결 | 13.107.64.0/18, 52.112.0.0/14  <BR> UDP 포트 50,000~59,999 <BR>  TCP 포트 50,000~59,999; 5061 | 비즈니스용 Skype 온-프레미스 서버 아웃바운드 연결 |
 | 14   | 온-프레미스 하이브리드 연결을 사용하는 클라우드 PSTN에는 온-프레미스 호스트에 열린 네트워크 연결이 필요합니다. 비즈니스용 Skype Online 하이브리드 구성에 대한 자세한 내용은  | [비즈니스용 Skype 서버 및 Office 365 간 하이브리드 연결 플랜](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity)을 참조하세요. | 비즈니스용 Skype 온-프레미스 하이브리드 인바운드 |
@@ -64,17 +64,17 @@ DNS 외에도 설명된 특정 시나리오가 필요하지 않는 경우 대부
 | 17   |  **SharePoint Online 및 비즈니스용 OneDrive FQDN** <br> FQDN에서 \<tenant>에 대한 모든 ‘.sharepoint.com’ FQDN가 클라이언트의 IE 혹은 EDGE 신뢰하는 사이트 구역에 있어야 기능이 작동합니다. 14번 줄에 나열된 제품군 전체 FQDN, CDN 및 원격 측정 외에도 이러한 끝점을 추가해야 합니다. |  | 신뢰할 수 있는 사이트 |
 | 18   | **Yammer**  <br> Yammer는 브라우저에서만 사용할 수 있으며 인증된 사용자는 프록시를 통해 전달되어야 합니다. 모든 Yammer FQDN은 클라이언트의 IE 또는 Edge의 신뢰할 수 있는 사이트 영역에 있어야 작동할 수 있습니다. |  | 신뢰할 수 있는 사이트 |
 | 19  | [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/)를 사용하여 온프레미스 사용자 계정을 Azure AD에 동기화합니다. | [포트 및 프로토콜이 필요한 하이브리드 ID](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports), [Azure AD 연결 문제 해결](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity) 그리고 [Azure AD Connect Health 에이전트 설치](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-agent-install#outbound-connectivity-to-the-azure-service-endpoints)를 참조합니다. | 아웃바운드 서버 전용 트래픽 |
-| 20cm(8  | 온-프레미스 사용자 계정을 Azure AD에 동기화하기 위한 중국의 21 ViaNet과 [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/) | \*.digicert.com:80 <BR> \*.entrust.net:80 <BR> \*.chinacloudapi.cn:443 <BR> secure.aadcdn.partner.microsoftonline-p.cn:443 <BR>*.partner.microsoftonline.cn:443 <BR> <BR>[Azure AD 연결 수신 문제 해결](https://docs.azure.cn/zh-cn/active-directory/hybrid/tshoot-connect-connectivity)을 참조하세요. | 아웃바운드 서버 전용 트래픽 |
+| 20  | 온-프레미스 사용자 계정을 Azure AD에 동기화하기 위한 중국의 21 ViaNet과 [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/) | \*.digicert.com:80 <BR> \*.entrust.net:80 <BR> \*.chinacloudapi.cn:443 <BR> secure.aadcdn.partner.microsoftonline-p.cn:443 <BR>*.partner.microsoftonline.cn:443 <BR> <BR>[Azure AD 연결 수신 문제 해결](https://docs.azure.cn/zh-cn/active-directory/hybrid/tshoot-connect-connectivity)을 참조하세요. | 아웃바운드 서버 전용 트래픽 |
 |  21  | Microsoft Stream(Azure AD 사용자 토큰 필요) <BR> Office 365 월드와이드(GCC 포함) | \*.cloudapp.net <BR> \*.api.microsoftstream.com <BR> \*.notification.api.microsoftstream.com <BR> amp.azure.net <BR> api.microsoftstream.com <BR> az416426.vo.msecnd.net <BR> s0.assets-yammer.com <BR> vortex.data.microsoft.com <BR> web.microsoftstream.com <BR> TCP 포트 443  | 인바운드 서버 트래픽 |
-| 22  | 다중 요소 인증 요청(서버 새로 설치 및 AD DS(Active Directory Domain Services)로 설정)에 MFA 서버를 사용하세요. | [AZURE AD Multi-factor Authentication Server 시작](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-deploy#plan-your-deployment)을 참조 하세요.  | 아웃바운드 서버 전용 트래픽 |
-| 불가능  | Microsoft Graph 변경 알림 | 개발자는[변경 알림](https://docs.microsoft.com/graph/webhooks?context=graph%2Fapi%2F1.0&view=graph-rest-1.0)을 활용하여 Microsoft Graph의 이벤트를 구독할 수 있습니다. | *.cloudapp.net<BR> 104.43.130.21, 137.116.169.230, 13.79.38.63, 104.214.39.228, 공용 클라우드: 168.63.250.205, 52.161.9.202, 40.68.103.62, 13.89.60.223, 23.100.95.104, 40.113.95.219, 104.214.32.10, 168.63.237.145, 52.161.110.176, 52.174.177.183, 13.85.192.59, 13.85.192.123, 13.86.37.15, 13.89.108.233, 13.89.104.147, 20.44.210.83, 20.44.210.146,, 40.76.162.99, 40.76.162.42, 40.74.203.28, 40.74.203.27, 51.104.159.213, 51.104.159.181, 51.124.75.43,, 51.124.73.177, 51.138.90.7, 51.138.90.52, 52.139.153.222, 52.139.170.157, 52.139.170.47, 52.142.114.29, 52.142.115.31, 52.147.213.251, 52.147.213.181, 52.148.24.136, 52.148.27.39, 52.148.115.48, 52.148.114.238, 52.154.246.238 <BR> Microsoft Cloud for US 정부: 52.244.231.173, 52.238.76.151, 52.244.250.211, 52.238.78.108, 52.243.147.249, 52.243.148.19, 52.243.157.104, 52.243.157.105, 52.244.33.45, 52.244.35.174, 52.244.111.156, 52.244.111.170 <BR> Microsoft Cloud 전라남도: 51.4.231.136, 51.5.243.223, 51.4.226.154, 51.5.244.215, 51.4.150.206, 51.4.150.235, 51.5.147.130, 51.5.148.103 <BR> 21Vianet에서 운영 하는 Microsoft 클라우드 중국: 139.219.15.33, 42.159.154.223, 42.159.88.79, 42.159.155.77, 40.72.155.199, 40.72.155.216, 40.125.138.23, 40.125.136.69, 42.159.72.35, 42.159.72.47, 42.159.180.55, 42.159.180.56<BR> TCP 포트 443 <BR> 참고: 개발자는 구독을 만들 때 여러 포트를 지정할 수 있습니다.  | 인바운드 서버 트래픽 |
+| 22  | 다중 요소 인증 요청(서버 새로 설치 및 AD DS(Active Directory Domain Services)로 설정)에 MFA 서버를 사용하세요. | Azure AD 다단계 인증 서버 [시작을 참조하세요.](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-deploy#plan-your-deployment)  | 아웃바운드 서버 전용 트래픽 |
+| 23  | Microsoft Graph 변경 알림 | 개발자는[변경 알림](https://docs.microsoft.com/graph/webhooks?context=graph%2Fapi%2F1.0&view=graph-rest-1.0)을 활용하여 Microsoft Graph의 이벤트를 구독할 수 있습니다. | *.cloudapp.net<BR> 104.43.130.21, 137.116.169.230, 13.79.38.63, 104.214.39.228, Public Cloud: 168.63.250.205, 52.161.9.202, 40.68.103.62, 13.89.60.223, 23.100.95.104, 40.113.95.219, 104.214.32.10, 168.63.237.145, 52.161.110.176, 52.174.177.183, 13.85.192.59, 13.85.192.123, 13.86.37.15, 13.89.108.233, 13.89.104.147, 20.44.210.83, 20.44.210.146, 40.76.162.99, 40.76.162.42, 40.74.203.28, 40.74.203.27, 51.104.159.213, 51.104.159.181, 51.124.75.43, 51.124.73.177, 51.138.90.7, 51.138.90.52, 52.139.153.222, 52.139.170.157, 52.139.170.47, 52.142.114.29, 52.142.115.31, 52.147.213.251, 52.147.213.181, 52.148.24.136, 52.148.27.39, 52.148.115.48, 52.148.114.238, 52.154.246.238, 52.159.23.209, 52.159.17.84, 52.184.94.140 <BR> 미국 정부용 Microsoft 클라우드: 52.244.231.173, 52.238.76.151, 52.244.250.211, 52.238.78.108, 52.243.147.249, 52.243.148.19, 52.243.157.104, 52.243.157.105, 52.244.33.45, 52.244.35.174, 52.244.111.156, 52.244.111.170 <BR> Microsoft 클라우드 독일: 51.4.231.136, 51.5.243.223, 51.4.226.154, 51.5.244.215, 51.4.150.206, 51.4.150.235, 51.5.147.130, 51.5.148.103 <BR> 21Vianet에서 운영하는 Microsoft 클라우드 중국: 139.219.15.33, 42.159.154.223, 42.159.88.79, 42.159.155.77, 40.72.155.199, 40.72.155.216, 40.125.138.23, 40.125.136.69, 42.159.72.35, 42.159.72.47, 42.159.180.55, 42.159.180.56<BR> TCP 포트 443 <BR> 참고: 개발자는 구독을 만들 때 여러 포트를 지정할 수 있습니다.  | 인바운드 서버 트래픽 |
 |||||
 
 ## <a name="related-topics"></a>관련 주제
 
 [Office 365 끝점 관리](managing-office-365-endpoints.md)
   
-[Office 365 연결 문제 해결](https://support.office.com/article/d4088321-1c89-4b96-9c99-54c75cae2e6d.aspx)
+[Microsoft 365 연결 모니터링](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity?view=o365-worldwide)
   
 [클라이언트 연결](https://support.office.com/article/client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
   

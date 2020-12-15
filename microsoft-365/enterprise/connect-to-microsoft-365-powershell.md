@@ -167,9 +167,9 @@ PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈
 
     반환된 버전 번호가 *1.0.8070.2* 보다 낮은 경우 Windows PowerShell용 Microsoft Azure Active Directory 모듈을 제거한 후 위의 [1단계](#step-1-install-the-required-software)에서 최신 버전을 설치합니다.
 
-- **연결 오류 메시지가 표시되면** , ["Connect-MsolService: 형식 예외가 발생함" 오류](https://go.microsoft.com/fwlink/p/?LinkId=532377)를 참조하세요.
+- **연결 오류 메시지가 표시되면**, ["Connect-MsolService: 형식 예외가 발생함" 오류](https://go.microsoft.com/fwlink/p/?LinkId=532377)를 참조하세요.
     
-- **"Get-Item: 경로를 찾을 수 없음" 오류 메시지가 표시되면** , 다음 명령을 실행하세요.
+- **"Get-Item: 경로를 찾을 수 없음" 오류 메시지가 표시되면**, 다음 명령을 실행하세요.
 
 
    ```powershell

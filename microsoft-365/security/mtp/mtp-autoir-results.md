@@ -1,5 +1,5 @@
 ---
-title: 자동화 된 조사에 대 한 세부 정보 및 결과
+title: 자동화된 조사의 세부 정보 및 결과
 description: '자동화 조사가 진행 되는 동한 혹은 진행 완료된 후 주요 사항 및 결과를 확인할 수 있습니다. '
 keywords: 자동화, 조사, 결과, 분속, 세부정보, 재구성, 오토에어
 search.appverid: met150
@@ -21,14 +21,14 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 09/16/2020
-ms.openlocfilehash: 183435596706855479c49abc34358c85dccb0da4
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 39f6be70ad7a611f9919bb0529e8c8ed7f9dc339
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846511"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683363"
 ---
-# <a name="details-and-results-of-an-automated-investigation"></a>자동화 된 조사에 대 한 세부 정보 및 결과
+# <a name="details-and-results-of-an-automated-investigation"></a>자동화된 조사의 세부 정보 및 결과
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,7 +36,7 @@ ms.locfileid: "48846511"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender에서 자동 조사가 발생 하면 자동화 된 조사 프로세스 중 및 후에 해당 조사에 대 한 세부 정보를 사용할 수 있습니다. [필수 권한이](mtp-action-center.md#required-permissions-for-action-center-tasks)있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  조사 세부정부 보기에서 최신 상태를 확인하거나 보류중인 작업을 승인할 수 있습니다. 
+Microsoft 365 Defender에서 자동화된 조사가 발생하면 자동화된 조사 프로세스 중 및 이후에 조사에 대한 세부 정보를 사용할 수 있습니다. [필수 권한이](mtp-action-center.md#required-permissions-for-action-center-tasks)있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  조사 세부정부 보기에서 최신 상태를 확인하거나 보류중인 작업을 승인할 수 있습니다. 
 
 ![조사 세부정보](../../media/mtp-air-investdetails.png)
 
@@ -48,7 +48,7 @@ Microsoft 365 Defender에서 자동 조사가 발생 하면 자동화 된 조사
 
 ### <a name="select-an-item-in-the-action-center"></a>작업 센터에서 항목 선택
 
-작업 센터를 사용하여 승인이 보류 중이거나 ( **보류 중인** 탭에서) 기승인 된 ( **기록** 탭에서) 작업을 볼 수 있습니다. 
+작업 센터를 사용하여 승인이 보류 중이거나 (**보류 중인** 탭에서) 기승인 된 (**기록** 탭에서) 작업을 볼 수 있습니다. 
 
 1. [https://security.microsoft.com](https://security.microsoft.com)으로 이동하여 로그인합니다. 
 
@@ -74,19 +74,19 @@ Microsoft 365 Defender에서 자동 조사가 발생 하면 자동화 된 조사
 
 ![조사 세부정보](../../media/mtp-air-investdetails.png)
 
-조사 세부정보 보기에서 아래 테이블에 설명되어 있는 것 처럼 **조사 그래프** , **알람** , **장치** , **항목** , **주요 발견 사항** , **대상** , **로그** 및 **보류 활동** 을 확인할 수 있습니다. 
+조사 세부정보 보기에서 아래 테이블에 설명되어 있는 것 처럼 **조사 그래프**, **알람**, **장치**, **항목**, **주요 발견 사항**, **대상**, **로그** 및 **보류 활동** 을 확인할 수 있습니다. 
 
-|Tab    |설명 |
+| Tab | 설명 |
 |--------|--------|
-|조사 그래프    |조사 내용이 시각적으로 표시 됩니다. 위협 대상과 목록 알람과 현재 활동이나 보류중인 활동을 보여줍니다. <br/>그래프에서 항목을 클릭 하면 세부정보를 볼 수 있습니다. 예를들어, **찾은 위협** 아이콘을 클릭하면 **주요 발견 사항** 으로 이동합니다.  |
-|알람 |조사와 관련 된 알람목록을 보여줍니다.  사용자 컴퓨터의 위협 방지 기능, Office 앱, 클라우드 앱 보안 및 기타 Microsoft 365 Threat Protection에서 알람이 발생합니다. |
-|장치|재구성 수준과 함께 조사에 포함된 기기 목록을 보여줍니다. |
-|주요 발견 사항   |검사 결과 및 상황, 활동 중이거나 보류중인 작업 목록을 보여줍니다.  이 탭에서 장치 빛 식별 보류 작업을 승인할 수 있습니다. |
-|항목   |조사에 관련된 사용자 활동, 파일, 프로세스, 서비스, 드라이버, IP 주소 및 유지 방법과 함께 수행된 활동과 상태 목록을 보여줍니다. |
-|로그    |조사 중에 수행된 모든 단계의 세부정보와 상태를 보여줍니다. |
-|보류 중인 작업    |진행 하려면 승인이 필요한 항목을 나열 합니다.|
+| **조사 그래프**   | 조사 내용이 시각적으로 표시 됩니다. 위협 대상과 목록 알람과 현재 활동이나 보류중인 활동을 보여줍니다. <br/>그래프에서 항목을 클릭 하면 세부정보를 볼 수 있습니다. 예를들어, **찾은 위협** 아이콘을 클릭하면 **주요 발견 사항** 으로 이동합니다.  |
+| **알람**    | 조사와 관련 된 알람목록을 보여줍니다.  경고는 사용자 컴퓨터의 위협 방지 기능, Office 앱, Cloud App Security 및 기타 Microsoft 365 Defender 기능에서 올 수 있습니다.|
+| **장치** | 재구성 수준과 함께 조사에 포함된 기기 목록을 보여줍니다. |
+| **주요 발견 사항**  | 검사 결과 및 상황, 활동 중이거나 보류중인 작업 목록을 보여줍니다.  이 탭에서 장치 빛 식별 보류 작업을 승인할 수 있습니다. |
+| **항목**  | 조사에 관련된 사용자 활동, 파일, 프로세스, 서비스, 드라이버, IP 주소 및 유지 방법과 함께 수행된 활동과 상태 목록을 보여줍니다. |
+|**로그**    | 조사 중에 수행된 모든 단계의 세부정보와 상태를 보여줍니다. |
+| **보류 중인 작업** | 진행 하려면 승인이 필요한 항목을 나열 합니다.|
 
 ## <a name="next-steps"></a>다음 단계
 
-- [자동화 조사 및 대응과 관련된 작업 승인 또는 거부](mtp-autoir-actions.md)
-
+- [자동화된 조사 및 대응과 관련된 조치 승인 또는 거부](mtp-autoir-actions.md)
+- [재구성 작업 검토](mtp-remediation-actions.md)

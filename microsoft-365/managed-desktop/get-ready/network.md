@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5c558529360d84d5872649e41b95f509e5b52663
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: 15778f076d4122b23449f66bd9781a7037c52c58
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663634"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683130"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 네트워크 구성
 
@@ -37,21 +37,21 @@ Microsoft Managed Desktop은 클라우드 관리 서비스입니다. Microsoft M
 
 ### <a name="endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 필요한 끝점 허용
 
-Microsoft Managed Desktop은 Azure Portal을 사용하여 웹 콘솔을 호스트합니다. 다음 URL은 Microsoft Managed Desktop 장치가 Microsoft 서비스와 통신할 수 있도록 프록시 및 방화벽의 허용 목록에 있어야 합니다.  
+Microsoft Managed Desktop은 Azure Portal을 사용하여 웹 콘솔을 호스트합니다. Microsoft Managed Desktop 장치가 Microsoft 서비스와 통신할 수 있도록 허용된 프록시 및 방화벽 목록에 다음 URL이 있어야 합니다.  
 
 Microsoft Managed Desktop URL은 서비스에서 고객 API에서 실행되는 모든 것을 위해 사용됩니다. 회사 네트워크에서 항상 이 URL에 액세스할 수 있도록 해야 합니다.
 
 Microsoft 서비스  | 허용 목록에 필요한 URL 
 --- | ---
 Microsoft Managed Desktop | prod-mwaas-services-customerapi.azurewebsites.net
-도움말 | \*.support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net
+도움말 | \*.support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net  <br>concierge.live.com
 빠른 지원 | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*.lync.com
 Microsoft 지원 및 복구 도우미 | \*.apibasic.diagnostics.office.com  <br>\*.api.diagnostics.office.com
  
 
 ### <a name="endpoints-allowed-used-by-other-microsoft-products"></a>다른 Microsoft 제품에서 사용할 수 있는 끝점
 
-Microsoft Managed Desktop 장치가 해당 Microsoft 서비스와 통신할 수 있도록 허용 목록에 여러 Microsoft 제품의 URL이 있습니다. 링크를 사용하여 각 제품에 대한 전체 목록을 볼 수 있습니다. 
+Microsoft Managed Desktop 장치가 해당 Microsoft 서비스와 통신할 수 있도록 허용 목록에 여러 Microsoft 제품의 URL이 있습니다. 링크를 사용하여 각 제품의 전체 목록을 볼 수 있습니다. 
 
 Microsoft 서비스 | 설명서
 --- | ---
