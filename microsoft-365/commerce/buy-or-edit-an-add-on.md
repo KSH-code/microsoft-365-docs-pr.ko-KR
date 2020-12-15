@@ -1,5 +1,5 @@
 ---
-title: 추가 기능 구입 또는 편집
+title: 추가 기능 구입 또는 관리
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -12,239 +12,144 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ms.assetid: 4e7b57d6-b93b-457d-aecd-0ea58bff07a6
-description: 추가 기능을 구입 하 여 Microsoft 365 비즈니스 에디션 구독에 추가 기능을 추가 하는 방법에 대해 알아봅니다. 또한 추가 기능을 업데이트 하 고 제거할 수 있습니다.
+description: 비즈니스용 Microsoft 365 구독을 위한 추가 기능을 구입하고 관리하는 방법을 자세히 알아보는 방법을 배워야 합니다.
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: cfbce7efa1c80d9e5da8390c183233a6f2a12eb7
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+- Commerce
+ms.openlocfilehash: 482b7def1126be6694fdbacbbb2399ccb1b34298
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842823"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667802"
 ---
-# <a name="buy-or-edit-an-add-on"></a><span data-ttu-id="ae00a-104">추가 기능 구입 또는 편집</span><span class="sxs-lookup"><span data-stu-id="ae00a-104">Buy or edit an add-on</span></span>
+# <a name="buy-or-manage-add-ons"></a><span data-ttu-id="bf3d9-103">추가 기능 구입 또는 관리</span><span class="sxs-lookup"><span data-stu-id="bf3d9-103">Buy or manage add-ons</span></span>
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> <span data-ttu-id="ae00a-105">관리 센터가 변경되고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-105">The admin center is changing.</span></span> <span data-ttu-id="ae00a-106">사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="ae00a-106">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span></span>
+> <span data-ttu-id="bf3d9-104">관리 센터가 변경되고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-104">The admin center is changing.</span></span> <span data-ttu-id="bf3d9-105">사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-105">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).</span></span>
 
 ::: moniker-end
 
-<span data-ttu-id="ae00a-107">일부 Microsoft 365 for business 요금제에는 구독에 대해 구입할 수 있는 추가 기능이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-107">Several of the Microsoft 365 for business plans have add-ons that you can buy for your subscription.</span></span> <span data-ttu-id="ae00a-108">추가 기능은 구입 시 대상 구독에 추가 기능을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-108">An add-on provides additional functionality to the subscription that you buy it for.</span></span>
+<span data-ttu-id="bf3d9-106">많은 비즈니스용 Microsoft 365 요금제에는 구독에 대해 구입할 수 있는 추가 기능도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-106">Many Microsoft 365 for business plans have add-ons that you can buy for your subscriptions.</span></span> <span data-ttu-id="bf3d9-107">추가 기능은 구독 환경을 개선하기 위한 추가 기능을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-107">Add-ons provide additional features to enhance your subscription experience.</span></span>
 
-## <a name="buy-an-add-on"></a><span data-ttu-id="ae00a-109">추가 기능 구입</span><span class="sxs-lookup"><span data-stu-id="ae00a-109">Buy an add-on</span></span>
+<span data-ttu-id="bf3d9-108">추가 기능에는 다음 두 가지 유형이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-108">There are two types of add-ons:</span></span>
+
+1. <span data-ttu-id="bf3d9-109">**기존 추가 기능을 특정** 구독에 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-109">**Traditional add-ons** are linked to a specific subscription.</span></span> <span data-ttu-id="bf3d9-110">구독을 취소하면 연결된 추가 기능도 취소됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-110">If you cancel the subscription, the associated add-on is also canceled.</span></span>
+2. <span data-ttu-id="bf3d9-111">**독립 실행형** 추가 기능 구독은 제품 페이지에  별도의 구독으로 표시되어 만료 날짜가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-111">**Standalone add-on subscriptions** appear as a separate subscription on the **Your products** page and have their own expiration date.</span></span> <span data-ttu-id="bf3d9-112">기존 추가 기능과 달리 독립 실행형 추가 기능 구독은 특정 구독에 연결되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-112">Unlike traditional add-ons, standalone add-on subscriptions aren’t linked to a specific subscription.</span></span> <span data-ttu-id="bf3d9-113">다른 구독을 관리하는 방법과 동일한 방법으로 독립 실행형 추가 기능 구독을 관리합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-113">You manage a standalone add-on subscription the same way that you manage any other subscription.</span></span>
+
+## <a name="before-you-begin"></a><span data-ttu-id="bf3d9-114">시작하기 전에</span><span class="sxs-lookup"><span data-stu-id="bf3d9-114">Before you begin</span></span>
+
+<span data-ttu-id="bf3d9-115">이 문서에 설명된 단계를 수행하려면 전역 또는 대금 청구 관리자여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-115">You must be a Global or Billing admin to do the steps described in this article.</span></span> <span data-ttu-id="bf3d9-116">자세한 내용은 [관리자 역할 정보](../admin/add-users/about-admin-roles.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-116">For more information, see [About admin roles](../admin/add-users/about-admin-roles.md).</span></span>
+
+## <a name="buy-an-add-on"></a><span data-ttu-id="bf3d9-117">추가 기능 구입</span><span class="sxs-lookup"><span data-stu-id="bf3d9-117">Buy an add-on</span></span>
+
+<span data-ttu-id="bf3d9-118">다음 단계에 따라 추가 기능을 찾아서 구입합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-118">Use the following steps to find and buy add-ons.</span></span> <span data-ttu-id="bf3d9-119">목록에는 사용할 수 있는 추가 기능만 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-119">The list only includes add-ons that are available to you.</span></span> <span data-ttu-id="bf3d9-120">이 목록은 현재 활성 구독 및 이미 있는 다른 모든 기존 추가 기능을 기반으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-120">This list is based on your currently active subscriptions, and any other existing add-ons you already have.</span></span> <span data-ttu-id="bf3d9-121">추가 기능을 목록에 없는 경우 구입할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-121">If an add-on isn’t on the list, it’s not available to buy.</span></span>
+
+<span data-ttu-id="bf3d9-122">비즈니스용 Skype 추가 기능에 대한 자세한 내용은 [비즈니스용 Skype 및 Microsoft Teams 추가 기능 라이선스](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-122">For information about Skype for Business add-ons, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="ae00a-110">관리 센터에서 **결제** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">구매 서비스</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-110">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> page.</span></span>
-
-2. <span data-ttu-id="ae00a-111">**서비스 구매** 페이지 아래쪽에서 **추가 기능** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-111">At the bottom of the **Purchase services** page, select **Add-ons**.</span></span>
-
-3. <span data-ttu-id="ae00a-112">**서비스 구매** 페이지에서 구입 하려는 추가 기능 구독을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-112">On the **Purchase services** page, select the add-on subscription that you want to buy.</span></span>
-
-4. <span data-ttu-id="ae00a-113">필요한 라이선스 수를 입력 하 고 매달 지불할 지 또는 연간 전체를 지불 하도록 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-113">Enter the number of licenses that you need, and choose whether to pay each month or for the whole year.</span></span> <span data-ttu-id="ae00a-114">현재 라이선스가 없는 모든 사용자에 게 라이선스를 자동으로 할당할지 여부를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-114">Choose whether you want to automatically assign licenses to everyone who does not currently have a license.</span></span> <span data-ttu-id="ae00a-115">표시 되는 경우 기본 구독을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-115">If shown, select a base subscription.</span></span>
-
-5. <span data-ttu-id="ae00a-116">**지금 체크 아웃** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-116">Select **Check out now**.</span></span>
-
-6. <span data-ttu-id="ae00a-117">가격 정보를 검토 하 고 **다음** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-117">Review the pricing information, then select **Next**.</span></span>
-
-7. <span data-ttu-id="ae00a-118">결제 정보를 입력 하 고 **주문** 내용을 선택 \> **하 여 관리 홈으로 이동** 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-118">Provide your payment information, and then select **Place order** \> **Go to Admin Home**.</span></span>
+1. <span data-ttu-id="bf3d9-123">관리 센터에서 대금  청구 서비스 페이지로 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank"></a> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-123">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> page.</span></span>
+2. <span data-ttu-id="bf3d9-124">서비스 구매 페이지의 맨 **아래에서** 추가 **기능을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-124">At the bottom of the **Purchase services** page, select **Add-ons**.</span></span>
+3. <span data-ttu-id="bf3d9-125">서비스 **구매 페이지에서** 구입하려는 추가 기능을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-125">On the **Purchase services** page, select the add-on that you want to buy.</span></span>
+4. <span data-ttu-id="bf3d9-126">제품 세부 정보 페이지에서 구입을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-126">On the product details page, select **Buy**.</span></span>
+5. <span data-ttu-id="bf3d9-127">필요한 경우 추가 주문 정보를 작성합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-127">If needed, complete any additional order information.</span></span> <span data-ttu-id="bf3d9-128">이 정보에는 추가 기능의 구독 선택이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-128">This information might include selecting the subscription the add-on is for.</span></span> <span data-ttu-id="bf3d9-129">완료되면 지금 **체크 아웃을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-129">When you’re finished, select **Check out now**.</span></span>
+6. <span data-ttu-id="bf3d9-130">필요한 경우 주문 및 가격 정보를 검토하고 다음을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-130">If needed, review the order and pricing information, then select **Next**.</span></span>
+7. <span data-ttu-id="bf3d9-131">결제 방법을 선택하거나 새 결제 방법을 추가한 다음 관리 홈으로 이동 **순서를** > **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-131">Choose a payment method, or add a new one, then select **Place order** > **Go to Admin Home**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="ae00a-119">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-119">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
-
-2. <span data-ttu-id="ae00a-120">**구독** 페이지에서 추가 기능을 구입할 구독을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-120">On the **Subscriptions** page, select the subscription for which you want to buy an add-on.</span></span>
-
-3. <span data-ttu-id="ae00a-121">구독 세부 정보의 왼쪽 아래 모서리 **에서 추가 기능** 을 \> **구입** 합니다 .를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-121">On the bottom-left corner of the subscription details, select **Add-ons** \> **Buy add-ons**.</span></span>
-
-    ![Microsoft 365 관리 센터의 구독 페이지에서 추가 기능을 구입 합니다.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
-  
-4. <span data-ttu-id="ae00a-123">**서비스 구매** 페이지에서 구입 하려는 추가 기능 구독을 마우스로 가리키거나 탭 한 다음 **지금 구입** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-123">On the **Purchase services** page, mouse over or tap the add-on subscription that you want to buy, and then select **Buy now**.</span></span>
-
-5. <span data-ttu-id="ae00a-124">필요한 라이선스 수를 입력 하 고 매달 지불할 지 또는 연간 전체를 지불 하도록 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-124">Enter the number of licenses that you need, and choose whether to pay each month or for the whole year.</span></span> <span data-ttu-id="ae00a-125">현재 라이선스가 없는 모든 사용자에 게 라이선스를 자동으로 할당할지 여부를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-125">Choose whether you want to automatically assign licenses to everyone who does not currently have a license.</span></span> <span data-ttu-id="ae00a-126">표시 되는 경우 기본 구독을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-126">If shown, select a base subscription.</span></span>
-
-6. <span data-ttu-id="ae00a-127">**지금 체크 아웃** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-127">Select **Check out now**.</span></span>
-
-7. <span data-ttu-id="ae00a-128">가격 정보를 검토 하 고 **다음** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-128">Review the pricing information, and then select **Next**.</span></span>
-
-8. <span data-ttu-id="ae00a-129">결제 정보를 입력 하 고 **주문** 내용을 선택 \> **하 여 관리 홈으로 이동** 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-129">Provide your payment information, and then select **Place order** \> **Go to Admin Home**.</span></span>
+1. <span data-ttu-id="bf3d9-132">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-132">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
+2. <span data-ttu-id="bf3d9-133">구독 **페이지에서** 추가 기능을 구입할 구독을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-133">On the **Subscriptions** page, select the subscription for which you want to buy an add-on.</span></span>
+3. <span data-ttu-id="bf3d9-134">구독 세부 정보의 왼쪽 아래 모서리에서  추가 기능 구입 \> **추가 기능을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-134">On the bottom-left corner of the subscription details, select **Add-ons** \> **Buy add-ons**.</span></span>
+    <span data-ttu-id="bf3d9-135">![Microsoft 365 관리 센터의 구독 페이지에서 추가 기능 링크를 구입합니다.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)</span><span class="sxs-lookup"><span data-stu-id="bf3d9-135">![Buy add-ons link on the Subscriptions page of the Microsoft 365 admin center.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)</span></span>
+4. <span data-ttu-id="bf3d9-136">구매 **서비스 페이지에서** 구입하려는 추가 기능 구독을 마우스로 마우스로 클릭하거나 탭한 다음 지금 **구입을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-136">On the **Purchase services** page, mouse over or tap the add-on subscription that you want to buy, and then select **Buy now**.</span></span>
+5. <span data-ttu-id="bf3d9-137">필요한 라이선스 수를 입력하고 매월 지불할지 또는 1년 동안 지불할지 여부를 선택해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-137">Enter the number of licenses that you need, and choose whether to pay each month or for the whole year.</span></span> <span data-ttu-id="bf3d9-138">현재 라이선스가 없는 모든 사용자에게 라이선스를 자동으로 할당할지 여부를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-138">Choose whether to automatically assign licenses to everyone who doesn't currently have one.</span></span> <span data-ttu-id="bf3d9-139">표시되는 경우 기본 구독을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-139">If shown, select a base subscription.</span></span>
+6. <span data-ttu-id="bf3d9-140">지금 **체크 아웃을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-140">Select **Check out now**.</span></span>
+7. <span data-ttu-id="bf3d9-141">가격 정보를 검토하고 다음을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-141">Review the pricing information, and then select **Next**.</span></span>
+8. <span data-ttu-id="bf3d9-142">결제 정보를 제공한 다음  관리 홈으로 이동 \> **순서를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-142">Provide your payment information, and then select **Place order** \> **Go to Admin Home**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="ae00a-130">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-130">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
-
-2. <span data-ttu-id="ae00a-131">**구독** 페이지에서 추가 기능을 구입할 구독을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-131">On the **Subscriptions** page, select the subscription for which you want to buy an add-on.</span></span>
-
-3. <span data-ttu-id="ae00a-132">구독 세부 정보의 왼쪽 아래 모서리 **에서 추가 기능** 을 \> **구입** 합니다 .를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-132">On the bottom-left corner of the subscription details, select **Add-ons** \> **Buy add-ons**.</span></span>
-
-    ![Microsoft 365 관리 센터의 구독 페이지에서 추가 기능을 구입 합니다.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
-  
-4. <span data-ttu-id="ae00a-134">**서비스 구매** 페이지에서 구입 하려는 추가 기능 구독을 마우스로 가리키거나 탭 한 다음 **지금 구입** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-134">On the **Purchase services** page, mouse over or tap the add-on subscription that you want to buy, and then select **Buy now**.</span></span>
-
-5. <span data-ttu-id="ae00a-135">필요한 라이선스 수를 입력 하 고 매달 지불할 지 또는 연간 전체를 지불 하도록 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-135">Enter the number of licenses that you need, and choose whether to pay each month or for the whole year.</span></span> <span data-ttu-id="ae00a-136">현재 라이선스가 없는 모든 사용자에 게 라이선스를 자동으로 할당할지 여부를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-136">Choose whether you want to automatically assign licenses to everyone who does not currently have a license.</span></span> <span data-ttu-id="ae00a-137">표시 되는 경우 기본 구독을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-137">If shown, select a base subscription.</span></span>
-
-6. <span data-ttu-id="ae00a-138">**지금 체크 아웃** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-138">Select **Check out now**.</span></span>
-
-7. <span data-ttu-id="ae00a-139">가격 정보를 검토 하 고 **다음** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-139">Review the pricing information, and then select **Next**.</span></span>
-
-8. <span data-ttu-id="ae00a-140">결제 정보를 입력 하 고 **주문** 내용을 선택 \> **하 여 관리 홈으로 이동** 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-140">Provide your payment information, and then select **Place order** \> **Go to Admin Home**.</span></span>
+1. <span data-ttu-id="bf3d9-143">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-143">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
+2. <span data-ttu-id="bf3d9-144">구독 **페이지에서** 추가 기능을 구입할 구독을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-144">On the **Subscriptions** page, select the subscription for which you want to buy an add-on.</span></span>
+3. <span data-ttu-id="bf3d9-145">구독 세부 정보의 왼쪽 아래 모서리에서  추가 기능 구입 \> **추가 기능을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-145">On the bottom-left corner of the subscription details, select **Add-ons** \> **Buy add-ons**.</span></span>
+    <span data-ttu-id="bf3d9-146">![Microsoft 365 관리 센터의 구독 페이지에서 추가 기능 링크를 구입합니다.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)</span><span class="sxs-lookup"><span data-stu-id="bf3d9-146">![Buy add-ons link on the Subscriptions page of the Microsoft 365 admin center.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)</span></span>
+4. <span data-ttu-id="bf3d9-147">구매 **서비스 페이지에서** 구입하려는 추가 기능 구독을 마우스로 마우스로 클릭하거나 탭한 다음 지금 **구입을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-147">On the **Purchase services** page, mouse over or tap the add-on subscription that you want to buy, and then select **Buy now**.</span></span>
+5. <span data-ttu-id="bf3d9-148">필요한 라이선스 수를 입력하고 매월 지불할지 또는 1년 동안 지불할지 여부를 선택해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-148">Enter the number of licenses that you need, and choose whether to pay each month or for the whole year.</span></span> <span data-ttu-id="bf3d9-149">현재 라이선스가 없는 모든 사용자에게 라이선스를 자동으로 할당할지 여부를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-149">Choose whether to automatically assign licenses to everyone who doesn't currently have one.</span></span> <span data-ttu-id="bf3d9-150">표시되는 경우 기본 구독을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-150">If shown, select a base subscription.</span></span>
+6. <span data-ttu-id="bf3d9-151">지금 **체크 아웃을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-151">Select **Check out now**.</span></span>
+7. <span data-ttu-id="bf3d9-152">가격 정보를 검토하고 다음을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-152">Review the pricing information, and then select **Next**.</span></span>
+8. <span data-ttu-id="bf3d9-153">결제 정보를 제공한 다음  관리 홈으로 이동 \> **순서를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-153">Provide your payment information, and then select **Place order** \> **Go to Admin Home**.</span></span>
 
 ::: moniker-end
 
-## <a name="update-an-add-on"></a><span data-ttu-id="ae00a-141">추가 기능 업데이트</span><span class="sxs-lookup"><span data-stu-id="ae00a-141">Update an add-on</span></span>
+## <a name="manage-an-add-on"></a><span data-ttu-id="bf3d9-154">추가 기능 관리</span><span class="sxs-lookup"><span data-stu-id="bf3d9-154">Manage an add-on</span></span>
 
-<span data-ttu-id="ae00a-142">추가 기능을 업데이트 하는 데 사용 하는 단계는 추가 기능이 기존 추가 기능 인지 또는 독립 실행형 추가 기능에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-142">The steps that you use to update an add-on depend on whether the add-on is a traditional add-on, or a standalone add-on.</span></span>
+<span data-ttu-id="bf3d9-155">제품 페이지에서 다른 구독을 관리하는 방법과 동일한 방법으로 독립 실행형 추가 기능 **구독을 관리합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-155">You manage a standalone add-on subscription the same way that you manage any other subscription – on the **Your products** page.</span></span> <span data-ttu-id="bf3d9-156">예를 들어 라이선스를 구입 [또는](licenses/buy-licenses.md) [](billing-and-payments/manage-payment-methods.md) [제거하고,](subscriptions/renew-your-subscription.md)재발급 청구를 관리하고, 독립 실행형 추가 기능 구독의 결제 방법을 편집하거나 바꿀 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-156">For example, you can [buy or remove licenses](licenses/buy-licenses.md), [manage recurring billing](subscriptions/renew-your-subscription.md), and [edit or replace payment methods](billing-and-payments/manage-payment-methods.md) for standalone add-on subscriptions.</span></span>
 
-<span data-ttu-id="ae00a-143">*전통적인 추가 기능은* 특정 구독에 연결 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-143">*Traditional add-ons* are linked to a specific subscription.</span></span> <span data-ttu-id="ae00a-144">구독을 취소 하면 연결 된 추가 기능도 취소 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-144">If you cancel the subscription, the associated add-on is also cancelled.</span></span>
+<span data-ttu-id="bf3d9-157">기존 추가 기능을 관리하려면 기존 추가 기능을 포함하는 구독으로 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-157">You manage a traditional add-on by going to the subscription that contains it and making changes there.</span></span> <span data-ttu-id="bf3d9-158">다음 단계에 따라 기존 추가 기능을 관리합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-158">Use the following steps to manage a traditional add-on.</span></span>
   
-<span data-ttu-id="ae00a-145">*독립 실행형 추가* 기능이 특정 구독에 연결 되어 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-145">*Standalone add-ons* are not linked to a specific subscription.</span></span> <span data-ttu-id="ae00a-146">독립 실행형 추가 기능은 **제품** 페이지에 별도의 구독으로 표시 되며 고유의 만료 날짜가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-146">Standalone add-ons appear as a separate subscription on the **Your products** page, and have their own expiration date.</span></span> <span data-ttu-id="ae00a-147">다른 구독을 관리 하는 것과 동일한 방식으로 독립 실행형 추가 기능을 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-147">You manage a standalone add-on the same way that you manage any other subscription.</span></span>
-  
-### <a name="update-a-traditional-add-on"></a><span data-ttu-id="ae00a-148">기존 추가 기능 업데이트</span><span class="sxs-lookup"><span data-stu-id="ae00a-148">Update a traditional add-on</span></span>
-
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="ae00a-149">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="ae00a-149">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
-
-2. <span data-ttu-id="ae00a-150">**제품** 페이지에서 추가 기능을 업데이트할 구독을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-150">On the **Your products** page, select the subscription for which you want to update an add-on.</span></span>
-
-3. <span data-ttu-id="ae00a-151">**추가 기능** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-151">Select **Add-ons**.</span></span> <span data-ttu-id="ae00a-152">구입한 추가 기능이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-152">The add-ons that you have purchased are shown.</span></span>
-
-4. <span data-ttu-id="ae00a-153">변경 하려는 추가 기능에 대 한 **수량 변경을** 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-153">Select **Change quantity** for the add-on you want to change.</span></span>
-
-5. <span data-ttu-id="ae00a-154">구독에 대해 원하는 수량을 입력 한 다음 **변경 제출을** 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-154">Enter the quantity change you want for the subscription, then select **Submit change**.</span></span>
+1. <span data-ttu-id="bf3d9-159">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-159">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
+2. <span data-ttu-id="bf3d9-160">제품 **탭에서** 업데이트할 추가 기능을 포함하는 구독을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-160">On the **Products** tab, select the subscription that contains the add-on that you want to update.</span></span>
+3. <span data-ttu-id="bf3d9-161">구독 세부 정보 페이지에서  추가 기능 섹션에 구입한 추가 기능 목록이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-161">On the subscription details page, the **Add-ons** section lists the add-ons that you bought.</span></span> <span data-ttu-id="bf3d9-162">추가 **기능 관리를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-162">Select **Manage add-ons**.</span></span>
+4. <span data-ttu-id="bf3d9-163">추가 **기능** 관리 창의 추가 기능  드롭다운 목록에서 변경할 추가 기능을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-163">In the **Manage add-ons** pane, from the **Add-on** drop-down list, select the add-on that you want to change.</span></span>
+5. <span data-ttu-id="bf3d9-164">추가 기능의 수량 변경을 입력한 다음 저장을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-164">Enter a quantity change for the add-on, then select **Save**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="ae00a-155">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-155">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
-
-2. <span data-ttu-id="ae00a-156">**구독** 페이지에서 추가 기능을 업데이트할 구독을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-156">On the **Subscriptions** page, select the subscription for which you want to update an add-on.</span></span>
-
-3. <span data-ttu-id="ae00a-157">**추가 기능** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-157">Select **Add-ons**.</span></span>
-
-    <span data-ttu-id="ae00a-158">구입한 추가 기능이 표시되고 각 추가 기능 아래에 **수량 변경** 링크가 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-158">The add-ons that you have purchased are shown and each of the add-ons will have a **Change quantity** link below it.</span></span>
-
-4. <span data-ttu-id="ae00a-159">업데이트 하려는 추가 기능에 대 한 **수량 변경** 링크를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-159">Select the **Change quantity** link for the add-on that you want to update.</span></span>
-
-    ![추가 기능 링크 및 수량 변경 링크](../media/fa7c39f4-5256-49bb-9a26-70f1a52ae926.png)
-  
-5. <span data-ttu-id="ae00a-161">상자에 필요한 사용자 라이선스 수를 입력 한 다음 **제출을** 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-161">Enter the number of user licenses that you need in the box, and then select **Submit**.</span></span>
-
+1. <span data-ttu-id="bf3d9-165">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-165">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
+2. <span data-ttu-id="bf3d9-166">구독 **페이지에서** 추가 기능을 업데이트할 구독을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-166">On the **Subscriptions** page, select the subscription for which you want to update an add-on.</span></span>
+3. <span data-ttu-id="bf3d9-167">추가 **기능을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-167">Select **Add-ons**.</span></span>
+    <span data-ttu-id="bf3d9-168">구입한 추가 기능이 표시되고 각 추가 기능 아래에 **수량 변경** 링크가 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-168">The add-ons that you have purchased are shown and each of the add-ons will have a **Change quantity** link below it.</span></span>
+4. <span data-ttu-id="bf3d9-169">업데이트할  추가 기능의 수량 변경 링크를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-169">Select the **Change quantity** link for the add-on that you want to update.</span></span>\
+    <span data-ttu-id="bf3d9-170">![추가 기능 링크 및 수량 변경 링크](../media/fa7c39f4-5256-49bb-9a26-70f1a52ae926.png)</span><span class="sxs-lookup"><span data-stu-id="bf3d9-170">![Add-ons link and the change quantity link.](../media/fa7c39f4-5256-49bb-9a26-70f1a52ae926.png)</span></span>
+5. <span data-ttu-id="bf3d9-171">상자에 필요한 사용자 라이선스 수를 입력한 다음 제출을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-171">Enter the number of user licenses that you need in the box, and then select **Submit**.</span></span>
     > [!TIP]
-    > <span data-ttu-id="ae00a-162">위쪽 화살표 및 아래쪽 화살표를 사용하여 사용자 라이선스의 수량을 변경하거나 상자에 원하는 수량을 입력할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-162">You can also use the up-arrow and down-arrow to change the quantity of user licenses or just enter the number you want in the box.</span></span>
-  
+    > <span data-ttu-id="bf3d9-172">위쪽 화살표 및 아래쪽 화살표를 사용하여 사용자 라이선스의 수량을 변경하거나 상자에 원하는 수량을 입력할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-172">You can also use the up-arrow and down-arrow to change the quantity of user licenses or just enter the number you want in the box.</span></span>
+
     ![라이선스 추가 또는 제거 대화 상자의 총 라이선스 수 상자 및 제출 단추](../media/dfee31e0-092d-4565-9bf5-ff3909b771e1.png)
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="ae00a-164">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-164">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
-
-2. <span data-ttu-id="ae00a-165">**구독** 페이지에서 추가 기능을 업데이트할 구독을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-165">On the **Subscriptions** page, select the subscription for which you want to update an add-on.</span></span>
-
-3. <span data-ttu-id="ae00a-166">**추가 기능** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-166">Select **Add-ons**.</span></span>
-
-    <span data-ttu-id="ae00a-167">구입한 추가 기능이 표시되고 각 추가 기능 아래에 **수량 변경** 링크가 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-167">The add-ons that you have purchased are shown and each of the add-ons will have a **Change quantity** link below it.</span></span>
-
-4. <span data-ttu-id="ae00a-168">업데이트 하려는 추가 기능에 대 한 **수량 변경** 링크를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-168">Select the **Change quantity** link for the add-on that you want to update.</span></span>
-
-    ![추가 기능 링크 및 수량 변경 링크](../media/fa7c39f4-5256-49bb-9a26-70f1a52ae926.png)
-  
-5. <span data-ttu-id="ae00a-170">상자에 필요한 사용자 라이선스 수를 입력 한 다음 **제출을** 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-170">Enter the number of user licenses that you need in the box, and then select **Submit**.</span></span>
-
+1. <span data-ttu-id="bf3d9-174">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-174">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
+2. <span data-ttu-id="bf3d9-175">구독 **페이지에서** 추가 기능을 업데이트할 구독을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-175">On the **Subscriptions** page, select the subscription for which you want to update an add-on.</span></span>
+3. <span data-ttu-id="bf3d9-176">추가 **기능을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-176">Select **Add-ons**.</span></span>
+    <span data-ttu-id="bf3d9-177">구입한 추가 기능이 표시되고 각 추가 기능 아래에 **수량 변경** 링크가 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-177">The add-ons that you have purchased are shown and each of the add-ons will have a **Change quantity** link below it.</span></span>
+4. <span data-ttu-id="bf3d9-178">업데이트할  추가 기능의 수량 변경 링크를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-178">Select the **Change quantity** link for the add-on that you want to update.</span></span>\
+    <span data-ttu-id="bf3d9-179">![추가 기능 링크 및 수량 변경 링크](../media/fa7c39f4-5256-49bb-9a26-70f1a52ae926.png)</span><span class="sxs-lookup"><span data-stu-id="bf3d9-179">![Add-ons link and the change quantity link.](../media/fa7c39f4-5256-49bb-9a26-70f1a52ae926.png)</span></span>
+5. <span data-ttu-id="bf3d9-180">상자에 필요한 사용자 라이선스 수를 입력한 다음 제출을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="bf3d9-180">Enter the number of user licenses that you need in the box, and then select **Submit**.</span></span>
     > [!TIP]
-    > <span data-ttu-id="ae00a-171">위쪽 화살표 및 아래쪽 화살표를 사용하여 사용자 라이선스의 수량을 변경하거나 상자에 원하는 수량을 입력할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-171">You can also use the up-arrow and down-arrow to change the quantity of user licenses or just enter the number you want in the box.</span></span>
-  
-    ![라이선스 추가 또는 제거 대화 상자의 총 라이선스 수 상자 및 제출 단추](../media/dfee31e0-092d-4565-9bf5-ff3909b771e1.png)
-
-
-::: moniker-end
-
-### <a name="update-a-standalone-add-on"></a><span data-ttu-id="ae00a-173">독립 실행형 추가 기능 업데이트</span><span class="sxs-lookup"><span data-stu-id="ae00a-173">Update a standalone add-on</span></span>
-
-::: moniker range="o365-worldwide"
-
-1. <span data-ttu-id="ae00a-174">관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="ae00a-174">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
-
-2. <span data-ttu-id="ae00a-175">**제품** 페이지에서 업데이트 하려는 추가 기능 구독을 선택 하 고 **라이선스 추가/제거** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-175">On the **Your products** page, select the add-on subscription that you want to update, and then select **Add/Remove licenses**.</span></span>
-
-3. <span data-ttu-id="ae00a-176">상자에 필요한 라이선스 수를 입력 한 다음 **변경 제출을** 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-176">Enter the number of licenses that you need in the box, and then select **Submit change**.</span></span>
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. <span data-ttu-id="ae00a-177">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-177">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
-
-2. <span data-ttu-id="ae00a-178">**구독** 페이지에서 업데이트할 추가 기능 구독을 선택 하 고 **라이선스 추가/제거** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-178">On the **Subscriptions** page, select the add-on subscription that you want to update, and then select **Add/Remove licenses**.</span></span>
-
-3. <span data-ttu-id="ae00a-179">상자에 필요한 라이선스 수를 입력 한 다음 **제출을** 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-179">Enter the number of licenses that you need in the box, and then select **Submit**.</span></span>
-
-    > [!TIP]
-    > <span data-ttu-id="ae00a-180">위쪽 화살표 및 아래쪽 화살표를 사용 하 여 라이선스의 수량을 변경 하거나 상자에 원하는 수를 입력할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-180">You can also use the up-arrow and down-arrow to change the quantity of licenses or just enter the number you want in the box.</span></span>
+    > <span data-ttu-id="bf3d9-181">위쪽 화살표 및 아래쪽 화살표를 사용하여 사용자 라이선스의 수량을 변경하거나 상자에 원하는 수량을 입력할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-181">You can also use the up-arrow and down-arrow to change the quantity of user licenses or just enter the number you want in the box.</span></span>
   
     ![라이선스 추가 또는 제거 대화 상자의 총 라이선스 수 상자 및 제출 단추](../media/dfee31e0-092d-4565-9bf5-ff3909b771e1.png)
 
 ::: moniker-end
 
-::: moniker range="o365-21vianet"
+## <a name="remove-an-add-on"></a><span data-ttu-id="bf3d9-183">추가 기능 제거</span><span class="sxs-lookup"><span data-stu-id="bf3d9-183">Remove an add-on</span></span>
 
-1. <span data-ttu-id="ae00a-182">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-182">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
+<span data-ttu-id="bf3d9-184">독립 실행형 추가 기능 구독을 [](subscriptions/cancel-your-subscription.md)제거하려면 다른 구독과 마찬가지로 구독을 취소합니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-184">To remove a standalone add-on subscription, you [cancel the subscription](subscriptions/cancel-your-subscription.md), just like any other subscription.</span></span> <span data-ttu-id="bf3d9-185">또는 [Recurring 청구를 해제할 수 있습니다.](subscriptions/renew-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="bf3d9-185">Or you can [turn off Recurring billing](subscriptions/renew-your-subscription.md).</span></span>
 
-2. <span data-ttu-id="ae00a-183">**구독** 페이지에서 업데이트할 추가 기능 구독을 선택 하 고 **라이선스 추가/제거** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-183">On the **Subscriptions** page, select the add-on subscription that you want to update, and then select **Add/Remove licenses**.</span></span>
-
-3. <span data-ttu-id="ae00a-184">상자에 필요한 라이선스 수를 입력 한 다음 **제출을** 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-184">Enter the number of licenses that you need in the box, and then select **Submit**.</span></span>
-
-    > [!TIP]
-    > <span data-ttu-id="ae00a-185">위쪽 화살표 및 아래쪽 화살표를 사용 하 여 라이선스의 수량을 변경 하거나 상자에 원하는 수를 입력할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-185">You can also use the up-arrow and down-arrow to change the quantity of licenses or just enter the number you want in the box.</span></span>
+<span data-ttu-id="bf3d9-186">기존 추가 기능을 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bf3d9-186">You can’t remove a traditional add-on.</span></span> <span data-ttu-id="bf3d9-187">기존 추가 기능을 제거하려면 고객 [지원에 문의하여 도움을 문의합니다.](../admin/contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="bf3d9-187">If you want to remove a traditional add-on, [contact support for help](../admin/contact-support-for-business-products.md).</span></span>
   
-    ![라이선스 추가 또는 제거 대화 상자의 총 라이선스 수 상자 및 제출 단추](../media/dfee31e0-092d-4565-9bf5-ff3909b771e1.png)
+## <a name="related-content"></a><span data-ttu-id="bf3d9-188">관련 콘텐츠</span><span class="sxs-lookup"><span data-stu-id="bf3d9-188">Related content</span></span>
 
-::: moniker-end
-
-## <a name="remove-an-add-on"></a><span data-ttu-id="ae00a-187">추가 기능 제거</span><span class="sxs-lookup"><span data-stu-id="ae00a-187">Remove an add-on</span></span>
-
-<span data-ttu-id="ae00a-188">[구독을 취소](subscriptions/cancel-your-subscription.md)하는 것과 같은 방법으로 독립 실행형 추가 기능을 취소할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-188">You can cancel a standalone add-on the same way that you [cancel a subscription](subscriptions/cancel-your-subscription.md).</span></span> <span data-ttu-id="ae00a-189">또는 위의 단계를 사용 하 여 독립 실행형 추가 기능에 대해 **되풀이 대금 청구** 를 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-189">Or you can set **Recurring billing** to off for a standalone add-on by using the steps above.</span></span> <span data-ttu-id="ae00a-190">하지만 기존 추가 기능을 구매한 후에는 제거할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-190">However, you cannot remove a traditional add-on after it's been bought.</span></span> <span data-ttu-id="ae00a-191">기존 추가 기능을 제거 해야 하는 경우 도움이 필요 하면 [고객 지원에 문의](../admin/contact-support-for-business-products.md)하세요.</span><span class="sxs-lookup"><span data-stu-id="ae00a-191">If you need to remove a traditional add-on, please [contact support for help](../admin/contact-support-for-business-products.md).</span></span>
-  
-## <a name="available-add-ons"></a><span data-ttu-id="ae00a-192">사용 가능한 추가 기능</span><span class="sxs-lookup"><span data-stu-id="ae00a-192">Available add-ons</span></span>
-
-<span data-ttu-id="ae00a-193">다음 표에는 비즈니스용 Microsoft 365의 다양 한 버전에 사용할 수 있는 추가 기능이 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae00a-193">The following table lists add-ons that are available for different editions of Microsoft 365 for business.</span></span>
-  
-<span data-ttu-id="ae00a-194">비즈니스용 Skype 추가 기능에 대한 자세한 내용은 [비즈니스용 Skype 및 Microsoft Teams 추가 기능 라이선스](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="ae00a-194">For information about Skype for Business add-ons, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).</span></span>
-  
-****
-
-|<span data-ttu-id="ae00a-195">**추가 기능**</span><span class="sxs-lookup"><span data-stu-id="ae00a-195">**Add-on**</span></span>|<span data-ttu-id="ae00a-196">**다음 구독에서 사용 가능**</span><span class="sxs-lookup"><span data-stu-id="ae00a-196">**Available in these subscriptions**</span></span>|
-|:-----|:-----|
-|<span data-ttu-id="ae00a-197">Customer Lockbox</span><span class="sxs-lookup"><span data-stu-id="ae00a-197">Customer Lockbox</span></span>  <br/> | <span data-ttu-id="ae00a-198">Office 365 Enterprise E1</span><span class="sxs-lookup"><span data-stu-id="ae00a-198">Office 365 Enterprise E1</span></span>  <br/>  <span data-ttu-id="ae00a-199">Office 365 Enterprise E3</span><span class="sxs-lookup"><span data-stu-id="ae00a-199">Office 365 Enterprise E3</span></span>  <br/>  <span data-ttu-id="ae00a-200">Office 365 Enterprise E4</span><span class="sxs-lookup"><span data-stu-id="ae00a-200">Office 365 Enterprise E4</span></span>  <br/> |
-|[<span data-ttu-id="ae00a-201">Microsoft Defender for Office 365</span><span class="sxs-lookup"><span data-stu-id="ae00a-201">Microsoft Defender for Office 365</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=691156) <br/> | <span data-ttu-id="ae00a-202">Office 365 Enterprise E1</span><span class="sxs-lookup"><span data-stu-id="ae00a-202">Office 365 Enterprise E1</span></span>  <br/>  <span data-ttu-id="ae00a-203">Office 365 Enterprise E3</span><span class="sxs-lookup"><span data-stu-id="ae00a-203">Office 365 Enterprise E3</span></span>  <br/>  <span data-ttu-id="ae00a-204">Office 365 Enterprise E4</span><span class="sxs-lookup"><span data-stu-id="ae00a-204">Office 365 Enterprise E4</span></span>  <br/> |
-|[<span data-ttu-id="ae00a-205">Exchange Online Archiving</span><span class="sxs-lookup"><span data-stu-id="ae00a-205">Exchange Online Archiving</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=691157) <br/> | <span data-ttu-id="ae00a-206">Microsoft 365 Business Basic</span><span class="sxs-lookup"><span data-stu-id="ae00a-206">Microsoft 365 Business Basic</span></span>  <br/>  <span data-ttu-id="ae00a-207">Microsoft 365 Business Standard</span><span class="sxs-lookup"><span data-stu-id="ae00a-207">Microsoft 365 Business Standard</span></span>  <br/>  <span data-ttu-id="ae00a-208">Office 365 Enterprise E1</span><span class="sxs-lookup"><span data-stu-id="ae00a-208">Office 365 Enterprise E1</span></span>  <br/>  <span data-ttu-id="ae00a-209">Office 365 Enterprise F1</span><span class="sxs-lookup"><span data-stu-id="ae00a-209">Office 365 Enterprise F1</span></span>  <br/> |
-|<span data-ttu-id="ae00a-210">Microsoft MyAnalytics</span><span class="sxs-lookup"><span data-stu-id="ae00a-210">Microsoft MyAnalytics</span></span>  <br/> | <span data-ttu-id="ae00a-211">Office 365 Enterprise E1</span><span class="sxs-lookup"><span data-stu-id="ae00a-211">Office 365 Enterprise E1</span></span>  <br/>  <span data-ttu-id="ae00a-212">Office 365 Enterprise E3</span><span class="sxs-lookup"><span data-stu-id="ae00a-212">Office 365 Enterprise E3</span></span>  <br/>  <span data-ttu-id="ae00a-213">Office 365 Enterprise E4</span><span class="sxs-lookup"><span data-stu-id="ae00a-213">Office 365 Enterprise E4</span></span>  <br/> |
-|<span data-ttu-id="ae00a-214">Office 365 Advanced Compliance</span><span class="sxs-lookup"><span data-stu-id="ae00a-214">Office 365 Advanced Compliance</span></span>  <br/> | <span data-ttu-id="ae00a-215">Office 365 Enterprise E1</span><span class="sxs-lookup"><span data-stu-id="ae00a-215">Office 365 Enterprise E1</span></span>  <br/>  <span data-ttu-id="ae00a-216">Office 365 Enterprise E3</span><span class="sxs-lookup"><span data-stu-id="ae00a-216">Office 365 Enterprise E3</span></span>  <br/>  <span data-ttu-id="ae00a-217">Office 365 Enterprise E4</span><span class="sxs-lookup"><span data-stu-id="ae00a-217">Office 365 Enterprise E4</span></span>  <br/> |
-|<span data-ttu-id="ae00a-218">Office 365 Extra File Storage</span><span class="sxs-lookup"><span data-stu-id="ae00a-218">Office 365 Extra File Storage</span></span>  <br/> | <span data-ttu-id="ae00a-219">비즈니스용 Microsoft 365 앱</span><span class="sxs-lookup"><span data-stu-id="ae00a-219">Microsoft 365 Apps for business</span></span>  <br/>  <span data-ttu-id="ae00a-220">Microsoft 365 Business Basic</span><span class="sxs-lookup"><span data-stu-id="ae00a-220">Microsoft 365 Business Basic</span></span>  <br/>  <span data-ttu-id="ae00a-221">Microsoft 365 Business Standard</span><span class="sxs-lookup"><span data-stu-id="ae00a-221">Microsoft 365 Business Standard</span></span>  <br/>  <span data-ttu-id="ae00a-222">Office 365 Enterprise E1</span><span class="sxs-lookup"><span data-stu-id="ae00a-222">Office 365 Enterprise E1</span></span>  <br/>  <span data-ttu-id="ae00a-223">Office 365 Enterprise E2</span><span class="sxs-lookup"><span data-stu-id="ae00a-223">Office 365 Enterprise E2</span></span>  <br/>  <span data-ttu-id="ae00a-224">Office 365 Enterprise E3</span><span class="sxs-lookup"><span data-stu-id="ae00a-224">Office 365 Enterprise E3</span></span>  <br/>  <span data-ttu-id="ae00a-225">Office 365 Enterprise E4</span><span class="sxs-lookup"><span data-stu-id="ae00a-225">Office 365 Enterprise E4</span></span>  <br/>  <span data-ttu-id="ae00a-226">Office 365 Enterprise E5</span><span class="sxs-lookup"><span data-stu-id="ae00a-226">Office 365 Enterprise E5</span></span>  <br/>  <span data-ttu-id="ae00a-227">SharePoint 계획 1을 사용 하는 웹의 Office</span><span class="sxs-lookup"><span data-stu-id="ae00a-227">Office for the web with SharePoint Plan 1</span></span>  <br/>  <span data-ttu-id="ae00a-228">SharePoint 계획 2를 사용 하는 웹의 Office</span><span class="sxs-lookup"><span data-stu-id="ae00a-228">Office for the web with SharePoint Plan 2</span></span>  <br/>  <span data-ttu-id="ae00a-229">SharePoint Online 요금제 1</span><span class="sxs-lookup"><span data-stu-id="ae00a-229">SharePoint Online Plan 1</span></span>  <br/>  <span data-ttu-id="ae00a-230">SharePoint Online 요금제 2</span><span class="sxs-lookup"><span data-stu-id="ae00a-230">SharePoint Online Plan 2</span></span>  <br/> |
-|<span data-ttu-id="ae00a-231">전화 시스템</span><span class="sxs-lookup"><span data-stu-id="ae00a-231">Phone System</span></span>  <br/> | <span data-ttu-id="ae00a-232">Office 365 Enterprise E1</span><span class="sxs-lookup"><span data-stu-id="ae00a-232">Office 365 Enterprise E1</span></span>  <br/>  <span data-ttu-id="ae00a-233">Office 365 Enterprise E3</span><span class="sxs-lookup"><span data-stu-id="ae00a-233">Office 365 Enterprise E3</span></span>  <br/>  <span data-ttu-id="ae00a-234">Office 365 Enterprise E4</span><span class="sxs-lookup"><span data-stu-id="ae00a-234">Office 365 Enterprise E4</span></span>  <br/>  <span data-ttu-id="ae00a-235">Office 365 Enterprise E5</span><span class="sxs-lookup"><span data-stu-id="ae00a-235">Office 365 Enterprise E5</span></span>  <br/> |
-|<span data-ttu-id="ae00a-236">오디오 회의</span><span class="sxs-lookup"><span data-stu-id="ae00a-236">Audio Conferencing</span></span>  <br/> |  <span data-ttu-id="ae00a-237">Microsoft 365 Business Basic</span><span class="sxs-lookup"><span data-stu-id="ae00a-237">Microsoft 365 Business Basic</span></span> <br/> <span data-ttu-id="ae00a-238">Microsoft 365 Business Standard</span><span class="sxs-lookup"><span data-stu-id="ae00a-238">Microsoft 365 Business Standard</span></span> <br/> <span data-ttu-id="ae00a-239">Office 365 Enterprise E1</span><span class="sxs-lookup"><span data-stu-id="ae00a-239">Office 365 Enterprise E1</span></span> <br/> <span data-ttu-id="ae00a-240">Office 365 Enterprise E3</span><span class="sxs-lookup"><span data-stu-id="ae00a-240">Office 365 Enterprise E3</span></span> <br/> <span data-ttu-id="ae00a-241">Office 365 Enterprise E4</span><span class="sxs-lookup"><span data-stu-id="ae00a-241">Office 365 Enterprise E4</span></span> <br/> <span data-ttu-id="ae00a-242">Office 365 Enterprise E5(오디 회의 미포함)</span><span class="sxs-lookup"><span data-stu-id="ae00a-242">Office 365 Enterprise E5 without Audio Conferencing</span></span> <br/> <span data-ttu-id="ae00a-243">Microsoft 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="ae00a-243">Microsoft 365 Business Premium</span></span> <br/> <span data-ttu-id="ae00a-244">Microsoft 365 E3</span><span class="sxs-lookup"><span data-stu-id="ae00a-244">Microsoft 365 E3</span></span> <br/> <span data-ttu-id="ae00a-245">Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="ae00a-245">Microsoft 365 E5</span></span>  <br/> |
-|<span data-ttu-id="ae00a-246">통신 크레딧</span><span class="sxs-lookup"><span data-stu-id="ae00a-246">Communications Credits</span></span>  <br/> | <span data-ttu-id="ae00a-247">Office 365 Enterprise E5</span><span class="sxs-lookup"><span data-stu-id="ae00a-247">Office 365 Enterprise E5</span></span>  <br/> |
-|<span data-ttu-id="ae00a-248">국내 통화 플랜</span><span class="sxs-lookup"><span data-stu-id="ae00a-248">Domestic Calling Plan</span></span> <br/> | <span data-ttu-id="ae00a-249">Office 365 Enterprise E5</span><span class="sxs-lookup"><span data-stu-id="ae00a-249">Office 365 Enterprise E5</span></span>  <br/> |
-|<span data-ttu-id="ae00a-250">국제 통화 플랜</span><span class="sxs-lookup"><span data-stu-id="ae00a-250">International Calling Plan</span></span>  <br/> | <span data-ttu-id="ae00a-251">Office 365 Enterprise E5</span><span class="sxs-lookup"><span data-stu-id="ae00a-251">Office 365 Enterprise E5</span></span>  <br/> |
-  
-## <a name="related-articles"></a><span data-ttu-id="ae00a-252">관련 문서</span><span class="sxs-lookup"><span data-stu-id="ae00a-252">Related articles</span></span>
-
-[<span data-ttu-id="ae00a-253">구독에 대 한 저장소 공간 추가</span><span class="sxs-lookup"><span data-stu-id="ae00a-253">Add storage space for your subscription</span></span>](add-storage-space.md)
+<span data-ttu-id="bf3d9-189">[구독에 대한 저장소 공간 추가(문서)\](add-storage-space.md)</span><span class="sxs-lookup"><span data-stu-id="bf3d9-189">[Add storage space for your subscription](add-storage-space.md) (article)\</span></span>
+<span data-ttu-id="bf3d9-190">[구독 라이선스 구입 또는](licenses/buy-licenses.md) 제거(문서)</span><span class="sxs-lookup"><span data-stu-id="bf3d9-190">[Buy or remove subscription licenses](licenses/buy-licenses.md) (article)</span></span>\
+<span data-ttu-id="bf3d9-191">[Recurring billing off or on](subscriptions/renew-your-subscription.md#turn-recurring-billing-off-or-on) (article)</span><span class="sxs-lookup"><span data-stu-id="bf3d9-191">[Turn Recurring billing off or on](subscriptions/renew-your-subscription.md#turn-recurring-billing-off-or-on) (article)</span></span>\
+<span data-ttu-id="bf3d9-192">[결제 방법](billing-and-payments/manage-payment-methods.md) 관리(문서)</span><span class="sxs-lookup"><span data-stu-id="bf3d9-192">[Manage payment methods](billing-and-payments/manage-payment-methods.md) (article)</span></span>
