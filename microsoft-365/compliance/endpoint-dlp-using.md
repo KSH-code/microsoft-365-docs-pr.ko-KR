@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 0a6883bd785141af6f198f0cd871c11794618e27
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 531fd5506aeb255e261c3cce35473f1ddad2aa42
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561685"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667813"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
@@ -85,13 +85,6 @@ ms.locfileid: "49561685"
 #### <a name="unallowed-browsers"></a>허용되지 않는 브라우저
 
 클라우드 서비스 제한에 업로드가 차단 또는 재설정을 차단하는 것으로 설정되어 있는 적용된 DLP 정책의 조건과 일치하는 파일에 액세스하지 못하도록 차단된 실행 파일 이름으로 식별되는 브라우저를 추가합니다. 이 브라우저가 파일에 액세스하지 못하도록 차단되면 최종 사용자에게 Edge Chromium를 통해 파일을 열도록 요청하는 알림 메시지가 표시됩니다.
-
-### <a name="always-audit-file-activity-from-onboarded-devices"></a>온보딩된 장치에서 파일 활동 상시 감사
-
-Office, PDF 및 CSV 파일에 대한 DLP 작업이 자동으로 감사되고 온보드 장치에서 감사 원격 측정 및 Activity Explorer에서 검토할 수 있는지 여부를 제어합니다. 
-
-이 설정이 켜져 있는 경우(기본값) 파일 작업은 활성 DLP 정책에 포함되는지 여부에 관계없이 항상 온보드 장치에 대해 감사됩니다.
-이 옵션을 해제하면 파일 작업이 활성 DLP 정책에 포함된 경우에만 온보딩된 장치에 대해 감사됩니다. 
 
 
 ## <a name="tying-dlp-settings-together"></a>DLP 설정 함께 연결
