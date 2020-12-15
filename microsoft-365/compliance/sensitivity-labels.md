@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: c012b422e5c1452bf6ccd58e0743509a2cf07f32
-ms.sourcegitcommit: 21b0ea5715e20b4ab13719eb18c97fadb49b563d
+ms.openlocfilehash: 61bb7afedbbafb1272c3dfdbbecd0ede9777effe
+ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/11/2020
-ms.locfileid: "49624790"
+ms.locfileid: "49655580"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -109,11 +109,11 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
     
     이 기능을 사용하도록 설정하기 전에는 그룹 및 사이트에 대한 보호 설정을 구성할 수 없습니다. 이 레이블 구성으로 인해 문서 혹은 전자 메일이 자동으로 레이블 지정되지는 않지만 레이블 설정은 콘텐츠가 저장될 수 있는 컨테이너에 대한 액세스를 제어하여 콘텐츠를 보호합니다. 이러한 설정에는 개인 정보 설정, 외부 사용자 액세스 및 외부 공유, 관리되지 않는 장치의 액세스가 포함됩니다.
 
-- **Office 앱에서 자동으로 레이블을 적용하거나 레이블을 추천합니다.** 레이블을 지정할 민감한 정보 유형을 선택하고 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 적용하라는 메시지를 표시할 수 있습니다. 레이블을 권장하면 선택한 텍스트가 프롬프트에 표시됩니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+- **파일 및 전자 메일에 자동으로 레이블을 적용하거나 레이블을 추천합니다.** 레이블을 지정할 중요한 정보를 식별하는 방법을 선택하고 레이블을 자동으로 적용하거나 사용자에게 권장하는 레이블을 적용하도록 요청할 수 있습니다. 레이블을 권장하면 선택한 텍스트가 프롬프트에 표시됩니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
     
     ![필수 레이블 할당 메시지](../media/Sensitivity-label-Prompt-for-required-label.png)
     
-    민감도 레이블을 만들거나 편집할 때 **Office 앱에 대한 자동 레이블 지정** 설정에 대한 자세한 내용은 [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)을 참조하십시오.
+    민감도 레이블을 만들거나 편집할 때 **파일 및 전자 메일에 대한 자동 레이블 지정** 설Office 앱의 [콘텐츠에 민감도 레이블을 자동으로 적용](apply-sensitivity-label-automatically.md)하고 [Azure Purview에서 자동으로 데이터 레이블 지정](https://docs.microsoft.com/azure/purview/create-sensitivity-label)을 참조하세요.
 
 ### <a name="label-scopes"></a>레이블 범위
 
@@ -274,4 +274,3 @@ Cloud App Security는 Azure Information Protection 레이블과 민감도 레이
 ## <a name="deployment-guidance"></a>배포 가이드
 
 라이선싱 정보, 사용 권한, 배포 전략, 지원되는 시나리오 목록 및 최종 사용자 문서를 포함한 배포 계획 및 지침에 대한 내용은 [민감도 레이블로 시작하기](get-started-with-sensitivity-labels.md)를 참조하세요. 
-
