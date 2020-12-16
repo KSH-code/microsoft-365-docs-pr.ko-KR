@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - m365solution-identitydevice
 - m365solution-scenario
-ms.openlocfilehash: c2c01278831433c02e5c869dba83f223eea57d27
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 376845d8e3657b91b9efe0357e94f4bec3a84078
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683238"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688288"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>게스트 및 외부 B2B 액세스를 허용하는 정책
 
@@ -44,7 +44,7 @@ B2B 계정이 Azure AD 테넌트에 인증하는 경로를 제공해도 이러�
 
 |보호 수준|정책|추가 정보|
 |---|---|---|
-|**기준**|[게스트 및 외부 사용자에 대해 MFA가 항상 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|이 새 정책을 만들고 구성합니다. <ul><li> Assignments > 사용자 및 > **포함,** 사용자 및 그룹 **선택,** 모든 게스트 및 외부 **사용자를 선택합니다.** </li><li> 배정 **> 조건>** 로그인의 경우 항상 MFA(다단계 인증)를 적용하도록 모든 옵션을 선택하지 않은 상태로 하세요.</li>|
+|**기준**|[게스트 및 외부 사용자에 대해 MFA가 항상 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|이 새 정책을 만들고 구성합니다. <ul><li>Assignments > 사용자 및 > **포함,** 사용자 및 그룹 **선택,** 모든 게스트 및 외부 **사용자를 선택합니다.**</li><li>배정 **> 조건>** 로그인의 경우 항상 MFA(다단계 인증)를 적용하도록 모든 옵션을 선택하지 않은 상태로 하세요.</li></ul>|
 ||[로그인 위험이 중간 또는 높음인 경우 MFA *필요*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|게스트 및 외부 사용자를 제외하도록 이 정책을 수정합니다.|
 ||[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|게스트 및 외부 사용자를 제외하도록 이 정책을 수정합니다.|
 
