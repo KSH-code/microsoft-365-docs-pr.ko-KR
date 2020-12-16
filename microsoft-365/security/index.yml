@@ -50,7 +50,7 @@ landingContent:
       url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
     - text: ID 아키텍처용 Microsoft Defender
       url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
-- title: Office 365용 Microsoft Defender
+- title: Office 365용 Defender
   linkLists:
   - linkListType: overview
     links:
