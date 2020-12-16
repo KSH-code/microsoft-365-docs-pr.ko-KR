@@ -1,9 +1,9 @@
 ---
-title: Office 365 서비스 신규 독일 데이터 센터 지역으로 마이그레이션 하는 동안 고객 경험
+title: 새로운 독일 데이터 센터 지역의 Office 365 서비스로 마이그레이션하기 위해 변경된 변경된 정보
 ms.author: andyber
 author: andybergen
 manager: laurawi
-ms.date: 12/01/2020
+ms.date: 12/11/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -18,80 +18,80 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
-description: '요약: Microsoft 클라우드 독일 (Microsoft 클라우드 독일)에서 새 독일어 데이터 센터 지역의 Office 365 서비스로 이동 하는 환경에 대해 설명 합니다.'
-ms.openlocfilehash: a44fbe504a9a710856deeb3baf258feb124ce7ae
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새로운 독일 데이터 센터 지역의 Office 365 서비스로 이동하기 위해 변경된 내용을 이해합니다.'
+ms.openlocfilehash: 0415f7b95cb9a9f2625798311946dac0f1f7c2c0
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551698"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688625"
 ---
-# <a name="customer-experience-during-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>Office 365 서비스 신규 독일 데이터 센터 지역으로 마이그레이션 하는 동안 고객 경험
+# <a name="what-has-changed-for-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>새로운 독일 데이터 센터 지역의 Office 365 서비스로 마이그레이션하기 위해 변경된 변경된 정보
 
-테 넌 트 마이그레이션은 관리자와 사용자에 게 최소한의 영향을 주도록 설계 되었습니다. 하지만, 각 작업과 관련하여 다음 사항에 유의 하세요.  작업에 대 한 마이그레이션 환경을 보다 잘 이해 하려면 다음 섹션을 검토 하세요.
+테넌트 마이그레이션은 관리자와 사용자에게 최소한의 영향을 미치기 위해 고안된 것입니다. 하지만, 각 작업과 관련하여 다음 사항에 유의 하세요.  워크로드에 대한 마이그레이션 환경을 보다 잘 이해하기 위해 다음 섹션을 검토하세요.
 
-다음은 새 독일어 데이터 센터 지역에서 Microsoft 클라우드 독일 및 Office 365 서비스 간의 주요 차이점입니다.
+다음은 독일 신규 독일 데이터 센터 지역의 Microsoft 클라우드와 Office 365 서비스 간의 주요 차이점입니다.
 
-| 범주 | Microsoft Cloud 독일 (Microsoft 클라우드 독일) | 신규 독일 데이터 센터 지역에서의 Office 365 서비스 |
+| 범주 | 도이클란드 Microsoft 클라우드(도이클란드 Microsoft 클라우드) | 신규 독일 데이터 센터 지역에서의 Office 365 서비스 |
 |:-------|:-----|:-------|
-| 하나의 Office 365 테넌트만으로도 구독 가능한 Microsoft 365 서비스 | 서비스 15 개 | 29 서비스 <br><br> 자세한 내용은 [서로 다른 Office 365 클라우드 서비스 제품 간의 서비스 가용성](ms-cloud-germany-transition.md#serv-avail)을 참조 하세요. |
-| 새로운 기능 | 새로운 기능은 제공하지 않습니다.  | 새로운 기능은 Office 365 서비스와 일관 되 게 사용할 수 있습니다. |
+| 하나의 Office 365 테넌트만으로도 구독 가능한 Microsoft 365 서비스 | 서비스 15개 | 서비스 29개 <br><br> 자세한 내용은 각 [Office 365](ms-cloud-germany-transition.md#serv-avail)클라우드 서비스 제품 간의 서비스 가용성을 참조하세요. |
+| 새로운 기능 | 새로운 기능은 제공하지 않습니다.  | Office 365 서비스와 일관된 새로운 기능을 사용할 수 있습니다. |
 | 데이터 트러스티 | 예 | 아니요 |
 | 글로벌 365 테넌트와 협업  | 아니요 | 예 |
-| 고객 데이터 보존 | 고객 데이터는 독일어 데이터 센터 내에만 저장 됩니다. | Microsoft는 다음과 같은 고객 데이터를 독일 내부에 독점적으로 저장 합니다. <ul><li> Exchange Online 사서함 콘텐츠 (전자 메일 본문, 일정 항목 및 전자 메일 첨부 파일 콘텐츠) </li><li> SharePoint Online 사이트 콘텐츠 및 해당 사이트 내에 저장 된 파일 및 비즈니스용 OneDrive에 업로드 되는 파일 </li></ul> |
-| 적용 약관  | 이 [보조](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=64) 를 포함 하는 [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) | [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) |
+| 고객 데이터 보존 | 고객 데이터는 독일 데이터 센터에만 저장됩니다. | Microsoft는 다음과 같은 고객 데이터를 독일 내에서만 저장합니다. <ul><li> Exchange Online 사서함 콘텐츠(전자 메일 본문, 일정 항목 및 전자 메일 첨부 파일 콘텐츠) </li><li> SharePoint Online 사이트 콘텐츠 및 해당 사이트에 저장된 파일 및 비즈니스용 OneDrive에 업로드된 파일 </li></ul> |
+| 적용 약관  | [이 추가가 있는](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) 온라인 서비스 [약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=64) | [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) |
 ||||
 
-## <a name="azure-active-directory"></a>Azure Active Directory Domain Services
+## <a name="azure-active-directory"></a>Azure Active Directory
 
-변경 되지 않는 사항:
+변경되지 않는 사항:
 
-- 마이그레이션 후 테 넌 트 `contoso.onmicrosoft.de` ID (GUID)와 사용자 지정 도메인을 포함 하는 거주자 초기 도메인 (예:)이 유지 됩니다. 
+- 테넌트 ID(GUID) 및 사용자 지정 도메인이 있는 테넌트 초기 도메인(예: )은 마이그레이션 `contoso.onmicrosoft.de` 후에도 지속됩니다. 
 
-- Office 365 services로 마이그레이션되는 리소스에 대 한 인증 요청은 Office 365 services Azure 인증 서비스 ()에 의해 부여 됩니다 `login.microsoftonline.com` . 마이그레이션 중에 여전히 Office 365 독일에 남아 있는 리소스는 기존 독일 Azure 서비스 ()에 의해 인증 됩니다 `login.microsoftonline.de` .
+- Office 365 서비스로 마이그레이션된 리소스에 대한 인증 요청은 Office 365 서비스 Azure 인증 서비스()에서 `login.microsoftonline.com` 부여됩니다. 마이그레이션 중에 Office 365 Germany에 남아 있는 리소스는 기존 독일 Azure 서비스()에서 `login.microsoftonline.de` 인증됩니다.
 
-참고 사항:
+참고할 고려 사항:
 
-- 관리 되는 도메인 계정의 경우 초기 Azure Active Directory (Azure ad) 테 넌 트를 복사한 후에 (azure ad 마이그레이션 Office 365 services Azure AD service로의 첫 번째 단계), 암호 변경, SSPR (셀프 서비스 암호 재설정) 변경 내용, 관리자가 Office 365 서비스 포털에서 암호를 다시 설정 해야 합니다. Azure AD 테 넌 트가 Office 365 서비스로 마이그레이션 되었으므로이 시점에는 독일 서비스에서 암호를 업데이트 하는 요청이 제대로 수행 되지 않습니다. 페더레이션 도메인 암호의 재설정은 온-프레미스 디렉터리에서 완료 되었기 때문에 영향을 받지 않습니다.
+- 관리되는 도메인 계정의 경우 초기 Azure AD(Azure Active Directory) 테넌트의 복사가 완료된 후(Office 365 서비스 Azure AD 서비스로 Azure AD 마이그레이션의 첫 번째 단계), 암호 변경, SSPR(셀프 서비스 암호 재설정) 변경 및 관리자의 암호 재설정을 Office 365 서비스 포털에서 완료해야 합니다. Azure AD 테넌트가 Office 365 서비스로 마이그레이션되어 독일 서비스에서 암호 업데이트 요청이 성공하지 못합니다. 페더전된 도메인 암호의 재설정은 영향을 받지 않습니다. 이는 해당 암호가 On-premises 디렉터리에서 완료되어 있기 때문에 영향을 받지 않습니다.
 
-- Azure 로그인은 사용자가 액세스를 시도 하는 포털에 표시 됩니다. 감사 로그는 전환 후 Office 365 서비스 끝점 에서만 사용할 수 있습니다. 마이그레이션이 완료 될 때까지 마이그레이션하기 전에 Microsoft Cloud 독일 portal에서 로그인 및 감사 로그를 저장 해야 합니다.
+- Azure 로그인은 사용자가 액세스를 시도하는 포털에 표시됩니다. 감사 로그는 전환 후 Office 365 서비스 끝점에서만 사용할 수 있습니다. 마이그레이션을 통해 마이그레이션이 완료되기 전에 도이치랜드 Microsoft 클라우드 포털의 로그인 및 감사 로그를 저장해야 합니다.
 
-- 암호 재설정, 암호 변경, 관리자가 관리 되는 조직 (Active Directory Federation Services를 사용 하지 않는 경우)에 대 한 암호 재설정은 Office 365 서비스 포털을 통해 수행 해야 합니다. 암호를 다시 설정 하기 위해 Microsoft Cloud 독일 portal에 액세스 하는 사용자의 시도는 실패 합니다.
+- 관리되는 조직의 관리자(Active Directory Federation Services를 사용하지 않는)의 암호 재설정, 암호 변경, 암호 재설정은 Office 365 서비스 포털을 통해 수행되어야 합니다. 도이치란드 Microsoft 클라우드 포털에 액세스하는 사용자의 암호 재설정 시도는 실패합니다.
 
-- GDPR (일반 데이터 보호 규정) d e r i e r (데이터 주체 요청)은 향후 요청을 위해 Office 365 services Azure 관리 포털에서 실행 됩니다. Microsoft Cloud 독일에 상주 하는 모든 레거시 또는 고객이 진단 데이터는 30 일 또는 그 이전에 삭제 됩니다.
+- GDPR(일반 데이터 보호 규정) DSR(데이터 주체 요청)은 향후 요청을 위해 Office 365 서비스 Azure 관리 포털에서 실행됩니다. 도이치란드 Microsoft 클라우드에 있는 레거시 또는 비 고객 진단 데이터는 30일 또는 그 이전으로 삭제됩니다.
 
 ## <a name="subscriptions--licenses"></a>구독 & 라이선스
 
-- Microsoft 클라우드 독일의 Office 365 및 Dynamics 구독은 Azure AD 재배치가 포함 된 독일어 지역으로 전환 됩니다. 그런 다음 새 Office 365 서비스 구독을 반영 하도록 조직이 업데이트 됩니다. 간단한 구독 전송 프로세스 중에는 구독의 변경 내용이 차단 됩니다.
+- 독일 Microsoft 클라우드의 Office 365 및 Dynamics 구독은 Azure AD 재배치와 함께 독일 지역으로 전환됩니다. 그러면 조직이 새 Office 365 서비스 구독을 반영하여 업데이트됩니다. 간략한 구독 전송 프로세스 중에 구독에 대한 변경 내용이 차단됩니다.
 
-- 테 넌 트가 Office 365 서비스로 전환 되 면 해당 독일 관련 구독 및 라이선스는 새로운 Office 365 서비스 제품으로 표준화 됩니다. 전송 된 독일 구독에 해당 하는 Office 365 서비스 구독을 구입 합니다. 독일 라이선스가 있는 사용자에 게 Office 365 서비스 라이선스가 할당 됩니다. 완료 되 면 레거시 독일 구독은 현재 Office 365 서비스 테 넌 트에서 취소 되 고 제거 됩니다.
+- 테넌트가 Office 365 서비스로 전환될 때 독일 관련 구독 및 라이선스는 새로운 Office 365 서비스 제품으로 표준화됩니다. 전송된 독일 구독에 해당하는 Office 365 서비스 구독을 구매합니다. 독일 라이선스가 있는 사용자에게는 Office 365 서비스 라이선스가 할당됩니다. 완료되면 레거시 독일 구독이 취소되고 현재 Office 365 서비스 테넌트에서 제거됩니다.
 
-- 개별 작업을 마이그레이션한 후에는 새 Office 365 서비스 구독으로 인해 Office 365 서비스 (예: Microsoft Planner 및 Microsoft Flow)를 통해 추가 기능을 사용할 수 있게 됩니다. 조직에 적합 한 경우 테 넌 트 또는 라이선스 관리자는 새 서비스를 도입 하기 위해 변경 관리를 계획할 때 새 서비스 계획을 사용 하지 않도록 설정할 수 있습니다. 사용자 라이선스에 할당 된 서비스 계획을 사용 하지 않도록 설정 하는 방법에 대 한 지침은 [사용자 라이선스를 할당 하는 동안 Microsoft 365 services에 대 한 액세스 사용 안 함을](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)참조 하세요.
+- 개별 워크로드를 마이그레이션한 후 새로운 Office 365 서비스 구독으로 Office 365 서비스(예: Microsoft Planner 및 Microsoft Flow)를 통해 추가 기능을 사용할 수 있습니다. 조직에 적합한 경우 테넌트 또는 라이선스 관리자는 새 서비스를 도입하기 위해 변경 관리를 계획할 때 새 서비스 계획을 사용하지 않도록 설정할 수 있습니다. 사용자 라이선스에 할당된 서비스 계획을 사용하지 않도록 설정하는 방법에 대한 지침은 사용자 라이선스를 할당하는 동안 [Microsoft 365](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)서비스에 대한 액세스 비활성화를 참조하세요.
 
 ## <a name="exchange-online"></a>Exchange Online
 
-- Exchange 리소스 Url은 마이그레이션 후 레거시 독일 끝점에서 `outlook.office.de` Office 365 서비스 끝점으로 전환 `outlook.office365.com` 됩니다. 사용자는 마이그레이션이 완료 될 때까지 레거시 URL을 사용 하 여 마이그레이션된 사서함에 액세스할 수 있습니다. 고객은 독일 환경의 만료 영향을 방지 하기 위해 Exchange 마이그레이션이 시작 된 후 가능한 한 빨리 사용자를 새 URL로 전환 해야 합니다. Outlook services에 대 한 Office 365 서비스 Url은 Exchange 마이그레이션이 시작 된 후에만 사용할 수 있습니다.
+- 마이그레이션 후 레거시 독일 끝점에서 Office 365 서비스 끝점으로 Exchange 리소스 URL이 `outlook.office.de` `outlook.office365.com` 전환됩니다. 사용자는 마이그레이션이 완료될 때까지 레거시 URL을 사용하여 마이그레이션된 사서함에 액세스할 수 있습니다. 고객은 Exchange 마이그레이션이 독일 환경의 사용 중지에 영향을 주지 않도록 시작한 후 최대한 빨리 사용자를 새 URL로 전환해야 합니다. Outlook 서비스의 Office 365 서비스 URL은 Exchange 마이그레이션이 시작된 후에만 사용할 수 있습니다.
 
-- 사서함은 백엔드 프로세스로 마이그레이션됩니다. 조직의 사용자는 전환 중에 Microsoft 클라우드 독일 또는 독일어 지역에 있을 수 있으며 같은 Exchange 조직의 일부인 동시에 동일한 전체 주소 목록에 있습니다.
+- 사서함은 백end 프로세스로 마이그레이션됩니다. 조직의 사용자는 전환 중에 독일 Microsoft 클라우드 또는 독일 지역에 있을 수 있으며 동일한 Exchange 조직(동일한 전체 주소 목록에 있는)에 있습니다.
 
-- 사서함이 없는 URL을 사용 하 여 서비스에 액세스 하는 Outlook Web App 사용자에 게는 추가 인증 프롬프트가 표시 됩니다. 예를 들어 사용자의 사서함이 Office 365 서비스이 고 사용자의 Outlook Web App 연결이 레거시 끝점을 사용 하는 경우 `outlook.office.de` 에는 사용자가 먼저를 인증 한 `login.microsoftonline.de` 후로를 실행 합니다 `login.microsoftonline.com` . 마이그레이션이 완료 되 면 사용자가 새 URL ()에 액세스할 수 있으며, `https://outlook.office365.com` 예상 되는 단일 로그인 요청만 표시 됩니다. 
+- 사서함이 Outlook Web App URL을 사용하여 서비스에 액세스하는 사용자에 대해 추가 인증 프롬프트가 표시됩니다. 예를 들어 사용자의 사서함이 Office 365 서비스에 있으며 사용자의 Outlook Web App 연결에서 레거시 끝점을 사용하는 경우 사용자는 먼저 레거시 끝점을 인증한 다음 . `outlook.office.de` `login.microsoftonline.de` `login.microsoftonline.com` 마이그레이션이 완료되면 사용자는 새 URL()에 액세스할 수 있으며 예상되는 단일 로그인 요청만 `https://outlook.office365.com` 표시됩니다. 
 
-## <a name="office-services"></a>Office 서비스
+## <a name="office-services"></a>Office Services
 
-Office Online 서비스는 전환 전후에 액세스할 수 `office.de` 있습니다. 사용자의 사서함이 Office 365 서비스로 전환 되 면 사용자는 Office 365 서비스 Url 사용을 시작 해야 합니다. 후속 작업을 통해 Office 365 서비스로 마이그레이션하는 경우 office.com 포털의 인터페이스가 작동 하기 시작 합니다.
+전환 전과 전환 중에 Office Online `office.de` 서비스에 액세스할 수 있습니다. 사용자의 사서함이 Office 365 서비스로 전환되면 사용자는 Office 365 서비스 URL 사용을 시작해야 합니다. 이후 워크로드가 Office 365 서비스로 마이그레이션되면 office.com 포털의 인터페이스가 작동하기 시작됩니다.
 
 ## <a name="exchange-online-protection"></a>Exchange Online Protection
 
-- 백 엔드 Exchange Online Protection (EOP) 기능은 새 독일 지역으로 복사 됩니다.
-- Office 365 보안 및 준수 센터 사용자는 마이그레이션의 일부로 전역 Url을 사용 하도록 전환 해야 `https://protection.office.com` 합니다.
+- 백 엔드 EOP(Exchange Online Protection) 기능은 새로운 독일 지역으로 복사됩니다.
+- Office 365 보안 및 준수 센터 사용자는 마이그레이션의 일부로 전역 URL을 사용하려면 `https://protection.office.com` 전환해야 합니다.
 
 ## <a name="skype-for-business-online"></a>비즈니스용 Skype Online
 
-기존 비즈니스용 Skype Online 고객은 Microsoft 팀으로 이관 됩니다. 자세한 내용은를 참조 [https://aka.ms/SkypeToTeams-Home](https://aka.ms/SkypeToTeams-Home) 하세요.
+기존 비즈니스용 Skype Online 고객은 Microsoft 팀으로 이관 됩니다. 자세한 내용은 [https://aka.ms/SkypeToTeams-Home](https://aka.ms/SkypeToTeams-Home) .
 
 ## <a name="office-365-video"></a>Office 365 비디오
 
-Office 365 비디오를 새 독일어 데이터 센터 지역으로 마이그레이션한 후에도 2021 및 Office 365 Video가 지원 되지 않습니다. Office 365 비디오의 콘텐츠는 SharePoint Online 마이그레이션 과정의 일부로 마이그레이션됩니다. 그러나 Office 365 비디오의 비디오는 SharePoint 마이그레이션 후에 Office 365 비디오 UI에서 재생 되지 않습니다. Office 365 비디오 전환의 마이그레이션 시간 표시줄에 대해 자세히 알아보세요 [(클래식) 개요를](https://docs.microsoft.com/stream/migrate-from-office-365#microsoft-cloud-deutschland-timeline)확인 하세요.
+Office 365 비디오는 2021년 3월 1일에 사용 중지되고, Office 365 비디오는 새로운 독일 데이터 센터 지역으로의 SharePoint Online 마이그레이션이 완료된 후에 지원되지 않습니다. Office 365 비디오의 콘텐츠는 SharePoint Online 마이그레이션의 일부로 마이그레이션됩니다. 그러나 Office 365 비디오의 비디오는 SharePoint 마이그레이션 후 Office 365 비디오 UI에서 재생되지 않습니다. [Office 365 비디오에서 Microsoft Stream(클래식)](https://docs.microsoft.com/stream/migrate-from-office-365#microsoft-cloud-deutschland-timeline)개요로 전환하는 마이그레이션 일정에 대해 자세히 알아보세요.
 
 ## <a name="next-step"></a>다음 단계
 
@@ -99,17 +99,17 @@ Office 365 비디오를 새 독일어 데이터 센터 지역으로 마이그레
 
 ## <a name="more-information"></a>추가 정보
 
-시작 하기:
+시작:
 
-- [Microsoft Cloud 독일에서 새 독일어 데이터 센터 지역의 Office 365 서비스로 마이그레이션](ms-cloud-germany-transition.md)
+- [독일 Microsoft 클라우드에서 새 독일 데이터 센터 지역의 Office 365 서비스로 마이그레이션](ms-cloud-germany-transition.md)
 - [Microsoft Cloud Deutschland 마이그레이션 지원](https://aka.ms/germanymigrateassist)
 - [마이그레이션에 대해 옵트인하는 방법](ms-cloud-germany-migration-opt-in.md)
 
-전환을 통해 이동 하는 경우:
+전환을 통해 이동:
 
-- [마이그레이션 단계 작업 및 영향](ms-cloud-germany-transition-phases.md)
+- [문장 작업 및 영향 마이그레이션](ms-cloud-germany-transition-phases.md)
 - [추가 사전 작업](ms-cloud-germany-transition-add-pre-work.md)
-- [서비스](ms-cloud-germany-transition-add-general.md), [장치](ms-cloud-germany-transition-add-devices.md), [환경](ms-cloud-germany-transition-add-experience.md)및 [AD FS](ms-cloud-germany-transition-add-adfs.md)에 대 한 추가 정보
+- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [디바이스,](ms-cloud-germany-transition-add-devices.md) [환경 및](ms-cloud-germany-transition-add-experience.md)AD [FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
 
 클라우드 앱:
 

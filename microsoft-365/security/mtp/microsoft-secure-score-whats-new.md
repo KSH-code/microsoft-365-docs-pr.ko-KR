@@ -20,26 +20,37 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 4b25f701aca24563dc4f1a15f78a80e1e2064367
-ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
+ms.openlocfilehash: 253e85da7bb85a0722831851f00051a50a96153e
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49604386"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688414"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Microsoft 보안 점수의 새로운
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft 보안 점수가 보안 자세를 보다 잘 대표할 수 있도록 몇 가지 변경을 적용하고 있습니다. 계획된 변경에 대한 자세한 내용은 Microsoft 보안 점수의 출시 [예정을 참조하세요.](microsoft-secure-score-whats-coming.md)
+Microsoft 보안 점수가 보안 자세를 보다 잘 대표할 수 있도록 몇 가지 변경 내용을 적용해보아야 합니다. 계획된 변경에 대한 자세한 내용은 Microsoft 보안 점수의 출시 [예정을 참조하세요.](microsoft-secure-score-whats-coming.md)
 
 Microsoft 보안 점수는 https://security.microsoft.com/securescore Microsoft [365](overview-security-center.md)보안 센터에서 찾을 수 있습니다.
+
+## <a name="december-2020"></a>2020년 12월
+
+### <a name="added-6-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>끝점용 Microsoft Defender(이전의 Microsoft Defender ATP)에 대한 6개 계정 관련 개선 작업이 추가되었습니다.
+
+- '최소 암호 길이'를 '14자 이상'으로 설정
+- '암호 기록 적용'을 '24개 이상의 암호'로 설정
+- '최대 암호 사용 기간'을 '60일 이하로 설정하고 0일이 아닌'로 설정
+- '최소 암호 사용'을 '1일 이상'으로 설정
+- 기본 제공 관리자 계정을 사용하지 않도록 설정
+- 기본 제공 게스트 계정을 사용하지 않도록 설정
 
 ## <a name="november-2020"></a>2020년 11월
 
 ### <a name="removed-the-ability-to-create-servicenow-tickets-through-secure-score"></a>보안 점수를 통해 ServiceNow 티켓을 만드는 기능을 제거했습니다. 
 
-Share > **ServiceNow로** 진행하여 보안 점수를 통해 ServiceNow 티켓을 만드는 기능을 더 이상 사용할 수 없습니다. 다음 단계를 결정하는 동안 여러분의 피드백에 감사드립니다. 지원을 계속해주신 경우
+Share > **ServiceNow로** 진행하여 보안 점수를 통해 ServiceNow 티켓을 만드는 기능을 더 이상 사용할 수 없습니다. 다음 단계를 결정하는 동안 여러분의 피드백에 감사하고 지원을 계속해주신 것을 환영합니다.
 
 ### <a name="added-3-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>끝점용 Microsoft Defender(이전의 Microsoft Defender ATP)에 대한 3개 서비스 관련 개선 작업이 추가되었습니다.
 
@@ -51,17 +62,17 @@ Share > **ServiceNow로** 진행하여 보안 점수를 통해 ServiceNow 티켓
 
 ### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender와 관련된 개선 작업 제거
 
-- 경고를 표시하기 위해 Microsoft Defender SmartScreen Windows 스토어 앱 웹 콘텐츠 확인 설정
+- 경고할 Microsoft Defender SmartScreen Windows 스토어 앱 웹 콘텐츠 검사 설정
 
 ## <a name="august-2020"></a>2020년 8월
 
 ### <a name="updated-improvement-action-for-azure-active-directory"></a>Azure Active Directory에 대한 개선 작업 업데이트
 
-- 레거시 인증을 차단하는 정책 사용
+- 정책을 사용하여 레거시 인증 차단
 
 ## <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>ID 보안 점수 및 Graph API와의 비호치
 
-Microsoft 보안 점수의 최근 릴리스에서는 향상된 점수 모델이 릴리스되었습니다. 이러한 변경을 통해 보안 자세를 보다 유연하고 정확하게 볼 수 있습니다. 그러나 이러한 업데이트로 Microsoft 보안 점수가 ID 보안 점수 및 Graph API와 일시적으로 양자화되지 않습니다.
+Microsoft 보안 점수의 최근 릴리스에서는 향상된 점수 모델이 릴리스되었습니다. 이러한 변경을 통해 보안 자세를 보다 유연하고 정확하게 볼 수 있습니다. 그러나 이러한 업데이트로 Microsoft 보안 점수가 ID 보안 점수 및 Graph API와 일시적으로 무관하게 됩니다.
 
 시간이 지날 때 ID 보안 점수 및 Graph API는 새로운 점수 매기기 모델을 채택합니다. 그 때까지 고객은 Microsoft 보안 점수, ID 보안 점수 및 Graph API에서 보고한 점수의 차이를 확인할 수 있습니다. 이로 인해 불편을 드려 죄송합니다. 또한 향후 이러한 환경이 더욱 호환될 수 있도록 지원하기 위해 작업 중입니다.
 

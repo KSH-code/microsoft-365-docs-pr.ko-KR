@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Microsoft 365에서 이전 도메인을 제거하고 사용자 및 그룹을 다른 도메인으로 이동하는 방법을 배워야 합니다.
-ms.openlocfilehash: cddbb0ef9cf48147e33b93a4a8def15576edfab5
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 02ec704e400af76c25c0eb54de10291e2ef3caa2
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49655533"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688264"
 ---
 # <a name="remove-a-domain"></a>도메인 제거
 
@@ -52,7 +52,7 @@ ms.locfileid: "49655533"
 
 2. 사용자 **활성 사용자를** > **선택합니다.**
 
-3. 이동할 모든 사용자의 이름 옆에 있는 확인란을 선택합니다.
+3. 이동할 모든 사용자의 이름 옆에 있는 상자를 선택합니다.
 
 4. Select **More options** (**...**), at the top of the page, and then choose **Change domains**.
 
@@ -68,7 +68,7 @@ ms.locfileid: "49655533"
 
 2. 사용자 **활성 사용자를** > **선택합니다.**
 
-3. 이동할 모든 사용자의 이름 옆에 있는 확인란을 선택합니다.
+3. 이동할 모든 사용자의 이름 옆에 있는 상자를 선택합니다.
 
 4. At the top of the page, choose **More** > **Edit domains.**
 
@@ -84,7 +84,7 @@ ms.locfileid: "49655533"
 
 2. 사용자 **활성 사용자를** > **선택합니다.**
 
-3. 이동할 모든 사용자의 이름 옆에 있는 확인란을 선택합니다.
+3. 이동할 모든 사용자의 이름 옆에 있는 상자를 선택합니다.
 
 4. At the top of the page, choose **More** > **Edit domains.**
 
@@ -100,7 +100,7 @@ ms.locfileid: "49655533"
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>로 이동합니다.
 
-2. 사용자  활성 \> **사용자로 이동한** 후 목록에서 계정을 선택합니다.
+2. 사용자  활성 \> **사용자로 이동한** 다음 목록에서 계정을 선택합니다.
 
 3. 계정 **탭에서** **사용자** 이름 관리를 선택한 다음 다른 도메인을 선택합니다.
   
@@ -148,9 +148,9 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 그룹 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">페이지로</a> 이동합니다.
+1. 관리 센터에서 그룹 **그룹 페이지로** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a> 이동합니다.
   
-2. 그룹 이름을 선택한 다음 전자  메일 주소 기본 아래에 있는 일반 탭에서 **편집을** **선택합니다.**
+2. 그룹 이름을 선택한 다음 전자 메일 주소 기본 아래에 있는 일반 **탭에서** **편집을** **선택합니다.**
 
 3. 드롭다운 목록을 사용하여 다른 도메인을 선택합니다.
 
@@ -160,7 +160,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 ::: moniker range="o365-germany"
 
-1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">센터에서</a>그룹 **그룹** > **페이지로** 이동합니다.
+1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">센터에서</a>그룹 **그룹 페이지로** >  이동합니다.
 
 2. 그룹 이름을 선택하고 이름 옆에 **있는** 편집을 **선택합니다.**
 
@@ -172,7 +172,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">센터에서</a>그룹 **그룹** > **페이지로** 이동합니다.
+1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">센터에서</a>그룹 **그룹 페이지로** >  이동합니다.
 
 2. 그룹 이름을 선택하고 이름 옆에 **있는** 편집을 **선택합니다.**
 
@@ -219,7 +219,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
-> 계정에서 [". onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) 도메인을 제거할 수 없습니다.
+> 계정에서 [". onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) 도메인을 제거할 수 없습니다. 도메인을 제거하면 사용자 계정이 기본 SMTP/UserprincipalName onmicrosoft.com ".onmicrosoft.com" 주소로 되돌아가게 됩니다.
   
 여전히 작동하지 않나요? 도메인을 수동으로 제거해야 할 수도 있습니다. [전화로 연락주시면](../contact-support-for-business-products.md) 작업을 수행할 수 있도록 지원하겠습니다.
   

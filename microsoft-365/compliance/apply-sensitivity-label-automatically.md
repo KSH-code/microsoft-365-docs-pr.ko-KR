@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 15b841f857eee1861a39a3d0e2e27025fadb90f4
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: dafb31f823dc8c63fa19ad8dba0624ee2037b859
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568500"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682833"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -52,7 +52,7 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
 
 - **콘텐츠가 이미 저장되었거나(SharePoint 또는 OneDrive) 전자 메일로 전송(Exchange Online에서 처리됨)된 경우 서비스쪽 레이블 지정**: 자동 레이블 지정 정책을 사용합니다. 
     
-    또한 유휴 데이터(SharePoint 및 OneDrive의 문서) 및 전송 중인 데이터(Exchange에서 보내거나 받은 전자 메일)에 대한 자동 레이블 지정이라고 부르는 경우도 있습니다. Exchange의 경우 유휴 전자 메일(사서함)은 포함되지 않습니다. 
+    또한 유휴 데이터(SharePoint 및 OneDrive의 문서) 및 전송 중인 데이터(Exchange에서 보내거나 받은 전자 메일)에 대한 자동 레이블 지정이라고 부르는 경우도 있습니다. Exchange의 경우 유휴 전자 메일(사서함)은 포함되지 않습니다.
     
     이 레이블 지정은 응용 프로그램이 아닌 서비스에서 적용되므로 사용자에게 어떤 버전의 앱이 있는지 걱정할 필요가 없습니다. 따라서 이 기능은 조직 전체에서 즉시 사용할 수 있으며 대규모로 레이블을 지정하는 데 적합합니다. 자동 레이블 지정 정책은 사용자가 레이블 지정 프로세스와 상호 작용하지 않기 때문에 권장되는 레이블 지정을 지원하지 않습니다. 대신 관리자가 시뮬레이션 모드에서 정책을 실행하여 실제로 레이블을 적용하기 전에 콘텐츠의 올바른 레이블을 확인합니다.
     
@@ -60,6 +60,7 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
     
     SharePoint 및 OneDrive에 대한 자동 레이블 지정에만 해당:
     - Word, PowerPoint 및 Excel용 Office 파일이 지원됩니다. Open XML 형식(예: .docx 및 .xlsx)은 지원되지만, Microsoft Office 97~2003 형식(예: .doc 및 .xls)은 지원되지 않습니다.
+        - 이러한 파일은 열려 있는 세션의 일부가 아닌 경우, 자동 레이블 지정 정책을 만든 이후 해당 파일이 생성, 업로드 또는 변경되었는지, 또는 자동 레이블 지정 정책을 만든 이후 변경되지 않은 기존 파일인지 여부에 관계없이 자동으로 레이블이 지정될 수 있습니다.
     - 테넌트에서 하루 최대 25,000개의 자동 레이블 지정 파일 수.
     - 최대 10개의 사이트 (SharePoint 또는 OneDrive)를 대상으로 하는 테넌트당 최대 10개의 자동 레이블 정책.
     - 시뮬레이션 모드 및 레이블 적용 시 둘 다의 경우 자동 레이블링 정책의 결과로 수정됨, 수정자 및 날짜에 대한 기존 값은 변경되지 않습니다.
@@ -299,8 +300,6 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     ![정책 자동 레이블 지정 마법사 테스트](../media/simulation-mode-auto-labeling-wizard.png)
 
 13. **요약** 페이지에서 자동 레이블 지정 정책의 구성을 검토하고 필요한 사항을 변경한 후 마법사를 완료합니다.
-    
-    Office 앱에 대한 자동 레이블 지정 기능과 달리 별도의 게시 옵션은 없습니다. 그러나 게시 레이블과 마찬가지로 자동 레이블 지정 정책이 조직 전체에 복제될 때까지 최대 24시간이 소요됩니다.
 
 이제 **정보 보호** > **자동 레이블 지정** 페이지에서 **시뮬레이션** 혹은 **끄기** 구역에 시뮬레이션 모드에서 실행할지의 선택 여부에 따라 자동 레이블 지정 정책이 표시됩니다. 구성 및 상태에 대한 세부 사항을 보려면 정책을 선택합니다(예: **정책 시뮬레이션을 아직 실행 중**). 시뮬레이션 모드에서의 정책의 경우 **일치 항목** 탭을 선택하여 지정한 규칙과 일치하는 전자 메일 또는 문서를 확인합니다.
 
@@ -325,7 +324,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 
 ### <a name="use-powershell-for-auto-labeling-policies"></a>자동 레이블 지정 정책을 위한 PowerShell 사용
 
-이제 [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/scc-powershell)을 사용하여 자동 레이블 지정 정책을 만들고 구성할 수 있습니다. 즉, 이제 자동 레이블 지정 정책의 생성 및 유지 관리를 완전히 스크립팅할 수 있으며 OneDrive 및 SharePoint 위치에 대해 여러 URL을 지정하는 보다 효율적인 방법을 제공합니다.
+[보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/scc-powershell)을 사용하여 자동 레이블 지정 정책을 만들고 구성할 수 있습니다. 즉, 자동 레이블 지정 정책의 생성 및 유지 관리를 완전히 스크립팅할 수 있으며 OneDrive 및 SharePoint 위치에 대해 여러 URL을 지정하는 보다 효율적인 방법을 제공합니다.
 
 PowerShell에서 명령을 실행하기 전에 먼저 [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)해야 합니다.
 
@@ -362,4 +361,3 @@ New-AutoSensitivityLabelRule -Policy <AutoLabelingPolicyName> -Name <AutoLabelin
 - [Remove-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/remove-autosensitivitylabelrule)
 - [Set-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-autosensitivitylabelpolicy)
 - [Set-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/set-autosensitivitylabelrule)
-

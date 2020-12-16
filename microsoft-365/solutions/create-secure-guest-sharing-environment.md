@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Microsoft 365에서 안전한 게스트 공유 환경을 만드는 데 사용할 수 있는 옵션에 대해 알아보고, 공동 작업을 위한 게스트 액세스를 제공합니다.
-ms.openlocfilehash: 4e2045113a6c98e2b3839a3a2cdd83105be94023
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: c52feeb8e5c85d38dfa1623ecdd7c2ee2a381fbd
+ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558191"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49667708"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>보안 게스트 공유 환경 만들기
 
@@ -162,7 +162,7 @@ Azure AD의 액세스 검토로 다양한 팀과 그룹에 대한 주기적 사�
 
 Microsoft 365 그룹 및 Teams의 경우, Azure AD 조건부 액세스 정책을 사용하여 이 작업을 수행합니다. SharePoint의 경우, 이는 SharePoint 관리 센터에서 구성됩니다. (사용자는 또한 [민감도 레이블을 사용하여 게스트를 웹 전용 액세스로 제한](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)할 수도 있습니다.)
 
-그룹 및 팀에 대해 게스트를 웹 전용 액세스로 제한하려면 다음을 수행합니다.
+그룹 및 Teams에 대해 게스트를 웹 전용 액세스로 제한하려면 다음을 수행합니다.
 
 1. [Azure 조건부 액세스 정책](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade)으로 이동합니다.
 2. **조건부 액세스 - 정책** 블레이드에서 **새 정책** 을 클릭합니다.

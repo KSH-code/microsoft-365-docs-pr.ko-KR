@@ -22,12 +22,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365에서 조직의 중요한 정보를 자동으로 식별하고 모니터링하고 보호하는 방법을 알아봅니다.
-ms.openlocfilehash: 0817d48879fccbefcda22d677c85a250dc017dd0
-ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
+ms.openlocfilehash: 75c2f4d81b3378d031adc394a9c8f7615d51079c
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999504"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682801"
 ---
 # <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -96,7 +96,7 @@ DLP 정책은 Microsoft 365 위치에서 중요한 항목에 적용되며 이 �
 |Microsoft Cloud App Security |인스턴스 |
 
 
- Exchange에서 특정 메일 그룹을 포함하도록 선택하는 경우 DLP 정책은 해당 그룹의 구성원으로만 범위가 지정됩니다. 마찬가지로 메일 그룹을 제외하면 해당 메일 그룹의 모든 구성원이 정책 평가에서 제외됩니다. 메일 그룹의 구성원, 동적 메일 그룹, 보안 그룹에 대한 정책의 범위를 선택할 수 있습니다. DLP 정책에는 50개 이하의 이러한 포함 및 제외가 포함될 수 있습니다.
+ Exchange에서 특정 메일 그룹을 포함하도록 선택하는 경우 DLP 정책은 해당 그룹의 구성원으로만 제한됩니다. 마찬가지로 메일 그룹을 제외하면 해당 메일 그룹의 모든 구성원이 정책 평가에서 제외됩니다. 메일 그룹의 구성원, 동적 메일 그룹, 보안 그룹에 대한 정책의 범위를 선택할 수 있습니다. DLP 정책에는 50개 이하의 이러한 포함 및 제외가 포함될 수 있습니다.
 
 특정 SharePoint 사이트 또는 OneDrive 계정을 포함하거나 제외하도록 선택하는 경우 DLP 정책은 이러한 포함 항목 및 제외 항목을 100개까지 포함할 수 있습니다. 해당 제한 사항에도 불구하고 조직 전체의 정책이나 전체 위치에 적용되는 정책을 적용하여 해당 제한 사항을 극복할 수 있습니다.
   
@@ -342,7 +342,7 @@ DLP 정책을 만들고 설정한 후에 다음과 같은 문제가 발생하기
   
 해당 이유로 서로 다른 일치 정확도가 있는 규칙을 만들 때의 지침은 다음과 같습니다:
   
-- 일반적으로 가장 낮은 신뢰 수준에서는 **최소** 와 **최대** (범위 아님)에 같은 값을 사용합니다. 
+- 일반적으로 가장 낮은 신뢰 수준에서는 **최소** 와 **최대**(범위 아님)에 같은 값을 사용합니다. 
     
 - 일반적으로 가장 높은 신뢰 수준은 낮은 신뢰 수준 바로 위에서 100까지의 범위입니다.
     
@@ -353,21 +353,21 @@ DLP 정책을 만들고 설정한 후에 다음과 같은 문제가 발생하기
 DLP 정책에서 이전에 생성 및 게시 된 [보존 레이블](retention.md#retention-labels)을 조건으로 사용하는 경우 다음 사항에 유의해야 합니다.
 
 - DLP 정책의 조건으로 사용하기 전 미리 보존 레이블을 작성 및 게시해야 합니다.
-- 게시된 보존 레이블이 동기화되기까지 1일에서 7일까지 걸릴 수 있습니다. 자세한 내용은 보존 정책에서 게시되는 보존 레이블에 대한 [보존 레이블을 적용할 수 있는 시기](create-apply-retention-labels.md#when-retention-labels-become-available-to-apply) 및 자동 게시되는 보존 레이블에 대한 [보존 레이블이 유효해지는 데 소요되는 시간](apply-retention-labels-automatically.md#how-long-it-takes-for-retention-labels-to-take-effect)을 참조하세요.
+- 게시한 보존 레이블이 동기화되기까지 1일에서 7일까지 걸릴 수 있습니다. 자세한 내용은 보존 정책 형태로 게시되는 보존 레이블에 대한 [보존 레이블을 적용할 수 있게 되는 때](create-apply-retention-labels.md#when-retention-labels-become-available-to-apply) 및 자동 게시되는 보존 레이블에 대한 [보존 레이블이 유효해지는 데 걸리는 시간](apply-retention-labels-automatically.md#how-long-it-takes-for-retention-labels-to-take-effect)을 참조하세요.
 - 정책에서 보존 레이블의 사용은 **SharePoint 및 OneDrive** 의 항목에 한해 지원됩니다.
 
   ![조건으로서의 레이블](../media/5b1752b4-a129-4a88-b010-8dcf8a38bb09.png)
 
-  보존 및 처리 중인 항목이 있고 다른 컨트롤을 적용하려는 경우 DLP 정책에서 보존 레이블을 사용할 수 있습니다. 예를 들면 다음과 같습니다.
+  보존 및 처리 중인 항목이 있고 다른 컨트롤을 적용하려는 경우 DLP 정책에 보존 레이블을 사용할 수 있습니다. 예를 들면 다음과 같습니다.
 
-  - _*과세 연도 2018**이라는 보존 레이블을 게시하고 SharePoint에 저장된 2018년의 과세 문서에 적용하는 경우 10년 간 보관 후 폐기합니다. 또한 DLP 정책으로 수행할 수 있는 항목을 조직 외부에서 공유하지 않을 수 있습니다.
+  - _*과세 연도 2018**이라는 보존 레이블을 게시하고 SharePoint에 저장된 2018년의 과세 문서에 적용하는 경우 10년 간 보관 후 폐기합니다. 또한 DLP 정책으로 수행할 수 있는 항목을 조직 외부에서 공유하고 싶지 않습니다.
 
   > [!IMPORTANT]
   > DLP 정책에서 보존 레이블을 조건으로 지정하고 Exchange 및/또는 Teams를 위치로 포함하면 이 오류가 발생합니다. **"전자 메일 및 팀 메시지에서 레이블이 지정된 콘텐츠를 보호할 수 없습니다. 아래의 레이블을 제거하거나 Exchange 및 Teams를 위치로 사용하는 것을 중지하세요."** 이는 Exchange 전송에서 메시지 제출 및 배달이 진행되는 동안 레이블 메타 데이터를 평가하지 않기 때문입니다. 
 
-### <a name="support-for-sensitivity-labels-is-coming"></a>민감도 레이블 지원이 곧 제공됩니다.
+### <a name="using-a-sensitivity-label-as-a-condition-in-a-dlp-policy"></a>민감도 레이블을 DLP 정책의 조건으로 사용
 
-현재 보존 레이블만 조건으로 사용할 수 있습니다. [민감도 레이블](sensitivity-labels.md)은 사용할 수 없습니다. 현재 해당 조건에서 민감도 레이블 사용에 대한 지원을 연구하고 있습니다.
+미리 보기에서 민감도 레이블을 DLP 정책의 조건으로 사용합니다. [자세한 정보](https://docs.microsoft.com/microsoft-365/compliance/dlp-sensitivity-label-as-condition).
   
 ### <a name="how-this-feature-relates-to-other-features"></a>해당 기능이 다른 기능과 관련되는 방식
 
@@ -441,7 +441,7 @@ DLP 정책을 만든 후에는 완전히 적용하기 전에 서서히 롤아웃
 
     ![정책에서 규칙을 종료하기 위한 옵션](../media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
 
-    정책에서 여러 규칙의 우선 순위를 변경할 수도 있습니다. 이를 위해 편집할 정책을 엽니다. 규칙의 행에서 줄임표( **...** )를 선택하고 **아래로 이동** 또는 **마지막 규칙 가져오기** 와 같은 옵션을 선택하십시오.
+    정책에서 여러 규칙의 우선 순위를 변경할 수도 있습니다. 이를 위해 편집할 정책을 엽니다. 규칙의 행에서 줄임표(**...**)를 선택하고 **아래로 이동** 또는 **마지막 규칙 가져오기** 와 같은 옵션을 선택하십시오.
 
     ![규칙 우선 순위를 설정하십시오.](../media/dlp-set-rule-priority.png)
   

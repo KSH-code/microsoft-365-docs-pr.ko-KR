@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: 전자 메일 및 비즈니스용 Skype Online과 같은 서비스에서 사용자 도메인 이름을 사용할 수 있도록 Microsoft 365에서 도메인을 추가하고 설정하는 방법을 학습합니다.
-ms.openlocfilehash: a4218b03e3f23ba8bc39c5eb84b42f87a71b9a65
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 492bc5d2a5f3fd9810f045e7effda1ea20fa15ed
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658602"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688252"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>도메인 등록 기관에서 이름 서퍼를 변경하여 Microsoft 365 설정
 
@@ -40,9 +40,9 @@ ms.locfileid: "49658602"
   
 전자 메일 및 Teams와 같은 서비스가 사용자 도메인 이름을 사용할 수 있도록 Microsoft 365에서 도메인을 추가하고 설정하려면 다음 지침을 따르세요. 이렇게하려면 도메인을 확인한 다음 올바른 DNS 레코드를 설정할 수 있도록 도메인의 이름 서버를 Microsoft 365로 변경합니다. 다음 설명에 따라 상황을 설명하는 경우 다음 단계를 수행합니다.
   
-- 자체 도메인이 있으며 Microsoft 365와 함께 작동할 수 있도록 설정하고 싶을 것입니다.
+- 자체 도메인이 있으며 Microsoft 365와 함께 작동할 수 있도록 설정하고자 합니다.
     
-- Microsoft 365에서 DNS 레코드를 관리하기를 원합니다. 원하는 경우 [고유한 DNS 레코드를 관리](../setup/add-domain.md)할 수도 있습니다.
+- Microsoft 365에서 DNS 레코드를 관리하게 하려는 경우 원하는 경우 [고유한 DNS 레코드를 관리](../setup/add-domain.md)할 수도 있습니다.
     
 ## <a name="add-a-txt-or-mx-record-for-verification"></a>확인을 위해 TXT 또는 MX 레코드 추가
 <a name="BKMK_verify"> </a>
@@ -108,13 +108,13 @@ Microsoft 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 
 ## <a name="change-your-domains-nameserver-ns-records"></a>도메인의 NS(이름 서버) 레코드 변경
 <a name="BKMK_nameservers"> </a>
 
-Microsoft 365에서 도메인 설정 마법사의 마지막 단계에 액세스하면 작업이 한 번 남게 됩니다. 전자 메일과 같은 Microsoft 365 서비스로 도메인을 설정하려면 도메인 등록 기관에서 Microsoft 365 기본 및 보조 이름 서비스를 설정하기 위해 도메인의 이름 서비스(또는 NS) 레코드를 변경합니다. 그런 다음 Microsoft 365가 DNS를 호스트하기 때문에 서비스에 필요한 DNS 레코드가 자동으로 설정됩니다. 도메인 등록 기관의 웹 사이트에서 도움말 콘텐츠를 제공한 경우 해당 단계를 따라 이름 서버 레코드를 직접 업데이트할 수 있습니다. DNS에 익숙하지 않다면 도메인 등록 기관의 지원에 문의하세요.
+Microsoft 365에서 도메인 설정 마법사의 마지막 단계에 액세스하면 작업이 한 번 남게 됩니다. 전자 메일과 같은 Microsoft 365 서비스로 도메인을 설정하려면 도메인 등록 기관에서 Microsoft 365 기본 및 보조 이름 서비스를 지점으로 하여 도메인의 이름 서비스(또는 NS) 레코드를 변경합니다. 그런 다음 Microsoft 365가 DNS를 호스트하기 때문에 서비스에 필요한 DNS 레코드가 자동으로 설정됩니다. 도메인 등록 기관의 웹 사이트에서 도움말 콘텐츠를 제공한 경우 해당 단계를 따라 이름 서버 레코드를 직접 업데이트할 수 있습니다. DNS에 익숙하지 않다면 도메인 등록 기관의 지원에 문의하세요.
 
 ::: moniker range="o365-worldwide"
   
 도메인 등록 기관 웹 사이트에서 도메인 이름 서버를 직접 변경하려면 다음 단계를 따릅니다.
   
-1. 도메인 등록 기관의 웹 사이트에서 도메인 또는 사용자 지정 이름 서비스를 사용할 수 있는 영역의 이름 서비스를 변경할 수 있는 영역을 찾아야 합니다.
+1. 도메인 등록 기관의 웹 사이트에서 도메인의 이름 서비스를 변경할 수 있는 영역이나 사용자 지정 이름 서비스를 사용할 수 있는 영역을 찾아야 합니다.
     
 2. 이름 서비스 레코드를 만들거나 다음 값과 일치하게 기존 이름 서비스 레코드를 편집합니다.
     
@@ -147,12 +147,12 @@ Microsoft 365에서 도메인 설정 마법사의 마지막 단계에 액세스�
 |두 번째 이름 서버  <br/> |ns2.dns.partner.microsoftonline.cn  <br/> |
    
    > [!TIP]
-   > 이름 서비스 레코드를 두 개 이상 사용해야 합니다. 나열된 다른 이름servers가 있는 경우 해당 이름을 삭제하거나 다른 이름으로 ns3.dns.partner.microsoftonline.cn  **ns4.dns.partner.microsoftonline.cn.** 
+   > 이름 서비스 레코드를 두 개 이상 사용해야 합니다. 다른 이름servers가 나열되어 있는 경우 해당 이름을 삭제하거나  다른 이름으로 ns3.dns.partner.microsoftonline.cn **ns4.dns.partner.microsoftonline.cn.** 
   
 3. 변경 내용을 저장합니다.
     
 > [!CAUTION]
-> 21Vianet 이름 서비스에서 운영하는 Office 365를 설정하기 위해 도메인의 NS 레코드를 변경하면 현재 도메인과 연결된 모든 서비스가 영향을 받을 수 있습니다. 전자 메일 주소 추가와 같은 마법사의 특정 단계를 건너뛰거나 블로그, 장바구니 또는 기타 서비스에 사용자 도메인을 사용 중인 경우 추가 단계가 필요합니다. 추가 단계를 수행하지 않으면 이러한 변경으로 인해 전자 메일 또는 현재 웹 사이트에 액세스 불가와 같은 서비스 중단이 발생할 수 있습니다. 
+> 21Vianet 이름 서비스에서 운영하는 Office 365를 설정하기 위해 도메인의 NS 레코드를 변경하면 현재 도메인과 연결된 모든 서비스가 영향을 받는 것입니다. 전자 메일 주소 추가와 같은 마법사의 특정 단계를 건너뛰거나 블로그, 장바구니 또는 기타 서비스에 사용자 도메인을 사용 중인 경우 추가 단계가 필요합니다. 추가 단계를 수행하지 않으면 이러한 변경으로 인해 전자 메일 또는 현재 웹 사이트에 액세스 불가와 같은 서비스 중단이 발생할 수 있습니다. 
 
 ::: moniker-end
   
@@ -166,7 +166,7 @@ Microsoft 365에서 도메인 설정 마법사의 마지막 단계에 액세스�
 
 2. 도메인 **페이지에서** 도메인을 선택한 다음 **DNS 레코드를 선택합니다.**
 
-3. **DNS 설정에서** 사용자 지정 **레코드를** 선택한 다음 새 사용자 지정 **레코드를 선택합니다.**
+3. DNS **관리에서** 사용자 지정 **레코드를** 선택한 다음 새 사용자 지정 **레코드를 선택합니다.**
 
 4. 추가할 DNS 레코드 유형을 선택하고 새 레코드에 대한 정보를 입력합니다.
 

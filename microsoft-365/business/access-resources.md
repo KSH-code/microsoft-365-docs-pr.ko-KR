@@ -21,18 +21,18 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Azure Active Directory에 연결된 Windows 10 장치의 LOB(기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 액세스하는 방법을 알아봅니다.
-ms.openlocfilehash: 2144268f5cbab67c39d5902622c61c0c35e6481c
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 22edf0c23d6318e1f70bcb21b2cd697ea0a75da4
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295313"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688236"
 ---
-# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Microsoft 365 Business Premium의 Azure AD에 가입 된 장치에서 온-프레미스 리소스에 액세스
+# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Microsoft 365 Business Premium의 Azure AD 가입 장치에서의 On-premises 리소스 액세스
 
-이 문서는 Microsoft 365 Business Premium에 적용 됩니다.
+이 문서는 Microsoft 365 Business Premium에 적용됩니다.
 
-Azure Active Directory에 가입 된 모든 Windows 10 장치에는 Microsoft 365 앱과 같은 모든 클라우드 기반 리소스에 대 한 액세스 권한이 있으며 Microsoft 365 Business Premium으로 보호할 수 있습니다. LOB(기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 대한 액세스를 허용할 수도 있습니다. 액세스를 허용하려면 [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)를 사용하여 온-프레미스 Active Directory를 Azure Active Directory와 동기화합니다. 
+Azure Active Directory에 가입된 모든 Windows 10 디바이스는 Microsoft 365 앱과 같은 모든 클라우드 기반 리소스에 액세스할 수 있으며 Microsoft 365 Business Premium으로 보호될 수 있습니다. LOB(기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 대한 액세스를 허용할 수도 있습니다. 액세스를 허용하려면 [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)를 사용하여 온-프레미스 Active Directory를 Azure Active Directory와 동기화합니다. 
 
 자세한 내용은 [Azure Active Directory에서 장치 관리 소개](https://docs.microsoft.com/azure/active-directory/device-management-introduction)를 참조하세요.
 다음 섹션에서도 단계는 요약되어 있습니다.
@@ -43,9 +43,9 @@ Azure Active Directory에 가입 된 모든 Windows 10 장치에는 Microsoft 36
   
 1. 로컬 Active Directory의 사용자, 그룹 및 연락처를 Azure Active Directory와 동기화하려면 [Office 365에 대한 디렉터리 동기화 설정](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)에서 설명한 대로 디렉터리 동기화 마법사 및 Azure AD Connect를 실행합니다.
     
-2. 디렉터리 동기화가 완료되면 조직의 Windows 10 장치가 Azure AD에 연결되어 있는지 확인합니다. 이 단계는 각각의 Windows 10 장치에서 개별적으로 수행됩니다. 자세한 내용은 [Microsoft 365 Business Premium 사용자를 위한 Windows 장치 설정을](set-up-windows-devices.md) 참조 하세요. 
+2. 디렉터리 동기화가 완료되면 조직의 Windows 10 장치가 Azure AD에 연결되어 있는지 확인합니다. 이 단계는 각각의 Windows 10 장치에서 개별적으로 수행됩니다. 자세한 [내용은 Microsoft 365 Business Premium](set-up-windows-devices.md) 사용자에 대한 Windows 장치 설정을 참조합니다. 
     
-3. Windows 10 장치가 Azure AD에 가입 되 면 각 사용자는 자신의 장치를 다시 부팅 하 고 Microsoft 365 Business Premium 자격 증명으로 로그인 해야 합니다. 이제 모든 장치에서 온-프레미스 리소스에 액세스할 수 있습니다.
+3. Windows 10 장치가 Azure AD에 가입된 후 각 사용자는 장치를 다시 시작하고 Microsoft 365 Business Premium 자격 증명으로 로그인해야 합니다. 이제 모든 장치에서 온-프레미스 리소스에 액세스할 수 있습니다.
     
 Azure AD 조인 장치에 대한 온-프레미스 리소스에 액세스하는 데 필요한 추가 단계는 없습니다. 이 기능은 Windows 10에서 기본 제공됩니다. 
 
@@ -63,4 +63,4 @@ Azure AD에 연결된 Windows 장치가 이전에 도메인에 가입된 경우 
 
 - 사용자가 Active Directory 인증에 의존하는 응용 프로그램에 인증할 수 없습니다. 레거시 앱을 평가하고 가능한 경우 최신 인증을 사용하는 앱으로 업데이트하는 것이 좋습니다.
 
-- Active Directory 프린터 검색이 작동하지 않습니다. 모든 사용자에 대해 직접 프린터 경로를 제공하거나 [하이브리드 클라우드 인쇄](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy)를 사용할 수 있습니다.
+- Active Directory 프린터 검색이 작동하지 않습니다. 모든 사용자에 대해 직접 프린터 경로를 제공하거나 유니버설 [인쇄를 사용할 수 있습니다.](https://aka.ms/UPDocs)

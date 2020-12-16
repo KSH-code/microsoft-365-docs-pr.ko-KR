@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용하든 콘텐츠가 구성한 설정에 따라 자동으로 삭제되는지, 콘텐츠의 처리를 모니터링하고 관리합니다.
-ms.openlocfilehash: 9900bbc58818a98ad41f4f796184ccf21041bbfe
-ms.sourcegitcommit: a9486f9dc51f0908393000ec3c211e3430c26abd
+ms.openlocfilehash: 9c2e9055d0468270df4e46fe39115708762052f3
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49409215"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682671"
 ---
 # <a name="disposition-of-content"></a>콘텐츠의 처리
 
@@ -35,16 +35,16 @@ Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 탭을 사
 
 ### <a name="permissions-for-disposition"></a>처리 권한
 
-Microsoft 365 준수 센터의 **처리** 탭에 액세스하려면 사용자에게 **처리 관리** 관리자 역할이 있어야 합니다. 이 역할은 기본 관리자 역할 그룹, **준수 관리자** 및 **준수 데이터 관리자** 에 포함되어 있습니다.
-
-사용자에게 이 필수 처리 관리 역할을 부여하려면 이러한 기본 역할 그룹 중 하나에 추가하거나 혹은 사용자 지정 역할 그룹을 만들고(예: 명명된 "처리 검토자") 이 그룹에 처리 관리 역할을 부여합니다.  
+Microsoft 365 준수 센터의 **처리** 탭에 액세스하려면 사용자에게 **처리 관리** 관리자 역할이 있어야 합니다. 2020년 12월부터 이 역할은 이제 **레코드 관리** 기본 관리자 역할 그룹에 포함됩니다.
 
 > [!NOTE]
-> 전역 관리자 조차도 **처리 관리** 역할이 부여되어야 합니다. 
+> 기본적으로 전역 관리자에게 **처리 관리** 역할이 부여되지 않습니다. 
 
-또한 처리 프로세스 중에 항목의 내용을 보려면 **콘텐츠 탐색기 콘텐츠 뷰어** 와 **콘텐츠 탐색기 목록 뷰어** 의 두 역할 그룹에 사용자를 추가합니다. 사용자가 이 역할 그룹의 사용 권한이 없는 경우, 처리 검토 완료를 위해 처리 검토 작업을 여전히 선택할 수 있지만, 준수 센터에서 항목의 내용을 보지 않고 이를 수행해야 합니다.
+사용자에게 보존 및 레코드 관리를 위한 다른 기능을 보고 구성할 수 있는 권한을 부여하지 않고 처리 검토에 필요한 권한만 부여하려면 사용자 지정 역할 그룹(예: "처리 검토자")을 만들고 이 그룹에 처분 관리 역할을 부여하세요.
 
-지침은 [사용자에게 Office 365 보안 및 준수 센터의 액세스 권한 부여하기](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+또한 처리 프로세스 중에 항목의 내용을 보려면 **콘텐츠 탐색기 콘텐츠 뷰어** 와 **콘텐츠 탐색기 목록 뷰어** 의 두 역할 그룹에 사용자를 추가합니다. 사용자가 이 역할 그룹의 사용 권한이 없는 경우, 처리 검토 완료를 위해 처리 검토 작업을 여전히 선택할 수 있지만, 준수 센터에서 항목의 내용을 볼 수 없는 상태로 이를 수행해야 합니다.
+
+이 권한을 구성할 수 있는 지침은 [사용자에게 Office 365 보안 및 준수 센터의 액세스 권한 부여하기](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
 
 ### <a name="enable-auditing"></a>감사 사용
 
@@ -133,7 +133,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스하려면 사용자에
 레코드 레이블을 위해 **처리된 항목** 탭에 표시되는 항목은 항목이 처리된 후 최대 7년간 유지되고, 해당 기간에 대한 레코드 당 100만 항목의 제한을 둡니다. **계산** 수가 이 100만의 제한에 근접하고 레코드에 대한 처리 증거가 필요한 경우, [Microsoft 지원](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)에 문의하세요.
 
 > [!NOTE]
-> 이 기능은 [통합 감사 로그](search-the-audit-log-in-security-and-compliance.md)의 정보를 기초로 하며, 따라서 해당 이벤트를 캡처할 수 있도록 감사를 [사용 설정하고 검색 가능하도록](turn-audit-log-search-on-or-off.md) 해야 합니다.
+> 이 기능은 [통합 감사 로그](search-the-audit-log-in-security-and-compliance.md)의 정보를 기초로 하며, 따라서 해당 이벤트를 캡처할 수 있도록 감사를 [사용하도록 설정하고 검색 가능하도록](turn-audit-log-search-on-or-off.md) 해야 합니다.
 
 감사를 위해 **파일 및 페이지 활동** 범주에서 **레코드로 표시된 삭제된 파일** 을 검색합니다. 이 감사 이벤트는 문서 및 이일에 적용됩니다.
 

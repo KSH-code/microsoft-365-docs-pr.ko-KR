@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365의 제한된 사용자 포털에서 사용자를 제거 하는 방법을 알아볼 수 있습니다. 사용자는 일반적으로 계정 손상의 결과로 아웃바운드 스팸 전송을 위해 제한된 사용자 포털에 추가됩니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f464a2c02ae6b6290e79cc9aff7d3a37bc08a6ff
-ms.sourcegitcommit: d81c7cea85af6ad5fef81d3c930514a51464368c
+ms.openlocfilehash: bca9366fdb8cacdc58c12757e870c8ead8f1fa7a
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49572444"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49683058"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Office 365의 제한된 사용자 포털에서 차단된 사용자 제거
 
@@ -86,7 +86,7 @@ ms.locfileid: "49572444"
 
 3. 플라이아웃이 나타나면 다음 설정을 확인하거나 구성합니다.
 
-   - **상태**: 경고가 ![토글 켬](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png)으로 설정되어 있는지 확인합니다.
+   - **상태**: 경고가 ![토글 켬](../../media/scc-toggle-on.png)으로 설정되어 있는지 확인합니다.
 
    - **전자 메일 받는 사람**: **편집** 을 클릭하고 **받는 사람 편집** 플라이아웃이 나타나면 다음 설정을 확인하거나 구성합니다.
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 생산성 점수 개요.
-ms.openlocfilehash: cd22c4381f1fe3f6b37338636797157bdbaa7752
-ms.sourcegitcommit: 26c2f01d6f88f6c288b04f9f08062d68dd1e67e1
+ms.openlocfilehash: e052d1189379bb00a05b574e6568e9e718285d50
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49569978"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688334"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft 생산성 점수 
 
@@ -141,6 +141,10 @@ Microsoft는 개인의 프라이버시를 보호하기 위해 노력하고 있�
 [비즈니스 연속성 보고서에 대한 자세한 정보](https://aka.ms/bcrps)
 
 [Microsoft Graph에 대한 자세한 정보](https://docs.microsoft.com/graph/)
+
+> [!NOTE]
+> 또한 사용자는 [MyAnalytics 대시보드](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2)에서 생산성 인사이트를 얻을 수 있는 옵션도 있습니다.
+
 
 ## <a name="we-want-to-hear-from-you"></a>의견을 보내 주세요.
 

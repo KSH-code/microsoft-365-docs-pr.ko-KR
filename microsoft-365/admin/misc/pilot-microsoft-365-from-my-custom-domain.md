@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 두 개의 테스트 계정만 사용하여 사용자 지정 도메인의 전자 메일 기능을 Microsoft 365 사서함으로 시험해 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8bb04edc9a7879edc2094f1fed667d5956174ea3
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 6cc5b1163f666af4bd13047ab3b1fda7fd747b5f
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295037"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688220"
 ---
 # <a name="pilot-microsoft-365-from-my-custom-domain"></a>사용자 지정 도메인에서 Microsoft 365 파일럿
 
@@ -40,6 +40,8 @@ ms.locfileid: "48295037"
 
 - 사용자가 Microsoft 365 스팸 필터링을 사용하지 못할 수 있습니다.
 
+- 이 기능은 매우 적은 수의 사용자에게 권장되며 파일럿용 전자 메일 사용에만 적용됩니다.
+
 ## <a name="set-up-a-microsoft-365-pilot"></a>Microsoft 365 파일럿 설정하기
 
 Microsoft 365 파일럿을 설정하려면 다음 단계를 따르세요.
@@ -48,17 +50,17 @@ Microsoft 365 파일럿을 설정하려면 다음 단계를 따르세요.
 
 1. 회사 또는 학교 계정으로 [Microsoft 365 관리자 센터](https://admin.microsoft.com)에 로그인합니다.
 
-2. 왼쪽 탐색 창에서 **설정** > **도메인**을 선택합니다.
+2. 왼쪽 탐색 창에서 **설정** > **도메인** 을 선택합니다.
 
 ### <a name="step-2-verify-that-you-own-the-domain-you-want-to-use"></a>2단계: 사용하려는 도메인을 소유했는지 확인하기
 
-1. **도메인** 페이지에서 **도메인 추가**를 선택합니다.
+1. **도메인** 페이지에서 **도메인 추가** 를 선택합니다.
 
-2. 상자에 도메인 이름을 입력하고 **이 도메인 사용**을 선택한 다음 **계속**을 선택합니다.
+2. 상자에 도메인 이름을 입력하고 **이 도메인 사용** 을 선택한 다음 **계속** 을 선택합니다.
 
 3. 전자 메일 및 인스턴트 메시징과 같이 도메인을 사용하여 테스트하려는 서비스를 선택합니다.
 
-5. 도메인 **확인** 페이지에서 단계별 지침을 따르고 **확인**을 선택합니다.
+5. 도메인 **확인** 페이지에서 단계별 지침을 따르고 **확인** 을 선택합니다.
 
     DNS 변경 내용이 적용되기까지 몇 분에서 72시간까지 걸립니다.
 
@@ -66,11 +68,11 @@ Microsoft 365 파일럿을 설정하려면 다음 단계를 따르세요.
 
 ### <a name="step-3-mark-the-domain-as-shared-in-exchange-online"></a>3단계: 도메인을 Exchange Online에서 공유됨으로 표시하기
 
-1. Exchange 관리 센터의 **메일 흐름** 섹션에서 **허용 도메인**을 선택한 다음 수정하려는 도메인을 선택합니다.
+1. Exchange 관리 센터의 **메일 흐름** 섹션에서 **허용 도메인** 을 선택한 다음 수정하려는 도메인을 선택합니다.
 
-2. 창을 두 번 클릭하여 연 다음 **내부 릴레이**를 선택합니다. 
+2. 창을 두 번 클릭하여 연 다음 **내부 릴레이** 를 선택합니다. 
 
-3. **저장**을 선택합니다.
+3. **저장** 을 선택합니다.
 
     이 설정이 적용되는 데 몇 분 정도가 필요할 수 있습니다. 
 
@@ -81,25 +83,25 @@ Microsoft 365에서는 스팸 방지를 위해 EOP(Exchange Online Protection)�
 > [!NOTE]
 > 기존 전자 메일 서버 차단을 해제하면 원래 서버를 통해 들어오는 모든 스팸이 Microsoft 365 사서함으로 전달되며, Microsoft 365에서 스팸을 얼마나 잘 방지하는지 평가할 수 없습니다.
 
-1. Exchange 관리 센터 탐색 창에서 **보호**를 선택한 다음 **연결 필터**를 선택합니다.
+1. Exchange 관리 센터 탐색 창에서 **보호** 를 선택한 다음 **연결 필터** 를 선택합니다.
 
-2. **IP 허용 목록**에서 **+** 를 선택하고 현재 전자 메일 공급자의 메일 서버 IP 주소를 추가합니다. 
+2. **IP 허용 목록** 에서 **+** 를 선택하고 현재 전자 메일 공급자의 메일 서버 IP 주소를 추가합니다. 
 
 ### <a name="step-5-create-user-accounts-and-set-the-primary-reply-to-address"></a>5단계: 사용자 계정 만들기 및 기본 회신 주소 설정하기
 
-1. Microsoft 365 관리 센터 왼쪽 탐색에서 **사용자** > **활성 사용자**를 선택합니다.
+1. Microsoft 365 관리 센터 왼쪽 탐색에서 **사용자** > **활성 사용자** 를 선택합니다.
 
 2. 두 명의 기존 사용자를 추가하여 두 개의 테스트 계정을 만듭니다.
 
-    각 계정에 대해 **+사용자 추가**를 선택하고 테스트하려는 암호 방법을 포함하여 필요한 정보를 입력합니다.
+    각 계정에 대해 **+사용자 추가** 를 선택하고 테스트하려는 암호 방법을 포함하여 필요한 정보를 입력합니다.
 
     사용자의 전자 메일이 동일하게 유지되도록 하려면 **사용자 이름** 필드가 사용자의 현재 전자 메일 주소와 일치해야 합니다.
 
-3. 적절한 라이선스를 선택하고 **다음**을 클릭한 다음 **추가 완료**를 클릭합니다. 
+3. 적절한 라이선스를 선택하고 **다음** 을 클릭한 다음 **추가 완료** 를 클릭합니다. 
 
 4. **사용자 이름** 옆의 드롭다운 목록에서 사용자 지정 도메인 이름을 선택합니다. 
 
-5. **만들기** > **닫기**를 선택합니다.
+5. **만들기** > **닫기** 를 선택합니다.
 
 ### <a name="step-6-configure-mail-to-flow-from-microsoft-365-or-office-365-to-email-server"></a>6단계: **Microsoft 365 또는 Office 365에서 전자 메일 서버로 전송되는 메일 구성하기
 
@@ -132,13 +134,13 @@ Microsoft 365 또는 Office 365에서 다음 사항을 완료했는지 확인합
 
 ### <a name="2-set-up-a-connector-from-microsoft-365-or-office-365-to-your-email-server"></a>2. Microsoft 365 또는 Office 365에서 전자 메일 서버로 커넥터 설정
 
-Microsoft 365 또는 Office 365에서 커넥터를 만들려면 **관리**를 클릭한 다음 **Exchange**를 클릭하여 Exchange 관리 센터로 이동합니다. 그 다음 **메일 흐름**, **커넥터**를 차례로 클릭합니다.
+Microsoft 365 또는 Office 365에서 커넥터를 만들려면 **관리** 를 클릭한 다음 **Exchange** 를 클릭하여 Exchange 관리 센터로 이동합니다. 그 다음 **메일 흐름**, **커넥터** 를 차례로 클릭합니다.
 
 마법사를 사용하여 커넥터를 설정합니다.
 
-마법사를 시작하려면 더하기 기호 **+** 을(를) 클릭합니다. 첫 번째 화면에서 Office 365 **에서** 및 조직 메일 서버**로**를 선택합니다.
+마법사를 시작하려면 더하기 기호 **+** 을(를) 클릭합니다. 첫 번째 화면에서 Office 365 **에서** 및 조직 메일 서버 **로** 를 선택합니다.
 
-**다음**을 클릭하고 마법사의 지시를 따릅니다. 추가 정보가 필요한 경우 **도움말** 또는 **추가 정보** 링크를 클릭합니다. 마법사가 설정 과정을 안내합니다. 완료되면 커넥터 유효성 검사가 실행되는지 확인합니다. 커넥터 유효성 검사가 실행되지 않는 경우 자세한 내용을 보려면 표시된 메시지를 두 번 클릭하고 문제 해결을 위해 [커넥터 유효성 검사](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors)를 참조하세요.
+**다음** 을 클릭하고 마법사의 지시를 따릅니다. 추가 정보가 필요한 경우 **도움말** 또는 **추가 정보** 링크를 클릭합니다. 마법사가 설정 과정을 안내합니다. 완료되면 커넥터 유효성 검사가 실행되는지 확인합니다. 커넥터 유효성 검사가 실행되지 않는 경우 자세한 내용을 보려면 표시된 메시지를 두 번 클릭하고 문제 해결을 위해 [커넥터 유효성 검사](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors)를 참조하세요.
 
 
 
@@ -189,4 +191,3 @@ DNS 호스팅 공급자의 웹 사이트에 로그인하고 [DNS 레코드를 �
 
 콘텐츠를 Microsoft 365 사서함의 적절한 위치로 가져온 후에는 어디서나 모든 장치에서 해당 항목에 액세스할 수 있습니다.
 
-더 많은 사서함의 있거나 직원이 Outlook을 사용하지 않는 경우 Exchange 관리 센터에서 제공하는 마이그레이션 도구를 사용할 수 있습니다. 시작하려면 Exchange 관리 센터로 이동하고 [IMAP 서버에서 Exchange Online 사서함으로 전자 메일 마이그레이션](https://docs.microsoft.com/exchange/mailbox-migration/migrating-imap-mailboxes/migrating-imap-mailboxes)의 지침을 따르세요.

@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: 관리자가 데이터 커넥터를 설정하고 사용하여 Instant Bloomberg 채팅 도구에서 Microsoft 365로 데이터를 가져오고 보관하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 7203af3a45529b0e5cc635a8d0cd460d13b73c20
-ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
+ms.openlocfilehash: c2a56feb80f6772462fae47eb2a020e951f246e6
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49620014"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688493"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>Instant Bloomberg 데이터를 보관할 커넥터 설정
 
@@ -65,6 +65,8 @@ Instant Bloomberg 데이터를 보관하는 데 필요한 구현 단계 중 일�
   - Bloomberg SFTP 사이트의 URL(예: sftp.bloomberg.com)
 
   - Bloomberg SFTP 사이트의 포트 번호
+
+- Instant Bloomberg 커넥터는 하루 총 200,000개 항목을 가져올 수 있습니다. SFTP 사이트에 하루 200,000개가 넘는 항목이 있는 경우 Microsoft 365로 가져오지 않습니다.
 
 - 3단계에서 Instant Bloomberg 커넥터를 만들고 1단계에서 공개 키와 IP 주소를 다운로드하는 사용자에게는 Exchange Online에서 사서함 가져오기 내보내기 역할이 할당되어야 합니다. 이는 Microsoft 365 규정 준수 센터의 **데이터** 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서에서 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
 
