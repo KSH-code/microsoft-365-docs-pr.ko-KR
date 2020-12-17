@@ -1,7 +1,7 @@
 ---
 title: Office 365용 Microsoft Defender 평가
 description: 평가 모드에서 Office 365용 Defender는 맬웨어와 같은 판정을 기록하지만 메시지에 대해 활동하지 않는 Office 365 전자 메일 정책에 대한 Defender를 만듭니다.
-keywords: Office 365, Office 365용 Microsoft Defender 평가, Office 365 평가, Office 365, Microsoft Defender, ATP 평가
+keywords: Office 365 평가, Office 365용 Microsoft Defender, Office 365 평가, Office 365, Microsoft Defender, ATP 평가
 f1.keywords:
 - NOCSH
 ms.author: ellevin
@@ -17,12 +17,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 54acf9d21e3dd935f8b87c6ee4a13ab30e7bc59e
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: abb33b85717e63cb78a2b1edfd86584fd165a71f
+ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49668076"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701018"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender 평가
 
@@ -41,13 +41,13 @@ Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 �
 
 평가 모드에서 Office 365용 Defender는 맬웨어와 같은 판정을 기록하지만 메시지에 대해 활동하지 않는 Office 365 전자 메일 정책에 대한 Defender를 만듭니다. MX 레코드 구성을 변경할 필요는 없습니다.
 
-평가 모드에서는 [안전](atp-safe-attachments.md)첨부 파일, [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)  [안전한](atp-safe-links.md)링크 및 피싱 방지 가장 정책이 사용자 대신 설정됩니다. Office 365용 모든 Defender 정책은 백그라운드에서 적용되지 않은 모드로 만들어지며 표시되지 않습니다.
+평가 [모드에서는](atp-safe-attachments.md)안전 첨부 파일, [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)  [안전한](atp-safe-links.md)링크 및 피싱 방지 가장 정책이 사용자 대신 설정됩니다. Office 365용 모든 Defender 정책은 백그라운드에서 적용되지 않은 모드로 만들어지며 표시되지 않습니다.
 
-또한 설치의 일부로 평가 모드는 커넥터에 대한 향상된 [필터링을 구성합니다.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) IP 주소 및 보낸 사람 정보를 보존하여 필터링 정확도를 향상시킵니다. 이 정보는 메일이 Office 365용 Defender 앞에 있는 ESG(전자 메일 보안 게이트웨이)를 통과할 때 손실됩니다. 또한 EOP(Exchange Online Protection) 스팸 방지 및 피싱 방지 정책에 대한 필터링 정확도도 향상됩니다.
+또한 설치의 일부로 평가 모드는 커넥터에 대한 향상된 [필터링을 구성합니다.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) IP 주소 및 보낸 사람 정보를 보존하여 필터링 정확도를 향상시킵니다. 이 정보는 메일이 Office 365용 Defender 앞에 있는 ESG(전자 메일 보안 게이트웨이)를 통과할 때 손실됩니다. 향상된 필터링은 EOP(Exchange Online Protection) 스팸 방지 및 피싱 방지 정책에 대한 필터링 정확도도 향상시킵니다.
 
 일부 미지원 시나리오에 대한 잠재적인 프로덕션 영향을 최소화하기 위해 SCL(스팸 지수)을 -1로 설정하는 전송 규칙을 만들어 모든 EOP 필터링을 무시할 수 있습니다. 자세한 [내용은 EAC를 사용하여 메시지의 SCL을](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message)설정하는 메일 흐름   규칙을 만들 수 있습니다.
 
-평가 모드를 설정하면 매일 최대 90일간의 데이터가 업데이트되어 정책이 만들어지고 구현된 경우 차단될 메시지를 수량화하는 보고서가 업데이트됩니다(예: 삭제, 정크 메일 보내기, 정크 메일로 보내기, 정크 메일 보내기). Office 365 및 EOP 검색에 대한 모든 Defender에 대한 보고서가 생성됩니다. 검색 기술(예: 가장)별로 집계되어 시간 범위별로 필터링할 수 있습니다. 또한 요구 시 메시지 보고서를 만들어 사용자 지정 피벗을 만들거나 위협 탐색기를 사용하여 심층 분석 메시지를 만들 수 있습니다.
+평가 모드가 설정되면 정책이 구현된 경우 차단될 메시지를 수량화하는 최대 90일의 데이터로 매일 보고서가 업데이트됩니다(예: 삭제, 정크 메일로 보내기, 정크 메일로 보내기, 정크 메일 보내기). Office 365 및 EOP 검색에 대한 모든 Defender에 대한 보고서가 생성됩니다. 검색 기술(예: 가장)별로 집계되어 시간 범위별로 필터링할 수 있습니다. 또한 주문형 메시지 보고서를 만들어 사용자 지정 피벗을 만들거나 위협 탐색기를 사용하여 심층 분석 메시지를 만들 수 있습니다.
 
 간소화된 설정 환경을 통해 다음에 집중할 수 있습니다.
 
@@ -71,7 +71,7 @@ Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 �
 
 #### <a name="trial"></a>평가판
 
-Office 365용 Microsoft Defender에 대한 평가판 라이선스를  얻하려면 대금 청구 관리자 역할 또는 전역 관리자 **역할이 필요합니다.** 전역 관리자 역할이 있는 사용자로부터 사용 권한을 요청합니다. [구독 및 라이선스에 대해 자세히](https://docs.microsoft.com/microsoft-365/commerce/licenses/subscriptions-and-licenses)
+Office 365용 Microsoft Defender에 대한 평가판 라이선스를  얻습니다. 대금 청구 관리자 역할 또는 전역 관리자 **역할이 필요합니다.** 전역 관리자 역할이 있는 사용자로부터 사용 권한을 요청합니다. [구독 및 라이선스에 대해 자세히](https://docs.microsoft.com/microsoft-365/commerce/licenses/subscriptions-and-licenses)
 
 적절한 역할이 있는 경우 Microsoft 365 관리 센터에서 청구 서비스 구매 서비스로 > Microsoft Defender for Office 365(계획 2)에 대한 평가판 라이선스를 얻는 것이 좋습니다. 평가판에는 25개 라이선스에 대한 30일 무료 평가판이 포함되어 있습니다. [Office 365용 Microsoft Defender 평가판(계획 2)을 다운로드합니다.](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
 
@@ -79,7 +79,12 @@ Office 365용 Microsoft Defender에 대한 평가판 라이선스를  얻하려�
 
 ### <a name="roles"></a>역할
 
-평가 모드에서 Office 365용 Defender를 설정하려면 Exchange Online 역할이 필요합니다. 다음 역할이 필요합니다.
+평가 모드에서 Office 365용 Defender를 설정하려면 Exchange Online 역할이 필요합니다.
+
+- [Exchange Online의 사용 권한에 대해 자세히](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
+- [관리자 역할 할당에 대해 자세히](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles)
+
+다음 역할이 필요합니다.
 
 |작업|역할|
 |---|---|
@@ -89,6 +94,7 @@ Office 365용 Microsoft Defender에 대한 평가판 라이선스를  얻하려�
 |평가 정책 삭제|원격 및 허용 도메인 역할 보안 관리자 역할 |
 |평가 보고서 보기|보안 관리자 역할 또는 보안 읽기 관리자 역할|
 |
+
 
 ### <a name="enhanced-filtering"></a>향상된 필터링
 
@@ -104,7 +110,7 @@ Office 365용 Microsoft Defender에 대한 평가판 라이선스를  얻하려�
 
 ### <a name="email-routing"></a>전자 메일 라우팅
 
-메일을 라우팅하는 인바운드 커넥터의 이름을 포함하여 전자 메일이 현재 라우팅되는 방법을 설정하는 데 필요한 해당 세부 정보를 준비해야 합니다. Exchange Online Protection만 사용하는 경우 커넥터가 없습니다.  [메일 흐름 및 전자 메일 라우팅에 대해 자세히](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/mail-flow)
+메일을 라우팅하는 인바운드 커넥터의 이름을 포함하여 전자 메일이 현재 라우팅되는 방법을 설정하는 데 필요한 해당 세부 정보를 준비합니다. Exchange Online Protection만 사용하는 경우 커넥터가 없습니다.  [메일 흐름 및 전자 메일 라우팅에 대해 자세히](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/mail-flow)
 
 지원되는 전자 메일 라우팅 시나리오는 다음과 같습니다.
 
@@ -131,7 +137,7 @@ Office 365용 Microsoft Defender에 대한 평가판 라이선스를  얻하려�
 
 ## <a name="get-started-with-the-evaluation"></a>평가 시작
 
-Office 365 보안 및 준수 센터에서 Office 365용 Microsoft Defender 평가판 & 카드(다음 세 가지 액세스 https://protection.office.com/homepage) 지점에서)를 찾을 수 있습니다.
+Office 365 보안 및 준수 센터에서 Microsoft Defender for Office 365 평가판 &(다음 세 가지 액세스 https://protection.office.com/homepage) 지점에서)를 찾을 수 있습니다.
 
 - 위협 관리 > 대시보드
 - 위협 관리 > 정책

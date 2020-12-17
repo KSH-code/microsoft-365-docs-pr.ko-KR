@@ -11,12 +11,12 @@ search.appverid: MET150
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365에서 항목 검색을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 035fb74f1989dc7ef5b7fcf8e9c6d59b63cf2b42
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: dec8aeef9dda390fb19f5067638c2ebea6b6a2fe
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667893"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698546"
 ---
 # <a name="manage-topic-discovery-in-microsoft-365"></a>Microsoft 365에서 항목 검색 관리
 
@@ -24,8 +24,8 @@ ms.locfileid: "49667893"
 
 ## <a name="to-access-topics-management-settings"></a>항목 관리 설정에 액세스하려면
 
-1. Microsoft 365 관리 센터에서 설정, Org 설정을 **클릭합니다.**
-2. 서비스 **탭에서** 기술 **네트워크를 클릭합니다.**
+1. Microsoft 365 관리 센터에서 설정을 클릭한 **다음, Org 설정을 클릭합니다.**
+2. 서비스 **탭에서** **기술 네트워크를 클릭합니다.**
 
     ![지식에 사람 연결](../media/admin-org-knowledge-options-completed.png) 
 
@@ -43,7 +43,7 @@ ms.locfileid: "49667893"
 Site name,URL
 ```
 
-사이트 선택을 사용하여 사이트를 추가하는 경우 포함하거나 제외할 기존 사이트 목록에 사이트가 추가됩니다. .csv 파일을 업로드하면 기존 목록을 덮어 덮어 덮어니다. 이전에 특정 사이트를 포함하거나 제외한 경우 목록을 .csv 파일로 다운로드하고, 변경하고, 새 목록을 업로드합니다.
+사이트 선택을 사용하여 사이트를 추가하는 경우 포함하거나 제외할 기존 사이트 목록에 사이트가 추가됩니다. .csv 파일을 업로드하면 기존 목록을 덮어니다. 이전에 특정 사이트를 포함하거나 제외한 경우 목록을 .csv 파일로 다운로드하고, 변경하고, 새 목록을 업로드합니다.
 
 항목 검색을 위한 사이트를 선택
 
@@ -51,7 +51,7 @@ Site name,URL
 2. **SharePoint** 항목 원본 선택 페이지에서 검색 중에 항목에 대한 원본으로 크롤링할 SharePoint 사이트를 선택합니다. 해당 활동은 다음과 같습니다.
     - **모든 사이트**: 테넌트의 모든 SharePoint 사이트 이렇게 하여 현재 및 향후 사이트를 캡처합니다.
     - **선택한 사이트를 제외한** 모든 사이트: 제외할 사이트의 이름을 입력합니다.  검색에서 옵트아웃하려는 사이트 목록을 업로드할 수도 있습니다. 앞으로 만든 사이트는 항목 검색을 위한 원본으로 포함됩니다. 
-    - **선택한 사이트만**: 포함할 사이트의 이름을 입력합니다. 사이트 목록을 업로드할 수도 있습니다. 앞으로 만든 사이트는 항목 검색을 위한 원본으로 포함되지 않습니다.
+    - **선택한 사이트만 :** 포함할 사이트의 이름을 입력합니다. 사이트 목록을 업로드할 수도 있습니다. 앞으로 만든 사이트는 항목 검색을 위한 원본으로 포함되지 않습니다.
     - **사이트 없음**: 항목은 SharePoint 콘텐츠로 자동으로 생성되거나 업데이트되지 않습니다. 기존 항목은 항목 센터에 남아 있습니다.
 
     ![SharePoint 항목 원본 사용자 인터페이스 스크린샷](../media/k-manage-select-topic-source.png)
@@ -94,4 +94,3 @@ CSV 템플릿에서 제외할 항목에 대한 다음 정보를 입력합니다.
 [Microsoft 365에서 항목 사용 권한 관리](topic-experiences-user-permissions.md)
 
 [Microsoft 365에서 항목 센터의 이름 변경](topic-experiences-administration.md)
-

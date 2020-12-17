@@ -16,13 +16,13 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
-description: Microsoft 365 그룹에 대한 이름 정책을 만드는 방법을 학습합니다.
-ms.openlocfilehash: 15fcbace737398c6edd2062e72622e8551ebd222
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+description: Microsoft 365 그룹에 대한 이름 정책을 만드는 방법을 배워야 합니다.
+ms.openlocfilehash: 9bc0a4c7e1ae6ad532c97b442a2bc50880a942fc
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613505"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698678"
 ---
 # <a name="microsoft-365-groups-naming-policy"></a>Microsoft 365 그룹 이름 정책
 
@@ -31,7 +31,7 @@ ms.locfileid: "49613505"
 이름 정책은 모든 그룹 워크로드(예: Outlook, Microsoft Teams, SharePoint, Planner, Yammer 등)에서 만들어진 그룹에 적용됩니다. 그룹 이름과 그룹 별칭에 모두 적용됩니다. 이 설정은 사용자가 그룹을 만들고 기존 그룹에 대해 그룹 이름 또는 별칭을 편집할 때 적용됩니다.
 
 > [!TIP]
-> Microsoft 365 그룹 이름 정책은 Microsoft 365 그룹에만 적용됩니다. Exchange Online에서 만든 메일 그룹에는 적용되지 않습니다. 메일 그룹에 대한 이름 정책을 만들 경우 메일 그룹 이름 정책 [만들기를 참조합니다.](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy)
+> Microsoft 365 그룹 이름 정책은 Microsoft 365 그룹에만 적용됩니다. Exchange Online에서 만든 메일 그룹에는 적용되지 않습니다. 메일 그룹에 대한 이름 정책을 만들 수 있습니다. 메일 그룹 이름 정책 [만들기를 참조합니다.](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy)
 
 그룹 이름 정책은 다음 기능으로 구성됩니다.
 
@@ -51,7 +51,7 @@ Microsoft 365 그룹에 대해 Azure AD 이름 지정 정책을 사용하려면 
 
 ### <a name="fixed-strings"></a>고정 문자열
 
-GAL에서 그룹을 차별화하고 그룹 워크로드의 왼쪽 탐색을 차별화하는 데 도움이 되는 짧은 문자열을 사용할 수 있습니다. 일반적인 접두사 접미사 중 일부는 'Grp \_ Name', \# 'Name', \_ 'Name' 같은 키워드입니다.
+GAL에서 그룹을 차별화하고 그룹 작업의 왼쪽 탐색을 차별화하는 데 도움이 되는 짧은 문자열을 사용할 수 있습니다. 일반적인 접두사 접미사 중 일부는 'Grp \_ Name', \# 'Name', \_ 'Name' 같은 키워드입니다.
 
 ### <a name="attributes"></a>특성
 
@@ -59,9 +59,9 @@ GAL에서 그룹을 차별화하고 그룹 워크로드의 왼쪽 탐색을 차�
 
 예제:
 
-- 정책 = "GRP [GroupName] [Department]"
+- Policy = "GRP [GroupName] [Department]"
 - 사용자의 부서 = 엔지니어링
-- 생성된 그룹 이름 = "GRP My Group Engineering"
+- 만든 그룹 이름 = "GRP 내 그룹 엔지니어링"
 
 지원되는 Azure AD(Azure Active Directory) 특성은 [부서], [회사], [Office], [StateOrProvince], [CountryOrRegion], [Title]입니다.
 
@@ -75,18 +75,18 @@ GAL에서 그룹을 차별화하고 그룹 워크로드의 왼쪽 탐색을 차�
 
 - 정책을 만들 때 전체 접두사와 접미사 문자열 길이는 53자로 제한됩니다.
 
-- 접두사와 접미사는 그룹 이름 및 그룹 별칭에서 지원되는 특수 문자를 포함할 수 있습니다. 접두사와 접미사에 그룹 별칭에서 허용되지 않는 특수 문자가 포함되어 있는 경우 그룹 이름에만 적용됩니다. 따라서 이 경우 그룹 이름에 적용되는 접두사와 접미사는 그룹 별칭에 적용된 접두사와 다릅니다.
+- 접두사와 접미사는 그룹 이름 및 그룹 별칭에서 지원되는 특수 문자를 포함할 수 있습니다. 접두사와 접미사에 그룹 별칭에서 허용되지 않는 특수 문자가 포함되어 있는 경우 그룹 이름에만 적용됩니다. 따라서 이 경우 그룹 이름에 적용된 접두사와 접미사는 그룹 별칭에 적용된 접두사와 다릅니다.
 
   > [!NOTE]
   > 이름의 시작이나 끝을 제외한 그룹 이름의 아무 곳에나 기간(.) 또는 하이픈(-)을 사용할 수 있습니다. 밑선(_)은 이름의 시작 또는 끝을 포함하여 그룹 이름의 아무 곳에나 사용할 수 있습니다.
 
-- Office 365 Yammer 그룹을 사용하는 경우 이름 정책에 @, , , , . \# \[ \] \<, and \> 이러한 문자가 이름 정책에 있는 경우 일반 Yammer 사용자가 그룹을 만들 수 없습니다.
+- Office 365 Yammer 그룹을 사용하는 경우 이름 정책에 \# @, . \[ \] \<, and \> 이러한 문자가 이름 정책에 있는 경우 일반 Yammer 사용자가 그룹을 만들 수 없습니다.
 
 > [!Tip]
 > - 짧은 문자열을 접미사로 사용
 > - 값과 함께 특성을 사용합니다.
 > - 창의적이지 말고 총 이름 길이는 최대 264자입니다.
-> - 조직 특정 차단 단어를 업로드하여 사용을 제한합니다.
+> - 조직에서 차단된 특정 단어를 업로드하여 사용을 제한합니다.
 
 ## <a name="custom-blocked-words"></a>사용자 지정 차단된 단어
 
@@ -106,7 +106,7 @@ GAL에서 그룹을 차별화하고 그룹 워크로드의 왼쪽 탐색을 차�
 
 ## <a name="admin-override"></a>관리자 다시 설정
 
-일부 관리자는 모든 그룹 워크로드 및 끝점에서 이러한 정책에서 제외됩니다. 따라서 이러한 차단된 단어와 원하는 이름 규칙을 사용하여 그룹을 만들 수 있습니다. 다음은 그룹 명명 정책에서 제외된 관리자 역할 목록입니다.
+일부 관리자는 차단된 단어와 원하는 이름 규칙을 사용하여 그룹을 만들 수 있도록 모든 그룹 워크로드 및 끝점에서 이러한 정책에서 제외됩니다. 다음은 그룹 명명 정책에서 제외된 관리자 역할 목록입니다.
 
 - 전역 관리자
 
@@ -115,8 +115,6 @@ GAL에서 그룹을 차별화하고 그룹 워크로드의 왼쪽 탐색을 차�
 - 파트너 계층 2 지원
 
 - 사용자 계정 관리자
-
-- 디렉터리 작성자
 
 ## <a name="how-to-set-up-the-naming-policy"></a>이름 정책을 설정하는 방법
 
