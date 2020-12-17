@@ -12,10 +12,10 @@ ms.collection: Strat_SP_gtc
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 이 문서에서는 Microsoft 365 Multi-Geo를 사용하여 Microsoft 365 현재 위치를 여러 지리적 지역으로 확장하는 방법을 알아보고 있습니다.
+description: 이 문서에서는 Microsoft 365 Multi-Geo를 사용하여 Microsoft 365 범위를 여러 지리적 지역으로 확장하는 방법을 알아봅니다.
 ms.openlocfilehash: cf5f655e2b205001c6c16ed05abc33d68324ff15
 ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/05/2020
 ms.locfileid: "49580700"
@@ -26,7 +26,7 @@ Microsoft 365 Multi-Geo를 사용하면 Microsoft 365 범위를 기존 테넌트
   
 Microsoft 365 Multi-Geo를 사용하여 데이터 상주 요구 사항을 충족하기 위해 선택한 지리적 위치의 미사용 데이터를 프로비저닝 및 저장하고, 동시에 귀하의 전 세계 작업자들이 최신 생산성 환경을 활용하도록 할 수 있습니다.
 
-Microsoft 365 Multi-Geo에 대한 비디오는 SharePoint Online 및 [OneDrive Multi-Geo를](https://www.youtube.com/watch?v=Do9U3JuROhk)참조하여 데이터가 있는 위치를 제어합니다.
+Microsoft 365 Multi-Geo에 대한 비디오 소개는 [SharePoint Online 및 OneDrive Multi-Geo에서 데이터 위치](https://www.youtube.com/watch?v=Do9U3JuROhk)를 참조하세요.
 
 ## <a name="multi-geo-architecture"></a>Multi-Geo 아키텍처
 
@@ -70,7 +70,7 @@ Multi-Geo를 시작하려면 이러한 단계를 따르세요.
 
 1. 계정 팀과 협의하여 _Microsoft 365의 Multi-Geo 기능_ 서비스 계획을 추가합니다. 계정 팀이 필요한 라이센스 수를 추가할 수 있도록 안내합니다. Multi-Geo 기능은 Microsoft 365 구독을 250개 이상 보유한 EA 고객에게 제공됩니다.
 
-   Microsoft 365 Multi-Geo를 사용하여 시작하기 전에 Microsoft에서는 Multi-Geo 지원을 위해 Exchange Online 테넌트를 구성해야 합니다. 이 일회성 구성 프로세스는 *Microsoft 365의 Multi-Geo 기능* 서비스 계획을 주문하고 테넌트에 라이선스가 표시된 후에 실행됩니다. 테넌트가 각 워크로드에 대한 구성 프로세스를 완료하면 [Microsoft 365](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093) 메시지 센터에서 작업별 알림을 받게 되면 Microsoft 365 Multi-Geo 기능 구성 및 사용을 시작할 수 있습니다. Multi-Geo 지원을 위해 테넌트를 구성하는 데 필요한 시간은 테넌트마다 다르지만 대부분의 테넌트는 기능 라이선스를 받은 후 한 달 내에 완료됩니다. 규모가 크거나 복잡한 테넌트는 구성 프로세스를 완료하는 데 더 많은 시간이 필요할 수 있습니다. 필요한 경우 계정 팀에 문의하여 특정 테넌트에 대한 자세한 내용을 문의하세요.
+   Microsoft 365 Multi-Geo를 사용하여 시작하기 전에 Microsoft에서는 Multi-Geo 지원을 위해 Exchange Online 테넌트를 구성해야 합니다. 이 일회성 구성 프로세스는 *Microsoft 365의 Multi-Geo 기능* 서비스 계획을 주문하고 테넌트에 라이선스가 표시된 후에 실행됩니다. 테넌트가 각 워크로드에 대한 구성 프로세스를 완료하면 [ Microsoft 365 메시지 센터](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093)에서 워크로드 관련 알림을 수신한 다음 Microsoft 365 Multi-Geo 기능을 구성하고 사용할 수 있습니다. Multi-Geo 지원을 위해 테넌트를 구성하는 데 필요한 시간은 테넌트마다 다르지만 대부분의 테넌트는 기능 라이센스를 받은 후 한 달 내에 끝납니다. 더 크거나 더 복잡한 테넌트는 구성 프로세스를 완료하는 데 더 많은 시간이 필요할 수 있습니다. 필요한 경우 특정 테넌트에 대한 자세한 내용은 계정 팀에 문의하세요.
 
 2. [Multi-Geo 환경 계획](plan-for-multi-geo.md)을 읽으세요.
 

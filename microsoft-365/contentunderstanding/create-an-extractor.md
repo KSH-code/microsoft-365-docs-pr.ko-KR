@@ -10,12 +10,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 추출기를 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 99d2a4602c03d8a7207736ea17ed500626ce43ac
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: b957d905f3807f6007ebeb742d9b56d81ea38ac2
+ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087466"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701132"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 추출기 만들기
 
@@ -37,7 +37,9 @@ ms.locfileid: "49087466"
 
 1. 모델 홈 페이지의 **추출기 만들기와 학습시키기** 타일에서 **추출기 학습시키기** 를 클릭합니다.
 2. **새로운 엔터티 추출기** 화면에서 **새로운 추출기 이름** 필드에 추출기 이름을 입력합니다. 예를 들어 각 계약 갱신 문서에서 서비스 시작 날짜를 추출하려는 경우 **서비스 시작 날짜** 를 이름으로 입력합니다. 이전에 만든 열(예: 관리된 메타데이터 열)을 다시 사용하도록 선택할 수도 있습니다.
-3. **만들기** 를 클릭합니다.
+> [!NOTE]
+> 새 추출기를 만든 경우에는 **새 열 유형** 을 선택하고 **단일 텍스트 줄** 을 선택하세요. 최대 문자 제한은 255자 입니다. 입력한 문자가 한도를 초과하는 경우 모두 잘립니다. 
+3. 모두 마쳤으면 **만들기** 를 클릭합니다.
 
 ## <a name="add-a-label"></a>레이블 추가
 

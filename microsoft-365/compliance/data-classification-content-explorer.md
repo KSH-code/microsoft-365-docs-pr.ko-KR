@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
-ms.openlocfilehash: 7977d30881a4229f99f4c5976d4c41377573a6ca
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: 9beeab0c0b00ac1ac37c9df53e14a2f3f2914422
+ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379216"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701155"
 ---
 # <a name="get-started-with-content-explorer"></a>콘텐츠 탐색기 시작하기
 
@@ -39,12 +39,15 @@ ms.locfileid: "48379216"
 - Office 365 (E5)
 - 고급 규정 준수 (E5) 추가 기능
 - 고급 위협 인텔리전스 (E5) 추가 기능
+- Microsoft 365 E5/A5 정보 보호 및 거버넌스
+- Microsoft 365 E5/A5 규정 준수
+
 
 ### <a name="permissions"></a>권한
 
 콘텐츠 탐색기 탭에 액세스하려면 계정에 다음 역할이나 역할 그룹 중 하나의 구성원 자격이 할당되어야 합니다. 
 
-[DLP 정책](data-loss-prevention-policies.md)은 **중요한 정보 유형**으로 정의되어 있는 중요한 정보를 보호하는 데 도움을 줄 수 있습니다. Microsoft 365는 사용자가 사용할 수 있는 많은 지역에서 [흔한 중요한 정보 유형에 대한 정의](sensitive-information-type-entity-definitions.md)를 포함합니다. 예를 들면 신용 카드 번호, 은행 계좌 번호, 국가 ID 번호 그리고 Windows Live ID 서비스 번호 등이 있습니다.
+[DLP 정책](data-loss-prevention-policies.md)은 **중요한 정보 유형** 으로 정의되어 있는 중요한 정보를 보호하는 데 도움을 줄 수 있습니다. Microsoft 365는 사용자가 사용할 수 있는 많은 지역에서 [흔한 중요한 정보 유형에 대한 정의](sensitive-information-type-entity-definitions.md)를 포함합니다. 예를 들면 신용 카드 번호, 은행 계좌 번호, 국가 ID 번호 그리고 Windows Live ID 서비스 번호 등이 있습니다.
 
 **Microsoft 365 역할 그룹**
 
@@ -81,7 +84,7 @@ ms.locfileid: "48379216"
 
 ### <a name="sensitive-information-types"></a>중요한 정보 유형
 
-[DLP 정책](data-loss-prevention-policies.md)은 **중요한 정보 유형**으로 정의되어 있는 중요한 정보를 보호하는 데 도움을 줄 수 있습니다. Microsoft 365는 사용자가 사용할 수 있는 많은 지역에서 [흔한 중요한 정보 유형에 대한 정의](sensitive-information-type-entity-definitions.md)를 포함합니다. 예를 들면 신용 카드 번호, 은행 계좌 번호, 국가 ID 번호 그리고 Windows Live ID 서비스 번호 등이 있습니다.
+[DLP 정책](data-loss-prevention-policies.md)은 **중요한 정보 유형** 으로 정의되어 있는 중요한 정보를 보호하는 데 도움을 줄 수 있습니다. Microsoft 365는 사용자가 사용할 수 있는 많은 지역에서 [흔한 중요한 정보 유형에 대한 정의](sensitive-information-type-entity-definitions.md)를 포함합니다. 예를 들면 신용 카드 번호, 은행 계좌 번호, 국가 ID 번호 그리고 Windows Live ID 서비스 번호 등이 있습니다.
 
 > [!NOTE]
 > 현재 콘텐츠 탐색기에서는 Exchange Online의 중요한 정보 유형을 검사하지 않습니다.
@@ -101,7 +104,7 @@ ms.locfileid: "48379216"
 1. **Microsoft 365 준수 센터**  > **데이터 분류** > **콘텐츠 탐색기**
 2. 레이블 이름 또는 중요한 정보 유형을 알고 있는 경우 필터 상자에 입력할 수 있습니다.
 3. 또는 레이블 유형을 확장하고 목록에서 레이블을 선택하여 항목을 찾아볼 수 있습니다.
-4. **모든 위치**에서 위치를 선택하고 폴더 구조를 드릴다운하여 해당 항목까지 이동합니다.
+4. **모든 위치** 에서 위치를 선택하고 폴더 구조를 드릴다운하여 해당 항목까지 이동합니다.
 5. 콘텐츠 탐색기에서 기본적으로 항목을 열려면 두 번 클릭을 합니다.
 
 ### <a name="export"></a>내보내기
@@ -119,9 +122,9 @@ Exchange 폴더나 SharePoint 또는 OneDrive 사이트와 같은 위치로 드�
 
 검색 도구의 범위는 **모든 위치** 창에 표시되는 내용이며 검색 가능한 항목은 선택한 위치에 따라 다릅니다. 
 
-**Exchange**가 선택된 위치인 경우 사서함의 전체 전자 메일 주소(예: `user@domainname.com`)를 검색할 수 있습니다.
+**Exchange** 가 선택된 위치인 경우 사서함의 전체 전자 메일 주소(예: `user@domainname.com`)를 검색할 수 있습니다.
 
-**SharePoint** 또는 **OneDrive**가 선택된 위치인 경우 사이트 이름, 폴더 및 파일로 드릴다운하면 검색 도구가 표시됩니다. 
+**SharePoint** 또는 **OneDrive** 가 선택된 위치인 경우 사이트 이름, 폴더 및 파일로 드릴다운하면 검색 도구가 표시됩니다. 
 
 > [!NOTE]
 > **OneDrive** 미리 보기 프로그램 동안 OneDrive 통합에 대한 유용한 피드백을 잘 들었습니다. 해당 피드백에 따라 OneDrive 기능은 모든 수정 내용이 적용될 때까지 미리 보기에 유지됩니다. 테넌트에 따라 일부 고객의 경우 OneDrive를 위치로 보지 못할 수 있습니다. 이에 대한 귀하의 지속적인 지원에 감사드립니다.
