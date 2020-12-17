@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 법률, 비즈니스 또는 규제 의무에 대한 높은 가치의 콘텐츠를 관리하는 Microsoft 365의 레코드 관리 솔루션이 필요하지만 어디서 시작해야 하나요? 시작을 도와주는 실질적인 지침을 참조하세요.
-ms.openlocfilehash: 679300f581dd9177c00f367f4452d12142f49ee4
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.openlocfilehash: 0dc0258ed53aa07df778f5d0883b02b7635f50d8
+ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919856"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682725"
 ---
 # <a name="get-started-with-records-management"></a>레코드 관리 시작
 
@@ -49,11 +49,11 @@ Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니
 
 ## <a name="permissions-required-for-records-management"></a>레코드 관리에 필요한 사용 권한
 
-레코드 관리에 대해 책임이 있는 규정 준수 팀의 구성원에게는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자(전역 관리자)는 이 위치에 액세스할 수 있으며 규정 준수 책임자와 기타 사용자에게 테넌트 관리자의 모든 권한을 부여하지 않고도 액세스 권한을 부여할 수 있습니다. 해당 제한적 관리에 대해 권한을 부여하려면 **RecordManagement** 역할을 부여하는 **레코드 관리** 의 관리 역할 그룹에 사용자를 추가하는 것이 좋습니다.
+레코드 관리에 대해 책임이 있는 규정 준수 팀의 구성원에게는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자(전역 관리자)는 이 위치에 액세스할 수 있으며 규정 준수 책임자와 기타 사용자에게 테넌트 관리자의 모든 권한을 부여하지 않고도 액세스 권한을 부여할 수 있습니다. 이러한 제한된 관리에 대한 권한을 부여하려면 [처리 검토 및 확인](disposition.md)을 포함하여 레코드 관리와 관련된 모든 기능에 대한 권한을 부여하는 **레코드 관리** 의 관리 역할 그룹에 사용자를 추가하는 것이 좋습니다. 
 
-이 역할 그룹에 포함된 권한에는 [처리 검토 및 확인](disposition.md)에 대해 필요한 권한이 포함되어 있지 않으며 전역 관리자에게는 기본적으로 해당 권한이 없습니다. 처리를 관리하려면 사용자 지정 역할 그룹을 만들거나 이 역할(예: **준수 관리자** )을 포함하는 기본 역할 그룹을 사용하여 **처리 관리** 역할을 사용합니다.
+읽기 전용 역할의 경우 새 역할 그룹을 생성하고 **보기 전용 레코드 관리** 역할을 이 그룹에 추가할 수 있습니다. 
 
-해당 역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center#roles-in-the-security--compliance-center)을 참조하세요.
+역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center#roles-in-the-security--compliance-center)을 참조하세요.
 
 사용자에게 역할 그룹을 추가하고 역할을 할당하는 방법에 대한 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요.
 
