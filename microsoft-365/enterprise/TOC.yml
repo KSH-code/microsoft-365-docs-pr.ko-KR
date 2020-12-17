@@ -274,20 +274,20 @@
               href: ms-cloud-germany-transition.md
             - name: 마이그레이션에 대해 옵트인
               href: ms-cloud-germany-migration-opt-in.md
-            - name: 고객 경험
+            - name: 변경된 사항
               href: ms-cloud-germany-transition-experience.md
+            - name: 사전 작업
+              href: ms-cloud-germany-transition-add-pre-work.md
             - name: 문장 작업 및 영향 마이그레이션
               href: ms-cloud-germany-transition-phases.md
+            - name: 문장 작업 및 영향 마이그레이션
+              href: ms-cloud-germany-transition-add-experience.md
             - name: 추가 정보
               items:
-                - name: 일반 사항
-                  href: ms-cloud-germany-transition-add-general.md
+                - name: Azure AD
+                  href: ms-cloud-germany-transition-azure-ad.md
                 - name: 디바이스
                   href: ms-cloud-germany-transition-add-devices.md
-                - name: 사전 작업
-                  href: ms-cloud-germany-transition-add-pre-work.md
-                - name: 환경
-                  href: ms-cloud-germany-transition-add-experience.md
                 - name: AD FS 마이그레이션 단계
                   href: ms-cloud-germany-transition-add-adfs.md
 - name: ID
