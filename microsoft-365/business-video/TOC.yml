@@ -1,0 +1,159 @@
+- name: Microsoft 365 Small Business 교육
+  href: index.yml
+  items:
+    - name: 시작
+      items:
+        - name: Microsoft 365
+          href: what-is-microsoft-365.md
+        - name: 설치 개요
+          href: setup-overview.md
+        - name: 구독 선택
+          href: Choose-subscription.md
+    - name: 클라우드 설정
+      items:
+        - name: 구독 등록
+          href: sign-up.md
+        - name: 서비스 설정
+          href: set-up.md
+        - name: Windows 10 PC 보안
+          href: secure-win10-pcs.md
+        - name: GoDaddy 웹 사이트 만들기
+          href: create-web-site.md
+    - name: 장치 설정
+      items:
+        - name: Windows 10 Pro로 업그레이드
+          href: upgrade.md
+        - name: Pc를 Microsoft 365에 연결
+          href: connect.md
+        - name: 앱 Microsoft Office 설치
+          href: install-office.md
+        - name: Outlook을 전자 메일로 설정
+          href: setup-outlook.md
+        - name: 메일 가져오기 및 리디렉션
+          href: import-email.md
+        - name: OneDrive로 파일 이동
+          href: files-to-onedrive.md
+        - name: SharePoint로 회사 파일 이동
+          href: files-to-sharepoint.md
+    - name: Mobile
+      items:
+        - name: 어디에서나 작업
+          href: work-from-anywhere.md
+        - name: Android에 Office 앱 설치
+          href: install-apps-android.md
+        - name: iOS에 Office 앱 설치
+          href: install-apps-ios.md
+        - name: 관리 모바일 앱 다운로드
+          href: admin-mobile.md
+    - name: 공동 작업
+      items:
+        - name: Outlook 및 Teams 사용
+          href: collab-outlook-teams.md
+        - name: 그룹 전자 메일 주소 만들기
+          href: group-email.md
+        - name: 공유 일정 만들기
+          href: shared-calendar.md
+        - name: 전체 팀 만들기
+          href: org-wide-team.md
+        - name: 게스트가 있는 팀 만들기
+          href: team-with-guests.md
+        - name: 팀에 게스트로 참여
+          href: join-team-guest.md
+        - name: 직원 및 고객과 채팅
+          href: start-and-pin-chats.md
+        - name: 온라인 모임 개요
+          href: overview-online-meetings.md
+        - name: 게스트와의 모임 예약
+          href: schedule-guest-meeting.md
+        - name: 게스트와의 모임 참가
+          href: join-guest-meeting.md
+    - name: 클라우드 저장소
+      items:
+        - name: 공유 개요
+          href: overview-file-sharing.md
+        - name: 파일을 저장할 위치
+          href: store-files.md
+        - name: 외부에서 안전하게 파일 공유
+          href: securely-share-files-externally.md
+        - name: 외부에서 파일을 쉽게 공유할 수 있습니다.
+          href: share-files-externally.md
+    - name: Business Voice
+      items:
+        - name: Business Voice 개요
+          href: business-voice.md
+        - name: Business Voice 추가 기능 구입
+          href: buy-business-voice.md
+    - name: 생산성 앱
+      items:
+        - name: Bookings 개요
+          href: overview-bookings.md
+        - name: 이벤트 계획
+          href: plan-event.md
+    - name: 서비스 관리
+      items:
+        - name: 관리자
+          href: what-is-admin.md
+        - name: 관리 센터 개요
+          href: admin-center-overview.md
+        - name: '청구서 보기, 다운로드 또는 인쇄'
+          href: view-bill.md
+        - name: 결제 방법 업데이트
+          href: update-payment.md
+        - name: 사용자 암호 다시 설정
+          href: reset-user-passwords.md
+        - name: 셀프 서비스 암호 재설정 설정
+          href: set-up-self-serve-password-reset.md
+        - name: 사용자 추가
+          href: add-user.md
+        - name: 사용자 삭제
+          href: delete-user.md
+        - name: 다른 관리자 추가
+          href: add-admin.md
+        - name: 사용자 이름 또는 전자 메일 변경
+          href: change-user-name-email.md
+        - name: 다른 구독으로 사용자 이동
+          href: change-subscription.md
+        - name: 회사 전체 서명 만들기
+          href: company-wide-signature.md
+        - name: 사용 현황 보고서에 대한 법안
+          href: act-on-report.md
+        - name: 다른 도메인 추가
+          href: add-domain.md
+    - name: 장치 관리
+      items:
+        - name: Windows 10 Pro 장치 보안
+          href: secure-win-10-pro-devices.md
+        - name: iOS의 Office 앱 보안
+          href: secure-office-on-ios.md
+    - name: 보안 & 규정 준수
+      items:
+        - name: Microsoft 365 Business Premium 보안 개요
+          href: overview-m365-security.md
+        - name: MFA를 통해 직원 계정 보호
+          href: turn-on-mfa.md
+        - name: 휴대폰에서 2계단 로그인 설정
+          href: set-up-mfa.md
+        - name: 맬웨어 검색 켜기
+          href: anti-malware.md
+        - name: 랜섬웨어에 대한 전자 메일 규칙 만들기
+          href: prevent-ransom-in-email.md
+        - name: 전자 메일 자동 전달 중지
+          href: stop-email-auto-forward.md
+        - name: 피싱 방지 설정
+          href: setup-anti-phishing.md
+        - name: 안전한 첨부 파일 관리
+          href: safe-attachments.md
+        - name: 안전한 링크 관리
+          href: safe-links.md
+        - name: 데이터 손실 방지
+          href: set-up-dlp.md
+        - name: 민감도 레이블 만들기
+          href: create-sensitivity-labels.md
+    - name: 지원
+      items:
+        - name: 답변 및 도움말 찾기
+          href: find-help-answers.md
+        - name: 도움말 또는 지원하기
+          href: get-help-support.md
+        - name: 직원 빠른 설정
+          href: employee-quick-setup.md
