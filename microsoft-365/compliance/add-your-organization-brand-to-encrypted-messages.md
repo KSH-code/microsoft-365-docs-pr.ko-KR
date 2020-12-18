@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Office 365 전역 관리자가 암호화 포털의 콘텐츠와 함께 암호화된 전자 메일 메시지에 조직의 & 적용하는 방법을 자세히 알아보겠습니다.
-ms.openlocfilehash: 77fd5e08afa1a4d8ae5f6386fa65b88b6ea2be4d
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: 56b948fc941da4fb221d929ecd59c5300b135e39
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663235"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709500"
 ---
 # <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>비즈니스용 Microsoft 365 메시지 암호화 메시지에 조직의 브랜드 추가
 
@@ -192,9 +192,8 @@ Office 365 고급 메시지 암호화가 있는 경우 [New-OMEConfiguration](ht
 
 사용 가능한 배경색 이름과 해당 16진수 코드 값은 다음 표에 설명되어 있습니다.
 
-|||
-|---|---|
 |**색 이름**|**색 코드**|
+|---|---|
 |`aliceblue`|#f0f8ff|
 |`antiquewhite`|#faebd7|
 |`aqua`|#00ffff|

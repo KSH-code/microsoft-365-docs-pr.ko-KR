@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Office 365를 사용하는 경우 사용 가능한 가장 강력한 암호화, 프로토콜 및 기술을 사용하여 미사용 및 전송 중 콘텐츠가 암호화됩니다. Office 365의 암호화 개요를 참조하세요.
-ms.openlocfilehash: 0cd440549cd038ec9b5f69233e7faa18d9bcee1e
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: 1aee9d401891e807f572c1eed2bc22a54f39e534
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663013"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709571"
 ---
 # <a name="encryption"></a>암호화
 
@@ -89,6 +89,6 @@ Microsoft 365는 Office 365의 볼륨 암호화, 파일 암호화 및 사서함 
 
 [Microsoft 365 보안 및 정보 보호 기능 계획](plan-for-security-and-compliance.md)
 
-[비즈니스용 Microsoft 365 계획을 보호하는 상위 10가지 방법](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide)
+[비즈니스용 Microsoft 365 계획을 보호하는 상위 10가지 방법](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data)
 
 [Microsoft Stream 비디오 수준 암호화 및 재생 흐름](https://docs.microsoft.com/stream/network-overview#video-level-encryption-and-playback-flow)
