@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: MIP(Microsoft Information Protection)를 구현하여 중요한 정보를 어디에서나 보호할 수 있습니다.
-ms.openlocfilehash: 59f57c920f2b753994f2335a6f2ed9ac5b7b77d1
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 2a1ec47ce888dc6d31868d65f9c4c113fa9b968c
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613090"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709510"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft 365의 Microsoft Information Protection
 
@@ -59,7 +59,7 @@ MIP 기능은 Microsoft 365 규정 준수에 포함되어 있으며, [데이터 
 
 |기능|어떤 문제를 해결하나요?|시작|
 |:------|:------------|---------------------|:----------------------------|
-|[민감도 레이블](sensitivity-labels.md)| 애플리케이션, 서비스 및 장치에 걸친 단일 솔루션으로 조직 내외부에서 데이터를 이동할 때 레이블을 지정하고 보호합니다. <br /><br />시나리오 예: [Power BI 민감도 레이블을 적용하고 내보낼 때 데이터 보호](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels)|[민감도 레이블 시작](get-started-with-sensitivity-labels.md) |
+|[민감도 레이블](sensitivity-labels.md)| 애플리케이션, 서비스 및 장치에 걸친 단일 솔루션으로 조직 내외부에서 데이터를 이동할 때 레이블을 지정하고 보호합니다. <br /><br />시나리오 예: [Power BI에서 레이블을 적용 및 확인하고 서비스 외부에서 데이터를 저장할 때 데이터 보호](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels)|[민감도 레이블 시작](get-started-with-sensitivity-labels.md) |
 |[Windows용 Azure Information Protection 통합 레이블 지정 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)| Windows 시스템의 경우 에서는 File Explorer 및 PowerShell에서 모든 파일 형식에 레이블 지정 및 보호를 포함하는 추가 기능 및 기능에 대한 민감도 레이블을 확장합니다.<br /><br /> 추가 기능 예시: [Azure Information Protection 통합 레이블 지정 클라이언트에 대한 사용자 지정 구성](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)| [Azure Information Protection 통합 레이블 사용자 가이드](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide)|
 |[이중 키 암호화](double-key-encryption.md)| 모든 경우 사용자만 보호된 콘텐츠를 해독할 수 있으며, 규정 요구 사항을 충족하려면 암호화 키를 지리적 경계 내에 보관해야 합니다. | [이중 키 암호화](double-key-encryption.md#deploy-dke)|
 |[OME(Office 365 메시지 암호화)](ome.md)| 장치의 모든 사용자에게 전송되는 전자 메일 메시지 및 첨부 문서를 암호화하여 인증된 수신인만 전자 메일 정보를 읽을 수 있도록 합니다.  <br /><br />시나리오 예: [Office 365 고급 메시지 암호화로 암호화된 전자 메일 취소](revoke-ome-encrypted-mail.md) | [새 메시지 암호화 기능 설정하기](set-up-new-message-encryption-capabilities.md)|

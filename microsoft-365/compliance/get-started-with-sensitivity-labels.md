@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블 구현을 시작할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 79dc57e545c3063cae641bab2603e3011c5a1769
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 36cd6a82363c330688de071d1e09ce8f0bfdd16c
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568604"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709563"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -90,7 +90,7 @@ ms.locfileid: "49568604"
 |특정 민감도 레이블로 파일 또는 전자 메일 공유에 대해 사용자 차단 또는 경고 |[민감도 레이블을 DLP 정책의 조건으로 사용(미리 보기)](dlp-sensitivity-label-as-condition.md) |
 |온 프레미스에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호 |[파일을 자동으로 분류하고 보호하는 Azure Information Protection 스캐너 배포](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |클라우드에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호|[클라우드에 저장된 데이터를 검색하고, 분류하고, 레이블을 지정하고, 보호](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
-|Power BI 민감도 레이블을 적용하고 내보낼 때 데이터 보호|[Power BI에서 민감도 레이블을 적용하는 방법](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels)|
+|Power BI에서 레이블을 적용 및 확인하고 서비스 외부에서 데이터를 저장할 때 데이터를 보호합니다.|[Power BI의 민감도 레이블](https://docs.microsoft.com/power-bi/admin/service-security-sensitivity-label-overview)|
 |조직에서 민감도 레이블이 사용되는 방식을 모니터링하고 이해하기|[데이터 파악 - 데이터 분류 개요](data-classification-overview.md) <br /><br /> [레이블 분석을 통한 레이블 사용량 보기](label-analytics.md)|
 |타사 앱 및 서비스에 민감도 레이블을 연장|[Microsoft Information Protection SDK](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|
 |Azure Blob Storage, Azure 파일, Azure Data Lake Storage 1세대 및 Azure Data Lake Storage Gen12의 컨텐츠에 걸쳐 민감도 레이블 확장|[Azure Purview에서 내용에 자동으로 레이블을 지정](https://docs.microsoft.com/azure/purview/create-sensitivity-label) |
