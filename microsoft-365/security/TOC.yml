@@ -366,7 +366,7 @@
           items:
             - name: Exchange Online Protection
               items:
-                - name: EOP에서 기본 피싱 방지 정책을 구성
+                - name: EOP에서 스팸 방지 정책 구성하기
                   href: ./office-365-security/configure-anti-phishing-policies-eop.md
                 - name: 정크 메일 폴더에 스팸을 전달하도록 독립 실행형 EOP 구성
                   href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
