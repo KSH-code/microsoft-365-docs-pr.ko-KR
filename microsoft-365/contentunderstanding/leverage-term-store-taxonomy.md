@@ -10,12 +10,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: Priority
 description: Microsoft SharePoint Syntexdml 문서 이해 모델에서 추출자를 만들 때 용어 저장소 분류를 활용 하세요.
-ms.openlocfilehash: a8078e6ff2d2ecd0f98c22b602a54675f7d62816
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: cf396d14a497981389cc336c5efd121f36392181
+ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701098"
+ms.locfileid: "49709551"
 ---
 # <a name="leverage-term-store-taxonomy-when-creating-an-extractor"></a>추출자를 만들 때 용어 저장소 분류 활용
 
@@ -25,7 +25,7 @@ ms.locfileid: "49701098"
 
 </br>
 
-Microsoft SharePoint 구문 문서 이해 모델에서 추출자를 만들 때 [관리되는 메타데이터 서비스](https://docs.microsoft.com/sharepoint/managed-metadata#terms) 용어 저장소 분류를 사용하여 추출 하고자 하는 데이터의 기본 용어를 표시 할 수 있습니다.  
+SharePoint Syntex를 사용하여 문서 이해 모델에서 추출자를 생성할 때 [ 용어 저장소](https://docs.microsoft.com/sharepoint/managed-metadata)의 글로벌 용어 세트를 활용하여 추출하는 데이터에 대한 선호 용어를 표시할 수 있습니다.  
 
 예를 들어, 모델은 문서 라이브러리에 업로드 되는 모든 **계약서** 를 식별하고 분류합니다.  또한 모델은 각 계약서에서 **계약 서비스** 값을 추출하고 라이브러리 보기의 열에 표시합니다. 계약서의 다양한 계약 서비스에는 회사가 더 이상 사용하지 않고 이름이 변경 된 여러가지 이전 값이 있습니다. 예를 들어 *디자인*, *그래픽* 또는 *지형* 계약 서비스에 대한 모든 참조는 이제 *창의성* 이라고 불립니다. 모델이 계약 문서에서 오래 된 용어를 추출할 때 사용자는 라이브러리 보기에서 현재 용어인 창의성을 보기 원합니다. 아래 예제에서 모델 교육을 하는 동안 예시 문서에 *디자인* 의 오래된 용어가 포함되어 있는 것이 보입니다.
 
@@ -36,9 +36,6 @@ Microsoft SharePoint 구문 문서 이해 모델에서 추출자를 만들 때 [
 용어 집합은 SharePoint 관리 센터에서 MMS(관리되는 메타데이터 서비스) 용어 저장소에 구성 됩니다. 아래 예제에서는 *계약서 서비스* [용어 집합](https://docs.microsoft.com/sharepoint/managed-metadata#term-set)은 *창의성* 을 포함하여 몇 가지의 용어를 포함하도록 구성되었습니다.  세부 내역에는 용어에 세 가지의 동의어(*디자인*, *그래픽* 및 *지형*)가 있다고 보여주며 이 동의어는 *창의성* 이라고 해석되어야 합니다. 
 
    ![용어 집합](../media/content-understanding/term-store.png)</br>
-
-> [!NOTE]
->  용어 집합은 컨텐츠 센터의 MMS 필드에서 전역으로 구성됩니다.
 
 용어 집합에서 동의어를 사용하는데는 몇 가지 이유가 있습니다. 예를 들어, 이름을 지을 때 예전에 사용된 용어, 이름이 바뀐 용어 혹은 조직 부서간에 다르게 사용되는 용어가 있을 수 있습니다.
 

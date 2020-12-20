@@ -172,6 +172,8 @@
           href: office-365-service-encryption.md
         - name: 고객 키
           items:
+            - name: 테넌트 수준에서의 Microsoft 365 고객 키(공개 미리보기)
+              href: customer-key-tenant-level.md
             - name: Office 365의 고객 키를 사용한 서비스 암호화
               href: customer-key-overview.md
             - name: Office 365의 고객 키 설정

@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: bd7b4f78d37feddd7c66322460a6532a77045ba2
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: b05901ad8d42f481020178479df5d422fa68eb1a
+ms.sourcegitcommit: 5cbce99cfdbba4b72267a144b2e03a6c52473464
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988670"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718501"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
@@ -32,7 +32,7 @@ Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-com
 > [!NOTE]
 > Office 365 또는 Microsoft 365 Enterprise E5 구독이 있는 조직의 경우 고급 감사 기능을 사용할 수 있습니다. 또한 감사 로그가 장기 보존되는 경우와 조사에 대한 중요한 이벤트에 액세스하는 경우와 같이 고급 감사 기능에 대 한 사용자별 라이선스가 필요한 경우에는 Microsoft 365 E5 준수 또는 E5 eDiscovery 및 감사 추가 기능 라이선스가 사용자에게 할당될 수 있습니다. 라이선싱에 대한 자세한 내용은 [보안 & 준수에 대한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit)을 참조하세요.
 
-이 문서는 고급 감사 기능에 대한 개요를 제공합니다.
+이 문서에서는 고급 감사 기능 개요와 고급 감사에 대한 사용자 설정 방법이 나와 있습니다.
 
 ## <a name="long-term-retention-of-audit-logs"></a>감사 로그의 장기 보존
 
@@ -140,6 +140,26 @@ Office 365 관리 활동 API를 통해 감사 로그에 액세스하는 조직�
 모든 조직에는 처음에 분당 2,000건의 요청 기준이 할당됩니다. 이 한도는 조직의 라이선스 수와 라이선스 구독에 따라 동적으로 증가합니다. E5 조직은 E5 이외의 조직보다 약 2배의 대역폭을 얻게 됩니다. 또한 서비스 상태를 보호하기 위해 최대 대역폭에 제한이 있습니다.
 
 자세한 내용은 [Office 365 관리 활동 API 참조](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference#api-throttling)의 "API 조절"섹션을 참조하십시오.
+
+## <a name="set-up-advanced-audit-for-users"></a>사용자에 대한 고급 감사 설정
+
+MailItemsAccessed 및 전송과 같은 중요한 이벤트를 기록하는 기능과 같은 고급 감사 기능을 사용하려면 적절한 E5 라이선스가 사용자에게 할당되어야 합니다. 또한 이러한 사용자에 대해 고급 감사 앱/서비스 계획을 실행해야 합니다. 고급 감사 앱이 사용자에게 할당되었는지 확인하려면 각 사용자에 대해 다음 단계를 수행하세요.
+
+1. [Microsoft 365 관리 센터](https://admin.microsoft.com/Adminportal)에서 **사용자** > **활성 사용자** 로 이동하여 라이선스를 할당합니다.
+
+2. 사용자 속성 플라이아웃 페이지에서 **라이선스 및 앱** 을 클릭합니다.
+
+3. **라이선스** 구역에서 사용자에게 E5 라이선스가 할당되어 있는지 확인합니다.
+
+4. **앱** 구역을 확장하고 **Microsoft 365 고급 감사** 확인란이 선택되어 있는지 확인합니다.
+
+5. 확인란이 선택되어 있지 않은 경우 확인란을 선택하고 **변경 내용 저장** 을 클릭합니다.
+
+   사용자에 대한 MailItemsAccessed, 전송 및 기타 중요한 이벤트에 대한 감사 레코드 로깅이 24시간 내에 시작됩니다.
+
+그룹 기반 라이선스를 사용하여 사용자 그룹에 라이선스를 할당하는 조직의 경우 그룹의 Microsoft 365 고급 감사에 대한 라이선스 할당을 해제해야 합니다. 변경 내용을 저장한 후에는 그룹에 대해 Microsoft 365 고급 감사를 해제했는지 확인합니다. 그런 다음, 그룹에 대한 라이선스 할당을 다시 설정합니다. 그룹 기반 라이선싱에 대한 자세한 내용은 [Azure Active Directory에서 그룹 구성원으로 사용자에게 라이선스 할당](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)을 참조하세요.
+
+또한 사용자 사서함 또는 공유 사서함에 로그온한 사서함 작업을 사용자 정의한 경우 MailItemsAccessed와 같은 새로운 기본 사서함 작업은 해당 사서함에 대해 자동으로 감사되지 않습니다. 각 로그온 유형에 대해 감사되는 사서함 작업을 변경하는 방법에 대한 자세한 내용은 [사서함 감사 관리](enable-mailbox-auditing.md#change-or-restore-mailbox-actions-logged-by-default)의 "기본적으로 로그되는 사서함 작업 변경 또는 복원" 섹션을 참조하세요.
 
 ## <a name="faqs-for-advanced-audit"></a>고급 감사를 위한 FAQ
 
