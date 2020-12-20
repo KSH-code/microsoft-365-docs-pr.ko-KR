@@ -1,32 +1,44 @@
-- name: 지식 관리 시작
+- name: Topic 체험 시작
   items:
-    - name: 지식 관리 개요
-      href: knowledge-management-overview.md
-    - name: 항목 센터 개요
-      href: topic-center-overview.md
-    - name: 항목 센터에서 항목 작업
-      href: work-with-topics.md
-    - name: 사용자에게 항목 센터에 대한 사용 권한 부여
-      href: give-user-permissions-to-the-topic-center.md
+    - name: 주제 체험 소개
+      href: index.md
+    - name: 주제 체험 개요
+      href: topic-experiences-overview.md
+    - name: 주제 체험 검색 및 큐레이션
+      href: topic-experiences-discovery-curation.md
+    - name: 주제 체험 역할
+      href: topic-experiences-roles.md
     - name: 환경 준비
       href: topic-experiences-get-ready.md
-- name: 설치 및 관리
+- name: 설정 및 관리
   items:
-    - name: 항목 보안
+    - name: 주제 보안
       href: topic-experiences-security-privacy.md
-    - name: 항목 환경 계획
+    - name: 계획 주제 경험
       href: plan-topic-experiences.md
-    - name: 항목 환경 설정
+    - name: 주제 경험 설정
       href: set-up-topic-experiences.md
     - name: 항목 검색 관리
       href: topic-experiences-discovery.md
-    - name: 항목 표시 여부 관리
+    - name: 주제 가시성 관리
       href: topic-experiences-knowledge-rules.md
-    - name: 항목 사용 권한 관리
+    - name: 항목 권한 관리
       href: topic-experiences-user-permissions.md
-    - name: 항목 센터 이름 변경
+    - name: 주제 센터 이름 변경
       href: topic-experiences-administration.md
+- name: 주제 관련 작업
+  items:
+    - name: 토픽 센터 개요
+      href: topic-center-overview.md
+    - name: 주제 센터에서 주제 관리
+      href: manage-topics.md
+    - name: 새 항목 만들기
+      href: create-a-topic.md
+    - name: 주제 편집
+      href: edit-a-topic.md
+    - name: 보안 트리밍
+      href: topic-experiences-security-trimming.md
 - name: 채택
   items:
-    - name: 채택을 주도하기 시작
+    - name: 채택 추진 시작
       href: topics-adoption-getstarted.md
