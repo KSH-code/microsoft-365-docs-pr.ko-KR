@@ -1,7 +1,7 @@
 ---
 title: Office 365용 Microsoft Defender의 새로운
 description: Office 365용 Microsoft Defender의 최신 릴리스에서 사용할 수 있는 새로운 기능에 대해 자세히 알아보습니다.
-keywords: Office 365 atp, ga, 일반적으로 사용할 수 있는 기능, 사용 가능한 기능, 새로운 기능의 새로운 기능
+keywords: Office 365 atp, ga, 일반 제공, 기능, 사용 가능, 새로운 기능의 새로운 기능
 search.appverid: met150
 ms.service: O365-seccomp
 ms.sitesec: library
@@ -20,12 +20,12 @@ ms.topic: conceptual
 ms.date: 10/09/2020
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: d219895767919c2a0658f8b83150fe6edde01b5b
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: fb588320461ab44d1ce0f10c0776bcc9ee61b551
+ms.sourcegitcommit: 0ecac0387be6b49025b79ce8eb949a8cf62481e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615555"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "49724405"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 새로운
 
@@ -51,11 +51,11 @@ ms.locfileid: "49615555"
 - [테넌트 허용/차단 목록을 사용하여 필터 판정을 수동으로 다시우기](tenant-allow-block-list.md)
 - 최상위 대상 [사용자,](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) 전송 규칙 및 커넥터를 포함하여 위협 탐색기에서 확장된 [기능(위협](threat-explorer.md) 탐색기에서 Office 365 정보용 Defender(테넌트/사용자 정책에 의해 전자 메일이 허용/차단)(Office 365 계획 2용 Defender)
 - 위협 탐색기에서 [](threat-explorer.md#threats-in-urls) URL 위협(맬웨어, 피싱, 스팸 또는 없음)(Office 365 계획 2용 Defender)
-- [위협,](threat-explorer.md#improvements-to-threat-hunting-experience-upcoming) 추가 작업, 배달 위치 및 업데이트된 타임라인 보기에 대한 업데이트가 있는 헌팅 환경 위협 탐색기 개선(Office 365 계획 2용 Defender)
+- [위협,](threat-explorer.md#improvements-to-the-threat-hunting-experience-upcoming) 추가 작업, 배달 위치 및 업데이트된 타임라인 보기에 대한 업데이트가 있는 헌팅 환경 위협 탐색기 개선(Office 365 계획 2용 Defender)
 
 ## <a name="julyaugust-2020"></a>2020년 7월/8월
 
-- [헌팅](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections) 환경 개선(Office 365 계획 1 또는 계획 2용 Microsoft Defender)
+- [헌팅](threat-explorer.md#improvements-to-threat-explorer-and-real-time-detections) 환경 개선(Office 365 계획 1 또는 계획 2용 Microsoft Defender)
 - [미리 설정한 보안 정책을 사용하여 권장 설정을 쉽게 적용](preset-security-policies.md)
 
 ## <a name="marchapril-2020"></a>2020년 3월/4월
@@ -103,9 +103,9 @@ ms.locfileid: "49615555"
 
 ## <a name="june-2019"></a>2019년 6월
 
-- [피싱 URL에 대한](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) 데이터 보기 및 클릭 판정(Microsoft Defender for Office 365 계획 1 또는 계획 2)
+- [피싱 URL 보기 및 판정 데이터 클릭(Microsoft](threat-explorer.md#view-phishing-url-and-click-verdict-data) Defender for Office 365 계획 1 또는 계획 2)
 
-## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Microsoft Defender for Office 365 요금제 1 및 계획 2
+## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Office 365용 Microsoft Defender 플랜 1 및 플랜 2
 
 Office 365용 Microsoft Defender를 두 가지 계획으로 사용할 수 있는 것을 알고 있나요? [각 계획에 포함된 내용에 대해 자세히 알아보습니다.](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2)
 
