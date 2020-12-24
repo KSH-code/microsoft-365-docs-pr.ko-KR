@@ -11,17 +11,23 @@ ms.collection: enabler-strategic
 ms.service: ''
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9bce380e9e1380f2b2560762d2df37352251bf2b
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: 809d3936ed27275873f63526e7dfc8f91a15a0cc
+ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698895"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731358"
 ---
 # <a name="edit-an-existing-topic-preview"></a>기존 항목 편집(미리 보기)
 
 > [!Note] 
 > 이 문서의 내용은 Project Cortex Private Preview용입니다. [Project Cortex](https://aka.ms/projectcortex)에 대해 자세히 알아보세요.
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LA4n]  
+
+</br>
 
 항목 환경의 경우 기존 항목을 편집할 수 있습니다. 기존 항목 페이지에 추가 정보를 수정하거나 추가하려면 이 작업을 해야 할 수 있습니다. 
 
