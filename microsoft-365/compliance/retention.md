@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 9745a93139f591185e7457f5ba5c0b9b2fd56348
-ms.sourcegitcommit: 16e018f8b6eef5dad48eabf179691ead3cebe533
+ms.openlocfilehash: 8d50e03827026100689d9b380570fa59c93e6d08
+ms.sourcegitcommit: 5756896ad87e28fac20f7981eaaeacfb0c098254
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "49725179"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49730179"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -465,7 +465,7 @@ SharePoint 및 OneDrive의 30일간의 유예 기간은 Exchange의 30일 지연
 - [Microsoft Teams의 제한 사항 및 사양](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) 
 - [정보 거버넌스 및 레코드 관리를 위해 규정 요구 사항을 충족할 수 있도록 도움이 되는 리소스](retention-regulatory-requirements.md)
 
-## <a name="next-steps"></a>다음 단계
+## <a name="configuration-guidance"></a>구성 지침
 
 보존 정책을 만들 준비가 되었으면 [보존 정책 만들기 및 구성하기](create-retention-policies.md)를 참조하세요.
 

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Microsoft 365의 레코드 관리를 사용하여 보존 일정을 파일 플랜에 적용하여 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: 6648a3a671e40dd5218eba1a1e8bafe42120f0de
-ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
+ms.openlocfilehash: 883fd65e3fba716018a1ed35cc457c2eb8f06c52
+ms.sourcegitcommit: 5756896ad87e28fac20f7981eaaeacfb0c098254
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48830529"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49730169"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Microsoft 365의 레코드 관리하기에 대해 알아보기
 
@@ -109,7 +109,7 @@ Microsoft 365에서 다음 기능을 사용하여 레코드 관리 솔루션을 
 > 
 > 이러한 취소할 수 없는 작업으로 인해 보존 레이블에 대해 이 옵션을 선택하기 전에 반드시 규제 레코드를 사용해야 합니다. 실수로 인한 구성을 방지하기 위해 이 옵션은 기본적으로 사용할 수 없지만 먼저 PowerShell을 사용하여 사용하도록 설정해야 합니다. [보존 레이블을 사용하여 레코드를 선언](declare-records.md)에 지침이 포함되어 있습니다.
 
-## <a name="next-steps"></a>다음 단계
+## <a name="configuration-guidance"></a>구성 지침
 
 [레코드 관리 시작](get-started-with-records-management.md)을 참조하세요.
 
