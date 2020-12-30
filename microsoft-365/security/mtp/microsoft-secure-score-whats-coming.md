@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d668aa8f0588ecc5ca24086d060cda32cdf1dbc6
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 0693e70cdd5636ce655a400a48aac65197327291
+ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688044"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "49737956"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Microsoft 보안 점수에 대한 예정
 
@@ -32,9 +32,11 @@ Microsoft 보안 점수는 https://security.microsoft.com/securescore Microsoft 
 
 ## <a name="proposed-changes"></a>제안된 변경 내용
 
-Microsoft 보안 점수를 귀하의 보안 자세를 [](microsoft-secure-score.md) 보다 잘 대시하고 사용성을 개선하기 위해 조만조만 변경하고 있습니다. 점수와 가능한 최대 점수는 변경될 수 있습니다.
+Microsoft 보안 점수가 보안 자세를 [](microsoft-secure-score.md) 보다 잘 대시하고 사용성을 개선하기 위해 조만히 변경될 예정입니다. 점수와 가능한 최대 점수는 변경될 수 있습니다.
 
 ### <a name="no-planned-changes"></a>계획된 변경 내용 없음
+
+현재로는 계획된 변경 내용이 없습니다.
 
 ## <a name="related-resources"></a>관련 리소스
 

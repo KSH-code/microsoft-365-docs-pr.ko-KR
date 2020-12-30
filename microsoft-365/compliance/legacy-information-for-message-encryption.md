@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 레거시 파일을 조직의 OME(Office 365 메시지 암호화)로 전환하는 방법을 이해합니다.
-ms.openlocfilehash: 23f287fd01949d710c5cc5c65f0c36c6055d3a57
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: bf64d7991a843d2fd3d4f5f927eaa5c4bfef921c
+ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688435"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "49738035"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Office 365 메시지 암호화 레거시 정보
 
@@ -46,10 +46,6 @@ Office 365 메시지 암호화를 사용하여 조직은 조직 내부 및 외�
 ## <a name="how-office-365-message-encryption-works-without-the-new-capabilities"></a>Office 365 메시지 암호화가 새로운 기능 없이 작동하는 방식
 
 Office 365 메시지 암호화는 Microsoft Azure RMS(Azure 권한 관리)를 바탕으로 구축된 온라인 서비스입니다. Azure RMS를 사용하여 관리자는 메일 흐름 규칙을 정의하여 암호화 조건을 결정할 수 있습니다. 예를 들어 규칙은 특정 받는 사람에게 주소가 지정되는 모든 메시지의 암호화를 요구할 수 있습니다.
-  
-이 짧은 비디오를 시청하여 Office 365 메시지 암호화가 새로운 기능 없이 작동하는 방법을 볼 수 있습니다.
-  
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/c55540e7-f7f0-42f5-b254-4b2d2fbb1d63?autoplay=false]
   
 암호화 규칙과 일치하는 전자 메일 메시지를 Exchange Online에서 보내는 경우 해당 메시지는 HTML 첨부 파일과 함께 전송됩니다. 받는 사람이 HTML 첨부 파일을 열고 지침에 따라 Office 365 메시지 암호화 포털에서 암호화된 메시지를 볼 수 있습니다. 받는 사람은 Microsoft 계정이나 Office 365와 연결된 직장이나 학교에 로그인하거나 일회용 코드를 사용하여 메시지를 볼 수 있습니다. 두 옵션을 사용하면 해당 받는 사람만 암호화된 메시지를 볼 수 있도록 보장할 수 있습니다. 이 프로세스는 새로운 OME 기능에서 매우 다릅니다.
   
@@ -183,8 +179,9 @@ Exchange Online 및 Exchange Online Protection 관리자는 암호화된 메시�
 언제든지 기본 모양과 느낌으로 되돌릴 수 있습니다.
   
 다음 예에서는 전자 메일 첨부 파일에 포함된 ContosoPharma의 사용자 지정 로고를 보여 줍니다.
-  
-![암호화된 메시지 보기 페이지 예제](../media/TA-OME-3attachment2.jpg)
+
+> [!div class="mx-imgBorder"]
+> ![암호화된 메시지 보기 페이지 예제](../media/TA-OME-3attachment2.jpg)
   
 **조직의 브랜드를 사용하여 암호화 전자 메일 메시지 및 암호화 포털을 사용자 지정**
   
@@ -194,34 +191,34 @@ Exchange Online 및 Exchange Online Protection 관리자는 암호화된 메시�
 
    **암호화 사용자 지정 옵션**
 
-**암호화 환경에서 사용자 지정하려는 기능**|**사용할 Windows PowerShell 명령**|
-|:-----|:-----|
-|암호화된 전자 메일 메시지에 포함되는 기본 텍스트  <br/> 암호화된 메시지를 보기 위한 지침 위에 표시되는 기본 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<string of up to 1024 characters>"` <br/> **예제:** `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system"` <br/> |
-|암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<your disclaimer statement, string of up to 1024 characters>"` <br/> **예제:** `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText "This message is confidential for the use of the addressee only"` <br/> |
-|암호화된 메일 보기 포털 위쪽에 표시되는 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<text for your portal, string of up to 128 characters>"` <br/> **예제:** `Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal"` <br/> |
-|로고  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <Byte[]>` <br/> **예제:** `Set-OMEConfiguration -Identity "OME configuration" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> 지원되는 파일 형식: .png, .jpg, .bmp 또는 .tiff  <br/> 로고 파일의 최적 크기: 40KB 미만  <br/> 최적 로그 이미지 크기: 170x70 픽셀  <br/> |
+   | 암호화 환경에서 사용자 지정하려는 기능 | 사용할 Windows PowerShell 명령 |
+   |:-----|:-----|
+   |암호화된 전자 메일 메시지에 포함되는 기본 텍스트  <br/> 암호화된 메시지를 보기 위한 지침 위에 표시되는 기본 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<string of up to 1024 characters>"` <br/> **예:**`Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system"` <br/> |
+   |암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<your disclaimer statement, string of up to 1024 characters>"` <br/> **예:**`Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText "This message is confidential for the use of the addressee only"` <br/> |
+   |암호화된 메일 보기 포털 위쪽에 표시되는 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<text for your portal, string of up to 128 characters>"` <br/> **예:**`Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal"` <br/> |
+   |로고  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <Byte[]>` <br/> **예:**`Set-OMEConfiguration -Identity "OME configuration" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> 지원되는 파일 형식: .png, .jpg, .bmp 또는 .tiff  <br/> 로고 파일의 최적 크기: 40KB 미만  <br/> 최적 로그 이미지 크기: 170x70 픽셀  <br/> |
 
 **암호화 전자 메일 메시지 및 암호화 포털에서 브랜드 사용자 지정을 제거하려면**
   
 1. 원격 PowerShell을 사용하여 Exchange Online에 연결에 설명된 바와 같이 원격 [PowerShell을 사용하여 Exchange Online에 연결합니다.](https://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx)
 
-2. 여기에 설명된 Set-OMEConfiguration cmdlet을 [사용하세요. Set-OMEConfiguration](https://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b). DisclaimerText, EmailText 및 PortalText 값에서 조직의 브랜드가 지정한 사용자 지정을 제거하려면 값을 빈 문자열로  `""` 설정하십시오. 로고와 같은 모든 이미지 값에 대해 값을  `"$null"` .로 설정
+2. 설명된 Set-OMEConfiguration cmdlet을 [사용하세요. Set-OMEConfiguration](https://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b). DisclaimerText, EmailText 및 PortalText 값에서 조직의 브랜드가 지정한 사용자 지정을 제거하려면 값을 빈 문자열로  `""` 설정하십시오. 로고와 같은 모든 이미지 값에 대해 값을  `"$null"` .로 설정
 
    **암호화 사용자 지정 옵션**
 
-|**암호화 환경의 이 기능을 기본 텍스트 및 이미지로 되돌리려면**|**사용할 Windows PowerShell 명령**|
-|:-----|:-----|
-|암호화된 전자 메일 메시지에 포함되는 기본 텍스트  <br/> 암호화된 메시지를 보기 위한 지침 위에 표시되는 기본 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<empty string>"` <br/> **예제:** `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""` <br/> |
-|암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<empty string>"` <br/> **예제:** `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""` <br/> |
-|암호화된 메일 보기 포털 위쪽에 표시되는 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<empty string>"` <br/> **기본값으로 되돌리기 예:**`Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""` <br/> |
-|로고  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <"$null">` <br/> **기본값으로 되돌리기 예:**`Set-OMEConfiguration -Identity "OME configuration" -Image $null` <br/> |
+   | 암호화 환경의 이 기능을 기본 텍스트 및 이미지로 되돌리려면 | 사용할 Windows PowerShell 명령 |
+   |:-----|:-----|
+   |암호화된 전자 메일 메시지에 포함되는 기본 텍스트  <br/> 암호화된 메시지를 보기 위한 지침 위에 표시되는 기본 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<empty string>"` <br/> **예:**`Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""` <br/> |
+   |암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<empty string>"` <br/> **예:**`Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""` <br/> |
+   |암호화된 메일 보기 포털 위쪽에 표시되는 텍스트  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<empty string>"` <br/> **기본값으로 되돌리기 예:**`Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""` <br/> |
+   |로고  <br/> | `Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <"$null">` <br/> **기본값으로 되돌리기 예:**`Set-OMEConfiguration -Identity "OME configuration" -Image $null` <br/> |
 
 ## <a name="service-information-for-legacy-office-365-message-encryption-prior-to-the-release-of-the-new-ome-capabilities"></a>새 OME 기능을 릴리스하기 전에 레거시 Office 365 메시지 암호화에 대한 서비스 정보
 <a name="LegacyServiceInfo"> </a>
 
 다음 표에서는 새 OME 기능이 릴리스된 후 Office 365 메시지 암호화 서비스에 대한 기술 세부 정보를 제공합니다.
   
-|**서비스 정보**|**설명**|
+| 서비스 정보 | 설명 |
 |:-----|:-----|
 |클라이언트 장치 요구 사항  <br/> |양식 게시를 지원하는 최신 브라우저에서 HTML 첨부 파일을 열 수 있으면 모든 클라이언트 장치에서 암호화된 메시지를 확인할 수 있습니다.  <br/> |
 |암호화 알고리즘 및 FIPS(Federal Information Processing Standard) 규정 준수  <br/> |Office 365 메시지 암호화에서는 Windows Azure IRM(정보 권한 관리)과 같은 암호화 키를 사용하며 암호화 모드 2(RSA용 2K 키 및 SHA-1 시스템용 256비트 키)가 지원됩니다. 주된 IRM 암호화 모드에 대한 자세한 내용은 [AD RMS 암호화 모드를 참조하세요.](https://technet.microsoft.com/library/hh867439%28WS.10%29.aspx)  <br/> |
@@ -300,11 +297,11 @@ Office 365 메시지 암호화는 RMS(권한 관리 서비스)를 암호화 인�
   
  **Q. Office 365 메시지 암호화를 지원하려면 조직의 방화벽에서 URL, IP 주소 또는 포트를 열아야 하나요?**
   
-예. Office 365 메시지 암호화로 암호화된 메시지에 대한 인증을 사용하도록 설정하려면 조직의 허용 목록에 Exchange Online의 URL을 추가해야 합니다. Exchange Online URL 목록은 Microsoft [365 URL](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)및 IP 주소 범위를 참조하세요.
+예. Office 365 메시지 암호화로 암호화된 메시지에 대한 인증을 사용하도록 설정하려면 조직의 허용 목록에 Exchange Online의 URL을 추가해야 합니다. Exchange Online URL 목록은 Microsoft [365 URL 및 IP 주소 범위를 참조하세요.](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)
   
  **Q. Microsoft 365 암호화 메시지를 보낼 수 있는 받는 사람 수**
   
-받는 사람 제한은 메시지당 받는 사람 500명 또는 메일 목록 확장 후 결합된 메시지의  받는 사람 필드에서 11,980자 중 먼저 오는 받는 사람 필드입니다.
+받는 사람 제한은 메시지당 받는 사람 500명 또는 메일 목록 확장 후 결합될 경우 메시지의 받는 사람 필드에서 11,980자 중 가장 먼저 오는 문자입니다. 
   
  **Q. 특정 받는 사람에게 보낸 메시지를 취소할 수 있습니까?**
   

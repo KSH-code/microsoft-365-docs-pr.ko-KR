@@ -20,28 +20,28 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 253e85da7bb85a0722831851f00051a50a96153e
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 61ac8c627dd701ac354a5d60d4774a6443b4d41e
+ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688414"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "49737990"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Microsoft 보안 점수의 새로운
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft 보안 점수가 보안 자세를 보다 잘 대표할 수 있도록 몇 가지 변경 내용을 적용해보아야 합니다. 계획된 변경에 대한 자세한 내용은 Microsoft 보안 점수의 출시 [예정을 참조하세요.](microsoft-secure-score-whats-coming.md)
+Microsoft 보안 점수가 보안 자세를 보다 잘 대표할 수 있도록 몇 가지 변경을 적용하고 있습니다. 계획된 변경에 대한 자세한 내용은 Microsoft 보안 점수의 출시 [예정을 참조하세요.](microsoft-secure-score-whats-coming.md)
 
 Microsoft 보안 점수는 https://security.microsoft.com/securescore Microsoft [365](overview-security-center.md)보안 센터에서 찾을 수 있습니다.
 
 ## <a name="december-2020"></a>2020년 12월
 
-### <a name="added-6-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>끝점용 Microsoft Defender(이전의 Microsoft Defender ATP)에 대한 6개 계정 관련 개선 작업이 추가되었습니다.
+### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>끝점용 Microsoft Defender(이전의 Microsoft Defender ATP)에 대한 6개의 계정 관련 개선 작업이 추가되었습니다.
 
 - '최소 암호 길이'를 '14자 이상'으로 설정
 - '암호 기록 적용'을 '24개 이상의 암호'로 설정
-- '최대 암호 사용 기간'을 '60일 이하로 설정하고 0일이 아닌'로 설정
+- '최대 암호 사용 기간'을 '60일 이하로 설정하고 0일은 안 되지만'
 - '최소 암호 사용'을 '1일 이상'으로 설정
 - 기본 제공 관리자 계정을 사용하지 않도록 설정
 - 기본 제공 게스트 계정을 사용하지 않도록 설정
@@ -52,7 +52,7 @@ Microsoft 보안 점수는 https://security.microsoft.com/securescore Microsoft 
 
 Share > **ServiceNow로** 진행하여 보안 점수를 통해 ServiceNow 티켓을 만드는 기능을 더 이상 사용할 수 없습니다. 다음 단계를 결정하는 동안 여러분의 피드백에 감사하고 지원을 계속해주신 것을 환영합니다.
 
-### <a name="added-3-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>끝점용 Microsoft Defender(이전의 Microsoft Defender ATP)에 대한 3개 서비스 관련 개선 작업이 추가되었습니다.
+### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>끝점용 Microsoft Defender(이전의 Microsoft Defender ATP)에 대한 세 가지 서비스 관련 개선 작업이 추가되었습니다.
 
 - Windows 서비스에 대한 인용되지 않은 서비스 경로 수정
 - 서비스 실행 경로를 공통으로 보호된 위치로 변경
@@ -62,7 +62,7 @@ Share > **ServiceNow로** 진행하여 보안 점수를 통해 ServiceNow 티켓
 
 ### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender와 관련된 개선 작업 제거
 
-- 경고할 Microsoft Defender SmartScreen Windows 스토어 앱 웹 콘텐츠 검사 설정
+- 경고를 표시하기 위해 Microsoft Defender SmartScreen Windows 스토어 앱 웹 콘텐츠 확인 설정
 
 ## <a name="august-2020"></a>2020년 8월
 
@@ -70,9 +70,9 @@ Share > **ServiceNow로** 진행하여 보안 점수를 통해 ServiceNow 티켓
 
 - 정책을 사용하여 레거시 인증 차단
 
-## <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>ID 보안 점수 및 Graph API와의 비호치
+## <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>ID 보안 점수 및 Graph API와 비호화
 
-Microsoft 보안 점수의 최근 릴리스에서는 향상된 점수 모델이 릴리스되었습니다. 이러한 변경을 통해 보안 자세를 보다 유연하고 정확하게 볼 수 있습니다. 그러나 이러한 업데이트로 Microsoft 보안 점수가 ID 보안 점수 및 Graph API와 일시적으로 무관하게 됩니다.
+Microsoft 보안 점수의 최근 릴리스에서는 향상된 점수 모델이 릴리스되었습니다. 이러한 변경을 통해 보안 자세를 보다 유연하고 정확하게 볼 수 있습니다. 그러나 이러한 업데이트로 Microsoft 보안 점수가 ID 보안 점수 및 Graph API와 일시적으로 양자화되지 않습니다.
 
 시간이 지날 때 ID 보안 점수 및 Graph API는 새로운 점수 매기기 모델을 채택합니다. 그 때까지 고객은 Microsoft 보안 점수, ID 보안 점수 및 Graph API에서 보고한 점수의 차이를 확인할 수 있습니다. 이로 인해 불편을 드려 죄송합니다. 또한 향후 이러한 환경이 더욱 호환될 수 있도록 지원하기 위해 작업 중입니다.
 
@@ -94,7 +94,7 @@ Microsoft 보안 점수의 최근 릴리스에서는 향상된 점수 모델이 
 
 ## <a name="we-want-to-hear-from-you"></a>의견을 보내 주세요.
 
-문제가 있는 경우 보안, 개인 정보 보호 및 규정 준수 커뮤니티에 게시하여 [& 알려주세요.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티를 모니터링하고 있으며 도움을 제공할 것입니다.
+문제가 있는 경우 보안, 개인 정보 보호 및 규정 준수 커뮤니티에 & [알려주세요.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티를 모니터링하고 있으며 도움을 제공할 것입니다.
 
 ## <a name="related-resources"></a>관련 리소스
 
