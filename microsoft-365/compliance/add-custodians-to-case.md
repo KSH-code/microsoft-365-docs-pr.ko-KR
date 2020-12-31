@@ -15,101 +15,103 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 고급 eDiscovery의 기본 제공 custodian 관리 도구를 사용 하 여 워크플로를 조정 하 고 사례에서 관련 데이터 원본을 식별 하는 방법에 대해 알아봅니다.
+description: Advanced eDiscovery의 기본 제공 관리 도구를 사용하여 워크플로를 조정하고 관련 데이터 원본을 식별하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5b64bb288e94c345cc373b0d800bc0349895f7d3
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: 9468fb889e9115b3652d1dba8a6c6632bb367fe3
+ms.sourcegitcommit: 36d12e02f6fda199ae7f2fb72fe52d7e2b5b4efd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024710"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "49740345"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>고급 eDiscovery 사례에 custodians 추가
 
-고급 eDiscovery의 기본 제공 custodian 관리 도구를 사용 하 여 custodians 관리를 위한 워크플로를 조정 하 고 사례와 연결 된 관련 custodial 데이터 원본을 식별 합니다. Custodian를 추가 하면 시스템에서 Exchange 사서함 및 비즈니스용 OneDrive 계정을 자동으로 식별 하 고 유지 합니다. 조사 프로세스를 진행 하는 동안 custodian에서 액세스 하거나 참여 하는 추가 데이터 원본 (예: 사서함, 사이트 또는 팀)을 식별할 수도 있습니다. 이러한 상황에서는 custodian 관리 도구를 사용 하 여 해당 데이터 원본을 특정 custodian에 연결할 수 있습니다. Custodians를 사례에 추가 하 고 다른 데이터 원본을 이러한 원본과 연결한 후에는 데이터를 빠르게 보존 하 고 custodial 데이터를 검색할 수 있습니다.
+Advanced eDiscovery의 기본 제공 관리 도구를 사용하여 보호자 관리 및 사례와 관련된 관련성 있는 데이터 원본 식별과 관련된 워크플로를 조정합니다. 보유자를 추가하면 시스템에서 Exchange 사서함 및 비즈니스용 OneDrive 계정을 자동으로 식별하고 보류할 수 있습니다. 조사를 진행하는 동안, 보호자들이 액세스하거나 참가한 다른 데이터 원본(예: 사서함, 사이트 또는 Teams)을 식별할 수도 있습니다. 이 경우 관리 도구를 사용하여 해당 데이터 원본을 특정 관리인과 연결할 수 있습니다. 사례에 양도인을 추가하고 다른 데이터 원본을 연결한 후 데이터를 빠르게 보존하고 양도 데이터를 검색할 수 있습니다.
 
-고급 eDiscovery 사례에서 custodians을 추가 하 고 관리 하려면 다음 워크플로를 사용 합니다.
+Advanced eDiscovery 사례에서 다음 4단계로 보안 주도를 추가하고 관리할 수 있습니다.
 
-![Advanced eDiscovery 사례의 원본 탭](../media/AeD-Sources-Tab.png)
+1. 양도인을 식별합니다.
+
+2. 보호자 데이터 위치를 선택하십시오.
+
+3. 보류 설정을 구성합니다.
+
+4. 양도인을 검토하고 프로세스를 완료합니다.
+
+   [![Advanced eDiscovery 사례의 원본 탭 ](../media/AeD-Sources-Tab.png)](../media/AeD-Sources-Tab.png#lightbox)
 
 ## <a name="make-sure-you-have-the-necessary-permissions"></a>필요한 사용 권한이 있는지 확인
 
-Custodians를 사례에 추가 하려면 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다. 이렇게 하면 custodians를 사례에 추가 하 고 custodial 데이터 원본에 대 한 보류를 수행 하는 데 필요한 권한이 제공 됩니다.
+사례에 관리자를 추가하려면 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다. 이렇게 하면 보유자에 사례를 추가하고 보유 데이터 원본을 보류하는 데 필요한 권한이 부여됩니다. 자세한 내용은 [eDiscovery 권한 할당](get-started-with-advanced-ediscovery.md#step-2-assign-ediscovery-permissions)을 참조하세요.
 
-## <a name="step-1-add-potential-custodians"></a>1 단계: 잠재 custodians 추가
+## <a name="step-1-identify-custodians"></a>1단계: 양도자 식별
 
-첫 번째 단계는 custodians를 식별 하 고 사례에 추가 하는 것입니다.
+1. 적절한 eDiscovery 권한이 할당된 사용자 계정으로 이동하여 [https://compliance.microsoft.com](https://compliance.microsoft.com) 로그인합니다.
 
-1. **고급 eDiscovery** 홈 페이지에서 custodians를 추가할 사례를 클릭 합니다. 
+2. Microsoft 365 규정 준수 센터의 왼쪽 탐색 창에서 모두 표시를 클릭한 다음 **eDiscovery**> 클릭합니다.
 
-2. **원본** 탭을 클릭 한 다음 **custodians 추가**를 클릭 합니다.
+3. Advanced **eDiscovery** 페이지에서 사례  탭을 클릭한 다음, 보금주를 추가할 사례를 선택합니다.
 
-3. 사례에 추가할 custodians를 찾습니다. 조직의 Azure Active Directory에서 사용자를 표시 하려면 사용자 이름의 첫 부분을 입력 합니다. 올바른 사용자를 찾았으면 이름을 클릭 하 여 목록에 추가 합니다.
+4. 데이터 원본 **탭을 클릭한** 다음 데이터 원본 추가를   >  클릭합니다.
 
-   ![잠재 Custodians 확인](../media/AddCustodianStep1.png)
+5. 사용자 이름 또는 별칭의 첫 번째 부분을 입력하여 조직의 한 명 이상의 사용자를 케이스에 관리인으로 추가합니다. 올바른 사람을 찾은 후 이름을 선택하여 목록에 추가합니다.
 
-4. 관련 custodians를 모두 추가한 후 **다음** 을 클릭 하 여 custodians의 기본 데이터 원본을 선택 합니다.
-  
-## <a name="step-2-select-custodian-data-sources"></a>2 단계: custodian 데이터 원본 선택
+## <a name="step-2-choose-custodian-data-locations"></a>2단계: 보호자 데이터 위치 선택
 
-Custodians을 추가한 후에는 custodian 도구를 통해 각 custodian에서 소유한 기본 데이터 원본을 식별할 수 있습니다. 이러한 데이터 위치는 custodian의 Exchange 사서함 및 OneDrive 계정입니다. 
+관리인을 선택한 후 시스템은 이러한 사용자 및 해당 데이터 원본을 자동으로 식별하고 확인하려고 시도합니다. 목록에 관리인을 추가한 후 도구에는 각 관리인에 대한 기본 사서함 및 OneDrive 계정이 자동으로 포함됩니다. 사례에 보호자 추가 시 이러한 데이터 원본을 포함하지 않을 수 있습니다.
 
-Custodian 데이터 원본을 확인 하려면 다음을 수행 합니다.
+관리인의 사서함 및 OneDrive 계정 외에, 다른 데이터 위치(예: SharePoint 사이트 또는 관리인이 구성원인 Microsoft 팀)에 연결될 수도 있습니다. 이를 통해 사례의 보호자와 연결된 다른 데이터 원본의 콘텐츠를 보존, 수집, 분석 및 검토할 수 있습니다.
 
-1. 모든 custodians에 대 한 Exchange 사서함을 선택 하려면 열 맨 위에 있는 **exchange** 확인란을 선택 합니다. 그런 다음 특정 custodian에 대 한 확인란의 선택을 취소 하 여 사서함을 custodial 위치로 제거할 수 있습니다. 또는 열 위쪽에 있는 **Exchange** 확인란을 선택 하지 않은 채로 둔 다음 개별 custodians에 대 한 확인란을 선택할 수 있습니다. 
+관리자에 대한 기본 사서함 및 OneDrive 계정을 선택을 선택을 하려면
 
-   ![Custodial 데이터 원본 선택](../media/AddCustodianStep2.png)
+1. 각 보호자에 자동으로 연결된 기본 데이터 위치를 볼 수 있는 보호자 확장
 
-2. Custodians의 OneDrive 계정에 대해 동일한 작업을 반복 합니다. 
+2. 사서함 **또는**  **OneDrive** 옆의 지우기를 선택하여 이 관리인의 데이터 위치로 연결되지 못하게 하는 보호자 사서함 또는 OneDrive 계정을 제거합니다.
 
-    Custodian 데이터 원본을 선택한 후에는 시스템에서 이러한 데이터 원본을 자동으로 식별 하 고 확인 한 다음 custodians와 연결 된 데이터 원본으로이를 사례에 추가 합니다.
+   ![관리인과 연결하도록 위치 구성](../media/ConfigureCustodianLocations.png)
 
-3. **다음** 을 클릭 하 여 대/소문자를 구분 하 여 추가 데이터 원본을 custodians에 연결 합니다.
+다른 사서함, 사이트, Teams 또는 Yammer 특정 Yammer 연결:
 
-## <a name="step-3-associate-additional-data-sources-to-a-custodian"></a>3 단계: 추가 데이터 원본을 custodian에 연결
+1. 보호자 확장을 확장하여 다음 서비스를 표시하여 데이터 위치를 관리인과 연결합니다. 서비스 **옆에** 있는 편집을 클릭하여 데이터 위치를 추가합니다.
 
-조사 중인 사례에 따라 특정 custodian에 액세스할 수 있는 사서함, custodian가 현재 구성원으로 속해 있는 Microsoft 365 그룹 또는 custodian에도 액세스 한 사이트에 대 한 콘텐츠를 검색 하 고 보존 해야 할 수도 있습니다. 따라서 이전 단계에서 지정한 기본 custodian 데이터 원본 외에, 사례에 추가 Microsoft 데이터 원본을 custodian에 연결할 수도 있습니다. 
+   - **Exchange**: 다른 사서함을 거래소에 연결하는 데 사용할 수 있습니다. 사용자 사서함 또는 메일 그룹의 이름 또는 별칭(최소 3자)을 검색 상자에 입력합니다. Custodian에 할당할 사서함을 선택한 다음 추가를 **클릭합니다.**
 
-사서함, 사이트 또는 팀을 특정 custodian에 매핑하려면 다음을 수행 합니다.
+   - **SharePoint**: SharePoint 사이트를 양도자에 연결하는 데 사용할 수 있습니다. 목록에서 사이트를 선택하거나 검색 상자에 URL을 입력하여 사이트를 검색합니다. 양도자에 할당할 사이트를 선택한 다음 추가를 **클릭합니다.**
 
-1. **추가 데이터 원본 선택** 페이지에서 특정 custodian 행에 **추가** 를 클릭 합니다. 
-  
-   ![추가 데이터 원본 매핑](../media/AddCustodianStep3.PNG)
+   - **Teams:** Microsoft Teams를 현재 구성원으로 할당하는 데 사용할 수 있습니다. 양도자에 할당할 팀을 선택한 다음 추가를 **클릭합니다.** 팀을 추가한 후 시스템은 자동으로 해당 팀에 연결된 SharePoint 사이트 및 그룹 사서함을 식별하고 찾아서 관리인에게 할당합니다.
 
-2. 플라이 아웃 페이지에서는 다음 서비스 중 하나를 통해 데이터 원본을 지정할 수 있습니다.
-  
-   -  **Exchange 전자 메일** - **사용자, 그룹 또는 팀 선택을** 클릭 한 다음 **사용자, 그룹 또는 팀 선택을** 클릭 합니다. 검색 상자를 사용 하 여 custodian와 연결할 사서함을 찾습니다. 선택한 custodian에 할당할 사서함을 지정 하려면 검색 상자를 사용 하 여 사용자 사서함 및 메일 그룹을 찾습니다. 또한 Microsoft 365 그룹 또는 Microsoft 팀에 연결 된 사서함을 할당할 수 있습니다. 사용자, 그룹, 팀 확인란을 선택 하 고 **선택을**클릭 한 후 **완료**를 클릭 합니다.
+   - **Yammer**: Yammer 현재 구성원인 그룹 그룹을 할당하는 데 사용할 수 있습니다. 양도자에 할당할 그룹을 선택한 다음 추가를 **클릭합니다.** 팀을 추가한 후 시스템은 자동으로 해당 그룹에 연결된 SharePoint 사이트 및 그룹 사서함을 식별하고 찾아서 관리인에게 할당합니다.
 
-        > [!NOTE]
-        > 사용자, 그룹 또는 팀 선택을 클릭 하 여 사서함을 지정 하는 경우 표시 되는 사서함 선택은 비어 있습니다. 이것은 성능을 향상시키기 위한 것입니다. 이 목록에 사서함을 추가 하려면 검색 상자에 이름 또는 별칭 (최소 3 자)을 입력 합니다.
-     
-     - **Sharepoint 사이트** - **사이트 선택을** 클릭 한 다음 **사이트 선택을** 다시 클릭 하 여 조직의 SharePoint 사이트 목록을 표시 합니다. 사이트를 custodian와 연결 하려면 목록에서 사이트를 선택 하거나 Microsoft 365 그룹, Microsoft 팀 또는 OneDrive 계정에 연결 된 사이트 또는 다른 사이트의 URL을 입력할 수 있습니다.
-     
-     - **팀** - **팀 선택을** 클릭 한 다음 **팀 선택을** 다시 클릭 하 여 Custodian가 현재 구성원 인 Microsoft 팀 목록을 표시 합니다. Custodian에 추가할 팀을 선택 합니다. 선택한 후에는 해당 Microsoft 팀에 연결 된 SharePoint 사이트 및 그룹 사서함을 선택 & 자동으로 시스템을 식별 합니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
+   > [!NOTE]
+   > **Exchange** 및 **SharePoint** 위치 선택을 사용하여 다른 팀 또는 Yammer 그룹(보류자는 구성원이 아닌 그룹)을 교환원과 연결할 수 있습니다. 이 작업을 위해 각 팀 또는 그룹과 연결된 사서함과 사이트를 Yammer 합니다.
 
-       ![데이터 원본 매핑](../media/AddCustodianStep4.PNG)
-        
-      > [!NOTE]
-      > 추가 팀을 custodian에 연결 하려면 **Exchange 메일** 및 **SharePoint 사이트** 위치를 사용 하 여 팀과 연결 된 사서함과 사이트를 개별적으로 추가 해야 합니다.
+2. 표의 각 관리인을 확장하여 각 Yammer 할당된 사서함, 사이트, Teams 및 Yammer 그룹의 총 수를 볼 수 있습니다. 각 관리자에 대해 할당된 데이터 위치를 완료하면 이러한 연결은 Advanced eDiscovery 워크플로의 수집, 처리 및 검토 단계에서 유지 관리 및 사용됩니다.
 
-추가 데이터 원본을 custodians와 연결한 후에는 **추가 데이터 원본 선택 페이지**에서 각 custodian와 연관 된 사서함, 사이트 및 팀의 총 수를 볼 수 있습니다. 특정 custodian 관련 데이터 원본을 완료 하면이 연결이 유지 관리 되 고 eDiscovery 워크플로의 컬렉션, 처리 및 검토 단계 중에 사용 됩니다.
+3. 보유자 추가 및 데이터 위치 구성 후 다음을 클릭하여 보류 설정 **페이지로** 이동합니다.   
 
-## <a name="step-4-place-custodians-on-hold"></a>4 단계: custodians를 보류에 배치
+## <a name="step-3-configure-hold-settings"></a>3단계: 보류 설정 구성
 
-사례에 추가할 custodians 및 데이터 원본을 완성 한 후에는 필요에 따라 custodians 중 일부 또는 전체를 보류할 수 있습니다. Custodian을 보류할 경우 custodian와 연결 된 모든 콘텐츠 위치의 모든 콘텐츠는 보류를 제거 하거나 보류에서 custodian를 해제할 때까지 보존 됩니다. 경우에 따라 custodians를 보류 하지 않고 대/소문자에 추가할 수 있습니다.
+ 보유자 및 해당 데이터 위치를 마무리한 후 보유자 중 일부 또는 전체를 보류할 수 있습니다. 보유자는 보류를 해제하거나 보류에서 해제할 때까지 보유자와 연결된 모든 콘텐츠 위치에 있는 모든 콘텐츠가 보존됩니다. 경우에 따라 보유를 보류하지 않고 사례에 추가해야 할 수 있습니다.
 
-Custodians 및 데이터 원본을 보류 하려면 다음을 수행 합니다.
+보유자 및 데이터 원본을 보류합니다.
 
-1. **선택한 custodians** 페이지를 유지 하려면 열 위쪽에 있는 **보류** 확인란을 선택 하 여 모든 custodians를 보류 상태로 설정 합니다. 그런 다음 특정 custodian에 대 한 확인란의 선택을 취소 하 여 보류에서 제거할 수 있습니다. 선택 하지 않은 열 위에 있는 **보류** 확인란을 선택 하지 않은 상태로 둔 다음 개별 custodians에 대 한 확인란을 선택할 수도 있습니다.
+1. 보류 **설정 페이지에서** 보류 열 아래에 있는 확인란을 선택하여 개별 보유자에 보류를 적용할 **수** 있습니다.
 
-   ![위치 유지](../media/AddCustodianStep5.PNG)
+   또는 열의 맨 위에 있는 보류 확인란을 선택하여  모든 보유자에 대한 보류를 할 수 있습니다.
 
-2. Custodian 보류 선택 사항을 확인 하 고 **완료**를 클릭 합니다.
+2. 보유 선택을 확인하고 다음을 **클릭합니다.**
 
-Custodian에 대 한 보류를 설정 하지 않으면 custodian 및 연결 된 데이터 원본이 사례에 추가 되지만 해당 데이터 원본의 콘텐츠는 보존 되지 않습니다.
+   > [!NOTE]
+   > 보유자에 보류를 두지 않는 경우 보유자 및 관련 데이터 원본이 사례에 추가되지만 해당 데이터 원본의 콘텐츠는 사례와 연결된 보류로 보존되지 않습니다.
 
-Custodian가 보존 된 후에는 모든 custodial 원본이 포함 된 custodian 보류 정책이 자동으로 만들어집니다. 이 정책을 보려면 다음을 수행 합니다.
+## <a name="step-4-review-the-custodians-and-complete-the-process"></a>4단계: 양도인 검토 및 프로세스 완료
 
-1. 사례 **홈** 페이지에서 **보류** 탭을 클릭 한 다음 **CustodianHold**를 클릭 합니다.  
+실제로 보유자에 사례를 추가하기 전에 보유자 목록, 보유자에 할당된 데이터 위치 및 보류 설정을 검토할 수 있습니다.
 
-2. 플라이 아웃 페이지에서 **보류 편집** 을 클릭 하 여 보류 된 모든 custodian 데이터 원본을 확인 합니다.
+1. 테이블의 각 보유자에 연결된 모든 데이터 원본 수 및 보류 설정을 확인하고 검토합니다. 필요한 경우 보유자 식별 **또는** 설정 보류 페이지로 돌아가서 변경합니다. 
+
+2. **제출을** 클릭하여 보유자 및 해당 데이터 위치를 사례에 추가하고 모든 보유 설정을 적용합니다.
+
+   새 보호자는 사례에 추가되고 데이터 원본 **탭에** 표시됩니다.
+
+   [![데이터 원본 탭에 나열된 보호자 ](../media/DataSourcesTab.png)](../media/DataSourcesTab.png#lightbox)

@@ -16,20 +16,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
-description: 보안 및 준수 센터를 사용하여 eDiscovery 관련 작업을 수행하는 데 필요한 & 할당합니다.
+description: 보안 및 준수 센터를 사용하여 eDiscovery 관련 작업을 수행하는 데 & 할당합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f4271d7cc7a9c9239aadb8ca2357e000f4f45e80
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 4b95d81114e60c9d805b90b007d40d4c1a2e62b1
+ms.sourcegitcommit: 555b200b618085706dabf8648d27fb6d6427cfce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682609"
+ms.lasthandoff: 12/30/2020
+ms.locfileid: "49739791"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>보안 및 준수 센터에서 eDiscovery & 할당
 
-사용자가 Office 365의 보안 & 준수 센터 또는 Microsoft 365 규정 준수 센터에서 [eDiscovery](ediscovery.md) 관련 도구를 사용하게 하려는 경우 적절한 사용 권한을 할당해야 합니다. 이 작업을 수행하는 가장 쉬운 방법은 보안 및 준수  센터의 사용 권한 페이지에서 적절한 역할 그룹을 & 것입니다. 이 항목에서는 보안 및 준수 센터를 사용하여 eDiscovery 및 콘텐츠 검색 관련 작업을 수행하는 데 & 설명합니다.
+사용자가 Office 365 또는 Microsoft 365 규정 준수 센터의 보안 & 준수 센터에서 [eDiscovery](ediscovery.md) 관련 도구를 사용하게 하려는 경우 적절한 사용 권한을 할당해야 합니다. 이 작업을 수행하는 가장 쉬운 방법은 보안 및 준수  센터의 사용 권한 페이지에서 해당 & 것입니다. 이 항목에서는 보안 및 준수 센터를 사용하여 eDiscovery 및 콘텐츠 검색 관련 작업을 수행하는 데 & 설명합니다.
   
-Security & 준수 센터의 기본 eDiscovery 관련 역할 그룹을 **eDiscovery 관리자(Manager)라고 합니다.** 이 역할 그룹 내에 두 개의 하위 그룹이 있습니다.
+Security & 준수 센터의 기본 eDiscovery 관련 역할 그룹을 **eDiscovery 관리자라고 합니다.** 이 역할 그룹 내에 두 개의 하위 그룹이 있습니다.
   
 - **eDiscovery 관리자 - eDiscovery** 관리자는 보안 & 준수 센터의 콘텐츠 검색 도구를 사용하여 조직의 콘텐츠 위치를 검색하고 미리 보기 및 검색 결과 내보내기와 같은 다양한 검색 관련 작업을 수행할 수 있습니다. 또한 구성원은 Core eDiscovery 및 Advanced eDiscovery에서 사례를 만들고 관리하고, 사례에 구성원을 추가 및 제거하고, 케이스 보류를 만들고, 사례와 연결된 검색을 실행하고, 사례 데이터에 액세스할 수 있습니다. eDiscovery 관리자는 만든 사례에만 액세스하고 관리할 수 있습니다. 다른 eDiscovery 관리자가 만든 사례에 액세스하거나 관리할 수 없습니다.
   
@@ -41,16 +41,16 @@ Security & 준수 센터의 기본 eDiscovery 관련 역할 그룹을 **eDiscove
   
   - 자신을 사례의 구성원으로 추가한 후 eDiscovery 사례를 관리합니다.
   
-  조직에서 [](#more-information) eDiscovery 관리자를 원하는 이유에 대한 자세한 정보 섹션을 참조하세요.
+  조직에서 eDiscovery 관리자(Administrator)를 원할 수 있는 이유는 추가 정보를 [참조하세요.](#more-information)
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하여 사용자의 데이터를 분석하려면 사용자(데이터의 관리자)에게 Office 365 E5 또는 Microsoft 365 E5 라이선스가 할당되어야 합니다. 또는 Office 365 E1 또는 Office 365 또는 Microsoft 365 E3 라이선스가 있는 사용자에게 Microsoft 365 E5 규정 준수 또는 Microsoft 365 eDiscovery 및 감사 추가 기능 라이선스가 할당될 수 있습니다. 사례에 구성원으로 할당되어 Advanced eDiscovery를 사용하여 데이터를 수집, 보기 및 분석하는 관리자, 규정 준수 담당자 또는 법률 담당자는 E5 라이선스가 필요하지 않습니다. Advanced eDiscovery 라이선스에 대한 자세한 내용은 [Advanced eDiscovery](get-started-with-advanced-ediscovery.md)시작을 참조하세요.
+> Advanced eDiscovery를 사용하여 사용자 데이터를 분석하려면 사용자(데이터의 보호자)에게 Office 365 E5 또는 Microsoft 365 E5 라이선스가 할당되어야 합니다. 또는 Office 365 E1 또는 Office 365 또는 Microsoft 365 E3 라이선스가 있는 사용자에게 Microsoft 365 E5 규정 준수 또는 Microsoft 365 eDiscovery 및 감사 추가 기능 라이선스가 할당될 수 있습니다. 사례에 구성원으로 할당되어 Advanced eDiscovery를 사용하여 데이터를 수집, 보기 및 분석하는 관리자, 규정 준수 담당자 또는 법률 담당자는 E5 라이선스가 필요하지 않습니다. Advanced eDiscovery 라이선스에 대한 자세한 내용은 [Advanced eDiscovery](get-started-with-advanced-ediscovery.md)시작을 참조하세요.
   
 ## <a name="confirm-your-roles"></a>역할 확인
 
 - 조직 관리 역할 그룹의 구성원이거나 보안 및 준수 센터에서 eDiscovery 권한을 할당하려면 역할 관리 역할을 & 합니다.
 
-- Security & Compliance Center PowerShell에서 [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember) cmdlet을 사용하여 메일 사용이 가능한 보안 그룹을 eDiscovery 관리자 역할 그룹의 eDiscovery 관리자 하위 그룹 구성원으로 추가할 수 있습니다. 그러나 메일 사용이 가능한 보안 그룹을 eDiscovery Administrators 하위 그룹에 추가할 수 없습니다. 자세한 내용은 추가 정보 [섹션을 참조하십시오.](#more-information) 
+- Security & Compliance Center PowerShell에서 [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember) cmdlet을 사용하여 메일 사용이 가능한 보안 그룹을 eDiscovery 관리자 역할 그룹의 eDiscovery 관리자 하위 그룹 구성원으로 추가할 수 있습니다. 그러나 메일 사용이 가능한 보안 그룹을 eDiscovery Administrators 하위 그룹에 추가할 수 없습니다. 자세한 내용은 추가 [정보를 참조하십시오.](#more-information) 
   
 ## <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>보안 및 준수 센터에서 eDiscovery & 할당
 
@@ -62,23 +62,23 @@ Security & 준수 센터의 기본 eDiscovery 관련 역할 그룹을 **eDiscove
   
 4. **eDiscovery 관리자** 플라이아웃 페이지에서 할당할 eDiscovery 권한에 따라 다음 중 하나를 선택합니다.
   
-    **사용자를 eDiscovery 관리자로 설정:** **eDiscovery 관리자 옆에 있는** 편집을 **선택합니다.** **eDiscovery** 관리자 선택 섹션에서 **eDiscovery 관리자** 하이퍼링크 선택 하이퍼링크를 선택한 다음 아이콘 ![ 추가를 ](../media/ITPro-EAC-AddIcon.gif) **선택합니다.** eDiscovery 관리자로 추가할 사용자를 선택한 다음 추가를 **선택합니다.** 사용자 추가를 마치면 완료를 **선택합니다.** 그런 다음 **편집 eDiscovery 관리자** 플라이아웃  선택 페이지에서 저장을 선택하여 변경 내용을 eDiscovery 관리자 구성원에 저장합니다.
+    **사용자를 eDiscovery 관리자로 설정:** **eDiscovery 관리자 옆에 있는** 편집을 **선택합니다.** **eDiscovery** 관리자 선택 섹션에서 **eDiscovery 관리자** 하이퍼링크 선택 하이퍼링크를 선택한 다음 아이콘 ![ 추가를 ](../media/ITPro-EAC-AddIcon.gif) **선택합니다.** eDiscovery 관리자로 추가할 사용자를 선택한 다음 추가를 **선택합니다.** 사용자 추가를 마치면 완료를 **선택합니다.** 그런 다음 편집 **eDiscovery** 관리자 플라이아웃  선택 페이지에서 저장을 선택하여 변경 내용을 eDiscovery 관리자 구성원에 저장합니다.
   
-    **사용자를 eDiscovery 관리자로 설정:** **eDiscovery 관리자 옆에 있는** 편집을 **선택합니다.** **eDiscovery** 관리자 선택 섹션의 eDiscovery 관리자 아래에서  **eDiscovery** 관리자 선택, 편집을 선택한 다음 아이콘 추가를  ![ ](../media/ITPro-EAC-AddIcon.gif) **선택합니다.** **eDiscovery** 관리자로 추가할 사용자를 선택한 다음 **추가합니다.** 사용자 추가를 마치면 완료를 **선택합니다.** 그런 다음 편집 **eDiscovery** 관리자 플라이아웃  선택 페이지에서 저장을 선택하여 eDiscovery 관리자 구성원에 변경 내용을 저장합니다.
+    **사용자를 eDiscovery 관리자로 설정:** **eDiscovery 관리자 옆에 있는** 편집을 **선택합니다.** **eDiscovery** 관리자 선택 섹션의 **eDiscovery** 관리자 아래에서 **eDiscovery** 관리자 선택, 편집을 선택한 다음 아이콘 추가를 ![ ](../media/ITPro-EAC-AddIcon.gif) **선택합니다.** **eDiscovery** 관리자로 추가할 사용자를 선택한 다음 **추가합니다.** 사용자 추가를 마치면 완료를 **선택합니다.** 그런 다음 편집 **eDiscovery** 관리자 플라이아웃  선택 페이지에서 저장을 선택하여 변경 내용을 eDiscovery 관리자 구성원에 저장합니다.
   
 > [!NOTE]
 > **Add-eDiscoveryCaseAdmin** cmdlet을 사용하여 사용자를 eDiscovery 관리자로 만들 수 있습니다. 그러나 이 cmdlet을 사용하여 사용자를 eDiscovery 관리자로 지정하려면 먼저 사용자에게 사례 관리 역할을 할당해야 합니다. 자세한 내용은 [Add-eDiscoveryCaseAdmin을 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkID=798217) 
   
-Security  & 준수 센터의 사용 권한 페이지에서 준수 관리자, 조직 관리 및 검토자 역할 그룹에 추가하여 사용자에게 eDiscovery 관련 권한을 할당할 수 있습니다. 이러한 각 역할 그룹에 할당된 eDiscovery 관련 RBAC 역할에 대한 설명은 [eDiscovery](#rbac-roles-related-to-ediscovery) 섹션과 관련된 RBAC 역할을 참조하십시오.
+Security  & 준수 센터의 사용 권한 페이지에서 준수 관리자, 조직 관리 및 검토자 역할 그룹에 추가하여 사용자에게 eDiscovery 관련 권한을 할당할 수 있습니다. 이러한 각 역할 그룹에 할당된 eDiscovery 관련 RBAC 역할에 대한 설명은 [eDiscovery와 관련된 RBAC 역할을 참조하세요.](#rbac-roles-related-to-ediscovery)
 
 ## <a name="rbac-roles-related-to-ediscovery"></a>eDiscovery와 관련된 RBAC 역할
 
 다음 표에는 Security & 준수 센터의 eDiscovery 관련 RBAC 역할이 나열되어 있으며 각 역할이 기본적으로 할당되는 기본 제공 역할 그룹을 나타냅니다.
   
-|**역할**|**준수 관리자**|**eDiscovery 관리자 관리자 & 관리자**|**조직 관리**|**Reviewer**|
+| 역할 | 준수 관리자 | eDiscovery 관리자 & 관리자 | 조직 관리 | Reviewer |
 |:-----|:-----:|:-----:|:-----:|:-----:|
 |사례 관리 <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> |
-|통신 <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
+|커뮤니케이션 <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
 |규격 검색 <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> |
 |Custodian <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
 |내보내기 <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
@@ -95,15 +95,15 @@ Security  & 준수 센터의 사용 권한 페이지에서 준수 관리자, 조
 
 이 역할을 사용하면 사용자가 보안 및 준수 센터에서 Core eDiscovery 및 Advanced eDiscovery 사례를 만들고, 편집하고, 삭제하고& 제어할 수 있습니다. 앞서 설명한 것 처럼 사용자에게 사례 관리 역할을 할당해야 **Add-eDiscoveryCaseAdmin** cmdlet을 사용하여 사용자를 eDiscovery 관리자로 만들 수 있습니다.
 
-자세한 내용은 다음을 참조하시기 바랍니다.
+자세한 내용은 다음을 참조하세요.
 
 - [핵심 eDiscovery 시작](get-started-core-ediscovery.md)
 
 - [Advanced eDiscovery 시작](get-started-with-advanced-ediscovery.md)
 
-### <a name="communication"></a>통신
+### <a name="communication"></a>커뮤니케이션
 
-이 역할을 사용하면 고급 eDiscovery 사례에서 식별된 관리인과의 모든 통신을 관리할 수 있습니다. 여기에는 보류 알림 만들기, 보류 미리 알림 및 관리로의 에스컬레이터 만들기가 포함됩니다. 또한 사용자는 보유자 확인 보류 알림을 추적하고 각 보유자에서 보유자 포털에 대한 액세스를 관리하여 보유자로 식별된 사례에 대한 통신을 추적할 수 있습니다.
+이 역할을 사용하면 고급 eDiscovery 사례에서 식별된 관리인과의 모든 통신을 관리할 수 있습니다. 여기에는 보류 알림 만들기, 보류 미리 알림 및 관리로의 에스컬레이터 만들기가 포함됩니다. 또한 사용자는 보유자 알림의 확인을 추적하고 각 보유자에서 보유자 포털에 대한 액세스를 관리하여 보유자로 식별된 사례에 대한 통신을 추적할 수 있습니다.
 
 자세한 내용은 [Advanced eDiscovery의 통신 작업(Work with communications)을 참조하세요.](managing-custodian-communications.md)
 
@@ -119,7 +119,7 @@ Security  & 준수 센터의 사용 권한 페이지에서 준수 관리자, 조
 
 ### <a name="custodian"></a>Custodian
 
-이 역할을 사용하면 고급 eDiscovery 사례의 보호자를 식별하고 관리할 수 있으며 Azure Active Directory 및 기타 원본의 정보를 사용하여 보호자와 연결된 데이터 원본을 찾을 수 있습니다. 사용자는 사서함, SharePoint 사이트 및 Teams와 같은 다른 데이터 원본을 사례의 보호자와 연결할 수 있습니다. 또한 사용자는 보유자와 연결된 데이터 원본에 법적 보존을 하여 사례의 컨텍스트에서 콘텐츠를 보존할 수 있습니다.
+이 역할을 사용하면 고급 eDiscovery 사례의 보호자를 식별하고 관리할 수 있으며 Azure Active Directory 및 기타 원본의 정보를 사용하여 보호자와 연결된 데이터 원본을 찾을 수 있습니다. 사용자는 사서함, SharePoint 사이트 및 Teams와 같은 다른 데이터 원본을 사례의 보호자와 연결할 수 있습니다. 또한 사용자는 보유자와 연결된 데이터 원본에 법적 보존을 설정하여 사례의 컨텍스트에서 콘텐츠를 보존할 수 있습니다.
 
 자세한 내용은 [Advanced eDiscovery의 보호자 작업(Work with custodians)을 참조하세요.](managing-custodians.md)
 
@@ -137,15 +137,15 @@ Security  & 준수 센터의 사용 권한 페이지에서 준수 관리자, 조
 
 - [Core eDiscovery에서 보류 만들기](create-ediscovery-holds.md) 
 
-- [Advanced eDiscovery에서 보류 만들기](add-custodians-to-case.md#step-4-place-custodians-on-hold)
+- [Advanced eDiscovery에서 보류 만들기](add-custodians-to-case.md)
 
 ### <a name="preview"></a>미리 보기
 
-이 역할을 사용하면 콘텐츠 검색에서 반환된 항목 목록을 볼 수 있습니다. 또한 목록에서 각 항목을 열고 보고 내용을 볼 수 있습니다.
+이 역할을 사용하면 콘텐츠 검색에서 반환된 항목 목록을 볼 수 있습니다. 또한 목록에서 각 항목을 열고 보고 해당 콘텐츠를 볼 수 있습니다.
 
 ### <a name="review"></a>검토
 
-이 역할을 사용하면 사용자가 [Advanced eDiscovery(클래식)(Advanced](office-365-advanced-ediscovery.md) *eDiscovery v1)의* 사례 데이터에 액세스할 수 있습니다. 이 역할의 주요 목적은 사용자에게 Advanced eDiscovery(클래식)에 대한 액세스 권한을 부여하는 것입니다. 이 역할이 할당된 사용자는 보안 및 준수 센터의 **eDiscovery** 페이지에서 구성원으로 있는 사례 목록을 & 수 있습니다. 사용자가 보안 및 준수 센터에서 사례에 액세스한 & **고급 eDiscovery로** 전환을 선택하여 Advanced eDiscovery(클래식)의 사례 데이터에 액세스하고 분석할 수 있습니다. 이 역할은 사용자가 사례와 연결된 콘텐츠 검색 결과를 미리 보거나 다른 콘텐츠 검색 또는 사례 관리 작업을 수행할 수 없습니다.
+이 역할을 사용하면 사용자가 [Advanced eDiscovery(클래식)(Advanced](office-365-advanced-ediscovery.md) *eDiscovery v1)의* 사례 데이터에 액세스할 수 있습니다. 이 역할의 주요 목적은 사용자에게 Advanced eDiscovery(클래식)에 대한 액세스 권한을 부여하는 것입니다. 이 역할이 할당된 사용자는 보안 및 준수 센터의 **eDiscovery** 페이지에서 구성원으로 & 사례 목록을 보고 열 수 있습니다. 사용자가 보안 및 준수 센터에서 사례에 액세스한 & **고급 eDiscovery로** 전환을 선택하여 Advanced eDiscovery(클래식)의 사례 데이터에 액세스하고 분석할 수 있습니다. 이 역할은 사용자가 사례와 연결된 콘텐츠 검색 결과를 미리 보거나 다른 콘텐츠 검색 또는 사례 관리 작업을 수행할 수 없습니다.
 
 > [!NOTE]
 > 현재 검토 역할이 할당된 사용자(또는 검토자 역할 그룹의 구성원)는 [Microsoft 365의 Advanced eDiscovery(Advanced eDiscovery](overview-ediscovery-20.md) *v2.0)의* 데이터에 액세스할 수 없습니다. Advanced eDiscovery v2.0에서 사례에 구성원을 추가하여 사례 데이터를 검토하려면 사용자가 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다.
@@ -172,7 +172,7 @@ Security  & 준수 센터의 사용 권한 페이지에서 준수 관리자, 조
   Add-RoleGroupMember "eDiscovery Manager" -Member <name of security group>
   ```
 
-    Exchange 메일 그룹 및 Microsoft 365 그룹은 지원되지 않습니다. 이 명령을 사용하여 Exchange Online PowerShell에서 만들 수 있는 메일 사용이 가능한 보안 그룹을 사용해야 `New-DistributionGroup -Type Security` 합니다. Exchange 관리 센터 또는 Microsoft 365 관리 센터에서 메일 사용이 가능한 보안 그룹을 만들고 구성원을 추가할 수도 있습니다. 새 메일 사용이 가능한 보안이 eDiscovery Managers 역할 그룹에 추가될 수 있도록 만든 후 최대 60분이 걸릴 수 있습니다. 
+    Exchange 메일 그룹 및 Microsoft 365 그룹은 지원되지 않습니다. 다음을 실행하여 Exchange Online PowerShell에서 만들 수 있는 메일 사용이 가능한 보안 그룹을 사용해야 `New-DistributionGroup -Type Security` 합니다. Exchange 관리 센터 또는 Microsoft 365 관리 센터에서 메일 사용이 가능한 보안 그룹을 만들고 구성원을 추가할 수도 있습니다. 새 메일 사용이 가능한 보안이 eDiscovery Managers 역할 그룹에 추가될 수 있도록 만든 후 최대 60분이 걸릴 수 있습니다. 
 
     또한 앞서 설명한 것 처럼 보안 및 준수 센터 PowerShell에서 **Add-eDiscoveryCaseAdmin** cmdlet을 사용하여 메일 사용이 가능한 보안 그룹을 eDiscovery 관리자로 & 수 없습니다. 개별 사용자만 eDiscovery 관리자로 추가할 수 있습니다.
 
