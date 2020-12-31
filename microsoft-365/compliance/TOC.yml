@@ -589,7 +589,7 @@
           items:
             - name: 보유자를 사례에 추가
               href: add-custodians-to-case.md
-            - name: 보유자를 사례에 일괄 추가
+            - name: 여러 명의 보유자를 사례로 가져오기
               href: bulk-add-custodians.md
             - name: 보유자 관리
               href: manage-new-custodians.md
