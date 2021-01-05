@@ -15,12 +15,12 @@ ms.assetid: 8401f520-8e7c-467b-9e06-4a9fdb2ba548
 ms.collection:
 - M365-security-compliance
 description: 관리자는 메일 흐름 규칙(전송 규칙)을 사용하여 사용자가 Microsoft에 보고하는 메시지의 복사본을 받는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 0f3046c9d1962366ffd75353347b6cf7b72afd14
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: ec7145b68548bb5e1d6841387a18e86b74ec2a78
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659859"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751574"
 ---
 # <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인
 
@@ -31,9 +31,9 @@ Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 
 
 사용자가 Microsoft에 보고하는 메시지를 받도록 메일 흐름 규칙(전송 규칙)을 만들 수 있으며, 이러한 보고된 메시지의 복사본을 받도록 Bcc 받는 사람을 구성할 수 있습니다.
 
-EAC(Exchange 관리 센터) 및 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직을 위한 독립 실행형 EOP PowerShell)에서 메일 흐름 규칙을 만들 수 있습니다.
+EAC(Exchange 관리 센터) 및 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell)에서 메일 흐름 규칙을 만들 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 이 문서의 절차를 수행하려면 먼저 Exchange Online 또는 Exchange Online Protection에서 사용 권한을 할당해야 합니다. 특히 조직 관리,  준수 관리(전역 관리자) 및  **레코드** 관리 역할 그룹에 기본적으로 할당되는 전송 규칙 역할이 필요합니다.
 
@@ -69,7 +69,7 @@ EAC(Exchange 관리 센터) 및 PowerShell(Exchange Online 사서함이 있는 M
      - `junk@office365.microsoft.com`
      - `abuse@messaging.microsoft.com`
      - `phish@office365.microsoft.com`
-     - `false_positive@messaging.microsoft.com`
+     - `not_junk@office365.microsoft.com`
 
      항목을 편집하려면 해당 항목을  선택하고 편집 ![ 아이콘을 ](../../media/ITPro-EAC-EditIcon.png) 클릭합니다. 항목을 제거하려면 해당 항목을 선택하고 **제거** ![ 아이콘을 ](../../media/ITPro-EAC-DeleteIcon.png) 클릭합니다.
 
@@ -79,7 +79,7 @@ EAC(Exchange 관리 센터) 및 PowerShell(Exchange Online 사서함이 있는 M
 
 4. 규칙을 감사하고, 규칙을 테스트하고, 특정 기간 동안 규칙을 활성화하고, 기타 설정을 추가로 선택하도록 할 수 있습니다. 규칙을 적용하기 전에 규칙을 테스트하는 것이 좋습니다.
 
-5. 작업을 마쳤으면 **저장** 을 클릭합니다.
+5. 작업을 마친 후 **저장** 을 클릭합니다.
 
 ## <a name="use-powershell-to-create-a-mail-flow-rule-to-receive-copies-of-reported-messages"></a>PowerShell을 사용하여 보고된 메시지의 복사본을 받는 메일 흐름 규칙 만들기
 
@@ -95,7 +95,7 @@ New-TransportRule -Name "Bcc Messages Reported to Microsoft" -RecipientAddressCo
 
 보고된 메시지의 복사본을 받도록 메일 흐름 규칙을 구성 했 는 확인, 다음 단계를 수행 합니다.
 
-- EAC에서 메일 흐름 **규칙으로** 이동하여 편집 아이콘을 클릭하는 규칙을 선택하고 설정을 \>  \> \>  ![ ](../../media/ITPro-EAC-EditIcon.png) 확인합니다.
+- EAC에서 메일 흐름 **규칙으로** 이동하여 편집 아이콘을 클릭하는 규칙을 선택하고 \>  \> 설정을 \>  ![ ](../../media/ITPro-EAC-EditIcon.png) 확인합니다.
 
 - PowerShell에서 다음 명령을 실행하여 설정을 확인합니다.
 

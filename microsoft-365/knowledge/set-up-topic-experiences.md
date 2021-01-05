@@ -11,20 +11,14 @@ search.appverid: MET150
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365에서 항목 환경을 설정하는 방법 학습
-ms.openlocfilehash: 3ff822d863e99f7e52089d3efde3d597df9957c7
-ms.sourcegitcommit: 806536f859ac864228797f1f2f23b8f41040a6b4
+ms.openlocfilehash: d221f2932dc2ca9f562800b7b274e35e7f3d1db3
+ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49735813"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749614"
 ---
 # <a name="set-up-topic-experiences-in-microsoft-365"></a>Microsoft 365에서 항목 환경 설정
-
-</br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Li0E]  
-
-</br>
 
 Microsoft 365 관리 센터를 사용하여 항목 환경을 설정하고 [구성할 수 있습니다.](topic-experiences-overview.md) 
 
@@ -32,18 +26,28 @@ Microsoft 365 관리 센터를 사용하여 항목 환경을 설정하고 [구�
 
 Microsoft 365 관리 센터에 액세스하고 항목 환경을 설정하려면 전역 관리자 또는 SharePoint 관리자 되어야 합니다.
 
+## <a name="video-demonstration"></a>동영상 데모
+
+이 비디오에서는 Microsoft 365에서 항목 환경을 설정하는 프로세스를 보여줍니다.
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Li0E]  
+
+<br>
+
 ## <a name="set-up-topic-experiences"></a>주제 경험 설정
 
 Microsoft 365에서 항목 환경을 설정하기 위해
 
-1. Microsoft [365](https://admin.microsoft.com)관리 센터에서 설치를 **선택한** 다음 파일 및 콘텐츠 **섹션을** 시청합니다.
-2. 파일 및 **콘텐츠 섹션에서** 사용자와 지식 **연결을 클릭합니다.**
+1. Microsoft [365](https://admin.microsoft.com)관리 센터에서 설치를 **선택하고** 파일 및 콘텐츠 **섹션을** 시청합니다.
+2. 파일 및 **콘텐츠 섹션에서** 사용자 **지식에 연결을 클릭합니다.**
 
     ![지식에 사람 연결](../media/admin-org-knowledge-options.png) 
 
-3. 사용자와 지식 연결 **페이지에서** 시작을 **클릭하여** 설정 프로세스를 진행합니다.
+3. 기술에 사용자 연결 **페이지에서**  시작을 클릭하여 설정 프로세스를 진행합니다.
 
-    ![시작](../media/k-get-started.png) 
+    ![시작하기](../media/k-get-started.png) 
 
 4. 지식 **네트워크에서 항목을** 찾을 수 있는 방법 선택 페이지에서 항목 검색을 구성합니다. **SharePoint** 항목 원본 선택 섹션에서 검색 중에 항목에 대한 원본으로 크롤링할 SharePoint 사이트를 선택합니다. 다음 중 선택:
     - **모든 사이트:** 조직의 모든 SharePoint 사이트 여기에는 현재 및 향후 사이트가 포함됩니다.
@@ -57,7 +61,7 @@ Microsoft 365에서 항목 환경을 설정하기 위해
     - **항목을 제외하지 않습니다.** 
     - **이름으로 항목 제외**
 
-    ![항목 제외](../media/topics-excluded-by-name.png) 
+    ![제외 항목](../media/topics-excluded-by-name.png) 
 
     (지식 관리자는 검색 후 항목 센터의 항목을 제외할 수 있습니다.)
 
@@ -84,10 +88,10 @@ Microsoft 365에서 항목 환경을 설정하기 위해
     - **선택한 사용자 또는 보안 그룹만**
     - **아무도 없어**
 
-    ![항목을 볼 수 있는 사람](../media/ksetup2.png)  
+    ![항목을 볼 수 있는 사용자](../media/ksetup2.png)  
 
  > [!Note] 
- > 이 설정을 사용하면 조직의 모든 사용자를 선택할 수 있는 반면, 항목에 항목 환경 라이선스가 할당된 사용자만 항목을 볼 수 있습니다.
+ > 이 설정을 사용하면 조직의 모든 사용자를 선택할 수 있습니다. 그러나 항목에 항목 환경 라이선스가 할당된 사용자만 항목을 볼 수 있습니다.
 
 7. 항목 관리에 **대한** 사용 권한 페이지에서 항목을 만들거나 편집하거나 관리할 수 있는 사용자들을 선택합니다. 항목을 **만들고 편집할 수** 있는 사용자 섹션에서 다음을 선택할 수 있습니다.
     - **조직의 모든 사용자**
@@ -96,7 +100,7 @@ Microsoft 365에서 항목 환경을 설정하기 위해
 
     ![항목을 만들고 편집할 수 있는 항목 관리에 대한 사용 권한](../media/ksetup3.png) 
 
-8. 항목을 **관리할 수 있는 사용자 섹션에서** 다음을 선택할 수 있습니다.
+8. 항목 **관리를 할 수 있는 사용자 섹션에서** 다음을 선택할 수 있습니다.
     - **조직의 모든 사용자**
     - **선택한 사용자 또는 보안 그룹만**
 

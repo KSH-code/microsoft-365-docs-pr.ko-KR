@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: Microsoft 365용 Multi-Geo 환경의 SharePoint, OneDrive 및 Exchange 사용자 작업 환경에 대해 알아봅니다.
-ms.openlocfilehash: c94fc5569a5444ca6361712f57460cf0c977b18e
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 558e5a1f7ff2f6f5485a9f32d6e2b43b552b7f17
+ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692449"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749578"
 ---
 # <a name="user-experience-in-a-multi-geo-environment"></a>다중 위치 환경의 사용자 작업 환경
 
@@ -45,7 +45,7 @@ Word, Excel 및 PowerPoint와 같은 Office 응용 프로그램은 각 사용자
 
 ## <a name="onedrive-for-business-sync-client"></a>비즈니스용 OneDrive 동기화 클라이언트
 
-비즈니스용 OneDrive 동기화 클라이언트(버전 17.3.6943.0625 이상)는 사용자의 올바른 비즈니스용 OneDrive 지리적 위치를 자동으로 검색합니다. 동기화 클라이언트 지원에는 지리적 위치에 관계없이 그룹 기반 사이트를 동기화하는 기능이 포함됩니다. 참고로 Groove 동기화 클라이언트는 다중 지역에서 지원되지 않습니다. 
+비즈니스용 OneDrive 동기화 클라이언트(버전 17.3.6943.0625 이상)는 사용자의 올바른 비즈니스용 OneDrive 지리적 위치를 자동으로 검색합니다. 동기화 클라이언트 지원에는 지리적 위치에 관계없이 그룹 기반 사이트를 동기화하는 기능을 포함합니다. 참고로 Groove 동기화 클라이언트는 다중 지역에서 지원되지 않습니다. 
 
 ## <a name="onedrive-for-business-location"></a>비즈니스용 OneDrive 위치
 

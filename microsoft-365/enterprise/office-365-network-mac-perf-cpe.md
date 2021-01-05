@@ -3,7 +3,7 @@ title: Microsoft 365 정보 네트워크 라우팅
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 1/21/2020
+ms.date: 12/22/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -14,12 +14,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 description: Microsoft 365 정보 네트워크 라우팅
-ms.openlocfilehash: 40b4345ca80c5e90a07583b83b82368d4a35535a
-ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
+ms.openlocfilehash: 367f83684a4a200e3ddd630e1412c756d7093da1
+ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611439"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749554"
 ---
 # <a name="microsoft-365-informed-network-routing-preview"></a>Microsoft 365 정보 네트워크 라우팅(미리 보기)
 
@@ -32,7 +32,7 @@ ms.locfileid: "49611439"
 
 정보를 제공하는 네트워크 라우팅은 Microsoft와 SD-WAN 솔루션 간의 양방향 데이터 공유 채널을 제공합니다. 구성하는 모든 사무실 위치 및 인터넷 회로에 대해 Microsoft는 각 특정 인터넷 회로와 연결된 네트워크 트래픽에 대해 선택한 Microsoft 365 응용 프로그램 환경의 품질에 대한 피드백을 SD-WAN 솔루션과 주기적으로 공유합니다. 이 피드백을 사용하여 SD-WAN 솔루션은 사용 가능한 대체 링크를 통해 Microsoft 365 응용 프로그램 트래픽을 라우팅하여 스마트 복구 작업을 수행할 수 있습니다. 
 
-대기 시간 증가 또는 높은 패킷 손실과 같은 특정 인터넷 회로 경로의 서비스 품질 저하는 지속적으로 감지하기 어렵습니다. 이러한 성능 저하는 Exchange Online, SharePoint, OneDrive 및 Microsoft Teams와 같은 응용 프로그램의 사용자 경험에 해를 입을 수 있습니다. 일반적인 증상으로는 Exchange 콘텐츠 검색 속도가 느려지거나, SharePoint 또는 OneDrive 문서 라이브러리와 상호 작용할 때 전송 속도가 늦거나, Microsoft Teams에서 통화 또는 모임 품질이 저하되는 현상이 있습니다.
+대기 시간 증가 또는 높은 패킷 손실과 같은 특정 인터넷 회로 경로의 서비스 품질 저하는 지속적으로 감지하기 어렵습니다. 이러한 성능 저하는 Exchange Online, SharePoint, OneDrive 및 Microsoft Teams와 같은 응용 프로그램의 사용자 경험에 해를 입을 수 있습니다. 일반적인 증상으로는 Exchange 콘텐츠 검색 속도가 느려지거나, SharePoint 또는 OneDrive 문서 라이브러리와 상호 작용할 때 전송 속도가 높거나, Microsoft Teams에서 통화 또는 모임 품질이 저하됩니다.
 
 네트워크 정보 라우팅 내의 피드백 및 복구 메커니즘은 거의 실시간으로 이러한 문제를 동적으로 감지하고 배포된 SD-WAN 솔루션에 자동 복구 작업을 수행하게 합니다.
 
