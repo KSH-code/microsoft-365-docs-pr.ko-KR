@@ -122,13 +122,13 @@
           href: what-the-dlp-functions-look-for.md
     - name: 교육 가능한 분류자
       items:
-        - name: 학습 가능한 분류자에 대한 자세한 정 (미리 보기)
+        - name: 학습 가능한 분류자에 대한 자세한 정보
           href: classifier-learn-about.md
-        - name: 학습 가능한 분류자 시작(미리 보기)
+        - name: 학습 가능한 분류자 시작
           href: classifier-get-started-with.md
-        - name: 커뮤니케이션 준수에서 분류자를 재학습하는 방법(미리 보기)
+        - name: 커뮤니케이션 준수에서 분류자를 재학습하는 방법
           href: classifier-how-to-retrain-comms-compliance.md
-        - name: 콘텐츠 탐색기에서 분류자를 재학습하는 방법(미리 보기)
+        - name: 콘텐츠 탐색기에서 분류자를 재학습하는 방법
           href: classifier-how-to-retrain-content-explorer.md
     - name: 데이터 분류
       items:
@@ -629,7 +629,7 @@
             - name: 키워드 쿼리 및 검색 조건
               href: keyword-queries-and-search-conditions.md
             - name: 검색 통계
-              href: search-statistics.md
+              href: search-statistics-in-advanced-ediscovery.md
             - name: 검색 결과를 검토 집합에 추가
               href: add-data-to-review-set.md
         - name: 검토 집합 관리
@@ -792,83 +792,6 @@
               href: run-reports-in-advanced-ediscovery.md
     - name: eDiscovery 도구의 사용 중지
       href: legacy-ediscovery-retirement.md
-- name: 데이터 조사 관리
-  items:
-    - name: 데이터 조사 개요
-      href: overview-data-investigations.md
-    - name: 데이터 유출 사고 관리
-      href: manage-data-spillage-incidents.md
-    - name: 데이터 조사를 위한 권한 지정
-      href: data-investigations-permissions.md
-    - name: 새 조사 만들기
-      href: create-new-investigation.md
-    - name: 조사에서 데이터 검색
-      href: search-for-data.md
-      items:
-        - name: 검색 쿼리 작성
-          href: build-search-queries.md
-        - name: 검색 통계
-          href: search-statistics.md
-    - name: 증거 데이터 검토
-      href: review-data-in-evidence.md
-      items:
-        - name: 데이터 쿼리
-          href: evidence-query.md
-        - name: 문서 태그
-          href: tag-documents.md
-        - name: 문서 주석 달기 및 수정
-          href: annotate-and-redact-documents.md
-        - name: 비 Office 365 데이터 로드
-          href: load-non-office365-data.md
-        - name: 데이터를 처리할 때 오류 수정
-          href: error-remediation.md
-        - name: 원래 위치에서 항목 삭제
-          href: delete-items-from-original-locations.md
-    - name: 신속한 조사를 위한 분석 실행
-      href: run-analytics-to-investigate-faster.md
-      items:
-        - name: 이메일 스레드
-          href: email-threading.md
-        - name: 중복에 가까운 검색
-          href: near-duplicates.md
-        - name: 테마
-          href: themes.md
-        - name: 관련성 모듈 사용
-          href: use-relevance-module.md
-    - name: 조사에서 이해 관계가 있는 사용자 관리
-      href: manage-people-of-interest.md
-      items:
-        - name: 조사에서 사용자의 데이터 인덱싱하기
-          href: index-data-people-of-interest.md
-        - name: 조사에서 사용자의 감사 활동 보기
-          href: view-people-of-interest-activity.md
-    - name: 조사에서 데이터 내보내기
-      href: export-data.md
-      items:
-        - name: 증거에서 문서 내보내기
-          href: export-documents-from-incident.md
-        - name: 내보내기 작업 다운로드
-          href: download-export-jobs-from-a-data-investigation.md
-    - name: 조사 설정 구성
-      items:
-        - name: 조사에서 구성원 추가 또는 제거
-          href: add-remove-members.md
-        - name: 검색 및 분석 설정 구성
-          href: configure-search-analytics-settings.md
-        - name: 조사 닫기 또는 조사 삭제
-          href: close-or-delete-investigation.md
-    - name: 데이터 조사 참조
-      items:
-        - name: 릴리스 정보
-          href: data-investigations-release-notes.md
-        - name: 데이터 조사의 제한 사항
-          href: limits-datainvestigations.md
-        - name: 지원되는 파일 형식
-          href: supported-filetypes-datainvestigations.md
-        - name: 문서 메타데이터 필드
-          href: document-metadata-fields.md
-        - name: 작업 관리
-          href: manage-jobs.md
 - name: 보존 관리
   items:
     - name: 사서함의 보류 유형을 식별하는 방법

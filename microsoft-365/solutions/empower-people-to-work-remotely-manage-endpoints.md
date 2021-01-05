@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft Endpoint Manager를 사용하여 장치, PC 및 기타 끝점을 관리합니다.
-ms.openlocfilehash: 291c1111bbfaf9a549c0d2ac22dab450a32a6a96
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: bca3e8e79264a2218dd1036e50be1c9ab29d2b8a
+ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845267"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749602"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>4단계. 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포
 
@@ -87,7 +87,7 @@ Windows 자동 실행 기능을 사용하면 IT 부서가 쉽고 간단한 프�
 - [모바일 장치 관리에 다양한 유형의 장치를 등록하는 방법](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)
 - [Microsoft Intune에 대해 최종 사용자를 교육하는 방법](https://docs.microsoft.com/mem/intune/fundamentals/end-user-educate)
  
-## <a name="results-of-step-3"></a>3단계의 결과
+## <a name="results-of-step-4"></a>4단계의 결과
 
 사용자는 끝점 관리자 기능 제품군을 사용하여 모바일 장치, 데스크톱 컴퓨터, 가상 컴퓨터, 내장 장치 그리고 서버를 관리하고 있습니다.
 

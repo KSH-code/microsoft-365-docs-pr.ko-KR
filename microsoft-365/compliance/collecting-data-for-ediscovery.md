@@ -1,5 +1,5 @@
 ---
-title: Advanced eDiscovery에서 사례에 대 한 데이터 수집
+title: Advanced eDiscovery에서 사례에 대한 데이터 수집
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,45 +15,45 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 고급 eDiscovery의 검색 도구를 사용 하 여 검토를 위해 검토할 문서 집합을 식별 하는 방법에 대해 알아봅니다.
+description: Advanced eDiscovery의 검색 도구를 사용하여 조사에서 검토할 문서 집합을 식별하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-2020
-ms.openlocfilehash: 725c289324a8e4d5bd4d7a7b9ddd9e091b6d6241
-ms.sourcegitcommit: a3c2c737995088c1bad3b12ab401a7ef242b0272
+ms.openlocfilehash: b69127f1a372a9b843b9c7dac1b2909dd80b2988
+ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956201"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49751273"
 ---
-# <a name="collect-data-for-a-case-in-advanced-ediscovery"></a>Advanced eDiscovery에서 사례에 대 한 데이터 수집
+# <a name="collect-data-for-a-case-in-advanced-ediscovery"></a>Advanced eDiscovery에서 사례에 대한 데이터 수집
 
-해당 사례에 관심이 있는 custodians 및 데이터 원본을 식별 한 후에는 delve에 사용할 문서 집합을 식별 해야 합니다. 고급 eDiscovery의 검색 도구를 사용 하 여 Microsoft 365의 custodial 및 비 custodial 위치에서 관련 문서를 식별할 수 있습니다.
+사례에 관심이 있는 보호자 및 데이터 원본을 식별한 다음에는 확인할 문서 집합을 식별해야 합니다. Advanced eDiscovery의 검색 도구를 사용하여 Microsoft 365의 상주 및 비보조 위치에서 관련 문서를 식별할 수 있습니다.
 
-검색을 실행 한 후 검색 쿼리와 일치 하는 항목이 가장 많은 위치와 같은 검색 된 항목에 대 한 통계를 볼 수 있습니다. 또한 결과의 하위 집합을 미리 볼 수도 있습니다. 추가로 확인할 문서 집합을 식별 한 경우 수집 및 처리할 검토 집합에 검색 결과를 추가할 수 있습니다.
+검색을 실행한 후 검색 쿼리와 일치하는 항목이 가장 많은 위치 등 검색된 항목에 대한 통계를 볼 수 있습니다. 결과의 하위 집합을 미리 볼 수 있습니다. 추가로 검사할 문서 집합을 확인한 경우 검색 결과를 검토 집합에 추가하여 수집 및 프로세스를 진행할 수 있습니다.
 
 ## <a name="create-a-search"></a>검색 만들기
 
-**검색 탭에서** **새 검색** 을 선택 하는 마법사를 시작 하 여 search를 만드는 과정을 안내 합니다. 검색을 만드는 방법에 대 한 자세한 내용은 [create a search를 검색 하 여 데이터 수집](create-search-to-collect-data.md)을 참조 하십시오.
+검색 **탭에서** 새  검색을 선택하면 검색 만들기를 안내하는 마법사가 시작됩니다. 검색을 만드는 방법에 대한 자세한 내용은 검색 만들기를 참조하여 데이터를 [수집합니다.](create-search-to-collect-data.md)
 
-검색을 만든 후에는 세부 정보가 포함 된 플라이 아웃 페이지가 표시 됩니다. 검색이 아직 완료 되지 않았으므로 **통계** 및 **미리 보기** 단추가 처음에는 사용할 수 없습니다. 검색의 진행 상태를 추적할 수 있습니다 ( **검색 탭)** .
+검색을 만든 후 세부 정보가 있는 플라이아웃 페이지가 표시됩니다. **검색이** 아직  완료되지 않았기 때문에 통계 및 미리 보기 단추를 처음에 사용할 수 없습니다. 검색 탭에서 검색 진행률을 **추적할 수** 있습니다.
 
 ## <a name="view-search-results-and-statistics"></a>검색 결과 및 통계 보기
 
-콘텐츠 검색에는 통계 (예측) 및 미리 보기의 두 가지 구성 요소가 있습니다. 이러한 각 구성 요소가 완료 되 면 **검색** 탭의 해당 열에 **제출** 됨에서 **진행 중** 으로 **완료**로 변경 된 상태가 표시 됩니다.
+콘텐츠 검색에는 통계(예상치) 및 미리 보기의 두 가지 구성 요소가 있습니다. 이러한 각 구성 요소가 완료되면 검색 탭의 해당 열에 표시되는  상태가 **제출에서** 진행  중으로 **변경됩니다.**
 
-검색 예측이 완료 되 면 검색을 선택 하 여 검색 결과에 대 한 일부 고급 통계를 표시 하는 플라이 아웃 페이지를 표시 합니다. 이 시점에서 **통계** 단추가 활성화 됩니다. 이 도구를 선택 하 여 다음과 같은 검색 통계를 볼 수 있습니다.
+검색 예상이 완료되면 검색을 선택하여 검색 결과에 대한 몇 가지 높은 수준의 통계를 표시하는 플라이아웃 페이지를 표시합니다. 이때 통계 단추가 활성화됩니다.  이 옵션을 선택하여 검색 통계를 볼 수 있습니다.
 
 - 요약
 - 상위 위치
-- 쿼리하도록
+- 쿼리
 
-검색 통계에 대 한 자세한 내용은 [검색 통계](search-statistics.md)를 참조 하세요.
+검색 통계에 대한 자세한 내용은 [검색 통계를 참조하세요.](search-statistics-in-advanced-ediscovery.md)
 
-미리 보기가 완료 되 면 **미리 보기** 단추가 활성화 됩니다. 이 도구를 선택 하 여 샘플링 된 결과의 하위 집합을 미리 봅니다.
+미리 보기가 완료되면 미리 **보기** 단추가 활성화됩니다. 결과의 샘플링된 하위 집합을 미리 확인하려면 선택합니다.
 
 ## <a name="add-search-results-to-a-review-set"></a>검색 결과를 검토 집합에 추가
 
-검색의 전체 결과를 수집 하 고 처리할 준비가 되 면 검토 집합에 추가 하 여 검색할 수 있습니다. 자세한 내용은 [검토 집합에 데이터 추가](add-data-to-review-set.md)를 참조 하십시오.
+검색의 전체 결과를 수집하고 처리하기 위해 준비되면 검토 집합에 추가하면 됩니다. 자세한 내용은 검토 [집합에 데이터 추가를 참조합니다.](add-data-to-review-set.md)
 
-## <a name="add-non-microsoft-365-data-to-a-review-set"></a>검토 집합에 타사 365 데이터 추가
+## <a name="add-non-microsoft-365-data-to-a-review-set"></a>검토 집합에 비 Microsoft 365 데이터 추가
 
-사례에 대 한 수집 프로세스의 일부로, Office 이외의 365 데이터를 검토 집합에 추가 하 고, 검색 도구를 사용 하 여 수집한 Office 365 데이터와 함께 검토 하 고 분석할 수도 있습니다. Office 이외의 365을 추가 하는 경우에는 케이스의 특정 custodian 연결 해야 합니다. 자세한 내용은 타사 [365 데이터를 검토 집합으로 로드](load-non-Office-365-data-into-a-review-set.md)를 참조 하세요.
+사례에 대한 수집 프로세스의 일부로, 비 Office 365 데이터를 검토 집합에 추가하고 검색 도구를 사용하여 수집한 Office 365 데이터와 함께 검토 및 분석할 수도 있습니다. 비 Office 365를 추가하는 경우 이 경우 해당 정보를 특정 보직원과 연결해야 합니다. 자세한 내용은 [검토 집합에 비 Microsoft 365 데이터 로드를 참조하세요.](load-non-Office-365-data-into-a-review-set.md)
