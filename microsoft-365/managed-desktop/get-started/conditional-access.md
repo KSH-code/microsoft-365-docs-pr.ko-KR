@@ -1,6 +1,6 @@
 ---
-title: 등록 후 설정 조정
-description: 특정 Microsoft 계정을 제외 하는 방법
+title: 등록 후 설정 수정
+description: 특정 Microsoft 계정을 제외하는 방법
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -9,36 +9,40 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 76a73372cc7517c3241390e58c28b0b02bffd664
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: d7fe410f114d43d4f6c983aaf23d949298635318
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527700"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760106"
 ---
-# <a name="adjust-settings-after-enrollment"></a>등록 후 설정 조정
+# <a name="adjust-settings-after-enrollment"></a>등록 후 설정 수정
 
-Microsoft Managed Desktop의 등록을 완료 한 후에는 특정 Microsoft Intune 및 azure AD (Active Directory) 설정을 조정 하 여 관리를 허용 하 고 보안을 유지 해야 합니다. Microsoft Managed Desktop 장치 및 사용자가 포함 된 Azure AD 그룹을 제외 하려면 다음 설정을 설정 합니다. 그룹을 제외 하는 단계에 대 한 자세한 내용은 [조건부 액세스: 사용자 및 그룹](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups#exclude-users)을 참조 하십시오.
+Microsoft Managed Desktop에서 등록을 완료한 후 관리 및 보안을 유지 관리하기 위해 특정 Microsoft Intune 및 Azure AD(Azure Active Directory) 설정을 조정해야 합니다. 다음 설정을 설정하여 Microsoft Managed Desktop 장치 및 사용자를 포함하는 Azure AD 그룹을 제외합니다. 그룹을 제외하는 단계는 [조건부 액세스: 사용자 및 그룹을 참조하세요.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups#exclude-users)
+
+> [!NOTE]
+> Microsoft Intune, Azure Active Directory 또는 Microsoft 365의 정책에 등록한 후 변경한 경우 Microsoft Managed Desktop이 제대로 작동하지 않을 수 있습니다. Microsoft Managed Desktop 작업의 문제를 방지하려면 정책을 [](../get-ready/readiness-assessment-fix.md) 변경하기 전에 준비 평가 도구에서 찾은 문제 해결에 설명된 특정 설정을 확인합니다.
+
 
 ## <a name="microsoft-intune-settings"></a>Microsoft Intune 설정
 
-- Autopilot 배포 프로필: **최신 작업 공간 장치 (모든**  Azure AD 그룹)를 제외 합니다. 자세한 단계는 [Windows Autopilot을 사용 하 여 Intune에서 windows 장치 등록](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)을 참조 하십시오.
-- 조건부 액세스 정책: **최신 작업 공간 서비스 계정** Azure AD 그룹을 제외 합니다. 단계에 대 한 자세한 내용은 [조건부 액세스: 사용자 및 그룹](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups)을 참조 하십시오.
-- 다단계 인증: 다단계 인증을 필요로 하는 모든 조건부 액세스 정책이 **최신 작업 공간 서비스 계정** Azure AD 그룹을 제외 하는지 확인 합니다. 자세한 내용은 [조건부 액세스 정책](../get-ready/readiness-assessment-fix.md#conditional-access-policies) 및 [조건부 액세스: 모든 사용자에 대해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)를 참조 하세요.
-- 보안 기준: **최신 작업 공간 장치 (All**  Azure AD 그룹)를 제외 합니다. 자세한 단계는 [security 기준선이 Use To Windows 10 devices In Intune](https://docs.microsoft.com/mem/intune/protect/security-baselines)을 참조 하십시오.
-- Windows 10 업데이트 링: **최신 작업 공간 장치 (모든**  Azure AD 그룹)를 제외 합니다. 자세한 단계는 [Intune에서 Windows 10 소프트웨어 업데이트 관리](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)를 참조 하세요.
+- Autopilot 배포 프로필: 최신 작업 공간 장치 **- 모든**  Azure AD 그룹을 제외합니다. 단계는 Windows [Autopilot을 사용하여 Intune에서 Windows 장치 등록을 참조하세요.](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)
+- 조건부 액세스 정책: 최신 작업 공간 **서비스 계정** Azure AD 그룹을 제외합니다. 단계는 조건부 [액세스: 사용자 및 그룹을 참조하세요.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups)
+- 다단계 인증: 다단계 인증이 필요한 조건부 액세스 정책이 최신 **Workplace Service Accounts** Azure AD 그룹을 제외하는지 확인 자세한 내용은 [조건부 액세스](../get-ready/readiness-assessment-fix.md#conditional-access-policies) 정책 및 [조건부 액세스: 모든 사용자에 대해 MFA 필요를 참조하세요.](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
+- 보안 기준: 최신 작업 공간 장치 **- 모든**  Azure AD 그룹을 제외합니다. 단계는 보안 기준을 사용하여 [Intune에서 Windows 10 디바이스를 구성합니다.](https://docs.microsoft.com/mem/intune/protect/security-baselines)
+- Windows 10 업데이트 링: 최신 작업 공간 **장치 -모든**  Azure AD 그룹을 제외합니다. 단계는 [Intune에서 Windows 10 소프트웨어 업데이트 관리를 참조하세요.](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)
 
 
 ## <a name="azure-active-directory-settings"></a>Azure Active Directory 설정
 
-셀프 서비스 암호 재설정: **선택한** 설정을 선택한 다음 **최신 작업 공간 장치-모든** Azure AD 그룹을 선택 합니다. 자세한 내용은 [Tutorial: 사용자가 Azure Active Directory 셀프 서비스 암호 재설정을 사용 하 여 계정의 잠금을 해제 하거나 암호를 재설정할 수 있도록](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr)합니다 .를 참조 하세요.
+셀프 서비스 암호 재설정: **선택한** 설정을 선택한 다음 최신 작업 공간 장치 **-모든** Azure AD 그룹을 선택합니다. 자세한 내용은 [자습서: 사용자가 Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-sspr)셀프 서비스 암호 재설정을 사용하여 계정 잠금을 해제하거나 암호를 재설정할 수 있도록 합니다.
 
 
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
 
 1. [관리 포털에서 관리자 연락처 추가 및 확인](add-admin-contacts.md)
-2. 등록 후 설정 조정 (이 문서)
+2. 등록 후 설정 조정(이 문서)
 3. [라이선스 할당](assign-licenses.md)
 4. [Intune 회사 포털 배포](company-portal.md)
 5. [엔터프라이즈 상태 로밍 사용](enterprise-state-roaming.md)

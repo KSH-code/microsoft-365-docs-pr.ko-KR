@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
+ROBOTS: NOINDEX, NOFOLLOW
 description: 파일에 태그를 지정하고 Advanced eDiscovery에서 평가 결과를 검토하는 등 평가 교육을 수행하는 단계를 검토합니다.
-ms.openlocfilehash: c8c6f82e7cfb3e2eddcc482039582ea27a702494
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: 9f826c836337ecf7a8479e7d824ff8ad9e737e97
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663463"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760378"
 ---
 # <a name="tagging-and-assessment-in-advanced-ediscovery-classic"></a>Advanced eDiscovery의 태그 지정 및 평가(클래식)
 
@@ -123,17 +124,3 @@ ms.locfileid: "49663463"
 > [!TIP]
 > 확장된 문제 표시 탭에서 다음과 같은 보기 옵션을 사용할 수 있습니다. > 다음 단계와 같이 권장되는 다음 **단계:** 오른쪽으로 수정 단추를  클릭한 다음 다음 단계에서 다른 단계를 선택하여(문제별) 태그 지정을 무시할 수 **있습니다.** **\>** 평가 진행률 표시기가 완료되지 않은 경우 평가는 추가 평가 파일에 태그를 지정하고 통계 정확도를 높이기 위한 다음 권장 옵션이 됩니다. > 수정을 클릭하고 평가 수준 대화 상자에서 회수 예상 대상 오류 여백을 변경하고 업데이트 값을 클릭하여 오류 여백을 변경하고 해당 영향을 평가할 **수 있습니다.** 또한 이 대화 상자에서 고급을 클릭하여 고급 옵션을 볼 **수 있습니다.** > 보기를 클릭하여 추가 평가 수준 통계 및 해당 영향을 볼 **수 있습니다.** 표시된 세부 정보 결과 대화 상자에서 500개 이상의 태그가 지정된 평가 파일이 있으며 18개 이상의 파일이 문제와 관련된 것으로 태그가 지정되어 있는 경우 문제당 통계를 사용할 수 있습니다. 
   
-## <a name="see-also"></a>참고 항목
-
-[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
-  
-[이해와 무관성 평가](assessment-in-relevance-in-advanced-ediscovery.md)
-  
-[태그 지정 및관련성 교육](tagging-and-relevance-training-in-advanced-ediscovery.md)
-  
-[추적과정성 분석](track-relevance-analysis-in-advanced-ediscovery.md)
-  
-[결과에 따라 결정](decision-based-on-the-results-in-advanced-ediscovery.md)
-  
-[테스트와의관성 분석](test-relevance-analysis-in-advanced-ediscovery.md)
-

@@ -14,12 +14,12 @@ ms.custom:
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: 관리자는 독립 실행형 EOP(Exchange Online Protection)를 설정하여온-프레미스 전자 메일 환경을 보호하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 2d63057e77e6965616e19452de824a94ba0ccda8
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: ca95f7dce30e8e751e293bf4e5de9caf0c845d29
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659420"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760497"
 ---
 # <a name="set-up-your-standalone-eop-service"></a>독립 실행형 EOP 서비스 설정
 

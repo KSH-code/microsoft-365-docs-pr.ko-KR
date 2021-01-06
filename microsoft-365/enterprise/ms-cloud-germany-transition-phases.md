@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 4a54fed8a109c3d03b735a5db3cb48060f5c438f
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.openlocfilehash: 940ad0799aca7ead20d226cfcf3cc4b7b21c6cdb
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719395"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760201"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>마이그레이션 단계, 도이치란드 Microsoft 클라우드 마이그레이션 작업 및 영향(일반)
 
@@ -77,6 +77,10 @@ ms.locfileid: "49719395"
 - 조직에서 여전히 SharePoint 2010 워크플로를 사용하는 경우 2021년 12월 31일 이후에는 더 이상 작동하지 않습니다. SharePoint 2013 워크플로는 2020년 11월 1일부터 새 테넌트에 대해 기본적으로 꺼져 있습니다. SharePoint Online 서비스로의 마이그레이션이 완료된 후 Power Automate 또는 기타 지원되는 솔루션으로 이동하는 것이 좋습니다.
 
 - 독일 지역으로의 OneDrive 마이그레이션이 완료된 후 데이터 인덱스가 다시 생성됩니다. 다시 인덱싱이 진행되는 동안 검색 인덱스에 종속된 기능이 영향을 받을 수 있습니다.
+
+- SharePoint Online 인스턴스가 아직 마이그레이션되지 않은 도이치랜드 Microsoft 클라우드 고객은 SharePoint Online PowerShell 모듈/Microsoft.SharePointOnline.CSOM 버전 16.0.20616.12000 이하를 유지해야 합니다. 그렇지 않으면 PowerShell 또는 클라이언트 쪽 개체 모델을 통해 SharePoint Online에 대한 연결이 실패합니다.
+
+- SharePoint Online 인스턴스가 마이그레이션된 도이치랜드 Microsoft 클라우드 고객은 SharePoint Online PowerShell 모듈/Microsoft.SharePointOnline.CSOM을 버전 16.0.20717.12000 이상으로 업데이트해야 합니다. 그렇지 않으면 PowerShell 또는 클라이언트 쪽 개체 모델을 통해 SharePoint Online에 대한 연결이 실패합니다.
 
 
 ## <a name="skype-for-business-online"></a>비즈니스용 Skype Online

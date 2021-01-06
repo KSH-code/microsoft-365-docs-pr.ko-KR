@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
+ROBOTS: NOINDEX, NOFOLLOW
 description: Advanced eDiscovery의관련성 교육 단계에서 태그를 지정한 다음 40개 파일의 교육 샘플로 작업하는 단계를 학습합니다.
-ms.openlocfilehash: d576b0a907a4c12eabe4f3cba9846de670b0ee12
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: cedac19ee04053e19b5dac1537b57d576e2e0354
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663453"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760368"
 ---
 # <a name="tagging-and-relevance-training-in-advanced-ediscovery-classic"></a>Advanced eDiscovery의 태그 지정 및관련성 교육(클래식)
 
@@ -98,17 +99,3 @@ Advanced eDiscovery에서 평가가 완료된 후, 40개 파일에 대한 교육
     
     샘플의 마지막 파일로 이동: Shift + Ctrl + \>
     
-## <a name="see-also"></a>참고 항목
-
-[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
-  
-[이해와 무관성 평가](assessment-in-relevance-in-advanced-ediscovery.md)
-  
-[태그 지정 및 평가](tagging-and-assessment-in-advanced-ediscovery.md)
-  
-[추적과정성 분석](track-relevance-analysis-in-advanced-ediscovery.md)
-  
-[결과에 따라 결정](decision-based-on-the-results-in-advanced-ediscovery.md)
-  
-[테스트와의관성 분석](test-relevance-analysis-in-advanced-ediscovery.md)
-

@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1b092f7c-ea55-44f5-b419-63f3458fd7e0
+ROBOTS: NOINDEX, NOFOLLOW
 description: Advanced eDiscovery에서 일괄 계산 후 테스트 탭을 사용하여 전체 처리 품질을 테스트, 비교 및 유효성을 검사하는 방법을 학습합니다.
-ms.openlocfilehash: e408d79aac8015da210f983b7b388ace84fc383a
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: 52198dc5218c49598403c3f1ece201fc4f00dd47
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663421"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760324"
 ---
 # <a name="test-relevance-analysis-in-advanced-ediscovery-classic"></a>Advanced eDiscovery(클래식)의 테스트관행성 분석
 
@@ -109,18 +110,3 @@ Advanced eDiscovery의 테스트 탭을 사용하면 전체 처리 품질을 테
 10. **Relevance \> Tag** 탭에서 각 파일을 검토하고 태그를 지정하고 완료하면 계산을 **클릭합니다.** 
     
 11. 테스트 탭에서 결과 보기를 클릭하여 테스트 결과를 볼 수 있습니다.  
-    
-## <a name="see-also"></a>참고 항목
-
-[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
-  
-[이해와 무관성 평가](assessment-in-relevance-in-advanced-ediscovery.md)
-  
-[태그 지정 및 평가](tagging-and-assessment-in-advanced-ediscovery.md)
-  
-[태그 지정 및관련성 교육](tagging-and-relevance-training-in-advanced-ediscovery.md)
-  
-[추적과정성 분석](track-relevance-analysis-in-advanced-ediscovery.md)
-  
-[결과에 따라 결정](decision-based-on-the-results-in-advanced-ediscovery.md)
-

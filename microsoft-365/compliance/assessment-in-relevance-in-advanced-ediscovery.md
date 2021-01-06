@@ -16,13 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 1d33d4fb-91ed-41c0-b72e-5a26eca3a2a7
 description: Microsoft 365 Advanced eDiscovery의 관련성 교육 중에 다양한 문제를 파악하는 데 필요한 평가 단계 및 해당 역할에 대한 개요를 얻습니다.
+ROBOTS: NOINDEX, NOFOLLOW
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28bbe15a6e3f5611041cf446bd053f59de395d54
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: d9ce400af87af36dfc9e0d51caba90b952edec9c
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663083"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49759924"
 ---
 # <a name="understand-assessment-in-relevance-in-advanced-ediscovery-classic"></a>Advanced eDiscovery(클래식)의와의관성 평가 이해
 
@@ -52,19 +53,4 @@ Advanced eDiscovery를 사용하면 정의된 문제 및 사례에 대해 가져
 관련성 권장 사항을 수락하거나 요구에 따라 현재 오류 여백을 조정할 수 있습니다. 기본 현재 오류 여백은 회수율이 75% 이상인 것으로 결정됩니다.
   
 > [!NOTE]
-> 평가 단계는 문제에 대한 확장된 보기의 관련성 트랙 탭에서 문제당 평가 확인란의  선택을 취소한 다음 "모든 문제"에 대해 무시할 수 있습니다. **\>** 그러나 이 문제의 통계는 없습니다. > 확인란 선택을 취소하는 것은 평가가 수행되기 전에만 수행할 수 있습니다.  여러 문제가 있는 경우 각 문제에 대해 확인란이 선택 취소된 경우 평가가 무시됩니다. 
-  
-## <a name="related-topics"></a>관련 항목
-
-[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
-  
-[태그 지정 및 평가](tagging-and-assessment-in-advanced-ediscovery.md)
-  
-[태그 지정 및관련성 교육](tagging-and-relevance-training-in-advanced-ediscovery.md)
-  
-[추적과정성 분석](track-relevance-analysis-in-advanced-ediscovery.md)
-  
-[결과에 따라 결정](decision-based-on-the-results-in-advanced-ediscovery.md)
-  
-[테스트와의관성 분석](test-relevance-analysis-in-advanced-ediscovery.md)
-
+> 평가 단계는 문제에 대한 확장된 보기의 관련성 트랙 탭에서 문제당 평가 확인란의  선택을 취소한 다음 "모든 문제"에 대해 무시할 수 있습니다. **\>** 그러나 이 문제의 통계는 없습니다. > 확인란 선택을 취소하는 것은 평가가 수행되기 전에만 수행할 수 있습니다.  여러 문제가 있는 경우 각 문제에 대해 확인란이 선택 취소된 경우 평가는 무시됩니다.
