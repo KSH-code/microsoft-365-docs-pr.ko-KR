@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
-ms.openlocfilehash: a212067d75ab3d9e195e3d869e0a6ae7d1ed4d01
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 2a00d639be3b43fb56e26dca2725f2c3dac54b39
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616383"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760545"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -44,7 +44,7 @@ ms.locfileid: "49616383"
 
 ## <a name="data-loss-prevention-reports"></a>데이터 손실 방지 역할
 
-DLP(데이터 손실 방지) 정책을 만든 후에는 의도한 대로 작동하는지와 규정 준수 상태를 유지하는 데 도움이 되는지 확인할 수 있습니다. Office 365에서 DLP 보고서를 사용하면 DLP 정책 일치, 재정의 또는 가양성 수를 빠르게 확인하고, 시간에 따라 증가 추세인지 또는 감소 추세인지를 확인하고, 다양한 방식으로 보고서를 필터링하고, 그래프의 선 위에 있는 점을 선택하여 추가 세부 사항을 확인할 수 있습니다.
+DLP(데이터 손실 방지) 정책을 만든 후에는 의도한 대로 작동하는지와 규정 준수 상태를 유지하는 데 도움이 되는지 확인할 수 있습니다. Office 365에서 DLP 보고서를 사용하면 DLP 정책 일치, 재정의 또는 가양성 수를 빠르게 확인하고, 시간에 따라 증가 추세인지 또는 감소 추세인지를 확인하고, 다양한 방식으로 보고서를 필터링하고, 그래프의 선 위에 있는 점을 선택하여 더 많은 세부 사항을 확인할 수 있습니다.
 
 DLP 보고서를 사용하여 다음을 수행할 수 있습니다.
 
@@ -151,7 +151,7 @@ Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 |범주|DLP|
 |필터 설정|액세스 수준 = 공용(인터넷), 공용, 외부 <p> 앱 = \<select apps\>(특정 SaaS 앱으로 모니터링을 제한하려는 경우 이 설정 사용)|
 |적용 대상|모든 파일, 모든 소유자|
-|콘텐츠 검사|현재 식과 일치하는 파일 포함: 모든 국가: 재무: 신용 카드 번호 <p> 관련 컨텍스트는 필요하지 않음: (regex 뿐만 아니라 키워드도 검색 대상임) <p> 일치하는 항목이 1개 이상인 파일 포함 <p> 위반의 마지막 4자 마스크 해제: 선택 취소됨|
+|콘텐츠 검사|현재 식과 일치하는 파일 포함: 모든 국가: 재무: 신용 카드 번호 <p> 관련 컨텍스트는 필요하지 않음: (이 설정에서는 regex 뿐만 아니라 키워드도 검색 대상임) <p> 일치하는 항목이 1개 이상인 파일 포함 <p> 위반의 마지막 4자 마스크 해제: 선택 취소됨|
 |경고|각각의 일치 파일에 대한 경고 만들기: 선택됨 <p> 일별 경고 제한: 1000 <p> 전자 메일 알림 선택: 선택됨 <p> 받는 사람: infosec@contoso.com|
 |거버넌스|Microsoft 비즈니스용 OneDrive <p> 비공개로 지정: 외부 사용자 제거 선택 <p> 다른 모든 설정: 선택되지 않음 <p> Microsoft SharePoint Online <p> 비공개로 지정: 외부 사용자 제거 선택 <p> 다른 모든 설정: 선택되지 않음|
 |

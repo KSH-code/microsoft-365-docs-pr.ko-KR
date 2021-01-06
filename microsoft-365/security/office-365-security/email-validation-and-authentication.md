@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: 관리자는 EOP가 전자 메일 인증(SPF, DKIM 및 DMARC)을 사용하여 스푸핑, 피싱 및 스팸을 방지하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 7c196b68d88187da2890cc886f646c5416ef9a11
-ms.sourcegitcommit: ce46d1bd67091d4ed0e2b776dfed55e2d88cdbf4
+ms.openlocfilehash: 6a0bf6fd7958f44a9cfbe7ae0600aeb064170437
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49131076"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49760521"
 ---
 # <a name="email-authentication-in-eop"></a>EOP에서 전자 메일 인증
 
@@ -145,7 +145,7 @@ Microsoft 365는 조직에 인증되지 않은 전자 메일을 보내는 사람
 
 - 합법적인 보낸 사람을 확인하기 위한 도메인에서 [DMARC 레코드 설정 고려](use-dmarc-to-validate-email.md)
 
-Microsoft는 SPF, DKIM 및 DMARC 레코드에 대한 세부 구현 지침을 제공하지 않습니다. 하지만 온라인에는 많은 정보가 있습니다. 또한 조직에서 전자 메일 인증 레코드를 설정하는 데 도움을 주는 타사 회사도 있습니다.
+Microsoft는 SPF, DKIM 및 DMARC 레코드에 대한 세부 구현 지침을 제공하지 않습니다. 하지만 온라인에는 많은 정보가 있습니다. 조직에서 전자 메일 인증 레코드를 설정할 수 있도록 지원하는 타사도 있습니다.
 
 #### <a name="you-dont-know-all-sources-for-your-email"></a>전자 메일에 대해 모든 출처를 알 수 없습니다.
 
