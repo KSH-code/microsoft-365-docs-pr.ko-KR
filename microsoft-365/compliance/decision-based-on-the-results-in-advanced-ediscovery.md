@@ -1,5 +1,5 @@
 ---
-title: 고급 eDiscovery의 결과를 기반으로 결정
+title: Advanced eDiscovery의 결과에 따라 결정
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,57 +14,44 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: aed65bcd-0a4f-43e9-b5e5-b98cc376bdf8
-description: 고급 eDiscovery의 결정 탭에서 사례 파일의 검토 집합에 대 한 올바른 크기를 결정 하는 데 도움이 되는 데이터를 제공 하는 방법을 알아봅니다.
+description: Advanced eDiscovery의 결정 탭에서 사례 파일 검토 집합의 올바른 크기를 결정하는 데 도움이 되는 데이터를 제공하는 방법을 확인합니다.
+ROBOTS: NOINDEX, NOFOLLOW
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 60213226bef1c04767d4be17a09b58d6940ac223
-ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
+ms.openlocfilehash: 0423a21520375f1d9de8e2eaeca142b979ff1883
+ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49562969"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49759870"
 ---
-# <a name="decision-based-on-the-results-in-advanced-ediscovery-classic"></a><span data-ttu-id="65653-103">고급 eDiscovery의 결과를 기반으로 결정 (클래식)</span><span class="sxs-lookup"><span data-stu-id="65653-103">Decision based on the results in Advanced eDiscovery (classic)</span></span>
+# <a name="decision-based-on-the-results-in-advanced-ediscovery-classic"></a><span data-ttu-id="050fe-103">Advanced eDiscovery(클래식)의 결과에 따라 결정</span><span class="sxs-lookup"><span data-stu-id="050fe-103">Decision based on the results in Advanced eDiscovery (classic)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="65653-p101">Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="65653-p101">Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span></span> 
+> <span data-ttu-id="050fe-p101">Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-p101">Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span></span> 
   
- <span data-ttu-id="65653-106">고급 eDiscovery에서 결정 탭은 사례 파일의 검토 집합 크기를 결정 하는 데 필요한 의사 결정 통계를 보고 사용 하는 데 필요한 추가 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="65653-106">In Advanced eDiscovery, the Decide tab provides additional information for viewing and using decision-support statistics for determining the size of the review set of case files.</span></span> 
+ <span data-ttu-id="050fe-106">Advanced eDiscovery에서 결정 탭은 사례 파일 검토 집합의 크기를 결정하는 데 결정 지원 통계를 보고 사용할 수 있는 추가 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-106">In Advanced eDiscovery, the Decide tab provides additional information for viewing and using decision-support statistics for determining the size of the review set of case files.</span></span> 
   
-## <a name="using-the-decide-tab"></a><span data-ttu-id="65653-107">결정 탭 사용</span><span class="sxs-lookup"><span data-stu-id="65653-107">Using the Decide tab</span></span>
+## <a name="using-the-decide-tab"></a><span data-ttu-id="050fe-107">결정 탭 사용</span><span class="sxs-lookup"><span data-stu-id="050fe-107">Using the Decide tab</span></span>
 
 ![관련성을 결정](../media/f32fed89-f3b5-404a-90c7-ea25d2eb58a9.png)
   
-<span data-ttu-id="65653-109">이 탭에는 다음과 같은 구성 요소가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="65653-109">This tab includes the following components:</span></span>
+<span data-ttu-id="050fe-109">이 탭에는 다음과 같은 구성 요소가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-109">This tab includes the following components:</span></span>
   
-- <span data-ttu-id="65653-110">**문제**: 여기서 필요한 문제를 목록에서 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="65653-110">**Issue**: From here, you can select the issue of interest from the list.</span></span> 
+- <span data-ttu-id="050fe-110">**문제**: 여기에서 목록에서 관심 문제를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-110">**Issue**: From here, you can select the issue of interest from the list.</span></span> 
     
-- <span data-ttu-id="65653-111">**검토-회수 비율**: 관련성 성적에 따라 Advanced eDiscovery 검토를 비교 합니다.</span><span class="sxs-lookup"><span data-stu-id="65653-111">**Review-recall ratio**: Comparisons of Advanced eDiscovery review according to Relevance scores.</span></span> <span data-ttu-id="65653-112">차트의 구분 지점은 검토 중 이며 관련성 점수에 매핑되는 파일의 비율을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="65653-112">The Cutoff point in the chart represents the percentage of files to review, mapped to a Relevance score.</span></span> <span data-ttu-id="65653-113">이는 관련성 테스트 단계 및 culling의 내보내기 임계값으로 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="65653-113">This is used in the Relevance Test phase and as an Export threshold for culling.</span></span> <span data-ttu-id="65653-114">검토할 파일 수에 대 한 기본 구분 지점은 재호출 및 정밀도 간의 균형이 가장 적합 한 시점입니다.</span><span class="sxs-lookup"><span data-stu-id="65653-114">The default cutoff point, for the number of files to review is at the point in which the balance between Recall and Precision is optimal.</span></span> <span data-ttu-id="65653-115">실제 구분 지점은 목표 및 비용 급여 (% review) 및 위험 (% 회수)에 따라 사용자가 결정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="65653-115">The actual cutoff point should be determined by the user depending on objectives and the cost tradeoff (%review) and risk (%recall).</span></span> <span data-ttu-id="65653-116">슬라이더를 사용 하 여 구분 지점을 조정 하 고 그래프 및 매개 변수에 대 한 영향을 확인 하 고, 검색할 관련 파일의 비율을 조정 하 고, 의사 결정을 확인 하기 전에 결과를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="65653-116">Using the slider, you can adjust the cutoff point and see the effect on the graph and parameters, when adjusting the percent of relevant files to be retrieved, and before validating a decision.</span></span>
+- <span data-ttu-id="050fe-111">**검토 회수율:** 관련성 점수에 따라 Advanced eDiscovery 검토를 비교합니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-111">**Review-recall ratio**: Comparisons of Advanced eDiscovery review according to Relevance scores.</span></span> <span data-ttu-id="050fe-112">차트의 컷오프 지점은 검토할 파일의 백분율을 나타내며, 해당 점수에 매핑됩니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-112">The Cutoff point in the chart represents the percentage of files to review, mapped to a Relevance score.</span></span> <span data-ttu-id="050fe-113">관련성 테스트 단계에서 컬링에 대한 내보내기 임계값으로 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-113">This is used in the Relevance Test phase and as an Export threshold for culling.</span></span> <span data-ttu-id="050fe-114">검토할 파일 수에 대한 기본 컷오프 지점은 회수 및 정밀도 사이의 균형이 최적 지점입니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-114">The default cutoff point, for the number of files to review is at the point in which the balance between Recall and Precision is optimal.</span></span> <span data-ttu-id="050fe-115">실제 컷오프 지점은 목표와 비용의 상하(%review) 및 위험(%회수율)에 따라 사용자가 결정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-115">The actual cutoff point should be determined by the user depending on objectives and the cost tradeoff (%review) and risk (%recall).</span></span> <span data-ttu-id="050fe-116">슬라이더를 사용하여 컷오프 지점을 조정하고, 검색할 관련 파일의 백분율을 조정할 때, 결정의 유효성을 검사하기 전에 그래프 및 매개 변수에 대한 영향을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-116">Using the slider, you can adjust the cutoff point and see the effect on the graph and parameters, when adjusting the percent of relevant files to be retrieved, and before validating a decision.</span></span>
     
-- <span data-ttu-id="65653-117">**매개 변수**: Review, 회수, Next 관련성이 있는 and Total cost 매개 변수는 전체 사례에 대 한 컬렉션과 관련 하 여 검토 집합과 관련 된 누적 계산 통계입니다.</span><span class="sxs-lookup"><span data-stu-id="65653-117">**Parameters**: Review, Recall, Next relevant and Total cost parameters are cumulative calculated statistics pertaining to the review set in relation to the collection for the entire case.</span></span> <span data-ttu-id="65653-118">이러한 매개 변수에 대 한 정의는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="65653-118">Definitions for these parameters are as follows:</span></span>
+- <span data-ttu-id="050fe-117">**매개** 변수: 검토, 회수, 다음 관련 비용 및 총 비용 매개 변수는 전체 사례에 대한 컬렉션과 관련된 검토 집합과 관련된 누적 계산 통계입니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-117">**Parameters**: Review, Recall, Next relevant and Total cost parameters are cumulative calculated statistics pertaining to the review set in relation to the collection for the entire case.</span></span> <span data-ttu-id="050fe-118">이러한 매개 변수에 대한 정의는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-118">Definitions for these parameters are as follows:</span></span>
     
-    <span data-ttu-id="65653-119">**검토**:이 구분에 따라 검토할 파일의 비율입니다.</span><span class="sxs-lookup"><span data-stu-id="65653-119">**Review**: Percentage of files to review based on this cutoff.</span></span> 
+    <span data-ttu-id="050fe-119">**검토:** 이 컷오프에 따라 검토할 파일의 백분율입니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-119">**Review**: Percentage of files to review based on this cutoff.</span></span> 
     
-    <span data-ttu-id="65653-120">**회수**: 검토 집합에서 관련 파일의 비율입니다.</span><span class="sxs-lookup"><span data-stu-id="65653-120">**Recall**: Percentage of relevant files in the review set.</span></span> 
+    <span data-ttu-id="050fe-120">**회수:** 검토 집합에 있는 관련 파일의 백분율입니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-120">**Recall**: Percentage of relevant files in the review set.</span></span> 
     
-    <span data-ttu-id="65653-121">**다음 관련**: 현재 검토 집합에 없는 추가 관련 파일을 검토 하 고 식별 하는 비용입니다.</span><span class="sxs-lookup"><span data-stu-id="65653-121">**Next relevant**: Cost to review and identify an additional relevant file that is not currently in the review set.</span></span> 
+    <span data-ttu-id="050fe-121">**다음 관련성:** 현재 검토 집합에 없는 추가 관련 파일을 검토하고 식별하는 데 드는 비용입니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-121">**Next relevant**: Cost to review and identify an additional relevant file that is not currently in the review set.</span></span> 
     
-    <span data-ttu-id="65653-122">**총 비용**: 사례 파일의 비율을 검토 하기 위한 비용입니다.</span><span class="sxs-lookup"><span data-stu-id="65653-122">**Total cost**: Cost for reviewing this percentage of the case files.</span></span> <span data-ttu-id="65653-123">Cost 매개 변수 설정은 사례 관리자가 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="65653-123">Cost parameter settings can be set by the Case manager.</span></span>
+    <span data-ttu-id="050fe-122">**총 비용:** 사례 파일의 이 백분율을 검토하는 데 드는 비용입니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-122">**Total cost**: Cost for reviewing this percentage of the case files.</span></span> <span data-ttu-id="050fe-123">비용 매개 변수 설정은 사례 관리자가 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-123">Cost parameter settings can be set by the Case manager.</span></span>
     
-- <span data-ttu-id="65653-124">**관련성 점수를 통한 배포**: 어두운 회색 왼쪽에 표시 되는 파일은 컷오프 점수 아래에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="65653-124">**Distribution by relevance score**: Files in the dark gray display to the left are below the cutoff score.</span></span> <span data-ttu-id="65653-125">도구-팁에는 총 파일을 기준으로 하 여 검토 파일에 설정 된 파일의 관련성 점수와 관련 백분율이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="65653-125">A tool-tip displays the Relevance score and the related percentage of files in the review file set in relation to the total files.</span></span>
+- <span data-ttu-id="050fe-124">**타당성** 점수로 분포: 왼쪽에 진한 회색 표시의 파일이 잘리기 점수 미만입니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-124">**Distribution by relevance score**: Files in the dark gray display to the left are below the cutoff score.</span></span> <span data-ttu-id="050fe-125">도구 팁에는 전체 파일과 관련된 리뷰 파일 집합의 관련성 점수 및 관련 백분율이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-125">A tool-tip displays the Relevance score and the related percentage of files in the review file set in relation to the total files.</span></span>
     
-<span data-ttu-id="65653-126">상세 세부 정보 창에 추가 정보가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="65653-126">The expanded Details pane displays additional details.</span></span> <span data-ttu-id="65653-127">컬렉션 그림의 파일에는 빈 파일 또는 ne문서 ou 파일이 포함 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="65653-127">Files in collection figures do not include empty or nebulous files.</span></span> <span data-ttu-id="65653-128">패밀리 파일 그림은 관련성이 없지만 여전히 패밀리의 일부로 서 계산 되는 파일을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="65653-128">Family files figures represent files that are not loaded in Relevance, yet still counted as part of the family.</span></span>
+<span data-ttu-id="050fe-126">확장된 세부 정보 창에 추가 세부 정보가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-126">The expanded Details pane displays additional details.</span></span> <span data-ttu-id="050fe-127">컬렉션 그림의 파일에는 비어 있거나 까다로워진 파일이 포함되어 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-127">Files in collection figures do not include empty or nebulous files.</span></span> <span data-ttu-id="050fe-128">패밀리 파일 수치는 해당 패밀리의 일부로 계산되는, 아직까지는 무관하게 로드되지 않은 파일을 나타내고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="050fe-128">Family files figures represent files that are not loaded in Relevance, yet still counted as part of the family.</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="65653-129">관련 항목</span><span class="sxs-lookup"><span data-stu-id="65653-129">Related topics</span></span>
-
-[<span data-ttu-id="65653-130">고급 eDiscovery (클래식)</span><span class="sxs-lookup"><span data-stu-id="65653-130">Advanced eDiscovery (classic)</span></span>](office-365-advanced-ediscovery.md)
-  
-[<span data-ttu-id="65653-131">관련성 평가 이해</span><span class="sxs-lookup"><span data-stu-id="65653-131">Understanding Assessment in Relevance</span></span>](assessment-in-relevance-in-advanced-ediscovery.md)
-  
-[<span data-ttu-id="65653-132">태그 지정 및 평가</span><span class="sxs-lookup"><span data-stu-id="65653-132">Tagging and Assessment</span></span>](tagging-and-relevance-training-in-advanced-ediscovery.md)
-  
-[<span data-ttu-id="65653-133">관련성 교육 수행</span><span class="sxs-lookup"><span data-stu-id="65653-133">Performing Relevance training</span></span>](tagging-and-assessment-in-advanced-ediscovery.md)
-  
-[<span data-ttu-id="65653-134">관련성 분석 추적</span><span class="sxs-lookup"><span data-stu-id="65653-134">Tracking Relevance analysis</span></span>](track-relevance-analysis-in-advanced-ediscovery.md)
-  
-[<span data-ttu-id="65653-135">관련성 분석 테스트</span><span class="sxs-lookup"><span data-stu-id="65653-135">Testing Relevance analysis</span></span>](test-relevance-analysis-in-advanced-ediscovery.md)
-
