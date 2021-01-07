@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 산업별 지침 개요
-description: 설명.
+description: 금융, 의료 및 교육과 관련한 업계 모범 사례를 찾아보아야 합니다.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -13,13 +13,13 @@ ms.collection:
 ms.custom: ''
 f1.keywords: NOCSH
 ROBOTS: NOINDEX
-ms.openlocfilehash: 2611879f860bcb9e87474d675503a4d7d9584f99
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 8bdc16cc824e45151d779e7407d59649d3540165
+ms.sourcegitcommit: ddfb4f3e34deb733e8625e845e4dfd1fcc066ceb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49612979"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49771814"
 ---
 # <a name="microsoft-365-industry-specific-guidance-overview"></a>Microsoft 365 산업별 지침 개요
 
-![모범 사례 리본 산업 관련 지침은 산업- 금융, 의료 및 교육에 대한 모범 ](https://docs.microsoft.com/office/media/icons/best-practices-blue.png)  사례를 찾아보겠습니다.
+![모범 사례 리본 산업 관련 지침은 산업에 대한 모범 사례인 재무, 의료 및 ](https://docs.microsoft.com/office/media/icons/best-practices-blue.png)  교육을 찾아야 합니다.

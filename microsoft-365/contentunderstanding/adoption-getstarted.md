@@ -12,12 +12,12 @@ ms.collection: enabler-strategic
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 95e1ad15a62762c8b28203e178d4d4ae7906e38a
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.openlocfilehash: 441f28e36ced25b2e5af3f71235995c8b021f779
+ms.sourcegitcommit: ddfb4f3e34deb733e8625e845e4dfd1fcc066ceb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760245"
+ms.locfileid: "49771874"
 ---
 # <a name="microsoft-sharepoint-syntex-adoption-get-started"></a>Microsoft SharePoint Syntex 채택: 시작
 
@@ -27,13 +27,16 @@ SharePoint Syntex에서 사용할 수 있는 지능형 콘텐츠 서비스는 �
 - **콘텐츠 처리:** Power Automate를 사용하여 콘텐츠의 캡처, 수집 및 분류를 자동화하고 콘텐츠 중심 프로세스를 간소화합니다. 콘텐츠 처리에 [대해 자세히 알아보겠습니다.](form-processing-overview.md)
 - **콘텐츠 준수:** Microsoft Information Protection과의 통합으로 보안 및 거버넌스를 개선하기 위해 콘텐츠를 제어하고 관리합니다.
 
-새로운 AI 서비스 및 기능을 사용하여 SharePoint Syntex를 사용하여 콘텐츠 이해 및 분류 앱을 콘텐츠 관리 흐름에 직접 빌드할 수 있습니다.
+새로운 AI 서비스 및 기능을 사용하여 SharePoint Syntex를 사용하여 콘텐츠 이해 및 분류 앱을 콘텐츠 관리 흐름에 직접 빌드할 수 있습니다. 콘텐츠를 이해하는 방법에는 두 가지가 있습니다. 사용하는 모델 유형은 파일 형식 및 사용 사례를 기반으로 합니다.
 
-|수동 입력| 양식 처리 | 문서 이해 |
-|:-------|:--------|:--------|
-| 데이터 입력 및 모든 콘텐츠에 대한 많은 작업 | 파일을 식별하고 양식 또는 송장과 같은 구조적 또는 반구조적 문서에서 데이터를 추출합니다. |  추출할 텍스트 엔터티가 문서의 특정 영역이나 문장에 있는 구조화되지 않은 문서(예: 편지 또는 계약)에서 데이터를 식별하고 추출합니다. |
-| 대화형.   |  사용자 지정, 보조.  | 미리 구축되고 자동화되어 있습니다. |
-| 작업을 하는 사람입니다. | 주제 전문가(중소기업)가 교육합니다. | 중소기업의 참여가 적습니다. |
+| 양식 처리 | 문서 이해 |
+|:-------|:-------|
+| 문서 라이브러리에서 만들어집니다. | SharePoint Syntex의 일부인 콘텐츠 센터에서 만들어집니다. |
+| AI 작성기에서 만든 모델입니다. | 기본 인터페이스에서 만든 모델입니다. |
+| 반구조적 파일 형식에 사용됩니다. | 구조화되지 않은 파일 형식에 사용됩니다. |
+| Settable 분류자입니다. | 선택적 추출기를 통해 학습 가능한 분류자입니다. |
+| 단일 라이브러리로 제한됩니다. | 여러 라이브러리에 적용할 수 있습니다. |
+| PDF, JPG, PNG 형식 교육 총 50MB/500 pp | 부정적인 예제를 포함하여 5-10 PDF, Office 또는 전자 메일 파일에 대해 교육합니다. |
 
 다음 표에서는 SharePoint Syntex의 가용성 및 라이선싱에 대해 설명합니다.
 
@@ -44,17 +47,6 @@ SharePoint Syntex에서 사용할 수 있는 지능형 콘텐츠 서비스는 �
 | 기본 일반 데이터 서비스 환경에 대해 프로비전됩니다. | 용량 제한이 없습니다. |
 
 AI 작성기 크레딧 및 단위에 대한 자세한 내용은 [AI Builder 라이선스를 참조하세요.](https://docs.microsoft.com/ai-builder/administer-licensing)
-
-콘텐츠를 이해하는 방법에는 두 가지가 있습니다. 사용하는 모델 유형은 파일 형식 및 사용 사례를 기반으로 합니다.
-
-| 양식 처리 | 문서 이해 |
-|:-------|:-------|
-| 문서 라이브러리에서 만들어집니다. | SharePoint Syntex의 일부인 콘텐츠 센터에서 만들어집니다. |
-| AI 작성기에서 만든 모델입니다. | 기본 인터페이스에서 만든 모델입니다. |
-| 반구조적 파일 형식에 사용됩니다. | 구조화되지 않은 파일 형식에 사용됩니다. |
-| Settable 분류자입니다. | 선택적 추출기를 통해 학습 가능한 분류자입니다. |
-| 단일 라이브러리로 제한됩니다. | 여러 라이브러리에 적용할 수 있습니다. |
-| PDF, JPG, PNG 형식 교육 총 50MB/500 pp | 부정적인 예제를 포함하여 5-10 PDF, Office 또는 전자 메일 파일에 대해 교육합니다. |
 
 SharePoint Syntex는 다음과 같은 Microsoft 365 규정 준수 기능과 통합됩니다.
 

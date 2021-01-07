@@ -13,39 +13,39 @@ localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
-description: '요약: Microsoft Office 365의 데이터 복구 기능을 이해 합니다.'
-ms.openlocfilehash: 4759cfda13ab5044ddf5980d7e61004e9e7626fa
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+description: '요약: 365에서 데이터 Microsoft Office 이해합니다.'
+ms.openlocfilehash: fbd2672986046a4f6d25c47b011eaef0a87d90e1
+ms.sourcegitcommit: 3bf4f1c0d3a8515cca651b2a520217195f89457f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024778"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49777054"
 ---
 # <a name="service-encryption"></a>서비스 암호화
 
-볼륨 수준 암호화, Exchange Online, 비즈니스용 Skype, SharePoint Online 및 비즈니스용 OneDrive를 사용 하는 것 외에도 서비스 암호화를 사용 하 여 고객 데이터를 암호화 합니다. 서비스 암호화를 사용 하면 다음과 같은 두 가지 주요 관리 옵션을 사용할 수 있습니다.
+볼륨 수준 암호화를 사용하는 것 외에도 Exchange Online, 비즈니스용 Skype, SharePoint Online 및 비즈니스용 OneDrive는 서비스 암호화를 사용하여 고객 데이터를 암호화합니다. 서비스 암호화를 사용하면 두 가지 주요 관리 옵션을 사용할 수 있습니다.
 
-## <a name="microsoft-managed-keys"></a>Microsoft 관리 키
-Microsoft는 서비스 암호화를 위한 루트 키를 포함 하 여 모든 암호화 키를 관리 합니다. 이 옵션은 현재 SharePoint Online 및 비즈니스용 OneDrive에서 사용할 수 있습니다. 이 옵션은 현재 Exchange Online에 대해 롤아웃 됩니다. Microsoft 관리 키는 고객 키를 사용 하 여 온보드를 결정 하지 않은 경우 기본 서비스 암호화를 제공 합니다. 나중에 데이터 제거 경로를 팔 로우 하지 않고 고객 키를 사용 하지 않도록 결정 한 경우 Microsoft 관리 되는 키를 사용 하 여 사용자의 데이터 암호화가 유지 됩니다. 데이터는 최소한이 기본 수준에서 항상 암호화 됩니다. 
+## <a name="microsoft-managed-keys"></a>Microsoft에서 관리하는 키
+Microsoft는 서비스 암호화를 위한 루트 키를 포함하여 모든 암호화 키를 관리합니다. 이 옵션은 현재 Exchange Online, SharePoint Online, 비즈니스용 OneDrive에 대해 기본적으로 사용하도록 설정되어 있습니다. 고객 키를 사용하여 온보드하기로 결정하지 않은 경우 Microsoft 관리 키는 기본 서비스 암호화를 제공합니다. 나중에 데이터 제거 경로를 따라가지 않고 고객 키 사용을 중지하기로 결정한 경우 Microsoft에서 관리하는 키를 사용하여 데이터가 암호화된 채로 유지됩니다. 데이터는 최소한 이 기본 수준에서 항상 암호화됩니다. 
 
 ## <a name="customer-key"></a>고객 키
-서비스 암호화에 사용 되는 루트 키를 제공 하 고 Azure 키 자격 증명 모음을 사용 하 여 이러한 키를 관리 합니다. Microsoft는 다른 모든 키를 관리 합니다. 이 옵션은 고객 키 라고 하며, 현재 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive에 사용할 수 있습니다. 이전에는 고급 암호화 라고 합니다. 원래 공지 사항을 보려면 [Office 365 고객을 위해 투명도 및 컨트롤 향상](https://blogs.office.com/2015/04/21/enhancing-transparency-and-control-for-office-365-customers/) 을 참조 하세요.
+서비스 암호화에 사용되는 루트 키를 제공하며 Azure Key Vault를 사용하여 이러한 키를 관리합니다. Microsoft는 다른 모든 키를 관리합니다. 이 옵션을 고객 키라고 하며 현재 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive에서 사용할 수 있습니다. (이전에는 BYOK를 사용하여 고급 암호화라고 지칭했습니다. 원래 [공지에 대한 Office 365](https://blogs.office.com/2015/04/21/enhancing-transparency-and-control-for-office-365-customers/) 고객에 대한 투명성 및 제어 향상을 참조합니다.)
 
-서비스 암호화는 여러 가지 이점을 제공 합니다. 예를 들면 고객 키:
+서비스 암호화는 여러 이점을 제공합니다.
 
-- 강력한 암호화 보호에 대 한 권한 보호 및 관리 기능을 제공 합니다.
+- BitLocker 위에 추가된 보호 계층을 제공합니다.
 
-- 다중 테 넌 트 서비스가 테 넌 트 기준 키 관리를 제공할 수 있도록 하는 고객 키 옵션이 포함 됩니다.
+- Windows 운영 체제 관리자가 운영 체제에 의해 저장되거나 처리되는 응용 프로그램 데이터에 액세스할 수 없습니다.
 
-- Windows 운영 체제 관리자가 운영 체제에 의해 저장 되거나 처리 되는 고객 데이터에 대 한 액세스와의 분리를 제공 합니다.
+- 다중 테넌트 서비스가 테넌트당 키 관리를 제공할 수 있도록 하는 고객 키 옵션이 포함되어 있습니다.
 
-- 암호화에 대 한 준수 요구 사항이 있는 고객의 요구 사항을 충족 하기 위해 Microsoft 365의 기능을 향상 시킵니다.
+- 암호화와 관련하여 특정 규정 준수 요구 사항이 있는 고객의 요구를 충족하는 Microsoft 365의 기능을 향상합니다.
 
-고객 키를 사용 하 여 온-프레미스 HSM (하드웨어 서비스 모듈) 또는 AKV (Azure Key Vault)를 사용 하 여 자체 암호화 키를 생성할 수 있습니다. 키를 생성 하는 방법에 관계 없이 AKV을 사용 하 여 Office 365에서 사용 하는 암호화 키를 제어 하 고 관리 합니다. 키가 AKV에 저장 되 면 사서함 데이터 나 파일을 암호화 하는 keychains 중 하나의 루트로 사용할 수 있습니다.
+고객 키를 사용하면 HSM(하드웨어 서비스 모듈) 또는 AKV(Azure Key Vault)를 사용하여 자체 암호화 키를 생성할 수 있습니다. 키를 생성하는 방법에 관계없이 AKV를 사용하여 Office 365에서 사용하는 암호화 키를 제어하고 관리할 수 있습니다. AKV에 키가 저장되고 나면 사서함 데이터 또는 파일을 암호화하는 키 변경 중 하나의 루트로 사용할 수 있습니다.
 
-고객 키의 또 다른 이점은 Microsoft에서 데이터를 처리 하는 기능을 제어 하는 것입니다. Microsoft에 대 한 서비스를 종료 하거나 클라우드에 저장 된 데이터 부분을 제거 하려는 경우와 같이 Office 365에서 데이터를 제거 하려는 경우에는이 작업을 수행 하 고 고객 키를 기술 컨트롤로 사용할 수 있습니다. 이렇게 하면 Microsoft를 비롯 한 아무도 데이터에 액세스 하거나 처리할 수 없습니다. 고객 키는 Microsoft 담당자가 데이터에 대 한 액세스를 제어 하는 데 사용 하는 고객 Lockbox와 보조로 추가 됩니다.
+고객 키의 또 다른 이점은 Microsoft가 데이터를 처리하는 기능을 제어할 수 있는 것입니다. Office 365에서 데이터를 제거하려는 경우(예: Microsoft와의 서비스를 종료하거나 클라우드에 저장된 데이터의 일부를 제거하려는 경우) 고객 키를 기술 컨트롤로 사용할 수 있습니다. 데이터를 제거하면 Microsoft를 비롯한 어느 누구도 데이터에 액세스하거나 데이터를 처리하지 않습니다. 고객 키는 Microsoft 직원이 데이터에 대한 액세스를 제어하는 데 사용하는 Customer Lockbox에 추가적으로 추가적으로 보완됩니다.
 
-Exchange Online, 비즈니스용 Skype, SharePoint Online, 팀 사이트 및 비즈니스용 OneDrive에 대해 Microsoft 365에 대 한 고객 키를 설정 하는 방법에 대 한 자세한 내용은 다음 문서를 참조 하세요.
+Exchange Online용 Microsoft 365, 비즈니스용 Skype, SharePoint Online(팀 사이트 및 비즈니스용 OneDrive 포함)에 대한 고객 키를 설정하는 방법에 대한 자세한 내용은 다음 문서를 참조하세요.
 
 - [고객 키를 사용한 서비스 암호화](customer-key-overview.md)
 

@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d7fe410f114d43d4f6c983aaf23d949298635318
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.openlocfilehash: e78f0123c909c90ff90be913e8775cc1e5b30313
+ms.sourcegitcommit: 3bf4f1c0d3a8515cca651b2a520217195f89457f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760106"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49777102"
 ---
 # <a name="adjust-settings-after-enrollment"></a>등록 후 설정 수정
 
-Microsoft Managed Desktop에서 등록을 완료한 후 관리 및 보안을 유지 관리하기 위해 특정 Microsoft Intune 및 Azure AD(Azure Active Directory) 설정을 조정해야 합니다. 다음 설정을 설정하여 Microsoft Managed Desktop 장치 및 사용자를 포함하는 Azure AD 그룹을 제외합니다. 그룹을 제외하는 단계는 [조건부 액세스: 사용자 및 그룹을 참조하세요.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups#exclude-users)
+Microsoft Managed Desktop에서 등록을 완료한 후 이 문서에 지정된 Microsoft Intune 및 Azure AD(Azure Active Directory) 설정을 조정하여 보안을 관리하고 유지 관리해야 합니다. Microsoft Managed Desktop 장치 및 사용자를 포함하는 특정 Azure AD 그룹을 제외하려면 다음 설정을 지정합니다. 그룹을 제외하는 단계는 [조건부 액세스: 사용자 및 그룹을 참조하세요.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups#exclude-users)
 
 > [!NOTE]
 > Microsoft Intune, Azure Active Directory 또는 Microsoft 365의 정책에 등록한 후 변경한 경우 Microsoft Managed Desktop이 제대로 작동하지 않을 수 있습니다. Microsoft Managed Desktop 작업의 문제를 방지하려면 정책을 [](../get-ready/readiness-assessment-fix.md) 변경하기 전에 준비 평가 도구에서 찾은 문제 해결에 설명된 특정 설정을 확인합니다.
@@ -26,11 +26,11 @@ Microsoft Managed Desktop에서 등록을 완료한 후 관리 및 보안을 유
 
 ## <a name="microsoft-intune-settings"></a>Microsoft Intune 설정
 
-- Autopilot 배포 프로필: 최신 작업 공간 장치 **- 모든**  Azure AD 그룹을 제외합니다. 단계는 Windows [Autopilot을 사용하여 Intune에서 Windows 장치 등록을 참조하세요.](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot)
-- 조건부 액세스 정책: 최신 작업 공간 **서비스 계정** Azure AD 그룹을 제외합니다. 단계는 조건부 [액세스: 사용자 및 그룹을 참조하세요.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups)
-- 다단계 인증: 다단계 인증이 필요한 조건부 액세스 정책이 최신 **Workplace Service Accounts** Azure AD 그룹을 제외하는지 확인 자세한 내용은 [조건부 액세스](../get-ready/readiness-assessment-fix.md#conditional-access-policies) 정책 및 [조건부 액세스: 모든 사용자에 대해 MFA 필요를 참조하세요.](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
-- 보안 기준: 최신 작업 공간 장치 **- 모든**  Azure AD 그룹을 제외합니다. 단계는 보안 기준을 사용하여 [Intune에서 Windows 10 디바이스를 구성합니다.](https://docs.microsoft.com/mem/intune/protect/security-baselines)
-- Windows 10 업데이트 링: 최신 작업 공간 **장치 -모든**  Azure AD 그룹을 제외합니다. 단계는 [Intune에서 Windows 10 소프트웨어 업데이트 관리를 참조하세요.](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)
+- Autopilot 배포 프로필: 회사의 관리자가 만든 Autopilot 프로필의 경우 최신 작업 공간 장치 **-All** Azure AD 그룹을 제외합니다. 단계는 Windows [Autopilot을 사용하여 Intune에서 Windows 장치 등록을 참조하세요.](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot) 이름에 "최신 작업 공간"이 있는 Microsoft Managed Desktop에서 만든 배포 정책에서 최신 작업 공간 장치 **-모든** Azure AD 그룹을 제외하지 않습니다(예: **최신 Workplace Autopilot 프로필).** 
+- 조건부 액세스 정책: 회사의 관리자가 만든 조건부 액세스 정책의 경우 최신 **작업** 공간 서비스 계정 Azure AD 그룹을 제외합니다. 단계는 조건부 [액세스: 사용자 및 그룹을 참조하세요.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups) 이름에 "최신 작업 공간"이 있는 Microsoft Managed Desktop에서 만든 정책에서 최신 작업 공간 장치 **-모든** Azure AD 그룹을 제외하지 않습니다(예: **Modern Workplace Secure Workstation).**
+- 다단계 인증: 다단계 인증이 필요한 회사의 관리자가 만든 조건부 액세스 정책이 최신 **Workplace Service Accounts** Azure AD 그룹을 제외하는지 확인 자세한 내용은 [조건부 액세스](../get-ready/readiness-assessment-fix.md#conditional-access-policies) 정책 및 [조건부 액세스: 모든 사용자에 대해 MFA 필요를 참조하세요.](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
+- 보안 기준: 회사의 관리자가 만든 보안 기준 정책의 경우 최신 작업 공간 장치 **-All**  Azure AD 그룹을 제외합니다. 단계는 보안 기준을 사용하여 [Intune에서 Windows 10 디바이스를 구성합니다.](https://docs.microsoft.com/mem/intune/protect/security-baselines) 이름에 "최신 작업 공간"이 있는 Microsoft Managed Desktop에서 만든 정책(예: 최신 작업 공간 보안 기준)에서 최신 작업 공간 장치 **-모든** Azure AD 그룹을 제외하지 **않습니다.**
+- Windows 10 업데이트 링: 회사의 관리자가 만든 Windows 10 업데이트 링 정책의 경우 최신 **Workplace Devices -All**  Azure AD 그룹을 제외합니다. 단계는 [Intune에서 Windows 10 소프트웨어 업데이트 관리를 참조하세요.](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure) 이름에 "최신 작업 공간"이 있는 Microsoft Managed Desktop에서 만든 정책(예: 최신 작업 공간 업데이트 정책)에서 최신 작업 공간 장치 -모든 **Azure** AD 그룹을 **제외하지** 않습니다.
 
 
 ## <a name="azure-active-directory-settings"></a>Azure Active Directory 설정
