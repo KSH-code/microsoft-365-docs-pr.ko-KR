@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint 및 OneDrive에서 보존이 작동하는 방식을 알아봅니다.
-ms.openlocfilehash: 84191cf7df1c8382b336ecce47c50ca24bc2aede
-ms.sourcegitcommit: 9bf6a4f77f9af5fd988f6795bad3b240213a51fc
+ms.openlocfilehash: 995f657778d3326a4d58d46f760539639f1fe7fe
+ms.sourcegitcommit: 3bf4f1c0d3a8515cca651b2a520217195f89457f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48951111"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49777071"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive의 보존에 대해 자세히 알아보기
 
@@ -49,7 +49,9 @@ SharePoint 또는 OneDrive 사이트에 저장된 모든 파일은 보존 정책
 > [!TIP]
 > [보존 레이블에 자동 적용 정책과 함께 쿼리](apply-retention-labels-automatically.md#auto-apply-labels-to-content-with-keywords-or-searchable-properties)를 사용하는 경우, `NOT(DocumentLink:"<URL to document library>")` 항목을 사용하여 특정 문서 라이브러리를 제외할 수 있습니다.
 
-보존 설정은 라이브러리, 목록 및 폴더를 포함하는 구조를 구성하는 데 적용되지 않습니다. 또는 시스템 목록의 항목(SharePoint에서 시스템을 관리하고 마스터 페이지 카탈로그, 솔루션 카탈로그 및 데이터 원본을 포함하는 데 사용되는 숨겨진 목록)에 적용되지 않습니다.
+목록 항목은 보존 정책에서 지원되지 않지만 시스템 목록의 항목을 제외하고 보존 레이블에서 지원됩니다. 이러한 목록은 SharePoint에서 시스템을 관리하는 데 사용하는 숨겨진 목록으로, 마스터 페이지 카탈로그, 솔루션 카탈로그 및 데이터 원본을 포함합니다.
+
+보존 정책 및 보존 레이블의 보존 설정은 라이브러리, 목록 및 폴더를 포함하는 조직 구조에는 모두 적용되지 않습니다.
 
 보존 정책 및 자동 적용 레이블 정책의 경우, 보존 설정을 적용하려면 SharePoint 사이트를 색인화해야 합니다. 그러나 SharePoint 문서 라이브러리의 항목이 검색 결과에 나타나지 않도록 구성된 경우, 이 구성은 보존 설정의 파일을 제외하지 않습니다.
 
