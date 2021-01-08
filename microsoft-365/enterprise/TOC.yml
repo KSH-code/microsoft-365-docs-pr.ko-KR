@@ -24,7 +24,7 @@
       items:
         - name: 도메인 추가
           href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
-        - name: M365E 끝점 허용 목록 지정 구성
+        - name: 우회하도록 끝점 구성
           items:
             - name: Office 365 IP 주소 및 URL 웹 서비스
               href: microsoft-365-ip-web-service.md
