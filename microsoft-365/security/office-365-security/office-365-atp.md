@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: 86e738fa9390cc40b06c10a27f3198715bb991fd
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 34011780241ae3a669fe32aa5fad00f9836d5570
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614813"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780311"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 
@@ -44,6 +44,11 @@ Office 365용 Microsoft Defender는 전자 메일 메시지, 링크 (URL) 및 �
 - **[위협 조사 및 응답 기능](#use-threat-investigation-and-response-capabilities)**: 최신 도구를 사용하여 위협의 조사, 이해, 시뮬레이션 및 예방 등을 할 수 있습니다.
 
 - **[자동화된 조사 및 응답 기능](office-365-air.md)**: 위협에 대한 조사 및 위협을 낮추기 위한 시간과 노력을 줄입니다.
+
+## <a name="interactive-guide-to-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender에 대한 대화형 가이드
+이 대화형 가이드에서는 Office 365용 Microsoft Defender를 사용하여 조직을 보호하는 방법에 대해 알아봅니다. Office 365용 Defender를 통해 보호 정책을 정의하고, 조직에 대한 위협을 분석하고, 공격에 대응하는 방법을 알아봅니다.
+
+> [!VIDEO https://aka.ms/MSDO-IG]
 
 ## <a name="getting-started"></a>시작
 
