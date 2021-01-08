@@ -1,6 +1,6 @@
 ---
 title: 고급 헌팅 스키마의 EmailEvents 표
-description: 고급 헌팅 schema의 EmailEvents 표에서 Microsoft 365 전자 메일과 관련된 이벤트에 대해 자세히 알아보기
+description: 고급 헌팅 일정의 EmailEvents 표에서 Microsoft 365 전자 메일과 관련된 이벤트에 대해 자세히 알아보기
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, EmailEvents, network message id, sender, recipient, attachment id, attachment name, malwaredict, phishing verdict, attachment count, link count, url count
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 00fcc6514679868066ef88b0c9bc4a485d032528
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: 6dbd7473074212c6bc257e683288040056426048
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667640"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780275"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -36,10 +36,10 @@ ms.locfileid: "49667640"
 
 
 
-고급 `EmailEvents` 헌팅 Schema의 표에는 Office 365용 Microsoft Defender에서 전자 메일 처리와 관련된 이벤트에 대한 정보가 포함되어 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+고급 `EmailEvents` 헌팅 [일정의](advanced-hunting-overview.md) 표에는 Office 365용 Microsoft Defender에서 전자 메일 처리와 관련된 이벤트에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 >[!TIP]
-> 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` [schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 사용합니다.
+> 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` [Schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 사용합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
@@ -62,12 +62,12 @@ ms.locfileid: "49667640"
 | `DeliveryAction` | 문자열 | 전자 메일 전송 작업: 전달됨, 정크 메일함으로 전송됨, 차단됨 또는 대체됨 |
 | `DeliveryLocation` | 문자열 | 전자 메일이 전송된 위치: 받은 편지함/폴더, 온-프레미스/외부, 정크, 격리, 실패, 중단, 삭제된 항목 |
 | `PhishFilterVerdict` | 문자열 | 전자 메일이 피싱인지 여부에 대한 전자 메일 필터링 스택의 결과. 피싱 혹은 피싱 아님. |
-| `PhishDetectionMethod` | 문자열 | 전자 메일을 피싱으로 검색하는 데 사용되는 방법: 악의적인 URL 신뢰도, 안전한 링크 URL 검색, 고급 피싱 필터, 일반 피싱 필터, 스푸핑 방지: 내부 스푸핑, 스푸핑 방지: 외부 도메인, 도메인 가장, 사용자 가장, 브랜드 가장 |
+| `PhishDetectionMethod` | 문자열 | 전자 메일을 피싱으로 검색하는 데 사용되는 방법: 악의적인 URL 신뢰도, 안전한 링크 URL 검색, 고급 피싱 필터, 일반 피싱 필터, 스푸핑 방지: 내부 구성, 스푸핑 방지: 외부 도메인, 도메인 가장, 사용자 가장, 브랜드 가장 |
 | `MalwareFilterVerdict` | 문자열 | 전자 메일이 맬웨어를 포함하는지 여부에 대한 전자 메일 필터링 스택의 결과. 멜웨어, 멜웨어 아님 |
 | `MalwareDetectionMethod` | 문자열 | 전자 메일에서 맬웨어를 감지하는 데 사용되는 방법: 맬웨어 방지 엔진, 파일 신뢰도, 안전한 첨부 파일 |
-| `FinalEmailAction` | 문자열 | 필터 판정, 정책 및 사용자 작업에 기반하여 전자 메일에 대해 수행된 마지막 작업: 메시지를 정크 메일 폴더로 이동, X 머리글을 추가, 제목을 수정, 메시지를 리디렉션, 메시지를 삭제, 검역소로 전송, 작업 없음, Bcc 메시지 |
-| `FinalEmailActionPolicy` | 문자열 | 적용된 작업 정책: 스팸 방지 높은 신뢰감, 스팸 방지, 스팸 방지 대량 메일, 스팸 방지 피싱, 피싱 방지 도메인 가장, 피싱 방지 사용자 가장, 피싱 방지 스푸핑, 피싱 방지 그래프 가장, 멜웨어 방지, 안전 첨부 파일, 엔터프라이즈 전송 규칙(ETR) |
-| `FinalEmailActionPolicyGuid` | 문자열 | 마지막 메일 작업을 결정한 정책의 고유 식별자 |
+| `EmailAction` | 문자열 | 필터 판정, 정책 및 사용자 작업에 기반하여 전자 메일에 대해 수행된 마지막 작업: 메시지를 정크 메일 폴더로 이동, X 머리글을 추가, 제목을 수정, 메시지를 리디렉션, 메시지를 삭제, 검역소로 전송, 작업 없음, Bcc 메시지 |
+| `EmailActionPolicy` | 문자열 | 적용된 작업 정책: 스팸 방지 높은 신뢰감, 스팸 방지, 스팸 방지 대량 메일, 스팸 방지 피싱, 피싱 방지 도메인 가장, 피싱 방지 사용자 가장, 피싱 방지 스푸핑, 피싱 방지 그래프 가장, 멜웨어 방지, 안전 첨부 파일, 엔터프라이즈 전송 규칙(ETR) |
+| `EmailActionPolicyGuid` | 문자열 | 마지막 메일 작업을 결정한 정책의 고유 식별자 |
 | `AttachmentCount` | int | 전자 메일의 첨부 파일 수 |
 | `UrlCount` | int | 전자 메일에 포함된 URL의 수 |
 | `EmailLanguage` | 문자열 | 검색된 전자 메일 콘텐츠의 언어 |

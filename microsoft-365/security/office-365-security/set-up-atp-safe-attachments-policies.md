@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: 전자 메일의 악성 파일로부터 조직을 보호하기 위해 안전한 첨부 파일 정책을 정의하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9105e7ed9e9bc376b3d86cd846d8c1d6eae8deea
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 8dfdcc0779fb8b8438ee7a63d2f0e180cbb12ac9
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682916"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780515"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender에서 안전한 첨부 파일 정책 설정
 
@@ -31,44 +31,44 @@ ms.locfileid: "49682916"
 > [!IMPORTANT]
 > 이 문서는 [Office 365용 Microsoft Defender](office-365-atp.md)가 있는 비즈니스 고객을 대상으로 합니다. Outlook에서 첨부 파일 검색에 대한 정보를 찾고 있는 가정용 사용자는 고급 보안 [Outlook.com.](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)
 
-안전한 첨부 파일은 [EOP(Exchange Online](anti-malware-protection.md)Protection)에서 맬웨어 방지 보호 기능으로 검색된 후 받는 사람에게 배달되기 전에 가상 환경을 사용하여 인바운드 전자 메일 메시지의 첨부 파일을 검사하는 [Office 365용 Microsoft Defender의](office-365-atp.md) 기능입니다. 자세한 내용은 [Microsoft Defender for Office 365의](atp-safe-attachments.md)안전 첨부 파일을 참조하세요.
+안전한 첨부 파일은 [EOP(Exchange Online](anti-malware-protection.md)Protection)에서 맬웨어 방지 보호 기능으로 검색된 후 받는 사람에게 배달되기 전에 가상 환경을 사용하여 인바운드 전자 메일 메시지의 첨부 파일을 검사하는 [Office 365용 Microsoft Defender의](office-365-atp.md) 기능입니다. 자세한 내용은 [Office 365용 Microsoft Defender의](atp-safe-attachments.md)안전 첨부 파일을 참조하세요.
 
 기본 제공 또는 기본 안전 첨부 파일 정책이 없습니다. 전자 메일 메시지 첨부 파일을 안전한 첨부 파일 검색하려면 이 문서에 설명된 하나 이상의 안전 첨부 파일 정책을 만들어야 합니다.
 
-보안 & 준수 센터 또는 PowerShell에서 안전한 첨부 파일 정책을 구성할 수 있습니다(Exchange Online에 사서함이 있는 적격 Microsoft 365 조직, Exchange Online 사서함이 없지만 Office 365 추가 기능 구독용 Defender를 사용하여 조직의 독립 실행형 EOP PowerShell).
+보안 & 준수 센터 또는 PowerShell에서 안전 첨부 파일 정책을 구성할 수 있습니다(Exchange Online에 사서함이 있는 적격 Microsoft 365 조직, Exchange Online 사서함이 없지만 Office 365 추가 기능 구독에 대한 Defender를 사용하여 조직의 독립 실행형 EOP PowerShell).
 
 안전 첨부 파일 정책의 기본 요소는 다음입니다.
 
 - **안전한** 첨부 파일 정책: 알 수 없는 맬웨어 검색에 대한 작업, 맬웨어 첨부 파일이 있는 메시지를 지정된 전자 메일 주소로 보낼지 여부 및 안전한 첨부 파일 검색을 완료할 수 없는 경우 메시지를 배달할지 여부를 지정합니다.
 - **안전한 첨부 파일 규칙:** 우선 순위 및 받는 사람 필터(정책이 적용되는 사람)를 지정합니다.
 
-보안 및 준수 센터에서 안전 첨부 파일 정책 관리 시 이러한 두 요소 간의 차이는 명확하지 & 않습니다.
+보안 및 준수 센터에서 안전 첨부 파일 정책 관리 시 이러한 두 요소의 차이는 & 명확하지 않습니다.
 
-- 안전 첨부 파일 정책을 만들 때 실제로 동일한 이름을 사용하여 안전한 첨부 파일 규칙과 연결된 안전한 첨부 파일 정책을 동시에 만들게 됩니다.
+- 안전 첨부 파일 정책을 만들 때 실제로는 동일한 이름을 사용하여 안전한 첨부 파일 규칙과 연결된 안전한 첨부 파일 정책을 동시에 만들게 됩니다.
 - 안전 첨부 파일 정책을 수정할 때 이름, 우선 순위, 사용 또는 사용 안 하도록 설정 및 받는 사람 필터와 관련된 설정은 안전한 첨부 파일 규칙을 수정합니다. 다른 모든 설정은 연결된 안전한 첨부 파일 정책을 수정합니다.
 - 안전 첨부 파일 정책을 제거하면 안전한 첨부 파일 규칙 및 연결된 안전 첨부 파일 정책이 제거됩니다.
 
-Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책과 규칙을 개별적으로 관리합니다. 자세한 내용은 이 문서 부분의 Exchange Online PowerShell 또는 독립 실행형 [EOP PowerShell을](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-attachments-policies) 사용하여 안전 첨부 파일 정책 구성 섹션을 참조하세요.
+Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책과 규칙을 개별적으로 관리합니다. 자세한 내용은 이 문서 부분의 Exchange Online PowerShell 또는 독립 실행형 [EOP PowerShell을](#use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-attachments-policies) 사용하여 안전한 첨부 파일 정책 구성 섹션을 참조하세요.
 
 > [!NOTE]
-> 안전 첨부 파일 설정의 전역 설정 영역에 있는 안전 첨부 파일 정책에 종속되지 않는 기능을 구성합니다. 자세한 내용은 [Microsoft 365 E5에서](safe-docs.md) [SharePoint, OneDrive 및 Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md) 및 안전한 문서에 대한 ATP 켜기 기능을 참조하세요.
+> 안전 첨부 파일 설정의 전역 설정 영역에는 안전 첨부 파일 정책에 종속되지 않는 기능을 구성합니다. 자세한 내용은 [Microsoft 365 E5에서](safe-docs.md) [SharePoint, OneDrive 및 Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md) 및 안전한 문서에 대한 ATP 켜기를 참조하세요.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 안전 첨부 파일 **페이지로** 직접 이동하기 위해 다음을 <https://protection.office.com/safeattachmentv2> 사용하세요.
+- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. 안전한 첨부 파일 **페이지로** 직접 이동하기 위해 다음을 <https://protection.office.com/safeattachmentv2> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
-- 이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 받아야 합니다.
-  - 안전한 첨부 파일 정책을 만들고 수정하고 삭제하려면 **조직** 관리 또는 보안 관리자 역할 그룹의 **구성원이** 되거나 삭제됩니다.
-  - 안전 첨부 파일 정책에 대한 읽기 전용 액세스의 경우  전역 읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되거나,
+- 이 문서의 절차를 수행하려면 먼저 사용 권한을 할당해야 합니다.
+  - 안전한 링크 정책을 만들고 수정하고 삭제하려면 보안 & 준수  센터에서 조직 관리 또는 보안 관리자 역할 그룹의 구성원이자  Exchange Online의 조직 관리 역할 그룹의 구성원이 되거나 삭제해야 합니다.  
+  - 안전한 링크 정책에 대한 읽기 전용 액세스의 경우  보안 및  준수 센터에서 전역 읽기 & 그룹의 구성원이 되거나 보안 읽기 & 합니다.
 
-  자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+  자세한 내용은 Exchange Online의 보안 및 & [및](permissions-in-the-security-and-compliance-center.md) 사용 권한을 [참조하세요.](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
 
   **참고**:
 
   - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요.
-  - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - 안전한 첨부 파일 정책에 대한 권장 설정은 안전 첨부 파일 설정을 [참조하세요.](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings)
 
@@ -100,13 +100,13 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
      - **바꾸기**
      - **동적 배달(미리 보기 기능)**
 
-     이러한 값은 안전 첨부 파일 정책 [설정에 설명됩니다.](atp-safe-attachments.md#safe-attachments-policy-settings)
+     이러한 값은 안전 첨부 파일 정책 [설정에서 설명됩니다.](atp-safe-attachments.md#safe-attachments-policy-settings)
 
    - 다음 전자  메일 **주소로** 첨부 파일 보내기: 작업 값 **차단,** 모니터링 또는 바꾸기 작업의 경우 리디렉션을 선택하여 맬웨어 첨부 파일이 포함된 메시지를 분석 및 조사를 위해 지정된 내부 또는 외부 전자 메일 주소로 보낼 수 있습니다. 
 
      표준 및 엄격한 정책 설정에 대한 권장은 리디렉션을 사용하도록 설정하는 것입니다. 자세한 내용은 안전 첨부 파일 [설정을 참조하십시오.](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings)
 
-   - **첨부 파일에** 대한 맬웨어 검색이 시간 밖으로 발생하거나 오류가  발생하는 경우 위의 선택을 적용합니다. 안전 첨부 파일 알 수 없는 맬웨어 응답으로 지정된 작업은 안전 첨부 파일 검색을 완료할 수 없는 경우에도 메시지에 대해 수행됩니다. 사용 리디렉션을 선택하는 경우 항상 이 **옵션을 선택합니다.** 그렇지 않으면 메시지가 손실될 수 있습니다.
+   - **첨부 파일에** 대한 맬웨어 검색이 시간보다 멀어지거나  오류가 발생하는 경우 위의 선택을 적용합니다. 안전 첨부 파일 검색을 완료할 수 없는 경우에도 메시지에 대해 알 수 없는 맬웨어 응답이 수행됩니다. 사용 리디렉션을 선택하는 경우 항상 이 **옵션을 선택합니다.** 그렇지 않으면 메시지가 손실될 수 있습니다.
 
    작업을 마친 후 **다음** 을 클릭합니다.
 
@@ -117,10 +117,10 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
    조건 **추가를 클릭합니다.** 나타나는 드롭다운에서 적용된 조건(다음의 **경우)을 선택합니다.**
 
    - **받는 사람:** 조직에서 하나 이상의 사서함, 메일 사용자 또는 메일 연락처를 지정합니다.
-   - **받는 사람이 다음의 구성원인** 경우 조직에서 하나 이상의 그룹을 지정합니다.
+   - **받는 사람이 다음의** 구성원입니다. 조직에서 하나 이상의 그룹을 지정합니다.
    - **받는 사람 도메인은** 조직에서 구성된 허용 도메인 중 하나 이상에서 받는 사람을 지정합니다.
 
-   조건을 선택하면 다음 상자와 함께 해당 **드롭다운이** 나타납니다.
+   조건을 선택하면 해당 드롭다운이 다음 **상자와 함께** 나타납니다.
 
    - 상자를 클릭하고 선택할 값 목록을 스크롤합니다.
    - 상자를 클릭하고 입력을 시작하여 목록을 필터링하고 값을 선택합니다.
@@ -156,7 +156,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 플라이아웃에 나타나는 사용 가능한 설정은 보안 및 준수 센터를 사용하여 안전한 첨부 파일 정책 & 섹션에 설명된 설정과 [동일합니다.](#use-the-security--compliance-center-to-create-safe-attachments-policies)
 
-정책을 사용 또는 사용하지 않도록 설정하거나 정책 우선 순위 순서를 설정하려면 다음 섹션을 참조하세요.
+정책을 활성화 또는 비활성화하거나 정책 우선 순위 순서를 설정하려면 다음 섹션을 참조하세요.
 
 ### <a name="enable-or-disable-safe-attachments-policies"></a>안전 첨부 파일 정책 사용 또는 사용 안 하도록 설정
 
@@ -166,11 +166,11 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
    - 토글을 왼쪽으로 이동 ![정책 끄기](../../media/scc-toggle-off.png) 정책을 사용하지 않도록 설정해야 합니다.
 
-   - 오른쪽으로 토글 이동 ![정책 켜기](../../media/scc-toggle-on.png) 를 사용하여 정책을 사용하도록 설정할 수 있습니다.
+   - 오른쪽으로 토글 이동 ![정책 켜기](../../media/scc-toggle-on.png) 을 사용하여 정책을 사용하도록 설정할 수 있습니다.
 
 ### <a name="set-the-priority-of-safe-attachments-policies"></a>안전 첨부 파일 정책의 우선 순위 설정
 
-기본적으로 안전 첨부 파일 정책에는 만들어진 순서에 따라 우선 순위가 부여됩니다(새 정책은 이전 정책보다 우선 순위가 낮음). 낮은 우선순위 번호는 정책의 높은 우선순위(0이 가장 높음)를 나타내고 정책은 우선순위 순서에 따라 처리됩니다(높은 우선순위 정책은 낮은 우선순위 정책보다 먼저 처리됨). 두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.
+기본적으로 안전한 첨부 파일 정책에는 만들어진 순서에 따라 우선 순위가 부여됩니다(새 정책은 이전 정책보다 우선 순위가 낮음). 낮은 우선순위 번호는 정책의 높은 우선순위(0이 가장 높음)를 나타내고 정책은 우선순위 순서에 따라 처리됩니다(높은 우선순위 정책은 낮은 우선순위 정책보다 먼저 처리됨). 두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.
 
 우선순위 및 여러 정책을 평가하고 적용하는 방법에 대 한 자세한 내용은 전자 메일의 [전자 메일의 우선순위 및 보호](how-policies-and-protections-are-combined.md)를 참조하세요.
 
@@ -202,7 +202,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 2. 안전 첨부 **파일** 페이지에서 목록에서 정책을 선택하고 해당 정책을 클릭합니다(확인란을 선택하지 않습니다).
 
-3. 정책 세부 정보가 나타나는 플라이아웃에서 정책 삭제를  클릭한 다음 나타나는 경고 대화 상자에서 예를 클릭합니다.
+3. 정책 세부 정보 플라이아웃이 나타나면 정책 삭제를 클릭한 다음 나타나는 경고 대화 상자에서 **예를** 클릭합니다. 
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-attachments-policies"></a>Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell을 사용하여 안전한 첨부 파일 정책 구성
 
@@ -221,13 +221,13 @@ PowerShell에서 안전한 첨부 파일 정책을 만드는 과정은 다음 �
 1. 안전한 첨부 파일 정책을 만들 수 있습니다.
 2. 규칙이 적용되는 안전한 첨부 파일 정책을 지정하는 안전한 첨부 파일 규칙을 만들 수 있습니다.
 
- **참고:**
+ **참고**:
 
 - 새 안전한 첨부 파일 규칙을 만들고 연결되지 않은 기존 안전 첨부 파일 정책을 할당할 수 있습니다. 안전한 첨부 파일 규칙은 두 개 이상의 안전한 첨부 파일 정책과 연결될 수 없습니다.
 
 - 정책을 만든 후 보안 및 준수 센터에서 사용할 수 없는 PowerShell의 새 안전 첨부 파일 정책에 대해 다음 설정을 구성할 수 & 있습니다.
   - 새 정책을 사용할 수 `$false` **없습니다(New-SafeAttachmentRule** cmdlet에서 사용).
-  -  _\<Number\>_ **New-SafeAttachmentRule** cmdlet에서 만들기 중 정책의 우선 순위(우선 순위)를 설정합니다.
+  -  _\<Number\>_ **New-SafeAttachmentRule** cmdlet에서 만들기 중에 정책의 우선 순위(우선 순위)를 설정하십시오.
 
 - PowerShell에서 만든 새 안전 첨부 파일 정책은 안전한 첨부 파일 규칙에 정책을 할당할 때까지 보안 & 준수 센터에 표시되지 않습니다.
 
@@ -241,7 +241,7 @@ New-SafeAttachmentPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [
 
 이 예에서는 다음 값을 가지는 Contoso All이라는 안전한 첨부 파일 정책을 만듭니다.
 
-- 안전한 문서 검색을 통해 맬웨어를 포함하는 것으로 확인된 메시지를  차단합니다(Action 매개 변수를 사용하지 않습니다. 기본값은 `Block` ).
+- 안전한 문서 검색에서 맬웨어를 포함하는 것으로 확인된 메시지를 _차단합니다(Action_ 매개 변수를 사용하지 않습니다. 기본값은 `Block` ).
 - 리디렉션이 사용하도록 설정되어 있으며 맬웨어가 포함된 것으로 확인된 메시지는 분석 및 sec-ops@contoso.com 위해 전송됩니다.
 - 안전 첨부 파일 검색을 사용할 수 없는 경우 또는 오류가 발생하는 경우 메시지를 배달하지 _않습니다(ActionOnError_ 매개 변수를 사용하지 않습니다. 기본값은 `$true` ).
 
@@ -328,7 +328,7 @@ Get-SafeAttachmentRule -Identity "Contoso Executives" | Format-List
 
 ### <a name="use-powershell-to-modify-safe-attachment-policies"></a>PowerShell을 사용하여 안전한 첨부 파일 정책 수정
 
-PowerShell에서 안전한 첨부 파일 정책의 이름을 설정할 수 **없습니다(Set-SafeAttachmentPolicy** cmdlet에는 Name 매개 _변수가_ 없음). 보안 및 준수 센터에서 안전 첨부 파일 정책의 이름을 & 안전한 첨부 파일 규칙의 이름만 다시 _매기게 됩니다._
+PowerShell에서 안전한 첨부 파일 정책의 이름을 설정할 수 **없습니다(Set-SafeAttachmentPolicy** cmdlet에는 Name 매개 _변수가_ 없음). 보안 및 준수 센터에서 안전 첨부 파일 정책의 & 경우 안전한 첨부 파일 규칙의 이름만 다시 _매기게 됩니다._
 
 그렇지 않으면 이 문서 앞부분의 PowerShell을 사용하여 안전한 첨부 파일 정책 섹션을 만드는 [1단계에](#step-1-use-powershell-to-create-a-safe-attachment-policy) 설명된 대로 안전한 첨부 파일 정책을 만들 때도 동일한 설정을 사용할 수 있습니다.
 
@@ -426,7 +426,7 @@ PowerShell에서 안전한 첨부 파일 규칙을 제거하려면 다음 구문
 Remove-SafeAttachmentRule -Identity "<PolicyName>"
 ```
 
-이 예에서는 Marketing Department라는 안전한 첨부 파일 규칙을 제거합니다.
+이 예에서는 Marketing Department라는 안전 첨부 파일 규칙을 제거합니다.
 
 ```PowerShell
 Remove-SafeAttachmentRule -Identity "Marketing Department"
@@ -436,9 +436,9 @@ Remove-SafeAttachmentRule -Identity "Marketing Department"
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 
-안전한 첨부 파일 정책을 성공적으로 만들거나 수정 또는 제거한 경우 다음 단계를 수행합니다.
+안전한 첨부 파일 정책을 성공적으로 만들거나 수정 또는 제거한 경우 다음 단계를 수행하십시오.
 
-- 보안 & 준수 센터에서 위협 **관리** \>  \> **정책 ATP 안전한 첨부 파일로 이동하십시오.** 정책 목록, 정책  상태 값 및 **우선** 순위 값을 검증합니다. 자세한 내용을 확인하려면 목록에서 정책을 선택하고 플라이아웃에서 세부 정보를 하세요.
+- 보안 & 준수 센터에서 위협 **관리** \>  \> **정책 ATP 안전한 첨부 파일로 이동하십시오.** 정책 목록, **정책** 상태 값 및 우선 순위 값을 **검증합니다.** 자세한 내용을 확인하려면 목록에서 정책을 선택하고 플라이아웃의 세부 정보를 하세요.
 
 - Exchange Online PowerShell 또는 Exchange Online Protection PowerShell에서 정책 또는 규칙의 이름으로 바꾸고 다음 명령을 실행하고 설정을 \<Name\> 확인합니다.
 

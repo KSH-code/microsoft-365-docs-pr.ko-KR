@@ -18,16 +18,16 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우 서비스에 대한 추가 장치 정보입니다.'
-ms.openlocfilehash: 1bbb4bf39db61a93844c21cd6062a70699b5d6d7
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 151fcac882dc91d96df3ece000c28d1a7abe1d1f
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688657"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780299"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 추가 장치 정보
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **조직이 영향을 받는지 어떻게 알 수 있나요?**
 
@@ -41,19 +41,19 @@ ms.locfileid: "49688657"
   
 **사용자가 언제 장치를 다시 등록하나요?**
 
-도이치란드 [Microsoft](ms-cloud-germany-transition.md#how-is-the-migration-organized) 클라우드 마이그레이션 단계와 별개인 마이그레이션 단계에서만 디바이스 등록을 등록을 다시 등록하고 다시 등록하는 것이 성공에 중요합니다.
+도이치란드 [Microsoft](ms-cloud-germany-transition.md#how-is-the-migration-organized) 클라우드 마이그레이션 단계가 진행되는 동안 디바이스 등록을 등록을 다시 등록하고 다시 등록하는 것이 성공하는 데 중요합니다.
 
 **마이그레이션 후 장치 상태를 복원하려면 어떻게 해야 합니까?**
 
-Azure AD에 등록된 하이브리드 Azure AD 가입 및 회사 소유의 Windows 디바이스의 경우 관리자는 원격으로 트리거된 워크플로를 통해 이전 장치 상태의 등록을 등록하지 않습니다.
+Azure AD에 등록된 하이브리드 Azure AD 가입 및 회사 소유 Windows 디바이스의 경우 관리자는 원격으로 트리거된 워크플로를 통해 이전 장치 상태의 등록을 등록하지 않는 이러한 디바이스의 마이그레이션을 관리할 수 있습니다.
   
-Azure AD에 등록된 개인 Windows 장치를 포함하여 다른 모든 디바이스의 경우 최종 사용자는 이러한 단계를 수동으로 수행해야 합니다. Azure AD에 가입된 장치의 경우 사용자는 등록을 등록을 등록하지 않은 다음 디바이스를 다시 등록하기 위해 로컬 관리자 계정이 필요합니다.
+Azure AD에 등록된 개인 Windows 장치를 포함하여 다른 모든 장치의 경우 최종 사용자는 이러한 단계를 수동으로 수행해야 합니다. Azure AD에 가입된 장치의 경우 사용자는 등록을 등록을 언다가 장치를 다시 등록하려면 로컬 관리자 계정이 필요합니다.
 
 Microsoft는 장치 상태를 성공적으로 복원하는 방법에 대한 지침을 게시합니다. 
  
 **모든 장치가 공용 클라우드에 등록되어 있는 것을 어떻게 알 수 있나요?**
 
-장치가 공용 클라우드에 등록되어 있는지 확인하려면 Azure AD 포털에서 Excel 스프레드시트로 장치 목록을 내보내고 다운로드해야 합니다. 그런 다음 도이클랜드 [Microsoft](ms-cloud-germany-transition.md#how-is-the-migration-organized) 클라우드와 분리된 마이그레이션 단계 후 _registeredTime_ 열을 사용하여 등록된 장치를 필터링합니다.
+장치가 공용 클라우드에 등록되어 있는지 확인하려면 Azure AD 포털에서 Excel 스프레드시트로 장치 목록을 내보내고 다운로드해야 합니다. 그런 다음 도이치란드 [Microsoft](ms-cloud-germany-transition.md#how-is-the-migration-organized) 클라우드와 분리된 마이그레이션 단계 후 _registeredTime_ 열을 사용하여 등록된 장치를 필터링합니다.
 
 테넌트 마이그레이션 후 장치 등록이 비활성화되어 활성화 또는 비활성화할 수 없습니다. Intune이 사용되지 않는 경우 구독에 로그인하고 다음 명령을 실행하여 옵션을 다시 활성화합니다.
 
@@ -61,7 +61,7 @@ Microsoft는 장치 상태를 성공적으로 복원하는 방법에 대한 지�
 Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "0000000a-0000-0000-c000-000000000000" | Set-AzureADServicePrincipal -AccountEnabled:$false
 ```
 
-## <a name="windows-hybrid-azure-ad-join"></a>Windows 하이브리드 Azure AD 가입
+## <a name="hybrid-azure-ad-join"></a>하이브리드 Azure AD 조인
 
 ### <a name="windows-down-level"></a>Windows 다운 수준
 
@@ -88,7 +88,7 @@ Private key state : Okay
 
 영향을 받는 디바이스의 값은 "알 수 없음"인 "장치 상태"입니다. 출력이 "디바이스에 가입되지 않은" 또는 "장치 상태" 값이 "괜찮습니다."인 경우 다음 지침을 무시합니다.
 
-디바이스가 가입(deviceId, 지문 등)으로 표시하고 해당 "장치 상태" 값이 "알 수 없음"인 장치만 해당 다운 수준 장치에서 로그인하는 도메인 사용자 컨텍스트에서 다음 명령을 실행해야 합니다.
+디바이스가 가입(deviceId, 지문 등)으로 표시하고 "장치 상태" 값이 "알 수 없음"인 장치만 해당 다운 수준 디바이스에서 로그인하는 도메인 사용자 컨텍스트에서 다음 명령을 실행해야 합니다.
 
 ```console
 "%programfiles%\Microsoft Workplace Join\autoworkplace /leave"
@@ -135,7 +135,7 @@ Windows 10 디바이스가 이전에 Azure AD에 가입 했는지 확인하려�
 디바이스가 전역 Azure AD 끝점에 대한 네트워크 연결이 있는 한 디바이스가 사용자 또는 관리자 개입 없이 Azure AD에 자동으로 가입됩니다. 
 
 
-## <a name="windows-azure-ad-join"></a>Windows Azure AD 가입
+## <a name="azure-ad-join"></a>Azure AD 가입
 
 **중요:** Intune 서비스 보안 주체는 상거래 마이그레이션 후 사용하도록 설정되어 Azure AD 장치 등록의 활성화를 암시합니다. 마이그레이션 전에 Azure AD 장치 등록을 차단한 경우 PowerShell을 사용하여 Intune 서비스 계정을 사용하지 않도록 설정하여 Azure AD 포털에서 Azure AD 장치 등록을 다시 사용하지 않도록 설정해야 합니다. Azure Active Directory PowerShell for Graph 모듈에서 이 명령을 사용하여 Intune 서비스 계정을 사용하지 않도록 설정할 수 있습니다.
 
@@ -167,7 +167,7 @@ Windows 10 디바이스가 이전에 Azure AD에 가입 했는지 여부를 확�
 
 사용자: 디바이스가 Azure AD에 가입된 경우 사용자는 설정에서 디바이스 가입을 언가할 수 있습니다. Azure AD에서 디바이스를 연결하지 전에 디바이스에 로컬 관리자 계정이 있는지 확인합니다. 디바이스에 다시 로그인하려면 로컬 관리자 계정이 필요합니다.
 
-관리자: 조직의 관리자가 Azure AD에 가입된 사용자의 디바이스에 가입을 해지하려는 경우 그룹 정책과 같은 메커니즘을 사용하여 각 디바이스에서 다음 명령을 실행하여 가입을 해지할 수 있습니다. 관리자는 Azure AD에서 디바이스에 연결을 하기 전에 디바이스에 로컬 관리자 계정이 있는지 확인해야 합니다. 디바이스에 다시 로그인하려면 로컬 관리자 계정이 필요합니다.
+관리자: 조직의 관리자가 Azure AD에 가입된 사용자의 디바이스에 가입을 해지하려는 경우 그룹 정책과 같은 메커니즘을 사용하여 각 장치에서 다음 명령을 실행하면 됩니다. 관리자는 Azure AD에서 디바이스에 연결을 하기 전에 디바이스에 로컬 관리자 계정이 있는지 확인해야 합니다. 디바이스에 다시 로그인하려면 로컬 관리자 계정이 필요합니다.
 
 ```console
 %SystemRoot%\system32\dsregcmd.exe /leave
@@ -180,7 +180,7 @@ Windows 10 디바이스가 이전에 Azure AD에 가입 했는지 여부를 확�
 사용자는 Windows 설정에서 Azure AD에 디바이스를 연결할 수 있습니다. 설정 > 계정 > 또는 학교 액세스 > **있습니다.**
  
 
-## <a name="windows-azure-ad-registered-company-owned"></a>Windows Azure AD 등록(회사 소유)
+## <a name="azure-ad-registered-company-owned"></a>Azure AD Registered(회사 소유)
 
 Windows 10 장치가 Azure AD에 등록되어 있는지 확인하려면 장치에서 다음 명령을 실행합니다.
 
@@ -199,7 +199,7 @@ Windows 10 장치가 Azure AD에 등록되어 있는지 확인하려면 장치�
           WamDefaultAuthority : organizations
 ```
 
-디바이스에서 기존 Azure AD 등록 계정을 제거하려면
+장치에서 기존 Azure AD 등록 계정을 제거하려면
 
 - 장치에서 Azure AD 등록 계정을 제거하려면 여기에서 다운로드할 수 있는 도구인 CleanupWPJ를 [CleanupWPJ.zip. ](https://download.microsoft.com/download/8/e/f/8ef13ae0-6aa8-48a2-8697-5b1711134730/WPJCleanUp.zip)
 
@@ -207,7 +207,7 @@ Windows 10 장치가 Azure AD에 등록되어 있는지 확인하려면 장치�
 
 - 관리자는 그룹 정책과 같은 메커니즘을 사용하여 디바이스에 로그인한 사용자의 컨텍스트에서 디바이스에서 명령을 실행할 수 있습니다.
 
-Azure AD에서 디바이스를 등록하라는 메시지를 표시하는 웹 계정 관리자를 사용하지 않도록 설정하려면 다음 레지스트리 값을 추가합니다. 
+Azure AD에서 디바이스를 등록하라는 메시지가 웹 계정 관리자를 사용하지 않도록 설정하려면 다음 레지스트리 값을 추가합니다. 
 
 - 위치: HKLM\SOFTWARE\Policies\Microsoft\Windows\WorkplaceJoin
 - 형식: DWORD(32비트)
@@ -220,7 +220,7 @@ Azure AD에서 디바이스를 등록하라는 메시지를 표시하는 웹 계
 
 Android의 경우 사용자는 디바이스 등록을 등록을 다시 등록하고 다시 등록해야 합니다. Microsoft Authenticator 앱 또는 회사 포털 앱을 통해 이행할 수 있습니다. 
 
-- Microsoft Authenticator 앱에서는 사용자가 장치 등록을 위해 **> 수 있습니다.** 이 경우 사용자는 디바이스 등록을 등록을 다시 등록할 수 있습니다.
+- Microsoft Authenticator 앱에서는 사용자가 장치 등록의 **설정 > 있습니다.** 이 장치에서 사용자는 디바이스 등록을 등록을 다시 등록하고 다시 등록할 수 있습니다.
  
 - 회사 포털에서 사용자는 장치 **탭으로** 이동하여 디바이스를 제거할 수 있습니다. 그런 다음 회사 포털을 사용하여 장치를 다시 등록합니다.
  
@@ -233,7 +233,7 @@ Microsoft Authenticator 앱을 사용하여 Android에서 디바이스 등록을
 3.  등록을 다시 등록하지 **않습니다.**
 4.  장치 **등록의** 경우 전자 메일 주소를 입력하여 장치를 다시 등록한 다음 등록을 **선택합니다.**
 
-Android 설정 페이지에서 Android 디바이스 등록을 등록을 등록하고 다시 등록하려면
+Android 설정 페이지에서 Android 장치를 등록을 등록을 등록하고 다시 등록하려면
 
 1.  장치 **설정을 열고** 계정으로 **이동합니다.**
 2.  다시 등록할 작업 계정을 선택하고 계정 **제거를 선택합니다.**
@@ -283,7 +283,7 @@ iOS 장치에서는 사용자가 Microsoft Authenticator에서 캐시된 계정�
 
 - [문장 작업 및 영향 마이그레이션](ms-cloud-germany-transition-phases.md)
 - [추가 사전 작업](ms-cloud-germany-transition-add-pre-work.md)
-- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [디바이스,](ms-cloud-germany-transition-add-devices.md) [환경 및](ms-cloud-germany-transition-add-experience.md)AD [FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
+- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [장치,](ms-cloud-germany-transition-add-devices.md) [환경 및](ms-cloud-germany-transition-add-experience.md) [AD FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
 
 클라우드 앱:
 

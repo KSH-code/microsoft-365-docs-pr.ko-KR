@@ -22,18 +22,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 새 비즈니스용 Microsoft 365 라이선스를 구입하는 방법을 배워야 합니다.
-ms.openlocfilehash: 2f881881bc55659d5ba4cd7280111a15bf0f9ff3
-ms.sourcegitcommit: ddfb4f3e34deb733e8625e845e4dfd1fcc066ceb
+ms.openlocfilehash: a4bc66188b064227821ddc66cc764c83caad5f64
+ms.sourcegitcommit: 4482c174e0e68e0fbbc7ad9ef6b0e78dc34ac85a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49771965"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49784244"
 ---
 # <a name="buy-microsoft-365-licenses"></a>Microsoft 365 라이선스 구입
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4KWvE?autoplay=false]
 
-새 사용자를 추가할 때 해당 사용자에 대한 라이선스를 더 구입해야 합니다.
+새 사용자를 추가할 때 해당 사용자를 위해 Microsoft 365 라이선스를 더 구입해야 합니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 

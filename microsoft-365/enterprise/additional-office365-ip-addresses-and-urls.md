@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: ''
 description: '요약: 새로운 엔드포인트 웹 서비스에는 특정 시나리오에 맞는 적은 수의 엔드포인트가 포함되어 있지 않습니다.'
 hideEdit: true
-ms.openlocfilehash: 8e1d464a4bb24594ae783a8e1e272050b6c038bb
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: d5c97fa2399392b03e00644f270e8726570aefb5
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682856"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780583"
 ---
 # <a name="additional-endpoints-not-included-in-the-office-365-ip-address-and-url-web-service"></a>Office 365 IP 주소 및 URL 웹 서비스에 포함되지 않은 추가 엔드포인트
 
@@ -80,6 +80,12 @@ DNS 외에도 설명된 특정 시나리오가 필요하지 않는 경우 대부
   
 [콘텐츠 배달 네트워크](https://support.office.com/article/content-delivery-networks-0140f704-6614-49bb-aa6c-89b75dcd7f1f)
   
-[Microsoft Azure 데이터 센터 IP 범위](https://www.microsoft.com/download/details.aspx?id=41653)
+[Azure IP 범위 및 서비스 태그 - 공용 클라우드](https://www.microsoft.com/download/details.aspx?id=56519)
+
+[Azure IP 범위 및 서비스 태그 - 미국 정부 클라우드](https://www.microsoft.com/download/details.aspx?id=57063)
+
+[Azure IP 범위 및 서비스 태그 - 독일 클라우드](https://www.microsoft.com/download/details.aspx?id=57064)
+
+[Azure IP 범위 및 서비스 태그 - 중국 클라우드](https://www.microsoft.com/download/details.aspx?id=57062)
   
 [Microsoft 공용 IP 공간](https://www.microsoft.com/download/details.aspx?id=53602)

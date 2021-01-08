@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Teams에서 게스트와 작업, 대화 및 설명서 공동 작업을 위한 팀을 설정하는 데 필요한 Microsoft 365 구성 단계에 대해 자세히 알아보십시오.
-ms.openlocfilehash: cc962e22bde70220e07f805b0a7a83c111886369
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 34b7d5d47d7fb0c9196beda70184fa6510b6cc33
+ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659609"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49780547"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>게스트와 팀으로 공동 작업하기
 
@@ -30,7 +30,7 @@ ms.locfileid: "49659609"
 
 이 문서에서는 게스트와 공동 작업을 위한 팀을 설정하는 데 필요한 Microsoft 365 구성 단계를 진행합니다.
 
-## <a name="video-demonstration"></a>비디오 데모
+## <a name="video-demonstration"></a>동영상 데모
 
 이 비디오에서는 이 문서에 설명된 구성 단계를 보여줍니다.</br>
 
@@ -74,7 +74,7 @@ Teams 게스트 액세스를 설정하려면 다음을 수행합니다.
 5. Teams의 **게스트 액세스 허용** 이 **사용** 으로 설정되어 있는지 확인합니다.
 6. 추가 게스트 설정을 원하는대로 변경 한 다음 **저장** 을 클릭하세요.
 
-Teams 게스트 액세스가 설정되어 있는 경우 선택적으로 민감도 레이블을 사용하여 개별 팀 및 관련 SharePoint 사이트에 대한 게스트 액세스를 제어할 수 있습니다. 자세한 내용은 민감도 레이블을 사용하여 [Microsoft Teams, Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)그룹 및 SharePoint 사이트의 콘텐츠를 보호하세요.
+Teams 게스트 액세스가 설정되어 있는 경우 선택적으로 민감도 레이블을 사용하여 개별 팀 및 관련 SharePoint 사이트에 대한 게스트 액세스를 제어할 수 있습니다. 자세한 내용은 [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)를 참조하세요.
 
 > [!NOTE]
 > 켜고 나면 Teams 게스트 설정이 활성화되기까지 최대 24시간이 걸릴 수 있습니다.
@@ -177,7 +177,7 @@ SharePoint 조직 수준 기본 링크 설정을 지정하려면
 4. 게스트의 전체 이름을 입력하고 확인 표시를 클릭합니다.
 5. **추가** 를 클릭한 다음 **닫기** 를 클릭합니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례](best-practices-anonymous-sharing.md)
 
@@ -188,3 +188,5 @@ SharePoint 조직 수준 기본 링크 설정을 지정하려면
 [관리 대상 게스트와 B2B 엑스트라넷 작성](b2b-extranet.md)
 
 [Azure AD B2B와 SharePoint 및 OneDrive 통합](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)
+
+[SharePoint 또는 OneDrive에서 공유하는 경우 공유 옵션이 회색으로 표시됩니다.](https://docs.microsoft.com/sharepoint/troubleshoot/administration/sharing-options-grayed-out-when-sharing-from-sharepoint-online-or-onedrive)
