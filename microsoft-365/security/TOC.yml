@@ -2,12 +2,14 @@
   href: index.yml
   expanded: true
   items:
-    - name: 시작하기
+    - name: 시작
       items:
         - name: 재택 근무 지원을 위한 주요 작업
           href: top-security-tasks-for-remote-work.md
         - name: BDM에 대한 Microsoft 365 보안
           href: Microsoft-365-security-for-bdm.md
+        - name: 우선순위 계정에 대한 보안 권장 사항
+          href: ./office-365-security/security-recommendations-for-priority-accounts.md
     - name: ID 및 장치 액세스 구성
       href: ./office-365-security/microsoft-365-policies-configurations.md
       items:
@@ -420,8 +422,6 @@
               href: ./office-365-security/email-validation-and-authentication.md
             - name: 사용자에게 보안 센터로의 액세스 권한 부여
               href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
-            - name: 우선 순위 계정에 대한 보안 권장 사항
-              href: ./office-365-security/security-recommendations-for-priority-accounts.md
             - name: Office 365용 Defender의 안전한 문서
               href: ./office-365-security/safe-docs.md
             - name: Office 365용 Defender에서 안전한 링크 정책 설정

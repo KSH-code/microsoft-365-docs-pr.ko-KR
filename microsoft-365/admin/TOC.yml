@@ -66,6 +66,8 @@
           href: whats-new-in-preview.md
         - name: 변경 내용에 관한 최신 정보 확인
           href: manage/stay-on-top-of-updates.md
+        - name: 여러 테넌트 관리
+          href: multi-tenant/manage.md
     - name: 21Vianet에서 운영하는 Office 365
       items:
         - name: 21Vianet에서 운영하는 Office 365 정보
