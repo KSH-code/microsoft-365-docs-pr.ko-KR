@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft Teams 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서를 읽고 작동 방식에 대해 자세히 알아보고자 합니다.
-ms.openlocfilehash: 3d55c447b2e808af2ac35f04b67a002304e3e9eb
-ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
+ms.openlocfilehash: 25ba5850f496c188c2a38d6cc5b68960a85e5e5f
+ms.sourcegitcommit: 7d4aa58ae9fc893825b6e648fa3f072c3ac59628
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49709540"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "49790162"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft Teams
 
@@ -84,6 +84,7 @@ Teams 채팅에서 DLP 보호를 지원하려면 E5가 필요합니다.
 
 변경 내용이 데이터 센터를 통해 작동하고 사용자 계정과 동기화할 수 있도록 약 1시간을 허용합니다.
  <!-- why are these syncing to user accounts? -->
+
 ## <a name="add-microsoft-teams-as-a-location-to-existing-dlp-policies"></a>기존 DLP 정책에 위치로 Microsoft Teams 추가
 
 이 작업을 수행하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할이 할당되어야 합니다. 자세한 내용은 [사용 권한을 참조합니다.](data-loss-prevention-policies.md#permissions)
@@ -96,12 +97,13 @@ Teams 채팅에서 DLP 보호를 지원하려면 E5가 필요합니다.
 
 4. 상태 **열에서** Teams 채팅 및 채널 메시지에 대한 **정책을 켜야 합니다.**<br/>![Teams 채팅 및 채널용 DLP](../media/dlp-teams-addteamschatschannels.png)<br/>
 
-5. 모든 계정의 기본 설정을 유지하거나 포함할 계정을 지정하거나 제외할 계정을 지정합니다.
+5. 위치  선택 탭에서 모든 계정의 기본 설정을  유지하거나 특정 위치를 선택하고 포함 및 제외에 사용할 계정, 메일 그룹 또는 보안 그룹을 지정합니다. 그런 후 **다음** 을 선택합니다.
 
 6. **저장** 을 클릭합니다.
 
 변경 내용이 데이터 센터를 통해 작동하고 사용자 계정과 동기화할 수 있도록 약 1시간을 허용합니다.
 <!-- again, why user accounts? -->
+
 ## <a name="define-a-new-dlp-policy-for-microsoft-teams"></a>Microsoft Teams에 대한 새 DLP 정책 정의
 
 이 작업을 수행하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할이 할당되어야 합니다. 자세한 내용은 [사용 권한을 참조합니다.](data-loss-prevention-policies.md#permissions)
@@ -114,11 +116,13 @@ Teams 채팅에서 DLP 보호를 지원하려면 E5가 필요합니다.
 
 4. 정책 **이름 탭에서** 정책의 이름과 설명을 지정하고 다음을 **선택합니다.**
 
-5. 위치 **선택** 탭에서 모든 위치의 기본 설정을 유지하거나 특정 위치를 선택하고 다음을 **선택합니다.**<br/>특정 위치를 선택한 경우 DLP 정책에 대해 해당 위치를 선택하고 다음을 **선택합니다.**<br/>![DLP 정책 위치](../media/dlp-teams-selectlocationsnewpolicy.png)<br/>
-    > [!NOTE]
-    > Teams에서 중요한 정보를 포함하는 문서가 부적절하게 공유되지 않는지 확인하려는 경우 Teams 채팅 및 채널 메시지와 함께  **SharePoint** 사이트 및 **OneDrive** 계정이 켜져 있는지 확인
+5. 위치  선택 탭에서 모든 계정의 기본 설정을  유지하거나 특정 위치를 선택하고 포함 및 제외에 사용할 계정, 메일 그룹 또는 보안 그룹을 지정합니다. 그런 후 **다음** 을 선택합니다.
 
-<br/>
+![DLP 정책 위치](../media/dlp-teams-selectlocationsnewpolicy.png)
+
+> [!NOTE]
+> Teams에서 중요한 정보를 포함하는 문서가 부적절하게 공유되지 않는지 확인하려는 경우 Teams 채팅 및 채널 메시지와 함께  **SharePoint** 사이트 및 **OneDrive** 계정이 켜져 있는지 확인
+
 
 6. 정책 설정 **탭의** 보호할 콘텐츠 형식 사용자 지정 **아래에서** 기본 간단한 설정을 유지하거나 고급 설정 사용을 선택한 다음 **다음을** **선택합니다.** 고급 설정을 선택하는 경우 정책에 대한 규칙을 만들거나 편집할 수 있습니다. 이에 대한 도움말을 얻었다면 간단한 설정과 고급 설정을 [참조하세요.](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings)
 
