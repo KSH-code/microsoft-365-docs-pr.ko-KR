@@ -1,7 +1,7 @@
 ---
 title: Office 365 US Government DOD 끝점
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 01/04/2021
 audience: ITPro
@@ -19,29 +19,29 @@ search.appverid:
 ms.assetid: 5d7dce60-4892-4b58-b45e-ee42fe8a907f
 f1.keywords:
 - NOCSH
-description: Office 365를 사용하려면 인터넷에 연결해야 합니다. 아래 끝점은 Office 365 미국 정부 DoD 요금제만 사용하는 고객에게만 도달할 수 있습니다.
+description: Office 365를 사용하려면 인터넷에 연결해야 합니다. 아래 끝점은 Office 365 미국 정부 DoD 요금제만 사용하는 고객에게 도달할 수 있습니다.
 hideEdit: true
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 39f48b152f46ab12b1e96cf8869a0fd8050d1c35
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: c19aa281dea439f1ae41e6b20f917f8fe7439d3e
+ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751642"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49787778"
 ---
 # <a name="office-365-us-government-dod-endpoints"></a>Office 365 미국 정부 DoD 끝점
 
 *적용 사항: Office 365 관리자*
 
- Office 365를 사용하려면 인터넷에 연결해야 합니다. 아래 끝점은 Office 365 미국 정부 DoD 요금제만 사용하는 고객에게만 도달할 수 있습니다.
+ Office 365를 사용하려면 인터넷에 연결해야 합니다. 아래 끝점은 Office 365 미국 정부 DoD 요금제만 사용하는 고객에게 도달할 수 있습니다.
   
  **Office 365 끝점:** [전 세계(GCC 포함)](urls-and-ip-address-ranges.md) | [21vianet에서 운영하는 Microsoft Office 365](urls-and-ip-address-ranges-21vianet.md)  | [Microsoft Office 365 Germany](microsoft-365-germany-endpoints.md)  |  *Office 365 U.S. Government DoD* | [Office 365 U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md) |
   
 |||
 |:-----|:-----|
-|**Last updated:** 01/04/2021 - ![ RSS ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/USGOVDoD?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**다운로드:** [JSON 형식의 전체 목록](https://endpoints.office.com/endpoints/USGOVDoD?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
+|**마지막 업데이트:** 2021-01-04 - ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/USGOVDoD?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**다운로드:** [JSON 형식의 전체 목록](https://endpoints.office.com/endpoints/USGOVDoD?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
 
- 이 데이터를 사용하여 네트워크 연결을 관리하기 위한 권장 사항을 이해하기 위해 [Office 365](managing-office-365-endpoints.md) 끝점 관리부터 시작하세요. 끝점 데이터는 매월 초에 활성 상태 30일 전 게시된 새 IP 주소 및 URL로 업데이트됩니다. 따라서 새 연결이 필요하기 전에 자동화된 업데이트를 아직 완료하지 않은 고객이 프로세스를 완료할 수 있습니다. 지원 에스컬레이터, 보안 인시던트 또는 기타 즉각적인 운영 요구 사항을 해결하기 위해 필요한 경우 한 달 동안 끝점을 업데이트할 수도 있습니다. 아래 페이지에 표시된 데이터는 모두 REST 기반 웹 서비스에서 생성됩니다. 스크립트 또는 네트워크 장치를 사용하여 이 데이터에 액세스하는 경우 웹 서비스로 직접 [이동해야](microsoft-365-ip-web-service.md) 합니다.
+ 이 데이터를 사용하여 네트워크 연결을 관리하기 위한 권장 사항을 이해하기 위해 [Office 365](managing-office-365-endpoints.md) 끝점 관리부터 시작하세요. 끝점 데이터는 매월 초에 활성 상태 30일 전 게시된 새 IP 주소 및 URL로 업데이트됩니다. 따라서 새 연결이 필요하기 전에 자동화된 업데이트를 아직 완료하지 않은 고객은 프로세스를 완료할 수 있습니다. 지원 에스컬레이터, 보안 인시던트 또는 기타 즉각적인 운영 요구 사항을 해결하기 위해 필요한 경우 한 달 동안 끝점을 업데이트할 수도 있습니다. 아래 페이지에 표시된 데이터는 모두 REST 기반 웹 서비스에서 생성됩니다. 스크립트 또는 네트워크 장치를 사용하여 이 데이터에 액세스하는 경우 웹 서비스로 직접 [이동해야](microsoft-365-ip-web-service.md) 합니다.
 
 아래의 끝점 데이터는 사용자 컴퓨터의 Office 365 연결 요구 사항을 나열합니다. 하이브리드 또는 인바운드 네트워크 연결이라고도 하는 Microsoft에서 고객 네트워크로의 네트워크 연결은 포함하지 않습니다. 자세한 내용은 웹 서비스에 포함되지 않은 추가 [끝점을 참조하세요.](additional-office365-ip-addresses-and-urls.md) 
 

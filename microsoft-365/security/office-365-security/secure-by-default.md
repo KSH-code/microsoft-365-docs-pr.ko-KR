@@ -16,19 +16,19 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: EOP(Exchange Online Protection)의 보안 기본 설정에 대해 자세히 알아보시고
-ms.openlocfilehash: 758d2169d80630a38c0b498e8c1848568e5ec941
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: 8db8e7af569114e5829d24d65b8eee89c9dce8c3
+ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602044"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49787976"
 ---
 # <a name="secure-by-default-in-office-365"></a>Office 365에서 기본적으로 보안
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-"기본적으로 보안"은 가능한 한 가장 안전한 기본 설정을 정의하는 데 사용되는 용어입니다.
+"기본적으로 보안"은 가장 안전한 기본 설정을 정의하는 데 사용되는 용어입니다.
 
 그러나 보안은 생산성과 균형을 유지해야 합니다. 여기에는 다음에 대한 균형 조정이 포함됩니다.
 
@@ -57,7 +57,7 @@ Microsoft는 기본적으로 고객의 보안을 유지하기를 원하기 때�
 
 기본적으로 보안이 유지되는 것은 허용이 있었어도 악의적인 메시지를 차단할 경우 취할 수 있는 동일한 조치를 취하고 있습니다. 이 방법은 맬웨어에 사용한 방법과 동일하며, 이제 이 동작을 높은 신뢰도의 피싱 메시지로 확장하고 있습니다. 이 데이터는 높은 신뢰도 피싱 메시지에 대한 가긍성 비율이 매우 낮고 관리자가 관리자 제출을 통해 가음성 문제를 해결할 수 있다는 것입니다. 또한 이 데이터에서는 스팸 방지 정책 및 Outlook의 수신 허용 도메인 목록 및 허용된 도메인 목록이 너무 광범위하여 양호한 것보다 더 많은 해를 줄 수 있는 것으로 나타납니다.
 
-이를 또 다른 방법으로 말하기 위해, 보안 서비스로, 사용자가 손상되지 않도록 사용자를 대신하여 행동하고 있습니다. 또한 기본적으로 보안은 스팸 방지 정책에서 높은 신뢰도의 피싱 메시지에 대해 사용 가능한 옵션을 완전하게 받아들이지 않습니다. 항상 사용 가능한 다른 작업을 계속 사용할 수 있습니다(정크 메일 폴더로 이동 또는 전자 메일 주소로 리디렉션).
+이를 또 다른 방법으로 말해서, 보안 서비스로, 사용자가 손상되지 않도록 사용자를 대신하여 행동하고 있습니다. 또한 기본적으로 보안은 스팸 방지 정책에서 높은 신뢰도의 피싱 메시지에 대해 사용 가능한 옵션을 완전하게 받아들이지 않습니다. 항상 사용 가능한 다른 작업을 계속 사용할 수 있습니다(정크 메일 폴더로 이동 또는 전자 메일 주소로 리디렉션).
 
 ## <a name="exceptions"></a>예외
 
@@ -66,6 +66,6 @@ Microsoft는 기본적으로 고객의 보안을 유지하기를 원하기 때�
 다음과 같은 시나리오에서만 오버라이드를 사용하는 것이 좋습니다.
 
 - 피싱 시뮬레이션: 시뮬레이션된 공격은 실제 공격이 조직에 영향을 미치기 전에 취약한 사용자를 식별하는 데 도움이 될 수 있습니다.
-- Security/SecOps 사서함: 보안 팀에서 필터되지 않은 메시지를 받는 데 사용하는 전용 사서함(좋음 및 불량) 그러면 Teams에서 검토하여 악성 콘텐츠가 포함되어 있는지 검토할 수 있습니다.
-- 타사 필터: 타사 필터가 메일 필터링을 관리하기에 일부 타사 공급업체에서는 EOP(SCL=-1)를 해제하는 것이 좋습니다. Microsoft Defender for [Office 365에](office-365-atp.md)EOP가 필요하기에 EOP를 끄는 것은 권장되지 않습니다. 대신 커넥터에 대한 향상된 필터링을 켜는 [것이 좋습니다.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
+- Security/SecOps 사서함: 보안 팀에서 필터되지 않은 메시지를 받는 데 사용하는 전용 사서함(좋음 및 불량) 그런 다음 Teams는 악성 콘텐츠가 포함되어 있는지 검토할 수 있습니다.
+- 타사 필터: 도메인의 MX 레코드가 Office 365를 지정하지 않는 경우 기본적으로 보안이 적용되지 않습니다.
 - 가양성: 관리자 제출을 통해 Microsoft에서 여전히 분석하고 있는 특정 메시지를 일시적으로 [허용할 수 있습니다.](admin-submission.md) 모든 재지정과 함께 임시로 지정하는 것이 좋습니다.

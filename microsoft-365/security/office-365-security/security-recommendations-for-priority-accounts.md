@@ -16,23 +16,35 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
+- m365solution-overview
+- m365solution-protecthve
 description: 관리자는 Microsoft 365 조직의 우선 순위 계정에 대한 보안 설정을 높이고 보고서, 경고 및 조사를 사용하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 9788131ea881a1cb3c36a60dfaac01ed5daf0901
-ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
+ms.openlocfilehash: acd2eba0acd533d0cd8223f2c433cc023fc23287
+ms.sourcegitcommit: 7d4aa58ae9fc893825b6e648fa3f072c3ac59628
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49769253"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "49790129"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>Microsoft 365의 우선 순위 계정에 대한 보안 권장 사항
 
-조직의 임원에게 작업을 요청하는 긴급 메시지를 받은 경우 어떻게 하나요? 이 작업을 하나요? 대부분의 사람들은 요청을 준수합니다.
+모든 사용자 계정이 동일한 회사 정보에 액세스할 수 있는 것은 없습니다. 일부 계정은 재무 데이터, 제품 개발 정보, 중요한 빌드 시스템에 대한 파트너 액세스 등의 중요한 정보에 액세스할 수 있습니다. 고도로 기밀 정보에 액세스할 수 있는 계정은 손상된 경우 심각한 위협을 가합니다. 이러한 유형의 계정 우선 순위 계정을 _호출합니다._ 우선 순위 계정에는 CEOS, CIOS, CFOS, 인프라 관리자 계정, 시스템 계정 빌드 등이 포함됩니다.
 
-공격자에 대해 무작위 또는 알 수 없는 사용자의 자격 증명을 얻기 위해 임의 Net을 캐스팅하는 일반 피싱 공격은 비효율적입니다. 반면, 강력  또는 권한 위치에  있는 사용자를 대상으로 하는 스피어 피싱 또는 고래 공격은 공격자에 대한 보상이 훨씬 더 많이 있습니다. 이러한 우선 순위 계정이 손상된 경우 공격자는 조직 내의 관리자, 재무, 제품 또는 물리적 액세스 기능이 있는 계정에 액세스할 수 있습니다.
+공격자에 대해 일반 또는 알 수 없는 사용자에 대해 임의 Net을 캐스팅하는 일반 피싱 공격은 비효율적입니다. 반면, 우선  순위 계정을 대상으로 하는  스피어 피싱 또는 고래 공격은 공격자에 대해 매우 보상이 됩니다. 따라서 우선 순위 계정은 계정 손상을 방지하기 위해 일반 보호보다 더 강력해야 합니다.
 
-Microsoft 365 및 Office 365용 Microsoft Defender에는 우선 순위 계정에 대한 추가 보안 계층을 제공하는 데 도움이 되는 다양한 기능이 포함되어 있습니다. 사용 가능한 기능 및 사용 방법에 대한 설명은 이 문서에 설명됩니다.
+Microsoft 365 및 Office 365용 Microsoft Defender에는 우선 순위 계정에 추가 보안 계층을 제공하는 몇 가지 주요 기능이 포함되어 있습니다. 이 문서에서는 이러한 기능과 이러한 기능을 사용하는 방법에 대해 설명합니다.
 
 ![아이콘 양식의 보안 권장 사항 요약](../../media/security-recommendations-for-priority-users.png)
+
+****
+
+|작업 |모든 Office 365 Enterprise 계획|Microsoft 365 E3|Microsoft 365 E5|
+|---|:---:|:---:|:---:|
+|[우선 순위 계정에 대한 로그인 보안 강화](#increase-sign-in-security-for-priority-accounts)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|[우선 순위 계정에 대해 엄격한 미리 설정 보안 정책 사용](#use-strict-preset-security-policies-for-priority-accounts)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|[우선 순위 계정에 사용자 태그 적용](#apply-user-tags-to-priority-accounts)|||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|[경고, 보고서 및 검색에서 우선 순위 계정 모니터링](#monitor-priority-accounts-in-alerts-reports-and-detections)|||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|
 
 ## <a name="increase-sign-in-security-for-priority-accounts"></a>우선 순위 계정에 대한 로그인 보안 강화
 
@@ -40,15 +52,15 @@ Microsoft 365 및 Office 365용 Microsoft Defender에는 우선 순위 계정에
 
 자세한 내용은 [1단계를 참조하세요. MFA를 사용하여](https://docs.microsoft.com/microsoft-365/solutions/empower-people-to-work-remotely-secure-sign-in)원격 작업자에 대한 로그인 보안을 강화합니다. 이 문서는 원격 작업자에 대한 것이지만 우선 순위 사용자에게는 동일한 개념이 적용됩니다.
 
-**참고**:
+**참고:** 이전 문서에 설명된 모든 우선 순위 사용자에 대해 레거시 인증 프로토콜을 전역적으로 사용하지 않도록 설정하는 것이 좋습니다. 비즈니스 요구 사항으로 인해 이러한 작업을 수행하지 못하면 Exchange Online에서는 레거시 인증 프로토콜의 범위를 제한하는 데 도움이 되는 다음 컨트롤을 제공합니다.
 
-- 기본 인증은 EWS(Exchange Web Services), EWS(Exchange Online), Exchange ActiveSync, POP3, IMAP4 및 원격 PowerShell에서 사용되지 않습니다. 자세한 내용은 이 블로그 [게시물을 참조하세요.](https://developer.microsoft.com/office/blogs/deferred-end-of-support-date-for-basic-authentication-in-exchange-online/)
-
-- Exchange [Online의](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) 인증 정책 및 [클라이언트 액세스](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) 규칙을 사용하여 POP3, IMAP4 및 인증된 SMTP와 같은 기본 인증 및 레거시 인증 프로토콜을 차단할 수 있습니다.
+- Exchange Online의 인증 정책 및 [클라이언트](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) 액세스 규칙을 사용하여 특정 사용자에 대해 POP3, IMAP4 및 인증된 SMTP와 같은 기본 인증 및 레거시 인증 프로토콜을 차단하거나 허용할 수 있습니다. [](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online)
 
 - 개별 사서함에서 POP3 및 IMAP4 액세스를 사용하지 않도록 설정할 수 있습니다. 조직 수준에서 인증된 SMTP를 사용하지 않도록 설정하고 인증된 SMTP를 계속 필요로 하는 특정 사서함에서 사용하도록 설정할 수 있습니다. 자세한 내용은 다음 항목을 참조하세요.
   - [사용자에 대해 POP3 또는 IMAP4 액세스 사용 또는 사용 안 하도록 설정](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
   - [인증된 클라이언트 SMTP 전송(SMTP AUTH) 사용 또는 사용 안 하도록 설정](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)
+
+또한 기본 인증은 EWS(Exchange Web Services), Exchange ActiveSync, POP3, IMAP4 및 원격 PowerShell용 Exchange Online에서 사용되지 않습니다. 자세한 내용은 이 블로그 [게시물을 참조하세요.](https://developer.microsoft.com/office/blogs/deferred-end-of-support-date-for-basic-authentication-in-exchange-online/)
 
 ## <a name="use-strict-preset-security-policies-for-priority-accounts"></a>우선 순위 계정에 대해 엄격한 미리 설정 보안 정책 사용
 
