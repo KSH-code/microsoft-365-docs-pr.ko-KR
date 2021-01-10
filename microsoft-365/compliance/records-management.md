@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Microsoft 365의 레코드 관리를 사용하여 보존 일정을 파일 플랜에 적용하여 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: 883fd65e3fba716018a1ed35cc457c2eb8f06c52
-ms.sourcegitcommit: 5756896ad87e28fac20f7981eaaeacfb0c098254
+ms.openlocfilehash: 0057be98c79ec07018d86f3130d7e03d68c74446
+ms.sourcegitcommit: 7d4aa58ae9fc893825b6e648fa3f072c3ac59628
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "49730169"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "49790204"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Microsoft 365의 레코드 관리하기에 대해 알아보기
 
@@ -103,11 +103,13 @@ Microsoft 365에서 다음 기능을 사용하여 레코드 관리 솔루션을 
 >[!IMPORTANT] 
 > 규제 기록에서 가장 중요한 차이는 콘텐츠에 적용한 후에는 이를 아무도, 심지어 전역 관리자도 레이블을 제거할 수 없다는 점입니다. 
 >
-> 또한 규정 레코드에 대해 구성된 보존 레이블에는 다음과 같은 관리자 제한이 적용됩니다.
+> 규정 레코드에 대해 구성된 보존 레이블에는 다음과 같은 관리자 제한 사항도 있습니다.
 > - 레이블을 저장한 후 보존 기간을 단축 하는 작업은 할 수 없고 확장만 수행할 수 있습니다.
 > - 이러한 레이블은 자동 레이블 지정 정책에서 지원되지 않으며 [보존 레이블 정책](create-apply-retention-labels.md)을 사용하여 적용해야 합니다. 
+>
+> 또한 SharePoint에서 체크 아웃된 문서에는 규정 레이블을 적용할 수 없습니다.
 > 
-> 이러한 취소할 수 없는 작업으로 인해 보존 레이블에 대해 이 옵션을 선택하기 전에 반드시 규제 레코드를 사용해야 합니다. 실수로 인한 구성을 방지하기 위해 이 옵션은 기본적으로 사용할 수 없지만 먼저 PowerShell을 사용하여 사용하도록 설정해야 합니다. [보존 레이블을 사용하여 레코드를 선언](declare-records.md)에 지침이 포함되어 있습니다.
+> 이러한 제한 사항 및 취소할 수 없는 작업으로 인해 보존 레이블에 대해 이 옵션을 선택하기 전에 반드시 규정 레코드를 사용해야 하는지 확인합니다. 실수로 인한 구성을 방지하기 위해 이 옵션은 기본적으로 사용할 수 없지만 먼저 PowerShell을 사용하여 사용하도록 설정해야 합니다. [보존 레이블을 사용하여 레코드를 선언](declare-records.md)에 지침이 포함되어 있습니다.
 
 ## <a name="configuration-guidance"></a>구성 지침
 
