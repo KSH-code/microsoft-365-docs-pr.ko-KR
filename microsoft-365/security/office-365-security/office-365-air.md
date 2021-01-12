@@ -16,23 +16,23 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-- m365initiative-m365-defender
+- m365initiative-defender-office365
 description: Office 365용 Microsoft Defender의 자동화된 조사 및 응답 기능을 사용하여 시작해보아야 합니다.
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 8b6ef712e2e90e6798f16c54bc82f99590dbea42
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 6ccefb5c435f08fcef4dcc872af676fba70668ee
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614837"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794547"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 자동화된 조사 및 대응(AIR)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-[Office 365용 Microsoft Defender에는](office-365-atp.md) 보안 운영 팀의 시간과 노력을 절약할 수 있는 강력한 AIR(자동화된 조사 및 대응) 기능이 포함되어 있습니다. 경고가 트리거되면 보안 운영 팀이 해당 경고를 검토, 우선 순위 지정 및 대응해야 합니다. 들어오는 경고의 양을 계속 유지하는 것이 부담이 될 수 있습니다. 이러한 작업 중 일부를 자동화하면 도움이 될 수 있습니다.
+[Office 365용 Microsoft Defender에는](office-365-atp.md) 보안 운영 팀의 시간과 노력을 절약할 수 있는 강력한 AIR(자동 조사 및 대응) 기능이 포함되어 있습니다. 경고가 트리거되면 보안 운영 팀이 해당 경고를 검토, 우선 순위 지정 및 대응해야 합니다. 들어오는 경고의 양을 계속 유지하는 것이 부담이 될 수 있습니다. 이러한 작업 중 일부를 자동화하면 도움이 될 수 있습니다.
 
 AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 작업할 수 있습니다. AIR 기능에는 현재 존재하는 잘 알려진 위협에 대한 응답으로 자동화된 조사 프로세스가 포함됩니다. 적절한 수정 작업은 승인을 대기하여 보안 운영 팀이 감지된 위협에 효과적으로 대응할 수 있도록 합니다. AIR을 사용하여 보안 운영 팀은 트리거되는 중요한 경고를 잃지 않고 우선 순위가 높은 작업에 집중할 수 있습니다.
 
@@ -46,7 +46,7 @@ AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 
 
 ## <a name="the-overall-flow-of-air"></a>AIR의 전체 흐름
 
-경고가 트리거되고 보안 플레이북이 자동화된 조사를 시작하여 발견된 결과 및 권장 조치가 생성됩니다. 다음은 AIR의 전체적인 흐름입니다. 단계별 흐름은 다음과 같습니다.
+경고가 트리거되고 보안 플레이북이 자동화된 조사를 시작하여 발견된 결과 및 권장 조치가 생성됩니다. 전체 AIR 흐름은 다음과 같습니다.
 
 1. 자동화된 조사는 다음 방법 중 하나를 통해 시작됩니다.
 
@@ -102,11 +102,11 @@ AIR 기능은 정책 및 경고가 구성된 경우 [Office 365용 Microsoft Def
 
 ## <a name="which-alert-policies-trigger-automated-investigations"></a>자동화된 조사를 트리거하는 경고 정책은 무엇입니까?
 
-Microsoft 365는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적인 외부 및 내부 위협, 정보 거버넌스 위험을 식별하는 데 도움이 되는 다양한 기본 제공 경고 정책을 제공합니다. 일부 기본 경고 [정책은](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) 자동화된 조사를 트리거할 수 있습니다. 다음 표에서는 자동화된 조사를 트리거하는 경고, Microsoft 365 보안 센터의 심각도 및 경고 생성 방법에 대해 설명하고 있습니다.
+Microsoft 365는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적인 외부 및 내부 위협, 정보 거버넌스 위험을 식별하는 데 도움이 되는 다양한 기본 제공 경고 정책을 제공합니다. 일부 기본 경고 [정책은](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) 자동화된 조사를 트리거할 수 있습니다. 다음 표에는 자동화된 조사를 트리거하는 경고, Microsoft 365 보안 센터의 심각도 및 경고 생성 방법에 대한 설명이 있습니다.
 
 |경고|심각도|경고 생성 방법|
 |---|---|---|
-|악의적인 URL 클릭이 감지되었습니다.|**High**|이 경고는 다음이 발생할 때 생성됩니다. <ul><li>조직에서 안전한 [링크로](atp-safe-links.md) 보호되는 사용자가 악성 링크를 클릭하는 경우</li><li>Url에 대한 판정 변경 내용은 Microsoft Defender for Office 365로 식별됩니다.</li><li>사용자는 조직의 안전 링크 정책에 따라 안전한 링크 경고 페이지를 [무시합니다.](set-up-atp-safe-links-policies.md)</li></ul> <p> 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 안전 링크 정책 [설정을 참조하세요.](set-up-atp-safe-links-policies.md)|
+|악의적인 URL 클릭이 감지되었습니다.|**High**|이 경고는 다음이 발생할 때 생성됩니다. <ul><li>조직에서 안전한 [링크로](atp-safe-links.md) 보호된 사용자가 악성 링크를 클릭하는 경우</li><li>Url에 대한 판정 변경 내용은 Microsoft Defender for Office 365로 식별됩니다.</li><li>사용자는 조직의 안전 링크 정책에 따라 안전한 링크 경고 페이지를 [무시합니다.](set-up-atp-safe-links-policies.md)</li></ul> <p> 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 안전 링크 정책 [설정을 참조하세요.](set-up-atp-safe-links-policies.md)|
 |사용자가 전자 메일 메시지를 맬웨어 또는 피싱으로 보고|**정보**|이 경고는 조직의 사용자가 보고서 메시지 추가 기능을 사용하여 메시지를 피싱 전자 메일로 보고할 [때 생성됩니다.](enable-the-report-message-add-in.md)|
 |배달 후 맬웨어가 포함된 전자 메일 메시지 제거|**정보**|이 경고는 맬웨어가 포함된 전자 메일 메시지가 조직의 사서함으로 배달될 때 생성됩니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](zero-hour-auto-purge.md)|
 |배달 후 피싱 URL이 포함된 전자 메일 메시지 제거|**정보**|이 경고는 피싱이 포함된 메시지가 조직의 사서함으로 배달될 때 생성됩니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](zero-hour-auto-purge.md)|
@@ -121,7 +121,7 @@ Microsoft 365는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적�
 
 사용 권한은 다음 표에 설명된 역할과 같은 특정 역할을 통해 부여됩니다.
 
-|작업|역할 필요|
+|작업 |역할 필요|
 |---|---|
 |AIR 기능 설정|다음 역할 중 하나: <ul><li>전역 관리자</li><li>보안 관리자</li></ul> <p> 이러한 역할은 Azure [Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 보안 및 준수 [센터에서 & 있습니다.](permissions-in-the-security-and-compliance-center.md)|
 |자동화된 조사 시작 <p> --- 또는 --- <p> 권장 작업 승인 또는 거부|[Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 Security & 규정 준수 센터에서 할당된 다음 역할 중 [하나:](permissions-in-the-security-and-compliance-center.md) <ul><li>전역 관리자</li><li>보안 관리자</li><li>보안 읽기 권한자 <br> --- 및 --- </li><li>검색 및 제거(이 역할은 보안 및 준수 [센터에서 & 할당됩니다.](permissions-in-the-security-and-compliance-center.md) 새 역할 그룹을 만들고 해당 새 역할 그룹에 검색 및 제거 역할을 추가해야 할 수 있습니다.</li></ul>|

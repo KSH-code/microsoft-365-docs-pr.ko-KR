@@ -13,21 +13,21 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-- m365initiative-m365-defender
+- m365initiative-defender-office365
 description: Office 365의 보안, EOP에서 Office 365 계획 1 및 2, Standard 및 엄격한 보안 구성 등입니다. 가지고 있는 정보 및 속성을 보호하는 방법을 이해합니다.
-ms.openlocfilehash: 84d7dcfc68ce78bfde92f3d7096cd4104355ce94
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: a24f71286a524c4057fd1354804b067497479493
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616251"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794523"
 ---
 # <a name="office-365-security-overview"></a>Office 365 보안 개요
 
-이 문서에서는 클라우드의 새로운 보안 속성을 소개합니다. 보안 운영 센터에 새로 추가된 보안 관리자인지 아니면 새로 고침을 시작해야 하는지 여부에 따라 시작해보아야 합니다.
+이 문서에서는 클라우드의 새로운 보안 속성을 소개합니다. 보안 운영 센터에 새로 추가된 보안 관리자든, 새로 고침을 시작해야 하는지 여부에 따라 시작해보아야 합니다.
 
 > [!CAUTION]
-> Outlook.com, **Microsoft 365** 패밀리 **또는** Microsoft **365 개인을** 사용 중일 때  안전한 링크 또는 안전한 첨부 파일 정보가 필요한 경우 ***** 이 링크 _: [Microsoft 365 구독자를](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)위한 고급 Outlook.com 보안 . 
+> Outlook.com, Microsoft 365 패밀리 또는 Microsoft  **365** **Personal을** 사용 중일 때  안전한 링크 또는 안전한 첨부 파일 정보가 필요한 경우 ***** 이 링크 _: [Microsoft 365](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)구독자를 위한 고급 Outlook.com 보안 .
 
 ## <a name="office-365-security-spelled-out"></a>Office 365 보안 맞춤법 검사
 
@@ -61,10 +61,10 @@ Office 365 보안의 핵심은 EOP 보호입니다. Office 365 P1용 Microsoft D
 
 전자 메일 인증 구성은 공용 DNS에서 진행하지만 스푸핑을 방어하는 데 도움이 하도록 이 기능을 구성하는 것이 중요합니다. _EOP가 있는 경우* ***전자 메일 [인증을 구성해야 합니다.](email-validation-and-authentication.md)**_
 
-If you have an Office 365 E3 or below, you have EOP, but with the option to buy standalone Defender for Office 365 P1 through upgrade. Office 365 E5가 있는 경우 Office 365 P2용 Defender가 이미 있습니다.
+If you have an Office 365 E3, or below, you have EOP, but with the option to buy standalone Defender for Office 365 P1 through upgrade. Office 365 E5가 있는 경우 Office 365 P2용 Defender가 이미 있습니다.
 
 > [!TIP]
-> 구독이 Office 365 E3 또는 E5가 아닐 경우 여전히 Office 365 P1용 Microsoft Defender로 업그레이드할 수 있는 옵션이 있는지 확인할 수 있습니다. 관심이 있는 경우 이 웹 [페이지는](https://www.microsoft.com/microsoft-365/exchange/advance-threat-protection#coreui-contentrichblock-x07wids) Microsoft Defender for Office 365 P1 업그레이드를 사용할 수 있는 구독 목록을 제공합니다(페이지 끝에서 미세 인쇄 확인).
+> 구독이 Office 365 E3 또는 E5가 아닐 경우 Office 365 P1용 Microsoft Defender로 업그레이드할 수 있는 옵션이 여전히 있는지 확인할 수 있습니다. 관심이 있는 경우 이 웹 [페이지는](https://www.microsoft.com/microsoft-365/exchange/advance-threat-protection#coreui-contentrichblock-x07wids) Microsoft Defender for Office 365 P1 업그레이드를 사용할 수 있는 구독 목록을 제공합니다(페이지 끝에서 미세 인쇄 확인).
 
 ## <a name="the-office-365-security-ladder-from-eop-to-microsoft-defender-for-office-365"></a>EOP에서 Office 365용 Microsoft Defender로의 Office 365 보안 사다리
 
@@ -73,7 +73,7 @@ If you have an Office 365 E3 or below, you have EOP, but with the option to buy 
 > [!IMPORTANT]
 > [Exchange Online Protection](exchange-online-protection-overview.md)및 Office [365용 Defender](office-365-atp.md)페이지에 대한 자세한 내용을 참조하세요.
 
-Office 365용 Microsoft Defender 요금제 추가를 순수 EOP 위협 관리의 이점으로 만드는 것은 한눈에 알기 어려울 수 있습니다. 업그레이드 경로가 조직에 적합한지 정렬하려면 각 제품의 기능에 대해 살펴보고자 합니다.
+Office 365용 Microsoft Defender 요금제 추가를 순수 EOP 위협 관리의 이점으로 만드는 것은 한 눈에 알기 어려울 수 있습니다. 업그레이드 경로가 조직에 적합한지 정렬하려면 각 제품의 기능에 대해 살펴보고자 합니다.
 
 - 위협 방지 및 감지
 - 조사 중
@@ -100,7 +100,7 @@ EOP로 이동하려는 경우 이 **[문서로 이동하세요.](exchange-online
 
 따라서 Office 365 P1용 Microsoft Defender는 집의 **_prevention_* _ 쪽을 확장하고 추가 형태의 검색을 _*_추가합니다._*_
 
-Office 365 P1용 Microsoft Defender는 조사를 위해 _ *실시간* 검색 *도 추가합니다. 이 위협 헌팅 도구의 이름은 Office 365 P1용 Defender가 있다는 것을 알기 때문에 굵게 표시됩니다.  Office 365 P2용 Defender에는 나타나지 않습니다.
+또한 Microsoft Defender for Office 365 P1은 조사를 위해 _ *실시간* 검색 *을 추가합니다. 이 위협 헌팅 도구의 이름은 Office 365 P1용 Defender가 있다는 것을 알기 때문에 굵게 표시됩니다.  Office 365 P2용 Defender에는 나타나지 않습니다.
 
 **Office 365용 Defender,** 계획 2(현재까지) 이득:
 <p>
@@ -116,7 +116,7 @@ Microsoft Defender for Office 365 P2에서 기본 헌팅 도구를 실시간 검
 Office 365 P1 및 P2용 Microsoft Defender의 세부 정보를 확인한 후 이 **[문서로 이동하세요.](office-365-atp.md)**
 
 > [!TIP]
-> EOP 및 Office 365용 Microsoft Defender도 최종 사용자와 다를 수 있습니다. EOP 및 Office 365 P1용 Defender에서는 인식에 중점을 *두며,* 이러한 두 서비스에는 사용자가 추가 분석을 위해 의심스러운 전자 메일을 보고할 수 있도록 보고서 메시지 *Outlook* 추가 기능을 포함합니다. <p> EOP 및 P1의 모든 기능을 포함하는 Office 365 P2용 Defender에서 포커스가 최종 사용자를 위한 추가 교육으로 전환됩니다. 따라서 보안 운영 센터는 강력한 *위협* 시뮬레이터 도구 및 이 도구에서 제공하는 최종 사용자 메트릭에 액세스할 수 있습니다. 
+> EOP 및 Office 365용 Microsoft Defender도 최종 사용자와 다를 수 있습니다. EOP 및 Office 365 P1용 Defender에서는 인식에 중점을 *두며,* 이러한 두 서비스에는 보고서 메시지 *Outlook* 추가 기능을 포함하기 때문에 사용자는 추가 분석을 위해 의심스러운 전자 메일을 보고할 수 있습니다. <p> EOP 및 P1의 모든 기능을 포함하는 Office 365 P2용 Defender에서 포커스가 최종 사용자를 위한 추가 교육으로 전환됩니다. 따라서 보안 운영 센터는 강력한 *위협* 시뮬레이터 도구 및 이 도구에서 제공하는 최종 사용자 메트릭에 액세스할 수 있습니다. 
 
 ## <a name="microsoft-defender-for-office-365-plan-1-vs-plan-2-cheat-sheet"></a>Microsoft Defender for Office 365 요금제 1과 계획 2 치트 시트 비교
 
@@ -129,24 +129,24 @@ Office 365 P1 및 P2용 Microsoft Defender의 세부 정보를 확인한 후 이
 
 - Office 365 계획 2용 Microsoft Defender는 Office 365 E5, Office 365 A5 및 Microsoft 365 E5에 포함되어 있습니다.
 
-- Microsoft Defender for Office 365 요금제 1은 Microsoft 365 Business Premium에 포함되어 있습니다.
+- Office 365용 Microsoft Defender 플랜 1은 Microsoft 365 Business Premium에 포함되어 있습니다.
 
 - Microsoft Defender for Office 365 요금제 1 및 Office 365 계획 2용 Defender는 각각 특정 구독에 대한 추가 기능으로 사용할 수 있습니다. 자세한 내용은 Office [365 계획용 Microsoft Defender의](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)또 다른 링크 기능 가용성입니다.
 
-- 안전한 [문서](safe-docs.md) 기능은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스가 있는 사용자만 사용할 수 있습니다(Office 365 요금제용 Microsoft Defender에는 포함되지 않음).
+- [안전한 문서](safe-docs.md) 기능은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스가 있는 사용자만 사용할 수 있습니다. (Office 365용 Microsoft Defender 플랜에는 미포함)
 
 - 현재 구독에 Office 365용 Microsoft Defender가 포함되어하지 [](https://go.microsoft.com/fwlink/p/?LinkId=518644)않는 경우 영업에 문의하여 평가판을 시작하고 Office 365용 Microsoft Defender가 조직에서 어떻게 작동할 수 있는지 찾아보아야 합니다.
 
 > [!TIP]
-> ***Insider tip** _. EOP 및 Docs.microsoft.com Microsoft Defender for Office 365에 대해 자세히 알아보는 데 docs.microsoft.com 목차를 사용할 수 있습니다. 이 페이지, [Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security)보안 개요로 돌아가면 사이드바에 콘텐츠 조직의 표가 표시됩니다. 배포(마이그레이션 포함)로 시작하여 예방, 검색, 조사 및 대응을 계속합니다. <p> 이 구조는 *_Security Administration** 항목 다음에 보안 작업 **항목으로 나뉘어** 있습니다. 두 작업 역할의 새 구성원인 경우 이 팁의 링크와 내용 표에 대한 지식을 사용하여 공간을 학습할 수 있습니다. 피드백 링크를 *사용하며* *문서를* 평가하는 방법을 기억하세요. 피드백은 고객에게 제공하는 기능을 개선하는 데 도움이 됩니다.
+> ***Insider tip** _. EOP 및 Docs.microsoft.com Office 365용 Microsoft Defender에 대해 자세히 알아보는 데 docs.microsoft.com 목차를 사용할 수 있습니다. 이 페이지, [Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security)보안 개요로 돌아가면 사이드바에 콘텐츠 조직의 표가 표시됩니다. 배포(마이그레이션 포함)로 시작하여 예방, 검색, 조사 및 대응을 계속합니다. <p> 이 구조는 *_Security Administration** 항목 다음에 보안 작업 **항목으로 나뉘어** 있습니다. 두 작업 역할의 새 구성원인 경우 이 팁의 링크와 내용 표에 대한 지식을 사용하여 공간을 학습할 수 있습니다. 피드백 링크를 *사용하여* *문서를* 평가해야 합니다. 피드백은 고객에게 제공하는 기능을 개선하는 데 도움이 됩니다.
 
 ## <a name="where-to-go-next"></a>다음으로 이동 위치
 
-보안 관리자인 경우 메일에 대해 DKIM 또는 DMARC를 구성해야 할 수 있습니다. 우선 순위 사용자에 대해 '엄격' 보안 미리 설정은 롤아웃하거나 제품의 새로운 것을 찾아야 할 수 있습니다. 또는 Security Ops를 사용하는 경우 실시간 검색 또는 위협 탐색기를 활용하여 공격 시뮬레이터를 사용하여 최종 사용자 감지를 조사 및 대응하고 교육할 수 있습니다. 어느 경우든 다음에 볼 수 있는 사항에 대한 몇 가지 추가 권장 사항은 다음과 같습니다.
+보안 관리자인 경우 메일에 대해 DKIM 또는 DMARC를 구성해야 할 수 있습니다. 우선 순위 사용자에 대해 '엄격' 보안 미리 설정은 롤아웃하거나 제품의 새로운 것을 찾아야 할 수 있습니다. 또는 보안 연산을 사용하는 경우 실시간 검색 또는 위협 탐색기를 활용하여 공격 시뮬레이터를 사용하여 최종 사용자 감지를 조사 및 대응하고 교육할 수 있습니다. 어느 경우든 다음에 볼 수 있는 사항에 대한 몇 가지 추가 권장 사항은 다음과 같습니다.
 
 [SPF, DKIM 및 DMARC를 포함한 전자 메일 인증(세 가지 설정에 대한 링크 포함)](email-validation-and-authentication.md)
 
-[특정 권장 '골든'](recommended-settings-for-eop-and-office365-atp.md) 구성을 참조하고 권장되는 미리 설정을 사용하여 보안 정책을 신속하게 [구성합니다.](preset-security-policies.md)
+[특정 권장 '골든'](recommended-settings-for-eop-and-office365-atp.md) 구성을 참조하고 권장되는 사전 설정을 사용하여 보안 정책을 신속하게 [구성합니다.](preset-security-policies.md)
 
 [Office 365용 Microsoft Defender의](whats-new-in-office-365-atp.md) 새로운 제품(EOP 개발 포함)
 

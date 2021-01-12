@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP(Exchange Online Protection) 및 Office 365용 Microsoft Defender에서 사용할 수 있는 피싱 방지 정책에 대해 학습할 수 있습니다.
-ms.openlocfilehash: 7660516e60c77a7f31f711f78b6fd28d3ad179fd
-ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
+ms.openlocfilehash: dadb41e1f0ff9e18681b13ad3d265f3f436c2052
+ms.sourcegitcommit: f40378013757d560d5566a11ad4e6f527c018cc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49709707"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49796197"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
@@ -30,7 +30,7 @@ ms.locfileid: "49709707"
 
 피싱 방지 보호 설정을 구성하는 정책은 Exchange Online 사서함이 있는 Microsoft 365 조직, Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직 및 Office 365용 Microsoft Defender 조직에서 사용할 수 있습니다.
 
-Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defender가 있는 조직에서만 사용할 수 있습니다. 예를 들어,
+Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defender가 있는 조직에서만 사용할 수 있습니다. 예제:
 
 - Microsoft 365 Enterprise E5, Microsoft 365 Education A5 등
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -41,7 +41,7 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
 
 ****
 
-|기능|EOP의 피싱 방지 정책|Office 365용 Microsoft Defender의 피싱 방지 정책|
+|기능|EOP의 피싱 방지 정책|Microsoft Defender for Office 365의 피싱 방지 정책|
 |---|:---:|:---:|
 |자동으로 만들어진 기본 정책|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
 |사용자 지정 정책 만들기|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
@@ -55,7 +55,7 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
 
 피싱 방지 정책을 구성하는 경우 다음 문서를 참조합니다.
 
-- [EOP에서 피싱 방지 정책 구성](configure-anti-phishing-policies-eop.md)
+- [EOP에서 스팸 방지 정책 구성하기](configure-anti-phishing-policies-eop.md)
 
 - [Office 365용 Microsoft Defender에서 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)
 
@@ -65,7 +65,7 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
 
 다음 정책 설정은 EOP 및 Office 365용 Microsoft Defender의 피싱 방지 정책에서 사용할 수 있습니다.
 
-- **이름:** 기본 피싱 방지 정책의 이름은 이름을 변경할 수 없지만, 만든 사용자 지정 정책의 이름을 지정하고 이름을 변경하면 됩니다.
+- **이름:** 기본 피싱 방지 정책의 이름은 이름을 변경할 수 없지만, 만든 사용자 지정 정책의 이름을 지정하고 이름을 이름을 변경하면 됩니다.
 
 - **설명** 기본 피싱 방지 정책에는 설명을 추가할 수 없지만 만든 사용자 지정 정책에 대한 설명을 추가하고 변경할 수 있습니다.
 
@@ -100,7 +100,7 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
   >
   > - MX 레코드가 Microsoft 365를 사용하지 않는 경우 스푸핑 방지 보호 기능을 사용하지 않도록 설정할 필요가 없습니다. 대신 커넥터에 대해 향상된 필터링을 사용하도록 설정할 수 있습니다. 자세한 내용은 Exchange Online의 커넥터에 대한 향상된 [필터링을 참조하세요.](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
   >
-  > - 스푸핑 방지 보호 기능을 사용하지 않도록 설정하면 복합 인증 검사에서 암시적 스푸핑 보호가 [비활성화됩니다.](email-validation-and-authentication.md#composite-authentication) 보낸 사람이 정책이 Quarantine 또는 reject로 설정된 위치를 [명시적 DMARC](use-dmarc-to-validate-email.md) 확인에 실패하는 경우 메시지는 여전히 quarantined 또는 rejected입니다.
+  > - 스푸핑 방지 보호 기능을 사용하지 않도록 설정하면 복합 인증 검사에서 암시적 스푸핑 보호 기능을 사용할 [수](email-validation-and-authentication.md#composite-authentication) 없습니다. 보낸 사람이 정책이 Quarantine 또는 reject로 설정된 위치를 [명시적 DMARC](use-dmarc-to-validate-email.md) 확인에 실패하는 경우 메시지는 여전히 quarantined 또는 rejected입니다.
 
   차단된 스푸핑된 보낸 사람이 보낸 메시지의 경우 메시지에 대해 취할 작업을 지정할 수도 있습니다.
 
@@ -122,7 +122,7 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
 
 - 메시지가 SPF 또는 DKIM 검사를 통과하지 못하고 메시지가 DMARC 또는 복합  인증을 통과하지 못하면 보낸 사람 사진에 물음표(?)가 [추가됩니다.](email-validation-and-authentication.md#composite-authentication) 확인되지 않은 보낸 사람 ID를 사용 안 하여 보낸 사람 사진에 물음표가 추가되지 않습니다.
 
-- 보낸 사람 chris@contoso.com <u>주소의</u> 도메인(전자 메일 클라이언트에 표시되는 메시지 보낸 사람)이 DKIM 서명의 도메인 또는 **MAIL FROM** 주소와 다른 경우 via 태그(michelle@fabrikam.com 통해)가 추가됩니다. 이러한 주소에 대한 자세한 내용은 전자 메일 메시지 표준 [개요를 참조하세요.](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
+- 보낸 사람 chris@contoso.com <u>주소의</u> 도메인(전자 메일 클라이언트에 표시되는 메시지 보낸 사람)이 DKIM 서명의 도메인 또는 **MAIL FROM** 주소와 다른 경우 경유 태그(fabrikam.com를 통해)가 추가됩니다. 이러한 주소에 대한 자세한 내용은 전자 메일 메시지 표준 [개요를 참조하세요.](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
 
   보낸 사람 주소의 도메인이 DKIM 서명의 도메인 또는 MAIL FROM 주소와 다른 경우, 확인되지 않은 보낸 사람 ID를 사용할 수 없는 경우 via 태그가 추가되는 것을 방지하지 않습니다.
 
@@ -193,7 +193,7 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
 
   - **메시지를 배달하고 Bcc 줄에** 다른 주소를 추가합니다. 메시지를 의도한 받는 사람에게 배달하고 지정된 받는 사람에게 자동으로 배달합니다.
 
-  - **메시지가 배달되기** 전에 삭제: 모든 첨부 파일을 포함하여 전체 메시지를 자동으로 삭제합니다.
+  - **메시지가 배달되기** 전에 메시지를 삭제합니다. 모든 첨부 파일을 포함하여 전체 메시지를 자동으로 삭제합니다.
 
 - **안전 팁:** 가장 검사에 실패하는 메시지를 표시하는 다음과 같은 가장 보안 팁을 활성화 또는 비활성화합니다.
 

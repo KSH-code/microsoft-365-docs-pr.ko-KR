@@ -15,15 +15,15 @@ search.appverid:
 ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
 ms.collection:
 - M365-security-compliance
-- m365initiative-m365-defender
+- m365initiative-defender-office365
 description: 관리자는 EOP(Exchange Online Protection)에서 자주 묻는 질문과 대답을 볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9cf1281338de66f54a6c4546b047259d647cc3ea
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 58ddb5847706aef3d2c3b8ea8cd9a96fd65a9b3d
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615999"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794415"
 ---
 # <a name="quarantined-messages-faq"></a>Quarantined messages FAQ
 
@@ -40,19 +40,19 @@ ms.locfileid: "49615999"
 
 ## <a name="how-do-i-manage-messages-that-were-quarantined-for-malware"></a>맬웨어에 대해 고지된 메시지는 어떻게 관리하나요?
 
-관리자만 맬웨어에 대해 고지된 메시지를 관리할 수 있습니다. 자세한 내용은 관리자로 [quarantined messages and files를 참조하십시오.](manage-quarantined-messages-and-files.md)
+관리자만 맬웨어에 대해 고지된 메시지를 관리할 수 있습니다. 자세한 내용은 관리자로 고지된 메시지 및 [파일 관리를 참조하세요.](manage-quarantined-messages-and-files.md)
 
-## <a name="how-do-i-quarantine-spam"></a>스팸을 어떻게 차단하나요?
+## <a name="how-do-i-quarantine-spam"></a>스팸을 차단하는 방법
 
 기본적으로 스팸 필터링을 통해 스팸 또는 대량 전자 메일로 분류된 메시지는 사용자의 사서함으로 배달되어 정크 메일 폴더로 이동됩니다. 그러나 스팸 또는 대량 전자 메일 메시지를 대신 차단하도록 스팸 방지 정책을 만들고 구성할 수 있습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-## <a name="how-do-i-give-users-access-to-the-quarantine"></a>사용자에게 검지 액세스 권한을 부여하는 방법
+## <a name="how-do-i-give-users-access-to-the-quarantine"></a>사용자에게 검호에 대한 액세스 권한을 부여하는 방법
 
 사용자는 자신의 메시지에 액세스하려면 유효한 계정이 있어야 합니다. 독립 실행형 EOP를 사용하려면 사용자가 EOP에서 메일 사용자로 표시됩니다(디렉터리 동기화를 통해 수동으로 만들거나 생성). 독립 실행형 EOP 환경에서 사용자를 관리하는 데 대한 자세한 내용은 [EOP에서 메일 사용자 관리를 참조하십시오.](manage-mail-users-in-eop.md)
 
 ## <a name="what-messages-can-end-users-access-in-quarantine"></a>최종 사용자가 어떤 메시지에 액세스하여 액세스할 수 있나요?
 
-사용자는 스팸, 대량 전자 메일 및 받는 사람인 피싱 메시지(2020년 4월 현재)에 액세스할 수 있습니다. 최종 사용자는 메일 흐름 규칙(전송 규칙)에서 호스트된 차단 작업으로 메시지를 배달하여 고지된 맬웨어, 높은 신뢰도 피싱 또는 메시지에 액세스할 수 없습니다.  Quarantined Messages에 액세스하는 사용자에 대한 자세한 내용은 사용자로 고지된 메시지 찾기 및 [릴리스를 참조하세요.](find-and-release-quarantined-messages-as-a-user.md)
+사용자는 스팸, 대량 전자 메일 및 받는 사람인 피싱 메시지(2020년 4월 현재)에 액세스할 수 있습니다. 최종 사용자는 메일 흐름 규칙(전송 규칙)에서 호스트된 차단 작업으로 메시지를 배달하여 고지된 맬웨어, 높은 신뢰도 피싱 또는 메시지에 액세스할 수 없습니다.  Quarantined Messages에 액세스하는 사용자에 대한 자세한 내용은 사용자로 비할 수 있는 메시지 찾기 및 [릴리스를 참조하세요.](find-and-release-quarantined-messages-as-a-user.md)
 
 ## <a name="how-long-are-messages-kept-in-the-quarantine"></a>메시지가 얼마나 오래 보관하나요?
 

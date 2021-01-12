@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
 description: '요약: Office 365를 사용하려면 인터넷에 연결되어 있어야 합니다. 아래의 끝점은 Government 커뮤니티 클라우드(GCC)를 포함하여 Office 365 요금제를 사용하는 고객에 연결할 수 있어야 합니다.'
 hideEdit: true
-ms.openlocfilehash: 88837f495caac13db5bf029354d3a27ffa21dba6
-ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
+ms.openlocfilehash: 9b705c6cad0387efb16f3fc5494b1ba2fe337732
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787694"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794403"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 및 IP 주소 범위
 
@@ -79,6 +79,12 @@ Office 365를 사용하려면 인터넷에 연결되어 있어야 합니다. 아
   
 [콘텐츠 배달 네트워크](https://support.office.com/article/content-delivery-networks-0140f704-6614-49bb-aa6c-89b75dcd7f1f)
   
-[Microsoft Azure 데이터 센터 IP 범위](https://www.microsoft.com/download/details.aspx?id=41653)
+[Microsoft Azure IP 범위 및 서비스 태그 – 공용 클라우드](https://www.microsoft.com/download/details.aspx?id=56519)
+
+[Microsoft Azure IP 범위 및 서비스 태그 – 미국 정부 클라우드](https://www.microsoft.com/download/details.aspx?id=57063)
+
+[Microsoft Azure IP 범위 및 서비스 태그 – 독일 클라우드](https://www.microsoft.com/download/details.aspx?id=57064)
+
+[Microsoft Azure IP 범위 및 서비스 태그 – 중국 클라우드](https://www.microsoft.com/download/details.aspx?id=57062)
   
 [Microsoft 공용 IP 공간](https://www.microsoft.com/download/details.aspx?id=53602)

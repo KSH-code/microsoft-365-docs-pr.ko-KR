@@ -1,0 +1,22 @@
+- name: Google Workspace에서 Microsoft 365로 전환
+  items:
+    - name: 개요
+      href: move-from-google-workspace-overview.md
+    - name: Microsoft 365 등록
+      href: ../sign-up.md?toc=/microsoft-365/business-video/moveto-microsoft-365/toc.json&bc=/microsoft-365/business-video/moveto-microsoft-365/breadcrumb/toc.json
+    - name: Google 마이그레이션을 위해 Microsoft 365 설정
+      href: set-up-microsoft-365-forgoogle.md
+    - name: Windows 장치에 대한 보안 정책 설정
+      href: ../secure-win10-pcs.md?toc=/microsoft-365/business-video/moveto-microsoft-365/toc.json&bc=/microsoft-365/business-video/moveto-microsoft-365/breadcrumb/toc.json
+    - name: Google Workspace 도메인 추가
+      href: add-google-domain.md
+    - name: Office 앱 및 Microsoft Teams 설치
+      href: ../install-office.md?toc=/microsoft-365/business-video/moveto-microsoft-365/toc.json&bc=/microsoft-365/business-video/moveto-microsoft-365/breadcrumb/toc.json
+    - name: 'Microsoft 365로 전자 메일, 일정 및 연락처 마이그레이션'
+      href: migrate-email.md
+    - name: Microsoft 365에 도메인 연결
+      href: connect-domain-tom365.md
+    - name: Mover를 사용하여 모든 사용자 데이터 이동
+      href: mover-migrate-files.md
+    - name: Google Workspace 취소
+      href: cancel-google.md

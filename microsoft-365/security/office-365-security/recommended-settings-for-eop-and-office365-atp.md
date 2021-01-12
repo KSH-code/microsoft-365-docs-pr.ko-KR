@@ -16,14 +16,14 @@ search.appverid:
 ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
-- m365initiative-m365-defender
+- m365initiative-defender-office365
 description: Office 365 보안 설정에 대한 EOP(Exchange Online Protection) 및 Defender에 대한 모범 사례는 무엇입니까? 표준 보호를 위한 현재 권장 사항은 무엇입니까? 더 엄격하게 사용하려는 경우 어떤 것을 사용해야 하나요? 또한 Office 365용 Defender를 사용하는 경우 어떤 추가 기능을 얻을 수 있나요?
-ms.openlocfilehash: c9a9774e0866b009965eeb574384095c26fa780e
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.openlocfilehash: c93475f1215477281604abe72d70a60a75c41b3f
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760233"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794463"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Office 365용 Microsoft Defender 보안에 대한 권장 설정
 
@@ -123,7 +123,7 @@ ms.locfileid: "49760233"
 
 |보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
-|**받는 사람의 메시지가 각기 다른 경우 받는 사람에게 알리시겠습니까?** <p> _작업_|아니요 <p> _DeleteMessage_|아니요 <p> _DeleteMessage_|아니요 <p> _DeleteMessage_|전자 메일 첨부 파일에서 맬웨어가 감지되면 메시지는 맬웨어를 차단하고 관리자만 릴리스할 수 있습니다.|
+|**받는 사람의 메시지가 각기 다른 경우 받는 사람에게 알리시겠습니까?** <p> _작업_|아니요 <p> _DeleteMessage_|아니요 <p> _DeleteMessage_|아니요 <p> _DeleteMessage_|맬웨어가 전자 메일 첨부 파일에서 감지된 경우 메시지는 고지되고 관리자만 릴리스할 수 있습니다.|
 |**일반 첨부 파일 형식 필터** <p> _EnableFileFilter_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`|이 설정은 첨부 파일 콘텐츠에 관계없이 파일 형식에 따라 실행 파일이 포함된 메시지를 검지합니다.|
 |**맬웨어 제로 아워 자동 제거** <p> _ZapEnabled_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |**내부 보낸 사람에** 대해 알릴 수 없는 메시지 <p> _EnableInternalSenderNotifications_|사용 안 함 <p> `$false`|사용 안 함 <p> `$false`|사용 안 함 <p> `$false`||
@@ -149,13 +149,13 @@ ms.locfileid: "49760233"
 
 > [!IMPORTANT]
 >
-> - Microsoft Defender for Office 365의 기본 피싱 [](set-up-anti-phishing-policies.md#spoof-settings) 방지 정책은 모든 받는 사람에 대해 스푸핑 보호 및 사서함 인텔리전스를 제공합니다. 그러나 사용 가능한 [](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 다른 가장 보호 기능 및 [고급](#advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 설정은 기본 정책에서 구성되거나 사용되지 않습니다. 모든 보호 기능을 사용하도록 설정하려면 기본 피싱 방지 정책을 수정하거나 추가 피싱 방지 정책을 만들 수 있습니다.
+> - Microsoft Defender for Office 365의 기본 피싱 [](set-up-anti-phishing-policies.md#spoof-settings) 방지 정책은 모든 받는 사람에 대해 스푸핑 방지 및 사서함 인텔리전스를 제공합니다. 그러나 사용 가능한 [](#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 다른 가장 보호 기능 및 [고급](#advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 설정은 기본 정책에서 구성되거나 사용되지 않습니다. 모든 보호 기능을 사용하도록 설정하려면 기본 피싱 방지 정책을 수정하거나 추가 피싱 방지 정책을 만들 수 있습니다.
 >
 > - 조직의 모든 받는 사람을 자동으로 보호하는 기본 안전 링크 정책 또는 안전 첨부 파일 정책은 없습니다. 보호 기능을 사용하려면 하나 이상의 안전 링크 정책 및 안전 첨부 파일 정책을 만들어야 합니다.
 >
 > - [SharePoint, OneDrive 및 Microsoft Teams](atp-for-spo-odb-and-teams.md) 보호 및 [안전한](safe-docs.md) 문서 보호를 위한 ATP는 안전한 링크 정책에 종속되는 것이 없습니다.
 
-구독에 Microsoft Defender for Office 365가 포함되어 있는 경우 또는 Office 365용 Defender를 추가 기능으로 구입한 경우 다음 표준 또는 엄격 구성을 설정하세요.
+구독에 Microsoft Defender for Office 365가 포함되어 있는 경우 또는 Office 365용 Defender를 추가 기능으로 구입한 경우 다음 표준 또는 Strict 구성을 설정하세요.
 
 ### <a name="anti-phishing-policy-settings-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 피싱 방지 정책 설정
 
@@ -282,7 +282,7 @@ PowerShell에서 이러한 설정에 [New-SafeAttachmentPolicy](https://docs.mic
 |보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**안전한 첨부 파일 알 수 없는 맬웨어 응답** <p> _작업_|차단 <p> `Block`|차단 <p> `Block`|차단 <p> `Block`||
-|**검색 시 첨부 파일 리디렉션** : 리디렉션 **사용** <p> _리디렉션_ <p> _RedirectAddress_|끄기 및 전자 메일 주소 지정 안 하세요. <p> `$true` <p> 없음|을 사용하여 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|을 사용하여 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|검토를 위해 보안 관리자에게 메시지를 리디렉션합니다.|
+|**검색 시 첨부 파일 리디렉션** : 리디렉션 **사용** <p> _리디렉션_ <p> _RedirectAddress_|끄고 전자 메일 주소를 지정하지 않습니다. <p> `$true` <p> 없음|을 사용하여 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|을 사용하여 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|검토를 위해 보안 관리자에게 메시지를 리디렉션합니다.|
 |**첨부 파일에 대한 맬웨어 검색이 시간보다 멀거나 오류가 발생하는 경우 위의 선택을 적용합니다.** <p> _ActionOnError_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |
 
@@ -294,4 +294,4 @@ PowerShell에서 이러한 설정에 [New-SafeAttachmentPolicy](https://docs.mic
 
 - 다음 링크를 사용하여 [EOP](set-up-your-eop-service.md)서비스를 설정하고 Office  [365용 Microsoft Defender를](office-365-atp.md)구성하는 방법에 대한 정보를 제공합니다.  'Office[365의](protect-against-threats.md)위협으로부터 보호'의 유용한 방향을 잊지 마세요.
 
-- **Windows에** 대한 보안 기준은 어디에서 얻을 수 [있나요?](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) GPO/프레미스 옵션에 대한 보안 기준을 얻을 수 있으며, Intune 기반 보안을 위해 [Intune에서 Windows 10](https://docs.microsoft.com/intune/protect/security-baselines) 장치를 구성하는 보안 기준을 사용할 수 있습니다. 마지막으로 끝점용 Microsoft Defender와 Microsoft Intune 보안 기준 비교는 [끝점용 Microsoft Defender와 Windows Intune](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)보안 기준 비교에서 사용할 수 있습니다.
+- **Windows에** 대한 보안 기준은 어디에서 얻을 수 [있나요?](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) GPO/프레미스 옵션의 경우 보안 기준을 사용할 수 있으며, Intune 기반 보안을 위해 [Intune에서 Windows 10](https://docs.microsoft.com/intune/protect/security-baselines) 장치를 구성하는 데 보안 기준을 사용할 수 있습니다. 마지막으로 끝점용 Microsoft Defender와 Microsoft Intune 보안 기준 간의 비교는 [끝점용 Microsoft Defender와 Windows Intune](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)보안 기준 비교에서 사용할 수 있습니다.

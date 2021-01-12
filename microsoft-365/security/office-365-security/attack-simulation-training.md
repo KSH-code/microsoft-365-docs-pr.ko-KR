@@ -9,14 +9,14 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-- m365initiative-m365-defender
-description: 관리자는 Microsoft Defender for Office 365의 공격 시뮬레이션 교육을 사용하여 피싱 공격을 시뮬레이트하고 사용자에게 피싱 방지를 교육하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 41a5a503fbc8aa5e41760c1cf420d5e3c6047d86
-ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
+- m365initiative-defender-office365
+description: 관리자는 Microsoft Defender for Office 365의 공격 시뮬레이션 교육을 사용하여 피싱 공격을 시뮬레이션하고 사용자를 피싱 방지에 교육하는 방법을 배울 수 있습니다.
+ms.openlocfilehash: e7582b1f74266d988ecdf8f6dac49019699e2bc1
+ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49788054"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "49794259"
 ---
 # <a name="simulate-a-phishing-attack"></a>피싱 공격 시뮬레이션
 
@@ -31,7 +31,7 @@ Office 365용 Microsoft Defender의 공격 시뮬레이션 교육을 통해 조�
 ![Microsoft 365 보안 센터에서 시뮬레이션 단추 시작](../../media/attack-sim-preview-launch.png)
 
 > [!NOTE]
-> 시뮬레이션을 만들 때 어느 시점에서든 저장한 후 닫아서 나중에 시뮬레이션을 계속 구성할 수 있습니다.
+> 시뮬레이션을 만들 때 어느 시점에서든 저장 후 닫아서 나중에 시뮬레이션을 계속 구성할 수 있습니다.
 
 ## <a name="selecting-a-social-engineering-technique"></a>소셜 엔지니어링 기술 선택
 
@@ -56,9 +56,9 @@ Office 365용 Microsoft Defender의 공격 시뮬레이션 교육을 통해 조�
 페이로드에는 다음을 선택하는 데 도움이 되는 다양한 데이터 포인트가 있습니다.
 
 - **클릭 속도는** 이 페이로드를 클릭한 사용자 수를 계산합니다.
-- **예측된** 손상율은 Office 365 고객용 Microsoft Defender의 페이로드에 대한 기록 데이터를 기반으로 이 페이로드에 의해 손상되는 사용자 비율을 예측합니다.
+- **예측된** 손상율은 Office 365 고객용 Microsoft Defender의 페이로드에 대한 기록 데이터를 기반으로 이 페이로드에 의해 손상되는 비율을 예측합니다.
 - **시작된 시뮬레이션은** 이 페이로드가 다른 시뮬레이션에 사용된 횟수를 계산합니다.
-- **필터를** **통해** 사용할 수 있는 복잡성은 페이로드 내의 지표 수를 기반으로 계산됩니다. 페이로드에서 공격 대상의 단서가 되는 지표 수를 기반으로 계산됩니다. 지표가 수록 복잡성이 낮아집니다.
+- **필터를** **통해** 사용할 수 있는 복잡성은 페이로드 내의 지표 수를 기반으로 계산됩니다. 페이로드에서 공격 대상의 단서가 되는 지표 수를 기반으로 계산됩니다. 표시기가 수록 복잡성이 낮아집니다.
 - **필터를** **통해** 사용할 수 있는 원본은 페이로드가 테넌트에서 만들어지거나 Microsoft의 기존 페이로드 카탈로그(전역)의 일부인지 여부를 나타냅니다.
 
 ![Microsoft 365 보안 센터의 공격 시뮬레이션 교육 내에서 선택한 페이로드](../../media/attack-sim-preview-select-payload.png)
@@ -69,7 +69,7 @@ Office 365용 Microsoft Defender의 공격 시뮬레이션 교육을 통해 조�
 
 ## <a name="audience-targeting"></a>대상 그룹 지정
 
-이제 이 시뮬레이션의 대상을 선택해야 합니다. 조직의 모든  사용자를 포함하거나 특정 사용자 및 **그룹만 포함하도록 선택할 수 있습니다.**
+이제 이 시뮬레이션의 대상을 선택해야 합니다. 조직의 모든  사용자를 포함하거나 특정 사용자 및 그룹만 **포함하도록 선택할 수 있습니다.**
 
 특정 사용자 및 그룹만 **포함하도록** 선택하는 경우 다음 중 하나를 사용할 수 있습니다.
 
@@ -79,14 +79,14 @@ Office 365용 Microsoft Defender의 공격 시뮬레이션 교육을 통해 조�
 
 ## <a name="assigning-training"></a>교육 할당
 
-교육을 통과하는 직원은 유사한 공격에 덜 공격하기에 각 시뮬레이션에 대한 교육을 할당하는 것이 좋습니다.
+교육을 진행하는 직원은 유사한 공격에 덜 공격하기에 각 시뮬레이션에 대한 교육을 할당하는 것이 좋습니다.
 
 교육을 할당하거나 직접 교육 과정과 모듈을 선택할 수 있습니다.
 
 교육 **기한을 선택하여** 직원들이 제시간에 교육을 완료할 수 있도록 합니다.
 
 > [!NOTE]
-> 직접 과정과 모듈을 선택하기로 선택한 경우 권장되는 콘텐츠와 사용 가능한 모든 과정 및 모듈을 볼 수 있습니다.
+> 직접 과정과 모듈을 선택하려면 권장되는 콘텐츠와 사용 가능한 모든 과정 및 모듈을 볼 수 있습니다.
 >
 > ![Microsoft 365 보안 센터의 공격 시뮬레이션 교육 내에서 권장 교육 추가](../../media/attack-sim-preview-add-training.png)
 
