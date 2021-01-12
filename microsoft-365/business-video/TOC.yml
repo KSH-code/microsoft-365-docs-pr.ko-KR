@@ -159,3 +159,5 @@
           href: get-help-support.md
         - name: 직원 빠른 설정
           href: employee-quick-setup.md
+    - name: Google Workspace에서 전환
+      href: moveto-microsoft-365/move-from-google-workspace-overview.md
