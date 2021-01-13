@@ -1,81 +1,81 @@
 ---
 title: 직접 새 장치 등록
-description: Microsoft Managed Desktop에서 관리할 수 있도록 장치를 직접 등록
+description: Microsoft Managed Desktop에서 관리할 수 있도록 직접 디바이스 등록
 ms.prod: w10
 author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 48c69a71a98e381123a8f87acc20a34eb6e99806
-ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
+ms.openlocfilehash: df6013f2f7fec32e79557a82f9b56fe4ad487786
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071492"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840684"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 
-Microsoft Managed Desktop은 새로운 장치에서 작동 하거나 이미 사용 중인 장치를 다시 사용할 수 있습니다 (다시 이미지 해야 함). Microsoft Endpoint Manager 포털에서 Microsoft Managed Desktop을 사용 하 여 장치를 등록할 수 있습니다.
+Microsoft Managed Desktop은 새로운 디바이스에서 작동하거나 이미 있을 수 있는 장치를 다시 사용할 수 있습니다(이 경우 다시 이미 이미 있는 디바이스를 다시 사용해야 합니다). Microsoft Endpoint Manager 포털에서 Microsoft Managed Desktop에 장치를 등록할 수 있습니다.
 
 > [!NOTE]
-> 파트너와 협력 하 여 장치 가져오기 그렇다면 하드웨어 해시를 가져오는 것을 걱정 하지 않아도 됩니다. 사용자에 게 필요한 작업입니다. 파트너가 [파트너 센터](https://partner.microsoft.com/dashboard)에서 사용자와 관계를 설정 했는지 확인 합니다. 파트너 [센터 도움말](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer)에서 더 많은 정보를 확인할 수 있습니다. 이 관계가 설정 되 면 파트너는 사용자를 대신 하 여 장치를 등록 합니다 (추가 작업은 필요 하지 않음). 세부 정보를 보거나 파트너에 게 질문이 있는 경우 [에는 파트너가 장치를 등록 하는 단계](register-devices-partner.md)를 참조 하세요. 장치가 등록 되 면 [이미지 확인](#check-the-image) 을 계속 하 고 사용자에 게 [장치를 전달할](#deliver-the-device) 수 있습니다.
+> 파트너와 협력하여 디바이스를 얻습니까? 그렇다면 하드웨어 해시를 사용할 때 걱정할 필요가 없습니다. 이러한 경우를 관리합니다. 파트너가 파트너 센터에서 사용자와 관계를 [설정하는지 확인](https://partner.microsoft.com/dashboard) 파트너는 파트너 센터 도움말에서 자세한 [정보를 볼 수 있습니다.](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer) 이 관계가 설정되면 파트너는 단순히 사용자 대신 디바이스를 등록합니다. 추가 작업이 필요하지 않습니다. 세부 정보를 보거나 파트너에게 질문이 있는 경우 파트너가 디바이스를 등록하는 [단계를 참조하세요.](register-devices-partner.md) 디바이스가 등록된 후 이미지를 확인하고 [](#check-the-image) 사용자에게 디바이스를 [](#deliver-the-device) 전달할 수 있습니다.
 
 ## <a name="prepare-to-register-brand-new-devices"></a>새 장치 등록 준비
 
 
-새 장치를 직접 만들었으면 다음 단계를 수행 합니다.
+새 장치를 사용할 수 있는 경우 다음 단계를 수행합니다.
 
-1. [각 장치에 대 한 하드웨어 해시를 가져옵니다.](#obtain-the-hardware-hash)
+1. [각 디바이스에 대한 하드웨어 해시를 얻습니다.](#obtain-the-hardware-hash)
 2. [해시 데이터 병합](#merge-hash-data)
-3. [Microsoft Managed Desktop에서 장치를 등록](#register-devices-by-using-the-admin-portal)합니다.
-4. [이미지가 올바른지 다시 한 번 확인 합니다.](#check-the-image)
-5. [장치 배달](#deliver-the-device)
+3. [Microsoft Managed Desktop에서 디바이스를 등록합니다.](#register-devices-by-using-the-admin-portal)
+4. [이미지가 올바른지 다시 확인합니다.](#check-the-image)
+5. [디바이스 전달](#deliver-the-device)
 
-### <a name="obtain-the-hardware-hash"></a>하드웨어 해시 가져오기
+### <a name="obtain-the-hardware-hash"></a>하드웨어 해시 획득
 
-Microsoft Managed Desktop은 해당 하드웨어 해시를 참조 하 여 각 장치를 고유 하 게 식별 합니다. 이 정보를 얻기 위한 세 가지 옵션은 다음과 같습니다.
+Microsoft Managed Desktop은 하드웨어 해시를 참조하여 각 장치를 고유하게 식별합니다. 이 정보를 수집하는 세 가지 옵션이 있습니다.
 
-- OEM 공급자에 게 하드웨어 해시를 포함 하는 AutoPilot 등록 파일에 대해 문의 하세요.
-- 각 장치에서 [Windows PowerShell 스크립트](#powershell-script-method) 를 실행 하 고 파일에서 결과를 수집 합니다.
-- 각 장치를 시작 하지만 Windows 설치 환경을 완료 하지 않고 [이동식 플래시 드라이브에서 해시를 수집](#flash-drive-method)합니다.
+- OEM 공급업체에 하드웨어 해시를 포함할 AutoPilot 등록 파일을 요청합니다.
+- 각 [Windows PowerShell 스크립트를](#powershell-script-method) 실행하고 파일에 결과를 수집합니다.
+- 각 디바이스를 시작하지만 Windows 설치 환경을 완료하지는 않습니다. 이동식 플래시 드라이브에서 [해시를 수집합니다.](#flash-drive-method)
 
-#### <a name="powershell-script-method"></a>PowerShell script 메서드
+#### <a name="powershell-script-method"></a>PowerShell 스크립트 메서드
 
-PowerShell 갤러리 웹 사이트에서 [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) powershell 스크립트를 사용할 수 있습니다. 장치 id 및 하드웨어 해시에 대 한 자세한 내용은 [Windows에 장치 추가 Autopilot를](https://docs.microsoft.com/mem/autopilot/add-devices#device-identification)참조 하세요.
+PowerShell 갤러리 [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) PowerShell 스크립트를 사용할 수 있습니다. 장치 식별 및 하드웨어 해시에 대한 자세한 내용은 [Windows Autopilot에 장치 추가를 참조하세요.](https://docs.microsoft.com/mem/autopilot/add-devices#device-identification)
 
-1.  관리 권한으로 PowerShell 프롬프트를 엽니다.
+1.  관리 권한으로 PowerShell 프롬프트를 열 수 있습니다.
 2.  실행 `Install-Script -Name Get-WindowsAutoPilotInfo`
 3.  실행 `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
-4.  `powershell -ExecutionPolicy restricted`제한 없는 후속 스크립트가 실행 되지 않도록 하려면 실행 합니다.
+4.  후속 무제한 스크립트가 실행되지 않도록 `powershell -ExecutionPolicy restricted` 실행합니다.
 
 
-#### <a name="flash-drive-method"></a>Flash drive 메서드
+#### <a name="flash-drive-method"></a>플래시 드라이브 방법
 
-1. 등록 중인 장치 이외의 디바이스에서 USB 드라이브를 삽입 합니다.
-2. 관리 권한으로 PowerShell 프롬프트를 엽니다.
+1. 등록할 장치 외의 디바이스에 USB 드라이브를 삽입합니다.
+2. 관리 권한으로 PowerShell 프롬프트를 열 수 있습니다.
 3. 실행 `Save-Script -Name Get-WindowsAutoPilotInfo -Path <pathToUsb>`
-4. 등록 중인 디바이스를 켜면 *설치 환경이 시작 되지* 않습니다. 실수로 설치 환경을 시작한 경우 장치를 초기화 하거나 다시 이미지로 만들어야 합니다.
-5. USB 드라이브를 삽입 한 다음 SHIFT + F10 키를 누릅니다.
-6. 관리 권한으로 PowerShell 프롬프트를 열고를 실행 `cd <pathToUsb>` 합니다.
+4. 등록할 디바이스를 켜지만 설치 *환경을 시작하지는 않습니다.* 실수로 설치 환경을 시작한 경우 장치를 초기화하거나 다시 이미지해야 합니다.
+5. USB 드라이브를 삽입한 다음 Shift + F10을 누를 수 있습니다.
+6. 관리 권한으로 PowerShell 프롬프트를 연 다음 `cd <pathToUsb>` 실행합니다.
 7. 실행 `Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
 8. 실행 `.\Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
-9. USB 드라이브를 제거한 다음 다음을 실행 하 여 장치를 종료 합니다. `shutdown -s -t 0`
+9. USB 드라이브를 제거한 다음 실행하여 디바이스를 종료합니다. `shutdown -s -t 0`
 
 >[!IMPORTANT]
->등록을 완료 한 후 다시 등록할 때까지 디바이스에 전원을 공급 하지 마십시오. 
+>등록을 완료할 때까지 다시 등록하는 디바이스에서 전원을 공급하지 않습니다. 
 
 
 ### <a name="merge-hash-data"></a>해시 데이터 병합
 
-등록을 완료 하려면 CSV 파일의 데이터를 단일 파일로 결합 해야 합니다. 다음과 같은 샘플 PowerShell 스크립트를 통해이를 쉽게 확인할 수 있습니다.
+등록을 완료하려면 CSV 파일의 데이터를 단일 파일로 결합해야 합니다. 다음은 쉽게 사용할 수 있도록 하는 샘플 PowerShell 스크립트입니다.
 
 `Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv`
 
 
-#### <a name="register-devices-by-using-the-admin-portal"></a>관리 포털을 사용 하 여 장치 등록
+#### <a name="register-devices-by-using-the-admin-portal"></a>관리 포털을 사용하여 장치 등록
 
-[Microsoft Endpoint Manager](https://endpoint.microsoft.com/)의 왼쪽 탐색 창에서 **장치** 를 선택 합니다. 메뉴의 Microsoft Managed Desktop 섹션을 찾아 **장치** 를 선택 합니다. Microsoft Managed Desktop Devices 작업 영역에서 **+ register Devices** 를 선택 하 여 새 장치를 등록 합니다.
+[Microsoft Endpoint Manager의](https://endpoint.microsoft.com/)왼쪽 탐색 창에서 디바이스를 선택합니다.  메뉴의 Microsoft Managed Desktop 섹션을 찾아 장치를 **선택합니다.** Microsoft Managed Desktop Devices 작업 영역에서 **새 장치를** 등록하기 위해 플라이인을 여는 + 장치 등록을 선택합니다.
 
 <!-- [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
@@ -83,44 +83,44 @@ PowerShell 갤러리 웹 사이트에서 [Get-WindowsAutoPilotInfo.ps1](https://
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
-다음 단계를 따릅니다.
+아래 단계를 수행하세요.
 
-1. **파일 업로드** 에서 이전에 만든 CSV 파일의 경로를 제공 합니다.
-3. **장치 등록** 을 선택 합니다. 시스템은 장치를 디바이스 **블레이드에서** 장치 목록에 추가 하 고 **등록 보류 중** 으로 표시 합니다. 등록은 일반적으로 10 분 미만이 걸리고, 성공적으로 완료 되 면 장치에 **사용자가** 사용할 준비가 된 것으로 표시 되 고 사용자가 사용을 시작할 때까지 대기 하 게 됩니다.
+1. 파일 **업로드에서** 이전에 만든 CSV 파일의 경로를 제공합니다.
+3. 장치 **등록을 선택합니다.** 시스템은 등록 보류 중으로 표시된 디바이스의 장치 목록에 **장치를 추가합니다.** 등록에는 일반적으로 10분 미만이 걸리며, 성공하면 장치가 준비된 것으로 표시되어 사용자가 사용을 시작할 때까지 기다립니다. 
 
 
-기본 페이지에서 장치 등록의 진행 상태를 모니터링할 수 있습니다. 다음과 같은 가능한 상태가 보고 됩니다.
+주 페이지에서 장치 등록의 진행률을 모니터링할 수 있습니다. 보고된 가능한 상태는 다음과 같습니다.
 
 | 시/도 | 설명 |
 |---------------|-------------|
-| 등록 보류 중 | 등록이 아직 완료 되지 않았습니다. 나중에 다시 확인 합니다. |
-| 등록 실패 | 등록을 완료할 수 없습니다. 자세한 내용은 [장치 등록 문제 해결](#troubleshooting-device-registration) 을 참조 하세요. |
-| 사용자 준비 | 등록을 완료 했으며 이제 장치를 사용자에 게 배달할 준비가 되었습니다. Microsoft Managed Desktop은 처음 설정할 때 가이드를 제공 하므로 추가 준비를 수행할 필요가 없습니다. |
-| 활성 | 장치가 사용자에 게 배달 되었으며 테 넌 트에 등록 되어 있습니다. 또한 장치를 정기적으로 사용 하는 것을 나타냅니다. |
-| 있었던 | 장치가 사용자에 게 배달 되었으며 테 넌 트에 등록 되어 있습니다. 그러나 최근에 최근 7 일 이내에 장치를 사용 하지 않았습니다.  | 
+| 등록 보류 중 | 등록이 아직 완료되지 않았습니다. 나중에 다시 확인 |
+| 등록 실패 | 등록을 완료할 수 없습니다. 자세한 내용은 [장치](#troubleshooting-device-registration) 등록 문제 해결을 참조하세요. |
+| 사용자 준비 | 등록이 성공하고 이제 디바이스를 사용자에게 전달할 준비가 완료되었습니다. Microsoft Managed Desktop은 최초 설치를 안내하기 때문에 추가 준비를 할 필요가 없습니다. |
+| 활성 | 장치가 사용자에게 전달되고 테넌트에 등록되어 있습니다. 이 상태는 장치가 정기적으로 사용 중이기도 합니다. |
+| 비활성 | 장치가 사용자에게 전달되고 테넌트에 등록되어 있습니다. 그러나 최근(지난 7일)에는 장치를 사용한 것이 없습니다.  | 
 
 #### <a name="troubleshooting-device-registration"></a>장치 등록 문제 해결
 
 | 오류 메시지 | 세부 정보 |
 |---------------|-------------|
-| 장치를 찾을 수 없음 | 제공 된 제조업체, 모델 또는 일련 번호에 대해 일치 하는 항목을 찾을 수 없기 때문에이 장치를 등록할 수 없습니다. 장치 공급자에서 이러한 값을 확인 합니다. |
-| 하드웨어 해시가 잘못 되었습니다. | 이 장치에 대해 제공한 하드웨어 해시가 올바르게 포맷 되지 않았습니다. 하드웨어 해시를 두 번 확인 한 다음 다시 제출 합니다. |
-| 장치가 이미 등록 됨 | 이 장치는 이미 조직에 등록 되어 있습니다. 추가 작업이 필요 하지 않습니다. |
-| 다른 조직에서 요구 하는 장치 | 이 장치는 다른 조직에서 이미 요구 되었습니다. 장치 공급자에 게 문의 하세요. |
-| 예기치 않은 오류 | 요청을 자동으로 처리할 수 없습니다. 지원 서비스에 문의 하 여 요청 ID를 제공 합니다. <requestId> |
+| 디바이스를 찾을 수 없습니다. | 제공된 제조업체, 모델 또는 일련 번호에 대한 일치를 찾을 수 없는 경우 이 장치를 등록할 수 없습니다. 장치 공급업체에 이러한 값을 확인합니다. |
+| 하드웨어 해시가 유효하지 않습니다. | 이 장치에 대해 제공한 하드웨어 해시의 형식이 올바로 지정되지 않았습니다. 하드웨어 해시를 다시 확인한 다음 다시 제출합니다. |
+| 디바이스가 이미 등록되어 있습니다. | 이 장치는 이미 조직에 등록되어 있습니다. 추가 작업이 필요하지 않습니다. |
+| 다른 조직에서 클레임된 장치 | 이 디바이스는 다른 조직에서 이미 클레임했습니다. 장치 공급업체에 문의하십시오. |
+| 예기치 않은 오류 | 요청을 자동으로 처리하지 못했습니다. 고객 지원에 문의하여 요청 ID를 제공합니다. <requestId> |
 
 ### <a name="check-the-image"></a>이미지 확인
 
-장치가 Microsoft 관리 되는 데스크톱 파트너 공급자 로부터 온 것 이라면 이미지가 정확 해야 합니다.
+디바이스가 Microsoft Managed Desktop 파트너 공급업체에서 제공된 경우 이미지가 정확해야 합니다.
 
-원하는 경우 이미지를 직접 적용 하는 것도 환영 합니다. 시작 하려면 사용 중인 Microsoft 담당자에 게 문의 하 여 이미지를 적용할 위치와 단계를 제공 합니다.
+원하는 경우 직접 이미지를 적용할 수도 있습니다. 시작을 위해 함께 작업하는 Microsoft 담당자에게 연락하여 이미지 적용 위치와 단계를 제공합니다.
 
-### <a name="deliver-the-device"></a>장치 배달
+### <a name="deliver-the-device"></a>디바이스 전달
 
 > [!IMPORTANT]
-> 사용자에 게 디바이스를 전달 하기 전에 해당 사용자에 대 한 [적절 한 라이선스](../get-ready/prerequisites.md) 를 확보 하 고 적용 했는지 확인 합니다.
+> 디바이스를 사용자에게 제공하려면 먼저 해당 사용자에게 적절한 라이선스를 획득하고 [적용해야](../get-ready/prerequisites.md) 합니다.
 
-모든 라이선스가 적용 되 면 [사용자가 장치를 사용할 준비가](get-started-devices.md)되 면 사용자가 장치를 시작 하 고 Windows 설치 환경을 진행할 수 있습니다.
+모든 라이선스가 적용된 경우 [](get-started-devices.md)사용자가 디바이스를 사용할 수 있도록 준비한 다음 사용자가 디바이스를 시작하고 Windows 설치 환경을 진행할 수 있습니다.
 
 
 

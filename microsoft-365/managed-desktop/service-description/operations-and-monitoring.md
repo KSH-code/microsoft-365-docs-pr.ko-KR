@@ -1,6 +1,6 @@
 ---
 title: Microsoft Managed Desktop 작업 및 모니터링
-description: ''
+description: 다양한 변경 프로세스에 대해 무엇을 하는 사람
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1ddac923849abfa2c912244c5ff987ec885f3d45
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: 5d7c6a7b836d0044ba9cde188170dd51f117dd2b
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527596"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840376"
 ---
 # <a name="microsoft-managed-desktop-operations-and-monitoring"></a>Microsoft Managed Desktop 작업 및 모니터링
 
@@ -25,18 +25,18 @@ ms.locfileid: "49527596"
 
 ## <a name="change-management"></a>변경 관리
 
-서비스 제공에서 하드웨어 유지 관리 및 보안 업데이트와 같은 작업에 대한 책임의 균형이 고객이 아닌 서비스 공급자(Microsoft)에게 이동됩니다. 그러나 업데이트를 롤아웃할 때 타사 및 사용자 지정 소프트웨어가 계속 예상 대로 작동 하는지 확인 해야 합니다.
+서비스 제공에서 하드웨어 유지 관리 및 보안 업데이트와 같은 작업에 대한 책임의 균형이 고객이 아닌 서비스 공급자(Microsoft)에게 이동됩니다. 그러나 업데이트가 롤아웃될 때 Microsoft가 아닌 소프트웨어와 사용자 지정 소프트웨어가 예상대로 계속 작동하도록 해야 합니다.
 
-온-프레미스 제품의 경우 조직에서는 변경 관리에 대 한 모든 책임을 가정 합니다.
+조직에서는 변경 관리에 대한 모든 책임이 조직에 있습니다.
 
-### <a name="balance-of-responsibility"></a>책임의 균형
+### <a name="balance-of-responsibility"></a>책임 균형
 
-책임 | Microsoft Managed Desktop 서비스 | Microsoft 365 클라이언트 소프트웨어 | 온-프레미스 클라이언트 및 서버 | 타사 및 사용자 지정 소프트웨어
+책임 | Microsoft Managed Desktop 서비스 | Microsoft 365 클라이언트 소프트웨어 | 온-프레미스 클라이언트 및 서버 | Microsoft가 아닌 소프트웨어 및 사용자 지정 소프트웨어
 ----- | ----- | ----- | ----- | -----
-새로운 기능 제공 | Microsoft | Microsoft | 모두 | 고객
-품질 보증에 위해 새로운 기능 테스트 |  Microsoft | Microsoft | 모두 | 고객
-새로운 기능에 대한 소식 전달 | 모두 | 모두 | 모두 | 고객
-사용자 지정 소프트웨어 통합 | 모두 | 모두 | 고객 | 고객
+새로운 기능 제공 | Microsoft | Microsoft | 둘 다 | 고객
+품질 보증에 위해 새로운 기능 테스트 |  Microsoft | Microsoft | 둘 다 | 고객
+새로운 기능에 대한 소식 전달 | 둘 다 | 둘 다 | 둘 다 | 고객
+사용자 지정 소프트웨어 통합 | 둘 다 | 둘 다 | 고객 | 고객
 보안 업데이트 적용 | Microsoft | Microsoft | 고객 | 고객
 시스템 소프트웨어 유지 관리 | Microsoft | Microsoft | 고객 | 고객
 배포용 패키지 | Microsoft | Microsoft | 고객 | 고객
@@ -44,13 +44,13 @@ ms.locfileid: "49527596"
 
 ### <a name="change-process-overview"></a>변경 프로세스 개요
 
-다음은 Microsoft와 고객 간에 변경 프로세스를 공유 하는 방법을 요약 한 것입니다. 
+다음은 Microsoft와 고객 간에 변경 프로세스가 공유되는 방식에 대한 요약입니다. 
 
 
 
 <table>
 <tr><th></th><th><p>Microsoft의 역할:</p></th><th><p>고객의 역할:</p></th></tr>
-<tr><td>변경 전</td><td><ul><li>서비스 변경에 대한 기대 수준을 설정합니다.</li><li>관리자 작업을 수행 해야 하는 변경 내용을 사용자에 게 5 일 전에 고객에 게 알립니다.</li><li>응급 변경 사항에 대해 알리기 전에 완화를 적용 합니다.</li></ul></td><td><ul><li>변경 및 통신에 대한 예상 결과를 이해합니다.</li><li>정기적으로 Microsoft Managed Desktop 메시지 센터를 읽습니다.</li><li>내부 변경 관리 프로세스를 검토하고 업데이트합니다.</li><li>Microsoft Managed Desktop 요구 사항을 이해 하 고 준수 하는지 확인 합니다. </li><li>승인 및 승인 (필요한 경우)</li></ul></td></tr><tr><td>변경 도중</td><td><ul><li>Windows 10 및 Office 365 클라이언트에 대 한 월별 보안 및 비보안 업데이트를 릴리스 및 배포 합니다.</li><li>데이터 신호를 모니터링 하 고 영향을 주는 큐를 지원 합니다.</li></ul></td><td><ul><li>Microsoft Managed Desktop 메시지 센터를 확인 하 고 추가 정보를 검토 합니다.</li><li>   해당 하는 경우 필요한 작업을 수행 하 고 응용 프로그램을 테스트 합니다.</li><li>중단/수정 시나리오가 발생 하는 경우 지원 요청을 만듭니다.</li></ul></td></tr><tr><td>변경 후</td><td><ul><li>고객 의견을 수집 하 여 향후 변경 사항에 대 한 롤아웃을 개선 합니다.</li><li>데이터 신호를 모니터링 하 고 영향을 주는 큐를 지원 합니다.</li></ul></td><td><ul><li>조직 내 사용자와 협력 하 여 변경을 채택 합니다.</li><li>   영업 기회에 대 한 변경 및 채택 관리 프로세스를 검토 하 여 효율성을 확보 합니다.</li><li>관리자 의견 도구에 일반적인 의견 및 구체적인 의견을 제공 합니다.</li><li>Office 앱에서 Windows 피드백 허브 및 웃는 얼굴 단추를 사용 하 여 앱 관련 피드백을 제공 하도록 사용자를 교육 합니다.</li></ul></td></tr>
+<tr><td>변경 전</td><td><ul><li>서비스 변경에 대한 기대 수준을 설정합니다.</li><li>관리자 조치가 필요한 변경에 대해 5일 전에 고객에게 알립니다.</li><li>긴급 변경의 경우 알림 전에 완화를 적용합니다.</li></ul></td><td><ul><li>변경 및 통신에 대한 예상 결과를 이해합니다.</li><li>정기적으로 Microsoft Managed Desktop Message Center를 읽어 읽습니다.</li><li>내부 변경 관리 프로세스를 검토하고 업데이트합니다.</li><li>Microsoft Managed Desktop 요구 사항을 이해하고 준수하는지 확인합니다. </li><li>필요한 경우 승인 및 승인합니다.</li></ul></td></tr><tr><td>변경 도중</td><td><ul><li>Windows 10 및 Office 365 클라이언트에 대한 월별 보안 및 비보안 업데이트를 릴리스하고 배포합니다.</li><li>데이터 신호를 모니터링하고 큐에 영향을 줄 수 있습니다.</li></ul></td><td><ul><li>Microsoft Managed Desktop Message Center를 확인하고 추가 정보를 검토합니다.</li><li>   해당하는 경우 필요한 작업을 수행하고 응용 프로그램을 테스트합니다.</li><li>중단/수정 시나리오가 있는 경우 지원 요청을 생성합니다.</li></ul></td></tr><tr><td>변경 후</td><td><ul><li>향후 변경 내용의 롤아웃을 개선하기 위해 고객 의견을 수집합니다.</li><li>데이터 신호를 모니터링하고 큐에 영향을 줄 수 있습니다.</li></ul></td><td><ul><li>조직의 사용자와 함께 변경을 채택합니다.</li><li>   효율성을 얻기 위한 기회에 대한 변경 및 채택 관리 프로세스를 검토합니다.</li><li>관리자 피드백 도구에서 일반적인 피드백 및 특정 피드백을 제공합니다.</li><li>사용자에게 Windows 피드백 허브 및 Office 앱의 스마일 단추를 사용하여 앱별 피드백을 제공하도록 교육합니다.</li></ul></td></tr>
 <table> 
 
 
@@ -60,62 +60,62 @@ ms.locfileid: "49527596"
 
 ### <a name="change-types"></a>변경 유형
 
-서비스에 대해 정기적으로 수행 되는 몇 가지 유형의 변경 사항이 있습니다. 이러한 변경 및 고객이 담당 하는 작업에 대 한 통신 채널은 다양 합니다.
+서비스에서 정기적으로 변경하는 몇 가지 유형이 있습니다. 이러한 변경 내용에 대한 통신 채널과 책임이 있는 작업은 다양합니다.
 
-모든 변경 내용이 사용자에게 동일한 영향을 미치는 것은 아니며 필요한 작업도 다를 수 있습니다. 일부는 계획 되 고 일부 계획 되지 않은 경우 (대개 비보안 업데이트 및 보안 업데이트가 계획 되지 않음) 변경 유형에 따라 통신 채널이 다를 수 있습니다. 다음 표에는 Microsoft Managed Desktop service에 대해 예상 되는 변경 유형이 나와 있습니다.
+모든 변경 내용이 사용자에게 동일한 영향을 미치는 것은 아니며 필요한 작업도 다를 수 있습니다. 일부는 계획 중이고 일부 계획되지 않은 경우도 있습니다(비보안 업데이트 및 보안 업데이트는 일반적으로 계획되지 않습니다). 변경 유형에 따라 통신 채널이 다를 수 있습니다. 다음 표에는 Microsoft Managed Desktop 서비스에 대해 예상할 수 있는 변경 유형이 나열됩니다.
 
 |   | 기능 |   비보안 업데이트 |  보안
 --- | --- | --- | ---
-**변경 유형** | 기능 업데이트<br>-새로운 기능 또는 응용 프로그램<br>-더 이상 사용 되지 않는 기능 | 문제에 대한 클라이언트 핫픽스 | 보안 패치
-**사전 알림** | 작업이 필요한 변경 내용에 대 한 5 일 유의 사항 |    아니요, 월별 릴리스에 포함 되어 있습니다.   | 아니요, 월별 릴리스에 포함 되어 있습니다. 
-**통신 채널** | -메시지 센터<br>-전자 메일 경고 | -메시지 센터<br>-전자 메일 경고 | -메시지 센터<br>-전자 메일 경고
-**전역 관리자 작업이 필요 합니다.** | 가끔 |  거의 필요 없음 |    거의 필요 없음 
+**변경 유형** | - 기능 업데이트<br>- 새로운 기능 또는 응용 프로그램<br>- 사용 불가능한 기능 | 문제에 대한 클라이언트 핫픽스 | 보안 업데이트
+**사전 알림** | 작업이 필요한 변경 내용에 대한 5일 알림 | 아니요. 이러한 변경 내용은 월별 릴리스에 포함됩니다.    | 아니요, 변경 내용은 월별 릴리스에 포함됩니다. 
+**통신 채널** | - 메시지 센터<br>- 전자 메일 알림 | - 메시지 센터<br>- 전자 메일 알림 | - 메시지 센터<br>- 전자 메일 알림
+**전역 관리자 작업이 필요합니다.** | 가끔 |  거의 필요 없음 |    거의 필요 없음 
 **작업 유형** | 설정 변경 | 사용자에게 변경 내용 전달 | 관리 설정 변경     
-**테스트 필요** | 원격 액세스 서비스를 포함 하 여 비즈니스 응용 프로그램 확인 |  가끔 - 프로세스 또는 사용자 지정 내용에 대해 수정 프로그램 테스트 |   거의 필요 없음 
-**변경 예** | -기능 업데이트: IT 관리 포털 간소화 된 지원 티켓 제출 및 검토<br>-새로운 기능 또는 응용 프로그램: Windows 10 기능 업데이트 Semi-Annual 릴리스 | 고객이 보고한 버그에 따른 핫픽스 |  
+**테스트 필요** | 원격 액세스 서비스를 비롯한 비즈니스 응용 프로그램 확인 |  가끔 - 프로세스 또는 사용자 지정 내용에 대해 수정 프로그램 테스트 |   거의 필요 없음 
+**변경 예** | - 기능 업데이트: IT 관리 포털에서 지원 티켓 제출 및 검토 간소화<br>- 새로운 기능 또는 응용 프로그램: Semi-Annual Windows 10 기능 업데이트 릴리스 | 고객이 보고한 버그에 따른 핫픽스 |  
 
 
 ## <a name="standard-operating-procedures"></a>표준 운영 절차
 
-Microsoft 관리 데스크톱 서비스는 microsoft 클라우드 인스턴스에서 다른 관리 작업을 수행할 수 있는 microsoft에서 구현 되 고 운영 됩니다. Microsoft는 Microsoft Managed Desktop 관련 설치, 구성 및 운영에만 책임이 있습니다. 
+Microsoft Managed Desktop 서비스는 Microsoft 클라우드 인스턴스에서 Microsoft에서 구현 및 운영하며, Microsoft 클라우드 인스턴스에서 다른 관리 작업을 수행하게 됩니다. Microsoft는 Microsoft Managed Desktop 관련 설정, 구성 및 작업을 전적으로 담당합니다. 
 
-온-프레미스 제품의 경우 조직에서 설치 및 구성 및 운영 작업을 관리 하는 모든 책임을 맡습니다.
+조직은 프레미스 제품의 경우 설치 및 구성 및 운영 활동을 관리하기 위한 모든 책임을 집니다.
 
 범주 |    Microsoft는 | 고객은
 --- | --- | ---
-네트워크 (프록시, 패킷 검사, VPN)  | 비즈니스 사용자에 대 한 위험을 최소화 하는 고객을 권고 하 고 계획 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.
-서비스 계정 |-자격 증명을 구현 하 고 안전 하 게 저장 하 고 관리 합니다.<br> -보안 운영 팀에 이러한 자격 증명을 무단으로 액세스 하거나 사용 하지 못하도록 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.<br>-Microsoft Managed Desktop Service 계정에 정책, 다단계 인증, 조건부 액세스 또는 응용 프로그램 배포를 할당 하지 않습니다.<br>-암호를 다시 설정 하거나 자격 증명을 사용 하지 않습니다.<br>-이 서비스 계정과 관련 된 Intune 또는 Azure 감사 로그에서 의심 스러운 작업이 관찰 되는 경우 Microsoft Managed Desktop 작업에 대 한 Sev C 지원 요청을 엽니다.
-장치 그룹 | -Microsoft 관리 되는 데스크톱 그룹 내에서 장치의 구성원을 구현 하 고 관리 합니다.<br>-Microsoft 관리 데스크톱 그룹을 사용 하 여 구성 및 장치에 대 한 업데이트 및 구성을 관리 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.<br>-Microsoft 관리 되는 데스크톱 그룹의 구성원 자격을 수정 하지 않습니다.<br>-그룹을 사용 하 여 VPN, Windows Hello 또는 전자 메일 암호화 또는 회사 Wi-Fi 프로필 구성 같은 서비스에 대해 회사 인증서를 할당 합니다.<br>-공동 관리가 있는 경우 Configuration Manager 클라이언트를 배포할 때 모든 Microsoft 관리 되는 데스크톱 그룹을 명시적으로 제외 합니다.
-정책 |  -서비스 내의 장치 구성 상태를 제어 하는 Microsoft Managed Desktop 정책을 구현 하 고 관리 합니다.<br>-장치 그룹을 점진적으로 사용 하 여 정책 또는 Windows에 업데이트를 배포 합니다.<br> -Microsoft에서 관리 하지 않는 대상 데스크톱 그룹을 명시적으로 제외 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.<br>-Microsoft managed desktop service를 통해 관리 되지 않는 장치나 사용자에 게 Microsoft 관리 데스크톱 정책을 편집 하거나 할당 하지 않습니다.
-끝점에 대 한 Microsoft Defender | Microsoft Managed Desktop service의 범위 내에서 장치를 모니터링 하 고 조사 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 권장 되는 경우 변경 내용을 적용 합니다.
-비즈니스용 Microsoft Store |  Microsoft Managed Desktop service에 대 한 Windows Autopilot 프로필을 구성 하 고 유지 관리 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.<br>-Microsoft Managed Desktop Windows Autopilot profile의 구성을 수정 하지 않거나 할당 된 장치를 추가/제거 합니다.
-인증서 | | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여, 인증서가 만료 되기 전에 60 일 이내에 지원 요청을 만들어 계획 된 구성 변경을 요청 합니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.<br>-인증서 프로필, VPN 프로필 및 Wi-Fi 프로필을 구성 하는 데 필요한 모든 인증서를 업데이트 합니다.
+네트워크(프록시, 패킷 검사, VPN)  | 고객에게 비즈니스 사용자에 대한 위험을 최소화하도록 조언하고 계획합니다. | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 정보를 요청하는 지원 요청을 생성합니다.<br>- Microsoft Managed Desktop Operations가 평가되고 권고된 다음에만 변경을 적용합니다.
+서비스 계정 |- 자격 증명을 구현, 안전하게 저장 및 관리합니다.<br> - 보안 운영 팀에 이러한 자격 증명의 무단 액세스 또는 사용에 대해 통신합니다. | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 정보를 요청하는 지원 요청을 생성합니다.<br>- Microsoft Managed Desktop Operations가 평가되고 권고된 다음에만 변경을 적용합니다.<br>- Microsoft Managed Desktop Service 계정에 정책, 다단계 인증, 조건부 액세스 또는 응용 프로그램 배포를 할당하지 않습니다.<br>- 암호를 다시 설정하거나 자격 증명을 사용하지 않습니다.<br>- 이러한 서비스 계정과 관련된 Intune 또는 Azure 감사 로그에서 의심스러운 활동이 관찰되는 경우 Microsoft Managed Desktop Operations에 대한 Sev C 지원 요청을 하세요.
+장치 그룹 | - Microsoft Managed Desktop 그룹 내에서 디바이스의 멤버 자격을 구현하고 관리합니다.<br>- Microsoft Managed Desktop 그룹을 사용하여 디바이스에 대한 구성 및 업데이트의 할당 및 릴리스를 관리합니다. | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 정보를 요청하는 지원 요청을 생성합니다.<br>- Microsoft Managed Desktop Operations가 평가되고 권고된 다음에만 변경을 적용합니다.<br>- Microsoft Managed Desktop 그룹의 구성원 자격을 수정하지 않습니다.<br>- VPN, 비즈니스용 Windows Hello 또는 전자 메일 암호화 또는 회사 프로필 구성과 같은 서비스에 대한 회사 Wi-Fi만 사용합니다.<br>- 공동 관리가 있는 경우 Configuration Manager 클라이언트를 배포할 때 모든 Microsoft Managed Desktop 그룹을 명시적으로 제외합니다.
+정책 |  - 서비스 내의 디바이스 구성 상태를 관리하는 Microsoft Managed Desktop 정책을 구현하고 관리합니다.<br>- 장치 그룹을 사용하여 증분식으로 정책 또는 Windows에 업데이트를 배포합니다.<br> - Microsoft가 아닌 다른 관리되는 데스크톱 그룹 대상을 명시적으로 제외합니다. | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 정보를 요청하는 지원 요청을 생성합니다.<br>- Microsoft Managed Desktop Operations가 평가되고 권고된 다음에만 변경을 적용합니다.<br>- Microsoft Managed Desktop 서비스에서 관리하지 않는 장치 또는 사용자에게 Microsoft Managed Desktop 정책을 편집하거나 할당하지 않습니다.
+엔드포인트용 Microsoft Defender | Microsoft Managed Desktop 서비스 범위 내의 장치를 모니터링하고 조사합니다. | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 정보를 요청하는 지원 요청을 생성합니다.<br>- Microsoft Managed Desktop Operations가 평가되고 권고된 다음에만 변경 적용
+비즈니스용 Microsoft Store |  Microsoft Managed Desktop 서비스에 대한 Windows Autopilot 프로필을 구성하고 유지 관리합니다. | - Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 정보를 요청하는 지원 요청을 생성합니다.<br>- Microsoft Managed Desktop Operations가 평가되고 권고된 다음에만 변경을 적용합니다.<br>- Microsoft Managed Desktop Windows Autopilot 프로필의 구성을 수정하거나 할당된 디바이스를 추가/제거하지 않습니다.
+인증서 | | - 인증서 만료 60일 전에 지원 요청을 만들고, Microsoft에서 검토할 구성 세부 정보, 범위, 타임라인 및 기타 관련 세부 정보를 포함하여 계획된 구성 변경에 대한 정보를 요청합니다.<br>- Microsoft Managed Desktop Operations가 평가되고 권고된 다음에만 변경을 적용합니다.<br>- 인증서 프로필, VPN 프로필 및 인증서 프로필을 구성하는 데 필요한 모든 Wi-Fi 업데이트합니다.
 
 
 
 
-## <a name="device-wipe-with-factory-reset"></a>공장 초기화로 장치 지우기
+## <a name="device-wipe-with-factory-reset"></a>초기화 시 장치 지우기
 
-Microsoft Managed Desktop Operations 팀은 필요한 경우 서비스에 등록 된 장치의 초기화를 수행할 수 있습니다. 이 기능은 다른 직원에 게 장치를 제공 해야 하거나 직원이 회사를 떠나는 경우에 유용 합니다. 
+Microsoft Managed Desktop Operations 팀은 필요한 경우 서비스에 등록된 장치의 초기화 작업을 수행할 수 있습니다. 초기화는 다른 직원에게 디바이스를 제공해야 하는 경우나 직원이 퇴사하는 경우 유용합니다. 
 
-다음과 같은 몇 가지 요구 사항이 있습니다.
+몇 가지 요구 사항이 있습니다.
 
-- 전역 관리자가 서비스 요청을 제출 해야 합니다.
-- 요청에 장치의 컴퓨터 이름을 포함 합니다.
-- 장치를 다시 설정 하기 전에 사용자 계정이 Azure AD에 있어야 합니다.
+- 전역 관리자가 서비스 요청을 제출해야 합니다.
+- 요청에 디바이스의 컴퓨터 이름을 포함합니다.
+- 디바이스를 초기화하기 전에 사용자 계정이 Azure AD에 있어야 합니다.
 
-관리 되는 데스크톱 운영 팀에서는 다음을 수행 합니다.
+관리되는 데스크톱 작업 팀은 다음을 수행 합니다.
 
-- Intune에서 장치 이름 조회
-- 장치에 공장 리셋 명령 보내기
+- Intune에서 장치 이름 찾아 보기
+- 장치에 공장 초기화 명령 보내기
 
 >[!NOTE]
->장치가 다시 설정 되기 전에 Azure AD에서 사용자 계정을 제거 하지 마십시오. 사용자가 Azure AD에 없는 경우 Intune이 장치에 공장 리셋 명령을 보낼 수 없습니다. 
+>디바이스를 초기화하기 전에 Azure AD에서 사용자 계정을 제거하지 않습니다. 사용자가 Azure AD에 없는 경우 Intune은 초기화 명령을 장치에 보낼 수 없습니다. 
 
-장치가 "부재 중 환경"으로 부팅 되 고 미리 설치 된 모든 응용 프로그램 및 설정이 다시 적용 됩니다. 장치의 사용자는 초기 설정 정보를 다시 제공 해야 합니다. 
+장치가 "첫 실행 경험"으로 부팅되고 사전 설치한 모든 응용 프로그램 및 설정이 다시 적용됩니다. 디바이스 사용자는 초기 설정 정보를 다시 제공해야 합니다. 
 
-장치를 다시 설정한 경우 조직의 다른 사람에 게 제공할 수 있습니다. 이전 사용자의 데이터 또는 enterprise 데이터는 장치에 표시 되지 않습니다. 다음 사용자는 이전 사용자가 새로운 Microsoft Managed Desktop 장치와 동일한 프로세스를 진행 합니다.
+장치가 초기화되면 조직의 다른 사용자에 게 장치를 제공 할 수 있습니다. 이전 사용자의 데이터 또는 엔터프라이즈 데이터는 장치에 없습니다. 다음 사용자는 이전 사용자가 새 Microsoft Managed Desktop 장치를 사용할 때와 동일한 프로세스를 거치게 됩니다.
 
-이 프로세스에서 BitLocker는 데이터 보안의 주요 구성 요소입니다. Microsoft Managed 데스크톱 장치에 대 한 BitLocker 암호화를 사용 하면 장치를 출하 시 재설정 한 후에도 드라이브의 데이터를 안전 하 게 유지할 수 있습니다. 드라이브에 있던 모든 데이터는 장치의 다음 사용자가 사용할 수 없게 됩니다. 자세한 내용은 [BitLocker overview](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview)를 참조 하세요.
+BitLocker는 이 프로세스에서 데이터 보안의 핵심 구성 요소입니다. Microsoft Managed Desktop 디바이스에서 BitLocker 암호화를 사용하는 경우 장치를 초기화한 후에도 드라이브의 데이터는 안전하게 유지됩니다. 드라이브에 있는 데이터는 장치의 다음 사용자가 사용할 수 없습니다. 자세한 내용은 [BitLocker 개요를 참조하세요.](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview)
 
-자세한 내용은 [공장 초기화 장치를](https://docs.microsoft.com/intune/remote-actions/devices-wipe#factory-reset-a-device)참조 하세요. 
+자세한 내용은 디바이스 [초기화(공장 초기화)를 참조하세요.](https://docs.microsoft.com/intune/remote-actions/devices-wipe#factory-reset-a-device) 

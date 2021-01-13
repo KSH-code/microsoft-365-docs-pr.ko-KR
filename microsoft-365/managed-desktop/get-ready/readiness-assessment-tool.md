@@ -1,6 +1,6 @@
 ---
-title: 준비 상태 평가 도구
-description: 도구 실행에 대 한 검사 및 결과의 의미에 대해 설명 합니다.
+title: 준비 평가 도구
+description: 도구가 실행되는 검사 및 결과의 의미에 대해 설명
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -9,77 +9,77 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 491422126f7d159689e7995b69bef0f395491dcb
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: 9c19a037ec280320d0800fe2c65f595e4b1010dd
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527712"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840364"
 ---
-# <a name="readiness-assessment-tool"></a>준비 상태 평가 도구
+# <a name="readiness-assessment-tool"></a>준비 평가 도구
 
-Microsoft Managed Desktop에 등록할 때 발생할 수 있는 환경에 대 한 원활한 다양 한 설정과 기타 매개 변수를 미리 설정 해야 합니다. 이 도구를 사용 하 여 해당 설정을 확인 하 고, 적절 하지 않은 문제를 해결 하기 위한 자세한 단계를 받을 수 있습니다.
+Microsoft Managed Desktop에 등록할 때 가장 원활한 환경을 위해 미리 설정해야 하는 중요한 설정 및 기타 매개 변수가 있습니다. 이 도구를 사용하여 이러한 설정을 확인하고 올재하지 않은 설정을 수정하기 위한 자세한 단계를 받을 수 있습니다.
 
-이 도구는 microsoft Endpoint Manager (특히, Microsoft Intune), Azure Active Directory (Azure AD) 및 microsoft 365의 설정을 검사 하 여 Microsoft Managed Desktop에서 작동 하도록 합니다. Microsoft Managed Desktop은 Azure AD 조 직 (테 넌 트)에서 검사를 마지막으로 실행 한 후 12 개월 동안 이러한 검사와 관련 된 데이터를 보존 합니다. 12 개월 후에는 식별 되지 않은 형식으로 보존 됩니다.  수집한 데이터를 삭제 하도록 선택할 수 있습니다.
+이 도구는 Microsoft 끝점 관리자(특히 Microsoft Intune), Azure AD(Azure Active Directory) 및 Microsoft 365의 설정을 확인하여 Microsoft Managed Desktop에서 작동하도록 합니다. Microsoft Managed Desktop은 Azure AD 조직(테넌트)에서 검사를 마지막으로 실행한 후 12개월 동안 이러한 검사와 관련된 데이터를 보존합니다. 12개월 후에 식별되지 않습니다.  수집하는 데이터를 삭제할 수 있습니다.
 
-적어도 Intune 관리자 역할을 가진 모든 사용자는이 도구를 실행할 수 있지만, 두 가지 검사 ([조건부 액세스 정책](readiness-assessment-fix.md#conditional-access-policies) 및 [다단계 인증](readiness-assessment-fix.md#multifactor-authentication) 에는 추가 권한이 필요 함)가 있습니다.
+Intune 관리자 역할 이상이 있는 모든 사용자가 이 도구를 실행할 수[](readiness-assessment-fix.md#conditional-access-policies) 있지만 두 가지 [](readiness-assessment-fix.md#multifactor-authentication) 확인(조건부 액세스 정책 및 다단계 인증에는 더 많은 권한이 필요합니다.
  
-평가 도구는 다음 항목을 확인 합니다.
+평가 도구는 다음 항목을 검사합니다.
 
 ## <a name="microsoft-intune-settings"></a>Microsoft Intune 설정
 
 |수표  |설명  |
 |---------|---------|
-|Autopilot 배포 프로필     | Autopilot 배포 프로필의 할당이 모든 장치에 적용 되지 않는지 확인 합니다 (프로필을 Microsoft Managed Desktop 장치에 *할당 하면 안 됩니다.* ).       |
-|인증서 커넥터     | 인증서 커넥터의 상태를 검사 하 여 활성 상태임을 확인 합니다.   |
-|조건부 액세스     | 조건부 액세스 정책이 모든 사용자에 게 할당 되지 않았는지 확인 합니다 (조건부 액세스 정책을 Microsoft Managed Desktop service 계정에 할당할 수 *없음* ).    |
-|장치 준수 정책     | Intune 준수 정책이 모든 사용자에 게 할당 되어 있지 않은지 확인 합니다 (이 정책은 어떠한 Microsoft 관리 되는 데스크톱 장치에도 지정 *되지* 않아야 함).    |
-|장치 구성 프로필     | 구성 프로필이 모든 사용자 또는 모든 장치에 할당 되지 않았는지 확인 합니다 (구성 프로필을 Microsoft Managed Desktop 장치에 할당 *하지* 않아야 함).     |
-|장치 유형 제한     | 조직의 Windows 10 장치가 Intune에서 등록을 허용 하는지 확인 합니다.        |
-|등록 상태 페이지     | 등록 상태 페이지가 사용 하도록 설정 되지 않았음을 확인 합니다.      |
-|Intune 등록     | Azure AD 조직의 Windows 10 장치가 Intune에 자동으로 등록 되는지 확인 합니다.         |
-|비즈니스용 Microsoft Store     | Microsoft Store for Business가 사용 하도록 설정 되었으며 Intune과 동기화 되는지 확인 합니다.        |
-|다단계 인증 | 다단계 인증이 Microsoft Managed Desktop service 계정에 적용 되지 않는지 확인 합니다.
-|PowerShell 스크립트     | Microsoft Managed Desktop 장치를 대상으로 하는 방식으로 Windows PowerShell 스크립트가 할당 *되지 않음* 을 확인 합니다.    |
-|지역     | Microsoft Managed Desktop에서 해당 지역이 지원 되는지 확인 합니다.        |
-|보안 기준     | 보안 기본 프로필이 모든 사용자 또는 모든 장치를 대상으로 하지 않는지 확인 합니다 (보안 기본 정책은 Microsoft Managed Desktop 장치를 대상으로 *하지* 않아야 함).       |
+|Autopilot 배포 프로필     | Autopilot 배포 프로필 할당이 모든 장치에 적용되지 않는지 확인(프로필을 Microsoft Managed Desktop 장치에 할당하면 안 됩니다.)        |
+|인증서 커넥터     | 인증서 커넥터의 상태를 확인하여 활성 상태   |
+|조건부 액세스     | 조건부 액세스 정책이 모든 사용자에게 할당되지 않았는지  확인(조건부 액세스 정책을 Microsoft Managed Desktop 서비스 계정에 할당하지 말아야 합니다.)    |
+|장치 준수 정책     | Intune 준수 정책이 모든 사용자에게 할당되지 않는지  검사합니다(정책은 Microsoft Managed Desktop 장치에 할당되어 있지 않습니다.)    |
+|장치 구성 프로필     | 구성 프로필이 모든 사용자 또는 모든 장치에 할당되지 않는지  확인(구성 프로필을 Microsoft Managed Desktop 장치에 할당하지 말아야 합니다.)     |
+|장치 유형 제한     | 조직의 Windows 10 장치가 Intune에 등록할 수 있도록 허용하는지 확인        |
+|등록 상태 페이지     | 등록 상태 페이지를 사용할 수 없는지 확인      |
+|Intune 등록     | Azure AD 조직의 Windows 10 장치가 Intune에 자동으로 등록되어 있는지 확인         |
+|비즈니스용 Microsoft Store     | 비즈니스용 Microsoft Store가 사용하도록 설정되어 있으며 Intune과 동기화되어 있는지 확인        |
+|다단계 인증 | 다단계 인증이 Microsoft Managed Desktop 서비스 계정에 적용되지 않는지 확인
+|PowerShell 스크립트     | Microsoft Windows PowerShell 디바이스를 대상으로 하는  방식으로 스크립트가 할당되지 않은지 확인    |
+|Region     | Microsoft Managed Desktop에서 해당 지역이 지원되는지 확인        |
+|보안 기준     | 보안 기준 프로필이 모든 사용자 또는 모든 장치를 대상으로 하지 않는지  검사합니다(보안 기준 정책은 Microsoft Managed Desktop 장치를 대상으로 지정하지 말아야 합니다.)       |
 |Windows 앱     | Microsoft Managed Desktop 장치에 할당할 앱 검토      |
-|비즈니스용 Windows Hello     | 비즈니스용 Windows Hello가 사용 되도록 설정 되었는지 확인 합니다.        |
-|Windows 10 업데이트 링     | Intune의 "Windows 10 업데이트 링" 정책이 모든 사용자 또는 모든 장치를 대상으로 하지 않는지 확인 합니다 (정책이 Microsoft Managed Desktop 장치를 대상으로 *하지* 않아야 함).     |
+|비즈니스용 Windows Hello     | 비즈니스용 Windows Hello가 사용하도록 설정되어 있는지 확인        |
+|Windows 10 업데이트 링     | Intune의 "Windows 10 업데이트 링" 정책이 모든 사용자 또는 모든 장치를  대상으로 하지 않는지 검사합니다(이 정책은 Microsoft Managed Desktop 장치를 대상으로 지정하지 말아야 합니다.)     |
 
 
 ## <a name="azure-active-directory-settings"></a>Azure Active Directory 설정
 
 |수표  |설명  |
 |---------|---------|
-|엔터프라이즈 상태 로밍에 대 한 "Ad hoc" 구독     | "False"로 설정 된 경우 엔터프라이즈 상태 로밍이 제대로 작동 하지 않는 설정을 확인 하는 방법을 제안 합니다.  |
-|Enterprise State Roaming     | 엔터프라이즈 상태 로밍이 사용 하도록 설정 되었는지 확인 하는 방법을 제안 합니다.       |
-|라이선스     | 필요한 [라이선스](prerequisites.md#more-about-licenses) 를 가져왔는지 확인 합니다.         |
-|다단계 인증     | 다단계 인증이 모든 사용자에 게 적용 되지 않는 것을 확인 합니다 (다단계 인증은 Microsoft Managed Desktop service 계정에 실수로 적용 되지 않음).|
-|보안 계정 이름   | Microsoft Managed Desktop이 자체 사용을 위해 예약한 사용자 이름과 충돌 하는 것을 확인 합니다.        |
-|보안 관리자 역할     | 끝점에 대 한 Microsoft Defender에서 보안 판독기, 보안 운영자 또는 전역 독자 역할을 할당 받은 사용자에 게 해당 역할을 지정 했는지 확인 합니다.         |
-|보안 기본값 | Azure AD 조직이 Azure Active Directory에서 보안 기본값을 사용 하는지 여부를 확인 합니다. |
-|셀프 서비스 암호 재설정     | 셀프 서비스 암호 재설정이 사용 하도록 설정 되어 있는지 확인        |
-|표준 사용자 역할     | 사용자가 표준 사용자이 고 로컬 관리자 권한이 없는지 확인 합니다.         |
+|엔터프라이즈 상태 로밍에 대한 "애드 호크" 구독     | "false"로 설정하면 엔터프라이즈 상태 로밍이 제대로 작동하지 않을 수 있는 설정을 검사하는 방법에 대해 알 수 있습니다.  |
+|Enterprise State Roaming     | 엔터프라이즈 상태 로밍이 사용하도록 설정되어 있는지 확인하는 방법에 대해 알 수 있습니다.       |
+|라이선스     | 필요한 라이선스를 획득한지 [확인](prerequisites.md#more-about-licenses)         |
+|다단계 인증     | 다단계 인증이 모든 사용자에게 적용되지 않는지 확인(다단계 인증을 Microsoft Managed Desktop 서비스 계정에 실수로 적용하지 말아야 합니다.)|
+|보안 계정 이름   | Microsoft Managed Desktop에서 자체적으로 사용하기 위해 예약한 사용자 이름과 충돌하지 않습니다.        |
+|보안 관리자 역할     | Security Reader, Security Operator 또는 Global Reader 역할이 있는 사용자에게 끝점용 Microsoft Defender에서 해당 역할이 할당되어 있는지 확인         |
+|보안 기본값 | Azure AD 조직이 Azure Active Directory에서 보안 기본값을 사용하도록 설정되어 있는지 확인합니다. |
+|셀프 서비스 암호 재설정     | 셀프 서비스 암호 재설정이 사용하도록 설정되어 있는지 확인        |
+|표준 사용자 역할     | 사용자가 표준 사용자로서 로컬 관리자 권한이 없는지 확인         |
 
 
-## <a name="microsoft-365-apps-for-enterprise-settings"></a>Microsoft 365 Apps for enterprise 설정
+## <a name="microsoft-365-apps-for-enterprise-settings"></a>엔터프라이즈용 Microsoft 365 앱 설정
 
 |수표  |설명  |
 |---------|---------|
-|비즈니스용 OneDrive     | 비즈니스용 OneDrive에서 지원 되지 않는 설정을 사용 하는지 여부를 확인 합니다.        |
+|비즈니스용 OneDrive     | 비즈니스용 OneDrive에서 지원되지 않는 설정을 사용하고 있는지 확인합니다.        |
 
 
-각 검사에 대해이 도구는 다음과 같은 네 가지 가능한 결과 중 하나를 보고 합니다.
+각 검사에 대해 도구는 다음 네 가지 결과 중 하나를 보고합니다.
 
 
 |결과  |의미  |
 |---------|---------|
-|맞춤형     | 등록을 완료 하기 전에 작업을 수행할 필요가 없습니다.        |
-|조언    | 등록 및 사용자를 위한 최상의 환경을 위한 도구에 나와 있는 단계를 수행 합니다. 등록을 완료할 *수* 있지만 첫 번째 장치를 배포 하기 전에 이러한 문제를 해결 해야 합니다.        |
-|준비되지 않음 | 이러한 문제를 해결 하지 않으면 *등록에 실패* 합니다. 도구의 단계에 따라 문제를 해결 합니다.        |
-|오류 | 사용 중인 Azure 활성 디렉터 (AD) 역할에이 검사를 실행할 수 있는 충분 한 권한이 없습니다. |
+|준비     | 등록을 완료하기 전에 아무 작업도 수행하지 않습니다.        |
+|권고    | 등록과 사용자에 대한 최상의 환경을 위해 도구의 단계를 따릅니다. *등록을* 완료할 수 있지만 첫 번째 장치를 배포하기 전에 이러한 문제를 해결해야 합니다.        |
+|준비되지 않음 | *이러한 문제를 해결하지* 않는 경우 등록이 실패합니다. 도구의 단계에 따라 문제를 해결합니다.        |
+|오류 | 사용중인 Azure AD(Active Director) 역할에는 이 검사를 실행할 수 있는 권한이 없습니다. |
 
 ## <a name="after-enrollment"></a>등록 후
 
-Microsoft Managed Desktop의 등록을 완료 한 후에는 다시 돌아가 특정 Intune 및 Azure AD 설정을 조정 해야 합니다. 자세한 내용은 [등록 후 설정 조정을](../get-started/conditional-access.md)참조 하십시오.
+Microsoft Managed Desktop에서 등록을 완료한 후 돌아가서 특정 Intune 및 Azure AD 설정을 조정해야 합니다. 자세한 내용은 등록 후 [설정 조정을 참조하세요.](../get-started/conditional-access.md)

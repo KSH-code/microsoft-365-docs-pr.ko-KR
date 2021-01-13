@@ -1,6 +1,6 @@
 ---
 title: Microsoft Managed Desktop의 보안 작업
-description: ''
+description: 보안 운영 센터에서 제공하는 서비스 및 프로세스
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -9,36 +9,36 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5698e2a88adf3d2bae84a82e0e001132293e36be
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 4464c9c491af11831a3511dab60a472f1584d7f6
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847719"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840345"
 ---
 # <a name="security-operations-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 보안 작업
 
-데스크톱 환경의 보안을 유지 하기 위한 정보 보안 직원과 Microsoft Managed Desktop (데스크톱 보안 운영 센터) 파트너 이 팀은 전문가 분석을 통해 관리 되는 장치에서 모든 보안 경고를 수신 하 고이에 응답 하 고, 필요한 경우 보안 인시던트 대응 활동을 구동 합니다. SOC 사용에 대 한 자세한 내용은 관리자 포털에서 운영 설명서를 참조 하세요.
+정보 보안 직원이 있는 Microsoft Managed Desktop Security Operations Center(SOC) 파트너는 데스크톱 환경을 안전하게 보호합니다. 당사의 팀은 전문 분석을 통해 관리되는 장치의 모든 보안 경고를 수신하고 대응하며, 필요한 경우 보안 인시던트 대응 활동을 주도합니다. SOC 사용에 대한 자세한 내용은 관리 포털에서 운영 설명서를 검토하세요.
 
-SOC는 소프트웨어, 네트워크 또는 인간 악의적 사용자을 통한 일반적인 공격 방법을 포함 하 여 Microsoft 정규 직원 으로부터 현재와 새로 등장 한 위협에 대 한 전문성을 24/7/365 제공 합니다.
+SOC는 소프트웨어, 네트워크 또는 인간 공격자에 대한 일반적인 공격 방법을 포함하여 현재 및 새로운 위협 환경의 전문 지식이 있는 Microsoft 상시 직원으로부터 24/7/365 범위를 제공합니다.
 
-SOC는 다음과 같은 서비스를 제공 합니다.
-- 데이터를 분석 하 여 영향을 식별 하 고 장치 또는 환경의 전반적인 위험을 평가 하는 검색 된 이벤트에 대 한 빠르고 정확한 대응
-- 장치 관리 및 격리 작업-알려진 손상 으로부터 환경을 보호 하 고 확산을 방지 하 여 위험 감소
-- 보안 인시던트 대응 프로세스를 추진 하 여 사용자의 적시에 정확 하 고 정확한 통신 보장
-- 악용 되기 전에 위험을 식별 하 고 해결 하기 위한 위협 및 취약성 데이터를 기반으로 한 분석 및 권장 사항
-- 관리 되는 장치를 통한 고급 사냥은 알려진 위협과 잠재적인 위협에 대 한 지표 및 엔터티를 식별 합니다.
+SOC는 다음 서비스를 제공합니다.
+- 감지된 이벤트에 대한 신속하고 정확한 대응, 데이터 분석을 통해 장치 또는 환경에 대한 전반적인 위험을 파악하고 평가
+- 알려진 손상 또는 의심되는 손상으로부터 환경을 보호하기 위한 장치 관리 및 차단 작업으로 확산을 방지하여 위험을 줄입니다.
+- 보안 인시던트 대응 프로세스를 진행하여 보안 팀과 시기적소하고 정확한 의사소통 보장
+- 위협 및 취약성 데이터를 기반으로 하여 위험에 노출되기 전에 위험을 식별하고 해결하기 위한 분석 및 권장 사항
+- 알려진 위협과 잠재적인 위협 모두에 대한 지표 및 엔터티를 식별하기 위해 관리되는 장치에서 고급 헌팅
 
-## <a name="processes"></a>프로세서
+## <a name="processes"></a>프로세스
 
-- Microsoft Managed Desktop Security 작업은 Microsoft의 [사이버 방어 운영 센터](https://www.microsoft.com/msrc/cdoc)와의 파트너 관계에 있는 전일 근무 직원 들의 팀입니다. 
-- SOC는 Microsoft 관리 데스크톱에 아직 표시 되지 않은 것 처럼 내부 및 외부의 회사 전체에서의 집합적 신호를 사용 합니다.
-- Microsoft 보안 솔루션은 많은 cybersecurity 보호 표준에 맞춥니다. SOC 작업은 국가 표준 및 기술 컴퓨터 보안 사고 대응 처리 가이드 (NIST 800-61 r2)를 기반으로 합니다.
-- 이 프로세스를 통해 이러한 단계를 통해 환경을 보다 효율적으로 보호 하는 방식으로 분석과 설명서 및 사후 복구를 위한 정보 및 증거를 적절 하 게 수집할 수 있습니다.
+- Microsoft Managed Desktop Security Operations는 Microsoft의 사이버 방어 운영 센터와 파트너십을 하여 Microsoft 정규 직원의 [직원입니다.](https://www.microsoft.com/msrc/cdoc) 
+- SOC는 Microsoft Managed Desktop에서 아직 볼 수 없는 것로부터 장치를 보호하기 위해 내부 및 외부의 회사 전반의 신호를 사용하여 장치를 보호합니다.
+- Microsoft 보안 솔루션은 많은 사이버 보안 보호 표준에 부합합니다. SOC 작업은 NIST 800-61 r2(National Institute of Standards and Technology Computer Security Incident Response Handling Guide)를 기반으로 합니다.
+- 이 프로세스를 통해 분석 및 문서화 및 복구 후 정보를 수집하여 다음 단계를 통해 환경을 보다 잘 보호할 수 있습니다.
     - 준비, 검색 및 분석
-    - 관계
-    - Eradication
+    - 포함
+    - 지우기
     - 복구
-    - 인시던트 사후 활동
-- Microsoft Managed Desktop 고객은 Microsoft Threat services 전문가 서비스에 등록할 수 있습니다. 이 서비스를 사용 하는 SOC liaises에서는 경고 조회, 잠재적으로 손상 된 장치, 의심 스러운 네트워크 연결의 근본 원인 및 진행 중인 고급 지속적인 위협 캠페인에 대 한 추가 위협 인텔리전스를 비롯 하 여 조직에 영향을 주는 복잡 한 위협을 이해 하는 데 도움이 됩니다. 자세한 내용은 [Microsoft Threat 전문가가](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-threat-experts)를 참조 하세요.
-- SOC의 위협 및 취약성 관리 프로세스는 Microsoft의 일부 서비스를 사용 하 여 조직에서 위협 으로부터 보호 하기 위한 권장 사항을 알리는 데 도움을 줍니다. SOC는 microsoft Defender for Endpoint 보안 센터 및 Microsoft 외부의 관련 취약성 데이터 원본에서 데이터를 사용 하 여 취약성 및 구성 오류를 검색 하 고 조치를 취할 수 있는 보고 기능을 제공 합니다.
+    - 인시던트 후 활동
+- Microsoft Managed Desktop 고객은 Microsoft 위협 전문가 서비스에 등록할 수 있습니다. SOC는 경고 문의, 잠재적으로 손상된 장치, 의심스러운 네트워크 연결의 근본 원인 및 지속적인 고급 영구 위협 캠페인과 관련하여 기타 위협 인텔리전스를 포함하여 조직에 영향을 주는 복잡한 위협을 보다 잘 이해하기 위해 이 서비스와 연결합니다. 자세한 내용은 [Microsoft 위협 전문가를 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-threat-experts)
+- SOC의 위협 및 취약성 관리 프로세스는 Microsoft의 일부 서비스를 사용하여 위협으로부터 보호하기 위해 조직에 대한 권장 사항을 알리는 데 도움이 됩니다. SOC는 끝점 보안 센터용 Microsoft Defender 및 Microsoft 내부 및 외부의 관련 취약성 데이터 원본의 데이터를 사용하여 취약성 및 잘못 구성을 검색하고 실행 가능한 보고를 제공합니다.

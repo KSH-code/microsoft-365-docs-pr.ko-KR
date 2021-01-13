@@ -11,23 +11,23 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 57b49e49a20ee9e088301e90590c19cfabf89a2b
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 5d386000fab8894dd60790d3514ae93feaa03a22
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658944"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841282"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관 장치
 
-최상의 사용자 환경을 보장하기 위해 Microsoft Managed Desktop은 특정 시점에 장치에 대한 지원을 중지합니다. 이 항목에서는 "보관"이라고 하는 몇 년 후에 사용 중지될 예정인 디바이스를 나열합니다. 이미 있는 장치를 사용하여 Microsoft Managed Desktop을 시작하는 경우 이 목록을 주의 깊게 검사해야 합니다.
+최상의 사용자 환경을 보장하기 위해 Microsoft Managed Desktop은 특정 시점에 장치에 대한 지원을 중지합니다. 이 문서에서는 "보관"이라고 하는 몇 년 후에 사용 중지될 예정인 디바이스를 나열합니다. 이미 있는 장치를 사용하여 Microsoft Managed Desktop을 시작하는 경우 이 목록을 주의 깊게 검사해야 합니다.
 
 >[!IMPORTANT]
 >지금도 이러한 장치를 등록할 수 있지만 Microsoft Managed Desktop을 사용하면 서비스 수명이 짧아지게 됩니다. 새 장치를 구입하는 경우 활성 장치 목록의 모델을 [사용해야 합니다.](./device-list.md)
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
-Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나에 있어야 하며 RAM, 프로세서 패밀리 및 디스크 공간에 대한 나열된 사양을 충족하거나 초과해야 합니다. 다른 사용자 지정은 지원되지 않습니다.
+Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나일 수 있으며 RAM, 프로세서 패밀리 및 디스크 공간에 대한 나열된 사양을 충족하거나 초과해야 합니다. 다른 사용자 지정은 지원되지 않습니다.
 
 
 
@@ -70,10 +70,10 @@ Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나�
 - Windows 첫 실행 환경을 완료하지 않은 경우
 - 장치 등록 기능을 사용하여 Microsoft Managed [Desktop에 등록](https://aka.ms/mmddrhelp)
 
-#### <a name="additional-help"></a>추가 도움말
+#### <a name="more-help"></a>추가 도움말
 
 이러한 리소스는 특정 장치에 대해 질문할 수 있는 질문에 답변하는 데 도움이 될 수 있습니다.
 
-- Dell 장치에 대한 자세한 내용은 다음 [MMD_at_dell@dell.com.](mailto:MMD_at_dell@dell.com)
+- Dell 디바이스에 대한 자세한 내용은 다음 [MMD_at_dell@dell.com.](mailto:MMD_at_dell@dell.com)
 
 - HP 디바이스에 대한 자세한 질문은 미주(mmd-americas@hp.com[);](mailto:mmd-americas@hp.com) 유럽/중동/아프리카(mmd-emea@hp.com );[](mailto:mmd-emea@hp.com) 아시아 태평양/일본(mmd-apj@hp.com );[](mailto:mmd-apj@hp.com) Global([mmd@hp.com](mailto:mmd@hp.com))

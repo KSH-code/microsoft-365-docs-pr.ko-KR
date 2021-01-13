@@ -1,6 +1,6 @@
 ---
 title: 준비 평가 도구에서 발견한 문제 해결
-description: 도구에서 찾은 각 문제의 세부 작업
+description: 도구에서 찾은 각 문제에서 수행할 자세한 작업
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 3c3c0d21ca93c0d93d17cefbc6ce630d00a16d09
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.openlocfilehash: ada6bb8ef66e3414a375a151b45d4871e306e825
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760127"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841074"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
 
@@ -45,7 +45,7 @@ Microsoft Managed Desktop에서 사용하는 할당된 그룹 또는 동적 그�
 
 **권고**
 
-Autopilot 프로필이 등록 시 생성되는 Microsoft Managed Desktop 장치를 포함하지 않는 할당되거나 동적 Azure AD 그룹을 대상으로 하는지 확인 단계는 Windows [Autopilot을 사용하여 Intune에서 Windows 장치 등록을 참조하세요.](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot) Microsoft Managed Desktop 등록 후 Autopilot 정책을 설정하여 최신 작업 공간 장치 **- 모든** Azure AD 그룹을 제외합니다.
+Autopilot 프로필이 등록 시 생성되는 Microsoft Managed Desktop 장치를 포함하지 않는 할당된 또는 동적 Azure AD 그룹을 대상으로 하는지 확인 단계는 Windows [Autopilot을 사용하여 Intune에서 Windows 장치 등록을 참조하세요.](https://docs.microsoft.com/mem/autopilot/enrollment-autopilot) Microsoft Managed Desktop 등록 후 Autopilot 정책을 설정하여 최신 **Workplace Devices -All** Azure AD 그룹을 제외합니다.
 
 
 ### <a name="certificate-connectors"></a>인증서 커넥터
@@ -54,7 +54,7 @@ Microsoft Managed Desktop에 등록하려는 장치에서 사용하는 인증서
 
 **권고**
 
-인증서 커넥터가 없습니다. 커넥터가 필요하지 않을 수도 있지만 Microsoft Managed Desktop 장치에 대한 네트워크 연결에 일부 커넥터가 필요한지 평가해야 합니다. 자세한 내용은 Microsoft Managed Desktop에 대한 인증서 및 네트워크 프로필 [준비를 참조하세요.](certs-wifi-lan.md)
+인증서 커넥터가 없습니다. 커넥터가 필요하지 않을 수도 있지만 Microsoft Managed Desktop 장치에 대한 네트워크 연결을 위해 일부 커넥터가 필요한지 평가해야 합니다. 자세한 내용은 Microsoft Managed Desktop에 대한 인증서 및 네트워크 프로필 [준비를 참조하세요.](certs-wifi-lan.md)
 
 **권고**
 
@@ -63,7 +63,7 @@ Microsoft Managed Desktop에 등록하려는 장치에서 사용하는 인증서
 
 **권고**
 
-인증서 커넥터가 하나 이상 있으며 오류가 보고되지 않습니다. 그러나 Microsoft Managed Desktop 디바이스용 커넥터를 다시 사용하려면 프로필을 만들어야 할 수 있습니다. 자세한 내용은 Microsoft Managed Desktop에 대한 인증서 및 네트워크 프로필 [준비를 참조하세요.](certs-wifi-lan.md)
+인증서 커넥터가 하나 이상 있으며 오류가 보고되지 않습니다. 그러나 Microsoft Managed Desktop 디바이스에 대한 커넥터를 다시 사용하려면 프로필을 만들어야 할 수 있습니다. 자세한 내용은 Microsoft Managed Desktop에 대한 인증서 및 네트워크 프로필 [준비를 참조하세요.](certs-wifi-lan.md)
 
 
 ### <a name="conditional-access-policies"></a>조건부 액세스 정책
@@ -72,11 +72,11 @@ Azure AD 조직의 조건부 액세스 정책은 Microsoft Manage Desktop 사용
 
 **준비되지 않음**
 
-모든 사용자를 대상으로 하는 조건부 액세스 정책이 하나 이상 있습니다. 등록 시 생성될 Microsoft Managed Desktop 서비스 계정의 Azure AD 그룹을 포함하지 않는 특정 Azure AD 그룹을 대상으로 지정하도록 정책을 초기화합니다. 단계는 조건부 [액세스: 사용자 및 그룹을 참조하세요.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups)
+모든 사용자를 대상으로 하는 조건부 액세스 정책이 하나 이상 있습니다. 등록 시 생성될 Microsoft Managed Desktop 서비스 계정의 Azure AD 그룹을 포함하지 않는 특정 Azure AD 그룹을 대상으로 지정하도록 정책을 초기화합니다. 단계는 조건부 액세스: 사용자 및 [그룹을 참조하세요.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-users-groups)
 
 **권고**
 
-최신 작업 공간 서비스 계정 **Azure** AD 그룹을 제외한 조건부 액세스 정책이 있는지 확인 단계는 [조건부 액세스 조정을 참조하세요.](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/conditional-access) 최신 **Workplace Service 계정** Azure AD 그룹은 등록 시 서비스를 위해 만드는 동적 그룹입니다. 등록 후 이 그룹을 제외하기 위해 돌아와야 합니다. 이러한 서비스 계정에 대한 자세한 내용은 Standard 운영 [절차를 참조합니다.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
+최신 작업 공간 서비스 계정 **Azure** AD 그룹을 제외한 조건부 액세스 정책이 있는지 확인 단계에 대한 자세한 내용은 [조건부 액세스 조정을 참조하세요.](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/conditional-access) 최신 **Workplace Service 계정** Azure AD 그룹은 등록 시 서비스를 위해 만드는 동적 그룹입니다. 등록 후 이 그룹을 제외하기 위해 돌아와야 합니다. 이러한 서비스 계정에 대한 자세한 내용은 Standard 운영 [절차를 참조합니다.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
 
 **오류**
 
@@ -113,7 +113,7 @@ Azure AD 조직의 Intune 장치 구성 정책은 Microsoft Manage Desktop 장�
 
 **권고**
 
-Microsoft Managed Desktop 장치 또는 사용자를 포함하지 않은 준수 정책이 있는지 확인 자세한 단계는 [Microsoft Intune에서](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)준수 정책 만들기를 참조하세요.
+Microsoft Managed Desktop 장치 또는 사용자를 포함하지 않은 준수 정책이 있는지 확인 자세한 단계는 [Microsoft Intune에서 준수 정책 만들기를 참조하세요.](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)
 
 
 
@@ -132,11 +132,11 @@ Microsoft Managed Desktop 장치는 Intune에 등록할 수 있어야 합니다.
 
 **준비되지 않음**
 
-ESP 기본 프로필이 앱 및 프로필 구성 진행률 **표시로 설정되어 있습니다.** 이 설정을 사용하지 않도록 설정하거나 등록 상태 설정 페이지의 단계에 따라 Azure AD 그룹에 대한 할당에 Microsoft Managed Desktop 장치가 포함되어 [있지 않은지 확인하십시오.](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)
+ESP 기본 프로필이 앱 및 프로필 구성 진행률 표시로 **설정되어 있습니다.** 이 설정을 사용하지 않도록 설정하거나 등록 상태 설정 페이지의 단계에 따라 Azure AD 그룹에 대한 할당에 Microsoft Managed Desktop 장치가 포함되어 [있지 않은지 확인하십시오.](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)
 
 **권고**
 
-앱 및 프로필 구성 진행률 표시 설정이 있는 프로필이 Microsoft Managed Desktop 장치를 포함하는 Azure AD 그룹에 할당되어 있지 않은지 확인  자세한 내용은 등록 상태 페이지 [설정을 참조하십시오.](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)
+앱 및 프로필 구성 진행률 표시 설정이 있는 프로필이 Microsoft Managed Desktop 장치를 포함하는 Azure AD 그룹에 할당되지 않은지 확인  자세한 내용은 등록 상태 페이지 [설정을 참조하십시오.](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)
 
 ### <a name="intune-enrollment"></a>Intune 등록
 
@@ -206,11 +206,11 @@ Azure AD 조직이 있는 하나 이상의 국가는 Microsoft Managed Desktop�
 
 **준비되지 않음**
 
-모든 사용자, 모든 장치 또는 둘 다를 대상으로 하는 보안 기준 프로필이 있습니다. Microsoft Managed Desktop 장치를 포함하지 않는 특정 Azure AD 그룹을 대상으로 하는 할당을 사용하도록 정책을 변경합니다. 단계는 보안 기준을 사용하여 [Intune에서 Windows 10 디바이스를 구성합니다.](https://docs.microsoft.com/mem/intune/protect/security-baselines)
+모든 사용자, 모든 장치 또는 둘 다를 대상으로 하는 보안 기준 프로필이 있습니다. Microsoft Managed Desktop 장치를 포함하지 않는 특정 Azure AD 그룹을 대상으로 하는 할당을 사용하도록 정책을 변경합니다. 단계는 보안 기준을 사용하여 [Intune에서 Windows 10 디바이스를 구성하는 방법을 참조하세요.](https://docs.microsoft.com/mem/intune/protect/security-baselines)
 
 **권고**
 
-Microsoft Managed Desktop 장치를 제외한 보안 기준 정책이 있는지 확인 단계는 보안 기준을 사용하여 [Intune에서 Windows 10 디바이스를 구성합니다.](https://docs.microsoft.com/mem/intune/protect/security-baselines) 최신 작업 공간 **장치 - 모든** Azure AD 그룹은 Microsoft Managed Desktop에 등록할 때 만드는 동적 그룹이기 때문에 등록 후 이 그룹을 제외하기 위해 돌아와야 합니다.
+Microsoft Managed Desktop 장치를 제외한 보안 기준 정책이 있는지 확인 단계는 보안 기준을 사용하여 [Intune에서 Windows 10 디바이스를 구성하는 방법을 참조하세요.](https://docs.microsoft.com/mem/intune/protect/security-baselines) 최신 작업 공간 **장치 - 모든** Azure AD 그룹은 Microsoft Managed Desktop에 등록할 때 만드는 동적 그룹이기 때문에 등록 후 이 그룹을 제외하기 위해 돌아와야 합니다.
 
 
 ### <a name="windows-apps"></a>Windows 앱
@@ -291,7 +291,7 @@ Microsoft Managed Desktop을 사용하는 데 필요한 모든 라이선스가 �
 
 ### <a name="security-administrator-roles"></a>보안 관리자 역할
 
-특정 보안 역할이 있는 사용자에게는 끝점용 Microsoft Defender에서 할당된 보안 역할이 있어야 합니다.
+특정 보안 역할이 있는 사용자는 끝점용 Microsoft Defender에서 해당 역할을 할당해야 합니다.
 
 **권고**
 
@@ -336,5 +336,5 @@ Microsoft Managed Desktop 사용자에게는 등록 후 Microsoft Managed Deskto
 
 **권고**
 
-특정 도메인 설정에 가입된 PC에서만 동기화 **허용을 사용하고** 있습니다. 이 설정은 Microsoft Managed Desktop에서는 작동하지 않습니다. 이 설정을 사용하지 않도록 설정하고 대신 조건부 액세스 정책을 사용하기 위해 OneDrive를 설치합니다. 도움말은 [조건부 액세스 배포](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access) 계획을 참조합니다.
+특정 도메인 설정에 가입된 PC에서만 동기화 **허용을 사용 중입니다.** 이 설정은 Microsoft Managed Desktop에서는 작동하지 않습니다. 이 설정을 사용하지 않도록 설정하고 대신 조건부 액세스 정책을 사용하기 위해 OneDrive를 설치합니다. 도움말은 [조건부 액세스 배포](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access) 계획을 참조합니다.
 

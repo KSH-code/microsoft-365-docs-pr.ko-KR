@@ -16,62 +16,62 @@ search.appverid:
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 ms.custom:
 - seo-marvel-apr2020
-description: 조직의 법적 조사를 관리 하려면 Office 365의 보안 & 준수 센터에서 eDiscovery 사례를 사용 합니다.
-ms.openlocfilehash: edc9835cdbefa611af4c0906be5d3e1d0404c635
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+description: Office 365의 보안 & 준수 센터에서 eDiscovery 사례를 사용하여 조직의 법적 조사를 관리합니다.
+ms.openlocfilehash: 7a02bd47f93a85e643694efea4dcc140847916e0
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48285654"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840707"
 ---
 # <a name="manage-legal-investigations-in-microsoft-365"></a>Microsoft 365에서 법적 조사 관리
 
-조직에는 조직의 특정 임원 또는 다른 직원과 관련 된 법적 사례에 대응 해야 하는 여러 가지 이유가 있습니다. 이 작업을 수행 하는 동안에는 다른 조사 관련 정보를 전자 메일, 문서, 인스턴트 메시징 대화 및 기타 콘텐츠 위치에 빠르게 찾고 보존 하는 작업이 진행 될 수 있습니다. 보안 및 준수 센터에서 eDiscovery 사례 도구를 사용 하 여 이와 유사한 여러 가지 비슷한 작업을 수행할 수 있습니다.
+조직은 조직의 특정 임원이나 다른 직원과 관련된 법률 사례에 대응해야 하는 여러 가지 이유가 있습니다. 여기에는 전자 메일, 문서, 인스턴트 메시징 대화 및 매일 작업에서 사람들이 사용하는 기타 콘텐츠 위치에서 추가 조사 관련 정보를 빠르게 찾아서 보존해야 할 수 있습니다. 보안 및 규정 준수 센터에서 eDiscovery 사례 도구를 사용하여 이러한 활동 및 기타 많은 유사한 작업을 수행할 수 있습니다.
   
-**Microsoft에서 eDiscovery 조사를 관리 하는 방법을 알고 싶으십니까?** 이 문서에서는 내부 eDiscovery 워크플로를 관리 하기 위해 동일한 검색 및 조사 도구를 사용 하는 방법에 대해 설명 하는 [기술](https://go.microsoft.com/fwlink/?linkid=852161) 백서를 다운로드할 수 있습니다.
-   
-## <a name="manage-legal-investigations-with-ediscovery-cases"></a>EDiscovery 사례를 사용 하 여 법적 조사 관리
+**Microsoft에서 eDiscovery 조사를 관리하는 방법을 알고 싶나요?** 다음은 동일한 [](https://go.microsoft.com/fwlink/?linkid=852161) 검색 및 조사 도구를 사용하여 내부 eDiscovery 워크플로를 관리하는 방법을 설명하는 다운로드할 수 있는 기술 백서입니다.
 
-eDiscovery 사례를 사용 하면 조직에서 eDiscovery 사례를 만들고, 액세스 하 고, 관리할 수 있는 사용자를 제어할 수도 있습니다. 사례를 사용 하 여 구성원을 추가 하 고 수행할 수 있는 작업 유형을 제어 하 고, 법적 사례와 관련 된 콘텐츠 위치를 유지 하 고, 콘텐츠 검색 도구를 사용 하 여 해당 사례에 응답할 수 있는 콘텐츠에 대해 보류 중인 위치를 검색 합니다. 그런 다음 외부 검토자의 추가 조사를 위해 해당 결과를 내보내고 다운로드할 수도 있습니다.
+## <a name="manage-legal-investigations-with-ediscovery-cases"></a>eDiscovery 사례를 사용하여 법적 조사 관리
+
+eDiscovery 사례를 사용하면 조직에서 eDiscovery 사례를 만들고, 액세스하고, 관리할 수 있는 사용자들을 제어할 수 있습니다. 사례를 사용하여 구성원을 추가하고 수행할 수 있는 작업 유형을 제어하고, 법률 사례와 관련된 콘텐츠 위치를 보류하고, 콘텐츠 검색 도구를 사용하여 보류된 위치를 검색하여 사례에 응답할 수 있는 콘텐츠를 검색합니다. 그런 다음 외부 검토자에 의해 추가 조사를 위해 이러한 결과를 내보내고 다운로드할 수도 있습니다.
   
-- 조직이 수행 해야 하는 모든 법률 조사에 대해 eDiscovery 사례를 만들고 사용 하 여 [ediscovery 워크플로를 관리 합니다](ediscovery-cases.md) . 
-    
-- 조직에서 eDiscovery 사례를 만들고 관리할 수 있는 사용자를 제어 하기 위해 [ediscovery 권한 할당](assign-ediscovery-permissions.md) 
-    
-- EDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 [준수 경계를 설정](tagging-and-assessment-in-advanced-ediscovery.md) 합니다. 
-    
-- 조직의 [콘텐츠 검색](search-for-content.md) 
-    
+- [조직에서 진행해야 하는](ediscovery-cases.md) 모든 법적 조사에 eDiscovery 사례를 만들고 사용하여 eDiscovery 워크플로를 관리합니다.
+
+- [eDiscovery 권한을](assign-ediscovery-permissions.md) 할당하여 조직에서 eDiscovery 사례를 만들고 관리할 수 있는 사용자 제어
+
+- [준수 경계를 설정하여](set-up-compliance-boundaries.md) eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어합니다.
+
+- [조직에서 콘텐츠를](search-for-content.md) 검색합니다.
+
 ### <a name="use-scripts-for-advanced-scenarios"></a>고급 시나리오에 스크립트 사용
 
-콘텐츠 검색 시나리오에 대해 스크립트를 나열 하는 이전 섹션에서와 마찬가지로, eDiscovery 사례를 관리 하는 데 도움이 되는 몇 가지 보안 & 준수 센터 PowerShell 스크립트도 만들었습니다.
+콘텐츠 검색 시나리오에 대한 스크립트를 나열한 이전 섹션과 마찬가지로 eDiscovery 사례를 관리하는 데 도움이 되는 몇 가지 보안 & 준수 센터 PowerShell 스크립트도 만들어졌습니다.
   
-- 조직의 eDiscovery 사례와 관련 된 모든 보류에 대 한 정보가 포함 된 [eDiscovery 보류 보고서를 만듭니다](create-a-report-on-holds-in-ediscovery-cases.md) . 
-    
-- EDiscovery 보류에 사용자 목록에 대 한 [사서함 및 OneDrive 위치 추가](use-a-script-to-add-users-to-a-hold-in-ediscovery.md) 
+- [조직의 eDiscovery](create-a-report-on-holds-in-ediscovery-cases.md) 사례와 연결된 모든 보류에 대한 정보가 포함된 eDiscovery 보류 보고서를 만들 수 있습니다.
+
+- 사용자 목록에 대한 사서함 및 [OneDrive](use-a-script-to-add-users-to-a-hold-in-ediscovery.md) 위치를 eDiscovery 보류에 추가합니다.
   
-## <a name="manage-legal-investigations-with-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 솔루션을 사용 하 여 법적 조사 관리
+## <a name="manage-legal-investigations-with-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 Advanced eDiscovery 솔루션으로 법적 조사 관리
 
-Microsoft 365의 고급 eDiscovery 솔루션은 Office 365의 기존 eDiscovery 및 분석 기능을 기반으로 작성 되었습니다. *Advanced eDiscovery*라는이 새로운 솔루션은 조직의 내부 및 외부 조사에 응답 하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보내기 위한 종단 간 워크플로를 제공 합니다. 또한 법률 팀에서 법적 보존 알림 워크플로 전체를 관리 하 여 사례와 관련 된 custodians와 통신할 수 있습니다.
+Microsoft 365의 Advanced eDiscovery 솔루션은 Office 365의 기존 eDiscovery 및 분석 기능을 빌드합니다. *Advanced eDiscovery라는* 이 새로운 솔루션은 조직의 내부 및 외부 조사에 응답하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보내기 위한 종단 간 워크플로를 제공합니다. 또한 법률 팀에서 전체 법적 보유 알림 워크플로를 관리하여 사례에 관련된 보유자와 통신할 수 있습니다.
 
-고급 eDiscovery를 사용 하려면 Microsoft 365 또는 Office 365 조 직에 대 한 E5 구독이 필요 합니다. 라이선스에 대 한 자세한 내용은 [Advanced eDiscovery 시작](get-started-with-advanced-ediscovery.md#step-1-verify-and-assign-appropriate-licenses)을 참조 하세요.
+Advanced eDiscovery를 사용하려면 Microsoft 365 또는 Office 365 조직에 대한 E5 구독이 필요합니다. 라이선스에 대한 자세한 내용은 [Advanced eDiscovery 설정을 참조하세요.](get-started-with-advanced-ediscovery.md#step-1-verify-and-assign-appropriate-licenses)
 
-다음은 Advanced eDiscovery의 기본 제공 워크플로에 대 한 간략 한 개요입니다. 자세한 내용은 [Advanced eDiscovery 워크플로 탐색](get-started-with-advanced-ediscovery.md#explore-the-advanced-ediscovery-workflow)을 참조 하십시오.
+다음은 Advanced eDiscovery의 기본 제공 워크플로에 대한 간략한 개요입니다. 자세한 내용은 [Advanced eDiscovery 워크플로 관리를 참조하세요.](create-and-manage-advanced-ediscoveryv2-case.md#manage-the-workflow)
 
-- 시작 하려면 [사례 만들기](create-new-ediscovery-case.md)
+- [시작할 사례를](create-and-manage-advanced-ediscoveryv2-case.md#create-a-case) 만드시다.
 
-- [Custodians](managing-custodians.md) 를 사례에 추가 하 고 해당 사서함, OneDrive 계정 및 Microsoft 팀 구성원 인 콘텐츠에 법적 보존을 배치 하 여 관리 합니다.
+- [보유자들을](managing-custodians.md) 사례에 추가하고 사서함, OneDrive 계정 및 구성원으로 있는 Microsoft Teams의 콘텐츠에 법적 보유를 배치하여 보유자 관리
 
-- 법적 보존 알림 프로세스를 자동화 하 여 custodians와의 [통신 관리](managing-custodian-communications.md)
+- [법적 보유](managing-custodian-communications.md) 알림 프로세스를 자동화하여 보유자와의 통신을 관리합니다.
 
-- 조사를 위해 데이터를 효과적으로 수집할 수 있도록 [custodian 데이터를 인덱싱하고](processing-data-for-case.md) 인덱싱 오류를 해결 합니다.
+- [조사를 위해](processing-data-for-case.md) 데이터를 효과적으로 수집할 수 있도록 보호자 데이터를 인덱싱하고 인덱싱 오류를 수정합니다.
 
-- 사례에 대 한 [데이터를 수집](collecting-data-for-ediscovery.md) 하 고 추가 조사를 위해 [검토 집합에](collecting-data-for-ediscovery.md#add-search-results-to-a-review-set) 추가 합니다.
+- [사례에](collecting-data-for-ediscovery.md) 대한 데이터를 [](collecting-data-for-ediscovery.md#add-search-results-to-a-review-set) 수집하고 추가 조사를 위해 검토 집합에 추가합니다.
 
-- 검토 집합의 문서, [쿼리](review-set-search.md) 데이터 및 [태그](tagging-documents.md) 항목 [보기](view-documents-in-review-set.md)
+- [검토](view-documents-in-review-set.md) 집합에서 문서, [](tagging-documents.md) [쿼리](review-set-search.md) 데이터 및 태그 항목을 볼 수 있습니다.
 
-- 고급 분석 도구를 사용 하 여 [사례 데이터 분석](analyzing-data-in-review-set.md)
+- [고급 분석 도구를 사용하여](analyzing-data-in-review-set.md) 사례 데이터를 분석합니다.
 
-- 자문 위원 외부에서 검토할 [사례 데이터 내보내기](exporting-data-ediscover20.md)
+- [외부 자문이 검토할](exporting-data-ediscover20.md) 사례 데이터를 내보낼 수 있습니다.
 
-- 고급 eDiscovery에서 [장기 실행 작업 관리](managing-jobs-ediscovery20.md)
+- [Advanced](managing-jobs-ediscovery20.md) eDiscovery에서 장기 실행 작업을 관리합니다.

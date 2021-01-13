@@ -10,18 +10,18 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 8412c10416a4a131129eebd20d1b4f01228afaf3
-ms.sourcegitcommit: 280200281aec862517876319a3fe4ce170674047
+ms.openlocfilehash: 7005e09d5a3df158569e132d2954f3b9a0ebf371
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49586688"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840484"
 ---
 # <a name="privacy-and-personal-data"></a>개인 정보 및 개인 데이터
 
 사용자는 Microsoft Managed Desktop에서 관리하는 디바이스에서 데이터를 수신, 전송 및 저장할 수 있습니다. 데이터 개인 정보 보호는 예상과 일관된 방식으로만 보호되고 사용된다고 신뢰합니다. 이 문서에서는 Microsoft Managed Desktop이 개인 데이터를 수집, 저장, 보존, 프로세스, 보안, 공유, 감사 및 내보내는 방법에 대해 설명합니다. 또한 관리자가 개인 데이터를 보고, 수정하고, 삭제할 수 있는 방법도 배우게 됩니다.
 
-Microsoft Managed Desktop은 프로파일링, 광고 또는 마케팅을 위해 서비스 제공의 일부로 수집된 개인 데이터를 사용하지 않습니다.
+Microsoft Managed Desktop은 프로파일링, 광고 또는 마케팅을 위해 서비스를 제공하는 일부로 수집된 개인 데이터를 사용하지 않습니다.
 
 ## <a name="data-collection-of-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 데이터 수집
 
@@ -30,20 +30,20 @@ Microsoft Managed Desktop은 프로파일링, 광고 또는 마케팅을 위해 
 Microsoft Managed Desktop은 IT 관리자 연락처 정보만 제외하고 서비스를 제공하기 위해 [자체적으로 데이터를 수집하지 않습니다.](#it-admin-contact-information) 대신 Microsoft Managed Desktop은 Windows 및 Microsoft Intune과 같은 다른 원본이 이미 수집한 데이터를 다시 사용합니다. Microsoft Managed Desktop은 등록된 장치에서 이러한 서비스가 수집하는 데이터를 사용 합니다.
 
 - Microsoft Managed Desktop에서 관리하는 장치의 Windows 진단 데이터는 Microsoft의 Windows 진단 데이터 저장소로 전송됩니다.
-- Microsoft Managed [Desktop은](https://docs.microsoft.com/learn/modules/introduction-to-modern-management-in-microsoft-365/) 최신 관리를 사용하여 등록된 디바이스를 관리합니다. 이 과정의 일부로 디바이스를 테넌트의 Azure Active Directory에 등록해야 합니다.
-- Microsoft Managed Desktop은 고도로 최적화되고 안전한 구성을 등록된 장치에 배포하기 위해 Microsoft Intune을 사용 합니다.
+- Microsoft Managed [Desktop은](https://docs.microsoft.com/learn/modules/introduction-to-modern-management-in-microsoft-365/) 최신 관리를 사용하여 등록된 디바이스를 관리합니다. "최신 관리"의 일부로, 디바이스를 테넌트의 Azure Active Directory에 등록해야 합니다.
+- Microsoft Managed Desktop은 고도로 최적화되고 안전한 구성을 등록된 장치에 배포하기 위해 Microsoft Intune을 사용됩니다.
 - Microsoft Managed Desktop은 해당 서비스를 사용하는 고객을 위해 Microsoft Defender Advanced Thread Protection의 보안 인텔리전스 데이터를 사용 합니다.
 
 ## <a name="data-storage-and-sources-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 데이터 저장소 및 원본
 
-Microsoft Managed Desktop에서 데이터를 다운로드한 후 다음과 같이 해당 데이터의 서비스, 저장 및 처리를 제공해야 합니다.
+Microsoft Managed Desktop에서 데이터를 다운로드한 후 다음과 같이 해당 데이터 처리, 저장 및 처리를 제공해야 합니다.
 
 ### <a name="storing-data-storage-location-and-data-retention"></a>데이터 저장, 저장 위치 및 데이터 보존
 
 Microsoft Managed Desktop은 다음 Microsoft 저장소 서비스 중 하나 이상에 해당 데이터를 저장합니다.
 
 - Azure SQL
-- Azure 저장소
+- Azure Storage
 
 Microsoft Managed Desktop은 해당 데이터를 미국에 저장합니다. 개인 데이터는 Microsoft Managed Desktop에서 최대 30일 동안 보존됩니다.
 
@@ -67,7 +67,7 @@ Microsoft Managed Desktop은 다음 데이터를 사용 합니다.
 
 ### <a name="entities-processed-by-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 처리되는 엔터티
 
-Microsoft Managed Desktop은 다음 엔터티를 처리하여 서비스를 제공합니다.
+Microsoft Managed Desktop은 이러한 엔터티를 처리하여 서비스를 제공합니다.
 
 - 장치 데이터
 - 장치 보안 설정
@@ -85,11 +85,11 @@ Microsoft Managed Desktop은 다음 엔터티를 처리하여 서비스를 제�
 
 Microsoft Managed Desktop에서 사용하는 ID 데이터는 Office 365 또는 Azure와 같은 Microsoft 온라인 서비스를 구독할 때 조직에서 제공한 주소에 따라 지리적 위치에 Azure Active Directory에 의해 저장됩니다. Microsoft [Azure를 참조하세요. 고객](http://azuredatacentermap.azurewebsites.net/) 데이터는 어디에 있나요? Azure Active Directory용 데이터 센터를 보여주는 지도를 참조하세요.
 
-Azure에서 데이터 저장소에 사용하는 지역에 대한 자세한 내용은 [Azure Active Directory-Where is your data located.](https://msit.powerbi.com/view?r=eyJrIjoiODdjOWViZDctMWRhZS00ODUzLWI4MmQtNWM5NjBkZTBkNjFlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9)
+Azure에서 데이터 저장소에 사용하는 지역에 대한 자세한 내용은 [Azure Active Directory를 참조하세요. 데이터가 어디에 있습니까?](https://msit.powerbi.com/view?r=eyJrIjoiODdjOWViZDctMWRhZS00ODUzLWI4MmQtNWM5NjBkZTBkNjFlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9)
 
 ### <a name="microsoft-intune"></a>Microsoft Intune
 
-Intune 데이터는 유럽 북부(아일랜드) 및 유럽 서부(네덜란드)와 같은 몇 가지 다른 지역에 저장할 수 있습니다. IT 관리자가 테넌트 계정을 만들고 Intune 서비스에 처음 등록할 때 데이터가 저장되는 국가를 선택하십시오. Intune에서 사용하는 데이터 센터 위치 목록은 [Microsoft Intune을](http://intunedatacentermap.azurewebsites.net/)참조하세요. 고객 데이터는 어디에 있나요? Intune에서 데이터 저장소 및 사용에 대한 자세한 내용은 [Intune의 데이터 수집을 참조하세요.](https://docs.microsoft.com/intune/privacy-data-collect)
+Intune 데이터는 유럽 북부(아일랜드) 및 유럽 서부(네덜란드)와 같은 몇 가지 다른 지역에 저장할 수 있습니다. IT 관리자가 테넌트 계정을 만들고 Intune 서비스에 처음 등록할 때 데이터가 저장되는 국가를 선택하십시오. Intune에서 사용하는 데이터 센터 위치 목록은 [Microsoft Intune을 참조하세요.](http://intunedatacentermap.azurewebsites.net/)고객 데이터는 어디에 있나요? Intune에서 사용하는 데이터 저장소 및 사용에 대한 자세한 내용은 [Intune에서 데이터 수집을 참조하세요.](https://docs.microsoft.com/intune/privacy-data-collect)
 
 ### <a name="microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender
 
@@ -107,7 +107,7 @@ Microsoft Managed Desktop의 내부 데이터 저장소에 대한 직접 액세�
 
 - 엔지니어링 리드 수준 승인이 필요합니다.
 - 감사 및 시간이 모두 제한됩니다.
-- 이를 위해서는 보안이 매우 안전하고 제한된 Workstation을 사용해야 합니다.
+- 보안이 유지되고 제한된 작업소를 사용하려면 이 작업을 수행해야 합니다.
 - 모든 데이터는 저장되는 동안 암호화됩니다.
 - 스위딩 액세스 권한이 없습니다.
 - Microsoft Managed Desktop의 내부 관리 포털에 액세스하려면 보안이 강화되고 제한된 Workstation이 필요합니다.
@@ -117,7 +117,7 @@ Microsoft Managed Desktop은 ISO 인증 시스템을 사용하여 개인 데이�
 
 ## <a name="profiling-and-marketing"></a>프로파일링 및 마케팅
 
-Microsoft Managed Desktop은 프로파일링, 광고 또는 마케팅을 위해 서비스 제공의 일부로 수집된 개인 데이터를 사용하지 않습니다.
+Microsoft Managed Desktop은 프로파일링, 광고 또는 마케팅을 위해 서비스를 제공하는 일부로 수집된 개인 데이터를 사용하지 않습니다.
 
 ## <a name="data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 데이터 주체 요청
 
@@ -136,7 +136,7 @@ Microsoft Managed Desktop은 프로파일링, 광고 또는 마케팅을 위해 
 
 ### <a name="user-related-personal-data"></a>사용자 관련 개인 데이터
 
-이 외에도 Microsoft Managed Desktop은 개인 데이터를 자체적으로 수집하지 않습니다. 대신 다른 Microsoft Enterprise Online Services에서 수집한 개인 데이터를 의존하고 사용합니다. 개인 데이터를 보고, 수정하고, 삭제하기 위한 사용자 요청에 응답하기를 원하는 IT 관리자는 Microsoft Managed Desktop이 사용하는 원본 서비스의 각 기능을 사용할 수 있습니다. 이러한 서비스에서 사용하는 개인 데이터를 보거나 삭제하는 데 관심이 있는 경우 [먼저 GDPR](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure) 문서에 대한 Azure 데이터 주체 요청을 참조하세요.
+이 외에도 Microsoft Managed Desktop은 개인 데이터를 자체적으로 수집하지 않습니다. 대신 다른 Microsoft Enterprise Online Services에서 수집한 개인 데이터를 의존하고 사용합니다. 개인 데이터를 보고 수정하고 삭제하기 위한 사용자 요청에 응답하는 IT 관리자는 Microsoft Managed Desktop이 사용하는 원본 서비스의 각 기능을 사용할 수 있습니다. 이러한 서비스에서 사용하는 개인 데이터를 보거나 삭제하는 데 관심이 있는 경우 [먼저 GDPR](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure) 문서에 대한 Azure 데이터 주체 요청을 참조하세요.
 
 또한 다음 지침을 사용하여 Microsoft Managed Desktop이 개인 데이터 수집에 종속된 서비스에 대해 DSRS를 행사합니다.
 
