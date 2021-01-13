@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0e1189634857921d9c0e3df0683bd6e7758cd058
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: b5c5757c5e07e6edd546c0553028ccf56eb1b4f8
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289474"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840316"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Microsoft Managed Desktop 서비스 설명
 
@@ -29,7 +29,7 @@ Microsoft Managed Desktop은 사용자에게 최신 보안 환경을 제공하�
 - 사용자를 위한 IT 지원
 - IT 전문가를 위한 운영 지원
 
-Microsoft Managed Desktop과 함께 제공되는 특정 서비스에 대한 자세한 내용은 이 섹션의 다른 항목을 참조하세요. Microsoft Managed Desktop을 사용하기로 이미 결정한 경우 [Microsoft Managed Desktop에서 등록 준비](https://docs.microsoft.com/microsoft-365/managed-desktop/get-ready/)의 항목에서 사용자에게 해당 서비스 참여를 위한 준비 단계를 제공합니다.
+Microsoft Managed Desktop과 함께 제공되는 특정 서비스에 대한 자세한 내용은 이 섹션의 다른 문서를 참조하세요. Microsoft Managed Desktop을 사용하기로 이미 결정한 경우 [Microsoft Managed Desktop에서 등록 준비](https://docs.microsoft.com/microsoft-365/managed-desktop/get-ready/)의 문서에서 사용자에게 해당 서비스 참여를 위한 준비 단계를 제공합니다.
 
 - [Microsoft Managed Desktop 지원 지역 및 언어](regions-languages.md)에서는 서비스와 함께 지원되는 지역과 언어에 대해 설명합니다.
 - 사용자에게 최상의 환경을 제공하기 위해 특정 장치만 Microsoft Managed Desktop에서 지원됩니다. [프로그램 장치](device-list.md) 장치를 제공하든 파트너와 함께 작업하든 서비스와 함께 사용할 수 있는 정확한 장치 모델 및 구성을 지정합니다.

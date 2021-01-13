@@ -1,6 +1,6 @@
 ---
 title: Microsoft Managed Desktop이 사용하기에 적합한가요?
-description: ''
+description: 서비스 지침과 다양한 사용자를 위한 기사 바로 가기
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: b877a35133be13cd6783659f1e5d981633338be8
-ms.sourcegitcommit: 96b4593becc9450af136c528844e858c6e88b5a9
+ms.openlocfilehash: 8e95eb0fd0e03dc718affa7e7cf044beb654bb56
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269376"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840938"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop이란 무엇인가요?
 
@@ -37,7 +37,7 @@ Microsoft Managed Desktop은 오늘 날 회사와 사람들이 직면하고 있�
 
 ## <a name="unique-to-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 고유성
 
-물론 사용자가 사용자의 장치와 Microsoft 365 배포를 스스로 얻고 관리할 수 있습니다. 그렇다면 Microsoft Managed Desktop은 그 외에 무엇을 제공 할까요?
+물론 사용자가 사용자의 장치와 Microsoft 365 배포를 스스로 얻고 관리할 수 있습니다. 그렇다면 Microsoft Managed Desktop은 그 외에 무엇을 제공할까요?
 
 당사의 정책과 보안 기준은 사용자의 고객에게 이점을 제공합니다.
 
@@ -71,9 +71,9 @@ Microsoft Managed Desktop은 오늘 날 회사와 사람들이 직면하고 있�
 ## <a name="need-more-details"></a>자세한 정보가 필요하세요?
 소비자 이야기를 포함하여 Microsoft Managed Desktop 가치에 대한 자세한 내용은 [Microsoft Managed Desktop](https://aka.ms/mmd)을 참조하세요. 시작 하기 위한 더 많은 정보는 [로드맵](https://aka.ms/AA6jiam), [Forrester 총 경제 영향 사례 연구](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/forrester-tei-study.pdf), 다운로드 가능한 [1 페이지 요약](https://aka.ms/AA6ob3h)를 참조하세요. Microsoft Managed Desktop [블로그](https://aka.ms/AA6l2dd)에서 최신 뉴스를 볼 수 있습니다.
 
-Microsoft Managed Desktop이 조직에 적합한 경우 조직 등록을 준비하는 방법, 서비스를 시작하는 방법 그리고 사용자와 사용자의 고객이 필요시 손쉽게 도움을 받을 수 있는 방법 등을 포함하는 서비스에 대한 자세한 내용을 설명하는 추가 문서를 사용합니다. 가입 할 준비가 되었다면 [로컬 계정 팀](https://pages.email.office.com/contactmmd/)에 문의 하세요.
+Microsoft Managed Desktop이 조직에 적합한 경우 조직 등록을 준비하는 방법, 서비스를 시작하는 방법 그리고 사용자와 사용자의 고객이 필요시 손쉽게 도움을 받을 수 있는 방법 등을 포함하는 서비스에 대한 자세한 내용을 설명하는 추가 문서를 사용합니다. 가입할 준비가 되었다면 [로컬 계정 팀](https://pages.email.office.com/contactmmd/)에 문의하세요.
 
-**추가 개요 및 배경** 조직과 Mcirosoft 사이의 열할과 책임의 분배, Microsoft Managed Desktop에 사용된 기술에 대한 정보, ITIL 프레임워크의 일부로서 이 서비스가 더 넓은 전략 방향에 알맞는지 주로 기술과 비즈니스 결정권자를 위한 세부내역이 있는 항목입니다.
+**추가 개요 및 배경** 조직과 Mcirosoft 사이의 열할과 책임의 분배, Microsoft Managed Desktop에 사용된 기술에 대한 정보, ITIL 프레임워크의 일부로서 이 서비스가 더 넓은 전략 방향에 알맞는지 주로 기술과 비즈니스 결정권자를 위한 세부내역이 있는 문서입니다.
 
 - [Microsoft Managed Desktop 역할 및 책임](roles-and-responsibilities.md)
 - [Microsoft Managed Desktop 기술](technologies.md)
