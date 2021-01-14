@@ -21,19 +21,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 3af1dcfec165c88a18cbc0d8cbf6866bb6398adc
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: f25be4de3f25db869957474c3cb32b20e9f7aa53
+ms.sourcegitcommit: 88d358d778804b26d5e41c53b4f725d01a78112b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49668320"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49848894"
 ---
 # <a name="get-incident-notifications-by-email"></a>전자 메일로 인시던트 알림 확인
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
->[!IMPORTANT]
-> 인시던트 기능에 대한 전자 메일 알림은 현재 공개 미리 보기에 있습니다. 이 기능에 대한 일부 정보는 상업용 가용성 전에 변경될 수 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 **적용 대상:**
 - Microsoft 365 Defender
@@ -42,7 +40,7 @@ ms.locfileid: "49668320"
 
 인시던트 심각도에 따라 또는 장치 그룹으로 알림을 받을 수 있습니다. 인시던트당 첫 번째 업데이트에서만 알림을 하게 선택할 수도 있습니다.
 
-전자 메일 알림에서 받는 사람을 추가하거나 제거할 수 있습니다. 새로 추가된 받는 사람은 추가된 후 인시던트에 대한 알림을 받을 수 있습니다. 
+전자 메일 알림에서 받는 사람을 추가하거나 제거할 수 있습니다. 새로 추가된 받는 사람은 인시던트가 추가된 후 알림을 받을 수 있습니다. 
 
 전자 메일 알림에는 인시던트 이름, 심각도, 범주 등 인시던트에 대한 중요한 세부 정보가 포함되어 있습니다. 또한 인시던트로 바로 이동하여 조사를 바로 시작할 수 있습니다. 인시던트 조사에 대한 자세한 내용은 [Microsoft 365 Defender에서](https://docs.microsoft.com/microsoft-365/security/mtp/investigate-incidents)인시던트 조사를 참조합니다.
 
@@ -62,9 +60,9 @@ ms.locfileid: "49668320"
 4. **다음을** 선택하여 알림 **설정으로 이동합니다.** 여기서 다음을 지정할 수 있습니다.
     - **경고 심각도** - 인시던트 알림을 트리거하는 경고 심각도 선택 예를 들어 심각도 높은 인시던트에 대한 정보만 원할 경우 높음(High)을 선택합니다.
     - **장치 그룹 범위** - 이 드롭다운에는 사용자가 액세스할 수 있는 모든 장치 그룹이 표시됩니다. 인시던트 알림 규칙을 만들 장치 그룹을 선택합니다.
-    - **인시던트당 첫** 번째 발생 시만 알림 - 이 옵션을 선택하면 다른 선택과 일치하는 첫 번째 경고에서만 전자 메일 알림이 전송됩니다. 나중에 인시던트와 관련된 업데이트 또는 알림은 알림을 트리거하지 않습니다.
+    - **인시던트당 첫** 번째 발생 시만 알림 - 이 옵션을 선택하면 다른 선택과 일치하는 첫 번째 경고에서만 전자 메일 알림이 전송됩니다. 나중에 인시던트와 관련된 업데이트 또는 경고는 알림을 트리거하지 않습니다.
     - **조직 이름 포함** - 고객 이름이 전자 메일 알림에 나타나는지 여부를 나타냅니다.
-    - **테넌트별 포털** 링크 포함 - 테넌트 ID가 포함된 링크를 추가하여 특정 테넌트에 대한 액세스를 허용합니다.
+    - **테넌트별** 포털 링크 포함 - 테넌트 ID가 포함된 링크를 추가하여 특정 테넌트에 대한 액세스를 허용합니다.
     
     ![문제 전자 메일 알림에 대한 설정 창 알림](../../media/incidentemailnotif2.png)
 5. 받는 **사람 섹션으로** 이동하려면 **다음을** 선택합니다. 여기서 인시던트 전자 메일 알림을 받을 전자 메일 주소를 지정할 수 있습니다. 모든 **전자 메일 주소를** 입력한 후 받는 사람 추가를 선택합니다.

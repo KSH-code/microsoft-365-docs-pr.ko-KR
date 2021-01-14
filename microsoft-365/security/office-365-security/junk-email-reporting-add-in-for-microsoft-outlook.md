@@ -14,12 +14,12 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Microsoft 정크 메일 보고 추가 기능을 설치 및 사용하여 스팸, 스팸이 아닌 메시지 및 피싱 메시지를 Microsoft에 보고하는 방법을 알아보세요.
-ms.openlocfilehash: 4345066ec180b5d7fe5ff8b537a3cd057f60c31c
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 2b98fb0183cb7164ee90fb6a3a22d949e6edc2bc
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658872"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865067"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Microsoft Outlook용 정크 메일 보고 추가 기능 설치 및 사용
 
@@ -27,13 +27,13 @@ ms.locfileid: "49658872"
 
 
 > [!NOTE]
-> 현재 정크 메일 보고 추가 기능을 사용하지 않는 경우 대신 보고서 메시지 추가 [기능을](enable-the-report-message-add-in.md) 사용하는 것이 좋습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
+> 현재 정크 메일 보고 추가 기능을 사용하지 않는 경우 대신 보고서 [](enable-the-report-message-add-in.md) 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하는 [것이](enable-the-report-phish-add-in.md) 좋습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
 Microsoft Outlook용 정크 메일 보고 추가 기능을 사용하면 가음성(스팸으로 표시된 양호한 전자 메일), 거짓 부정(잘못된 전자 메일 허용) 및 피싱 메시지를 Microsoft에 제출할 수 있습니다. 조직에서 Exchange Online Protection(예: Exchange Online 또는 Exchange Online이 아닌 전자 메일 서비스)을 사용하지 않는 경우 정크 메일 보고서 제출은 스팸 필터링에 영향을 주지 않습니다.
 
 이 항목에서는 정크 메일 보고 추가 기능을 설치하고 사용하는 방법을 설명합니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 정크 메일 보고 추가 기능을 설치하려면 [](#install-the-junk-email-reporting-add-in) 이 문서 부분의 정크 메일 보고 추가 기능 설치 섹션을 참조하세요.
 

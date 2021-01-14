@@ -21,14 +21,14 @@ description: Office 365용 Microsoft Defender의 자동화된 조사 및 응답 
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 6ccefb5c435f08fcef4dcc872af676fba70668ee
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 570fb3c9d180d3167cfc5a4e3c3825102875b74f
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794547"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865011"
 ---
-# <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 자동화된 조사 및 대응(AIR)
+# <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 자동화된 조사 및 대응(AIR)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -40,7 +40,7 @@ AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 
 
 - [AIR의 전체 흐름;](#the-overall-flow-of-air)
 - [AIR을 얻는 방법](#how-to-get-air) 및
-- AIR [기능을](#required-permissions-to-use-air-capabilities) 구성하거나 사용하는 데 필요한 사용 권한입니다.
+- AIR [기능을](#required-permissions-to-use-air-capabilities) 구성하거나 사용하는 데 필요한 권한입니다.
 
 이 문서에는 다음 [단계와](#next-steps)자세한 내용에 대한 리소스도 포함되어 있습니다.
 
@@ -78,7 +78,7 @@ AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 
 - [조사 결과 작업 검토 및 승인](air-review-approve-pending-completed-actions.md)
 
 > [!TIP]
-> 자세한 개요는 AIR 작동 [방법을 참조하세요.](automated-investigation-response-office.md)
+> 자세한 개요는 AIR 작동 방법을 [참조하세요.](automated-investigation-response-office.md)
 
 ## <a name="how-to-get-air"></a>AIR을 얻는 방법
 
@@ -106,8 +106,8 @@ Microsoft 365는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적�
 
 |경고|심각도|경고 생성 방법|
 |---|---|---|
-|악의적인 URL 클릭이 감지되었습니다.|**High**|이 경고는 다음이 발생할 때 생성됩니다. <ul><li>조직에서 안전한 [링크로](atp-safe-links.md) 보호된 사용자가 악성 링크를 클릭하는 경우</li><li>Url에 대한 판정 변경 내용은 Microsoft Defender for Office 365로 식별됩니다.</li><li>사용자는 조직의 안전 링크 정책에 따라 안전한 링크 경고 페이지를 [무시합니다.](set-up-atp-safe-links-policies.md)</li></ul> <p> 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 안전 링크 정책 [설정을 참조하세요.](set-up-atp-safe-links-policies.md)|
-|사용자가 전자 메일 메시지를 맬웨어 또는 피싱으로 보고|**정보**|이 경고는 조직의 사용자가 보고서 메시지 추가 기능을 사용하여 메시지를 피싱 전자 메일로 보고할 [때 생성됩니다.](enable-the-report-message-add-in.md)|
+|악의적인 URL 클릭이 감지되었습니다.|**High**|이 경고는 다음이 발생할 때 생성됩니다. <ul><li>조직에서 안전한 [링크로](atp-safe-links.md) 보호된 사용자가 악성 링크를 클릭하는 경우</li><li>URL에 대한 판정 변경 내용은 Microsoft Defender for Office 365로 식별됩니다.</li><li>사용자는 조직의 안전 링크 정책에 따라 안전한 링크 경고 페이지를 [무시합니다.](set-up-atp-safe-links-policies.md)</li></ul> <p> 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 안전 링크 정책 [설정을 참조하세요.](set-up-atp-safe-links-policies.md)|
+|사용자가 전자 메일 메시지를 맬웨어 또는 피싱으로 보고|**정보**|이 경고는 조직의 사용자가 보고서 메시지 추가 기능 또는 [](enable-the-report-message-add-in.md) 피싱 보고서 추가 기능을 사용하여 메시지를 피싱 전자 메일로 보고할 [때 생성됩니다.](enable-the-report-phish-add-in.md)|
 |배달 후 맬웨어가 포함된 전자 메일 메시지 제거|**정보**|이 경고는 맬웨어가 포함된 전자 메일 메시지가 조직의 사서함으로 배달될 때 생성됩니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](zero-hour-auto-purge.md)|
 |배달 후 피싱 URL이 포함된 전자 메일 메시지 제거|**정보**|이 경고는 피싱이 포함된 메시지가 조직의 사서함으로 배달될 때 생성됩니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](zero-hour-auto-purge.md)|
 |의심스러운 전자 메일 전송 패턴이 검색됩니다.|**Medium**|이 경고는 조직의 누군가가 의심스러운 전자 메일을 보냈고 전자 메일을 보내지 못하도록 제한될 위험이 있는 경우 생성됩니다. 이는 계정이 손상되지만 사용자를 제한할 만큼 심각하지는 않다는 것을 나타낼 수 있는 동작에 대한 초기 경고입니다. <p> 드물지만 이 정책에 의해 생성된 경고는 이상일 수 있습니다. 그러나 사용자 계정이 손상되지는 [않습니다.](responding-to-a-compromised-email-account.md)|
@@ -132,7 +132,7 @@ Microsoft 365는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적�
 [Office 365 계획 2용 Microsoft Defender](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2) 라이선스는 다음에 할당해야 합니다.
 
 - 보안 관리자(전역 관리자 포함)
-- 조직의 보안 운영 팀(보안 읽기 및 검색 및 제거 역할이 있는 **사용자 포함)**
+- 조직의 보안 운영 팀(보안 독자 및 검색 및 제거 역할이 있는 **사용자 포함)**
 - 최종 사용자
 
 ## <a name="next-steps"></a>다음 단계

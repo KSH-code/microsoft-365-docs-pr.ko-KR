@@ -21,18 +21,18 @@ description: Microsoft Defender for Office 365에서 자동화된 조사 및 응
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: bbc51201f9d96744ed5bc236516158a75f7af272
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 5ca9ea941d073c7b199678631a9063cfbeae8907
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615231"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49864903"
 ---
 # <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender에서 자동화된 조사 및 대응이 작동하는 방식
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-보안 경고가 트리거되면 보안 운영 팀이 이러한 경고를 보고 조직을 보호하기 위한 단계를 수행합니다. 경우에 따라 보안 운영 팀은 트리거되는 경고의 양에 당황할 수 있습니다. Office 365용 Microsoft Defender의 자동화된 조사 및 대응(AIR) 기능이 도움이 될 수 있습니다.
+보안 경고가 트리거되면 보안 운영 팀이 이러한 경고를 보고 조직을 보호하기 위한 단계를 수행합니다. 경우에 따라 보안 운영 팀은 트리거되는 경고의 양에 당황할 수 있습니다. Office 365용 Microsoft Defender의 자동화된 조사 및 대응(AIR) 기능은 도움이 될 수 있습니다.
 
 AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 작업할 수 있습니다. AIR 기능에는 현재 존재하는 잘 알려진 위협에 대한 응답으로 자동화된 조사 프로세스가 포함됩니다. 적절한 수정 작업은 승인을 대기하여 보안 운영 팀이 감지된 위협에 대응할 수 있도록 합니다.
 
@@ -40,11 +40,11 @@ AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 
 
 - [예제 1: 사용자가 보고한 피싱 메시지가 조사 플레이북을 실행합니다.](#example-a-user-reported-phish-message-launches-an-investigation-playbook)
 - [예제 2: 보안 관리자가 위협 탐색기에서 조사를 트리거합니다.](#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)
-- [예제 3: 보안 작업 팀이 Office 365 관리 활동 API를 사용하여 SIEM과 AIR을 통합합니다.](#example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api)
+- [예제 3: 보안 작업 팀이 Office 365 관리 활동 API를 사용하여 AIR을 SIEM과 통합](#example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api)
 
 ## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>예: 사용자가 보고한 피싱 메시지가 조사 플레이북을 실행합니다.
 
-조직의 사용자가 피싱 시도로 생각할 수 있는 전자 메일을 받는 경우를 가정해 가정해 가정해 가정해 야 합니다. 이러한 메시지를 보고하도록 교육된 사용자는 보고서 [](enable-the-report-message-add-in.md) 메시지 추가 기능을 사용하여 분석을 위해 Microsoft에 전송합니다. 제출은 시스템으로도 전송된 후 제출 보기(이전의 사용자가 보고한 보기)의 탐색기에서 표시됩니다.   또한 사용자가 보고한 메시지는 이제 시스템 기반 정보 알림을 트리거하여 조사 재생책을 자동으로 실행합니다.
+조직의 사용자가 피싱 시도로 생각할 수 있는 전자 메일을 받는 경우를 가정해 야 합니다. 이러한 메시지를 보고하도록 교육된 사용자는 보고서 [](enable-the-report-message-add-in.md) 메시지 추가 기능 [](enable-the-report-phish-add-in.md) 또는 피싱 보고서 추가 기능을 사용하여 분석을 위해 Microsoft로 전송합니다. 제출은 시스템으로도 전송된 후 제출 보기(이전의 사용자가 보고한 보기)의 탐색기에서 표시됩니다.   또한 사용자가 보고한 메시지는 이제 시스템 기반 정보 알림을 트리거하여 조사 플레이북을 자동으로 실행합니다.
 
 루트 조사 단계에서는 전자 메일의 다양한 측면이 평가됩니다. 이러한 측면은 다음과 같습니다.
 
@@ -62,7 +62,7 @@ AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 
 
 - 유사한 전자 메일 메시지는 전자 메일 클러스터 검색을 통해 식별됩니다.
 - 신호는 끝점용 Microsoft Defender와 같은 다른 [플랫폼과 공유됩니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
-- 의심스러운 전자 메일 메시지의 악성 링크를 클릭한 사용자가 있는지 여부를 결정해야 합니다.
+- 사용자가 의심스러운 전자 메일 메시지의 악의적인 링크를 클릭하는지 여부를 결정해야 합니다.
 - [EOP(Exchange](exchange-online-protection-overview.md)Online Protection) 및[(Office 365용 Microsoft Defender)에서](office-365-atp.md)확인을 수행하여 사용자가 보고한 다른 유사한 메시지가 없는지 확인할 수 있습니다.
 - 사용자가 손상된 경우 확인이 수행됩니다. 이 검사는 Office 365, [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)및 [Azure Active Directory의](https://docs.microsoft.com/azure/active-directory)신호를 활용하여 관련 사용자 활동 이상과 상호 연관됩니다.
 
@@ -74,7 +74,7 @@ AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 
 
 경고에 의해 트리거되는 자동화된 조사 외에도 조직의 보안 운영 팀은 위협 탐색기 보기에서 자동화된 조사를 트리거할 [수 있습니다.](threat-explorer.md)  또한 이 조사는 경고를 생성하여 Microsoft Defender 인시던트 및 외부 SIEM 도구에서 이 조사가 트리거된 것으로 볼 수 있도록 합니다.
 
-예를 들어 탐색기에서 맬웨어 보기를 **사용** 중이라 가정해 보겠습니다. 차트 아래의 탭을 사용하여 전자 메일 **탭을** 선택합니다. 목록에서 항목을 하나 이상 선택하면 **+ 작업** 단추가 활성화됩니다.
+예를 들어 탐색기에서 맬웨어 보기를 **사용** 중이라 가정해 보겠습니다. 차트 아래의 탭을 사용하여 전자 메일 **탭을** 선택합니다. 목록에서 하나 이상의 항목을 선택하면 **+ 작업** 단추가 활성화됩니다.
 
 ![선택한 메시지가 있는 탐색기](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
 

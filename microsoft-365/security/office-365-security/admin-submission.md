@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 및 준수 센터의 제출 포털을 사용하여 의심스러운 전자 메일, 의심스러운 피싱 메일, 스팸 및 기타 유해한 메시지, URL 및 파일을 검사하기 위해 Microsoft에 제출하는 방법을 배울 수 있습니다. &
-ms.openlocfilehash: 7327768780e5db16e09e2b709c9c11344573c404
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 432a245530d7906ae8babbc54176480d36315351
+ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659828"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49864951"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
@@ -32,13 +32,13 @@ ms.locfileid: "49659828"
 
 Exchange Online에 사서함이 있는 Microsoft 365 조직에서 관리자는 보안 및 준수 센터의 제출 포털을 & 전자 메일 메시지, URL 및 첨부 파일을 검사하기 위해 Microsoft에 제출할 수 있습니다.
 
-전자 메일을 제출하면 테넌트로 들어오는 전자 메일을 허용할 수 있는 모든 정책에 대한 정보와 메일의 URL 및 첨부 파일을 검사할 수 있습니다. 메일을 허용할 수 있는 정책에는 개별 사용자의 수신 허용 - 보낸 사람 목록과 Exchange 메일 흐름 규칙(전송 규칙라고도 알려지기)의 테넌트 수준 정책이 포함됩니다.
+전자 메일을 제출하면 테넌트로 들어오는 전자 메일을 허용할 수 있는 정책에 대한 정보와 메일의 URL 및 첨부 파일을 검사할 수 있습니다. 메일을 허용할 수 있는 정책에는 개별 사용자의 수신 허용 - 보낸 사람 목록과 Exchange 메일 흐름 규칙(전송 규칙라고도 알려지기)의 테넌트 수준 정책이 포함됩니다.
 
 Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다른 방법은 Microsoft에 메시지 및 [파일 보고를 참조하세요.](report-junk-email-messages-to-microsoft.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 제출 페이지로 직접 **이동하기** 위해 <https://protection.office.com/reportsubmission> 다음을 사용하세요.
+- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. 제출 페이지로 직접 **이동하기** 위해 <https://protection.office.com/reportsubmission> 다음을 사용하세요.
 
 - 메시지와 파일을 Microsoft에 제출하려면 다음 역할 그룹 중 하나에 구성원이 필요합니다.
 
@@ -52,7 +52,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 ## <a name="report-suspicious-content-to-microsoft"></a>Microsoft에 의심스러운 콘텐츠 보고
 
-1. 보안 & 준수 센터에서 **위협** 관리 제출으로 이동하여 관리자 제출 탭에 있는지 확인한 다음 새 제출을 \>  **클릭합니다.** 
+1. 보안 & 준수 센터에서 **위협** 관리 제출로 이동하여 관리자 제출 탭에 있는지 확인한 다음 새 \>  **제출을 클릭합니다.** 
 
 2. 다음 **섹션에** 설명된 메시지, URL 또는 첨부 파일을 제출하는 것으로 나타나는 새 제출 플라이아웃을 사용합니다.
 
@@ -111,7 +111,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 ## <a name="view-admin-submissions"></a>관리자 제출 보기
 
-보안 & 준수 센터에서 **위협** 관리 제출으로 이동하여 관리자 제출 탭에 있는지 확인한 다음 새 제출을 \>  **클릭합니다.** 
+보안 & 준수 센터에서 **위협** 관리 제출로 이동하여 관리자 제출 탭에 있는지 확인한 다음 새 \>  **제출을 클릭합니다.** 
 
 페이지 위쪽에서 시작 날짜, 종료 날짜를 입력할 수 있으며(기본적으로) 상자에 값을 입력하고 새로 고침 단추를 클릭하여 제출 **ID(모든** 제출에 할당된 GUID 값)를 필터링할 수 ![ ](../../media/scc-quarantine-refresh.png) 있습니다. Update
 
@@ -154,9 +154,9 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 - 배달 시 보낸 사람 전자 메일 인증에 오류가 발생했습니다.
 - 메시지의 판정에 영향을 주거나 의리가 있을 수 있는 정책 적중에 대한 정보입니다.
 - 메시지에 포함된 URL 또는 파일이 악의적이지 않은지의 현재 확인 결과입니다.
-- 학년으로부터의 피드백.
+- 학년의 피드백.
 
-다시 검색된 재지정은 몇 분 후 완료됩니다. 전자 메일 인증에 문제가 없는 경우 또는 배달에 대한 오버라이드의 영향을 받지 않은 경우 학년의 피드백이 하루가 걸릴 수 있습니다.
+다시 검색된 재지정은 몇 분 후 완료됩니다. 전자 메일 인증에 문제가 없는 경우 또는 배달에 대한 오버라이드의 영향을 받지 않은 경우 학년들의 피드백이 하루가 걸릴 수 있습니다.
 
 ### <a name="view-admin-url-submissions"></a>관리자 URL 제출 보기
 
@@ -190,7 +190,7 @@ URL **탭을** 클릭합니다.
 
 ## <a name="view-user-submissions-to-microsoft"></a>Microsoft에 대한 사용자 제출 보기
 
-보고서 메시지 추가 기능을 [](enable-the-report-message-add-in.md)배포하거나 사용자가 웹용 [Outlook에서](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)기본 제공 보고를 사용하는 경우 사용자 제출 탭에서 보고하는 사용자를 볼 **수** 있습니다.
+보고서 메시지 추가 기능, 피싱 보고 [](enable-the-report-phish-add-in.md)추가 기능을 배포한 경우 또는 사용자가 웹용 [Outlook에서](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)기본 제공 보고를 사용하는 경우 사용자 제출  탭에서 보고하는 사용자를 볼 수 있습니다. [](enable-the-report-message-add-in.md)
 
 1. 보안 및 & 센터에서 **위협** 관리 \> **제출로 이동합니다.**
 
@@ -238,7 +238,7 @@ URL **탭을** 클릭합니다.
 - **보낸 사람 IP**<sup>\*</sup>
 - **제출 유형**
 
-페이지 위쪽에서 시작 날짜, 종료 날짜를 입력할 수 있으며 상자에 값을 입력하고 새로 고침 단추를 클릭하여 **제출로** 필터링할 ![ 수 ](../../media/scc-quarantine-refresh.png) 있습니다. Update
+페이지 위쪽에서 시작 날짜, 종료 날짜를 입력할 수 있으며 상자에 값을 입력하고 새로 고침 단추를 클릭하여 **제출된** 날짜로 필터링할 ![ 수 ](../../media/scc-quarantine-refresh.png) 있습니다. Update
 
 결과를 내보내려면 페이지 위쪽에 **있는** 내보내기를 클릭하고 차트 데이터 또는 **표를** **선택합니다.** 나타나는 대화 상자에서 .csv 파일을 저장합니다.
 
@@ -250,7 +250,7 @@ URL **탭을** 클릭합니다.
 
 Microsoft로 메시지를 보내지 않고 사용자가 보고한 메시지를 가로채도록 사용자 지정 사서함을 구성한 경우 분석을 위해 특정 메시지를 찾아 Microsoft로 보낼 수 있습니다. 그러면 사용자 제출이 관리자 제출로 효과적으로 이동됩니다.
 
-사용자 **지정 사서함 탭의** 목록에서 메시지를 선택하고  작업 단추를 클릭한 다음 다음 중 하나를 선택합니다.
+사용자 **지정 사서함** 탭의 목록에서 메시지를 선택하고  작업 단추를 클릭한 다음 다음 중 하나를 선택합니다.
 
 - **정리 보고**
 - **피싱 보고**
