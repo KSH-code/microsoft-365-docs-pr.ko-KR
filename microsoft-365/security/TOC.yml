@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: 시작
+    - name: 시작하기
       items:
         - name: 재택 근무 지원을 위한 주요 작업
           href: top-security-tasks-for-remote-work.md
@@ -521,6 +521,8 @@
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: 보고서 메시지 추가 기능을 사용하도록 설정
               href: ./office-365-security/enable-the-report-message-add-in.md
+            - name: 보고서 피싱 추가 기능을 사용하도록 설정
+              href: ./office-365-security/enable-the-report-phish-add-in.md
             - name: 정크 전자 메일 보고 추가 기능 설치 및 사용
               href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
             - name: 독립형 EOP 메일 흐름 규칙(전송 규칙)

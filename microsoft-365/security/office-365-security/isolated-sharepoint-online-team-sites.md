@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 71250a04-fd2d-4c3c-a32b-b8a838b19a54
 description: 사용, 요구 사항, 사용할 수 있는 기능을 포함하여 격리된 SharePoint Online 팀 사이트에 대해 알아봅니다.
-ms.openlocfilehash: e4e45c8adffcf86d56a71e5b9935e634f2de9254
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 55bdf2999610310babb60b6938afb97732e5a7a0
+ms.sourcegitcommit: 89097fb648987567b9493b9d94c85c5990562874
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616455"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49845094"
 ---
 # <a name="isolated-sharepoint-online-team-sites"></a>격리된 SharePoint Online 팀 사이트
 
@@ -32,9 +32,9 @@ ms.locfileid: "49616455"
 
  **요약:** 격리된 SharePoint Online 팀 사이트의 용도에 대해 알아봅니다.
 
-SharePoint Online 팀 사이트는 Microsoft Office 365에서 노트, 문서, 기사, 일정 및 기타 리소스의 공동 작업 공간을 신속하게 만들 수 있는 편리한 방법입니다. SharePoint Online 팀 사이트는 Microsoft 365 그룹을 기준으로 하며, 그룹 구성원의 개인 집합이나 전체 조직과 오픈해서 공동 작업할 수 있도록 하는 간편한 관리 모델을 제공합니다. 기본 SharePoint Online 팀 사이트는 Office 365 그룹 구성원이 다른 사용자를 초대하고 사용 권한 설정을 제어할 수 있도록 합니다.
+SharePoint Online 팀 사이트는 공동 작업 공간을 신속하게 만들 수 있는 손쉬운 방법입니다. Microsoft Office 365에서 노트, 문서, 기사, 일정 및 기타 리소스에 대해 함께 작업할 수 있습니다. SharePoint Online 팀 사이트는 Microsoft 365 그룹을 기준으로 하며, 그룹 구성원의 개인 집합이나 전체 조직과 오픈해서 공동 작업할 수 있도록 하는 간편한 관리 모델을 제공합니다. 기본 SharePoint Online 팀 사이트는 Office 365 그룹 구성원이 다른 사용자를 초대하고 사용 권한 설정을 제어할 수 있도록 합니다.
 
-그러나 경우에 따라 하려는 그룹 멤버 자격 및 SharePoint에 의해만 관리 되는 사용 권한 수준, SharePoint Online을 통해 해당 사이트의 사용 권한을 제어 더욱 긴밀 하 게 됩니다 공동 작업에 대 한 SharePoint Online 팀 사이트 만들기 관리자가 있습니다. 오늘은이 있는 격리 된 사이트를 사용자는 사이트나 공동 작업, 해당 내용 보기 사이트 관리 하는 집합에 격리 됩니다. 다음에 대해 격리된 사이트가 필요할 수 있습니다.
+그러나 그룹 구성원에 의해 제어될 사이트 액세스와 SharePoint 관리자가 관리하는 SharePoint Online 사용 권한 수준이 필요한 경우가 간혹 있습니다. 이를 격리된 사이트라고 부르며, 이는 공동 작업, 콘텐츠 보기 또는 사이트를 관리하는 사용자 집합으로 격리됩니다. 다음에 대해 격리된 사이트가 필요할 수 있습니다.
 
 - 조직 내의 비밀 프로젝트
 
