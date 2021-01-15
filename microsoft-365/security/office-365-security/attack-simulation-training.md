@@ -10,19 +10,21 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: 관리자는 Microsoft Defender for Office 365의 공격 시뮬레이션 교육을 사용하여 피싱 공격을 시뮬레이션하고 사용자를 피싱 방지에 교육하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: e7582b1f74266d988ecdf8f6dac49019699e2bc1
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+description: 관리자는 Microsoft Defender for Office 365의 공격 시뮬레이션 교육을 사용하여 피싱 공격을 시뮬레이트하고 사용자에게 피싱 방지를 교육하는 방법을 배울 수 있습니다.
+ms.openlocfilehash: dfdd3c93afb1b0fb30cc5b5affc040a369c29447
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794259"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870970"
 ---
 # <a name="simulate-a-phishing-attack"></a>피싱 공격 시뮬레이션
 
-Office 365용 Microsoft Defender의 공격 시뮬레이션 교육을 통해 조직에서 양성 사이버 공격 시뮬레이션을 실행하여 보안 정책 및 관행을 테스트하고 직원의 인식을 높이고 공격에 대한 인식을 낮출 수 있도록 교육할 수 있습니다. 이 문서에서는 공격 시뮬레이션 교육을 사용하여 시뮬레이트된 피싱 공격을 만드는 방법을 단계적으로 연습합니다.
+Office 365용 Microsoft Defender의 공격 시뮬레이션 교육을 통해 조직에서 양성 사이버 공격 시뮬레이션을 실행하여 보안 정책 및 관행을 테스트하고 직원의 인식을 높이고 공격에 대한 인식을 낮출 수 있도록 교육할 수 있습니다. 이 문서에서는 공격 시뮬레이션 교육을 사용하여 시뮬레이트된 피싱 공격을 만드는 방법을 단계적으로 제공합니다.
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
+공격 시뮬레이션 교육에 대한 시작 정보는 공격 시뮬레이션 교육 사용 [시작을 참조하세요.](attack-simulation-training-get-started.md)
 
 시뮬레이션된 피싱 공격을 시작하기 위해 [Microsoft 365](https://security.microsoft.com/)보안  센터를 열고 전자 메일 & 공격 시뮬레이션 교육으로 이동한 다음 시뮬레이션 탭으로 \> 전환합니다. [](https://security.microsoft.com/attacksimulator?viewid=simulations)
 
@@ -43,11 +45,11 @@ Office 365용 Microsoft Defender의 공격 시뮬레이션 교육을 통해 조�
 - **맬웨어에 대한** 링크는 잘 알려진 파일 공유 서비스에 호스트된 파일에서 일부 임의 코드를 실행합니다. 사용자에게 전송된 메시지에는 이 악성 파일에 대한 링크가 포함되어 있습니다. 파일을 열고 공격자가 대상의 장치를 손상시킬 수 있도록 합니다.
 
 > [!TIP]
-> 각 **기술에** 대한 설명 내에서 세부 정보 보기를 클릭하면 해당 기술에 대한 추가 정보와 시뮬레이션 단계가 표시됩니다.
+> 각 기술에 **대한** 설명 내에서 세부 정보 보기를 클릭하면 해당 기술에 대한 추가 정보와 시뮬레이션 단계가 표시됩니다.
 >
 > ![Microsoft 365 보안 센터의 공격 시뮬레이션 교육 내에서 자격 증명 수집을 위한 시뮬레이션 단계](../../media/attack-sim-preview-sim-steps.png)
 
-기술을 선택한 후 다음을 클릭한 후 **시뮬레이션에** 이름과 설명(옵션)을 지정합니다.
+기술을 선택한 후 다음을 클릭한 후 **시뮬레이션에** 이름과 설명(선택 사항)을 지정합니다.
 
 ## <a name="selecting-a-payload"></a>페이로드 선택
 
@@ -86,7 +88,7 @@ Office 365용 Microsoft Defender의 공격 시뮬레이션 교육을 통해 조�
 교육 **기한을 선택하여** 직원들이 제시간에 교육을 완료할 수 있도록 합니다.
 
 > [!NOTE]
-> 직접 과정과 모듈을 선택하려면 권장되는 콘텐츠와 사용 가능한 모든 과정 및 모듈을 볼 수 있습니다.
+> 직접 과정과 모듈을 선택하기로 선택한 경우 권장되는 콘텐츠와 사용 가능한 모든 과정 및 모듈을 볼 수 있습니다.
 >
 > ![Microsoft 365 보안 센터의 공격 시뮬레이션 교육 내에서 권장 교육 추가](../../media/attack-sim-preview-add-training.png)
 
@@ -96,6 +98,6 @@ Office 365용 Microsoft Defender의 공격 시뮬레이션 교육을 통해 조�
 
 이제 모든 것이 구성되면 이 시뮬레이션을 즉시 시작하거나 나중에 예약할 수 있습니다. 또한 이 시뮬레이션을 종료할 때를 선택해야 합니다. 선택한 시간을 지난 후 이 시뮬레이션의 조작 캡처를 중지합니다.
 
-**지역 인식 시간제네트론** 배달을 사용하도록 설정하여 해당 지역에 따라 작업 시간 동안 시뮬레이트된 공격 메시지를 직원에게 전달합니다.
+**지역 인식 시간 표시** 시간 배달을 사용하도록 설정하여 해당 지역에 따라 작업 시간 동안 시뮬레이트된 공격 메시지를 직원에게 전달합니다.
 
 완료되면 다음을 클릭하고  시뮬레이션의 세부 정보를 검토합니다. 편집을  클릭하여 돌아가서 변경해야 하는 세부 정보를 변경합니다. 완료되면 제출을 **클릭합니다.**
