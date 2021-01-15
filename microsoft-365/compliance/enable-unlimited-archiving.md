@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: '관리자: Exchange Online 사서함에 대해 무제한 저장소를 제공하는 자동 확장 보관을 사용하도록 설정하는 방법을 배워야 합니다. 전체 조직 또는 특정 사용자에 대해 자동 확장 보관을 사용하도록 설정할 수 있습니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 237e3032b21f6fe0d3a97d2ae41c527e500fb2e0
-ms.sourcegitcommit: 7d4aa58ae9fc893825b6e648fa3f072c3ac59628
+ms.openlocfilehash: f95d635c6f6dc89e91b98e9219b491ec34a3e5d7
+ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "49790086"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49867996"
 ---
 # <a name="enable-unlimited-archiving---admin-help"></a>무제한 보관 사용 - 관리자 도움말
 
@@ -39,6 +39,8 @@ Exchange Online 자동 확장 보관 기능을 사용하여 보관 사서함에 
 - PowerShell을 사용하여 보관 사서함을 사용하도록 설정할 수도 있습니다. 조직의 [모든](#more-information) 사용자에 대해 보관 사서함을 사용하도록 설정하는 데 사용할 수 있는 PowerShell 명령의 예는 추가 정보 섹션을 참조하세요.
 
 - 자동 확장 보관 기능은 공유 사서함도 지원합니다. 공유 사서함에 대해 보관 사서함을 사용하도록 설정하려면 Exchange Online 계획 2 라이선스 또는 Exchange Online 계획 1 라이선스와 Exchange Online Archiving 라이선스가 필요합니다.
+
+- 자동 확장 보관을 사용하면 비활성 사서함을 복구하거나 복원할 [수 없습니다.](inactive-mailboxes-in-office-365.md#what-are-inactive-mailboxes) 즉, 사서함에 대해 자동 확장 보관을 사용하도록 설정하고 나중에 사서함이 비활성 상태로 설정되어 있는 [](recover-an-inactive-mailbox.md) 경우 비활성 사서함을 활성 사서함으로 변환하여 [](restore-an-inactive-mailbox.md) 복구하거나 기존 사서함에 콘텐츠를 통합하여 복원할 수 없습니다. 비활성 사서함에서 자동 확장 보관을 사용하도록 설정한 경우 데이터를 복구하는 유일한 방법은 Microsoft 365 규정 준수 센터의 콘텐츠 검색 도구를 사용하여 사서함에서 데이터를 내보내고 다른 사서함으로 가져오는 것입니다. 자세한 내용은 비활성 사서함 개요에서 "비활성 사서함 및 자동 확장 보관 파일" [섹션을 참조하십시오.](inactive-mailboxes-in-office-365.md#inactive-mailboxes-and-auto-expanding-archives)
 
 - Exchange 관리 센터 또는 보안 & 준수 센터를 사용하여 자동 확장 보관을 사용하도록 설정할 수 없습니다. Exchange Online PowerShell을 사용해야 합니다. 원격 PowerShell을 사용하여 Exchange Online 조직에 연결하기 위해 [Exchange Online PowerShell에 연결합니다.](https://go.microsoft.com/fwlink/p/?linkid=396554)
 
@@ -60,7 +62,7 @@ Exchange Online 자동 확장 보관 기능을 사용하여 보관 사서함에 
   
 특정 사용자 및 사용자의 사서함에 대해 자동 확장 보관을 사용하도록 설정하거나 보존 정책에 할당하면 다음과 같은 두 가지 구성이 변경됩니다.
   
-- 사용자의 기본 보관 사서함에 대한 저장소 할당량은 10GB(100GB에서 110GB)로 증가합니다. 보관 경고 할당량도 10GB(90GB에서 100GB)로 늘어났습니다.
+- 사용자의 기본 보관 사서함에 대한 저장소 할당량은 10GB(100GB에서 110GB)로 증가합니다. 보관 경고 할당량도 10GB(90GB에서 100GB)로 증가합니다.
 
 - 사용자의 기본 사서함에 있는 복구 가능한 항목 폴더의 저장소 할당량은 10GB(또한 100GB에서 110GB)로 증가합니다. 복구 가능한 항목 경고 할당량도 10GB(90GB에서 100GB)로 증가합니다. 이러한 변경 내용은 보류된 사서함 또는 보존 정책에 할당된 경우만 적용됩니다.
 
@@ -93,8 +95,16 @@ Get-OrganizationConfig | FL AutoExpandingArchiveEnabled
 Get-Mailbox <user mailbox> | FL AutoExpandingArchiveEnabled
 ```
 
-값은 사용자에 대해 자동 확장 보관이 사용하도록 설정되어 있는  `True` 것입니다. 
+값은 사용자에 대해 자동 확장 보관이 사용하도록 설정되어 있는  `True` 것입니다.
   
+자동 확장 보관이 비활성 사서함에 대해 사용하도록 설정되어 있는지 확인하기 위해 Exchange Online PowerShell에서 다음 명령을 실행합니다.
+  
+```powershell
+Get-Mailbox -InactiveMailboxOnly | FL UserPrincipalName,AutoExpandingArchiveEnabled
+```
+
+값은 자동 확장 보관이 비활성 사서함에 대해 사용하도록 설정되어 있는  `True` 것입니다. 값은 자동 확장 보관이 사용되지 않는 `False` 경우를 나타냅니다.
+
 자동 확장 보관을 사용하도록 설정한 후 다음에 유의하십시오.
   
 - **Set-OrganizationConfig -AutoExpandingArchive** 명령을 실행하여 조직에 대해 자동 확장 보관을 사용하도록 설정하는 경우 개별 사서함에서 **Enable-Mailbox -AutoExpandingArchive를** 실행할 수 없습니다. 조직에 대해 자동 확장 보관을 사용하도록 설정하기 위해 **Set-OrganizationConfig** cmdlet을 실행해도 사용자 사서함의  *AutoExpandingArchiveEnabled*  속성은 변경되지 `True` 않습니다.
@@ -113,15 +123,13 @@ Get-Mailbox <user mailbox> | FL AutoExpandingArchiveEnabled
 
 - 조직 또는 특정 사용자에 대해 자동 확장 보관을 켜면 보관 사서함(복구 가능한 항목 폴더 포함)이 90GB에 도달하면 보관 사서함이 자동 확장 보관함으로 변환됩니다. 추가 저장소 공간을 프로비전하는 데 최대 30일이 걸릴 수 있습니다.
 
-- 자동 확장 보관을 켜면 보관을 해제할 수 있습니다.
+- 자동 확장 보관을 켜면 보관을 해제할 수 있습니다. 또한 관리자는 자동 확장 보관에 대한 저장소 할당량도 조정할 수 없습니다.
 
-- 자동 확장 보관은 Exchange 하이브리드 배포에서 클라우드 기반 보관 사서함에 대해 지원됩니다. 그러나 클라우드 기반 보관 사서함에 대해 자동 확장 보관을 사용하도록 설정한 후 사서함을 다시 보관하는 오프보드를 On-premises Exchange 조직에 오프보드할 수 없습니다. 자동 확장 보관은 모든 버전의 사서함에 대해 지원되지 Exchange Server.
+- 자동 확장 보관은 Exchange 하이브리드 배포의 클라우드 기반 보관 사서함에 대해 지원됩니다. 그러나 클라우드 기반 보관 사서함에 대해 자동 확장 보관을 사용하도록 설정한 후 사서함을 다시 보관하는 오프보드를 On-premises Exchange 조직에 오프보드할 수 없습니다. 자동 확장 보관은 모든 버전의 사서함에 대해 지원되지 Exchange Server.
 
 - 사용자가 보관 사서함의 추가 저장소 영역에 있는 항목에 액세스하는 데 사용할 수 있는 Outlook 클라이언트 목록은 무제한 보관 개요의 [](unlimited-archiving.md#outlook-requirements-for-accessing-items-in-an-auto-expanded-archive)"자동 확장 보관함의 항목에 액세스하기 위한 Outlook 요구 사항" 섹션을 참조하세요.
 
-- 앞서 설명한처럼 **Enable-Mailbox -AutoExpandingArchive** 명령을 실행할 때 사용자의 기본 보관 사서함의 저장소 할당량(사서함이 보류된 경우 복구 가능한 항목 폴더)에 10GB가 추가됩니다. 이렇게 하면 자동 확장 저장소 공간이 프로비전될 때까지(최대 30일까지 걸릴 수 있는) 추가 저장소가 표시됩니다. 이 추가 저장소 공간은 **Set-OrganizationConfig -AutoExpandingArchive를** 실행하여 조직의 모든 사서함에 대해 자동 확장 보관을 사용하도록 설정할 때 추가되지 않습니다. 전체 조직에 대해 자동 확장 보관을 사용하도록 설정했지만 특정 사용자에 대해 10GB의 저장소 공간을 더 추가해야 하는 경우 해당 사서함에서 **Enable-Mailbox -AutoExpandingArchive** 명령을 실행할 수 있습니다. 자동 확장 보관이 이미 사용하도록 설정되어 있지만 추가 저장소 공간이 사서함에 추가됩니다.
-
-- 관리자가 저장소 할당량을 조정할 수 없습니다.
+- 앞서 설명한처럼 **Enable-Mailbox -AutoExpandingArchive** 명령을 실행할 때 사용자의 기본 보관 사서함의 저장소 할당량(및 사서함이 보류된 경우 복구 가능한 항목 폴더)에 10GB가 추가됩니다. 이렇게 하면 자동 확장 저장소 공간이 프로비전될 때까지(최대 30일까지 걸릴 수 있는) 추가 저장소가 표시됩니다. 이 추가 저장소 공간은 **Set-OrganizationConfig -AutoExpandingArchive를** 실행하여 조직의 모든 사서함에 대해 자동 확장 보관을 사용하도록 설정할 때 추가되지 않습니다. 전체 조직에 대해 자동 확장 보관을 사용하도록 설정했지만 특정 사용자에 대해 10GB의 저장소 공간을 더 추가해야 하는 경우 해당 사서함에서 **Enable-Mailbox -AutoExpandingArchive** 명령을 실행할 수 있습니다. 자동 확장 보관이 이미 사용하도록 설정되어 있지만 추가 저장소 공간이 사서함에 추가됩니다.
 
 > [!IMPORTANT]
 > 자동 확장 보관은 하루당 1GB를 초과하지 않는 증가율의 개별 사용자 또는 공유 사서함에 사용되는 사서함에만 지원됩니다. 보관 목적으로 저널링, 전송 규칙 또는 자동 전달 규칙을 사용하여 메시지를 보관 사서함으로 복사할 수 없습니다. 사용자의 보관 사서함은 해당 사용자만을 위한 것입니다. Microsoft는 사용자의 보관 사서함이 다른 사용자의 보관 데이터를 저장하는 데 사용되는 경우 또는 부적절한 사용의 경우 무제한 보관을 거부할 권리가 있습니다.
