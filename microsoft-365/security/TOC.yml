@@ -334,6 +334,8 @@
                   href: ./office-365-security/auditing-reports-in-eop.md
             - name: Office 365용 Defender
               href: ./office-365-security/office-365-atp.md
+            - name: Office 365용 Defender 계산
+              href: ./office-365-security/office-365-evaluation.md
             - name: Office 365용 Defender의 새로운 기능
               href: office-365-security/whats-new-in-office-365-atp.md
             - name: 'SharePoint, OneDrive, and Microsoft Teams를 위한 Office 365용 Defender'
@@ -481,6 +483,8 @@
               href: ./office-365-security/configuration-analyzer-for-security-policies.md
             - name: Office 365용 Defender의 공격 시뮬레이터
               href: ./office-365-security/attack-simulator.md
+            - name: 공격의 신나는 교육 사용 시작
+              href: ./office-365-security/attack-simulation-training-get-started.md
             - name: 공격 시뮬레이션 교육으로 피싱 공격 시뮬레이션
               href: ./office-365-security/attack-simulation-training.md
             - name: 공격 시뮬레이션 교육에 대한 사용자 지정 페이로드 만들기
