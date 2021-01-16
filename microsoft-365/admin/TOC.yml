@@ -24,6 +24,8 @@
           href: setup/o365-setup-wizard-and-setup-page.md
         - name: Windows 10 컴퓨터 보안
           href: ../business/secure-win-10-pcs.md
+        - name: 소프트웨어 및 제품 키 다운로드
+          href: setup/download-software-licenses-csp.md
         - name: Office 앱 설치
           href: setup/install-applications.md
         - name: Windows 장치 설정
@@ -360,12 +362,32 @@
               href: basic-mobility-security/overview.md
             - name: 기본 모바일 및 보안 및 Intune 비교
               href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
-            - name: 기본 모바일 및 보안 FAQ
-              href: basic-mobility-security/frequently-asked-questions.md
-            - name: 기본 모바일 및 보안 기능
+            - name: 기본 이동성 및 보안 기능
               href: basic-mobility-security/capabilities.md
-            - name: 기본 모바일 및 보안 및 Intune 비교
-              href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
+            - name: 기본 이동성 및 보안 설정
+              href: basic-mobility-security/set-up.md
+            - name: 장치 보안 정책 만들기
+              href: basic-mobility-security/create-device-security-policies.md
+            - name: iOS 장치용 APN 인증서 만들기
+              href: basic-mobility-security/create-an-apns-certificate-for-ios-devices.md
+            - name: 장치 액세스 설정 관리
+              href: basic-mobility-security/manage-device-access-settings.md
+            - name: 관리되는 장치에 대한 세부 정보 보기
+              href: basic-mobility-security/get-details-about-managed-devices.md
+            - name: 등록된 장치 관리
+              href: basic-mobility-security/manage-enrolled-devices.md
+            - name: 모바일 장치 등록
+              href: basic-mobility-security/enroll-your-mobile-device.md
+            - name: 개인 정보 및 보안
+              href: basic-mobility-security/privacy-and-security.md
+            - name: 질문과 대답
+              href: basic-mobility-security/frequently-asked-questions.md
+            - name: 모바일 장치 지우기
+              href: basic-mobility-security/wipe-mobile-device.md
+            - name: 기본 이동성 및 보안 해제
+              href: basic-mobility-security/turn-off.md
+            - name: 문제 해결
+              href: basic-mobility-security/troubleshoot.md
     - name: 고객과 협력
       href: work-with-customers/index.yml
       items:
