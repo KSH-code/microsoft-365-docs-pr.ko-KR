@@ -1,5 +1,5 @@
 ---
-title: 기본 이동성 및 보안을 사용 하 여 모바일 장치 등록
+title: 기본 이동성 및 보안을 사용하여 모바일 장치 등록
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -17,66 +17,66 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: 장치에서 Microsoft 365 서비스를 사용 하려면 먼저 기본 Mobility and Security for Microsoft 365에 등록 해야 할 수 있습니다.
-ms.openlocfilehash: e31054621ba44a4d5f08de9b366fa0978b738cd9
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+description: 디바이스에서 Microsoft 365 서비스를 사용하려면 먼저 Microsoft 365용 Basic Mobility and Security에 등록해야 할 수 있습니다.
+ms.openlocfilehash: dc5a43b12fce50c9146200a4559fe9b7e6824b18
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430261"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49877059"
 ---
-# <a name="enroll-your-mobile-device-using-basic-mobility-and-security"></a>기본 이동성 및 보안을 사용 하 여 모바일 장치 등록
+# <a name="enroll-your-mobile-device-using-basic-mobility-and-security"></a>기본 이동성 및 보안을 사용하여 모바일 장치 등록
 
-직장에서 휴대폰, 태블릿 및 기타 모바일 장치를 사용 하는 것은 사무실 밖에 서 비즈니스 프로젝트에 대 한 정보를 유지 하 고 작업 하는 좋은 방법입니다. 장치와 함께 Microsoft 365 서비스를 사용 하려면 먼저 microsoft Intune 회사 포털을 사용 하 여 microsoft 365 용 기본 이동성 및 보안에 등록 해야 할 수 있습니다.
+업무에 휴대폰, 태블릿 및 기타 모바일 장치를 사용하면 사무실을 비우는 동안 비즈니스 프로젝트에 대한 정보를 계속 사용하고 업무를 진행할 수 있습니다. 디바이스에서 Microsoft 365 서비스를 사용하려면 먼저 Microsoft Intune 회사 포털을 사용하여 Microsoft 365용 Basic Mobility and Security에 등록해야 할 수 있습니다.
 
-조직은 회사에서 중요 한 데이터를 보호 하 고 준수 요구 사항을 충족 하면서 모바일 장치를 사용 하 여 회사의 전자 메일, 일정 및 문서에 안전 하 게 액세스할 수 있도록 기본 이동성 및 보안을 선택 합니다.자세한 내용은 [Microsoft 365의 기본 모바일 및 보안 개요](overview.md)를 참조 하세요. 자세한 내용은 [내 장치를 등록할 때 조직에서 어떤 정보를 확인할 수 있나요?](https://docs.microsoft.com/intune-user-help/what-info-can-your-company-see-when-you-enroll-your-device-in-intune)를 참조 하세요.
+조직은 직원이 모바일 장치를 사용하여 회사 전자 메일, 일정 및 문서에 안전하게 액세스할 수 있도록 기본 이동성 및 보안을 선택하고 비즈니스에서 중요한 데이터를 보호하고 규정 준수 요구 사항을 충족합니다.자세한 내용은 [Microsoft 365의 기본 이동성 및 보안 개요를 참조하세요.](overview.md) 자세한 내용은 내 장치를 등록할 때 조직에서 [볼 수 있는 정보를 참조하세요.](https://docs.microsoft.com/intune-user-help/what-info-can-your-company-see-when-you-enroll-your-device-in-intune)
 
 >[!IMPORTANT] 
->Microsoft 365의 기본 Mobility 및 Security에서 디바이스를 등록할 때 작업 조직에 대 한 옵션을 사용 하 여 장치를 초기화 하는 데 필요한 암호를 설정 해야 할 수 있습니다. 예를 들어 Microsoft 365 관리 센터에서 장치 지우기를 수행 하 여 암호를 너무 여러 번 입력 하거나 사용 조건이 끊어진 경우 장치에서 모든 데이터를 제거할 수 있습니다.
+>Microsoft 365용 Basic Mobility and Security에 장치를 등록할 때 작업 조직에서 디바이스를 지우는 옵션을 허용하는 것과 함께 암호를 설정해야 할 수 있습니다. Microsoft 365 관리 센터에서 장치 지우기를 수행할 수 있습니다. 예를 들어 암호를 너무 많이 입력하거나 사용 약관이 손상된 경우 장치에서 모든 데이터를 제거할 수 있습니다.
 
 ## <a name="supported-devices"></a>지원되는 장치
 
-Intune 서비스에 의해 호스트 되는 Microsoft 365 용 기본 이동성 및 보안은 대부분의 모바일 장치에서 작동 합니다. 기본 이동성 및 보안에서는 다음과 같은 기능을 지원 합니다.
+Intune 서비스에서 호스팅하는 Microsoft 365의 기본 이동성 및 보안은 대부분의 모바일 장치에서만 작동합니다. 기본 이동성 및 보안에서는 다음이 지원됩니다.
 
 - iOS 10.0 이상
-    
+
 - Android 4.4 이상
-    
-- Windows 8.1 및 Windows 10 (전화 및 PC)
-    
-장치가 위에 나열 되지 않고 기본 이동성 및 보안을 사용 해야 하는 경우 회사 또는 학교 관리자에 게 문의 하세요.
 
->[!TIP] 
->장치를 등록 하는 데 문제가 있는 경우 [기본 이동성 및 보안 문제 해결](troubleshoot.md)을 참조 하세요.
+- Windows 8.1 및 Windows 10(휴대폰 및 PC)
 
-## <a name="set-up-your-mobile-device-with-intune-and-basic-mobility-and-security"></a>Intune과 기본 이동성 및 보안을 사용 하 여 모바일 장치 설정
+장치가 위에 나열되지 않은 경우 기본 이동성 및 보안과 함께 장치를 사용하려면 직장 또는 학교 관리자에게 문의하세요.
 
-Intune 회사 포털을 사용 하면 Microsoft 365 및 기본 이동성 및 보안을 통해 장치를 관리할 수 있습니다.
+>[!TIP]
+>장치를 등록하는 데 문제가 있는 경우 기본 이동성 및 보안 문제 [해결을 참조하세요.](/basic-mobility-security/troubleshoot.md)
+
+## <a name="set-up-your-mobile-device-with-intune-and-basic-mobility-and-security"></a>Intune 및 기본 이동성 및 보안으로 모바일 장치 설정
+
+Intune 회사 포털을 사용하면 Microsoft 365 및 기본 이동성 및 보안에서 장치를 관리할 수 있습니다.
 
 ### <a name="iphone-or-ipad"></a>iPhone 또는 iPad
 
 >[!TIP]
->이 단계를 완료 해야 전자 메일을 보내고 받을 수 있습니다.
+>이 단계를 완료해야 전자 메일을 보내고 받을 수 있습니다.
 
-Apple App Store로 이동 하 여 Intune 회사 포털을 다운로드 하 고 설치 합니다.
+Apple 앱 스토어로 이동하여 Intune 회사 포털을 다운로드하여 설치합니다.
 
-회사 포털로 Office 365을 사용 하 여 iOS 휴대폰 또는 태블릿을 연결 하 고 구성 하려면 [ios 장치 액세스를 회사 리소스에 설정](https://go.microsoft.com/fwlink/?linkid=875316)를 참조 하세요.
+회사 포털을 사용하여 iOS 휴대폰 또는 태블릿을 Office 365에 연결하고 구성하려면 회사 리소스에 대한 iOS 장치 액세스 [설정을 참조하세요.](https://go.microsoft.com/fwlink/?linkid=875316)
 
 ### <a name="android-phone-or-tablet"></a>Android 휴대폰 또는 태블릿
 
 >[!TIP]
->이 단계를 완료 해야 전자 메일을 보내고 받을 수 있습니다.
+>이 단계를 완료해야 전자 메일을 보내고 받을 수 있습니다.
 
-Google Play store로 이동 하 여 Intune 회사 포털을 다운로드 하 고 설치 합니다.
+Google Play 스토어로 이동하여 Intune 회사 포털을 다운로드하여 설치합니다.
 
-회사 포털을 사용 하 여 Microsoft 365로 Android 휴대폰 또는 태블릿을 연결 하 고 구성 하려면 [회사 포털에 디바이스 등록](https://go.microsoft.com/fwlink/?linkid=875317)을 참조 하세요.
+회사 포털을 사용하여 Android 휴대폰 또는 태블릿을 Microsoft 365에 연결하고 구성하려면 회사 포털을 사용하여 장치 [등록을 참조하세요.](https://go.microsoft.com/fwlink/?linkid=875317)
 
 ### <a name="windows-81-and-windows-10"></a>Windows 8.1 및 Windows 10
 
-Microsoft Store로 이동 하 여 Intune 회사 포털 다운로드 및 설치
+Microsoft Store로 이동하여 Intune 회사 포털을 다운로드하여 설치합니다.
 
-회사 포털을 사용 하 여 Windows phone 또는 PC를 Microsoft 365에 연결 하 고 구성 하려면 [Intune 회사 포털에서 windows 디바이스 등록](https://docs.microsoft.com/intune-user-help/windows-enrollment-company-portal)을 참조 하세요.
+회사 포털을 사용하여 Windows Phone 또는 PC를 Microsoft 365에 연결하고 구성하려면 Intune 회사 포털에서 Windows 장치 [등록을 참조하세요.](https://docs.microsoft.com/intune-user-help/windows-enrollment-company-portal)
 
 ## <a name="whats-next"></a>다음 작업
 
-장치를 기본 Mobility and Security에 등록 한 후에는 장치에서 Office 앱을 사용 하 여 전자 메일, 일정, 연락처 및 문서로 작업할 수 있습니다.
+장치가 기본 이동성 및 보안에 등록된 후 장치에서 Office 앱을 사용하여 전자 메일, 일정, 연락처 및 문서로 작업할 수 있습니다.

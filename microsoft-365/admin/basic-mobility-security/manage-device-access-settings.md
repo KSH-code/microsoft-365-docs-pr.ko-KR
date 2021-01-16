@@ -1,5 +1,5 @@
 ---
-title: 기본 모바일 및 보안에서 장치 액세스 설정 관리
+title: 기본 이동성 및 보안에서 장치 액세스 설정 관리
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -17,33 +17,33 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: 기본 이동성 및 보안은 모바일 장치를 보호 하 고 관리 하는 데 도움이 됩니다.
-ms.openlocfilehash: e66465d312c4268aca82677fa4e517aaeb822ce3
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+description: 기본 모바일 및 보안은 모바일 장치를 보호하고 관리하는 데 도움이 될 수 있습니다.
+ms.openlocfilehash: dd9d777798c2c96776a8f9b40a3c4dfe0b95702a
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47430248"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876951"
 ---
-# <a name="manage-device-access-settings-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 장치 액세스 설정 관리
+# <a name="manage-device-access-settings-in-basic-mobility-and-security"></a>기본 이동성 및 보안에서 장치 액세스 설정 관리
 
-기본 이동성 및 보안을 사용 하는 경우 기본 이동성 및 보안을 사용 하 여 관리할 수 없는 장치가 있을 수 있습니다. 이러한 경우에는 Exchange ActiveSync 앱에 대해 기본 이동성 및 보안에서 지원 하지 않는 모바일 장치에 대 한 Microsoft 365 전자 메일 액세스를 차단 해야 합니다. 이렇게 하면 더 많은 장치에서 조직 정보를 보호 하는 데 도움이 됩니다.
+기본 이동성 및 보안을 사용하는 경우 기본 이동성 및 보안으로 관리할 수 없는 장치가 있을 수 있습니다. 그렇다면 기본 이동성 및 Exchange ActiveSync 지원되지 않는 모바일 장치에 대한 Microsoft 365 전자 메일에 대한 앱 액세스를 차단해야 합니다. 이렇게 하면 더 많은 장치에서 조직 정보를 보호하는 데 도움이 됩니다.
 
-다음 단계를 사용 합니다.
+다음 단계를 사용하세요.
 
-1. 전역 관리자 계정을 사용 하 여 Microsoft 365에 로그인 합니다.
-    
-2. 브라우저에서 다음을 입력  [https://protection.office.com](https://protection.office.com/) 합니다.    
+1. 전역 관리자 계정으로 Microsoft 365에 로그인합니다.
+
+2. 브라우저에 다음을  [https://protection.office.com](https://protection.office.com/) 입력합니다.    
 
     >[!IMPORTANT]
-    >Microsoft 365 Business Standard에 대해 MDM을 처음으로 사용 하는 경우 여기에서 [모바일 장치 관리 정품 인증](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx)을 받아야 합니다. 정품 인증을 완료 한 후에는 [Office 365 보안 & 준수](https://protection.office.com/)를 사용 하 여 장치를 관리 합니다.
+    >Microsoft 365 Business Standard용 Basic Mobility and Security를 처음 사용하는 경우 다음에서 활성화합니다. [기본 보안](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx)및 이동성 활성화 장치를 정품 인증한 후 Office 365 보안 및 규정 [준수로 & 관리합니다.](https://protection.office.com/)
 
-3. 데이터 손실 방지 > **장치 관리**   >  **장치 정책**으로 이동한 후 **조직 차원 장치 액세스 설정 관리**를 선택 합니다.
-    
-4.  **차단을**선택 합니다.
+3. 장치 관리 장치 > **** 데이터 손실 방지로 이동한 다음 조직 전체의 장치 액세스   >  **** **설정 관리를 선택합니다.**
 
-    :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="기본 모바일 및 보안 차단 액세스 확인란":::
+4. 차단을 **선택합니다.**
 
-5.  **저장**을 선택 합니다. 
+    :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="기본 이동성 및 보안 차단 액세스 확인란":::
 
-기본 Mobility and Security에서 지 원하는 장치에 대 한 자세한 내용은 [기본 이동성 및 보안 기능](capabilities.md)을 참조 하세요.
+5. 저장을 **선택합니다.**
+
+기본 이동성 및 보안이 지원하는 장치에 대한 자세한 내용은 기본 이동성 및 보안 [기능을 참조합니다.](capabilities.md)

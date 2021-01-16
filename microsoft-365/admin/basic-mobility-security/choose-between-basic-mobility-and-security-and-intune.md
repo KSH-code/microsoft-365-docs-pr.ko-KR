@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 이동성 및 보안은 Microsoft 365 계획의 일부입니다.
-ms.openlocfilehash: 75fef5bd70d7b8926d31b80f16952aa996bc625c
-ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
+ms.openlocfilehash: cfd1a68c313d1a1335490e2b8d6938de192fe3f3
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49580664"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49877095"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>기본 이동성 및 보안 또는 Intune 중 선택
 
@@ -33,7 +33,7 @@ ms.locfileid: "49580664"
  
 기본 이동성 및 보안과 Intune은 다음 표에 설명된 다양한 계획에 포함되어 있습니다.
 
-| 계획 | 기본 이동성 및 보안 | Microsoft Intune |
+| 계획 | 기본 모바일 및 보안 | Microsoft Intune |
 |:-----|:-----|:-----|
 |Microsoft 365 앱|예|아니요|
 |Microsoft 365 Business Basic|예|아니요|
@@ -64,17 +64,18 @@ Microsoft Intune과 기본 제공 Basic Mobility and Security는 모두 조직�
 >[!NOTE]
 >기본 이동성 및 보안을 먼저 설정한 다음 *Microsoft Intune을* 추가하여 동일한 Microsoft 365 Business Standard 조직에서 Intune 및 Basic Mobility and Security를 사용하여 사용자와 모바일 장치를 관리할 수 있습니다. 이렇게 하면 기본 이동성 및 보안 또는 기능이 풍부한 Intune 솔루션을 선택할 수 있습니다. Intune 기능을 사용하도록 설정하기 위해 Intune 라이선스를 할당합니다.
 
-| 기능 영역 | 주요 기능 | 기본 이동성 및 보안 | Microsoft Intune |
+| 기능 영역 | 주요 기능 | 기본 모바일 및 보안 | Microsoft Intune |
 |:-----|:-----|:-----|:-----|
 |장치 유형|다양한 OS 플랫폼 및 주 관리 모드 변형 관리 |Windows<br/>iOS<br/>Android<br/>Android Samsung KNOX<br/>|Windows<br/>iOS<br/>Android<br/>Android Samsung KNOX<br/>mac OS, iPad OS|
-|장치 준수|장치 수준 PIN 잠금 및 탈옥 감지와 같은 보안 정책을 설정하고 관리합니다. |Android 9 이상 디바이스에 대한 제한 사항 자세한 [내용을 참조합니다.](capabilities.md) |예|
+|장치 준수|장치 수준 PIN 잠금 및 탈옥 감지와 같은 보안 정책을 설정하고 관리합니다. |Android 9 이상 장치에 대한 제한 사항. 자세한 [내용을 참조합니다.](capabilities.md) |예|
 |장치 준수에 기반한 조건부 액세스 |비영리 장치가 클라우드에서 회사 전자 메일 및 데이터에 액세스하지 못하게 합니다. |Windows 10에서는 지원되지 않습니다.<br/>Exchange Online, SharePoint Online 및 Outlook에 대한 액세스를 제어하는 것으로 제한됩니다. |예 |
-|장치 구성  |장치 설정 구성(예: 카메라 사용 안 하도록 설정)|제한된 설정 집합입니다.|예|장치 준수|장치 수준 PIN 잠금 및 탈옥 감지와 같은 보안 정책을 설정하고 관리합니다. |Android 9 이상 장치에 대한 제한 사항. 자세한 [내용을 참조합니다.](capabilities.md) |예|
+|장치 구성  |장치 설정 구성(예: 카메라 사용 안 하도록 설정)|제한된 설정 집합입니다.|예|
+|장치 준수  |장치 수준 PIN 잠금 및 탈옥 감지와 같은 보안 정책을 설정하고 관리합니다. |Android 9 이상 디바이스에 대한 제한 사항 자세한 [내용을 참조합니다.](capabilities.md) |예|
 |전자 메일 프로필  |장치에서 기본 전자 메일 프로필을 프로비전합니다. |예|예|
 |WiFi 프로필 |장치에서 기본 WiFi 프로필을 프로비전합니다. |아니요|예|
 |VPN 프로필 |장치에서 기본 VPN 프로필을 프로비전합니다. |아니요|예|
-|MDM 응용 프로그램 관리 |내부 업무용 앱과 앱 스토어에서 사용자에게 배포합니다. |아니요|예|
-|MAM |복사, 잘라 내기, 붙여넣기 및 저장과 같은 작업을 회사 데이터에 대해 승인된 앱으로만 제한하여 사용자가 Office 모바일 및 업무용 앱을 사용하여 회사 정보에 안전하게 액세스할 수 있도록 합니다. |아니요|예|
+|기본 모바일 및 보안 응용 프로그램 관리  |내부 업무용 앱과 앱 스토어에서 사용자에게 배포합니다. |아니요|예|
+|모바일 응용 프로그램 보호  |사용자가 알고 있는 Office 모바일 및 업무용 앱을 사용하여 회사 정보에 안전하게 액세스할 수 있도록 하면서 복사, 잘라 내기, 붙여넣기 및 저장과 같은 작업을 회사 데이터에 대해 승인된 앱으로만 제한함으로써 데이터의 보안을 보장할 수 있습니다. 장치가 기본 이동성 및 보안에 등록되지 않은 경우에도 작동합니다. MAM 정책을 사용하여 앱 데이터 보호를 참조하세요. |아니요|예|
 |관리되는 브라우저  |에지 앱을 사용하여 보다 안전한 웹 검색을 사용하도록 설정하세요. |아니요|예|
 |제로 터치 등록 프로그램 Autopilot) |많은 수의 회사 소유 장치를 등록하고 사용자 설정을 간소화합니다. |아니요|예|
 |||
@@ -96,7 +97,7 @@ Intune을 사용하면 다음과 같은 작업 집합이 있습니다.
 - [Android용 원격 제어](https://docs.microsoft.com/mem/intune/remote-actions/teamviewer-support)
 - [원격 잠금](https://docs.microsoft.com/mem/intune/remote-actions/device-remote-lock)
 - [장치 이름 다시 설정](https://docs.microsoft.com/mem/intune/remote-actions/device-rename)
--  [암호 다시](https://docs.microsoft.com/mem/intune/remote-actions/device-passcode-reset) [Restart](https://docs.microsoft.com/mem/intune/remote-actions/device-restart)   시작(Windows만 해당)
+-  [암호 다시](https://docs.microsoft.com/mem/intune/remote-actions/device-passcode-reset) [](https://docs.microsoft.com/mem/intune/remote-actions/device-restart)   시작(Windows만 해당)
 -  보안 Windows Defender 업데이트(Windows만 해당)
 -  Windows 10 PIN 재설정(Windows만 해당)
 -  [사용자 지정 알림 보내기](https://docs.microsoft.com/mem/intune/remote-actions/custom-notifications#send-a-custom-notification-to-a-single-device)   (Android, iOS, iPad OS)

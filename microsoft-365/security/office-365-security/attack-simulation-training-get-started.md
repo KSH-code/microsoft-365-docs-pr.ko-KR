@@ -18,19 +18,17 @@ ms.collection:
 - m365initiative-m365-defender
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 Microsoft 365 E5 또는 Microsoft Defender for Office 365 Plan 2 조직에서 공격 시뮬레이션 교육을 사용하여 시뮬레이션된 피싱 및 암호 공격을 실행하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 9d97816edf7d59c002658fc8bb3f39e72dbc2430
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+description: 관리자는 공격 시뮬레이션 교육을 사용하여 Microsoft 365 E5 또는 Office 365 계획 2용 Microsoft Defender에서 시뮬레이션된 피싱 및 암호 공격을 실행하는 방법을 배울 수 있습니다.
+ms.openlocfilehash: 2c00fb27748887c6b8e2fa1458b10f0c3405eef7
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/15/2021
-ms.locfileid: "49871251"
+ms.locfileid: "49877167"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>공격 시뮬레이션 교육 사용 시작
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 조직에 위협 조사 및 대응 기능이 포함된 Microsoft 365 E5 또는 [](office-365-ti.md)Microsoft Defender for Office 365 계획 2가 있는 경우 Microsoft 보안 센터의 공격 시뮬레이션 교육을 사용하여 조직에서 실제 공격 시나리오를 실행할 수 있습니다. 이러한 시뮬레이션된 공격은 실제 공격이 아래쪽에 영향을 미치기 전에 취약한 사용자를 식별하고 찾는 데 도움이 될 수 있습니다. 자세한 내용은 이 문서를 읽어보아야 합니다.
 
@@ -39,7 +37,7 @@ ms.locfileid: "49871251"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- Microsoft 보안 센터를 열기 위해 다음으로 이동 <https://security.microsoft.com/> 합니다. 공격 시뮬레이션 교육은 전자 메일 및 공동 작업 공격 **시뮬레이션** \> **교육에서 사용할 수 있습니다.** 공격 시뮬레이션 교육으로 직접 이동하기 위해 를 열고 <https://security.microsoft.com/attacksimulator> .
+- Microsoft 보안 센터를 열기 위해 . <https://security.microsoft.com/> 공격 시뮬레이션 교육은 전자 메일 및 공동 작업 공격 **시뮬레이션** \> **교육에서 사용할 수 있습니다.** 공격 시뮬레이션 교육으로 직접 이동하기 위해 를 열고 <https://security.microsoft.com/attacksimulator> .
 
 - 여러 Microsoft 365 구독에서 공격 시뮬레이션 교육의 가용성에 대한 자세한 내용은 [Microsoft Defender for Office 365 서비스 설명을 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
@@ -67,10 +65,10 @@ ms.locfileid: "49871251"
 
 - **맬웨어에** 대한 링크: 공격자는 잘 알려진 파일 공유 사이트의 첨부 파일에 대한 링크가 포함된 메시지를 받는 사람에게 보냅니다(예: SharePoint Online 또는 Dropbox). 받는 사람이 URL을 클릭하면 첨부 파일이 열리며 사용자의 장치에서 임의의 코드(예: 매크로)가 실행됩니다. 공격자가 추가 코드를 설치하거나 추가 코드를 직접 설치하는 데 도움을 줄 수 있습니다.
 
-- **드라이브-url:** 공격자는 URL이 포함된 메시지를 받는 사람에게 보냅니다. 받는 사람이 URL을 클릭하면 백그라운드 코드를 실행하는 웹 사이트로 이동됩니다. 이 백그라운드 코드는 받는 사람에 대한 정보를 수집하거나 장치에 임의 코드를 배포하려고 시도합니다. 일반적으로 대상 웹 사이트는 손상된 잘 알려진 웹 사이트 또는 잘 알려진 웹 사이트의 복제본입니다. 웹 사이트에 대해 잘 알고 있는 경우 링크를 클릭하기에 안전한지 사용자에게 확신할 수 있습니다. 이 기술을 워터홀 _공격(watering hole attack)라고도 합니다._
+- **드라이브-URL:** 공격자는 URL이 포함된 메시지를 받는 사람에게 보냅니다. 받는 사람이 URL을 클릭하면 백그라운드 코드를 실행하는 웹 사이트로 이동됩니다. 이 백그라운드 코드는 받는 사람에 대한 정보를 수집하거나 장치에 임의 코드를 배포하려고 시도합니다. 일반적으로 대상 웹 사이트는 손상된 잘 알려진 웹 사이트 또는 잘 알려진 웹 사이트의 복제본입니다. 웹 사이트에 대해 잘 알고 있는 경우 링크를 클릭하기에 안전한지 사용자에게 확신할 수 있습니다. 이 기술을 워터홀 _공격(watering hole attack)라고도 합니다._
 
 > [!NOTE]
-> 피싱 캠페인에서 URL을 사용하기 전에 지원되는 웹 브라우저에서 시뮬레이트된 피싱 URL의 가용성을 확인합니다. 항상 이러한 시뮬레이션 URL을 허용하기 위해 많은 URL 신뢰도 공급업체와 협력하고 있는 반면, Google Safe Browsing과 같은 전체 범위가 항상 있는 것은 아니며, 대부분의 공급업체는 항상 특정 URL(예: )을 허용할 수 있는 지침을 <https://support.google.com/chrome/a/answer/7532419> 제공합니다.
+> 피싱 캠페인에서 URL을 사용하기 전에 지원되는 웹 브라우저에서 시뮬레이트된 피싱 URL의 가용성을 확인합니다. 항상 이러한 시뮬레이션 URL을 허용하기 위해 많은 URL 신뢰도 공급업체와 협력하고 있는 반면 Google Safe Browsing과 같은 전체 범위가 항상 있는 것은 않습니다. 대부분의 공급업체는 항상 특정 URL(예: )을 허용할 수 있는 지침을 <https://support.google.com/chrome/a/answer/7532419> 제공합니다.
 
 공격 시뮬레이션 교육에 사용되는 URL은 다음 목록에 설명되어 있습니다.
 

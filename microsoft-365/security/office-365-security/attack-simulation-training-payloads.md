@@ -11,18 +11,16 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: 관리자는 Microsoft Defender for Office 365에서 공격 시뮬레이션 교육을 위한 사용자 지정 페이로드를 만드는 방법을 배울 수 있습니다.
-ms.openlocfilehash: e3285b99d5b64255b9fdbda8c76b6f133aa013b2
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: 45311ad4c4eb09c8238d278475248680fbc66287
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870866"
+ms.locfileid: "49877131"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>공격 시뮬레이션 교육에 대한 사용자 지정 페이로드 만들기
 
 Microsoft는 공격 시뮬레이션 교육과 쌍을 이을 수 있는 다양한 소셜 엔지니어링 기술을 위한 강력한 페이로드 카탈로그를 제공합니다. 그러나 조직에 더 잘 작동할 수 있는 사용자 지정 페이로드를 만들 수 있습니다. 이 문서에서는 Microsoft Defender for Office 365의 공격 시뮬레이션 교육에서 페이로드를 만드는 방법을 설명합니다.
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 전용 페이로드 탭 또는 시뮬레이션  만들기 마법사에서 페이로드 만들기를 클릭하여 페이로드를 [만들 수 있습니다.](attack-simulation-training.md#selecting-a-payload) [  ](https://security.microsoft.com/attacksimulator?viewid=payload)
 
@@ -50,7 +48,7 @@ Microsoft는 공격 시뮬레이션 교육과 쌍을 이을 수 있는 다양한
 
 ## <a name="adding-indicators"></a>표시기 추가
 
-표시기는 공격 시뮬레이션을 진행하는 직원이 이후 공격에서 찾아 볼 수 있는 단서를 이해하는 데 도움이 될 것입니다. 시작하려면 **표시기 추가를 클릭합니다.**
+표시기는 공격 시뮬레이션을 진행하는 직원이 이후 공격에서 찾아 볼 수 있는 단서를 이해하는 데 도움이 될 것입니다. 시작하려면 표시기 **추가를 클릭합니다.**
 
 드롭다운 목록에서 사용할 표시기를 선택합니다. 이 목록은 피싱 전자 메일 메시지에 나타나는 가장 일반적인 단서를 포함하기 위해 구성됩니다. 선택한 후 표시기 배치가 전자 메일 본문에서 **시작으로** 설정되어 있는지 확인한 후 텍스트 **선택을 클릭합니다.** 이 표시기가 나타나는 페이로드 부분을 강조 표시하고 선택을 **클릭합니다.**
 

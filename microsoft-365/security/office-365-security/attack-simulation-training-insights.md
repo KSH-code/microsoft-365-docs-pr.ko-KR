@@ -11,18 +11,16 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: 관리자는 Microsoft 365 보안 센터의 공격 시뮬레이션 교육이 직원에게 미치는 영향과 시뮬레이션 및 교육 결과에 대한 정보를 얻을 수 있습니다.
-ms.openlocfilehash: c283819550872691d8dd23d3921c22cb23637633
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: baff6032f295b2b49b4f2ec9280fb465d47b8dc3
+ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870958"
+ms.locfileid: "49877143"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>공격 시뮬레이션 교육 활용
 
-공격 시뮬레이션 교육 내에서 Microsoft는 직원이 진행한 시뮬레이션 및 교육 결과를 기반으로 정보를 제공합니다. 이러한 인사이트를 통해 직원의 위협 준비 진행 상황을 계속 알릴 수 있으며, 직원과 환경을 공격에 대비하기 위한 다음 단계를 권장할 수 있습니다.
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+공격 시뮬레이션 교육 내에서 Microsoft는 직원이 진행한 시뮬레이션 및 교육 결과를 기반으로 정보를 제공합니다. 이러한 인사이트를 통해 직원의 위협 준비 진행 상황을 계속 파악하고 직원과 환경을 공격에 대비하기 위한 다음 단계를 권장할 수 있습니다.
 
 당사는 지속적으로 사용할 수 있는 인사이트를 확장하기 위해 작업 중입니다. 동작 영향 및 권장 작업은 현재 사용할 수 있습니다. 시작을 위해 Microsoft 365 보안 센터에서 공격 [시뮬레이션 교육을 진행합니다.](https://security.microsoft.com/attacksimulator?viewid=overview)
 
@@ -35,7 +33,7 @@ ms.locfileid: "49870958"
 - **공격 시뮬레이션 교육을** 사용하는 다른 Microsoft 365 테넌트에서 동일한 유형의 페이로드를 사용하는 시뮬레이션의 평균 손상률을 반영하는 예측된 손상률입니다.
 - **실제 손상률은** 시뮬레이션에 대해 떨어졌다는 직원의 비율을 반영합니다.
 
-또한 공격으로 손상된 실제 직원 수와 예측한 손상율 간의 `<number> less susceptible to phishing` 차이를 반영합니다. 이 수의 직원은 향후 유사한 공격에 의해 손상될 가능성이 낮아지지만 예상 손상률과는 대조적으로 직원들이 어떻게 전반적으로 어떻게 `<percent%> better than predicted rate` 나타냈는가를 나타냅니다.
+또한 공격으로 손상된 실제 직원 수와 예측한 손상율의 `<number> less susceptible to phishing` 차이를 반영합니다. 이 수의 직원은 향후 유사한 공격으로 손상될 가능성이 낮아지지만 예상 손상률과는 대조적으로 직원들이 전반적으로 어떻게 `<percent%> better than predicted rate` 나타냈는가를 나타냅니다.
 
 > [!div class="mx-imgBorder"]
 > ![공격 시뮬레이션 교육 개요에 대한 동작 영향 카드](../../media/attack-sim-preview-behavior-impact-card.png)
