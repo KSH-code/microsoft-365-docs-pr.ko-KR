@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 감사 로그 보존 정책은 Microsoft 365의 새로운 고급 감사 기능의 일부입니다. 감사 로그 보존 정책을 사용하여 조직에서 감사 로그를 보존할 기간을 지정할 수 있습니다.
-ms.openlocfilehash: c2449ab90d04fd44909999d25b940ee4d2758b15
-ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
+ms.openlocfilehash: c106024e5426972f6637d6226b385d1179516d4d
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753337"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870947"
 ---
 # <a name="manage-audit-log-retention-policies"></a>로그 보존 정책 감사 관리
 
@@ -36,10 +36,10 @@ ms.locfileid: "48753337"
 
 ## <a name="default-audit-log-retention-policy"></a>기본 로그 보존 정책 감사
 
-Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 정책을 제공합니다. 이 정책은 1년 동안 모든 Exchange, SharePoint 및 Azure Active Directory 감사 레코드를 보존합니다. 이 기본 정책은 **Workload** 속성(활동이 발생한 서비스)에 대한 **AzureActiveDirectory** , **Exchange** 또는 **SharePoint** 값을 포함하는 감사 레코드를 유지합니다. 기본 정책은 수정할 수 없습니다. 기본 정책에 포함된 각 워크로드의 레코드 유형 목록은 이 문서의 [추가 정보](#more-information) 섹션을 참조하십시오.
+Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 정책을 제공합니다. 이 정책은 1년 동안 모든 Exchange, SharePoint 및 Azure Active Directory 감사 레코드를 보존합니다. 이 기본 정책은 **Workload** 속성(활동이 발생한 서비스)에 대한 **AzureActiveDirectory**, **Exchange** 또는 **SharePoint** 값을 포함하는 감사 레코드를 유지합니다. 기본 정책은 수정할 수 없습니다. 기본 정책에 포함된 각 워크로드의 레코드 유형 목록은 이 문서의 [추가 정보](#more-information) 섹션을 참조하십시오.
 
 > [!NOTE]
-> 기본 감사 로그 보존 정책은 Office 365 또는 Microsoft 365 E5 라이선스가 할당되었거나 Microsoft 365 E5 준수 또는 E5 eDiscovery 및 감사 애드온 라이선스가 있는 사용자가 수행한 활동에 대한 감사 레코드에만 적용됩니다. 조직에 E5 이외의 사용자가 있는 경우 해당 감사 레코드는 90일 동안 유지됩니다.
+> 기본 감사 로그 보존 정책은 Office 365 또는 Microsoft 365 E5 라이선스가 할당되었거나 Microsoft 365 E5 준수 또는 E5 eDiscovery 및 감사 애드온 라이선스가 있는 사용자가 수행한 활동에 대한 감사 레코드에만 적용됩니다. 조직에 E5 이외의 사용자 또는 게스트 사용자가 있는 경우 해당 감사 레코드는 90일 동안 유지됩니다.
 
 ## <a name="before-you-create-an-audit-log-retention-policy"></a>감사 로그 보존 정책을 생성하기 전에 다음을 수행합니다.
 
@@ -99,7 +99,7 @@ Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 �
 
    - 정책에 대한 설명입니다.
 
-   - 모든 Microsoft Teams 활동을 유지합니다( *RecordType* 매개 변수로 정의된 대로).
+   - 모든 Microsoft Teams 활동을 유지합니다(*RecordType* 매개 변수로 정의된 대로).
 
    - Microsoft Teams 감사 로그를 10년 동안 보존합니다.
 

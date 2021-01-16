@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 보안을 위한 고유한 민감도 레이블이 있는 팀을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 03252cad8449ee83cd757fac3ae74db6df68bcfe
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: d5cfe33d4f254832ccf26552d8ca392cf1dc440c
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751146"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870982"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>보안 격리를 사용하여 팀 구성하기
 
@@ -106,7 +106,7 @@ ms.locfileid: "49751146"
 1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)를 엽니다.
 2. **솔루션** 에서 **정보 보호** 를 클릭합니다.
 3. **레이블 만들기** 를 클릭합니다.
-4. 레이블에 이름을 지정합니다. **중요** 로 설정하는 것이 좋지만, 이미 사용 중인 경우에는 다른 이름을 선택할 수도 있습니다.
+4. 레이블에 이름을 지정합니다. 함께 사용할 팀의 이름을 따라 이름을 짓는 것을 권장합니다.
 5. 표시 이름과 설명을 추가하고 **다음** 을 클릭합니다.
 6. **이 레이블에 대한 범위 정의 페이지** 에서 **파일 및 전자 메일** 그리고 **그룹 및 사이트** 를 선택하고 **다음** 을 클릭합니다.
 7. **파일 및 전자 메일에 대한 보호 설정 선택** 페이지에서 **파일 및 전자 메일 암호화** 를 선택하고 **다음** 을 클릭합니다.

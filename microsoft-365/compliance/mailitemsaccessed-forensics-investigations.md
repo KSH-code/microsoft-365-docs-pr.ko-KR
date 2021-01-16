@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: MailItemsAccessed 사서함 감사 작업을 사용하여 손상된 사용자 계정에 대한 포렌식 조사를 수행합니다.
-ms.openlocfilehash: 908c2a22b05d7daef8d55c7e0aac61f25489692a
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 15379a5c24ee222cf097e94d46dc46de0e385820
+ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546294"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49868006"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>고급 감사를 사용하여 손상된 계정 조사
 
-손상된 사용자 계정은(*계정 인수*라고도 함) 공격자가 사용자 계정의 액세스 권한을 얻어 사용자로 작업할 때의 공격 유형입니다. 가끔 이러한 유형의 공격은 공격자가 의도한 것 보다 더 많은 손상을 야기할 수 있습니다. 손상된 전자 메일 계정을 조사할 때 공격자의 실제 현재 상태를 추적하여 표시될 수 있는 것 보다 더 많은 전자 메일 데이터가 손상되었다고 가정해야 합니다. 전자 메일 메시지의 데이터 형식에 따라 중요 한 정보가 손상되었다고 가정하거나 중요한 정보가 노출되지 않은 것을 증명할 수 없는 경우 규제적 벌금을 내야합니다. 예를 들어, HIPAA 규제 조직은 환자의 건강 정보(PHI)가 노출되었다는 증거가 있는 경우 상당한 벌금을 내야합니다. 이 경우 공격자는 PHI에 관심을 가질 가능성이 적습니다. 그러나 조직은 달리 증명할 수 없는 경우 여전히 데이터 침해를 보고해야 합니다.
+손상된 사용자 계정은(*계정 인수* 라고도 함) 공격자가 사용자 계정의 액세스 권한을 얻어 사용자로 작업할 때의 공격 유형입니다. 가끔 이러한 유형의 공격은 공격자가 의도한 것 보다 더 많은 손상을 야기할 수 있습니다. 손상된 전자 메일 계정을 조사할 때 공격자의 실제 현재 상태를 추적하여 표시될 수 있는 것 보다 더 많은 전자 메일 데이터가 손상되었다고 가정해야 합니다. 전자 메일 메시지의 데이터 형식에 따라 중요 한 정보가 손상되었다고 가정하거나 중요한 정보가 노출되지 않은 것을 증명할 수 없는 경우 규제적 벌금을 내야합니다. 예를 들어, HIPAA 규제 조직은 환자의 건강 정보(PHI)가 노출되었다는 증거가 있는 경우 상당한 벌금을 내야합니다. 이 경우 공격자는 PHI에 관심을 가질 가능성이 적습니다. 그러나 조직은 달리 증명할 수 없는 경우 여전히 데이터 침해를 보고해야 합니다.
 
 손상된 전자 메일 계정을 조사하는 데 도움을 주기 위해 당사는 이제 메일 프로토콜 및 클라이언트로 *MailItemsAccessed* 사서함 감사 작업으로 액세스를 감사하고 있습니다. 새로 감사된 이 작업은 조사자들이 전자 메일의 데이터 침해에 대해 더욱 잘 이해하도록 도움을 주고 손상될 수 있는 특정 메일 항목에 대한 손상 범위를 식별하는 데 도움이 됩니다. 이 새 감사 작업을 사용하는 목적은 특정 메일 데이터가 손상되지 않았음을 주장하는데 도움을 주는 포렌식 방어 능력입니다. 공격자가 메일의 특정 부분에 대한 액세스 권한을 얻게 되면 메일 항목을 실제로 읽은 것으로 표시되지 않은 경우에도 Exchange Online에서 해당 이벤트를 감사합니다.
 
@@ -33,7 +33,7 @@ ms.locfileid: "47546294"
 
 새 MailItemsAccessed 작업은 새로운 [고급 감사](advanced-audit.md) 기능의 일부입니다. [Exchange 사서함 감사](https://docs.microsoft.com/office365/securitycompliance/enable-mailbox-auditing#mailbox-auditing-actions)의 일부이며, Office 365 혹은 Microsoft 365 E5 라이선스가 부여된 사용자나 Microsoft 365 E5 준수 추가 기능 구독이 있는 조직에 기본적으로 활성화되어 있습니다.
 
-MailItemsAccessed 사서함 감사 작업은 POP, IMAP, MAPI, EWS, Exchange ActiveSync 및 REST와 같은 모든 메일 프로토콜을 포함합니다. 또한 *동기화* 및 *바인딩*에 대한 두 가지 메일 액세스 유형을 다룹니다.
+MailItemsAccessed 사서함 감사 작업은 POP, IMAP, MAPI, EWS, Exchange ActiveSync 및 REST와 같은 모든 메일 프로토콜을 포함합니다. 또한 *동기화* 및 *바인딩* 에 대한 두 가지 메일 액세스 유형을 다룹니다.
 
 ### <a name="auditing-sync-access"></a>동기화 액세스 감사
 
@@ -84,7 +84,7 @@ Search-MailboxAuditLog -Identity <user> -StartDate 01/06/2020 -EndDate 01/20/202
 ```
 
 > [!TIP]
-> 이들 cmdlet의 기본 차이점은 **Search-UnifiedAuditLog** cmdlet를 사용하면 한 명 이상의 사용자가 수행한 활동에 대한 감사 레코드를 검색할 수 있다는 것입니다. 이는 *UserIds*가 다중 값 매개 변수이기 때문입니다. **Search-MailboxAuditLog** cmdlet은 사서함 감사 로그에서 단일 사용자를 검색합니다.
+> 이들 cmdlet의 기본 차이점은 **Search-UnifiedAuditLog** cmdlet를 사용하면 한 명 이상의 사용자가 수행한 활동에 대한 감사 레코드를 검색할 수 있다는 것입니다. 이는 *UserIds* 가 다중 값 매개 변수이기 때문입니다. **Search-MailboxAuditLog** cmdlet은 사서함 감사 로그에서 단일 사용자를 검색합니다.
 
 다음은 MailItemsAccessed 감사 레코드를 사용 하여 손상된 사용자 공격을 조사하는 단계입니다. 각 단계는 **Search-UnifiedAuditLog** 혹은 **Search-MailboxAuditLog** cmdlet에 대한 명령 구문을 보여줍니다.
 
@@ -178,8 +178,8 @@ Search-MailboxAuditLog -Identity <user> -StartDate 01/06/2020 -EndDate 01/20/202
 
 |감사 레코드 1  |감사 레코드 2  |감사 레코드 3|
 |---------|---------|---------|
-|ClientIPAddress**1**<br/>SessionId**2**|ClientIPAddress**2**<br/>SessionId**2**|ClientIPAddress**1**<br/>SessionId**3**|
-|InternetMessageId**A**<br/>InternetMessageId**D**<br/>InternetMessageId**E**<br/>InternetMessageId**F**<br/>|InternetMessageId**A**<br/>InternetMessageId**C**|InternetMessageId**B** |
+|ClientIPAddress **1**<br/>SessionId **2**|ClientIPAddress **2**<br/>SessionId **2**|ClientIPAddress **1**<br/>SessionId **3**|
+|InternetMessageId **A**<br/>InternetMessageId **D**<br/>InternetMessageId **E**<br/>InternetMessageId **F**<br/>|InternetMessageId **A**<br/>InternetMessageId **C**|InternetMessageId **B** |
 ||||
 
 [이전 섹션](#filtering-of-duplicate-audit-records)의 테이블에 나열된 속성 중 하나라도 다르면 새 컨텍스트를 추적하는 별도의 감사 레코드가 생성됩니다. 액세스는 활동이 발생한 컨텍스트에 따라 별도의 감사 레코드로 정렬됩니다.
@@ -187,3 +187,9 @@ Search-MailboxAuditLog -Identity <user> -StartDate 01/06/2020 -EndDate 01/20/202
 예를 들어, 다음의 스크린샷에 표시된 감사 레코드에서 EWSEditor와 OWA에서 동시에 메일에 액세스를 하지만, 액세스 활동은 액세스가 발생한 컨텍스트에 따라 다른 감사 레코드로 정렬됩니다. 이 경우 컨텍스트는 ClientInfoString 속성에 대 한 다양한 값으로 정의됩니다.
 
 ![컨텍스트에 기반한 다양한 감사 레코드](../media/MailItemsAccessed4.png)
+
+다음은 이전 스크린샷에 표시된 명령에 대한 구문입니다.
+
+```powershell
+Search-MailboxAuditLog -Identity admin -ShowDetails -Operations MailItemsAccessed -ResultSize 2000 | Select LastAccessed,Operation,AuditOperationsCountInAggregatedRecord,ClientInfoString
+``` 

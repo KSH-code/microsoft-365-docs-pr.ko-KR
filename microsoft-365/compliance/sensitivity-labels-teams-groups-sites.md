@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: c1232e8e839837fc5564909322c90f634f1c6fa9
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 9276288bc05abebe864a4465f69284372fa0baab
+ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614932"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49868026"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -280,6 +280,7 @@ SharePoint Online 관리 셸의 버전 16.0.19418.12000 이상을 보유하고 �
   - 웹용, Windows, MacOS, iOS, Android용 Outlook
   - Forms
   - Stream
+  - Planner(배포 중) 
 
 다음 앱 및 서비스에서는 현재 사이트 및 그룹 설정에 대해 구성된 민감도 레이블을 지원하지 않습니다.
 
@@ -293,7 +294,6 @@ SharePoint Online 관리 셸의 버전 16.0.19418.12000 이상을 보유하고 �
 
   - Dynamics 365
   - Yammer
-  - Planner
   - Project
   - Power BI
 

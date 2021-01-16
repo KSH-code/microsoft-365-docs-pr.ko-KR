@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
-ms.openlocfilehash: f8ae6334a078d635de069d2fe7af351ad42d8df3
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 0c77798f0bf4b5dedfa5023eaa0b4de4ab8c5b64
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615363"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871000"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -209,6 +209,10 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 5. DKIM을 활성화 할 도메인을 선택한 다음 **DKIM 서명을 사용하여 이 도메인의 메시지 서명** 에 대해 **활성화** 를 선택합니다. 각 사용자 지정 도메인에 대해 이 단계를 반복합니다.
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>PowerShell을 사용하여 사용자 지정 도메인에 DKIM 서명 사용
+
+> [!IMPORTANT]
+>:::image type="content" source="../../media/DKIMNoKeysSavedForThisDomain.PNG" alt-text="'이 도메인에 대해 저장된 DKIM 키가 없습니다.' 오류가 발생합니다.":::
+> DKIM을 처음 구성하는 경우 '이 도메인에 대해 저장된 DKIM 키가 없습니다' 오류가 표시됩니다. 아래 2단계의 명령을 완료하여(예: *Set-DkimSigningConfig -IDENTITY contoso.com -enabled $true*) 키를 확인합니다.
 
 1. [Exchange Online PowerShell에 연결합니다](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 

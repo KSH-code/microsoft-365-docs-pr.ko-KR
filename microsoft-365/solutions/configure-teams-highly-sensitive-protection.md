@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 매우 중요한 데이터를 보호하는 팀을 배치하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6354de5a37547d14b16a4d6a0857ddc390d531e6
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: 045f1b1d1ebf03eb70554dc5964acb0a12e0060f
+ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49750812"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49870854"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>매우 중요한 데이터를 보호하는 팀 구성하기
 
@@ -33,7 +33,7 @@ ms.locfileid: "49750812"
 
 매우 중요 계층에서는 초기 계층에 대한 다음과 같은 추가 보호를 제공합니다.
 
-- 게스트 공유를 설정하거나 해제하고 관리되지 않는 장치의 SharePoint 콘텐츠에 대한 액세스를 웹 전용으로 제한하는 팀의 민감도 레이블입니다. 이 레이블은 파일을 분류하고 암호화하는 데도 사용할 수 있습니다.
+- 게스트 공유를 설정하거나 해제하고 관리되지 않는 장치의 SharePoint 콘텐츠에 대한 액세스를 차단하는 팀의 민감도 레이블입니다. 이 레이블은 파일을 분류하고 암호화하는 데도 사용할 수 있습니다.
 - 더욱 제한적인 기본 공유 링크 유형
 - 팀 소유자만 비공개 채널을 만들 수 있습니다.
 - 연결된 SharePoint 사이트에 대한 액세스 요청은 꺼져 있습니다.
@@ -63,7 +63,7 @@ Teams에서 민감도 레이블을 사용하도록 설정한 후 다음 단계�
 1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)를 엽니다.
 2. **솔루션** 에서 **정보 보호** 를 클릭합니다.
 3. **레이블 만들기** 를 클릭합니다.
-4. 레이블에 이름을 지정합니다. **중요** 로 설정하는 것이 좋지만, 이미 사용 중인 경우에는 다른 이름을 선택할 수도 있습니다.
+4. 레이블에 이름을 지정합니다. **매우 중요** 로 설정하는 것이 좋지만, 이미 사용 중인 다른 이름을 선택할 수도 있습니다.
 5. 표시 이름과 설명을 추가하고 **다음** 을 클릭합니다.
 6. **이 레이블에 대한 범위 정의 페이지** 에서 **파일 및 전자 메일** 과 **그룹 및 사이트** 를 선택하고 **다음** 을 클릭합니다.
 7. **파일 및 전자 메일에 대한 보호 설정 선택** 페이지에서 **파일 및 전자 메일 암호화** 를 선택하고 **다음** 을 클릭합니다.

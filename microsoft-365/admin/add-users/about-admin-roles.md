@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어, 서비스 관리자는 관리 센터를 통해 지원 티켓을 열 수 있습니다.
-ms.openlocfilehash: 774edf1a024bd7aab7f35d5635c84b355fc0ef5a
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: ddea8a06af2b529a369ea045913b639b84c6f9d4
+ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682660"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49867985"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 
@@ -88,9 +88,9 @@ Microsoft 파트너와 함께 업무를 진행하는 경우에는 파트너에�
   
 파트너는 다음과 같은 역할을 할당할 수 있습니다. 
   
-- **전체 관리 기능** 파트너 센터를 통해 다단계 인증을 관리하는 것을 제외하고는 전역 관리자와 동등한 권한.
+- **관리자 에이전트** 파트너 센터를 통해 다단계 인증을 관리하는 것을 제외하고는 전역 관리자와 동등한 권한입니다.
 
-- **제한된 관리 기능** 헬프데스크 관리자와 동일한 권한. 
+- **헬프데스크 에이전트** 헬프데스크 관리자와 동일한 권한입니다.
 
 파트너가 이러한 역할을 사용자에게 할당하기 전에 파트너를 사용자 계정에 위임된 관리자로 추가해야 합니다. 이 프로세스는 공인 파트너가 시작 합니다. 파트너는 사용자가 파트너에게 위임된 관리자 역할을 수행할 권한을 부여할 것인지 묻는 전자 메일을 보냅니다. 안내 사항은 [파트너 관계 승인 또는 제거](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner)를 참조하십시오.
   
