@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 보안을 위한 고유한 민감도 레이블이 있는 팀을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: d5cfe33d4f254832ccf26552d8ca392cf1dc440c
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: 439dee40d1501801fc09d570614a591259c6f09c
+ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870982"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49881708"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>보안 격리를 사용하여 팀 구성하기
 
@@ -46,7 +46,7 @@ ms.locfileid: "49870982"
 <br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mGHf]
 
-<a name="poster"></a>이 시나리오에 대 한 2페이지 요약을 보려면 [보안 격리 포스터를 사용한 Microsoft Teams](../downloads/team-security-isolation-poster.pdf)를 참조하세요.
+<a name="poster"></a>이 시나리오에 대한 1페이지 요약을 보려면 [보안 격리 포스터를 사용한 Microsoft Teams를 참조하세요](../downloads/team-security-isolation-poster.pdf).
 
 [![보안 격리를 사용하여 Microsoft Teams 구성하기](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
