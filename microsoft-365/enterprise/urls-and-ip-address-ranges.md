@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
 description: '요약: Office 365를 사용하려면 인터넷에 연결되어 있어야 합니다. 아래의 끝점은 Government 커뮤니티 클라우드(GCC)를 포함하여 Office 365 요금제를 사용하는 고객에 연결할 수 있어야 합니다.'
 hideEdit: true
-ms.openlocfilehash: 9b705c6cad0387efb16f3fc5494b1ba2fe337732
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 386c92d0856b3faa88fb8a05f8ddff58a81e3c4f
+ms.sourcegitcommit: a92b150da1e11d4a204c556ab98a4776727dbc22
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794403"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49883339"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 및 IP 주소 범위
 
@@ -62,7 +62,7 @@ Office 365를 사용하려면 인터넷에 연결되어 있어야 합니다. 아
 [!INCLUDE [Office 365 worldwide endpoints](../includes/office-365-worldwide-endpoints.md)]
 
 >[!Note]
->Yammer IP 주소 및 URL에 대한 권장 사항은 [이 블로그 게시물](https://techcommunity.microsoft.com/t5/Yammer-Blog/Using-hard-coded-IP-addresses-for-Yammer-is-not-recommended/ba-p/276592)을 참조하세요.
+>Yammer IP 주소 및 URL에 대한 권장 사항은 [Yammer 블로그에서 하드 코드된 IP 주소 사용은 권장되지 않음](https://techcommunity.microsoft.com/t5/Yammer-Blog/Using-hard-coded-IP-addresses-for-Yammer-is-not-recommended/ba-p/276592)을 참조하세요.
 >
 
 ## <a name="related-topics"></a>관련 주제
@@ -71,7 +71,7 @@ Office 365를 사용하려면 인터넷에 연결되어 있어야 합니다. 아
 
 [일반적인 Microsoft Stream 끝점](https://docs.microsoft.com/stream/network-overview#general-microsoft-stream-endpoints)
   
-[Microsoft 365 연결 모니터링](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity?view=o365-worldwide)
+[Microsoft 365 연결 모니터링](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity)
 
 [타사 응용 프로그램 시스템의 루트 CA 및 중간 CA 번들](../compliance/encryption-office-365-certificate-chains.md)
   
@@ -88,3 +88,5 @@ Office 365를 사용하려면 인터넷에 연결되어 있어야 합니다. 아
 [Microsoft Azure IP 범위 및 서비스 태그 – 중국 클라우드](https://www.microsoft.com/download/details.aspx?id=57062)
   
 [Microsoft 공용 IP 공간](https://www.microsoft.com/download/details.aspx?id=53602)
+
+[서비스 이름 및 전송 프로토콜 포트 번호 레지스트리](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
