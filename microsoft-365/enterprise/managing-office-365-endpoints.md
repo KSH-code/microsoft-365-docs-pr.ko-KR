@@ -18,12 +18,12 @@ ms.custom:
 search.appverid: MOE150
 ms.assetid: 99cab9d4-ef59-4207-9f2b-3728eb46bf9a
 description: 엔터프라이즈 조직 네트워크 아키텍처에서 작동할 수 있도록 Office 365 끝점을 관리하는 방법을 알아보세요.
-ms.openlocfilehash: a616e5f45fee77a02e7b4df7e19ed9e1b0d31d22
-ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
+ms.openlocfilehash: 41dceae78d80a78b023517e8b6c5c5c0d73da2ef
+ms.sourcegitcommit: 64262f6f42dcce6a4608b2e3c7ca6190b7009093
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787954"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49905288"
 ---
 # <a name="managing-office-365-endpoints"></a>Office 365 끝점 관리
 
@@ -161,7 +161,7 @@ serviceA.office.com -> CNAME: serviceA.domainA.com -> CNAME: serviceA.domainB.co
 
 프록시 서버는 위의 예제에서 기본 URL인 serviceA.office.com 유효성을 검사하며 이 URL은 Office 365 게시에 포함됩니다. 프록시 서버는 해당 URL의 DNS 확인을 IP 주소로 요청하고 IP_1을 다시 수신합니다. 중간 CNAME 리디렉션 레코드에 대한 유효성 검사를 수행하지 않습니다.
 
-하드 코딩된 구성 또는 간접 Office 365 FQDNS 기반 트래픽 허용은 권장되지 않습니다. Microsoft에서 지원하지 않는 것이 며 고객 연결 문제를 일으키는 것으로 알려져 있습니다. CNAME 리디렉션을 차단하거나 Office 365 DNS 항목을 잘못 해석하는 DNS 솔루션은 DNS 재귀를 사용하도록 설정된 DNS 조건 전달(직접 사용되는 Office 365 FQDN으로 범위 지정)을 통해 해결할 수 있습니다. 대부분의 타사 네트워크 경계 제품은 Office 365 IP 주소 및 URL 웹 서비스를 사용하여 구성에 권장되는 [Office 365](microsoft-365-ip-web-service.md)끝점 트래픽 우회를 기본적으로 통합합니다.
+간접 Office 365 FQDNS를 기반으로 하는 하드 코딩된 구성 또는 화이트리스트는 권장되지 않는 것이 아니며 Microsoft에서 지원하지 않는 것이 며 고객 연결 문제를 일으키는 것으로 알려져 있습니다. CNAME 리디렉션을 차단하거나, 그렇지 않으면 Office 365 DNS 항목을 잘못 해결하는 DNS 솔루션은 DNS 재발을 사용하는 DNS 전달자 또는 DNS 루트 힌트를 사용하여 해결할 수 있습니다. 대부분의 타사 네트워크 경계 제품은 기본적으로 Office 365 IP 주소 및 URL 웹 서비스를 사용하여 구성에 권장되는 [Office 365](microsoft-365-ip-web-service.md)끝점 화이트리스트를 통합합니다.
 
 <a name="bkmk_akamai"> </a>
 ### <a name="why-do-i-see-names-such-as-nsatcnet-or-akadnsnet-in-the-microsoft-domain-names"></a>Microsoft 도메인 이름에 nsatc.net 또는 akadns.net과 같은 이름이 표시되는 이유는 무엇인가요?
