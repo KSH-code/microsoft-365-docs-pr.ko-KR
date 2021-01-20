@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 액세스 및 사용을 제한하여 데이터를 보호하는 암호화를 위한 민감도 레이블을 구성합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b862cbffcc4268876444618f7c2708c04b63630e
-ms.sourcegitcommit: 4debeb8f0fce67f361676340fc390f1b283a3069
+ms.openlocfilehash: 83ed515d5ac6ea853c3e6a822fae0a03f73fc37c
+ms.sourcegitcommit: 9e4b3df05eff94fe1be4ef8618a7ce6f2fca3658
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561719"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49904033"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한
 
@@ -177,6 +177,9 @@ ms.locfileid: "49561719"
 ##### <a name="requirements-and-limitations-for-add-any-authenticated-users"></a>“인증된 사용자 추가”에 대한 요구 사항 및 제한 사항
 
 이 설정은 레이블이 암호화하는 컨텐츠에 액세스할 수 있는 사람을 제한하지 않고 컨텐츠를 계속 암호화하고 컨텐츠 사용 방법(권한) 및 액세스 방법(만료 및 오프라인 액세스)을 제한하는 옵션을 제공합니다. 그러나 암호화된 콘텐츠를 여는 응용 프로그램은 사용되는 인증을 지원할 수 있어야 합니다. 이러한 이유로 Google과 같은 페더레이션된 소셜 공급자 및 일회용 암호 인증은 Exchange Online을 사용할 때에 한해 전자 메일에 대해서만 작동합니다. Microsoft 계정은 Office 365 앱 및 [Azure Information Protection 뷰어](https://portal.azurerms.com/#/download)와 함께 사용할 수 있습니다.
+
+> [!NOTE]
+> [SharePoint 및 OneDrive Office 파일에 대해 민감도 레이블을 사용](sensitivity-labels-sharepoint-onedrive-files.md)하는 경우 [Azure AD B2B와 SharePoint 및 OneDrive 통합](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)으로 이 설정을 사용하는 것이 좋습니다.
 
 인증된 사용자 설정에 대한 일반적인 시나리오는 다음과 같습니다.
 
@@ -413,3 +416,6 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
     - Exchange Online의 경우 [Exchange Online: IRM 구성](https://docs.microsoft.com/azure/information-protection/configure-office365#exchangeonline-irm-configuration)에 대한 설명서를 참고하세요.
     - Exchange 온-프레미스의 경우 [RMS 커넥터를 배포하고 Exchange 서버를 구성](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector)해야 합니다. 
 
+## <a name="next-steps"></a>다음 단계
+
+레이블이 지정되고 암호화된 문서를 조직 외부의 사용자와 공유해야 하나요?  [암호화된 문서 외부 사용자와 공유](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users)를 참조하세요.

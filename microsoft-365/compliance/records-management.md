@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Microsoft 365의 레코드 관리를 사용하여 보존 일정을 파일 플랜에 적용하여 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: 0057be98c79ec07018d86f3130d7e03d68c74446
-ms.sourcegitcommit: 7d4aa58ae9fc893825b6e648fa3f072c3ac59628
+ms.openlocfilehash: 1f6ab392abbf55851e1f084507d3f1658c3cf264
+ms.sourcegitcommit: 64262f6f42dcce6a4608b2e3c7ca6190b7009093
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "49790204"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49905237"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Microsoft 365의 레코드 관리하기에 대해 알아보기
 
@@ -85,7 +85,7 @@ Microsoft 365에서 다음 기능을 사용하여 레코드 관리 솔루션을 
 |삭제|허용됨<sup>1</sup> |**차단됨** |**차단됨**| **차단됨**|
 |복사|허용됨 |허용됨 | 허용됨| 허용됨|
 |컨테이너 내에서 이동<sup>2</sup>|허용됨 |허용됨 | 허용됨| 허용됨|
-|컨테이너 간에 이동<sup>2</sup>|허용됨 |잠금이 해제되지 않은 경우 허용됨 | 허용됨| **차단됨**|
+|컨테이너 간에 이동<sup>2</sup>|허용됨 |잠금이 해제되지 않은 경우 허용됨 | **차단됨** | **차단됨**|
 |열기/읽기|허용됨 |허용됨 | 허용됨| 허용됨|
 |레이블 변경|허용됨 |허용됨 - 컨테이너 관리자 전용 | 허용됨 - 컨테이너 관리자 전용| **차단됨**
 |레이블 제거|허용됨 |허용됨 - 컨테이너 관리자 전용 | 허용됨 - 컨테이너 관리자 전용| **차단됨**
