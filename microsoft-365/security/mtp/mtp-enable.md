@@ -1,9 +1,9 @@
 ---
 title: Microsoft 365 보안 센터에서 Microsoft 365 Defender 켜기
-description: Microsoft 365 Defender를 사용하도록 설정하고 보안 인시던트 및 대응 통합을 시작하는 방법을 자세히 알아보습니다.
+description: Microsoft 365 Defender를 사용하도록 설정하고 보안 인시던트 및 대응 통합을 시작하는 방법을 자세히 알아보고
 keywords: 시작, MTP 사용, Microsoft Threat Protection, M365, 보안, 데이터 위치, 필요한 사용 권한, 라이선스 자격, 설정 페이지
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b052f70c1b618adef12c4f70c2b3fe55741697d5
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.technology: m365d
+ms.openlocfilehash: 19f035a271626077911b05082a4aba6d67355cdb
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760509"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930225"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender 켜기
 
@@ -56,14 +57,14 @@ Microsoft 365 Defender는 이미 배포한 다양한 지원 서비스에서 데�
 
 ## <a name="before-starting-the-service"></a>서비스를 시작하기 전에
 
-서비스를 켜기 전에 Microsoft 365 보안 센터(security.microsoft.com)에는 탐색 창에서 인시던트, 관리 센터 또는 헌팅을 선택할 때 Microsoft 365 Defender 설정 페이지가 표시됩니다.[](https://security.microsoft.com)  Microsoft 365 Defender를 사용할 수 없는 경우 이러한 탐색 항목이 표시되지 않습니다.
+서비스를 켜기 전에 탐색 창에서 인시던트, 관리[센터 또는](https://security.microsoft.com)헌팅을 선택하면 Microsoft 365 보안 센터(security.microsoft.com)에 Microsoft 365 Defender 설정 페이지가 표시됩니다.   Microsoft 365 Defender를 사용할 수 없는 경우 이러한 탐색 항목이 표시되지 않습니다.
 
-![Microsoft 365 Defender가 Microsoft 365 보안 센터의 Microsoft 365 Defender 설정에 설정되어 있지 않은 경우 ](../../media/mtp-enable/mtp-settings.png)
+![Microsoft 365 Defender가 Microsoft 365 보안 센터에서 Microsoft 365 Defender 설정에 설정되어 있지 않은 경우 ](../../media/mtp-enable/mtp-settings.png)
  *표시되는 Microsoft 365 Defender* 설정 페이지의 이미지
 
 ## <a name="starting-the-service"></a>서비스 시작
 
-Microsoft 365 Defender를 켜기 위해 **Microsoft 365 Defender** 켜기만 선택하고 변경을 적용합니다. 탐색 창에서 설정(security.microsoft.com/settings)을 [](https://security.microsoft.com/settings)선택한 다음 **Microsoft 365 Defender를** 선택하여 이 옵션에 액세스할 수 있습니다. 
+Microsoft 365 Defender를 켜기 위해 **Microsoft 365 Defender** 켜기만 선택하고 변경을 적용합니다. 탐색 창에서 설정(security.microsoft.com/settings)을 선택한 다음 **Microsoft 365 Defender를** 선택하여 이 옵션에 액세스할 수 있습니다.  [](https://security.microsoft.com/settings)
 
 > [!NOTE]
 > 탐색 창에 설정이 표시되거나 페이지에 액세스할 수 없는 경우 사용 권한 및 라이선스를 확인합니다. 
@@ -94,9 +95,9 @@ Id용 Microsoft Defender 데이터를 Microsoft 365 Defender와 공유하기 위
 
 ## <a name="get-assistance"></a>지원 받기
 
-Microsoft 365 Defender 켜기와 관련한 가장 일반적으로 묻는 질문에 대한 답변을 얻습니다. [FAQ를 읽으면 됩니다.](mtp-enable-faq.md)
+Microsoft 365 Defender 켜기와 관련한 가장 일반적으로 묻는 질문에 대한 답변을 얻습니다. [FAQ를 읽어 보아야 합니다.](mtp-enable-faq.md)
 
-Microsoft 지원 직원은 테넌트에서 서비스 및 관련 리소스를 프로비전하거나 프로비전을 프로비전하지 않습니다. 도움을 요청하려면 Microsoft 365 보안 센터에서 도움이 **필요하세요?** 지원에 문의할 때 Microsoft 365 Defender를 언급합니다.
+Microsoft 지원 직원은 테넌트에서 서비스 및 관련 리소스를 프로비전하거나 프로비전을 프로비전하지 않습니다. 도움이 필요하면  Microsoft 365 보안 센터에서 도움을 요청하세요. 지원에 문의할 때 Microsoft 365 Defender를 언급합니다.
 
 ## <a name="related-topics"></a>관련 항목
 

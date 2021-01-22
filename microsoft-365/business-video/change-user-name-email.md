@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 사용자의 이름 또는 전자 메일 주소를 변경하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 43e267c31a62d4f91be6a872c99186a1418f94ec
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: c54665a774803c0386801b226b3f76f019b20321
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703058"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927409"
 ---
 # <a name="change-a-users-name-or-email-address"></a>사용자의 이름 또는 전자 메일 주소 변경
 
@@ -51,7 +52,7 @@ ms.locfileid: "49703058"
 1. Microsoft 365 관리 센터에서 사용자를 선택한 다음 **활성 사용자를 선택합니다.**
 1. 활성 사용자 목록에서 사용자를 선택합니다.
 1. 전자 **메일 별칭 관리를 선택합니다.**
-1. 새 별칭을 입력하고 도메인을 확인한 다음 변경 내용 **저장을 선택합니다.**
+1. 새 별칭을 입력하고 도메인을 확인하고 변경 내용 **저장을 선택합니다.**
 
 ### <a name="change-a-username"></a>사용자 이름 변경
 

@@ -1,5 +1,5 @@
 ---
-title: iOS의 Office 앱 보안
+title: iOS에서 Office 앱 보안
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,20 +16,21 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Microsoft 365 Business Premium을 사용하여 iOS에서 Office 앱을 보호하는 방법을 배워야 합니다.
-ms.openlocfilehash: 1703faa7cd7731f0779bacc3d2fa3ad3e4556910
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: fd7fdd32500f9a2362ac29059abe9424d045c206
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702652"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928033"
 ---
-# <a name="secure-office-apps-on-ios"></a>iOS의 Office 앱 보안
+# <a name="secure-office-apps-on-ios"></a>iOS에서 Office 앱 보안
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FLvZ?autoplay=false]
 
@@ -40,7 +41,7 @@ ms.locfileid: "49702652"
 1. Microsoft 365 관리 센터에 로그인합니다.
 1. **정책에서** 정책 **추가를 선택 합니다.**
 1. 정책 추가 **창에서** 정책 이름 아래에 이름을 입력하고 정책 유형에서 원하는 정책 유형을 **선택 합니다.**
-1. 사용자가 모바일 **장치에서 Office 파일에 액세스하는** 방법 관리 기능을 켜고 다음 세 가지 설정이 켜져 있는지 확인합니다.
+1. 사용자가 모바일 **장치에서 Office 파일에** 액세스하는 방법 관리 기능을 켜고 다음 세 가지 설정이 켜져 있는지 확인합니다.
     - **Office 앱 액세스에 PIN 또는 지문 필요**
     - **장치를 분실하거나 도난당한 경우 작업 파일 보호**
     - **작업 파일 암호화**

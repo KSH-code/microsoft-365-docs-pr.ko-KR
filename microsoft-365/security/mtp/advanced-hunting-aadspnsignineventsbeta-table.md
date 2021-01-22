@@ -1,10 +1,10 @@
 ---
-title: 고급 헌팅chema의 AADSpnSignInEventsBeta 테이블
+title: 고급 헌팅의 AADSpnSignInEventsBeta 테이블
 description: Azure Active Directory 서비스 사용자 및 관리되는 ID 로그인 이벤트 테이블에 연결된 고급 헌팅 구조 표에 대해 자세히 알아보십시오.
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, AlertInfo, alert, entities, evidence, file, IP address, device, machine, user, account, identity, AAD
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 42acf24ce9b941fffb1ce0ed4b67216bd8c1de47
-ms.sourcegitcommit: 4482c174e0e68e0fbbc7ad9ef6b0e78dc34ac85a
+ms.technology: m365d
+ms.openlocfilehash: 172c400df3adea70a2e2d2e37547fa39e0d3b9cf
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49784302"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928621"
 ---
 # <a name="aadspnsignineventsbeta"></a>AADSpnSignInEventsBeta
 
@@ -38,7 +39,7 @@ ms.locfileid: "49784302"
 
 
 
-고급 헌팅 구조의 표에는 Azure Active Directory 서비스 사용자 및 관리되는 ID 로그인에 대한 `AADSpnSignInEventsBeta` 정보가 포함되어 있습니다. Azure Active Directory 로그인 활동 보고서 미리 보기에서 다양한 종류의 로그인에 대해 자세히 [알아보십시오.](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-all-sign-ins)
+고급 헌팅 구조의 표에는 Azure Active Directory 서비스 사용자 및 관리되는 ID 로그인에 대한 `AADSpnSignInEventsBeta` 정보가 포함되어 있습니다. Azure Active Directory 로그인 활동 보고서의 다양한 종류의 로그인에 대한 자세한 내용은 [미리 보기를](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-all-sign-ins)참조하십시오.
 
 이 참조를 사용하여 표의 정보를 반환하는 쿼리를 생성합니다.
 

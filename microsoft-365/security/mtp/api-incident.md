@@ -3,7 +3,7 @@ title: Microsoft 365 Defender 인시던트 API 및 인시던트 리소스 유형
 description: Microsoft 365 Defender의 인시던트 리소스 유형의 방법 및 속성에 대해 자세히 알아보기
 keywords: 인시던트, 인시던트, api
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 372c939f5eed29832725e6b048735040ca7391d6
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 37413c3c7458527e90d4657ddfb3afb058e1dfaa
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719337"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928357"
 ---
 # <a name="microsoft-365-defender-incidents-api-and-the-incident-resource-type"></a>Microsoft 365 Defender 인시던트 API 및 인시던트 리소스 유형
 
@@ -75,7 +76,7 @@ status | Enum | 인시던트의 현재 상태를 지정합니다. 가능한 값�
 classification | Enum | 인시던트 사양입니다. 가능한 값은 ```Unknown``` ```FalsePositive``` , , ```TruePositive``` .
 determination | Enum | 인시던트의 결정 가능한 값은 ```NotAvailable``` ```Apt``` , ```Malware``` ```SecurityPersonnel``` ```SecurityTesting``` ```UnwantedSoftware``` ```Other``` 입니다.
 tags | string List | 인시던트 태그 목록입니다.
-alerts | 경고 목록 | 관련 경고 목록입니다. 목록 인시던트 API [설명서에서 예제를](api-list-incidents.md) 참조하세요.
+alerts | 경고 목록 | 관련 경고 목록입니다. 목록 인시던트 API [설명서의](api-list-incidents.md) 예제를 참조하세요.
 
 ## <a name="related-articles"></a>관련 문서
 

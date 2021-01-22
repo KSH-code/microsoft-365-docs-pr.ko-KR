@@ -3,7 +3,7 @@ title: 사용자를 대신하여 Microsoft 365 Defender API에 액세스하는 �
 description: 사용자를 대신하여 Microsoft 365 Defender API에 액세스하는 방법을 학습합니다.
 keywords: 액세스, 사용자 대신 api, 응용 프로그램, 사용자, 액세스 토큰, 토큰,
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f1c0caea9ff7810f79026c789241a4f250ec5303
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: d443334a00b5247525a2cdba98a11cfe0f515193
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719419"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928465"
 ---
 # <a name="create-an-app-to-access-microsoft-365-defender-apis-on-behalf-of-a-user"></a>사용자를 대신하여 Microsoft 365 Defender API에 액세스하는 앱 만들기
 
@@ -127,7 +128,7 @@ $response.AccessToken
 1. 토큰을 복사하여 [JWT에](https://jwt.ms) 붙여넣어 디코드합니다.
 1. 디코딩된  토큰 내의 역할 클레임에 원하는 사용 권한이 포함되어 있는지 확인
 
-다음 이미지에서는 , 및 권한을 사용하여 앱에서 획득한 디코딩된 ```Incidents.Read.All``` ```Incidents.ReadWrite.All``` 토큰을 ```AdvancedHunting.Read.All``` 볼 수 있습니다.
+다음 이미지에서는 앱에 획득한 디코딩된 토큰과 , 및 사용 권한을 볼 ```Incidents.Read.All``` ```Incidents.ReadWrite.All``` 수 ```AdvancedHunting.Read.All``` 있습니다.
 
 ![토큰 유효성 검사의 이미지](../../media/webapp-decoded-token.png)
 

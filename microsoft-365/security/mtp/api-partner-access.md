@@ -3,7 +3,7 @@ title: Microsoft 365 Defender API를 통한 파트너 액세스
 description: 사용자를 대신하여 Microsoft 365 Defender에 프로그래밍 방식의 액세스 권한을 부여하는 앱을 만드는 방법을 배워야 합니다.
 keywords: 파트너, 액세스, api, 다중 테넌트, 동의, 액세스 토큰, 앱
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 5de113c8f8419b3af2a287bd7ba7e41dc06b4121
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 07afb0baf5c115f2029abfe03795b081a4f253a8
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719443"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929401"
 ---
 # <a name="create-an-app-with-partner-access-to-microsoft-365-defender-apis"></a>Microsoft 365 Defender API에 대한 파트너 액세스가 있는 앱 만들기
 
@@ -90,7 +91,7 @@ Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터 
 4. 응용 프로그램 페이지에서 **조직에서** 사용하는 API 권한 추가 권한 API를 선택하고 > Microsoft Threat Protection을 입력한 다음  >    >   Microsoft **Threat Protection을 선택합니다.**  이제 앱이 Microsoft 365 Defender에 액세스할 수 있습니다.
 
    > [!TIP]
-   > *Microsoft Threat Protection은* Microsoft 365 Defender의 이전 이름으로, 원래 목록에는 나타나지 않습니다. 표시하려면 텍스트 상자에 해당 이름을 쓰기 시작해야 합니다.
+   > *Microsoft 위협 방지는* Microsoft 365 Defender의 이전 이름으로, 원래 목록에는 나타나지 않습니다. 표시하려면 텍스트 상자에 해당 이름을 쓰기 시작해야 합니다.
 
    ![API 권한 선택 이미지](../../media/apis-in-my-org-tab.PNG)
 
@@ -146,7 +147,7 @@ Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터 
 Azure AD 토큰에 대한 자세한 내용은 [Azure AD 자습서를 참조하세요.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 > [!IMPORTANT]
-> 이 섹션의 예제에서는 테스트를 위해 비밀 값에 붙여 넣는 것이 까다로우지만 프로덕션에서 실행되는 응용 프로그램에 암호를 하드코드하면 안 됩니다.  제3자에서 사용자 비밀을 사용하여 리소스에 액세스할 수 있습니다. Azure Key Vault를 사용하여 앱의 비밀을 안전하게 [유지할 수 있습니다.](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates) 앱을 보호하는 방법에 대한 실제 예제는 Azure Key Vault를 사용하여 서버 앱의 암호 [관리를 참조하세요.](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
+> 이 섹션의 예제에서는 테스트 목적으로 비밀 값에 붙여 넣는 것이 까다로우지만 프로덕션에서 실행되는 응용 프로그램에 암호를 하드코드하면 안 됩니다.  제3자에서 사용자 비밀을 사용하여 리소스에 액세스할 수 있습니다. Azure Key Vault를 사용하여 앱의 비밀을 안전하게 [유지할 수 있습니다.](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates) 앱을 보호하는 방법에 대한 실제 예제는 Azure Key Vault를 사용하여 서버 앱의 암호 [관리를 참조하세요.](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
 
 > [!TIP]
 > 다음 예제에서는 사용자의 테넌트 ID를 사용하여 스크립트가 작동하고 있는지 테스트합니다.

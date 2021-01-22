@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 for business 사용자를 위한 모바일 장치 설정
+title: 비즈니스용 Microsoft 365 사용자를 위한 모바일 장치 설정
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -20,21 +20,22 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
-description: IPhone 또는 Android 휴대폰에 Office를 설치 하 고 Office 앱의 작업 파일이 비즈니스용 Microsoft 365으로 보호 됩니다.
-ms.openlocfilehash: e847a794d34731c22f7a0fca87d246151a6f80a5
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: iPhone 또는 Android 휴대폰에 Office를 설치하면 Office 앱의 작업 파일이 비즈니스용 Microsoft 365에 의해 보호됩니다.
+ms.openlocfilehash: ef18fcce851b8fa1573fd5134bd25fb7d4a3d8f9
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785875"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928747"
 ---
-# <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Microsoft 365 for business 사용자를 위한 모바일 장치 설정
+# <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>비즈니스용 Microsoft 365 사용자를 위한 모바일 장치 설정
 
-iPhone 또는 Android 휴대폰에서 Office를 설치하려면 탭의 지침을 따르세요. 이러한 단계를 수행한 후에는 Office 앱에서 만든 작업 파일이 비즈니스용 Microsoft 365에 의해 보호 됩니다.
+iPhone 또는 Android 휴대폰에서 Office를 설치하려면 탭의 지침을 따르세요. 이러한 단계를 수행하면 Office 앱에서 만든 작업 파일이 비즈니스용 Microsoft 365에 의해 보호됩니다.
 
 다음은 Outlook에 대한 단계를 보여주는 예제이지만 설치하려는 모든 Office 앱에 적용되는 내용입니다.
   
@@ -42,13 +43,13 @@ iPhone 또는 Android 휴대폰에서 Office를 설치하려면 탭의 지침을
 
 ## <a name="iphone"></a>[iPhone](#tab/iPhone)
   
-Microsoft 365 for business를 사용 하 여 iOS 장치에서 Office 앱을 설정 하는 방법에 대 한 간단한 비디오를 시청 하세요.<br><br>
+비즈니스용 Microsoft 365를 사용하여 iOS 장치에서 Office 앱을 설정하는 방법에 대한 짧은 비디오를 시청하세요.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
-**App store**로 이동하여 검색 필드에 Microsoft Outlook을 입력합니다.
+**App store** 로 이동하여 검색 필드에 Microsoft Outlook을 입력합니다.
   
 ![Go to the iPhone App Store](../media/886913de-76e5-4883-8ed0-4eb3ec06188f.png)
   
@@ -56,47 +57,47 @@ Microsoft 365 for business를 사용 하 여 iOS 장치에서 Office 앱을 설�
   
 ![Tap the cloud icon to install Outlook](../media/665e1620-948a-4ab8-b914-dca49530142c.png)
   
-설치가 완료되면 **열기** 단추를 탭하여 Outlook을 연 다음 **시작**을 탭합니다.
+설치가 완료되면 **열기** 단추를 탭하여 Outlook을 연 다음 **시작** 을 탭합니다.
   
 ![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-**전자 메일 계정 추가** 화면에 회사 전자 메일 주소를 입력 하 \> 고 **계정 추가**를 클릭 한 다음 Microsoft 365 for business credentials \> **로그인**을 입력 합니다.
+Enter your work email address on the **Add Email Account** screen Add \> **Account,** and then enter your Microsoft 365 for business credentials Sign \> **in.**
   
 ![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
-조직이 앱에서 파일을 보호 하는 경우에는 조직에서 이제 앱의 데이터를 보호 하 고 앱을 다시 시작 하 여 계속 사용할 수 있음을 알리는 대화 상자가 표시 됩니다. **확인**을 탭하고 Outlook을 닫습니다. 
+조직에서 앱에서 파일을 보호하는 경우 조직이 이제 앱의 데이터를 보호하고 있으며 계속 사용하려면 앱을 다시 시작해야 하다는 대화 상자가 표시됩니다. **확인** 을 탭하고 Outlook을 닫습니다. 
   
-![조직을 보여 주는 스크린샷 현재 Outlook 앱을 보호 하 고 있습니다.](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
+![이제 조직에서 Outlook 앱을 보호하고 있는 것을 보여 주는 스크린샷](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
   
-iPhone에서 Outlook을 찾아 다시 시작합니다. 메시지가 표시 되 면 PIN을 입력 하 고 확인 합니다. 이제 iPhone에서 Outlook을 사용할 준비가 되었습니다.
+iPhone에서 Outlook을 찾아 다시 시작합니다. 메시지가 표시될 때 PIN을 입력하고 확인을 합니다. 이제 iPhone에서 Outlook을 사용할 준비가 되었습니다.
   
 ![Set a PIN to access your organization's data](../media/64f2630b-3164-47a4-9dd6-ca0c29ed5fb3.png)
   
 ## <a name="android"></a>[Android](#tab/Android)
   
-Android 장치에 Outlook 및 Office를 설치 하는 방법에 대 한 비디오를 시청 하세요.<br><br>
+Android 장치에 Outlook 및 Office를 설치하는 데 대한 비디오를 시청합니다.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ecc2e9c0-bc7e-4f26-8b14-91d84dbcfef0] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
-Android 휴대폰에서 설치 프로그램을 시작 하려면 Play 스토어로 이동 합니다.
+Android 휴대폰에서 설치를 시작하려면 Play 스토어로 이동하십시오.
   
 ![On the Android home screen, tap Play Store](../media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
   
-Google Play 검색 상자에 Microsoft Outlook을 입력 하 고 **설치**를 탭 합니다. 설치가 완료 되 면 **열기**를 누릅니다.
+Google Play 검색 상자에 Microsoft Outlook을 입력하고 설치를 **탭합니다.** Outlook 설치가 완료되면 열기 를 **탭합니다.**
   
 ![Tap Open to open Outlook app](../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-Outlook 앱에서 **시작**을 탭 하 고 비즈니스용 Microsoft 365 for business 전자 메일 계정을 \> **계속**추가한 다음 조직 자격 증명을 사용 하 여 로그인 합니다.
+Outlook 앱에서 시작을 탭한 다음 비즈니스용 Microsoft 365 전자 메일 계정 계속을 추가하고 조직 자격 증명으로 \> 로그인합니다.
   
 ![Sign in to your organizational account in Outlook](../media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
-Intune 회사 포털 앱 설치를 안내하는 대화 상자에서 **스토어로 이동**을 탭합니다.
+Intune 회사 포털 앱 설치를 안내하는 대화 상자에서 **스토어로 이동** 을 탭합니다.
   
 ![Tap on Go to store to get Intune Company Portal app](../media/a702d712-5622-45dd-a511-b1adaee63071.png)
   
-Play 스토어에서 Intune 회사 포털을 설치 합니다.
+Play 스토어에서 Intune 회사 포털을 설치합니다.
   
 ![Screenshot that shows the install button for Intune Company Portal in Google Play Store](../media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
   

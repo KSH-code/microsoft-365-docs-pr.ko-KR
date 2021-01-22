@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 비즈니스 파일을 공유하는 방법에 대한 개요입니다.
-ms.openlocfilehash: 9b051fb0df324eff74a4b91ab780070bfdcf3a70
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 333954c92039d124c83cf03b6e1f6637183a4f25
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702469"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928153"
 ---
 # <a name="overview-of-sharing-business-files"></a>비즈니스 파일 공유 개요
 
@@ -44,7 +45,7 @@ ms.locfileid: "49702469"
 
 ## <a name="share-and-collaborate-with-a-client-or-business-partner"></a>클라이언트 또는 비즈니스 파트너와 공유 및 공동 작업
 
-프로젝트의 일부로 공유하나요? 또는 비즈니스 파트너 또는 공급업체와 지속적인 관계의 일부로 사용하나요? 조금 더 시간을 내고 Microsoft Teams에서 팀을 설정할 수 있으며, 지속적인 공유 및 함께 작업할 수 있습니다. 비즈니스 외부의 사용자와 쉽게 작업할 수 있으며, 추가 공급 업체 또는 파트너를 위해 별도의 채널을 설정하여 모두 똑바로 유지할 수도 있습니다.
+프로젝트의 일부로 공유하나요? 또는 비즈니스 파트너 또는 공급업체와 지속적인 관계의 일부로 사용하나요? 조금 더 시간을 내고 Microsoft Teams에서 팀을 설정하고 지속적인 공유 및 함께 작업할 수 있습니다. 비즈니스 외부의 사용자와 쉽게 작업할 수 있으며, 추가 공급 업체 또는 파트너를 위해 별도의 채널을 설정하여 모두 똑바로 유지할 수도 있습니다.
 
 1. 팀을 만드시다.
 1. 파일을 업로드합니다.
@@ -59,7 +60,7 @@ ms.locfileid: "49702469"
 1. 팀을 만들고 팀을 초대합니다.
 1. 파일을 업로드합니다.
 
-회사 파일 저장소 [및 직원](https://support.microsoft.com/office/e4d98e10-3532-4eed-85d6-92728454e32b) 파일 [저장소에 대해 자세히 알아보습니다.](https://support.microsoft.com/office/12dbe3e4-dbef-48f8-a90e-87f1bc607073)
+회사 파일 저장소 [및 직원](https://support.microsoft.com/office/e4d98e10-3532-4eed-85d6-92728454e32b) 파일 [저장소에 대해 자세히 알아보면 됩니다.](https://support.microsoft.com/office/12dbe3e4-dbef-48f8-a90e-87f1bc607073)
 
 ## <a name="how-to-get-it-done"></a>완료 방법
 

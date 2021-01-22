@@ -18,7 +18,7 @@ ms.collection:
 - commerce
 ms.custom:
 - TopSMBIssues
-- okr_SMB
+- okr_smb
 - BCS160
 - MET150
 - MOE150
@@ -28,12 +28,12 @@ ms.custom:
 - AdminSurgePortfolio
 description: Microsoft 365 관리 센터에서 송장 또는 청구서를 찾으십시오. 청구서 복사본을 저장하고 인쇄할 수도 있습니다.
 ms.date: 07/31/2020
-ms.openlocfilehash: 31d48ea846cbbdfb87cce4042ffea959e30d6fa1
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 5bf257847ec880855841035792c7714fd24d9b68
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552541"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928535"
 ---
 # <a name="view-your-bill-or-invoice"></a>청구서 또는 송장 보기
 
@@ -54,7 +54,7 @@ ms.locfileid: "46552541"
     - 사용 중인 경우 21Vianet에서 운영하는 Office 365이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">청구 및 결제</a> 페이지로 이동합니다.
 2. **송장** 탭의 드롭 다운 목록에서 날짜 범위를 선택한 다음 보려는 순서를 선택하십시오.
 3. 요약 페이지에서는 인보이스의 모든 품목에 대한 품목, 수량, 가격, 할인 및 총액을 확인할 수 있습니다.
-4. 송장의 PDF 복사본을 인쇄하거나 저장하려면 **다운로드 PDF**를 선택합니다.
+4. 송장의 PDF 복사본을 인쇄하거나 저장하려면 **다운로드 PDF** 를 선택합니다.
 
 ## <a name="receive-a-copy-of-your-billing-statement-in-email"></a>전자 메일로 청구서 사본 받기
 
@@ -68,9 +68,9 @@ ms.locfileid: "46552541"
 1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">대금 청구 알림</a> 페이지로 이동합니다.
     - 사용 중인 경우 Office 365 Germany이 <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">청구 알림</a> 페이지로 이동합니다.
     - 사용 중인 경우 21Vianet에서 운영하는 Office 365이 <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">청구 알림</a> 페이지로 이동합니다.
-1. **청구서를 전자 메일 첨부 파일로 받으시겠습니까?** 아래의 토글을 **설정**으로 전환합니다.
+1. **청구서를 전자 메일 첨부 파일로 받으시겠습니까?** 아래의 토글을 **설정** 으로 전환합니다.
 
-    언제든지 토글을 **해제**로 전환하여 청구서 전자 메일 수신을 중지할 수 있습니다.
+    언제든지 토글을 **해제** 로 전환하여 청구서 전자 메일 수신을 중지할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

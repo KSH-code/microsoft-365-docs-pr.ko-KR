@@ -3,7 +3,7 @@ title: 기타 보안 및 위협 방지 API
 description: Microsoft 보안 및 위협 방지 제품과 관련된 API 목록을 볼 수 있습니다.
 keywords: api, 보안, 위협 방지, mde, 끝점용 Microsoft Defender, Microsoft Defender atp, office 365 Advanced Threat Protection, Microsoft Defender Advanced Threat Protection, 클라우드 앱 보안
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e0b1301341538110d563f446c4a2d603f41078c4
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 3d9eb6b255aefa55da811e779503242c240baf58
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719371"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929769"
 ---
 # <a name="other-security-and-threat-protection-apis"></a>기타 보안 및 위협 방지 API
 

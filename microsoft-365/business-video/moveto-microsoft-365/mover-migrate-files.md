@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Mover를 사용하여 Google 파일을 비즈니스용 Microsoft 365로 마이그레이션하는 방법을 학습합니다.
-ms.openlocfilehash: a6f9dbf7803cb552c23b6c6abb13d13d6f3eda5d
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 99040e4846aba084f40536e88f0aed70998f48be
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794704"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928201"
 ---
 # <a name="migrate-google-files-to-microsoft-365-for-business"></a>비즈니스용 Microsoft 365로 Google 파일 마이그레이션 
 
@@ -39,7 +40,7 @@ ms.locfileid: "49794704"
 
 ## <a name="before-you-start"></a>시작하기 전에
 
-모든 사용자는 비즈니스용 Microsoft 365에 로그인하고 비즈니스용 OneDrive를 설정해야 합니다. 이렇게 해야 office.com [](https://office.com)비즈니스용 Microsft 365 자격 증명으로 로그인한 다음 OneDrive를 선택해야 합니다.
+모든 사용자는 비즈니스용 Microsoft 365에 로그인하고 비즈니스용 OneDrive를 설정해야 합니다. 이렇게 해야 office.com [](https://office.com)비즈니스용 마이크로 365 자격 증명으로 로그인한 다음 OneDrive를 선택해야 합니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 
@@ -47,7 +48,7 @@ ms.locfileid: "49794704"
 
 1. 로그인하여 Google Workspace 관리 [콘솔의](https://admin.google.com)admin.google.com.
 
-1. 앱, **Google Workspace 마켓플레이스 앱을** 선택한 다음 도메인 설치 목록에 **앱을 추가합니다.** 
+1. **앱,** **Google Workspace 마켓플레이스 앱을** 선택한 다음 도메인 설치 목록에 앱을 **추가합니다.**
 
 1. Mover를 검색하고 선택합니다.
 
@@ -73,14 +74,14 @@ ms.locfileid: "49794704"
 1. 속성을 **선택하고** **사용자** 할당이 필요한지 확인하려면 설정해야 합니다.
 1. Mover 앱으로 돌아가 표시 이름을 **변경합니다.** 원하는 경우 승인을 선택한 다음 Microsoft 관리자 계정을 선택합니다.
 
-    Mover는 검색된 SharePoint Online(또는 SPO) 사이트 및 사용자 수에 대해 알릴 것입니다.
+    Mover는 검색된 SharePoint Online(또는 SPO) 사이트 및 사용자 수에 대해 알릴 수 있습니다.
 1. 마이그레이션 **설치 계속,** 사용자 **추가를** 선택한 다음 자동으로 **사용자 검색 및 추가를 선택합니다.**
 
     Mover 앱은 Google의 원본 경로에서 Microsoft 365의 대상 경로로 드라이브를 매핑하려고 합니다. 
 
     드라이브가 자동으로 매핑되지 않는 경우 대상 경로를 CSV 파일에 추가합니다. 이 경로는 나중에 공유 드라이브를 SharePoint 문서 라이브러리로 마이그레이션하는 데 사용할 것입니다. 
 
-1. 이 경우 마이그레이션된 파일이라는 SharePoint 사이트를 추가하고 문서 페이지의 URL을 기록했습니다. 
+1. 이 경우 마이그레이션된 파일이라는 SharePoint 사이트를 추가하고 문서 페이지의 URL을 기록해 두십시오. 
 1. 그런 다음 원본 경로, 대상 경로 및 태그 형식을 사용하여 CSV 파일을 만들 수 있습니다. 
 
     자세한 내용은 [다음](https://docs.microsoft.com/sharepointmigration/mover-create-migration-csv)aka.ms/movercsv.

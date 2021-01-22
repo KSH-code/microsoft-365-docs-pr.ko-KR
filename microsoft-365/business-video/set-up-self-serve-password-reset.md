@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 사용자가 Microsoft 365 Business Premium에서 암호를 직접 재설정할 수 있도록 하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 724658e48d532b6b7b9c14244fec93eeb17a62e5
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: 사용자가 Microsoft 365 Business Premium에서 암호를 직접 재설정할 수 있도록 하는 방법을 배워야 합니다.
+ms.openlocfilehash: a1078f13bb4031427c5bdd655b095dbf8ed29bcb
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702899"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927925"
 ---
 # <a name="set-up-self-service-password-reset"></a>셀프 서비스 암호 재설정 설정
 
@@ -37,8 +38,8 @@ ms.locfileid: "49702899"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서  설정을 선택한 다음 보안 & **선택합니다.**
-1. 사용자가 **자신의 암호를 재설정할 수** 있도록 아래에서 Azure AD 관리 **센터를 선택합니다.**
+1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서  설정을 선택한 다음 보안 및 개인 & **선택합니다.**
+1. 사용자가 암호를 직접 **재설정할 수** 있도록 Azure AD 관리 **센터를 선택합니다.**
 1. 왼쪽 탐색 창에서 사용자를 선택하고 사용자 **- 모든 사용자** 페이지에서 암호 **재설정을 선택합니다.**
 1. **셀프** 서비스 암호 재설정을 사용하도록 설정하려면 모두를 선택한 다음 저장을 **선택합니다.**
 

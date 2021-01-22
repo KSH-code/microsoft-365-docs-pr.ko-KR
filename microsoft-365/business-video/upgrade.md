@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Windows 10 Home을 Windows 10 Pro로 업그레이드하는 방법을 학습합니다.
-ms.openlocfilehash: 64393e1b5c3f6652835fe5f5cd5859a6f4cf4320
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 3f775130728eb6f00b1adb008c697fb84254827b
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703106"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927757"
 ---
 # <a name="upgrade-from-windows-10-home-to-windows-10-pro"></a>Windows 10 Home에서 Windows 10 Pro로 업그레이드
 

@@ -1,11 +1,11 @@
 ---
-title: 끝점 기능에 대 한 Microsoft Defender 구성 및 관리
+title: 끝점용 Microsoft Defender 기능 구성 및 관리
 ms.reviewer: ''
-description: Attack surface reduction 및 차세대 보호와 같은 끝점 기능을 위해 Microsoft Defender를 구성 하 고 관리 합니다.
-keywords: configure, manage, capabilities, attack surface reduction, 다음 세대 보호, 보안 제어, 끝점 검색 및 응답, 자동 조사 및 업데이트, 보안 제어, 컨트롤
+description: 공격 표면 감소 및 차세대 보호와 같은 끝점 기능에 대한 Microsoft Defender 구성 및 관리
+keywords: 구성, 관리, 기능, 공격 표면 감소, 차세대 보호, 보안 제어, 끝점 감지 및 대응, 자동 조사 및 수정, 보안 제어, 컨트롤
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: w10
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -18,14 +18,15 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: conceptual
-ms.openlocfilehash: b202b30e218448794eac7588078ff3ac9cfe9ee3
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: d04177ef38c1bd04b0b73e29de9d8ab6fc0893ce
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844815"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930129"
 ---
-# <a name="configure-and-manage-microsoft-defender-for-endpoint-capabilities"></a>끝점 기능에 대 한 Microsoft Defender 구성 및 관리
+# <a name="configure-and-manage-microsoft-defender-for-endpoint-capabilities"></a>끝점용 Microsoft Defender 기능 구성 및 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -33,18 +34,18 @@ ms.locfileid: "48844815"
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2069559)
 
-모든 Microsoft Defender for Endpoint capabilities를 구성 하 고 관리 하 여 조직에 가장 적합 한 보안 기능을 제공 합니다. 
+조직에 가장 적합한 보안 보호를 얻을 수 있도록 모든 끝점용 Microsoft Defender 기능을 구성하고 관리합니다. 
 
 
 ## <a name="in-this-section"></a>이 섹션의 내용 
 항목 | 설명 
 :---|:---
-[공격 영역 감소 기능 구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction) |  구성 설정이 제대로 설정 되 고 익스플로잇 완화 기술이 적용 되며, 이러한 기능 집합은 공격 및 악용을 방지 합니다. 
-[차세대 보호 구성](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) | 다음 세대 보호를 구성 하 여 모든 유형의 최신 위협을 파악 합니다.
-[Microsoft Threat 전문가가 기능 구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-microsoft-threat-experts) | Microsoft Threat 전문가가 cybersecurity 위협 인텔리전스를 가져올 방법을 구성 하 고 관리 합니다.
-[Microsoft 365 Defender 통합 구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-protection-integration)| 끝점에 대해 Microsoft Defender와 통합 되는 다른 솔루션을 구성 합니다.
-[관리 및 API 지원](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis)| SIEM에 알림을 끌어오거나 Api를 사용 하 여 사용자 지정 알림을 만듭니다. Power BI 보고서를 만들고 작성 합니다. 
-[Microsoft Defender 보안 센터 설정 구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/preferences-setup) |  일반 설정, 고급 기능, 미리 보기 환경 사용 및 기타를 비롯 한 포털 관련 설정을 구성 합니다.
+[공격 표면 축소 기능 구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction) |  구성 설정이 올바르게 설정되고 악용 완화 기술이 적용되었는지 확인하여 이러한 기능 집합은 공격 및 악용을 저항합니다. 
+[차세대 보호 구성](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) | 모든 유형의 새로운 위협을 catch하도록 차세대 보호를 구성합니다.
+[Microsoft 위협 전문가 기능 구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-microsoft-threat-experts) | Microsoft 위협 전문가로부터 사이버 보안 위협 인텔리전스를 얻을 방법을 구성하고 관리합니다.
+[Microsoft 365 Defender 통합 구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-protection-integration)| 끝점용 Microsoft Defender와 통합되는 다른 솔루션을 구성합니다.
+[관리 및 API 지원](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis)| SIEM으로 경고를 끌어오거나 API를 사용하여 사용자 지정 경고를 만들 수 있습니다. Power BI 보고서를 만들고 작성합니다. 
+[Microsoft Defender 보안 센터 설정 구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/preferences-setup) |  일반 설정, 고급 기능과 같은 포털 관련 설정을 구성하고 미리 보기 환경을 사용하도록 설정하는 등의 기능을 사용할 수 있습니다.
 
 
 

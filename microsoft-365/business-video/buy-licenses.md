@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 새 비즈니스용 Microsoft 365 라이선스를 구입하는 방법을 배워야 합니다.
-ms.openlocfilehash: a4bc66188b064227821ddc66cc764c83caad5f64
-ms.sourcegitcommit: 4482c174e0e68e0fbbc7ad9ef6b0e78dc34ac85a
+ms.openlocfilehash: 7cec05256cb67c82caf367c10ac10546cb63b369
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49784244"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927457"
 ---
 # <a name="buy-microsoft-365-licenses"></a>Microsoft 365 라이선스 구입
 

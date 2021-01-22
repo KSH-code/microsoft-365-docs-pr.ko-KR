@@ -7,7 +7,6 @@ ms.reviewer: ''
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,22 +14,24 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX
-description: 관리자는 사용자가 자신의 메일에 대해 할 수 있는 작업을 제어하기 위해 검지 태그를 사용하는 방법을 학습할 수 있습니다.
-ms.openlocfilehash: 167f147d7c74b78b1a1661b5444625fbf1cf3d41
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+description: 관리자는 사용자가 자신의 고지된 메시지에 대해 할 수 있는 작업을 제어하기 위해 검지 태그를 사용하는 방법을 학습할 수 있습니다.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 6f18ad6ce1c8b12d38aef377ab663ca679a703e5
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683070"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928905"
 ---
 # <a name="quarantine-tags"></a>태그를 Quarantine tags
 
 > [!NOTE]
 > 이 문서에서 설명하는 기능은 현재 미리 보기로 제공되어 있으며 모든 사람이 사용할 수 있으며 변경될 수 있습니다.
 
-EOP(Exchange Online Protection)에서 태그를 차단하면 관리자가 메시지가 메시지에 도착한 방법에 따라 사용자가 해당 메시지에 대해 할 수 있는 작업을 제어할 수 있습니다.
+EOP(Exchange Online Protection)에서 태그를 차단하면 관리자가 메시지가 메시지가 차단된 방식에 따라 사용자가 해당 메시지에 대해 할 수 있는 작업을 제어할 수 있습니다.
 
-EOP는 일반적으로 메시지에 대한 특정 수준의 대화형 [작업(Quarantine](find-and-release-quarantined-messages-as-a-user.md) 및 최종 사용자 스팸 알림)을 허용하거나 [차단했습니다.](use-spam-notifications-to-release-and-report-quarantined-messages.md) 예를 들어 최종 사용자는 스팸 방지 필터링에 의해 스팸 또는 대량으로 검색된 메시지를 보고 해제할 수 있지만 높은 신뢰도 피싱으로 분류된 메시지를 보거나 해제할 수 없습니다.
+EOP는 일반적으로 차단된 메시지와 최종 사용자 스팸 알림에서 특정 수준의 대화형 작업 수준을 허용하거나 [차단했습니다.](use-spam-notifications-to-release-and-report-quarantined-messages.md) [](find-and-release-quarantined-messages-as-a-user.md) 예를 들어 최종 사용자는 스팸 방지 필터링에 의해 스팸 또는 대량으로 검색된 메시지를 보고 해제할 수 있지만 높은 신뢰도 피싱으로 분류된 메시지를 보거나 해제할 수 없습니다.
 
 [지원되는](#step-2-assign-a-quarantine-tag-to-supported-features)보호 기능의 경우, 태그는 최종 사용자 스팸 알림 메시지 및 사용자가 받는 사람인 메시지에 있는 자신의 스팸 알림 메시지에 대해 허용되는 작업을 지정합니다. 최종 사용자에게 전송된 메시지의 기록 기능을 적용하기 위해 기본 검역 태그가 자동으로 할당됩니다. 또는 최종 사용자가 메일로 전송된 메시지에 대해 특정 작업을 수행할 수 있도록 허용하거나 금지하는 사용자 지정 차단 태그를 만들고 할당할 수 있습니다.
 
@@ -44,7 +45,7 @@ EOP는 일반적으로 메시지에 대한 특정 수준의 대화형 [작업(Qu
 
 |사용 권한|권한 없음|제한된 액세스|모든 액세스|
 |---|:---:|:---:|:---:|
-|**보낸 사람** _허용(PermissionToAllowSender)_|||![확인 표시](../../media/checkmark.png)|
+|**Allow** sender(PermissionToAllowSender)|||![확인 표시](../../media/checkmark.png)|
 |**보낸 사람** _차단(PermissionToBlockSender)_||![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
 |**Delete(** _PermissionToDelete)_||![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
 |**Preview(** _PermissionToPreview)_||![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
@@ -58,11 +59,11 @@ EOP는 일반적으로 메시지에 대한 특정 수준의 대화형 [작업(Qu
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **Quarantine 태그** 페이지로 직접 이동하기 위해 를 열고 <https://protection.office.com/quarantineTags> .
+- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. **Quarantine 태그** 페이지로 직접 이동하기 위해 를 열고 <https://protection.office.com/quarantineTags> .
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
-- 분리 태그를 보거나 만들거나 수정하거나 제거하려면 보안 및 준수 센터에서 조직  관리 [또는 보안 관리자 역할의 & 합니다.](permissions-in-the-security-and-compliance-center.md) 
+- 검역 태그를 보거나 만들거나 수정하거나 제거하려면 보안 및 준수  센터에서  조직 관리 또는 [보안 관리자 역할의 & 합니다.](permissions-in-the-security-and-compliance-center.md)
 
 ## <a name="step-1-create-quarantine-tags-in-the-security--compliance-center"></a>1단계: 보안 및 준수 센터에서 & 태그 만들기
 
@@ -86,7 +87,7 @@ EOP는 일반적으로 메시지에 대한 특정 수준의 대화형 [작업(Qu
        - **받는 사람이 메시지를 해제할 수 있도록 허용**
        - **받는 사람이 메시지를 검지에서 릴리스하도록 요청하도록 허용**
 
-     - **받는 사람이** 각기 다른 메시지에 대해 수행할 수 있는 추가 작업 선택: 다음 값을 일부 또는 모두 선택하거나 모두 선택하지 않습니다.
+     - **받는 사람이** 다음 값 중 일부 또는 모두를 선택하거나 모두 선택하십시오.
        - **삭제**
        - **미리 보기**
        - **보낸 사람 허용**
@@ -218,20 +219,20 @@ New-QuarantineTag -Name "<UniqueName>" -EndUserQuarantinePermissions $<VariableN
 New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAccess
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [New-QuarantineTag를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/new-quarantinetag)
+구문과 매개 변수에 대한 자세한 내용은 [New-QuarantineTag](https://docs.microsoft.com/powershell/module/exchange/new-quarantinetag)를 참조하십시오.
 
 ## <a name="step-2-assign-a-quarantine-tag-to-supported-features"></a>2단계: 지원되는 기능에 대해 Quarantine 태그 할당
 
-메시지 _또는_ 파일을 자동으로 또는 구성 가능한 작업으로 차단하는 지원되는 보호 기능에서 사용 가능한 검역 작업에 검역 태그를 할당할 수 있습니다. 다음 표에서는 메시지를 검색하고 태그를 사용할 수 있는 기능에 대한 설명을 제공합니다.
+메시지 _또는_ 파일을 자동으로 또는 구성 가능한 작업으로 차단하는 지원되는 보호 기능에서 사용 가능한 검역 작업에 할당할 수 있습니다. 다음 표에서는 메시지를 검색하고 태그를 사용할 수 있는 기능에 대한 설명을 제공합니다.
 
 ****
 
 |기능|태그를 Quarantine tags supported?|사용되는 기본 Quarantine 태그|
 |---|:---:|---|
-|[스팸 방지 정책](configure-your-spam-filter-policies.md): <ul><li>**스팸(** _SpamAction)_</li><li>**높은 지수 스팸(** _HighConfidenceSpamAction)_</li><li>**피싱 전자** _메일(PhishSpamAction)_</li><li>**높은 신뢰도 피싱 전자** _메일(HighConfidencePhishAction)_</li><li>**대량 전자 메일(** _BulkSpamAction)_</li></ul>|예|<ul><li>DefaultSpamTag(모든 액세스)</li><li>DefaultHighConfSpamTag(모든 액세스)</li><li>DefaultPhishTag(모든 액세스)</li><li>DefaultHighConfPhishTag(액세스 없음)</li><li>DefaultBulkTag(모든 액세스)</li></ul>
+|[스팸 방지 정책:](configure-your-spam-filter-policies.md) <ul><li>**스팸(** _SpamAction)_</li><li>**높은 지수 스팸(** _HighConfidenceSpamAction)_</li><li>**피싱 전자** _메일(PhishSpamAction)_</li><li>**높은 신뢰도 피싱 전자** _메일(HighConfidencePhishAction)_</li><li>**대량 전자 메일(** _BulkSpamAction)_</li></ul>|예|<ul><li>DefaultSpamTag(모든 액세스)</li><li>DefaultHighConfSpamTag(모든 액세스)</li><li>DefaultPhishTag(모든 액세스)</li><li>DefaultHighConfPhishTag(액세스 없음)</li><li>DefaultBulkTag(모든 액세스)</li></ul>
 |피싱 방지 정책: <ul><li>[스푸핑 인텔리전스](set-up-anti-phishing-policies.md#spoof-settings) _보호(AuthenticationFailAction)_</li><li>[가장 보호:](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)<sup>\*</sup> <ul><li>**가장된** 사용자가 전자 메일을 보낸 _경우(TargetedUserProtectionAction)_</li><li>**가장된** 도메인에서 전자 메일을 보낸 _경우(TargetedDomainProtectionAction)_</li><li>**사서함 인텔리전스** \> **가장된** 사용자가 전자 메일을 보낸 _경우(MailboxIntelligenceProtectionAction)_</li></ul></li></ul></ul>|아니요|해당 없음|
 |[맬웨어 방지 정책:](configure-anti-malware-policies.md)검색된 모든 메시지는 항상 차단됩니다.|아니요|해당 없음|
-|[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)|아니요|해당 없음|
+|[SharePoint, OneDrive 및 Microsoft Teams에 대한 안전한 첨부 파일](atp-for-spo-odb-and-teams.md)|아니요|해당 없음|
 |[다음 작업을 사용하여](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) 메일 흐름 규칙(전송 규칙라고도 합니다.)  호스트된 검단(Quarantine)으로 메시지를 _배달합니다._|아니요|해당 없음|
 |
 
@@ -239,7 +240,7 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
 기본 Quarantine 태그에서 제공하는 최종 사용자 권한이 만족스러우면 아무 것도 할 필요가 없습니다. 최종 사용자 스팸 알림 또는 메시지 세부 정보에서 최종 사용자 기능(사용 가능한 단추)을 사용자 지정하려는 경우 사용자 지정 차단 태그를 할당할 수 있습니다.
 
-### <a name="assign-quarantine-tags-in-anti-spam-policies-in-the-security--compliance-center"></a>보안 및 준수 센터에서 스팸 방지 정책에 & 태그 할당
+### <a name="assign-quarantine-tags-in-anti-spam-policies-in-the-security--compliance-center"></a>보안 및 준수 센터의 스팸 방지 정책에서 & 태그 할당
 
 스팸 방지 정책을 만들고 수정하기 위한 전체 지침은 EOP에서 스팸 방지 정책 [구성에 설명되어 있습니다.](configure-your-spam-filter-policies.md)
 
@@ -255,7 +256,7 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
    ![스팸 방지 정책에서 태그 선택을 차단](../../media/quarantine-tags-in-anti-spam-policies.png)
 
-5. 작업을 마쳤으면 **저장** 을 클릭합니다.
+5. 작업을 마친 후 **저장** 을 클릭합니다.
 
 #### <a name="assign-quarantine-tags-in-anti-spam-policies-in-powershell"></a>PowerShell에서 스팸 방지 정책에서 스팸 방지 태그 할당
 
@@ -265,7 +266,7 @@ PowerShell을 사용하여 스팸 방지 정책에서 스팸 방지 태그를 �
 <New-HostedContentFilterPolicy -Name "<Unique name>" | Set-HostedContentFilterPolicy -Identity "<Policy name>">  [-SpamAction Quarantine] [-SpamQuarantineTag <QuarantineTagName>] [-HighConfidenceSpamAction Quarantine] [-HighConfidenceSpamQuarantineTag <QuarantineTagName>] [-PhishSpamAction Quarantine] [-PhishQuarantineTag <QuarantineTagName>] [-HighConfidencePhishQuarantineTag <QuarantineTagName>] [-BulkSpamAction Quarantine] [-BulkQuarantineTag <QuarantineTagName>] ...
 ```
 
-**참고:**
+**참고**:
 
 - _HighConfidencePhishAction_ 매개 변수의 기본값은 Quarantine이기 때문에 새로운 스팸 방지 정책에서 높은 신뢰도의 피싱 검색에 대해 Quarantine 작업을 설정할 필요가 없습니다. 새 스팸 방지 정책 또는 기존 스팸 방지 정책의 다른 모든 스팸 필터링 판정에 대해, 작업 값이 Quarantine인 경우만 스팸 필터링 태그가 적용됩니다. 기존 스팸 방지 정책의 작업 값을 표시하기 위해 다음 명령을 실행합니다.
 
@@ -292,7 +293,7 @@ New-HostedContentFilterPolicy -Name Research Department -SpamAction Quarantine -
 
 자세한 구문 및 매개 변수 정보는 [New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/new-hostedcontentfilterpolicy)를 참조하세요.
 
-이 예에서는 Human Resources라는 기존 스팸 필터 정책을 수정합니다. 스팸 차단 판정에 대한 작업은 Quarantine으로 설정되어 있으며 NoAccess라는 사용자 지정 Quarantine 태그가 할당됩니다.
+이 예에서는 Human Resources라는 기존 스팸 필터 정책을 수정합니다. 스팸 차단 판정에 대한 작업은 Quarantine으로 설정되어 있으며, NoAccess라는 사용자 지정 Quarantine 태그가 할당됩니다.
 
 ```powershell
 Set-HostedContentFilterPolicy -Identity "Human Resources" -SpamAction Quarantine -SpamQuarantineTag NoAccess
@@ -302,13 +303,13 @@ Set-HostedContentFilterPolicy -Identity "Human Resources" -SpamAction Quarantine
 
 ## <a name="configure-global-quarantine-notification-settings-in-the-security--compliance-center"></a>보안 및 준수 센터에서 전역 & 설정 구성
 
-각 태그에 대한 전역 설정을 사용하면 메시지를 받는 사람에게 전송되는 최종 사용자 스팸 알림을 사용자 지정할 수 있습니다. 이러한 알림에 대한 자세한 내용은 최종 사용자 스팸 알림을 [참조하세요.](use-spam-notifications-to-release-and-report-quarantined-messages.md)
+각 태그에 대한 전역 설정을 사용하면 메시지를 받는 사람에게 전송되는 최종 사용자 스팸 알림을 사용자 지정할 수 있습니다. 이러한 알림에 대한 자세한 내용은 최종 사용자 스팸 [알림을 참조하세요.](use-spam-notifications-to-release-and-report-quarantined-messages.md)
 
 1. 보안 & 준수 센터에서 **위협** 관리 정책으로 이동한 다음 태그를 \>  **선택합니다.**
 
 2. **Quarantine tags(태그) 페이지에서** 전역 **설정을 선택합니다.**
 
-3. 열 **수 있는 Quarantine notification settings** flyout, configure some or all of the following settings:
+3. 열 수 있는 **Quarantine notification settings** flyout, configure some or all of the following settings:
 
    - **회사 로고 사용:** 최종 사용자 스팸 알림의 맨 위에 있는 기본 Microsoft 로고를 대체하려면 이 옵션을 선택합니다. 이렇게 하기 전에 조직에서 사용자 지정 로고를 업로드할 수 있도록 [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/customize-your-organization-theme) 테마 사용자 지정의 지침을 따라야 합니다.
 
@@ -330,11 +331,11 @@ Set-HostedContentFilterPolicy -Identity "Human Resources" -SpamAction Quarantine
 
      ![최종 사용자 스팸 알림의 사용자 지정된 보낸 사람 표시 이름](../../media/quarantine-tags-esn-customization-display-name.png)
 
-   - **고지 사항:** 최종 사용자 스팸 알림의 맨 아래에 사용자 지정 고지 사항 추가 지역화된 텍스트인 조직의 고지 **사항:은** 항상 먼저 포함되는 다음에 지정한 텍스트가 포함됩니다.
+   - **고지 사항:** 최종 사용자 스팸 알림의 맨 아래에 사용자 지정 고지 사항 추가 지역화된 텍스트인 조직에서 고지 **사항:은** 항상 먼저 포함되는 다음에 지정한 텍스트가 포함됩니다.
 
      추가한 각 언어에 대해 두 번째 언어 상자에서 언어를 선택하고(X를 클릭하지 않습니다) 고지침 상자에 원하는 텍스트 값을 **입력합니다.**
 
-     다음 스크린샷은 최종 사용자 스팸 알림의 사용자 지정 고지 사항입니다.
+     다음 스크린샷은 최종 사용자 스팸 알림의 사용자 지정된 고지 사항입니다.
 
      ![최종 사용자 스팸 알림의 맨 아래에 있는 사용자 지정 고지](../../media/quarantine-tags-esn-customization-disclaimer.png)
 
@@ -372,7 +373,7 @@ PowerShell을 사용하여 태그를 보지 않고 다음 단계를 수행합니
 
 ## <a name="remove-quarantine-tags-in-the-security--compliance-center"></a>보안 및 준수 센터에서 & 태그 제거
 
-**참고:**
+**참고**:
 
 - 기본 제공 분리 태그는 제거할 수 없습니다.
 
@@ -382,7 +383,7 @@ PowerShell을 사용하여 태그를 보지 않고 다음 단계를 수행합니
   Get-HostedContentFilterPolicy | Format-List Name,*QuarantineTag
   ```
 
-  Quarantine 태그를 사용 중이면 해당 태그를 제거하기 전에 할당된 [분리](#step-2-assign-a-quarantine-tag-to-supported-features) 태그를 교체합니다.
+  Quarantine 태그를 사용 중이면 태그를 제거하기 전에 할당된 [Quarantine 태그를](#step-2-assign-a-quarantine-tag-to-supported-features) 교체합니다.
 
 1. 보안 & 준수 센터에서 **위협** 관리 정책으로 이동한 다음 태그를 \>  **선택합니다.**
 
@@ -414,7 +415,7 @@ Quarantine 태그에 액세스 **권한** 없음(사용 권한 없음)을 할당
 
 - **Quarantined message details:** The **View message header** button is always available.
 
-  ![사용자에게 액세스 권한이 없음을 제공하는 경우, 비분리된 메시지 세부 정보에서 사용 가능한 단추](../../media/quarantine-tags-quarantined-message-details-no-access.png)
+  ![사용자에게 액세스 권한 없음 권한이 부여된 경우, 이 확인란의 메시지 세부 정보에서 사용 가능한 단추](../../media/quarantine-tags-quarantined-message-details-no-access.png)
 
 - **최종 사용자 스팸 알림:** 사용자를 메시지로 보내기 위한 검토 단추는 항상 사용할 수 있습니다. 
 
@@ -437,7 +438,7 @@ Quarantine 태그에 제한된  액세스 권한이 할당된 경우 사용자�
   - **보낸 사람 차단**
   - **검토**
 
-  ![차단 태그가 사용자에게 제한된 액세스 권한을 부여하는 경우 최종 사용자 스팸 알림의 사용 가능한 단추](../../media/quarantine-tags-esn-limited-access.png)
+  ![차단 태그가 사용자에게 제한된 액세스 권한을 제공하는 경우 최종 사용자 스팸 알림의 사용 가능한 단추](../../media/quarantine-tags-esn-limited-access.png)
 
 #### <a name="full-access"></a>모든 액세스
 
@@ -451,7 +452,7 @@ Quarantine 태그에 모든  액세스 권한(사용 가능한 모든 사용 권
   - **보낸 사람 허용**
   - **Quarantine에서 제거**
 
-  ![사용자에게 모든 액세스 권한을 부여하는 경우, 해당 태그가 사용자에게 모든 권한을 부여하는 경우, Quarantined 메시지 세부 정보에서 사용 가능한 단추](../../media/quarantine-tags-quarantined-message-details-full-access.png)
+  ![사용자에게 모든 액세스 권한이 부여된 경우, 이 확인란의 메시지 세부 정보에서 사용 가능한 단추](../../media/quarantine-tags-quarantined-message-details-full-access.png)
 
 - **최종 사용자 스팸 알림:** 다음 단추를 사용할 수 있습니다.
   - **보낸 사람 차단**
@@ -511,9 +512,9 @@ Quarantine 태그에 모든  액세스 권한(사용 가능한 모든 사용 권
 
 - **최종 사용자 스팸 알림:** 효과가 없습니다.
 
-#### <a name="allow-recipients-to-release-a-message-from-quarantine-permission"></a>받는 사람이 메시지를 검지 권한에서 해제할 수 있도록 허용
+#### <a name="allow-recipients-to-release-a-message-from-quarantine-permission"></a>받는 사람이 메시지를 해제할 수 있도록 허용
 
-받는 **사람이** 메시지를 검지 _권한(PermissionToRelease)에서_ 릴리스하도록 허용하면 사용자가 관리자의 승인 없이 직접 또는 해당 메시지를 해제할 수 있습니다.
+받는 **사람이** 메시지를 해제할 수 있도록 허용 _권한(PermissionToRelease)은_ 사용자가 관리자의 승인 없이 직접 자신의 메일로 전송된 메시지를 릴리스할 수 있는 기능을 제어합니다.
 
 - **Quarantined message details**:
   - 사용 권한 사용: **릴리스 메시지** 단추를 사용할 수 있습니다.
@@ -525,7 +526,7 @@ Quarantine 태그에 모든  액세스 권한(사용 가능한 모든 사용 권
 
 #### <a name="allow-recipients-to-request-a-message-to-be-released-from-quarantine-permission"></a>받는 사람이 메시지를 메시지에 대한 확인 권한에서 릴리스하도록 허용
 
-받는 **사람이** 메시지의 해제를 요청하도록 허용(PermissionToRequestRelease)는 사용자가 자신의 에지된  메시지 릴리스를 요청할 수 있는 기능을 제어합니다. 메시지는 관리자가 요청을 승인한 후에만 릴리스됩니다.
+받는 **사람이** 메시지의 해제를 요청하도록 허용(PermissionToRequestRelease)는 사용자가 자신의 메일로 전송된 메시지의 릴리스를 요청하는 기능을 제어합니다.  메시지는 관리자가 요청을 승인한 후에만 릴리스됩니다.
 
 - **Quarantined message details**:
   - 사용 권한 사용: **릴리스 요청 단추를** 사용할 수 있습니다.

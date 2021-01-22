@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 비즈니스용 Microsoft 365의 관리자 역할에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 417a8af4c367e8abbef2c15da86fd07e0d8fd72c
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 3f532080dfa8b492700e258ab109a04962820557
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702839"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927745"
 ---
 # <a name="what-is-a-microsoft-365-admin"></a>Microsoft 365 관리자란?
 
@@ -47,7 +48,7 @@ ms.locfileid: "49702839"
 1. 왼쪽 탐색 창에서 사용자를 선택한 다음 **활성 사용자를 선택합니다.**
 1. 관리자로 만들 사람을 선택합니다. 사용자의 세부 정보가 오른쪽 대화 상자에 표시됩니다.
 1. Choose **Manage roles**.
-1. 사용자(관리자 액세스 권한 **없음)** 확인란의 선택을 취소한 다음 관리자 역할 중 하나를 선택합니다. 역할에 대한 자세한 내용을 알아보하려면 느낌표(!) 위에 마우스를 대고 도구 팁을 읽습니다. 사용자에게 사용자와 동일한 역할을 제공하려면 **전역 관리자를 선택합니다.**
+1. 사용자(관리자 액세스 권한 **없음)** 확인란의 선택을 취소한 다음 관리자 역할 중 하나를 선택합니다. 역할에 대한 자세한 내용을 알아보하려면 느낌표(!)를 마우스로 대고 도구 팁을 읽어 보세요. 사용자에게 사용자와 동일한 역할을 제공하려면 **전역 관리자를 선택합니다.**
 1. **변경 내용 저장** 을 선택합니다.
 
 ### <a name="create-an-admin-account"></a>관리자 계정 만들기 
@@ -56,7 +57,7 @@ IT 사용자 또는 서비스에 대한 전용 관리자 계정을 만들 수도
 
 1. Microsoft 365에 로그인한 동안 앱 시작 프로그램을 선택합니다.
 1. **관리자를** 선택하여 Microsoft 365 관리 센터로 이동하세요.
-1. 왼쪽 탐색 창에서 사용자를 선택한 다음 **활성 사용자를 선택합니다.**
+1. 왼쪽 탐색 창에서 사용자, 활성 사용자를 **선택합니다.** 
 1. 사용자 **추가를 선택합니다.**
 1. 사용자의 이름과  **성,** 표시 이름 및 **사용자 이름을** 입력하고 다음을 **선택합니다.**
 1. 제품 **라이선스가 없는 사용자 만들기를 선택하십시오.** 그러면 새 사용자가 추가되지만 월별 구독 요금은 지불할 수 없습니다. **다음** 을 선택합니다.

@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Google Workspace에서 비즈니스용 Microsoft 365로 전자 메일, 연락처 및 일정을 마이그레이션하는 방법을 학습합니다.
-ms.openlocfilehash: ab70a43fb7c26c23ebc9024b1cd2803c164a0aa4
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: cb751b1d2f18b226021bb6f218b62f3ae426f6a4
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794712"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928249"
 ---
 # <a name="migrate-business-email-and-calendar-from-google-workspace"></a>Google Workspace에서 비즈니스 전자 메일 및 일정 마이그레이션
 
@@ -44,14 +45,14 @@ Google Workspace에서 Exchange Online으로 관리자가 실행한 마이그레
 1. 새 탭 또는 창에서 서비스 계정 [페이지로](https://console.developers.google.com/iam-admin/serviceaccounts) 이동합니다. 
 1. 프로젝트 **만들기를 선택하고** 프로젝트 이름을 지정하고 만들기를 **선택합니다.** 
 1. 서비스 **계정 만들기를 선택하고** 이름을 입력하고 만들기 및 완료를 **선택합니다.**  
-1. 작업 **메뉴를** 열고 편집을 선택한 다음 고유 ID를 메모합니다.  프로세스 나중에 이 ID가 필요합니다. 
+1. 작업 **메뉴를** 열고 편집을 선택한 다음 고유 ID를 메모합니다.  프로세스의 나중에 이 ID가 필요합니다. 
 1. 도메인 전체 **위임 표시 섹션을 여십시오.** 
 1. **G Suite 도메인 전체** 위임 사용을 선택하고 동의 화면의 제품 이름을 입력한 다음 저장을 **선택합니다.** 
 
     > [!NOTE]
 > 제품 이름은 마이그레이션 프로세스에서 사용되지 않지만 대화 상자에 저장하는 데 필요합니다.     
 
-1. 작업 **메뉴를** 다시 열고 **만들기 키를 선택합니다.** 
+1. 작업 **메뉴를** 다시 열고 **키 만들기를 선택합니다.** 
 1. Choose **JSON,** then **Create**. 
 
      개인 키는 장치의 다운로드 폴더에 저장됩니다.
@@ -87,12 +88,12 @@ Google Workspace에서 Exchange Online으로 관리자가 실행한 마이그레
     도메인 확인은 일반적으로 몇 분 정도 걸리지만 최대 48시간이 걸릴 수 있습니다.
 
 1. [Microsoft 365 관리 센터로 이동하세요.](https://admin.microsoft.com)
-1. Microsoft **365** 관리 센터의 왼쪽 nav에서 모두 **표시,** **설정,** **도메인** 및 도메인 **추가를 선택합니다.** 
+1. Microsoft **365** 관리 센터의 왼쪽 nav에서 모두 표시,   **설정,** 도메인 및 도메인 **추가를 선택합니다.** 
 1. 이전에 만든 하위 도메인을 입력한 다음 이 도메인 **사용을 선택합니다.** 
 1. 도메인을 연결하려면 계속을 **선택합니다.** 
 1. 아래로 스크롤하여 MX 레코드, CNAME 레코드 및 TXT 레코드를 기록합니다. 
 1. Google 관리 **콘솔로 돌아오기**
-1. 도메인을 **선택하고** 도메인 **관리,** 세부 **정보 확인,** **도메인 관리를 선택합니다.** 
+1. 도메인을 **선택하고** 도메인 **관리,** **세부 정보 확인,** **도메인 관리를 선택합니다.** 
 1. In the left nav, choose **DNS** and scroll down to **Custom resource records.** 
 1. 레코드 형식 드롭다운을 열고 **MX를** 선택하고 이전에 기록한 MX 레코드 정보를 입력하거나 복사하여 붙여넣은 다음 추가를 **선택합니다.** 
 1. CNAME 레코드 및 TXT 레코드에 대한 프로세스를 반복합니다. 

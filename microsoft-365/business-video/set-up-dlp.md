@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 데이터 손실 방지 정책 설정 관리 방법을 학습합니다.
-ms.openlocfilehash: 93c06af0203a5eb590d22d86e597d7485d7af238
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: 데이터 손실 방지 정책 설정 관리 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: e963cf85fee887b6e91c6e54b00aaa9e5174e3b6
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702911"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927961"
 ---
 # <a name="prevent-data-loss-with-dlp"></a>DLP로 데이터 손실 방지
 
@@ -37,7 +38,7 @@ ms.locfileid: "49702911"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. 시작하려면 관리 센터로 [](https://admin.microsoft.com)이동하여 설치를 **선택합니다.**
+1. 시작하려면 관리 센터로 이동하여 [설치를](https://admin.microsoft.com) **선택합니다.**
 1. 아래로 스크롤하여 데이터 손실 방지를 **설정한** 다음 **보기를** 선택한 다음 **관리합니다.**
 1. 정책을 편집하려면 정책을 선택하고 정책 편집을 **선택한** 다음 변경할 대상을 선택합니다. 예를 들어 위치를 **선택하여** 검색할 대상을 변경합니다.
 1. Microsoft Teams에서 콘텐츠 검색을 사용하도록 설정하려면 토글 스위치를 **위치로 전환한** 다음 저장을 **선택합니다.**

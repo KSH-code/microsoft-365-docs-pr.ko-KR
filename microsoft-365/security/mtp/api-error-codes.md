@@ -1,9 +1,9 @@
 ---
 title: 일반적인 Microsoft 365 Defender REST API 오류 코드
-description: 일반적인 Microsoft 365 Defender REST API 오류 코드에 대해 자세히
+description: 일반적인 Microsoft 365 Defender REST API 오류 코드에 대해 자세히 알아보기
 keywords: api, 오류, 코드, 일반적인 오류, mtp, api 오류 코드
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 0df741efb7555d587a6033acc23716e93f542d5e
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 15eabc8ff28e7cc0313e2a1cb701403de0eab120
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719217"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928393"
 ---
 # <a name="common-microsoft-365-defender-rest-api-error-codes"></a>일반적인 Microsoft 365 Defender REST API 오류 코드
 
@@ -88,7 +89,7 @@ InternalServerError | 내부 서버 오류(500) | *참고: 오류 메시지가 �
 ## <a name="body-parameters"></a>본문 매개 변수
 
 > [!IMPORTANT]
-> 본문 매개 변수는 대소문자 구분입니다.
+> 본문 매개 변수는 대소문자 구분됩니다.
 
 *InvalidRequestBody* 또는 *MissingRequiredParameter* 오류가 발생하는 경우 오타로 인해 발생할 수 있습니다. API 설명서를 검토하고 제출된 매개 변수가 관련 예제와 일치하는지 검토합니다.
 

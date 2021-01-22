@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Microsoft Teams에서 채팅을 시작하고 고정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 9cc3c3b3cc287955a733a20047a0dd8973ef644a
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 22a24a533f4d3627ac66ab8e0472071ff88eb516
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703127"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927817"
 ---
 # <a name="chat-with-employees-and-customers"></a>직원 및 고객과 채팅
 

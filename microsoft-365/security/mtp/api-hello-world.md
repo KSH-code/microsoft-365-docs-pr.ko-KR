@@ -1,9 +1,9 @@
 ---
 title: Microsoft 365 Defender REST API용 Hello World
-description: 앱을 만들고 토큰을 사용하여 Microsoft 365 Defender API에 액세스하는 방법을 배우기
+description: 앱을 만들고 토큰을 사용하여 Microsoft 365 Defender API에 액세스하는 방법을 학습
 keywords: 앱, 토큰, 액세스, aad, 앱, 응용 프로그램 등록, powershell, 스크립트, 전역 관리자, 권한, Microsoft 365 defender
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b36a6acca5880a455a66b03b5355cdf1fb85b29b
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 66afa27d0fa7a092d3f9e9ed6c3b6abc6020cb8d
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719313"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928381"
 ---
 # <a name="hello-world-for-microsoft-365-defender-rest-api"></a>Microsoft 365 Defender REST API용 Hello World
 
@@ -57,7 +58,7 @@ ms.locfileid: "49719313"
    > *Microsoft Threat Protection은* Microsoft 365 Defender의 이전 이름으로, 원래 목록에는 나타나지 않습니다. 표시하려면 텍스트 상자에 해당 이름을 쓰기 시작해야 합니다.
    ![API 권한 선택 이미지](../../media/apis-in-my-org-tab.PNG)
 
-   - 응용 **프로그램 권한 인시던트.Read.All을** 선택하고 사용 권한  >   **추가를 선택합니다.**
+   - 응용 **프로그램 권한 인시던트**  >  **선택.Read.All** 및 사용 권한 **추가를 선택합니다.**
 
    ![API 액세스 및 API 선택 이미지](../../media/request-api-permissions.PNG)
 
@@ -65,7 +66,7 @@ ms.locfileid: "49719313"
 
     ![권한 부여 이미지](../../media/grant-consent.PNG)
 
-6. 응용 프로그램에 비밀을 추가합니다. 인증서를 **선택하고**& 설명을 추가한 다음 추가를 **선택합니다.**
+6. 응용 프로그램에 비밀을 추가합니다. 인증서를 **선택하고 &** 설명을 추가한 다음 추가를 **선택합니다.**
 
     > [!TIP]
     > 추가를 **선택한 후** 생성된 **비밀 값 복사를 선택합니다.** 나가면 비밀 값을 검색할 수 없습니다.
@@ -114,7 +115,7 @@ Azure Active Directory 토큰에 대한 자세한 내용은 [Azure AD 자습서�
 1. 받은 토큰을 [복사하여 JWT에](https://jwt.ms) 붙여넣어 디코드합니다.
 1. *JWT는* *JSON 웹 토큰을 지니는 것입니다.* 디코딩된 토큰에는 다양한 JSON 형식의 항목 또는 클레임이 포함되어 있습니다. 디코딩된  토큰 내의 역할 클레임에 원하는 사용 권한이 포함되어 있는지 확인
 
-    다음 이미지에서는 , 및 권한을 사용하여 앱에서 획득한 디코딩된 ```Incidents.Read.All``` ```Incidents.ReadWrite.All``` 토큰을 ```AdvancedHunting.Read.All``` 볼 수 있습니다.
+    다음 이미지에서는 앱에 획득한 디코딩된 토큰과 , 및 사용 권한을 볼 ```Incidents.Read.All``` ```Incidents.ReadWrite.All``` 수 ```AdvancedHunting.Read.All``` 있습니다.
 
     ![이미지 jwt.ms](../../media/api-jwt-ms.png)
 

@@ -16,23 +16,24 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Microsoft 365를 통해 어디에서나 작업할 수 있는 방법에 대한 개요입니다.
-ms.openlocfilehash: 07e3625b90e17a516311241a2bd6365e46e24d86
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 55327fff51b67107aab7069c0036e8ded9b73cbb
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702812"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927781"
 ---
 # <a name="work-from-anywhere---overview"></a>어디서나 작업 - 개요
 
 책상에서 멀어지나요? 더 이상 노트북 배터리가 없는가요? 문제 없습니다! 휴대폰 또는 태블릿에서 Office를 사용하여 어디에서나 작업을 처리합니다.
 
-**Pro 팁:** 개인 장치에서 작업 앱에 대한 알림을 해제하여 작업 수명 균형을 체크 인합니다.
+**Pro 팁:** 개인 디바이스에서 작업 앱에 대한 알림을 해제하여 작업 수명 균형을 체크 인합니다.
 
 아래 네 가지 팁을 사용하여 어디서나 작업할 수 있습니다. [PDF,](https://go.microsoft.com/fwlink/?linkid=2079451) [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079455) 등 어디에서나 작업하기 위한 팁을 얻을 수 있는 정보 그래픽 다운로드
 
@@ -68,7 +69,7 @@ OneDrive에 개인 파일을 저장하고 휴대폰에서 동기화할 수 있�
 
 ### <a name="work-on-your-phone-or-tablet"></a>휴대폰 또는 태블릿 작업
 
-휴대폰 또는 태블릿에 Office 앱을 설치하고 어디서나 작업합니다. 앱을 다운로드한 다음 시작하고 로그인하고 계정을 설정합니다.
+휴대폰 또는 태블릿에 Office 앱을 설치하고 어디에서든지 작업할 수 있습니다. 앱을 다운로드한 다음 시작하고 로그인하고 계정을 설정합니다.
 
 Office 앱 설치에 대한 자세한 내용은 [Android](https://support.microsoft.com/office/647909af-560f-4977-ae45-3b45ad9e8236)  |  [iOS를 통해 자세히 알아보실 수 있습니다.](https://support.microsoft.com/office/d1ad9f23-0fa3-4cf1-bf26-ff35336fd343)
 
@@ -97,7 +98,7 @@ Office 앱 설치에 대한 자세한 내용은 [Android](https://support.micros
 
 ### <a name="join-online-meetings-remotely"></a>원격으로 온라인 모임에 참가
 
-노트북에서:
+랩톱에서:
 
 - Microsoft Teams에서  앱 왼쪽에 있는 모임 단추를 클릭하면 주간의 모든 모임 :::image type="icon" source="../media/meetings-icon.png" border="false"::: 목록이 표시됩니다. 원하는 모임을 찾은 다음 참가를 클릭합니다.
 
@@ -105,4 +106,4 @@ Office 앱 설치에 대한 자세한 내용은 [Android](https://support.micros
 
 - 모임 전과 모임 중에 채팅 목록 또는 Microsoft Teams의 채널 대화에 모임 알림이 표시됩니다.
 
-    해당 모임 알림 또는 모임 일정에서 **참가할** 수 :::image type="icon" source="../media/meetings-icon.png" border="false"::: 있습니다.
+    모임 알림 또는 모임 일정에서 **참가할** 수 :::image type="icon" source="../media/meetings-icon.png" border="false"::: 있습니다.

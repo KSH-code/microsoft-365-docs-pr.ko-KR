@@ -3,7 +3,7 @@ title: 인시던트 업데이트 API
 description: Microsoft 365 Defender API를 사용하여 인시던트 업데이트 방법 학습
 keywords: 업데이트, api, 인시던트
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 6fc1ff730994f03aa500ad9a4559b66970e32d87
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 18be4565c2611457d0f5fdc135f99a301bb39e2a
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719407"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929073"
 ---
 # <a name="update-incidents-api"></a>인시던트 업데이트 API
 
@@ -50,7 +51,7 @@ ms.locfileid: "49719407"
 
 ## <a name="permissions"></a>권한
 
-이 API를 호출하려면 다음 권한 중 하나를 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Microsoft 365 Defender API](api-access.md)액세스를 참조합니다.
+이 API를 호출하려면 다음 권한 중 하나를 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Microsoft 365 Defender API 액세스를 참조합니다.](api-access.md)
 
 사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 -|-|-
@@ -89,7 +90,7 @@ tags | string List | 인시던트 태그 목록입니다.
 
 성공하면 이 메서드는 `200 OK` 를 반환합니다. 응답 본문에는 업데이트된 속성이 포함된 인시던트 엔터티가 포함되어 있습니다. 지정한 ID의 인시던트가 발견되지 않으면 메서드에서 `404 Not Found` 를 반환합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

@@ -1,10 +1,10 @@
 ---
-title: Microsoft 365 Defender 평가
+title: Microsoft 365 Defender 계산
 description: Microsoft 365 Defender 평가판 랩 또는 파일럿 환경을 설정하여 조직의 장치, ID, 데이터 및 응용 프로그램을 보호하도록 설계된 보안 솔루션을 체험해 보아야 합니다.
 keywords: Microsoft 위협 방지 평가판, Microsoft Threat Protection 평가, Microsoft Threat Protection 평가, Microsoft Threat Protection 평가 랩, Microsoft Threat Protection 파일럿, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -20,12 +20,13 @@ ms.collection:
 - m365solution-overview
 - m365solution-evalutatemtp
 ms.topic: conceptual
-ms.openlocfilehash: 8504b036203e1f73dc9e0a0d79a228425fb88bfa
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: m365d
+ms.openlocfilehash: 6735817a71f9fb50843acad3a13596ec247aa407
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659636"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930213"
 ---
 # <a name="create-a-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 만들기 
 
@@ -64,7 +65,7 @@ Microsoft 365 Defender 평가판 랩 환경을 만드는 세 가지 단계가 �
 |:-------|:-----|
 |[1단계: 준비](prepare-mtpeval.md)| 평가판 랩 또는 파일럿 환경에서 Microsoft 365 Defender를 배포할 때 고려해야 할 사항에 대해 자세히 알아보습니다. <br><br>- 이해 관계자 및 사인오프 <br> - 환경 고려 사항 <br>- Access <br>- Azure Active Directory 설정 <br> - 구성 순서
 |[2단계: 설정](setup-mtpeval.md)|  Microsoft 365 보안 센터에 액세스하여 Microsoft 365 Defender 평가판 랩 또는 파일럿 환경을 설정하는 초기 단계를 수행합니다. 다음을 안내합니다.<br><br>- Microsoft 365 E5 평가판 등록 <br>  - 도메인 구성<br>- Microsoft 365 E5 라이선스 할당<br>- 포털에서 설정 마법사 완료|
-|[3단계: 온보드 & 구성](config-mtpeval.md) | 각 Microsoft 365 Defender 기조 및 끝점을 구성합니다. 다음을 안내합니다.<br><br>- Office 365용 Microsoft Defender 구성<br>- Microsoft Cloud App Security 구성<br>- Id에 대한 Microsoft Defender 구성<br>- 끝점용 Microsoft Defender 구성
+|[3단계: 온보드 & 구성](config-mtpeval.md) | 각 Microsoft 365 Defender 기조 및 끝점을 구성합니다. 다음을 안내합니다.<br><br>- Office 365용 Microsoft Defender 구성<br>- Microsoft Cloud App Security 구성<br>- Id에 맞게 Microsoft Defender 구성<br>- 끝점용 Microsoft Defender 구성
 
 
 이 가이드를 완료한 후 관련 이해 관계자와 필요한 승인을 식별하고, 올바른 액세스 권한을 가지며, 평가판에 등록하고, 도메인을 구성하고, 각 Microsoft 365 Defender 기조를 구성하고, 끝점이 서비스에 등록됩니다.

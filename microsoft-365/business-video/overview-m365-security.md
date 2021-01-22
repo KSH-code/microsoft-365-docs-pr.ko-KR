@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 비즈니스용 Microsoft 365에 포함된 보안 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: b32c99946db0257490283b493d104d0d11c9ec8e
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 72ed57d0f6392d7475f11aebb9da700e6aef78ae
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702699"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928141"
 ---
 # <a name="overview-of-security"></a>보안 개요
 
@@ -58,7 +59,7 @@ Exchange Online Archiving Microsoft Exchange 또는 Exchange Online과 함께 �
 
 ## <a name="device-management"></a>디바이스 관리
 
-Microsoft 365 Business Premium 고급 장치 관리 기능을 사용하면 등록된 장치에서 사용자가 할 수 있는 작업을 모니터링하고 제어할 수 있습니다. 이러한 기능에는 조건부 액세스, MDM(모바일 장치 관리), BitLocker 및 자동 업데이트가 포함됩니다.
+Microsoft 365 Business Premium 고급 장치 관리 기능을 사용하면 사용자가 등록된 디바이스로 할 수 있는 작업을 모니터링하고 제어할 수 있습니다. 이러한 기능에는 조건부 액세스, MDM(모바일 장치 관리), BitLocker 및 자동 업데이트가 포함됩니다.
 
 조건부 액세스 정책을 사용하여 특정 사용자 및 작업에 대한 추가 보안 조치를 요구할 수 있습니다. 예를 들어 MFA(다단계 인증)를 요구하거나 조건부 액세스를 지원하지 않는 클라이언트를 차단할 수 있습니다.
 

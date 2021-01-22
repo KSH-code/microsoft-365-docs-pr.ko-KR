@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 구독에 다른 도메인을 추가하는 방법을 학습합니다.
-ms.openlocfilehash: 16f6c4e416ede560d69014e320eb32c4453fd3f5
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: a5df440f3b7e28c2bdbc69f9383a8399ef193ed0
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702789"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927613"
 ---
 # <a name="add-another-domain"></a>다른 도메인 추가
 
@@ -37,14 +38,14 @@ ms.locfileid: "49702789"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. Microsoft 365 관리 센터에서 설치를 **선택하세요.**
+1. Microsoft 365 관리 센터에서 설치를 **선택 합니다.**
 1. 사용자 **지정 도메인 설정 아래에서** 보기를 **선택합니다.**
-1. Choose **Manage**, and then **Add domain.**
+1. Choose **Manage,** and then **Add domain.**
 1. 추가할 새 도메인 이름을 입력하고 다음을 **선택합니다.**
 1. 도메인 등록 기관에 로그인합니다( 이 경우 GoDaddy) 다음을 **선택합니다.**
 1. 메시지가 표시될 경우 등록 기관에 로그인한 다음 **승인을 선택하세요.**
 1. Choose **Add the DNS records for me,** and then select **Next.**
-1. 새 도메인에 대한 서비스를 선택하고 다른 도메인에서 처리할 서비스의 확인란 선택을 취소합니다. 예를 들어 전자 메일에 새 도메인을 사용하려는 경우 **Exchange를** 선택하고 비즈니스용 **Skype** 및 **Office 365용** 모바일 장치 관리의 확인란 선택을 취소합니다.
+1. 새 도메인에 대한 서비스를 선택하고 다른 도메인에서 처리할 서비스의 확인란 선택을 취소합니다. 예를 들어 전자 메일에 새 도메인을 사용하려는 경우 **Exchange를** 선택하고 비즈니스용 **Skype** 및 **Office 365용** 모바일 장치 관리 확인란의 선택을 취소합니다.
 1. **다음,** **승인,** **다음,** 마친 **다음을 선택합니다.** 새 도메인이 추가되었습니다.
 
 새 도메인에서 전자 메일을 받으하려면 각 사용자에 대해 새 전자 메일 별칭을 추가해야 합니다.

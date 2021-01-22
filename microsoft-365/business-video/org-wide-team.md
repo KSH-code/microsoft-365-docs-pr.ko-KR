@@ -1,5 +1,5 @@
 ---
-title: 전체 팀 만들기
+title: 조직 전체 팀 만들기
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,19 +16,20 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Microsoft Teams에서 전체 팀을 만드는 방법을 배워야 합니다.
-ms.openlocfilehash: 900b5e39bd8d42c9c80b5307e224f9a59c67eb6a
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 5df4ebce8e80babd8bd3e70004829c997a127a55
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702489"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928177"
 ---
-# <a name="create-an-org-wide-team"></a>전체 팀 만들기
+# <a name="create-an-org-wide-team"></a>조직 전체 팀 만들기
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2GCG9?autoplay=false]
 
