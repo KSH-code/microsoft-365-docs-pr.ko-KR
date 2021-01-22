@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Microsoft 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: d2c5b4f67d93500f7341463a01313271d182dc38
-ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
+ms.openlocfilehash: 4ec7690e5300b2ac08a98fbec3f4c253e970738c
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611352"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921173"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -86,7 +86,9 @@ ms.locfileid: "49611352"
 
 구독에 따라 사용 가능한 보고서는 다음과 같습니다.
   
-- [이메일 활동](email-activity.md)
+- [이메일 활동](email-activity-ww.md)
+
+- [미국 정부 기관용 전자 메일 활동](email-activity.md)
     
 - [사서함 사용 현황](mailbox-usage.md)
     
@@ -98,7 +100,9 @@ ms.locfileid: "49611352"
 
 - [미국 정부 기관용 활성 사용자](active-users.md)
   
-- [이메일 앱 사용 현황](email-apps-usage.md)
+- [이메일 앱 사용 현황](email-apps-usage-ww.md)
+
+- [미국 정부용 전자 메일 앱 사용](email-apps-usage.md)
 
 - [양식 활동](forms-activity-ww.md)
 

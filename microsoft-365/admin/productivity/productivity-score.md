@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 생산성 점수 개요.
-ms.openlocfilehash: e052d1189379bb00a05b574e6568e9e718285d50
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 8ba1ceb57cd322a67e7b154700a8ac90c62f5ef0
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688334"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921245"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft 생산성 점수 
 
@@ -87,6 +87,9 @@ Microsoft는 두 가지 영역에서 메트릭, 인사이트 및 권장 사항�
 - Teams 관리자 
 - 전역 읽기 권한자 
 - 보고서 읽기 권한자 
+
+> [!NOTE]
+> 전역 관리자 역할이 있는 IT 전문가만 생산성 점수를 위해 테넌트에 등록하거나 옵트인할 수 있습니다.
 
 이 정보는 Microsoft 365를 사용한 디지털 변환을 위한 용도로만 사용되므로 신중하게 공유해야 합니다. 
 

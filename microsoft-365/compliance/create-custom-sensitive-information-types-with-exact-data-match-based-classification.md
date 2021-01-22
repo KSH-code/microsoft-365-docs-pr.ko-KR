@@ -17,16 +17,16 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68546f7ad9f4b97f43611d49054200db4fdd4bbd
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: f9b905e73fe471cc034eae42726a5a86d91a359a
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698399"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928822"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
-[사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md)은 중요한 항목을 식별하는 데 도움을 주어 해당 항목이 실수로 또는 부적절하게 공유되는 것을 방지하도록 돕습니다. 다음을 기반으로 사용자 지정 중요한 정보 유형을 정의합니다.
+[사용자 지정 중요한 정보 유형](sensitive-information-type-learn-about.md)은 중요한 항목을 식별하는 데 도움을 주어 해당 항목이 실수로 또는 부적절하게 공유되는 것을 방지할 수 있습니다. 다음을 기반으로 사용자 지정 중요한 정보 유형을 정의합니다.
 
 - 패턴
 - *직원*, *배지* 또는 *ID* 와 같은 키워드 증명 정보
@@ -649,7 +649,7 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 ## <a name="related-articles"></a>관련 문서
 
 - [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
-- [사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md)
+- [중요한 정보 유형에 대해 자세히 알아보기](sensitive-information-type-learn-about.md)
 - [DLP 정책 개요](data-loss-prevention-policies.md)
 - [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
 - [New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema)

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 기본 수준의 보호로 팀을 배포하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 16f37175c3aa7b420745e6126de1aa96368d618a
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 11554dbd7e33a77c9f6397ae9c5e91669f537081
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613445"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921873"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>기본 보호 기능으로 팀 구성
 
@@ -87,7 +87,7 @@ Office 365 그룹 ​​및 SharePoint에서는 게스트 공유가 기본적으
 1. 팀의 도구 막대에서 **파일** 을 클릭합니다.
 2. **SharePoint에서 열기** 를 클릭하세요.
 3. SharePoint 사이트의 도구 모음에서 설정 아이콘을 클릭한 다음 **사이트 권한** 을 클릭하세요.
-4. **사이트 권한** 창의 **공유 설정** 에서 **공유 설정 변경** 을 클릭하세요.
+4. **사이트 권한** 창의 **사이트 공유에** 서 **멤버 공유 방법 변경** 을 클릭하세요.
 5. **권한 공유** 에서 **사이트 소유자 및 회원을 선택하고 편집 권한이 있는 사용자는 파일 및 폴더를 공유할 수 있지만 사이트 소유자 만 사이트를 공유할 수 있습니다** 를 선택한 다음 **저장** 을 클릭합니다.
 
 ## <a name="additional-protections"></a>추가 보호

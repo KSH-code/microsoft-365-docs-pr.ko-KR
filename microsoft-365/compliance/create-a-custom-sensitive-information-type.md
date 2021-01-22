@@ -1,5 +1,5 @@
 ---
-title: 보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
+title: 사용자 지정 중요한 정보 유형 시작하기
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -17,174 +17,117 @@ search.appverid:
 - MET150
 description: 보안 및 준수 센터의 그래픽 사용자 인터페이스에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정, 제거 및 테스트하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59d16ed662ff1b577bbb6c8388c5d27836832c1f
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 94f0f6b68e9f952e0d52ce7cb71ccf03913584f4
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681724"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929354"
 ---
-<!-- rename md file to match the display name -->
-# <a name="create-a-custom-sensitive-information-type-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
+# <a name="get-started-with-custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형 시작하기
 
-이 문서를 읽고 보안 및 규정 준수 센터([https://protection.office.com](https://protection.office.com))에서 사용자 지정에 중요한 정보 유형을 생성합니다. 이 방법으로 만드는 사용자 지정 중요한 정보 유형은 이름이 `Microsoft.SCCManaged.CustomRulePack`인 규칙 패키지에 추가됩니다.
+미리 구성된 중요한 정보 유형이 요구 사항을 충족하지 않는 경우 사용자가 완전히 정의하는 고유 사용자 지정 중요한 정보 유형을 만들거나 미리 구성된 정보 유형을 복사하여 수정할 수 있습니다.
+
+이 방법으로 만드는 사용자 지정 중요한 정보 유형은 이름이 `Microsoft.SCCManaged.CustomRulePack`인 규칙 패키지에 추가됩니다.
+
+새로운 중요한 정보 유형을 만드는 방법에는 두 가지가 있습니다.
+
+- [처음부터 사용자가 모든 요소를 완전히 정의하기](#create-a-custom-sensitive-information-type)
+- [기존 중요한 정보 유형을 복사하여 수정하기](#copy-and-modify-a-sensitive-information-type)
+
+
+## <a name="before-you-begin"></a>시작하기 전에
+
+- 중요한 정보 유형과 해당 유형이 무엇으로 구성되어 있는지 잘 알고 있어야 합니다. [중요한 정보 유형에 대해 자세히 알아보기](sensitive-information-type-learn-about.md)를 참조하세요. 다음의 역할을 이해하는 것이 중요합니다.
+    - [정규식](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/) - Microsoft 365 중요한 정보 유형에서는 Boost.RegEx 5.1.3 엔진을 사용합니다.
+    - 키워드 목록 - 중요한 정보 유형을 정의할 때 직접 만들거나 기존 키워드 목록에서 선택할 수 있습니다.
+    - [키워드 사전](create-a-keyword-dictionary.md)
+    - [함수](what-the-dlp-functions-look-for.md)
+    - [신뢰 수준](sensitive-information-type-learn-about.md#more-on-confidence-levels)
+ 
+- 사용자 지정 정보 유형을 UI를 통해 작성하고, 테스트하고 배포하려면 전역 관리자 또는 준수 관리자 권한이 있어야 합니다. Office 365에서 [관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide)를 참조하세요.
+
+- 조직에 DLP(데이터 손실 방지)를 포함하는 구독(예: Office 365 Enterprise)이 있어야 합니다. [메시징 정책 및 규정 준수 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/messaging-policy-and-compliance-servicedesc)을 참조하세요. 
+
+
+> [!IMPORTANT]
+> Microsoft 고객 서비스 및 지원은 사용자 지정 분류 또는 정규식 패턴 만들기를 지원할 수 없습니다. 지원 엔지니어는 테스트 목적으로 샘플 정규식 패턴 제공 또는 예상대로 트리거되지 않는 기존 정규식 패턴 문제 해결 지원과 같은 기능을 제한적으로 지원할 수 있습니다. 그러나 사용자 지정 콘텐츠 일치 개발이 귀하의 요구 사항이나 의무를 충족할 것이라고 확신할 수는 없습니다.
+
+## <a name="create-a-custom-sensitive-information-type"></a>사용자 지정 중요한 정보 유형 만들기
+
+이 절차를 사용하여 사용자가 완전히 정의하는 중요한 정보 유형을 새로 만들 수 있습니다. 
+
+1. 규정 준수 센터에서 **데이터 분류** \> **중요한 정보 유형** 으로 이동하여 **정보 유형 만들기** 를 선택합니다.
+2. **이름** 및 **설명** 값을 입력하고 **다음** 을 선택합니다.
+3. **패턴 만들기** 를 선택합니다. 새 중요한 정보 유형을 정의할 때 각각 서로 다른 요소와 신뢰 수준이 있는 여러 개의 패턴을 만들 수 있습니다.
+4. 패턴의 기본 신뢰 수준을 선택합니다. 값에는 **낮은 신뢰 신뢰도**, **보통 신뢰도** 및 **높은 신뢰도** 가 있습니다.
+5. **기본 요소** 를 선택하고 정의합니다. 기본 요소는 선택적 유효성 검사기가 있는 **정규식**, **키워드 목록**, **키워드 사전** 또는 미리 구성된 **함수** 중 하나가 될 수 있습니다. DLP 함수에 대한 자세한 내용은 [DLP 함수가 찾는 항목](what-the-dlp-functions-look-for.md)을 참조하세요.
+6. **문자 근접성** 값을 입력합니다.
+7. (선택 사항) 있는 경우 지원 요소를 추가합니다. 지원 요소는 선택적 유효성 검사기가 있는 정규식, 키워드 목록, 키워드 사전 또는 미리 정의된 함수 중 하나가 될 수 있습니다. 
+8.  (선택 사항) 사용 가능한 검사 목록에서 추가 검사를 추가합니다.
+9. **만들기** 를 선택합니다.
+10. **다음** 을 선택합니다.
+11. 이 중요한 정보 유형에 대한 **권장 신뢰 수준** 을 선택합니다.
+12. 설정을 확인하고 **제출** 을 선택합니다.
+
+> [!IMPORTANT]
+> Microsoft 365는 SharePoint Online 및 비즈니스용 OneDrive 사이트에서 중요한 정보를 식별하고 분류하기 위해 검색 크롤러를 사용합니다. 기존 콘텐츠에서 새로운 사용자 지정 중요한 정보 유형을 식별하려면 해당 콘텐츠에 대한 크롤링을 다시 수행해야 합니다. 콘텐츠는 일정을 기반으로 크롤링되지만 사이트 모음, 목록 또는 라이브러리의 콘텐츠를 수동으로 다시 크롤링할 수 있습니다. 자세한 내용은 [사이트, 라이브러리 또는 목록을 크롤링 및 다시 인덱싱하도록 수동으로 요청](https://docs.microsoft.com/sharepoint/crawl-site-content)을 참조하세요.
+
+13. **데이터 분류** 페이지에 모든 중요한 정보 유형이 나열됩니다. **새로 고침** 을 선택한 다음 검색 도구를 찾아보거나 사용하여 방금 만든 중요한 정보 유형을 찾을 수 있습니다.
+
+## <a name="test-a-sensitive-information-type"></a>중요한 정보 유형 테스트
+
+목록에서 중요한 정보 유형을 테스트할 수 있습니다. 정책에서 중요한 정보 유형을 사용하기 전에 만든 모든 중요한 정보 유형을 테스트할 것을 권장합니다.
+
+1. Word 문서와 같은 두 개의 파일을 준비합니다. 하나는 중요한 정보 유형에서 지정한 요소와 일치하는 콘텐츠가 있는 파일이고 하나는 일치하지 않는 파일입니다.
+2. 규정 준수 센터에서 **데이터 분류** \> **중요한 정보 유형** 으로 이동하고 목록에서 중요한 정보 유형을 선택하여 세부 정보 창을 열고 **테스트** 를 선택합니다.
+3. 파일을 업로드하고 **테스트** 를 선택합니다.
+4. **결과 일치** 페이지에서 결과를 검토한 다음 **마침** 을 선택합니다.
+
+## <a name="modify-custom-sensitive-information-types-in-the-compliance-center"></a>규정 준수 센터에서 사용자 지정 중요한 정보 유형 수정하기
+
+1. 규정 준수 센터에서 **데이터 분류** \> **중요한 정보 유형** 으로 이동하고 목록에서 수정하려는 사용자 지정 중요한 정보 유형을 선택하고 **편집** 을 선택합니다.
+2. 고유한 기본 및 지원 요소, 신뢰 수준, 문자 근접성 및 추가 확인으로 다른 패턴을 추가하거나 기존 패턴을 편집/제거할 수 있습니다. 자세한 내용은 [사용자 지정 중요한 정보 유형 만들기](#create-a-custom-sensitive-information-type)를 참조하세요.
+
+## <a name="remove-custom-sensitive-information-types-in-the-compliance-center"></a>규정 준수 센터에서 사용자 지정 중요한 정보 유형 제거하기 
+
+> [!NOTE]
+> 사용자 지정 중요한 정보 유형만 제거할 수 있습니다. 기본 제공 중요한 정보 유형은 제거할 수 없습니다.
+
+> [!IMPORTANT]
+> 사용자 지정 중요한 정보 유형을 제거하기 전에 DLP 정책이나 Exchange 메일 흐름 규칙(전송 규칙이라고도 함)이 중요한 정보 유형을 계속 참조하지 않는 것을 확인합니다.
+
+1. 규정 준수 센터에서 **데이터 분류** \> **중요한 정보 유형** 으로 이동하고 목록에서 제거하려는 사용자 지정 중요한 정보 유형을 선택합니다.
+2. 열리는 플라이아웃에서 **삭제** 를 선택합니다.
+
+## <a name="copy-and-modify-a-sensitive-information-type"></a>중요한 정보 유형을 복사하여 수정하기
+
+기존 중요한 정보 유형을 기반으로 하는 새 중요한 정보 유형을 만들기 위해 이 절차를 사용합니다. 
+
+1. 규정 준수 센터에서 **데이터 분류** \> **중요한 정보 유형** 으로 이동하고 복사하려는 사용자 지정 중요한 정보 유형을 선택합니다.
+2. 플라이아웃에서 **복사** 를 선택합니다.
+3. 중요한 정보 유형 목록에서 **새로 고침** 을 선택하고 방금 만든 복사본을 찾아보거나 검색합니다. 부분 문자열 검색이 작동하므로 `copy`을(를) 검색하면 이름에 `copy` 단어를 포함하는 모든 중요한 정보 유형이 반환됩니다. 
+4. **이름** 및 **설명** 값을 입력하고 **다음** 을 선택합니다.
+5. 중요한 정보 유형 복사본을 선택하고 **편집** 을 선택합니다. 
+6. 새 중요한 정보 유형에 새 **이름** 을 입력하고 **설명** 을 입력합니다.
+7. 기존 패턴을 편집하거나 제거하고 새 패턴을 추가할 수 있습니다. 새 패턴의 기본 신뢰 수준을 선택합니다. 값에는 **낮은 신뢰 신뢰도**, **보통 신뢰도** 및 **높은 신뢰도** 가 있습니다.
+8. **기본 요소** 를 선택하고 정의합니다. 기본 요소는 **정규식**, **키워드 목록**, **키워드 사전** 또는 미리 구성된 **함수** 중 하나가 될 수 있습니다. [DLP 함수가 찾는 항목](what-the-dlp-functions-look-for.md)을 참조하세요.
+9. **문자 근접성** 값을 입력합니다.
+10. (선택 사항) **지원 요소** 또는 **추가 검사** 가 있는 경우 추가합니다. 필요한 경우 **지원 요소** 를 그룹화할 수 있습니다.
+11. **만들기** 를 선택합니다.
+12. **다음** 을 선택합니다.
+13. 이 중요한 정보 유형에 대한 **권장 신뢰 수준** 을 선택합니다.
+14. 설정을 확인하고 **제출** 을 선택합니다.
 
 PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지정 중요한 정보 유형을 만들 수도 있습니다. 해당 방법에 대한 자세한 내용은 다음을 참조하세요.
 - [보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 - [정확한 데이터 매치(EDM)를 사용하여 DLP를 위한 사용자 지정 중요한 정보 유형 만들기](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
-
+ 
 > [!NOTE]
-> Microsoft 365 Information Protection은 이제 다음에 대해 미리보기 더블 바이트 문자 집합 언어를 지원합니다.
+> Microsoft 365 Information Protection은 다음에 대해 미리 보기 더블 바이트 문자 집합 언어를 지원합니다.
 > - 중국어(간체)
 > - 중국어(번체)
 > - 한국어
 > - 일본어
 >
 >이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다. 자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.
-
-## <a name="before-you-begin"></a>시작하기 전에
-
-> [!NOTE]
-> 사용자 지정 정보 유형을 UI를 통해 작성하고, 테스트하고 배포하려면 전역 관리자 또는 준수 관리자 권한이 있어야 합니다. Office 365에서 [관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide)를 참조하세요.
-
-- 조직에 DLP(데이터 손실 방지)를 포함하는 구독(예: Office 365 Enterprise)이 있어야 합니다. [메시징 정책 및 규정 준수 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/messaging-policy-and-compliance-servicedesc)을 참조하세요. 
-
-- 사용자 지정 중요한 정보 유형을 위해서는 정규식(RegEx)을 잘 알고 있어야 합니다. 텍스트 처리에 사용되는 Boost.RegEx(이전에는 RegEx++라고 함) 엔진에 대한 자세한 내용은 [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/)을 참조하세요.
-
-  Microsoft 고객 서비스 및 지원은 사용자 지정 분류 또는 정규식 패턴 만들기를 지원할 수 없습니다. 지원 엔지니어는 테스트 목적으로 샘플 정규식 패턴 제공 또는 예상대로 트리거되지 않는 기존 정규식 패턴 문제 해결 지원과 같은 기능을 제한적으로 지원할 수 있습니다. 그러나 사용자 지정 콘텐츠 일치 개발이 귀하의 요구 사항이나 의무를 충족할 것이라고 확신할 수는 없습니다.
-
-- DLP는 SharePoint Online 및 비즈니스용 OneDrive 사이트에서 중요한 정보를 식별하고 분류하기 위해 검색 크롤러를 사용합니다. 기존 콘텐츠에서 새로운 사용자 지정 중요한 정보 유형을 식별하려면 해당 콘텐츠에 대한 크롤링을 다시 수행해야 합니다. 콘텐츠는 일정을 기반으로 크롤링되지만 사이트 모음, 목록 또는 라이브러리의 콘텐츠를 수동으로 다시 크롤링할 수 있습니다. 자세한 내용은 [사이트, 라이브러리 또는 목록을 크롤링 및 다시 인덱싱하도록 수동으로 요청](https://docs.microsoft.com/sharepoint/crawl-site-content)을 참조하세요.
-
-## <a name="create-custom-sensitive-information-types-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
-
-보안 및 준수 센터에서 **분류** \> **중요한 정보 유형**으로 이동한 후 **만들기**를 클릭합니다.
-
-설정은 매우 명확하며 마법사의 연결 페이지에서 설명합니다.
-
-- **이름**
-
-- **설명**
-
-- **근접**
-
-- **신뢰 수준**
-
-- **기본 패턴 요소**(키워드, 정규식 또는 사전)
-
-- 선택 사항인 **지원 패턴 요소**(키워드, 정규식 또는 사전) 및 해당하는 **최소 비용** 값
-
-시나리오는 다음과 같습니다. "직원", "ID" 및 "배지"라는 키워드와 함께 콘텐츠의 9자리 직원 번호를 검색하는 사용자 지정 중요한 정보 유형이 필요합니다. 이 사용자 지정 중요한 정보 유형을 만들려면 다음 단계를 수행하세요.
-
-1. 보안 및 준수 센터에서 **분류** \> **중요한 정보 유형**으로 이동한 후 **만들기**를 클릭합니다.
-
-    ![중요한 정보 유형 및 만들기 단추 위치](../media/scc-cust-sens-info-type-new.png)
-
-2. **이름 및 설명 선택** 페이지가 열리면 다음 값을 입력합니다.
-
-  - **이름**: 직원 ID입니다.
-
-  - **설명**: 9자리 Contoso 직원 ID 번호를 검색합니다.
-
-    ![이름 및 설명 페이지](../media/scc-cust-sens-info-type-new-name-desc.png)
-
-    작업을 마친 후 **다음**을 클릭합니다.
-
-3. **일치 요구 사항** 페이지가 열리면 **요소 추가**를 클릭하고 다음 설정을 구성합니다.
-
-    - **다음이 포함된 콘텐츠 검색**:
- 
-      a. **이 중 하나라도 포함**을 클릭하고 **정규식**을 선택합니다.
-
-      b. 정규식 상자에서 `(\s)(\d{9})(\s)`(앞뒤에 공백이 있는 9자리 숫자) 스트링을 입력합니다.
-  
-    - **지원 요소**: **지원 요소 추가**를 클릭하고 **이 키워드 목록 포함**을 선택합니다.
-
-    - **이 키워드 목록 포함** 영역이 표시되면 다음 설정을 구성합니다.
-
-      - **키워드 목록**: 직원, ID, 배지 값을 입력합니다.
-
-      - **최소 개수**: 기본값 1을 그대로 둡니다.
-
-    - 기본값인 **신뢰 수준** 값 60을 그대로 둡니다. 
-
-    - 기본값인 **문자 근접** 값 300을 그대로 둡니다.
-
-    ![페이지 일치에 대한 요구 사항](../media/scc-cust-sens-info-type-new-reqs.png)
-
-    작업을 마친 후 **다음**을 클릭합니다.
-
-4. **검토 및 완료** 페이지가 열리면 설정을 검토하고 **마침**을 클릭합니다.
-
-    ![검토 및 완료 페이지](../media/scc-cust-sens-info-type-new-review.png)
-
-5. 다음 페이지에서는 **예**를 클릭하여 새로운 사용자 지정 중요한 정보 유형을 테스트할 것을 권장합니다. 자세한 내용은 [보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 테스트](#test-custom-sensitive-information-types-in-the-security--compliance-center)를 참조하세요. 나중에 규칙을 테스트하려면 **아니요**를 클릭합니다.
-
-    ![테스트 권장 사항 페이지](../media/scc-cust-sens-info-type-new-test.png)
-
-### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
-
-새로운 중요한 정보 유형을 성공적으로 만들었는지 확인하려면 다음 단계를 수행합니다.
-
-  - **분류** \> **중요한 정보 유형**으로 이동하고 새로운 사용자 지정 중요한 정보 유형이 나열되어 있는지 확인하세요.
-
-  - 새로운 사용자 지정 중요한 정보 유형을 테스트합니다. 자세한 내용은, [보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 테스트](#test-custom-sensitive-information-types-in-the-security--compliance-center)를 참조하세요.
-
-## <a name="modify-custom-sensitive-information-types-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 수정
-
-**참고:**
-<!-- check to see if this note contradicts the guidance in "customize a built in sensitive information type customize-a-built-in-sensitive-information-type it sure seems like it does-->
-- 사용자 지정 중요한 정보 유형만 수정할 수 있습니다. 기본 제공 중요한 정보 유형은 수정할 수 없습니다. 그러나 PowerShell을 사용하여 기본 제공 사용자 지정 중요한 정보 유형을 내보낸 후 사용자 지정하고 사용자 지정 중요한 정보 유형으로 가져올 수 있습니다. 자세한 내용은 [기본 중요한 정보 유형 사용자 지정](customize-a-built-in-sensitive-information-type.md)을 참조하세요.
-
-- UI에서 만든 사용자 지정 중요한 정보 유형만 수정할 수 있습니다. [PowerShell 프로시저](create-a-custom-sensitive-information-type-in-scc-powershell.md)를 사용하여 사용자 지정 중요한 정보 유형 규칙 패키지를 가져오면 오류가 발생합니다.
-
-보안 및 준수 센터에서 **분류** \> **중요한 정보 유형**으로 이동하고, 수정할 사용자 지정 중요한 정보 유형을 선택한 후 **편집**을 클릭합니다.
-
-  ![중요한 정보 유형 및 편집 단추 위치](../media/scc-cust-sens-info-type-edit.png)
-
-보안 및 준수 센터에서 사용자 지정 중요한 정보 유형을 만들 때와 동일한 옵션을 사용할 수 있습니다. 자세한 내용은 [보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기](#create-custom-sensitive-information-types-in-the-security--compliance-center)를 참조하세요.
-
-### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
-
-수정한 중요한 정보 유형을 성공적으로 만들었는지 확인하려면 다음 단계를 수행합니다.
-
-  - **분류** \> **중요한 정보 유형**으로 이동하고 수정한 사용자 지정 중요한 정보 유형의 속성을 확인합니다. 
-
-  - 수정한 사용자 지정 중요한 정보 유형을 테스트합니다. 자세한 내용은, [보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 테스트](#test-custom-sensitive-information-types-in-the-security--compliance-center)를 참조하세요.
-
-## <a name="remove-custom-sensitive-information-types-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 제거 
-
-**참고**:
-
-- 사용자 지정 중요한 정보 유형만 제거할 수 있습니다. 기본 제공 중요한 정보 유형은 제거할 수 없습니다.
-
-- 사용자 지정 중요한 정보 유형을 제거하기 전에 DLP 정책이나 Exchange 메일 흐름 규칙(전송 규칙이라고도 함)이 중요한 정보 유형을 계속 참조하지 않는 것을 확인합니다.
-
-1. 보안 및 준수 센터에서 **분류** \> **중요한 정보 유형**으로 이동하고, 제거할 사용자 지정 중요한 정보 유형을 한 개 이상 선택합니다.
-
-2. 플라이아웃이 열리면 **삭제**(두 개 이상을 선택한 경우 **중요한 정보 유형 삭제**)를 클릭합니다.
-
-    ![중요한 정보 유형 및 삭제 단추 위치](../media/scc-cust-sens-info-type-delete.png)
-
-3. 나타나는 경고 메시지에서 **예**를 클릭합니다.
-
-### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
-
-사용자 지정 중요한 정보 유형을 성공적으로 삭제했는지 확인하려면 **분류** \> **중요한 정보 유형**으로 이동하여 사용자 지정 중요한 정보 유형이 더 이상 나열되지 않는지 확인합니다.
-
-## <a name="test-custom-sensitive-information-types-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 테스트
-
-1. 보안 및 준수 센터에서 **분류** \> **중요한 정보 유형**으로 이동합니다.
-
-2. 테스트할 하나 이상의 사용자 지정 중요한 정보 유형을 선택합니다. 플라이아웃이 열리면 **유형 테스트**(두 개 이상을 선택한 경우 **중요한 정보 유형 테스트**)를 클릭합니다.
-
-    ![중요한 정보 유형 및 유형 테스트 단추 위치](../media/scc-cust-sens-info-type-test.png)
-
-3. **테스트할 파일 업로드** 페이지가 열리면 파일을 끌어서 놓거나 **찾아보기**를 클릭하고 파일을 선택하여 테스트할 문서를 업로드합니다.
-
-    ![테스트할 파일 업로드 페이지](../media/scc-cust-sens-info-type-test-upload.png)
-
-4. **테스트** 단추를 클릭하여 파일에서 패턴 일치에 대해 문서를 테스트합니다.
-
-5. **결과 일치** 페이지에서 **마침**을 클릭합니다.
-
-    ![결과 일치](../media/scc-cust-sens-info-type-test-results.png)

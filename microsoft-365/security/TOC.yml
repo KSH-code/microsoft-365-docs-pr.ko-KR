@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: 시작하기
+    - name: 시작
       items:
         - name: 재택 근무 지원을 위한 주요 작업
           href: top-security-tasks-for-remote-work.md
@@ -338,7 +338,7 @@
               href: ./office-365-security/office-365-evaluation.md
             - name: Office 365용 Defender의 새로운 기능
               href: office-365-security/whats-new-in-office-365-atp.md
-            - name: 'SharePoint, OneDrive, and Microsoft Teams를 위한 Office 365용 Defender'
+            - name: 'SharePoint, OneDrive 및 Microsoft Teams를 위한 안전한 첨부 파일'
               href: ./office-365-security/atp-for-spo-odb-and-teams.md
             - name: 새로운 Microsoft 365 보안 센터
               href: ./mtp/overview-security-center.md
@@ -400,7 +400,7 @@
               href: ./office-365-security/siem-integration-with-office-365-ti.md
             - name: 기본적으로 보호
               href: ./office-365-security/secure-by-default.md
-            - name: ATP 피싱 방지 정책 구성
+            - name: Office 365용 Defender에서 피싱 방지 정책 구성
               href: ./office-365-security/configure-atp-anti-phishing-policies.md
             - name: 맬웨어 방지 정책 구성
               href: ./office-365-security/configure-anti-malware-policies.md
@@ -436,7 +436,7 @@
               href: ./office-365-security/user-submission.md
             - name: Office 365용 Defender의 사용자 태그
               href: ./office-365-security/user-tags.md
-            - name: 'SharePoint, OneDrive 및 Microsoft Teams에 대해 Office 365용 Defender 켜기'
+            - name: 'SharePoint, OneDrive 및 Microsoft Teams에 대해 안전한 첨부 파일 설정'
               href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: DKIM을 사용하 여 아웃바운드 전자 메일 유효성 검사
               href: ./office-365-security/use-dkim-to-validate-outbound-email.md
@@ -457,7 +457,7 @@
                   href: ./office-365-security/configure-s-mime-settings-for-outlook-web-app.md
                 - name: S/MIME으로 서명 및 암호화된 전자 메일 보내기/받기
                   href: ./office-365-security/send-and-receive-s-mime-signed-and-encrypted-email.md
-                - name: S/MIME용으로 Office 365에 사용자 인증서 동기화
+                - name: S/MIME용 Microsoft 365에 사용자 인증서 동기화
                   href: ./office-365-security/sync-user-certificates-to-office-365-for-s-mime.md
                 - name: S/MIME 유효성 검사를 위한 가상 인증서 컬렉션 설정
                   href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
@@ -501,7 +501,7 @@
               href: ./office-365-security/air-custom-reporting.md
             - name: 고급 스팸 필터 (ASF) 설정
               href: ./office-365-security/advanced-spam-filtering-asf-options.md
-            - name: 테넌트 허용/차단 목록의 URL 관리
+            - name: 테넌트 허용/차단 목록 관리
               href: ./office-365-security/tenant-allow-block-list.md
             - name: 보안 및 준수 센터의 메시지 추적
               href: ./office-365-security/message-trace-scc.md

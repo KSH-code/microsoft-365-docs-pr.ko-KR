@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 매우 중요한 데이터를 보호하는 팀을 배치하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 045f1b1d1ebf03eb70554dc5964acb0a12e0060f
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: 2679a8a0bd8cf5cc3d35d517e8a44921fc4fdbc1
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870854"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921137"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>매우 중요한 데이터를 보호하는 팀 구성하기
 
@@ -153,7 +153,7 @@ Teams에서 민감도 레이블을 사용하도록 설정한 후 다음 단계�
 2. 팀의 도구 막대에서 **파일** 을 클릭합니다.
 3. 줄임표를 클릭한 다음 **SharePoint에서 열기** 를 클릭합니다.
 4. 기본 SharePoint 사이트의 도구 막대에서 설정 아이콘을 클릭한 다음 **사이트 사용 권한** 을 클릭합니다.
-5. 사이트 사용 권한 창에 있는 **공유 설정** 에서 **공유 설정 변경** 을 클릭합니다.
+5. **사이트 권한** 창의 **사이트 공유에** 서 **멤버 공유 방법 변경** 을 클릭하세요.
 6. **사용 권한 공유** 에서 **사이트 소유자만 파일, 폴더 및 사이트를 공유할 수 있음** 을 선택합니다.
 7. **액세스 요청 허용** 을 **꺼짐** 으로 설정한 다음, **저장** 을 클릭합니다.
 

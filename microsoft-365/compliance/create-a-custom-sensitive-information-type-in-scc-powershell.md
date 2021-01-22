@@ -1,5 +1,5 @@
 ---
-title: 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기
+title: PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,29 +14,26 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
-ms.openlocfilehash: e5669e51dd22c2f33334797a808b50ef1c0861fc
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+description: 규정 준수 센터에서 정책에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
+ms.openlocfilehash: 31badcb2ab0102584e3addf3ed4d1549afe78525
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546770"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929424"
 ---
-# <a name="create-a-custom-sensitive-information-type-in-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기
+# <a name="create-a-custom-sensitive-information-type-using-powershell"></a>PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기
 
-Microsoft 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사용할 수 있는 기본으로 제공되는 [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)가 많이 포함되어 있습니다. 기본 제공되는 이러한 유형은 신용 카드 번호, 은행 계좌 번호, 여권 번호 등을 식별하고 보호하는 데 도움이 됩니다.
-  
-그렇지만 다른 유형의 중요한 정보(예: 조직 고유의 형식을 사용하는 직원 ID)를 식별하고 보호해야 할 경우 어떻게 해야 할까요? 이 경우 *규칙 패키지*라는 XML 파일에 정의된 사용자 지정 중요한 정보 유형을 만들 수 있습니다.
-  
-이 항목에서는 고유한 사용자 지정 중요한 정보 유형을 정의하는 XML 파일을 만드는 방법을 보여 줍니다. 사용자는 정규식을 만드는 방법을 알아야 합니다. 한 가지 예로, 이 항목에서는 직원 ID를 식별하는 사용자 지정 중요한 정보 유형을 만듭니다. 이 예제 XML을 고유한 XML 파일의 시작점으로 사용할 수 있습니다.
-  
-잘 구성된 XML 파일을 만들었으면 Microsoft 365 PowerShell을 사용하여 Microsoft 365에 업로드할 수 있습니다. 그러면 DLP 정책에서 해당 사용자 지정 중요한 정보 유형을 사용하고 중요한 정보가 의도대로 감지되는지 테스트할 수 있습니다.
+이 항목에서는 PowerShell을 사용하여 사용자 지정 [중요한 정보 유형](sensitive-information-type-entity-definitions.md)을 정의하는 XML *규칙 패키지* 파일을 만드는 방법을 설명합니다. 먼저 정규식을 만드는 방법을 알아야 합니다. 이 항목에서는 하나의 예로서 직원 ID를 식별하는 중요한 정보 유형을 만들어 봅니다. 자체 XML 파일을 만들기 위한 시작점으로 본 XML 예제를 사용할 수 있습니다. 중요한 정보 유형에 대한 자세한 내용은 [중요한 정보 유형에 대해 자세히 알아보기](sensitive-information-type-learn-about.md)를 참조하세요.
+
+잘 구성된 XML 파일을 만들었으면 Microsoft 365 PowerShell을 사용하여 Microsoft 365에 업로드할 수 있습니다. 이렇게 하면 정책에서 사용자 지정 중요한 정보 유형을 사용하고, 중요한 정보를 의도한 대로 감지하는지 테스트할 수 있습니다.
 
 > [!NOTE]
-> 또한 보안 및 준수 센터 UI에서 덜 복잡한 사용자 지정 중요한 정보 유형을 만들 수 있습니다. 자세한 내용은 [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)를 참조하세요.
+> PowerShell에서 제공하는 세밀한 제어가 필요하지 않은 경우 규정 준수 센터에서 사용자 지정 중요한 정보 유형을 만들 수 있습니다. 자세한 내용은 [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)를 참조하세요.
 
 ## <a name="important-disclaimer"></a>중요 고지 사항
-<!-- this is worded much better than the previous one is --> 고객 환경 및 콘텐츠 일치 요구의 차이 때문에 Microsoft 지원 서비스는 고객 콘텐츠 일치 정의(예: 사용자 지정 분류 또는 정규식 패턴(RegEx라고 함) 정의)를 제공하도록 지원할 수 없습니다. 고객 콘텐츠 일치 개발, 테스트 및 디버그를 위해 Office 365 고객은 내부 IT 리소스에 의존하거나 MCS(Microsoft 컨설팅 서비스)와 같은 외부 컨설팅 리소스에 의존해야 합니다. 지원 엔지니어는 이 기능에 대해 제한된 지원을 제공할 수 있지만 사용자 지정 콘텐츠 일치 개발이 고객의 요구나 의무를 이행할 것이라는 보장을 제공할 수 없습니다. 제공될 수 있는 지원 유형의 예로, 테스트 목적으로 샘플 정규식 패턴이 제공될 수 있습니다. 또는 지원 서비스는 단일 특정 콘텐츠 예제에서 예상대로 트리거되지 않는 기존 RegEx 패턴 문제를 해결하는 데 도움을 줄 수 있습니다.
+
+ 고객 환경 및 콘텐츠 일치 요구의 차이 때문에 Microsoft 지원 서비스는 고객 콘텐츠 일치 정의(예: 사용자 지정 분류 또는 정규식 패턴(RegEx라고 함) 정의)를 제공하도록 지원할 수 없습니다. 고객 콘텐츠 일치 개발, 테스트 및 디버그를 위해 Office 365 고객은 내부 IT 리소스에 의존하거나 MCS(Microsoft 컨설팅 서비스)와 같은 외부 컨설팅 리소스에 의존해야 합니다. 지원 엔지니어는 이 기능에 대해 제한된 지원을 제공할 수 있지만 사용자 지정 콘텐츠 일치 개발이 고객의 요구나 의무를 이행할 것이라는 보장을 제공할 수 없습니다. 제공될 수 있는 지원 유형의 예로, 테스트 목적으로 샘플 정규식 패턴이 제공될 수 있습니다. 또는 지원 서비스는 단일 특정 콘텐츠 예제에서 예상대로 트리거되지 않는 기존 RegEx 패턴 문제를 해결하는 데 도움을 줄 수 있습니다.
 
 이 토픽에서 [인식해야 할 잠재적인 유효성 검사 문제](#potential-validation-issues-to-be-aware-of)를 참조하세요.
 
@@ -131,11 +128,13 @@ Microsoft 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사�
 
 시작하기 전에 규칙에 대한 XML 스키마의 기본 구조와 이 구조를 사용하여 올바른 콘텐츠를 식별하도록 사용자 지정 중요한 정보 유형을 정의하는 방법을 이해하면 도움이 됩니다.
   
-규칙은 하나 이상의 엔터티(중요한 정보 유형)를 정의하고, 각 엔터티는 하나 이상의 패턴을 정의합니다. 패턴은 전자 메일이나 문서와 같은 콘텐츠를 평가할 때 DLP가 검색하는 항목을 나타냅니다.   <!-- ok then this is going to be really confusing since the terminology changes.... --> (용어에 대한 참고 사항: DLP 정책에 익숙한 경우 정책에 조건 및 작업으로 구성되는 하나 이상의 규칙이 포함되어 있다는 사실을 알고 있을 것입니다. 그렇지만 이 항목에서 XML 태그는 규칙을 사용하여 중요한 정보 유형이라고도 하는 엔터티를 정의하는 패턴을 나타냅니다. 따라서 이 항목에서는 규칙이 나올 경우 조건 및 작업이 아닌 중요한 정보 유형으로 간주합니다.)
+규칙은 하나 이상의 엔터티(중요한 정보 유형)를 정의하며, 각 엔터티는 하나 이상의 패턴을 정의합니다. 패턴은 정책에서 전자 메일이나 문서와 같은 콘텐츠를 평가할 때 참고하는 것을 가리킵니다.
+
+이 항목에서는 XML 태그에서 엔터티(중요한 정보 유형)를 정의하는 패턴을 가리키는 데 규칙이라는 용어를 사용합니다. 따라서 이 항목에서는 규칙이라는 용어가 나오면 조건이나 작업이 아닌 엔터티(중요한 정보 유형)를 의미한다는 사실에 유의하세요.
   
 ### <a name="simplest-scenario-entity-with-one-pattern"></a>가장 간단한 시나리오: 하나의 패턴을 갖는 엔터티
 
-다음은 가장 간단한 시나리오입니다. DLP 정책이 9자리 숫자로 구성된 조직의 직원 ID를 포함하는 콘텐츠를 식별하게 하려고 합니다. 따라서 패턴은 9자리 숫자를 식별하는 규칙에 포함된 정규식을 나타냅니다. 9자리 숫자를 포함하는 모든 콘텐츠는 해당 패턴을 충족합니다.
+다음은 간단한 시나리오입니다. 9자리 숫자로 구성된 조직의 직원 ID를 포함하는 콘텐츠를 식별하는 정책을 만들려고 합니다. 따라서 여기서 패턴이란 9자리 숫자를 식별하는 규칙이 포함된 정규식을 의미합니다. 9자리 숫자를 포함하고 있는 어떠한 콘텐츠도 이 패턴을 충족합니다.
   
 ![하나의 패턴을 갖는 엔터티 다이어그램](../media/4cc82dcf-068f-43ff-99b2-bac3892e9819.png)
   
@@ -151,7 +150,7 @@ Microsoft 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사�
   
 이 구조는 다음과 같은 몇 가지 중요한 측면을 갖습니다.
   
-- 더 많은 증거가 필요한 패턴은 더 높은 신뢰도 수준을 갖습니다. 이것은 나중에 DLP 정책에서 이 중요한 정보를 사용할 때 높은 신뢰도 일치만 사용하여 더 제한적인 작업(콘텐츠 차단 등)을 사용할 수 있고 낮은 신뢰도 일치를 사용하여 덜 제한적인 작업(예: 알림 보내기)을 사용할 수 있으므로 매우 유용합니다.
+- 더 많은 증거가 필요한 패턴은 더 높은 신뢰도 수준을 갖습니다. 더 많은 증거가 필요한 패턴은 더 높은 신뢰도 수준을 갖습니다. 이것은 나중에 정책에서 이 중요한 정보를 사용할 때 높은 신뢰도 일치만 사용하여 더 제한적인 작업(콘텐츠 차단 등)을 사용할 수 있고 낮은 신뢰도 일치를 사용하여 덜 제한적인 작업(예: 알림 보내기)을 사용할 수 있으므로 매우 유용합니다.
 
 - IdMatch 및 Match와 같은 지원 요소는 Pattern이 아닌 Rule 요소의 하위 요소인 regex와 키워드를 참조합니다. 이러한 지원 요소는 Pattern에 의해 참조되나 Rule에 포함됩니다. 즉, 여러 개의 엔터티와 패턴에서 정규식이나 키워드 목록 등 지원 요소에 대한 정의를 참조할 수 있습니다.
 
@@ -160,9 +159,10 @@ Microsoft 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사�
 엔터티는 정상적인 패턴을 갖는 중요한 정보 유형(예: 신용 카드 번호)입니다. 각 엔터티는 ID로서 고유한 GUID를 갖습니다.
   
 ### <a name="name-the-entity-and-generate-its-guid"></a>엔터티에 이름 지정 및 해당 GUID 생성
-<!-- why isn't the following in procedure format? --> Rules 및 Entity 요소를 추가합니다. 그런 후 사용자 지정 엔터티의 이름(이 예제에서는 직원 ID)을 포함하는 주석을 추가합니다. 나중에 이 엔터티 이름을 지역화된 문자열 섹션에 추가합니다. 그러면 해당 이름이 DLP 정책을 만들 때 UI에 표시됩니다.
-  
-다음으로, 엔터티의 GUID를 생성합니다. GUID를 생성하는 방법에는 여러 가지가 있지만 PowerShell에서 **[guid]::NewGuid()** 를 입력하여 쉽게 만들 수 있습니다. 나중에 엔터티 GUID 지역화된 문자열 섹션을 추가합니다.
+
+1. 선택한 XML 편집기에서 Rules 및 Entity 요소를 추가합니다.
+2. 사용자 지정 엔터티의 이름(여기서는 직원 ID)이 포함된 설명을 추가합니다. 나중에 현지화된 문자열 섹션에 엔터티 이름을 추가하게 되며, 이때 이름은 정책을 만들 때 UI에 표시되는 이름을 가리킵니다.
+3. 엔터티의 GUID를 생성합니다. GUID를 생성하는 방법에는 여러 가지가 있지만, PowerShell에서 **[guid]::NewGuid()** 를 입력하면 간단하게 생성할 수 있습니다. 뒤에서 현지화된 문자열 섹션에도 엔터티 GUID를 추가하게 됩니다.
   
 ![Rules 및 Entity 보여 주는 XML 태그 요소](../media/c46c0209-0947-44e0-ac3a-8fd5209a81aa.png)
   
@@ -174,7 +174,7 @@ Microsoft 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사�
   
 ![단일 Regex 요소를 참조하는 여러 Pattern 요소를 보여 주는 XML 태그](../media/8f3f497b-3b8b-4bad-9c6a-d9abf0520854.png)
   
-결과가 충족되면 패턴은 해당 개수 및 신뢰도를 반환합니다. 이 결과를 DLP 정책의 조건에서 사용할 수 있습니다. 중요한 정보 유형을 감지하는 조건을 DLP 정책에 추가하면 여기에 표시된 것처럼 개수 및 신뢰도를 편집할 수 있습니다. 신뢰도(일치 정확도라고도 함)는 이 항목의 뒷부분에서 설명합니다.
+결과가 충족되면 패턴은 개수와 신뢰도 수준을 반환합니다. 반환된 값은 정책의 조건에서 사용할 수 있습니다. 정책에 중요한 정보 유형을 감지하는 조건을 추가할 때 여기에 표시된 것처럼 개수와 신뢰도 수준을 편집할 수 있습니다. 신뢰 수준(일치 정확도)은 이 항목의 뒷부분에서 설명합니다.
   
 ![인스턴스 개수 및 일치 정확도 옵션](../media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
   
@@ -210,7 +210,7 @@ Pattern은 여러 개의 Match 요소를 포함할 수 있으며, 여러 개의 
   
 ### <a name="additional-patterns-such-as-dates-or-addresses-built-in-functions"></a>날짜 또는 주소와 같은 추가 패턴 [기본 제공 함수]
 
-기본 제공 중요한 정보 유형에 외에도, DLP에는 미국 날짜, 유럽 날짜, 만료 날짜 또는 미국 주소와 같은 증빙을 식별할 수 있는 기본 제공 함수도 포함되어 있습니다. DLP는 고유의 사용자 지정 함수 업로드를 지원하지 않지만, 사용자 지정 중요한 정보 유형을 만들 때 엔터티가 기본 제공 함수를 참조할 수 있습니다.
+기본 제공 중요한 정보 유형에 외에도, 중요한 정보 유형에는 미국 날짜, 유럽 날짜, 만료 날짜 또는 미국 주소와 같은 증빙을 식별할 수 있는 기본 제공 함수도 포함되어 있습니다. Microsoft 365는 사용자 지정 함수 업로드를 지원하지 않지만, 사용자 지정 중요한 정보 유형을 만들 때 엔터티가 기본 제공 함수를 참조할 수 있습니다.
   
 예를 들어, 직원 ID 배지에 채용 날짜가 있는 경우 이 사용자 지정 엔터티는 기본 제공 함수 `Func_us_date`를 날짜가 미국에서 일반적으로 사용되는 형식을 갖는 날짜를 식별할 수 있습니다. 
   
@@ -263,7 +263,7 @@ Any 요소에는 패턴이 일치되기 위해 충족되어야 하는 자식 Mat
 
 ### <a name="match-a-number-of-unique-terms"></a>몇 가지 고유 용어 일치
 
-몇 가지 고유 용어를 일치시키려면 다음 예에 표시된 것처럼 *uniqueResults* 매개 변수를 사용하고 *true*로 설정하세요.
+몇 가지 고유 용어를 일치시키려면 다음 예에 표시된 것처럼 *uniqueResults* 매개 변수를 사용하고 *true* 로 설정하세요.
 
 ```xml
 <Pattern confidenceLevel="75">
@@ -294,15 +294,15 @@ Any 요소에는 패턴이 일치되기 위해 충족되어야 하는 자식 Mat
 
 패턴이 더 많은 증거를 요구할수록 패턴이 일치될 때 실제 엔터티(예: 직원 ID)가 식별될 신뢰도는 더 높아집니다. 예를 들어, 매우 근접한 9자리 ID 숫자, 채용 날짜, 키워드를 요구하는 패턴의 경우 9자리 ID 숫자만 요구하는 패턴의 경우보다 신뢰도가 더 높습니다.
   
-Pattern 요소에는 필수 confidencelevel 특성이 있습니다. confidenceLevel 값(1에서 100 사이의 정수)을 엔터티의 각 패턴에 대한 고유 ID로 생각할 수 있습니다. 즉, 엔터티의 패턴에는 다른 신뢰도가 할당되어야 합니다. 정수 정밀도 값은 중요하지 않습니다. 준수 팀에서 허용하는 숫자만 선택하면 됩니다. 사용자 지정 중요한 정보 유형을 업로드한 후 DLP 정책을 만든 후에 생성한 규칙의 조건에서 이러한 신뢰도를 참조할 수 있습니다.
+Pattern 요소는 confidenceLevel이라는 필수 속성을 갖습니다. confidenceLevel의 값(1에서 100까지의 정수)은 엔터티에 포함된 각 패턴의 고유 ID라고 생각하면 됩니다. 엔터티에 포함된 여러 패턴에는 서로 다른 신뢰 수준을 할당해야 합니다. 구체적인 정수 값은 중요하지 않습니다. 규정 준수 팀에서 합리적이라 생각하는 아무 숫자나 선택하면 됩니다. 사용자 지정 중요한 정보 유형을 업로드하고 정책을 만들었으면 이후 생성하는 규칙의 조건에서 신뢰도 수준을 참조할 수 있습니다.
   
 ![다른 confidenceLevel 특성 값을 갖는 Pattern 요소를 보여 주는 XML 태그](../media/301e0ba1-2deb-4add-977b-f6e9e18fba8b.png)
   
-Entity는 각 Pattern에 대핸 confidenceLevel 외에도 recommendedConfidence 속성을 갖습니다. 권장 신뢰도 속성은 규칙의 신뢰도 수준 기본값이라고 생각하면 됩니다. DLP 정책에서 규칙을 만들 때 규칙에서 사용할 신뢰도 수준을 지정하지 않은 경우에는 규칙이 해당 엔터티의 권장 신뢰도 수준을 사용하여 매치를 수행합니다. RecommendedConfidence 속성은 규칙 패키지의 각 Entity ID에 대한 필수 항목입니다. 이 값이 없는 경우 중요한 정보 유형을 사용 하는 정책을 저장하지 못할 수 있습니다. 
+Entity는 각 Pattern에 대핸 confidenceLevel 외에도 recommendedConfidence 속성을 갖습니다. 권장 신뢰도 속성은 규칙의 신뢰도 수준 기본값이라고 생각하면 됩니다. 정책에서 규칙을 만들 때 규칙에서 사용할 신뢰도 수준을 지정하지 않은 경우에는 규칙이 해당 엔터티의 권장 신뢰도 수준을 사용하여 매치를 수행합니다. RecommendedConfidence 속성은 규칙 패키지의 각 Entity ID에 대한 필수 항목입니다. 이 값이 없는 경우 중요한 정보 유형을 사용 하는 정책을 저장하지 못할 수 있습니다. 
   
-## <a name="do-you-want-to-support-other-languages-in-the-ui-of-the-security-amp-compliance-center-localizedstrings-element"></a>보안 및 준수 센터의 UI에서 다른 언어를 지원하려고 하나요? [LocalizedStrings 요소]
+## <a name="do-you-want-to-support-other-languages-in-the-ui-of-the-compliance-center-localizedstrings-element"></a>규정 준수 센터의 UI에서 다른 언어를 지원하려고 하나요? [LocalizedStrings 요소]
 
-준수 팀에서 Microsoft 365 보안 &amp; 준수 센터를 사용하여 다른 로캘 및 다른 언어로 DLP 정책을 만드는 경우 사용자 지정 중요한 정보 유형의 지역화된 이름 및 설명 버전을 제공할 수 있습니다. 준수 팀에서 지원되는 언어로 Office 365를 사용하는 경우 UI에 지역화된 이름이 표시됩니다.
+규정 준수 팀에서 Microsoft 365 규정 준수 센터를 사용하여 여러 위치와 여러 언어에 대한 정책을 만드는 경우에는 사용자 지정 중요한 정보 유형의 이름과 설명을 현지화된 버전으로 지정할 수 있습니다. 규정 준수 팀에서 지원되는 언어로 Microsoft 365를 사용하면 UI에 현지화된 이름이 표시됩니다.
   
 ![인스턴스 개수 및 일치 정확도 옵션](../media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
   
@@ -310,7 +310,7 @@ Rules 요소는 사용자 지정 엔터티의 GUID를 참조하는 Resource 요�
   
 ![LocalizedStrings 요소의 내용을 보여 주는 XML 태그](../media/a96fc34a-b93d-498f-8b92-285b16a7bbe6.png)
   
-보안 및 준수 센터의 UI에 사용자 지정 중요한 정보 유형이 표시될 때만 지역화된 문자열을 사용합니다. 키워드 목록 또는 정규식의 다른 지역화된 버전을 제공할 때는 지역화된 문자열을 사용할 수 없습니다.
+규정 준수 센터의 UI에 사용자 지정 중요한 정보 유형이 표시될 때만 지역화된 문자열을 사용합니다. 키워드 목록 또는 정규식의 다른 지역화된 버전을 제공할 때는 지역화된 문자열을 사용할 수 없습니다. 현지화된 문자열을 사용하여 키워드 목록이나 정규식의 현지화된 버전을 제공할 수는 없습니다.
   
 ## <a name="other-rule-package-markup-rulepack-guid"></a>다른 규칙 패키지 태그 [RulePack GUID]
 
@@ -348,9 +348,9 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
   
 ## <a name="changes-for-exchange-online"></a>Exchange Online의 변경
 
-이전에는 Exchange Online PowerShell을 사용하여 DLP에 대한 사용자 지정 중요한 정보 유형을 가져왔습니다. 이제 사용자 지정 중요한 정보 유형은 Exchange 관리 센터와 보안 및 &amp;준수 센터 둘 다에서 사용할 수 있습니다. 이러한 기능 개선의 일부로, 보안 및 &amp;준수 센터 PowerShell을 사용하여 사용자 지정 중요한 정보 유형을 가져와야 하며, 더 이상 Exchange Powershell에서 가져올 수 없습니다. 사용자 지정 중요한 정보 유형은 이전과 마찬가지로 계속 작동하지만 보안 및 &amp;준수 센터의 사용자 지정 중요한 정보 유형에 대한 변경 내용이 Exchange 관리 센터에 반영되는 데 최대 1시간이 소요될 수 있습니다.
+이전에 DLP에 대한 사용자 지정 중요한 정보 유형을 가져오기 위해 Exchange Online PowerShell을 사용해 보았을 것입니다. 이제 사용자 지정 중요한 정보 유형은 Exchange 관리 센터와 규정 준수 센터 모두에서 사용할 수 있습니다. 이 개선의 일부로 사용자 지정 중요한 정보 유형을 가져오기 위해서는 규정 준수 센터 PowerShell을 사용해야 하며 Exchange PowerShell에서는 더 이상 정보 유형을 가져올 수 없습니다. 사용자 지정 중요한 정보 유형은 전과 동일하게 계속 사용할 수 있지만, 규정 준수 센터에서 사용자 지정 중요한 정보 유형에 대한 변경 사항이 Exchange 관리 센터에 표시되려면 최대 1시간이 걸릴 수 있습니다.
   
-보안 &amp; 준수 센터에서 **[New-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/new-dlpsensitiveinformationtyperulepackage)** cmdlet을 사용하여 규칙 패키지를 업로드할 수 있습니다. 이전에는 Exchange 관리 센터에서 **ClassificationRuleCollection**` cmdlet을 사용했습니다. 
+규정 준수 센터에서 **[New-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/new-dlpsensitiveinformationtyperulepackage)** cmdlet을 사용하여 규칙 패키지를 업로드할 수 있습니다. (이전에 Exchange 관리 센터에서는 **ClassificationRuleCollection**` cmdlet을 사용했습니다.) 
   
 ## <a name="upload-your-rule-package"></a>규칙 패키지 업로드
 
@@ -360,7 +360,7 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
   
 1. 유니코드 인코딩을 사용하여 .xml 파일로 저장합니다.
     
-2. [보안 및 준수 센터 PowerShell에 연결하기](https://go.microsoft.com/fwlink/p/?LinkID=799771)
+2. [규정 준수 센터 PowerShell에 연결하기](https://go.microsoft.com/fwlink/p/?LinkID=799771)
     
 3. 다음 구문을 사용합니다.
 
@@ -439,7 +439,7 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
     
 ## <a name="recrawl-your-content-to-identify-the-sensitive-information"></a>콘텐츠를 다시 크롤링하여 중요한 정보 식별
 
-DLP는 검색 크롤러를 사용하여 사이트 콘텐츠에서 중요한 정보를 식별하고 분류합니다. SharePoint Online 및 비즈니스용 OneDrive 사이트의 콘텐츠는 업데이트될 때마다 자동으로 다시 크롤링됩니다. 하지만 기존의 모든 콘텐츠에 있는 새로운 사용자 지정 중요한 정보 유형을 식별하려면 해당 콘텐츠를 다시 크롤링해야 합니다.
+Microsoft 365는 사이트 콘텐츠에서 중요한 정보를 식별하고 분류하기 위해 검색 크롤러를 사용합니다. SharePoint Online 및 비즈니스용 OneDrive의 콘텐츠는 업데이트될 때마다 자동으로 크롤링이 다시 수행됩니다. 그러나 기존의 모든 콘텐츠에서 새로운 사용자 지정 중요한 정보 유형을 식별하려면 해당 콘텐츠에 대한 크롤링을 다시 수행해야 합니다.
   
 Microsoft 365에서 전체 테넌트의 다시 크롤링을 수동으로 요청할 수 없으나 사이트 모음, 목록 또는 라이브러리에 대해서는 다시 크롤링을 요청할 수 있습니다. [사이트, 라이브러리 또는 목록의 크롤링 및 다시 인덱싱을 수동으로 요청](https://docs.microsoft.com/sharepoint/crawl-site-content)을 참조하세요.
   
@@ -448,13 +448,13 @@ Microsoft 365에서 전체 테넌트의 다시 크롤링을 수동으로 요청�
 > [!NOTE]
 > 사용자 지정 중요한 정보 유형을 제거하기 전에 DLP 정책이나 Exchange 메일 흐름 규칙(전송 규칙이라고도 함)이 중요한 정보 유형을 계속 참조하지 않는 것을 확인합니다.
 
-보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형을 제거하는 두 가지 방법이 있습니다.
+규정 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형을 제거하는 두 가지 방법이 있습니다.
 
 - **개별 사용자 지정 중요한 정보 유형 제거**: [사용자 지정 중요한 정보 유형 수정](#modify-a-custom-sensitive-information-type)에서 설명하는 방법을 사용합니다. 사용자 지정 중요한 정보 유형을 포함하는 사용자 지정 규칙 패키지를 내보내고 XML 파일에서 중요한 정보 유형을 제거하고 기존 사용자 지정 규칙 패키지에 업데이트된 XML 파일을 다시 가져옵니다.
 
 - **사용자 지정 규칙 패키지 및 여기에 포함된 모든 사용자 지정 중요한 정보 유형 제거**: 이 방법은 이 섹션에 설명되어 있습니다.
 
-1. [보안 및 준수 센터 PowerShell에 연결하기](https://go.microsoft.com/fwlink/p/?LinkID=799771)
+1. [규정 준수 센터 PowerShell에 연결하기](https://go.microsoft.com/fwlink/p/?LinkID=799771)
 
 2. 사용자 지정 규칙 패키지를 제거하려면 [Remove-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/remove-dlpsensitiveinformationtyperulepackage) cmdlet을 사용합니다.
 
@@ -496,7 +496,7 @@ Microsoft 365에서 전체 테넌트의 다시 크롤링을 수동으로 요청�
 
 ## <a name="modify-a-custom-sensitive-information-type"></a>사용자 지정 중요한 정보 유형 수정
 
-보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형을 수정하려면 다음을 수행해야 합니다.
+규정 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형을 수정하려면 다음을 수행해야 합니다.
 
 1. XML 파일에 사용자 지정 중요한 정보 유형을 포함하는 기존 규칙 패키지를 내보냅니다. (또는 기존 XML 파일이 있는 경우이를 내보냅니다)
 
@@ -504,7 +504,7 @@ Microsoft 365에서 전체 테넌트의 다시 크롤링을 수동으로 요청�
 
 3. 기존 규칙 패키지에 업데이트된 XML 파일을 다시 가져옵니다.
 
-보안 및 준수 센터 PowerShell에 연결하려면 [보안 및 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?LinkID=799771)을 참조하세요.
+규정 준수 센터 PowerShell에 연결하려면 [규정 준수 센터 PowerShell에 연결하기](https://go.microsoft.com/fwlink/p/?LinkID=799771)를 참조하세요.
 
 ### <a name="step-1-export-the-existing-rule-package-to-an-xml-file"></a>1단계: XML 파일로 기존 규칙 패키지 내보내기
 
@@ -518,7 +518,7 @@ Microsoft 365에서 전체 테넌트의 다시 크롤링을 수동으로 요청�
    ```
 
    > [!NOTE]
-   > 기본 제공되는 중요한 정보 유형을 포함하는 기본 제공 규칙 패키지를 Microsoft Rule Package라고 합니다. 보안 및 준수 센터 UI에서 만든 사용자 지정 중요한 정보 유형을 포함하는 규칙 패키지는 Microsoft.SCCManaged.CustomRulePack라고 합니다.
+   > 기본 제공되는 중요한 정보 유형을 포함하는 기본 제공 규칙 패키지를 Microsoft Rule Package라고 합니다. 규정 준수 센터 UI에서 만든 사용자 지정 중요한 정보 유형을 포함하는 규칙 패키지는 Microsoft.SCCManaged.CustomRulePack이라고 합니다.
 
 2. [DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtyperulepackage) cmdlet을 사용하여 사용자 지정 규칙 패키지를 변수에 저장합니다.
 
