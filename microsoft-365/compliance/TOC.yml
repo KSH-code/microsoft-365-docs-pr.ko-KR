@@ -96,16 +96,17 @@
       href: information-protection.md
     - name: 중요한 정보 유형
       items:
+        - name: 중요한 정보 유형에 대해 자세히 알아보기
+          href: sensitive-information-type-learn-about.md
         - name: 중요한 정보 유형 엔터티 정의
           href: sensitive-information-type-entity-definitions.md
         - name: DLP 기능이 찾는 항목
           href: what-the-dlp-functions-look-for.md
         - name: 기본 제공 중요한 정보 유형 사용자 지정
           href: customize-a-built-in-sensitive-information-type.md
-        - name: 사용자 지정 중요한 정보 유형
-          href: custom-sensitive-info-types.md
         - name: 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
+        - name: 사용자 지정 중요한 정보 유형 시작하기
         - name: 정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사 사용
           href: sit-edm-wizard.md
         - name: 구성 가능한 일치를 사용하도록 정확한 데이터 일치 스키마 수정
