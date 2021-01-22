@@ -6,7 +6,6 @@ manager: dansimp
 ms.date: 08/13/2020
 audience: Admin
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -14,20 +13,22 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Office 365의 보안, EOP에서 Office 365 계획 1 및 2, Standard 및 엄격한 보안 구성 등입니다. 가지고 있는 정보 및 속성을 보호하는 방법을 이해합니다.
-ms.openlocfilehash: a24f71286a524c4057fd1354804b067497479493
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+description: Office 365의 보안, EOP에서 Office 365 요금제 1 및 2, Standard 및 Strict 보안 구성 등입니다. 가지고 있는 정보 및 속성을 보호하는 방법을 이해합니다.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: f83eef6a19e26f4b8f47a049e2b2959b32a92550
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794523"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932553"
 ---
 # <a name="office-365-security-overview"></a>Office 365 보안 개요
 
 이 문서에서는 클라우드의 새로운 보안 속성을 소개합니다. 보안 운영 센터에 새로 추가된 보안 관리자든, 새로 고침을 시작해야 하는지 여부에 따라 시작해보아야 합니다.
 
 > [!CAUTION]
-> Outlook.com, Microsoft 365 패밀리 또는 Microsoft  **365** **Personal을** 사용 중일 때  안전한 링크 또는 안전한 첨부 파일 정보가 필요한 경우 ***** 이 링크 _: [Microsoft 365](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)구독자를 위한 고급 Outlook.com 보안 .
+> Outlook.com, **Microsoft 365** 패밀리 **또는** Microsoft **365 개인을** 사용 중일 때  안전한 링크 또는 안전한 첨부 파일 정보가 필요한 경우 ***** 이 링크 _: [Microsoft 365 구독자를](https://support.microsoft.com/office/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)위한 고급 Outlook.com 보안 . 
 
 ## <a name="office-365-security-spelled-out"></a>Office 365 보안 맞춤법 검사
 
@@ -35,7 +36,7 @@ ms.locfileid: "49794523"
 
 1. EOP(Exchange Online Protection)
 1. Microsoft Defender for Office 365 요금제 1(Office P1용 Defender)
-1. Microsoft Defender for Office 365 요금제 2(Defender for Office P2)
+1. Microsoft Defender for Office 365 요금제 2(Office P2용 Defender)
 
 > [!NOTE]
 > 구독을 구입하고 지금*에서 보안 기능을 롤아웃해야 하는 경우 _right [](protect-against-threats.md) 위협 방지 문서의 단계로 건너뛰세요. 구독을 새로 시작하고 시작하기 전에 라이선스를 알고자 하는 경우 [Microsoft 365](https://admin.microsoft.com/AdminPortal/#/homepage)관리 센터에서 > 제품을 검색합니다.
@@ -46,7 +47,7 @@ Office 365 보안은 EOP에서 제공하는 핵심 보호 기능을 구축합니
 
 |EOP|Office 365 P1용 Microsoft Defender|Office 365 P2용 Microsoft Defender|
 |---|---|---|
-|광범위하고 볼륨 기반의 알려진 공격을 방지합니다.|제로 데이 맬웨어, 피싱 및 비즈니스 전자 메일 손상으로부터 전자 메일 및 공동 작업을 보호합니다.|위반 사후 조사, 헌팅 및 대응뿐만 아니라 자동화 및 시뮬레이션(교육용)을 추가합니다.|
+|광범위하고 볼륨 기반의 알려진 공격을 방지합니다.|제로 데이 맬웨어, 피싱 및 비즈니스 전자 메일 손상으로부터 전자 메일 및 공동 작업을 보호합니다.|자동화 및 시뮬레이션(교육용)뿐만 아니라 위반 사후 조사, 헌팅 및 대응을 추가합니다.|
 |
 
 그러나 아키텍처 측면에서 각 조각을 보안이 강조된 누적 보안 계층으로 생각하는 것으로 시작해보아야 합니다. 더 많은 예:
@@ -61,10 +62,10 @@ Office 365 보안의 핵심은 EOP 보호입니다. Office 365 P1용 Microsoft D
 
 전자 메일 인증 구성은 공용 DNS에서 진행하지만 스푸핑을 방어하는 데 도움이 하도록 이 기능을 구성하는 것이 중요합니다. _EOP가 있는 경우* ***전자 메일 [인증을 구성해야 합니다.](email-validation-and-authentication.md)**_
 
-If you have an Office 365 E3, or below, you have EOP, but with the option to buy standalone Defender for Office 365 P1 through upgrade. Office 365 E5가 있는 경우 Office 365 P2용 Defender가 이미 있습니다.
+If you have an Office 365 E3 or below, you have EOP, but with the option to buy standalone Defender for Office 365 P1 through upgrade. Office 365 E5가 있는 경우 Office 365 P2용 Defender가 이미 있습니다.
 
 > [!TIP]
-> 구독이 Office 365 E3 또는 E5가 아닐 경우 Office 365 P1용 Microsoft Defender로 업그레이드할 수 있는 옵션이 여전히 있는지 확인할 수 있습니다. 관심이 있는 경우 이 웹 [페이지는](https://www.microsoft.com/microsoft-365/exchange/advance-threat-protection#coreui-contentrichblock-x07wids) Microsoft Defender for Office 365 P1 업그레이드를 사용할 수 있는 구독 목록을 제공합니다(페이지 끝에서 미세 인쇄 확인).
+> 구독이 Office 365 E3 또는 E5가 아닐 경우 여전히 Office 365 P1용 Microsoft Defender로 업그레이드할 수 있는 옵션이 있는지 확인할 수 있습니다. 관심이 있는 경우 이 웹 [페이지는](https://www.microsoft.com/microsoft-365/exchange/advance-threat-protection#coreui-contentrichblock-x07wids) Microsoft Defender for Office 365 P1 업그레이드에 적합한 구독 목록을 제공합니다(페이지 끝에서 미세 인쇄 확인).
 
 ## <a name="the-office-365-security-ladder-from-eop-to-microsoft-defender-for-office-365"></a>EOP에서 Office 365용 Microsoft Defender로의 Office 365 보안 사다리
 
@@ -82,14 +83,14 @@ Office 365용 Microsoft Defender 요금제 추가를 순수 EOP 위협 관리의
 _*Exchange Online Protection**부터 시작:
 <p>
 
-|방지/감지|조사|응답|
+|방지/검색|조사|응답|
 |---|---|---|
-|기술에는 다음이 포함됩니다.<ul><li>스팸</li><li>피싱</li><li>맬웨어</li><li>대량 메일</li><li>스푸핑 인텔리전스</li><li>가장 검색</li><li>관리자 Quarantine</li><li>가짓 긍정 및 거짓 부정의 관리자 및 사용자 제출</li><li>URL 및 파일에 대한 허용/차단</li><li>보고서</li></u1>|<li>감사 로그 검색</li><li>메시지 추적</li>|<li>ZAP(제로 아워 자동 제거)</li><li>허용 및 차단 목록의 구체화 및 테스트</li>|
+|기술에는 다음이 포함됩니다.<ul><li>스팸</li><li>피싱</li><li>맬웨어</li><li>대량 메일</li><li>스푸핑 인텔리전스</li><li>가장 검색</li><li>관리자 Quarantine</li><li>가긍성 및 거짓 부정의 관리자 및 사용자 제출</li><li>URL 및 파일에 대한 허용/차단</li><li>보고서</li></u1>|<li>감사 로그 검색</li><li>메시지 추적</li>|<li>ZAP(제로 아워 자동 제거)</li><li>허용 및 차단 목록의 구체화 및 테스트</li>|
 |
 
 EOP로 이동하려는 경우 이 **[문서로 이동하세요.](exchange-online-protection-overview.md)**
 
-이러한 제품은 누적적이기 때문에 Office 365 P1용 Microsoft Defender를 평가하고 구독하기로 결정하면 이러한 기능을 추가할 수 있습니다.
+이러한 제품은 누적이기 때문에 Office 365 P1용 Microsoft Defender를 평가하고 구독하기로 결정하면 이러한 기능을 추가할 수 있습니다.
 
 **Office 365용 Defender,** 계획 1(현재까지) 이득:
 <p>
@@ -105,7 +106,7 @@ EOP로 이동하려는 경우 이 **[문서로 이동하세요.](exchange-online
 **Office 365용 Defender,** 계획 2(현재까지) 이득:
 <p>
 
-|방지/감지|조사|응답|
+|방지/검색|조사|응답|
 |---|---|---|
 |기술에는 EOP의 모든 사항과 Office 365 P1용 Microsoft Defender 및 다음이 포함됩니다.<u1><li>동일</li>|<li>**위협 탐색기**</li><li>위협 트래커</li><li>캠페인 보기</li>|<li>AIR(자동화된 조사 및 대응)</li><li>위협 탐색기에서 AIR</li><li>손상된 사용자를 위한 AIR</li><li>자동화된 조사를 위한 SIEM 통합 API</li>
 
@@ -124,10 +125,10 @@ Office 365 P1 및 P2용 Microsoft Defender의 세부 정보를 확인한 후 이
 
 |Office 365 계획 1용 Defender|Office 365 계획 2용 Defender|
 |---|---|
-|구성, 보호 및 검색 기능: <ul><li>[안전한 첨부 파일](atp-safe-attachments.md)</li><li>[안전한 링크](atp-safe-links.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)</li><li>[Office 365용 Defender의 피싱 방지 보호 기능](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[실시간 탐지](threat-explorer.md)</li></ul>|Office 365 계획 1의 Defender 기능 <p> --- 추가 --- <p> 자동화, 조사, 수정 및 교육 기능: <ul><li>[위협 트래커](threat-trackers.md)</li><li>[위협 탐색기](threat-explorer.md)</li><li>[자동화된 조사 및 응답](office-365-air.md)</li><li>[공격 시뮬레이터](attack-simulator.md)</li></ul>|
+|구성, 보호 및 검색 기능: <ul><li>[안전한 첨부 파일](atp-safe-attachments.md)</li><li>[안전한 링크](atp-safe-links.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams에 대한 안전한 첨부 파일](atp-for-spo-odb-and-teams.md)</li><li>[Office 365용 Defender의 피싱 방지 보호 기능](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[실시간 탐지](threat-explorer.md)</li></ul>|Office 365 계획 1의 Defender 기능 <p> --- 추가 --- <p> 자동화, 조사, 수정 및 교육 기능: <ul><li>[위협 트래커](threat-trackers.md)</li><li>[위협 탐색기](threat-explorer.md)</li><li>[자동화된 조사 및 응답](office-365-air.md)</li><li>[공격 시뮬레이터](attack-simulator.md)</li></ul>|
 |
 
-- Office 365 계획 2용 Microsoft Defender는 Office 365 E5, Office 365 A5 및 Microsoft 365 E5에 포함되어 있습니다.
+- Office 365 요금제 2용 Microsoft Defender는 Office 365 E5, Office 365 A5 및 Microsoft 365 E5에 포함되어 있습니다.
 
 - Office 365용 Microsoft Defender 플랜 1은 Microsoft 365 Business Premium에 포함되어 있습니다.
 
@@ -138,7 +139,7 @@ Office 365 P1 및 P2용 Microsoft Defender의 세부 정보를 확인한 후 이
 - 현재 구독에 Office 365용 Microsoft Defender가 포함되어하지 [](https://go.microsoft.com/fwlink/p/?LinkId=518644)않는 경우 영업에 문의하여 평가판을 시작하고 Office 365용 Microsoft Defender가 조직에서 어떻게 작동할 수 있는지 찾아보아야 합니다.
 
 > [!TIP]
-> ***Insider tip** _. EOP 및 Docs.microsoft.com Office 365용 Microsoft Defender에 대해 자세히 알아보는 데 docs.microsoft.com 목차를 사용할 수 있습니다. 이 페이지, [Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security)보안 개요로 돌아가면 사이드바에 콘텐츠 조직의 표가 표시됩니다. 배포(마이그레이션 포함)로 시작하여 예방, 검색, 조사 및 대응을 계속합니다. <p> 이 구조는 *_Security Administration** 항목 다음에 보안 작업 **항목으로 나뉘어** 있습니다. 두 작업 역할의 새 구성원인 경우 이 팁의 링크와 내용 표에 대한 지식을 사용하여 공간을 학습할 수 있습니다. 피드백 링크를 *사용하여* *문서를* 평가해야 합니다. 피드백은 고객에게 제공하는 기능을 개선하는 데 도움이 됩니다.
+> ***Insider tip** _. EOP 및 Docs.microsoft.com Microsoft Defender for Office 365에 대해 자세히 알아보는 데 docs.microsoft.com 목차를 사용할 수 있습니다. 이 페이지, [Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security)보안 개요로 돌아가면 사이드바에 콘텐츠 조직 표가 표시됩니다. 배포(마이그레이션 포함)로 시작하여 예방, 검색, 조사 및 대응을 계속합니다. <p> 이 구조는 *_Security Administration** 항목 다음에 보안 작업 **항목으로 나뉘어** 있습니다. 두 작업 역할의 새 구성원인 경우 이 팁의 링크와 내용 표에 대한 지식을 사용하여 공간을 학습할 수 있습니다. 피드백 링크를 *사용하여* *문서를* 평가해야 합니다. 피드백은 사용자가 제공하는 기능을 개선하는 데 도움이 됩니다.
 
 ## <a name="where-to-go-next"></a>다음으로 이동 위치
 

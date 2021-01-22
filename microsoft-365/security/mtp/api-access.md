@@ -3,7 +3,7 @@ title: Microsoft 365 Defender API 액세스
 description: Microsoft 365 Defender API에 액세스하는 방법에 대해 자세히 알아보기
 keywords: 액세스, api, 응용 프로그램 컨텍스트, 사용자 컨텍스트, aad 응용 프로그램, 액세스 토큰
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 5e01aaf2ee9255fd909b26278346fd4ccf54729a
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: ea787adfba0afb425da5f6ea0f6609f96e06b378
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719241"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932157"
 ---
 # <a name="access-the-microsoft-365-defender-apis"></a>Microsoft 365 Defender API 액세스
 
@@ -42,7 +43,7 @@ Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터 
 일반적으로 API를 사용하려면 다음 단계를 수행해야 합니다.
 
 - Azure Active Directory 응용 프로그램 만들기
-- 이 응용 프로그램을 사용하여 액세스 토큰 얻기
+- 이 응용 프로그램을 사용하여 액세스 토큰을 얻
 - 토큰을 사용하여 Microsoft 365 Defender API 액세스
 
 > [!NOTE]
@@ -71,7 +72,7 @@ Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터 
 3. 응용 프로그램의 사용자 자격 증명을 사용하여 보안 토큰을 얻습니다.
 4. 토큰을 사용하여 Microsoft 365 Defender API에 액세스합니다.
 
-자세한 내용은 사용자를 대신하여 **[Microsoft 365 Defender API에](api-create-app-user-context.md)** 액세스하는 앱 만들기를 참조하세요.
+자세한 내용은 사용자를 대신하여 **[Microsoft 365 Defender API에 액세스하는 앱 만들기를 참조하세요.](api-create-app-user-context.md)**
 
 ## <a name="partner-context"></a>파트너 컨텍스트
 

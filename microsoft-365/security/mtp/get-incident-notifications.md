@@ -3,7 +3,7 @@ title: Microsoft 365 Defender에서 인시던트 알림 다운로드
 description: Microsoft 365 Defender에서 인시던트에 대한 전자 메일 알림을 받을 수 있는 규칙을 만드는 방법을 학습
 keywords: 인시던트, 전자 메일, 전자 메일 알림, 구성, 사용자, 사서함, 전자 메일, 인시던트
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,12 +21,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f25be4de3f25db869957474c3cb32b20e9f7aa53
-ms.sourcegitcommit: 88d358d778804b26d5e41c53b4f725d01a78112b
+ms.technology: m365d
+ms.openlocfilehash: 9db025818fdd5eb2635a9a676e4a10e20f3036b6
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49848894"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930981"
 ---
 # <a name="get-incident-notifications-by-email"></a>전자 메일로 인시던트 알림 확인
 
@@ -40,7 +41,7 @@ ms.locfileid: "49848894"
 
 인시던트 심각도에 따라 또는 장치 그룹으로 알림을 받을 수 있습니다. 인시던트당 첫 번째 업데이트에서만 알림을 하게 선택할 수도 있습니다.
 
-전자 메일 알림에서 받는 사람을 추가하거나 제거할 수 있습니다. 새로 추가된 받는 사람은 인시던트가 추가된 후 알림을 받을 수 있습니다. 
+전자 메일 알림에서 받는 사람을 추가하거나 제거할 수 있습니다. 새로 추가된 받는 사람은 추가된 후 인시던트에 대한 알림을 받을 수 있습니다. 
 
 전자 메일 알림에는 인시던트 이름, 심각도, 범주 등 인시던트에 대한 중요한 세부 정보가 포함되어 있습니다. 또한 인시던트로 바로 이동하여 조사를 바로 시작할 수 있습니다. 인시던트 조사에 대한 자세한 내용은 [Microsoft 365 Defender에서](https://docs.microsoft.com/microsoft-365/security/mtp/investigate-incidents)인시던트 조사를 참조합니다.
 
@@ -71,7 +72,7 @@ ms.locfileid: "49848894"
 
 6. 마지막으로 새 **규칙과** 연결된  모든 설정을 볼 수 있도록 검토 규칙으로 이동하려면 다음을 선택합니다. 받는 사람은 설정에 따라 전자 메일을 통해 문제 알림 수신을 시작하게 됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>기타 참고 항목
 - [Microsoft 365 Defender의 인시던트 개요](https://docs.microsoft.com/microsoft-365/security/mtp/incidents-overview)
 - [Microsoft 365 Defender에서 인시던트 우선 순위 지정](https://docs.microsoft.com/microsoft-365/security/mtp/incident-queue)
 - [Microsoft 365 Defender에서 인시던트 조사](https://docs.microsoft.com/microsoft-365/security/mtp/investigate-incidents)

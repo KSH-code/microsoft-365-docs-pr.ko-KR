@@ -5,18 +5,19 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: 관리자는 Microsoft 365 보안 센터의 공격 시뮬레이션 교육이 직원에게 미치는 영향과 시뮬레이션 및 교육 결과에 대한 정보를 얻을 수 있습니다.
-ms.openlocfilehash: baff6032f295b2b49b4f2ec9280fb465d47b8dc3
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.technology: mdo
+ms.openlocfilehash: b7fd414cc355e768077198eb5215720c4d4a9444
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877143"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49933069"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>공격 시뮬레이션 교육 활용
 
@@ -33,7 +34,7 @@ ms.locfileid: "49877143"
 - **공격 시뮬레이션 교육을** 사용하는 다른 Microsoft 365 테넌트에서 동일한 유형의 페이로드를 사용하는 시뮬레이션의 평균 손상률을 반영하는 예측된 손상률입니다.
 - **실제 손상률은** 시뮬레이션에 대해 떨어졌다는 직원의 비율을 반영합니다.
 
-또한 공격으로 손상된 실제 직원 수와 예측한 손상율의 `<number> less susceptible to phishing` 차이를 반영합니다. 이 수의 직원은 향후 유사한 공격으로 손상될 가능성이 낮아지지만 예상 손상률과는 대조적으로 직원들이 전반적으로 어떻게 `<percent%> better than predicted rate` 나타냈는가를 나타냅니다.
+또한 공격으로 손상된 실제 직원 수와 예측한 손상율 간의 `<number> less susceptible to phishing` 차이를 반영합니다. 이 수의 직원은 향후 유사한 공격으로 손상될 가능성이 낮아지지만 예상 손상률과는 대조적으로 직원들이 전반적으로 어떻게 `<percent%> better than predicted rate` 나타냈는가를 나타냅니다.
 
 > [!div class="mx-imgBorder"]
 > ![공격 시뮬레이션 교육 개요에 대한 동작 영향 카드](../../media/attack-sim-preview-behavior-impact-card.png)
@@ -51,7 +52,7 @@ ms.locfileid: "49877143"
 
 ## <a name="related-links"></a>관련 링크
 
-[공격 시뮬레이션 교육 사용 시작](attack-simulation-training-get-started.md)
+[공격의 신나는 교육 사용 시작](attack-simulation-training-get-started.md)
 
 [피싱 공격 시뮬레이션 만들기](attack-simulation-training.md)
 

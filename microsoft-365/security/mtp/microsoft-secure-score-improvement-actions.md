@@ -2,7 +2,7 @@
 title: Microsoft 보안 점수를 통해 보안 환경 평가
 description: Microsoft 365 보안 센터에서 Microsoft 보안 점수를 개선하기 위한 조치를 취하는 방법을 설명 합니다.
 keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 보안 센터, 개선 작업
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
@@ -20,18 +20,19 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: c463e375594b3581486cb8d4bdd380412e195b2e
-ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
+ms.technology: m365d
+ms.openlocfilehash: 8cf416e773abc6cbe1fd891fcec9f02a5011c413
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "49738014"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930645"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Microsoft 보안 점수를 통해 보안 환경 평가
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft 보안 점수는 조직의 보안 자세를 측정한 것으로, 수치가 높을수록 개선 작업이 더 많이 수행됩니다. Microsoft https://security.microsoft.com/securescore [365](overview-security-center.md)보안 센터에서 찾을 수 있습니다.
+Microsoft 보안 점수는 조직의 보안 자세를 측정한 결과로, 수치가 높을수록 개선 작업이 더 많이 수행됩니다. Microsoft https://security.microsoft.com/securescore [365](overview-security-center.md)보안 센터에서 찾을 수 있습니다.
 
 필요한 정보를 보다 빠르게 지원하기 위해 Microsoft 개선 작업은 그룹으로 구성됩니다.
 
@@ -40,9 +41,9 @@ Microsoft 보안 점수는 조직의 보안 자세를 측정한 것으로, 수�
 * 앱(Office 365 및 Microsoft Cloud App Security를 포함한 전자 메일 및 클라우드 앱)
 
 >[!NOTE]
->Microsoft 보안 점수의 최근 릴리스에서는 Microsoft 보안 점수가 ID 보안 점수 및 Graph API와 일시적으로 양자화되지 않는 향상된 점수 모델이 릴리스되었습니다. [자세히 보기](microsoft-secure-score-whats-new.md)
+>Microsoft 보안 점수의 최근 릴리스에서는 Microsoft 보안 점수가 ID 보안 점수 및 Graph API와 일시적으로 양자화되지 않는 향상된 점수 매기기 모델이 릴리스되었습니다. [자세히 보기](microsoft-secure-score-whats-new.md)
 
-Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가 분할된 방식과 사용 가능한 포인트를 들을 수 있습니다. 또한 전체 점수, 벤치마크 비교를 통해 보안 점수의 기록 추세, 점수를 개선하기 위해 수행할 수 있는 우선 순위가 높은 개선 작업을 모두 볼 수 있습니다.
+Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가 분할된 방식과 사용 가능한 포인트를 들을 수 있습니다. 또한 전체 점수, 벤치마크 비교를 사용하여 보안 점수의 기록 추세, 점수를 개선하기 위해 수행할 수 있는 우선 순위가 높은 개선 작업을 모두 볼 수 있습니다.
 
 ![보안 점수 홈페이지](../../media/secure-score/secure-score-homepage-new.png)
 
@@ -54,7 +55,7 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가
 
 다음은 전체 점수의 보기에 추가하여 전체 점수에 대한 더 많은 그림을 제공 할 수 있는 점수입니다.
 
-- **계획된 점수**: 계획된 작업이 완료된 경우의 예정된 점수 표시
+- **계획된 점수:** 계획된 작업이 완료된 경우의 예정된 점수 표시
 - **현재 라이선스 점수:** 현재 Microsoft 라이선스로 달성할 수 있는 점수 표시
 - **달성 가능한 점수:** Microsoft 라이선스 및 현재 위험 수용으로 달성할 수 있는 점수 표시
 
@@ -115,7 +116,7 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가
 
 ## <a name="we-want-to-hear-from-you"></a>의견을 보내 주세요.
 
-문제가 있는 경우 보안, 개인 정보 보호 및 규정 준수 커뮤니티에 & [알려주세요.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티를 모니터링하고 있으며 도움을 제공할 것입니다.
+문제가 있는 경우 보안, 개인 정보 보호 및 규정 준수 커뮤니티에 게시하여 [& 알려주세요.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티를 모니터링하고 있으며 도움을 제공할 것입니다.
 
 ## <a name="related-resources"></a>관련 리소스
 

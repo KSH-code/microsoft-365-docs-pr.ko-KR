@@ -3,7 +3,7 @@ title: Microsoft 365 Defender API 라이선스 및 사용 약관
 description: Microsoft 365 Defender의 API에 대한 라이선스 및 사용 약관에 대한 설명
 keywords: api, api, 사용권, 사용 조건, api, 법적, 고지, 행동 강령
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d9b3c48e4b9e89ef7648086b05c9fdd9f078f51e
-ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
+ms.technology: m365d
+ms.openlocfilehash: 82f31c449ae2e102ac7464e0fef75277660844d1
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49719301"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930957"
 ---
 # <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Microsoft 365 Defender API 라이선스 및 사용 약관
 

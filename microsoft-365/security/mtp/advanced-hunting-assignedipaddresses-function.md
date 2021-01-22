@@ -1,10 +1,10 @@
 ---
-title: Microsoft 365 Defender에 대 한 고급 구하기의 AssignedIPAddresses () 함수
-description: AssignedIPAddresses () 함수를 사용 하 여 장치에 할당 된 최신 IP 주소를 가져오는 방법에 대해 알아봅니다.
-keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, FileProfile, file profile, function, 향상
+title: Microsoft 365 Defender에 대한 고급 헌팅의 AssignedIPAddresses() 기능
+description: AssignedIPAddresses() 함수를 사용하여 장치에 할당된 최신 IP 주소를 다운로드하는 방법을 학습합니다.
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, FileProfile, file profile, function, enrichment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: cb9dffca148c95f284a6a7e920f3a08a839b748d
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: d16cd7efc49cc2498eff3f705bb43fa62f37d975
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847647"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49933021"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -34,39 +35,39 @@ ms.locfileid: "48847647"
 **적용 대상:**
 - Microsoft 365 Defender
 
-`AssignedIPAddresses()` [고급 구하기](advanced-hunting-overview.md) 쿼리의 함수를 사용 하 여 장치에 할당 된 최신 IP 주소를 빠르게 얻습니다. Timestamp 인수를 지정 하면이 함수는 지정 된 시간에 가장 최근 IP 주소를 가져옵니다. 
+고급 헌팅 쿼리의 기능을 사용하여 장치에 할당된 최신 IP 주소를 빠르게 `AssignedIPAddresses()` 얻습니다. [](advanced-hunting-overview.md) 타임스탬프 인수를 지정하면 이 함수는 지정된 시간의 가장 최근 IP 주소를 얻습니다. 
 
-이 함수는 다음과 같은 열이 있는 table을 반환 합니다.
+이 함수는 다음 열이 있는 표를 반환합니다.
 
 | 열 | 데이터 형식 | 설명 |
 |------------|-------------|-------------|
-| `Timestamp` | datetime | IP 주소를 사용 하 여 장치를 확인 한 최근 시간 |
-| `IPAddress` | 문자열 | 장치에서 사용 하는 IP 주소 |
-| `IPType` | 문자열 | IP 주소가 공용 또는 개인 주소 인지 여부를 나타냅니다. |
-| `NetworkAdapterType` | int | IP 주소가 할당 된 장치에서 사용 하는 네트워크 어댑터 유형입니다. 가능한 값은 [this 열거형](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype) 을 참조 하십시오. |
-| `ConnectedNetworks` | int | 할당 된 IP 주소가 있는 어댑터가 연결 되는 네트워크입니다. 각 JSON 배열에는 네트워크 이름, 범주 (공용, 개인 또는 도메인), 설명 및 공용이 인터넷에 연결 되어 있는지 여부를 나타내는 플래그가 포함 됩니다. |
+| `Timestamp` | datetime | IP 주소를 사용하여 장치가 관찰된 최신 시간 |
+| `IPAddress` | 문자열 | 장치에서 사용하는 IP 주소 |
+| `IPType` | 문자열 | IP 주소가 공용 주소인지 개인 주소인지를 나타냅니다. |
+| `NetworkAdapterType` | int | IP 주소가 할당된 장치에서 사용하는 네트워크 어댑터 유형입니다. 가능한 값은 이 [열거를 참조하세요.](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype) |
+| `ConnectedNetworks` | int | 할당된 IP 주소가 있는 어댑터가 연결된 네트워크입니다. 각 JSON 배열에는 네트워크 이름, 범주(공용, 개인 또는 도메인), 설명 및 인터넷에 공개적으로 연결되어 있는지를 나타내는 플래그가 포함되어 있습니다. |
 
-## <a name="syntax"></a>구문과
+## <a name="syntax"></a>구문
 
 ```kusto
 AssignedIPAddresses(x, y)
 ```
 
-## <a name="arguments"></a>인수나
+## <a name="arguments"></a>인수
 
-- **x** - `DeviceId` `DeviceName` 장치를 식별 하는 값입니다.
-- **y** - `Timestamp` (datetime)-함수가 특정 시간에서 가장 최근 할당 된 IP 주소를 가져오도록 지시 합니다. 이를 지정 하지 않으면이 함수는 최신 IP 주소를 반환 합니다.
+- **x**— `DeviceId` `DeviceName` 또는 디바이스를 식별하는 값
+- **y**— (datetime) 함수가 특정 시간에서 가장 최근에 할당된 IP 주소를 `Timestamp` 구하도록 지시하는 값입니다. 지정하지 않으면 이 함수는 최신 IP 주소를 반환합니다.
 
 ## <a name="examples"></a>예
 
-### <a name="get-the-list-of-ip-addresses-used-by-a-device-24-hours-ago"></a>장치에서 사용 하는 IP 주소 목록을 24 시간 전에 가져오기
+### <a name="get-the-list-of-ip-addresses-used-by-a-device-24-hours-ago"></a>24시간 전 디바이스에서 사용하는 IP 주소 목록 표시
 
 ```kusto
 AssignedIPAddresses('example-device-name', ago(1d))
 ```
 
-### <a name="get-ip-addresses-used-by-a-device-and-find-devices-communicating-with-it"></a>장치에서 사용 하는 IP 주소 가져오기 및 it와 통신 하는 장치 찾기
-이 쿼리는 함수를 사용 하 여 `AssignedIPAddresses()` `example-device-name` 특정 날짜 또는 그 이전에 장치에 할당 된 IP 주소를 가져옵니다 `example-date` . 그런 다음 IP 주소를 사용 하 여 다른 장치가 시작한 장치에 대 한 연결을 찾습니다. 
+### <a name="get-ip-addresses-used-by-a-device-and-find-devices-communicating-with-it"></a>장치에서 사용하는 IP 주소를 찾고 장치와 통신하는 장치 찾기
+이 쿼리는 함수를 사용하여 특정 날짜()에 또는 그 이전의 장치()에 대해 할당된 IP 주소를 `AssignedIPAddresses()` `example-device-name` `example-date` 얻습니다. 그런 다음 IP 주소를 사용하여 다른 장치에서 시작한 장치에 대한 연결을 확인합니다. 
 
 ```kusto
 let Date = datetime(example-date);

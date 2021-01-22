@@ -3,7 +3,7 @@ title: Microsoft 365 Defender의 수정 작업
 description: Microsoft 365 Defender에서 자동화된 조사를 따르는 수정 작업 개요 보기
 keywords: 자동화된, 조사, 경고, 트리거, 작업, 수정
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,12 +21,13 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.date: 12/09/2020
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 9e489e3b0100aa138b11d4bfb4ccc8048a2113f4
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.technology: m365d
+ms.openlocfilehash: c6b0275335f32419b470c789d83b069be7839c36
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683298"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932853"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Microsoft 365 Defender의 수정 작업
 
@@ -50,7 +51,7 @@ Microsoft 365 Defender에서 자동화된 조사가 진행되는 동안 및 이�
 
 |장치(끝점) 수정 작업  |전자 메일 수정 작업  |
 |---------|---------|
-|- 조사 패키지 수집 <br/>- 장치 격리(이 작업은 실행을 실행하지 않습니다.)<br/>- 컴퓨터 오프보드 <br/>- 릴리스 코드 실행 <br/>- 릴리스 <br/>- 샘플 요청 <br/>- 코드 실행 제한(이 작업은 실행을 실행 중지할 수 있습니다.) <br/>- 바이러스 백신 검사 실행 <br/>- 중지 및 Quarantine      |- 차단 URL(클릭 시간)<br/>- 전자 메일 메시지 또는 클러스터를 소프트 삭제<br/>- 전자 메일 확인<br/>- 전자 메일 첨부 파일 확인<br/>- 외부 메일 전달 끄기          |
+|- 조사 패키지 수집 <br/>- 장치 격리(이 작업은 실행을 실행하지 않습니다.)<br/>- 컴퓨터 오프보드 <br/>- 릴리스 코드 실행 <br/>- 릴리스 <br/>- 요청 샘플 <br/>- 코드 실행 제한(이 작업은 실행을 실행 중지할 수 있습니다.) <br/>- 바이러스 백신 검사 실행 <br/>- 중지 및 Quarantine      |- 차단 URL(클릭 시간)<br/>- 전자 메일 메시지 또는 클러스터를 소프트 삭제<br/>- 전자 메일 확인<br/>- 전자 메일 첨부 파일 확인<br/>- 외부 메일 전달 끄기          |
 
 승인 보류 중인지 또는 이미 완료 여부에 따라 수정 작업은 관리 센터에서 볼 [수 있습니다.](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)
 

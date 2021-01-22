@@ -2,7 +2,7 @@
 title: Microsoft Secure Score
 description: Microsoft 365 보안 센터의 Microsoft 보안 점수, 보안 자세를 개선하는 방법 및 보안 관리자가 기대할 수 있는 기능을 기술합니다.
 keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 보안 센터, 개선 작업
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
@@ -20,18 +20,19 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 6e9dd214e53e3fdd601fe51e5522a3a24a7fd3d0
-ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
+ms.technology: m365d
+ms.openlocfilehash: a0f4307cc0ed42a8ed53cdeefdb0a7b32eb36d35
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "49738002"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930585"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft 보안 점수는 조직의 보안 자세를 측정한 것으로, 수치가 높을수록 개선 작업이 더 많이 수행됩니다. Microsoft https://security.microsoft.com/securescore [365](overview-security-center.md)보안 센터에서 찾을 수 있습니다.
+Microsoft 보안 점수는 조직의 보안 자세를 측정한 결과로, 수치가 높을수록 개선 작업이 더 많이 수행됩니다. Microsoft https://security.microsoft.com/securescore [365](overview-security-center.md)보안 센터에서 찾을 수 있습니다.
 
 보안 점수 권장 사항을 따라 조직을 위협으로부터 보호할 수 있습니다. Microsoft 365 보안 센터의 중앙 집중식 대시보드에서 조직은 Microsoft 365 ID, 앱 및 장치의 보안을 모니터링하고 작업할 수 있습니다.
 
@@ -41,11 +42,11 @@ Microsoft 보안 점수는 조직의 보안 자세를 측정한 것으로, 수�
 * 검색 가능성, 가시성, 지침 및 제어 기능을 제공하여 보안의 보안을 개선합니다.  
 * 벤치마크와 비교하여 KPIS(핵심 성과 지표)를 설정합니다.
 
-조직은 메트릭 및 추세의 강력한 시각화, 다른 Microsoft 제품과의 통합, 유사한 조직과의 점수 비교 등의 강력한 시각화에 액세스할 수 있습니다. 또한 이 점수는 타사 솔루션이 권장 작업을 해결한 경우를 반영할 수 있습니다.
+조직은 메트릭 및 추세의 강력한 시각화, 다른 Microsoft 제품과의 통합, 유사한 조직과의 점수 비교 등의 강력한 시각화에 액세스할 수 있습니다. 또한 타사 솔루션에서 권장 작업을 해결한 경우 점수가 반영될 수 있습니다.
 
 ![보안 점수 홈페이지](../../media/secure-score/secure-score-homepage-new.png)
 
-## <a name="how-it-works"></a>작업 방법
+## <a name="how-it-works"></a>작동 방식
 
 다음 작업에 대한 포인트가 부여됩니다.
 
@@ -124,11 +125,11 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여하려면 Azu
 
 ## <a name="risk-awareness"></a>위험 인식
 
-Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 관련 측정값을 기반으로 하는 보안의 수치 요약입니다. 이는 시스템 또는 데이터가 침해될 가능성에 대한 절대적인 측정치가 아니며, 그보다는 Microsoft 환경에서 보안 제어를 채택한 범위를 나타내며 위반 위험을 완화할 수 있습니다. 온라인 서비스가 보안 침해로부터 영향을 받는 것은 아니며 보안 점수는 어떤 방식으로든 보안 위반에 대한 보장으로 해석되지 않습니다.
+Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 관련 측정값을 기반으로 하는 보안의 수치 요약입니다. 이는 시스템 또는 데이터가 침해될 가능성에 대한 절대적인 측정치가 아니며, 그보다는 Microsoft 환경에서 보안 제어를 채택한 범위를 나타내며 위반 위험을 완화할 수 있습니다. 온라인 서비스가 보안 위반으로부터 영향을 받는 것은 아니며 보안 점수는 어떤 방식으로든 보안 위반에 대한 보장으로 해석되지 않습니다.
 
 ## <a name="we-want-to-hear-from-you"></a>의견을 보내 주세요.
 
-문제가 있는 경우 보안, 개인 정보 보호 및 규정 준수 커뮤니티에 & [알려주세요.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티를 모니터링하고 있으며 도움을 제공할 것입니다.
+문제가 있는 경우 보안, 개인 정보 보호 및 규정 준수 커뮤니티에 게시하여 [& 알려주세요.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티를 모니터링하고 있으며 도움을 제공할 것입니다.
 
 ## <a name="related-resources"></a>관련 리소스
 

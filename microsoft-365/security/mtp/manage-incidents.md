@@ -3,7 +3,7 @@ title: Microsoft 365 Defender에서 인시던트 관리
 description: 상태, 인시던트, 경고, 연관된 경고, 할당, 업데이트, 상태, 관리, 분류, microsoft, 365, m365를
 keywords: 할당하고 업데이트하는 방법을 알아봅니다.인시던트, 인시던트, 경고, 연관 되는 경고, 할당, 업데이트, 상태, 관리, 분류, microsoft, 365, m365
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -21,12 +21,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 29f55d99dd3acd26ae305c03b533e2ca9bb61f2a
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 90d9d397b8baf0ffdb9844a0f068f142a5c7fd48
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846655"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49930633"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 인시던트 관리
 
@@ -38,7 +39,7 @@ ms.locfileid: "48846655"
 
 
 
-인시던트 관리는 위협이 포함되어 있고 해결되었는지 확인하는 데 매우 중요합니다. Microsoft 365 Defender에서는 장치, 사용자 및 사서함에 대 한 인시던트 관리에 액세스할 수 있습니다. 
+인시던트 관리는 위협이 포함되어 있고 해결되었는지 확인하는 데 매우 중요합니다. Microsoft 365 Defender에서 장치, 사용자 및 사서함의 인시던트 관리에 액세스할 수 있습니다. 
 
 
 **인시던트 큐** 에서 인시던트를 선택하여 인시던트를 관리할 수 있습니다. 
@@ -48,14 +49,14 @@ ms.locfileid: "48846655"
 조사 중에 한 인시던트의 알림을 다른 인시던트로 이동하려는 경우, 모든 관련된 알림이 포함된 더 크거나 작은 인시던트를 만들어 알림 탭에서 해당 작업을 수행할 수도 있습니다.
 
 ## <a name="edit-incident-name"></a>인시던트 이름 편집
-영향 받는 끝점 수, 영향을 받는 사용자, 검색 원본 또는 범주와 같은 경고 특성에 따라 인시던트에 자동으로 이름이 할당 됩니다. 이를 통해 사고의 범위를 빠르게 파악할 수 있습니다.
+인시던트에는 영향을 받는 끝점 수, 영향을 받는 사용자, 검색 원본 또는 범주와 같은 경고 특성에 따라 이름이 자동으로 할당됩니다. 이렇게 하면 인시던트의 범위를 빠르게 이해할 수 있습니다.
 
-예를 들어 *여러 출처에서 보고 하는 여러 끝점에 대 한 다단계 인시던트가 있습니다.*
+예: 여러 원본에서 보고하는 여러 끝점의 다단계 *인시던트입니다.*
 
 기본 명명 규칙에 맞게 인시던트 이름을 수정할 수 있습니다.
 
 > [!NOTE]
-> 자동 인시던트 명명 기능의 롤아웃 이전에 존재 했던 인시던트는 해당 이름을 유지 합니다.
+> 자동 인시던트 명명 기능을 롤아웃하기 전에 존재한 인시던트의 이름은 그대로 유지됩니다.
 
 
 
@@ -64,7 +65,7 @@ ms.locfileid: "48846655"
 
 ## <a name="set-status-and-classification"></a>상태 및 분류 설정
 ### <a name="incident-status"></a>인시던트 상태
-조사가 진행됨에 따라 상태를 변경하여 인시던트( **활성** 또는 **해결됨** )를 분류할 수 있습니다. 이렇게 하면 팀에서 인시더트에 대한 대응 방법을 구성하고 관리할 수 있습니다.
+조사가 진행됨에 따라 상태를 변경하여 인시던트(**활성** 또는 **해결됨**)를 분류할 수 있습니다. 이렇게 하면 팀에서 인시더트에 대한 대응 방법을 구성하고 관리할 수 있습니다.
 
 예를 들어, SOC 분석가가 해당 일의 긴급한 **활성** 인시던트를 검토하고 조사를 위해 자신에게 인시던트를 할당할 수 있습니다.ㅎ
 

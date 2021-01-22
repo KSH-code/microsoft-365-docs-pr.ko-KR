@@ -1,10 +1,10 @@
 ---
-title: 고급 구하기 스키마의 AlertEvidence 테이블
-description: 고급 구하기 스키마의 AlertEvidence 테이블에서 경고와 관련 된 정보에 대해 자세히 알아보기
-keywords: 고급 구하기, 위협 검색, 사이버 위협 요소 검색, microsoft threat protection, microsoft 365, mtp, m365, search, query, 원격 분석, 스키마 참조, kusto, table, column, AlertInfo, account, address,, file, machine, user, account
+title: 고급 헌팅chema의 AlertEvidence 표
+description: 고급 헌팅 스파이마의 AlertEvidence 표에서 경고와 관련된 정보에 대해 자세히
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, AlertInfo, alert, entities, evidence, file, IP address, device, machine, user, account
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 549eed005e06a7d52ce2f881820ae9fdeffdfea7
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: c01b0aae1eff3d9b4add632aff0f13cb56941a30
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48847683"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932307"
 ---
 # <a name="alertevidence"></a>AlertEvidence
 
@@ -34,7 +35,7 @@ ms.locfileid: "48847683"
 **적용 대상:**
 - Microsoft 365 Defender
 
-`AlertEvidence` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 파일, IP 주소, url, 사용자 또는 장치 (Microsoft defender for Endpoint, Microsoft defender for Office 365, Microsoft Cloud App Security 및 Identity 용 microsoft defender)의 경고와 관련 된 다양 한 엔터티에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+고급 헌팅 계획의 표에는 `AlertEvidence` 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, Microsoft Cloud App Security 및 Id용 Microsoft Defender의 알림과 관련된 다양한 엔터티(파일, IP 주소, URL, 사용자 또는 장치)에 대한 정보가 포함되어 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
@@ -43,35 +44,35 @@ ms.locfileid: "48847683"
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
 | `AlertId` | 문자열 | 경고의 고유 식별자입니다. |
 | `ServiceSource` | 문자열 | 경고 정보를 제공한 제품 또는 서비스 |
-| `EntityType` | 문자열 | 파일, 프로세스, 장치 또는 사용자와 같은 개체의 유형입니다. |
-| `EvidenceRole` | 문자열 | 관계가 영향을 받는 지 또는 관련이 있는지를 나타내는 경고에 포함 되는 방법 |
-| `EvidenceDirection` | 문자열 | 엔터티가 네트워크 연결의 원본 또는 대상 인지를 나타냅니다. |
+| `EntityType` | 문자열 | 파일, 프로세스, 장치 또는 사용자와 같은 개체 유형 |
+| `EvidenceRole` | 문자열 | 엔터티가 영향이 있는지 또는 관련이 있는지를 나타내는 경고에 엔터티가 관련된 방법 |
+| `EvidenceDirection` | 문자열 | 엔터티가 네트워크 연결의 원본인지 아니면 대상인지를 나타냅니다. |
 | `FileName` | 문자열 | 기록된 조치가 적용된 파일의 이름 |
-| `FolderPath` | 문자열 | 기록 된 작업이 적용 된 파일을 포함 하는 폴더 |
+| `FolderPath` | 문자열 | 기록된 작업이 적용된 파일이 들어 있는 폴더 |
 | `SHA1` | 문자열 | 기록된 조치가 적용된 파일의 SHA-1 |
-| `SHA256` | 문자열 | 기록된 조치가 적용된 파일의 SHA-256 이 필드는 대개 채워지지 않으며, 가능한 경우 SHA1 열을 사용 합니다. |
-| `FileSize` | int | 파일 크기 (바이트)입니다. |
-| `ThreatFamily` | 문자열 | 의심 스러운 또는 악성 파일 또는 프로세스가 분류 된 맬웨어 패밀리 |
+| `SHA256` | 문자열 | 기록된 조치가 적용된 파일의 SHA-256 일반적으로 이 필드는 채워지지 않습니다. 사용 가능한 경우 SHA1 열을 사용 합니다. |
+| `FileSize` | int | 파일 크기(bytes)입니다. |
+| `ThreatFamily` | 문자열 | 의심스러운 파일 또는 악성 파일 또는 프로세스가 분류된 맬웨어 패밀리 |
 | `RemoteIP` | 문자열 | 연결된 IP 주소 |
 | `RemoteUrl` | 문자열 | 연결된 URL 또는 FQDN(정규화된 도메인 이름) |
-| `AccountName` | 문자열 | 계정의 사용자 이름입니다. |
+| `AccountName` | 문자열 | 계정의 사용자 이름 |
 | `AccountDomain` | 문자열 | 계정의 도메인 |
-| `AccountSid` | 문자열 | 계정의 SID (보안 식별자) |
-| `AccountObjectId` | 문자열 | Azure Active Directory의 계정에 대 한 고유 식별자입니다. |
-| `DeviceId` | 문자열 | 서비스의 장치에 대 한 고유 식별자입니다. |
+| `AccountSid` | 문자열 | 계정의 SID(보안 식별자)입니다. |
+| `AccountObjectId` | 문자열 | Azure Active Directory에서 계정의 고유 식별자 |
+| `DeviceId` | 문자열 | 서비스에서 디바이스의 고유 식별자 |
 | `DeviceName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름) |
-| `LocalIP` | 문자열 | 통신 중에 사용 되는 로컬 장치에 할당 된 IP 주소 |
+| `LocalIP` | 문자열 | 통신 중에 사용되는 로컬 장치에 할당된 IP 주소 |
 | `NetworkMessageId` | 문자열 | Office 365에서 생성되는 전자 메일의 고유 식별자 |
 | `EmailSubject` | 문자열 | 전자 메일 제목 |
-| `ApplicationId` | 문자열 | 응용 프로그램의 고유 식별자입니다. |
-| `Application` | 문자열 | 기록 된 작업을 수행한 응용 프로그램 |
-| `ProcessCommandLine` | 문자열 | 새 프로세스를 만드는 데 사용 되는 명령줄 |
-| `AdditionalFields` | 문자열 | JSON 배열 형식의 이벤트에 대 한 추가 정보 |
+| `ApplicationId` | 문자열 | 응용 프로그램의 고유 식별자 |
+| `Application` | 문자열 | 기록된 작업을 수행한 응용 프로그램 |
+| `ProcessCommandLine` | 문자열 | 새 프로세스를 만드는 데 사용되는 명령줄 |
+| `AdditionalFields` | 문자열 | JSON 배열 형식의 이벤트에 대한 추가 정보 |
 
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
-- [기기, 전자 메일, 앱 및 ID를 검색합니다.](advanced-hunting-query-emails-devices.md)
+- [장치, 전자 메일, 앱 및 ID를 검색합니다.](advanced-hunting-query-emails-devices.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)
 - [쿼리 모범 사례 적용](advanced-hunting-best-practices.md)

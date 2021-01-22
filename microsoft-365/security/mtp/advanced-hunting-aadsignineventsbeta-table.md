@@ -4,7 +4,7 @@ description: 고급 헌팅 구조의 Azure Active Directory 로그인 이벤트 
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, file, IP address, device, machine, user, account, identity, AAD
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 1830eeec674c4948bd6492780ef8a0a8039111b8
-ms.sourcegitcommit: 4482c174e0e68e0fbbc7ad9ef6b0e78dc34ac85a
+ms.technology: m365d
+ms.openlocfilehash: b574717d0ba5621d85c8e73f36ddc72b062a1494
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49784290"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49931041"
 ---
 # <a name="aadsignineventsbeta"></a>AADSignInEventsBeta
 
@@ -33,7 +34,7 @@ ms.locfileid: "49784290"
 - Microsoft 365 Defender
 
 >[!IMPORTANT]
-> 표는 현재 베타 상태이며 AAD(Azure Active Directory) 로그인 이벤트를 검색할 수 있도록 단기적으로 `AADSignInEventsBeta` 제공됩니다. 결국 모든 로그인 schema 정보를 테이블로 `IdentityLogonEvents` 이동하게 됩니다.<br><br>
+> 이 표는 현재 베타 상태이며 AAD(Azure Active Directory) 로그인 이벤트를 검색할 수 있도록 단기적으로 `AADSignInEventsBeta` 제공됩니다. 결국 모든 로그인 schema 정보를 테이블로 `IdentityLogonEvents` 이동하게 됩니다.<br><br>
 > Azure Security Center의 통합된 Microsoft Defender for Endpoint 솔루션을 통해 Microsoft 365 Defender에 액세스할 수 있지만 Office용 Microsoft Defender, ID용 Microsoft Defender 또는 Microsoft Cloud App Security에 대한 라이선스가 없는 고객은 이 schema를 볼 수 없습니다. 
 
  
@@ -59,7 +60,7 @@ ms.locfileid: "49784290"
 | `AccountDisplayName`              | 문자열        | 주소부에 표시된 계정 사용자의 이름입니다. 일반적으로 주어진 이름 또는 이름, 중간 이니셜 및 성 또는 성의 조합입니다.                             |
 | `AccountObjectId`                 | 문자열        | Azure AD에서 계정의 고유 식별자                                                                                                                                       |
 | `AccountUpn`                      | 문자열        | 계정의 UPN(사용자 계정 이름)                                                                                                                                            |
-| `IsExternalUser`                  | int        | 로그인한 사용자가 외부에 있는지 나타냅니다. 가능한 값: -1(설정 안 ),0(외부 값 아미기), 1(외부)                                                                   |
+| `IsExternalUser`                  | int        | 로그인한 사용자가 외부에 있는지 나타냅니다. 가능한 값: -1(설정되지 않은 값), 0(외부 값 아미기), 1(외부)                                                                   |
 | `IsGuestUser`                     | 부울       | 로그인한 사용자가 테넌트의 게스트인지 여부를 나타냅니다.                                                                                                                  |
 | `AlternateSignInName`             | 문자열        | Azure AD에 로그인하는 사용자의 UPN(On-premises User Principal Name)                                                                                                            |
 | `LastPasswordChangeTimestamp`     | datetime        | 마지막으로 로그인한 사용자가 암호를 변경한 날짜 및 시간                                                                                                              |

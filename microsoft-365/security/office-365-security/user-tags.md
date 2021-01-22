@@ -8,19 +8,20 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Microsoft Defender for Office 365 요금제 2에서 사용자 태그를 사용하여 특정 사용자 그룹을 식별하는 방법을 배울 수 있습니다. 태그 필터링은 Microsoft Defender for Office 365의 경고, 보고서 및 조사에서 사용할 수 있으며, 태그가 지정된 사용자를 빠르게 식별할 수 있습니다.
-ms.openlocfilehash: ad06bf90f1ecb93d671bfcad6fad0b4f2a952cb2
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: ed91492e652773b3a48373df49b20d97887df6ee
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663610"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49931437"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 사용자 태그
 
@@ -46,11 +47,11 @@ ms.locfileid: "49663610"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 사용자 태그 페이지로 직접 **이동하기 위해** 를 열습니다. <https://protection.office.com/userTags>
+- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. 사용자 태그 **페이지로** 직접 이동하기 위해 를 <https://protection.office.com/userTags> 열습니다.
 
-- 이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 받아야 합니다.
+- 이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 할당받아야 합니다.
   - 사용자 태그를 만들고 수정하고 삭제하려면 **조직** 관리 또는 보안 관리자 역할 그룹의 **구성원이** 되거나 삭제됩니다.
-  - 기존 사용자 태그에서 구성원을 추가 및 제거하려면 조직 **관리,** 보안 관리자 또는 보안 운영자 역할 그룹의 **구성원이** 되거나,
+  - 기존 사용자 태그에서 구성원을 추가 및 제거하려면 **조직** **관리,** 보안 관리자 또는 보안 운영자 역할 그룹의 **구성원이** 되거나,
   - 사용자 태그에 대한 읽기 전용 액세스의 경우 전역  읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되거나,
 
   자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.

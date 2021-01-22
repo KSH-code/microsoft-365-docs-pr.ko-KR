@@ -4,7 +4,7 @@ description: 프로덕션에서 파일럿 Microsoft 365 Defender 프로젝트를
 keywords: Microsoft 위협 방지 파일럿, 파일럿 Microsoft Threat Protection 프로젝트 실행, 프로덕션에서 Microsoft Threat Protection 평가, Microsoft Threat Protection 파일럿 프로젝트, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -20,12 +20,13 @@ ms.collection:
 - m365solution-overview
 - m365solution-pilotmtpproject
 ms.topic: conceptual
-ms.openlocfilehash: f01e918d35ce77d9239c200355c7b4c48c9e2b84
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: m365d
+ms.openlocfilehash: 9c0635058539e464a76f1720f041c205a05fa9b2
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659324"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49933033"
 ---
 # <a name="run-your-pilot-microsoft-365-defender-project"></a>파일럿 Microsoft 365 Defender 프로젝트 실행 
 
@@ -49,18 +50,18 @@ ms.locfileid: "49659324"
 이 가이드에서는 Microsoft 365 Defender에 대한 개요와 파일럿 프로젝트를 설정하는 방법에 대한 단계별 지침을 제공합니다. 
 
 Microsoft 365 Defender는 엔드포인트, ID, 전자 메일 및 응용 프로그램에서 기본적으로 보호, 탐지, 예방, 조사 및 대응을 조정하여 정교한 공격으로부터 통합된 보호를 제공하는 통합 사전 및 사후 위반 엔터프라이즈 방어 제품군입니다. 이를 위해 다음 기능을 결합하고 단일 보안 솔루션으로 오케스트레이션합니다.
-  - Microsoft Defender for Endpoint, Microsoft Defender Advanced Threat Protection의 새 이름(끝점)
+  - 끝점용 Microsoft Defender, Microsoft Defender Advanced Threat Protection의 새 이름(끝점)
   - Office 365 ATP의 새로운 이름인 Office 365용 Microsoft Defender(전자 메일) 
   - Azure ATP의 새 이름인 ID용 Microsoft Defender(ID) 
   - Microsoft Cloud App Security(앱)
 
-![클라우드 of_Microsoft, Microsoft Cloud App Security 및 데이터용 끝점용 Microsoft Defender for Identity에 대한 사용자용 이미지 365 Defender 솔루션, ID용 Microsoft Defender](../../media/mtp/m365pillars.png)
+![사용자용 이미지 of_Microsoft 365 Defender 솔루션, ID용 Microsoft Defender, 끝점용 Microsoft Defender, 클라우드 앱용, Microsoft Cloud App Security 및 데이터용, Office 365용 Microsoft Defender](../../media/mtp/m365pillars.png)
 
-통합된 Microsoft 365 Defender 솔루션을 사용하여 보안 전문가는 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, ID용 Microsoft Defender 및 Microsoft Cloud App Security에서 수신하는 위협 신호를 통합하고 위협의 전체 범위와 영향, 위협이 환경에 들어오고 있는 방법, 영향을 받는 방법 및 현재 조직에 미치는 영향을 확인할 수 있습니다. Microsoft 365 Defender는 공격을 방지하거나 중지하고 영향을 받는 사서함, 끝점 및 사용자 ID를 자체적으로 예방하거나 중지하는 자동 조치를 취합니다. 자세한 내용은 [Microsoft 365 Defender 개요를](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 참조하세요.
+통합된 Microsoft 365 Defender 솔루션을 사용하여 보안 전문가는 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, ID용 Microsoft Defender 및 Microsoft Cloud App Security가 받는 위협 신호를 통합하고 위협의 전체 범위와 영향, 위협이 환경에 들어오고 있는 방법, 영향을 받는 방법 및 현재 조직에 미치는 영향을 확인할 수 있습니다. Microsoft 365 Defender는 공격을 방지하거나 중지하고 영향을 받는 사서함, 끝점 및 사용자 ID를 자체적으로 예방하거나 중지하는 자동 조치를 취합니다. 자세한 내용은 [Microsoft 365 Defender 개요를](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 참조하세요.
 
 
 
-다음 샘플 타임라인은 환경에 적합한 리소스가 있는 데 따라 다릅니다. 일부 검색 및 워크플로는 다른 검색 및 워크플로보다 학습 시간이 더 필요할 수 있습니다.
+다음 샘플 타임라인은 환경에 적합한 리소스를 배치하는 데 따라 다릅니다. 일부 검색 및 워크플로는 다른 검색 및 워크플로보다 학습 시간이 더 필요할 수 있습니다.
 
 ![Microsoft 365 Defender 파일럿 실행 샘플 타임라인](../../media/phase-diagrams/pilot-phases.png)
 
