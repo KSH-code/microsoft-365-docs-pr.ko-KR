@@ -3,7 +3,7 @@ title: Microsoft 365 Defender 서비스 문제 해결
 description: 알려진 Microsoft 365 Defender 문제 해결 방법 찾기
 keywords: Microsoft 위협 방지 문제 해결, 문제 해결, Azure ATP, 문제, 추가 기능, 설정 페이지
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,35 +19,36 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b7b6ea55d084c114b79dfee0e061b09c8ede8632
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.technology: m365d
+ms.openlocfilehash: 414743fa5ba25b9d2714c1dd08dd38e34ec94372
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760461"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925721"
 ---
-# <a name="troubleshoot-microsoft-365-defender-service-issues"></a><span data-ttu-id="4c026-104">Microsoft 365 Defender 서비스 문제 해결</span><span class="sxs-lookup"><span data-stu-id="4c026-104">Troubleshoot Microsoft 365 Defender service issues</span></span>
+# <a name="troubleshoot-microsoft-365-defender-service-issues"></a><span data-ttu-id="8fd1a-104">Microsoft 365 Defender 서비스 문제 해결</span><span class="sxs-lookup"><span data-stu-id="8fd1a-104">Troubleshoot Microsoft 365 Defender service issues</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="4c026-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="4c026-105">**Applies to:**</span></span>
-- <span data-ttu-id="4c026-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="4c026-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="8fd1a-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="8fd1a-105">**Applies to:**</span></span>
+- <span data-ttu-id="8fd1a-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="8fd1a-106">Microsoft 365 Defender</span></span>
 
-<span data-ttu-id="4c026-107">이 섹션에서는 Microsoft 365 Defender 서비스를 사용할 때 발생할 수 있는 문제를 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="4c026-107">This section addresses issues that might arise as you use the Microsoft 365 Defender service.</span></span>
+<span data-ttu-id="8fd1a-107">이 섹션에서는 Microsoft 365 Defender 서비스를 사용할 때 발생할 수 있는 문제를 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="8fd1a-107">This section addresses issues that might arise as you use the Microsoft 365 Defender service.</span></span>
 
-## <a name="i-dont-see-microsoft-365-defender-content"></a><span data-ttu-id="4c026-108">Microsoft 365 Defender 콘텐츠가 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4c026-108">I don't see Microsoft 365 Defender content</span></span>
+## <a name="i-dont-see-microsoft-365-defender-content"></a><span data-ttu-id="8fd1a-108">Microsoft 365 Defender 콘텐츠가 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="8fd1a-108">I don't see Microsoft 365 Defender content</span></span>
 
-<span data-ttu-id="4c026-109">포털에서 인시던트, 관리 센터 또는 헌팅과 같은 탐색 창에 기능이 없는 경우 테넌트에 적절한 라이선스가 있는지 확인해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4c026-109">If you don't see capabilities on the navigation pane such as the Incidents, Action Center, or Hunting in your portal, you'll need to verify that your tenant has the appropriate licenses.</span></span>
+<span data-ttu-id="8fd1a-109">포털에서 인시던트, 관리 센터 또는 헌팅과 같은 탐색 창에 기능이 없는 경우 테넌트에 적절한 라이선스가 있는지 확인해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8fd1a-109">If you don't see capabilities on the navigation pane such as the Incidents, Action Center, or Hunting in your portal, you'll need to verify that your tenant has the appropriate licenses.</span></span>
 
-<span data-ttu-id="4c026-110">자세한 내용은 [전제 조건](prerequisites.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="4c026-110">For more information, see [Prerequisites](prerequisites.md).</span></span>
+<span data-ttu-id="8fd1a-110">자세한 내용은 [전제 조건](prerequisites.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="8fd1a-110">For more information, see [Prerequisites](prerequisites.md).</span></span>
 
-## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a><span data-ttu-id="4c026-111">Microsoft 365 Defender 인시던트에 ID에 대한 Microsoft Defender 알림이 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4c026-111">Microsoft Defender for Identity alerts are not showing up in the Microsoft 365 Defender incidents</span></span>
+## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a><span data-ttu-id="8fd1a-111">Microsoft 365 Defender 인시던트에 ID에 대한 Microsoft Defender 경고가 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="8fd1a-111">Microsoft Defender for Identity alerts are not showing up in the Microsoft 365 Defender incidents</span></span>
 
-<span data-ttu-id="4c026-112">사용자 환경에 Microsoft Defender for Identity를 배포했지만 Microsoft 365 Defender 인시던트의 일부로 ID에 대한 Defender 경고가 표시되지 않는 경우 Microsoft Cloud App Security 및 Id용 Defender 통합이 사용하도록 설정되어 있도록 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4c026-112">If you have Microsoft Defender for Identity deployed in your environment but you're not seeing Defender for Identity alerts as part of Microsoft 365 Defender incidents, you'll need to ensure that the Microsoft Cloud App Security and Defender for Identity integration is enabled.</span></span>
+<span data-ttu-id="8fd1a-112">사용자 환경에 Microsoft Defender for Identity를 배포했지만 Microsoft 365 Defender 인시던트의 일부로 ID에 대한 Defender 경고가 표시되지 않는 경우 Microsoft Cloud App Security 및 Id용 Defender 통합이 사용하도록 설정되어 있도록 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="8fd1a-112">If you have Microsoft Defender for Identity deployed in your environment but you're not seeing Defender for Identity alerts as part of Microsoft 365 Defender incidents, you'll need to ensure that the Microsoft Cloud App Security and Defender for Identity integration is enabled.</span></span>
 
-<span data-ttu-id="4c026-113">자세한 내용은 [Microsoft Defender for Identity 통합을 참조하세요.](https://docs.microsoft.com/cloud-app-security/mdi-integration)</span><span class="sxs-lookup"><span data-stu-id="4c026-113">For more information, see [Microsoft Defender for Identity integration](https://docs.microsoft.com/cloud-app-security/mdi-integration).</span></span>
+<span data-ttu-id="8fd1a-113">자세한 내용은 [Microsoft Defender for Identity 통합을 참조하세요.](https://docs.microsoft.com/cloud-app-security/mdi-integration)</span><span class="sxs-lookup"><span data-stu-id="8fd1a-113">For more information, see [Microsoft Defender for Identity integration](https://docs.microsoft.com/cloud-app-security/mdi-integration).</span></span>
 
-## <a name="where-is-the-settings-page-for-turning-the-service-on"></a><span data-ttu-id="4c026-114">서비스를 켜기 위한 설정 페이지는 어디에 있나요?</span><span class="sxs-lookup"><span data-stu-id="4c026-114">Where is the settings page for turning the service on?</span></span>
+## <a name="where-is-the-settings-page-for-turning-the-service-on"></a><span data-ttu-id="8fd1a-114">서비스를 켜기 위한 설정 페이지는 어디에 있나요?</span><span class="sxs-lookup"><span data-stu-id="8fd1a-114">Where is the settings page for turning the service on?</span></span>
 
-<span data-ttu-id="4c026-115">Microsoft 365 Defender를 켜기 위해 Microsoft 365 보안 센터의 탐색 창에서 설정에 액세스합니다. </span><span class="sxs-lookup"><span data-stu-id="4c026-115">To turn on Microsoft 365 Defender, access **Settings** from the navigation pane in the Microsoft 365 security center.</span></span> <span data-ttu-id="4c026-116">이 탐색 항목은 선행 권한 및 라이선스가 있는 경우만 [표시됩니다.](mtp-enable.md#check-license-eligibility-and-required-permissions)</span><span class="sxs-lookup"><span data-stu-id="4c026-116">This navigation item is visible only if you have the [prerequisite permissions and licenses](mtp-enable.md#check-license-eligibility-and-required-permissions).</span></span>
+<span data-ttu-id="8fd1a-115">Microsoft 365 Defender를 켜기 위해 Microsoft 365 보안 센터의 탐색 창에서 설정에 액세스합니다. </span><span class="sxs-lookup"><span data-stu-id="8fd1a-115">To turn on Microsoft 365 Defender, access **Settings** from the navigation pane in the Microsoft 365 security center.</span></span> <span data-ttu-id="8fd1a-116">이 탐색 항목은 선행 사용 권한 및 라이선스가 있는 경우만 [표시됩니다.](mtp-enable.md#check-license-eligibility-and-required-permissions)</span><span class="sxs-lookup"><span data-stu-id="8fd1a-116">This navigation item is visible only if you have the [prerequisite permissions and licenses](mtp-enable.md#check-license-eligibility-and-required-permissions).</span></span>
