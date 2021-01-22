@@ -15,27 +15,28 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Google Workspace 구독을 취소하지만 도메인을 유지하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f4cbb09907da399ab3fed07e7826c0a217b494f0
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 1ad7e4ae3583063281ac5b5e9510be539b1378dd
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794689"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49928261"
 ---
-# <a name="cancel-google-workspace-subscription"></a><span data-ttu-id="b350e-103">Google Workspace 구독 취소</span><span class="sxs-lookup"><span data-stu-id="b350e-103">Cancel Google Workspace subscription</span></span>
+# <a name="cancel-google-workspace-subscription"></a><span data-ttu-id="456e9-103">Google Workspace 구독 취소</span><span class="sxs-lookup"><span data-stu-id="456e9-103">Cancel Google Workspace subscription</span></span>
 
-1. <span data-ttu-id="b350e-104">[Google Admin에 로그인하고](https://admin.google.com/) **청구로 이동하세요.**</span><span class="sxs-lookup"><span data-stu-id="b350e-104">Sign in to [Google Admin](https://admin.google.com/) and go to **Billing**.</span></span>
-1. <span data-ttu-id="b350e-105">구독 **목록에서** G Suite **구독을** 선택하고 구독을 취소한 다음 계속을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="b350e-105">In the **Subscriptions** list,choose your G Suite subscription, **Cancel subscription**, and then choose **Continue**.</span></span>
+1. <span data-ttu-id="456e9-104">[Google Admin에 로그인하고](https://admin.google.com/) **청구로 이동하세요.**</span><span class="sxs-lookup"><span data-stu-id="456e9-104">Sign in to [Google Admin](https://admin.google.com/) and go to **Billing**.</span></span>
+1. <span data-ttu-id="456e9-105">구독 **목록에서** G Suite **구독을** 선택하고 구독을 취소한 다음 계속을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="456e9-105">In the **Subscriptions** list,choose your G Suite subscription, **Cancel subscription**, and then choose **Continue**.</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="b350e-106">구독이 즉시 취소되고 이 작업을 취소할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="b350e-106">your subscription will be cancelled immediately and you cannot undo this action.</span></span>
+    > <span data-ttu-id="456e9-106">구독이 즉시 취소되고 이 작업을 취소할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="456e9-106">your subscription will be cancelled immediately and you cannot undo this action.</span></span>
 
     :::image type="content" source="../../media/cancelgoogleworspace.png" alt-text="Google 관리 청구 페이지의 스크린샷.":::
 
-<span data-ttu-id="b350e-108">DNS 호스트 공급자가 Google 도메인이 아닌 경우 구독 목록에 도메인 등록이 표시되지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b350e-108">Note that you might not see Domain Registration in your Subscriptions list if your DNS host provider isn't Google domains.</span></span>
+<span data-ttu-id="456e9-108">DNS 호스트 공급자가 Google 도메인이 아닌 경우 구독 목록에 도메인 등록이 표시되지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="456e9-108">Note that you might not see Domain Registration in your Subscriptions list if your DNS host provider isn't Google domains.</span></span>
