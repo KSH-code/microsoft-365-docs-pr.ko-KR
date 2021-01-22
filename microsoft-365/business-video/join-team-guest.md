@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Microsoft Teams에서 게스트로 팀에 참여하는 방법을 배워야 합니다.
-ms.openlocfilehash: 85ad752c3b54dcd64020771b097026c964e6fac5
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 31d5acb1a0294a54bcb5b5c7c74d76dbba7124f7
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702709"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925029"
 ---
 # <a name="join-a-team-as-a-guest"></a>팀에 게스트로 참여
 

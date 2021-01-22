@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Microsoft 365의 기본 테마를 변경하고 회사 로고 또는 색상에 맞게 사용자 지정하는 방법을 배워야 합니다. '
-ms.openlocfilehash: 7392ea43c32635a9852b0fbceed80475d99c9d64
-ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
+ms.openlocfilehash: 9d17ac800fb0fe38627fcb7842ed5555d2ac28ae
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49580688"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926885"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>조직의 Microsoft 365 테마 사용자 지정
 
@@ -37,13 +39,13 @@ ms.locfileid: "49580688"
   
 ## <a name="customize-your-theme-in-the-admin-center"></a>관리 센터에서 테마 사용자 지정
 
-1. 관리 센터에서 설정 조직 **Settings** 설정 페이지로 이동한 다음 조직 프로필 \> **Org Settings** **탭을** 선택합니다.
+1. 관리 센터에서 설정 조직  설정 페이지로 이동한 다음 조직 프로필 \>  **탭을** 선택합니다.
 
 2. 조직 프로필 **탭에서** 사용자 지정 **테마를 선택합니다.**
 
 3. 사용자 **지정 테마 패널에서** 조직에 대해 원하는 테마 요소를 변경합니다.
 
-    - **사용자 지정 로고 이미지 사용:** URL의 이미지를 사용할지 또는 이미지를 업로드할지 여부를 선택하십시오. URL을 사용하는 경우 URL에서 HTTPS를 사용하는지와 모든 크기의 200 x 30 픽셀 이미지가 있는지 확인합니다. JPG, PNG, GIF 또는 SVG 형식으로 200 x 30픽셀의 10 KB 아래에 로고를 업로드할 수 있습니다.
+    - **사용자 지정 로고 이미지 사용:** URL의 이미지를 사용할지 또는 이미지를 업로드할지 여부를 선택하십시오. URL을 사용하는 경우 URL에서 HTTPS를 사용하는지와 모든 크기의 200 x 30 픽셀 이미지가 있는지 확인합니다. JPG, PNG, GIF 또는 SVG 형식으로 200 x 30픽셀의 10 KB 미만으로 로고를 업로드할 수 있습니다.
 
       > [!NOTE]
       > 로고가 SharePoint 모바일 앱에 나타나면 SVG 이미지만 사용하세요. 다른 형식으로 업로드된 이미지는 앱에 표시되지 않습니다. 로고는 SharePoint Mobile 앱에서 클릭할 수 없습니다.
@@ -75,9 +77,9 @@ ms.locfileid: "49580688"
 
 - **로고 이미지:** 로고가 모든 화면과 모든 확대/축소 수준에서 고해상도로 표시 있도록 SVG 파일 형식을 사용 합니다.
 
-- **사용자 지정 색:** 선택한 로고 이미지가 있는 높은 **Logo image** 명암비의 **Nav** 막대 배경색을 선택 합니다. 모든 **텍스트와 아이콘이** 명확하게 표시 있도록 **Nav** 막대 배경색에 대한 높은 명암비를 사용하여 텍스트 및 아이콘 색을 선택 합니다.
+- **사용자 지정 색:** 선택한 로고 이미지가 있는 높은  명암비의 **Nav** 막대 배경색을 선택 합니다. 모든 **텍스트와 아이콘이** 명확하게 표시 있도록 **Nav** 막대 배경색에 대한 높은 명암비를 사용하여 텍스트 및 아이콘 색을 선택 합니다.
 
-- **강조색**: 흰색 또는 밝은 배경에 잘 표시될 색을 선택 합니다. 강조색은 흰색 또는 밝은 배경에 표시하는 일부 링크 및 단추의 색을 설정하는 데 사용됩니다. 예를 들어 악센트 색은 사용자의 받은 편지함 및 해당 포털 페이지에 있는 요소에 Office.com 사용됩니다.
+- **강조색**: 흰색 또는 밝은 배경에 잘 표시하는 색을 선택 합니다. 강조색은 흰색 또는 밝은 배경에 표시하는 일부 링크 및 단추의 색을 설정하는 데 사용됩니다. 예를 들어 악센트 색은 사용자의 받은 편지함 및 해당 포털 페이지에 있는 요소에 Office.com 사용됩니다.
   
 - **명암비:** 텍스트, 아이콘 또는 단추 색과 배경색 간의 권장 명암비는 4.5:1입니다.
   

@@ -1,5 +1,5 @@
 ---
-title: 도움말 또는 지원
+title: 도움말 및 지원 받기
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,20 +16,21 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Microsoft 365 Business Premium에서 관리자 도움말 또는 지원을 다운로드하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f33778c5c8b8ebfe71bd7acc6d203327a2fd7e94
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: bcfe140ec87b50048db570ad4efe4575135b3191
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702923"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927169"
 ---
-# <a name="get-help-or-support"></a>도움말 또는 지원하기
+# <a name="get-help-or-support"></a>도움말 및 지원 받기
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOgo?autoplay=false]
 

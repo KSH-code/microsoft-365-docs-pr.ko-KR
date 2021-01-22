@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 안전한 첨부 파일을 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: ea1dc20b8e9e51701730a72b8e8194d2abbfac99
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 75146a05a091cf91a77ee3bc9bb63c813d84dce3
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702452"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926105"
 ---
 # <a name="manage-safe-attachments"></a>안전한 첨부 파일 관리
 

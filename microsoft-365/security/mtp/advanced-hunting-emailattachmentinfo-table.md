@@ -4,7 +4,7 @@ description: 고급 헌팅 스키마의 EmailAttachmentInfo 표에서 전자 메
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, EmailAttachmentInfo, network message id, sender, recipient, attachment id, attachment name, malwaredictdict
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ mms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
 ms.topic: article
-ms.openlocfilehash: 6d88303b34f78abc857e9aec749bf2f58090f43a
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.technology: m365d
+ms.openlocfilehash: c6cab4d813eba79e298d0082072888e3ef1ad1cd
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667652"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927005"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -36,7 +37,7 @@ ms.locfileid: "49667652"
 
 
 
-고급 헌팅 과정의 표에는 `EmailAttachmentInfo` Office 365용 Microsoft Defender에서 처리한 전자 메일의 첨부 파일에 대한 정보가 포함되어 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+고급 헌팅의 표에는 `EmailAttachmentInfo` Office 365용 Microsoft Defender에서 처리한 전자 메일의 첨부 파일에 대한 정보가 포함되어 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 

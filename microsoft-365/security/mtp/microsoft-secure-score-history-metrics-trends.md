@@ -2,7 +2,7 @@
 title: Microsoft 보안 점수 기록 추적 및 목표 충족
 description: Microsoft 보안 점수에 영향을 주는 활동에 대한 정보를 얻습니다. 추세를 검색하고 목표를 설정하세요.
 keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 보안 센터, 개선 작업
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 f1.keywords:
@@ -20,18 +20,19 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: ed937c90bbc6875ee3d72f710d5ac11d4069cbb6
-ms.sourcegitcommit: a8f3c633714e934f9ad026c3bc72157ed535dcfc
+ms.technology: m365d
+ms.openlocfilehash: c9af6a3ae6f461acfd2968897223446641d5cf09
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "49738046"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925675"
 ---
 # <a name="track-your-microsoft-secure-score-history-and-meet-goals"></a>Microsoft 보안 점수 기록 추적 및 목표 충족
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-[Microsoft 보안 점수는](microsoft-secure-score.md) 조직의 보안 자세를 측정한 것으로, 수치가 높을수록 개선 작업이 더 많이 수행됩니다. Microsoft https://security.microsoft.com/securescore [365](overview-security-center.md)보안 센터에서 찾을 수 있습니다.
+[Microsoft 보안 점수는](microsoft-secure-score.md) 조직의 보안 자세를 측정한 결과로, 수치가 높을수록 개선 작업이 더 많이 수행됩니다. Microsoft https://security.microsoft.com/securescore [365](overview-security-center.md)보안 센터에서 찾을 수 있습니다.
 
 ## <a name="gain-insights-into-activity-that-has-affected-your-score"></a>점수에 영향을 주는 활동에 대한 인사이트 얻기
 
@@ -63,13 +64,13 @@ ms.locfileid: "49738046"
 
 #### <a name="comparison-bar-chart"></a>비교 막대형 차트
 
-비교 막대 차트는 개요 **탭입니다.** 차트 위에 마우스를 놓아 점수와 점수 기회를 넣습니다. 비교 데이터는Onymized이기 때문에 다른 테넌트가 혼합에 있는 정확한지 알 수 없습니다.
+비교 막대 차트는 개요 **탭입니다.** 차트 위에 마우스를 놓고 점수 및 점수 기회를 넣습니다. 비교 데이터는Onymized이기 때문에 다른 테넌트가 혼합에 있는 정확한지 알 수 없습니다.
 
 ![비슷한 조직의 점수에 대한 막대 그래프](../../media/secure-score/secure-score-comparison-bar.png)
 
 - **사용자와 같은** 조직 : 다음 기준에 따라 자격이 있는 다른 테넌트의 평균 점수(비교할 테넌트가 5개 이상 있는 경우)입니다.
     1. 동일한 산업
-    2. 동일한 조직 크기
+    2. 조직 규모가 동일
     3. 모든 지역
     4. 사용되는 Microsoft 제품은 80%가 비슷합니다.
     5. 테넌트의 20% 범위 내에서 기회(현재 라이선스에서 달성할 수 있는 최대 점수)

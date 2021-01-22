@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 직원이 Microsoft 365 Business Premium을 사용하여 다운로드하는 Office 앱을 설정하는 방법을 배우는 데 도움을 줄 수 있습니다.
-ms.openlocfilehash: 9a610b9de2ddb64aeaf7447721d8fa500dbdf0c9
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 1715562a648af42bff07ab9a3e62647e386125cb
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702950"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927253"
 ---
 # <a name="employee-quick-setup"></a>직원 빠른 설정
 
@@ -62,7 +63,7 @@ ms.locfileid: "49702950"
 
 ## <a name="4-save-or-copy-files-to-onedrive"></a>4. OneDrive에 파일 저장 또는 복사
 
-- Office 앱의 다른 로 저장  **메뉴에서 OneDrive에** 문서를 저장합니다.
+- Office 앱의 다른 로 저장  메뉴에서 **OneDrive에** 문서를 저장합니다.
     :::image type="content" source="../media/save-onedrive.png" alt-text="OneDrive에 다른 사람으로 저장하는 방법을 알 수 있습니다.":::
 
 - 또는 바탕 화면이나 문서의 파일을 **OneDrive** 에 복사합니다.

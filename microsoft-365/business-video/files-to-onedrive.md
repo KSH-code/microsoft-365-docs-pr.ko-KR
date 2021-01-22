@@ -1,5 +1,5 @@
 ---
-title: OneDrive로 파일 이동
+title: 파일을 OneDrive로 이동
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 파일을 OneDrive로 이동하는 방법을 학습합니다.
-ms.openlocfilehash: 8fa6439472389ad851dca3961a515ebfb967f402
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 5a708ba797dbb735c71f181fc287fb831004112b
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702752"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927217"
 ---
 # <a name="move-files-to-onedrive"></a>OneDrive로 파일 이동
 
@@ -38,7 +39,7 @@ Microsoft 365 Business Premium에 등록한 후 기존&#39;파일을 비즈니�
 
 1. Windows에서 시작  **단추를** 선택합니다.
 2. OneDrive를 검색하고 선택합니다.
-3. 작업 전자 메일 주소를 입력합니다.
+3. 직장 전자 메일 주소를 입력합니다.
 4. 로그인을 **선택하고** 다음을 **선택합니다.**
 5. 짧은 자습서를 진행한 다음 **OneDrive 폴더 열기를 선택합니다.** OneDrive의 개인 버전도 사용하는 경우 여기에서&#39;볼 수 있습니다.
 6. 파일 탐색기에서 복사할 파일로 이동하십시오.

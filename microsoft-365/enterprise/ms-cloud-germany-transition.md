@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드)에서 Office 365 서비스 독일 신규 데이터 센터 지역으로의 마이그레이션 이해 '
-ms.openlocfilehash: 3587979c61434b77c38758e70903ee7028d70b9e
-ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
+ms.openlocfilehash: 28344f1249e4f51bb9802bf19ca7561182610a7c
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49709695"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921595"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드에서 새 독일 데이터 센터 지역의 Office 365 서비스로 마이그레이션
 
@@ -63,11 +63,11 @@ Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 
 
 ## <a name="how-is-the-migration-organized"></a>마이그레이션은 어떻게 구성하나요?
 
-이 그림은 Office 365 및 Dynamics 365의 다양한 구성 요소를 새로운 독일 데이터 센터로 마이그레이션하는 데 사용됩니다.
+이 그림에서는 새로운 독일 데이터 센터로의 9단계 마이그레이션 단계를 보여 주며,
 
-![새 독일 데이터 센터로 마이그레이션할 때 Office 365 및 Dynamics 365의 구성 요소](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
+![새 독일 데이터 센터로의 9단계 마이그레이션](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
 
-마이그레이션은 마이그레이션을 옵트인(opt in)할 때 모든 시작 [단계로 실행됩니다.](https://aka.ms/office365germanymoveoptin) 대부분의 마이그레이션 단계는 최소한의 고객 상호 작용이 필요하며 백 엔드 서비스 작업으로 실행되고 한 단계 뒤에서 실행됩니다. 추가 고객 주도 작업 및 전체 마이그레이션 상태의 시작은 마이그레이션 프로세스 중에 Microsoft 365 관리 센터의 메시지 센터를 통해 전달됩니다. 작업의 예로는 고객 관리 DNS 업데이트, Exchange 하이브리드 고객을 위한 하이브리드 설정 재구성 또는 Azure 마이그레이션이 있습니다.
+마이그레이션을 옵트인(opt [in)할 때 이러한 단계가 시작됩니다.](https://aka.ms/office365germanymoveoptin) 대부분의 마이그레이션 단계는 최소한의 고객 상호 작용이 필요하며 백 엔드 서비스 작업으로 실행되고 한 단계 후에 실행됩니다. 추가 고객 주도 작업 및 전체 마이그레이션 상태의 시작은 마이그레이션 프로세스 중에 Microsoft 365 관리 센터의 메시지 센터를 통해 전달됩니다. 작업의 예로는 고객 관리 DNS 업데이트, Exchange 하이브리드 고객을 위한 하이브리드 설정 재구성 또는 Azure 마이그레이션이 있습니다.
 
 옵트인이 발생하면 마이그레이션이 즉시 시작되지는 않습니다. 조직이 나중에 마이그레이션할 예정인 테넌트 목록에 추가됩니다. 완료 시 성공적인 마이그레이션 및 사용을 보장하기 위해 이러한 단계가 중요하기 때문에 작업 전 단계를 시작할 수 있습니다.
 
@@ -80,7 +80,7 @@ Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 
 
 다음 단계는 독일 특정 제품에서&#39;구독 및 사용자 라이선스에 대한 테넌트 마이그레이션입니다.
 
-고객 Azure 마이그레이션을 비롯한 모든 단계가 완료되면 테넌트가 Office 365 서비스 서비스에서 완료된 후 마이그레이션이 완료된 것으로 표시됩니다. 이제 메시지 센터에 대한 최종 업데이트가 제공됩니다. 테넌트는 이제 완전 전역 Office 365 조직입니다.
+고객 Azure 마이그레이션을 포함하여 모든 단계가 완료되면 테넌트가 Office 365 서비스 서비스에서 완료된 후 마이그레이션이 완료된 것으로 표시됩니다. 이제 메시지 센터에 대한 최종 업데이트가 제공됩니다. 테넌트는 이제 완전 전역 Office 365 조직입니다.
 
 메시지 센터 게시물을 통해 마이그레이션 진행률에 대한 알림을 수신합니다. 게시물은 특정 중요 시점에 진행될 것이고 단계 진행에 대한 지침과 고객이 프로세스 요구 사항에 따라 행동해야 하는 중요한 정보를 제공합니다. 메시지 센터 알림은 다음 중요 시점에 제공됩니다.
 
@@ -90,13 +90,13 @@ Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 
 - SharePoint 마이그레이션 완료
 - Exchange 마이그레이션 완료
 - 비즈니스용 Skype 완료
-- Dynamics 완료
+- Dynamics complete
 - Power BI 완료
 - 최종 서비스 컷오버 완료
 
-## <a name="moving-to-the-new-german-datacenter-regions"></a>새 독일 데이터 센터 지역으로 이동
+## <a name="moving-to-the-new-german-datacenter-regions"></a>새로운 독일 데이터 센터 지역으로 이동
 
-이제 도이치란드 기존 Microsoft 클라우드 고객은 Office 365, Dynamics 365 Customer Engagement 및 Power Platform 서비스 마이그레이션을 시작할 수 있습니다. 첫 번째 단계는 Microsoft 주도 신규 독일 데이터 센터 지역으로의 [마이그레이션에 동의](https://aka.ms/office365germanymoveoptin)하는 것입니다.  구독을 갱신할 때 Microsoft 지원 마이그레이션에 자동으로 옵트인(opt in)합니다. 이 경우 Microsoft는 고객 테넌트 관리자에게 전자 메일과 Microsoft 365 관리 센터의 메시지 센터에 이를 알릴 것입니다. 그러나 지금 프로세스를 시작하려면 지금 Microsoft 365 관리 센터에서 직접 옵트인(opt [in)할](https://aka.ms/office365germanymoveoptin) 수 있습니다. 마이그레이션은 2021년 초에 시작될 예정이고 2021년 10월 29일까지 완료됩니다. 
+이제 도이치란드 기존 Microsoft 클라우드 고객은 Office 365, Dynamics 365 Customer Engagement 및 Power Platform 서비스 마이그레이션을 시작할 수 있습니다. 첫 번째 단계는 Microsoft 주도 신규 독일 데이터 센터 지역으로의 [마이그레이션에 동의](https://aka.ms/office365germanymoveoptin)하는 것입니다.  구독을 갱신하면 Microsoft 지원 마이그레이션에 자동으로 옵트인(opt in)합니다. 이 경우 Microsoft는 고객 테넌트 관리자에게 전자 메일과 Microsoft 365 관리 센터의 메시지 센터에 이를 알릴 것입니다. 그러나 지금 프로세스를 시작하려면 지금 Microsoft 365 관리 센터에서 직접 옵트인(opt [in)할](https://aka.ms/office365germanymoveoptin) 수 있습니다. 마이그레이션은 2021년 초에 시작될 예정이고 2021년 10월 29일까지 완료됩니다. 
 
 마이그레이션의 결과로 핵심 고객 데이터 및 구독이 새로운 독일 데이터 센터 지역으로 이동됩니다.
 
@@ -106,7 +106,7 @@ Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 
 
 - 모든 마이그레이션 고객은 Office 365 Services Office [365 URL](urls-and-ip-address-ranges.md)및 IP 주소(새 독일 데이터 센터 지역 포함)에 대한 연결을 확인해야 합니다. 비활성으로 인해 서비스 및 클라이언트 오류가 발생될 수 있습니다.
 - 조직이 변경에 [대해](ms-cloud-germany-transition-add-pre-work.md) 알리고 준비되도록 작업 전 활동 목록을 검토합니다.
-- 독일 지역으로 마이그레이션한 후 조직에서 사용할 수 있는 기능 및 서비스를 이해하기 위해 Office 365 플랫폼 서비스 설명을 검토해야 합니다.
+- Office 365 플랫폼 서비스 설명을 검토하여 독일 지역으로 마이그레이션한 후 조직에서 사용할 수 있는 기능 및 서비스를 파악해야 합니다.
 - 평가판 구독은 마이그레이션되지 않습니다. 모든 유료 구독의 마이그레이션이 차단됩니다. 마이그레이션을 시작하기 전에 평가판을 취소하거나 유료 구독으로 전환해야 합니다.
 
 ## <a name="where-do-i-go-from-here"></a>여기에서 어디로 이동하나요?
@@ -117,7 +117,7 @@ Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 
 
 ### <a name="is-migration-required"></a>마이그레이션이 필수인가요? 
 
-Microsoft는 독일 Microsoft 클라우드에서 Office 365 서비스로의 Office 365 테넌트 마이그레이션을 새로운 독일 데이터 센터 지역의 Office 365 서비스로 추가 비용부분으로 제공합니다. 독일 신규 데이터 센터 지역으로의 마이그레이션을 옵트인(opt in)하는 것이 많지만 독일 Microsoft 클라우드 지역에 필요한 보안 업데이트를 계속 제공합니다.
+Microsoft는 독일 Microsoft 클라우드에서 Office 365 서비스로 Office 365 테넌트 마이그레이션을 신규 독일 데이터 센터 지역의 Office 365 서비스로 추가 비용부분으로 제공합니다. 독일 신규 데이터 센터 지역으로의 마이그레이션을 옵트인(opt in)하는 것이 많지만 독일 Microsoft 클라우드 지역에 필요한 보안 업데이트를 계속 제공합니다.
 
 새 독일 데이터 센터 지역의 Office 365 서비스:
 
@@ -178,7 +178,7 @@ Microsoft는 독일 Microsoft 클라우드에서 Office 365 서비스로의 Offi
 25. Sway
 26. Microsoft 365 앱
 27. Outlook Mobile
-28. EMS(Enterprise Mobility + Security) E3(Azure AD Premium P1, Intune 및 Rights Management Service)
+28. EMS(Enterprise Mobility + Security) E3(Azure AD Premium P1, Intune 및 권한 관리 서비스)
 29. Yammer Enterprise
 30. Microsoft Forms
 31. Office 365용 Power Automate
@@ -215,7 +215,7 @@ Office 365, Dynamics 365 또는 Power BI가 있는 Azure가 있는 경우 자체
 
 독일 Microsoft 클라우드에서 Office 365 서비스로 마이그레이션하는 동안 독일 서비스 관련 SKU는 동일하거나 유사한 SKU의 전역 버전으로 대체됩니다. 대부분의 경우 Office 365 서비스의 SKU는 동일합니다. 그러나 독일의 SKU가 Office 365 서비스에서 더 이상 사용할 수 없는 대체는 거의 없습니다. 마이그레이션이 완료된 후 조직에 할당된 SKU를 업데이트하려면 판매자에 문의하여 할당된 서비스를 추가하거나 수정합니다.
 
-| 도이치클란드 Microsoft 클라우드 - 제품 SKU(DE) | Microsoft 클라우드 전역 - WW(제품 SKU) |
+| 도이클란드 Microsoft 클라우드 - 제품 SKU(DE) | Microsoft 클라우드 전역 - WW(제품 SKU) |
 | --- | --- |
 | 고객 Lockbox \_ DE(LOCKBOX \_ DE) | 고객 Lockbox(LOCKBOX) |
 | Dynamics 365 Enterprise Edition - 추가 데이터베이스 저장소 \_ DE(CRMSTORAGE \_ DE) | Dynamics 365 Enterprise Edition - 추가 데이터베이스 저장소(CRMSTORAGE) |
@@ -225,10 +225,10 @@ Office 365, Dynamics 365 또는 Power BI가 있는 Azure가 있는 경우 자체
 | Dynamics 365 for Team Members Enterprise Edition \_ DE(DYN365 \_ ENTERPRISE TEAM MEMBERS \_ \_ \_ DE) | Dynamics 365 for Team Members Enterprise Edition(DYN365 \_ ENTERPRISE \_ TEAM \_ MEMBERS) |
 | Dynamics 365 Plan 1 Enterprise Edition \_ DE(DYN365 \_ ENTERPRISE \_ PLAN1 \_ DE) | Dynamics 365 Plan 1 Enterprise Edition(DYN365 \_ ENTERPRISE \_ PLAN1) |
 | ECAL Services(EOA, EOP, DLP) \_ DE(ECAL \_ SERVICES \_ DE) | ECAL 서비스(EOA, EOP, DLP)(ECAL \_ 서비스) |
-| Enterprise Mobility + Security E3 \_ DE(EMS \_ DE) | Enterprise Mobility + EMS(Security E3) |
+| Enterprise Mobility + Security E3 \_ DE(EMS \_ DE) | Enterprise Mobility + SECURITY E3(EMS) |
 | Exchange Online(계획 1) \_ DE(EXCHANGESTANDARD \_ DE) | Exchange Online(계획 1)(EXCHANGESTANDARD) |
 | Exchange Online(계획 2) \_ DE(EXCHANGEENTERPRISE \_ DE) | Exchange Online(계획 2)(EXCHANGEENTERPRISE) |
-| Exchange Online Archiving For Exchange Online \_ DE(EXCHANGEARCHIVE \_ ADDON \_ DE) | Exchange Online Archiving For Exchange Online(EXCHANGEARCHIVE \_ ADDON) |
+| Exchange Online Archiving For Exchange Online \_ DE(EXCHANGEARCHIVE \_ ADDON \_ DE) | Exchange Online Archiving Online용 추가 기능(EXCHANGEARCHIVE \_ 추가 기능) |
 | Exchange Online Archiving 대한 \_ Exchange Server(EXCHANGEARCHIVE \_ DE) | Exchange Online Archiving 대한 Exchange Server(EXCHANGEARCHIVE) |
 | Exchange Online Essentials \_ DE(EXCHANGE \_ S \_ ESSENTIALS \_ DE) | Exchange Online Essentials(EXCHANGE \_ S \_ ESSENTIALS) |
 | Exchange Online Kiosk \_ DE(EXCHANGEDESKLESS \_ DE) | Exchange Online Kiosk(EXCHANGEDESKLESS) |
@@ -267,7 +267,7 @@ Office 365, Dynamics 365 또는 Power BI가 있는 Azure가 있는 경우 자체
 | 비즈니스용 Skype Online(계획 1) \_ DE(MCOIMP \_ DE) | 비즈니스용 Skype Online(계획 1)(MCOIMP) |
 | 비즈니스용 Skype Online(계획 2) \_ DE(MCOSTANDARD \_ DE) | 비즈니스용 Skype Online(계획 2)(MCOSTANDARD) |
 | 비즈니스용 Skype Plus CAL \_ DE(MCOPLUSCAL \_ DE) | 비즈니스용 Skype Plus CAL(MCOPLUSCAL) |
-| Visio Online Plan 1 for faculty \_ DE(VISIOONLINE \_ PLAN1 \_ FAC \_ DE) | 교직원용 Visio Online 계획 1(VISIOONLINE \_ PLAN1 \_ FAC) |
+| Visio Online Plan 1 for faculty \_ DE (VISIOONLINE \_ PLAN1 \_ FAC \_ DE) | 교직원용 Visio Online 계획 1(VISIOONLINE \_ PLAN1 \_ FAC) |
 | Visio Online Plan 1 \_ DE(VISIOONLINE \_ PLAN1 \_ DE) | Visio Online 계획 1(VISIOONLINE \_ PLAN1) |
 | Visio Online Plan 2 for faculty \_ DE(VISIOCLIENT \_ FACULTY \_ DE) | 교직원용 Visio Online 계획 2(VISIOCLIENT \_ FACULTY) |
 | Visio Online Plan 2 \_ DE(VISIOCLIENT \_ DE) | Visio Online 계획 2(VISIOCLIENT) |
@@ -300,7 +300,7 @@ Office 365, Dynamics 365 또는 Power BI가 있는 Azure가 있는 경우 자체
 
 - [문장 작업 및 영향 마이그레이션](ms-cloud-germany-transition-phases.md)
 - [추가 사전 작업](ms-cloud-germany-transition-add-pre-work.md)
-- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [장치,](ms-cloud-germany-transition-add-devices.md) [환경 및](ms-cloud-germany-transition-add-experience.md) [AD FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
+- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [디바이스,](ms-cloud-germany-transition-add-devices.md) [환경 및](ms-cloud-germany-transition-add-experience.md)AD [FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
 
 클라우드 앱:
 

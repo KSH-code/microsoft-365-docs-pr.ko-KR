@@ -13,29 +13,31 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: 사용할 수 있는 그룹 유형에 대해 알아봅니다.
-ms.openlocfilehash: ee8d14035ed9eb8296c54510b8fe1d374c9dc2b2
-ms.sourcegitcommit: f3a02584c9354a46c082f8f948b34a177adf65bb
+ms.openlocfilehash: 4cbc7f15632026babec3640f021c09e901ad20b9
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46514770"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925533"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
 Microsoft 365 관리 센터의 **Groups** 구역에서 다음과 같은 유형의 그룹을 만들고 관리할 수 있습니다. 
 
 - **Microsoft 365 그룹**(이전 Office 365 그룹)은 회사 내부 및 외부의 사용자 간의 공동 작업에 사용됩니다.
-- **메일 그룹**은 사용자 그룹에 알림을 보내는 데 사용됩니다.
-- **보안 그룹**은 SharePoint 사이트와 같은 리소스에 대한 액세스 권한을 부여하는 데 사용됩니다.
-- **메일 사용이 가능한 보안 그룹**은 SharePoint와 같은 리소스에 대한 액세스 권한을 부여하고 해당 사용자에게 전자 메일로 알림을 보내는 데 사용됩니다.
-- **공유 사서함**은 여러 사용자가 같은 사서함에 액세스해야 하는 경우(예: 회사 정보 또는 지원 전자 메일 주소)에 사용됩니다.
+- **메일 그룹** 은 사용자 그룹에 알림을 보내는 데 사용됩니다.
+- **보안 그룹** 은 SharePoint 사이트와 같은 리소스에 대한 액세스 권한을 부여하는 데 사용됩니다.
+- **메일 사용이 가능한 보안 그룹** 은 SharePoint와 같은 리소스에 대한 액세스 권한을 부여하고 해당 사용자에게 전자 메일로 알림을 보내는 데 사용됩니다.
+- **공유 사서함** 은 여러 사용자가 같은 사서함에 액세스해야 하는 경우(예: 회사 정보 또는 지원 전자 메일 주소)에 사용됩니다.
 
 ## <a name="microsoft-365-groups"></a>Microsoft 365 그룹
 

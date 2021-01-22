@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 비즈니스용 Microsoft 365의 결제 방법을 업데이트하는 방법을 알아보는 방법을 배워야 합니다.
-ms.openlocfilehash: a7424b4d104b83921f46024a1493444c9de547d1
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: b29aea838e2682035ac56ef31291a5628854df79
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702579"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925865"
 ---
 # <a name="update-yor-payment-method-for-your-subscription"></a>구독에 대한 yor 결제 방법 업데이트
 

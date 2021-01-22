@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Google Workspace에서 비즈니스용 Microsoft 365로 도메인을 이동하는 방법을 배워야 합니다.
-ms.openlocfilehash: 1abc05867147d2b52e26804918e8247053b5e1d5
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 23ca451cfdcb67898a10935101efedcdf360ef91
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794750"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925005"
 ---
 # <a name="add-your-google-workspace-domain-to-microsoft-365"></a>Microsoft 365에 Google Workspace 도메인 추가
 

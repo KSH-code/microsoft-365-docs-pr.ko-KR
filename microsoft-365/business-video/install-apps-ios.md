@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: iOS 디바이스에 Office 앱을 설치하는 방법을 배워야 합니다.
-ms.openlocfilehash: 4b92b21d1002d63f00cec322495cdc7d122c2f7c
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: e3b703f3bc0bfe6972ac73e9ad7de955d773a812
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702502"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927111"
 ---
 # <a name="install-outlook-and-office-apps-on-ios-devices"></a>iOS 장치에 Outlook 및 Office 앱 설치
 
@@ -45,7 +46,7 @@ Microsoft&#39;Microsoft 365 Business Premium을 설정한 후 iPhone에 Office �
 7. (선택 사항), **Let's Do It ** to add more accounts, or select  **Maybe Later**  to skip this step.
 8. **확인을** 선택하여 Microsoft 365 Business가 Outlook 데이터를 보호할 수 있도록 앱을 다시 시작합니다.
 9. Outlook을 다시 열면 확인 메시지가 나타납니다. 확인을 **선택합니다.**
-10. Outlook 및 기타 Office 앱에 대한 PIN을 만들고 이를 확인 합니다. 이제부터 이 PIN을 사용하여 모든 Office 앱 데이터를 보호합니다.
+10. Outlook 및 기타 Office 앱에 대한 PIN을 만들고 확인을 합니다. 이제부터 이 PIN을 사용하여 모든 Office 앱 데이터를 보호합니다.
 11. 전자  **메일 알림을**  사용하도록 설정하려면 켜기 기능을 선택합니다.
 12. **푸시** 알림을 사용하도록 설정하려면 허용을 선택합니다.
 

@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 비즈니스를 위한 온라인 모임을 호스팅하는 방법을 배워야 합니다.
-ms.openlocfilehash: b0a95ff30fbff4da46ebcf0d8c236ba1023deebb
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 178091c5233da5e96ed6c9f074b5418cc00c4155
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702509"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926129"
 ---
 # <a name="host-online-meetings-for-your-business"></a>비즈니스를 위한 온라인 모임 호스트
 
@@ -34,7 +35,7 @@ ms.locfileid: "49702509"
 
 비디오 및 화면 공유를 얻기 위해 브라우저에서 무료 버전을 다운로드하거나 온라인으로 참가해야 합니다. [](https://support.microsoft.com/office/6d79a648-6913-4696-9237-ed13de64ae3c) [](https://support.microsoft.com/office/1613bb53-f3fa-431e-85a9-d6a91e3468c9)
 
-클라이언트, 고객 또는 파트너와 프로젝트에서 긴밀하게 공동 작업을 [](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7) 하는 경우 클라이언트를 위한 팀을 만드는 것을 고려해 볼 수 있습니다. 이를 통해 클라이언트를 모임에 쉽게 초대하고, 대화를 진행하고, 파일을 공유하고, 프로젝트를 추적할 수 있습니다.
+클라이언트, 고객 또는 파트너와 프로젝트에서 긴밀하게 공동 작업을 [](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7) 하는 경우 클라이언트를 위한 팀을 만들어 모임에 쉽게 초대하고 대화를 나누고 파일을 공유하고 프로젝트를 추적할 수 있습니다.
 
 Microsoft Teams를 통해 온라인 모임에 참가하거나 호스팅하는 방법에 대한 간략한 개요를 다운로드할 수 있는 정보 그래픽을 다운로드하세요.
 
@@ -72,7 +73,7 @@ Microsoft Teams를 사용하여 회사의 직원과 회사 외부의 클라이�
 
 Microsoft Teams에서 채팅을 모임으로 쉽게 변환할 수 있습니다. 화상 통화 **단추 또는** 오디오 :::image type="icon" source="../media/video-call-icon.png" border="false"::: 통화 **단추를** :::image type="icon" source="../media/audio-call-icon.png" border="false"::: 선택하기만 하여 통화를 시작할 수 있습니다. 그룹 토론으로 전환해야 하는 경우 통화에 다른 사용자도 추가할 수 있습니다.
 
-도움이 필요하세요? [Teams의 채팅에서 통화 시작을 참조하세요.](https://support.microsoft.com/office/f5138c9d-df4c-43d8-9cf6-53400c1a7798)
+도움이 필요하세요? [Teams에서 채팅 시작을 참조하세요.](https://support.microsoft.com/office/f5138c9d-df4c-43d8-9cf6-53400c1a7798)
 
 ## <a name="related-articles"></a>관련 문서
 

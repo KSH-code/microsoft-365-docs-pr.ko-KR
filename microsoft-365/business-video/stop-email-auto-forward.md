@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 전자 메일 자동 전달을 중지하는 방법을 배워야 합니다.
-ms.openlocfilehash: 0683e133f6c261dc19cc098b13be298cd8086001
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: ebbe37ab5c4a60c6ac4b6ebf8877247199460fa1
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702592"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925889"
 ---
 # <a name="stop-email-auto-forward"></a>전자 메일 자동 전달 중지
 

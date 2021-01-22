@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Android 디바이스에 Outlook 및 기타 Office 앱을 설치하는 방법을 배워야 합니다.
-ms.openlocfilehash: ba9e37a3012dd8d9e7000bf2af61c014df58023a
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+description: Android 장치에 Outlook 및 기타 Office 앱을 설치하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+ms.openlocfilehash: 3b449d98a9e19e8f4ce8a3cc84dbbdce058dc310
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702729"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925125"
 ---
 # <a name="install-outlook-and-office-apps-on-android-devices"></a>Android 장치에 Outlook 및 Office 앱 설치
 
@@ -44,4 +45,4 @@ Android 장치가 Microsoft 365 Business Premium에서 관리되는 경우 Offic
 6. 다음 페이지에서 다른  계정을 추가하려면 계속을 선택합니다. 그렇지 않으면 **건너뛰기 를 선택 합니다.**
 7. Intune 회사 포털 앱을 추가하라는 메시지가 표시될 때 스토어로 **이동을 선택하세요.**
 8. Intune 회사 포털 앱을 설치하고 연  다음 조직에서 이 앱의 데이터를 보호하는 메시지가 표시되어 있는 경우 확인을 선택하세요.
-9. PIN을 요청한 경우 휴대폰 잠금을 해제하는 데 사용할 4자리&#39;PIN을  입력하고 보내기, PIN 확인 및 다시 보내기 선택을 **합니다.**
+9. PIN을 요청하는 경우 휴대폰 잠금을 해제하는 데 사용할 4자리&#39;입력하고  보내기, PIN 확인, 다시 보내기 선택을 **합니다.**

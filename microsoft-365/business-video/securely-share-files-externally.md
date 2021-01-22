@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 외부에서 비즈니스 파일을 안전하게 공유하는 방법을 배워야 합니다.
-ms.openlocfilehash: 2ffb9067b73daad8591f6563640ca95ac4c8724b
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: c2e611d6a6fc6fb239302d2b9d4960471cd5f707
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703187"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925985"
 ---
 # <a name="securely-share-files-externally"></a>외부에서 안전하게 파일 공유
 

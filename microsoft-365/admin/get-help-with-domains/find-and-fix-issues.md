@@ -14,7 +14,9 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - Adm_O365_Setup
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -22,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: DNS 레코드가 올바르게 설정되어 있는지 확인하여 사용자 지정 도메인을 설정하는 동안 발생할 수 있는 문제를 추적하는 방법을 학습합니다.
-ms.openlocfilehash: d2935a7fcc134f7f6d2dd06a5b4e0e0a8761ad8a
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 786df75f3f8a514e9b3c2a7666d715c9abd082bd
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658522"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926393"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결
 
@@ -36,7 +38,7 @@ ms.locfileid: "49658522"
 도메인을 Microsoft 365와 함께 작동할 수 있도록 설정하는 것은 어려울 수 있습니다. DNS 시스템은 번거로우며, 도메인에 대한 DNS 설정은 전자 메일처럼 중요한 비즈니스 활동에 영향을 줍니다.
 
 > [!NOTE]
-> 도메인의 상태를 확인하여 도메인 문제를 확인할 수 있습니다. 설치   >  **도메인으로 이동하여** 상태 열에서  알림을 시청합니다. 문제가 있는 경우 추가 작업(3개 점)을 선택한 다음 **상태 확인을 선택합니다.** 창이 열리면 도메인에서 발생하는 문제를 설명할 수 있습니다.
+> 도메인의 상태를 확인하여 도메인 문제를 확인할 수 있습니다. 설치   >  **도메인으로 이동하여** 상태 열에서  알림을 시청합니다. 문제가 표시이면 추가 작업(3개 점)을 선택한 다음 **상태 확인을 선택합니다.** 창이 열리면 도메인에서 발생하는 문제를 설명할 수 있습니다.
   
 ## <a name="whats-going-on"></a>무슨 일이죠?
 

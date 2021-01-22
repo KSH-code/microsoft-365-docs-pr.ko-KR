@@ -12,19 +12,21 @@ localization_priority: Priority
 ms.collection:
 - Adm_O365
 - Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: 암호 공격으로부터 조직을 더 안전하게 보호하는 방법과 일반적인 암호를 금지하고 위험 기반 다단계 인증을 사용해야 하는 이유를 알아봅니다.
-ms.openlocfilehash: 0bfbeac6fb8069e846ddad3c5b618687ba3c2260
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+ms.openlocfilehash: 66a4048ac1add3a0d47f256dc29519a91ae6cb11
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456334"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926717"
 ---
 # <a name="password-policy-recommendations"></a>권장 암호 정책
 
@@ -68,7 +70,7 @@ Microsoft 365 암호에 대한 자세한 내용은[관련 문서](#related-artic
   
 - 다른 웹 사이트에서 사용하는 것과 같거나 비슷한 암호를 사용하지 마세요.
 
-- 예를 들어 **password** 같은 한 단어나 **Iloveyou**와 같은 일반적으로 사용되는 문구를 사용하지 마세요.
+- 예를 들어 **password** 같은 한 단어나 **Iloveyou** 와 같은 일반적으로 사용되는 문구를 사용하지 마세요.
 
 - 친구나 가족의 이름과 생일, 좋아하는 밴드, 사용하기 좋아하는 문구와 같이 자신에 대해 많이 아는 사람들도 암호를 추측하기 어렵게 만듭니다.
 
@@ -82,7 +84,7 @@ Microsoft 365 암호에 대한 자세한 내용은[관련 문서](#related-artic
   
 ### <a name="requiring-long-passwords"></a>긴 암호 요구
 
-암호 길이 요구 사항(10자 이상)에는 예측 가능하고 바람직하지 않은 사용자 동작이 발생할 수 있습니다. 예를 들어, 16자 암호를 입력해야 하는 사용자가 문자 길이 요구 사항을 충족하지만 추측하기 어렵지 않은 **fourfourfourfour** 또는 **passwordpassword**와 같은 반복되는 패턴을 선택할 수 있습니다. 또한 길이 요구 사항으로 사용자는 암호를 적어 두거나 재사용하거나 문서에 암호화되지 않은 상태로 저장하는 등의 안전하지 않은 방법을 채택할 확률이 높아집니다. 사용자가 고유한 암호를 생각하도록 유도하려면 최소 8자 길이의 적정 요구 사항을 유지하는 것이 좋습니다.
+암호 길이 요구 사항(10자 이상)에는 예측 가능하고 바람직하지 않은 사용자 동작이 발생할 수 있습니다. 예를 들어, 16자 암호를 입력해야 하는 사용자가 문자 길이 요구 사항을 충족하지만 추측하기 어렵지 않은 **fourfourfourfour** 또는 **passwordpassword** 와 같은 반복되는 패턴을 선택할 수 있습니다. 또한 길이 요구 사항으로 사용자는 암호를 적어 두거나 재사용하거나 문서에 암호화되지 않은 상태로 저장하는 등의 안전하지 않은 방법을 채택할 확률이 높아집니다. 사용자가 고유한 암호를 생각하도록 유도하려면 최소 8자 길이의 적정 요구 사항을 유지하는 것이 좋습니다.
   
 ### <a name="requiring-the-use-of-multiple-character-sets"></a>여러 문자 집합을 사용해야 하는 경우
 
@@ -102,7 +104,7 @@ Microsoft 365 암호에 대한 자세한 내용은[관련 문서](#related-artic
   
 ### <a name="ban-common-passwords"></a>일반적인 암호 금지
 
-암호를 만들 때 사용자에게 제공해야 하는 가장 중요한 암호 요구 사항은 조직의 무작위 암호 공격에 대한 취약성을 줄이기 위해 일반적인 암호 사용을 금지하는 것입니다. 일반적인 사용자 암호에는 **abcdefg**, **password**, **monkey**가 포함됩니다.
+암호를 만들 때 사용자에게 제공해야 하는 가장 중요한 암호 요구 사항은 조직의 무작위 암호 공격에 대한 취약성을 줄이기 위해 일반적인 암호 사용을 금지하는 것입니다. 일반적인 사용자 암호에는 **abcdefg**, **password**, **monkey** 가 포함됩니다.
   
 ### <a name="educate-users-to-not-re-use-organization-passwords-anywhere-else"></a>다른 곳에서 조직 암호를 다시 사용하지 않도록 사용자를 교육합니다.
 

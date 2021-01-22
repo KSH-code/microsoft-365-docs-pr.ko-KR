@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 비즈니스용 GoDaddy 웹 사이트를 만드는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: db3a3133626577f9dc2665a61053cb587e9b7b3a
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 44f1a82706ff2dc025fc9dcc6f74a71dc0a987e5
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702569"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927337"
 ---
 # <a name="create-a-website"></a>웹 사이트 만들기
 
@@ -34,7 +35,7 @@ ms.locfileid: "49702569"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-Microsoft 365에는 비즈니스용 공개 웹 사이트가 포함되어 있지 않습니다. 하나를 설정하기 위해 GoDaddy, Wix 또는 WordPress와 같은 웹 호스팅 회사를 사용하는 것이 있습니다.
+Microsoft 365에는 비즈니스용 공개 웹 사이트가 포함되어 있지 않습니다. 웹 호스팅 회사(예: GoDaddy, Wix 또는 WordPress)를 사용하여 설정할 수 있습니다.
 
 1. 웹 사이트를 빌드할 수 있는 웹 호스팅 공급자를 검색합니다.
 

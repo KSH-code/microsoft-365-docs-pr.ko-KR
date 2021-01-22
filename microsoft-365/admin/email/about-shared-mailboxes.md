@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 공유 사서함은 여러 사용자가 동일한 사서함에 액세스해야 하는 경우 사용됩니다. 공유 사서함을 만들기 전에 알아야 할 내용을 자세히 알아보세요.
-ms.openlocfilehash: cc94ae30edcc7a8307328230989dc4a883732b0e
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 744c4fece24cf1fa5ee7259a0d722ff123ff2664
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568297"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49926513"
 ---
 # <a name="about-shared-mailboxes"></a>공유 사서함 정보
 

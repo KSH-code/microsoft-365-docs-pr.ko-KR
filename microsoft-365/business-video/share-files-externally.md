@@ -16,19 +16,20 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 외부에서 비즈니스 파일을 쉽게 공유하는 방법을 배워야 합니다.
-ms.openlocfilehash: 9fc15ab0b3eee3b32a4ede7122e8ca7baddb5143
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 4f5870859b06aa4229a37576bcc724ddb078d833
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703139"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925913"
 ---
-# <a name="easily-share-files-externally"></a>외부에서 파일을 쉽게 공유할 수 있습니다.
+# <a name="easily-share-files-externally"></a>외부에서 손쉽게 파일 공유
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2dCOV?autoplay=false]
 

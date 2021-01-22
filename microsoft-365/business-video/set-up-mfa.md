@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 휴대폰에서 다단계 인증을 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 0f86b93514f974d440ed2f58ee837ce9b497a53c
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: b682ec58c73d90b0936c107ab8fef1de5aff867d
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703151"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925937"
 ---
 # <a name="set-up-multi-factor-authentication-on-your-phone"></a>휴대폰에서 다단계 인증 설정
 
@@ -37,7 +38,7 @@ ms.locfileid: "49703151"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. 로그인하면 자세한 정보가 필요한 [https://office.com](https://office.com) **프롬프트가** 표시될 것입니다. **다음** 을 선택합니다.
+1. 로그인하면 추가 정보가 필요한 [https://office.com](https://office.com) **프롬프트가** 표시될 수 있습니다. **다음** 을 선택합니다.
 1. **1단계에서** 인증 **전화** 드롭다운 **목록에서** 모바일 앱을 선택합니다.
 1. 모바일 앱을 사용하려면 어떻게 해야 합니까?에서 로그인하는 데 사용할 방법을 선택합니다.
     - 지문 **인증을** 포함할 수 있는 모바일 앱에서 직접 인증하려면 인증을 위한 수신 알림을 선택합니다.

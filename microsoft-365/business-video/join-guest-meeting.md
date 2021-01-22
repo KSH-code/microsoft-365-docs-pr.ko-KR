@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 게스트와 Teams 모임에 참가하는 방법을 배워야 합니다.
-ms.openlocfilehash: bb13396f13062e65700a535315ef41292210b3a8
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: a5f19aab079685a76f31bf67c1c79bd7312d00a4
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702462"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927145"
 ---
 # <a name="join-a-teams-meeting-with-guests"></a>게스트와 Teams 모임 참가
 
@@ -36,7 +37,7 @@ Microsoft Teams를 사용하면 내부 및 외부 사용자와의 모임에 쉽�
 
 ## <a name="try-it"></a>사용해 보세요!
 
-1. Microsoft Teams에서 일정을 **선택하고** 모임을 찾아야 합니다.
+1. Microsoft Teams에서 **일정을** 선택하고 모임을 찾아야 합니다.
 1. 참가를 **선택하고** 카메라와 마이크를 설정 또는 해제할지 여부를 결정하고 지금 **참가를 선택합니다.**
 1. 외부 게스트인 경우 모임에 대해 받은 전자 메일을 열고 Microsoft Teams 모임에 **참가를 선택합니다.**
 

@@ -16,17 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Outlook 및 Microsoft Teams를 사용하여 공동 작업하는 방법에 대해 자세히 알아보고
-ms.openlocfilehash: aac1782de441db7521f4f9b7da540b417cb25f14
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 3d5ac6dd157b0469800a3dd6f841ec1a5c1d1ed9
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703034"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927349"
 ---
 # <a name="use-outlook-and-teams-together"></a>Outlook과 Teams를 함께 사용
 
@@ -36,7 +37,7 @@ ms.locfileid: "49703034"
 
 - 비즈니스의 새로운 잠재 고객 등 비즈니스 내부 및 외부의 메시지를 검사합니다.
 - 일정을 확인하고 약속을 추가하고 모임을 예약합니다.
-- 함께 작업하는 사용자 이름, 숫자 및 전자 메일을 연락처로 추가합니다.
+- 함께 작업하는 사용자 이름, 번호 및 전자 메일을 연락처로 추가합니다.
 - 단기 프로젝트와 장기 프로젝트를 맨 위에 두는 작업, 메모 및 기타 방법을 만들 수 있습니다.
 
 :::image type="content" source="../media/outlook-model.png" alt-text="Outlook 홈페이지의 스타일이 있는 이미지입니다.":::

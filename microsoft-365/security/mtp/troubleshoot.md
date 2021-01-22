@@ -3,7 +3,7 @@ title: Microsoft 365 Defender 서비스 문제 해결
 description: 알려진 Microsoft 365 Defender 문제 해결 방법 찾기
 keywords: Microsoft 위협 방지 문제 해결, 문제 해결, Azure ATP, 문제, 추가 기능, 설정 페이지
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,12 +19,13 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b7b6ea55d084c114b79dfee0e061b09c8ede8632
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.technology: m365d
+ms.openlocfilehash: 414743fa5ba25b9d2714c1dd08dd38e34ec94372
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760461"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925721"
 ---
 # <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Microsoft 365 Defender 서비스 문제 해결
 
@@ -42,7 +43,7 @@ ms.locfileid: "49760461"
 
 자세한 내용은 [전제 조건](prerequisites.md)을 참조하세요.
 
-## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a>Microsoft 365 Defender 인시던트에 ID에 대한 Microsoft Defender 알림이 표시되지 않습니다.
+## <a name="microsoft-defender-for-identity-alerts-are-not-showing-up-in-the-microsoft-365-defender-incidents"></a>Microsoft 365 Defender 인시던트에 ID에 대한 Microsoft Defender 경고가 표시되지 않습니다.
 
 사용자 환경에 Microsoft Defender for Identity를 배포했지만 Microsoft 365 Defender 인시던트의 일부로 ID에 대한 Defender 경고가 표시되지 않는 경우 Microsoft Cloud App Security 및 Id용 Defender 통합이 사용하도록 설정되어 있도록 해야 합니다.
 
@@ -50,4 +51,4 @@ ms.locfileid: "49760461"
 
 ## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>서비스를 켜기 위한 설정 페이지는 어디에 있나요?
 
-Microsoft 365 Defender를 켜기 위해 Microsoft 365 보안 센터의 탐색 창에서 설정에 액세스합니다.  이 탐색 항목은 선행 권한 및 라이선스가 있는 경우만 [표시됩니다.](mtp-enable.md#check-license-eligibility-and-required-permissions)
+Microsoft 365 Defender를 켜기 위해 Microsoft 365 보안 센터의 탐색 창에서 설정에 액세스합니다.  이 탐색 항목은 선행 사용 권한 및 라이선스가 있는 경우만 [표시됩니다.](mtp-enable.md#check-license-eligibility-and-required-permissions)
