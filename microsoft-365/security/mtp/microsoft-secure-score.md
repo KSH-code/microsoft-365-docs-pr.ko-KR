@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: a0f4307cc0ed42a8ed53cdeefdb0a7b32eb36d35
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 39abcbde82c2902b091b42db3dbc8e1ee2cbd924
+ms.sourcegitcommit: 8b3ff6e9f8931327b6f0541fd882107687cd123e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930585"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "49942793"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
@@ -82,6 +82,7 @@ Microsoft 보안 점수는 조직의 보안 자세를 측정한 결과로, 수�
 - 엔드포인트용 Microsoft Defender
 - ID용 Microsoft Defender
 - 클라우드 앱 보안
+- Microsoft Teams
 
 다른 보안 제품에 대한 권장 사항은 곧 제공될 예정입니다. 권장 사항은 각 제품과 관련된 모든 공격 표면을 다루지 않지만 좋은 기준입니다. 또한 제3자 또는 대체 완화에 적용된 개선 작업을 표시할 수도 있습니다.
 
@@ -104,7 +105,7 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여하려면 Azu
 
 ### <a name="read-and-write-roles"></a>역할 읽기 및 쓰기
 
-읽기 및 쓰기 액세스를 사용하면 변경을 통해 보안 점수와 직접 상호 작용할 수 있습니다. 다른 사용자에게 읽기 전용 액세스를 할당할 수도 있습니다.
+읽기 및 쓰기 권한을 사용하면 변경을 통해 보안 점수와 직접 상호 작용할 수 있습니다. 다른 사용자에게 읽기 전용 액세스를 할당할 수도 있습니다.
 
 * 전역 관리자
 * 보안 관리자
@@ -125,11 +126,11 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여하려면 Azu
 
 ## <a name="risk-awareness"></a>위험 인식
 
-Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 관련 측정값을 기반으로 하는 보안의 수치 요약입니다. 이는 시스템 또는 데이터가 침해될 가능성에 대한 절대적인 측정치가 아니며, 그보다는 Microsoft 환경에서 보안 제어를 채택한 범위를 나타내며 위반 위험을 완화할 수 있습니다. 온라인 서비스가 보안 위반으로부터 영향을 받는 것은 아니며 보안 점수는 어떤 방식으로든 보안 위반에 대한 보장으로 해석되지 않습니다.
+Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 관련 측정값을 기반으로 하는 보안의 수치 요약입니다. 이는 시스템 또는 데이터가 침해될 가능성에 대한 절대적인 측정치가 아니며, 그보다는 Microsoft 환경에서 보안 제어를 채택한 범위를 나타내며 위반 위험을 완화할 수 있습니다. 온라인 서비스가 보안 침해로부터 영향을 받는 것은 아니며 보안 점수는 어떤 방식으로든 보안 위반에 대한 보장으로 해석되지 않습니다.
 
 ## <a name="we-want-to-hear-from-you"></a>의견을 보내 주세요.
 
-문제가 있는 경우 보안, 개인 정보 보호 및 규정 준수 커뮤니티에 게시하여 [& 알려주세요.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티를 모니터링하고 있으며 도움을 제공할 것입니다.
+문제가 있는 경우 보안, 개인 정보 보호 및 규정 준수 커뮤니티에 & [알려주세요.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티를 모니터링하고 있으며 도움을 제공할 것입니다.
 
 ## <a name="related-resources"></a>관련 리소스
 

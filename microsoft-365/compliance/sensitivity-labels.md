@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 61bb7afedbbafb1272c3dfdbbecd0ede9777effe
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 2a4b66de9996ec0ea7047ca44ae3750a917c4cc2
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49655580"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921682"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -42,11 +42,6 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 ![Excel 리본 및 상태 표시줄의 민감도 레이블](../media/Sensitivity-label-in-Excel.png)
 
 민감도 레이블을 적용하려면 Microsoft 365 회사 또는 학교 계정으로 로그인해야 합니다.
-
-> [!NOTE]
-> 미국 정부 테넌트(GCC, GCC-H 및 DoD)의 경우 민감도 레이블은 현재 Azure Information Protection 통합 레이블 지정 클라이언트 및 스캐너에 대해서만 지원됩니다. 
-> 
-> 자세한 내용은 [Azure Information Protection Premium 정부 서비스 설명](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description)을 참조하세요.
 
 민감도 레이블을 사용하여 다음을 수행할 수 있습니다.
   

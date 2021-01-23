@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠에 대해 수행하는 작업을 확인하고 필터링하여 데이터 분류 기능을 자세히 설명합니다.
-ms.openlocfilehash: 0175f41ca3fbcfc685acf933cc0cd97af6aa61ad
-ms.sourcegitcommit: 5e40c760c1af2a4cc6d85cb782b17f5c979677c5
+ms.openlocfilehash: 6825c00373617011db28fa484f272086f887ea40
+ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48379206"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49921636"
 ---
 # <a name="get-started-with-activity-explorer"></a>활동 탐색기 시작하기
 
@@ -51,6 +51,8 @@ ms.locfileid: "48379206"
 - Office 365 (E5)
 - 고급 규정 준수 (E5) 추가 기능
 - 고급 위협 인텔리전스 (E5) 추가 기능
+- Microsoft 365 E5/A5 정보 보호 및 거버넌스
+- Microsoft 365 E5/A5 규정 준수
 
 ### <a name="permissions"></a>권한
 

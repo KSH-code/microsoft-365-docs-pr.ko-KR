@@ -6,10 +6,9 @@ keywords: 통합, Microsoft Defender, ATP
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/29/2020
+ms.date: 01/21/2021
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,12 +17,14 @@ ms.collection:
 - M365-security-compliance
 description: 끝점용 Microsoft Defender와 함께 Office 365용 Microsoft Defender를 사용하여 장치 및 전자 메일 콘텐츠에 대한 위협에 대한 자세한 정보를 얻을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8cc78e7d674facb371ea98125b6857502031d26e
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 24b81bb4c445c44d7c0228fa1c4440faff642816
+ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616515"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49939335"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender와 함께 Office 365용 Microsoft Defender 사용
 
@@ -32,7 +33,7 @@ ms.locfileid: "49616515"
 
 [Office 365용 Microsoft Defender는](office-365-atp.md) [끝점용 Microsoft Defender와](https://docs.microsoft.com/windows/security/threat-protection)함께 작동하도록 구성할 수 있습니다.
 
-Office 365용 Microsoft Defender를 끝점용 Microsoft Defender와 통합하면 보안 운영 팀이 사용자의 장치가 위험에 노출될 경우 신속하게 조치를 취할 수 있습니다. 예를 들어 통합을 사용하도록 설정하면 보안 운영 팀에서 검색된 전자 메일 메시지의 영향을 받을 수 있는 장치와 끝점용 Microsoft Defender에서 해당 장치에 대해 생성된 최근 알림의 수를 볼 수 있습니다.
+Office 365용 Microsoft Defender를 끝점용 Microsoft Defender와 통합하면 보안 운영 팀이 사용자의 장치가 위험에 노출될 경우 신속하게 조치를 취할 수 있습니다. 예를 들어 통합을 사용하도록 설정하면 보안 운영 팀에서 감지된 전자 메일 메시지의 영향을 받을 수 있는 장치와 끝점용 Microsoft Defender에서 해당 장치에 대해 생성된 최근 알림의 수를 볼 수 있습니다.
 
 다음 이미지는 끝점용 Microsoft Defender 통합을 사용하도록 설정한 장치 탭의 모양을 나타냈습니다. 
 
@@ -47,23 +48,23 @@ Office 365용 Microsoft Defender를 끝점용 Microsoft Defender와 통합하면
 
 - 조직에는 Office 365용 Microsoft Defender(또는 Office 365 E5) 및 끝점용 Microsoft Defender가 있어야 합니다.
 
-- 전역 관리자 또는 보안 관리자 역할(예: 보안 관리자)이 보안 및 준수 센터에 [& 있어야 합니다.](https://protection.office.com) (보안 [및 준수 센터의 & 참조)](permissions-in-the-security-and-compliance-center.md)
+- 전역 관리자 또는 보안 및 준수 센터에 보안 관리자 [역할(예: 보안 관리자)이 & 있어야 합니다.](https://protection.office.com) (보안 [및 준수 센터의 & 참조)](permissions-in-the-security-and-compliance-center.md)
 
 - 보안 및 준수 [](threat-explorer.md) 센터와 Microsoft Defender 보안 센터에서 탐색기(& 검색)에 모두 액세스할 수 있어야 합니다.
 
 ## <a name="to-integrate-microsoft-defender-for-office-365-with-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender와 Office 365용 Microsoft Defender를 통합
 
-Office 365용 Microsoft Defender를 끝점용 Microsoft Defender와 통합하는 것은 보안 & 준수 센터와 Microsoft Defender 보안 센터를 모두 사용하여 설정됩니다.
+Office 365용 Microsoft Defender를 끝점용 Microsoft Defender와 통합하는 것은 보안 및 준수 & Microsoft Defender 보안 센터를 사용하여 설정됩니다.
 
-1. 전역 관리자 또는 보안 관리자로 이동하여 <https://protection.office.com> 로그인합니다. Office 365 보안 및 준수 센터로 & 수 있습니다.
+1. 전역 관리자 또는 보안 관리자로 이동하여 <https://protection.office.com> 로그인합니다. (이 경우 Office 365 보안 및 준수 & 수 있습니다.)
 
 2. 탐색 창에서 위협 관리 **탐색기를** \> **선택 합니다.**
 
    ![위협 관리 메뉴의 탐색기](../../media/ThreatMgmt-Explorer-nav.png)
 
-3. In the upper right corner of the screen, choose **Defender for Endpoint Settings.**
+3. In the upper right corner of the screen, choose **Defender for Endpoint Settings (MDE Settings)**.
 
-4. 끝점용 Microsoft Defender 연결 대화 상자에서 **끝점용 Microsoft Defender에 연결 기능을 켜고**
+4. 끝점용 Microsoft Defender 연결 대화 상자에서 **끝점용 Microsoft Defender에 연결합니다.**
 
    ![끝점용 Microsoft Defender 연결](../../media/Explorer-WDATPConnection-dialog.png)
 
@@ -77,7 +78,7 @@ Office 365용 Microsoft Defender를 끝점용 Microsoft Defender와 통합하는
 
 ## <a name="related-articles"></a>관련 문서
 
-[Office 365의 위협 조사 및 응답 기능](office-365-ti.md)
+[Office 365의 위협 조사 및 대응 기능](office-365-ti.md)
 
 [Office 365용 Microsoft Defender](office-365-atp.md)
 

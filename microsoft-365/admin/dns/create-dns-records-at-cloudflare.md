@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Microsoft용 Cloudflare에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 110bd96c0eecf40ae96efe7055d82a8d12dde607
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 8d5dd7779f07fd42dd230ee33c40849da3519d26
+ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657963"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49939275"
 ---
 # <a name="create-dns-records-at-cloudflare-for-microsoft"></a>Cloudflare에서 Microsoft용 DNS 레코드 만들기
 
@@ -86,7 +86,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 4. DNS 관리 **페이지에서** 레코드 추가를 클릭한 다음 다음 표의 값을 선택합니다. 
     
-    |**유형**|**이름**|**자동 TTL**|**콘텐츠**|
+    | 유형 | 이름 | 자동 TTL | 콘텐츠 |
     |:-----|:-----|:-----|:----|
     |TXT  <br/> |@  <br/> |30분  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)    |
   
@@ -130,7 +130,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 4. DNS 관리 **페이지에서** 레코드 추가를 클릭한 다음 다음 표의 값을 선택합니다. 
     
-    |**유형**|**이름**|**메일 서버**|**Priority(우선 순위)**|**TTL**|
+    | 유형 | 이름 | 메일 서버 | 우선 순위 | TTL |
     |:-----|:-----|:-----|:-----|:-----|
     |MX  <br/> |@  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft  *\<domain-key\>*  365 계정에서 다운로드하세요.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md) |1   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/>|30분  <br/> |
    
@@ -159,7 +159,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     DNS 관리 **페이지에서** 레코드 추가를 클릭한 다음 다음 표의 값을 선택합니다.
     
     
-    |**유형**|**Name(이름)**|**Target(대상)**|**TTL**|
+    | 유형 | 이름 | Target(대상) | TTL |
     |:-----|:-----|:-----|:-----|
     |CNAME  <br/> |autodiscover  <br/> |autodiscover.outlook.com  <br/> |30분  <br/> |
     |CNAME  <br/> |sip  <br/> |sipdir.online.lync.com  <br/> |30분  <br/> |
@@ -169,7 +169,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     |CNAME  <br/> |msoid  <br/> |clientconfig.microsoftonline-p.net  <br/> |30분  <br/> |
     
   
-5. DNS 트래픽 **아이콘(주황색** 클라우드)을 선택하여 Cloudflare 서버를 무시합니다.
+5. DNS 트래픽 **아이콘(주황색** 클라우드를 회색으로 변경)을 선택하여 Cloudflare 서버를 무시합니다.
   
 6. **저장** 을 선택합니다.
   
@@ -192,7 +192,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 4. DNS 관리 **페이지에서** 레코드 추가를 클릭한 다음 다음 표의 값을 선택합니다.  
     
-    |**유형**|**이름**|**TTL**|**콘텐츠**|
+    | 유형 | 이름 | TTL | 콘텐츠 |
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |@  <br/> |30분  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.   |
 
@@ -217,7 +217,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
     DNS 관리 **페이지에서** 레코드 추가를 클릭한 다음 다음 표의 첫 번째 행에서 값을 선택합니다.
         
-    |**유형**|**서비스**|**프로토콜**|**이름**|**TTL**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**대상**|
+    | 유형 | 서비스 | Protocol(프로토콜) | 이름 | TTL | 우선 순위 | 가중치 | 포트 | Target(대상) |
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
     |SRV|_sip |TLS |사용자 *domain_name;* 예를 들어 contoso.com  |30분 | 100|1  |443 |sipfed.online.lync.com  |
     |SRV|_sipfederationtls | TCP|사용자 *domain_name;* 예를 들어 contoso.com   |30분 |100 |1  |5061 | sipfed.online.lync.com |
