@@ -241,18 +241,6 @@
                       href: mtp/custom-detections-overview.md
                     - name: 검색 규칙 만들기 및 관리
                       href: mtp/custom-detection-rules.md
-            - name: 보고서
-              items:
-                - name: 보고서 모니터링 및 보기
-                  href: mtp/monitoring-and-reporting.md
-                - name: ID 모니터링 및 보고
-                  href: mtp/monitor-and-report-identities.md
-                - name: 데이터 모니터링 및 보고
-                  href: mtp/monitor-data.md
-                - name: 디바이스 모니터링 및 보고
-                  href: mtp/monitor-devices.md
-                - name: 앱 모니터링 및 보고
-                  href: mtp/monitor-apps.md
         - name: 참조
           items:
             - name: 사용 권한 및 설정
