@@ -1,6 +1,6 @@
 ---
 title: 항목에 대한 액세스 제한
-description: 항목을 검색하지 못하게 제외하는 방법
+description: 항목을 검색하지 못하게 하는 항목을 제외하는 방법
 author: efrene
 ms.author: efrene
 manager: pamgreen
@@ -8,24 +8,26 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-topics
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: b23d01585d9282132d9e55c74bb22bcdc6ca314a
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: f7e8406ee7090387d4500f69955330466f28c6c0
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698963"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976148"
 ---
 # <a name="restrict-access-to-topics-in-topic-experiences"></a>항목 환경의 항목에 대한 액세스 제한
 
-주제 환경의 경우 조직의 이해 관계자는 특정 항목을 검색하여 사용이 허가된 사용자에게 공개하지 않을 수 있습니다. 예를 들어 아직 정보를 노출하지 않을 프로젝트를 작업하고 있을 수 있습니다. 사이트, 파일 및 기타 리소스에 대한 Office 365 사용 권한은 Topic Experiences 사용자가 항목에서 중요한 정보를 볼 수 없는 반면 특정 항목을 검색하지 못하도록 방지하는 추가 보호책이 있습니다.
+항목 환경의 경우 조직의 이해 관계자는 특정 항목을 검색하여 라이선스가 부여된 사용자에게 공개하지 않을 수 있습니다. 예를 들어 아직 정보를 노출하지 않을 프로젝트를 작업하고 있을 수 있습니다. 사이트, 파일 및 기타 리소스에 대한 Office 365 사용 권한은 Topic Experiences 사용자가 항목에서 중요한 정보를 볼 수 없는 반면 특정 항목을 검색하지 못하도록 방지하는 추가 보호책이 있습니다.
 
 지식 관리자는 항목 검색을 방지하기 위해 지식 네트워크 설정을 제어하는 반면, 지식 관리자 및 기타 관련자는 이러한 작업을 수행하여 공동으로 작업할 수 있도록 해야 합니다.
 
 > [!Important] 
-> 이 문서에서는 AI를 통해 항목을 식별하거나 사용자 환경에서 추가 보안 보호책으로 볼 수 없습니다. 항목 환경의 경우 사용자는 Office 365 권한을 통해 액세스할 수 없는 항목의 항목을 볼 수 없습니다. 사용자가 항목을 볼 수 있는 경우에도 해당 파일, 사이트 및 페이지에는 볼 수 있는 Office 365 권한이 없습니다. 중요한 파일에 대한 사용 권한이 올바르게 설정되어 있는지 확인하려면 기본 보안 보호책이 되어야 합니다.
+> 이 문서에서는 AI를 통해 항목을 식별하거나 사용자 환경에서 추가 보안 보호책으로 볼 수 없습니다. 항목 환경의 경우 사용자는 Office 365 권한을 통해 액세스할 수 없는 항목의 항목을 볼 수 없습니다. 사용자가 항목을 볼 수 있는 경우에도 해당 파일, 사이트 및 페이지에는 볼 수 있는 Office 365 권한이 없습니다. 중요한 파일에 대한 사용 권한이 올바르게 설정되어 있는지 확인하려면 기본 보안 보호책을 설정해야 합니다.
 
 ## <a name="prevent-topics-from-being-identified"></a>항목을 식별할 수 없습니다.
 

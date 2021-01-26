@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: ''
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-topics
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: 항목 환경의 사용자 역할에 대해 자세히 알아보습니다.
-ms.openlocfilehash: ed4d40aa7bb91a85e28aba7ace99edf580c427a5
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: b649ea81d8e5b036e9332e9c87b67a951b5905a7
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698905"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49975696"
 ---
 # <a name="topic-experiences-roles-preview"></a>항목 환경 역할(미리 보기)
 
@@ -80,7 +82,7 @@ Microsoft 365 환경에서 항목 환경을 사용하는 경우 사용자는 다
 -   항목에 대해 크롤링할 SharePoint 사이트를 선택합니다.
 -   항목을 볼 수 있는 사용이 허가된 사용자(항목 뷰어)를 선택합니다.
 -   식별에서 제외할 항목을 선택합니다.
--   항목을 만들고 편집할 수 있는 사용이 허가된 사용자를 선택합니다(항목 참가자).
+-   항목을 만들고 편집할 수 있는 사용이 허가된 사용자(항목 참가자)를 선택합니다.
 -   항목을 관리할 수 있는 사용이 허가된 사용자(기술 관리자)를 선택합니다.
 -   항목의 이름을 가운데에 지정합니다.
 

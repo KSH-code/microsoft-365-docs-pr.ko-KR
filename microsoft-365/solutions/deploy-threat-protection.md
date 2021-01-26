@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365에 네트워크 보안 위협 방지 배포
-description: Microsoft 365 E5에 위협 방지 서비스 및 IT 네트워크 보안 기능을 배포하는 방법을 확인합니다.
+title: Microsoft 365에 위협 방지 기능 배포
+description: Microsoft 365 E5에 위협 방지 서비스 및 보안 기능을 배포하는 방법에 대해 자세히 알아보습니다.
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,18 +15,18 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 79352aca2012e6615f41b19f4a77fc5cf125f4c4
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 2da2ace96b731baedea9142e211e9301db69000d
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926753"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976579"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에 위협 방지 기능 배포
 
-[맬웨어](https://docs.microsoft.com/windows/security/threat-protection/intelligence/understanding-malware)및 정교한 사이버 공격(예: 파일 [없는](https://docs.microsoft.com/windows/security/threat-protection/intelligence/fileless-threats)위협)은 일반적으로 발생합니다. 기업은 효과적인 IT 네트워크 보안 기능으로 자신과 고객을 보호해야 합니다. 이러한 공격은 신뢰 상실에서 재무적 문제, 비즈니스를 위협하는 다운타임 등 조직에 주요 문제를 일으킬 수 있습니다. 위협으로부터 보호하는 것은 중요하지만 조직의 시간, 노력 및 리소스에 집중할 위치를 결정하기 어려울 수 있습니다. 
+[맬웨어](https://docs.microsoft.com/windows/security/threat-protection/intelligence/understanding-malware)및 정교한 사이버 공격(예: 파일 [없는](https://docs.microsoft.com/windows/security/threat-protection/intelligence/fileless-threats)위협)은 일반적으로 발생합니다. 기업은 효과적인 IT 보안 기능을 통해 자신과 고객을 보호해야 합니다. 사이버 공격은 신뢰 상실에서 재무적 위험, 비즈니스 위협을 일으키는 다운타임 등 조직에 중요한 문제를 일으킬 수 있습니다. 위협으로부터 보호하는 것은 중요하지만 조직의 시간, 노력 및 리소스에 집중할 위치를 결정하기 어려울 수 있습니다. 
 
-Microsoft 보안 솔루션은 제품 및 서비스에 기본 제공되어 있습니다. 자동화 및 기계 학습 기능은 보안 팀의 부하를 줄여 올바른 항목이 해결될 수 있도록 합니다. 또한 Microsoft 네트워크 보안 솔루션의 강점은 지능형 보안 그래프에서 매일 수조 번의 신호를 [처리합니다.](https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph) Microsoft 365 보안 솔루션에는 전자 메일, 데이터, 장치 및 ID 전반의 신호를 모아 조직에 대한 고급 위협의 그림을 그릴 수 있는 솔루션인 [Microsoft 365 Defender가](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)포함되어 있습니다.
+Microsoft 보안 솔루션은 제품 및 서비스에 기본 제공되어 있습니다. 자동화 및 기계 학습 기능은 보안 팀의 부하를 줄여 올바른 항목이 해결될 수 있도록 합니다. 또한 Microsoft 보안 솔루션의 강점은 지능형 보안 그래프에서 매일 수조 가지 신호를 [처리합니다.](https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph) Microsoft 365 보안 솔루션에는 전자 메일, 데이터, 장치 및 ID 전반의 신호를 모아 조직에 대한 고급 위협의 그림을 그릴 수 있는 솔루션인 [Microsoft 365 Defender가](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)포함되어 있습니다.
 
 
 이 비디오를 시청하고 배포 프로세스에 대한 개요를 확인하세요.
@@ -67,7 +67,7 @@ Office 365용 Defender 기능을 배포하는 즉시 Microsoft 365 Defender를 �
 조직에서 최상의 보호를 사용할 수 있도록 다음 단계를 포함하기 위해 보안 솔루션을 설정하고 배포합니다.
 
 1. [다단계 인증 및 조건부 액세스 정책 설정](deploy-threat-protection-configure.md#step-1-set-up-multi-factor-authentication-and-conditional-access-policies)
-2. [Id에 대한 Microsoft Defender 구성](deploy-threat-protection-configure.md#step-2-configure-microsoft-defender-for-identity)
+2. [Id에 맞게 Microsoft Defender 구성](deploy-threat-protection-configure.md#step-2-configure-microsoft-defender-for-identity)
 3. [Microsoft 365 Defender 켜기](deploy-threat-protection-configure.md#step-3-turn-on-microsoft-365-defender)
 4. [Office 365용 Defender 구성](deploy-threat-protection-configure.md#step-4-configure-microsoft-defender-for-office-365)
 5. [끝점용 Microsoft Defender 구성](deploy-threat-protection-configure.md#step-5-configure-microsoft-defender-for-endpoint)
@@ -75,6 +75,6 @@ Office 365용 Defender 기능을 배포하는 즉시 Microsoft 365 Defender를 �
 7. [상태 모니터링 및 작업 수행](deploy-threat-protection-configure.md#step-7-monitor-status-and-take-actions)
 8. [사용자 교육](deploy-threat-protection-configure.md#step-8-train-users)
 
-위협 방지 기능을 병렬로 구성할 수 있으므로 여러 네트워크 보안 팀이 서로 다른 서비스를 담당하는 경우 조직의 보호 기능을 동시에 구성할 수 있습니다. 다음 다이어그램은 위협 방지 기능을 배포하기 위한 높은 수준의 프로세스를 보여 주었다. 
+위협 방지 기능을 병렬로 구성할 수 있으므로 여러 네트워크 보안 팀이 서로 다른 서비스를 담당하는 경우 조직의 보호 기능을 동시에 구성할 수 있습니다. 다음 다이어그램에서는 위협 방지 기능을 배포하기 위한 높은 수준의 프로세스를 보여 주었다. 
 
 ![위협 방지 기능 배포 프로세스](../media/solutions-architecture-center/deploy-threat-protection-across-m365-grid.png) 

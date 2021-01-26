@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,12 +17,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 및 준수 센터의 제출 포털을 사용하여 의심스러운 전자 메일, 의심스러운 피싱 메일, 스팸 및 기타 유해한 메시지, URL 및 파일을 검사하기 위해 Microsoft에 제출하는 방법을 배울 수 있습니다. &
-ms.openlocfilehash: 432a245530d7906ae8babbc54176480d36315351
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 879a13e7c059495e653b79c424b227fe9f35a498
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49864951"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976606"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
@@ -32,7 +33,15 @@ ms.locfileid: "49864951"
 
 Exchange Online에 사서함이 있는 Microsoft 365 조직에서 관리자는 보안 및 준수 센터의 제출 포털을 & 전자 메일 메시지, URL 및 첨부 파일을 검사하기 위해 Microsoft에 제출할 수 있습니다.
 
-전자 메일을 제출하면 테넌트로 들어오는 전자 메일을 허용할 수 있는 정책에 대한 정보와 메일의 URL 및 첨부 파일을 검사할 수 있습니다. 메일을 허용할 수 있는 정책에는 개별 사용자의 수신 허용 - 보낸 사람 목록과 Exchange 메일 흐름 규칙(전송 규칙라고도 알려지기)의 테넌트 수준 정책이 포함됩니다.
+전자 메일 메시지를 제출하면 다음이 표시됩니다.
+
+1. **전자 메일 인증 확인**: 전자 메일 인증이 전달될 때 통과 또는 실패한 경우의 세부 정보입니다.
+2. **정책 적중:** 테넌트로 들어오는 전자 메일을 허용하거나 차단할 수 있는 모든 정책에 대한 정보로, 서비스 필터 판정을 차단합니다.
+3. **페이로드 신뢰도/확인:** 메시지의 URL 및 첨부 파일을 검사합니다.
+4. **등급 분석:** 메시지가 악성인지 여부를 확인하기 위해 휴먼 등급의 검토
+
+> [!IMPORTANT]
+> 페이로드 신뢰도/분석 및 등급 분석은 모든 테넌트에서 수행되지 않습니다. 데이터가 규정 준수를 위해 테넌트 경계를 떠날 수 없는 경우 정보가 조직 외부로 나가지 못하도록 차단됩니다.
 
 Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다른 방법은 Microsoft에 메시지 및 [파일 보고를 참조하세요.](report-junk-email-messages-to-microsoft.md)
 
@@ -77,7 +86,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 4. 완료되면 제출 **단추를** 클릭합니다.
 
-![URL 제출 예제](../../media/submission-flyout-email.PNG)
+   ![URL 제출 예제](../../media/submission-flyout-email.PNG)
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>의심되는 URL을 Microsoft로 보내기
 
@@ -91,7 +100,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 3. 완료되면 제출 **단추를** 클릭합니다.
 
-![전자 메일 제출 예제](../../media/submission-url-flyout.png)
+   ![전자 메일 제출 예제](../../media/submission-url-flyout.png)
 
 ### <a name="submit-a-suspected-file-to-microsoft"></a>의심되는 파일을 Microsoft에 제출
 
@@ -107,7 +116,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 4. 완료되면 제출 **단추를** 클릭합니다.
 
-![첨부 파일 제출 예제](../../media/submission-file-flyout.PNG)
+   ![첨부 파일 제출 예제](../../media/submission-file-flyout.PNG)
 
 ## <a name="view-admin-submissions"></a>관리자 제출 보기
 
@@ -152,8 +161,8 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 관리자 제출에 제출된 메시지는 다시 검색된 후 세부 정보 플라이아웃에 표시됩니다.
 
 - 배달 시 보낸 사람 전자 메일 인증에 오류가 발생했습니다.
-- 메시지의 판정에 영향을 주거나 의리가 있을 수 있는 정책 적중에 대한 정보입니다.
-- 메시지에 포함된 URL 또는 파일이 악의적이지 않은지의 현재 확인 결과입니다.
+- 메시지의 판정에 영향을 주거나 은(는) 있을 수 있는 정책 적중에 대한 정보입니다.
+- 현재 검색 결과는 메시지에 포함된 URL 또는 파일이 악의적이지 않은지 확인합니다.
 - 학년의 피드백.
 
 다시 검색된 재지정은 몇 분 후 완료됩니다. 전자 메일 인증에 문제가 없는 경우 또는 배달에 대한 오버라이드의 영향을 받지 않은 경우 학년들의 피드백이 하루가 걸릴 수 있습니다.
@@ -238,7 +247,7 @@ URL **탭을** 클릭합니다.
 - **보낸 사람 IP**<sup>\*</sup>
 - **제출 유형**
 
-페이지 위쪽에서 시작 날짜, 종료 날짜를 입력할 수 있으며 상자에 값을 입력하고 새로 고침 단추를 클릭하여 **제출된** 날짜로 필터링할 ![ 수 ](../../media/scc-quarantine-refresh.png) 있습니다. Update
+페이지 위쪽에서 시작 날짜, 종료 날짜를 입력할 수 있으며 상자에 값을 입력하고 새로 고침 단추를 클릭하여 **제출로** 필터링할 ![ 수 ](../../media/scc-quarantine-refresh.png) 있습니다. Update
 
 결과를 내보내려면 페이지 위쪽에 **있는** 내보내기를 클릭하고 차트 데이터 또는 **표를** **선택합니다.** 나타나는 대화 상자에서 .csv 파일을 저장합니다.
 

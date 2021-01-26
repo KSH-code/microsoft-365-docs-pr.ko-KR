@@ -1,106 +1,101 @@
 ---
 title: 정보 장벽 정책의 속성
-f1.keywords:
-- NOCSH
-ms.author: chrfox
-author: chrfox
+description: 이 문서는 정보 장벽 세그먼트를 정의하는 데 사용할 수 있는 Azure Active Directory 사용자 계정 특성에 대한 참조입니다.
+ms.author: robmazz
+author: robmazz
 manager: laurawi
-ms.date: 07/08/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
 localization_priority: None
-description: 정보 장벽 세그먼트를 정의 하는 데 사용 하는 Azure Active Directory 사용자 계정 특성에 대 한 참조 문서입니다.
+f1.keywords:
+- NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6b6fb9cbbe5840888114ba99a604d16117ec795d
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 5e7815dbcfc6129685322a250351276476f8a9e3
+ms.sourcegitcommit: c10eb675da725830e9776d2a0566ba3622eb361c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47307997"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49980052"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>정보 장벽 정책의 속성
 
-Azure Active Directory의 특정 특성을 사용 하 여 사용자를 분할할 수 있습니다. 세그먼트를 정의한 후에는 이러한 세그먼트를 정보 장벽 정책의 필터로 사용할 수 있습니다. 예를 들어 **부서** 를 사용 하 여 조직 내 부서별로 사용자 세그먼트를 정의할 수 있습니다 (두 부서가 동시에 단일 직원이 작동 하지 않는다고 가정). 
+Azure Active Directory의 특정 특성을 사용하여 사용자를 분할할 수 있습니다. 세그먼트가 정의되고 나면 이러한 세그먼트를 정보 장벽 정책에 대한 필터로 사용할 수 있습니다. 예를 들어 **Department를** 사용하여 조직 내의 부서별로 사용자 세그먼트를 정의할 수 있습니다(동시에 두 부서에 대해 한 직원이 일하지 않을 경우).
 
-이 문서에서는 정보 장벽에서 특성을 사용 하는 방법에 대해 설명 하 고 사용할 수 있는 특성 목록을 제공 합니다. 정보 장벽에 대 한 자세한 내용은 다음 리소스를 참조 하십시오.
+이 문서에서는 정보 장벽이 있는 특성을 사용하는 방법을 설명하고 사용할 수 있는 특성 목록을 제공합니다. 정보 장벽에 대한 자세한 내용은 다음 리소스를 참조하세요.
+
 - [정보 장벽](information-barriers.md)
-- [Microsoft 팀의 정보 장벽에 대 한 정책 정의](information-barriers-policies.md)
-- [정보 장벽 정책 편집 또는 제거](information-barriers-edit-segments-policies.md)
+- [Microsoft Teams의 정보 장벽에 대한 정책 정의](information-barriers-policies.md)
+- [정보 장벽 정책 편집(또는 제거)](information-barriers-edit-segments-policies.md)
 
-## <a name="how-to-use-attributes-in-information-barrier-policies"></a>정보 장벽 정책에서 특성을 사용 하는 방법
+## <a name="how-to-use-attributes-in-information-barrier-policies"></a>정보 장벽 정책에서 특성을 사용하는 방법
 
-이 문서에 나와 있는 특성을 사용 하 여 사용자의 세그먼트를 정의 하거나 편집할 수 있습니다. 정의 된 세그먼트는 [정보 장벽 정책](information-barriers-policies.md)에서 매개 변수 ( *usergroupfilter* 값 이라고 함)로 사용 됩니다.
+이 문서에 나열된 특성을 사용하여 사용자 세그먼트를 정의하거나 편집할 수 있습니다. 정의된 세그먼트는 정보 장벽 정책에서 매개 *변수(UserGroupFilter* [값)로 작용합니다.](information-barriers-policies.md)
 
-1. 세그먼트를 정의 하는 데 사용할 특성을 결정 합니다. (이 문서의 [참조](#reference) 섹션 참조)
+1. 세그먼트를 정의하는 데 사용할 특성을 결정해야 합니다. (이 [문서의 참조](#reference) 섹션을 참조하세요.)
 
-2. 사용자 계정에 1 단계에서 선택한 특성에 대 한 값이 입력 되어 있는지 확인 합니다. 사용자 계정 정보를 확인 하 고 필요한 경우 특성 값을 포함 하도록 사용자 계정을 편집 합니다. 
+2. 1단계에서 선택한 특성에 대해 사용자 계정에 값이 채워진지 확인 사용자 계정 세부 정보를 보고 필요한 경우 특성 값을 포함하도록 사용자 계정을 편집합니다. 
 
-    - 여러 계정을 편집 하거나 PowerShell을 사용 하 여 단일 계정을 편집 하려면 [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성을](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)참조 하십시오.
+    - 여러 계정을 편집하거나 PowerShell을 사용하여 단일 계정을 편집하려면 [Office 365 PowerShell을](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)사용하여 사용자 계정 속성 구성을 참조하세요.
 
-    - 단일 계정을 편집 하려면 [Azure Active Directory를 사용 하 여 사용자 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)를 참조 하세요.
+    - 단일 계정을 편집하려면 Azure Active Directory를 사용하여 사용자의 프로필 정보 추가 또는 [업데이트를 참조하세요.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
-3. 다음 예와 같이 [PowerShell을 사용 하 여 세그먼트를 정의](information-barriers-policies.md#define-segments-using-powershell)합니다.
+3. [다음 예와 유사하게 PowerShell을](information-barriers-policies.md#define-segments-using-powershell)사용하여 세그먼트를 정의합니다.
 
-    |예제  |Cmdlet  |
-    |---------|---------|
-    |부서 특성을 사용 하 여 Segment1 라는 세그먼트를 정의 합니다.     | `New-OrganizationSegment -Name "Segment1" -UserGroupFilter "Department -eq 'Department1'"`        |
-    |MemberOf 특성을 사용 하 여 SegmentA 이라는 세그먼트를 정의 합니다 (이 특성에 그룹 이름 (예: "BlueGroup")이 포함 되어 있다고 가정).     | `New-OrganizationSegment -Name "SegmentA" -UserGroupFilter "MemberOf -eq 'BlueGroup'"`        |
-    |ExtensionAttribute1을 사용 하 여 DayTraders 라는 세그먼트를 정의 합니다 (이 특성에 직함 (예: "Daytraders")이 포함 되어 있다고 가정 합니다.)|`New-OrganizationSegment -Name "DayTraders" -UserGroupFilter "ExtensionAttribute1 -eq 'DayTrader'"` |
+    |**예**|**Cmdlet**|
+    |:----------|:---------|
+    | Department 특성을 사용하여 Segment1이라는 세그먼트 정의 | `New-OrganizationSegment -Name "Segment1" -UserGroupFilter "Department -eq 'Department1'"` |
+    | MemberOf 특성을 사용하여 SegmentA라는 세그먼트를 정의합니다(이 특성에 "BlueGroup"과 같은 그룹 이름이 포함되어 있는 경우) | `New-OrganizationSegment -Name "SegmentA" -UserGroupFilter "MemberOf -eq 'BlueGroup'"` |
+    | ExtensionAttribute1을 사용하여 DayTraders라는 세그먼트를 정의합니다(이 특성에 "DayTrader"와 같은 직위가 포함되어 있는 경우) | `New-OrganizationSegment -Name "DayTraders" -UserGroupFilter "ExtensionAttribute1 -eq 'DayTrader'"` |
 
     > [!TIP]
-    > 세그먼트를 정의할 때 모든 세그먼트에 같은 특성을 사용 합니다. 예를 들어 *부서*를 사용 하 여 일부 세그먼트를 정의 하는 경우에는 *부서*를 사용 하 여 모든 세그먼트를 정의 합니다. *부서* 및 다른 사용자는 *MemberOf*를 사용 하 여 일부 세그먼트를 정의 하지 마세요. 세그먼트가 겹치지 않는지 확인 합니다. 각 사용자는 정확히 하나의 세그먼트에 할당 되어야 합니다. 
+    > 세그먼트를 정의할 때 모든 세그먼트에 대해 동일한 특성을 사용 합니다. 예를 들어 Department를 사용하여 일부 세그먼트를 정의하는 *경우 Department를* 사용하여 모든 세그먼트를 *정의합니다.* Department를 사용하여 일부 세그먼트를 정의하고 MemberOf를 사용하는 세그먼트는 *정의하지 않습니다.*  세그먼트가 겹치지 않는지 확인 각 사용자를 정확히 하나의 세그먼트에 할당해야 합니다.
 
 ## <a name="reference"></a>참조
 
-다음 표에는 정보 장벽에 사용할 수 있는 특성이 나와 있습니다.
+다음 표에는 정보 장벽에 사용할 수 있는 특성이 나열됩니다.
 
-|Azure Active Directory 속성 이름<br/>(LDAP 표시 이름)  |Exchange 속성 이름  |
-|---------|---------|
-|Co       | Co        |
-|Company     |Company         |
-|부서     |부서         |
-|ExtensionAttribute1 |CustomAttribute1  |
-|ExtensionAttribute2 |CustomAttribute2  |
-|ExtensionAttribute3 |CustomAttribute3  |
-|ExtensionAttribute4 |CustomAttribute4  |
-|ExtensionAttribute5 |CustomAttribute5  |
-|ExtensionAttribute6 |CustomAttribute6  |
-|ExtensionAttribute7 |CustomAttribute7  |
-|ExtensionAttribute8 |CustomAttribute8  |
-|ExtensionAttribute9 |CustomAttribute9  |
-|ExtensionAttribute10 |CustomAttribute10  |
-|ExtensionAttribute11 |CustomAttribute11  |
-|ExtensionAttribute12 |CustomAttribute12  |
-|ExtensionAttribute13 |CustomAttribute13  |
-|ExtensionAttribute14 |CustomAttribute14  |
-|ExtensionAttribute15 |CustomAttribute15  |
-|MSExchExtensionCustomAttribute1 |ExtensionCustomAttribute1 |
-|MSExchExtensionCustomAttribute2 |ExtensionCustomAttribute2 |
-|MSExchExtensionCustomAttribute3 |ExtensionCustomAttribute3 |
-|MSExchExtensionCustomAttribute4 |ExtensionCustomAttribute4 |
-|MSExchExtensionCustomAttribute5 |ExtensionCustomAttribute5 |
-|MailNickname |별칭 |
-|PhysicalDeliveryOfficeName |사무실 |
-|PostalCode |PostalCode |
-|ProxyAddresses |EmailAddresses |
-|StreetAddress |StreetAddress |
-|TargetAddress |ExternalEmailAddress |
-|UsageLocation |UsageLocation |
-|UserPrincipalName    |UserPrincipalName    |
-|메일로    |WindowsEmailAddress    |
-|설명    |설명    |
-|소속    |MemberOfGroup    |
+|**Azure Active Directory 속성 <br/> 이름(LDAP 표시 이름)**|**Exchange 속성 이름**|
+|:---------------------------------------------------------------|:-------------------------|
+| Co | Co |
+| Company | Company |
+| 부서 | 부서 |
+| ExtensionAttribute1 | CustomAttribute1 |
+| ExtensionAttribute2 | CustomAttribute2 |
+| ExtensionAttribute3 | CustomAttribute3 |
+| ExtensionAttribute4 | CustomAttribute4 |
+| ExtensionAttribute5 | CustomAttribute5 |
+| ExtensionAttribute6 | CustomAttribute6 |
+| ExtensionAttribute7 | CustomAttribute7 |
+| ExtensionAttribute8 | CustomAttribute8 |
+| ExtensionAttribute9 | CustomAttribute9 |
+| ExtensionAttribute10 | CustomAttribute10 |
+| ExtensionAttribute11 | CustomAttribute11 |
+| ExtensionAttribute12 | CustomAttribute12 |
+| ExtensionAttribute13 | CustomAttribute13 |
+| ExtensionAttribute14 | CustomAttribute14 |
+| ExtensionAttribute15 | CustomAttribute15 |
+| MSExchExtensionCustomAttribute1 | ExtensionCustomAttribute1 |
+| MSExchExtensionCustomAttribute2 | ExtensionCustomAttribute2 |
+| MSExchExtensionCustomAttribute3 | ExtensionCustomAttribute3 |
+| MSExchExtensionCustomAttribute4 | ExtensionCustomAttribute4 |
+| MSExchExtensionCustomAttribute5 | ExtensionCustomAttribute5 |
+| MailNickname | 별칭 |
+| PhysicalDeliveryOfficeName | 사무실 |
+| PostalCode | PostalCode |
+| ProxyAddresses | EmailAddresses |
+| StreetAddress | StreetAddress |
+| TargetAddress | ExternalEmailAddress |
+| UsageLocation | UsageLocation |
+| UserPrincipalName | UserPrincipalName |
+| 메일 | WindowsEmailAddress |
+| 설명 | 설명 |
+| MemberOf | MemberOfGroup |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="resources"></a>리소스
 
-[Microsoft 팀의 정보 장벽에 대 한 정책 정의](information-barriers-policies.md)
-
-[정보 장벽 문제 해결](information-barriers-troubleshooting.md)
-
-[정보 장벽](information-barriers.md)
-
-
-
+- [Microsoft Teams의 정보 장벽에 대한 정책 정의](information-barriers-policies.md)
+- [정보 장벽 문제 해결](information-barriers-troubleshooting.md)
+- [정보 장벽](information-barriers.md)

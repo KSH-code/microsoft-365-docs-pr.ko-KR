@@ -8,15 +8,17 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-topics
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: 92cf9c860ddbf199c70a7c2d89a7daba3dfe0fe7
-ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
+ms.openlocfilehash: 371ccc16e787b331f42026dec48e5e3113b2b172
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731334"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976194"
 ---
 # <a name="manage-topics-in-the-topic-center-preview"></a>항목 센터에서 항목 관리(미리 보기)
 
@@ -39,8 +41,8 @@ ms.locfileid: "49731334"
 지식 관리자는 다음 항목의 수명 주기를 통해 검색된 항목을 안내할 수 있습니다.
 
 - 제안: 항목을 AI로 식별하여 항목 임계값을 충족할 수 있는 충분한 지원 리소스, 연결 및 속성이 있습니다.
-- 확인: AI에서 제안한 항목의 유효성을 검사합니다. 유효성 검사는 지식 관리자의 확인을 통해 수행됩니다. 또한 두 개 이상의 사용자가 항목 피드백을 통해 해당 항목의 유효하다는 긍정적인 피드백을 제공하면 항목을 확인할 수 있습니다.
-- 제거됨: 항목은 지식 관리자가 거부하며 더 이상 볼 수 없습니다. 이 항목은 제거될 때(제안되거나 확인됨) 모든 상태일 수 있습니다. 
+- 확인: AI가 제안한 항목의 유효성을 검사합니다. 유효성 검사는 지식 관리자의 확인을 통해 수행됩니다. 또한 두 개 이상의 사용자가 항목 피드백을 통해 해당 항목의 유효하다는 긍정적인 피드백을 제공하면 항목을 확인할 수 있습니다.
+- 제거됨: 항목은 기술 관리자가 거부하며 더 이상 볼 수 없습니다. 이 항목은 제거될 때(제안되거나 확인됨) 모든 상태일 수 있습니다. 
 - 게시: 수동으로 업데이트된 확인된 항목입니다.
 
    ![항목 수명 주기 차트](../media/knowledge-management/topic-lifecycle.png) </br> 

@@ -7,15 +7,17 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 설명 유형에 대해 자세히 알아보세요.
-ms.openlocfilehash: f01529199bf4dea0a14c7dc30b39fcaa5078931b
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 9a65c5de5321ee623a3d1a1e4260c0bcb2ad331e
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087646"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49975958"
 ---
 # <a name="introduction-to-explanation-types"></a>설명 유형 소개
 

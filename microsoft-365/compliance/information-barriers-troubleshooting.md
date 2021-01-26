@@ -1,187 +1,185 @@
 ---
 title: 정보 장벽 문제 해결
-f1.keywords:
-- NOCSH
-ms.author: chrfox
-author: chrfox
+description: 이 문서를 정보 장벽 문제 해결을 위한 가이드로 사용하세요.
+ms.author: robmazz
+author: robmazz
 manager: laurawi
-ms.date: 07/08/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
 localization_priority: None
-description: 이 문서를 정보 장벽 문제 해결을 위한 지침으로 사용 하십시오.
+f1.keywords:
+- NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e19c7d22e2b34d3f8083bcf5b8fb7297dbf86229
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 39ac5c2f12b8947bce26d426cac83e57cd4c87ae
+ms.sourcegitcommit: c10eb675da725830e9776d2a0566ba3622eb361c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545672"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49980041"
 ---
 # <a name="troubleshooting-information-barriers"></a>정보 장벽 문제 해결
 
-[정보 장애물](information-barriers.md) 은 조직이 법적 요구 사항 및 업계 규정을 준수 하는 데 도움이 될 수 있습니다. 예를 들어 정보 장벽에서는 특정 사용자 그룹 간의 통신을 제한 하 여 관심 있는 문제나 다른 문제가 발생 하지 않도록 할 수 있습니다. 정보 장애물을 설정 하는 방법에 대 한 자세한 내용은 [정보 장벽에 대 한 정책 정의](information-barriers-policies.md)를 참조 하십시오.
+[정보 장벽은](information-barriers.md) 조직이 법적 요구 사항 및 산업 규정을 준수하는 데 도움이 될 수 있습니다. 예를 들어 정보 장벽이 있는 경우 이해 상충이나 기타 문제를 방지하기 위해 특정 사용자 그룹 간의 통신을 제한할 수 있습니다. 정보 장벽을 설정하는 방법에 대한 자세한 내용은 정보 장벽에 대한 정책 [정의를](information-barriers-policies.md)참조하십시오.
 
-정보 장벽에 따라 예기치 않은 문제가 발생 하는 경우 이러한 문제를 해결 하기 위해 몇 가지 단계를 수행할 수 있습니다. 이 문서를 참조 하십시오.
+정보 장벽이 발생하면 예기치 않은 문제가 발생할 경우 몇 가지 단계를 수행하여 이러한 문제를 해결할 수 있습니다. 이 문서를 가이드로 사용하세요.
 
 > [!IMPORTANT]
-> 이 문서에서 설명 하는 작업을 수행 하려면 다음 중 하 나와 같은 적절 한 역할을 할당 받아야 합니다.<br/>-Microsoft 365 Enterprise 전역 관리자<br/>-전역 관리자<br/>-준수 관리자<br/>-IB 준수 관리 (새 역할입니다.)<p>정보 장벽에 대 한 필수 구성 요소에 대 한 자세한 내용은 [필수 구성 요소 (정보 장벽 정책)](information-barriers-policies.md#prerequisites)를 참조 하세요.<p>[보안 & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)해야 합니다.
+> 이 문서에 설명된 작업을 수행하려면 다음 중 하나와 같은 적절한 역할을 할당해야 합니다.<br/>- Microsoft 365 Enterprise Global Administrator<br/>- 전역 관리자<br/>- 준수 관리자<br/>- IB 규정 준수 관리(새 역할입니다!)<p>정보 장벽의 선행 준비에 대한 자세한 내용은 사전 준비(정보 장벽 정책의 경우)를 [참조하세요.](information-barriers-policies.md#prerequisites)<p>Security & [준수 센터 PowerShell에 연결해야 합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
-## <a name="issue-users-are-unexpectedly-blocked-from-communicating-with-others-in-microsoft-teams"></a>문제: 사용자가 Microsoft 팀의 다른 사람과 통신할 수 없도록 예기치 않게 차단 되었습니다. 
+## <a name="issue-users-are-unexpectedly-blocked-from-communicating-with-others-in-microsoft-teams"></a>문제: 사용자가 Microsoft Teams의 다른 사용자와 예기치 않게 통신하지 못하게 차단됩니다. 
 
-이 경우 사용자는 Microsoft 팀에서 다른 사용자와 통신 하는 동안 예기치 않은 문제를 보고 하 게 됩니다. 예제:
-- 사용자가 Microsoft 팀에서 다른 사용자를 검색 하지만 찾을 수는 없습니다.
-- 사용자는 Microsoft 팀에서 다른 사용자를 찾을 수 있지만 선택할 수는 없습니다.
-- 사용자가 다른 사용자를 볼 수 있지만 Microsoft 팀에서 해당 사용자에 게 메시지를 보낼 수는 없습니다.
+이 경우 Microsoft Teams의 다른 사용자와 통신하는 예기치 않은 문제가 보고됩니다. 예를 들면 다음과 같습니다.
+
+- 사용자가 Microsoft Teams에서 다른 사용자를 검색하지만 찾을 수 없습니다.
+- 사용자는 Microsoft Teams에서 다른 사용자를 찾을 수 있지만 선택할 수는 없습니다.
+- 사용자는 다른 사용자를 볼 수 있지만 Microsoft Teams의 다른 사용자에게 메시지를 보낼 수는 없습니다.
 
 ### <a name="what-to-do"></a>수행할 작업
 
-사용자가 정보 장벽 정책의 영향을 받는지 여부를 확인 합니다. 정책이 구성 되는 방식에 따라 정보 장벽이 정상적으로 작동할 수 있습니다. 또는 조직의 정책을 구체화 해야 할 수도 있습니다.
+사용자가 정보 장벽 정책의 영향을 받는지 여부를 판단합니다. 정책 구성 방법에 따라 정보 장벽이 예상대로 작동할 수 있습니다. 또는 조직의 정책을 구체화해야 할 수 있습니다.
 
-1. **InformationBarrierRecipientStatus** Cmdlet을 Identity 매개 변수와 함께 사용 합니다. 
+1. Identity 매개 변수와 함께 **Get-InformationBarrierRecipientStatus** cmdlet을 사용합니다. 
 
-    |구문과  |예제  |
-    |---------|---------|
-    | `Get-InformationBarrierRecipientStatus -Identity` <p>각 받는 사람을 고유 하 게 식별 하는 모든 id 값 (예: 이름, 별칭, DN (고유 이름), 정식 DN, 전자 메일 주소 또는 GUID)을 사용할 수 있습니다.     |`Get-InformationBarrierRecipientStatus -Identity meganb` <p>이 예제에서는 Identity 매개 변수에 별칭 (*meganb*)을 사용 합니다. 이 cmdlet은 사용자가 정보 장벽 정책의 영향을 받는지 여부를 나타내는 정보를 반환 합니다. (* ExoPolicyId:를 찾아보십시오. \<GUID> )         |
+    |**다중값 속성 구문 표에서 선택하는 구문은 cmdlet에 대한 매개 변수 값으로 지정됩니다. 예를 들어 다음 명령을 통해 다중값 속성에 여러 값을 추가할 수 있습니다.**|**예**|
+    |:---------|:----------|
+    | `Get-InformationBarrierRecipientStatus -Identity` <p> 이름, 별칭, DN(고유 이름), 정식 DN, 전자 메일 주소 또는 GUID와 같이 각 받는 사람을 고유하게 식별하는 모든 ID 값을 사용할 수 있습니다. |`Get-InformationBarrierRecipientStatus -Identity meganb` <p> 이 예제에서는 Identity 매개 변수에 *별칭(meganb)을* 사용합니다. 이 cmdlet은 사용자가 정보 장벽 정책의 영향을 받는지 여부를 나타내는 정보를 반환합니다. (*ExoPolicyId: \<GUID> .) |
 
-    **사용자가 정보 장벽 정책에 포함 되어 있지 않은 경우 지원 서비스에 문의 하세요**. 그렇지 않으면 다음 단계를 진행 합니다.
+    사용자가 정보 장벽 정책에 포함되지 않은 경우 **고객 지원에 문의하세요.** 그렇지 않은 경우 다음 단계로 진행합니다.
 
-2. 정보 장벽 정책에 포함 된 세그먼트를 찾습니다. 이 작업을 수행 하려면 `Get-InformationBarrierPolicy` Identity 매개 변수와 함께 cmdlet을 사용 합니다. 
+2. 정보 장벽 정책에 포함되는 세그먼트를 찾아야 합니다. 이 작업을 위해 Identity 매개 변수와 `Get-InformationBarrierPolicy` 함께 cmdlet을 사용합니다. 
 
-    |구문과  |예제  |
-    |---------|---------|
-    |`Get-InformationBarrierPolicy` <p>이전 단계에서 받은 정책 GUID (ExoPolicyId)와 같은 세부 정보를 id 값으로 사용 합니다.     | `Get-InformationBarrierPolicy -Identity b42c3d0f-49e9-4506-a0a5-bf2853b5df6f` <p>이 예에서는 ExoPolicyId *b42c3d0f-49e9-4506-a0a5-bf2853b5df6f*가 있는 정보 장벽 정책에 대 한 자세한 정보를 가져옵니다.         |
+    |**다중값 속성 구문 표에서 선택하는 구문은 cmdlet에 대한 매개 변수 값으로 지정됩니다. 예를 들어 다음 명령을 통해 다중값 속성에 여러 값을 추가할 수 있습니다.**|**예**|
+    |:---------|:----------|
+    | `Get-InformationBarrierPolicy` <p> 이전 단계에서 받은 정책 GUID(ExoPolicyId)와 같은 세부 정보를 ID 값으로 사용 합니다. | `Get-InformationBarrierPolicy -Identity b42c3d0f-49e9-4506-a0a5-bf2853b5df6f` <p> 이 예에서는 ExoPolicyId *b42c3d0f-49e9-4506-a0a5-bf2853b5df6f가* 있는 정보 장벽 정책에 대한 자세한 정보를 제공합니다. |
 
-    Cmdlet을 실행 한 후 결과에서 **AssignedSegment**, **SegmentsAllowed**및 **SegmentsBlocked** 값을 찾습니다.
+    cmdlet을 실행한 후 결과에서 **AssignedSegment,** **SegmentsAllowed** 및 **SegmentsBlocked** 값을 검색합니다.
 
-    예를 들어 cmdlet을 실행 한 후 `Get-InformationBarrierPolicy` 에는 결과 목록에서 다음을 살펴보았습니다.
+    예를 들어 cmdlet을 실행한 후 결과 목록에서 `Get-InformationBarrierPolicy` 다음을 보아야 합니다.
 
     ```powershell
-        AssignedSegment      : Sales
-        SegmentsAllowed      : {}
-        SegmentsBlocked      : {Research}
+    AssignedSegment : Sales
+    SegmentsAllowed : {}
+    SegmentsBlocked : {Research}
     ```
-    이 경우 정보 장벽 정책이 Sales 및 Research 세그먼트에 있는 사용자에 게 영향을 줄 수 있습니다. 이 경우에는 영업 직원이 조사 담당자와 의견을 교환할 수 없습니다. 
-    
-    이 문제가 올바른 것 같으면 정보 장애가 예상 대로 작동 하는 것입니다. 로그인하지 않은 경우에는 다음 단계를 진행합니다.
 
-4. 세그먼트가 올바르게 정의 되었는지 확인 합니다. 이 작업을 수행 하려면 cmdlet을 사용 하 여 `Get-OrganizationSegment` 결과 목록을 검토 합니다. 
+    이 경우 정보 장벽 정책이 판매 및 리서치 부문에 있는 사용자에 영향을 줄 수 있습니다. 이 경우 Sales의 사용자가 리서치의 사용자와 통신할 수 없습니다.
 
-    |구문과  |예제  |
-    |---------|---------|
-    |`Get-OrganizationSegment`<p>이 cmdlet은 Identity 매개 변수와 함께 사용 합니다.     |`Get-OrganizationSegment -Identity c96e0837-c232-4a8a-841e-ef45787d8fcd` <p>이 예에서는 GUID *c96e0837-c232-4a8a-841e-ef45787d8fcd*가 있는 세그먼트에 대 한 정보를 가져옵니다.         |
+    문제가 해결된 것 같은 경우 정보 장벽이 예상대로 작동하고 있습니다. 로그인하지 않은 경우에는 다음 단계를 진행합니다.
 
-    해당 세그먼트에 대 한 세부 정보를 검토 합니다. 필요한 경우 [세그먼트를 편집](information-barriers-edit-segments-policies.md#edit-a-segment)하 고 cmdlet을 다시 사용 `Start-InformationBarrierPoliciesApplication` 합니다.
+3. 세그먼트가 올바르게 정의되어 있는지 확인합니다. 이 작업을 위해 `Get-OrganizationSegment` cmdlet을 사용하여 결과 목록을 검토합니다.
 
-    **정보 장벽 정책에 여전히 문제가 있는 경우 고객 지원에 문의 하세요**.
+    |**다중값 속성 구문 표에서 선택하는 구문은 cmdlet에 대한 매개 변수 값으로 지정됩니다. 예를 들어 다음 명령을 통해 다중값 속성에 여러 값을 추가할 수 있습니다.**|**예**|
+    |:---------|:----------|
+    | `Get-OrganizationSegment`<p> 이 cmdlet을 Identity 매개 변수와 함께 사용합니다. | `Get-OrganizationSegment -Identity c96e0837-c232-4a8a-841e-ef45787d8fcd` <p> 이 예제에서는 *GUID가 c96e0837-c232-4a8a-841e-ef45787d8fcd인* 세그먼트에 대한 정보를 받고 있습니다. |
 
-## <a name="issue-communications-are-allowed-between-users-who-should-be-blocked-in-microsoft-teams"></a>문제: Microsoft 팀에서 차단 해야 하는 사용자 간에 통신이 허용 됩니다.
+    세그먼트에 대한 세부 정보를 검토합니다. 필요한 경우 [세그먼트를 편집한](information-barriers-edit-segments-policies.md#edit-a-segment)다음 `Start-InformationBarrierPoliciesApplication` cmdlet을 다시 사용하세요.
 
-이 경우에는 정보 장벽에 대 한 정의, 활성 및 적용이 가능 하지만 서로 통신 하지 못하게 되는 사용자는 Microsoft 팀에서 서로 채팅할 수 있습니다.
+    정보 장벽 정책에 여전히 문제가 있는 경우 **고객 지원에 문의하세요.**
+
+## <a name="issue-communications-are-allowed-between-users-who-should-be-blocked-in-microsoft-teams"></a>문제: Microsoft Teams에서 차단해야 하는 사용자 간에 통신이 허용됩니다.
+
+이 경우 정보 장벽이 정의, 활성 및 적용되어도 서로 통신하지 못하게 해야 하는 사람은 Microsoft Teams에서 채팅하고 서로 통화할 수 있습니다.
 
 ### <a name="what-to-do"></a>수행할 작업
 
-해당 사용자가 정보 장벽 정책에 포함 되어 있는지 확인 합니다. 
+해당 사용자가 정보 장벽 정책에 포함되는지 확인 
 
-1. Identity 매개 변수와 함께 **InformationBarrierRecipientStatus** cmdlet을 사용 합니다.
+1. Identity 매개 변수와 함께 **Get-InformationBarrierRecipientStatus** cmdlet을 사용합니다.
 
-    |구문과  |예제  |
-    |---------|---------|
-    |`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 각 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다.     |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p>이 예에서는 Office 365의 두 사용자 계정 ( *Megan*용 *meganb* 및 *Alex*용 *alexw* )을 참조 합니다.          |
+    |**구문** _|_ *예제**|
+    |:----------|:----------|
+    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> 이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같이 각 사용자를 고유하게 식별하는 모든 값을 사용할 수 있습니다. |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> 이 예에서는 Office 365의 두 사용자 계정인 *Meganb과* *Alex의 alexw를* *참조합니다.*  |
 
-    
     > [!TIP]
-    > 단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>`
-    
-2. 발견 된 내용을 검토 합니다. **InformationBarrierRecipientStatus** cmdlet은 특성 값 및 적용 되는 정보 장벽 정책과 같은 사용자에 대 한 정보를 반환 합니다. 
+    > 단일 사용자에 대해 이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>`
 
-    결과를 검토 하 고 다음 표에 설명 된 대로 다음 단계를 수행 합니다.
-    
-    |결과  |다음에 수행할 작업  |
-    |---------|---------|
-    |선택한 사용자에 대 한 세그먼트가 나열 되지 않음     |다음 중 하나를 수행합니다.<br/>-Azure Active Directory에서 사용자 프로필을 편집 하 여 기존 세그먼트에 사용자를 할당 합니다. ( [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)참조)<br/>- [정보 장벽에 대해 지원 되는 특성](information-barriers-attributes.md)을 사용 하 여 세그먼트를 정의 합니다. 그런 다음 [새 정책을 정의](information-barriers-policies.md#part-2-define-information-barrier-policies) 하거나 [기존 정책을 편집](information-barriers-edit-segments-policies.md#edit-a-policy) 하 여 해당 세그먼트를 포함 합니다.  |
-    |세그먼트는 나열 되지만 해당 세그먼트에 정보 장벽 정책이 할당 되지 않음     |다음 중 하나를 수행합니다.<br/>- 문제의 각 세그먼트에 대 한 [새 정보 장벽 정책 정의](information-barriers-policies.md#part-2-define-information-barrier-policies)<br/>- [기존 정보 장벽 정책을 편집](information-barriers-edit-segments-policies.md#edit-a-policy) 하 여 올바른 세그먼트에 할당         |
-    |나열 된 세그먼트는 정보 장벽 정책에 포함 되어 있습니다.     |-Cmdlet을 실행 `Get-InformationBarrierPolicy` 하 여 정보 장벽 정책이 활성 상태 인지 확인 합니다.<br/>- `Get-InformationBarrierPoliciesApplicationStatus` 정책이 적용 되었는지 확인 하는 cmdlet을 실행 합니다.<br/>- `Start-InformationBarrierPoliciesApplication` Cmdlet을 실행 하 여 모든 활성 정보 장벽 정책 적용          |
-    
+2. 결과를 검토합니다. **Get-InformationBarrierRecipientStatus** cmdlet은 특성 값 및 적용되는 정보 장벽 정책과 같은 사용자에 대한 정보를 반환합니다.
 
-## <a name="issue-i-need-to-remove-a-single-user-from-an-information-barrier-policy"></a>문제: 정보 장벽 정책에서 단일 사용자를 제거 해야 합니다.
+    다음 표에 설명된 결과를 검토한 후 다음 단계를 수행합니다.
 
-이 경우에는 정보 장벽 정책이 적용 되며 한 명 이상의 사용자가 Microsoft 팀의 다른 사람들과 통신할 수 없도록 예기치 않게 차단 됩니다. 정보 장벽 정책을 모두 제거 하는 대신, 정보 장벽 정책에서 개별 사용자를 한 명 이상 제거할 수 있습니다. 
+    |**결과**|**다음에 할 일**|
+    |:----------|:------------------|
+    | 선택한 사용자에 대한 세그먼트가 나열되지 않습니다. | 다음 중 하나를 수행합니다.<br/>- Azure Active Directory에서 사용자 프로필을 편집하여 기존 세그먼트에 사용자를 할당합니다. (Office [365 PowerShell을](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)사용하여 사용자 계정 속성 구성을 참조하세요.)<br/>- 정보 장벽에 대해 지원되는 특성을 사용하여 [세그먼트를 정의합니다.](information-barriers-attributes.md) 그런 다음 새 정책을 [정의하거나](information-barriers-policies.md#part-2-define-information-barrier-policies) 해당 세그먼트를 포함하기 [위해](information-barriers-edit-segments-policies.md#edit-a-policy) 기존 정책을 편집합니다. |
+    | 세그먼트가 나열되지만 이러한 세그먼트에 정보 장벽 정책이 할당되지 않습니다. | 다음 중 하나를 수행합니다.<br/>- [해당 세그먼트마다](information-barriers-policies.md#part-2-define-information-barrier-policies) 새로운 정보 장벽 정책 정의 <br/>- [기존 정보 장벽](information-barriers-edit-segments-policies.md#edit-a-policy) 정책을 편집하여 올바른 세그먼트에 할당 |
+    | 세그먼트가 나열되어 있으며 각 세그먼트는 정보 장벽 정책에 포함됩니다. | - `Get-InformationBarrierPolicy` cmdlet을 실행하여 정보 장벽 정책이 활성 상태인지 확인<br/>- `Get-InformationBarrierPoliciesApplicationStatus` cmdlet을 실행하여 정책이 적용되는지 확인<br/>- `Start-InformationBarrierPoliciesApplication` cmdlet을 실행하여 모든 활성 정보 장벽 정책 적용 |
 
-### <a name="what-to-do"></a>수행할 작업
+## <a name="issue-i-need-to-remove-a-single-user-from-an-information-barrier-policy"></a>문제: 정보 장벽 정책에서 단일 사용자를 제거해야 합니다.
 
-정보 장벽 정책은 사용자의 세그먼트에 할당 됩니다. 세그먼트는 [사용자 계정 프로필의 특정 특성](information-barriers-attributes.md)을 사용 하 여 정의 됩니다. 단일 사용자 로부터 정책을 제거 해야 하는 경우에는 사용자가 정보 장벽에 의해 영향을 받는 세그먼트에 더 이상 포함 되지 않도록 Azure Active Directory에서 해당 사용자의 프로필을 편집 하는 것이 좋습니다.
-
-1. Identity 매개 변수와 함께 **InformationBarrierRecipientStatus** cmdlet을 사용 합니다. 이 cmdlet은 특성 값 및 적용 되는 정보 장벽 정책과 같은 사용자에 대 한 정보를 반환 합니다.
-
-    |구문과  |예제  |
-    |---------|---------|
-    |`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>`<p>이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 각 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다.     |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p>이 예에서는 Office 365의 두 사용자 계정 ( *Megan*용 *meganb* 및 *Alex*용 *alexw* )을 참조 합니다.          |
-    |`Get-InformationBarrierRecipientStatus -Identity <value>` <p>이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다.|`Get-InformationBarrierRecipientStatus -Identity jeanp`<p>이 예에서는 Office 365: *jeanp*의 단일 계정을 참조 합니다. |
-
-2. 결과를 검토 하 여 정보 장벽 정책이 할당 되어 있는지와 사용자가 속한 세그먼트 (s)를 확인 합니다. 
-
-3. 정보 장벽에 영향을 받는 세그먼트에서 사용자를 제거 하려면 [Azure Active Directory에서 사용자의 프로필 정보를 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)합니다.
-
-4. FwdSync가 발생할 때까지 30 분 정도 기다립니다. 또는 cmdlet을 실행 `Start-InformationBarrierPoliciesApplication` 하 여 모든 활성 정보 장벽 정책을 적용 합니다.
-
-## <a name="issue-the-information-barrier-application-process-is-taking-too-long"></a>문제: 정보 장벽 응용 프로그램 프로세스가 너무 오래 걸립니다.
-
-**InformationBarrierPoliciesApplication** cmdlet을 실행 한 후 프로세스를 완료 하는 데 시간이 너무 오래 걸립니다.
+이 경우 정보 장벽 정책이 적용 중일 때 한 개 이상의 사용자가 Microsoft Teams의 다른 사용자와 통신하지 못하게 예기치 않게 차단됩니다. 정보 장벽 정책을 모두 제거하는 대신 정보 장벽 정책에서 하나 이상의 개별 사용자를 제거할 수 있습니다.
 
 ### <a name="what-to-do"></a>수행할 작업
 
-정책 응용 프로그램 cmdlet을 실행 하는 경우 조직의 모든 계정에 대 한 정보 장벽 정책이 사용자에 의해 적용 되거나 제거 됩니다. 사용자 수가 많은 경우 처리 하는 데 시간이 오래 걸릴 것입니다. 일반적으로 5000 사용자 계정을 처리 하는 데 한 시간 정도 소요 됩니다.
+정보 장벽 정책은 사용자 세그먼트에 할당됩니다. 세그먼트는 사용자 계정 프로필에서 특정 특성을 사용하여 [정의됩니다.](information-barriers-attributes.md) 단일 사용자에서 정책을 제거해야 하는 경우 사용자가 정보 장벽의 영향을 받는 세그먼트에 더 이상 포함되지 못하도록 Azure Active Directory에서 해당 사용자의 프로필을 편집할 수 있습니다.
 
-1. **InformationBarrierPoliciesApplicationStatus** cmdlet을 사용 하 여 가장 최근 정책 응용 프로그램의 상태를 확인할 수 있습니다.
+1. Identity 매개 변수와 함께 **Get-InformationBarrierRecipientStatus** cmdlet을 사용합니다. 이 cmdlet은 특성 값 및 적용되는 정보 장벽 정책과 같은 사용자에 대한 정보를 반환합니다.
 
-    |최신 정책 응용 프로그램을 보려면  |모든 정책 응용 프로그램의 상태를 보려면  |
-    |---------|---------|
-    |`Get-InformationBarrierPoliciesApplicationStatus`     |`Get-InformationBarrierPoliciesApplicationStatus -All $true`         |
+    |**다중값 속성 구문 표에서 선택하는 구문은 cmdlet에 대한 매개 변수 값으로 지정됩니다. 예를 들어 다음 명령을 통해 다중값 속성에 여러 값을 추가할 수 있습니다.**|**예**|
+    |:---------|:----------|
+    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> 이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같이 각 사용자를 고유하게 식별하는 모든 값을 사용할 수 있습니다. | `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> 이 예에서는 Office 365의 두 사용자 계정인 *Meganb과* *Alex의 alexw를* *참조합니다.*           |
+    | `Get-InformationBarrierRecipientStatus -Identity <value>` <p> 이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같이 사용자를 고유하게 식별하는 모든 값을 사용할 수 있습니다.|`Get-InformationBarrierRecipientStatus -Identity jeanp`<p> 이 예에서는 Office 365의 단일 *계정, 즉 을(를) 참조합니다.* |
 
+2. 결과를 검토하여 정보 장벽 정책이 할당되어 있으며 사용자가 속한 세그먼트를 검토합니다.
 
-    이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.
+3. 정보 장벽의 영향을 받는 세그먼트에서 사용자를 제거하려면 Azure Active Directory에서 사용자의 프로필 정보를 [업데이트합니다.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
-2. 이전 단계의 결과에 따라 다음 단계 중 하나를 수행 합니다.
+4. FwdSync가 발생할 때까지 약 30분 정도 기다립니다. 또는 `Start-InformationBarrierPoliciesApplication` cmdlet을 실행하여 모든 활성 정보 장벽 정책을 적용합니다.
+
+## <a name="issue-the-information-barrier-application-process-is-taking-too-long"></a>문제: 정보 장벽 응용 프로그램 프로세스 시간이 너무 오래 늦습니다.
+
+**Start-InformationBarrierPoliciesApplication** cmdlet을 실행한 후 프로세스가 완료되는 데 시간이 매우 오래 지난 것입니다.
+
+### <a name="what-to-do"></a>수행할 작업
+
+정책 응용 프로그램 cmdlet을 실행하면 조직의 모든 계정에 대해 사용자에 의해 정보 장벽 정책이 적용되거나 제거됩니다. 사용자가 많은 경우 처리하는 데 시간이 걸릴 수 있습니다. (일반적으로 사용자 계정 5,000개 처리에 1시간 정도 소요됩니다.)
+
+1. **Get-InformationBarrierPoliciesApplicationStatus** cmdlet을 사용하여 최신 정책 응용 프로그램의 상태를 확인할 수 있습니다.
+
+    |**최신 정책 응용 프로그램을 보시고**|**모든 정책 응용 프로그램의 상태를 확인**|
+    |:---------------------------------------------|:---------------------------------------------|
+    | `Get-InformationBarrierPoliciesApplicationStatus` | `Get-InformationBarrierPoliciesApplicationStatus -All $true` |
+
+    그러면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지 여부에 대한 정보가 표시됩니다.
+
+2. 이전 단계의 결과에 따라 다음 단계 중 하나를 수행합니다.
   
-    |상태  |다음 단계  |
-    |---------|---------|
-    |**시작 되지 않음**     |**InformationBarrierPoliciesApplication** cmdlet을 실행 한 후 45 분이 경과 하면 감사 로그를 검토 하 여 정책 정의에 오류가 있는지 또는 응용 프로그램이 시작 되지 않은 다른 이유가 있는지를 확인 합니다. |
-    |**실패**     |응용 프로그램이 실패 한 경우 감사 로그를 검토 합니다. 또한 세그먼트 및 정책도 검토 합니다. 두 개 이상의 세그먼트에 할당 된 사용자가 있나요? 모든 세그먼트에 두 개 이상의 poliicy이 할당 됩니까? 필요한 경우 세그먼트 및/또는 [편집 정책을](information-barriers-edit-segments-policies.md#edit-a-policy) [편집](information-barriers-edit-segments-policies.md#edit-a-segment) 하 고 **InformationBarrierPoliciesApplication** cmdlet을 다시 실행 합니다.  |
-    |**진행 중**     |응용 프로그램이 계속 진행 되 고 있는 경우 완료 하는 데 더 많은 시간이 걸릴 수 있습니다. 기간이 며칠 이면 감사 로그를 수집한 다음 고객 지원에 문의 하세요. |
+    |**상태**|**다음 단계**|
+    |:---------|:------------|
+    | **시작되지 않습니다.** | **Start-InformationBarrierPoliciesApplication** cmdlet이 실행된 후 45분 이상이 지난 경우 감사 로그를 검토하여 정책 정의에 오류가 발생하거나 응용 프로그램이 시작되지 않은 다른 이유가 있습니다. |
+    | **실패** | 응용 프로그램이 실패한 경우 감사 로그를 검토합니다. 또한 세그먼트 및 정책을 검토합니다. 두 개 이상의 세그먼트에 할당된 사용자가 있습니까? 세그먼트에 두 개 이상의 정치적이 할당되어 있나요? 필요한 경우 세그먼트를 [편집하고](information-barriers-edit-segments-policies.md#edit-a-segment) 정책을 편집한 다음 **Start-InformationBarrierPoliciesApplication** cmdlet을 다시 실행합니다. [](information-barriers-edit-segments-policies.md#edit-a-policy) |
+    | **진행 중** | 응용 프로그램이 아직 진행 중이면 완료할 시간을 더 허용합니다. 며칠이 지난 경우 감사 로그를 수집한 다음 지원에 문의합니다. |
 
-## <a name="issue-information-barrier-policies-are-not-being-applied-at-all"></a>문제: 정보 장벽 정책이 전혀 적용 되지 않음
+## <a name="issue-information-barrier-policies-are-not-being-applied-at-all"></a>문제: 정보 장벽 정책이 적용되지 않습니다.
 
-이 경우에는 세그먼트, 정의 된 정보 장벽 정책 및 해당 정책을 적용 하려고 했습니다. 그러나 `Get-InformationBarrierPoliciesApplicationStatus` cmdlet을 실행 하면 정책 응용 프로그램에 오류가 발생 한 것을 확인할 수 있습니다.
+이 경우 세그먼트를 정의하고 정보 장벽 정책을 정의하고 해당 정책을 적용하려고 시도했습니다. 그러나 cmdlet을 실행하면 정책 응용 프로그램이 실패한 `Get-InformationBarrierPoliciesApplicationStatus` 것으로 볼 수 있습니다.
 
 ### <a name="what-to-do"></a>수행할 작업
 
-조직에 [Exchange 주소록 정책이](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) 구축 되어 있지 않은지 확인 합니다. 이러한 정책을 통해 정보 장벽 정책이 적용 되지 않습니다.
+조직에 [Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) 주소 책 정책이 없는지 확인 이러한 정책은 정보 장벽 정책이 적용되지 않도록 합니다.
 
-1. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)에 연결 합니다. 
+1. Exchange [Online PowerShell에 연결합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
 
-2. [Get-AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/get-addressbookpolicy) cmdlet을 실행 하 고 결과를 검토 합니다.
+2. [Get-AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/get-addressbookpolicy) cmdlet을 실행하고 결과를 검토합니다.
 
-    |결과  |다음 단계  |
-    |---------|---------|
-    |Exchange 주소록 정책이 나열 됩니다.     |[주소록 정책 제거](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy)         |
-    |주소록 정책이 없습니다. |감사 로그를 검토 하 여 정책 응용 프로그램에 오류가 발생 하는 이유 찾기 |
+    |**결과**|**다음 단계**|
+    |:----------|:------------|
+    | Exchange 주소부 정책 나열 | [주소부 정책 제거](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) |
+    | 주소부 정책이 없습니다. |감사 로그를 검토하여 정책 응용 프로그램이 실패하는 이유 확인 |
 
-3. [사용자 계정, 세그먼트, 정책 또는 정책 응용 프로그램의 상태를 확인](information-barriers-policies.md#view-status-of-user-accounts-segments-policies-or-policy-application)합니다.
+3. [사용자 계정, 세그먼트,](information-barriers-policies.md#view-status-of-user-accounts-segments-policies-or-policy-application)정책 또는 정책 응용 프로그램의 상태를 본다.
 
-## <a name="issue-information-barrier-policy-not-applied-to-all-designated-users"></a>문제: 지정 된 모든 사용자에 게 정보 장벽 정책이 적용 되지 않음
+## <a name="issue-information-barrier-policy-not-applied-to-all-designated-users"></a>문제: 지정된 모든 사용자에게 적용되지 않는 정보 장벽 정책
 
-세그먼트, 정의 된 정보 장벽 정책 및 해당 정책을 적용 하려고 한 후에는 정책이 일부 받는 사람에 게 적용 되지 않을 수 있습니다.
-Cmdlet을 실행할 때 `Get-InformationBarrierPoliciesApplicationStatus` 다음과 같은 텍스트에 대 한 출력을 검색 합니다.
+세그먼트를 정의하고, 정보 장벽 정책을 정의하고, 해당 정책을 적용하려고 한 후 정책이 일부 받는 사람에게 적용되고 다른 받는 사람에게는 적용되지 않을 수 있습니다.
+cmdlet을 실행할 때 출력에서 `Get-InformationBarrierPoliciesApplicationStatus` 다음 텍스트를 검색합니다.
 
-> 식별 `<application guid>`
+> ID: `<application guid>`
 >
 > 총 받는 사람: 81527
 >
-> 실패 한 받는 사람: 2
+> 실패한 받는 사람: 2
 >
 > 오류 범주: 없음
 >
@@ -189,29 +187,29 @@ Cmdlet을 실행할 때 `Get-InformationBarrierPoliciesApplicationStatus` 다음
 
 ### <a name="what-to-do"></a>수행할 작업
 
-1. 에 대 한 감사 로그에서 검색 `<application guid>` 합니다. 이 PowerShell 코드를 복사 하 고 변수를 수정할 수 있습니다.
+1. 감사 로그에서 `<application guid>` .를 검색합니다. 이 PowerShell 코드를 복사하고 변수를 수정할 수 있습니다.
 
 ```powershell
 $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDate <yyyy-mm-ddThh:mm:ss> -RecordType InformationBarrierPolicyApplication -ResultSize 1000 |?{$_.AuditData.Contains(<application guid>)} 
 ```
 
-2. 감사 로그에서 및 필드 값에 대 한 자세한 출력을 확인 `"UserId"` 합니다 `"ErrorDetails"` . 이렇게 하면 오류에 대 한 이유가 제공 됩니다. 이 PowerShell 코드를 복사 하 고 변수를 수정할 수 있습니다.
+2. 감사 로그의 자세한 출력에서 해당 필드의 값을 `"UserId"` 확인할 수 `"ErrorDetails"` 있습니다. 이렇게 하면 실패의 이유가 발생합니다. 이 PowerShell 코드를 복사하고 변수를 수정할 수 있습니다.
 
 ```powershell
    $DetailedLogs[1] |fl
 ```
- 예시:
+
+예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 > "UserId": User1
-> 
->"ErrorDetails": "Status: IBPolicyConflict. 오류: IB 세그먼트 "segment id1" 및 IB 세그먼트 "segment id2"이 (가) 충돌 하 여 받는 사람에 게 할당할 수 없습니다. 
+>
+>"ErrorDetails":"Status: IBPolicyConflict. 오류: IB 세그먼트 "segment id1" 및 IB 세그먼트 "segment id2"에 충돌이 있으며 받는 사람에게 할당할 수 없습니다.
 
-3. 일반적으로 사용자가 둘 이상의 세그먼트에 포함 된 것을 확인할 수 있습니다. 에서 값을 업데이트 하 여이 문제를 해결할 수 있습니다 `-UserGroupFilter` `OrganizationSegments` .
+3. 일반적으로 사용자가 두 개 이상의 세그먼트에 포함되어 있는 것을 발견하게 됩니다. 에서 값을 업데이트하여 이 문제를 `-UserGroupFilter` 해결할 수 `OrganizationSegments` 있습니다.
 
-4. 이러한 절차 [정보 장벽 정책을](information-barriers-policies.md#part-3-apply-information-barrier-policies)사용 하 여 정보 장애물 정책을 다시 적용 합니다.
+4. 다음 절차에 따라 정보 장벽 정책을 [다시 적용합니다.](information-barriers-policies.md#part-3-apply-information-barrier-policies)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="resources"></a>리소스
 
-[Microsoft 팀의 정보 장벽에 대 한 정책 정의](information-barriers-policies.md)
-
-[정보 장벽](information-barriers.md)
+- [Microsoft Teams의 정보 장벽에 대한 정책 정의](information-barriers-policies.md)
+- [정보 장벽](information-barriers.md)
