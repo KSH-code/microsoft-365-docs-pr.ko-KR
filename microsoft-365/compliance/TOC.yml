@@ -106,7 +106,6 @@
           href: customize-a-built-in-sensitive-information-type.md
         - name: 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
-        - name: 사용자 지정 중요한 정보 유형 시작하기
         - name: 정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사 사용
           href: sit-edm-wizard.md
         - name: 구성 가능한 일치를 사용하도록 정확한 데이터 일치 스키마 수정
