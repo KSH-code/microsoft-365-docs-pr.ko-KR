@@ -10,7 +10,6 @@ audience: ITPro
 ms.topic: how-to
 f1_keywords:
 - ms.exch.eac.ActionCenter.Restricted.Users.RestrictedUsers
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -19,12 +18,14 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365의 제한된 사용자 포털에서 사용자를 제거 하는 방법을 알아볼 수 있습니다. 사용자는 일반적으로 계정 손상의 결과로 아웃바운드 스팸 전송을 위해 제한된 사용자 포털에 추가됩니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bca9366fdb8cacdc58c12757e870c8ead8f1fa7a
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 779e769b76299edf9b6d205f64bed4738f2f2499
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683058"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988195"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Office 365의 제한된 사용자 포털에서 차단된 사용자 제거
 
@@ -71,7 +72,7 @@ ms.locfileid: "49683058"
 5. **예** 를 클릭하여 변경 내용을 확인합니다.
 
    > [!NOTE]
-   > 제한이 제거되기까지 30분 정도 걸릴 수 있습니다.
+   > 모든 제한 사항을 사용자에게서 제거하는 데 최대 24시간이 걸릴 수 있습니다.
 
 ## <a name="verify-the-alert-settings-for-restricted-users"></a>제한된 사용자에 대한 경고 설정 확인
 
@@ -82,7 +83,7 @@ ms.locfileid: "49683058"
 
 1. 보안 및 규정 준수 센터에서 **경고** \> **경고 정책** 으로 이동합니다.
 
-2. **전자 메일을 보내지 못하도록 제한된 사용자** 경고를 찾아 선택합니다.
+2. **전자 메일 전송이 제한된 사용자** 를 찾아 선택합니다.
 
 3. 플라이아웃이 나타나면 다음 설정을 확인하거나 구성합니다.
 

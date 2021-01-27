@@ -19,16 +19,16 @@ ms.assetid: ''
 description: Office 365 eDiscovery에서 일반적인 문제를 해결하기 위해 취할 수 있는 기본 문제 해결 단계에 대해 자세히 알아보십시오.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f1bad23705729c15976959a3902501f05da7600
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: e1fbda23b730956db42d8e7a92218fb9837868b8
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602039"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988142"
 ---
-# <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결
+# <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결 및 해결
 
-이 항목에서는 eDiscovery 검색 중 또는 eDiscovery 프로세스의 다른 곳에서 발생할 수 있는 문제를 식별하고 해결하기 위해 취할 수 있는 기본 문제 해결 단계를 다단계로 제공합니다. 이러한 시나리오 중 일부를 해소하려면 Microsoft 지원의 도움이 필요합니다. Microsoft 지원에 문의하는 경우의 정보는 해결 단계에 포함되어 있습니다.
+이 항목에서는 eDiscovery 검색 중 또는 eDiscovery 프로세스의 다른 곳에서 발생할 수 있는 문제를 식별하고 해결하기 위해 취할 수 있는 기본적인 문제 해결 단계를 다단계로 다단계에서 다단계에서 다단계로 하여금 확인할 수 있습니다. 이러한 시나리오 중 일부를 해소하려면 Microsoft 지원의 도움이 필요합니다. Microsoft 지원에 문의하는 경우의 정보는 해결 단계에 포함되어 있습니다.
 
 ## <a name="errorissue-ambiguous-location"></a>오류/문제: 모호한 위치
 
@@ -72,11 +72,11 @@ eDiscovery 또는 콘텐츠 검색에서는 다음 오류가 발생할 수 있�
    Get-ComplianceSearch <searchname> | FL
    ```
 
-2. PowerShell 출력에서 오류 필드의 실패한 위치를 보거나 검색 출력에서 오류의 상태 세부 정보를 볼 수 있습니다.
+2. PowerShell 출력에서 오류 필드의 실패한 위치를 보거나 검색 출력에서 오류의 상태 세부 정보에서 볼 수 있습니다.
 
 3. 실패한 위치에서만 eDiscovery 검색을 다시 시도합니다.
 
-4. 이러한 오류가 계속 발생하는 경우 [Retry failed locations](https://docs.microsoft.com/Office365/SecurityCompliance/retry-failed-content-search) 추가 문제 해결 단계를 위해 실패한 위치를 다시 시도하십시오.
+4. 이러한 오류가 계속 발생하는 경우 [](https://docs.microsoft.com/Office365/SecurityCompliance/retry-failed-content-search) 추가 문제 해결 단계를 위해 실패한 위치를 다시 시도하십시오.
 
 ## <a name="errorissue-file-not-found"></a>오류/문제: 파일을 찾을 수 없습니다.
 
@@ -98,7 +98,7 @@ eDiscovery 검색은 오류와 함께 `recipient not found` 실패합니다. 개
 
 1. Exchange [Online PowerShell에 연결합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
 
-2. 다음 명령을 실행하여 사용자가 Exchange Online Protection에 동기화된지 확인할 수 있습니다.
+2. 다음 명령을 실행하여 사용자가 Exchange Online Protection에 동기화된지 검사합니다.
 
    ```powershell
    Get-Recipient <userId> | FL
@@ -118,7 +118,7 @@ eDiscovery 검색은 오류와 함께 `recipient not found` 실패합니다. 개
    Get-ComplianceSearch <searchname> | FL
    ```
 
-2. SearchResults 및 SearchStatistics 매개 변수에서 다운로드할 데이터 양을 검색합니다.
+2. SearchResults 및 SearchStatistics 매개 변수에서 다운로드할 데이터의 양을 검색합니다.
 
 3. 다음 명령을 실행합니다.
 
@@ -142,7 +142,7 @@ eDiscovery 검색을 실행하는 경우 "내부 서버 오류(500)가 발생했
 
 1. 더 작은 검색으로 검색을 중단하고 검색을 다시 실행합니다.  더 작은 날짜 범위를 사용해 보거나 검색할 위치 수를 제한합니다.
 
-2. 보안 & 준수 센터 [PowerShell에](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 연결한 다음 다음 명령을 실행합니다.
+2. 보안 & 준수 센터 [PowerShell에](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 연결한 후 다음 명령을 실행합니다.
 
    ```powershell Set-CaseHoldPolicy <policyname> -RetryDistribution
    Get-ComplianceSearch <searchname> | FL
@@ -178,7 +178,7 @@ eDiscovery 케이스 보류 정책 동기화 배포 오류입니다. 이 오류�
 
    > 오류: 리소스: 정책을 배포하는 데 예상보다 시간이 오래 필요합니다. 최종 배포 상태를 업데이트하는 데 2시간이 추가로 걸릴 수 있으므로 몇 시간 후 다시 확인해 보아야 합니다."
 
-3. 문제의 정책에서 RetryDistribution 매개 변수를 실행해 보겠습니다.
+3. 문제의 정책에서 RetryDistribution 매개 변수를 실행합니다.
 
    eDiscovery 사례 보류의 경우:
 
@@ -200,8 +200,24 @@ eDiscovery 내보내기 도구를 사용하여 검색 결과를 다운로드할 
 
 ### <a name="resolution"></a>해결 방법
 
-이 문제를 해결하려면 검색 [downloading the search results](export-search-results.md#step-2-download-the-search-results)결과 다운로드를 다시 시도하여 eDiscovery 내보내기 도구를 다시 시작합니다.
+이 문제를 해결하려면 검색 [](export-search-results.md#step-2-download-the-search-results)결과 다운로드를 다시 시도하여 eDiscovery 내보내기 도구를 다시 시작합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="errorissue-downloaded-export-shows-no-results"></a>오류/문제: 다운로드한 내보내기에서 결과가 표시되지 않습니다.
 
-- [콘텐츠 위치 오류를 방지하는 팁](retry-failed-content-search.md#tips-to-avoid-content-location-errors)
+내보내기에 성공하면 내보내기 도구를 통해 완료된 다운로드에 결과에 파일이 0개 표시됩니다.
+
+### <a name="resolution"></a>해결 방법
+
+이것은 클라이언트 쪽 문제로, 이를 수정하기 위해 다음 단계를 시도하세요.
+
+1. 다른 클라이언트/컴퓨터로 다운로드해 하세요.
+
+2. 로컬 드라이브에 다운로드해야 합니다.
+
+3. 바이러스 스캐너가 실행되고 있지 않은지 확인
+
+4. 다른 내보내기에서 동일한 폴더나 상위 폴더로 다운로드하지 않는지 확인합니다.
+
+5. 이전 단계가 작동하지 않는 경우 압축 해제 및 중복 제거를 사용하지 않도록 설정하십시오.
+
+6. 이 문제가 작동하는 경우 문제가 로컬 바이러스 스캐너 또는 디스크 문제 때문인 것입니다.
