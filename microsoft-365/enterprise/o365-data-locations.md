@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Microsoft 365 고객 데이터가 전 세계에 저장되는 위치를 확인
-ms.openlocfilehash: 4830a10bed1f95686fb69ab577f6c89f93e9818f
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: dc74393eadbd5f1abc62efe7411434d0b919e5fe
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921671"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988107"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
@@ -134,7 +134,7 @@ Microsoft는 명시된 Geo 외부에 미사용 Intune 고객 데이터를 저장
 | 프랑스 | 파리, 마르세유 |
 | 독일 | 프랑크푸르트, 베를린 |
 | 인도 | 첸나이, 뭄바이, 푸네 |
-| 일본 | 오사카, 도쿄, 사이타마 |
+| 일본 | 오사카, 도쿄 |
 | 대한민국 | 부산, 서울 |
 | 노르웨이 | 오슬로, 스타방게르 |
 | 남아프리카 공화국 | 케이프타운, 요하네스버그 |

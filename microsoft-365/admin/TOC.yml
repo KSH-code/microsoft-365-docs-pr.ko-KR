@@ -84,7 +84,7 @@
           href: services-in-china/view-your-bill-or-get-a-fapiao.md
         - name: Fapiao 신청
           href: services-in-china/apply-for-a-fapiao.md
-        - name: Azure Information Protection 패리티
+        - name: Azure Information Protection 지원
           href: services-in-china/parity-between-azure-information-protection.md
     - name: '사용자, 그룹 및 암호 관리'
       href: add-users/index.yml
