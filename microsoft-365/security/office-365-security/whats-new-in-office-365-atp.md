@@ -1,9 +1,8 @@
 ---
 title: Office 365용 Microsoft Defender의 새로운
 description: Office 365용 Microsoft Defender의 최신 릴리스에서 사용할 수 있는 새로운 기능에 대해 자세히 알아보습니다.
-keywords: Office 365 atp, ga, 일반 제공, 기능, 사용 가능, 새로운 기능의 새로운 기능
+keywords: Office 365 atp, ga, 일반적으로 사용할 수 있는 기능, 사용 가능한 기능, 새로운 기능의 새로운 기능
 search.appverid: met150
-ms.service: O365-seccomp
 ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
@@ -17,15 +16,17 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 ms.topic: conceptual
-ms.date: 10/09/2020
+ms.date: 01/12/2021
 ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
-ms.openlocfilehash: fb588320461ab44d1ce0f10c0776bcc9ee61b551
-ms.sourcegitcommit: 0ecac0387be6b49025b79ce8eb949a8cf62481e2
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 3544f1ccb760c461b7ab72c6dc037fd653136db9
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "49724405"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988163"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 새로운
 
@@ -36,19 +37,22 @@ ms.locfileid: "49724405"
 
 - [Office 365용 Microsoft Defender](office-365-atp.md)
 
-이 문서에는 Office 365용 Microsoft Defender의 최신 릴리스의 새로운 기능이 나열됩니다. 현재 미리 보기 상태인 기능은 미리 **보기로 표시됩니다.**
+이 문서에는 Office 365용 Microsoft Defender 최신 릴리스의 새로운 기능이 나열됩니다. 현재 미리 보기 상태인 기능은 미리 **보기로 표시됩니다.**
 
 > [!TIP]
 > 아직 Office 365용 Microsoft Defender가 없는가요? [평가판을 시작하고 영업에 문의합니다.](https://go.microsoft.com/fwlink/p/?LinkId=518644)
 
+## <a name="december-2020"></a>2020년 12월
+
+- [Office 365에서 기본적으로 보안](secure-by-default.md)
+
 ## <a name="november-2020"></a>2020년 11월
 
-- 검토 > 관리 센터에서 메일 전송 및 > 로그에서 업데이트된 내보내기 제한(Office 365 계획 2용 Defender)
+- 검토 > 관리 센터에서 메일 전송 및 > 로그의 업데이트된 내보내기 제한(Office 365 계획 2용 Defender)
 
 ## <a name="septemberoctober-2020"></a>2020년 9월/10월
 
 - [구성 분석기를 사용하여 정책 확인](configuration-analyzer-for-security-policies.md)
-- [테넌트 허용/차단 목록을 사용하여 필터 판정을 수동으로 다시우기](tenant-allow-block-list.md)
 - 최상위 대상 [사용자,](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) 전송 규칙 및 커넥터를 포함하여 위협 탐색기에서 확장된 [기능(위협](threat-explorer.md) 탐색기에서 Office 365 정보용 Defender(테넌트/사용자 정책에 의해 전자 메일이 허용/차단)(Office 365 계획 2용 Defender)
 - 위협 탐색기에서 [](threat-explorer.md#threats-in-urls) URL 위협(맬웨어, 피싱, 스팸 또는 없음)(Office 365 계획 2용 Defender)
 - [위협,](threat-explorer.md#improvements-to-the-threat-hunting-experience-upcoming) 추가 작업, 배달 위치 및 업데이트된 타임라인 보기에 대한 업데이트가 있는 헌팅 환경 위협 탐색기 개선(Office 365 계획 2용 Defender)
@@ -65,7 +69,7 @@ ms.locfileid: "49724405"
 ## <a name="januaryfebruary-2020"></a>2020년 1월/2월
 
 - [Office 365용 Microsoft Defender의](campaigns.md) 캠페인 보기 일반 공급(Office 365 계획 2용 Microsoft Defender)
-- 보안 작업 [팀이](threat-explorer.md) 전자 메일을 조사하는 동안 여러 필드를 검색하고 필터링할 수 있도록 하는 위협 탐색기 개선 [사항:](investigate-malicious-email-that-was-delivered.md)(Office 365 계획 2용 Microsoft Defender)
+- 보안 운영 [팀이](threat-explorer.md) 전자 메일을 조사하는 동안 여러 필드를 검색하고 필터링할 수 있도록 위협 탐색기 기능이 [향상:](investigate-malicious-email-that-was-delivered.md)(Microsoft Defender for Office 365 계획 2)
   - 배달 위치 및 특수 작업
   - 방향(인바운드, 아웃바운드 또는 반도 내)
   - 고급 NOT 필터(포함하지 않는 고급 필터링 옵션, 포함하지 않는 고급 필터링 옵션 등)
@@ -79,11 +83,11 @@ ms.locfileid: "49724405"
 
 - [오프라인 분석을 위한 URL 클릭](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) 데이터 내보내기(Office 365 계획 1 또는 계획 2용 Microsoft Defender)
 
-- [Microsoft Defender for Office 365의 캠페인 보기 **사용(미리** 보기)(Office](campaigns.md) 365 계획 2용 Microsoft Defender)
+- [Microsoft Defender for Office 365의 캠페인 보기 **사용(미리** 보기)(Microsoft](campaigns.md) Defender for Office 365 요금제 2)
 
 ## <a name="november-2019"></a>2019년 11월
 
-- [손상된 사용자](address-compromised-users-quickly.md) 검색 및 응답 기능(미리 **보기)(Microsoft** Defender for Office 365 계획 2) 확인
+- [손상된 새로운](address-compromised-users-quickly.md) 사용자 검색 및 응답 기능 **확인(미리 보기)(Microsoft** Defender for Office 365 계획 2)
 
 ## <a name="september-2019"></a>2019년 9월
 
@@ -103,7 +107,7 @@ ms.locfileid: "49724405"
 
 ## <a name="june-2019"></a>2019년 6월
 
-- [피싱 URL 보기 및 판정 데이터 클릭(Microsoft](threat-explorer.md#view-phishing-url-and-click-verdict-data) Defender for Office 365 계획 1 또는 계획 2)
+- [피싱 URL 보기 및 판정 데이터 클릭(Microsoft](threat-explorer.md#view-phishing-url-and-click-verdict-data) Defender for Office 365 요금제 1 또는 계획 2)
 
 ## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Office 365용 Microsoft Defender 플랜 1 및 플랜 2
 

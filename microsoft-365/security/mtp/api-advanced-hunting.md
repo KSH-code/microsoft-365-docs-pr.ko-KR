@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4213773c3305c28f0913013d8f7634c083811f52
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 99f39a10de6231a72220c5c2a90ec915b1a4e44a
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932085"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988119"
 ---
 # <a name="microsoft-365-defender-advanced-hunting-api"></a>Microsoft 365 Defender 고급 헌팅 API
 
@@ -46,11 +46,14 @@ ms.locfileid: "49932085"
 
 1. 쿼리는 지난 30일 동안의 데이터를 탐색하고 반환합니다.
 2. 결과는 최대 100,000개 행을 반환할 수 있습니다.
-3. 테넌트당 분당 최대 10통의 통화를 만들 수 있습니다.
+3. 테넌트당 분당 최대 15통의 전화를 걸 수 있습니다.
 4. 테넌트당 시간당 10분의 실행 시간이 있습니다.
-5. 테넌트당 총 4시간의 실행 시간이 있습니다.
-6. 단일 요청이 10분 넘게 실행되는 경우 시간이 너무 까다로우며 오류가 반환됩니다.
-7. HTTP 응답 코드는 전송된 요청 수 또는 할당된 실행 시간으로 할당량에 도달했다는 `429` 메시지를 나타냅니다. 응답 본문에는 도달한 할당량에 따라 다시 설정될 때까지의 시간이 포함됩니다.
+5. 테넌트당 하루 총 4시간의 실행 시간이 있습니다.
+6. 단일 요청이 10분 넘게 실행되는 경우 시간이 지났다가 오류가 반환됩니다.
+7. HTTP 응답 코드는 전송된 요청 수 또는 할당된 실행 시간으로 할당량에 도달했다는 `429` 메시지를 나타냅니다. 응답 본문을 읽고 도달한 제한을 이해합니다. 
+
+> [!NOTE]
+> 위에 나열된 모든 할당량(예: 분당 통화 15개)은 테넌트 크기당입니다. 이러한 할당량은 최소값입니다.
 
 ## <a name="permissions"></a>권한
 

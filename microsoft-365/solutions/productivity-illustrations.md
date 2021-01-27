@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 1a82fc414bfed2f7a054ae533700c52a8270ed6d
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: 8a4fb7da33a9f689b13a516b7a3066c492bd7de9
+ms.sourcegitcommit: ddbc6f8ebadf2f8149dff910b743535cbc3fa3c8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615291"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "49992493"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Microsoft 365 생산성 일러스트레이션
 
@@ -29,7 +29,7 @@ Microsoft Teams로 시장을 선도하는 Microsoft 365 생산성 서비스의 �
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![Teams 논리 아키텍처 포스터](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>2019년 4월에 업데이트됨   |Microsoft는 생산성 서비스 제품군을 제공하여 데이터 관리, 보안 및 규정 준수 기능이 포함된 공동 작업 환경을 제공합니다. <br/> <br/>이 일러스트레이션 시리즈는 엔터프라이즈 설계자를 위해 Microsoft Teams로 시장을 선도하는 생산성 서비스의 논리 아키텍처를 보여줍니다.|
+|[![Teams 논리 아키텍처 포스터](../downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)  <br>2021년 1월 업데이트   |Microsoft는 생산성 서비스 제품군을 제공하여 데이터 관리, 보안 및 규정 준수 기능이 포함된 공동 작업 환경을 제공합니다. <br/> <br/>이 일러스트레이션 시리즈는 엔터프라이즈 설계자를 위해 Microsoft Teams로 시장을 선도하는 생산성 서비스의 논리 아키텍처를 보여줍니다.|
 
 
 ### <a name="groups-in-microsoft-365-for-it-architects"></a>IT 설계자용 Microsoft 365의 그룹
@@ -133,13 +133,13 @@ Microsoft는 Microsoft 클라우드에서 팀을 처음 경험할 때 몇 가지
 
 ### <a name="empower-remote-workers"></a>원격 작업자 권한 부여
 
-Microsoft 365 및 기타 Microsoft 클라우드 기술을 사용하여 직원들이 자신의 가정에서 조직의 클라우드 기반 정보, 도구 및 리소스에 안전하게 액세스할 수 있도록 할 수 있습니다. 
+Microsoft 365 및 기타 Microsoft 클라우드 기술을 사용하여 직원들이 가정에서 조직의 클라우드 기반 정보, 도구 및 리소스에 안전하게 액세스할 수 있도록 할 수 있습니다. 
 
 [![원격 작업자 지원](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf) <br/>
 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf)  |  [PowerPoint](https://download.microsoft.com/download/5/1/1/511b77a9-a34c-4ea7-af2a-32b07f20b780/empower-remote-workers.pptx) <br>
 2020년 7월 업데이트
 
-자세한 내용은 이 포스터에 대한 문서를 참조하세요. [Microsoft 365를](empower-people-to-work-remotely.md)사용하여 원격 작업자의 역량을 강화하세요.
+자세한 내용은 이 포스터의 문서를 참조하세요. [Microsoft 365를](empower-people-to-work-remotely.md)사용하여 원격 작업자의 역량을 강화하세요.
 
 ### <a name="microsoft-teams-with-security-isolation"></a>보안이 있는 Microsoft Teams
 

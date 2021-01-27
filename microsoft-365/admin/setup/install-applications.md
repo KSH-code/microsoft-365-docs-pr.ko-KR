@@ -22,24 +22,26 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 description: 이제 Microsoft 365를 설정했습니다. Mac, PC 또는 모바일 장치에 개별 Office 응용 프로그램을 설치하고 Outlook에서 전자 메일을 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: b05a61f9579ee98a8b0be9d01b6a507b06c29321
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: dc8a4c3670dacf4b3cc85637c3e18c51a8c8e350
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926849"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988035"
 ---
 # <a name="install-office-applications"></a>Office 응용 프로그램 설치
 
 이제 Microsoft 365를 설정한 후 Mac, PC 또는 모바일 장치에 개별 Office 응용 프로그램을 설치할 수 있습니다.
   
-다음 링크를 참조하여 자세한 방법을 참조하세요.
+다음 링크를 따라 자세한 방법을 참조하세요.
   
 - Office 응용 프로그램 설치: PC 또는  [Mac에 Office 설치](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
 
+- 다른 앱 설치: [Project,](https://support.microsoft.com/office/install-project-7059249b-d9fe-4d61-ab96-5c5bf435f281) [Visio](https://support.microsoft.com/office/install-visio-f98f21e3-aa02-4827-9167-ddab5b025710)또는 [비즈니스용 Skype](https://support.microsoft.com/office/install-skype-for-business-8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
+
 - 모바일 장치 설정: [Microsoft 365 모바일 설정 - 도움말](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
 
-- Outlook에서 전자 메일 설정: [Windows](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) 또는 [Mac](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac)
+- Outlook에서 전자 메일 [설정:](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac) [Windows](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) 또는 Mac
  
 - [사용자를 최신 앱으로 업그레이드합니다.](upgrade-users-to-latest-office-client.md) 
 
