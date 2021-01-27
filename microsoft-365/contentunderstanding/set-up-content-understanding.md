@@ -7,16 +7,18 @@ manager: serdars
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-syntex
 search.appverid: MET150
 localization_priority: Priority
 description: Project Cortex에서 콘텐츠 이해 설정
-ms.openlocfilehash: 1abcc71200642de3f74a92e83299e079ffffb038
-ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
+ms.openlocfilehash: a9713f1d28cf863ab827d2975e84042026105b3f
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49604271"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976387"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
@@ -24,15 +26,15 @@ ms.locfileid: "49604271"
 
 시작하기 전에 다음을 고려해야 합니다.
 
-- 양식 처리를 활성화할 SharePoint 사이트는 무엇입니까? 전부요, 일부인가요, 아니면 특정 사이트인가요?
-- 기본 컨텐츠 센터의 이름을 무엇으로 지정하시겠어요?
+- 양식 처리를 사용하도록 설정할 SharePoint 사이트는 무엇인가요? 전부요, 일부인가요, 아니면 특정 사이트인가요?
+- 기본 콘텐츠 센터의 이름을 무엇으로 지정하시겠어요?
 
 Microsoft 365 관리 센터에서 초기 설정 후 설정을 변경할 수 있습니다.
 
-설정하기 전에 사용자 환경에서 컨텐츠 이해도를 설정하고 구성하는 최선의 방법을 계획해야 합니다. 예를 들어 다음 이름을 고려해야 합니다.
+설정하기 전에 사용자 환경에서 컨텐츠 이해도를 설정하고 구성하는 최선의 방법을 계획해야 합니다. 예를 들어 다음과 같은 결정을 내려야 합니다.
 
-- 양식 처리를 실행하려는 SharePoint 사이트(모든 사이트, 일부 사이트 또는 선택한 사이트)입니다.
-- 컨텐츠 센터 및 주 사이트 관리자의 이름입니다.
+- 양식 처리를 사용하도록 설정할 SharePoint 사이트(모든 사이트, 일부 사이트 또는 선택한 사이트)입니다.
+- 이름 및 관리자 또는 콘텐츠 센터
 
 ## <a name="requirements"></a>요구 사항 
 
@@ -56,7 +58,7 @@ Microsoft 365 관리 센터에서 초기 설정 후 설정을 변경할 수 있�
  
      **양식 처리 모델** 을(를) 생성하기 위해 어떤 SharePoint 라이브러리에 표시할 것인지에 대해 다음을 선택할 수 있습니다.</br>
       - **모든 SharePoint 라이브러리** 를 조직의 모든 SharePoint 라이브러리에서 사용할 수 있도록 합니다.</br>
-      - **선택한 사이트의 라이브러리만**. 그런 다음 사용할 수 있도록 만들 사이트를 선택하거나 최대 50개 사이트의 목록을 업로드합니다.</br>
+      - **선택한 SharePoint 사이트의 라이브러리** 를 선택한 다음, 사용 가능한 사이트를 선택하거나 최대 50개 사이트의 목록을 업로드합니다.</br>
       - **사이트에서 SharePoint 라이브러리를 사용하지 않으려면** SharePoint 라이브러리가 없습니다(설치 후 이 라이브러리를 변경할 수 있습니다).
 
    > [!div class="mx-imgBorder"]
@@ -114,4 +116,3 @@ SharePoint Syntex를 구성한 후에는 SharePoint Syntex 기능을 사용할 �
 [양식 처리 모델](https://docs.microsoft.com/ai-builder/form-processing-model-overview)을(를) 검토합니다.
 
 [단계별 절차는 다음과 같습니다. 문서 이해 모델(비디오)](https://www.youtube.com/watch?v=DymSHObD-bg)을(를) 작성하는 방법
-

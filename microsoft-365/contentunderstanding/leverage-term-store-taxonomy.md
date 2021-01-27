@@ -7,15 +7,17 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-syntex
 localization_priority: Priority
-description: Microsoft SharePoint Syntexdml 문서 이해 모델에서 추출자를 만들 때 용어 저장소 분류를 활용 하세요.
-ms.openlocfilehash: cf396d14a497981389cc336c5efd121f36392181
-ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
+description: Microsoft SharePoint Syntex의 문서 이해 모델에서 추출기를 만들 때 용어 저장소 분류를 사용하세요.
+ms.openlocfilehash: aff2df6a96fdfee7380651f68e647019e9485658
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49709551"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49975742"
 ---
 # <a name="leverage-term-store-taxonomy-when-creating-an-extractor"></a>추출자를 만들 때 용어 저장소 분류 활용
 
@@ -33,13 +35,13 @@ SharePoint Syntex를 사용하여 문서 이해 모델에서 추출자를 생성
 
 ## <a name="use-a-managed-metadata-column-in-your-extractor"></a>추출기에서 관리되는 메타데이터 열 사용
 
-용어 집합은 SharePoint 관리 센터에서 MMS(관리되는 메타데이터 서비스) 용어 저장소에 구성 됩니다. 아래 예제에서는 *계약서 서비스* [용어 집합](https://docs.microsoft.com/sharepoint/managed-metadata#term-set)은 *창의성* 을 포함하여 몇 가지의 용어를 포함하도록 구성되었습니다.  세부 내역에는 용어에 세 가지의 동의어(*디자인*, *그래픽* 및 *지형*)가 있다고 보여주며 이 동의어는 *창의성* 이라고 해석되어야 합니다. 
+용어 집합은 SharePoint 관리 센터에서 MMS(관리되는 메타데이터 서비스) 용어 저장소에 구성 됩니다. 아래 예제에서 *계약 서비스* [용어 집합](https://docs.microsoft.com/sharepoint/managed-metadata#term-set)은 *창의성* 을 포함하여 여러 용어를 포함하도록 구성되어 있습니다.  세부 내역에는 용어에 세 가지의 동의어(*디자인*, *그래픽* 및 *지형*)가 있다고 보여주며 이 동의어는 *창의성* 이라고 해석되어야 합니다. 
 
    ![용어 집합](../media/content-understanding/term-store.png)</br>
 
-용어 집합에서 동의어를 사용하는데는 몇 가지 이유가 있습니다. 예를 들어, 이름을 지을 때 예전에 사용된 용어, 이름이 바뀐 용어 혹은 조직 부서간에 다르게 사용되는 용어가 있을 수 있습니다.
+용어 집합에서 동의어를 사용하는데는 여러 이유가 있습니다. 예를 들어, 이름을 지을 때 예전에 사용된 용어, 이름이 바뀐 용어 혹은 조직 부서간에 다르게 사용되는 용어가 있을 수 있습니다.
 
-모델에서 추출자를 만들 때 사용 가능한 관리되는 메타 데이터 필드를 선택하도록 하려면 [관리되는 메타 데이터 사이트 칼럼으로 추가](https://support.microsoft.com/office/8fad9e35-a618-4400-b3c7-46f02785d27f)해야 합니다. 사이트 열을 추가한 후 모델에 대한 추출자를 만들 때 선택 가능 합니다.
+모델에서 추출기를 만들 때 관리되는 메타데이터 필드를 선택하도록 하려면 [관리되는 메타데이터 사이트 열로 추가](https://support.microsoft.com/office/8fad9e35-a618-4400-b3c7-46f02785d27f)해야 합니다. 사이트 열을 추가한 후 모델에 대한 추출기를 만들 때 선택할 수 있습니다.
 
    ![계약 서비스](../media/content-understanding/contract-services.png)</br>
 
