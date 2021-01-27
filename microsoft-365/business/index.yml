@@ -12,12 +12,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 7242da8ec406df383a12b984ae7585c0e5c1a91d
-  ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+  ms.openlocfilehash: ed25671989668d09f7ad3fcc233a6cf8e1e0f1fc
+  ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 12/11/2020
-  ms.locfileid: "49658467"
+  ms.lasthandoff: 01/26/2021
+  ms.locfileid: "49988059"
 productDirectory:
   title: Microsoft 365 Business Premium을 사용하여 원격 작업을 보안
   items:
@@ -33,10 +33,10 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
     summary: Azure AD Premium P1이 이제 Microsoft 365 Business Premium에 포함됩니다!
     url: https://aka.ms/aadp1smbblog
-  - title: 파트너 웨비나 시청
+  - title: 파트너 웨비나 시리즈 참가
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: 원격 작업 환경에서 수익을 유도하고 위험을 줄여 보세요.
-    url: https://aka.ms/GrowwithMicrosoft365
+    summary: Microsoft 365 Business Premium를 통한 관리 서비스로 비즈니스 성장을 가속화하세요.
+    url: https://aka.ms/acceleratewithm365bp
 conceptualContent:
   items:
   - title: Microsoft 365 Business Premium이란 무엇인가요?

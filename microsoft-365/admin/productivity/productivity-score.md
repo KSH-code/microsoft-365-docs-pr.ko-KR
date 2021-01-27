@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 생산성 점수 개요.
-ms.openlocfilehash: 8ba1ceb57cd322a67e7b154700a8ac90c62f5ef0
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 9f3e24d4af6858f106cde937940d5f0be1a4f85f
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921245"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988071"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft 생산성 점수 
 
@@ -80,13 +80,14 @@ Microsoft는 두 가지 영역에서 메트릭, 인사이트 및 권장 사항�
 
 생산성 점수는 Microsoft 365 관리 센터에서만 사용할 수 있으며 다음 역할 중 하나를 가진 IT 전문가만 액세스할 수 있습니다.  
 
-- 전역 관리자 
+- 전역 관리자
 - Exchange 관리자
-- SharePoint 관리자 
-- 비즈니스용 Skype 관리자 
-- Teams 관리자 
-- 전역 읽기 권한자 
-- 보고서 읽기 권한자 
+- SharePoint 관리자
+- 비즈니스용 Skype 관리자
+- Teams 관리자
+- 전역 읽기 권한자
+- 보고서 읽기 권한자
+- 사용 현황 요약 보고서 읽기 권한자
 
 > [!NOTE]
 > 전역 관리자 역할이 있는 IT 전문가만 생산성 점수를 위해 테넌트에 등록하거나 옵트인할 수 있습니다.
