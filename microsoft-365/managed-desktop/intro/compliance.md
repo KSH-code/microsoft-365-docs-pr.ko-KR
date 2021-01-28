@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d47757e8e9b36baf060c86436bd7840ded7c324d
-ms.sourcegitcommit: 280200281aec862517876319a3fe4ce170674047
+ms.openlocfilehash: f2fae1e41562d1ae743ecd964b42082b3d6486e8
+ms.sourcegitcommit: 05657b39eaafc0503b01c6adcc5d8a5e615dc02c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49586676"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50031354"
 ---
 # <a name="compliance"></a>규정 준수
 
@@ -36,16 +36,16 @@ Microsoft Managed Desktop은 다음 인증을 획득했습니다.
 - [SOC(서비스 조직 제어) 1, 2, 3](https://docs.microsoft.com/compliance/regulatory/offering-SOC)
 - [PCI(Payment Card Industry) DSS(Data Security Standard)](https://docs.microsoft.com/compliance/regulatory/offering-PCI-DSS)
 - [HIPAA(Health Insurance Portability and Accountability Act)](https://docs.microsoft.com/compliance/regulatory/offering-hipaa-hitech)
-- [오스트레일리아 정부 정보 보안 등록 평가자 프로그램(IRAP)](https://docs.microsoft.com/compliance/regulatory/offering-ccsl-irap-australia)
+- [IRAP(정보 보안 등록 평가자 프로그램)](https://docs.microsoft.com/compliance/regulatory/offering-ccsl-irap-australia)
 
 
 ## <a name="auditor-reports-and-compliance-certificates"></a>감사자 보고서 및 준수 인증서
 
-제어 및 기술 요구 사항을 비롯한 관련 정보는 Microsoft 클라우드 서비스 서비스에 대한 중앙 저장소인 [STP(Service Trust](https://servicetrust.microsoft.com/)Portal)에서 찾을 수 있습니다. STP의 감사 보고서 섹션에서 감사 보고서, [Audit Reports](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) 준수 인증서를 다운로드할 수 있습니다.
+제어 및 기술 요구 사항을 비롯한 관련 정보는 Microsoft 클라우드 서비스 서비스에 대한 중앙 저장소인 [STP(Service Trust](https://servicetrust.microsoft.com/)Portal)에서 찾을 수 있습니다. STP의 감사 보고서 섹션에서 감사 보고서, [](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) 준수 인증서를 다운로드할 수 있습니다.
 
 > [!NOTE]
-> Microsoft Managed Desktop은 Azure에서 실행하기 때문에 관련 문서에는 일반적으로 "Microsoft Azure, Dynamics 365 및 기타 온라인 서비스"과 같은 파일 이름이 있습니다. 이러한 문서에서는 일반적으로 "Microsoft Online Services" 또는 "모니터링 + 관리" 범주 아래에서 Microsoft Managed Desktop을 찾을 수 있습니다.
+> Microsoft Managed Desktop은 Azure에서 실행하기 때문에 관련 문서에는 일반적으로 "Microsoft Azure, Dynamics 365 및 기타 온라인 서비스"과 같은 파일 이름이 있습니다. 이러한 문서에서는 일반적으로 "Microsoft Online Services" 또는 "모니터링 + 관리" 범주에서 Microsoft Managed Desktop을 찾을 수 있습니다.
 
 ## <a name="shared-responsibility"></a>공유 책임
 
-클라우드 서비스에 대한 규정 준수는 클라우드 서비스 공급자와 해당 고객 간의 공유 책임입니다. 자세한 내용은 [클라우드 컴퓨팅에 대한 공유 책임을 참조합니다.](https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility)
+클라우드 서비스에 대한 규정 준수는 클라우드 서비스 공급자와 해당 고객 간의 공유 책임입니다. 자세한 내용은 [클라우드의 공유 책임을 참조하세요.](https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility)
