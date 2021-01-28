@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 정보 거버넌스 및 레코드 관리를 위해 규정 요구 사항을 충족할 수 있도록 도움이 되는 리소스
-ms.openlocfilehash: f8641af2ec839c9ed3f4d029b4f6de52fe7033e3
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: 891dd3f37e70ae94dbae96baaa7c38b71456305b
+ms.sourcegitcommit: b3bb5bf5efa197ef8b16a33401b0b4f5663d3aa0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941423"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032569"
 ---
 # <a name="regulatory-requirements-for-information-governance-and-records-management"></a>정보 거버넌스 및 레코드 관리를 위한 규정 요구 사항
 
@@ -29,6 +29,18 @@ ms.locfileid: "48941423"
 Microsoft 365의 정보 거버넌스 및 레코드 관리를 위해 특정 규정 요구 사항을 충족할 수 있도록 도움이 되는 이 페이지의 리소스를 사용합니다. 본 문서의 각 섹션에서는 하나 이상의 관련 규정에 중점을 두고 있으며 명시된 요구 사항을 지원하기 위해 Microsoft 365를 구성하는 방법에 대한 모든 기존 지침이나 제3자 평가를 포함하고 있습니다.
 
 해당 리소스는 Service Trust Portal의 [데이터 보호 리소스, FAQ 및 백서](https://servicetrust.microsoft.com/ViewPage/TrustDocuments) 페이지에서 다운로드할 수 있습니다.
+
+## <a name="new-zealand-public-records-act"></a>뉴질랜드 공공기록법
+
+**Microsoft 365로 뉴질랜드 공공기록법 준수 의무 지원** - [평가 다운로드](https://aka.ms/NZPRA)
+
+적용 가능한 작업: SharePoint, OneDrive, Teams, Exchange, 비즈니스용 Skype
+
+2021년 1월에 발표된 이 보고서는 Microsoft 뉴질랜드와 협력하여 전자 레코드의 요구 사항을 기록, 저장 및 관리하기 위한 Microsoft 365 서비스의 기능을 평가하기 위해 작성되었습니다 
+
+- 뉴질랜드 공공 기록법 2005는 뉴질랜드의 공공 기록물 및 지방 정부 기관 기록물 보존을 위한 지침을 제정합니다.
+
+이 보고서는 2005년 뉴질랜드 공공기록법(PRA)의 시스템 측면이 Microsoft 365를 사용할 때 어떻게 달성되는지 이해하는 데 도움이 됩니다.
 
 ## <a name="sec-17a-4f-finra-4511c-and-cftc-131c-d"></a>SEC 17a-4(f), FINRA 4511(c), CFTC 1.31(c)-(d)
 

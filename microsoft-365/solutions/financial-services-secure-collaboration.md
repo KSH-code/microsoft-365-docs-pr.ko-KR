@@ -12,12 +12,12 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: 재무 서비스 기관에서 Microsoft 365와 Teams를 사용하여 재무 보안 규정 준수를 유지하고 효과적으로 공동 작업하는 방법을 알아봅니다.
 f1.keywords: NOCSH
-ms.openlocfilehash: ff4ce29e42ea3a8a5619f514373041c1e8c3e138
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: 1d1c3886a38636e7e72774f8b2bb5ce574d1c7a6
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558481"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029957"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>미국 은행 및 자본 시장에 대한 주요 규정 준수 및 보안 고려 사항
 
@@ -319,7 +319,7 @@ Microsoft 365는 최근 Microsoft 365 서비스 전반의 신호를 상호 연�
 
 예를 들어 Microsoft 365의 내부자 위험 관리는 사용자의 Windows 10 데스크톱의 신호를 상호 연결하여, Office 365 전자 메일, SharePoint Online, Microsoft Teams 또는 비즈니스용 OneDrive와 같은 온라인 서비스의 활동과 파일을 USB 드라이브로 복사하거나 개인 전자 메일 계정으로 전자 메일을 보내는 등의 데이터 유출 패턴을 식별할 수 있습니다. 또한 이러한 활동을 일반적으로 데이터가 유출되는 패턴의 하나인 퇴사하는 직원과 연결시킬 수 있습니다. 시간이 지남에 따라 여러 활동과 동작을 모니터링할 수 있습니다. 공통적인 패턴이 나타나면 경보를 발생시키고 조사자가 주요 활동에 집중하여 높은 수준의 신뢰도를 가지고 정책 위반을 검증할 수 있습니다. 내부자 위험 관리는 조사자의 데이터를 가명/익명 처리하여 데이터 개인 정보 보호 규정을 준수하는 동시에 조사를 효율적으로 수행하는 데 도움이 되는 주요 활동을 표면화할 수 있습니다. 이를 통해 수정 조치를 위한 사례 제기를 위해 일반적인 이관 워크플로에 따라 조사자가 주요 활동 데이터를 패키지하여 안전하게 HR 및 법률 부서에 보낼 수 있습니다.
 
-Microsoft 365의 내부자 위험 관리는 조직이 내부자 위험을 모니터링하고 조사할 수 있는 능력을 크게 향상시키는 동시에 데이터 개인 정보 보호 규정을 준수하고 사례가 더 높은 수준의 조치를 요구할 때 확립된 이관 절차를 따를 수 있도록 합니다.
+Microsoft 365의 내부자 위험 관리는 조직이 내부자 위험을 모니터링하고 조사할 수 있는 능력을 크게 향상시키는 동시에 데이터 개인 정보 보호 규정을 준수하고 사례가 더 높은 수준의 조치를 요구할 때 확립된 이관 절차를 따를 수 있도록 합니다. Microsoft 365의 내부자 위험 관리에 대한 자세한 내용은 Microsoft 365 [Microsoft 365의 내부자 위험 관리에서 최신 위험 지점 및 워크플로](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management?view=o365-worldwide)를 참조하십시오.
 
 ![콜센터 직원이 칸막이 책상에서 화면을 보고 있습니다.](../media/clo17-call-center-006.jpg)
  
