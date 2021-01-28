@@ -3,7 +3,7 @@ title: 피싱 보고서 추가 기능 사용
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: Admin
 ms.topic: how-to
@@ -16,14 +16,14 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: 개별 사용자 또는 전체 조직에 대해 Outlook 및 웹용 Outlook에 대해 피싱 보고서 추가 기능을 사용하도록 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 2ea6a9bf9b00fc844aede6daeb9fc11f23c81e4a
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.openlocfilehash: 6d86fdc710539bc3c74eb94f8931ca48a0c992c1
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865285"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029141"
 ---
-# <a name="enable-the-report-phishing-add-in"></a>보고서 피싱 추가 기능 사용
+# <a name="enable-the-report-phishing-add-in"></a>보고서 피싱 추가 기능을 사용하도록 설정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -35,7 +35,7 @@ Outlook 및 웹용 Outlook(이전의 Outlook Web App)에 대한 피싱 보고 �
 
 Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효율성을 향상합니다. 예를 들어 피싱 보고서 추가 기능을 사용하여 많은 메시지를 보고하고 있는 경우를 가정해 보겠습니다. 이 정보는 보안 대시보드 [및](security-dashboard.md) 기타 보고서에 표시됩니다. 조직의 보안 팀은 이 정보를 피싱 방지 정책을 업데이트해야 할 수 있는 표시로 사용할 수 있습니다.
 
-보고서 메시지 또는 피싱 보고 추가 기능을 설치할 수 있습니다. 사용자가 스팸 메시지와 피싱 메시지를 모두 보고하게 하려는 경우 조직에 보고서 메시지 추가 기능을 배포합니다. 자세한 내용은 보고서 메시지 추가 기능 사용 [을 참조하십시오.](enable-the-report-message-add-in.md)
+보고서 메시지 또는 피싱 보고서 추가 기능을 설치할 수 있습니다. 사용자가 스팸 메시지와 피싱 메시지를 모두 보고하게 하려는 경우 조직에 보고서 메시지 추가 기능을 배포합니다. 자세한 내용은 보고서 메시지 추가 기능 사용 [을 참조하십시오.](enable-the-report-message-add-in.md)
 
 피싱 보고서 추가 기능은 피싱 메시지만 보고하는 옵션을 제공합니다. 관리자는 조직에 대해 피싱 보고서 추가 기능을 사용하도록 설정할 수 있으며 개별 사용자는 이를 직접 설치할 수 있습니다.
 
@@ -43,7 +43,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 전역 관리자 또는 Exchange Online 관리자인 경우 Exchange가 OAuth 인증을 사용하도록 구성된 경우 조직에 대해 피싱 보고서 추가 기능을 사용하도록 설정할 [수 있습니다.](#get-and-enable-the-report-phishing-add-in-for-your-organization) 보고서 피싱 Add-In 중앙 집중식 배포를 통해 사용할 [수 있습니다.](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 피싱 보고서 추가 기능에서는 대부분의 Microsoft 365 구독 및 다음 제품과 함께 작동합니다.
 
@@ -82,26 +82,28 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
   ![웹용 Outlook 보고서 피싱 추가 기능 아이콘](../../media/OWA-ReportPhishing.png)
 
-## <a name="get-and-enable-the-report-phishing-add-in-for-your-organization"></a>조직에 대해 피싱 보고서 추가 기능 확인 및 사용
+## <a name="get-and-enable-the-report-phishing-add-in-for-your-organization"></a>조직에 대한 피싱 보고서 추가 기능 확인 및 사용
 
 > [!NOTE]
 > 추가 기능을 조직에 표시하는 데 최대 12시간이 걸릴 수 있습니다.
 
-1. Microsoft 365 관리 센터에서 **설정,** 통합 앱 및 추가 & 페이지로 이동한 다음 추가 기능 배포를 <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> **클릭합니다.**
+1. Microsoft 365 관리 센터에서 설정 추가  기능 페이지로 이동합니다. 추가 기능 페이지가 없는 경우 통합 앱 페이지 상단의 설정 통합 앱 추가 기능 링크로 \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>   \>  \>  이동합니다. 
+
+2. 페이지 **맨 위에 있는** 추가 기능 배포를 선택하고 다음을 **선택합니다.**
 
    ![Microsoft 365 관리 센터의 서비스 및 추가 기능 페이지](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
-2. 새 **추가** 기능 플라이아웃이 나타나면 정보를 검토하고 다음을 **클릭합니다.**
+3. 새 **추가** 기능 플라이아웃이 나타나면 정보를 검토하고 다음을 **클릭합니다.**
 
-3. 다음 페이지에서 스토어에서 **선택을 클릭합니다.**
+4. 다음 페이지에서 스토어에서 **선택을 클릭합니다.**
 
    ![새 추가 기능 페이지 배포](../../media/NewAddInScreen2.png)
 
-4. 나타나는 추가 **기능** 선택 페이지에서 검색 상자를  클릭하고 피싱 **보고를** 입력한 다음 검색 **아이콘을** ![ ](../../media/search-icon.png) 클릭합니다. 결과 목록에서 보고서 **피싱을 찾은** 다음 추가를 **클릭합니다.**
+5. 나타나는 추가 **기능** 선택 페이지에서 검색 상자를  클릭하고 피싱 **보고를** 입력한 다음 검색 **아이콘을** ![ ](../../media/search-icon.png) 클릭합니다. 결과 목록에서 보고서 **피싱을 찾은** 다음 추가를 **클릭합니다.**
 
-5. 나타나는 대화 상자에서 라이선스 및 개인 정보 정보를 검토하고 계속을 **클릭합니다.**
+6. 나타나는 대화 상자에서 라이선스 및 개인 정보 정보를 검토하고 계속을 **클릭합니다.**
 
-6. 나타나는 **추가 기능 구성** 페이지에서 다음 설정을 구성합니다.
+7. 나타나는 **추가 기능 구성** 페이지에서 다음 설정을 구성합니다.
 
    - **할당된 사용자:** 다음 값 중 하나를 선택합니다.
 
@@ -117,9 +119,9 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
    완료되면 배포를 **클릭합니다.**
 
-7. 보고서 **피싱** 배포 페이지에 나타나는 진행률 보고서와 추가 기능 배포 확인이 표시됩니다. 정보를 읽은 후 다음을 **클릭합니다.**
+8. 보고서 **피싱** 배포 페이지에 나타나는 진행률 보고서와 추가 기능 배포 확인이 표시됩니다. 정보를 읽은 후 다음을 **클릭합니다.**
 
-8. 추가 **기능** 발표 페이지가 나타나면 정보를 검토하고 닫기 를 **클릭합니다.**
+9. 추가 **기능** 발표 페이지가 나타나면 정보를 검토하고 닫기 를 **클릭합니다.**
 
 ## <a name="learn-how-to-use-the-report-phishing-add-in"></a>피싱 보고서 추가 기능을 사용하는 방법 학습
 
@@ -131,15 +133,15 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 - 웹에서 Outlook에서 아이콘은 다음과 같습니다.
 
-  ![웹 보고서 피싱 추가 기능 아이콘의 Outlook](../../media/OWA-ReportPhishing.png)
+  ![웹용 Outlook 보고서 피싱 추가 기능 아이콘](../../media/OWA-ReportPhishing.png)
 
-## <a name="review-or-edit-settings-for-the-report-phishing-add-in"></a>보고서 피싱 추가 기능의 설정 검토 또는 편집
+## <a name="review-or-edit-settings-for-the-report-phishing-add-in"></a>피싱 보고서 추가 기능의 설정 검토 또는 편집
 
-1. Microsoft 365 관리 센터에서 서비스 & **추가** 기능 페이지로 <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> 이동합니다.
+1. Microsoft 365 관리 센터에서 설정 추가  기능 페이지로 이동합니다. 추가 기능 페이지가 없는 경우 통합 앱 페이지 상단의 설정 통합 앱 추가 기능 링크로 \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>   \>  \>  이동합니다. 
 
 2. 피싱 **보고서** 추가 기능을 찾아 선택합니다.
 
-3. 조직에 **적합한** 설정이 나타나고, 검토하고, 편집하는 보고서 피싱 플라이아웃 편집에서. 작업을 마친 후 **저장** 을 클릭합니다.
+3. 조직에 **적합한** 설정이 표시, 검토 및 편집하는 피싱 보고서 편집 플라이아웃에서. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
 ## <a name="view-and-review-reported-messages"></a>보고된 메시지 보기 및 검토
 

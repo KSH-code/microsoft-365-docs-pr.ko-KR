@@ -3,23 +3,24 @@ title: Microsoft Outlook용 정크 메일 보고 추가 기능 설치 및 사용
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Microsoft 정크 메일 보고 추가 기능을 설치 및 사용하여 스팸, 스팸이 아닌 메시지 및 피싱 메시지를 Microsoft에 보고하는 방법을 알아보세요.
-ms.openlocfilehash: 2b98fb0183cb7164ee90fb6a3a22d949e6edc2bc
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 896ef89149e5ef65ea96b2b21e1010c29fa7a7fc
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865067"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029423"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Microsoft Outlook용 정크 메일 보고 추가 기능 설치 및 사용
 
@@ -33,7 +34,7 @@ Microsoft Outlook용 정크 메일 보고 추가 기능을 사용하면 가음�
 
 이 항목에서는 정크 메일 보고 추가 기능을 설치하고 사용하는 방법을 설명합니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 정크 메일 보고 추가 기능을 설치하려면 [](#install-the-junk-email-reporting-add-in) 이 문서 부분의 정크 메일 보고 추가 기능 설치 섹션을 참조하세요.
 
@@ -54,13 +55,13 @@ Microsoft Outlook용 정크 메일 보고 추가 기능을 사용하면 가음�
 
    - 메시지를 마우스 오른쪽 단추로 클릭하고 정크를 선택한 다음 정크 메일로 보고 또는 피싱으로 **보고를 선택합니다.** 
 
-     ![마우스 오른쪽 단추를 클릭하여 정크 메일 또는 피싱 전자 메일 보고](../../media/junk-email-reporting-right-click.png)
+     ![마우스 오른쪽 단추를 클릭하여 정크 메일 또는 피싱 메일 보고](../../media/junk-email-reporting-right-click.png)
 
    - 여러 메시지를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **정크** 메일로 보고 또는 **피싱으로 보고를 선택합니다.**
 
      ![마우스 오른쪽 단추를 클릭하여 여러 정크 또는 피싱 전자 메일 메시지 보고](../../media/junk-email-reporting-right-click-multiple.png)
 
-2. 나타나는 대화 상자에서 정보를 읽고 보고서를 **클릭합니다.** 마음이 바뀌면 보고 안 **를 클릭합니다.**
+2. 나타나는 대화 상자에서 정보를 읽고 **보고서를 클릭합니다.** 마음이 바뀌면 보고 안 **를 클릭합니다.**
 
    ![정크로 보고 대화 상자](../../media/junk-email-reporting-report-as-junk-dialog.png)
 
@@ -79,17 +80,17 @@ Microsoft Outlook용 정크 메일 보고 추가 기능을 사용하면 가음�
 
    - 메시지를 선택하거나 메시지를 열 수 있습니다. 리본의 홈 **또는** 메시지 탭에서 정크 메일  아님을 클릭한 다음 보고를 정크 메일 아님 또는 피싱으로  **보고를 선택합니다.** 
 
-     ![정크 메일 폴더의 리본 메뉴에서 정크 메일 또는 피싱 메일 보고](../../media/junk-email-reporting-junk-folder-ribbon.png)
+     ![정크 메일 폴더의 리본에서 정크 메일 또는 피싱 메일 아님 보고](../../media/junk-email-reporting-junk-folder-ribbon.png)
 
    - 메시지를 마우스 오른쪽 단추로 클릭하고 정크를 클릭한 다음 보고를 정크 메일 아님 또는 피싱으로 **보고를 선택합니다.** 
 
      ![정크 메일 폴더에서 마우스 오른쪽 단추를 클릭하여 정크 메일 또는 피싱 메일 아님 보고](../../media/junk-email-reporting-junk-folder-right-click.png)
 
-   - 여러 메시지를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **보고를** 정크 메일 아님 또는 피싱으로 **보고를 선택합니다.**
+   - 여러 메시지를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **보고를** 정크 메일 아님 또는 피싱으로 **보고로 선택합니다.**
 
      ![정크 메일 폴더에서 마우스 오른쪽 단추를 클릭하여 여러 정크 메일 또는 피싱 전자 메일 메시지 보고](../../media/junk-email-reporting-junk-folder-right-click-multiple.png)
 
-2. 나타나는 대화 상자에서 정보를 읽고 보고서를 **클릭합니다.** 마음이 바뀌면 보고 안 **를 클릭합니다.**
+2. 나타나는 대화 상자에서 정보를 읽고 **보고서를 클릭합니다.** 마음이 바뀌면 보고 안 **를 클릭합니다.**
 
    ![정크 아님으로 보고 대화 상자](../../media/junk-email-reporting-report-as-not-junk-dialog.png)
 
@@ -123,7 +124,7 @@ Microsoft Outlook용 정크 메일 보고 추가 기능을 사용하면 가음�
 
 4. **Microsoft 정크 메일 보고 추가 기능 설치 시작** 페이지에서 **다음** 을 클릭합니다.
 
-5. 사용권 계약을  검토하고 사용권 계약에 동의하는 경우 동의를 클릭한 후 다음을 **클릭합니다.**
+5. 사용권 계약을  검토하고 사용권 계약에 동의하는 경우 동의를 클릭한 다음 다음을 **클릭합니다.**
 
 6. 마법사가 완료되면 **마침** 을 클릭합니다.
 
@@ -170,7 +171,7 @@ Microsoft에 피싱 메일을 보고하려는 경우 **피싱 메일로 보고**
 
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
-정크 메일 보고 추가 기능을 성공적으로 설치했다는 확인을 위해 Outlook에서 다음 단계를 수행합니다.
+정크 메일 보고 추가 기능을 성공적으로 설치 지 확인을 위해 Outlook에서 다음 단계를 수행합니다.
 
 - 메시지를 선택하거나 메시지를 열 수 있습니다. 리본 **메뉴의 홈** **또는** 메시지 탭에서 정크를 클릭하고 **다음** 옵션을 사용할 수 있는지 확인해야 합니다.
 
@@ -188,7 +189,7 @@ Microsoft에 피싱 메일을 보고하려는 경우 **피싱 메일로 보고**
   - **정크 보고 옵션**
   - **정크 온라인 도움말 보고**
 
-  ![마우스 오른쪽 단추를 클릭하여 정크 메일 또는 피싱 전자 메일 보고](../../media/junk-email-reporting-right-click.png)
+  ![마우스 오른쪽 단추를 클릭하여 정크 메일 또는 피싱 메일 보고](../../media/junk-email-reporting-right-click.png)
 
 - 여러 메시지를 선택하고 마우스 오른쪽 단추를 클릭한 다음 다음 옵션을 사용할 수 있는지 확인해야 합니다.
 
@@ -199,7 +200,7 @@ Microsoft에 피싱 메일을 보고하려는 경우 **피싱 메일로 보고**
 
 - 정크 메일 폴더에서 이전 작업을 수행하고  이전 정크 보고 옵션이 이제 정크  **메일이 아닌지 확인합니다.**
 
-  ![정크 메일 폴더의 리본 메뉴에서 정크 메일 또는 피싱 메일 보고](../../media/junk-email-reporting-junk-folder-ribbon.png)
+  ![정크 메일 폴더의 리본에서 정크 메일 또는 피싱 메일 아님 보고](../../media/junk-email-reporting-junk-folder-ribbon.png)
 
   ![정크 메일 폴더에서 마우스 오른쪽 단추를 클릭하여 정크 메일 또는 피싱 메일 아님 보고](../../media/junk-email-reporting-junk-folder-right-click.png)
 
@@ -209,9 +210,9 @@ Microsoft에 피싱 메일을 보고하려는 경우 **피싱 메일로 보고**
 
 Outlook을 닫은 후 다음 절차에 따라 정크 메일 보고 추가 기능을 제거합니다.
 
-- **제어판**: Windows 키 + R을 누르는 경우 실행 **대화** 상자가 열리면 입력한 `control appwiz.cpl` 다음 확인을 **클릭합니다.**
+- **제어판:** Windows 키 + R을 누르는 경우 실행 **대화** 상자가 열리면 입력한 `control appwiz.cpl` 다음 확인을 **클릭합니다.**
 
-  목록에서 **Microsoft 정크 메일** 보고 추가 기능을 찾아 선택한 다음 **제거를 클릭합니다.**
+  목록에서 **Microsoft 정크** 메일 보고 추가 기능을 찾아 선택한 다음 **제거를 클릭합니다.**
 
 - **Windows Installer 패키지:** 적절한 .msi 파일을 찾거나 다운로드한 다음 두 번 클릭합니다.
 
@@ -252,7 +253,7 @@ Outlook을 닫은 후 다음 절차에 따라 정크 메일 보고 추가 기능
 이 문제를 해결하려면 다음 단계를 수행합니다.
 
 1. Outlook을 닫았다가 다시 시작합니다.
-2. 테스트 메시지를 만들고 보내고 받는 사람이 메시지를 받았는지 확인
+2. 테스트 메시지를 만들고 보내고 받는 사람이 메시지를 받았는지 확인해야 합니다.
 3. 문제가 계속되면 관리자에게 문의하세요.
 
 Microsoft에 메시지를 전송하는 데 사용할 수 있는 다른 방법은 Microsoft에 메시지 및 [파일 보고를 참조합니다.](report-junk-email-messages-to-microsoft.md)
@@ -281,7 +282,7 @@ Microsoft에 메시지를 전송하는 데 사용할 수 있는 다른 방법은
      "LoggingLevel"="Verbose"
      ```
 
-   - **64비트 Outlook:**
+   - **64비트 Outlook**:
 
      ```text
      Windows Registry Editor Version 5.00

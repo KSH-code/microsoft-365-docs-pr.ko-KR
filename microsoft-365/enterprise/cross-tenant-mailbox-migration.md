@@ -14,16 +14,16 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: aecb1230ac9a9b2868c519c9b8920e312ff5a282
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 4296879b36e26f11f945105ccebea351ad88314d
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794047"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029529"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>테넌트 간 사서함 마이그레이션(미리 보기)
 
-이전에는 Exchange Online 테넌트가 동일한 Exchange Online 서비스의 다른 테넌트로 사서함을 이동해야 할 때 온-프레미스로 사서함을 완전히 오프보드한 다음 새 테넌트에 온보드해야 합니다. 새로운 테넌트 간 사서함 마이그레이션 기능을 사용하면 원본 테넌트와 대상 테넌트의 테넌트 관리자가 모두 해당 테넌트 간에 사서함을 이동할 수 있으며, 해당 테넌트 간의 인프라 종속성은 최소 수준으로 유지될 수 있습니다. 이렇게 하여 사서함을 오프보드하고 온보드할 필요가 없습니다.
+이전에는 Exchange Online 테넌트가 동일한 Exchange Online 서비스의 다른 테넌트로 사서함을 이동해야 할 때 온-프레미스로 사서함을 완전히 오프보드한 다음 새 테넌트에 온보드해야 합니다. 새로운 테넌트 간 사서함 마이그레이션 기능을 사용하면 원본 테넌트와 대상 테넌트의 테넌트 관리자가 모두 해당 테넌트 간에 사서함을 이동할 수 있으며, 이러한 테넌트 간의 인프라 종속성은 최소 수준으로 유지될 수 있습니다. 이렇게 하여 사서함을 오프보드하고 온보드할 필요가 없습니다.
 
 일반적으로 합병 또는 매입 중에 사용자와 콘텐츠를 새 테넌트로 이동하는 능력이 필요합니다. 대상 테넌트 관리자가 이동을 실행할 때 이를 끌어오기 이동이라고 합니다(온-프레미스에서 클라우드 온보더링 마이그레이션과 유사).
 
@@ -31,7 +31,7 @@ ms.locfileid: "49794047"
  
 마이그레이션하는 사용자는 대상 테넌트 Exchange Online 시스템에 MailUsers로 표시되어야 합니다. 테넌트 간 이동을 사용하려면 특정 특성이 표시됩니다. 시스템이 대상 테넌트에서 제대로 설정되지 않은 사용자에 대해 이동에 실패합니다.  
 
-이동이 완료되면 원본 시스템 사서함이 MailUser로 변환하고 targetAddress(Exchange의 ExternalEmailAddress로 표시)에는 대상 테넌트에 대한 라우팅 주소가 스탬프가 지정됩니다. 이 프로세스는 원본 테넌트에 레거시 MailUser를 그대로 두며 공동 및 메일 라우팅을 허용합니다. 비즈니스 프로세스에서 허용하는 경우 원본 테넌트가 원본 MailUser를 제거하거나 메일 연락처로 변환할 수 있습니다. 
+이동이 완료되면 원본 시스템 사서함이 MailUser로 변환하고 targetAddress(Exchange의 ExternalEmailAddress로 표시)는 대상 테넌트에 대한 라우팅 주소로 스탬프가 지정됩니다. 이 프로세스는 원본 테넌트에 레거시 MailUser를 그대로 두며 공동 및 메일 라우팅을 허용합니다. 비즈니스 프로세스에서 허용하는 경우 원본 테넌트가 원본 MailUser를 제거하거나 메일 연락처로 변환할 수 있습니다. 
 
 하이브리드 또는 클라우드의 테넌트에 한해 테넌트 간 Exchange 사서함 마이그레이션이 지원되거나 이 두 가지의 조합에 대해 지원됩니다.
 
@@ -39,7 +39,7 @@ ms.locfileid: "49794047"
 
 ## <a name="preparing-source-and-target-tenants"></a>원본 및 대상 테넌트 준비
 
-테넌트 간 Exchange 사서함 마이그레이션 기능을 사용하려면 테넌트 간 마이그레이션을 위한 권한 부여 및 스쿠핑이 필요합니다. 이제 테넌트 관리자는 Azure Enterprise 응용 프로그램 및 Key Vault 저장소 솔루션을 사용하여 한 테넌트에서 다른 테넌트로의 Exchange Online 사서함 마이그레이션 권한 부여 및 확장을 관리할 수 있습니다. 테넌트 간 사서함 이동은 초대 및 동의 모델을 지원하여 테넌트 쌍 간의 인증에 사용되는 Azure AD(Azure Active Directory) 응용 프로그램을 설정할 수 있습니다. 조직 관계 및 마이그레이션 끝점과 같은 추가 구성 요소도 필요합니다.
+테넌트 간 Exchange 사서함 마이그레이션 기능을 사용하려면 테넌트 간 마이그레이션을 위한 권한 부여 및 스쿠핑이 필요합니다. 이제 테넌트 관리자는 Azure Enterprise 응용 프로그램 및 Key Vault 저장소 솔루션을 사용하여 한 테넌트에서 다른 테넌트로 Exchange Online 사서함 마이그레이션의 권한 부여 및 스위핑을 관리할 수 있습니다. 테넌트 간 사서함 이동은 초대 및 동의 모델을 지원하여 테넌트 쌍 간의 인증에 사용되는 Azure AD(Azure Active Directory) 응용 프로그램을 설정할 수 있습니다. 조직 관계 및 마이그레이션 끝점과 같은 추가 구성 요소도 필요합니다.
 
 이 섹션에는 대상 디렉터리에서 MailUser 사용자 개체를 준비하는 데 필요한 특정 단계가 포함되어 있지 않으며 마이그레이션 일괄 처리를 제출하는 예제 명령도 포함되어 있지 않습니다. 이 정보는 [마이그레이션을 위해](#prepare-target-user-objects-for-migration) 대상 사용자 개체 준비를 참조하세요.
 
@@ -57,7 +57,7 @@ ms.locfileid: "49794047"
 
 다음은 프로세스의 작동 방식입니다.
 
-:::image type="content" source="../media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png" alt-text="사서함 마이그레이션을 위한 테넌트 준비":::
+:::image type="content" source="../media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png" alt-text="사서함 마이그레이션을 위한 테넌트 준비.":::
 
 [이 이미지의 더 큰 버전을 참조합니다.](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/tenant-to-tenant-mailbox-move/prepare-tenants-flow.png)
 
@@ -74,7 +74,7 @@ ms.locfileid: "49794047"
 1. 기존 Azure 리소스 그룹을 제공하지 않은 경우 새 Azure 리소스 그룹(SCRIPT)이 만들어집니다.
 2. 기존 Key Vault가 제공되지 않은 경우 새 키 자격 증명 모음(SCRIPT)이 만들어집니다.
 3. Office 365 Exchange Online 사서함 마이그레이션 응용 프로그램(SCRIPT)에 대한 새 액세스 정책이 만들어집니다.
-4. 스크립트(마이그레이션 응용 프로그램)에 대한 비밀을 보유하기 위한 새 인증서(또는 지정된 경우 기존 인증서)가 만들어집니다.
+4. 스크립트(마이그레이션 응용 프로그램)에 대한 비밀을 보유하는 새 인증서(또는 지정된 경우 기존 인증서)가 만들어집니다.
 5. 새 Azure AD 응용 프로그램(SCRIPT)이 만들어집니다.
 6. 인증서/비밀이 마이그레이션 응용 프로그램(SCRIPT)에 업로드됩니다.
 7. 사서함 마이그레이션 권한이 응용 프로그램(SCRIPT)에 할당됩니다.
@@ -169,14 +169,14 @@ ms.locfileid: "49794047"
 
 2. **수락을** 선택하여 초대를 수락합니다.
 
-    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-accept.png" alt-text="권한을 수락할 대화 상자":::
+    :::image type="content" source="../media/tenant-to-tenant-mailbox-move/permissions-requested-accept.png" alt-text="사용 권한을 수락할 대화 상자":::
 
    > [!NOTE]
    > 이 전자 메일을 찾지 못하거나 찾을 수 없는 경우 대상 테넌트 관리자가 초대를 수락할 수 있는 직접 URL을 제공했습니다. URL은 대상 테넌트 관리자의 원격 PowerShell 세션의 스크립트에 입력해야 합니다.
 
 3. Microsoft 365 관리 센터 또는 원격 PowerShell 세션에서 메일 사용이 가능한 보안 그룹을 하나 이상 만들어 대상 테넌트가 원본 테넌트에서 대상 테넌트로 끌어오기(이동)할 수 있는 사서함 목록을 제어합니다. 이 그룹을 미리 채우지 않고도 설정 단계(스크립트)를 실행하려면 하나 이상의 그룹을 제공해야 합니다. 중첩 그룹은 지원되지 않습니다. 
 
-4. GitHub SetupCrossTenantRelationshipForTargetResource.ps1 원본 테넌트 설정에 대한 앱 스크립트를 [https://github.com/microsoft/cross-tenant/releases/tag/Preview](https://github.com/microsoft/cross-tenant/releases/tag/Preview) 다운로드합니다. 
+4. GitHub SetupCrossTenantRelationshipForResourceTenant.ps1 원본 테넌트 설정에 대한 앱 스크립트를 [https://github.com/microsoft/cross-tenant/releases/tag/Preview](https://github.com/microsoft/cross-tenant/releases/tag/Preview) 다운로드합니다. 
 
 5. Exchange 관리자 권한으로 원본 테넌트에 대한 원격 PowerShell 연결을 만들 수 있습니다. 전역 관리자 권한은 원본 테넌트 구성에 필요하지 않습니다. Azure 응용 프로그램 생성 프로세스 때문에 대상 테넌트만 구성할 수 있습니다.
 
@@ -204,7 +204,7 @@ ms.locfileid: "49794047"
 
 ### <a name="verify-setup"></a>설치 확인
 
-원본 테넌트와 대상 테넌트의 조직 관계와 대상의 마이그레이션 끝점이 모두 만들어졌습니다.
+원본 테넌트와 대상 테넌트의 조직 관계와 대상의 마이그레이션 끝점이 모두 성공적으로 만들어졌습니다.
 
 #### <a name="target-tenant"></a>대상 테넌트
 
@@ -273,7 +273,7 @@ OAuthApplicationId         : sd9890342-3243-3242-fe3w2-fsdade93m0
 
 ### <a name="move-mailboxes-back-to-the-original-source"></a>사서함을 원래 원본으로 다시 이동
 
-사서함을 원래 원본 테넌트로 다시 이동해야 하는 경우 새 원본 테넌트와 새 대상 테넌트에서 동일한 단계 및 스크립트 집합을 실행해야 합니다. 기존 조직 관계 개체는 다시 생성되지 않은 업데이트 또는 추가됩니다.
+사서함을 원래 원본 테넌트로 다시 이동해야 하는 경우 새 원본 테넌트와 새 대상 테넌트에서 동일한 단계 및 스크립트 집합을 실행해야 합니다. 기존 Organization Relationship 개체는 다시 생성되지 않는 업데이트 또는 추가됩니다.
 
 ## <a name="prepare-target-user-objects-for-migration"></a>마이그레이션을 위한 대상 사용자 개체 준비
 
@@ -281,12 +281,12 @@ OAuthApplicationId         : sd9890342-3243-3242-fe3w2-fsdade93m0
 
 ### <a name="prerequisites"></a>필수 구성 요소
   
-대상 조직에서 다음과 같은 개체 및 특성을 설정해야 합니다.  
+대상 조직에서 다음과 같은 개체와 특성을 설정해야 합니다.  
 
 1. 원본 조직에서 이동하는 사서함의 경우 대상 조직에서 MailUser 개체를 프로비전해야 합니다. 
 
    - Target MailUser는 원본 사서함에서 이러한 특성을 가지고 있어야 합니다. 또는 새 User 개체와 함께 할당되어야 합니다.
-      - ExchangeGUID(원본에서 대상으로 직접 흐름) – 사서함 GUID가 일치해야 합니다. 이 개체가 대상 개체에 없는 경우 이동 프로세스가 진행되지 않습니다. 
+      - ExchangeGUID(원본에서 대상으로의 직접 흐름) – 사서함 GUID가 일치해야 합니다. 이 개체가 대상 개체에 없는 경우 이동 프로세스가 진행되지 않습니다. 
       - ArchiveGUID(원본에서 대상으로 직접 흐름) - 보관 GUID가 일치해야 합니다. 이 개체가 대상 개체에 없는 경우 이동 프로세스가 진행되지 않습니다. 이 설정은 원본 사서함이 보관을 사용하도록 설정된 경우만 필요합니다. 
       - LegacyExchangeDN(proxyAddress, "x500: <LegacyExchangeDN> ") – LegacyExchangeDN은 x500: proxyAddress로 대상 MailUser에 있어야 합니다. 이 개체가 대상 개체에 없는 경우 이동 프로세스가 진행되지 않습니다. 
       - UserPrincipalName – UPN이 사용자의 새 ID 또는 대상 회사(예: user@northwindtraders.onmicrosoft.com) 
@@ -511,7 +511,7 @@ EXCHANGE 사서함은 MRS를 사용하여 대상 개체의 전자 메일 주소(
 
 - 대신 보내기(AD:publicDelegates)는 사용자 사서함에 대한 액세스 권한이 있는 받는 사람의 DN을 대리인으로 저장합니다. 이 값은 Active Directory에 저장되고 현재 사서함 전환의 일부로 이동되지 않습니다. 원본 사서함에 publicDelegates가 설정된 경우 MEU에서 사서함으로의 변환이 대상 환경에서 실행되고 나면 대상 사서함의 publicDelegates를 다시스탬프해야 `Set-Mailbox <principle> -GrantSendOnBehalfTo <delegate>` 합니다. 
  
-- 보안 주체와 대리인을 모두 대상 시스템으로 이동하면 사서함에 저장된 사서함 사용 권한이 사서함과 함께 이동됩니다. 예를 들어 사용자 TestUser_7 테넌트 서버의 사서함 TestUser_8 FullAccess가 SourceCompany.onmicrosoft.com. 사서함 이동이 완료된 TargetCompany.onmicrosoft.com 동일한 사용 권한이 대상 디렉터리에 설정됩니다. 원본 테넌트와 대상 TestUser_7 둘 다에서 *Get-MailboxPermission을* 사용하는 예는 다음과 같습니다. Exchange cmdlet에는 그에 따라 원본 및 대상이 미리 지정됩니다. 
+- 보안 주체와 대리인이 모두 대상 시스템으로 이동될 때 사서함에 저장된 사서함 사용 권한은 사서함과 함께 이동됩니다. 예를 들어 사용자 TestUser_7 테넌트 서버의 사서함 TestUser_8 FullAccess가 SourceCompany.onmicrosoft.com. 사서함 이동이 완료된 TargetCompany.onmicrosoft.com 동일한 사용 권한이 대상 디렉터리에 설정됩니다. 원본 테넌트와 대상 TestUser_7 둘 다에서 *Get-MailboxPermission을* 사용하는 예는 다음과 같습니다. Exchange cmdlet에는 그에 따라 원본 및 대상이 미리 지정됩니다. 
  
 이동하기 전에 사서함 사용 권한 출력의 예는 다음과 같습니다. 
 
@@ -552,7 +552,7 @@ x500:/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn
 
 **Azure Key Vault가 필요하며 언제 거래가 이행하나요?**  
 
-예. 마이그레이션을 승인하려면 Key Vault를 사용하여 인증서를 저장하려면 Azure 구독이 필요합니다. 사용자 이름 & 암호를 사용하여 원본에 인증하는 온보더링 마이그레이션과 달리, 테넌트 간 사서함 마이그레이션에서는 OAuth 및 이 인증서를 비밀/자격 증명으로 사용하게 됩니다. 키 자격 증명 모음에 대한 액세스는 모든 사서함 마이그레이션에서 마이그레이션 시작 시와 종료 시에 한 번 액세스되고 증분 동기화 시간 동안 24시간마다 한 번씩 유지 관리되어야 합니다. 여기에서 AKV 비용 세부 정보를 검토할 [수 있습니다.]( https://azure.microsoft.com/en-us/pricing/details/key-vault/)  
+예. 마이그레이션을 승인하려면 Key Vault를 사용하여 인증서를 저장하려면 Azure 구독이 필요합니다. 사용자 이름 & 암호를 사용하여 원본에 인증하는 온보더링 마이그레이션과 달리, 테넌트 간 사서함 마이그레이션에서는 OAuth 및 이 인증서를 비밀/자격 증명으로 사용하게 됩니다. 키 자격 증명 모음에 대한 액세스는 모든 사서함 마이그레이션 전체에서 유지 관리되어야 합니다. 이 액세스는 마이그레이션이 시작될 때와 한 번씩, 그리고 증분 동기화 시간 동안 24시간마다 한 번씩 유지 관리되어야 합니다. 여기에서 AKV 비용 세부 정보를 검토할 [수 있습니다.]( https://azure.microsoft.com/en-us/pricing/details/key-vault/)  
 
 **일괄 처리에 대한 권장 사항이 있나요?**  
 
@@ -564,7 +564,7 @@ x500:/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn
 
 **예상 마이그레이션 시간은 어떻게 하나요?**
 
-마이그레이션을 계획하는 데 도움이 [](https://docs.microsoft.com/exchange/mailbox-migration/office-365-migration-best-practices#estimated-migration-times) 되는 표에는 대량 사서함 마이그레이션 또는 개별 마이그레이션이 완료될 것으로 예상되는 경우의 지침이 표시됩니다. 이러한 예상 비용은 이전 고객 마이그레이션에 대한 데이터 분석을 기반으로 합니다. 모든 환경은 고유하기 때문에 정확한 마이그레이션 속도는 다를 수 있습니다.  
+마이그레이션을 계획하는 데 도움이 [](https://docs.microsoft.com/exchange/mailbox-migration/office-365-migration-best-practices#estimated-migration-times) 될 수 있도록 여기에 있는 표에는 대량 사서함 마이그레이션 또는 개별 마이그레이션이 완료될 것으로 예상되는 경우의 지침이 표시됩니다. 이러한 예상 비용은 이전 고객 마이그레이션에 대한 데이터 분석을 기반으로 합니다. 모든 환경은 고유하기 때문에 정확한 마이그레이션 속도는 다를 수 있습니다.  
 
 이 기능은 현재 미리 보기 상태이기 때문에 이 기능의 미리 보기 상태 중에는 SLA 및 해당 서비스 수준이 성능 또는 가용성 문제에 적용되지 않습니다.
 
@@ -574,7 +574,7 @@ x500:/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn
 
 - **문제: 소유하지 않은 smtp proxyAddress를 사용하는 Cloud MailUsers가 MRS를 차단하면 백그라운드가 이동됩니다.** 대상 테넌트 MailUser 개체를 만들 때 모든 SMTP 프록시 주소가 대상 테넌트 조직에 속하는지 확인해야 합니다. 로컬 테넌트에 속하지 않는 대상 메일 사용자에 SMTP proxyAddress가 있는 경우 MailUser를 사서함으로 변환할 수 없습니다. 이는 사서함 개체가 테넌트가 권한이 있는 도메인(테넌트가 클레임한 도메인)에서만 메일을 보낼 수 있습니다. 
 
-   - Azure AD Connect를 사용하여 사용자를 동기화하는 경우 사서함이 있는 원본 테넌트(laran@contoso.onmicrosoft.com)를 대상으로 하는 ExternalEmailAddress를 사용하여 프레미스 MailUser 개체를 프로비전하고 PrimarySMTPAddress를 대상 테넌트(Lara.Newton@northwind.com)에 있는 도메인으로 스탬프 찍습니다. 이러한 값은 테넌트와 동기화되어 적절한 메일 사용자가 프로비전되어 마이그레이션할 준비가 됩니다. 예제 개체는 다음과 같습니다.
+   - Azure AD Connect를 사용하여 사용자와 동기화하는 경우 사서함이 있는 원본 테넌트(laran@contoso.onmicrosoft.com)를 대상으로 하는 ExternalEmailAddress를 사용하여 프레미스 MailUser 개체를 프로비전하고 PrimarySMTPAddress를 대상 테넌트(Lara.Newton@northwind.com)에 있는 도메인으로 스탬프 찍습니다. 이러한 값은 테넌트와 동기화되어 적절한 메일 사용자가 프로비전되어 마이그레이션할 준비가 됩니다. 예제 개체는 다음과 같습니다.
      ```powershell
      target/AADSynced user] PS C> Get-MailUser laran | select ExternalEmailAddress, EmailAddresses   
      ExternalEmailAddress               EmailAddresses 
@@ -589,7 +589,7 @@ x500:/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn
 
    MailUser 개체는 로컬이 아닌 사서함에 대한 포인터입니다. 테넌트 간 사서함 마이그레이션의 경우 MailUser 개체를 사용하여 원본 사서함(대상 조직의 관점에서) 또는 대상 사서함(원본 조직의 관점에서)을 표현합니다. MailUsers에는 실제 사서함(ProxyTest@fabrikam.onmicrosoft.com)의 SMTP 주소를 나타내는 ExternalEmailAddress(targetAddress) 및 디렉터리에 있는 사서함 사용자의 SMTP 주소를 나타내는 primarySMTP 주소가 포함됩니다. 일부 조직에서는 기본 SMTP 주소를 로컬 테넌트가 소유/확인한 주소가 아닌 외부 SMTP 주소로 표시하기로 fabrikam.com(예: contoso.com.  그러나 라이선스 작업을 통해 Exchange 서비스 계획 개체가 MailUser에 적용되면 기본 SMTP 주소가 수정되어 로컬 조직(contoso.com)에서 확인된 도메인으로 표시됩니다. 두 가지 이유로 인해 발생할 수 있습니다.
    
-   - Exchange 서비스 계획이 MailUser에 적용되면 Azure AD 프로세스에서 프록시 스크러빙을 적용하여 로컬 조직이 다른 테넌트에서 메일을 보낼 수 없는지 확인하기 시작합니다. 로컬 조직에서 주소를 확인하지 않은 경우 이러한 서비스 계획이 있는 받는 사람 개체의 모든 SMTP 주소가 제거됩니다. 이 예에서와 같습니다. Fabikam.com 도메인은 contoso.onmicrosoft.com 확인되지 않았기 때문에 스크러빙을 통해 fabrikam.com 제거됩니다. 마이그레이션 전이나 마이그레이션 후에 MailUser에서 이러한 외부 도메인을 유지하려면 이동이 완료된 후 또는 이동 전에 라이선스를 제거하도록 마이그레이션 프로세스를 변경하여 사용자가 예상되는 외부 브랜더를 적용하도록 해야 합니다. 메일 서비스에 영향을 주지 않도록 사서함 개체의 사용이 제대로 허가되었는지 확인해야 합니다.<br/><br/>서비스 테넌트의 MailUser에서 서비스 계획을 제거하는 Contoso.onmicrosoft.com 스크립트가 여기에 나와 있습니다.
+   - Exchange 서비스 계획이 MailUser에 적용되면 Azure AD 프로세스에서 프록시 스크러빙을 적용하여 로컬 조직이 다른 테넌트에서 메일을 보내거나 스푸핑하거나 메일을 보낼 수 없는지 확인하기 시작합니다. 로컬 조직에서 주소를 확인하지 않은 경우 이러한 서비스 계획이 있는 받는 사람 개체의 모든 SMTP 주소가 제거됩니다. 이 예에서와 같습니다. Fabikam.com 도메인은 contoso.onmicrosoft.com 확인되지 않았기 때문에 스크러빙을 통해 fabrikam.com 제거됩니다. 마이그레이션 전이나 마이그레이션 후에 MailUser에서 이러한 외부 도메인을 유지하려면 이동이 완료된 후 또는 이동 전에 라이선스를 제거하도록 마이그레이션 프로세스를 변경하여 사용자가 예상되는 외부 브랜더를 적용하도록 해야 합니다. 메일 서비스에 영향을 주지 않도록 사서함 개체의 사용이 제대로 허가되었는지 확인해야 합니다.<br/><br/>메일 사용자에 있는 메일 사용자에 대한 서비스 계획을 제거하는 Contoso.onmicrosoft.com 스크립트가 여기에 나와 있습니다.
 
     ```powershell
     $LO = New-MsolLicenseOptions -AccountSkuId "contoso:ENTERPRISEPREMIUM" DisabledPlans 
@@ -655,7 +655,7 @@ x500:/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn
     proxytest@fabrikam.com    e2513482-1d5b-4066-936a-cbc7f8f6f817    SMTP:proxytest@fabrikam.com 
     ```
 
-   - msExchRemoteRecipientType이 8(DeprovisionMailbox)로 설정되어 있는 경우 대상 테넌트로 마이그레이션된온-프레미스 MailUsers의 경우 Azure의 프록시 스크러빙 논리는 비어 있는 도메인을 제거하고 기본SMTP를 소유한 도메인으로 다시 설정합니다. 프록시 스크럽 논리는 더 이상 적용되지 않습니다. <br/><br>다음은 Exchange Online을 포함 하는 가능한 서비스 계획의 전체 집합입니다.
+   - msExchRemoteRecipientType이 8(DeprovisionMailbox)로 설정되어 있는 경우 대상 테넌트로 마이그레이션된온-프레미스 MailUsers의 경우 Azure의 프록시 스크러빙 논리는 비어 있는 도메인을 제거하고 primarySMTP를 소유한 도메인으로 다시 설정합니다. 프록시 스크럽 논리는 더 이상 적용되지 않습니다. <br/><br>다음은 Exchange Online을 포함 하는 가능한 서비스 계획의 전체 집합입니다.
 
    | 이름                                              |
    |---------------------------------------------------|
@@ -685,7 +685,7 @@ x500:/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn
    | Microsoft 비즈니스 센터                         |
    | Microsoft MyAnalytics(전체)                      |
    | Office 365 고급 eDiscovery                    |
-   | Microsoft Defender for Office 365(계획 1)    |
+   | Office 365용 Microsoft Defender(계획 1)    |
    | Office 365용 Microsoft Defender(계획 2)    |
    | Office 365 권한 있는 액세스 관리           |
    | Office 365의 고급 암호화                  |

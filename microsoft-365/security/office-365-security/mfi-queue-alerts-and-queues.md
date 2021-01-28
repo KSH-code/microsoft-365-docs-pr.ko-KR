@@ -3,22 +3,23 @@ title: 메일 흐름 대시보드의 큐 정보
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
-description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 큐 위젯을 사용하여 아웃바운드 커넥터를 통해 해당 & 또는 파트너 조직으로의 실패한 메일 흐름을 모니터링하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: a1563c61620ef9f1ae97739681f426fd0ea38bd8
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 큐 위젯을 사용하여 아웃바운드 커넥터를 통해 해당 & 또는 파트너 조직으로의 메일 흐름의 실패를 모니터링하는 방법을 배울 수 있습니다.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 73e97cbbd05e298013e9e686053a969d587ad5cf
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659283"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029153"
 ---
-# <a name="queues-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 & 정보를 큐에 추가
+# <a name="queues-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 & 정보를 큐에 들이기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -26,15 +27,15 @@ ms.locfileid: "49659283"
 커넥터를 사용하여 조직에서 사용자 조직 또는 파트너 전자 메일 서버로 메시지를 보낼 수 없는 경우 메시지는 Microsoft 365에서 대기됩니다. 이 조건을 발생하게 하는 일반적인 예는 다음과 같습니다.
 
 - 커넥터가 잘못 구성되었습니다.
-- 프레미스 환경에서 네트워킹 또는 방화벽이 변경되었습니다.
+- On-premises 환경에서 네트워킹 또는 방화벽이 변경되었습니다.
 
-Microsoft 365는 24시간 동안 배달을 계속 다시 시도합니다. 24시간이 지난 후 메시지는 만료되고 배달되지 않은 보고서(NDRs 또는 반송 메시지라고도 알려지음)의 보낸 사람에 반환됩니다.
+Microsoft 365는 24시간 동안 배달을 계속 다시 시도합니다. 24시간이 지난 후 메시지는 만료되고 배달되지 않은 보고서(NDRs 또는 반송 메시지라고도 알려지음)에서 보낸 사람에 반환됩니다.
 
 대기 중인 전자 메일 볼륨이 미리 정의된 임계값(기본값은 200개 메시지)을 초과하면 다음 위치에서 정보를 사용할 수 있습니다.
 
 - 보안 **및** 준수 [](mail-flow-insights-v2.md) 센터의 메일 흐름 대시보드에서 [& 정보를 제공합니다.](https://protection.office.com) 자세한 내용은 이 문서의 메일 흐름 대시보드 섹션에서 [큐](#queues-insight-in-the-mail-flow-dashboard) 정보를 참조하십시오.
 
-- 경고는 보안  및 준수 센터(경고 대시보드 또는 &)의 경고 [대시보드에](https://protection.office.com) \>  <https://protection.office.com/alertsdashboard> 표시됩니다.
+- 경고는 보안  및 준수 센터(경고 대시보드 또는 &)의 경고 [대시보드에](https://protection.office.com) 최근 \> **경고에** <https://protection.office.com/alertsdashboard> 표시됩니다.
 
   ![보안 및 준수 센터의 경고 대시보드에서 & 최근 경고](../../media/mfi-queued-messages-alert.png)
 
@@ -46,7 +47,7 @@ Microsoft 365는 24시간 동안 배달을 계속 다시 시도합니다. 24시�
 
 1. 보안 & 규정 준수 [센터에서](https://protection.office.com)경고  경고 정책으로 이동하거나 \>  를 열 수 <https://protection.office.com/alertpolicies> 있습니다.
 
-2. 경고 정책 **페이지에서** Messages라는 정책이 지연된 **경우를 찾아 선택합니다.**
+2. 경고 정책 **페이지에서** **Messages라는** 정책이 지연된 경우를 찾아 선택합니다.
 
 3. 메시지가 **지연된** 플라이아웃이 열리면 알림을 켜거나 끄고 알림 설정을 구성할 수 있습니다.
 
@@ -90,6 +91,6 @@ Microsoft 365는 24시간 동안 배달을 계속 다시 시도합니다. 24시�
 
 ![보안 및 준수 센터에서 메시지가 지연된 & 있습니다.](../../media/mfi-queued-messages-alert-details.png)
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 메일 흐름 대시보드의 다른 인사이트에 대한 자세한 내용은 보안 및 준수 센터의 메일 [흐름 & 참조하세요.](mail-flow-insights-v2.md)

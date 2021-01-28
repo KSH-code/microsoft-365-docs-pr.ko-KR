@@ -14,12 +14,12 @@ ms.collection:
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
 description: 항목 환경용 리소스를 찾는 방법을 배워야 합니다.
-ms.openlocfilehash: a9069b8723cb23a406fcce3b96a53b3de2a07568
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: afba6930c30ad59dc95abb255eadab501b01f189
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976182"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029611"
 ---
 # <a name="introduction-to-topic-experiences-preview"></a>항목 환경 소개(미리 보기)
 
@@ -39,12 +39,12 @@ ms.locfileid: "49976182"
 
 ## <a name="get-started"></a>시작
 
-이 섹션의 리소스는 주제 환경과 이를 통해 도움이 되는 방법에 대해 자세히 알아보는 데 도움이 됩니다.
+이 섹션의 리소스는 항목 환경이 무엇일지와 도움이 되는 방법에 대해 자세히 알아보는 데 도움이 됩니다.
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|문서 이해에 대한 자세한 정보|[항목 환경 개요](topic-experiences-overview.md)|
-|AI에서 항목을 검색하고 생성하는 방법에 대해 자세히 알아보기|[항목 환경 검색](topic-experiences-discovery.md)|
+|항목 경험에 대해 자세히 알아보기|[항목 환경 개요](topic-experiences-overview.md)|
+|AI에서 항목을 검색하고 제안하는 방법에 대해 자세히 알아보기|[항목 환경 검색](topic-experiences-discovery.md)|
 |항목 보안에 대한 자세한 정보|[항목 보안 및 개인 정보 보호를 경험합니다.](topic-experiences-security-privacy.md)|
 
 
@@ -64,12 +64,12 @@ ms.locfileid: "49976182"
 |:-----|:-----|
 |항목 환경을 설정 및 구성하는 방법 학습|[항목 환경 설정](set-up-topic-experiences.md)|
 |사용자 권한을 구성하는 방법 학습|[항목 권한 관리](topic-experiences-user-permissions.md)|
-|항목을 볼 수 있는 사용자 관리 방법|[주제 가시성 관리](topic-experiences-knowledge-rules.md)|
+|항목을 볼 수 있는 사용자 관리 방법 학습|[주제 가시성 관리](topic-experiences-knowledge-rules.md)|
 |항목 검색 설정을 관리하는 방법 학습|[항목 검색 관리](topic-experiences-discovery.md)|
 
 ## <a name="work-with-topics"></a>주제 관련 작업
 
-이 섹션의 리소스는 사용자가 항목을 사용 및 관리하는 방법을 학습하는 데 도움이 됩니다.
+이 섹션의 리소스는 사용자가 항목을 사용 및 관리하는 방법을 배우는 데 도움이 됩니다.
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|

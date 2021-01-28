@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: troubleshooting
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,12 +17,14 @@ ms.collection:
 - m365initiative-defender-office365
 description: 관리자는 EOP(Exchange Online Protection)에서 자주 묻는 질문과 대답을 볼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 58ddb5847706aef3d2c3b8ea8cd9a96fd65a9b3d
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: abd2304e83d2814cab55d13312535bd94308d8be
+ms.sourcegitcommit: b3bb5bf5efa197ef8b16a33401b0b4f5663d3aa0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794415"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032604"
 ---
 # <a name="quarantined-messages-faq"></a>Quarantined messages FAQ
 
@@ -40,19 +41,19 @@ ms.locfileid: "49794415"
 
 ## <a name="how-do-i-manage-messages-that-were-quarantined-for-malware"></a>맬웨어에 대해 고지된 메시지는 어떻게 관리하나요?
 
-관리자만 맬웨어에 대해 고지된 메시지를 관리할 수 있습니다. 자세한 내용은 관리자로 고지된 메시지 및 [파일 관리를 참조하세요.](manage-quarantined-messages-and-files.md)
+관리자만 맬웨어에 대해 고지된 메시지를 관리할 수 있습니다. 자세한 내용은 관리자로 [quarantined messages and files를 참조하십시오.](manage-quarantined-messages-and-files.md)
 
-## <a name="how-do-i-quarantine-spam"></a>스팸을 차단하는 방법
+## <a name="how-do-i-quarantine-spam"></a>스팸을 어떻게 차단하나요?
 
 기본적으로 스팸 필터링을 통해 스팸 또는 대량 전자 메일로 분류된 메시지는 사용자의 사서함으로 배달되어 정크 메일 폴더로 이동됩니다. 그러나 스팸 또는 대량 전자 메일 메시지를 대신 차단하도록 스팸 방지 정책을 만들고 구성할 수 있습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-## <a name="how-do-i-give-users-access-to-the-quarantine"></a>사용자에게 검호에 대한 액세스 권한을 부여하는 방법
+## <a name="how-do-i-give-users-access-to-the-quarantine"></a>사용자에게 검지 액세스 권한을 부여하는 방법
 
 사용자는 자신의 메시지에 액세스하려면 유효한 계정이 있어야 합니다. 독립 실행형 EOP를 사용하려면 사용자가 EOP에서 메일 사용자로 표시됩니다(디렉터리 동기화를 통해 수동으로 만들거나 생성). 독립 실행형 EOP 환경에서 사용자를 관리하는 데 대한 자세한 내용은 [EOP에서 메일 사용자 관리를 참조하십시오.](manage-mail-users-in-eop.md)
 
 ## <a name="what-messages-can-end-users-access-in-quarantine"></a>최종 사용자가 어떤 메시지에 액세스하여 액세스할 수 있나요?
 
-사용자는 스팸, 대량 전자 메일 및 받는 사람인 피싱 메시지(2020년 4월 현재)에 액세스할 수 있습니다. 최종 사용자는 메일 흐름 규칙(전송 규칙)에서 호스트된 차단 작업으로 메시지를 배달하여 고지된 맬웨어, 높은 신뢰도 피싱 또는 메시지에 액세스할 수 없습니다.  Quarantined Messages에 액세스하는 사용자에 대한 자세한 내용은 사용자로 비할 수 있는 메시지 찾기 및 [릴리스를 참조하세요.](find-and-release-quarantined-messages-as-a-user.md)
+사용자는 스팸, 대량 전자 메일 및 받는 사람인 피싱 메시지(2020년 4월 현재)에 액세스할 수 있습니다. 최종 사용자는 메일 흐름 규칙(전송 규칙)에서 호스트된 차단 작업으로 메시지를 배달하여 고지된 맬웨어, 높은 신뢰도 피싱 또는 메시지에 액세스할 수 없습니다.  Quarantined Messages에 액세스하는 사용자에 대한 자세한 내용은 사용자로 고지된 메시지 찾기 및 [릴리스를 참조하세요.](find-and-release-quarantined-messages-as-a-user.md)
 
 ## <a name="how-long-are-messages-kept-in-the-quarantine"></a>메시지가 얼마나 오래 보관하나요?
 
@@ -72,16 +73,39 @@ ms.locfileid: "49794415"
 
 와일드카드는 보안 및 준수 센터에서 & 없습니다. 예를 들어 보낸 사람 검색 시 전체 전자 메일 주소를 지정해야 합니다. 그러나 Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 와일드카드를 사용할 수 있습니다.
 
-예를 들어 다음 명령을 실행하여 도메인에 있는 모든 보낸 사람이 보낸 스팸으로 contoso.com.
+예를 들어 다음 PowerShell 코드를 메모장에 복사하고 파일을 쉽게 찾을 수 있는 위치에 .ps1로 저장합니다(예: C:\Data\QuarantineRelease.ps1.
+
+그런 다음 Exchange [Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) 또는 [Exchange Online Protection PowerShell에](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)연결한 후 다음 명령을 실행하여 스크립트를 실행합니다.
 
 ```powershell
-$CQ = Get-QuarantineMessage -Type Spam | where {$_.SenderAddress -like "*@contoso.com"}
+& C:\Data\QuarantineRelease.ps1
 ```
 
-그런 다음 다음 명령을 실행하여 모든 원래 받는 사람에게 해당 메시지를 해제합니다.
+스크립트는 다음 작업을 실행합니다.
+
+- fabrikam 도메인의 모든 보낸 사람으로부터 스팸으로 스팸으로 차단된 미해제 메시지를 찾을 수 있습니다. 최대 결과 수는 50,000개(결과 1000페이지 50개)입니다.
+- 결과를 CSV 파일에 저장합니다.
+- 일치하는 메시지를 원래 받는 사람에게 릴리스합니다.
 
 ```powershell
-$CQ | foreach {Release-QuarantineMessage -Identity $_.Identity -ReleaseToAll}
+$Page = 1
+$List = $null
+
+Do
+{
+Write-Host "Getting Page " $Page
+
+$List = (Get-QuarantineMessage -Type Spam -PageSize 1000 -Page $Page | where {$_.Released -like "False" -and $_.SenderAddress -like "*fabrikam.com"})
+Write-Host "                     " $List.count " rows in this page match"
+Write-Host "                                                             Exporting list to appended CSV for logging"
+$List | Export-Csv -Path "C:\Data\Quarantined Message Matches.csv" -Append -NoTypeInformation
+
+Write-Host "Releasing page " $Page
+$List | foreach {Release-QuarantineMessage -Identity $_.Identity -ReleaseToAll}
+
+$Page = $Page + 1
+
+} Until ($Page -eq 50)
 ```
 
 메시지를 릴리스한 후 다시 릴리스할 수 없습니다.

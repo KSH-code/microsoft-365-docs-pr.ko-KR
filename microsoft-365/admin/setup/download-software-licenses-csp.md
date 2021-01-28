@@ -1,5 +1,5 @@
 ---
-title: 정품 소프트웨어 및 제품 라이선스 키 다운로드
+title: CSP(클라우드 솔루션 공급자) 프로그램을 통해 구입한 정품 소프트웨어 및 제품 라이선스 키 다운로드
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - AdminSurgePortfolio
 description: CSP(클라우드 솔루션 공급자) 프로그램을 통해 구입한 정품 소프트웨어에 대한 소프트웨어 및 제품 라이선스 키를 다운로드하는 방법을 알아보십시오.
-ms.openlocfilehash: bd9584e6a160f713cdfbfbcdac876b2e18b94110
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.openlocfilehash: 9e55161111ae1796e8254a60ecdc693592988386
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877234"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029401"
 ---
 # <a name="download-perpetual-software-and-product-license-keys"></a>정품 소프트웨어 및 제품 라이선스 키 다운로드
 

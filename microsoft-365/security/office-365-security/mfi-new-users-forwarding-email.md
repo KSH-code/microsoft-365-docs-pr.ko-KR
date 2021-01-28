@@ -3,20 +3,21 @@ title: 전자 메일을 전달하는 새 사용자
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 보안 및 준수 센터에서 새 사용자 전달 전자 메일 정보를 사용하여 조직의 사용자가 새 도메인으로 메시지를 전달하는 & 조사하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: cf1852169279e19ac00e5e29dd1c26e155936039
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: af991cb0af20a0f48bc5283d4e4fb26ea75d6ba6
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49660020"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029873"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 전자 메일을 전달하는 & 사용자
 
@@ -46,7 +47,7 @@ Security **&** 준수 센터에서 전달되는 [](https://protection.office.com
 - 외부 도메인으로 메시지를 전달하는 새로 만든 계정입니다.
 - 조직의 다른 보낸 사람이 전달한 적이 없는 외부 도메인으로 메시지를 전달하는 계정입니다.
 
-이러한 유형의 전달된 메시지는 보안 또는 규정 준수 위험을 내포할 수 있으며 손상된 계정을 나타낼 수 있습니다.
+이러한 유형의 전달된 메시지는 보안 또는 규정 준수 위험을 내포할 수 있으며 계정 손상을 나타낼 수 있습니다.
 
 보고서에는 최대 90일간의 데이터가 포함되어 있습니다. 기본적으로 보고서에는 지난 7일간의 데이터가 표시됩니다.
 
@@ -57,7 +58,7 @@ Security **&** 준수 센터에서 전달되는 [](https://protection.office.com
 
 ### <a name="report-view-for-the-forwarding-modifications-report"></a>전달 수정 보고서에 대한 보고서 보기
 
-보고서 보기에서는 다음 차트를 사용할 수 있습니다.
+보고서 보기에서 사용할 수 있는 차트는 다음과 같습니다.
 
 - **데이터 표시: 새** 전달 사용자:
 
@@ -84,7 +85,7 @@ Security **&** 준수 센터에서 전달되는 [](https://protection.office.com
 
 - **데이터 표시: 새** 전달 도메인:
 
-  - **이름**: 보낸 사람 전자 메일 도메인입니다.
+  - **이름:** 보낸 사람 전자 메일 도메인입니다.
   - **전달 유형**
   - **받는 사람 주소**
   - **세부 정보**

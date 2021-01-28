@@ -1,72 +1,73 @@
 ---
-title: 메일 흐름 대시보드의 허용 되지 않는 도메인 보고서
+title: 메일 흐름 대시보드의 허용되지 않은 도메인 보고서
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 허용 되지 않는 도메인 보고서를 사용 하 여 보낸 사람의 도메인이 Microsoft 365에 구성 되어 있지 않은 온-프레미스 조직의 메시지를 모니터링 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 06acacb79c826cb465b3fd28086a7df9d64eabdc
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 허용되지 않은 도메인 보고서를 사용하여 Microsoft 365에서 보낸 사람 도메인이 구성되지 않은 & 조직의 메시지를 모니터링하는 방법을 배울 수 있습니다.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 401d566158ca3f730af94fab60c471484e244a16
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877720"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029849"
 ---
-# <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>보안 & 준수 센터의 허용 되지 않는 도메인 보고서
+# <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 도메인 보고서
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-[보안 & 준수 센터](https://protection.office.com) 의 [메일 흐름 대시보드의](mail-flow-insights-v2.md) **허용 되지 않는 도메인** 보고서는 보낸 사람의 도메인이 Microsoft 365 조직에서 허용 도메인으로 구성 되지 않은 온-프레미스 전자 메일 조직의 메시지에 대 한 정보를 표시 합니다.
+[보안](https://protection.office.com) & 준수 센터의 [](mail-flow-insights-v2.md) 메일 흐름 대시보드에서 허용되지 않는 도메인 보고서에는 보낸 사람 도메인이 Microsoft 365 조직의 허용 도메인으로 구성되지 않은 사용자의 전자 메일 조직의 메시지에 대한 정보가 표시됩니다. 
 
-이러한 메시지가 악성 임을 증명 하는 데이터가 있는 경우 Microsoft 365에서 이러한 메시지를 제한할 수 있습니다. 따라서 문제를 파악 하 고 해결 하는 것이 중요 합니다.
+Microsoft 365는 이러한 메시지의 의도가 악의적일 수 있는 것으로 증명할 데이터가 있는 경우 이러한 메시지를 스로틀할 수 있습니다. 따라서 어떤 일이 일어나는지 이해하고 문제를 해결하는 것이 중요합니다.
 
-![보안 & 준수 센터의 메일 흐름 대시보드에 허용 되지 않는 도메인 위젯](../../media/mfi-non-accepted-domain-report-widget.png)
+![보안 및 준수 센터의 메일 흐름 대시보드에서 허용되지 & 위젯](../../media/mfi-non-accepted-domain-report-widget.png)
 
-## <a name="report-view-for-the-non-accepted-domain-report"></a>허용 되지 않는 도메인 보고서에 대 한 보고서 보기
+## <a name="report-view-for-the-non-accepted-domain-report"></a>허용되지 않는 도메인 보고서에 대한 보고서 보기
 
-**허용 되지 않는 도메인** 위젯에 있는 차트를 클릭 하면 **허용 되지 않는 도메인** 보고서로 이동 합니다.
+허용되지 않은 도메인  위젯에서 차트를 클릭하면 허용되지 않은 도메인 **보고서로 표시됩니다.**
 
-기본적으로 영향을 받는 모든 커넥터에 대 한 활동이 표시 됩니다. **에 대 한 데이터 표시** 를 클릭 하면 드롭다운에서 특정 커넥터를 선택할 수 있습니다.
+기본적으로 영향을 받는 모든 커넥터에 대한 활동이 표시됩니다. 데이터 **표시를 클릭하면** 드롭다운에서 특정 커넥터를 선택할 수 있습니다.
 
-차트의 데이터 요소 (일)를 가리키면 커넥터에 대 한 총 메시지 수가 표시 됩니다.
+차트에서 데이터 포인트(일)에 마우스를 대면 커넥터의 총 메시지 수가 표시됩니다.
 
-![허용 되지 않는 도메인 보고서의 보고서 보기](../../media/mfi-non-accepted-domain-report-overview-view.png)
+![허용되지 않는 도메인 보고서의 보고서 보기](../../media/mfi-non-accepted-domain-report-overview-view.png)
 
-## <a name="details-table-view-for-the-non-accepted-domain-report"></a>허용 되지 않는 도메인 보고서에 대 한 세부 정보 테이블 보기
+## <a name="details-table-view-for-the-non-accepted-domain-report"></a>허용되지 않는 도메인 보고서에 대한 세부 정보 테이블 보기
 
-보고서 보기에서 **세부 정보 테이블 보기** 를 클릭 하면 다음과 같은 정보가 표시 됩니다.
-
-- **날짜**
-- **인바운드 커넥터 이름**
-- **보낸 사람 도메인**
-- **메시지 수**
-- **예제 메시지** : 영향을 받는 메시지의 예제 메시지 id입니다.
-
-세부 정보 표 보기에서 **필터** 를 클릭 하면 **시작 날짜** 및 **종료 날짜** 와 함께 날짜 범위를 지정할 수 있습니다.
-
-특정 날짜 범위에 대 한 보고서를 한 명 이상의 받는 사람에 게 전자 메일로 전송 하려면 **다운로드 요청** 을 클릭 합니다.
-
-테이블에서 행을 선택 하면 다음 정보와 함께 플라이 아웃이 나타납니다.
+보고서 **보기에서** 세부 정보 표 보기를 클릭하면 다음 정보가 표시됩니다.
 
 - **날짜**
 - **인바운드 커넥터 이름**
 - **보낸 사람 도메인**
 - **메시지 수**
-- **예제 메시지** : **예제 메시지 보기** 를 클릭 하 여 영향을 받는 메시지의 예제에 대 한 [메시지 추적](message-trace-scc.md) 결과를 볼 수 있습니다.
+- **샘플 메시지:** 영향을 받는 메시지 샘플의 메시지 ID
 
-![허용 되지 않는 도메인 보고서의 세부 정보 테이블 보기에서 행을 선택한 후의 세부 정보 플라이 아웃](../../media/mfi-non-accepted-domain-report-details-flyout.png)
+세부 정보 표 보기에서 **필터를** 클릭하면 시작 날짜와  종료 날짜가 있는 날짜 범위를 **지정할 수 있습니다.**
 
-보고서 보기로 돌아가려면 **보고서 보기** 를 클릭 합니다.
+특정 날짜 범위에 대한 보고서를 한명 이상의 받는 사람에게 전자 메일로 보내려면 다운로드 **요청을 클릭합니다.**
+
+표에서 행을 선택하면 다음 정보가 있는 플라이아웃이 나타납니다.
+
+- **날짜**
+- **인바운드 커넥터 이름**
+- **보낸 사람 도메인**
+- **메시지 수**
+- **샘플 메시지:** 샘플  메시지 보기를 클릭하여 [](message-trace-scc.md) 영향을 받는 메시지의 샘플에 대한 메시지 추적 결과를 볼 수 있습니다.
+
+![허용되지 않는 도메인 보고서의 세부 정보 테이블 보기에서 행을 선택한 후 세부 정보 플라이아웃](../../media/mfi-non-accepted-domain-report-details-flyout.png)
+
+보고서 보기로 돌아가려면 보고서 **보기를 클릭합니다.**
 
 ## <a name="related-topics"></a>관련 항목
 
-메일 흐름 대시보드의 다른 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.
+메일 흐름 대시보드의 다른 인사이트에 대한 자세한 내용은 보안 및 준수 센터의 메일 [흐름 & 참조하세요.](mail-flow-insights-v2.md)
