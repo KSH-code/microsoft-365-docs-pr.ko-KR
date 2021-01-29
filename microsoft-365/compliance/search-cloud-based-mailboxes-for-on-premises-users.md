@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: 보안 및 준수 센터의 콘텐츠 검색 도구를 사용하여 Exchange 하이브리드 배포에서 온-프레미스 사용자의 Teams 채팅 데이터를 검색하고 내보낼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 23f8ea08de3d7fdbbc36274374d315ef0cb66a84
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 7bdcba3a14b2ee6d14210d3525e20ec507166a5d
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976205"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029718"
 ---
 # <a name="search-for-teams-chat-data-for-on-premises-users"></a>온-프레미스 사용자의 Teams 채팅 데이터 검색
 
@@ -39,10 +39,8 @@ ms.locfileid: "49976205"
 
 - 온-프레미스 사용자와 연결된 Teams 채팅 데이터만 클라우드 기반 저장소 영역에 저장됩니다. 온-프레미스 사용자는 이 저장소 영역에 어떤 방법으로든 액세스할 수 없습니다.
 
-- 조직에서 온-프레미스 사용자의 Teams 채팅 데이터를 검색할 수 있도록 Microsoft 지원 요청을 제출해야 합니다. 이 문서의 [이 기능을 사용하도록 설정할 수 있도록 Microsoft 지원 요청 제출](#filing-a-request-with-microsoft-support-to-enable-this-feature)을 참조하세요.
-
 > [!NOTE]
-> Teams 채널 대화는 항상 팀과 연결된 클라우드 기반 사서함에 저장됩니다. 즉 지원 요청을 제출할 필요 없이 콘텐츠 검색을 사용하여 채널 대화를 검색할 수 있습니다. Teams 채널 대화를 검색하는 방법에 대한 자세한 내용은 [Microsoft Teams 및 Microsoft 365 그룹 검색](content-search.md#searching-microsoft-teams-and-microsoft-365-groups)을 참조하세요.
+> Teams 채널 대화는 항상 Teams 연결된 클라우드 기반 사서함에 저장되므로 채널 대화를 검색할 수 있습니다. Teams 채널 대화를 검색하는 방법에 대한 자세한 내용은 [Microsoft Teams 및 Microsoft 365 그룹 검색](content-search.md#searching-microsoft-teams-and-microsoft-365-groups)을 참조하세요.
   
 ## <a name="how-it-works"></a>작동 방식
 
@@ -54,20 +52,7 @@ Microsoft Teams 지원 사용자에게 온-프레미스 사서함이 있고 사�
   
 이 새로운 기능 외에도 클라우드 기반 사용자의 Exchange Online 사서함에서 콘텐츠 검색을 사용하여 각 Microsoft Team 및 1xN Teams 채팅 데이터와 연결된 클라우드 기반 SharePoint 사이트와 Exchange 사서함의 Teams 콘텐츠를 검색하고 미리 보고 내보낼 수 있습니다.
 
-## <a name="filing-a-request-with-microsoft-support-to-enable-this-feature"></a>이 기능을 사용하도록 설정할 수 있도록 Microsoft 지원 요청 제출
 
-조직에서 보안 및 준수 센터의 그래픽 사용자 인터페이스를 사용하여 온-프레미스 사용자의 Teams 채팅 데이터를 검색할 수 있도록 하려면 Microsoft 지원에 요청을 제출해야 합니다. 이 기능은 보안 및 준수 센터 PowerShell에서 사용할 수 있습니다. PowerShell을 사용하여 온-프레미스 사용자의 Teams 채팅 데이터를 검색하는 데는 지원 요청을 제출하지 않아도 됩니다.
-  
-Microsoft 지원 요청을 제출할 때 다음 정보를 포함해야 합니다.
-  
-- 조직의 기본 도메인 이름
-
-- 조직의 테넌트 이름 및 테넌트 ID 이를 Azure Active Directory 포털(**관리** \> **속성** 아래)에서 찾을 수 있습니다. [Microsoft 365 테넌트 ID 찾기](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)를 참조하세요.
-
-- 다음은 지원 요청의 목적에 대한 다음 제목 또는 설명입니다. “온-프레미스 사용자의 응용 프로그램 콘텐츠 검색 사용” 이를 통해 요청을 구현할 eDiscovery 엔지니어 팀에게 요청을 보낼 수 있습니다.
-
-엔지니어링 변경되면 Microsoft 지원에서 예상 배포 날짜를 보냅니다. 지원 요청을 제출한 후에는 일반적으로 배포 프로세스에 2~3 주 정도 걸립니다.
-  
 ### <a name="what-happens-after-this-feature-is-enabled"></a>이 기능을 사용하도록 설정한 후에는 어떻게 되나요?
 
 조직에 이 기능이 배포된 후 콘텐츠 검색과 보안 및 준수 센터의 eDiscovery 사례와 연결된 검색에서 다음과 같은 사항이 변경됩니다.
