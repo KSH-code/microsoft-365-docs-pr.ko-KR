@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: 이 문서에서는 위성 위치를 추가하고 Microsoft 365 Multi-Geo용 테넌트를 구성하는 방법을 알아봅니다.
-ms.openlocfilehash: 4276d8ff70fed99e74f2cbab29386c81da06d17b
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: fb907c02a4714c5a2d8e47245321252e7186a8a7
+ms.sourcegitcommit: f3059a0065496623e36e5a084cd2291e6b844597
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692450"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50040571"
 ---
 # <a name="microsoft-365-multi-geo-tenant-configuration"></a>Microsoft 365 Multi-Geo 테넌트 구성
 
@@ -48,13 +48,13 @@ _Microsoft 365의 Multi-Geo 기능_ 요금제는 사용자 수준 서비스 요�
 
 2. **지리적 위치** 탭으로 이동합니다.
 
-3. **위치 추가**를 클릭합니다.
+3. **위치 추가** 를 클릭합니다.
 
-4. 추가하려는 위치를 선택한 후 **다음**을 클릭합니다.
+4. 추가하려는 위치를 선택한 후 **다음** 을 클릭합니다.
 
-5. 지리적 위치에서 사용할 도메인을 입력한 후 **추가**를 클릭합니다.
+5. 지리적 위치에서 사용할 도메인을 입력한 후 **추가** 를 클릭합니다.
 
-6. **닫기**를 클릭합니다.
+6. **닫기** 를 클릭합니다.
 
 테넌트의 크기에 따라 프로비전하는 데 몇 시간에서 72시간까지 걸릴 수 있습니다. 위성 위치의 프로비전이 완료되면 이메일 확인이 수신됩니다. 새 지리적 위치가 OneDrive 관리 센터의 **지리적 위치** 탭의 지도에 파란색으로 표시되면 사용자의 기본 설정 데이터 위치를 해당 지리적 위치로 설정할 수 있습니다. 
 
@@ -110,7 +110,10 @@ Azure Active Directory(Azure AD)에는 두 가지 유형의 사용자 개체(클
 
 ## <a name="onedrive-provisioning-and-the-effect-of-pdl"></a>OneDrive 프로비전 및 PDL의 영향
 
-사용자가 이미 테넌트에 OneDrive 사이트를 만든 경우 PDL을 설정해도 기존 OneDrive가 자동으로 이동하지 않습니다. 사용자의 OneDrive를 이동하려면 [비즈니스 지역 이동을 위한 OneDrive](move-onedrive-between-geo-locations.md)를 참조하십시오. 지리적 위치 간에 OneDrive를 이동하기에 있는 지침을 따르십시오. (참고로 사용자의 Exchange 사서함은 사용자의 PDL을 설정할 때 자동으로 이동합니다.)
+사용자가 이미 테넌트에 OneDrive 사이트를 만든 경우 PDL을 설정해도 기존 OneDrive가 자동으로 이동하지 않습니다. 사용자의 OneDrive를 이동하는 경우 [비즈니스용 OneDrive](move-onedrive-between-geo-locations.md)지리적 이동을 참조합니다.
+
+> [!NOTE]
+> PLD가 변경되고 MailboxRegion이 사서함 데이터베이스 지리적 위치 코드와 더 이상 일치하지 경우 Exchange Online은 사용자의 사서함을 자동으로 재배치합니다. 자세한 내용은 다중 위치 환경에서 Exchange Online 사서함 [관리를 참조하십시오.](https://docs.microsoft.com/microsoft-365/enterprise/administering-exchange-online-multi-geo)
 
 테넌트 내에 OneDrive 사이트가 없으면 해당 사용자의 PDL가 회사의 위성 위치 중 하나와 일치한다고 가정할 경우 해당 PDL 값에 따라 OneDrive가 프로비전됩니다.
 
@@ -146,7 +149,7 @@ Microsoft 365 앱 시작 관리자에서 OneDrive를 선택하고 사용자의 P
 
 **OneDrive 동기화 클라이언트**
 
-OneDrive 동기화 클라이언트가 로그인 시 비즈니스용 OneDrive 지리적 위치를 자동으로 감지하는지 확인합니다. 동기화 클라이언트를 다운로드해야 할 경우 OneDrive 라이브러리에서 **동기화**를 클릭할 수 있습니다.
+OneDrive 동기화 클라이언트가 로그인 시 비즈니스용 OneDrive 지리적 위치를 자동으로 감지하는지 확인합니다. 동기화 클라이언트를 다운로드해야 할 경우 OneDrive 라이브러리에서 **동기화** 를 클릭할 수 있습니다.
 
 **Office 응용 프로그램**
 

@@ -1,5 +1,5 @@
 ---
-title: 캠페인에 대 한 Microsoft 365의 설치 개요
+title: Microsoft 365 Business Premium 설치 개요
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -24,45 +24,45 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: 캠페인에 대 한 Microsoft 365의 설치 개요
-ms.openlocfilehash: 17d8b90c5dc15009340454491c57802d7ac1b496
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+description: 캠페인 또는 기타 비즈니스용 Microsoft 365 Business Premium 설치 개요
+ms.openlocfilehash: c3d5687453aeaa2d9ace66491e3a900113a69ed1
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526855"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044255"
 ---
-# <a name="set-up-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 설정
+# <a name="set-up-microsoft-365"></a>Microsoft 365 설정
 
-이 문서에서는 캠페인에 대해 Microsoft 365을 설정 하는 프로세스에 대해 설명 합니다. Microsoft 365 Business Premium을 사용한 모든 귀하는이 가이드를 사용 하 여 보안을 단계적으로 수행할 수 있습니다. 
+이 문서에서는 Microsoft 365를 설정하는 프로세스에 대해 설명합니다. Microsoft 365 Business Premium을 사용하는 모든 사람은 이 지침을 사용하여 보안을 강화할 수 있습니다.
 
-## <a name="admins-set-up-microsoft-365-for-campaigns"></a>관리자: 캠페인에 대 한 Microsoft 365 설정
-다음 다이어그램에서는 관리자가 캠페인에 대해 Microsoft 365을 설정 하는 방법을 설명 합니다.
+## <a name="admins-set-up-microsoft-365"></a>관리자: Microsoft 365 설정
 
-![캠페인에 대 한 Microsoft 365을 설정 하는 단계](../media/M365-democracy-SetUpProcess.png)
+다음 다이어그램에서는 관리자가 Microsoft 365를 설정하는 방법을 설명하고 있습니다.
 
-특별 한 가격 책정에 적합 한 캠페인의 경우 먼저 [microsoft 로부터 초대를 요청](https://m365forcampaigns.microsoft.com/)하 고, [캠페인을 위해 microsoft 365에 등록](m365-campaigns-sign-up.md)하 여 시작 합니다. 설치를 완료 하려면 [설치 마법사를 실행](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 하 여 핵심 설정을 구성 합니다.
+![Microsoft 365 설정 단계](../media/M365-democracy-SetUpProcess.png)
 
-다른 모든 조직에서 [Microsoft 365 Business Premium에 등록](../business/sign-up.md)한 후 [설치 마법사를 실행](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 하 여 핵심 설정을 구성 하 여 설치를 완료 합니다.
+특별 가격 책정 자격이 있는 캠페인의 경우 [Microsoft에서](https://m365forcampaigns.microsoft.com/)초대를 요청한 다음 [캠페인용 Microsoft 365에](m365-campaigns-sign-up.md)등록하여 시작하세요. 설치를 완료하려면 [설치 마법사를](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 실행하여 핵심 설정을 구성합니다.
 
-모든 조직에서 보안 보호는 [관리자 계정을 보호](m365-campaigns-protect-admin-accounts.md)하 고, [메일 및 데이터에 대 한 액세스를 보호](m365-campaigns-conditional-access.md)하 고, [위협 방지를 강화](m365-campaigns-increase-protection.md)하는 작업을 수행 합니다.
+다른 모든 조직의 경우 [Microsoft 365 Business Premium에](../business/sign-up.md)등록한 후 [](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 설치 마법사를 실행하여 설치를 완료하여 핵심 설정을 구성합니다.
 
+모든 조직에서 관리자 계정을 [보호하고,](m365-campaigns-protect-admin-accounts.md)메일 및 데이터에 대한 액세스를 보호하고, [](m365-campaigns-conditional-access.md)위협 방지를 강화하여 보안 보호를 [강화합니다.](m365-campaigns-increase-protection.md)
 
- ## <a name="everyone-set-up-your-devices"></a>모든 사람: 장치 설정 
- 
-사용자가이 환경에서 작동 하도록 장치를 설정 하는 데 몇 분 정도 걸릴 수 있습니다. 주요 사용자 (해커에 게 가장 높은 가치 표적을 갖는 사용자)의 경우 새 장치를 설정 하 고 사전 구성할 수 있습니다. 이렇게 하면 사용자가 Microsoft 365 자격 증명으로 로그인 할 때 시작 하는 데 도움이 됩니다. 
+## <a name="everyone-set-up-your-devices"></a>모든 사용자: 장치 설정
+
+사용자는 이 환경에서 작동할 장치를 설정하는 데 몇 분 정도 걸립니다. 주요 사용자(해커의 최고 가치 대상인 사용자)의 경우 새 장치를 설정하고 사전 구성할 수 있습니다. 이렇게 하면 Microsoft 365 자격 증명으로 로그인할 때 시작하는 데 도움이 됩니다.
 
 ![사용자 장치 설정 프로세스](../media/m365-democracy-user-device-setup.png)
   
-사용자 장치를 설정 하려면: 
-1. 각 사용자가 [모바일 장치를 설정](../business/set-up-mobile-devices.md?toc=%2Fmicrosoft-365%2Fcampaigns%2Ftoc.json)합니다. 
-2. 관리 되지 않는 장치의 경우 사용자는 [pc와 mac](m365-campaigns-protect-pcs-macs.md)을 설정 합니다. 주요 직원이 더 나은 보호를 위해 [관리 되는 장치](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json) 를 사용 하는 것이 좋습니다. 모든 장치에서 [다단계 인증](m365-campaigns-multifactor-authenication.md)을 설정 하는 것이 좋습니다. 
-3. 모든 사용자는 [피싱 및 기타 공격](m365-campaigns-phishing-and-attacks.md)에 대해 학습 하 여 자신과 캠페인을 보호 하는 방법을 알고 있어야 합니다. 또한이 [infographic](m365-campaigns-protect-campaign-infographic.md) 은 사용자가 온라인 위협 으로부터 캠페인을 보호 하는 방법을 이해 하는 데 도움이 될 수 있습니다.
+사용자 장치를 설정하는 경우:
+
+1. 각 사용자가 [모바일 장치를 설정합니다.](../business/set-up-mobile-devices.md?toc=%2Fmicrosoft-365%2Fcampaigns%2Ftoc.json)
+2. 관리되지 않는 장치의 경우 사용자는 PC 및 [Mac을 설치합니다.](m365-campaigns-protect-pcs-macs.md)
+주요 직원의 경우 보다 [](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json) 나은 보호를 위해 관리되는 장치를 사용하는 것이 좋습니다. 모든 디바이스에서 다단계 [인증을 설정해야 합니다.](m365-campaigns-multifactor-authenication.md)
+3. 모든 사용자는 피싱 및 기타 공격에 대해 학습하여 자신과 캠페인을 보호하는 [방법을 배워야 합니다.](m365-campaigns-phishing-and-attacks.md) 이 [정보 그래픽은](m365-campaigns-protect-campaign-infographic.md) 사용자가 온라인 위협으로부터 캠페인을 보호하는 방법을 이해하는 데에도 도움이 될 수 있습니다.
 
 ## <a name="contact-support"></a>지원 센터 문의
 
  **지원 센터에 문의해야 하는 경우:**
   
-Microsoft 365 관리자는 고객 지원 팀, ** [비즈니스 제품 지원에 문의-관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products) 에 액세스할 수 있습니다.**
-    
-
+Microsoft 365 관리자는 고객 지원 팀, 비즈니스 제품에 대한 고객 **[지원에 문의할 수](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products) 있습니다. 관리자 도움말**

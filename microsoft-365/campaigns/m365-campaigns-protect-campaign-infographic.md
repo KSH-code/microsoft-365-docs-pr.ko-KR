@@ -1,5 +1,5 @@
 ---
-title: 'Infographic: 캠페인 보호 지원'
+title: '인포그래픽: 캠페인 보호 지원'
 f1.keywords:
 - NOCSH
 ms.author: samanro
@@ -23,17 +23,18 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 디지털 공격 으로부터 캠페인을 보호 하는 데 도움이 되는 작업
-ms.openlocfilehash: f67ed1b637aec24f88d82767c0abc8c496593dbf
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+description: 디지털 공격으로부터 캠페인을 보호하기 위해 할 수 있는 일.
+ms.openlocfilehash: ab03e3f8e093855c3c41f461469724c4ecd3b1dd
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527177"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044399"
 ---
-# <a name="infographic-help-protect-yourself-and-your-campaign-from-digital-threats"></a>Infographic: 디지털 위협 으로부터 자신 및 캠페인을 보호 하도록 지원 
-다음 PowerPoint 및 PDF 링크는 tabloid 형식 (장부, 11 x 17, A3이 라고도 함)으로 다운로드 하 고 인쇄할 수 있습니다.
+# <a name="infographic-help-protect-yourself-and-your-campaign-from-digital-threats"></a>정보 그래픽: 자신과 캠페인을 디지털 위협으로부터 보호
 
-[![보안 지원 캠페인 정보 그래픽 보호를 위한 이미지](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
+PowerPoint 및 PDF에 대한 다음 링크를 다운로드하여 타블로이드 형식으로 인쇄할 수 있습니다(ledger 11 x 17 또는 A3).
+
+[![캠페인 정보 그래픽을 보호하기 위한 도움말 보호 이미지](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
 
 [PDF](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)  |  [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)

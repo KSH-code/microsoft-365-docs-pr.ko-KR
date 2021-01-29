@@ -24,49 +24,48 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 캠페인 내부에서 Microsoft 팀과 SharePoint로 파일 및 비디오를 공유 합니다.
-ms.openlocfilehash: d8f9df1befe720dbcd2affc56ff02f29c037216b
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+description: Microsoft Teams 및 SharePoint와 캠페인 내에서 파일 및 비디오를 공유합니다.
+ms.openlocfilehash: d6d168c196a8571cab86a1be57f5b26782bc4d3f
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48132015"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044183"
 ---
 # <a name="share-files-and-videos"></a>파일 및 동영상 공유
 
-파일을 볼 수 있고 편집할 수 있는 사용자를 제어 해야 하는 경우에는 사용 권한이 적절 하 게 적용 되는지 확인할 수 있는 안전한 위치에 파일을 저장 해야 합니다. Microsoft 팀을 사용 하 여 파일을 저장 한 다음 Microsoft 팀을 사용 하거나 SharePoint 링크를 보내 캠페인 내부 또는 외부에서 파일을 공유할 수 있습니다. 전자 메일 첨부 파일이 아니라 링크를 보내는 것은 사용자가 파일을 보고 수정 하 고 있는지와 사용자의 권한 없이 보거나 수정할 수 없다는 것을 의미 합니다. 
+파일을 볼 수 있는 사용자와 편집할 수 있는 사용자 권한을 제어해야 하는 경우 파일을 안전한 위치에 저장해야 합니다. 여기서 사용 권한이 적절하게 적용될 수 있도록 해야 합니다. Microsoft Teams를 사용하여 파일을 저장한 다음 Microsoft Teams를 사용하거나 SharePoint 링크를 보내 회사, 사례 또는 캠페인 내부 또는 외부에서 파일을 공유할 수 있습니다. 전자 메일 첨부 파일이 아닌 링크를 보내면 누가 파일을 보고 수정하고 있는지 알 수 있으며, 권한이 없는 경우 파일을 보거나 수정할 수 없습니다.
 
-![파일 탭을 표시 하 고 메뉴의 링크를 가져올 수 있는 Microsoft 팀 창 다이어그램](../media/m365-democracy-teams-sharefiles.png)
+![메뉴에서 파일 탭 및 링크 보기를 보여 주며 Microsoft Teams 창의 다이어그램](../media/m365-democracy-teams-sharefiles.png)
 
-Microsoft 팀 및 SharePoint에서 파일을 사용 하 여 파일을 함께 작업 하 고 서로의 변경 내용을 검토할 수도 있습니다. Microsoft 팀을 사용 하 여 정치적 캠페인 내에서 파일을 공유할 수 있습니다. 캠페인 외부의 사용자와 외부적으로 공유 해야 하는 경우 팀에 게스트로 추가 하거나 안전한 SharePoint 링크를 보내도록 할 수 있습니다.
+Microsoft Teams 및 SharePoint의 파일을 사용하여 함께 파일을 작업하고 서로의 변경 내용을 검토할 수도 있습니다. Microsoft Teams를 사용하여 회사, 사례 또는 캠페인 내에서 파일을 공유합니다. 조직 외부의 사용자와 외부적으로 공유해야 하는 경우 팀에 게스트로 추가하거나 보안 SharePoint 링크를 보낼 수 있습니다.
 
-Microsoft Stream을 사용 하 여 캠페인에 대 한 비디오를 저장 하 고 공유할 수도 있습니다. 이러한 비디오는 내부 캠페인 메시징에 가장 적합 하도록 공용에 볼 수 없습니다.
+Microsoft Stream을 사용하여 내부적으로 비디오를 저장하고 공유할 수 있습니다. 이러한 비디오는 공개적으로 볼 수 없습니다. 따라서 내부 캠페인 메시징에 이상적입니다.
 
 ## <a name="best-practices"></a>모범 사례
 
-다음 방법을 사용 하 여 파일 및 비디오를 안전 하 게 공유 합니다.
+파일 및 비디오를 안전하게 공유하려면 다음 방법을 사용하세요.
 
-1. Microsoft 팀 이나 SharePoint에 파일을 저장 하 고 해당 파일에 대 한 액세스 권한이 필요한 사용자 에게만 해당 파일이 있는지 확인 합니다. 
-2. 공유 하려는 경우에는 파일을 전자 메일에 첨부 하지 마세요. 대신 Microsoft 팀 또는 SharePoint에서 **링크 가져오기를** 선택 하 고 전자 메일로 링크를 보냅니다.
-3. 외부에서 파일을 공유 하려면 사용자를 팀에 게스트로 추가 하거나 SharePoint를 사용 하 여 해당 파일만 공유 하기 위한 보안 링크를 가져옵니다.
-4. Microsoft Stream을 사용 하 여 캠페인에서 보려는 비디오를 호스팅합니다. 
-5. Microsoft 팀 또는 SharePoint를 사용 하 여 팀에서 공동 작업 하거나 공유 하기 위해 필요한 비디오 파일을 저장 합니다.
+1. Microsoft Teams 또는 SharePoint에 파일을 저장하고 해당 파일에 액세스해야 하는 사용자만 파일을 사용할 수 있도록 합니다.
+2. 공유하려는 경우 전자 메일에 파일을 첨부하지 않습니다. 대신 Microsoft Teams **또는** SharePoint에서 링크 다운로드를 선택하고 전자 메일로 링크를 전송합니다.
+3. 외부에서 파일을 공유하려면 사용자를 팀에 게스트로 추가하거나 SharePoint를 사용하여 해당 파일만 공유하는 보안 링크를 얻습니다.
+4. Microsoft Stream을 사용하여 캠페인이 보게 될 비디오를 호스트합니다.
+5. Microsoft Teams 또는 SharePoint를 사용하여 팀이 공동 작업하거나 공유하는 데 필요한 비디오 파일을 저장합니다.
 
- 
 ## <a name="set-up"></a>설정
 
-팀을 만들고 광고주 또는 금융 파트너와 같은 게스트를 추가 하려면 다음 단계를 수행 합니다.
+팀을 만들고 광고주 또는 금융 파트너와 같은 게스트를 팀에 추가하기 위해 다음 단계를 수행합니다.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FQMp]
 
-Microsoft 팀을 사용 하지 않고 게스트와 보안 링크를 공유 하려면 다음 단계를 수행 합니다.
+Microsoft Teams를 사용하지 않고 게스트와 보안 링크를 공유하려면 다음 단계를 수행합니다.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE22Yf0]
 
-비디오를 만들고 공유 하려면 다음 단계를 수행 합니다.
+비디오를 만들고 공유하기 위해 다음 단계를 따르세요.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrv0F]
 
-[PDF](https://go.microsoft.com/fwlink/?linkid=2079435) 또는 [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079438) 에서 infographic을 다운로드 하 여 파일을 공유 하는 방법에 대 한 간략 한 개요를 볼 수 있습니다.
+[PDF](https://go.microsoft.com/fwlink/?linkid=2079435) 또는 [PowerPoint에서](https://go.microsoft.com/fwlink/?linkid=2079438) 인포그래픽을 다운로드하여 파일을 공유하는 방법에 대한 간략한 개요를 확인할 수 있습니다.
 
-[![다른 사용자와 파일을 공유 하는 방법에 대 한 그림](../media/ShareYourfiles-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2079435)
+[![다른 사용자와 파일을 공유하는 그림](../media/ShareYourfiles-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2079435)

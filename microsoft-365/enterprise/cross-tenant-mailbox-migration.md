@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: 4296879b36e26f11f945105ccebea351ad88314d
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 237d47502d28ec43978cef2c16e049ac9e90d7b1
+ms.sourcegitcommit: f3059a0065496623e36e5a084cd2291e6b844597
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029529"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50040559"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>테넌트 간 사서함 마이그레이션(미리 보기)
 
@@ -269,6 +269,22 @@ MailboxMoveEnabled         : True
 MailboxMoveCapability      : RemoteOutbound
 MailboxMovePublishedScopes : {MigScope}
 OAuthApplicationId         : sd9890342-3243-3242-fe3w2-fsdade93m0
+```
+
+#### <a name="verify-setup-script"></a>설치 스크립트 확인
+
+원본 또는 대상 테넌트 구성 중에 오류가 발생하는 경우 [GitHub에](https://github.com/microsoft/cross-tenant/releases/tag/Preview) 있는 VerifySetup.ps1 스크립트를 실행하고 출력을 검토할 수 있습니다.
+
+다음은 대상 테넌트에서 VerifySetup.ps1 실행의 예입니다.
+
+```powershell
+VerifySetup.ps1 -PartnerTenantId <SourceTenantId> -ApplicationId <AADApplicationId> -ApplicationKeyVaultUrl <appKeyVaultUrl> -PartnerTenantDomain <PartnerTenantDomain> -Verbose
+```
+
+다음은 원본 테넌트의 VerifySetup.ps1 예입니다.
+
+```powershell
+VerifySetup.ps1 -PartnerTenantId <TargetTenantId> -ApplicationId <AADApplicationId>
 ```
 
 ### <a name="move-mailboxes-back-to-the-original-source"></a>사서함을 원래 원본으로 다시 이동
@@ -550,6 +566,34 @@ x500:/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn
 > [!Note]  
 > 이 X500 프록시 외에도 원본의 사서함에서 대상의 사서함으로 모든 X500 프록시를 복사해야 합니다.  
 
+**이동이 작동하지 않는 경우 어디에서 문제 해결을 시작하나요?**  
+
+[먼저 GitHub에](https://github.com/microsoft/cross-tenant/releases/tag/Preview) 있는 VerifySetup.ps1 스크립트를 실행하고 출력을 검토합니다.
+
+다음은 대상 테넌트에서 VerifySetup.ps1 실행의 예입니다.
+
+```powershell
+VerifySetup.ps1 -PartnerTenantId <SourceTenantId> -ApplicationId <AADApplicationId> -ApplicationKeyVaultUrl <appKeyVaultUrl> -PartnerTenantDomain <PartnerTenantDomain> -Verbose
+```
+
+원본 테넌트에서 VerifySetup.ps1 실행되는 eExample은 다음과 같습니다.
+
+```powershell
+VerifySetup.ps1 -PartnerTenantId <TargetTenantId> -ApplicationId <AADApplicationId>
+```
+
+**원본 테넌트와 대상 테넌트가 동일한 도메인 이름을 사용할 수 있나요?**  
+
+아니요. 원본 및 대상 테넌트 도메인 이름은 고유해야 합니다. 예를 들어 원본 도메인은 contoso.com 대상 도메인은 fourthcoffee.com.
+
+**공유 사서함이 이동하고 계속 작동하나요?**
+
+예. 그러나 다음 문서에 설명된 바와 같이 스토어 사용 권한만 유지하면 됩니다.
+
+- [Microsoft Docs | Exchange Online에서 받는 사람에 대한 사용 권한 관리](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients)
+
+- [Microsoft 지원 | Office 365 전용에서 Exchange 및 Outlook 사서함 권한을 부여하는 방법](https://support.microsoft.com/topic/how-to-grant-exchange-and-outlook-mailbox-permissions-in-office-365-dedicated-bac01b2c-08ff-2eac-e1c8-6dd01cf77287)
+
 **Azure Key Vault가 필요하며 언제 거래가 이행하나요?**  
 
 예. 마이그레이션을 승인하려면 Key Vault를 사용하여 인증서를 저장하려면 Azure 구독이 필요합니다. 사용자 이름 & 암호를 사용하여 원본에 인증하는 온보더링 마이그레이션과 달리, 테넌트 간 사서함 마이그레이션에서는 OAuth 및 이 인증서를 비밀/자격 증명으로 사용하게 됩니다. 키 자격 증명 모음에 대한 액세스는 모든 사서함 마이그레이션 전체에서 유지 관리되어야 합니다. 이 액세스는 마이그레이션이 시작될 때와 한 번씩, 그리고 증분 동기화 시간 동안 24시간마다 한 번씩 유지 관리되어야 합니다. 여기에서 AKV 비용 세부 정보를 검토할 [수 있습니다.]( https://azure.microsoft.com/en-us/pricing/details/key-vault/)  
@@ -570,7 +614,7 @@ x500:/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn
 
 ## <a name="known-issues"></a>알려진 문제  
 
--  **문제: 자동 확장된 보관 파일을 마이그레이션할 수 없습니다.** 테넌트 간 마이그레이션 기능은 특정 사용자에 대한 기본 사서함 및 보관 사서함의 마이그레이션을 지원합니다. 그러나 원본의 사용자에게 자동 확장된 보관함(두 개 이상의 보관 사서함을 의미함)이 있는 경우 이 기능은 추가 보관 사서함을 마이그레이션할 수 없습니다.
+-  **문제: 자동 확장된 보관 파일을 마이그레이션할 수 없습니다.** 테넌트 간 마이그레이션 기능은 특정 사용자에 대한 기본 사서함 및 보관 사서함의 마이그레이션을 지원합니다. 그러나 원본의 사용자에게 자동 확장된 보관함이 있는 경우(두 개 이상의 보관 사서함을 의미함) 이 기능은 추가 보관 파일을 마이그레이션할 수 없습니다.
 
 - **문제: 소유하지 않은 smtp proxyAddress를 사용하는 Cloud MailUsers가 MRS를 차단하면 백그라운드가 이동됩니다.** 대상 테넌트 MailUser 개체를 만들 때 모든 SMTP 프록시 주소가 대상 테넌트 조직에 속하는지 확인해야 합니다. 로컬 테넌트에 속하지 않는 대상 메일 사용자에 SMTP proxyAddress가 있는 경우 MailUser를 사서함으로 변환할 수 없습니다. 이는 사서함 개체가 테넌트가 권한이 있는 도메인(테넌트가 클레임한 도메인)에서만 메일을 보낼 수 있습니다. 
 

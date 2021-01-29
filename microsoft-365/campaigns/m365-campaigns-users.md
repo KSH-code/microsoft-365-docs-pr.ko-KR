@@ -1,5 +1,5 @@
 ---
-title: 캠페인에 대 한 Microsoft 365이 사용자에 게 미치는 영향
+title: 이러한 보안 권장 사항이 사용자에게 미치는 영향
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -23,57 +23,63 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 365이 사용자에 게 미치는 영향에 대해 알아봅니다.
-ms.openlocfilehash: c9cbb64a5585aae4db8f878afcfc19c98711518b
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: Microsoft 365 Business Premium에 대한 이러한 보안 권장 사항이 사용자에게 미치는 영향과 데이터를 보호하는 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 91f6b1fb9ddd5938eb8a788ce7594ec8ab9908c3
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845195"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044237"
 ---
-# <a name="how-microsoft-365-for-campaigns-affects-your-users"></a>캠페인에 대 한 Microsoft 365이 사용자에 게 미치는 영향
+# <a name="how-these-security-recommendations-affect-your-users"></a>이러한 보안 권장 사항이 사용자에게 미치는 영향
 
-캠페인에 대 한 Microsoft 365에서는 해커에 게 사용자 환경에 대 한 액세스 권한을 얻는 데 더 많은 어려움이 있습니다. 단점은 사용자가이 보다 안전한 환경 내에서 작업 하는 방법을 알고 있어야 한다는 것입니다. 여기에는 약간의 추가 작업이 필요 하지만 조직의 보호를 유지 하는 것이 가치가 있습니다.
+이 솔루션의 Microsoft 365에 대한 보안 권장 사항을 통해 해커가 사용자 환경에 액세스하기가 훨씬 더 어려워집니다. 이 경우 사용자는 보다 안전한 환경에서 작업하는 방법을 알고 있어야 합니다. 약간의 인내가 필요하지만 조직을 보호하는 것이 가치가 있습니다.
 
-![Iphone, Android 장치, Mac, Windows 10, 공유 및 주요 직원에 대해 아래에서 주요 요점을 요약 하는 그림](../media/M365-democracy-Users_700px.png)
+![iPhone, Android 장치, Mac, Windows 10, 공유 및 키 직원에 대해 아래와 같은 주요 지점을 요약한 그림](../media/M365-democracy-Users_900px.png)
 
-## <a name="use-secure-email-practices"></a>보안 전자 메일 방법 사용
-모든 사용자는 전자 메일 보안을 유지 하는 데 도움이 되는 다음과 같은 전자 메일 지침을 숙지 하 고 사용 해야 합니다.
-- 인증자 앱과 함께 다단계 인증을 사용 하도록 전자 메일을 설정 합니다.
-- 합법적인 전자 메일을 확인 하 고 Defender for Office 365 Protection의 고급 피싱에서 안전 팁을 확인 하세요.
-- 안전 링크 및 안전한 첨부 파일에서 확인 한 안전한 링크 및 첨부 파일만 엽니다.
+## <a name="use-secure-email-practices"></a>보안 전자 메일 사례 사용
 
-자세한 내용은 [피싱 및 기타 공격](m365-campaigns-phishing-and-attacks.md)에 대해 자세히 알아보세요. 
+모든 사용자는 다음 전자 메일 방법을 인식하고 전자 메일의 보안을 유지하는 데 도움이 됩니다.
 
-사용자 및 캠페인 팀 구성원에 대 한 팁이 포함 된 [infographic](m365-campaigns-protect-campaign-infographic.md) 를 다운로드 합니다.
+- 인증자 앱에서 다단계 인증을 사용하도록 전자 메일을 설정합니다.
+- 합법적인 전자 메일을 확인하고 Office 365 보호용 Defender의 고급 피싱에서 보안 팁을 찾아보세요.
+- 안전한 링크 및 안전한 첨부 파일로 확인된 안전한 링크 및 첨부 파일만 열 수 있습니다.
 
-## <a name="set-up-iphones-and-android-devices"></a>Iphone 및 Android 장치 설정
-환경에 추가 하는 모든 사용자는 [iphone 및 Android 장치가](../business/set-up-mobile-devices.md?toc=%2Fmicrosoft-365%2Fcampaigns%2Ftoc.json) 안전 하 게 작동 하도록 하기 위해 몇 분 정도 걸릴 수 있습니다.
-- 인증자 앱과 함께 multi-factor authentication을 사용 하도록 장치를 설정 합니다.
-- Outlook Mobile, Word, OneDrive 및 앱 스토어의 기타 Microsoft 앱을 포함 하는 Microsoft 모바일 앱을 사용 합니다. Iphone 및 Android 장치에 포함 된 기본 메일 앱은 지원 되지 않습니다. 
-- 사용자가 자신의 장치를 잠금 해제 하기 위해 PIN을 요구 합니다.
+다단계 [인증](m365-campaigns-multifactor-authenication.md) 및 피싱 및 기타 공격에 [대해 자세히 알아보습니다.](m365-campaigns-phishing-and-attacks.md)
 
-이러한 장치를 설정 하 고 나면 메일을 포함 하 여 사용자에 게 이러한 장치의 조직 데이터에 액세스할 때 인증자 앱을 사용 하 라는 메시지가 표시 됩니다. 
+사용자 및 [팀](m365-campaigns-protect-campaign-infographic.md) 구성원을 위한 팁이 있는 정보 그래픽을 다운로드합니다.
 
-## <a name="keep-byod-macs-and-windows-10-pcs-fresh"></a>최신 상태로 유지 (Mac 및 Windows 10 Pc) 
-사용자가 기본 작업 장치를 최신 상태로 유지 하는 것도 중요 합니다.
-- 메시지가 표시 되 면 최신 버전의 Office 데스크톱 앱을 설치 하 고 새로 업데이트를 유지 합니다. 
-- Windows 업데이트와 같은 운영 체제 업데이트를 유지 하는 것이 중요 합니다.
+## <a name="set-up-iphones-and-android-devices"></a>iPhone 및 Android 장치 설정
 
-[관리 되지 않는 Windows 10 및 Mac 장치의](m365-campaigns-protect-pcs-macs.md)경우 사용자는 기본 보안 기능을 사용 하도록 설정 해야 합니다.
+환경에 추가하는 모든 사용자는 안전하게 작동하려면 [iPhone 및 Android](../business/set-up-mobile-devices.md?toc=%2Fmicrosoft-365%2Fcampaigns%2Ftoc.json) 장치를 설정하는 데 몇 분 정도 걸립니다.
 
-**BYOD Windows 10 및 Mac 장치에서 기본 보안 기능을 사용 하도록 설정**
+- 인증자 앱에 다단계 인증을 사용할 디바이스를 설치합니다.
+- Outlook Mobile, Word, OneDrive 및 앱 스토어의 기타 Microsoft 앱을 비롯한 Microsoft 모바일 앱을 사용하세요. iPhone 및 Android 장치에 포함된 기본 메일 앱은 지원되지 않습니다. 
+- 사용자의 디바이스 잠금을 해제하려면 PIN이 필요합니다.
 
-||||
+이러한 설정을 설정한 후 메일을 비롯한 이러한 장치에서 조직 데이터에 액세스할 때 인증자 앱을 사용할지 묻는 메시지가 사용자에게 사용자에게 표시될 것입니다.
+
+## <a name="keep-byod-macs-and-windows-10-pcs-fresh"></a>BYOD Mac 및 Windows 10 PC를 최신으로 유지
+
+또한 사용자가 기본 작업 장치를 최신으로 유지하는 것이 중요합니다.
+
+- 메시지가 표시될 때 최신 버전의 Office 데스크톱 앱을 설치하고 업데이트로 최신 버전을 유지하세요.
+- Windows 업데이트와 같은 운영 체제 업데이트를 계속 확인합니다.
+
+관리되지 [않는 Windows 10 및 Mac](m365-campaigns-protect-pcs-macs.md)장치의 경우 사용자는 기본 보안 기능을 사용할 수 있도록 할 책임이 있습니다.
+
+**BYOD Windows 10 및 Mac 장치에서 기본 보안 기능 사용**
+
+| |**Windows 10**|**Mac**|
 |:-----|:-----|:------|
-||**Windows 10**|**Mac**|
-|보안 기능|BitLocker 장치 보호 설정<p><p> Windows Defender가 켜져 있는지 확인 <p>Windows 방화벽 설정| FileVault을 사용 하 여 Mac 디스크 암호화 <p><p>신뢰할 수 있는 바이러스 백신 소프트웨어 사용 <p>방화벽 보호 설정|
+|보안 기능|BitLocker 장치 보호 켜기<p><p> 계속 Windows Defender 확인 <p>Windows 방화벽 켜기| FileVault를 사용하여 Mac 디스크 암호화 <p><p>신뢰할 수 있는 바이러스 백신 소프트웨어 사용 <p>방화벽 보호 켜기|
 
-이러한 권장 사항에 대 한 자세한 내용은 [해커 및 맬웨어 로부터 계정 및 장치 보호](https://support.office.com/article/Protect-your-account-and-devices-from-hackers-and-malware-066d6216-a56b-4f90-9af3-b3a1e9a327d6#ID0EAABAAA=Windows_10)를 참조 하세요.
+이러한 권장 사항에 대한 자세한 내용은 해커 및 맬웨어로부터 계정 및 [장치 보호를 참조하세요.](https://support.office.com/article/Protect-your-account-and-devices-from-hackers-and-malware-066d6216-a56b-4f90-9af3-b3a1e9a327d6#ID0EAABAAA=Windows_10)
 
-## <a name="collaborate-using-microsoft-teams-onedrive-sharepoint-online-and-other-tools"></a>Microsoft 팀, OneDrive, SharePoint Online 및 기타 도구를 사용 하 여 공동 작업
-사용자가 Microsoft 365 이외의 위치에서 조직 파일을 공유 하 고 저장 하려고 할 수 있습니다. Microsoft 365을 사용 하면 쉽게 간편 하 게 공동 작업 하 고 공유할 수 있습니다. 파일 [및 비디오](share-files-and-videos.md) 를 Microsoft 팀, OneDrive, Stream, 심지어 파일로 직접 공유할 수 있습니다. 이러한 도구 내에서 공유 하면 데이터 누수가 방지 됩니다. 중요 한 데이터에 대 한 추가 보호 기능을 추가 하 여 조직 외부의 공유를 방지할 수 있습니다. 
+## <a name="collaborate-using-microsoft-teams-onedrive-sharepoint-online-and-other-tools"></a>Microsoft Teams, OneDrive, SharePoint Online 및 기타 도구를 사용하여 공동 작업
 
+사용자는 조직 파일을 Microsoft 365가 다른 장소에 공유하고 저장해야 할 수도 있습니다. Microsoft 365를 사용하면 최대한 쉽게 공동 작업하고 안전하게 공유할 수 있습니다. Microsoft [Teams,](share-files-and-videos.md) OneDrive, Stream에서 직접 파일 및 비디오를 공유할 수 있으며 파일 내에서도 공유할 수 있습니다. 이러한 도구 내에서 공유하면 데이터가 누출되는 것을 방지할 수 있습니다. 중요한 데이터에 추가 보호를 추가하여 조직 외부의 공유를 방지할 수 있습니다.
 
-## <a name="set-up-managed-windows-10-devices"></a>관리 되는 Windows 10 장치 설정
-가장 중요 한 직원 구성원은 사용자가 관리 하는 새로 취득 한 Windows 10 장치를 사용 하는 것이 좋습니다. [이러한 장치를 관리 하 고 보호](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json)하는 방법을 알아봅니다. 이렇게 하면 해커에 게 가장 높은 가치 대상이 되는 직원 구성원이 가장 많은 보호를 받을 수 있습니다. 
+## <a name="set-up-managed-windows-10-devices"></a>관리되는 Windows 10 장치 설정
+
+가장 중요한 직원 구성원은 관리하는 신선하게 획득한 Windows 10 장치를 사용하는 것이 좋습니다. 이러한 디바이스를 관리하고 보호하는 [방법을 보여 드 입니다.](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json) 이렇게 하면 해커에게 가장 높은 가치의 대상인 직원 구성원이 가장 많은 보호를 받을 수 있습니다.
