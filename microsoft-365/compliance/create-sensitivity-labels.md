@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 문서와 전자 메일을 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: 10d677eb328ee002e187b098fa44b09372b59f72
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 816da1001593dc36d625a48d12a1e0ace86578bf
+ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568334"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "50058501"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -59,7 +59,8 @@ ms.locfileid: "49568334"
     
     ![민감도 레이블 만들기](../media/create-sensitivity-label-full.png)
     
-    참고: 기본적으로 테넌트에는 레이블이 없으며 만들어야 합니다. 예제 그림에 나와 있는 레이블에 [Azure Information Protection에서 마이그레이션된](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) 기본 레이블이 표시됩니다.
+    > [!NOTE]
+    > 기본적으로 테넌트에는 레이블이 없으며 레이블을 만들어야 합니다. 예제 그림에 나와 있는 레이블에 [Azure Information Protection에서 마이그레이션된](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) 기본 레이블이 표시됩니다.
 
 3. **이 레이블에 대한 범위 정의** 페이지에서 선택한 옵션은 구성할 수 있는 설정에 대한 레이블 범위와 게시될 때 표시되는 위치를 결정합니다.
     
@@ -88,7 +89,7 @@ ms.locfileid: "49568334"
 사용자에게 미치는 영향을 이해하지 못하는 경우 레이블을 삭제하지 마세요. 자세한 내용은 [레이블 제거 및 삭제](#removing-and-deleting-labels) 섹션을 참조하세요. 
 
 > [!NOTE]
-> 레이블 정책을 사용하여 이미 게시된 레이블을 편집하면 마법사를 완료할 때 추가 단계가 필요하지 않습니다. 예를 들어 동일한 사용자가 변경 내용을 사용할 수 있도록 새 레이블 정책에 추가하지 않아도 됩니다. 그러나 변경 사항이 사용자 및 서비스에 복제되려면 최대 24시간이 소요됩니다.
+> 레이블 정책을 사용하여 이미 게시된 레이블을 편집하면 마법사를 완료할 때 추가 단계가 필요하지 않습니다. 예를 들어 동일한 사용자가 변경 내용을 사용할 수 있도록 새 레이블 정책에 추가하지 않아도 됩니다. 그러나 변경 사항이 모든 앱과 서비스에 복제되려면 최대 24시간이 소요됩니다.
 
 레이블을 게시할 때까지 레이블을 앱이나 서비스에서 선택할 수 없습니다. 레이블을 게시하려면 [레이블 정책에 추가](#publish-sensitivity-labels-by-creating-a-label-policy)해야 합니다.
 
@@ -155,7 +156,8 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
         
     ![레이블 게시](../media/publish-sensitivity-labels-full.png)
     
-    참고: 기본적으로 테넌트에는 레이블 정책이 없으며 만들어야 합니다. 
+    > [!NOTE]
+    > 기본적으로 테넌트에는 레이블 정책이 없으며 레이블 정책을 만들어야 합니다. 
 
 3. 마법사에서 **민감도 레이블을 선택하여 게시** 를 선택합니다. 앱과 서비스에서 사용할 수 있도록 설정할 레이블을 선택한 다음 **추가** 를 선택합니다.
     
@@ -184,7 +186,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 이 단추를 선택하면 포함할 레이블과 레이블 설정을 편집할 수 있는 **정책 만들기** 마법사가 시작됩니다. 마법사를 완료하면 변경 내용이 선택된 사용자 및 서비스로 자동 복제됩니다.
 
-사용자는 한시간 이내에 Office 앱에서 새 레이블을 확인 할 수 있습니다. 그러나 변경 사항이 모든 사용자 및 서비스에 복제되려면 최대 24시간이 소요됩니다.
+Windows, macOS, iOS 및 Android용 기본 제공 레이블을 사용하는 경우 Office 앱은 4시간 이내, 웹용 Office의 경우 1시간 이내에 새 레이블이 표시됩니다. 그러나 변경 사항이 모든 앱과 서비스에 복제되려면 최대 24시간이 소요됩니다.
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell를 이용한 추가 레이블 정책 설정
 

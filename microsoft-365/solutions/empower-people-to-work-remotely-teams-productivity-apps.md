@@ -17,21 +17,24 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 사용자가 Teams, Exchange, SharePoint 및 기타 Microsoft 365 서비스를 사용하여 생산성을 향상시킬 수 있도록 합니다.
-ms.openlocfilehash: 57e862769533b8c076513874e7f6daafdbe836da
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: ce19085a358861238e9a7cd4d650246d08fd272d
+ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681411"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055497"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>5단계. 원격 작업자 생산성 앱 및 서비스 배포
 
 생산성을 높이려면 사용자가 서로 통신하고 공동 작업을 해야 합니다. 사용자들은 만나고, 음성 및 텍스트로 채팅하 고, 새 콘텐츠를 만들고, 정보 및 파일을 공유 하고, 전자 메일을 교환하고, 일정 및 작업을 관리해야 합니다. Microsoft 365는 다음과 같은 모든 주요 기능에 대한 클라우드 기반 서비스를 제공합니다.
 
-- 사용자들이 떨어져서 작업하는 동안 그들의 연결을 유지하기 위해서 조직, 부서, 그리고 소규모 팀과 개인에게 모임을 위한 공동 통신 허브, 채팅 그리고 파일 저장소를 제공하는 Microsoft Teams를 사용합니다. 
-- 전자 메일을 교환하고 일정, 연락처 및 작업을 관리하는 데 Exchange Online과 Outlook 클라이언트를 사용하도록 합니다.
-- 파일을 저장하고 공동 작업을 하려면 SharePoint 및 OneDrive를 사용합니다. 웹 브라우저나 Teams 내에서 사용할 수 있습니다.
-- 새 콘텐츠를 만들거나 기존 콘텐츠에 대해 공동 작업을 하는 데, Microsoft 365 앱은 로컬 컴퓨터에 설치된 Word, PowerPoint, Excel 및 Outlook 버전이며 지속적인 기능과 보안 업데이트를 받습니다.
+| IT 기능 | Microsoft 365 구성 요소 | 설명 |
+|:-------|:-----|:-------|
+| 전자 메일 서비스 | Exchange Online | Exchange Online 및 Outlook을 이용하여 전자 메일을 교환하고 일정, 연락처, 작업을 관리 |
+| 조직 채팅, VOIP(Voice over IP), 팀 기반 공동 작업 | Microsoft Teams | 조직, 부서, 소규모 팀 및 개인을 위한 모임, 채팅 및 파일 저장을 위한 공통의 통신 허브와 떨어져 있는 동안 사람들이 계속 연결되도록 합니다. |
+| 인트라 사이트, 문서 공동 작업 | SharePoint 및 OneDrive | 웹 브라우저 내에서 또는 Teams 내에서 파일을 저장하고 공동 작업합니다. |
+| 데스크톱 및 모바일 장치 Office 응용 프로그램 | Microsoft 365 앱 | 새 콘텐츠를 만들거나 로컬 컴퓨터에 설치된 Word, PowerPoint, Excel 및 Outlook 버전으로 기존 콘텐츠를 공동 작업하고 지속적인 기능 및 보안 업데이트를 받을 수 있습니다. |
+||||
 
 ![Teams, Outlook, SharePoint, OneDrive 및 Microsoft 365 앱을 사용해서 생산성 유지](../media/empower-people-to-work-remotely/remote-workers-productivity-grid.png)
 

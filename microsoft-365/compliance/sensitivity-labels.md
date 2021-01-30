@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 2a4b66de9996ec0ea7047ca44ae3750a917c4cc2
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 2e334e57b84bea7985983527e600be731e4de20c
+ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921682"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "50058521"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -42,6 +42,11 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 ![Excel 리본 및 상태 표시줄의 민감도 레이블](../media/Sensitivity-label-in-Excel.png)
 
 민감도 레이블을 적용하려면 Microsoft 365 회사 또는 학교 계정으로 로그인해야 합니다.
+
+> [!NOTE]
+> 민감도 레이블은 미국 정부 테넌트(GCC 및 GCC-H)에 대해 새로 지원됩니다. 자세한 내용은 엔터프라이즈용 Microsoft 365 앱 [버전 2101: 1월 26일](https://docs.microsoft.com/officeupdates/current-channel#version-2101-january-26) 릴리스 노트를 참조하세요.
+>
+> Azure Information Protection 통합 레이블 지정 클라이언트 및 스캐너는 [Azure Information Protection Premium 정부 서비스 설명](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description)을 참조하세요.
 
 민감도 레이블을 사용하여 다음을 수행할 수 있습니다.
   
@@ -195,7 +200,7 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
     ![리본의 민감도 단추에 제공되는 자세히 알아보기 링크](../media/Sensitivity-label-learn-more.png)
 
-사용자 및 그룹에 새 민감도 레이블을 할당하는 레이블 정책을 만들면 사용자는 30분 내에 Office 앱에서 해당 레이블을 볼 수 있습니다. 그러나 해당 레이블의 변경 내용을 24시간까지 허용할 수 있습니다.
+사용자 및 그룹에 새 민감도 레이블을 할당하는 레이블 정책을 만들면 사용자는 Office 앱에서 해당 레이블을 볼 수 있습니다. 조직 전체에 걸쳐 최신 변경 내용이 복제될 때까지 최대 24시간 이 소요됩니다.
 
 생성 및 게시가 가능한 민감도 레이블의 수에는 제한이 없지만 한 가지 예외적인 경우가 있습니다. 레이블에 암호화가 적용되는 경우 최대 레이블의 수는 500개입니다. 하지만 최상의 방식은 관리자 오버헤드를 낮추고 사용자의 복잡성을 줄이기 위해 레이블의 수를 최소로 유지하는 것입니다. 사용자에게 6개 이상의 주 레이블 또는 주 레이블당 6개 이상의 하위 레이블이 있는 경우 효과가 확연하게 감소하는 것이 실제 배포 결과를 통해 입증되었습니다.
 
@@ -268,4 +273,4 @@ Cloud App Security는 Azure Information Protection 레이블과 민감도 레이
 
 ## <a name="deployment-guidance"></a>배포 가이드
 
-라이선싱 정보, 사용 권한, 배포 전략, 지원되는 시나리오 목록 및 최종 사용자 문서를 포함한 배포 계획 및 지침에 대한 내용은 [민감도 레이블로 시작하기](get-started-with-sensitivity-labels.md)를 참조하세요. 
+라이선싱 정보, 사용 권한, 배포 전략, 지원되는 시나리오 목록 및 최종 사용자 문서를 포함한 배포 계획 및 지침에 대한 내용은 [민감도 레이블로 시작하기](get-started-with-sensitivity-labels.md)를 참조하세요.

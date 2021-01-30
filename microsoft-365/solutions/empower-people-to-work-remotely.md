@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: 원격 작업자의 생산성을 극대화하고 서버, 데이터 및 클라우드에 대한 보안 액세스를 유지하려면 Microsoft 365의 모든 기능을 사용하도록 설정했는지 확인합니다.
-ms.openlocfilehash: c6f17f2a80fa37abe43ceabc7a06c86c80eeadbd
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: aa72ba0c47acdd507bf86a082c9b4c2a87e3f1ef
+ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616359"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055522"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
 
@@ -37,11 +37,16 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 
 ![Microsoft 365를 사용하여 원격 작업자의 역량 강화하기](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
+>[!Note]
+>Microsoft 365를 처음 사용하는 경우, [다음 리소스](https://www.microsoft.com/microsoft-365)를 참조하세요.
+>
+
 이 비디오를 시청하고 배포 프로세스에 대한 개요를 확인하세요.
+<br>
 <br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4F1af]
 
-이 솔루션은 이러한 주요 기능을 제공합니다.
+작업 생산성을 높이기 위해 인트라 사이트 및 클라우드 기반 인프라를 관리하는 IT 전문가를 위해 이 솔루션은 다음과 같은 주요 기능을 제공합니다.
 
 - 연결
 
