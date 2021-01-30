@@ -16,17 +16,17 @@ search.appverid:
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: Microsoft Service Trust Portal에서 준수 관리자를 사용해 데이터 보호와 규정 요구 사항을 충족하는 방법을 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ac0cd758717161e3b5cf727dd478d1e06f0d6375
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: f527aae2d36e392ecd646d48263a01b20a0785e8
+ms.sourcegitcommit: b8e9b2ecdc4927b67088c5fffb1585424c66fb10
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682811"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50050402"
 ---
 # <a name="microsoft-compliance-manager-classic"></a>Microsoft 준수 관리자(기본)
 
 > [!IMPORTANT]
-> **현재 준수 관리자는 [Microsoft 365 준수 센터](https://compliance.microsoft.com/)에서 일반적으로 사용할 수 있습니다. 고객에게 준수 관리자(클래식)의 사용을 중단하고 새로운 준수 관리자로 이동하여 풍부한 사용자 환경과 업데이트된 제어 매핑의 혜택을 받으실 것을 적극 권장합니다. Microsoft 365 준수 센터에서 새 준수 관리자를 설정하고 사용하기 시작하려면 당사의 [준수 관리자 설명서](compliance-manager.md)를 참조하세요.**
+> **준수 관리자(클래식)가 곧 Microsoft Service Trust Portal에서 제거됩니다.** 향상된 사용자 환경 및 업데이트된 컨트롤 매핑을 제공하는 [Microsoft 365 규정 준수 센터의 준수 관리자](https://compliance.microsoft.com/)로 전환하는 것이 좋습니다. 클래식 버전에 평가가 있는 고객은 새 준수 관리자에서 새로운 평가를 만들어야 합니다. 평가, 컨트롤 및 기타 데이터를 포함한 모든 기존 데이터는 새 준수 관리자로 전송되지 않습니다. [전환에 대해 자세히 알아보세요](compliance-manager-faq.md#whats-happening-to-compliance-manager-classic-in-the-service-trust-portal).
 
 *준수 관리자는 21Vianet, Office 365 Germany, Office 365 미국 GCC(Government Community High) 또는 Office 365 미국방부에서 운영하는 Office 365에서 사용할 수 없습니다.*
 
