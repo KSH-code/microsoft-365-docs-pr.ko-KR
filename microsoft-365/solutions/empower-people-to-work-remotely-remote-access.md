@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft 365 클라우드 서비스로의 액세스를 최적화하는 동안 원격 작업자는 온-프레미스 리소스에 액세스할 수 있는지 확인합니다.
-ms.openlocfilehash: a9a8c972d58c7d2bac3f49ad602578358406c5a0
-ms.sourcegitcommit: 99a7354e6a6b4d9d5202674ef57852d52a43fef6
+ms.openlocfilehash: 43000ce27fc24dbc6c2db3782b0ed40aa66b7fd2
+ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49908332"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055534"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>2단계. 온-프레미스 앱 및 서비스로의 원격 액세스 제공
 
@@ -107,7 +107,7 @@ P2S VPN 연결은 Azure 가상 네트워크를 통해 원격 작업자의 장치
 
 ## <a name="protect-your-remote-desktop-services-connections-with-the-remote-desktop-services-gateway"></a>원격 데스크톱 서비스 게이트웨이로 원격 데스크톱 서비스 연결 보호
 
-직원이 온-프레미스 네트워크의 Windows 기반 컴퓨터에 연결할 수 있도록 원격 데스크톱 서비스(RDS)를 사용하는 경우, Edge 네트워크에서 Microsoft 원격 데스크톱 서비스 게이트웨이를 사용해야합니다. 게이트웨이는 SSL(Secure Sockets Layer)을 사용하여 통신을 암호화하고 RDS를 호스팅하는 온-프레미스 컴퓨터가 인터넷에 직접 노출되는 것을 방지합니다.
+직원이 온-프레미스 네트워크의 Windows 기반 컴퓨터에 연결할 수 있도록 원격 데스크톱 서비스(RDS)를 사용하는 경우, Edge 네트워크에서 Microsoft 원격 데스크톱 서비스 게이트웨이를 사용해야합니다. 게이트웨이는 TLS(Transport Layer Security)를 사용하여 트래픽을 암호화하고 RDS를 호스팅하는 사내 컴퓨터가 인터넷에 직접 노출되는 것을 방지합니다.
 
 ![원격 데스크톱 서비스 게이트웨이로 원격 데스크톱 서비스 연결](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-remote-desktop.png)
 
