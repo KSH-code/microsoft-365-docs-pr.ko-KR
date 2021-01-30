@@ -18,20 +18,20 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 이동성 및 보안은 Microsoft 365 계획의 일부입니다.
-ms.openlocfilehash: cfd1a68c313d1a1335490e2b8d6938de192fe3f3
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.openlocfilehash: ec3ffa8879bf14ab3116bbbbf5cf2a1a3fd7c6e6
+ms.sourcegitcommit: ea8a096df5acedecdce1780969f2b189c3fadf73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877095"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50053804"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>기본 이동성 및 보안 또는 Intune 중 선택
 
-[Microsoft Intune은](https://docs.microsoft.com/mem/intune/) 특정 Microsoft 365 계획에 포함된 독립 실행형 제품인 반면 기본 이동성 및 보안은 Microsoft 365 계획의 일부입니다. 
+[Microsoft Intune은](https://docs.microsoft.com/mem/intune/) 특정 Microsoft 365 계획에 포함된 독립 실행형 제품인 반면 기본 이동성 및 보안은 Microsoft 365 계획의 일부입니다.
 
  ## <a name="availability-of-basic-mobility-and-security-and-intune"></a>기본 이동성 및 보안 및 Intune의 가용성
- 
-기본 이동성 및 보안과 Intune은 다음 표에 설명된 다양한 계획에 포함되어 있습니다.
+
+기본 이동성 및 보안과 Intune은 모두 다음 표에 설명된 다양한 계획에 포함되어 있습니다.
 
 | 계획 | 기본 모바일 및 보안 | Microsoft Intune |
 |:-----|:-----|:-----|
@@ -62,7 +62,7 @@ ms.locfileid: "49877095"
 Microsoft Intune과 기본 제공 Basic Mobility and Security는 모두 조직에서 모바일 장치를 관리할 수 있는 기능을 제공하지만, 다음 표에 설명된 기능과는 주요 차이점이 있습니다.
 
 >[!NOTE]
->기본 이동성 및 보안을 먼저 설정한 다음 *Microsoft Intune을* 추가하여 동일한 Microsoft 365 Business Standard 조직에서 Intune 및 Basic Mobility and Security를 사용하여 사용자와 모바일 장치를 관리할 수 있습니다. 이렇게 하면 기본 이동성 및 보안 또는 기능이 풍부한 Intune 솔루션을 선택할 수 있습니다. Intune 기능을 사용하도록 설정하기 위해 Intune 라이선스를 할당합니다.
+>기본 이동성 및 보안을 먼저 설정한 다음 *Microsoft Intune을* 추가하여 동일한 Microsoft 365 Business Standard 조직에서 Intune 및 Basic Mobility and Security를 사용하여 사용자와 모바일 장치를 관리할 수 있습니다. 이렇게 하면 기본 이동성 및 보안 또는 기능이 풍부한 Intune 솔루션을 선택할 수 있습니다. Intune 기능을 사용하도록 설정하려면 Intune 라이선스를 할당합니다.
 
 | 기능 영역 | 주요 기능 | 기본 모바일 및 보안 | Microsoft Intune |
 |:-----|:-----|:-----|:-----|
@@ -70,7 +70,7 @@ Microsoft Intune과 기본 제공 Basic Mobility and Security는 모두 조직�
 |장치 준수|장치 수준 PIN 잠금 및 탈옥 감지와 같은 보안 정책을 설정하고 관리합니다. |Android 9 이상 장치에 대한 제한 사항. 자세한 [내용을 참조합니다.](capabilities.md) |예|
 |장치 준수에 기반한 조건부 액세스 |비영리 장치가 클라우드에서 회사 전자 메일 및 데이터에 액세스하지 못하게 합니다. |Windows 10에서는 지원되지 않습니다.<br/>Exchange Online, SharePoint Online 및 Outlook에 대한 액세스를 제어하는 것으로 제한됩니다. |예 |
 |장치 구성  |장치 설정 구성(예: 카메라 사용 안 하도록 설정)|제한된 설정 집합입니다.|예|
-|장치 준수  |장치 수준 PIN 잠금 및 탈옥 감지와 같은 보안 정책을 설정하고 관리합니다. |Android 9 이상 디바이스에 대한 제한 사항 자세한 [내용을 참조합니다.](capabilities.md) |예|
+|장치 준수  |장치 수준 PIN 잠금 및 탈옥 감지와 같은 보안 정책을 설정하고 관리합니다. |Android 9 이상 장치에 대한 제한 사항. 자세한 [내용을 참조합니다.](capabilities.md) |예|
 |전자 메일 프로필  |장치에서 기본 전자 메일 프로필을 프로비전합니다. |예|예|
 |WiFi 프로필 |장치에서 기본 WiFi 프로필을 프로비전합니다. |아니요|예|
 |VPN 프로필 |장치에서 기본 VPN 프로필을 프로비전합니다. |아니요|예|
@@ -80,7 +80,7 @@ Microsoft Intune과 기본 제공 Basic Mobility and Security는 모두 조직�
 |제로 터치 등록 프로그램 Autopilot) |많은 수의 회사 소유 장치를 등록하고 사용자 설정을 간소화합니다. |아니요|예|
 |||
 
-앞의 표에 나열된 기능 외에도 Basic Mobility and Security 및 Intune에는 인터넷을 통해 디바이스에 명령을 보내는 원격 작업 집합이 포함되어 있습니다. 예를 들어 개인 데이터를 제치하고(사용 중지), 직원의 장치에서 Office 앱을 제거(지우기) 또는 장치를 공장 설정(전체 지우기)으로 다시 설정하는 동안 직원의 장치에서 Office 데이터를 제거할 수 있습니다. 
+앞의 표에 나열된 기능 외에도 Basic Mobility and Security 및 Intune에는 인터넷을 통해 디바이스에 명령을 보내는 원격 작업 집합이 포함되어 있습니다. 예를 들어 개인 데이터를 제치고(사용 중지), 직원의 장치에서 Office 앱을 제거(지우기) 또는 장치를 공장 설정(전체 지우기)으로 다시 설정하는 동안 직원의 장치에서 Office 데이터를 제거할 수 있습니다. 
 
 기본 이동성 및 보안 원격 작업에는 사용 중지, 지우기 및 전체 지우기 작업이 포함됩니다. 기본 이동성 및 보안 작업에 대한 자세한 내용은 [Basic Mobility and Security의 기능을 참조하십시오.](capabilities.md)
 

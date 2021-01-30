@@ -1,5 +1,5 @@
 ---
-title: Exchange Online이 TLS를 사용 하 여 전자 메일 연결을 보호 하는 방법
+title: Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -17,61 +17,63 @@ ms.assetid: 4cde0cda-3430-4dc0-b489-f2c0736c929f
 ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
-description: Exchange Online 및 Microsoft 365에서 TLS (전송 계층 보안)를 사용 하 여 전자 메일 통신의 보안을 유지 하는 방법을 알아봅니다. 또한 Exchange Online에 대해 Microsoft에서 발급 한 인증서에 대 한 정보도 확인 하세요.
-ms.openlocfilehash: 4136303e9c90e377788a7168351a5e126912a93c
-ms.sourcegitcommit: 758263ad484e00f5a561a47c8c22d5787af7671e
+description: Exchange Online 및 Microsoft 365에서 TLS(전송 계층 보안) 및 FS(Forward Secrecy)를 사용하여 전자 메일 통신을 보호하는 방법을 알아보십시오. 또한 Exchange Online용 Microsoft에서 발급한 인증서에 대한 정보도 얻습니다.
+ms.openlocfilehash: 507a152130113868293d8d08441f298e5f5ae512
+ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170967"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "50058461"
 ---
-# <a name="how-exchange-online-uses-tls-to-secure-email-connections"></a>Exchange Online이 TLS를 사용 하 여 전자 메일 연결을 보호 하는 방법
+# <a name="how-exchange-online-uses-tls-to-secure-email-connections"></a>Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법
 
-Exchange Online 및 Microsoft 365에서 TLS (전송 계층 보안)를 사용 하 여 전자 메일 통신의 보안을 유지 하는 방법을 알아봅니다. 또한 Exchange Online용으로 Microsoft에서 발급한 인증서에 대한 정보도 제공합니다.
+Exchange Online 및 Microsoft 365에서 TLS(전송 계층 보안) 및 FS(Forward Secrecy)를 사용하여 전자 메일 통신을 보호하는 방법을 알아보십시오. 또한 Exchange Online용으로 Microsoft에서 발급한 인증서에 대한 정보도 제공합니다.
   
-## <a name="tls-basics-for-microsoft-365-and-exchange-online"></a>Microsoft 365 및 Exchange Online에 대 한 TLS 기본 사항
+## <a name="tls-basics-for-microsoft-365-and-exchange-online"></a>Microsoft 365 및 Exchange Online의 TLS 기본
 
-TLS(전송 계층 보안) 및 TLS 이전의 SSL은 보안 인증서를 사용하여 컴퓨터 간 연결을 암호화함으로써 네트워크를 통한 통신을 보호하는 암호화 프로토콜입니다. TLS는 SSL (Secure Sockets Layer)을 대체 하며, 흔히 SSL 3.1이 라고도 합니다. Exchange Online의 경우 TLS를 사용 하 여 exchange 서버와 Exchange 서버 간의 연결과 온-프레미스 Exchange 서버 또는 받는 사람의 메일 서버 간의 연결을 암호화 합니다. 연결이 암호화 되 면 해당 연결을 통해 전송 되는 모든 데이터는 암호화 된 채널을 통해 전송 됩니다. 그러나 TLS로 암호화 된 연결을 통해 전송 된 메시지를 전달 하는 경우 해당 메시지가 반드시 암호화 되지 않은 것입니다. 이는 단순한 용어로 TLS에서 메시지를 암호화 하지 않고 연결만을 사용 하기 때문입니다.
+TLS(전송 계층 보안) 및 TLS 이전의 SSL은 보안 인증서를 사용하여 컴퓨터 간 연결을 암호화함으로써 네트워크를 통한 통신을 보호하는 암호화 프로토콜입니다. TLS는 SSL(Secure Sockets Layer)을 능가하며 SSL 3.1이라고도 합니다. Exchange Online의 경우 TLS를 사용하여 Exchange 서버 간의 연결과 Exchange 서버와 다른 서버(예: 사용자의 프레미스 Exchange 서버 또는 받는 사람의 메일 서버) 간의 연결을 암호화합니다. 연결이 암호화된 후 해당 연결을 통해 전송되는 모든 데이터는 암호화된 채널을 통해 전송됩니다. 그러나 TLS로 암호화된 연결을 통해 전송된 메시지를 전달하는 경우 해당 메시지가 반드시 암호화되지는 않습니다. 이는 간단한 용어로 TLS는 메시지를 암호화하지 말고 연결만 암호화하기 때문에 발생합니다.
   
-메시지를 암호화 하려면 메시지 콘텐츠를 암호화 하는 암호화 기술 (예: Office 메시지 암호화 등)을 사용 해야 합니다. Office 365의 메시지 암호화 옵션에 대 한 자세한 내용은 Office 365 및 [office 365 메시지 암호화 (OME)](ome.md) [의 전자 메일 암호화](email-encryption.md) 를 참조 하세요. 
+메시지를 암호화하려면 Office 메시지 암호화와 같은 메시지 내용을 암호화하는 암호화 기술을 사용해야 합니다. [Office 365의](email-encryption.md) 메시지 암호화 옵션에 대한 자세한 내용은 Office 365 및 [Office 365 OME(메시지](ome.md) 암호화)의 전자 메일 암호화를 참조하세요. 
   
-Microsoft와 온-프레미스 조직 간 또는 다른 조직 (예: 파트너) 간에 보안 채널을 설정 하려는 경우에는 TLS를 사용 하는 것이 좋습니다. Exchange Online은 항상 TLS를 사용 하 여 전자 메일을 보호 하지만 다른 당사자가 TLS 보안을 제공 하지 않을 경우에는 항상이 작업을 수행할 수는 없습니다. *커넥터*를 사용 하 여 온-프레미스 서버 또는 중요 파트너에 게 모든 메일을 보호 하는 방법을 알아보려면 계속 읽어 보세요. 
-  
-## <a name="how-exchange-online-uses-tls-between-exchange-online-customers"></a>Exchange online에서 exchange online 고객 간에 TLS를 사용 하는 방법
+Microsoft와 프레미스 조직 또는 파트너와 같은 다른 조직 간에 보안 서신 채널을 설정하려는 경우 TLS를 사용하는 것이 좋습니다. Exchange Online은 항상 먼저 TLS를 사용하여 전자 메일을 보호하려고 하지만 다른 사용자가 TLS 보안을 제공하지 않는 경우 이 작업을 항상 할 수 없습니다. 커넥터를 사용하여 모든 메일의 보안을 설정하는 방법이나 중요한 파트너를 계속 *읽어야 합니다.* 
 
-Exchange Online 서버는 항상 TLS 1.2을 사용 하 여 데이터 센터의 다른 Exchange Online 서버에 대 한 연결을 암호화 합니다. 조직 내에 있는 받는 사람에 게 메일을 보내면 해당 전자 메일은 TLS를 사용 하 여 암호화 된 연결을 통해 자동으로 전송 됩니다. 또한 다른 고객에 게 보내는 모든 전자 메일은 TLS를 사용 하 여 암호화 되 고 전달 보안을 사용 하 여 보호 되는 연결을 통해 전송 됩니다.
+고객에게 동급 최고의 암호화를 제공하기 위해 Microsoft는 [Office 365 및 Office 365](tls-1.0-and-1.1-deprecation-for-office-365.md) [GCC에서](tls-1-2-in-office-365-gcc.md)TLS(전송 계층 보안) 버전 1.0 및 1.1을 더 이상 사용되지 않습니다. 그러나 TLS 없이 암호화되지 않은 SMPT 연결을 계속 사용할 수 있습니다. 암호화 없이는 전자 메일 전송을 권장하지 않습니다.  
   
-## <a name="how-microsoft-365-uses-tls-between-microsoft-365-and-external-trusted-partners"></a>Microsoft 365에서 Microsoft 365와 외부의 신뢰할 수 있는 파트너 간에 TLS를 사용 하는 방법
+## <a name="how-exchange-online-uses-tls-between-exchange-online-customers"></a>Exchange Online 고객 간에 Exchange Online에서 TLS를 사용하는 방법
 
-기본적으로 Exchange Online은 항상 oplocks TLS를 사용 합니다. 즉, Exchange Online은 항상 가장 안전한 TLS 버전을 사용 하 여 연결을 암호화 한 다음 두 당사자가 모두 동의할 수 있는 것을 찾을 때까지 TLS 암호 목록에서 해당 방식으로 작동 합니다. 해당 받는 사람에 대 한 메시지가 안전한 연결을 통해서만 전송 되도록 Exchange Online을 구성 하지 않은 경우에는 받는 사람 조직에서 TLS 암호화를 지원 하지 않는 경우 기본적으로 메시지를 암호화 하지 않습니다. 대부분의 비즈니스에서 oplocks에 충분 합니다. 그러나 의료, 은행, 정부 조직과 같은 규정 준수 요구 사항이 있는 비즈니스의 경우에는 TLS를 요구 하거나 강제 적용 하도록 Exchange Online을 구성할 수 있습니다. 자세한 내용은 [Office 365에서 커넥터를 사용 하 여 메일 흐름 구성을](https://technet.microsoft.com/library/ms.exch.eac.connectorselection%28v=exchg.150%29.aspx)참조 하세요.
+Exchange Online 서버는 항상 TLS 1.2를 사용하여 데이터 센터의 다른 Exchange Online 서버에 대한 연결을 암호화합니다. 조직 내에 있는 받는 사람에게 메일을 보내면 TLS를 사용하여 암호화된 연결을 통해 해당 전자 메일이 자동으로 전송됩니다. 또한 다른 고객에게 보내는 모든 전자 메일은 TLS를 사용하여 암호화되고 Forward Secrecy를 사용하여 보호된 연결을 통해 전송됩니다.
   
-조직과 트러스트 된 파트너 조직 간에 TLS를 구성 하기로 결정 한 경우 Exchange Online은 강제 TLS를 사용 하 여 신뢰할 수 있는 통신 채널을 만듭니다. 강제 TLS를 사용 하려면 파트너 조직이 보안 인증서를 사용 하 여 Exchange Online에서 인증을 받아야 사용자에 게 메일을 보낼 수 있습니다. 이 작업을 수행 하기 위해서는 파트너가 자체 인증서를 관리 해야 합니다. Exchange Online에서는 커넥터를 사용 하 여 받는 사람의 전자 메일 공급자에 게 도착 하기 전에 무단 액세스 로부터 보내는 메시지를 보호 합니다. 커넥터를 사용 하 여 메일 흐름을 구성 하는 방법에 대 한 내용은 [Office 365에서 커넥터를 사용 하 여 메일 흐름 구성을](https://technet.microsoft.com/library/ms.exch.eac.connectorselection%28v=exchg.150%29.aspx)참조 하세요.
-  
-## <a name="tls-and-hybrid-exchange-server-deployments"></a>TLS 및 하이브리드 Exchange 서버 배포
+## <a name="how-microsoft-365-uses-tls-between-microsoft-365-and-external-trusted-partners"></a>Microsoft 365에서 Microsoft 365와 신뢰할 수 있는 외부 파트너 간에 TLS를 사용하는 방법
 
-하이브리드 Exchange 배포를 관리 하는 경우에는 온-프레미스 Exchange 서버에서 보안 인증서를 사용 하 여 Microsoft 365에서 인증을 받아야 사서함이 Office 365에만 있는 받는 사람에 게 메일을 보낼 수 있습니다. 따라서 온-프레미스 Exchange 서버에 대 한 자체 보안 인증서를 관리 해야 합니다. 또한 이러한 서버 인증서를 안전 하 게 저장 하 고 유지 관리 해야 합니다. 하이브리드 배포에서 인증서를 관리 하는 방법에 대 한 자세한 내용은 [하이브리드 배포에 대 한 인증서 요구 사항을](https://technet.microsoft.com/library/hh563848%28v=exchg.150%29.aspx)참조 하세요.
+기본적으로 Exchange Online은 항상 기회적 TLS를 사용 합니다. 즉, Exchange Online은 항상 가장 안전한 버전의 TLS를 사용하여 연결을 암호화한 다음 두 당사자가 모두 동의할 수 있는 암호를 찾을 때까지 TLS 암호화 목록을 아래로 진행합니다. 받는 사람에 대한 메시지가 보안 연결을 통해서만 전송되도록 Exchange Online을 구성하지 않은 경우 받는 사람 조직에서 TLS 암호화를 지원하지 않는 경우 기본적으로 메시지는 암호화되지 않은으로 전송됩니다. 대부분의 기업에서는 기회적 TLS로 충분합니다. 그러나 의료, 은행 또는 정부 조직과 같은 규정 준수 요구 사항이 있는 비즈니스의 경우 TLS를 요구하거나 강제로 실행하도록 Exchange Online을 구성할 수 있습니다. 자세한 내용은 [Office 365에서](https://technet.microsoft.com/library/ms.exch.eac.connectorselection%28v=exchg.150%29.aspx)커넥터를 사용하여 메일 흐름 구성을 참조하세요.
   
-## <a name="how-to-set-up-forced-tls-for-exchange-online-in-office-365"></a>Office 365에서 Exchange Online에 대해 강제 TLS를 설정 하는 방법
+조직과 신뢰할 수 있는 파트너 조직 간에 TLS를 구성하기로 결정한 경우 Exchange Online에서는 강제 TLS를 사용하여 신뢰할 수 있는 통신 채널을 만들 수 있습니다. 강제 TLS를 사용하려면 파트너 조직에서 보안 인증서를 통해 Exchange Online에 인증해야 메일을 보낼 수 있습니다. 파트너는 이를 위해 자체 인증서를 관리해야 합니다. Exchange Online에서는 커넥터를 사용하여 받는 사람의 전자 메일 공급자에 도착하기 전에 무단 액세스로부터 보내는 메시지를 보호합니다. 커넥터를 사용하여 메일 흐름을 구성하는 데 대한 자세한 내용은 [Office 365에서](https://technet.microsoft.com/library/ms.exch.eac.connectorselection%28v=exchg.150%29.aspx)커넥터를 사용하여 메일 흐름 구성을 참조하십시오.
+  
+## <a name="tls-and-hybrid-exchange-server-deployments"></a>TLS 및 하이브리드 Exchange Server 배포
 
-Exchange Online 고객의 경우 강제 TLS가 전송 및 수신 전자 메일을 모두 보호 하려면 TLS가 필요한 커넥터를 둘 이상 설정 해야 합니다. 사용자 사서함에 전송 되는 전자 메일에 대 한 커넥터와 사용자 사서함에서 보내는 전자 메일에 대 한 다른 커넥터를 사용 해야 합니다. Office 365의 Exchange 관리 센터에서 이러한 커넥터를 만듭니다. 자세한 내용은 [Office 365에서 커넥터를 사용 하 여 메일 흐름 구성을](https://technet.microsoft.com/library/ms.exch.eac.connectorselection%28v=exchg.150%29.aspx)참조 하세요.
+하이브리드 Exchange 배포를 관리하는 경우 사서함이 Office 365에만 있는 받는 사람에게 메일을 보내기 위해 보안 인증서를 사용하여 Microsoft 365에 인증해야 합니다. 따라서, 자체 보안 인증서를 관리해야 합니다.프레미스 Exchange 서버의 보안 인증서를 관리해야 합니다. 또한 이러한 서버 인증서를 안전하게 저장하고 유지 관리해야 합니다. 하이브리드 배포에서 인증서를 관리하는 데 대한 자세한 내용은 하이브리드 배포에 대한 인증서 [요구 사항을 참조하십시오.](https://technet.microsoft.com/library/hh563848%28v=exchg.150%29.aspx)
   
-## <a name="tls-certificate-information-for-exchange-online"></a>Exchange Online에 대 한 TLS 인증서 정보
+## <a name="how-to-set-up-forced-tls-for-exchange-online-in-office-365"></a>Office 365에서 Exchange Online에 대해 강제 TLS를 설정하는 방법
 
-다음 표에는 Exchange Online에서 사용 되는 인증서 정보에 대 한 설명이 나와 있습니다. 비즈니스 파트너가 전자 메일 서버에서 강제 TLS를 설정 하는 경우에는이 정보를 해당 사용자에 게 제공 해야 합니다. 보안상의 이유로 인증서는 시간에 따라 변경 됩니다. Microsoft는 데이터 센터 내에서 인증서에 대 한 업데이트를 롤업 했습니다. 새 인증서는 2018 년 9 월 3 일에서 유효 합니다.
+Exchange Online 고객의 경우 보내고 받은 모든 전자 메일을 강제로 TLS로 보호하려면 TLS가 필요한 커넥터를 두 개 이상 설정해야 합니다. 사용자 사서함으로 전송되는 전자 메일에 대한 커넥터와 사용자 사서함에서 보낸 전자 메일에 대한 커넥터가 필요합니다. Office 365의 Exchange 관리 센터에서 이러한 커넥터를 만들 수 있습니다. 자세한 내용은 [Office 365에서](https://technet.microsoft.com/library/ms.exch.eac.connectorselection%28v=exchg.150%29.aspx)커넥터를 사용하여 메일 흐름 구성을 참조하세요.
   
- **현재 인증서 정보는 2018 년 9 월 3 일에서 유효 합니다.**
+## <a name="tls-certificate-information-for-exchange-online"></a>Exchange Online에 대한 TLS 인증서 정보
+
+Exchange Online에서 사용하는 인증서 정보는 다음 표에 설명되어 있습니다. 비즈니스 파트너가 전자 메일 서버에 강제 TLS를 설정하는 경우 이 정보를 제공해야 합니다. 보안상의 이유로 인증서는 수시로 변경됩니다. 데이터 센터 내에서 인증서에 대한 업데이트를 출시했습니다. 새 인증서는 2018년 9월 3일부터 유효합니다.
+  
+ **2018년 9월 3일 이후 유효한 현재 인증서 정보**
   
 |**Attribute(특성)**|**값**|
 |:-----|:-----|
-|인증 기관 루트 발급자  <br/> |GlobalSign Root CA – R1 <br/> |
+|인증 기관 루트 발급자  <br/> |GlobalSign Root CA - R1 <br/> |
 |인증서 이름  <br/> |mail.protection.outlook.com  <br/> |
 |조직  <br/> |Microsoft Corporation  <br/> |
 |조직 구성 단위  <br/> |  <br/> |
 |인증서 키 강도  <br/> |2048  <br/> |
    
- **사용 되지 않는 인증서 정보는 2018 년 9 월 3 일까 지 유효 합니다.**
+ **사용 불가능한 인증서 정보는 2018년 9월 3일까지 유효합니다.**
   
-원활한 전환을 위해 계속 해 서 참조에 대 한 이전 인증서 정보를 제공 하는 것이 좋지만 지금은 현재 인증서 정보를 사용 해야 합니다.
+원활한 전환을 위해 앞으로도 참조를 위해 이전 인증서 정보를 계속 제공하겠지만 현재 인증서 정보를 계속 사용해야 합니다.
   
 ****
 
@@ -85,30 +87,30 @@ Exchange Online 고객의 경우 강제 TLS가 전송 및 수신 전자 메일�
    
 ## <a name="prepare-for-the-new-exchange-online-certificate"></a>새 Exchange Online 인증서 준비
 
-새 인증서는 Exchange Online에서 사용 하는 이전 인증서의 다른 CA (인증 기관)에서 발급 합니다. 따라서 새 인증서를 사용 하기 위해 몇 가지 작업을 수행 해야 할 수 있습니다.
+새 인증서는 Exchange Online에서 사용한 이전 인증서와 다른 CA(인증 기관)에서 발급됩니다. 따라서 새 인증서를 사용하려면 몇 가지 작업을 수행해야 할 수 있습니다.
 
-새 인증서를 사용 하려면 인증서 유효성 검사의 일환으로 새 CA의 끝점에 연결 해야 합니다. 이렇게 하지 않으면 메일 흐름에 부정적인 영향을 줄 수 있습니다. 메일 서버를 특정 대상에만 연결 하도록 하는 방화벽을 사용 하 여 메일 서버를 보호 하는 경우 서버에서 새 인증서를 확인할 수 있는지 확인 해야 합니다. 서버에서 새 인증서를 사용할 수 있는지 확인 하려면 다음 단계를 완료 합니다.
+새 인증서를 사용하려면 인증서 유효성 검사의 일부로 새 CA의 끝점에 연결해야 합니다. 이렇게 하지 못하면 메일 흐름에 부정적인 영향을 줄 수 있습니다. 메일 서버가 특정 대상과만 연결할 수 있도록 하는 방화벽을 사용하여 메일 서버를 보호하는 경우 서버에서 새 인증서의 유효성을 검사할 수 있는지 확인해야 합니다. 서버에서 새 인증서를 사용할 수 있도록 확인을 위해 다음 단계를 완료합니다.
 
-1. Windows PowerShell을 사용 하 여 로컬 Exchange 서버에 연결한 후 다음 명령을 실행 합니다.  
+1. 다음 명령을 Exchange Server 로컬 Windows PowerShell 다음 명령을 실행합니다.  
   `certutil -URL https://crl.globalsign.com/gsorganizationvalsha2g3.crl`
-2. 표시 된 창에서 **검색**을 선택 합니다.
-3. 유틸리티가 확인을 완료 하면 상태를 반환 합니다. 상태에 **OK**가 표시 되 면 메일 서버에서 새 인증서의 유효성을 검사할 수 있습니다. 그렇지 않은 경우에는 연결이 실패 하는 원인을 확인 해야 합니다. 대개 방화벽 설정을 업데이트 해야 합니다. 액세스 해야 하는 끝점의 전체 목록은 다음과 같습니다.
+2. 창이 나타나면 검색을 **선택합니다.**
+3. 유틸리티가 확인을 완료하면 상태가 반환됩니다. 상태가 **확인으로** 표시될 경우 메일 서버가 새 인증서의 유효성을 검사할 수 있습니다. 그렇지 않은 경우 연결이 실패하는 원인을 결정해야 합니다. 대부분의 경우 방화벽 설정을 업데이트해야 합니다. 액세스해야 하는 끝점의 전체 목록은 다음과 같습니다.
     - ocsp.globalsign.com
      - crl.globalsign.com
      - secure.globalsign.com   
 
-일반적으로 Windows Update를 통해 루트 인증서에 대 한 업데이트가 자동으로 수신 됩니다. 그러나 일부 배포에는 이러한 업데이트가 자동으로 수행 되지 않는 추가 보안이 적용 됩니다. Windows Update에서 루트 인증서를 자동으로 업데이트할 수 없는 이러한 잠겨진 배포에서는 다음 단계를 완료 하 여 올바른 루트 CA 인증서가 설치 되어 있는지 확인 해야 합니다.
-1.  Windows PowerShell을 사용 하 여 로컬 Exchange 서버에 연결한 후 다음 명령을 실행 합니다.  
+일반적으로 Windows 업데이트를 통해 루트 인증서에 대한 업데이트를 자동으로 받게 됩니다. 그러나 일부 배포에는 이러한 업데이트가 자동으로 발생하지 않도록 하는 추가 보안이 있습니다. Windows 업데이트에서 루트 인증서를 자동으로 업데이트할 수 없는 잠긴 배포에서는 다음 단계를 완료하여 올바른 루트 CA 인증서가 설치되도록 해야 합니다.
+1.  다음 명령을 사용하여 Exchange Server 로컬 Windows PowerShell 다음 명령을 실행합니다.  
   `certmgr.msc`
-2. **신뢰할 수 있는 루트 인증 기관/인증서**에서 새 인증서가 나열 되는지 확인 합니다.
+2. 신뢰할 **수 있는 루트 인증 기관/인증서에서** 새 인증서가 나열되어 있는지 확인
 
-## <a name="get-more-information-about-tls-and-microsoft-365"></a>TLS 및 Microsoft 365에 대 한 자세한 내용 보기
+## <a name="get-more-information-about-tls-and-microsoft-365"></a>TLS 및 Microsoft 365에 대한 자세한 정보 다운로드
 
-지원 되는 암호 제품군 목록을 보려면 [암호화에 대 한 기술 참조 세부 정보](technical-reference-details-about-encryption.md)를 참조 하세요.
+지원되는 암호화 제품군 목록은 암호화에 대한 [기술 참조 세부 정보를 참조하세요.](technical-reference-details-about-encryption.md)
   
 [파트너 조직과의 보안 메일 흐름을 위한 커넥터 설정](https://technet.microsoft.com/library/dn751021%28v=exchg.150%29.aspx)
   
-[전자 메일 보안이 강화 된 커넥터](https://technet.microsoft.com/library/261d92e4-7371-4555-b781-2062b5bb5278.aspx)
+[전자 메일 보안이 강화된 커넥터](https://technet.microsoft.com/library/261d92e4-7371-4555-b781-2062b5bb5278.aspx)
   
 [Microsoft 365의 암호화](encryption.md)
   

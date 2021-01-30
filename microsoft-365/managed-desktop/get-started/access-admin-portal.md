@@ -10,22 +10,22 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 09427d163b8b5e47911b6df26e5acf0fcd1f3524
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: c2a5b7f837d6c43369301820019732ca3aef83bf
+ms.sourcegitcommit: ea8a096df5acedecdce1780969f2b189c3fadf73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841354"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50053850"
 ---
 # <a name="access-the-admin-portal"></a>관리 포털 액세스
 
-Microsoft Managed Desktop 서비스에 대한 게이트웨이는 Microsoft [Azure Portal입니다.](https://portal.azure.com) 일반적으로 Azure Portal 환경을 사용하고 사용자 지정하는 데 대한 자세한 내용은 [Azure Portal 설명서를 참조하세요.](https://docs.microsoft.com/azure/azure-portal/) 지금 미리 보기에서 사용할 수 있습니다. Microsoft [Endpoint Manager에서 Microsoft](https://endpoint.microsoft.com/)Managed Desktop을 찾을 수 있습니다. 장치 관리를 위해 이 포털의 기능을 익숙하지 않은 경우 [Microsoft Endpoint Manager](https://docs.microsoft.com/mem/)설명서를 참조하십시오.
+Microsoft Managed Desktop 서비스에 대한 게이트웨이가 [Microsoft Endpoint Manager입니다.](https://endpoint.microsoft.com/) 장치 관리를 위해 이 포털의 기능을 익숙하지 않은 경우 [Microsoft Endpoint Manager](https://docs.microsoft.com/mem/)설명서를 참조하십시오.
 
 > [!NOTE]
-> 그러나 Microsoft [Endpoint Manager](https://endpoint.microsoft.com/) 또는 [Azure Portal에서](https://portal.azure.com)Microsoft Managed Desktop에 액세스하기로 선택한 경우 다음 브라우저가 지원됩니다.
+> [Microsoft Endpoint Manager에서 지원되는](https://endpoint.microsoft.com/) 브라우저는 다음과 같습니다.
 > - Microsoft Edge(최신 버전)
 > - Microsoft Internet Explorer 11
-> - Safari(최신 버전, Mac에만 해당)
+> - Safari(최신 버전, Mac만 해당)
 > - Chrome(최신 버전)
 > - Firefox(최신 버전)
 
@@ -46,7 +46,7 @@ Microsoft Managed Desktop 서비스에 대한 게이트웨이는 Microsoft [Azur
 > 전역 관리자 역할만 Microsoft Managed  Desktop에서 조직을 등록하는 데 필요한 권한이 있습니다. Azure Active Directory 역할은 다양한 Microsoft 서비스에서 사용자 계정에 권한을 부여합니다. Microsoft Managed Desktop 등록을 완료한 후 다른 작업을  수행하는 데 필요한 최소 권한으로 항상 역할을 사용해야 합니다.
 
  
-|사용자 지정 역할  |Microsoft Managed Desktop 사용 권한  |
+|사용자 지정 역할  |Microsoft Managed Desktop 권한  |
 |---------|---------|
 |Microsoft Managed Desktop Service 관리자  | 사용자에게 할당된 경우 이 역할은  Microsoft Managed Desktop Admin 포털의 보안과 관련이 없는 기능에 대한 읽기 및 쓰기 권한을 관리자에게 부여합니다.  |
 |Microsoft Managed Desktop Service Reader | 사용자에게 할당된 경우 이 역할은  Microsoft Managed Desktop Admin 포털의 보안과 관련이 없는 기능에 대한 읽기 전용 권한을 관리자에게 부여합니다. |
