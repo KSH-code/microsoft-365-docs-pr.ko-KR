@@ -13,14 +13,14 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
-description: 새 메시지 보호 기능의 작동 방식에 대해 궁금한 의문이 있나요? 여기에서 답변을 확인하세요.
+description: 새 메시지 보호 기능의 작동 방식에 대해 질문이 있나요? 여기에서 답변을 확인하세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4be3ff4be1d5bf8b81d06ea17a8345e4c843b150
-ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
+ms.openlocfilehash: a88d853905ed8462972c9f423254a49424974bb7
+ms.sourcegitcommit: c550c1b5b9e67398fd95bfb0256c4f5c7930b2be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "50058541"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50066841"
 ---
 # <a name="message-encryption-faq"></a>메시지 암호화 FAQ
 
@@ -38,7 +38,7 @@ OME는 전자 메일 암호화 및 권한 관리 기능을 결합합니다. 권�
 
 - OME 및 IRM을 설정한 경우 Azure Information Protection의 Azure 권한 관리 서비스를 사용하는 경우 다음 단계를 사용할 수 있습니다.
 
-- AD RMS(Active Directory Rights Management Service)와 함께 Exchange Online을 사용하는 경우 이러한 새 기능을 바로 사용하도록 설정할 수 없습니다. 대신 먼저 AD [RMS를 Azure Information Protection으로 마이그레이션해야](https://docs.microsoft.com/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms) 합니다. 마이그레이션이 완료되면 OME를 성공적으로 설정할 수 있습니다.
+- AD RMS(Active Directory Rights Management Service)와 함께 Exchange Online을 사용하는 경우 이러한 새 기능을 바로 사용하도록 설정할 수 없습니다. 대신 AD [RMS를 Azure Information Protection으로](https://docs.microsoft.com/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms) 먼저 마이그레이션해야 합니다. 마이그레이션이 완료되면 OME를 성공적으로 설정할 수 있습니다.
 
   Azure Information Protection으로 마이그레이션하는 대신 Exchange Online과 함께 계속 On-premises AD RMS를 사용하기로 선택한 경우 이러한 새 기능을 사용할 수 없습니다.
 
@@ -48,7 +48,7 @@ OME는 전자 메일 암호화 및 권한 관리 기능을 결합합니다. 권�
   
 - Office 365 메시지 암호화는 Office 365 Enterprise E3 및 E5, Microsoft Enterprise E3 및 E5, Microsoft 365 Business Premium, Office 365 A1, A3 및 A5 및 Office 365 Government G3 및 G5의 일부로 제공됩니다. 고객은 Azure Information Protection의 새로운 보호 기능을 받기 위해 추가 라이선스가 필요하지 않습니다.
 
-- 또한 Azure Information Protection 계획 1을 다음 계획에 추가하여 새로운 Office 365 메시지 암호화 기능을 받을 수 있습니다. Exchange Online 계획 1, Exchange Online 계획 2, Office 365 F1, Microsoft 365 Business Basic, Microsoft 365 Business Standard 또는 Office 365 Enterprise E1.
+- 또한 Azure Information Protection 계획 1을 다음 계획에 추가하여 새 Office 365 메시지 암호화 기능을 받을 수 있습니다. Exchange Online 계획 1, Exchange Online 계획 2, Office 365 F1, Microsoft 365 Business Basic, Microsoft 365 Business Standard 또는 Office 365 Enterprise E1.
 
 - Office 365 메시지 암호화를 통해 혜택을 받을 수 있는 각 사용자는 이 기능을 사용할 수 있도록 라이선스가 부여되어야 합니다.
 
@@ -70,13 +70,13 @@ Office 365 메시지 암호화에 대한 새로운 기능은 기존 IRM 및 레�
   
 **레거시 OME, IRM 및 새로운 OME 기능 비교**
 
-|**기능**|**이전 버전의 OME**|**IRM**|**새로운 OME 기능**|
+| 기능 | 이전 버전의 OME | IRM | 새로운 OME 기능 |
 |:-----|:-----|:-----|:-----|
 |**암호화된 전자 메일 보내기**|Exchange 메일 흐름 규칙을 통해서만|최종 사용자가 Windows용 Outlook, Mac용 Outlook 또는 웹용 Outlook에서 시작한 경우 또는 Exchange 메일 흐름 규칙을 통해|최종 사용자가 Windows용 Outlook, Mac용 Outlook 또는 웹용 Outlook에서 시작한 경우 또는 메일 흐름 규칙을 통해|
 |**권한 관리**|-|전달하지 않는 옵션 및 사용자 지정 템플릿|전달하지 않는 옵션, 암호화 전용 옵션, 기본 서식 파일 및 사용자 지정 템플릿|
 |**지원되는 받는 사람 유형**|외부 받는 사람만|내부 받는 사람만|내부 및 외부 받는 사람|
 |**받는 사람 환경**|외부 받는 사람은 브라우저 또는 다운로드된 모바일 앱에서 다운로드하여 열었다는 HTML 메시지를 수신했습니다.|내부 받는 사람은 Windows용 Outlook, Mac용 Outlook 및 웹용 Outlook에서만 암호화된 전자 메일을 수신했습니다.|내부 및 외부 받는 사람은 동일한 조직에 있는지 조직에 있는지 여부에 관계없이 Windows용 Outlook, Mac용 Outlook, 웹용 Outlook, Android용 Outlook 및 iOS용 Outlook 또는 웹 포털을 통해 전자 메일을 받을 수 있습니다. OME 포털을 별도로 다운로드할 필요는 없습니다.|
-|**키 지원 가져오기**|사용할 수 없음|사용할 수 없음| BYOK 지원|
+|**직접 키 지원 가져오기**|사용할 수 없음|사용할 수 없음| BYOK 지원|
 
 ## <a name="how-do-i-enable-the-new-ome-capabilities-for-my-organization"></a>조직에 대해 새 OME 기능을 사용하도록 설정하려면 어떻게 해야 합니까?
 
@@ -84,11 +84,11 @@ Office 365 메시지 암호화에 대한 새로운 기능은 기존 IRM 및 레�
   
 ## <a name="will-the-previous-version-of-ome-be-deprecated"></a>이전 버전의 OME는 사용되지 않습니다.
 
-여전히 이전 버전의 OME를 사용할 수 있습니다. 이 버전은 현재 사용되지 않습니다. 그러나 조직에서 새로운 OME 솔루션을 사용하는 것이 좋습니다. 아직 OME를 배포하지 않은 고객은 이전 버전의 OME의 새 배포를 설정할 수 없습니다.
+여전히 이전 버전의 OME를 사용할 수 있습니다. 이 버전은 현재 사용되지 않습니다. 그러나 조직에서는 새로운 OME 솔루션과 향상된 OME 솔루션을 사용하는 것이 좋습니다. 아직 OME를 배포하지 않은 고객은 이전 버전의 OME의 새 배포를 설정할 수 없습니다.
   
 ## <a name="my-organization-uses-active-directory-rights-management-can-i-use-this-functionality"></a>조직에서 Active Directory 권한 관리를 사용하나요? 이 기능을 사용할 수 있나요?
 
-아니요. AD RMS(Active Directory Rights Management Service)와 함께 Exchange Online을 사용하는 경우 이러한 새 기능을 바로 사용하도록 설정할 수 없습니다. 대신 먼저 AD [RMS를 Azure Information Protection으로 마이그레이션해야](https://docs.microsoft.com/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms) 합니다.
+아니요. AD RMS(Active Directory Rights Management Service)와 함께 Exchange Online을 사용하는 경우 이러한 새 기능을 바로 사용하도록 설정할 수 없습니다. 대신 AD [RMS를 Azure Information Protection으로](https://docs.microsoft.com/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms) 먼저 마이그레이션해야 합니다.
   
 ## <a name="my-organization-has-an-exchange-hybrid-deployment-can-i-use-this-feature"></a>조직에 Exchange 하이브리드 배포가 있습니다. 이 기능을 사용할 수 있나요?
 
@@ -124,7 +124,7 @@ Word, Excel 또는 PowerPoint 파일과 같은 파일 형식이 지원되는 경
 
 Outlook 데스크톱에서는 기본적으로 PDF 파일 첨부 파일의 암호화를 지원하지 않습니다. 대신 먼저 암호화를 PDF 첨부 파일에 적용하려면 Exchange 메일 흐름 규칙 또는 DLP를 설정해야 합니다. PDF 첨부 파일이 있는 Outlook Desktop에서 메일을 보내면 클라이언트는 첨부 파일이 있는 메시지를 먼저 서비스에 전송합니다. 서비스가 파일을 받으면 Exchange Online에서 DLP(데이터 손실 방지) 정책 또는 메일 흐름 규칙의 OME 보호를 적용합니다. 다음으로 Exchange Online은 보호된 PDF 파일 첨부 파일이 있는 메시지를 전송합니다.
 
-PDF 첨부 파일에 암호화를 사용하도록 설정하려면 [Exchange Online PowerShell에서 다음 명령을 실행합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+PDF 첨부 파일에 대해 암호화를 사용하도록 설정하려면 [Exchange Online PowerShell에서 다음 명령을 실행합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
 
 ```powershell
 Set-IRMConfiguration -EnablePdfEncryption $true
@@ -154,7 +154,7 @@ Not yet. 비즈니스용 OneDrive 첨부 파일은 지원되지 않습니다. �
   
 ## <a name="can-i-automatically-remove-encryption-on-incoming-and-outgoing-mail"></a>받는 메일과 보내기 메일의 암호화를 자동으로 제거할 수 있나요?
 
-관리자는 메일 흐름 규칙을 설정하여 보낸 메일에 대한 암호화를 제거할 수 있습니다. 받는 메일에 대한 암호화를 제거하기 위한 규칙을 설정할 수 없습니다.
+관리자는 메일 흐름 규칙을 설정하여 보낸 메일에 대한 암호화를 제거할 수 있습니다. 받는 메일에 대한 암호화를 제거하는 규칙을 설정할 수 없습니다.
 
 ## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies-in-data-loss-prevention-dlp-through-the-security-amp-compliance-center"></a>보안 준수 센터를 통해 DLP(데이터 손실 방지)에서 정책을 설정하여 메시지를 자동으로 암호화할 &amp; 수 있나요?
 
@@ -166,7 +166,7 @@ Not yet. 비즈니스용 OneDrive 첨부 파일은 지원되지 않습니다. �
   
 ## <a name="are-there-any-reporting-capabilities-or-insights-for-encrypted-emails"></a>암호화된 전자 메일에 대한 보고 기능 또는 인사이트가 있습니까?
 
-보안 및 준수 센터에 암호화 보고서가 있습니다. 보안 및 준수 센터에서 전자 [메일 보안 보고서 & 참조하세요.](../security/office-365-security/view-email-security-reports.md)
+보안 및 준수 센터에 암호화 보고서가 있습니다. 보안 및 준수 센터에서 전자 [메일 & 보기를 참조하세요.](../security/office-365-security/view-email-security-reports.md)
   
 ## <a name="can-i-use-message-encryption-with-compliance-features-such-as-ediscovery"></a>eDiscovery와 같은 규정 준수 기능과 함께 메시지 암호화를 사용할 수 있나요?
 
@@ -178,7 +178,7 @@ Not yet. 비즈니스용 OneDrive 첨부 파일은 지원되지 않습니다. �
 
 ## <a name="is-delegated-access-supported"></a>위임된 액세스가 지원하나요?
 
-현재는 안 됩니다.
+현재는 아니요.
 
 ## <a name="can-i-send-as-a-shared-mailbox-and-encrypt-emails"></a>공유 사서함으로 보내고 전자 메일을 암호화할 수 있나요?
 
@@ -223,7 +223,7 @@ Not yet. 비즈니스용 OneDrive 첨부 파일은 지원되지 않습니다. �
 
 사용자는 직접 액세스 권한이 부여되고 automapping이 켜져 있는 한 암호화된 메시지를 열 수 있습니다. 전자 메일 사용이 가능한 보안 그룹을 통해 액세스 권한이 부여된 경우 액세스가 허용되지 않습니다.
 
-## <a name="what-do-i-do-if-i-dont-receive-the-one-time-pass-code-after-i-requested-it"></a>요청한 후 일회성 코드를 받지 못하면 어떻게 하나요?
+## <a name="what-do-i-do-if-i-dont-receive-the-one-time-pass-code-after-i-requested-it"></a>요청한 후 일회성 코드가 수신되지 않는 경우 어떻게 해야 하나요?
 
 먼저 전자 메일 클라이언트에서 정크 또는 스팸 폴더를 확인합니다. 조직의 DKIM 및 DMARC 설정으로 인해 이러한 전자 메일이 스팸으로 필터링될 수 있습니다.
 

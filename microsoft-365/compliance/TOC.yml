@@ -152,8 +152,6 @@
           href: encryption-sensitivity-labels.md
         - name: 민감도 레이블을 콘텐츠에 자동으로 적용
           href: apply-sensitivity-label-automatically.md
-        - name: 레이블 분석을 통한 레이블 사용량 보기
-          href: label-analytics.md
         - name: '팀, 그룹 및 사이트와 민감도 레이블 사용'
           href: sensitivity-labels-teams-groups-sites.md
         - name: SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용

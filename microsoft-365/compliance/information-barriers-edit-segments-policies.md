@@ -12,12 +12,12 @@ ms.collection:
 localization_priority: None
 f1.keywords:
 - NOCSH
-ms.openlocfilehash: 62e9910a1b94862ba23ecdc63c0fea1ec644043a
-ms.sourcegitcommit: c10eb675da725830e9776d2a0566ba3622eb361c
+ms.openlocfilehash: 3a95ccb476960424b701f522aacce78576e6f68f
+ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49980081"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50071283"
 ---
 # <a name="manage-information-barrier-policies"></a>정보 장벽 정책 관리
 
@@ -37,11 +37,11 @@ ms.locfileid: "49980081"
 | [정보 장벽 문제 해결](information-barriers-troubleshooting.md) | 정보 장벽으로 예기치 않은 문제가 발생할 경우 이 문서를 참조하세요. |
 
 > [!IMPORTANT]
-> 이 문서에 설명된 작업을 수행하려면 다음 중 하나와 같은 적절한 역할을 할당해야 합니다.<br/>- Microsoft 365 Enterprise Global Administrator<br/>- 전역 관리자<br/>- 준수 관리자<br/>- IB 규정 준수 관리(새 역할입니다!)<br><br>정보 장벽의 선행 준비에 대한 자세한 내용은 사전 준비(정보 장벽 정책의 경우)를 [참조하세요.](information-barriers-policies.md#prerequisites)<br><br> 보안 및 준수 [센터 PowerShell에 & 합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+> 이 문서에 설명된 작업을 수행하려면 다음 중 하나와 같은 적절한 역할을 할당해야 합니다.<br/>- Microsoft 365 Enterprise Global Administrator<br/>- 전역 관리자<br/>- 준수 관리자<br/>- IB 규정 준수 관리(새 역할입니다!)<br><br>정보 장벽의 선행 준비에 대한 자세한 내용은 사전 준비(정보 장벽 정책의 경우)를 [참조하세요.](information-barriers-policies.md#prerequisites)<br><br> Security & [준수 센터 PowerShell에 연결해야 합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
 ## <a name="edit-user-account-attributes"></a>사용자 계정 특성 편집
 
-다음 절차에 따라 사용자를 분할하는 데 사용되는 특성을 편집합니다. 예를 들어 Department 특성을 사용하는 경우 하나 이상의 사용자 계정에 현재 Department에 대해 나열된 값이 없는 경우 부서 정보를 포함하도록 해당 사용자 계정을 편집해야 합니다. 사용자 계정 특성은 정보 장벽 정책을 할당할 수 있도록 세그먼트를 정의하는 데 사용됩니다.
+다음 절차에 따라 사용자 분할에 사용되는 특성을 편집합니다. 예를 들어 Department 특성을 사용하는 경우 하나 이상의 사용자 계정에 현재 Department에 대해 나열된 값이 없는 경우 부서 정보를 포함하도록 해당 사용자 계정을 편집해야 합니다. 사용자 계정 특성은 정보 장벽 정책을 할당할 수 있도록 세그먼트를 정의하는 데 사용됩니다.
 
 1. 특성 값 및 할당된 세그먼트와 같은 특정 사용자 계정에 대한 세부 정보를 확인하려면 Identity 매개 변수와 함께 **Get-InformationBarrierRecipientStatus** cmdlet을 사용합니다.
 
@@ -90,7 +90,7 @@ ms.locfileid: "49980081"
 
     예: 리서치 세그먼트가  영업 및 마케팅 세그먼트와  통신하지 않습니다.  정책은 다음 cmdlet을 사용하여 정의했습니다. `New-InformationBarrierPolicy -Name "Research-SalesMarketing" -AssignedSegment "Research" -SegmentsBlocked "Sales","Marketing"`
 
-    리서치 부문의 사용자가 HR  세그먼트의 사용자와만 통신할 수 있도록 변경하려는 *경우를 가정해* 10.04.04.15.0 이 변경을 위해 다음 cmdlet을 사용 합니다. `Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -SegmentsAllowed "HR"`
+    리서치 부문의 사용자가 HR  세그먼트의 사용자와만 통신할 수 있도록 변경하려는 *경우를 가정해* 가정해 10.04.04.15.04. 이 변경을 위해 다음 cmdlet을 사용 합니다. `Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -SegmentsAllowed "HR"`
 
     이 예제에서는 "SegmentsBlocked"를 "SegmentsAllowed"로 변경하고 *HR 세그먼트를 지정했습니다.*
 
@@ -114,7 +114,7 @@ ms.locfileid: "49980081"
 
     구문: `Start-InformationBarrierPoliciesApplication`
 
-    조직에 대한 변경 내용은 사용자에 따라 적용됩니다. 조직이 규모가 큰 경우 이 프로세스를 완료하는 데 24시간 이상이 걸릴 수 있습니다. (일반적으로 사용자 계정 5,000개 처리에 1시간 정도 소요됩니다.)
+    변경 내용은 사용자에 따라 조직에 적용됩니다. 조직이 규모가 큰 경우 이 프로세스를 완료하는 데 24시간 이상이 걸릴 수 있습니다. (일반적으로 사용자 계정 5,000개 처리에 1시간 정도 소요됩니다.)
 
 이때 하나 이상의 정보 장벽 정책이 비활성 상태로 설정됩니다. 여기에서 다음 작업을 수행할 수 있습니다.
 
@@ -148,7 +148,7 @@ ms.locfileid: "49980081"
 
 ## <a name="stop-a-policy-application"></a>정책 응용 프로그램 중지
 
-정보 장벽 정책 적용을 시작한 후 해당 정책이 적용되지 못하게 하려는 경우 다음 절차를 사용합니다. 프로세스를 시작하는 데 약 30-35분이 걸립니다.
+정보 장벽 정책 적용을 시작한 후 해당 정책이 적용되지 못하게 하려는 경우 다음 절차를 사용합니다. 프로세스가 시작되는 데 약 30-35분이 걸립니다.
 
 1. 최신 정보 장벽 정책 응용 프로그램의 상태를 확인하기 위해 **Get-InformationBarrierPoliciesApplicationStatus** cmdlet을 사용하세요.
 
@@ -166,6 +166,8 @@ ms.locfileid: "49980081"
 
 - [정보 장벽 개요 보기](information-barriers.md)
 - [정보 장벽에 대한 정책 정의](information-barriers-policies.md)
-- [Microsoft Teams의 정보 장벽에 대해 자세히 알아보기](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)
+- [Microsoft Teams의 정보 장벽에 대해 자세히 알아보기](/MicrosoftTeams/information-barriers-in-teams)
+- [SharePoint Online의 정보 장벽에 대해 자세히 알아보기](/sharepoint/information-barriers)
+- [OneDrive의 정보 장벽에 대한 자세한 정보](/onedrive/information-barriers)
 - [정보 장벽 정책의 속성](information-barriers-attributes.md)
 - [정보 장벽 문제 해결](information-barriers-troubleshooting.md)

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 483fedd1fb152e3df5311c981b305e621ec2aec3
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 3f03543b03dca5fe426700ffff4f5c6edb8fa3c7
+ms.sourcegitcommit: c550c1b5b9e67398fd95bfb0256c4f5c7930b2be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932205"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50066872"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>고급 헌팅 스마 - 이름 변경
 
@@ -47,10 +47,32 @@ ms.locfileid: "49932205"
 
 | 테이블 이름 | 원래 열 이름 | 새 열 이름 | 변경 이유
 |--|--|--|--|
-| [EmailEvents](advanced-hunting-emailevents-table.md) | FinalEmailAction | EmailAction | 고객 피드백 |
-| [EmailEvents](advanced-hunting-emailevents-table.md) | FinalEmailActionPolicy | EmailActionPolicy | 고객 피드백 |
-| [EmailEvents](advanced-hunting-emailevents-table.md) | FinalEmailActionPolicyGuid | EmailActionPolicyGuid | 고객 피드백 |
+| [EmailEvents](advanced-hunting-emailevents-table.md) | `FinalEmailAction` | `EmailAction` | 고객 피드백 |
+| [EmailEvents](advanced-hunting-emailevents-table.md) | `FinalEmailActionPolicy` | `EmailActionPolicy` | 고객 피드백 |
+| [EmailEvents](advanced-hunting-emailevents-table.md) | `FinalEmailActionPolicyGuid` | `EmailActionPolicyGuid` | 고객 피드백 |
 
+## <a name="january-2021"></a>2021년 1월
+
+| 열 이름 | 원래 값 이름 | 새 값 이름 | 변경 이유
+|--|--|--|--|
+| `DetectionSource` | MCAS |    Microsoft Cloud App Security | Rebranding |
+| `DetectionSource` | WindowsDefenderAtp|   EDR| Rebranding |
+| `DetectionSource` | WindowsDefenderAv | 바이러스 검사 | Rebranding |
+| `DetectionSource` | WindowsDefenderSmartScreen |  SmartScreen | Rebranding |
+| `DetectionSource` | CustomerTI |  사용자 지정 TI | Rebranding |
+| `DetectionSource` | OfficeATP | Office 365용 Microsoft Defender | Rebranding |
+| `DetectionSource` | MTP   | Microsoft 365 Defender | Rebranding |
+| `DetectionSource` | AzureATP |    ID용 Microsoft Defender | Rebranding |
+| `DetectionSource` | CustomDetection   | 사용자 지정 검색 | Rebranding |
+| `DetectionSource` | AutomatedInvestigation |자동화된 조사 | Rebranding |
+| `DetectionSource` | ThreatExperts | Microsoft 위협 전문가 | Rebranding |
+| `DetectionSource` | 제3자 TI | 제3자 센서 | Rebranding |
+| `ServiceSource` | Microsoft Defender ATP| 엔드포인트용 Microsoft Defender | Rebranding |
+|`ServiceSource` |Microsoft 위협 방지   | Microsoft 365 Defender | Rebranding |
+| `ServiceSource` | Office 365 ATP  |Office 365용 Microsoft Defender | Rebranding |
+| `ServiceSource` |Azure ATP    |ID용 Microsoft Defender | Rebranding |
+
+`DetectionSource` 는 [AlertInfo 테이블에서](advanced-hunting-alertinfo-table.md) 사용할 수 있습니다. `ServiceSource` 은 [AlertEvidence](advanced-hunting-alertevidence-table.md) 및 [AlertInfo 테이블에서](advanced-hunting-alertinfo-table.md) 사용할 수 있습니다. 
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)

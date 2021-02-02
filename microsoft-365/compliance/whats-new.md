@@ -16,28 +16,73 @@ search.appverid:
 ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
-description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 설명서를 배포하는 경우 Microsoft 365를 사용하면 변화하는 규정 준수 환경의 최신 정보를 계속 사용할 수 있습니다. 이번 달까지의 정보를 찾아보아야 합니다.
+description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 및 업데이트된 설명서를 배포하는 경우 Microsoft 365는 변화하는 규정 준수 환경의 최상단을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8723171820bb1c089d34b81f5adb6663ecc9b8af
-ms.sourcegitcommit: 27cb4591e08f62ba0a08d6dcf224bf2039034fe5
+ms.openlocfilehash: 4fcc0c9317ed0f302c03ba4bda0b536b57889660
+ms.sourcegitcommit: c550c1b5b9e67398fd95bfb0256c4f5c7930b2be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2021
-ms.locfileid: "49883717"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50066821"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
-[Microsoft 365](microsoft-365-compliance-center.md)규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 및 업데이트된 설명서를 배포하는 경우, Microsoft 365는 변화하는 규정 준수 환경의 최상단을 유지하도록 지원합니다. 아래에서 Microsoft 365 규정 준수의 새로운 모습을 확인하세요. 
+[Microsoft 365](microsoft-365-compliance-center.md)규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 및 업데이트된 설명서를 배포하는 경우, Microsoft 365는 변화하는 규정 준수 환경의 최상단을 유지하도록 지원합니다. 아래에서 Microsoft 365 규정 준수의 새로운 모습을 확인하세요.
 
 > [!NOTE]
 > 일부 규정 준수 기능은 고객에게 다른 속도로 롤아웃됩니다. 아직 기능이 없는 경우 대상 릴리스에 자신을 [추가해 보세요.](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365)
-
 
 > [!TIP]
 > 다른 관리 센터에서 진행할 일에 관심이 있나요? 다음 문서를 확인할 수 있습니다.<br>[Microsoft 365 관리 센터의 새로운](https://docs.microsoft.com/office365/admin/whats-new-in-preview)<br>[SharePoint 관리 센터의 새로운](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Microsoft 365 Defender의 새로운 기능](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
 또한 [Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) 로드맵을 방문하여 출시, 배포 중, 개발 중, 취소 또는 이전에 릴리스된 Microsoft 365 기능에 대해 자세히 알아보는 방법을 알아보는 것이 있습니다.
 
-## <a name="november--december-2020"></a>2020년 11월 &
+## <a name="december-2020"></a>2020년 12월
+
+### <a name="spotlight-new-content-for-insider-risk-solutions"></a>스포트라이트: 내부자 위험 솔루션에 대한 새 콘텐츠
+
+Microsoft 365 규정 준수 콘텐츠 팀은 규정 준수 기능을 함께 사용하여 규정 준수 목표를 달성하는 방법을 홍보하기 위해 '콘텐츠 솔루션' docs를 만들기 위해 노력합니다.
+
+먼저 커뮤니케이션 규정 준수, 내부자 위험 관리, 정보 장벽 및 권한이 부여된 액세스 관리와 같은 내부자 위험 솔루션을 함께 연계하는 콘텐츠입니다. 다음은 찾을 수 있는 정보를 한 가지 예입니다.
+
+- [내부자 위험 솔루션에 대한 새 방문 페이지입니다.](insider-risk-solution-overview.md) 솔루션으로 완화, 라이선스 요구 사항, 배포 시퀀스, 아키텍처 그림, 교육 리소스 등 완화에 도움이 될 수 있는 위험에 대한 세부 정보가 포함됩니다.
+- 각 내부자 위험 솔루션에 대한 새로운 개요 문서입니다. 각 솔루션에 대해 알아보고, 계획하고, 배포하고, 관리하는 데 도움이 되는 문서에 대한 지침 및 링크:
+  - [커뮤니케이션 규정 준수](communication-compliance-solution-overview.md)
+  - [내부자 위험 관리](insider-risk-management-solution-overview.md)
+  - [정보 장벽](information-barriers-solution-overview.md)
+  - [권한이 부여된 액세스 관리](privileged-access-management-solution-overview.md)
+  
+곧 더 많은 콘텐츠 솔루션 docs가 제공될 예정입니다!
+
+### <a name="advanced-ediscovery"></a>Advanced eDiscovery
+
+고급 eDiscovery [](add-custodians-to-case.md) 사례에 관리자 및 [](non-custodial-data-sources.md) 비보조 데이터 원본을 추가하기 위한 워크플로 및 기능이 개선됩니다.
+
+### <a name="data-connectors"></a>데이터 커넥터
+
+[4개의 새로운 Globanet](archiving-third-party-data.md#third-party-data-connectors)커넥터가 출시되었습니다. Redtail Speak, Salesforce Chatter, ServiceNow 및 Yieldbroker.
+
+### <a name="encryption"></a>암호화
+
+테넌트 [수준에서 Microsoft 365에 대한 고객 키를 소개합니다.](customer-key-tenant-level.md) 제공한 키를 사용하여 DEP(데이터 암호화 정책)를 만들고 테넌트에 할당할 수 있습니다. DEP는 이러한 워크로드에 대한 테넌트에서 데이터를 암호화합니다.
+
+- Teams 채팅 메시지(1:1 채팅, 그룹 채팅, 모임 채팅 및 채널 대화)
+- Teams 미디어 메시지(이미지, 코드, 비디오, 위키 이미지)
+- Teams 저장소에 저장된 Teams 통화 및 모임 녹음/녹화
+- Teams 채팅 알림
+- Cortana의 Teams 채팅 제안
+- Teams 상태 메시지
+- Exchange Online에 대한 사용자 및 신호 정보
+
+### <a name="records-management"></a>레코드 관리
+
+레코드 [관리 관리 관리 역할](get-started-with-records-management.md#permissions-required-for-records-management) 그룹은 이제 삭제 검토를 포함하여 모든 레코드 관리 기능에 대한 사용 권한을 부여합니다.
+
+### <a name="sensitivity-labels"></a>민감도 레이블
+
+- [Azure Purview(미리](https://docs.microsoft.com/en-us/azure/purview/create-sensitivity-label)보기)에서 자동으로 데이터에 레이블을 지정합니다. 이제 Azure Blob Storage의 파일 및 Azure의 데이터베이스 열과 같은 Azure Purview의 자산에 민감도 레이블을 만들고 자동으로 적용할 수 SQL Server.
+- [사용자에게 항목에 레이블을 적용해야 합니다.](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) '필수 레이블 지정'으로도 알려진 이 새 옵션을 사용하려면 사용자가 특정 시나리오에서 민감도 레이블을 선택하고 적용해야 합니다.
+
+## <a name="november-2020"></a>2020년 11월
 일반적으로 새로운 기능 및 업데이트된 기능을 미리 보기 상태로 릴리스하여 일반 가용성에 릴리스하기 전에 개선할 수 있도록 기능 사용 방법을 배워야 합니다. 피드백은 미리 보기(및 그 이상)에 중요하기 때문에 준수 센터의 오른쪽 아래에 있는 피드백 카드를 열고 의견을 알려주세요.
 
 ![피드백](../media/Feedback_card_MCC.JPG)
@@ -196,7 +241,6 @@ eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수
 - 이제 [검토 집합에](add-data-to-review-set.md#define-options-to-scope-your-collection-for-review)컬렉션을 추가할 때 최신 첨부 파일("클라우드 첨부 파일"이라고도 하는) 및 SharePoint 문서 버전을 포함할 수 있습니다.
 - 새로운 [직접 다운로드 내보내기 환경을](export-documents-from-review-set.md)통해 Azure 저장소 탐색기를 사용하여 사례 콘텐츠를 다운로드할 필요가 없습니다.
 
-
 ## <a name="july-2020"></a>2020년 7월
 
 ### <a name="spotlight-on-help-docs"></a>도움말 도움말에 대한 스포트라이트
@@ -222,180 +266,3 @@ eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수
 
 - (미리 보기) 레이블에 대한 암호화 설정을 구성할 때 이중 [](encryption-sensitivity-labels.md#double-key-encryption) 키 암호화를 사용하여 레이블이 있는 파일 및 전자 메일을 추가로 보호하는 새로운 옵션을 찾아야 합니다.
 - 민감도 레이블을 만들거나 삭제하거나 레이블 정책을 만들거나 편집하거나 삭제하면 변경 내용이 1시간 이내에 모든 사용자, 앱 및 서비스와 동기화됩니다.
-
-## <a name="june-2020"></a>2020년 6월
-
-### <a name="spotlight-new-data-connectors-hit-preview"></a>스포트라이트: 새 데이터 커넥터 적중 미리 보기
-
-더 많은 타사 원본의 데이터를 Microsoft 365로 가져오는 데 도움이 되는 약속을 기다렸다가 두 개의 추가 데이터 커넥터의 미리 보기 릴리스를 발표하게 됩니다.
-
-- [Bloomberg 메시지입니다.](archive-bloomberg-message-data.md) Bloomberg 메시지 공동 작업 도구에서 금융 서비스 전자 메일 데이터를 가져오고 보관합니다. 데이터를 사서함에 저장한 후 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사, 통신 준수 및 보존 정책과 같은 준수 기능의 데이터에 액세스하고 사용할 수 있습니다.
-- [ICE Chat](archive-icechat-data.md). ICE 채팅 공동 작업 도구에서 금융 서비스 채팅 데이터를 가져오고 보관합니다. 데이터를 사서함에 저장한 후 소송 보존, eDiscovery, 보관, 감사, 통신 준수 및 보존 정책과 같은 준수 기능의 데이터에 액세스하고 사용할 수 있습니다.
-
-### <a name="compliance-score--compliance-manager-the-hits-keep-coming"></a>준수 & 준수 관리자: 적중 수 계속
-
-6월 업데이트에는 준수 점수의 새로운 평가 드릴다운 [보기가 포함됩니다.](compliance-score.md) 제어 진행 상황을 모니터링하고 준수 점수에서 직접 평가를 추가, 삭제하는 등입니다.
-
-준수 점수 및 준수 관리자에 대한 업데이트를 최신으로 유지하려는 경우 준수 점수 릴리스 정보 [책갈피를 작성하고](compliance-score-release-notes.md) 자주 확인하십시오.
-
-## <a name="may-2020"></a>2020년 5월
-
-### <a name="spotlight-data-classification-is-officially-released"></a>스포트라이트: 데이터 분류가 공식적으로 릴리스됩니다.
-
-데이터 분류,[](data-classification-overview.md)'데이터', 기능(분석, 콘텐츠 탐색기 및 활동 탐색기)이 미리 보기 단계에서 제공된 것으로, 모든 조직에서 사용할 수 있습니다. 강력한 인사이트 및 도구는 조직 전체의 콘텐츠에서 중요한 정보 및 레이블(보존 및 민감도)이 어떻게 사용되는지 검색하고 평가하는 데 도움이 될 수 있습니다. 중요한 정보를 포함하거나 레이블이 적용된 콘텐츠를 검토하고, Microsoft 365 위치에서 레이블 활동을 탐색하고, 사용자 지정 중요한 정보 유형을 만드는 등 다양한 정보를 제공합니다.
-
-비디오 둘러보기...
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vx8x]
-
-### <a name="trainable-classifiers-a-fix-and-a-feature"></a>학습 가능한 분류자: 수정 사항 및 기능
-
-학습 가능한 분류자에 대한 향상된 기능이 제공될 수 있습니다.
-
-- 피드백에 기반한 수정 사항: 사용자 지정 분류기를 시드하고 교육할 때 더 이상 SharePoint 사이트 URL 및 폴더 경로를 수동으로 입력할 필요가 없습니다. 이제 사이트 및 폴더의 미리 채우기 목록에서 선택할 수 있습니다.
-- 새로운 기능: 민감도 레이블을 만들고 Office 앱에 대한 자동 레이블 지정 설정을 구성할 때 이제 학습 가능한 분류자와 일치하는 콘텐츠에 레이블을 자동으로 적용(또는 사용자가 적용하는 것이 좋습니다)할 수 있습니다. [자세한 정보](apply-sensitivity-label-automatically.md#configuring-trainable-classifiers-for-a-label)
-
-### <a name="communication-compliance-yammer-support-is-here"></a>커뮤니케이션 규정 준수: Yammer 지원은 다음과 같습니다.
-
-개인 메시지 및 공용 커뮤니티 Yammer 통신 준수 정책에서 지원됩니다. Yammer 채널은 선택적 채널이며 메시지 [](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) 및 첨부 파일 검색을 지원하려면 기본 모드에 있어야 합니다.
-
-### <a name="data-loss-prevention-new-sharing-restriction"></a>데이터 손실 방지: 새 공유 제한
-
-SharePoint 또는 OneDrive의 콘텐츠를 보호하기 위해 DLP 정책을 설정할 때 이제 '링크가 있는 모든[사용자'](https://support.microsoft.com/office/share-files-outside-your-organization-with-anyone-links-53e91027-fb8e-4a6e-a3e4-5df4be32e38a)옵션을 통해 콘텐츠에 대한 액세스 권한이 부여된 사람을 차단하도록 "콘텐츠에 대한 액세스 제한" 작업을 구성할 수 있습니다.
-
-### <a name="insider-risk-management-tailor-your-alert-volume"></a>내부자 위험 관리: 경고 볼륨 조정
-
-내부자 위험 정책에서 검색된 사용자 활동에는 특정 위험 점수가 할당되어 경고 심각도(낮음, 중간, 높음)를 결정하게 됩니다. 기본적으로 Microsoft 365는 낮은, 중간 및 높은 심각도 경고를 생성하지만 새로운 [](insider-risk-management-settings.md#alert-volume)경고 볼륨 설정을 사용하면 요구에 맞게 볼륨을 늘리거나 줄이면 됩니다.
-
-### <a name="pst-import-new-region-supported"></a>PST 가져오기: 새 지역 지원
-
-이제 아랍에미리트에서 네트워크 업로드를 사용할 수 있습니다.
-
-### <a name="sensitivity-labels-new-privacy-option"></a>민감도 레이블: 새로운 개인 정보 옵션
-
-레이블에 [](sensitivity-labels-teams-groups-sites.md#how-to-configure-groups-and-site-settings) 대한 사이트 및 그룹 설정을 구성할 때 이제 개인 정보 옵션을 없음으로 설정할 수 있습니다. 사용자가 사이트에 액세스할 수 있는 사용자를 선택할 **수 있습니다.** 이는 민감도 레이블을 사용하여 컨테이너의 콘텐츠를 보호하지만 사용자가 개인 정보 설정을 직접 구성할 수 있도록 하려는 경우 유용합니다.
-
-## <a name="april-2020"></a>2020년 4월
-
-### <a name="records-management-overhauland-a-new-addition"></a>레코드 관리: 정비... 및 새 추가
-
-4월에는 레코드 관리 솔루션에 대한 몇 가지 주요 업데이트가 포함되어 있습니다.
-
-- '레코드 관리' 섹션은 이제 준수 센터에서 완전히 사용할 수 있습니다. 파일 계획, 보존 레이블 및 레이블 정책, 이벤트 및 삭제에 대해 업데이트된 사용자 인터페이스 및 기능을 활용합니다.
-- 또한 SharePoint 및 OneDrive의 레코드에 대한 파기 증명을 롤아웃했습니다. [](disposition.md#disposition-of-records) 이제 자동으로 또는 삭제 검토 후에 해당 위치에서 항목 목록을 볼 수 있습니다.
-
-### <a name="sensitivity-labels-preview-auto-labeling-policies"></a>민감도 레이블: 자동 레이블 지정 정책 미리 보기
-
-이제 자동 레이블 지정 정책을 사용하여 이미 저장된 SharePoint 및 OneDrive docs(미사용 데이터) 및 이미 보내거나 받은 전자 메일('전송 중 전자 메일')에 민감도 레이블을 자동으로 적용할 수 있습니다. 이 레이블 지정은 앱이 아닌 서비스에서 적용하기 때문에 사용자가 사용하는 앱과 버전에 대해 걱정할 필요가 없습니다.
-
-이 기능은 민감도 레이블을 만들 때 'Office 앱에 대한 자동 레이블 지정' 설정에 이미 포함된 기존 클라이언트 쪽 레이블을 확장합니다. 자동 레이블 지정 옵션의 차이점과 이점을 빠르게 확인한 후 업데이트된 문서를 [확인하세요.](apply-sensitivity-label-automatically.md)
-
-## <a name="march-2020"></a>2020년 3월
-
-### <a name="introducing-advanced-audit"></a>고급 감사 소개
-
-[Microsoft 365의](advanced-audit.md) 고급 감사에는 조직에서 법의학 및 규정 준수 조사를 지원할 수 있는 새로운 감사 기능이 도입되어 있습니다. 주요 정보로는 감사 로그의 장기 보존, 사용자 지정 감사 로그 보존 정책, 새로운 *MailItemsAccessed* 사서함 감사 작업 및 조직에 감사 데이터에 액세스하기 위해 자체적으로 할당된 대역폭 할당량에 대한 새로운 테넌트 수준 제한의 도입이 포함됩니다.
-
-### <a name="compliance-score--compliance-manager-preview-the-latest-enhancements"></a>준수 점수 & 준수 관리자: 향상된 최신 기능 미리 보기
-
-이 미리 보기 릴리스의 주요 업데이트는 다음과 같습니다.
-
-- 템플릿을 만들고 수정하는 간소화된 프로세스
-- 템플릿 및 작업에 대한 버전 관리 알림 및 제어
-- 그룹 간 공통 작업 동기화
-- 이제 언어 지원이 중국어(간체), 중국어(일반), 프랑스어, 독일어, 이탈리아어, 일본어, 한국어, 포르투갈어(브라질), 러시아어 및 스페인어로 확장되었습니다.
-
-준수 점수 및 [준수 관리자에](compliance-score.md) [대해 자세히 알아보시고](compliance-manager-overview.md)
-
-### <a name="sensitivity-labels-support-for-labeling-office-files-in-sharepoint-and-onedrive-preview"></a>민감도 레이블: SharePoint 및 OneDrive에서 Office 파일 레이블 지정 지원(미리 보기)
-
-미리 보기를 사용하도록 설정하면 사용자가 웹용 Office에서 민감도 레이블을 적용할 수 있습니다. 리본의 민감도 단추와 상태 표시줄에 적용된 레이블 이름을 볼 수 있습니다.  또한 데스크톱 앱을 사용하여 레이블을 지정한 다음 해당 파일을 SharePoint 또는 OneDrive에 저장하면 레이블에 암호화 설정이 적용된 경우 Microsoft 365에서 이러한 파일의 콘텐츠를 처리할 수 있습니다. 이러한 상황에서는 공동 작업, eDiscovery, 데이터 손실 방지, 검색 및 기타 공동 작업 기능도 지원됩니다.
-
-[미리 보기를 사용하도록 설정하는 방법 학습](sensitivity-labels-sharepoint-onedrive-files.md)
-
-## <a name="february-2020"></a>2020년 2월
-
-### <a name="insider-risk-management-is-officially-released"></a>내부자 위험 관리가 공식적으로 릴리스되었습니다.
-
-연산 롤, 제발...<br>이제 다음과 같은 구독이 있는 조직에서 내부자 위험 관리를 사용할 수 있습니다.
-
-- [Microsoft 365 E5(유료](https://go.microsoft.com/fwlink/?linkid=2120431) 또는 평가판)
-- Microsoft E5 규정 준수 추가 기능을 통해 Microsoft 365 Enterprise [E3 구독](https://go.microsoft.com/fwlink/?linkid=2120432)
-
-새 역할 그룹 및 솔루션 전체 설정을 포함하여 [](insider-risk-management-configure.md#step-1-enable-permissions-for-insider-risk-management) 미리 보기 릴리스 이후 몇 가지 [개선을 이행했습니다.](insider-risk-management-configure.md#step-4-configure-insider-risk-settings)
-
-항상처럼 솔루션을 사용할 때 피드백을 남기면 계속 개선할 수 있습니다.
-
-### <a name="records-management"></a>레코드 관리
-
-이 새로운 솔루션은 모든 레코드 관리 기능을 단일 우산으로 제공합니다. 주요 소개에는 SharePoint 및 OneDrive에 대한 레코드 버전 관리와 레코드 폐기 증명이 포함됩니다.
-
-![Microsoft 365 규정 준수 센터의 레코드 관리 페이지](../media/mcc-records-management-page.png)
-
-[레코드 관리에 대해 자세히](records-management.md)
-
-### <a name="solution-spotlight-data-connectors-for-facebook-and-twitter"></a>솔루션 스포트라이트: Facebook 및 Twitter용 데이터 커넥터
-
-지난 [달에](#just-launched) 출시된 데이터 커넥터는 다음 커넥터를 테스트하는 데 도움이 될 것입니다.
-
-- [Facebook 비즈니스 페이지.](archive-facebook-data-with-sample-connector.md) Facebook 비즈니스 페이지에서 Microsoft 365로 데이터를 가져오고 보관합니다. 레코드 관리 및 eDiscovery와 같은 규정 준수 솔루션에 도움이 됩니다.
-- [Twitter](archive-twitter-data-with-sample-connector.md). Twitter에서 Microsoft 365로 데이터를 가져오고 보관합니다. 레코드 관리 및 eDiscovery와 같은 규정 준수 솔루션에 도움이 됩니다.
-
-이러한 커넥터를 설정하고 유효성을 검사할 때 어떤 일이 잘 터졌다고 생각하며, 환경을 개선하기 위해 할 수 있는 일에 대한 피드백을 남기주세요.
-
-## <a name="january-2020"></a>2020년 1월
-
-대기가 완료된 경우 Microsoft 365, Office 365, EMS(Enterprise Mobility + Security) 및 Windows 10 Enterprise 요금제가 있는 모든 고객이 Microsoft 365 규정 준수 센터를 사용할 수 있습니다. 보안 및 준수 센터에서 관리하고 & 데이터 또는 정책은 준수 센터에서 사용할 수 있으므로 뒤로 이동하지 필요가 없습니다.
-
-책갈피로 시작하여 전체적으로 규정 준수를 관리하기 위한 원스톱 상점을 [https://compliance.microsoft.com](https://compliance.microsoft.com) 둘러보는 방법을 소개합니다. 또는 [이 문서를 좀](microsoft-365-compliance-center.md) 더 자세히 읽어보는 것이 더 까다로우면
-
-![Microsoft 365 규정 준수 센터 홈 페이지](../media/mcc-home-ga.png)
-
-이번 달에는 새로운 솔루션과 업데이트된 솔루션도 출시되었습니다. 다음은 주요 특징을 간과한 것입니다.
-
-### <a name="now-in-preview"></a>이제 미리 보기로
-
-**내부자 위험 관리(미리 보기)**
-
-현재 내부자 위험 관리 솔루션이 공개 미리 보기에 제공될 예정이니 기쁘습니다. 간단히 말해서, 내부자 위험 관리는 조직이 다음을 제공하여 내부자 위험을 지능적으로 식별하고 조치를 취하는 데 도움이 됩니다.
-
-- 사용자 개인 정보 보호를 보장하는 데 도움이 되는 Anonymity 컨트롤
-- 데이터 누출과 같은 내부자 위협을 식별하는 기본 및 타사 지표가 있는 지능형 정책 템플릿입니다.
-- IT, HR 및 법률 팀 전체에 걸쳐 있는 종단간 조사 워크플로 통합
-
-We'd love to hear what you think. 솔루션을 사용할 때 일반적인 가용성을 향한 요구 사항을 충족할 수 있도록 피드백을 남기십시오.
-
-[내부자 위험 관리에 대해 자세히 알아보시고](insider-risk-management.md)
-
-### <a name="just-launched"></a>방금 시작
-
-**커뮤니케이션 규정 준수**
-
-미리 보기 단계에서 완전한 가용성으로의 단계에 따라 커뮤니케이션 규정 준수는 새로운 내부자 위험 솔루션 집합의 핵심 구성 요소입니다. 이 강력한 솔루션은 조직의 표준을 충족하지 않는 메시지의 검색, 조사 및 수정 작업을 수행하기 위한 워크플로를 사용하여 통신 위험을 최소화하는 데 도움이 됩니다.
-
-미리 보기 중에 고객 피드백이 만족스웠습니다. 시작을 위한 첫 실행 환경, 조사 및 수정 작업 개선 등 몇 가지 기능이 향상됩니다.
-
-[커뮤니케이션 규정 준수에 대한 자세한 정보](communication-compliance.md)
-
-![환영 환경의 첫 번째 카드를 표시하는 Microsoft 365 규정 준수 센터의 커뮤니케이션 준수 페이지](../media/mcc-communication-compliance-page-with-fre.png)
-
-**데이터 커넥터**
-
-이전의 Office 365 보안 및 준수 센터에서 다른 '가져오기' 기능과 공간을 공유하고 & 데이터 커넥터는 이제 Microsoft 365 규정 준수 센터에 자체 홈을 가지고 있습니다. 새로운 '데이터 커넥터' 페이지를 사용하여 조직의 HR(인사) 파일 및 다양한 타사 플랫폼(예: Facebook, LinkedIn, Twitter, Instant Bloomberg)에서 Microsoft 365 조직의 사서함으로 데이터를 가져오고 보관합니다. 가져온 후 eDiscovery, 내부자 위험 관리, 커뮤니케이션 규정 준수, 감사, 보존 정책 등을 비롯한 여러 준수 솔루션에서 이 데이터를 관리할 수 있습니다.
-
-[데이터 커넥터에 대한 자세한 정보](archiving-third-party-data.md)
-
-![Microsoft 365 규정 준수 센터의 데이터 커넥터 페이지](../media/mcc-data-connectors-page.png)
-
-### <a name="noteworthy-updates"></a>주목할 만한 업데이트
-
-**준수 점수에 대한 새 평가 템플릿(미리 보기)**
-
-항상 진화하는 규정 준수 환경보다 앞서기 위해 노력하는 준수 점수 팀은 최근 규정에 대한 조직의 규정 준수 상태를 평가하고 보다 효과적인 제어를 구현하는 방법에 대한 지침을 얻을 수 있도록 새로운 템플릿 집합을 제공했습니다. 다음에 대한 새 템플릿이 표시 됩니다.
-
-- ISO/IEC 27701:2019
-- 캘리포니아 소비자 개인 정보 보호법(CCPA)
-- 브라질 일반 데이터 보호법(Lei Geral de Proteção de Dados - LGPD)
-- SOC 1 유형 2 및 SOC 2 유형 2
-
-[준수 점수 템플릿에 대한 자세한 내용은](compliance-score.md#templates)
