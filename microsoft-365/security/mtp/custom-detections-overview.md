@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ae9617a55fd5efb40a3aba07202ebfb1494d4db6
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: de9fb28f09b88cf1730f3bb3539234f6a03ec2e3
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928811"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080716"
 ---
 # <a name="custom-detections-overview"></a>사용자 지정 검색 개요
 
@@ -41,6 +41,7 @@ ms.locfileid: "49928811"
 - 고급 헌팅 쿼리에서 구축된 규칙 기반 검색에 대한 알림
 - 자동 응답 작업
 
-## <a name="related-topic"></a>관련 항목
+## <a name="see-also"></a>참고 항목
 - [사용자 지정 검색 규칙 만들기 및 관리](custom-detection-rules.md)
 - [고급 헌팅 개요](advanced-hunting-overview.md)
+- [끝점용 Microsoft Defender에서 고급 헌팅 쿼리 마이그레이션](advanced-hunting-migrate-from-mdatp.md)

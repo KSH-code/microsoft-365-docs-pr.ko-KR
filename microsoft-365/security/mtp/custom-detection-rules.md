@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 8c7e47e66f9e5543cc122c5b5154207cae836d2a
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: d58292f658446259bfab5b1b55c8b462d081421c
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932925"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080626"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>사용자 지정 검색 규칙 만들기 및 관리
 
@@ -139,9 +139,9 @@ DeviceEvents
 #### <a name="actions-on-devices"></a>디바이스에 대한 작업
 이러한 작업은 쿼리 결과 열의 `DeviceId` 장치에 적용됩니다.
 - **장치 격리**- 끝점용 Microsoft Defender를 사용하여 전체 네트워크 격리 적용, 장치가 응용 프로그램 또는 서비스에 연결할 수 없습니다. [끝점 컴퓨터의 Microsoft Defender에 대해 자세히 알아보시고](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network)
-- **조사 패키지 수집**- ZIP 파일에 장치 정보를 수집합니다. [엔드포인트용 Microsoft Defender 조사 패키지에 대해 자세히 알아보기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
+- **조사 패키지 수집**- ZIP 파일로 장치 정보를 수집합니다. [엔드포인트용 Microsoft Defender 조사 패키지에 대해 자세히 알아보기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
 - **바이러스 백신 검사** 실행 - 장치에서 Windows Defender 바이러스 백신 검사 수행
-- **조사 시작**- 디바이스에서 자동화된 조사 시작 [](mtp-autoir.md)
+- **조사 시작**- 디바이스에서 자동화된 [조사](mtp-autoir.md) 시작
 - **앱 실행 제한**- Microsoft에서 발급한 인증서로 서명된 파일만 실행할 수 있도록 디바이스에 대한 제한을 설정합니다. [끝점용 Microsoft Defender의 앱 제한에 대해 자세히 알아보기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#restrict-app-execution)
 
 #### <a name="actions-on-files"></a>파일에 대한 작업
@@ -163,7 +163,7 @@ DeviceEvents
 
 범위에 있는 디바이스의 데이터만Queried됩니다. 또한 해당 장치에서만 작업이 수행됩니다.
 
-### <a name="6-review-and-turn-on-the-rule"></a>6. 규칙을 검토하고 켜야 합니다.
+### <a name="6-review-and-turn-on-the-rule"></a>6. 규칙을 검토하고 켜기.
 규칙을 검토한 후 **만들기를** 선택하여 저장합니다. 사용자 지정 검색 규칙이 즉시 실행됩니다. 구성된 빈도에 따라 다시 실행하여 일치를 확인하고, 경고를 생성하고, 대응 조치를 취합니다.
 
 ## <a name="manage-existing-custom-detection-rules"></a>기존 사용자 지정 검색 규칙 관리
@@ -207,7 +207,8 @@ DeviceEvents
 >[!TIP]
 >정보를 빠르게 보고 표의 항목에 대한 작업을 수행하기 위해 표 왼쪽에 있는 선택 열 [&#10003;]을 사용하세요.
 
-## <a name="related-topic"></a>관련 항목
+## <a name="see-also"></a>참고 항목
 - [사용자 지정 검색 개요](custom-detections-overview.md)
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [고급 헌팅 쿼리 언어 알아보기](advanced-hunting-query-language.md)
+- [끝점용 Microsoft Defender에서 고급 헌팅 쿼리 마이그레이션](advanced-hunting-migrate-from-mdatp.md)

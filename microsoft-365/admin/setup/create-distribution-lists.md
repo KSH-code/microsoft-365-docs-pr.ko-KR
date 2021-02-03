@@ -23,20 +23,18 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 description: 각 받는 사람의 이름을 입력하지 않고도 그룹에 전자 메일을 보낼 수 있도록 Microsoft 365 관리 센터에서 메일 그룹 또는 목록을 만드는 방법을 학습합니다.
-ms.openlocfilehash: ffdafb7ef74e908f340a9ac80db0abffb1841442
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 7c416612fa241d7fec11a2e24a29e149594951e3
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926309"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080472"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 메일 그룹 만들기
   
 개별 받는 사람의 이름을 입력하지 않고도 사용자 그룹에 전자 메일을 보내려면 메일 그룹(메일 그룹)이 특정 토론 주체(예: "마케팅")나 자주 통신해야 하는 공통 작업을 공유하는 사용자가 구성합니다. 또한 전자 메일을 여러 전자 메일 주소로 자동으로 전달하는 방법도 제공합니다.
 
 메일 그룹을 메일 그룹이라고도 합니다.
-  
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/e8747233-4f1c-4bf4-81cf-2a4ea9ccd80d?autoplay=false]
   
 ## <a name="create-a-distribution-group-list"></a>메일 그룹 만들기(목록)
 

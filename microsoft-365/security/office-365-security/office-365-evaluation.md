@@ -1,7 +1,7 @@
 ---
 title: Office 365용 Microsoft Defender 평가
 description: 평가 모드에서 Office 365용 Defender는 맬웨어와 같은 판정을 기록하지만 메시지에 대해 활동하지 않는 Office 365 전자 메일 정책에 대한 Defender를 만듭니다.
-keywords: Office 365, Office 365용 Microsoft Defender 평가, Office 365 평가, Office 365, Microsoft Defender, ATP 평가
+keywords: Office 365 평가, Office 365용 Microsoft Defender, Office 365 평가, Office 365, Microsoft Defender, ATP 평가
 f1.keywords:
 - NOCSH
 ms.author: ellevin
@@ -9,7 +9,6 @@ author: levinec
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,12 +16,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f8f105215b23ec49318c133714e758e2a2a9c1df
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 7c0bb1701cf030692bc98218b38be00cae57a2bd
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870924"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080704"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender 평가
 
@@ -31,11 +32,11 @@ ms.locfileid: "49870924"
 > [!IMPORTANT]
 > Microsoft Defender for Office 365 평가판은 공개 미리 보기에 있습니다. 이 미리 보기 버전은 서비스 수준 계약 없이 제공됩니다. 일부 기능은 지원되지 않을 수도, 기능이 제한될 수도 있습니다.
 
-포괄적인 보안 제품 평가를 수행하면 업그레이드 및 구매에 대한 정보를 제공한 결정을 내리는 데 도움이 될 수 있습니다. 보안 제품의 기능을 사용하여 보안 운영 팀이 일상적인 작업에서 어떻게 도움이 될 수 있는지 평가하는 데 도움이 됩니다.
+포괄적인 보안 제품 평가를 수행하면 업그레이드 및 구매에 대한 정보를 제공한 결정을 내리는 데 도움이 될 수 있습니다. 보안 제품의 기능을 사용해 보아 보안 운영 팀이 일상적인 작업에서 어떻게 도움이 될 수 있는지 평가하는 데 도움이 됩니다.
 
 [Office 365용 Microsoft Defender](office-365-atp.md) 평가 환경은 보안 솔루션의 기능을 평가하는 데 집중할 수 있도록 장치 및 환경 구성의 복잡한 문제를 제거하도록 설계되었습니다. SharePoint, Office 클라이언트 또는 Teams가 아닌 전자 메일 보호에만 적용됩니다.
 
-Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 경우 [무료 30일](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) 평가를 시작하고 Office 365 보안 및 준수 센터에서 기능을 & 수 있습니다. https://protection.office.com/homepage) 빠른 설정이 즐기며 필요한 경우 쉽게 해제할 수 있습니다.
+Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 경우 [무료 30일](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) 평가를 시작하고 Office 365 보안 및 준수 센터에서 기능을 & 수 https://protection.office.com/homepage) 있습니다. 빠른 설정이 즐기며 필요한 경우 쉽게 해제할 수 있습니다.
 
 ## <a name="how-the-evaluation-works"></a>평가 작동 방식
 
@@ -67,7 +68,7 @@ Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 �
 - Microsoft 365 E5, Microsoft 365 E5 보안
 - Office 365 E5
 
-이러한 라이선스 중 하나만 있는 경우 평가판 라이선스를 얻어야 합니다.
+이러한 라이선스 중 하나가 없는 경우 평가판 라이선스를 얻어야 합니다.
 
 #### <a name="trial"></a>평가판
 
@@ -104,7 +105,7 @@ Office 365용 Microsoft Defender에 대한 평가판 라이선스를  얻습니�
 
 ### <a name="urls"></a>URL
 
-메일 흐름 중에 URL이 확인됩니다. 특정 URL을 검색하지 못하도록 하려는 경우 허용된 URL 목록을 적절하게 관리합니다. 자세한 [내용은 테넌트 허용/차단](tenant-allow-block-list.md) 목록에서 URL 관리를 참조하세요.
+메일 흐름 중에 URL이 확인됩니다. 특정 URL을 검색하지 못하도록 하려는 경우 허용되는 URL 목록을 적절하게 관리합니다. 자세한 [내용은 테넌트 허용/차단 목록](tenant-allow-block-list.md) 관리를 참조하세요.
 
 전자 메일 메시지 본문의 URL 링크는 줄 바꿈되지 않습니다. 이를 통해 고객 영향을 줄입니다.
 
@@ -137,7 +138,7 @@ Office 365용 Microsoft Defender에 대한 평가판 라이선스를  얻습니�
 
 ## <a name="get-started-with-the-evaluation"></a>평가 시작
 
-Office 365 보안 및 준수 센터에서 Office 365용 Microsoft Defender 평가판 & 카드(다음 세 가지 액세스 https://protection.office.com/homepage) 지점에서)를 찾을 수 있습니다.
+Office 365 보안 및 준수 센터에서 Microsoft Defender for Office 365 평가판 &(다음 세 가지 액세스 https://protection.office.com/homepage) 지점에서)를 찾을 수 있습니다.
 
 - 위협 관리 > 대시보드
 - 위협 관리 > 정책
@@ -157,7 +158,7 @@ Office 365용 Microsoft Defender 평가 보고서는 매일 한 번 생성됩니
 
 ### <a name="exchange-rules-optional"></a>Exchange 규칙(선택 사항)
 
-기존 게이트웨이가 있는 경우 커넥터에 대한 향상된 필터링을 활성화하고 들어오는 보낸 사람 IP 주소를 변경하기 때문에 필터링을 무시할 수 있습니다. 우회하려면 Exchange 관리 센터로 이동하여 SCL -1의 정책을 생성합니다(아직 SCL이 없는 경우). 규칙 구성 요소 및 규칙의 작동 방식에 대한 자세한 내용은 Exchange Online의 메일 흐름 규칙(전송 규칙)을 참조하세요.
+기존 게이트웨이가 있는 경우 평가 모드를 사용하도록 설정하면 커넥터에 대한 향상된 필터링이 활성화됩니다. 그러면 수신되는 보낸 사람 IP 주소를 변경하여 필터링 정확도가 향상됩니다. 이 경우 필터 판정이 변경될 수 있으며, Exchange Online Protection을 무시하지 않는 경우 특정 메시지의 결과물이 변경될 수 있습니다. 이 경우 영향을 분석하기 위해 필터링을 일시적으로 무시할 수 있습니다. 우회하려면 Exchange 관리 센터로 이동하여 SCL -1의 정책을 생성합니다(아직 SCL이 없는 경우). 규칙 구성 요소 및 규칙의 작동 방식에 대한 자세한 내용은 Exchange Online의 메일 흐름 규칙(전송 규칙)을 참조하세요.
 
 ## <a name="evaluate-capabilities"></a>기능 평가
 
