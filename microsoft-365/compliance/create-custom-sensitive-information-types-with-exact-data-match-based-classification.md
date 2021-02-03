@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9b905e73fe471cc034eae42726a5a86d91a359a
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: d3d94d585ca0a0e88fb442e658d57bf000ce49bb
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928822"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080519"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -54,8 +54,8 @@ EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확�
 > - 중국어(번체)
 > - 한국어
 > - 일본어
-
->이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다. 자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.
+> 
+> 이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다. 자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
@@ -146,7 +146,7 @@ EDM 기반 분류 설정 및 구성에는 다음이 포함됩니다.
 
 스키마 정의에서 `true` 값에 설정된 ***caseInsensitive** _ 필드를 포함하면 EDM은 `PatientID` 필드의 대소문자 차이에 기반한 항목을 제외하지 않습니다. 따라서 EDM은 `PatientID` _ *FOO-1234** 및 **fOo-1234** 가 동일하다고 볼 것입니다.
 
-지원되는 문자와 함께 **_ignoredDelimiters_*_ 필드를 포함하면 EDM은 `PatientID`에서 해당 문자를 무시합니다. 따라서 EDM은 `PatientID` _* FOO-1234** 및 `PatientID` **FOO#1234** 가 동일하다고 볼 것입니다. `ignoredDelimiters` 플래그는 영숫자가 아닌 모든 문자를 지원하며 다음은 몇 가지 예입니다.
+지원되는 문자와 함께  ***ignoredDelimiters** _ 필드를 포함하면 EDM은 `PatientID`에서 해당 문자를 무시합니다. 따라서 EDM은 `PatientID` _ *FOO-1234** 및 `PatientID` **FOO#1234** 가 동일하다고 볼 것입니다. `ignoredDelimiters` 플래그는 영숫자가 아닌 모든 문자를 지원하며 다음은 몇 가지 예입니다.
 - \.
 - \-
 - \/
@@ -210,7 +210,7 @@ EDM 기반 분류 설정 및 구성에는 다음이 포함됩니다.
 
       - **idMatch**: 이 필드는 EDM의 기본 요소를 가리킵니다.
         - Matches: 정확한 조회에 사용할 필드를 지정합니다. 데이터 저장소의 EDM 스키마에서 검색 가능한 필드 이름을 입력합니다.
-        - Classification: 이 필드는 EDM 조회를 트리거하는 중요한 유형 일치를 지정합니다. 기존의 기본 제공 분류 또는 사용자 지정 분류의 이름 또는 GUID를 입력할 수 있습니다.
+        - Classification: 이 필드는 EDM 조회를 트리거하는 중요한 유형 일치를 지정합니다. 기존 기본 제공 이름이나 GUID 또는 사용자 지정 중요 유형 정보를 제공할 수 있습니다. 제공된 중요 정보 유형과 일치하는 문자열은 해시되고 중요 정보 테이블의 모든 항목과 비교됩니다. 성능 문제가 발생하지 않도록 하려면 EDM에서 사용자 지정 중요 정보 유형을 분류 요소로 사용하는 경우 지원 키워드를 추가하거나 사용자 지정 분류에 중요한 정보 유형의 정의에 형식을 포함하여 많은 비율(예: "임의의 숫자" 또는 "임의의 5글자")과 일치하는 내용을 사용하지 않도록 하세요. 
 
       - **Match:** 이 필드는 idMatch의 근접성에서 찾은 추가 증명을 가리킵니다.
         - Matches: 데이터 저장소의 EDM 스키마에 필드 이름을 입력합니다.
@@ -369,7 +369,7 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 일반 텍스트 중요 데이터 파일을 노출하지 않으려면 안전한 위치에 있는 컴퓨터에서 해당 파일에서 해시한 다음 업로드를 위해 Microsoft 365 테넌트에 직접 연결할 수 있는 컴퓨터에 해시 파일과 솔트 파일을 복사할 수 있습니다. 이 시나리오에서는 두 컴퓨터 모두에 EDMUploadAgent가 필요합니다.
 
 > [!IMPORTANT]
-> 정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사를 사용하여 스키마 및 패턴 파일을 만든 경우 이 절차에 대한 스키마를 **_다운로드해야만_* 합니다.
+> 정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사를 사용하여 스키마 및 패턴 파일을 만든 경우 이 절차에 대한 스키마를 ***다운로드해야만** 합니다.
 
 #### <a name="prerequisites"></a>필수 구성 요소
 
@@ -380,11 +380,11 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
     - 예제의 csv 형식 **PatientRecords.csv** 의 중요한 항목 파일
     -  및 출력 해시 및 솔트 파일
     - **edm.xml** 파일의 데이터 저장소 이름(이 예에서는 `PatientRecords`)
-- [정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사](sit-edm-wizard.md)를 사용한 경우 **_다운로드해야만_* _ 합니다.
+- [정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사](sit-edm-wizard.md)를 사용한 경우 ****다운로드해야만*** 합니다.
 
 #### <a name="set-up-the-security-group-and-user-account"></a>보안 그룹 및 사용자 계정 설정
 
-1. 전역 관리자로서 [구독에 대한 적절한 링크](#portal-links-for-your-subscription)를 사용하여 관리 센터로 이동하고 _*EDM\_DataUploaders**라는 [보안 그룹을 만듭니다](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide).
+1. 전역 관리자로서 [구독에 대한 적절한 링크](#portal-links-for-your-subscription)를 사용하여 관리 센터로 이동하고 **EDM\_ DataUploaders** 라는 [보안 그룹을 만듭니다](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide).
 
 2. 한 명 이상의 사용자를 **EDM\_DataUploaders** 보안 그룹에 추가합니다. (이러한 사용자가 중요한 정보 데이터베이스를 관리합니다.)
 
@@ -415,13 +415,13 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 
 2. 구독에 적합한 [EDM 업로드 에이전트](#links-to-edm-upload-agent-by-subscription-type)를 1단계에서 만든 디렉토리에 다운로드하여 설치합니다.
 
-> [!NOTE]
-> 위 링크의 EDMUploadAgent는 해시된 데이터에 솔트 값을 자동으로 추가하도록 업데이트되었습니다. 또는 자신의 솔트 값을 입력할 수 있습니다. 이 버전을 사용한 후에는 이전 버전의 EDMUploadAgent를 사용할 수 없습니다.
->
-> EDMUploadAgent를 사용하여 하루에 두 번만 지정된 데이터 저장소에 데이터를 업로드할 수 있습니다.
+   > [!NOTE]
+   > 위 링크의 EDMUploadAgent는 해시된 데이터에 솔트 값을 자동으로 추가하도록 업데이트되었습니다. 또는 자신의 솔트 값을 입력할 수 있습니다. 이 버전을 사용한 후에는 이전 버전의 EDMUploadAgent를 사용할 수 없습니다.
+   >
+   > EDMUploadAgent를 사용하여 하루에 두 번만 지정된 데이터 저장소에 데이터를 업로드할 수 있습니다.
 
-> [!TIP]
-> 지원되는 명령 매개 변수에 대한 목록을 얻으려면 에이전트(인수 없음)를 실행하세요. 예를 들어 'EdmUploadAgent'가 해당됩니다.
+   > [!TIP]
+   > 지원되는 명령 매개 변수에 대한 목록을 얻으려면 에이전트(인수 없음)를 실행하세요. 예를 들어 'EdmUploadAgent'가 해당됩니다.
 
 2. EDM 업로드 에이전트에 권한을 부여하고 명령 프롬프트 창을 열고 (관리자 권한으로) **C:\EDM\Data** 디렉토리로 전환한 후 다음 명령을 실행합니다.
 
@@ -429,25 +429,25 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 
 3. EDM_DataUploaders 보안 그룹에 추가된 Microsoft 365용 회사 또는 학교 계정으로 로그인합니다. 테넌트 정보는 연결을 위해 사용자 계정에서 추출됩니다.
 
-선택 사항: 정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사를 사용하여 스키마 및 패턴 파일을 생성한 경우 명령 프롬프트 창에서 다음 명령을 실행합니다.
+   선택 사항: 정확한 데이터 일치 스키마 및 중요한 정보 유형 마법사를 사용하여 스키마 및 패턴 파일을 생성한 경우 명령 프롬프트 창에서 다음 명령을 실행합니다.
 
-`EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to output folder>`
+   `EdmUploadAgent.exe /SaveSchema /DataStoreName <schema name> /OutputDir <path to output folder>`
 
 4. 중요한 데이터를 해시하고 업로드하려면 명령 프롬프트 창에서 다음 명령을 실행하세요.
 
-`EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file]`
+   `EdmUploadAgent.exe /UploadData /DataStoreName [DS Name] /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file]`
 
-예: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\Edm\Hash\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml**
+   예: **EdmUploadAgent.exe /UploadData /DataStoreName PatientRecords /DataFile C:\Edm\Hash\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml**
 
-보안 강화를 위해 임의로 생성된 솔트 값을 해시에 자동으로 추가합니다. 선택에 따라, 고유한 솔트 값을 사용하려면 **/Salt <saltvalue>** 를 명령에 추가하세요. 이 값은 길이가 64자여야 하며 a-z 문자와 0-9만 포함할 수 있습니다.
+   보안 강화를 위해 임의로 생성된 솔트 값을 해시에 자동으로 추가합니다. 선택에 따라, 고유한 솔트 값을 사용하려면 **/Salt <saltvalue>** 를 명령에 추가하세요. 이 값은 길이가 64자여야 하며 a-z 문자와 0-9만 포함할 수 있습니다.
 
 5. 다음 명령을 실행하여 업로드 상태를 확인하세요.
 
-`EdmUploadAgent.exe /GetSession /DataStoreName \<DataStoreName\>`
+   `EdmUploadAgent.exe /GetSession /DataStoreName \<DataStoreName\>`
 
-예: **EdmUploadAgent.exe /GetSession /DataStoreName PatientRecords**
+   예: **EdmUploadAgent.exe /GetSession /DataStoreName PatientRecords**
 
-상태가 **ProcessingInProgress** 인지 확인합니다. 상태가 **완료** 로 변경될 때까지 몇 분마다 다시 확인하세요. 상태가 완료되면 EDM 데이터를 사용할 수 있습니다.
+   상태가 **ProcessingInProgress** 인지 확인합니다. 상태가 **완료** 로 변경될 때까지 몇 분마다 다시 확인하세요. 상태가 완료되면 EDM 데이터를 사용할 수 있습니다.
 
 #### <a name="separate-hash-and-upload"></a>별도의 해시 및 업로드
 
@@ -459,39 +459,38 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 
 1. 명령 프롬프트 창에서 다음 명령을 실행합니다.
 
-`EdmUploadAgent.exe /CreateHash /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] >`
+   `EdmUploadAgent.exe /CreateHash /DataFile [data file] /HashLocation [hash file location] /Schema [Schema file] >`
 
-예를 들면 :
+   예를 들면 :
 
-> **EdmUploadAgent.exe /CreateHash /DataFile C:\Edm\Data\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml**
+   > **EdmUploadAgent.exe /CreateHash /DataFile C:\Edm\Data\PatientRecords.csv /HashLocation C:\Edm\Hash /Schema edm.xml**
 
-**/Salt <saltvalue>** 옵션을 지정하지 않은 경우 해시 파일과 이러한 확장자를 가진 솔트 파일이 출력됩니다.
-- .EdmHash
-- .EdmSalt
+   **/Salt <saltvalue>** 옵션을 지정하지 않은 경우 해시 파일과 이러한 확장자를 가진 솔트 파일이 출력됩니다.
+   - .EdmHash
+   - .EdmSalt
 
 2. 중요한 항목 csv 파일(PatientRecords)을 테넌트에 업로드하는 데 사용할 컴퓨터에 이러한 파일을 안전한 방식으로 복사하세요.
 
-해시된 데이터를 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
+   해시된 데이터를 업로드하려면 Windows 명령 프롬프트에서 다음 명령을 실행합니다.
 
-`EdmUploadAgent.exe /UploadHash /DataStoreName \<DataStoreName\> /HashFile \<HashedSourceFilePath\>`
+   `EdmUploadAgent.exe /UploadHash /DataStoreName \<DataStoreName\> /HashFile \<HashedSourceFilePath\>`
 
-예를 들어,
+   예를 들어,
 
-> **EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**
-
-
-중요한 데이터가 업로드 되었는지 확인하려면 명령 프롬프트 창에서 다음 명령을 실행합니다.
+   > **EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**
 
 
-`EdmUploadAgent.exe /GetDataStore`
+   중요한 데이터가 업로드 되었는지 확인하려면 명령 프롬프트 창에서 다음 명령을 실행합니다.
 
-데이터 저장소 목록 및 마지막 업데이트 날짜를 볼 수 있습니다.
+   `EdmUploadAgent.exe /GetDataStore`
 
-특정 저장소에 대한 모든 데이터 업로드를 표시하려면 Windows 명령 프롬프트에서 다음 명령을 실행 합니다.
+   데이터 저장소 목록 및 마지막 업데이트 날짜를 볼 수 있습니다.
 
-`EdmUploadAgent.exe /GetSession /DataStoreName <DataStoreName>`
+   특정 저장소에 대한 모든 데이터 업로드를 표시하려면 Windows 명령 프롬프트에서 다음 명령을 실행 합니다.
 
-계속하여 [중요한 정보 데이터베이스 새로 고침](#refreshing-your-sensitive-information-database)의 프로세스 및 일정을 설정합니다.
+   `EdmUploadAgent.exe /GetSession /DataStoreName <DataStoreName>`
+
+   계속하여 [중요한 정보 데이터베이스 새로 고침](#refreshing-your-sensitive-information-database)의 프로세스 및 일정을 설정합니다.
 
 이제 Microsoft 클라우드 서비스로 EDM 기반 분류를 사용할 준비가 되었습니다. 예를 들어 [EDM 기반 분류를 사용하여 DLP 정책을 설정](#to-create-a-dlp-policy-with-edm)할 수 있습니다.
 
@@ -654,4 +653,3 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 - [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
 - [New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema)
 - [구성 가능한 일치를 사용하도록 정확한 데이터 일치 스키마 수정](sit-modify-edm-schema-configurable-match.md)
-

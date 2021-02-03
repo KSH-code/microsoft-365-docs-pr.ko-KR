@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: c9b7b10328e80a70f14b8fb40a3bf91cb89dbc88
-ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
+ms.openlocfilehash: c337d5ccd05ee665b62c9ce5a68abbd8084da943
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49867962"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080821"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>엔드포인트 데이터 손실 방지 시작하기
 
@@ -77,6 +77,9 @@ Endpoint DLP의 데이터는 [활동 탐색기](data-classification-activity-exp
 - 준수 관리자
 - 보안 관리자
 - 준수 데이터 관리자
+- 전역 읽기 권한자
+- 보안 읽기 권한자
+- 보고서 읽기 권한자
 
 ### <a name="prepare-your-endpoints"></a>엔드포인트 준비하기
 
@@ -86,11 +89,13 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
 2. 맬웨어 방지 클라이언트 버전이 4.18.2009.7 이상입니다. Windows 보안 앱을 열고, 설정 아이콘을 선택한 다음 정보를 선택하여 현재 버전을 확인합니다. 버전 번호는 맬웨어 방지 클라이언트 버전 아래에 나열됩니다. Windows 업데이트 KB4052623을 설치하여 최신 맬웨어 방지 클라이언트 버전으로 업데이트합니다. 
 
-> [!NOTE]
-> Windows 보안 구성 요소가 활성화되지 않아도 Windows 보안 상태와 독립적으로 끝점 DLP를 실행할 수 있습니다. 그러나 [실시간 보호 및 동작 모니터](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)는 활성화되어야 합니다.
+   > [!NOTE]
+   > Windows 보안 구성 요소가 활성화되지 않아도 Windows 보안 상태와 독립적으로 끝점 DLP를 실행할 수 있습니다. 그러나 [실시간 보호 및 동작 모니터](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)는 활성화되어야 합니다.
  
-
-3. 다음 Windows 업데이트가 설치되어 있습니다. 참고: 이 업데이트는 장치를 끝점 DLP로 온보딩하는 데 필수 요건은 아니지만, 중요한 문제에 대한 픽스를 포함하여 제품을 사용하기 전에 설치해야 합니다.
+3. 다음 Windows 업데이트가 설치되어 있습니다. 
+ 
+   > [!NOTE]
+   > 참고: 이 업데이트는 장치를 끝점 DLP로 온보딩하기 위한 필수 요건은 아니지만, 중요한 문제에 대한 수정을 포함하므로 제품을 사용하기 전에 설치해야 합니다.
 
     - Windows 10 1809의 경우 - KB4559003, KB4577069, KB4580390
     - Windows 10 1903 혹은 1909의 경우 - KB4559004, KB4577062, KB4580386
@@ -198,7 +203,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 ## <a name="next-steps"></a>다음 단계
 이제 온보딩된 장치가 있고 활동 탐색기에서 활동 데이터를 볼 수 있으므로 중요한 항목을 보호하는 DLP 정책을 만드는 다음 단계를 진행할 준비가 되었습니다.
 
-- [Endpoint 데이터 손실 방지(미리 보기) 사용하기](endpoint-dlp-using.md)
+- [엔드포인트 데이터 손실 방지 사용](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>참고 항목
 

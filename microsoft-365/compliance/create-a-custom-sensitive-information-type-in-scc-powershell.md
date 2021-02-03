@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 규정 준수 센터에서 정책에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
-ms.openlocfilehash: 31badcb2ab0102584e3addf3ed4d1549afe78525
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: ab96a3928105f612ab97bc8ca3a0acc3613082c3
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929424"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080683"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -428,6 +428,14 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
 - 바인딩되지 않은 리피터(예: "\*" 또는 "+")는 그룹으로 사용할 수 없습니다.
     
   예를 들어, "(xx)\*" 및 "(xx)+"는 유효성 검사를 통과하지 못합니다.
+  
+- 키워드의 길이는 최대 50자입니다.  이 값을 초과하는 그룹에 키워드가 있는 경우 제안된 솔루션은 용어 그룹을 [키워드 사전](https://docs.microsoft.com/microsoft-365/compliance/create-a-keyword-dictionary)으로 만들고 파일의 일치 또는 ID 일치 엔티티의 일부로 XML 구조 내에서 키워드 사전의 GUID를 참조하는 것입니다.
+
+- 각 사용자 지정 중요 정보 유형은 최대 2048개의 키워드를 가질 수 있습니다.
+
+- PowerShell cmdlet을 사용할 경우 약 1MB의 역직렬화된 데이터의 최대 반환 크기가 있습니다.   XML 파일 크기에 영향을 미칩니다. 업로드된 파일을 최대 512메가바이트로 제한하여 오류 없이 일관된 결과를 얻으려면 제안된 제한을 사용하세요.
+
+- XML 구조에는 공백, 탭 또는 캐리지 리턴/라인피드 항목과 같은 문자를 포맷할 필요가 없습니다.  업로드 시 공간을 최적화할 때 이 점에 유의하세요.
     
 사용자 지정 중요한 정보 유형에 성능에 영향을 줄 수 있는 문제가 포함된 경우 업로드되지 않으며 다음 오류 메시지 중 하나가 표시될 수 있습니다.
   
