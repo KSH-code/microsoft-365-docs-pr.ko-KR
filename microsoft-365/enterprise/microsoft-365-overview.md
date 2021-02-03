@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/15/2019
+ms.date: 02/01/2021
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 엔터프라이즈용 Microsoft 365의 구성 요소, 계획 및 배포 경로에 대한 소개를 제공합니다.
-ms.openlocfilehash: 0916fa97daec166a7bae8b19e3c9efbd693f4874
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 324e5166dd722f9fcd682db7e536a4b864365025
+ms.sourcegitcommit: 2c4c7ebe9bea52765ece0ed27d3ea77313711b10
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846967"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50068976"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -131,6 +131,24 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 - [Microsoft 365 정부용](https://www.microsoft.com/microsoft-365/government)
 
   미국 공용 부문 직원의 안전한 공동 작업 강화
+
+## <a name="best-together-with-surface-and-the-edge-browser"></a>Surface와 Edge 브라우저의 최상의 조합
+
+엔터프라이즈용 Microsoft 365, Microsoft Surface 디바이스 및 Microsoft Edge를 함께 사용한 최상의 조합으로 사용자의 통합되고 안전한 생산성을 최적화하세요. 이 교차 제품 통합은 다음을 제공합니다:
+
+- 공통 ID 및 로그인 보안 인프라.
+- 검색, 공동 작업, 생산성 및 규정 준수에 대한 통합 로컬 및 클라우드 앱. 
+- 하드웨어, 브라우저, 로컬 앱 및 클라우드 앱을 위한 포괄적이고 통합된 보안.
+- 설치 및 업데이트의 IT 관리를 위한 일반 인프라.
+
+다음은 엔터프라이즈 조직의 예입니다.
+
+![Microsoft 365, Surface 디바이스 및 Edge 브라우저를 사용하는 엔터프라이즈 조직](../media/microsoft-365-overview/best-together-with-surface-and-edge.png)
+
+중소 기업 및 교육 기관에 대한 자세한 내용 및 구성 예제를 보려면 [최상의 조합 포스터](https://download.microsoft.com/download/2/8/d/28db0cf9-2f5a-4f63-91e2-46ff5c4d3baf/microsoft-best-together-poster.pdf)를 다운로드하세요.
+
+[![Surface와 Edge 브라우저의 최상의 조합 포스터 이미지](../media/microsoft-365-overview/best-together-poster-thumbnail.png)](https://download.microsoft.com/download/2/8/d/28db0cf9-2f5a-4f63-91e2-46ff5c4d3baf/microsoft-best-together-poster.pdf)
+
 
 ## <a name="microsoft-365-training"></a>Microsoft 365 교육
 

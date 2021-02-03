@@ -478,16 +478,20 @@
   href: 'https://docs.microsoft.com/windows/deployment/'
 - name: 엔터프라이즈용 Microsoft 365 앱
   href: 'https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps'
+- name: Surface 디바이스
+  href: 'https://docs.microsoft.com/surface/deploy'
+- name: 디바이스 관리
+  items:
+    - name: 로드맵
+      href: device-management-roadmap-microsoft-365.md
+- name: Microsoft Edge
+  href: 'https://docs.microsoft.com/deployedge/deploy-edge-plan-deployment'
 - name: 배포 및 업데이트 채널 예제 구성
   items:
     - name: 개요
       href: deploy-update-channels-examples.md
     - name: 최신 릴리스에 대한 광범위한 배포
       href: deploy-update-channels-examples-rapid-deploy.md
-- name: 디바이스 관리
-  items:
-    - name: 로드맵
-      href: device-management-roadmap-microsoft-365.md
 - name: PowerShell로 Microsoft 365 관리
   href: manage-microsoft-365-with-microsoft-365-powershell.md
   items:
