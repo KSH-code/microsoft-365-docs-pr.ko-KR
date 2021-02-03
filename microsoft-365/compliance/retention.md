@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 751b88ea3dde0c4cf2a33dded26a032a1e320b5e
-ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
+ms.openlocfilehash: d834cc53677c8b7c01ed4bec40ed51983d41e9da
+ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071313"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084627"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -77,7 +77,7 @@ ms.locfileid: "50071313"
 
 ## <a name="retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블
 
-레이블 정책과 함께 보존 정책 및 보존 레이블을 모두 사용하여 보존 설정을 콘텐츠에 할당할 수 있습니다. 
+보존 설정을 콘텐츠에 할당하려면 **레이블 정책과 함께 보존 정책** 및 **보존 레이블** 을 사용합니다. 이러한 방법 중 하나만 사용하거나 여러 가지를 결합할 수 있습니다.
 
 보존 정책을 사용하여 사이트 또는 사서함 수준에서 콘텐츠에 대해 같은 보존 설정을 할당하고, 보존 레이블을 사용하여 항목 수준(폴더, 문서, 전자 메일)에 보존 설정을 지정합니다.
 

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 190b06a719775fbbf14c94a4fd817d3242a95e6c
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: 4bbea7810c20d72ef75bbb5602b1daddfce45576
+ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044748"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084679"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -227,9 +227,9 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 
 1. 자동 레이블 정책 만들기 및 구성
 
-2. 시뮬레이션 모드로 정책을 실행하고 24시간을 기다리거나 시뮬레이션이 완료 될 때까지 기다립니다.
+2. 시뮬레이션 모드에서 정책을 실행하며 완료하는 데 48시간이 걸릴 수 있습니다.
 
-3. 결과를 검토하고 필요한 경우 정책을 구체화합니다. 시뮬레이션 모드로 재실행하고 24시간을 기다리거나 시뮬레이션이 완료될 때까지 기다립니다.
+3. 결과를 검토하고 필요한 경우 정책을 구체화합니다. 응답 모드를 다시 실행하고 다시 완료될 때까지 기다립니다.
 
 4. 필요한 경우 3단계를 반복합니다.
 

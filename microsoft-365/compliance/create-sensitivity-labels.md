@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 문서와 전자 메일을 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: 60865b40582416ac2ac963c4a8c68353b06fc6d4
-ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
+ms.openlocfilehash: b7943259d3a20cbf4fd6d8b0b57ca7c027e74d3f
+ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071293"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084659"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -186,7 +186,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 이 단추를 선택하면 포함할 레이블과 레이블 설정을 편집할 수 있는 **정책 만들기** 마법사가 시작됩니다. 마법사를 완료하면 변경 내용이 선택된 사용자 및 서비스로 자동 복제됩니다.
 
-Windows, macOS, iOS 및 Android용 기본 제공 레이블을 사용하는 경우 Office 앱은 4시간 이내, 웹용 Office의 경우 1시간 이내에 새 레이블이 표시됩니다. 그러나 변경 사항이 모든 앱과 서비스에 복제되려면 최대 24시간이 소요됩니다.
+Windows, macOS, iOS 및 Android에서 Office 앱용 기본 제공 레이블을 사용하는 경우 사용자에게 4시간 이내, 웹용 Office의 경우 1시간 이내에 새 레이블이 표시됩니다. 그러나 변경 사항이 모든 앱과 서비스에 복제되려면 최대 24시간이 소요됩니다.
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell를 이용한 추가 레이블 정책 설정
 
