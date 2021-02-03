@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 description: 데스크톱, 모바일 및 웹용 Office 앱에서 사용자가 민감도 레이블을 사용하는 방법과 민감도 레이블을 지원하는 앱에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 932fb602039a3f2437dfd9cc9db2c2e9438369e3
-ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
+ms.openlocfilehash: 672d99ed4345ee27437cda66087de6e4e3f521bb
+ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071253"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084593"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 사용
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
 Microsoft 365 규정 준수 센터 또는 동등한 레이블 지정 센터에서 민감도 레이블을 게시한 경우 사용자가 데이터를 만들거나 편집할 때 데이터를 분류하고 보호할 수 있도록 Office 앱에 표시됩니다. [](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy)
 
@@ -64,8 +64,8 @@ iOS 및 Android용 Office: 민감도 레이블이 Office 앱에 [기본 제공�
 |[변수가 있는 동적 표시](#dynamic-markings-with-variables)                                              | 2010+           | 16.42+     | 2.42+ | 16.0.13328+ | 검토 중 |
 |[지금 권한 할당](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[사용자가 권한을 할당하도록 허용](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16.35+   | 검토 중   | 검토 중         | 검토 중                                                        |
-|[데이터 분류 시작](data-classification-overview.md) 및 관리자를 위한 데이터 보내기                      | 미리 보기: [현재 채널(미리 보기)](https://office.com/insider)            | 미리 보기: [현재 채널(미리 보기)](https://office.com/insider)        | 검토 중   | 검토 중         | 예 <sup>\*</sup>                                                        |
-|[사용자가 전자 메일 및 문서에 레이블을 적용해야 합니다.](#require-users-to-apply-a-label-to-their-email-and-documents)   | 미리 보기: 현재 채널로 [롤아웃(미리 보기)](https://office.com/insider)             | 미리 보기: 현재 채널로 [롤아웃(미리 보기)](https://office.com/insider)         | 검토 중   | 미리 보기: [베타 채널](https://office.com/insider)         | 검토 중                                            
+|[데이터 분류 시작](data-classification-overview.md) 및 관리자를 위한 데이터 보내기                      | 2011+ | 16.43+ | 미리 보기: [현재 채널(미리 보기)](https://office.com/insider) | 미리 보기: [현재 채널(미리 보기)](https://office.com/insider) | 예 <sup>\*</sup>                                                        |
+|[사용자가 전자 메일 및 문서에 레이블을 적용해야 합니다.](#require-users-to-apply-a-label-to-their-email-and-documents)   | 미리 보기: [현재 채널(미리 보기)](https://office.com/insider)             | 미리 보기: [현재 채널(미리 보기)](https://office.com/insider)         | 검토 중   | 롤아웃: 16.0.13628+ | 검토 중                                            
 |[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | 2009+                                  | 롤아웃: 16.44+ | 검토 중 | 검토 중 | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |레이블이 [지정되고](https://support.office.com/article/6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) 암호화된 문서에 대한 자동 저장 및 공동 작성 지원 [](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) | 검토 중 | 검토 중 | 검토 중 | 검토 중 | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
@@ -89,7 +89,7 @@ iOS 및 Android용 Office: 민감도 레이블이 Office 앱에 [기본 제공�
 |[지금 권한 할당](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[사용자가 권한을 할당하도록 허용](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[사용자가 전자 메일 및 문서에 레이블을 적용해야 합니다.](#require-users-to-apply-a-label-to-their-email-and-documents)   | 미리 보기: [현재 채널(미리 보기)](https://office.com/insider)                        | 16.43+                     | 검토 중            | 검토 중                | 예                |
-|[데이터 분류 시작](data-classification-overview.md) 및 관리자를 위한 데이터 보내기                      | 미리 보기: [현재 채널(미리 보기)](https://office.com/insider)                       | 미리 보기: [현재 채널(미리 보기)](https://office.com/insider)                    | 검토 중           | 검토 중               | 예               |
+|[데이터 분류 시작](data-classification-overview.md) 및 관리자를 위한 데이터 보내기                      | 2011+ | 검토 중 | 검토 중           | 검토 중               | 검토 중 |
 |[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+                    | 검토 중           | 검토 중               | 예 |
 |
 
@@ -145,7 +145,7 @@ Office 365 메시지 암호화에 대해 정의한 템플릿과 같은 관리자
 - 문서의 경우: **파일**  >  **정보 보호** 문서  >  **액세스**  >  **제한**
 - 전자 메일의 경우: 옵션 **탭에서** >  
   
-사용자가 처음에 문서 또는 전자 메일에 레이블을 지정하면 항상 자체 암호화 설정으로 레이블 구성 설정을 의회할 수 있습니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+사용자가 처음에 문서 또는 전자 메일에 레이블을 지정하면 항상 자체 암호화 설정으로 레이블 구성 설정을 의회할 수 있습니다. 예제:
 
 - 사용자가 문서에 **기밀 \ 모든** 직원 레이블을 적용하고 이 레이블은 조직의 모든 사용자에 대해 암호화 설정을 적용하도록 구성됩니다. 그런 다음 이 사용자는 조직 외부의 사용자에 대한 액세스를 제한하도록 IRM 설정을 수동으로 구성합니다. 최종 결과로 Confidential \ All **Employees** 레이블이 지정되고 암호화된 문서가 있지만 조직의 사용자가 예상대로 열 수 없습니다.
 
@@ -155,7 +155,7 @@ Office 365 메시지 암호화에 대해 정의한 템플릿과 같은 관리자
 
 문서 또는 전자 메일에 이미 레이블이 지정되어 있는 경우 사용자는 콘텐츠가 아직 암호화되지 않은 [](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) 경우 또는 사용권 내보내기 또는 모든 사용권이 있는 경우 이러한 작업을 수행할 수 있습니다. 
 
-의미 있는 보고를 통해 보다 일관된 레이블 환경을 위해 사용자가 문서를 보호하기 위해 레이블만 적용하도록 적절한 레이블 및 지침을 제공합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+의미 있는 보고를 통해 보다 일관된 레이블 환경을 위해 사용자가 문서를 보호하기 위해 레이블만 적용하도록 적절한 레이블 및 지침을 제공합니다. 예제:
 
 - 사용자가 고유한 사용 권한을 할당해야 하는 예외의 경우 사용자가 자신의 권한을 할당할 수 있는 [레이블을 제공합니다.](encryption-sensitivity-labels.md#let-users-assign-permissions) 
 
