@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: f3654762bf4d4c28a82b1e93829094b9e0386a60
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 261c375aa17e4a3bc8f7d1b469d82621cf4ae45b
+ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926525"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50097131"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>메일을 보호하기 위한 정책 권장 사항
 
@@ -44,17 +44,17 @@ ms.locfileid: "49926525"
 
 ActiveSync 클라이언트를 차단하는 Exchange Online에 대한 새 정책이 추가되었습니다. 그러면 Outlook 모바일이 강제로 사용됩니다.
 
-정책을 설정할 때 정책 범위에 Exchange Online 및 Outlook을 포함한 경우 ActiveSync 클라이언트를 차단하는 새 정책만 만들어야 합니다. 다음 표에 나열된 정책을 검토하고 권장되는 추가를 작성하거나 이러한 정책이 이미 포함되어 있는지 확인할 수 있습니다. 각 정책은 일반 ID 및 장치 액세스 정책의 관련 구성 [지침에 연결됩니다.](identity-access-policies.md)
+정책을 설정할 때 Exchange Online 및 Outlook을 정책 범위에 포함한 경우 ActiveSync 클라이언트를 차단하는 새 정책만 만들어야 합니다. 다음 표에 나열된 정책을 검토하고 권장되는 추가를 작성하거나 이러한 정책이 이미 포함되어 있는지 확인할 수 있습니다. 각 정책은 일반 ID 및 장치 액세스 정책의 관련 구성 [지침에 연결됩니다.](identity-access-policies.md)
 
 |보호 수준|정책|추가 정보|
 |---|---|---|
 |**기준**|[로그인 위험이 중간 또는 높음인 경우 MFA *필요*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 Exchange Online 포함|
-||[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 Exchange Online 포함|
+||[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-multi-factor)|클라우드 앱 할당에 Exchange Online 포함|
 ||[APP 데이터 보호 정책 적용](identity-access-policies.md#apply-app-data-protection-policies)|Outlook이 앱 목록에 포함되어 있는지 확인 각 플랫폼(iOS, Android, Windows)에 대한 정책을 업데이트해야 합니다.|
 ||[승인된 앱 및 APP 보호 필요](identity-access-policies.md#require-approved-apps-and-app-protection)|클라우드 앱 목록에 Exchange Online 포함|
 ||[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|클라우드 앱 목록에 Exchange Online 포함|
 ||[ActiveSync 클라이언트 차단](#block-activesync-clients)|이 새 정책 추가|
-|**중요**|[로그인 위험이 낮음, 보통  *또는* 높음인 경우 MFA *필요*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 Exchange Online 포함|
+|**중요**|[로그인 위험이 낮음, 중간 또는  높음인 경우 MFA *필요*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 Exchange Online 포함|
 ||[호환 PC 및 *모바일* 장치 필요](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|클라우드 앱 목록에 Exchange Online 포함|
 |**매우 엄격한 규제**|[*항상* MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 Exchange Online 포함|
 |
@@ -93,7 +93,7 @@ ActiveSync 클라이언트를 차단하는 Exchange Online에 대한 새 정책�
 
    **배정** \> **클라우드 앱 또는 작업** \> **클라우드 앱** \> **포함** \> **앱 선택:** **Office 365 Exchange Online 선택**
 
-   **액세스 컨트롤** \> **세션**: 앱 **적용 제한 사용 선택**
+   **액세스 컨트롤** \> **세션:** 앱 **적용 제한 사용 선택**
 
 ## <a name="require-that-ios-and-android-devices-must-use-outlook"></a>iOS 및 Android 장치에서 Outlook을 사용해야 합니다.
 

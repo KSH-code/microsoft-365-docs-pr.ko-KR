@@ -24,43 +24,43 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
-description: Windows AutoPilot를 사용 하 여 비즈니스에 대 한 새 Windows 10 장치를 설정 하 여 직원 들이 사용할 수 있도록 준비 하는 방법을 알아봅니다.
-ms.openlocfilehash: efcb5442b34d2d42275cedc30e71ac98c7ea1266
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Windows AutoPilot을 사용하여 직원이 사용할 수 있도록 비즈니스용 새 Windows 10 장치를 설정하는 방법을 배워야 합니다.
+ms.openlocfilehash: f263cc90656ae5e7be1a89e3c7f56bfb2d0e3651
+ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401097"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50099753"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가
 
-Windows AutoPilot를 사용 하 여 비즈니스에 대 한 **새** windows 10 장치를 설정 하 여 직원 들에 게 제공할 때 사용할 수 있도록 준비 합니다.
+Windows AutoPilot을 사용하여 비즈니스용 **새** Windows 10 장치를 설정하여 직원들에게 제공될 때 사용할 준비가 될 수 있습니다.
   
 ## <a name="device-requirements"></a>장치 요구 사항
 
-장치는 다음 요구 사항을 충족 해야 합니다.
+장치는 다음 요구 사항을 충족해야 합니다.
   
-- Windows 10, 버전 1703 이상
+- Windows 10 버전 1703 이상
     
-- Windows 기본 경험을 거치지 않은 새로운 장치
+- Windows Out-of-box 환경을 통과하지 않은 새 장치
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>설정 가이드를 사용하여 장치와 프로필 만들기
 
 [![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-아직 장치 그룹 또는 프로필을 만들지 않은 경우에는 단계별 가이드를 사용 하 여 시작 하는 것이 가장 좋습니다. 가이드를 사용 하지 않고 [장치를 추가](create-and-edit-autopilot-devices.md) 하 고 [프로필을 할당할](create-and-edit-autopilot-profiles.md) 수도 있습니다. 
+장치 그룹 또는 프로필을 아직 만들지 않은 경우 시작하는 가장 좋은 방법은 단계별 가이드를 사용하는 것입니다. 가이드를 [사용하지](create-and-edit-autopilot-devices.md) 않고 [](create-and-edit-autopilot-profiles.md) 디바이스를 추가하고 프로필을 할당할 수도 있습니다. 
   
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
 
-2. 왼쪽 탐색 창에서 **장치** \> **AutoPilot**을 선택 합니다.
+2. 왼쪽 탐색 창에서 **장치** \> **AutoPilot을 선택 합니다.**
 
-    ![관리 센터에서 장치, AutoPilot을 차례로 선택 합니다.](../media/AutoPilot.png)
+    ![관리 센터에서 디바이스를 선택한 다음 AutoPilot을 선택하세요.](../media/AutoPilot.png)
   
-2. **AutoPilot** 페이지에서 **시작 가이드**를 클릭 하거나 탭 합니다.
+2. **AutoPilot 페이지에서** 시작 가이드를 **클릭하거나 탭합니다.**
     
     ![Click Start guide for step-by-step instructions for Autopilot.](../media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
-3. **장치 목록이 포함 된 .csv 파일 업로드** 페이지에서 준비 된 위치로 이동 합니다. CSV 파일을 선택한 후 다음을 **엽니다** \> **Next**. 파일에는 다음과 같은 세 가지 헤더가 있어야 합니다.
+3. 장치 **목록이 있는 .csv** 파일 업로드 페이지에서 준비된 위치로 이동합니다. CSV 파일,  다음 \> **열기.** 파일에는 다음 세 개의 헤더가 있어야 합니다.
     
     - A 열: 장치 일련 번호
     
@@ -68,27 +68,30 @@ Windows AutoPilot를 사용 하 여 비즈니스에 대 한 **새** windows 10 �
     
     - C 열: 하드웨어 해시
     
-    하드웨어 공급 업체에서이 정보를 가져오거나 [Get-windowsautopilotinfo PowerShell 스크립트](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) 를 사용 하 여 CSV 파일을 생성할 수 있습니다. 
+    하드웨어 공급업체에서 이 정보를 얻거나 [Get-WindowsAutoPilotInfo PowerShell](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) 스크립트를 사용하여 CSV 파일을 생성할 수 있습니다. 
     
     자세한 내용은 [장치 목록 CSV 파일](https://docs.microsoft.com/microsoft-365/admin/misc/device-list)을 참조하세요. **장치 목록이 포함된 .csv 파일 업로드** 페이지에서 샘플 파일을 다운로드할 수도 있습니다. 
     
-4. **프로필 할당** 페이지에서 기존 프로필을 선택 하거나 새로 만들 수 있습니다. 아직 없으면 만들 것인지 묻는 메시지가 표시 됩니다. 
+> [!NOTE]
+> 이 스크립트는 WMI를 사용하여 고객이 Windows Autopilot에 디바이스를 등록하는 데 필요한 속성을 검색합니다. 디바이스를 등록할 필요는 아니며 출력 CSV에 NULL인 PKID가 완전히 괜찮기 때문에 결과 CSV 파일에서 Windows PKID(제품 ID) 값을 수집하지 않는 것은 일반적입니다. 일련 번호와 하드웨어 해시만 채워지기만 합니다.
+    
+4. 프로필 **할당 페이지에서** 기존 프로필을 선택하거나 새 프로필을 만들 수 있습니다. 아직 없는 경우 하나를 만들지 묻는 메시지가 표시될 수 있습니다. 
     
     프로필은 단일 장치 또는 장치 그룹에 적용할 수 있는 설정 모음입니다.
     
-    기본 기능은 필수 이며 자동으로 설정 됩니다. 기본 기능은 다음과 같습니다.
+    기본 기능은 필수 기능으로, 자동으로 설정됩니다. 기본 기능은 다음과 같습니다.
     
-    - Cortana, OneDrive 및 OEM 등록을 건너뜁니다.
+    - Cortana, OneDrive 및 OEM 등록을 건너뜁.
     
     - 회사 브랜드의 로그인 환경을 만듭니다.
     
-    - 장치를 Azure Active Directory 계정에 연결 하 고 Microsoft 365 Business Premium에서 관리할 수 있도록 자동으로 등록 합니다.
+    - 장치를 Azure Active Directory 계정에 연결하고 Microsoft 365 Business Premium에서 관리하기 위해 자동으로 등록합니다.
     
-    자세한 내용은 [About AutoPilot Profile settings](autopilot-profile-settings.md)를 참조 하십시오. 
+    자세한 내용은 [AutoPilot 프로필 설정 정보를 참조하세요.](autopilot-profile-settings.md) 
     
-5. 다른 설정은 **개인 정보 설정 건너뛰기** 및 **사용자가 로컬 관리자가 되는 것을 허용하지 않음**입니다. 둘 다 기본적으로 **해제**로 설정되어 있습니다. 
+5. 다른 설정은 **개인 정보 설정 건너뛰기** 및 **사용자가 로컬 관리자가 되는 것을 허용하지 않음** 입니다. 둘 다 기본적으로 **해제** 로 설정되어 있습니다. 
     
-    **다음**을 선택합니다.
+    **다음** 을 선택합니다.
     
-6. **사용자** 가 만들거나 선택한 프로필이 장치 목록을 업로드 하 여 만든 장치 그룹에 적용 됨을 나타냅니다. 설정은 장치 사용자가 다음에 로그인 할 때 적용 됩니다. **닫기**를 선택합니다.
+6. **사용자가 만든(또는** 선택한) 프로필이 장치 목록을 업로드하여 만든 디바이스 그룹에 적용될 것 같다는 표시가 완료되었습니다. 설정은 장치 사용자가 다음에 로그인할 때 적용됩니다. **닫기** 를 선택합니다.
     

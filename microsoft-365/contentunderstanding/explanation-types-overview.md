@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 설명 유형에 대해 자세히 알아보세요.
-ms.openlocfilehash: 9a65c5de5321ee623a3d1a1e4260c0bcb2ad331e
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 2c2997fd165339cc43f7f007050f343794021a23
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49975958"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080585"
 ---
 # <a name="introduction-to-explanation-types"></a>설명 유형 소개
 
@@ -123,6 +123,31 @@ Redmond, WA 98034<br>
 근접 설정이 0에서 3의 범위를 갖도록 구성합니다.
 
    ![근접의 예](../media/content-understanding/proximity-example.png)</br>
+
+
+## <a name="configure-where-phrases-occur-in-the-document"></a>문서에서 구가 발생하는 위치 구성
+
+설명을 만들 때 기본적으로 전체 문서에서 추출하려는 구를 검색합니다. 그러나 <b>문서에서 이 구가 발생하는 위치</b> 고급 설정을 사용하면 문서에서 이러한 구가 발생하는 위치를 설정하는 데 도움이 될 수 있습니다. 이 기능은 문서의 다른 위치에서 구와 비슷한 인스턴스가 표시되고 올바른 구가 선택되어 있는지 확인하려는 경우에 유용합니다. 의료 의뢰 문서를 예로 들면 **의사 의뢰** 는 항상 문서의 첫 번째 단락에 언급되어 있습니다. 이 예에서는 <b>이러한 구가 발생하는 위치</b> 설정을 사용하여 문서의 시작 부분 또는 이 구가 발생할 수 있는 다른 위치에서만 이 레이블을 검색하도록 설명을 구성할 수 있습니다.
+
+   ![이러한 구가 발생하는 위치 설정](../media/content-understanding/phrase-location.png)</br>
+
+이 설정에 대해 다음 옵션 중에서 선택할 수 있습니다.
+
+- 파일의 모든 위치: 전체 문서에서 구를 검색합니다.
+- 파일의 시작: 문서가 처음부터 구 위치까지 검색합니다.</br> 
+   ![파일의 시작](../media/content-understanding/beginning-of-file.png)</br>
+뷰어에서 구가 발생하는 위치를 포함하기 위해 선택 상자를 수동으로 조정할 수 있습니다. <b>끝 위치</b> 값이 업데이트되어 선택한 영역에 포함된 토큰 수가 표시됩니다. 끝 위치 값을 업데이트하여 선택한 영역을 조정할 수도 있습니다.</br>
+   ![파일 위치 상자의 시작](../media/content-understanding/beginning-box.png)</br>
+
+- 파일의 끝 위치: 문서가 끝부터 구 위치까지 검색됩니다.</br> 
+   ![파일의 끝](../media/content-understanding/end-of-file.png)</br>
+뷰어에서 구가 발생하는 위치를 포함하기 위해 선택 상자를 수동으로 조정할 수 있습니다. <b>시작 위치</b> 값이 업데이트되어 선택한 영역에 포함된 토큰 수가 표시됩니다. 시작 위치 값을 업데이트하여 선택한 영역을 조정할 수도 있습니다.</br> 
+   ![파일 끝 상자의 끝](../media/content-understanding/end-box.png)</br>
+- 사용자 지정 범위: 문서가 구 위치에 대해 지정된 범위 내에서 검색됩니다.</br> 
+   ![사용자 지정 범위](../media/content-understanding/custom-file.png).</br>
+뷰어에서 구가 발생하는 위치를 포함하기 위해 선택 상자를 수동으로 조정할 수 있습니다. 이 설정의 경우 시작 <b>시작</b>과 <b>끝</b> 위치를 선택해야 합니다. 이러한 값은 문서 시작에서 토큰 수를 나타냅니다. 이러한 값은 수동으로 입력할 수 있지만 뷰어에서 선택 상자를 수동으로 조정하는 것이 더 쉽습니다.</br> 
+   
+
 
 ## <a name="use-explanation-templates"></a>설명 서식 파일 사용
 

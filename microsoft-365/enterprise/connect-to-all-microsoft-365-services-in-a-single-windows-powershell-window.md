@@ -3,7 +3,7 @@ title: 단일 PowerShell 창에서 모든 Microsoft 365 서비스에 연결
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/10/2020
+ms.date: 02/02/2021
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -18,12 +18,12 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: '요약: 단일 PowerShell 창에서 모든 Microsoft 365 서비스에 연결합니다.'
-ms.openlocfilehash: 4266b4f216b4c9df48f0c19d1d2123269eb32cae
-ms.sourcegitcommit: 00d231bf0100e843a5a93161695e87ceff9e1349
+ms.openlocfilehash: 390e2446737b4b85dfaba64974666fab4938a5dd
+ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49849596"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084604"
 ---
 # <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a>단일 PowerShell 창에서 모든 Microsoft 365 서비스에 연결
 
@@ -56,7 +56,7 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 여러 PowerShel
     
   - Windows Server 2008 R2 SP1*
     
-    \*Microsoft .NET Framework 4.5.*x* 및 Windows Management Framework 3.0 또는 4.0을 설치해야 합니다. 자세한 내용은 [Windows Management Framework](https://docs.microsoft.com/powershell/scripting/windows-powershell/wmf/overview?view=powershell-7)를 참조하세요.
+    \*Microsoft .NET Framework 4.5.*x* 및 Windows Management Framework 3.0 또는 4.0을 설치해야 합니다. 자세한 내용은 [Windows Management Framework](https://docs.microsoft.com/powershell/scripting/windows-powershell/wmf/overview)를 참조하세요.
     
     비즈니스용 Skype 온라인과 하나의 Microsoft 365 모듈 요구 사항 때문에 64비트 버전의 Windows를 사용해야 합니다.
     
@@ -73,10 +73,6 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 여러 PowerShel
    ```powershell
    Set-ExecutionPolicy RemoteSigned
    ```
-
-## <a name="exchange-online-and-security-amp-compliance-center-with-the-exchange-online-powershell-v2-module"></a>Exchange Online PowerShell V2 모듈과 함께 Exchange Online 및 보안 &amp; 준수 센터
-
-이 문서에서는 Exchange Online PowerShell V2 모듈을 사용하여 Exchange Online 및 보안 &amp; 준수 센터에 연결합니다. 그러나 현재 *동일한 PowerShell 창* 에서 둘 다 연결할 수 없습니다. 여러 Microsoft 365 서비스에 대해 PowerShell 창을 구성할 때 하나 또는 다른 하나에 연결하도록 선택해야 합니다.
 
 ## <a name="connection-steps-when-using-just-a-password"></a>암호만 사용하는 경우 연결 단계
 
@@ -109,6 +105,7 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 여러 PowerShel
     
    ```powershell
    $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
+   Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
    Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $Credential
    ```
 
@@ -118,37 +115,35 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 여러 PowerShel
    > Skype for Business Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다. 최신 Teams PowerShell 공개 릴리스를 사용 중인 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
    
    ```powershell
-   Import-Module MicrosoftTeams
    $sfboSession = New-CsOnlineSession -Credential $credential
    Import-PSSession $sfboSession
    ```
 
-6. 이 명령을 실행하여 Exchange 온라인에 연결합니다.
+6. Exchange Online에 연결하려면 이 명령을 실행하세요.
     
    ```powershell
    Import-Module ExchangeOnlineManagement
-   Connect-ExchangeOnline -Credential $credential -ShowProgress $true
+   Connect-ExchangeOnline -ShowProgress $true
    ```
 
    > [!Note]
-   > 전 세계 외의 Microsoft 365 클라우드용 Exchange 온라인에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+   > 전 세계 이외의 Microsoft 365 클라우드용 Exchange Online에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
-   또는 이러한 명령을 실행하여 보안 &amp; 준수 센터에 연결합니다.
+7. 다음 명령을 실행하여 보안 &amp; 준수 센터에 연결합니다.
     
    ```powershell
    $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
-   Import-Module ExchangeOnlineManagement
    Connect-IPPSSession -UserPrincipalName $acctName
    ```
 
    > [!Note]
    > 전 세계 이외의 Microsoft 365 클라우드에 대한 보안 &amp; 준수 센터에 연결하려면 [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)을 참조하세요.
 
-   다음 명령을 실행하여 Teams PowerShell에 연결하세요.
+8. 다음 명령을 실행하여 Teams PowerShell에 연결하세요.
     
    ```powershell
    Import-Module MicrosoftTeams
-   Connect-MicrosoftTeams -Credential $credential
+   Connect-MicrosoftTeams
    ```
   
    > [!Note]
@@ -157,82 +152,61 @@ PowerShell을 사용하여 Microsoft 365를 관리하는 경우 여러 PowerShel
 
 ### <a name="azure-active-directory-powershell-for-graph-module"></a>Azure Active Directory PowerShell for Grap 모듈
 
-다음은 Azure Active Directory PowerShell for Graph 모듈을 사용하는 경우 단일 블록에서 *보안 &amp; 준수 센터를 제외한* 모든 서비스에 대한 명령입니다. 도메인 호스트의 이름을 지정하고 한 번에 모두 실행합니다.
-  
-```powershell
-$orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
-$credential = Get-Credential
-Connect-AzureAD -Credential $credential
-Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
-Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $credential
-Import-Module MicrosoftTeams
-$sfboSession = New-CsOnlineSession -Credential $credential
-Import-PSSession $sfboSession
-Import-Module ExchangeOnlineManagement
-Connect-ExchangeOnline -Credential $credential -ShowProgress $true
-Import-Module MicrosoftTeams
-Connect-MicrosoftTeams -Credential $credential
-```
-
-다음은Azure Active Directory PowerShell for Graph 모듈을 사용하는 경우 단일 블록에서 보안 *Exchange Online을 제외한* 모든 서비스에 대한 명령입니다. 로그인을 위해 도메인 호스트 이름 및 UPN을 지정하고 한 번에 모두 실행합니다.
+다음은 그래프 모듈용 Azure Active Directory PowerShell을 사용할 때 단일 블록의 모든 서비스에 대한 명령입니다. 로그인을 위해 도메인 호스트 이름 및 UPN을 지정하고 한 번에 모두 실행합니다.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
-$credential = Get-Credential -UserName $acctName
+$credential = Get-Credential -UserName $acctName -Message "Type the account's password."
+#Azure Active Directory
 Connect-AzureAD -Credential $credential
+#SharePoint Online
 Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $credential
-Import-Module MicrosoftTeams
+#Skype for Business Online
 $sfboSession = New-CsOnlineSession -Credential $credential
 Import-PSSession $sfboSession
+#Exchange Online
 Import-Module ExchangeOnlineManagement
+Connect-ExchangeOnline -ShowProgress $true
+#Security & Compliance Center
 Connect-IPPSSession -UserPrincipalName $acctName
+#Teams
 Import-Module MicrosoftTeams
-Connect-MicrosoftTeams -Credential $credential
+Connect-MicrosoftTeams
 ```
 
 ### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈
 
-다음은 Windows PowerShell용 Microsoft Azure Active Directory 모듈을 사용하는 경우 단일 블록에서 *보안 &amp; 준수 센터를 제외한* 모든 서비스에 대한 명령입니다. 도메인 호스트의 이름을 지정하고 한 번에 모두 실행합니다.
-  
-```powershell
-$orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
-$credential = Get-Credential
-Connect-MsolService -Credential $credential
-Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
-Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $credential
-Import-Module MicrosoftTeams
-$sfboSession = New-CsOnlineSession -Credential $credential
-Import-PSSession $sfboSession
-Import-Module ExchangeOnlineManagement
-Connect-ExchangeOnline -Credential $credential -ShowProgress $true
-Import-Module MicrosoftTeams
-Connect-MicrosoftTeams -Credential $credential
-```
-
-다음은 Windows PowerShell용 Microsoft Azure Active Directory 모듈을 사용하는 경우 단일 블록에서 *Exchange Online을 제외한* 모든 서비스에 대한 명령입니다. 로그인을 위해 도메인 호스트 이름 및 UPN을 지정하고 한 번에 모두 실행합니다.
+다음은 Windows PowerShell 모듈용 Microsoft Azure Active Directory 모듈을 사용할 때 단일 블록의 모든 서비스에 대한 명령입니다. 로그인을 위해 도메인 호스트 이름 및 UPN을 지정하고 한 번에 모두 실행합니다.
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
-$credential = Get-Credential -UserName $acctName
-Connect-AzureAD -Credential $credential
+$credential = Get-Credential -UserName $acctName -Message "Type the account's password."
+#Azure Active Directory
+Connect-MsolService -Credential $credential
+#SharePoint Online
 Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $credential
-Import-Module MicrosoftTeams
+#Skype for Business Online
 $sfboSession = New-CsOnlineSession -Credential $credential
 Import-PSSession $sfboSession
+#Exchange Online
 Import-Module ExchangeOnlineManagement
+Connect-ExchangeOnline -ShowProgress $true
+#Security & Compliance Center
 Connect-IPPSSession -UserPrincipalName $acctName
+#Teams
 Import-Module MicrosoftTeams
-Connect-MicrosoftTeams -Credential $credential
+Connect-MicrosoftTeams
 ```
+
 ## <a name="connection-steps-when-using-multi-factor-authentication"></a>다단계 인증을 사용하는 경우 연결 단계
 
 ### <a name="azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell
 
-다음은 Azure Active Directory PowerShell for Graph 모듈을 사용하는 다단계 인증과 함께 *보안 &amp; 준수 센터를 제외하고* 여러 Microsoft 365 서비스에 연결하는 단일 블록의 모든 명령입니다.
+다음은 그래프 모듈용 Azure Active Directory PowerShell과 함께 다단계 인증을 사용할 때 여러 Microsoft 365 서비스에 연결하기 위한 단일 블록의 모든 명령입니다.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -242,31 +216,12 @@ Connect-AzureAD
 #SharePoint Online
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com
 #Skype for Business Online
-Import-Module MicrosoftTeams
 $sfboSession = New-CsOnlineSession
 Import-PSSession $sfboSession
 #Exchange Online
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
-#Teams
-Import-Module MicrosoftTeams
-Connect-MicrosoftTeams
-```
-다음은 Azure Active Directory PowerShell for Graph 모듈을 사용하는 다단계 인증과 함께 *Exchange Online을 제외하고* 여러 Microsoft 365 서비스에 연결하는 단일 블록의 모든 명령입니다.
-
-```powershell
-$acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
-$orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
-#Azure Active Directory
-Connect-AzureAD
-#SharePoint Online
-Connect-SPOService -Url https://$orgName-admin.sharepoint.com
-#Skype for Business Online
-Import-Module MicrosoftTeams
-$sfboSession = New-CsOnlineSession
-Import-PSSession $sfboSession
 #Security & Compliance Center
-Import-Module ExchangeOnlineManagement
 Connect-IPPSSession -UserPrincipalName $acctName
 #Teams
 Import-Module MicrosoftTeams
@@ -274,7 +229,7 @@ Connect-MicrosoftTeams
 ```
 ### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈
 
-다음은 Windows PowerShell용 Microsoft Azure Active Directory 모듈을 사용하는 다단계 인증과 함께 *보안 &amp; 준수 센터를 제외하고* 여러 Microsoft 365 서비스에 연결하는 단일 블록의 모든 명령입니다.
+다음은 Windows PowerShell 모듈용 Microsoft Azure Active Directory 모듈과 함께 다단계 인증을 사용할 때 여러 Microsoft 365 서비스에 연결하기 위한 단일 블록의 모든 명령입니다.
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -284,31 +239,12 @@ Connect-MsolService
 #SharePoint Online
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com
 #Skype for Business Online
-Import-Module MicrosoftTeams
 $sfboSession = New-CsOnlineSession
 Import-PSSession $sfboSession
 #Exchange Online
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
-#Teams
-Import-Module MicrosoftTeams
-Connect-MicrosoftTeams
-```
-다음은 Windows PowerShell용 Microsoft Azure Active Directory 모듈과 함께 다단계 인증을 사용하는 *Exchange Online을 제외하고* 여러 Microsoft 365 서비스에 연결하는 단일 블록의 모든 명령입니다.
-
-```powershell
-$acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
-$orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
-#Azure Active Directory
-Connect-MsolService
-#SharePoint Online
-Connect-SPOService -Url https://$orgName-admin.sharepoint.com
-#Skype for Business Online
-Import-Module MicrosoftTeams
-$sfboSession = New-CsOnlineSession
-Import-PSSession $sfboSession
 #Security & Compliance Center
-Import-Module ExchangeOnlineManagement
 Connect-IPPSSession -UserPrincipalName $acctName
 #Teams
 Import-Module MicrosoftTeams

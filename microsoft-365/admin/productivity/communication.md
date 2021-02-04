@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 통신 세부 정보 - 사용자 환경 생산성 점수입니다.
-ms.openlocfilehash: b688063c10749d15fc5b00b629ee18afedba927e
-ms.sourcegitcommit: 0867495cb02d0b38b439b16bdce97e6eda483ba9
+ms.openlocfilehash: de59a57f1c856d94836b59eba6a4869831fe700a
+ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712582"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50099715"
 ---
 # <a name="communication--people-experiences"></a>커뮤니케이션 - 사람 환경
 
@@ -159,7 +159,7 @@ Microsoft 365는 여러 모드를 제공하여 모든 사용자 통신 스타일
         
       - **채널 메시지를 보내는 사람:** 색이 있는 부분과 분수는 Microsoft Teams에서 메시지를 보내는 사용자 내에서 채널 메시지의 사용을 나타내는 분수입니다. 분수는 다음에서 생성됩니다.
       
-        - **Numerator:** 지난 28일 동안 Microsoft Teams에서 채팅 메시지를 보낸 사람입니다.
+        - **Numerator:** 지난 28일 동안 Microsoft Teams에서 채널 메시지를 보낸 사람입니다.
         - **디노이터:** 지난 28일 동안 Microsoft Teams에서 메시지를 보낸 사람입니다.
         
 4. **관련 콘텐츠 보기:** 이 링크를 선택하여 데이터 충돌 비디오 및 기타 관련 도움말 콘텐츠를 볼 수 있습니다.

@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 그룹에 대해 자세히 알아보습니다.
-ms.openlocfilehash: b3bc0c30f4ac292da7af46678fc742854984db12
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 5d5c15c13d46738ac9de701b5a39f47274b9f1e5
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925353"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094736"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>관리자를 위한 Microsoft 365 그룹 개요
 
-Microsoft 365 그룹은 Microsoft 365에서 모든 팀워크를 구동하는 기본 멤버십 서비스입니다. Microsoft 365 그룹을 사용하면 사용자 그룹에 공유 리소스 모음에 대한 액세스 권한을 부여할 수 있습니다. 이러한 리소스는 다음과 같습니다.
+Microsoft 365 그룹은 Microsoft 365에서 모든 팀워크를 구동하는 기본 멤버십 서비스입니다. Microsoft 365 그룹을 사용하면 사용자 그룹에 공유 리소스 컬렉션에 대한 액세스 권한을 부여할 수 있습니다. 이러한 리소스는 다음과 같습니다.
 
 - 공유 Outlook 받은 편지함
 - 공유 일정
@@ -64,7 +64,7 @@ Microsoft 365 그룹을 사용하면 이러한 각 리소스에 대한 사용 �
 
 Microsoft 365 그룹의 수명 주기를 보다 자동화된 방식으로 관리하기를 원하는 경우 만료 정책을 사용하여 특정 시간 간격으로 그룹을 만료할 수 있습니다. 그룹의 소유자는 그룹 만료 30일, 15일 및 1일 전에 전자 메일을 수신하여 필요한 경우 그룹을 갱신할 수 있습니다. 참조: [Microsoft 365 그룹 만료 정책.](office-365-groups-expiration-policy.md)
 
-Microsoft 365 관리 센터에서 또는 [PowerShell을](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershel)사용하여 그룹을 관리할 수 있습니다.
+Microsoft 365 관리 센터에서 또는 [PowerShell을](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)사용하여 그룹을 관리할 수 있습니다.
 
 대기업이나 대기업과 같은 사용자가 많은 경우 다양한 용도로 그룹을 만드는 사용자가 많이 있을 수 있습니다. Microsoft [365](plan-for-groups-governance.md) 그룹의 거버넌스 계획을 검토하여 모범 사례를 검토하는 것이 좋습니다.
 
@@ -94,14 +94,14 @@ Microsoft 365 그룹에는 다음 제한이 적용됩니다.
 - 외부 사용자 액세스
 - 관리되지 않는 장치 액세스
 
-예를 들어 *기밀이라는* 레이블을 만들고 이 레이블로 만든 모든 그룹이 비공개로 지정하고 외부 사용자를 허용하지 못하도록 지정할 수 있습니다. 조직의 사용자가 그룹을 만들 때 이 레이블을 선택하면 그룹이 비공개로 설정됩니다. 그룹 구성원은 그룹에 외부 사용자를 추가할 수 없습니다.
+예를 들어 *기밀이라는* 레이블을 만들고 이 레이블로 만든 모든 그룹이 비공개로 지정하고 외부 사용자를 허용하지 못하도록 지정할 수 있습니다. 조직의 사용자가 그룹을 만들 때 이 레이블을 선택하면 그룹이 비공개로 설정되어 그룹 구성원은 그룹에 외부 사용자를 추가할 수 없습니다.
 
 > [!IMPORTANT]
 > 현재 분류 레이블을 사용하는 경우 민감도 레이블을 사용하도록 설정하면 그룹을 만드는 사용자가 더 이상 해당 레이블을 사용할 수 없습니다. 
 
-민감도 레이블 만들기, 관리 및 사용에 대한 자세한 내용은 민감도 레이블을 사용하여 [Microsoft Teams, Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)그룹 및 SharePoint 사이트의 콘텐츠를 보호합니다.
+민감도 레이블 만들기, 관리 및 사용에 대한 자세한 내용은 민감도 레이블을 사용하여 [Microsoft Teams, Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)그룹 및 SharePoint 사이트의 콘텐츠를 보호하세요.
 
-## <a name="which-microsoft-365-plans-include-groups"></a>그룹을 포함 하는 Microsoft 365 계획?
+## <a name="which-microsoft-365-plans-include-groups"></a>그룹이 포함된 Microsoft 365 계획은 무엇입니까?
 
 Exchange Online 및 SharePoint Online이 있는 모든 Microsoft 365 구독은 그룹을 지원합니다. Business Essentials 및 Business Premium 계획과 Enterprise E1, E3 및 E5 요금제가 포함됩니다. 그룹은 그룹을 만든 사람의 라이선스를 관리합니다(그룹의 "이끌이"라고도 합니다). 이끌이가 그룹에 원하는 기능에 대한 적절한 라이선스가 있는 한 해당 라이선스가 그룹에 전달됩니다.
 
@@ -114,7 +114,7 @@ Microsoft 365 그룹은 Azure Active Directory와 함께 작동됩니다. 사용
 
 > [!IMPORTANT]
 > 모든 그룹 기능의 경우 Azure AD Premium 구독이 있는 경우 사용자는 AAD P1 라이선스가 할당되어 있는지 여부에 따라 그룹에 가입할 수 있습니다. 라이선스가 적용되지 않습니다.
-> 라이선스가 누락된 사용자를 알려 주기적으로 사용 현황 보고서를 생성하며 라이선스 요구 사항을 준수하기 위해 할당된 사용자가 필요합니다. 예를 들어 사용자에게 라이선스가 없는 경우 해당 라이선스가 이름 정책이 적용된 그룹에 추가된다고 합니다. 보고서에 라이선스가 필요하다는 플래그가 지정됩니다.
+> 라이선스가 누락된 사용자를 알려 주기적으로 사용 현황 보고서를 생성하고 라이선스 요구 사항을 준수하기 위해 할당된 사용자가 필요합니다. 예를 들어 사용자에게 라이선스가 없는 경우 해당 라이선스가 이름 정책이 적용된 그룹에 추가된다고 합니다. 보고서에 라이선스가 필요하다는 플래그가 지정됩니다.
 
 ## <a name="related-articles"></a>관련 문서
 

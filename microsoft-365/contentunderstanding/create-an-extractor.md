@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 추출기를 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7417805f51bb3a1c7b993ce2cd72137478abbc02
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: dd26b049f71688804cd5110a5a0bb7c87950be94
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976546"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080493"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 추출기 만들기
 
@@ -57,6 +57,14 @@ ms.locfileid: "49976546"
 
  
 5개 파일의 레이블이 지정되면 학습으로 이동하라는 알림 배너가 표시됩니다. 더 많은 문서를 레이블 지정하거나, 다음 교육으로 넘어갈 수 있습니다. 
+
+### <a name="use-find-to-search-your-file"></a>찾기를 사용하여 파일 검색
+<b>찾기</b> 기능을 사용하여 레이블을 지정하려는 엔터티를 검색할 수 있습니다.
+
+   ![파일에서 찾기](../media/content-understanding/find-feature.png) 
+
+찾기 기능은 큰 문서를 검색하거나 문서에 엔터티의 인스턴스가 여러 개 있는 경우 유용합니다. 인스턴스가 여러 개 있는 경우, 검색 결과에 필요한 인스턴스를 선택하여 뷰어에서 해당 위치로 이동하여 레이블을 지정할 수 있습니다.
+
 
 ## <a name="add-an-explanation"></a>설명 추가하기
 

@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 description: 21Vianet에서 운영하는 Office 365용 AIP(Azure Information Protection)와 중국 고객을 위해 AIP를 구성하는 방법에 대해 자세히 알아보고
 monikerRange: o365-21vianet
-ms.openlocfilehash: cee50384587ffc3e1e43eb9c6bb07d2e0ced7e13
-ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
+ms.openlocfilehash: 300e7633237511fb9de64199ae7cf54594f2239e
+ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49988047"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50099681"
 ---
 # <a name="azure-information-protection-support-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365에 대한 Azure Information Protection 지원
 
@@ -51,6 +51,8 @@ ms.locfileid: "49988047"
 
 - 모바일 [뷰어는](/azure/information-protection/rms-client/mobile-app-faq) Azure China 21Vianet에서 지원되지 않습니다.
 
+- 중국 고객은 Azure Portal의 AIP 영역을 사용할 수 없습니다. 포털에서 작업을 수행하는 대신 [PowerShell](#step-5-install-the-aip-on-premises-scanner-and-manage-content-scan-jobs) 명령을 사용합니다(예: On-premises scanner 설치 및 콘텐츠 검색 작업 관리).
+
 ## <a name="configure-aip-for-customers-in-china"></a>중국 고객의 AIP 구성
 
 중국 고객의 AIP를 구성하는 경우:
@@ -74,7 +76,7 @@ ms.locfileid: "49988047"
     2. AIPService 모듈이 설치되어 있지 않은 경우 를 `Install-Module AipService` 실행합니다.
     3. .를 사용하여 모듈을 가져올 `Import-Module AipService` 수 있습니다.
     4. .를 사용하여 서비스에 `Connect-AipService -environmentname azurechinacloud` 연결합니다.
-    5. 를 `(Get-AipServiceConfiguration).FunctionalState` 실행하고 상태가 .를(를) 를 선택해야 `Enabled` 합니다.
+    5. 실행 `(Get-AipServiceConfiguration).FunctionalState` 및 상태 확인 `Enabled`
 
 2. 기능 상태가면 `Disabled` 다음을 `Enable-AipService` 실행합니다.
 
@@ -128,7 +130,7 @@ Microsoft 다운로드 센터에서 AIP 통합 레이블 [클라이언트를 다
 - [AIP 빠른 시작: AIP 클라이언트 배포](/azure/information-protection/quickstart-deploy-client)
 - [AIP 관리자 가이드](/azure/information-protection/rms-client/clientv2-admin-guide)
 - [AIP 사용자 가이드](/azure/information-protection/rms-client/clientv2-user-guide)
-- [Microsoft 365 민감도 레이블에 대해 자세히 알아보기](/microsoft-365/compliance/sensitivity-labels)
+- [Microsoft 365 민감도 레이블에 대해 자세히](/microsoft-365/compliance/sensitivity-labels)
 
 ### <a name="step-4-configure-aip-apps-on-windows"></a>4단계: Windows에서 AIP 앱 구성
 
@@ -140,7 +142,7 @@ Windows의 AIP 앱에는 Azure China의 올바른 주권 클라우드를 설정�
 - Type = `REG_DWORD`
 
 > [!IMPORTANT]
-> 제거 후 레지스트리 키를 삭제하지 않습니다. 키가 비어 있거나, 잘못되거나, 존재하지 않는 경우 기능이 기본값(상업용 클라우드의 경우 기본값 = 0)으로 동작합니다. 키가 비어 있거나 올바르지 않은 경우 로그에 인쇄 오류가 추가됩니다.
+> 제거 후 레지스트리 키를 삭제하지 않습니다. 키가 비어 있거나, 잘못되거나, 존재하지 않는 경우 기능이 기본값(상업용 클라우드의 경우 기본값 = 0)으로 동작합니다. 키가 비어 있거나 올바르지 않은 경우 인쇄 오류도 로그에 추가됩니다.
 
 ### <a name="step-5-install-the-aip-on-premises-scanner-and-manage-content-scan-jobs"></a>5단계: AIP-프레미스 스캐너 설치 및 콘텐츠 검색 작업 관리
 

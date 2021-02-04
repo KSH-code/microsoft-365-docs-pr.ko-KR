@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: SharePoint 문서 라이브러리에 게시된 모델을 적용하는 방법 알아보기
-ms.openlocfilehash: 742c6b7088619579f6157e20de63fe311039d6e2
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 17da1e37f72504ac5e0e26c0dd190efced08d285
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49975934"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080785"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint 구문에서 문서 이해 모델 적용
 
@@ -61,10 +61,15 @@ SharePoint 문서 라이브러리에 모델 적용하기:
 
     ![선택된 라이브러리](../media/content-understanding/selected-library.png)</br>
 
-7. 문서 라이브러리로 이동하여 모델의 문서 라이브러리 보기에 있는지 확인합니다. 문서 라이브러리 이름 옆에 있는 정보 단추를 선택하면 모델이 문서 라이브러리에 적용되었다는 메시지가 표시됩니다.
+7. 문서 라이브러리로 이동하여 모델의 문서 라이브러리 보기에 있는지 확인합니다. 문서 라이브러리 이름 옆에 있는 정보 단추를 선택하면 문서 라이브러리에 모델이 적용되었다는 메시지가 표시됩니다.
 
     ![정보 보기](../media/content-understanding/info-du.png)</br> 
 
+    **활성 모델 보기** 선택하여 문서 라이브러리에 적용된 모델에 대한 세부 정보를 볼 수 있습니다.
+
+8. **활성 모델** 창에서 문서 라이브러리에 적용된 모델을 볼 수 있습니다. 모델을 선택하여 모델에 대한 설명, 모델 게시자, 모델이 분류된 파일에 보존 레이블을 적용하는 경우와 같은 모델에 대한 자세한 정보를 확인합니다.
+
+    ![활성 모델 창](../media/content-understanding/active-models.png)</br> 
 
 문서 라이브러리에 모델을 적용한 후, 사이트에 문서 업로드를 시작하고 결과를 볼 수 있습니다.
 
@@ -83,10 +88,24 @@ SharePoint 문서 라이브러리에 모델 적용하기:
 > [!NOTE]
 > 개별 파일을 라이브러리에 복사하여 모델에 적용할 수 있지만 폴더는 적용할 수 없습니다.
 
+### <a name="the-classification-date-field"></a>분류 날짜 필드
+
+SharePoint Syntex 문서의 이해 또는 양식 처리 모델을 문서 라이브러리에 적용하면 <b>분류 날짜</b> 필드가 라이브러리 스키마에 포함됩니다. 기본적으로 이 필드는 비어 있지만, 문서가 모델에 의해 처리되고 분류되면 이 필드가 완료 날짜-시간 스탬프로 업데이트됩니다. 
+
+   ![분류 날짜 열](../media/content-understanding/class-date-column.png)</br> 
+
+분류 날짜 필드는 Syntex 콘텐츠 이해 모델이 파일 처리를 완료하고 "분류 날짜" 필드를 업데이트한 후 Power Automate 흐름을 실행하기 위해 [<b>콘텐츠 이해 모델에 의해 파일이 분류되는 경우</b> 트리거](https://docs.microsoft.com/connectors/sharepointonline/#when-a-file-is-classified-by-a-content-understanding-model)에서 사용됩니다.
+
+   ![흐름 트리거](../media/content-understanding/trigger.png)</br>
+
+<b>콘텐츠 이해 모델에 의해 파일이 분류되는 경우</b> 트리거를 사용하여 파일에서 추출한 정보로 다른 워크플로를 시작할 수 있습니다.
+
+
+
 ## <a name="see-also"></a>참고 항목
 [분류자 만들기](create-a-classifier.md)
 
-[추출기 만들기](create-an-extractor.md)
+[추출자 만들기](create-an-extractor.md)
 
 [문서 이해 개요](document-understanding-overview.md)
 

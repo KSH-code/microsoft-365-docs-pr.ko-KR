@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 description: 핵심 데이터를 새 Office 365 데이터 센터 지역으로 이동하는 경우와 관련한 FAQ(질문과 대답)에 대한 답변을 찾아보실 수 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 49ddcbf3a1aa8d91bd8202894e114fe50624720a
-ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
+ms.openlocfilehash: a7e59622e35604ebd9befbbe17a8a125ed15e101
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49780263"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094658"
 ---
 # <a name="data-move-general-faq"></a>데이터 이동 일반 FAQ
 
@@ -108,7 +108,7 @@ Microsoft 365 메시지 센터에서 각 서비스의 데이터 이동이 완료
   
 ## <a name="what-happens-if-we-are-in-process-of-email-data-migration-to-microsoft-365-during-the-exchange-online-move"></a>Exchange Online을 이동하는 동안 Microsoft 365로 전자 메일 데이터 마이그레이션을 진행하는 경우 어떻게 하나요?
 
-이 시나리오는 매우 일반적인 시나리오로, 완전히 지원됩니다. 데이터 센터 지역 간의 클라우드 마이그레이션은 클라우드 사서함 마이그레이션을 방해하지 않습니다.
+이 시나리오는 매우 일반적인 시나리오로, 완전히 지원됩니다.  데이터 센터 지역 간의 클라우드 마이그레이션은 클라우드 사서함 마이그레이션을 방해하지 않습니다.
   
  ## <a name="can-i-pilot-some-users"></a>일부 사용자를 파일럿할 수 있나요?
   

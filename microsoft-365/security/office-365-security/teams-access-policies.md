@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 7724ef76d905cdbaf48f3122d0df7ef28d0b8385
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 12bdf0df1a5b2f616c5b2bed61d69e8226fa5844
+ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931629"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50097189"
 ---
-# <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Teams 채팅, 그룹 및 파일 보안에 대한 정책 권장 사항
+# <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Teams 채팅, 그룹 및 파일 보호를 위한 정책 권장 사항
 
 이 문서에서는 권장 ID 및 장치 액세스 정책을 구현하여 Microsoft Teams 채팅, 그룹 및 콘텐츠(예: 파일 및 일정)를 보호하는 방법을 설명합니다. 이 지침은 일반적인 [ID](identity-access-policies.md)및 장치 액세스 정책을 구축하며 Teams 관련 추가 정보를 제공합니다. Teams는 다른 제품과 통합됩니다. [또한 SharePoint](sharepoint-file-access-policies.md) 사이트 및 파일 보안에 대한 정책 권장 사항과 전자 메일 보안에 대한 정책 권장 사항을 [참조하세요.](secure-email-recommended-policies.md)
 
@@ -36,7 +36,7 @@ ms.locfileid: "49931629"
 
 ## <a name="getting-started-with-teams-before-other-dependent-services"></a>다른 종속 서비스 전에 Teams 시작
 
-종속 서비스가 Microsoft Teams를 시작하도록 설정할 필요는 없습니다. 모두 "작동"합니다. 그러나 다음을 관리할 수 있도록 준비해야 합니다.
+종속 서비스가 Microsoft Teams를 시작하도록 설정할 필요는 없습니다. 이러한 서비스는 모두 "작동"합니다. 그러나 다음과 같은 서비스 관련 요소를 관리할 수 있도록 준비해야 합니다.
 
 - Microsoft 365 그룹
 - SharePoint 팀 사이트
@@ -52,7 +52,7 @@ Teams에서 채팅, 그룹 및 콘텐츠를 보호하기 위해 다음 다이어
 
 [이 이미지의 더 큰 버전 보기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)
 
-다음은 Teams용 클라우드 앱 할당에 포함할 종속 서비스입니다.
+이러한 서비스는 Teams용 클라우드 앱 할당에 포함할 종속 서비스입니다.
 
 - Microsoft Teams
 - SharePoint 및 비즈니스용 OneDrive
@@ -66,19 +66,19 @@ Teams에서 채팅, 그룹 및 콘텐츠를 보호하기 위해 다음 다이어
 |보호 수준|정책|Teams 구현에 대한 추가 정보|
 |---|---|---|
 |**기준**|[로그인 위험이 중간 또는 높음인 경우 MFA *필요*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Teams 및 종속 서비스가 앱 목록에 포함해야 합니다. Teams에는 게스트 액세스 및 외부 액세스 규칙도 고려할 수 있으며, 이 문서의 부분에서 이러한 규칙에 대해 자세히 알아보게 됩니다.|
-||[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 Teams 및 종속 서비스를 포함합니다.|
-||[위험이 높은 사용자는 암호를 변경해야 함](identity-access-policies.md#high-risk-users-must-change-password)|계정에 대해 높은 위험 활동이 감지된 경우 Teams 사용자가 로그인할 때 암호를 강제로 변경합니다. Teams 및 종속 서비스가 앱 목록에 포함해야 합니다.|
+||[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-multi-factor)|클라우드 앱 할당에 Teams 및 종속 서비스를 포함합니다.|
+||[위험이 높은 사용자는 암호를 변경해야 함](identity-access-policies.md#high-risk-users-must-change-password)|계정에 대해 위험 위험이 높은 활동이 감지된 경우 Teams 사용자가 로그인할 때 암호를 강제로 변경합니다. Teams 및 종속 서비스가 앱 목록에 포함해야 합니다.|
 ||[APP 데이터 보호 정책 적용](identity-access-policies.md#apply-app-data-protection-policies)|Teams 및 종속 서비스가 앱 목록에 포함해야 합니다. 각 플랫폼(iOS, Android, Windows)에 대한 정책을 업데이트합니다.|
 ||[장치 준수 정책 정의](identity-access-policies.md#define-device-compliance-policies)|이 정책에 Teams 및 종속 서비스를 포함합니다.|
 ||[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|이 정책에 Teams 및 종속 서비스를 포함합니다.|
-|**중요**|[로그인 위험이 낮음, 보통  *또는* 높음인 경우 MFA *필요*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Teams에는 게스트 액세스 및 외부 액세스 규칙도 고려할 수 있으며, 이 문서의 부분에서 이러한 규칙에 대해 자세히 알아보게 됩니다. 이 정책에 Teams 및 종속 서비스를 포함합니다.|
+|**중요**|[로그인 위험이 낮음, 중간 또는  높음인 경우 MFA *필요*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Teams에는 게스트 액세스 및 외부 액세스 규칙도 고려할 수 있으며, 이 문서의 부분에서 이러한 규칙에 대해 자세히 알아보게 됩니다. 이 정책에 Teams 및 종속 서비스를 포함합니다.|
 ||[호환 PC 및 *모바일* 장치 필요](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|이 정책에 Teams 및 종속 서비스를 포함합니다.|
 |**매우 엄격한 규제**|[*항상* MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|사용자 ID에 관계없이 조직에서 MFA를 사용하게 됩니다. 이 정책에 Teams 및 종속 서비스를 포함합니다. |
 |
 
 ## <a name="teams-dependent-services-architecture"></a>Teams 종속 서비스 아키텍처
 
-참조를 위해 다음 다이어그램은 Teams가 사용하는 서비스를 보여 주는 것입니다. 자세한 정보와 추가 그림은 IT 설계자용 [Microsoft 365의 Microsoft Teams](../../solutions/productivity-illustrations.md)및 관련 생산성 서비스를 참조하세요.
+참조를 위해 다음 다이어그램은 Teams가 사용하는 서비스를 보여 주는 것입니다. 자세한 정보와 그림은 IT 설계자용 [Microsoft 365의 Microsoft Teams](../../solutions/productivity-illustrations.md)및 관련 생산성 서비스를 참조하세요.
 
 [![SharePoint, 비즈니스용 OneDrive 및 Exchange에 대한 Teams 종속성 표시 다이어그램](../../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
@@ -86,11 +86,11 @@ Teams에서 채팅, 그룹 및 콘텐츠를 보호하기 위해 다음 다이어
 
 ## <a name="guest-and-external-access-for-teams"></a>Teams에 대한 게스트 및 외부 액세스
 
-Microsoft Teams는 다음을 정의합니다.
+Microsoft Teams는 다음과 같은 액세스 유형을 정의합니다.
 
 - **게스트 액세스는** 팀의 구성원으로 추가할 수 있으며 팀의 통신 및 리소스에 대한 모든 권한을 가지는 게스트 또는 외부 사용자에 대해 Azure AD B2B 계정을 사용합니다.
 
-- **외부 액세스는** Azure AD B2B 계정이 없는 외부 사용자에 대한 것입니다. 외부 액세스에는 초대 및 통화, 채팅 및 모임 참가가 포함할 수 있지만 팀 구성원 자격 및 팀 리소스에 대한 액세스는 포함하지 않습니다.
+- **외부 액세스는** Azure AD B2B 계정이 없는 외부 사용자에 대한 것입니다. 외부 액세스에는 초대 및 통화, 채팅 및 모임 참가가 포함할 수 있지만 팀 구성원 자격 및 팀의 리소스 액세스는 포함하지 않습니다.
 
 조건부 액세스 정책은 해당 Azure AD B2B 계정이 있기 때문에 Teams의 게스트 액세스에만 적용됩니다.
 
@@ -109,7 +109,7 @@ Azure AD B2B 계정이 있는 게스트 및 외부 사용자에 대한 액세스
 
 ### <a name="external-access-in-teams"></a>Teams의 외부 액세스
 
-외부 액세스는 경우에 따라 게스트 액세스와 혼동될 수 있으므로 이 두 가지 비 내부 액세스 메커니즘이 실제로 상당히 다른지 명확하게 하는 것이 중요합니다.
+외부 액세스가 게스트 액세스와 혼동되는 경우도 있으므로 이러한 두 가지 내부 액세스 메커니즘이 서로 다른 액세스 유형임이 분명해야 합니다.
 
 외부 액세스는 전체 외부 도메인의 Teams 사용자가 Teams에서 사용자와 모임을 찾고, 통화하고, 채팅하고, 설정할 수 있는 한 방법입니다. Teams 관리자는 조직 수준에서 외부 액세스를 구성합니다. 자세한 내용은 [Microsoft Teams에서 외부 액세스 관리를 참조하세요.](https://docs.microsoft.com/microsoftteams/manage-external-access)
 
@@ -123,7 +123,7 @@ Azure AD B2B 계정이 있는 게스트 및 외부 사용자에 대한 액세스
 
 ### <a name="teams-and-channels-policies"></a>Teams 및 채널 정책
 
-Teams와 채널은 Microsoft Teams에서 일반적으로 사용되는 두 가지 요소로, 사용자가 팀과 채널을 사용할 때 할 수 있는 작업을 제어할 수 있는 정책이 있습니다. 글로벌 팀을 만들 수 있는 반면 조직에 사용자 수가 5,000명 이하인 경우 조직의 요구에 따라 특정 목적을 위해 소규모 팀과 채널을 준비하는 것이 도움이 될 수 있습니다.
+Teams와 채널은 Microsoft Teams에서 일반적으로 사용되는 두 가지 요소로, 팀과 채널을 사용할 때 사용자가 할 수 있는 작업을 제어할 수 있는 정책이 있습니다. 글로벌 팀을 만들 수 있는 반면 조직에 사용자 수가 5,000명 이하인 경우 조직의 요구에 따라 특정 목적을 위해 소규모 팀과 채널을 준비하는 것이 도움이 될 수 있습니다.
 
 기본 정책을 변경하거나 사용자 지정 정책을 만드는 것이 좋습니다. Microsoft Teams의 팀 정책 관리 링크에서 정책 관리에 대해 자세히 알아보는 [것이 좋습니다.](https://docs.microsoft.com/microsoftteams/teams-policies)
 
@@ -133,9 +133,9 @@ Teams와 채널은 Microsoft Teams에서 일반적으로 사용되는 두 가지
 
 ### <a name="meeting-policies"></a>모임 정책
 
-Teams 모임에 대한 정책을 계획하고 구현하지 않으면 Teams에 대한 논의가 완료되지 않습니다. 모임은 Teams의 필수 구성 요소로, 사람들이 공식적으로 모임을 시작하여 여러 사용자에게 동시에 발표하고 모임과 관련된 콘텐츠를 공유할 수 있도록 합니다. 모임을 중심으로 조직에 적합한 정책을 설정하는 것이 중요합니다.
+Teams 모임에 대한 정책을 계획하고 구현하지 않으면 Teams에 대한 논의가 완료되지 않습니다. 모임은 Teams의 필수 구성 요소로, 사람들이 한에 공식적으로 만나서 여러 사용자에게 발표하고 모임과 관련된 콘텐츠를 공유할 수 있도록 합니다. 모임을 중심으로 조직에 적합한 정책을 설정하는 것이 중요합니다.
 
-자세한 내용은 [Teams에서](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams) 모임 정책 관리를 검토하세요.
+자세한 내용은 [Teams에서 모임 정책 관리를 검토하세요.](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)
 
 ### <a name="app-permission-policies"></a>앱 권한 정책
 

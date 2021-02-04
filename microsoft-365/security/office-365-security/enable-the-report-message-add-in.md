@@ -17,12 +17,12 @@ ms.collection:
 description: 개별 사용자 또는 전체 조직에 대해 Outlook 및 웹용 Outlook에 대해 보고서 메시지 추가 기능을 사용하도록 설정하는 방법을 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a1f8cffaa6346ec7f426da3c862014ed85a9a367
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 9b21472736cff2fd0eed7da5495ab6aae597032f
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029235"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094858"
 ---
 # <a name="enable-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용하도록 설정
 
@@ -36,7 +36,7 @@ Outlook 및 웹용 Outlook(이전의 Outlook Web App)에 대한 피싱 보고 �
 
 Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효율성을 향상합니다. 예를 들어 사용자가 보고서 메시지 추가 기능을 사용하여 정크 메일 아님으로 플래그가 지정된 많은 메시지를 보고하는 경우 조직의 보안 팀에서 스팸 방지 정책을 조정해야 할 수 [있습니다.](configure-your-spam-filter-policies.md)
 
-보고서 메시지 또는 피싱 보고서 추가 기능을 설치할 수 있습니다. 사용자가 피싱 메시지만 보고하게 하려는 경우 조직에 피싱 보고서 추가 기능을 배포합니다. 자세한 내용은 보고서 피싱 추가 기능 [사용을 참조하세요.](enable-the-report-phish-add-in.md)
+보고서 메시지 또는 피싱 보고 추가 기능을 설치할 수 있습니다. 사용자가 피싱 메시지만 보고하게 하려는 경우 조직에 피싱 보고서 추가 기능을 배포합니다. 자세한 내용은 보고서 피싱 추가 기능 [사용을 참조하세요.](enable-the-report-phish-add-in.md)
 
 보고서 메시지 추가 기능은 스팸 메시지와 피싱 메시지를 모두 보고하는 옵션을 제공합니다. 관리자는 조직에 대해 보고서 메시지 추가 기능을 사용하도록 설정할 수 있으며 개별 사용자는 이를 직접 설치할 수 있습니다.
 
@@ -44,7 +44,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 전역 관리자 또는 Exchange Online 관리자인 경우 Exchange가 OAuth 인증을 사용하도록 구성된 경우 조직에 대해 보고서 메시지 추가 기능을 사용하도록 설정할 [수 있습니다.](#get-and-enable-the-report-message-add-in-for-your-organization) 보고서 메시지 Add-In 중앙 집중식 배포를 통해 사용할 [수 있습니다.](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 보고서 메시지 추가 기능에서는 대부분의 Microsoft 365 구독 및 다음 제품과 함께 작동합니다.
 
@@ -52,8 +52,9 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
   - Outlook 2013 SP1 이상
   - Outlook 2016 for Mac
   - 엔터프라이즈용 Microsoft 365 앱에 포함된 Outlook
+  - iOS 및 Android용 Outlook 앱
 
-- 보고서 메시지 추가 기능을 사용할 수 없는 사서함에 대 한 사서함에 대 한 Exchange 조직입니다.
+- 보고서 메시지 추가 기능을 Exchange 조직의 사서함에 사용할 수 없습니다.
 
 - 보고된 메시지를 지정한 사서함으로 복사하거나 리디렉션하도록 구성할 수 있습니다. 자세한 내용은 사용자 제출 [정책을 참조하세요.](user-submission.md)
 
@@ -104,7 +105,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
    ![새 추가 기능 페이지 배포](../../media/NewAddInScreen2.png)
 
-5. 나타나는 추가 **기능** 선택 페이지에서 검색 상자를  클릭하고 보고서 **메시지를** 입력한 다음 검색 **아이콘을** ![ ](../../media/search-icon.png) 클릭합니다. 결과 목록에서 보고서 메시지를 **찾은** 다음 추가를 **클릭합니다.**
+5. 나타나는 **추가 기능** 선택 페이지에서 검색 상자를  클릭하고 보고서 **메시지를** 입력한 다음 검색 **아이콘을** ![ ](../../media/search-icon.png) 클릭합니다. 결과 목록에서 보고서 메시지를 **찾은** 다음 추가를 **클릭합니다.**
 
    ![추가 기능 검색 결과 선택](../../media/NewAddInScreen3.png)
 

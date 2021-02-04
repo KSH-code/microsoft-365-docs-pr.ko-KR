@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 4e008488bdd733c9a7ce5b418fb838e0fe880d9d
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 521b5fc2a8efee83b6a2931e7dbc1c713bd63cd2
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080746"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094810"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 고급 헌팅 쿼리 마이그레이션
 
@@ -114,64 +114,7 @@ AlertInfo
 | where FileName == "powershell.exe"
 ```
 
-## <a name="migrate-custom-detection-rules"></a>사용자 지정 검색 규칙 마이그레이션
 
-Microsoft 365 Defender에서 끝점용 Microsoft Defender 규칙을 편집하면 결과 쿼리가 장치 테이블만 볼 때처럼 계속 이전과 같은 기능을 합니다. 예를 들어 장치 테이블만 쿼리하는 사용자 지정 검색 규칙에 의해 생성된 경고는 끝점용 Microsoft Defender에서 구성한 방식에 따라 SIEM으로 계속 배달되고 전자 메일 알림을 생성합니다. 끝점용 Defender의 기존 제거 규칙도 계속 적용됩니다.
-
-끝점용 Defender 규칙을 편집하여 Microsoft 365 Defender에서만 사용할 수 있는 ID 및 전자 메일 테이블을 쿼리하면 규칙이 Microsoft 365 Defender로 자동 이동됩니다. 
-
-마이그레이션된 규칙에 의해 생성된 경고:
-
-- 끝점 포털용 Defender에 더 이상 표시되지 않습니다(Microsoft Defender 보안 센터).
-- SIEM으로 배달되는 것을 중지하거나 전자 메일 알림을 생성합니다. 이 변경을 해결하기 위해 Microsoft 365 Defender를 통해 알림을 구성하여 알림을 얻습니다. [Microsoft 365 Defender API를](api-incident.md) 사용하여 고객 검색 경고 또는 관련 인시던트에 대한 알림을 받을 수 있습니다.
-- 끝점 제거 규칙에 대한 Microsoft Defender에 의해 억제되지 않습니다. 특정 사용자, 장치 또는 사서함에 대한 알림이 생성되지 않도록 방지하려면 해당 쿼리를 수정하여 해당 엔터티를 명시적으로 제외합니다.
-
-이러한 방식으로 규칙을 편집하면 변경 내용이 적용되기 전에 확인 메시지가 표시됩니다.
-
-Microsoft 365 Defender 포털의 사용자 지정 검색 규칙에 의해 생성된 새 경고는 다음 정보를 제공하는 경고 페이지에 표시됩니다.
-
-- 경고 제목 및 설명 
-- 영향을 미치는 자산
-- 경고에 응답하여 수행된 작업
-- 경고를 트리거한 쿼리 결과 
-- 사용자 지정 검색 규칙에 대한 정보 
- 
-![새 경고 페이지의 이미지](../../media/newalertpage.png)
-
-## <a name="write-queries-without-devicealertevents"></a>DeviceAlertEvents 없이 쿼리 작성
-
-Microsoft 365 Defender schema에서는 다양한 원본의 경고와 함께 제공되는 다양한 정보 집합을 수용할 수 있도록 `AlertInfo` `AlertEvidence` 테이블이 제공됩니다. 
-
-끝점용 Microsoft Defender의 테이블에서 다운로드하는 데 사용한 경고 정보를 얻습니다. 그런 다음 테이블을 필터링한 다음 각 고유 ID를 테이블에 조인하여 자세한 이벤트 및 엔터티 정보를 `DeviceAlertEvents` `AlertInfo` `ServiceSource` `AlertEvidence` 제공합니다. 
-
-아래 예제 쿼리를 참조하세요.
-
-```kusto
-AlertInfo
-| where Timestamp > ago(7d)
-| where ServiceSource == "Microsoft Defender for Endpoint"
-| join AlertEvidence on AlertId
-```
-
-이 쿼리는 끝점용 Microsoft Defender 스마마보다 많은 `DeviceAlertEvents` 열을 산출합니다. 결과를 관리할 수 있도록 유지 관리하기 위해 관심 있는 열만 `project` 얻습니다. 조사에서 PowerShell 활동을 감지할 때 관심 있는 프로젝트 열 아래의 예:
-
-```kusto
-AlertInfo
-| where Timestamp > ago(7d)
-| where ServiceSource == "Microsoft Defender for Endpoint"
-    and AttackTechniques has "powershell"
-| join AlertEvidence on AlertId
-| project Timestamp, Title, AlertId, DeviceName, FileName, ProcessCommandLine 
-```
-
-경고와 관련된 특정 엔터티를 필터링할 경우 엔터티 형식과 필터링할 값을 지정하여 필터링할 `EntityType` 수 있습니다. 다음 예에서는 특정 IP 주소를 검색합니다.
-
-```kusto
-AlertInfo
-| where Title == "Insert_your_alert_title"
-| join AlertEvidence on AlertId 
-| where EntityType == "Ip" and RemoteIP == "192.88.99.01" 
-```
 
 ## <a name="see-also"></a>참고 항목
 - [Microsoft 365 Defender 켜기](advanced-hunting-query-language.md)
