@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: PowerShell 스크립트를 사용하여 Search-UnifiedAuditLog cmdlet를 실행하고 감사 로그를 검색합니다. 이 스크립트는 대량 (최대 50,000개) 감사 레코드를 반환하도록 최적화되었습니다. 이 스크립트는 이러한 레코드를 Excel의 Power Query를 사용하여 보거나 변환할 수 있는 CSV 파일로 내보냅니다.
-ms.openlocfilehash: a91a54a6c35f96b90df156eaf4bc9735c911fc11
-ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
+ms.openlocfilehash: d4fcf59297747d0499f6616438299ad8cbe96d7f
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084708"
+ms.locfileid: "50094789"
 ---
 # <a name="use-a-powershell-script-to-search-the-audit-log"></a>PowerShell 스크립트를 사용하여 감사 로그 검색
 

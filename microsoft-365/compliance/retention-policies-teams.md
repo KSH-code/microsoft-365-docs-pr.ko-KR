@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: ebf1efe99e57084e2384e7499b3f72dab2b872c2
-ms.sourcegitcommit: b8e9b2ecdc4927b67088c5fffb1585424c66fb10
+ms.openlocfilehash: efbdee1fd5ee3c8c48aca9cbaf9e5a85a107edb4
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50050392"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094691"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -43,7 +43,7 @@ Teams 보존 정책을 통해 다음의 Teams 항목(포함된 이미지, 표, �
 > [!NOTE]
 > 카드 콘텐츠 포함은 최근에 추가된 사항이며 현재 테넌트에 배포되고 있습니다. 자세한 내용은 [이제 Teams의 응용 프로그램을 통한 적응형 카드 콘텐츠에 대한 Microsoft 365 규정 준수 기능 제공](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869)을 참조하세요.
 
-비공개 채널의 Teams 메시지는 포함되지 않으며 이모티콘 형태의 상대방의 반응도 포함되지 않습니다.
+비공개 채널의 Teams 메시지는 포함되지 않으며 코드 조각 및 이모티콘 형태의 다른 사용자의 반응도 포함되지 않습니다.
 
 Teams에서 사용하는 전자 메일 및 파일은 Teams의 보존 정책에 포함되지 않습니다. 이러한 항목은 자체 보존 정책이 있습니다.
 
