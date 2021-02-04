@@ -232,57 +232,63 @@
     - name: DLP(데이터 손실 방지)
       items:
         - name: DLP 정보
-          href: data-loss-prevention-policies.md
-        - name: DLP 및 Microsoft Teams
-          href: dlp-microsoft-teams.md
-        - name: 끝점 데이터 손실 방지에 대한 자세한 정보
-          href: endpoint-dlp-learn-about.md
-        - name: 끝점 데이터 손실 방지 시작하기
-          href: endpoint-dlp-getting-started.md
-        - name: 끝점 DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성합니다.
-          href: endpoint-dlp-configure-proxy.md
-        - name: 끝점 데이터 손실 방지 사용
-          href: endpoint-dlp-using.md
-        - name: Windows 10 장치용 끝점 DLP 온보딩 도구 및 방법
           items:
-            - name: Windows 10 장치용 온보딩 도구 및 방법
-              href: dlp-configure-endpoints.md
-            - name: 그룹 정책을 통한 Windows 10 장치 온보딩
-              href: dlp-configure-endpoints-gp.md
-            - name: 모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩
-              href: dlp-configure-endpoints-mdm.md
-            - name: 구성 관리자를 사용하여 Windows 10 장치 온보딩
-              href: dlp-configure-endpoints-sccm.md
-            - name: 로컬 스크립트를 사용하여 Windows 10 장치 온보딩
-              href: dlp-configure-endpoints-script.md
-            - name: 비영구 가상 데스크톱 인프라(VDI) 장치 온보딩
-              href: dlp-configure-endpoints-vdi.md
-        - name: 기본 DLP 정책을 사용하여 시작
-          href: get-started-with-the-default-dlp-policy.md
-        - name: 템플릿에서 DLP 정책 만들기
-          href: create-a-dlp-policy-from-a-template.md
-        - name: 'DLP 정책 만들기, 테스트 및 조정'
-          href: create-test-tune-dlp-policy.md
-        - name: DLP 정책에서 알림 및 정책 팁 사용
-          href: use-notifications-and-policy-tips.md
-        - name: DLP 정책에 대한 경고 구성 및 보기(미리 보기)
-          href: dlp-configure-view-alerts-policies.md
-        - name: DLP 정책 템플릿에 포함되는 내용
-          href: what-the-dlp-policy-templates-include.md
-        - name: FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기
-          href: protect-documents-that-have-fci-or-other-properties.md
-        - name: DLP 보고서 보기
-          href: view-the-dlp-reports.md
-        - name: 사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성
-          href: form-a-query-to-find-sensitive-data-stored-on-sites.md
-        - name: 보안 및 준수 센터와 Exchange 관리 센터 사이에서 DLP가 작동 하는 방식
-          href: how-dlp-works-between-admin-centers.md
-        - name: 민감도 레이블을 DLP 정책의 조건으로 사용(미리 보기)
-          href: dlp-sensitivity-label-as-condition.md
-        - name: 타사 클라우드 앱용 데이터 손실 방지 정책 사용
-          href: dlp-use-policies-non-microsoft-cloud-apps.md
-        - name: DLP 정책 조건 및 예외 (미리 보기)
-          href: dlp-conditions-and-exceptions.md
+            - name: DLP 정보
+              href: data-loss-prevention-policies.md
+            - name: 끝점 데이터 손실 방지에 대한 자세한 정보
+              href: endpoint-dlp-learn-about.md
+        - name: DLP를 사용하여 시작
+          items:
+            - name: 기본 DLP 정책을 사용하여 시작
+              href: get-started-with-the-default-dlp-policy.md
+            - name: 템플릿에서 DLP 정책 만들기
+              href: create-a-dlp-policy-from-a-template.md
+            - name: 'DLP 정책 만들기, 테스트 및 조정'
+              href: create-test-tune-dlp-policy.md
+            - name: 끝점 데이터 손실 방지 시작하기
+              href: endpoint-dlp-getting-started.md
+            - name: 끝점 DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성합니다.
+              href: endpoint-dlp-configure-proxy.md
+            - name: Windows 10 장치용 끝점 DLP 온보딩 도구 및 방법
+              items:
+                - name: Windows 10 장치용 온보딩 도구 및 방법
+                  href: dlp-configure-endpoints.md
+                - name: 그룹 정책을 통한 Windows 10 장치 온보딩
+                  href: dlp-configure-endpoints-gp.md
+                - name: 모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩
+                  href: dlp-configure-endpoints-mdm.md
+                - name: 구성 관리자를 사용하여 Windows 10 장치 온보딩
+                  href: dlp-configure-endpoints-sccm.md
+                - name: 로컬 스크립트를 사용하여 Windows 10 장치 온보딩
+                  href: dlp-configure-endpoints-script.md
+                - name: 비영구 가상 데스크톱 인프라(VDI) 장치 온보딩
+                  href: dlp-configure-endpoints-vdi.md
+        - name: DLP 사용
+          items:
+            - name: DLP 및 Microsoft Teams
+              href: dlp-microsoft-teams.md
+            - name: 끝점 데이터 손실 방지 사용
+              href: endpoint-dlp-using.md
+            - name: DLP 정책에서 알림 및 정책 팁 사용
+              href: use-notifications-and-policy-tips.md
+            - name: DLP 정책 템플릿에 포함되는 내용
+              href: what-the-dlp-policy-templates-include.md
+            - name: FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기
+              href: protect-documents-that-have-fci-or-other-properties.md
+            - name: DLP 보고서 보기
+              href: view-the-dlp-reports.md
+            - name: 사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성
+              href: form-a-query-to-find-sensitive-data-stored-on-sites.md
+            - name: 보안 및 준수 센터와 Exchange 관리 센터 사이에서 DLP가 작동 하는 방식
+              href: how-dlp-works-between-admin-centers.md
+            - name: DLP 정책에 대한 경고 구성 및 보기(미리 보기)
+              href: dlp-configure-view-alerts-policies.md
+            - name: 민감도 레이블을 DLP 정책의 조건으로 사용(미리 보기)
+              href: dlp-sensitivity-label-as-condition.md
+            - name: 타사 클라우드 앱용 데이터 손실 방지 정책 사용
+              href: dlp-use-policies-non-microsoft-cloud-apps.md
+            - name: DLP 정책 조건 및 예외 (미리 보기)
+              href: dlp-conditions-and-exceptions.md
 - name: 정보 거버넌스 관리
   items:
     - name: 사용자 데이터 관리
@@ -729,6 +735,8 @@
       items:
         - name: 감사 로그 검색
           href: search-the-audit-log-in-security-and-compliance.md
+        - name: PowerShell 스크립트를 사용하여 감사 로그 검색
+          href: audit-log-search-script.md
         - name: 감사 로그 검색 켜기 또는 끄기
           href: turn-audit-log-search-on-or-off.md
         - name: 감사 로그의 자세한 속성
