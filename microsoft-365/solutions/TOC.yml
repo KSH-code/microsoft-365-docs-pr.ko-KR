@@ -169,8 +169,8 @@
                   href: end-life-cycle-groups-teams-sites-yammer.md
         - name: Microsoft 365를 사용한 SharePoint의 파일 공동 작업
           href: 'https://docs.microsoft.com/sharepoint/deploy-file-collaboration?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-        - name: 지능형 SharePoint 인트라넷 계획
-          href: 'https://docs.microsoft.com/sharepoint/intranet-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+        - name: 지능형 SharePoint 인트라넷 구축
+          href: 'https://docs.microsoft.com/sharepoint/intelligent-internet-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: 엔터프라이즈용 OneDrive 가이드
           href: 'https://docs.microsoft.com/onedrive/plan-onedrive-enterprise?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: 보안
