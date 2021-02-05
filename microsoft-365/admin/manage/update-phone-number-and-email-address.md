@@ -19,43 +19,43 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
-description: 관리 센터에서 관리자 전화 번호 및 전자 메일 주소를 업데이트 합니다. 자신의 관리자 암호를 다시 설정 하려면이 정보가 필요 합니다.
-ms.openlocfilehash: 06dc277fc408ab234dd51d9c8bec5f20226e3215
-ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
+description: 관리 센터에서 관리자 전화 번호 및 전자 메일 주소를 업데이트합니다. 관리자 암호를 다시 설정하려는 경우 이 정보가 필요합니다.
+ms.openlocfilehash: 8ceb2fdc6543bf38089b40d3a66dfc2ab1d7dc64
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49126616"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114432"
 ---
-# <a name="update-your-admin-phone-number-and-email-address"></a><span data-ttu-id="958fa-104">관리자 전화 번호 및 전자 메일 주소 업데이트</span><span class="sxs-lookup"><span data-stu-id="958fa-104">Update your admin phone number and email address</span></span>
+# <a name="update-your-admin-phone-number-and-email-address"></a><span data-ttu-id="945bc-104">관리자 전화 번호 및 전자 메일 주소 업데이트</span><span class="sxs-lookup"><span data-stu-id="945bc-104">Update your admin phone number and email address</span></span>
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> <span data-ttu-id="958fa-105">관리 센터가 변경되고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="958fa-105">The admin center is changing.</span></span> <span data-ttu-id="958fa-106">사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="958fa-106">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span></span>
+> <span data-ttu-id="945bc-105">관리 센터가 변경되고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="945bc-105">The admin center is changing.</span></span> <span data-ttu-id="945bc-106">사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="945bc-106">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).</span></span>
 
 ::: moniker-end
-<span data-ttu-id="958fa-107">이 문서에서는 관리자가 Microsoft 365에서 회사 전화 및 전자 메일 주소를 변경할 수 있는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="958fa-107">This article explains how you, the admin, can change your business phone and email address in Microsoft 365.</span></span>
+<span data-ttu-id="945bc-107">이 문서에서는 관리자인 사용자가 Microsoft 365에서 비즈니스 전화 및 전자 메일 주소를 변경하는 방법을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="945bc-107">This article explains how you, the admin, can change your business phone and email address in Microsoft 365.</span></span>
   
-<span data-ttu-id="958fa-108">회사 이름 및 주소, 회사 전화 번호, 기술 담당자 정보 등과 같은 회사 프로필 정보를 변경하는 방법을 알아보려면 [조직 주소, 기술 담당자 전자 메일, 기타 정보 변경](change-address-contact-and-more.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="958fa-108">If you're looking for how to change your company's profile information, such as company name and address, company phone number, and technical contact information, see [Change your organization's address, technical contact email, and other information](change-address-contact-and-more.md).</span></span>
+<span data-ttu-id="945bc-108">회사 이름 및 주소, 회사 전화 번호, 기술 담당자 정보 등과 같은 회사 프로필 정보를 변경하는 방법을 알아보려면 [조직 주소, 기술 담당자 전자 메일, 기타 정보 변경](change-address-contact-and-more.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="945bc-108">If you're looking for how to change your company's profile information, such as company name and address, company phone number, and technical contact information, see [Change your organization's address, technical contact email, and other information](change-address-contact-and-more.md).</span></span>
   
-## <a name="to-update-your-phone-number-and-email-address"></a><span data-ttu-id="958fa-109">전화 번호 및 전자 메일 주소를 업데이트 하려면</span><span class="sxs-lookup"><span data-stu-id="958fa-109">To update your phone number and email address</span></span>
+## <a name="to-update-your-phone-number-and-email-address"></a><span data-ttu-id="945bc-109">전화 번호 및 전자 메일 주소를 업데이트하는 경우</span><span class="sxs-lookup"><span data-stu-id="945bc-109">To update your phone number and email address</span></span>
 
-<span data-ttu-id="958fa-110">**보안 정보** 페이지를 사용 하 여 휴대폰 번호와 대체 전자 메일 주소를 변경 합니다.</span><span class="sxs-lookup"><span data-stu-id="958fa-110">Use the **Security Info** page to change your mobile phone number and alternate email address.</span></span> <span data-ttu-id="958fa-111">대체 전자 메일 주소는 관리자 암호 (컴퓨터 관리자 암호 아님)를 다시 설정 하는 것과 같은 중요 한 알림에 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="958fa-111">The alternate email address is used for important notifications, such as resetting your admin password (not your computer admin password).</span></span> 
+<span data-ttu-id="945bc-110">보안 정보 **페이지를 사용하여** 휴대폰 번호 및 대체 전자 메일 주소를 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="945bc-110">Use the **Security Info** page to change your mobile phone number and alternate email address.</span></span> <span data-ttu-id="945bc-111">대체 전자 메일 주소는 관리자 암호 다시 설정(컴퓨터 관리자 암호 아우라)을 다시 설정하는 등의 중요한 알림에 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="945bc-111">The alternate email address is used for important notifications, such as resetting your admin password (not your computer admin password).</span></span> 
   
-1. <span data-ttu-id="958fa-112">Microsoft 365 관리 센터로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="958fa-112">Browse to the Microsoft 365 admin center.</span></span>
+1. <span data-ttu-id="945bc-112">Microsoft 365 관리 센터로 탐색합니다.</span><span class="sxs-lookup"><span data-stu-id="945bc-112">Browse to the Microsoft 365 admin center.</span></span>
 
-2. <span data-ttu-id="958fa-113">헤더에서 프로필 아이콘 \> **내 계정** \> **보안 정보** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="958fa-113">In the header, select your profile icon \> **My account** \> **Security Info**.</span></span>
+2. <span data-ttu-id="945bc-113">헤더에서 프로필 아이콘 \> **내 계정 보안** 정보를 \> **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="945bc-113">In the header, select your profile icon \> **My account** \> **Security Info**.</span></span>
 
-3. <span data-ttu-id="958fa-114">**보안 정보** 탭에서 **방법** \> **전화** \> **대체 전화** 또는 **전자 메일** 추가를 선택 하 여 세부 정보를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="958fa-114">In the **Security info** tab, select **Add Method** \> **Phone** \> **Alternate Phone** or **Email** to add details.</span></span> <span data-ttu-id="958fa-115">휴대폰, 휴대폰 및 대체 전자 메일 주소 세부 정보를 업데이트 하려면 **변경을** 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="958fa-115">To update your mobile, phone, and alternate email address details, select **Change**.</span></span> <span data-ttu-id="958fa-116">다른 전자 메일 주소에 대 한 Microsoft 전자 메일 주소 이외의 다른 것을 사용 하 고 있는지 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="958fa-116">Make sure you use something other than your Microsoft email address for your alternate email address.</span></span>
+3. <span data-ttu-id="945bc-114">보안 정보 **탭에서** **방법 전화** 대체 전화 또는 전자 메일 추가를 선택하여 세부 \>  \>  정보를 추가합니다. </span><span class="sxs-lookup"><span data-stu-id="945bc-114">In the **Security info** tab, select **Add Method** \> **Phone** \> **Alternate Phone** or **Email** to add details.</span></span> <span data-ttu-id="945bc-115">휴대폰, 휴대폰 및 대체 전자 메일 주소 세부 정보를 업데이트하려면 변경을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="945bc-115">To update your mobile, phone, and alternate email address details, select **Change**.</span></span> <span data-ttu-id="945bc-116">대체 전자 메일 주소에 Microsoft 전자 메일 주소가 다른 주소를 사용하는지 확인</span><span class="sxs-lookup"><span data-stu-id="945bc-116">Make sure you use something other than your Microsoft email address for your alternate email address.</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="958fa-117">대체 전자 메일 주소와 휴대폰 번호는 관리자 암호 (컴퓨터 관리자 암호 아님)를 다시 설정 하는 데 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="958fa-117">The alternate email address and the mobile phone number are needed for resetting your admin password (not your computer admin password).</span></span>
+    > <span data-ttu-id="945bc-117">대체 전자 메일 주소와 휴대폰 번호는 컴퓨터 관리자 암호가 아니라 관리자 암호를 다시 설정하는 데 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="945bc-117">The alternate email address and the mobile phone number are needed for resetting your admin password (not your computer admin password).</span></span>
 
-4. <span data-ttu-id="958fa-118">작업이 완료 되 면 **저장** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="958fa-118">When you are finished, select **Save**.</span></span>
+4. <span data-ttu-id="945bc-118">완료되면 저장을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="945bc-118">When you are finished, select **Save**.</span></span>
   
-<span data-ttu-id="958fa-119">대금 청구 관련 질문에 대답은 다음을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="958fa-119">For answers to billing questions, see:</span></span>
+<span data-ttu-id="945bc-119">대금 청구 관련 질문에 대답은 다음을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="945bc-119">For answers to billing questions, see:</span></span>
   
-- [<span data-ttu-id="958fa-120">비즈니스에 대 한 Microsoft 365의 대금 청구 주소 변경</span><span class="sxs-lookup"><span data-stu-id="958fa-120">Change your billing addresses for Microsoft 365 for business</span></span>](../../commerce/billing-and-payments/change-your-billing-addresses.md)
+- [<span data-ttu-id="945bc-120">비즈니스용 Microsoft 365의 청구 주소 변경</span><span class="sxs-lookup"><span data-stu-id="945bc-120">Change your billing addresses for Microsoft 365 for business</span></span>](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
-- [<span data-ttu-id="958fa-121">결제 방법 관리</span><span class="sxs-lookup"><span data-stu-id="958fa-121">Manage payment methods</span></span>](../../commerce/billing-and-payments/manage-payment-methods.md)
+- [<span data-ttu-id="945bc-121">결제 방법 관리</span><span class="sxs-lookup"><span data-stu-id="945bc-121">Manage payment methods</span></span>](../../commerce/billing-and-payments/manage-payment-methods.md)

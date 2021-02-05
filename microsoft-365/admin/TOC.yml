@@ -235,8 +235,6 @@
           href: manage/change-address-contact-and-more.md
         - name: 관리자 연락처 정보 업데이트
           href: manage/update-phone-number-and-email-address.md
-        - name: 암호 만료 정책 설정
-          href: manage/set-password-expiration-policy.md
         - name: 앱 시작 관리자 사용자 지정
           href: manage/customize-the-app-launcher.md
         - name: 사용자의 앱 시작 관리자에 앱 고정
