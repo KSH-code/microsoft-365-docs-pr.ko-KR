@@ -21,19 +21,19 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: 조직 이름, 주소, 전화, 기술 담당자 및 전자 메일과 같은 조직 프로필을 변경하는 방법을 알아보세요.
-ms.openlocfilehash: 334bd1bee0571ba173987b7767465e8d82d7efe9
-ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
+ms.openlocfilehash: 3c3a936c8961373a94dc8b8978dbc274048af09c
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "50058438"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114228"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>조직 주소, 기술 담당자 등 변경
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
 
 ::: moniker-end
   
@@ -48,7 +48,7 @@ ms.locfileid: "50058438"
 
 회사의 프로필 페이지에서 다른 정보를 변경하려면
   
-1. 관리 센터에서 설정 구성 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**페이지로**</a> 이동합니다.
+1. 관리 센터에서 설정 구성  설정 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**페이지로**</a> 이동합니다.
 
 2. 조직 프로필 **탭에서** 조직 **정보를 선택합니다.**
 

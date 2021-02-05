@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365에서 항목 검색 관리
+title: Microsoft Viva 항목에서 항목 검색 관리
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,23 +9,22 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
-description: Microsoft 365에서 항목 검색을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: dec8aeef9dda390fb19f5067638c2ebea6b6a2fe
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+description: Microsoft Viva 항목에서 항목 검색을 관리하는 방법을 학습합니다.
+ms.openlocfilehash: 36b64433726479dc2a46c809ae9504c6f12f4ab8
+ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698546"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107762"
 ---
-# <a name="manage-topic-discovery-in-microsoft-365"></a>Microsoft 365에서 항목 검색 관리
+# <a name="manage-topic-discovery-in-microsoft-viva-topics"></a>Microsoft Viva 항목에서 항목 검색 관리
 
 [Microsoft 365](https://admin.microsoft.com)관리 센터에서 항목 검색 설정을 관리할 수 있습니다. 이러한 작업을 수행하려면 전역 관리자 또는 SharePoint 관리자 되어야 합니다.
 
 ## <a name="to-access-topics-management-settings"></a>항목 관리 설정에 액세스하려면
 
-1. Microsoft 365 관리 센터에서 설정을 클릭한 **다음, Org 설정을 클릭합니다.**
-2. 서비스 **탭에서** **기술 네트워크를 클릭합니다.**
+1. Microsoft 365 관리 센터에서 설정, Org 설정을 **클릭합니다.**
+2. 서비스 **탭에서** 항목 **환경을 클릭합니다.**
 
     ![지식에 사람 연결](../media/admin-org-knowledge-options-completed.png) 
 
@@ -51,7 +50,7 @@ Site name,URL
 2. **SharePoint** 항목 원본 선택 페이지에서 검색 중에 항목에 대한 원본으로 크롤링할 SharePoint 사이트를 선택합니다. 해당 활동은 다음과 같습니다.
     - **모든 사이트**: 테넌트의 모든 SharePoint 사이트 이렇게 하여 현재 및 향후 사이트를 캡처합니다.
     - **선택한 사이트를 제외한** 모든 사이트: 제외할 사이트의 이름을 입력합니다.  검색에서 옵트아웃하려는 사이트 목록을 업로드할 수도 있습니다. 앞으로 만든 사이트는 항목 검색을 위한 원본으로 포함됩니다. 
-    - **선택한 사이트만 :** 포함할 사이트의 이름을 입력합니다. 사이트 목록을 업로드할 수도 있습니다. 앞으로 만든 사이트는 항목 검색을 위한 원본으로 포함되지 않습니다.
+    - **선택한 사이트만**: 포함할 사이트의 이름을 입력합니다. 사이트 목록을 업로드할 수도 있습니다. 앞으로 만든 사이트는 항목 검색을 위한 원본으로 포함되지 않습니다.
     - **사이트 없음**: 항목은 SharePoint 콘텐츠로 자동으로 생성되거나 업데이트되지 않습니다. 기존 항목은 항목 센터에 남아 있습니다.
 
     ![SharePoint 항목 원본 사용자 인터페이스 스크린샷](../media/k-manage-select-topic-source.png)

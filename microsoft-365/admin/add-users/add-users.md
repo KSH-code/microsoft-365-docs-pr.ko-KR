@@ -21,19 +21,19 @@ search.appverid:
 - MET150
 description: 사용자를 추가하고 동시에 Microsoft 365에 라이선스를 할당하는 방법을 배워야 합니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 5df0db1cb782cc55bcf3e2b599430a98ea88750c
-ms.sourcegitcommit: 8252377f63de188d32ed1ccd37540d92cba3cb65
+ms.openlocfilehash: 412774c9786abc01e94c5a350871f9d34586cce4
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49670998"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114156"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>사용자 추가 및 동시에 라이선스 할당
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
 
 ::: moniker-end
 

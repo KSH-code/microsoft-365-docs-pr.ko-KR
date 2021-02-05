@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365의 항목 환경 계획
+title: Microsoft Viva 항목 계획
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,18 +9,17 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
-description: Microsoft 365에서 항목 환경을 계획하는 방법 학습
-ms.openlocfilehash: 153937cf6bc4a12f0a27866204b2286c343ddf55
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+description: Microsoft Viva 항목 계획 방법 학습
+ms.openlocfilehash: 65983f342b3277d33c7bfeb21d8481b1d3d5e817
+ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49668228"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107957"
 ---
-# <a name="plan-topic-experiences-in-microsoft-365"></a>Microsoft 365의 항목 환경 계획
+# <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva 항목 계획
 
-조직에서 주제가 어떻게 경험하는지 제어할 수 있습니다. 항목 환경의 계획 결정에 따라 사용자에게 고품질 주제가 표시될 수 있으며 사용자에게 지식을 소비하고 기여할 수 있는 올바른 권한이 부여됩니다.
+조직에서 주제가 어떻게 경험하는지 제어할 수 있습니다. 항목에 대한 계획 결정은 사용자에게 고품질 항목을 표시하고 지식을 소비하고 기여할 수 있는 올바른 권한을 가지게 합니다.
 
 이 문서에서는 이러한 계획 결정을 검토합니다.
 
@@ -29,21 +28,21 @@ ms.locfileid: "49668228"
 - 항목을 표시하려는 사용자
 - 항목 센터에서 항목을 관리할 수 있는 권한을 부여하려는 사용자
 - 항목 센터에서 항목을 만들거나 편집할 수 있는 권한을 부여하려는 사용자
-- 항목 센터에 지정하려는 이름입니다.
+- 항목 센터에 제공하려는 이름
 
-데이터의 보안 및 개인 정보는 준수하며 항목 환경은 사용자에게 권한이 없는 파일에 대한 추가 액세스 권한을 부여하지 않습니다. 또한 계획 프로세스의 일부로 [항목](topic-experiences-security-privacy.md) 환경 보안 및 개인 정보 보호를 읽는 것이 좋습니다.
+데이터의 보안 및 개인 정보는 준수하며 항목 환경은 사용자에게 권한이 없는 파일에 대한 추가 액세스 권한을 부여하지 않습니다. 또한 계획 프로세스의 일부로 [Microsoft Viva 항목](topic-experiences-security-privacy.md) 보안 및 개인 정보 보호를 읽어보는 것이 좋습니다.
 
 ## <a name="requirements"></a>요구 사항
 
-Microsoft 365 관리 센터에 액세스하고 항목 환경을 설정하려면 전역 관리자 또는 SharePoint 관리자 되어야 합니다.
+Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 전역 관리자 또는 SharePoint 관리자 되어야 합니다.
 
-항목 환경을 사용하려면 모든 사용자에게 항목 환경 **라이선스가** 필요합니다. 라이선스 할당은 항목 설정 [환경에서 다를 수 있습니다.](set-up-topic-experiences.md)
+항목을 사용하려면 모든 사용자에게 항목 환경 **라이선스가** 필요합니다. 라이선스 할당은 Microsoft [Viva 항목 설정에 대해 다를 수 있습니다.](set-up-topic-experiences.md)
 
 ## <a name="topic-discovery"></a>항목 검색
 
 항목 검색 설정은 항목의 원본으로 사용되는 SharePoint 사이트를 지정합니다. 모든 SharePoint 사이트, 특정 사이트 목록 또는 사이트를 포함하지하도록 선택할 수 있습니다. 항목 환경이 사용자에게 좋은 많은 항목을 검색할 수 있도록 모든 사이트를 선택하는 것이 좋습니다.
 
-항목 환경을 설정할 때 다음 옵션 중 선택할 수 있습니다.
+항목을 설정할 때 다음 옵션 중 선택할 수 있습니다.
 
 - **모든 사이트**: 조직의 모든 SharePoint 사이트 여기에는 현재 및 향후 사이트가 포함됩니다.
 - **선택한 사이트를 제외한** 모든 사이트: 지정한 사이트를 제외한 모든 사이트 앞으로 만든 사이트는 항목 검색을 위한 원본으로 포함됩니다. 
@@ -58,7 +57,7 @@ Microsoft 365 관리 센터에 액세스하고 항목 환경을 설정하려면 
 Site name,URL
 ```
 
-항목을 자동으로 **만들거나** 업데이트하지 못하게 하여 사이트를 선택하지 않는 것이 좋습니다. 그러나 항목 환경을 설정한 다음 나중에 사이트를 추가하려는 경우 이 옵션을 선택할 수 있습니다.
+항목을 자동으로 **만들거나** 업데이트하지 못하게 하여 사이트를 선택하지 않는 것이 좋습니다. 그러나 항목을 설정한 다음 나중에 사이트를 추가하려는 경우 이 옵션을 선택할 수 있습니다.
 
 조직에서 필요한 경우 항목 검색에서 개별 사이트를 제거해 보거나 사용자 또는 기술 관리자를 위한 프로세스를 만드는 것이 좋습니다.
 
@@ -80,7 +79,7 @@ Site name,URL
 
 항목을 만들고 편집하는 항목을 특정 사용자나 그룹으로 제한하려면 해당 사용자에 대한 보안 그룹을 만들고 설치 프로세스 중에 지정합니다.
 
-누구나 항목에 참여할 수 있도록 허용하지 않을 수 있습니다. 그러나 이는 권장되지 않습니다. 지식 관리자는 항목을 편집하고 만들 수 있습니다.
+누구나 항목에 참여할 수 있도록 허용하지 않을 수 있습니다. 그러나 이는 권장되지 않습니다. 이 옵션을 선택하는 경우 지식 관리자는 항목을 편집하고 만들 수 있습니다.
 
 *주제 뷰어*
 
@@ -92,7 +91,7 @@ Site name,URL
 - **선택한 사용자 또는 보안 그룹만**
 - **아무도 없어**
 
-조직의 모든 **사용자가** 권장되지만 파일럿을 수행하고 있는 경우 선택한 사람 또는 보안 그룹만 선택할 수 있습니다. 항목 환경을  설정하려는 경우 아무도 선택하지 않지만 사용자가 아직 항목을 볼 수 있도록 허용하지 않을 수 있습니다. (지식 관리자는 여전히 주제를 보고 항목 환경을 광범위하게 사용할 수 있도록 하는 결정을 내리는 데 도움을 줄 수 있는 액세스 권한이 있습니다.)
+조직의 모든 **사용자가** 권장되지만 파일럿을 수행하고 있는 경우 선택한 사람 또는 보안 그룹만 선택할 수 있습니다. 항목을 설정하겠지만  사용자가 아직 항목을 볼 수 있도록 허용하지 않을 경우 없음을 선택할 수 있습니다. (지식 관리자는 여전히 항목을 보고 항목을 광범위하게 사용할 수 있도록 결정을 내리는 데 도움을 줄 수 있는 액세스 권한이 있습니다.)
 
 ## <a name="knowledge-rules"></a>지식 규칙
 
@@ -118,7 +117,7 @@ Name (required),Expansion,MatchType- Exact/Partial (required)
 
 ## <a name="administration"></a>관리
 
-항목 환경을 설정할 때 설치 프로세스의 일부로 항목 센터가 자동으로 만들어집니다. 항목 센터의 이름을 지정하려는 항목과 URL의 이름을 지정하려는 항목을 생각해 보아야 합니다. 설치 프로세스의 일부로 이름과 URL을 설정할 수 있으며, 나중에 Microsoft 365 관리 센터에서 이름을 변경할 수 있지만 URL은 변경할 수 없습니다. 하나의 항목 센터만 사용할 수 있습니다.
+항목을 설정할 때 설치 프로세스의 일부로 항목 센터가 자동으로 만들어집니다. 항목 센터의 이름을 지정하려는 항목과 URL의 이름을 지정하려는 항목을 생각해 보아야 합니다. 설치 프로세스의 일부로 이름과 URL을 설정할 수 있으며, 나중에 Microsoft 365 관리 센터에서 이름을 변경할 수 있지만 URL은 변경할 수 없습니다. 하나의 항목 센터만 사용할 수 있습니다.
 
 ## <a name="setup-checklist"></a>설치 검사 목록
 
@@ -134,7 +133,7 @@ Name (required),Expansion,MatchType- Exact/Partial (required)
 
 ## <a name="see-also"></a>참고 항목
 
-[항목 환경 설정](set-up-topic-experiences.md)
+[주제 경험 설정](set-up-topic-experiences.md)
 
 [Microsoft 365에서 항목 검색 관리](topic-experiences-discovery.md)
 

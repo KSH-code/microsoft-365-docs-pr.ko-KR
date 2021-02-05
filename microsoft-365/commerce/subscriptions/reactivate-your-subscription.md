@@ -21,38 +21,38 @@ ms.custom:
 search.appverid:
 - MET150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
-description: 구독이 만료 되거나, 사용 하지 않도록 설정 되거나, 취소 된 경우 다시 활성화 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 36d82699f6eb0c1cd4a1c404d7b030a865111d03
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+description: 구독이 만료되거나, 사용하지 않도록 설정되거나, 취소될 때 구독을 다시 활성화하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+ms.openlocfilehash: 01dee5e8a4c5a9ef7d30c21f66186086900b6cc1
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906778"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114624"
 ---
 # <a name="reactivate-your-subscription"></a>구독 다시 활성화
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
 
 ::: moniker-end
 
-구독 기간이 만료 되었거나, Microsoft가 사용 하지 않도록 설정 되었거나, 구독 기간 중에 취소 한 경우에는 관리 센터에서 구독을 다시 활성화할 수 있습니다.
+구독이 만료되었거나 Microsoft에서 사용하지 않도록 설정되었거나 구독 기간 중간에 취소한 경우 관리 센터에서 구독을 다시 활성화할 수 있습니다.
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
-구독을 다시 활성화 하려면 전역 또는 대금 청구 관리자 여야 합니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+구독을 다시 활성화하려면 전역 관리자 또는 대금 청구 관리자 되어야 합니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
-**관리자가 아니세요?** 구독을 다시 활성화 하려면 관리자에 게 문의 하세요.
+**관리자가 아니세요?** 구독을 다시 활성화하려면 관리에 문의하세요.
 
 ## <a name="reactivate-a-subscription"></a>구독 다시 활성화
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
-2. **제품** 탭에서 다시 활성화하려는 구독을 찾으세요. **기타 작업** (점 3 개)을 선택 하 고 **이 구독 다시 활성화** 를 선택 합니다. \
-    **이 구독 다시 활성화** 가 표시 되지 않으면 [고객 지원에 문의 하세요](../../admin/contact-support-for-business-products.md).
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
+2. **제품** 탭에서 다시 활성화하려는 구독을 찾으세요. 추가 **작업(3개** 점)을 선택한 다음 이 구독 다시 **활성화를 선택합니다.\**
+    이 구독 다시 활성화가 **없는 경우** 고객 [지원에 문의하세요.](../../admin/contact-support-for-business-products.md)
 3. **이 구독 다시 활성화** 창의 드롭다운 목록에서 결제 방법을 선택하거나 **결제 방법 추가** 를 선택합니다.
 4. **저장** 을 선택합니다.
 
@@ -62,20 +62,20 @@ ms.locfileid: "48906778"
   
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
-2. 다시 활성화할 구독을 찾은 다음 **다시 활성화** 를 선택 합니다.
+2. 다시 활성화할 구독을 찾은 다음 다시 **활성화를 선택합니다.**
 
-    ![다시 활성화 단추를 사용 하 여 사용 하지 않도록 설정 되거나 축소 된 기능을 의미 하는 가입 카드의 클로즈업](../../media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
+    ![다시 활성화 단추를 사용하여 비활성화 및 기능 축소를 표시하는 구독 카드의 클로즈업입니다.](../../media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
   
-    사용 가능한 작업으로 **다시 활성화** 가 표시 되지 않으면 [지원 서비스를 호출](../../admin/contact-support-for-business-products.md) 하 여 구독을 다시 활성화 합니다.
+    사용 가능한 작업으로 **다시** 활성화가 확인되지 않는 경우 [지원에](../../admin/contact-support-for-business-products.md) 문의하여 구독을 다시 활성화하세요.
 
 3. 결제 정보를 입력합니다. 여기에서 기존 결제 정보를 업데이트할 수 있습니다.
 
-   구독이 만료 된 경우 지불 세부 정보를 제출 하면 구독은 활성 상태로 반환 되 고, 현재 구독 약정에 따라 **다음 청구** 날짜가 1 개월 또는 1 년으로 연장 됩니다. 신용 카드 또는 은행 계좌로 결제 하는 경우 신용 카드 또는 은행 계좌에 내선 번호 요금이 부과 됩니다. 송장 단위로 결제 하는 경우 다음 송장에 해당 확장이 반영 된 것을 볼 수 있습니다. 구독이 다시 만료 되지 않도록 하려면 주기적으로 청구를 [설정](renew-your-subscription.md#turn-recurring-billing-off-or-on)합니다.
+   구독이 만료된 경우 결제 세부 정보를 제출하면 구독이 활성 상태로 돌아오고  다음 청구 날짜는 현재 구독 약정에 따라 한 달 또는 1년까지 연장됩니다. 신용 카드 또는 은행 계좌로 결제하는 경우 신용 카드 또는 은행 계좌에 내선 요금이 청구됩니다. If you pay by invoice, you'll see the extension reflected on your next invoice. 구독이 다시 만료되지 않는지 확인하려면 재발생 청구를 [켜야 합니다.](renew-your-subscription.md#turn-recurring-billing-off-or-on)
 
    > [!NOTE]
-   > 은행 계좌로 지불할 수 없는 국가 또는 지역에서는 사용할 수 없습니다.
+   > 은행 계좌로 결제하는 기능을 일부 국가나 지역에서는 사용할 수 없습니다.
   
-   구독이 취소 되었거나 지불이 수신 되지 않아 사용 하지 않도록 설정 된 경우에는 활성 상태로 반환 되며 **다음 청구** 날짜는 동일 하 게 유지 됩니다.
+   구독이 취소되거나 결제를 받지 못해 비활성화된 경우 활성 상태로 돌아와 다음 청구  날짜는 동일하게 유지됩니다.
 
 ::: moniker-end
 
@@ -83,25 +83,25 @@ ms.locfileid: "48906778"
   
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
-2. 다시 활성화할 구독을 찾은 다음 **다시 활성화** 를 선택 합니다.
+2. 다시 활성화할 구독을 찾은 다음 다시 **활성화를 선택합니다.**
 
-    ![다시 활성화 단추를 사용 하 여 사용 하지 않도록 설정 되거나 축소 된 기능을 의미 하는 가입 카드의 클로즈업](../../media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
+    ![다시 활성화 단추를 사용하여 비활성화 및 기능 축소를 표시하는 구독 카드의 클로즈업입니다.](../../media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
   
-    사용 가능한 작업으로 **다시 활성화** 가 표시 되지 않으면 [지원 서비스를 호출](../../admin/contact-support-for-business-products.md) 하 여 구독을 다시 활성화 합니다.
+    사용 가능한 작업으로 **다시** 활성화가 확인되지 않는 경우 [지원에](../../admin/contact-support-for-business-products.md) 문의하여 구독을 다시 활성화하세요.
 
 3. 결제 정보를 입력합니다. 여기에서 기존 결제 정보를 업데이트할 수 있습니다.
 
-   구독이 만료 된 경우 지불 세부 정보를 제출 하면 구독은 활성 상태로 반환 되 고, 현재 구독 약정에 따라 **다음 청구** 날짜가 1 개월 또는 1 년으로 연장 됩니다. 신용 카드 또는 은행 계좌로 결제 하는 경우 신용 카드 또는 은행 계좌에 내선 번호 요금이 부과 됩니다. 송장 단위로 결제 하는 경우 다음 송장에 해당 확장이 반영 된 것을 볼 수 있습니다. 구독이 다시 만료 되지 않도록 하려면 주기적으로 청구를 [설정](renew-your-subscription.md#turn-recurring-billing-off-or-on)합니다.
+   구독이 만료된 경우 결제 세부 정보를 제출하면 구독이 활성 상태로 돌아오고  다음 청구 날짜는 현재 구독 약정에 따라 한 달 또는 1년까지 연장됩니다. 신용 카드 또는 은행 계좌로 결제하는 경우 신용 카드 또는 은행 계좌에 내선 요금이 청구됩니다. If you pay by invoice, you'll see the extension reflected on your next invoice. 구독이 다시 만료되지 않는지 확인하려면 재발생 청구를 [켜야 합니다.](renew-your-subscription.md#turn-recurring-billing-off-or-on)
 
    > [!NOTE]
-   > 은행 계좌로 지불할 수 없는 국가 또는 지역에서는 사용할 수 없습니다.
+   > 은행 계좌로 결제하는 기능을 일부 국가나 지역에서는 사용할 수 없습니다.
   
-   구독이 취소 되었거나 지불이 수신 되지 않아 사용 하지 않도록 설정 된 경우에는 활성 상태로 반환 되며 **다음 청구** 날짜는 동일 하 게 유지 됩니다.
+   구독이 취소되거나 결제를 받지 못해 비활성화된 경우 활성 상태로 돌아와 다음 청구  날짜는 동일하게 유지됩니다.
 
 ::: moniker-end
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[비즈니스 에디션 구독에 대 한 Microsoft 365을 체험 하거나 구입 합니다](../try-or-buy-microsoft-365.md) (문서).
-[Microsoft 365 for Business 갱신](renew-your-subscription.md) (문서) \
-[구독 취소](cancel-your-subscription.md) (문서)
+[비즈니스용 Microsoft 365](../try-or-buy-microsoft-365.md) 구독 시도 또는 구입(문서)\
+[비즈니스용 Microsoft 365](renew-your-subscription.md) 갱신(문서)\
+[구독 취소(문서)](cancel-your-subscription.md)

@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 360cd50556b77f141d1585f42ac08ee5990b4851
-ms.sourcegitcommit: f3059a0065496623e36e5a084cd2291e6b844597
+ms.openlocfilehash: 22b5a6353720f8fbee218c138a3c9d0dee444db9
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50040523"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114922"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>준비 평가 도구에서 발견한 문제 해결
 
@@ -197,11 +197,11 @@ Azure AD 조직이 있는 하나 이상의 국가는 Microsoft Managed Desktop�
 
 **준비되지 않음**
 
-모든 사용자, 모든 장치 또는 둘 다를 대상으로 하는 보안 기준 프로필이 있습니다. Microsoft Managed Desktop 장치를 포함하지 않는 특정 Azure AD 그룹을 대상으로 하는 할당을 사용하도록 정책을 변경합니다. 단계는 보안 기준을 사용하여 [Intune에서 Windows 10 디바이스를 구성하는 방법을 참조하세요.](https://docs.microsoft.com/mem/intune/protect/security-baselines)
+모든 사용자, 모든 장치 또는 둘 다를 대상으로 하는 보안 기준 프로필이 있습니다. Microsoft Managed Desktop 장치를 포함하지 않는 특정 Azure AD 그룹을 대상으로 하는 할당을 사용하도록 정책을 변경합니다. 단계는 보안 기준을 사용하여 [Intune에서 Windows 10 디바이스를 구성하는 방법을 참조하세요.](https://docs.microsoft.com/mem/intune/protect/security-baselines) 등록하는 동안 모든 Microsoft Managed Desktop 장치에 새 보안 기준을 적용합니다. 등록 후 Microsoft Endpoint Manager의 구성 정책 영역에  있는 Microsoft Managed Desktop 보안 기준 정책을 검토할 수 있습니다.
 
 **권고**
 
-Microsoft Managed Desktop 장치를 제외한 보안 기준 정책이 있는지 확인 단계는 보안 기준을 사용하여 [Intune에서 Windows 10 디바이스를 구성하는 방법을 참조하세요.](https://docs.microsoft.com/mem/intune/protect/security-baselines) 최신 **Workplace Devices -All** Azure AD 그룹은 Microsoft Managed Desktop에 등록할 때 만드는 동적 그룹이기 때문에 등록 후 이 그룹을 제외하기 위해 돌아와야 합니다.
+Microsoft Managed Desktop 장치를 제외한 보안 기준 정책이 있는지 확인 단계는 보안 기준을 사용하여 [Intune에서 Windows 10 디바이스를 구성하는 방법을 참조하세요.](https://docs.microsoft.com/mem/intune/protect/security-baselines) 등록하는 동안 모든 Microsoft Managed Desktop 장치에 새 보안 기준을 적용합니다. 최신 **Workplace Devices -All** Azure AD 그룹은 Microsoft Managed Desktop에 등록할 때 만드는 동적 그룹이기 때문에 등록 후 이 그룹을 제외하기 위해 돌아와야 합니다. 
 
 
 ### <a name="windows-apps"></a>Windows 앱

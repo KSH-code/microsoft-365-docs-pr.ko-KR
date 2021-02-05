@@ -23,24 +23,24 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
-description: Microsoft 365에서 도메인 이름을 구입하는 방법을 배워야 합니다.
-ms.openlocfilehash: d8c0bac5921b5cb3efacffdfee3ab948857b8a1f
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Microsoft 365에서 도메인 이름을 구입하는 방법을 학습합니다.
+ms.openlocfilehash: 40fc44dfa3bc3e608b590157b7db423302af748d
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658614"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50113966"
 ---
 # <a name="buy-a-domain-name"></a>도메인 이름 구매
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
 
 ::: moniker-end
 
- *도메인을 추가, 수정 또는  제거하려면  비즈니스 또는 엔터프라이즈 계획의 전역 관리자 [되어야 합니다.](https://products.office.com/business/office) 이러한 변경 내용은 전체 테넌트,   사용자 지정된 관리자 또는 일반 사용자에게 영향을 미치며 이러한 변경을 할 수 없습니다.*  
+ *도메인을 추가, 수정 또는  제거하려면  비즈니스 또는 엔터프라이즈 계획의 전역 관리자 [되어야 합니다.](https://products.office.com/business/office) 이러한 변경 내용은 전체 테넌트,   사용자 지정된 관리자 또는 일반 사용자에게 영향을 미치며 이러한 변경은 할 수 없습니다.*  
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요. 
   
@@ -80,7 +80,7 @@ ms.locfileid: "49658614"
 도메인 구입 시 무료 도메인 개인 정보 구독을 제공합니다. 그러면 연락처 정보가 ICANN 비공개로 도메인 등록에 첨부됩니다. [더 알아보세요.](https://whois.icann.org/en/privacy-and-proxy-services)
   
 ### <a name="buy-a-domain-from-another-domain-registrar"></a>다른 도메인 등록 기관에서 도메인 구입
-[GoDaddy가](https://www.godaddy.com)다른 도메인 등록 기관에서 도메인을 구입하려는 경우 자동 설정(Domain Connect)을 지원하는 아래의 도메인을 사용하는 것이 좋습니다. 
+[GoDaddy가](https://www.godaddy.com)외의 도메인 등록 기관에서 도메인을 구입하려면 자동 설정(Domain Connect)을 지원하는 아래의 도메인을 사용하는 것이 좋습니다. 
   
 - [1 &amp; 1 IONOS](https://www.1and1.com/)
 - [WordPress](https://www.wordpress.com) 

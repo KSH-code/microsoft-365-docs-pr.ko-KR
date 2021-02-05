@@ -23,19 +23,19 @@ search.appverid:
 - MET150
 description: 사용자에게 라이선스를 할당하는 방법을 알아봅니다.
 ms.date: 08/14/2020
-ms.openlocfilehash: fc5f9112a22d56abb9c11d61f4108586487b4986
-ms.sourcegitcommit: 806536f859ac864228797f1f2f23b8f41040a6b4
+ms.openlocfilehash: b5179006da896dbadab10d43a43b094acedcb806
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49735801"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50113988"
 ---
 # <a name="assign-licenses-to-users"></a>사용자에게 라이선스 할당
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
 
 ::: moniker-end
 

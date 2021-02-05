@@ -1,5 +1,5 @@
 ---
-title: 21Vianet에서 운영 하는 Office 365에서 청구서 보기 또는 Fapiao 받기
+title: 21Vianet에서 운영하는 Office 365에서 청구서 보기 또는 Fapiao 보기
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -19,29 +19,29 @@ search.appverid:
 - MET150
 - GEA150
 ms.assetid: c29d38b5-53a6-4bd9-b7aa-ce12c902da83
-description: 중국의 21Vianet에서 운영 하는 Office 365에 대 한 청구 내역 또는 송장을 확인 합니다.
+description: 중국의 21Vianet에서 운영하는 Office 365에 대한 청구서 또는 송장을 볼 수 있습니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 7a8380f74331822a25f846312aa3dd9bfb11d586
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 402634941180fbe7abf26637b8fa7096d8c8eb7c
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644630"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114258"
 ---
-# <a name="view-your-bill-or-get-a-fapiao-in-office-365-operated-by-21vianet"></a>21Vianet에서 운영 하는 Office 365에서 청구서 보기 또는 Fapiao 받기
+# <a name="view-your-bill-or-get-a-fapiao-in-office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365에서 청구서 보기 또는 Fapiao 보기
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
 
-21Vianet 구독 요금에서 운영 하는 Office 365에 대 한 정보를 보려면 청구 명세서 또는 송장을 볼 수 있습니다. 또한 Fapiao (최종 구매 증명서)를 받을 수도 있습니다. 사용자가 지불한 후 3 일 동안 fapiao [관리 시스템](https://go.microsoft.com/fwlink/p/?linkid=837465) 에 fapiao 요청을 제출할 수 있습니다. 
+청구서 또는 송장에서 21Vianet 구독 요금으로 운영하는 Office 365에 대한 정보를 볼 수 있습니다. Fapiao(최종 구매 증명)를 얻을 수도 있습니다. 결제 후 약 3일 후에 Fapiao 관리 시스템에 [Fapiao](https://go.microsoft.com/fwlink/p/?linkid=837465) 요청을 제출할 수 있습니다. 
   
-## <a name="find-your-billing-statement-or-request-a-fapiao"></a>청구 내역 찾기 또는 Fapiao 요청
+## <a name="find-your-billing-statement-or-request-a-fapiao"></a>청구서 찾기 또는 Fapiao 요청
 
-1. [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=850627)에서 **청구** \> **금액 & 지불** 페이지로 이동 합니다.
+1. 관리 [센터에서](https://go.microsoft.com/fwlink/p/?linkid=850627)결제 페이지로 &  \> **청구서 페이지로** 이동합니다.
 
-2. 원하는 송장을 찾거나, 보기를 선택 하거나, PDF를 다운로드 하도록 선택 합니다.
+2. 원하는 송장을 찾거나 보거나 PDF를 다운로드하기로 선택합니다.
 
-  - Fapiao를 요청 하려면 **Get Fapiaos**을 선택 합니다.
+  - Fapiao를 요청하려면 **Fapiaos를 선택합니다.**
 
     > [!NOTE]
-    > [Fapiao in 관리 시스템](https://go.microsoft.com/fwlink/p/?linkid=837465)에 액세스 하려면 등록 된 계정이 필요 합니다. 아직 계정을 설정 하지 않은 경우 [21vianet에서 운영 하는 Office 365 용 Fapiao에 대해 적용](apply-for-a-fapiao.md)을 참조 하세요.
+    > Fapiao 관리 시스템에 액세스하려면 등록된 [계정이 필요합니다.](https://go.microsoft.com/fwlink/p/?linkid=837465) 아직 계정을 설정하지 않은 경우 [21Vianet에서 운영하는 Office 365용 Fapiao](apply-for-a-fapiao.md)적용을 참조하세요.

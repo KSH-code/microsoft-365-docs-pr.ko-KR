@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 0d508607877b86d6f6df6a6465fada67e385fba0
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: c0fdfc83bbdb8ec4c2f408cef113a487908957bf
+ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029201"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110032"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 작업 및 영향 마이그레이션 단계(일반)
 
@@ -34,6 +34,26 @@ ms.locfileid: "50029201"
 단계와 해당 작업을 수행하면 중요한 데이터 및 환경이 Office 365 서비스로 마이그레이션됩니다. 테넌트가 마이그레이션 큐에 추가된 후 각 작업은 백end 서비스에서 실행되는 단계 집합으로 완료됩니다. 일부 워크로드에는 관리자(또는 사용자)의 작업이 필요하거나 마이그레이션이 실행되고 마이그레이션이 구성되는 방식에 설명된 단계의 사용에 영향을 줄 [수 있습니다.](ms-cloud-germany-transition.md#how-is-the-migration-organized)
 
 다음 섹션에는 마이그레이션의 다양한 단계를 진행할 때 작업에 대한 작업 및 영향이 포함되어 있습니다. 표를 검토하고 조직에 적용할 수 있는 작업이나 효과를 파악합니다. 필요한 경우 각 단계의 단계를 실행할 준비가 되도록 합니다. 필요한 단계를 완료하지 못하면 서비스가 종료될 수 있으며 Office 365 서비스로의 마이그레이션 완료가 지연될 수 있습니다.
+
+## <a name="sharepoint-online-phase-4-of-9"></a>SharePoint Online(9단계 중 4단계)
+
+| 단계 | 설명 | 적용 대상 | 영향 |
+|:-------|:-----|:-------|:-------|
+| SharePoint 및 OneDrive가 전환됩니다. | 이 단계에서 SharePoint 및 OneDrive는 도이치란드 Microsoft 클라우드에서 Office 365 서비스로 마이그레이션됩니다. 기존의 Microsoft 클라우드 도이클란드 URL은 보존됩니다(예: `contoso.sharepoint.de` ). 도이클란드 Microsoft 클라우드 또는 Office 365 서비스에서 발급한 토큰은 전환 중에 유효합니다. | SharePoint 고객 | - 마이그레이션 중 두 가지 짧은 기간 동안 콘텐츠가 읽기 전용입니다. 이 시간 동안 SharePoint에서 "콘텐츠를 편집할 수 없습니다." 배너가 예상됩니다. <br><br> - 검색 인덱스는 보존되지 않습니다. 다시 생성하는 데 최대 10일이 걸릴 수 있습니다. <br><br> - SharePoint/OneDrive 콘텐츠는 마이그레이션 중 두 가지 짧은 기간 동안 읽기 전용입니다. 이 시간 동안 "콘텐츠를 편집할 수 없습니다." 배너가 잠시 표시됩니다. <br><br> - 인덱스를 다시 구성하는 동안 검색 인덱스를 사용할 수 없습니다. 이 기간 동안 검색 쿼리는 전체 결과를 반환하지 않을 수 있습니다. <br><br> - 기존 사이트가 보존됩니다. |
+|||||
+
+추가 고려 사항:
+
+- SharePoint Online 마이그레이션이 완료 되면 데이터 인덱스가 다시 작성 됩니다. 검색 인덱스에 종속된 기능은 다시 인덱싱이 완료된 동안 영향을 받을 수 있습니다.
+
+- 조직에서 여전히 SharePoint 2010 워크플로를 사용하는 경우 2021년 12월 31일 이후에는 더 이상 작동하지 않습니다. SharePoint 2013 워크플로는 2020년 11월 1일부터 새 테넌트에 대해 기본적으로 꺼져 있습니다. SharePoint Online 서비스로의 마이그레이션이 완료된 후 Power Automate 또는 기타 지원되는 솔루션으로 이동하는 것이 좋습니다.
+
+- 독일 지역으로의 OneDrive 마이그레이션이 완료된 후 데이터 인덱스가 다시 생성됩니다. 다시 인덱싱이 진행되는 동안 검색 인덱스에 종속된 기능이 영향을 받을 수 있습니다.
+
+- SharePoint Online 인스턴스가 아직 마이그레이션되지 않은 도이클랜드 Microsoft 클라우드 고객은 SharePoint Online PowerShell 모듈/Microsoft.SharePointOnline.CSOM 버전 16.0.20616.12000 이하를 유지해야 합니다. 그렇지 않으면 PowerShell 또는 클라이언트 쪽 개체 모델을 통해 SharePoint Online에 대한 연결이 실패합니다.
+
+- SharePoint Online 인스턴스가 마이그레이션되는 도이치랜드 Microsoft 클라우드 고객은 SharePoint Online PowerShell 모듈/Microsoft.SharePointOnline.CSOM을 버전 16.0.20717.12000 이상으로 업데이트해야 합니다. 그렇지 않으면 PowerShell 또는 클라이언트 쪽 개체 모델을 통해 SharePoint Online에 대한 연결이 실패합니다.
+
 
 ## <a name="exchange-online-phase-5-of-9"></a>Exchange Online(5단계 중 9단계)
 
@@ -67,24 +87,6 @@ ms.locfileid: "50029201"
 | Exchange Online 라우팅 및 기록 메시지 세부 정보 마이그레이션 | Exchange Online을 사용하면 외부 호스트에서 Office 365로 라우팅할 수 있습니다. 외부 MX 레코드는 EOP 서비스로 라우팅하기 위해 전환됩니다. 테넌트 구성 및 기록 세부 정보가 마이그레이션됩니다. | Exchange Online 고객 | - Microsoft에서 관리하는 DNS 항목이 Office 365 Germany EOP에서 Office 365 서비스로 업데이트됩니다. <br><br> - 고객은 EOP 마이그레이션을 위해 EOP 이중 쓰기 후 30일 동안 기다려야 합니다. 그렇지 않으면 데이터 손실이 있을 수 있습니다. |
 |||||
 
-## <a name="sharepoint-online-phase-4-of-9"></a>SharePoint Online(9단계 중 4단계)
-
-| 단계 | 설명 | 적용 대상 | 영향 |
-|:-------|:-----|:-------|:-------|
-| SharePoint 및 OneDrive가 전환됩니다. | 이 단계에서 SharePoint 및 OneDrive는 도이치란드 Microsoft 클라우드에서 Office 365 서비스로 마이그레이션됩니다. 기존의 Microsoft 클라우드 도이클란드 URL은 보존됩니다(예: `contoso.sharepoint.de` ). 도이클란드 Microsoft 클라우드 또는 Office 365 서비스에서 발급한 토큰은 전환 중에 유효합니다. | SharePoint 고객 | - 마이그레이션 중 두 가지 짧은 기간 동안 콘텐츠가 읽기 전용입니다. 이 시간 동안 SharePoint에서 "콘텐츠를 편집할 수 없습니다." 배너가 예상됩니다. <br><br> - 검색 인덱스는 보존되지 않습니다. 다시 생성하는 데 최대 10일이 걸릴 수 있습니다. <br><br> - SharePoint/OneDrive 콘텐츠는 마이그레이션 중 두 가지 짧은 기간 동안 읽기 전용입니다. 이 시간 동안 "콘텐츠를 편집할 수 없습니다." 배너가 잠시 표시됩니다. <br><br> - 인덱스를 다시 구성하는 동안 검색 인덱스를 사용할 수 없습니다. 이 기간 동안 검색 쿼리는 전체 결과를 반환하지 않을 수 있습니다. <br><br> - 기존 사이트가 보존됩니다. |
-|||||
-
-추가 고려 사항:
-
-- SharePoint Online 마이그레이션이 완료 되면 데이터 인덱스가 다시 작성 됩니다. 검색 인덱스에 종속된 기능은 다시 인덱싱이 완료된 동안 영향을 받을 수 있습니다.
-
-- 조직에서 여전히 SharePoint 2010 워크플로를 사용하는 경우 2021년 12월 31일 이후에는 더 이상 작동하지 않습니다. SharePoint 2013 워크플로는 2020년 11월 1일부터 새 테넌트에 대해 기본적으로 꺼져 있습니다. SharePoint Online 서비스로의 마이그레이션이 완료된 후 Power Automate 또는 기타 지원되는 솔루션으로 이동하는 것이 좋습니다.
-
-- 독일 지역으로의 OneDrive 마이그레이션이 완료된 후 데이터 인덱스가 다시 생성됩니다. 다시 인덱싱이 진행되는 동안 검색 인덱스에 종속된 기능이 영향을 받을 수 있습니다.
-
-- SharePoint Online 인스턴스가 아직 마이그레이션되지 않은 도이클랜드 Microsoft 클라우드 고객은 SharePoint Online PowerShell 모듈/Microsoft.SharePointOnline.CSOM 버전 16.0.20616.12000 이하를 유지해야 합니다. 그렇지 않으면 PowerShell 또는 클라이언트 쪽 개체 모델을 통해 SharePoint Online에 대한 연결이 실패합니다.
-
-- SharePoint Online 인스턴스가 마이그레이션되는 도이치랜드 Microsoft 클라우드 고객은 SharePoint Online PowerShell 모듈/Microsoft.SharePointOnline.CSOM을 버전 16.0.20717.12000 이상으로 업데이트해야 합니다. 그렇지 않으면 PowerShell 또는 클라이언트 쪽 개체 모델을 통해 SharePoint Online에 대한 연결이 실패합니다.
 
 
 ## <a name="skype-for-business-online-phase-7-of-9"></a>비즈니스용 Skype Online(9단계 중 7단계)

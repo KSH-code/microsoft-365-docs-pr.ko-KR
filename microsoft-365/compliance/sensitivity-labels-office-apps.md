@@ -14,14 +14,14 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: 데스크톱, 모바일 및 웹용 Office 앱에서 사용자가 민감도 레이블을 사용하는 방법과 민감도 레이블을 지원하는 앱에 대해 자세히 알아보습니다.
+description: 사용자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 사용하는 방법과 민감도 레이블을 지원하는 앱에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 672d99ed4345ee27437cda66087de6e4e3f521bb
-ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
+ms.openlocfilehash: e9e3f73ad3756381a2ea6884d6ec65bc85063a10
+ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084593"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110021"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 사용
 
@@ -41,7 +41,7 @@ Windows 컴퓨터에서 이러한 독립 실행형 Office 버전과 함께 민�
 
 다음 표에서는 기본 제공 레이블 지정을 사용하여 민감도 레이블을 지원하는 데 필요한 최소 Office 버전을 나열합니다. 또는 레이블 기능이 공개 미리 보기에 있는 경우 또는 향후 릴리스에 대한 검토 중입니다. 향후 릴리스에 대한 자세한 내용은 [Microsoft 365](https://aka.ms/MIPC/Roadmap) 로드맵을 사용 합니다.
 
-새 버전의 Office 앱은 업데이트 채널마다 다른 시간으로 사용할 수 있습니다. 관심 있는 새 레이블 지정 기능을 테스트할 수 있도록 업데이트 채널을 구성하는 방법을 비롯한 자세한 내용은 [Microsoft 365](https://docs.microsoft.com/DeployOffice/overview-update-channels)앱 업데이트 채널 개요를 참조하세요. 비공개 미리 보기에 포함된 새로운 기능은 표에 포함되지 않지만 Microsoft Information Protection 개인 미리 보기 프로그램에 대해 조직을 지명하여 이러한 미리 보기에 참가할 수 [있습니다.](https://aka.ms/mip-preview)
+새 버전의 Office 앱은 서로 다른 업데이트 채널에 대해 서로 다른 시간으로 사용할 수 있습니다. 관심 있는 새 레이블 지정 기능을 테스트할 수 있도록 업데이트 채널을 구성하는 방법을 비롯한 자세한 내용은 [Microsoft 365](https://docs.microsoft.com/DeployOffice/overview-update-channels)앱 업데이트 채널 개요를 참조하세요. 비공개 미리 보기에 포함된 새로운 기능은 표에 포함되지 않지만 Microsoft Information Protection 개인 미리 보기 프로그램에 대해 조직을 지명하여 이러한 미리 보기에 참가할 수 [있습니다.](https://aka.ms/mip-preview)
 
 > [!NOTE]
 > Office 앱의 업데이트 채널 이름이 최근에 변경되었습니다. 예를 들어 월별 채널은 현재 채널이며 Office Insider는 베타 채널이 됩니다. 자세한 내용은 [Microsoft 365](https://docs.microsoft.com/deployoffice/update-channels-changes)앱의 채널 업데이트에 대한 변경 내용을 참조하세요.
@@ -72,7 +72,7 @@ iOS 및 Android용 Office: 민감도 레이블이 Office 앱에 [기본 제공�
 
 **각주:**
 
-<sup>\*</sup> 현재, 레이블을 제거하거나 분류 수준을 낮추기 위한 사리 텍스트를 포함하지 않습니다.
+<sup>\*</sup> 현재, 레이블을 제거하거나 분류 수준을 낮추기 위한 사명 텍스트를 포함하지 않습니다.
 
 ### <a name="sensitivity-label-capabilities-in-outlook"></a>Outlook의 민감도 레이블 기능
 
@@ -102,7 +102,7 @@ Office 기본 제공 레이블 지정 클라이언트는 다음 관리 센터에
 - Microsoft 365 보안 센터
 - Office 365 보안 및 준수 센터
 
-Office 기본 제공 레이블 클라이언트를 사용하려면 나열된 [](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) 관리 센터 및 지원되는 Office 버전 중 하나에서 사용자에게 하나 이상의 레이블 정책을 [게시해야 합니다.](#support-for-sensitivity-label-capabilities-in-apps)
+Office 기본 제공 레이블 지정 클라이언트를 사용하려면 나열된 관리 센터 및 지원되는 Office 버전 중 하나에서 사용자에게 하나 이상의 레이블 정책을 [게시해야 합니다.](#support-for-sensitivity-label-capabilities-in-apps) [](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy)
 
 이러한 조건이 모두 충족되지만 Office 기본 제공 레이블 클라이언트를 해제해야 하는 경우 다음 그룹 정책 설정을 사용 합니다.
 
@@ -110,7 +110,7 @@ Office 기본 제공 레이블 클라이언트를 사용하려면 나열된 [](c
 
 2. Office의 **민감도** 기능을 사용하여 민감도 레이블을 적용하고 **0으로 설정** 
  
-그룹 정책 또는 Office 클라우드 정책 서비스를 사용하여 이 [설정을 배포합니다.](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service) 이 설정은 Office 앱이 다시 시작될 때 적용됩니다.
+이 설정은 그룹 정책 또는 Office 클라우드 정책 서비스를 사용하여 [배포합니다.](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service) 이 설정은 Office 앱이 다시 시작될 때 적용됩니다.
 
 ### <a name="office-built-in-labeling-client-and-the-azure-information-protection-client"></a>Office 기본 제공 레이블 클라이언트 및 Azure Information Protection 클라이언트
 
@@ -145,7 +145,7 @@ Office 365 메시지 암호화에 대해 정의한 템플릿과 같은 관리자
 - 문서의 경우: **파일**  >  **정보 보호** 문서  >  **액세스**  >  **제한**
 - 전자 메일의 경우: 옵션 **탭에서** >  
   
-사용자가 처음에 문서 또는 전자 메일에 레이블을 지정하면 항상 자체 암호화 설정으로 레이블 구성 설정을 의회할 수 있습니다. 예제:
+사용자가 처음에 문서 또는 전자 메일에 레이블을 지정하면 항상 자체 암호화 설정으로 레이블 구성 설정을 의회할 수 있습니다. 예:
 
 - 사용자가 문서에 **기밀 \ 모든** 직원 레이블을 적용하고 이 레이블은 조직의 모든 사용자에 대해 암호화 설정을 적용하도록 구성됩니다. 그런 다음 이 사용자는 조직 외부의 사용자에 대한 액세스를 제한하도록 IRM 설정을 수동으로 구성합니다. 최종 결과로 Confidential \ All **Employees** 레이블이 지정되고 암호화된 문서가 있지만 조직의 사용자가 예상대로 열 수 없습니다.
 
@@ -155,9 +155,9 @@ Office 365 메시지 암호화에 대해 정의한 템플릿과 같은 관리자
 
 문서 또는 전자 메일에 이미 레이블이 지정되어 있는 경우 사용자는 콘텐츠가 아직 암호화되지 않은 [](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) 경우 또는 사용권 내보내기 또는 모든 사용권이 있는 경우 이러한 작업을 수행할 수 있습니다. 
 
-의미 있는 보고를 통해 보다 일관된 레이블 환경을 위해 사용자가 문서를 보호하기 위해 레이블만 적용하도록 적절한 레이블 및 지침을 제공합니다. 예제:
+의미 있는 보고를 통해 보다 일관된 레이블 환경을 위해 사용자가 문서를 보호하기 위해 레이블만 적용하도록 적절한 레이블 및 지침을 제공합니다. 예:
 
-- 사용자가 고유한 사용 권한을 할당해야 하는 예외의 경우 사용자가 자신의 권한을 할당할 수 있는 [레이블을 제공합니다.](encryption-sensitivity-labels.md#let-users-assign-permissions) 
+- 사용자가 고유한 사용 권한을 할당해야 하는 예외의 경우 사용자가 자신의 사용 권한을 할당할 수 있는 [레이블을 제공합니다.](encryption-sensitivity-labels.md#let-users-assign-permissions) 
 
 - 사용자가 암호화를 적용하는 레이블을 선택한 후 암호화를 수동으로 제거하는 대신 동일한 분류를 사용하지만 암호화가 없는 레이블이 필요한 경우 하위 레이블 대안을 제공합니다. 예:
     - **기밀 \ 모든 직원**
@@ -171,15 +171,15 @@ Office 365 메시지 암호화에 대해 정의한 템플릿과 같은 관리자
 
 사용자는 각 문서 또는 전자 메일에 대해 한 번씩 하나의 레이블만 적용할 수 있습니다.
 
-첨부 파일이 있는 전자 메일 메시지에 레이블을 지정하면 첨부 파일에서 한 가지 예외를 제외하고 레이블을 상속하지 않습니다.
+첨부 파일이 있는 전자 메일 메시지에 레이블을 지정하면 전자 메일 메시지에 적용하는 레이블이 암호화를 적용하고 첨부 파일이 Office 문서가 아직 암호화되지 않은 경우 첨부 파일이 레이블을 상속합니다. 상속된 레이블은 암호화를 적용하기 때문에 첨부 파일이 새로 암호화됩니다.
 
-- 첨부 파일은 암호화를 적용하지 않는 레이블이 있는 Office 문서로, 전자 메일 메시지에 적용하는 레이블은 암호화를 적용합니다. 이 경우 전자 메일 Office 문서는 암호화 설정으로 전자 메일의 레이블을 상속합니다.
+전자 메일 메시지에 적용된 레이블이 암호화를 적용하지 못하거나 첨부 파일이 이미 암호화되어 있는 경우 첨부 파일은 전자 메일 메시지에서 레이블을 상속하지 않습니다.
 
-그렇지 않으면: 
+레이블 기밀이 암호화를 적용하고 **일반** 레이블은 암호화를 적용하지 않는 레이블 상속의 예: 
 
-- 첨부 파일에 레이블이 있는 경우 원래 적용된 레이블을 보관합니다.
-- 첨부 파일이 레이블 없이 암호화된 경우 암호화는 유지되지만 레이블이 지정되지 않습니다.
-- 첨부 파일에 레이블이 없는 경우 레이블이 지정되지 않은 상태로 유지됩니다.
+- 사용자가 새 전자 메일 메시지를 만들고 이 메시지에 **기밀** 레이블을 적용합니다. 그런 다음 레이블이 지정되거나 암호화되지 않은 Word 문서를 추가합니다. 상속의 결과로 문서에 **기밀** 레이블이 새로 추가되고 해당 레이블에서 암호화가 적용되었습니다.
+
+- 사용자가 새 전자 메일 메시지를 만들고 이 메시지에 **기밀** 레이블을 적용합니다. 그런 다음 일반 레이블이 지정되어 있으며 이 파일은 암호화되지 않은 Word 문서를 추가합니다.  상속의 결과로 문서는 **기밀로** 레이블이 지정되고 해당 레이블에서 암호화가 적용되었습니다.
 
 ## <a name="sensitivity-label-compatibility"></a>민감도 레이블 호환성
 
@@ -215,7 +215,7 @@ SharePoint 또는 OneDrive의 문서에 대해 웹용 Office에서 Office 기본
 
 - 또 다른 옵션은 사용자가 링크를 공유할 때 게스트 계정이 자동으로 만들어지기 위해 Azure AD B2B(미리 보기)와 SharePoint 및 [OneDrive](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) 통합을 사용하는 것입니다.
     
-    이 옵션의 장점은 계정이 자동으로 만들어지며 레이블 구성이 단순하기 때문에 최소 관리 오버헤드입니다. 이 시나리오에서는 전자 메일 주소를 [](encryption-sensitivity-labels.md#requirements-and-limitations-for-add-any-authenticated-users) 미리 알 수 없는 인증된 사용자 추가 암호화 옵션을 선택해야 합니다. 단점은 이 설정을 통해 액세스 및 사용 권한을 특정 사용자로 제한할 수 없습니다.
+    이 옵션의 장점은 계정이 자동으로 만들어지며 레이블 구성이 단순하기 때문에 최소 관리 오버헤드입니다. 이 시나리오에서는 전자 메일 주소를 [](encryption-sensitivity-labels.md#requirements-and-limitations-for-add-any-authenticated-users) 미리 알 수 없는 경우 인증된 사용자를 추가하는 암호화 옵션을 선택해야 합니다. 단점은 이 설정을 통해 액세스 및 사용 권한을 특정 사용자로 제한할 수 없습니다.
 
 외부 사용자는 Windows에서 Microsoft 365 앱(이전의[Office 365](https://docs.microsoft.com/deployoffice/name-change)앱)을 사용하며 macOS(버전 16.42+), Android(버전 16.0.13029+) 및 iOS(버전 2.42+)에서 새로 지원되는 경우 암호화된 문서에 Microsoft 계정을 사용할 수도 있습니다. 예를 들어 누군가가 암호화된 문서를 공유하고 암호화 설정은 Gmail 전자 메일 주소를 지정합니다. 이 사용자는 Gmail 전자 메일 주소를 사용하는 자체 Microsoft 계정을 만들 수 있습니다. 그런 다음 이 계정으로 로그인한 후 해당 사용자에 대해 지정된 사용 제한에 따라 문서를 열고 편집할 수 있습니다. 이 시나리오의 Walkthrough example, [see Opening and editing the protected document.](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document)
 
@@ -244,7 +244,7 @@ Office 앱 외부의 파일에 민감도 레이블을 적용하는 솔루션은 
 
 Office 데스크톱 앱에서 이러한 파일을 열면 콘텐츠 표시가 Azure Information Protection 통합 레이블 클라이언트에 의해 자동으로 적용됩니다. 데스크톱, 모바일 또는 웹앱에 기본 제공 레이블을 사용하는 경우 콘텐츠 표시가 자동으로 적용되지 않습니다.
 
-Office 앱 외부에서 민감도 레이블을 적용하는 것이 포함된 시나리오는 다음과 같습니다.
+Office 앱 외부에 민감도 레이블을 적용하는 것이 포함된 시나리오는 다음과 같습니다.
 
 - Azure Information Protection 통합 레이블 지정 클라이언트의 스캐너, 파일 탐색기 및 PowerShell 
 
@@ -261,7 +261,7 @@ Office 앱 외부에서 민감도 레이블을 적용하는 것이 포함된 시
 > [!IMPORTANT]
 > 현재 일부 플랫폼의 일부 앱은 머리더, 머리마크 및 워터마크에 대해 지정할 수 있는 동적 콘텐츠 표시를 지원하지 않습니다. 이 기능을 지원하지 않는 앱의 경우 변수를 확인하지 않고 레이블 구성에 지정된 원래 텍스트로 표시를 적용합니다.
 > 
-> Azure Information Protection 통합 레이블 클라이언트는 동적 표시를 지원합니다. Office에 기본 제공되는 레이블 지정은 이 [](#support-for-sensitivity-label-capabilities-in-apps) 페이지의 기능 섹션에 있는 표를 참조하세요.
+> Azure Information Protection 통합 레이블 지정 클라이언트는 동적 표시를 지원합니다. Office에 기본 제공되는 레이블 지정은 이 [](#support-for-sensitivity-label-capabilities-in-apps) 페이지의 기능 섹션에 있는 표를 참조하세요.
 
 콘텐츠 표시에 대한 민감도 레이블을 구성할 때 머리 글자, 머리 글자 또는 워터마크에 대해 텍스트 문자열에 다음 변수를 사용할 수 있습니다.
 

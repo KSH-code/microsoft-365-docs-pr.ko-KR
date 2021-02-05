@@ -9,19 +9,19 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 88b1ba657b4823d90a41b28b01362760676410ba
-ms.sourcegitcommit: b3bb5bf5efa197ef8b16a33401b0b4f5663d3aa0
+ms.openlocfilehash: a6b5cbbcb2f48797130b080d9d1dd1e6427d4fb8
+ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50032706"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110054"
 ---
 # <a name="device-requirements"></a>장치 요구 사항
 
 Microsoft Managed Desktop은 서비스에 포함되는 장치 요구 사항을 정기적으로 평가합니다. 이 문서에서는 Microsoft Managed Desktop에서 작동하기 위해 장치가 충족해야 하는 하드웨어 및 소프트웨어 요구 사항에 대해 설명합니다. 이러한 요구 사항에 따라 [](device-list.md) 서비스에서 이미 사용이 승인된 특정 장치 목록을 검토할 수 있습니다.
 
 > [!NOTE]
-> 이러한 요구 사항은 변경될 수 있지만 이러한 변경에 대해 90일 알림이 제공될 것입니다. 가장 최근에 변경된 요구 사항은 **\*** 다음으로 표시됩니다. 
+> 이러한 요구 사항은 변경될 수 있지만 하드웨어 요구 사항 변경에 대해 30일 알림이 제공될 것입니다. 가장 최근에 변경된 요구 사항은 **\*** 다음으로 표시됩니다. 
 
 ## <a name="check-hardware-requirements"></a>하드웨어 요구 사항 확인
 
@@ -46,7 +46,7 @@ Microsoft Managed Desktop에 등록하려면 장치가 이러한 요구 사항�
 디바이스에 다음 소프트웨어가 사전 설치되어야 합니다.
 
 - Windows 10 Enterprise, Pro 또는 Pro Workstation Edition
-- {the 64-bit version of Office click-to-run {I will double-check name w/ Office colleagues]}
+- 64비트 버전의 Microsoft Office 실행 
 - 적용 가능한 모든 장치 드라이버
 
 

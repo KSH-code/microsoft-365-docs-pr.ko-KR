@@ -12,111 +12,83 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ms.assetid: 734f4aab-df2d-4e9b-8cb1-691910bde216
-description: 비즈니스에 대 한 Microsoft 365 구독을 결제 하는 데 사용할 수 있는 결제 옵션에 대해 알아봅니다.
+description: 비즈니스용 Microsoft 365 구독 결제에 사용할 수 있는 결제 방법을 자세히 알아보는 것이 좋습니다.
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
-ms.openlocfilehash: 778906219c03e8cc79ccebb368b84642639a8467
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+- commerce
+ms.openlocfilehash: 858b42dbb647e472bcb3e95ddcba850f03ab11f1
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638438"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114828"
 ---
-# <a name="pay-for-your-subscription"></a>구독 결제
+# <a name="how-to-pay-for-your-subscription"></a>구독 비용을 지불하는 방법
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
 
 ::: moniker-end
 
-구독을 설정한 경우 신용 카드 또는 은행 계좌 결제를 사용하여 결제하거나 수표 또는 EFT(전자식 자금 이체)를 사용하여 송장으로 결제할 수 있습니다. 어떤 방법을 선택하든 [결제 방법을 변경](change-payment-method.md)하지 않는 한 이후 청구 기간에도 계속 해당 결제 방법을 사용합니다.
+신용 카드 또는 직불 카드 또는 은행 계좌를 사용하여 구독 비용을 결제할 수 있습니다. 경우에 따라 수표 또는 EFT(전자 자금 이체)를 사용하여 송장으로 결제할 수 있습니다. 청구 프로필이 있는 경우 옵션이 약간 다릅니다. 계정에 청구 프로필이 있는지 확실하지 않은 경우 청구 프로필 이해를 [참조하세요.](manage-billing-profiles.md)
+
+**송장 결제를 보낼 위치를 찾고 싶나요?** 수표 또는 EFT(전자 자금 이체)를 통해 송장을 결제하는 경우 수표 또는 EFT 결제를 어디로 보내야 [하나요?](#where-do-i-send-my-check-or-eft-payment)
+
+## <a name="before-you-begin"></a>시작하기 전에
+
+- 이 문서에 설명된 단계를 수행하려면 전역 또는 대금 청구 관리자여야 합니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+- 체크 아웃 중에 선택하는 결제 방법은 향후 모든 청구 기간에 사용하는 결제 방법입니다. 원하는 경우 변경할 수 있습니다.
+
+## <a name="paying-by-credit-or-debit-card-or-bank-account"></a>신용 카드 또는 직불 카드 또는 은행 계좌로 결제
+
+> [!IMPORTANT]
+> 은행 계좌로 결제하는 방법은 일부 국가나 지역에서는 사용할 수 없습니다.
+
+신용 카드 또는 직불 카드 또는 은행 계좌로 구독 비용을 지불할 수 있습니다. 이러한 결제 방법 중 하나를 사용하여 결제하는 경우 구독이 만료되거나 취소될 때까지 해당 결제 방법을 계속 청구합니다. 필요한 경우 [결제 방법을 관리](manage-payment-methods.md)할 수 있습니다. 또한 [전자 메일로 청구서 사본을 받도록](view-your-bill-or-invoice.md#receive-a-copy-of-your-billing-statement-in-email) 선택할 수 있습니다.
+
+## <a name="paying-by-invoice"></a>송장으로 결제
+
+경우에 따라 수표 또는 EFT를 사용하여 송장으로 구독 비용을 지불할 수 있습니다. 송장으로 결제할 자격을 제공하려면 다음을 해야 합니다.
+
+- 확립된 고객 1명
+- 특정 금액을 초과하는 구독 비용이 있는 경우(이 금액은 서비스 위치에 따라 다를 수 있습니다).
+- 신용 검사 통과
+
+신용 검사가 필요한 경우 구독을 구입할 때 알림을 하게 됩니다. 연락에 동의하면 신용 승인 신청에 대한 자세한 정보가 포함된 전자 메일을 받을 수 있습니다. 신용 검사는 보통 영업일 기준 2일 이내에 완료됩니다.
 
 > [!NOTE]
-> 은행 계좌로 결제하는 방법은 일부 국가 또는 지역에서 사용할 수 없습니다.
+> 브라질에 거주하는 고객은 Boleto Bancario를 사용하여 구독 요금을 지불할 수 있습니다. 이 옵션을 선택한 경우 결제용 청구서가 주문일로부터 10일(영업일) 이내에 구독 구매 시 제공된 전자 메일로 전송됩니다. 기한은 주문일로부터 30일 후입니다. 전자 메일로 Boleto를 받을 수 없는 경우 스팸 폴더를 확인하거나 지원 서비스에 문의하세요.
+>
+> 원하는 경우 계정 간에 온라인 이체로 지불할 수 있습니다. 에이전시와 계좌 번호는 송장 맨 아래에 있습니다. 이체 식별 필드에 송장 번호를 입력해야 합니다.
 
-## <a name="pay-by-credit-card-or-bank-account"></a>신용 카드 또는 은행 계좌로 결제
+구독에 대한 송장으로 결제하는 경우 청구서를 볼 준비가 된 경우 전자 메일을 받을 수 있습니다. 이 전자 메일에는 청구서 사본이 포함되어 있지 않습니다. 그러나 전자 메일로 청구서 사본을 받게 [선택할 수 있습니다.](view-your-bill-or-invoice.md#receive-a-copy-of-your-billing-statement-in-email) 청구서에는 결제 옵션과 보낼 위치가 포함됩니다. 구독을 구매할 때 PO(구매 주문) 번호를 입력한 경우 해당 번호가 청구서에 표시됩니다. 청구서를 확인하는 방법에 대한 자세한 내용은 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)를 참조하세요.
 
-신용 카드 또는 은행 계좌로 결제하는 경우 구독 기간이 끝날 때까지 구독 요금이 송장 날짜 다음날에 자동으로 청구됩니다. 필요한 경우 [결제 방법을 관리](manage-payment-methods.md)할 수 있습니다. 또한 [전자 메일로 청구서 사본 받기](#receive-a-copy-of-your-billing-statement-in-email) 선택할 수 있습니다.
+## <a name="what-if-i-have-an-outstanding-balance"></a>미지불 잔액이 있는 경우에는 어떻게 하나요?
 
-### <a name="what-if-my-credit-card-was-declined-and-my-payment-is-past-due"></a>신용 카드가 거부되었는데 결제 기한이 지난 경우에 어떻게 되나요?
+파일에 결제 방법을 청구할 수 없는 경우 문제가 발생했다는 것을 알려주는 전자 메일을 전송합니다. 전자 메일은 문제의 내용에 대해 간략하게 설명하며 미지정 잔액을 확인할 수 있는 링크를 포함합니다. 구독이 유예 기간에 있는 동안 며칠마다 30일마다 거래를 계속 다시 시도합니다. 트랜잭션이 실패할 때마다 오류에 대한 전자 메일 경고가 표시됩니다.
 
-신용 카드로 결제하려다가 신용 카드가 거부된 경우에는 결제를 처리하지 못했다는 내용의 전자 메일을 받습니다. 이 문제는 신용 카드 만료 등의 몇 가지 이유로 발생할 수 있습니다. 저희는 며칠 간격으로 계속 거래를 다시 시도합니다. 그래도 결제에 실패할 경우에는 실패에 관련된 전자 메일 알림을 계속 받습니다. 언제든지 **잔액 결제** 기능을 사용하여 신용 카드 정보를 변경하고 즉시 결제를 다시 제출할 수 있습니다.
+기한이 지난 결제 방법을 개인적으로 추가한 경우 **결제** 잔액을 사용하여 결제할 수 있습니다. 기한이 지난 금액을 결제하는 데 사용하는 결제 방법은 거부된 결제 방법을 사용한 모든 구독의 새 결제 방법이 됩니다.
 
-> [!NOTE]
-> 다른 신용 카드로 전환해서 구독의 미지불 잔액을 결제할 경우에는 그 구독에 대한 이후의 모든 자동 결제 금액이 그 카드로 청구됩니다.
+1. 관리 센터에서 청구서 및 결제 & 페이지로 이동한 다음 결제 방법  >   <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">탭을</a> 선택합니다.
+1. 거부된 결제 방법을 표시하는 경고 메시지입니다. 잔액 **조정을 선택합니다.**
+1. 오른쪽 창에서 다른 결제 방법을 선택하거나 새 결제 방법 **추가를 선택합니다.**
+1. 결제 방법 정보를 업데이트한 후 저장을 **선택합니다.**
 
-::: moniker range="o365-worldwide"
+구독 결제에 사용된 결제 방법을 추가하지 않은 경우 결제 방법을 이전에 추가했거나 새 결제 방법으로 바야 합니다.
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
+## <a name="where-do-i-send-my-check-or-eft-payment"></a>수표 또는 EFT 결제를 어디로 보내야 하나요?
 
-2. 미지불 잔액이 있는 구독을 찾습니다. **청구** 섹션에서 **구독에 기한 경과 결제가 있음** 옆에 있는 **잔액 결제**를 선택합니다.
-
-3. 신용 카드를 소유한 경우 카드의 만료 날짜를 변경하거나, 다른 카드를 선택하거나, [새 카드를 추가](manage-payment-methods.md)할 수 있습니다.
-
-    > [!NOTE]
-    > **잔액 결제** 기능을 사용할 때 계정의 미지불 잔액이 전부 청구되며, 그 금액은 다른 곳에 표시된 금액보다 클 수도 있습니다.
-
-4. 신용 카드를 소유하지 않은 경우 다른 신용 카드를 선택하거나 [새 카드를 추가](manage-payment-methods.md)할 수 있습니다.
-
-5. 신용 카드 정보를 업데이트하거나 구독의 결제에 사용한 카드를 변경하고 나면 **저장**을 선택합니다.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
-
-2. 변경할 구독을 선택합니다. **내 청구서** 섹션에서 **지금 결제**를 선택합니다.
-
-3. 신용 카드를 소유한 경우 카드의 만료 날짜를 변경하거나, 다른 카드를 선택하거나, [새 카드를 추가](manage-payment-methods.md)할 수 있습니다.
-
-    > [!NOTE]
-    > 
-            **지금 결제** 기능을 사용할 때 계정의 미지불 잔액이 전부 청구되며, 그 금액은 다른 곳에 표시된 금액보다 클 수도 있습니다.
-
-4. 신용 카드를 소유하지 않은 경우 다른 신용 카드를 선택하거나 [새 카드를 추가](manage-payment-methods.md)할 수 있습니다.
-
-5. 신용 카드 정보를 업데이트하거나 구독의 결제에 사용한 카드를 변경하고 나면 **제출**을 선택합니다. 그러면 "결제 방법이 업데이트되었고 모든 미결 요금이 결제되었습니다. 감사합니다."라는 확인 메시지가 표시됩니다.
-
-::: moniker-end
-
-## <a name="pay-by-invoice-check-or-eft"></a>송장(수표 또는 EFT)으로 결제
-
-구독 요금이 특정 금액(이 금액은 서비스 위치에 따라 다름)을 초과할 경우 수표 또는 EFT를 사용하여 송장으로 결제하는 옵션을 선택할 수 있습니다. 고액의 송장 결제에는 신용 검사가 필요할 수 있습니다. 신용 검사가 필요한 경우 구독을 구매할 때 알림을 받습니다. 연락에 동의한 경우 신용 승인 신청에 대한 자세한 정보가 포함된 전자 메일을 받습니다. 신용 검사는 보통 영업일 기준 2일 이내에 완료됩니다.
+[송장에 결제](view-your-bill-or-invoice.md) 지침을 확인하세요. 아래 드롭다운을 사용하여 해당 국가 또는 지역에 대한 결제 지침을 찾을 수도 있습니다. 지불 금액이 확실하지 않은 경우 온라인으로 청구서 및 청구 내역을  결제 페이지의 청구서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">탭에서 확인할 &</a> 있습니다.
 
 > [!NOTE]
-> 브라질에 거주하는 고객은 Boleto Bancario를 사용하여 구독 요금을 지불할 수 있습니다. 이 옵션을 선택한 경우 결제용 청구서가 주문일로부터 10일(영업일) 이내에 구독 구매 시 제공된 전자 메일로 전송됩니다. 기한은 주문일로부터 30일 후입니다. 전자 메일로 Boleto를 받을 수 없는 경우 스팸 폴더를 확인하거나 지원 서비스에 문의하세요. <br><br>원하는 경우 계정 간에 온라인 이체로 지불할 수 있습니다. 에이전시와 계좌 번호는 송장 맨 아래에 있습니다. 이체 식별 필드에 송장 번호를 입력해야 합니다.
-
-구독을 송장으로 결제하는 경우 청구서를 확인할 수 있다는 내용의 전자 메일을 받습니다. 이 전자 메일은 청구서 사본을 포함하지 않습니다. 그러나 [전자 메일로 청구서 사본 받기](#receive-a-copy-of-your-billing-statement-in-email) 선택할 수도 있습니다. 청구서에는 결제 옵션에 대한 세부 정보가 포함됩니다. 구독을 구매할 때 PO(구매 주문) 번호를 입력한 경우 해당 번호가 청구서에 표시됩니다. 청구서를 확인하는 방법에 대한 자세한 내용은 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)를 참조하세요.
-
-> [!NOTE]
-> 기본적으로 조직의 청구 알림은 Microsoft 전자 메일 주소와 조직 내 모든 전역 및 청구 관리자의 대체 전자 메일 주소로 전송 됩니다. 대체 전자 메일 주소를 변경하려면 [대금 청구 주소 변경](change-your-billing-addresses.md)을 참조하세요.
-
-### <a name="can-i-pay-my-bill-online"></a>온라인으로 요금을 지불할 수 있나요?
-
-죄송합니다. 구독을 송장으로 결제하도록 설정한 경우 온라인으로 직접 결제할 수 없습니다. 그러나 [결제 방법을 신용 카드 또는 은행 계좌로 변경](change-payment-method.md)할 수 있으며 각 서비스 기간이 경과한 후에 지불 총액이 카드 또는 계좌로 자동으로 청구됩니다. Azure 구독의 경우 [Azure 구독 결제에 사용하는 신용 카드를 변경하는 방법](https://go.microsoft.com/fwlink/p/?LinkId=718057)을 참조하세요.
-
-> [!NOTE]
-> 자동 신용 카드 결제로 전환할 경우 먼저 모든 미지불 잔액을 완납해야 합니다. 청구서에서 결제 옵션 및 지침을 확인하세요. 자세한 내용은 [청구서 또는 송장 이해](understand-your-invoice2.md)를 참조 하세요.
-
-### <a name="where-do-i-send-my-check-or-eft-payment"></a>수표 또는 EFT 결제를 어디로 보내야 하나요?
-
-> [!NOTE]
-> 수표 결제는 일부 국가에서만 사용할 수 있습니다. 귀하의 국가에 대한 아래의 지불 지침을 따르거나 [송장을 확인](understand-your-invoice2.md)하세요.
-
-지불할 금액이 확실하지 않은 경우 [요금 및 청구 기록을 온라인으로 확인](view-your-bill-or-invoice.md)할 수 있습니다. Azure 구독의 경우 [Azure 청구 송장과 일일 사용 데이터를 다운로드하는 방법](https://go.microsoft.com/fwlink/p/?LinkId=718058)을 참조하세요.
+> 수표 결제는 일부 국가에서만 사용할 수 있습니다.
 
  **아래 드롭다운 메뉴에서 “청구지” 국가 또는 지역을 선택합니다.**
 
@@ -274,44 +246,20 @@ ms.locfileid: "48638438"
 > - [잠비아](../pay/zambia.md)
 > - [짐바브웨](../pay/zimbabwe.md)
 
-## <a name="receive-a-copy-of-your-billing-statement-in-email"></a>전자 메일로 청구서 사본 받기
+## <a name="can-i-pay-my-invoice-online"></a>온라인으로 송장을 결제할 수 있나요?
 
-청구서 사본을 전자 메일 첨부 파일로 받도록 선택할 수 있습니다. 이 경우 다음 사항에 유의하세요.
+온라인으로 송장을 결제할 수 없습니다. 수표 또는 EFT를 통해 결제를 송금해야 합니다.
 
-- 전자 메일은 알림 수신자로 나열된 모든 사용자의 기본 및 대체 전자 메일 주소로 전송됩니다.
+## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>현재 결제 방법에서 송장 결제로 변경할 수 있나요?
 
-- 청구서가 준비되었음을 알리고 관리 센터에 로그온하는 지침이 포함된 전자 메일과 청구서가 첨부 파일로 포함된 두 번째 전자 메일 등 두 개의 별도 전자 메일을 받게 됩니다.
+구독 비용이 특정 금액보다 많은 경우 송장 결제로만 변경할 수 있습니다. 송장으로 결제하려면 먼저 신용 카드 또는 직불 카드 또는 은행 계좌에 미지불 잔액을 지불해야 합니다. 결제 방법을 변경하는 방법에 대한 자세한 내용은 단일 구독의 결제 방법 [변경을 참조하세요.](manage-payment-methods.md#change-a-payment-method-for-a-single-subscription)
 
-### <a name="to-receive-your-billing-statement-in-email"></a>전자 메일로 청구서를 받으려면
+## <a name="can-i-change-from-paying-by-invoice-to-using-a-different-payment-method"></a>송장 결제에서 다른 결제 방법으로 변경할 수 있나요?
 
-::: moniker range="o365-worldwide"
-
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">대금 청구 알림</a> 페이지로 이동합니다.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">대금 청구 알림</a> 페이지로 이동합니다.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">대금 청구 알림</a> 페이지로 이동합니다.
-
-::: moniker-end
-
-2. **청구서를 전자 메일 첨부 파일로 받으시겠습니까?** 아래의 토글을 **설정**으로 전환합니다.
-
-    언제든지 토글을 **해제**로 전환하여 청구서 전자 메일 수신을 중지할 수 있습니다.
-
-## <a name="need-to-switch-payment-methods"></a>결제 방법을 전환해야 하는 경우
-
-구독을 조정하여 송장 결제 자격을 상실할 만큼 결제 금액이 낮아진 경우와 같이 처음에 송장, 신용 카드 또는 은행 계좌를 선택한 이유가 변경된 경우에는 결제 방법을 변경할 수 있습니다. 자세한 내용은 [결제 방법 변경](change-payment-method.md)을 참조하세요.
+송장 결제에서 다른 결제 방법으로 결제로 자동 변경할 수 없습니다. 대신 신용 카드 [](../try-or-buy-microsoft-365.md#buy-a-different-subscription) 또는 직불 카드 또는 은행 계좌로 결제된 다른 구독을 구입하고 [모든](../subscriptions/move-users-different-subscription.md)사용자를 새 구독으로 이동한 다음 이전 구독을 [취소해야 합니다.](../subscriptions/cancel-your-subscription.md)
 
 ## <a name="related-articles"></a>관련 문서
 
-[결제 방법 관리](manage-payment-methods.md)
-
-[청구서 또는 송장 이해하기](understand-your-invoice2.md)
+[결제 방법](manage-payment-methods.md) 관리(문서)\
+[청구서 또는 송장](view-your-bill-or-invoice.md) 보기(문서)\
+[청구서 또는 송장](understand-your-invoice2.md) 이해(문서)

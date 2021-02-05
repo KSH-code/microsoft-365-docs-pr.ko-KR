@@ -26,25 +26,25 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: DNS 호스트에 DNS 레코드를 추가하여 Microsoft 365 관리 센터의 Microsoft 365에 도메인을 추가합니다. 설치 마법사가 프로세스를 안내합니다.
-ms.openlocfilehash: 3e7463bd4cf6b7836a9770421e0b8ce597524a67
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 5a3c86fb2b2f93e9da844c15a55555c5d0d7b5c1
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658054"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114264"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Microsoft 365에 도메인 추가
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
 
 ::: moniker-end
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](domains-faq.yml)** 하세요. 
   
- *도메인을 추가, 수정 또는  제거하려면  비즈니스 또는 엔터프라이즈 계획의 전역 관리자 [되어야 합니다.](https://products.office.com/business/office) 이러한 변경 내용은 전체 테넌트,   사용자 지정된 관리자 또는 일반 사용자에게 영향을 미치며 이러한 변경을 할 수 없습니다.*  
+ *도메인을 추가, 수정 또는  제거하려면  비즈니스 또는 엔터프라이즈 계획의 전역 관리자 [되어야 합니다.](https://products.office.com/business/office) 이러한 변경 내용은 전체 테넌트,   사용자 지정된 관리자 또는 일반 사용자에게 영향을 미치며 이러한 변경은 할 수 없습니다.*  
 
  다음 단계에 따라 도메인을 추가, 설정 또는 계속합니다. 
 
@@ -124,7 +124,7 @@ ms.locfileid: "49658054"
 
 [도메인 연결](https://www.domainconnect.org/) 사용 등록 기관을 사용하면 몇 분 정도 걸리는 3단계 프로세스에서 도메인을 Microsoft 365에 추가할 수 있습니다. 
   
-마법사에서 도메인을 소유하고 있는 것을 확인한 다음 도메인의 레코드를 자동으로 설정하게 되며, 전자 메일이 Microsoft 365 및 Teams와 같은 기타 Microsoft 365 서비스로 전송되어 도메인과 함께 작업합니다.
+마법사에서 도메인을 소유하고 있는 것을 확인한 다음 도메인의 레코드를 자동으로 설정하게 되며, 전자 메일이 Microsoft 365 및 Teams와 같은 기타 Microsoft 365 서비스로 전송되면 도메인과 함께 작업합니다.
   
 > [!NOTE]
 > 설정 마법사를 시작하기 전에 브라우저의 팝업 차단 기능을 해제하세요.

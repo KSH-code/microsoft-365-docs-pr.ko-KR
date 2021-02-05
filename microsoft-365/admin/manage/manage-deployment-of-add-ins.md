@@ -22,19 +22,19 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용하여 조직의 사용자 및 그룹에 추가 기능을 배포하는 방법을 설명합니다.
-ms.openlocfilehash: ef7237f20780cb67bc84561ad8617dd8da6f8b82
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 5d17242d98f0e58ec4bfbcfd5b7014e6a6e0a6c5
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926357"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114504"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 배포
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
 
 ::: moniker-end
 
@@ -63,7 +63,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
 
 시작하기 전에 추가 기능의 중앙 집중식 배포가 조직에 [적합한지 확인을 참조합니다.](centralized-deployment-of-add-ins.md)
   
-1. 관리 센터에서 설정 추가  \> **기능 페이지로** 이동합니다. 추가 기능 페이지가  없는 경우 설정 통합  앱 추가 \>  \> **기능 페이지로** 이동합니다.
+1. 관리 센터에서 설정 추가  \> **기능 페이지로** 이동합니다. 추가 기능 페이지가  없는 경우 설정 통합  앱 추가 기능 페이지로 \>  \>  이동합니다.
     
 2. 페이지 **맨 위에 있는** 추가 기능 배포를 선택하고 다음을 **선택합니다.**
  
@@ -82,7 +82,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
 5. 다음 페이지에서 **모든** 사용자, 특정 **사용자/그룹을** 선택하거나 추가 기능을 배포할 사용자를 지정합니다.  검색 상자를 사용하여 특정 사용자 또는 그룹을 찾을 수 있습니다. <br/>
 
     > [!NOTE] 
-    > 추가 기능에 적용되는 다른 상태는 추가 기능 [상태(추가 기능)를 참조합니다.](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center.md)
+    > 추가 기능에 적용되는 다른 상태는 추가 기능 상태 [를 참조합니다.](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center.md)
   
 6. 배포를 **선택합니다.**
   
@@ -95,7 +95,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
 
     조직의 다른 구성원에게 추가 기능을 배포한 경우 지침에 따라 추가 기능 배포를 발표합니다. <br/>
   
-    배포된 추가 기능을 사용할 수 있도록 사용자 및 그룹에 알리는 것이 좋습니다. 추가 기능을 사용하는 경우와 사용 방법을 설명하는 전자 메일을 보내는 것이 고려됩니다. 추가 기능 관련 문제가 있는 경우 사용자에게 도움이 될 수 있는 도움말 콘텐츠 또는 FAQ를 포함하거나 연결합니다.
+    배포된 추가 기능을 사용할 수 있도록 사용자 및 그룹에 알리는 것이 좋습니다. 추가 기능을 사용하는 경우와 사용 방법을 설명하는 전자 메일을 보낼 수 있습니다. 추가 기능 관련 문제가 있는 경우 사용자에게 도움이 될 수 있는 도움말 콘텐츠 또는 FAQ를 포함하거나 연결합니다.
   
 ### <a name="considerations-when-assigning-an-add-in-to-users-and-groups"></a>사용자 및 그룹에 추가 기능을 할당할 때 고려 사항
 

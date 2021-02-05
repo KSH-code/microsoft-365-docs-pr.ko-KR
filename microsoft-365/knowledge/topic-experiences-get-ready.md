@@ -1,37 +1,32 @@
 ---
-title: 항목 환경 준비(미리 보기)
-description: 주제 환경(미리 보기)을 사용하여 사용자에게 가능한 한 많은 콘텐츠를 제공할 수 있도록 환경을 준비합니다.
+title: Microsoft Viva 항목을 위한 환경 준비
+description: Microsoft Viva 항목을 사용하여 사용자에게 가능한 한 많은 콘텐츠를 제공할 수 있도록 환경을 준비하세요.
 ms.author: samanro
 author: samanro
 manager: pamgreen
-ms.date: 7/20/2020
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ROBOTS: NOINDEX
-ms.openlocfilehash: 19112b222be328eb75b7eea807bea94e524fd56d
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 5a13af3e78848471b436d44ab051eca945176c74
+ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683471"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107699"
 ---
-# <a name="get-your-environment-ready-for-topic-experiences-preview"></a>항목 환경 준비(미리 보기)
+# <a name="get-your-environment-ready-for-microsoft-viva-topics"></a>Microsoft Viva 항목을 위한 환경 준비
 
-> [!Note]
-> 이 문서의 내용은 Project Cortex Private Preview용입니다. [Project Cortex](https://aka.ms/projectcortex)에 대해 자세히 알아보세요.
+Viva 항목을 최대한 많이 사용하려는 경우 사용자에게 다양한 주제 집합을 사용할 수 있도록 항목 검색에 가능한 한 많은 콘텐츠를 포함해야 합니다. 그러나 항목 검색에 어떤 콘텐츠를 사용해야 하나요? 제어를 유지하면서 인덱싱되는 콘텐츠를 최대화하는 방법 범위에 콘텐츠가 수록 인공 지능이 검색할 수 있는 인사이트가 더 낫습니다. 이 문서에서는 적절한 콘텐츠를 포함하며 사용자에게 좋은 환경을 만들기 위한 올바른 사용자 및 리소스가 있도록 하는 계획을 세우는 단계를 단계에 대해 단계에 대해 단계에 대해 진행합니다.
 
-주제 환경을 최대한 많이 사용하려는 경우 사용자에게 다양한 주제 집합을 사용할 수 있도록 항목 검색에 가능한 한 많은 콘텐츠를 포함해야 합니다. 그러나 항목 검색에 어떤 콘텐츠를 사용해야 하나요? 제어를 유지하면서 인덱싱되는 콘텐츠를 최대화하는 방법 콘텐츠가 범위에 수록 인공 지능이 생성할 수 있는 인사이트가 더 낫습니다. 이 문서에서는 적절한 콘텐츠를 포함하며 사용자에게 좋은 환경을 만들기 위한 올바른 사용자 및 리소스가 있도록 하는 계획을 세우는 단계를 단계에 대해 단계에 대해 단계에 대해 진행합니다.
-
-항목 환경(미리 보기)을 계획하려면 다음을 해야 합니다.
+Viva 항목을 계획하려면 다음을 해야 합니다.
 
 ![지식 관리로의 온보드를 위한 단계 마이그레이션, 연결, 현대화, 보안 및 식별](../media/knowledge-management/km-adoption-onboarding-checklist.png)
 
 1. [SharePoint로 콘텐츠 마이그레이션](#1-migrate-content-to-microsoft-365)
-    - 항목 마이너스에는 SharePoint 사이트의 콘텐츠만 포함됩니다.
+    - 항목 인덱싱에는 SharePoint 사이트의 콘텐츠만 포함됩니다.
       - 가능한 경우 중요한 콘텐츠를 외부 원본에서 SharePoint Online으로 마이그레이션합니다.
       - 부정 지식이 높은 콘텐츠 원본의 우선 순위를 지정합니다.
       - 사용자가 OneDrive에서 SharePoint 사이트로 콘텐츠를 이동하도록 권장하기 위해 지식 관리의 이점을 강조합니다.
@@ -51,10 +46,10 @@ ms.locfileid: "49683471"
       - 관리자가 검색을 사용하여 광범위하게 공유된 콘텐츠를 감사하게 합니다.
       - 콘텐츠 소유자가 중요하지 않은 콘텐츠를 공유하도록 장려하며 조직에 더 광범위한 혜택이 있을 수 있습니다.
     - 사용자 및 콘텐츠에 대한 Microsoft Graph 구성을 검토합니다.
-      - 항목 마이너링은 검색 또는 Delve의 콘텐츠를 제외한 구성을 존중합니다. 이러한 구성이 여전히 관련성이 있는지 검토합니다.
+      - 항목 인덱싱은 Search 또는 Delve의 콘텐츠를 제외한 구성을 존중합니다(예: NOINDEX). 이러한 구성이 여전히 관련성이 있는지 검토합니다.
 
 5. [지식 관리자 및 항목 식별](#5-identify-knowledge-managers-and-topics)
-    - 기존 세분화법을 사용하여 항목을 수동으로 만들 수 있습니다.
+    - 기존 세분화법을 사용하여 항목을 수동으로 만들거나 AI가 제안한 항목을 확인하는 데 도움이 됩니다.
     - 예상 주제 또는 시드 주제에 대한 주제 전문가(중소기업)를 식별합니다.
     - 파일럿 항목 마이너스에 사용할 수 있는 중요한 데이터의 큰 본문을 다루는 사이트를 식별합니다.
     - 지식 관리자와 실무 커뮤니티에 참여합니다.
@@ -79,11 +74,11 @@ ms.locfileid: "49683471"
 일부 콘텐츠를 마이그레이션할 수 없는 경우 Microsoft Graph에 연결합니다.
 
 - Graph 콘텐츠 [커넥터를 구현하는 것이 고려됩니다.](https://docs.microsoft.com/microsoftsearch/connectors-overview) 커넥터를 사용하여 외부 콘텐츠를 Microsoft Graph로 인덱싱할 수 있습니다. 그러면 사용자가 Microsoft Search를 통해 검색할 수 있습니다.
-- 향후 개발을 통해 외부 데이터를 주제 환경으로 가져올 수 있습니다.
+- 향후 개발을 통해 외부 데이터를 Viva 항목으로 가져올 수 있습니다.
 
 ## <a name="3-modernize-sharepoint-pages"></a>3. SharePoint 페이지 현대화
 
-항목 카드 및 강조는 최신 페이지에만 표시될 수 있기 때문에 클래식에서 최신 항목 환경으로 항목 경험에 포함하려는 페이지를 업데이트합니다. 클래식 [SharePoint 사이트 최신화 참조.](https://docs.microsoft.com/sharepoint/dev/transform/modernize-classic-sites) [SharePoint 최신화](https://docs.microsoft.com/sharepoint/dev/transform/modernize-scanner) 스캐너를 사용하여 클래식 사이트를 최신화할 수 있도록 준비할 수 있습니다.
+항목 카드와 강조는 최신 페이지에만 표시될 수 있기 때문에 Viva 항목에 포함할 페이지를 클래식에서 최신 페이지로 업데이트합니다. 클래식 [SharePoint 사이트 최신화 참조.](https://docs.microsoft.com/sharepoint/dev/transform/modernize-classic-sites) [SharePoint 최신화](https://docs.microsoft.com/sharepoint/dev/transform/modernize-scanner) 스캐너를 사용하여 클래식 사이트를 최신화할 수 있도록 준비할 수 있습니다.
 
 클래식 사이트가 많은 경우 최신으로 변환할 수 있는 프로필 페이지의 우선 순위를 지정합니다.
 
@@ -120,7 +115,7 @@ ms.locfileid: "49683471"
 
 항목 관리에는 두 가지 새로운 AAD(Azure Active Directory) 역할인 지식 관리자 및 지식 관리자를 비롯한 세 가지 주요 역할이 포함됩니다.
 
-- KA(기술 관리자)는 일반적으로 IT의 기술 역할입니다. 이 역할을 사용하면 M365 관리 센터에서 항목 환경을 설정하고 항목 검색 및 표시 여부의 구성을 허용합니다.
+- KA(기술 관리자)는 일반적으로 IT의 기술 역할입니다. 이 역할을 사용하면 M365 관리 센터에서 Viva 항목을 설정하고 항목 검색 및 표시 여부의 구성을 허용합니다.
 - KM(기술 관리자)는 항목 자체와 함께 작동하며 품질과 완성성을 감독합니다.
 - TC(항목 참가자)는 AAD 역할을 기반으로 하는 것이 아니라 관리 센터의 사용 권한을 기반으로 합니다. 주제 전문가는 주제에 대한 콘텐츠를 큐레트하고 리소스 및 사용자 추가를 할 수 있습니다.
 
@@ -130,14 +125,14 @@ ms.locfileid: "49683471"
 |:-------|:-------|:-------|:-------|
 | AAD 역할 | AAD 역할 | SME |
 | 관리 센터에 액세스할 수 있습니다. | 관리 센터에 액세스할 수 있습니다. | 관리 센터에 액세스할 수 없음 |
-| 항목 환경 설정 | 항목 관리 및 품질 소유 | 전문 지식에 따라 항목에 기여합니다. |
+| Viva 항목 설정 | 항목 관리 및 품질 소유 | 전문 지식에 따라 항목에 기여합니다. |
 | 보안 및 규정 준수 표준이 적용되도록 보장하고 라이선스 계약을 이해합니다.| 항목 만들기, 편집, 삭제 및 거부와 같은 항목 관리 작업을 수행합니다. 주제 참가자의 작업을 지원할 수 있습니다. | 해당 항목에 고정된 사용자 및 리소스를 포함하여 항목 페이지의 정보 및 콘텐츠를 큐트합니다. |
 
 강조 및 카드는 작업 컨텍스트에서 사용자에게 표시됩니다(예: SharePoint에서 최신 페이지를 탐색하는 경우). 항목에 대한 최종 사용자 환경을 제어합니다.
 
 - 항목을 볼 수 있는 사람 항목 표시 여부는 Microsoft 365 관리 센터에서 구성됩니다. 항목을 볼 수 있도록 허용할 그룹을 선택하십시오.
   - 조직의 모든 사용자 "모든 사용자"는 게스트를 포함하지 않습니다. 이는 디렉터리의 모든 내부 사용자입니다.
-  - 선택한 사용자 또는 보안 그룹만(이 옵션은 여전히 항목 환경을 롤아웃하는 동안 좋은 옵션으로, 일부 사용자로 테스트할 수 있습니다). 게스트가 주제를 보게 하려는 경우 "선택한 사람 또는 보안 그룹" 옵션을 사용하여 라이선스를 부여해야 합니다.
+  - 선택한 사용자 또는 보안 그룹만(Viva 항목을 계속 롤아웃하는 동안 이 옵션을 사용하면 일부 사용자로 테스트할 수 있습니다). 게스트가 주제를 보게 하려는 경우 "선택한 사람 또는 보안 그룹" 옵션을 사용하여 라이선스를 부여해야 합니다.
   - 해당 사용자 없음.
 
     모든 사용자, 게스트 사용자라도 항목 환경을 보기 위해 라이선스를 적용해야 합니다. 또한 사용 권한은 항상 볼 수 있는 것을 제어합니다.
