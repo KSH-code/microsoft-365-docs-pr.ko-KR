@@ -18,19 +18,18 @@ ms.collection:
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
-- okr_smb
 - AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - BEA160
 description: Microsoft 365 Business Basic 구독을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: b40b6a633c9c6c25daa4607c9e05178a1f418c51
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: 43ae19b24058429c9276bd44dd4c3960c792ca0d
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350218"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126188"
 ---
 # <a name="set-up-microsoft-365-business-basic"></a>Microsoft 365 Business Basic 설정
 
@@ -64,7 +63,7 @@ Microsoft 365 Business Basic을 구입하면 사용자가 소유하고 있는 �
 
 ::: moniker-end 
 
-2. **설정으로 이동**을 선택해 마법사를 시작합니다.
+2. **설정으로 이동** 을 선택해 마법사를 시작합니다.
     
 3. **도메인 추가** 단계에서 사용할 도메인 이름(예: contoso.com)을 입력합니다.
 
@@ -99,7 +98,7 @@ Microsoft 365 Business Basic을 구입하면 사용자가 소유하고 있는 �
   
 1. 설정 마법사는 일반적으로 사용자의 등록 기관을 감지하여 등록 기관 웹 사이트에서 NS 레코드를 업데이트하기 위한 단계별 지침의 링크를 제공합니다. 링크를 제공받지 못한 경우에는 [도메인 등록 기관에서 이름 서버를 변경하여 Office 365 설정](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar)을 합니다. 
 
-    - 기존 웹 사이트와 같은 기존 DNS 레코드를 사용하지만 DNS 호스트를 [도메인 연결](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)에서 사용할 수 있는 경우 **레코드 추가**를 선택 합니다. **온라인 서비스 선택** 페이지에서 모든 기본값을 적용하고 **다음**을 선택한 후 DNS 호스트의 페이지에서 **승인**을 선택합니다.
+    - 기존 웹 사이트와 같은 기존 DNS 레코드를 사용하지만 DNS 호스트를 [도메인 연결](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)에서 사용할 수 있는 경우 **레코드 추가** 를 선택 합니다. **온라인 서비스 선택** 페이지에서 모든 기본값을 적용하고 **다음** 을 선택한 후 DNS 호스트의 페이지에서 **승인** 을 선택합니다.
     - 도메인 연결 사용이 설정되지 않은 다른 DNS 호스트에서 기존 DNS 레코드를 사용하는 경우 기존 서비스를 계속 연결할 수 있도록 DNS 레코드를 관리하는 것이 좋습니다. 자세한 내용은 [도메인 기본 사항](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics)을 참조하세요.
 
 2. 마법사의 단계를 따르면 전자 메일 및 기타 서비스가 설정됩니다.

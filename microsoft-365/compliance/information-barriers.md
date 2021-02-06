@@ -16,12 +16,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 003347d46bed2529831a92681e73630d58a1f653
-ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
+ms.openlocfilehash: 1ef09fbf7a517950ae182472e4b4d5ef896d65e5
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071273"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126545"
 ---
 # <a name="learn-about-information-barriers-in-microsoft-365"></a>Microsoft 365의 정보 장벽에 대해 자세히 알아보기
 
@@ -47,7 +47,7 @@ Microsoft Teams, SharePoint Online 및 비즈니스용 OneDrive는 정보 장벽
 - [OneDrive의 정보 장벽](/onedrive/information-barriers)
 
 > [!IMPORTANT]
-> 현재 정보 장벽은 전자 메일 통신에 적용되지 않습니다. 또한 정보 장벽은 규정 준수 [경계와 독립적입니다.](set-up-compliance-boundaries.md)<p> 정보 장벽 정책을 정의하고 적용하기 전에 조직에 [Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) 주소부 정책이 적용되지 않는지 확인해야 합니다. (정보 장벽은 주소부 정책을 기반으로 합니다.)
+> 현재 정보 장벽은 전자 메일 통신에 적용되지 않습니다. 또한 정보 장벽은 규정 준수 [경계와 독립적입니다.](set-up-compliance-boundaries.md)<p> 정보 장벽 정책을 정의하고 적용하기 전에 조직에 [Exchange](/exchange/address-books/address-book-policies/address-book-policies) 주소부 정책이 적용되지 않는지 확인해야 합니다. (정보 장벽은 주소부 정책을 기반으로 합니다.)
 
 ## <a name="what-happens-with-information-barriers"></a>정보 장벽으로 발생하는 일
 
@@ -88,7 +88,7 @@ SharePoint Online 및 OneDrive에서 정보 장벽 정책은 다음과 같은 �
 - Microsoft 365 규정 준수 E5/A5
 - Microsoft 365 내부자 위험 관리
 
-자세한 내용은 보안 및 규정 준수에 대한 [Microsoft 365 & 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)
+자세한 내용은 보안 및 규정 준수에 대한 [Microsoft 365 & 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)
 
 정보 장벽 정책을 정의하거나 [편집하려면](information-barriers-policies.md)다음 역할 중 하나를 할당해야 합니다.
 

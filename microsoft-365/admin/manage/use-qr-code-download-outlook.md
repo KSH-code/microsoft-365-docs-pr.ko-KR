@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: QR 코드를 사용하여 Outlook 모바일을 인증하고 다운로드하는 방법을 학습합니다.
-ms.openlocfilehash: 2d62a49b93fa7bd5f2d747525de7244e8014e6a7
-ms.sourcegitcommit: b8e9b2ecdc4927b67088c5fffb1585424c66fb10
+ms.openlocfilehash: b9e433e0c7d3f5f3466924b318e242e5ac29181c
+ms.sourcegitcommit: 719b89baca1bae14455acf2e517ec18fc473636c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50050781"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122375"
 ---
 # <a name="use-a-qr-code-to-sign-in-to-the-outlook-mobile-apps"></a>QR 코드를 사용하여 Outlook 모바일 앱에 로그인
 
@@ -42,7 +42,7 @@ Microsoft 365 관리자는 사용자가 사용자 이름과 암호를 입력하�
 2. PowerShell을 사용하여 사용자에게 Outlook 모바일 앱에 대해 알리는 알림을 사용하지 않도록 설정할 수 있습니다. 이렇게 하면 QR 코드 로그인 흐름이 표시되지 않습니다.
 
 ```powershell
-Set-Organization -MobileAppEducationEnabled <Boolean>
+Set-OrganizationConfig -MobileAppEducationEnabled <Boolean>
 ```
 
 관련 항목

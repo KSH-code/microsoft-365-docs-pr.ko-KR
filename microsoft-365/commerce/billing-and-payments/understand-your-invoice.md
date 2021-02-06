@@ -15,17 +15,16 @@ ms.collection:
 - commerce
 ms.custom:
 - AdminSurgePortfolio
-- okr_smb
 search.appverid:
 - MET150
 description: Microsoft 비즈니스 제품에 대한 청구서 또는 송장을 읽고 이해하는 방법에 대해 알아보세요.
 keywords: 청구 계정, 조직 정보, 송장
-ms.openlocfilehash: 79702c369a097dbcbc8fe2319cd04663f9fe0441
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 521ef49e7f2292f8ea09210fb0edcce0d56e1b76
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114780"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126576"
 ---
 # <a name="understand-your-bill-or-invoice"></a>청구서 또는 송장 이해하기
 

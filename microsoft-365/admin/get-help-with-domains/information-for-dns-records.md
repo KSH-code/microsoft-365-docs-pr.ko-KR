@@ -16,7 +16,6 @@ ms.collection:
 - Adm_O365_Setup
 ms.custom:
 - AdminSurgePortfolio
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -24,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 'Microsoft 365에 대한 DNS 레코드를 만드는 데 필요한 값/정보를 찾아보는 방법을 배워야 합니다. '
-ms.openlocfilehash: db9aff1fdcd9fa52c90cc96b1a32cd3908c30edb
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 45994139b11a2fd5a03b2e979dd6af334bc1f00b
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658510"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126374"
 ---
 # <a name="gather-the-information-you-need-to-create-dns-records"></a>DNS 레코드를 만드는 데 필요한 정보 수집
 

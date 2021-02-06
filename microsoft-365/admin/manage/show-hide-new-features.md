@@ -1,14 +1,31 @@
 ---
-제목: "새로운 기능에 나타나는 Office 기능 관리" f1.keywords:
-- NOCSH ms.author: danbrown author: DHB-MSFT manager: scotv audience: Admin ms.topic: article ms.service: o365-administration localization_priority: Normal ms.collection:
+title: 새로운 기능에 나타나는 Office 기능 관리
+f1.keywords:
+- NOCSH
+ms.author: danbrown
+author: DHB-MSFT
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC ms.custom: AdminSurgePortfolio search.appverid:
+- Adm_TOC
+ms.custom: AdminSurgePortfolio
+search.appverid:
 - BCS160
 - MET150
-- MOE150 설명: "사용자가 Microsoft 365 관리 센터의 "Office의 새로운 기능" 기능을 사용하여 Windows에서 Office 앱의 새로운 기능 > 도움말을 선택할 때 표시하거나 숨길 Office 기능을 결정하십시오."
+- MOE150
+description: 사용자가 Microsoft 365 관리 센터의 'Office의 새로운 기능' 기능을 사용하여 Windows에서 Office 앱의 새로운 기능 > 도움말을 선택할 때 표시하거나 숨길 Office 기능을 결정하세요.
+ms.openlocfilehash: d0b5bc3e643b306d9a38a707fed50ab546249c2b
+ms.sourcegitcommit: 719b89baca1bae14455acf2e517ec18fc473636c
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122351"
 ---
-
 # <a name="manage-which-office-features-appear-in-whats-new"></a>새로운 기능에 나타나는 Office 기능 관리
 
 중요한 Office 기능이 출시된 경우 Windows의 Office 앱에서 새로운 기능 도움말을 선택하면 해당 기능에 대한 메시지가  >   표시됩니다.
@@ -17,11 +34,11 @@ Microsoft 365 관리 센터의 **새로운 Office** 기능을 사용하여 사�
 
 > [!NOTE]
 > - 사용자로부터 기능 메시지를 숨기면 Office 앱의 기능이 비활성화되지는 않습니다.
-> - Office의 새로운 기능 기능을 사용하려면 전역 관리자 역할 또는 Office 앱 관리자 역할이 **할당되어야** 합니다.
+> - Office의 새로운 기능을 사용하려면 전역 관리자 역할 또는 Office 앱 관리자 역할이 **할당되어야** 합니다.
 
 ## <a name="show-or-hide-new-features"></a>새 기능 표시 또는 숨기기 
 
-1. Microsoft 365 관리 센터의 설정 아래에서 Org 설정을 **선택합니다.**
+1. Microsoft 365 관리 센터의 설정 아래에서 **Org 설정을 선택합니다.**
 2. On the **Services** tab, choose **What's new in Office.**
 3. 기능 이름을 클릭하면 다음 정보가 있는 플라이아웃 패널이 나타납니다.
      - 기능에 대한 간단한 설명입니다.
@@ -30,16 +47,16 @@ Microsoft 365 관리 센터의 **새로운 Office** 기능을 사용하여 사�
      - 이 기능을 채널에서 사용할 수 있는 첫 번째 버전(릴리스)입니다.
 4. Choose **Hide from users**. 또는 이전에 기능을 숨기면 **사용자에게 표시를 선택 합니다.**
 
-새로운 기능 페이지에 나타나는 **Office** 기능 관리에서 여러 기능을 선택한 다음 숨기기 또는 표시를 선택할 **수도** **있습니다.**
+새로운 기능 페이지에 나타나는 **Office** 기능 관리에서 여러 기능을 선택한 다음 숨기기 또는 **표시를** 선택할 수도 **있습니다.**
 
 > [!NOTE]
 > - 여러 Office 앱에서 기능을 사용할 수 있는 경우 기능을 **숨김으로** 설정하면 모든 Office 앱에서 기능 메시지가 숨겨집니다.
 > - 모든 기능 메시지는 기본적으로 사용자에게 표시됩니다. 이 상태는 모든 기능의 기본 상태로, 기능 메시지를 숨기거나 표시하기로 선택한 경우 상태만 변경됩니다.
-> - Microsoft 365 앱 관리 센터()에서 **Office의** 새로운 기능에 액세스할 수도 [https://config.office.com](https://config.office.com) 있습니다. 이 기능은 새로운 기능 관리 **사용자** 지정  >  **아래에 있습니다.**
+> - Microsoft 365 앱 관리 센터()에서 **Office의** 새로운 기능에 액세스할 수도 [https://config.office.com](https://config.office.com) 있습니다. The feature is found under **Customization**  >  **What's New Management.**
 
 ## <a name="list-of-features"></a>기능 목록
 
-새로운 기능 페이지에 나타나는 Office 기능 관리에 나타나는 기능을 **필터링할 수** 있습니다. 채널, 응용 프로그램 또는 상태 또는 이들의 조합을 통해 필터링할 수 있습니다.
+새 기능 페이지에 나타나는 Office 기능 관리에 나타나는 기능을 **필터링할 수** 있습니다. 채널, 응용 프로그램 또는 상태 또는 이들의 조합을 통해 필터링할 수 있습니다.
 
 다음 일정에 따라 페이지에 새 기능이 표시됩니다.
 

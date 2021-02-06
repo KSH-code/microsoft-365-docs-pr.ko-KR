@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 1093d664e58f77d94db9f6f922a1a5072f4d3982
-ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
+ms.openlocfilehash: 9f8424beb7e4a078d14bce755fc399ecd41764d9
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50094701"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126637"
 ---
 # <a name="insider-risk-management-policies"></a>내부자 위험 관리 정책
 
@@ -89,7 +89,7 @@ ms.locfileid: "50094701"
 
 대부분의 조직에서 사용자는 장치에 소프트웨어를 설치하거나 작업에 도움이 하도록 장치 설정을 수정할 수 있는 권한이 있습니다. 의도하지 않은 경우나 악의적인 의도로 사용자는 맬웨어를 설치하거나 장치 또는 네트워크 리소스의 정보를 보호하는 데 도움이 되는 중요한 보안 기능을 사용하지 않도록 설정할 수 있습니다. 이 정책 템플릿은 끝점용 Microsoft Defender의 보안 경고를 사용하여 이러한 활동의 점수를 매기기 시작하고 이 위험 영역에 대한 검색 및 경고를 집중적으로 검색합니다. 이 템플릿을 사용하여 사용자가 내부자 위험을 나타내는 보안 정책 위반 내역이 있을 수 있는 시나리오에서 보안 정책 위반에 대한 인사이트를 제공합니다.
 
-조직에서 끝점용 Microsoft Defender를 구성하고 Defender 보안 센터에서 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 사용하도록 설정하여 보안 위반 경고를 가져와야 합니다. 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 구성하는 자세한 내용은 끝점용 Defender의 고급 기능 [구성을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)
+조직에서 끝점용 Microsoft Defender를 구성하고 Defender 보안 센터에서 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 사용하도록 설정하여 보안 위반 경고를 가져와야 합니다. 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 구성하는 자세한 내용은 끝점용 Defender의 고급 기능 [구성을 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)
 
 ### <a name="security-policy-violations-by-departing-users-preview"></a>사용자를 떠날 경우 보안 정책 위반(미리 보기)
 
@@ -97,13 +97,13 @@ ms.locfileid: "50094701"
 
 이 템플릿을 사용하는 경우 조직의 사용자에 대한 해지 및 종료 날짜 정보를 주기적으로 가져오도록 Microsoft 365 HR 커넥터를 구성해야 합니다. 조직의 Microsoft 365 HR 커넥터를 구성하는 단계별 지침은 [HR](import-hr-data.md) 커넥터 문서와 함께 데이터 가져오기 문서를 참조하세요.
 
-조직에서 끝점용 Microsoft Defender를 구성하고 Defender 보안 센터에서 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 사용하도록 설정하여 보안 위반 경고를 가져와야 합니다. 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 구성하는 자세한 내용은 끝점용 Defender의 고급 기능 [구성을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)
+조직에 끝점용 Microsoft Defender를 구성하고 Defender 보안 센터에서 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 사용하도록 설정하여 보안 위반 경고를 가져와야 합니다. 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 구성하는 자세한 내용은 끝점용 Defender의 고급 기능 [구성을 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)
 
 ### <a name="security-policy-violations-by-priority-users-preview"></a>우선 순위 사용자에 대한 보안 정책 위반(미리 보기)
 
-조직의 사용자에 대한 보안 위반으로부터 보호하는 것은 사용자의 위치, 중요한 정보에 대한 액세스 수준 또는 위험 기록에 따라 다를 수 있습니다. 우선 순위에 따라 보안 위반이 조직의 중요한 영역에 큰 영향을 미칠 수 있기 때문에 이 정책 템플릿은 이러한 지표에 대한 점수 매기기를 시작하고 끝점 경고에 대해 Microsoft Defender를 사용하여 이러한 사용자에 대한 보안 관련 활동에 대한 인사이트를 제공합니다. 여기에는 맬웨어 또는 유해할 수 있는 기타 응용 프로그램을 설치하고 디바이스에서 보안 기능을 사용할 수 없습니다. 우선 순위 사용자는 내부자 위험 관리 설정 영역에 구성된 우선 순위 사용자 그룹에서 정의됩니다.
+조직의 사용자에 대한 보안 위반으로부터 보호하는 것은 사용자의 위치, 중요한 정보에 대한 액세스 수준 또는 위험 기록에 따라 다를 수 있습니다. 우선 순위에 따라 보안 위반이 조직의 중요한 영역에 큰 영향을 미칠 수 있기 때문에 이 정책 템플릿은 이러한 지표에 대한 점수 매기기를 시작하고 끝점 경고에 대해 Microsoft Defender를 사용하여 이러한 사용자에 대한 보안 관련 활동에 대한 인사이트를 제공합니다. 여기에는 맬웨어 또는 유해할 수 있는 기타 응용 프로그램을 설치하고 장치에서 보안 기능을 사용할 수 없습니다. 우선 순위 사용자는 내부자 위험 관리 설정 영역에 구성된 우선 순위 사용자 그룹에서 정의됩니다.
 
-조직에서 끝점용 Microsoft Defender를 구성하고 Defender 보안 센터에서 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 사용하도록 설정하여 보안 위반 경고를 가져와야 합니다. 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 구성하는 자세한 내용은 끝점용 Defender의 고급 기능 [구성을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center) 또한 내부자 위험 관리 설정 우선 순위 사용자 그룹에서 만든 우선 순위 사용자 그룹을 정책에  >    >   할당해야 합니다.
+조직에서 끝점용 Microsoft Defender를 구성하고 Defender 보안 센터에서 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 사용하도록 설정하여 보안 위반 경고를 가져와야 합니다. 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 구성하는 자세한 내용은 끝점용 Defender의 고급 기능 [구성을 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center) 또한 내부자 위험 관리 설정 우선 순위 사용자 그룹에서 만든 우선 순위 사용자 그룹을 정책에  >    >   할당해야 합니다.
 
 ### <a name="security-policy-violations-by-disgruntled-users-preview"></a>불만이 있는 사용자의 보안 정책 위반(미리 보기)
 
@@ -111,7 +111,7 @@ ms.locfileid: "50094701"
 
 이 템플릿을 사용하는 경우 조직의 사용자에 대한 성능 개선 알림, 성능 검토 상태 불량 또는 작업 수준 변경 정보를 주기적으로 가져오도록 Microsoft 365 HR 커넥터를 구성해야 합니다. 조직의 Microsoft 365 HR 커넥터를 구성하는 단계별 지침은 [HR](import-hr-data.md) 커넥터 문서와 함께 데이터 가져오기 문서를 참조하세요.
 
-또한 조직에 끝점용 Microsoft Defender를 구성하고 Defender 보안 센터에서 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 사용하도록 설정하여 보안 위반 경고를 가져와야 합니다. 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 구성하는 자세한 내용은 끝점용 Defender의 고급 기능 [구성을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)
+또한 조직에 끝점용 Microsoft Defender를 구성하고 Defender 보안 센터에서 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 사용하도록 설정하여 보안 위반 경고를 가져와야 합니다. 내부자 위험 관리 통합을 위해 Endpoint용 Defender를 구성하는 자세한 내용은 끝점용 Defender의 고급 기능 [구성을 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)
 
 ### <a name="policy-template-prerequisites-and-triggering-events"></a>정책 템플릿의 선행 구성 및 이벤트 트리거
 
@@ -128,7 +128,7 @@ ms.locfileid: "50094701"
 | 일반 보안 정책 위반 | 끝점용 Microsoft Defender에서 감지한 보안 제어 또는 원치 않는 소프트웨어의 방어적 사용 | Endpoint용 Active Microsoft Defender 구독 <br><br> Microsoft 365 규정 준수 센터와 끝점용 Microsoft Defender 통합 구성 |
 | 사용자를 떠날 경우 보안 정책 위반 | HR 커넥터의 사임 또는 종료 날짜 표시기 | 종료 및 사임 날짜 표시기를 사용하도록 구성된 Microsoft 365 HR 커넥터 <br><br> Endpoint용 Active Microsoft Defender 구독 <br><br> Microsoft 365 규정 준수 센터와 끝점용 Microsoft Defender 통합 구성 |
 | 우선 순위 사용자에 대한 보안 정책 위반 | 끝점용 Microsoft Defender에서 감지한 보안 제어 또는 원치 않는 소프트웨어의 방어적 사용 | Endpoint용 Active Microsoft Defender 구독 <br><br> Microsoft 365 규정 준수 센터와 끝점용 Microsoft Defender 통합 구성 <br><br> 내부자 위험 설정에 구성된 우선 순위 사용자 그룹 |
-| 불만이 있는 사용자의 보안 정책 위반 | 성능 향상, 성능 부실 또는 HR 커넥터의 작업 수준 변경 지표 | 불만 표시기를 사용하도록 구성된 Microsoft 365 HR 커넥터 <br><br> Endpoint용 Active Microsoft Defender 구독 <br><br> Microsoft 365 규정 준수 센터와 끝점용 Microsoft Defender 통합 구성 |
+| 불만이 있는 사용자의 보안 정책 위반 | 성능 향상, 성능 부실 또는 HR 커넥터의 작업 수준 변경 표시기 | 불만 표시기를 사용하도록 구성된 Microsoft 365 HR 커넥터 <br><br> Endpoint용 Active Microsoft Defender 구독 <br><br> Microsoft 365 규정 준수 센터와 끝점용 Microsoft Defender 통합 구성 |
 
 ## <a name="prioritize-content-in-policies"></a>정책의 콘텐츠 우선 순위 지정
 
@@ -165,7 +165,7 @@ ms.locfileid: "50094701"
     - **중요한 정보 유형:** 중요한 정보 유형 추가를 **선택하고** 우선 순위를 지정할 민감도 유형을 선택합니다. 예를 들면 *"미국* 은행 계좌 번호" 및 *"신용 카드 번호"입니다.*
     - **민감도 레이블:** 민감도 레이블 **추가를 선택하고** 우선 순위를 지정할 레이블을 선택합니다. 예를 들어 *"기밀"* 및 *"비밀"입니다.*
 7. 다음을 **선택하여** 계속합니다.
-8. 정책 **표시기** 선택 페이지에 내부자 위험 [](insider-risk-management-settings.md#indicators) 설정 표시기 페이지에서 사용할 수 있는 것으로 정의한 표시기가  >   표시됩니다. 마법사의 시작부분에서 데이터 누수 템플릿을 선택한 경우 DLP 정책 드롭다운 목록에서 **DLP** 정책을 선택하여 정책에 대한 트리거 표시기를 사용하도록 설정해야 합니다.  정책에 적용할 표시기를 선택합니다. 이러한 표시기에서 기본 정책 임계값 설정을 사용하지 않도록 설정하려면 **Microsoft에서** 권장하는 기본 임계값 사용을 사용하지 않도록 설정하고 선택한 각 지표의 임계값을 입력합니다. Office 또는 장치 표시기를  하나  이상 선택한 경우 위험 점수 **부스터를** 적절하게 선택합니다. 위험 점수 부스터는 선택한 지표에만 적용할 수 있습니다.
+8. 정책 **표시기** 선택 페이지에 내부자 위험 [](insider-risk-management-settings.md#indicators) 설정 표시기 페이지에서 사용할 수 있는 것으로 정의한  >  **표시기가** 표시됩니다. 마법사의 시작부분에서 데이터 누수 템플릿을 선택한 경우 DLP 정책 드롭다운 목록에서 **DLP** 정책을 선택하여 정책에 대한 트리거 표시기를 사용하도록 설정해야 합니다.  정책에 적용할 표시기를 선택합니다. 이러한 표시기에서 기본 정책 임계값 설정을 사용하지 않도록 설정하려면 **Microsoft에서** 권장하는 기본 임계값 사용을 사용하지 않도록 설정하고 선택한 각 지표의 임계값을 입력합니다. Office 또는 장치 표시기를  하나  이상 선택한 경우 위험 점수 **부스터를** 적절하게 선택합니다. 위험 점수 부스터는 선택한 지표에만 적용할 수 있습니다.
 
     >[!IMPORTANT]
     >이 페이지의 표시기를 선택할 수 없는 경우 내부자 위험 관리 설정 정책 표시기 페이지에서 모든 정책에 대해 사용하도록 설정할 표시기를  >    >  **선택해야** 합니다.
@@ -181,7 +181,7 @@ ms.locfileid: "50094701"
 
 다음 단계를 완료하여 기존 정책을 관리합니다.
 
-1. Microsoft [365 규정](https://compliance.microsoft.com)준수 센터에서 내부자 위험 관리로 **이동하여** 정책 **탭을** 선택합니다.
+1. Microsoft [365](https://compliance.microsoft.com)규정 준수 센터에서 내부자 위험 관리로 **이동하여** 정책 **탭을** 선택합니다.
 2. 정책 대시보드에서 관리할 정책을 선택합니다.
 3. 정책 세부 정보 페이지에서 정책 편집 **선택**
 4. 정책 마법사에서는 다음 필드를 편집할 수 없습니다.
@@ -192,7 +192,7 @@ ms.locfileid: "50094701"
 7. 사용자 **페이지에서** 사용자  또는 그룹 추가  또는 우선 순위 사용자 그룹 선택을 선택하여 선택한 정책 템플릿에 따라 정책에 포함되는 사용자 또는 우선 순위 사용자 그룹을 정의합니다. 해당하는 **경우** 모든 사용자 및 메일 사용 가능 그룹 확인란을 선택합니다(우선 순위 사용자 기반 서식 파일을 선택하지 않은 경우). 다음을 **선택하여** 계속합니다.
 8. 우선 **순위를 지정할** 콘텐츠 지정(선택 사항) 페이지에서 증가된 위험 점수에 대해 우선 순위를 지정할 원본을 할당할 수 있습니다. 그러나 관련 콘텐츠에 기본 제공 또는 사용자 지정 중요한 정보 유형이 포함되어거나 이 페이지의 우선 순위로 지정되지 않은 경우 일부 활동은 경고를 생성하지 않습니다.
     - **SharePoint 사이트:** **SharePoint 사이트 추가를 선택하고** 우선 순위를 지정할 SharePoint 조직을 선택합니다. 예를 들어 *"group1@contoso.sharepoint.com/sites/group1" 입니다.*
-    - **중요한 정보 유형:** 중요한 정보 유형 추가를 **선택하고** 우선 순위를 지정할 민감도 유형을 선택합니다. 예를 들면 *"미국* 은행 계좌 번호" 및 *"신용 카드 번호"입니다.*
+    - **중요한 정보 유형:** 중요한 정보 **유형 추가를 선택하고** 우선 순위를 지정할 민감도 유형을 선택합니다. 예를 들면 *"미국* 은행 계좌 번호" 및 *"신용 카드 번호"입니다.*
     - **민감도 레이블:** 민감도 레이블 **추가를 선택하고** 우선 순위를 지정할 레이블을 선택합니다. 예를 들어 *"기밀"* 및 *"비밀"입니다.*
 9. 다음을 **선택하여** 계속합니다.
 10. 정책 **표시기** 선택 페이지에 내부자 위험 [](insider-risk-management-settings.md#indicators) 설정 표시기 페이지에서 사용할 수 있는 것으로 정의한 표시기가  >   표시됩니다. 마법사의 시작부분에서 데이터 누수 템플릿을 선택한 경우 DLP 정책 드롭다운 목록에서 **DLP** 정책을 선택하여 정책에 대한 트리거 표시기를 사용하도록 설정해야 합니다.  정책에 적용할 표시기를 선택합니다. 이러한 표시기에서 기본 정책 임계값 설정을 사용하지 않도록 설정하려면 **Microsoft에서** 권장하는 기본 임계값 사용을 사용하지 않도록 설정하고 선택한 각 지표의 임계값을 입력합니다. Office 또는 장치 표시기를  하나  이상 선택한 경우 위험 점수 **부스터를** 적절하게 선택합니다. 위험 점수 부스터는 선택한 지표에만 적용할 수 있습니다.

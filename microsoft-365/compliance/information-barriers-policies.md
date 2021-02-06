@@ -15,12 +15,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 284036fecf53252bb29878482dbf6dec42eeeaeb
-ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
+ms.openlocfilehash: 09e680d2bcf8f1e0fd5237adbf640349741c26fd
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071263"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126587"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -59,20 +59,20 @@ ms.locfileid: "50071263"
 
 - 디렉터리 데이터 - 조직의 구조가 디렉터리 데이터에 반영해야 합니다. 이 작업을 수행하려면 그룹 구성원, 부서 이름 등의 사용자 계정 특성이 Azure Active Directory(또는 Exchange Online)에 올바르게 채워야 합니다. 자세한 내용은 다음 리소스를 참조하세요.
   - [정보 장벽 정책의 속성](information-barriers-attributes.md)
-  - [Azure Active Directory를 사용하여 사용자의 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
-  - [Office 365 PowerShell를 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
+  - [Azure Active Directory를 사용하여 사용자의 프로필 정보 추가 또는 업데이트](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+  - [Office 365 PowerShell를 사용 하 여 사용자 계정 속성 구성](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
 
-- 범위 디렉터리 검색 - 조직의 첫 번째 정보 장벽 정책을 정의하기 전에 [Microsoft Teams에서 범위가 지정한 디렉터리](https://docs.microsoft.com/MicrosoftTeams/teams-scoped-directory-search)검색을 사용하도록 설정해야 합니다. 정보 장벽 정책을 설정하거나 정의하기 전에 범위가 지정한 디렉터리 검색을 사용하도록 설정한 후 24시간 이상 기다릴 수 있습니다.
+- 범위 디렉터리 검색 - 조직의 첫 번째 정보 장벽 정책을 정의하기 전에 [Microsoft Teams에서 범위가 지정한 디렉터리](/MicrosoftTeams/teams-scoped-directory-search)검색을 사용하도록 설정해야 합니다. 정보 장벽 정책을 설정하거나 정의하기 전에 범위가 지정한 디렉터리 검색을 사용하도록 설정한 후 24시간 이상 기다릴 수 있습니다.
 
 - EXO 라이선스 - 대상 사용자에게 EXO 라이선스가 할당된 경우 IB 정책이 적용됩니다.
 
 - 감사 로깅 - 정책 응용 프로그램의 상태를 확인하려면 감사 로깅을 설정해야 합니다. 세그먼트 또는 정책을 정의하기 전에 감사를 사용하도록 설정하는 것이 좋습니다. 자세한 내용은 감사 로그 검색 설정 [또는 해제를 참조합니다.](turn-audit-log-search-on-or-off.md)
 
-- 주소부 정책 없음 - 정보 장벽 정책을 정의하고 적용하기 전에 Exchange 주소부 정책이 없는지 확인하십시오. 정보 장벽은 주소부 정책을 기반으로 하지만 두 가지 유형의 정책은 호환되지 않습니다. 이러한 정책이 있는 경우 먼저 주소부 정책을 [제거해야](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) 합니다. 정보 장벽 정책을 사용하도록 설정하고 계층적 주소 예약을 사용하도록 설정하면 *_정보_* 장벽 세그먼트에 포함되지 않은 [](https://docs.microsoft.com/exchange/address-books/hierarchical-address-books/hierarchical-address-books) 모든 사용자 *는 Exchange Online의 계층적 주소 책을 볼 수 있습니다.
+- 주소부 정책 없음 - 정보 장벽 정책을 정의하고 적용하기 전에 Exchange 주소부 정책이 없는지 확인하십시오. 정보 장벽은 주소부 정책을 기반으로 하지만 두 가지 유형의 정책은 호환되지 않습니다. 이러한 정책이 있는 경우 먼저 주소부 정책을 [제거해야](/exchange/address-books/address-book-policies/remove-an-address-book-policy) 합니다. 정보 장벽 정책을 사용하도록 설정하고 계층적 주소부를 사용하도록  설정하면 정보 장벽 세그먼트에 포함되지 [](/exchange/address-books/hierarchical-address-books/hierarchical-address-books) 않은 모든 사용자에게 Exchange Online의 계층적 주소 책이 표시됩니다.
 
 - PowerShell - 현재 정보 장벽 정책은 PowerShell cmdlet을 사용하여 Office 365 보안 & 준수 센터에서 정의되고 관리됩니다. 이 문서에는 몇 가지 예제가 제공된 것이지만 PowerShell cmdlet 및 매개 변수에 익숙해야 합니다. Azure PowerShell 모듈도 필요합니다.
-    - [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
-    - [Azure PowerShell 모듈 설치](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.3.2)
+    - [보안 및 준수 센터 PowerShell에 연결하기](/powershell/exchange/connect-to-scc-powershell)
+    - [Azure PowerShell 모듈 설치](/powershell/azure/install-az-ps?view=azps-2.3.2)
 
 - Microsoft Teams의 정보 장벽에 대한 관리자 동의 - 정책이 적용될 때 정보 장벽은 사용자가 아니어도 채팅 세션에서 제거될 수 있습니다. 이 구성은 조직이 정책 및 규정을 준수하는지 보장하는 데 도움이 됩니다. 다음 절차에 따라 Microsoft Teams에서 정보 장벽 정책이 예상대로 작동하도록 합니다.
 
@@ -88,7 +88,7 @@ ms.locfileid: "50071263"
 
    2. 메시지가 표시될 때 Office 365에 대한 직장 또는 학교 계정을 사용하여 로그인합니다.
 
-   3. _ *Permissions requested** 대화 상자에서 정보를 검토한 다음 수락을 **선택합니다.**
+   3. 요청한 **사용** 권한 대화 상자에서 정보를 검토한 다음 수락을 **선택합니다.**
 
 모든 선행 구성이 충족될 경우 다음 섹션으로 진행합니다.
 
@@ -118,7 +118,7 @@ ms.locfileid: "50071263"
 세그먼트를 정의하는 데 사용할 조직의 디렉터리 데이터의 특성을 확인합니다. Department,  *MemberOf* 또는 지원되는 특성을 사용할 수 있습니다. 사용자에 대해 선택한 특성의 값이 있는지 확인 [정보 장벽에 대해 지원되는 특성 목록을 참조하세요.](information-barriers-attributes.md)
 
 > [!IMPORTANT]
-> **다음 섹션을 진행하기** 전에 디렉터리 데이터에 세그먼트를 정의하는 데 사용할 수 있는 특성 값이 있는지 확인합니다. 디렉터리 데이터에 사용하려는 특성 값이 없는 경우 정보 장벽을 계속하기 전에 해당 정보를 포함하도록 사용자 계정을 업데이트해야 합니다. 이에 대한 도움이 필요한 경우 다음 리소스를 참조합니다.<br/>- [Office 365 PowerShell을 사용하여 사용자 계정 속성 구성](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>- [Azure Active Directory를 사용하여 사용자의 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+> **다음 섹션을 진행하기** 전에 디렉터리 데이터에 세그먼트를 정의하는 데 사용할 수 있는 특성 값이 있는지 확인합니다. 디렉터리 데이터에 사용하려는 특성 값이 없는 경우 정보 장벽을 계속하기 전에 해당 정보를 포함하도록 사용자 계정을 업데이트해야 합니다. 이에 대한 도움이 필요한 경우 다음 리소스를 참조합니다.<br/>- [Office 365 PowerShell을 사용하여 사용자 계정 속성 구성](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>- [Azure Active Directory를 사용하여 사용자의 프로필 정보 추가 또는 업데이트](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 ### <a name="define-segments-using-powershell"></a>PowerShell을 사용하여 세그먼트 정의
 
@@ -193,7 +193,7 @@ ms.locfileid: "50071263"
 
     |**예**|**참고**|
     |:----------|:-------|
-    |`New-InformationBarrierPolicy -Name "Research-Sales" -AssignedSegment "Research" -SegmentsBlocked "Sales" -State Inactive` | 이 예에서는 *Research-Sales가 Sales와* 통신하지 못하게 하는 *Research-Sales라는* 정책을 *정의했습니다.* |
+    |`New-InformationBarrierPolicy -Name "Research-Sales" -AssignedSegment "Research" -SegmentsBlocked "Sales" -State Inactive` | 이 예에서는 Research가 Sales와 통신하지  못하게 하는 *Research-Sales라는* 정책을 *정의했습니다.* |
 
 3. 다음 작업 중 하나를 진행합니다.
 
@@ -229,7 +229,7 @@ ms.locfileid: "50071263"
 
     구문: `Get-InformationBarrierPolicy`
 
-2. 정책을 활성 상태로 설정하기 위해 **Identity** 매개 변수와 함께 **Set-InformationBarrierPolicy** cmdlet을 사용하며 State 매개 변수를 **Active로** **설정하십시오.** 
+2. 정책을 활성 상태로 설정하기 위해 **Identity** 매개 변수와 **함께 Set-InformationBarrierPolicy** cmdlet을 사용하며 State 매개 변수를 **Active로** **설정하십시오.** 
 
     |**다중값 속성 구문 표에서 선택하는 구문은 cmdlet에 대한 매개 변수 값으로 지정됩니다. 예를 들어 다음 명령을 통해 다중값 속성에 여러 값을 추가할 수 있습니다.**|**예**|
     |:---------|:----------|

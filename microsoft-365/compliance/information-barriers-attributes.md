@@ -13,12 +13,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5e7815dbcfc6129685322a250351276476f8a9e3
-ms.sourcegitcommit: c10eb675da725830e9776d2a0566ba3622eb361c
+ms.openlocfilehash: c45a2733c1fa7cf6d05cff747a9cfcdba1b124cc
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49980052"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126165"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>정보 장벽 정책의 속성
 
@@ -38,9 +38,9 @@ Azure Active Directory의 특정 특성을 사용하여 사용자를 분할할 �
 
 2. 1단계에서 선택한 특성에 대해 사용자 계정에 값이 채워진지 확인 사용자 계정 세부 정보를 보고 필요한 경우 특성 값을 포함하도록 사용자 계정을 편집합니다. 
 
-    - 여러 계정을 편집하거나 PowerShell을 사용하여 단일 계정을 편집하려면 [Office 365 PowerShell을](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)사용하여 사용자 계정 속성 구성을 참조하세요.
+    - 여러 계정을 편집하거나 PowerShell을 사용하여 단일 계정을 편집하려면 [Office 365 PowerShell을](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)사용하여 사용자 계정 속성 구성을 참조하세요.
 
-    - 단일 계정을 편집하려면 Azure Active Directory를 사용하여 사용자의 프로필 정보 추가 또는 [업데이트를 참조하세요.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+    - 단일 계정을 편집하려면 Azure Active Directory를 사용하여 사용자의 프로필 정보 추가 또는 [업데이트를 참조하세요.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 3. [다음 예와 유사하게 PowerShell을](information-barriers-policies.md#define-segments-using-powershell)사용하여 세그먼트를 정의합니다.
 
@@ -51,7 +51,7 @@ Azure Active Directory의 특정 특성을 사용하여 사용자를 분할할 �
     | ExtensionAttribute1을 사용하여 DayTraders라는 세그먼트를 정의합니다(이 특성에 "DayTrader"와 같은 직위가 포함되어 있는 경우) | `New-OrganizationSegment -Name "DayTraders" -UserGroupFilter "ExtensionAttribute1 -eq 'DayTrader'"` |
 
     > [!TIP]
-    > 세그먼트를 정의할 때 모든 세그먼트에 대해 동일한 특성을 사용 합니다. 예를 들어 Department를 사용하여 일부 세그먼트를 정의하는 *경우 Department를* 사용하여 모든 세그먼트를 *정의합니다.* Department를 사용하여 일부 세그먼트를 정의하고 MemberOf를 사용하는 세그먼트는 *정의하지 않습니다.*  세그먼트가 겹치지 않는지 확인 각 사용자를 정확히 하나의 세그먼트에 할당해야 합니다.
+    > 세그먼트를 정의할 때 모든 세그먼트에 대해 동일한 특성을 사용 합니다. 예를 들어 Department를 사용하여 일부 세그먼트를 정의하는 *경우 Department를* 사용하여 모든 세그먼트를 *정의합니다.* Department를 사용하여 일부 세그먼트를 정의하고 *MemberOf를* 사용하는 세그먼트는 *정의하지 않습니다.* 세그먼트가 겹치지 않는지 확인 각 사용자를 정확히 하나의 세그먼트에 할당해야 합니다.
 
 ## <a name="reference"></a>참조
 

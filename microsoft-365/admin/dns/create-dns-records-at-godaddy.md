@@ -16,19 +16,18 @@ ms.collection:
 - Adm_O365_Setup
 ms.custom:
 - AdminSurgePortfolio
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: f40a9185-b6d5-4a80-bb31-aa3bb0cab48a
 description: Microsoft용 GoDaddy에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: fdd8688f848e676411e736a5be10a2d01dcce50b
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 2b53985dc17f3d124ec2b37dbf0047bce229385c
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658479"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126452"
 ---
 # <a name="create-dns-records-at-godaddy-for-microsoft"></a>GoDaddy에서 Microsoft용 DNS 레코드 만들기
 

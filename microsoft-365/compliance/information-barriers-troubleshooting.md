@@ -13,12 +13,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 39ac5c2f12b8947bce26d426cac83e57cd4c87ae
-ms.sourcegitcommit: c10eb675da725830e9776d2a0566ba3622eb361c
+ms.openlocfilehash: 3810dd977ef0d25642ba86a2b62a036c9a4ace06
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49980041"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126565"
 ---
 # <a name="troubleshooting-information-barriers"></a>정보 장벽 문제 해결
 
@@ -27,7 +27,7 @@ ms.locfileid: "49980041"
 정보 장벽이 발생하면 예기치 않은 문제가 발생할 경우 몇 가지 단계를 수행하여 이러한 문제를 해결할 수 있습니다. 이 문서를 가이드로 사용하세요.
 
 > [!IMPORTANT]
-> 이 문서에 설명된 작업을 수행하려면 다음 중 하나와 같은 적절한 역할을 할당해야 합니다.<br/>- Microsoft 365 Enterprise Global Administrator<br/>- 전역 관리자<br/>- 준수 관리자<br/>- IB 규정 준수 관리(새 역할입니다!)<p>정보 장벽의 선행 준비에 대한 자세한 내용은 사전 준비(정보 장벽 정책의 경우)를 [참조하세요.](information-barriers-policies.md#prerequisites)<p>Security & [준수 센터 PowerShell에 연결해야 합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+> 이 문서에 설명된 작업을 수행하려면 다음 중 하나와 같은 적절한 역할을 할당해야 합니다.<br/>- Microsoft 365 Enterprise Global Administrator<br/>- 전역 관리자<br/>- 준수 관리자<br/>- IB 규정 준수 관리(새 역할입니다!)<p>정보 장벽의 선행 준비에 대한 자세한 내용은 사전 준비(정보 장벽 정책의 경우)를 [참조하세요.](information-barriers-policies.md#prerequisites)<p>Security & [준수 센터 PowerShell에 연결해야 합니다.](/powershell/exchange/connect-to-scc-powershell)
 
 ## <a name="issue-users-are-unexpectedly-blocked-from-communicating-with-others-in-microsoft-teams"></a>문제: 사용자가 Microsoft Teams의 다른 사용자와 예기치 않게 통신하지 못하게 차단됩니다. 
 
@@ -49,13 +49,13 @@ ms.locfileid: "49980041"
 
     사용자가 정보 장벽 정책에 포함되지 않은 경우 **고객 지원에 문의하세요.** 그렇지 않은 경우 다음 단계로 진행합니다.
 
-2. 정보 장벽 정책에 포함되는 세그먼트를 찾아야 합니다. 이 작업을 위해 Identity 매개 변수와 `Get-InformationBarrierPolicy` 함께 cmdlet을 사용합니다. 
+2. 정보 장벽 정책에 포함되는 세그먼트를 찾아 하세요. 이 작업을 위해 Identity 매개 변수와 `Get-InformationBarrierPolicy` 함께 cmdlet을 사용합니다. 
 
     |**다중값 속성 구문 표에서 선택하는 구문은 cmdlet에 대한 매개 변수 값으로 지정됩니다. 예를 들어 다음 명령을 통해 다중값 속성에 여러 값을 추가할 수 있습니다.**|**예**|
     |:---------|:----------|
     | `Get-InformationBarrierPolicy` <p> 이전 단계에서 받은 정책 GUID(ExoPolicyId)와 같은 세부 정보를 ID 값으로 사용 합니다. | `Get-InformationBarrierPolicy -Identity b42c3d0f-49e9-4506-a0a5-bf2853b5df6f` <p> 이 예에서는 ExoPolicyId *b42c3d0f-49e9-4506-a0a5-bf2853b5df6f가* 있는 정보 장벽 정책에 대한 자세한 정보를 제공합니다. |
 
-    cmdlet을 실행한 후 결과에서 **AssignedSegment,** **SegmentsAllowed** 및 **SegmentsBlocked** 값을 검색합니다.
+    cmdlet을 실행한 후 결과에서 **AssignedSegment,** **SegmentsAllowed** 및 **SegmentsBlocked 값을 검색합니다.**
 
     예를 들어 cmdlet을 실행한 후 결과 목록에서 `Get-InformationBarrierPolicy` 다음을 보아야 합니다.
 
@@ -65,7 +65,7 @@ ms.locfileid: "49980041"
     SegmentsBlocked : {Research}
     ```
 
-    이 경우 정보 장벽 정책이 판매 및 리서치 부문에 있는 사용자에 영향을 줄 수 있습니다. 이 경우 Sales의 사용자가 리서치의 사용자와 통신할 수 없습니다.
+    이 경우 정보 장벽 정책이 판매 및 리서치 부문에 있는 사용자에 영향을 주는 것으로 볼 수 있습니다. 이 경우 Sales의 사용자가 리서치의 사용자와 통신할 수 없습니다.
 
     문제가 해결된 것 같은 경우 정보 장벽이 예상대로 작동하고 있습니다. 로그인하지 않은 경우에는 다음 단계를 진행합니다.
 
@@ -81,11 +81,11 @@ ms.locfileid: "49980041"
 
 ## <a name="issue-communications-are-allowed-between-users-who-should-be-blocked-in-microsoft-teams"></a>문제: Microsoft Teams에서 차단해야 하는 사용자 간에 통신이 허용됩니다.
 
-이 경우 정보 장벽이 정의, 활성 및 적용되어도 서로 통신하지 못하게 해야 하는 사람은 Microsoft Teams에서 채팅하고 서로 통화할 수 있습니다.
+이 경우 정보 장벽이 정의, 활성 및 적용되어도 서로 통신하지 못하게 해야 하는 사람은 Microsoft Teams에서 채팅하고 통화할 수 있습니다.
 
 ### <a name="what-to-do"></a>수행할 작업
 
-해당 사용자가 정보 장벽 정책에 포함되는지 확인 
+해당 사용자가 정보 장벽 정책에 포함되어 있는지 확인 
 
 1. Identity 매개 변수와 함께 **Get-InformationBarrierRecipientStatus** cmdlet을 사용합니다.
 
@@ -102,7 +102,7 @@ ms.locfileid: "49980041"
 
     |**결과**|**다음에 할 일**|
     |:----------|:------------------|
-    | 선택한 사용자에 대한 세그먼트가 나열되지 않습니다. | 다음 중 하나를 수행합니다.<br/>- Azure Active Directory에서 사용자 프로필을 편집하여 기존 세그먼트에 사용자를 할당합니다. (Office [365 PowerShell을](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)사용하여 사용자 계정 속성 구성을 참조하세요.)<br/>- 정보 장벽에 대해 지원되는 특성을 사용하여 [세그먼트를 정의합니다.](information-barriers-attributes.md) 그런 다음 새 정책을 [정의하거나](information-barriers-policies.md#part-2-define-information-barrier-policies) 해당 세그먼트를 포함하기 [위해](information-barriers-edit-segments-policies.md#edit-a-policy) 기존 정책을 편집합니다. |
+    | 선택한 사용자에 대한 세그먼트가 나열되지 않습니다. | 다음 중 하나를 수행합니다.<br/>- Azure Active Directory에서 사용자 프로필을 편집하여 기존 세그먼트에 사용자를 할당합니다. (Office [365 PowerShell을](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)사용하여 사용자 계정 속성 구성을 참조하세요.)<br/>- 정보 장벽에 대해 지원되는 특성을 [사용하여 세그먼트를 정의합니다.](information-barriers-attributes.md) 그런 다음 새 정책을 [정의하거나](information-barriers-policies.md#part-2-define-information-barrier-policies) 해당 세그먼트를 포함하기 [위해](information-barriers-edit-segments-policies.md#edit-a-policy) 기존 정책을 편집합니다. |
     | 세그먼트가 나열되지만 이러한 세그먼트에 정보 장벽 정책이 할당되지 않습니다. | 다음 중 하나를 수행합니다.<br/>- [해당 세그먼트마다](information-barriers-policies.md#part-2-define-information-barrier-policies) 새로운 정보 장벽 정책 정의 <br/>- [기존 정보 장벽](information-barriers-edit-segments-policies.md#edit-a-policy) 정책을 편집하여 올바른 세그먼트에 할당 |
     | 세그먼트가 나열되어 있으며 각 세그먼트는 정보 장벽 정책에 포함됩니다. | - `Get-InformationBarrierPolicy` cmdlet을 실행하여 정보 장벽 정책이 활성 상태인지 확인<br/>- `Get-InformationBarrierPoliciesApplicationStatus` cmdlet을 실행하여 정책이 적용되는지 확인<br/>- `Start-InformationBarrierPoliciesApplication` cmdlet을 실행하여 모든 활성 정보 장벽 정책 적용 |
 
@@ -123,7 +123,7 @@ ms.locfileid: "49980041"
 
 2. 결과를 검토하여 정보 장벽 정책이 할당되어 있으며 사용자가 속한 세그먼트를 검토합니다.
 
-3. 정보 장벽의 영향을 받는 세그먼트에서 사용자를 제거하려면 Azure Active Directory에서 사용자의 프로필 정보를 [업데이트합니다.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+3. 정보 장벽의 영향을 받는 세그먼트에서 사용자를 제거하려면 Azure Active Directory에서 사용자의 프로필 정보를 [업데이트합니다.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 4. FwdSync가 발생할 때까지 약 30분 정도 기다립니다. 또는 `Start-InformationBarrierPoliciesApplication` cmdlet을 실행하여 모든 활성 정보 장벽 정책을 적용합니다.
 
@@ -147,7 +147,7 @@ ms.locfileid: "49980041"
   
     |**상태**|**다음 단계**|
     |:---------|:------------|
-    | **시작되지 않습니다.** | **Start-InformationBarrierPoliciesApplication** cmdlet이 실행된 후 45분 이상이 지난 경우 감사 로그를 검토하여 정책 정의에 오류가 발생하거나 응용 프로그램이 시작되지 않은 다른 이유가 있습니다. |
+    | **시작되지 않습니다.** | **Start-InformationBarrierPoliciesApplication** cmdlet이 실행된 지 45분 이상이 지난 경우 감사 로그를 검토하여 정책 정의에 오류가 발생하거나 응용 프로그램이 시작되지 않은 다른 이유가 있습니다. |
     | **실패** | 응용 프로그램이 실패한 경우 감사 로그를 검토합니다. 또한 세그먼트 및 정책을 검토합니다. 두 개 이상의 세그먼트에 할당된 사용자가 있습니까? 세그먼트에 두 개 이상의 정치적이 할당되어 있나요? 필요한 경우 세그먼트를 [편집하고](information-barriers-edit-segments-policies.md#edit-a-segment) 정책을 편집한 다음 **Start-InformationBarrierPoliciesApplication** cmdlet을 다시 실행합니다. [](information-barriers-edit-segments-policies.md#edit-a-policy) |
     | **진행 중** | 응용 프로그램이 아직 진행 중이면 완료할 시간을 더 허용합니다. 며칠이 지난 경우 감사 로그를 수집한 다음 지원에 문의합니다. |
 
@@ -157,22 +157,22 @@ ms.locfileid: "49980041"
 
 ### <a name="what-to-do"></a>수행할 작업
 
-조직에 [Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) 주소 책 정책이 없는지 확인 이러한 정책은 정보 장벽 정책이 적용되지 않도록 합니다.
+조직에 [Exchange](/exchange/address-books/address-book-policies/address-book-policies) 주소 책 정책이 없는지 확인 이러한 정책은 정보 장벽 정책이 적용되지 않도록 합니다.
 
-1. Exchange [Online PowerShell에 연결합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+1. Exchange [Online PowerShell에 연결합니다.](/powershell/exchange/connect-to-exchange-online-powershell)
 
-2. [Get-AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/get-addressbookpolicy) cmdlet을 실행하고 결과를 검토합니다.
+2. [Get-AddressBookPolicy](/powershell/module/exchange/get-addressbookpolicy) cmdlet을 실행하고 결과를 검토합니다.
 
     |**결과**|**다음 단계**|
     |:----------|:------------|
-    | Exchange 주소부 정책 나열 | [주소부 정책 제거](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) |
+    | Exchange 주소부 정책 나열 | [주소부 정책 제거](/exchange/address-books/address-book-policies/remove-an-address-book-policy) |
     | 주소부 정책이 없습니다. |감사 로그를 검토하여 정책 응용 프로그램이 실패하는 이유 확인 |
 
-3. [사용자 계정, 세그먼트,](information-barriers-policies.md#view-status-of-user-accounts-segments-policies-or-policy-application)정책 또는 정책 응용 프로그램의 상태를 본다.
+3. [사용자 계정, 세그먼트,](information-barriers-policies.md#view-status-of-user-accounts-segments-policies-or-policy-application)정책 또는 정책 응용 프로그램의 상태를 볼 수 있습니다.
 
 ## <a name="issue-information-barrier-policy-not-applied-to-all-designated-users"></a>문제: 지정된 모든 사용자에게 적용되지 않는 정보 장벽 정책
 
-세그먼트를 정의하고, 정보 장벽 정책을 정의하고, 해당 정책을 적용하려고 한 후 정책이 일부 받는 사람에게 적용되고 다른 받는 사람에게는 적용되지 않을 수 있습니다.
+세그먼트를 정의하고, 정보 장벽 정책을 정의하고, 해당 정책을 적용하려고 시도한 후 정책이 일부 받는 사람에게 적용되고 다른 받는 사람에게는 적용되지 않는 것을 발견할 수 있습니다.
 cmdlet을 실행할 때 출력에서 `Get-InformationBarrierPoliciesApplicationStatus` 다음 텍스트를 검색합니다.
 
 > ID: `<application guid>`
@@ -193,19 +193,19 @@ cmdlet을 실행할 때 출력에서 `Get-InformationBarrierPoliciesApplicationS
 $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDate <yyyy-mm-ddThh:mm:ss> -RecordType InformationBarrierPolicyApplication -ResultSize 1000 |?{$_.AuditData.Contains(<application guid>)} 
 ```
 
-2. 감사 로그의 자세한 출력에서 해당 필드의 값을 `"UserId"` 확인할 수 `"ErrorDetails"` 있습니다. 이렇게 하면 실패의 이유가 발생합니다. 이 PowerShell 코드를 복사하고 변수를 수정할 수 있습니다.
+2. 감사 로그의 자세한 출력에서 해당 필드 및 필드의 값을 `"UserId"` 확인할 수 `"ErrorDetails"` 있습니다. 이렇게 하면 실패의 이유가 발생합니다. 이 PowerShell 코드를 복사하고 변수를 수정할 수 있습니다.
 
 ```powershell
    $DetailedLogs[1] |fl
 ```
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예:
 
 > "UserId": User1
 >
 >"ErrorDetails":"Status: IBPolicyConflict. 오류: IB 세그먼트 "segment id1" 및 IB 세그먼트 "segment id2"에 충돌이 있으며 받는 사람에게 할당할 수 없습니다.
 
-3. 일반적으로 사용자가 두 개 이상의 세그먼트에 포함되어 있는 것을 발견하게 됩니다. 에서 값을 업데이트하여 이 문제를 `-UserGroupFilter` 해결할 수 `OrganizationSegments` 있습니다.
+3. 일반적으로 사용자가 두 개 이상의 세그먼트에 포함되어 있는 것을 발견할 수 있습니다. 에서 값을 업데이트하여 이 문제를 `-UserGroupFilter` 해결할 수 `OrganizationSegments` 있습니다.
 
 4. 다음 절차에 따라 정보 장벽 정책을 [다시 적용합니다.](information-barriers-policies.md#part-3-apply-information-barrier-policies)
 

@@ -12,12 +12,12 @@ ms.collection:
 localization_priority: None
 f1.keywords:
 - NOCSH
-ms.openlocfilehash: 3a95ccb476960424b701f522aacce78576e6f68f
-ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
+ms.openlocfilehash: 0d46459f61b29c6bdb457c7e0c82e9147e7709ba
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071283"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126143"
 ---
 # <a name="manage-information-barrier-policies"></a>정보 장벽 정책 관리
 
@@ -37,7 +37,7 @@ ms.locfileid: "50071283"
 | [정보 장벽 문제 해결](information-barriers-troubleshooting.md) | 정보 장벽으로 예기치 않은 문제가 발생할 경우 이 문서를 참조하세요. |
 
 > [!IMPORTANT]
-> 이 문서에 설명된 작업을 수행하려면 다음 중 하나와 같은 적절한 역할을 할당해야 합니다.<br/>- Microsoft 365 Enterprise Global Administrator<br/>- 전역 관리자<br/>- 준수 관리자<br/>- IB 규정 준수 관리(새 역할입니다!)<br><br>정보 장벽의 선행 준비에 대한 자세한 내용은 사전 준비(정보 장벽 정책의 경우)를 [참조하세요.](information-barriers-policies.md#prerequisites)<br><br> Security & [준수 센터 PowerShell에 연결해야 합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+> 이 문서에 설명된 작업을 수행하려면 다음 중 하나와 같은 적절한 역할을 할당해야 합니다.<br/>- Microsoft 365 Enterprise Global Administrator<br/>- 전역 관리자<br/>- 준수 관리자<br/>- IB 규정 준수 관리(새 역할입니다!)<br><br>정보 장벽의 선행 준비에 대한 자세한 내용은 사전 준비(정보 장벽 정책의 경우)를 [참조하세요.](information-barriers-policies.md#prerequisites)<br><br> Security & [준수 센터 PowerShell에 연결해야 합니다.](/powershell/exchange/connect-to-scc-powershell)
 
 ## <a name="edit-user-account-attributes"></a>사용자 계정 특성 편집
 
@@ -53,9 +53,9 @@ ms.locfileid: "50071283"
 
 3. 이전 단계에서 선택한 특성의 값을 포함하도록 하나 이상의 사용자 계정을 편집합니다. 이 작업을 수행하기 위해 다음 절차 중 하나를 사용 합니다.
 
-    - 단일 계정을 편집하려면 Azure Active Directory를 사용하여 사용자의 프로필 정보 추가 또는 [업데이트를 참조하세요.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+    - 단일 계정을 편집하려면 Azure Active Directory를 사용하여 사용자의 프로필 정보 추가 또는 [업데이트를 참조하세요.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
-    - 여러 계정을 편집하거나 PowerShell을 사용하여 단일 계정을 편집하려면 [Office 365 PowerShell을](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)사용하여 사용자 계정 속성 구성을 참조하세요.
+    - 여러 계정을 편집하거나 PowerShell을 사용하여 단일 계정을 편집하려면 [Office 365 PowerShell을](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)사용하여 사용자 계정 속성 구성을 참조하세요.
 
 ## <a name="edit-a-segment"></a>세그먼트 편집
 
@@ -90,7 +90,7 @@ ms.locfileid: "50071283"
 
     예: 리서치 세그먼트가  영업 및 마케팅 세그먼트와  통신하지 않습니다.  정책은 다음 cmdlet을 사용하여 정의했습니다. `New-InformationBarrierPolicy -Name "Research-SalesMarketing" -AssignedSegment "Research" -SegmentsBlocked "Sales","Marketing"`
 
-    리서치 부문의 사용자가 HR  세그먼트의 사용자와만 통신할 수 있도록 변경하려는 *경우를 가정해* 가정해 10.04.04.15.04. 이 변경을 위해 다음 cmdlet을 사용 합니다. `Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -SegmentsAllowed "HR"`
+    리서치 부문의 사용자가 HR  세그먼트의 사용자와만 통신할 수 있도록 변경하려는 *경우를 가정해* 가정해 10.04.04.15.0 이 변경을 위해 다음 cmdlet을 사용 합니다. `Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -SegmentsAllowed "HR"`
 
     이 예제에서는 "SegmentsBlocked"를 "SegmentsAllowed"로 변경하고 *HR 세그먼트를 지정했습니다.*
 
@@ -148,7 +148,7 @@ ms.locfileid: "50071283"
 
 ## <a name="stop-a-policy-application"></a>정책 응용 프로그램 중지
 
-정보 장벽 정책 적용을 시작한 후 해당 정책이 적용되지 못하게 하려는 경우 다음 절차를 사용합니다. 프로세스가 시작되는 데 약 30-35분이 걸립니다.
+정보 장벽 정책 적용을 시작한 후 해당 정책이 적용되지 못하게 하려는 경우 다음 절차를 사용합니다. 프로세스를 시작하는 데 약 30-35분이 걸립니다.
 
 1. 최신 정보 장벽 정책 응용 프로그램의 상태를 확인하기 위해 **Get-InformationBarrierPoliciesApplicationStatus** cmdlet을 사용하세요.
 
