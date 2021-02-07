@@ -1,12 +1,12 @@
-- name: Topic 체험 시작
+- name: Microsoft Viva 시작
   items:
-    - name: 주제 체험 소개
+    - name: Microsoft Viva 소개
       href: index.md
-    - name: 주제 체험 개요
+    - name: Microsoft Viva 개요
       href: topic-experiences-overview.md
-    - name: 주제 체험 검색 및 큐레이션
+    - name: Microsoft Viva 검색 및 큐레이션
       href: topic-experiences-discovery-curation.md
-    - name: 주제 체험 역할
+    - name: Microsoft Viva 역할
       href: topic-experiences-roles.md
     - name: 환경 준비
       href: topic-experiences-get-ready.md
@@ -14,9 +14,9 @@
   items:
     - name: 주제 보안
       href: topic-experiences-security-privacy.md
-    - name: 계획 주제 경험
+    - name: 주제에 대한 계획
       href: plan-topic-experiences.md
-    - name: 주제 경험 설정
+    - name: 주제 설정
       href: set-up-topic-experiences.md
     - name: 항목 검색 관리
       href: topic-experiences-discovery.md
@@ -38,6 +38,8 @@
       href: edit-a-topic.md
     - name: 보안 트리밍
       href: topic-experiences-security-trimming.md
+    - name: 주제 검색
+      href: search.md
 - name: 채택
   items:
     - name: 채택 추진 시작
