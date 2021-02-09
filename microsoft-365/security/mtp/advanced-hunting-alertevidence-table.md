@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: c01b0aae1eff3d9b4add632aff0f13cb56941a30
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 7457084d49c5a9fef4ef79abc7702c6b473efcd2
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932307"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145304"
 ---
 # <a name="alertevidence"></a>AlertEvidence
 
@@ -35,7 +35,7 @@ ms.locfileid: "49932307"
 **적용 대상:**
 - Microsoft 365 Defender
 
-고급 헌팅 계획의 표에는 `AlertEvidence` 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, Microsoft Cloud App Security 및 Id용 Microsoft Defender의 알림과 관련된 다양한 엔터티(파일, IP 주소, URL, 사용자 또는 장치)에 대한 정보가 포함되어 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+고급 헌팅 계획의 표에는 `AlertEvidence` 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, Microsoft Cloud App Security 및 Id용 Microsoft Defender의 경고와 관련된 다양한 엔터티(파일, IP 주소, URL, 사용자 또는 장치)에 대한 정보가 포함되어 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
@@ -59,6 +59,7 @@ ms.locfileid: "49932307"
 | `AccountDomain` | 문자열 | 계정의 도메인 |
 | `AccountSid` | 문자열 | 계정의 SID(보안 식별자)입니다. |
 | `AccountObjectId` | 문자열 | Azure Active Directory에서 계정의 고유 식별자 |
+| `AccountUpn` | 문자열 | 계정의 UPN(사용자 계정 이름) |
 | `DeviceId` | 문자열 | 서비스에서 디바이스의 고유 식별자 |
 | `DeviceName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름) |
 | `LocalIP` | 문자열 | 통신 중에 사용되는 로컬 장치에 할당된 IP 주소 |
@@ -68,8 +69,11 @@ ms.locfileid: "49932307"
 | `Application` | 문자열 | 기록된 작업을 수행한 응용 프로그램 |
 | `ProcessCommandLine` | 문자열 | 새 프로세스를 만드는 데 사용되는 명령줄 |
 | `AdditionalFields` | 문자열 | JSON 배열 형식의 이벤트에 대한 추가 정보 |
+| `RegistryKey` |문자열 | 기록된 작업이 적용된 레지스트리 키 |
+| `RegistryValueName` |문자열 | 기록된 작업이 적용된 레지스트리 값의 이름입니다. |
+| `RegistryValueData` |문자열 | 기록된 작업이 적용된 레지스트리 값의 데이터 |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)

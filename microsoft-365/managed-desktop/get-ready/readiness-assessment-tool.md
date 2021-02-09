@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 9fbd24185288265d698288e0d5e63e8b3c2afd10
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 1a00f7d5fb37cc9eea3f9454d473703084960864
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921849"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142936"
 ---
 # <a name="readiness-assessment-tools"></a>준비 평가 도구
 
@@ -28,7 +28,7 @@ Microsoft Managed Desktop에 등록할 때 가장 원활한 환경을 위해 미
 
 온라인 도구는 Microsoft 끝점 관리자(특히 Microsoft Intune), Azure AD(Azure Active Directory) 및 Microsoft 365의 설정을 확인하여 Microsoft Managed Desktop에서 작동하도록 합니다. Microsoft Managed Desktop은 Azure AD 조직(테넌트)에서 검사를 마지막으로 실행한 후 12개월 동안 이러한 검사와 관련된 데이터를 보존합니다. 12개월 후에 식별되지 않습니다. 수집하는 데이터를 삭제할 수 있습니다.
 
-적어도 Intune 관리자 역할이 있는 모든 사용자가 이 도구를 실행할 수[](readiness-assessment-fix.md#conditional-access-policies) 있지만 두 가지 [](readiness-assessment-fix.md#multifactor-authentication) 확인(조건부 액세스 정책 및 다단계 인증)에는 추가 권한이 필요합니다.
+전역 읽기 권한자 또는 Intune 관리자 역할 이상이 있는 모든 사용자가 이[](readiness-assessment-fix.md#conditional-access-policies) 도구를 실행할 수 [](readiness-assessment-fix.md#multifactor-authentication) 있지만 조건부 액세스 정책 및 다단계 인증의 두 가지 확인에는 추가 권한이 필요합니다.
  
 평가 도구는 다음 항목을 검사합니다.
 
@@ -82,9 +82,9 @@ Microsoft Managed Desktop에 등록할 때 가장 원활한 환경을 위해 미
 |결과  |의미  |
 |---------|---------|
 |준비     | 등록을 완료하기 전에 아무 작업도 수행하지 않습니다.        |
-|권고    | 등록과 사용자에 대한 최상의 환경을 위해 도구의 단계를 따르세요. *등록을* 완료할 수 있지만 첫 번째 장치를 배포하기 전에 이러한 문제를 해결해야 합니다.        |
+|권고    | 등록과 사용자에 대한 최상의 환경을 위해 도구의 단계를 따릅니다. *등록을* 완료할 수 있지만 첫 번째 장치를 배포하기 전에 이러한 문제를 해결해야 합니다.        |
 |준비되지 않음 | *이러한 문제를 해결하지* 않는 경우 등록이 실패합니다. 도구의 단계에 따라 문제를 해결합니다.        |
-|오류 | 사용중인 Azure AD(Active Director) 역할에 이 검사를 실행할 수 있는 권한이 없습니다. |
+|오류 | 사용중인 Azure AD(Active Director) 역할에는 이 검사를 실행할 수 있는 권한이 없습니다. |
 
 ## <a name="after-enrollment"></a>등록 후
 

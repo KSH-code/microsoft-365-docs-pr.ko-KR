@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목을 설정하는 방법 학습
-ms.openlocfilehash: e8cfe1d849ba5df903f377fd001a8d067f80b608
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 6bd0d3eca653ae44e46b410ef3ac55fe11629a6b
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107921"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150503"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Microsoft Viva 항목 설정
 
@@ -23,7 +23,7 @@ Microsoft 365 관리 센터를 사용하여 항목을 설정하고 [구성할 �
 
 환경에서 항목을 설정하고 구성하는 가장 좋은 방법을 계획하는 것이 중요합니다. 이 문서의 절차를 시작하기 전에 [Microsoft Viva 항목](plan-topic-experiences.md) 계획을 읽어야 합니다.
 
-Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 전역 관리자 또는 SharePoint 관리자 되어야 합니다.
+[Viva Topics를](https://www.microsoft.com/microsoft-viva/topics) 구독하고 Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 전역 관리자 또는 SharePoint 관리자 되어야 합니다.
 
 ## <a name="video-demonstration"></a>동영상 데모
 
@@ -35,23 +35,23 @@ Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 전역 
 
 <br>
 
-## <a name="set-up-topics"></a>항목 설정
+## <a name="set-up-topics"></a>주제 설정
 
 항목을 설정하기 위해
 
 1. Microsoft [365](https://admin.microsoft.com)관리 센터에서 설치를 **선택하고** 파일 및 콘텐츠 **섹션을** 시청합니다.
-2. 파일 및 **콘텐츠 섹션에서** 사용자와 지식 **연결을 클릭합니다.**
+2. 파일 및 **콘텐츠 섹션에서** 사용자 **지식에 연결을 클릭합니다.**
 
     ![지식에 사람 연결](../media/admin-org-knowledge-options.png) 
 
-3. 사용자와 지식 연결 **페이지에서** 시작을 **클릭하여** 설정 프로세스를 진행합니다.
+3. 기술에 사용자 연결 **페이지에서**  시작을 클릭하여 설정 프로세스를 진행합니다.
 
-    ![시작하기](../media/k-get-started.png) 
+    ![시작](../media/k-get-started.png) 
 
-4. **Viva 항목에서 항목을** 찾는 방법 선택 페이지에서 항목 검색을 구성합니다. SharePoint  항목 원본 선택 섹션에서 검색 중에 항목에 대한 원본으로 크롤링할 SharePoint 사이트를 선택합니다. 다음 중 선택:
+4. **Viva 항목에서 항목을** 찾는 방법 선택 페이지에서 항목 검색을 구성합니다. **SharePoint** 항목 원본 선택 섹션에서 검색 중에 항목에 대한 원본으로 크롤링할 SharePoint 사이트를 선택합니다. 다음 중 선택:
     - **모든 사이트**: 조직의 모든 SharePoint 사이트 여기에는 현재 및 향후 사이트가 포함됩니다.
     - **선택한 사이트를 제외한** 모든 사이트: 제외할 사이트의 이름을 입력합니다.  검색에서 옵트아웃하려는 사이트 목록을 업로드할 수도 있습니다. 앞으로 만든 사이트는 항목 검색을 위한 원본으로 포함됩니다. 
-    - **선택한 사이트만**: 포함할 사이트의 이름을 입력합니다. 사이트 목록을 업로드할 수도 있습니다. 앞으로 만든 사이트는 항목 검색을 위한 원본으로 포함되지 않습니다.
+    - **선택한 사이트만 :** 포함할 사이트의 이름을 입력합니다. 사이트 목록을 업로드할 수도 있습니다. 앞으로 만든 사이트는 항목 검색을 위한 원본으로 포함되지 않습니다.
     - **사이트 없음**: SharePoint 사이트를 포함하지 않습니다.
 
     ![항목을 찾는 방법 선택](../media/ksetup1.png) 
@@ -62,7 +62,7 @@ Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 전역 
 
     ![제외 항목](../media/topics-excluded-by-name.png) 
 
-    (지식 관리자는 검색 후 항목 센터의 항목을 제외할 수 있습니다.)
+    (기술 관리자는 검색 후 항목 센터의 항목을 제외할 수 있습니다.)
 
     #### <a name="how-to-exclude-topics-by-name"></a>이름으로 항목을 제외하는 방법    
 
@@ -76,18 +76,18 @@ Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 전역 
         - 정확한 일치: 정확한 이름이나 약어(예: *Contoso* 또는 ATL)를 포함할 *수 있습니다.*
         - 부분 일치: 특정 단어가 있는 모든 항목을 제외할 수 있습니다.  예를 들어 *호는* 호 원, 마주치기 또는 교육 호와 같이 단어 호가 있는 모든 항목을 *제외합니다.*  아키텍처와 같이 텍스트가 단어의 일부로 포함된 항목은 제외하지 *않습니다.*
     - **약어(선택 사항)**: 약어를 제외하려는 경우 약어가 대명하는 단어를 입력합니다.
-    - **MatchType-Exact/Partial**: 입력한 이름이 정확히 일치하는 형식인지 부분 일치 *형식인지* *여부를* 입력합니다.
+    - **MatchType-Exact/Partial**: 입력한 이름이 정확한지 부분 일치 *유형인지* *여부를* 입력합니다.
 
-    .csv 파일을 완료하고 저장한 후 **찾아보기를** 선택하여 찾습니다.
+    .csv 파일을 완료하고 저장한 후 찾아보기를 선택하여 찾습니다. 
     
     **다음** 을 선택합니다.
 
-6. 항목을 **볼 수 있는 사람** 및 해당 항목을 볼 수 있는 위치 페이지에서 항목 표시를 구성합니다. 항목 **설정을** 볼 수 있는 사용자 설정에서 강조 표시된 항목, 항목 카드, 검색의 항목 답변, 항목 페이지와 같은 항목 세부 정보에 액세스할 수 있는 사용자들을 선택합니다. 다음을 선택할 수 있습니다.
+6. 항목을 **볼 수 있는 사람** 및 해당 항목을 볼 수 있는 위치 페이지에서 항목 표시를 구성합니다. 항목 **설정을** 볼 수 있는 사용자 설정에서 강조 표시된 항목, 항목 카드, 검색의 항목 답변, 항목 페이지와 같은 항목 세부 정보에 액세스할 수 있는 사용자 선택 다음을 선택할 수 있습니다.
     - **조직의 모든 사용자**
     - **선택한 사용자 또는 보안 그룹만**
     - **아무도 없어**
 
-    ![항목을 볼 수 있는 사람](../media/ksetup2.png)  
+    ![항목을 볼 수 있는 사용자](../media/ksetup2.png)  
 
     > [!Note] 
     > 이 설정을 사용하면 조직의 모든 사용자를 선택할 수 있습니다. 그러나 항목에 항목 환경 라이선스가 할당된 사용자만 항목을 볼 수 있습니다.
@@ -131,7 +131,7 @@ Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 전역 
 
 2. 라이선스를 부여할 사용자를 선택하고 라이선스 및 **앱을 클릭합니다.**
 
-3. 앱에서 **인덱스** 및 Viva 항목을 사용하여 **Graph Connectors** **검색을** 모두 선택해야 합니다.
+3. 앱에서 **인덱스** 및 항목 환경이 포함된 **Graph Connectors** **검색이** 모두 선택되어 있는지 확인 합니다.
 
 4. **변경 사항 저장** 를 클릭합니다.
 
@@ -140,7 +140,7 @@ Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 전역 
 항목을 설정한 후 [Microsoft 365](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement)관리 센터에서 설치 중에 선택한 설정을 변경할 수 있습니다. 다음 참조를 참조합니다.
 
 - [Microsoft Viva 항목에서 항목 검색 관리](topic-experiences-discovery.md)
-- [Microsoft Viva 항목의 항목 표시 여부 관리](topic-experiences-knowledge-rules.md)
+- [Microsoft Viva 항목의 항목 표시 관리](topic-experiences-knowledge-rules.md)
 - [Microsoft Viva 항목의 항목 사용 권한 관리](topic-experiences-user-permissions.md)
 - [Microsoft Viva 항목에서 항목 센터의 이름 변경](topic-experiences-administration.md)
 

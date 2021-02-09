@@ -7,27 +7,32 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 보안 및 준수 센터에서 메시지 추적을 & 메시지에 대해 어떤 일이 일어나는지 찾을 수 있습니다.
-ms.openlocfilehash: 455a1e22ff67ec47e1a6292c962d2a276ec54a64
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 1b0c27d8e0f43557be537d6e7c9fa096441cc229
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658991"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150282"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 및 준수 센터의 메시지 추적
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 ## <a name="message-trace-features"></a>메시지 추적 기능
 
-Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과하는 전자 메일 메시지를 추적합니다. 서비스에서 메시지를 수신, 거부, 지연 또는 배달할지 여부를 확인할 수 있습니다. 또한 메시지가 최종 상태에 도달하기 전에 메시지에 대해 수행된 작업도 보여 주며,
+Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과하는 전자 메일 메시지를 추적합니다. 메시지가 서비스에 의해 수신, 거부, 지연 또는 배달된지 여부를 확인할 수 있습니다. 또한 메시지가 최종 상태에 도달하기 전에 메시지에 대해 수행된 작업도 보여 주며,
 
 보안 및 준수 & 메시지 추적은 EAC(Exchange 관리 센터)에서 사용할 수 있는 원래 메시지 추적을 개선합니다. 메시지 추적의 정보를 사용하여 메시지에 대한 사용자 질문에 효율적으로 답변하고, 메일 흐름 문제를 해결하고, 정책 변경의 유효성을 검사할 수 있습니다.
 
@@ -35,7 +40,7 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 >
 > - 메시지 추적을 사용하려면 조직 관리, 준수 관리 또는 Help Desk 역할 그룹의 구성원이 되거나, 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 >
-> - 결과에 표시되는 최대 메시지 수는 선택한 보고서 유형에 따라 다릅니다(자세한 [](#choose-report-type) 내용은 보고서 유형 선택 섹션 참조). Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell의 [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/get-historicalsearch) cmdlet은 결과의 모든 메시지를 반환합니다.
+> - 결과에 표시되는 최대 메시지 수는 선택한 보고서 유형에 따라 다릅니다(자세한 [](#choose-report-type) 내용은 보고서 유형 선택 섹션 참조). Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell의 [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/get-historicalsearch) cmdlet은 결과에 있는 모든 메시지를 반환합니다.
 
 ## <a name="open-message-trace"></a>메시지 추적 열기
 
@@ -67,7 +72,7 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 
 > [!NOTE]
 >
-> - 외부 보낸 사람 및 받는 사람의 전자 메일 주소를 입력할 수도 있습니다. 와일드카드는 지원되지만(예: 여러 와일드카드 항목을 같은 필드에 동시에 사용할 `*@contoso.com` 수 없습니다.
+> - 외부 보낸 사람 및 받는 사람의 전자 메일 주소를 입력할 수도 있습니다. 와일드카드는 지원되지만(예: 같은) 같은 필드에 여러 와일드카드 항목을 동시에 사용할 `*@contoso.com` 수 없습니다.
 >
 > - 여러 보낸 사람 또는 받는 사람 목록을 세미코론()으로 구분하여 붙여넣을 수 `;` 있습니다. 공백( `\s` ), 캐리지 리턴() `\r` 또는 다음 `\n` 줄()을 반환합니다.
 
@@ -81,13 +86,14 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 
   그러나 시작 날짜 및  종료 날짜 값(시간 포함)을 지정할 수 있는 사용자 지정  보기로 전환할 수도 있으며 날짜/시간 범위의 표준 시간대를 선택할 수도 있습니다.   표준 시간대  설정은 쿼리 입력과 쿼리 결과에 모두 적용됩니다.
 
-  ![보안 및 준수 센터의 새 메시지 추적에 있는 사용자 & 시간 범위](../../media/ed4c8d50-9ea5-4694-93f9-ee3ab6660b4f.png)
+  ![보안 및 준수 센터의 새 메시지 추적에 있는 & 시간 범위](../../media/ed4c8d50-9ea5-4694-93f9-ee3ab6660b4f.png)
 
   10일 이하의 경우 결과를 요약 보고서로 바로 사용할 **수** 있습니다. 10일보다 약간 더 큰 시간 범위를 지정하면 다운로드 가능한 CSV 파일(고급 요약 또는 확장 보고서)으로만  사용할 수 있는 결과로 지연됩니다. 
 
   다양한 보고서 유형에 대한 자세한 [](#choose-report-type) 내용은 이 문서의 보고서 유형 선택 섹션을 참조하십시오.
 
-  **참고:** 향상된 요약 및 확장된 보고서는 보관된 메시지 추적 데이터를 사용하여 준비됩니다. 보고서를 다운로드할 수 있는 데 최대 몇 시간이 걸릴 수 있습니다. 동시에 보고서 요청을 제출한 다른 관리자의 수에 따라 대기 중인 요청에 대한 처리가 시작되기 전에 지연이 확인될 수도 있습니다.
+  > [!NOTE]
+  > 향상된 요약 및 확장된 보고서는 보관된 메시지 추적 데이터를 사용하여 준비됩니다. 보고서를 다운로드할 수 있는 데 최대 몇 시간이 걸릴 수 있습니다. 동시에 보고서 요청을 제출한 다른 관리자의 수에 따라 대기 중인 요청에 대한 처리가 시작되기 전에 지연이 확인될 수도 있습니다.
 
 - 쿼리를 **슬라이더** 보기에 저장하면 상대 시간 범위(예: 오늘부터 3일)가 절약됩니다. 사용자 지정  보기에 쿼리를 저장하면 절대 날짜/시간 범위가 저장됩니다(예: 2018-05-06 13:00 ~ 2018-05-08 18:00).
 
@@ -101,7 +107,7 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 
 - **보류 중:** 메시지 배달을 시도하거나 다시 시도 중입니다.
 
-- **확장:** 메일 그룹 받는 사람이 그룹의 개별 구성원에게 배달되기 전에 확장됩니다.
+- **확장:** 그룹의 개별 구성원에게 배달하기 전에 메일 그룹 받는 사람이 확장됩니다.
 
 - **실패:** 메시지가 배달되지 않습니다.
 
@@ -111,7 +117,8 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 
 - **상태 확인:** 메시지는 최근에 Microsoft 365에서 수신했지만 다른 상태 데이터는 아직 사용할 수 없습니다. 몇 분 후에 다시 확인
 
-**참고:** **보류 중인,** **Quarantined 및** Filter as **spam** 값은 10일 미만의 검색에만 사용할 수 있습니다. 또한 실제 상태와 보고된 배달 상태 간에는 5~10분이 지연될 수 있습니다.
+> [!NOTE]
+> 보류 **중,** **Quarantined 및** Filter as **spam** 값은 10일 미만의 검색에만 사용할 수 있습니다. 또한 실제 상태와 보고된 배달 상태 간에는 5~10분이 지연될 수 있습니다.
 
 #### <a name="message-id"></a>메시지 ID
 
@@ -129,7 +136,8 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 
 클라이언트 IP 주소로 결과를 제출하여 많은 양의 스팸 또는 맬웨어를 보내는 해킹된 컴퓨터를 조사할 수 있습니다. 메시지가 여러 보낸 사람이 보낸 것 같지만 같은 컴퓨터에서 모든 메시지를 생성하고 있는 것일 수 있습니다.
 
-**참고:** 클라이언트 IP 주소 정보는 10일 동안만 사용할 수  있으며 확장된  요약 또는 확장 보고서(다운로드 가능한 CSV 파일)에서만 사용할 수 있습니다.
+> [!NOTE]
+> 클라이언트 IP 주소 정보는 10일 동안만 사용할 수  있으며 확장된  요약 또는 확장 보고서(다운로드 가능한 CSV 파일)에서만 사용할 수 있습니다.
 
 ### <a name="choose-report-type"></a>보고서 유형 선택
 
@@ -139,11 +147,11 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 
 - **확장된** 요약 또는 확장 **:** 이러한 보고서는 다운로드 가능한 CSV 파일로만 사용할 수 있으며 시간 범위에 관계없이 하나 이상의 필터링 옵션이 필요하게 **됩니다.** 사용자, 사용자, 메시지 **ID.** 보낸 사람 또는 받는 사람에 대해 와일드카드를 사용할 수 \* 있습니다(예: @contoso.com). 고급 요약 보고서는 최대 50000개 결과를 반환합니다. 확장 보고서는 최대 1,000개 결과를 반환합니다.
 
-**참고**:
-
-- 향상된 요약 및 확장된 보고서는 보관된 메시지 추적 데이터를 사용하여 준비됩니다. 보고서를 다운로드할 수 있는 데 최대 몇 시간이 걸릴 수 있습니다. 동시에 보고서 요청을 제출한 다른 관리자의 수에 따라 대기 중인 요청이 처리되기 전에 지연이 확인될 수도 있습니다.
-
-- 날짜/시간 범위에 대해 확장된 요약 또는 확장 보고서를 선택할 수 있습니다. 일반적으로 보관된 데이터의 마지막 4시간은 이러한 두 가지 유형의 보고서에 대해 아직 사용할 수 없습니다.
+> [!NOTE]
+> 
+> - 향상된 요약 및 확장된 보고서는 보관된 메시지 추적 데이터를 사용하여 준비됩니다. 보고서를 다운로드할 수 있는 데 최대 몇 시간이 걸릴 수 있습니다. 동시에 보고서 요청을 제출한 다른 관리자의 수에 따라 대기 중인 요청이 처리되기 전에 지연이 확인될 수도 있습니다.
+> 
+> - 날짜/시간 범위에 대해 확장된 요약 또는 확장 보고서를 선택할 수 있습니다. 일반적으로 보관된 데이터의 마지막 4시간은 이러한 두 가지 유형의 보고서에 대해 아직 사용할 수 없습니다.
 
 다음을 클릭하면 선택한 필터링 옵션, 보고서의 고유한 제목(편집 가능) 제목 및 메시지 추적이 완료될 때 알림을 받는 전자 메일 주소(편집 가능 및 조직의 허용 도메인 중 하나에 있어야)가 나열되는 요약 페이지가 표시됩니다. 보고서 **준비를 클릭하여** 메시지 추적을 제출합니다. 기본 **메시지** 추적 페이지에서 다운로드 가능한 보고서 섹션에서 보고서의 상태를 확인할 **수** 있습니다.
 
@@ -177,7 +185,7 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 
 결과 필터링을 **클릭하여** 결과를 하나 이상의 열로 필터링할 수 있습니다.
 
-결과 내보내기 및 모든 결과 내보내기, 로드된  결과 내보내기 또는 선택된 내보내기 선택을 선택하여 하나 이상의 행을 선택한 후 결과를 내보낼 **수 있습니다.**
+결과 내보내기 및 모든 결과 내보내기, 로드된  결과 내보내기 또는 선택된 내보내기 선택을 선택하여 하나 이상의 행을 선택한 후 결과를 내보낼 수 **있습니다.**
 
 #### <a name="find-related-records-for-this-message"></a>이 메시지에 대한 관련 레코드 찾기
 
@@ -217,11 +225,11 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 
   - **해결된 메시지:** Active Directory 검색에 따라 메시지가 새 받는 사람 주소로 리디렉션되었습니다. 이 경우 원본 받는 사람 주소가 메시지 추적에 별도의 행으로 표시되고 메시지의 최종 배달 상태가 표시됩니다.
 
-  참고:
-
-  - 배달되지 않은 메시지가 메시지 추적에 여러 이벤트  항목을 생성합니다.
-
-  - 이 목록은 전체적으로 사용되지 않습니다. 추가 이벤트에 대한 자세한 내용은 메시지 추적 로그의 이벤트 [유형을 참조하세요.](https://docs.microsoft.com/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log) 이 링크는 Exchange Server(Exchange Server Exchange) 항목입니다.
+  > [!NOTE]
+  > 
+  > - 배달되지 않은 메시지가 메시지 추적에 여러 이벤트  항목을 생성합니다.
+  > 
+  > - 이 목록은 전체적으로 사용되지 않습니다. 추가 이벤트에 대한 자세한 내용은 메시지 추적 로그의 이벤트 [유형을 참조하세요.](https://docs.microsoft.com/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log) 이 링크는 Exchange Server(Exchange Server Exchange) 항목입니다.
 
 - **추가 정보:** 이 섹션에는 다음과 같은 세부 정보가 포함되어 있습니다.
 
@@ -235,13 +243,13 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 
 ### <a name="enhanced-summary-reports"></a>향상된 요약 보고서
 
-사용 가능(완료) 확장 요약 보고서는  다운로드 가능한 보고서 섹션의 시작 메시지 추적에서 사용할 수 있습니다. 보고서에서 사용할 수 있는 정보는 다음과 같습니다.
+사용 가능(완료) 확장 요약 보고서는  다운로드 가능한 보고서 섹션의 시작 메시지 추적에서 사용할 수 있습니다. 보고서에서는 다음 정보를 사용할 수 있습니다.
 
 - **origin_timestamp**: 구성된 UTC 표준 시간대를 사용하여 서비스에서 메시지를 처음 수신한 날짜 및 <sup>*</sup> 시간입니다.
 
 - **sender_address**: 보낸 사람 전자 메일 *주소(별칭* @ *도메인)입니다.*
 
-- **Recipient_status**: 받는 사람에게 메시지를 배달한 상태입니다. 메시지가 여러 받는 사람에게 전송된 경우 모든 받는 사람 및 각 받는 사람에 대한 해당 상태가 다음 형식으로 \<*email address*\> ## \<*status*\> 표시됩니다. 예를 들어,
+- **Recipient_status**: 받는 사람에게 메시지를 배달한 상태입니다. 메시지가 여러 받는 사람에게 전송된 경우 모든 받는 사람 및 각 받는 사람에 대한 해당 상태가 다음 형식으로 \<*email address*\> ## \<*status*\> 표시됩니다. 예:
 
   - **##Receive 보내기란** 메시지가 서비스에 의해 수신되어 의도한 대상으로 전송된 것일 수 있습니다.
 
@@ -259,7 +267,7 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 
 - **original_client_ip**: 보낸 사람 클라이언트의 IP 주소입니다.
 
-- **directionality:** 메시지가 조직에 전송된 인바운드 메시지(1)인지 또는 조직에서 보낸 아웃바운드 메시지(2)를 나타냅니다.
+- **directionality:** 메시지가 조직에 전송된 인바운드 메시지(1)인지 또는 조직에서 아웃바운드(2)으로 전송된 것인지를 나타냅니다.
 
 - **connector_id**: 원본 또는 대상 커넥터의 이름입니다. Exchange Online의 커넥터에 대한 자세한 내용은 [Office 365에서](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)커넥터를 사용하여 메일 흐름 구성을 참조하세요.
 
@@ -269,7 +277,7 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 
 ### <a name="extended-reports"></a>확장된 보고서
 
-사용 가능(완료) 확장된 보고서는 메시지 추적 시작 부분의 다운로드 **가능한** 보고서 섹션에서 사용할 수 있습니다. 확장된 요약 보고서의 모든 정보는 확장 보고서에서 사용할 수 있습니다(origin_timestamp  및 **delivery_priority).** 다음 추가 정보는 확장 보고서에서만 사용할 수 있습니다.
+사용 가능(완료) 확장 보고서는 메시지 추적 시작 부분의 다운로드 **가능한** 보고서 섹션에서 사용할 수 있습니다. 확장된 요약 보고서의 모든 정보는 확장 보고서에서 사용할 수 있습니다(origin_timestamp  및 **delivery_priority).** 다음 추가 정보는 확장 보고서에서만 사용할 수 있습니다.
 
 - **client_ip**: 메시지를 전송한 전자 메일 서버 또는 메시징 클라이언트의 IP 주소입니다.
 
@@ -279,13 +287,13 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 
 - **server_hostname**: 대상 서버의 호스트 이름 또는 FQDN입니다.
 
-- **source_context**: 원본 필드와 관련된 추가 **정보입니다.** 예를 들어,
+- **source_context**: 원본 필드와 관련된 추가 **정보입니다.** 예:
 
   - `Protocol Filter Agent`
 
   - `3489061114359050000`
 
-- **source**: 이벤트를 담당하는 Exchange Online 구성 요소입니다. 예를 들어,
+- **source**: 이벤트를 담당하는 Exchange Online 구성 요소입니다. 예:
 
   - `AGENT`
 
@@ -303,25 +311,25 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 
 - **related_recipient_address**: 및 이벤트와 함께 메시지와 연결된 다른 받는 사람 전자 메일 주소를 `EXPAND` `REDIRECT` `RESOLVE` 표시하는 데 사용됩니다.
 
-- **reference**: 이 필드에는 특정 이벤트 유형에 대한 추가 정보가 포함되어 있습니다. 예를 들어,
+- **reference**: 이 필드에는 특정 이벤트 유형에 대한 추가 정보가 포함되어 있습니다. 예:
 
   - **DSN**: 이 이벤트 이후에  DSN이 생성되는 경우 연결된 배달 상태 알림의 message_id 값(DSN, 배달하지 않는 보고서, NDR 또는 반송 메시지라고도 합니다)의 보고서 링크가 들어 있습니다. DSN 메시지인 경우 이 필드에는  DSN이 message_id 원래 메시지의 값과 같은 값이 들어 있습니다.
 
   - **EXPAND**: 관련 **related_recipient_address** 값 포함
 
-  - **RECEIVE**: 받은 message_id 프로세스에서 메시지를 생성한 경우 관련 메시지의 메시지 값(예: 받은 편지함 규칙)을 포함할 수 있습니다. 
+  - **RECEIVE**: message_id 프로세스(예: 받은 편지함 규칙)에서 메시지를 생성한 경우 관련 메시지의 메시지 값을 포함할 수 있습니다. 
 
-  - **SEND**: DSN **internal_message_id** 값 포함
+  - **SEND**:  internal_message_id DSN 메시지의 값 포함
 
   - **TRANSFER**: internal_message_id 메시지의 값(예: 콘텐츠 변환, 메시지 받는 사람 제한 또는 에이전트)을 포함 
 
-  - **MAILBOXRULE**: **internal_message_id** 인바운드 메시지를 생성하는 인바운드 메시지의 값입니다.
+  - **MAILBOXRULE**: **internal_message_id** 인바운드 메시지를 생성하는 인바운드 메시지의 값 포함
 
     다른 유형의 이벤트의 경우 일반적으로 이 필드는 비어 있습니다.
 
 - **return_path**: 메시지를 보낸 **MAIL FROM** 명령에 지정된 반환 전자 메일 주소입니다. 이 필드는 비어 있는 것이 아니라 null 보낸 사람 주소 값이 으로 표현될 수 `<>` 있습니다.
 
-- **message_info**: 메시지에 대한 추가 정보입니다. 예를 들어,
+- **message_info**: 메시지에 대한 추가 정보입니다. 예:
 
   - 메시지의 출처 날짜-시간(UTC)과 `DELIVER` `SEND` 이벤트입니다. 원본 날짜-시간은 메시지가 Exchange Online 조직에 처음 들어온 시간입니다. UTC 날짜-시간은 ISO 8601 날짜-시간 형식으로 표시됩니다. 여기서 = 년, 월, 일은 시간 구성 요소의 시작을 `yyyy-mm-ddThh:mm:ss.fffZ` `yyyy` `mm` `dd` `T` `hh` 나타냅니다. 시간, 분, = 초, `mm` = `ss` `fff` `Z` 초의 분수 및 `Zulu` UTC를 나타내는 또 다른 방법입니다.
 
@@ -335,7 +343,7 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 
 #### <a name="custom_data-values"></a>custom_data 값
 
-**이벤트의** custom_data 필드는 다양한 Exchange Online 에이전트에서 메시지 처리 세부 정보를 `AGENTINFO` 기록하는 데 사용됩니다. 몇 가지 더 흥미로운 에이전트는 다음 섹션에 설명되어 있습니다.
+**이벤트의** custom_data 필드는 다양한 Exchange Online 에이전트에서 메시지 처리 세부 정보를 `AGENTINFO` 기록하는 데 사용됩니다. 몇 가지 흥미로운 에이전트는 다음 섹션에 설명되어 있습니다.
 
 #### <a name="spam-filter-agent"></a>스팸 필터 에이전트
 
@@ -348,7 +356,7 @@ Security & 준수 센터의 메시지 추적은 Exchange Online 조직을 통과
 |`SFV=NSPM`|메시지가 스팸이 아닌 것으로 표시되었으며 받는 사람에게 전송되었습니다.|
 |`SFV=SPM`|메시지가 스팸 방지 필터링(콘텐츠 필터링)에 의해 스팸으로 표시되었습니다.|
 |`SFV=BLK`|수신 거부된 보낸 사람이 보낸 메시지이므로 필터링을 건너뛰었으며 메시지가 차단되었습니다.|
-|`SFV=SKS`|메시지가 스팸 방지 필터링을 통해 처리하기 전에 스팸으로 표시되었습니다. 메일 흐름 규칙(전송 규칙이라고도 함)과 일치하여 스팸으로 자동 표시되고 모든 추가 필터링을 무시하는 메시지가 여기에 포함됩니다.|
+|`SFV=SKS`|스팸 방지 필터링을 통해 메시지를 처리하기 전에 메시지가 스팸으로 표시되었습니다. 메일 흐름 규칙(전송 규칙이라고도 함)과 일치하여 스팸으로 자동 표시되고 모든 추가 필터링을 무시하는 메시지가 여기에 포함됩니다.|
 |`SCL=<number>`|다양한 SCL 값 및 해당 값의 의미에 대한 자세한 내용은 [스팸 지수(Spam confidence levels)를 참조하세요.](spam-confidence-levels.md)|
 |`PCL=<number>`|메시지의 PCL(피싱 지수) 값입니다. 이러한 값은 스팸 지수에 설명된 SCL 값과 동일한 [방식으로 해석될 수 있습니다.](spam-confidence-levels.md)|
 |`DI=SB`|메시지의 보낸 사람이 차단되었습니다.|

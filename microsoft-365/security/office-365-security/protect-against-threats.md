@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: Admin
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.date: 09/08/2020
 search.appverid:
@@ -19,17 +18,23 @@ ms.collection:
 - m365initiative-defender-office365
 description: 관리자는 Microsoft 365의 위협 방지에 대해 알아보고 조직에 위협 보호를 사용하는 방법을 구성할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2951d5725237d572d357ac3fc6cff0ac4df7e8f0
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: cb2866fd3e60c021ae89ffabe7149f4b415d63bc
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794439"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150715"
 ---
 # <a name="protect-against-threats"></a>위협으로부터 보호
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 다음은 Office 365용 Defender의 구성을 청크로 끊는 빠른 시작 가이드입니다. Office 365의 위협 방지 기능을 새로 사용하는 경우 어디서부터 시작해야 할지, 아니면 가장 잘 알 수 있는 경우 이 지침을 검사 목록 및 시작점으로 사용하세요. 
 
@@ -43,7 +48,7 @@ ms.locfileid: "49794439"
 위협 방지 기능은 모든 *Microsoft* 또는 Office 365 구독에 포함되어 있습니다. 그러나 일부 구독에는 고급 기능이 있습니다. 아래 표에는 최소 구독 요구 사항과 함께 이 문서에 포함된 보호 기능이 나열됩니다.
 
 > [!TIP]
-> 감사를 켜는 방법 이외에 Office 365 **EOP(Exchange** Online Protection)의 일부로 표시된 맬웨어 방지, 피싱 방지 및 스팸 방지를 시작하는 단계가 있습니다.  이는 기억하기 전까지 Office 365용 Defender 문서에서 이상한 것처럼 보일 수 있습니다(**Office 365용 Defender)에는** EOP가 포함되어 빌드될 때까지입니다.
+> 감사를 켜는 방법 이외에 Office 365 **EOP(Exchange** Online Protection)의 일부로 표시된 맬웨어 방지, 피싱 방지 및 스팸 방지를 시작하는 단계가 있습니다.  이는 기억할 때까지 Office 365용 Defender 문서에서 이상한 것처럼 보일 수 **있습니다(Office 365용 Defender)에** EOP가 포함되어 빌드될 때까지.
 
 ****
 
@@ -55,7 +60,7 @@ ms.locfileid: "49794439"
 |스팸 방지 보호 기능|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |제로 아워 자동 비우기(전자 메일의 경우)|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |전자 메일 및 Office 문서의 악의적인 URL 및 파일 보호(안전한 링크 및 안전한 첨부 파일)|[Office 365용 Microsoft Defender](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
-|SharePoint, OneDrive 및 Microsoft Teams 워크로드에 대한 ATP 켜기|[Office 365용 Defender ](atp-for-spo-odb-and-teams.md)|
+|SharePoint, OneDrive 및 Microsoft Teams 워크로드에 대한 안전한 첨부 파일 켜기|[Office 365용 Defender ](atp-for-spo-odb-and-teams.md)|
 |고급 피싱 방지 보호 기능|[Office 365용 Defender](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>역할 및 사용 권한
@@ -75,7 +80,7 @@ Office 365 정책에 대한 Defender를 구성하려면 보안 및 준수 센터
 
 ## <a name="before-you-begin-turn-on-audit-logging-for-reporting-and-investigation"></a>시작하기 전에 보고 및 조사에 대한 감사 로깅 켜기
 
-감사 로깅을 조기 시작해야 합니다. 다음과 같은 특정 단계에 대한 감사를 **ON으로** 해야 합니다. 감사 로깅은 Exchange Online을 포함 하는 [구독에서 사용할 수 있습니다.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) 보안 대시보드, 전자 메일 보안 보고서, 탐색기 [](view-email-security-reports.md)등의 위협 [](threat-explorer.md)방지 보고서에서 데이터를 확인하려면 감사 로깅이 설정되어 있어야 *합니다.* [](security-dashboard.md) 자세한 내용은 감사 로그 검색 설정 [또는 해제를 참조합니다.](../../compliance/turn-audit-log-search-on-or-off.md)
+감사 로깅을 조기 시작해야 합니다. 다음과 같은 특정 단계에 대한 감사를 **ON으로** 해야 합니다. 감사 로깅은 Exchange Online이 포함된 [구독에서 사용할 수 있습니다.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) 보안 대시보드, 전자 메일 보안 보고서, 탐색기 [](view-email-security-reports.md)등의 위협 [](threat-explorer.md)방지 보고서에서 데이터를 확인하려면 감사 로깅이 설정되어 있어야 *합니다.* [](security-dashboard.md) 자세한 내용은 감사 로그 검색 설정 [또는 해제를 참조합니다.](../../compliance/turn-audit-log-search-on-or-off.md)
 
 ## <a name="part-1---anti-malware-protection"></a>1부 - 맬웨어 방지 보호
 
@@ -97,7 +102,7 @@ Office 365 정책에 대한 Defender를 구성하려면 보안 및 준수 센터
 
 ## <a name="part-2---anti-phishing-protection"></a>2부 - 피싱 방지 보호 기능
 
-[피싱 방지 보호는](anti-phishing-protection.md) EOP를 포함 하는 [구독에서 사용할 수 있습니다.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) Office [365용 Defender에서](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)고급 피싱 방지 보호 기능을 사용할 수 있습니다.
+[피싱](anti-phishing-protection.md) 방지 보호는 EOP를 포함 하는 [구독에서 사용할 수 있습니다.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) Office [365용 Defender에서](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)고급 피싱 방지 보호 기능을 사용할 수 있습니다.
 
 다음 절차에서는 Office 365용 Microsoft Defender에서 피싱 방지 정책을 구성하는 방법을 설명합니다. 이 단계는 EOP에서 피싱 방지 정책을 구성하는 경우와 비슷합니다.
 
@@ -111,7 +116,7 @@ Office 365 정책에 대한 Defender를 구성하려면 보안 및 준수 센터
 
    - 보호할 **도메인** 추가 탭에서 내 소유의 도메인을 자동으로 **포함합니다.** 사용자 지정 도메인이 있는 경우 지금 추가합니다.
 
-   - 작업 **탭에서** 가장된 사용자 및 가장된  도메인 옵션 둘 다에 대한 메시지에 대한 메시지 **검역을** 선택합니다.  또한 가장 보안 팁을 켜세요.
+   - 작업 **탭에서** 가장된 사용자 및 가장된  도메인 옵션 둘 다에 대한 메시지의 **검역을** 선택합니다.  또한 가장 보안 팁을 켜세요.
 
    - 사서함 **인텔리전스** 탭에서 사서함 인텔리전스가 켜져 있는지 확인한 다음 사서함 인텔리전스 기반 가장 보호를 니다. In the **If email is sent by an impersonated user** list, choose **Quarantine the message.**
 
@@ -125,7 +130,7 @@ Office 365 정책에 대한 Defender를 구성하려면 보안 및 준수 센터
 
    - 작업 **탭에서** 메시지를 **Quarantine (1)로 선택합니다.**
 
-   - **변경** 내용을 **검토한** 후 설정 검토 탭에 저장합니다. (변경하지 않은 경우 **취소**.)
+   - **변경** 내용을 **검토한** 후 설정 검토 탭에 저장합니다. 변경하지 않은 경우 취소 **.)**
 
 5. 기본 정책 설정 페이지를 닫습니다.
 
@@ -139,7 +144,7 @@ Office 365 정책에 대한 Defender를 구성하려면 보안 및 준수 센터
 
 2. 사용자 지정 **탭에서** 사용자 지정 설정을 니다.
 
-3. 기본 스팸 필터 정책을  **확장하고** 정책 편집을 클릭한 다음 다음 설정을 지정합니다.
+3. 기본 **스팸 필터 정책을 확장하고** 정책 **편집을** 클릭한 다음 다음 설정을 지정합니다.
 
    - 스팸 및 **대량 작업** 섹션에서 임계값을 5 또는 6으로 설정합니다.
 
@@ -177,13 +182,13 @@ Office 365 정책에 대한 Defender를 구성하려면 보안 및 준수 센터
 
 안전한 링크를 [설정하려면](atp-safe-links.md)안전한 링크에 대한 전역 설정을 검토 및 편집하고 안전한 링크 정책을 하나 이상 만드시다.
 
-1. 보안 & 준수 [센터에서](https://protection.office.com) **위협 관리** 정책 ATP 안전한 링크를 선택하고 전역 설정을 클릭한 다음 다음 설정을 \>  \> 구성합니다. 
+1. 보안 & 준수 [센터에서](https://protection.office.com) **위협** 관리 정책 ATP 안전한 링크를 선택하고 전역 설정을 클릭한 다음 다음 설정을 \>  \>  구성합니다.
 
-   - 안전한 링크 사용 **확인: Office 365** 응용 프로그램이 켜져 ![ ](../../media/scc-toggle-on.png) 있습니다. 토글합니다.
+   - 안전한 링크 사용 **확인: Office 365** 응용 프로그램이 켜져 있습니다. ![ ](../../media/scc-toggle-on.png) 토글합니다.
    - 사용자가 안전한 링크를 **클릭하는** 경우 추적하지 않습니다. 사용자 클릭을 추적하려면 이 설정을 해제합니다. ![ 토글 끄기. ](../../media/scc-toggle-off.png)
    - **사용자가 원래 URL에 대한** 안전한 링크를 클릭할 수 없습니다. 이 설정이 켜져 있는지 확인합니다. ![ 토글합니다. ](../../media/scc-toggle-on.png)
 
-   작업을 마친 후 **저장** 을 클릭합니다.
+   작업을 마쳤으면 **저장** 을 클릭합니다.
 
 2. 기본 안전한 링크 페이지에서 만들기를 **클릭합니다.**
 
@@ -207,16 +212,16 @@ Office 365 정책에 대한 Defender를 구성하려면 보안 및 준수 센터
 
 자세한 내용은 [안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)을 참조하세요.
 
-## <a name="part-5---verify-atp-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>5부 - SharePoint, OneDrive 및 Microsoft Teams의 ATP가 켜져 있는지 확인
+## <a name="part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>5부 - SharePoint, OneDrive 및 Microsoft Teams의 안전한 첨부 파일이 켜져 있는지 확인
 
 SharePoint, OneDrive 및 Teams와 같은 워크로드는 공동 작업을 위해 구축됩니다. Office 365용 Defender를 사용하면 팀 사이트 및 문서 라이브러리에서 악성으로 식별된 파일을 차단하고 검색하는 데 도움이 됩니다. 여기에서 작동 방식에 대해 자세히 읽을 수 [있습니다.](atp-for-spo-odb-and-teams.md)
 
 > [!IMPORTANT]
 > 이 절차를 시작하기 전에 **Microsoft 365** 환경에 대해 감사 로깅이 이미 설정되어 있는지 확인하십시오. 이 작업은 일반적으로 Exchange Online에 할당된 감사 로그 역할이 있는 사용자가 수행합니다. 자세한 내용은 감사 로그 검색 설정 [또는 해제를 참조하세요!](../../compliance/turn-audit-log-search-on-or-off.md)
 
-1. 보안 [&](https://protection.office.com)준수 센터에서 위협 **관리** \>  \> **정책 ATP 안전한** 첨부 파일을 선택한 다음 전역 설정을 **클릭합니다.**
+1. 보안 & 준수 [센터에서](https://protection.office.com)위협 **관리** \>  \> **정책 ATP 안전한** 첨부 파일을 선택한 다음 전역 설정을 **클릭합니다.**
 
-2. **SharePoint, OneDrive 및 Microsoft Teams** 토글에 대한 ATP 켜기 설정이 오른쪽에 있는지 확인: 토글 ![ ](../../media/scc-toggle-on.png) 켜기, **저장을 차례로 클릭합니다.**
+2. **SharePoint, OneDrive 및 Microsoft Teams용 Office 365용 Defender** 켜기 토글이 오른쪽에 있는지 확인: 토글 켜기, 저장을 ![ ](../../media/scc-toggle-on.png) **차례로 클릭합니다.**
 
 3. 조직의 안전 첨부 파일 정책 및 안전한 [](set-up-atp-safe-attachments-policies.md) 링크 정책을 검토하고 적절하게 [편집합니다.](set-up-atp-safe-links-policies.md)
 
@@ -242,7 +247,7 @@ SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft Teams의 파일이 
 
 4. 경고에 대한 설명을 입력합니다. 예를 들어 SharePoint Online, OneDrive 또는 Microsoft Teams에서 악성 파일이 감지되면 관리자에게 고지할 수 있습니다.
 
-5. 다음의 **경우 이 경고 보내기 섹션에서** 다음을 설정하세요.
+5. 다음을 **설정하여 이 경고 보내기...** 섹션에서 다음을 설정하세요.
 
    a. 활동 **목록에서** **파일에서 검색된 맬웨어를 선택합니다.**
 
@@ -255,7 +260,7 @@ SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft Teams의 파일이 
 경고에 대한 자세한 내용은 보안 및 준수 센터에서 활동 [& 참조합니다.](../../compliance/create-activity-alerts.md)
 
 > [!NOTE]
-> 구성을 마치면 다음 링크를 사용하여 작업 조사를 시작하세요.
+> 구성이 완료되면 다음 링크를 사용하여 작업 조사를 시작하세요.
 >
 >- [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
 >- [보안 및 & 센터를 사용하여 고지된 파일 관리](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files)
@@ -270,9 +275,9 @@ SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft Teams의 파일이 
 
 [ZAP(제로](zero-hour-auto-purge.md) 아워 자동 비우기)는 EOP를 포함 하는 [구독에서 사용할 수 있습니다.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) 이 보호는 기본적으로 켜져 있습니다. 그러나 보호를 적용하려면 다음 조건을 충족해야 합니다.
 
-- 스팸 작업은 스팸 방지 정책에서 메시지를 정크 메일 **폴더로** [이동으로 설정됩니다.](anti-spam-protection.md)
+- 스팸 작업은 스팸 방지 **정책에서** 메시지를 정크 메일 폴더로 [이동으로 설정됩니다.](anti-spam-protection.md)
 
-- 사용자가 기본 정크 메일 설정을 유지하며 [정크](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)메일 보호를 해제하지 않은 경우
+- 사용자는 기본 정크 메일 설정을 유지하며 [정크](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)메일 보호를 해제하지 않은 경우
 
 자세한 내용은 제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 [보호를 참조합니다.](zero-hour-auto-purge.md)
 

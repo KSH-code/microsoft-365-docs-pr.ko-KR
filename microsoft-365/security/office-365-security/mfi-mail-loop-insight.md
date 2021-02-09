@@ -14,23 +14,27 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 가능한 메일 루프 수정 정보를 사용하여 조직에서 메일 루프를 식별하고 & 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f08c27c761cdfe4acbbd8cf80e8ab6da8012b55f
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 3c9607f053fb5011b8c8af3c8bb2073a9d022909
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029897"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150234"
 ---
 # <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 가능한 메일 루프 & 수정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 메일 루프는 좋지 않습니다.
 
 - 시스템 리소스를 낭비합니다.
 - 조직의 메일 볼륨 할당량을 사용하게 됩니다.
-- NDRs 또는 반송 메시지라고도 하는 배달 못지 않은 보고서가 원본 메시지 보낸 사람에 전송됩니다.
+- NDRS 또는 반송 메시지라고도 하는 배달 못 한 보고서가 원본 메시지 보낸 사람에 전송됩니다.
 
 보안 **및** 준수 센터의  메일 흐름 대시보드에서 권장 영역의 가능한 메일 루프 수정 정보에서는 조직에서 메일 루프가 [감지되면](https://protection.office.com) & 통보합니다. [](mail-flow-insights-v2.md)
 
@@ -38,7 +42,7 @@ ms.locfileid: "50029897"
 
 ![메일 흐름 대시보드의 권장 영역에 있는 느린 메일 흐름 규칙 정보 수정](../../media/mfi-fix-possible-mail-loop.png)
 
-위젯에서 **세부** 정보 보기를 클릭하면 자세한 정보가 있는 플라이아웃이 나타납니다.
+위젯에서  세부 정보 보기를 클릭하면 자세한 정보가 있는 플라이아웃이 나타납니다.
 
 - **도메인**
 - **메시지 수:** 샘플 메시지  보기를 클릭하여 루프의 영향을 받은 메시지 샘플에 대한 메시지 추적 결과를 볼 수 있습니다. [](message-trace-scc.md)

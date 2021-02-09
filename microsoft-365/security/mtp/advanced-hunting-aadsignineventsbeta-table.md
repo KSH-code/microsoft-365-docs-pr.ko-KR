@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: b574717d0ba5621d85c8e73f36ddc72b062a1494
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 174db150920d2d95c043bb5d6e5a4593ea1ea39d
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931041"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145430"
 ---
 # <a name="aadsignineventsbeta"></a>AADSignInEventsBeta
 
@@ -34,7 +34,7 @@ ms.locfileid: "49931041"
 - Microsoft 365 Defender
 
 >[!IMPORTANT]
-> 이 표는 현재 베타 상태이며 AAD(Azure Active Directory) 로그인 이벤트를 검색할 수 있도록 단기적으로 `AADSignInEventsBeta` 제공됩니다. 결국 모든 로그인 schema 정보를 테이블로 `IdentityLogonEvents` 이동하게 됩니다.<br><br>
+> 표는 현재 베타 상태이며 AAD(Azure Active Directory) 로그인 이벤트를 검색할 수 있도록 단기적으로 `AADSignInEventsBeta` 제공됩니다. 결국 모든 로그인 schema 정보를 테이블로 `IdentityLogonEvents` 이동하게 됩니다.<br><br>
 > Azure Security Center의 통합된 Microsoft Defender for Endpoint 솔루션을 통해 Microsoft 365 Defender에 액세스할 수 있지만 Office용 Microsoft Defender, ID용 Microsoft Defender 또는 Microsoft Cloud App Security에 대한 라이선스가 없는 고객은 이 schema를 볼 수 없습니다. 
 
  
@@ -60,7 +60,7 @@ ms.locfileid: "49931041"
 | `AccountDisplayName`              | 문자열        | 주소부에 표시된 계정 사용자의 이름입니다. 일반적으로 주어진 이름 또는 이름, 중간 이니셜 및 성 또는 성의 조합입니다.                             |
 | `AccountObjectId`                 | 문자열        | Azure AD에서 계정의 고유 식별자                                                                                                                                       |
 | `AccountUpn`                      | 문자열        | 계정의 UPN(사용자 계정 이름)                                                                                                                                            |
-| `IsExternalUser`                  | int        | 로그인한 사용자가 외부에 있는지 나타냅니다. 가능한 값: -1(설정되지 않은 값), 0(외부 값 아미기), 1(외부)                                                                   |
+| `IsExternalUser`                  | int        | 로그인한 사용자가 외부에 있는지 나타냅니다. 가능한 값: -1(설정 안 ),0(외부 값 아미기), 1(외부)                                                                   |
 | `IsGuestUser`                     | 부울       | 로그인한 사용자가 테넌트의 게스트인지 여부를 나타냅니다.                                                                                                                  |
 | `AlternateSignInName`             | 문자열        | Azure AD에 로그인하는 사용자의 UPN(On-premises User Principal Name)                                                                                                            |
 | `LastPasswordChangeTimestamp`     | datetime        | 마지막으로 로그인한 사용자가 암호를 변경한 날짜 및 시간                                                                                                              |
@@ -85,7 +85,7 @@ ms.locfileid: "49931041"
 | `ConditionalAccessPolicies`       | 문자열        | 로그인 이벤트에 적용된 조건부 액세스 정책의 세부 정보                                                                                                             |
 | `ConditionalAccessStatus`         | int        | 로그인에 적용된 조건부 액세스 정책의 상태입니다. 가능한 값은 0(정책 적용), 1(정책 적용 시도 실패) 또는 2(정책이 적용되지 않은 경우)입니다.      |
 | `IPAddress`                       | 문자열        | 끝점에 할당되어 관련 네트워크 통신 중에 사용되는 IP 주소                                                                                                  |
-| `CountryCode`                     | 문자열        | 클라이언트 IP 주소가 지리적으로 위치하는 국가를 나타내는 두 글자 코드                                                                                                    |
+| `Country`                     | 문자열        | 클라이언트 IP 주소가 지리적으로 위치하는 국가를 나타내는 두 글자 코드                                                                                                    |
 | `State`                           | 문자열        | 로그인이 발생한 상태(사용 가능한 경우)                                                                                                                                      |
 | `City`                            | 문자열        | 계정 사용자가 있는 구                                                                                                                                              |
 | `Latitude`                        | 문자열        | 로그인 위치의 북-남 좌표                                                                                                                              |

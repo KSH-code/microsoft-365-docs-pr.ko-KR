@@ -14,33 +14,37 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 최상위 도메인 메일 흐름 상태 정보를 사용하여 MX 레코드와 관련된 & 문제를 해결하는 방법을 확인할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 457675e7f32cd513f5593ede53a64aaef9d54904
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: df0f571d29d72b23e7b2e210b61a4fb1676175aa
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029909"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150210"
 ---
 # <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 메일 흐름 상태 정보
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 보안 **및** 준수 센터의 [](mail-flow-insights-v2.md) 메일 흐름 [대시보드에서](https://protection.office.com) 최상위 도메인 & 상태 정보를 통해 조직의 현재 메일 흐름 상태를 확인할 수 있습니다.
 
-이 인사이트는 * 메일 흐름 _ 문제가 발생하는 도메인을 *_식별하고 문제를 해결하는_* 데 도움이 됩니다. 예를 들어 도메인이 만료되었거나 도메인에 잘못된 MX 레코드가 있기 때문에 도메인에서 외부 전자 메일을 받을 수 없습니다.
+이 인사이트는 메일 흐름 문제가 발생하는 도메인을 식별하고 ***문제를 해결하는 데 도움이*** 됩니다. 예를 들어 도메인이 만료되었거나 도메인에 잘못된 MX 레코드가 있기 때문에 도메인에서 외부 전자 메일을 받을 수 없습니다.
 
 ![보안 및 준수 센터의 메일 흐름 대시보드에서 & 흐름 상태 위젯](../../media/mfi-top-domain-mail-flow-status-widget.png)
 
-위젯에서 _ *세부* 정보 보기 *  를 클릭하면 각 도메인의 상태에 대한 더 많은 세부 정보를 표시하는 도메인 상태 플라이아웃이 나타납니다.
+위젯에서 **세부** 정보 보기를 클릭하면  각 도메인의 상태에 대한 자세한 정보가 나타나는 도메인 상태 플라이아웃이 나타납니다.
 
 - **도메인**
 - **이전 MX 레코드**
 - **현재 MX 레코드**
 - **전자 메일 수신 상태**
-- **도메인 상태:** 녹색 확인 표시는 위젯을 클릭할 때 현재 MX 레코드가 레코드에 있는 값과 일치하고 도메인이 지난 2시간 동안 전자 메일을 수신한 경우를 나타냅니다.
+- **도메인 상태:** 녹색 확인 표시는 현재 MX 레코드(위젯을 클릭한 시간)가 레코드에 있는 값과 일치하고 도메인이 지난 2시간 동안 전자 메일을 수신한 경우를 나타냅니다.
 
-  빨간색 X는 MX 레코드가 변경되고 도메인이 지난 6시간 동안 전자 메일을 받지 않은 경우를 나타냅니다. 이는 도메인이 만료되었거나 MX 레코드가 잘못 업데이트된 것일 수 있습니다. 도메인 등록 기관 또는 DNS 호스팅 서비스에 확인하여 도메인이 만료되었거나 도메인의 MX 레코드가 올바르지 않은지 확인해 봐야 합니다.
+  빨간색 X는 MX 레코드가 변경되고 도메인이 지난 6시간 동안 전자 메일을 받지 않은 경우를 나타냅니다. 이는 도메인이 만료되었거나 MX 레코드가 잘못 업데이트된 것일 수 있습니다. 도메인 등록 기관 또는 DNS 호스팅 서비스에 확인하여 도메인이 만료되었거나 도메인의 MX 레코드가 잘못된지 확인할 수 있습니다.
 
 더 보기를 **클릭하여** 더 많은 도메인에 대한 동일한 정보를 볼 수 있습니다.
 

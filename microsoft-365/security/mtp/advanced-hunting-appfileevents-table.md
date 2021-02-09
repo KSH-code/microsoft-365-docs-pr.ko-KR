@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 59e9affc53398f2a1b06fbab9774e4b53e146425
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 8406d1f9e3d56555b1699d191933c6f9735c9574
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932877"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145490"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -38,7 +38,7 @@ ms.locfileid: "49932877"
 고급 헌팅 계획의 표에는 Microsoft Cloud App Security에서 모니터링하는 클라우드 앱 및 서비스의 파일 관련 활동에 대한 `AppFileEvents` 정보가 포함되어 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 >[!TIP]
-> 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` [schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 사용합니다.
+> 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` [Schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 사용합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
@@ -50,10 +50,11 @@ ms.locfileid: "49932877"
 | `FileName` | 문자열 | 기록된 조치가 적용된 파일의 이름 |
 | `FolderPath` | 문자열 | 기록된 작업이 적용된 파일이 들어 있는 폴더 |
 | `PreviousFileName` | 문자열 | 작업의 결과로 이름이 변경된 파일의 원래 이름입니다. |
-| `PreviousFolderPath` | 문자열 | 기록된 작업이 적용되기 전 파일이 들어 있는 원본 폴더 |
-| `Protocol` | 문자열 | 사용되는 네트워크 프로토콜 |
+| `PreviousFolderPath` | 문자열 | 기록된 작업이 적용되기 전의 파일이 들어 있는 원본 폴더 |
+| `Protocol` | 문자열 | 사용된 네트워크 프로토콜 |
 | `AccountName` | 문자열 | 계정의 사용자 이름 |
 | `AccountDomain` | 문자열 | 계정의 도메인 |
+| `AccountSid` | 문자열 | 계정의 SID(보안 식별자)입니다. |
 | `AccountUpn` | 문자열 | 계정의 UPN(사용자 계정 이름) |
 | `AccountObjectId` | 문자열 | Azure AD에서 계정의 고유 식별자 |
 | `AccountDisplayName` | 문자열 | 주소부에 표시된 계정 사용자의 이름입니다. 일반적으로 지정한 이름이나 이름, 중간 초기화 및 성 또는 성의 조합입니다. |
@@ -61,14 +62,16 @@ ms.locfileid: "49932877"
 | `DeviceType` | 문자열 | 디바이스 유형 | 
 | `OSPlatform` | 문자열 | 디바이스에서 실행되는 운영 체제의 플랫폼입니다. 이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. |
 | `IPAddress` | 문자열 | 끝점에 할당되어 관련 네트워크 통신 중에 사용되는 IP 주소 |
+| `Port` | 문자열 | 통신 중에 사용되는 TCP 포트  |
 | `DestinationDeviceName` | 문자열 | 기록된 작업을 처리한 서버 응용 프로그램을 실행하는 장치의 이름입니다. |
 | `DestinationIPAddress` | 문자열 | 기록된 작업을 처리한 서버 응용 프로그램을 실행하는 장치의 IP 주소 |
+| `DestinationPort` | 문자열 | 관련 네트워크 통신의 대상 포트 |
 | `Location` | 문자열 | 이벤트와 관련된 도시, 국가 또는 기타 지리적 위치 |
 | `Isp` | 문자열 | 끝점 IP 주소와 연결된 ISP(인터넷 서비스 공급자) |
 | `ReportId` | long | 이벤트의 고유 식별자 |
 | `AdditionalFields` | 문자열 | 엔터티 또는 이벤트에 대한 추가 정보 |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)

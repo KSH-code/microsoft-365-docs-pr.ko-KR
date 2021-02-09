@@ -1,5 +1,5 @@
 ---
-title: 고급 헌팅의 AADSpnSignInEventsBeta 테이블
+title: 고급 헌팅chema의 AADSpnSignInEventsBeta 테이블
 description: Azure Active Directory 서비스 사용자 및 관리되는 ID 로그인 이벤트 테이블에 연결된 고급 헌팅 구조 표에 대해 자세히 알아보십시오.
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, AlertInfo, alert, entities, evidence, file, IP address, device, machine, user, account, identity, AAD
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 172c400df3adea70a2e2d2e37547fa39e0d3b9cf
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 3eba2459fd9a0af1963ca8d1446b22fc0b1bdb93
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928621"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145406"
 ---
 # <a name="aadspnsignineventsbeta"></a>AADSpnSignInEventsBeta
 
@@ -39,7 +39,7 @@ ms.locfileid: "49928621"
 
 
 
-고급 헌팅 구조의 표에는 Azure Active Directory 서비스 사용자 및 관리되는 ID 로그인에 대한 `AADSpnSignInEventsBeta` 정보가 포함되어 있습니다. Azure Active Directory 로그인 활동 보고서의 다양한 종류의 로그인에 대한 자세한 내용은 [미리 보기를](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-all-sign-ins)참조하십시오.
+고급 헌팅 구조의 표에는 Azure Active Directory 서비스 사용자 및 관리되는 ID 로그인에 대한 `AADSpnSignInEventsBeta` 정보가 포함되어 있습니다. Azure Active Directory 로그인 활동 보고서 미리 보기에서 다양한 종류의 로그인에 대해 자세히 [알아보십시오.](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-all-sign-ins)
 
 이 참조를 사용하여 표의 정보를 반환하는 쿼리를 생성합니다.
 
@@ -63,11 +63,11 @@ ms.locfileid: "49928621"
 | `ResourceId`           | 문자열        | 액세스한 리소스의 고유 식별자                                                                                                      |
 | `ResourceTenantId`     | 문자열        | 액세스한 리소스의 테넌트의 고유 식별자                                                                                        |
 | `IPAddress`            | 문자열        | 끝점에 할당되어 관련 네트워크 통신 중에 사용되는 IP 주소                                                              |
-| `CountryCode`          | 문자열        | 클라이언트 IP 주소가 지리적으로 위치하는 국가를 나타내는 두 글자 코드                                                                |
+| `Country`          | 문자열        | 클라이언트 IP 주소가 지리적으로 위치하는 국가를 나타내는 두 글자 코드                                                                |
 | `State`                | 문자열        | 로그인이 발생한 상태(사용 가능한 경우)                                                                                                  |
 | `City`                 | 문자열        | 계정 사용자가 있는 구                                                                                                          |
 | `Latitude`             | 문자열        | 로그인 위치의 북-남 좌표                                                                                          |
-| `Longitude`            | 문자열        | 로그인 위치의 동쪽에서 서 좌표                                                                                            |
+| `Longitude`            | 문자열        | 로그인 위치의 동쪽에서 서 좌표까지                                                                                            |
 | `RequestId`            | 문자열        | 요청의 고유 식별자                                                                                                                |
 |`ReportId` | 문자열 | 이벤트의 고유 식별자 | 
 

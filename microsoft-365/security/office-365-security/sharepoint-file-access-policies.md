@@ -18,14 +18,20 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: a217970098ab88da286bb44a69845b6383a27bbc
-ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
+ms.openlocfilehash: 5c739a47ccab79561277436812c36f842b6b578c
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097177"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142816"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>SharePoint 사이트 및 파일 보안에 대한 정책 권장 사항
+
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- SharePoint Online 
+
 
 이 문서에서는 SharePoint 및 비즈니스용 OneDrive를 보호하기 위해 권장되는 ID 및 장치 액세스 정책을 구현하는 방법을 설명합니다. 이 지침은 공통 ID 및 장치 액세스 [정책을 빌드합니다.](identity-access-policies.md)
 

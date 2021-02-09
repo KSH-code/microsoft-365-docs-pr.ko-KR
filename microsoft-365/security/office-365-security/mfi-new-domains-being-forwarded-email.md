@@ -9,22 +9,26 @@ audience: ITPro
 ms.topic: conceptual
 localization_priority: Normal
 ms.assetid: ''
-description: 관리자는 & 보안 및 준수 센터의 메일 흐름 대시보드에서 새 도메인이 전달되는 전자 메일 정보를 사용하여 사용자가 전달되지 않은 외부 도메인으로 메시지를 전달하는 경우를 조사하는 방법을 파악할 수 있습니다.
+description: 관리자는 & 보안 및 준수 센터의 메일 흐름 대시보드에서 새 도메인이 전달되는 전자 메일 정보를 사용하여 사용자가 전달되지 않은 외부 도메인으로 메시지를 전달하는 경우를 조사하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eb44f5d577d18fc38333cca5e8d2d862f288a2e0
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: a4429f1657861091082fdfaedb52c85cec3a0cc1
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029861"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150607"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 전달되는 새 & 정보
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-특정 도메인의 외부 받는 사람에게 전자 메일 메시지를 전달하는 유효한 비즈니스 이유가 있습니다. 그러나 조직의 사용자가 갑자기 조직의 어느 누구도 (새 도메인)에게 메시지를 전달한 적 없는 도메인에 메시지를 전달하기 시작하면 의심스러우게 됩니다.
+특정 도메인의 외부 받는 사람에게 전자 메일 메시지를 전달하는 유효한 비즈니스 이유가 있습니다. 그러나 조직의 사용자가 갑자기 조직의 어느 누구도 메시지를 전달한 적 없는 도메인(새 도메인)으로 메시지를 전달하기 시작하면 의심스러우게 됩니다.
 
 이 조건은 사용자 계정이 손상된 것일 수 있습니다. 계정이 손상된 것으로 의심되는 경우 손상된 전자 메일 계정에 응답을 [참조하세요.](responding-to-a-compromised-email-account.md)
 
@@ -42,6 +46,6 @@ ms.locfileid: "50029861"
 
 외부 도메인으로 자동 메시지 전달을 방지하려면 일부 또는 모든 외부 도메인에 대해 원격 도메인을 구성합니다. 자세한 내용은 [Exchange Online에서 원격 도메인 관리를 참조하세요.](https://docs.microsoft.com/Exchange/mail-flow-best-practices/remote-domains/manage-remote-domains)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 메일 흐름 대시보드의 다른 인사이트에 대한 자세한 내용은 보안 및 준수 센터의 메일 [흐름 & 참조하세요.](mail-flow-insights-v2.md)

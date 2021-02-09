@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e445902ee83b734f84d02607905413a14c016b8f
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 6462096a6c1b44ee11299f652a54f261d0355523
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931281"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145370"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -52,13 +52,15 @@ ms.locfileid: "49931281"
 | `OSPlatform` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 10 및 Windows 7과 같은 동일한 패밀리 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. |
 | `OSBuild` | 문자열 | 시스템에서 실행되는 운영 체제의 빌드 버전 |
 | `IsAzureADJoined` | 부울 | 컴퓨터의 Azure Active Directory 가입 여부를 나타내는 부울 표시기입니다. |
+| `DeviceObjectId` | 문자열 | Azure AD에서 디바이스의 고유 식별자 |
 | `LoggedOnUsers` | 문자열 | 이벤트 당시 컴퓨터에 기록된 모든 사용자 목록(JSON 배열 형식) |
 | `RegistryDeviceTag` | 문자열 | 레지스트리를 통해 추가된 컴퓨터 태그 |
 | `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유한 이벤트를 식별하려면 이 열을 DeviceName 및 타임스탬프 열과 함께 사용해야 합니다. |
+|`AdditionalFields` | 문자열 | JSON 배열 형식의 이벤트에 대한 추가 정보 |
 | `OSVersion` | 문자열 | 컴퓨터에서 실행 중인 운영 체제 버전 |
 | `MachineGroup` | 문자열 | 컴퓨터의 컴퓨터 그룹입니다. 이 그룹은 역할 기반 액세스 제어에서 컴퓨터 액세스 확인에 사용됩니다. |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)

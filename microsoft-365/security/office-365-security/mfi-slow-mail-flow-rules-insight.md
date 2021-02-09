@@ -12,20 +12,24 @@ localization_priority: Normal
 ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 & 보안 및 준수 센터의 느린 메일 흐름 규칙 수정 정보를 사용하여 조직에서 비효율적 또는 손상된 메일 흐름 규칙(전송 규칙)을 식별하고 수정하는 방법을 알 수 있습니다.
+description: 관리자는 & 보안 및 준수 센터의 느린 메일 흐름 규칙 수정 정보를 사용하여 조직에서 비효율적 또는 손상된 메일 흐름 규칙(전송 규칙)을 식별하고 수정하는 방법을 확인할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ef9f26994f563a5f9dad411f2276fd42c28496f9
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: f7f084735decda922b5bcc57c029f2b384114d30
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029129"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150787"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 느린 메일 흐름 & 정보 수정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 비효율적인 메일 흐름 규칙(전송 규칙)은 조직의 메일 흐름 지연으로 이어질 수 있습니다. 이 인사이트는 조직의 메일 흐름에 영향을 미치는 메일 흐름 규칙을 보고합니다. 이러한 유형의 규칙의 예는 다음과 같습니다.
 
@@ -41,7 +45,7 @@ The **Fix slow mail flow rules insight** in the Recommended for **you** area of 
 
 ![메일 흐름 대시보드의 권장 영역에 있는 느린 메일 흐름 규칙 정보 수정](../../media/mfi-fix-slow-mail-flow-rules.png)
 
-위젯에서 **세부** 정보 보기를 클릭하면 자세한 정보가 있는 플라이아웃이 나타납니다.
+위젯에서  세부 정보 보기를 클릭하면 자세한 정보가 있는 플라이아웃이 나타납니다.
 
 - **규칙:** 요약 위에 마우스를 대고 규칙의 모든 조건, 예외 및 작업을 볼 수 있습니다. 요약을 클릭하여 EAC(Exchange 관리 센터)에서 규칙을 편집할 수 있습니다.
 - **평가된** 메시지 수: 샘플  메시지 보기를 클릭하여 [](message-trace-scc.md) 규칙의 영향을 받은 메시지의 샘플에 대한 메시지 추적 결과를 볼 수 있습니다.

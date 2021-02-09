@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 1df1295b3386b94e3737c53ac8226c719c8bfa08
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 87ac6194374e8e042cf9d00271b17dd8bb785d64
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929925"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145358"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -38,7 +38,7 @@ ms.locfileid: "49929925"
 고급 헌팅 계획의 표에는 ID를 위해 Microsoft Defender에서 캡처한 프레미스 Active Directory를 통한 인증 활동 및 Microsoft Cloud App Security에서 캡처한 Microsoft 온라인 서비스와 관련된 인증 활동에 대한 정보가 포함되어 `IdentityLogonEvents` 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 >[!TIP]
-> 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` [schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 사용합니다.
+> 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` [Schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 사용합니다.
 
 >[!NOTE]
 >이 표에서는 Cloud App Security에서 추적하는 Azure AD(Active Directory) 로그온 활동, 특히 ActiveSync 및 기타 레거시 프로토콜을 사용하는 대화형 로그인 및 인증 활동에 대해 설명합니다. 이 표에서 사용할 수 없는 비대화형 로그온은 Azure AD 감사 로그에서 볼 수 있습니다. [Cloud App Security를 Microsoft 365에 연결하는 방법을 자세히 알아보시고](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
@@ -49,7 +49,7 @@ ms.locfileid: "49929925"
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
 | `ActionType` | 문자열 | 이벤트를 트리거한 활동의 유형입니다. 자세한 내용은 포털 [내 Schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 참조합니다. |
-| `LogonType` | 문자열 | 특히 로그온 세션의 유형:<br><br> - **대화형** - 사용자가 로컬 키보드 및 화면을 사용하여 컴퓨터와 물리적으로 상호 작용<br><br> - **RDP(원격 대화형)** 로그널 - 사용자가 원격 데스크톱, 터미널 서비스, 원격 지원 또는 기타 RDP 클라이언트를 사용하여 원격으로 컴퓨터와 상호 작용합니다.<br><br> - **네트워크** - PsExec을 사용하여 컴퓨터 액세스 또는 컴퓨터의 공유 리소스(예: 프린터 및 공유 폴더)에 액세스할 때 시작된 세션<br><br> - **일괄** 처리 - 예약된 작업으로 시작된 세션<br><br> - **서비스** - 서비스 시작 시 서비스에서 시작된 세션 |
+| `LogonType` | 문자열 | 특히 로그온 세션의 유형:<br><br> - **대화형** - 사용자가 로컬 키보드 및 화면을 사용하여 컴퓨터와 물리적으로 상호 작용<br><br> - **RDP(원격 대화형)** 로그널 - 사용자가 원격 데스크톱, 터미널 서비스, 원격 지원 또는 기타 RDP 클라이언트를 사용하여 원격으로 컴퓨터와 상호 작용합니다.<br><br> - **네트워크** - PsExec을 사용하여 컴퓨터 액세스 또는 컴퓨터의 공유 리소스(예: 프린터 및 공유 폴더)에 액세스할 때 시작된 세션<br><br> - **Batch** - 예약된 작업으로 시작된 세션<br><br> - **서비스** - 서비스 시작 시 서비스에서 시작된 세션 |
 | `Application` | 문자열 | 기록된 작업을 수행한 응용 프로그램 |
 | `Protocol` | 문자열 | 사용된 네트워크 프로토콜 |
 | `FailureReason` | 문자열 | 기록된 작업이 실패한 이유를 설명하는 정보 |
@@ -63,16 +63,18 @@ ms.locfileid: "49929925"
 | `DeviceType` | 문자열 | 디바이스 유형 |
 | `OSPlatform` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. |
 | `IPAddress` | 문자열 | 끝점에 할당되어 관련 네트워크 통신 중에 사용되는 IP 주소 |
+| `Port` | 문자열 | 통신 중에 사용되는 TCP 포트 |
 | `DestinationDeviceName` | 문자열 | 기록된 작업을 처리한 서버 응용 프로그램을 실행하는 장치의 이름입니다. |
 | `DestinationIPAddress` | 문자열 | 기록된 작업을 처리한 서버 응용 프로그램을 실행하는 장치의 IP 주소 |
+| `DestinationPort` | 문자열 | 관련 네트워크 통신의 대상 포트 |
 | `TargetDeviceName` | 문자열 | 기록된 작업이 적용된 장치의 FQDN(FQDN) |
-| `TargetAccountDisplayName` | 문자열 | 기록된 작업이 적용된 계정의 표시 이름입니다. |
+| `TargetAccountDisplayName` | 문자열 | 기록된 작업이 적용된 계정의 표시 이름 |
 | `Location` | 문자열 | 이벤트와 관련된 도시, 국가 또는 기타 지리적 위치 |
 | `Isp` | 문자열 | 끝점 IP 주소와 연결된 ISP(인터넷 서비스 공급자) |
 | `ReportId` | long | 이벤트의 고유 식별자 |
 | `AdditionalFields` | 문자열 | 엔터티 또는 이벤트에 대한 추가 정보 |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)

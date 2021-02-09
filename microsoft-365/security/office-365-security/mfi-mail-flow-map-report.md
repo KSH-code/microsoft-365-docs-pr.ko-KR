@@ -14,19 +14,23 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 메일 흐름 맵을 사용하여 커넥터를 사용하지 않고도 조직에서 보내고 & 방법을 시각화하고 추적하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c07730f3abcec8905285cdfdf1579ffb71573ec1
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 87a5780bd2485ba6ad3b295c09a30a4d7fc34277
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029921"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150563"
 ---
 # <a name="mail-flow-map-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 흐름 맵
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-보안 **및** 준수 [](mail-flow-insights-v2.md) 센터의 메일 흐름 [대시보드에](https://protection.office.com) 있는 메일 흐름 맵은 & 조직을 통해 메일이 흐르는 방식에 대한 정보를 제공합니다. 이 정보를 사용하여 패턴을 학습하고, 이들을 식별하고, 발생할 때 문제를 해결할 수 있습니다.
+보안 및 준수 [](mail-flow-insights-v2.md) 센터의 메일 [](https://protection.office.com) 흐름 대시보드에 있는 메일 흐름 **맵은** & 조직을 통해 메일이 흐르는 방식에 대한 정보를 제공합니다. 이 정보를 사용하여 패턴을 학습하고, 이들을 식별하고, 발생할 때 문제를 해결할 수 있습니다.
 
 ![보안 및 준수 센터의 메일 흐름 대시보드에서 메일 흐름 & 위젯](../../media/mfi-mail-flow-map-widget.png)
 
@@ -34,9 +38,9 @@ ms.locfileid: "50029921"
 
 ## <a name="report-view-for-the-mail-flow-map"></a>메일 흐름 맵에 대한 보고서 보기
 
-메일 흐름 맵 **위젯을** 클릭하면 메일 흐름 지도 **보고서로 표시됩니다.**
+메일 흐름 맵 **위젯을** 클릭하면 메일 흐름 맵 **보고서로 표시됩니다.**
 
-보고서 보기에서 사용할 수 있는 차트는 다음과 같습니다.
+보고서 보기에서는 다음 차트를 사용할 수 있습니다.
 
 - **데이터 표시: 개요:** 이 보기는 기본적으로 위젯의 더 큰 보기입니다. 특정 색 위에 마우스를 대면 해당 유형의 커넥터에 대한 메시지 수가 표시됩니다.
 
@@ -57,7 +61,7 @@ ms.locfileid: "50029921"
 보고서 **보기에서** 세부 정보 표 보기를 클릭하면 다음 정보가 표시됩니다.
 
 - **날짜**
-- **범주**
+- **종류**
 - **커넥터/타사 서비스 공급자**
 - **보낸 사람/받는 사람 도메인**
 - **메시지 수**

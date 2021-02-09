@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7016127a75bca48103f5325ce169faa3d7c31c85
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 48a1520e9fc6239fd3105f01a32a03e5e58df174
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929817"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145298"
 ---
 # <a name="identityqueryevents"></a>IdentityQueryEvents
 
@@ -38,7 +38,7 @@ ms.locfileid: "49929817"
 고급 헌팅 구조의 표에는 사용자, 그룹, 장치 및 도메인과 같은 Active Directory 개체에 대해 수행되는 쿼리에 대한 `IdentityQueryEvents` 정보가 포함되어 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 >[!TIP]
-> 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` [schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 사용합니다.
+> 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` [Schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 사용합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
@@ -59,16 +59,18 @@ ms.locfileid: "49929817"
 | `AccountDisplayName` | 문자열 | 주소부에 표시된 계정 사용자의 이름입니다. 일반적으로 지정한 이름이나 이름, 중간 초기화 및 성 또는 성의 조합입니다. |
 | `DeviceName` | 문자열 | 끝점의 FQDN(FQDN) |
 | `IPAddress` | 문자열 | 끝점에 할당되어 관련 네트워크 통신 중에 사용되는 IP 주소 |
+| `Port` | 문자열 | 통신 중에 사용되는 TCP 포트 |
 | `DestinationDeviceName` | 문자열 | 기록된 작업을 처리한 서버 응용 프로그램을 실행하는 장치의 이름입니다. |
 | `DestinationIPAddress` | 문자열 | 기록된 작업을 처리한 서버 응용 프로그램을 실행하는 장치의 IP 주소 |
+| `DestinationPort` | 문자열 | 관련 네트워크 통신의 대상 포트 |
 | `TargetDeviceName` | 문자열 | 기록된 작업이 적용된 장치의 FQDN(FQDN) |
 | `TargetAccountUpn` | 문자열 | 기록된 작업이 적용된 계정의 UPN(사용자 계정 이름) |
-| `TargetAccountDisplayName` | 문자열 | 기록된 작업이 적용된 계정의 표시 이름 |
+| `TargetAccountDisplayName` | 문자열 | 기록된 작업이 적용된 계정의 표시 이름입니다. |
 | `Location` | 문자열 | 이벤트와 관련된 도시, 국가 또는 기타 지리적 위치 |
 | `ReportId` | long | 이벤트의 고유 식별자 |
 | `AdditionalFields` | 문자열 | 엔터티 또는 이벤트에 대한 추가 정보 |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)

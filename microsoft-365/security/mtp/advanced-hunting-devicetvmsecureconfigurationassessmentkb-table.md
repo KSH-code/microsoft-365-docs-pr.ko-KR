@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 4cd23b8f3ba99b38264b9bf1ba18e8ec2574bab6
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: cf4204767843b9a9e0b0bbfecc2d3fc50db531fc
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931065"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145454"
 ---
 # <a name="devicetvmsecureconfigurationassessmentkb"></a>DeviceTvmSecureConfigurationAssessmentKB
 
@@ -51,10 +51,10 @@ ms.locfileid: "49931065"
 | `ConfigurationCategory` | 문자열 | 구성이 속해 있는 범주 또는 그룹(응용 프로그램, OS, 네트워크, 계정, 보안 제어)|
 | `ConfigurationSubcategory` | 문자열 |구성이 속한 하위 범주나 하위 그룹 대부분의 경우 이는 특정 기능이나 특징을 설명합니다. |
 | `ConfigurationBenchmarks` | 문자열 | 동일하거나 유사한 구성을 제안하는 산업 벤치마크 목록 |
-| `RelatedMitreTechniques` | 문자열 | 구성과 관련된 Mitre ATT&CK 프레임워크 기법 목록 |
-| `RelatedMitreTactics ` | 문자열 | 구성과 관련된 Mitre ATT&CK 프레임워크 전술 목록 |
+| `Tags` | 문자열 | 보안 구성을 식별하거나 분류하는 데 사용되는 다양한 특성을 나타내는 레이블 |
+| `RemediationOptions` | 문자열 | 관련 위험을 줄이거나 해결하기 위해 권장되는 작업 |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [사전 대응식 위협 탐지](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)

@@ -1,5 +1,5 @@
 ---
-title: 자동화된 조사 및 응답에서 보류 중인 수정 작업 검토 및 승인
+title: Microsoft Defender for Office 365에서 수정 작업 검토 및 관리
 keywords: AIR, autoIR, ATP, 자동화된, 조사, 대응, 수정, 위협, 고급, 위협, 보호
 f1.keywords:
 - NOCSH
@@ -7,8 +7,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 audience: ITPro
-ms.topic: article
-ms.service: O365-seccomp
+ms.topic: how-to
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,45 +15,61 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Microsoft Defender for Office 365 계획 2의 자동화된 조사 및 응답 기능의 수정 작업에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9a1fdb4bec5168dfcd816dbce7da01f930e38ae1
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+description: Office 365 계획 2용 Microsoft Defender의 자동화된 조사 및 응답 기능의 수정 작업에 대해 자세히 알아보고,
+ms.technology: mdo
+ms.prod: m365-security
+ms.date: 01/29/2021
+ms.openlocfilehash: bcff8f12133ea16e3d91e293943be1593eaf9659
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615195"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142696"
 ---
-# <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a>Office 365에서 자동화된 조사 후 보류 중 또는 완료된 수정 작업 보기
+# <a name="review-and-manage-remediation-actions-in-office-365"></a>Office 365에서 수정 작업 검토 및 관리
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+전자 메일 및 공동 작업 콘텐츠에 대한 & 조사를 수행하면 악성 또는 의심스러운 등의 결과가 생성되면 특정 수정 작업이 만들어집니다.  Office 365용 Microsoft Defender에서 수정 작업에는 다음이 포함됩니다.
+- URL 차단(클릭 시간)
+- 전자 메일 메시지 또는 클러스터 소프트 삭제
+- 전자 메일 또는 전자 메일 첨부 파일과의 전송
+- 외부 메일 전달 끄기
 
-
-
-![AIR 조사 작업 페이지](../../media/air-investigationactionspage.png)
+이러한 수정 작업은 보안 운영 팀이 승인하지 않는 한 수행되지 않습니다. 자동화된 조사가 제시간에 완료될 수 있도록 가능한 한 빨리 보류 중인 작업을 검토하고 승인하는 것이 좋습니다. 경우에 따라 수정 작업을 실행 취소할 수 있습니다.
 
 ## <a name="approve-or-reject-pending-actions"></a>보류 중인 작업 승인(또는 거부)
 
-조사의 [세부](air-view-investigation-results.md)정보를 보는 동안 보류 중인 수정 작업을 승인하거나 거부할 수 있습니다. 자동화된 조사가 완료될 수 있도록 가능한 한 빨리 이 작업을 수행 하는 것이 좋습니다.
+1. Microsoft 365 보안 센터로 이동하여 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다.
+2. 탐색 창에서 작업 **센터를 선택합니다.**
+3. 보류 **중인** 탭에서 승인 대기 중인 작업 목록을 검토합니다.
+4. 목록에서 항목을 선택합니다. 플라이아웃 창이 열립니다. 
+5. 플라이아웃 창의 정보를 검토하고 다음 단계 중 하나를 수행합니다.
+   - 조사에 대한 자세한 내용을 **확인하려면** 조사 열기 페이지를 선택합니다.
+   - **승인을** 선택하여 보류 중인 작업을 시작합니다.
+   - 보류 **중인** 작업이 수행되지 않도록 방지하려면 거부를 선택합니다.
 
-> [!IMPORTANT]
-> 재구성 작업을 승인하거나 거부하려면 적절한 권한이 필요합니다. [AIR 기능을 사용하려면 필요한 사용 권한을 참조합니다.](office-365-air.md#required-permissions-to-use-air-capabilities)
+## <a name="undo-one-remediation-action"></a>수정 작업 실행 취소
 
-1. <https://protection.office.com>으로 이동하여 로그인합니다. 이렇게하면 보안 및 준수 & 수 있습니다.
+1. Go to the Action center ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) and sign in.
+2. 사용 기록 **탭에서** 실행 취소할 작업을 선택합니다.
+3. 화면 오른쪽 창에서 **취소를 선택합니다.**
 
-2. 위협 **Threat management** 관리 \> **조사로 이동.**
+## <a name="undo-multiple-remediation-actions"></a>여러 수정 작업 취소
 
-3. 조사 목록에서 ID 열의 **항목을** 선택합니다.
+1. Go to the Action center ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) and sign in.
+2. 사용 기록 **탭에서** 취소할 작업을 선택합니다. 작업 유형이 같은 항목을 선택해야 합니다. 플라이아웃 창이 열립니다.
+3. 플라이아웃 창에서 취소를 선택합니다.
 
-4. 작업 **탭을** 선택합니다.
+## <a name="to-remove-a-file-from-quarantine-across-multiple-devices"></a>여러 장치에서 파일을 분리하려면
 
-5. 목록에서 항목을 선택합니다. (승인 및 거부 단추가 활성화됩니다.)
-
-6. 선택한 항목에 대해 사용 가능한 정보를 검토한 다음 작업을 승인하거나 거부합니다.
-   - **승인을** 통해 수정을 시작할 수 있습니다.
-   - **거부는** 추가 작업을 수행하지 않습니다.
+1. Go to the Action center ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) and sign in.
+2. 사용 기록 **탭에서** 작업 유형이 **Quarantine** 파일이 있는 파일을 선택합니다.
+3. 화면 오른쪽 창에서 이 파일의 X **추가** 인스턴스에 적용을 선택한 다음 실행 **취소를 선택합니다.**
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Office 365의 자동화된 조사 세부 정보 및 결과](air-view-investigation-results.md)
-
 - [위협 탐색기 사용](threat-explorer.md)
+- [자동화된 조사 및 응답 기능에서 가짓 긍정/부정을 보고하는 방법](air-report-false-positives-negatives.md)
+
+## <a name="see-also"></a>참고 항목
+
+- [Office 365에서 자동화된 조사의 세부 정보 및 결과 보기](air-view-investigation-results.md)

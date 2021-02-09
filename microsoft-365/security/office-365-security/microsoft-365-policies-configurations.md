@@ -19,14 +19,18 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: d8a4a3c519ab51a5aed6ad1819a67bf93df2cbb2
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 2b72152b94d7bea85d92f86f16bdb27ffe541ebc
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928917"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150799"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
+
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
 
 이제 조직의 최신 보안 경계는 다양한 디바이스로 모든 위치에서 클라우드 기반 앱에 액세스하는 사용자를 포함하기 위해 네트워크 이상으로 확장됩니다. 보안 인프라는 특정 액세스 요청을 허용할지 여부와 조건에 따라 결정해야 합니다.
 
@@ -111,7 +115,7 @@ Azure AD는 전체 ID 관리 기능 제품군을 제공합니다. 이러한 기�
 |기능 또는 특징|설명|라이선싱|
 |---|---|---|
 |[MFA(Multi-Factor Authentication)](/azure/active-directory/authentication/concept-mfa-howitworks)|MFA를 사용하려면 사용자가 사용자 암호와 Microsoft Authenticator 앱의 알림 또는 전화 통화와 같은 두 가지 인증 형식을 제공해야 합니다. MFA는 도난된 자격 증명을 사용하여 환경에 액세스할 수 있는 위험을 크게 줄입니다. Microsoft 365는 MFA 기반 로그인에 Azure AD 다단계 인증 서비스를 사용 합니다.|Microsoft 365 E3 혹은 E5|
-|[조건부 액세스](/azure/active-directory/conditional-access/overview)|Azure AD는 사용자 로그인의 조건을 평가하고 조건부 액세스 정책을 사용하여 허용된 액세스를 파악합니다. 예를 들어 이 지침에서는 중요한 데이터에 대한 액세스에 대한 장치 준수를 요구하는 조건부 액세스 정책을 만드는 방법을 보여 주겠습니다. 이렇게 하면 해커가 자신의 장치를 소유하고 자격 증명을 도난당하여 중요한 데이터에 액세스할 수 있는 위험이 크게 줄어듭니다. 또한 디바이스가 상태 및 보안에 대한 특정 요구 사항을 충족해야 하기 때문에 장치의 중요한 데이터를 보호합니다.|Microsoft 365 E3 혹은 E5|
+|[조건부 액세스](/azure/active-directory/conditional-access/overview)|Azure AD는 사용자 로그인의 조건을 평가하고 조건부 액세스 정책을 사용하여 허용된 액세스를 파악합니다. 예를 들어 이 지침에서는 중요한 데이터에 대한 액세스에 대한 장치 준수를 요구하는 조건부 액세스 정책을 만드는 방법을 보여 주겠습니다. 이렇게 하면 해커가 자신의 장치를 소유하고 자격 증명을 훔친 경우 중요한 데이터에 액세스할 수 있는 위험이 크게 줄어듭니다. 또한 디바이스가 상태 및 보안에 대한 특정 요구 사항을 충족해야 하기 때문에 장치의 중요한 데이터를 보호합니다.|Microsoft 365 E3 혹은 E5|
 |[Azure AD 그룹](/azure/active-directory/fundamentals/active-directory-manage-groups)|조건부 액세스 정책, Intune을 사용하여 장치 관리, 조직의 파일 및 사이트에 대한 사용 권한까지 사용자 계정 또는 Azure AD 그룹에 할당해야 합니다. 구현하는 보호 수준에 해당하는 Azure AD 그룹을 만드는 것이 좋습니다. 예를 들어 임원진은 해커의 가치 목표가 더 높을 수 있습니다. 따라서 이러한 직원의 사용자 계정을 Azure AD 그룹에 추가하고 이 그룹을 조건부 액세스 정책 및 액세스에 대한 높은 수준의 보호를 적용하는 기타 정책에 할당하는 것이 타당합니다.|Microsoft 365 E3 혹은 E5|
 |[장치 등록](/azure/active-directory/devices/overview)|Azure AD에 장치를 등록하여 디바이스에 대한 ID를 만들 수 있습니다. 이 ID는 사용자가 로그인할 때 디바이스를 인증하고 도메인에 가입되거나 호환되는 PC가 필요한 조건부 액세스 정책을 적용하는 데 사용됩니다. 이 지침에서는 장치 등록을 사용하여 도메인에 가입된 Windows 컴퓨터를 자동으로 등록합니다. 장치 등록은 Intune을 사용하여 디바이스를 관리하기 위한 선행 필요합니다.|Microsoft 365 E3 혹은 E5|
 |[Azure AD ID 보호](/azure/active-directory/identity-protection/overview)|조직의 ID에 영향을 주는 잠재적인 취약점을 감지하고 낮은, 중간 및 높은 로그인 위험 및 사용자 위험으로 자동 수정 정책을 구성할 수 있습니다. 이 지침은 이러한 위험 평가를 통해 다단계 인증에 대한 조건부 액세스 정책을 적용합니다. 이 지침에는 또한 계정에 대해 높은 위험 활동이 감지된 경우 사용자가 암호를 변경해야 하는 조건부 액세스 정책도 포함되어 있습니다.|Microsoft 365 E5, ID가 & 위협 방지 추가 기능, EMS E5 또는 Azure Premium P2 라이선스가 있는 Microsoft 365 E3|
@@ -131,7 +135,7 @@ Intune 및 Azure AD 개체, 설정 및 하위 서비스를 포함하여 ID 및 �
 
 [Intune 앱 보호](https://docs.microsoft.com/intune/app-protection-policy) 정책은 장치를 관리에 등록하거나 등록하지 않고 모바일 앱에서 조직의 데이터를 보호하는 데 사용할 수 있습니다. Intune은 정보를 보호하여 직원이 여전히 생산성을 잃지 않도록 하여 데이터 손실을 방지하는 데 도움이 됩니다. 앱 수준 정책을 구현하면 회사 리소스에 대한 액세스를 제한하고 데이터를 IT 부서의 제어 내에 유지할 수 있습니다.
 
-이 지침은 승인된 앱의 사용을 적용하고 이러한 앱을 비즈니스 데이터와 함께 사용하는 방법을 결정하는 권장 정책을 만드는 방법을 보여줍니다.
+이 지침에서는 승인된 앱 사용을 적용하고 이러한 앱을 비즈니스 데이터와 함께 사용할 수 있는 방법을 결정하는 권장 정책을 만드는 방법을 보여줍니다.
 
 ### <a name="microsoft-365"></a>Microsoft 365
 

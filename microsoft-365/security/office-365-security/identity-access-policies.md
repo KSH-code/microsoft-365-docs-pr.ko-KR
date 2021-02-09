@@ -19,14 +19,19 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 5f1f9d8c5f4e507e62de1b815d2345fc6b70bfea
-ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
+ms.openlocfilehash: e70274f5718d1c8e8fca1be780649cdb0fcef851
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097285"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142900"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
+
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- Azure
 
 이 문서에서는 Azure AD(Azure Active Directory) 응용 프로그램 프록시를 사용하여 게시된프레미스 응용 프로그램을 포함하여 Microsoft 365 클라우드 서비스에 대한 액세스를 보호하기 위한 일반적인 권장 정책에 대해 설명합니다.
 
@@ -44,18 +49,18 @@ ms.locfileid: "50097285"
 
 [![Microsoft 365 유인 정보의 ID 및 장치 보호에 대한 축소판 이미지](../../media/microsoft-365-policies-configurations/MSFT-cloud-architecture-identity-device-protection-handout.png)](../../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) <br> [PDF로 보기](../../downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT-cloud-architecture-identity-device-protection-handout.pdf)
 
-이 문서의 나머지에서는 이러한 정책을 구성하는 방법에 대해 설명하고 있습니다.
+이 문서의 나머지에서는 이러한 정책을 구성하는 방법에 대해 설명합니다.
 
 > [!NOTE]
 > 디바이스가 의도한 사용자를 소유하고 있도록 Intune에 장치를 등록하기 전에 MFA(다단계 인증)를 사용하는 것이 좋습니다. 장치 준수 정책을 적용하려면 먼저 Intune에 장치를 등록해야 합니다.
 
-이러한 작업을 수행할 시간을 줄 수 있는 경우 이 표에 나열된 순서대로 기준 정책을 구현하는 것이 좋습니다. 그러나 중요하고 높은 규제 수준 보호 수준에 대한 MFA 정책은 어떤 경우든 구현할 수 있습니다.
+이러한 작업을 수행할 시간을 줄 수 있는 경우 이 표에 나열된 순서대로 기준 정책을 구현하는 것이 좋습니다. 그러나 중요하고 높은 규제 수준 보호에 대한 MFA 정책은 어떤 경우든 구현할 수 있습니다.
 
 |보호 수준|정책|추가 정보|
 |---|---|---|
 |**기준**|[로그인 위험이 중간 또는 높음인 경우 MFA *필요*](#require-mfa-based-on-sign-in-risk)||
 ||[최신 인증을 지원하지 않는 클라이언트 차단](#block-clients-that-dont-support-multi-factor)|최신 인증을 사용하지 않는 클라이언트는 조건부 액세스 정책을 무시할 수 있으므로 이러한 정책을 차단하는 것이 중요합니다.|
-||[위험이 높은 사용자는 암호를 변경해야 함](#high-risk-users-must-change-password)|계정에 대해 높은 위험 활동이 감지되면 사용자가 로그인할 때 암호를 강제로 변경합니다.|
+||[위험이 높은 사용자는 암호를 변경해야 함](#high-risk-users-must-change-password)|계정에 대해 높은 위험 활동이 감지된 경우 사용자가 로그인할 때 암호를 강제로 변경합니다.|
 ||[앱 데이터 보호 정책 적용](#apply-app-data-protection-policies)|플랫폼당 하나의 Intune 앱 보호 정책(Windows, iOS/iPadOS, Android)입니다.|
 ||[승인된 앱 및 앱 보호 필요](#require-approved-apps-and-app-protection)|iOS, iPadOS 또는 Android를 사용하여 휴대폰 및 태블릿에 대해 모바일 앱 보호를 적용합니다.|
 ||[장치 준수 정책 정의](#define-device-compliance-policies)|각 플랫폼에 대한 하나의 정책.|
@@ -67,7 +72,7 @@ ms.locfileid: "50097285"
 
 ## <a name="assigning-policies-to-groups-and-users"></a>그룹 및 사용자에게 정책 할당
 
-정책을 구성하기 전에 각 보호 계층에 사용할 Azure AD 그룹을 식별합니다. 일반적으로 기준 보호는 조직의 모든 사용자에 적용됩니다. 기준 및 중요한 보호에 모두 포함된 사용자는 모든 기준 정책과 중요한 정책을 적용할 수 있습니다. 보호는 누적된 것이고 가장 제한적인 정책이 적용됩니다.
+정책을 구성하기 전에 각 보호 계층에 대해 사용 하는 Azure AD 그룹을 식별 합니다. 일반적으로 기준 보호는 조직의 모든 사용자에 적용됩니다. 기준 및 중요한 보호에 모두 포함된 사용자는 모든 기준 정책과 중요한 정책을 적용할 수 있습니다. 보호는 누적된 것이고 가장 제한적인 정책이 적용됩니다.
 
 조건부 액세스 제외를 위한 Azure AD 그룹을 만드는 것이 좋습니다. 이 그룹을 Assignments 섹션의 사용자 및  그룹 제외  값에 있는 모든 조건부 액세스 정책에 **추가합니다.** 이렇게 하면 액세스 문제를 해결하는 동안 사용자에게 액세스 권한을 제공할 수 있습니다. 임시 솔루션으로만 권장됩니다. 이 그룹에서 변경 내용을 모니터링하고 제외 그룹이 의도한 것만 사용되고 있는지 확인
 
@@ -156,7 +161,7 @@ What if 도구를 [사용하여](https://docs.microsoft.com/azure/active-directo
 |사용자 및 그룹|포함|**사용자 및 > 그룹** 선택: 대상 사용자 계정이 포함된 특정 그룹을 선택합니다.|파일럿 사용자 계정을 포함하는 그룹으로 시작하십시오.|
 ||제외|**사용자 및 그룹:** 조건부 액세스 예외 그룹을 선택합니다. 서비스 계정(앱 ID)|필요한 경우 임시로 구성원 자격을 수정해야 합니다.|
 |클라우드 앱 또는 작업|**클라우드 앱 > 포함**|**앱 선택:** 최신 인증을 지원하지 않는 클라이언트에 해당하는 앱을 선택합니다.||
-|조건|**클라이언트 앱**|구성에 **대해 예** **선택** <p> 브라우저 및 모바일  앱 및 데스크톱 클라이언트에 대한 확인 표시 **지우기**||
+|조건|**클라이언트 앱**|구성에 **대해 예** **선택** <p> 브라우저 및 모바일  앱 및 데스크톱 **클라이언트에 대한 확인 표시 지우기**||
 |
 
 Access 컨트롤 **섹션에서 다음을** 설명합니다.
@@ -197,9 +202,9 @@ Exchange Online의 경우 인증 정책을 [](https://docs.microsoft.com/exchang
 |||**암호 변경 필요**|수표|
 |
 
-**완료를** 선택하면 **Access 설정이 저장됩니다.**
+**완료를** 선택하면 Access 설정을 **저장합니다.**
 
-마지막으로 정책 **적용을** 위해 On을 **선택한** 다음 저장을 **선택합니다.**
+마지막으로, **정책 적용을** 위해 On을 **선택한** 다음 저장을 **선택합니다.**
 
 [What if 도구를 사용하여](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) 정책을 테스트할 수 있습니다.
 
@@ -211,7 +216,7 @@ APP(앱 보호 정책)은 허용되는 앱과 조직의 데이터로 수행할 �
 
 APP 데이터 보호 프레임워크는 세 가지 고유한 구성 수준으로 구성되고 각 수준은 이전 수준으로 구성됩니다.
 
-- **엔터프라이즈 기본 데이터 보호(수준** 1)는 앱이 PIN으로 보호되고 암호화되도록 하고 선택적 지우기 작업을 수행하도록 합니다. Android 장치의 경우 이 수준은 Android 장치 인증의 유효성을 검사합니다. 이는 Exchange Online 사서함 정책에서 유사한 데이터 보호 제어를 제공하는 항목 수준 구성으로, IT 및 사용자 인구를 APP에 도입합니다.
+- **엔터프라이즈 기본 데이터 보호(수준** 1)는 앱이 PIN으로 보호되고 암호화되도록 하고 선택적 지우기 작업을 수행하도록 합니다. Android 장치의 경우 이 수준은 Android 장치 인증의 유효성을 검사합니다. 이는 Exchange Online 사서함 정책에서 유사한 데이터 보호 제어를 제공하는 입력 수준 구성으로, IT 및 사용자 인구를 APP에 도입합니다.
 - **엔터프라이즈 향상된 데이터 보호(수준** 2)에는 APP 데이터 누출 방지 메커니즘 및 최소 OS 요구 사항이 도입되었습니다. 이 구성은 직장 또는 학교 데이터에 액세스하는 대부분의 모바일 사용자에게 적용할 수 있습니다.
 - **엔터프라이즈 높은 데이터 보호(수준** 3)에는 고급 데이터 보호 메커니즘, 향상된 PIN 구성 및 APP Mobile Threat Defense가 도입되었습니다. 이 구성은 고위험 데이터에 액세스하는 사용자에게 바람직합니다.
 
@@ -228,7 +233,7 @@ APP 데이터 보호 프레임워크는 세 가지 고유한 구성 수준으로
 
 데이터 보호 프레임워크 설정을 사용하여 Microsoft Endpoint Manager 내에서 각 플랫폼(iOS 및 Android)에 대해 새 앱 보호 정책을 만들 수 있습니다.
 
-1. Microsoft Intune을 사용하여 앱 보호 정책을 만들고 배포하는 방법의 단계에 따라 정책을 [수동으로 만드세요.](https://docs.microsoft.com/mem/intune/apps/app-protection-policies)
+1. [Microsoft Intune을](https://docs.microsoft.com/mem/intune/apps/app-protection-policies)사용하여 앱 보호 정책을 만들고 배포하는 방법의 단계에 따라 수동으로 정책을 만들 수 있습니다.
 2. [Intune의](https://github.com/microsoft/Intune-Config-Frameworks/tree/master/AppProtectionPolicies) PowerShell 스크립트를 사용하여 샘플 [Intune](https://github.com/microsoftgraph/powershell-intune-samples)앱 보호 정책 구성 프레임워크 JSON 템플릿을 가져올 수 있습니다.
 
 ## <a name="require-approved-apps-and-app-protection"></a>승인된 앱 및 APP 보호 필요
@@ -242,7 +247,7 @@ Intune에서 적용한 APP 보호 정책을 적용하려면 승인된 클라이�
    > [!NOTE]
    > 이 정책은 모바일 사용자가 해당 앱을 사용하여 모든 Office 끝점에 액세스할 수 있도록 합니다.
 
-Exchange Online에 대한 모바일 액세스를 사용하도록 설정하는 경우 기본 인증을 활용하는 Exchange ActiveSync 클라이언트가 Exchange Online에 연결하지 못하도록 차단 [ActiveSync](secure-email-recommended-policies.md#block-activesync-clients)클라이언트를 구현합니다. 이 정책은 이 문서 맨 위에 있는 그림에 설명되지 않습니다. 이 설명은 전자 메일 보안에 대한 정책 권장 [사항에 설명되어 있습니다.](secure-email-recommended-policies.md)
+Exchange Online에 대한 모바일 액세스를 사용하도록 설정하는 경우 기본 인증을 활용하는 Exchange ActiveSync 클라이언트가 Exchange Online에 연결하지 못하도록 차단 [ActiveSync](secure-email-recommended-policies.md#block-activesync-clients)클라이언트를 구현합니다. 이 정책은 이 문서 맨 위에 있는 그림에 설명되지 않습니다. 이 설명은 전자 메일 보안에 대한 정책 권장 사항에 [설명되어 있습니다.](secure-email-recommended-policies.md)
 
 iOS 및 Android에 Edge가 필요한 조건부 액세스 정책을 만들려면 시나리오 [2:](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-2-browser-apps-require-approved-apps-with-app-protection-policies)브라우저 앱에는 iOS 및 Android용 Edge를 허용하지만 다른 모바일 장치 웹 브라우저가 Microsoft 365 끝점에 연결하지는 차단하는 앱 보호 정책을 사용하여 승인된 앱이 필요합니다.
 
@@ -332,7 +337,7 @@ Windows **상태 > 서비스** 평가 규칙에 대한 자세한 내용은 다�
 
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>호환 PC 필요(호환되지 않는 휴대폰 및 태블릿)
 
-호환 PC를 요구하는 정책을 추가하기 전에 관리를 위한 장치를 Intune에 등록해야 합니다. 디바이스가 의도한 사용자를 소유하고 있도록 Intune에 장치를 등록하기 전에 다단계 인증을 사용하는 것이 좋습니다.
+호환 PC를 요구하는 정책을 추가하기 전에 관리용 장치를 Intune에 등록해야 합니다. 디바이스가 의도한 사용자를 소유하고 있도록 Intune에 장치를 등록하기 전에 다단계 인증을 사용하는 것이 좋습니다.
 
 규격 PC를 요구하려면:
 
@@ -386,4 +391,4 @@ Windows **상태 > 서비스** 평가 규칙에 대한 자세한 내용은 다�
 
 [![3단계: 게스트 및 외부 사용자에 대한 정책](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-3.png)](identity-access-policies-guest-access.md)
 
-[게스트 및 외부 사용자에 대한 정책 권장 사항에 대해 자세히](identity-access-policies-guest-access.md)
+[게스트 및 외부 사용자에 대한 정책 권장 사항에 대해 자세히 알아보기](identity-access-policies-guest-access.md)

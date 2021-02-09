@@ -7,7 +7,6 @@ author: denisebmsft
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,23 +15,23 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 keywords: 자동화된 인시던트 대응, 조사, 수정, 위협 방지
-ms.date: 11/05/2020
-description: Microsoft Defender for Office 365에서 자동화된 조사 및 응답 기능이 어떻게 작동 하는지 참조
+ms.date: 01/29/2021
+description: Office 365용 Microsoft Defender에서 자동화된 조사 및 응답 기능이 어떻게 작동 하는지 참조
 ms.custom:
 - air
 - seo-marvel-mar2020
-ms.openlocfilehash: 5ca9ea941d073c7b199678631a9063cfbeae8907
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 97cc2f6bcb066ff2d6f64254add3a57eb27b8828
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49864903"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142552"
 ---
 # <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender에서 자동화된 조사 및 대응이 작동하는 방식
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
-보안 경고가 트리거되면 보안 운영 팀이 이러한 경고를 보고 조직을 보호하기 위한 단계를 수행합니다. 경우에 따라 보안 운영 팀은 트리거되는 경고의 양에 당황할 수 있습니다. Office 365용 Microsoft Defender의 자동화된 조사 및 대응(AIR) 기능은 도움이 될 수 있습니다.
+보안 경고가 트리거되면 보안 운영 팀이 이러한 경고를 보고 조직을 보호하기 위한 단계를 수행합니다. 경우에 따라 보안 운영 팀은 트리거되는 경고의 양에 당황할 수 있습니다. Office 365용 Microsoft Defender의 자동화된 조사 및 대응(AIR) 기능이 도움이 될 수 있습니다.
 
 AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 작업할 수 있습니다. AIR 기능에는 현재 존재하는 잘 알려진 위협에 대한 응답으로 자동화된 조사 프로세스가 포함됩니다. 적절한 수정 작업은 승인을 대기하여 보안 운영 팀이 감지된 위협에 대응할 수 있도록 합니다.
 
@@ -44,7 +43,7 @@ AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 
 
 ## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>예: 사용자가 보고한 피싱 메시지가 조사 플레이북을 실행합니다.
 
-조직의 사용자가 피싱 시도로 생각할 수 있는 전자 메일을 받는 경우를 가정해 야 합니다. 이러한 메시지를 보고하도록 교육된 사용자는 보고서 [](enable-the-report-message-add-in.md) 메시지 추가 기능 [](enable-the-report-phish-add-in.md) 또는 피싱 보고서 추가 기능을 사용하여 분석을 위해 Microsoft로 전송합니다. 제출은 시스템으로도 전송된 후 제출 보기(이전의 사용자가 보고한 보기)의 탐색기에서 표시됩니다.   또한 사용자가 보고한 메시지는 이제 시스템 기반 정보 알림을 트리거하여 조사 플레이북을 자동으로 실행합니다.
+조직의 사용자가 피싱 시도로 생각할 수 있는 전자 메일을 받는 경우를 가정해 가정해 야 합니다. 이러한 메시지를 보고하도록 교육된 사용자는 보고서 [](enable-the-report-message-add-in.md) 메시지 추가 기능 [](enable-the-report-phish-add-in.md) 또는 피싱 보고서 추가 기능을 사용하여 분석을 위해 Microsoft로 전송합니다. 제출은 시스템으로도 전송된 후 제출 보기(이전의 사용자가 보고한 보기)의 탐색기에서 표시됩니다.   또한 사용자가 보고한 메시지는 이제 시스템 기반 정보 알림을 트리거하여 조사 플레이북을 자동으로 실행합니다.
 
 루트 조사 단계에서는 전자 메일의 다양한 측면이 평가됩니다. 이러한 측면은 다음과 같습니다.
 
@@ -74,7 +73,7 @@ AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 
 
 경고에 의해 트리거되는 자동화된 조사 외에도 조직의 보안 운영 팀은 위협 탐색기 보기에서 자동화된 조사를 트리거할 [수 있습니다.](threat-explorer.md)  또한 이 조사는 경고를 생성하여 Microsoft Defender 인시던트 및 외부 SIEM 도구에서 이 조사가 트리거된 것으로 볼 수 있도록 합니다.
 
-예를 들어 탐색기에서 맬웨어 보기를 **사용** 중이라 가정해 보겠습니다. 차트 아래의 탭을 사용하여 전자 메일 **탭을** 선택합니다. 목록에서 하나 이상의 항목을 선택하면 **+ 작업** 단추가 활성화됩니다.
+예를 들어 탐색기에서 맬웨어 보기를 **사용** 중이라 가정해 보겠습니다. 차트 아래의 탭을 사용하여 전자 메일 **탭을** 선택합니다. 목록에서 항목을 하나 이상 선택하면 **+ 작업** 단추가 활성화됩니다.
 
 ![선택한 메시지가 있는 탐색기](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
 
@@ -93,7 +92,4 @@ Microsoft Defender for Office 365의 AIR 기능에는 보안 [운영 &](air-view
 ## <a name="next-steps"></a>다음 단계
 
 - [AIR 사용 시작](office-365-air.md)
-
-- [Microsoft 365 로드맵을 방문하여 계획된 계획 및 곧 공개될 예정](https://www.microsoft.com/microsoft-365/roadmap?filters=)
-
-- [Microsoft 365 Defender의 자동화된 조사 및 대응 기능에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [보류 중 또는 완료된 수정 작업 보기](air-review-approve-pending-completed-actions.md)

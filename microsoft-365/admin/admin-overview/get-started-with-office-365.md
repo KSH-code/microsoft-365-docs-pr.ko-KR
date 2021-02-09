@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 for business 시작
+title: 비즈니스용 Microsoft 365 시작
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -22,24 +22,23 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
-description: 컴퓨터, 휴대폰 및 태블릿에서 Microsoft 365을 설정 하 고 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d3909cdabd0c4f95c44ab5afaf7dba7244bf6eeb
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: 컴퓨터, 휴대폰 및 태블릿에서 Microsoft 365를 설정하고 사용하는 방법을 확인합니다.
+ms.openlocfilehash: 437e644190017a0031d7c91d239f5b4f0a8d3773
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780532"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142076"
 ---
-# <a name="get-started"></a>시작하기
+# <a name="get-started"></a>시작
 
-조직에서 최근에 Microsoft 365를 제공 했으며, 이제이를 사용 하 여 전자 메일 읽기, 문서 공유 등을 시작할 수 있도록 해야 합니다. 컴퓨터, 휴대폰 및 태블릿에서 Microsoft 365을 설정 하 고 사용 하는 방법에 대해 알아봅니다.
+조직에서 최근에 Microsoft 365를 사용하게 되어 전자 메일 읽기, 문서 공유 등에서 시작할 수 있도록 Microsoft 365를 사용하게 됩니다. 컴퓨터, 휴대폰 및 태블릿에서 Microsoft 365를 설정하고 사용하는 방법을 확인합니다.
   
 ::: moniker range="o365-worldwide"
 
 ****
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/7dbafb22-263b-4544-9774-508728c6e01b?autoplay=false]
-  
+
 ::: moniker-end
 
 ## <a name="training-resources-for-your-users"></a>사용자를 위한 교육 리소스
@@ -49,7 +48,7 @@ ms.locfileid: "44780532"
     
 - [Office 교육 센터](https://support.microsoft.com/office/b8f02f81-ec85-4493-a39b-4c48e6bc4bfb)
     
-- [로그인 위치](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)
+- [로그인할 위치](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)
     
 - [PC 또는 Mac에 Office 설치](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
     
@@ -57,15 +56,15 @@ ms.locfileid: "44780532"
     
 ## <a name="training-resources-for-you-the-admin"></a>관리자를 위한 교육 리소스
 
-시작 하는 데 도움이 되는 몇 가지 리소스는 다음과 같습니다.
+다음은 시작하는 데 도움이 되는 몇 가지 리소스입니다.
   
-- [관리자를 위한 교육](https://docs.microsoft.com/microsoft-365/admin): 관리자를 위한 무료 온라인 강의에 대 한 링크를 가져옵니다.
+- [관리자 교육:](https://docs.microsoft.com/microsoft-365/admin)관리자를 위한 무료 온라인 수업 링크를 받을 수 있습니다.
     
-- [관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/admin-home): 주요 작업, 관리 도구 시작 및 문제 해결에 대 한 정보를 가져옵니다.
+- [관리자 도움말:](https://docs.microsoft.com/microsoft-365/admin/admin-home)상위 작업, 관리 도구 시작 및 문제 해결에 대한 정보를 얻습니다.
     
-- [연락처 지원-관리자 도움말](../contact-support-for-business-products.md) : 전화를 걸어 온라인 요청을 열거나 커뮤니티에 게 도움을 줄 수 있습니다. 
+- [고객 지원에 문의 - 관리자 도움말](../contact-support-for-business-products.md) : 문의하거나 온라인 요청을 열거나 커뮤니티에서 도움을 요청하세요. 
     
 ## <a name="related-articles"></a>관련 문서
 
-[비즈니스에 대 한 Microsoft 365 설정-관리자 도움말](../setup/setup.md)
+[비즈니스용 Microsoft 365 설정 - 관리자 도움말](../setup/setup.md)
 
