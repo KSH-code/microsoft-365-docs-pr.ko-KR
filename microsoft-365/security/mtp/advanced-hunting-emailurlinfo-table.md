@@ -20,36 +20,37 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 56d35e2812d895215cbe76deb6791695380abc50
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 76a2389eace73ee9d21962c8c618e0dac9994de0
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929721"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145466"
 ---
-# <a name="emailurlinfo"></a><span data-ttu-id="929cb-104">EmailUrlInfo</span><span class="sxs-lookup"><span data-stu-id="929cb-104">EmailUrlInfo</span></span>
+# <a name="emailurlinfo"></a><span data-ttu-id="829fe-104">EmailUrlInfo</span><span class="sxs-lookup"><span data-stu-id="829fe-104">EmailUrlInfo</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="929cb-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="929cb-105">**Applies to:**</span></span>
-- <span data-ttu-id="929cb-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="929cb-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="829fe-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="829fe-105">**Applies to:**</span></span>
+- <span data-ttu-id="829fe-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="829fe-106">Microsoft 365 Defender</span></span>
 
-<span data-ttu-id="929cb-107">고급 `EmailUrlInfo` 헌팅 schema의 표에는 Office 365용 Microsoft Defender에서 처리한 전자 메일 및 첨부 파일 URL에 대한 정보가 포함되어 있습니다. [](advanced-hunting-overview.md)</span><span class="sxs-lookup"><span data-stu-id="929cb-107">The `EmailUrlInfo` table in the [advanced hunting](advanced-hunting-overview.md) schema contains information about URLs on emails and attachments processed by Microsoft Defender for Office 365.</span></span> <span data-ttu-id="929cb-108">이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="929cb-108">Use this reference to construct queries that return information from this table.</span></span>
+<span data-ttu-id="829fe-107">고급 `EmailUrlInfo` 헌팅 schema의 표에는 Office 365용 Microsoft Defender에서 처리한 전자 메일 및 첨부 파일 URL에 대한 정보가 포함되어 있습니다. [](advanced-hunting-overview.md)</span><span class="sxs-lookup"><span data-stu-id="829fe-107">The `EmailUrlInfo` table in the [advanced hunting](advanced-hunting-overview.md) schema contains information about URLs on emails and attachments processed by Microsoft Defender for Office 365.</span></span> <span data-ttu-id="829fe-108">이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="829fe-108">Use this reference to construct queries that return information from this table.</span></span> 
 
-<span data-ttu-id="929cb-109">고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="929cb-109">For information on other tables in the advanced hunting schema, [see the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
+<span data-ttu-id="829fe-109">고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="829fe-109">For information on other tables in the advanced hunting schema, [see the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
 
-| <span data-ttu-id="929cb-110">열 이름</span><span class="sxs-lookup"><span data-stu-id="929cb-110">Column name</span></span> | <span data-ttu-id="929cb-111">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="929cb-111">Data type</span></span> | <span data-ttu-id="929cb-112">설명</span><span class="sxs-lookup"><span data-stu-id="929cb-112">Description</span></span> |
+| <span data-ttu-id="829fe-110">열 이름</span><span class="sxs-lookup"><span data-stu-id="829fe-110">Column name</span></span> | <span data-ttu-id="829fe-111">데이터 형식</span><span class="sxs-lookup"><span data-stu-id="829fe-111">Data type</span></span> | <span data-ttu-id="829fe-112">설명</span><span class="sxs-lookup"><span data-stu-id="829fe-112">Description</span></span> |
 |-------------|-----------|-------------|
-| `Timestamp` | <span data-ttu-id="929cb-113">datetime</span><span class="sxs-lookup"><span data-stu-id="929cb-113">datetime</span></span> | <span data-ttu-id="929cb-114">이벤트가 기록된 날짜와 시간</span><span class="sxs-lookup"><span data-stu-id="929cb-114">Date and time when the event was recorded</span></span> |
-| `UrlId` | <span data-ttu-id="929cb-115">문자열</span><span class="sxs-lookup"><span data-stu-id="929cb-115">string</span></span> | <span data-ttu-id="929cb-116">전자 메일 제목, 본문 또는 첨부 파일의 URL에 대한 고유 식별자</span><span class="sxs-lookup"><span data-stu-id="929cb-116">Unique identifier for the URL in the email subject, body, or attachment</span></span> |
-| `NetworkMessageId` | <span data-ttu-id="929cb-117">문자열</span><span class="sxs-lookup"><span data-stu-id="929cb-117">string</span></span> | <span data-ttu-id="929cb-118">Microsoft 365에서 생성되는 전자 메일의 고유 식별자</span><span class="sxs-lookup"><span data-stu-id="929cb-118">Unique identifier for the email, generated by Microsoft 365</span></span> |
-| `Url` | <span data-ttu-id="929cb-119">문자열</span><span class="sxs-lookup"><span data-stu-id="929cb-119">string</span></span> | <span data-ttu-id="929cb-120">전자 메일 제목, 본문 또는 첨부 파일의 전체 URL</span><span class="sxs-lookup"><span data-stu-id="929cb-120">Full URL in the email subject, body, or attachment</span></span> |
+| `Timestamp` | <span data-ttu-id="829fe-113">datetime</span><span class="sxs-lookup"><span data-stu-id="829fe-113">datetime</span></span> | <span data-ttu-id="829fe-114">이벤트가 기록된 날짜와 시간</span><span class="sxs-lookup"><span data-stu-id="829fe-114">Date and time when the event was recorded</span></span> |
+| `NetworkMessageId` | <span data-ttu-id="829fe-115">문자열</span><span class="sxs-lookup"><span data-stu-id="829fe-115">string</span></span> | <span data-ttu-id="829fe-116">Microsoft 365에서 생성되는 전자 메일의 고유 식별자</span><span class="sxs-lookup"><span data-stu-id="829fe-116">Unique identifier for the email, generated by Microsoft 365</span></span> |
+| `Url` | <span data-ttu-id="829fe-117">문자열</span><span class="sxs-lookup"><span data-stu-id="829fe-117">string</span></span> | <span data-ttu-id="829fe-118">전자 메일 제목, 본문 또는 첨부 파일의 전체 URL</span><span class="sxs-lookup"><span data-stu-id="829fe-118">Full URL in the email subject, body, or attachment</span></span> |
+| `UrlDomain` | <span data-ttu-id="829fe-119">문자열</span><span class="sxs-lookup"><span data-stu-id="829fe-119">string</span></span> | <span data-ttu-id="829fe-120">URL의 도메인 이름 또는 호스트 이름</span><span class="sxs-lookup"><span data-stu-id="829fe-120">Domain name or host name of the URL</span></span> |
+| `ReportId` | <span data-ttu-id="829fe-121">long</span><span class="sxs-lookup"><span data-stu-id="829fe-121">long</span></span> | <span data-ttu-id="829fe-122">반복 카운터를 기반으로 하는 이벤트 식별자입니다.</span><span class="sxs-lookup"><span data-stu-id="829fe-122">Event identifier based on a repeating counter.</span></span> <span data-ttu-id="829fe-123">고유한 이벤트를 식별하려면 이 열을 DeviceName 및 타임스탬프 열과 함께 사용해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="829fe-123">To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns</span></span> |
 
-## <a name="related-topics"></a><span data-ttu-id="929cb-121">관련 항목</span><span class="sxs-lookup"><span data-stu-id="929cb-121">Related topics</span></span>
-- [<span data-ttu-id="929cb-122">고급 헌팅 개요</span><span class="sxs-lookup"><span data-stu-id="929cb-122">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="929cb-123">쿼리 언어 배우기</span><span class="sxs-lookup"><span data-stu-id="929cb-123">Learn the query language</span></span>](advanced-hunting-query-language.md)
-- [<span data-ttu-id="929cb-124">공유 쿼리 사용</span><span class="sxs-lookup"><span data-stu-id="929cb-124">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
-- [<span data-ttu-id="929cb-125">장치, 전자 메일, 앱 및 ID를 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="929cb-125">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
-- [<span data-ttu-id="929cb-126">스키마의 이해</span><span class="sxs-lookup"><span data-stu-id="929cb-126">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
-- [<span data-ttu-id="929cb-127">쿼리 모범 사례 적용</span><span class="sxs-lookup"><span data-stu-id="929cb-127">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
+## <a name="related-topics"></a><span data-ttu-id="829fe-124">관련 주제</span><span class="sxs-lookup"><span data-stu-id="829fe-124">Related topics</span></span>
+- [<span data-ttu-id="829fe-125">고급 헌팅 개요</span><span class="sxs-lookup"><span data-stu-id="829fe-125">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="829fe-126">쿼리 언어 배우기</span><span class="sxs-lookup"><span data-stu-id="829fe-126">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="829fe-127">공유 쿼리 사용</span><span class="sxs-lookup"><span data-stu-id="829fe-127">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
+- [<span data-ttu-id="829fe-128">장치, 전자 메일, 앱 및 ID를 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="829fe-128">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
+- [<span data-ttu-id="829fe-129">스키마의 이해</span><span class="sxs-lookup"><span data-stu-id="829fe-129">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
+- [<span data-ttu-id="829fe-130">쿼리 모범 사례 적용</span><span class="sxs-lookup"><span data-stu-id="829fe-130">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
