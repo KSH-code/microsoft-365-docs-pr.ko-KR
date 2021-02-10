@@ -6,7 +6,6 @@ author: denisebmsft
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -14,19 +13,26 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.date: 02/25/2020
 description: Office 365 계획 2용 Microsoft Defender의 자동화된 조사 및 응답 기능을 통해 손상된 사용자 계정을 검색하고 처리하는 프로세스를 빠르게 진행하는 방법에 대해 자세히 알아보는 방법을 설명하는 정보를 제공합니다.
-ms.openlocfilehash: 19c9bad33263178f92c6fe523b44497cf38ebd53
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 2159ab7ad7e13c4cd4c2c428317ee7d99f78158c
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616740"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50176066"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>자동화된 조사 및 응답을 통해 손상된 사용자 계정 해결
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-[Office 365 계획 2용 Microsoft Defender에는](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2) 강력한 자동화된 조사 및 대응(AIR) 기능이 포함되어 있습니다. [](office-365-air.md) 이러한 기능을 통해 보안 운영 팀이 위협을 처리하고 많은 시간과 노력을 절약할 수 있습니다. Microsoft는 보안 기능을 지속적으로 개선하고 있습니다. 최근에는 손상된 사용자 보안 플레이북(현재 미리 보기에서)을 포함하도록 AIR 기능이 개선되어 있습니다. 손상된 사용자 보안 플레이북에 대한 자세한 내용은 이 문서를 읽어 하세요. 추가 세부 정보는 블로그 게시물 속도를 통해 사용자 손상을 감지하고 대응하고 [Microsoft Defender for Office 365를](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) 통해 위반 범위를 제한하세요.
+
+[Office 365 계획 2용 Microsoft Defender에는](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2) 강력한 [AIR(자동화된](office-365-air.md) 조사 및 대응) 기능이 포함되어 있습니다. 이러한 기능을 통해 보안 운영 팀이 위협을 처리하고 많은 시간과 노력을 절약할 수 있습니다. Microsoft는 보안 기능을 지속적으로 개선하고 있습니다. 최근에는 손상된 사용자 보안 플레이북(현재 미리 보기에서)을 포함하도록 AIR 기능이 개선되어 있습니다. 손상된 사용자 보안 플레이북에 대한 자세한 내용은 이 문서를 읽어 하세요. 추가 세부 정보는 블로그 게시물 속도를 통해 사용자 손상을 감지하고 대응하고 [Microsoft Defender for Office 365를](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) 통해 위반 범위를 제한하세요.
 
 ![손상된 사용자에 대한 자동화된 조사](/microsoft-365/media/office365atp-compduserinvestigation.jpg)
 
@@ -91,7 +97,7 @@ ms.locfileid: "49616740"
 
 - 자동화는 보안 운영 팀을 지원하지만 **대체하지는 않습니다.** 자동화된 조사 및 대응 기능은 초기에 손상된 사용자를 감지할 수 있지만 보안 운영 팀이 몇 가지 조사 및 수정을 해야 할 수 있습니다. 이에 대한 도움이 필요하세요? 작업 [검토 및 승인을 참조합니다.](air-review-approve-pending-completed-actions.md)
 
-- 의심스러운 로그인 경고를 유일한 지표로 **사용하지 않습니다.** 사용자 계정이 손상되면 의심스러운 로그인 경고를 트리거하거나 트리거하지 않을 수 있습니다. 경우에 따라 경고를 트리거하는 계정이 손상된 후 발생하는 일련의 활동입니다. 경고에 대해 더 알고 싶나요? 경고 [정책을 참조합니다.](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)
+- 의심스러운 로그인 경고를 유일한 표시기로 **사용하지 않습니다.** 사용자 계정이 손상되면 의심스러운 로그인 경고를 트리거하거나 트리거하지 않을 수 있습니다. 경우에 따라 경고를 트리거하는 계정이 손상된 후 발생하는 일련의 활동입니다. 경고에 대해 더 알고 싶나요? 경고 [정책을 참조합니다.](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)
 
 ## <a name="next-steps"></a>다음 단계
 

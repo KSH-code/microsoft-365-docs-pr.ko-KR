@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: Admin
 ms.topic: hub-page
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
@@ -20,17 +19,22 @@ ms.collection:
 - m365initiative-defender-office365
 description: Office 365 보안 및 준수 센터의 경고 기능을 사용하여 고급 경고를 & 경고를 보고 관리하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a40e880315b49620c372cf09416457c1bcaa00e7
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: f4af23ac1fd3c7272fc60b2228bf808351cb4d2b
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615051"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50176030"
 ---
 # <a name="alerts-in-the-security--compliance-center"></a>보안 및 준수 & 경고
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
 
 Security & 준수 센터의 경고 기능을 사용하여 Microsoft Cloud App Security 개요의 일부로 고급 경고 관리를 포함하여 조직의 경고를 보고 [관리합니다.](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
 

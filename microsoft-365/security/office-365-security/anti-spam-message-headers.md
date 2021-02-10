@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -17,17 +16,23 @@ ms.collection:
 - m365initiative-defender-office365
 description: 관리자는 Exchange Online Protection(EOP)에서 메시지에 추가한 헤더 필드에 대해 알아볼 수 있습니다. 이러한 헤더 필드는 메시지와 해당 메시지가 처리되는 방법에 대한 정보를 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb3b2eb9e4ce4a63d4bef276dde9e19b491aae53
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 5f0befa764982ae30e0c7c5c1a9f109067f3ee02
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615543"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175658"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Microsoft 365의 스팸 방지 메시지 헤더
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 모든 Microsoft 365 조직에서 EOP(Exchange Online Protection)는 들어오는 모든 메시지에 대해 스팸, 멀웨어 및 기타 위협을 검색합니다. 이러한 검색 결과는 메시지의 다음 헤더 필드에 추가됩니다.
 

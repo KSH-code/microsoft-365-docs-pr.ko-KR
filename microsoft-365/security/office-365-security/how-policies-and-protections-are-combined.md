@@ -9,24 +9,29 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP(Exchange Online Protection)의 보호 응용 프로그램 순서와 보호 정책의 우선 순위 값이 적용되는 정책을 결정하는 방법을 알 수 있습니다.
-ms.openlocfilehash: a18234344e1100f3b6a03c10e970c8195e53e7df
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 7f3d4a607f702349d3a8e43c1eceba5ecbb697d7
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760569"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167482"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>전자 메일 보호의 순서 및 우선 순위
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 인바운드 전자 메일은 여러 형태의 보호로 플래그가 지정될 수 있습니다. 예를 들어 모든 Microsoft 365 고객이 사용할 수 있는 EOP의 기본 제공 피싱 방지 정책과 Office 365 고객용 Microsoft Defender에서 사용할 수 있는 보다 강력한 피싱 방지 정책이 있습니다. 또한 메시지는 맬웨어, 스팸, 피싱 등에 대한 여러 검색 검색을 통과합니다. 이 모든 활동이 제공될 경우 어떤 정책이 적용되는지 혼동될 수 있습니다.
 
@@ -34,7 +39,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 메시지에 적용되는 정책을 결정하는 주요 요인에는 다음 두 가지가 있습니다.
 
-- **전자 메일 보호** 유형의 우선 순위: 이 순서는 구성할 수 없습니다. 다음 표에 설명되어 있습니다.
+- **전자 메일 보호 유형의** 우선 순위: 이 순서는 구성할 수 없습니다. 다음 표에 설명되어 있습니다.
 
   ****
 
@@ -75,4 +80,4 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 - 적은 수의 사용자에게 적용되는 정책에 더 높은 우선 순위를 할당하고 많은 수의 사용자에게 적용되는 정책에 낮은 우선 순위를 할당합니다. 기본 정책은 항상 마지막에 적용됩니다.
 - 우선 순위가 낮은 정책보다 더 엄격하거나 더 전문화된 설정을 하도록 우선 순위가 높은 정책을 구성합니다.
-- 더 적은 사용자 지정 정책을 사용하는 것이 좋습니다(보다 엄격하거나 더 전문화된 설정이 필요한 사용자에 대한 사용자 지정 정책만 사용).
+- 더 적은 사용자 지정 정책을 사용하는 것이 좋습니다(더 엄격하거나 더 전문화된 설정이 필요한 사용자에 대한 사용자 지정 정책만 사용).

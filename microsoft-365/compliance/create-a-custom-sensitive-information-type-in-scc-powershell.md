@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 규정 준수 센터에서 정책에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
-ms.openlocfilehash: ab96a3928105f612ab97bc8ca3a0acc3613082c3
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 63ff32bda31446c25a523ff2064f7b750d102961
+ms.sourcegitcommit: 3e29926f51530afb0d75d8518a92b9ec7dc5e5bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080683"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50173125"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -377,7 +377,7 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
    구문과 매개 변수에 대한 자세한 내용은 [새로 만들기-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/new-dlpsensitiveinformationtyperulepackage)를 참조하세요.
 
    > [!NOTE]
-   > 사용자 지정 중요한 정보 유형 모음에 대한 제한은 10 개입니다.
+   > 지원되는 규칙 패키지의 최대 개수는 10개이지만 각 패키지에는 여러 중요한 정보 유형에 대한 정의가 포함될 수 있습니다.
 
 4. 새로운 중요한 정보 유형을 성공적으로 만들었는지 확인하려면 다음 단계를 수행합니다.
 

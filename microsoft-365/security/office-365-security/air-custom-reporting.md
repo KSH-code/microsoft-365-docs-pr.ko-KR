@@ -21,18 +21,22 @@ ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3d8363ada4de60d37cb0d247d8b1af74df4226d1
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: a66a89a13182570259bcb8be4134c21d13e22391
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142978"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175814"
 ---
 # <a name="custom-or-third-party-reporting-solutions-for-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender에 대한 사용자 지정 또는 타사 보고 솔루션
 
 [Office 365용 Microsoft Defender를](office-365-atp.md)사용하면 자동화된 조사에 대한 자세한 [정보를 얻을 수 있습니다.](air-view-investigation-results.md) 그러나 일부 조직에서는 사용자 지정 또는 타사 보고 솔루션도 사용하게 됩니다. 조직에서 자동화된 조사에 [](office-365-air.md) 대한 정보를 이러한 솔루션과 통합하려는 경우 Office 365 관리 활동 API를 사용할 수 있습니다.
 
-통합을 구성하기 위한 리소스
+**적용 대상**
+- [Microsoft Defender for Office 365 요금제 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+[Office 365용 Microsoft Defender를](office-365-atp.md)사용하면 자동화된 조사에 대한 자세한 [정보를 얻을 수 있습니다.](air-view-investigation-results.md) 그러나 일부 조직에서는 사용자 지정 또는 타사 보고 솔루션도 사용하게 됩니다. 조직에서 자동화된 조사에 대한 정보를 이러한 솔루션과 통합하려는 경우 Office 365 관리 활동 API를 사용할 수 있습니다.
 
 |리소스|설명|
 |:---|:---|

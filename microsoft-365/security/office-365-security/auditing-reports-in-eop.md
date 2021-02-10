@@ -8,26 +8,29 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
-description: 관리자는 EOP (Exchange Online Protection)에서 사용할 수 있는 관리 감사 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 8e5175266cd964a2f2fb721a67f64e709661ce26
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: 관리자는 EOP(Exchange Online Protection)에서 사용할 수 있는 관리자 감사 보고서에 대해 학습할 수 있습니다.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 4fa08f35100a3603c461c211349035e23ace466c
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48200336"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175682"
 ---
 # <a name="auditing-reports-in-standalone-eop"></a>독립 실행형 EOP에서 보고서 감사
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+-  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
 
-Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protection) 조직에서는 감사 보고서를 사용 하 여 조직의 규정, 규정 준수 및 소송 요구 사항을 충족 하는 데 도움을 받을 수 있습니다. 언제든지 감사 보고서를 가져와 EOP 구성에 적용된 변경 내용을 확인할 수 있습니다. 이러한 보고서를 사용하면 구성 문제를 해결하거나 보안 또는 규정 준수 관련 문제의 원인을 찾을 수 있습니다.
+Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 감사 보고서를 통해 조직의 규정, 규정 준수 및 소송 요구 사항을 충족할 수 있습니다. 언제든지 감사 보고서를 가져와 EOP 구성에 적용된 변경 내용을 확인할 수 있습니다. 이러한 보고서를 사용하면 구성 문제를 해결하거나 보안 또는 규정 준수 관련 문제의 원인을 찾을 수 있습니다.
 
-독립 실행형 EOP에서 사용할 수 있는 감사 보고서에는 다음 두 가지가 있습니다.
+독립 실행형 EOP에서는 두 가지 감사 보고서를 사용할 수 있습니다.
 
-- **관리자 역할 그룹 보고서**: 관리자 역할 그룹 보고서에서는 사용자가 관리자 역할 그룹의 구성원 자격에 추가 되거나 제거 된 경우를 볼 수 있습니다. 이 보고서를 사용하여 조직의 사용자에게 할당된 관리 권한 변경 내용을 모니터링할 수 있습니다. 자세한 내용은 [독립 실행형 EOP에서 관리자 역할 그룹 보고서 실행](run-an-administrator-role-group-report-in-eop-eop.md)을 참조 하세요.
+- **관리자 역할 그룹 보고서:** 관리자 역할 그룹 보고서를 통해 사용자가 관리자 역할 그룹의 구성원 자격에 추가되거나 제거된 경우를 볼 수 있습니다. 이 보고서를 사용하여 조직의 사용자에게 할당된 관리 권한 변경 내용을 모니터링할 수 있습니다. 자세한 내용은 독립 실행형 EOP에서 관리자 역할 [그룹 보고서 실행을 참조하세요.](run-an-administrator-role-group-report-in-eop-eop.md)
 
-- **관리자 감사 로그**: 관리자 감사 로그에는 관리 권한이 있는 관리자 또는 사용자가 독립 실행형 EOP PowerShell cmdlet을 기반으로 하는 모든 작업이 기록 됩니다. 자세한 내용은 [Exchange Online에서 관리자 감사 로그 보기](https://docs.microsoft.com/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log)를 참조 하세요.
+- **관리자 감사 로그:** 관리자 감사 로그는 관리자 또는 관리 권한이 있는 사용자의 모든 작업(독립 실행형 EOP PowerShell cmdlet 기반)을 기록합니다. 자세한 내용은 [Exchange Online에서 관리자 감사 로그 보기를 참조하세요.](https://docs.microsoft.com/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log)

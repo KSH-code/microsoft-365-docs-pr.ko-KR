@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: troubleshooting
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,17 +17,23 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 EOP(Exchange Online Protection)에서 스팸 방지 보호에 대한 질문과 대답을 볼 수 있습니다.
-ms.openlocfilehash: 21c70f1942703b8e5f3f4d96b136aff46afcc32b
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 8620ad3f99c45dae3442ec89d879124053c1a005
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615435"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175982"
 ---
 # <a name="anti-spam-protection-faq"></a>스팸 방지 보호 FAQ
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 이 항목에서는 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직을 위한 맬웨어 방지 보호에 대한 질문과 대답을 제공합니다.
 
@@ -97,17 +102,17 @@ Exchange Online 고객: [Exchange Online의 모니터링,](https://docs.microsof
 
 ## <a name="will-the-service-throttle-rate-limit-my-mail-if-my-users-send-outbound-spam"></a>사용자가 아웃바운드 스팸을 보내는 경우 서비스에서 내 메일을 제한합니까?(속도 제한)
 
-특정 시간 프레임(예: 시간당)에 사용자를 통해 보낸 메일의 절반 이상이 EOP에서 스팸으로 확인되면 사용자는 메시지 보내기가 차단됩니다. 대부분의 경우 아웃바운드 메시지가 스팸으로 확인되면 위험 가능성이 높은 배달 풀을 통해 라우팅되는 것이 일반 아웃바운드 IP 풀이 차단 목록에 추가될 가능성이 줄어듭습니다.
+특정 시간 프레임(예: 시간당)에 사용자를 통해 보낸 메일의 절반 이상이 EOP에서 스팸으로 확인되면 사용자는 메시지를 보내지 않습니다. 대부분의 경우 아웃바운드 메시지가 스팸으로 확인되면 위험 가능성이 높은 배달 풀을 통해 라우팅되는 것이 일반 아웃바운드 IP 풀이 차단 목록에 추가될 가능성이 줄어듭습니다.
 
 보낸 사람이 아웃바운드 스팸을 보낼 수 없도록 차단된 경우 지정된 전자 메일 주소로 알림을 보낼 수 있습니다. 이 설정에 대한 자세한 내용은 아웃바운드 스팸 정책 [구성을 참조하십시오.](configure-the-outbound-spam-policy.md)
 
 ## <a name="can-i-use-a-third-party-anti-spam-and-anti-malware-provider-in-conjunction-with-exchange-online"></a>타사 스팸 방지 및 맬웨어 방지 공급자와 Exchange Online을 함께 사용할 수 있습니까?
 
-예. MX 레코드를 Microsoft를 설정하는 것이 좋습니다. 그러나 Microsoft가 먼저 전자 메일을 다른 곳으로 라우팅해야 하는 합법적인 비즈니스 이유가 있습니다.
+예. MX 레코드를 Microsoft를 설정하는 것이 까다로우지만, Microsoft가 먼저 전자 메일을 Microsoft가 다른 곳으로 라우팅해야 하는 합법적인 비즈니스 이유가 있습니다.
 
-- **인바운드:** 타사 공급자를 설정하기 위해 MX 레코드를 변경한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션합니다. 자세한 내용은 Exchange Online의 커넥터에 대한 향상된 [필터링을 참조하세요.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
+- **인바운드**: 타사 공급자를 설정하기 위해 MX 레코드를 변경한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션합니다. 자세한 내용은 Exchange Online의 커넥터에 대한 향상된 [필터링을 참조하세요.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
 
-- **아웃바운드**: Microsoft 365에서 대상 타사 공급자로의 스마트 호스트 라우팅을 구성합니다.
+- **아웃바운드**: Microsoft 365에서 대상 타사 공급자로 스마트 호스트 라우팅을 구성합니다.
 
 ## <a name="does-microsoft-have-any-documentation-about-how-i-can-protect-myself-from-phishing-scams"></a>Microsoft에 피싱 메일로부터 자기 자신을 보호할 수 있는 방법에 대한 설명서가 있습니까?
 
@@ -165,7 +170,7 @@ Exchange Online 고객: [Exchange Online의 모니터링,](https://docs.microsof
 
   다음과 같은 구독 취소 옵션을 포함해야 합니다.
 
-  > 이 메시지는 sender@fabrikam.com에서 example.@contoso.com으로 전송된 것입니다. 프로필/전자 메일 주소 업데이트 | **SafeUnsubscribe로 즉시 제거** &trade; | 개인 정보 취급 방침
+  > 이 메시지는 sender@fabrikam.com에서 example.@contoso.com으로 전송된 것입니다. 프로필/전자 메일 주소 | **SafeUnsubscribe를** 통해 즉시 &trade; | 개인 정보 취급 방침
 
 - **대량 전자 메일을 보내는 경우에는 이중 옵트인(opt in)을 통해 목록을 확보해야 합니다. 이중 옵트인(opt in)은 대량 메일러에 대한 업계 모범 사례입니다.**
 

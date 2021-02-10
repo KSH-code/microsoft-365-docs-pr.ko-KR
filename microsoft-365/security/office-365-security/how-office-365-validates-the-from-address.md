@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - OWC150
@@ -16,25 +15,31 @@ search.appverid:
 ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
-description: 관리자는 EOP(Exchange Online Protection)에서 수락 또는 거부하는 전자 메일 주소 유형에 대해 알아보고 피싱 Outlook.com 수 있습니다.
+description: 관리자는 EOP(Exchange Online Protection)에서 수락 또는 거부하는 전자 메일 주소 유형에 대해 알아보고 피싱을 방지하기 위해 Outlook.com 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 25fbca8fa5d264a212ac25e2035bffde0819383d
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: e7c2cbec49082fbded857dde13f73516fd3e0fd5
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659657"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167518"
 ---
 # <a name="how-eop-validates-the-from-address-to-prevent-phishing"></a>EOP에서 피싱을 방지하기 위해 시작 주소의 유효성을 검사하는 방법
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-피싱 공격은 모든 전자 메일 조직에 대한 지속적인 위협입니다. 공격자는 스푸핑된(위조된) 보낸 사람 전자 메일 주소를 사용하는 것 외에도 보낸 사람 주소의 값을 사용하여 인터넷 표준을 위반하는 경우가 종종 있습니다. [](anti-spoofing-protection.md) 이러한 유형의 피싱을 방지하기 위해 EOP(Exchange Online Protection) 및 Outlook.com 이 문서에 설명된 RFC 규격 보낸사서 주소를 포함해야 합니다. 이 적용은 2017년 11월에 사용하도록 설정되어 있습니다.
+피싱 공격은 모든 전자 메일 조직에 지속적으로 위협됩니다. 공격자는 스푸핑된(위조된) 보낸 사람 전자 메일 주소를 사용하는 것 외에도 보낸 사람 주소의 값을 사용하여 인터넷 표준을 위반하는 경우가 종종 있습니다. [](anti-spoofing-protection.md) 이러한 유형의 피싱을 방지하기 위해 EOP(Exchange Online Protection) 및 Outlook.com 이 문서에 설명된 RFC 규격 보낸사서 주소를 포함해야 합니다. 이 적용은 2017년 11월에 사용하도록 설정되어 있습니다.
 
 **참고**:
 
-- 이 문서에 설명된 바와 같이 주소가 올지 의문이 있는 조직으로부터 전자 메일을 정기적으로 받는 경우 최신 보안 표준을 준수하도록 전자 메일 서버를 업데이트하는 것이 좋습니다.
+- 이 문서에 설명된 바와 같이 주소가 올지 의문이 있는 조직으로부터 전자 메일을 정기적으로 받는 경우 이러한 조직에서 최신 보안 표준을 준수하도록 전자 메일 서버를 업데이트하도록 권장합니다.
 
 - 관련 보낸 사람 필드(대신 보내기 및 메일링 목록에서 사용)는 이러한 요구 사항의 영향을 받지 않습니다. 자세한 내용은 다음 블로그 게시물을 [참조하세요. 전자 메일의 '보낸 사람'을](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/)참조하는 경우 무엇을 의미하나요?
 
@@ -85,7 +90,7 @@ From 주소는 여러 RFC(예: RFC 5322 섹션 3.2.3, 3.4 및 3.4.1 및 [RFC 369
 
 다음 전자 메일 주소가 잘못되었습니다.
 
-- **No From address**: Some automated messages don't include a From address. 과거에는 Microsoft 365 또는 Outlook.com 보낸사용자 주소 없이 메시지를 받았을 때 서비스에서 다음 기본 보낸사용자: 주소를 추가하여 메시지를 결과물로 만들 수 있습니다.
+- **No From address**: Some automated messages don't include a From address. 과거에는 Microsoft 365 또는 Outlook.com 보낸사용자 주소 없이 메시지를 받았을 때 서비스에서 다음과 같은 기본 보낸사용자: 주소를 추가하여 메시지를 배달할 수 있습니다.
 
   `From: <>`
 
@@ -95,7 +100,7 @@ From 주소는 여러 RFC(예: RFC 5322 섹션 3.2.3, 3.4 및 3.4.1 및 [RFC 369
 
 - `From: "Microsoft 365" <sender@contoso.com> (Sent by a process)` (전자 메일 주소 다음에 있는 텍스트)
 
-- `From: Sender, Example <sender.example@contoso.com>` 표시 이름에는 COMMA(콤보)가 있지만 인용 부호가 묶이지 않습니다.
+- `From: Sender, Example <sender.example@contoso.com>` 표시 이름에는 COMMA(콤보)가 포함되어 있지만 인용 부호가 묶이지 않습니다.
 
 - `From: "Microsoft 365 <sender@contoso.com>"` 전체 값이 2차원 인용 부호로 잘못 묶입니다.
 
@@ -113,7 +118,7 @@ From 주소는 여러 RFC(예: RFC 5322 섹션 3.2.3, 3.4 및 3.4.1 및 [RFC 369
 
 - 이 도메인에 대한 null MX 레코드는 단일 기간으로 구성됩니다.
 
-예를 들어,
+예:
 
 ```text
 noreply.contoso.com IN MX .

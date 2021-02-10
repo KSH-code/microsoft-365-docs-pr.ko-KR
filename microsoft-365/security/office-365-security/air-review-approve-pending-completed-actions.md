@@ -15,16 +15,16 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Office 365 계획 2용 Microsoft Defender의 자동화된 조사 및 응답 기능의 수정 작업에 대해 자세히 알아보고,
+description: Microsoft Defender for Office 365 계획 2의 자동화된 조사 및 응답 기능의 수정 작업에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 01/29/2021
-ms.openlocfilehash: bcff8f12133ea16e3d91e293943be1593eaf9659
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 3fb77fa41ff3e9af995cf80b9f4024aa92a51212
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142696"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50176018"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>Office 365에서 수정 작업 검토 및 관리
 
@@ -35,6 +35,10 @@ ms.locfileid: "50142696"
 - 외부 메일 전달 끄기
 
 이러한 수정 작업은 보안 운영 팀이 승인하지 않는 한 수행되지 않습니다. 자동화된 조사가 제시간에 완료될 수 있도록 가능한 한 빨리 보류 중인 작업을 검토하고 승인하는 것이 좋습니다. 경우에 따라 수정 작업을 실행 취소할 수 있습니다.
+
+**적용 대상**
+- [Microsoft Defender for Office 365 요금제 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 ## <a name="approve-or-reject-pending-actions"></a>보류 중인 작업 승인(또는 거부)
 

@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 ms.custom: seo-marvel-apr2020
 description: 사서함 감사 로깅은 기본적으로 Microsoft 365에서 켜져 있습니다(기본 사서함 감사 또는 기본적으로 사서함 감사라고도 합니다). 즉, 사서함 소유자, 대리인 및 관리자가 수행한 특정 작업이 사서함 감사 로그에 자동으로 기록되어 사서함에서 수행되는 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 3a65fcb3f7a908b8c63b3ba494d5ea74ffab4e5a
-ms.sourcegitcommit: 5cbce99cfdbba4b72267a144b2e03a6c52473464
+ms.openlocfilehash: 8b97e18a6c5d24bd74bb04eecc91999c4aa61bb9
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49718511"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175587"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -100,20 +100,20 @@ Get-OrganizationConfig | Format-List AuditDisabled
 
 - 확인 표시( ![확인 표시](../media/checkmark.png))는 로그온 유형에 대해 사서함 작업을 기록할 수 있습니다(모든 로그온 유형에 대해 일부 작업을 사용할 수 있는 것은 아 아함).
 
-- 확인 표시 다음에 추가()는 로그온 유형에 대해 사서함 작업이 기본적으로 기록되어 있는 <sup>\*</sup> 것입니다.
+- 확인 표시 뒤의 추가 표시는 로그온 유형에 대해 사서함 작업이 기본적으로 기록되어 있는 <sup>\*</sup> 것입니다.
 
 - 사서함에 대한 모든 액세스 권한이 있는 관리자는 대리인으로 간주됩니다.
 
 |**사서함 작업**|**설명**|**Admin**|**대리인**|**소유자**|
 |:---------|:---------|:---------:|:---------:|:---------:|
 |**AddFolderPermissions**|**참고:** 이 값은 사서함 작업으로 수락되어도 이미 **UpdateFolderPermissions** 동작에 포함되어 있으며 별도로 감사되지 않습니다. 즉, 이 값을 사용하지 않습니다.||||
-|**ApplyRecord**|항목에 레코드로 레이블이 지정됩니다.|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|
+|**ApplyRecord**|항목에 레코드로 레이블이 지정됩니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
 |**복사**|메시지가 다른 폴더에 복사되었습니다.|![확인 표시](../media/checkmark.png)|||
-|**만들기**|항목이 사서함의 일정, 연락처, 메모 또는 작업 폴더에 만들어졌습니다(예: 새 모임 요청 생성). 메시지 작성, 보내기 또는 받기는 감사되지 않습니다. 사서함 폴더 만들기도 감사되지 않습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)|
+|**만들기**|항목이 사서함의 일정, 연락처, 메모 또는 작업 폴더에 만들어졌습니다(예: 새 모임 요청이 만들어지기). 메시지 작성, 보내기 또는 받기는 감사되지 않습니다. 사서함 폴더 만들기도 감사되지 않습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)|
 |**기본값**||![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|
 |**FolderBind**|사서함 폴더에 액세스했습니다. 관리자 또는 대리인이 사서함을 열 때에도 작업이 기록됩니다.<br/><br/> **참고:** 대리인이 수행한 폴더 바인딩 작업에 대한 감사 레코드가 통합됩니다. 24시간 내에 개별 폴더 액세스에 대해 하나의 감사 레코드가 생성됩니다.|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)||
 |**HardDelete**|메시지가 복구 가능한 항목 폴더에서 제거되었습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
-|**MailItemsAccessed**|메일 데이터는 메일 프로토콜 및 클라이언트에서 액세스합니다. 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자만 사용할 수 있습니다. 자세한 내용은 조사를 위한 중요한 [이벤트에 대한 Access를 참조하세요.](advanced-audit.md#access-to-crucial-events-for-investigations)|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
+|**MailItemsAccessed**|메일 데이터는 메일 프로토콜 및 클라이언트에서 액세스합니다. 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자만 사용할 수 있습니다. 자세한 내용은 [사용자에 대한 고급 감사 설정을 참조하세요.](advanced-audit.md#set-up-advanced-audit-for-users)|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
 |**MailboxLogin**|사용자가 자신의 사서함에 로그인한 경우 |||![확인 표시](../media/checkmark.png)|
 |**MessageBind**|메시지가 미리 보기 창에서 보거나 관리자가 연 것입니다. **참고:** 이 값은 사서함 작업으로 수락되어도 이러한 작업은 더 이상 기록되지 않습니다.|![확인 표시](../media/checkmark.png)|||
 |**ModifyFolderPermissions**|**참고:** 이 값은 사서함 작업으로 수락되어도 이미 **UpdateFolderPermissions** 동작에 포함되어 있으며 별도로 감사되지 않습니다. 즉, 이 값을 사용하지 않습니다.||||
@@ -121,7 +121,7 @@ Get-OrganizationConfig | Format-List AuditDisabled
 |**MoveToDeletedItems**|메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
 |**RecordDelete**|레코드로 레이블이 지정되는 항목이 소프트 삭제되었습니다(복구 가능한 항목 폴더로 이동). 레코드로 레이블이 붙은 항목은 영구적으로 삭제할 수 없습니다(복구 가능한 항목 폴더에서 제거).|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|![확인 표시](../media/checkmark.png)|
 |**RemoveFolderPermissions**|**참고:** 이 값은 사서함 작업으로 수락되어도 이미 **UpdateFolderPermissions** 동작에 포함되어 있으며 별도로 감사되지 않습니다. 즉, 이 값을 사용하지 않습니다.||||
-|**보내기**|사용자는 전자 메일 메시지를 보내거나 전자 메일 메시지에 답장하거나 전자 메일 메시지를 전달합니다. 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자만 사용할 수 있습니다. 자세한 내용은 조사를 위한 중요한 [이벤트에 대한 Access를 참조하세요.](advanced-audit.md#access-to-crucial-events-for-investigations)|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
+|**보내기**|사용자는 전자 메일 메시지를 보내거나 전자 메일 메시지에 답장하거나 전자 메일 메시지를 전달합니다. 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자만 사용할 수 있습니다. 자세한 내용은 [사용자에 대한 고급 감사 설정을 참조하세요.](advanced-audit.md#set-up-advanced-audit-for-users)|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
 |**SendAs**|메시지가 SendAs 권한을 사용하여 전송되었습니다. 즉 사서함 소유자가 보낸 것처럼 보이도록 하여 다른 사용자가 메시지를 보냈습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>||
 |**SendOnBehalf**|메시지가 SendOnBehalf 권한을 사용하여 전송되었습니다. 즉 다른 사용자가 사서함 소유자 대신에 메시지를 보냈습니다. 받는 사람은 메시지를 대신 보낸 사용자와 해당 메시지를 실제로 보낸 사용자를 메시지에서 확인할 수 있습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>||
 |**SoftDelete**|메시지가 지운 편지함 폴더에서 삭제되어가 영구적으로 삭제되었습니다. 소프트 삭제된 항목이 복구 가능한 항목 폴더로 이동됩니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
@@ -132,7 +132,7 @@ Get-OrganizationConfig | Format-List AuditDisabled
 |**UpdateInboxRules**|받은 편지함 규칙이 추가, 제거 또는 변경되었습니다. 받은 편지함 규칙은 지정된 조건에 따라 사용자의 받은 편지함에서 메시지를 처리하고 규칙 조건이 충족될 때 지정된 폴더로 메시지를 이동하거나 메시지를 삭제하는 등의 작업을 수행하기 위해 사용됩니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
 
 > [!IMPORTANT]
-> 조직에서 기본적으로 사서함 감사를 사용하도록 설정하기 전에 모든 로그온 유형을 감사하도록 사서함 작업을 사용자 지정한 경우 사용자 지정된 설정이 사서함에 유지되고 이 섹션에 설명된 기본 사서함 작업에 의해 덮어 사용되지 않습니다.  감사 사서함 작업을 기본값으로 되버려(어떤 경우든 수행할 수 있는 [](#restore-the-default-mailbox-actions) 경우) 이 항목의 부분에 있는 기본 사서함 작업 복원 섹션을 참조하십시오.
+> 조직에서 기본적으로 사서함 감사를 사용하도록 설정하기 전에 모든 로그온 유형을 감사하도록 사서함 작업을 사용자 지정한 경우 사용자 지정된 설정은 사서함에 유지되고 이 섹션에 설명된 기본 사서함 작업에 의해 덮어 사용되지 않습니다.  감사 사서함 작업을 기본값으로 되버려(어떤 경우든 수행할 수 있는 [](#restore-the-default-mailbox-actions) 경우) 이 항목의 부분에 있는 기본 사서함 작업 복원 섹션을 참조하십시오.
 
 ### <a name="mailbox-actions-for-microsoft-365-group-mailboxes"></a>Microsoft 365 그룹 사서함에 대한 사서함 작업
 
@@ -144,7 +144,7 @@ Microsoft 365 그룹 사서함에 대한 모든 액세스 권한이 있는 관�
 
 |**사서함 작업**|**설명**|**Admin**|**대리인**|**소유자**|
 |:---------|:---------|:---------:|:---------:|:---------:|
-|**만들기**|일정 항목 만들기 메시지 작성, 보내기 또는 받기는 감사되지 않습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>||
+|**만들기**|일정 항목을 만들 수 있습니다. 메시지 작성, 보내기 또는 받기는 감사되지 않습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>||
 |**HardDelete**|메시지가 복구 가능한 항목 폴더에서 제거되었습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
 |**MoveToDeletedItems**|메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>|
 |**SendAs**|SendAs 권한을 사용하여 메시지가 전송되었습니다.|![확인 표시](../media/checkmark.png)<sup>\*</sup>|![확인 표시](../media/checkmark.png)<sup>\*</sup>||
@@ -168,7 +168,7 @@ Microsoft 365 그룹 사서함에 값을 표시하기 위해 공유 사서함의
 Get-Mailbox -Identity <MailboxIdentity> -GroupMailbox | Format-List DefaultAuditSet
 ```
 
-값은 `Admin, Delegate, Owner` 다음을 나타냅니다.
+값은 다음을 `Admin, Delegate, Owner` 나타냅니다.
 
 - 세 가지 로그온 유형 모두에 대한 기본 사서함 작업이 감사됩니다. 이 값은 Microsoft 365 그룹 사서함에만 표시됩니다.
 
@@ -218,11 +218,11 @@ Get-Mailbox -Identity <MailboxIdentity> | Select-Object -ExpandProperty AuditAdm
 그러나 조직에서 사용자 사서함 및 공유 사서함에 대해 다른 사서함 작업 집합을 감사해야 할 수 있습니다. 이 섹션의 절차에서는 각 로그온 유형에 대해 감사되는 사서함 작업을 변경하는 방법과 Microsoft에서 관리하는 기본 작업으로 되돌아가는 방법을 설명합니다.
 
 > [!IMPORTANT]
-> 다음 절차에 따라 사용자 사서함 또는 공유 사서함에 기록되는 사서함 작업을 사용자 지정하는 경우 Microsoft에서 릴리스한 새 기본 사서함 작업은 해당 사서함에 대해 자동으로 감사되지 않습니다. 사용자 지정된 작업 목록에 새 사서함 작업을 수동으로 추가해야 합니다.
+> 다음 절차에 따라 사용자 사서함 또는 공유 사서함에 기록되는 사서함 작업을 사용자 지정하면 Microsoft에서 릴리스한 새 기본 사서함 작업이 해당 사서함에 대해 자동으로 감사되지 않습니다. 사용자 지정된 작업 목록에 새 사서함 작업을 수동으로 추가해야 합니다.
 
 ### <a name="change-the-mailbox-actions-to-audit"></a>사서함 작업을 감사로 변경
 
-**Set-Mailbox** cmdlet에서 *AuditAdmin,* *AuditDelegate* 또는 *AuditOwner* 매개 변수를 사용하여 사용자 사서함 및 공유 사서함에 대해 감사되는 사서함 작업을 변경할 수 있습니다(Microsoft 365 그룹 사서함에 대한 감사된 작업은 사용자 지정할 수 없습니다).
+**Set-Mailbox** cmdlet에서 *AuditAdmin,* *AuditDelegate* 또는 *AuditOwner* 매개 변수를 사용하여 사용자 사서함 및 공유 사서함에 대해 감사되는 사서함 작업을 변경할 수 있습니다(Microsoft 365 그룹 사서함에 대한 감사된 작업은 사용자 지정될 수 없습니다).
 
 두 가지 방법을 사용하여 사서함 작업을 지정할 수 있습니다.
 
@@ -230,7 +230,7 @@ Get-Mailbox -Identity <MailboxIdentity> | Select-Object -ExpandProperty AuditAdm
 
 - *다음 구문을* 사용하여 다른 기존 값에 영향을 주지 않고 사서함 작업을 추가하거나 `@{Add="action1","action2",..."actionN"}` `@{Remove="action1","action2",..."actionN"}` 제거합니다.
 
-이 예에서는 SoftDelete 및 HardDelete를 통해 기본 작업을 덮어 덮어 서 "Gabriela Laureano"라는 사서함에 대한 관리자 사서함 작업을 변경합니다.
+이 예에서는 SoftDelete 및 HardDelete로 기본 작업을 덮어어 "Gabriela Laureano"라는 사서함에 대한 관리자 사서함 작업을 변경합니다.
 
 ```PowerShell
 Set-Mailbox -Identity "Gabriela Laureano" -AuditAdmin HardDelete,SoftDelete
@@ -316,9 +316,9 @@ Set-OrganizationConfig -AuditDisabled $false
 
 ## <a name="bypass-mailbox-audit-logging"></a>사서함 감사 로깅 무시
 
-현재 조직에서 사서함 감사가 기본적으로 설정되어 있는 경우 특정 사서함에 대해 사서함 감사를 사용하지 않도록 설정할 수 없습니다. 예를 들어 *AuditEnabled* 사서함 속성을 **False로** 설정하면 무시됩니다.
+현재 조직에서 사서함 감사가 기본적으로 설정되어 있는 경우 특정 사서함에 대한 사서함 감사를 사용하지 않도록 설정할 수 없습니다. 예를 들어 *AuditEnabled* 사서함 속성을 **False로** 설정하면 무시됩니다.
 
-그러나 Exchange Online PowerShell에서 **Set-MailboxAuditBypassAssociation** cmdlet을 사용하여  작업이 수행되는 위치와 관계없이 지정된 사용자의 사서함 작업이 기록되지 않도록 할 수 있습니다. 예를 들어,
+그러나 Exchange Online PowerShell에서 **Set-MailboxAuditBypassAssociation** cmdlet을 사용하여  작업이 수행되는 위치와 관계없이 지정된 사용자의 사서함 작업이 기록되지 않도록 할 수 있습니다. 예:
 
 - 무시된 사용자가 수행한 사서함 소유자 작업은 기록되지 않습니다.
 
@@ -342,7 +342,7 @@ True **값은** 사용자에 대해 사서함 감사 로깅이 무시되어 있�
 
 ## <a name="more-information"></a>추가 정보
 
-- 기본적으로 사서함 감사 로그온은 모든 조직에 대해 사용하도록 설정되어 있습니다. 그러나 E5 라이선스가 있는 사용자만 보안 & 준수 센터 또는 [Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference) 관리 활동 API를 통해 감사 로그 검색의 사서함 감사 [로그](search-the-audit-log-in-security-and-compliance.md) 이벤트를 반환합니다. 
+- 기본적으로 사서함 감사 로그온은 모든 조직에 대해 사용하도록 설정되어 있습니다. 그러나 E5 라이선스가 있는 사용자만 보안 & 준수 센터 또는 [Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference) 관리 활동 API를 통해 감사 로그 검색의 사서함 감사 로그 이벤트를 [](search-the-audit-log-in-security-and-compliance.md) 반환합니다. 
 
   E5 라이선스가 없는 사용자의 사서함 감사 로그 항목을 검색하려면 다음을 할 수 있습니다.
 
