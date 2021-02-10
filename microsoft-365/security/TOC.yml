@@ -648,7 +648,7 @@
               href: ./office-365-security/set-up-anti-phishing-policies.md
             - name: EOP의 후방 산란
               href: ./office-365-security/backscatter-messages-and-eop.md
-            - name: 대량 불만 수준(SCL)
+            - name: 대량 불만 수준(BCL)
               href: ./office-365-security/bulk-complaint-level-values.md
             - name: 최종 사용자 스팸 알림
               href: ./office-365-security/use-spam-notifications-to-release-and-report-quarantined-messages.md
