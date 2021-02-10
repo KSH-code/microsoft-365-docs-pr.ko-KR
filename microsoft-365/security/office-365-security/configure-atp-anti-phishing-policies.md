@@ -8,481 +8,486 @@ manager: dansimp
 audience: ITPro
 ms.topic: how-to
 ms.date: ''
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365용 Microsoft Defender를 사용하여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 295600098aee151ec088e48345bf69181ba3afb8
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 8b8a43127c4e445ab214a709bb27e5e29100d358
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658897"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165718"
 ---
-# <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="9308c-103">Office 365용 Microsoft Defender에서 피싱 방지 정책 구성</span><span class="sxs-lookup"><span data-stu-id="9308c-103">Configure anti-phishing policies in Microsoft Defender for Office 365</span></span>
+# <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="92393-103">Office 365용 Microsoft Defender에서 피싱 방지 정책 구성</span><span class="sxs-lookup"><span data-stu-id="92393-103">Configure anti-phishing policies in Microsoft Defender for Office 365</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-<span data-ttu-id="9308c-104">[Microsoft Defender for Office 365의](office-365-atp.md) 피싱 방지 정책은 악의적인 가장 기반 피싱 공격 및 기타 유형의 피싱 공격으로부터 조직을 보호하는 데 도움이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-104">Anti-phishing policies in [Microsoft Defender for Office 365](office-365-atp.md) can help protect your organization from malicious impersonation-based phishing attacks and other types of phishing attacks.</span></span> <span data-ttu-id="9308c-105">EOP(Exchange Online Protection)의 피싱 방지 정책과 Office 365용 Microsoft Defender의 피싱 방지 정책 [](anti-phishing-protection.md)간의 차이점에 대한 자세한 내용은 피싱 방지 보호 기능을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9308c-105">For more information about the differences between anti-phishing policies in Exchange Online Protection (EOP) and anti-phishing policies in Microsoft Defender for Office 365, see [Anti-phishing protection](anti-phishing-protection.md).</span></span>
+<span data-ttu-id="92393-104">**적용 대상**</span><span class="sxs-lookup"><span data-stu-id="92393-104">**Applies to**</span></span>
+- [<span data-ttu-id="92393-105">Microsoft Defender for Office 365 요금제 1 및 계획 2</span><span class="sxs-lookup"><span data-stu-id="92393-105">Microsoft Defender for Office 365 plan 1 and plan 2</span></span>](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [<span data-ttu-id="92393-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="92393-106">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-<span data-ttu-id="9308c-106">관리자는 기본 피싱 방지 정책을 보고 편집하고 구성할 수 있지만 삭제할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-106">Admins can view, edit, and configure (but not delete) the default anti-phishing policy.</span></span> <span data-ttu-id="9308c-107">세분성을 강화하기 위해 조직의 특정 사용자, 그룹 또는 도메인에 적용되는 사용자 지정 피싱 방지 정책을 만들 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-107">For greater granularity, you can also create custom anti-phishing policies that apply to specific users, groups, or domains in your organization.</span></span> <span data-ttu-id="9308c-108">사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-108">Custom policies always take precedence over the default policy, but you can change the priority (running order) of your custom policies.</span></span>
+<span data-ttu-id="92393-107">[Microsoft Defender for Office 365의](office-365-atp.md) 피싱 방지 정책은 악의적인 가장 기반 피싱 공격 및 기타 유형의 피싱 공격으로부터 조직을 보호하는 데 도움이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-107">Anti-phishing policies in [Microsoft Defender for Office 365](office-365-atp.md) can help protect your organization from malicious impersonation-based phishing attacks and other types of phishing attacks.</span></span> <span data-ttu-id="92393-108">EOP(Exchange Online Protection)의 피싱 방지 정책과 Office 365용 Microsoft Defender의 피싱 방지 정책 [](anti-phishing-protection.md)간의 차이점에 대한 자세한 내용은 피싱 방지 보호 기능을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="92393-108">For more information about the differences between anti-phishing policies in Exchange Online Protection (EOP) and anti-phishing policies in Microsoft Defender for Office 365, see [Anti-phishing protection](anti-phishing-protection.md).</span></span>
 
-<span data-ttu-id="9308c-109">보안 및 준수 센터 또는 Exchange Online PowerShell에서 & 피싱 방지 정책을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-109">You can configure anti-phishing policies in the Security & Compliance Center or in Exchange Online PowerShell.</span></span>
+<span data-ttu-id="92393-109">관리자는 기본 피싱 방지 정책을 보고 편집하고 구성할 수 있지만 삭제할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-109">Admins can view, edit, and configure (but not delete) the default anti-phishing policy.</span></span> <span data-ttu-id="92393-110">세분성을 강화하기 위해 조직의 특정 사용자, 그룹 또는 도메인에 적용되는 사용자 지정 피싱 방지 정책을 만들 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-110">For greater granularity, you can also create custom anti-phishing policies that apply to specific users, groups, or domains in your organization.</span></span> <span data-ttu-id="92393-111">사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-111">Custom policies always take precedence over the default policy, but you can change the priority (running order) of your custom policies.</span></span>
 
-<span data-ttu-id="9308c-110">Exchange Online Protection 조직에서 사용할 수 있는 피싱 방지 정책(즉, Office 365용 Microsoft Defender가 없는 조직)에서 보다 제한적인 피싱 방지 정책을 구성하는 데 대한 자세한 내용은 [EOP에서](configure-anti-phishing-policies-eop.md)피싱 방지 정책 구성을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9308c-110">For information about configuring the more limited in anti-phishing policies that are available in Exchange Online Protection organizations (that is, organizations without Microsoft Defender for Office 365), see [Configure anti-phishing policies in EOP](configure-anti-phishing-policies-eop.md).</span></span>
+<span data-ttu-id="92393-112">보안 및 준수 센터 또는 Exchange Online PowerShell에서 & 피싱 방지 정책을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-112">You can configure anti-phishing policies in the Security & Compliance Center or in Exchange Online PowerShell.</span></span>
 
-<span data-ttu-id="9308c-111">피싱 방지 정책의 기본 요소는 다음입니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-111">The basic elements of an anti-phishing policy are:</span></span>
+<span data-ttu-id="92393-113">Exchange Online Protection 조직에서 사용할 수 있는 피싱 방지 정책(즉, Office 365용 Microsoft Defender가 없는 조직)에서 보다 제한적인 피싱 방지 정책을 구성하는 데 대한 자세한 내용은 [EOP에서](configure-anti-phishing-policies-eop.md)피싱 방지 정책 구성을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="92393-113">For information about configuring the more limited in anti-phishing policies that are available in Exchange Online Protection organizations (that is, organizations without Microsoft Defender for Office 365), see [Configure anti-phishing policies in EOP](configure-anti-phishing-policies-eop.md).</span></span>
 
-- <span data-ttu-id="9308c-112">**피싱** 방지 정책: 사용하도록 설정하거나 사용하지 않도록 설정할 피싱 보호 및 옵션을 적용할 작업을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-112">**The anti-phish policy**: Specifies the phishing protections to enable or disable, and the actions to apply options.</span></span>
-- <span data-ttu-id="9308c-113">**피싱** 방지 규칙: 피싱 방지 정책에 대한 우선 순위 및 받는 사람 필터(정책이 적용되는 사람)를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-113">**The anti-phish rule**: Specifies the priority and recipient filters (who the policy applies to) for an anti-phish policy.</span></span>
+<span data-ttu-id="92393-114">피싱 방지 정책의 기본 요소는 다음입니다.</span><span class="sxs-lookup"><span data-stu-id="92393-114">The basic elements of an anti-phishing policy are:</span></span>
 
-<span data-ttu-id="9308c-114">보안 및 준수 센터에서 피싱 방지 정책을 관리할 때 이러한 두 요소의 차이는 & 명확하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-114">The difference between these two elements isn't obvious when you manage anti-phishing policies in the Security & Compliance Center:</span></span>
+- <span data-ttu-id="92393-115">**피싱** 방지 정책: 사용하도록 설정하거나 사용하지 않도록 설정할 피싱 보호와 옵션을 적용할 작업을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-115">**The anti-phish policy**: Specifies the phishing protections to enable or disable, and the actions to apply options.</span></span>
+- <span data-ttu-id="92393-116">**피싱** 방지 규칙: 피싱 방지 정책에 대한 우선 순위 및 받는 사람 필터(정책이 적용되는 사람)를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-116">**The anti-phish rule**: Specifies the priority and recipient filters (who the policy applies to) for an anti-phish policy.</span></span>
 
-- <span data-ttu-id="9308c-115">정책을 만들 때 실제로 둘 다에 대해 동일한 이름을 사용하여 피싱 방지 규칙과 연결된 피싱 방지 정책을 동시에 만들게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-115">When you create a policy, you're actually creating an anti-phish rule and the associated anti-phish policy at the same time using the same name for both.</span></span>
-- <span data-ttu-id="9308c-116">정책을 수정할 때 이름, 우선 순위, 사용 또는 사용 안 하도록 설정 및 받는 사람 필터와 관련된 설정은 피싱 방지 규칙을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-116">When you modify a policy, settings related to the name, priority, enabled or disabled, and recipient filters modify the anti-phish rule.</span></span> <span data-ttu-id="9308c-117">다른 모든 설정은 연결된 피싱 방지 정책을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-117">All other settings modify the associated anti-phish policy.</span></span>
-- <span data-ttu-id="9308c-118">정책을 제거하면 피싱 방지 규칙 및 연결된 피싱 방지 정책이 제거됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-118">When you remove a policy, the anti-phish rule and the associated anti-phish policy are removed.</span></span>
+<span data-ttu-id="92393-117">보안 및 준수 센터에서 피싱 방지 정책을 관리할 때 이러한 두 요소의 차이는 & 명확하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-117">The difference between these two elements isn't obvious when you manage anti-phishing policies in the Security & Compliance Center:</span></span>
 
-<span data-ttu-id="9308c-119">Exchange Online PowerShell에서는 정책과 규칙을 별도로 관리합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-119">In Exchange Online PowerShell, you manage the policy and the rule separately.</span></span> <span data-ttu-id="9308c-120">자세한 내용은 이 문서 부분의 [Microsoft Defender for Office 365 섹션에서 Exchange Online PowerShell을](#use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365) 사용하여 피싱 방지 정책을 구성하는 방법을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9308c-120">For more information, see the [Use Exchange Online PowerShell to configure anti-phishing policies in Microsoft Defender for Office 365](#use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365) section later in this article.</span></span>
+- <span data-ttu-id="92393-118">정책을 만들 때 실제로 둘 다에 대해 동일한 이름을 사용하여 피싱 방지 규칙과 연결된 피싱 방지 정책을 동시에 만들게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-118">When you create a policy, you're actually creating an anti-phish rule and the associated anti-phish policy at the same time using the same name for both.</span></span>
+- <span data-ttu-id="92393-119">정책을 수정할 때 이름, 우선 순위, 사용 또는 사용하지 않도록 설정된 설정 및 받는 사람 필터와 관련된 설정은 피싱 방지 규칙을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-119">When you modify a policy, settings related to the name, priority, enabled or disabled, and recipient filters modify the anti-phish rule.</span></span> <span data-ttu-id="92393-120">다른 모든 설정은 연결된 피싱 방지 정책을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-120">All other settings modify the associated anti-phish policy.</span></span>
+- <span data-ttu-id="92393-121">정책을 제거하면 피싱 방지 규칙 및 연결된 피싱 방지 정책이 제거됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-121">When you remove a policy, the anti-phish rule and the associated anti-phish policy are removed.</span></span>
 
-<span data-ttu-id="9308c-121">모든 Microsoft Defender for Office 365 조직에는 다음 속성이 있는 Office365 AntiPhish Default라는 기본 제공 피싱 방지 정책이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-121">Every Microsoft Defender for Office 365 organization has a built-in anti-phishing policy named Office365 AntiPhish Default that has these properties:</span></span>
+<span data-ttu-id="92393-122">Exchange Online PowerShell에서는 정책과 규칙을 별도로 관리합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-122">In Exchange Online PowerShell, you manage the policy and the rule separately.</span></span> <span data-ttu-id="92393-123">자세한 내용은 이 문서 부분의 [Microsoft Defender for Office 365 섹션에서 Exchange Online PowerShell을](#use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365) 사용하여 피싱 방지 정책을 구성하는 방법을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="92393-123">For more information, see the [Use Exchange Online PowerShell to configure anti-phishing policies in Microsoft Defender for Office 365](#use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365) section later in this article.</span></span>
 
-- <span data-ttu-id="9308c-122">이 정책은 정책과 연결된 피싱 방지 규칙(받는 사람 필터)이 없는 경우에도 조직의 모든 받는 사람에게 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-122">The policy is applied to all recipients in the organization, even though there's no anti-phish rule (recipient filters) associated with the policy.</span></span>
-- <span data-ttu-id="9308c-123">정책의 사용자 지정 우선순위 값은 **가장 낮음** 이며 변경할 수 없습니다(이 정책은 항상 마지막으로 적용됨).</span><span class="sxs-lookup"><span data-stu-id="9308c-123">The policy has the custom priority value **Lowest** that you can't modify (the policy is always applied last).</span></span> <span data-ttu-id="9308c-124">사용자가 만든 모든 사용자 지정 정책은 항상 더 높은 우선순위를 갖습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-124">Any custom policies that you create always have a higher priority.</span></span>
-- <span data-ttu-id="9308c-125">그 정책이 기본 정책(**IsDefault** 속성의 값은 `True`)이고, 기본 정책은 삭제할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-125">The policy is the default policy (the **IsDefault** property has the value `True`), and you can't delete the default policy.</span></span>
+<span data-ttu-id="92393-124">모든 Microsoft Defender for Office 365 조직에는 다음 속성이 있는 Office365 AntiPhish Default라는 기본 제공 피싱 방지 정책이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-124">Every Microsoft Defender for Office 365 organization has a built-in anti-phishing policy named Office365 AntiPhish Default that has these properties:</span></span>
 
-<span data-ttu-id="9308c-126">Microsoft Defender for Office 365에서 피싱 방지 보호의 효율성을 높이기 위해 특정 사용자 또는 사용자 그룹에 적용되는 더 엄격한 설정을 사용하여 사용자 지정 피싱 방지 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-126">To increase the effectiveness of anti-phishing protection in Microsoft Defender for Office 365, you can create custom anti-phishing policies with stricter settings that are applied to specific users or groups of users.</span></span>
+- <span data-ttu-id="92393-125">이 정책은 정책과 연결된 피싱 방지 규칙(받는 사람 필터)이 없는 경우에도 조직의 모든 받는 사람에게 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-125">The policy is applied to all recipients in the organization, even though there's no anti-phish rule (recipient filters) associated with the policy.</span></span>
+- <span data-ttu-id="92393-126">정책의 사용자 지정 우선순위 값은 **가장 낮음** 이며 변경할 수 없습니다(이 정책은 항상 마지막으로 적용됨).</span><span class="sxs-lookup"><span data-stu-id="92393-126">The policy has the custom priority value **Lowest** that you can't modify (the policy is always applied last).</span></span> <span data-ttu-id="92393-127">사용자가 만든 모든 사용자 지정 정책은 항상 더 높은 우선순위를 갖습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-127">Any custom policies that you create always have a higher priority.</span></span>
+- <span data-ttu-id="92393-128">그 정책이 기본 정책(**IsDefault** 속성의 값은 `True`)이고, 기본 정책은 삭제할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-128">The policy is the default policy (the **IsDefault** property has the value `True`), and you can't delete the default policy.</span></span>
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="9308c-127">시작하기 전에 알아야 할 내용은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="9308c-127">What do you need to know before you begin?</span></span>
+<span data-ttu-id="92393-129">Microsoft Defender for Office 365에서 피싱 방지 보호의 효율성을 높이기 위해 특정 사용자 또는 사용자 그룹에 적용되는 더 엄격한 설정을 사용하여 사용자 지정 피싱 방지 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-129">To increase the effectiveness of anti-phishing protection in Microsoft Defender for Office 365, you can create custom anti-phishing policies with stricter settings that are applied to specific users or groups of users.</span></span>
 
-- <span data-ttu-id="9308c-128"><https://protection.office.com/>에서 보안 및 준수 센터를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-128">You open the Security & Compliance Center at <https://protection.office.com/>.</span></span> <span data-ttu-id="9308c-129">**ATP** 피싱 방지 페이지로 직접 이동하기 위해 다음을 <https://protection.office.com/antiphishing> 사용하세요.</span><span class="sxs-lookup"><span data-stu-id="9308c-129">To go directly to the **ATP anti-phishing** page, use <https://protection.office.com/antiphishing>.</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="92393-130">시작하기 전에 알아야 할 내용은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="92393-130">What do you need to know before you begin?</span></span>
 
-- <span data-ttu-id="9308c-130">Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9308c-130">To connect to Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).</span></span>
+- <span data-ttu-id="92393-131"><https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="92393-131">You open the Security & Compliance Center at <https://protection.office.com/>.</span></span> <span data-ttu-id="92393-132">**ATP** 피싱 방지 페이지로 직접 이동하기 위해 다음을 <https://protection.office.com/antiphishing> 사용하세요.</span><span class="sxs-lookup"><span data-stu-id="92393-132">To go directly to the **ATP anti-phishing** page, use <https://protection.office.com/antiphishing>.</span></span>
 
-- <span data-ttu-id="9308c-131">이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-131">You need to be assigned permissions in the Security & Compliance Center before you can do the procedures in this article:</span></span>
-  - <span data-ttu-id="9308c-132">피싱 방지 정책을 추가, 수정 및 삭제하려면 조직 관리 또는  보안 관리자 역할 그룹의 구성원이 **되거나** 삭제해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-132">To add, modify, and delete anti-phishing policies, you need to be a member of the **Organization Management** or **Security Administrator** role groups.</span></span>
-  - <span data-ttu-id="9308c-133">피싱 방지 정책에 대한 읽기 전용 액세스 권한을 사용하려면  전역 읽기 그룹 또는 보안 읽기 권한이 있는 역할 그룹의 구성원이 **되거나,** <sup>\*</sup></span><span class="sxs-lookup"><span data-stu-id="9308c-133">For read-only access to anti-phishing policies, you need to be a member of the **Global Reader** or **Security Reader** role groups<sup>\*</sup>.</span></span>
+- <span data-ttu-id="92393-133">Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="92393-133">To connect to Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).</span></span>
 
-  <span data-ttu-id="9308c-134">자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9308c-134">For more information, see [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
+- <span data-ttu-id="92393-134">이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 할당받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-134">You need to be assigned permissions in the Security & Compliance Center before you can do the procedures in this article:</span></span>
+  - <span data-ttu-id="92393-135">피싱 방지 정책을 추가, 수정 및 삭제하려면 조직 관리 또는  보안 관리자 역할 그룹의 구성원이 **되거나** 삭제됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-135">To add, modify, and delete anti-phishing policies, you need to be a member of the **Organization Management** or **Security Administrator** role groups.</span></span>
+  - <span data-ttu-id="92393-136">피싱 방지 정책에 대한 읽기 전용 액세스의 경우 전역  읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이면** <sup>\*</sup> 됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-136">For read-only access to anti-phishing policies, you need to be a member of the **Global Reader** or **Security Reader** role groups<sup>\*</sup>.</span></span>
 
-  <span data-ttu-id="9308c-135">**참고**:</span><span class="sxs-lookup"><span data-stu-id="9308c-135">**Notes**:</span></span>
+  <span data-ttu-id="92393-137">자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="92393-137">For more information, see [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
 
-  - <span data-ttu-id="9308c-136">Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-136">Adding users to the corresponding Azure Active Directory role in the Microsoft 365 admin center gives users the required permissions in the Security & Compliance Center _and_ permissions for other features in Microsoft 365.</span></span> <span data-ttu-id="9308c-137">자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9308c-137">For more information, see [About admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).</span></span>
-  - <span data-ttu-id="9308c-138">[또한 Exchange Online의](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) 보기 **전용 조직 관리** 역할 그룹은 기능에 대한 읽기 전용 액세스 권한을 <sup>\*</sup> 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-138">The **View-Only Organization Management** role group in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) also gives read-only access to the feature<sup>\*</sup>.</span></span>
-  - <span data-ttu-id="9308c-139"><sup>\*</sup> 보안 & 준수 센터에서 읽기 전용 액세스를 통해 사용자는 사용자 지정 피싱 방지 정책의 설정을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-139"><sup>\*</sup> In the Security & Compliance Center, read-only access allows users to view the settings of custom anti-phishing policies.</span></span> <span data-ttu-id="9308c-140">읽기 전용인 사용자는 기본 피싱 방지 정책의 설정을 볼 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-140">Read-only users can't see the settings in the default anti-phishing policy.</span></span>
+  <span data-ttu-id="92393-138">**참고**:</span><span class="sxs-lookup"><span data-stu-id="92393-138">**Notes**:</span></span>
 
-- <span data-ttu-id="9308c-141">Microsoft Defender for Office 365의 피싱 방지 정책에 대한 권장 설정은 [Office 365용 Defender의](recommended-settings-for-eop-and-office365-atp.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365)피싱 방지 정책을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9308c-141">For our recommended settings for anti-phishing policies in Microsoft Defender for Office 365, see [Anti-phishing policy in Defender for Office 365 settings](recommended-settings-for-eop-and-office365-atp.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365).</span></span>
+  - <span data-ttu-id="92393-139">Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-139">Adding users to the corresponding Azure Active Directory role in the Microsoft 365 admin center gives users the required permissions in the Security & Compliance Center _and_ permissions for other features in Microsoft 365.</span></span> <span data-ttu-id="92393-140">자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="92393-140">For more information, see [About admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).</span></span>
+  - <span data-ttu-id="92393-141">[또한 Exchange Online의](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) 보기 **전용 조직 관리** 역할 그룹은 기능에 대한 읽기 전용 액세스 권한을 <sup>\*</sup> 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-141">The **View-Only Organization Management** role group in [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) also gives read-only access to the feature<sup>\*</sup>.</span></span>
+  - <span data-ttu-id="92393-142"><sup>\*</sup> 보안 & 준수 센터에서 읽기 전용 액세스를 통해 사용자는 사용자 지정 피싱 방지 정책 설정을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-142"><sup>\*</sup> In the Security & Compliance Center, read-only access allows users to view the settings of custom anti-phishing policies.</span></span> <span data-ttu-id="92393-143">읽기 전용인 사용자는 기본 피싱 방지 정책의 설정을 볼 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-143">Read-only users can't see the settings in the default anti-phishing policy.</span></span>
 
-- <span data-ttu-id="9308c-142">새 정책 또는 업데이트된 정책을 적용하는 데 최대 30분을 허용합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-142">Allow up to 30 minutes for a new or updated policy to be applied.</span></span>
+- <span data-ttu-id="92393-144">Microsoft Defender for Office 365의 피싱 방지 정책에 대한 권장 설정은 [Office 365용 Defender의](recommended-settings-for-eop-and-office365-atp.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365)피싱 방지 정책을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="92393-144">For our recommended settings for anti-phishing policies in Microsoft Defender for Office 365, see [Anti-phishing policy in Defender for Office 365 settings](recommended-settings-for-eop-and-office365-atp.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365).</span></span>
 
-- <span data-ttu-id="9308c-143">필터링 파이프라인에서 피싱 방지 정책이 적용되는 위치는 전자 메일 보호의 순서 및 우선 순위를 [참조하세요.](how-policies-and-protections-are-combined.md)</span><span class="sxs-lookup"><span data-stu-id="9308c-143">For information about where anti-phishing policies are applied in the filtering pipeline, see [Order and precedence of email protection](how-policies-and-protections-are-combined.md).</span></span>
+- <span data-ttu-id="92393-145">새 정책 또는 업데이트된 정책을 적용하는 데 최대 30분을 허용합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-145">Allow up to 30 minutes for a new or updated policy to be applied.</span></span>
 
-## <a name="use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="9308c-144">보안 및 & 센터를 사용하여 Microsoft Defender for Office 365에서 피싱 방지 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="9308c-144">Use the Security & Compliance Center to create anti-phishing policies in Microsoft Defender for Office 365</span></span>
+- <span data-ttu-id="92393-146">필터링 파이프라인에서 피싱 방지 정책이 적용되는 위치는 전자 메일 보호의 순서 및 우선 순위를 [참조하세요.](how-policies-and-protections-are-combined.md)</span><span class="sxs-lookup"><span data-stu-id="92393-146">For information about where anti-phishing policies are applied in the filtering pipeline, see [Order and precedence of email protection](how-policies-and-protections-are-combined.md).</span></span>
 
-<span data-ttu-id="9308c-145">보안 & 준수 센터에서 사용자 지정 피싱 방지 정책을 만들면 피싱 방지 규칙과 연결된 피싱 방지 정책이 동시에 동일한 이름의 피싱 방지 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-145">Creating a custom anti-phishing policy in the Security & Compliance Center creates the anti-phish rule and the associated anti-phish policy at the same time using the same name for both.</span></span>
+## <a name="use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="92393-147">보안 및 & 센터를 사용하여 Microsoft Defender for Office 365에서 피싱 방지 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="92393-147">Use the Security & Compliance Center to create anti-phishing policies in Microsoft Defender for Office 365</span></span>
 
-<span data-ttu-id="9308c-146">피싱 방지 정책을 만들 때 정책이 적용되는 사람을 식별하는 정책 이름, 설명 및 받는 사람 필터만 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-146">When you create an anti-phishing policy, you can only specify the policy name, description, and the recipient filter that identifies who the policy applies to.</span></span> <span data-ttu-id="9308c-147">정책을 만든 후 기본 피싱 방지 설정을 변경하거나 검토하도록 정책을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-147">After you create the policy, you can modify the policy to change or review the default anti-phishing settings.</span></span>
+<span data-ttu-id="92393-148">보안 & 준수 센터에서 사용자 지정 피싱 방지 정책을 만들면 피싱 방지 규칙과 연결된 피싱 방지 정책이 동시에 동일한 이름의 피싱 방지 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="92393-148">Creating a custom anti-phishing policy in the Security & Compliance Center creates the anti-phish rule and the associated anti-phish policy at the same time using the same name for both.</span></span>
 
-1. <span data-ttu-id="9308c-148">보안 & 준수 센터에서 위협 관리  정책 ATP 피싱 \>  \> **방지로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-148">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span>
+<span data-ttu-id="92393-149">피싱 방지 정책을 만들 때 정책이 적용되는 사람을 식별하는 정책 이름, 설명 및 받는 사람 필터만 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-149">When you create an anti-phishing policy, you can only specify the policy name, description, and the recipient filter that identifies who the policy applies to.</span></span> <span data-ttu-id="92393-150">정책을 만든 후 기본 피싱 방지 설정을 변경하거나 검토하도록 정책을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-150">After you create the policy, you can modify the policy to change or review the default anti-phishing settings.</span></span>
 
-2. <span data-ttu-id="9308c-149">피싱 **방지** 페이지에서 만들기를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-149">On the **Anti-phishing** page, click **Create**.</span></span>
+1. <span data-ttu-id="92393-151">보안 & 준수 센터에서 위협 관리  \>  \> **정책 ATP 피싱 방지로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-151">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span>
 
-3. <span data-ttu-id="9308c-150">새 피싱 방지 정책 **만들기 마법사가** 열립니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-150">The **Create a new anti-phishing policy** wizard opens.</span></span> <span data-ttu-id="9308c-151">정책 **이름 페이지에서** 다음 설정을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-151">On the **Name your policy** page, configure the following settings:</span></span>
+2. <span data-ttu-id="92393-152">피싱 **방지 페이지에서** 만들기를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-152">On the **Anti-phishing** page, click **Create**.</span></span>
 
-   - <span data-ttu-id="9308c-152">**이름**: 정책을 설명하는 고유한 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-152">**Name**: Enter a unique, descriptive name for the policy.</span></span>
+3. <span data-ttu-id="92393-153">새 피싱 방지 정책 **만들기 마법사가** 열립니다.</span><span class="sxs-lookup"><span data-stu-id="92393-153">The **Create a new anti-phishing policy** wizard opens.</span></span> <span data-ttu-id="92393-154">정책 **이름 페이지에서** 다음 설정을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-154">On the **Name your policy** page, configure the following settings:</span></span>
 
-   - <span data-ttu-id="9308c-153">**설명**: 정책에 대한 선택적 설명을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-153">**Description**: Enter an optional description for the policy.</span></span>
+   - <span data-ttu-id="92393-155">**이름**: 정책을 설명하는 고유한 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-155">**Name**: Enter a unique, descriptive name for the policy.</span></span>
 
-   <span data-ttu-id="9308c-154">작업을 마친 후 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-154">When you're finished, click **Next**.</span></span>
+   - <span data-ttu-id="92393-156">**설명**: 정책에 대한 선택적 설명을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-156">**Description**: Enter an optional description for the policy.</span></span>
 
-4. <span data-ttu-id="9308c-155">적용 **대상** 페이지가 나타나면 정책이 적용되는 내부 받는 사람을 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-155">On the **Applied to** page that appears, identify the internal recipients that the policy applies to.</span></span>
+   <span data-ttu-id="92393-157">작업을 마친 후 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-157">When you're finished, click **Next**.</span></span>
 
-   <span data-ttu-id="9308c-156">조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-156">You can only use a condition or exception once, but you can specify multiple values for the condition or exception.</span></span> <span data-ttu-id="9308c-157">동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_).</span><span class="sxs-lookup"><span data-stu-id="9308c-157">Multiple values of the same condition or exception use OR logic (for example, _\<recipient1\>_ or _\<recipient2\>_).</span></span> <span data-ttu-id="9308c-158">다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_).</span><span class="sxs-lookup"><span data-stu-id="9308c-158">Different conditions or exceptions use AND logic (for example, _\<recipient1\>_ and _\<member of group 1\>_).</span></span>
+4. <span data-ttu-id="92393-158">적용 **대상** 페이지가 나타나면 정책이 적용되는 내부 받는 사람을 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-158">On the **Applied to** page that appears, identify the internal recipients that the policy applies to.</span></span>
 
-   <span data-ttu-id="9308c-159">조건 **추가를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-159">Click **Add a condition**.</span></span> <span data-ttu-id="9308c-160">나타나는 드롭다운에서 적용된 조건(다음의 **경우)을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-160">In the dropdown that appears, select a condition under **Applied if**:</span></span>
+   <span data-ttu-id="92393-159">조건이나 예외는 한 번만 사용할 수 있지만, 조건이나 예외에 대한 값을 여러 개 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-159">You can only use a condition or exception once, but you can specify multiple values for the condition or exception.</span></span> <span data-ttu-id="92393-160">동일한 조건의 여러 값이나 예외는 OR 논리를 사용합니다(예: _\<recipient1\>_ 혹은 _\<recipient2\>_).</span><span class="sxs-lookup"><span data-stu-id="92393-160">Multiple values of the same condition or exception use OR logic (for example, _\<recipient1\>_ or _\<recipient2\>_).</span></span> <span data-ttu-id="92393-161">다양한 조건이나 예외는 AND 논리를 사용합니다(예: _\<recipient1\>_ 및 _\<member of group 1\>_).</span><span class="sxs-lookup"><span data-stu-id="92393-161">Different conditions or exceptions use AND logic (for example, _\<recipient1\>_ and _\<member of group 1\>_).</span></span>
 
-   - <span data-ttu-id="9308c-161">**받는 사람:** 조직에서 하나 이상의 사서함, 메일 사용자 또는 메일 연락처를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-161">**The recipient is**: Specifies one or more mailboxes, mail users, or mail contacts in your organization.</span></span>
-   - <span data-ttu-id="9308c-162">**받는 사람이 다음의 구성원인** 경우 조직에서 하나 이상의 그룹을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-162">**The recipient is a member of**: Specifies one or more groups in your organization.</span></span>
-   - <span data-ttu-id="9308c-163">**받는 사람 도메인:** 조직에서 구성된 하나 이상의 허용 도메인에 있는 받는 사람을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-163">**The recipient domain is**: Specifies recipients in one or more of the configured accepted domains in the organization.</span></span>
+   <span data-ttu-id="92393-162">조건 **추가를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-162">Click **Add a condition**.</span></span> <span data-ttu-id="92393-163">나타나는 드롭다운에서 적용된 조건(다음의 **경우)을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-163">In the dropdown that appears, select a condition under **Applied if**:</span></span>
 
-   <span data-ttu-id="9308c-164">조건을 선택하면 다음 상자와 함께 해당 **드롭다운이** 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-164">After you select the condition, a corresponding dropdown appears with an **Any of these** box.</span></span>
+   - <span data-ttu-id="92393-164">**받는 사람:** 조직에서 하나 이상의 사서함, 메일 사용자 또는 메일 연락처를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-164">**The recipient is**: Specifies one or more mailboxes, mail users, or mail contacts in your organization.</span></span>
+   - <span data-ttu-id="92393-165">**받는 사람이 다음의 구성원인** 경우 조직에서 하나 이상의 그룹을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-165">**The recipient is a member of**: Specifies one or more groups in your organization.</span></span>
+   - <span data-ttu-id="92393-166">**받는 사람 도메인:** 조직에서 구성된 하나 이상의 허용 도메인에 있는 받는 사람을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-166">**The recipient domain is**: Specifies recipients in one or more of the configured accepted domains in the organization.</span></span>
 
-   - <span data-ttu-id="9308c-165">상자를 클릭하고 선택할 값 목록을 스크롤합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-165">Click in the box and scroll through the list of values to select.</span></span>
-   - <span data-ttu-id="9308c-166">상자를 클릭하고 입력을 시작하여 목록을 필터링하고 값을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-166">Click in the box and start typing to filter the list and select a value.</span></span>
-   - <span data-ttu-id="9308c-167">값을 더 추가하려면 상자의 빈 영역을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-167">To add additional values, click in an empty area in the box.</span></span>
-   - <span data-ttu-id="9308c-168">개별 항목을 제거하려면  값에서 제거 ![ ](../../media/scc-remove-icon.png) 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-168">To remove individual entries, click **Remove** ![Remove icon](../../media/scc-remove-icon.png) on the value.</span></span>
-   - <span data-ttu-id="9308c-169">전체 조건을 제거하려면 **조건에서** 제거 ![ ](../../media/scc-remove-icon.png) 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-169">To remove the whole condition, click **Remove** ![Remove icon](../../media/scc-remove-icon.png) on the condition.</span></span>
+   <span data-ttu-id="92393-167">조건을 선택하면 다음 상자와 함께 해당 **드롭다운이** 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="92393-167">After you select the condition, a corresponding dropdown appears with an **Any of these** box.</span></span>
 
-   <span data-ttu-id="9308c-170">조건을 더 추가하려면 **조건** 추가를 클릭하고 적용된 경우 나머지 **값을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-170">To add an additional condition, click **Add a condition** and select a remaining value under **Applied if**.</span></span>
+   - <span data-ttu-id="92393-168">상자를 클릭하고 선택할 값 목록을 스크롤합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-168">Click in the box and scroll through the list of values to select.</span></span>
+   - <span data-ttu-id="92393-169">상자를 클릭하고 입력을 시작하여 목록을 필터링하고 값을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-169">Click in the box and start typing to filter the list and select a value.</span></span>
+   - <span data-ttu-id="92393-170">값을 더 추가하려면 상자의 빈 영역을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-170">To add additional values, click in an empty area in the box.</span></span>
+   - <span data-ttu-id="92393-171">개별 항목을 제거하려면  값에서 제거 ![ ](../../media/scc-remove-icon.png) 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-171">To remove individual entries, click **Remove** ![Remove icon](../../media/scc-remove-icon.png) on the value.</span></span>
+   - <span data-ttu-id="92393-172">전체 조건을 제거하려면 **조건에서** 제거 ![ ](../../media/scc-remove-icon.png) 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-172">To remove the whole condition, click **Remove** ![Remove icon](../../media/scc-remove-icon.png) on the condition.</span></span>
 
-   <span data-ttu-id="9308c-171">예외를 추가하려면 **조건** 추가를 클릭하고 다음의 예외를 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-171">To add exceptions, click **Add a condition** and select an exception under **Except if**.</span></span> <span data-ttu-id="9308c-172">설정 및 동작은 조건과 정확히 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-172">The settings and behavior are exactly like the conditions.</span></span>
+   <span data-ttu-id="92393-173">조건을 더 추가하려면 **조건** 추가를 클릭하고 적용된 경우 나머지 **값을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-173">To add an additional condition, click **Add a condition** and select a remaining value under **Applied if**.</span></span>
 
-   <span data-ttu-id="9308c-173">작업을 마친 후 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-173">When you're finished, click **Next**.</span></span>
+   <span data-ttu-id="92393-174">예외를 추가하려면 **조건** 추가를 클릭하고 다음의 예외를 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-174">To add exceptions, click **Add a condition** and select an exception under **Except if**.</span></span> <span data-ttu-id="92393-175">설정 및 동작은 조건과 정확히 같습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-175">The settings and behavior are exactly like the conditions.</span></span>
 
-5. <span data-ttu-id="9308c-174">나타나는 **설정** 검토 페이지에서 설정을 검토합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-174">On the **Review your settings** page that appears, review your settings.</span></span> <span data-ttu-id="9308c-175">각 **설정에서** 편집을 클릭하여 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-175">You can click **Edit** on each setting to modify it.</span></span>
+   <span data-ttu-id="92393-176">작업을 마친 후 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-176">When you're finished, click **Next**.</span></span>
 
-   <span data-ttu-id="9308c-176">완료되면 이 정책 **만들기를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-176">When you're finished, click **Create this policy**.</span></span>
+5. <span data-ttu-id="92393-177">나타나는 **설정** 검토 페이지에서 설정을 검토합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-177">On the **Review your settings** page that appears, review your settings.</span></span> <span data-ttu-id="92393-178">각 **설정에서** 편집을 클릭하여 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-178">You can click **Edit** on each setting to modify it.</span></span>
 
-6. <span data-ttu-id="9308c-177">확인 **대화** 상자가 나타나면 확인을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-177">Click **OK** in the confirmation dialog that appears.</span></span>
+   <span data-ttu-id="92393-179">완료되면 이 정책 **만들기를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-179">When you're finished, click **Create this policy**.</span></span>
 
-<span data-ttu-id="9308c-178">이러한 일반 설정을 사용하여 피싱 방지 정책을 만든 후 다음 섹션의 지침을 사용하여 정책의 보호 설정을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-178">After you create the anti-phishing policy with these general settings, use the instructions in the next section to configure the protection settings in the policy.</span></span>
+6. <span data-ttu-id="92393-180">확인 **대화** 상자가 나타나면 확인을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-180">Click **OK** in the confirmation dialog that appears.</span></span>
 
-## <a name="use-the-security--compliance-center-to-modify-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="9308c-179">보안 및 & 센터를 사용하여 Office 365용 Microsoft Defender에서 피싱 방지 정책 수정</span><span class="sxs-lookup"><span data-stu-id="9308c-179">Use the Security & Compliance Center to modify anti-phishing policies in Microsoft Defender for Office 365</span></span>
+<span data-ttu-id="92393-181">이러한 일반 설정을 사용하여 피싱 방지 정책을 만든 후 다음 섹션의 지침을 사용하여 정책의 보호 설정을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-181">After you create the anti-phishing policy with these general settings, use the instructions in the next section to configure the protection settings in the policy.</span></span>
 
-<span data-ttu-id="9308c-180">다음 절차에 따라 만든 새 정책 또는 이미 사용자 지정한 기존 정책과 같은 피싱 방지 정책을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-180">Use the following procedures to modify anti-phishing policies: a new policy that you created, or existing policies that you've already customized.</span></span>
+## <a name="use-the-security--compliance-center-to-modify-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="92393-182">보안 및 & 센터를 사용하여 Office 365용 Microsoft Defender에서 피싱 방지 정책 수정</span><span class="sxs-lookup"><span data-stu-id="92393-182">Use the Security & Compliance Center to modify anti-phishing policies in Microsoft Defender for Office 365</span></span>
 
-1. <span data-ttu-id="9308c-181">아직 없는 경우 보안 및 준수 센터를 & 위협 **관리** 정책 ATP 피싱 \>  \> **방지로 이동 합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-181">If you're not already there, open the Security & Compliance Center, and go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span>
+<span data-ttu-id="92393-183">다음 절차에 따라 만든 새 정책 또는 이미 사용자 지정한 기존 정책과 같은 피싱 방지 정책을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-183">Use the following procedures to modify anti-phishing policies: a new policy that you created, or existing policies that you've already customized.</span></span>
 
-2. <span data-ttu-id="9308c-182">수정할 사용자 지정 피싱 방지 정책을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-182">Select the custom anti-phishing policy that you want to modify.</span></span> <span data-ttu-id="9308c-183">이미 선택되어 있는 경우 선택을 선택을 했다가 다시 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-183">If it's already selected, deselect it and select it again.</span></span>
+1. <span data-ttu-id="92393-184">아직 없는 경우 보안 및 준수 센터를 & 위협 **관리** 정책 ATP 피싱 \>  \> **방지로 이동 합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-184">If you're not already there, open the Security & Compliance Center, and go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span>
 
-3. <span data-ttu-id="9308c-184">정책 **편집 \<name\> 플라이아웃이** 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-184">The **Edit your policy \<name\>** flyout appears.</span></span> <span data-ttu-id="9308c-185">모든 **섹션에서** 편집을 클릭하면 해당 섹션의 설정에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-185">Clicking **Edit** in any section gives you access to the settings in that section.</span></span>
+2. <span data-ttu-id="92393-185">수정할 사용자 지정 피싱 방지 정책을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-185">Select the custom anti-phishing policy that you want to modify.</span></span> <span data-ttu-id="92393-186">이미 선택되어 있는 경우 선택을 다시 선택하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-186">If it's already selected, deselect it and select it again.</span></span>
 
-   - <span data-ttu-id="9308c-186">다음 단계는 섹션이 나타나는 순서대로 나타나지만 순서에 따라 섹션을 선택 및 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-186">The following steps are presented in the order that the sections appear, but they aren't sequential (you can select and modify the sections in any order).</span></span>
+3. <span data-ttu-id="92393-187">정책 **편집 \<name\> 플라이아웃이** 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="92393-187">The **Edit your policy \<name\>** flyout appears.</span></span> <span data-ttu-id="92393-188">모든 **섹션에서** 편집을 클릭하면 해당 섹션의 설정에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-188">Clicking **Edit** in any section gives you access to the settings in that section.</span></span>
 
-   - <span data-ttu-id="9308c-187">섹션에서  편집을 클릭하면 사용 가능한 설정이 마법사 형식으로 제공되지만 순서에 따라 페이지 내에서 점프할 수 있습니다.    ![ ](../../media/scc-remove-icon.png) **\<name\>** 또는 페이지에서 저장 또는 닫기 아이콘을 클릭하여 정책 편집 페이지로 돌아올 수 있습니다(저장하거나 남기기 위해 마법사의 마지막 페이지를 방문할 필요는 없음).</span><span class="sxs-lookup"><span data-stu-id="9308c-187">After you click **Edit** in a section, the available settings are presented in a wizard format, but you can jump within the pages in any order, and you can click **Save** on any page (or **Cancel** or **Close** ![Close icon](../../media/scc-remove-icon.png) to return to the **Edit your policy \<name\>** page (you aren't required to visit the last page of the wizard to save or leave).</span></span>
+   - <span data-ttu-id="92393-189">다음 단계는 섹션이 나타나는 순서대로 나타나지만 순서에 구문을 추가하지는 않습니다(순서에 따라 섹션을 선택하고 수정할 수 있습니다).</span><span class="sxs-lookup"><span data-stu-id="92393-189">The following steps are presented in the order that the sections appear, but they aren't sequential (you can select and modify the sections in any order).</span></span>
 
-4. <span data-ttu-id="9308c-188">**정책 설정:** **편집을** 클릭하여 이전 섹션에서 [](#use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365) 정책을 만들 때 사용 가능한 설정과 동일한 설정을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-188">**Policy setting**: Click **Edit** to modify the same settings that were available when you [created the policy](#use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365) in the previous section:</span></span>
+   - <span data-ttu-id="92393-190">섹션에서  편집을 클릭하면 사용 가능한 설정이 마법사 형식으로 제공되지만 순서에 따라 페이지 내에서 점프할 수 있으며,    ![ ](../../media/scc-remove-icon.png) **\<name\>** 페이지에서 저장 또는 닫기 아이콘을 클릭하여 정책 편집 페이지로 돌아올 수 있습니다(저장하거나 남기기 위해 마법사의 마지막 페이지를 방문할 필요는 없음).</span><span class="sxs-lookup"><span data-stu-id="92393-190">After you click **Edit** in a section, the available settings are presented in a wizard format, but you can jump within the pages in any order, and you can click **Save** on any page (or **Cancel** or **Close** ![Close icon](../../media/scc-remove-icon.png) to return to the **Edit your policy \<name\>** page (you aren't required to visit the last page of the wizard to save or leave).</span></span>
 
-   - <span data-ttu-id="9308c-189">**이름**</span><span class="sxs-lookup"><span data-stu-id="9308c-189">**Name**</span></span>
-   - <span data-ttu-id="9308c-190">**설명**</span><span class="sxs-lookup"><span data-stu-id="9308c-190">**Description**</span></span>
-   - <span data-ttu-id="9308c-191">**적용 대상**</span><span class="sxs-lookup"><span data-stu-id="9308c-191">**Applied to**</span></span>
-   - <span data-ttu-id="9308c-192">**설정 검토**</span><span class="sxs-lookup"><span data-stu-id="9308c-192">**Review your settings**</span></span>
+4. <span data-ttu-id="92393-191">**정책 설정:** **편집을** 클릭하여 이전 섹션에서 [](#use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365) 정책을 만들 때 사용 가능한 설정과 동일한 설정을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-191">**Policy setting**: Click **Edit** to modify the same settings that were available when you [created the policy](#use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365) in the previous section:</span></span>
 
-   <span data-ttu-id="9308c-193">완료되면 페이지에서 **저장을** 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-193">When you're finished, click **Save** on any page.</span></span>
+   - <span data-ttu-id="92393-192">**이름**</span><span class="sxs-lookup"><span data-stu-id="92393-192">**Name**</span></span>
+   - <span data-ttu-id="92393-193">**설명**</span><span class="sxs-lookup"><span data-stu-id="92393-193">**Description**</span></span>
+   - <span data-ttu-id="92393-194">**적용 대상**</span><span class="sxs-lookup"><span data-stu-id="92393-194">**Applied to**</span></span>
+   - <span data-ttu-id="92393-195">**설정 검토**</span><span class="sxs-lookup"><span data-stu-id="92393-195">**Review your settings**</span></span>
 
-5. <span data-ttu-id="9308c-194">**가장: 편집을** **클릭하여** 정책에서 보호된 보낸 사람 및 보호된 도메인을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-194">**Impersonation**: Click **Edit** to modify the protected senders and protected domains in the policy.</span></span> <span data-ttu-id="9308c-195">이러한 설정은 인바운드 메시지의 보낸 사람 주소에서 검색할 스푸핑된 보낸 사람(개별적으로 또는 도메인별)을 식별하는 정책의 조건입니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-195">These settings are a condition for the policy that identifies spoofed senders to look for (individually or by domain) in the From address of inbound messages.</span></span> <span data-ttu-id="9308c-196">자세한 내용은 [Office 365용 Microsoft Defender의](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)피싱 방지 정책에서 가장 설정을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9308c-196">For more information, see [Impersonation settings in anti-phishing policies in Microsoft Defender for Office 365](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365).</span></span>
+   <span data-ttu-id="92393-196">완료되면 페이지에서 **저장을** 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-196">When you're finished, click **Save** on any page.</span></span>
 
-   - <span data-ttu-id="9308c-197">**보호할 사용자 추가**: 기본값은 **Off입니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-197">**Add users to protect**: The default value is **Off**.</span></span> <span data-ttu-id="9308c-198">이 기능을 켜려면 토글을 **켜고** 나타나는 사용자  추가 단추를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-198">To turn it on, slide the toggle to **On**, and then click the **Add user** button that appears.</span></span>
+5. <span data-ttu-id="92393-197">**가장: 편집을** **클릭하여** 정책에서 보호된 보낸 사람 및 보호된 도메인을 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-197">**Impersonation**: Click **Edit** to modify the protected senders and protected domains in the policy.</span></span> <span data-ttu-id="92393-198">이러한 설정은 인바운드 메시지의 보낸 사람 주소에서 검색할 스푸핑된 보낸 사람(개별적으로 또는 도메인별)을 식별하는 정책의 조건입니다.</span><span class="sxs-lookup"><span data-stu-id="92393-198">These settings are a condition for the policy that identifies spoofed senders to look for (individually or by domain) in the From address of inbound messages.</span></span> <span data-ttu-id="92393-199">자세한 내용은 [Office 365용 Microsoft Defender의](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)피싱 방지 정책에서 가장 설정을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="92393-199">For more information, see [Impersonation settings in anti-phishing policies in Microsoft Defender for Office 365](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365).</span></span>
 
-     <span data-ttu-id="9308c-199">나타나는 **사용자** 플라이아웃 추가에서 다음 값을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-199">In the **Add user** flyout that appears, configure the following values:</span></span>
+   - <span data-ttu-id="92393-200">**보호할 사용자 추가**: 기본값은 **Off입니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-200">**Add users to protect**: The default value is **Off**.</span></span> <span data-ttu-id="92393-201">이 기능을 켜려면 토글을 **켜고** 나타나는 사용자  추가 단추를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-201">To turn it on, slide the toggle to **On**, and then click the **Add user** button that appears.</span></span>
 
-     - <span data-ttu-id="9308c-200">**전자 메일 주소:**</span><span class="sxs-lookup"><span data-stu-id="9308c-200">**Email address**:</span></span>
+     <span data-ttu-id="92393-202">나타나는 **사용자** 플라이아웃 추가에서 다음 값을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-202">In the **Add user** flyout that appears, configure the following values:</span></span>
 
-       - <span data-ttu-id="9308c-201">상자를 클릭하고 선택할 사용자 목록을 스크롤합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-201">Click in the box and scroll through the list of users to select.</span></span>
-       - <span data-ttu-id="9308c-202">상자를 클릭하고 입력을 시작하여 목록을 필터링하고 사용자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-202">Click in the box and start typing to filter the list and select a user.</span></span>
-       - <span data-ttu-id="9308c-203">항목을 제거하려면 **사용자의** 제거 ![ ](../../media/scc-remove-icon.png) 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-203">To remove an entry, click **Remove** ![Remove icon](../../media/scc-remove-icon.png) on the user.</span></span>
+     - <span data-ttu-id="92393-203">**전자 메일 주소:**</span><span class="sxs-lookup"><span data-stu-id="92393-203">**Email address**:</span></span>
 
-     - <span data-ttu-id="9308c-204">**이름:** 이 값은 선택한 전자 메일 주소에 따라 채워지지만 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-204">**Name**: This value is populated based on the email address you selected, but you can change it.</span></span>
+       - <span data-ttu-id="92393-204">상자를 클릭하고 선택할 사용자 목록을 스크롤합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-204">Click in the box and scroll through the list of users to select.</span></span>
+       - <span data-ttu-id="92393-205">상자를 클릭하고 입력을 시작하여 목록을 필터링하고 사용자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-205">Click in the box and start typing to filter the list and select a user.</span></span>
+       - <span data-ttu-id="92393-206">항목을 제거하려면 **사용자의** 제거 ![ ](../../media/scc-remove-icon.png) 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-206">To remove an entry, click **Remove** ![Remove icon](../../media/scc-remove-icon.png) on the user.</span></span>
 
-     <span data-ttu-id="9308c-205">완료되면 페이지에서 **저장을** 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-205">When you're finished, click **Save** on any page.</span></span>
+     - <span data-ttu-id="92393-207">**이름:** 이 값은 선택한 전자 메일 주소에 따라 채워지지만 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-207">**Name**: This value is populated based on the email address you selected, but you can change it.</span></span>
 
-     <span data-ttu-id="9308c-206">기존 항목을 편집하려면 목록에서 보호된 사용자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-206">To edit an existing entry, select the protected user in the list.</span></span>
+     <span data-ttu-id="92393-208">완료되면 페이지에서 **저장을** 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-208">When you're finished, click **Save** on any page.</span></span>
+
+     <span data-ttu-id="92393-209">기존 항목을 편집하려면 목록에서 보호된 사용자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-209">To edit an existing entry, select the protected user in the list.</span></span>
 
      > [!NOTE]
      >
-     > - <span data-ttu-id="9308c-207">각 피싱 방지 정책에서 보호되는 사용자(보낸 사람 전자 메일 주소)를 최대 60명까지 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-207">In each anti-phishing policy, you can specify a maximum of 60 protected users (sender email addresses).</span></span> <span data-ttu-id="9308c-208">여러 정책에서 동일한 보호된 사용자를 지정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-208">You can't specify the same protected user in multiple policies.</span></span>
+     > - <span data-ttu-id="92393-210">각 피싱 방지 정책에서 보호되는 사용자(보낸 사람 전자 메일 주소)를 최대 60명까지 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-210">In each anti-phishing policy, you can specify a maximum of 60 protected users (sender email addresses).</span></span> <span data-ttu-id="92393-211">여러 정책에서 동일한 보호된 사용자를 지정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-211">You can't specify the same protected user in multiple policies.</span></span>
      >
-     > - <span data-ttu-id="9308c-209">보낸 사람 및 받는 사람이 이전에 전자 메일을 통해 통신한 경우 사용자 가장 보호가 작동하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-209">User impersonation protection does not work if the sender and recipient have previously communicated via email.</span></span> <span data-ttu-id="9308c-210">보낸 사람 및 받는 사람이 전자 메일을 통해 통신한 적이 없는 경우 해당 메시지는 가장 시도로 식별됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-210">If the sender and recipient have never communicated via email, the message will be identified as an impersonation attempt.</span></span>
+     > - <span data-ttu-id="92393-212">보낸 사람 및 받는 사람이 이전에 전자 메일을 통해 통신한 경우 사용자 가장 보호가 작동하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-212">User impersonation protection does not work if the sender and recipient have previously communicated via email.</span></span> <span data-ttu-id="92393-213">보낸 사람 및 받는 사람이 전자 메일을 통해 통신한 적이 없는 경우 해당 메시지는 가장 시도로 식별됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-213">If the sender and recipient have never communicated via email, the message will be identified as an impersonation attempt.</span></span>
 
-   - <span data-ttu-id="9308c-211">**보호할 도메인** 추가: 다음 설정 중 하나 또는 둘 다를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-211">**Add domains to protect**: Configure one or both of the following settings:</span></span>
+   - <span data-ttu-id="92393-214">**보호할 도메인** 추가: 다음 설정 중 하나 또는 둘 다를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-214">**Add domains to protect**: Configure one or both of the following settings:</span></span>
 
-     - <span data-ttu-id="9308c-212">**소유한 도메인을** 자동으로 포함합니다. 기본값은 **Off입니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-212">**Automatically include the domains I own**: The default value is **Off**.</span></span> <span data-ttu-id="9308c-213">켜기 위해 토글을 **켜고 켜기**</span><span class="sxs-lookup"><span data-stu-id="9308c-213">To turn it on, slide the toggle to **On**.</span></span>
-     - <span data-ttu-id="9308c-214">**사용자 지정 도메인 포함:** 기본값은 **Off입니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-214">**Include custom domains**: The default value is **Off**.</span></span> <span data-ttu-id="9308c-215">설정하려면 토글을 **켜고** 도메인 추가 상자에  도메인 이름(예: contoso.com)을 입력하고 Enter를 누르고 필요에 따라 반복합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-215">To turn it on, slide the toggle to **On**, and in the **Add domains** box, enter the domain name (for example, contoso.com), press ENTER, and repeat as necessary.</span></span>
-
-     > [!NOTE]
-     > <span data-ttu-id="9308c-216">모든 피싱 방지 정책에는 최대 50개 도메인을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-216">You can have a maximum of 50 domains in all anti-phishing policies.</span></span>
-
-   - <span data-ttu-id="9308c-217">**작업:** 편집 **클릭**</span><span class="sxs-lookup"><span data-stu-id="9308c-217">**Actions**: Click **Edit**</span></span>
-
-     - <span data-ttu-id="9308c-218">**가장된** 사용자가 전자 메일을 보내는 경우: 스푸핑된 보낸 사람이 사용자 추가에서 보호하도록 지정한 보호된 사용자 중 하나인 메시지에 대해 다음 작업 중 하나를 **구성합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-218">**If email is sent by an impersonated user**: Configure one of the following actions for messages where the spoofed sender is one of the protected users you specified in **Add users to protect**:</span></span>
-
-       - <span data-ttu-id="9308c-219">**아무 작업도 적용하지 않습니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-219">**Don't apply any action**</span></span>
-       - <span data-ttu-id="9308c-220">**다른 전자 메일 주소로 메시지 리디렉션**</span><span class="sxs-lookup"><span data-stu-id="9308c-220">**Redirect message to other email addresses**</span></span>
-       - <span data-ttu-id="9308c-221">**정크 메일 폴더로 메시지 이동**</span><span class="sxs-lookup"><span data-stu-id="9308c-221">**Move message to Junk Email folder**</span></span>
-       - <span data-ttu-id="9308c-222">**메시지 Quarantine the message**</span><span class="sxs-lookup"><span data-stu-id="9308c-222">**Quarantine the message**</span></span>
-       - <span data-ttu-id="9308c-223">**메시지 배달 및 Bcc 줄에 다른 주소 추가**</span><span class="sxs-lookup"><span data-stu-id="9308c-223">**Deliver the message and add other addresses to the Bcc line**</span></span>
-       - <span data-ttu-id="9308c-224">**메시지가 배달되기 전에 메시지 삭제**</span><span class="sxs-lookup"><span data-stu-id="9308c-224">**Delete the message before it's delivered**</span></span>
-
-     - <span data-ttu-id="9308c-225">**가장된** 도메인에서 전자 메일을 보내는 경우: 스푸핑된 보낸 사람이 추가 도메인에서 지정한 보호된 도메인 중 하나에 있는 메시지에 대해 다음 작업 중 하나를 구성하여 보호합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-225">**If email is sent by an impersonated domain**: Configure one of the following actions for messages where the spoofed sender is in one of the protected domains you specified in **Add domains to protect**:</span></span>
-
-       - <span data-ttu-id="9308c-226">**아무 작업도 적용하지 않습니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-226">**Don't apply any action**</span></span>
-       - <span data-ttu-id="9308c-227">**다른 전자 메일 주소로 메시지 리디렉션**</span><span class="sxs-lookup"><span data-stu-id="9308c-227">**Redirect message to other email addresses**</span></span>
-       - <span data-ttu-id="9308c-228">**정크 메일 폴더로 메시지 이동**</span><span class="sxs-lookup"><span data-stu-id="9308c-228">**Move message to Junk Email folder**</span></span>
-       - <span data-ttu-id="9308c-229">**메시지 Quarantine the message**</span><span class="sxs-lookup"><span data-stu-id="9308c-229">**Quarantine the message**</span></span>
-       - <span data-ttu-id="9308c-230">**메시지 배달 및 Bcc 줄에 다른 주소 추가**</span><span class="sxs-lookup"><span data-stu-id="9308c-230">**Deliver the message and add other addresses to the Bcc line**</span></span>
-       - <span data-ttu-id="9308c-231">**메시지가 배달되기 전에 메시지 삭제**</span><span class="sxs-lookup"><span data-stu-id="9308c-231">**Delete the message before it's delivered**</span></span>
-
-   - <span data-ttu-id="9308c-232">가장 **보안** 팁을 켜고 다음 설정을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-232">Click **turn on impersonation safety tips** and configure any of the following settings:</span></span>
-
-     - <span data-ttu-id="9308c-233">**가장된** 사용자에 대한 팁 표시: 기본값은 **Off입니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-233">**Show tip for impersonated users**: The default value is **Off**.</span></span> <span data-ttu-id="9308c-234">켜기 위해 토글을 **켜고 켜기**</span><span class="sxs-lookup"><span data-stu-id="9308c-234">To turn it on, slide the toggle to **On**.</span></span>
-     - <span data-ttu-id="9308c-235">**가장된 도메인에** 대한 팁 표시 : 기본값은 **Off입니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-235">**Show tip for impersonated domains**: The default value is **Off**.</span></span> <span data-ttu-id="9308c-236">켜기 위해 토글을 **켜고 켜기**</span><span class="sxs-lookup"><span data-stu-id="9308c-236">To turn it on, slide the toggle to **On**.</span></span>
-     - <span data-ttu-id="9308c-237">**비정상적인 문자에 대한 팁 표시**: 기본값은 **Off입니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-237">**Show tip for unusual characters**: The default value is **Off**.</span></span> <span data-ttu-id="9308c-238">켜기 위해 토글을 **켜고 켜기**</span><span class="sxs-lookup"><span data-stu-id="9308c-238">To turn it on, slide the toggle to **On**.</span></span>
-
-     <span data-ttu-id="9308c-239">작업을 마쳤으면 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-239">When you're finished, click **Save**.</span></span>
-
-   - <span data-ttu-id="9308c-240">**사서함 인텔리전스**:</span><span class="sxs-lookup"><span data-stu-id="9308c-240">**Mailbox intelligence**:</span></span>
-
-     - <span data-ttu-id="9308c-241">**사서함 인텔리전스 사용 여부:** 기본값은 **On입니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-241">**Enable mailbox intelligence?**: The default value is **On**.</span></span> <span data-ttu-id="9308c-242">끄기 위해 토글을 끄면 **끄기**</span><span class="sxs-lookup"><span data-stu-id="9308c-242">To turn it off, slide the toggle to **Off**.</span></span>
-
-     - <span data-ttu-id="9308c-243">**사서함 인텔리전스 기반** 가장 보호 사용 여부: 이 설정은 사서함 인텔리전스 사용이 설정되어 있는 **경우만** 사용할 수 **있습니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-243">**Enable mailbox intelligence based impersonation protection?**: This setting is only available if **Enable mailbox intelligence?** is **On**.</span></span>
-
-       <span data-ttu-id="9308c-244">**가장된** 사용자가 전자 메일을 보낸 경우 사서함 인텔리전스에 실패한 메시지(보호된 사용자 및 보호된 도메인에서 사용할 수 있는 동일한 작업)에 대해 수행할 다음 작업 중 하나를 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-244">In **If email is sent by an impersonated user**, you can specify one of the following actions to take on messages that fail mailbox intelligence (the same actions that are available for protected users and protected domains):</span></span>
-
-       - <span data-ttu-id="9308c-245">**아무 작업도 적용하지 않습니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-245">**Don't apply any action**</span></span>
-       - <span data-ttu-id="9308c-246">**다른 전자 메일 주소로 메시지 리디렉션**</span><span class="sxs-lookup"><span data-stu-id="9308c-246">**Redirect message to other email addresses**</span></span>
-       - <span data-ttu-id="9308c-247">**정크 메일 폴더로 메시지 이동**</span><span class="sxs-lookup"><span data-stu-id="9308c-247">**Move message to Junk Email folder**</span></span>
-       - <span data-ttu-id="9308c-248">**메시지 Quarantine the message**</span><span class="sxs-lookup"><span data-stu-id="9308c-248">**Quarantine the message**</span></span>
-       - <span data-ttu-id="9308c-249">**메시지 배달 및 Bcc 줄에 다른 주소 추가**</span><span class="sxs-lookup"><span data-stu-id="9308c-249">**Deliver the message and add other addresses to the Bcc line**</span></span>
-       - <span data-ttu-id="9308c-250">**메시지가 배달되기 전에 메시지 삭제**</span><span class="sxs-lookup"><span data-stu-id="9308c-250">**Delete the message before it's delivered**</span></span>
-
-   - <span data-ttu-id="9308c-251">**신뢰할 수 있는 보낸 사람 및 도메인** 추가: 정책에 대한 예외 지정:</span><span class="sxs-lookup"><span data-stu-id="9308c-251">**Add trusted senders and domains**: Specify exceptions for the policy:</span></span>
-
-     - <span data-ttu-id="9308c-252">**신뢰할 수 있는 보낸 사람:**</span><span class="sxs-lookup"><span data-stu-id="9308c-252">**Trusted senders**:</span></span>
-
-       - <span data-ttu-id="9308c-253">상자를 클릭하고 선택할 사용자 목록을 스크롤합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-253">Click in the box and scroll through the list of users to select.</span></span>
-       - <span data-ttu-id="9308c-254">상자를 클릭하고 입력을 시작하여 목록을 필터링하고 사용자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-254">Click in the box and start typing to filter the list and select a user.</span></span>
-       - <span data-ttu-id="9308c-255">항목을 제거하려면 **사용자의** 제거 ![ ](../../media/scc-remove-icon.png) 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-255">To remove an entry, click **Remove** ![Remove icon](../../media/scc-remove-icon.png) on the user.</span></span>
-
-     - <span data-ttu-id="9308c-256">**신뢰할 수 있는 도메인:** 도메인 이름(예: contoso.com)을 입력하고 Enter를 누르고 필요에 따라 반복합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-256">**Trusted domains**: Enter the domain name (for example, contoso.com), press ENTER, and repeat as necessary.</span></span>
-
-   - <span data-ttu-id="9308c-257">**설정 검토:** 각 개별 단계를 클릭하는 대신 설정이 요약에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-257">**Review your settings**: Instead of clicking on each individual step, the settings are displayed in a summary.</span></span>
-
-     - <span data-ttu-id="9308c-258">각 **섹션에서** 편집을 클릭하여 관련 페이지로 다시 이동하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-258">You can click **Edit** in each section to jump back to the relevant page.</span></span>
-     - <span data-ttu-id="9308c-259">이 페이지에서 직접 다음 설정을  **설정 또는** 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-259">You can toggle the following settings **On** or **Off** directly on this page:</span></span>
-
-       - <span data-ttu-id="9308c-260">**보호된 사용자**</span><span class="sxs-lookup"><span data-stu-id="9308c-260">**Protected users**</span></span>
-       - <span data-ttu-id="9308c-261">**보호된 도메인** \> **소유한 도메인 포함**</span><span class="sxs-lookup"><span data-stu-id="9308c-261">**Protected domains** \> **Include domains I own**</span></span>
-       - <span data-ttu-id="9308c-262">**보호된 도메인** \> **보호된 도메인(사용자** 지정 도메인)</span><span class="sxs-lookup"><span data-stu-id="9308c-262">**Protected domains** \> **Protected domains** (custom domains)</span></span>
-       - <span data-ttu-id="9308c-263">**사서함 인텔리전스**</span><span class="sxs-lookup"><span data-stu-id="9308c-263">**Mailbox intelligence**</span></span>
-
-   <span data-ttu-id="9308c-264">완료되면 페이지에서 **저장을** 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-264">When you're finished, click **Save** on any page.</span></span>
-
-6. <span data-ttu-id="9308c-265">**스푸핑**: **편집을** 클릭하여 스푸핑 인텔리전스를 켜거나 끄고, Outlook에서 확인되지 않은 보낸 사람 ID를 설정 또는 해제하고, 차단된 스푸핑된 보낸 사람이 보낸 메시지에 적용할 작업을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-265">**Spoof**: Click **Edit** to turn spoof intelligence on or off, turn unauthenticated sender identification in Outlook on or off, and configure the action to apply to messages from blocked spoofed senders.</span></span> <span data-ttu-id="9308c-266">자세한 내용은 피싱 방지 정책의 [스푸핑 설정을 참조하세요.](set-up-anti-phishing-policies.md#spoof-settings)</span><span class="sxs-lookup"><span data-stu-id="9308c-266">For more information, see [Spoof settings in anti-phishing policies](set-up-anti-phishing-policies.md#spoof-settings).</span></span>
-
-   <span data-ttu-id="9308c-267">이러한 동일한 설정은 EOP의 피싱 방지 정책에서도 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-267">Note that these same settings are also available in anti-phishing policies in EOP.</span></span>
-
-   - <span data-ttu-id="9308c-268">**스푸핑 필터 설정:** 기본값은 **On으로** 설정되어 있으며 그대로 두는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-268">**Spoofing filter settings**: The default value is **On**, and we recommend that you leave it on.</span></span> <span data-ttu-id="9308c-269">끄기 위해 토글을 끄면 **끄기**</span><span class="sxs-lookup"><span data-stu-id="9308c-269">To turn it off, slide the toggle to **Off**.</span></span> <span data-ttu-id="9308c-270">자세한 내용은 [EOP에서 스푸핑 인텔리전스 구성을 참조하세요.](learn-about-spoof-intelligence.md)</span><span class="sxs-lookup"><span data-stu-id="9308c-270">For more information, see [Configure spoof intelligence in EOP](learn-about-spoof-intelligence.md).</span></span>
+     - <span data-ttu-id="92393-215">**소유한 도메인을** 자동으로 포함합니다. 기본값은 **Off입니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-215">**Automatically include the domains I own**: The default value is **Off**.</span></span> <span data-ttu-id="92393-216">이 기능을 켜기 위해 토글을 켜고 을() 으로 **전환합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-216">To turn it on, slide the toggle to **On**.</span></span>
+     - <span data-ttu-id="92393-217">**사용자 지정 도메인 포함:** 기본값은 **Off입니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-217">**Include custom domains**: The default value is **Off**.</span></span> <span data-ttu-id="92393-218">설정하려면 토글을 **켜고** 도메인 추가 상자에  도메인 이름(예: contoso.com)을 입력하고 Enter를 누르고 필요에 따라 반복합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-218">To turn it on, slide the toggle to **On**, and in the **Add domains** box, enter the domain name (for example, contoso.com), press ENTER, and repeat as necessary.</span></span>
 
      > [!NOTE]
-     > <span data-ttu-id="9308c-271">MX 레코드가 Microsoft 365를 사용하지 않는 경우 스푸핑 방지 보호 기능을 사용하지 않도록 설정할 필요가 없습니다. 대신 커넥터에 대해 향상된 필터링을 사용하도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-271">You don't need to disable anti-spoofing protection if your MX record doesn't point to Microsoft 365; you enable Enhanced Filtering for Connectors instead.</span></span> <span data-ttu-id="9308c-272">자세한 내용은 Exchange Online의 커넥터에 대한 향상된 [필터링을 참조하세요.](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)</span><span class="sxs-lookup"><span data-stu-id="9308c-272">For instructions, see [Enhanced Filtering for Connectors in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).</span></span>
+     > <span data-ttu-id="92393-219">모든 피싱 방지 정책에는 최대 50개 도메인을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-219">You can have a maximum of 50 domains in all anti-phishing policies.</span></span>
 
-   - <span data-ttu-id="9308c-273">**사용 안 하도록** 설정 보낸 사람 기능 : 기본값은 **On입니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-273">**Enable Unauthenticated Sender feature**: The default value is **On**.</span></span> <span data-ttu-id="9308c-274">끄기 위해 토글을 끄면 **끄기**</span><span class="sxs-lookup"><span data-stu-id="9308c-274">To turn it off, slide the toggle to **Off**.</span></span>
+   - <span data-ttu-id="92393-220">**작업:** 편집 **클릭**</span><span class="sxs-lookup"><span data-stu-id="92393-220">**Actions**: Click **Edit**</span></span>
 
-   - <span data-ttu-id="9308c-275">**작업:** 스푸핑 인텔리전스에 실패한 메시지에 대해 수행할 작업을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-275">**Actions**: Specify the action to take on messages that fail spoof intelligence:</span></span>
+     - <span data-ttu-id="92393-221">**가장된** 사용자가 전자 메일을 보내는 경우: 스푸핑된 보낸 사람이 사용자 추가에서 보호하도록 지정한 보호된 사용자 중 하나인 메시지에 대해 다음 작업 중 하나를 **구성합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-221">**If email is sent by an impersonated user**: Configure one of the following actions for messages where the spoofed sender is one of the protected users you specified in **Add users to protect**:</span></span>
 
-     <span data-ttu-id="9308c-276">**도메인을 스푸핑할** 수 없는 사람이 전자 메일을 보낸 경우:</span><span class="sxs-lookup"><span data-stu-id="9308c-276">**If email is sent by someone who's not allowed to spoof your domain**:</span></span>
+       - <span data-ttu-id="92393-222">**아무 작업도 적용하지 않습니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-222">**Don't apply any action**</span></span>
+       - <span data-ttu-id="92393-223">**다른 전자 메일 주소로 메시지 리디렉션**</span><span class="sxs-lookup"><span data-stu-id="92393-223">**Redirect message to other email addresses**</span></span>
+       - <span data-ttu-id="92393-224">**정크 메일 폴더로 메시지 이동**</span><span class="sxs-lookup"><span data-stu-id="92393-224">**Move message to Junk Email folder**</span></span>
+       - <span data-ttu-id="92393-225">**메시지 Quarantine the message**</span><span class="sxs-lookup"><span data-stu-id="92393-225">**Quarantine the message**</span></span>
+       - <span data-ttu-id="92393-226">**메시지 배달 및 Bcc 줄에 다른 주소 추가**</span><span class="sxs-lookup"><span data-stu-id="92393-226">**Deliver the message and add other addresses to the Bcc line**</span></span>
+       - <span data-ttu-id="92393-227">**메시지가 배달되기 전에 메시지 삭제**</span><span class="sxs-lookup"><span data-stu-id="92393-227">**Delete the message before it's delivered**</span></span>
 
-     - <span data-ttu-id="9308c-277">**받는 사람의 정크 메일 폴더로 메시지 이동**</span><span class="sxs-lookup"><span data-stu-id="9308c-277">**Move message to the recipients' Junk Email folders**</span></span>
-     - <span data-ttu-id="9308c-278">**메시지 Quarantine the message**</span><span class="sxs-lookup"><span data-stu-id="9308c-278">**Quarantine the message**</span></span>
+     - <span data-ttu-id="92393-228">**가장된** 도메인에서 전자 메일을 보내는 경우: 스푸핑된 보낸 사람이 추가 도메인에서 지정한 보호된 도메인 중 하나에 있는 메시지에 대해 다음 작업 중 하나를 구성하여 보호합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-228">**If email is sent by an impersonated domain**: Configure one of the following actions for messages where the spoofed sender is in one of the protected domains you specified in **Add domains to protect**:</span></span>
 
-   - <span data-ttu-id="9308c-279">**설정 검토:** 각 개별 단계를 클릭하는 대신 설정이 요약에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-279">**Review your settings**: Instead of clicking on each individual step, the settings are displayed in a summary.</span></span>
+       - <span data-ttu-id="92393-229">**아무 작업도 적용하지 않습니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-229">**Don't apply any action**</span></span>
+       - <span data-ttu-id="92393-230">**다른 전자 메일 주소로 메시지 리디렉션**</span><span class="sxs-lookup"><span data-stu-id="92393-230">**Redirect message to other email addresses**</span></span>
+       - <span data-ttu-id="92393-231">**정크 메일 폴더로 메시지 이동**</span><span class="sxs-lookup"><span data-stu-id="92393-231">**Move message to Junk Email folder**</span></span>
+       - <span data-ttu-id="92393-232">**메시지 Quarantine the message**</span><span class="sxs-lookup"><span data-stu-id="92393-232">**Quarantine the message**</span></span>
+       - <span data-ttu-id="92393-233">**메시지 배달 및 Bcc 줄에 다른 주소 추가**</span><span class="sxs-lookup"><span data-stu-id="92393-233">**Deliver the message and add other addresses to the Bcc line**</span></span>
+       - <span data-ttu-id="92393-234">**메시지가 배달되기 전에 메시지 삭제**</span><span class="sxs-lookup"><span data-stu-id="92393-234">**Delete the message before it's delivered**</span></span>
 
-     - <span data-ttu-id="9308c-280">각 **섹션에서** 편집을 클릭하여 관련 페이지로 다시 이동하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-280">You can click **Edit** in each section to jump back to the relevant page.</span></span>
-     - <span data-ttu-id="9308c-281">이 페이지에서 직접 다음 설정을  **설정 또는** 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-281">You can toggle the following settings **On** or **Off** directly on this page:</span></span>
-       - <span data-ttu-id="9308c-282">**스푸핑 방지 보호 사용**</span><span class="sxs-lookup"><span data-stu-id="9308c-282">**Enable antispoofing protection**</span></span>
-       - <span data-ttu-id="9308c-283">**비인식 보낸 사람 기능 사용**</span><span class="sxs-lookup"><span data-stu-id="9308c-283">**Enable Unauthenticated Sender feature**</span></span>
+   - <span data-ttu-id="92393-235">가장 **보안** 팁을 켜고 다음 설정을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-235">Click **turn on impersonation safety tips** and configure any of the following settings:</span></span>
 
-   <span data-ttu-id="9308c-284">완료되면 페이지에서 **저장을** 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-284">When you're finished, click **Save** on any page.</span></span>
+     - <span data-ttu-id="92393-236">**가장된** 사용자에 대한 팁 표시: 기본값은 **Off입니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-236">**Show tip for impersonated users**: The default value is **Off**.</span></span> <span data-ttu-id="92393-237">이 기능을 켜기 위해 토글을 켜고 을() 으로 **전환합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-237">To turn it on, slide the toggle to **On**.</span></span>
+     - <span data-ttu-id="92393-238">**가장된 도메인에** 대한 팁 표시 : 기본값은 **Off입니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-238">**Show tip for impersonated domains**: The default value is **Off**.</span></span> <span data-ttu-id="92393-239">이 기능을 켜기 위해 토글을 켜고 을() 으로 **전환합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-239">To turn it on, slide the toggle to **On**.</span></span>
+     - <span data-ttu-id="92393-240">**비정상적인 문자에 대한 팁 표시**: 기본값은 **Off입니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-240">**Show tip for unusual characters**: The default value is **Off**.</span></span> <span data-ttu-id="92393-241">이 기능을 켜기 위해 토글을 켜고 을() 으로 **전환합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-241">To turn it on, slide the toggle to **On**.</span></span>
 
-7. <span data-ttu-id="9308c-285">**고급 설정:** **편집을** 클릭하여 고급 피싱 임계값을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-285">**Advanced settings**: Click **Edit** to configure the advanced phishing thresholds.</span></span> <span data-ttu-id="9308c-286">자세한 내용은 [Office 365용 Microsoft Defender의](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)피싱 방지 정책에서 고급 피싱 임계값을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9308c-286">For more information, see [Advanced phishing thresholds in anti-phishing policies in Microsoft Defender for Office 365](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365).</span></span>
+     <span data-ttu-id="92393-242">작업을 마쳤으면 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-242">When you're finished, click **Save**.</span></span>
 
-   - <span data-ttu-id="9308c-287">**고급 피싱 임계값:** 다음 값 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-287">**Advanced phishing thresholds**: Select one of the following values:</span></span>
+   - <span data-ttu-id="92393-243">**사서함 인텔리전스**:</span><span class="sxs-lookup"><span data-stu-id="92393-243">**Mailbox intelligence**:</span></span>
 
-   - <span data-ttu-id="9308c-288">**1 -** 표준(기본값입니다.)</span><span class="sxs-lookup"><span data-stu-id="9308c-288">**1 - Standard** (This is the default value.)</span></span>
-   - <span data-ttu-id="9308c-289">**2 - 적극적**</span><span class="sxs-lookup"><span data-stu-id="9308c-289">**2 - Aggressive**</span></span>
-   - <span data-ttu-id="9308c-290">**3 - 보다 적극적인**</span><span class="sxs-lookup"><span data-stu-id="9308c-290">**3 - More aggressive**</span></span>
-   - <span data-ttu-id="9308c-291">**4 - 가장 적극적인**</span><span class="sxs-lookup"><span data-stu-id="9308c-291">**4 - Most aggressive**</span></span>
+     - <span data-ttu-id="92393-244">**사서함 인텔리전스 사용 여부:** 기본값은 **On입니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-244">**Enable mailbox intelligence?**: The default value is **On**.</span></span> <span data-ttu-id="92393-245">끄기 위해 토글을 끄면 **끄기**</span><span class="sxs-lookup"><span data-stu-id="92393-245">To turn it off, slide the toggle to **Off**.</span></span>
 
-   - <span data-ttu-id="9308c-292">**설정 검토:** **편집을** 클릭하여 고급 피싱 임계값 **페이지로 다시 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-292">**Review your settings**: Click **Edit** to jump back to the **Advanced phishing thresholds** page.</span></span>
+     - <span data-ttu-id="92393-246">**사서함 인텔리전스 기반** 가장 보호 사용 여부: 이 설정은 사서함 인텔리전스 사용이 설정되어 있는 **경우만** 사용할 수 **있습니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-246">**Enable mailbox intelligence based impersonation protection?**: This setting is only available if **Enable mailbox intelligence?** is **On**.</span></span>
 
-   <span data-ttu-id="9308c-293">완료되면 두 페이지에서 모두  저장을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-293">When you're finished, click **Save** on either page.</span></span>
+       <span data-ttu-id="92393-247">**가장된** 사용자가 전자 메일을 보낸 경우 사서함 인텔리전스에 실패한 메시지(보호된 사용자 및 보호된 도메인에서 사용할 수 있는 동일한 작업)에 대해 수행할 다음 작업 중 하나를 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-247">In **If email is sent by an impersonated user**, you can specify one of the following actions to take on messages that fail mailbox intelligence (the same actions that are available for protected users and protected domains):</span></span>
 
-8. <span data-ttu-id="9308c-294">정책 편집 **\<Name\> 페이지에서** 설정을 검토한 다음 닫기 를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-294">Back on the **Edit your policy \<Name\>** page, review your settings and then click **Close**.</span></span>
+       - <span data-ttu-id="92393-248">**아무 작업도 적용하지 않습니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-248">**Don't apply any action**</span></span>
+       - <span data-ttu-id="92393-249">**다른 전자 메일 주소로 메시지 리디렉션**</span><span class="sxs-lookup"><span data-stu-id="92393-249">**Redirect message to other email addresses**</span></span>
+       - <span data-ttu-id="92393-250">**정크 메일 폴더로 메시지 이동**</span><span class="sxs-lookup"><span data-stu-id="92393-250">**Move message to Junk Email folder**</span></span>
+       - <span data-ttu-id="92393-251">**메시지 Quarantine the message**</span><span class="sxs-lookup"><span data-stu-id="92393-251">**Quarantine the message**</span></span>
+       - <span data-ttu-id="92393-252">**메시지 배달 및 Bcc 줄에 다른 주소 추가**</span><span class="sxs-lookup"><span data-stu-id="92393-252">**Deliver the message and add other addresses to the Bcc line**</span></span>
+       - <span data-ttu-id="92393-253">**메시지가 배달되기 전에 메시지 삭제**</span><span class="sxs-lookup"><span data-stu-id="92393-253">**Delete the message before it's delivered**</span></span>
 
-### <a name="use-the-security--compliance-center-to-modify-the-default-anti-phishing-policy-in-microsoft-defender-for-office-365"></a><span data-ttu-id="9308c-295">보안 및 & 센터를 사용하여 Office 365용 Microsoft Defender의 기본 피싱 방지 정책 수정</span><span class="sxs-lookup"><span data-stu-id="9308c-295">Use the Security & Compliance Center to modify the default anti-phishing policy in Microsoft Defender for Office 365</span></span>
+   - <span data-ttu-id="92393-254">**신뢰할 수 있는 보낸 사람 및 도메인** 추가: 정책에 대한 예외 지정:</span><span class="sxs-lookup"><span data-stu-id="92393-254">**Add trusted senders and domains**: Specify exceptions for the policy:</span></span>
 
-<span data-ttu-id="9308c-296">Office 365용 Microsoft Defender의 기본 피싱 방지 정책의 이름은 Office365 AntiPhish Default로 지정되어 있으며 정책 목록에는 나타나지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-296">The default anti-phishing policy in Microsoft Defender for Office 365 is named Office365 AntiPhish Default, and it doesn't appear in the list of policies.</span></span> <span data-ttu-id="9308c-297">기본 피싱 방지 정책을 수정하려면 다음 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-297">To modify the default anti-phishing policy, do the following steps:</span></span>
+     - <span data-ttu-id="92393-255">**신뢰할 수 있는 보낸 사람:**</span><span class="sxs-lookup"><span data-stu-id="92393-255">**Trusted senders**:</span></span>
 
-1. <span data-ttu-id="9308c-298">보안 & 준수 센터에서 위협 관리  정책 ATP 피싱 \>  \> **방지로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-298">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span>
+       - <span data-ttu-id="92393-256">상자를 클릭하고 선택할 사용자 목록을 스크롤합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-256">Click in the box and scroll through the list of users to select.</span></span>
+       - <span data-ttu-id="92393-257">상자를 클릭하고 입력을 시작하여 목록을 필터링하고 사용자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-257">Click in the box and start typing to filter the list and select a user.</span></span>
+       - <span data-ttu-id="92393-258">항목을 제거하려면 **사용자의** 제거 ![ ](../../media/scc-remove-icon.png) 아이콘을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-258">To remove an entry, click **Remove** ![Remove icon](../../media/scc-remove-icon.png) on the user.</span></span>
 
-2. <span data-ttu-id="9308c-299">피싱 **방지 페이지에서** 기본 정책을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-299">On the **Anti-phishing** page, click **Default policy**.</span></span>
+     - <span data-ttu-id="92393-259">**신뢰할 수 있는 도메인:** 도메인 이름(예: contoso.com)을 입력하고 Enter를 누르고 필요에 따라 반복합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-259">**Trusted domains**: Enter the domain name (for example, contoso.com), press ENTER, and repeat as necessary.</span></span>
 
-3. <span data-ttu-id="9308c-300">The **Edit your policy Office365 AntiPhish Default** page appears.</span><span class="sxs-lookup"><span data-stu-id="9308c-300">The **Edit your policy Office365 AntiPhish Default** page appears.</span></span> <span data-ttu-id="9308c-301">사용자 지정 정책을 수정할 때 동일한 설정을 포함하는 다음 섹션을 사용할 [수 있습니다.](#use-the-security--compliance-center-to-modify-anti-phishing-policies-in-microsoft-defender-for-office-365)</span><span class="sxs-lookup"><span data-stu-id="9308c-301">The following sections are available, which contain identical settings for when you [modify a custom policy](#use-the-security--compliance-center-to-modify-anti-phishing-policies-in-microsoft-defender-for-office-365):</span></span>
+   - <span data-ttu-id="92393-260">**설정 검토:** 각 개별 단계를 클릭하는 대신 설정이 요약에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-260">**Review your settings**: Instead of clicking on each individual step, the settings are displayed in a summary.</span></span>
 
-   - <span data-ttu-id="9308c-302">**가장**</span><span class="sxs-lookup"><span data-stu-id="9308c-302">**Impersonation**</span></span>
-   - <span data-ttu-id="9308c-303">**스푸핑**</span><span class="sxs-lookup"><span data-stu-id="9308c-303">**Spoof**</span></span>
-   - <span data-ttu-id="9308c-304">**고급 설정**</span><span class="sxs-lookup"><span data-stu-id="9308c-304">**Advanced settings**</span></span>
+     - <span data-ttu-id="92393-261">각 **섹션에서** 편집을 클릭하여 관련 페이지로 다시 이동하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-261">You can click **Edit** in each section to jump back to the relevant page.</span></span>
+     - <span data-ttu-id="92393-262">이 페이지에서 직접 다음 설정을  **설정 또는** 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-262">You can toggle the following settings **On** or **Off** directly on this page:</span></span>
 
-   <span data-ttu-id="9308c-305">기본 정책을 수정할 때 다음 설정을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-305">The following settings aren't available when you modify the default policy:</span></span>
+       - <span data-ttu-id="92393-263">**보호된 사용자**</span><span class="sxs-lookup"><span data-stu-id="92393-263">**Protected users**</span></span>
+       - <span data-ttu-id="92393-264">**보호된 도메인** \> **소유한 도메인 포함**</span><span class="sxs-lookup"><span data-stu-id="92393-264">**Protected domains** \> **Include domains I own**</span></span>
+       - <span data-ttu-id="92393-265">**보호된 도메인** \> **보호된 도메인(사용자** 지정 도메인)</span><span class="sxs-lookup"><span data-stu-id="92393-265">**Protected domains** \> **Protected domains** (custom domains)</span></span>
+       - <span data-ttu-id="92393-266">**사서함 인텔리전스**</span><span class="sxs-lookup"><span data-stu-id="92393-266">**Mailbox intelligence**</span></span>
 
-   - <span data-ttu-id="9308c-306">정책 설정  섹션과 값을 볼 수 있지만  편집 링크는 있으므로 설정(정책 이름, 설명 및 정책이 적용되는 사람)을 수정할 수 없습니다(모든 받는 사람에게 적용).</span><span class="sxs-lookup"><span data-stu-id="9308c-306">You can see the **Policy setting** section and values, but there's no **Edit** link, so you can't modify the settings (policy name, description, and who the policy applies to (it applies to all recipients)).</span></span>
-   - <span data-ttu-id="9308c-307">기본 정책은 삭제할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-307">You can't delete the default policy.</span></span>
-   - <span data-ttu-id="9308c-308">기본 정책의 우선 순위는 변경할 수 없습니다(항상 마지막에 적용).</span><span class="sxs-lookup"><span data-stu-id="9308c-308">You can't change the priority of the default policy (it's always applied last).</span></span>
+   <span data-ttu-id="92393-267">완료되면 페이지에서 **저장을** 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-267">When you're finished, click **Save** on any page.</span></span>
 
-4. <span data-ttu-id="9308c-309">On the **Edit your policy Office365 AntiPhish Default page,** review your settings and then click **Close.**</span><span class="sxs-lookup"><span data-stu-id="9308c-309">On the **Edit your policy Office365 AntiPhish Default** page, review your settings and then click **Close**.</span></span>
+6. <span data-ttu-id="92393-268">**스푸핑**: **편집을** 클릭하여 스푸핑 인텔리전스를 켜거나 끄고, Outlook에서 확인되지 않은 보낸 사람 ID를 설정 또는 해제하고, 차단된 스푸핑된 보낸 사람이 보낸 메시지에 적용할 작업을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-268">**Spoof**: Click **Edit** to turn spoof intelligence on or off, turn unauthenticated sender identification in Outlook on or off, and configure the action to apply to messages from blocked spoofed senders.</span></span> <span data-ttu-id="92393-269">자세한 내용은 피싱 방지 정책의 [스푸핑 설정을 참조하세요.](set-up-anti-phishing-policies.md#spoof-settings)</span><span class="sxs-lookup"><span data-stu-id="92393-269">For more information, see [Spoof settings in anti-phishing policies](set-up-anti-phishing-policies.md#spoof-settings).</span></span>
 
-### <a name="enable-or-disable-custom-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="9308c-310">Microsoft Defender for Office 365에서 사용자 지정 피싱 방지 정책 사용 또는 사용 안 하도록 설정</span><span class="sxs-lookup"><span data-stu-id="9308c-310">Enable or disable custom anti-phishing policies in Microsoft Defender for Office 365</span></span>
+   <span data-ttu-id="92393-270">이러한 동일한 설정은 EOP의 피싱 방지 정책에서도 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-270">Note that these same settings are also available in anti-phishing policies in EOP.</span></span>
 
-1. <span data-ttu-id="9308c-311">보안 & 준수 센터에서 위협 관리  정책 ATP 피싱 \>  \> **방지로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-311">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span>
+   - <span data-ttu-id="92393-271">**스푸핑 필터 설정:** 기본값은 **On으로** 설정되어 있으며 그대로 두는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-271">**Spoofing filter settings**: The default value is **On**, and we recommend that you leave it on.</span></span> <span data-ttu-id="92393-272">끄기 위해 토글을 끄면 **끄기**</span><span class="sxs-lookup"><span data-stu-id="92393-272">To turn it off, slide the toggle to **Off**.</span></span> <span data-ttu-id="92393-273">자세한 내용은 [EOP에서 스푸핑 인텔리전스 구성을 참조하세요.](learn-about-spoof-intelligence.md)</span><span class="sxs-lookup"><span data-stu-id="92393-273">For more information, see [Configure spoof intelligence in EOP](learn-about-spoof-intelligence.md).</span></span>
 
-2. <span data-ttu-id="9308c-312">상태 열의 **값을** 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-312">Notice the value in the **Status** column:</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="92393-274">MX 레코드가 Microsoft 365를 사용하지 않는 경우 스푸핑 방지 보호 기능을 사용하지 않도록 설정할 필요가 없습니다. 대신 커넥터에 대해 향상된 필터링을 사용하도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-274">You don't need to disable anti-spoofing protection if your MX record doesn't point to Microsoft 365; you enable Enhanced Filtering for Connectors instead.</span></span> <span data-ttu-id="92393-275">자세한 내용은 Exchange Online의 커넥터에 대한 향상된 [필터링을 참조하세요.](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)</span><span class="sxs-lookup"><span data-stu-id="92393-275">For instructions, see [Enhanced Filtering for Connectors in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).</span></span>
 
-   - <span data-ttu-id="9308c-313">토글을 **해제로 밀어** 정책을 사용하지 않도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-313">Slide the toggle to **Off** to disable the policy.</span></span>
+   - <span data-ttu-id="92393-276">**사용 안 하도록** 설정 보낸 사람 기능 : 기본값은 **On입니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-276">**Enable Unauthenticated Sender feature**: The default value is **On**.</span></span> <span data-ttu-id="92393-277">끄기 위해 토글을 끄면 **끄기**</span><span class="sxs-lookup"><span data-stu-id="92393-277">To turn it off, slide the toggle to **Off**.</span></span>
 
-   - <span data-ttu-id="9308c-314">토글을 **설정으로 밀어** 정책을 사용하도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-314">Slide the toggle to **On** to enable the policy.</span></span>
+   - <span data-ttu-id="92393-278">**작업:** 스푸핑 인텔리전스에 실패한 메시지에 대해 수행할 작업을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-278">**Actions**: Specify the action to take on messages that fail spoof intelligence:</span></span>
 
-<span data-ttu-id="9308c-315">기본 피싱 방지 정책은 사용하지 않도록 설정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-315">You can't disable the default anti-phishing policy.</span></span>
+     <span data-ttu-id="92393-279">**도메인을 스푸핑할** 수 없는 사람이 전자 메일을 보낸 경우:</span><span class="sxs-lookup"><span data-stu-id="92393-279">**If email is sent by someone who's not allowed to spoof your domain**:</span></span>
 
-### <a name="set-the-priority-of-custom-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="9308c-316">Office 365용 Microsoft Defender에서 사용자 지정 피싱 방지 정책의 우선 순위 설정</span><span class="sxs-lookup"><span data-stu-id="9308c-316">Set the priority of custom anti-phishing policies in Microsoft Defender for Office 365</span></span>
+     - <span data-ttu-id="92393-280">**받는 사람의 정크 메일 폴더로 메시지 이동**</span><span class="sxs-lookup"><span data-stu-id="92393-280">**Move message to the recipients' Junk Email folders**</span></span>
+     - <span data-ttu-id="92393-281">**메시지 Quarantine the message**</span><span class="sxs-lookup"><span data-stu-id="92393-281">**Quarantine the message**</span></span>
 
-<span data-ttu-id="9308c-317">기본적으로 피싱 방지 정책에는 만들어진 순서에 따라 우선 순위가 부여됩니다(새 정책은 이전 정책보다 우선 순위가 낮음).</span><span class="sxs-lookup"><span data-stu-id="9308c-317">By default, anti-phishing policies are given a priority that's based on the order they were created in (newer policies are lower priority than older policies).</span></span> <span data-ttu-id="9308c-318">낮은 우선순위 번호는 정책의 높은 우선순위(0이 가장 높음)를 나타내고 정책은 우선순위 순서에 따라 처리됩니다(높은 우선순위 정책은 낮은 우선순위 정책보다 먼저 처리됨).</span><span class="sxs-lookup"><span data-stu-id="9308c-318">A lower priority number indicates a higher priority for the policy (0 is the highest), and policies are processed in priority order (higher priority policies are processed before lower priority policies).</span></span> <span data-ttu-id="9308c-319">두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-319">No two policies can have the same priority, and policy processing stops after the first policy is applied.</span></span>
+   - <span data-ttu-id="92393-282">**설정 검토:** 각 개별 단계를 클릭하는 대신 설정이 요약에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-282">**Review your settings**: Instead of clicking on each individual step, the settings are displayed in a summary.</span></span>
 
-<span data-ttu-id="9308c-320">우선순위 및 여러 정책을 평가하고 적용하는 방법에 대 한 자세한 내용은 전자 메일의 [전자 메일의 우선순위 및 보호](how-policies-and-protections-are-combined.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9308c-320">For more information about the order of precedence and how multiple policies are evaluated and applied, see [Order and precedence of email protection](how-policies-and-protections-are-combined.md).</span></span>
+     - <span data-ttu-id="92393-283">각 **섹션에서** 편집을 클릭하여 관련 페이지로 다시 이동하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-283">You can click **Edit** in each section to jump back to the relevant page.</span></span>
+     - <span data-ttu-id="92393-284">이 페이지에서 직접 다음 설정을  **설정 또는** 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-284">You can toggle the following settings **On** or **Off** directly on this page:</span></span>
+       - <span data-ttu-id="92393-285">**스푸핑 방지 보호 사용**</span><span class="sxs-lookup"><span data-stu-id="92393-285">**Enable antispoofing protection**</span></span>
+       - <span data-ttu-id="92393-286">**비인식 보낸 사람 기능 사용**</span><span class="sxs-lookup"><span data-stu-id="92393-286">**Enable Unauthenticated Sender feature**</span></span>
 
-<span data-ttu-id="9308c-321">사용자 지정 피싱 방지 정책은 처리되는 순서대로 표시됩니다(첫 번째  정책의 우선 순위 값은 0).</span><span class="sxs-lookup"><span data-stu-id="9308c-321">Custom anti-phishing policies are displayed in the order they're processed (the first policy has the **Priority** value 0).</span></span> <span data-ttu-id="9308c-322">Office365 AntiPhish Default라는 기본 피싱 방지 정책은 사용자 지정 우선 순위 값이 **가장** 낮습니다. 이 정책은 변경할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-322">The default anti-phishing policy named Office365 AntiPhish Default has the custom priority value **Lowest**, and you can't change it.</span></span>
+   <span data-ttu-id="92393-287">완료되면 페이지에서 **저장을** 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-287">When you're finished, click **Save** on any page.</span></span>
 
- <span data-ttu-id="9308c-323">**참고:** 보안 & 준수 센터에서는 피싱 방지 정책의 우선 순위를 변경할 수만 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-323">**Note**: In the Security & Compliance Center, you can only change the priority of the anti-phishing policy after you create it.</span></span> <span data-ttu-id="9308c-324">PowerShell에서 피싱 방지 규칙을 만들 때 기본 우선 순위를 다시 정할 수 있습니다(기존 규칙의 우선 순위에 영향을 줄 수 있습니다).</span><span class="sxs-lookup"><span data-stu-id="9308c-324">In PowerShell, you can override the default priority when you create the anti-phish rule (which can affect the priority of existing rules).</span></span>
+7. <span data-ttu-id="92393-288">**고급 설정:** **편집을** 클릭하여 고급 피싱 임계값을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-288">**Advanced settings**: Click **Edit** to configure the advanced phishing thresholds.</span></span> <span data-ttu-id="92393-289">자세한 내용은 [Office 365용 Microsoft Defender의](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)피싱 방지 정책에서 고급 피싱 임계값을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="92393-289">For more information, see [Advanced phishing thresholds in anti-phishing policies in Microsoft Defender for Office 365](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365).</span></span>
 
-<span data-ttu-id="9308c-325">정책의 우선 순위를 변경하려면 정책  속성에서 우선 순위 늘리기 또는 우선 순위  감소를 클릭합니다(보안 및 준수 센터에서 직접 & 수 없습니다). </span><span class="sxs-lookup"><span data-stu-id="9308c-325">To change the priority of a policy, you click **Increase priority** or **Decrease priority** in the properties of the policy (you can't directly modify the **Priority** number in the Security & Compliance Center).</span></span> <span data-ttu-id="9308c-326">정책의 우선 순위를 변경하는 것은 여러 정책이 있는 경우만 의미가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-326">Changing the priority of a policy only makes sense if you have multiple policies.</span></span>
+   - <span data-ttu-id="92393-290">**고급 피싱 임계값:** 다음 값 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-290">**Advanced phishing thresholds**: Select one of the following values:</span></span>
 
-1. <span data-ttu-id="9308c-327">보안 & 준수 센터에서 위협 관리  정책 ATP 피싱 \>  \> **방지로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-327">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span>
+   - <span data-ttu-id="92393-291">**1 -** 표준(기본값입니다.)</span><span class="sxs-lookup"><span data-stu-id="92393-291">**1 - Standard** (This is the default value.)</span></span>
+   - <span data-ttu-id="92393-292">**2 - 적극적**</span><span class="sxs-lookup"><span data-stu-id="92393-292">**2 - Aggressive**</span></span>
+   - <span data-ttu-id="92393-293">**3 - 보다 적극적인**</span><span class="sxs-lookup"><span data-stu-id="92393-293">**3 - More aggressive**</span></span>
+   - <span data-ttu-id="92393-294">**4 - 가장 적극적인**</span><span class="sxs-lookup"><span data-stu-id="92393-294">**4 - Most aggressive**</span></span>
 
-2. <span data-ttu-id="9308c-328">수정할 정책을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-328">Select the policy that you want to modify.</span></span> <span data-ttu-id="9308c-329">이미 선택되어 있는 경우 선택을 선택을 했다가 다시 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-329">If it's already selected, deselect it and select it again.</span></span>
+   - <span data-ttu-id="92393-295">**설정 검토:** **편집을** 클릭하여 고급 피싱 임계값 페이지로 **다시 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-295">**Review your settings**: Click **Edit** to jump back to the **Advanced phishing thresholds** page.</span></span>
 
-3. <span data-ttu-id="9308c-330">정책 **편집 \<name\> 플라이아웃이** 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-330">The **Edit your policy \<name\>** flyout appears.</span></span>
+   <span data-ttu-id="92393-296">완료되면 두 페이지에서 모두  저장을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-296">When you're finished, click **Save** on either page.</span></span>
 
-   - <span data-ttu-id="9308c-331">우선 순위 값이 **0인**  사용자 지정 피싱 방지 정책에는 우선 순위 감소 단추만 사용할 **수** 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-331">The custom anti-phishing policy with the **Priority** value **0** has only the **Decrease priority** button available.</span></span>
+8. <span data-ttu-id="92393-297">정책 편집 **\<Name\> 페이지에서** 설정을 검토한 다음 닫기 를 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-297">Back on the **Edit your policy \<Name\>** page, review your settings and then click **Close**.</span></span>
 
-   - <span data-ttu-id="9308c-332">우선 순위 값이 가장 낮은 사용자  지정 피싱 방지 정책(예: **3)에는** 우선 순위 늘리기 단추만 사용할 **수** 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-332">The custom anti-phishing policy with the lowest **Priority** value (for example, **3**) has only the **Increase priority** button available.</span></span>
+### <a name="use-the-security--compliance-center-to-modify-the-default-anti-phishing-policy-in-microsoft-defender-for-office-365"></a><span data-ttu-id="92393-298">보안 및 & 센터를 사용하여 Office 365용 Microsoft Defender의 기본 피싱 방지 정책 수정</span><span class="sxs-lookup"><span data-stu-id="92393-298">Use the Security & Compliance Center to modify the default anti-phishing policy in Microsoft Defender for Office 365</span></span>
 
-   - <span data-ttu-id="9308c-333">사용자 지정 피싱 방지 정책이 세 개 이상 있는 경우 우선 순위가 가장 높은 값과 가장 낮은 값 사이의 정책에는 우선 순위 늘리기 및 우선 순위 감소 단추를 모두 사용할 **수** 있습니다. </span><span class="sxs-lookup"><span data-stu-id="9308c-333">If you have three or more custom anti-phishing policies, policies between the highest and lowest priority values have both the **Increase priority** and **Decrease priority** buttons available.</span></span>
+<span data-ttu-id="92393-299">Office 365용 Microsoft Defender의 기본 피싱 방지 정책의 이름은 Office365 AntiPhish Default로 지정되어 있으며 정책 목록에는 나타나지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-299">The default anti-phishing policy in Microsoft Defender for Office 365 is named Office365 AntiPhish Default, and it doesn't appear in the list of policies.</span></span> <span data-ttu-id="92393-300">기본 피싱 방지 정책을 수정하려면 다음 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-300">To modify the default anti-phishing policy, do the following steps:</span></span>
 
-4. <span data-ttu-id="9308c-334">우선 **순위 늘리기 또는** 우선 순위 **감소를** 클릭하여 우선 순위 값을 **변경합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-334">Click **Increase priority** or **Decrease priority** to change the **Priority** value.</span></span>
+1. <span data-ttu-id="92393-301">보안 & 준수 센터에서 위협 관리  \>  \> **정책 ATP 피싱 방지로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-301">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span>
 
-5. <span data-ttu-id="9308c-335">작업을 마쳤으면 **닫기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-335">When you're finished, click **Close**.</span></span>
+2. <span data-ttu-id="92393-302">피싱 **방지 페이지에서** 기본 정책을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-302">On the **Anti-phishing** page, click **Default policy**.</span></span>
 
-## <a name="use-the-security--compliance-center-to-view-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="9308c-336">보안 및 & 센터를 사용하여 Microsoft Defender for Office 365에서 피싱 방지 정책 보기</span><span class="sxs-lookup"><span data-stu-id="9308c-336">Use the Security & Compliance Center to view anti-phishing policies in Microsoft Defender for Office 365</span></span>
+3. <span data-ttu-id="92393-303">The **Edit your policy Office365 AntiPhish Default** page appears.</span><span class="sxs-lookup"><span data-stu-id="92393-303">The **Edit your policy Office365 AntiPhish Default** page appears.</span></span> <span data-ttu-id="92393-304">사용자 지정 정책을 수정할 때 동일한 설정을 포함하는 다음 섹션을 사용할 [수 있습니다.](#use-the-security--compliance-center-to-modify-anti-phishing-policies-in-microsoft-defender-for-office-365)</span><span class="sxs-lookup"><span data-stu-id="92393-304">The following sections are available, which contain identical settings for when you [modify a custom policy](#use-the-security--compliance-center-to-modify-anti-phishing-policies-in-microsoft-defender-for-office-365):</span></span>
 
-1. <span data-ttu-id="9308c-337">보안 & 준수 센터에서 위협 관리  정책 ATP 피싱 \>  \> **방지로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-337">In the Security & Compliance Center, and go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span>
+   - <span data-ttu-id="92393-305">**가장**</span><span class="sxs-lookup"><span data-stu-id="92393-305">**Impersonation**</span></span>
+   - <span data-ttu-id="92393-306">**스푸핑**</span><span class="sxs-lookup"><span data-stu-id="92393-306">**Spoof**</span></span>
+   - <span data-ttu-id="92393-307">**고급 설정**</span><span class="sxs-lookup"><span data-stu-id="92393-307">**Advanced settings**</span></span>
 
-2. <span data-ttu-id="9308c-338">다음 단계 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-338">Do one of the following steps:</span></span>
+   <span data-ttu-id="92393-308">기본 정책을 수정할 때 다음 설정을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-308">The following settings aren't available when you modify the default policy:</span></span>
 
-   - <span data-ttu-id="9308c-339">보하려는 사용자 지정 피싱 방지 정책을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-339">Select a custom anti-phishing policy that you want to view.</span></span> <span data-ttu-id="9308c-340">이미 선택되어 있는 경우 선택을 선택을 했다가 다시 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-340">If it's already selected, deselect it and select it again.</span></span>
+   - <span data-ttu-id="92393-309">정책 설정  섹션과 값을 볼 수 있지만  편집 링크는 있으므로 설정(정책 이름, 설명 및 정책이 적용되는 사람)을 수정할 수 없습니다(모든 받는 사람에게 적용).</span><span class="sxs-lookup"><span data-stu-id="92393-309">You can see the **Policy setting** section and values, but there's no **Edit** link, so you can't modify the settings (policy name, description, and who the policy applies to (it applies to all recipients)).</span></span>
+   - <span data-ttu-id="92393-310">기본 정책은 삭제할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-310">You can't delete the default policy.</span></span>
+   - <span data-ttu-id="92393-311">기본 정책의 우선 순위는 변경할 수 없습니다(항상 마지막에 적용).</span><span class="sxs-lookup"><span data-stu-id="92393-311">You can't change the priority of the default policy (it's always applied last).</span></span>
 
-   - <span data-ttu-id="9308c-341">기본 **정책을 클릭하여** 기본 피싱 방지 정책을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-341">Click **Default policy** to view the default anti-phishing policy.</span></span>
+4. <span data-ttu-id="92393-312">On the **Edit your policy Office365 AntiPhish Default** page, review your settings and then click **Close**.</span><span class="sxs-lookup"><span data-stu-id="92393-312">On the **Edit your policy Office365 AntiPhish Default** page, review your settings and then click **Close**.</span></span>
 
-3. <span data-ttu-id="9308c-342">설정 **및 \<name\> 값을 볼** 수 있는 정책 플라이아웃 편집이 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-342">The **Edit your policy \<name\>** flyout appears, where you can view the settings and values.</span></span>
+### <a name="enable-or-disable-custom-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="92393-313">Microsoft Defender for Office 365에서 사용자 지정 피싱 방지 정책 사용 또는 사용 안 하도록 설정</span><span class="sxs-lookup"><span data-stu-id="92393-313">Enable or disable custom anti-phishing policies in Microsoft Defender for Office 365</span></span>
 
-## <a name="use-the-security--compliance-center-to-remove-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="9308c-343">보안 및 & 센터를 사용하여 Office 365용 Microsoft Defender에서 피싱 방지 정책 제거</span><span class="sxs-lookup"><span data-stu-id="9308c-343">Use the Security & Compliance Center to remove anti-phishing policies in Microsoft Defender for Office 365</span></span>
+1. <span data-ttu-id="92393-314">보안 & 준수 센터에서 위협 관리  \>  \> **정책 ATP 피싱 방지로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-314">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span>
 
-1. <span data-ttu-id="9308c-344">보안 & 준수 센터에서 위협 관리  정책 ATP 피싱 \>  \> **방지로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-344">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span>
+2. <span data-ttu-id="92393-315">상태 열의 **값을** 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-315">Notice the value in the **Status** column:</span></span>
 
-2. <span data-ttu-id="9308c-345">제거할 정책을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-345">Select the policy that you want to remove.</span></span> <span data-ttu-id="9308c-346">이미 선택되어 있는 경우 선택을 선택을 했다가 다시 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-346">If it's already selected, deselect it and select it again.</span></span>
+   - <span data-ttu-id="92393-316">토글을 **해제로 밀어** 정책을 사용하지 않도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-316">Slide the toggle to **Off** to disable the policy.</span></span>
 
-3. <span data-ttu-id="9308c-347">나타나는 정책 플라이아웃 편집에서 정책 삭제를 클릭한 다음 나타나는 경고 대화 상자에서 **예를** 클릭합니다. **\<name\>**</span><span class="sxs-lookup"><span data-stu-id="9308c-347">In the **Edit your policy \<name\>** flyout that appears, click **Delete policy**, and then click **Yes** in the warning dialog that appears.</span></span>
+   - <span data-ttu-id="92393-317">토글을 **설정으로 밀어 정책을** 사용하도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-317">Slide the toggle to **On** to enable the policy.</span></span>
 
-<span data-ttu-id="9308c-348">기본 정책은 제거할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-348">You can't remove the default policy.</span></span>
+<span data-ttu-id="92393-318">기본 피싱 방지 정책은 사용하지 않도록 설정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-318">You can't disable the default anti-phishing policy.</span></span>
 
-## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="9308c-349">Exchange Online PowerShell을 사용하여 Microsoft Defender for Office 365에서 피싱 방지 정책 구성</span><span class="sxs-lookup"><span data-stu-id="9308c-349">Use Exchange Online PowerShell to configure anti-phishing policies in Microsoft Defender for Office 365</span></span>
+### <a name="set-the-priority-of-custom-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="92393-319">Office 365용 Microsoft Defender에서 사용자 지정 피싱 방지 정책의 우선 순위 설정</span><span class="sxs-lookup"><span data-stu-id="92393-319">Set the priority of custom anti-phishing policies in Microsoft Defender for Office 365</span></span>
 
-<span data-ttu-id="9308c-350">앞서 설명한 바와 같이 스팸 방지 정책은 피싱 방지 정책과 피싱 방지 규칙으로 구성됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-350">As previously described, an anti-spam policy consists of an anti-phish policy and an anti-phish rule.</span></span>
+<span data-ttu-id="92393-320">기본적으로 피싱 방지 정책에는 만들어진 순서에 따라 우선 순위가 부여됩니다(새 정책은 이전 정책보다 우선 순위가 낮음).</span><span class="sxs-lookup"><span data-stu-id="92393-320">By default, anti-phishing policies are given a priority that's based on the order they were created in (newer policies are lower priority than older policies).</span></span> <span data-ttu-id="92393-321">낮은 우선순위 번호는 정책의 높은 우선순위(0이 가장 높음)를 나타내고 정책은 우선순위 순서에 따라 처리됩니다(높은 우선순위 정책은 낮은 우선순위 정책보다 먼저 처리됨).</span><span class="sxs-lookup"><span data-stu-id="92393-321">A lower priority number indicates a higher priority for the policy (0 is the highest), and policies are processed in priority order (higher priority policies are processed before lower priority policies).</span></span> <span data-ttu-id="92393-322">두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-322">No two policies can have the same priority, and policy processing stops after the first policy is applied.</span></span>
 
-<span data-ttu-id="9308c-351">Exchange Online PowerShell에서는 피싱 방지 정책과 피싱 방지 규칙의 차이점이 분명합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-351">In Exchange Online PowerShell, the difference between anti-phish policies and anti-phish rules is apparent.</span></span> <span data-ttu-id="9308c-352">**\* -AntiPhishPolicy** cmdlet을 사용하여 피싱 방지 정책을 관리하고 **\* -AntiPhishRule** cmdlet을 사용하여 피싱 방지 규칙을 관리합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-352">You manage anti-phish policies by using the **\*-AntiPhishPolicy** cmdlets, and you manage anti-phish rules by using the **\*-AntiPhishRule** cmdlets.</span></span>
+<span data-ttu-id="92393-323">우선순위 및 여러 정책을 평가하고 적용하는 방법에 대 한 자세한 내용은 전자 메일의 [전자 메일의 우선순위 및 보호](how-policies-and-protections-are-combined.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="92393-323">For more information about the order of precedence and how multiple policies are evaluated and applied, see [Order and precedence of email protection](how-policies-and-protections-are-combined.md).</span></span>
 
-- <span data-ttu-id="9308c-353">PowerShell에서 피싱 방지 정책을 먼저 만든 다음 규칙이 적용되는 정책을 식별하는 피싱 방지 규칙을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-353">In PowerShell, you create the anti-phish policy first, then you create the anti-phish rule that identifies the policy that the rule applies to.</span></span>
-- <span data-ttu-id="9308c-354">PowerShell에서는 피싱 방지 정책 및 피싱 방지 규칙의 설정을 별도로 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-354">In PowerShell, you modify the settings in the anti-phish policy and the anti-phish rule separately.</span></span>
-- <span data-ttu-id="9308c-355">PowerShell에서 피싱 방지 정책을 제거하면 해당 피싱 방지 규칙이 자동으로 제거되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-355">When you remove an anti-phish policy from PowerShell, the corresponding anti-phish rule isn't automatically removed, and vice versa.</span></span>
+<span data-ttu-id="92393-324">사용자 지정 피싱 방지 정책은 처리되는 순서대로 표시됩니다(첫 번째  정책의 우선 순위 값은 0).</span><span class="sxs-lookup"><span data-stu-id="92393-324">Custom anti-phishing policies are displayed in the order they're processed (the first policy has the **Priority** value 0).</span></span> <span data-ttu-id="92393-325">Office365 AntiPhish Default라는 기본 피싱 방지 정책의 사용자 지정 우선 순위 값이 **가장** 낮습니다. 이 정책은 변경할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-325">The default anti-phishing policy named Office365 AntiPhish Default has the custom priority value **Lowest**, and you can't change it.</span></span>
 
-### <a name="use-powershell-to-create-anti-phishing-policies"></a><span data-ttu-id="9308c-356">PowerShell을 사용하여 피싱 방지 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="9308c-356">Use PowerShell to create anti-phishing policies</span></span>
+ <span data-ttu-id="92393-326">**참고:** 보안 & 준수 센터에서는 피싱 방지 정책의 우선 순위를 변경할 수만 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-326">**Note**: In the Security & Compliance Center, you can only change the priority of the anti-phishing policy after you create it.</span></span> <span data-ttu-id="92393-327">PowerShell에서 피싱 방지 규칙을 만들 때 기본 우선 순위를 다시 정할 수 있습니다(기존 규칙의 우선 순위에 영향을 줄 수 있습니다).</span><span class="sxs-lookup"><span data-stu-id="92393-327">In PowerShell, you can override the default priority when you create the anti-phish rule (which can affect the priority of existing rules).</span></span>
 
-<span data-ttu-id="9308c-357">PowerShell에서 피싱 방지 정책을 만드는 과정은 다음 두 단계로 진행됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-357">Creating an anti-phishing policy in PowerShell is a two-step process:</span></span>
+<span data-ttu-id="92393-328">정책의 우선 순위를 변경하려면 정책  속성에서 우선 순위 늘리기 또는 우선 순위  감소를 클릭합니다(보안 및 준수 센터에서 직접 & 수 없습니다). </span><span class="sxs-lookup"><span data-stu-id="92393-328">To change the priority of a policy, you click **Increase priority** or **Decrease priority** in the properties of the policy (you can't directly modify the **Priority** number in the Security & Compliance Center).</span></span> <span data-ttu-id="92393-329">정책의 우선 순위를 변경하는 것은 여러 정책이 있는 경우만 의미가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-329">Changing the priority of a policy only makes sense if you have multiple policies.</span></span>
 
-1. <span data-ttu-id="9308c-358">피싱 방지 정책을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-358">Create the anti-phish policy.</span></span>
-2. <span data-ttu-id="9308c-359">규칙이 적용되는 피싱 방지 정책을 지정하는 피싱 방지 규칙을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-359">Create the anti-phish rule that specifies the anti-phish policy that the rule applies to.</span></span>
+1. <span data-ttu-id="92393-330">보안 & 준수 센터에서 위협 관리  \>  \> **정책 ATP 피싱 방지로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-330">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span>
 
- <span data-ttu-id="9308c-360">**참고**:</span><span class="sxs-lookup"><span data-stu-id="9308c-360">**Notes**:</span></span>
+2. <span data-ttu-id="92393-331">수정할 정책을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-331">Select the policy that you want to modify.</span></span> <span data-ttu-id="92393-332">이미 선택되어 있는 경우 선택을 다시 선택하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-332">If it's already selected, deselect it and select it again.</span></span>
 
-- <span data-ttu-id="9308c-361">새 피싱 방지 규칙을 만들고 기존의 통합되지 않은 피싱 방지 정책을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-361">You can create a new anti-phish rule and assign an existing, unassociated anti-phish policy to it.</span></span> <span data-ttu-id="9308c-362">피싱 방지 규칙은 피싱 방지 정책과 두 개 이상 연결될 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-362">An anti-phish rule can't be associated with more than one anti-phish policy.</span></span>
+3. <span data-ttu-id="92393-333">정책 **편집 \<name\> 플라이아웃이** 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="92393-333">The **Edit your policy \<name\>** flyout appears.</span></span>
 
-- <span data-ttu-id="9308c-363">PowerShell에서 보안 및 준수 센터에서 사용할 수 없는 새 피싱 방지 정책에 대해 다음 설정을 구성할 & 정책을 만든 후에 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-363">You can configure the following settings on new anti-phish policies in PowerShell that aren't available in the Security & Compliance Center until after you create the policy:</span></span>
+   - <span data-ttu-id="92393-334">우선 순위 값이 **0인**  사용자 지정 피싱 방지 정책에는 우선 순위 감소 단추만 사용할 **수** 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-334">The custom anti-phishing policy with the **Priority** value **0** has only the **Decrease priority** button available.</span></span>
 
-  - <span data-ttu-id="9308c-364">새 정책을 사용할 수 `$false` **없습니다(New-AntiPhishRule** cmdlet에서 사용).</span><span class="sxs-lookup"><span data-stu-id="9308c-364">Create the new policy as disabled (_Enabled_ `$false` on the **New-AntiPhishRule** cmdlet).</span></span>
-  - <span data-ttu-id="9308c-365"> _\<Number\>_ **New-AntiPhishRule** cmdlet에서 만들기 중 정책의 우선 순위(우선 순위)를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-365">Set the priority of the policy during creation (_Priority_ _\<Number\>_) on the **New-AntiPhishRule** cmdlet).</span></span>
+   - <span data-ttu-id="92393-335">우선 순위 값이 가장 낮은 사용자  지정 피싱 방지 정책(예: **3)에는** 우선 순위 늘리기 단추만 사용할 **수** 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-335">The custom anti-phishing policy with the lowest **Priority** value (for example, **3**) has only the **Increase priority** button available.</span></span>
 
-- <span data-ttu-id="9308c-366">PowerShell에서 만든 새로운 피싱 방지 정책은 피싱 방지 규칙에 정책을 할당할 때까지 보안 & 준수 센터에 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-366">A new anti-phish policy that you create in PowerShell isn't visible in the Security & Compliance Center until you assign the policy to an anti-phish rule.</span></span>
+   - <span data-ttu-id="92393-336">사용자 지정 피싱 방지 정책이 세 개 이상 있는 경우 우선 순위가 가장 높은 값과 가장 낮은 값 사이의 정책에는 우선 순위 늘리기 및 우선 순위 감소 단추를 모두 사용할 **수** 있습니다. </span><span class="sxs-lookup"><span data-stu-id="92393-336">If you have three or more custom anti-phishing policies, policies between the highest and lowest priority values have both the **Increase priority** and **Decrease priority** buttons available.</span></span>
 
-#### <a name="step-1-use-powershell-to-create-an-anti-phish-policy"></a><span data-ttu-id="9308c-367">1단계: PowerShell을 사용하여 피싱 방지 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="9308c-367">Step 1: Use PowerShell to create an anti-phish policy</span></span>
+4. <span data-ttu-id="92393-337">우선 **순위 늘리기 또는** 우선 순위 **감소를** 클릭하여 우선 순위 값을 **변경합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-337">Click **Increase priority** or **Decrease priority** to change the **Priority** value.</span></span>
 
-<span data-ttu-id="9308c-368">피싱 방지 정책을 만들 경우 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-368">To create an anti-phish policy, use this syntax:</span></span>
+5. <span data-ttu-id="92393-338">작업을 마쳤으면 **닫기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-338">When you're finished, click **Close**.</span></span>
+
+## <a name="use-the-security--compliance-center-to-view-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="92393-339">보안 및 & 센터를 사용하여 Microsoft Defender for Office 365에서 피싱 방지 정책 보기</span><span class="sxs-lookup"><span data-stu-id="92393-339">Use the Security & Compliance Center to view anti-phishing policies in Microsoft Defender for Office 365</span></span>
+
+1. <span data-ttu-id="92393-340">보안 & 준수 센터에서 위협 관리  정책 ATP 피싱 \>  \> **방지로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-340">In the Security & Compliance Center, and go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span>
+
+2. <span data-ttu-id="92393-341">다음 단계 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-341">Do one of the following steps:</span></span>
+
+   - <span data-ttu-id="92393-342">보하려는 사용자 지정 피싱 방지 정책을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-342">Select a custom anti-phishing policy that you want to view.</span></span> <span data-ttu-id="92393-343">이미 선택되어 있는 경우 선택을 다시 선택하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-343">If it's already selected, deselect it and select it again.</span></span>
+
+   - <span data-ttu-id="92393-344">기본 **정책을 클릭하여** 기본 피싱 방지 정책을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-344">Click **Default policy** to view the default anti-phishing policy.</span></span>
+
+3. <span data-ttu-id="92393-345">설정 **및 \<name\> 값을 볼** 수 있는 정책 플라이아웃 편집이 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="92393-345">The **Edit your policy \<name\>** flyout appears, where you can view the settings and values.</span></span>
+
+## <a name="use-the-security--compliance-center-to-remove-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="92393-346">보안 및 & 센터를 사용하여 Office 365용 Microsoft Defender에서 피싱 방지 정책 제거</span><span class="sxs-lookup"><span data-stu-id="92393-346">Use the Security & Compliance Center to remove anti-phishing policies in Microsoft Defender for Office 365</span></span>
+
+1. <span data-ttu-id="92393-347">보안 & 준수 센터에서 위협 관리  \>  \> **정책 ATP 피싱 방지로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-347">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span>
+
+2. <span data-ttu-id="92393-348">제거할 정책을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-348">Select the policy that you want to remove.</span></span> <span data-ttu-id="92393-349">이미 선택되어 있는 경우 선택을 다시 선택하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-349">If it's already selected, deselect it and select it again.</span></span>
+
+3. <span data-ttu-id="92393-350">나타나는 **\<name\> 정책** 플라이아웃 편집에서 정책 삭제를 클릭한 다음 나타나는 경고 대화 상자에서 **예를** 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-350">In the **Edit your policy \<name\>** flyout that appears, click **Delete policy**, and then click **Yes** in the warning dialog that appears.</span></span>
+
+<span data-ttu-id="92393-351">기본 정책은 제거할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-351">You can't remove the default policy.</span></span>
+
+## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a><span data-ttu-id="92393-352">Exchange Online PowerShell을 사용하여 Microsoft Defender for Office 365에서 피싱 방지 정책 구성</span><span class="sxs-lookup"><span data-stu-id="92393-352">Use Exchange Online PowerShell to configure anti-phishing policies in Microsoft Defender for Office 365</span></span>
+
+<span data-ttu-id="92393-353">앞서 설명한 바와 같이 스팸 방지 정책은 피싱 방지 정책과 피싱 방지 규칙으로 구성됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-353">As previously described, an anti-spam policy consists of an anti-phish policy and an anti-phish rule.</span></span>
+
+<span data-ttu-id="92393-354">Exchange Online PowerShell에서는 피싱 방지 정책과 피싱 방지 규칙의 차이점이 분명합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-354">In Exchange Online PowerShell, the difference between anti-phish policies and anti-phish rules is apparent.</span></span> <span data-ttu-id="92393-355">**\* -AntiPhishPolicy** cmdlet을 사용하여 피싱 방지 정책을 관리하고 **\* -AntiPhishRule** cmdlet을 사용하여 피싱 방지 규칙을 관리합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-355">You manage anti-phish policies by using the **\*-AntiPhishPolicy** cmdlets, and you manage anti-phish rules by using the **\*-AntiPhishRule** cmdlets.</span></span>
+
+- <span data-ttu-id="92393-356">PowerShell에서 피싱 방지 정책을 먼저 만든 다음 규칙이 적용되는 정책을 식별하는 피싱 방지 규칙을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-356">In PowerShell, you create the anti-phish policy first, then you create the anti-phish rule that identifies the policy that the rule applies to.</span></span>
+- <span data-ttu-id="92393-357">PowerShell에서는 피싱 방지 정책 및 피싱 방지 규칙의 설정을 별도로 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-357">In PowerShell, you modify the settings in the anti-phish policy and the anti-phish rule separately.</span></span>
+- <span data-ttu-id="92393-358">PowerShell에서 피싱 방지 정책을 제거하면 해당 피싱 방지 규칙이 자동으로 제거되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-358">When you remove an anti-phish policy from PowerShell, the corresponding anti-phish rule isn't automatically removed, and vice versa.</span></span>
+
+### <a name="use-powershell-to-create-anti-phishing-policies"></a><span data-ttu-id="92393-359">PowerShell을 사용하여 피싱 방지 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="92393-359">Use PowerShell to create anti-phishing policies</span></span>
+
+<span data-ttu-id="92393-360">PowerShell에서 피싱 방지 정책을 만드는 과정은 다음 두 단계로 진행됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-360">Creating an anti-phishing policy in PowerShell is a two-step process:</span></span>
+
+1. <span data-ttu-id="92393-361">피싱 방지 정책을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-361">Create the anti-phish policy.</span></span>
+2. <span data-ttu-id="92393-362">규칙이 적용되는 피싱 방지 정책을 지정하는 피싱 방지 규칙을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-362">Create the anti-phish rule that specifies the anti-phish policy that the rule applies to.</span></span>
+
+ <span data-ttu-id="92393-363">**참고**:</span><span class="sxs-lookup"><span data-stu-id="92393-363">**Notes**:</span></span>
+
+- <span data-ttu-id="92393-364">새 피싱 방지 규칙을 만들고 기존의 통합되지 않은 피싱 방지 정책을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-364">You can create a new anti-phish rule and assign an existing, unassociated anti-phish policy to it.</span></span> <span data-ttu-id="92393-365">피싱 방지 규칙은 피싱 방지 정책과 두 개 이상 연결될 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-365">An anti-phish rule can't be associated with more than one anti-phish policy.</span></span>
+
+- <span data-ttu-id="92393-366">PowerShell에서 보안 및 준수 센터에서 사용할 수 없는 새 피싱 방지 정책에 대해 다음 설정을 구성할 & 정책을 만든 후에 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-366">You can configure the following settings on new anti-phish policies in PowerShell that aren't available in the Security & Compliance Center until after you create the policy:</span></span>
+
+  - <span data-ttu-id="92393-367">새 정책을 사용할 수 `$false` **없습니다(New-AntiPhishRule** cmdlet에서 사용).</span><span class="sxs-lookup"><span data-stu-id="92393-367">Create the new policy as disabled (_Enabled_ `$false` on the **New-AntiPhishRule** cmdlet).</span></span>
+  - <span data-ttu-id="92393-368"> _\<Number\>_ **New-AntiPhishRule** cmdlet에서 만들기 중 정책의 우선 순위(우선 순위)를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-368">Set the priority of the policy during creation (_Priority_ _\<Number\>_) on the **New-AntiPhishRule** cmdlet).</span></span>
+
+- <span data-ttu-id="92393-369">PowerShell에서 만든 새로운 피싱 방지 정책은 피싱 방지 규칙에 정책을 할당할 때까지 보안 & 준수 센터에 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-369">A new anti-phish policy that you create in PowerShell isn't visible in the Security & Compliance Center until you assign the policy to an anti-phish rule.</span></span>
+
+#### <a name="step-1-use-powershell-to-create-an-anti-phish-policy"></a><span data-ttu-id="92393-370">1단계: PowerShell을 사용하여 피싱 방지 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="92393-370">Step 1: Use PowerShell to create an anti-phish policy</span></span>
+
+<span data-ttu-id="92393-371">피싱 방지 정책을 만들 경우 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-371">To create an anti-phish policy, use this syntax:</span></span>
 
 ```PowerShell
 New-AntiPhishPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] <Additional Settings>
 ```
 
-<span data-ttu-id="9308c-369">이 예에서는 다음 설정을 사용하여 Research Quarantine이라는 피싱 방지 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-369">This example creates anti-phish policy named Research Quarantine with the following settings:</span></span>
+<span data-ttu-id="92393-372">이 예에서는 다음 설정을 사용하여 Research Quarantine이라는 피싱 방지 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="92393-372">This example creates anti-phish policy named Research Quarantine with the following settings:</span></span>
 
-- <span data-ttu-id="9308c-370">정책이 사용하도록 설정됩니다(Enabled 매개  변수를 사용하지 않습니다. 기본값은 `$true` ).</span><span class="sxs-lookup"><span data-stu-id="9308c-370">The policy is enabled (we aren't using the _Enabled_ parameter, and the default value is `$true`).</span></span>
-- <span data-ttu-id="9308c-371">설명은 리서치 부서 정책입니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-371">The description is: Research department policy.</span></span>
-- <span data-ttu-id="9308c-372">모든 허용 도메인에 대해 조직 도메인 보호를 설정하고 대상 도메인을 보호할 수 fabrikam.com.</span><span class="sxs-lookup"><span data-stu-id="9308c-372">Enables organization domains protection for all accepted domains, and targeted domains protection for fabrikam.com.</span></span>
-- <span data-ttu-id="9308c-373">가장으로부터 보호할 사용자로 Mai Fujito(mfujito@fabrikam.com)를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-373">Specifies Mai Fujito (mfujito@fabrikam.com) as the user to protect from impersonation.</span></span>
-- <span data-ttu-id="9308c-374">사서함 인텔리전스를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-374">Enables mailbox intelligence.</span></span>
-- <span data-ttu-id="9308c-375">사서함 인텔리전스 보호를 사용하며, 차단 작업을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-375">Enables mailbox intelligence protection, and specifies the quarantine action.</span></span>
-- <span data-ttu-id="9308c-376">안전 팁을 사용 하세요.</span><span class="sxs-lookup"><span data-stu-id="9308c-376">Enables safety tips.</span></span>
+- <span data-ttu-id="92393-373">정책이 사용하도록 설정됩니다(Enabled 매개  변수를 사용하지 않습니다. 기본값은 `$true` ).</span><span class="sxs-lookup"><span data-stu-id="92393-373">The policy is enabled (we aren't using the _Enabled_ parameter, and the default value is `$true`).</span></span>
+- <span data-ttu-id="92393-374">설명은 리서치 부서 정책입니다.</span><span class="sxs-lookup"><span data-stu-id="92393-374">The description is: Research department policy.</span></span>
+- <span data-ttu-id="92393-375">모든 허용 도메인에 대해 조직 도메인 보호를 설정하고 대상 도메인을 보호할 수 fabrikam.com.</span><span class="sxs-lookup"><span data-stu-id="92393-375">Enables organization domains protection for all accepted domains, and targeted domains protection for fabrikam.com.</span></span>
+- <span data-ttu-id="92393-376">가장으로부터 보호할 사용자로 Mai Fujito(mfujito@fabrikam.com)를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-376">Specifies Mai Fujito (mfujito@fabrikam.com) as the user to protect from impersonation.</span></span>
+- <span data-ttu-id="92393-377">사서함 인텔리전스를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-377">Enables mailbox intelligence.</span></span>
+- <span data-ttu-id="92393-378">사서함 인텔리전스 보호를 사용하며, 차단 작업을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-378">Enables mailbox intelligence protection, and specifies the quarantine action.</span></span>
+- <span data-ttu-id="92393-379">안전 팁을 사용 하세요.</span><span class="sxs-lookup"><span data-stu-id="92393-379">Enables safety tips.</span></span>
 
 ```powershell
 New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Research department policy" -EnableOrganizationDomainsProtection $true -EnableTargetedDomainsProtection $true -TargetedDomainsToProtect fabrikam.com -TargetedDomainProtectionAction Quarantine -EnableTargetedUserProtection $true -TargetedUsersToProtect "Mai Fujito;mfujito@fabrikam.com" -TargetedUserProtectionAction Quarantine -EnableMailboxIntelligence $true -EnableMailboxIntelligenceProtection $true -MailboxIntelligenceProtectionAction Quarantine -EnableSimilarUsersSafetyTips $true -EnableSimilarDomainsSafetyTips $true -EnableUnusualCharactersSafetyTips $true
 ```
 
-<span data-ttu-id="9308c-377">구문과 매개 변수에 대한 자세한 내용은 [New-AntiPhishPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishPolicy)</span><span class="sxs-lookup"><span data-stu-id="9308c-377">For detailed syntax and parameter information, see [New-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishPolicy).</span></span>
+<span data-ttu-id="92393-380">구문과 매개 변수에 대한 자세한 내용은 [New-AntiPhishPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishPolicy)</span><span class="sxs-lookup"><span data-stu-id="92393-380">For detailed syntax and parameter information, see [New-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishPolicy).</span></span>
 
-#### <a name="step-2-use-powershell-to-create-an-anti-phish-rule"></a><span data-ttu-id="9308c-378">2단계: PowerShell을 사용하여 피싱 방지 규칙 만들기</span><span class="sxs-lookup"><span data-stu-id="9308c-378">Step 2: Use PowerShell to create an anti-phish rule</span></span>
+#### <a name="step-2-use-powershell-to-create-an-anti-phish-rule"></a><span data-ttu-id="92393-381">2단계: PowerShell을 사용하여 피싱 방지 규칙 만들기</span><span class="sxs-lookup"><span data-stu-id="92393-381">Step 2: Use PowerShell to create an anti-phish rule</span></span>
 
-<span data-ttu-id="9308c-379">피싱 방지 규칙을 만들 경우 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-379">To create an anti-phish rule, use this syntax:</span></span>
+<span data-ttu-id="92393-382">피싱 방지 규칙을 만들 경우 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-382">To create an anti-phish rule, use this syntax:</span></span>
 
 ```PowerShell
 New-AntiPhishRule -Name "<RuleName>" -AntiPhishPolicy "<PolicyName>" <Recipient filters> [<Recipient filter exceptions>] [-Comments "<OptionalComments>"]
 ```
 
-<span data-ttu-id="9308c-380">이 예에서는 다음 조건을 통해 Research Department라는 피싱 방지 규칙을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-380">This example creates an anti-phish rule named Research Department with the following conditions:</span></span>
+<span data-ttu-id="92393-383">이 예에서는 다음 조건을 통해 Research Department라는 피싱 방지 규칙을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="92393-383">This example creates an anti-phish rule named Research Department with the following conditions:</span></span>
 
-- <span data-ttu-id="9308c-381">이 규칙은 Research Quarantine이라는 피싱 방지 정책과 연결됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-381">The rule is associated with the anti-phish policy named Research Quarantine.</span></span>
-- <span data-ttu-id="9308c-382">이 규칙은 Research Department 그룹의 구성원에게 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-382">The rule applies to members of the group named Research Department.</span></span>
-- <span data-ttu-id="9308c-383">Priority 매개 변수를  사용하지 않는 경우 기본 우선 순위가 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-383">Because we aren't using the _Priority_ parameter, the default priority is used.</span></span>
+- <span data-ttu-id="92393-384">이 규칙은 Research Quarantine이라는 피싱 방지 정책과 연결됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-384">The rule is associated with the anti-phish policy named Research Quarantine.</span></span>
+- <span data-ttu-id="92393-385">이 규칙은 Research Department 그룹의 구성원에게 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-385">The rule applies to members of the group named Research Department.</span></span>
+- <span data-ttu-id="92393-386">Priority 매개 변수를  사용하지 않는 경우 기본 우선 순위가 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-386">Because we aren't using the _Priority_ parameter, the default priority is used.</span></span>
 
 ```powershell
 New-AntiPhishRule -Name "Research Department" -AntiPhishPolicy "Research Quarantine" -SentToMemberOf "Research Department"
 ```
 
-<span data-ttu-id="9308c-384">구문과 매개 변수에 대한 자세한 내용은 [New-AntiPhishRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishRule)</span><span class="sxs-lookup"><span data-stu-id="9308c-384">For detailed syntax and parameter information, see [New-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishRule).</span></span>
+<span data-ttu-id="92393-387">구문과 매개 변수에 대한 자세한 내용은 [New-AntiPhishRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishRule)</span><span class="sxs-lookup"><span data-stu-id="92393-387">For detailed syntax and parameter information, see [New-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishRule).</span></span>
 
-### <a name="use-powershell-to-view-anti-phish-policies"></a><span data-ttu-id="9308c-385">PowerShell을 사용하여 피싱 방지 정책 보기</span><span class="sxs-lookup"><span data-stu-id="9308c-385">Use PowerShell to view anti-phish policies</span></span>
+### <a name="use-powershell-to-view-anti-phish-policies"></a><span data-ttu-id="92393-388">PowerShell을 사용하여 피싱 방지 정책 보기</span><span class="sxs-lookup"><span data-stu-id="92393-388">Use PowerShell to view anti-phish policies</span></span>
 
-<span data-ttu-id="9308c-386">기존 피싱 방지 정책을 보시다시피 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-386">To view existing anti-phish policies, use the following syntax:</span></span>
+<span data-ttu-id="92393-389">기존 피싱 방지 정책을 보시다시피 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-389">To view existing anti-phish policies, use the following syntax:</span></span>
 
 ```PowerShell
 Get-AntiPhishPolicy [-Identity "<PolicyIdentity>"] [| <Format-Table | Format-List> <Property1,Property2,...>]
 ```
 
-<span data-ttu-id="9308c-387">이 예에서는 지정된 속성과 함께 모든 피싱 방지 정책의 요약 목록을 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-387">This example returns a summary list of all anti-phish policies along with the specified properties.</span></span>
+<span data-ttu-id="92393-390">이 예에서는 지정된 속성과 함께 모든 피싱 방지 정책의 요약 목록을 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-390">This example returns a summary list of all anti-phish policies along with the specified properties.</span></span>
 
 ```PowerShell
 Get-AntiPhishPolicy | Format-Table Name,IsDefault
 ```
 
-<span data-ttu-id="9308c-388">이 예에서는 Executives라는 피싱 방지 정책의 모든 속성 값을 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-388">This example returns all the property values for the anti-phish policy named Executives.</span></span>
+<span data-ttu-id="92393-391">이 예에서는 Executives라는 피싱 방지 정책의 모든 속성 값을 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-391">This example returns all the property values for the anti-phish policy named Executives.</span></span>
 
 ```PowerShell
 Get-AntiPhishPolicy -Identity "Executives"
 ```
 
-<span data-ttu-id="9308c-389">구문과 매개 변수에 대한 자세한 내용은 [Get-AntiPhishPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishPolicy)</span><span class="sxs-lookup"><span data-stu-id="9308c-389">For detailed syntax and parameter information, see [Get-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishPolicy).</span></span>
+<span data-ttu-id="92393-392">구문과 매개 변수에 대한 자세한 내용은 [Get-AntiPhishPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishPolicy)</span><span class="sxs-lookup"><span data-stu-id="92393-392">For detailed syntax and parameter information, see [Get-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishPolicy).</span></span>
 
-### <a name="use-powershell-to-view-anti-phish-rules"></a><span data-ttu-id="9308c-390">PowerShell을 사용하여 피싱 방지 규칙 보기</span><span class="sxs-lookup"><span data-stu-id="9308c-390">Use PowerShell to view anti-phish rules</span></span>
+### <a name="use-powershell-to-view-anti-phish-rules"></a><span data-ttu-id="92393-393">PowerShell을 사용하여 피싱 방지 규칙 보기</span><span class="sxs-lookup"><span data-stu-id="92393-393">Use PowerShell to view anti-phish rules</span></span>
 
-<span data-ttu-id="9308c-391">기존 피싱 방지 규칙을 보시다시피 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-391">To view existing anti-phish rules, use the following syntax:</span></span>
+<span data-ttu-id="92393-394">기존 피싱 방지 규칙을 보시다시피 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-394">To view existing anti-phish rules, use the following syntax:</span></span>
 
 ```PowerShell
 Get-AntiPhishRule [-Identity "<RuleIdentity>"] [-State <Enabled | Disabled] [| <Format-Table | Format-List> <Property1,Property2,...>]
 ```
 
-<span data-ttu-id="9308c-392">이 예제에서는 지정된 속성과 함께 모든 피싱 방지 규칙의 요약 목록을 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-392">This example returns a summary list of all anti-phish rules along with the specified properties.</span></span>
+<span data-ttu-id="92393-395">이 예제에서는 지정된 속성과 함께 모든 피싱 방지 규칙의 요약 목록을 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-395">This example returns a summary list of all anti-phish rules along with the specified properties.</span></span>
 
 ```PowerShell
 Get-AntiPhishRule | Format-Table Name,Priority,State
 ```
 
-<span data-ttu-id="9308c-393">활성화된 또는 비활성화된 규칙을 기준으로 목록을 필터링하려면 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-393">To filter the list by enabled or disabled rules, run the following commands:</span></span>
+<span data-ttu-id="92393-396">활성화된 또는 비활성화된 규칙을 기준으로 목록을 필터링하려면 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-396">To filter the list by enabled or disabled rules, run the following commands:</span></span>
 
 ```PowerShell
 Get-AntiPhishRule -State Disabled | Format-Table Name,Priority
@@ -492,136 +497,136 @@ Get-AntiPhishRule -State Disabled | Format-Table Name,Priority
 Get-AntiPhishRule -State Enabled | Format-Table Name,Priority
 ```
 
-<span data-ttu-id="9308c-394">이 예에서는 Contoso Executives라는 피싱 방지 규칙의 모든 속성 값을 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-394">This example returns all the property values for the anti-phish rule named Contoso Executives.</span></span>
+<span data-ttu-id="92393-397">이 예에서는 Contoso Executives라는 피싱 방지 규칙의 모든 속성 값을 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-397">This example returns all the property values for the anti-phish rule named Contoso Executives.</span></span>
 
 ```PowerShell
 Get-AntiPhishRule -Identity "Contoso Executives"
 ```
 
-<span data-ttu-id="9308c-395">구문과 매개 변수에 대한 자세한 내용은 [Get-AntiPhishRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishrule)</span><span class="sxs-lookup"><span data-stu-id="9308c-395">For detailed syntax and parameter information, see [Get-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishrule).</span></span>
+<span data-ttu-id="92393-398">구문과 매개 변수에 대한 자세한 내용은 [Get-AntiPhishRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishrule)</span><span class="sxs-lookup"><span data-stu-id="92393-398">For detailed syntax and parameter information, see [Get-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishrule).</span></span>
 
-### <a name="use-powershell-to-modify-anti-phish-policies"></a><span data-ttu-id="9308c-396">PowerShell을 사용하여 피싱 방지 정책 수정</span><span class="sxs-lookup"><span data-stu-id="9308c-396">Use PowerShell to modify anti-phish policies</span></span>
+### <a name="use-powershell-to-modify-anti-phish-policies"></a><span data-ttu-id="92393-399">PowerShell을 사용하여 피싱 방지 정책 수정</span><span class="sxs-lookup"><span data-stu-id="92393-399">Use PowerShell to modify anti-phish policies</span></span>
 
-<span data-ttu-id="9308c-397">다음 항목 이외에 PowerShell에서 피싱 방지 정책을 수정할 때도 이 문서 앞부분의 [1단계: PowerShell을](#step-1-use-powershell-to-create-an-anti-phish-policy) 사용하여 피싱 방지 정책 섹션을 만들 때와 동일한 설정을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-397">Other than the following items, the same settings are available when you modify an anti-phish policy in PowerShell as when you create the policy as described in the [Step 1: Use PowerShell to create an anti-phish policy](#step-1-use-powershell-to-create-an-anti-phish-policy) section earlier in this article.</span></span>
+<span data-ttu-id="92393-400">다음 항목 이외에 PowerShell에서 피싱 방지 정책을 수정할 때도 이 문서 앞부분의 [1단계: PowerShell을](#step-1-use-powershell-to-create-an-anti-phish-policy) 사용하여 피싱 방지 정책 섹션을 만들 때와 동일한 설정을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-400">Other than the following items, the same settings are available when you modify an anti-phish policy in PowerShell as when you create the policy as described in the [Step 1: Use PowerShell to create an anti-phish policy](#step-1-use-powershell-to-create-an-anti-phish-policy) section earlier in this article.</span></span>
 
-- <span data-ttu-id="9308c-398">지정된 정책을 기본 정책으로 전환하는 _MakeDefault_ 스위치는 PowerShell에서 피싱 방지 정책을 수정할 때만 사용할 수 있습니다(모든 사용자, 항상 최하위 우선 순위 및 삭제할 수 없습니다). </span><span class="sxs-lookup"><span data-stu-id="9308c-398">The _MakeDefault_ switch that turns the specified policy into the default policy (applied to everyone, always **Lowest** priority, and you can't delete it) is only available when you modify an anti-phish policy in PowerShell.</span></span>
+- <span data-ttu-id="92393-401">지정된 정책을 기본 정책으로 전환하는 _MakeDefault_ 스위치는 PowerShell에서 피싱 방지 정책을 수정할 때만 사용할 수 있습니다(모든 사용자에 적용, 항상 최하위 우선 순위 및 삭제할 수 없습니다). </span><span class="sxs-lookup"><span data-stu-id="92393-401">The _MakeDefault_ switch that turns the specified policy into the default policy (applied to everyone, always **Lowest** priority, and you can't delete it) is only available when you modify an anti-phish policy in PowerShell.</span></span>
 
-- <span data-ttu-id="9308c-399">피싱 방지 정책의 이름을 다시 설정할 수 **없습니다(Set-AntiPhishPolicy** cmdlet에는 Name 매개 _변수가_ 없음).</span><span class="sxs-lookup"><span data-stu-id="9308c-399">You can't rename an anti-phish policy (the **Set-AntiPhishPolicy** cmdlet has no _Name_ parameter).</span></span> <span data-ttu-id="9308c-400">보안 및 준수 센터에서 피싱 방지 정책의 & 경우 피싱 방지 규칙의 이름만 다시 _매기게 됩니다._</span><span class="sxs-lookup"><span data-stu-id="9308c-400">When you rename an anti-phishing policy in the Security & Compliance Center, you're only renaming the anti-phish _rule_.</span></span>
+- <span data-ttu-id="92393-402">피싱 방지 정책의 이름을 다시 설정할 수 **없습니다(Set-AntiPhishPolicy** cmdlet에는 Name 매개 _변수가_ 없음).</span><span class="sxs-lookup"><span data-stu-id="92393-402">You can't rename an anti-phish policy (the **Set-AntiPhishPolicy** cmdlet has no _Name_ parameter).</span></span> <span data-ttu-id="92393-403">보안 및 준수 센터에서 피싱 방지 정책의 & 경우 피싱 방지 규칙의 이름만 다시 _매기게 됩니다._</span><span class="sxs-lookup"><span data-stu-id="92393-403">When you rename an anti-phishing policy in the Security & Compliance Center, you're only renaming the anti-phish _rule_.</span></span>
 
-<span data-ttu-id="9308c-401">피싱 방지 정책을 수정하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-401">To modify an anti-phish policy, use this syntax:</span></span>
+<span data-ttu-id="92393-404">피싱 방지 정책을 수정하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-404">To modify an anti-phish policy, use this syntax:</span></span>
 
 ```PowerShell
 Set-AntiPhishPolicy -Identity "<PolicyName>" <Settings>
 ```
 
-<span data-ttu-id="9308c-402">구문과 매개 변수에 대한 자세한 내용은 [Set-AntiPhishPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/Set-AntiPhishPolicy)</span><span class="sxs-lookup"><span data-stu-id="9308c-402">For detailed syntax and parameter information, see [Set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Set-AntiPhishPolicy).</span></span>
+<span data-ttu-id="92393-405">구문과 매개 변수에 대한 자세한 내용은 [Set-AntiPhishPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/Set-AntiPhishPolicy)</span><span class="sxs-lookup"><span data-stu-id="92393-405">For detailed syntax and parameter information, see [Set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Set-AntiPhishPolicy).</span></span>
 
-### <a name="use-powershell-to-modify-anti-phish-rules"></a><span data-ttu-id="9308c-403">PowerShell을 사용하여 피싱 방지 규칙 수정</span><span class="sxs-lookup"><span data-stu-id="9308c-403">Use PowerShell to modify anti-phish rules</span></span>
+### <a name="use-powershell-to-modify-anti-phish-rules"></a><span data-ttu-id="92393-406">PowerShell을 사용하여 피싱 방지 규칙 수정</span><span class="sxs-lookup"><span data-stu-id="92393-406">Use PowerShell to modify anti-phish rules</span></span>
 
-<span data-ttu-id="9308c-404">PowerShell에서 피싱 방지 규칙을 수정할 때 사용할 수 없는 설정은 _사용되지_ 않는 규칙을 만들 수 있는 Enabled 매개 변수뿐입니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-404">The only setting that isn't available when you modify an anti-phish rule in PowerShell is the _Enabled_ parameter that allows you to create a disabled rule.</span></span> <span data-ttu-id="9308c-405">기존 피싱 방지 규칙을 사용하도록 설정하거나 사용하지 않도록 설정하려면 다음 섹션을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9308c-405">To enable or disable existing anti-phish rules, see the next section.</span></span>
+<span data-ttu-id="92393-407">PowerShell에서 피싱 방지 규칙을 수정할 때 사용할 수 없는 설정은 사용할 수 없는 규칙을 만들 수 있는 _Enabled_ 매개 변수뿐입니다.</span><span class="sxs-lookup"><span data-stu-id="92393-407">The only setting that isn't available when you modify an anti-phish rule in PowerShell is the _Enabled_ parameter that allows you to create a disabled rule.</span></span> <span data-ttu-id="92393-408">기존 피싱 방지 규칙을 사용하도록 설정하거나 사용하지 않도록 설정하려면 다음 섹션을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="92393-408">To enable or disable existing anti-phish rules, see the next section.</span></span>
 
-<span data-ttu-id="9308c-406">그렇지 않으면 PowerShell에서 피싱 방지 규칙을 수정할 때 추가 설정을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-406">Otherwise, no additional settings are available when you modify an anti-phish rule in PowerShell.</span></span> <span data-ttu-id="9308c-407">[2단계: PowerShell을](#step-2-use-powershell-to-create-an-anti-phish-rule) 사용하여 이 문서의 앞부분에서 설명한 대로 피싱 방지 규칙 섹션을 만들 때도 동일한 설정을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-407">The same settings are available when you create a rule as described in the [Step 2: Use PowerShell to create an anti-phish rule](#step-2-use-powershell-to-create-an-anti-phish-rule) section earlier in this article.</span></span>
+<span data-ttu-id="92393-409">그렇지 않으면 PowerShell에서 피싱 방지 규칙을 수정할 때 추가 설정을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-409">Otherwise, no additional settings are available when you modify an anti-phish rule in PowerShell.</span></span> <span data-ttu-id="92393-410">[2단계: PowerShell을](#step-2-use-powershell-to-create-an-anti-phish-rule) 사용하여 이 문서의 앞부분에서 설명한 대로 피싱 방지 규칙 섹션을 만들 때도 동일한 설정을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-410">The same settings are available when you create a rule as described in the [Step 2: Use PowerShell to create an anti-phish rule](#step-2-use-powershell-to-create-an-anti-phish-rule) section earlier in this article.</span></span>
 
-<span data-ttu-id="9308c-408">피싱 방지 규칙을 수정하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-408">To modify an anti-phish rule, use this syntax:</span></span>
+<span data-ttu-id="92393-411">피싱 방지 규칙을 수정하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-411">To modify an anti-phish rule, use this syntax:</span></span>
 
 ```PowerShell
 Set-AntiPhishRule -Identity "<RuleName>" <Settings>
 ```
 
-<span data-ttu-id="9308c-409">구문과 매개 변수에 대한 자세한 내용은 [Set-AntiPhishRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/set-antiphishrule)</span><span class="sxs-lookup"><span data-stu-id="9308c-409">For detailed syntax and parameter information, see [Set-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/set-antiphishrule).</span></span>
+<span data-ttu-id="92393-412">구문과 매개 변수에 대한 자세한 내용은 [Set-AntiPhishRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/set-antiphishrule)</span><span class="sxs-lookup"><span data-stu-id="92393-412">For detailed syntax and parameter information, see [Set-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/set-antiphishrule).</span></span>
 
-### <a name="use-powershell-to-enable-or-disable-anti-phish-rules"></a><span data-ttu-id="9308c-410">PowerShell을 사용하여 피싱 방지 규칙을 사용하도록 설정하거나 사용하지 않도록 설정</span><span class="sxs-lookup"><span data-stu-id="9308c-410">Use PowerShell to enable or disable anti-phish rules</span></span>
+### <a name="use-powershell-to-enable-or-disable-anti-phish-rules"></a><span data-ttu-id="92393-413">PowerShell을 사용하여 피싱 방지 규칙을 활성화 또는 비활성화</span><span class="sxs-lookup"><span data-stu-id="92393-413">Use PowerShell to enable or disable anti-phish rules</span></span>
 
-<span data-ttu-id="9308c-411">PowerShell에서 피싱 방지 규칙을 설정하거나 사용하지 않도록 설정하면 전체 피싱 방지 정책(피싱 방지 규칙 및 할당된 피싱 방지 정책)을 활성화하거나 사용하지 않도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-411">Enabling or disabling an anti-phish rule in PowerShell enables or disables the whole anti-phishing policy (the anti-phish rule and the assigned anti-phish policy).</span></span> <span data-ttu-id="9308c-412">기본 피싱 방지 정책을 활성화하거나 사용하지 않도록 설정할 수 없습니다(항상 모든 받는 사람에게 적용).</span><span class="sxs-lookup"><span data-stu-id="9308c-412">You can't enable or disable the default anti-phishing policy (it's always applied to all recipients).</span></span>
+<span data-ttu-id="92393-414">PowerShell에서 피싱 방지 규칙을 설정하거나 사용하지 않도록 설정하면 전체 피싱 방지 정책(피싱 방지 규칙 및 할당된 피싱 방지 정책)을 활성화하거나 사용하지 않도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-414">Enabling or disabling an anti-phish rule in PowerShell enables or disables the whole anti-phishing policy (the anti-phish rule and the assigned anti-phish policy).</span></span> <span data-ttu-id="92393-415">기본 피싱 방지 정책을 활성화하거나 사용하지 않도록 설정할 수 없습니다(항상 모든 받는 사람에게 적용).</span><span class="sxs-lookup"><span data-stu-id="92393-415">You can't enable or disable the default anti-phishing policy (it's always applied to all recipients).</span></span>
 
-<span data-ttu-id="9308c-413">PowerShell에서 피싱 방지 규칙을 사용하도록 설정하거나 사용하지 않도록 설정하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-413">To enable or disable an anti-phish rule in PowerShell, use this syntax:</span></span>
+<span data-ttu-id="92393-416">PowerShell에서 피싱 방지 규칙을 사용하도록 설정하거나 사용하지 않도록 설정하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-416">To enable or disable an anti-phish rule in PowerShell, use this syntax:</span></span>
 
 ```PowerShell
 <Enable-AntiPhishRule | Disable-AntiPhishRule> -Identity "<RuleName>"
 ```
 
-<span data-ttu-id="9308c-414">이 예에서는 Marketing Department라는 피싱 방지 규칙을 사용하지 않도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-414">This example disables the anti-phish rule named Marketing Department.</span></span>
+<span data-ttu-id="92393-417">이 예에서는 Marketing Department라는 피싱 방지 규칙을 사용하지 않도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-417">This example disables the anti-phish rule named Marketing Department.</span></span>
 
 ```PowerShell
 Disable-AntiPhishRule -Identity "Marketing Department"
 ```
 
-<span data-ttu-id="9308c-415">다음은 동일한 규칙을 사용하도록 설정하는 예제입니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-415">This example enables same rule.</span></span>
+<span data-ttu-id="92393-418">다음은 동일한 규칙을 사용하도록 설정하는 예제입니다.</span><span class="sxs-lookup"><span data-stu-id="92393-418">This example enables same rule.</span></span>
 
 ```PowerShell
 Enable-AntiPhishRule -Identity "Marketing Department"
 ```
 
-<span data-ttu-id="9308c-416">구문과 매개 변수에 대한 자세한 내용은 [Enable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/enable-antiphishrule) 및 [Disable-AntiPhishRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/disable-antiphishrule)</span><span class="sxs-lookup"><span data-stu-id="9308c-416">For detailed syntax and parameter information, see [Enable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/enable-antiphishrule) and [Disable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/disable-antiphishrule).</span></span>
+<span data-ttu-id="92393-419">구문과 매개 변수에 대한 자세한 내용은 [Enable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/enable-antiphishrule) 및 [Disable-AntiPhishRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/disable-antiphishrule)</span><span class="sxs-lookup"><span data-stu-id="92393-419">For detailed syntax and parameter information, see [Enable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/enable-antiphishrule) and [Disable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/disable-antiphishrule).</span></span>
 
-### <a name="use-powershell-to-set-the-priority-of-anti-phish-rules"></a><span data-ttu-id="9308c-417">PowerShell을 사용하여 피싱 방지 규칙의 우선 순위 설정</span><span class="sxs-lookup"><span data-stu-id="9308c-417">Use PowerShell to set the priority of anti-phish rules</span></span>
+### <a name="use-powershell-to-set-the-priority-of-anti-phish-rules"></a><span data-ttu-id="92393-420">PowerShell을 사용하여 피싱 방지 규칙의 우선 순위 설정</span><span class="sxs-lookup"><span data-stu-id="92393-420">Use PowerShell to set the priority of anti-phish rules</span></span>
 
-<span data-ttu-id="9308c-418">규칙에 설정 가능한 가장 높은 우선 순위 값은 0입니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-418">The highest priority value you can set on a rule is 0.</span></span> <span data-ttu-id="9308c-419">설정할 수 있는 가장 낮은 값은 규칙 수에 따라 달라집니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-419">The lowest value you can set depends on the number of rules.</span></span> <span data-ttu-id="9308c-420">예를 들어 규칙이 5개 있는 경우, 우선순위 값 0~4를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-420">For example, if you have five rules, you can use the priority values 0 through 4.</span></span> <span data-ttu-id="9308c-421">기존 규칙의 우선순위를 변경하면 다른 규칙에 계단식 효과를 줄 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-421">Changing the priority of an existing rule can have a cascading effect on other rules.</span></span> <span data-ttu-id="9308c-422">예를 들어 사용자 지정 규칙 5개(우선순위: 0~4)가 있고 규칙의 우선순위를 2로 변경하면, 우선순위 2인 기존 규칙이 우선순위 3으로 변경되고, 우선순위 3인 규칙이 우선순위 4로 변경됩니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-422">For example, if you have five custom rules (priorities 0 through 4), and you change the priority of a rule to 2, the existing rule with priority 2 is changed to priority 3, and the rule with priority 3 is changed to priority 4.</span></span>
+<span data-ttu-id="92393-421">규칙에 설정 가능한 가장 높은 우선 순위 값은 0입니다.</span><span class="sxs-lookup"><span data-stu-id="92393-421">The highest priority value you can set on a rule is 0.</span></span> <span data-ttu-id="92393-422">설정할 수 있는 가장 낮은 값은 규칙 수에 따라 달라집니다.</span><span class="sxs-lookup"><span data-stu-id="92393-422">The lowest value you can set depends on the number of rules.</span></span> <span data-ttu-id="92393-423">예를 들어 규칙이 5개 있는 경우, 우선순위 값 0~4를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-423">For example, if you have five rules, you can use the priority values 0 through 4.</span></span> <span data-ttu-id="92393-424">기존 규칙의 우선순위를 변경하면 다른 규칙에 계단식 효과를 줄 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-424">Changing the priority of an existing rule can have a cascading effect on other rules.</span></span> <span data-ttu-id="92393-425">예를 들어 사용자 지정 규칙 5개(우선순위: 0~4)가 있고 규칙의 우선순위를 2로 변경하면, 우선순위 2인 기존 규칙이 우선순위 3으로 변경되고, 우선순위 3인 규칙이 우선순위 4로 변경됩니다.</span><span class="sxs-lookup"><span data-stu-id="92393-425">For example, if you have five custom rules (priorities 0 through 4), and you change the priority of a rule to 2, the existing rule with priority 2 is changed to priority 3, and the rule with priority 3 is changed to priority 4.</span></span>
 
-<span data-ttu-id="9308c-423">PowerShell에서 피싱 방지 규칙의 우선 순위를 설정하기 위해 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-423">To set the priority of an anti-phish rule in PowerShell, use the following syntax:</span></span>
+<span data-ttu-id="92393-426">PowerShell에서 피싱 방지 규칙의 우선 순위를 설정하기 위해 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-426">To set the priority of an anti-phish rule in PowerShell, use the following syntax:</span></span>
 
 ```PowerShell
 Set-AntiPhishRule -Identity "<RuleName>" -Priority <Number>
 ```
 
-<span data-ttu-id="9308c-424">다음은 Marketing Department라는 규칙의 우선순위를 2로 설정하는 예제입니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-424">This example sets the priority of the rule named Marketing Department to 2.</span></span> <span data-ttu-id="9308c-425">우선순위가 2 이하인 모든 기존 규칙은 1씩 감소합니다(우선순위 번호는 1씩 증가함).</span><span class="sxs-lookup"><span data-stu-id="9308c-425">All existing rules that have a priority less than or equal to 2 are decreased by 1 (their priority numbers are increased by 1).</span></span>
+<span data-ttu-id="92393-427">다음은 Marketing Department라는 규칙의 우선순위를 2로 설정하는 예제입니다.</span><span class="sxs-lookup"><span data-stu-id="92393-427">This example sets the priority of the rule named Marketing Department to 2.</span></span> <span data-ttu-id="92393-428">우선순위가 2 이하인 모든 기존 규칙은 1씩 감소합니다(우선순위 번호는 1씩 증가함).</span><span class="sxs-lookup"><span data-stu-id="92393-428">All existing rules that have a priority less than or equal to 2 are decreased by 1 (their priority numbers are increased by 1).</span></span>
 
 ```PowerShell
 Set-AntiPhishRule -Identity "Marketing Department" -Priority 2
 ```
 
-<span data-ttu-id="9308c-426">**참고:**</span><span class="sxs-lookup"><span data-stu-id="9308c-426">**Notes**:</span></span>
+<span data-ttu-id="92393-429">**참고:**</span><span class="sxs-lookup"><span data-stu-id="92393-429">**Notes**:</span></span>
 
-- <span data-ttu-id="9308c-427">새 규칙을 만들 때 새 규칙의 우선 순위를 설정하기 위해 **New-AntiPhishRule** cmdlet에서 _Priority_ 매개 변수를 대신 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-427">To set the priority of a new rule when you create it, use the _Priority_ parameter on the **New-AntiPhishRule** cmdlet instead.</span></span>
+- <span data-ttu-id="92393-430">새 규칙을 만들 때 새 규칙의 우선 순위를 설정하기 위해 **New-AntiPhishRule** cmdlet에서 _Priority_ 매개 변수를 대신 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-430">To set the priority of a new rule when you create it, use the _Priority_ parameter on the **New-AntiPhishRule** cmdlet instead.</span></span>
 
-- <span data-ttu-id="9308c-428">기본 피싱 방지 정책에는 해당하는 피싱 방지 규칙이 없습니다. 항상 이 정책의 우선 순위는 **가장 낮습니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-428">The default anti-phish policy doesn't have a corresponding anti-phish rule, and it always has the unmodifiable priority value **Lowest**.</span></span>
+- <span data-ttu-id="92393-431">기본 피싱 방지 정책에는 해당하는 피싱 방지 규칙이 없습니다. 항상 가장 낮은 우선 순위 값이 **가장 낮습니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-431">The default anti-phish policy doesn't have a corresponding anti-phish rule, and it always has the unmodifiable priority value **Lowest**.</span></span>
 
-### <a name="use-powershell-to-remove-anti-phish-policies"></a><span data-ttu-id="9308c-429">PowerShell을 사용하여 피싱 방지 정책 제거</span><span class="sxs-lookup"><span data-stu-id="9308c-429">Use PowerShell to remove anti-phish policies</span></span>
+### <a name="use-powershell-to-remove-anti-phish-policies"></a><span data-ttu-id="92393-432">PowerShell을 사용하여 피싱 방지 정책 제거</span><span class="sxs-lookup"><span data-stu-id="92393-432">Use PowerShell to remove anti-phish policies</span></span>
 
-<span data-ttu-id="9308c-430">PowerShell을 사용하여 피싱 방지 정책을 제거하면 해당 피싱 방지 규칙이 제거되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-430">When you use PowerShell to remove an anti-phish policy, the corresponding anti-phish rule isn't removed.</span></span>
+<span data-ttu-id="92393-433">PowerShell을 사용하여 피싱 방지 정책을 제거하면 해당 피싱 방지 규칙이 제거되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-433">When you use PowerShell to remove an anti-phish policy, the corresponding anti-phish rule isn't removed.</span></span>
 
-<span data-ttu-id="9308c-431">PowerShell에서 피싱 방지 정책을 제거하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-431">To remove an anti-phish policy in PowerShell, use this syntax:</span></span>
+<span data-ttu-id="92393-434">PowerShell에서 피싱 방지 정책을 제거하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-434">To remove an anti-phish policy in PowerShell, use this syntax:</span></span>
 
 ```PowerShell
 Remove-AntiPhishPolicy -Identity "<PolicyName>"
 ```
 
-<span data-ttu-id="9308c-432">이 예에서는 Marketing Department라는 피싱 방지 정책을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-432">This example removes the anti-phish policy named Marketing Department.</span></span>
+<span data-ttu-id="92393-435">이 예에서는 Marketing Department라는 피싱 방지 정책을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-435">This example removes the anti-phish policy named Marketing Department.</span></span>
 
 ```PowerShell
 Remove-AntiPhishPolicy -Identity "Marketing Department"
 ```
 
-<span data-ttu-id="9308c-433">구문과 매개 변수에 대한 자세한 내용은 [Remove-AntiPhishPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishPolicy)</span><span class="sxs-lookup"><span data-stu-id="9308c-433">For detailed syntax and parameter information, see [Remove-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishPolicy).</span></span>
+<span data-ttu-id="92393-436">구문과 매개 변수에 대한 자세한 내용은 [Remove-AntiPhishPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishPolicy)</span><span class="sxs-lookup"><span data-stu-id="92393-436">For detailed syntax and parameter information, see [Remove-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishPolicy).</span></span>
 
-### <a name="use-powershell-to-remove-anti-phish-rules"></a><span data-ttu-id="9308c-434">PowerShell을 사용하여 피싱 방지 규칙 제거</span><span class="sxs-lookup"><span data-stu-id="9308c-434">Use PowerShell to remove anti-phish rules</span></span>
+### <a name="use-powershell-to-remove-anti-phish-rules"></a><span data-ttu-id="92393-437">PowerShell을 사용하여 피싱 방지 규칙 제거</span><span class="sxs-lookup"><span data-stu-id="92393-437">Use PowerShell to remove anti-phish rules</span></span>
 
-<span data-ttu-id="9308c-435">PowerShell을 사용하여 피싱 방지 규칙을 제거하면 해당 피싱 방지 정책이 제거되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-435">When you use PowerShell to remove an anti-phish rule, the corresponding anti-phish policy isn't removed.</span></span>
+<span data-ttu-id="92393-438">PowerShell을 사용하여 피싱 방지 규칙을 제거하면 해당 피싱 방지 정책이 제거되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-438">When you use PowerShell to remove an anti-phish rule, the corresponding anti-phish policy isn't removed.</span></span>
 
-<span data-ttu-id="9308c-436">PowerShell에서 피싱 방지 규칙을 제거하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-436">To remove an anti-phish rule in PowerShell, use this syntax:</span></span>
+<span data-ttu-id="92393-439">PowerShell에서 피싱 방지 규칙을 제거하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-439">To remove an anti-phish rule in PowerShell, use this syntax:</span></span>
 
 ```PowerShell
 Remove-AntiPhishRule -Identity "<PolicyName>"
 ```
 
-<span data-ttu-id="9308c-437">이 예에서는 Marketing Department라는 피싱 방지 규칙을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-437">This example removes the anti-phish rule named Marketing Department.</span></span>
+<span data-ttu-id="92393-440">이 예에서는 Marketing Department라는 피싱 방지 규칙을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-440">This example removes the anti-phish rule named Marketing Department.</span></span>
 
 ```PowerShell
 Remove-AntiPhishRule -Identity "Marketing Department"
 ```
 
-<span data-ttu-id="9308c-438">구문과 매개 변수에 대한 자세한 내용은 [Remove-AntiPhishRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishRule)</span><span class="sxs-lookup"><span data-stu-id="9308c-438">For detailed syntax and parameter information, see [Remove-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishRule).</span></span>
+<span data-ttu-id="92393-441">구문과 매개 변수에 대한 자세한 내용은 [Remove-AntiPhishRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishRule)</span><span class="sxs-lookup"><span data-stu-id="92393-441">For detailed syntax and parameter information, see [Remove-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishRule).</span></span>
 
-## <a name="how-do-you-know-these-procedures-worked"></a><span data-ttu-id="9308c-439">이 절차가 제대로 수행되었는지 어떻게 확인하나요?</span><span class="sxs-lookup"><span data-stu-id="9308c-439">How do you know these procedures worked?</span></span>
+## <a name="how-do-you-know-these-procedures-worked"></a><span data-ttu-id="92393-442">이 절차가 제대로 수행되었는지 어떻게 확인하나요?</span><span class="sxs-lookup"><span data-stu-id="92393-442">How do you know these procedures worked?</span></span>
 
-<span data-ttu-id="9308c-440">Office 365용 Microsoft Defender에서 피싱 방지 정책을 성공적으로 구성한지 확인하기 위해 다음 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-440">To verify that you've successfully configured anti-phishing policies in Microsoft Defender for Office 365, do any of the following steps:</span></span>
+<span data-ttu-id="92393-443">Office 365용 Microsoft Defender에서 피싱 방지 정책을 성공적으로 구성한지 확인하기 위해 다음 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-443">To verify that you've successfully configured anti-phishing policies in Microsoft Defender for Office 365, do any of the following steps:</span></span>
 
-- <span data-ttu-id="9308c-441">보안 & 준수 센터에서 위협 관리  정책 ATP 피싱 \>  \> **방지로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-441">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span> <span data-ttu-id="9308c-442">정책 목록, **정책** 상태 값 및 우선 순위 값을 **검증합니다.**</span><span class="sxs-lookup"><span data-stu-id="9308c-442">Verify the list of policies, their **Status** values, and their **Priority** values.</span></span> <span data-ttu-id="9308c-443">자세한 내용을 확인하기 위해 다음 단계 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-443">To view more details do either of the following steps:</span></span>
+- <span data-ttu-id="92393-444">보안 & 준수 센터에서 위협 관리  \>  \> **정책 ATP 피싱 방지로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="92393-444">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **ATP anti-phishing**.</span></span> <span data-ttu-id="92393-445">정책 목록, 정책  상태 값 및 **우선** 순위 값을 검증합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-445">Verify the list of policies, their **Status** values, and their **Priority** values.</span></span> <span data-ttu-id="92393-446">자세한 내용을 확인하면 다음 단계 중 하나를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-446">To view more details do either of the following steps:</span></span>
 
-  - <span data-ttu-id="9308c-444">목록에서 정책을 선택하고 플라이아웃에서 세부 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-444">Select the policy from the list, and view the details in the flyout.</span></span>
-  - <span data-ttu-id="9308c-445">기본 **정책을 클릭하고** 플라이아웃에서 세부 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-445">Click **Default policy** and view the details in the flyout.</span></span>
+  - <span data-ttu-id="92393-447">목록에서 정책을 선택하고 플라이아웃에서 세부 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-447">Select the policy from the list, and view the details in the flyout.</span></span>
+  - <span data-ttu-id="92393-448">기본 **정책을 클릭하고** 플라이아웃에서 세부 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="92393-448">Click **Default policy** and view the details in the flyout.</span></span>
 
-- <span data-ttu-id="9308c-446">Exchange Online PowerShell에서 정책 또는 규칙의 이름으로 바꾸고 다음 명령을 실행하고 설정을 \<Name\> 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="9308c-446">In Exchange Online PowerShell, replace \<Name\> with the name of the policy or rule, and run the following command and verify the settings:</span></span>
+- <span data-ttu-id="92393-449">Exchange Online PowerShell에서 정책 또는 규칙의 이름으로 바꾸고 다음 명령을 실행하고 설정을 \<Name\> 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="92393-449">In Exchange Online PowerShell, replace \<Name\> with the name of the policy or rule, and run the following command and verify the settings:</span></span>
 
   ```PowerShell
   Get-AntiPhishPolicy -Identity "<Name>"

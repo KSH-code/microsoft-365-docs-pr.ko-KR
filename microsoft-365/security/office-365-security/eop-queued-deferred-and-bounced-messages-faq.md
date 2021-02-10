@@ -8,38 +8,43 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: troubleshooting
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9d015a0d-52a0-484d-9a08-121d04f973d3
 ms.custom:
 - seo-marvel-apr2020
-description: EOP (Exchange Online Protection) 필터링 프로세스 중에 대기, 지연 또는 반송 된 메시지에 대 한 일반적인 질문에 대 한 대답을 확인할 수 있습니다.
-ms.openlocfilehash: 4ae38e871c0d6e4321bd7586c5cfd0bea3aeef81
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: EOP(Exchange Online Protection) 필터링 프로세스 중에 대기, 지연 또는 반송된 메시지에 대한 가장 일반적인 질문에 대한 답변을 찾아 묻습니다.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 854e954e3ebb995ba23db2afc6f2ca9ab19de508
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202942"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165430"
 ---
-# <a name="eop-queued-deferred-and-bounced-messages-faq"></a><span data-ttu-id="74a6e-103">EOP 대기, 지연 및 반송 메시지 FAQ</span><span class="sxs-lookup"><span data-stu-id="74a6e-103">EOP queued, deferred, and bounced messages FAQ</span></span>
+# <a name="eop-queued-deferred-and-bounced-messages-faq"></a><span data-ttu-id="81f50-103">EOP 대기, 지연 및 반송 메시지 FAQ</span><span class="sxs-lookup"><span data-stu-id="81f50-103">EOP queued, deferred, and bounced messages FAQ</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+<span data-ttu-id="81f50-104">**적용 대상**</span><span class="sxs-lookup"><span data-stu-id="81f50-104">**Applies to**</span></span>
+- [<span data-ttu-id="81f50-105">Exchange Online Protection</span><span class="sxs-lookup"><span data-stu-id="81f50-105">Exchange Online Protection</span></span>](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [<span data-ttu-id="81f50-106">Microsoft Defender for Office 365 요금제 1 및 계획 2</span><span class="sxs-lookup"><span data-stu-id="81f50-106">Microsoft Defender for Office 365 plan 1 and plan 2</span></span>](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [<span data-ttu-id="81f50-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="81f50-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-<span data-ttu-id="74a6e-104">이 항목에서는 EOP (Exchange Online Protection) 필터링 프로세스 중에 대기, 지연 또는 반송 된 메시지에 대 한 질문과 대답을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="74a6e-104">This topic provides answers to frequently asked questions about messages that have been queued, deferred, or bounced during the Exchange Online Protection (EOP) filtering process.</span></span>
+<span data-ttu-id="81f50-108">이 항목에서는 EOP(Exchange Online Protection) 필터링 프로세스 중에 대기, 지연 또는 반송된 메시지에 대한 질문과 대답을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="81f50-108">This topic provides answers to frequently asked questions about messages that have been queued, deferred, or bounced during the Exchange Online Protection (EOP) filtering process.</span></span>
 
-## <a name="why-is-mail-queuing"></a><span data-ttu-id="74a6e-105">메일이 큐에서 대기하는 이유는 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="74a6e-105">Why is mail queuing?</span></span>
+## <a name="why-is-mail-queuing"></a><span data-ttu-id="81f50-109">메일이 큐에서 대기하는 이유는 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="81f50-109">Why is mail queuing?</span></span>
 
-<span data-ttu-id="74a6e-106">서비스에서 배달을 위해 받는 사람에 연결할 수 없는 경우 메시지가 큐에 대기하거나 지연됩니다.</span><span class="sxs-lookup"><span data-stu-id="74a6e-106">Messages are queued or deferred if the service is unable to make a connection to the recipient server for delivery.</span></span> <span data-ttu-id="74a6e-107">받는 사람 네트워크에서 500 계열 오류가 반환되는 경우에는 메시지가 지연되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="74a6e-107">It will not defer messages if a 500-series error is returned from the recipient network.</span></span>
+<span data-ttu-id="81f50-110">서비스에서 배달을 위해 받는 사람에 연결할 수 없는 경우 메시지가 큐에 대기하거나 지연됩니다.</span><span class="sxs-lookup"><span data-stu-id="81f50-110">Messages are queued or deferred if the service is unable to make a connection to the recipient server for delivery.</span></span> <span data-ttu-id="81f50-111">받는 사람 네트워크에서 500 계열 오류가 반환되는 경우에는 메시지가 지연되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="81f50-111">It will not defer messages if a 500-series error is returned from the recipient network.</span></span>
 
-## <a name="how-does-a-message-become-deferred"></a><span data-ttu-id="74a6e-108">메시지는 어떤 방식으로 지연되나요?</span><span class="sxs-lookup"><span data-stu-id="74a6e-108">How does a message become deferred?</span></span>
+## <a name="how-does-a-message-become-deferred"></a><span data-ttu-id="81f50-112">메시지는 어떤 방식으로 지연되나요?</span><span class="sxs-lookup"><span data-stu-id="81f50-112">How does a message become deferred?</span></span>
 
-<span data-ttu-id="74a6e-109">받는 사람 서버에 연결할 수 없고 받는 사람의 서버에서 연결 시간 초과, 연결 거부 또는 400 계열 오류와 같은 "일시적인 오류"를 반환하는 경우 메시지가 보류됩니다.</span><span class="sxs-lookup"><span data-stu-id="74a6e-109">Messages will be held when a connection to the recipient server cannot be made and the recipient's server is returning a "temporary failure" such as a connection time-out, connection refused, or a 400-series error.</span></span> <span data-ttu-id="74a6e-110">500 계열 오류와 같은 영구 오류가 발생한 경우에는 메시지가 보낸 사람에게 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="74a6e-110">If there is a permanent failure, such as a 500-series error, then the message will be returned to the sender.</span></span>
+<span data-ttu-id="81f50-113">받는 사람 서버에 연결할 수 없고 받는 사람의 서버에서 연결 시간 초과, 연결 거부 또는 400 계열 오류와 같은 "일시적인 오류"를 반환하는 경우 메시지가 보류됩니다.</span><span class="sxs-lookup"><span data-stu-id="81f50-113">Messages will be held when a connection to the recipient server cannot be made and the recipient's server is returning a "temporary failure" such as a connection time-out, connection refused, or a 400-series error.</span></span> <span data-ttu-id="81f50-114">500 계열 오류와 같은 영구 오류가 발생한 경우에는 메시지가 보낸 사람에게 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="81f50-114">If there is a permanent failure, such as a 500-series error, then the message will be returned to the sender.</span></span>
 
-## <a name="how-long-does-a-message-remain-in-deferral-and-what-is-the-retry-interval"></a><span data-ttu-id="74a6e-111">메시지가 지연 상태로 유지되는 기간 및 다시 시도 간격은 어떻게 되나요?</span><span class="sxs-lookup"><span data-stu-id="74a6e-111">How long does a message remain in deferral and what is the retry interval?</span></span>
+## <a name="how-long-does-a-message-remain-in-deferral-and-what-is-the-retry-interval"></a><span data-ttu-id="81f50-115">메시지가 지연 상태로 유지되는 기간 및 다시 시도 간격은 어떻게 되나요?</span><span class="sxs-lookup"><span data-stu-id="81f50-115">How long does a message remain in deferral and what is the retry interval?</span></span>
 
-<span data-ttu-id="74a6e-112">지연 상태의 메시지는 큐의 1 일 동안 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="74a6e-112">Messages in deferral will remain in our queues for 1 day.</span></span> <span data-ttu-id="74a6e-113">메시지 다시 시도는 받는 사람의 메일 시스템에서 다시 수신된 오류를 기반으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="74a6e-113">Message retry attempts are based on the error we get back from the recipient's mail system.</span></span> <span data-ttu-id="74a6e-114">처음 몇 개의 deferrals은 15 분 이내 이며 이후 다시 시도 (앞으로 1 ~ 6 일 이상 경과 함)가 경과 하는 간격을 최대 60 분까지 증가 시킵니다.</span><span class="sxs-lookup"><span data-stu-id="74a6e-114">The first few deferrals are 15 minutes or less, with subsequent retries (over the next half dozen or so) increasing the interval over multiple retries to a max of 60 minutes.</span></span> <span data-ttu-id="74a6e-115">간격 기간 확장은 동적으로 큐 크기 및 내부 메시지 우선 순위와 같은 여러 가지 변수를 고려 하 여 수행 됩니다.</span><span class="sxs-lookup"><span data-stu-id="74a6e-115">The interval duration expansion is dynamic, taking into consideration multiple variables like queue sizes and internal message priority.</span></span> <span data-ttu-id="74a6e-116">기본적으로 시작 하는 데 15 분 (이 하)이 소요 되며, 다음 몇 시간 동안 간격으로 확장 하 여 최대 60 분까지 진행 합니다.</span><span class="sxs-lookup"><span data-stu-id="74a6e-116">In basic, it's 15 minutes (or less) to start, then expanding from there over the next few hours to 60 mins max.</span></span>
+<span data-ttu-id="81f50-116">지연 메시지는 1일 동안 큐에 남아 있습니다.</span><span class="sxs-lookup"><span data-stu-id="81f50-116">Messages in deferral will remain in our queues for 1 day.</span></span> <span data-ttu-id="81f50-117">메시지 다시 시도는 받는 사람의 메일 시스템에서 다시 수신된 오류를 기반으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="81f50-117">Message retry attempts are based on the error we get back from the recipient's mail system.</span></span> <span data-ttu-id="81f50-118">처음 몇 개의 지연은 15분 이하로, 후속 다시시작(후반반 12분 이상)을 통해 여러 재시도 간격을 최대 60분까지 늘립니다.</span><span class="sxs-lookup"><span data-stu-id="81f50-118">The first few deferrals are 15 minutes or less, with subsequent retries (over the next half dozen or so) increasing the interval over multiple retries to a max of 60 minutes.</span></span> <span data-ttu-id="81f50-119">간격 기간 확장은 큐 크기 및 내부 메시지 우선 순위와 같은 여러 변수를 고려하여 동적입니다.</span><span class="sxs-lookup"><span data-stu-id="81f50-119">The interval duration expansion is dynamic, taking into consideration multiple variables like queue sizes and internal message priority.</span></span> <span data-ttu-id="81f50-120">기본적으로 시작한 후 다음 몇 시간 동안 최대 60분까지 확장하는 것이 15분 이하입니다.</span><span class="sxs-lookup"><span data-stu-id="81f50-120">In basic, it's 15 minutes (or less) to start, then expanding from there over the next few hours to 60 mins max.</span></span>
 
-## <a name="after-your-email-server-is-restored-how-are-queued-messages-distributed"></a><span data-ttu-id="74a6e-117">전자 메일 서버가 복원된 경우 큐에 있는 메시지는 어떻게 배포되나요?</span><span class="sxs-lookup"><span data-stu-id="74a6e-117">After your email server is restored, how are queued messages distributed?</span></span>
+## <a name="after-your-email-server-is-restored-how-are-queued-messages-distributed"></a><span data-ttu-id="81f50-121">전자 메일 서버가 복원된 경우 큐에 있는 메시지는 어떻게 배포되나요?</span><span class="sxs-lookup"><span data-stu-id="81f50-121">After your email server is restored, how are queued messages distributed?</span></span>
 
-<span data-ttu-id="74a6e-118">전자 메일 서버가 복원된 후 큐에 있는 모든 메시지는 받은 순서 및 서버를 사용할 수 없어 큐에 추가된 순서대로 자동으로 처리됩니다.</span><span class="sxs-lookup"><span data-stu-id="74a6e-118">After your email server is restored, all queued messages are automatically processed in the order in which they were received and queued when the server became unavailable.</span></span>
+<span data-ttu-id="81f50-122">전자 메일 서버가 복원된 후 큐에 있는 모든 메시지는 받은 순서 및 서버를 사용할 수 없어 큐에 추가된 순서대로 자동으로 처리됩니다.</span><span class="sxs-lookup"><span data-stu-id="81f50-122">After your email server is restored, all queued messages are automatically processed in the order in which they were received and queued when the server became unavailable.</span></span>
