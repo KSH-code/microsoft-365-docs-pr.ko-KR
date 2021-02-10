@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 02/09/2021
 audience: ITPro
 ms.topic: overview
 ms.prod: microsoft-365-enterprise
@@ -16,13 +16,13 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - Ent_Architecture
-description: 테스트 랩 가이드를 사용 하 여 개발/테스트 환경에서 Microsoft 365 솔루션 및 시나리오를 구축 합니다.
-ms.openlocfilehash: 7254596da5b2b8b32a01468d3ff1f34d4efd8db8
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+description: 테스트 랩 가이드를 사용하여 개발/테스트 환경에서 Microsoft 365 솔루션 및 시나리오를 구축합니다.
+ms.openlocfilehash: 10ddfc9cb9f9135b352be50c555811342ae0bd2b
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521304"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166186"
 ---
 # <a name="test-lab-guides-for-solutions-and-scenarios"></a>솔루션 및 시나리오에 대한 테스트 랩 가이드
 
@@ -34,5 +34,6 @@ TLS는 모듈 방식으로 설계되었습니다. 따라서 각 모듈을 조합
   
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-[이 테스트 랩 가이드](team-security-isolation-dev-test.md) 에서 보안 격리를 사용 하 여 팀을 설정 해 보세요.
+이 [테스트 랩 가이드를 사용해](team-security-isolation-dev-test.md) 보안이 설정된 팀을 설정해 보세요.
 
+Microsoft 365 기능 및 구성에 대한 추가 가이드는 [엔터프라이즈용 Microsoft 365 테스트 랩 가이드를 참조하세요.](../enterprise/m365-enterprise-test-lab-guides.md)

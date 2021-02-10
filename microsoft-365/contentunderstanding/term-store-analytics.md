@@ -12,16 +12,18 @@ ms.collection:
 - enabler-strategic
 - m365initiative-topics
 localization_priority: Priority
-ms.openlocfilehash: ad777fde5179b8425fad3ead4d4733a9a455e657
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 5ac0513b100c120366138b1f2a7b4a35f4435cfb
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976342"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145094"
 ---
 # <a name="term-store-reports"></a>용어 저장소 보고서
 
-SharePoint 관리 센터에서 용어 저장소 보고서에 액세스 할 수 있습니다. **보고서** 를 확장하고 **콘텐츠 서비스** 를 클릭하세요.
+SharePoint 관리 센터에서 용어 저장소 보고서에 액세스 할 수 있습니다. 이 기능을 사용하려면 [SharePoint Syntex](index.md) 라이선스가 필요합니다.
+
+**보고서** 를 확장하고 **콘텐츠 서비스** 를 클릭하세요.
 
 사용 가능한 보고서는 다음과 같습니다.
 

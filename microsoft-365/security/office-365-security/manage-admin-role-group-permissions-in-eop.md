@@ -8,21 +8,24 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: 관리자는 Exchange Online Protection의 EAC(Exchange 관리 센터)에서 사용 권한을 할당하거나 제거하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 4a1353963e5e3eadc1a07f8b4aa3a765b06c86ec
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: b53023521f477b5e864424ec648ccf7e5b749d0c
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659300"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166990"
 ---
 # <a name="manage-role-groups-in-standalone-eop"></a>독립 실행형 EOP에서 역할 그룹 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+-  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
 
 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 EAC(Exchange 관리 센터)를 사용하여 역할 그룹에 사용자를 추가할 수 있습니다. 역할 그룹에 사용자를 추가하면 사용자에게 특정 관리 작업을 수행할 수 있는 권한이 부여됩니다. 역할 그룹에서 사용자를 제거할 수 있습니다.
 
@@ -34,7 +37,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protect
 
 - 독립 실행형 EOP PowerShell을 열기 위해 [Exchange Online Protection PowerShell에 연결합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)
 
-- 이 문서의 절차를 수행하려면 먼저 Exchange Online Protection에서 사용 권한을 할당해야 합니다. 특히 조직 관리 역할 그룹에 기본적으로 할당되는  **역할** 관리 역할이 필요합니다. 자세한 내용은 독립 실행형 [EOP의](feature-permissions-in-eop.md) 사용 권한을 참조하고 EAC를 사용하여 역할 그룹의 구성원 목록을 [수정합니다.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
+- 이 문서의 절차를 수행하려면 먼저 Exchange Online Protection에서 사용 권한을 할당해야 합니다. 특히 조직 관리  역할 그룹에 기본적으로 할당되는  역할 관리 역할이 필요합니다. 자세한 내용은 독립 실행형 [EOP의](feature-permissions-in-eop.md) 사용 권한을 참조하고 EAC를 사용하여 역할 그룹의 구성원 목록을 [수정합니다.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
 - 이 문서의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 [Exchange Online의 Exchange](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)관리 센터에 대한 바로 가기 키를 참조하십시오.
 
@@ -57,15 +60,15 @@ Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protect
 
    - **새 역할 그룹을 수동으로** 만들기 : **추가** ![ 아이콘을 ](../../media/ITPro-EAC-AddIcon.png) 클릭합니다.
 
-   - **기존 역할 그룹** 복사 : 복사할 역할 그룹을 선택한  다음 복사 ![ 아이콘을 ](../../media/ITPro-EAC-CopyIcon.png) 클릭합니다.
+   - **기존 역할 그룹** 복사 : 복사할 역할 그룹을 선택한  다음 복사 아이콘을 ![ ](../../media/ITPro-EAC-CopyIcon.png) 클릭합니다.
 
 2. 새 역할 **그룹** 창이 나타나면 다음 설정을 구성합니다.
 
-    - **이름:** 역할 그룹의 고유 이름을 입력합니다.
+    - **이름**: 역할 그룹의 고유 이름을 입력합니다.
 
-    - **설명:** 역할 그룹에 대한 설명(선택 사항)을 입력합니다.
+    - **설명:** 역할 그룹에 대한 선택적 설명을 입력합니다.
 
-    - **역할**: **추가 아이콘** 또는 제거 아이콘을 클릭하여 역할 그룹에 할당된 역할을 선택하거나 ![ ](../../media/ITPro-EAC-AddIcon.png)  ![ ](../../media/ITPro-EAC-RemoveIcon.gif) 수정합니다.
+    - **역할:** **추가 아이콘** 또는 제거 아이콘을 클릭하여 역할 그룹에 할당된 역할을 선택하거나 ![ ](../../media/ITPro-EAC-AddIcon.png)  ![ ](../../media/ITPro-EAC-RemoveIcon.gif) 수정합니다.
 
     - **구성원:** **추가 아이콘 또는** 제거 아이콘을 클릭하여 역할 그룹 ![ ](../../media/ITPro-EAC-AddIcon.png)  ![ ](../../media/ITPro-EAC-RemoveIcon.gif) 구성원을 수정합니다.
 
@@ -91,7 +94,7 @@ EAC에서 **사용** 권한 관리 역할로 이동하여 수정할 역할 그�
 
 2. 열 수 있는 역할 그룹 속성 페이지의 **Members** 섹션에서 다음 단계 중 하나를 수행합니다.
 
-   - 아이콘 **추가를** ![ ](../../media/ITPro-EAC-AddIcon.png) 클릭합니다. 페이지가 나타나면 wou에서 추가할 사용자를 찾은 다음 **->.** 사용자를 선택하고 필요한 >**->** 추가를 클릭합니다. 작업을 마친 후 **확인** 을 클릭합니다.
+   - 아이콘 **추가를** ![ ](../../media/ITPro-EAC-AddIcon.png) 클릭합니다. 나타나는 페이지에서 wou를 추가할 사용자를 찾은 다음 **->.** 사용자를 선택하고 필요한 >**->** 추가를 클릭합니다. 작업을 마친 후 **확인** 을 클릭합니다.
 
    - 제거할 사용자를 선택하고 **제거** ![ 아이콘을 ](../../media/ITPro-EAC-RemoveIcon.gif) 클릭합니다.
 

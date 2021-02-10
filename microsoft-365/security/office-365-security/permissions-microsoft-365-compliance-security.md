@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
@@ -17,17 +16,23 @@ search.appverid:
 - MET150
 description: Microsoft 365 보안 센터나 Microsoft 365 규정 준수 센터를 사용하여 보안 또는 규정 준수와 관련된 모든 작업에 대한 권한을 중앙에서 관리할 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 266d8184db5ebc79609c0a5f27c7511087ea42d0
-ms.sourcegitcommit: 21b0ea5715e20b4ab13719eb18c97fadb49b563d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 2be0b1ced6a10d37b400a454987b908e21afbaa0
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49624725"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150703"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 권한
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 조직에서는 모든 Microsoft 365 서비스에 적용되는 보안 및 규정 준수 시나리오를 관리해야 합니다. 조직의 IT 그룹에 속한 적절한 사용자에게 올바른 관리자 권한을 유연하게 부여할 수 있어야 합니다. Microsoft 365 보안 센터나 Microsoft 365 규정 준수 센터를 사용하여 보안 또는 규정 준수와 관련된 모든 작업에 대한 권한을 중앙에서 관리할 수 있습니다.
 

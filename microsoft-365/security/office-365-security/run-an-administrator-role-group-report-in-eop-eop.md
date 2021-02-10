@@ -8,23 +8,26 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
 ms.custom:
 - seo-marvel-apr2020
 description: 관리자는 독립 실행형 EOP(Exchange Online Protection)에서 관리자 역할 그룹 보고서를 실행하는 방법을 배울 수 있습니다. 이 보고서는 관리자가 구성원을 관리자 역할 그룹에 추가하거나 관리자 역할 그룹에 구성원을 제거할 때 기록됩니다.
-ms.openlocfilehash: cd7ca13a3d863240a0f2608ed13321cbe3d50ad2
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 507fbe6fb6c99677cf91b6eb824bf110f1c826f3
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659290"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166630"
 ---
 # <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>독립 실행형 EOP에서 관리자 역할 그룹 보고서 실행
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+-  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
 
 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 관리자가 관리 역할 그룹에 구성원을 추가하거나 관리 역할 그룹에서 구성원을 제거하면 서비스가 각 발생을 기록합니다. 독립 실행형 EOP의 역할 그룹에 대한 자세한 내용은 독립 실행형 [EOP의 사용 권한을 참조하세요.](feature-permissions-in-eop.md)
 
@@ -101,7 +104,7 @@ Search-AdminAuditLog -Cmdlets Set-Mailbox -Parameters ProhibitSendQuota,Prohibit
 
 이 예에서는 특정 사서함에 대한 변경 내용을 검색합니다. 문제를 해결하거나 조사에 필요한 정보를 제공해야 할 경우에 유용합니다. 다음과 같은 기준이 사용됩니다.
 
-- **시작 날짜**: 2018년 5월 1일
+- **시작 날짜**: 2018/05/01
 - **종료 날짜**: 2018년 10월 3일
 - **개체 ID:** contoso.com/Users/DavidS
 

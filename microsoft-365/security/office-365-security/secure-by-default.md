@@ -17,17 +17,22 @@ ms.collection:
 description: EOP(Exchange Online Protection)의 보안 기본 설정에 대해 자세히 알아보시고
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c8af609b8ed50b0bfacb7d9f5397fab4c4726927
-ms.sourcegitcommit: f3059a0065496623e36e5a084cd2291e6b844597
+ms.openlocfilehash: 51b33afa6b07c040e6aa18abe996c78b770f0773
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50040547"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166582"
 ---
 # <a name="secure-by-default-in-office-365"></a>Office 365에서 기본적으로 보안
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 "기본적으로 보안"은 가능한 한 가장 안전한 기본 설정을 정의하는 데 사용되는 용어입니다.
 
@@ -59,7 +64,7 @@ Microsoft는 기본적으로 고객의 보안을 유지하기를 원하기 때�
 
 ## <a name="more-on-why-were-doing-this"></a>이 작업을 수행하고 있는 이유에 대한 추가
 
-기본적으로 보안이 유지되는 것은 구성된 예외로 메시지가 배달될 수 있도록 허용하는 경우에도 악의적인 메시지를 차단할 경우 취할 수 있는 동일한 조치를 취하고 있습니다. 이 방법은 항상 맬웨어에 사용해오던 방법과 동일하며, 이제 이 동작을 높은 신뢰도의 피싱 메시지로 확장하고 있습니다.
+기본적으로 보안이 유지되는 경우: 구성된 예외로 메시지가 배달되는 것을 허용하는 경우에도 악의적인 메시지를 차단할 경우 취할 수 있는 동일한 조치를 취하고 있습니다. 이 방법은 항상 맬웨어에 사용해오던 방법과 동일하며, 이제 이 동작을 높은 신뢰도의 피싱 메시지로 확장하고 있습니다.
 
 이 데이터는 사용자가 정크 메일 폴더에 있는 메시지에서 악의적인 링크를 클릭할 가능성이 30배 더 높을 수 있는 것으로 나타났습니다. 또한 이 데이터에서는 높은 신뢰도 피싱 메시지에 대한 가음성 비율(양호한 메시지)이 매우 낮고 관리자가 관리자 제출을 통해 가음성 문제를 해결할 수 있다는 사실도 나타냅니다.
 
@@ -74,6 +79,6 @@ Microsoft는 기본적으로 고객의 보안을 유지하기를 원하기 때�
 다음과 같은 시나리오에서만 오버라이드를 사용하는 것이 좋습니다.
 
 - 피싱 시뮬레이션: 시뮬레이션된 공격은 실제 공격이 조직에 영향을 미치기 전에 취약한 사용자를 식별하는 데 도움이 될 수 있습니다.
-- 보안/SecOps 사서함: 보안 팀에서 필터되지 않은 메시지를 받는 데 사용하는 전용 사서함(좋음 및 불량) 그러면 Teams에서 검토하여 악성 콘텐츠가 포함되어 있는지 검토할 수 있습니다.
+- Security/SecOps 사서함: 보안 팀에서 필터되지 않은 메시지를 받는 데 사용하는 전용 사서함(좋음 및 불량) 그런 다음 Teams는 악성 콘텐츠가 포함되어 있는지 검토할 수 있습니다.
 - 타사 필터: 도메인의 MX 레코드가 Office 365를 지정하지 않는 경우 기본적으로 보안이 적용되지 않습니다.
 - 가양성: 관리자 제출을 통해 Microsoft에서 여전히 분석하고 있는 특정 메시지를 일시적으로 [허용할 수 있습니다.](admin-submission.md) 모든 재지정과 함께 임시로 지정하는 것이 좋습니다.

@@ -11,27 +11,31 @@ ms.topic: article
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: '요약: 정치적 캠페인 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다.'
-ms.openlocfilehash: a8312965e8923d7a759c0f436f8ab2e657756ea5
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 1f3488b479b4d37b7e38e4ced0d612e8fb5ae8a0
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616623"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165478"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
 
- **요약:** 정치적 캠페인 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다.
-
+- [Office 365용 Microsoft Defender 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- 
+ **요약:** 정치적 캠페인 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다. 
+   
 이 문서의 지침을 사용하여 [정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md) 솔루션에 대한 4가지 다른 유형의 SharePoint Online 팀 사이트가 포함된 개발/테스트 환경을 만듭니다. 이러한 사이트는 **SharePoint 및 비즈니스용 OneDrive** 제목의 항목 10에 자세히 설명되어 있습니다.
 
 ## <a name="phase-1-create-your-political-campaign-devtest-environment"></a>1단계: 정치적 캠페인 개발/테스트 환경 만들기

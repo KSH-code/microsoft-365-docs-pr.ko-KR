@@ -6,7 +6,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.article: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -14,17 +13,23 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Microsoft 365 관리자는 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 753171578dc7b76aefadf4b8587e84320d98b912
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: b834adb3d9ba5f85984e09b4bb1e4b48673c32f2
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794451"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166906"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Microsoft 365의 랜섬웨어 공격으로부터 복구
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 조직을 보호하기 위해 모든 예방 조치를 취하는 경우에도 랜섬웨어 공격의 피해자가 될 [수](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) 있습니다. 랜섬웨어는 대기업이자 공격은 매우 정교합니다.
 
@@ -46,13 +51,13 @@ ms.locfileid: "49794451"
 
 ## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>2단계: Exchange ActiveSync 및 OneDrive 동기화를 사용하지 않도록 설정
 
-여기서 핵심적인 점은 랜섬웨어에 의해 데이터 암호화의 확산을 중지하는 것입니다.
+여기서 핵심적인 점은 랜섬웨어에 의해 데이터 암호화 확산을 중지하는 것입니다.
 
 전자 메일이 랜섬웨어 암호화의 대상으로 의심되는 경우 사서함에 대한 사용자 액세스를 일시적으로 사용하지 않도록 설정하십시오. Exchange ActiveSync Exchange Online 사서함 간에 데이터를 동기화할 수 있습니다.
 
 사서함에 Exchange ActiveSync 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 Exchange Online에서 사용자에 대해 Exchange ActiveSync 사용하지 않도록 [설정하는 방법을 참조하세요.](https://support.microsoft.com/help/2795303)
 
-사서함에 대한 다른 유형의 액세스를 사용하지 않도록 설정하는 경우 다음을 참조합니다.
+다른 유형의 사서함 액세스를 사용하지 않도록 설정하는 경우 다음을 참조합니다.
 
 - [사서함에 대해 MAPI를 사용하도록 설정하거나 사용하지 않도록 설정](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-mapi)
 
@@ -68,13 +73,13 @@ OneDrive 동기화를 Pausing하면 잠재적으로 감염된 장치에 의해 �
 
 .에서 [Windows Defender](https://www.microsoft.com/windows/comprehensive-security) 또는 (이전 클라이언트의 [경우)](https://www.microsoft.com/download/details.aspx?id=5201)Microsoft Security Essentials.
 
-랜섬웨어 또는 맬웨어를 제거하는 데 도움이 되는 [대안은 MSRT(악성 소프트웨어 제거 도구)입니다.](https://www.microsoft.com/download/details.aspx?id=9905)
+랜섬웨어 또는 맬웨어를 제거하는 데 도움이 되는 [MSRT(악성](https://www.microsoft.com/download/details.aspx?id=9905)소프트웨어 제거 도구)를 대신 사용할 수 있습니다.
 
-이러한 옵션이 작동하지 않는 경우 오프라인으로 Windows Defender 맬웨어 검색 및 제거 문제를 해결할 [수 있습니다.](https://support.microsoft.com/help/4466982) [](https://support.microsoft.com/help/17466)
+이러한 옵션이 작동하지 않는 경우 오프라인으로 전환하거나 Windows Defender 맬웨어 검색 및 제거 문제를 [해결할 수 있습니다.](https://support.microsoft.com/help/4466982) [](https://support.microsoft.com/help/17466)
 
 ## <a name="step-4-recover-files-on-a-cleaned-computer-or-device"></a>4단계: 정리된 컴퓨터 또는 장치에서 파일 복구
 
-사용자 환경에서 랜섬웨어 페이로드를 제거하는 이전 단계를 완료한 후(랜섬웨어가 파일을 암호화하거나 제거하지 못하게 하려는 [](https://support.microsoft.com/help/17128) 경우) Windows 10 및 Windows 8.1의 파일 기록 또는 Windows 7의 시스템 보호를 사용하여 로컬 파일 및 폴더를 복구할 수 있습니다.
+사용자 환경에서 랜섬웨어 페이로드를 제거하는 이전 단계를 완료한 후(랜섬웨어가 파일을 암호화하거나 제거하지 못하게 하여) Windows 10 및 Windows 8.1의 파일 기록 또는 Windows 7의 시스템 보호를 사용하여 로컬 파일 및 폴더를 복구할 수 있습니다. [](https://support.microsoft.com/help/17128)
 
 **참고**:
 
@@ -116,7 +121,7 @@ OneDrive 동기화를 Pausing하면 잠재적으로 감염된 장치에 의해 �
 
 - 캐나다: [캐나다 사기 방지 센터](http://www.antifraudcentre-centreantifraude.ca/)
 
-- 프랑스: [Agence nationale de la sécurité des systémes d'information](http://www.ssi.gouv.fr/)
+- 프랑스: [기관 국가 국가 de la sécurité des systémes d'information](http://www.ssi.gouv.fr/)
 
 - 독일: [der Informationstechnik의 번들어amt für Sicherheit](https://www.bsi.bund.de/DE/Home/home_node.html)
 
@@ -152,7 +157,7 @@ OneDrive 동기화를 Pausing하면 잠재적으로 감염된 장치에 의해 �
 
 - [업그레이드 가치가 있는 업그레이드: Windows 10의 차세대 보안은 2017년 랜섬웨어 발생에 대해 탄력적인 업그레이드를 증명합니다.](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
 
-- [Mas, Samas: 이 랜섬웨어의 모디안에는 어떤 것이 있나요?](https://www.microsoft.com/security/blog/2016/03/17/no-mas-samas-whats-in-this-ransomwares-modus-operandi/)
+- [No mas, Samas: What's in this ransomware's modus operandi?](https://www.microsoft.com/security/blog/2016/03/17/no-mas-samas-whats-in-this-ransomwares-modus-operandi/)
 
 - [잠긴 맬웨어, 방지할 수 있는 다행](https://www.microsoft.com/security/blog/2016/02/24/locky-malware-lucky-to-avoid-it/)
 

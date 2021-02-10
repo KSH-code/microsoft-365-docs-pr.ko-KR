@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,39 +16,45 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 EOP (Exchange Online Protection)에서 메시지에 적용 되는 SCL (스팸 지 수)에 대해 알아봅니다.
-ms.openlocfilehash: 51d00b36ae826676f436c0a74617ddbbadf7a30a
-ms.sourcegitcommit: 61ef32f802a1fb6d1e3a3aa005764ead32a7951e
+description: 관리자는 EOP(Exchange Online Protection)의 메시지에 적용된 SCL(스팸 지수)에 대해 학습할 수 있습니다.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: e4fc20b7d7db5b85b5bdde02ab720fa26af2a4b5
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48318243"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167158"
 ---
-# <a name="spam-confidence-level-scl-in-eop"></a>EOP의 SCL (스팸 지 수)
+# <a name="spam-confidence-level-scl-in-eop"></a>EOP의 SCL(스팸 지수)
+
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+Exchange Online 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에 사서함이 있는 Microsoft 365 조직에서 인바운드 메시지는 EOP의 스팸 필터링을 통과하고 스팸 점수가 할당됩니다. 이 점수는 X-헤더의 메시지에 추가된 개별 SCL(스팸 지수)에 매핑됩니다. SCL이 높을수록 메시지가 스팸일 가능성이 더 높을 수 있습니다. EOP는 SCL에 따라 메시지에 대한 작업을 실행합니다.
 
-Exchange online 사서함이 없는 Microsoft 365 조직의 EOP (독립 실행형 Exchange Online Protection) 조직에서 인바운드 메시지는 EOP의 스팸 필터링을 통해 수행 되며 스팸 점수가 할당 됩니다. 이 점수는 X-헤더의 메시지에 추가 된 개별 SCL (스팸 지 수)에 매핑됩니다. SCL이 높을수록 메시지가 스팸으로 표시 되는 것을 나타냅니다. EOP는 SCL을 기반으로 메시지에 대해 작업을 수행 합니다.
-
-SCL의 의미와 메시지에 대해 수행 되는 기본 작업에 대 한 설명은 다음 표에 나와 있습니다. 스팸 필터링 결과을 기반으로 하는 메시지에 대해 수행할 수 있는 작업에 대 한 자세한 내용은 [Configure 스팸 방지 정책 EOP](configure-your-spam-filter-policies.md)을 참조 하십시오.
+다음 표에는 SCL의 의미와 메시지에 대해 수행되는 기본 작업이 설명되어 있습니다. 스팸 필터링 판정에 따라 메시지에 대해 수행할 수 있는 작업에 대한 자세한 내용은 EOP에서 스팸 방지 정책 구성을 [참조하세요.](configure-your-spam-filter-policies.md)
 
 ****
 
 |SCL|정의|기본 작업|
 |:---:|---|---|
-|-1|메시지가 스팸 필터링을 건너뛰었습니다. 예를 들어 수신 허용-보낸 사람에 게 전송 된 메시지 이거나, 수신 하는 전자 메일 서버에서 온 것은 아닙니다. 자세한 내용은 [EOP에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하십시오.|받는 사람의 받은 편지 함으로 메시지를 배달 합니다.|
-|0, 1|스팸 필터링에서 메시지가 스팸으로 확인 되었습니다.|받는 사람의 받은 편지 함으로 메시지를 배달 합니다.|
-|5, 6|스팸 필터링에서 메시지를 **스팸으로** 표시|받는 사람의 정크 메일 폴더로 메시지를 배달 합니다.|
-|9 |스팸 필터링에서 메시지가 **높은 신뢰도 스팸으로** 표시 됨|받는 사람의 정크 메일 폴더로 메시지를 배달 합니다.|
+|-1|메시지가 스팸 필터링을 건너뜁니다. 예를 들어 수신 허용 - 보낸 사람이 보낸 메시지, 수신 허용 - 받는 사람에게 전송된 메시지 또는 IP 허용 목록의 전자 메일 원본 서버에서 보낸 메시지입니다. 자세한 내용은 [EOP에서 수신이 가능한 보낸 사람 목록 만들기를 참조하세요.](create-safe-sender-lists-in-office-365.md)|받는 사람의 받은 편지함으로 메시지를 배달합니다.|
+|0, 1|스팸 필터링에서 메시지가 스팸이 아닌 것으로 확인되었습니다.|받는 사람의 받은 편지함으로 메시지를 배달합니다.|
+|5, 6|스팸 필터링에서 메시지를 스팸으로 **표시**|받는 사람의 정크 메일 폴더로 메시지를 배달합니다.|
+|9 |스팸 필터링에서 메시지를 높은 신뢰도 **스팸으로 표시**|받는 사람의 정크 메일 폴더로 메시지를 배달합니다.|
 |
 
-SCL 2, 3, 4, 7, 8은 스팸 필터링에서 사용 되지 않는다는 것을 알 수 있습니다.
+SCL 2, 3, 4, 7 및 8은 스팸 필터링에 사용되지 않습니다.
 
-메일 흐름 규칙 (전송 규칙이 라고도 함)을 사용 하 여 메시지의 SCL을 스탬프 처리할 수 있습니다. 메일 흐름 규칙을 사용 하 여 SCL을 설정 하는 경우 값 5 또는 6은 **스팸**에 대 한 스팸 필터링 작업을 트리거하고 값 7, 8 또는 9는 **신뢰도가 높은 스팸**에 대 한 스팸 필터링 작업을 트리거합니다. 자세한 내용은 [메일 흐름 규칙을 사용 하 여 메시지에서 SCL (스팸 지 수) 설정을](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)참조 하십시오.
+메일 흐름 규칙(전송 규칙)을 사용하여 메시지에 SCL 스탬프 처리를 할 수 있습니다. 메일 흐름 규칙을 사용하여 SCL을 설정하는 경우 값 5 또는 6은 스팸에 대한 스팸 필터링 작업을 트리거하고 값 7, 8 또는 9는 높은 신뢰도 스팸에 대한 스팸 필터링 작업을 트리거합니다.  자세한 내용은 메일 흐름 규칙을 사용하여 메시지의 [SCL(스팸 지수)을 설정하세요.](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
 
-SCL과 마찬가지로, BCL (bulk 불만 수준)은 잘못 된 대량 전자 메일 ( _회색 메일이_라고도 함)을 식별 합니다. BCL이 높을수록 대량 메일 메시지가 불만을 발생시킬 가능성이 높으므로 스팸일 가능성이 더 높습니다. 스팸 방지 정책에서 BCL 임계값을 구성 합니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md), [EOP의 BCL (대량 불만 수준](bulk-complaint-level-values.md)) 및 [정크 메일 및 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md)을 참조 하세요.
+SCL과 유사하게 BCL(대량 불만 수준)은 잘못된 대량 전자 메일(회색 메일)을 _식별합니다._ BCL이 높을수록 대량 메일 메시지가 불만을 발생시킬 가능성이 높으므로 스팸일 가능성이 더 높습니다. 스팸 방지 정책에서 BCL 임계값을 구성합니다. 자세한 내용은 [EOP에서](configure-your-spam-filter-policies.md)스팸 방지 정책 구성, [EOP의 BCL(대량](bulk-complaint-level-values.md)불만 수준) 및 정크 메일과 대량 전자 메일의 차이점을 [참조하세요.](what-s-the-difference-between-junk-email-and-bulk-email.md)
 
 ****
 
-![LinkedIn에 대 한 짧은 아이콘은 ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Microsoft 365를 처음으로 학습 하나요?** LinkedIn 학습을 통해 제공 되는 **Microsoft 365 관리자 및 IT 전문가**를 위한 무료 비디오 과정을 소개 합니다.
+![](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Microsoft 365의** 새로운 LinkedIn Learning에 대한 짧은 아이콘이 있나요? LinkedIn Learning에서 제공한 **Microsoft 365** 관리자 및 IT pros를 위한 무료 비디오 과정을 검색합니다.

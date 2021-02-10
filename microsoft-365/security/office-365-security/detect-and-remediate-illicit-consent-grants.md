@@ -1,5 +1,5 @@
 ---
-title: 불법 동의 권한 부여 검색 및 재구성
+title: 위조 동의 권한 부여 감지 및 수정
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -11,23 +11,27 @@ ms.topic: article
 ms.collection:
 - o365_security_incident_response
 - M365-security-compliance
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-description: Microsoft Office 365에서 불법 동의 부여 공격을 인식 하 고 수정 하는 방법에 대해 알아봅니다.
+description: 365에서 무단 동의 권한 부여 공격을 인식하고 수정하는 Microsoft Office 방법을 배워보아야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b534d53166c09cf77993948cf1c448e21c8cd330
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: a1c724bb3b201e0ddf1edea4794606c7083605e8
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203098"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165442"
 ---
-# <a name="detect-and-remediate-illicit-consent-grants"></a>불법 동의 권한 부여 검색 및 재구성
+# <a name="detect-and-remediate-illicit-consent-grants"></a>위조 동의 권한 부여 감지 및 수정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 **요약** Office 365에서 불법 동의 권한 부여 공격을 인식하고 교정하는 방법에 대해 알아보세요.
 
@@ -38,35 +42,35 @@ ms.locfileid: "48203098"
 이러한 공격은 정보를 호출하는 엔터티가 사용자가 아니라 자동화임을 가정하는 상호 작용 모델을 활용합니다.
 
 > [!IMPORTANT]
-> 지금은 앱에서 불법 동의 허용으로 인해 문제가 발생 하는 것으로 생각 하십니까? Microsoft Cloud App Security (MCAS)에는 OAuth 앱을 검색, 조사 및 수정 하기 위한 도구가 포함 되어 있습니다. 이 MCAS 문서에는 [위험한 OAuth 앱 조사](https://docs.microsoft.com/cloud-app-security/investigate-risky-oauth)에 대 한 방법을 설명 하는 자습서가 포함 되어 있습니다. 또한 [OAuth 앱 정책을](https://docs.microsoft.com/cloud-app-security/app-permission-policy) 설정 하 여 앱 요청 권한, 사용자가 이러한 앱에 권한을 부여 하 고 있으며 이러한 사용 권한 요청을 광범위 하 게 승인 하거나 금지 하도록 설정할 수 있습니다.
+> 현재 앱에서의 부적격 동의 권한 부여에 문제가 있는 것으로 의심하나요? MCAS(Microsoft Cloud App Security)에는 OAuth 앱을 검색, 조사 및 수정하기 위한 도구가 있습니다. 이 MCAS 문서에는 위험한 OAuth 앱을 조사하는 방법을 설명하는 [자습서가 있습니다.](https://docs.microsoft.com/cloud-app-security/investigate-risky-oauth) 또한 사용자가 이러한 앱을 승인하는 앱 요청 권한을 조사하고 이러한 사용 권한 요청을 광범위하게 승인하거나 금지하도록 [OAuth](https://docs.microsoft.com/cloud-app-security/app-permission-policy) 앱 정책을 설정할 수도 있습니다.
 
 ## <a name="what-does-an-illicit-consent-grant-attack-look-like-in-office-365"></a>불법 동의 권한 부여는 Office 365에서 어떻게 보이나요?
 
-**감사 로그** 를 검색 하 여이 공격의 손상 표시기 (IOC) 라고도 하는 서명을 찾습니다. 여러 Azure 등록 응용 프로그램 및 대규모 사용자를 포함하는 조직의 경우 가장 좋은 방법은 주 단위로 조직 동의 권한 부여를 검토하는 것입니다.
+감사 로그를 **검색하여** 이 공격의 IOC(손상 표시기)라고도 하는 기호를 찾아야 합니다. 여러 Azure 등록 응용 프로그램 및 대규모 사용자를 포함하는 조직의 경우 가장 좋은 방법은 주 단위로 조직 동의 권한 부여를 검토하는 것입니다.
 
 ### <a name="steps-for-finding-signs-of-this-attack"></a>이 공격의 신호를 찾는 단계
 
-1. **보안 & 준수 센터** 를에서 엽니다 <https://protection.office.com> .
+1. 에서 **보안 & 규정 준수 센터를** 열 수 <https://protection.office.com> 있습니다.
 
-2. **검색** 으로 이동한 후 **감사 로그 검색**을 선택 합니다.
+2. 검색으로 **이동하여** 감사 로그 **검색을 선택합니다.**
 
-3. 검색 (모든 작업 및 모든 사용자)을 선택 하 고 필요한 경우 시작 날짜와 끝 날짜를 입력 한 다음 **검색**을 클릭 합니다.
+3. 검색(모든 활동 및 모든 사용자)을 검색하고 필요한 경우 시작 날짜와 종료 날짜를 입력한 다음 검색을 **클릭합니다.**
 
-4. **결과 필터링** 을 클릭 하 고 **활동** 필드에 응용 프로그램에 대 한 동의를 입력 합니다.
+4. 필터 **결과를 클릭하고** 작업 필드에 응용 프로그램에 대한 **동의를 입력합니다.**
 
-5. 결과를 클릭 하 여 활동의 세부 정보를 확인 합니다. **자세한 정보** 를 클릭 하면 활동에 대 한 세부 정보를 볼 수 있습니다. IsAdminContent가 True로 설정 되어 있는지 확인 하세요.
+5. 결과를 클릭하여 활동의 세부 정보를 볼 수 있습니다. 자세한 **정보를 클릭하여** 활동에 대한 세부 정보를 얻습니다. IsAdminContent가 True로 설정되어 있는지 검사합니다.
 
 > [!NOTE]
 >
-> 이벤트가 발생 한 후에는 해당 감사 로그 항목이 검색 결과에 표시 될 때까지 30 분에서 24 시간까지 소요 될 수 있습니다.
+> 이벤트가 발생한 후 해당 감사 로그 항목이 검색 결과에 표시될 때 30분에서 24시간까지 걸릴 수 있습니다.
 >
-> 감사 레코드가 보존 되 고 감사 로그에서 검색 가능한 기간은 Microsoft 365 구독에 따라 다르며, 특히 특정 사용자에 게 할당 된 라이선스의 유형입니다. 자세한 내용은 [감사 로그](../../compliance/search-the-audit-log-in-security-and-compliance.md)를 참조하세요.
+> 감사 기록을 보존하고 감사 로그에서 검색할 수 있는 시간은 Microsoft 365 구독, 특히 특정 사용자에게 할당된 라이선스 유형에 따라 다릅니다. 자세한 내용은 [감사 로그](../../compliance/search-the-audit-log-in-security-and-compliance.md)를 참조하세요.
 >
 > 이 값이 true이면 전역 관리자 액세스 권한이 있는 사용자가 데이터에 대한 광범위한 액세스 권한을 부여할 수 있음을 나타냅니다. 예기치 않은 상황이라면 [공격을 확인](#how-to-confirm-an-attack)하는 단계를 수행하세요.
 
 ## <a name="how-to-confirm-an-attack"></a>공격을 확인하는 방법
 
-위에 나와 있는 IOCs의 인스턴스가 하나 이상 있는 경우 공격이 발생했음을 확실하게 확인하도록 추가 조사를 수행해야 합니다. 이러한 세 가지 방법 중 하나를 사용 하 여 공격을 확인할 수 있습니다.
+위에 나와 있는 IOCs의 인스턴스가 하나 이상 있는 경우 공격이 발생했음을 확실하게 확인하도록 추가 조사를 수행해야 합니다. 다음 세 가지 방법 중 한 가지를 사용하여 공격을 확인할 수 있습니다.
 
 - Azure Active Directory 포털을 사용하는 인벤터리 응용 프로그램과 해당 사용 권한 이 방법은 철저하지만 한번에 한 명의 사용자만 검사할 수 있어 검사할 사용자가 많은 경우에는 막대한 시간이 소요됩니다.
 
@@ -86,13 +90,13 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 2. Azure Active Directory 블레이드를 선택합니다.
 
-3. **사용자**를 선택합니다.
+3. **사용자** 를 선택합니다.
 
 4. 검토할 사용자를 선택합니다.
 
-5. **응용 프로그램**을 선택합니다.
+5. **응용 프로그램** 을 선택합니다.
 
-이렇게 하면 사용자에 게 할당 된 앱과 응용 프로그램에 포함 된 사용 권한이 표시 됩니다.
+사용자에게 할당된 앱과 응용 프로그램에 대한 사용 권한이 표시됩니다.
 
 ### <a name="steps-for-having-your-users-enumerate-their-application-access"></a>사용자가 응용 프로그램에 액세스를 열거하도록 하는 단계
 
@@ -111,11 +115,11 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 - 스크립트를 실행할 컴퓨터의 로컬 관리자
 
 > [!IMPORTANT]
-> 관리 계정에 대해 multi-factor authentication을 사용 하는 것 ***이 좋습니다*** . 이 스크립트는 MFA 인증을 지원합니다.
+> 관리 ***계정에*** 다단계 인증을 요구하는 것이 좋습니다. 이 스크립트는 MFA 인증을 지원합니다.
 
 1. 로컬 관리자 권한으로 스크립트를 실행할 컴퓨터에 로그인합니다.
 
-2. GitHub에서 스크립트를 실행 하는 데 사용할 폴더에 [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) 스크립트를 다운로드 하거나 복사 합니다. 이 폴더는 "permissions.csv" 출력 파일이 작성되는 폴더와 동일합니다.
+2. GitHub에서 [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) 스크립트를 실행할 폴더로 다운로드하거나 복사합니다. 이 폴더는 "permissions.csv" 출력 파일이 작성되는 폴더와 동일합니다.
 
 3. PowerShell 인스턴스를 관리자로 열고 스크립트를 저장한 폴더를 엽니다.
 
@@ -129,7 +133,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 스크립트가 Permissions.csv라는 파일 하나를 생성합니다. 다음 단계를 수행하여 불법 응용 프로그램 권한 부여를 찾습니다.
 
-1. ConsentType 열(G열)에서 값 "AllPrinciples"을 검색합니다. AllPrincipals 사용 권한을 사용 하면 클라이언트 응용 프로그램에서 테 넌 시의 모든 사용자 콘텐츠에 액세스할 수 있습니다. 네이티브 Microsoft 365 응용 프로그램은 올바르게 작동 하려면이 권한이 필요 합니다. 이 권한을 가진 Microsoft가 아닌 모든 응용 프로그램은 신중하게 검토해야 합니다.
+1. ConsentType 열(G열)에서 값 "AllPrinciples"을 검색합니다. AllPrincipals 권한을 사용하면 클라이언트 응용 프로그램이 테넌시의 모든 콘텐츠에 액세스할 수 있습니다. 기본 Microsoft 365 응용 프로그램이 제대로 작동하려면 이 사용 권한이 필요합니다. 이 권한을 가진 Microsoft가 아닌 모든 응용 프로그램은 신중하게 검토해야 합니다.
 
 2. 사용 권한 열(F열)에서 각 위임된 응용 프로그램에 대한 콘텐츠 사용 권한을 확인합니다. "읽기" 및 "쓰기" 권한 또는 "*.All" 권한을 찾아 적절하지 않을 수 있으므로 신중하게 검토합니다.
 
@@ -139,7 +143,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 ## <a name="determine-the-scope-of-the-attack"></a>공격 범위 확인
 
-응용 프로그램 액세스 인벤토리를 완료 한 후 **감사 로그** 를 검토 하 여 위반의 전체 범위를 확인 합니다. 영향을 받는 사용자, 불법 응용 프로그램에서 조직에 액세스한 시간 프레임, 앱에 대한 사용 권한을 검색합니다. [Microsoft 365 보안 및 준수 센터](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)에서 **감사 로그**를 검색할 수 있습니다.
+응용 프로그램 액세스 인벤토리 작성을  완료한 후 감사 로그를 검토하여 위반의 전체 범위를 파악합니다. 영향을 받는 사용자, 불법 응용 프로그램에서 조직에 액세스한 시간 프레임, 앱에 대한 사용 권한을 검색합니다. [Microsoft 365 보안 및 준수 센터](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)에서 **감사 로그** 를 검색할 수 있습니다.
 
 > [!IMPORTANT]
 > 이 정보를 받으려면 공격 전에 [사서함 감사](https://docs.microsoft.com/microsoft-365/compliance/enable-mailbox-auditing) 및 [관리자 및 사용자 활동에 대한 감사](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)가 설정되어 있어야 합니다.
@@ -152,11 +156,11 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
   - **Azure Active Directory 사용자** 블레이드에서 영향을 받는 사용자로 이동합니다.
 
-  - **응용 프로그램**을 선택합니다.
+  - **응용 프로그램** 을 선택합니다.
 
   - 불법 응용 프로그램을 선택합니다.
 
-  - 드릴 다운에서 **제거**를 클릭합니다.
+  - 드릴 다운에서 **제거** 를 클릭합니다.
 
 - [Remove-AzureADOAuth2PermissionGrant](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant)에 나와 있는 단계를 따라 PowerShell에서 OAuth 승인 부여를 해지할 수 있습니다.
 

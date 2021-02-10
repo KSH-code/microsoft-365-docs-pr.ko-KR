@@ -12,12 +12,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Priority
-ms.openlocfilehash: 89c03a70da364bd4b945debc64de02255dec15e1
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 22d146b1d376bab134e82ad7d1313cb7881ca45b
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49975718"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50144974"
 ---
 # <a name="push-content-types-to-a-hub"></a>허브로 콘텐츠 유형 푸시
 
@@ -28,7 +28,7 @@ ms.locfileid: "49975718"
 </br>
 
 
-SharePoint 라이브러리 및 목록에서 중요한 콘텐츠 형식을 더 일관성 있게 사용하도록 하려면 선택한 허브에 이를 밀어 넣을 수 있습니다. 콘텐츠 유형을 푸시하면 허브와 연결된 사이트에서 생성된 새 목록 및 라이브러리와 허브에 추가된 새 사이트에 자동으로 추가됩니다.
+SharePoint 라이브러리 및 목록에서 중요한 콘텐츠 형식을 더 일관성 있게 사용하도록 하려면 선택한 허브에 이를 밀어 넣을 수 있습니다. 콘텐츠 유형을 푸시하면 허브와 연결된 사이트에서 생성된 새 목록 및 라이브러리와 허브에 추가된 새 사이트에 자동으로 추가됩니다. 이 기능을 사용하려면 [SharePoint Syntex](index.md) 라이선스가 필요합니다.
 
 이 기능이 작동되려면 푸시되는 콘텐츠 유형이 이미 게시되어 있어야 합니다.
 

@@ -19,14 +19,19 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 261c375aa17e4a3bc8f7d1b469d82621cf4ae45b
-ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
+ms.openlocfilehash: 653b16b7b3f6637440e3740830ffe9f9a51c6dd8
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097131"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166510"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>메일을 보호하기 위한 정책 권장 사항
+
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+
 
 이 문서에서는 최신 인증 및 조건부 액세스를 지원하는 조직 전자 메일 및 전자 메일 클라이언트를 보호하기 위해 권장되는 ID 및 장치 액세스 정책을 구현하는 방법을 설명합니다. 이 지침은 [일반 ID](identity-access-policies.md) 및 장치 액세스 정책을 구축하며 몇 가지 추가 권장 사항도 포함합니다.
 
@@ -44,7 +49,7 @@ ms.locfileid: "50097131"
 
 ActiveSync 클라이언트를 차단하는 Exchange Online에 대한 새 정책이 추가되었습니다. 그러면 Outlook 모바일이 강제로 사용됩니다.
 
-정책을 설정할 때 Exchange Online 및 Outlook을 정책 범위에 포함한 경우 ActiveSync 클라이언트를 차단하는 새 정책만 만들어야 합니다. 다음 표에 나열된 정책을 검토하고 권장되는 추가를 작성하거나 이러한 정책이 이미 포함되어 있는지 확인할 수 있습니다. 각 정책은 일반 ID 및 장치 액세스 정책의 관련 구성 [지침에 연결됩니다.](identity-access-policies.md)
+정책을 설정할 때 정책 범위에 Exchange Online 및 Outlook을 포함한 경우 ActiveSync 클라이언트를 차단하는 새 정책만 만들어야 합니다. 다음 표에 나열된 정책을 검토하고 권장되는 추가를 작성하거나 이러한 정책이 이미 포함되어 있는지 확인할 수 있습니다. 각 정책은 일반 ID 및 장치 액세스 정책의 관련 구성 [지침에 연결됩니다.](identity-access-policies.md)
 
 |보호 수준|정책|추가 정보|
 |---|---|---|
@@ -63,7 +68,7 @@ ActiveSync 클라이언트를 차단하는 Exchange Online에 대한 새 정책�
 
 이 정책은 ActiveSync 클라이언트가 다른 조건부 액세스 정책을 무시하지 못하게 합니다. 정책 구성은 ActiveSync 클라이언트에만 적용됩니다. 앱 보호 필요 **[정책을](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)** 선택하면 이 정책은 ActiveSync 클라이언트를 차단합니다. 이 정책을 만드는 데 대한 자세한 내용은 조건부 액세스를 사용하여 클라우드 앱 액세스에 대한 앱 보호 [필요 정책에서 찾을 수 있습니다.](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
 
-- 시나리오 1의 "2단계: EAS(ActiveSync)를 사용하여 Exchange Online에 대한 Azure AD 조건부 액세스 정책 [구성"을 따르기: Office 365](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)앱에는 기본 인증을 활용하는 Exchange ActiveSync 클라이언트가 Exchange Online에 연결할 수 없습니다.
+- 시나리오 1의 "2단계: EAS(ActiveSync)를 사용하여 Exchange Online에 대한 Azure AD 조건부 액세스 정책 [구성"을 따르기: Office 365](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)앱은 기본 인증을 활용하는 Exchange ActiveSync 클라이언트가 Exchange Online에 연결하지 못하도록 하는 앱 보호 정책을 사용하여 승인된 앱을 요구합니다.
 
 또한 인증 정책을 사용하여 [](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online)기본 인증을 사용하지 않도록 설정할 수 있습니다. 이 경우 모든 클라이언트 액세스 요청에서 최신 인증을 강제로 사용할 수 있습니다.
 
@@ -93,13 +98,13 @@ ActiveSync 클라이언트를 차단하는 Exchange Online에 대한 새 정책�
 
    **배정** \> **클라우드 앱 또는 작업** \> **클라우드 앱** \> **포함** \> **앱 선택:** **Office 365 Exchange Online 선택**
 
-   **액세스 컨트롤** \> **세션:** 앱 **적용 제한 사용 선택**
+   **액세스 컨트롤** \> **세션**: 앱 **적용 제한 사용 선택**
 
 ## <a name="require-that-ios-and-android-devices-must-use-outlook"></a>iOS 및 Android 장치에서 Outlook을 사용해야 합니다.
 
 iOS 및 Android 장치의 사용자가 iOS 및 Android용 Outlook을 사용하여 직장 또는 학교 콘텐츠에만 액세스할 수 있도록 허용하려면 이러한 잠재적 사용자를 대상으로 하는 조건부 액세스 정책이 필요합니다.
 
-iOS 및 Android용 Outlook을 사용하여 메시징 공동 작업 액세스 관리에서 이 정책을 [구성하는 단계를 참조하세요.]( https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook#apply-conditional-access)
+iOS 및 Android용 Outlook을 사용하여 메시징 공동 작업 액세스 관리에서 이 정책을 구성하는 [단계를 참조하세요.]( https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook#apply-conditional-access)
 
 ## <a name="set-up-message-encryption"></a>메시지 암호화 설정
 

@@ -8,21 +8,26 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
-ms.openlocfilehash: 7551a792c1d9c10cf5c655dade04bb5606b75f04
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: a2b8228d33648f7bd20bde9d9e7b852276231aa6
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658698"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167110"
 ---
 # <a name="help-and-support-for-eop"></a>EOP에 대한 도움말 및 지원
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Exchange Online 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에 사서함이 있는 Microsoft 365 조직에서는 이 문서에 나열된 기술 지원 리소스를 통해 EOP에 문제가 있는 경우 답변을 찾을 수 있습니다. Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
 
@@ -70,7 +75,7 @@ EOP 고객이면서 Microsoft 프리미어 지원 계약도 보유하고 있는 
 
 ## <a name="support-telephone-numbers"></a>지원 전화 번호
 
-Microsoft는 전 세계에 제품 지원을 위한 해당 지역 전화 번호나 무료 전화 번호를 제공합니다. 이러한 대부분의 지원 센터에서는 영어 지원은 연중 내내(24x7x365) 제공되며, 현지 언어는 업무 시간 동안 지원됩니다. 아래 나열된 위치가 없는 경우 위에 설명된 대로 가상 에이전트를 사용하여 해당 지역의 지원 전화 번호를 찾아 보세요.
+Microsoft는 전 세계에 제품 지원을 위한 해당 지역 전화 번호나 무료 전화 번호를 제공합니다. 이러한 대부분의 지원 센터에서는 영어 지원은 연중 내내(24x7x365) 제공되며, 현지 언어는 업무 시간 동안 지원됩니다. 아래에 나열된 위치가 없는 경우 위에 설명된 대로 가상 에이전트를 사용하여 해당 지역의 지원 전화 번호를 찾아 보세요.
 
 ****
 

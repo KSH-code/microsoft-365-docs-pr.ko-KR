@@ -8,21 +8,26 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: 메일 흐름 규칙(전송 규칙)을 사용하여 조직을 통과하는 메시지를 식별하고 조치를 취할 수 있습니다.
-ms.openlocfilehash: 6bbf50b1a99b6691e959f6dcd4cfce33686a0014
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 3f873d4e46c9e3b7f085e03a9fbb19e5914317fa
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659207"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167038"
 ---
 # <a name="mail-flow-rules-transport-rules-in-standalone-eop"></a>독립형 EOP 메일 흐름 규칙(전송 규칙)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 메일 흐름 규칙(전송 규칙)을 사용하여 조직을 통과하는 메시지를 식별하고 조치를 취할 수 있습니다.
 
@@ -116,7 +121,7 @@ Use a transport rule so messages can bypass Clutter
 
 |조직을 통과하는 메시지 유형에는 몇 가지가 있습니다. 다음 표에는 전송 규칙으로 처리될 수 있는 메시지 유형이 나와 있습니다.|메시지 유형|
 |---|---|
-|**일반 메시지:** 단일 서식 있는 텍스트 형식(RTF), HTML 또는 일반 텍스트 메시지 본문이나 여러 문자 또는 대체 메시지 본문 집합을 포함하는 메시지입니다.|예|
+|**일반 메시지:** 단일 서식 있는 텍스트 형식(RTF), HTML 또는 일반 텍스트 메시지 본문이나 여러 가지 또는 대체 메시지 본문 집합을 포함하는 메시지입니다.|예|
 |**Office 365 메시지** 암호화: Office 365의 Office 365 메시지 암호화로 암호화된 메시지입니다. 자세한 내용은 [Office 365의 암호화](https://docs.microsoft.com/microsoft-365/compliance/encryption)를 참조하세요.|규칙은 항상 봉투 헤더에 액세스하여 해당 헤더를 검사하는 조건에 따라 메시지를 처리합니다. <p> 암호화된 메시지의 내용을 검사하거나 수정하려면 전송 암호 해독이 사용하도록 설정되어 있는지(필수 또는 선택 사항이며 기본값은 선택 사항)을 확인해야 합니다. 자세한 내용은 [Office 365에서](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)전자 메일 메시지를 암호화하거나 암호 해독하는 규칙 정의를 참조하세요.|
 |**S/MIME 암호화된 메시지**|규칙은 봉투 헤더에 액세스하고 해당 헤더를 검사하는 조건에 따라 메시지를 처리합니다. <p> 메시지 내용을 검사해야 하는 조건이 있는 규칙 또는 메시지의 콘텐츠를 수정하는 작업은 처리될 수 없습니다.|
 |**RMS 보호** 메시지: AD RMS(Active Directory Rights Management Services) 또는 RMS(Azure 권한 관리) 정책이 적용된 메시지입니다.|규칙은 항상 봉투 헤더에 액세스하여 해당 헤더를 검사하는 조건에 따라 메시지를 처리합니다. <p> RMS로 보호된 메시지의 내용을 검사하거나 수정하려면 전송 암호 해독이 사용하도록 설정되어 있는지(필수 또는 선택 사항이며 기본값은 선택 사항)를 확인해야 합니다.|
@@ -130,7 +135,7 @@ Use a transport rule so messages can bypass Clutter
 
 - 규칙의 **Version** 또는 **RuleVersion** 속성 값은 Exchange Online Protection에서 중요하지 않습니다.
 
-- 메일 흐름 규칙을 만들거나 수정한 후 새 규칙 또는 업데이트된 규칙을 메시지에 적용하는 데 최대 30분이 걸릴 수 있습니다.
+- 메일 흐름 규칙을 만들거나 수정한 후 새 규칙이나 업데이트된 규칙을 메시지에 적용하는 데 최대 30분이 걸릴 수 있습니다.
 
 ## <a name="for-more-information"></a>자세한 내용
 

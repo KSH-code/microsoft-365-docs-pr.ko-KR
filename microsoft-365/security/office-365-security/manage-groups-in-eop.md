@@ -8,29 +8,32 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 ms.custom:
 - seo-marvel-apr2020
 description: 독립 실행형 EOP(Exchange Online Protection) 조직의 관리자는 EAC(Exchange 관리 센터) 및 독립 실행형 EOP(Exchange Online Protection) PowerShell에서 메일 그룹 및 메일 사용이 가능한 보안 그룹을 만들고 수정하고 제거하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 5ff7c61d51ded039b06d1faa98ba6390939b3413
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 01fe5c6ab1555749d38f9c092b05aca9befb67fe
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658848"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166966"
 ---
 # <a name="manage-groups-in-eop"></a>EOP에서 그룹 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+-  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
 
 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 다음 유형의 그룹을 만들고 수정하고 제거할 수 있습니다.
 
-- **메일 그룹**: 메일 사용자 또는 기타 메일 그룹의 모음입니다. 예를 들어 공통 관심 영역으로 전자 메일을 받거나 보내야 하는 팀 또는 기타 애드위크 그룹입니다. 메일 그룹은 전자 메일 메시지를 배포하는 데만 사용할 수 있으며 보안 주체가 아니며 할당된 사용 권한을 사용할 수 없습니다.
+- **메일 그룹**: 메일 사용자 또는 기타 메일 그룹의 모음입니다. 예를 들어 공통 관심 영역으로 전자 메일을 받거나 보내야 하는 팀 또는 기타 애드먼 그룹입니다. 메일 그룹은 전자 메일 메시지를 배포하는 데만 사용할 수 있으며 보안 주체가 아니며 할당된 사용 권한을 사용할 수 없습니다.
 
-- **메일 사용이 가능한 보안 그룹:** 관리자 역할에 대한 액세스 권한이 필요한 메일 사용자 및 기타 보안 그룹 모음입니다. 예를 들어 특정 사용자 그룹에 스팸 방지 및 맬웨어 방지 설정을 구성할 수 있도록 관리자 권한을 부여할 수 있습니다.
+- **메일 사용이 가능한 보안 그룹**: 관리자 역할에 대한 액세스 권한이 필요한 메일 사용자 및 기타 보안 그룹 모음입니다. 예를 들어 특정 사용자 그룹에 스팸 방지 및 맬웨어 방지 설정을 구성할 수 있도록 관리자 권한을 부여할 수 있습니다.
 
     > [!NOTE]
     >
@@ -48,7 +51,7 @@ EAC(Exchange 관리 센터) 및 독립 실행형 EOP PowerShell에서 그룹을 
 
 - 독립 실행형 EOP PowerShell에서 그룹을 관리하는 경우 스로틀이 발생할 수 있습니다. 이 문서의 PowerShell 절차에서는 일괄 처리 방법을 사용하여 명령 결과가 표시되기 몇 분 전에 전파가 지연됩니다.
 
-- 이 문서의 절차를 수행하려면 먼저 Exchange Online Protection에서 사용 권한을 할당해야 합니다. 특히 조직 관리 **및** 받는 사람 관리 역할  그룹에 기본적으로 할당되는 메일 그룹 **역할이** 필요합니다. 자세한 내용은 독립 실행형 [EOP의](feature-permissions-in-eop.md) 사용 권한을 참조하고 EAC를 사용하여 역할 그룹의 구성원 목록을 [수정합니다.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
+- 이 문서의 절차를 수행하려면 먼저 Exchange Online Protection에서 사용 권한을 할당해야 합니다. 특히 조직 관리 **및** 받는 사람 관리 역할  그룹에  기본적으로 할당되는 메일 그룹 역할이 필요합니다. 자세한 내용은 독립 실행형 [EOP의](feature-permissions-in-eop.md) 사용 권한을 참조하고 EAC를 사용하여 역할 그룹의 구성원 목록을 [수정합니다.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
 - 이 문서의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 [Exchange Online의 Exchange](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)관리 센터에 대한 바로 가기 키를 참조하십시오.
 
@@ -83,13 +86,13 @@ EAC(Exchange 관리 센터) 및 독립 실행형 EOP PowerShell에서 그룹을 
 
      소유자를 제거하려면 소유자를 선택한 다음 제거 **아이콘을** ![ ](../../media/ITPro-EAC-RemoveIcon.gif) 클릭합니다.
 
-   - **구성원**: 그룹 구성원을 추가 및 제거합니다.
+   - **구성원:** 그룹 구성원을 추가 및 제거합니다.
 
      구성원을 추가하려면 추가 **아이콘을** ![ ](../../media/ITPro-EAC-AddIcon.png) 클릭합니다. 나타나는 대화 상자에서 받는 사람 또는 그룹을 찾아 선택한 다음 **->.** 필요한 만큼 이 단계를 반복합니다. 작업을 마친 후 **확인** 을 클릭합니다.
 
-     구성원을 제거하려면 구성원을 선택한 다음 제거 **아이콘을** ![ ](../../media/ITPro-EAC-RemoveIcon.gif) 클릭합니다.
+     구성원을 제거하려면 구성원을 선택하고 제거 **아이콘을** ![ ](../../media/ITPro-EAC-RemoveIcon.gif) 클릭합니다.
 
-4. 완료되면 저장을 클릭하여 **메일** 그룹을 만드시다.
+4. 완료되면 저장을 클릭하여 **메일** 그룹을 만들 수 있습니다.
 
 ### <a name="use-the-eac-to-modify-distribution-groups"></a>EAC를 사용하여 메일 그룹 수정
 
@@ -101,7 +104,7 @@ EAC(Exchange 관리 센터) 및 독립 실행형 EOP PowerShell에서 그룹을 
 
    작업을 마쳤으면 **저장** 을 클릭합니다.
 
-#### <a name="general"></a>일반
+#### <a name="general"></a>일반 사항
 
 이 탭을 사용하여 그룹에 대한 기본 정보를 보거나 변경합니다.
 
@@ -121,7 +124,7 @@ EAC(Exchange 관리 센터) 및 독립 실행형 EOP PowerShell에서 그룹을 
 
 소유자를 추가하려면 추가 **아이콘을** ![ ](../../media/ITPro-EAC-AddIcon.png) 클릭합니다. 나타나는 대화 상자에서 받는 사람을 찾아 선택한 다음 **->.** 필요한 만큼 이 단계를 반복합니다. 작업을 마친 후 **확인** 을 클릭합니다.
 
-소유자를 제거하려면 소유자를 선택한 다음 제거 **아이콘을** ![ ](../../media/ITPro-EAC-RemoveIcon.gif) 클릭합니다.
+소유자를 제거하려면 소유자를 선택한 다음 아이콘 **제거를** ![ ](../../media/ITPro-EAC-RemoveIcon.gif) 클릭합니다.
 
 #### <a name="membership"></a>구성원
 

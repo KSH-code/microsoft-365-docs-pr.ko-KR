@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: Admin
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -20,17 +19,22 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: 08ad29eebb0f0c144268866922f12959600bf7cf
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 7624b9a62530e54a161bbc4aacc8bee56ed959b2
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794187"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150727"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
 > 이 문서는 [Office 365용 Microsoft Defender](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)가 있는 비즈니스 고객을 대상으로 합니다. Outlook.com, Microsoft 365 Family 또는 Microsoft 365 Personal을 사용하고 있고 Outlook의 안전한 링크 또는 안전한 첨부 파일에 대한 정보를 찾고 있다면 [Office 365 구독자용 고급 Outlook.com 보안](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조하세요.
@@ -77,7 +81,7 @@ Office 365용 Microsoft Defender가 처음이거나 *사용하면서* 배우기 
 
 |Office 365용 Microsoft Defender 플랜 1|Office 365용 Microsoft Defender 플랜 2|
 |---|---|
-|구성, 보호 및 검색 기능: <ul><li>[안전한 첨부 파일](atp-safe-attachments.md)</li><li>[안전한 링크](atp-safe-links.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)</li><li>[Office 365용 Defender 보호의 피싱 방지](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[실시간 탐지](threat-explorer.md)</li></ul>|Office 365용 Microsoft Defender 플랜 1 기능 <br>--- 추가 ---<br> 자동화, 조사, 수정 및 교육 기능:<ul><li>[위협 트래커](threat-trackers.md)</li><li>[위협 탐색기](threat-explorer.md)</li><li>[자동화된 조사 및 응답](office-365-air.md)</li><li>[공격 시뮬레이터](attack-simulator.md)</li><li>[캠페인 보기](campaigns.md)</li></ul>|
+|구성, 보호 및 검색 기능: <ul><li>[안전한 첨부 파일](atp-safe-attachments.md)</li><li>[안전한 링크](atp-safe-links.md)</li><li>[SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](atp-for-spo-odb-and-teams.md)</li><li>[Office 365용 Defender 보호의 피싱 방지](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[실시간 탐지](threat-explorer.md)</li></ul>|Office 365용 Microsoft Defender 플랜 1 기능 <br>--- 추가 ---<br> 자동화, 조사, 수정 및 교육 기능:<ul><li>[위협 트래커](threat-trackers.md)</li><li>[위협 탐색기](threat-explorer.md)</li><li>[자동화된 조사 및 응답](office-365-air.md)</li><li>[공격 시뮬레이터](attack-simulator.md)</li><li>[캠페인 보기](campaigns.md)</li></ul>|
 |
 
 - Office 365용 Microsoft Defender 플랜 2는 Office 365 E5, Office 365 A5, Microsoft 365 E5 Security 및 Microsoft 365 E5에 포함되어 있습니다.
@@ -105,7 +109,7 @@ Office 365용 Microsoft Defender를 사용하여 조직의 보안팀은 보안 �
 
 - **[안전한 링크](atp-safe-links.md)** 전자 메일 메시지 및 Office 파일 등에서 URL의 클릭시간 확인기능을 제공합니다. 보호가 진행 중이며 메시징 및 Office 환경에 적용됩니다. 클릭 할 때마다 링크가 검색됩니다. 안전한 링크는 계속 액세스할 수 있으며 악성 링크는 동적으로 차단됩니다. 자세한 내용은 [안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)을 참조하세요.
 
-- **[SharePoint, OneDrive 및 Microsoft Teams용 ATP](atp-for-spo-odb-and-teams.md)**: 팀 사이트 및 문서 라이브러리에서 악성 파일을 식별하고 차단하여 사용자가 파일을 공동 작업하고 공유할 때 사용자 조직을 보호합니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365용 Defender 실행](turn-on-atp-for-spo-odb-and-teams.md)을 참조하세요.
+- **[SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](atp-for-spo-odb-and-teams.md)**: 팀 사이트 및 문서 라이브러리에서 악성 파일을 식별하고 차단하여 사용자가 파일을 공동 작업하고 공유할 때 사용자 조직을 보호합니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365용 Defender 실행](turn-on-atp-for-spo-odb-and-teams.md)을 참조하세요.
 
 - **[Office 365용 Defender의 피싱 방지 보호](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)**: 사용자와 내부 또는 사용자 지정 도메인으로 위장하려는 시도를 감지합니다. 피싱 공격을 피하기 위해 기계 학습 모델과 고급 위장 탐지 알고리즘을 적용합니다. 자세한 내용은 [Office 365용 Microsoft Defender에서 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)을 참조하세요.
 

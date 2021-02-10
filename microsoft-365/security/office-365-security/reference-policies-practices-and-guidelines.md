@@ -8,92 +8,97 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
-description: Microsoft는 다양 한 정책과 절차를 개발 하 고 사용자가 악성 전자 메일, 원치 않는 이메일 또는 악의적으로 보호 하는 데 도움이 되는 몇 가지 업계 모범 사례를 채택 했습니다.
-ms.openlocfilehash: b971823201fb805c9e17da8402250065d274668d
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: Microsoft는 다양한 정책, 절차를 개발하고, 악의적, 원치 않는 전자 메일 또는 악의적인 전자 메일로부터 사용자를 보호하기 위해 다양한 업계 모범 사례를 채택했습니다.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 01df2e8c1cc8a8ca68688377c4cad6ade91b5623
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202378"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166858"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>참조: 정책, 사례 및 지침
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Microsoft는 웹에서 가장 신뢰할 수 있는 사용자 환경을 제공 하기 위해 노력 하 고 있습니다. 따라서 Microsoft는 다양 한 정책 및 절차를 개발 하 고 사용자가 악성 메일, 원치 않음 또는 악의 있는 이메일을 방지 하는 데 도움이 되는 여러 업계 모범 사례를 채택 했습니다. 사용자에 게 전자 메일을 보내려고 시도 하는 경우이 문서의 지침에 따라 이러한 작업을 수행 하 고 잠재적인 배달 문제를 방지 하는 데 도움이 되는 정보를 숙지 해야 합니다.
+Microsoft는 웹에서 가장 신뢰할 수 있는 사용자 환경을 제공하기 위해 전념하고 있습니다. 따라서 Microsoft는 다양한 정책, 절차를 개발하고, 악의적이거나 원치 않는 전자 메일 또는 악의적인 전자 메일로부터 사용자를 보호하기 위해 다양한 업계 모범 사례를 채택했습니다. 사용자에게 전자 메일을 보내고자 하는 보낸 사람은 이 문서의 지침을 완전히 이해하고 이 문서의 지침을 따라야 합니다. 이러한 노력에 도움을 주며 잠재적인 배달 문제를 방지하는 데 도움이 됩니다.
 
-이러한 정책 및 지침을 준수 하지 않는 경우 지원 팀이 도움을 드릴 수 없습니다. 이 문서에서 설명 하는 지침, 사례 및 정책에 따라 보내는 IP 주소를 기반으로 하는 배달 문제가 여전히 발생 하 고 있는 경우에는 단계에 따라 목록 이외의 요청을 제출 하십시오. 자세한 내용은 [목록 해제 포털을 사용 하 여 수신 거부 목록에서 자신 제거](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)를 참조 하세요.
+이러한 정책 및 지침을 준수하지 않는 경우 지원 팀에서 도움을 받지 못하게 될 수 있습니다. 이 문서에 제시된 지침, 사례 및 정책을 준수하고 있으며 보내는 IP 주소를 기반으로 배달 문제가 계속 발생하는 경우 단계에 따라 목록링 요청을 제출하세요. 자세한 내용은 목록 제거 포털을 사용하여 수신 차단된 보낸 사람 목록에서 자신을 [제거합니다.](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)
 
 ## <a name="general-microsoft-policies"></a>일반 Microsoft 정책
 
-Microsoft 365 사용자에 게 전송 되는 전자 메일은 전자 메일 전송 및 Microsoft 365 사용을 관리 하는 모든 Microsoft 정책을 준수 해야 합니다.
+Microsoft 365 사용자에게 전송되는 전자 메일은 Microsoft 365의 전자 메일 전송 및 사용을 규정하는 모든 Microsoft 정책을 준수해야 합니다.
 
-- Microsoft 365에 해당 하는 서비스 약관 특히, prohibition는 서비스를 사용 하 여 스팸을 보내거나 맬웨어를 배포 하는 것을 방지 합니다.
+- Microsoft 365에 적용되는 서비스 약관 특히 서비스를 사용하여 스팸을 방지하거나 맬웨어를 배포하는 것이 금지됩니다.
 
 - [Microsoft 서비스 계약](https://www.microsoft.com/servicesagreement/)
 
 ## <a name="governmental-regulations"></a>정부 규정
 
-Microsoft 365 사용자에 게 전송 된 전자 메일은 해당 하는 관할지의 전자 메일 통신을 규제 하는 모든 관련 법률 및 규정을 준수 해야 합니다.
+Microsoft 365 사용자에게 전송되는 전자 메일은 해당 관할권의 전자 메일 통신을 규정하는 모든 관련 법률 및 규정을 준수해야 합니다.
 
-- [CAN-스팸 Act: 비즈니스에 대 한 준수 가이드](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)
+- [CAN-SPAM Act: A Compliance Guide for Business](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)
 
-- ["내 정보 제거" 응답 및 책임: 전자 메일 Marketers "구독 취소" 클레임을 준수 해야 함](https://www.lawpublish.com/ftc-emai-marketers-unsubscribe-claims.html)
+- ["제거" 응답 및 책임: 전자 메일 시장은 "구독 취소" 클레임의 수호해야 합니다.](https://www.lawpublish.com/ftc-emai-marketers-unsubscribe-claims.html)
 
 ## <a name="technical-guidelines"></a>기술 지침
 
-Microsoft 365로 전송 되는 전자 메일은 아래 문서에 나열 된 적용 가능한 권장 사항을 준수 해야 합니다 (일부 링크는 영어로만 제공 됨).
+Microsoft 365로 전송되는 전자 메일은 아래 문서에 나열된 적용 가능한 권장 사항을 준수해야 합니다(일부 링크는 영어로만 사용 가능).
 
-- [RFC 2505: SMTP Mta에 대 한 스팸 방지 권장 사항](https://www.ietf.org/rfc/rfc2505.txt)
+- [RFC 2505: SMTP MTAS에 대한 스팸 방지 권장 사항](https://www.ietf.org/rfc/rfc2505.txt)
 
-- [RFC 2920: 명령 파이프라이닝에 대 한 SMTP 서비스 확장](https://www.ietf.org/rfc/rfc2920.txt)
+- [RFC 2920: 명령 파이프라이너용 SMTP 서비스 확장](https://www.ietf.org/rfc/rfc2920.txt)
 
-또한 Microsoft 365에 연결 하는 전자 메일 서버는 다음 요구 사항을 충족 해야 합니다.
+또한 Microsoft 365에 연결하는 전자 메일 서버는 다음 요구 사항을 준수해야 합니다.
 
-- 보낸 사람은 인터넷 전자 메일의 전송에 대 한 모든 기술 표준과 RFC 5321, RFC 5322 등을 비롯 한 IETF (인터넷 엔지니어링 작업 강제 실행)를 통해 게시 되는 모든 기술적 표준을 준수 해야 합니다.
+- 보낸 사람이 RFC 5321, RFC 5322 등을 포함하여 인터넷 사회의 IETF(Internet Engineering Task Force)에서 게시한 인터넷 전자 메일 전송에 대한 모든 기술 표준을 준수해야 합니다.
 
-- 500과 599 사이에 숫자 SMTP 오류 응답 코드가 지정 된 후 (영구 배달 응답이 나 NDR이 라고도 함) 보낸 사람은 해당 메시지를 해당 받는 사람에 게 다시 전송 하지 않아야 합니다.
+- 500에서 599 사이의 숫자 SMTP 오류 응답 코드(영구 배달 못성 응답 또는 NDR)를 제공한 후 보낸 사람은 해당 메시지를 해당 받는 사람에게 다시 전송하지 말아야 합니다.
 
-- 배달 못 함 응답이 여러 개 있으면 보낸 사람은 해당 받는 사람에 게 전자 메일을 보내기 위한 추가 시도를 중단 해야 합니다.
+- 배달되지 않은 응답이 여러 개 있는 경우 보낸 사람은 해당 받는 사람에게 전자 메일을 보내기 위해 더 이상 시도를 중단해야 합니다.
 
-- 보안 되지 않은 전자 메일 릴레이 또는 프록시 서버를 통해 메시지를 전송 해서는 안 됩니다.
+- 비보안 전자 메일 릴레이 또는 프록시 서버를 통해 메시지를 전송하면 안 됩니다.
 
-- 구독 취소에 대 한 메커니즘은 개별 목록 또는 보낸 사람이 호스트 하는 모든 목록을 명확 하 게 문서화 하 고 받는 사람에 게 간편 하 게 찾아서 사용할 수 있도록 해야 합니다.
+- 개별 목록 또는 보낸 사람이 호스팅하는 모든 목록에서 수신을 금지하는 메커니즘을 명확하게 문서화하고 받는 사람이 쉽게 찾아 사용할 수 있어야 합니다.
 
-- 동적 IP 공간에서의 연결을 허용 하지 않을 수 있습니다.
+- 동적 IP 공간의 연결이 수락되지 않을 수 있습니다.
 
-- 전자 메일 서버에는 유효한 역방향 DNS 레코드가 있어야 합니다.
+- 전자 메일 서버에 유효한 역방향 DNS 레코드가 있어야 합니다.
 
 ## <a name="reputation-management"></a>신뢰도 관리
 
-보낸 사람, ISP 및 기타 서비스 공급자는 아웃 바운드 IP 주소의 신뢰도를 적극적으로 관리 해야 합니다.
+보낸 사람, ISP 및 기타 서비스 공급자는 아웃바운드 IP 주소의 신뢰도 관리를 적극적으로 관리해야 합니다.
 
 ## <a name="microsoft-365-limits"></a>Microsoft 365 제한
 
-보낸 사람은 [Exchange Online Protection 제한](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)에 나열 된 Microsoft 365 제한을 준수 해야 합니다.
+보낸 사람이 Exchange Online Protection 제한에 나열된 Microsoft 365 [제한을 준수해야 합니다.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
 
 ## <a name="email-delivery-resources-and-organizations"></a>전자 메일 배달 리소스 및 조직
 
-Microsoft는 인터넷 및 전자 메일 에코 시스템을 개선 하기 위해 업계 바디 및 서비스 공급자와 활발 하 게 작동 합니다. 이러한 조직은 지 원하는 모범 사례 문서를 제공 했으며 보낸 사람이 준수 하는 것이 권장 됩니다. 이렇게 하면 전 세계 여러 전자 메일 서비스 공급자 간에 전자 메일을 배달 하는 기능이 향상 됩니다.
+Microsoft는 인터넷 및 전자 메일 에코시스템을 개선하기 위해 산업 기관 및 서비스 공급자와 적극적으로 작업하고 있습니다. 이러한 조직은 보낸 사람이 준수하는 것이 좋습니다. 따라서 전 세계 여러 전자 메일 서비스 공급자가 전자 메일을 배달할 수 있습니다.
 
-- [메시징 맬웨어 모바일 불건전 사용 작업 그룹](https://www.m3aawg.org/)
+- [메시징 맬웨어 모바일 남용 방지 작업 그룹](https://www.m3aawg.org/)
 
-- [온라인 신뢰 동맹](https://www.otalliance.org/resources)
+- [Online Trust Alliance](https://www.otalliance.org/resources)
 
-- [전자 메일 보낸 사람 & 공급자 Coalition](https://www.espcoalition.org/)
+- [전자 메일 보낸 사람 & 공급자 연대](https://www.espcoalition.org/)
 
-## <a name="abuse-and-spam-reporting"></a>불건전 및 스팸 보고
+## <a name="abuse-and-spam-reporting"></a>남용 및 스팸 보고
 
-불법적, 악성 글, 원치 않는 전자 메일 또는 악성 메일이 보고 되도록 하려면 [Microsoft에 메시지 및 파일 보고서](report-junk-email-messages-to-microsoft.md)를 참조 하세요. 이러한 유형의 통신을 전송 하는 것은 Microsoft 정책 위반 이며 확인 된 보고서에 대해 적절 한 작업을 수행 합니다.
+위조, 악의적, 원치 않는 또는 악의적인 전자 메일을 보고하려면 Microsoft에 메시지 및 [파일을 보고하세요.](report-junk-email-messages-to-microsoft.md) 이러한 유형의 통신을 보내는 것은 Microsoft 정책을 위반하며 확인된 보고서에 대해 적절한 조치를 취합니다.
 
 ## <a name="law-enforcement"></a>법 집행
 
-사법 기관 구성원 인 경우 Office 365에 대 한 법적 설명서를 제공 하거나 microsoft에 제출한 법적 설명서에 대 한 질문이 있는 경우에는 (1) (425) 722-1299을 (를) 호출 해 보세요.
+사법 기관의 구성원이자 Office 365에 관한 법적 문서를 Microsoft Corporation에 지원하고 싶은 경우 또는 Microsoft에 제출한 법적 문서와 관련하여 문의할 경우 (1) (425) 722-1299로 전화하십시오.

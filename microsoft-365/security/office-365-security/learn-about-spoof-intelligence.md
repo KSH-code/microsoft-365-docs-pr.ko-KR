@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: Admin
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
@@ -18,22 +17,28 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 특정 스푸핑된 보낸 사람 허용 또는 차단할 수 있는 EOP(Exchange Online Protection)의 스푸핑 인텔리전스에 대해 학습할 수 있습니다.
-ms.openlocfilehash: 603aeb35241f9808561593afa69b3b9ce7193fb0
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+description: 관리자는 특정 스푸핑된 보낸 사람에 대해 허용하거나 차단할 수 있는 EOP(Exchange Online Protection)의 스푸핑 인텔리전스에 대해 학습할 수 있습니다.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 55a744cf2d226e72e8d84f6eb125f2baf9b9d3a0
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760533"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167266"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>EOP에서 스푸핑 인텔리전스 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 인바운드 전자 메일 메시지는 2018년 10월부로 EOP의 스푸핑으로부터 자동으로 보호됩니다. EOP는 피싱에 대한 조직의 전반적인 방어의 일부로 스푸핑 인텔리전스를 활용합니다. 자세한 내용은 EOP의 스푸핑 방지 보호 [기능을 참조하세요.](anti-spoofing-protection.md)
+Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 인바운드 전자 메일 메시지는 2018년 10월부로 EOP의 스푸핑으로부터 자동으로 보호됩니다. EOP는 피싱에 대한 조직의 전반적인 방어의 일부로 스푸핑 인텔리전스를 활용합니다. 자세한 내용은 EOP의 스푸핑 방지 보호 [기능을 참조하세요.](anti-spoofing-protection.md)
 
-보낸 사람이 전자 메일 주소를 스푸핑하면 조직의 도메인 중 하나에 있는 사용자 또는 조직에 전자 메일을 보내는 외부 도메인의 사용자로 표시됩니다. 스팸 또는 피싱 전자 메일을 보내기 위해 보낸 사람 스푸핑하는 공격자는 차단해야 합니다. 그러나 합법적인 보낸 사람이 스푸핑하는 시나리오가 있습니다. 예제:
+보낸 사람이 전자 메일 주소를 스푸핑하면 조직의 도메인 중 하나에 있는 사용자 또는 조직에 전자 메일을 보내는 외부 도메인의 사용자로 표시됩니다. 스팸 또는 피싱 전자 메일을 보내기 위해 보낸 사람 스푸핑하는 공격자는 차단해야 합니다. 그러나 합법적인 보낸 사람이 스푸핑하는 시나리오가 있습니다. 예:
 
 - 내부 도메인 스푸핑에 대한 합법적인 시나리오:
 
@@ -91,7 +96,7 @@ Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 
    - **도메인:** 보낸 사람이 내부 도메인의 사용자를 스푸핑합니다.
    - **외부 도메인**: 보낸 사람이 외부 도메인의 사용자를 스푸핑합니다.
 
-5. 스푸핑 허용 열에서 확장 ![ ](../../media/scc-expand-icon.png) **아이콘을** 클릭합니다. **스푸핑된** 보낸 사람이 허용하도록 허용하거나 **아니요를** 선택하면 메시지가 스푸핑된 메시지로 표시됩니다. 이 작업은 기본 피싱 방지 정책 또는 사용자 지정 피싱 방지 정책에 의해 제어됩니다(기본값은 정크 메일 폴더로 메시지 **이동).** 자세한 내용은 피싱 방지 정책의 [스푸핑 설정을 참조하세요.](set-up-anti-phishing-policies.md#spoof-settings)
+5. 스푸핑 허용 열에서 확장 ![ ](../../media/scc-expand-icon.png) **아이콘을** 클릭합니다. **스푸핑된** 보낸 사람이 허용하도록 허용하거나 **아니요를** 선택하면 메시지를 스푸핑된 메시지로 표시하도록 할 수 있습니다. 이 작업은 기본 피싱 방지 정책 또는 사용자 지정 피싱 방지 정책에 의해 제어됩니다(기본값은 정크 메일 폴더로 메시지 **이동).** 자세한 내용은 피싱 방지 정책의 [스푸핑 설정을 참조하세요.](set-up-anti-phishing-policies.md#spoof-settings)
 
    ![스푸핑된 보낸 사람 플라이아웃 및 보낸 사람이 스푸핑을 허용하는지 여부를 보여 줄 수 있는 스크린샷](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
 
@@ -120,7 +125,7 @@ Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 
        - **스푸핑 인텔리전스** 정책(자동)
        - **관리자(수동)**
 
-   - **마지막 확인** 날짜: 스푸핑된 사용자가 포함된 보내는 인프라에서 메시지를 받은 마지막 날짜입니다.
+   - **마지막으로 확인한** 날짜: 스푸핑된 사용자가 포함된 보내는 인프라에서 메시지를 받은 마지막 날짜입니다.
 
    - **스푸핑이 허용되는 경우:** 여기에 있는 값은 다음과 같습니다.
      - **예:** 스푸핑된 사용자와 보내는 인프라의 조합에서 보낸 메시지는 허용될 수 있으며 스푸핑된 전자 메일로 처리되지 않습니다.
@@ -132,7 +137,7 @@ Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 
 
 ## <a name="use-powershell-to-manage-spoofed-senders"></a>PowerShell을 사용하여 스푸핑된 보낸 사람 관리
 
-스푸핑 인텔리전스에서 허용된 보낸 사람 및 차단된 보낸 사람 확인을 위해 다음 구문을 사용 합니다.
+스푸핑 인텔리전스에서 허용 및 수신이 차단된 보낸 사람 보기를 위해 다음 구문을 사용 합니다.
 
 ```powershell
 Get-PhishFilterPolicy [-AllowedToSpoof <Yes | No | Partial>] [-ConfidenceLevel <Low | High>] [-DecisionBy <Admin | SpoofProtection>] [-Detailed] [-SpoofType <Internal | External>]
@@ -154,7 +159,7 @@ Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
    Get-PhishFilterPolicy -Detailed | Export-CSV "C:\My Documents\Spoofed Senders.csv"
    ```
 
-2. CSV 파일을 편집하여 **SpoofedUser(전자** 메일 주소) 및 **AllowedToSpoof(예** 또는 아니요) 값을 추가하거나 수정합니다. 파일을 저장하고, 파일을 읽고, 다음 변수로 콘텐츠를 `$UpdateSpoofedSenders` 저장합니다.
+2. CSV 파일을 편집하여 **SpoofedUser(전자** 메일 주소) 및 **AllowedToSpoof(예** 또는 아니요) 값을 추가하거나 수정합니다. 파일을 저장하고 파일을 읽고 다음 변수로 `$UpdateSpoofedSenders` 저장합니다.
 
    ```powershell
    $UpdateSpoofedSenders = Get-Content -Raw "C:\My Documents\Spoofed Senders.csv"
@@ -184,7 +189,7 @@ Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
 
 - 보안 & 준수 센터에서 위협 관리  정책 스팸 방지 확장 스푸핑 \>  \>  \> **인텔리전스** \>  \>    정책으로 이동하여 이미 검토한 보낸 사람 표시 또는 도메인 또는 외부 도메인 탭을 선택하고 스푸핑 허용 여부 확인을 선택합니다.
 
-- PowerShell에서 다음 명령을 실행하여 스푸핑이 허용되지 않은 보낸 사람 보기
+- PowerShell에서 다음 명령을 실행하여 스푸핑이 허용 및 스푸핑이 허용되지 않은 보낸 사람 보기
 
   ```powershell
   Get-PhishFilterPolicy -AllowedToSpoof Yes -SpoofType Internal

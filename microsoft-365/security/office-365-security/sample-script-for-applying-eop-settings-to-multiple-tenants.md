@@ -8,23 +8,26 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 PowerShell을 사용하여 EOP(Microsoft Exchange Online Protection)의 테넌트에 구성 설정을 적용하는 방법을 배우게 됩니다.
-ms.openlocfilehash: b18fc71171a93e2a2f415800bcf2b5abd5c5a526
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: b7d856a7cec3bddc32455ba3afadf0323ddce935
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615867"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166594"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>여러 테넌트에 EOP 설정을 적용하기 위한 샘플 스크립트
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+-  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
 
 다음 샘플 스크립트를 사용하면 여러 테넌트(회사)를 관리하는 EOP(Microsoft Exchange Online Protection) 관리자가 Exchange Online PowerShell을 사용하여 해당 테넌트에 구성 설정을 보고/또는 적용할 수 있습니다.
 
@@ -34,7 +37,7 @@ ms.locfileid: "49615867"
 
 2. 스프레드시트 앱(예: Excel)을 사용하여 다음 세부 정보가 있는 .csv 파일을 생성합니다.
 
-   - UserName 열: 연결하는 데 사용할 계정입니다(예: `admin@contoso.onmicrosoft.com` ).
+   - UserName 열: 연결하는 데 사용할 계정(예: `admin@contoso.onmicrosoft.com` ).
    - cmdlet 열: 실행할 cmdlet 또는 명령(예: `Get-AcceptedDomain` `Get-AcceptedDomain | FT Name`
 
    파일은 다음과 같이 표시됩니다.

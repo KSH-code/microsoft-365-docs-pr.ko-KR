@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,17 +15,21 @@ ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
 description: 독립 실행형 EOP(Exchange Online Protection)의 웹 관리 인터페이스에 대해 자세히 알아보습니다.
-ms.openlocfilehash: fc76ecd6dafcf9453a0c6de14917c96c950f8370
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 81af6c64d2ec3204d0c9d46888bbfe21335955bd
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659669"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166222"
 ---
 # <a name="exchange-admin-center-in-standalone-eop"></a>독립 실행형 EOP의 Exchange 관리 센터
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+-  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
 
 EAC(Exchange 관리 센터)는 독립 실행형 EOP(Exchange Online Protection)를 위한 웹 기반 관리 콘솔입니다.
 
@@ -71,9 +74,9 @@ EAC(Exchange 관리 센터)는 독립 실행형 EOP(Exchange Online Protection)�
   > [!NOTE]
   > 맬웨어 방지 정책 및 기본 연결 필터 정책은 보안 및 준수 센터에서 & 합니다. 자세한 내용은 [EOP에서](configure-anti-malware-policies.md) 맬웨어 방지 정책 구성 및 [EOP에서 연결 필터링 구성을 참조하세요.](configure-the-connection-filter-policy.md)
 
-- **메일 흐름**: 여기서 메일 흐름 규칙(전송 규칙), 허용 도메인 및 커넥터를 관리할 수 있으며 메시지 추적을 실행할 수 있습니다.
+- **메일 흐름**: 이 규칙을 통해 메일 흐름 규칙(전송 규칙), 허용 도메인 및 커넥터를 관리할 수 있으며 메시지 추적을 실행할 수 있습니다.
 
-- **하이브리드**: 하이브리드 구성 마법사를 실행할 수 있으며 Exchange [Online PowerShell](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell)모듈을 설치할 수 있는 위치입니다. [](https://docs.microsoft.com/Exchange/hybrid-configuration-wizard)
+- **하이브리드**: 여기서 하이브리드 구성 [](https://docs.microsoft.com/Exchange/hybrid-configuration-wizard)마법사를 실행할 수 있으며 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell)모듈을 설치할 수 있습니다.
 
 ### <a name="tabs"></a>탭
 
@@ -109,8 +112,8 @@ EAC(Exchange 관리 센터)는 독립 실행형 EOP(Exchange Online Protection)�
 
 **내 소식** 타일을 통해 EAC에서 로그아웃하고 다른 사용자로 로그인할 수 있습니다. 도움말 **아이콘** 드롭다운 메뉴에서 ![ 다음 작업을 수행할 수 ](../../media/ITPro-EAC-HelpIcon.gif) 있습니다.
 
-- **도움말**: 도움말 ![ 아이콘을 ](../../media/ITPro-EAC-HelpIcon.gif) 클릭하여 온라인 도움말 콘텐츠를 볼 수 있습니다.
-- **피드백:** 피드백을 남기기
+- **도움말**: 도움말 ![ 아이콘을 클릭하여 ](../../media/ITPro-EAC-HelpIcon.gif) 온라인 도움말 콘텐츠를 볼 수 있습니다.
+- **피드백**: 피드백을 남기기
 - **커뮤니티**: 커뮤니티 포럼에서 답변을 찾을 수 있는 질문을 게시합니다.
 - **풍선형 도움말** 사용 안 합니다. 풍선형 도움말은 개체를 만들거나 편집할 때 필드에 대한 상황에 맞는 도움말을 나타냅니다. 풍선형 도움말을 끌 수 있으며, 풍선형 도움말을 사용하지 않도록 설정한 경우에는 켤 수 있습니다.
 - **명령 로깅** 표시 : EAC에서 구성한 명령에 따라 해당하는 PowerShell 명령을 표시하는 새 창이 열립니다.

@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: 11/21/2019
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -18,23 +17,23 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365에서 사용자 지정 도메인과 함께 SPF(Sender Policy Framework)를 사용할 수 있도록 DNS(도메인 이름 서비스) 레코드를 업데이트하는 방법을 알아봅니다.
-ms.openlocfilehash: 536f727ee71db70490259179ff8e47009c547f89
-ms.sourcegitcommit: 64262f6f42dcce6a4608b2e3c7ca6190b7009093
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: fbed28047b88a3eff75f574fc4d2581a75f15518
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49905226"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166234"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>스푸핑을 방지할 수 있도록 SPF 설정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-- [필수 구성 요소](#prerequisites)
-- [SPF TXT 레코드 생성 또는 업데이트](#create-or-update-your-spf-txt-record)   
-  - [하위 도메인을 어떻게 처리하나요?](#how-to-handle-subdomains)
-- [SPF 전자 메일 인증이 실제로 하는 일은 무엇인가요?](#what-does-spf-email-authentication-actually-do)   
-   - [SPF 문제 해결](#troubleshooting-spf)
-- [SPF에 대한 자세한 정보](#more-information-about-spf)
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 이 문서에서는 Office 365에서 사용자 지정 도메인과 함께 SPF(Sender Policy Framework) 전자 메일 인증을 사용할 수 있도록 DNS(Domain Name Service) 레코드를 업데이트하는 방법에 대해 설명합니다.
 

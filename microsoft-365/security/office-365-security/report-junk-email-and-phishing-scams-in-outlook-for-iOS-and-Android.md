@@ -17,19 +17,23 @@ ms.collection:
 description: 관리자는 iOS 및 Android용 Outlook에서 정크 메일이 아닌 기본 제공 정크 및 피싱 전자 메일 보고 옵션에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d702ab1d97c07c3e38430a9a7beff5f14db7b60a
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 58027f7589280b1266cddc8cfbf44db9e4f0ece4
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029283"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166822"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Exchange Online에서 iOS 및 Android용 Outlook에서 정크 메일 및 피싱 메일 보고
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-하이브리드 최신 인증을 사용하는 Microsoft 365 조직 또는 하이브리드 [](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview)최신 인증을 사용하는 Microsoft 365 조직에서는 iOS 및 Android용 Outlook의 기본 제공 보고 옵션을 사용하여 가음성(스팸으로 표시된 양호한 전자 메일), 거짓 부정(잘못된 전자 메일 허용) 및 피싱 메시지를 EOP(Exchange Online Protection)에 제출할 수 있습니다.
+Exchange Online 또는 하이브리드 최신 인증을 사용하는 사서함이 있는 Microsoft [](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview)365 조직에서는 iOS 및 Android용 Outlook의 기본 제공 보고 옵션을 사용하여 가음성(스팸으로 표시된 양호한 전자 메일), 거짓 부정(잘못된 전자 메일 허용) 및 피싱 메시지를 EOP(Exchange Online Protection)에 제출할 수 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 것
 
@@ -55,7 +59,7 @@ ms.locfileid: "50029283"
 
    ![정크 메일 또는 피싱 메일 보고](../../media/Android-report-junk-or-phishing.png)
 
-4. 나타나는 대화 상자에서 보고서 또는  감사 **없음을 선택할 수 있습니다.** 아니요를 선택하면 정크 메일  폴더로 정크 메일을 입력하면 피싱 메시지를  지우기 폴더로 이동합니다.  보고서를 **선택하여** 메시지 복사본도 Microsoft에 보낼 수 있습니다.
+4. 나타나는 대화 상자에서 보고서 또는  감사 **없음을 선택할 수 있습니다.** 아니요를 선택하면 정크 메일을  입력하면 메시지가 정크 메일 폴더로 이동되고  피싱 메시지를 지우기 폴더로 이동합니다.  보고서를 **선택하여** 메시지 복사본도 Microsoft에 보낼 수 있습니다.
 
    ![정크 메일 또는 피싱 전자 메일 보고 옵션 보고](../../media/Android-junk-email-reporting-options.png)
 

@@ -8,24 +8,27 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 디렉터리 동기화, EAC 및 PowerShell을 사용하여 사용자를 관리하는 방법을 포함하여 EOP(Exchange Online Protection)에서 메일 사용자를 관리하는 방법에 대해 자세히 알아보십시오.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a8258a63fe0fbf4a6b5641fbdef213f25de2e4dd
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 34edafea7567da04094ea386d469d3d27937eee5
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658836"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166396"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>독립 실행형 EOP에서 메일 사용자 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+-  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
 
-Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 메일 사용자가 기본 유형의 사용자 계정입니다. 메일 사용자는 독립 실행형 EOP 조직에 계정 자격 증명을 가지며 리소스에 액세스할 수 있습니다(사용 권한이 할당되어 있습니다). 메일 사용자의 전자 메일 주소가 외부(예: 전자 메일 환경의 경우)입니다.
+Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 메일 사용자는 기본 유형의 사용자 계정입니다. 메일 사용자는 독립 실행형 EOP 조직에 계정 자격 증명을 가지며 리소스에 액세스할 수 있습니다(사용 권한이 할당되어 있습니다). 메일 사용자의 전자 메일 주소가 외부(예: 전자 메일 환경의 경우)입니다.
 
 > [!NOTE]
 > 메일 사용자를 만들면 Microsoft 365 관리 센터에서 해당 사용자 계정을 사용할 수 있습니다. Microsoft 365 관리 센터에서 사용자 계정을 만들 때 해당 계정을 사용하여 메일 사용자를 만들 수 없습니다.
@@ -40,7 +43,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protect
 
 - 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
-- EOP PowerShell에서 메일 사용자를 만들 때 스로틀이 발생할 수 있습니다. 또한 EOP PowerShell cmdlet은 일괄 처리 방법을 사용하여 명령 결과가 표시되기 몇 분 전에 전파가 지연됩니다.
+- EOP PowerShell에서 메일 사용자를 만들 때 스로틀이 발생할 수 있습니다. 또한 EOP PowerShell cmdlet은 일괄 처리 방법을 사용하여 명령 결과가 표시되기 몇 분 전에 전파 지연이 발생하게 됩니다.
 
 - 이 문서의 절차를 수행하려면 먼저 Exchange Online Protection에서 사용 권한을 할당해야 합니다. 특히 조직 관리(전역 관리자) 및 받는 사람 관리 역할 그룹에 기본적으로 할당되는  **Mail Recipient Creation(만들기)** 및 **메일** 받는 사람(수정) 역할이 필요합니다.  자세한 내용은 독립 실행형 [EOP의](feature-permissions-in-eop.md) 사용 권한을 참조하고 EAC를 사용하여 역할 그룹의 구성원 목록을 [수정합니다.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
@@ -71,7 +74,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protect
 
    - <sup>\*</sup>**사용자 ID:** 사용자가 서비스에 로그인하는 데 사용할 계정을 입력합니다. 사용자 ID는 @(@) 기호 왼쪽의 사용자 이름과 오른쪽에 있는 도메인으로 구성됩니다.
 
-   - <sup>\*</sup>**새 암호** 및 <sup>\*</sup> **암호 확인:** 계정 암호를 입력하고 다시 입력합니다. 암호가 조직의 암호 길이, 복잡성 및 내역 요구 사항을 준수하는지 확인합니다.
+   - <sup>\*</sup>**새 암호** 및 <sup>\*</sup> **암호 확인:** 계정 암호를 입력하고 다시 입력합니다. 암호가 조직의 암호 길이, 복잡성 및 기록 요구 사항을 준수하는지 확인합니다.
 
 3. 모든 설정이 끝나면 **저장** 을 클릭하여 메일 사용자를 만듭니다.
 
@@ -85,7 +88,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protect
 
    작업을 마쳤으면 **저장** 을 클릭합니다.
 
-#### <a name="general"></a>일반
+#### <a name="general"></a>일반 사항
 
 일반 **탭을** 사용하여 메일 사용자에 대한 기본 정보를 보거나 변경합니다.
 
@@ -250,7 +253,7 @@ Remove-EOPMailUser -Identity "Jeffrey Zeng"
 
 ## <a name="use-directory-synchronization-to-manage-mail-users"></a>디렉터리 동기화를 사용하여 메일 사용자 관리
 
-독립 실행형 EOP에서는 Exchange Active Directory가 있는 고객이 디렉터리 동기화를 사용할 수 있습니다. 계정의 복사본이 클라우드에 저장되는 Azure AD(Azure Active Directory)와 해당 계정을 동기화할 수 있습니다. 기존 사용자 계정을 Azure Active Directory와 동기화할 때 EAC(Exchange 관리 센터)의 받는 사람 창 또는 독립 실행형 EOP PowerShell에서 해당 사용자를 볼 수 있습니다. 
+독립 실행형 EOP에서는 Exchange Active Directory가 있는 고객이 디렉터리 동기화를 사용할 수 있습니다. 계정의 복사본이 클라우드에 저장되는 Azure AD(Azure Active Directory)에 해당 계정을 동기화할 수 있습니다. 기존 사용자 계정을 Azure Active Directory와 동기화할 때 EAC(Exchange 관리 센터)의 받는 사람 창 또는 독립 실행형 EOP PowerShell에서 해당 사용자를 볼 수 있습니다. 
 
 **참고**:
 
@@ -272,7 +275,7 @@ Azure Active Directory의 하이브리드 ID란? 설명에 따라 필요한 사�
 
 1. Azure AD Connect 동기화에 설명된 대로 디렉터리 동기화 활성화: 동기화 이해 및 [사용자 지정.](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)
 
-2. Azure AD Connect의 선행 구성에 설명된 바와 같이 AAD Connect를 실행하도록 On-프레미스 컴퓨터를 설치 [및 구성합니다.](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites)
+2. Azure AD Connect의 선행 구성에 설명된 바와 같이 AAD Connect를 실행하도록 On-premises 컴퓨터를 설치 [및 구성합니다.](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites)
 
 3. [Azure AD Connect에 사용할 설치 유형을 선택합니다.](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-select-installation)
 

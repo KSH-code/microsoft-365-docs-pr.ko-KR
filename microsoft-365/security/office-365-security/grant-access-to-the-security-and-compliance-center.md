@@ -10,32 +10,37 @@ audience: Admin
 ms.topic: how-to
 f1_keywords:
 - ms.o365.cc.PermissionsHelp
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Strat_O365_IP
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
-description: 사용자는 보안 또는 규정 준수 기능을 관리하기 전에 Microsoft 365 보안 & 규정 준수 센터에서 사용 권한을 할당해야 합니다.
+description: 사용자는 보안 또는 규정 준수 기능을 관리하기 전에 Microsoft 365 보안 & 준수 센터에서 사용 권한을 할당해야 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1bf8da85a0e090a9d74934ea5084f547d6a8794f
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 9e19825ce0f8224b2aee8e1419ef5d1ad425aadb
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616611"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165418"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-사용자는 보안 또는 규정 준수 & 관리하기 전에 보안 및 규정 준수 센터에서 사용 권한을 할당해야 합니다. Security & 준수 센터에서 OrganizationManagement 역할 그룹의 전역 관리자 또는 구성원으로 이러한 권한을 사용자에게 부여할 수 있습니다. 사용자는 액세스 권한을 부여 받은 보안 또는 규정 준수 기능만 관리할 수 있습니다.
+사용자는 보안 또는 규정 준수 & 관리하기 전에 보안 및 규정 준수 센터에서 사용 권한을 할당해야 합니다. Security & 준수 센터에서 OrganizationManagement 역할 그룹의 구성원 또는 전역 관리자로 사용자에게 이러한 권한을 부여할 수 있습니다. 사용자는 액세스 권한을 부여 받은 보안 또는 규정 준수 기능만 관리할 수 있습니다.
 
-Security & 준수 센터에서 사용자에게 부여할 수 있는 다양한 사용 권한에 대한 자세한 내용은 보안 및 준수 센터에서 & [있습니다.](permissions-in-the-security-and-compliance-center.md)
+Security & 준수 센터에서 사용자에게 부여할 수 있는 다양한 사용 권한에 대한 자세한 내용은 보안 및 준수 센터에서 & [확인하세요.](permissions-in-the-security-and-compliance-center.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 이 문서의 단계를 완료하려면 전역 관리자 또는 Security & 준수 센터에서 OrganizationManagement 역할 그룹의 구성원이 되거나,
 

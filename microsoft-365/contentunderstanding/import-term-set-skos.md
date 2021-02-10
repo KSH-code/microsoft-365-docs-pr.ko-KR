@@ -11,16 +11,16 @@ ms.service: ''
 ms.collection: enabler-strategic
 search.appverid: ''
 localization_priority: Priority
-ms.openlocfilehash: ba0f240caa8b3452783436e9a35c53d44baba894
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 3d6efce9b6414444793da54d9c6d7be47d6a9a5c
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976438"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145082"
 ---
 # <a name="import-a-term-set-using-a-skos-based-format"></a>SKOS 기반 형식을 사용하여 용어 집합 가져오기
 
-SKOS 기반 형식을 사용하여 용어 집합을 가져올 수 있습니다. 형식에 대한 자세한 내용은 [SharePoint 분류로 된 SKOS 형식 참조](skos-format-reference.md) 보기
+SKOS 기반 형식을 사용하여 용어 집합을 가져올 수 있습니다. 형식에 대한 자세한 내용은 [SharePoint 분류로 된 SKOS 형식 참조](skos-format-reference.md) 보기 이 기능을 사용하려면 [SharePoint Syntex](index.md) 라이선스가 필요합니다.
 
 가져오는 파일의 용어가 20,000개 이하인 것이 좋습니다. 파일이 커지면 유효성 검사와 가져오기에 걸리는 시간이 늘어날 수 있습니다.
 

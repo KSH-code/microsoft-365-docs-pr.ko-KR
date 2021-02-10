@@ -18,17 +18,21 @@ ms.collection:
 description: 관리자는 구성 분석기를 사용하여 표준 보호 및 엄격한 보호 미리 설정 보안 정책 아래에 있는 보안 정책을 찾아 수정하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 04027e78a2683c6c33954bb548c502497c5e8323
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: a78452cb3a7e4cb65c72d98b9322f217309a6d6f
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029481"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165910"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Office 365용 Microsoft Defender의 보호 정책에 대한 구성 분석기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 보안 및 준수 & 센터의 구성 분석기는 설정이 미리 설정된 보안 정책의 표준 보호 및 엄격한 보호 프로필 설정 아래에 있는 보안 정책을 찾고 수정할 수 있는 중앙 [위치를 제공합니다.](preset-security-policies.md)
 
@@ -36,7 +40,7 @@ ms.locfileid: "50029481"
 
 - **EOP(Exchange Online Protection)** 정책: Exchange Online 사서함이 있는 Microsoft 365 조직과 Exchange Online 사서함이 없는 독립 실행형 EOP 조직이 포함됩니다.
 
-  - [스팸 방지 정책](configure-your-spam-filter-policies.md).
+  - [스팸 방지 정책.](configure-your-spam-filter-policies.md)
   - [맬웨어 방지 정책](configure-anti-malware-policies.md).
   - [EOP 피싱 방지 정책.](set-up-anti-phishing-policies.md#spoof-settings)
 
@@ -52,17 +56,17 @@ ms.locfileid: "50029481"
 
   - [안전한 첨부 파일 정책.](set-up-atp-safe-attachments-policies.md)
 
-기준으로 **사용되는** **표준** 및 엄격한 정책 설정 값은 EOP 및 [Office 365용 Microsoft Defender](recommended-settings-for-eop-and-office365-atp.md)보안에 대한 권장 설정에 설명되어 있습니다.
+기준으로 사용되는 **표준** 및 **엄격한** 정책 설정 값은 [EOP 및 Office 365용 Microsoft Defender](recommended-settings-for-eop-and-office365-atp.md)보안에 대한 권장 설정에 설명되어 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. 구성 분석기 **페이지로** 직접 이동하려면 <https://protection.office.com/configurationAnalyzer> 다음을 사용하세요.
+- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. 구성 분석기 **페이지로** 직접 이동하려면 <https://protection.office.com/configurationAnalyzer> .
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
 - 이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 할당받아야 합니다.
   - 구성 분석기를 사용하여  보안 정책을 업데이트하려면 **조직** 관리 또는 보안 관리자 역할 그룹의 **구성원이** 되어야 합니다.
-  - 구성 분석기에 대한 읽기 전용 액세스 권한을 사용하려면  전역 읽기 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되어야 합니다.
+  - 구성 분석기에 대한 읽기 전용 액세스 권한을 사용하려면  전역 읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되어야 합니다.
 
   자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
@@ -120,7 +124,7 @@ ms.locfileid: "50029481"
 
 - **마지막으로 수정한** 날짜: 정책을 마지막으로 수정한 날짜입니다.
 
-- **권장** 사항 : 표준 또는 엄격한 보호 프로필의 설정 값입니다. 정책의 설정 값을 보호 프로필의 권장 값과 일치하게 변경하려면 채택을 **클릭합니다.** 변경에 성공하면 다음 메시지가 **표시됩니다. 추천이 성공적으로 채택됩니다.** 새로 **고침을** 클릭하여 줄어든 추천 수와 결과에서 특정 설정/정책 행을 제거합니다.
+- **권장** 사항 : 표준 또는 엄격한 보호 프로필의 설정 값입니다. 정책의 설정 값을 보호 프로필의 권장 값과 일치하게 변경하려면 채택을 **클릭합니다.** 변경에 성공하면 다음 메시지가 **표시됩니다. 추천이 성공적으로 채택됩니다.** 새로 **고침을** 클릭하여 감소된 추천 수와 결과에서 특정 설정/정책 행을 제거합니다.
 
 ### <a name="configuration-drift-analysis-and-history-tab-in-the-configuration-analyzer"></a>구성 분석기에서 구성 드리프트 분석 및 기록 탭
 

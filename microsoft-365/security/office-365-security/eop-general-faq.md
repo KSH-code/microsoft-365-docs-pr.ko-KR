@@ -8,25 +8,28 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: troubleshooting
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 ms.custom:
 - seo-marvel-apr2020
-description: EOP (Exchange Online Protection) 클라우드 호스트 전자 메일 필터링 서비스에 대 한 일반적인 질문과 대답을 볼 수 있습니다.
-ms.openlocfilehash: aa0b881250466c71cb05123216fcf9eccc64018d
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: EOP(Exchange Online Protection) 클라우드 호스팅 전자 메일 필터링 서비스에 대한 가장 일반적인 질문에 대한 답변을 얻습니다.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: d0a5712d2bfb110c3292dee06b456161599d40b1
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48202918"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165490"
 ---
 # <a name="eop-general-faq"></a>EOP 관련 일반 FAQ(질문과 대답)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+-  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
 
-여기서는 EOP (Exchange Online Protection) 클라우드 호스트 전자 메일 필터링 서비스에 대 한 일반적인 질문과 대답을 제공 합니다. 그 이외의 FAQ(질문과 대답) 항목은 다음 링크를 참조하십시오.
+여기에서는 EOP(Exchange Online Protection) 클라우드 호스팅 전자 메일 필터링 서비스에 대한 가장 일반적인 질문과 대답을 제공합니다. 그 이외의 FAQ(질문과 대답) 항목은 다음 링크를 참조하십시오.
 
 - [EOP 대기, 지연 및 반송 메시지 FAQ](eop-queued-deferred-and-bounced-messages-faq.md)
 
@@ -42,7 +45,7 @@ ms.locfileid: "48202918"
 
 ## <a name="what-is-eop"></a>EOP란 무엇입니까?
 
-EOP는 스팸 및 맬웨어로부터 고객을 보호하고 사용자 지정 정책 규칙을 구현하도록 구축된 클라우스 호스트 전자 메일 필터링 서비스입니다. EOP는 Exchange Online 사서함이 포함 된 Microsoft 365 구독에 포함 되어 있습니다. EOP는 온-프레미스 전자 메일 환경을 보호 하기 위한 독립 실행형 제공으로도 사용할 수 있습니다.
+EOP는 스팸 및 맬웨어로부터 고객을 보호하고 사용자 지정 정책 규칙을 구현하도록 구축된 클라우스 호스트 전자 메일 필터링 서비스입니다. EOP는 Exchange Online 사서함이 포함된 모든 Microsoft 365 구독에 포함됩니다. EOP는 또한 독립 실행형 서비스로 제공되어온-프레미스 전자 메일 환경을 보호할 수 있습니다.
 
 ## <a name="how-do-i-sign-up-for-an-eop-trial-or-purchase-eop"></a>EOP 평가판을 등록하거나 EOP를 구입할 수 있는 방법은 어떻게 됩니까?
 
@@ -54,21 +57,21 @@ EOP는 사용자별로 라이선스가 부여됩니다. 최신 가격 정보는 
 
 ## <a name="how-long-does-it-take-to-put-eop-into-production"></a>EOP를 프로덕션에 배치하는 데 얼마나 소요됩니까?
 
-MX 레코드를 변경할 경우 [EOP 서비스 설정](set-up-your-eop-service.md) 및 EOP를 통한 메일 흐름에 설명된 단계에 따라 필터링이 즉시 시작됩니다. MX 레코드가 DNS를 통해 전파되려면 24~48시간 정도 소요될 수 있습니다. 이 프로세스 중에 언제 든 지 보호 설정을 미세 조정할 수 있습니다.
+MX 레코드를 변경할 경우 [EOP 서비스 설정](set-up-your-eop-service.md) 및 EOP를 통한 메일 흐름에 설명된 단계에 따라 필터링이 즉시 시작됩니다. MX 레코드가 DNS를 통해 전파되려면 24~48시간 정도 소요될 수 있습니다. 이 프로세스 중에 어떤 경우든 보호 설정을 세부 조정할 수 있습니다.
 
-## <a name="do-i-have-to-use-all-features-of-microsoft-365-to-use-eop-what-if-i-just-want-eop-protection-and-thats-all"></a>EOP를 사용 하려면 Microsoft 365의 모든 기능을 사용 해야 하나요? EOP 보호를 원하는 경우에는 어떻게 하나요?
+## <a name="do-i-have-to-use-all-features-of-microsoft-365-to-use-eop-what-if-i-just-want-eop-protection-and-thats-all"></a>EOP를 사용 하 고 Microsoft 365의 모든 기능을 사용 해야 합니까? EOP 보호만 하고 싶으면 어떻게 하나요?
 
-EOP을 사용 하 여 Microsoft 365의 다른 기능을 사용 하지 않고 온-프레미스 사서함을 보호할 수 있습니다. 이를 독립 실행형 구독이라고 합니다. EOP 기능 목록은 [Exchange Online Protection 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)에서 찾을 수 있습니다.
+Microsoft 365의 다른 기능을 사용하지 않고 EOP를 사용하여 사서함을 보호할 수 있습니다. 이를 독립 실행형 구독이라고 합니다. EOP 기능 목록은 [Exchange Online Protection 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)에서 찾을 수 있습니다.
 
-## <a name="why-do-i-need-a-microsoft-365-tenant-when-signing-up-for-email-filtering-through-eop"></a>EOP를 통해 전자 메일 필터링에 등록할 때 Microsoft 365 테 넌 트가 필요한 이유는 무엇 인가요?
+## <a name="why-do-i-need-a-microsoft-365-tenant-when-signing-up-for-email-filtering-through-eop"></a>EOP를 통해 전자 메일 필터링에 등록할 때 Microsoft 365 테넌트가 필요한 이유는 무엇입니까?
 
-Microsoft 365은 Microsoft 365 테 넌 트를 통해 액세스할 수 있는 제품 및 서비스 모음에 제공 되는 이름입니다. Microsoft 365 테 넌 트는 전자 메일 필터링에 대 한 라이선스를 추가할 수 있는 시작 점으로 생각 하면 됩니다.
+Microsoft 365는 Microsoft 365 테넌트를 통해 액세스할 수 있는 제품 및 서비스 컬렉션에 지정한 이름입니다. Microsoft 365 테넌트는 전자 메일 필터링용 라이선스를 추가할 수 있는 시작 지점으로 생각할 수 있습니다.
 
 ## <a name="does-eop-have-a-communication-portal-where-i-can-find-out-about-known-issues-and-expected-resolutions-what-about-new-features"></a>EOP에도 알려진 문제와 필요한 해결 방법에 대한 정보를 찾을 수 있는 통신 포털이 있습니까? 새로운 기능에 대한 정보는 어떻게 확인할 수 있습니까?
 
-Microsoft 365 관리 센터에는 이러한 정보 중 일부가 포함 되어 있습니다. 서비스 수준 이벤트의 영향을 받는 경우 Microsoft 365 관리 센터에 로그인 한 후 통신 경고 (일반적으로 종 아이콘이 함께)가 표시 됩니다. 모든 항목을 읽고 적절한 조치를 취하는 것이 좋습니다.
+Microsoft 365 관리 센터에는 이 정보 중 일부가 있습니다. 서비스 수준 이벤트의 영향을 미치는 경우 Microsoft 365 관리 센터에 로그인한 후 통신 경고(일반적으로 종 아이콘이 함께 표시)가 표시됩니다. 모든 항목을 읽고 적절한 조치를 취하는 것이 좋습니다.
 
-새로운 EOP 기능에 대 [한 Microsoft 365 비즈니스 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) 은 예정 된 새로운 기능에 대 한 정보를 확인할 수 있는 좋은 리소스입니다. 또한 [Microsoft 365 블로그](https://www.microsoft.com/microsoft-365/blog/) 웹 사이트에 새로운 기능에 대 한 블로그 문서를 게시 합니다.
+새 EOP 기능과 관련하여 [비즈니스용 Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) 로드맵은 예정된 새 기능에 대한 정보를 찾는 데 좋은 리소스입니다. Microsoft 365 블로그 웹 사이트에 새로운 기능에 대한 블로그 [문서도 게시할 것입니다.](https://www.microsoft.com/microsoft-365/blog/)
 
 ## <a name="does-the-service-work-with-legacy-exchange-versions-such-as-exchange-server-2010-and-non-exchange-environments"></a>Exchange Server 2010 등의 레거시 Exchange 버전 및 Exchange 이외의 환경에서도 서비스가 작동합니까?
 
@@ -80,7 +83,7 @@ Microsoft 365 관리 센터에는 이러한 정보 중 일부가 포함 되어 �
 
 ## <a name="what-permissions-do-i-need-to-set-up-eop"></a>EOP를 설정하려면 어떤 사용 권한이 필요합니까?
 
-EOP을 구성 하려면 전역 관리자 또는 Exchange 회사 관리자 (조직 관리 역할 그룹) 여야 합니다.
+EOP를 구성하려면 전역 관리자 또는 Exchange 회사 관리자(조직 관리 역할 그룹)되어야 합니다.
 
 ## <a name="how-do-i-know-my-data-and-private-information-are-safe"></a>내 데이터와 개인 정보가 안전한지 어떻게 알 수 있습니까?
 
@@ -90,6 +93,6 @@ SLA(서비스 수준 계약)에 대한 정보를 비롯하여 데이터 및 개�
 
 예. EOP의 제한에 대한 자세한 내용은 [Exchange Online Protection 제한](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)을 참조하세요.
 
-## <a name="does-eop-support-powershell"></a>EOP가 PowerShell을 지원 하나요?
+## <a name="does-eop-support-powershell"></a>EOP에서 PowerShell을 지원하나요?
 
-예, PowerShell: exchange Online 사서함을 포함 하는 조직에 대 한 Exchange Online PowerShell을 통해 전체 EOP 기능을 사용할 수 있습니다. 독립 실행형 EOP 조직에 대 한 독립 실행형 EOP PowerShell 자세한 내용은 [Exchange Online powershell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell) 및 [Exchange online Protection powershell](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell)을 참조 하세요.
+예, 전체 EOP 기능은 PowerShell을 통해 사용할 수 있습니다. Exchange Online 사서함이 있는 조직용 Exchange Online PowerShell; 독립 실행형 EOP 조직을 위한 독립 실행형 EOP PowerShell 자세한 내용은 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell) 및 [Exchange Online Protection PowerShell을 참조하세요.](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell)

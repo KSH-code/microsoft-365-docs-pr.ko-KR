@@ -14,12 +14,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 대표적인 대표적 글로벌 조직이 엔터프라이즈용 Microsoft 365를 채택한 방법
-ms.openlocfilehash: b009e02cde0708c54fbd8e047029dae9f67a145b
-ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
+ms.openlocfilehash: 9e02469c644c3107e964d0f5defa08043091e28f
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49749568"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166432"
 ---
 # <a name="microsoft-365-for-enterprise-for-the-contoso-corporation"></a>Contoso Corporation용 엔터프라이즈용 Microsoft 365
 
@@ -71,15 +71,19 @@ Microsoft 365 엔터프라이즈 에디션의 전반적인 목표는 클라우�
 
 - [원격 및 현장 업무를 위한 COVID-19 대응 및 인프라](../solutions/contoso-remote-onsite-work.md)
 
-  Contoso가 COVID-19 팬데믹에 대한 원격 액세스 인프라를 업데이트한 방법과 원격 및 인사이트 작업을 위한 새로운 설치 및 업데이트 인프라에 대해 자세히 알아보습니다.
+  Contoso가 원격 액세스 기능을 업데이트한 방법과 원격 및 사설 작업자를 위한 새 설치 및 업데이트 인프라에 대해 자세히 알아보습니다.
 
 - [극비 프로젝트를 위한 팀](../solutions/contoso-team-for-top-secret-project.md)
 
   Contoso는 비밀 프로젝트를 위한 안전한 공동 작업 환경을 만들기 위해 보안이 있는 팀을 사용했습니다.
 
-- [Teams 음성 마이그레이션 개요](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview)
+- [Teams 음성 마이그레이션](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview)
 
   Contoso가 통합 커뮤니케이션, 공동 작업 및 음성을 위해 해당 사용자를 Microsoft Teams로 마이그레이션한 방법을 자세히 알아보습니다.
+
+- [통신 규정 준수 비방 언어 정책](../compliance/communication-compliance-case-study.md)
+
+  Contoso가 Microsoft Teams, Exchange 및 사용자 커뮤니케이션에 대해 공격적인 언어 정책을 신속하게 구성한 Yammer 대해 자세히 알아보습니다.
 
 ## <a name="next-step"></a>다음 단계
 

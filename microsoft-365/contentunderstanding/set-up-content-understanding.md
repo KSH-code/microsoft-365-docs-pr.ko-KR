@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Project Cortex에서 콘텐츠 이해 설정
-ms.openlocfilehash: 0e5b48bab343f887a1438386bfa4f7915126ccd7
-ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
+ms.openlocfilehash: 58496041004218b48b864fa725084cba8edd518b
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50094712"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145478"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
@@ -92,11 +92,11 @@ SharePoint Syntex를 구성한 후에는 SharePoint Syntex 기능을 사용할 �
 
 1. Microsoft 365 관리 센터의 **사용자** 아래에서 **활성 사용자** 를 클릭합니다.
 
-2. 라이선스를 부여할 사용자를 선택하고 **제품 라이선스 관리** 를 클릭합니다.
+2. 라이선스를 부여할 사용자를 선택하고 **제품 라이선스 관리** 를 선택합니다.
 
-3. **추가 할당** 을 선택합니다.
+3. 드롭다운 메뉴에서 **앱** 을 선택합니다.
 
-4. **SharePoint Syntax** 를 선택합니다. **앱** 에서 **SharePoint Syntex용 일반 데이터 서비스**, **SharePoint Syntex** 및 **SharePoint Syntex - SPO 유형** 이 모두 선택되어 있는지 확인합니다.
+4. **SharePoint Syntex용 앱 표시** 를 선택합니다. **앱** 에서 **SharePoint Syntex용 일반 데이터 서비스**, **SharePoint Syntex** 및 **SharePoint Syntex - SPO 유형** 이 모두 선택되어 있는지 확인합니다.
 
     > [!div class="mx-imgBorder"]
     > ![Microsoft 365 관리 센터의 SharePoint Syntex 라이선스](../media/content-understanding/sharepoint-syntex-licenses.png)

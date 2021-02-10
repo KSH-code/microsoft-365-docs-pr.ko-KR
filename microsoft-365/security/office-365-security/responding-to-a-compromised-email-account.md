@@ -14,22 +14,27 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
 description: Microsoft 365에서 제공하는 도구를 사용하여 손상된 전자 메일 계정을 인식하고 대처하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5d5e5360e9851aee8eab27fc7c39e266e0332411
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: a34780b260a6e4bbc2d8b3f53af6b67de04fbdcd
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659888"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166666"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>손상된 전자 메일 계정에 응답
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 **요약** Microsoft 365에서 손상된 전자 메일 계정을 인식하고 응답하는 방법에 대해 알아봅니다.
 

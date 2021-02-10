@@ -11,24 +11,27 @@ ms.topic: article
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: '요약: 정치적 캠페인 개발/테스트 환경의 사용자 및 그룹을 사용하여 Office 365 및 EMS(Enterprise Mobility + Security) 평가판 구독을 만듭니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1fac15cc0b2a512745e0538ec689bd5f17555419
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 2d23539951e4d51fcd29417ab71ce599853d7537
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614909"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165706"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Office 365용 Microsoft Defender 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
 
  **요약:** 정치적 캠페인 개발/테스트 환경의 사용자 및 그룹을 사용하여 Office 365 및 EMS(Enterprise Mobility + Security) 평가판 구독을 만듭니다.
 
@@ -69,7 +72,7 @@ ms.locfileid: "49614909"
 
 먼저 Azure Portal을 사용하여 일반적인 정치적 캠페인에 대한 그룹 집합을 만듭니다.
 
-1. 브라우저의 별도 탭에서 Azure Portal(<https://portal.azure.com>)로 이동합니다. 필요한 경우 Office 365 E5 평가판 구독에 대한 전역 관리자 계정의 자격 증명으로 로그인합니다.
+1. 브라우저의 별도 탭에서 <https://portal.azure.com>의 Azure Portal로 이동합니다. 필요한 경우 Office 365 E5 평가판 구독에 대한 전역 관리자 계정의 자격 증명으로 로그인합니다.
 
 2. Azure Portal에서 **Azure Active Directory > 사용자 및 그룹 > 모든 그룹** 을 클릭합니다.
 

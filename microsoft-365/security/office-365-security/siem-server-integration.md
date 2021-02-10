@@ -8,7 +8,6 @@ manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.date: 11/18/2019
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
@@ -17,21 +16,27 @@ ms.custom:
 - SIEM
 - seo-marvel-apr2020
 description: Microsoft 365 클라우드 서비스 및 응용 프로그램과 SIEM(보안 정보 및 이벤트 관리) 서버 통합 개요 보기
-ms.openlocfilehash: 851b27769badb2629b7e9fb1c93992c76828a633
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: f29da87aa6eab1852330092d93187a27b2d36eb2
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615651"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167146"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Microsoft 365 서비스 및 응용 프로그램과 SIEM(보안 정보 및 이벤트 관리) 서버 통합
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+**적용 대상**
+- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 ## <a name="summary"></a>요약
 
-조직에서 SIEM(보안 정보 및 이벤트 관리) 서버를 사용 중입니까 아니면 사용할 계획입니까? Microsoft 365 또는 Office 365와 어떻게 통합하는지 궁금할 수 있습니다. 이 문서에서는 SIEM 서버를 Microsoft 365 서비스 및 응용 프로그램과 통합하는 데 사용할 수 있는 리소스 목록을 제공합니다.
+조직에서 SIEM(보안 정보 및 이벤트 관리) 서버를 사용 중입니까 아니면 사용 계획입니까? Microsoft 365 또는 Office 365와 어떻게 통합하는지 궁금할 수 있습니다. 이 문서에서는 SIEM 서버를 Microsoft 365 서비스 및 응용 프로그램과 통합하는 데 사용할 수 있는 리소스 목록을 제공합니다.
 
 > [!TIP]
 > SIEM 서버가 아직 없는 경우 **[Microsoft Azure Sentinel을 고려하세요.](https://docs.microsoft.com/azure/sentinel/overview)**
