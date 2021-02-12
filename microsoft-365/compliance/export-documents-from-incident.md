@@ -1,5 +1,5 @@
 ---
-title: 인시던트 로부터 문서 내보내기
+title: 인시던트에서 문서 내보내기
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -23,6 +23,6 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 02/15/2020
 ms.locfileid: "42074375"
 ---
-# <a name="export-documents-from-an-incident"></a><span data-ttu-id="614a8-102">인시던트 로부터 문서 내보내기</span><span class="sxs-lookup"><span data-stu-id="614a8-102">Export documents from an incident</span></span>
+# <a name="export-documents-from-an-incident"></a><span data-ttu-id="07565-102">인시던트에서 문서 내보내기</span><span class="sxs-lookup"><span data-stu-id="07565-102">Export documents from an incident</span></span>
 
-<span data-ttu-id="614a8-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="614a8-103">Content coming soon.</span></span>
+<span data-ttu-id="07565-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="07565-103">Content coming soon.</span></span>
