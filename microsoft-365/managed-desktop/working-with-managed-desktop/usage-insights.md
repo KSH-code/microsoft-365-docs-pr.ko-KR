@@ -1,5 +1,5 @@
 ---
-title: 사용 현황 정보 활용
+title: 사용 현황 인사이트
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -14,30 +14,30 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 09/17/2020
 ms.locfileid: "47950357"
 ---
-# <a name="usage-insights"></a><span data-ttu-id="25880-103">사용 현황 정보 활용</span><span class="sxs-lookup"><span data-stu-id="25880-103">Usage insights</span></span>
-<span data-ttu-id="25880-104">이 보기는 Microsoft 관리 데스크톱 장치에 대 한 사용 메트릭을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="25880-104">This view provides usage metrics for your Microsoft Managed Desktop devices.</span></span> <span data-ttu-id="25880-105">이러한 용도의 앱은 실행 중이 고 포커스가 있는 경우 "사용 중"으로 간주 됩니다.</span><span class="sxs-lookup"><span data-stu-id="25880-105">For these purposes, an app is considered "in use" if it is running and in focus.</span></span>
+# <a name="usage-insights"></a><span data-ttu-id="e650c-103">사용 현황 인사이트</span><span class="sxs-lookup"><span data-stu-id="e650c-103">Usage insights</span></span>
+<span data-ttu-id="e650c-104">이 보기는 Microsoft Managed Desktop 디바이스에 대한 사용 메트릭을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="e650c-104">This view provides usage metrics for your Microsoft Managed Desktop devices.</span></span> <span data-ttu-id="e650c-105">이러한 목적을 위해 앱은 실행 중일 때 포커스가 있는 경우 "사용 중"으로 간주됩니다.</span><span class="sxs-lookup"><span data-stu-id="e650c-105">For these purposes, an app is considered "in use" if it is running and in focus.</span></span>
 
-<span data-ttu-id="25880-106">사용 현황 데이터를 보려면 **사용 현황** 탭을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="25880-106">To view usage data, select the **Usage** tab.</span></span>
+<span data-ttu-id="e650c-106">사용 현황 데이터를 확인하려면 사용 현황 **탭을** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e650c-106">To view usage data, select the **Usage** tab.</span></span>
 
-![배정 현황 창](../../media/insights_usage.png)
+![사용 현황 창입니다.](../../media/insights_usage.png)
 
-## <a name="device-usage"></a><span data-ttu-id="25880-111">장치 사용 현황</span><span class="sxs-lookup"><span data-stu-id="25880-111">Device usage</span></span>
+## <a name="device-usage"></a><span data-ttu-id="e650c-111">장치 사용 현황</span><span class="sxs-lookup"><span data-stu-id="e650c-111">Device usage</span></span>
 
-<span data-ttu-id="25880-112">**장치 사용** 영역에는 데이터를 보고 하는 등록 된 장치 수 뿐만 아니라 시간에 따른 보고 장치의 사용 수준이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="25880-112">In the **Device usage** area, we display the usage level of reporting devices over time, as well as how many registered devices are reporting data.</span></span> <span data-ttu-id="25880-113">이 페이지에 표시 되는 모든 데이터에 대해 오른쪽 상단의 드롭다운 메뉴를 사용 하 여 지난 14 일 또는 28 일간 보고 된 데이터를 표시 하는 간격을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="25880-113">For all data displayed on this page, you can change the interval to view reported data in either the last 14 or 28 days by using the drop-down menu in the upper right.</span></span>
+<span data-ttu-id="e650c-112">장치 **사용** 영역에는 시간이 지날 때 보고 장치의 사용 수준과 데이터를 보고하는 등록된 장치의 수가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="e650c-112">In the **Device usage** area, we display the usage level of reporting devices over time, as well as how many registered devices are reporting data.</span></span> <span data-ttu-id="e650c-113">이 페이지에 표시되는 모든 데이터의 경우 오른쪽 위에 있는 드롭다운 메뉴를 사용하여 지난 14일 또는 28일 동안 보고된 데이터를 볼 간격을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e650c-113">For all data displayed on this page, you can change the interval to view reported data in either the last 14 or 28 days by using the drop-down menu in the upper right.</span></span>
 
-<span data-ttu-id="25880-114">다음과 같은 용어로 사용 수준을 분류 합니다.</span><span class="sxs-lookup"><span data-stu-id="25880-114">We categorize the usage level with these terms:</span></span>
+<span data-ttu-id="e650c-114">다음 용어로 사용 수준을 분류합니다.</span><span class="sxs-lookup"><span data-stu-id="e650c-114">We categorize the usage level with these terms:</span></span>
 
-- <span data-ttu-id="25880-115">**Active:** 최소 55 시간 사용</span><span class="sxs-lookup"><span data-stu-id="25880-115">**Active:** at least 55 hours of usage</span></span>
-- <span data-ttu-id="25880-116">**낮음:** 사용 시간이 8 ~ 55 시간 사이</span><span class="sxs-lookup"><span data-stu-id="25880-116">**Low:** between 8 and 55 hours of usage</span></span>
-- <span data-ttu-id="25880-117">**비활성:** 8 시간 이내 사용</span><span class="sxs-lookup"><span data-stu-id="25880-117">**Inactive:** less than 8 hours of usage</span></span>
-
-
+- <span data-ttu-id="e650c-115">**활성:** 55시간 이상 사용</span><span class="sxs-lookup"><span data-stu-id="e650c-115">**Active:** at least 55 hours of usage</span></span>
+- <span data-ttu-id="e650c-116">**낮음:** 8~55시간 사용</span><span class="sxs-lookup"><span data-stu-id="e650c-116">**Low:** between 8 and 55 hours of usage</span></span>
+- <span data-ttu-id="e650c-117">**비활성:** 8시간 미만 사용</span><span class="sxs-lookup"><span data-stu-id="e650c-117">**Inactive:** less than 8 hours of usage</span></span>
 
 
-## <a name="application-usage"></a><span data-ttu-id="25880-118">응용 프로그램 사용 현황</span><span class="sxs-lookup"><span data-stu-id="25880-118">Application usage</span></span>
-
-<span data-ttu-id="25880-119">**응용 프로그램 사용** 영역은 사용 순서와 관리 되는 장치에 대 한 각 사용 시간에 대 한 응용 프로그램을 자세히 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="25880-119">The **Application usage** area details the applications in order of usage and their respective hours of usage for your managed devices.</span></span> <span data-ttu-id="25880-120">또한 지정 된 응용 프로그램을 사용 하는 관리 되는 총 장치 수를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="25880-120">It also shows the total number of managed devices using a given application.</span></span> <span data-ttu-id="25880-121">특정 응용 프로그램이 목록에 없는 경우 **검색** 을 선택 하 여 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="25880-121">Select **Search** to find a specific application if it isn't already listed.</span></span>
 
 
-## <a name="device-details"></a><span data-ttu-id="25880-122">장치 세부 정보</span><span class="sxs-lookup"><span data-stu-id="25880-122">Device details</span></span>
-<span data-ttu-id="25880-123">세부 정보 영역에는 총 장치 시간 및 기간 동안 활성 날짜 수를 비롯 한 특정 장치에 대 한 정보가 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="25880-123">The detail area provides information on specific devices, including total device hours and number of active days over the time period.</span></span> <span data-ttu-id="25880-124">필터를 사용 하 여 "활성", "비활성" 또는 "낮은" 사용 패턴이 포함 된 장치 또는 "보고 하지 않음" 상태인 장치로 보기를 제한할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="25880-124">Use the filters to limit the view to those devices with a “Active”, “Inactive”, or “Low” usage pattern or those that are “Not Reporting”.</span></span> 
+## <a name="application-usage"></a><span data-ttu-id="e650c-118">응용 프로그램 사용 현황</span><span class="sxs-lookup"><span data-stu-id="e650c-118">Application usage</span></span>
+
+<span data-ttu-id="e650c-119">응용 **프로그램 사용** 영역에는 응용 프로그램 사용 순서 및 관리되는 장치의 각 사용 시간이 자세히 설명됩니다.</span><span class="sxs-lookup"><span data-stu-id="e650c-119">The **Application usage** area details the applications in order of usage and their respective hours of usage for your managed devices.</span></span> <span data-ttu-id="e650c-120">또한 주어진 응용 프로그램을 사용하는 관리되는 장치의 총 수도 보여 주며,</span><span class="sxs-lookup"><span data-stu-id="e650c-120">It also shows the total number of managed devices using a given application.</span></span> <span data-ttu-id="e650c-121">**검색을** 선택하여 특정 응용 프로그램이 목록에 없는 경우 해당 응용 프로그램을 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e650c-121">Select **Search** to find a specific application if it isn't already listed.</span></span>
+
+
+## <a name="device-details"></a><span data-ttu-id="e650c-122">장치 세부 정보</span><span class="sxs-lookup"><span data-stu-id="e650c-122">Device details</span></span>
+<span data-ttu-id="e650c-123">세부 정보 영역은 총 장치 시간 및 해당 기간의 활성 일 수를 포함하여 특정 장치에 대한 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="e650c-123">The detail area provides information on specific devices, including total device hours and number of active days over the time period.</span></span> <span data-ttu-id="e650c-124">필터를 사용하여 "활성", "비활성" 또는 "낮음" 사용 패턴 또는 "보고되지 않는" 패턴이 있는 장치로 보기를 제한합니다.</span><span class="sxs-lookup"><span data-stu-id="e650c-124">Use the filters to limit the view to those devices with a “Active”, “Inactive”, or “Low” usage pattern or those that are “Not Reporting”.</span></span> 

@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Microsoft 예약
-summary: 약속 단위로 고객에 게 서비스를 제공 하도록 Microsoft 예약을 설정 하는 방법을 알아봅니다.
+title: Microsoft Bookings
+summary: 약속에 따라 고객에게 서비스를 제공하기 위해 Microsoft Bookings를 설정하는 방법을 알아보십시오.
 brand: m365
 metadata:
-  title: Microsoft 예약
-  description: 약속 단위로 고객에 게 서비스를 제공 하도록 Microsoft 예약을 설정 하는 방법을 알아봅니다.
+  title: Microsoft Bookings
+  description: 약속에 따라 고객에게 서비스를 제공하기 위해 Microsoft Bookings를 설정하는 방법을 알아보십시오.
   ms.service: bookings
   ms.topic: hub-page
   author: dmaguire
@@ -21,21 +21,21 @@ metadata:
 additionalContent:
   sections:
   - items:
-    - title: Microsoft 예약 이란?
-      summary: 직원을 위한 Outlook 통합 및 자동 알림 전자 메일을 포함 하 여 웹 기반 예약 일정과 앱을 사용 하 여 약속을 예약 하 고 관리 합니다.
+    - title: Microsoft Bookings란?
+      summary: 직원의 Outlook 통합 및 자동화된 알림 전자 메일을 포함하여 웹 기반 예약 일정 및 앱으로 약속을 예약하고 관리합니다.
       url: bookings-overview.md
     - title: 비즈니스 정보 입력
-      summary: Microsoft 예약에서 비즈니스 이름, 주소, 전화 번호, 웹 사이트 URL, 로고 및 업무 시간을 비롯 하 여 사용자의 정보를 소개 하는 Us? 페이지를 입력 합니다.
+      summary: Microsoft Bookings의 회사 이름, 주소, 전화 번호, 웹 사이트 URL, 로고 및 업무 시간을 포함하여 회사 내게 필요한 정보를 입력합니다.
       url: enter-business-information.md
-    - title: 예약 앱 다운로드
-      summary: 색 테마를 변경 하 고 외부 고객을 향한 예약 페이지의 모양을 설정 합니다.
+    - title: 예약 앱 가져오기
+      summary: 색 테마를 변경하고 외부 고객 연결 예약 페이지의 모양을 설정합니다.
       url: customize-booking-page.md
-    - title: 예약에 직원 추가
-      summary: 직원 목록을 만들고 이름, 전화 번호 및 전자 메일 주소와 같은 직원 구성원 세부 정보를 관리 합니다.
+    - title: Bookings에 직원 추가
+      summary: 직원 목록을 만들고 이름, 전화 번호 및 전자 메일 주소와 같은 직원 구성원 세부 정보를 관리합니다.
       url: add-staff.md
-    - title: 휴무, 시간 휴가 및 휴가 시간 예약
-      summary: 직원 들이 지정 된 시간 동안 예약을 사용할 수 없는 것으로 표시 되도록 예약 일정에서 office 휴무 및 직원 휴가를 예약 합니다.
+    - title: 업무 폐쇄, 휴가 및 휴가 예약
+      summary: 지정된 시간 동안 직원이 예약할 수 없음으로 표시될 수 있도록 Bookings 일정에서 사무실 폐쇄 및 직원의 시간을 예약합니다.
       url: schedule-closures-time-off-vacation.md
-    - title: Microsoft 예약의 직원 작업 시간
-      summary: Microsoft 예약에서 직원 작업 시간 및 가용성을 설정 합니다.
+    - title: Microsoft Bookings의 직원 작업 시간
+      summary: Microsoft Bookings에서 직원 작업 시간 및 가용성을 설정할 수 있습니다.
       url: employee-hours.md
