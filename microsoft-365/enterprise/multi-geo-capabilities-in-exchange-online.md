@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
-description: 기능 제한 및 사서함 배치와 같은 Exchange Online의 다중 위치 기능에 대해 알아봅니다.
+description: 'Exchange Online의 다중 위치 기능(예: 기능 제한 및 사서함 배치)에 대해 자세히 알아보습니다.'
 ms.openlocfilehash: ca7203c72f23fd03512bf23eaa5a4687e4bac1b5
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -35,13 +35,13 @@ ms.locfileid: "46692606"
 
 Microsoft에서 필수 다중 위치 구성 단계를 완료한 후, Exchange Online에서 Azure AD의 사용자 개체에 있는 **PreferredDataLocation** 특성을 따릅니다.
 
-Exchange Online에서 Azure AD의 **PreferredDataLocation** 속성을 Exchange Online 디렉터리 서비스의 **MailboxRegion** 속성으로 동기화합니다. **MailboxRegion**의 값이 사용자 사서함 및 관련된 보관 사서함이 위치하는 지리적 위치를 결정합니다. 사용자의 기본 사서함과 보관 사서함이 여러 지리적 위치에 있도록 구성할 수 없습니다. 사용자 개체당 하나의 지리적 위치만 구성할 수 있습니다.
+Exchange Online에서 Azure AD의 **PreferredDataLocation** 속성을 Exchange Online 디렉터리 서비스의 **MailboxRegion** 속성으로 동기화합니다. **MailboxRegion** 의 값이 사용자 사서함 및 관련된 보관 사서함이 위치하는 지리적 위치를 결정합니다. 사용자의 기본 사서함과 보관 사서함이 여러 지리적 위치에 있도록 구성할 수 없습니다. 사용자 개체당 하나의 지리적 위치만 구성할 수 있습니다.
 
-- **PreferredDataLocation**이 기존 사서함을 사용하는 사용자에게 구성된 경우, 사서함이 재배치 큐에 저장되고 특정 지리적 위치로 자동으로 이동합니다.
+- **PreferredDataLocation** 이 기존 사서함을 사용하는 사용자에게 구성된 경우, 사서함이 재배치 큐에 저장되고 특정 지리적 위치로 자동으로 이동합니다.
 
-- **PreferredDataLocation**이 기존 사서함이 없는 사용자에게 구성된 경우, 사서함을 프로비저닝하면 사서함이 지정된 지리적 위치로 프로비저닝됩니다.
+- **PreferredDataLocation** 이 기존 사서함이 없는 사용자에게 구성된 경우, 사서함을 프로비저닝하면 사서함이 지정된 지리적 위치로 프로비저닝됩니다.
 
-- **PreferredDataLocation**이 사용자에게 지정되지 않은 경우, 사서함을 프로비저닝하면 사서함이 중앙 지리적 위치로 프로비저닝됩니다.
+- **PreferredDataLocation** 이 사용자에게 지정되지 않은 경우, 사서함을 프로비저닝하면 사서함이 중앙 지리적 위치로 프로비저닝됩니다.
 
 - **PreferredDataLocation** 코드가 틀린 경우(예: NAM 대신 NAN 입력), 사서함이 중앙 지리적 위치에서 프로비저닝됩니다.
 
@@ -53,7 +53,7 @@ Exchange Online에서 Azure AD의 **PreferredDataLocation** 속성을 Exchange O
 
 - Mac용 Outlook 사용자는 사서함을 새 지리적 위치로 이동하는 동안 온라인 보관함 폴더에 대한 액세스가 일시적으로 중단될 수 있습니다. 교차 지역 사서함 이동이 다른 시간에 완료될 수 있으므로, 이 조건은 사용자의 기본 및 보관 사서함이 다른 지리적 위치에 있을 때 발생합니다.
 
-- 웹용 Outlook(이전의 Outlook Web App 또는 OWA)에서 지리적 위치를 넘어서 *사서함 폴더*를 공유할 수 없습니다. 예를 들어, 유럽 연합에 있는 사용자는 웹용 Outlook을 사용하여 미국에 있는 사서함에서 공유 폴더를 열 수 없습니다. 그러나 웹용 Outlook 사용자는 [Outlook Web App의 개별 브라우저 창에서 다른 사용자의 사서함 열기](https://support.office.com/article/A909AD30-E413-40B5-A487-0EA70B763081#__toc372210362)에 설명된 대로 별도의 브라우저 창을 사용하여 다른 지리적 위치에서 *다른 사서함*을 열 수 있습니다.
+- 웹용 Outlook(이전의 Outlook Web App 또는 OWA)에서 지리적 위치를 넘어서 *사서함 폴더* 를 공유할 수 없습니다. 예를 들어, 유럽 연합에 있는 사용자는 웹용 Outlook을 사용하여 미국에 있는 사서함에서 공유 폴더를 열 수 없습니다. 그러나 웹용 Outlook 사용자는 [Outlook Web App의 개별 브라우저 창에서 다른 사용자의 사서함 열기](https://support.office.com/article/A909AD30-E413-40B5-A487-0EA70B763081#__toc372210362)에 설명된 대로 별도의 브라우저 창을 사용하여 다른 지리적 위치에서 *다른 사서함* 을 열 수 있습니다.
 
   **참고**: 교차 지역 사서함 폴더 공유가 Windows의 Outlook에서 지원됩니다.
 

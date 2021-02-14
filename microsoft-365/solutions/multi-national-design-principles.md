@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365에 대 한 여러 국가의 디자인 원칙
-description: 설명이.
+title: Microsoft 365에 대한 다국적 디자인 원칙
+description: 설명.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -19,6 +19,6 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 07/29/2020
 ms.locfileid: "46521102"
 ---
-# <a name="multi-national-design-principles-for-microsoft-365"></a>Microsoft 365에 대 한 여러 국가의 디자인 원칙
+# <a name="multi-national-design-principles-for-microsoft-365"></a>Microsoft 365에 대한 다국적 디자인 원칙
 
 텍스트

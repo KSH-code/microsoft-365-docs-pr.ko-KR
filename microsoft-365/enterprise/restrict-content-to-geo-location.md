@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
-description: 이 문서에서는 여러 지리적 환경에서 SharePoint 사이트를 지정 된 지리적 위치로 제한 하는 방법을 알아봅니다.
+description: 이 문서에서는 SharePoint 사이트를 다중 위치 환경의 지정된 지리적 위치로 제한하는 방법을 학습합니다.
 ms.openlocfilehash: f2a09f177c68d30121c207287e053b2b25405fbc
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT

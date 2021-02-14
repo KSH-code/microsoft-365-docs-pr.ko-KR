@@ -20,7 +20,7 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: 페이지 진단 도구를 사용 하 여 SharePoint Online의 최신 사이트 페이지에서 페이지 가중치를 최적화 하는 방법을 알아봅니다.
+description: 페이지 진단 도구를 사용하여 SharePoint Online 최신 사이트 페이지에서 페이지 가중치를 최적화하는 방법을 알아보십시오.
 ms.openlocfilehash: 64fb3c90db78a23c7f1c3fcfe604c8ef58703be0
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT

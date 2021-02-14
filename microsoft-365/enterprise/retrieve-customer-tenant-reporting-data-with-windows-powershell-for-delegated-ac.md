@@ -1,5 +1,5 @@
 ---
-title: DAP 파트너에 대해 Windows PowerShell을 사용 하 여 고객 테 넌 트 보고 데이터 검색
+title: DAP 파트너에 대한 사용자 지정을 사용하여 Windows PowerShell 보고 데이터 검색
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -26,11 +26,11 @@ ms.locfileid: "46692353"
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft Exchange Online 용 원격 Windows PowerShell을 사용 하 여 개별 고객 테 넌 트에서 보고서를 검색 합니다.
+원격 Windows PowerShell 사용하여 Microsoft Exchange Online 테넌트에서 보고서를 검색할 수 있습니다.
   
-배포 및 CSP (클라우드 솔루션 공급자) 파트너는 원격 Windows PowerShell을 사용 하 여 Exchange Online PowerShell을 통해 직접 고객 테 넌 트 보고서를 구성 하는 데이터에 액세스할 수 있습니다. 이를 통해 파트너는 보고 데이터를 수집하고 저장한 후 여기에서 다른 작업을 수행할 수 있습니다. 원격 연결을 연 후 고객 테넌트에 대한 보고 데이터 검색은 고객 테넌트에 대해 cmdlet을 실행하는 것과 동일합니다.
+Syndication 및 CSP(클라우드 솔루션 공급자) 파트너는 Exchange Online PowerShell용 원격 서비스를 통해 직접 고객 테넌트 보고서를 Windows PowerShell 액세스할 수 있습니다. 이를 통해 파트너는 보고 데이터를 수집하고 저장한 후 여기에서 다른 작업을 수행할 수 있습니다. 원격 연결을 연 후 고객 테넌트에 대한 보고 데이터 검색은 고객 테넌트에 대해 cmdlet을 실행하는 것과 동일합니다.
   
-이 문서에서는 Exchange Online 용 원격 Windows PowerShell을 사용 하 여 단일 고객의 테 넌 트에 연결 하 고 보고서를 검색 합니다. 기본적으로 Windows PowerShell에서는 여러 고객 테 넌 트의 보고 데이터 집계를 지원 하지 않습니다. 이 절차를 사용 하 여 검색 하는 보고서는 연결 하는  _DelegatedOrg_ 에만 적용 됩니다.
+이 문서에서는 Exchange Online용 원격 Windows PowerShell 사용하여 단일 고객 테넌트에 연결하고 보고서를 검색합니다. 기본적으로 Windows PowerShell 테넌트의 보고 데이터 집계는 지원되지 않습니다. 이 프로시저를 사용하여 검색하는 보고서는 연결하는  _DelegatedOrg에만_ 해당합니다.
   
  
 ## <a name="before-you-begin"></a>시작하기 전에

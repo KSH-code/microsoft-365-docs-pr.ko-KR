@@ -14,7 +14,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: 사이트 이동을 예약 하 고 사용자에 게 정보를 전달 하는 방법을 포함 하 여 OneDrive 사이트를 다른 지리적 위치로 이동 하는 방법에 대 한 정보를 확인 합니다.
+description: OneDrive 사이트를 다른 지리적 위치로 이동하는 방법에 대한 정보를 찾아 사이트 이동을 예약하고 사용자에게 기대치를 전달하는 방법을 제공합니다.
 ms.openlocfilehash: 59b3fb47fd195967e7af056c7a71fb4e736471d1
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -24,9 +24,9 @@ ms.locfileid: "46692265"
 ---
 # <a name="move-a-onedrive-site-to-a-different-geo-location"></a>OneDrive 사이트를 다른 지리적 위치로 이동 
 
-OneDrive 지리적 이동을 사용 하 여 사용자의 OneDrive를 다른 지리적 위치로 이동할 수 있습니다. OneDrive 지리적 이동은 SharePoint Online 관리자 또는 Microsoft 365 전역 관리자가 수행 합니다. OneDrive 지리적 이동을 시작 하기 전에 OneDrive를 이동 하는 사용자에 게 알리고 이동 기간 동안 모든 파일을 닫는 것이 좋습니다. 사용자가 이동 중에 Office 클라이언트를 사용 하 여 문서를 연 경우 이동이 완료 되 면 문서를 새 위치에 저장 해야 합니다. 필요한 경우 나중에 이동을 예약할 수 있습니다.
+OneDrive 지리적 이동을 사용하면 사용자의 OneDrive를 다른 지리적 위치로 이동할 수 있습니다. OneDrive 지리적 이동은 SharePoint Online 관리자 또는 Microsoft 365 전역 관리자가 수행합니다. OneDrive 지리적 이동을 시작하기 전에 OneDrive를 이동하는 사용자에게 알리고 이동하는 동안 모든 파일을 닫는 것이 좋습니다. 이동하는 동안 Office 클라이언트를 사용하여 문서를 연 경우 이동이 완료될 때 문서를 새 위치에 저장해야 합니다. 원하는 경우 이동 일정을 향후에 예약할 수 있습니다.
 
-OneDrive 서비스가 Azure Blob Storage를 사용 하 여 콘텐츠를 저장 합니다. 사용자의 OneDrive에 연결 된 저장소 blob가 사용자가 사용할 수 있는 대상 OneDrive의 40 일 이내에 원본에서 대상 지리적 위치로 이동 됩니다. 대상 OneDrive를 사용할 수 있게 되 면 즉시 해당 사용자의 OneDrive에 대 한 액세스가 복원 됩니다.
+OneDrive 서비스는 Azure Blob Storage를 사용하여 콘텐츠를 저장합니다. 사용자의 OneDrive와 연결된 저장소 Blob은 사용자가 대상 OneDrive를 사용할 수 있을 때 40일 이내에 원본에서 대상 지리적 위치로 이동됩니다. 대상 OneDrive를 사용할 수 있는 즉시 사용자의 OneDrive에 대한 액세스가 복원됩니다.
 
 OneDrive 지리적 이동 기간(약 2 ~ 6시간) 동안 사용자의 OneDrive는 읽기 전용으로 설정됩니다. 사용자는 OneDrive 동기화 클라이언트 또는 SharePoint Online의 OneDrive 사이트를 통해 해당 파일에 계속 액세스할 수 있습니다. OneDrive 지리적 이동이 완료되면 사용자는 Microsoft 365 앱 시작 관리자에서 OneDrive로 이동할 때 대상 지리적 위치에 자동으로 연결됩니다. 동기화 클라이언트는 자동으로 새 위치에서 동기화를 시작합니다.
 
@@ -54,13 +54,13 @@ OneDrive 사이트 이동을 사전에 예약할 수 있습니다(이 문서의 
 
 ## <a name="moving-a-onedrive-site"></a>OneDrive 사이트 이동
 
-OneDrive 지리적 이동을 수행 하려면 먼저 테 넌 트 관리자가 사용자의 기본 설정 데이터 위치 (PDL)를 적절 한 지리적 위치로 설정 해야 합니다. PDL이 설정 되 면 PDL 업데이트가 지리적 위치로 동기화 될 때까지 최소 24 시간이 될 때까지 기다렸다가 OneDrive 지리적 이동을 시작 합니다.
+OneDrive 지리적 이동을 수행하려면 테넌트 관리자가 먼저 사용자의 PDL(기본 설정 데이터 위치)을 적절한 지리적 위치로 설정해야 합니다. PDL이 설정되어 있는 경우 OneDrive 지리적 이동을 시작하기 전에 PDL 업데이트가 지리적 위치에서 동기화될 때까지 최소 24시간 동안 기다릴 수 있습니다.
 
-Geo move cmdlet을 사용 하는 경우 다음 구문을 사용 하 여 사용자의 현재 OneDrive 지리적 위치에 있는 SPO 서비스에 연결 합니다.
+지리적 이동 cmdlet을 사용하는 경우 다음 구문을 사용하여 사용자의 현재 OneDrive 지리적 위치에 있는 SPO 서비스에 연결합니다.
 
 `Connect-SPOService -url https://<tenantName>-admin.sharepoint.com`
 
-예: ' Matt@contosoenergy.onmicrosoft.com ' 사용자의 OneDrive를 이동 하려면 사용자의 OneDrive가 EUR 지리적 위치에 있으므로 EUR SharePoint 관리 센터에 연결 합니다.
+예: 'Matt@contosoenergy.onmicrosoft.com'의 OneDrive를 이동하려면 사용자의 OneDrive가 EUR 지리적 위치에 있는 경우 EUR SharePoint 관리 센터에 연결합니다.
 
 `Connect-SPOSservice -url https://contosoenergyeur-admin.sharepoint.com`
 
@@ -92,7 +92,7 @@ OneDrive를 이동할 준비가 되었으면 Success, 법적 보존 상태이거
 
 -   _UserPrincipalName_ - OneDrive을 이동할 사용자의 UPN입니다.
 
--   _DestinationDataLocation_ – OneDrive를 이동 해야 하는 지리적 위치입니다. 이는 사용자의 기본 설정 데이터 위치와 동일 해야 합니다.
+-   _DestinationDataLocation_ - Geo-Location OneDrive를 이동해야 하는 위치입니다. 이 위치는 사용자의 기본 설정 데이터 위치와 동일해야 합니다.
 
 예를 들어, matt@contosoenergy.onmicrosoft.com의 OneDrive를 EUR에서 AUS로 이동하려면 다음을 실행합니다.
 
@@ -108,15 +108,15 @@ OneDrive를 이동할 준비가 되었으면 Success, 법적 보존 상태이거
 
 ## <a name="cancel-a-onedrive-geo-move"></a>OneDrive 지리적 이동 취소 
 
-다음 cmdlet을 사용 하 여 이동이 진행 중이거나 완료 되지 않은 경우 사용자 OneDrive의 지리적 이동을 중지할 수 있습니다.
+이 cmdlet을 사용하여 이동이 진행 중이 아니거나 완료되지 않은 경우 사용자의 OneDrive의 지리적 이동을 중지할 수 있습니다.
 
 `Stop-SPOUserAndContentMove – UserPrincipalName <UserPrincipalName>`
 
-여기서 _UserPrincipalName_은 OneDrive 이동을 중지하려는 사용자의 UPN입니다.
+여기서 _UserPrincipalName_ 은 OneDrive 이동을 중지하려는 사용자의 UPN입니다.
 
 ## <a name="determining-current-status"></a>현재 상태 확인
 
-Get-SPOUserAndContentMoveState cmdlet을 사용 하 여 연결 된 지리적 위치에서 OneDrive 지리적 이동의 상태를 확인할 수 있습니다.
+OneDrive 지리적 이동의 상태를 확인할 수 있습니다. 이 cmdlet을 사용하여 연결된 지리적 위치로 들어오거나 Get-SPOUserAndContentMoveState 있습니다.
 
 다음 표에는 이동 상태에 대한 설명이 나와 있습니다.
 
@@ -147,11 +147,11 @@ Get-SPOUserAndContentMoveState cmdlet을 사용 하 여 연결 된 지리적 위
 </tbody>
 </table>
 
-특정 사용자의 이동 상태를 확인 하려면 UserPrincipalName 매개 변수를 사용 합니다.
+특정 사용자 이동의 상태를 찾으면 UserPrincipalName 매개 변수를 사용합니다.
 
 `Get-SPOUserAndContentMoveState -UserPrincipalName <UPN>`
 
-연결 된 지리적 위치에서의 모든 이동 상태를 확인 하려면 MoveState 매개 변수를 NotStarted, InProgress, Success, Failed, All 값 중 하 나와 함께 사용 합니다.
+연결된 지리적 위치로 들어오거나 해당 위치에서 이동하는 모든 이동의 상태를 확인하려면 NotStarted, InProgress, Success, Failed, All 값 중 하나와 함께 MoveState 매개 변수를 사용합니다.
 
 `Get-SPOUserAndContentMoveState -MoveState <value>`
 
@@ -163,11 +163,11 @@ OneDrive 사용자는 OneDrive가 다른 지리적 위치로 이동될 경우 �
 
 ### <a name="onedrive-for-business"></a>비즈니스용 OneDrive
 
-이동이 진행 되는 동안에는 사용자의 OneDrive가 읽기 전용으로 설정 됩니다. 이동이 완료 되 면 사용자는 Microsoft 365 앱 시작 관리자 또는 웹 브라우저를 사용 하 여 OneDrive로 이동할 때 새 지리적 위치에서 해당 OneDrive로 리디렉션됩니다.
+이동이 진행 중일 때 사용자의 OneDrive는 읽기 전용으로 설정됩니다. 이동이 완료되면 Microsoft 365 앱 시작 프로그램 또는 웹 브라우저에서 OneDrive로 이동할 때 새 지리적 위치에 있는 OneDrive로 이동됩니다.
 
 ### <a name="permissions-on-onedrive-content"></a>OneDrive 콘텐츠에 대한 사용 권한
 
-OneDrive 콘텐츠에 대 한 사용 권한이 있는 사용자는 이동 하는 동안 및 완료 된 후에도 해당 콘텐츠에 계속 액세스할 수 있습니다.
+OneDrive 콘텐츠에 대한 사용 권한이 있는 사용자는 이동하는 동안 및 완료된 후에도 콘텐츠에 계속 액세스할 수 있습니다.
 
 ### <a name="onedrive-sync-client"></a>OneDrive 동기화 클라이언트 
 
@@ -199,8 +199,8 @@ OneDrive 지리적 이동이 완료되면, 사용자는 iOS 모바일 앱에서 
 
 ### <a name="existing-followed-groups-and-sites"></a>기존의 팔로우된 그룹 및 사이트
 
-팔 로우 하는 사이트 및 그룹이 지리적 위치에 관계 없이 사용자의 OneDrive에 표시 됩니다. 다른 지리적 위치에 호스트 되는 사이트 및 그룹은 별도의 탭에서 열립니다.
+팔로우된 사이트 및 그룹은 지리적 위치에 관계없이 사용자의 OneDrive에 표시됩니다. 다른 지리적 위치에서 호스팅된 사이트 및 그룹은 별도의 탭에서 열립니다.
 
-### <a name="delve-geo-url-updates"></a>Delve 지역 URL 업데이트
+### <a name="delve-geo-url-updates"></a>Delve 지리적 URL 업데이트
 
-OneDrive를 새 지역으로 이동한 후에만 사용자가 PDL에 해당 하는 Delve 지역으로 전송 됩니다.
+사용자는 OneDrive가 새 지역으로 이동된 후에만 PDL에 해당하는 Delve 지역으로 전송됩니다.

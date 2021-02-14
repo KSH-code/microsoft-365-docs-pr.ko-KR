@@ -1,5 +1,5 @@
 ---
-title: 사용자 라이선스를 할당 하는 동안 Microsoft 365 서비스에 액세스할 수 없도록 설정
+title: 사용자 라이선스를 할당하는 동안 Microsoft 365 서비스에 대한 액세스 해제
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,7 +17,7 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 ms.assetid: bb003bdb-3c22-4141-ae3b-f0656fc23b9c
-description: Microsoft 365 용 PowerShell을 사용 하 여 사용자 계정에 라이선스를 할당 하 고 한 번에 특정 서비스 계획을 사용 하지 않도록 설정 하는 방법을 알아봅니다.
+description: Microsoft 365용 PowerShell을 사용하여 사용자 계정에 라이선스를 할당하고 특정 서비스 계획을 동시에 사용하지 않도록 설정하는 방법을 자세히 알아보는 방법을 설명하는 것이 있습니다.
 ms.openlocfilehash: b027c805638284a78d4e49f4c65518be02e60392
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -25,28 +25,28 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46692510"
 ---
-# <a name="disable-access-to-microsoft-365-services-while-assigning-user-licenses"></a>사용자 라이선스를 할당 하는 동안 Microsoft 365 서비스에 액세스할 수 없도록 설정
+# <a name="disable-access-to-microsoft-365-services-while-assigning-user-licenses"></a>사용자 라이선스를 할당하는 동안 Microsoft 365 서비스에 대한 액세스 해제
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 구독은 개별 서비스에 대 한 서비스 요금제와 함께 제공 됩니다. Microsoft 365 관리자는 사용자에 게 라이선스를 할당할 때 특정 요금제를 사용 하지 않도록 설정 해야 하는 경우가 많습니다. 이 문서의 지침을 사용 하 여 개별 사용자 계정 또는 여러 사용자 계정에 대해 PowerShell을 사용 하 여 특정 서비스 계획을 사용 하지 않도록 설정 하는 동안 Microsoft 365 라이선스를 할당할 수 있습니다.
+Microsoft 365 구독은 개별 서비스에 대한 서비스 요금제와 함께 제공합니다. Microsoft 365 관리자는 사용자에게 라이선스를 할당할 때 특정 계획을 사용하지 않도록 설정해야 하는 경우가 종종 있습니다. 이 문서의 지침에 따라 개별 사용자 계정 또는 여러 사용자 계정에 대해 PowerShell을 사용하여 특정 서비스 계획을 사용하지우는 동안 Microsoft 365 라이선스를 할당할 수 있습니다.
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 
-먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.
+먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
 
-그런 다음이 명령을 사용 하 여 테 넌 트에 대 한 라이선스 계획을 나열 합니다.
+다음으로, 이 명령을 사용하여 테넌트의 라이선스 계획을 나열합니다.
 
 ```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
-다음으로, UPN (사용자 계정 이름)이 라고도 하는 라이선스를 추가할 계정의 로그인 이름을 가져옵니다.
+그런 다음 라이선스를 추가할 계정의 로그인 이름을 UPN(사용자 계정 이름)이라고도 합니다.
 
-그런 다음 서비스 목록을 컴파일하여 사용 하도록 설정 합니다. 라이선스 계획의 전체 목록 (제품 이름), 포함 된 서비스 계획 및 해당 하는 이름에 대 한 자세한 내용은 [product name and service plan identifier for license](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)을 참조 하십시오.
+그런 다음 사용하도록 설정할 서비스 목록을 컴파일합니다. 라이선스 계획(제품 이름), 포함된 서비스 계획 및 해당 식별 이름의 전체 목록은 라이선스에 대한 제품 이름 및 서비스 계획 [식별자를 참조하세요.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 
-아래 명령 블록에 대해 사용자 계정 이름, SKU 부품 번호 및 서비스 계획 목록을 입력 하 여 설명 텍스트 및 문자를 사용 하도록 설정 하 고 제거 합니다 \< and > . 그런 다음 PowerShell 명령 프롬프트에서 결과 명령을 실행 합니다.
+아래 명령 블록의 경우 사용자 계정의 사용자 계정 이름, SKU 부분 번호 및 서비스 계획 목록을 입력하여 설명 텍스트와 문자를 사용하도록 설정하고 \< and > 제거합니다. 그런 다음 PowerShell 명령 프롬프트에서 결과 명령을 실행합니다.
   
 ```powershell
 $userUPN="<user account UPN>"
@@ -67,41 +67,41 @@ Set-AzureADUserLicense -ObjectId $user.ObjectId -AssignedLicenses $LicensesToAss
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기
 
-먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)합니다.
+먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-다음으로, 다음 명령을 실행 하 여 현재 구독을 확인 합니다.
+다음으로 이 명령을 실행하여 현재 구독을 봐야 합니다.
   
 ```powershell
 Get-MsolAccountSku
 ```
 
 >[!Note]
->PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 **Msol**이 있는 cmdlet을 지원하지 않습니다. 이러한 cmdlet을 계속 사용하려면 Windows PowerShell에서 이를 실행해야 합니다.
+>PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 **Msol** 이 있는 cmdlet을 지원하지 않습니다. 이러한 cmdlet을 계속 사용하려면 Windows PowerShell에서 이를 실행해야 합니다.
 >
 
-명령 표시에서 다음을  `Get-MsolAccountSku` 수행 합니다.
+명령  `Get-MsolAccountSku` 표시에서 다음을 실행합니다.
   
-- **AccountSkuId** 은 형식의 조직에 대 한 구독입니다. \<OrganizationName> \<Subscription> \<OrganizationName>은 Microsoft 365에 등록할 때 제공한 값으로, 조직에서 고유 합니다. \<Subscription>특정 구독에 대 한 값입니다. 예를 들어 litwareinc: ENTERPRISEPACK의 경우 조직 이름은 litwareinc이 고 구독 이름은 ENTERPRISEPACK (Office 365 Enterprise E3)입니다.
+- **AccountSkuId는** 조직의 구독 \<OrganizationName> \<Subscription> 형식입니다. 이 값은 Microsoft 365에 등록할 때 제공한 \<OrganizationName> 값으로, 조직에 고유합니다. 값은 \<Subscription> 특정 구독에 대한 것입니다. 예를 들어 litwareinc:ENTERPRISEPACK의 경우 조직 이름은 litwareinc, 구독 이름은 ENTERPRISEPACK(Office 365 Enterprise E3)입니다.
     
-- **Activeunits** 는 구독을 위해 구매한 라이선스 수입니다.
+- **ActiveUnits는** 구독을 위해 구입한 라이선스 수입니다.
     
-- **WarningUnits** 은 갱신 되지 않고 30 일 유예 기간 후에 만료 되는 구독의 라이선스 수입니다.
+- **WarningUnits는** 갱신하지 않은 구독의 라이선스 수로, 30일 유예 기간이 지난 후에 만료됩니다.
     
-- **ConsumedUnits** 은 구독에 대해 사용자에 게 할당 한 라이선스 수입니다.
+- **ConsumedUnits는** 구독에 대해 사용자에게 할당한 라이선스 수입니다.
     
-라이선스를 부여할 사용자가 포함 된 Microsoft 365 구독에 대 한 AccountSkuId를 확인 합니다. 또한 할당 하기에 충분 한 라이선스가 있는지 확인 하세요 ( **Activeunits** 에서 **ConsumedUnits** 빼기).
+라이선스를 부여할 사용자가 포함된 Microsoft 365 구독용 AccountSkuId를 기록해 두시고, 또한 할당할 수 있는 라이선스가 충분한지 **확인(ActiveUnits에서 ConsumedUnits 빼기)** 
   
-다음으로, 다음 명령을 실행 하 여 모든 구독에서 사용할 수 있는 Microsoft 365 서비스 요금제에 대 한 세부 정보를 확인 합니다.
+다음으로, 다음 명령을 실행하여 모든 구독에서 사용할 수 있는 Microsoft 365 서비스 계획에 대한 세부 정보를 봐야 합니다.
   
 ```powershell
 Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 ```
 
-이 명령을 표시할 때 사용자에 게 라이선스를 할당할 때 사용 하지 않도록 설정할 서비스 계획을 결정 합니다.
+이 명령이 표시되어 있는 경우 사용자에게 라이선스를 할당할 때 사용하지 않도록 설정할 서비스 계획을 결정해야 합니다.
   
 다음은 서비스 계획 및 해당 Microsoft 365 서비스의 일부 목록입니다.
 
-다음 표에서는 Microsoft 365 서비스 계획 및 가장 일반적인 서비스에 대 한 친숙 한 이름을 보여 줍니다. 서비스 계획 목록이 다를 수도 있습니다. 
+다음 표에는 Microsoft 365 서비스 계획과 가장 일반적인 서비스의 이름이 표시됩니다. 서비스 계획 목록이 다를 수도 있습니다. 
   
 |**서비스 계획**|**설명**|
 |:-----|:-----|
@@ -109,19 +109,19 @@ Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 | `TEAMS1` <br/> |Microsoft Teams  <br/> |
 | `YAMMER_ENTERPRISE` <br/> |Yammer  <br/> |
 | `RMS_S_ENTERPRISE` <br/> |RMS(Azure 권한 관리)  <br/> |
-| `OFFICESUBSCRIPTION` <br/> |Microsoft 365 Apps for enterprise *(이전 이름 Office 365 ProPlus)*  <br/> |
+| `OFFICESUBSCRIPTION` <br/> |엔터프라이즈용 Microsoft 365 *앱(이전 명명된 Office 365 ProPlus)*  <br/> |
 | `MCOSTANDARD` <br/> |비즈니스용 Skype Online  <br/> |
 | `SHAREPOINTWAC` <br/> |사무실   <br/> |
 | `SHAREPOINTENTERPRISE` <br/> |SharePoint Online  <br/> |
 | `EXCHANGE_S_ENTERPRISE` <br/> |Exchange Online 계획 2  <br/> |
    
-라이선스 계획의 전체 목록 (제품 이름), 포함 된 서비스 계획 및 해당 하는 이름에 대 한 자세한 내용은 [product name and service plan identifier for license](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)을 참조 하십시오.
+라이선스 계획(제품 이름), 포함된 서비스 계획 및 해당 식별 이름의 전체 목록은 라이선스에 대한 제품 이름 및 서비스 계획 [식별자를 참조하세요.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
    
-AccountSkuId 및 서비스 계획을 사용 하지 않도록 설정 했으므로 개별 사용자 또는 여러 사용자에 대해 라이선스를 할당할 수 있습니다.
+이제 AccountSkuId 및 서비스 계획을 사용하지 않도록 설정할 계획이 있는 경우 개별 사용자 또는 여러 사용자에 대한 라이선스를 할당할 수 있습니다.
   
 ### <a name="for-a-single-user"></a>단일 사용자의 경우
 
-단일 사용자에 대해 사용자 계정 이름, AccountSkuId 및 서비스 계획 목록을 입력 하 여 설명 텍스트와 문자를 사용 하지 않도록 설정 하 고 제거 합니다 \< and > . 그런 다음 PowerShell 명령 프롬프트에서 결과 명령을 실행 합니다.
+단일 사용자의 경우 사용자 계정의 사용자 계정 이름, AccountSkuId 및 서비스 계획 목록을 입력하여 설명 텍스트와 문자를 사용하지 않도록 설정하고 \< and > 제거합니다. 그런 다음 PowerShell 명령 프롬프트에서 결과 명령을 실행합니다.
   
 ```powershell
 $userUPN="<the user's account name in email format>"
@@ -133,7 +133,7 @@ Sleep -Seconds 5
 Set-MsolUserLicense -UserPrincipalName $userUpn -LicenseOptions $licenseOptions -ErrorAction SilentlyContinue
 ```
 
-다음은 contoso: ENTERPRISEPACK 라이선스에 대해 belindan@contoso.com 이라는 계정에 대 한 명령 블록이 며 사용 하지 않도록 설정할 서비스 계획은 RMS_S_ENTERPRISE, SWAY, INTUNE_O365 및 YAMMER_ENTERPRISE입니다.
+다음은 belindan@contoso.com, contoso:ENTERPRISEPACK 라이선스 및 사용하지 않도록 설정할 서비스 계획에 대한 RMS_S_ENTERPRISE, SWAY, INTUNE_O365 및 YAMMER_ENTERPRISE.
   
 ```powershell
 $userUPN="belindan@contoso.com"
@@ -147,7 +147,7 @@ Set-MsolUserLicense -UserPrincipalName $userUpn -LicenseOptions $licenseOptions 
 
 ### <a name="for-multiple-users"></a>여러 사용자의 경우
 
-여러 사용자에 대해이 관리 작업을 수행 하려면 UserPrincipalName 및 UsageLocation 필드를 포함 하는 쉼표로 구분 된 값 (CSV) 텍스트 파일을 만듭니다. 예를 들면 다음과 같습니다.
+여러 사용자에 대해 이 관리 작업을 수행하기 위해 UserPrincipalName 및 UsageLocation 필드가 포함된 CSV(콤보로 구분된 값) 텍스트 파일을 만들어야 합니다. 예를 들면 다음과 같습니다.
   
 ```powershell
 UserPrincipalName,UsageLocation
@@ -156,7 +156,7 @@ LynneB@contoso.onmicrosoft.com,US
 ShawnM@contoso.onmicrosoft.com,US
 ```
 
-그런 다음 입력 및 출력 CSV 파일의 위치, 계정 SKU ID 및 서비스 계획 목록을 사용 하지 않도록 설정 하 고 PowerShell 명령 프롬프트에서 결과 명령을 실행 합니다.
+그런 다음 입력 및 출력 CSV 파일의 위치, 사용하지 않도록 설정할 계정 SKU ID 및 서비스 계획 목록을 입력한 다음 PowerShell 명령 프롬프트에서 결과 명령을 실행합니다.
   
 ```powershell
 $inFileName="<path and file name of the input CSV file that contains the users, example: C:\admin\Users2License.CSV>"
@@ -176,19 +176,19 @@ $users | Get-MsolUser | Select UserPrincipalName, Islicensed,Usagelocation | Exp
 }
 ```
 
-다음 PowerShell 명령 블록:
+이 PowerShell 명령 블록:
   
-- 각 사용자의 사용자 이름을 표시 합니다.
+- 각 사용자의 사용자 계정 이름을 표시됩니다.
     
-- 각 사용자에 대해 사용자 지정 된 라이선스를 할당 합니다.
+- 사용자 지정된 라이선스를 각 사용자에게 할당합니다.
     
-- 처리 된 모든 사용자와 함께 CSV 파일을 만들고 해당 라이선스 상태를 표시 합니다.
+- 처리된 모든 사용자와 함께 CSV 파일을 만들고 라이선스 상태를 보여줍니다.
     
 ## <a name="see-also"></a>참고 항목
 
-[PowerShell을 사용 하 여 Microsoft 365 서비스에 액세스할 수 없도록 설정](disable-access-to-services-with-microsoft-365-powershell.md)
+[PowerShell을 통해 Microsoft 365 서비스에 액세스하지 않도록 설정](disable-access-to-services-with-microsoft-365-powershell.md)
   
-[PowerShell을 사용 하 여 Sway에 액세스 사용 안 함](disable-access-to-sway-with-microsoft-365-powershell.md)
+[PowerShell을 통해 Sway에 액세스하지 않도록 설정](disable-access-to-sway-with-microsoft-365-powershell.md)
   
 [PowerShell로 Microsoft 365 사용자 계정, 라이선스 및 그룹 관리](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
   

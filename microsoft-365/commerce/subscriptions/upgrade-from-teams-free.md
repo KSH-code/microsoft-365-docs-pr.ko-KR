@@ -1,5 +1,5 @@
 ---
-title: Microsoft 팀에서 무료로 Microsoft 365으로 업그레이드
+title: Microsoft Teams에서 비즈니스용 Microsoft 365로 업그레이드
 f1.keywords:
 - NOCSH
 - fwlink 2135143
@@ -18,7 +18,7 @@ ms.collection:
 - commerce
 ms.custom: ''
 search.appverid: ''
-description: Microsoft 팀에서 새로운 Microsoft 365 비즈니스 구독을 무료로 업그레이드 하는 방법에 대해 알아봅니다.
+description: Microsoft Teams 무료에서 새 비즈니스용 Microsoft 365 구독으로 업그레이드하는 방법을 알아보는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 07/08/2020
 ms.openlocfilehash: fcd06db64f78c80e5b4a015380e672f529feb0ae
@@ -28,56 +28,56 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/04/2020
 ms.locfileid: "46552461"
 ---
-# <a name="upgrade-from-microsoft-teams-free-to-microsoft-365-for-business"></a>Microsoft 팀에서 무료로 Microsoft 365으로 업그레이드
+# <a name="upgrade-from-microsoft-teams-free-to-microsoft-365-for-business"></a>Microsoft Teams에서 비즈니스용 Microsoft 365로 업그레이드
 
 > [!IMPORTANT]
-> 이 문서는 Microsoft 팀의 무료 조직에만 적용 됩니다.
+> 이 문서는 인도의 Microsoft Teams 무료 조직에만 적용됩니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-Microsoft 팀 무료 조직을 업그레이드 하려면 Microsoft 팀 무료 관리자 여야 합니다.Microsoft 팀원 무료 조직을 만든 경우 관리자가 자동으로 관리 됩니다.
+Microsoft Teams 무료 조직을 업그레이드하려면 Microsoft Teams 무료 관리자 되어야 합니다.Microsoft Teams 무료 조직을 만든 경우 자동으로 관리자입니다.
 
-## <a name="step-1-get-your-work-or-school-account-id"></a>1 단계: 회사 또는 학교 계정 ID 가져오기
+## <a name="step-1-get-your-work-or-school-account-id"></a>1단계: 직장 또는 학교 계정 ID 확인
 
-프로세스를 시작 하려면 기본 회사 또는 학교 계정 ID를 가져옵니다. 이 계정 ID는 Microsoft 팀에 액세스 하는 데 사용 하는 전자 메일 주소와 다릅니다.
+프로세스를 시작하려면 주된 직장 또는 학교 계정 ID를 얻습니다. 이 계정 ID는 Microsoft Teams 무료에 액세스하는 데 사용하는 전자 메일 주소와 다릅니다.
 
-1. 로 가다<a href="https://go.microsoft.com/fwlink/p/?linkid=2134797" target="_blank">https://account.activedirectory.windowsazure.com</a>
-2. 헤더에서 프로필 아이콘을 선택 합니다. 계정 ID가 이름 아래에 표시 되 고 *onmicrosoft.com*로 끝납니다. \
-    관리자 전자 메일 주소는 *admin@yourfreeorgname.onmicrosoft.com*처럼 표시 됩니다.
+1. 로 가다 <a href="https://go.microsoft.com/fwlink/p/?linkid=2134797" target="_blank">https://account.activedirectory.windowsazure.com</a>
+2. 헤더에서 프로필 아이콘을 선택합니다. 계정 ID가 사용자 이름 아래에 표시되고 *.onmicrosoft.com*.\
+    관리자 전자 메일 주소는 다음과 *admin@yourfreeorgname.onmicrosoft.com.*
 
-## <a name="step-2-reset-your-password"></a>2 단계: 암호 재설정
+## <a name="step-2-reset-your-password"></a>2단계: 암호 다시 설정
 
-Microsoft 팀의 기본 회사 또는 학교 계정에 대 한 사용 가능한 org를 받은 후에는 해당 계정의 암호를 다시 설정 해야 합니다.
+Microsoft Teams 무료 회원에 대한 기본 직장 또는 학교 계정이 있는 경우 계정의 암호를 다시 설정해야 합니다.
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터로</a>이동 합니다. 로그인 하 라는 메시지가 표시 되 면 **암호 잊음**를 선택 합니다.
-2. 원본으로 사용 하는 회사 또는 학교 계정 ( *onmicrosoft.com*로 끝나는 항목)을 사용 하 여 암호 재설정 절차를 완료 합니다.
-3. 확인 단계를 완료 합니다. 새 암호를 설정 하는 데 사용할 코드가 포함 된 전자 메일을 받게 됩니다.
-4. 코드를 입력 하 여 확인 프로세스를 완료 합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터로 이동하세요.</a> 로그인하라는 메시지가 표시될 때 암호를 **잊어버렸다는 메시지가 표시될 때 .**
+2. 기본 직장 또는 학교 계정(.0으로 끝나는 계정)을 사용하여 암호 *재설정 절차를* onmicrosoft.com.
+3. 확인 단계를 완료합니다. 새 암호를 설정하는 데 사용할 코드가 있는 전자 메일을 받게 됩니다.
+4. 확인 프로세스를 완료하는 코드를 입력합니다.
 
-## <a name="step-3-buy-your-new-subscription"></a>3 단계: 새 구독 구입
+## <a name="step-3-buy-your-new-subscription"></a>3단계: 새 구독 구입
 
-복구한 기본 회사 또는 학교 계정과 새 관리자 암호를 사용 하 여 새로운 Microsoft 365 비즈니스 구독을 구입 합니다.
+복구한 주된 직장 또는 학교 계정과 새 관리자 암호를 사용하여 새 비즈니스용 Microsoft 365 구독을 구입합니다.
 
-1. Microsoft 365 관리 센터에서 **결제**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">구매 서비스로</a>이동 합니다.
-2. 구매할 Microsoft 365 for business 제품을 찾습니다.
+1. Microsoft 365 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">서비스 구매</a>로 이동합니다.
+2. 구입하려는 비즈니스용 Microsoft 365 제품을 찾아야 합니다.
     > [!IMPORTANT]
-    > Microsoft 팀을 포함 하는 항목을 선택 해야 합니다.
-3. 구매를 완료 합니다. Microsoft 팀에서 비즈니스를 위해 Microsoft 365로 이동할 수 있는 모든 사용자에 게 충분 한 라이선스를 구입 해야 합니다.
+    > Microsoft Teams를 포함하는 팀을 선택해야 합니다.
+3. 구매를 완료합니다. 비즈니스용 Microsoft 365로 이동하려는 Microsoft Teams 무료 또는 일부 사용자에게 충분한 라이선스를 구입해야 합니다.
 
-## <a name="step-4-assign-new-licenses-to-users"></a>4 단계: 사용자에 게 새 라이선스 할당
+## <a name="step-4-assign-new-licenses-to-users"></a>4단계: 사용자에게 새 라이선스 할당
 
-이제 비즈니스에 대 한 새로운 Microsoft 365이 있으므로 Microsoft 팀원 무료 조직의 기존 사용자에 게 라이선스를 할당할 수 있습니다.
+새 비즈니스용 Microsoft 365 구독이 있는 경우 Microsoft Teams 무료 조직의 기존 사용자에게 라이선스를 할당할 수 있습니다.
 
-1. 관리 센터에서 **사용자**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a>로 이동 합니다.
-2. Microsoft 365 for business 라이선스를 할당 하려는 사용자를 선택 하 고 **제품 라이선스 관리**를 선택 합니다.
-3. **제품 라이선스 관리** 창에서 **기존 라이선스 할당 바꾸기를**선택 합니다.
-4. **기존 제품 교체** 창에서 구입한 비즈니스 제품용 Microsoft 365를 찾고 토글 **을 설정으로 전환 합니다.**
-5. **바꾸기를**선택한 다음 **닫기를**선택 합니다.
+1. 관리 센터에서 사용자   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자로 이동하세요.</a>
+2. 비즈니스용 Microsoft 365 라이선스를 할당할 사용자를 선택한 다음 제품 라이선스 **관리를 선택합니다.**
+3. 제품 라이선스 **관리 창에서** 기존 라이선스 할당 **바꾸기를 선택합니다.**
+4. 기존 제품 바꾸기 **창에서** 구입한 비즈니스용 Microsoft 365 제품을 찾은 다음 토글을 켜기.로 **전환합니다.**
+5. **바꾸기,** **닫기 선택**
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 팀 무료 소개](https://support.microsoft.com/office/6d79a648-6913-4696-9237-ed13de64ae3c) (문서) \
-[Microsoft 팀의 무료 구독 버전 업그레이드](https://docs.microsoft.com/microsoftteams/upgrade-freemium) (문서) \
-[구독 라이선스 구입 또는 제거](../licenses/buy-licenses.md) (문서) \
-[사용자에 게 라이선스 할당](../../admin/manage/assign-licenses-to-users.md) (문서) \
-[사용자의 라이선스 할당](../../admin/manage/remove-licenses-from-users.md) 해제 (문서)
+[Microsoft Teams 무료 시작(문서)\](https://support.microsoft.com/office/6d79a648-6913-4696-9237-ed13de64ae3c)
+[Microsoft Teams를 구독 버전으로 무료](https://docs.microsoft.com/microsoftteams/upgrade-freemium) 업그레이드(문서)\
+[구독 라이선스 구입 또는](../licenses/buy-licenses.md) 제거(문서)\
+[사용자에게 라이선스 할당(문서)\](../../admin/manage/assign-licenses-to-users.md)
+[사용자로부터 라이선스를 Unassignigns(문서)](../../admin/manage/remove-licenses-from-users.md)

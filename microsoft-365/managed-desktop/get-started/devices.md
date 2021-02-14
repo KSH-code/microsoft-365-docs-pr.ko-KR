@@ -1,5 +1,5 @@
 ---
-title: Microsoft Managed Desktop에서 장치 주문
+title: Microsoft Managed Desktop에서 디바이스 주문
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -18,9 +18,9 @@ ms.locfileid: "46529532"
 ---
 # <a name="order-microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 주문
 
-승인 된 장치 파트너 중 하나를 사용 하는 것이 좋습니다. 장치 파트너 관계 설정에 대 한 자세한 내용은 Microsoft 계정 담당자와 함께 작업할 수 있습니다.
+승인된 장치 파트너 중 하나를 사용하여 작업하는 것이 좋습니다. Microsoft 계정 담당자와 협력하여 장치 파트너 관계를 설정하는 데 도움이 될 수 있습니다.
 
-이 경우에는 Microsoft Managed Desktop에서 사용 하도록 지원 되는 [현재 승인 된 장치](../service-description/device-list.md) 목록을 검토할 수 있습니다.
+그 동안 Microsoft Managed Desktop에서 [](../service-description/device-list.md) 사용할 수 있는 현재 승인된 장치 목록을 검토할 수 있습니다.
 
 
 

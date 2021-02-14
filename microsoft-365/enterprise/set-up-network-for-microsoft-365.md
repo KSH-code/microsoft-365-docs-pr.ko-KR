@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365에 대 한 네트워크 설정
+title: Microsoft 365에 대한 네트워크 설정
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,7 +19,7 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: ''
-description: 네트워크 연결 개요 및 끝점 목록을 비롯 하 여 Microsoft 365 용 네트워크를 설정 하는 데 도움이 되는 정보가 포함 된 문서에 대 한 링크를 확인할 수 있습니다.
+description: 네트워크 연결 개요 및 끝점 목록을 포함하여 Microsoft 365에 대한 네트워크를 설정하는 데 도움이 되는 정보가 있는 문서의 링크를 찾아야 합니다.
 ms.openlocfilehash: f0e0499c70745d31399240372c190758285408aa
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -27,25 +27,25 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46692346"
 ---
-# <a name="set-up-your-network-for-microsoft-365"></a>Microsoft 365에 대 한 네트워크 설정
+# <a name="set-up-your-network-for-microsoft-365"></a>Microsoft 365에 대한 네트워크 설정
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365 온 보 딩의 중요 한 부분은 네트워크 및 인터넷 연결이 최적화 된 액세스를 사용 하도록 설정 되어 있는지 확인 하는 것입니다. 온-프레미스 네트워크가 온-프레미스 네트워크를 구성 하 여 SaaS (globally distributed Software) 클라우드에 액세스 하는 것은 들어오는 일반 네트워크와는 다른 내부 데이터 센터 및 중앙 인터넷 연결에 대 한 트래픽에 최적화 됩니다. 
+Microsoft 365 온보더링의 중요한 부분은 네트워크 및 인터넷 연결이 최적화된 액세스를 위해 설정되어 있도록 하는 것입니다. 전역으로 분산된 SaaS(Software-as-a-Service) 클라우드에 액세스하도록 On-premises 네트워크를 구성하는 것은,프레미스 데이터 센터 및 중앙 인터넷 연결에 대한 트래픽에 최적화된 기존 네트워크와 다릅니다. 
 
 이 문서를 사용하여 주요 차이점을 이해하고 에지 장치, 클라이언트 컴퓨터, 온-프레미스 네트워크를 수정하여 온-프레미스 사용자를 위한 최적의 성능을 구현하세요.
 
-## <a name="how-microsoft-365-networking-works"></a>Microsoft 365 네트워킹 작동 방식
+## <a name="how-microsoft-365-networking-works"></a>Microsoft 365 네트워킹의 작동 방식
 
-Microsoft 365 연결에 대 한 개요는 다음 문서를 참조 하세요.
+Microsoft 365의 연결 개요는 다음 문서를 참조하세요.
 
 - [Microsoft 365 네트워킹 연결 개요](microsoft-365-networking-overview.md)
 - [Microsoft 365 네트워크 연결 원칙](microsoft-365-network-connectivity-principles.md)
 - [Microsoft 365 네트워크 연결 평가](assessing-network-connectivity.md)
 
-성능 향상에 대 한 도움말을 보려면 [네트워크 계획 및 성능 조정의 Microsoft 365](network-planning-and-performance.md)을 참조 하세요.
+성능 향상에 대한 조언은 [Microsoft 365에](network-planning-and-performance.md)대한 네트워크 계획 및 성능 조정을 참조합니다.
 
-## <a name="support-microsoft-365-networking-as-a-network-equipment-vendor"></a>네트워크 장비 공급 업체로 Microsoft 365 네트워킹 지원
+## <a name="support-microsoft-365-networking-as-a-network-equipment-vendor"></a>네트워크 장비 공급업체로 Microsoft 365 네트워킹 지원
 
 네트워크 장비 공급업체의 경우 [Office 365 네트워킹 파트너 프로그램](microsoft-365-networking-partner-program.md)에 참가하세요. 프로그램에 등록하여 제품 및 솔루션에 Office 365 네트워크 연결 원칙을 구축하세요. 
 
@@ -76,9 +76,9 @@ Office 365 클라우드의 최신 엔드포인트 목록을 자동으로 가져�
 - [Mac용 Office 2016의 네트워크 요청](network-requests-in-office-2016-for-mac.md)
 
 
-## <a name="additional-topics-for-microsoft-365-networking"></a>Microsoft 365 네트워킹에 대 한 추가 항목
+## <a name="additional-topics-for-microsoft-365-networking"></a>Microsoft 365 네트워킹에 대한 추가 항목
 
-Microsoft 365 네트워킹의 특수 한 항목은 다음 문서를 참조 하세요.
+Microsoft 365 네트워킹의 특수 항목은 다음 문서를 참조하세요.
 
 - [콘텐츠 배달 네트워크](content-delivery-networks.md)
 - [Office 365 서비스의 IPv6 지원](ipv6-support.md)

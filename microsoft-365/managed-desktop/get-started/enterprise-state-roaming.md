@@ -18,11 +18,11 @@ ms.locfileid: "46530202"
 ---
 # <a name="enable-enterprise-state-roaming"></a>엔터프라이즈 상태 로밍 사용
 
-Microsoft Managed Desktop의 최상의 환경을 위해 사용자가 클라우드를 통해 사용자 및 응용 프로그램 설정 데이터를 안전 하 게 동기화 할 수 있도록 하는 [엔터프라이즈 상태 로밍을](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview)사용 하도록 설정 합니다. 즉, 사용자가 로그인 하는 Windows 장치에 관계 없이 같은 환경을 갖게 됩니다. 예를 들어 Microsoft Managed Desktop 장치 중 하나를 새 데스크톱 장치로 바꾸면 마지막 작업과 정확히 동일 하 게 작동 합니다.
+Microsoft Managed Desktop을 가장 잘 사용하려면 [엔터프라이즈](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview)상태 로밍을 사용하도록 설정하여 사용자가 안전하게 사용자 및 응용 프로그램 설정 데이터를 클라우드와 동기화할 수 있도록 합니다. 즉, 로그인하는 Windows 장치에 상관없이 동일한 환경을 사용할 수 있습니다. 예를 들어 Microsoft Managed Desktop 장치 중 하나를 새 장치로 바꾸면 모양이 마지막 장치와 정확히 동일하게 보이고 작동합니다.
 
-엔터프라이즈 상태 로밍을 사용 하도록 설정 하려면 [Azure Active Directory에서 엔터프라이즈 상태 로밍 사용](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-enable)의 단계를 수행한 다음이 문서로 돌아옵니다.
+엔터프라이즈 상태 로밍을 사용하도록 설정하려면 [Azure Active Directory에서 엔터프라이즈](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-enable)상태 로밍 사용의 단계를 수행한 다음 이 설명서로 돌아오십시오.
 
-엔터프라이즈 상태 로밍에 어려움이 있으면 관리자 [지원](../working-with-managed-desktop/admin-support.md)에 문의 하세요.
+엔터프라이즈 상태 로밍에 문제가 있는 경우 관리자 지원에 [문의하세요.](../working-with-managed-desktop/admin-support.md)
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
 
@@ -30,7 +30,7 @@ Microsoft Managed Desktop의 최상의 환경을 위해 사용자가 클라우�
 2. [조건부 액세스 조정](conditional-access.md)
 3. [라이선스 할당](assign-licenses.md)
 4. [Intune 회사 포털 배포](company-portal.md)
-5. Enterprise 상태 로밍 사용 (이 항목)
+5. 엔터프라이즈 상태 로밍 사용(이 항목)
 6. [장치 설정](set-up-devices.md)
 7. [사용자들이 장치를 사용할 수 있도록 준비시키기](get-started-devices.md)
 8. [앱 배포](deploy-apps.md)
