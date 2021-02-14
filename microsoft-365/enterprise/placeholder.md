@@ -1,5 +1,5 @@
 ---
-title: 자리 표시자 문서
+title: 자리 holder 문서
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -20,6 +20,6 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46692544"
 ---
-# <a name="placeholder-article"></a><span data-ttu-id="9e1fd-103">자리 표시자 문서</span><span class="sxs-lookup"><span data-stu-id="9e1fd-103">Placeholder article</span></span>
+# <a name="placeholder-article"></a><span data-ttu-id="95bb4-103">자리 holder 문서</span><span class="sxs-lookup"><span data-stu-id="95bb4-103">Placeholder article</span></span>
 
-<span data-ttu-id="9e1fd-104">이 문서는 현재로 서의 자리 표시자입니다.</span><span class="sxs-lookup"><span data-stu-id="9e1fd-104">This article is a placeholder for now.</span></span>
+<span data-ttu-id="95bb4-104">이 문서는 현재 자리 HOLDer입니다.</span><span class="sxs-lookup"><span data-stu-id="95bb4-104">This article is a placeholder for now.</span></span>
