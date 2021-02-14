@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Microsoft 예약
-summary: Microsoft 예약을 사용 하 여 약속을 예약 하 고 관리 합니다. Outlook 및 자동 알림과의 통합을 포함 합니다.
+title: Microsoft Bookings
+summary: Microsoft Bookings를 사용하여 약속을 예약하고 관리합니다. Outlook과의 통합 및 자동 알림이 포함됩니다.
 metadata:
-  title: Microsoft 예약
-  description: Microsoft 예약을 사용 하 여 약속을 예약 하 고 관리 합니다. Outlook 및 자동 알림과의 통합을 포함 합니다.
+  title: Microsoft Bookings
+  description: Microsoft Bookings를 사용하여 약속을 예약하고 관리합니다. Outlook과의 통합 및 자동 알림이 포함됩니다.
   ms.service: bookings
   ms.topic: landing-page
   author: dmaguire
@@ -18,33 +18,33 @@ metadata:
   ms.lasthandoff: 09/09/2020
   ms.locfileid: "47419983"
 landingContent:
-- title: Microsoft 예약 정보
+- title: About Microsoft Bookings
   linkLists:
   - linkListType: overview
     links:
-    - text: Microsoft 예약 이란?
+    - text: Microsoft Bookings란?
       url: bookings-overview.md
   - linkListType: download
     links:
-    - text: 예약 앱 다운로드
+    - text: 예약 앱 가져오기
       url: get-bookings-app.md
-- title: Microsoft 예약 설정
+- title: Microsoft Bookings 설정
   linkLists:
   - linkListType: how-to-guide
     links:
     - text: 비즈니스 정보 입력
       url: enter-business-information.md
-    - text: 일정 정책 설정
+    - text: 예약 정책 설정
       url: set-scheduling-policies.md
-    - text: 서비스 제공 정의
+    - text: 서비스 오퍼링 정의
       url: define-service-offerings.md
     - text: 직원 작업 시간 설정
       url: employee-hours.md
-    - text: 예약 페이지 사용자 지정 및 게시
+    - text: 예약 페이지 사용자 정의 및 게시
       url: customize-booking-page.md
-    - text: 예약 만들기 및 인력 작성
+    - text: 예약 만들기 및 직원
       url: create-a-manual-booking.md
-- title: 책 약속에 사용자 초대
+- title: 약속을 예약할 사람 초대
   linkLists:
   - linkListType: how-to-guide
     links:

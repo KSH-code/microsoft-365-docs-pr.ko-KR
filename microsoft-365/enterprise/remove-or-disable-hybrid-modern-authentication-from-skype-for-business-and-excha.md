@@ -17,7 +17,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서에서는 비즈니스용 Skype 및 Exchange에서 하이브리드 최신 인증을 제거 하거나 사용 하지 않도록 설정 하는 방법에 대해 설명 합니다.
+description: 이 문서에서는 비즈니스용 Skype 및 Exchange에서 하이브리드 최신 인증을 제거하거나 사용하지 않도록 설정하는 방법을 설명합니다.
 ms.openlocfilehash: 70f62b9b2165464837aa1dea0e12854df116efe0
 ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
@@ -29,44 +29,44 @@ ms.locfileid: "47547099"
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-현재 환경에 적합 하지 않은 것을 찾기 위해 HMA (Hybrid 현대 Authentication)만 사용 하도록 설정한 경우에는 HMA를 사용 하지 않도록 설정할 수 있습니다. 이 문서에서는 이러한 방법을 설명 합니다.
+HMA(하이브리드 최신 인증)만 사용하도록 설정하여 현재 환경에 부적소한 경우 HMA를 사용하지 않도록 설정할 수 있습니다. 이 문서에서는 방법을 설명합니다.
   
-## <a name="who-is-this-article-for"></a>이 문서는 누구에 게 있나요?
+## <a name="who-is-this-article-for"></a>이 문서는 누구를 위한 것인가요?
 
-비즈니스용 Skype Online 또는 온-프레미스 및/또는 Exchange Online 또는 온-프레미스에서 최신 인증을 사용 하도록 설정한 경우 HMA를 사용 하지 않도록 설정 해야 하는 경우 다음 단계를 수행 합니다.
+비즈니스용 Skype Online 또는 On-premises 및/또는 Exchange Online 또는 On-premises에서 최신 인증을 사용하도록 설정하고 HMA를 사용하지 않도록 설정해야 하는 경우 이러한 단계가 도움이 됩니다.
 
 > [!IMPORTANT]
-> 비즈니스용 Skype Online 또는 온-프레미스에 있는 경우 '[최신 인증과 함께 지원 되는 비즈니스용 skype 토폴로지](https://technet.microsoft.com/library/mt803262.aspx)' 문서를 참조 하 고, 혼합 된 토폴로지 HMA를 사용 하며, 시작 하기 전에 지원 되는 토폴로지를 확인 해야 합니다.
+> 비즈니스용[Skype](https://technet.microsoft.com/library/mt803262.aspx)Online 또는온-프레미스에 있으며 혼합 토폴로지 HMA가 있으며 시작하기 전에 지원되는 토폴로지가 필요한 경우 '최신 인증으로 지원되는 비즈니스용 Skype 토폴로지' 문서를 참조하세요.
   
-## <a name="how-to-disable-hybrid-modern-authentication-exchange"></a>하이브리드 최신 인증을 사용 하지 않도록 설정 하는 방법 (Exchange)
+## <a name="how-to-disable-hybrid-modern-authentication-exchange"></a>하이브리드 최신 인증(Exchange)을 사용하지 않도록 설정하는 방법
 
-1. **Exchange 온-프레미스**: Exchange 관리 셸을 열고 다음 명령을 실행 합니다. 
+1. **Exchange On-premises:** Exchange 관리 셸을 열고 다음 명령을 실행합니다. 
 
 ```powershell
 Set-OrganizationConfig -OAuth2ClientProfileEnabled $false
 Set-AuthServer -Identity evoSTS -IsDefaultAuthorizationEndpoint $false
 ```
 
-2. **Exchange online**: 원격 PowerShell을 사용 [하 여 exchange online에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) 합니다. 다음 명령을 실행 하 여  *OAuth2ClientProfileEnabled*  플래그를 ' f a l i e '로 설정 합니다.
+2. **Exchange Online**: 원격 PowerShell을 [사용하여 Exchange Online에](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) 연결합니다. 다음 명령을 실행하여  *OAuth2ClientProfileEnabled*  플래그를 'false'으로 전환합니다.
 
 ```powershell    
 Set-OrganizationConfig -OAuth2ClientProfileEnabled:$false
 ```
     
-## <a name="how-to-disable-hybrid-modern-authentication-skype-for-business"></a>하이브리드 최신 인증을 사용 하지 않도록 설정 하는 방법 (비즈니스용 Skype)
+## <a name="how-to-disable-hybrid-modern-authentication-skype-for-business"></a>하이브리드 최신 인증을 사용하지 않도록 설정하는 방법(비즈니스용 Skype)
 
-1. 비즈니스용 **Skype 온-프레미스**: 비즈니스용 Skype 관리 셸에서 다음 명령을 실행 합니다.
+1. **비즈니스용 Skype On-premises:** 비즈니스용 Skype 관리 셸에서 다음 명령을 실행합니다.
 
 ```powershell
 Set-CsOAuthConfiguration -ClientAuthorizationOAuthServerIdentity ""
 ```
 
-2. 비즈니스용 **Skype online**: 원격 PowerShell을 사용 [하 여 비즈니스용 skype online에 연결](manage-skype-for-business-online-with-microsoft-365-powershell.md) 합니다. 다음 명령을 실행 하 여 최신 인증을 사용 하지 않도록 설정 합니다.
+2. **비즈니스용 Skype Online:** 원격 PowerShell을 사용하여 [비즈니스용 Skype Online에](manage-skype-for-business-online-with-microsoft-365-powershell.md) 연결합니다. 다음 명령을 실행하여 최신 인증을 사용하지 않도록 설정합니다.
 
 ```powershell    
 Set-CsOAuthConfiguration -ClientAdalAuthOverride Disallowed
 ```
 
-[최신 인증 개요에 다시 연결](hybrid-modern-auth-overview.md) 합니다. 
+[최신 인증 개요로 다시 연결합니다.](hybrid-modern-auth-overview.md) 
   
 

@@ -16,7 +16,7 @@ search.appverid:
 - MET150
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
-description: Advanced eDiscovery에서 검토 집합의 사례 데이터를 검토 하는 방법에 대해 알아봅니다.
+description: Advanced eDiscovery의 검토 집합에서 사례 데이터를 검토하는 방법을 자세히 알아보습니다.
 ms.openlocfilehash: 890edc0e813f620944cea1e73bc8f9dc45132eb3
 ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT

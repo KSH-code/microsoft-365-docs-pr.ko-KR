@@ -12,7 +12,7 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: 보안 및 준수 센터에서 콘텐츠 검색 및 eDiscovery의 검색 결과를 다운로드 하려면 최신 버전의 Microsoft Edge를 사용 하려면 ClickOnce 지원을 사용 하도록 설정 해야 합니다.
+description: 보안 및 ClickOnce 센터에서 콘텐츠 검색 및 eDiscovery에서 검색 결과를 다운로드하려면 최신 버전의 Microsoft Edge를 사용하려면 지원 센터를 사용하도록 설정해야 합니다.
 ms.openlocfilehash: 60f42d2884c56aaff40bc0a6a979e99698a3cd2e
 ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
@@ -22,42 +22,42 @@ ms.locfileid: "47546822"
 ---
 # <a name="use-the-ediscovery-export-tool-in-microsoft-edge"></a>Microsoft Edge에서 eDiscovery 내보내기 도구 사용
 
-최신 버전의 Microsoft Edge에 대 한 최근 변경 사항으로 인해 ClickOnce 지원 기능은 더 이상 기본적으로 사용 되지 않도록 설정 되어 있습니다. EDiscovery 내보내기 도구를 계속 사용 하 여 콘텐츠 검색 또는 eDiscovery 검색 결과를 다운로드 하려면 [Microsoft Internet Explorer](https://support.microsoft.com/help/17621/internet-explorer-downloads) 를 사용 하거나 최신 버전의 microsoft Edge에서 ClickOnce 지원을 사용 하도록 설정 해야 합니다.
+최신 버전의 Microsoft Edge가 최근 변경되어 기본적으로 ClickOnce 지원이 더 이상 사용되지 않습니다. eDiscovery 내보내기 도구를 사용하여 콘텐츠 검색 또는 eDiscovery 검색 결과를 다운로드하려면 Microsoft Internet Explorer 또는 최신 버전의 [Microsoft](https://support.microsoft.com/help/17621/internet-explorer-downloads) Edge에서 ClickOnce 지원을 사용하도록 설정해야 합니다.
 
 ## <a name="enable-clickonce-support-in-microsoft-edge"></a>Microsoft Edge에서 ClickOnce 지원 사용
 
-1. Microsoft Edge에서 **edge://flags/#edge-클릭 한 번**으로 이동 합니다.
+1. Microsoft Edge에서 다음 **edge://flags/#edge-click-once.**
 
-2. 기존 값이 드롭다운 목록에서 **기본값** 또는 **사용 안** 함으로 설정 되어 있으면 **사용**으로 변경 합니다.
+2. 기존 값이 드롭다운 목록에서 **Default** 또는 **Disabled로** 설정된 경우 해당 값을 **Enabled로 변경합니다.**
 
-   ![드롭다운 목록에서 사용을 선택 합니다.](../media/ClickOnceimage1.png)
+   ![드롭다운 목록에서 사용 선택](../media/ClickOnceimage1.png)
 
-3. 브라우저 창의 아래쪽으로 스크롤한 다음 **다시 시작** 을 클릭 하 여 Edge를 다시 시작 합니다.
+3. 브라우저 창 아래쪽으로 스크롤한 다음  다시 시작을 클릭하여 Edge를 다시 시작합니다.
 
-   ![다시 시작 클릭](../media/ClickOnceimage2.png)
+   ![다시 시작을 클릭합니다.](../media/ClickOnceimage2.png)
 
-**참고:** 조직에서는 그룹 정책을 사용 하 여 ClickOnce 지원을 사용 하지 않도록 설정할 수 있습니다. ClickOnce 지원에 대 한 조직 정책이 있는지 확인 하려면 **edge://policy**로 이동 합니다. 다음 스크린샷에서는 전체 조직에서 ClickOnce가 사용 되도록 설정 되어 있음을 보여 줍니다. 이 정책 값이 **false**로 설정 된 경우 조직의 관리자에 게 문의 해야 합니다.
+**참고:** 조직에서는 그룹 정책을 사용하여 조직에서 지원을 ClickOnce 수 있습니다. 지원에 대한 조직 정책이 ClickOnce 확인을 위해 **edge://policy.** 다음 스크린샷은 전체 ClickOnce 사용하도록 설정되어 있습니다. 이 정책 값이 **false로** 설정된 경우 조직의 관리자에게 문의해야 합니다.
 
-![에 지 조직 정책 목록](../media/ClickOnceimage3.png)
+![에지 조직 정책 목록](../media/ClickOnceimage3.png)
 
-## <a name="install-and-run-the-ediscovery-export-tool"></a>EDiscovery 내보내기 도구 설치 및 실행
+## <a name="install-and-run-the-ediscovery-export-tool"></a>eDiscovery 내보내기 도구 설치 및 실행
 
-1. 콘텐츠 검색 또는 eDiscovery 사례에서 내보내기의 플라이 아웃 페이지에서 **결과 다운로드** 를 클릭 합니다.
+1. 콘텐츠 **검색 또는** eDiscovery 사례에서 내보내기 플라이아웃 페이지에서 결과 다운로드를 클릭합니다.
 
-   ![검색 결과를 다운로드 하려면 플라이 아웃 페이지에서 결과 다운로드를 클릭 합니다.](../media/ClickOnceExport1.png)
+   ![플라이아웃 페이지에서 결과 다운로드를 클릭하여 검색 결과 다운로드](../media/ClickOnceExport1.png)
 
-2. 도구를 시작할 것인지 묻는 메시지가 표시 되 면 **열기**를 클릭 합니다.
+2. 도구를 실행하라는 확인 메시지가 표시됩니다. **열기.**
 
-   ![열기를 클릭 하 여 eDiscovery 내보내기 도구를 시작 합니다.](../media/ClickOnceimage4.png)
+   ![열기를 클릭하여 eDiscovery 내보내기 도구를 실행합니다.](../media/ClickOnceimage4.png)
 
-   EDiscovery 내보내기 도구가 설치 되어 있지 않으면 보안 경고를 표시 합니다. 
+   eDiscovery 내보내기 도구가 설치되어 있지 않은 경우 보안 경고가 표시됩니다. 
 
-   ![EDiscovery 내보내기 도구를 설치 하려면 설치를 클릭 합니다.](../media/ClickOnceimage5.png)
+   ![설치를 클릭하여 eDiscovery 내보내기 도구 설치](../media/ClickOnceimage5.png)
 
-3. **설치**를 클릭합니다. 설치가 완료 되 면 내보내기 도구가 자동으로 실행 됩니다.
+3. **설치** 를 클릭합니다. 설치한 후 내보내기 도구가 자동으로 시작됩니다.
 
 자세한 내용은 아래 항목을 참조하세요.
 
 - [콘텐츠 검색 결과 내보내기](export-search-results.md)
 
-- [Microsoft Edge에서 실험 플래그를 사용 하도록 설정 하는 방법](https://microsoftedgesupport.microsoft.com/hc/articles/360034075294-How-to-enable-experiment-flags-in-Microsoft-Edge-Insider-channels)
+- [Microsoft Edge에서 실험 플래그를 사용하도록 설정하는 방법](https://microsoftedgesupport.microsoft.com/hc/articles/360034075294-How-to-enable-experiment-flags-in-Microsoft-Edge-Insider-channels)

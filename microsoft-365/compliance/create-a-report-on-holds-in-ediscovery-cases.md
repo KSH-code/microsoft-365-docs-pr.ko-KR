@@ -19,7 +19,7 @@ search.appverid:
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 ms.custom:
 - seo-marvel-apr2020
-description: EDiscovery 사례와 연결 된 모든 보류에 대 한 정보가 포함 된 보고서를 생성 하는 방법을 알아봅니다.
+description: eDiscovery 사례와 연결된 모든 보류에 대한 정보가 포함된 보고서를 생성하는 방법에 대해 자세히 알아보습니다.
 ms.openlocfilehash: 35e432104e7c1358887eb89ae96b9bb0d1d12a0f
 ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
 ms.translationtype: MT
@@ -29,27 +29,27 @@ ms.locfileid: "47546980"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases"></a>EDiscovery 사례의 보존 보고서 만들기
 
-이 문서의 스크립트를 통해 eDiscovery 관리자 및 eDiscovery 관리자는 Office 365 또는 Microsoft 365의 준수 센터에 있는 eDiscovery 사례와 관련 된 모든 보존 정보를 포함 하는 보고서를 생성할 수 있습니다. 이 보고서에는 보류가 연결 된 사례 이름, 보류 중인 콘텐츠 위치, 쿼리 기반 인지 여부 등의 정보가 포함 됩니다. 보류 된 상태가 없는 경우가 있으면 스크립트는 보류가 없는 사례 목록이 포함 된 추가 보고서를 만듭니다.
+이 문서의 스크립트를 통해 eDiscovery 관리자 및 eDiscovery 관리자는 Office 365 또는 Microsoft 365의 준수 센터에서 eDiscovery 사례와 연결된 모든 보류에 대한 정보가 포함된 보고서를 생성할 수 있습니다. 보고서에는 보류가 연결된 사례의 이름, 보류된 콘텐츠 위치, 보류가 쿼리 기반인지 여부 등의 정보가 포함되어 있습니다. 보류가 없는 사례가 있는 경우 스크립트는 보류되지 않은 사례 목록을 사용하여 추가 보고서를 생성합니다.
 
-보고서에 포함 된 정보에 대 한 자세한 [내용은 추가 정보](#more-information) 섹션을 참조 하십시오.
+보고서에 [포함된 정보에](#more-information) 대한 자세한 설명은 추가 정보 섹션을 참조하세요.
 
-## <a name="admin-requirements-and-script-information"></a>관리 요구 사항 및 스크립트 정보
+## <a name="admin-requirements-and-script-information"></a>관리자 요구 사항 및 스크립트 정보
 
-- 조직의 모든 eDiscovery 사례에 대 한 보고서를 생성 하려면 조직의 eDiscovery 관리자 여야 합니다. EDiscovery 관리자 인 경우 보고서에 액세스할 수 있는 사례에 대 한 정보만 포함 됩니다. EDiscovery 권한에 대 한 자세한 내용은 [ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
+- 조직의 모든 eDiscovery 사례에 대한 보고서를 생성하기 위해 조직의 eDiscovery 관리자(Administrator)를 설정해야 합니다. eDiscovery 관리자인 경우 보고서에는 액세스할 수 있는 사례에 대한 정보만 포함됩니다. eDiscovery 사용 권한에 대한 자세한 내용은 [eDiscovery 권한 할당을 참조하세요.](assign-ediscovery-permissions.md)
 
-- 이 문서의 스크립트에는 최소한의 오류 처리가 있습니다. 기본 목적은 조직의 eDiscovery 사례와 연결 된 보류에 대 한 보고서를 빠르게 만드는 것입니다.
+- 이 문서의 스크립트에는 최소한의 오류 처리가 있습니다. 주요 목적은 조직의 eDiscovery 사례와 연결된 보류에 대한 보고서를 빠르게 만드는 것입니다.
 
 - 이 항목에서 제공된 샘플 스크립트는 Microsoft 표준 지원 프로그램 또는 서비스에서는 지원되지 않습니다. 샘플 스크립트는 어떠한 보증도 없이 "있는 그대로" 제공됩니다. Microsoft는 묵시적인 모든 보증(상품성 또는 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하되 이에 제한되지 않음)을 부인합니다. 샘플 스크립트 및 문서의 사용 또는 수행으로 인해 발생하는 모든 위험은 사용자의 책임입니다. 어떠한 경우에도 Microsoft, 스크립트 작성자 또는 스크립트의 작성, 생산 또는 제공과 관련된 사람은 누구나 샘플 스크립트 또는 문서의 사용 또는 사용 불가능으로 인해 발생하는 모든 손해(수익에 대한 손실, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 금전상의 손실을 포함하되 이에 제한되지 않음)에 대해 책임지지 않습니다. 이는 Microsoft가 이러한 손해가 발생할 가능성에 대해 알고 있었더라고 마찬가지입니다.
 
-## <a name="step-1-connect-to-the-security--compliance-center-powershell"></a>1 단계: 보안 & 준수 센터 PowerShell에 연결
+## <a name="step-1-connect-to-the-security--compliance-center-powershell"></a>1단계: 보안 및 & PowerShell에 연결
 
-첫 번째 단계는 조직의 보안 & 준수 센터 PowerShell에 연결 하는 것입니다. 단계별 지침은 [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)를 참조하세요.
+첫 번째 단계는 조직의 보안 & 준수 센터 PowerShell에 연결하는 것입니다. 단계별 지침은 [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)를 참조하세요.
 
-## <a name="step-2-run-the-script-to-report-on-holds-associated-with-ediscovery-cases"></a>2 단계: 스크립트를 실행 하 여 eDiscovery 사례와 연결 된 보류에 대해 보고
+## <a name="step-2-run-the-script-to-report-on-holds-associated-with-ediscovery-cases"></a>2단계: 스크립트를 실행하여 eDiscovery 사례와 연결된 보류 보고
 
-보안 & 준수 센터 PowerShell에 연결한 후에는 조직의 eDiscovery 사례에 대 한 정보를 수집 하는 스크립트를 만들어 실행 해야 합니다.
+Security & Compliance Center PowerShell에 연결한 후 다음 단계는 조직의 eDiscovery 사례에 대한 정보를 수집하는 스크립트를 만들고 실행하는 것입니다.
 
-1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 CaseHoldsReport.ps1 합니다.
+1. 파일 이름 접미사 .ps1을 사용하여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장합니다. 예를 들어 CaseHoldsReport.ps1.
 
    ```powershell
    #script begin
@@ -139,49 +139,49 @@ ms.locfileid: "47546980"
    #script end
    ```
 
-2. 1 단계에서 연 Windows PowerShell 세션에서 스크립트를 저장 한 폴더로 이동 합니다.
+2. 1단계에서 Windows PowerShell 세션에서 스크립트를 저장한 폴더로 이동합니다.
 
-3. 스크립트를 실행 합니다. 예를 들어:
+3. 스크립트를 실행합니다. 예를 들어:
 
    ```powershell
    .\CaseHoldsReport.ps1
    ```
 
-   스크립트는 보고서를 저장할 대상 폴더를 입력 하 라는 메시지를 표시 합니다.
+   스크립트에서 보고서를 저장할 대상 폴더를 묻는 메시지가 표시됩니다.
 
-4. 보고서를 저장할 폴더의 전체 경로 **이름을 입력 한 다음 enter 키를**누릅니다.
+4. 보고서를 저장할 폴더의 전체 경로 이름을 입력한 다음 Enter 를 **누를 수 있습니다.**
 
    > [!TIP]
-   > 스크립트가 있는 폴더에 보고서를 저장 하려면 대상 폴더를 묻는 메시지가 표시 되 면 마침표 (".")를 입력 합니다. 스크립트가 있는 폴더의 하위 폴더에 보고서를 저장 하려면 하위 폴더의 이름만 입력 하면 됩니다.
+   > 스크립트가 있는 폴더에 보고서를 저장하기 위해 대상 폴더에 대한 메시지가 표시될 때 마침표(".")를 입력합니다. 스크립트가 있는 폴더의 하위 폴더에 보고서를 저장하기 위해 하위 폴더의 이름을 입력하기만 하면 됩니다.
 
-   스크립트에서 조직의 모든 eDiscovery 사례에 대 한 정보를 수집 하기 시작 합니다. 스크립트가 실행 되는 동안에는 보고서 파일에 액세스 하지 마세요. 스크립트가 완료 되 면 Windows PowerShell 세션에 확인 메시지가 표시 됩니다. 이 메시지가 표시 되 면 4 단계에서 지정한 폴더의 보고서에 액세스할 수 있습니다. 보고서의 파일 이름은 `CaseHoldsReport<DateTimeStamp>.csv` 입니다.
+   스크립트는 조직의 모든 eDiscovery 사례에 대한 정보를 수집하기 시작합니다. 스크립트가 실행되는 동안 보고서 파일에 액세스하지 않습니다. 스크립트가 완료되면 확인 메시지가 Windows PowerShell 표시됩니다. 이 메시지가 표시되면 4단계에서 지정한 폴더의 보고서에 액세스할 수 있습니다. 보고서의 파일 이름은 `CaseHoldsReport<DateTimeStamp>.csv` 입니다.
 
-   Addtionally을 사용 하는 경우 스크립트는 보류 된 것이 없는 사례 목록을 포함 하는 보고서도 만듭니다. 이 보고서의 파일 이름은 `CaseswithNoHolds<DateTimeStamp>.csv` 입니다.
+   또한 이 스크립트는 보류가 없는 사례 목록이 있는 보고서를 만듭니다. 이 보고서의 파일 이름은 `CaseswithNoHolds<DateTimeStamp>.csv` 입니다.
 
-   다음은 CaseHoldsReport.ps1 스크립트를 실행 하는 예제입니다.
+   다음은 스크립트 실행의 CaseHoldsReport.ps1 예입니다.
 
-   ![CaseHoldsReport.ps1 스크립트를 실행 한 후의 출력](../media/7d312ed5-505e-4ec5-8f06-3571e3524a1a.png)
+   ![실행 중인 스크립트를 실행한 CaseHoldsReport.ps1 출력](../media/7d312ed5-505e-4ec5-8f06-3571e3524a1a.png)
 
 ## <a name="more-information"></a>추가 정보
 
-이 문서의 스크립트를 실행할 때 생성 되는 보고서에는 각 보류에 대 한 다음과 같은 정보가 포함 되어 있습니다. 앞에서 설명한 것 처럼, 조직의 모든 보류에 대 한 정보를 반환 하려면 eDiscovery 관리자 여야 합니다. 사례 보류에 대 한 자세한 내용은 [eDiscovery 사례](ediscovery-cases.md)를 참조 하십시오.
+이 문서의 스크립트를 실행할 때 만들어진 케이스 보류 보고서에는 각 보류에 대한 다음 정보가 포함되어 있습니다. 앞서 설명한처럼 조직의 모든 보류에 대한 정보를 반환하기 위해 eDiscovery 관리자(Administrator)입니다. 케이스 보류에 대한 자세한 내용은 [eDiscovery 사례를 참조하세요.](ediscovery-cases.md)
 
-- 보류의 이름과 보류가 연결 된 eDiscovery 사례의 이름입니다.
+- 보류의 이름과 보류가 연결된 eDiscovery 사례의 이름입니다.
 
-- EDiscovery 사례가 활성 상태 인지 닫혀 있는지 여부
+- eDiscovery 사례가 활성 상태인지 닫혀 있는지 여부입니다.
 
-- 보류를 사용 하거나 사용 하지 않도록 설정할지 여부를 지정 합니다.
+- 보류를 사용할지 여부를 설정합니다.
 
-- 보류가 연결 된 eDiscovery 사례의 구성원입니다. 사례 구성원은 할당 된 eDiscovery 권한에 따라 사례를 보거나 관리할 수 있습니다.
+- 보류가 연결된 eDiscovery 사례의 구성원입니다. 사례 구성원은 할당된 eDiscovery 사용 권한에 따라 사례를 보거나 관리할 수 있습니다.
 
-- 사례를 만든 날짜와 시간입니다.
+- 사례가 만들어진 시간 및 날짜입니다.
 
-- 사례가 닫히면 해당 사례를 닫은 사람 및 종료 된 시간 및 날짜입니다.
+- 사례가 마감된 경우 해당 사례를 닫은 사람 및 닫은 시간 및 날짜입니다.
 
-- 보류 중인 Exchange 사서함 및 SharePoint 사이트 위치입니다.
+- 보류된 Exchange 사서함 및 SharePoint 사이트 위치
 
-- 보류가 쿼리 기반 인 경우 쿼리 구문입니다.
+- 보류가 쿼리 기반인 경우 쿼리 구문입니다.
 
-- 보류가 만들어진 날짜와 시간 및이를 만든 사람입니다.
+- 보류를 만든 시간 및 날짜와 보류를 만든 사람입니다.
 
-- 보류를 마지막으로 변경한 날짜와 시간을 변경한 사람입니다.
+- 보류가 마지막으로 변경된 시간 및 날짜와 변경한 사람입니다.
