@@ -16,7 +16,7 @@ search.appverid:
 - MET150
 ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
 ms.custom: seo-marvel-apr2020
-description: 이 문서에서는 Office 365 가져오기 서비스를 사용하여 Pst 파일을 Microsoft 365로 가져오는 방법에 대한 관리자를 위한 몇 가지 자주 묻는 질문과 대답을 포함합니다.
+description: 이 문서에는 Office 365 가져오기 서비스를 사용하여 PST 파일을 Microsoft 365로 가져오는 방법을 관리자가 자주 묻는 질문과 대답이 포함되어 있습니다.
 ms.openlocfilehash: b6d00bf58225ca016f6debbeeac8468c558c3556
 ms.sourcegitcommit: 37da941919036a714da42eaa039682ccbe0da670
 ms.translationtype: MT
@@ -26,13 +26,13 @@ ms.locfileid: "46860703"
 ---
 # <a name="faq-about-importing-pst-files"></a>PST 파일 가져오기에 대한 FAQ
 
-**이 문서는 관리자를 위한 문서입니다. PST 파일을 사서함으로 가져오시기 바오시나요? [Outlook .pst 파일에서 전자 메일, 연락처 및 일정 가져오기를 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkID=785075)**
+**이 문서는 관리자를 위한 것입니다. PST 파일을 자신의 사서함으로 가져오시겠습니까? Outlook [.pst 파일에서](https://go.microsoft.com/fwlink/p/?LinkID=785075) 전자 메일, 연락처 및 일정 가져오기 참조**
    
-다음은 Microsoft 365 가져오기 서비스를 사용하여 PST 파일을 Microsoft 365 사서함에 대량으로 가져오는 방법에 대한 몇 가지 자주 묻는 질문과 대답입니다. PST 파일을 가져오는 방법에 대한 자세한 내용은 PST [파일을 Office 365로 가져오는 방법에 대한 개요를 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/importing-pst-files-to-office-365)
+다음은 Office 365 가져오기 서비스를 사용하여 PST 파일을 Microsoft 365 사서함으로 대량으로 가져오는 데 대한 몇 가지 질문과 대답입니다. PST 파일을 가져오는 방법에 대한 자세한 내용은 PST 파일을 [Office 365로 가져오는](https://docs.microsoft.com/microsoft-365/compliance/importing-pst-files-to-office-365)개요를 참조하세요.
   
 ## <a name="using-network-upload-to-import-pst-files"></a>네트워크 업로드를 사용하여 PST 파일 가져오기
 
-단계별 지침을 보려면 네트워크 [업로드를 사용하여 PST 파일을 Office 365로 가져오는 를 참조합니다.](use-network-upload-to-import-pst-files.md)
+단계별 지침은 네트워크 업로드를 사용하여 PST 파일을 [Office 365로 가져오는 방법을 참조하세요.](use-network-upload-to-import-pst-files.md)
   
  **Office 365 가져오기 서비스에서 가져오기 작업을 만드는 데 필요한 권한은 무엇입니까?**
   
@@ -51,7 +51,7 @@ PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에�
   
  **네트워크 업로드는 어디에서 사용할 수 있나요?**
   
-현재 다음 지역에서 네트워크 업로드가 제공됨: 미국, 캐나다, 브라질, 프랑스, 프랑스, 독일, 스위스, 노르웨이, 유럽, 인도, 동아시아, 동남 아시아, 일본, 대한민국, 오스트레일리아, 아랍에미리트(UAE) Network upload will be available in more regions soon.
+네트워크 업로드는 현재 다음 지역에서 사용할 수 있습니다. 미국, 캐나다, 브라질, 영국, 프랑스, 독일, 스위스, 노르웨이, 유럽, 인도, 동아시아, 동남아시아, 일본, 대한민국, 호주, 아랍에미리트(UAE)입니다. 네트워크 업로드는 더 많은 지역에서 곧 사용할 수 있습니다.
   
  **네트워크 업로드를 사용하여 PST 파일을 가져오는 경우 그 가격은 얼마인가요?**
   
@@ -61,7 +61,7 @@ Using network upload to import PST files is free.
   
  **Office 365로 가져올 수 있는 PST 파일 형식의 버전은 어떻게 되나요?**
   
-PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유니코드 PST 파일 형식을 사용하는 파일을 가져오는 것이 좋습니다. 하지만 DBCS(더블바이트 문자 집합)를 사용하는 언어를 위한 파일 형식 등 ANSI PST를 사용하는 파일도 Office 365로 가져올 수 있습니다. ANSI PST 파일 가져 오기에 대한 자세한 내용은 Use network upload (4 단계)를 참조하여 [조직의 PST 파일을 Office 365로 가져오세요.](use-network-upload-to-import-pst-files.md#step-4-create-the-pst-import-mapping-file)
+PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유니코드 PST 파일 형식을 사용하는 파일을 가져오는 것이 좋습니다. 하지만 DBCS(더블바이트 문자 집합)를 사용하는 언어를 위한 파일 형식 등 ANSI PST를 사용하는 파일도 Office 365로 가져올 수 있습니다. ANSI PST 파일을 가져오는 데 대한 자세한 내용은 네트워크 업로드를 사용하여 조직의 PST 파일을 [Office 365로](use-network-upload-to-import-pst-files.md#step-4-create-the-pst-import-mapping-file)가져오는 4단계를 참조하세요.
   
 또한 Outlook 2007 이상 버전의 PST 파일도 Office 365로 가져올 수 있습니다.
   
@@ -107,7 +107,7 @@ PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 
   
 ## <a name="using-drive-shipping-to-import-pst-files"></a>드라이브 배송을 사용하여 PST 파일 가져오기
 
-단계별 지침에 대한 내용은 드라이브 [발송을 사용하여 PST 파일을 Office 365로 가져오는 것을 참조합니다.](use-drive-shipping-to-import-pst-files-to-office-365.md)
+단계별 지침은 드라이브 배송을 사용하여 PST 파일을 [Office 365로 가져오는 방법을 참조하세요.](use-drive-shipping-to-import-pst-files-to-office-365.md)
   
  **Office 365 가져오기 서비스에서 가져오기 작업을 만드는 데 필요한 권한은 무엇입니까?**
   
@@ -141,7 +141,7 @@ Microsoft 365 사서함으로 PST 파일을 가져오기 위해 드라이브 배
   
  **드라이브 배송이 가능한 하드 드라이브는 어떤 종류인가요?**
   
-Office 365 가져오기 서비스에서는 2.5인치 SSD(싱가 비트 드라이브)나 2.5인치 또는 3.5인치 SATA II/III 내장 하드 드라이브를 지원합니다. 최대 10TB의 하드 드라이브를 사용할 수 있습니다. 가져오기 작업의 경우에는 하드 드라이브의 첫 번째 데이터 볼륨만 처리됩니다. 데이터 볼륨은 NTFS 형식으로 포맷되어야 합니다. 하드 드라이브에 데이터를 복사할 때는 2.5인치 SSD나 2.5인치 또는 3.5인치 SATA II/III 커넥터를 사용하여 직접 연결하거나 외부 2.5인치 SSD나 2.5인치 또는 3.5인치 SATA II/III USB 어포장을 사용하여 외부에서 연결하면 됩니다.
+Office 365 가져오기 서비스에서 사용할 수 있는 2.5인치 SDD(Solid-State Drive) 또는 2.5인치 또는 3.5인치 SATA II/III 내부 하드 드라이브만 지원됩니다. 최대 10TB의 하드 드라이브를 사용할 수 있습니다. 가져오기 작업의 경우에는 하드 드라이브의 첫 번째 데이터 볼륨만 처리됩니다. 데이터 볼륨은 NTFS 형식으로 포맷되어야 합니다. 하드 드라이브에 데이터를 복사할 때 2.5인치 SSD 또는 2.5인치 또는 3.5인치 SATA II/III 커넥터를 사용하여 직접 연결하거나 외부 2.5인치 SSD 또는 2.5인치 또는 3.5인치 SATA II/III USB 어댑터를 사용하여 외부에 연결할 수 있습니다.
   
 > [!IMPORTANT]
 > USB 어댑터가 내장되어 함께 제공되는 외장 하드 드라이브는 Office 365 가져오기 서비스에서 지원하지 않습니다. 또한 외장 하드 드라이브 케이스 내부의 디스크를 사용할 수 없습니다. 외장 하드 드라이브는 발송하지 마시기 바랍니다. 
@@ -156,7 +156,7 @@ Office 365 가져오기 서비스에서는 2.5인치 SSD(싱가 비트 드라이
   
  **하드 드라이브가 Microsoft 데이터 센터에 도착하면 내 PST 파일을 Azure에 업로드하는 데 얼마나 걸리나요?**
   
-Microsoft 데이터 센터에 하드 드라이브가 도입된 후 PST 파일을 해당 조직의 Azure Storage 영역에 업로드하는 데 업무일 정도 7~10일 정도 소요됩니다. PST 파일은 `ingestiondata`라고 하는 Azure Blob 컨테이너에 업로드됩니다. 
+Microsoft 데이터 센터에서 하드 드라이브를 받은 후 PST 파일을 조직의 Azure Storage 영역에 업로드하는 데 영업일 7~10일이 소요됩니다. PST 파일은 `ingestiondata`라고 하는 Azure Blob 컨테이너에 업로드됩니다. 
   
  **PST 파일을 사서함으로 가져오는 데 얼마나 걸리나요?**
   
@@ -172,7 +172,7 @@ PST 파일이 Azure Storage 영역에 업로드되면 Microsoft 365에서 PST �
   
  **Microsoft 365로 가져올 수 있는 PST 파일 형식의 버전은 어떻게 되나요?**
   
-PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유니코드 PST 파일 형식을 사용하는 파일을 가져오는 것이 좋습니다. 하지만 DBCS(더블바이트 문자 집합)를 사용하는 언어를 위한 파일 형식 등 ANSI PST를 사용하는 파일도 Microsoft 365로 가져올 수 있습니다. ANSI PST 파일 가져 오기에 대한 자세한 내용은 드라이브 배송 사용을 선택한 후 [Office 365로 PST 파일 가져오기를 참조하세요.](use-drive-shipping-to-import-pst-files-to-office-365.md#step-3-create-the-pst-import-mapping-file)
+PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유니코드 PST 파일 형식을 사용하는 파일을 가져오는 것이 좋습니다. 하지만 DBCS(더블바이트 문자 집합)를 사용하는 언어를 위한 파일 형식 등 ANSI PST를 사용하는 파일도 Microsoft 365로 가져올 수 있습니다. ANSI PST 파일을 가져오는 데 대한 자세한 내용은 드라이브 배송 사용의 3단계를 참조하여 PST 파일을 [Office 365로 가져올 수 있습니다.](use-drive-shipping-to-import-pst-files-to-office-365.md#step-3-create-the-pst-import-mapping-file)
   
 또한 Outlook 2007 이상 버전의 PST 파일도 Office 365로 가져올 수 있습니다.
   

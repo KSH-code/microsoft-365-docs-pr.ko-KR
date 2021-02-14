@@ -20,7 +20,7 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: SharePoint online에 포함 된 도구를 사용 하 여 SharePoint Online 최신 사이트 페이지의 이미지를 최적화 하는 방법을 알아봅니다.
+description: SharePoint Online에 포함된 도구를 사용하여 SharePoint Online 최신 사이트 페이지에서 이미지를 최적화하는 방법을 학습합니다.
 ms.openlocfilehash: 09122dfd0bc832cf9a09cfb05bf0540e323797d9
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -57,7 +57,7 @@ SharePoint용 페이지 진단 도구를 사용하여 SharePoint 최신 사이�
 
 ## <a name="remediate-large-image-issues"></a>대용량 이미지 문제 수정
 
-페이지에 크기가 300KB 이상인 이미지를 포함하는 경우 **대용량 이미지 검색 결과**를 선택하여 대용량 이미지를 확인합니다. 최신 SharePoint Online 페이지에서 이미지 변환은 브라우저 창의 크기와 클라이언트 모니터의 해상도에 따라 자동으로 제공되고 크기가 조정됩니다. SharePoint Online에 업로드하기 전에 웹 사용을 위해서는 항상 이미지를 최적화해야 합니다. 대용량 이미지의 크기와 해상도가 자동으로 줄어들며 예기치 않은 렌더링 특성이 생길 수 있습니다.
+페이지에 크기가 300KB 이상인 이미지를 포함하는 경우 **대용량 이미지 검색 결과** 를 선택하여 대용량 이미지를 확인합니다. 최신 SharePoint Online 페이지에서 이미지 변환은 브라우저 창의 크기와 클라이언트 모니터의 해상도에 따라 자동으로 제공되고 크기가 조정됩니다. SharePoint Online에 업로드하기 전에 웹 사용을 위해서는 항상 이미지를 최적화해야 합니다. 대용량 이미지의 크기와 해상도가 자동으로 줄어들며 예기치 않은 렌더링 특성이 생길 수 있습니다.
 
 성능 문제 개선을 위해 페이지를 수정하기 전에 분석 결과에 페이지 로드 시간을 기록해 둡니다. 수정 후에 다시 도구를 실행하여 새 결과가 기준선 표준에 포함되는지 확인하고 새 페이지 로드 시간을 확인하여 개선이 되었는지 확인합니다.
 

@@ -14,7 +14,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: 다중 지리적 환경의 SharePoint 저장소 할당량 및 SharePoint Online 관리자가 할당량을 관리 하는 방법에 대해 알아봅니다.
+description: 다중 위치 환경의 SharePoint 저장소 할당량과 SharePoint Online 관리자가 할당을 관리하는 방법에 대해 자세히 알아보십시오.
 ms.openlocfilehash: ec736a6bd6061f8b028fca7a1c34d5278a84db89
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT

@@ -21,7 +21,7 @@ search.appverid:
 - MSO150
 - BCS160
 ms.assetid: 4307bdbf-6097-458d-9a6a-048112695c59
-description: 관리자는 네트워크, 모임, IM 및 사용자에 대 한 외부 액세스를 포함 하 여 비즈니스용 Skype Online의 부분을 설정 하는 데 도움이 되는 도움말을 찾을 수 있습니다.
+description: 관리자는 네트워크, 모임 및 IM, 사용자에 대한 외부 액세스 등 비즈니스용 Skype Online의 일부를 설정하는 도움말을 찾아야 합니다.
 ms.openlocfilehash: 1e3807199fc83d642399b29870f2cac477d2ec75
 ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
@@ -33,7 +33,7 @@ ms.locfileid: "47415709"
 
 ## <a name="were-here-to-help"></a>언제든지 도와드리겠습니다!
 
-Office 365 비즈니스 에디션 관리자는 Microsoft의 해박한 지원 에이전트와 무료로 상담할 수 있습니다. 이 웹 사이트에서 필요한 정보를 찾을 수 없는 경우 ** [비즈니스 제품 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
+Office 365 비즈니스 에디션 관리자는 Microsoft의 해박한 지원 에이전트와 무료로 상담할 수 있습니다. 이 웹 사이트에서 필요한 정보를 찾지 못하면 비즈니스 제품에 대한 고객 지원에 문의 **[- 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
   
 ## <a name="let-your-users-contact-external-skype-or-skype-for-business-users"></a>사용자가 외부 Skype 또는 비즈니스용 Skype 사용자에게 연락할 수 있도록 지원
 
@@ -67,9 +67,9 @@ Office 365 비즈니스 에디션 관리자는 Microsoft의 해박한 지원 에
 
 - [비즈니스용 Skype에서 개인 옵션 설정](https://support.office.com/article/68bacc31-71d3-44c3-a4d4-64da78c447aa#bkmk-stop-automatic-startup)
     
-- [비즈니스용 Skype에 로그인 하는 데 도움이 필요 하세요?](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05)
+- [비즈니스용 Skype에 로그인하는 데 도움이 필요하세요?](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05)
     
-- [비디오: 비즈니스용 Skype 로그인 및 외부에서](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451)
+- [비디오: 비즈니스용 Skype 로그인 및 아웃](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451)
     
 - [비즈니스용 Skype에서 오디오 장치 옵션 설정](https://support.office.com/article/2533d929-9814-4349-8ae4-fca29246e2ff)
     
@@ -89,6 +89,6 @@ Office 365 비즈니스 에디션 관리자는 Microsoft의 해박한 지원 에
     
 - [비즈니스용 Skype 전화 회의 시작](https://support.office.com/article/8dc8ac52-91ac-4db9-8672-11551fdaf997)
     
- **사용자를 위한 추가 문서는 [비즈니스용 Skype 도움말](https://support.office.com/article/4fbe07ce-6b15-4a06-bcf0-baea57890410)을 참조 하세요.**
+ **사용자에 대한 자세한 내용은 [비즈니스용 Skype 도움말을 참조하세요.](https://support.office.com/article/4fbe07ce-6b15-4a06-bcf0-baea57890410)**
   
 

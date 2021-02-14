@@ -42,7 +42,7 @@ Microsoft Managed Desktop 관리 포털을 사용하려면 포털에 액세스 �
 앱 패키징 | 앱 패키징 문제 해결
 장치 | 장치 상태, Microsoft Managed Desktop 장치를 사용하여 문제 해결
 보안 | Microsoft Managed Desktop 장치를 사용하여 보안 문제 해결
-IT 지원 센터 | 지원 직원이 Microsoft 관리 되는 데스크톱 지원 영역을 벗어나는 사용자 티켓을 사용 하는 경우 
+IT 지원 센터 | 지원 직원이 Microsoft Managed Desktop 지원 영역 외부에서 사용자 티켓을 넘긴 경우 
 기타 | 다른 영역에서 다루지 않는 문제
 
 **이러한 연락처로 선택한 사용자는 Microsoft Managed Desktop 환경을 결정할 수 있는 지식과 권한이 있어야 합니다.** Microsoft Managed Desktop 환경을 온보드하는 경우 로컬 지원 센터 및 보안에 대한 연락처를 추가하라는 메시지가 표시됩니다. 
@@ -53,15 +53,15 @@ IT 지원 센터 | 지원 직원이 Microsoft 관리 되는 데스크톱 지원 
 
 1.  [Microsoft Managed Desktop 관리 포털](https://aka.ms/mwaasportal)에 로그인합니다. 
 
-2.  **지원**에서 **관리자 연락처**를 선택합니다. 
+2.  **지원** 에서 **관리자 연락처** 를 선택합니다. 
 
     ![지원 메뉴, 상단 근처에서 선택된 관리자 연락처](../../media/admincontacts.png)
 
-3. **추가**를 선택하세요.
+3. **추가** 를 선택하세요.
 
     ![내보내기 및 새로 고침 왼쪽에 관리 포털, 추가 단추](../../media/adminadd.png)
 
-4.  **포커스 영역**을 선택하고 연락처에 대한 정보를 입력합니다. 
+4.  **포커스 영역** 을 선택하고 연락처에 대한 정보를 입력합니다. 
 
     ![기타, 앱 및 보안과 같은 포커스 영역 목록](../../media/areaoffocus.png)
 

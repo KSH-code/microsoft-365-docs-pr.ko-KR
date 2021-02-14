@@ -31,9 +31,9 @@ ms.locfileid: "46696308"
 
 프레미스 간 Azure Virtual Network가 온-프레미스 네트워크에 연결되어 Azure 인프라 서비스에서 호스트되는 서브넷 및 가상 시스템을 포함하도록 네트워크를 확장합니다. 이 연결을 통해 온-프레미스 네트워크의 컴퓨터는 Azure의 가상 시스템에 직접 액세스할 수 있으며 그 반대의 경우도 가능합니다. 
 
-예를 들어 Azure 가상 컴퓨터에서 실행 되는 디렉터리 동기화 서버는 온-프레미스 도메인 컨트롤러에 계정의 변경 내용을 쿼리하고 해당 변경 내용을 Microsoft 365 구독과 동기화 해야 합니다. 이 문서에서는 Azure 가상 컴퓨터를 호스팅할 준비가 된 사이트 간 VPN (가상 사설망) 연결을 사용 하 여 크로스-프레미스 Azure virtual network를 설정 하는 방법을 보여 줍니다.
+예를 들어 Azure Virtual Machine에서 실행되는 디렉터리 동기화 서버는 계정에 대한 변경 내용을 해당 도메인 컨트롤러에 쿼리하고 이러한 변경 내용을 Microsoft 365 구독과 동기화해야 합니다. 이 문서에서는 Azure Virtual Machines를 호스트할 준비가 된 사이트 간 VPN(가상 사설망) 연결을 사용하여 프레미스 간 Azure Virtual Network를 설정하는 방법을 보여줍니다.
 
-## <a name="configure-a-cross-premises-azure-virtual-network"></a>크로스-프레미스 Azure virtual network 구성
+## <a name="configure-a-cross-premises-azure-virtual-network"></a>프레미스 간 Azure Virtual Network 구성
 
 Azure의 가상 시스템은 온-프레미스 환경에서 격리할 필요가 없습니다. Azure Virtual Machine을 온-프레미스 네트워크 리소스에 연결하려면 프레미스 간 Azure Virtual Network를 구성해야 합니다. 다음 다이어그램은 Azure의 가상 컴퓨터가 있는 프레미스 간 Azure Virtual Network를 배포하는 데 필요한 구성 요소를 표시합니다.
   

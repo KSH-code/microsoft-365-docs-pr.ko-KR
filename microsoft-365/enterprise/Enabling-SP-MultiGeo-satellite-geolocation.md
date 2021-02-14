@@ -14,7 +14,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: 이 문서에서는 위성 지리적 위치에서 SharePoint 다중 Geo를 사용 하도록 설정 하는 방법에 대 한 전역 또는 SharePoint 관리자 정보를 제공 합니다.
+description: 이 문서에서는 위성 지리적 위치에서 SharePoint Multi-Geo를 사용하도록 설정하는 데 대한 전역 관리자 또는 SharePoint 관리자를 위한 정보를 제공합니다.
 ms.openlocfilehash: 78f0e925a333dd48a6016bc749459b13e1ac21c0
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "46692860"
 ---
 # <a name="enabling-sharepoint-multi-geo-in-your-satellite-geo-location"></a>위성 지리적 위치에서 SharePoint Multi-Geo 사용
 
-이 문서는 SharePoint Multi-Geo Capabilities가 2019년 3월 27일에 출시되기 **전**에 Multi-Geo 위성 위치를 만들고, 해당 위성 지리적 위치에서 SharePoint Multi-Geo를 사용하도록 설정하지 않은 전역 또는 SharePoint 관리자를 위해 작성되었습니다. 
+이 문서는 SharePoint Multi-Geo Capabilities가 2019년 3월 27일에 출시되기 **전** 에 Multi-Geo 위성 위치를 만들고, 해당 위성 지리적 위치에서 SharePoint Multi-Geo를 사용하도록 설정하지 않은 전역 또는 SharePoint 관리자를 위해 작성되었습니다. 
 
 >[!Note]
 >**3월 27일** 이후에 새 지리적 위치를 추가한 경우, 새 지리적 위치가 이미 OneDrive 및 SharePoint Multi-Geo용으로 사용하도록 설정되어 있으므로 이 지침을 따라 작업을 수행할 필요가 없습니다.

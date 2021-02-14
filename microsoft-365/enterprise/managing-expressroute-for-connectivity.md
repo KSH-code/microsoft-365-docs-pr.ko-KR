@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 - BCS160
 ms.assetid: e4468915-15e1-4530-9361-cd18ce82e231
-description: 접두사 필터링, 보안 및 규정 준수와 같은 구성을 위한 일반적인 영역을 포함 하 여 Office 365의 정보 센터를 관리 하는 방법을 알아봅니다.
+description: 'Office 365용 ExpressRoute를 관리하는 방법(예: 사전 필터링, 보안 및 규정 준수 등 구성할 공통 영역 포함)에 대해 자세히 알아보습니다.'
 ms.openlocfilehash: 5b55150b91b68954cb7b701afb7cf46ab9b951dd
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -28,79 +28,79 @@ ms.locfileid: "46692891"
 ---
 # <a name="managing-expressroute-for-office-365-connectivity"></a>Office 365 연결을 위한 ExpressRoute 관리
 
-Office 365의 경우에는 인터넷으로 송신 하는 모든 트래픽을 필요로 하지 않고 다양 한 Office 365 서비스에 연결 하는 대체 라우팅 경로를 제공 합니다. Office 365에 대 한 인터넷 연결이 여전히 필요 하지만 Microsoft가 BGP를 통해 네트워크에 알리는 특정 경로는 네트워크에 다른 구성이 없는 경우에는 직접 대상 지정 회로가 기본 설정 되어 있어야 합니다. 이 라우팅을 관리 하기 위해 구성할 수 있는 세 가지 일반적인 영역에는 접두사 필터링, 보안 및 준수 등이 포함 됩니다.
+Office 365용 ExpressRoute는 인터넷으로의 모든 트래픽을 들이지 않고도 여러 Office 365 서비스에 연결하기 위한 대체 라우팅 경로를 제공합니다. Office 365에 대한 인터넷 연결이 여전히 필요하기는 하지만, 네트워크에 다른 구성이 없는 한 Microsoft가 BGP를 통해 네트워크로 보급하는 특정 경로가 직접 ExpressRoute 회로를 선호합니다. 이 라우팅을 관리하도록 구성할 수 있는 세 가지 공통 영역에는 사전 필터링, 보안 및 규정 준수가 포함됩니다.
   
 > [!NOTE]
-> Microsoft는 Microsoft 피어 링 라우팅 도메인에서 Azure Express를 위해 검토 하는 방법을 변경 했습니다. 2017 년 7 월 31 일부터 모든 Azure Express 고객은 Azure 관리 콘솔 또는 PowerShell을 통해 직접 Microsoft 피어 링을 사용 하도록 설정할 수 있습니다. Microsoft 피어 링을 사용 하도록 설정한 후 모든 고객은 이전에 CRM Online 이라고 했던 Dynamics 365 고객 계약 응용 프로그램에 대 한 BGP 경로 알림을 수신 하는 경로 필터를 만들 수 있습니다. Office 365에 대 한 Azure Express를 필요로 하는 고객은 Microsoft 로부터 검토를 받아야 Office 365에 대 한 경로 필터를 만들 수 있습니다. Microsoft 계정 팀에 문의 하 여 Office 365 Express를 사용 하도록 설정 하는 방법을 알아보세요. 인증 되지 않은 구독에서 Office 365에 대 한 경로 필터를 만들려고 하면 [오류 메시지가](https://support.microsoft.com/kb/3181709) 표시 됨
+> Microsoft는 Azure ExpressRoute에 대해 Microsoft 피어링 라우팅 도메인을 검토하는 방법을 변경했습니다. 2017년 7월 31일부터 모든 Azure ExpressRoute 고객은 Azure 관리 콘솔 또는 PowerShell을 통해 직접 Microsoft 피어링을 사용하도록 설정할 수 있습니다. Microsoft 피어링을 사용하도록 설정한 후 고객은 Dynamics 365 Customer Engagement 응용 프로그램(이전의 CRM Online)에 대한 BGP 경로 광고를 수신하는 경로 필터를 만들 수 있습니다. Office 365용 Azure ExpressRoute가 필요한 고객은 Office 365에 대한 경로 필터를 만들기 전에 Microsoft에서 검토를 얻어야 합니다. Microsoft 계정 팀에 문의하여 Office 365 ExpressRoute를 사용하도록 설정하는 방법에 대한 검토를 요청하세요. Office 365에 대한 경로 필터를 만들려고 하는 무단 구독에 오류 [메시지가 표시됩니다.](https://support.microsoft.com/kb/3181709)
   
-## <a name="prefix-filtering"></a>접두사 필터링
+## <a name="prefix-filtering"></a>Prefix filtering
 
-고객은 Microsoft에서 보급 한 모든 BGP 경로를 승인 하 고, 제공 된 경로는 엄격한 검토 및 유효성 검사 프로세스를 통해 확인이 추가 되었습니다. 비트 단위는 고객 측에서 인바운드 경로 필터링을 사용 하지 않고 IP 접두사 소유권, 무결성 및 규모와 같은 권장 되는 컨트롤을 기본적으로 제공 합니다.
+고객이 Microsoft에서 보급하는 모든 BGP 경로를 수락하는 것이 좋습니다. 제공된 경로는 엄격한 검토 및 유효성 검사 프로세스를 통해 추가된 검사의 이점을 제거합니다. ExpressRoute는 기본적으로 고객 쪽에서 인바운드 경로 필터링이 없는 IP prefix 소유권, 무결성 및 규모와 같은 권장 컨트롤을 제공합니다.
   
-Express 공용 피어 링에서 경로 소유권을 추가로 확인 해야 하는 경우에는 [Microsoft의 공용 IP 범위](https://www.microsoft.com/download/details.aspx?id=53602)를 나타내는 모든 IPv4 및 IPv6 IP 접두사 목록에 대해 알린 경로를 확인할 수 있습니다. 이러한 범위는 전체 Microsoft 주소 공간을 포함 하 고 자주 변경 되며, 신뢰할 수 있는 범위 집합을 사용 하 여 해당 환경으로 인 한 비 Microsoft 소유 경로를 담당 하는 고객에 게 추가 보호 기능을 제공할 수도 있습니다. 이벤트가 변경 되 면 해당 월의 1 일에 변경이 수행 되 고 페이지 **세부 정보** 섹션의 버전 번호가 파일을 업데이트할 때마다 변경 됩니다.
+ExpressRoute 공용 피어링에서 경로 소유권에 대한 추가 유효성 검사가 필요한 경우 보급된 경로를 [Microsoft의](https://www.microsoft.com/download/details.aspx?id=53602)공용 IP 범위를 나타내는 모든 IPv4 및 IPv6 IP prefix의 목록에 대해 확인할 수 있습니다. 이러한 범위는 전체 Microsoft 주소 공간을 다루며 비연결적인 변경을 통해 필터링할 수 있는 안정적인 범위 집합을 제공함으로써 Microsoft가 아닌 다른 경로가 해당 환경으로 누출되는 것이 우려되는 고객에게도 추가적인 보호를 제공합니다. 변경이 있는 경우 매월 1일이 적용되어 파일의 업데이트가 있을 때마다  페이지의 세부 정보 섹션에 있는 버전 번호가 변경됩니다.
   
-접두사 필터 목록을 생성 하기 위한 [Office 365 url 및 IP 주소 범위](https://aka.ms/o365endpoints) 를 사용 하지 않아야 하는 이유에는 여러 가지가 있습니다. 다음 포함:
+Office [365](https://aka.ms/o365endpoints) URL 및 IP 주소 범위를 사용하여 사전 필터 목록을 생성하지 않도록 하는 여러 가지 이유가 있습니다. 다음을 포함
   
-- Office 365 IP 접두사는 빈번한 변경 내용이 많이 발생 합니다.
+- Office 365 IP prefixesgo of changes on a frequent basis.
 
-- Office 365 Url 및 IP 주소 범위는 라우팅이 아닌 방화벽 허용 목록 및 프록시 인프라를 관리 하기 위해 디자인 되었습니다.
+- Office 365 URL 및 IP 주소 범위는 라우팅이 아닌 방화벽 허용 목록 및 프록시 인프라를 관리하도록 디자인되어 있습니다.
 
-- Office 365 Url 및 IP 주소 범위는 사용자 간의 연결 범위에 포함 될 수 있는 다른 Microsoft 서비스에는 적용 되지 않습니다.
+- Office 365 URL 및 IP 주소 범위는 ExpressRoute 연결의 범위에 있을 수 있는 다른 Microsoft 서비스를 다루지 않습니다.
 
-|**옵션**|**단순화할**|**컨트롤 변경**|
+|**옵션**|**복잡성**|**변경 컨트롤**|
 |:-----|:-----|:-----|
-|모든 Microsoft 경로 허용  <br/> |**낮음:** 고객은 Microsoft 컨트롤을 사용 하 여 모든 경로가 올바르게 소유 되 고 있는지 확인 합니다.  <br/> |없음  <br/> |
-|Microsoft 소유 supernets 필터링  <br/> |**중간 크기:** 고객은 요약 된 접두사 필터 목록을 구현 하 여 Microsoft 소유의 경로만 허용 하도록 합니다.  <br/> |고객은 자주 업데이트 하지 않는 업데이트가 경로 필터에 반영 되도록 해야 합니다.  <br/> |
-|Office 365 IP 범위 필터링  <br/> [!CAUTION] 권장 하지 않음 |**High:** 고객은 정의 된 Office 365 IP 접두사를 기반으로 경로를 필터링 합니다.  <br/> |고객은 월별 업데이트에 대 한 강력한 변경 관리 프로세스를 구현 해야 합니다.  <br/> [!CAUTION] 이 솔루션을 사용 하려면 상당한 지속적인 변화가 필요 합니다. 시간에 구현 되지 않은 변경 내용으로 인해 서비스가 중단 될 수 있습니다.   |
+|모든 Microsoft 경로 수락  <br/> |**낮음:** 고객은 Microsoft 컨트롤을 사용하여 모든 경로가 제대로 소유되었는지 확인합니다.  <br/> |없음  <br/> |
+|Microsoft 소유의 슈퍼넷 필터링  <br/> |**보통:** 고객은 Microsoft 소유 경로만 허용하도록 요약된 사전 필터 목록을 구현합니다.  <br/> |고객은 경로 필터에 수시로 업데이트가 반영되도록 해야 합니다.  <br/> |
+|Office 365 IP 범위 필터링  <br/> [!CAUTION] Not-Recommended |**높음:** 고객 필터는 정의된 Office 365 IP prefix에 따라 경로를 필터합니다.  <br/> |고객은 월별 업데이트에 대한 강력한 변경 관리 프로세스를 구현해야 합니다.  <br/> [!CAUTION] 이 솔루션에는 상당한 변경이 필요합니다. 변경 내용이 제시간에 구현되지 않은 경우 서비스가 정전될 수 있습니다.   |
 
-Azure Express 경로를 사용 하 여 Office 365에 연결 하는 기능은 Office 365 끝점이 배포 되는 네트워크를 나타내는 특정 IP 서브넷의 BGP 광고를 기반으로 합니다. Office 365의 전역 특성 및 Office 365을 구성 하는 서비스 수로 인해 고객은 네트워크에서 허용 되는 광고를 관리 해야 하는 경우가 많습니다. 환경에 알려진 접두사 수에 관심이 있는 경우 [BGP 커뮤니티](https://support.office.com/article/Using-BGP-communities-in-ExpressRoute-for-Office-365-scenarios-preview-9ac4d7d4-d9f8-40a8-8c78-2a6d7fe96099) 기능을 사용 하 여 특정 Office 365 서비스 집합에 대 한 광고를 필터링 할 수 있습니다. 이 기능은 현재 미리 보기에 있습니다.
+Azure ExpressRoute를 사용하여 Office 365에 연결하는 것은 Office 365 끝점이 배포된 네트워크를 나타내는 특정 IP 서브넷의 BGP 광고를 기반으로 합니다. Office 365의 전 세계 특성과 Office 365를 구성하는 서비스 수로 인해 고객은 네트워크에서 수락하는 광고를 관리해야 하는 경우가 종종 있습니다. 환경에 보급되는 사전의 수가 우려되는 경우 [BGP](https://support.office.com/article/Using-BGP-communities-in-ExpressRoute-for-Office-365-scenarios-preview-9ac4d7d4-d9f8-40a8-8c78-2a6d7fe96099) 커뮤니티 기능을 사용하여 특정 Office 365 서비스 집합으로 광고를 필터링할 수 있습니다. 이 기능은 이제 미리 보기로 제공됩니다.
   
-Microsoft에서 들어오는 BGP 경로 보급을 관리 하는 방법에 관계 없이 인터넷 회로를 통해 Office 365에 연결 하는 것과 비교할 때 Office 365 서비스에 특별 한 노출을 받지 않습니다. Microsoft는 고객이 Office 365에 연결 하는 데 사용 하는 회로 유형에 관계 없이 동일한 보안, 규정 준수 및 성능 수준을 유지 관리 합니다.
+Microsoft에서 제공하는 BGP 경로 광고를 관리하는 방법에 관계없이 인터넷 회로만으로 Office 365에 연결하는 경우와 비교할 때 Office 365 서비스에 특별한 노출을 얻지 못합니다. Microsoft는 고객이 Office 365에 연결하는 데 사용하는 회로 유형에 관계없이 동일한 보안, 규정 준수 및 성능 수준을 유지 관리합니다.
   
 ### <a name="security"></a>보안
 
-Office 365 서비스에 대 한 연결을 포함 하는 Express 공용 및 Microsoft 피어 링 간의 연결에 대 한 네트워크 및 보안 경계 제어를 유지 하는 것이 좋습니다. 네트워크에서 Microsoft 네트워크로 전송 되는 네트워크 요청에 대해 보안 제어 기능을 적용 하 고 Microsoft 네트워크에서 네트워크로 인바운드를 이동 하도록 합니다.
+Office 365 서비스와의 연결을 포함하는 ExpressRoute 공용 및 Microsoft 피어링과 연결하기 위한 자체 네트워크 및 보안 경계 컨트롤을 유지 관리하는 것이 좋습니다. 네트워크에서 Microsoft 네트워크로 아웃바운드 이동하는 네트워크 요청과 Microsoft 네트워크에서 네트워크로의 인바운드에 대한 보안 제어가 설정해야 합니다.
   
-#### <a name="outbound-from-customer-to-microsoft"></a>고객에서 Microsoft로의 아웃 바운드
+#### <a name="outbound-from-customer-to-microsoft"></a>고객에서 Microsoft로 아웃바운드
   
-컴퓨터가 Office 365에 연결 되 면 인터넷 또는 Express 경로를 통해 연결 되는지 여부에 관계 없이 동일한 끝점 집합에 연결 됩니다. 사용 중인 회로에 관계 없이 Office 365 서비스를 일반 인터넷 대상 보다 신뢰할 수 있는 것으로 간주 하는 것이 좋습니다. 아웃 바운드 보안 제어는 포트와 프로토콜에 중점을 두어야 노출을 줄이고 지속적인 유지 관리를 최소화할 수 있습니다. 필요한 포트 정보는 [Office 365 끝점](https://aka.ms/o365endpoints) 참조 문서에서 확인할 수 있습니다.
+컴퓨터가 Office 365에 연결하면 인터넷 또는 ExpressRoute 회로를 통해 연결이 설정되어 있는지 여부에 관계없이 동일한 끝점 집합에 연결됩니다. 사용되는 회로에 관계없이 Office 365 서비스를 일반 인터넷 대상보다 신뢰할 수 있는 것으로 취급하는 것이 좋습니다. 아웃바운드 보안 컨트롤은 노출을 줄이고 지속적인 유지 관리 작업을 최소화하기 위해 포트 및 프로토콜에 집중해야 합니다. 필요한 포트 정보는 Office [365](https://aka.ms/o365endpoints) 끝점 참조 문서에서 사용할 수 있습니다.
   
-추가 된 컨트롤의 경우 프록시 인프라 내의 FQDN 수준 필터링을 사용 하 여 인터넷 또는 Office 365에 대해 전송 되는 일부 또는 모든 네트워크 요청을 제한 하거나 검사할 수 있습니다. 기능이 출시 되 고 Office 365 제공이 발전 함에 따라 Fqdn 목록을 유지 관리 하려면 보다 강력한 변경 관리 작업을 수행 하 고 게시 된 [office 365 끝점](https://aka.ms/o365endpoints)의 변경 내용을 추적 해야 합니다.
+추가된 컨트롤의 경우 프록시 인프라 내에서 FQDN 수준 필터링을 사용하여 인터넷 또는 Office 365로 예정된 네트워크 요청의 일부 또는 전체를 제한하거나 검사할 수 있습니다. 기능이 릴리스될 때 FQDNS 목록을 유지 관리하고 Office 365 제품도 발전함에 따라 게시된 [Office 365](https://aka.ms/o365endpoints)끝점에 대한 변경 내용을 보다 강력하게 관리하고 추적해야 합니다.
   
 > [!CAUTION]
-> Microsoft는 IP 접두사에만 의존 하 여 Office 365에 대 한 아웃 바운드 보안을 관리 하는 것이 좋습니다.
+> Office 365에 대한 아웃바운드 보안을 관리하기 위해 IP prefix만 사용하지 않는 것이 좋습니다.
 
-|**옵션**|**단순화할**|**컨트롤 변경**|
+|**옵션**|**복잡성**|**변경 컨트롤**|
 |:-----|:-----|:-----|
-|제한 없음  <br/> |**낮음:** 고객은 Microsoft에 대해 무제한의 아웃 바운드 액세스를 허용 합니다.  <br/> |없음  <br/> |
-|포트 제한  <br/> |**낮음:** 고객은 필요한 포트에 따라 Microsoft에 대 한 아웃 바운드 액세스를 제한 합니다.  <br/> |발생.  <br/> |
-|FQDN 제한  <br/> |**High:** 고객은 게시 된 Fqdn을 기반으로 하는 Office 365에 대 한 아웃 바운드 액세스를 제한 합니다.  <br/> |월별 변경  <br/> |
+|제한 없음  <br/> |**낮음:** 고객은 Microsoft에 대한 무제한 아웃바운드 액세스를 허용합니다.  <br/> |없음  <br/> |
+|포트 제한  <br/> |**낮음:** 고객은 예상 포트를 통해 Microsoft에 대한 아웃바운드 액세스를 제한합니다.  <br/> |0이(가) 틀리면 안 습니다.  <br/> |
+|FQDN 제한  <br/> |**높음:** 고객은 게시된 FQDNS에 따라 Office 365에 대한 아웃바운드 액세스를 제한합니다.  <br/> |월별 변경 내용  <br/> |
 
-#### <a name="inbound-from-microsoft-to-customer"></a>Microsoft에서 고객에 게 인바운드
+#### <a name="inbound-from-microsoft-to-customer"></a>Microsoft에서 고객으로 인바운드
   
-Microsoft에서 네트워크 연결을 시작 해야 하는 몇 가지 선택적 시나리오가 있습니다.
+Microsoft에서 네트워크에 대한 연결을 시작해야 하는 몇 가지 선택적 시나리오가 있습니다.
   
-- 로그인 하는 동안 ADFS를 확인 합니다.
+- 로그인에 대한 암호 유효성 검사 동안 ADFS.
 
-- [Exchange Server 하이브리드 배포](https://technet.microsoft.com/library/jj200581%28v=exchg.150%29.aspx)
+- [Exchange Server 하이브리드 배포.](https://technet.microsoft.com/library/jj200581%28v=exchg.150%29.aspx)
 
-- Exchange Online 테 넌 트에서 온-프레미스 호스트로 메일을 보낼 수 있습니다.
+- Exchange Online 테넌트에서온-프레미스 호스트로의 메일
 
-- SharePoint Online 메일 SharePoint Online에서 온-프레미스 호스트로 보냅니다.
+- SharePoint Online 메일이 SharePoint Online에서온-프레미스 호스트로 전송됩니다.
 
-- [SharePoint 페더레이션 하이브리드 검색](https://technet.microsoft.com/library/dn197174.aspx)
+- [SharePoint 통합 하이브리드 검색.](https://technet.microsoft.com/library/dn197174.aspx)
 
-- [SharePoint 하이브리드 BCS](https://technet.microsoft.com/library/dn197239.aspx )
+- [SharePoint 하이브리드 BCS.](https://technet.microsoft.com/library/dn197239.aspx )
 
-- 비즈니스용 skype [하이브리드](https://technet.microsoft.com/library/jj205403.aspx) 및/또는 [비즈니스용 skype 페더레이션](https://technet.microsoft.com/library/skype-for-business-online-federation-and-public-im-conectivity.aspx)
+- [비즈니스용 Skype 하이브리드](https://technet.microsoft.com/library/jj205403.aspx) 및/또는 [비즈니스용 Skype 페더ation.](https://technet.microsoft.com/library/skype-for-business-online-federation-and-public-im-conectivity.aspx)
 
-- [비즈니스용 Skype 클라우드 커넥터](https://technet.microsoft.com/library/mt605227.aspx )입니다.
+- [비즈니스용 Skype 클라우드 커넥터.](https://technet.microsoft.com/library/mt605227.aspx )
 
-복잡도를 줄이기 위해 Express 회로 대신 인터넷 회로를 통해 이러한 연결을 수락 하는 것이 좋습니다. 준수 또는 성능 요구 사항이 있는 경우 이러한 인바운드 연결을가을 수 있는 회로에서 수락 해야 하 고, 방화벽 또는 역방향 프록시를 사용 하 여 허용 되는 연결 범위를 결정 하는 것이 좋습니다. [Office 365 끝점](https://aka.ms/o365endpoints) 을 사용 하 여 올바른 FQDN 및 IP 접두사를 파악할 수 있습니다.
+복잡성을 줄이기 위해 ExpressRoute 회로 대신 인터넷 회로를 통해 이러한 연결을 수락하는 것이 좋습니다. 규정 준수 또는 성능 요구에 따라 ExpressRoute 회로를 통해 이러한 인바운드 연결을 수락해야 하는 경우 방화벽 또는 역방향 프록시를 사용하여 허용된 연결의 범위를 지정하는 것이 좋습니다. [Office 365](https://aka.ms/o365endpoints) 끝점을 사용하여 올바른 FQDNS 및 IP 주소를 알아내야 합니다.
   
 ### <a name="compliance"></a>규정 준수
 
-여기서는 준수 제어에 사용 하는 라우팅 경로에 의존해 서는 안 됩니다. 사용자가 거 든, 인터넷 회로를 통해 Office 365 서비스에 연결 하는지 여부에 관계 없이 준수 제어는 변경 되지 않습니다. Office 365의 서로 다른 준수 및 보안 인증 수준을 검토 하 여 조직의 요구 사항에 가장 적합 한 옵션을 파악 해야 합니다.
+규정 준수 컨트롤에 사용하는 라우팅 경로를 사용하지 않습니다. ExpressRoute 또는 인터넷 회로를 통해 Office 365 서비스에 연결하는지 여부에 관계없이 규정 준수 컨트롤은 변경되지 않습니다. Office 365의 다양한 규정 준수 및 보안 인증 수준을 검토하여 조직의 요구 사항을 충족하기 위한 최상의 선택을 알아내야 합니다.
   
 다음의 간단한 링크를 사용할 수 있습니다. [https://aka.ms/manageexpressroute365](https://aka.ms/manageexpressroute365)
   
@@ -112,4 +112,4 @@ Microsoft에서 네트워크 연결을 시작 해야 하는 몇 가지 선택적
   
 [Office 365 끝점 관리](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
   
-[Office 365 교육을 위한 Azure Express 경로](https://channel9.msdn.com/series/aer)
+[Office 365 교육용 Azure ExpressRoute](https://channel9.msdn.com/series/aer)

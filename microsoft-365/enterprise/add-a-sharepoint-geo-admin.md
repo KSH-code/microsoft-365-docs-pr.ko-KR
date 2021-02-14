@@ -11,7 +11,7 @@ ms.collection: SPO_Content
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 각 지리적 위치에 대해 개별 관리자를 구성 해야 하나요? Microsoft 365 Multi-Geo에서 지역 관리자를 추가하거나 제거하는 방법에 대해 알아봅니다.
+description: 각 지리적 위치에 대해 별도의 관리자를 구성해야 하나요? Microsoft 365 Multi-Geo에서 지역 관리자를 추가하거나 제거하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 9a3d916bfec2c53850f923fb5322298e9ff440ca
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b

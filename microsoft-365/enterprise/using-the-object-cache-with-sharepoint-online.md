@@ -18,7 +18,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 38bc9c14-3826-449c-beb6-b1003bcbeaaf
-description: 이 문서에서는 SharePoint Server 2013 온-프레미스 및 SharePoint Online에서 개체 캐시를 사용 하는 경우의 차이점에 대해 설명 합니다.
+description: 이 문서에서는 SharePoint Server 2013의 개체 캐시 사용과 SharePoint Online의 차이점에 대해 설명했습니다.
 ms.openlocfilehash: 279d156a941aad6fbe7adbcf052c57f5b58c652f
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -28,33 +28,33 @@ ms.locfileid: "46696361"
 ---
 # <a name="using-the-object-cache-with-sharepoint-online"></a>SharePoint online에서 개체 캐시 사용
 
-이 문서에서는 SharePoint Server 2013 온-프레미스 및 SharePoint Online에서 개체 캐시를 사용 하는 경우의 차이점에 대해 설명 합니다.
+이 문서에서는 SharePoint Server 2013의 개체 캐시 사용과 SharePoint Online의 차이점에 대해 설명했습니다.
   
-SharePoint Online 배포에서 개체 캐시에 의존 하는 것이 상당히 부정적으로 영향을 받습니다. SharePoint Online의 개체 캐시에 대 한 종속성은 페이지의 안정성을 줄입니다. 
+SharePoint Online 배포에서 개체 캐시를 사용하게 될 경우 심각한 부정적인 영향을 미치게 됩니다. SharePoint Online의 개체 캐시에 종속하면 페이지의 안정성이 감소합니다. 
   
 ## <a name="how-the-sharepoint-online-and-sharepoint-server-2013-object-cache-works"></a>SharePoint Online 및 SharePoint Server 2013 개체 캐시의 작동 방식
 
-SharePoint Server 2013이 온-프레미스에 호스트 되 면 고객에 게 개체 캐시를 호스트 하는 개인 프런트 엔드 웹 서버가 있는 것입니다. 즉, 캐시는 한 고객 전용으로 사용 가능 하며 개체 캐시에 할당 되는 메모리의 양에 의해서만 제한 됩니다. 온-프레미스 시나리오에서는 하나의 고객만 제공 되므로 프런트 엔드 웹 서버는 일반적으로 동일한 사이트에 대 한 요청을 수행 하 게 됩니다. 즉, 캐시가 빠르게 꽉 차서 사용자가 정기적으로 요청 하는 목록 쿼리 결과 및 SharePoint 개체의 전체 상태를 유지 합니다.
+SharePoint Server 2013이 호스트되는 경우 고객에게 개체 캐시를 호스트하는 개인 프런트 엔드 웹 서버가 있습니다. 즉, 캐시는 한 고객에게만 사용 가능하고 개체 캐시에 할당되는 메모리의 크기에 의해서만 제한됩니다. 프런트 엔드 웹 서버는 일반적으로 한 고객만이 동일한 사이트에 대한 요청을 여러 번 실행하게 됩니다. 즉, 캐시가 빠르게 가득 차고 사용자가 정기적으로 요청하는 목록 쿼리 결과 및 SharePoint 개체가 가득 차게 됩니다.
   
 ![온-프레미스 프런트 엔드 웹 서버에 대한 트래픽 및 로드 표시](../media/a0d38b36-4909-4abb-8d4e-4930814bb3de.png)
   
-따라서 사용자가 페이지를 두 번 방문 하면 페이지 로드 시간이 빨라집니다. 동일한 페이지를 네 번 이상 로드 한 후에는 페이지가 모든 프런트 엔드 웹 서버에 캐시 됩니다.
+따라서 사용자가 두 번째 페이지를 방문하면 페이지 로드 시간이 향상됩니다. 같은 페이지의 부하가 4개 이상이면 페이지가 모든 프런트 엔드 웹 서버에 캐시됩니다.
   
-반면 SharePoint Online에는 더 많은 서버 뿐만 아니라 더 많은 사이트가 있습니다. 각 사용자는 캐시가 채워지지 않은 다른 프런트 엔드 웹 서버에 연결할 수 있습니다. 또는 캐시가 서버에 대해 채워지면 해당 프런트 엔드 웹 서버에 대 한 다음 사용자가 다른 사이트의 페이지를 요청 합니다. 또는 다음 사용자가 이전에 방문 했을 때와 동일한 페이지를 요청 하는 경우에도 해당 페이지가 캐시에 없는 다른 프런트 엔드 웹 서버에 로드 균형이 조정 됩니다. 이 마지막 경우에는 캐싱이 사용자에 게 도움이 되지 않습니다.
+반면, SharePoint Online에는 서버가 더 많지만 사이트도 더 많이 있습니다. 각 사용자는 캐시를 채우지 않은 다른 프런트 엔드 웹 서버에 연결할 수 있습니다. 또는 서버에 대해 캐시가 채워지지만 해당 프런트 엔드 웹 서버의 다음 사용자가 다른 사이트에서 페이지를 요청합니다. 또는 다음 사용자가 이전 방문 시와 동일한 페이지를 요청하는 경우에도 해당 페이지가 캐시에 없는 다른 프런트 엔드 웹 서버로 부하가 조정됩니다. 이 마지막 경우 캐싱은 사용자에게 전혀 도움이되지 않습니다.
   
-다음 그림에서 각 점은 사용자가 요청 하는 페이지와 캐시 되는 위치를 나타냅니다. 다양 한 색은 SaaS 인프라를 공유 하는 여러 고객을 나타냅니다.
+다음 그림에서 각 점은 사용자가 요청하는 페이지와 캐시된 페이지를 나타내고 있습니다. 각 색은 SaaS 인프라를 공유하는 다양한 고객을 나타내고 있습니다.
   
 ![SharePoint Online의 개체 캐시 결과 표시](../media/25d04011-ef83-4cb7-9e04-a6ed490f63c3.png)
   
-다이어그램에서 볼 수 있듯이 해당 페이지의 캐시 된 버전을 사용 하 여 특정 사용자가 서버를 방문 하는 것은 슬림 합니다. 또한 많은 사이트 간에 서버를 공유 하는 처리량이 많기 때문에 캐시에 사용 가능한 캐싱 공간이 충분 하기 때문에 캐시가 오래 지속 되지 않았습니다.
+다이어그램에서 볼 수 있 있든, 주어진 사용자가 캐시된 버전의 페이지를 사용하여 서버를 방문할 가능성은 배가 됩니다. 또한 많은 사이트 간에 서버가 공유되는 대용량의 데이터로 인해 캐시를 사용할 수 있는 공간이 너무 많기 때문에 캐시가 오래 지속되지 않습니다.
   
-이러한 모든 이유로, 캐시 된 개체를 가져오는 사용자에 게 작업을 수행 하는 것은 SharePoint Online에서 품질 사용자 환경 및 페이지 로드 시간을 효과적으로 보장할 수 없습니다.
+이러한 모든 이유로, 사용자가 캐시된 개체를 사용하게 하여 SharePoint Online에서 고품질 사용자 환경 및 페이지 로드 시간을 보장하는 효과적인 방법은 없습니다.
   
-## <a name="if-we-cant-rely-on-the-object-cache-to-improve-performance-in-sharepoint-online-what-do-we-use-instead"></a>SharePoint Online에서 성능을 향상 시키기 위해 개체 캐시에 의존할 수 없는 경우에는 어떤 작업을 대신 사용 하나요?
+## <a name="if-we-cant-rely-on-the-object-cache-to-improve-performance-in-sharepoint-online-what-do-we-use-instead"></a>SharePoint Online에서 성능을 향상하기 위해 개체 캐시를 사용할 수 없는 경우 대신 무엇을 사용하나요?
 
-SharePoint Online의 캐싱에 의존해 서는 안 되므로, 개체 캐시를 사용 하는 SharePoint 사용자 지정에 대 한 대체 디자인 방식을 평가 해야 합니다. 즉, 사용자에 게 좋은 결과를 생성 하기 위해 개체 캐싱을 사용 하지 않는 성능 문제에 대 한 접근 방식을 사용 합니다. 이 작업은이 시리즈의 다른 문서에 설명 되어 있으며 다음을 포함 합니다.
+SharePoint Online에서는 캐싱을 사용하지 말아야 하기 때문에 개체 캐시를 사용하는 SharePoint 사용자 지정에 대한 대체 디자인 방법을 평가해야 합니다. 즉, 사용자에게 좋은 결과를 생성하기 위해 개체 캐싱을 사용하지 않는 성능 문제에 접근 방식을 사용합니다. 이 문서는 이 시리즈의 일부 다른 문서에 설명되어 있으며 다음을 포함합니다.
   
-- [SharePoint Online에 대 한 탐색 옵션](navigation-options-for-sharepoint-online.md)
+- [SharePoint Online에 대한 탐색 옵션](navigation-options-for-sharepoint-online.md)
     
 - [SharePoint Online의 축소 및 묶음](minification-and-bundling-in-sharepoint-online.md)
     
