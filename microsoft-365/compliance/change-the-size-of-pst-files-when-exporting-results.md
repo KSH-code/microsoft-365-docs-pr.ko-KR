@@ -1,5 +1,5 @@
 ---
-title: EDiscovery 검색 결과를 내보낼 때 PST 파일 크기 변경
+title: eDiscovery 검색 결과를 내보낼 때 PST 파일의 크기 변경
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,7 +14,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 04e9de2d-765b-457b-a98a-d0f60bfb13f2
-description: EDiscovery 검색 결과를 내보낼 때 컴퓨터로 다운로드 되는 PST 파일의 기본 크기를 변경할 수 있습니다.
+description: eDiscovery 검색 결과를 내보낼 때 컴퓨터에 다운로드되는 PST 파일의 기본 크기를 변경할 수 있습니다.
 ms.openlocfilehash: eb5fcce037ff5e3444b42c996b4a32d818edd29d
 ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
@@ -22,20 +22,20 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/29/2020
 ms.locfileid: "43942921"
 ---
-# <a name="change-the-size-of-pst-files-when-exporting-ediscovery-search-results"></a>EDiscovery 검색 결과를 내보낼 때 PST 파일 크기 변경
+# <a name="change-the-size-of-pst-files-when-exporting-ediscovery-search-results"></a>eDiscovery 검색 결과를 내보낼 때 PST 파일의 크기 변경
 
-EDiscovery 내보내기 도구를 사용 하 여 다른 Microsoft eDiscovery 도구에서 eDiscovery 검색의 전자 메일 결과를 내보낼 때 내보낼 수 있는 PST 파일의 기본 크기는 10gb입니다. 이 기본 크기를 변경 하려는 경우 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리를 편집할 수 있습니다. 이 작업을 수행 하는 한 가지 이유는 PST 파일이 DVD, 컴팩트 디스크 또는 USB 드라이브 같은 이동식 미디어에 들어갈 수 있도록 하는 것입니다. 
+eDiscovery 내보내기 도구를 사용하여 다른 Microsoft eDiscovery 도구에서 eDiscovery 검색의 전자 메일 결과를 내보내는 경우 내보낼 수 있는 PST 파일의 기본 크기는 10GB입니다. 이 기본 크기를 변경하려면 검색 결과를 내보내는 데 사용하는 컴퓨터에서 Windows 레지스트리를 편집할 수 있습니다. 이 작업을 하는 한 가지 이유는 PST 파일이 DVD, 컴팩트 디스크 또는 USB 드라이브와 같은 이동식 미디어에 맞을 수 있도록 하는 것입니다. 
   
 > [!NOTE]
-> EDiscovery 내보내기 도구는 보안 & 준수 센터, Exchange Online의 원본 위치 eDiscovery 및 SharePoint Online의 eDiscovery 센터에서 콘텐츠 검색 도구를 사용할 때 검색 결과를 내보내는 데 사용 됩니다.
+> eDiscovery 내보내기 도구는 보안 & 준수 센터, exchange Online의 In-Place eDiscovery 및 SharePoint Online의 eDiscovery 센터에서 콘텐츠 검색 도구를 사용할 때 검색 결과를 내보내는 데 사용됩니다.
   
-## <a name="create-a-registry-setting-to-change-the-size-of-pst-files-when-you-export-ediscovery-search-results"></a>EDiscovery 검색 결과를 내보낼 때 PST 파일 크기를 변경 하는 레지스트리 설정 만들기
+## <a name="create-a-registry-setting-to-change-the-size-of-pst-files-when-you-export-ediscovery-search-results"></a>eDiscovery 검색 결과를 내보낼 때 PST 파일의 크기를 변경하는 레지스트리 설정 만들기
 
-EDiscovery 검색의 결과를 내보내는 데 사용할 컴퓨터에서 다음 절차를 수행 합니다.
+eDiscovery 검색 결과를 내보내는 데 사용할 컴퓨터에서 다음 절차를 수행하십시오.
   
-1. 열려 있는 eDiscovery 내보내기 도구를 닫습니다. 
+1. eDiscovery 내보내기 도구가 열려 있는 경우 닫습니다. 
     
-2. 파일 이름 접미사를 사용 하 여 Windows 레지스트리 파일에 다음 텍스트를 저장 합니다. 예: PstExportSize. 
+2. .reg의 파일 이름 접미사로 다음 텍스트를 Window 레지스트리 파일에 저장합니다. 예: PstExportSize.reg. 
     
     ```text
     Windows Registry Editor Version 5.00
@@ -43,45 +43,45 @@ EDiscovery 검색의 결과를 내보내는 데 사용할 컴퓨터에서 다음
     "PstSizeLimitInBytes"="1073741824"
     ```
 
-    위 예에서 `PstSizeLimitInBytes` 값은 1073741824 바이트 또는 약 1gb로 설정 됩니다. 다음은 `PstSizeLimitInBytes` 설정에 대 한 몇 가지 다른 예제 값입니다. 
+    위의 예제에서 값은  `PstSizeLimitInBytes` 1,073,741,824바이트 또는 약 1GB로 설정됩니다. 다음은 설정에 대한 몇 가지 다른 샘플  `PstSizeLimitInBytes` 값입니다. 
     
-    |**크기 (GB)**|**크기 (바이트)**|
+    |**크기(약 GB)**|**크기(bytes)**|
     |:-----|:-----|
-    |0.7 GB (700 MB)  <br/> |751619277  <br/> |
+    |0.7GB(700MB)  <br/> |751619277  <br/> |
     |2GB  <br/> |2147483648  <br/> |
     |4 GB  <br/> |4294967296  <br/> |
     |8GB  <br/> |8589934592  <br/> |
    
-3. 검색 결과 `PstSizeLimitInBytes` 를 내보낼 때 값을 원하는 PST 파일의 최대 크기로 변경한 다음 파일을 저장 합니다. 
+3. 검색 결과를 내보낼 때 PST 파일의 원하는 최대 크기로 값을 변경한 다음 `PstSizeLimitInBytes` 파일을 저장합니다. 
     
-4. Windows 탐색기에서 이전 단계에서 만든 .reg 파일을 클릭 하거나 두 번 클릭 합니다.
+4. Windows 탐색기에서 이전 단계에서 만든 .reg 파일을 클릭하거나 두 번 클릭합니다.
     
-5. 사용자 액세스 제어 창에서 **예** 를 클릭 하 여 레지스트리 편집기에서 변경 작업을 수행 하도록 합니다. 
+5. 사용자 액세스 제어 창에서 **예를** 클릭하여 레지스트리 편집기를 변경할 수 있도록 합니다. 
     
-6. 계속할지 묻는 메시지가 표시 되 면 **예**를 클릭 합니다.
+6. 계속할지 묻는 메시지가 표시될 때 **예를 클릭합니다.**
     
-    레지스트리 편집기에 설정이 레지스트리에 성공적으로 추가 되었다는 메시지가 표시 됩니다.
+    레지스트리 편집기에는 설정이 레지스트리에 추가되었습니다.는 메시지가 표시됩니다.
     
-7. 3-6 단계를 반복 하 여 `PstSizeLimitInBytes` 레지스트리 설정 값을 변경할 수 있습니다. 
+7. 3-6단계를 반복하여 레지스트리 설정 값을 변경할  `PstSizeLimitInBytes` 수 있습니다. 
   
-## <a name="frequently-asked-questions-about-changing-the-default-size-of-pst-files-when-you-export-ediscovery-search-results"></a>EDiscovery 검색 결과를 내보낼 때 PST 파일의 기본 크기를 변경 하는 방법에 대 한 질문과 대답
+## <a name="frequently-asked-questions-about-changing-the-default-size-of-pst-files-when-you-export-ediscovery-search-results"></a>eDiscovery 검색 결과를 내보낼 때 PST 파일의 기본 크기 변경에 대한 질문과 대답
 
- **기본 크기가 10gb 인 이유는 무엇 인가요?**
+ **기본 크기는 10GB인 이유는 무엇입니까?**
   
-기본 크기 10gb는 고객 의견을 기반으로 합니다. 10gb는 단일 PST에 있는 콘텐츠의 최적 정도와 파일 손상 가능성을 최소화 하는 것이 좋습니다.
+기본 크기는 10GB로, 고객 의견을 기반으로 합니다. 10GB는 단일 PST에서 최적의 콘텐츠 양과 파일 손상 가능성이 가장 큰 균형을 이루는 것입니다.
   
- **PST 파일의 기본 크기를 늘리거나 줄여야 하나요?**
+ **PST 파일의 기본 크기를 늘리거나 줄이세요?**
   
-고객은 사용자가 조직의 다른 위치에 실제로 제공할 수 있는 이동식 미디어에 검색 결과에 맞게 크기 제한을 줄이는 경향이 있습니다. 10mb를 초과 하는 PST 파일에 손상 문제가 있을 수 있으므로 기본 크기를 늘리지 않는 것이 좋습니다.
+고객은 검색 결과가 조직의 다른 위치로 물리적으로 발송될 수 있는 이동식 미디어에 적합하게 크기 제한을 낮출 경향이 있습니다. PST 파일이 10GB보다 크면 손상 문제가 있을 수 있기 때문에 기본 크기를 늘리지 않는 것이 좋습니다.
   
- **어떤 컴퓨터에서이 작업을 수행 해야 하나요?**
+ **어떤 컴퓨터에서 이 작업을 해야 하나요?**
   
-EDiscovery 내보내기 도구를 실행 하는 로컬 컴퓨터에서 레지스트리 설정을 변경 해야 합니다.
+eDiscovery 내보내기 도구를 실행한 로컬 컴퓨터에서 레지스트리 설정을 변경해야 합니다.
   
- **이 설정을 변경한 후에는 컴퓨터를 다시 부팅 해야 하나요?**
+ **이 설정을 변경한 후 컴퓨터를 다시 시작해야 하나요?**
   
-아니요, 컴퓨터를 다시 부팅할 필요가 없습니다. 그러나 eDiscovery 내보내기 도구를 실행 하는 경우이 설정을 변경한 후에 닫은 후에 다시 시작 해야 합니다.
+아니요. 컴퓨터를 다시 시작하지는 않습니다. 그러나 eDiscovery 내보내기 도구가 실행 중인 경우 이 설정을 변경한 후 해당 도구를 닫고 다시 시작해야 합니다.
   
- **기존 레지스트리 키를 편집 하거나 새 키를 만들기 시작 합니까?**
+ **기존 레지스트리 키가 편집되거나 새 키가 만들어지나요?**
   
-이 절차에서 만든 .reg 파일을 처음 실행할 때 새 레지스트리 키가 만들어집니다. 그런 다음 .reg 편집 파일을 변경 하 고 다시 실행할 때마다 설정이 편집 됩니다.
+이 절차에서 만든 .reg 파일을 처음 실행할 때 새 레지스트리 키가 만들어집니다. 그런 다음 .reg 편집 파일을 변경하고 다시 열 때마다 설정을 편집합니다.

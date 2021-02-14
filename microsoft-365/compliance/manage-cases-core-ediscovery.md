@@ -16,7 +16,7 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 이 문서에서는 Microsoft 365의 핵심 eDiscovery에서 사례를 만들고, 닫고, 다시 열고, 삭제 하는 방법에 대해 설명 합니다.
+description: 이 문서에서는 Microsoft 365의 핵심 eDiscovery에서 사례를 만들고, 닫고, 다시 열고, 삭제하는 방법을 설명합니다.
 ms.openlocfilehash: 517819ce542d5f53587d21c2ee08c9d5d96cd27d
 ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/17/2020
 ms.locfileid: "43551454"
 ---
-# <a name="manage-cases-in-core-ediscovery"></a>핵심 eDiscovery에서 사례 관리
+# <a name="manage-cases-in-core-ediscovery"></a>핵심 eDiscovery의 사례 관리
 
 ## <a name="create-a-case"></a>사례 만들기
 

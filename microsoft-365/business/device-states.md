@@ -25,7 +25,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
-description: 비즈니스용 Microsoft 365에서 관리 홈의 장치 작업 목록에 있는 다양 한 장치 상태에 대해 알아봅니다.
+description: 비즈니스용 Microsoft 365의 관리 홈의 장치 작업 목록에서 다양한 장치 상태 관련 정보를 제공합니다.
 ms.openlocfilehash: 64138e2b6ae73c067709cde1912a96615d08ebf1
 ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
@@ -35,7 +35,7 @@ ms.locfileid: "44471182"
 ---
 # <a name="device-states"></a>장치 상태
 
-이 문서는 Microsoft 365 Business Premium에 적용 됩니다.
+이 문서는 Microsoft 365 Business Premium에 적용됩니다.
 
 **장치 작업** 목록(관리 홈 \> **장치 작업**)의 장치는 다음 상태를 가질 수 있습니다.
   
@@ -43,16 +43,16 @@ ms.locfileid: "44471182"
   
 |**상태**|**설명**|
 |:-----|:-----|
-|Intune에서 관리  <br/> |Microsoft 365 Business Premium에서 관리 합니다.  <br/> |
-|사용 중지 보류 중  <br/> |Microsoft 365 Business Premium이 장치에서 회사 데이터를 제거 하기 위해 준비 중입니다.  <br/> |
-|사용 중지 진행 중  <br/> |Microsoft 365 Business Premium이 현재 장치에서 회사 데이터를 제거 하 고 있습니다.  <br/> |
+|Intune에서 관리  <br/> |Microsoft 365 Business Premium에서 관리합니다.  <br/> |
+|사용 중지 보류 중  <br/> |Microsoft 365 Business Premium이 장치에서 회사 데이터를 제거할 준비가 됩니다.  <br/> |
+|사용 중지 진행 중  <br/> |Microsoft 365 Business Premium이 현재 장치에서 회사 데이터를 제거하고 있습니다.  <br/> |
 |사용 중지 실패  <br/> | 회사 데이터 제거 작업이 실패했습니다.  <br/> |
-|사용 중지 취소 됨  <br/> |사용 중지 작업이 취소 되었습니다.  <br/> |
+|사용 중지 취소  <br/> |사용 중지 작업이 취소되었습니다.  <br/> |
 |초기화 보류 중  <br/> |초기화를 시작하기 위해 대기 중입니다.  <br/> |
 |초기화 진행 중  <br/> |초기화가 실행되었습니다.  <br/> |
-|초기화 실패  <br/> |공장 초기화를 수행할 수 없습니다.  <br/> |
-|닦아내기 취소  <br/> |공장 초기화가 취소 되었습니다.  <br/> |
-|비정상  <br/> |작업은 보류 중 (또는 진행 중) 이지만 장치가 30 + 일 동안 체크 인 되지 않았습니다.  <br/> |
+|초기화 실패  <br/> |초기화할 수 없습니다.  <br/> |
+|지우기 취소  <br/> |초기화가 취소되었습니다.  <br/> |
+|비정상  <br/> |작업이 보류 중(또는 진행 중)이지만 장치가 30일 이상 체크 인되지 않습니다.  <br/> |
 |삭제 보류 중  <br/> |삭제 작업이 보류 중입니다.  <br/> |
-|검색됨  <br/> |Microsoft 365 Business Premium이 장치를 검색 했습니다.  <br/> |
+|검색됨  <br/> |Microsoft 365 Business Premium에서 장치를 검색했습니다.  <br/> |
    

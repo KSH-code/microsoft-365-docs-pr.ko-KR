@@ -1,5 +1,5 @@
 ---
-title: 보안 전자 메일 포털에 대 한 개인 정보 취급 방침
+title: 보안 전자 메일 포털에 대한 개인 정보 취급 방침
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,7 +15,7 @@ search.appverid:
 ms.assetid: 278917cd-a930-46cc-9580-6b9d2361a5f9
 ms.collection:
 - M365-security-compliance
-description: '마지막 업데이트 날짜: 5 월 2017'
+description: 'Last Updated: May 2017'
 ms.openlocfilehash: 069b47305557ef8a6a4e0a732288977842b52a5e
 ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
@@ -23,27 +23,27 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2020
 ms.locfileid: "43626632"
 ---
-# <a name="privacy-statement-for-secure-email-portal"></a>보안 전자 메일 포털에 대 한 개인 정보 취급 방침
+# <a name="privacy-statement-for-secure-email-portal"></a>보안 전자 메일 포털에 대한 개인 정보 취급 방침
 
-마지막 업데이트 날짜: 5 월 2017
+Last Updated: May 2017
   
-이 개인 정보 보호 정책은 Office 365 새 OME 기능 포털 ("새 OME capabilities 포털")을 제어 합니다. 이전 버전은 Office 365 메시지 암호화 (OME) 및 "OME Portal"으로 알려져 있습니다. 이 개인 정보 취급 방침은 다른 온라인 또는 오프 라인 Microsoft 사이트, 제품 또는 서비스에는 적용 되지 않습니다. 기타 개인 정보 취급 방침은 Microsoft 계정에 대 한 개인 정보 취급 방침 (인증에 사용 되는 경우) 또는 장치와 연결 된 개인 정보 취급 방침 같은 새 OME 기능 포털을 통해 처리 하는 데이터에도 적용 됩니다.
+이 개인 정보 취급 방침은 Office 365의 새로운 OME 기능 포털("새 OME 기능 포털")을 관리합니다. 이전 버전은 Office 365 메시지 암호화(OME) 및 "OME 포털"이라고 합니다. 이 개인정보처리방침은 다른 온라인 또는 오프라인 Microsoft 사이트, 제품 또는 서비스에는 적용되지 않습니다. Microsoft 계정의 개인 정보 취급 방침(인증에 사용되는 경우) 또는 장치와 연결된 개인 정보 취급 방침과 같이 새로운 OME 기능 포털을 통해 처리한 데이터에 다른 개인 정보 취급 방침이 적용될 수도 있습니다.
   
 ## <a name="collection-processing-and-use-of-your-information"></a>정보 수집, 처리 및 사용
 
-새 OME 기능 포털을 사용 하면 데스크톱 컴퓨터 또는 모바일 장치 등의 다양 한 끝점에서 Office 365로 암호화 된 전자 메일을 볼 수 있습니다. 암호화 된 전자 메일은 일반 메일의 HTML 첨부 파일로 사서함에 도착 합니다. Microsoft 계정, 회사 또는 학교 계정 또는 Gmail 계정으로 메일이 전송 되 면 이러한 계정을 사용 하 여 웹 기반 새 OME capabilities 포털에 로그인 하 라는 메시지가 표시 됩니다. 암호화 된 메일을 Microsoft 계정, 회사 또는 학교 계정 또는 Gmail 계정 이외의 계정으로 보낸 경우 Microsoft 계정을 만들고 암호화 된 메시지가 전송 된 계정과 연결 하 라는 메시지가 표시 됩니다. 또는 암호화 된 메시지가 전송 된 것과 동일한 전자 메일 주소로 전송 되는 인증에 대해 일회용 암호를 요청 하도록 선택할 수 있습니다. 인증에 성공 하면 메시지가 해독 되어 새 OME capabilities Portal을 통해 표시 됩니다.
+새로운 OME 기능 포털을 사용하면 데스크톱 컴퓨터 또는 모바일 장치와 같은 다양한 끝점에서 Office 365로 암호화된 전자 메일을 볼 수 있습니다. 암호화된 전자 메일은 일반 메일에 대한 HTML 첨부 파일로 사서함에 도착합니다. 메일이 Microsoft 계정, 직장 또는 학교 계정 또는 Gmail 계정으로 전송된 경우 해당 계정을 사용하여 웹 기반의 새 OME 기능 포털에 로그인해야 합니다. 암호화된 메일이 Microsoft 계정, 직장 또는 학교 계정 또는 Gmail 계정이 아니면 Microsoft 계정을 만들어 암호화된 메시지를 보낸 계정과 연결하라는 메시지가 표시됩니다. 또는 암호화된 메시지를 보낸 동일한 전자 메일 주소로 전송되는 인증에 대한 일회용 암호를 요청하도록 선택할 수 있습니다. 인증이 성공하면 메시지의 암호가 해독되고 새 OME 기능 포털을 통해 표시됩니다.
   
-Microsoft 계정, 회사 또는 학교 계정, Gmail 계정 및 일회용 암호에 대 한 자격 증명 정보는 인증 목적 으로만 사용 됩니다. 새 OME 기능 포털에 저장 되지 않거나 다른 목적으로 새 OME 기능에서 사용 되지 않습니다.
+일회용 암호뿐만 아니라 Microsoft 계정, 직장 또는 학교 계정 또는 Gmail 계정에 대한 자격 증명 정보는 인증 목적으로만 사용됩니다. 새 OME 기능 포털에 저장되거나 다른 용도로 새 OME 기능에 사용되지 않습니다.
   
-암호 해독 프로세스 중에 수신 하는 암호화 된 메일은 새 OME 기능 포털에 저장 되지 않습니다. 이는 언제 든 지 새 OME 기능 포털 외부로 전송 되지 않습니다.
+암호 해독 프로세스 중에 수신하는 암호화된 메일은 새 OME 기능 포털에 저장되지 않습니다. 새 OME 기능 포털 외부로 전송되지는 않습니다.
   
-새 OME capabilities 포털에서는 일부 인스턴스에서 새 OME 기능의 사용 및 성능 (예: 암호화 된 메시지를 보는 빈도, 사용 된 브라우저나 응용 프로그램 및 발생 한 오류)에 대 한 데이터 요소를 수집 하 여이 및 기타 Microsoft 앱, 제품의 품질, 보안 및 무결성을 향상 시키는 데 필요한 집계에서 분석할 수 있습니다. 또는 서비스 이 정보는 사용자에 대 한 알림을 식별 하거나, 연락 하거나, 대상으로 지정 하는 데 사용 되지 않습니다.
+새 OME 기능 포털은 경우에 따라 암호화된 메시지를 보는 방법, 브라우저 또는 앱, 발생하는 오류 등 새로운 OME 기능의 사용 및 성능에 대한 데이터 포인트를 수집할 수 있습니다. 이 기능과 기타 Microsoft 앱, 제품의 품질, 보안 및 무결성을 개선하기 위해 집계하여 분석할 수 있습니다. 또는 서비스. 이 정보는 식별, 연락처 또는 광고 대상 지정에 사용되지 않습니다.
   
 ## <a name="for-more-information"></a>자세한 내용
 
-다음 주소에서 [omepriv@microsoft.com](mailto:omepriv@microsoft.com)를 통해 또는 메일로 Microsoft에 직접 개인 정보를 문의 하세요.
+다음 주소로 또는 메일로 [](mailto:omepriv@microsoft.com)omepriv@microsoft.com 개인 정보 관련 문의를 Microsoft에 전달하세요.
   
-Microsoft 프라이버시-정보 보호
+Microsoft 개인 정보 보호 - 정보 보호
   
 Microsoft Corporation
   
@@ -51,8 +51,8 @@ One Microsoft Way
   
 Redmond, Washington 98052 USA
   
-## <a name="changes"></a>내용은
+## <a name="changes"></a>변경 내용
 
-이 문에 대 한 변경 내용을 게시 하면 해당 문 맨 위에 "마지막으로 업데이트 된" 데이터가 수정 됩니다. 개인 정보 취급 방침의 변경 내용에 대해 자세히 알아보려면 해당 서비스에 대한 액세스를 관리하는 조직에 문의하세요.
+이 설명에 대한 변경 내용을 게시하면 문 맨 위에 있는 "마지막으로 업데이트된" 데이터가 변경됩니다. 개인 정보 취급 방침의 변경 내용에 대해 자세히 알아보려면 해당 서비스에 대한 액세스를 관리하는 조직에 문의하세요.
   
 

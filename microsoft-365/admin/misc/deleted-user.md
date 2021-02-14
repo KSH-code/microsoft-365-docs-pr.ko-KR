@@ -20,7 +20,7 @@ search.appverid:
 - MOE150
 ms.assetid: 481b460e-f799-4fac-9592-4d5c51bdcbd8
 ROBOTS: NOINDEX
-description: 사용자의 Microsoft 365 계정을 삭제 하거나 복원 하는 방법을 알아봅니다.
+description: 사용자의 Microsoft 365 계정을 삭제하거나 복원하는 방법을 학습합니다.
 ms.openlocfilehash: 13908a83ffa39369b2aea71e7212fd0d41488c44
 ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
@@ -36,46 +36,46 @@ ms.locfileid: "44432186"
 
 ::: moniker range="o365-worldwide"
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
-2. 사용자를 선택 하 고 사용자 목록 위에 있는 **기타 옵션** (**...**)을 선택한 다음 **사용자 삭제**를 선택 합니다.
+2. 사용자를 선택하고 사용자 목록 위에서 다른  **옵션(... )을** 선택한 다음 사용자 **삭제를 선택합니다.**
   
-3. 삭제 확인 창에서 **사용자 삭제**를 선택 합니다. <br/>[전체 문서를 읽으십시오.](../add-users/delete-a-user.md)
+3. 삭제 확인 창에서 사용자 **삭제를 선택합니다.** <br/>[전체 문서를 읽어 읽습니다.](../add-users/delete-a-user.md)
   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
 
-2. 사용자를 선택 하 고 사용자 목록 위쪽에 **More** > **있는 사용자 삭제를**추가로 선택 합니다.
+2. 사용자를 선택하고 사용자 목록 위에 있는 사용자 **삭제를** > **선택합니다.**
   
-3. 삭제 확인 창에서 **사용자 삭제**를 선택 합니다. <br/>[전체 문서를 읽으십시오.](../add-users/delete-a-user.md)
+3. 삭제 확인 창에서 사용자 **삭제를 선택합니다.** <br/>[전체 문서를 읽어 읽습니다.](../add-users/delete-a-user.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
 
-2. 사용자를 선택 하 고 사용자 목록 위쪽에 **More** > **있는 사용자 삭제를**추가로 선택 합니다.
+2. 사용자를 선택하고 사용자 목록 위에 있는 사용자 **삭제를** > **선택합니다.**
   
-3. 삭제 확인 창에서 **사용자 삭제**를 선택 합니다. <br/>[전체 문서를 읽으십시오.](../add-users/delete-a-user.md)
+3. 삭제 확인 창에서 사용자 **삭제를 선택합니다.** <br/>[전체 문서를 읽어 읽습니다.](../add-users/delete-a-user.md)
 
 ::: moniker-end
 
   
 ## <a name="restore-a-user"></a>사용자 복원
 
-홈 페이지에서 **삭제** 를 검색 하 고, 결과에서 삭제 된 **사용자** 를 선택 하거나, 왼쪽 탐색에서 **삭제 된 사용자** 페이지로 이동 하 고, 복원할 사용자를 선택 하 여 사용자를 복원할 수 있습니다. [전체 문서 읽기](../add-users/delete-a-user.md).
+홈 페이지에서 삭제된 사용자를  검색하고 결과에서 삭제된 사용자를 선택하거나 왼쪽 탐색에서  삭제된 사용자 페이지로 이동하고 복원할 사용자를 선택하여 사용자를 복원할 수 있습니다.  [전체 문서 읽기](../add-users/delete-a-user.md).
   
 ## <a name="what-are-deleted-users"></a>삭제된 사용자란?
 
 삭제된 [사용자](../add-users/add-users.md)는 조직에서 삭제하는 회사 또는 학교 계정입니다. 
   
-## <a name="does-deleting-a-user-free-up-their-microsoft-365-license"></a>사용자를 삭제 하 여 Microsoft 365 라이선스를 확보 하나요?
+## <a name="does-deleting-a-user-free-up-their-microsoft-365-license"></a>사용자를 삭제하는 경우 Microsoft 365 라이선스가 비어 있나요?
 
-예, 사용자를 삭제 하면 해당 사용자에 게 할당 된 Microsoft 365 라이선스가 확보 됩니다. 해당 라이선스를 다른 사용자에게 할당할 수 있습니다. [전체 문서를 읽으세요](../../commerce/licenses/remove-licenses-from-subscription.md).
+예, 사용자를 삭제하면 해당 사용자에게 할당된 Microsoft 365 라이선스가 사용되지 않습니다. 해당 라이선스를 다른 사용자에게 할당할 수 있습니다. [전체 문서를 읽으세요](../../commerce/licenses/remove-licenses-from-subscription.md).
   
 ## <a name="i-had-a-deleted-user-listed-in-deleted-users-and-then-it-disappeared-what-happened"></a>삭제된 사용자 목록에 삭제된 사용자가 있었는데 없어졌습니다. 어떻게 되었나요?
 
@@ -91,6 +91,6 @@ ms.locfileid: "44432186"
   
 ## <a name="how-do-i-restore-a-user"></a>사용자를 복원하려면 어떻게 하나요?
 
-홈 페이지에서 **삭제** 를 검색 하 고, 결과에서 삭제 된 **사용자** 를 선택 하거나, 왼쪽 탐색에서 **삭제 된 사용자** 페이지로 이동 하 고, 복원할 사용자를 선택 하 여 사용자를 복원할 수 있습니다. [전체 문서를 읽으세요](../add-users/delete-a-user.md).
+홈 페이지에서 삭제된 사용자를  검색하고 결과에서 삭제된 사용자를 선택하거나 왼쪽 탐색에서  삭제된 사용자 페이지로 이동하고 복원할 사용자를 선택하여 사용자를 복원할 수 있습니다.  [전체 문서를 읽으세요](../add-users/delete-a-user.md).
   
 
