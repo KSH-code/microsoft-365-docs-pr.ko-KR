@@ -38,7 +38,7 @@ ms.locfileid: "49988119"
 > [!IMPORTANT]
 > 일부 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 판매된 제품과 관련이 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-[고급 헌팅은](advanced-hunting-overview.md) Microsoft [365](advanced-hunting-query-language.md) Defender에서 지난 30일 동안의 이벤트 데이터를 검사하기 위해 특별히 생성한 쿼리를 사용하는 위협 헌팅 도구입니다. 고급 헌팅 쿼리를 사용하여 비정상적인 활동을 검사하고, 가능한 위협을 감지하고, 공격에 대응할 수 있습니다. 고급 헌팅 API를 사용하면 프로그래밍적으로 이벤트 데이터를 쿼리할 수 있습니다.
+[고급 헌팅은](advanced-hunting-overview.md) Microsoft [365](advanced-hunting-query-language.md) Defender에서 지난 30일 동안의 이벤트 데이터를 검사하기 위해 특별히 생성한 쿼리를 사용하는 위협 헌팅 도구입니다. 고급 헌팅 쿼리를 사용하여 비정상적인 활동을 검사하고, 가능한 위협을 감지하고, 공격에 대응할 수 있습니다. 고급 헌팅 API를 사용하면 프로그래밍하여 이벤트 데이터를 쿼리할 수 있습니다.
 
 ## <a name="quotas-and-resource-allocation"></a>할당량 및 리소스 할당
 
@@ -55,9 +55,9 @@ ms.locfileid: "49988119"
 > [!NOTE]
 > 위에 나열된 모든 할당량(예: 분당 통화 15개)은 테넌트 크기당입니다. 이러한 할당량은 최소값입니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
-고급 헌팅 API를 호출하려면 다음 권한 중 하나를 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Microsoft 365 Defender Protection API 액세스를 참조합니다.](api-access.md)
+고급 헌팅 API를 호출하려면 다음 권한 중 하나를 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Microsoft 365 Defender Protection API 액세스 참조](api-access.md)
 
 사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 -|-|-
@@ -103,7 +103,7 @@ Query | 텍스트 | 실행할 쿼리입니다. **참고: 필수**
 
 ## <a name="example"></a>예시
 
-다음 예제에서는 사용자가 아래 쿼리를 보내고 , 및 . `Stats` `Schema` `Results`
+다음 예제에서는 사용자가 아래에서 쿼리를 보내고 , 및 . 및 를 포함하는 API 응답 `Stats` 개체를 `Schema` `Results` 수신합니다.
 
 ### <a name="query"></a>Query
 

@@ -68,11 +68,11 @@ Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터 
 이 컨텍스트를 사용하여 단일 사용자를 대신하여 작업을 수행할 수 있습니다.
 
 1. Azure Active Directory 기본 응용 프로그램을 만드십시오.
-2. 원하는 권한을 응용 프로그램에 할당합니다.
+2. 원하는 사용 권한을 응용 프로그램에 할당합니다.
 3. 응용 프로그램의 사용자 자격 증명을 사용하여 보안 토큰을 얻습니다.
 4. 토큰을 사용하여 Microsoft 365 Defender API에 액세스합니다.
 
-자세한 내용은 사용자를 대신하여 **[Microsoft 365 Defender API에 액세스하는 앱 만들기를 참조하세요.](api-create-app-user-context.md)**
+자세한 내용은 사용자를 대신하여 **[Microsoft 365 Defender API에](api-create-app-user-context.md)** 액세스하는 앱 만들기를 참조하세요.
 
 ## <a name="partner-context"></a>파트너 컨텍스트
 

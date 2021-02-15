@@ -75,7 +75,7 @@ iPhone에서 Outlook을 찾아 다시 시작합니다. 메시지가 표시될 �
   
 ## <a name="android"></a>[Android](#tab/Android)
   
-Android 장치에 Outlook 및 Office를 설치하는 데 대한 비디오를 시청합니다.<br><br>
+Android 장치에 Outlook 및 Office 설치에 대한 비디오를 시청합니다.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ecc2e9c0-bc7e-4f26-8b14-91d84dbcfef0] 
 

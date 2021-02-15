@@ -44,13 +44,13 @@ ms.locfileid: "50044255"
 
 특별 가격 책정 자격이 있는 캠페인의 경우 [Microsoft에서](https://m365forcampaigns.microsoft.com/)초대를 요청한 다음 [캠페인용 Microsoft 365에](m365-campaigns-sign-up.md)등록하여 시작하세요. 설치를 완료하려면 [설치 마법사를](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 실행하여 핵심 설정을 구성합니다.
 
-다른 모든 조직의 경우 [Microsoft 365 Business Premium에](../business/sign-up.md)등록한 후 [](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 설치 마법사를 실행하여 설치를 완료하여 핵심 설정을 구성합니다.
+다른 모든 조직의 경우 [Microsoft 365 Business Premium에](../business/sign-up.md)등록한 후 [](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 설치 마법사를 실행하여 핵심 설정을 구성하여 설치를 완료합니다.
 
 모든 조직에서 관리자 계정을 [보호하고,](m365-campaigns-protect-admin-accounts.md)메일 및 데이터에 대한 액세스를 보호하고, [](m365-campaigns-conditional-access.md)위협 방지를 강화하여 보안 보호를 [강화합니다.](m365-campaigns-increase-protection.md)
 
 ## <a name="everyone-set-up-your-devices"></a>모든 사용자: 장치 설정
 
-사용자는 이 환경에서 작동할 장치를 설정하는 데 몇 분 정도 걸립니다. 주요 사용자(해커의 최고 가치 대상인 사용자)의 경우 새 장치를 설정하고 사전 구성할 수 있습니다. 이렇게 하면 Microsoft 365 자격 증명으로 로그인할 때 시작하는 데 도움이 됩니다.
+사용자는 이 환경에서 작동할 장치를 설정하는 데 몇 분 정도 걸립니다. 주요 사용자(해커를 위한 최고 가치의 대상인 사용자)의 경우 새 장치를 설정하고 사전 구성할 수 있습니다. 이렇게 하면 Microsoft 365 자격 증명으로 로그인할 때 시작하는 데 도움이 됩니다.
 
 ![사용자 장치 설정 프로세스](../media/m365-democracy-user-device-setup.png)
   
@@ -65,4 +65,4 @@ ms.locfileid: "50044255"
 
  **지원 센터에 문의해야 하는 경우:**
   
-Microsoft 365 관리자는 고객 지원 팀, 비즈니스 제품에 대한 고객 **[지원에 문의할 수](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products) 있습니다. 관리자 도움말**
+Microsoft 365 관리자는 고객 지원 팀, 비즈니스 제품에 대한 고객 **[지원에 문의할 수 있습니다. 관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)**

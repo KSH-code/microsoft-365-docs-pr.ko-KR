@@ -40,7 +40,7 @@ ms.locfileid: "49928465"
 
 이 페이지에서는 단일 사용자를 대신하여 Microsoft 365 Defender에 프로그래밍 방식 액세스 권한을 부여하는 응용 프로그램을 만드는 방법을 설명합니다.
 
-정의된 사용자 없이 Microsoft 365 Defender에 프로그래밍 액세스해야 하는 경우(예: 백그라운드 앱 또는 디먼을 작성하는 경우) 사용자 없이 [Microsoft 365 Defender에](api-create-app-web.md)액세스하는 앱 만들기를 참조하세요. 대규모 조직 또는 고객 그룹에게 서비스를 제공하는 경우와 같은 여러 테넌트에 대한 액세스를 제공해야 하는 경우 [Microsoft 365 Defender](api-partner-access.md)API에 대한 파트너 액세스 권한이 있는 앱 만들기를 참조하세요. 필요한 액세스 종류가 확실하지 않은 경우 [시작을 참조합니다.](api-access.md)
+정의된 사용자 없이 Microsoft 365 Defender에 프로그래밍된 액세스가 필요한 경우(예: 백그라운드 앱 또는 디먼을 작성하는 경우) 사용자 없이 [Microsoft 365 Defender에](api-create-app-web.md)액세스하는 앱 만들기를 참조하세요. 대규모 조직 또는 고객 그룹에게 서비스를 제공하는 경우와 같은 여러 테넌트에 대한 액세스를 제공해야 하는 경우 [Microsoft 365 Defender](api-partner-access.md)API에 대한 파트너 액세스 권한이 있는 앱 만들기를 참조하세요. 필요한 액세스 종류가 확실하지 않은 경우 [시작을 참조합니다.](api-access.md)
 
 Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터 및 작업을 노출합니다. 이러한 API는 워크플로를 자동화하고 Microsoft 365 Defender의 기능을 활용하는 데 도움이 됩니다. 이 API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 권한 부여 코드 흐름을 참조하세요.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
@@ -64,7 +64,7 @@ Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터 
 
 ## <a name="create-an-app"></a>앱 만들기
 
-1. 전역 관리자 역할을 사용하여 [Azure에](https://portal.azure.com) **사용자로 로그인합니다.**
+1. 전역 관리자 역할이 있는 사용자로 [Azure에](https://portal.azure.com) **로그인합니다.**
 
 2. Azure **Active Directory**  >  **앱 등록 새**  >  **등록으로 이동합니다.**
 
@@ -128,7 +128,7 @@ $response.AccessToken
 1. 토큰을 복사하여 [JWT에](https://jwt.ms) 붙여넣어 디코드합니다.
 1. 디코딩된  토큰 내의 역할 클레임에 원하는 사용 권한이 포함되어 있는지 확인
 
-다음 이미지에서는 앱에 획득한 디코딩된 토큰과 , 및 사용 권한을 볼 ```Incidents.Read.All``` ```Incidents.ReadWrite.All``` 수 ```AdvancedHunting.Read.All``` 있습니다.
+다음 이미지에서는 , 및 권한을 사용하여 앱에서 획득한 디코딩된 ```Incidents.Read.All``` ```Incidents.ReadWrite.All``` 토큰을 ```AdvancedHunting.Read.All``` 볼 수 있습니다.
 
 ![토큰 유효성 검사의 이미지](../../media/webapp-decoded-token.png)
 

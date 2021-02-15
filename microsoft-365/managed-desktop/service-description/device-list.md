@@ -28,7 +28,7 @@ Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나�
 여기에 있는 장치에 대한 링크는 참조 전용입니다. 디바이스를 주문하려면 상업용 채널 연락처와 함께 올바른 구성을 선택해야 합니다. 이 표에서  보관 날짜는 이러한 모델이 더 짧은 Microsoft Managed Desktop 서비스 기간이 적용될 날짜입니다. 이 날짜 이후에 온보드된 이러한 장치는 Microsoft Managed Desktop에서 3년의 전체 지원 기간을 받지 못합니다. 보관된 장치는 Microsoft [Managed Desktop 보관 장치에도 나열됩니다.](archived-device-list.md) *사용 중지 날짜는* Microsoft Managed Desktop에서 이 모델을 더 이상 지원하지 않는 날짜입니다. 이 날짜에 이 모델의 등록된 모든 장치가 등록된 경우와 상관없이 Microsoft Managed Desktop에서 제거됩니다.
 
 >[!NOTE]
->디바이스를 이 테이블에 추가할 수 있지만 보관 또는 사용 중지 날짜에 영향을 주는 모든 변경 내용에 대해 90일 알림이 제공될 것입니다. 가장 최근에 추가된 장치는 * *\** _로 표시됩니다.
+>장치를 이 테이블에 추가할 수 있지만 보관 또는 사용 중지 날짜에 영향을 주는 모든 변경 내용에 대해 90일 알림이 제공될 것입니다. 가장 최근에 추가된 장치는 * *\** _로 표시됩니다.
 
 
 ## <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop Devices
@@ -55,10 +55,10 @@ Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나�
 | [HP EliteBook 830/840/850 G7 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-830-g7-notebook-pc-customizable-8pv71av-mb) | 256GB/Intel i5/8GB RAM | 9MZ21AV가 있는 SKU | 2021년 11월 30일 | 2024년 11월 30일 |
 | [HP EliteBook x360 830 G7 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g7-notebook-pc-p-1f6c0ut-aba-1) | 256GB/Intel i5/8GB RAM | 9MZ21AV가 있는 SKU | 2021년 11월 30일 | 2024년 11월 30일 |
 | [HP Elite x2 G4 Tablet](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-3074457345617405170--1) | 256GB/Intel i5/8GB RAM | 5VS03AV가 있는 SKU | 2021년 7월 31일 | 2024년 7월 31일 |
-| [HP EliteBook x360 1030/ 1040 G7 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g7-notebook-pc-customizable-8vs68av-mb#!) | 256GB/Intel i5/8GB RAM | 8XW08AV가 있는 SKU | 2021년 8월 31일 | 2024년 8월 31일 |
+| [HP EliteBook x360 1030/1040 G7 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g7-notebook-pc-customizable-8vs68av-mb#!) | 256GB/Intel i5/8GB RAM | 8XW08AV가 있는 SKU | 2021년 8월 31일 | 2024년 8월 31일 |
 | [HP Elite인사성](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html) | 256GB/Intel i5/8GB RAM | 9MZ21AV가 있는 SKU | 2021년 3월 31일 | 2024년 3월 31일 |
-| **\*[HP EliteOne 800 G6 24/27 올인원 PC](https://store.hp.com/us/en/pdp/hp-eliteone-800-g6-all-in-one-touch-pc)** | 256 / Intel i5 /8GB RAM | 9XM14AV가 있는 SKU | 2022년 6월 30일 | 2025년 6월 30일 |
-| **\*[HP EliteDesk 800 G6 데스크톱 미니 PC](https://store.hp.com/us/en/pdp/hp-elitedesk-800-g6-desktop-mini-pc#!)** | 256 / Intel i5 /8GB RAM | 9XM14AV가 있는 SKU | 2022년 6월 30일 | 2025년 6월 30일 |
+| **\*[HP EliteOne 800 G6 24/27 올인원 PC](https://store.hp.com/us/en/pdp/hp-eliteone-800-g6-all-in-one-touch-pc)** | 256 / Intel i5 / 8GB RAM | 9XM14AV가 있는 SKU | 2022년 6월 30일 | 2025년 6월 30일 |
+| **\*[HP EliteDesk 800 G6 데스크톱 미니 PC](https://store.hp.com/us/en/pdp/hp-elitedesk-800-g6-desktop-mini-pc#!)** | 256 / Intel i5 / 8GB RAM | 9XM14AV가 있는 SKU | 2022년 6월 30일 | 2025년 6월 30일 |
 | [HP Z2 미니 G5 Workstation](https://store.hp.com/us/en/pdp/hp-z2-mini-g5-workstation-customizable-9jd39av-mb) | 256GB/Intel i5/8GB RAM | 8QR48AV가 있는 SKU| 2021년 12월 31일 | 2024년 12월 31일 |
 | **\*[HP ZBook Firefly 14/15 G7 Mobile Workstation](https://store.hp.com/us/en/mdp/laptops/hp-zbook-14u-mobile-workstation)** | 256GB/Intel i5/8GB RAM | 9MZ22AV가 있는 SKU, IR 카메라 필요 | 2021년 11월 30일 | 2024년 11월 30일 |
 
@@ -89,9 +89,9 @@ Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나�
 
 이러한 리소스는 특정 장치에 대해 질문할 수 있는 질문에 답변하는 데 도움이 될 수 있습니다.
 
-- Dell 디바이스에 대한 자세한 내용은 다음 <a href="mailto:MMD_at_dell@dell.com">MMD_at_dell@dell.com.</a>
+- Dell 장치에 대한 자세한 내용은 다음 <a href="mailto:MMD_at_dell@dell.com">MMD_at_dell@dell.com.</a>
 
-- HP 장치 및 장치 주문 지침에 대한 자세한 내용은 다음을 참조하십시오. 미주(mmd-americas@hp.com<a href="mailto:mmd-americas@hp.com">);</a> 유럽/중동/아프리카(mmd-emea@hp.com );<a href="mailto:mmd-emea@hp.com"></a> 아시아 태평양/일본(mmd-apj@hp.com );<a href="mailto:mmd-apj@hp.com"></a> Global(<a href="mailto:mmd@hp.com">mmd@hp.com</a>)
+- HP 장치 및 장치 주문 지침에 대한 자세한<a href="mailto:mmd-americas@hp.com"></a>내용은 다음을 참조하십시오. 미주(mmd-americas@hp.com ); 유럽/중동/아프리카(mmd-emea@hp.com );<a href="mailto:mmd-emea@hp.com"></a> 아시아 태평양/일본(mmd-apj@hp.com );<a href="mailto:mmd-apj@hp.com"></a> Global(<a href="mailto:mmd@hp.com">mmd@hp.com</a>)
 
 
 

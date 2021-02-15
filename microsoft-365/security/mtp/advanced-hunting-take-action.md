@@ -43,9 +43,9 @@ ms.locfileid: "49932181"
 - 파일 Quarantine files
 
 ## <a name="required-permissions"></a>필요한 사용 권한
-고급 헌팅을 통해 조치를 취하려면 장치에서 수정 작업을 제출할 권한이 있는 끝점용 Microsoft [Defender의 역할이 필요합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options) 조치를 취할 수 없는 경우 전역 관리자에게 문의하여 다음 권한을 부여합니다.
+고급 헌팅을 통해 조치를 취하려면 장치에서 수정 작업을 제출할 수 있는 권한이 있는 끝점용 Microsoft [Defender의 역할이 필요합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles#permission-options) 조치를 취할 수 없는 경우 전역 관리자에게 문의하여 다음 권한을 부여합니다.
 
-*위협 및 > 관리에 대한 활성 수정 작업 - 수정 처리*
+*위협 및 > 관리 - 수정 처리에 대한 활성 수정 작업*
 
 ## <a name="take-various-actions-on-devices"></a>장치에서 다양한 작업 수행
 쿼리 결과의 열로 식별된 디바이스에서 다음 `DeviceId` 작업을 수행할 수 있습니다.
@@ -56,13 +56,13 @@ ms.locfileid: "49932181"
 - 자동화된 조사를 시작하여 장치 및 기타 영향을 받는 장치에서 위협을 확인하고 수정합니다.
 - 앱 실행을 Microsoft 서명 실행 파일로만 제한하여 맬웨어 또는 기타 트러블되지 않은 실행 파일을 통한 후속 위협 활동 방지
 
-끝점용 Microsoft Defender를 통해 이러한 대응 조치가 수행되는 방법에 대한 자세한 내용은 장치의 응답 [작업에 대해 읽어 읽습니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts)
+끝점용 Microsoft Defender를 통해 이러한 대응 조치가 수행되는 방법에 대한 자세한 내용은 장치의 응답 [작업에 대해 읽어 보아야 합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts)
    
 ## <a name="quarantine-files"></a>파일 Quarantine files
-파일에 *대한* 검지 작업을 배포하여 발생할 때 자동으로 해당 작업이 중단될 수 있습니다. 이 작업을 선택할 때 다음 열 중 선택하여 쿼리 결과에서 각 파일을 식별할 수 있습니다.
+발생할 경우 자동으로 해당 파일이 검색될 수 있도록 파일에 대한 *Quarantine* 작업을 배포할 수 있습니다. 이 작업을 선택할 때 다음 열 중 선택하여 쿼리 결과에서 각 파일을 식별할 수 있습니다.
 
-- `SHA1` - 대부분의 고급 헌팅 테이블에서 기록된 작업의 영향을 받은 파일의 SHA-1입니다. 예를 들어 파일을 복사한 경우 복사된 파일이 됩니다.
-- `InitiatingProcessSHA1` — 대부분의 고급 헌팅 테이블에서 이 파일은 기록된 작업을 시작해야 합니다. 예를 들어 자식 프로세스가 시작된 경우 상위 프로세스가 됩니다. 
+- `SHA1` - 대부분의 고급 헌팅 테이블에서 기록된 작업의 영향을 받은 파일의 SHA-1입니다. 예를 들어 파일을 복사한 경우 복사된 파일입니다.
+- `InitiatingProcessSHA1` - 대부분의 고급 헌팅 테이블에서 이 파일은 기록된 작업을 시작해야 합니다. 예를 들어 자식 프로세스가 시작된 경우 상위 프로세스가 됩니다. 
 - `SHA256`- 열로 식별된 파일에 해당하는 SHA-256입니다. `SHA1`
 - `InitiatingProcessSHA256`- 열로 식별된 파일에 해당하는 SHA-256입니다. `InitiatingProcessSHA1`
 

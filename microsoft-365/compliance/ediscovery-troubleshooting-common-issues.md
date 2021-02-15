@@ -26,7 +26,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/26/2021
 ms.locfileid: "49988142"
 ---
-# <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결 및 해결
+# <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결
 
 이 항목에서는 eDiscovery 검색 중 또는 eDiscovery 프로세스의 다른 곳에서 발생할 수 있는 문제를 식별하고 해결하기 위해 취할 수 있는 기본적인 문제 해결 단계를 다단계로 다단계에서 다단계에서 다단계로 하여금 확인할 수 있습니다. 이러한 시나리오 중 일부를 해소하려면 Microsoft 지원의 도움이 필요합니다. Microsoft 지원에 문의하는 경우의 정보는 해결 단계에 포함되어 있습니다.
 
@@ -66,13 +66,13 @@ eDiscovery 또는 콘텐츠 검색에서는 다음 오류가 발생할 수 있�
 
 이 오류가 발생하면 검색에 실패한 위치를 확인한 다음 실패한 위치에서만 검색을 다시 발생하는 것이 좋습니다.
 
-1. 보안 & 준수 센터 [PowerShell에](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 연결한 다음 다음 명령을 실행합니다.
+1. 보안 & 준수 센터 [PowerShell에](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 연결한 후 다음 명령을 실행합니다.
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
    ```
 
-2. PowerShell 출력에서 오류 필드의 실패한 위치를 보거나 검색 출력에서 오류의 상태 세부 정보에서 볼 수 있습니다.
+2. PowerShell 출력에서 오류 필드의 실패한 위치를 보거나 검색 출력에서 오류의 상태 세부 정보를 볼 수 있습니다.
 
 3. 실패한 위치에서만 eDiscovery 검색을 다시 시도합니다.
 
@@ -80,9 +80,9 @@ eDiscovery 또는 콘텐츠 검색에서는 다음 오류가 발생할 수 있�
 
 ## <a name="errorissue-file-not-found"></a>오류/문제: 파일을 찾을 수 없습니다.
 
-SharePoint Online 및 비즈니스용 OneDiscovery 위치를 포함하는 eDiscovery 검색을 실행하는 경우 파일이 사이트에 있는 경우 오류가 발생할 `File Not Found` 수 있습니다. 이 오류는 내보내기 경고에 추가되거나 errors.csv 건너뜁니다items.csv. 사이트에서 파일을 찾을 수 없는 경우나 인덱스가 최신이 아니면 이러한 문제가 발생할 수 있습니다. 다음은 실제 오류 텍스트입니다(강조 표시 추가).
+SharePoint Online 및 비즈니스용 OneDiscovery 위치를 포함하는 eDiscovery 검색을 실행하는 경우 파일이 사이트에 있는 경우 오류가 발생할 `File Not Found` 수 있습니다. 이 오류는 내보내기 경고에 추가되거나 errors.csv 건너뜁니다items.csv. 사이트에서 파일을 찾을 수 없는 경우나 인덱스가 최신이 아니면 이러한 문제가 발생할 수 있습니다. 다음은 강조가 추가된 실제 오류의 텍스트입니다.
 
-> 28.06.2019 10:02:19_FailedToExportItem_Failed 콘텐츠를 다운로드합니다. 추가 진단 정보: Microsoft.Office.Compliance.EDiscovery.ExportWorker.Exceptions.ContentDownloadTemporaryFailure: 문서 유형의 콘텐츠 6ea52149-91cd-4965-b5bb-82ca6a3ec9be에서 다운로드하지 못했습니다. 상관 관계 ID: 3bd84722-937b-4c23-b61b-08d6fba9ec32. ServerErrorCode: -2147024894 --->.SharePoint.Client.ServerException: ***파일을 찾을 수 없습니다.*** Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)의 Microsoft.SharePoint.Client.ClientRequest.ProcessResponse() --- 내부 예외 스택 추적 종료 ---
+> 28.06.2019 10:02:19_FailedToExportItem_Failed 콘텐츠를 다운로드합니다. 추가 진단 정보: Microsoft.Office.Compliance.EDiscovery.ExportWorker.Exceptions.ContentDownloadTemporaryFailure: 문서 유형의 콘텐츠 6ea52149-91cd-4965-b5bb-82ca6a3ec9be에서 다운로드하지 못했습니다. 상관 관계 ID: 3bd84722-937b-4c23-b61b-08d6fba9ec32. ServerErrorCode: -2147024894 --->.SharePoint.Client.ServerException: ***파일을 찾을 수 없습니다.*** Microsoft.SharePoint.Client.Client.ClientRequest.ProcessResponseStream(Stream responseStream)에서 Microsoft.SharePoint.Client.ClientRequest.ProcessResponse() --- 내부 예외 스택 추적 종료 추적 ---
 
 ### <a name="resolution"></a>해결 방법
 
@@ -98,7 +98,7 @@ eDiscovery 검색은 오류와 함께 `recipient not found` 실패합니다. 개
 
 1. Exchange [Online PowerShell에 연결합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
 
-2. 다음 명령을 실행하여 사용자가 Exchange Online Protection에 동기화된지 검사합니다.
+2. 다음 명령을 실행하여 사용자가 Exchange Online Protection에 동기화된지 확인할 수 있습니다.
 
    ```powershell
    Get-Recipient <userId> | FL
@@ -112,7 +112,7 @@ eDiscovery 검색은 오류와 함께 `recipient not found` 실패합니다. 개
 
 ### <a name="resolution"></a>해결 방법
 
-1. 보안 & 준수 센터 [PowerShell에](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 연결한 다음 다음 명령을 실행합니다.
+1. 보안 & 준수 센터 [PowerShell에](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 연결한 후 다음 명령을 실행합니다.
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
@@ -178,7 +178,7 @@ eDiscovery 케이스 보류 정책 동기화 배포 오류입니다. 이 오류�
 
    > 오류: 리소스: 정책을 배포하는 데 예상보다 시간이 오래 필요합니다. 최종 배포 상태를 업데이트하는 데 2시간이 추가로 걸릴 수 있으므로 몇 시간 후 다시 확인해 보아야 합니다."
 
-3. 문제의 정책에서 RetryDistribution 매개 변수를 실행합니다.
+3. 문제의 정책에서 RetryDistribution 매개 변수를 실행해 보겠습니다.
 
    eDiscovery 사례 보류의 경우:
 
@@ -208,7 +208,7 @@ eDiscovery 내보내기 도구를 사용하여 검색 결과를 다운로드할 
 
 ### <a name="resolution"></a>해결 방법
 
-이것은 클라이언트 쪽 문제로, 이를 수정하기 위해 다음 단계를 시도하세요.
+이는 클라이언트 쪽 문제로, 이를 수정하기 위해 다음 단계를 시도하세요.
 
 1. 다른 클라이언트/컴퓨터로 다운로드해 하세요.
 

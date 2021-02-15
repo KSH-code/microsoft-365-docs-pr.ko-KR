@@ -31,7 +31,7 @@ ms.locfileid: "50084669"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search-and-ediscovery"></a>콘텐츠 검색 및 eDiscovery에 대한 키워드 쿼리 및 검색 조건
 
-이 항목에서는 Microsoft 365 규정 준수 센터의 콘텐츠 검색 기능을 사용하여 Exchange Online의 전자 메일 항목과 SharePoint 및 비즈니스용 OneDrive 사이트에 저장된 문서에서 검색할 수 있는 전자 메일 및 문서 속성에 대해 설명합니다. 보안 및 준수 센터 PowerShell에서 **\* -ComplianceSearch** cmdlet을 & 이러한 속성을 검색할 수도 있습니다. 또한 이 항목에서는 다음에 대해 설명합니다.
+이 항목에서는 Microsoft 365 규정 준수 센터의 콘텐츠 검색 기능을 사용하여 Exchange Online의 전자 메일 항목과 SharePoint 및 비즈니스용 OneDrive 사이트에 저장된 문서에서 검색할 수 있는 전자 메일 및 문서 속성에 대해 설명합니다. Security & Compliance Center PowerShell에서 **\* -ComplianceSearch** cmdlet을 사용하여 이러한 속성을 검색할 수도 있습니다. 또한 이 항목에서는 다음에 대해 설명합니다.
   
 - 부울 검색 연산자, 검색 조건 및 기타 검색 쿼리 기술을 사용하여 검색 결과를 구체화합니다.
 
@@ -67,7 +67,7 @@ ms.locfileid: "50084669"
 |참가자|전자 메일 메시지의 모든 사용자 필드 이러한 필드는 From, To, Cc 및 Bcc입니다.<sup>1</sup>|`participants:garthf@contoso.com`  <br/> `participants:contoso.com`|garthf@contoso.com에서 보냈거나 이 사이트로 보낸 메시지입니다. 두 번째 예제에서는 contoso.com 도메인의 사용자가 보냈거나 이 사용자에게로 보낸 모든 메시지를 반환합니다.|
 |수신됨|받는 사람이 전자 메일 메시지를 받은 날짜입니다.|`received:04/15/2016`  <br/> `received>=01/01/2016 AND received<=03/31/2016`|2016년 4월 15일 수신된 메시지입니다. 두 번째 예제에서는 2016년 1월 1일과 2016년 3월 31일 사이에 수신된 모든 메시지를 반환합니다.|
 |받는 사람|전자 메일 메시지의 모든 받는 사람 필드 이러한 필드는 To, Cc 및 Bcc입니다.<sup>1</sup>|`recipients:garthf@contoso.com`  <br/> `recipients:contoso.com`|garthf@contoso.com으로 보낸 메시지입니다. 두 번째 예제에서는 contoso.com 도메인에 있는 모든 받는 사람에게 전송된 메시지를 반환합니다.|
-|Sent|보낸 사람이 전자 메일 메시지를 보낸 날짜입니다.|`sent:07/01/2016`  <br/> `sent>=06/01/2016 AND sent<=07/01/2016`|지정된 날짜 또는 지정된 날짜 범위 내에서 전송된 메시지입니다.|
+|보낸 메일|보낸 사람이 전자 메일 메시지를 보낸 날짜입니다.|`sent:07/01/2016`  <br/> `sent>=06/01/2016 AND sent<=07/01/2016`|지정된 날짜 또는 지정된 날짜 범위 내에서 전송된 메시지입니다.|
 |Size|항목의 크기(바이트)입니다.|`size>26214400`  <br/> `size:1..1048567`|25보다 큰 메시지는 무엇입니까? MB. 두 번째 예제에서는 1 ~ 1,048,567바이트(1MB) 크기의 메시지를 반환합니다.|
 |제목|전자 메일 메시지 제목 줄의 텍스트입니다.  <br/> **참고:** 쿼리에서 Subject 속성을 사용하면 제목 줄에 검색할 텍스트가 포함된 모든 메시지가 반환됩니다. 즉, 쿼리는 정확히 일치하는 메시지만 반환하지는 않습니다. 예를 들어 검색하는 경우 결과에  `subject:"Quarterly Financials"` 제목이 "Quarterly Financials 2018"인 메시지가 포함됩니다.|`subject:"Quarterly Financials"`  <br/> `subject:northwind`|제목 줄의 텍스트에 "Quarterly Financials"라는 구가 포함된 메시지입니다. 두 번째 예제에서는 제목 줄에 단어 northwind가 포함된 모든 메시지를 반환합니다.|
 |받는 사람|전자 메일 메시지의 To 필드입니다. <sup>1</sup>|`to:annb@contoso.com`  <br/> `to:annb ` <br/> `to:"Ann Beebe"`|모든 예제에서 받는 사람: 줄에 Ann Beebe가 지정된 메시지를 반환합니다.|
@@ -78,7 +78,7 @@ ms.locfileid: "50084669"
 
 ### <a name="recipient-expansion"></a>받는 사람 확장
 
-받는 사람 속성(받는 사람, 받는 사람, 받는 사람,Cc, Bcc, 참가자 및 받는 사람)을 검색할 때 Microsoft 365는 Azure AD(Azure Active Directory)에서 사용자를 찾아서 각 사용자의 ID를 확장하려고 시도합니다.  Azure AD에서 사용자를 찾은 경우 사용자의 전자 메일 주소(또는 UPN), 별칭, 표시 이름 및 LegacyExchangeDN을 포함하도록 쿼리가 확장됩니다. 예를 들어 . `participants:ronnie@contoso.com` `participants:ronnie@contoso.com OR participants:ronnie OR participants:"Ronald Nelson" OR participants:"<LegacyExchangeDN>"`
+받는 사람 속성(받는 사람, 받는 사람, 받는 사람,Cc, Bcc, 참가자 및 받는 사람)을 검색할 때 Microsoft 365는 Azure AD(Azure Active Directory)에서 사용자를 찾아서 각 사용자의 ID를 확장하려고 시도합니다.  Azure AD에서 사용자를 찾은 경우 사용자의 전자 메일 주소(또는 UPN), 별칭, 표시 이름 및 LegacyExchangeDN을 포함하도록 쿼리가 확장됩니다. 예를 들어 쿼리(예: .)가 `participants:ronnie@contoso.com` `participants:ronnie@contoso.com OR participants:ronnie OR participants:"Ronald Nelson" OR participants:"<LegacyExchangeDN>"` 확장됩니다.
 
 받는 사람 확장을 방지하려면 전자 메일 주소 끝에 와일드 카드 문자(추가)를 추가하고 축소된 도메인 이름을 사용하세요. 예를 들어 전자 메일 주소를 작은 인용 부호로 `participants:"ronnie@contoso*"` 둘러싸야 합니다.
 
@@ -127,8 +127,8 @@ ms.locfileid: "50084669"
 |부서|**Department 속성의 이름입니다.**|
 |DisplayName|연락처의 표시 이름입니다. 연락처의 **Full Name** 속성에 있는 이름입니다.|
 |EmailAddress|연락처의 전자 메일 주소 속성에 대한 주소입니다. 사용자는 연락처에 대해 여러 전자 메일 주소를 추가할 수 있습니다. 이 속성을 사용하는 경우 연락처의 전자 메일 주소와 일치하는 연락처가 반환됩니다.|
-|FileAs|**속성으로 사용할 파일입니다.** 이 속성은 연락처가 사용자의 연락처 목록에 나열되는 방법을 지정하는 데 사용됩니다. 예를 들어 연락처는 *FirstName, LastName* 또는 *LastName,FirstName으로 나열될 수 있습니다.*|
-|GivenName|이름 속성의 **이름입니다.**|
+|FileAs|**File as 속성** 이 속성은 연락처가 사용자의 연락처 목록에 나열되는 방법을 지정하는 데 사용됩니다. 예를 들어 연락처는 *FirstName, LastName* 또는 *LastName,FirstName으로 나열될 수 있습니다.*|
+|GivenName|**이름 속성의 이름입니다.**|
 |HomeAddress|집 주소 **속성의** 주소입니다.|
 |HomePhone|집 전화 번호 속성의 **전화** 번호입니다.|
 |IMAddress|IM 주소 속성( 일반적으로 인스턴트 메시징에 사용되는 전자 메일 주소)|
@@ -170,12 +170,12 @@ Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 S
 | 연산자 | Usage | 설명 |
 |:-----|:-----|:-----|
 |그리고|keyword1 AND keyword2|지정한 키워드나 식이 모두 포함된 항목을  `property:value` 반환합니다. 예를 들어  `from:"Ann Beebe" AND subject:northwind` 제목 줄에 단어 northwind가 포함된 Ann Beebe가 보낸 모든 메시지를 반환합니다. <sup>2</sup>|
-|+|keyword1 + keyword2 + keyword3|.를 포함하거나 포함하는 항목을  `keyword2` `keyword3`  `keyword1` 반환합니다.   따라서 이 예제는 쿼리와  `(keyword2 OR keyword3) AND keyword1` 같습니다.  <br/> 기호 다음에 공백이 있는 쿼리는 AND 연산자 사용과  `keyword1 + keyword2` **+** **동일하지** 않습니다. 이 쿼리는 정확한 단계의 항목을  `"keyword1 + keyword2"` 반환하는 쿼리와  `"keyword1 + keyword2"` 같습니다.|
+|+|keyword1 + keyword2 + keyword3|.을 포함하거나 포함하는 항목을  `keyword2` `keyword3`  `keyword1` 반환합니다.   따라서 이 예제는 쿼리와  `(keyword2 OR keyword3) AND keyword1` 같습니다.  <br/> 기호 다음에 공백이 있는 쿼리는 AND 연산자 사용과  `keyword1 + keyword2` **+** **동일하지** 않습니다. 이 쿼리는 정확한 단계의 항목을  `"keyword1 + keyword2"` 반환하는 쿼리와  `"keyword1 + keyword2"` 같습니다.|
 |또는|keyword1 OR keyword2|지정한 키워드나 식이 하나 이상 포함된 항목을  `property:value` 반환합니다. <sup>2</sup>|
 |NOT|keyword1 NOT keyword2  <br/> NOT from:"Ann Beebe"  <br/> NOT kind:im|키워드 또는 식으로 지정된 항목을  `property:value` 제외합니다. 두 번째 예제에서는 Ann Beebe가 보낸 메시지를 제외합니다. 세 번째 예에서는 대화 기록 사서함 폴더에 저장된 비즈니스용 Skype 대화와 같은 인스턴트 메시징 대화를 제외합니다. <sup>2</sup>|
 |-|keyword1 -keyword2|**NOT** 연산자와 같습니다. 따라서 이 쿼리는 .를 포함하는 항목을 포함하거나 제외하는  `keyword1` 항목을  `keyword2` 반환합니다.|
-|NEAR|keyword1 NEAR(n) keyword2|서로 가까이 있는 단어가 있는 항목을 반환합니다. 여기서 n은 단어의 개수와 같습니다. 예를 들어 단어 `best NEAR(5) worst` "worst"가 "best"의 5개 단어 이내인 항목을 반환합니다. 숫자를 지정하지 않으면 기본 거리는 8단어입니다. <sup>2</sup>|
-|:|property:value|콜론(:) 구문에서 검색되는 속성의 값에 지정된 값이 포함되는  `property:value` 것을 지정합니다. 예를 들어 전송된 메시지는  `recipients:garthf@contoso.com` garthf@contoso.com.|
+|NEAR|keyword1 NEAR(n) keyword2|서로 가까이 있는 단어가 있는 항목을 반환합니다. 여기서 n은 단어의 개수와 같습니다. 예를 들어 단어 "worst"가 "best"의 5개 단어 내에 있는 항목을 `best NEAR(5) worst` 반환합니다. 숫자를 지정하지 않으면 기본 거리는 8단어입니다. <sup>2</sup>|
+|:|property:value|콜론(:) 구문에서 검색되는 속성의 값에 지정된 값이 포함되는  `property:value` 것을 지정합니다. 예를 들어  `recipients:garthf@contoso.com` 전송된 메시지는 garthf@contoso.com.|
 |=|property=value|**: 연산자와** 동일합니다.|
 |\<|속성 \< 값|검색 중인 속성이 지정된 값보다 작음을 나타냅니다.  <sup>1</sup>|
 |\>|속성 \> 값|검색되는 속성이 지정된 값보다 크다는 것을 지정합니다. <sup>1</sup>|
@@ -215,7 +215,7 @@ Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 S
 |날짜|전자 메일 메시지의 경우 받는 사람이 메시지를 받았거나 보낸 사람이 메시지를 보낸 날짜입니다. 문서의 경우 문서를 마지막으로 수정한 날짜입니다.|
 |보낸 사람/만든 이|전자 메일의 경우 메시지를 보낸 사람입니다. 문서의 경우 Office 문서의 만든 이 필드에 지정된 사람입니다. 여러 개의 이름을 쉼표로 구분하여 입력할 수 있습니다. 두 개 이상의 값은 **OR** 연산자를 사용하여 논리적으로 연결됩니다.|
 |크기(bytes)|전자 메일 및 문서의 경우 항목의 크기(바이트)입니다.|
-|제목/제목|전자 메일의 경우 메시지 제목 줄의 텍스트입니다. 문서의 경우 문서 제목입니다. 앞서 설명한 것 처럼 Title 속성은 문서에서 지정한 Microsoft Office 있습니다. 두 개 이상의 제목 이름을 각 제목의 이름을 각 별로 구분하여 입력할 수 있습니다. 두 개 이상의 값은 **OR** 연산자를 사용하여 논리적으로 연결됩니다.|
+|제목/제목|전자 메일의 경우 메시지 제목 줄의 텍스트입니다. 문서의 경우 문서 제목입니다. 앞서 설명한 것 처럼 Title 속성은 문서에서 지정한 Microsoft Office 있습니다. 두 개 이상의 제목 이름을 콤보로 구분하여 입력할 수 있습니다. 두 개 이상의 값은 **OR** 연산자를 사용하여 논리적으로 연결됩니다.|
 |규정 준수 레이블|전자 메일과 문서의 경우 사용자가 수동으로 할당한 자동 레이블 정책 또는 보존 레이블에 의해 메시지 및 문서에 자동으로 할당된 보존 레이블입니다. 보존 레이블은 정보 거버넌스를 위해 전자 메일 및 문서를 분류하고 레이블에 정의된 설정에 따라 보존 규칙을 적용하는 데 사용됩니다. 보존 레이블 이름의 일부를 입력하고 와일드카드를 사용하거나 전체 레이블 이름을 입력할 수 있습니다. 보존 레이블에 대한 자세한 내용은 보존 정책 및 보존 [레이블에 대한 자세한 내용을 참조하세요.](retention.md)|
 |||
   
@@ -227,11 +227,11 @@ Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 S
 |:-----|:-----|
 |메시지 종류| 검색할 메시지의 유형입니다. Kind 전자 메일 속성과 같은 속성입니다. 사용 가능한 값:  <br/><br/>  contacts  <br/>  docs  <br/>  전자 메일  <br/>  externaldata  <br/>  팩스  <br/>  im  <br/>  저널  <br/>  모임  <br/>  microsoftteams  <br/>  notes  <br/>  게시물  <br/>  rssfeeds  <br/>  작업  <br/>  voicemail|
 |참가자|전자 메일 메시지의 모든 사용자 필드 이러한 필드는 From, To, Cc 및 Bcc입니다.|
-|유형|전자 메일 항목의 메시지 클래스 속성입니다. ItemClass 전자 메일 속성과 동일한 속성입니다. 또한 다중 값 조건입니다. 따라서 여러 메시지 클래스를 선택하려면 **Ctrl** 키를 보유한 다음 드롭다운 목록에서 조건에 추가할 메시지 클래스를 두 개 이상 클릭합니다. 목록에서 선택하는 각 메시지 클래스는 해당 검색 쿼리의 **OR** 연산자에 의해 논리적으로 연결됩니다.  <br/> Exchange에서 사용하며 메시지 클래스 목록에서 선택할 수 있는 메시지 클래스 및 해당  메시지 클래스 ID 목록은 항목 형식 및 메시지 클래스를 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=848143)|
+|유형|전자 메일 항목의 메시지 클래스 속성입니다. ItemClass 전자 메일 속성과 동일한 속성입니다. 또한 다중 값 조건입니다. 따라서 여러 메시지 클래스를 선택하려면 **Ctrl** 키를 보유한 다음 드롭다운 목록에서 조건에 추가할 메시지 클래스를 두 개 이상 클릭합니다. 목록에서 선택하는 각 메시지 클래스는 해당 검색 쿼리의 **OR** 연산자에 의해 논리적으로 연결됩니다.  <br/> Exchange에서 사용하며 메시지 클래스 목록에서 선택할 수 있는 메시지 클래스 및 해당  메시지 클래스 ID 목록은 항목 유형 및 메시지 클래스를 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=848143)|
 |수신됨|받는 사람이 전자 메일 메시지를 받은 날짜입니다. Received 전자 메일 속성과 같은 속성입니다.|
 |받는 사람|전자 메일 메시지의 모든 받는 사람 필드 이러한 필드는 To, Cc 및 Bcc입니다.|
 |보낸 사람|전자 메일 메시지의 보낸 사람입니다.|
-|Sent|보낸 사람이 전자 메일 메시지를 보낸 날짜입니다. Sent 전자 메일 속성과 같은 속성입니다.|
+|보낸 메일|보낸 사람이 전자 메일 메시지를 보낸 날짜입니다. Sent 전자 메일 속성과 같은 속성입니다.|
 |제목|전자 메일 메시지 제목 줄의 텍스트입니다.|
 |받는 사람|받는 사람 필드에 있는 전자 메일 메시지의 받는 사람입니다.|
 |||
@@ -287,11 +287,11 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
     
 - 키워드 상자 및 조건을 사용하여 만든 검색 쿼리는 선택한  검색의 세부 정보 창에 있는 검색 페이지에 표시됩니다. 쿼리에서 표시 오른쪽의 모든 항목은 쿼리에 추가된 조건을  `(c:c)` 나타냅니다. 
     
-- 조건은 검색 쿼리에 속성만 추가하고 연산자는 추가하지 않습니다. 이 때문에 세부 정보 창에 표시된 쿼리에 해당 표시 오른쪽에 연산자가  `(c:c)` 표시되지 않습니다. KQL은 쿼리를 실행할 때 논리 연산자를 추가합니다(이전에 설명한 규칙을 따름). 
+- 조건은 검색 쿼리에 속성만 추가하고 연산자는 추가하지 않습니다. 이 때문에 세부 정보 창에 표시된 쿼리가 해당 표시의 오른쪽에 연산자를  `(c:c)` 표시하지 않습니다. KQL은 쿼리를 실행할 때 논리 연산자를 추가합니다(이전에 설명한 규칙을 따름). 
     
-- 끌어서 놓기 컨트롤을 사용하여 조건 순서를 다시 순서대로 할 수 있습니다. 조건에 대한 컨트롤을 클릭하고 해당 조건을 업 또는 아래로 이동합니다.
+- 끌어서 놓기 컨트롤을 사용하여 조건 순서를 다시 순서대로 할 수 있습니다. 조건에 대한 컨트롤을 클릭하고 이 컨트롤을 업 또는 아래로 움직입니다.
     
-- 앞서 설명한 일부 조건 속성을 사용하면 여러 값을 입력할 수 있습니다. 각 값은 OR 연산자에 의해 **논리적으로 연결됩니다.** 그러면 동일한 조건의 여러 인스턴스가 있는 논리와 동일한 논리가 생성됩니다. 여기서 각 인스턴스에는 단일 값이 있습니다. 다음 그림에서는 값이 여러 개 있는 단일 조건의 예와 단일 값이 있는 여러 조건(동일한 속성에 대한)의 예를 보여집니다. 두 예제 모두 동일한 쿼리를 실행합니다.  `(filetype:docx) OR (filetype:pptx) OR (filetype:xlsx)`
+- 앞서 설명한 일부 조건 속성을 사용하면 여러 값을 입력할 수 있습니다. 각 값은 OR 연산자에 의해 **논리적으로 연결됩니다.** 그러면 동일한 조건의 여러 인스턴스가 있는 논리와 동일한 논리가 생성됩니다. 각 인스턴스에는 단일 값이 있습니다. 다음 그림에서는 값이 여러 개 있는 단일 조건의 예와 단일 값이 있는 여러 조건(동일한 속성에 대한)의 예를 보여집니다. 두 예제 모두 동일한 쿼리를 실행합니다.  `(filetype:docx) OR (filetype:pptx) OR (filetype:xlsx)`
     
     ![메시지는 규칙의 모든 조건과 일치해야 합니다. 하나의 조건 또는 다른 조건과 일치해야 하는 경우 각 조건에 대해 별도의 규칙을 사용합니다. 예를 들어 패턴과 일치하는 콘텐츠가 있는 메시지 및 첨부 파일이 있는 메시지에 동일한 고지 사항을 추가하려면 각 조건에 대해 하나의 규칙을 만듭니다. 규칙은 쉽게 복사할 수 있습니다.](../media/9880aa29-d117-4531-be20-6d53f1d21341.gif)
   
@@ -364,7 +364,7 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
   
 - 사용자가 인증된 사용자로 조직에 로그인해야 하는 공유 초대입니다.
     
-- 익명 게스트 링크 - 이 링크가 있는 모든 사용자가 인증 없이 리소스에 액세스할 수 있습니다.
+- 이 링크가 있는 모든 사용자가 인증 없이 리소스에 액세스할 수 있는 익명 게스트 링크입니다.
     
 그 예는 다음과 같습니다.
   
@@ -387,7 +387,7 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
 
 이 속성은 문서 또는 사이트를 외부 사용자와 공유하는지 여부의 상태를 나타내지만 이 속성이 반영되지 않는 경우 몇 가지  `ViewableByExternalUsers` 주의해야 합니다. 다음 시나리오에서는 속성 값이 업데이트되지 않습니다. 이 속성을 사용하는 콘텐츠 검색 쿼리의 결과는 부정확할  `ViewableByExternalUsers` 수 있습니다. 
   
-- 공유 정책에 대한 변경 사항(예: 사이트 또는 조직에 대한 외부 공유 해제) 이 속성은 외부 액세스가 해지된 경우에도 이전에 공유한 문서가 외부에서 액세스할 수 있는 것으로 계속 표시되어 있습니다.
+- 공유 정책에 대한 변경 사항(예: 사이트 또는 조직에 대한 외부 공유 해제) 이 속성은 외부 액세스가 해지된 경우에도 이전에 공유한 문서에 외부에서 액세스할 수 있는 것으로 계속 표시되어 있습니다.
     
 - Microsoft 365 그룹 또는 Microsoft 365 보안 그룹에 외부 사용자를 추가하거나 제거하는 등 그룹 구성원에 대한 변경 사항 이 속성은 그룹이 액세스할 수 있는 항목에 대해 자동으로 업데이트되지 않습니다.
     
@@ -435,7 +435,7 @@ kind:im AND subject:conversation AND (received=startdate..enddate)
 
 - 두 키워드 또는 두 식 사이의 공백은 AND 사용과 `property:value` **동일합니다.** 예를 들어 제목 줄에 단어 재구성이 포함된 Sara Davis가 보낸 모든 메시지를  `from:"Sara Davis" subject:reorganization` 반환합니다. 
 
-- 형식과 일치하는 구문을 `property:value` 사용 합니다. 값은 대소문자 구분이 아니며 연산자 다음에 공백을 사용할 수 없습니다. 공백이 있는 경우 전체 텍스트 검색 값을 사용할 수 있습니다. 예를 들어 pilarp로 보낸 메시지가 아니라 `to: pilarp` 키워드로 "pilarp"를 검색합니다. 
+- 형식과 일치하는 구문을 `property:value` 사용 합니다. 값은 대소문자 구분이 아니며 연산자 다음에 공백을 사용할 수 없습니다. 공백이 있는 경우 전체 텍스트 검색 값을 사용할 수 있습니다. 예를 들어 pilarp로 전송된 메시지가 아니라 `to: pilarp` 키워드로 "pilarp"를 검색합니다. 
 
 - 받는 사람 속성(예: To, From, Cc 또는 Recipients)을 검색하는 경우 SMTP 주소, 별칭 또는 표시 이름을 사용하여 받는 사람을 나타낼 수 있습니다. 예를 들어, pilarp@contoso.com, pilarp, 또는 "Pilar Pinilla"를 사용할 수 있습니다.
 
@@ -445,4 +445,4 @@ kind:im AND subject:conversation AND (received=startdate..enddate)
 
 - 검색 결과에서 특정 속성 값으로 표시된 콘텐츠를 제외하려면 속성 이름 앞에 빼기 기호(-)를 추가합니다. 예를 들어 Sara Davis가 보낸 모든 메시지를 `-from:"Sara Davis"` 제외합니다.
 
-- 메시지 유형에 따라 항목을 내보낼 수 있습니다. 예를 들어 Microsoft Teams에서 Skype 대화 및 채팅을 내보내기 위해 구문을 `kind:im` 사용하세요. 전자 메일 메시지만 반환하는 경우 . `kind:email` Microsoft Teams에서 채팅, 모임 및 통화를 반환하기 위해 다음을 `kind:microsoftteams` 사용하세요.
+- 메시지 유형에 따라 항목을 내보낼 수 있습니다. 예를 들어 Microsoft Teams에서 Skype 대화 및 채팅을 내보내기 위해 구문을 `kind:im` 사용하세요. 전자 메일 메시지만 반환하는 경우 . `kind:email` Microsoft Teams에서 채팅, 모임 및 통화를 반환하기 위해 `kind:microsoftteams` 다음을 사용하세요.

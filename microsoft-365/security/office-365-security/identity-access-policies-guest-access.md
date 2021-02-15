@@ -65,7 +65,7 @@ Microsoft Teams는 다음 사용자를 정의합니다.
 
 자세한 내용은 게스트와 팀의 외부 사용자 [액세스 간 비교를 참조하세요.](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access)
 
-Teams의 ID 및 장치 액세스 정책 보안에 대한 자세한 내용은 Teams 채팅, 그룹 및 파일을 보호하기 위한 정책 권장 사항을 [참조하세요.](teams-access-policies.md)
+Teams의 ID 및 장치 액세스 정책 보안에 대한 자세한 내용은 Teams 채팅, 그룹 및 파일을 보호하기 위한 정책 권장 [사항을 참조하세요.](teams-access-policies.md)
 
 ### <a name="require-mfa-always-for-guest-and-external-users"></a>게스트 및 외부 사용자에 대해 MFA가 항상 필요
 

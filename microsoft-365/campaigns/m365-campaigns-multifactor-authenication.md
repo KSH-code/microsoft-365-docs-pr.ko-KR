@@ -41,4 +41,4 @@ ms.locfileid: "50044435"
 
 ## <a name="use-the-outlook-app-in-your-devices"></a>장치에서 Outlook 앱 사용
 
-관리자가 MFA를 사용할 것을 요구하고 인증자 앱을 두 번째 인증 형태로 설정한 후 Outlook 앱을 설치하고 Microsoft 365 전자 메일에만 액세스하는 것이 좋습니다. [Outlook을](../business/set-up-mobile-devices.md) 비롯한 Office 앱을 휴대폰에 설치하는 방법에 대한 자세한 내용은 모바일 장치 설정을 참조하세요.
+관리자가 MFA를 사용할 것을 요구하고 인증자 앱을 두 번째 인증 형태로 설정한 후 Outlook 앱을 설치하고 Microsoft 365 전자 메일에만 액세스하는 것이 좋습니다. Outlook을 [비롯한](../business/set-up-mobile-devices.md) Office 앱을 휴대폰에 설치하는 방법에 대한 자세한 내용은 모바일 장치 설정을 참조하세요.

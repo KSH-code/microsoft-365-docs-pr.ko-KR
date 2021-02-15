@@ -36,10 +36,10 @@ ms.locfileid: "50044207"
 
 Microsoft 365에 등록한 경우 Microsoft 365 관리자입니다. 로그인하는 방법:
 
-1. 등록 단계 2단계에서 제공한 전자 메일 주소로 보낸 사용자 이름과 [암호를 찾아 찾습니다.](m365-campaigns-sign-up.md#steps-to-sign-up)
+1. 등록 단계 2단계에서 제공한 전자 메일 주소로 보낸 사용자 이름과 [암호를 찾으세요.](m365-campaigns-sign-up.md#steps-to-sign-up)
 2. 브라우저에서 Microsoft 365 관리 센터로 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 이동하세요.
 3. 사용자 이름과 암호를 입력합니다. **로그인** 을 선택합니다.
-4. 페이지 오른쪽 상단에서 컨트롤의 **미리 보기를** 찾습니다. 캠페인에 **대한** 범프업 보호에 설명된 모든 컨트롤을 사용할 수 있도록 미리 [보기를 선택합니다.](m365-campaigns-security-overview.md)
+4. 페이지 오른쪽 상단에서 컨트롤의 **미리 보기를** 찾습니다. 캠페인의 **범프업** 보호에 설명된 모든 컨트롤을 사용할 수 있도록 미리 [보기를 선택합니다.](m365-campaigns-security-overview.md)
 
 ## <a name="for-staff"></a>직원용
 

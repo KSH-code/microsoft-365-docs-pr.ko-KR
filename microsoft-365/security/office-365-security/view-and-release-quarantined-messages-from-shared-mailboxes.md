@@ -1,5 +1,5 @@
 ---
-title: 공유 사서함에서 메일로 전송된 메시지 보기 및 릴리스
+title: 공유 사서함에서 비할 수 있는 메시지 보기 및 릴리스
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -24,7 +24,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49931449"
 ---
-# <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>공유 사서함에서 비할 수 있는 메시지 보기 및 릴리스
+# <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>공유 사서함에서 메일로 전송된 메시지 보기 및 릴리스
 
 > [!NOTE]
 > 이 문서에서 설명하는 기능은 현재 미리 보기로 제공되어 있으며 모든 사람이 사용할 수 있으며 변경될 수 있습니다.
@@ -51,7 +51,7 @@ ms.locfileid: "49931449"
 
 - 현재 공유  사서함으로 전송된 고지된  메시지에 대한 세부 정보 플라이아웃에서는 보낸 사람 차단 단추를 사용할 수 없습니다.
 
-- [Exchange Online PowerShell에서](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)공유 사서함에 대해 고지된 메시지를 관리하려면 최종 사용자가 _RecipientAddress_ 매개 변수 값에 대해 [Get-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/get-quarantinemessage) cmdlet을 공유 사서함 전자 메일 주소와 함께 사용하여 메시지를 식별해야 합니다. 예:
+- [Exchange Online PowerShell에서](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)공유 사서함에 대해 고지된 메시지를 관리하려면 최종 사용자가 _RecipientAddress_ 매개 변수 값에 대해 [Get-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/get-quarantinemessage) cmdlet을 공유 사서함 전자 메일 주소와 함께 사용하여 메시지를 식별해야 합니다. 예시:
 
   ```powershell
   Get-QuarantinedMessage -RecipientAddress officeparty@contoso.com
@@ -59,7 +59,7 @@ ms.locfileid: "49931449"
 
   그런 다음 최종 사용자가 목록에서 고지된 메시지를 선택하여 보거나 조치를 취할 수 있습니다.
 
-  이 예에서는 공유 사서함으로 전송된 모든 메시지를 보여 주며, 목록의 첫 번째 메시지는 0, 두 번째 메시지는 1, 두 번째 메시지는 1 등에서 목록의 첫 번째 메시지를 해제합니다.
+  이 예에서는 공유 사서함으로 전송된 모든 메시지를 보여 주며, 목록의 첫 번째 메시지는 0, 두 번째 메시지는 1 등에서 목록의 첫 번째 메시지를 해제합니다.
 
   ```powershell
   $SharedMessages = Get-QuarantinedMessage -RecipientAddress officeparty@contoso.com | select -ExpandProperty Identity

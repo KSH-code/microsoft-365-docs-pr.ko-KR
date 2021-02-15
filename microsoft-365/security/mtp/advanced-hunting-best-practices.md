@@ -44,7 +44,7 @@ ms.locfileid: "49928477"
 
 ## <a name="general-optimization-tips"></a>일반 최적화 팁
 
-- **새 쿼리 크기**-쿼리가 큰 결과 집합을 반환하는 것으로 의심되는 경우 먼저 개수 연산자를 사용하여 [평가합니다.](https://docs.microsoft.com/azure/data-explorer/kusto/query/countoperator) 큰 [결과](https://docs.microsoft.com/azure/data-explorer/kusto/query/limitoperator) 집합을 방지하는 데 제한 또는 `take` 동의어를 사용 합니다.
+- **새 쿼리** 크기 -쿼리가 큰 결과 집합을 반환하는 것으로 의심되는 경우 먼저 개수 연산자를 사용하여 [평가합니다.](https://docs.microsoft.com/azure/data-explorer/kusto/query/countoperator) 큰 [결과](https://docs.microsoft.com/azure/data-explorer/kusto/query/limitoperator) 집합을 방지하는 데 제한 또는 `take` 동의어를 사용 합니다.
 - **필터를** 초기에 적용 - 데이터 집합을 줄이기 위해 시간 필터 및 기타 필터를 적용합니다. 특히 [substring()](https://docs.microsoft.com/azure/data-explorer/kusto/query/substringfunction), [replace()](https://docs.microsoft.com/azure/data-explorer/kusto/query/replacefunction), [trim()](https://docs.microsoft.com/azure/data-explorer/kusto/query/trimfunction), [toupper()](https://docs.microsoft.com/azure/data-explorer/kusto/query/toupperfunction)또는 [parse_json()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction)등의 변환 및 구문 분석 함수를 사용하기 전에 데이터 집합을 줄입니다. 아래 예제에서는 필터링 연산자가 레코드 수를 줄인 후에 구문 분석 함수 [extractjson()이](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractjsonfunction) 사용됩니다.
 
     ```kusto
@@ -61,7 +61,7 @@ ms.locfileid: "49928477"
 - **구문 분석,** 추출 안 하세요. [](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) 가능하면 구문 분석 연산자 또는 parse_json() 같은 구문 [분석 함수를 사용하세요.](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction) 문자열 `matches regex` 연산자나 [extract()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction)함수는 모두 정규식을 사용하지 않도록 합니다. 보다 복잡한 시나리오에서는 정규식을 사용할 수 있습니다. [구문 분석 함수에 대한 자세한 내용을 읽어 읽습니다.](#parse-strings)
 - **식이 아닌** 필터 테이블 - 테이블 열을 필터링할 수 있는 경우 계산된 열에는 필터링하지 않습니다.
 - **3자 용어** 없음 - 3자 이하의 용어를 사용하여 비교하거나 필터링하지 않습니다. 이러한 용어는 인덱싱되지 않습니다. 이러한 용어와 일치하면 더 많은 리소스가 필요합니다.
-- **선택적으로 프로젝트**- 필요한 열만 투영하여 결과를 보다 쉽게 이해할 수 있도록 합니다. 조인 또는 유사한 작업을 [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) 실행하기 전에 특정 열을 투영하면 성능을 개선하는 데도 도움이 됩니다.
+- **선택적으로** 프로젝트 - 필요한 열만 투영하여 결과를 보다 쉽게 이해할 수 있도록 합니다. 조인 또는 유사한 작업을 [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) 실행하기 전에 특정 열을 투영하면 성능을 개선하는 데도 도움이 됩니다.
 
 ## <a name="optimize-the-join-operator"></a>연산자 `join` 최적화
 조인 [연산자는](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) 지정된 열의 값과 일치하여 두 테이블의 행을 병합합니다. 다음 팁을 적용하여 이 연산자를 사용하는 쿼리를 최적화합니다.
@@ -125,9 +125,9 @@ ms.locfileid: "49928477"
     | join kind=inner (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
     ```  
 
-- **성능에 대한 힌트를** 사용합니다. 연산자와 힌트를 사용하여 리소스를 많이 사용하는 작업을 실행하는 경우 백end에 부하를 분산할 수 `join` 있도록 지시합니다. [조인 힌트에 대해 자세히 알아보시고](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-hints)
+- **성능에 대한 힌트를** 사용합니다. 연산자와 힌트를 사용하여 리소스를 많이 사용하는 작업을 실행하는 경우 백end에 부하를 분산할 `join` 수 있도록 지시합니다. [조인 힌트에 대해 자세히 알아보시고](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-hints)
 
-    예를 들어 **[](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery)** 셔플 힌트는 기수도 높은 키(아래 쿼리의 경우와 같이 고유한 값이 많은 키)를 사용하여 테이블을 조인할 때 쿼리 성능을 향상시키는 데 `AccountObjectId` 도움이 됩니다.
+    예를 들어 **[](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery)** 셔플 힌트는 기수도 높은 키(아래 쿼리의 경우와 같이 고유한 값이 많은 키)를 사용하여 테이블을 조인할 때 쿼리 성능을 향상시키는 `AccountObjectId` 데 도움이 됩니다.
 
     ```kusto
     IdentityInfo
@@ -174,7 +174,7 @@ ms.locfileid: "49928477"
     | summarize by SenderFromAddress, RecipientEmailAddress   
     ```
 
-- **쿼리 셔플**- 반복되는 값을 사용하는 열에서 가장 잘 사용하겠지만 동일한 열에 기수도 높거나 고유 값이 많은 경우도 `summarize` 있습니다.  연산자와 마찬가지로 처리 부하를 분산하고 카디널리티가 높은 열에서 작업할 때 성능을 향상시키는 셔플 힌트를 적용할 `join` 수도 [](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery) `summarize` 있습니다.
+- **쿼리 셔플**- 반복되는 값을 사용하는 열에서 가장 잘 사용하겠지만 동일한 열에 기수도 높거나 고유 값이 많은 경우도 `summarize` 있습니다.  연산자와 마찬가지로 처리 부하를 분산하고 카디널리티가 높은 열에서 작업할 때 성능을 잠재적으로 향상하기 위해 셔플 힌트를 적용할 `join` 수도 [](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery) `summarize` 있습니다.
 
     아래 쿼리는 대규모 조직에서 수십만 개에서 실행할 수 있는 고유한 받는 사람 전자 메일 주소를 `summarize` 세는 데 사용합니다. 성능을 향상하기 위해 다음을 `hint.shufflekey` 통합합니다.
 
@@ -213,9 +213,9 @@ InitiatingProcessCreationTime, InitiatingProcessFileName
 - parse_command_line 함수를 사용하여 [명령줄 섹션 구문 분석](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) 
 - 명령줄 인수에 대해 쿼리할 때 관련이 없는 여러 인수에서 특정 순서로 정확하게 일치하는 항목을 찾지 마세요. 대신 정규 표현식을 사용하거나 별도의 여러 포함 연산자를 사용합니다.
 - 대/소문자를 구분하지 않는 일치 항목을 사용합니다. 예를 들어 `=~` , 및 를 대신 `in~` `contains` `==` `in` `contains_cs` 사용합니다.
-- 명령줄 난동 기술을 완화하기 위해 따옴표를 제거하고, 콤보를 공백으로 바꾸고, 여러 개의 연속된 공백을 단일 공백으로 바꾸는 것이 고려됩니다. 다른 접근 방식이 필요한 더 복잡한 난 난소화 기술이 있지만 이러한 조정은 일반적인 문제를 해결할 수 있습니다.
+- 명령줄 난동 기술을 완화하기 위해 따옴표를 제거하고, 콤보를 공백으로 바꾸고, 여러 개의 연속된 공백을 단일 공백으로 바꾸는 것이 고려됩니다. 다른 접근 방식이 필요한 더 복잡한 난 난소화 기술이 있지만 이러한 조정을 통해 일반적인 문제를 해결할 수 있습니다.
 
-다음 예에서는 방화벽 서비스 "MpsSvc"를net.exe파일을 *검색하는* 쿼리를 생성하는 다양한 방법을 보여 주며,
+다음 예에서는 방화벽 서비스 "MpsSvc"net.exe파일을 검색하는 쿼리를 생성하는 다양한 방법을 보여 주며, 
 
 ```kusto
 // Non-durable query - do not use

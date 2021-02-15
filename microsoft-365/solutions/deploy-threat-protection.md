@@ -57,14 +57,14 @@ Office 365용 Defender 기능을 배포하는 즉시 Microsoft 365 Defender를 �
 |ID용 Microsoft Defender     |  조직에 지시된 고급 위협, 손상된 ID 및 악의적인 내부자 작업을 식별, 감지 및 조사하기 위해 사용자의 Active Directory 신호를 활용하는 클라우드 기반 보안 솔루션입니다. 다음으로 Microsoft Defender for Identity에 중점을 두는 이유는 프레미스 및 클라우드 인프라를 보호하고, 종속성이나 선행 구성을 가지지 못하며, 즉각적인 혜택을 제공할 수 있기 때문에입니다.       | 
 |Office 365용 Microsoft Defender     | 전자 메일 메시지, 링크(URL) 및 공동 작업 도구로 위협되는 악의적인 위협에 대해 조직을 보호합니다. 맬웨어, 피싱, 스푸핑 및 기타 공격 유형에 대한 보호입니다. 변경 제어, 현재 시스템에서 설정을 마이그레이션하는 등 배포하는 데 시간이 오래 걸릴 수 있기 때문에 다음에 Office 365용 Microsoft Defender를 구성하는 것이 좋습니다. <br><br>참고: 모든 Office 365 구독(Exchange Online Protection)에 포함된 위협 방지 기능을 구성해야 합니다.       |
 |엔드포인트용 Microsoft Defender    | 고급 위협을 방지, 감지, 조사 및 대응하는 데 도움이 되는 끝점 보호 플랫폼입니다.  끝점용 Defender를 배포하는 데 시간이 걸릴 수 있지만 구성은 다른 기능과 동시에 수행될 수 있습니다.   |
-|Microsoft Cloud App Security     |   검색, 조사 및 거버넌스를 위한 클라우드 액세스 보안 브로커 Microsoft Cloud App Security를 초기에 사용하도록 설정하여 데이터 및 인사이트 수집을 시작할 수 있습니다. SaaS 앱에서 정보 및 기타 대상 지정 보호를 구현하는 데는 계획이 수반될 수 있으며 시간이 더 걸릴 수 있습니다.       | 
+|Microsoft Cloud App Security     |   검색, 조사 및 거버넌스를 위한 클라우드 액세스 보안 브로커. Microsoft Cloud App Security를 초기에 사용하도록 설정하여 데이터 및 인사이트 수집을 시작할 수 있습니다. SaaS 앱에서 정보 및 기타 대상 지정 보호를 구현하는 데는 계획이 수반될 수 있으며 시간이 더 걸릴 수 있습니다.       | 
 
 > [!TIP]
 > 보안 팀이 여러 개 있는 조직은 이러한 기능을 병렬로 구현할 수 있습니다.
 
 ## <a name="deploy-your-threat-protection-solution"></a>위협 방지 솔루션 배포
 
-조직에서 최상의 보호를 사용할 수 있도록 다음 단계를 포함하기 위해 보안 솔루션을 설정하고 배포합니다.
+조직에서 최상의 보호를 제공해야 하는 경우 다음 단계를 포함하기 위해 보안 솔루션을 설정하고 배포합니다.
 
 1. [다단계 인증 및 조건부 액세스 정책 설정](deploy-threat-protection-configure.md#step-1-set-up-multi-factor-authentication-and-conditional-access-policies)
 2. [Id에 맞게 Microsoft Defender 구성](deploy-threat-protection-configure.md#step-2-configure-microsoft-defender-for-identity)
@@ -75,6 +75,6 @@ Office 365용 Defender 기능을 배포하는 즉시 Microsoft 365 Defender를 �
 7. [상태 모니터링 및 작업 수행](deploy-threat-protection-configure.md#step-7-monitor-status-and-take-actions)
 8. [사용자 교육](deploy-threat-protection-configure.md#step-8-train-users)
 
-위협 방지 기능을 병렬로 구성할 수 있으므로 여러 네트워크 보안 팀이 서로 다른 서비스를 담당하는 경우 조직의 보호 기능을 동시에 구성할 수 있습니다. 다음 다이어그램에서는 위협 방지 기능을 배포하기 위한 높은 수준의 프로세스를 보여 주었다. 
+위협 방지 기능을 병렬로 구성할 수 있으므로 여러 네트워크 보안 팀이 서로 다른 서비스를 담당하는 경우 조직의 보호 기능을 동시에 구성할 수 있습니다. 다음 다이어그램은 위협 방지 기능을 배포하기 위한 높은 수준의 프로세스를 보여 주었다. 
 
 ![위협 방지 기능 배포 프로세스](../media/solutions-architecture-center/deploy-threat-protection-across-m365-grid.png) 

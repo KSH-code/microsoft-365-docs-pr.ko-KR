@@ -72,7 +72,7 @@ ms.locfileid: "49930981"
 
 6. 마지막으로 새 **규칙과** 연결된  모든 설정을 볼 수 있도록 검토 규칙으로 이동하려면 다음을 선택합니다. 받는 사람은 설정에 따라 전자 메일을 통해 문제 알림 수신을 시작하게 됩니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 - [Microsoft 365 Defender의 인시던트 개요](https://docs.microsoft.com/microsoft-365/security/mtp/incidents-overview)
 - [Microsoft 365 Defender에서 인시던트 우선 순위 지정](https://docs.microsoft.com/microsoft-365/security/mtp/incident-queue)
 - [Microsoft 365 Defender에서 인시던트 조사](https://docs.microsoft.com/microsoft-365/security/mtp/investigate-incidents)

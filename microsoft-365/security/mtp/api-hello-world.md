@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Defender REST API용 Hello World
-description: 앱을 만들고 토큰을 사용하여 Microsoft 365 Defender API에 액세스하는 방법을 학습
+description: 앱을 만들고 토큰을 사용하여 Microsoft 365 Defender API에 액세스하는 방법을 배우기
 keywords: 앱, 토큰, 액세스, aad, 앱, 응용 프로그램 등록, powershell, 스크립트, 전역 관리자, 권한, Microsoft 365 defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -58,7 +58,7 @@ ms.locfileid: "49928381"
    > *Microsoft Threat Protection은* Microsoft 365 Defender의 이전 이름으로, 원래 목록에는 나타나지 않습니다. 표시하려면 텍스트 상자에 해당 이름을 쓰기 시작해야 합니다.
    ![API 권한 선택 이미지](../../media/apis-in-my-org-tab.PNG)
 
-   - 응용 **프로그램 권한 인시던트**  >  **선택.Read.All** 및 사용 권한 **추가를 선택합니다.**
+   - 응용 **프로그램 권한 인시던트.Read.All을** 선택하고 사용 권한  >   **추가를 선택합니다.**
 
    ![API 액세스 및 API 선택 이미지](../../media/request-api-permissions.PNG)
 
@@ -66,7 +66,7 @@ ms.locfileid: "49928381"
 
     ![권한 부여 이미지](../../media/grant-consent.PNG)
 
-6. 응용 프로그램에 비밀을 추가합니다. 인증서를 **선택하고 &** 설명을 추가한 다음 추가를 **선택합니다.**
+6. 응용 프로그램에 비밀을 추가합니다. 인증서를 **선택하고**& 설명을 추가한 다음 추가를 **선택합니다.**
 
     > [!TIP]
     > 추가를 **선택한 후** 생성된 **비밀 값 복사를 선택합니다.** 나가면 비밀 값을 검색할 수 없습니다.

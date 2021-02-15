@@ -56,14 +56,14 @@ Core eDiscovery 사례와 연결된 eDiscovery 보류를 만들 수 있습니다
 
     ![보류 시킬 콘텐츠 위치 선택](../media/a59e4265-9151-4dbf-913f-6a4ab8db06b4.png)
   
-   1. **사서함 위치** - **사용자,** 그룹 또는 팀 선택을 클릭한 다음 **사용자,** 그룹 또는 팀 선택을 다시 클릭하여 보류할 사서함을 지정합니다. 검색 상자를 사용하여 보류할 사용자 사서함 및 메일 그룹을 찾을 수 있습니다(그룹 구성원의 사서함에 보류 설정). Microsoft 팀, Office 365 그룹 또는 그룹 그룹에 대한 연결된 사서함을 보류할 Yammer 있습니다. 사용자, 그룹, 팀 확인란을 선택하고 **선택을** 클릭한 다음 완료를 **클릭합니다.**
+   1. **사서함 위치** - **사용자,** 그룹 또는 팀 선택을 클릭한 다음 **사용자,** 그룹 또는 팀 선택을 다시 클릭하여 보류할 사서함을 지정합니다. 검색 상자를 사용하여 보류할 사용자 사서함 및 메일 그룹을 찾을 수 있습니다(그룹 구성원의 사서함을 보류하기 위해). Microsoft 팀, Office 365 그룹 또는 그룹 그룹에 대한 연결된 사서함을 보류할 Yammer 있습니다. 사용자, 그룹, 팀 확인란을 선택하고 **선택을** 클릭한 다음 완료를 **클릭합니다.**
 
    1. **사이트 위치** - 사이트 **선택을** 클릭한 다음 사이트 선택을 다시 클릭하여 보류할 SharePoint 및 OneDrive 계정을 지정합니다.  보류할 각 사이트의 URL을 입력합니다. Microsoft 팀, Office 365 그룹 또는 그룹 그룹용 SharePoint 사이트의 URL을 추가할 Yammer 있습니다. **Choose(선택)를** 클릭한 다음 **완료를 클릭합니다.**
   
    1. **Exchange 공용 폴더.** 토글 스위치 토글 컨트롤을 모든 위치로 이동하여 Exchange Online 조직의 모든 공용 폴더를 ![ ](../media/scc-toggle-on.png) 보류합니다.  보류할 특정 공용 폴더를 선택할 수 없습니다. 공용 폴더를 보류하지 않는 경우 토글 스위치를 **None으로** 설정하십시오.
 
    > [!NOTE]
-   > 보류에 콘텐츠 위치를 하나 이상 추가해야 합니다. 그렇지 않으면 eDiscovery 보류 정적은 보류된 항목이 없음을 보여 주게 됩니다.
+   > 보류에 하나 이상의 콘텐츠 위치를 추가해야 합니다. 그렇지 않은 경우 eDiscovery 보류 정적은 보류된 항목이 없음을 보여 주게 됩니다.
 
 8. 보류에 콘텐츠 위치 추가가 완료되면 다음을 **클릭합니다.**
 
@@ -85,9 +85,9 @@ Core eDiscovery 사례와 연결된 eDiscovery 보류를 만들 수 있습니다
 
 SharePoint 사이트에 있는 문서에 쿼리 기반 eDiscovery 보류를 두는 경우 다음에 유의해야 합니다.
 
-- 쿼리 기반 보류는 처음에 삭제된 후 짧은 기간 동안 사이트의 모든 문서를 보존합니다. 즉, 문서가 삭제되면 쿼리 기반 보류의 조건과 일치하지 않는 경우에도 문서가 자료 보존 라이브러리로 이동됩니다. 그러나 쿼리 기반 보류와 일치하지 않는 삭제된 문서는 자료 보존 라이브러리를 처리하는 Timer 작업으로 제거됩니다. Timer job runs periodly and compares all documents in the Preservation Hold library and compares all documents in your query-based eDiscovery holds (and other types of holds and retention policies). Timer Job deletes the documents that don't match a query-based hold and preserves the documents that do.
+- 쿼리 기반 보류는 처음에 삭제된 후 짧은 기간 동안 사이트의 모든 문서를 보존합니다. 즉, 문서가 삭제되면 쿼리 기반 보류의 조건과 일치하지 않는 경우에도 문서가 자료 보존 라이브러리로 이동됩니다. 그러나 쿼리 기반 보류와 일치하지 않는 삭제된 문서는 자료 보존 라이브러리를 처리하는 Timer 작업으로 제거됩니다. Timer 작업은 주기적으로 실행되어 자료 보존 라이브러리의 모든 문서를 쿼리 기반 eDiscovery 보류(및 기타 유형의 보류 및 보존 정책)과 비교합니다. Timer Job deletes the documents that don't match a query-based hold and preserves the documents that do.
 
-- 특정 폴더나 사이트에 문서를 보존하거나 다른 위치 기반 보류 조건을 사용하는 등 대상이 지정한 보존을 수행하는 데는 쿼리 기반 보류를 사용하지 말아야 합니다. 이렇게 하면 의도하지 않은 결과가 있을 수 있습니다. 사이트 문서를 보존하기 위해 키워드, 날짜 범위 또는 기타 문서 속성과 같은 위치 기반이 아닌 보류 조건을 사용하는 것이 좋습니다.
+- 쿼리 기반 보류는 특정 폴더나 사이트에 문서를 보존하거나 다른 위치 기반 보존 조건을 사용하는 등 대상이 지정한 보존을 수행하는 데 사용되지 않습니다. 이렇게 하면 의도하지 않은 결과가 있을 수 있습니다. 사이트 문서를 보존하기 위해 키워드, 날짜 범위 또는 기타 문서 속성과 같은 위치 기반이 아닌 보류 조건을 사용하는 것이 좋습니다.
 
 ## <a name="ediscovery-hold-statistics"></a>eDiscovery 보류 통계
 
@@ -99,11 +99,11 @@ eDiscovery 보류 통계에 대해 다음에 유의하십시오.
   
 - 보류된 총 항목 수는 보류된 모든 콘텐츠 원본의 항목 수를 나타냅니다. 쿼리 기반 보류를 만든 경우 이 통계는 쿼리와 일치하는 항목 수를 나타냅니다.
 
-- 보류된 항목 수에는 콘텐츠 위치에 있는 인덱서되지 않은 항목도 포함됩니다. 쿼리 기반 보류를 만들면 콘텐츠 위치의 인덱서되지 않은 모든 항목이 보류됩니다. 여기에는 쿼리 기반 보류의 검색 조건과 일치하지 않는 인덱서되지 않은 항목과 날짜 범위 조건 외의 인덱서되지 않은 항목이 포함됩니다. 검색 쿼리와 일치하지되거나 날짜 범위 조건에 의해 제외되는 인덱서되지 않은 항목이 검색 결과에 포함되지 않는 검색을 실행할 때 발생하는 상황과는 다릅니다. 인덱싱되지 않은 항목에 대한 자세한 내용은 부분적으로 인덱싱된 항목을 [참조하십시오.](partially-indexed-items-in-content-search.md)
+- 보류된 항목 수에는 콘텐츠 위치에 있는 인덱서되지 않은 항목도 포함됩니다. 쿼리 기반 보류를 만들면 콘텐츠 위치의 인덱서되지 않은 모든 항목이 보류됩니다. 여기에는 쿼리 기반 보류의 검색 조건과 일치하지 않는 인덱서되지 않은 항목과 날짜 범위 조건 외의 인덱서되지 않은 항목이 포함됩니다. 검색 쿼리와 일치하지되거나 날짜 범위 조건에 의해 제외되는 인덱서되지 않은 항목이 검색 결과에 포함되지 않는 검색을 실행할 때 수행되는 상황과는 다릅니다. 인덱싱되지 않은 항목에 대한 자세한 내용은 부분적으로 인덱싱된 항목을 [참조하십시오.](partially-indexed-items-in-content-search.md)
 
-- 업데이트 통계를 클릭하여 현재 보류  중인 항목 수를 계산하는 검색 예상 결과를 다시 시작하여 최신 보류 통계를 얻을 수 있습니다.
+- 업데이트 통계를 클릭하여 보류 중인  현재 항목 수를 계산하는 검색 예상 결과를 다시 시작하여 최신 보류 통계를 얻을 수 있습니다.
 
-- 사서함 또는 사이트가 보류된 사용자는 일반적으로 새 전자 메일 메시지를 보내거나 받고 SharePoint 및 OneDrive에서 새 문서를 만들기 때문에 시간이 지날 때 보류되는 항목 수가 늘어나는 것은 일반적입니다.
+- 사서함 또는 사이트가 보류된 사용자는 일반적으로 새 전자 메일 메시지를 보내거나 받고 SharePoint 및 OneDrive에서 새 문서를 만들기 때문에 시간이 지날 때 보류된 항목 수가 늘어나는 것은 일반적입니다.
 
 - Exchange 사서함, SharePoint 사이트 또는 OneDrive 계정이 다중 위치 환경의 다른 지역으로 이동된 경우 해당 사이트의 통계가 보류 통계에 포함되지 않습니다. 그러나 이러한 위치의 콘텐츠는 계속 보존됩니다. 또한 사서함 또는 사이트가 다른 지역으로 이동된 경우 보류에 표시되는 SMTP 주소 또는 URL이 자동으로 업데이트되지 않습니다. 콘텐츠 위치가 보류 통계에 다시 포함될 수 있도록 보류를 편집하고 URL 또는 SMTP 주소를 업데이트해야 합니다.
 
@@ -129,16 +129,16 @@ Core [](search-for-content-in-core-ediscovery.md) eDiscovery 사례에서 콘텐
 
 Microsoft Teams 채널의 일부인 대화는 Microsoft 팀과 연결된 사서함에 저장됩니다. 마찬가지로 팀 구성원이 채널에서 공유하는 파일은 팀의 SharePoint 사이트에 저장됩니다. 따라서 채널의 대화 및 파일을 보존하려면 팀 사서함 및 SharePoint 사이트를 eDiscovery 보류로 설정해야 합니다.
 
-또는 Teams의 채팅 *목록(1:1* 채팅 또는 *1:N* 그룹 채팅)의 일부인 대화는 채팅에 참여하는 사용자의 사서함에 저장됩니다. 또한 사용자가 채팅 대화에서 공유하는 파일은 파일을 공유하는 사용자의 OneDrive 계정에 저장됩니다. 따라서 채팅 목록의 대화 및 파일을 보존하려면 eDiscovery 보류에 개별 사용자 사서함 및 OneDrive 계정을 추가해야 합니다. 팀 사서함과 사이트를 보류하는 것 외에도 Microsoft 팀 구성원의 사서함을 보류하는 것이 좋습니다.
+또는 Teams의 채팅 *목록(1:1* 채팅 또는 *1:N* 그룹 채팅)의 일부인 대화는 채팅에 참여하는 사용자의 사서함에 저장됩니다. 또한 사용자가 채팅 대화에서 공유하는 파일은 파일을 공유하는 사용자의 OneDrive 계정에 저장됩니다. 따라서 채팅 목록의 대화 및 파일을 보존하려면 개별 사용자 사서함 및 OneDrive 계정을 eDiscovery 보류에 추가해야 합니다. 팀 사서함과 사이트를 보류하는 것 외에도 Microsoft 팀 구성원의 사서함을 보류하는 것이 좋습니다.
 
 > [!IMPORTANT]
-> 클라우드 기반 조직에서는 사서함이 eDiscovery 보류 중일 때 채팅 대화를 유지하려면 Teams에서 채팅 목록에 참여하는 사용자에게 Exchange Online 사서함이 있어야 합니다. 채팅 목록의 일부인 대화는 채팅 참가자의 클라우드 기반 사서함에 저장됩니다. 채팅 참가자에 Exchange Online 사서함이 없는 경우 해당 채팅 대화를 보존할 수 없습니다. 예를 들어 Exchange 하이브리드 배포에서, Exchange 사서함이 있는 사용자는 Teams의 채팅 목록에 있는 대화에 참가할 수 있습니다. 그러나 이 경우 이러한 사용자에게 보류할 수 있는 클라우드 기반 사서함이 있기 때문에 이러한 대화의 콘텐츠를 보존할 수 없습니다.
+> 클라우드 기반 조직에서는 사서함이 eDiscovery 보류 중일 때 채팅 대화를 유지하려면 Teams에서 채팅 목록에 참여하는 사용자에게 Exchange Online 사서함이 있어야 합니다. 채팅 목록의 일부인 대화는 채팅 참가자의 클라우드 기반 사서함에 저장됩니다. 채팅 참가자에 Exchange Online 사서함이 없는 경우 해당 채팅 대화를 보존할 수 없습니다. 예를 들어 Exchange 하이브리드 배포에서는 Exchange 사서함이 있는 사용자가 Teams의 채팅 목록에 있는 대화에 참가할 수 있습니다. 그러나 이 경우 이러한 사용자에게 보류할 수 있는 클라우드 기반 사서함이 있기 때문에 이러한 대화의 콘텐츠를 보존할 수 없습니다.
 
 Teams 콘텐츠를 보존하는 데 대한 자세한 내용은 법적 보유를 위해 Microsoft Teams 사용자 또는 팀을 [참조하세요.](https://docs.microsoft.com/MicrosoftTeams/legal-hold)
 
 ### <a name="preserve-card-content"></a>카드 콘텐츠 보존
 
-마찬가지로 Teams 채널, 1:1 채팅 및 1:N 그룹 채팅에서 앱에서 생성된 카드 콘텐츠는 사서함에 저장되고 사서함이 eDiscovery 보류에 배치될 때 보존됩니다. *카드는* 짧은 콘텐츠에 대한 UI 컨테이너입니다. 카드에는 여러 속성과 첨부 파일이 있을 수 있으며 카드 작업을 트리거하는 단추를 포함할 수 있습니다. 자세한 내용은 [카드를 참조하세요.](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards) 다른 Teams 콘텐츠와 마찬가지로 카드 콘텐츠가 저장되는 위치는 카드가 사용된 위치를 기반으로 합니다. Teams 채널에 사용되는 카드의 콘텐츠는 Teams 그룹 사서함에 저장됩니다. 1:1 및 1xN 채팅의 카드 콘텐츠는 채팅 참가자의 사서함에 저장됩니다.
+마찬가지로 Teams 채널, 1:1 채팅 및 1:N 그룹 채팅에서 앱에서 생성된 카드 콘텐츠는 사서함에 저장되고 사서함이 eDiscovery 보류에 배치될 때 보존됩니다. *카드* 는 짧은 내용의 UI 컨테이너입니다. 카드에는 여러 속성과 첨부 파일이 있을 수 있으며 카드 작업을 트리거하는 단추를 포함할 수 있습니다. 자세한 내용은 [카드를 참조하세요.](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards) 다른 Teams 콘텐츠와 마찬가지로 카드 콘텐츠가 저장되는 위치는 카드가 사용된 위치를 기준으로 합니다. Teams 채널에 사용되는 카드의 내용은 Teams 그룹 사서함에 저장됩니다. 1:1 및 1xN 채팅의 카드 콘텐츠는 채팅 참가자의 우편함에 저장됩니다.
 
 ### <a name="preserve-meeting-and-call-information"></a>모임 및 통화 정보 보존
 
@@ -157,7 +157,7 @@ Teams 채널의 모임 및 통화에 대한 요약 정보는 모임 또는 통�
 
 ### <a name="office-365-groups"></a>Office 365 그룹
 
-Teams는 Office 365 그룹을 통해 구축됩니다. 따라서 Office 365 그룹을 eDiscovery 보류로 배치하는 것은 Teams 콘텐츠를 보류하는 것과 비슷합니다.
+Teams는 Office 365 그룹을 통해 구축됩니다. 따라서 Office 365 그룹을 eDiscovery 보류로 배치하는 것은 Teams 콘텐츠를 보류하는 것이 비슷합니다.
 
 Teams와 Office 365 그룹을 eDiscovery 보류로 둘 다 배치할 때 다음에 유의합니다.
 
@@ -190,7 +190,7 @@ Teams와 Office 365 그룹을 eDiscovery 보류로 둘 다 배치할 때 다음�
 
 ## <a name="preserve-content-in-onedrive-accounts"></a>OneDrive 계정의 콘텐츠 보존
 
-eDiscovery 사례와 연결된 보류 또는 검색에 추가할 수 있도록 조직의 비즈니스용 OneDrive 사이트에 대한 URL 목록을 수집하는 경우 조직의 모든 [OneDrive](https://docs.microsoft.com/onedrive/list-onedrive-urls)위치 목록 만들기를 참조하세요. 이 문서의 스크립트는 조직의 모든 OneDrive 사이트 목록이 포함된 텍스트 파일을 만듭니다. 이 스크립트를 실행하려면 SharePoint Online 관리 셸을 설치하고 사용해야 합니다. 조직의 MySite 도메인에 대한 URL을 검색하려는 각 OneDrive 사이트 앞에 붙입니다. 이것은 모든 OneDrive 도메인을 포함하는 도메인입니다(예: `https://contoso-my.sharepoint.com`). 사용자의 OneDrive 사이트에 대한 URL의 예는 다음과 같습니다.  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
+eDiscovery 사례와 연결된 보류 또는 검색에 추가할 수 있도록 조직의 비즈니스용 OneDrive 사이트의 URL 목록을 수집하는 경우 조직의 모든 [OneDrive](https://docs.microsoft.com/onedrive/list-onedrive-urls)위치 목록 만들기를 참조하세요. 이 문서의 스크립트는 조직의 모든 OneDrive 사이트 목록이 포함된 텍스트 파일을 만듭니다. 이 스크립트를 실행하려면 SharePoint Online 관리 셸을 설치하고 사용해야 합니다. 조직의 MySite 도메인에 대한 URL을 검색하려는 각 OneDrive 사이트 앞에 붙입니다. 이것은 모든 OneDrive 도메인을 포함하는 도메인입니다(예: `https://contoso-my.sharepoint.com`). 사용자의 OneDrive 사이트에 대한 URL의 예는 다음과 같습니다.  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
 
 > [!IMPORTANT]
 > 사용자의 OneDrive 계정 URL에는 UPN(사용자 계정 이름)이 포함됩니다(예: `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). 드물지만, 사람의 UPN이 변경되는 경우 OneDrive URL도 새 UPN을 통합하기 위해 변경됩니다. 사용자의 OneDrive 계정이 eDiscovery 보류의 일부인 경우 이전 및 해당 UPN이 변경된 경우 보류를 업데이트해야 합니다. 보류를 업데이트하고 사용자의 새 OneDrive URL을 추가하고 이전 URL을 제거해야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조하세요.
@@ -209,11 +209,11 @@ eDiscovery 사례와 연결된 보류 또는 검색에 추가할 수 있도록 �
 
    자세한 내용은 [지연되는 사서함 관리](identify-a-hold-on-an-exchange-online-mailbox.md#managing-mailboxes-on-delay-hold)를 참조하세요.
 
-- **SharePoint 및 OneDrive 사이트:** 자료 보존 라이브러리에 보존되는 모든 SharePoint 또는 OneDrive 콘텐츠는 eDiscovery 보류에서 사이트가 제거된 후 30일 지연 보존 기간 동안 삭제되지 않습니다. 이는 사이트가 보존 정책에서 릴리스될 때 발생하는 일과 유사합니다. 또한 30일 지연 보존 기간 동안 자료 보존 라이브러리에서 이 콘텐츠를 수동으로 삭제할 수 없습니다. 
+- **SharePoint 및 OneDrive 사이트:** 자료 보존 라이브러리에 보존되는 SharePoint 또는 OneDrive 콘텐츠는 eDiscovery 보류에서 사이트가 제거된 후 30일 지연 보존 기간 동안 삭제되지 않습니다. 이는 사이트가 보존 정책에서 릴리스될 때 발생하는 일과 유사합니다. 또한 30일 지연 보존 기간 동안 자료 보존 라이브러리에서 이 콘텐츠를 수동으로 삭제할 수 없습니다. 
 
    자세한 내용은 보존 [정책 공개를 참조하세요.](retention.md#releasing-a-policy-for-retention)
 
-또한 케이스가 닫히면 보류가 해제되어 Core eDiscovery 사례를 닫을 때 보류 상태의 콘텐츠 위치에도 지연 보류가 적용됩니다. 사례를 닫는에 대한 자세한 내용은 [Core eDiscovery](close-reopen-delete-core-ediscovery-cases.md)사례 닫기, 다시 열기 및 삭제를 참조하세요.
+케이스가 닫히면 보류가 해제되어 Core eDiscovery 사례를 닫을 때 보류가 보류된 콘텐츠 위치에도 적용됩니다. 사례를 닫는에 대한 자세한 내용은 [Core eDiscovery](close-reopen-delete-core-ediscovery-cases.md)사례 닫기, 다시 열기 및 삭제를 참조하세요.
 
 ## <a name="ediscovery-hold-limits"></a>eDiscovery 보류 제한
 

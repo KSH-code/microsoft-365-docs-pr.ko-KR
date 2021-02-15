@@ -47,7 +47,7 @@ ms.locfileid: "49929553"
 | GlobalFirstSeen | datetime | Microsoft에서 엔터티를 전역적으로 처음 관찰한 날짜 및 시간 |
 | GlobalLastSeen | datetime | Microsoft에서 엔터티가 마지막으로 관찰된 날짜 및 시간 |
 | 서명자 | 문자열 | 파일의 서명자에 대한 정보 |
-| 발급자 | 문자열 | CA(인증 기관) 발급에 대한 정보 |
+| 발급자 | 문자열 | 발급 CA(인증 기관)에 대한 정보 |
 | SignerHash | 문자열 | 서명자를 식별하는 고유 해시 값 |
 | IsCertificateValid | 부울 | 파일에 서명하는 데 사용된 인증서가 유효한지 여부 |
 | IsRootSignerMicrosoft | 부울 | 루트 인증서의 서명자인지 여부를 나타냅니다. |

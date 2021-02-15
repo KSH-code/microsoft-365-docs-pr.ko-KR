@@ -18,7 +18,7 @@ ms.custom:
 - commerce
 search.appverid:
 - MET150
-description: 비즈니스용 Microsoft 365 구독에 대한 라이선스 수를 줄이거나 추가 라이선스를 구입하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+description: 비즈니스용 Microsoft 365 구독에 대한 라이선스 수를 줄이거나 추가 라이선스를 구입하는 방법에 대해 자세히 알아보습니다.
 ms.date: ''
 ms.openlocfilehash: 385d5b2bb4bb224c9e3f0944ac4cb024beb9831b
 ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1

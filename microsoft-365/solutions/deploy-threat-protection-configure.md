@@ -144,7 +144,7 @@ Office 365용 Microsoft Defender를 사용하여 조직의 사용자들은 전�
 
 ![Microsoft Cloud App Security 배포 프로세스](../media/solutions-architecture-center/deploy-mcas-steps.png) 
 
-1. [포털 및 기타 기본 요구 사항을 설정합니다.](https://docs.microsoft.com/cloud-app-security/general-setup)
+1. [포털 및 기타 기본 요구 사항을 설치합니다.](https://docs.microsoft.com/cloud-app-security/general-setup)
 2. [클라우드 검색을 설정하고](https://docs.microsoft.com/cloud-app-security/set-up-cloud-discovery) [앱을 연결합니다.](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)
 3. 추천 앱에 대한 조건부 액세스 [앱 컨트롤을 배포합니다.](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)
 4. [조사 도구 및 대시보드를 사용합니다.](https://docs.microsoft.com/cloud-app-security/investigate)

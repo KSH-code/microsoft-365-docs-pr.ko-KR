@@ -21,7 +21,7 @@ search.appverid:
 - MOE150
 - BEA160
 ROBOTS: NOINDEX
-description: 새 구독을 구입하고 두 구독이 모두 나열되어 활성화되어 있도록 하여 구독을 수동으로 변경합니다.
+description: 새 구독을 구입하고 두 구독이 모두 나열 및 활성화되어 있도록 하여 구독을 수동으로 변경합니다.
 ms.openlocfilehash: 1127a48ff23c528e3218bae4ccfd063df5e3c26d
 ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
@@ -39,7 +39,7 @@ ms.locfileid: "50029389"
 
 - 업그레이드 탭을 선택하면  원하는 계획이 나열되지 않습니다.
 
-- 모든 사용자를 동일한 방식으로 업그레이드하지 않는 경우 일부 기업에서는 다른 요금제에 가입한 다른 사용자가 필요합니다. 이를 위해 수동 변경을 사용 합니다.
+- 모든 사용자를 동일한 방식으로 업그레이드하지 않는 경우 일부 기업에서는 다른 요금제에 가입한 다른 사용자가 필요합니다. 이에 대한 수동 변경을 사용 합니다.
 
 수동 변경을 계속하려면 이 항목의 [2단계: 새](#step-2-buy-a-new-subscription) 구독 구입을 읽어 읽습니다.
 
@@ -61,11 +61,11 @@ ms.locfileid: "50029389"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 
-2. **두 구독이 모두 나열 및 활성화되어 있는지 확인** 사용자를 이동하는 구독과 사용자를 이동하는 구독이 함께 나열되어야 합니다. 새 구독을 처음 확인할 때 해당 구독이 없는 경우 나중에 다시 시도하십시오. 두 구독이 모두 활성 상태인지 검사합니다. 새 구독이 목록에 없는 경우 [또는 활성화되어 있지 않습니다.](#the-new-subscription-isnt-listed-or-isnt-active)
+2. **두 구독이 모두 나열 및 활성화되어 있는지 확인** 사용자를 이동하는 구독과 사용자를 이동하는 구독이 함께 나열되어야 합니다. 새 구독을 처음 확인할 때 해당 구독이 없는 경우 나중에 다시 시도하십시오. 두 구독이 모두 활성 상태인지 검사합니다. [새 구독이 나열되지 않은 경우 또는 활성 상태입니다.](#the-new-subscription-isnt-listed-or-isnt-active)
 
 3. **각 사용자에 대한 라이선스가 충분한지 확인** 각 사용자에게는 해당 구독과 일치하는 라이선스가 필요합니다. 따라서 10명 사용자를 Microsoft 365 Business Premium으로 이동하려는 경우 10개 라이선스를 사용할 수 있는지 확인해야 합니다.
 
-4. **새 구독에 라이선스가 더 필요하세요?**
+4. **새 구독에 대한 라이선스가 더 필요하세요?**
    Go to the **Your products** page and buy [more licenses.](../licenses/buy-licenses.md)
 
 > [이전 라이선스는 어떻게 하나요?](#what-about-the-old-licenses)
@@ -74,11 +74,11 @@ ms.locfileid: "50029389"
 
 - **두 구독을** 구입한 경우 두 구독이 모두 여기에 나열되지 않은 경우 다른 조직(도메인마다)에 대해 구입한 것일 수 있습니다. 구독은 조직 경계를 넘을 수 없습니다.
 
-- **추가 구독이** 있는 경우 여기에 나열되지 않은 경우 또는 활성화되어 있지 않은 경우 [Microsoft 지원에 문의하세요.](../../admin/contact-support-for-business-products.md)
+- **추가 구독이** 있으며 여기에 나열되지 않은 경우 또는 활성화되어 있지 않은 경우 [Microsoft 지원에 문의하세요.](../../admin/contact-support-for-business-products.md)
 
 ### <a name="what-about-the-old-licenses"></a>이전 라이선스는 어떻게 하나요?
 
-현재 구독에 대한 라이선스는 나중에 제거됩니다. 그 이후부터는 새 사용자 라이선스에 대한 비용만 지불하게 됩니다.
+현재 구독에 대한 라이선스는 나중에 제거됩니다. 이때부터는 새 사용자 라이선스에 대한 비용만 지불하게 됩니다.
 
 ## <a name="step-4-reassign-licenses"></a>4단계: 라이선스 재할당
 

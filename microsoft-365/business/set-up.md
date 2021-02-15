@@ -39,7 +39,7 @@ ms.locfileid: "50044733"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>설치 마법사에서 Microsoft 365 Business Premium 설정
 
-Microsoft 365 Business Premium 설정 개요를 확인하려면 이 비디오를 시청하세요.<br><br>
+Microsoft 365 Business Premium 설정에 대한 개요는 이 비디오를 시청하세요.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
@@ -79,7 +79,7 @@ Microsoft 365 Business Premium을 구매할 때 소유한 도메인을 사용하
 
 #### <a name="add-users-in-the-wizard"></a>마법사에서 사용자 추가
 
-마법사에서 추가하는 모든 사용자에게 Microsoft 365 Business Premium 라이선스가 자동으로 할당됩니다.
+마법사에서 추가하는 모든 사용자에게 자동으로 Microsoft 365 Business Premium 라이선스가 할당됩니다.
 
 ![마법사에서 새 사용자 추가 페이지의 스크린샷](../media/addnewuserspage.png)
 
@@ -107,12 +107,12 @@ Microsoft 365 Business Premium을 구매할 때 소유한 도메인을 사용하
 
 마법사에서 설정한 정책은 모든 사용자라는 [보안](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) 그룹에 *자동으로 적용됩니다.* 추가 그룹을 만들어 관리 센터에서 정책을 할당할 수도 있습니다.
 
-1. 고급 **사이버** 위협으로부터 보호 강화에서 [Office 365 Advanced Threat Protection이 Office](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) 앱의 파일 및 링크를 검사할 수 있는 기본값을 수락하는 것이 좋습니다.
+1. 고급 **사이버** 위협으로부터 보호 강화에서 [Office 365 Advanced Threat Protection이 Office](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) 앱에서 파일 및 링크를 검색할 수 있는 기본값을 수락하는 것이 좋습니다.
 
     ![보호 강화 페이지의 스크린샷.](../media/increasetreatprotection.png)
 
 
-2. 중요한  데이터 누출 방지 페이지에서 Office 365 DLP(데이터 손실 방지)를 켜는 기본값을 수락하여 Office 앱에서 중요한 데이터를 추적하고 조직 외부에서 실수로 이러한 데이터를 공유하지 못하게 합니다.
+2. 중요한  데이터 누출 방지 페이지에서 Office 365 DLP(데이터 손실 방지)를 켜는 기본값을 수락하여 Office 앱에서 중요한 데이터를 추적하고 조직 외부의 이러한 데이터를 실수로 공유하지 못하게 합니다.
 
 3. 모바일용 **Office의** 데이터 보호 페이지에서 모바일 앱 관리를 그대로 두고 설정을 확장하고 검토한 다음 모바일 앱 관리 정책 **만들기를 선택합니다.**
 

@@ -36,7 +36,7 @@ ms.locfileid: "50080704"
 
 [Office 365용 Microsoft Defender](office-365-atp.md) 평가 환경은 보안 솔루션의 기능을 평가하는 데 집중할 수 있도록 장치 및 환경 구성의 복잡한 문제를 제거하도록 설계되었습니다. SharePoint, Office 클라이언트 또는 Teams가 아닌 전자 메일 보호에만 적용됩니다.
 
-Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 경우 [무료 30일](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) 평가를 시작하고 Office 365 보안 및 준수 센터에서 기능을 & 수 https://protection.office.com/homepage) 있습니다. 빠른 설정이 즐기며 필요한 경우 쉽게 해제할 수 있습니다.
+Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 경우 [무료 30일](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) 평가를 시작하고 Office 365 보안 및 준수 센터에서 기능을 & 수 https://protection.office.com/homepage) 있습니다. 빠른 설치를 즐길 수 있으며 필요한 경우 쉽게 해제할 수 있습니다.
 
 ## <a name="how-the-evaluation-works"></a>평가 작동 방식
 
@@ -48,7 +48,7 @@ Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 �
 
 일부 미지원 시나리오에 대한 잠재적인 프로덕션 영향을 최소화하기 위해 SCL(스팸 지수)을 -1로 설정하는 전송 규칙을 만들어 모든 EOP 필터링을 무시할 수 있습니다. 자세한 [내용은 EAC를 사용하여 메시지의 SCL을](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message)설정하는 메일 흐름   규칙을 만들 수 있습니다.
 
-평가 모드가 설정되면 정책이 구현된 경우 차단될 메시지를 수량화하는 최대 90일의 데이터로 매일 보고서가 업데이트됩니다(예: 삭제, 정크 메일로 보내기, 정크 메일로 보내기, 정크 메일 보내기). Office 365 및 EOP 검색에 대한 모든 Defender에 대한 보고서가 생성됩니다. 검색 기술(예: 가장)별로 집계되어 시간 범위별로 필터링할 수 있습니다. 또한 주문형 메시지 보고서를 만들어 사용자 지정 피벗을 만들거나 위협 탐색기를 사용하여 심층 분석 메시지를 만들 수 있습니다.
+평가 모드가 설정되면 정책이 구현된 경우 차단될 메시지를 수량화하는 최대 90일의 데이터로 매일 보고서가 업데이트됩니다(예: 삭제, 정크 메일로 보내기, 정크 메일로 보내기, 정크 메일 보내기). Office 365 및 EOP 검색에 대한 모든 Defender에 대한 보고서가 생성됩니다. 검색 기술(예: 가장)별로 집계되어 시간 범위별로 필터링할 수 있습니다. 또한 요구 시 메시지 보고서를 만들어 사용자 지정 피벗을 만들거나 위협 탐색기를 사용하여 심층 분석 메시지를 만들 수 있습니다.
 
 간소화된 설정 환경을 통해 다음에 집중할 수 있습니다.
 
@@ -138,7 +138,7 @@ Office 365용 Microsoft Defender에 대한 평가판 라이선스를  얻습니�
 
 ## <a name="get-started-with-the-evaluation"></a>평가 시작
 
-Office 365 보안 및 준수 센터에서 Microsoft Defender for Office 365 평가판 &(다음 세 가지 액세스 https://protection.office.com/homepage) 지점에서)를 찾을 수 있습니다.
+Office 365 보안 및 준수 센터에서 Office 365용 Microsoft Defender 평가판 & 카드(다음 세 가지 액세스 https://protection.office.com/homepage) 지점에서)를 찾을 수 있습니다.
 
 - 위협 관리 > 대시보드
 - 위협 관리 > 정책

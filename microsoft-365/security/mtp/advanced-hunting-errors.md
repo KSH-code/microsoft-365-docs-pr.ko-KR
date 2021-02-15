@@ -32,7 +32,7 @@ ms.locfileid: "49929649"
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-고급 헌팅은 구문 실수를 알리는 오류를 표시하고 쿼리가 미리 정의한 할당량 및 사용 매개 변수에 부과될 때마다 [표시됩니다.](advanced-hunting-limits.md) 오류를 해결하거나 방지하는 방법에 대한 팁은 아래 표를 참조하세요.
+고급 헌팅은 구문 실수를 알리는 오류를 표시하고 쿼리가 미리 정의한 할당량 및 사용 매개 변수에 적중될 때마다 [표시됩니다.](advanced-hunting-limits.md) 오류를 해결하거나 방지하는 방법에 대한 팁은 아래 표를 참조하세요.
 
 | 오류 유형 | 원인 | 해결 방법 | 오류 메시지 예제 |
 |--|--|--|--|

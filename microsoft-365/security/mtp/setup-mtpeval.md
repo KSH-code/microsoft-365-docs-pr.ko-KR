@@ -42,9 +42,9 @@ Microsoft 365 Defender 평가판 랩 또는 파일럿 환경을 만들고 배포
 ||*You are here!*  | | |
 
 
-현재 설정 단계에 있습니다. 초기 단계를 수행하여 Microsoft 365 보안 센터에 액세스한 다음 시험 랩 또는 파일럿 환경을 설정하세요.
+현재 설정 단계에 있습니다. 초기 단계를 수행하여 Microsoft 365 보안 센터에 액세스한 다음 평가판 또는 파일럿 환경을 설정하세요.
 
-Office 365 또는 Azure Active Directory 구독에 등록하여 Microsoft 365 E5 *라이선스에 등록하는 데 사용할 수 있는 .onmicrosoft.com* 테넌트 생성 
+Office 365 또는 Azure Active Directory 구독에 등록하여 Microsoft 365 E5 onmicrosoft.com 등록하는 데 사용할 수 있는 *.onmicrosoft.com* 테넌트 생성 
 
 >[!NOTE]
 >기존 Office 365 또는 Azure Active Directory 구독이 이미 있는 경우 Office 365 E5 평가판 또는 파일럿 테넌트 만들기 단계를 건너뛸 수 있습니다.
@@ -79,11 +79,11 @@ Office 365 또는 Azure Active Directory 구독에 등록하여 Microsoft 365 E5
 
 5. 테넌트의 사용자 지정 도메인 이름을 설정하고 다음을 **클릭합니다.**
 
-   ![사용자 지정 of_Office 설정할 수 있는 이미지 365 E5 평가판 등록 설정 페이지](../../media/mtp-eval-13.png)
+   ![사용자 of_Office 설정할 수 있는 365 E5 평가판 등록 설정 페이지 이미지](../../media/mtp-eval-13.png)
  
-6. 테넌트에 대한 전역 관리자가 될 첫 번째 ID를 설정합니다. 이름과 **암호를** **입력합니다.** **로그인** 을 클릭합니다.
+6. 테넌트의 전역 관리자가 될 첫 번째 ID를 설정합니다. 이름 및 **암호를** **입력합니다.** **로그인** 을 클릭합니다.
 
-   ![비즈니스 of_Office 설정할 수 있는 이미지 365 E5 평가판 등록 설정 페이지](../../media/mtp-eval-14.png)
+   ![비즈니스 of_Office 설정할 수 있는 365 E5 평가판 등록 설정 페이지 이미지](../../media/mtp-eval-14.png)
 
 7. 설치로 **이동을 클릭하여** Office 365 E5 평가판 테넌트 프로비전을 완료합니다.
 

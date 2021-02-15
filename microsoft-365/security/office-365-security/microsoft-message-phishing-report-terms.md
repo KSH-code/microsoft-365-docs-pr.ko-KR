@@ -27,7 +27,7 @@ ms.locfileid: "50032713"
 ## <a name="microsoft-software-license-terms-microsoft-report-message-and-report-phishing-add-in"></a>Microsoft 소프트웨어 사용 조건: Microsoft 보고서 메시지 및 피싱 추가 기능 보고
 
 > [!IMPORTANT]
-> 미국에 거주하거나 사업체가 주체인 사업장인 경우 제7조, 구속력 있는 중재 및 클래스 소송 면제 조항을 *읽으십시오.* 분쟁 해결 방법에 대해 설명하고 있습니다.
+> 미국에 거주하거나 주요 업무 장소가 있는 사업장인 경우 제7조, 바인딩 중재 및 강의 소송 면제 조항을 *참조하세요.* 분쟁 해결 방법에 대해 설명하고 있습니다.
 
 > [!NOTE]
 > *영어:* 이 소프트웨어는 캐나다에 배포되어 있으며 본 계약(특히 제10조, 11조 및 12조)의 일부 조항은 프랑스어로 제공됩니다.
@@ -36,15 +36,15 @@ ms.locfileid: "50032713"
 
 These license terms are an agreement between you and Microsoft Corporation (or one of its affiliates). They apply to the software named above and any Microsoft services or software updates (except to the extent such services or updates are accompanied by new or additional terms, in which case those different terms apply prospectively and do not alter your or Microsoft’s rights relating to pre-updated software or services).
 
-이러한 사용 조건을 준수하는 경우 아래 권리가 있습니다. 소프트웨어를 사용하는 경우 귀하는 이러한 조건에 동의합니다.
+이러한 사용 조건을 준수하는 경우 아래 권리가 있습니다. 소프트웨어를 사용하여 귀하는 이러한 조건에 동의합니다.
 
 1. **설치 및 사용 권한**
 
     1. **General.** You may install and use any number of copies of the software.
-    1. **Third Party Software.** 이 소프트웨어에는 타사가 아닌 Microsoft가 본 계약에 따라 사용권이 있는 타사 응용 프로그램이 포함되어 있을 수 있습니다. 타사 응용 프로그램에 대한 모든 포함된 알림은 사용자 정보에만 해당합니다.
-    1. **Microsoft 서비스 계약** 소프트웨어의 일부 기능은 온라인 서비스에 대한 액세스 또는 사용 권한을 제공합니다. 해당 서비스(소프트웨어는 아미라)의 사용은 Microsoft 서비스 계약의 별도의 약관 및 개인 정보 취급 방침에 따라 [https://go.microsoft.com/fwlink/?linkid=398923](https://go.microsoft.com/fwlink/?linkid=398923) 적용됩니다. 내용을 읽으시겠어요. 일부 지역에서는 서비스를 사용할 수 없습니다.
+    1. **Third Party Software.** 이 소프트웨어에는 타사가 아닌 Microsoft가 본 계약에 따라 사용권이 있는 타사 응용 프로그램이 포함되어 있을 수 있습니다. 타사 응용 프로그램에 대한 모든 포함된 알림은 사용자 정보 전용입니다.
+    1. **Microsoft 서비스 계약.** 소프트웨어의 일부 기능은 온라인 서비스에 대한 액세스 또는 사용 권한을 제공합니다. 해당 서비스(소프트웨어는 아미라)의 사용은 Microsoft 서비스 계약의 개별 약관 및 개인 정보 취급 방침에 따라 [https://go.microsoft.com/fwlink/?linkid=398923](https://go.microsoft.com/fwlink/?linkid=398923) 적용됩니다. 내용을 읽으시겠어요. 일부 지역에서는 서비스를 사용할 수 없습니다.
 
-2. **DATA COLLECTION.** 소프트웨어는 사용자 및 소프트웨어 사용에 대한 정보를 수집하여 Microsoft로 보낼 수 있습니다. Microsoft는 이 정보를 사용하여 서비스를 제공하고 Microsoft의 제품 및 서비스를 개선할 수 있습니다. 옵트아웃 권한(있는 경우)은 제품 설명서에 설명되어 있습니다. 소프트웨어의 일부 기능을 사용하면 소프트웨어에 액세스하거나 사용하는 응용 프로그램의 사용자로부터 데이터를 수집할 수 있습니다. 
+2. **DATA COLLECTION.** 소프트웨어는 사용자 및 소프트웨어 사용에 대한 정보를 수집하여 Microsoft에 보낼 수 있습니다. Microsoft는 이 정보를 사용하여 서비스를 제공하고 Microsoft의 제품 및 서비스를 개선할 수 있습니다. 옵트아웃 권한(있는 경우)은 제품 설명서에 설명되어 있습니다. 소프트웨어의 일부 기능을 사용하면 소프트웨어에 액세스하거나 사용하는 응용 프로그램의 사용자로부터 데이터를 수집할 수 있습니다. 
 
     이러한 기능을 사용하여 응용 프로그램에서 데이터 수집을 사용하도록 설정하는 경우 필요한 사용자 동의를 얻어야 하는 등 관련 법률을 준수하고, 데이터를 사용, 수집 및 공유하는 방법을 사용자에게 정확하게 알리는 주요 개인 정보 취급 방침을 유지 관리해야 합니다. 제품 설명서 및 Microsoft 개인 정보 취급 방침에서 Microsoft의 데이터 수집 및 사용에 대해 자세히 알아보면 [https://go.microsoft.com/fwlink/?LinkId=512132](https://go.microsoft.com/fwlink/?LinkId=512132) 됩니다. 귀하는 Microsoft 개인 정보 취급 방침의 적용 가능한 모든 조항을 준수하는 데 동의합니다.
 
@@ -62,7 +62,7 @@ These license terms are an agreement between you and Microsoft Corporation (or o
 
 6. **UPDATES.** The software may periodically check for updates, and download and install them for you. You may obtain updates only from Microsoft or authorized sources. Microsoft may need to update your system to provide you with updates. You agree to receive these automatic updates without any additional notice. Updates may not include or support all existing software features, services, or peripheral devices.
 
-7. **바인딩 중재 및 클래스 작업 면제.** **이 섹션은 미국에 거주하거나 비즈니스의 주요 장소가 미국에 있는 경우 적용됩니다.** If you and Microsoft have a dispute, you and Microsoft agree to try for 60 days to resolve it informally. 사용자와 Microsoft가 할 수 없는 경우, 사용자와 Microsoft는 연방 중재법("FAA")에 따라 미국 중재 협회 전에 개별 중재를 구속하는 데 동의하고 판사 또는 배심 앞에 재판을 진행하지 **않습니다.**  Instead, a neutral arbitrator will decide. **수업 소송,** 수업 전체 중재, 사적 변호인 소송 및 누군가가 대표적인 능력으로 활동하는 다른 소송은 허용되지 **않습니다.** 모든 당사자의 동의 없이 개별 절차를 결합하지도 않습니다. 완전한 중재 계약은 더 많은 약관을 포함하며 다음에 [https://aka.ms/arb-agreement-1](https://aka.ms/arb-agreement-1) 있습니다. You and Microsoft agree to these terms.
+7. **바인딩 중재 및 클래스 작업 면제.** **이 섹션은 미국에 거주하거나 비즈니스의 주요 장소가 미국에 있는 경우 적용됩니다.** If you and Microsoft have a dispute, you and Microsoft agree to try for 60 days to resolve it informally. 사용자와 Microsoft가 할 수 없는 경우, 사용자와 Microsoft는 연방 중재법("FAA")에 따라 미국 중재 협회 전에 개별 중재를 구속하는 데 동의하고 판사 또는 배심 앞에 법정에서 소송을 하지 **않습니다.**  Instead, a neutral arbitrator will decide. **수업 소송,** 수업 전체 중재, 사적 변호인 및 대표적인 능력으로 행동하는 다른 소송 모든 당사자의 동의 없이 개별 절차를 결합하지도 않습니다. 완전한 중재 계약은 더 많은 약관을 포함하며 다음에 [https://aka.ms/arb-agreement-1](https://aka.ms/arb-agreement-1) 있습니다. You and Microsoft agree to these terms.
 
 8. **ENTIRE AGREEMENT.** This agreement, and any other terms Microsoft may provide for supplements, updates, or third-party applications, is the entire agreement for the software.
 
@@ -82,17 +82,17 @@ These license terms are an agreement between you and Microsoft Corporation (or o
 
             Subject to the foregoing clause ii., Microsoft will only be liable for slight negligence if Microsoft is in breach of such material contractual obligations, the fulfillment of which facilitate the due performance of this agreement, the breach of which would endanger the purpose of this agreement and the compliance with which a party may constantly trust in (so-called "cardinal obligations"). In other cases of slight negligence, Microsoft will not be liable for slight negligence.
 
-11. *영어:* 보증 **고지 사항** 소프트웨어에 "있는 것"으로 라이선스가 부여됩니다. 내용 사용으로 발생하는 위험은 귀하의 책임입니다. Microsoft는 Express 보증, 보장 또는 조건을 제공하지 않습니다. Microsoft는 관련 법률에 따라 허용되는 범위까지 상품성, 특정 목적에 대한 적합성 및 비침해성을 포함하여 모든 암시적 보증을 제외합니다.
+11. *영어:* 보증 **고지 사항** 소프트웨어에 "있는 것"으로 라이선스가 부여됩니다. 내용 사용으로 발생하는 위험은 귀하의 책임입니다. Microsoft는 Express 보증, 보장 또는 조건을 제공하지 않습니다. 해당 법률에 따라 허용되는 범위까지 Microsoft는 판매성, 특정 목적에 대한 적합성 및 비침해성을 포함하여 모든 암시적 보증을 제외합니다.
 
     *En Français*: **EXONÉRATION DE GARANTIE.** Le logiciel visé par une licence est offert « tel quel ». Toute utilisation de ce logiciel est à votre seule risque et péril. Microsoft n’accorde aucune autre garantie expresse. Vous pouvez bénéficier de droits additionnels en vertu du droit local sur la protection des consommateurs, que ce contrat ne peut modifier. La ou elles sont permises par le droit locale, les garanties implicites de qualité marchande, d’adéquation à un usage particulier et d’absence de contrefaçon sont exclues.
 
-12. *영어:* **손해에 대한** 제한 및 제외 앞의 보증 고지 조항에도 불구하고 손해를 복구할 기반이 있는 경우 Microsoft와 해당 공급자로부터 최대 5.00달러까지 직접적인 손해만 복구할 수 있습니다. 결과적, 이익 손실, 특별, 간접 또는 부수적 손해를 비롯한 다른 손해는 복구할 수 없습니다.
+12. *영어:* **손해에 대한** 제한 및 제외 앞의 보증 고지 조항에도 불구하고 손해를 복구할 수 있는 기준이 있는 경우 Microsoft와 해당 공급자로부터 최대 5.00달러까지 직접적인 손해만 복구할 수 있습니다. 결과적, 이익 손실, 특별, 간접 또는 부수적 손해를 비롯한 다른 손해는 복구할 수 없습니다.
 
     이 제한 사항은 (a) 제3자 인터넷 사이트의 소프트웨어, 서비스, 콘텐츠(코드 포함) 또는 제3자 응용 프로그램과 관련된 모든 내용에 적용됩니다. (b) 계약, 보증, 보장 또는 조건 위반에 대한 클레임 엄격한 책임, 과실 또는 기타 토의 또는 기타 클레임 각 사례에서 해당 법률이 허용하는 범위까지
 
     It also applies even if Microsoft knew or should have known about the possibility of the damages. The above limitation or exclusion may not apply to you because your state, province, or country may not allow the exclusion or limitation of incidental, consequential, or other damages.
 
-    *En Français:* **LIMITATION DES DOMMAGES-INTÉRÊTS ET EXCLUSION DE RESPONSABILITÉÉ도 LES DOMMAGES.** Vous pouvez obtenir de Microsoft et de ses fournisseurs une indemnisation en cas de dommages directs uniquement à hauteur de 5,00 $ US. Vous ne pouvez prétendre à aucune indemnisation pour les autres dommages, y compris les dommages spéciaux, indirects ou accessoires et pertes de bénéfices.
+    *En Français:* **LIMITATION DES DOMMAGES-INTÉRÊTS ET EXCLUSION DE RESPONSABILITÉ의도 LES DOMMAGES.** Vous pouvez obtenir de Microsoft et de ses fournisseurs une indemnisation en cas de dommages directs uniquement à hauteur de 5,00 $ US. Vous ne pouvez prétendre à aucune indemnisation pour les autres dommages, y compris les dommages spéciaux, indirects ou accessoires et pertes de bénéfices.
 
     Cette limitation concerne:
 

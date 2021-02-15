@@ -41,7 +41,7 @@ ms.locfileid: "49988035"
 
 - 모바일 장치 설정: [Microsoft 365 모바일 설정 - 도움말](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
 
-- Outlook에서 전자 메일 [설정:](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac) [Windows](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) 또는 Mac
+- Outlook에서 전자 메일 설정: [Windows](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) 또는 [Mac](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac)
  
 - [사용자를 최신 앱으로 업그레이드합니다.](upgrade-users-to-latest-office-client.md) 
 

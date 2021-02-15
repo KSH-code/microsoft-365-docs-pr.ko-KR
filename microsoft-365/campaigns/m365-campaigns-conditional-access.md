@@ -35,7 +35,7 @@ ms.locfileid: "50044503"
 
 다단계 인증 및 조건부 액세스 정책을 사용하여 데이터에 대한 액세스를 보호할 수 있습니다. 이러한 보안은 상당한 추가 보안을 추가합니다. Microsoft는 모든 고객에게 권장되는 기준 조건부 액세스 정책 집합을 제공합니다. 기준 정책은 여러 가지 일반적인 공격으로부터 조직을 보호하는 데 도움이 되는 미리 정의된 정책 집합입니다. 이러한 일반적인 공격에는 암호 분사, 재생 및 피싱이 포함됩니다.
 
-이러한 정책을 사용하려면 관리자와 사용자가 특정 조건에서 두 번째 인증 형식(다단계 인증 또는 MFA)을 입력해야 합니다. 예를 들어 조직의 사용자가 다른 국가 또는 알 수 없는 장치에서 Microsoft 365에 로그인을 하도록 하는 경우 로그인은 위험한 것으로 간주될 수 있습니다. 사용자는 추가 인증 형식(예: 지문 또는 코드)을 제공해야 ID를 증명할 수 있습니다.
+이러한 정책을 사용하려면 관리자와 사용자가 특정 조건에 따라 두 번째 인증 형식(다단계 인증 또는 MFA)을 입력해야 합니다. 예를 들어 조직의 사용자가 다른 국가 또는 알 수 없는 장치에서 Microsoft 365에 로그인을 하도록 하는 경우 로그인은 위험한 것으로 간주될 수 있습니다. 사용자는 추가 형태의 인증(예: 지문 또는 코드)을 제공해야 ID를 증명할 수 있습니다.
 
 현재 기준 정책에는 다음 정책이 포함됩니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "50044503"
 
 ## <a name="require-mfa"></a>MFA 필요
 
-모든 사용자가 두 번째 형식의 ID로 로그인해야 하는 경우:
+모든 사용자가 두 번째 형식의 ID로 로그인해야 합니다.
 
 1. 관리 센터로 이동하여 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 설치를 **선택하세요.**
 
@@ -73,7 +73,7 @@ ms.locfileid: "50044503"
 1. [Azure Portal로 이동한](https://portal.azure.com)다음 **Azure Active Directory** 조건부 액세스로 이동하여 새 정책을 \>  **만드십시오.**
 
 각 정책에 대한 다음 특정 지침을 참조하세요. <br>
-    - [관리자를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators) <br>
+    - [관리자를 위한 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators) <br>
     - [사용자에 대해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users) <br>
     - [레거시 인증 차단](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth) <br>
     - [서비스 관리를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)

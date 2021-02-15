@@ -75,7 +75,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 장치 프로필 페이지에서 사용할 수 있는 작업은 다음과 같습니다.
 
 * **태그 관리** - 이 장치에 적용한 사용자 지정 태그를 업데이트합니다.
-* **장치 격리** - 끝점용 Microsoft Defender에 연결된 장치를 유지하면서 조직의 네트워크에서 장치를 격리합니다. 디바이스가 격리된 동안 통신을 위해 Outlook, Teams 및 비즈니스용 Skype를 실행하도록 선택할 수 있습니다.
+* **장치 격리** - 디바이스를 끝점용 Microsoft Defender에 연결된 동안 조직의 네트워크에서 격리합니다. 디바이스가 격리된 동안 통신을 위해 Outlook, Teams 및 비즈니스용 Skype를 실행하도록 선택할 수 있습니다.
 * **작업 센터** - 제출된 작업의 상태를 검토합니다. 다른 작업이 이미 선택된 경우만 사용할 수 있습니다.
 * **앱 실행 제한** - Microsoft에서 서명하지 않은 응용 프로그램을 실행하지 못하도록 합니다.
 * **바이러스 백신 검사** 실행 - Windows Defender 정의를 업데이트하고 즉시 바이러스 백신 검색을 실행합니다. 빠른 검사 또는 전체 검사 중 선택할 수 있습니다.
@@ -88,7 +88,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 
 장치 프로필 탭을 사용하면 장치에 대한 보안 세부 정보 개요와 경고 목록이 포함된 표를 전환할 수 있습니다.
 
-끝점용 Microsoft Defender에 등록된 장치에는 타임라인, 보안 권장 사항 목록, 소프트웨어 인벤토리, 검색된 취약성 목록 및 누락된 KB(보안 업데이트)가 있는 탭도 표시됩니다.
+끝점용 Microsoft Defender에 등록된 장치에는 타임라인, 보안 권장 사항 목록, 소프트웨어 인벤토리, 발견된 취약성 목록 및 누락된 KB(보안 업데이트)가 있는 탭도 표시됩니다.
 
 ### <a name="overview-tab"></a>개요 탭
 
@@ -168,7 +168,7 @@ Microsoft 365 보안 포털은 장치 프로필 페이지를 제공하며, 네�
 
 ### <a name="missing-kbs"></a>KB 누락
 
-**KB가** 누락된 탭에는 장치에 아직 적용되지 않은 Microsoft 업데이트가 나열됩니다. 해당 "KB"는 [](https://support.microsoft.com/help/242450/how-to-query-the-microsoft-knowledge-base-by-using-keywords-and-query) 이러한 업데이트를 설명하는 기술 자료 문서입니다. 예를 들어 [KB4551762와 같습니다.](https://support.microsoft.com/help/4551762/windows-10-update-kb4551762)
+누락된 **KB** 탭에는 장치에 아직 적용되지 않은 모든 Microsoft 업데이트가 나열됩니다. 해당 "KB"는 이러한 업데이트를 [설명하는](https://support.microsoft.com/help/242450/how-to-query-the-microsoft-knowledge-base-by-using-keywords-and-query) 기술 자료 문서입니다. 예를 들어 [KB4551762와 같습니다.](https://support.microsoft.com/help/4551762/windows-10-update-kb4551762)
 
 ![장치 프로필에 대한 kbs 탭이 누락된 이미지](../../media/mtp-device-profile/hybrid-device-tab-missing-kbs.PNG)
 

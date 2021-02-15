@@ -46,4 +46,4 @@ ms.locfileid: "50044557"
 - 배너 로고
 - 사용자 이름 힌트
 
-개인 정보 보호 및 동의 알림의 예는 컴퓨터 검색 및 은하 및 범죄 조사에서 전자 증거 획득의 부록 A를 [참조하세요.](https://www.justice.gov/sites/default/files/criminal-ccips/legacy/2015/01/14/ssmanual2009.pdf)
+개인 정보 보호 및 동의 알림의 예는 컴퓨터 검색 및 보안 및 범죄 조사에서 전자 증거 획득의 부록 A를 [참조하세요.](https://www.justice.gov/sites/default/files/criminal-ccips/legacy/2015/01/14/ssmanual2009.pdf)

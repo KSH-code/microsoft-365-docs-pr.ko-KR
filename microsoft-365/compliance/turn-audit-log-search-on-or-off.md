@@ -29,7 +29,7 @@ ms.locfileid: "49976331"
 ---
 # <a name="turn-audit-log-search-on-or-off"></a>감사 로그 검색 켜기 또는 끄기
 
-감사 로깅은 Microsoft 365 및 Office 365 엔터프라이즈 조직에 대해 기본적으로 설정됩니다. 여기에는 E3/G3 또는 E5/G5 구독이 있는 조직이 포함됩니다. 준수 센터에서 감사 로그 검색을 설정하면 조직의 사용자 및 관리자 활동이 감사 로그에 기록되고 90일 동안 보존되고 사용자에게 할당된 라이선스에 따라 최대 1년 동안 보존됩니다. 그러나 조직에 감사 로그 데이터를 기록하고 보존하지 않을 이유가 있을 수 있습니다. 이러한 경우 전역 관리자는 Microsoft 365에서 감사를 해제할 수 있습니다.
+Microsoft 365 및 Office 365 엔터프라이즈 조직에서는 기본적으로 감사 로그 검색이 켜져 있습니다. 여기에는 E3/G3 또는 E5/G5 구독이 있는 조직이 포함됩니다. 준수 센터에서 감사 로그 검색을 설정하면 조직의 사용자 및 관리자 활동이 감사 로그에 기록되고 90일 동안, 그리고 사용자에게 할당된 라이선스에 따라 최대 1년 동안 보존됩니다. 그러나 조직에 감사 로그 데이터를 기록하고 보존하지 않을 이유가 있을 수 있습니다. 이러한 경우 전역 관리자는 Microsoft 365에서 감사를 해제할 수 있습니다.
 
 > [!IMPORTANT]
 > Microsoft 365에서 감사 로그 검색을 끄면 Office 365 관리 활동 API 또는 Azure Sentinel을 사용하여 조직의 감사 데이터에 액세스할 수 없습니다. 이 문서의 단계를 수행하여 감사 로그 검색을 끄면 보안 및 준수 센터를 사용하여 감사 로그를 검색하거나 Exchange Online PowerShell에서 **Search-UnifiedAuditLog** cmdlet을 & 결과가 반환되지 않습니다. 즉, Office 365 관리 활동 API 또는 Azure Sentinel을 통해 감사 로그를 사용할 수 없습니다.
@@ -43,7 +43,7 @@ ms.locfileid: "49976331"
     
 - 감사 로그 검색에 대한 단계별 지침은 보안 및 준수 센터에서 감사 [로그를 & 참조하세요.](search-the-audit-log-in-security-and-compliance.md) Microsoft 365 관리 활동 API에 대한 자세한 내용은 [Microsoft 365 관리 API 시작을 참조하세요.](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)
 
-- 감사 로그 검색이 켜져 있는지 확인하려면 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
+- 감사 로그 검색이 켜져 있는지 확인하려면 Exchange Online PowerShell에서 다음 명령을 실행합니다.
 
     ```powershell
     Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
@@ -73,7 +73,7 @@ ms.locfileid: "49976331"
 
 1. [Exchange Online PowerShell에 연결](https://go.microsoft.com/fwlink/p/?LinkID=396554)
 
-2. 다음 PowerShell 명령을 실행하여 Office 365에서 감사 로그 검색을 켜야 합니다.
+2. Office 365에서 감사 로그 검색을 켜기 위해 다음 PowerShell 명령을 실행합니다.
 
     ```powershell
     Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true
@@ -103,6 +103,6 @@ Exchange Online PowerShell을 사용하여 감사 로그 검색을 해제해야 
 
       `False` _UnifiedAuditLogIngestionEnabled_ 속성의 값은 감사 로그 검색이 꺼져 있는 것입니다. 
 
-    - 준수 [센터에서](https://protection.office.com)검색 감사 로그  \> **검색으로 이동 합니다.**
+    - 준수 [센터에서](https://protection.office.com)검색 감사 **로그** \> **검색으로 이동 합니다.**
 
       사용자 및 관리자 활동을 기록하기 위해 감사를 설정해야 하다는 배너가 표시됩니다.

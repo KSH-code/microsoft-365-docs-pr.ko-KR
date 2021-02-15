@@ -40,7 +40,7 @@ ms.locfileid: "49928441"
 
 이 페이지에서는 정의된 사용자 없이 Microsoft 365 Defender에 프로그래밍 방식 액세스(예: 디먼 또는 백그라운드 서비스를 만드는 경우)를 만드는 방법을 설명합니다.
 
-하나 이상의 사용자를 대신하여 Microsoft 365 Defender에 프로그래밍된 액세스가 필요한 경우 사용자를 대신하여 [Microsoft 365 Defender](api-create-app-user-context.md) API에 액세스하는 앱 만들기 및 Microsoft [365 Defender](api-partner-access.md)API에 대한 파트너 액세스가 있는 앱 만들기를 참조하세요. 필요한 액세스 종류가 확실하지 않은 경우 [시작을 참조합니다.](api-access.md)
+하나 이상의 사용자를 대신하여 Microsoft 365 Defender에 프로그래밍된 액세스가 필요한 경우 사용자를 대신하여 [Microsoft 365 Defender](api-create-app-user-context.md) API에 액세스하는 앱 만들기를 참조하고 [Microsoft 365 Defender](api-partner-access.md)API에 대한 파트너 액세스가 있는 앱을 만드시다. 필요한 액세스 종류가 확실하지 않은 경우 [시작을 참조합니다.](api-access.md)
 
 Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터 및 작업을 노출합니다. 이러한 API는 워크플로를 자동화하고 Microsoft 365 Defender의 기능을 활용하는 데 도움이 됩니다. 이 API 액세스에는 OAuth2.0 인증이 필요합니다. 자세한 내용은 [OAuth 2.0 권한 부여 코드 흐름을 참조하세요.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
@@ -58,7 +58,7 @@ Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터 
 
 ## <a name="create-an-app"></a>앱 만들기
 
-1. 전역 관리자 역할을 사용하여 [Azure에](https://portal.azure.com) **사용자로 로그인합니다.**
+1. 전역 관리자 역할이 있는 사용자로 [Azure에](https://portal.azure.com) **로그인합니다.**
 
 2. Azure **Active Directory**  >  **앱 등록 새**  >  **등록으로 이동합니다.**
 
@@ -97,7 +97,7 @@ Microsoft 365 Defender는 프로그래밍 API 집합을 통해 많은 데이터 
 
    ![생성된 앱 ID의 이미지](../../media/app-and-tenant-ids.png)
 
-9. **Microsoft 365 Defender 파트너만:** [](https://docs.microsoft.com/microsoft-365/security/mtp/api-partner-access) Microsoft 365 Defender API를 통해 파트너 액세스에 대한 다음 지침을 따르고, 앱을 다중 테넌트로 설정하여 관리자 동의를 받은 후 모든 테넌트에서 사용할 수 있습니다. 타사 앱에 대해 파트너 액세스가 필요합니다. 예를 들어 여러 고객의 테넌트에서 실행되는 앱을 만드는 경우.  테넌트에서만 실행할 서비스를 만드는 경우(예: 사용자 데이터와만 상호 작용하는 응용 프로그램) 필요하지 않습니다.  앱을 다중 테넌트로 설정:
+9. **Microsoft 365 Defender 파트너만:** [](https://docs.microsoft.com/microsoft-365/security/mtp/api-partner-access) Microsoft 365 Defender API를 통해 파트너 액세스에 대한 다음 지침을 따르고, 앱을 다중 테넌트로 설정하여 관리자 동의를 받은 후 모든 테넌트에서 사용할 수 있습니다. 파트너 **액세스는** 타사 앱에 필요합니다.(예: 여러 고객의 테넌트에서 실행되는 앱을 만드는 경우). 테넌트에서만 실행할 서비스를 만드는 경우(예: 사용자 데이터와만 상호 작용하는 응용 프로그램) 필요하지 않습니다.  앱을 다중 테넌트로 설정:
 
     - 인증으로 **이동하여** https://portal.azure.com 리디렉션 **URI로 추가합니다.**
 
@@ -237,7 +237,7 @@ aadToken = jsonResponse["access_token"]
 
 ## <a name="validate-the-token"></a>토큰 유효성 검사
 
-1. 토큰을 복사하여 JSON 웹 토큰 유효성 검사기 웹 사이트 [JWT에](https://jwt.ms) 붙여넣어 디코드합니다.
+1. 토큰을 복사하여 JSON 웹 토큰 유효성 검사 웹 사이트 [JWT에](https://jwt.ms) 붙여넣어 디코드합니다.
 
 1. 디코딩된  토큰 내의 역할 클레임에 원하는 사용 권한이 포함되어 있는지 확인
 
@@ -249,7 +249,7 @@ aadToken = jsonResponse["access_token"]
 
 1. 사용할 API(인시던트 또는 고급 헌팅)를 선택하십시오. 자세한 내용은 지원되는 [Microsoft 365 Defender API를 참조하세요.](api-supported.md)
 
-2. 보낼 http 요청에서 권한 부여 헤더를 권한 부여 체계인 Bearer로 설정하고 유효성이 검사된 토큰인 `"Bearer" <token>` 토큰을 사용합니다.  
+2. 보낼 http 요청에서 권한 부여 헤더를 권한 부여 체계인 `"Bearer" <token>` *Bearer로* 설정하고 유효성이 검사된 토큰인 토큰을 사용합니다. 
 
 3. 토큰은 1시간 이내에 만료됩니다. 이 시간 동안 동일한 토큰을 사용하여 두 개 이상의 요청을 보낼 수 있습니다.
 

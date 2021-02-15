@@ -41,7 +41,7 @@ ms.locfileid: "49929514"
 Microsoft [](advanced-hunting-overview.md) 365 Defender의 고급 헌팅을 사용하면 랜섬웨어 활동과 관련된 개별 아티팩트를 찾는 쿼리를 만들 수 있습니다. 또한 활동의 징후를 찾고 해당 기호의 가중치에 따라 즉각적인 주의가 필요한 장치를 찾을 수 있는 보다 정교한 쿼리를 실행할 수도 있습니다.
 
 ## <a name="signs-of-ransomware-activity"></a>랜섬웨어 활동의 징후
-Microsoft 보안 연구원들은 정교한 침입자가 시작한 많은 랜섬웨어 캠페인에서 다양한 일반적이지만 미묘한 아티팩트를 관찰했습니다. 이러한 기호는 주로 시스템 도구를 사용하여 암호화를 준비하고, 탐지를 방지하고, 명확한 증거를 사용합니다.
+Microsoft 보안 연구원들은 정교한 침입자가 시작한 많은 랜섬웨어 캠페인에서 다양한 일반적이지만 미묘한 아티팩트를 관찰했습니다. 이러한 기호는 주로 시스템 도구를 사용하여 암호화를 준비하고, 탐지를 방지하고, 명확한 포렌식 증거를 사용합니다.
 
 | 랜섬웨어 활동 | 일반적인 도구 | 의도 |
 |--|--|--|
@@ -80,7 +80,7 @@ DeviceProcessEvents
 | where netStopCount > 10
 ```
 ### <a name="deletion-of-data-on-multiple-drives-using-_cipherexe_"></a>데이터를 사용하여 여러 드라이브에서 데이터 _cipher.exe_
-이 쿼리는 다음을 사용하여 여러 드라이브에서 데이터를 삭제하려는 시도를 _cipher.exe._ 이 작업은 일반적으로 암호화 후 데이터 복구를 방지하기 위해 랜섬웨어에 의해 수행됩니다. [쿼리 실행](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAI1SXUvDQBCcZ8H_cOQpgWLoD7AvVUEo4oPvElO1pblUcmn9QPztzk6TEuEsIdzdZndndm73cuRwWGDLb0PrhWfDs8Qab1jhmX8X3D-4HJbcK66W0Rqv8hT8K4RsiPW0PHbMasVQdbiGf3vaAec4wxWtPT0lz3vhSsUCrpVVE33I_Cb6vdNhTA9EeeVaVc8KDjOugmq2SDFlrSyKvCHS1NwJZ55L_HBPondNGDGWXP2JdyMnv927UnXHWwf6l4MunupXTOPfXszVT8_smriFOCxrRU-QclOQDLgCNRwQ1u8vZc8H2o1xp-7a7U1NefSko6pnmKjakNVi4chpiA39j-rGeF6HJ3xyH76NW2ZMFLGsNDJ9i05pZSPmVdDfq-jncfqtOuU5zSuQz6Zq92w7Hfbm-9cUm-d_vZ9J9S81O2KIfAMAAA&runQuery=true&timeRangeId=week)
+이 쿼리는 다음을 사용하여 여러 드라이브에서 데이터를 삭제하려는 시도를 _cipher.exe._ 이 활동은 일반적으로 암호화 후 데이터 복구를 방지하기 위해 랜섬웨어에 의해 수행됩니다. [쿼리 실행](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAI1SXUvDQBCcZ8H_cOQpgWLoD7AvVUEo4oPvElO1pblUcmn9QPztzk6TEuEsIdzdZndndm73cuRwWGDLb0PrhWfDs8Qab1jhmX8X3D-4HJbcK66W0Rqv8hT8K4RsiPW0PHbMasVQdbiGf3vaAec4wxWtPT0lz3vhSsUCrpVVE33I_Cb6vdNhTA9EeeVaVc8KDjOugmq2SDFlrSyKvCHS1NwJZ55L_HBPondNGDGWXP2JdyMnv927UnXHWwf6l4MunupXTOPfXszVT8_smriFOCxrRU-QclOQDLgCNRwQ1u8vZc8H2o1xp-7a7U1NefSko6pnmKjakNVi4chpiA39j-rGeF6HJ3xyH76NW2ZMFLGsNDJ9i05pZSPmVdDfq-jncfqtOuU5zSuQz6Zq92w7Hfbm-9cUm-d_vZ9J9S81O2KIfAMAAA&runQuery=true&timeRangeId=week)
 
 ```kusto
 // Look for cipher.exe deleting data from multiple drives
@@ -120,7 +120,7 @@ DeviceProcessEvents
 ```
 
 ### <a name="turning-off-system-restore"></a>시스템 복원 끄기
-이 쿼리는 시스템 복원을 중지하고 시스템이 랜섬웨어로 암호화된 데이터를 복구하는 데 사용할 수 있는 복원 지점을 만들지 못하도록 차단하려는 시도를 식별합니다. [쿼리 실행](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAK2S3UrDQBCFz7XgO6y9id4o6HWvrIVCkaJPENOYFNumZGO1ID673w4xJA1isbJMZnZ-zpzM7EiptlooQc9UqjDLc-7wp1qrwj7Via44MzK35FTotTI5PXMr0aVe8cy15NzoGo-zqg_0m3KQSsRpQtbC6uMGpdt3jHeJfU_GymqG-uQb9XpcEn1HIuvmGpZT0Aq99Dim4G3ousNO8K04sSE6EEN22kL6jvzO-LaDNW2QzqxLmGBsPo9vUMt_oA8Na3DQv3vwcmPiifpmds48jkhut8T2FLikxm_T4bI_m_6uQt-wrXO28lPPSBcdziOqPFlP9RYy47tDKtuZM07hVtSvaJ_HYRPL63-NyMgtmtWv5684jy2WDx2O0ZEM562ZBLQvURxur6gDAAA&runQuery=true&timeRangeId=week)
+이 쿼리는 시스템 복원을 중지하고 시스템이 랜섬웨어로 암호화된 데이터를 복구하는 데 사용할 수 있는 복원 지점을 만들지 못하도록 합니다. [쿼리 실행](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAK2S3UrDQBCFz7XgO6y9id4o6HWvrIVCkaJPENOYFNumZGO1ID673w4xJA1isbJMZnZ-zpzM7EiptlooQc9UqjDLc-7wp1qrwj7Via44MzK35FTotTI5PXMr0aVe8cy15NzoGo-zqg_0m3KQSsRpQtbC6uMGpdt3jHeJfU_GymqG-uQb9XpcEn1HIuvmGpZT0Aq99Dim4G3ousNO8K04sSE6EEN22kL6jvzO-LaDNW2QzqxLmGBsPo9vUMt_oA8Na3DQv3vwcmPiifpmds48jkhut8T2FLikxm_T4bI_m_6uQt-wrXO28lPPSBcdziOqPFlP9RYy47tDKtuZM07hVtSvaJ_HYRPL63-NyMgtmtWv5684jy2WDx2O0ZEM562ZBLQvURxur6gDAAA&runQuery=true&timeRangeId=week)
 
 ```kusto
 DeviceProcessEvents
@@ -147,7 +147,7 @@ ProcessCommandLine, InitiatingProcessIntegrityLevel, InitiatingProcessParentFile
 ```
 
 ## <a name="check-for-multiple-signs-of-ransomware-activity"></a>랜섬웨어 활동의 여러 징후 확인
-여러 쿼리를 별도로 실행하는 대신 여러 랜섬웨어 활동의 징후를 확인하는 포괄적인 쿼리를 사용하여 영향을 받는 장치를 식별할 수도 있습니다. 다음과 같은 통합 쿼리를 실행합니다.
+여러 쿼리를 개별적으로 실행하는 대신 여러 랜섬웨어 활동의 징후를 확인하는 포괄적인 쿼리를 사용하여 영향을 받는 장치를 식별할 수도 있습니다. 다음과 같은 통합 쿼리를 실행합니다.
 - 랜섬웨어 활동의 비교적 구체적이고 미묘한 징후를 모두 밝히는 방법
 - 이러한 기호의 존재에 가중치
 - 랜섬웨어의 대상이 되는 확률이 높은 장치를 식별합니다. 

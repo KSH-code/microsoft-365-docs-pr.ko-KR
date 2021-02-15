@@ -46,7 +46,7 @@ ms.locfileid: "49928357"
 
 HTTP 응답 코드는 전송된 요청 수 또는 할당된 실행 시간으로 할당량에 도달했다는 `429` 메시지를 나타냅니다. 응답 본문에는 도달한 할당량 설정이 다시 설정될 때까지의 시간이 포함됩니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 인시던트 API에는 각 메서드에 대해 서로 다른 종류의 사용 권한이 필요합니다. 필요한 사용 권한에 대한 자세한 내용은 해당 방법의 문서를 참조하세요.
 
@@ -74,9 +74,9 @@ assignedTo | 문자열 | 인시던트의 소유자입니다.
 심각도 | Enum | 인시던트의 심각도입니다. 가능한 값은 ```UnSpecified``` , ```Informational``` , , 및 ```Low``` ```Medium``` ```High``` .
 status | Enum | 인시던트의 현재 상태를 지정합니다. 가능한 값은 ```Active``` , ```Resolved``` 및 ```Redirected``` .
 classification | Enum | 인시던트 사양입니다. 가능한 값은 ```Unknown``` ```FalsePositive``` , , ```TruePositive``` .
-determination | Enum | 인시던트의 결정 가능한 값은 ```NotAvailable``` ```Apt``` , ```Malware``` ```SecurityPersonnel``` ```SecurityTesting``` ```UnwantedSoftware``` ```Other``` 입니다.
+determination | Enum | 인시던트의 결정 가능한 값은 ```NotAvailable``` ```Apt``` , ```Malware``` , , , ```SecurityPersonnel``` , , ```SecurityTesting``` ```UnwantedSoftware``` ```Other``` 입니다.
 tags | string List | 인시던트 태그 목록입니다.
-alerts | 경고 목록 | 관련 경고 목록입니다. 목록 인시던트 API [설명서의](api-list-incidents.md) 예제를 참조하세요.
+alerts | 경고 목록 | 관련 경고 목록입니다. 목록 인시던트 API [설명서에서 예제를](api-list-incidents.md) 참조하세요.
 
 ## <a name="related-articles"></a>관련 문서
 

@@ -1,7 +1,7 @@
 ---
 title: 파일럿 Microsoft 365 Defender 프로젝트 결과 요약
 description: 성적표를 완성하고, 보고서 결과를 분석하고, 앞으로 이동하는 방법을 결정하여 파일럿 Microsoft 365 Defender 프로젝트를 완료합니다.
-keywords: Microsoft 위협 방지 파일럿, 파일럿 Microsoft 위협 방지 프로젝트 후 다음에 할 일, 프로덕션에서 Microsoft Threat Protection을 평가한 후의 작업, Microsoft Threat Protection 파일럿에서 배포로 전환, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
+keywords: Microsoft 위협 방지 파일럿, 파일럿 Microsoft Threat Protection 프로젝트 후 다음에 할 일, 프로덕션에서 Microsoft Threat Protection을 평가한 후의 작업, Microsoft Threat Protection 파일럿에서 배포로 전환, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -62,6 +62,6 @@ ms.locfileid: "49930165"
 ## <a name="next-step"></a>다음 단계
 다음 대화형 가이드를 통해 Microsoft 365 Defender 기조에 대해 자세히 알아보세요.
 - [Office 365용 Microsoft Defender를 사용하여 조직 보호](https://aka.ms/O365ATP-Interactive-Guide)
-- [ID에 대한 Microsoft Defender를 통해 의심스러운 활동 및 잠재적인 공격 감지](https://aka.ms/AATP-Interactive-Guide)
+- [Microsoft Defender for Identity를 사용하여 의심스러운 활동과 잠재적인 공격을 감지](https://aka.ms/AATP-Interactive-Guide)
 - [Microsoft Cloud App Security를 사용하여 위협 감지 및 경고 관리](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
 - [끝점용 Microsoft Defender를 통해 위협 조사 및 수정](https://aka.ms/MDATP-IR-Interactive-Guide)

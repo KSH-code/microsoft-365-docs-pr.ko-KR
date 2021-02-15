@@ -38,7 +38,7 @@ ms.locfileid: "49929937"
 고급 `IdentityDirectoryEvents` 헌팅 [계획의](advanced-hunting-overview.md) 표에는 AD(Active Directory)를 실행하는 On-프레미스 도메인 컨트롤러와 관련된 이벤트가 포함되어 있습니다. 이 표에서는 암호 변경, 암호 만료 및 UPN(사용자 계정 이름) 변경과 같은 다양한 ID 관련 이벤트를 캡처합니다. 또한 작업 일정 및 PowerShell 활동과 같은 도메인 컨트롤러의 시스템 이벤트를 캡처합니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 >[!TIP]
-> 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` [schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 사용합니다.
+> 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` [Schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 사용합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 

@@ -35,7 +35,7 @@ DKE(이중 키 암호화)는 두 개의 키를 함께 사용하여 보호된 콘
 
 ## <a name="when-your-organization-should-adopt-dke"></a>조직에서 DKE를 채택해야 하는 경우
 
-이중 키 암호화는 가장 엄격한 보호 요구 사항을 준수하는 가장 중요한 데이터를 위한 것입니다. DKE는 모든 데이터에 사용할 수 없습니다. 일반적으로 이중 키 암호화를 사용하여 전체 데이터의 일부만 보호합니다. 배포하기 전에 이 솔루션에서 다루는 올바른 데이터를 식별하는 데 신심해야 합니다. 경우에 따라 Microsoft에서 관리하는 키 또는 BYOK를 사용하는 Microsoft Information Protection과 같은 대부분의 데이터에 대해 범위를 좁히고 다른 솔루션을 사용해야 할 수 있습니다. 이러한 솔루션은 향상된 보호 및 규정 요구 사항을 준수하지 않는 문서에 충분합니다. 또한 이러한 솔루션을 사용하면 가장 강력한 Office 365 서비스를 사용할 수 있습니다. DKE 암호화 콘텐츠와 함께 사용할 수 없는 서비스 예를 들어 다음과 같은 가치를 제공해야 합니다.
+이중 키 암호화는 가장 엄격한 보호 요구 사항을 준수하는 가장 중요한 데이터를 위한 것입니다. DKE는 모든 데이터에 사용할 수 없습니다. 일반적으로 이중 키 암호화를 사용하여 전체 데이터의 일부만 보호합니다. 배포하기 전에 이 솔루션에서 다루는 올바른 데이터를 식별하는 데 신심해야 합니다. 경우에 따라 Microsoft에서 관리하는 키 또는 BYOK를 사용하는 Microsoft Information Protection과 같은 대부분의 데이터에 대해 범위를 좁히고 다른 솔루션을 활용해야 할 수 있습니다. 이러한 솔루션은 향상된 보호 및 규정 요구 사항을 준수하지 않는 문서에 충분합니다. 또한 이러한 솔루션을 사용하면 가장 강력한 Office 365 서비스를 사용할 수 있습니다. DKE 암호화 콘텐츠와 함께 사용할 수 없는 서비스 예시:
 
 - 첨부 파일을 표시해야 하는 맬웨어 방지 및 스팸을 포함한 전송 규칙
 - Microsoft Delve
@@ -139,12 +139,12 @@ Microsoft는 GitHub 리포지토리에 DKE 원본 파일을 제공합니다. 리
 
 2. 화면 오른쪽으로 코드를 **선택합니다.** UI 버전에 복제 또는 다운로드 **단추가 표시될 수** 있습니다. 그런 다음 나타나는 드롭다운에서 복사 아이콘을 선택하여 URL을 클립보드에 복사합니다.
 
-    예를 들어 다음과 같은 가치를 제공해야 합니다.
+    예시:
 
    > [!div class="mx-imgBorder"]
    > ![GitHub에서 이중 키 암호화 서비스 리포지토리 복제](../media/dke-clone.png)
 
-3. Visual Studio 코드에서 **명령** 팔레트 \> **보기를 선택하고** **Git: 복제를 선택합니다.** 목록의 옵션으로 이동하려면 입력을 시작하여 항목을 필터링한 다음 드롭다운에서 `git: clone` 선택합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+3. Visual Studio 코드에서 **명령** 팔레트 \> **보기를 선택하고** **Git: 복제를 선택합니다.** 목록의 옵션으로 이동하려면 입력을 시작하여 항목을 필터링한 다음 드롭다운에서 `git: clone` 선택합니다. 예시:
 
    > [!div class="mx-imgBorder"]
    > ![Visual Studio 코드 GIT:복제 옵션](../media/dke-vscode-clone.png)
@@ -153,7 +153,7 @@ Microsoft는 GitHub 리포지토리에 DKE 원본 파일을 제공합니다. 리
 
 5. 나타나는 **폴더** 선택 대화 상자에서 리포지토리를 저장할 위치를 찾아 선택합니다. 프롬프트에서 **열기 를 선택합니다.**
 
-    리포지토리가 Visual Studio 코드로 열리며 왼쪽 아래에 현재 Git 분기가 표시됩니다. 예를 들어 분기는 **main입니다.** 예를 들어 다음과 같은 가치를 제공해야 합니다.
+    리포지토리가 Visual Studio 코드로 열리며 왼쪽 아래에 현재 Git 분기가 표시됩니다. 예를 들어 분기는 **main입니다.** 예시:
 
    ![주 분기를 표시하는 Visual Studio 코드의 DKE 리포지터 스크린샷](../media/dke-vscode-main-branch.jpg)
 
@@ -187,7 +187,7 @@ DKE 서비스를 배포하려면 다음과 같은 유형의 응용 프로그램 
 
 1. 파일에서 **appsettings.js열고** 설정을 `AuthorizedEmailAddress` 찾습니다.
 
-2. 승인할 전자 메일 주소 또는 주소를 추가합니다. 여러 전자 메일 주소를 따옴표와 장으로 구분합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+2. 승인할 전자 메일 주소 또는 주소를 추가합니다. 여러 전자 메일 주소를 따옴표와 장으로 구분합니다. 예시:
 
    ```json
    "AuthorizedEmailAddress": ["email1@company.com", "email2@company.com ", "email3@company.com"]
@@ -203,19 +203,19 @@ DKE 서비스를 배포하려면 다음과 같은 유형의 응용 프로그램 
 
 이 이미지는 전자 **메일appsettings.js** 형식이 올바르게 지정되어 있는 파일의 이미지를 보여줍니다.
 
-   ![전자 appsettings.js방법을 보여 주면 파일의 파일 열기](../media/dke-email-accesssetting.png)
+   ![전자 appsettings.js방법을 보여 주며 파일의 메시지 표시](../media/dke-email-accesssetting.png)
 
 **역할 권한 부여를 사용하여 DKE에 대한 키 액세스 설정을 설정하려면**
 
 1. 파일에서 **appsettings.js열고** 설정을 `AuthorizedRoles` 찾습니다.
 
-2. 승인할 Active Directory 그룹 이름을 추가합니다. 여러 그룹 이름을 따옴표와 콤보로 구분합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+2. 승인할 Active Directory 그룹 이름을 추가합니다. 여러 그룹 이름을 따옴표와 콤보로 구분합니다. 예시:
 
    ```json
    "AuthorizedRoles": ["group1", "group2", "group3"]
    ```
 
-3. 설정을 찾아 `LDAPPath` Active Directory 도메인을 추가합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+3. 설정을 찾아 `LDAPPath` Active Directory 도메인을 추가합니다. 예시:
 
    ```json
    "LDAPPath": "contoso.com"
@@ -223,7 +223,7 @@ DKE 서비스를 배포하려면 다음과 같은 유형의 응용 프로그램 
 
 4. 설정을 찾아 `AuthorizedEmailAddress` 전체 줄을 삭제합니다.
 
-이 이미지는 **appsettings.js권한 부여를** 위해 올바르게 형식이 지정되어 있는 파일의 이미지를 보여줍니다.
+이 이미지는appsettings.js **권한 부여를** 위해 올바르게 형식이 지정되어 있는 파일의 이미지를 보여줍니다.
 
    ![appsettings.js권한 부여 방법을 보여 주며 파일의 파일 관리](../media/dke-role-accesssetting.png)
 
@@ -235,7 +235,7 @@ DKE 테넌트 및 키 설정은 파일의appsettings.js **있습니다.**
 
 1. 파일에서 **appsettings.js을 니다.**
 
-2. 설정을 찾아 `ValidIssuers` `<tenantid>` 테넌트 ID로 대체합니다. Azure Portal로 이동하고 테넌트 속성을 확인하여 테넌트 ID를 찾을 [수 있습니다.](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) 예를 들어 다음과 같은 가치를 제공해야 합니다.
+2. 설정을 찾아 `ValidIssuers` `<tenantid>` 테넌트 ID로 대체합니다. Azure Portal로 이동하고 테넌트 속성을 확인하여 테넌트 ID를 찾을 [수 있습니다.](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) 예시:
 
    ```json
    "ValidIssuers": [
@@ -243,7 +243,7 @@ DKE 테넌트 및 키 설정은 파일의appsettings.js **있습니다.**
    ]
    ```
 
-`JwtAudience`. DKE 서비스가 실행될 컴퓨터의 호스트 `<yourhostname>` 이름으로 바 대체합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+`JwtAudience`.를 찾습니다. DKE 서비스가 실행될 컴퓨터의 호스트 `<yourhostname>` 이름으로 바 대체합니다. 예시:
 
   > [!IMPORTANT]
   > 값은 호스트 이름과 정확히 `JwtAudience` 일치해야 *합니다.* 디버깅하는 동안 **localhost:5001을** 사용할 수 있습니다. 그러나 디버깅이 완료되면 이 값을 서버의 호스트 이름으로 업데이트해야 합니다.
@@ -348,9 +348,9 @@ DKE 테넌트 및 키 설정은 파일의appsettings.js **있습니다.**
 
    빨간색 오류가 있는 경우 콘솔 출력을 확인합니다. 이전 단계를 모두 올바르게 완료하고 올바른 빌드 버전이 있는지 확인합니다.
 
-4. 프로세스를  \> **디버깅하려면 디버깅** 시작 실행을 선택합니다. 환경을 선택하라는 메시지가 표시될 경우 **.NET core를 선택합니다.**
+4. 프로세스를  \> **디버그하려면 디버깅** 시작 실행을 선택합니다. 환경을 선택하라는 메시지가 표시될 경우 **.NET 코어를 선택합니다.**
 
-   .NET 코어 디버거는 일반적으로 `https://localhost:5001` . 테스트 키를 보시다가 슬래시(/)와 키 이름을 `https://localhost:5001` 추가합니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
+   .NET 코어 디버거는 일반적으로 `https://localhost:5001` . 테스트 키를 보시다가 슬래시(/)와 키 이름을 `https://localhost:5001` 추가합니다. 예시:
 
    ```https
    https://localhost:5001/TestKey1
@@ -380,7 +380,7 @@ DKE 테넌트 및 키 설정은 파일의appsettings.js **있습니다.**
 
    - **게시의** 경우 **코드를** 선택하고 런타임 스택의 경우 **.NET Core 3.1을 선택합니다.**
 
-   예를 들어 다음과 같은 가치를 제공해야 합니다.
+   예시:
 
    > [!div class="mx-imgBorder"]
    > ![앱 서비스 추가](../media/dke-azure-add-app-service.png)
@@ -421,7 +421,7 @@ DKE가 배포된 후 만든 테스트 키를 찾아볼 수 있습니다. 아래 
 
 2. 표시되는 연결 문자열을 로컬 파일에 복사합니다. 이러한 문자열을 사용하여 Web App 서비스에 연결하고 FTP를 통해 파일을 업로드합니다.
 
-   예를 들어 다음과 같은 가치를 제공해야 합니다.
+   예시:
 
    ![FTP 대시보드에서 연결 문자열 복사](../media/dke-ftp-dashboard.png)
 
@@ -473,9 +473,9 @@ DKE 서비스를 등록합니다.
 
 3. 표시되는 옵션에서 계정 유형을 선택합니다.
 
-   사용자 지정이 아닌 도메인(예: onmicrosoft.com)에서 Microsoft Azure를 사용하는 경우 이 조직 디렉터리에서만 **계정을 선택합니다(Microsoft** 전용 - 단일 **테넌트).**
+   사용자 지정이 아닌 도메인(예: onmicrosoft.com)에서 Microsoft Azure를 사용하는 경우 이 조직 디렉터리에서만 **계정을 선택합니다(Microsoft** **전용 - 단일 테넌트).**
 
-   예를 들어 다음과 같은 가치를 제공해야 합니다.
+   예시:
 
    > [!div class="mx-imgBorder"]
    > ![새 앱 등록](../media/dke-app-registration.png)
@@ -532,9 +532,9 @@ DKE 서비스를 등록합니다.
 
 ## <a name="create-sensitivity-labels-using-dke"></a>DKE를 사용하여 민감도 레이블 만들기
 
-Microsoft 365 규정 준수 센터에서 새 민감도 레이블을 만들고 다른 경우와 같은 암호화를 적용합니다. 이중 **키 암호화 사용을 선택하고** 키의 끝점 URL을 입력합니다.
+Microsoft 365 규정 준수 센터에서 새 민감도 레이블을 만들고 다른 경우처럼 암호화를 적용합니다. 이중 **키 암호화 사용을 선택하고** 키의 끝점 URL을 입력합니다.
 
-예를 들어 다음과 같은 가치를 제공해야 합니다.
+예시:
 
 > [!div class="mx-imgBorder"]
 > ![Microsoft 365 규정 준수 센터에서 이중 키 암호화 사용 선택](../media/dke-use-dke.png)

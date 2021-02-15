@@ -1,5 +1,5 @@
 ---
-title: '인포그래픽: 캠페인 보호 지원'
+title: '정보 그래픽: 캠페인 보호'
 f1.keywords:
 - NOCSH
 ms.author: samanro

@@ -1,6 +1,6 @@
 ---
 title: 고급 헌팅의 DeviceFileCertificateInfo 표
-description: 고급 헌팅 schema의 DeviceFileCertificateInfo 표에 있는 파일 서명 정보에 대해 자세히
+description: 고급 헌팅chema의 DeviceFileCertificateInfo 표에서 파일 서명 정보에 대해 자세히
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, digital signature, certificate, file signing, DeviceFileCertificateInfo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150

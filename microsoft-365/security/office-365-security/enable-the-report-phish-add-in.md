@@ -43,7 +43,7 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 전역 관리자 또는 Exchange Online 관리자인 경우 Exchange가 OAuth 인증을 사용하도록 구성된 경우 조직에 대해 피싱 보고서 추가 기능을 사용하도록 설정할 [수 있습니다.](#get-and-enable-the-report-phishing-add-in-for-your-organization) 보고서 피싱 Add-In 중앙 집중식 배포를 통해 사용할 [수 있습니다.](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 피싱 보고서 추가 기능에서는 대부분의 Microsoft 365 구독 및 다음 제품과 함께 작동합니다.
 
@@ -134,9 +134,9 @@ Microsoft는 이러한 제출을 사용하여 전자 메일 보호 기술의 효
 
 - 웹에서 Outlook에서 아이콘은 다음과 같습니다.
 
-  ![웹 보고서 피싱 추가 기능 아이콘의 Outlook](../../media/OWA-ReportPhishing.png)
+  ![웹용 Outlook 보고서 피싱 추가 기능 아이콘](../../media/OWA-ReportPhishing.png)
 
-## <a name="review-or-edit-settings-for-the-report-phishing-add-in"></a>보고서 피싱 추가 기능의 설정 검토 또는 편집
+## <a name="review-or-edit-settings-for-the-report-phishing-add-in"></a>피싱 보고서 추가 기능의 설정 검토 또는 편집
 
 1. Microsoft 365 관리 센터에서 설정 추가  기능 페이지로 이동합니다. 추가 기능 페이지가 없는 경우 통합 앱 페이지 상단의 설정 통합 앱 추가 기능 링크로 \>  <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>   \>  \>  이동합니다. 
 

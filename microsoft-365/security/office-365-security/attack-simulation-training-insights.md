@@ -34,7 +34,7 @@ ms.locfileid: "49933069"
 - **공격 시뮬레이션 교육을** 사용하는 다른 Microsoft 365 테넌트에서 동일한 유형의 페이로드를 사용하는 시뮬레이션의 평균 손상률을 반영하는 예측된 손상률입니다.
 - **실제 손상률은** 시뮬레이션에 대해 떨어졌다는 직원의 비율을 반영합니다.
 
-또한 공격으로 손상된 실제 직원 수와 예측한 손상율 간의 `<number> less susceptible to phishing` 차이를 반영합니다. 이 수의 직원은 향후 유사한 공격으로 손상될 가능성이 낮아지지만 예상 손상률과는 대조적으로 직원들이 전반적으로 어떻게 `<percent%> better than predicted rate` 나타냈는가를 나타냅니다.
+또한 공격으로 손상된 실제 직원 수와 예측한 손상율의 `<number> less susceptible to phishing` 차이를 반영합니다. 이 수의 직원은 향후 유사한 공격으로 손상될 가능성이 낮아지지만 예상 손상률과는 대조적으로 직원들이 전반적으로 어떻게 `<percent%> better than predicted rate` 나타냈는가를 나타냅니다.
 
 > [!div class="mx-imgBorder"]
 > ![공격 시뮬레이션 교육 개요에 대한 동작 영향 카드](../../media/attack-sim-preview-behavior-impact-card.png)

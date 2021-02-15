@@ -1,6 +1,6 @@
 ---
 title: 고급 헌팅chema의 IdentityInfo 표
-description: 고급 헌팅 schema의 IdentityInfo 표에 있는 사용자 계정 정보에 대해 자세히
+description: 고급 헌팅 스마의 IdentityInfo 표에서 사용자 계정 정보에 대해 자세히
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, AccountInfo, IdentityInfo, account
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150

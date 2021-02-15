@@ -27,7 +27,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49932073"
 ---
-# <a name="list-incidents-api-in-microsoft-365-defender"></a>Microsoft 365 Defender의 목록 인시던트 API
+# <a name="list-incidents-api-in-microsoft-365-defender"></a>Microsoft 365 Defender의 인시던트 목록 API
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -55,9 +55,9 @@ API는 다음 **OData 연산자를** 지원합니다.
 1. 최대 페이지 크기는 **인시던트 100개입니다.**
 2. 최대 요청 속도는 분당 **50통,** 시간당 **1500통입니다.**
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
-이 API를 호출하려면 다음 권한 중 하나를 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Microsoft 365 Defender API 액세스](api-access.md) 참조
+이 API를 호출하려면 다음 권한 중 하나를 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Microsoft 365 Defender API 액세스를 참조합니다.](api-access.md)
 
 사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 -|-|-
@@ -99,7 +99,7 @@ GET /api/incidents
 
 필드 이름 | 설명 | 예제 값
 -|-|-
-incidentId | 인시던트에 대한 고유 식별자 | 924565
+incidentId | 인시던트 나타내는 고유 식별자 | 924565
 redirectIncidentId | 인시던트가 인시던트 처리 논리의 일부로 다른 인시던트와 함께 그룹화되는 경우만 채워야 합니다. | 924569
 incidentName | 모든 인시던트에 사용할 수 있는 문자열 값입니다. | 랜섬웨어 활동
 createdTime | 인시던트가 처음 만들어진 시간입니다. | 2020-09-06T14:46:57.073333Z
@@ -122,11 +122,11 @@ serviceSource | 경고가 시작된 서비스(예: Endpoint용 Microsoft Defende
 creationTime | 알림을 처음 만든 시간입니다. | 2020-09-06T14:46:55.7182276Z
 lastUpdatedTime | 백엔드에서 경고가 마지막으로 업데이트된 시간입니다. | 2020-09-06T14:46:57.243333Z
 resolvedTime | 경고가 해결된 시간입니다. | 2020-09-10T05:22:59Z
-firstActivity | 백엔드에서 활동이 업데이트된 것으로 처음 보고된 시간입니다.| 2020-09-04T05:22:59Z
+firstActivity | 처음에 백엔드에서 활동이 업데이트된 것으로 경고가 보고된 시간입니다.| 2020-09-04T05:22:59Z
 title | 각 경고에 사용할 수 있는 간단한 식별 문자열 값입니다. | 랜섬웨어 활동
-설명 | 각 경고를 설명하는 문자열 값입니다. | 사용자 테스트 사용자2(testUser2@contoso.com)가 확장명을 여러 개 사용하여 99개 파일을 *조작했습니다.* 이는 비정상적인 파일 조작 수로 잠재적인 랜섬웨어 공격을 나타내는 것입니다.
+설명 | 각 경고를 설명하는 문자열 값입니다. | 사용자 테스트 사용자2(testUser2@contoso.com)가 확장명을 여러 개 사용하여 99개 파일을 *조작했습니다.* 이는 비정상적인 파일 조작 수로, 잠재적인 랜섬웨어 공격을 나타내는 것입니다.
 category | 킬체인을 따라 공격이 진행된 거리의 시각적 및 숫자 보기입니다. [MITRE ATT&CK™ 정렬됩니다.](https://attack.mitre.org/) | 영향
-status | 경고를 새 *경고,* 활성 경고 또는 해결된 *경고로* *분류합니다.* 경고에 대한 응답을 구성하고 관리하는 데 도움이 될 수 있습니다. | 신규
+status | 경고를 새로, 활성 또는 해결된 *경고로 분류합니다.* 경고에 대한 응답을 구성하고 관리하는 데 도움이 될 수 있습니다. | 신규
 심각도 | 자산에 미칠 수 있는 영향을 나타냅니다. 심각도가 높을수록 영향이 커집니다. 일반적으로 심각도가 높은 항목은 가장 즉각적인 주의가 필요합니다.<br>정보, 낮음, *보통 및 *높음* 값 중 하나 | 보통
 investigationId | 이 경고에 의해 트리거된 자동화된 조사 ID입니다. | 1234
 investigationState | 조사의 현재 상태에 대한 정보입니다. 다음 값 중 하나: *Unknown*, *Terminated*, *SuccessfullyRemediated*, *Benign*, *Failed*, *PartiallyRemediated*, *Running*, *PendingApproval*, *PendingResource*, *PartiallyInvestigated*, *TerminatedByUser*, *TerminatedBySystem*, *Queued*, *InnerFailure*, *PreexistingAlert*, *UnsupportedOs*, *UnsupportedAlertType*, *SuppressedAlert*. | UnsupportedAlertType
@@ -148,7 +148,7 @@ deviceDnsName | 디바이스의 정식 도메인 이름입니다. | user5cx.midd
 osPlatform | 디바이스가 실행 중인 OS 플랫폼입니다.| WindowsServer2016
 osBuild | 디바이스가 실행 중인 OS의 빌드 버전입니다. | 14393
 rbacGroupName | 장치와 [연결된](https://docs.microsoft.com/azure/role-based-access-control/overview) RBAC(역할 기반 액세스 제어) 그룹입니다. | WDATP-Ring0
-firstSeen | 장치를 처음 본 시간입니다. | 2020-02-06T14:16:01.9330135Z
+firstSeen | 디바이스를 처음 본 시간입니다. | 2020-02-06T14:16:01.9330135Z
 healthStatus | 장치의 상태입니다. | 활성
 riskScore | 장치에 대한 위험 점수입니다. | 높음
 엔터티 | 지정한 경고의 일부로 식별되거나 이와 관련된 모든 엔터티입니다. | \[\] (아래 엔터티 필드에 대한 세부 정보 참조)
@@ -158,7 +158,7 @@ riskScore | 장치에 대한 위험 점수입니다. | 높음
 필드 이름 | 설명 | 예제 값
 -|-|-
 entityType | 지정한 경고의 일부로 식별되거나 이와 관련된 엔터티입니다.<br>속성 값은 *사용자,* *Ip,* *URL,* *파일,* *프로세스,* *MailBox,* *MailMessage,* *MailCluster,* *레지스트리입니다.* | 사용자
-sha1 | entityType이 File인 경우 *사용할 수 있습니다.*<br>파일 또는 프로세스와 연결된 경고에 대한 파일 해시입니다. | 5de839186691aa96ee2ca6d74f0a38fb8d1bd6dd
+sha1 | entityType이 File인 경우 *사용할 수 있습니다.*<br>파일 또는 프로세스와 관련된 경고에 대한 파일 해시입니다. | 5de839186691aa96ee2ca6d74f0a38fb8d1bd6dd
 sha256 | entityType이 File인 경우 *사용할 수 있습니다.*<br>파일 또는 프로세스와 관련된 경고에 대한 파일 해시입니다. | 28cb017dfc99073aa1b47c1b30f413e3ce774c4991eb4158de50f9dbb36d8043
 fileName | entityType이 File인 경우 *사용할 수 있습니다.*<br>파일 또는 프로세스와 연결된 경고의 파일 이름 | Detector.UnitTests.dll
 filePath | entityType이 File인 경우 *사용할 수 있습니다.*<br>파일 또는 프로세스와 연결된 경고의 파일 경로 | C: \\ \agent_work_temp\Deploy\SYSTEM\2020-09-06 12_14_54\Out

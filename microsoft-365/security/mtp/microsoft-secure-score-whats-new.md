@@ -1,6 +1,6 @@
 ---
 title: Microsoft 보안 점수의 새로운
-description: Microsoft 365 보안 센터의 Microsoft 보안 점수에 대한 새로운 변경 내용에 대해 설명
+description: Microsoft 365 보안 센터에서 Microsoft 보안 점수에 대한 새로운 변경 내용에 대해 설명
 keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 보안 센터
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -32,7 +32,7 @@ ms.locfileid: "49930597"
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft 보안 점수가 보안 자세를 보다 잘 대표할 수 있도록 몇 가지 변경 내용을 적용해보아야 합니다. 계획된 변경에 대한 자세한 내용은 Microsoft 보안 점수의 출시 [예정을 참조하세요.](microsoft-secure-score-whats-coming.md)
+Microsoft 보안 점수가 보안 자세를 보다 잘 대표할 수 있도록 몇 가지 변경을 적용하고 있습니다. 계획된 변경에 대한 자세한 내용은 Microsoft 보안 점수의 출시 [예정을 참조하세요.](microsoft-secure-score-whats-coming.md)
 
 Microsoft 보안 점수는 https://security.microsoft.com/securescore Microsoft [365](overview-security-center.md)보안 센터에서 찾을 수 있습니다.
 
@@ -67,9 +67,9 @@ Share > **ServiceNow로** 진행하여 보안 점수를 통해 ServiceNow 티켓
 
 ## <a name="october-2020"></a>2020년 10월
 
-### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender와 관련된 개선 작업 제거
+### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender 관련 개선 작업 제거
 
-- 경고할 Microsoft Defender SmartScreen Windows 스토어 앱 웹 콘텐츠 검사 설정
+- 경고를 표시하기 위해 Microsoft Defender SmartScreen Windows 스토어 앱 웹 콘텐츠 확인 설정
 
 ## <a name="august-2020"></a>2020년 8월
 
@@ -79,7 +79,7 @@ Share > **ServiceNow로** 진행하여 보안 점수를 통해 ServiceNow 티켓
 
 ## <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>ID 보안 점수 및 Graph API와의 비호치
 
-Microsoft 보안 점수의 최근 릴리스에서는 향상된 점수 모델이 릴리스되었습니다. 이러한 변경을 통해 보안 자세를 보다 유연하고 정확하게 볼 수 있습니다. 그러나 이러한 업데이트로 Microsoft 보안 점수가 ID 보안 점수 및 Graph API와 일시적으로 양자화되지 않습니다.
+Microsoft 보안 점수의 최근 릴리스에서는 향상된 점수 모델이 릴리스되었습니다. 이러한 변경을 통해 보안 자세를 보다 유연하고 정확하게 볼 수 있습니다. 그러나 이러한 업데이트로 Microsoft 보안 점수가 ID 보안 점수 및 Graph API와 일시적으로 무관하게 됩니다.
 
 시간이 지날 때 ID 보안 점수 및 Graph API는 새로운 점수 매기기 모델을 채택합니다. 그 때까지 고객은 Microsoft 보안 점수, ID 보안 점수 및 Graph API에서 보고한 점수의 차이를 확인할 수 있습니다. 이로 인해 불편을 드려 죄송합니다. 향후 이러한 환경이 더욱 호환되도록 지원하기 위해 작업 중입니다.
 

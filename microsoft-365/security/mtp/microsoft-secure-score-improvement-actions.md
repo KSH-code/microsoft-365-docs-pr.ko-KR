@@ -32,18 +32,18 @@ ms.locfileid: "49930645"
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft 보안 점수는 조직의 보안 자세를 측정한 결과로, 수치가 높을수록 개선 작업이 더 많이 수행됩니다. Microsoft https://security.microsoft.com/securescore [365](overview-security-center.md)보안 센터에서 찾을 수 있습니다.
+Microsoft 보안 점수는 조직의 보안 자세를 측정한 것으로, 수치가 높을수록 개선 작업이 더 많이 수행됩니다. Microsoft https://security.microsoft.com/securescore [365](overview-security-center.md)보안 센터에서 찾을 수 있습니다.
 
 필요한 정보를 보다 빠르게 지원하기 위해 Microsoft 개선 작업은 그룹으로 구성됩니다.
 
-* ID(Azure Active Directory 계정 & 역할)
-* Device (Microsoft Defender for Endpoint, known as [Microsoft Secure Score for Devices)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices)
+* ID(Azure Active Directory 계정 &)
+* 장치(장치용 Microsoft 보안 점수라고도 [하는 끝점용 Microsoft Defender)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices)
 * 앱(Office 365 및 Microsoft Cloud App Security를 포함한 전자 메일 및 클라우드 앱)
 
 >[!NOTE]
->Microsoft 보안 점수의 최근 릴리스에서는 Microsoft 보안 점수가 ID 보안 점수 및 Graph API와 일시적으로 양자화되지 않는 향상된 점수 매기기 모델이 릴리스되었습니다. [자세히 보기](microsoft-secure-score-whats-new.md)
+>Microsoft 보안 점수의 최근 릴리스에서는 Microsoft 보안 점수가 ID 보안 점수 및 Graph API와 일시적으로 양자화되지 않는 향상된 점수 모델이 릴리스되었습니다. [자세히 보기](microsoft-secure-score-whats-new.md)
 
-Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가 분할된 방식과 사용 가능한 포인트를 들을 수 있습니다. 또한 전체 점수, 벤치마크 비교를 사용하여 보안 점수의 기록 추세, 점수를 개선하기 위해 수행할 수 있는 우선 순위가 높은 개선 작업을 모두 볼 수 있습니다.
+Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가 분할된 방식과 사용 가능한 포인트를 들을 수 있습니다. 또한 전체 점수, 벤치마크 비교를 통해 보안 점수의 기록 추세, 점수를 개선하기 위해 수행할 수 있는 우선 순위가 높은 개선 작업을 모두 볼 수 있습니다.
 
 ![보안 점수 홈페이지](../../media/secure-score/secure-score-homepage-new.png)
 
@@ -91,7 +91,7 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가
 
 - **주소 -** 개선 작업이 필요하다는 사실과 향후에 해결될 계획입니다. 이 상태는 부분적으로 검색되지만 완전히 완료되지 않은 작업에도 적용됩니다.
 - **계획** - 개선 작업을 완료하기 위한 구체적인 계획이 있습니다.
-- **위험 수락** - 보안은 항상 사용 가능성과 균형을 유지해야 합니다. 모든 권장이 사용자 환경에 작동하지는 않습니다. 이 경우 위험 또는 나머지 위험을 수용할 수 있으며 개선 작업을 제정하지 않을 수 있습니다. 점수는 부여되지 않지만 작업이 개선 작업 목록에 더 이상 표시되지 않습니다. 이 작업은 기록으로 보거나 실행 취소할 수 있습니다.
+- **위험 수락** - 보안은 항상 사용 가능성과 균형을 유지해야 합니다. 모든 권장이 사용자 환경에 작동하지는 않습니다. 이 경우 위험 또는 남은 위험을 수용할 수 있으며 개선 작업을 제정하지 않을 수 있습니다. 점수는 부여되지 않지만 작업이 개선 작업 목록에 더 이상 표시되지 않습니다. 이 작업은 기록으로 보거나 실행 취소할 수 있습니다.
 - **타사를** 통해 해결되고 대체 완화를 통해 **해결되었습니다.** 개선 작업은 타사 응용 프로그램 또는 소프트웨어 또는 내부 도구를 통해 이미 해결되었습니다. 작업의 가치가 있는 점수를 얻을 수 있으므로 점수가 전반적인 보안 자세를 더 잘 반영합니다. 타사 또는 내부 도구가 더 이상 컨트롤을 다루지 못하면 다른 상태를 선택할 수 있습니다. 개선 작업이 이러한 상태 중 하나로 표시되어 있는 경우 Microsoft는 구현의 완전한 상태를 확인할 수 없습니다.
 
 #### <a name="threat--vulnerability-management-improvement-actions"></a>위협 & 관리 개선 작업
@@ -116,7 +116,7 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가
 
 ## <a name="we-want-to-hear-from-you"></a>의견을 보내 주세요.
 
-문제가 있는 경우 보안, 개인 정보 보호 및 규정 준수 커뮤니티에 게시하여 [& 알려주세요.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티를 모니터링하고 있으며 도움을 제공할 것입니다.
+문제가 있는 경우 보안, 개인 정보 보호 및 규정 준수 커뮤니티에 & [알려주세요.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티를 모니터링하고 있으며 도움을 제공할 것입니다.
 
 ## <a name="related-resources"></a>관련 리소스
 

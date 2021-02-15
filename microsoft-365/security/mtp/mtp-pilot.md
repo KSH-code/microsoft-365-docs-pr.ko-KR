@@ -50,20 +50,20 @@ ms.locfileid: "49933033"
 이 가이드에서는 Microsoft 365 Defender에 대한 개요와 파일럿 프로젝트를 설정하는 방법에 대한 단계별 지침을 제공합니다. 
 
 Microsoft 365 Defender는 엔드포인트, ID, 전자 메일 및 응용 프로그램에서 기본적으로 보호, 탐지, 예방, 조사 및 대응을 조정하여 정교한 공격으로부터 통합된 보호를 제공하는 통합 사전 및 사후 위반 엔터프라이즈 방어 제품군입니다. 이를 위해 다음 기능을 결합하고 단일 보안 솔루션으로 오케스트레이션합니다.
-  - 끝점용 Microsoft Defender, Microsoft Defender Advanced Threat Protection의 새 이름(끝점)
+  - Microsoft Defender for Endpoint, Microsoft Defender Advanced Threat Protection의 새 이름(끝점)
   - Office 365 ATP의 새로운 이름인 Office 365용 Microsoft Defender(전자 메일) 
   - Azure ATP의 새 이름인 ID용 Microsoft Defender(ID) 
   - Microsoft Cloud App Security(앱)
 
-![사용자용 이미지 of_Microsoft 365 Defender 솔루션, ID용 Microsoft Defender, 끝점용 Microsoft Defender, 클라우드 앱용, Microsoft Cloud App Security 및 데이터용, Office 365용 Microsoft Defender](../../media/mtp/m365pillars.png)
+![클라우드 of_Microsoft, Microsoft Cloud App Security 및 데이터용 끝점용 Microsoft Defender for Identity에 대한 사용자용 이미지 365 Defender 솔루션, ID용 Microsoft Defender](../../media/mtp/m365pillars.png)
 
-통합된 Microsoft 365 Defender 솔루션을 사용하여 보안 전문가는 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, ID용 Microsoft Defender 및 Microsoft Cloud App Security가 받는 위협 신호를 통합하고 위협의 전체 범위와 영향, 위협이 환경에 들어오고 있는 방법, 영향을 받는 방법 및 현재 조직에 미치는 영향을 확인할 수 있습니다. Microsoft 365 Defender는 공격을 방지하거나 중지하고 영향을 받는 사서함, 끝점 및 사용자 ID를 자체적으로 예방하거나 중지하는 자동 조치를 취합니다. 자세한 내용은 [Microsoft 365 Defender 개요를](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 참조하세요.
+통합된 Microsoft 365 Defender 솔루션을 사용하여 보안 전문가는 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, ID용 Microsoft Defender 및 Microsoft Cloud App Security에서 수신하는 위협 신호를 통합하고 위협의 전체 범위와 영향, 위협이 환경에 들어오고 있는 방법, 영향을 받는 방법 및 현재 조직에 미치는 영향을 확인할 수 있습니다. Microsoft 365 Defender는 공격을 방지하거나 중지하고 영향을 받는 사서함, 끝점 및 사용자 ID를 자체적으로 예방하거나 중지하는 자동 조치를 취합니다. 자세한 내용은 [Microsoft 365 Defender 개요를](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 참조하세요.
 
 
 
-다음 샘플 타임라인은 환경에 적합한 리소스를 배치하는 데 따라 다릅니다. 일부 검색 및 워크플로는 다른 검색 및 워크플로보다 학습 시간이 더 필요할 수 있습니다.
+다음 샘플 타임라인은 환경에 적합한 리소스가 있는 데 따라 다릅니다. 일부 검색 및 워크플로는 다른 검색 및 워크플로보다 학습 시간이 더 필요할 수 있습니다.
 
-![Microsoft 365 Defender 파일럿 실행 샘플 타임라인](../../media/phase-diagrams/pilot-phases.png)
+![Microsoft 365 Defender 파일럿을 실행하는 샘플 타임라인](../../media/phase-diagrams/pilot-phases.png)
 
 >[!IMPORTANT]
 >최적의 결과를 얻기 위해 가능한 한 파일럿 지침을 따르세요.

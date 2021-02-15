@@ -57,7 +57,7 @@ ms.locfileid: "49930189"
 Microsoft 365 Defender 환경을 최적화하기 위해  지원되는 [모든 Microsoft 365](deploy-supported-services.md)보안 제품 및 서비스를 배포하는 것이 좋습니다.
 
 ## <a name="where-does-microsoft-365-defender-process-and-store-my-data"></a>Microsoft 365 Defender는 어디에서 데이터를 처리하고 저장하나요?
-Microsoft 365 Defender는 통합 데이터가 처리되고 저장되는 데이터 센터에 대한 최적의 위치를 자동으로 선택합니다. 끝점용 Microsoft Defender가 있는 경우 끝점에 대해 Defender에서 사용하는 동일한 위치를 선택합니다.
+Microsoft 365 Defender는 통합 데이터가 처리되고 저장되는 데이터 센터에 대한 최적의 위치를 자동으로 선택합니다. 끝점용 Microsoft Defender가 있는 경우 끝점용 Defender에서 사용하는 동일한 위치를 선택합니다.
 
 >[!NOTE]
 >끝점용 Microsoft Defender는 Azure Defender를 통해 켜져 있는 경우 유럽 연합(EU) 데이터 센터에서 자동으로 프로비전합니다. Microsoft 365 Defender는 이 방식으로 끝점용 Microsoft Defender를 프로비전한 고객을 위해 동일한 EU 데이터 센터에서 자동으로 프로비전합니다. 

@@ -31,7 +31,7 @@ ms.locfileid: "50044770"
 
 eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수 있도록 Microsoft 365 eDiscovery 도구에는 이제 전자 메일 메시지에 첨부되고 Exchange Online에서 전송되는 암호화된 파일의 암호 해독이 통합되어 있습니다. 또한 SharePoint Online 및 비즈니스용 OneDrive에 저장된 암호화된 문서는 Advanced eDiscovery에서 암호 해독됩니다. 
 
-이 새 기능 이전에는 권한 관리로 보호된 전자 메일 메시지의 콘텐츠(첨부되지 않은 파일)만 암호 해독했습니다. SharePoint 및 OneDrive의 암호화된 문서는 eDiscovery 워크플로 중에 암호를 해독할 수 없습니다. 이제 Microsoft 암호화 기술로 암호화된 파일이 전자 메일 메시지에 첨부되거나 SharePoint 또는 OneDrive 계정에 있는 경우 검색 결과가 미리 보기를 준비하고 Advanced eDiscovery의 검토 집합에 추가되고 내보내면 암호화된 항목의 암호가 해독됩니다. 이를 통해 eDiscovery 관리자는 검색 결과를 미리 볼 때 암호화된 전자 메일 첨부 파일 및 사이트 문서의 콘텐츠를 보고 Advanced eDiscovery의 검토 집합에 추가된 후 검토할 수 있습니다.
+이 새 기능 이전에는 권한 관리(및 첨부되지 않은 파일)로 보호된 전자 메일 메시지의 콘텐츠만 암호 해독했습니다. SharePoint 및 OneDrive의 암호화된 문서는 eDiscovery 워크플로 중에 암호를 해독할 수 없습니다. 이제 Microsoft 암호화 기술로 암호화된 파일이 전자 메일 메시지에 첨부되거나 SharePoint 또는 OneDrive 계정에 있는 경우 검색 결과가 미리 보기를 준비하고 Advanced eDiscovery의 검토 집합에 추가되고 내보내면 암호화된 항목의 암호가 해독됩니다. 이를 통해 eDiscovery 관리자는 검색 결과를 미리 볼 때 암호화된 전자 메일 첨부 파일 및 사이트 문서의 콘텐츠를 보고 Advanced eDiscovery의 검토 집합에 추가된 후 검토할 수 있습니다.
 
 ## <a name="supported-encryption-technologies"></a>지원되는 암호화 기술
 
@@ -55,7 +55,7 @@ Microsoft eDiscovery 도구는 Microsoft 암호화 기술로 암호화된 항목
 
 - 사용자는 문서에 레이블을 수동으로 적용할 때 사용 권한을 할당할 수 있습니다. 이를 사용자 정의 *권한이라고도 합니다.*<br/>
 
-- 문서에 대한 사용자 액세스에는 만료 설정이 사용 안 하도록 **설정되어 있습니다.**
+- 문서에 대한 사용자 액세스에는 만료 설정이 'Never' 외의 값으로 **설정되어 있습니다.**
 
 이러한 설정에 대한 자세한 내용은 민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠에 대한 액세스 제한의 "암호화 설정 구성" [섹션을 참조하세요.](encryption-sensitivity-labels.md#configure-encryption-settings)
 
@@ -65,4 +65,4 @@ Microsoft eDiscovery 도구는 Microsoft 암호화 기술로 암호화된 항목
 
 Microsoft 암호화 기술로 암호화된 파일을 미리 보고 검토하고 내보내기 위해 RMS 암호 해독 역할을 할당해야 합니다. Advanced eDiscovery의 검토 집합에 추가된 암호화된 파일을 검토하고 쿼리하려면 이 역할도 할당해야 합니다.
 
-이 역할은 기본적으로 Office 365 보안 및  준수 센터의 사용 권한 페이지에서 eDiscovery 관리자 역할 & 할당됩니다. RMS 암호 해독 역할에 대한 자세한 내용은 [eDiscovery 권한 할당을 참조하세요.](assign-ediscovery-permissions.md#rms-decrypt)
+이 역할은 기본적으로 Office 365 보안 및  준수 센터의 사용 권한 페이지에서 eDiscovery 관리자 & 할당됩니다. RMS 암호 해독 역할에 대한 자세한 내용은 [eDiscovery 권한 할당을 참조하세요.](assign-ediscovery-permissions.md#rms-decrypt)

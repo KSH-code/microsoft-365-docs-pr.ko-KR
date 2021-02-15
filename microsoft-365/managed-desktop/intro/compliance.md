@@ -44,7 +44,7 @@ Microsoft Managed Desktop은 다음 인증을 획득했습니다.
 제어 및 기술 요구 사항을 비롯한 관련 정보는 Microsoft 클라우드 서비스 서비스에 대한 중앙 저장소인 [STP(Service Trust](https://servicetrust.microsoft.com/)Portal)에서 찾을 수 있습니다. STP의 감사 보고서 섹션에서 감사 보고서, [](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) 준수 인증서를 다운로드할 수 있습니다.
 
 > [!NOTE]
-> Microsoft Managed Desktop은 Azure에서 실행하기 때문에 관련 문서에는 일반적으로 "Microsoft Azure, Dynamics 365 및 기타 온라인 서비스"과 같은 파일 이름이 있습니다. 이러한 문서에서는 일반적으로 "Microsoft Online Services" 또는 "모니터링 + 관리" 범주에서 Microsoft Managed Desktop을 찾을 수 있습니다.
+> Microsoft Managed Desktop은 Azure에서 실행하기 때문에 관련 문서에는 일반적으로 "Microsoft Azure, Dynamics 365 및 기타 온라인 서비스"과 같은 파일 이름이 있습니다. 이러한 문서에서는 일반적으로 "Microsoft Online Services" 또는 "모니터링 + 관리" 범주 아래에서 Microsoft Managed Desktop을 찾을 수 있습니다.
 
 ## <a name="shared-responsibility"></a>공유 책임
 

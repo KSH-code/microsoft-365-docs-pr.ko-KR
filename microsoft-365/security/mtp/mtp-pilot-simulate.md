@@ -65,7 +65,7 @@ ms.locfileid: "49933057"
 
 3. 테스트 장치 구성을 확인합니다.
 
-   1. 디바이스는 Windows 10 버전 1903 이상 버전에서 실행됩니다.
+   1. 디바이스는 Windows 10 버전 1903 이상 버전으로 실행됩니다.
 
    1. 테스트 장치가 테스트 도메인에 가입됩니다.
 
@@ -99,11 +99,11 @@ ms.locfileid: "49933057"
 4. 프롬프트에서 복사한 스크립트를 붙여넣고 실행합니다.
 
 > [!NOTE]
-> RDP(원격 데스크톱 프로토콜)를 사용하여 PowerShell을 실행하는 경우 **Ctrl-V** 바로 가기 키 또는 마우스 오른쪽 단추 클릭 붙여넣기 메서드가 작동하지 않을 수 있기 때문에 RDP 클라이언트에서 클립보드 텍스트 형식 명령을 사용합니다. 최신 버전의 PowerShell도 해당 메서드를 수락하지 않는 경우도 있습니다. 메모리의 메모장에 먼저 복사하여 가상 머신에 복사한 다음 PowerShell에 붙여 넣아야 할 수 있습니다.
+> RDP(원격 데스크톱 프로토콜)를 사용하여 PowerShell을 실행하는 경우 **CTRL-V** 바로 가기 키 또는 마우스 오른쪽 단추 클릭 붙여넣기 메서드가 작동하지 않을 수 있기 때문에 RDP 클라이언트에서 클립보드 텍스트 형식 명령을 사용합니다. 최신 버전의 PowerShell도 해당 메서드를 수락하지 않는 경우도 있습니다. 메모리의 메모장에 먼저 복사하여 가상 머신에 복사한 다음 PowerShell에 붙여 넣아야 할 수 있습니다.
 
 몇 초 후에 <i>notepad.exe</i> 열립니다. 시뮬레이트된 공격 코드는 해당 코드에 notepad.exe. 전체 시나리오를 경험할 수 있는 자동 생성된 메모장 인스턴스를 열어 두십시오.
 
-시뮬레이트된 공격 코드는 외부 IP 주소(C2 서버 시뮬레이트)와 통신한 다음 SMB를 통해 도메인 컨트롤러에 대한 확인을 시도합니다.
+시뮬레이트된 공격 코드는 외부 IP 주소(C2 서버 시뮬레이트)와 통신한 다음 SMB를 통해 도메인 컨트롤러에 대한 재조정을 시도합니다.
 
 이 스크립트가 완료되면 PowerShell 콘솔에 메시지가 표시됩니다.
 
@@ -120,7 +120,7 @@ ran NetSessionEnum against [DC Name] with return code result 0
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bzwz?]
 
-SOC 분석가의 시선으로 전환하면 Microsoft 365 보안 센터 포털에서 공격 조사를 시작할 수 있습니다.
+SOC 분석가의 시선으로 전환하면 이제 Microsoft 365 보안 센터 포털에서 공격 조사를 시작할 수 있습니다.
 
 1. 모든 장치에서 [Microsoft 365 보안](https://security.microsoft.com/incidents) 센터 포털 인시던트 큐를 열 수 있습니다.
 
@@ -179,7 +179,7 @@ SOC 분석가가 이러한 고급 공격을 Catch할 수 있도록, 끝점용 Mi
 
 #### <a name="alert-unexpected-behavior-observed-by-a-process-run-with-no-command-line-arguments-source-microsoft-defender-for-endpoint-edr"></a>경고: 명령줄 인수가 없는 프로세스 실행으로 관찰되는 예기치 않은 동작(원본: Endpoint EDR용 Microsoft Defender)
 
-끝점 검색을 위한 Microsoft Defender는 종종 공격 기술의 가장 일반적인 특성을 대상으로 합니다. 이 방법은 지속성을 보장하고 공격자가 최신 전략으로 전환할 수 있는 방법을 제공합니다.
+끝점 검색을 위한 Microsoft Defender는 종종 공격 기술의 가장 일반적인 특성을 대상으로 합니다. 이 방법을 사용하면 지속성이 보장되고 공격자가 최신 전략으로 전환할 수 있습니다.
 
 당사는 대규모 학습 알고리즘을 사용하여 조직 및 전 세계에 있는 일반적인 프로세스의 정상적인 동작을 설정하고 이러한 프로세스가 이의 동작을 표시하는 경우를 감시합니다. 이러한 특이한 동작은 종종 코드가 도입되고 다른 신뢰할 수 있는 프로세스에서 실행되고 있는 것을 나타냅니다.
 
@@ -199,7 +199,7 @@ IP 주소 세부 정보 페이지를 확인하려면 경고 프로세스 트리�
 
 #### <a name="alert-user-and-ip-address-reconnaissance-smb-source-microsoft-defender-for-identity"></a>경고: SMB(사용자 및 IP 주소 분석)(원본: ID용 Microsoft Defender)
 
-SMB(서버 메시지 블록) 프로토콜을 사용하여 열면 공격자가 네트워크를 통해 나중에 이동하여 특정 중요한 계정에 액세스하는 데 도움이 되는 최근 사용자 로그온 정보를 얻을 수 있습니다.
+SMB(서버 메시지 블록) 프로토콜을 사용하여 열면 공격자가 네트워크를 통해 나중에 이동하여 특정 중요한 계정에 액세스하는 데 도움이 되는 최신 사용자 로그온 정보를 얻을 수 있습니다.
 
 이 검색에서는 도메인 컨트롤러에 대해 SMB 세션 열기가 실행될 때 경고가 트리거됩니다.
 
@@ -207,11 +207,11 @@ SMB(서버 메시지 블록) 프로토콜을 사용하여 열면 공격자가 �
 
 ### <a name="review-the-device-timeline-microsoft-defender-for-endpoint"></a>장치 타임라인 검토[끝점용 Microsoft Defender]
 
-이 인시던트의 다양한 경고를 탐색한 후 앞에서 조사한 문제 페이지로 다시 이동합니다. **인시던트** 페이지의 장치 탭을 선택하여 끝점용 Microsoft Defender 및 ID용 Microsoft Defender에서 보고한 이 인시던트와 관련된 장치를 검토합니다.
+이 인시던트의 다양한 경고를 탐색한 후 앞에서 조사한 인시던트 페이지로 다시 이동합니다. **인시던트** 페이지의 장치 탭을 선택하여 끝점용 Microsoft Defender 및 ID용 Microsoft Defender에서 보고한 이 인시던트와 관련된 장치를 검토합니다.
 
 공격이 수행된 디바이스의 이름을 선택하여 해당 특정 디바이스의 엔터티 페이지를 열 수 있습니다. 해당 페이지에서 트리거된 경고 및 관련 이벤트를 볼 수 있습니다.
 
-시간 **표시** 막대 탭을 선택하여 디바이스 타임라인을 열고 장치에서 관찰된 모든 이벤트 및 동작을 시간 순서대로 보고 경고가 발생하면 표시됩니다.
+시간 **표시** 막대 탭을 선택하여 디바이스 타임라인을 열고 장치에서 관찰된 모든 이벤트 및 동작을 시간 순서대로 보고 경고가 발생했습니다.
 
 ![동작이 있는 장치 타임라인의 스크린샷](../../media/mtp/fig11.png)
 
@@ -248,11 +248,11 @@ Microsoft 365 보안 센터 포털에서 인시던트로 다시 이동합니다.
 - 위협이 발견됩니다. 조사 중에 발견된 알려진 위협.
 
 > [!NOTE]
-> 타이밍에 따라 자동화된 조사가 계속 실행되고 있을 수 있습니다. 증거를 수집 및 분석하고 결과를 검토하기 전에 프로세스가 완료될 때까지 몇 분 정도 기다립니다. 조사 세부 정보 페이지를 **새로** 고쳐 최신 결과를 얻습니다.
+> 시기에 따라 자동화된 조사가 계속 실행되고 있을 수 있습니다. 증거를 수집 및 분석하고 결과를 검토하기 전에 프로세스가 완료될 때까지 몇 분 정도 기다립니다. 조사 세부 정보 페이지를 **새로** 고쳐 최신 결과를 얻습니다.
 
 ![조사 세부 정보 페이지 스크린샷](../../media/mtp/fig15.png)
 
-자동화된 조사가 진행되는 동안 끝점용 Microsoft Defender는 수정이 notepad.exe 아티팩트 중 하나로 삽입된 프로세스가 확인되었습니다. 끝점용 Defender는 자동화된 수정의 일부로 의심스러운 프로세스 주입을 자동으로 중지합니다.
+자동화된 조사 동안 끝점용 Microsoft Defender는 수정이 notepad.exe 아티팩트 중 하나로 삽입된 notepad.exe 프로세스를 확인했습니다. 끝점용 Defender는 자동화된 수정의 일부로 의심스러운 프로세스 주입을 자동으로 중지합니다.
 
 테스트 장치에서 <i>notepad.exe</i> 프로세스 목록에서 사라지는 과정을 볼 수 있습니다.
 
@@ -294,9 +294,9 @@ Microsoft 365 보안 센터 포털에서 인시던트로 다시 이동합니다.
 
 #### <a name="go-hunting"></a>이동 헌팅
 
-1. 검색 포털을 security.microsoft.com 습니다.
+1. 검색 포털을 security.microsoft.com 을 습니다.
 
-2. 고급 **헌팅 > 헌팅으로 이동합니다.**
+2. 고급 **헌팅 > 탐색합니다.**
 
    ![M365 보안 센터 포털 탐색 모음의 고급 헌팅 스크린샷](../../media/mtp/fig17.png)
 
@@ -389,7 +389,7 @@ Microsoft 365 보안 센터 포털에서 인시던트로 다시 이동합니다.
 
 #### <a name="create-a-detection"></a>검색 만들기
 
-향후 발생될 경우 알림을 받을 정보를 식별하는  쿼리를 만든 후 쿼리에서 사용자 지정 검색을 만들 수 있습니다.
+향후 이러한 정보가 발생하면 알림을 받을 정보를 식별하는 쿼리를 만든 후 쿼리에서 사용자 지정 검색을 만들 수 있습니다. 
 
 사용자 지정 검색은 설정한 빈도에 따라 쿼리를 실행하고 쿼리 결과에 따라 선택한 영향을 미치는 자산에 따라 보안 경고가 생성됩니다. 이러한 경고는 인시던트와 상호 관련이 있으며 제품 중 하나에서 생성된 다른 보안 경고로 조사될 수 있습니다.
 
@@ -428,7 +428,7 @@ Microsoft 365 보안 센터 포털에서 인시던트로 다시 이동합니다.
 
    이 페이지에서 세부 정보 페이지를 여는 검색 규칙을 선택할 수 있습니다.
 
-   ![규칙 실행 상태, 트리거된 경고 및 작업, 검색 편집 등 상태를 볼 수 있는 전자 메일 첨부 파일 페이지의 스크린샷](../../media/mtp/fig28.png)
+   ![규칙 실행의 상태를 볼 수 있는 전자 메일 첨부 파일 페이지의 스크린샷, 트리거된 경고 및 작업, 검색 편집 등](../../media/mtp/fig28.png)
 
 ### <a name="additional-advanced-hunting-walk-through-exercises"></a>추가 고급 헌팅 연습
 
@@ -442,7 +442,7 @@ Microsoft 365 보안 센터 포털에서 인시던트로 다시 이동합니다.
 |에피소드 1: KQL 기본 사항|Microsoft 365 Defender의 고급 헌팅 기능의 기본에 대해 다를 것입니다. 사용 가능한 고급 헌팅 데이터와 기본 KQL 구문 및 연산자에 대해 자세히 알아보고,|[MP4](https://aka.ms/MTP15JUL20_MP4)|[YouTube](https://youtu.be/0D9TkGjeJwM)|[에피소드 1: Git의 CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl)|
 |에피소드 2: 조인|고급 헌팅의 데이터와 표를 함께 조인하는 방법에 대해 계속 학습할 것입니다. 내부, 외부, 고유 및 세미 조인과 기본 Kusto 내부 유니크 조인의 미주에 대해 자세히 알아보습니다.|[MP4](https://aka.ms/MTP22JUL20_MP4)|[YouTube](https://youtu.be/LMrO6K5TWOU)|[에피소드 2: Git의 CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl)|
 |에피소드 3: 데이터 요약, 피벗 및 시각화|이제 데이터를 필터링, 조작 및 조인할 수 있습니다. 이제 요약, 수량화, 피벗 및 시각화를 시작할 수 있습니다. 이 에피소드에서는 고급 헌팅 계획의 추가 테이블로 진행하는 동안 수행할 수 있는 계산과 요약 연산자에 대해 다루게 됩니다. 데이터 집합을 분석을 개선하는 데 도움이 될 수 있는 차트로 전환합니다.|[MP4](https://aka.ms/MTP29JUL20_MP4)|[YouTube](https://youtu.be/UKnk9U1NH6Y)|[에피소드 3: Git의 CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%203%20-%20Summarizing%2C%20Pivoting%2C%20and%20Joining.csl)|
-|에피소드 4: 헌트해 보세요! 인시던트 추적에 KQL 적용|일부 공격자 활동을 추적하는 시간입니다! 이 에피소드에서는 Microsoft 365 Defender의 KQL 및 고급 헌팅에 대한 향상된 이해를 사용하여 공격을 추적합니다. 사이버 보안 ABC 및 사고 대응에 적용하는 방법을 포함하여 공격자 활동을 추적하는 데 사용되는 몇 가지 팁과 트릭에 대해 알아보십시오.|[MP4](https://aka.ms/MTP5AUG20_MP4)|[YouTube](https://youtu.be/2EUxOc_LNd8)|[에피소드 4: Git의 CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)|
+|에피소드 4: 헌트해 보세요! 인시던트 추적에 KQL 적용|일부 공격자 활동을 추적하는 시간입니다! 이 에피소드에서는 Microsoft 365 Defender의 KQL 및 고급 헌팅에 대한 향상된 이해를 사용하여 공격을 추적합니다. 사이버 보안 ABC 및 사고 대응에 적용하는 방법을 포함하여 공격자 활동을 추적하는 데 사용되는 몇 가지 팁과 트릭을 알아보십시오.|[MP4](https://aka.ms/MTP5AUG20_MP4)|[YouTube](https://youtu.be/2EUxOc_LNd8)|[에피소드 4: Git의 CSL 파일](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)|
 |
 
 ## <a name="next-step"></a>다음 단계

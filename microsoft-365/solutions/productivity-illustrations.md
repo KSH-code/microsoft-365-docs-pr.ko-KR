@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 생산성 일러스트레이션
-description: Teams 아키텍처 다이어그램과 같은 그림을 사용하여 Microsoft 365 생산성 솔루션을 구현하기 위한 아키텍처 기본을 이해합니다.
+description: Teams 아키텍처 다이어그램과 같은 다음 그림을 사용하여 Microsoft 365 생산성 솔루션을 구현하기 위한 아키텍처 기본을 이해합니다.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -22,7 +22,7 @@ ms.locfileid: "50055559"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Microsoft 365 생산성 일러스트레이션
 
-Microsoft 365 Enterprise 솔루션 시리즈는 Microsoft 365 기능을 구현하기 위한 지침을 제공합니다. 특히 Teams 아키텍처 다이어그램을 비롯한 기술이 교차되는 경우.
+Microsoft 365 Enterprise 솔루션 시리즈는 Microsoft 365 기능을 구현하기 위한 지침을 제공합니다. 특히 Teams 아키텍처 다이어그램을 비롯한 기술이 교차하는 경우.
 
 ### <a name="microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects"></a>IT 설계자용 Microsoft 365의 Microsoft Teams 및 관련 생산성 서비스
 Microsoft Teams로 시장을 선도하는 Microsoft 365 생산성 서비스의 논리적 아키텍처입니다.
@@ -71,11 +71,11 @@ Microsoft 365에는 광범위한 정보 보호 및 규정 준수 기능이 포�
 <a name="BKMK_O365IDP"></a>
 ### <a name="identity-and-device-protection-for-microsoft-365"></a>Microsoft 365의 ID 및 장치 보호
 
-Azure AD 응용 프로그램 프록시를 사용하여 게시된 Microsoft 365, 기타 SaaS 서비스 및프레미스 응용 프로그램에 액세스하는 ID 및 장치를 보호하기 위한 권장 기능입니다.
+Azure AD 응용 프로그램 프록시를 사용하여 게시된 Microsoft 365, 기타 SaaS 서비스 및 프레미스 응용 프로그램에 액세스하는 ID 및 장치를 보호하기 위한 권장 기능입니다.
 
 | 항목 | 설명 |
 |:-----|:-----|
-|[![모델 포스터: Microsoft 365의 ID 및 장치 보호](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [PDF로 보기](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Visio로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> 2020년 9월 업데이트|데이터, ID 및 장치 전반에 걸쳐 일관된 보호 수준을 사용하는 것이 중요합니다. 이 모델에서는 ID 및 장치를 보호하기 위한 기능에 대한 자세한 정보와 비교할 수 있는 기능을 보여줍니다.  <br/> |
+|[![모델 포스터: Microsoft 365의 ID 및 장치 보호](../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br/>  [PDF로 보기](../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Visio로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)   <br/> 2020년 9월 업데이트|데이터, ID 및 장치 전반에 걸쳐 일관된 보호 수준을 사용하는 것이 중요합니다. 이 모델에서는 ID 및 장치를 보호하기 위한 기능에 대한 자세한 정보와 비교할 수 있는 기능을 보여 제공합니다.  <br/> |
  
 <a name="BKMK_ediscovery"></a>
 ### <a name="advanced-ediscovery-architecture-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 아키텍처

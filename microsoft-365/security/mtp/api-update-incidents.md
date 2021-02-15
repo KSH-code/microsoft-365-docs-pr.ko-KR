@@ -40,7 +40,7 @@ ms.locfileid: "49929073"
 
 ## <a name="api-description"></a>API 설명
 
-기존 인시던트의 속성을 업데이트합니다. 업데이트할 수 있는 속성은 ```status``` , ```determination``` 및 ```classification``` ```assignedTo``` ```tags``` .
+기존 인시던트의 속성을 업데이트합니다. 업데이트할 수 있는 속성은 ```status``` , , , 및 ```determination``` ```classification``` ```assignedTo``` ```tags``` .
 
 ### <a name="quotas-resource-allocation-and-other-constraints"></a>할당량, 리소스 할당 및 기타 제약 조건
 
@@ -49,9 +49,9 @@ ms.locfileid: "49929073"
 
 요청이 스로틀된 경우 응답 `429` 코드가 반환됩니다. 응답 본문은 새 통화를 시작할 수 있는 시간을 나타냅니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
-이 API를 호출하려면 다음 권한 중 하나를 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Microsoft 365 Defender API 액세스를 참조합니다.](api-access.md)
+이 API를 호출하려면 다음 권한 중 하나를 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Microsoft 365 Defender API](api-access.md)액세스를 참조합니다.
 
 사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 -|-|-
@@ -71,8 +71,8 @@ PATCH /api/incidents/{id}
 
 이름 | 유형 | 설명
 -|-|-
-권한 부여 | 문자열 | Bearer {token}. **필수 .**
-Content-Type | 문자열 | application/json. **필수 .**
+권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+Content-Type | 문자열 | application/json. **필수입니다**.
 
 ## <a name="request-body"></a>요청 본문
 
@@ -83,7 +83,7 @@ Content-Type | 문자열 | application/json. **필수 .**
 status | Enum | 경고의 현재 상태를 지정합니다. 가능한 값은 ```Active``` , ```Resolved``` 및 ```Redirected``` .
 assignedTo | 문자열 | 인시던트의 소유자입니다.
 classification | Enum | 경고 사양입니다. 가능한 값은 ```Unknown``` ```FalsePositive``` , , ```TruePositive``` .
-determination | Enum | 경고 결정 가능한 값은 ```NotAvailable``` ```Apt``` , ```Malware``` ```SecurityPersonnel``` ```SecurityTesting``` ```UnwantedSoftware``` ```Other``` 입니다.
+determination | Enum | 경고 결정 가능한 값은 ```NotAvailable``` ```Apt``` , ```Malware``` , , , ```SecurityPersonnel``` , , ```SecurityTesting``` ```UnwantedSoftware``` ```Other``` 입니다.
 tags | string List | 인시던트 태그 목록입니다.
 
 ## <a name="response"></a>응답

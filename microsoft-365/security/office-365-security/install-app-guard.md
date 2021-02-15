@@ -27,7 +27,7 @@ ms.locfileid: "50094882"
 
 **적용된 사항은 다음입니다.** Microsoft 365용 Word, Excel 및 PowerPoint, Windows 10 Enterprise
 
-Microsoft Defender Application Guard for Office(Office용 Application Guard)는 신뢰할 수 없는 파일이 신뢰할 수 있는 리소스에 액세스하지 못하게 하여 새로운 공격으로부터 엔터프라이즈를 안전하게 보호합니다. 이 문서에서는 관리자에게 Office용 Application Guard의 미리 보기에 대한 디바이스를 설정하는 데 대해 간행합니다. 디바이스에서 Office용 Application Guard를 사용하도록 설정하기 위한 시스템 요구 사항 및 설치 단계에 대한 정보를 제공합니다.
+Microsoft Defender Application Guard for Office(Application Guard for Office)를 사용하면 신뢰할 수 없는 파일이 신뢰할 수 있는 리소스에 액세스하지 못하게 하여 엔터프라이즈를 새로운 공격으로부터 안전하게 보호할 수 있습니다. 이 문서에서는 관리자에게 Office용 Application Guard의 미리 보기에 대한 디바이스를 설정하는 데 대해 간행합니다. 디바이스에서 Office용 Application Guard를 사용하도록 설정하기 위한 시스템 요구 사항 및 설치 단계에 대한 정보를 제공합니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -77,7 +77,7 @@ Microsoft Defender Application Guard for Office(Office용 Application Guard)는 
 
 ### <a name="set-diagnostics--feedback-to-send-full-data"></a>전체 데이터를 & 진단 및 피드백 설정
 
-이 단계에서는 문제를 식별하고 해결하는 데 필요한 데이터가 Microsoft에 도달하는지 확인할 수 있습니다. Windows 장치에서 진단을 사용하도록 설정하려면 다음 단계를 따르세요.
+이 단계를 통해 문제를 식별하고 해결하는 데 필요한 데이터가 Microsoft에 도달하게 됩니다. Windows 장치에서 진단을 사용하도록 설정하려면 다음 단계를 따르세요.
 
 1. 시작 **메뉴에서** 설정을 니다.
 
@@ -97,7 +97,7 @@ Windows 진단 설정 구성에 대한 자세한 내용은 조직에서 Windows 
 
 Office용 Application Guard를 사용하도록 설정되어 있는지 확인하기 전에 정책이 배포된 장치에서 Word, Excel 또는 PowerPoint를 실행합니다. Office가 정품 인증되어 있는지 확인합니다. 먼저 작업 ID를 사용하여 Office 제품을 정품 인증해야 할 수 있습니다.
 
-Office용 Application Guard를 사용하도록 설정되어 있는지 확인을 위해 Word, Excel 또는 PowerPoint를 시작한 다음, 트러설되지 않은 문서를 열 수 있습니다. 예를 들어 인터넷에서 다운로드한 문서나 조직 외부의 사용자가 전자 메일 첨부 파일을 열 수 있습니다.
+Office용 Application Guard를 사용하도록 설정되어 있는지 확인을 위해 Word, Excel 또는 PowerPoint를 실행한 다음, 트러설되지 않은 문서를 여는 것이 좋습니다. 예를 들어 인터넷에서 다운로드한 문서나 조직 외부의 사용자가 전자 메일 첨부 파일을 열 수 있습니다.
 
 처음에 트러설이 없는 파일을 열면 다음 예와 같이 Office 시작 화면이 표시될 수 있습니다. Office용 Application Guard가 활성화되고 파일이 열리면서 일부 시간 동안 표시될 수 있습니다. 이후에는 더 빠르게 파일을 열 수 있습니다.
 
@@ -123,10 +123,10 @@ Office는 Office용 Application Guard의 기능을 구성할 수 있도록 다�
 |정책|설명|
 |---|---|
 |Office용 Application Guard를 사용하지 않습니다.|이 정책을 사용하도록 설정하면 Word, Excel 및 PowerPoint에서 Office용 Application Guard 대신 보호된 보기를 사용하도록 강제로 설정됩니다. 이 정책은 Microsoft Edge를 사용하도록 설정한 채로 두는 데 문제가 있는 경우 Office용 Application Guard를 일시적으로 사용하지 않도록 설정하는 데 사용할 수 있습니다.|
-|Office 컨테이너 사전 만들기를 위한 Application Guard 구성|이 정책은 Office 컨테이너용 Application Guard가 런타임 성능을 향상하기 위해 트러설되지 않은 파일을 확인하는 데 미리 만들어지 있는지 여부를 판정합니다. 이 설정을 사용하면 컨테이너를 계속 미리 만들기 전까지의 일 수를 지정하거나 Office에서 기본 제공 이후 컨테이너를 미리 만들 수 있도록 할 수 있습니다.
+|Office 컨테이너 사전 생성을 위한 Application Guard 구성|이 정책은 Office 컨테이너용 Application Guard가 런타임 성능을 향상하기 위해 트러설되지 않은 파일을 확인하는 데 미리 만들어지 있는지 여부를 판정합니다. 이 설정을 사용하면 컨테이너를 계속 미리 만들기 전까지의 일 수를 지정하거나 Office에서 기본 제공 이후 컨테이너를 미리 만들 수 있도록 할 수 있습니다.
 |Office용 Application Guard에서 연 Office 문서의 복사/붙여넣기 허용 안|이 정책을 사용하도록 설정하면 사용자가 Office용 Application Guard에서 연 문서의 콘텐츠를 복사하여 외부에서 연 문서에 붙여넣을 수 없습니다.|
 |Office용 Application Guard에서 하드웨어 가속 사용 안|이 정책은 Office용 Application Guard가 하드웨어 가속을 사용하여 그래픽을 렌더링하는지 여부를 제어합니다. 이 설정을 사용하면 Office용 Application Guard는 소프트웨어 기반(CPU) 렌더링을 사용하며 타사 그래픽 드라이버를 로드하거나 연결된 그래픽 하드웨어와 상호 작용하지 않습니다.
-|Office용 Application Guard에서 지원되지 않는 파일 형식 보호 해제|이 정책은 Office용 Application Guard가 지원되지 않는 파일 형식이 열리지 못하도록 차단할지 아니면 보호된 보기로 리디렉션을 사용할지 여부를 제어합니다.
+|Office용 Application Guard에서 지원되지 않는 파일 형식 보호 해제|이 정책은 Office용 Application Guard가 지원되지 않는 파일 형식이 열리지 못하도록 차단할지 아니면 보호된 보기로 리디렉션할지 여부를 제어합니다.
 |Office용 Application Guard에서 연 문서에 대한 카메라 및 마이크 액세스 끄기|이 정책을 사용하도록 설정하면 Office용 Application Guard 내부의 카메라 및 마이크에 대한 Office 액세스가 제거됩니다.|
 |Office용 Application Guard에서 연 문서에서 인쇄 제한|이 정책을 사용하도록 설정하면 사용자가 Office용 Application Guard에서 연 파일에서 인쇄할 수 있는 프린터가 제한됩니다. 예를 들어 이 정책을 사용하여 사용자가 PDF로만 인쇄하도록 제한할 수 있습니다.|
 |사용자가 파일에서 Office 보호를 위한 Application Guard를 제거하지 못하게 방지|이 정책을 사용하면 Office 응용 프로그램 환경 내에서 Office 보호용 Application Guard를 사용하지 않도록 설정하거나 Office용 Application Guard 외부에서 파일을 여는 옵션이 제거됩니다. <p> **참고:** 사용자는 파일에서 웹 표시 속성을 수동으로 제거하거나 문서를 신뢰할 수 있는 위치로 이동하여 이 정책을 무시할 수 있습니다.|
@@ -153,7 +153,7 @@ Office용 Application Guard를 시작하면 피드백 허브를 통해 피드백
 
 4. 경험한 문제와 자세한 설명 상자에 수행한 단계에  대한 자세한 설명을 입력하고 다음을 **선택합니다.**
 
-5. 문제 옆에 있는 거품을 **선택합니다.** 선택한 범주가 보안 및 개인 정보 **\> 보호 Microsoft Defender Application Guard (Office)이고** 다음을 **선택합니다.**
+5. 문제 옆의 거품을 **선택합니다.** 선택한 범주가 보안 및 개인 정보 **\> 보호 Microsoft Defender Application Guard (Office)이고** 다음을 **선택합니다.**
 
 6. 새 **피드백을 선택하고** 다음을 **선택합니다.**
 
@@ -208,7 +208,7 @@ Office용 Application Guard는 격리된 환경에서 발생하는 악성 활동
 
 * 설치 후 Application Guard를 처음 시작하려면 네트워크 연결이 필요합니다. Application Guard에서 라이선스의 유효성을 검사하려면 연결이 필요합니다.
 
-* 문서의 정보 섹션에서 *마지막* 수정한 사용자 속성은 **WDAGUtilityAccount를** 사용자로 표시할 수 있습니다. WDAGUtilityAccount는 Application Guard에 구성된 익명 사용자입니다. 데스크톱 사용자의 ID는 Application Guard 컨테이너 내에서 공유되지 않습니다.
+* 문서의 정보 섹션에서 *마지막으로* 수정한 By 속성은 **WDAGUtilityAccount를** 사용자로 표시할 수 있습니다. WDAGUtilityAccount는 Application Guard에 구성된 익명 사용자입니다. 데스크톱 사용자의 ID는 Application Guard 컨테이너 내에서 공유되지 않습니다.
 
 ## <a name="performance-optimizations-for-application-guard-for-office"></a>Office용 Application Guard의 성능 최적화
 

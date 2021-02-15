@@ -176,7 +176,7 @@ Last updated: **10/16/2020**
 
 ### <a name="entrustnet-certification-authority-2048"></a>**Entrust.net Certification Authority (2048)**
 
-| **제목** | CN=Entrust.net Certification Authority (2048)<br>OU=(c) 1999 Entrust.net Limited<br>OU=www.entrust.net/CPS \_ 2048 incorp. ref. (liab 제한)<br>O=Entrust.net |
+| **제목** | CN=Entrust.net Certification Authority (2048)<br>OU=(c) 1999 Entrust.net Limited<br>OU=www.entrust.net/CPS \_ 2048 incorp. ref. (liab를 제한합니다.)<br>O=Entrust.net |
 | --- | --- |
 | **일련 번호** | 38:63:DE:F8 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
@@ -277,7 +277,7 @@ Last updated: **10/16/2020**
 | **서명 알고리즘** | sha256RSA |
 | **이전이 아닌 유효성** | 11월 12일 12:46:55 2009 UTC |
 | **이후가 아닌 유효성** | 11월 5일 08:35:58 2029 UTC |
-| **주체 키 식별자** | 50:19:32:94:94:c4:b5:04:4d:56:d0:c0:83:21:d5:35:55:b0:b1:7a |
+| **주체 키 식별자** | 50:19:32:94:9a:c4:b5:04:4d:56:d0:c0:83:21:d5:35:55:b0:b1:7a |
 | **기관 키 식별자** | keyid:fd:da:14:c4:9f:30:de:21:bd:1e:42:39:fc:ab:63:23:49:e0:f1:84 |
 | **지문(SHA-1)** | 2FC5DE6528CDBE50A14C382FC1DE524FAABF95FC |
 | **지문(SHA-256)** | 6AC159B4C2BC8E729F3B84642EF1286BCC80D775FE278C740ADA468D59439025 |
@@ -448,7 +448,7 @@ Last updated: **10/16/2020**
 
 | **제목** | CN=Entrust Certification Authority - L1C<br>OU= &quot; (c) 2009 Entrust, Inc.&quot;<br>OU=www.entrust.net/rpa는 참조에 의해 통합됩니다.<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | --- | --- |
-| **발급자** | CN=Entrust.net Certification Authority (2048)<br>OU=(c) 1999 Entrust.net Limited<br>OU=www.entrust.net/CPS \_ 2048 incorp. by ref. (limits liab.)<br>O=Entrust.net |
+| **발급자** | CN=Entrust.net Certification Authority (2048)<br>OU=(c) 1999 Entrust.net Limited<br>OU=www.entrust.net/CPS \_ 2048 incorp. 는 ref. (liab를 제한합니다.)<br>O=Entrust.net |
 | **일련 번호** | 4C:0E:8C:39 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha1RSA |
@@ -539,7 +539,7 @@ Last updated: **10/16/2020**
 | **제목** | CN=GlobalSign Organization Validation CA - SHA256 - G2<br>O=GlobalSign nv-sa<br>C=BE |
 | --- | --- |
 | **발급자** | CN=GlobalSign Root CA<br>OU=루트 CA<br>O=GlobalSign nv-sa<br>C=BE |
-| **일련 번호** | 04:00:00:00:01:44:4E:F0:42:47 |
+| **일련 번호** | 04:00:00:00:00:01:44:4E:F0:42:47 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
 | **이전이 아닌 유효성** | 2월 20일 10:00:00 2014 UTC |
@@ -645,7 +645,7 @@ Last updated: **10/16/2020**
 | --- | --- |
 | **발급자** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **일련 번호** | 0D:7B:ED:E9:7D:82:09:96:7A:52:63:1B:8B:DD:18:BD |
-| **공개 키 길이** | RSA 4096 비트 |
+| **공개 키 길이** | RSA 4096비트 |
 | **서명 알고리즘** | sha384RSA |
 | **이전이 아닌 유효성** | 2020년 7월 29일 수요일 오전 5:30 |
 | **다음 기간까지의 유효 기간** | 2024년 6월 27일 목요일 오후 4:59 |
@@ -768,7 +768,7 @@ Last updated: **10/16/2020**
 | --- | --- |
 | **발급자** | CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE |
 | **일련 번호** | 0F:A7:47:22:C5:3D:88:C8:0F:58:9E:FB:1F:9D:4A:3A |
-| **공개 키 길이** | RSA 4096 비트 |
+| **공개 키 길이** | RSA 4096비트 |
 | **서명 알고리즘** | sha256RSA |
 | **이전이 아닌 유효성** | 2020년 7월 21일 화요일 오후 4:00 |
 | **다음 기간까지의 유효 기간** | 2024년 10월 8일 화요일 오전 12:00 |

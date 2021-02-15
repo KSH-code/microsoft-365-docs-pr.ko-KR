@@ -72,7 +72,7 @@ Google Workspace에서 Exchange Online으로 관리자가 실행한 마이그레
 1. 보안 **선택,** 아래로 스크롤 및 **API 컨트롤 열기.** 
 1. 아래로 스크롤하여 도메인 전체 **위임 관리를 선택합니다.**
 1. 새로 **추가를** 선택하고 앞에서 메모한 클라이언트 ID를 입력합니다.
-1. 그런 다음 Google API에 대한 OAuth 범위를 입력합니다. 이러한 단계는 [5단계에서](https://docs.microsoft.com/exchange/mailbox-migration/perform-g-suite-migration#grant-access-to-the-service-account-for-your-google-tenant) aka.ms/GoogleWorkspaceMigration 사용할 수 있으며 다음 중 일부입니다.
+1. 그런 다음 Google API에 대한 OAuth 범위를 입력합니다. 이러한 단계는 [5단계에서](https://docs.microsoft.com/exchange/mailbox-migration/perform-g-suite-migration#grant-access-to-the-service-account-for-your-google-tenant) aka.ms/GoogleWorkspaceMigration 사용할 수 있으며 다음을 제공합니다.
 
     `https://mail.google.com/,https://www.googleapis.com/auth/calendar,https://www.google.com/m8/feeds/,https://www.googleapis.com/auth/gmail.settings.sharing`
  
@@ -88,7 +88,7 @@ Google Workspace에서 Exchange Online으로 관리자가 실행한 마이그레
     도메인 확인은 일반적으로 몇 분 정도 걸리지만 최대 48시간이 걸릴 수 있습니다.
 
 1. [Microsoft 365 관리 센터로 이동하세요.](https://admin.microsoft.com)
-1. Microsoft **365** 관리 센터의 왼쪽 nav에서 모두 표시,   **설정,** 도메인 및 도메인 **추가를 선택합니다.** 
+1. Microsoft **365** 관리 센터의 왼쪽 nav에서 모두 **표시,** **설정,** **도메인** 및 도메인 **추가를 선택합니다.** 
 1. 이전에 만든 하위 도메인을 입력한 다음 이 도메인 **사용을 선택합니다.** 
 1. 도메인을 연결하려면 계속을 **선택합니다.** 
 1. 아래로 스크롤하여 MX 레코드, CNAME 레코드 및 TXT 레코드를 기록합니다. 
@@ -108,7 +108,7 @@ Google Workspace에서 Exchange Online으로 관리자가 실행한 마이그레
 
 마이그레이션을 시작하기 전에 새 하위omain을 사용하여 사용자에 대한 전자 메일 별칭을 만들어야 합니다. 
 
-1. 다음 단계를 시작하려면 Microsoft  365 관리 센터의 도메인 추가 마법사에서 활성 사용자로 **이동을 선택합니다.** 
+1. 다음 단계를 시작하려면 Microsoft  365 관리 센터의 도메인 추가 마법사에서 활성 **사용자로 이동을 선택합니다.** 
 1. 사용자를 선택한 다음 사용자 이름 **및 전자 메일을 관리합니다.** 
 1. 도메인 **드롭다운에서** 이전에 만든 하위 도메인을 선택합니다. 
 1. 사용자 이름을 입력하고 **추가,** 변경 **내용** 저장 및 창을 닫습니다. 

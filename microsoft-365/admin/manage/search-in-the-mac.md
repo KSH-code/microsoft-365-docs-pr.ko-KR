@@ -26,7 +26,7 @@ ms.locfileid: "50054157"
 ---
 # <a name="search-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 검색
 
-Microsoft 365 조직의 관리자는 검색을 사용하여 사용자를 찾고, 작업을 수행하고, 다른 설정으로 이동하고, 설명서를 읽을 수 있습니다. 새 검색 기능을 사용하면 검색 속도가 향상되어 이제 관리 센터의 모든 페이지에서 검색할 수 있습니다. 검색 상자가 관리 센터의 맨 위에 있는 배너 영역으로 이동했습니다. **Alt+S** 바로 가기를 사용하여 모든 페이지에서 검색을 사용할 수 있습니다.
+Microsoft 365 조직의 관리자는 검색을 사용하여 사용자를 찾고, 작업을 수행하고, 다른 설정으로 이동하고, 설명서를 읽을 수 있습니다. 새 검색 기능을 사용하면 검색 속도가 향상되어 이제 관리 센터의 모든 페이지에서 검색할 수 있습니다. 검색 상자가 관리 센터 맨 위에 있는 배너 영역으로 이동했습니다. **Alt+S** 바로 가기를 사용하여 모든 페이지에서 검색을 사용할 수 있습니다.
 
 :::image type="content" source="../../media/search-bar.png" alt-text="스크린샷: Microsoft 365 관리 센터의 검색 표시줄":::
 
@@ -46,7 +46,7 @@ Microsoft 365 조직의 관리자는 검색을 사용하여 사용자를 찾고,
 
 이름 옆에 있는 "추가 작업" 메뉴를 선택하면 암호를 다시 설정할 수 있습니다.
 
-:::image type="content" source="../../media/User-search-stock-picture-reset-password-domain-blanked.png" alt-text="Screenshot: User search with the option to reset password from search result(검색 결과에서 암호를 다시 설정하는 옵션을 사용하여 사용자 검색)":::
+:::image type="content" source="../../media/User-search-stock-picture-reset-password-domain-blanked.png" alt-text="Screenshot: User search with the option to reset password from search result":::
 
 **사용자 검색 결과를 개선하기 위한 팁**
 
@@ -89,7 +89,7 @@ You can find quick links to your domains, and then the link will take you to tha
 
 ## <a name="documentation"></a>설명서
 
-문서 검색은 검색 구를 기반으로 관련 도움말 설명서를 제공합니다. 자세한 내용을 보려면 이 항목을 클릭합니다.
+문서 검색은 검색 구를 기반으로 관련 도움말 설명서를 제공합니다. 자세한 내용을 보려면 항목을 클릭합니다.
 
 :::image type="content" source="../../media/search-for-docs-mac.png" alt-text="Screenshot: Search showing documentation results in the admin center":::
 

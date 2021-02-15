@@ -46,9 +46,9 @@ OME는 전자 메일 암호화 및 권한 관리 기능을 결합합니다. 권�
 
 새 OME 기능을 사용하려면 다음 계획 중 하나가 필요합니다.
   
-- Office 365 메시지 암호화는 Office 365 Enterprise E3 및 E5, Microsoft Enterprise E3 및 E5, Microsoft 365 Business Premium, Office 365 A1, A3 및 A5 및 Office 365 Government G3 및 G5의 일부로 제공됩니다. 고객은 Azure Information Protection의 새로운 보호 기능을 받기 위해 추가 라이선스가 필요하지 않습니다.
+- Office 365 메시지 암호화는 Office 365 Enterprise E3 및 E5, Microsoft Enterprise E3 및 E5, Microsoft 365 Business Premium, Office 365 A1, A3 및 A5 및 Office 365 Government G3 및 G5의 일부로 제공됩니다. 고객은 Azure Information Protection을 통해 지원된 새로운 보호 기능을 받기 위해 추가 라이선스가 필요하지 않습니다.
 
-- 또한 Azure Information Protection 계획 1을 다음 계획에 추가하여 새 Office 365 메시지 암호화 기능을 받을 수 있습니다. Exchange Online 계획 1, Exchange Online 계획 2, Office 365 F1, Microsoft 365 Business Basic, Microsoft 365 Business Standard 또는 Office 365 Enterprise E1.
+- 또한 Azure Information Protection 계획 1을 다음 계획에 추가하여 새로운 Office 365 메시지 암호화 기능을 받을 수 있습니다. Exchange Online 계획 1, Exchange Online 계획 2, Office 365 F1, Microsoft 365 Business Basic, Microsoft 365 Business Standard 또는 Office 365 Enterprise E1.
 
 - Office 365 메시지 암호화를 통해 혜택을 받을 수 있는 각 사용자는 이 기능을 사용할 수 있도록 라이선스가 부여되어야 합니다.
 
@@ -62,7 +62,7 @@ BYOK에 대한 자세한 내용은 Azure Information Protection 테넌트 키 �
   
 ## <a name="do-ome-and-byok-with-azure-information-protection-change-microsofts-approach-to-third-party-data-requests-such-as-subpoenas"></a>Azure Information Protection을 사용하여 OME 및 BYOK가 소청 등의 타사 데이터 요청에 대한 Microsoft의 접근 방식을 변경합니까?
 
-아니요. OME 및 Azure Information Protection에서 BYOK라는 자체 암호화 키를 제공하고 제어하는 옵션은 사법 기관 소청에 응답하도록 설계되지 않습니다. Azure Information Protection용 BYOK를 사용하여 OME는 규정 준수 중심 고객을 위해 고안된 것입니다. Microsoft는 고객 데이터에 대한 타사 요청을 매우 심각하게 처리합니다. 클라우드 서비스 공급자는 항상 고객 데이터의 개인 정보를 보호합니다. 소속된 경우 항상 타사를 고객에게 리디렉션하여 정보를 얻습니다. (Brad Smith의 블로그: 정부 스누프로부터 고객 데이터 [보호)를 읽어 주세요.](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/) 당사는 수신하는 요청에 대한 자세한 정보를 주기적으로 게시합니다. 타사 데이터 요청에 대한 자세한 내용은 [](https://www.microsoft.com/trustcenter/privacy/govt-requests-for-data) Microsoft 보안 센터에서 고객 데이터에 액세스하기 위한 정부 및 사법 기관 요청에 응답을 참조하세요. 또한 OST(온라인 서비스 약관)의 "고객 데이터 [공개"를 참조하세요.](https://www.microsoft.com/Licensing/product-licensing/products.aspx)
+아니요. OME 및 Azure Information Protection에서 BYOK라는 자체 암호화 키를 제공하고 제어하는 옵션은 사법 기관 소속에 대응하도록 설계되지 않습니다. Azure Information Protection용 BYOK를 사용하여 OME는 규정 준수 중심 고객을 위해 고안된 것입니다. Microsoft는 고객 데이터에 대한 타사 요청을 매우 심각하게 처리합니다. 클라우드 서비스 공급자는 항상 고객 데이터의 개인 정보를 보호합니다. 소속된 경우 항상 타사를 고객에게 리디렉션하여 정보를 얻습니다. (Brad Smith의 블로그: 정부 스누프로부터 고객 데이터 [보호)를 읽어 주세요.](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/) 당사는 수신하는 요청에 대한 자세한 정보를 주기적으로 게시합니다. 타사 데이터 요청에 대한 자세한 내용은 [](https://www.microsoft.com/trustcenter/privacy/govt-requests-for-data) Microsoft 보안 센터에서 고객 데이터에 액세스하기 위한 정부 및 사법 기관 요청에 응답을 참조하세요. 또한 OST(온라인 서비스 약관)의 "고객 데이터 [공개"를 참조하세요.](https://www.microsoft.com/Licensing/product-licensing/products.aspx)
   
 ## <a name="how-is-this-feature-related-to-legacy-office-365-message-encryption-ome-and-information-rights-management-irm-features"></a>이 기능은 레거시 Office 365 메시지 암호화(OME) 및 IRM(정보 권한 관리) 기능과 어떻게 관련이 있나요?
 
@@ -124,7 +124,7 @@ Word, Excel 또는 PowerPoint 파일과 같은 파일 형식이 지원되는 경
 
 Outlook 데스크톱에서는 기본적으로 PDF 파일 첨부 파일의 암호화를 지원하지 않습니다. 대신 먼저 암호화를 PDF 첨부 파일에 적용하려면 Exchange 메일 흐름 규칙 또는 DLP를 설정해야 합니다. PDF 첨부 파일이 있는 Outlook Desktop에서 메일을 보내면 클라이언트는 첨부 파일이 있는 메시지를 먼저 서비스에 전송합니다. 서비스가 파일을 받으면 Exchange Online에서 DLP(데이터 손실 방지) 정책 또는 메일 흐름 규칙의 OME 보호를 적용합니다. 다음으로 Exchange Online은 보호된 PDF 파일 첨부 파일이 있는 메시지를 전송합니다.
 
-PDF 첨부 파일에 대해 암호화를 사용하도록 설정하려면 [Exchange Online PowerShell에서 다음 명령을 실행합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+PDF 첨부 파일에 암호화를 사용하도록 설정하려면 [Exchange Online PowerShell에서 다음 명령을 실행합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
 
 ```powershell
 Set-IRMConfiguration -EnablePdfEncryption $true
@@ -152,9 +152,9 @@ Not yet. 비즈니스용 OneDrive 첨부 파일은 지원되지 않습니다. �
 
 예. Exchange Online의 메일 흐름 규칙을 사용하여 특정 조건에 따라 메시지를 자동으로 암호화합니다. 예를 들어 받는 사람 ID, 받는 사람 도메인 또는 메시지 본문이나 제목의 콘텐츠에 기반하는 정책을 만들 수 있습니다. [Office 365에서](define-mail-flow-rules-to-encrypt-email.md)전자 메일 메시지를 암호화하는 메일 흐름 규칙 정의를 참조하세요.
   
-## <a name="can-i-automatically-remove-encryption-on-incoming-and-outgoing-mail"></a>받는 메일과 보내기 메일의 암호화를 자동으로 제거할 수 있나요?
+## <a name="can-i-automatically-remove-encryption-on-incoming-and-outgoing-mail"></a>받는 메일과 보낸 메일의 암호화를 자동으로 제거할 수 있나요?
 
-관리자는 메일 흐름 규칙을 설정하여 보낸 메일에 대한 암호화를 제거할 수 있습니다. 받는 메일에 대한 암호화를 제거하는 규칙을 설정할 수 없습니다.
+관리자는 메일 흐름 규칙을 설정하여 보낸 메일에 대한 암호화를 제거할 수 있습니다. 받는 메일에 대한 암호화를 제거하기 위한 규칙을 설정할 수 없습니다.
 
 ## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies-in-data-loss-prevention-dlp-through-the-security-amp-compliance-center"></a>보안 준수 센터를 통해 DLP(데이터 손실 방지)에서 정책을 설정하여 메시지를 자동으로 암호화할 &amp; 수 있나요?
 
@@ -223,7 +223,7 @@ Not yet. 비즈니스용 OneDrive 첨부 파일은 지원되지 않습니다. �
 
 사용자는 직접 액세스 권한이 부여되고 automapping이 켜져 있는 한 암호화된 메시지를 열 수 있습니다. 전자 메일 사용이 가능한 보안 그룹을 통해 액세스 권한이 부여된 경우 액세스가 허용되지 않습니다.
 
-## <a name="what-do-i-do-if-i-dont-receive-the-one-time-pass-code-after-i-requested-it"></a>요청한 후 일회성 코드가 수신되지 않는 경우 어떻게 해야 하나요?
+## <a name="what-do-i-do-if-i-dont-receive-the-one-time-pass-code-after-i-requested-it"></a>요청한 후 일회성 코드를 받지 못하면 어떻게 하나요?
 
 먼저 전자 메일 클라이언트에서 정크 또는 스팸 폴더를 확인합니다. 조직의 DKIM 및 DMARC 설정으로 인해 이러한 전자 메일이 스팸으로 필터링될 수 있습니다.
 

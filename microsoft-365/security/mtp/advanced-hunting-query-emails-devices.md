@@ -83,7 +83,7 @@ Department, City, Country
 ```
 
 ### <a name="get-device-information"></a>장치 정보 얻기
-고급 [헌팅 계획은](advanced-hunting-schema-tables.md) 다양한 표에 광범위한 장치 정보를 제공합니다. 예를 들어 [DeviceInfo](advanced-hunting-deviceinfo-table.md) 테이블은 정기적으로 집계된 이벤트 데이터를 기반으로 포괄적인 장치 정보를 제공합니다. 이 쿼리는 테이블을 사용하여 손상된 사용자()가 장치에 로그온한 다음 해당 장치에서 트리거된 경고를 `DeviceInfo` `<account-name>` 나열합니다.
+고급 [헌팅 계획은](advanced-hunting-schema-tables.md) 다양한 표에 광범위한 장치 정보를 제공합니다. 예를 들어 [DeviceInfo](advanced-hunting-deviceinfo-table.md) 테이블은 정기적으로 집계된 이벤트 데이터를 기반으로 포괄적인 장치 정보를 제공합니다. 이 쿼리는 테이블을 사용하여 손상된 사용자()가 모든 장치에 로그온한 다음 해당 장치에서 트리거된 경고를 `DeviceInfo` `<account-name>` 나열합니다.
 
 >[!Tip]
 > 이 쿼리는 내부 조인을 지정하는 데 사용 에 대한 왼쪽 값의 중복 `kind=inner` 제거를 [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor) `DeviceId` 방지합니다.
@@ -121,7 +121,7 @@ LogonTime = Timestamp, AccountDisplayName, Application, Protocol, DeviceName, Lo
 ```
 
 ### <a name="get-logon-attempts-by-domain-accounts-targeted-by-credential-theft"></a>자격 증명 도난을 대상으로 하는 도메인 계정의 로그온 시도
-이 쿼리는 먼저 테이블의 모든 자격 증명 액세스 경고를 `AlertInfo` 식별합니다. 그런 다음 테이블을 병합하거나 조인하여 대상 계정의 이름과 도메인에 가입된 계정에 대한 필터만 구문 `AlertEvidence` 분석합니다. 마지막으로, 이 테이블을 검사하여 도메인에 가입된 대상 계정의 모든 로그온 `IdentityLogonEvents` 활동을 얻습니다.
+이 쿼리는 먼저 테이블의 모든 자격 증명 액세스 경고를 `AlertInfo` 식별합니다. 그런 다음 테이블을 병합하거나 조인하여 대상 계정의 이름을 구문 분석하고 도메인에 가입된 계정에 대한 `AlertEvidence` 필터만 구문 분석합니다. 마지막으로, 이 테이블을 검사하여 도메인에 가입된 대상 계정의 모든 로그온 `IdentityLogonEvents` 활동을 얻습니다.
 
 ```kusto
 AlertInfo

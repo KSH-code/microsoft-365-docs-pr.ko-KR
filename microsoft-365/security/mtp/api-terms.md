@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender API 라이선스 및 사용 약관
 description: Microsoft 365 Defender의 API에 대한 라이선스 및 사용 약관에 대한 설명
-keywords: api, api, 사용권, 사용 조건, api, 법적, 고지, 행동 강령
+keywords: api, api, 사용권, 약관, api, 법적, 고지, 행동 강령
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy

@@ -108,7 +108,7 @@ Exchange Online 및 SharePoint Online이 있는 모든 Microsoft 365 구독은 �
 > [!NOTE]
 > Microsoft 365 서비스 패밀리 및 계획에 대한 자세한 내용은 [Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)계획 옵션을 참조하세요.
 
-Exchange 전용 계획이 있는 경우 Outlook에서 그룹의 공유 받은 편지함 및 공유 일정 기능을 계속 얻을 수 있지만 문서 라이브러리, Planner 또는 기타 기능은 사용할 수 없습니다.
+Exchange 전용 요금제가 있는 경우 Outlook에서 그룹의 공유 받은 편지함 및 공유 일정 기능을 계속 얻을 수 있지만 문서 라이브러리, Planner 또는 기타 기능은 사용할 수 없습니다.
 
 Microsoft 365 그룹은 Azure Active Directory와 함께 작동됩니다. 사용하는 그룹 기능은 사용하는 Azure Active Directory 구독과 그룹의 이끌이에게 할당된 라이선스에 따라 달라 니다.
 

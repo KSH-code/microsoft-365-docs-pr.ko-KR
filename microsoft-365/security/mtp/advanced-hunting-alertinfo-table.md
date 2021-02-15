@@ -1,6 +1,6 @@
 ---
 title: 고급 헌팅chema의 AlertInfo 표
-description: 고급 헌팅 스마의 AlertInfo 표에서 경고 생성 이벤트에 대해 자세히 알아보기
+description: 고급 헌팅 schema의 AlertInfo 표에 있는 경고 생성 이벤트에 대해 자세히
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, 표, 열, 데이터 형식, 설명, AlertInfo, 경고, 심각도, 범주, MITRE, ATT&CK, Microsoft Defender ATP, MDATP, Office 365 ATP, Microsoft Cloud App Security, MCAS 및 Azure ATP
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150

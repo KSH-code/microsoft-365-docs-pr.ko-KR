@@ -27,7 +27,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49929589"
 ---
-# <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>올바른 설정을 사용하여 고급 헌팅 범위 확장
+# <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>올바른 설정으로 고급 헌팅 범위 확장
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
