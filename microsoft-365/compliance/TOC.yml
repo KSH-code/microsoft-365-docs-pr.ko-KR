@@ -156,7 +156,7 @@
           href: sensitivity-labels-teams-groups-sites.md
         - name: SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
           href: sensitivity-labels-sharepoint-onedrive-files.md
-        - name: Office 앱의 민감도 레이블 사용
+        - name: Office 앱의 민감도 레이블 관리
           href: sensitivity-labels-office-apps.md
     - name: 암호화
       items:
