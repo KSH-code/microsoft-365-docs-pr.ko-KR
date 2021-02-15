@@ -16,13 +16,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.custom: seo-marvel-apr2020
-description: PowerShell 스크립트를 사용하여 Search-UnifiedAuditLog cmdlet를 실행하고 감사 로그를 검색합니다. 이 스크립트는 대량 (최대 50,000개) 감사 레코드를 반환하도록 최적화되었습니다. 이 스크립트는 이러한 레코드를 Excel의 Power Query를 사용하여 보거나 변환할 수 있는 CSV 파일로 내보냅니다.
-ms.openlocfilehash: d4fcf59297747d0499f6616438299ad8cbe96d7f
-ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
+description: Exchange Online에서 Search-UnifiedAuditLog cmdlet을 실행하여 감사 로그를 검색하는 PowerShell 스크립트를 사용하세요. 이 스크립트는 대량 감사 레코드 집합(최대 50,000개)을 반환하는 데 최적화되어 있습니다. 이 스크립트는 이러한 레코드를 Excel의 Power Query를 사용하여 보거나 변환할 수 있는 CSV 파일로 내보냅니다.
+ms.openlocfilehash: 3d44054d8d1111fe86e06460f5ca4d442d0d1625
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50094789"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233332"
 ---
 # <a name="use-a-powershell-script-to-search-the-audit-log"></a>PowerShell 스크립트를 사용하여 감사 로그 검색
 
@@ -80,7 +80,7 @@ $intervalMinutes = 60
 
 Function Write-LogFile ([String]$Message)
 {
-    $final = [DateTime]::Now.ToString("s") + ":" + $Message
+    $final = [DateTime]::Now.ToUniversalTime().ToString("s") + ":" + $Message
     $final | Out-File $logFile -Append
 }
 
@@ -101,7 +101,7 @@ while ($true)
         break
     }
 
-    $sessionID = [DateTime]::Now.ToString("s")
+    $sessionID = [Guid]::NewGuid().ToString() + "_" +  "ExtractLogs" + (Get-Date).ToString("yyyyMMddHHmmssfff")
     Write-LogFile "INFO: Retrieving audit records for activities performed between $($currentStart) and $($currentEnd)"
     Write-Host "Retrieving audit records for activities performed between $($currentStart) and $($currentEnd)"
     $currentCount = 0
@@ -137,14 +137,13 @@ while ($true)
 
 Write-LogFile "END: Retrieving audit records between $($start) and $($end), RecordType=$record, PageSize=$resultSize, total count: $totalCount."
 Write-Host "Script complete! Finished retrieving audit records for the date range between $($start) and $($end). Total count: $totalCount" -foregroundColor Green
-
 ```
 
 2. 다음 표에 나열된 변수를 수정하여 검색 기준을 구성합니다. 스크립트에는 이러한 변수에 대한 표본 값이 포함되어 있지만 특정 요구 사항을 충족하도록 이러한 값을 변경해야 합니다.
 
    |변수|샘플 값|설명|
    |---|---|---|
-   |`$logFile`|"d:\temp\AuditSearchLog.txt"|스크립트에서 수행한 감사 로그 검색 진행률에 대한 정보를 포함하는 로그 파일의 이름과 위치를 지정합니다.|
+   |`$logFile`|"d:\temp\AuditSearchLog.txt"|스크립트에서 수행한 감사 로그 검색 진행률에 대한 정보를 포함하는 로그 파일의 이름과 위치를 지정합니다. 스크립트에서 로그 파일에 UTC 타임스탬프를 작성합니다.|
    |`$outputFile`|"d:\temp\AuditRecords.csv"|스크립트에서 반환한 감사 레코드가 들어 있는 CSV 파일의 이름과 위치를 지정합니다.|
    |`[DateTime]$start` 및 `[DateTime]$end`|[DateTime]::UtcNow.AddDays(-1) <br/>[DateTime]::UtcNow|감사 로그 검색의 날짜 범위를 지정합니다. 스크립트는 지정된 날짜 범위 내에서 발생한 감사 활동에 대한 레코드를 반환합니다. 예를 들어 2021년 1월에 수행된 작업을 반환하려면 시작 날짜 `"2021-01-01"`과(와) 종료 날짜 `"2021-01-31"`을(를) 사용할 수 있습니다(이중 따옴표로 묶어야 함). 스크립트의 샘플 값은 이전 24시간 동안 수행된 작업에 대한 레코드를 반환합니다. 값에 타임스탬프를 포함하지 않을 경우 기본 타임스탬프는 지정된 날짜에 오전 12:00(자정)입니다.|
    |`$record`|"AzureActiveDirectory"|검색할 감사 작업의 레코드 유형(*작업* 이라고도 함)을 지정합니다. 이 속성은 활동이 트리거된 서비스 또는 기능을 나타냅니다. 이 변수에 사용할 수 있는 레코드 유형 목록은 [감사 로그 레코드 유형](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#auditlogrecordtype)을 참조하십시오. 레코드 유형 이름 또는 ENUM 값을 사용할 수 있습니다. <br/><br/>**팁** 모든 레코드 유형에 대한 감사 레코드를 반환하려면 `$null` 값을 사용하세요(더블 따옴표 없음).|

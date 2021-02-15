@@ -15,17 +15,17 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: QR 코드를 사용하여 Outlook 모바일을 인증하고 다운로드하는 방법을 학습합니다.
-ms.openlocfilehash: b9e433e0c7d3f5f3466924b318e242e5ac29181c
-ms.sourcegitcommit: 719b89baca1bae14455acf2e517ec18fc473636c
+ms.openlocfilehash: 1e5207a2792b557689a306fa1474a2c5fac81ed9
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50122375"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242357"
 ---
 # <a name="use-a-qr-code-to-sign-in-to-the-outlook-mobile-apps"></a>QR 코드를 사용하여 Outlook 모바일 앱에 로그인
 
 > [!IMPORTANT]
-> 이 Microsoft 365 기능은 공개 미리 보기에 있습니다. 공개 미리 보기에서는 Microsoft 365 기능에 미리 액세스할 수 있습니다.
+> 이 기능은 Microsoft 365 관리 센터에서 대상 지정 릴리스를 설정한 조직에서만 사용할 수 있습니다. 대상 지정 릴리스를 켜고 작동 방식에 대한 자세한 내용은 표준 또는 대상 지정 릴리스 옵션 설정을 [참조하세요.](release-options-in-office-365.md) 공개 미리 보기를 통해 몇 주 후에 더 많은 조직으로 확장할 예정입니다. 공개 미리 보기에서는 Microsoft 365 기능에 미리 액세스할 수 있습니다.
 
 Microsoft 365 관리자는 사용자가 사용자 이름과 암호를 입력하지 않고도 모바일 장치에서 Android 또는 iOS용 Outlook 앱에 로그인하도록 할 수 있습니다. QR 코드를 검사하면 사용자는 안전하게 인증하고 Outlook 모바일에 로그인할 수 있습니다.
 
@@ -36,7 +36,7 @@ Microsoft 365 관리자는 사용자가 사용자 이름과 암호를 입력하�
 
 ## <a name="use-exchange-powershell"></a>Exchange PowerShell 사용
 
-이 환경은 기본적으로 설정되어 있습니다. 이 기능을 사용하지 않도록 설정하기 위해 아래 단계를 따르세요.
+이 기능은 기본적으로 켜져 있습니다. 이 기능을 사용하지 않도록 설정하기 위해 아래 단계를 따르세요.
 
 1. [Exchange PowerShell에 연결합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
 2. PowerShell을 사용하여 사용자에게 Outlook 모바일 앱에 대해 알리는 알림을 사용하지 않도록 설정할 수 있습니다. 이렇게 하면 QR 코드 로그인 흐름이 표시되지 않습니다.

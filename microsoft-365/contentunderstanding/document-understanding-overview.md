@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint 구문에서 문서 이해 개요 얻기
-ms.openlocfilehash: c0396c8e702d3e32db93d26dba23ab038546bea0
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: d2bf581468eeee008d09a242876bed5ad07ae01f
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976522"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242413"
 ---
 # <a name="document-understanding-overview"></a>문서 이해 개요
 
@@ -46,15 +46,50 @@ ms.locfileid: "49976522"
 
 예제 파일을 사용하여 모델에서 분류자와 추출자를 성향 습득하고 테스트 할 수 있습니다. 예제 파일에서는 파일에서 데이터를 식별하고 추출하려고 할 때 검색할 항목의 모델 예제를 제공합니다. 예를 들어, 사용자의 회사가 사용하는 계약 갱신 문서 예제를 사용하여 계약 갱신 분류자와 추출자를 성향 습득 할 수 있습니다. 예제 파일을 사용하여 모델의 효율성을 테스트 할 수 있습니다.
 
-> [!NOTE]
-> OCR(광학 문자 인식) 기술을 사용하여 문서를 스캔하는 경우 Syntex는 모델 교육을 위해 15페이지로 제한됩니다.
-
 모델을 게시 한 후 콘텐츠 센터를 사용하여 액세스 권한이 있는 모든 SharePoint 문서 라이브러리에 적용 합니다.  
+
+### <a name="file-limitations"></a>파일 제한 사항
+
+문서 이해 모델에서는 OCR(광학 인식) 기술을 사용하여 예제 파일이 있는 모델을 교육하고 문서 라이브러리의 파일에 대해 모델을 실행할 때 모두 PDF, 이미지 및 TIFF 파일을 스캔합니다.
+
+Microsoft Office 텍스트 기반 파일과 OCR로 스캔한 파일(PDF, 이미지 또는 TIFF)과 관련하여 다음과 같은 차이점에 유의하세요.
+
+- Office 파일: 교육 중 및 문서 라이브러리의 파일에 대해 실행할 때 64K자로 잘라냅니다.
+- OCR로 스캔한 파일: 20페이지 제한이 있습니다.  
+
+#### <a name="supported-file-types"></a>지원되는 파일 형식
+
+문서 이해 모델에서는 다음 파일 형식을 지원합니다.
+
+- doc
+- docx
+- eml
+- heic
+- heif
+- htm
+- html
+- jpeg
+- jpg
+- markdown
+- md
+- msg
+- pdf
+- png
+- ppt
+- pptx
+- rtf
+- tif
+- tiff
+- txt
+- xls
+- xlsx
+
+
 
 ## <a name="see-also"></a>참고 항목
 [분류자 만들기](create-a-classifier.md)
 
-[추출기 만들기](create-an-extractor.md)
+[추출자 만들기](create-an-extractor.md)
 
 [콘텐츠 센터 만들기](create-a-content-center.md)
 
@@ -65,3 +100,5 @@ ms.locfileid: "49976522"
 [문서 이해와 양식 처리 모델의 차이](difference-between-document-understanding-and-form-processing-model.md)
   
 [양식 처리 개요](form-processing-overview.md)
+
+[SharePoint Syntex 접근성 모드](accessibility-mode.md)

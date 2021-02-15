@@ -30,7 +30,7 @@ ms.locfileid: "50150799"
 
 **적용 대상**
 - [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
 
 이제 조직의 최신 보안 경계는 다양한 디바이스로 모든 위치에서 클라우드 기반 앱에 액세스하는 사용자를 포함하기 위해 네트워크 이상으로 확장됩니다. 보안 인프라는 특정 액세스 요청을 허용할지 여부와 조건에 따라 결정해야 합니다.
 
@@ -73,13 +73,13 @@ ID 및 장치 액세스 설정 및 정책은 기준 보호, 중요한 보호 및
 
 대부분의 조직은 보안 및 데이터 보호에 관한 구체적 요구 사항을 가지고 있습니다. 이러한 요구 사항은 산업 부문 및 조직 내의 직무 기능에 따라 달라집니다. 예를 들어 법무 부서와 관리자는 다른 사업부에 필요하지 않은 전자 메일 서신과 관련한 추가 보안 및 정보 보호 제어가 필요할 수 있습니다.
 
-또한 각 산업마다 자체의 전문화된 규정을 가지고 있습니다. 가능한 모든 보안 옵션 목록이나 산업 부문 또는 직무 기능별로 권장 사항을 제공하는 대신, 요구의 세분성에 따라 적용할 수 있는 세 가지 보안 및 보호 계층에 대한 권장 사항이 제공되었습니다.
+또한 각 산업마다 자체의 전문화된 규정을 가지고 있습니다. 가능한 모든 보안 옵션 또는 산업 부문 또는 직무 기능별로 권장 사항 목록을 제공하는 대신, 요구의 세분성에 따라 적용할 수 있는 세 가지 보안 및 보호 계층에 대한 권장 사항이 제공되었습니다.
 
 - **기준 보호:** 데이터에 액세스하는 ID 및 장치뿐만 아니라 데이터를 보호하기 위한 최소 표준을 설정하는 것이 좋습니다. 이러한 기준 권장 사항을 따라 많은 조직의 요구를 충족하는 강력한 기본 보호를 제공할 수 있습니다.
 - **중요한 보호:** 일부 고객은 더 높은 수준에서 보호해야 하는 데이터의 하위 집합을 들이거나 모든 데이터를 더 높은 수준에서 보호해야 할 수 있습니다. Microsoft 365 환경의 모든 또는 특정 데이터 집합에 강화된 보호를 적용할 수 있습니다. 중요 데이터에 액세스하는 ID와 장치를 유사한 보안 수준으로 보호하는 것이 좋습니다.
 - **높은 규제**: 일부 조직은 고도로 분류되거나, 거래 비밀을 구성하거나, 규제 대상 데이터인 소량의 데이터를 사용할 수 있습니다. Microsoft는 ID와 장치에 대한 추가된 보호를 포함하여 조직이 이러한 요구 사항을 충족하는 데 도움이 되는 기능을 제공합니다.
 
-![보안 원목 - 모든 > 일부 고객은 특정 > 있습니다. 특정 응용 프로그램에 대한 광범위한 응용 프로그램](../../media/microsoft-365-policies-configurations/M365-idquality-threetiers.png)
+![보안 원호 - 모든 > 일부 고객은 특정 > 있습니다. 특정 응용 프로그램에 대한 광범위한 응용 프로그램](../../media/microsoft-365-policies-configurations/M365-idquality-threetiers.png)
 
 이 지침은 이러한 각 보호 계층에 대해 ID 및 장치에 대한 보호를 구현하는 방법을 보여 주며, 이 지침을 조직의 시작 지점으로 활용하고 조직의 특정 요구 사항에 맞게 정책을 조정합니다.
 
@@ -89,7 +89,7 @@ ID 및 장치 액세스 설정 및 정책은 기준 보호, 중요한 보호 및
 
 [![Microsoft 365 포스터의 ID 및 장치 보호에 대한 축소판 이미지](../../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br> [PDF로 보기](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [Visio로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)  
 
-또한 Microsoft 365에 저장된 정보를 보호하기 위한 데이터 개인 정보 보호 규정 솔루션 배포를 참조하세요. [](../../solutions/information-protection-deploy.md)
+또한 Microsoft 365에 저장된 정보를 보호하기 위해 데이터 개인 정보 보호 규정 솔루션 배포를 참조하세요. [](../../solutions/information-protection-deploy.md)
 
 ## <a name="security-and-productivity-trade-offs"></a>보안과 생산성의 절충
 
@@ -115,7 +115,7 @@ Azure AD는 전체 ID 관리 기능 제품군을 제공합니다. 이러한 기�
 |기능 또는 특징|설명|라이선싱|
 |---|---|---|
 |[MFA(Multi-Factor Authentication)](/azure/active-directory/authentication/concept-mfa-howitworks)|MFA를 사용하려면 사용자가 사용자 암호와 Microsoft Authenticator 앱의 알림 또는 전화 통화와 같은 두 가지 인증 형식을 제공해야 합니다. MFA는 도난된 자격 증명을 사용하여 환경에 액세스할 수 있는 위험을 크게 줄입니다. Microsoft 365는 MFA 기반 로그인에 Azure AD 다단계 인증 서비스를 사용 합니다.|Microsoft 365 E3 혹은 E5|
-|[조건부 액세스](/azure/active-directory/conditional-access/overview)|Azure AD는 사용자 로그인의 조건을 평가하고 조건부 액세스 정책을 사용하여 허용된 액세스를 파악합니다. 예를 들어 이 지침에서는 중요한 데이터에 대한 액세스에 대한 장치 준수를 요구하는 조건부 액세스 정책을 만드는 방법을 보여 주겠습니다. 이렇게 하면 해커가 자신의 장치를 소유하고 자격 증명을 훔친 경우 중요한 데이터에 액세스할 수 있는 위험이 크게 줄어듭니다. 또한 디바이스가 상태 및 보안에 대한 특정 요구 사항을 충족해야 하기 때문에 장치의 중요한 데이터를 보호합니다.|Microsoft 365 E3 혹은 E5|
+|[조건부 액세스](/azure/active-directory/conditional-access/overview)|Azure AD는 사용자 로그인의 조건을 평가하고 조건부 액세스 정책을 사용하여 허용된 액세스를 파악합니다. 예를 들어 이 지침에서는 중요한 데이터에 대한 액세스에 대한 장치 준수를 요구하는 조건부 액세스 정책을 만드는 방법을 보여 주겠습니다. 이렇게 하면 해커가 자신의 장치를 소유하고 자격 증명을 도난당하여 중요한 데이터에 액세스할 수 있는 위험이 크게 줄어듭니다. 또한 디바이스가 상태 및 보안에 대한 특정 요구 사항을 충족해야 하기 때문에 장치의 중요한 데이터를 보호합니다.|Microsoft 365 E3 혹은 E5|
 |[Azure AD 그룹](/azure/active-directory/fundamentals/active-directory-manage-groups)|조건부 액세스 정책, Intune을 사용하여 장치 관리, 조직의 파일 및 사이트에 대한 사용 권한까지 사용자 계정 또는 Azure AD 그룹에 할당해야 합니다. 구현하는 보호 수준에 해당하는 Azure AD 그룹을 만드는 것이 좋습니다. 예를 들어 임원진은 해커의 가치 목표가 더 높을 수 있습니다. 따라서 이러한 직원의 사용자 계정을 Azure AD 그룹에 추가하고 이 그룹을 조건부 액세스 정책 및 액세스에 대한 높은 수준의 보호를 적용하는 기타 정책에 할당하는 것이 타당합니다.|Microsoft 365 E3 혹은 E5|
 |[장치 등록](/azure/active-directory/devices/overview)|Azure AD에 장치를 등록하여 디바이스에 대한 ID를 만들 수 있습니다. 이 ID는 사용자가 로그인할 때 디바이스를 인증하고 도메인에 가입되거나 호환되는 PC가 필요한 조건부 액세스 정책을 적용하는 데 사용됩니다. 이 지침에서는 장치 등록을 사용하여 도메인에 가입된 Windows 컴퓨터를 자동으로 등록합니다. 장치 등록은 Intune을 사용하여 디바이스를 관리하기 위한 선행 필요합니다.|Microsoft 365 E3 혹은 E5|
 |[Azure AD ID 보호](/azure/active-directory/identity-protection/overview)|조직의 ID에 영향을 주는 잠재적인 취약점을 감지하고 낮은, 중간 및 높은 로그인 위험 및 사용자 위험으로 자동 수정 정책을 구성할 수 있습니다. 이 지침은 이러한 위험 평가를 통해 다단계 인증에 대한 조건부 액세스 정책을 적용합니다. 이 지침에는 또한 계정에 대해 높은 위험 활동이 감지된 경우 사용자가 암호를 변경해야 하는 조건부 액세스 정책도 포함되어 있습니다.|Microsoft 365 E5, ID가 & 위협 방지 추가 기능, EMS E5 또는 Azure Premium P2 라이선스가 있는 Microsoft 365 E3|
@@ -135,7 +135,7 @@ Intune 및 Azure AD 개체, 설정 및 하위 서비스를 포함하여 ID 및 �
 
 [Intune 앱 보호](https://docs.microsoft.com/intune/app-protection-policy) 정책은 장치를 관리에 등록하거나 등록하지 않고 모바일 앱에서 조직의 데이터를 보호하는 데 사용할 수 있습니다. Intune은 정보를 보호하여 직원이 여전히 생산성을 잃지 않도록 하여 데이터 손실을 방지하는 데 도움이 됩니다. 앱 수준 정책을 구현하면 회사 리소스에 대한 액세스를 제한하고 데이터를 IT 부서의 제어 내에 유지할 수 있습니다.
 
-이 지침에서는 승인된 앱 사용을 적용하고 이러한 앱을 비즈니스 데이터와 함께 사용할 수 있는 방법을 결정하는 권장 정책을 만드는 방법을 보여줍니다.
+이 지침은 승인된 앱의 사용을 적용하고 이러한 앱을 비즈니스 데이터와 함께 사용하는 방법을 결정하는 권장 정책을 만드는 방법을 보여줍니다.
 
 ### <a name="microsoft-365"></a>Microsoft 365
 
@@ -186,7 +186,7 @@ Azure AD 통합 앱에 대한 ID 및 장치 액세스 구성을 구성하고 롤
 
 예를 들어 Exchange에 대한 추가 변경 사항과 함께 Exchange Online에 대한 모든 Microsoft 365 앱에 사용할 정책을 구성합니다. 이러한 정책을 사용자에게 롤아웃하고 문제를 해결합니다. 그런 다음 추가 변경 내용과 함께 Teams를 추가하고 이를 사용자에게 롤아웃합니다. 그런 다음 추가 변경 내용과 함께 SharePoint를 추가합니다. 모든 Microsoft 365 앱을 포함하도록 이러한 기준 정책을 구성할 수 있을 때까지 나머지 앱을 계속 추가합니다.
 
-마찬가지로, 중요한 앱의 경우 정책 집합을 만들고 한에 하나의 앱을 추가하고 모두 중요한 앱 정책 집합에 포함될 때까지 문제를 해결합니다.
+마찬가지로, 중요한 앱의 경우 정책 집합을 만들고 한에 하나의 앱을 추가하고 모두 중요한 앱 정책 집합에 포함될 때까지 모든 문제를 해결합니다.
 
 일부 의도하지 않은 구성이 생성될 수 있기 때문에 모든 앱에 적용되는 정책 집합을 만들지 않는 것이 좋습니다. 예를 들어 모든 앱을 차단하는 정책은 관리자를 Azure Portal에서 잠글 수 있으며 Microsoft Graph와 같은 중요한 끝점에 대해 제외를 구성할 수 없습니다.
 

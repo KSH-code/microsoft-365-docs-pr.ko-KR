@@ -1,7 +1,7 @@
 ---
 title: Office 365 및 Office 365 GCC에서 TLS 1.2 준비
 description: TLS 1.0 및 1.1에 대한 지원이 비활성화 된 후에 Office 365 및 Office 365 GCC에서 모든 클라이언트-서버 및 브라우저-서버 조합에 대해 TLS 1.2 사용을 준비하는 방법
-author: workshay
+author: kccross
 manager: laurawi
 localization_priority: Normal
 search.appverid:
@@ -13,12 +13,12 @@ ms.author: shmehta
 ms.reviewer: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: 4cc1fc739ee7fbcc4b976ae6e3f220713a53a007
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 8078f5de698adf437e843a423fe9e82c5e4dd8de
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681660"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233122"
 ---
 # <a name="preparing-for-tls-12-in-office-365-and-office-365-gcc"></a>Office 365 및 Office 365 GCC에서 TLS 1.2 준비
 
@@ -35,6 +35,8 @@ TLS 1.0 및 1.1 종속성을 제거하는 방법에 대한 자세한 내용은 �
 2020년 1월부터 이미 TLS 1.0과 1.1의 사용 중단이 시작되었습니다. DoD 또는 GCC High 인스턴스에서 TLS 1.0 또는 1.1을 통해 Office 365에 연결되는 모든 클라이언트, 디바이스 또는 서비스는 지원되지 않습니다. Office 365의 상용 고객의 경우 TLS 1.0 및 1.1의 사용이 2020년 10월 15일부터 시작되고 다음 주와 몇 개월에 한해 출시가 계속됩니다. 
 
 모든 클라이언트-서버 및 브라우저-서버 조합에서는 Office 365 서비스 연결을 유지하기 위해 TLS 1.2(이상의 버전)를 사용하는 것이 좋습니다. 특정 클라이언트-서버 및 브라우저-서버 조합을 업데이트해야 할 수 있습니다.
+
+TLS 1.2를 사용하려면 TLS 1.0 또는 TLS 1.1을 통해 Microsoft 365 API를 호출하는 응용 프로그램을 업데이트해야 합니다. .NET 4.5는 기본적으로 TLS 1.1로 설정됩니다. .NET 구성을 업데이트하려면 클라이언트에서 [TLS(전송 계층 보안) 1.2를](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2-client)사용하도록 설정하는 방법을 참조합니다.
 
 다음 클라이언트는 TLS 1.2를 사용할 수 없습니다. 서비스에 중단 없이 액세스할 수 있도록 클라이언트를 업데이트하세요.
 

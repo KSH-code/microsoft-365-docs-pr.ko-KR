@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: reference
+ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용하여 eDiscovery 관리자가 Microsoft 365에서 검색할 수 있는 사용자 콘텐츠 위치를 제어하는 논리적 경계를 만드는 방법을 알아보겠습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fe6df03491350c33416021523f276e203a416fc9
-ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
+ms.openlocfilehash: 28e61665d286292f8ba301c313fc3d9bb13065c1
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50099738"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233198"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>eDiscovery 조사에 대한 준수 경계 설정
 
@@ -36,15 +36,19 @@ ms.locfileid: "50099738"
   
 ![규정 준수 경계는 eDiscovery 사례에 대한 액세스를 제어하는 기관 및 관리자 역할 그룹에 대한 액세스를 제어하는 검색 권한 필터로 구성됩니다.](../media/M365_ComplianceBoundary_OrgChart_v2.png)
   
-이 예에서 Contoso LTD는 Fourth Coffee와 Coho Winery의 두 자회사로 구성된 조직입니다. 비즈니스를 위해서는 eDiscovery 관리 및 조사자는 해당 기관의 Exchange 사서함, OneDrive 계정 및 SharePoint 사이트만 검색할 수 있도록 요구합니다. 또한 eDiscovery 관리자 및 조사자는 해당 기관에서 eDiscovery 사례만 볼 수 있으며 구성원인 사례에만 액세스할 수 있습니다. 규정 준수 경계가 이러한 요구 사항을 충족하는 방식은 다음과 있습니다.
+이 예에서 Contoso LTD는 Fourth Coffee와 Coho Winery의 두 자회사로 구성된 조직입니다. 비즈니스를 위해서는 eDiscovery 관리 및 조사자는 해당 기관의 Exchange 사서함, OneDrive 계정 및 SharePoint 사이트만 검색할 수 있도록 요구합니다. 또한 eDiscovery 관리자 및 조사자는 해당 기관에서 eDiscovery 사례만 볼 수 있으며 구성원인 사례에만 액세스할 수 있습니다. 또한 이 시나리오에서 조사자는 콘텐츠 위치를 보류하거나 사례에서 콘텐츠를 내보낼 수 없습니다. 규정 준수 경계가 이러한 요구 사항을 충족하는 방식은 다음과 있습니다.
   
 - 콘텐츠 검색의 검색 권한 필터링 기능은 eDiscovery 관리자 및 조사자에서 검색할 수 있는 콘텐츠 위치를 제어합니다. 즉, Fourth Coffee 기관의 eDiscovery 관리자 및 조사자는 Fourth Coffee 자회사의 콘텐츠 위치만 검색할 수 있습니다. Coho Winery 자회사에도 동일한 제한이 적용됩니다.
 
-    역할 그룹은 보안 및 준수 센터에서 eDiscovery 사례를 볼 & 제어합니다. 즉, eDiscovery 관리자 및 조사자는 해당 기관에서 eDiscovery 사례만 볼 수 있습니다.
+- 역할 그룹은 준수 경계에 대해 다음과 같은 기능을 제공합니다.
 
-- 또한 역할 그룹은 eDiscovery 사례에 구성원을 할당할 수 있는 사용자도 제어합니다. 즉, eDiscovery 관리자 및 조사자는 자체가 구성원인 사례에만 구성원을 할당할 수 있습니다.
+  - 보안 및 준수 센터에서 eDiscovery 사례를 볼 & 제어합니다. 즉, eDiscovery 관리자 및 조사자는 해당 기관에서 eDiscovery 사례만 볼 수 있습니다.
 
-규정 준수 경계를 설정하는 프로세스는 다음과 같습니다.
+  - eDiscovery 사례에 구성원을 할당할 수 있는 사용자 제어 즉, eDiscovery 관리자 및 조사자는 자체가 구성원인 사례에만 구성원을 할당할 수 있습니다.
+
+  - 특정 권한을 할당하는 역할을 추가하거나 제거하여 구성원이 수행할 수 있는 eDiscovery 관련 작업을 제어합니다.
+
+준수 경계를 설정하는 프로세스는 다음과 같습니다.
   
 [1단계: 기관을 정의하는 사용자 특성 식별](#step-1-identify-a-user-attribute-to-define-your-agencies)
 
@@ -120,6 +124,8 @@ Contoso 규정 준수 경계 시나리오를 사용하는 경우 4개의 역할 
 
 - Coho Winery Investigators
   
+Contoso 규정 준수 경계 시나리오의 요구 사항을 충족하기  위해  조사자 역할 그룹에서 보류 및 내보내기 역할을 제거하여 조사자는 콘텐츠 위치에 보류를 배치하고 사례에서 콘텐츠를 내보내지 못하도록 합니다.
+
 ## <a name="step-4-create-a-search-permissions-filter-to-enforce-the-compliance-boundary"></a>4단계: 준수 경계를 적용하는 검색 권한 필터 만들기
 
 각 기관에 대해 역할 그룹을 만든 후 다음 단계는 각 역할 그룹을 특정 기관에 연결하고 규정 준수 경계 자체를 정의하는 검색 권한 필터를 만드는 것입니다. 각 기관에 대해 하나의 검색 권한 필터를 만들어야 합니다. 보안 권한 필터를 만드는 데 대한 자세한 내용은 콘텐츠 검색에 대한 사용 권한 필터링 [구성을 참조하십시오.](permissions-filtering-for-content-search.md)
@@ -142,10 +148,10 @@ New-ComplianceSecurityFilter -FilterName <name of filter> -Users <role groups> -
 
     - `Site`: 매개 변수에 정의된 역할 그룹이 검색할 수 있는 OneDrive 계정을 `Users` 지정합니다. OneDrive 필터의 경우 실제 문자열을 사용  `ComplianceAttribute` 합니다. 이 특성은 1단계에서 식별한 특성과 동일한 특성에 매핑됩니다. 이 특성은 2단계에서 제출한 지원 요청의 결과로 OneDrive 계정에 동기화됩니다. *AttributeValue는*  기관을 지정합니다. 이 필터를 사용하면 역할 그룹의 구성원이 특정 기관의 OneDrive 계정만 검색할 수 있습니다. 예를 들면 다음과  `"Site_ComplianceAttribute -eq 'FourthCoffee'"` 같습니다.
 
-    - `Site_Path`: 매개 변수에 정의된 역할 그룹이 검색할 수 있는 SharePoint 사이트를  `Users` 지정합니다. *SharePointURL은* 역할 그룹의 구성원이 검색할 수 있는 기관의 사이트를 지정합니다. 예:  `"Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'"`. 필터와 필터는 -or 연산자로 `Site` `Site_Path` **연결됩니다.**
+    - `Site_Path`: 매개 변수에 정의된 역할 그룹이 검색할 수 있는 SharePoint 사이트를  `Users` 지정합니다. *SharePointURL은* 역할 그룹의 구성원이 검색할 수 있는 기관의 사이트를 지정합니다. 예:  `"Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'"`. 필터와 `Site` `Site_Path` 필터는 **-or 연산자로 연결됩니다.**
 
      > [!NOTE]
-     > 매개 변수 구문에는 `Filters` 필터 *목록이 포함됩니다.* 필터 목록은 사서함 필터와 사이트 필터를 콤보로 구분하여 포함하는 필터입니다. 이전 예제에서는 365와 Mailbox_ComplianceAttribute **구분하는** **Site_ComplianceAttribute** `-Filters "Mailbox_<ComplianceAttribute>  -eq '<AttributeVale> '", "Site_ComplianceAttribute  -eq '<AttributeValue>' -or Site_Path -like '<SharePointURL>*'"` 있습니다. 콘텐츠 검색을 실행하는 동안 이 필터를 처리하면 필터 목록에서 사서함 필터와 사이트 필터 1개 등 두 개의 검색 권한 필터가 만들어집니다. 필터 목록을 사용하는 대신 각 기관에 대해 두 개의 별도 검색 권한 필터,사서함 특성에 대한 검색 권한 필터와 사이트 특성에 대한 필터를 각각 하나씩 만들 수도 있습니다. 두 경우 모두 결과는 동일합니다. 필터 목록을 사용하거나 별도의 검색 권한 필터를 만드는 것은 기본 설정의 문제입니다.
+     > 매개 변수 구문에는 `Filters` 필터 *목록이 포함됩니다.* 필터 목록은 사서함 필터와 사이트 필터를 콤보로 구분하여 포함하는 필터입니다. 이전 예제에서는 365와 Mailbox_ComplianceAttribute **구분하는** **Site_ComplianceAttribute** `-Filters "Mailbox_<ComplianceAttribute>  -eq '<AttributeVale> '", "Site_ComplianceAttribute  -eq '<AttributeValue>' -or Site_Path -like '<SharePointURL>*'"` 있습니다. 콘텐츠 검색을 실행하는 동안 이 필터를 처리하면 필터 목록에서 사서함 필터와 사이트 필터 1개 등 두 개의 검색 권한 필터가 만들어집니다. 필터 목록을 사용하는 대신 각 기관에 대해 두 개의 별도 검색 권한 필터,사서함 특성에 대한 검색 권한 필터와 사이트 특성에 대한 필터를 각각 하나씩 만들 수도 있습니다. 두 경우 모두 결과가 동일합니다. 필터 목록을 사용하거나 별도의 검색 권한 필터를 만드는 것은 기본 설정의 문제입니다.
 
 - `Action`: 필터가 적용되는 준수 검색 작업의 유형을 지정합니다. 예를 들어 매개 변수에 정의된 역할 그룹의 구성원이 콘텐츠 검색을 실행할 때만  `-Action Search` `Users` 필터를 적용합니다. 이 경우 검색 결과를 내보낼 때 필터가 적용되지 않습니다. 준수 경계의 경우 필터가 모든 검색 작업에  `-Action All` 적용 하도록 사용 합니다. 
 
@@ -179,7 +185,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 2. 사례 목록에서 만든 사례의 이름을 클릭합니다.
 
-3. 이 경우 **플라이아웃** 관리 페이지의 역할 그룹 관리에서 **추가** ![ 아이콘 ](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **추가를 클릭합니다.**
+3. 이 사례 **관리 플라이아웃** 페이지의 역할 그룹 관리에서 **추가** 아이콘 ![ ](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **추가를 클릭합니다.**
 
     ![eDiscovery 사례의 구성원으로 역할 그룹 추가](../media/f8b4b557-01b9-4388-85be-b5b5ab7c5629.png)
   
@@ -192,7 +198,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 ## <a name="searching-and-exporting-content-in-multi-geo-environments"></a>Multi-Geo 환경에서 콘텐츠 검색 및 내보내기
 
-검색 권한 필터를 사용하면 [SharePoint Multi-Geo](https://go.microsoft.com/fwlink/?linkid=860840)환경에서 콘텐츠 위치를 검색할 때 내보내기 위해 콘텐츠가 라우팅되는 위치와 검색할 수 있는 데이터 센터를 제어할 수도 있습니다.
+검색 권한 필터를 사용하면 콘텐츠가 내보내기 위해 라우팅되는 위치와 [SharePoint Multi-Geo](https://go.microsoft.com/fwlink/?linkid=860840)환경에서 콘텐츠 위치를 검색할 때 검색할 수 있는 데이터 센터를 제어할 수도 있습니다.
   
 - **검색 결과 내보내기:** 특정 데이터 센터에서 Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 검색 결과를 내보낼 수 있습니다. 즉, 검색 결과를 내보낼 데이터 센터 위치를 지정할 수 있습니다.
 
@@ -231,7 +237,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
    개념을 단순화하기 위해 **Region** 매개 변수는 SharePoint 및 OneDrive에서 콘텐츠를 검색하는 데 사용되는 데이터 센터를 제어합니다. Exchange 콘텐츠 검색은 데이터 센터의 지리적 위치에 바인딩되지 않는 Exchange의 콘텐츠 검색에는 적용되지 않습니다. 또한 동일한 **Region** 매개 변수 값에 따라 내보내기 경로가 라우팅되는 데이터 센터가 지정될 수도 있습니다. 이는 종종 지리적 보드에서 데이터 이동을 제어하는 데 필요합니다.
 
 > [!NOTE]
-> Advanced eDiscovery를 사용하는 경우 **Region** 매개 변수는 데이터를 내보낼 지역을 제어하지 않습니다. 데이터는 조직의 기본 데이터 센터에서 내보낼 수 있습니다. 또한 SharePoint 및 OneDrive에서 콘텐츠를 검색하는 것은 데이터 센터의 지리적 위치에 의해 바인딩되지 않습니다. 모든 데이터 센터가 검색됩니다. Advanced eDiscovery에 대한 자세한 내용은 [Microsoft 365의 Advanced eDiscovery 솔루션 개요를 참조하세요.](overview-ediscovery-20.md)
+> Advanced eDiscovery를 사용하는 경우 **Region** 매개 변수는 데이터가 내보내는 지역을 제어하지 않습니다. 데이터는 조직의 기본 데이터 센터에서 내보낼 수 있습니다. 또한 SharePoint 및 OneDrive에서 콘텐츠를 검색하는 것은 데이터 센터의 지리적 위치에 의해 바인딩되지 않습니다. 모든 데이터 센터가 검색됩니다. Advanced eDiscovery에 대한 자세한 내용은 [Microsoft 365의 Advanced eDiscovery 솔루션 개요를 참조하세요.](overview-ediscovery-20.md)
 
 다음은 준수 경계에 대한 검색 권한 필터를 만들 때 **Region** 매개 변수를 사용하는 예입니다. 이 경우 Fourth Coffee 자회사가 북미에 있으며 Coho Winery가 유럽에 있는 것으로 가정합니다. 
   
@@ -245,7 +251,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 다중 위치 환경에서 콘텐츠를 검색하고 내보낼 때 다음에 유의하세요.
   
-- **지역** 매개 변수가 Exchange 사서함의 검색을 제어하지 않습니다. 사서함을 검색하면 모든 데이터 센터가 검색됩니다. 검색되는 Exchange 사서함의 범위를 제한하려면 검색 권한 필터를 만들거나 변경할 때 **Filters** 매개 변수를 사용합니다. 
+- **지역** 매개 변수가 Exchange 사서함의 검색을 제어하지 않습니다. 사서함을 검색할 때 모든 데이터 센터가 검색됩니다. 검색되는 Exchange 사서함의 범위를 제한하려면 검색 권한 필터를 만들거나 변경할 때 **Filters** 매개 변수를 사용합니다. 
 
 - eDiscovery 관리자가 여러 SharePoint 지역을 검색해야 하는 경우 검색 권한 필터에서 사용할 해당 eDiscovery 관리자에 대해 다른 사용자 계정을 만들어 SharePoint 사이트 또는 OneDrive 계정이 있는 지역을 지정해야 합니다. 이 설정에 대한 자세한 내용은 콘텐츠 검색의 "SharePoint Multi-Geo 환경에서 콘텐츠 검색" [섹션을 참조하세요.](content-search.md#searching-for-content-in-a-sharepoint-multi-geo-environment)
 
@@ -261,7 +267,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 ## <a name="using-compliance-boundaries-for-sharepoint-hub-sites"></a>SharePoint 허브 사이트에 규정 준수 경계 사용
 
-[SharePoint 허브 사이트는](https://docs.microsoft.com/sharepoint/dev/features/hub-site/hub-site-overview) eDiscovery 규정 준수 경계가 따르는 동일한 지리적 또는 기관 경계에 맞춰 조정되는 경우가 종종 있습니다. 즉, 허브 사이트의 사이트 ID 속성을 사용하여 준수 경계를 만들 수 있습니다. 이렇게하려면 SharePoint Online PowerShell에서 [Get-SPOHubSite](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spohubsite#examples) cmdlet을 사용하여 허브 사이트의 SiteId를 얻은 다음 부서 ID 속성에 대해 이 값을 사용하여 검색 권한 필터를 만드면 됩니다.
+[SharePoint 허브 사이트는](https://docs.microsoft.com/sharepoint/dev/features/hub-site/hub-site-overview) eDiscovery 규정 준수 경계를 따르는 동일한 지리적 또는 기관 경계에 맞춰 정렬되는 경우가 종종 있습니다. 즉, 허브 사이트의 사이트 ID 속성을 사용하여 준수 경계를 만들 수 있습니다. 이렇게하려면 SharePoint Online PowerShell에서 [Get-SPOHubSite](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spohubsite#examples) cmdlet을 사용하여 허브 사이트의 SiteId를 얻은 다음 부서 ID 속성에 대해 이 값을 사용하여 검색 권한 필터를 만드면 됩니다.
 
 다음 구문을 사용하여 SharePoint 허브 사이트에 대한 검색 권한 필터를 만들 수 있습니다.
 
@@ -279,7 +285,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Hub Site Security Filter" 
 
 준수 경계를 사용하는 eDiscovery 사례 및 조사를 관리할 때 다음과 같은 제한 사항을 염두에 두어야 합니다.
   
-- 검색을 만들고 실행하는 경우 기관 외부에 있는 콘텐츠 위치를 선택할 수 있습니다. 그러나 검색 권한 필터로 인하여 해당 위치의 콘텐츠는 검색 결과에 포함되지 않습니다.
+- 검색을 만들고 실행하는 경우 기관 외부에 있는 콘텐츠 위치를 선택할 수 있습니다. 그러나 검색 권한 필터 때문에 해당 위치의 콘텐츠는 검색 결과에 포함되지 않습니다.
 
 - eDiscovery 사례의 보류에는 규정 준수 경계가 적용되지 않습니다. 즉, 한 기관의 eDiscovery 관리자가 사용자를 다른 기관에 보류할 수 있습니다. 그러나 eDiscovery 관리자가 보류된 사용자의 콘텐츠 위치를 검색하면 준수 경계가 적용됩니다. 즉, eDiscovery 관리자는 사용자를 보류할 수 있는 경우에도 사용자의 콘텐츠 위치를 검색할 수 없습니다.
 
@@ -291,11 +297,11 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Hub Site Security Filter" 
 
 - 사서함이 라이선스가 허가되지거나 소프트 삭제되면 Azure AD 특성이 더 이상 사서함에 동기화되지 않습니다. 사서함이 삭제될 때 보류된 경우 사서함에 보존된 콘텐츠는 사서함이 삭제되기 전에 마지막으로 Azure AD 특성이 동기화된 시간을 기준으로 준수 경계 또는 검색 권한 필터가 적용됩니다. 
 
-    또한 사서함이 라이선스가 허가되지 않았다면 사용자 사서함과 OneDrive 계정 간의 동기화가 중단됩니다. OneDrive 계정에 대한 준수 특성의 마지막 스탬프된 값은 계속 적용됩니다.
+    또한 사용자의 사서함과 OneDrive 계정 간의 동기화는 사서함이 라이선스가 허가되지 않는 경우 또는 소프트 삭제되는 경우 중단됩니다. OneDrive 계정에 대한 준수 특성의 마지막 스탬프된 값은 계속 적용됩니다.
 
 - 준수 특성은 사용자의 Exchange 사서함에서 OneDrive 계정으로 7일마다 동기화됩니다. 앞서 언급했듯이 이 동기화는 사용자에게 Exchange Online 및 SharePoint Online 라이선스가 모두 할당되어 있으며 사용자의 사서함이 10MB 이상인 경우만 발생합니다.
 
-- 사용자 사서함과 OneDrive 계정에 대해 준수 경계 및 검색 권한 필터가 구현된 경우 OneDrive 계정이 아니라 사용자의 사서함을 삭제하지 않는 것이 좋습니다. 즉, 사용자의 사서함을 삭제하는 경우 사용자의 OneDrive 계정도 제거해야 합니다.
+- 사용자 사서함과 OneDrive 계정에 대해 준수 경계 및 검색 권한 필터가 구현된 경우 사용자의 사서함을 삭제하지 말고 해당 OneDrive 계정을 삭제하지 않는 것이 좋습니다. 즉, 사용자의 사서함을 삭제하는 경우 사용자의 OneDrive 계정도 제거해야 합니다.
 
 - 사용자에게 둘 이상의 OneDrive 계정이 있을 수 있는 상황(예: 반환 직원)이 있습니다. 이러한 경우 Azure AD의 사용자와 연결된 기본 OneDrive 계정만 동기화됩니다.
 
@@ -315,9 +321,9 @@ eDiscovery 관리자는 검색 쿼리에 특정 기관으로 검색을 제한하
   
 **검색 권한 필터에서 준수 특성으로 사용되는 특성 값이 변경되는 경우 어떻게 하나요?**
   
-필터에 사용되는 특성 값이 변경되는 경우 검색 권한 필터에서 준수 경계를 적용하는 데 최대 3일이 소요됩니다. 예를 들어 Contoso 시나리오에서는 Fourth Coffee 에이전시의 사용자가 Coho Winery 기관으로 이전된다고 합니다. 따라서 사용자 개체의 **Department** 특성 값이 *FourthCoffee에서* *CohoWinery로 변경됩니다.* 이 경우 Fourth Coffee eDiscovery 및 투자자는 특성이 변경된 후 최대 3일 동안 해당 사용자에 대한 검색 결과를 얻게 됩니다. 마찬가지로 Coho Winery eDiscovery 관리자 및 조사자는 사용자의 검색 결과를 얻기까지 최대 3일이 소요됩니다.
+필터에 사용된 특성 값이 변경되는 경우 검색 권한 필터에서 준수 경계를 적용하는 데 최대 3일이 소요됩니다. 예를 들어 Contoso 시나리오에서는 Fourth Coffee 에이전시의 사용자가 Coho Winery 기관으로 이전된다고 합니다. 따라서 사용자 개체의 **Department** 특성 값이 *FourthCoffee에서* *CohoWinery로 변경됩니다.* 이 경우 Fourth Coffee eDiscovery 및 투자자는 특성이 변경된 후 최대 3일 동안 해당 사용자에 대한 검색 결과를 얻게 됩니다. 마찬가지로 Coho Winery eDiscovery 관리자 및 조사자는 사용자의 검색 결과를 얻기까지 최대 3일이 소요됩니다.
   
-**eDiscovery 관리자는 두 개의 별도 규정 준수 경계의 콘텐츠를 볼 수 있나요?**
+**eDiscovery 관리자가 두 개의 별도 규정 준수 경계의 콘텐츠를 볼 수 있나요?**
   
 예. 두 기관 모두에 대한 가시성이 있는 역할 그룹에 eDiscovery 관리자를 추가하여 Exchange 사서함을 검색할 때 이 기능을 사용할 수 있습니다. 그러나 SharePoint 사이트 및 OneDrive 계정을 검색할 때 eDiscovery 관리자는 기관이 같은 지역 또는 지리적 위치에 있는 경우만 다른 준수 경계에서 콘텐츠를 검색할 수 있습니다. **참고:** SharePoint 및 OneDrive에서 콘텐츠를 검색하는 것은 지리적 위치에 바인딩되지 않는 고급 eDiscovery에서는 이러한 제한이 적용되지 않습니다.
   
@@ -331,4 +337,4 @@ eDiscovery 관리자는 검색 쿼리에 특정 기관으로 검색을 제한하
   
 **조직에서 만들 수 있는 검색 권한 필터의 최대 수는 무엇입니까?**
   
-조직에서 만들 수 있는 검색 권한 필터의 수에는 제한이 없습니다. 그러나 검색 권한 필터가 100개가 넘는 경우 검색 성능에 영향을 미치게 됩니다. 조직에서 검색 권한 필터의 수를 최대한 적게 유지하려면 Exchange, SharePoint 및 OneDrive에 대한 규칙을 가능한 한 검색 권한 필터로 결합하는 필터를 만듭니다.
+조직에서 만들 수 있는 검색 권한 필터의 수에는 제한이 없습니다. 그러나 검색 권한 필터가 100개가 넘는 경우 검색 성능에 영향을 미치게 됩니다. 조직의 검색 권한 필터 수를 최대한 적게 유지하려면 Exchange, SharePoint 및 OneDrive에 대한 규칙을 가능한 한 검색 권한 필터로 결합하는 필터를 만듭니다.

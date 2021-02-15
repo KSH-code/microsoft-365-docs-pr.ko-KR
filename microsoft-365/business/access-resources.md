@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Azure Active Directory에 연결된 Windows 10 장치의 LOB(기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 액세스하는 방법을 알아봅니다.
-ms.openlocfilehash: 22edf0c23d6318e1f70bcb21b2cd697ea0a75da4
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: fc02fd30f41f25f52e653e750a6bdfd1bd7f800e
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688236"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233843"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Microsoft 365 Business Premium의 Azure AD 가입 장치에서의 프레미스 리소스 액세스
 
@@ -61,6 +61,6 @@ Azure AD에 연결된 Windows 장치가 이전에 도메인에 가입된 경우 
 
 - 장치가 GPO(그룹 정책 개체)를 사용하는 경우 일부 GPO는 Intune에서 유사한 [Configuration Service Provider](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers)(CSP)를 갖지 않을 수 있습니다. [MMAT 도구](https://www.microsoft.com/download/details.aspx?id=45520)를 실행하여 기존 GPO와 유사한 CSP를 찾습니다.
 
-- 사용자가 Active Directory 인증에 의존하는 응용 프로그램에 인증할 수 없습니다. 레거시 앱을 평가하고 가능한 경우 최신 인증을 사용하는 앱으로 업데이트하는 것이 좋습니다.
+- 사용자가 Active Directory 인증을 사용하는 응용 프로그램에 인증하지 않을 수 있습니다. 레거시 앱을 평가하고 가능한 경우 최신 인증을 사용하는 앱으로 업데이트하는 것이 좋습니다.
 
 - Active Directory 프린터 검색이 작동하지 않습니다. 모든 사용자에 대해 직접 프린터 경로를 제공하거나 유니버설 [인쇄를 사용할 수 있습니다.](https://aka.ms/UPDocs)

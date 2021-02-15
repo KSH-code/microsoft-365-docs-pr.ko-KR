@@ -19,12 +19,12 @@ f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
 description: Microsoft 365에서 공유를 제한하거나 해제할 수 있는 옵션에 대해 알아봅니다.
-ms.openlocfilehash: 504d2b5dd72aead266697d273395e371ad6f5846
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+ms.openlocfilehash: 388d354886805f593b1c7815f16d1e0156e12fe0
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030044"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233533"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Microsoft 365에서의 공유 제한
 
@@ -37,7 +37,7 @@ ms.locfileid: "49030044"
 |[Microsoft 365 그룹 또는 팀](#microsoft-365-group-or-team)|Microsoft Teams 팀 또는 Microsoft 365 그룹에 대한 액세스 권한을 받은 사람들은 연결된 SharePoint 사이트의 파일에 대한 편집 권한을 갖습니다.|그룹 또는 팀이 비공개인 경우 팀에 대한 초대 공유는 승인을 위해 소유자에게 이동됩니다. 관리자는 게스트 액세스를 비활성화하거나 민감도 레이블을 사용하여 조직 외부의 사람들이 액세스하지 못하게 할 수 있습니다.|
 |[SharePoint 사이트](#sharepoint-site)|사람들은 소유자, 회원 또는 방문자에게 SharePoint 사이트에 대한 액세스 권한을 부여할 수 있으며 사이트의 파일에 대해 해당 수준의 액세스 권한을 갖습니다.|사이트 소유자만 사이트를 공유할 수 있도록 사이트 권한을 제한할 수 있습니다. 관리자는 사이트를 읽기 전용으로 설정하거나 액세스를 모두 차단할 수 있습니다.|
 |[특정 사용자와 공유](#sharing-with-specific-people)|편집 권한이 있는 사이트 구성원과 사용자는 *특정 사용자* 링크를 사용하여 파일 및 폴더에 직접 권한을 부여하거나 공유할 수 있습니다.|사이트 소유자만 파일 및 폴더를 공유할 수 있도록 사이트 권한을 제한할 수 있습니다. 이 경우 사이트 구성원의 직접 액세스 및 *특정 사용자* 링크 공유는 소유자에게 전달되어 승인을 받을 수 있습니다.|
-|[SharePoint 게스트 공유](#sharepoint-guest-sharing)|SharePoint 사이트 소유자 및 구성원은 조직 외부의 사용자와 파일 및 폴더를 공유할 수 있습니다.|전체 조직 또는 개별 사이트에 대해 게스트 공유 기능을 비활성화할 수 있습니다.|
+|[SharePoint 및 OneDrive 게스트 공유](#sharepoint-guest-sharing)|SharePoint 사이트 소유자와 구성원 및 Onedrive 소유자는 조직 외부의 사용자와 파일 및 폴더를 공유할 수 있습니다.|전체 조직 또는 개별 사이트에 대해 게스트 공유 기능을 비활성화할 수 있습니다.|
 |[*조직 내부 사용자* 공유 링크](#people-in-your-organization-sharing-links)|SharePoint 사이트 소유자 및 구성원은 *조직 내 사용자* 링크를 사용하여 파일을 공유할 수 있으며, 이는 조직 내부의 모든 사람이 사용할 수 있습니다.|사이트 수준에서 *조직의 사용자* 링크를 비활성화할 수 있습니다.|
 |[사이트, 그룹 및 팀 공유](#create-sites-groups-and-teams)|기본적으로 사용자는 콘텐츠를 공유할 수 있는 새 사이트, 그룹 및 팀을 만들 수 있습니다.|관리자는 사이트, 그룹 및 팀을 만들 수 있는 사람을 제한할 수 있습니다.|
 |[전자 메일](#email)|파일에 대한 액세스 권한이 있는 사용자는 전자 메일을 통해 파일을 다른 사용자에게 보낼 수 있습니다.|관리자는 민감도 레이블을 사용하여 파일이 권한 없는 사용자와 공유되지 않도록 파일을 암호화할 수 있습니다.|
@@ -156,7 +156,9 @@ SharePoint 사이트 공유를 사이트 소유자에게만 제한할 수 있습
 
     ![SharePoint 사이트 수준 공유 설정이 조직 내의 사용자만으로 설정된 스크린샷](../media/sharepoint-site-external-sharing-settings-off.png)
 
-조직 외부의 사람들과의 공유를 허용하지만 모든 사람이 인증을 받도록 하려면 전체 조직 또는 개별 사이트에 대해 *모든 사용자* (익명 공유) 링크를 비활성화할 수 있습니다.
+Microsoft 365 관리 센터에서 사용자를 클릭하고 **OneDrive** 탭에서 **외부 공유 관리** 를 선택하여 개별 OneDrive에 대한 게스트 공유를 해제할 수 있습니다.
+
+조직 외부의 사람들과의 공유를 허용하지만 모든 사람이 인증을 받도록 하려면 전체 조직 또는 개별 사이트에 대해 *모든 사용자*(익명 공유) 링크를 비활성화할 수 있습니다.
 
 조직 수준에서 *모든 사용자* 링크를 해제하려면
 1. SharePoint 관리 센터의 **정책** 에서 **공유** 를 클릭하십시오.
@@ -177,11 +179,15 @@ SharePoint 사이트 공유를 사이트 소유자에게만 제한할 수 있습
 
 기본적으로 사이트 회원은 *조직 내 사용자* 링크를 사용하여 조직의 다른 사람과 파일 및 폴더를 공유할 수 있습니다. PowerShell을 사용하여 *조직 내 사용자* 링크를 비활성화할 수 있습니다.
 
-`Set-SPOSite -Identity <site> -DisableCompanyWideSharingLinks`
+```powershell
+Set-SPOSite -Identity <site> -DisableCompanyWideSharingLinks
+```
 
 예제:
 
-`Set-SPOSite -Identity https://contoso.sharepoint.com -DisableCompanyWideSharingLinks`
+```powershell
+Set-SPOSite -Identity https://contoso.sharepoint.com -DisableCompanyWideSharingLinks
+```
 
 ## <a name="create-sites-groups-and-teams"></a>사이트, 그룹 및 팀 만들기
 
@@ -190,9 +196,10 @@ SharePoint 사이트 공유를 사이트 소유자에게만 제한할 수 있습
 - [SharePoint에서 사이트 만들기 관리](https://docs.microsoft.com/sharepoint/manage-site-creation)
 - [Microsoft 365 그룹을 만들 수 있는 사용자 관리](https://docs.microsoft.com/microsoft-365/solutions/manage-creation-of-groups)
 
-그룹 만들기를 제한하면 팀 만들기가 제한됩니다.
+> [!NOTE]
+> 그룹 만들기를 제한하면 팀 만들기가 제한됩니다.
 
-## <a name="email"></a>이메일
+## <a name="email"></a>전자 메일
 
 암호화를 사용하여 전자 메일이 의도하지 않게 공유되는 것을 방지할 수 있습니다. 따라서 전자 메일이 전달되거나 허가되지 않은 사용자에게 공유되는 것을 방지할 수 있습니다. 민감도 레이블을 사용하여 전자 메일 암호화를 활성화할 수 있습니다. 자세한 내용은 [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels)을 참조하세요.
 

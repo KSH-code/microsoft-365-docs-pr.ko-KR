@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: f265a30a3d43b592a7d297e2137fd6b9ff4acfb4
-ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
+ms.openlocfilehash: 0ae67497829e69da92e9735cb68a84e75c517814
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097154"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242460"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
@@ -107,7 +107,19 @@ Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations MailItemsAc
 
 ### <a name="searchqueryinitiatedexchange"></a>SearchQueryInitiatedExchange
 
-SearchQueryInited Exchange 이벤트는사용자가 OWA(Outlook)의 OWA(Outlook)에서 검색 표시줄을 사용하여 편지함에서 항목을 검색할 때 트리거됩니다. 조사관은 SearchQueryInitiatedExchange 이벤트를 사용하여 계정을 손상시켰을 수 있는 공격자가 사서함의 중요한 정보를 찾아보았는지 혹은 액세스하려 시도했는지를 확인할 수 있습니다. SearchQueryInitedExchange 이벤트에 대한 감사 레포트에는 검색 질의의 실제 텍스트와 같은 정보가 포함되어 있습니다. 공격자가 수행한 검색 쿼리를 관찰하여 조사관은 검색된 전자 메일 데이터의 의도를 더욱 잘 이해할 수 있습니다.
+SearchQueryInitiatedExchange 이벤트는 사용자가 Outlook을 사용하여 사서함의 항목을 검색할 때 트리거됩니다. 이벤트는 다음 Outlook 환경에서 검색을 수행하면 트리거됩니다.
+
+- Outlook(데스크톱 클라이언트)
+
+- 웹용 Outlook(OWA)
+
+- iOS용 Outlook
+
+- Android용 Outlook
+
+- Windows 10용 메일 앱
+
+조사관은 SearchQueryInitiatedExchange 이벤트를 사용하여 계정을 손상시켰을 수 있는 공격자가 사서함의 중요한 정보를 찾아보았는지 혹은 액세스하려 시도했는지를 확인할 수 있습니다. SearchQueryInitedExchange 이벤트에 대한 감사 레포트에는 검색 질의의 실제 텍스트와 같은 정보가 포함되어 있습니다. 감사 레코드는 검색이 수행된 Outlook 환경을 나타냅니다. 공격자가 수행한 검색 쿼리를 관찰하여 조사관은 검색된 전자 메일 데이터의 의도를 더욱 잘 이해할 수 있습니다.
 
 SearchQueryInitiatedExchange 감사 레코드를 검색하려면 준수 센터의 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md)의 **검색 활동** 드롭다운 목록에서 **수행한 전자 메일 검색** 활동을 검색할 수 있습니다.
 
@@ -122,7 +134,17 @@ Exchange Online PowerShell에서 [Search-UnifiedAuditLog-Operations SearchQueryI
 
 ### <a name="searchqueryinitiatedsharepoint"></a>SearchQueryInitiatedSharePoint
 
-사서함 항목 검색과 마찬가지로 SearchQueryInitiatedSharePoint 이벤트는 사용자가 조직의 SharePoint 홈 사이트에서 항목을 검색할 때 트리거됩니다. 조사자는 SearchQueryInitialSharePoint 이벤트를 사용하여 공격자가 SharePoint에서 중요한 정보를 찾고 액세스했는지 여부를 확인할 수 있습니다. SearchQueryInitialSharePoint 이벤트에 대한 감사 레코드에는 검색 쿼리의 실제 텍스트도 포함됩니다. 공격자가 수행한 검색 쿼리를 관찰하여 조사관은 검색된 파일 데이터의 의도와 범위를 더욱 잘 이해할 수 있습니다.
+사서함 항목 검색과 마찬가지로 SearchQueryInitiatedSharePoint 이벤트는 사용자가 SharePoint의 항목을 검색할 때 트리거됩니다. 이벤트는 다음과 같은 유형의 SharePoint 사이트에서 검색을 수행하면 트리거됩니다.
+
+- 홈 사이트
+
+- 커뮤니케이션 사이트
+
+- 허브 사이트
+
+- Microsoft Teams와 연결된 사이트
+
+조사자는 SearchQueryInitialSharePoint 이벤트를 사용하여 공격자가 SharePoint에서 중요한 정보를 찾고 액세스했는지 여부를 확인할 수 있습니다. SearchQueryInitialSharePoint 이벤트에 대한 감사 레코드에는 검색 쿼리의 실제 텍스트도 포함됩니다. 감사 레코드는 검색된 SharePoint 사이트의 유형도 나타냅니다. 공격자가 수행한 검색 쿼리를 관찰하여 조사관은 검색된 파일 데이터의 의도와 범위를 더욱 잘 이해할 수 있습니다.
 
 SearchQueryInitiatedSharePoint 감사 레코드를 검색하려면 준수 센터의 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md)의 **검색 활동** 드롭다운 목록에서 **수행한 SharePoint 검색** 활동을 검색할 수 있습니다.
 

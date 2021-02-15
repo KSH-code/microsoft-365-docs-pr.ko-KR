@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소하는 방법에 대해 자세히 알아보고
 ms.date: ''
-ms.openlocfilehash: 4141de3f1a228f465559212098cf46e68f2844f6
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 5d96b541030646668f636ee09cc3ccc4b43ef75a
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114732"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233343"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -35,12 +35,12 @@ ms.locfileid: "50114732"
 
 ::: moniker-end
 
-*자격:* 사용자에게 할당된 라이선스가 25개 미만인 경우 Microsoft 365 관리 센터에서 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소할 수 있습니다. 사용자에게 라이선스가 25개 이상 할당된 경우 지원을 문의하여 구독을 [취소합니다.](../../admin/contact-support-for-business-products.md)
+*자격:* 사용자에게 할당된 라이선스가 25개 미만인 경우 Microsoft 365 관리 센터에서 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소할 수 있습니다. 사용자에게 라이선스가 25개 이상 할당된 경우 라이선스를 25개 미만으로 줄이거나 지원을 문의하여 구독을 [취소합니다.](../../admin/contact-support-for-business-products.md)
 
 *환불:* 일할 계산된 크레딧은 다음 대금 청구 주기 안에 반환됩니다.
 
 > [!NOTE]
-> Microsoft 365 Business Premium과 같은 동일한 제품에 대한 구독이 여러 개 있는 경우 해당 구독 중 하나를 취소하면 다른 구독 내에서 구매한 라이선스 또는 서비스에 영향을 주지 않습니다.
+> 동일한 제품에 대한 구독이 여러 개 있는 경우(예: Microsoft 365 Business Premium) 해당 구독 중 하나를 취소하면 다른 구독 내에서 구매한 라이선스 또는 서비스에 영향을 미치지 않습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -95,9 +95,9 @@ ms.locfileid: "50114732"
 
 ## <a name="what-happens-when-you-cancel-a-subscription"></a>구독을 취소할 때 발생하는 일
 
-기간이 종료되기 전에 구독을 취소하면 구독 상태가 직접 비활성화 상태로 이동됩니다. 대부분의 구독의 경우 대부분의 국가 및 지역에서 비활성화된 상태는 90일 동안 지속됩니다. 관리자는 구독이 비활성화된 상태일 때에도 조직에 대한 데이터에 액세스하고 백업할 수 [](back-up-data-before-switching-plans.md) 있지만, 특히 구독이 유일한 구독인 경우 구독을 취소하기 전에 관리자가 데이터를 백업하는 것이 좋습니다. 관리자는 비활성화된 상태일 때 구독을 다시 활성화할 수도 있습니다.
+기간이 종료되기 전에 구독을 취소하면 구독 상태가 비활성화 상태로 바로 이동됩니다. 대부분의 구독의 경우 대부분의 국가 및 지역에서 비활성화된 상태는 90일 동안 지속됩니다. 관리자는 구독이 비활성화된 상태일 때에도 조직에 대한 데이터에 액세스하고 백업할 수 [](back-up-data-before-switching-plans.md) 있지만, 특히 구독이 유일한 구독인 경우 구독을 취소하기 전에 관리자가 데이터를 백업하는 것이 좋습니다. 관리자는 비활성화된 상태일 때 구독을 다시 활성화할 수도 있습니다.
 
-90이 지난 후 구독이 삭제된 상태로 이동됩니다. 남은 모든 데이터는 해당 90일이 삭제된 후 취소 후 180일이 지난 후 삭제될 수 있습니다. 구독이 삭제된 상태가 될 때까지 취소된 구독에서 결제 방법을 제거할 수 없습니다.
+90이 지난 후 구독이 삭제된 상태로 이동됩니다. 남은 모든 데이터는 해당 90일이 취소된 후 180일이 지난 후 삭제될 수 있습니다. 구독이 삭제된 상태가 될 때까지 취소된 구독에서 결제 방법을 제거할 수 없습니다.
 
 ### <a name="what-to-expect-for-you-and-your-users-if-you-cancel-a-subscription"></a>구독을 취소할 경우 관리자와 사용자에 대해 예상되는 결과는 다음과 같습니다.
   
@@ -150,7 +150,7 @@ NS 레코드를 변경하려면 [도메인 제거를 참조합니다.](../../adm
 
 ## <a name="next-steps"></a>다음 단계
 
-Microsoft에서 계정을 완전히 닫고 싶은 경우 계정 [닫기를 참조하세요.](../close-your-account.md)
+If you want to completely close your account with Microsoft, see [Close your account](../close-your-account.md).
 
 ## <a name="related-content"></a>관련 콘텐츠
 

@@ -23,12 +23,12 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: 조직의 사용자를 위해 Microsoft Office Office 클라이언트로 업그레이드하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 596dfc8f4a005d01c0bf330243bf1fb3c639f97e
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 3f8ea0d16e1c27414b5f3e11e842e336fadb3e75
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906444"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233321"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>비즈니스용 Microsoft 365 사용자를 최신 Office 클라이언트로 업그레이드
 
@@ -103,6 +103,9 @@ Office를 포함하는 구독으로 전환합니다. 다른 [비즈니스용 Mic
   
 타사 추가 기능을 사용할 경우 제조업체에 문의하여 최신 버전의 Office에서 작동할 업데이트가 있는지 문의하는 것이 좋습니다.
 
+> [!TIP]
+> Office를 제거하는 동안 문제가 있는 경우 Microsoft 지원 및 복구 도우미 도구를 사용하여 Office 제거: Microsoft 지원 및 복구 도우미 다운로드 및 실행을 지원할 [수 있습니다.](https://go.microsoft.com/fwlink/?LinkID=2155008)
+
 ### <a name="select-the-version-of-office-you-want-to-uninstall"></a>제거하려는 Office 버전 선택
 
 - [PC에서](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8)
@@ -113,7 +116,7 @@ Office를 포함하는 구독으로 전환합니다. 다른 [비즈니스용 Mic
 
  **볼륨 라이선스를 통한 Office** 이러한 볼륨 라이선스 버전의 Office의 원본 파일에 더 이상 액세스할 수 없는 경우 다시 설치하지 못합니다.
 
- **컴퓨터에 미리 설치된 Office** 디스크 또는 제품 키가 더 이상 없는 경우(Office에 제품 키가 있는 경우) 다시 설치하지 못합니다.
+ **컴퓨터에 미리 설치된 Office** 디스크 또는 제품 키가 더 이상 없는 경우(Office와 함께 온 경우) 다시 설치할 수 없습니다.
 
  **지원되지 않는 구독** Office 365 Small Business Premium 또는 Office 365 Mid-Size Business와 같은 중단된 구독을 통해 Office 복사본을 얻은 경우 구독과 함께 제공된 제품 키가 없는 경우 이전 버전의 Office를 설치할 수 없습니다.
 

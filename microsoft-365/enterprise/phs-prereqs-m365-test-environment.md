@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 12/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,35 +14,37 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 암호 해시 동기화를 위한 필수 구성 요소를 사용하여 ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: 63f433d5297139fcc7f6eb8bd5383a6593c29388
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 8e8db4aae39acda0762f9b6394b23ab047727ea5
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399446"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233787"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 암호 해시 동기화를 위한 ID 및 장치 액세스 필수 구성 요소
 
 *이 테스트 랩 가이드는 엔터프라이즈용 Microsoft 365 테스트 환경에만 사용할 수 있습니다.*
 
-[ID 및 장치 액세스](../security/office-365-security/microsoft-365-policies-configurations.md) 구성은 Azure AD(Azure Active Directory)와 통합된 엔터프라이즈용 Microsoft 365의 모든 서비스에 대한 액세스를 보호하기 위한 구성 및 조건부 액세스 정책 집합입니다.
+[ID 및 장치](../security/office-365-security/microsoft-365-policies-configurations.md) 액세스 구성은 Azure AD(Azure Active Directory)와 통합된 엔터프라이즈용 Microsoft 365의 모든 서비스에 대한 액세스를 보호하기 위한 구성 및 조건부 액세스 정책 집합입니다.
 
-이 문서에서는 ID와 장치 액세스를 위해 [암호 해시 동기화 필수 구성를 사용하여 Active Directory](../security/office-365-security/identity-access-prerequisites.md#prerequisites)의 요구사항을 충족하는 Microsoft 365 테스트 환경을 구성하는 방법에 대해 설명합니다.
+이 문서에서는 ID 및 장치 액세스에 대한 암호 해시 동기화 [](../security/office-365-security/identity-access-prerequisites.md#prerequisites) 인증 선행 조건 구성을 사용하여 하이브리드의 요구 사항을 충족하는 Microsoft 365 테스트 환경을 구성하는 방법을 설명합니다.
 
-이 테스트 환경의 8가지 주요 설정 단계는 다음과 같습니다.
+이 테스트 환경을 설정하는 데는 10단계가 있습니다.
 
-1.  암호 해시 동기화 테스트 환경에서 시뮬레이션된 엔터프라이즈 만들기
-2.  Azure AD Seamless Single Sign-On 구성
-3.  명명된 위치 구성
-4.  암호 쓰기 저장 구성
-5.  모든 사용자 계정에 사용할 수 있는 셀프 서비스 암호 재설정 구성
-6.  모든 사용자 계정을 위한 다단계 인증 구성
-7.  Azure AD Identity Protection 사용
-8.  Exchange Online 및 비즈니스용 Skype Online에 대한 최신 인증을 실행합니다.
+1. 암호 해시 동기화 테스트 환경에서 시뮬레이션된 엔터프라이즈 만들기
+2. Azure AD Seamless Single Sign-On 구성
+3. 명명된 위치 구성
+4. 암호 쓰기 저장 구성
+5. 모든 사용자 계정에 사용할 수 있는 셀프 서비스 암호 재설정 구성
+6. 모든 사용자 계정을 위한 다단계 인증 구성
+7. 도메인에 가입된 Windows 컴퓨터의 자동 장치 등록 사용
+8. Azure AD 암호 보호 구성 
+9. Azure AD Identity Protection 사용
+10. Exchange Online 및 비즈니스용 Skype Online에 대한 최신 인증을 실행합니다.
 
 ## <a name="phase-1-build-out-your-simulated-enterprise-with-password-hash-sync-microsoft-365-test-environment"></a>1단계: 암호 해시 동기화 Microsoft 365 테스트 환경을 사용하여 시뮬레이션된 엔터프라이즈 빌드
 
-[암호 해시 동기화](password-hash-sync-m365-ent-test-environment.md)에 있는 지침을 따르세요.
+암호 해시 동기화 테스트 랩 가이드의 [지침을](password-hash-sync-m365-ent-test-environment.md) 따릅니다.
 구성 결과는 다음과 같습니다.
 
 ![암호 해시 동기화 테스트 환경을 사용하여 시뮬레이션된 엔터프라이즈](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
@@ -84,13 +85,21 @@ ms.locfileid: "48399446"
 - 사용자 4
 - 사용자 5
 
-사용자 2 계정에 대해서만 다중 요소 인증을 테스트하십시오.
+사용자 2 계정에 대해서만 다단계 인증을 테스트합니다.
 
-## <a name="phase-7-enable-azure-ad-identity-protection"></a>7단계: Azure Active Directory Identity Protection 사용
+## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>7단계: 도메인에 가입된 Windows 컴퓨터의 자동 장치 등록 사용 
+
+다음 [지침에 따라](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan) 도메인에 가입된 Windows 컴퓨터의 자동 장치 등록을 사용하도록 설정할 수 있습니다.
+
+## <a name="phase-8-configure-azure-ad-password-protection"></a>8단계: Azure AD 암호 보호 구성 
+
+다음 [지침에 따라](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) 알려진 약한 암호 및 해당 변형을 차단합니다.
+
+## <a name="phase-9-enable-azure-ad-identity-protection"></a>9단계: Azure AD ID 보호 사용
 
 [Azure AD ID 보호 테스트 랩 가이드의 2 단계](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection) 지침을 따릅니다. 
 
-## <a name="phase-8-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>8단계: Exchange Online 및 Skype for Business Online에 대한 최신 인증을 실행합니다.
+## <a name="phase-10-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>10단계: Exchange Online 및 비즈니스용 Skype Online에 대해 최신 인증 사용
 
 Exchange Online의 경우에는 [이 지침](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later)을 따릅니다. 
 

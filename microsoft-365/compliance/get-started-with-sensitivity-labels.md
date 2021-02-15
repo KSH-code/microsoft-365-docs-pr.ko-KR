@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블 구현을 시작할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 04ac373250f13ece1a4e976891044a6584989f6d
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 03408a2f9e57421ea613bdb38e253401526f8f71
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142041"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242368"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -81,7 +81,7 @@ ms.locfileid: "50142041"
 
 |필요|설명서|
 |----------------|---------------|
-|Office 앱의 민감도 레이블을 관리하여 컨텐츠가 생성된 대로 레이블이 지정되도록 합니다(모든 플랫폼에서 수동 레이블 지원 포함). |[Office 앱의 민감도 레이블 사용](sensitivity-labels-office-apps.md)|
+|Office 앱의 민감도 레이블을 관리하여 컨텐츠가 생성된 대로 레이블이 지정되도록 합니다(모든 플랫폼에서 수동 레이블 지원 포함). |[Office 앱의 민감도 레이블 관리](sensitivity-labels-office-apps.md)|
 |사용자가 Office 앱, 파일 탐색기 및 PowerShell을 사용하여 Windows 컴퓨터에서 파일에 레이블을 지정하고 파일을 보호하도록 할 수 있습니다.|[Windows용 Azure Information Protection 통합 레이블 지정 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)|
 |민감도 레이블이있는 문서 및 이메일을 암호화하고 해당 컨텐츠에 액세스할 수 있는 사람과 사용 방법을 제한합니다. |[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)|
 |문서를 암호화한 경우에도 공동 작성, eDiscovery, 데이터 손실 방지, 검색에 대 한 지원을 사용하여 웹용 Office에 대한 민감도 레이블을 사용하도록 설정합니다. | [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용](sensitivity-labels-sharepoint-onedrive-files.md)

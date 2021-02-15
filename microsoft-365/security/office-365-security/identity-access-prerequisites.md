@@ -6,7 +6,6 @@ author: JoeDavies-MSFT
 manager: Laurawi
 ms.prod: m365-security
 ms.topic: article
-ms.date: 09/01/2020
 f1.keywords:
 - NOCSH
 ms.reviewer: martincoetzer
@@ -19,23 +18,23 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: e411eaa7874dee710cbb21dd02a4edd383003def
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 53d64d869b80c6fe5c6e0954a00af5b6f5359356
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142100"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233089"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>ID 및 장치 액세스 정책 구현을 위한 선행 작업
-
-이 문서에서는 관리자가 권장되는 ID 및 장치 액세스 정책을 사용하고 조건부 액세스를 사용하기 위해 충족해야 하는 선행 조건에 대해 설명합니다. 또한 최상의 SSO(Single Sign-On) 환경을 위해 클라이언트 플랫폼을 구성하기 위한 권장 기본값에 대해 논의합니다.
-
-## <a name="prerequisites"></a>필수 구성 요소
 
 **적용 대상**
 - [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
 - Azure
+
+이 문서에서는 관리자가 권장되는 ID 및 장치 액세스 정책을 사용하고 조건부 액세스를 사용하기 위해 충족해야 하는 선행 조건에 대해 설명합니다. 또한 최상의 SSO(Single Sign-On) 환경을 위해 클라이언트 플랫폼을 구성하기 위한 권장 기본값에 대해 논의합니다.
+
+## <a name="prerequisites"></a>필수 구성 요소
 
 권장되는 ID 및 장치 액세스 정책을 사용하려면 조직에서 선행 요구 사항을 충족해야 합니다. 나열된 다양한 ID 및 인증 모델에 대한 요구 사항은 서로 다릅니다.
 
@@ -50,8 +49,8 @@ ms.locfileid: "50142100"
 |---|:---:|
 |[PHS를 구성합니다.](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization)  유출된 자격 증명을 검색하고 위험 기반 조건부 액세스에 대해 이 기능을 사용하도록 설정해야 합니다. **참고:** 이는 조직에서 페더러드 인증을 사용하는지 여부에 관계없이 필요합니다.|클라우드 전용|
 |[원활한 Single Sign-On을](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso) 사용하도록 설정하여 사용자가 조직 네트워크에 연결된 조직 장치에 있는 경우 자동으로 로그인합니다.|클라우드 전용 및 페더|
-|[명명된 네트워크 구성](https://docs.microsoft.com/azure/active-directory/active-directory-known-networks-azure-portal). Azure AD ID 보호는 모든 사용 가능한 세션 데이터를 수집하고 분석하여 위험 점수를 생성합니다. Azure AD 명명된 네트워크 구성에서 네트워크에 대한 조직의 공용 IP 범위를 지정하는 것이 좋습니다. 이러한 범위에서 오는 트래픽에는 감소된 위험 점수가 부여됩니다. 조직 환경 외부에서 오는 트래픽에는 더 높은 위험 점수가 부여됩니다.||
-|[모든 사용자를 SSPR(셀프 서비스 암호 재설정) 및 MFA(다단계 인증)에 등록합니다.](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-converged) Azure AD 다단계 인증에 사용자를 미리 등록하는 것이 좋습니다. Azure AD ID 보호는 Azure AD 다단계 인증을 사용하여 추가 보안 확인을 수행합니다. 또한 최상의 로그인 환경을 위해 사용자가 장치에 Microsoft [Authenticator](https://docs.microsoft.com/azure/active-directory/user-help/microsoft-authenticator-app-how-to) 앱과 Microsoft 회사 포털 앱을 설치하는 것이 좋습니다. 이러한 앱은 각 플랫폼의 앱 스토어에서 설치할 수 있습니다.||
+|[명명된 위치를 구성합니다.](https://docs.microsoft.com/azure/active-directory/reports-monitoring/quickstart-configure-named-locations) Azure AD ID 보호는 모든 사용 가능한 세션 데이터를 수집하고 분석하여 위험 점수를 생성합니다. Azure AD 명명된 위치 구성에서 네트워크에 대한 조직의 공용 IP 범위를 지정하는 것이 좋습니다. 이러한 범위에서 오는 트래픽에는 감소된 위험 점수가 부여됩니다. 조직 환경 외부에서 오는 트래픽에는 더 높은 위험 점수가 부여됩니다.||
+|[모든 사용자를 SSPR(셀프 서비스 암호 재설정) 및 MFA(다단계 인증)에 등록합니다.](https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-converged) Azure AD 다단계 인증을 위해 사용자를 미리 등록하는 것이 좋습니다. Azure AD ID 보호는 Azure AD 다단계 인증을 사용하여 추가 보안 확인을 수행합니다. 또한 최상의 로그인 환경을 위해 사용자가 장치에 Microsoft [Authenticator](https://docs.microsoft.com/azure/active-directory/user-help/microsoft-authenticator-app-how-to) 앱 및 Microsoft 회사 포털 앱을 설치하는 것이 좋습니다. 이러한 앱은 각 플랫폼의 앱 스토어에서 설치할 수 있습니다.||
 |[도메인에 가입된 Windows 컴퓨터의](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup)자동 장치 등록을 사용하도록 설정 조건부 액세스를 통해 앱에 연결하는 장치가 도메인에 가입되거나 규격으로 설정되어 있는지를 확인하게 됩니다. Windows 컴퓨터에서 이 기능을 지원하려면 Azure AD를 사용하여 장치를 등록해야 합니다.  이 문서에서는 자동 장치 등록을 구성하는 방법에 대해 설명합니다.|클라우드 전용|
 |**사용자의 지원 팀 준비**. MFA를 완료할 수 없는 사용자에 대한 계획을 시행합니다. 정책 제외 그룹에 추가하거나 새 MFA 정보를 등록하는 것일 수 있습니다. 이러한 보안에 중요한 변경을 적용하기 전에 실제 사용자가 요청을 하는지 확인해야 합니다. 사용자의 관리자에 대해 승인을 통해 도움을 주도록 요구하는 것이 효과적인 단계입니다.||
 |[온-프레미스 AD에 대한 암호 쓰기 저장 구성](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started). 암호 쓰기 저장을 사용하면 Azure AD에서 높은 위험 계정 손상이 감지될 때 사용자가 자신의온-프레미스 암호를 변경해야 합니다. Azure AD Connect 설치 마법사의 선택적 기능 화면에서  암호 쓰기 저장을 사용하도록 설정하거나 Azure AD Connect 설치 마법사를 통해 사용하도록 설정하는 두 가지 방법 중 하나를 사용하여 이 기능을 사용하도록 설정할 수 Windows PowerShell.|클라우드 전용|
@@ -68,7 +67,7 @@ ms.locfileid: "50142100"
 
 Azure는프레미스 및 Azure AD 둘 다에서 가능한 가장 원활한 SSO 환경을 제공하도록 설계되어 Windows 10(버전 2004 이상)을 권장합니다. 직장 또는 학교에서 발급한 장치는 Azure AD에 직접 가입하도록 구성해야 합니다. 또는 조직에서 On-premises AD 도메인 가입을 사용하는 경우 해당 장치는 [자동으로 Azure AD에](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup)등록하도록 구성해야 합니다.
 
-BYOD Windows 장치의 경우 사용자는 직장 또는 학교 계정 **추가를 사용할 수 있습니다.** Windows 10 디바이스의 Google Chrome 브라우저 사용자는 [](https://chrome.google.com/webstore/detail/windows-10-accounts/ppnbnpeolgkicgegkbkbjmhlideopiji?utm_source=chrome-app-launcher-info-dialog) Microsoft Edge 사용자와 동일한 원활한 로그인 환경을 제공하려면 확장을 설치해야 합니다. 또한 조직에 도메인에 가입된 Windows 8 또는 8.1 장치가 있는 경우 Windows 10이 아닌 컴퓨터에 대해 Microsoft Workplace Join을 설치할 수 있습니다. [Azure AD에](https://www.microsoft.com/download/details.aspx?id=53554) 디바이스를 등록하기 위해 패키지를 다운로드합니다.
+BYOD Windows 장치의 경우 사용자는 직장 또는 학교 계정 **추가를 사용할 수 있습니다.** Windows 10 디바이스의 Google Chrome 브라우저 사용자는 [](https://chrome.google.com/webstore/detail/windows-10-accounts/ppnbnpeolgkicgegkbkbjmhlideopiji?utm_source=chrome-app-launcher-info-dialog) 확장을 설치하여 Microsoft Edge 사용자와 동일한 원활한 로그인 환경을 제공해야 합니다. 또한 조직에 도메인에 가입된 Windows 8 또는 8.1 장치가 있는 경우 Windows 10이 아닌 컴퓨터에 대해 Microsoft Workplace Join을 설치할 수 있습니다. [Azure AD에](https://www.microsoft.com/download/details.aspx?id=53554) 디바이스를 등록하기 위해 패키지를 다운로드합니다.
 
 ### <a name="ios-devices"></a>iOS 장치
 
@@ -124,7 +123,7 @@ Microsoft 365 E3 또는 E5 또는 별도의 Azure AD Premium P1 또는 P2 라이
 
 - [Azure AD Privileged Identity Management를](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-getting-started) 사용하여 영구 관리 계정 수를 줄입니다.
 - [권한이 부여된 액세스 관리를](../../compliance/privileged-access-management-overview.md) 사용하여 중요한 데이터에 대한 액세스 또는 중요한 구성 설정에 대한 액세스 권한이 있는 기존 권한 있는 관리자 계정을 사용할 수 있는 위반으로부터 조직을 보호합니다.
-- 관리에만 [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) 관리자 역할이 할당된 별도의 계정을 *만들고 사용* 관리자는 일반적이지 않은 관리용 사용자 계정을 가지고 있으며, 필요한 경우 해당 역할 또는 작업 기능과 관련된 작업을 완료하기 위해 관리 계정만 사용해야 합니다.
+- 관리에만 [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) 관리자 역할이 할당된 별도의 계정을 *만들고 사용* 관리자는 관리되지 않는 일반 사용을 위한 자체 사용자 계정을 가지고 있으며, 필요한 경우 해당 역할 또는 작업 기능과 관련된 작업을 완료하기 위해 관리 계정만 사용해야 합니다.
 - Azure [AD에서](https://docs.microsoft.com/azure/active-directory/admin-roles-best-practices) 권한 있는 계정을 보안하기 위한 모범 사례를 따르기
 
 ## <a name="next-step"></a>다음 단계

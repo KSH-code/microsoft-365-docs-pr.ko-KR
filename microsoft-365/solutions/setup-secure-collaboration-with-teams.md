@@ -16,16 +16,18 @@ ms.custom:
 - seo-marvel-jun2020
 f1.keywords: NOCSH
 description: Teams에서 보안 콘텐츠 공동 작업을 설정하여 민감도에 따라 데이터를 보호하는 방법을 알아보겠습니다.
-ms.openlocfilehash: f65657125fef8b8cf7e4e229d70d8fe211153392
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: c92dc6dbf62d3fa0cb00307447b3d5a793830394
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613587"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233859"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Microsoft 365를 사용하여 안전한 공동 작업 설정
 
 조직에서 과도하게 공유하는 것을 방지하면서 올바른 사용자와 정보를 쉽게 공유할 수 있는 것이 조직의 성공에 핵심입니다. 여기에는 중요한 데이터를 액세스 권한이 있는 사용자와만 안전하게 공유할 수 있습니다. 프로젝트에 따라 조직 외부의 사용자와 중요한 데이터를 공유하는 것이 포함됩니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxMmL?autoplay=false]
 
 이 공동 작업 솔루션 지침에는 다음 두 가지 구성 요소가 포함되어 있습니다.
 - 각 프로젝트에 대한 올바른 보호 수준을 통해 Microsoft Teams 배포
@@ -33,13 +35,13 @@ ms.locfileid: "49613587"
 
 ![적절한 보호를 사용하여 Teams 배포 및 적절한 보안 설정으로 외부 공유 구성](..\media\solutions-architecture-center\secure-collaboration-overview.png)
 
-다용도 및 사용하기 쉬운 콘텐츠 공동 작업 도구를 사용할 수 없는 경우 사용자는 문서를 전자 메일로 보내 공동 작업을 하는 경우가 종종 있습니다. 이는 공동 작업의 지우고 오류가 발생할 수 있는 방법으로, 부적절한 정보 공유의 위험을 증가할 수 있습니다. 사용자가 정보 공유가 너무 어렵다는 것을 발견하면 IT에서 관리하지 않는 소비자 제품을 다시 사용할 수 있습니다. 이는 훨씬 더 큰 위험을 내포할 수 있습니다.
+다용도 및 사용하기 쉬운 콘텐츠 공동 작업 도구를 사용할 수 없는 경우 사용자는 문서를 전자 메일로 보내 공동 작업을 하는 경우가 종종 있습니다. 이는 공동 작업의 지우고 오류가 발생할 수 있는 방법으로, 부적절한 정보 공유의 위험을 증가할 수 있습니다. 공유 정보가 너무 어렵다는 것을 발견하면 IT에서 관리하지 않는 소비자 제품을 다시 사용할 수 있습니다. 이는 훨씬 더 큰 위험을 내포할 수 있습니다.
 
 Microsoft 365를 사용하면 다음을 도와주는 다양한 구성으로 Teams를 배포할 수 있습니다.
 
 - 지적 재산 보호
 - 간편한 공동 작업 사용
-- 사용자 만족도를 향상하고 섀도 IT의 위험을 줄이는 보안과 사용성 간의 균형 유지
+- 보안과 사용성 간의 균형을 유지하여 사용자 만족도를 향상하고 섀도 IT의 위험을 줄입니다.
 
 대부분의 조직에서는 정보가 부적절하게 공유되는 경우 민감도 및 비즈니스 영향 정도가 다양하며 다양한 정보를 제공합니다. 특정 정보의 민감도에 따라 다음과의 공유를 허용할 수 있습니다.
 
@@ -56,7 +58,7 @@ Microsoft 365를 사용하면 다음을 도와주는 다양한 구성으로 Team
 
 조직의 성공에 중요하거나 엄격한 보안 또는 규정 준수 요구 사항이 있는 정보는 훨씬 더 높은 수준의 보호가 필요할 수 있습니다.
 
-![위험 수준이 낮음(릴리스된 브로셔)에서 높은(중요한 비즈니스 데이터)로 확장](../media/solutions-architecture-center/SecureCollaboration-SensitivityAndBusinessImpactofSharing-fromVisio.png)
+![위험 수준이 낮음(릴리스된 브로셔)에서 높은(중요한 비즈니스 데이터)로 확장됩니다.](../media/solutions-architecture-center/SecureCollaboration-SensitivityAndBusinessImpactofSharing-fromVisio.png)
 
 위에서 설명한 모든 시나리오에 대해 Microsoft Teams의 팀을 사용하여 정보를 저장, 공유 및 공동 작업할 수 있습니다. 
 

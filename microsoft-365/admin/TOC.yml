@@ -291,6 +291,8 @@
           href: security-and-compliance/multi-factor-authentication-microsoft-365.md
         - name: 다단계 인증 설정
           href: security-and-compliance/set-up-multi-factor-authentication.md
+        - name: 우선 순위 계정 관리 및 모니터링
+          href: setup/priority-accounts.md
         - name: Office 2013에 대해 최신 인증 사용
           href: security-and-compliance/enable-modern-authentication.md
         - name: Microsoft 365 Business Premium을 사용하여 원격 작업을 보안

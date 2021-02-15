@@ -13,21 +13,23 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: 비즈니스에 큰 영향을 미치는 계정으로 보내거나 보낸 실패 및 지연된 전자 메일 메시지를 모니터링합니다.
-ms.openlocfilehash: bc191873b3bbdcd84122a5430adeffe2b8c29fb1
-ms.sourcegitcommit: 5ce64d510b15c6e2df32b78e6086f77156731e3c
+ms.openlocfilehash: dbdd692a41d341564376960788054e70623daf5a
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49477616"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233365"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>우선 순위 계정 관리 및 모니터링
 
-모든 Microsoft 365 조직에는 중요한 정보, 소유 정보 또는 높은 우선 순위 정보에 액세스할 수 있는 임원, 리더, 관리자 또는 기타 사용자와 같이 필수적인 사람이 있습니다.
+모든 Microsoft 365 조직에는 중요, 소유 정보 또는 높은 우선 순위 정보에 액세스할 수 있는 임원, 리더, 관리자 또는 기타 사용자와 같이 필수인 사람이 있습니다.
 
 조직에서 이러한 계정을 보호하도록 지원하기 위해 이제 특정 사용자를 우선 순위 계정으로 지정하고 추가 보호를 제공하는 앱별 기능을 활용할 수 있습니다. 앞으로 더 많은 앱 및 기능이 우선 순위 계정을 지원할 예정으로, 우선  순위 계정 보호 및 프리미엄 메일 흐름 모니터링의 두 가지 기능을 **발표했습니다.**
 
-- **우선 순위** 계정 보호 - Office 365용 Microsoft Defender(이전의 Office 365 Advanced Threat Protection)는 경고, 보고서 및 조사에서 필터에 사용할 수 있는 태그로 우선 순위 계정을 지원합니다. 자세한 내용은 Microsoft [Defender for Office 365에서 사용자 태그를 확인하세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/user-tags?view=o365-worldwide)
-- **고급 메일 흐름 모니터링** - 정상 메일 흐름은 비즈니스 성공에 중요할 수 있으며, 배달 지연 또는 오류는 비즈니스에 부정적인 영향을 미칠 수 있습니다. 실패 또는 지연된 전자 메일에 대한 임계값을 선택하고, 임계값을 초과하면 경고를 수신하고, 우선 순위 계정에 대한 전자 메일 문제 보고서를 볼 수 있습니다. 자세한 내용은 최신 [EAC에서](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report)우선 순위 계정 보고서에 대한 전자 메일 문제를 확인하세요.
+- **우선 순위** 계정 보호 - Office 365용 Microsoft Defender(이전의 Office 365 Advanced Threat Protection)는 경고, 보고서 및 조사에서 필터에 사용할 수 있는 태그로 우선 순위 계정을 지원합니다. 자세한 내용은 Microsoft [Defender for Office 365에서 사용자 태그를 확인하세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/user-tags)
+- **고급 메일 흐름 모니터링** - 정상 메일 흐름은 비즈니스 성공에 중요할 수 있으며 배달 지연 또는 오류는 비즈니스에 부정적인 영향을 미칠 수 있습니다. 실패 또는 지연된 전자 메일에 대한 임계값을 선택하고, 임계값을 초과하면 경고를 수신하고, 우선 순위 계정에 대한 전자 메일 문제 보고서를 볼 수 있습니다. 자세한 내용은 최신 [EAC의](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) 우선 순위 계정 보고서에 대한 전자 메일 문제 확인
+
+우선 순위 계정에 대한 보안 모범 사례는 우선 순위 계정에 [대한 보안 권장 사항을 참조하세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-recommendations-for-priority-accounts)
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -47,7 +49,7 @@ ms.locfileid: "49477616"
 
 설치 페이지에서 우선 순위 계정을 **추가합니다.**
 
-1. Microsoft 365 관리 센터로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 이동하세요.
+1. Go to the Microsoft 365 admin center <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> at.
 
 2. 조직 지식 **설정으로** 이동한 후 가장 중요한 계정 모니터링에서  >   **보기를 선택하십시오.** 
 
@@ -73,7 +75,7 @@ ms.locfileid: "49477616"
 
 ## <a name="remove-a-user-from-the-priority-accounts-list"></a>우선 순위 계정 목록에서 사용자 제거
 
-1. Microsoft 365 관리 센터로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 이동하세요.
+1. Go to the Microsoft 365 admin center <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> at.
 
 2. 조직 지식 **설정으로** 이동한 후 가장 중요한 계정 모니터링에서  >   **보기를 선택하십시오.** 
 

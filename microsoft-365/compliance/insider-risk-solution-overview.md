@@ -28,7 +28,7 @@ ms.locfileid: "50150632"
 
 ![내부자 위험 위협](../media/ir-solution-threats.png)
 
-Microsoft 365 위험 방지 기능은 내부자 위험 제품 및 솔루션에 디자인되어 기본 제공되어 있습니다. 이러한 솔루션은 함께 작동하고 고급 서비스 및 제3자 표시기를 사용하여 위험 활동을 빠르게 식별, 평가 및 대응할 수 있도록 합니다. 대부분의 솔루션은 데이터 분석가와 조사자는 이러한 위험을 신속하게 처리하고 최소화하는 데 사용할 수 있도록 포괄적인 검색, 경고 및 수정 워크플로를 제공합니다.
+Microsoft 365 위험 방지 기능은 내부자 위험 제품 및 솔루션에 디자인되어 기본 제공되어 있습니다. 이러한 솔루션은 함께 작동하고 고급 서비스 및 제3자 표시기를 사용하여 위험 활동을 신속하게 식별, 평가 및 대응할 수 있도록 합니다. 대부분의 솔루션은 데이터 분석가와 조사자는 이러한 위험을 신속하게 처리하고 최소화하는 데 사용할 수 있도록 포괄적인 검색, 경고 및 수정 워크플로를 제공합니다.
 
 | 위험 아이콘 | 위험 | 커뮤니케이션 규정 준수 | 내부자 위험 관리 | 정보 장벽 | 권한이 부여된 액세스 관리 |
 | :---- | :-------- | :--------------------------- | :-------------------------- |:-------------------------| :--------------------------------|
@@ -38,7 +38,7 @@ Microsoft 365 위험 방지 기능은 내부자 위험 제품 및 솔루션에 �
 | ![직장 폭력 아이콘](../media/ir-risk-workplace-violence.png)| 직장 폭력 | ![지원](../media/check-mark.png) |  |  |  |
 | ![사기/도둑 아이콘](../media/ir-risk-fraud.png)| 사기 | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |  |  |
 | ![정책 위반 아이콘](../media/ir-risk-policy-violations.png)| 정책 위반 | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |
-| ![내부자 거래/핸드사이크 아이콘](../media/ir-risk-insider-trading.png)| 내부자 거래 | ![지원](../media/check-mark.png) |  |  |  |
+| ![내부자 거래/핸드 핸드세이크 아이콘](../media/ir-risk-insider-trading.png)| 내부자 거래 | ![지원](../media/check-mark.png) |  |  |  |
 | ![이해 상충 아이콘](../media/ir-risk-conflicts-of-interest.png)| 이해 상충 | ![지원](../media/check-mark.png) |  | ![지원](../media/check-mark.png) |  |
 | ![중요한 데이터 누수/장치 아이콘](../media/ir-risk-sensitive-data-leaks.png)| 중요한 데이터 누수 | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |  |  |
 | ![직장 괴롭기/사람 아이콘](../media/ir-risk-workplace-harassment.png)| 직장 괴롭기 | ![지원](../media/check-mark.png) |  |  |  |
@@ -55,7 +55,7 @@ Microsoft 365 위험 방지 기능은 내부자 위험 제품 및 솔루션에 �
 
 - Microsoft 365 E5 구독(유료 또는 평가판)
 - Microsoft 365 E3 구독 + Microsoft 365 E5 규정 준수 추가 기능
-- Microsoft 365 E3 구독 + Microsoft 365 E5 Insider Risk Management 추가 기능
+- Microsoft 365 E3 구독 + Microsoft 365 E5 내부자 위험 관리 추가 기능
 - Microsoft 365 A5 구독(유료 또는 평가판)
 - Microsoft 365 A3 구독 + Microsoft 365 A5 준수 추가 기능
 - Microsoft 365 A3 구독 + Microsoft 365 A5 내부자 위험 관리 추가 기능
@@ -84,7 +84,7 @@ Microsoft 365 위험 방지 기능은 내부자 위험 제품 및 솔루션에 �
 
 ### <a name="information-barriers"></a>정보 장벽
 
-정보 장벽을 통해 두 내부 그룹 간의 통신 및 공동 작업을 제한하여 조직에서 이해의 충돌을 피할 수 있습니다.
+정보 장벽을 통해 두 내부 그룹 간의 통신 및 공동 작업을 제한하여 조직에서 이해 관계가 충돌하지 않도록 할 수 있습니다.
 
 정보 장벽은 다음 구독에서 사용할 수 있습니다.
 
@@ -94,7 +94,7 @@ Microsoft 365 위험 방지 기능은 내부자 위험 제품 및 솔루션에 �
 - Office 365 A5 구독(유료 또는 평가판)
 - Office 365 고급 준수 추가 기능(새 구독에서 더 이상 사용할 수 없음)
 - Microsoft 365 E3 구독 + Microsoft 365 E5 규정 준수 추가 기능
-- Microsoft 365 E3 구독 + Microsoft 365 E5 Insider Risk Management 추가 기능
+- Microsoft 365 E3 구독 + Microsoft 365 E5 내부자 위험 관리 추가 기능
 - Microsoft 365 A3 구독 + Microsoft 365 A5 준수 추가 기능
 - Microsoft 365 A3 구독 + Microsoft 365 A5 내부자 위험 관리 추가 기능
 
@@ -141,7 +141,7 @@ Microsoft 365는 조직의 이러한 사용자에게 알리고 교육하는 데 
 | 솔루션/영역 | 리소스 |
 |:------------------|:--------------|
 | Microsoft 365에서 내부자 위험 관리 |[완전한 학습 경로](/learn/paths/m365-compliance-insider) <br> 이 학습 경로에는 통신 준수, 내부자 위험 관리, 정보 장벽 및 권한 있는 액세스 관리를 위한 모든 개별 솔루션 모듈이 포함됩니다. 모든 모듈을 완료하려면 이 학습 경로를 선택합니다. |
-| 커뮤니케이션 규정 준수 | [학습 모듈: Microsoft 365에서 커뮤니케이션 규정 준수 준비](/learn/modules/m365-compliance-insider-prepare-communication-compliance) <br> 이 모듈은 통신 규정 준수를 사용하여 코드 준수 정책 위반을 식별하고 수정하는 방법에 대한 기본 정보를 알아보고, 통신 준수 정책을 만들기 전에 필요한 선행 요구를 다루며, 통신 규정 준수의 기본 제공 미리 정의된 정책 템플릿 유형에 대해 학습하는 데 도움이 됩니다. |
+| 커뮤니케이션 규정 준수 | [학습 모듈: Microsoft 365에서 커뮤니케이션 규정 준수 준비](/learn/modules/m365-compliance-insider-prepare-communication-compliance) <br> 이 모듈은 통신 규정 준수를 사용하여 코드 준수 정책 위반을 식별하고 수정하는 방법에 대한 기본 정보를 알아보고, 통신 준수 정책을 만들기 전에 필요한 선행 요구를 다루며, 통신 규정 준수의 기본 제공 미리 정의된 정책 템플릿 유형에 대해 자세히 알아보는 데 도움이 됩니다. |
 | 내부자 위험 관리 | [학습 모듈: Microsoft 365의 내부자 위험 관리](/learn/modules/m365-compliance-insider-manage-insider-risk) <br> 이 모듈은 Microsoft 365의 내부자 위험 관리가 조직의 내부 위험을 방지, 감지 및 포함하는 방법을 알아보고, 기본 제공된 미리 정의된 정책 템플릿의 유형에 대해 알아보고, 내부자 위험 정책을 만들기 전에 필요한 기본 선행 작업을 이해하고, 내부자 위험 관리 사례에 대해 수행할 수 있는 작업 유형에 대해 설명하는 데 도움이 됩니다. |
-| 정보 장벽 | [학습 모듈: 정보 장벽 계획](/learn/modules/m365-compliance-insider-plan-information-barriers) <br> 이 모듈은 정보 장벽 정책이 조직이 관련 산업 표준 및 규정을 준수하는 데 어떻게 도움이 될 수 있는지 알아보고, 정보 장벽이 적용될 수 있는 상황 유형을 나열하고, 정보 장벽 정책을 만드는 프로세스를 설명하고, 정보 장벽이 적용된 후 예기치 않은 문제를 해결하는 방법을 설명하는 데 도움이 됩니다. |
+| 정보 장벽 | [학습 모듈: 정보 장벽 계획](/learn/modules/m365-compliance-insider-plan-information-barriers) <br> 이 모듈은 정보 장벽 정책이 조직에서 관련 산업 표준 및 규정을 준수하는 데 어떻게 도움이 될 수 있는지 알아보고, 정보 장벽이 적용될 수 있는 상황 유형을 나열하고, 정보 장벽 정책을 만드는 프로세스를 설명하고, 정보 장벽이 적용된 후 예기치 않은 문제를 해결하는 방법을 설명하는 데 도움이 됩니다. |
 | 권한이 부여된 액세스 관리 | [학습 모듈: 권한이 부여된 액세스 관리 구현](/learn/modules/m365-compliance-insider-implement-privileged-access-management) <br> 이 모듈은 권한 있는 액세스 관리와 권한 있는 ID 관리 간의 차이점을 이해하고, 권한이 부여된 액세스 관리 프로세스 흐름을 이해하고, 권한 있는 액세스 관리를 구성 및 사용하도록 설정하는 방법의 기본을 이해하는 데 도움이 됩니다. |

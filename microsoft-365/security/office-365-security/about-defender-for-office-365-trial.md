@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: 관리자는 Office 365용 Microsoft Defender의 평가판 모드에 대해 학습할 수 있습니다.
-ms.openlocfilehash: f5ab0b0cd4ef5c2bf1a799043af94a0938a53783
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 6207ae117f06a0e5f10d4a7a47a251137c51df05
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114898"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233582"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Office 365용 Microsoft Defender 평가판
 
@@ -41,7 +41,7 @@ Office 365용 Microsoft Defender 평가판은 Office 365용 Defender의 기능�
 
 ## <a name="terms-and-conditions"></a>사용 약관
 
-Office 365용 Defender 평가판은 90일 동안 사용할 수 있으며 모든 사용자에 대해 시작할 수 있습니다. 자세한 내용은 [Microsoft Defender for Office 365](terms-of-use-defender-for-office-365-trial.md)평가판 사용 약관을 참조하세요.
+Office 365용 Defender 평가판은 90일 동안 사용할 수 있으며 모든 사용자에 대해 시작할 수 있습니다. 자세한 내용은 조건에 대한 [Microsoft Defender for Office 365 평가판 & 참조하세요.](defender-for-office-365-trial-terms-and-conditions.md)
 
 ## <a name="set-up-a-defender-for-office-365-trial"></a>Office 365용 Defender 평가판 설정
 

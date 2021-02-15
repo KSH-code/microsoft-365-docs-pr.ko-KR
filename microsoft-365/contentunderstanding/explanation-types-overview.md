@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 설명 유형에 대해 자세히 알아보세요.
-ms.openlocfilehash: 2c2997fd165339cc43f7f007050f343794021a23
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: caba92b635feaf8f87e2c487559f70be3fab6df9
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080585"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242628"
 ---
 # <a name="introduction-to-explanation-types"></a>설명 유형 소개
 
@@ -147,43 +147,65 @@ Redmond, WA 98034<br>
    ![사용자 지정 범위](../media/content-understanding/custom-file.png).</br>
 뷰어에서 구가 발생하는 위치를 포함하기 위해 선택 상자를 수동으로 조정할 수 있습니다. 이 설정의 경우 시작 <b>시작</b>과 <b>끝</b> 위치를 선택해야 합니다. 이러한 값은 문서 시작에서 토큰 수를 나타냅니다. 이러한 값은 수동으로 입력할 수 있지만 뷰어에서 선택 상자를 수동으로 조정하는 것이 더 쉽습니다.</br> 
    
-
-
 ## <a name="use-explanation-templates"></a>설명 서식 파일 사용
 
-설명에 대한 다양한 패턴 목록 값을 수동으로 추가할 수 있지만, 설명 라이브러리에서 미리 작성된 서식 파일을 찾아 사용하는 것이 훨씬 쉬울 수 있습니다.
+설명에 대한 다양한 구 목록 값을 수동으로 추가할 수 있지만, 설명 라이브러리에서 미리 작성된 서식 파일을 찾아 사용하는 것이 훨씬 쉬울 수 있습니다.
 
-예를 들어 *날짜* 에 대한 모든 변형을 수동으로 추가하는 대신 이미 여러 패턴 목록 값을 포함하고 있는 *날짜* 패턴 목록 서식 파일을 사용할 수 있습니다.</br>
+예를 들어 *날짜* 에 대한 모든 변형을 수동으로 추가하는 대신 이미 여러 구 목록 값을 포함하고 있는 *날짜* 구 목록 서식 파일을 사용할 수 있습니다.</br>
 
    ![설명 라이브러리](../media/content-understanding/explanation-template.png)</br>
  
-설명 라이브러리에는 다음을 비롯하여 일반적으로 사용되는 몇 가지 패턴 목록 설명이 포함되어 있습니다.</br>
+설명 라이브러리에는 다음을 비롯하여 일반적으로 사용되는 몇 가지 구 목록 설명이 포함되어 있습니다.</br>
 
 - 날짜</br>
 - 날짜(숫자)</br>
 - 시간</br>
 - 숫자</br>
+- 백분율</br>
 - 전화 번호</br>
 - 우편 번호</br>
 - 문장의 첫 번째 단어</br>
+- 문장의 끝</br>
 - 신용카드</br>
 - 주민등록번호</br>
+- 확인란</br>
+- 통화</br>
+- 전자 메일 참조</br>
+- 전자 메일 날짜</br>
+- 전자 메일 인사말</br>
+- 전자 메일 받는 사람</br>
+- 전자 메일 보낸 사람</br>
+- 전자 메일 제목</br>
 
-또한 설명 라이브러리에는 다음을 포함한 구 목록 설명의 서식 파일도 포함하고 있습니다.
-- 문장의 끝
-- 통화
+설명 라이브러리에는 예제 파일에 레이블이 지정되어 있는 데이터를 사용하는 세 가지 자동 서식 파일 유형도 포함됩니다.
 
+- 레이블 뒤: 예제 파일의 레이블 뒤에서 발생하는 단어 또는 문자입니다.</br>
+- 레이블 전: 예제 파일의 레이블 앞에 있는 단어 또는 문자입니다.</br>
+- 레이블: 예제 파일에서 처음 10개 레이블까지입니다.</br>
+
+자동 서식 파일의 작동 방식에 대한 예제를 설명하기 위해 다음 예제 파일에서 레이블 전 설명 서식 파일을 사용하여 모델에 더 많은 정보를 제공하여 보다 정확한 일치를 얻을 수 있도록 지원합니다.
+
+   ![예제 파일](../media/content-understanding/before-label.png)</br>
+
+레이블 전 설명 서식 파일을 선택하면 예제 파일의 레이블 앞에 나타나는 첫 번째 단어 집합이 검색됩니다. 예를 들어 첫번째 예제 파일에서 식별되는 단어는 “As of”입니다.
+
+   ![레이블 서식 파일 전](../media/content-understanding/before-label-explanation.png)</br>
+
+서식 파일에서 <b>추가</b>를 선택하여 설명을 만들 수 있습니다.  예제 파일을 더 추가하면 추가 단어가 식별되어 구 목록에 추가됩니다.
+
+   ![레이블 추가](../media/content-understanding/before-label-add.png)</br>
+ 
 #### <a name="to-use-a-template-from-the-explanation-library"></a>설명 라이브러리에서 서식 파일을 사용하려면
 
 1. 모델의 **교육** 페이지의 **설명** 구역에서 **신규** 를 선택한 다음 **서식 파일 사용** 을 선택합니다.</br>
 
-   ![서식 파일로 만들기](../media/content-understanding/from-template.png)</br>
+   ![레이블 전에 추가](../media/content-understanding/from-template.png)</br>
 
 2.  **설명 서식 파일** 페이지에서 사용하려는 설명을 선택하고 **추가** 를 선택합니다.</br>
 
        ![서식 파일 선택](../media/content-understanding/phone-template.png)</br>
 
-3. 선택한 서식 파일에 대한 정보는 **설명 만들기** 페이지에 나와 있습니다. 필요한 경우 설명 이름을 편집하고 패턴 목록에서 항목을 추가 또는 제거합니다. </br> 
+3. 선택한 서식 파일에 대한 정보는 **설명 만들기** 페이지에 나와 있습니다. 필요한 경우 설명 이름을 편집하고 구 목록에서 항목을 추가 또는 제거합니다. </br> 
 
    ![서식 파일 편집](../media/content-understanding/phone-template-live.png)</br>
 
