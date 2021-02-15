@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365에 대한 장치 관리 로드맵
+title: Microsoft 365의 장치 관리 로드맵
 keywords: Microsoft 365, 엔터프라이즈용 Microsoft 365, Microsoft 365 설명서, 모바일 장치 관리, Intune
 author: JoeDavies-MSFT
 ms.author: josephd
@@ -22,7 +22,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/04/2021
 ms.locfileid: "49749542"
 ---
-# <a name="device-management-roadmap-for-microsoft-365"></a>Microsoft 365에 대한 장치 관리 로드맵
+# <a name="device-management-roadmap-for-microsoft-365"></a>Microsoft 365의 장치 관리 로드맵
 
 엔터프라이즈용 Microsoft 365에는 조직 내에서 장치 및 해당 앱을 관리하는 데 도움이 되는 기능이 포함되어 있습니다. 모바일 장치를 관리하면 조직의 리소스를 보호하고 보호할 수 있습니다.
 
@@ -45,7 +45,7 @@ Microsoft Intune을 사용하여 모바일 장치 관리 또는 모바일 응용
 
 ## <a name="choose-between-the-two-options"></a>두 옵션 중 선택
 
-가장 적합한 장치 관리 옵션을 보다 잘 평가하려면 기본 이동성 보안과 Intune 중 선택을 [참조하세요.](https://docs.microsoft.com/office365/securitycompliance/choose-between-mdm-and-intune)
+가장 적합한 장치 관리 옵션을 보다 잘 평가하려면 기본 이동성 보안과 Intune 선택을 [참조하세요.](https://docs.microsoft.com/office365/securitycompliance/choose-between-mdm-and-intune)
 
 평가에 따라 다음을 통해 디바이스 관리를 시작합니다.
 

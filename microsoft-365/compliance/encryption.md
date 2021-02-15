@@ -53,14 +53,14 @@ Office 365를 사용하는 경우 여러 계층과 종류의 암호화가 함께
   
 |**콘텐츠 종류**|**암호화 기술**|**자세한 정보를 알아볼 수 있는 리소스**|
 |:-----|:-----|:-----|
-|디바이스의 파일. 이러한 파일에는 폴더에 저장된 전자 메일 메시지, 컴퓨터, 태블릿 또는 휴대폰에 저장된 Office 문서 또는 Microsoft 클라우드에 저장된 데이터가 포함됩니다.  <br/> |Microsoft 데이터 센터의 BitLocker. Windows 컴퓨터 및 태블릿과 같은 클라이언트 컴퓨터에서도 BitLocker를 사용할 수 있습니다.  <br/> Microsoft 데이터 센터의 DKM(분산 키 관리자)  <br/> Microsoft 365 고객 키  <br/> |[Windows IT 센터: BitLocker](https://docs.microsoft.com/windows/device-security/bitlocker/bitlocker-overview) <br/> [Microsoft 보안 센터: 암호화](https://www.microsoft.com/TrustCenter/Security/Encryption) <br/> [클라우드 보안 제어 시리즈: 미사용 데이터 암호화](https://blogs.microsoft.com/microsoftsecure/2015/09/10/cloud-security-controls-series-encrypting-data-at-rest) <br/> [Exchange Online이 전자 메일 암호를 보호하는 방법](exchange-online-secures-email-secrets.md) <br/> [고객 키를 사용한 서비스 암호화](customer-key-overview.md) <br/> |
+|디바이스의 파일. 이러한 파일에는 폴더에 저장된 전자 메일 메시지, 컴퓨터에 저장된 Office 문서, 태블릿 또는 휴대폰 또는 Microsoft 클라우드에 저장된 데이터가 포함됩니다.  <br/> |Microsoft 데이터 센터의 BitLocker. Windows 컴퓨터 및 태블릿과 같은 클라이언트 컴퓨터에서도 BitLocker를 사용할 수 있습니다.  <br/> Microsoft 데이터 센터의 DKM(분산 키 관리자)  <br/> Microsoft 365 고객 키  <br/> |[Windows IT 센터: BitLocker](https://docs.microsoft.com/windows/device-security/bitlocker/bitlocker-overview) <br/> [Microsoft 보안 센터: 암호화](https://www.microsoft.com/TrustCenter/Security/Encryption) <br/> [클라우드 보안 제어 시리즈: 미사용 데이터 암호화](https://blogs.microsoft.com/microsoftsecure/2015/09/10/cloud-security-controls-series-encrypting-data-at-rest) <br/> [Exchange Online이 전자 메일 암호를 보호하는 방법](exchange-online-secures-email-secrets.md) <br/> [고객 키를 사용한 서비스 암호화](customer-key-overview.md) <br/> |
 |사용자 간에 전송되는 파일입니다. 이러한 파일에는 사용자 간에 공유되는 Office 문서 또는 SharePoint 목록 항목이 포함됩니다.  <br/> |전송되는 파일에 대한 TLS  <br/> |[비즈니스용 OneDrive 및 SharePoint Online에서의 데이터 암호화](data-encryption-in-odb-and-spo.md) <br/> [비즈니스용 Skype Online: 보안 및 보관](https://technet.microsoft.com/library/skype-for-business-online-security-and-archiving.aspx) <br/> |
 |받는 사람 간에 전송된 전자 메일입니다. 이 전자 메일에는 Exchange Online에서 호스팅하는 전자 메일이 포함됩니다.  <br/> |전송 중 전자 메일에 대한 Azure 권한 관리, S/MIME 및 TLS를 사용하는 Office 365 메시지 암호화  <br/> |[OME(Office 365 메시지 암호화)](ome.md) <br/> [Office 365의 전자 메일 암호화](email-encryption.md) <br/> [Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법](exchange-online-uses-tls-to-secure-email-connections.md) <br/> |
 |Microsoft Teams를 사용하는 받는 사람 간에 채팅, 메시지 및 전송되는 파일 <br/> |Teams는 TLS 및 MTLS를 사용하여 인스턴트 메시지를 암호화합니다. 미디어 트래픽은 SRTP(Secure RTP)를 사용하여 암호화됩니다. Teams는 암호화 키 교환에 FIPS(Federal Information Processing Standard) 규격 알고리즘을 사용합니다. <br/> |[Teams용 암호화](https://docs.microsoft.com/microsoftteams/teams-security-guide#encryption-for-teams) <br/> |
 
 ## <a name="what-if-i-need-more-control-over-encryption-to-meet-security-and-compliance-requirements"></a>보안 및 규정 준수 요구 사항을 충족하기 위해 암호화에 대한 더 많은 제어가 필요한 경우 어떻게 해야 하나요?
 
-Microsoft 365는 Office 365의 볼륨 암호화, 파일 암호화 및 사서함 암호화에 대한 Microsoft 관리 솔루션을 제공합니다. 또한 Microsoft는 관리 및 제어할 수 있는 암호화 솔루션을 제공합니다. 이러한 암호화 솔루션은 Azure를 통해 구축됩니다.
+Microsoft 365는 Office 365에서 볼륨 암호화, 파일 암호화 및 사서함 암호화를 위한 Microsoft 관리 솔루션을 제공합니다. 또한 Microsoft는 관리 및 제어할 수 있는 암호화 솔루션을 제공합니다. 이러한 암호화 솔루션은 Azure를 통해 구축됩니다.
   
 자세한 내용은 다음 리소스를 참조하세요.
   

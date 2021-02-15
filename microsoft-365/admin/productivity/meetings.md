@@ -28,7 +28,7 @@ ms.locfileid: "49712546"
 ---
 # <a name="meetings--people-experiences"></a>모임 - 사람 환경
 
-생산성 점수는 Microsoft 365를 활용하고 이를 지원하는 기술 환경을 통해 조직의 디지털 변환 여정에 대한 인사이트를 제공합니다. 조직의 점수는 사용자 및 기술 환경 측정값을 반영하며 사용자와 유사한 조직의 벤치마크와 비교할 수 있습니다. 모임 범주는 사람들이 경험하는 측정값의 일부입니다. 자세한 내용은 생산성 점수 [](productivity-score.md) 개요를 확인하고 Microsoft의 개인 정보 [취급 방침을 읽어보십시오.](https://privacy.microsoft.com/privacystatement)
+생산성 점수는 Microsoft 365를 활용하고 이를 지원하는 기술 환경을 통해 조직의 디지털 혁신 여정에 대한 인사이트를 제공합니다. 조직의 점수는 사용자 및 기술 환경 측정값을 반영하며 사용자와 유사한 조직의 벤치마크와 비교할 수 있습니다. 모임 범주는 사람들이 경험하는 측정값의 일부입니다. 자세한 내용은 생산성 점수 [](productivity-score.md) 개요를 확인하고 Microsoft의 개인 정보 [취급 방침을 읽어보십시오.](https://privacy.microsoft.com/privacystatement)
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -46,7 +46,7 @@ ms.locfileid: "49712546"
 
 ## <a name="how-we-calculate-the-meetings-score"></a>모임 점수를 계산하는 방법
 
-이 범주에 대한 주요 메트릭을 포함하는 환경의 기본 정보를 제공합니다. 그런 다음 아래에서 자세히 설명하는 점수 프레임워크를 사용하여 조직의 점수를 계산합니다.
+이 범주에 대한 주요 메트릭을 포함하는 환경의 기본 정보를 제공합니다. 그런 다음 아래에서 자세히 설명하는 점수 체계를 이러한 메트릭에 사용하여 조직의 점수를 계산합니다.
 
 ### <a name="primary-insight"></a>기본 인사이트
 
@@ -81,7 +81,7 @@ Microsoft Teams는 Outlook 일정과 통합되어 모임을 더욱 매력적이�
 
 ### <a name="breakdown-of-how-many-meetings-follow-best-practices"></a>모범 사례를 따르는 모임 수 분석
 
-:::image type="content" source="../../media/videouse-meetings.png" alt-text="모임에 대한 기본 인사이트를 보여주는 차트 - 사람 환경.":::
+:::image type="content" source="../../media/videouse-meetings.png" alt-text="모임에 대한 기본 인사이트를 보여주는 차트 - 사람 환경입니다.":::
 
 1. **헤더:**  기본 인사이트 및 점수 매기기에서 고려된 비디오 모범 사례를 사용하는 온라인 Microsoft Teams 모임의 비율을 강조합니다.
 2. **본문:** 모임 중에 이러한 사례를 사용하여 더욱 매력적으로 활용하는 가치에 대한 정보를 제공합니다. 
@@ -103,7 +103,7 @@ Microsoft Teams는 Outlook 일정과 통합되어 모임을 더욱 매력적이�
 3. **시각화:** 지난 28일 동안의 모임에서 주당 소요된 평균 시간을 기준으로 조직의 사용자 보기를 제공합니다. 각 범주에 대해 다음 정보가 제공됩니다.
       - **총 모임 참석자 수:** 지난 28일 동안의 평균 모임 기간 범위를 기준으로 모임에 참석한 조직의 사용자 수를 나타냅니다. 예를 들어 6-10시간 범주는 지난 28일 동안 주당 평균 여러 시간 동안 모임에 참석한 사람 수를 나타냅니다.
       - **비디오가 있는 모임의 참석자:** 각 범주에 대해 지난 28일 동안 비디오가 있는 모임에 참석한 조직의 사용자 수가 표시됩니다.
-      - **화면 공유가 있는 모임의 참석자:** 각 범주에 대해 지난 28일 동안의 화면 공유를 포함 한 모임에 참석한 사람 수를 표시합니다.
+      - **화면 공유가 있는 모임의 참석자:** 각 범주에 대해 지난 28일 동안의 화면 공유를 포함해 모임에 참석한 사람 수를 표시합니다.
 
 ### <a name="distribution-of-meeting-length-by-type"></a>모임 길이 유형별로 배포
 
@@ -122,7 +122,7 @@ Microsoft Teams는 Outlook 일정과 통합되어 모임을 더욱 매력적이�
 :::image type="content" source="../../media/percentparticipation-meetingtypes.jpg" alt-text="다양한 모임 유형에 참여하는 비율을 표시하는 차트입니다.":::
 
 1. **헤더:** 지난 28일 동안의 인스턴트 온라인 Microsoft Teams 모임 비율(30분 미만)을 강조합니다.
-2. **본문:** Microsoft Teams 채널 기능에서 &quot; 지금 Meet를 &quot; 사용하는 값에 대한 정보를 제공합니다.
+2. **본문:** Microsoft Teams 채널 기능에서 &quot; 지금 Meet &quot; Now를 사용하는 값에 대한 정보를 제공합니다.
 3. **시각화:** 온라인 Microsoft Teams 모임에 참석하는 사람이 참석하는 모임 유형을 보여줍니다. 각 모임 유형은 가로 막대로 표시되어 색이 있는 부분과 분수는 다음을 나타 내는 가로 막대로 표시됩니다.
     - **Instant 1:1 calls**:
         - 숫자: 지난 28일 동안 1:1 통화에 참가한 사람 수

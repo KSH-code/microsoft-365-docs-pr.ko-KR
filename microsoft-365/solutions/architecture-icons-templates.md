@@ -28,7 +28,7 @@ ms.locfileid: "49688779"
 
 ## <a name="terms-and-download"></a>사용 약관 및 다운로드
 
-Microsoft는 이러한 아이콘을 아키텍처 다이어그램, 교육 자료 또는 설명서에서 사용할 수 있습니다. Microsoft에서 명시적 권한을 부여하지 않으면 허용된 사용에 한해 아이콘을 복사, 배포 및 표시할 수 있습니다. Microsoft reserves all other rights.
+Microsoft는 아키텍처 다이어그램, 교육 자료 또는 설명서에서 이러한 아이콘을 사용할 수 있습니다. Microsoft에서 명시적 권한을 부여하지 않으면 허용된 사용에 한해 아이콘을 복사, 배포 및 표시할 수 있습니다. Microsoft reserves all other rights.
 
 
  > [!div class="button"]

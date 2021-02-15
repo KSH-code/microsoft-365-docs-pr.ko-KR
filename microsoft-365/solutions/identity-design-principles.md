@@ -60,7 +60,7 @@ Alas, language isn't a precise tool. 종종 동일한 단어를 사용하여 다
 
 - 테넌트 = Azure AD의 인스턴스입니다. 계층 구조의 "맨 위" 또는 다이어그램의 수준 1에 있습니다. 이 경계는 다른 모든 것이 발생하는["](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-directory-independence)경계"(Azure[AD B2B는 옆으로)로 고려할](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b) 수 있습니다. 모든 Microsoft 엔터프라이즈 클라우드 서비스는 이러한 테넌트 중 하나에 해당합니다. 소비자 서비스는 별도입니다. "테넌트"는 Office 365 테넌트, Azure 테넌트, WVD 테넌트 등 설명서에 표시됩니다. 이러한 변형으로 인해 고객에게 혼동을 일으킬 수 있는 경우가 종종 있습니다.
 - 다이어그램의 수준 2인 서비스/구독은 하나의 테넌트에만 속합니다. 대부분의 SaaS 서비스는 1:1입니다. 마이그레이션 없이는 이동할 수 없습니다. Azure는 다릅니다. [](https://docs.microsoft.com/azure/cost-management-billing/manage/billing-subscription-transfer) 청구 및/또는 구독을 다른 테넌트로 [이동할](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory) 수 있습니다. Azure 구독을 이동해야 하는 고객이 많이 있습니다. 이 경우 다양한 의미가 있습니다. 구독 외부에 있는 개체는 이동되지 않습니다(예: 역할 기반 액세스 제어 또는 Azure RBAC, 그룹, 앱, 정책 등의 Azure AD 개체). 또한 일부 서비스(예: Azure Key Vault, 데이터 블록 등) 업무상 필요한 경우 서비스를 마이그레이션하지 않습니다. 마이그레이션에 도움이 될 수 있는 일부 스크립트는 [GitHub에서 공유됩니다.](https://github.com/lwajswaj/azure-tenant-migration)
-- 일반적으로 제공된 서비스에는 일종의 "하위 수준" 경계 또는 수준 3(L3)이 있습니다. 이 기능은 보안, 정책, 거버넌스 등으로의분리에 대해 이해하는 데 유용합니다. 안타깝게도 알 수 있는 uniform 이름이 없습니다. L3의 몇 가지 예는 다음과 같습니다. Azure Subscription = [resource;](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resources-portal) Dynamics 365 CE = [인스턴스;](https://docs.microsoft.com/dynamics365/admin/new-instance-management) Power BI = [작업 영역;](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) Power Apps = [환경;](https://docs.microsoft.com/power-platform/admin/environments-overview) 등.
+- 일반적으로 제공된 서비스에는 일종의 "하위 수준" 경계 또는 수준 3(L3)이 있습니다. 이는 보안, 정책, 거버넌스 등으로의분리에 대해 이해하는 데 유용합니다. 안타깝게도 알 수 있는 uniform 이름이 없습니다. L3의 몇 가지 예는 다음과 같습니다. Azure Subscription = [resource](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resources-portal); Dynamics 365 CE = [인스턴스;](https://docs.microsoft.com/dynamics365/admin/new-instance-management) Power BI = [작업 영역;](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) Power Apps = [환경;](https://docs.microsoft.com/power-platform/admin/environments-overview) 등.
 - 수준 4는 실제 데이터가 있는 위치입니다. 이 '데이터 평면'은 복잡한 항목입니다. 일부 서비스는 RBAC에 대해 Azure AD를 사용하고 다른 서비스는 사용하지 않습니다. 위임 항목에 대해 설명할 것입니다.
 
 많은 고객(및 Microsoft 직원)이 혼동하거나 이에 대한 질문이 있는 몇 가지 추가 개념은 다음과 같습니다.
@@ -193,27 +193,27 @@ Microsoft [Fluid Framework에 대해](https://techcommunity.microsoft.com/t5/mic
 
 - 성능 이점은 제공하지 않습니다. 네트워크 디자인이 정확하지 않은 경우 성능이 [나빠질](https://aka.ms/office365networking) 수 있습니다. 디바이스를 Microsoft 네트워크에 "닫기"합니다. 반드시 데이터를 사용할 필요는 없습니다.
 - GDPR 규정 준수를 위한 [솔루션이 아닙니다.](https://www.microsoft.com/trust-center/privacy/gdpr-overview) GDPR은 데이터 주권 또는 저장소 위치에 중점을 두지 않습니다. 이에 대한 다른 규정 준수 프레임워크가 있습니다.
-- 관리 위임(아래 참조) 또는 정보 [장벽을 해결할 수 없습니다.](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)
+- 관리 위임(아래 참조) 또는 정보 장벽을 [해결할 수 없습니다.](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)
 - 다중 테넌트와는 같지며 추가 사용자 프로비전 [워크플로가](https:/docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation) 필요합니다.
 - 테넌트(Azure AD)는 다른 지리로 이동하지 않습니다. [](https://docs.microsoft.com/microsoft-365/enterprise/moving-data-to-new-datacenter-geos) 
 
 ## <a name="delegation-of-administration"></a>관리 위임
 
-대부분의 대규모 조직에서는 업무와 RBAC(역할 기반 액세스 제어)의 분리가 필요한 현실입니다. 미리 사과할 것입니다. 이는 일부 고객이 원하는 것만큼 간단하지는 않습니다. 고객, 법률, 규정 준수 및 기타 요구 사항은 서로 다르며 전 세계에 충돌하기도 합니다. 간소한 유연성과 유연성은 서로 반대되는 경우가 종종 있습니다. 틀리게 하지 말고, 이 작업을 더 잘 할 수 있습니다. 시간이 지날 때 크게 개선된 기능도 있습니다. 379230 docs를 읽지 않고도 비즈니스 요구 사항에 맞는 모델을 해결해 보세요. [](https://www.microsoft.com/mtc) 여기서는 이러한 방식이 아니라 어떻게 생각해야 하는지 중점적으로 다가가게 될 것입니다. 다음은 계획할 다섯 가지 다른 영역과 자주 묻는 질문 중 일부입니다.
+대부분의 대규모 조직에서는 업무와 RBAC(역할 기반 액세스 제어)의 분리가 필요한 현실입니다. 미리 사과할 것입니다. 이는 일부 고객이 원하는 것만큼 간단하지는 않습니다. 고객, 법률, 규정 준수 및 기타 요구 사항은 서로 다르며 전 세계에 충돌하기도 합니다. 간소한 유연성과 유연성은 서로 반대되는 경우가 종종 있습니다. 틀리게 하지 말고, 이 작업을 더 잘 할 수 있습니다. 시간이 지날 때 크게 개선된 기능도 있습니다. 379230 docs를 읽지 않고도 비즈니스 요구 사항에 맞는 모델을 해결해 보세요. [](https://www.microsoft.com/mtc) 여기서는 이러한 방식이 아니라 어떻게 생각해야 하는지 중점적으로 다가가게 될 것입니다. 다음은 계획해야 할 다섯 가지 다른 영역과 자주 묻는 질문 중 일부입니다.
 
 ### <a name="azure-ad-and-microsoft-365-admin-centers"></a>Azure AD 및 Microsoft 365 관리 센터
 
 길고 성장하는 기본 제공 역할 [목록이 있습니다.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 각 역할은 특정 작업이 수행될 수 있도록 함께 그룹화되는 역할 권한 목록으로 구성됩니다. 이러한 사용 권한은 각 역할 내부의 "설명" 탭에서 볼 수 있습니다. 또는 Microsoft 365 관리 센터에서 좀 더 사람이 읽을 수 있는 버전을 볼 수 있습니다. 기본 제공 역할에 대한 정의는 수정할 수 없습니다. 일반적으로 이러한 항목은 다음 세 가지 범주로 그룹화됩니다.
 
 - **전역 관리자:** 이 "모든 강력한" 역할은 다른 시스템에서와 마찬가지로 매우 보호해야 합니다. [](https://docs.microsoft.com/microsoft-365/enterprise/protect-your-global-administrator-accounts) 일반적인 권장 사항은 영구 할당 없음 및 Azure AD PIM(Privileged Identity Management)을 사용하는 것입니다. 강력한 인증; 등. 흥미롭게도, 이 역할은 기본적으로 모든 데이터에 대한 액세스 권한을 부여하지 않습니다. 일반적으로 규정 준수 액세스 및 Azure 액세스에 대한 혼란이 나중에 설명됩니다. 그러나 이 역할은 항상 테넌트의 다른 서비스에 대한 액세스를 할당할 수 있습니다. 
-- **특정 서비스 관리자:** 일부 서비스(Exchange, SharePoint, Power BI 등)는 Azure AD의 높은 수준의 관리 역할을 사용 합니다. 이는 모든 서비스에서 일관되지는 못하며 나중에 더 많은 서비스별 역할이 설명됩니다.
+- **특정 서비스 관리자:** 일부 서비스(Exchange, SharePoint, Power BI 등)는 Azure AD의 높은 수준의 관리 역할을 사용 합니다. 이는 모든 서비스에서 일관되지는 못하며 나중에 설명하는 더 많은 서비스별 역할이 있습니다.
 - **기능:** 특정 작업(게스트 초대자 등)에 중점을 두는 역할 목록이 길고 커지고 있습니다. 주기적으로 이러한 추가 내용은 고객의 요구에 따라 추가됩니다.
 
 간격이 줄어들어도 모든 것을 위임할 수 없습니다. 즉, 전역 관리자 역할을 때때로 사용해야 합니다. 이 역할의 구성원 자격 대신 코드로 구성 및 자동화를 고려해야 합니다.
 
 **참고:** Microsoft 365 관리 센터에는 사용자에게 친숙한 인터페이스가 있지만 Azure AD 관리자 환경과 비교할 때 일부 기능이 있습니다. 두 포털 모두 동일한 Azure AD 역할을 사용 하여 동일한 장소에서 변경이 발생하고 있습니다. 팁: 모든 Azure의 클러터 없이 ID 관리 중심의 관리 UI를 원할 경우 [https://aad.portal.azure.com](https://aad.portal.azure.com) . 
 
-이름에 무엇이 있나요? 역할 이름에서 가정하지 않습니다. 언어는 매우 정확한 도구가 아니며, 필요한 역할을 보기 전에 위임해야 하는 작업을 정의하는 것이 목표입니다. "보안 읽기 사용자" 역할에 누군가를 추가하는 것이 모든 보안 설정을 표시하지는 않습니다.
+이름에 무엇이 있나요? 역할 이름에서 가정하지 않습니다. 언어는 매우 정확한 도구가 아니며, 목표는 필요한 역할을 보기 전에 위임해야 하는 작업을 정의하는 것입니다. "보안 읽기 사용자" 역할에 누군가를 추가하는 것이 모든 보안 설정을 표시하지는 않습니다.
 
 사용자 지정 역할을 [만드는 능력은](https://docs.microsoft.com/azure/active-directory/users-groups-roles/roles-custom-overview) 일반적인 질문입니다. 이는 현재 Azure AD에서 제한되지만(아래 참조) 시간이 지날수록 기능이 커질 것입니다. 이러한 기능은 Azure AD의 기능에 적용 가능한 것으로 생각하며 계층 구조 모델 (위에서 설명한)에 걸쳐 있지 않을 수 있습니다. "사용자 지정"을 다를 때마다 "단순하면 더 낫습니다."라는 내 보안 주체로 돌아가는 경향이 있습니다.
 
@@ -241,7 +241,7 @@ Exchange 역할 그룹 모델의 발전된 의미입니다. 그러나 Exchange O
 
 ### <a name="service-specific"></a>서비스 관련
 
-앞에서 밝혔듯이 많은 고객은 보다 세분화된 위임 모델을 달성하기를 원합니다. 일반적인 예: "부서 X 사용자 및 위치에 대한 XYZ 서비스만 관리"(또는 다른 차원). 이 작업을 하는 기능은 각 서비스에 따라 달라지며 서비스 및 기능 전체에서 일관되지 않습니다. 또한 각 서비스에는 별도의 고유한 RBAC 모델이 있을 수 있습니다. 이러한 모든 문제를 설명하는 대신 각 서비스에 대해 관련 링크를 추가하고 있습니다. 이 목록은 전체 목록이 아니며 시작할 수 있습니다.
+앞에서 알 수했듯이 많은 고객은 보다 세분화된 위임 모델을 달성하기를 원합니다. 일반적인 예: "부서 X 사용자 및 위치에 대한 XYZ 서비스만 관리"(또는 다른 차원). 이 작업을 하는 기능은 각 서비스에 따라 달라지며 서비스 및 기능 전체에서 일관되지 않습니다. 또한 각 서비스에는 별도의 고유한 RBAC 모델이 있을 수 있습니다. 이러한 모든 문제를 설명하는 대신 각 서비스에 대해 관련 링크를 추가하고 있습니다. 이 목록은 전체 목록이 아니며 시작할 수 있습니다.
 
 - **Exchange Online** - [https://docs.microsoft.com/exchange/permissions-exo/permissions-exo](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) 
 - **SharePoint Online** - [https://docs.microsoft.com/sharepoint/manage-site-collection-administrators](https://docs.microsoft.com/sharepoint/manage-site-collection-administrators) 
@@ -282,7 +282,7 @@ Office 365에는 통합 감사 [로그가 있습니다.](https://docs.microsoft.
 - [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
 - [Microsoft Graph](https://graph.microsoft.com)
 
-먼저 보안 및 규정 준수 프로그램에 필요한 모든 로그 원본을 식별하는 것이 중요합니다. 또한 로그마다 서로 다른 인라인 보존 제한이 있습니다. 
+먼저 보안 및 규정 준수 프로그램에 필요한 모든 로그 원본을 식별하는 것이 중요합니다. 또한 로그마다 서로 다른 On-Line 보존 제한이 있습니다. 
 
 관리자 위임 관점에서 볼 때 대부분의 Microsoft 365 활동 로그에는 기본 제공 RBAC 모델이 없습니다. 로그를 볼 수 있는 권한이 있는 경우 로그의 모든 것을 볼 수 있습니다. 고객 요구 사항의 일반적인 예로는 "EU 사용자에 대한 활동만 쿼리할 수 있게 하려는 경우"(또는 다른 차원도 있습니다.) 이 요구 사항을 충족하려면 로그를 다른 서비스로 전송해야 합니다. Microsoft 클라우드에서는 [Azure Sentinel](https://docs.microsoft.com/azure/sentinel/overview) 또는 [Log Analytics로 전송하는 것이 좋습니다.](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace) 
 
@@ -290,7 +290,7 @@ Office 365에는 통합 감사 [로그가 있습니다.](https://docs.microsoft.
 
 ![보안 및 규정 준수 프로그램의 로그 원본 다이어그램](../media/solutions-architecture-center/identity-beyond-illustration-4.png)  
 
-위의 다이어그램은 이벤트 허브 및/또는 Azure Storage 및/또는 Azure Log Analytics로 로그를 보낼 수 있는 기본 제공 기능을 나타 내포합니다. 모든 시스템에는 이러한 첫 운영 체제가 아직 포함되어 있지 않습니다. 그러나 이러한 로그를 동일한 리포지토리로 보내는 다른 방법도 있습니다. 예를 들어 [Azure Sentinel로 Teams 보호를 참조하세요.](https://techcommunity.microsoft.com/t5/azure-sentinel/protecting-your-teams-with-azure-sentinel/ba-p/1265761)
+위의 다이어그램은 이벤트 허브 및/또는 Azure Storage 및/또는 Azure Log Analytics로 로그를 보낼 수 있는 기본 제공 기능을 나타내고 있습니다. 모든 시스템에는 이러한 첫 운영 체제가 아직 포함되어 있지 않습니다. 그러나 이러한 로그를 동일한 리포지토리로 보내는 다른 방법도 있습니다. 예를 들어 [Azure Sentinel로 Teams 보호를 참조하세요.](https://techcommunity.microsoft.com/t5/azure-sentinel/protecting-your-teams-with-azure-sentinel/ba-p/1265761)
 
 모든 로그를 하나의 저장소 위치에 결합하면 상호 상관 관계, 사용자 지정 보존 시간, RBAC 모델을 지원하는 데 필요한 데이터로 확장 등의 추가 이점이 포함됩니다. 이 저장소 시스템에 데이터가 있는 경우 적절한 RBAC 모델을 사용하여 Power BI 대시보드(또는 다른 유형의 시각화)를 만들 수 있습니다.
 

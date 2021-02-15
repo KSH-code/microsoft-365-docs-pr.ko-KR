@@ -41,7 +41,7 @@ ms.locfileid: "49751338"
 
 - 사용자는 Windows 10의 Cortana(버전 2004 이상)를 통해 여기에 설명된 Cortana 엔터프라이즈 서비스뿐만 아니라 iOS 및 Android용 Outlook과 같은 클라이언트 응용 프로그램에 별도의 라이선스 조건이 적용될 수 있습니다. 
 
-- Windows 10의 Cortana(버전 1909 이하) 및 iOS 및 Android의 Cortana 앱을 비롯한 기존 소비자 환경은 [Microsoft](https://www.microsoft.com/licensing/product-licensing/products) 서비스 계약 및 [Microsoft](https://privacy.microsoft.com/privacystatement) 개인 정보 취급 방침(아래 "소비자를 위한 기존 서비스" 섹션 참조)을 통해 관리됩니다. 이러한 조건은 소비자 자격 증명으로 로그인할 때 사용자에게 제공되는 Cortana 엔터프라이즈 서비스도 관리합니다.
+- Windows 10의 Cortana(버전 1909 이하) 및 iOS 및 Android의 Cortana 앱을 비롯한 기존 소비자 환경은 [Microsoft](https://www.microsoft.com/licensing/product-licensing/products) 서비스 계약 및 [Microsoft](https://privacy.microsoft.com/privacystatement) 개인 정보 취급 방침(아래 "소비자를 위한 기존 서비스" 섹션 참조)을 통해 관리됩니다. 이러한 약관은 소비자 자격 증명으로 로그인할 때 사용자에게 제공되는 Cortana 엔터프라이즈 서비스도 관리합니다.
 
 ## <a name="what-data-is-processed-by-cortana-enterprise-services"></a>Cortana 엔터프라이즈 서비스에서 처리되는 데이터는 무엇입니까? 
 
@@ -79,15 +79,15 @@ Windows 10 버전 2004 이상의 Cortana는 [OST(온라인](https://www.microsof
 
 Windows 10 버전 2004부터 Cortana는 Windows에 미리 설치되는 UWP(유니버설 Windows 플랫폼) 앱으로, Microsoft Store를 통해 정기적으로 업데이트됩니다. Cortana에 대한 최신 업데이트를 받으하려면 [Microsoft Store를 통해 업데이트를 사용하도록 설정해야 합니다.](https://docs.microsoft.com/windows/configuration/stop-employees-from-using-microsoft-store)
 
-[Windows 10의 Cortana에 대해 자세히 알아보기](https://docs.microsoft.com/windows/configuration/cortana-at-work/cortana-at-work-overview)
+[Windows 10의 Cortana에 대해 자세히 알아보시고](https://docs.microsoft.com/windows/configuration/cortana-at-work/cortana-at-work-overview)
 
 ### <a name="cortana-voice-assistance-in-teams"></a>Teams의 Cortana 음성 지원
 
-Teams 모바일 앱 및 Microsoft Teams 디스플레이 장치의 Cortana 음성 지원을 통해 Microsoft 365 Enterprise 사용자는 음성 자연어를 사용하여 커뮤니케이션, 공동 작업 및 모임 관련 작업을 간소화할 수 있습니다. 사용자는 Teams 모바일 앱의 오른쪽 위에 있는 마이크 단추를 선택하거나 Microsoft Teams 화면에서 Cortana를 &#8220;말하여 Cortana에게&#8221; 수 있습니다. 이동 중에는 핸즈프리 팀과 빠르게 연결하기 위해 사용자는 &#8220;Megan&#8221; 또는 &#8220;모임에 메시지를 보내는 등의 쿼리를&#8221;. 또한 사용자가 다음 모임에 참가하고 &#8220;음성 지원을 사용하여 파일을&#8221; 일정을 확인하여 모임에 참가할 수 있습니다. 이러한 음성 지원 환경은 [OST(온라인](https://www.microsoft.com/licensing/product-licensing/products)서비스 약관)에 반영된 Office 365의 개인 정보, 보안 및 규정 준수 약속을 완전히 준수하는 Cortana 엔터프라이즈급 서비스를 사용하여 전달됩니다.
+Teams 모바일 앱 및 Microsoft Teams 디스플레이 장치의 Cortana 음성 지원을 통해 Microsoft 365 Enterprise 사용자는 음성 자연어를 사용하여 커뮤니케이션, 공동 작업 및 모임 관련 작업을 간소화할 수 있습니다. 사용자는 Teams 모바일 앱의 오른쪽 위에 있는 마이크 단추를 선택하거나 Microsoft Teams 화면에서 Cortana를 &#8220;말하여 Cortana에게&#8221; 수 있습니다. 이동 중에는 핸즈프리 팀과 빠르게 연결하기 위해 사용자는 &#8220;Megan&#8221; 전화 또는 &#8220;모임에 메시지를 보내는 등의 쿼리를&#8221;. 또한 사용자가 다음 모임에 참가하고 &#8220;음성 지원을 사용하여 파일을&#8221; 일정을 확인하여 모임에 참가할 수 있습니다. 이러한 음성 지원 환경은 [OST(온라인](https://www.microsoft.com/licensing/product-licensing/products)서비스 약관)에 반영된 Office 365의 개인 정보, 보안 및 규정 준수 약속을 완전히 준수하는 Cortana 엔터프라이즈급 서비스를 사용하여 전달됩니다.
 
 **관리자 컨트롤**
 
-Cortana 음성 지원은 기본적으로 테넌트에 대해 사용하도록 설정됩니다. 관리자는 테넌트의 사용자가 정책을 통해 Teams에서 Cortana 음성 지원을 사용할 수 있는 사용자(TeamsCortanaPolicy)를 제어할 수 있습니다. 이 정책은 사용자 계정 수준 또는 테넌트 수준에서 설정할 수 있습니다. 관리자는 이 정책 컨트롤 내의 CortanaVoiceInvocationMode 필드를 사용하여 Cortana가 사용되지 않도록 설정되어 있는지, 푸시 단추 호출에서만 사용하도록 설정되어 있는지 또는 절전 모드 호출을 사용할지 여부를 결정할 수 있습니다(Microsoft Teams 디스플레이와 같이 Cortana를 지원하는 장치에 적용 가능). 영어로 Microsoft 365 Enterprise 사용자를 위한 초기 릴리스 당시 Teams 모바일 앱은 절전 모드 활성화를 지원하지 않지만 향후 지원될 예정입니다.
+Cortana 음성 지원은 기본적으로 테넌트에 대해 사용하도록 설정됩니다. 관리자는 테넌트의 사용자가 정책을 통해 Teams에서 Cortana 음성 지원을 사용할 수 있는 사용자(TeamsCortanaPolicy)를 제어할 수 있습니다. 이 정책은 사용자 계정 수준 또는 테넌트 수준에서 설정할 수 있습니다. 관리자는 이 정책 컨트롤 내의 CortanaVoiceInvocationMode 필드를 사용하여 Cortana를 사용하지 않도록 설정하거나, 푸시 단추 호출만 사용하도록 설정하거나, 절전 모드 호출과 함께 사용하도록 설정할지 여부를 결정할 수 있습니다(Microsoft Teams 디스플레이와 같이 Cortana를 지원하는 디바이스에 해당). 영어로 Microsoft 365 Enterprise 사용자를 위한 초기 릴리스 당시 Teams 모바일 앱은 절전 모드 활성화를 지원하지 않지만 향후 지원될 예정입니다.
 
 **사용자 컨트롤**
 
@@ -117,7 +117,7 @@ Cortana는 전자 메일이 보호될 때 호출하고 메시지를 읽기 전�
 
 2. 설정으로 **이동합니다.**
   
-3. Select **Play My Emails**.
+3. 내 **전자 메일 재생을 선택합니다.**
 
 4. 사용하지 않도록 설정할 계정에서 토글을 해제합니다.
 
@@ -155,7 +155,7 @@ Cortana는 작업 및 약정이 있는 개인 설정 브리핑 전자 메일을 
 
 1. 이러한 환경을 통해 날씨, 뉴스, 교통량 등의 기능을 사용할 수 있습니다.
 
-2. 테넌트 관리자는 Windows 10의 Cortana(버전 1909 및 이전 버전)와 iOS 및 Android의 Cortana 앱에서 Cortana가 Office 365 테넌트 데이터에 연결할 수 있는지 여부를 제어할 수 있습니다.
+2. 테넌트 관리자는 Windows 10의 Cortana(버전 1909 이전 버전)와 iOS 및 Android의 Cortana 앱에서 Cortana가 Office 365 테넌트 데이터에 연결할 수 있는지 여부를 제어할 수 있습니다.
 
 조직의 Microsoft 호스트 데이터에 대한 Cortana 액세스 끄기
 

@@ -30,7 +30,7 @@ ms.locfileid: "49688625"
 
 테넌트 마이그레이션은 관리자와 사용자에게 최소한의 영향을 미치기 위해 고안된 것입니다. 하지만, 각 작업과 관련하여 다음 사항에 유의 하세요.  워크로드에 대한 마이그레이션 환경을 보다 잘 이해하기 위해 다음 섹션을 검토하세요.
 
-다음은 독일 신규 독일 데이터 센터 지역의 Microsoft 클라우드와 Office 365 서비스 간의 주요 차이점입니다.
+독일 Microsoft 클라우드와 독일 신규 데이터 센터 지역의 Office 365 서비스 간 주요 차이점은 다음과 같습니다.
 
 | 범주 | 도이클란드 Microsoft 클라우드(도이클란드 Microsoft 클라우드) | 신규 독일 데이터 센터 지역에서의 Office 365 서비스 |
 |:-------|:-----|:-------|
@@ -46,19 +46,19 @@ ms.locfileid: "49688625"
 
 변경되지 않는 사항:
 
-- 테넌트 ID(GUID) 및 사용자 지정 도메인이 있는 테넌트 초기 도메인(예: )은 마이그레이션 `contoso.onmicrosoft.de` 후에도 지속됩니다. 
+- 테넌트 ID(예: 테넌트 ID) 및 사용자 지정 도메인이 있는 테넌트 초기 도메인(예: )은 마이그레이션 `contoso.onmicrosoft.de` 후에도 지속됩니다. 
 
 - Office 365 서비스로 마이그레이션된 리소스에 대한 인증 요청은 Office 365 서비스 Azure 인증 서비스()에서 `login.microsoftonline.com` 부여됩니다. 마이그레이션 중에 Office 365 Germany에 남아 있는 리소스는 기존 독일 Azure 서비스()에서 `login.microsoftonline.de` 인증됩니다.
 
 참고할 고려 사항:
 
-- 관리되는 도메인 계정의 경우 초기 Azure AD(Azure Active Directory) 테넌트의 복사가 완료된 후(Office 365 서비스 Azure AD 서비스로 Azure AD 마이그레이션의 첫 번째 단계), 암호 변경, SSPR(셀프 서비스 암호 재설정) 변경 및 관리자의 암호 재설정을 Office 365 서비스 포털에서 완료해야 합니다. Azure AD 테넌트가 Office 365 서비스로 마이그레이션되어 독일 서비스에서 암호 업데이트 요청이 성공하지 못합니다. 페더전된 도메인 암호의 재설정은 영향을 받지 않습니다. 이는 해당 암호가 On-premises 디렉터리에서 완료되어 있기 때문에 영향을 받지 않습니다.
+- 관리되는 도메인 계정의 경우 초기 Azure AD(Active Directory) 테넌트의 복사가 완료된 후(Office 365 서비스 Azure AD 서비스로 Azure AD 마이그레이션의 첫 번째 단계), 암호 변경, SSPR(셀프 서비스 암호 재설정) 변경 및 관리자의 암호 재설정을 Office 365 서비스 포털에서 완료해야 합니다. Azure AD 테넌트가 Office 365 서비스로 마이그레이션되어 독일 서비스에서 암호 업데이트 요청이 성공하지 못합니다. 페더전된 도메인 암호의 재설정은 영향을 받지 않습니다. 이는 해당 암호가 On-premises 디렉터리에서 완료되어 있기 때문에 영향을 받지 않습니다.
 
 - Azure 로그인은 사용자가 액세스를 시도하는 포털에 표시됩니다. 감사 로그는 전환 후 Office 365 서비스 끝점에서만 사용할 수 있습니다. 마이그레이션을 통해 마이그레이션이 완료되기 전에 도이치랜드 Microsoft 클라우드 포털의 로그인 및 감사 로그를 저장해야 합니다.
 
-- 관리되는 조직의 관리자(Active Directory Federation Services를 사용하지 않는)의 암호 재설정, 암호 변경, 암호 재설정은 Office 365 서비스 포털을 통해 수행되어야 합니다. 도이치란드 Microsoft 클라우드 포털에 액세스하는 사용자의 암호 재설정 시도는 실패합니다.
+- 관리되는 조직의 관리자(Active Directory Federation Services를 사용하지 않는)의 암호 재설정, 암호 변경, 암호 재설정은 Office 365 서비스 포털을 통해 수행되어야 합니다. 도이치란드 Microsoft 클라우드 포털에 액세스하는 사용자가 암호를 다시 설정하려고 하면 실패합니다.
 
-- GDPR(일반 데이터 보호 규정) DSR(데이터 주체 요청)은 향후 요청을 위해 Office 365 서비스 Azure 관리 포털에서 실행됩니다. 도이치란드 Microsoft 클라우드에 있는 레거시 또는 비 고객 진단 데이터는 30일 또는 그 이전으로 삭제됩니다.
+- 일반 데이터 보호 규정(GDPR) DSR(데이터 주체 요청)은 향후 요청을 위해 Office 365 서비스 Azure 관리 포털에서 실행됩니다. 도이치란드 Microsoft 클라우드에 있는 레거시 또는 비 고객 진단 데이터는 30일 또는 그 이전으로 삭제됩니다.
 
 ## <a name="subscriptions--licenses"></a>구독 & 라이선스
 
@@ -74,7 +74,7 @@ ms.locfileid: "49688625"
 
 - 사서함은 백end 프로세스로 마이그레이션됩니다. 조직의 사용자는 전환 중에 독일 Microsoft 클라우드 또는 독일 지역에 있을 수 있으며 동일한 Exchange 조직(동일한 전체 주소 목록에 있는)에 있습니다.
 
-- 사서함이 Outlook Web App URL을 사용하여 서비스에 액세스하는 사용자에 대해 추가 인증 프롬프트가 표시됩니다. 예를 들어 사용자의 사서함이 Office 365 서비스에 있으며 사용자의 Outlook Web App 연결에서 레거시 끝점을 사용하는 경우 사용자는 먼저 레거시 끝점을 인증한 다음 . `outlook.office.de` `login.microsoftonline.de` `login.microsoftonline.com` 마이그레이션이 완료되면 사용자는 새 URL()에 액세스할 수 있으며 예상되는 단일 로그인 요청만 `https://outlook.office365.com` 표시됩니다. 
+- 사서함이 Outlook Web App URL을 사용하여 서비스에 액세스하는 사용자에 대해 추가 인증 프롬프트가 표시됩니다. 예를 들어 사용자의 사서함이 Office 365 서비스에 있으며 사용자의 Outlook Web App 연결에서 레거시 끝점을 사용하는 경우 사용자는 먼저 인증한 다음 에 를 사용할 수 `outlook.office.de` `login.microsoftonline.de` `login.microsoftonline.com` 있습니다. 마이그레이션이 완료되면 사용자는 새 URL()에 액세스할 수 있으며 예상되는 단일 로그인 요청만 `https://outlook.office365.com` 표시됩니다. 
 
 ## <a name="office-services"></a>Office Services
 
@@ -83,7 +83,7 @@ ms.locfileid: "49688625"
 ## <a name="exchange-online-protection"></a>Exchange Online Protection
 
 - 백 엔드 EOP(Exchange Online Protection) 기능은 새로운 독일 지역으로 복사됩니다.
-- Office 365 보안 및 준수 센터 사용자는 마이그레이션의 일부로 전역 URL을 사용하려면 `https://protection.office.com` 전환해야 합니다.
+- Office 365 보안 및 준수 센터 사용자는 마이그레이션의 일부로 전역 URL을 사용하여 `https://protection.office.com` 전환해야 합니다.
 
 ## <a name="skype-for-business-online"></a>비즈니스용 Skype Online
 
@@ -109,7 +109,7 @@ Office 365 비디오는 2021년 3월 1일에 사용 중지되고, Office 365 비
 
 - [문장 작업 및 영향 마이그레이션](ms-cloud-germany-transition-phases.md)
 - [추가 사전 작업](ms-cloud-germany-transition-add-pre-work.md)
-- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [디바이스,](ms-cloud-germany-transition-add-devices.md) [환경 및](ms-cloud-germany-transition-add-experience.md)AD [FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
+- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [장치,](ms-cloud-germany-transition-add-devices.md) [환경 및](ms-cloud-germany-transition-add-experience.md) [AD FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
 
 클라우드 앱:
 

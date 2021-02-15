@@ -11,7 +11,7 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: 관리자는 Globanet에서 Microsoft 365로 Red tail Speak 데이터를 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 Microsoft 365에 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
+description: 관리자는 Globanet에서 Microsoft 365로 Red tail Speak 데이터를 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 Microsoft 365에서 타사 데이터 원본의 데이터를 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
 ms.openlocfilehash: ff66f00348bd3e73bdbd607bd4bd0c0f922786cc
 ms.sourcegitcommit: 5ba0015c1554048f817fdfdc85359eee1368da64
 ms.translationtype: MT
@@ -31,7 +31,7 @@ Redtail Speak 데이터가 사용자 사서함에 저장되고 나면 소송 보
 
 ![Redtail Speak 데이터를 위한 보관 워크플로](../media/RedtailSpeakConnectorWorkflow.png)
 
-1. 조직은 Redtail Speak와 함께 매일 Redtail Speak에서 조직의 SFTP 서버로 메시지가 전달되는 SMTP 게이트웨이를 설정하고 구성합니다.
+1. 조직은 Redtail Speak와 함께 Redtail Speak와 함께 매일 Redtail Speak에서 조직의 SFTP 서버로 메시지가 전달되는 SMTP 게이트웨이를 설정하고 구성합니다.
 
 2. 24시간마다 Redtail Speak 항목이 Globanet Merge1 사이트에 복사됩니다. 또한 이 커넥터는 Redtail Speak 항목을 전자 메일 메시지 형식으로 변환합니다.
 
@@ -51,7 +51,7 @@ Redtail Speak 데이터가 사용자 사서함에 저장되고 나면 소송 보
 
 첫 번째 단계는 Microsoft  365 규정 준수 센터의 데이터 커넥터 페이지에 액세스하고 Redtail Speak 데이터에 대한 커넥터를 만드는 것입니다.
 
-1. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com/) and select **Data connectors** &gt; **Redtail Speak.**
+1. 이동하여 데이터 커넥터 [https://compliance.microsoft.com](https://compliance.microsoft.com/)  &gt; **Redtail Speak를 선택합니다.**
 
 2. **Redtail Speak** 제품 설명 페이지에서 새 커넥터 **추가를 선택합니다.**
 
@@ -71,7 +71,7 @@ Redtail Speak 데이터가 사용자 사서함에 저장되고 나면 소송 보
 
 사용자를 매핑하고 커넥터 설정을 완료하려면 다음 단계를 수행합니다.
 
-1. Redtail Speak 사용자 **지도에서 Microsoft 365** 사용자에 대한 사용자 말하기 페이지에서 자동 사용자 매핑을 사용하도록 설정합니다. Redtail Speak 항목에는 조직의 사용자에 대한 전자 메일 주소가 포함된 *Email이라는* 속성이 포함되어 있습니다. 커넥터가 이 주소를 Microsoft 365 사용자와 연결하면 항목이 해당 사용자의 사서함으로 가져오기됩니다.
+1. Redtail Speak 사용자 **지도 Microsoft 365** 사용자에 대해 말하기 페이지에서 자동 사용자 매핑을 사용하도록 설정합니다. Redtail Speak 항목에는 조직의 사용자에 대한 전자 메일 주소가 포함된 *Email이라는* 속성이 포함되어 있습니다. 커넥터가 이 주소를 Microsoft 365 사용자와 연결하면 항목이 해당 사용자의 사서함으로 가져오기됩니다.
 
 2. 다음을 **선택하고** 설정을 검토하고 데이터  커넥터 페이지로 이동하여 새 커넥터의 가져오기 프로세스 진행률을 확인합니다.
 

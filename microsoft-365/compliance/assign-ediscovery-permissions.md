@@ -83,7 +83,7 @@ Security  & 준수 센터의 사용 권한 페이지에서 준수 관리자, 조
 |Custodian <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
 |내보내기 <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
 |Hold <br/>  |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> |
-|미리 보기 <br/>  | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
+|Preview <br/>  | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> | <br/> |
 |검토 <br/>  | <br/> |![확인 표시](../media/checkmark.png) <br/> | <br/> |![확인 표시](../media/checkmark.png) <br/> |
 |RMS 암호 해독 <br/>  ||![확인 표시](../media/checkmark.png) <br/> |||
 |검색 및 제거 <br/> | <br/> | <br/> |![확인 표시](../media/checkmark.png)           <br/> | <br/> |
@@ -139,7 +139,7 @@ Security  & 준수 센터의 사용 권한 페이지에서 준수 관리자, 조
 
 - [Advanced eDiscovery에서 보류 만들기](add-custodians-to-case.md)
 
-### <a name="preview"></a>미리 보기
+### <a name="preview"></a>Preview
 
 이 역할을 사용하면 콘텐츠 검색에서 반환된 항목 목록을 볼 수 있습니다. 또한 목록에서 각 항목을 열고 보고 해당 콘텐츠를 볼 수 있습니다.
 

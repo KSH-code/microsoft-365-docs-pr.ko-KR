@@ -34,7 +34,7 @@ ms.locfileid: "49780323"
 
 ## <a name="how-to-request-migration"></a>마이그레이션을 요청하는 방법
 
-Microsoft 클라우드 독일(도이치란드 Microsoft 클라우드)에 프로비전된 서비스를 제공하는 적격 고객인 경우 테넌트(전역) 관리자로 로그인한 경우 Microsoft 365 관리 센터의 페이지를 통해 마이그레이션을 옵트인(opt in)할 수 있습니다.
+Microsoft 클라우드 독일(도이치란드 Microsoft 클라우드)에 프로비전된 서비스를 사용할 수 있는 적격 고객인 경우 테넌트(전역) 관리자로 로그인한 경우 Microsoft 365 관리 센터의 페이지를 통해 마이그레이션을 옵트인(opt in)할 수 있습니다.
 
 페이지에 액세스하려면 **왼쪽의** 탐색 창에서 설정을 확장한 다음 **조직 프로필을 클릭합니다.**
 
@@ -58,7 +58,7 @@ Microsoft 주도 방식에 옵트인(opt in)한 조직에 대한 마이그레이
 
 ## <a name="what-happens-if-you-do-not-opt-in-for-migration-in-admin-center"></a>관리 센터에서 마이그레이션을 옵트인(opt in)하지 않는 경우 어떻게 하나요?
 
-온라인 서비스 약관은 Microsoft가 Microsoft 365, Dynamics 365 및 Power BI 데이터 및 구독을 도이클란드 Microsoft 클라우드에서 새 데이터 센터로 마이그레이션할 수 있도록 하는 용어를 포함하도록 변경했습니다. 이 약관은 2020년 5월 1일 이후 갱신된 Microsoft 클라우드 독일(도이클란드 Microsoft 클라우드) 구독에 적용됩니다. 
+온라인 서비스 약관은 Microsoft가 Microsoft 365, Dynamics 365 및 Power BI 데이터 및 구독을 도이클란드 Microsoft 클라우드에서 새 데이터 센터로 마이그레이션할 수 있도록 하는 용어를 포함하도록 변경했습니다. 이 약관은 2020년 5월 1일 이후 갱신된 모든 Microsoft 클라우드 독일(도이클란드 Microsoft 클라우드) 구독에 적용됩니다. 
 
 고객 테넌트 관리자는 전자 메일로 알림을 받게 되며, Microsoft 지원 마이그레이션에 대해 마이그레이션 옵트인(opt in)이 자동으로 수행된다고 메시지 센터에 알립니다. 이 알림은 자동 옵트인(opt in) 30일 전에 전송됩니다. 마이그레이션 옵트인 후 모든 통신 및 상태 업데이트가 메시지 센터의 고객 테넌트 관리자에게 전송됩니다.
 

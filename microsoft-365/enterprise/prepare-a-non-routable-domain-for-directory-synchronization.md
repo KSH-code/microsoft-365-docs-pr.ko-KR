@@ -92,7 +92,7 @@ AD DS에 새 UPN 접미사 또는 접미어를 Microsoft 365에서 확인한 도
 
 업데이트할 사용자 계정이 많은 경우 PowerShell을 사용하는 것이 더 쉽습니다. 다음 예제에서는 [Get-ADUser](https://go.microsoft.com/fwlink/p/?LinkId=624312) 및 [Set-ADUser](https://go.microsoft.com/fwlink/p/?LinkId=624313) cmdlet을 사용하여 모든 contoso.local 접미사는 AD DS에서 contoso.com 변경합니다. 
 
-예를 들어 다음 PowerShell 명령을 실행하여 모든 contoso.local 접미사에 대해 다음 contoso.com.
+예를 들어 다음 PowerShell 명령을 실행하여 모든 contoso.local 접미어를 업데이트하여 contoso.com.
     
   ```powershell
   $LocalUsers = Get-ADUser -Filter "UserPrincipalName -like '*contoso.local'" -Properties userPrincipalName -ResultSetSize $null

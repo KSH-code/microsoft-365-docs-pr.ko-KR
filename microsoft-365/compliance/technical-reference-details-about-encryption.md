@@ -1,5 +1,5 @@
 ---
-title: 암호화에 대한 기술 참조 세부 정보
+title: Office 365의 암호화에 대한 기술 관련 세부 정보
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -28,7 +28,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "49663431"
 ---
-# <a name="technical-reference-details-about-encryption"></a>암호화에 대한 기술 참조 세부 정보
+# <a name="technical-reference-details-about-encryption"></a>Office 365의 암호화에 대한 기술 관련 세부 정보
 
 이 문서를 참조하여 [Office 365의](encryption.md)암호화에 사용되는 인증서, 기술 및 TLS 암호화 제품군을 참조하세요. 이 문서에서는 계획된 사용 금지에 대한 세부 정보도 제공합니다.
   
@@ -42,7 +42,7 @@ Office 365용 인증서를 구입하거나 유지 관리하지는 않습니다. 
   
 ## <a name="current-encryption-standards-and-planned-deprecations"></a>현재 암호화 표준 및 계획된 사용 현안
 
-동급 최고의 암호화를 제공하기 위해 Office 365는 지원되는 암호화 표준을 정기적으로 검토합니다. 경우에 따라 오래된 표준이 오래되고 보안이 낮아질 때 더 오래되었습니다. 이 문서에서는 현재 지원되는 암호 제품군과 기타 표준 및 계획된 사용되지 않는 경우의 세부 정보를 설명합니다.
+동급 최고의 암호화를 제공하기 위해 Office 365는 지원되는 암호화 표준을 정기적으로 검토합니다. 오래된 표준이 오래되고 보안이 낮아질 때 더는 사용 안 되는 경우도 있습니다. 이 문서에서는 현재 지원되는 암호 제품군과 기타 표준 및 계획된 사용되지 않는 경우의 세부 정보를 설명합니다.
 
 ## <a name="fips-compliance-for-office-365"></a>Office 365에 대한 FIPS 규정 준수
 
@@ -50,19 +50,19 @@ Office 365에서 지원하는 모든 암호화 제품군은 FIPS 140-2에서 허
   
 ## <a name="versions-of-tls-supported-by-office-365"></a>Office 365에서 지원하는 TLS 버전
 
-TLS 및 TLS 이전의 SSL은 보안 인증서를 사용하여 컴퓨터 간 연결을 암호화하여 네트워크를 통해 통신을 보호하는 암호화 프로토콜입니다. Office 365는 TLS 버전 1.2(TLS 1.2)를 지원합니다.
+TLS 및 TLS 전에 나온 SSL은 보안 인증서를 사용하여 컴퓨터 간 연결을 암호화하여 네트워크를 통해 통신을 보호하는 암호화 프로토콜입니다. Office 365는 TLS 버전 1.2(TLS 1.2)를 지원합니다.
 
 TLS 버전 1.3(TLS 1.3)은 현재 지원되지 않습니다.
   
 ## <a name="support-for-tls-10-and-11-deprecation"></a>TLS 1.0 및 1.1 사용되지 않는 지원
 
-Office 365는 2018년 10월 31일 TLS 1.0 및 1.1 지원을 중지했습니다. TLS 1.0 및 1.1을 통해 Office 365에 연결하는 클라이언트, 장치 또는 서비스에서 발견된 새로운 문제는 해결되지 않습니다. GCC High 및 DoD 환경에 대한 공식적인 사용이 2020년 1월 15일로 시작되었습니다. 전 세계 및 GCC 환경에서는 TLS 1.0 및 1.1이 더 이상 사용되지 않는 2020년 10월 15일이 되었습니다.
+Office 365는 2018년 10월 31일 TLS 1.0 및 1.1 지원을 중지했습니다. TLS 1.0 및 1.1을 통해 Office 365에 연결하는 클라이언트, 장치 또는 서비스에서 발견된 새로운 문제는 해결되지 않습니다. GCC High 및 DoD 환경에 대한 공식적인 사용이 2020년 1월 15일로 시작되었습니다. 전 세계 및 GCC 환경에서는 TLS 1.0 및 1.1이 사용되지 않는 2020년 10월 15일이 되었습니다.
 
 Office 365 및 Microsoft 365 서비스에 대한 보안 연결을 유지 관리하기 위해 모든 클라이언트-서버 및 브라우저 서버 조합은 TLS 1.2 및 최신 암호 제품군을 사용합니다. 특정 클라이언트-서버 및 브라우저-서버 조합을 업데이트해야 할 수 있습니다. 이 변경이 미치는 영향에 대한 자세한 내용은 [Office 365에서 TLS 1.2의](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365)필수 사용 준비를 참조하세요.
   
 ## <a name="deprecating-support-for-3des"></a>3DES 지원 사용 안
 
-2018년 10월 31일 이후로 Office 365는 더 이상 Office 365와의 통신을 위해 3DES 암호 제품군 사용을 지원하지 않습니다. 더 구체적으로 말하면 Office 365는 더 이상 TLS_RSA_WITH_3DES_EDE_CBC_SHA 지원하지 않습니다. 2019년 2월 28일부터 이 암호 제품군은 Office 365에서 사용하지 않도록 설정되어 있습니다. Office 365와 통신하는 클라이언트 및 서버는 지원되는 암호 중 하나 이상을 지원해야 합니다. 지원되는 암호 목록은 Office [365에서](#tls-cipher-suites-supported-by-office-365)지원하는 TLS 암호 제품군을 참조하세요.
+2018년 10월 31일 이후로 Office 365는 더 이상 Office 365와의 통신을 위해 3DES 암호 제품군 사용을 지원하지 않습니다. 특히 Office 365는 더 이상 TLS_RSA_WITH_3DES_EDE_CBC_SHA 지원하지 않습니다. 2019년 2월 28일부터 이 암호 제품군은 Office 365에서 사용하지 않도록 설정되어 있습니다. Office 365와 통신하는 클라이언트 및 서버는 지원되는 암호 중 하나 이상을 지원해야 합니다. 지원되는 암호 목록은 Office [365에서](#tls-cipher-suites-supported-by-office-365)지원하는 TLS 암호 제품군을 참조하세요.
   
 ## <a name="deprecating-sha-1-certificate-support-in-office-365"></a>Office 365에서 SHA-1 인증서를 지원하지 않음
 
@@ -109,6 +109,6 @@ Office 365는 가장 안전한 암호 제품군을 사용하여 먼저 연결을
   
 [Windows 보안 상태 업데이트에서 TLS 1.0의 Schannel 구현: 2015년 11월 24일](https://support.microsoft.com/kb/3117336)
   
-[TLS/SSL 암호화 향상(Windows IT 센터)](https://technet.microsoft.com/library/cc766285%28v=ws.10%29.aspx)
+[TLS/SSL 암호화 개선 사항(Windows IT 센터)](https://technet.microsoft.com/library/cc766285%28v=ws.10%29.aspx)
   
 [Office 365 및 Office 365 GCC에서 TLS 1.2 준비](https://docs.microsoft.com/office365/troubleshoot/security/prepare-tls-1.2-in-office-365)

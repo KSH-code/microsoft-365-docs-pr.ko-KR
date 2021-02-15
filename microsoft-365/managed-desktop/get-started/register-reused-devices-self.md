@@ -40,7 +40,7 @@ Microsoft Managed Desktop은 하드웨어 해시를 참조하여 각 장치를 �
 
 - OEM 공급업체에 하드웨어 해시를 포함할 AutoPilot 등록 파일을 요청합니다.
 - [Microsoft Endpoint Configuration Manager에서 정보를 수집합니다.](#microsoft-endpoint-configuration-manager)
-- Active Directory를 Windows PowerShell 또는 각 장치에서 [](#active-directory-powershell-script-method) 수동으로 [](#manual-powershell-script-method) 스크립트를 실행하고 결과를 파일에 수집합니다.
+- Active [Directory를](#active-directory-powershell-script-method) Windows PowerShell 수동으로 스크립트를 실행하고 [](#manual-powershell-script-method) 파일에 결과를 수집합니다.
 - 각 디바이스를 시작하지만 Windows 설치 환경을 완료하지는 않습니다. 이동식 플래시 드라이브에서 [해시를 수집합니다.](#flash-drive-method)
 
 #### <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
@@ -48,18 +48,18 @@ Microsoft Managed Desktop은 하드웨어 해시를 참조하여 각 장치를 �
 Microsoft Endpoint Configuration Manager를 사용하여 Microsoft Managed Desktop에 등록하려는 기존 장치에서 하드웨어 해시를 수집할 수 있습니다.
 
 > [!IMPORTANT]
-> 이 정보를 얻게 될 디바이스는 Windows 10 버전 1703 이상을 실행해야 합니다. 
+> 이 정보를 얻게 하려는 모든 장치는 Windows 10 버전 1703 이상을 실행해야 합니다. 
 
 이러한 모든 선행 단계를 충족하면 다음 단계에 따라 정보를 수집할 수 있습니다.
 
 1. Configuration Manager 콘솔에서 **모니터링을 선택합니다.** 
-2. 모니터링 작업 영역에서 **보고** 노드를 확장하고 보고서를 확장한 다음 **하드웨어 - 일반 노드를** 선택합니다. 
+2. 모니터링 작업 영역에서 **보고** 노드를 확장하고 보고서를 확장한 다음 하드웨어 - 일반 **노드를** 선택합니다. 
 3. 보고서를 실행하고 **Windows Autopilot 장치 정보를 실행하고** 결과를 확인합니다.
 4. 보고서 뷰어에서 내보내기  아이콘을 선택하고 **CSV( comma-delimited) 옵션을** 선택합니다.
 5. 파일을 저장한 후 Microsoft Managed Desktop에 등록할 장치로만 결과를 필터링하고 데이터를 Microsoft Managed Desktop에 업로드해야 합니다. Microsoft Endpoint Manager를 열고 장치 메뉴로 이동한 다음 Microsoft Managed Desktop 섹션을 찾아 장치를 **선택합니다.**  새 **디바이스를 등록하기** 위해 플라이인을 여는 + 장치 등록을 선택합니다.
 
 
-자세한 내용은 관리 포털을 [사용하여 디바이스](#register-devices-by-using-the-admin-portal) 등록을 참조하세요.
+자세한 내용은 관리 포털을 [사용하여](#register-devices-by-using-the-admin-portal) 디바이스 등록을 참조하세요.
 
 
 #### <a name="active-directory-powershell-script-method"></a>Active Directory PowerShell 스크립트 메서드
@@ -110,7 +110,7 @@ Active Directory `Get-WindowsAutoPilotInfo` 환경에서는 PowerShell cmdlet을
 3. 실행 `Save-Script -Name Get-WindowsAutoPilotInfo -Path <pathToUsb>`
 4. 등록할 디바이스를 켜지만 설치 *환경을 시작하지는 않습니다.* 실수로 설치 환경을 시작한 경우 장치를 초기화하거나 다시 이미지해야 합니다.
 5. USB 드라이브를 삽입한 다음 Shift + F10을 누를 수 있습니다.
-6. 관리 권한으로 PowerShell 프롬프트를 연 다음 `cd <pathToUsb>` 실행합니다.
+6. 관리 권한으로 PowerShell 프롬프트를 열고 `cd <pathToUsb>` 실행합니다.
 7. 실행 `Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
 8. 실행 `.\Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
 9. USB 드라이브를 제거한 다음 실행하여 디바이스를 종료합니다. `shutdown -s -t 0`
@@ -134,7 +134,7 @@ Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformatio
 
 #### <a name="register-devices-by-using-the-admin-portal"></a>관리 포털을 사용하여 장치 등록
 
-[Microsoft Endpoint Manager의](https://endpoint.microsoft.com/)왼쪽 탐색 창에서 디바이스를 선택합니다.  메뉴의 Microsoft Managed Desktop 섹션을 찾아 장치를 **선택합니다.** Microsoft Managed Desktop Devices 작업 영역에서 **새 장치를** 등록하기 위해 플라이인을 여는 + 장치 등록을 선택합니다.
+[Microsoft 끝점 관리자의](https://endpoint.microsoft.com/)왼쪽 탐색 창에서 장치를 선택합니다.  메뉴의 Microsoft Managed Desktop 섹션을 찾아 장치를 **선택합니다.** Microsoft Managed Desktop Devices 작업 영역에서 새 장치를 등록하기 위해 플라이인을 여는 **디바이스를** 선택 + 등록합니다.
 
 <!-- Update with new picture [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 

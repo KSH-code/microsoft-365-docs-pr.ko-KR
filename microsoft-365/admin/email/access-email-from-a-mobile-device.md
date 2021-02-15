@@ -28,7 +28,7 @@ ms.locfileid: "49760069"
 
 조직은 전자 메일, 일정 및 연락처에 대한 직장 계정에 액세스하는 데 사용할 수 있는 모바일 앱을 제어하는 설정을 구성합니다.
 
-Android용 Outlook 및 iOS 모바일 앱용 Outlook은 직장 또는 학교 전자 메일용으로 디자인됩니다. 이러한 앱은 중요 [](https://support.microsoft.com/office/f445ad7f-02f4-4294-a82e-71d8964e3978)전자 메일을 앞면과 [가운데에](https://support.microsoft.com/office/scheduling-made-easy-in-outlook-mobile-11c5bee5-d78a-4a2b-80c2-2b386ddb4470)유지하는 중요 받은 편지함 및 일정 정리 같은 기능을 제공합니다. 이 기능은 동료와 함께 작업하는 모임 시간을 찾고 사용 가능한 회의실을 찾는 데 도움이 됩니다.
+Android용 Outlook 및 iOS 모바일 앱용 Outlook은 직장 또는 학교 전자 메일용으로 디자인됩니다. 이러한 앱은 중요 [](https://support.microsoft.com/office/f445ad7f-02f4-4294-a82e-71d8964e3978)전자 메일을 앞면과 [가운데에](https://support.microsoft.com/office/scheduling-made-easy-in-outlook-mobile-11c5bee5-d78a-4a2b-80c2-2b386ddb4470)유지하는 중요 받은 편지함 및 일정 정리 같은 기능을 제공하며, 동료와 함께 작업하는 모임 시간을 찾고 사용 가능한 회의실을 찾는 데 도움이 됩니다.
   
 ## <a name="end-user-experience"></a>최종 사용자 환경
 

@@ -51,7 +51,7 @@ Microsoft 지원 및 복구 도우미 | \*.apibasic.diagnostics.office.com  <br>
 
 ### <a name="endpoints-allowed-used-by-other-microsoft-products"></a>다른 Microsoft 제품에서 사용할 수 있는 끝점
 
-Microsoft Managed Desktop 장치가 해당 Microsoft 서비스와 통신할 수 있도록 허용 목록에 여러 Microsoft 제품의 URL이 있습니다. 링크를 사용하여 각 제품의 전체 목록을 볼 수 있습니다. 
+Microsoft Managed Desktop 장치가 해당 Microsoft 서비스와 통신할 수 있도록 허용 목록에 여러 Microsoft 제품의 URL이 있습니다. 링크를 사용하여 각 제품에 대한 전체 목록을 볼 수 있습니다. 
 
 Microsoft 서비스 | 설명서
 --- | ---

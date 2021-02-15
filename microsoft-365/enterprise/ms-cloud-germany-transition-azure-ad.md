@@ -31,7 +31,7 @@ Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료
  
 **이 변경은 언제 해야 하나요?**
 
-테넌트가 독일 클라우드에서 상업용 클라우드로의 마이그레이션을 완료하면 Azure/Office 포털에서 알림을 받게 됩니다. 이 알림을 받은 후 30일이 지난 후 이러한 업데이트를 완료하면 앱이 Azure Germany 클라우드에서 Azure Public 클라우드로 마이그레이션된 테넌트에 대해 계속 작동하게 됩니다.
+테넌트가 독일 클라우드에서 상업용 클라우드로의 마이그레이션을 완료하면 Azure/Office 포털에서 알림을 받게 됩니다. 이 알림을 받은 후 30일이 지난 후 이러한 업데이트를 완료하면 앱이 Azure Germany 클라우드에서 Azure Public 클라우드로 마이그레이션된 테넌트에 대해 계속 작동됩니다.
  
 로그인 기관을 업데이트하는 데는 세 가지 사전이 있습니다.
 
@@ -55,14 +55,14 @@ Azure German 클라우드에서 Azure 공용 클라우드로의 이동을 완료
 - [모바일 앱](https://docs.microsoft.com/azure/active-directory/develop/scenario-mobile-overview)
  
 > [!NOTE] 
-> 응용 프로그램이 권한으로 사용으로 전환하면 이 새 기관에서 토큰에 `login.microsoftonline.com` 서명합니다. 다른 앱이 호출하는 리소스 응용 프로그램을 호스팅하는 경우 록스 토큰 유효성 검사를 허용해야 합니다. 즉, 앱이 Azure AD Germany와 Azure AD 공용 클라우드에서 서명한 토큰을 허용해야 합니다. 이 lax 토큰 유효성 검사는 서비스를 호출하는 모든 클라이언트 응용 프로그램이 Azure AD 공용 클라우드로 완전히 마이그레이션될 때까지 필요합니다. 마이그레이션 후 리소스 응용 프로그램은 Azure AD 공용 클라우드에서 서명된 토큰만 수락하면 됩니다.
+> 응용 프로그램이 권한으로 사용으로 전환하면 이 새 기관에서 토큰에 `login.microsoftonline.com` 서명합니다. 다른 앱이 호출하는 리소스 응용 프로그램을 호스팅하는 경우 록스 토큰 유효성 검사를 허용해야 합니다. 즉, 앱이 Azure AD Germany와 Azure AD 공용 클라우드에서 서명한 토큰을 허용해야 합니다. 서비스를 호출하는 모든 클라이언트 응용 프로그램이 Azure AD 공용 클라우드로 완전히 마이그레이션될 때까지 이 lax 토큰 유효성 검사가 필요합니다. 마이그레이션 후 리소스 응용 프로그램은 Azure AD 공용 클라우드에서 서명된 토큰만 수락하면 됩니다.
 
 **업데이트해야 하는 이유는 무엇입니까?**
 
 1. Azure Germany 또는 Office 365 Germany 사용자를 인증하는 데 사용되는 응용 프로그램을 Azure Germany에서 호스팅하는 경우 인증 컨텍스트에서 기관으로 `https://login.microsoftonline.com` 사용되는지 확인하십시오.
 
     - Azure AD 인증 컨텍스트를 참조하세요.
-    - 응용 프로그램에서 호출할 수 있는 API(Microsoft Graph, Azure AD Graph, Azure Resource Manager)에 대한 인증뿐만 아니라 응용 프로그램에 대한 인증에도 적용됩니다.
+    - 이는 응용 프로그램에 대한 인증과 응용 프로그램이 호출할 수 있는 API(즉, Microsoft Graph, Azure AD Graph, Azure Resource Manager)에 대한 인증에 모두 적용됩니다.
 
 2. Azure AD Graph 끝점을 `https://graph.windows.net` 업데이트합니다.
 
@@ -89,7 +89,7 @@ Azure AD에 대한 몇 가지 추가 고려 사항은 다음과 같습니다.
 
   - 테넌트 전환이 진행되는 동안 페더넌트 도메인을 만들거나 승격하거나 강하하면 안 됩니다. Azure AD 서비스로의 마이그레이션이 완료된 후(테넌트가 완전히 완료된 경우) 페더링 도메인 관리를 다시 시작할 수 있습니다.
 
-  - AD FS(Active Directory Federation Services)에서 페더타 인증을 사용하는 경우 마이그레이션 중에는 모든 인증에 사용되는 발급자 URIS를 변경하지 말아야 합니다. 발급자 UR을 변경하면 도메인의 사용자에 대한 인증 오류가 발생합니다. 발급자 URIS는 AD FS에서 직접 변경하거나 도메인이 관리에서 페더러티로 변환될 때 또는 그 반대의 경우 변경할 수 있습니다. 고객이 마이그레이션되는 Azure AD 테넌트에서 페더티된 도메인을 추가, 제거 또는 변환하지 않는 것이 좋습니다. 마이그레이션이 완전히 완료된 후 발급자 URIS를 변경할 수 있습니다.
+  - AD FS(Active Directory Federation Services)에서 페더타 인증을 사용하는 경우 마이그레이션 중에는 모든 인증에 사용되는 발급자 URIS를 변경하지 말아야 합니다. 발급자 UR을 변경하면 도메인의 사용자에 대한 인증 오류가 발생합니다. 발급자 URIS는 AD FS에서 직접 변경하거나 도메인이 관리에서 페더러티로 변환되거나 그 반대로 변환될 때 변경할 수 있습니다. 고객이 마이그레이션되는 Azure AD 테넌트에서 페더티된 도메인을 추가, 제거 또는 변환하지 않는 것이 좋습니다. 마이그레이션이 완전히 완료된 후 발급자 URIS를 변경할 수 있습니다.
 
 - 네트워킹의 경우:
 
@@ -102,7 +102,7 @@ Azure AD에 대한 몇 가지 추가 고려 사항은 다음과 같습니다.
 
   - 다음 부여 컨트롤이 있는 조건부 액세스 정책은 Office 365 서비스로의 마이그레이션이 완료될 때까지(Azure AD 마이그레이션 단계 완료 후) [지원되지](ms-cloud-germany-transition.md#how-is-the-migration-organized) 않습니다.
 
-    - 호환 장치 필요
+    - 규격 장치 필요
     - 승인된 앱 필요
     - 앱 보호 정책 필요
     
@@ -110,14 +110,14 @@ Azure AD에 대한 몇 가지 추가 고려 사항은 다음과 같습니다.
 
 - Intune 시나리오는 모든 Office 워크로드 마이그레이션을 포함하여 테넌트 마이그레이션이 완료된 후 전 세계 끝점에서만 지원됩니다.
 
-- MFA 요청에 모바일 앱 알림 방법을 사용하는 Microsoft 클라우드 도이클랜드 사용자는 Microsoft Authenticator 앱에서 UPN(사용자 계정 이름) 대신 사용자의 ObjectId(GUID)를 볼 수 있습니다. Azure AD 테넌트의 마이그레이션이 완료 및 Office 365 서비스에서 호스트된 후 새로운 Microsoft Authenticator 정품 인증에는 사용자의 UPNS가 표시됩니다. 기존 Microsoft Authenticator 계정은 계속 사용자 ObjectId를 표시하지만 모바일 앱 알림에 대해 계속 작동하게 됩니다. 
+- MFA 요청에 모바일 앱 알림 방법을 사용하는 Microsoft 클라우드 도이클랜드 사용자는 Microsoft Authenticator 앱에서 UPN(사용자 계정 이름) 대신 사용자의 ObjectId(GUID)를 볼 수 있습니다. Azure AD 테넌트의 마이그레이션이 완료 및 Office 365 서비스에서 호스트된 후 새로운 Microsoft Authenticator 정품 인증에는 사용자의 UPNS가 표시됩니다. 기존 Microsoft Authenticator 계정에는 사용자 ObjectId가 계속 표시되지만 모바일 앱 알림에 대해 계속 작동하게 됩니다. 
 
 - 2019년 10월 22일 이후에 만들어진 테넌트의 경우 Office 365 서비스로 마이그레이션할 때 테넌트에 대해 보안 기본값이 자동으로 활성화될 수 있습니다. 테넌트 관리자는 보안 기본값을 사용하도록 설정하고 MFA에 등록할 수 있습니다. 또는 이 기능을 사용하지 않도록 설정할 수 있습니다. 자세한 내용은 보안 [기본값을 사용할 수 없습니다.](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#disabling-security-defaults) 
 
   > [!NOTE]
-  > 보안 기본값을 사용하도록 설정하는 기능이 Office 365 서비스에 롤아웃되어 마이그레이션하는 동안 자동 사용되지 않는 조직은 향후에도 자동 등록될 수 있습니다. 보안 기본값을 명시적으로 사용하지 않도록 설정하거나 사용하도록 선택한 관리자는 Azure Active Directory > 속성에서 기능을 **업데이트할 수 있습니다.** 관리자가 이 기능을 명시적으로 사용하도록 설정하면 자동 사용이 가능하지 않습니다.
+  > 보안 기본값을 사용하도록 설정하는 기능이 Office 365 서비스에 롤아웃되어 마이그레이션하는 동안 자동 사용되지 않는 조직은 향후에도 자동 등록될 수 있습니다. 보안 기본값을 명시적으로 사용하지 않도록 설정하거나 사용하도록 선택한 관리자는 Azure Active Directory 속성 속성에서 기능을 **업데이트하여 > 있습니다.** 관리자가 기능을 명시적으로 사용하도록 설정한 후 자동 사용이 가능하지 않습니다.
 
-- 테넌트가 마이그레이션 중이면 Office 365 Germany 포털 및 Office 365 포털에서 Azure AD Connect 버전에 대한 경고가 표시됩니다. 마이그레이션이 완료된 후 버전 경고가 더 이상 경고를 표시하지 않는 경우 무시할 수 있습니다. 마이그레이션 전이나 후 경고가 있는 경우 어느 포털에서든 Azure AD Connect를 업데이트해야 합니다. 경고 메시지에는 "사용 중이지 않았다면 디렉터리 동기화 도구가 사용 중입니다. 최신 버전의 Azure AD Connect를 다운로드하려면 Microsoft 다운로드 센터로 이동하는 것이 좋습니다."
+- 테넌트가 마이그레이션 중이면 Office 365 Germany 포털 및 Office 365 포털에서 Azure AD Connect 버전에 대한 경고가 표시됩니다. 마이그레이션이 완료된 후 버전 경고가 더 이상 경고를 표시하지 않는 경우 무시할 수 있습니다. 마이그레이션 전이나 후에 경고가 있는 경우 두 포털에서 Azure AD Connect를 업데이트해야 합니다. 경고 메시지에는 "사용 중이지 않았다면 디렉터리 동기화 도구가 사용 중입니다. 최신 버전의 Azure AD Connect를 다운로드하려면 Microsoft 다운로드 센터로 이동하는 것이 좋습니다."
 
 ## <a name="more-information"></a>추가 정보
 
@@ -132,7 +132,7 @@ Azure AD에 대한 몇 가지 추가 고려 사항은 다음과 같습니다.
 
 - [문장 작업 및 영향 마이그레이션](ms-cloud-germany-transition-phases.md)
 - [추가 사전 작업](ms-cloud-germany-transition-add-pre-work.md)
-- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [디바이스,](ms-cloud-germany-transition-add-devices.md) [환경 및](ms-cloud-germany-transition-add-experience.md)AD [FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
+- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [장치,](ms-cloud-germany-transition-add-devices.md) [환경 및](ms-cloud-germany-transition-add-experience.md) [AD FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
 
 클라우드 앱:
 

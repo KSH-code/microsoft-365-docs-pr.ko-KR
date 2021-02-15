@@ -30,7 +30,7 @@ ms.locfileid: "49794427"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Microsoft 365 및 Office 365 서비스용 설정 가이드
 
-Microsoft 365 및 Office 365 설정 가이드는 테넌트, 앱 및 서비스를 계획하고 배포하기 위한 맞춤형 지침과 리소스를 제공합니다. 이 가이드는 [Microsoft 365 FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) 온보더링 전문가가 개별 상호 작용에서 공유하는 모범 사례를 사용하여 작성된 것으로, Microsoft 365 관리 센터 내의 모든 관리자가 사용할 수 있습니다. 또한 제품 설정에 대한 정보를 제공하고, 보안 기능을 사용하도록 설정하고, 공동 작업 도구를 배포하며, 고급 배포 속도를 향상하기 위한 스크립트를 제공합니다.
+Microsoft 365 및 Office 365 설정 가이드는 테넌트, 앱 및 서비스를 계획하고 배포하기 위한 맞춤형 지침과 리소스를 제공합니다. 이 가이드는 [Microsoft 365 FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) 온보더링 전문가가 개별 상호 작용에서 공유하는 모범 사례를 사용하여 작성된 것으로, Microsoft 365 관리 센터 내의 모든 관리자가 사용할 수 있습니다. 또한 제품 설정에 대한 정보를 제공하고, 보안 기능을 사용하도록 설정하고, 공동 작업 도구를 배포하고, 고급 배포 속도를 향상하기 위한 스크립트를 제공합니다.
 
 ## <a name="how-to-access-setup-guides-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 설정 가이드에 액세스하는 방법
 
@@ -38,7 +38,7 @@ Microsoft 365 및 Office 365 설정 가이드는 테넌트, 앱 및 서비스를
 
 1. Microsoft [365](https://admin.microsoft.com/)관리 센터에서 홈 **페이지로** 이동합니다.
 
-2. 교육 & **카드를** 찾아보세요. 
+2. 교육 가이드 **& 찾을 수** 있습니다. 
 
    ![교육 & Microsoft 365 관리 센터의 교육 가이드 카드](../media/setup-guides-for-microsoft-365/adminportal-trainingandguides.png)
 
@@ -88,15 +88,15 @@ Gmail 사용자의 사서함을 Microsoft 365로 마이그레이션하면 전자
 
 Windows Virtual Desktop은 클라우드에서 실행되는 포괄적인 데스크톱 및 앱 가상화 서비스입니다. 간소화된 관리, 다중 세션 Windows 10, Microsoft 365 앱에 대한 최적화 및 RDS(원격 데스크톱 서비스) 환경에 대한 지원을 제공하는 유일한 가상 데스크톱 인프라(VDI)입니다. 몇 분 만에 Windows 데스크톱 및 앱을 Azure로 배포 및 확장하고 기본 제공 보안 및 규정 준수 기능을 사용할 수 있습니다. 
 
-Windows 가상 데스크톱 설정 [가이드는](https://aka.ms/wvdsetupguide) 관리자에게 배포, 설정 지침 및 추가 리소스에 대한 계획 리소스 및 선행 구성을 제공합니다. 
+[Windows Virtual Desktop 설치](https://aka.ms/wvdsetupguide) 가이드는 관리자에게 배포, 설정 지침 및 추가 리소스에 대한 계획 리소스 및 선행 구성을 제공합니다. 
 
 ### <a name="microsoft-edge-setup-guide"></a>Microsoft Edge 설정 가이드
 
 Microsoft Edge는 세계적 수준의 호환성과 성능, 자격이 있는 보안 및 개인 정보 보호, 웹을 최상으로 개선하기 위해 설계된 새로운 기능을 제공하도록 새로 고안되었습니다.
 
-[Microsoft Edge](https://aka.ms/edgeadvisor) 설정 가이드는 IE 모드를 사용하는 데 필요할 수 있는 사이트를 확인하도록 엔터프라이즈 사이트 검색을 구성하고, 중요한 보안 기능을 검토 및 구성하고, 사용자의 요구 사항에 맞게 개인 정보 취급 방침 및 추가 정책을 구성하고, 장치에서 웹 액세스를 관리하는 데 도움이 됩니다. Microsoft Edge를 개별 디바이스에 다운로드할 수도 있습니다. 또는 Configuration Manager 또는 Microsoft Intune을 사용하여 해당 구성의 여러 사용자에게 배포하는 방법을 보여 주게 됩니다. 
+[Microsoft Edge](https://aka.ms/edgeadvisor) 설정 가이드는 IE 모드를 사용하는 데 필요할 수 있는 사이트를 확인하도록 엔터프라이즈 사이트 검색을 구성하고, 중요한 보안 기능을 검토 및 구성하고, 사용자의 요구 사항에 맞게 개인 정보 취급 방침 및 추가 정책을 구성하고, 장치에서 웹 액세스를 관리하는 데 도움이 됩니다. Microsoft Edge를 개별 디바이스에 다운로드할 수도 있습니다. 또는 Configuration Manager 또는 Microsoft Intune을 사용하여 여러 사용자에게 배포하는 방법을 보여 주게 됩니다. 
 
-### <a name="microsoft-search-setup-guide"></a>Microsoft Search 설치 가이드
+### <a name="microsoft-search-setup-guide"></a>Microsoft 검색 설정 가이드
 
 Microsoft Search를 사용하면 조직에서 작업 중 완료하는 데 필요한 정보를 찾을 수 있습니다. 사용자, 파일, 사이트 또는 일반적인 질문에 대한 답변을 검색하는지 여부에 관계 없는 경우, 작업일 전체에서 Microsoft Search를 사용하여 답변을 얻을 수 있습니다.
 
@@ -104,7 +104,7 @@ Microsoft 검색 설정 [가이드를](https://aka.ms/MicrosoftSearchSetup) 사�
 
 ### <a name="intune-configuration-manager-co-management-setup-guide"></a>Intune Configuration Manager 공동 관리 설정 가이드
 
-기존 Configuration Manager 클라이언트 장치 및 Microsoft Intune 및 Configuration Manager와 함께 관리하려는 새 인터넷 기반 장치에 대해 [Intune Configuration Manager](https://aka.ms/comanagementsetup) 공동 관리 설정 가이드를 사용하세요. 이 공동 관리 배포 가이드를 사용하면 Windows 10 장치를 관리하고, 두 솔루션의 이점을 모두 받아들이는 동시에 새로운 기능을 해당 디바이스에 추가할 수 있습니다.
+기존 Configuration Manager 클라이언트 장치 및 Microsoft Intune 및 Configuration Manager와 함께 관리하려는 새 인터넷 기반 장치에 대해 [Intune Configuration Manager](https://aka.ms/comanagementsetup) 공동 관리 설정 가이드를 사용하세요. 이 공동 관리 배포 가이드를 사용하면 Windows 10 디바이스를 관리하고, 두 솔루션의 이점을 모두 받는 동시에 새로운 기능을 해당 디바이스에 추가할 수 있습니다.
 
 ## <a name="guides-for-authentication-and-access"></a>인증 및 액세스 가이드
 
@@ -120,7 +120,7 @@ Microsoft 검색 설정 [가이드를](https://aka.ms/MicrosoftSearchSetup) 사�
 
 ### <a name="plan-your-passwordless-deployment"></a>암호 없는 배포 계획
 
-사용자가 다음 암호 없는 인증 방법 중 하나를 사용하여 장치에 안전하게 액세스할 수 있도록 하는 대체 로그인 방법으로 업그레이드합니다. 
+사용자가 다음 암호 없는 인증 방법 중 하나를 사용하여 장치에 안전하게 액세스할 수 있도록 하는 대체 로그인 접근 방법으로 업그레이드합니다. 
 
 - 비즈니스용 Windows Hello
 - Microsoft Authenticator 앱
@@ -142,11 +142,11 @@ Microsoft 검색 설정 [가이드를](https://aka.ms/MicrosoftSearchSetup) 사�
 
 ### <a name="microsoft-intune-setup-guide"></a>Microsoft Intune 설정 가이드 
 
-Microsoft Intune을 설정하여 조직에서 디바이스를 관리합니다. 회사 장치에 대한 모든 제어를 위해 Intune의 MDM(모바일 장치 관리) 기능을 사용합니다. 공유 및 개인 장치에서 조직의 데이터를 관리하기 위해 Intune의 MAM(모바일 응용 프로그램 관리) 기능을 사용할 수 있습니다. 
+조직에서 디바이스를 관리하기 위해 Microsoft Intune을 설정합니다. 회사 장치에 대한 모든 제어를 위해 Intune의 MDM(모바일 장치 관리) 기능을 사용합니다. 공유 및 개인 장치에서 조직의 데이터를 관리하기 위해 Intune의 MAM(모바일 응용 프로그램 관리) 기능을 사용할 수 있습니다. 
 
 Microsoft [Intune 설정](https://aka.ms/intunesetupguide)가이드를 사용하여 장치 및 앱 준수 정책을 설정하고, 앱 보호 정책을 할당하고, 장치 및 앱 보호 상태를 모니터링합니다. 
 
-### <a name="microsoft-defender-for-endpoint-advisor"></a>Endpoint Advisor용 Microsoft Defender
+### <a name="microsoft-defender-for-endpoint-advisor"></a>끝점용 Microsoft Defender 어드바이저
 
 [끝점용 Microsoft Defender](https://aka.ms/mdatpsetup) 어드바이저는 엔터프라이즈 네트워크에서 고급 위협을 방지, 감지, 조사 및 대응하는 데 도움이 되는 지침을 제공합니다. 조직의 취약점을 정보를 통해 평가하고 가장 적합한 배포 패키지 및 구성 방법을 결정하십시오. 
 
@@ -161,7 +161,7 @@ Exchange [Online Protection](https://aka.ms/EOPguidance) 설정 가이드를 사
 
 ### <a name="microsoft-defender-for-office-365-advisor"></a>Microsoft Defender for Office 365 advisor
 
-[Office 365용 Microsoft Defender](https://aka.ms/oatpsetup) 어드바이저는 전자 메일 메시지, 링크 및 타사 공동 작업 도구를 통해 환경에 발생할 수 있는 악의적인 위협에 대해 조직을 보호합니다. 이 가이드에서는 조직의 요구에 맞게 Office 365용 Defender 계획을 준비하고 식별하는 데 도움이 되는 리소스와 정보를 제공합니다. 
+[Microsoft Defender for Office 365 advisor는](https://aka.ms/oatpsetup) 전자 메일 메시지, 링크 및 타사 공동 작업 도구를 통해 환경에 발생할 수 있는 악의적인 위협에 대해 조직을 보호합니다. 이 가이드에서는 조직의 요구에 맞게 Office 365용 Defender 계획을 준비하고 식별하는 데 도움이 되는 리소스와 정보를 제공합니다. 
 
 ### <a name="microsoft-information-protection-setup-guide"></a>Microsoft 정보 보호 설정 가이드
 
@@ -183,11 +183,11 @@ Exchange [Online Protection](https://aka.ms/EOPguidance) 설정 가이드를 사
 
 ### <a name="microsoft-teams-setup-guide"></a>Microsoft Teams 설정 가이드
 
-[Microsoft Teams](https://aka.ms/teamsguidance) 설정 가이드는 팀과 비공개 통신을 위한 메시징, 통화 및 오디오 또는 비디오 모임을 통해 실시간 대화를 호스팅하는 팀 작업 영역 설정에 대한 지침을 조직에 제공합니다. Teams 관리 센터 내에서 네트워크 플래너 도구 및 Teams 관리자를 사용하여 조직의 네트워크 요구 사항을 결정하기 위한 지침을 받게 됩니다. 배포가 완료되면 Teams 사용에 유용한 리소스를 포함하는 가이드를 볼 수 있습니다.
+[Microsoft Teams](https://aka.ms/teamsguidance) 설정 가이드는 조직에 팀과 개인 통신을 위한 메시징, 통화 및 오디오 또는 비디오 모임을 통해 실시간 대화를 호스팅하는 팀 작업 영역 설정에 대한 지침을 제공합니다. Teams 관리 센터 내에서 네트워크 플래너 도구 및 Teams 관리자를 사용하여 조직의 네트워크 요구 사항을 결정하기 위한 지침을 받게 됩니다. 배포가 완료되면 Teams 사용에 유용한 리소스를 포함하는 가이드를 볼 수 있습니다.
 
 ### <a name="sharepoint-setup-guide"></a>SharePoint 설정 가이드
 
-[SharePoint](https://aka.ms/spoguidance) 설정 가이드를 통해 SharePoint 문서 저장 및 콘텐츠 관리를 설정하고, 사이트를 만들고, 외부 공유를 구성하고, 데이터를 마이그레이션하고, 고급 설정을 구성하고, 조직 내에서 사용자 참여 및 통신을 유도할 수 있습니다. 콘텐츠 공유 권한 정책을 구성하기 위한 단계를 수행하고, 마이그레이션 동기화 도구를 선택하고, SharePoint 환경에 대한 보안 설정을 사용하도록 설정할 수 있습니다. 
+[SharePoint](https://aka.ms/spoguidance) 설정 가이드를 사용하면 SharePoint 문서 저장 및 콘텐츠 관리를 설정하고, 사이트를 만들고, 외부 공유를 구성하고, 데이터를 마이그레이션하고, 고급 설정을 구성하고, 조직 내에서 사용자 참여 및 통신을 유도할 수 있습니다. 콘텐츠 공유 권한 정책을 구성하기 위한 단계를 수행하고, 마이그레이션 동기화 도구를 선택하고, SharePoint 환경에 대한 보안 설정을 사용하도록 설정할 수 있습니다. 
 
 ### <a name="onedrive-setup-guide"></a>OneDrive 설정 가이드
 
@@ -209,7 +209,7 @@ Office 배포 도구를 사용하여 설치를 사용자 지정할 수 있는 �
 
 ### <a name="deploy-office-to-remote-users"></a>원격 사용자에게 Office 배포
 
-원격 작업의 규범이 규범이 되었습니다. 사용자는 내부 네트워크에 연결되어 있지 않을 때 또는 자신의 장치를 사용할 때 조직의 Office 설정을 수신해야 합니다. 
+이제 원격으로 작업하는 것이 규범이 되었습니다. 사용자는 내부 네트워크에 연결되어 있지 않을 때 또는 자신의 장치를 사용할 때 조직의 Office 설정을 수신해야 합니다. 
 
 원격 [사용자에 Office](https://aka.ms/officeremoteinstall) 배포 가이드를 사용하여 사용자 지정된 Office 설치를 만든 다음 구성과 함께 Office를 원활하게 설치할 수 있는 생성된 PowerShell 스크립트를 사용자에게 전송합니다.
 

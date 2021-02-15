@@ -19,7 +19,7 @@ ms.locfileid: "49840484"
 ---
 # <a name="privacy-and-personal-data"></a>개인 정보 및 개인 데이터
 
-사용자는 Microsoft Managed Desktop에서 관리하는 디바이스에서 데이터를 수신, 전송 및 저장할 수 있습니다. 데이터 개인 정보 보호는 예상과 일관된 방식으로만 보호되고 사용된다고 신뢰합니다. 이 문서에서는 Microsoft Managed Desktop이 개인 데이터를 수집, 저장, 보존, 프로세스, 보안, 공유, 감사 및 내보내는 방법에 대해 설명합니다. 또한 관리자가 개인 데이터를 보고, 수정하고, 삭제할 수 있는 방법도 배우게 됩니다.
+사용자는 Microsoft Managed Desktop에서 관리하는 디바이스에서 데이터를 수신, 전송 및 저장할 수 있습니다. 데이터 개인 정보 보호는 예상과 일관된 방식으로만 보호되고 사용된다고 신뢰합니다. 이 문서에서는 Microsoft Managed Desktop에서 개인 데이터를 수집, 저장, 보존, 프로세스, 보안, 공유, 감사 및 내보내는 방법에 대해 설명합니다. 또한 관리자가 개인 데이터를 보고, 수정하고, 삭제할 수 있는 방법도 배우게 됩니다.
 
 Microsoft Managed Desktop은 프로파일링, 광고 또는 마케팅을 위해 서비스를 제공하는 일부로 수집된 개인 데이터를 사용하지 않습니다.
 
@@ -30,8 +30,8 @@ Microsoft Managed Desktop은 프로파일링, 광고 또는 마케팅을 위해 
 Microsoft Managed Desktop은 IT 관리자 연락처 정보만 제외하고 서비스를 제공하기 위해 [자체적으로 데이터를 수집하지 않습니다.](#it-admin-contact-information) 대신 Microsoft Managed Desktop은 Windows 및 Microsoft Intune과 같은 다른 원본이 이미 수집한 데이터를 다시 사용합니다. Microsoft Managed Desktop은 등록된 장치에서 이러한 서비스가 수집하는 데이터를 사용 합니다.
 
 - Microsoft Managed Desktop에서 관리하는 장치의 Windows 진단 데이터는 Microsoft의 Windows 진단 데이터 저장소로 전송됩니다.
-- Microsoft Managed [Desktop은](https://docs.microsoft.com/learn/modules/introduction-to-modern-management-in-microsoft-365/) 최신 관리를 사용하여 등록된 디바이스를 관리합니다. "최신 관리"의 일부로, 디바이스를 테넌트의 Azure Active Directory에 등록해야 합니다.
-- Microsoft Managed Desktop은 고도로 최적화되고 안전한 구성을 등록된 장치에 배포하기 위해 Microsoft Intune을 사용됩니다.
+- Microsoft Managed [Desktop은](https://docs.microsoft.com/learn/modules/introduction-to-modern-management-in-microsoft-365/) 최신 관리를 사용하여 등록된 디바이스를 관리합니다. "최신 관리"의 일부로 디바이스를 테넌트의 Azure Active Directory에 등록해야 합니다.
+- Microsoft Managed Desktop은 고도로 최적화되고 안전한 구성을 등록된 장치에 배포하기 위해 Microsoft Intune을 사용 합니다.
 - Microsoft Managed Desktop은 해당 서비스를 사용하는 고객을 위해 Microsoft Defender Advanced Thread Protection의 보안 인텔리전스 데이터를 사용 합니다.
 
 ## <a name="data-storage-and-sources-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 데이터 저장소 및 원본
@@ -43,7 +43,7 @@ Microsoft Managed Desktop에서 데이터를 다운로드한 후 다음과 같�
 Microsoft Managed Desktop은 다음 Microsoft 저장소 서비스 중 하나 이상에 해당 데이터를 저장합니다.
 
 - Azure SQL
-- Azure Storage
+- Azure 저장소
 
 Microsoft Managed Desktop은 해당 데이터를 미국에 저장합니다. 개인 데이터는 Microsoft Managed Desktop에서 최대 30일 동안 보존됩니다.
 
@@ -67,7 +67,7 @@ Microsoft Managed Desktop은 다음 데이터를 사용 합니다.
 
 ### <a name="entities-processed-by-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 처리되는 엔터티
 
-Microsoft Managed Desktop은 이러한 엔터티를 처리하여 서비스를 제공합니다.
+Microsoft Managed Desktop은 다음 엔터티를 처리하여 서비스를 제공합니다.
 
 - 장치 데이터
 - 장치 보안 설정
@@ -85,19 +85,19 @@ Microsoft Managed Desktop은 이러한 엔터티를 처리하여 서비스를 �
 
 Microsoft Managed Desktop에서 사용하는 ID 데이터는 Office 365 또는 Azure와 같은 Microsoft 온라인 서비스를 구독할 때 조직에서 제공한 주소에 따라 지리적 위치에 Azure Active Directory에 의해 저장됩니다. Microsoft [Azure를 참조하세요. 고객](http://azuredatacentermap.azurewebsites.net/) 데이터는 어디에 있나요? Azure Active Directory용 데이터 센터를 보여주는 지도를 참조하세요.
 
-Azure에서 데이터 저장소에 사용하는 지역에 대한 자세한 내용은 [Azure Active Directory를 참조하세요. 데이터가 어디에 있습니까?](https://msit.powerbi.com/view?r=eyJrIjoiODdjOWViZDctMWRhZS00ODUzLWI4MmQtNWM5NjBkZTBkNjFlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9)
+Azure에서 데이터 저장소에 사용하는 지역에 대한 자세한 내용은 [Azure Active Directory-Where is your data located.](https://msit.powerbi.com/view?r=eyJrIjoiODdjOWViZDctMWRhZS00ODUzLWI4MmQtNWM5NjBkZTBkNjFlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9)
 
 ### <a name="microsoft-intune"></a>Microsoft Intune
 
-Intune 데이터는 유럽 북부(아일랜드) 및 유럽 서부(네덜란드)와 같은 몇 가지 다른 지역에 저장할 수 있습니다. IT 관리자가 테넌트 계정을 만들고 Intune 서비스에 처음 등록할 때 데이터가 저장되는 국가를 선택하십시오. Intune에서 사용하는 데이터 센터 위치 목록은 [Microsoft Intune을 참조하세요.](http://intunedatacentermap.azurewebsites.net/)고객 데이터는 어디에 있나요? Intune에서 사용하는 데이터 저장소 및 사용에 대한 자세한 내용은 [Intune에서 데이터 수집을 참조하세요.](https://docs.microsoft.com/intune/privacy-data-collect)
+Intune 데이터는 유럽 북부(아일랜드) 및 유럽 서부(네덜란드)와 같은 몇 가지 다른 지역에 저장할 수 있습니다. IT 관리자가 테넌트 계정을 만들고 Intune 서비스에 처음 등록할 때 데이터가 저장되는 국가를 선택하십시오. Intune에서 사용하는 데이터 센터 위치 목록은 [Microsoft Intune을 참조하세요.](http://intunedatacentermap.azurewebsites.net/)고객 데이터는 어디에 있나요? Intune에서 데이터 저장소 및 사용에 대한 자세한 내용은 [Intune의 데이터 수집을 참조하세요.](https://docs.microsoft.com/intune/privacy-data-collect)
 
 ### <a name="microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender
 
 끝점용 Microsoft Defender 데이터는 몇 가지 다른 지역에 저장할 수 있습니다. 이러한 이유로 Endpoint용 Defender는 데이터 저장소 위치인 [Microsoft Defender에](http://intunedatacentermap.azurewebsites.net/)의하면 유럽 연합, 영국 및 미국의 Microsoft Azure 데이터 센터에서 운영됩니다. 끝점용 Defender의 데이터 저장소 및 사용에 대한 자세한 내용은 [Microsoft Defender for Endpoint에서](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy#what-data-does-microsoft-defender-atp-collect) 수집하는 데이터를 참조하세요.
 
-### <a name="windows-10"></a>Windows 10
+### <a name="windows-10"></a>Windows 10
 
-[Microsoft](https://privacy.microsoft.com/privacystatement)개인 정보 취급 방침에 설명된 "Microsoft에서 수집한 개인 데이터는 해당 지역, 미국 및 Microsoft 또는 계열사, 자회사 또는 서비스 공급자가 시설을 운영하는 다른 모든 국가에 저장 및 처리될 수 있습니다. [...] 일반적으로 기본 저장소 위치는 고객의 지역이나 미국에 위치하고 다른 지역의 데이터 센터에 백업하는 경우가 자주 있습니다. 저장소 위치는 효율적으로 작동하고, 성능을 향상하고, 작동이 정전되거나 기타 문제가 있는 경우 데이터를 보호하기 위해 중복을 만들기 위해 선택됩니다. 이 개인정보처리방침에 따라 수집하는 데이터가 데이터가 위치할 때마다 해당 법률의 요구 사항 및 본 개인정보처리방침의 조항에 따라 처리되도록 보장하기 위한 조치를 취합니다."
+[Microsoft](https://privacy.microsoft.com/privacystatement)개인 정보 취급 방침에 설명된 "Microsoft에서 수집한 개인 데이터는 해당 지역, 미국 및 Microsoft 또는 계열사, 자회사 또는 서비스 공급자가 시설을 운영하는 다른 모든 국가에 저장 및 처리될 수 있습니다. [...] 일반적으로 기본 저장소 위치는 고객의 지역이나 미국에 위치하고 다른 지역의 데이터 센터에 백업하는 경우가 자주 있습니다. 저장소 위치는 효율적으로 작동하고, 성능을 향상하고, 작동이 능동되거나 기타 문제가 있는 경우 데이터를 보호하기 위해 중복을 만들기 위해 선택됩니다. 이 개인정보처리방침에 따라 수집하는 데이터가 데이터가 위치할 때마다 해당 법률의 요구 사항 및 본 개인정보처리방침의 조항에 따라 처리되도록 보장하기 위한 조치를 취합니다."
 
 Windows 10의 진단 데이터 수집에 대한 자세한 내용은 Microsoft 개인 정보 취급 방침의 "개인 데이터를 저장하고 처리하는 [위치"](https://privacy.microsoft.com/privacystatement#mainwherewestoreandprocessdatamodule) 섹션을 참조하세요.
 
@@ -107,7 +107,7 @@ Microsoft Managed Desktop의 내부 데이터 저장소에 대한 직접 액세�
 
 - 엔지니어링 리드 수준 승인이 필요합니다.
 - 감사 및 시간이 모두 제한됩니다.
-- 보안이 유지되고 제한된 작업소를 사용하려면 이 작업을 수행해야 합니다.
+- 이를 위해서는 보안이 매우 안전하고 제한된 Workstation을 사용해야 합니다.
 - 모든 데이터는 저장되는 동안 암호화됩니다.
 - 스위딩 액세스 권한이 없습니다.
 - Microsoft Managed Desktop의 내부 관리 포털에 액세스하려면 보안이 강화되고 제한된 Workstation이 필요합니다.
@@ -123,7 +123,7 @@ Microsoft Managed Desktop은 프로파일링, 광고 또는 마케팅을 위해 
 
 유럽 연합 [GDPR(일반](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) 데이터 보호 규정)은 개인(규정에서 데이터 주체로 알려지음)에게 고용주 또는 다른 유형의 기관이나 조직(데이터 컨트롤러 또는 단지 컨트롤러)에 의해 수집된 개인 데이터를 관리할 수 있는 권한을 제공합니다. GDPR에서 개인 데이터는 식별되거나 식별 가능한 자연인에 관련된 모든 데이터로 매우 광범위하게 정의됩니다. GDPR은 데이터 주체에게 개인 데이터에 대한 특정 권한을 제공합니다. 이러한 권한에는 개인 데이터의 복사본을 얻거나, 수정을 요청하거나, 처리를 제한하거나, 삭제하거나, 다른 관리자에게 전달할 수 있도록 전자 형식으로 개인 데이터를 수신할 권한이 포함됩니다. 데이터 주체가 개인 데이터에 대한 작업을 수행하도록 관리자에게 공식적으로 요청하는 것을 DSR(Data Subject Request)이라고 합니다.
 
-마찬가지로 캘리포니아 소비자 개인 정보 보호법(CCPA)은 캘리포니아 소비자에게 GDPR의 데이터 주체 권리와 유사한 권리를 포함하여 캘리포니아 소비자에게 개인 정보 삭제, 액세스 및 수신(이식성)과 같은 개인 정보 보호 권리 및 의무를 제공합니다. 또한 CCPA는 특정 공개, 행사 권한을 선택할 때 차별 방지, "판매"로 분류된 특정 데이터 전송에 대한 "옵트아웃/옵트인" 요구 사항을 제공합니다. 판매는 가치 있는 대가관계를 위하여 데이터 공유를 포함하도록 광범위하게 정의됩니다. CCPA에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa?view=o365-worldwide) 및 [캘리포니아 소비자 개인 정보 보호법 FAQ](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq?view=o365-worldwide)를 참조하세요.
+마찬가지로 캘리포니아 소비자 개인 정보 보호법(CCPA)은 캘리포니아 소비자에게 GDPR의 데이터 주체 권리와 유사한 권리를 포함하여 캘리포니아 소비자의 개인 정보 삭제, 액세스 및 수신(이식성)과 같은 개인 정보 보호 권리 및 의무를 제공합니다. 또한 CCPA는 특정 공개, 행사 권한을 선택할 때 차별 방지, "판매"로 분류된 특정 데이터 전송에 대한 "옵트아웃/옵트인" 요구 사항을 제공합니다. 판매는 가치 있는 대가관계를 위하여 데이터 공유를 포함하도록 광범위하게 정의됩니다. CCPA에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa?view=o365-worldwide) 및 [캘리포니아 소비자 개인 정보 보호법 FAQ](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq?view=o365-worldwide)를 참조하세요.
 
 다음 섹션에서는 Microsoft Managed Desktop이 컨트롤러가 Microsoft Managed Desktop에서 사용하는 개인 데이터 또는 개인 정보를 찾고, 액세스하고, 이에 대해 행동하는 데 도움이 되는 방법을 설명합니다.
 

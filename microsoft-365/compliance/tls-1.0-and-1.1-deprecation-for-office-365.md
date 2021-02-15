@@ -79,4 +79,4 @@ KB 문서에서 설명하는 **DefaultSecureProtocols** 레지스트리 키의 �
 
 프로그래머 모드에서 기본 Windows 계산기를 사용하여 동일한 참조 레지스트리 키 값을 설정할 수 있습니다. 자세한 내용은 [Windows의 WinHTTP에서 TLS 1.1 및 TLS 1.2를 기본 보안 프로토콜로 사용하도록 설정하려면 KB 3140245 업데이트를 참조하세요.](https://support.microsoft.com/help/3140245)
 
-Windows 7[업데이트(KB 3140245)가](https://support.microsoft.com/help/3140245)설치되어 있는지와 관계없이 DefaultSecureProtocols 레지스트리 하위 키가 존재하지 않습니다. 수동으로 또는 GPO(그룹 정책 개체)를 통해 추가해야 합니다. 즉, 사용하도록 설정되거나 제한된 보안 프로토콜을 사용자 지정할 필요 없이 이 키가 필요하지 않습니다. Windows 7[SP1(KB 3140245) 업데이트만](https://support.microsoft.com/help/3140245)필요합니다.
+Windows 7[업데이트(KB 3140245)가](https://support.microsoft.com/help/3140245)설치되어 있어야 하는지와 관계없이 DefaultSecureProtocols 레지스트리 하위 키가 존재하지 않습니다. 수동으로 또는 GPO(그룹 정책 개체)를 통해 추가해야 합니다. 즉, 사용하도록 설정되거나 제한된 보안 프로토콜을 사용자 지정해야 하는 경우를 위해 이 키는 필요하지 않습니다. Windows 7[SP1(KB 3140245) 업데이트만](https://support.microsoft.com/help/3140245)필요합니다.

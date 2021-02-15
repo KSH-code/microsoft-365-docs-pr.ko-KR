@@ -24,11 +24,11 @@ ms.locfileid: "49790066"
 ---
 # <a name="set-up-a-connector-to-archive-twitter-data-preview"></a>Twitter 데이터를 보관할 커넥터 설정(미리 보기)
 
-Microsoft 365 규정 준수 센터의 커넥터를 사용하여 Twitter에서 Microsoft 365로 데이터를 가져오고 보관합니다. 커넥터를 설정하고 구성한 후 일정에 따라 조직의 Twitter 계정에 연결하고 항목의 내용을 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Microsoft 365의 사서함으로 가져올 수 있습니다.
+Microsoft 365 규정 준수 센터의 커넥터를 사용하여 Twitter에서 Microsoft 365로 데이터를 가져오고 보관합니다. 커넥터를 설정 및 구성하고 나면 일정에 따라 조직의 Twitter 계정에 연결하고 항목의 내용을 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Microsoft 365의 사서함으로 가져올 수 있습니다.
 
 Twitter 데이터를 가져온 후 소송 보존, 콘텐츠 검색, In-Place 보관, 감사 및 Microsoft 365 보존 정책과 같은 Microsoft 365 규정 준수 기능을 Twitter 데이터에 적용할 수 있습니다. 예를 들어 사서함에 소송 보존이 적용되거나 보존 정책에 할당된 경우 Twitter 데이터는 보존됩니다. 콘텐츠 검색을 사용하여 타사 데이터를 검색하거나 Twitter 데이터가 저장된 사서함을 고급 eDiscovery 사례의 보호자와 연결할 수 있습니다. 커넥터를 사용하여 Microsoft 365에서 Twitter 데이터를 가져오고 보관하면 조직이 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
 
-Twitter 데이터를 가져온 후 소송 보존, 콘텐츠 검색, In-Place 보관, 감사, 커뮤니케이션 규정 준수 및 Microsoft 365 보존 정책과 같은 Microsoft 365 규정 준수 기능을 사서함에 저장된 데이터에 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용하여 Twitter 데이터를 검색하거나 데이터가 저장된 사서함을 Advanced eDiscovery 사례의 보관자와 연결할 수 있습니다. 커넥터를 사용하여 Microsoft 365에서 Twitter 데이터를 가져오고 보관하면 조직이 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
+Twitter 데이터를 가져온 후 소송 보존, 콘텐츠 검색, In-Place 보관, 감사, 통신 준수 및 Microsoft 365 보존 정책과 같은 Microsoft 365 규정 준수 기능을 사서함에 저장된 데이터에 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용하여 Twitter 데이터를 검색하거나 데이터가 저장된 사서함을 Advanced eDiscovery 사례의 보관자와 연결할 수 있습니다. 커넥터를 사용하여 Microsoft 365에서 Twitter 데이터를 가져오고 보관하면 조직이 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
 
 ## <a name="before-you-set-up-a-connector"></a>커넥터를 설정하기 전에
 
@@ -47,7 +47,7 @@ Microsoft 365 규정 준수 센터에서 커넥터를 설정하고 구성하여 
 
 - Twitter 커넥터는 하루 총 200,000개 항목을 가져올 수 있습니다. 하루 200,000개가 넘는 Twitter 항목이 있는 경우 이러한 항목은 Microsoft 365로 가져오지 않습니다.
 
-- Microsoft 365 규정 준수 센터(5단계)에서 Twitter 커넥터를 설정하는 사용자에게 Exchange Online에서 사서함 가져오기 내보내기 역할이 할당되어야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
+- Microsoft 365 규정 준수 센터(5단계)에서 Twitter 커넥터를 설정하는 사용자에게 Exchange Online에서 사서함 가져오기 내보내기 역할이 할당되어야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서에서 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>1단계: Azure Active Directory에서 앱 만들기
 
@@ -115,7 +115,7 @@ Twitter 커넥터 앱에 대한 소스 코드를 배포합니다.
 
 - Twitter 액세스 토큰 비밀(3단계에서 획득)
 
-- Azure Active Directory 응용 프로그램 ID(1단계에서 획득한 AAD 응용 프로그램 ID)
+- Azure Active Directory 응용 프로그램 ID(1단계에서 얻은 AAD 응용 프로그램 ID)
 
 - Azure Active Directory 응용 프로그램 비밀(1단계에서 얻은 AAD 응용 프로그램 비밀)
 

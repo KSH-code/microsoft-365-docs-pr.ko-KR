@@ -28,7 +28,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 12/17/2020
 ms.locfileid: "49709500"
 ---
-# <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>비즈니스용 Microsoft 365 메시지 암호화 메시지에 조직의 브랜드 추가
+# <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>비즈니스용 Microsoft 365 메시지 암호화 암호화 메시지에 조직의 브랜드 추가
 
 회사 브랜드를 적용하여 조직의 전자 메일 메시지와 암호화 포털의 모양을 사용자 지정할 수 있습니다. 시작하기 전에 먼저 직장 또는 학교 계정에 전역 관리자 권한을 적용해야 합니다. 이러한 사용 권한이 있는 경우 Get-OMEConfiguration 및 Set-OMEConfiguration Windows PowerShell cmdlet을 사용하여 암호화된 전자 메일 메시지의 이러한 부분을 사용자 지정합니다.
   
@@ -88,7 +88,7 @@ ms.locfileid: "49709500"
 |개인 정보 취급 방침 링크의 URL|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PrivacyStatementURL "<URL>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -PrivacyStatementURL "https://contoso.com/privacystatement.html"`|
 |암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -DisclaimerText "<Disclaimer statement. String of up to 1024 characters.>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -DisclaimerText "This message is confidential for the use of the addressee only."`|
 |암호화된 메일 보기 포털 위쪽에 표시되는 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<Text for your portal. String of up to 128 characters.>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal."`|
-|이 사용자 지정 서식 파일에서 일회용 코드로 인증을 사용하도록 설정하거나 사용하지 않도록 설정하려면|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -OTPEnabled <$true|$false>` <br/> **예제:** <br/>이 사용자 지정 템플릿에 일회용 암호를 사용하도록 설정하려면 <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true` <br/> 이 사용자 지정 서식 파일에서 일회용 암호를 사용하지 않도록 설정 <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false`|
+|이 사용자 지정 서식 파일에서 일회성 코드로 인증을 사용하도록 설정하거나 사용하지 않도록 설정하려면|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -OTPEnabled <$true|$false>` <br/> **예제:** <br/>이 사용자 지정 템플릿에 일회용 암호를 사용하도록 설정하려면 <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true` <br/> 이 사용자 지정 서식 파일에서 일회용 암호를 사용하지 않도록 설정 <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false`|
 |이 사용자 지정 템플릿에 대해 Microsoft, Google 또는 Yahoo ID에 대한 인증을 사용하도록 설정하거나 사용하지 않도록 설정하려면|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -SocialIdSignIn <$true|$false>` <br/> **예제:** <br/>이 사용자 지정 서식 파일에서 공유 ID를 사용하도록 설정하려면 <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $true` <br/> 이 사용자 지정 서식 파일에서 공유 ID를 사용하지 않도록 설정 <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false`|
 
 ## <a name="create-an-ome-branding-template-advanced-message-encryption"></a>OME 브랜랜드 템플릿 만들기(고급 메시지 암호화)
@@ -117,9 +117,9 @@ Office 365 고급 메시지 암호화가 있는 경우 [New-OMEConfiguration](ht
   
 1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
-2. **Set-OMEConfiguration에** 설명된 바와 같이 [Set-OMEConfiguration cmdlet을 사용 합니다.](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) DisclaimerText, EmailText 및 PortalText 값에서 조직의 브랜드가 지정한 사용자 지정을 제거하려면 값을 빈 문자열로 `""` 설정하십시오. 로고와 같은 모든 이미지 값에 대해 값을  `"$null"` 으로 설정
+2. **Set-OMEConfiguration에** 설명된 바와 같이 [Set-OMEConfiguration cmdlet을 사용 합니다.](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) DisclaimerText, EmailText 및 PortalText 값에서 조직의 브랜드가 지정한 사용자 지정을 제거하려면 값을 빈 문자열로 `""` 설정하십시오. 로고와 같은 모든 이미지 값에 대해 값을  `"$null"` .로 설정
 
-   다음 표에는 암호화 사용자 지정 옵션 기본값이 설명되어 있습니다.
+   다음 표에서는 암호화 사용자 지정 옵션 기본값에 대해 설명하고 있습니다.
 
    **암호화 환경의 이 기능을 기본 텍스트 및 이미지로 되돌리려면**|**다음 명령 사용**|
    |:-----|:-----|
@@ -138,7 +138,7 @@ Office 365 고급 메시지 암호화가 있는 경우 [New-OMEConfiguration](ht
   
 1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
-2. **Remove-OMEConfiguration** cmdlet은 다음과 같이 사용할 수 있습니다.
+2. **Remove-OMEConfiguration** cmdlet을 다음과 같이 사용 합니다.
 
    ```powershell
    Remove-OMEConfiguration -Identity ""<OMEConfigurationName>"

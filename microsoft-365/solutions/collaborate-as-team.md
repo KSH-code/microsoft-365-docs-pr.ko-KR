@@ -77,11 +77,11 @@ Teams 게스트 액세스를 설정하려면 다음을 수행합니다.
 Teams 게스트 액세스가 설정되어 있는 경우 선택적으로 민감도 레이블을 사용하여 개별 팀 및 관련 SharePoint 사이트에 대한 게스트 액세스를 제어할 수 있습니다. 자세한 내용은 [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)를 참조하세요.
 
 > [!NOTE]
-> 켜고 나면 Teams 게스트 설정이 활성화되기까지 최대 24시간이 걸릴 수 있습니다.
+> 켜면 Teams 게스트 설정이 활성화되기까지 최대 24시간이 걸릴 수 있습니다.
 
 ## <a name="microsoft-365-groups-guest-settings"></a>Microsoft 365 그룹 게스트 설정
 
-Teams는 팀 멤버십을 위해 Microsoft 365 그룹을 사용 합니다. Teams에서 게스트 액세스가 작동하려면 Microsoft 365 그룹 게스트 설정을 켜야 합니다.
+Teams는 팀 구성원 자격에 Microsoft 365 그룹을 사용 합니다. Teams에서 게스트 액세스가 작동하려면 Microsoft 365 그룹 게스트 설정을 켜야 합니다.
 
 ![Microsoft 365 관리 센터의 Microsoft 365 그룹 게스트 설정 스크린샷](../media/office-365-groups-guest-settings.png)
 
@@ -121,9 +121,9 @@ SharePoint 조직 수준 공유 설정을 설정하려면
 
 사용자가 파일 및 폴더를 공유할 때 기본적으로 선택되는 다음 링크 유형 중 하나를 선택하십시오.
 
-- **링크가 있는** 모든 사용자 - 파일 및 폴더의 무인 공유를 많이 할 것으로 예상되는 경우 이 옵션을 선택합니다. 모든 사용자 링크를 *허용하지만* 실수로 허용되지 않은 공유가 우려되는 경우 다른 옵션 중 하나를 기본값으로 고려하세요. 이 링크 유형은 모든 사용자 공유를 사용하도록 설정한 **경우만 사용할 수** 있습니다.
+- **링크가 있는** 모든 사용자 - 파일 및 폴더의 무단 공유를 많이 할 것으로 예상되는 경우 이 옵션을 선택합니다. 모든 사용자 링크를 *허용하지만* 실수로 허용되지 않은 공유가 우려되는 경우 다른 옵션 중 하나를 기본값으로 고려합니다. 이 링크 유형은 모든 사용자 공유를 사용하도록 설정한 **경우만 사용할 수** 있습니다.
 - **조직의 사용자만** - 대부분의 파일 및 폴더 공유가 조직 내부의 사용자와 공유될 것으로 예상하는 경우 이 옵션을 선택합니다.
-- **특정 사용자** - 게스트와 많은 파일 및 폴더 공유를 할 것으로 예상하는 경우 이 옵션을 고려하세요. 이 유형의 링크는 게스트와 함께 작동하며 이를 인증해야 합니다.
+- **특정 사용자** - 게스트와 많은 파일 및 폴더 공유를 할 것으로 예상하는 경우 이 옵션을 고려하세요. 이 유형의 링크는 게스트와 함께 작동하며 인증을 요구합니다.
  
 ![SharePoint 조직 수준 파일 및 폴더 공유 설정 스크린샷](../media/sharepoint-organization-files-folders-sharing-settings.png)
 
@@ -187,6 +187,6 @@ SharePoint 조직 수준 기본 링크 설정을 지정하려면
 
 [관리 대상 게스트와 B2B 엑스트라넷 작성](b2b-extranet.md)
 
-[Azure AD B2B와 SharePoint 및 OneDrive 통합](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)
+[Azure AD B2B와 SharePoint 및 OneDrive의 통합(미리 보기)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)
 
 [SharePoint 또는 OneDrive에서 공유하는 경우 공유 옵션이 회색으로 표시됩니다.](https://docs.microsoft.com/sharepoint/troubleshoot/administration/sharing-options-grayed-out-when-sharing-from-sharepoint-online-or-onedrive)

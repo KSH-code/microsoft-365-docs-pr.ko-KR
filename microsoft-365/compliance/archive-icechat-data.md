@@ -23,7 +23,7 @@ ms.locfileid: "49790172"
 
 Microsoft 365 규정 준수 센터의 기본 커넥터를 사용하여 ICE 채팅 공동 작업 도구에서 재무 서비스 채팅 데이터를 가져오고 보관합니다. 커넥터를 설정하고 구성한 후 커넥터는 매일 한 번씩 조직의 ICE Chat SFTP(Secure FTP) 사이트에 연결하고 채팅 메시지의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 Microsoft 365의 사서함으로 해당 항목을 가져올 수 있습니다.
 
-ICE 채팅 데이터를 사용자 사서함에 저장한 후 소송 보존, eDiscovery, 보관, 감사, 통신 준수 및 Microsoft 365 보존 정책과 같은 Microsoft 365 규정 준수 기능을 ICE 채팅 데이터에 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용하여 ICE 채팅 메시지를 검색하거나 ICE 채팅 데이터가 포함된 사서함을 고급 eDiscovery 사례의 보호자와 연결할 수 있습니다. ICE 채팅 커넥터를 사용하여 Microsoft 365에서 데이터를 가져오고 보관하면 조직이 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
+ICE 채팅 데이터를 사용자 사서함에 저장한 후 소송 보존, eDiscovery, 보관, 감사, 통신 준수 및 Microsoft 365 보존 정책과 같은 Microsoft 365 규정 준수 기능을 ICE 채팅 데이터에 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용하여 ICE 채팅 메시지를 검색하거나 ICE 채팅 데이터가 포함된 사서함을 고급 eDiscovery 사례의 보호자와 연결할 수 있습니다. ICE 채팅 커넥터를 사용하여 Microsoft 365에서 데이터를 가져오고 보관하면 조직이 정부 및 규정 정책을 준수하는 데 도움이 될 수 있습니다.
 
 ## <a name="overview-of-archiving-ice-chat-data"></a>ICE 채팅 데이터 보관 개요
 
@@ -51,7 +51,7 @@ ICE 채팅 데이터를 보관하는 데 필요한 구현 단계 중 일부는 M
 
 - ICE 채팅 커넥터는 하루 총 200,000개 항목을 가져올 수 있습니다. SFTP 사이트에 200,000개가 넘는 항목이 있는 경우 해당 항목을 Microsoft 365로 가져오지 않습니다.
 
-- 3단계에서 ICE 채팅 커넥터를 만들고 1단계에서 공개 키와 IP 주소를 다운로드하는 관리자에게는 Exchange Online에서 사서함 가져오기 내보내기 역할이 할당되어야 합니다. 이 역할은 Microsoft 365 규정 준수 센터의 데이터 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다.  기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
+- 3단계에서 ICE 채팅 커넥터를 만들고 1단계에서 공개 키와 IP 주소를 다운로드하는 관리자에게는 Exchange Online에서 사서함 가져오기 내보내기 역할이 할당되어야 합니다. 이 역할은 Microsoft 365 규정 준수 센터의 데이터 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다.  기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서에서 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
 
 ## <a name="step-1-obtain-ssh-and-pgp-public-keys"></a>1단계: SSH 및 PGP 공개 키 얻기
 
@@ -77,7 +77,7 @@ ICE 채팅 데이터를 보관하는 데 필요한 구현 단계 중 일부는 M
 
 ## <a name="step-2-configure-the-ice-chat-sftp-site"></a>2단계: ICE Chat SFTP 사이트 구성
 
-다음 단계는 1단계에서 획득한 SSH 및 PGP 공개 키와 IP 주소를 사용하여 ICE Chat SFTP 사이트에 대해 SSH 인증 및 PGP 암호화를 구성하는 것입니다. 이렇게 하면 3단계에서 만든 ICE 채팅 커넥터가 ICE Chat SFTP 사이트에 연결하고 ICE 채팅 데이터를 Microsoft 365로 전송할 수 있습니다. ICE Chat SFTP 사이트를 설정하려면 ICE 채팅 고객 지원과 함께 작업해야 합니다.
+다음 단계는 1단계에서 획득한 SSH 및 PGP 공개 키와 IP 주소를 사용하여 ICE Chat SFTP 사이트에 대해 SSH 인증 및 PGP 암호화를 구성하는 것입니다. 이를 통해 3단계에서 만든 ICE 채팅 커넥터가 ICE Chat SFTP 사이트에 연결하고 ICE 채팅 데이터를 Microsoft 365로 전송할 수 있습니다. ICE Chat SFTP 사이트를 설정하려면 ICE 채팅 고객 지원과 함께 작업해야 합니다.
 
 ## <a name="step-3-create-an-ice-chat-connector"></a>3단계: ICE 채팅 커넥터 만들기
 

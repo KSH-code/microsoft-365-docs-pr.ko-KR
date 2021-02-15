@@ -26,11 +26,11 @@ ms.locfileid: "49663527"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>게스트와 현장에서 공동 작업하기
 
-문서, 데이터 및 목록에서 게스트와 공동 작업을 해야 하는 경우 SharePoint 사이트를 사용할 수 있습니다. 최신 SharePoint 사이트는 Microsoft 365 그룹에 연결되고 사이트 구성원을 관리하고 공유 사서함 및 일정과 같은 추가 공동 작업 도구를 제공할 수 있습니다.
+문서, 데이터 및 목록에서 게스트와 공동 작업을 해야 하는 경우 SharePoint 사이트를 사용할 수 있습니다. 최신 SharePoint 사이트는 Microsoft 365 그룹에 연결되어 있으며 사이트 구성원을 관리하고 공유 사서함 및 일정과 같은 추가 공동 작업 도구를 제공할 수 있습니다.
 
 이 문서에서는 게스트와 공동 작업을 위해 SharePoint 사이트를 설정하는 데 필요한 Microsoft 365 구성 단계를 진행합니다.
 
-## <a name="video-demonstration"></a>비디오 데모
+## <a name="video-demonstration"></a>동영상 데모
 
 이 비디오에서는 이 문서에 설명된 구성 단계를 보여줍니다.</br>
 
@@ -38,7 +38,7 @@ ms.locfileid: "49663527"
 
 ## <a name="azure-external-collaboration-settings"></a>Azure 외부 공동 작업 설정
 
-Microsoft 365에서 공유는 [Azure Active Directory의 B2B](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations)외부 공동 작업 설정에 의해 가장 높은 수준에서 관리됩니다. Azure AD에서 게스트 공유를 사용하지 않도록 설정하거나 제한하는 경우 이 설정은 Microsoft 365에서 구성한 모든 공유 설정을 다시 적용합니다.
+Microsoft 365에서 공유는 [Azure Active Directory의 B2B](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations)외부 공동 작업 설정에 의해 가장 높은 수준에서 관리됩니다. Azure AD에서 게스트 공유를 사용하지 않도록 설정하거나 제한하는 경우 이 설정은 Microsoft 365에서 구성한 공유 설정을 다시 적용합니다.
 
 B2B 외부 공동 작업 설정을 확인하여 게스트와의 공유가 차단되지 않는지 확인합니다.
 
@@ -84,7 +84,7 @@ Microsoft 365 그룹 게스트 설정을 설정하려면
 
 SharePoint 조직 수준 공유 설정을 설정하려면
 
-1. Microsoft 365 관리 센터의 왼쪽 탐색 창에 있는 관리 **센터에서** **SharePoint를 클릭합니다.**
+1. Microsoft 365 관리 센터의 왼쪽 탐색 창에 있는 관리 센터에서 **SharePoint를 클릭합니다.**
 2. SharePoint 관리 센터의 왼쪽 탐색 창에 있는 **정책 아래에서** 공유를 **클릭합니다.**
 3. SharePoint의 외부 공유가 **모든** 사용자 또는 신규 및 기존 **게스트로 설정되어 있도록 합니다.**
 4. 변경한 내용이 있으면 **저장** 을 클릭합니다.
@@ -117,7 +117,7 @@ SharePoint 조직 수준 공유 설정을 설정하려면
 사이트 수준 공유 설정을 설정하려면
 1. SharePoint 관리 센터의 왼쪽 탐색 창에서 **사이트** 를 확장시키고 **Active 사이트** 를 클릭합니다.
 2. 공유할 사이트를 선택합니다.
-3. ...를 클릭하고 공유를 **클릭합니다.**
+3. ...를 클릭하고 **공유를 클릭합니다.**
 4. 공유가 모든 사용자  또는 신규 및 기존 **게스트로 설정되어 있도록 합니다.**
 5. 변경한 내용이 있으면 **저장** 을 클릭합니다.
 
@@ -138,10 +138,10 @@ SharePoint 조직 수준 공유 설정을 설정하려면
 2. 그룹 연락처 카드를 열고 오른쪽 위에 있는 구성원 링크를 클릭합니다(구성원 수를 나타는 링크). 
 3. 구성원 **추가를 클릭합니다.**
 4. 초대할 게스트의 전자 메일 주소를 입력하고 추가를 **클릭합니다.**
-5. **닫기** 를 클릭합니다.
+5. **닫기** 를 누르세요.
 그룹의 소유자가 아니며 그 결과로 게스트를 그룹에 추가할 수 없는 경우 닫기만 클릭해야 합니다.  이러한 경우 그룹에 게스트를 추가하는 요청은 승인을 위해 그룹 소유자에게 전송됩니다.
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례](best-practices-anonymous-sharing.md)
 
@@ -151,4 +151,4 @@ SharePoint 조직 수준 공유 설정을 설정하려면
 
 [관리 대상 게스트와 B2B 엑스트라넷 작성](b2b-extranet.md)
 
-[Azure AD B2B와 SharePoint 및 OneDrive 통합](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)
+[Azure AD B2B와 SharePoint 및 OneDrive의 통합(미리 보기)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)

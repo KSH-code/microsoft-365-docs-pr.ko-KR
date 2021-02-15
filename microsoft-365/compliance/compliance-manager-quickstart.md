@@ -31,7 +31,7 @@ ms.locfileid: "49698431"
 
 ## <a name="first-visit-get-to-know-compliance-manager"></a>첫 번째 방문: 준수 관리자에 대해 알아가기
 
-준수 관리자는 Microsoft 365 규정 준수 센터에 https://compliance.microsoft.com 있습니다. 조직의 전역 관리자는 준수 관리자 [](compliance-manager-setup.md#set-user-permissions-and-assign-roles) 사용을 시작하기 전에 사용자 권한을 설정하고 역할을 할당해야 합니다.
+준수 관리자는 Microsoft 365 규정 준수 센터에 https://compliance.microsoft.com 있습니다. 준수 관리자 사용을 시작하기 전에 [](compliance-manager-setup.md#set-user-permissions-and-assign-roles) 조직의 전역 관리자가 사용자 권한을 설정하고 역할을 할당해야 합니다.
 
 준수 관리자를 처음 방문하면 조직에 대한 준수 점수가 표시 됩니다. 준수 관리자는 데이터 보호 기준에 대해 현재 Microsoft 365 환경을 이미 평가하고 있습니다. 준수 관리자에 익숙해지기 시작하는 가장 좋은 방법은 표시하는 요소, 주요 요소 및 대시보드를 사용자 지정하는 방법을 이해하는 것입니다.
 

@@ -78,7 +78,7 @@ ms.locfileid: "49712594"
           - 숫자: 지난 28일 동안 OneDrive 또는 SharePoint에서 온라인 파일에 액세스하거나 다운로드한 사용자 수</br>
           - 분위: 지난 28일 중 1일 이상 OneDrive 또는 SharePoint에 액세스한 사용자 수</br>
       - **작성자:**</br>
-        - 숫자: 지난 28일 동안 OneDrive 또는 SharePoint에서 온라인 파일을 만들거나 수정, 업로드, 동기화, 체크 인, 복사 또는 이동한 사용자 수</br>
+        - 숫자: 지난 28일 동안 OneDrive 또는 SharePoint에서 온라인 파일을 만들거나 수정, 업로드, 동기화, 체크 인, 복사 또는 이동하는 사용자 수</br>
         - 분노: 지난 28일 중 1일 이상 OneDrive 또는 SharePoint에 액세스할 수 있는 사용자 수입니다. </br> 
       - **공동 작업자:**</br>
         - 숫자: 지난 28일 동안 OneDrive 또는 SharePoint에서 온라인 파일로 공동 작업을 한 사용자 수</br>
@@ -124,7 +124,7 @@ ms.locfileid: "49712594"
 
 ### <a name="use-of-attachments-in-email"></a>전자 메일의 첨부 파일 사용
 
-:::image type="content" source="../../media/emailattachments.png" alt-text="전자 메일 첨부 파일 사용":::
+:::image type="content" source="../../media/emailattachments.png" alt-text="전자 메일 첨부 파일 사용.":::
 
 1. **헤더:** OneDrive 또는 SharePoint에 저장되지 않은 전자 메일에서 첨부 파일을 사용하는 사용자 비율을 강조합니다.
 2. **본문:** 공동 작업 및 보안 관점에서 온라인 파일에 대한 링크를 공유하는 값에 대한 정보를 제공합니다.
@@ -164,7 +164,7 @@ ms.locfileid: "49712594"
 3. **시각화:** 이는 공동 작업하는 파일 수에 따라 OneDrive 또는 SharePoint에 액세스할 수 있는 사용자 분포를 보여 주며, 이 항목은 다음 4개 범주(각각에 대해 막대의 파란색 부분과 분수는 해당 범주에 속하는 OneDrive 또는 SharePoint에 액세스할 수 있는 사용자 비율을 나타임)를 통해 표시됩니다.
       - **공동 작업 없음:**
         - **Numerator:** 지난 28일 동안 파일을 공동 작업하지 않는 사용자 수
-        - **디노이터:** 지난 28일 동안 적어도 1일 동안 OneDrive 또는 SharePoint에 액세스할 수 있는 총 사용자 수입니다.
+        - **디노이터:** 지난 28일 동안 OneDrive 또는 SharePoint에 대한 액세스 권한이 있는 총 사용자 수입니다.
       - **1~3개 파일에 대한 공동 작업:**
         - **Numerator:** 지난 28일 동안의 1-3개 파일에서 공동 작업하는 사용자 수입니다.
         - **디노이터:** 지난 28일 중 1일 이상 OneDrive 또는 SharePoint에 액세스할 수 있는 총 사용자 수입니다.

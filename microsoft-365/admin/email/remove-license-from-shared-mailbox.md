@@ -52,7 +52,7 @@ ms.locfileid: "49698306"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
    > [!NOTE]
    > 활성 사용자 페이지에서 라이선스를 제거해야 합니다. 라이선스는 사용자 설정이기 때문에 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다. 
@@ -63,7 +63,7 @@ ms.locfileid: "49698306"
 
 4. **변경 내용 저장** 을 선택합니다.
 
-5. 활성 사용자 페이지로 돌아가면 공유 사서함의 상태가 라이선스가 **없는 상태가 됩니다.** 
+5. 활성 사용자 페이지로 **돌아오면** 공유 사서함의 상태가 라이선스가 **없는 상태가 됩니다.**
 
 6. 라이선스 비용은 계속 지불하고 있습니다. 요금 지불을 중지하려면 구독에서 [라이선스를 제거합니다.](../../commerce/licenses/remove-licenses-from-subscription.md)
 
@@ -71,7 +71,7 @@ ms.locfileid: "49698306"
 
 ::: moniker range="o365-germany"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
     > [!NOTE]
     > 활성 사용자 페이지에서 라이선스를 제거해야 합니다. 라이선스는 사용자 설정이기 때문에 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다.
@@ -82,7 +82,7 @@ ms.locfileid: "49698306"
 
 4. **저장** 을 선택합니다.
 
-5. 활성 사용자 페이지로 돌아가면 공유 사서함의 상태가 라이선스가 **없는 상태가 됩니다.** 
+5. 활성 사용자 페이지로 **돌아오면** 공유 사서함의 상태가 라이선스가 **없는 상태가 됩니다.**
 
 6. 라이선스 비용은 계속 지불하고 있습니다. 요금 지불을 중지하려면 구독에서 [라이선스를 제거합니다.](../../commerce/licenses/remove-licenses-from-subscription.md)
 
@@ -90,7 +90,7 @@ ms.locfileid: "49698306"
 
 ::: moniker range="o365-21vianet"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
     > [!NOTE]
     > 활성 사용자 페이지에서 라이선스를 제거해야 합니다. 라이선스는 사용자 설정이기 때문에 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다.
@@ -101,7 +101,7 @@ ms.locfileid: "49698306"
 
 4. **저장** 을 선택합니다.
 
-5. 활성 사용자 페이지로 돌아가면 공유 사서함의 상태가 라이선스가 **없는 상태가 됩니다.** 
+5. 활성 사용자 페이지로 **돌아오면** 공유 사서함의 상태가 라이선스가 **없는 상태가 됩니다.**
 
 6. 라이선스 비용은 계속 지불하고 있습니다. 요금 지불을 중지하려면 구독에서 [라이선스를 제거합니다.](../../commerce/licenses/remove-licenses-from-subscription.md)
 

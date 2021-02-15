@@ -41,11 +41,11 @@ Microsoft 365 Business Premium은 PC, 휴대폰 및 태블릿에서 데이터를
   
 - [Android 또는 iOS 디바이스에 대한 애플리케이션 관리 설정 지정](app-protection-settings-for-android-and-ios.md). 
     
-    이러한 설정에는 설정된 기간 후 비활성 장치에서 파일 삭제, 작업 파일 암호화, 사용자가 PIN을 설정하도록 요구하는 등입니다.
+    이러한 설정에는 설정된 기간 후에 비활성 장치에서 파일을 삭제하고, 작업 파일을 암호화하고, 사용자가 PIN을 설정하도록 요구하는 등입니다.
     
 - [Windows 10 디바이스의 애플리케이션 설정 지정](protection-settings-for-windows-10-devices.md) 
     
-    이러한 설정은 회사 소유 또는 개인 소유 디바이스의 회사 데이터에 적용할 수 있습니다.
+    이러한 설정은 회사 소유 디바이스 또는 개인 소유 디바이스의 회사 데이터에 모두 적용할 수 있습니다.
     
 - [Windows 10 디바이스의 디바이스 보호 설정 지정](protection-settings-for-windows-10-pcs.md). 
     
@@ -79,7 +79,7 @@ Microsoft 365 Business Premium의 고급 기능을 사용하여 사이버 위협
 
     조건부 액세스는 로그인 위험으로부터 조직을 보호하고, 예기치 않은 네트워크 또는 로지에서 액세스 시도, 위험한 장치 유형에서 액세스 시도 등에서 조직을 보호하는 데 도움이 될 수 있습니다. 조건부 액세스 정책은 첫 번째 인증이 완료된 후에 적용하며, 첫 번째 인증 이벤트의 신호를 사용하여 시도된 액세스를 승인, 거부 또는 추가 증명(예: 두 번째 ID 형식)이 필요한지 여부를 판단합니다.
 
-    조건부 액세스 기능은 다음과 같습니다.
+    포함된 조건부 액세스 기능은 다음과 같습니다.
 
     - 사용자 이름, 그룹 및 역할 기반 액세스
     - 앱 [기반 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) 
@@ -98,7 +98,7 @@ Microsoft 365 Business Premium 구독에는 규정 준수 및 규정 표준을 �
 
 - **[데이터 손실 방지 정책 개요](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)**(DLP) 
     
-    DLP를 설정하여 신용 카드 번호, 주민등신용번호와 같은 중요한 정보를 자동으로 검색하여 회사 외부의 부주의한 공유를 방지할 수 있습니다.
+    회사 외부의 부주의한 공유를 방지하기 위해 신용 카드 번호, 주민등에게서 번호와 같은 중요한 정보를 자동으로 검색하는 DLP를 설정할 수 있습니다.
     
 - **[Exchange Online Archiving](https://products.office.com/exchange/microsoft-exchange-online-archiving-email)**
     

@@ -26,7 +26,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/13/2021
 ms.locfileid: "49841636"
 ---
-# <a name="advanced-ediscovery-alignment-with-the-electronic-discovery-reference-model"></a>전자 검색 참조 모델과 고급 eDiscovery 맞춤
+# <a name="advanced-ediscovery-alignment-with-the-electronic-discovery-reference-model"></a>전자 검색 참조 모델을 사용하여 고급 eDiscovery 맞춤
 
 Microsoft 365의 Advanced eDiscovery의 기본 제공 워크플로는 EDRM(전자 검색 참조 모델)에 설명된 eDiscovery 프로세스와 일치합니다.
 

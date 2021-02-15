@@ -27,7 +27,7 @@ ms.locfileid: "49780299"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 추가 장치 정보
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **조직이 영향을 받는지 어떻게 알 수 있나요?**
 
@@ -53,7 +53,7 @@ Microsoft는 장치 상태를 성공적으로 복원하는 방법에 대한 지�
  
 **모든 장치가 공용 클라우드에 등록되어 있는 것을 어떻게 알 수 있나요?**
 
-장치가 공용 클라우드에 등록되어 있는지 확인하려면 Azure AD 포털에서 Excel 스프레드시트로 장치 목록을 내보내고 다운로드해야 합니다. 그런 다음 도이치란드 [Microsoft](ms-cloud-germany-transition.md#how-is-the-migration-organized) 클라우드와 분리된 마이그레이션 단계 후 _registeredTime_ 열을 사용하여 등록된 장치를 필터링합니다.
+장치가 공용 클라우드에 등록되어 있는지 확인하려면 Azure AD 포털에서 Excel 스프레드시트로 장치 목록을 내보내고 다운로드해야 합니다. 그런 다음 도이클랜드 [Microsoft](ms-cloud-germany-transition.md#how-is-the-migration-organized) 클라우드와 분리된 마이그레이션 단계 후 _registeredTime_ 열을 사용하여 등록된 장치를 필터링합니다.
 
 테넌트 마이그레이션 후 장치 등록이 비활성화되어 활성화 또는 비활성화할 수 없습니다. Intune이 사용되지 않는 경우 구독에 로그인하고 다음 명령을 실행하여 옵션을 다시 활성화합니다.
 
@@ -233,7 +233,7 @@ Microsoft Authenticator 앱을 사용하여 Android에서 디바이스 등록을
 3.  등록을 다시 등록하지 **않습니다.**
 4.  장치 **등록의** 경우 전자 메일 주소를 입력하여 장치를 다시 등록한 다음 등록을 **선택합니다.**
 
-Android 설정 페이지에서 Android 장치를 등록을 등록을 등록하고 다시 등록하려면
+Android 설정 페이지에서 Android 디바이스 등록을 등록을 등록하고 다시 등록하려면
 
 1.  장치 **설정을 열고** 계정으로 **이동합니다.**
 2.  다시 등록할 작업 계정을 선택하고 계정 **제거를 선택합니다.**

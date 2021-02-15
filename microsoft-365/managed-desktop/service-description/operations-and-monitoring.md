@@ -50,7 +50,7 @@ ms.locfileid: "49840376"
 
 <table>
 <tr><th></th><th><p>Microsoft의 역할:</p></th><th><p>고객의 역할:</p></th></tr>
-<tr><td>변경 전</td><td><ul><li>서비스 변경에 대한 기대 수준을 설정합니다.</li><li>관리자 조치가 필요한 변경에 대해 5일 전에 고객에게 알립니다.</li><li>긴급 변경의 경우 알림 전에 완화를 적용합니다.</li></ul></td><td><ul><li>변경 및 통신에 대한 예상 결과를 이해합니다.</li><li>정기적으로 Microsoft Managed Desktop Message Center를 읽어 읽습니다.</li><li>내부 변경 관리 프로세스를 검토하고 업데이트합니다.</li><li>Microsoft Managed Desktop 요구 사항을 이해하고 준수하는지 확인합니다. </li><li>필요한 경우 승인 및 승인합니다.</li></ul></td></tr><tr><td>변경 도중</td><td><ul><li>Windows 10 및 Office 365 클라이언트에 대한 월별 보안 및 비보안 업데이트를 릴리스하고 배포합니다.</li><li>데이터 신호를 모니터링하고 큐에 영향을 줄 수 있습니다.</li></ul></td><td><ul><li>Microsoft Managed Desktop Message Center를 확인하고 추가 정보를 검토합니다.</li><li>   해당하는 경우 필요한 작업을 수행하고 응용 프로그램을 테스트합니다.</li><li>중단/수정 시나리오가 있는 경우 지원 요청을 생성합니다.</li></ul></td></tr><tr><td>변경 후</td><td><ul><li>향후 변경 내용의 롤아웃을 개선하기 위해 고객 의견을 수집합니다.</li><li>데이터 신호를 모니터링하고 큐에 영향을 줄 수 있습니다.</li></ul></td><td><ul><li>조직의 사용자와 함께 변경을 채택합니다.</li><li>   효율성을 얻기 위한 기회에 대한 변경 및 채택 관리 프로세스를 검토합니다.</li><li>관리자 피드백 도구에서 일반적인 피드백 및 특정 피드백을 제공합니다.</li><li>사용자에게 Windows 피드백 허브 및 Office 앱의 스마일 단추를 사용하여 앱별 피드백을 제공하도록 교육합니다.</li></ul></td></tr>
+<tr><td>변경 전</td><td><ul><li>서비스 변경에 대한 기대 수준을 설정합니다.</li><li>관리자 조치가 필요한 변경에 대해 5일 전에 고객에게 알립니다.</li><li>긴급 변경의 경우 알림 전에 완화를 적용합니다.</li></ul></td><td><ul><li>변경 및 통신에 대한 예상 결과를 이해합니다.</li><li>정기적으로 Microsoft Managed Desktop Message Center를 읽어 읽습니다.</li><li>내부 변경 관리 프로세스를 검토하고 업데이트합니다.</li><li>Microsoft Managed Desktop 요구 사항을 이해하고 준수하는지 확인합니다. </li><li>필요한 경우 승인 및 승인합니다.</li></ul></td></tr><tr><td>변경 도중</td><td><ul><li>Windows 10 및 Office 365 클라이언트에 대한 월별 보안 및 비보안 업데이트를 릴리스하고 배포합니다.</li><li>데이터 신호를 모니터링하고 큐에 영향을 줄 수 있습니다.</li></ul></td><td><ul><li>Microsoft Managed Desktop Message Center를 확인하고 추가 정보를 검토합니다.</li><li>   해당하는 경우 필요한 작업을 수행하고 응용 프로그램을 테스트합니다.</li><li>중단/수정 시나리오가 있는 경우 지원 요청을 생성합니다.</li></ul></td></tr><tr><td>변경 후</td><td><ul><li>고객 의견을 수집하여 향후 변경 내용의 롤아웃을 개선합니다.</li><li>데이터 신호를 모니터링하고 큐에 영향을 줄 수 있습니다.</li></ul></td><td><ul><li>조직의 사용자와 함께 변경을 채택합니다.</li><li>   효율성을 얻기 위한 기회에 대한 변경 및 채택 관리 프로세스를 검토합니다.</li><li>관리자 피드백 도구에서 일반적인 피드백 및 특정 피드백을 제공합니다.</li><li>사용자에게 Windows 피드백 허브 및 Office 앱의 스마일 단추를 사용하여 앱별 피드백을 제공하도록 교육합니다.</li></ul></td></tr>
 <table> 
 
 
@@ -60,7 +60,7 @@ ms.locfileid: "49840376"
 
 ### <a name="change-types"></a>변경 유형
 
-서비스에서 정기적으로 변경하는 몇 가지 유형이 있습니다. 이러한 변경 내용에 대한 통신 채널과 책임이 있는 작업은 다양합니다.
+서비스를 정기적으로 변경하는 몇 가지 유형이 있습니다. 이러한 변경 내용에 대한 통신 채널과 책임이 있는 작업은 다양합니다.
 
 모든 변경 내용이 사용자에게 동일한 영향을 미치는 것은 아니며 필요한 작업도 다를 수 있습니다. 일부는 계획 중이고 일부 계획되지 않은 경우도 있습니다(비보안 업데이트 및 보안 업데이트는 일반적으로 계획되지 않습니다). 변경 유형에 따라 통신 채널이 다를 수 있습니다. 다음 표에는 Microsoft Managed Desktop 서비스에 대해 예상할 수 있는 변경 유형이 나열됩니다.
 
@@ -100,7 +100,7 @@ Microsoft Managed Desktop Operations 팀은 필요한 경우 서비스에 등록
 
 몇 가지 요구 사항이 있습니다.
 
-- 전역 관리자가 서비스 요청을 제출해야 합니다.
+- 전역 관리자는 서비스 요청을 제출해야 합니다.
 - 요청에 디바이스의 컴퓨터 이름을 포함합니다.
 - 디바이스를 초기화하기 전에 사용자 계정이 Azure AD에 있어야 합니다.
 
@@ -112,10 +112,10 @@ Microsoft Managed Desktop Operations 팀은 필요한 경우 서비스에 등록
 >[!NOTE]
 >디바이스를 초기화하기 전에 Azure AD에서 사용자 계정을 제거하지 않습니다. 사용자가 Azure AD에 없는 경우 Intune은 초기화 명령을 장치에 보낼 수 없습니다. 
 
-장치가 "첫 실행 경험"으로 부팅되고 사전 설치한 모든 응용 프로그램 및 설정이 다시 적용됩니다. 디바이스 사용자는 초기 설정 정보를 다시 제공해야 합니다. 
+장치가 "첫 실행 경험"으로 부팅되고 사전 설치한 모든 응용 프로그램 및 설정이 다시 적용됩니다. 디바이스 사용자가 초기 설정 정보를 다시 제공해야 합니다. 
 
 장치가 초기화되면 조직의 다른 사용자에 게 장치를 제공 할 수 있습니다. 이전 사용자의 데이터 또는 엔터프라이즈 데이터는 장치에 없습니다. 다음 사용자는 이전 사용자가 새 Microsoft Managed Desktop 장치를 사용할 때와 동일한 프로세스를 거치게 됩니다.
 
-BitLocker는 이 프로세스에서 데이터 보안의 핵심 구성 요소입니다. Microsoft Managed Desktop 디바이스에서 BitLocker 암호화를 사용하는 경우 장치를 초기화한 후에도 드라이브의 데이터는 안전하게 유지됩니다. 드라이브에 있는 데이터는 장치의 다음 사용자가 사용할 수 없습니다. 자세한 내용은 [BitLocker 개요를 참조하세요.](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview)
+BitLocker는 이 프로세스에서 데이터 보안의 핵심 구성 요소입니다. Microsoft Managed Desktop 장치에서 BitLocker 암호화를 사용하는 경우 장치를 초기화한 후에도 드라이브의 데이터가 안전하게 유지됩니다. 드라이브에 있는 데이터는 장치의 다음 사용자가 사용할 수 없습니다. 자세한 내용은 [BitLocker 개요를 참조하세요.](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview)
 
 자세한 내용은 디바이스 [초기화(공장 초기화)를 참조하세요.](https://docs.microsoft.com/intune/remote-actions/devices-wipe#factory-reset-a-device) 

@@ -83,7 +83,7 @@ Get-AzureADObjectSetting -TargetObjectId $groupID -TargetType Groups | fl Values
 Get-AzureADUser -Filter "userType eq 'Guest'"
 ```
 
-그런 다음 ObjectID, GivenName, Surname, DisplayName 및 TelephoneNumber에 대한 적절한 값을 사용하여 다음을 실행합니다.
+그런 다음 ObjectID, GivenName, Surname, DisplayName 및 TelephoneNumber에 적절한 값을 사용하여 다음을 실행합니다.
 
 ```PowerShell
 Set-AzureADUser -ObjectId cfcbd1a0-ed18-4210-9b9d-cf0ba93cf6b2 -ShowInAddressList $true -GivenName 'Megan' -Surname 'Bowen' -DisplayName 'Megan Bowen' -TelephoneNumber '555-555-5555'

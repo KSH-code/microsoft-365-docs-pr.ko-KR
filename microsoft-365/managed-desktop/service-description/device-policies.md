@@ -44,7 +44,7 @@ Microsoft Managed Desktop 권장 보안 서식 파일 | 사용자 환경을 최�
 
 ## <a name="windows-diagnostic-data"></a>Windows 진단 데이터
 
- 장치는 알려진 상업용 식별자에 따라 Microsoft에 향상된 진단 데이터를 제공하게 설정됩니다. Microsoft Managed Desktop의 일부로 IT 관리자는 이러한 설정을 변경할 수 없습니다. GDPR(일반 데이터 보호 규정) 지역의 고객의 경우 사용자는 제공되는 진단 데이터의 수준을 줄일 수 있지만 서비스가 감소합니다. 예를 들어 Microsoft Managed Desktop은 성능 및 보안 요구 사항을 가장 잘 처리하기 위해 설정 및 정책을 이행하는 데 필요한 데이터를 수집할 수 없습니다. 자세한 내용은 [조직에서 Windows 진단 데이터 구성을 참조하세요.](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level)
+ 장치는 알려진 상업용 식별자에 따라 Microsoft에 향상된 진단 데이터를 제공하게 설정됩니다. Microsoft Managed Desktop의 일부로 IT 관리자는 이러한 설정을 변경할 수 없습니다. GDPR(일반 데이터 보호 규정) 지역의 고객의 경우 사용자는 제공되는 진단 데이터 수준을 줄일 수 있지만 서비스가 감소합니다. 예를 들어 Microsoft Managed Desktop은 성능 및 보안 요구 사항을 가장 잘 처리하기 위해 설정 및 정책을 이행하는 데 필요한 데이터를 수집할 수 없습니다. 자세한 내용은 [조직에서 Windows 진단 데이터 구성을 참조하세요.](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level)
 
 ## <a name="security-addendum"></a>보안 부록
 

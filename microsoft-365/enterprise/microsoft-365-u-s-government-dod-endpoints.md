@@ -19,7 +19,7 @@ search.appverid:
 ms.assetid: 5d7dce60-4892-4b58-b45e-ee42fe8a907f
 f1.keywords:
 - NOCSH
-description: Office 365를 사용하려면 인터넷에 연결해야 합니다. 아래 끝점은 Office 365 미국 정부 DoD 요금제만 사용하는 고객에게 도달할 수 있습니다.
+description: Office 365를 사용하려면 인터넷에 연결해야 합니다. 아래 끝점은 Office 365 미국 정부 DoD 요금제만 사용하는 고객에게만 도달할 수 있습니다.
 hideEdit: true
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: c19aa281dea439f1ae41e6b20f917f8fe7439d3e

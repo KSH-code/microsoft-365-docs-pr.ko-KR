@@ -29,10 +29,10 @@ ms.locfileid: "49688668"
 
 도이클란드 Microsoft 클라우드에서 AD FS(Active Directory Federation Services) 팜을 마이그레이션하려면
 
-1. 다음 단계를 사용하여 FF 트러스트 정보를 포함하여 AD FS 설정을 [백업합니다.](#backup) 백업 **Microsoft 클라우드** Deutschland_Only 이름을 지정하여 도이치란드 Microsoft 클라우드 테넌트 정보만 들이고 있습니다.
-2. Microsoft Cloud Deutschland_Only 사용하여 복원을 테스트합니다. AD FS 팜은 도이클란드 Microsoft 클라우드로만 계속 작동해야 합니다.
+1. 다음 단계를 사용하여 FF 트러스트 정보를 포함하여 AD FS 설정을 [백업합니다.](#backup) 백업 **Microsoft 클라우드** Deutschland_Only 이름을 지정하여 도이클란드 Microsoft 클라우드 테넌트 정보만 들이고 있습니다.
+2. Microsoft 클라우드 Deutschland_Only 사용하여 복원을 테스트합니다. AD FS 팜은 도이클란드 Microsoft 클라우드로만 계속 작동해야 합니다.
 3. **Office 365 서비스에서 AD FS에서 > 트러스트 만들기.**
-4. AD  FS 관리 콘솔의 신뢰 대상 트러스트에서 신뢰 대상 트러스트 추가를 **선택합니다.**
+4. AD  FS 관리 콘솔의 신뢰 대상 트러스트에서 신뢰 대상 트러스트 **추가를 선택합니다.**
 5. 신뢰 **파티** **트러스트** 추가 마법사의 시작 페이지에서 다음을 선택합니다.
 6. 데이터 원본 **선택 페이지에서** 온라인 또는 로컬 네트워크에서 게시된 의존 관계에 대한 **데이터 가져오기를 선택합니다.** **페더ation 메타데이터 주소(호스트 이름 또는 URL)** 값이 `https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml` 으로 설정됩니다. **다음** 을 클릭합니다.
 7. 데이터 원본 **선택 페이지에서** 표시 이름을 입력합니다. Microsoft는 **365 Microsoft Office Platform WorldWide를 권장합니다.** **다음** 을 클릭합니다.
@@ -43,8 +43,8 @@ ms.locfileid: "49688668"
 
 [AD FS 도움말을 사용하여](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) 올바른 발행 변환 규칙을 생성할 수 있습니다. AD FS 도움말을 사용하여 생성된 클레임 규칙은 AD FS 관리 콘솔 또는 PowerShell을 통해 수동으로 추가할 수 있습니다. AD FS 도움말은 실행해야 하는 필요한 PowerShell 스크립트를 생성합니다.  
 
-1. AD  FS에서 클레임 생성 도움말을 실행하고 스크립트 오른쪽  위 모서리에 있는 복사 옵션을 사용하여 PowerShell 클레임 변환 스크립트를 복사합니다.
-2. 생성된 PowerShell을 다음에 붙여 넣기
+1. AD  FS에서 클레임 생성 도움말을 실행하고 스크립트 오른쪽  위에 있는 복사 옵션을 사용하여 PowerShell 클레임 변환 스크립트를 복사합니다.
+2. 생성된 PowerShell을 다음에 붙여 넣을 수 있습니다.
 
   ```powershell
   $RuleSet = New-AdfsClaimRuleSet -ClaimRule "<AD FS Help generated PSH>"
@@ -52,7 +52,7 @@ ms.locfileid: "49688668"
   ```
 3.  완료된 스크립트를 실행합니다.
 4.  두 개의 신뢰 파티 트러스트가 있는지 확인 하나는 전 세계에, 하나는 BF용입니다.
-5.  다음 단계를 사용하여 [트러스트 백업.](#backup) 이름을 **FFAndWorldwide로 저장합니다.**
+5.  다음 단계를 사용하여 [트러스트 백업.](#backup) **FFAndWorldwide 이름으로 저장합니다.**
 6.  백end 마이그레이션을 완료하고 마이그레이션 프로세스 중에 AD FS가 계속 작동하는지 확인해야 합니다.
 
 ## <a name="ad-fs-disaster-recovery-wid-database"></a>AD FS 재해 복구(WID 데이터베이스)
@@ -103,7 +103,7 @@ ms.locfileid: "49688668"
 
 - [문장 작업 및 영향 마이그레이션](ms-cloud-germany-transition-phases.md)
 - [추가 사전 작업](ms-cloud-germany-transition-add-pre-work.md)
-- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [디바이스,](ms-cloud-germany-transition-add-devices.md) [환경 및](ms-cloud-germany-transition-add-experience.md)AD [FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
+- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [장치,](ms-cloud-germany-transition-add-devices.md) [환경 및](ms-cloud-germany-transition-add-experience.md) [AD FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
 
 클라우드 앱:
 

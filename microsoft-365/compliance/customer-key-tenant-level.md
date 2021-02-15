@@ -52,14 +52,14 @@ Exchange Online의 경우 고객 키를 사용하여 하나 이상의 사용자 
 
 ## <a name="set-up-customer-key-at-the-tenant-level-public-preview"></a>테넌트 수준에서 고객 키 설정(공개 미리 보기)
 
-이러한 단계는 응용 프로그램 수준에서 고객 키를 설정하는 단계와 비슷하지만 동일하지는 않습니다. 테스트 테넌트의 테스트 데이터와 함께 이 공개 미리 보기만 사용해야 합니다. 프로덕션 데이터 또는 프로덕션 환경에서는 이 릴리스를 사용하지 않습니다. 고객 키의 프로덕션 배포가 이미 있는 경우 다음 단계를 사용하여 테스트 환경의 테넌트 수준에서 고객 키를 설정하십시오.
+이러한 단계는 응용 프로그램 수준에서 고객 키를 설정하는 단계와 비슷하지만 동일하지는 않습니다. 테스트 테넌트의 테스트 데이터와 함께 이 공개 미리 보기만 사용해야 합니다. 프로덕션 데이터나 프로덕션 환경에서는 이 릴리스를 사용하지 않습니다. 고객 키의 프로덕션 배포가 이미 있는 경우 다음 단계를 사용하여 테스트 환경의 테넌트 수준에서 고객 키를 설정하십시오.
 
 Azure PowerShell에 원격으로 연결하여 이러한 대부분의 작업을 완료합니다. 최상의 결과를 얻기 위해 Azure PowerShell 버전 4.4.0 이상을 사용하세요.
 
 시작하기 전에 다음을 반드시 확인하십시오.
 
 - 테넌트 수준에서 고객 키를 설정하려면 준수 관리자 역할이 있는 직장 또는 학교 계정을 사용해야 합니다.
-- 조직에 적절한 라이선스가 있도록 합니다. 클라우드 서비스 공급자 또는 클라우드 서비스 공급자를 사용하여 기업계약 송장된 Azure 구독을 사용합니다. 결제 플랜 또는 신용 카드를 사용하여 구입한 Azure 구독은 고객 키에 지원되지 않습니다. 2020년 4월 1일부터 Office 365의 고객 키는 Office 365 E5, M365 E5, M365 E5 규정 준수 및 M365 E5 정보 보호 & 관리 SKUS에서 제공됩니다. Office 365 Advanced Compliance SKU는 더 이상 새 라이선스를 조달할 수 없습니다. 기존 Office 365 고급 준수 라이선스는 계속 지원됩니다. 테넌트에 적절한 라이선스가 있는 테넌트에서 최소 하나의 라이선스로 서비스를 활성화할 수 있는 반면, 서비스를 통해 혜택을 받은 모든 사용자에게 적절한 라이선스가 있는지 확인해야 합니다.
+- 조직에 적절한 라이선스가 있도록 합니다. 클라우드 서비스 공급자 또는 클라우드 서비스 공급자를 사용하여 기업계약 송장된 Azure 구독을 사용합니다. 결제 플랜 또는 신용 카드를 사용하여 구입한 Azure 구독은 고객 키에 지원되지 않습니다. 2020년 4월 1일부터 Office 365의 고객 키는 Office 365 E5, M365 E5, M365 E5 규정 준수 및 M365 E5 정보 보호 & 관리 SKUS에서 제공됩니다. Office 365 Advanced Compliance SKU는 더 이상 새 라이선스를 조달할 수 없습니다. 기존 Office 365 고급 준수 라이선스는 계속 지원됩니다. 적절한 라이선스가 있는 테넌트에서 최소 하나의 라이선스로 서비스를 사용하도록 설정하는 것이 가능하기는 하지만, 서비스를 통해 혜택을 받은 모든 사용자에게 적절한 라이선스가 있는지도 여전히 확인해야 합니다.
 
 ### <a name="create-two-new-azure-subscriptions"></a>새 Azure 구독 2개 만들기
 
@@ -91,7 +91,7 @@ Microsoft 365 팀에 문의하기 전에 고객 키와 함께 사용하는 각 A
 
    이 프로세스 완료를 위한 SLA(서비스 수준 계약)는 Microsoft가 필수 보존 기간을 사용하기 위해 구독을 등록했다는 알림을(확인)한 후 영업일 5일입니다.
 
-4. Microsoft로부터 등록이 완료했다는 알림을 받으면 다음과 같이 Get-AzProviderFeature 등록 상태를 확인하면 됩니다. 확인된 Get-AzProviderFeature 명령은 Registration State 속성에 **대해 Registered** 값을 **반환합니다.** 각 구독에 대해 이 작업을 수행하십시오.
+4. Microsoft로부터 등록이 완료된다는 알림을 받으면 다음과 같이 Get-AzProviderFeature 등록 상태를 확인하면 됩니다. 확인된 Get-AzProviderFeature 명령은 등록 상태 속성에 **대해 Registered** 값을 **반환합니다.** 각 구독에 대해 이 작업을 수행하십시오.
 
    ```powershell
    Set-AzContext -SubscriptionId <SubscriptionId>
@@ -109,14 +109,14 @@ Microsoft 365 팀에 문의하기 전에 고객 키와 함께 사용하는 각 A
 
 키 자격 증명 모음을 만드는 단계는 Azure PowerShell 설치 및 시작, Azure 구독 연결, 리소스 그룹 만들기 및 해당 리소스 그룹에서 키 자격 증명 모음 만들기를 안내하는 [Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-get-started/)시작에 설명되어 있습니다.
   
-키 자격 증명 모음을 만들 때 SKU(Standard 또는 Premium)를 선택해야 합니다. Standard SKU를 사용하면 Azure Key Vault 키를 소프트웨어로 보호할 수 있습니다. HSM(하드웨어 보안 모듈) 키 보호가 없습니다. Premium SKU는 키 자격 증명 모음 키를 보호하기 위해 HSM을 사용할 수 있습니다. 고객 키는 두 SKU 중 하나를 사용하는 주요 자격 증명 모음을 수락합니다. 그러나 Microsoft는 Premium SKU만 사용하는 것이 좋습니다. 두 유형의 키 중 하나를 사용하는 작업의 비용은 동일하기 때문에 비용의 유일한 차이는 각 HSM으로 보호되는 키에 대한 월별 비용입니다. 자세한 [내용은 Key Vault 가격을](https://azure.microsoft.com/pricing/details/key-vault/) 참조합니다.
+키 자격 증명 모음을 만들 때 SKU(Standard 또는 Premium)를 선택해야 합니다. Standard SKU를 사용하면 Azure Key Vault 키를 소프트웨어로 보호할 수 있습니다. HSM(하드웨어 보안 모듈) 키 보호가 없습니다. Premium SKU는 키 자격 증명 모음 키 보호를 위해 HSM을 사용할 수 있습니다. Customer Key는 SKU 중 하나를 사용하는 주요 자격 증명 모음을 수락합니다. 그러나 Microsoft는 Premium SKU만 사용하는 것이 좋습니다. 두 유형의 키 중 하나를 사용하는 작업의 비용은 동일하기 때문에 비용의 유일한 차이는 각 HSM으로 보호되는 키에 대한 월별 비용입니다. 자세한 [내용은 Key Vault 가격을](https://azure.microsoft.com/pricing/details/key-vault/) 참조합니다.
   
 > [!IMPORTANT]
 > 프로덕션 데이터에는 Premium SKU 키 자격 증명 모음 및 HSM으로 보호된 키를 사용하며 테스트 및 유효성 검사를 위해 표준 SKU 키 자격 증명 모음 및 키만 사용하십시오.
 
 키 자격 증명 모음에 공통된 도우미를 사용하며 키 자격 증명 모음 및 키의 사용 및 범위에 대한 약어를 포함합니다. 예를 들어 북미에 자격 증명 모음이 위치할 Contoso 서비스의 경우 가능한 이름 쌍은 Contoso-O365-NA-VaultA1 및 Contoso-O365-NA-VaultA2입니다. 자격 증명 모음 이름은 Azure 내에서 전역적으로 고유한 문자열이기 때문에 다른 Azure 고객이 원하는 이름을 이미 요구하는 경우 원하는 이름의 변형을 시도해야 할 수 있습니다. 구성한 자격 증명 모음 이름은 변경할 수 없습니다. 따라서 설치 계획을 서면으로 작성하고 두 번째 사람을 사용하여 계획이 올바르게 실행되고 있는지 확인하는 것이 가장 좋습니다.
 
-가능한 경우 페어링되지 않은 지역에서 자격 증명 모음을 만드십시오. 페어링된 Azure 지역은 서비스 오류 도메인 전체에서 고가용성을 제공합니다. 따라서 지역 쌍은 서로의 백업 지역으로 생각할 수 있습니다. 즉, 한 지역에 배치된 Azure 리소스가 페어링된 지역을 통해 내결결성을 자동으로 얻게 됩니다. 이러한 이유로 지역이 페어링된 데이터 암호화 정책에서 사용되는 두 자격 증명 모음의 지역을 선택하면 총 두 개의 가용성 영역만 사용 중입니다. 대부분의 지역에는 두 개의 지역만 있으므로 페어링되지 않은 지역을 선택할 수 없습니다. 가능한 경우 데이터 암호화 정책과 함께 사용되는 두 자격 증명 모음에 대해 페어링되지 않은 두 지역을 선택하십시오. 이 혜택은 총 네 가지 가용성 영역의 이점입니다. 자세한 내용은 [BCDR(비즈니스](https://docs.microsoft.com/azure/best-practices-availability-paired-regions) 연속성 및 재해 복구): 현재 지역 쌍 목록은 Azure 페어링된 지역을 참조하세요.
+가능한 경우 페어링되지 않은 지역에서 자격 증명 모음을 만드십시오. 페어링된 Azure 지역은 서비스 오류 도메인 전체에서 고가용성을 제공합니다. 따라서 지역 쌍은 서로의 백업 지역으로 생각할 수 있습니다. 즉, 한 지역에 배치된 Azure 리소스가 페어링된 지역을 통해 내결점성을 자동으로 얻게 됩니다. 이러한 이유로 지역이 페어링된 데이터 암호화 정책에서 사용되는 두 자격 증명 모음에 대한 지역을 선택하면 총 두 개의 가용성 영역만 사용 중입니다. 대부분의 지역에는 두 개의 지역만 있으므로 페어링되지 않은 지역을 선택할 수 없습니다. 가능한 경우 데이터 암호화 정책과 함께 사용되는 두 자격 증명 모음에 대해 쌍으로 설정되지 않은 두 지역을 선택하십시오. 이 혜택은 총 네 가지 가용성 영역의 이점입니다. 자세한 내용은 [BCDR(비즈니스](https://docs.microsoft.com/azure/best-practices-availability-paired-regions) 연속성 및 재해 복구): 현재 지역 쌍 목록은 Azure 페어링된 지역을 참조하세요.
 
 ### <a name="assign-permissions-to-each-key-vault"></a>각 키 자격 증명 모음에 사용 권한 할당
 
@@ -135,7 +135,7 @@ Microsoft 365 팀에 문의하기 전에 고객 키와 함께 사용하는 각 A
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   예제:
+   예시:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -236,7 +236,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
   
 이 cmdlet에서 생성되는 출력 파일은 암호화되며 Azure Key Vault 외부에서는 사용할 수 없습니다. 백업은 백업을 수행한 Azure 구독으로만 복원할 수 있습니다.
   
-예제:
+예시:
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -274,7 +274,7 @@ Set-AzKeyVaultAccessPolicy -VaultName <vault name> -PermissionsToKeys wrapKey,un
 Get-AzKeyVaultKey -VaultName <vault name>
 ```
 
-만료된 키는 고객 키에서 사용할 수 없습니다. 만료된 키로 시도한 작업이 실패하여 서비스 작동이 종료될 수 있습니다. 고객 키와 함께 사용되는 키에는 만료 날짜가 없는 것이 좋습니다. 일단 설정된 만료 날짜는 제거할 수 없지만 다른 날짜로 변경할 수 있습니다. 만료 날짜가 설정된 키를 사용하려면 만료 값을 9999년 12월 31일로 변경합니다. 만료 날짜가 9999년 12월 31일이 아닌 날짜로 설정된 키는 Microsoft 365 유효성 검사를 통과하지 못합니다.
+만료된 키는 고객 키에서 사용할 수 없습니다. 만료된 키로 시도한 작업이 실패하여 서비스 작동이 종료될 수 있습니다. 고객 키와 함께 사용되는 키에는 만료 날짜가 없는 것이 좋습니다. 일단 설정된 만료 날짜는 제거할 수 없지만 다른 날짜로 변경할 수 있습니다. 만료 날짜가 설정된 키를 사용하려면 만료 값을 9999년 12월 31일로 변경합니다. 만료 날짜가 12/31/9999가 아닌 날짜로 설정된 키는 Microsoft 365 유효성 검사를 통과하지 못합니다.
   
 9999년 12월 31일이 아니라 다른 값으로 설정된 만료 날짜를 변경하기 위해 다음과 같이 [Update-AzKeyVaultKey](https://docs.microsoft.com/powershell/module/az.keyvault/update-azkeyvaultkey) cmdlet을 실행합니다.
   
@@ -294,7 +294,7 @@ Azure PowerShell에서:
 
 ## <a name="set-up-the-customer-key-encryption-policy-for-your-tenant"></a>테넌트에 대한 고객 키 암호화 정책 설정
 
-이러한 cmdlet을 실행하려면 먼저 사용 권한을 할당해야 합니다. 이 문서에서는 cmdlet에 대한 모든 매개 변수를 나열하기는 하지만 사용자에게 할당된 사용 권한에 포함되지 않은 일부 매개 변수에는 액세스할 수 없습니다. 조직에서 cmdlet 또는 매개 변수를 실행하는 데 필요한 사용 권한을 확인하려면 [Find the permissions required to run any Exchange cmdlet](https://docs.microsoft.com/powershell/exchange/exchange-server/find-exchange-cmdlet-permissions)를 참조하세요.
+이러한 cmdlet을 실행하려면 먼저 사용 권한을 할당해야 합니다. 이 문서에서는 cmdlet의 모든 매개 변수를 나열하기는 하지만 사용자에게 할당된 사용 권한에 포함되지 않은 일부 매개 변수에는 액세스할 수 없습니다. 조직에서 cmdlet 또는 매개 변수를 실행하는 데 필요한 사용 권한을 확인하려면 [Find the permissions required to run any Exchange cmdlet](https://docs.microsoft.com/powershell/exchange/exchange-server/find-exchange-cmdlet-permissions)를 참조하세요.
 
 ### <a name="create-policy"></a>정책 만들기
 
@@ -412,7 +412,7 @@ Microsoft 관리 키로 되돌려야 하는 경우 다시 사용할 수 있습�
 테넌트 수준에서 고객 키에서 테넌트의 등록을 해제하기로 결정한 경우 전자 메일을 통해 Microsoft에 연락하여 테넌트에 대한 서비스를 "사용하지 않도록 설정"하여 [m365ck@microsoft.com.](mailto:m365ck@microsoft.com)
 
 > [!IMPORTANT]
-> 오프보더는 데이터 제거와는 동일하지 않습니다. 데이터 삭제는 조직의 데이터를 Microsoft 365에서 영구적으로 삭제합니다. 오프보더는 삭제하지 않습니다. 테넌트 수준 정책에 대한 데이터 제거는 수행할 수 없습니다. 데이터 제거 경로에 대한 자세한 내용은 키 해지 및 데이터 제거 경로 프로세스 [시작을 참조하세요.](customer-key-manage.md#revoke-your-keys-and-start-the-data-purge-path-process)
+> 오프보더는 데이터 제거와는 동일하지 않습니다. 데이터를 삭제하면 조직 데이터가 Microsoft 365에서 영구적으로 삭제되고, 오프보더는 삭제되지 않습니다. 테넌트 수준 정책에 대한 데이터 제거는 수행할 수 없습니다. 데이터 제거 경로에 대한 자세한 내용은 키 해지 및 데이터 제거 경로 프로세스 [시작을 참조하세요.](customer-key-manage.md#revoke-your-keys-and-start-the-data-purge-path-process)
 
 ## <a name="about-the-availability-key"></a>가용성 키
 

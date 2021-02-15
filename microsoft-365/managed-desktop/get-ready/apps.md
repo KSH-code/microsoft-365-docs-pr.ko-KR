@@ -26,7 +26,7 @@ ms.locfileid: "49840696"
 
 Microsoft는 Microsoft Managed Desktop에 참여하는 데 필요한 Microsoft 365 E3 또는 E5 라이선스와 함께 특정 주요 앱을 포함합니다. 그러나 이러한 앱을 제공한 경우에도 완료할 특정 책임과 작업이 있습니다.
 
-또한 Microsoft Intune의 배포 파이프라인을 사용하여 회사 포털 또는 필수 백그라운드 설치를 통해 셀프 서비스용 Microsoft가 아닌 다른 앱을 추가로 배포할 수도 있습니다. 전문 지식이 있는 경우 필요한 앱을 마이그레이션할 수 있습니다. 또는 MCS(Microsoft Consulting Services) 또는 Microsoft가 아닌 다른 공급업체가 패키지 및 마이그레이션 프로젝트를 도와드리면 만족합니다. MCS 사용에 대한 자세한 내용은 [Microsoft Consulting Services 작업(Working with MICROSOFT Consulting Services)을 참조하십시오.](apps-MCS.md)
+또한 Microsoft Intune의 배포 파이프라인을 사용하여 회사 포털 또는 필수 백그라운드 설치를 통해 셀프 서비스를 위해 Microsoft가 아닌 다른 앱을 추가로 배포할 수도 있습니다. 전문 지식이 있는 경우 필요한 앱을 마이그레이션할 수 있습니다. 또는 MCS(Microsoft Consulting Services) 또는 비 Microsoft 공급업체가 패키징 및 마이그레이션 프로젝트를 도와주는 데 만족할 것입니다. MCS 사용에 대한 자세한 내용은 [Microsoft Consulting Services 작업(Working with MICROSOFT Consulting Services)을 참조하십시오.](apps-MCS.md)
 
 
 ## <a name="apps-provided-by-microsoft"></a>Microsoft에서 제공하는 앱
@@ -47,7 +47,7 @@ Microsoft는 포함된 엔터프라이즈용 Microsoft 365 앱의 배포, 업데
 
 ## <a name="apps-you-provide"></a>제공하는 앱
 
-비즈니스 작업에 필요한 다른 앱이 있는 것일 수 있습니다. 이러한 앱은 Microsoft Intune의 배포 파이프라인을 사용하여 Microsoft Managed Desktop 장치에만 배포할 수 있습니다. 앱이 필요한 경우 공급업체(Microsoft가 아닌 공급업체 또는 MCS(Microsoft Consulting Services)일 수 있는)에서 패키지로 제공하거나, 필요한 경우 직접 패키지할 수 있습니다. 그런 다음 이러한 패키지를 Microsoft Managed Desktop 포털에 추가하고 Azure Active Directory 그룹에 할당하여 배포를 트리거합니다. 
+비즈니스 운영에 필요한 다른 앱이 있는 것일 수 있습니다. 이러한 앱은 Microsoft Intune의 배포 파이프라인을 사용하여 Microsoft Managed Desktop 장치에만 배포할 수 있습니다. 앱이 필요한 경우 공급업체(Microsoft가 아닌 공급업체 또는 MCS(Microsoft Consulting Services)일 수 있는)에서 패키지로 제공하거나, 필요한 경우 직접 패키지할 수 있습니다. 그런 다음 이러한 패키지를 Microsoft Managed Desktop 포털에 추가하고 Azure Active Directory 그룹에 할당하여 배포를 트리거합니다. 
 
 현재 Microsoft Endpoint Configuration Manager를 사용하여 앱을 배포하는 경우 Microsoft Managed Desktop에서 앱을 평가하는 쿼리를 제공하고 Microsoft Intune으로 마이그레이션할 준비가 된 쿼리와 조정이 필요할 수 있는 앱을 검색할 수 있습니다.
 
@@ -57,7 +57,7 @@ Microsoft는 포함된 엔터프라이즈용 Microsoft 365 앱의 배포, 업데
 
 - [Microsoft Managed Desktop](https://aka.ms/app-req)앱 요구 사항에 설명된 바와 같이 금지되거나 제한된 동작이 없는 앱은 없습니다.
 - Microsoft Intune에서 앱을 관리하기 위한 준비가 되어야 합니다. 이 항목에 대한 자세한 내용은 [Microsoft Intune을 사용하여 Windows 10 앱](https://docs.microsoft.com/intune/apps-windows-10-app-deploy) 배포를 참조하고 Microsoft [Intune에 앱 추가를 참조하세요.](https://docs.microsoft.com/intune/apps-add)
-- 라이선스 키 제공, 사용 조건 계약, 서버 연결 사전 설정과 같은 기타 패키징 전 요구 사항
+- 라이선스 키 제공, 사용 조건 계약 및 서버 연결 사전 설정과 같은 기타 패키징 전 요구 사항
 
 ### <a name="decide-how-to-package-apps"></a>앱 패키지 방법 결정
 
@@ -68,7 +68,7 @@ Microsoft는 포함된 엔터프라이즈용 Microsoft 365 앱의 배포, 업데
 
 - 직접 앱을 패키지할 수 있습니다.
 - Microsoft가 아닌 다른 공급업체와 함께 작업할 수 있습니다.
-- MCS와 함께 앱을 패키지로 구성할 수 있습니다. Microsoft 계정 담당자와 함께 작업합니다. 자세한 내용은 [Microsoft Consulting Services 사용](apps-MCS.md)
+- MCS와 함께 앱을 패키지로 구성할 수 있습니다. Microsoft 계정 담당자와 함께 작업합니다. 자세한 내용은 [Microsoft Consulting Services 작업(Working with Microsoft Consulting Services)을 참조하십시오.](apps-MCS.md)
 
 
 

@@ -32,7 +32,7 @@ Microsoft 365의 규정 준수 솔루션은 종단 내 준수 시나리오를 �
 
 ![Microsoft 365 솔루션 카탈로그 홈 페이지](../media/m365-solution-catalog-home.png)
 
-솔루션 **카드에** 대한 보기를 선택하면 준수 솔루션 및 시작 방법에 대한 자세한 정보가 표시됩니다. 이 정보에는 개요, 사전 구성 요구 사항, 학습 리소스, 카드를 탐색 창에 고정할 수 있는 컨트롤, 솔루션을 링크, 전자 메일 또는 Microsoft Teams 메시지로 공유할 수 있는 옵션이 포함됩니다.
+솔루션 **카드에** 대한 보기를 선택하면 준수 솔루션 및 시작 방법에 대한 자세한 정보가 표시됩니다. 이 정보에는 개요, 사전 구성 요구 사항, 학습 리소스, 카드를 탐색 창에 고정할 수 있는 컨트롤 및 솔루션을 링크, 전자 메일 또는 Microsoft Teams 메시지로 공유할 수 있는 옵션이 포함됩니다.
 
 ![Microsoft 365 통신 준수 솔루션](../media/m365-solution-catalog-communication-compliance.png)
 
@@ -47,7 +47,7 @@ Microsoft 365의 규정 준수 솔루션은 종단 내 준수 시나리오를 �
 - [데이터 손실 방지:](data-loss-prevention-policies.md)조직, 클라우드 및 장치에서 사용 및 공유되는 중요한 콘텐츠를 감지하고 실수로 데이터 손실을 방지하는 데 도움이 됩니다.
 - [정보](manage-information-governance.md)거버넌스: 솔루션을 사용하여 비즈니스에 중요한 데이터를 가져오고, 저장하고, 분류하여 필요한 데이터를 보관하고, 필요하지 않은 데이터를 삭제할 수 있도록 콘텐츠 수명 주기를 관리합니다.
 - [정보 보호:](information-protection.md)조직 전체의 수명 주기 동안 중요하고 업무상 중요한 콘텐츠를 검색, 분류 및 보호합니다.
-- [레코드 관리](records-management.md): 지능형 분류를 사용하여 조직의 규정, 법률 및 업무상 중요한 레코드에 대한 보존 일정을 자동화하고 간소화합니다.
+- [레코드 관리:](records-management.md)지능형 분류를 사용하여 조직의 규정, 법률 및 업무상 중요한 레코드에 대한 보존 일정을 자동화하고 간소화합니다.
 
 ## <a name="insider-risk-management-section"></a>내부자 위험 관리 섹션
 
@@ -92,14 +92,14 @@ Microsoft는 항상 Microsoft 365 규정 준수 센터 및 솔루션 카탈로�
 
 ## <a name="next-steps"></a>다음 단계
 
-- **조직의 주요** 표준 및 규정 준수 상태를 이해하는 데 도움이 되는 Microsoft 준수 관리자를 방문합니다. 이 문서에서는 전반적인 준수 자세를 강화하기 위해 취할 수 있는 권장 조치를 제공하며, 이러한 작업을 효율적으로 수행할 수 있도록 워크플로 기능을 제공합니다. 자세한 내용은 준수 [관리자를 참조합니다.](compliance-manager.md)
+- **조직의 주요** 표준 및 규정 준수 상태를 이해하는 데 도움이 되는 Microsoft 준수 관리자를 방문합니다. 이 문서에서는 전반적인 규정 준수 자세를 강화하기 위해 취할 수 있는 권장 조치를 제공하며, 이러한 작업을 효율적으로 수행할 수 있도록 워크플로 기능을 제공합니다. 자세한 내용은 준수 [관리자를 참조합니다.](compliance-manager.md)
 
 - **내부 위험을** 최소화하고 조직에서 위험한 활동을 감지, 조사 및 조치를 취할 수 있도록 내부자 위험 관리 정책을 구성합니다. 내부자 [위험 관리를 참조합니다.](insider-risk-management.md)
 
-- **회사 행동** 규범 위반을 신속하게 식별하고 수정하기 위한 커뮤니케이션 준수 정책을 알아보고 만드는 방법을 알아보고 해당 정책을 작성합니다. 커뮤니케이션 [규정 준수를 참조합니다.](communication-compliance.md)
+- **회사 행동** 규범 위반을 신속하게 식별하고 수정하기 위한 커뮤니케이션 준수 정책을 알아보고 만드는 방법을 알아보고 해당 정책을 작성합니다. 통신 [준수를 참조합니다.](communication-compliance.md)
 
 - **Microsoft Information Protection은 Microsoft** 365 솔루션이 어디에 있든, 어디에 있든 중요한 정보를 검색, 분류 및 보호하는 데 어떤 도움을 줄 수 있는지 알아보십시오.
     - **Microsoft Cloud App Security에** 대해 잘 아는 후 설정하세요. 빠른 [시작: Microsoft Cloud App Security 시작.](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
-    - **분류자 시작** 콘텐츠를 분류한 다음 적절히 보호하고 처리할 수 있도록 레이블을 지정하는 것은 정보 보호 분야를 위한 시작점입니다. 학습 [가능한 분류자(미리 보기)에 대한 자세한 내용을 참조합니다.](classifier-learn-about.md)
+    - **분류자** 시작 콘텐츠를 분류한 다음 적절히 보호하고 처리할 수 있도록 레이블을 지정하는 것은 정보 보호 분야를 위한 시작점입니다. 학습 [가능한 분류자(미리 보기)에 대한 자세한 내용을 참조합니다.](classifier-learn-about.md)
 
-- **Microsoft 365** 솔루션 카탈로그를 자주 방문하고 규정 준수 요구 사항을 충족하는 데 도움이 되는 새로운 솔루션을 검토해야 합니다. 로그인한 [https://compliance.microsoft.com](https://compliance.microsoft.com) 다음 왼쪽  탐색 창에서 카탈로그를 선택합니다.
+- **Microsoft 365** 솔루션 카탈로그를 자주 방문하고 규정 준수 요구를 충족하는 데 도움이 되는 새로운 솔루션을 검토해야 합니다. 로그인한 [https://compliance.microsoft.com](https://compliance.microsoft.com) 다음 왼쪽  탐색 창에서 카탈로그를 선택합니다.

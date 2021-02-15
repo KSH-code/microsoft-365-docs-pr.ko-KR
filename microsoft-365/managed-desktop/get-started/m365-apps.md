@@ -21,7 +21,7 @@ ms.locfileid: "49840352"
 
 ## <a name="initial-deployment"></a>초기 배포
 
-Microsoft Managed Desktop을 사용하면 엔터프라이즈용 Microsoft 365 앱(64비트)이 모든 프로그램 디바이스에 이미지의 일부로 [설치됩니다.](../service-description/device-list.md) 다음 응용 프로그램이 모두 전달될 때 디바이스에 제공해야 합니다.
+Microsoft Managed Desktop을 사용하면 엔터프라이즈용 Microsoft 365 앱(64비트)이 모든 프로그램 디바이스에 이미지의 일부로 [설치됩니다.](../service-description/device-list.md) 다음 응용 프로그램이 전달될 때 디바이스에 다음과 같은 모든 응용 프로그램이 존재해야 합니다.
 
 - Word
 - Excel
@@ -62,7 +62,7 @@ Microsoft Managed Desktop은 장치에 [](https://docs.microsoft.com/deployoffic
 
 어떤 이유로든 Microsoft 365 앱 업데이트를 일시 중지하거나 [](../working-with-managed-desktop/admin-support.md) 롤백해야 하는 경우 Microsoft Managed Desktop 포털을 통해 관리자 지원 요청을 제출합니다.
 
-릴리스 중에 Microsoft Managed Desktop은 모든 Microsoft 365 앱의 오류 비율을 모니터링합니다. 새 릴리스와 새 릴리스의 선행 버전 간 품질이 크게 다른 경우 Microsoft Managed Desktop Admin 포털을 통해 연락할 수 있습니다. 심각도에 따라 릴리스를 일시 중지할지 묻거나 문제를 완화하기 위한 조치를 취했다고 알려드릴 것입니다. 
+릴리스 중에 Microsoft Managed Desktop은 모든 Microsoft 365 앱의 오류 비율을 모니터링합니다. 새 릴리스와 그 선행 버전 간 품질이 크게 다른 경우 Microsoft Managed Desktop Admin 포털을 통해 연락을 할 수 있습니다. 심각도에 따라 릴리스를 일시 중지할지 묻거나 문제를 완화하기 위한 조치를 취했다고 알려드릴 것입니다. 
 
 ### <a name="delivery-optimization"></a>배달 최적화
 
@@ -113,7 +113,7 @@ Microsoft Managed Desktop은 [관리되는](https://docs.microsoft.com/deployoff
 
 ### <a name="specify-the-target-version-of-microsoft-365-apps"></a>Microsoft 365 앱의 대상 버전 지정
 
-대상 버전 정책은 특정 버전의 Office를 롤백하거나 고정하기 위해 Microsoft Managed Desktop에서 때때로 사용됩니다. 
+대상 버전 정책은 경우에 따라 특정 버전의 Office를 롤백하거나 고정하기 위해 Microsoft Managed Desktop에서 사용됩니다. 
 
 
 ### <a name="hide-the-option-to-enable-or-disable-office-automatic-updates"></a>Office 자동 업데이트를 사용 또는 사용하지 않도록 설정하는 옵션 숨기기
@@ -136,7 +136,7 @@ Office를 처음 실행할 때 동작에 영향을 주는 몇 가지 설정이 �
 
 **기본값:** 사용 안
 
-사용자가 Outlook을 처음 열면 Outlook Mobile을 설치하라는 메시지가 표시됩니다. 사용자에게 해당 확인란을 표시하지 못하게 하려는 경우 Microsoft Managed Desktop Operations 팀에 장치에 대해 이 설정을 사용하도록 설정해달고 요청하는 서비스 요청을 제출합니다. 
+사용자가 Outlook을 처음 열면 Outlook Mobile을 설치하라는 메시지가 표시됩니다. 사용자에게 확인란을 표시하지 못하게 하려는 경우 Microsoft Managed Desktop Operations 팀에 장치에 대해 이 설정을 사용하도록 설정해달고 요청하는 서비스 요청을 제출합니다. 
 
 ## <a name="other-settings"></a>기타 설정
 

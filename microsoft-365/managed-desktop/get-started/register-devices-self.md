@@ -57,7 +57,7 @@ PowerShell 갤러리 [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgaller
 3. 실행 `Save-Script -Name Get-WindowsAutoPilotInfo -Path <pathToUsb>`
 4. 등록할 디바이스를 켜지만 설치 *환경을 시작하지는 않습니다.* 실수로 설치 환경을 시작한 경우 장치를 초기화하거나 다시 이미지해야 합니다.
 5. USB 드라이브를 삽입한 다음 Shift + F10을 누를 수 있습니다.
-6. 관리 권한으로 PowerShell 프롬프트를 연 다음 `cd <pathToUsb>` 실행합니다.
+6. 관리 권한으로 PowerShell 프롬프트를 열고 `cd <pathToUsb>` 실행합니다.
 7. 실행 `Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
 8. 실행 `.\Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
 9. USB 드라이브를 제거한 다음 실행하여 디바이스를 종료합니다. `shutdown -s -t 0`
@@ -75,7 +75,7 @@ PowerShell 갤러리 [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgaller
 
 #### <a name="register-devices-by-using-the-admin-portal"></a>관리 포털을 사용하여 장치 등록
 
-[Microsoft Endpoint Manager의](https://endpoint.microsoft.com/)왼쪽 탐색 창에서 디바이스를 선택합니다.  메뉴의 Microsoft Managed Desktop 섹션을 찾아 장치를 **선택합니다.** Microsoft Managed Desktop Devices 작업 영역에서 **새 장치를** 등록하기 위해 플라이인을 여는 + 장치 등록을 선택합니다.
+[Microsoft 끝점 관리자의](https://endpoint.microsoft.com/)왼쪽 탐색 창에서 장치를 선택합니다.  메뉴의 Microsoft Managed Desktop 섹션을 찾아 장치를 **선택합니다.** Microsoft Managed Desktop Devices 작업 영역에서 **새 장치를** 등록하기 위해 플라이인을 여는 + 장치 등록을 선택합니다.
 
 <!-- [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
@@ -96,7 +96,7 @@ PowerShell 갤러리 [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgaller
 | 등록 보류 중 | 등록이 아직 완료되지 않았습니다. 나중에 다시 확인 |
 | 등록 실패 | 등록을 완료할 수 없습니다. 자세한 내용은 [장치](#troubleshooting-device-registration) 등록 문제 해결을 참조하세요. |
 | 사용자 준비 | 등록이 성공하고 이제 디바이스를 사용자에게 전달할 준비가 완료되었습니다. Microsoft Managed Desktop은 최초 설치를 안내하기 때문에 추가 준비를 할 필요가 없습니다. |
-| 활성 | 장치가 사용자에게 전달되고 테넌트에 등록되어 있습니다. 이 상태는 장치가 정기적으로 사용 중이기도 합니다. |
+| 활성 | 장치가 사용자에게 전달되고 테넌트에 등록되어 있습니다. 또한 이 상태는 장치가 정기적으로 사용 중이기도 합니다. |
 | 비활성 | 장치가 사용자에게 전달되고 테넌트에 등록되어 있습니다. 그러나 최근(지난 7일)에는 장치를 사용한 것이 없습니다.  | 
 
 #### <a name="troubleshooting-device-registration"></a>장치 등록 문제 해결

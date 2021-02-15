@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Advanced eDiscovery의 검색 도구를 사용하여 조사에서 검토할 문서 집합을 식별하는 방법에 대해 자세히 알아보습니다.
+description: Advanced eDiscovery의 검색 도구를 사용하여 조사에서 검토할 문서 집합을 식별하는 방법을 학습합니다.
 ms.custom: seo-marvel-2020
 ms.openlocfilehash: b69127f1a372a9b843b9c7dac1b2909dd80b2988
 ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
@@ -34,7 +34,7 @@ ms.locfileid: "49751273"
 
 검색 **탭에서** 새  검색을 선택하면 검색 만들기를 안내하는 마법사가 시작됩니다. 검색을 만드는 방법에 대한 자세한 내용은 검색 만들기를 참조하여 데이터를 [수집합니다.](create-search-to-collect-data.md)
 
-검색을 만든 후 세부 정보가 있는 플라이아웃 페이지가 표시됩니다. **검색이** 아직  완료되지 않았기 때문에 통계 및 미리 보기 단추를 처음에 사용할 수 없습니다. 검색 탭에서 검색 진행률을 **추적할 수** 있습니다.
+검색을 만든 후 세부 정보가 있는 플라이아웃 페이지가 표시됩니다. **검색이** 아직  완료되지 않았기 때문에 통계 및 미리 보기 단추를 처음 사용할 수 없습니다. 검색 탭에서 검색 진행률을 **추적할 수** 있습니다.
 
 ## <a name="view-search-results-and-statistics"></a>검색 결과 및 통계 보기
 
@@ -52,8 +52,8 @@ ms.locfileid: "49751273"
 
 ## <a name="add-search-results-to-a-review-set"></a>검색 결과를 검토 집합에 추가
 
-검색의 전체 결과를 수집하고 처리하기 위해 준비되면 검토 집합에 추가하면 됩니다. 자세한 내용은 검토 [집합에 데이터 추가를 참조합니다.](add-data-to-review-set.md)
+검색의 전체 결과를 수집하고 처리하기 위해 준비되면 검토 집합에 추가하면 됩니다. 자세한 내용은 리뷰 [집합에 데이터 추가를 참조합니다.](add-data-to-review-set.md)
 
-## <a name="add-non-microsoft-365-data-to-a-review-set"></a>검토 집합에 비 Microsoft 365 데이터 추가
+## <a name="add-non-microsoft-365-data-to-a-review-set"></a>검토 집합에 Microsoft 365가 아닌 데이터 추가
 
 사례에 대한 수집 프로세스의 일부로, 비 Office 365 데이터를 검토 집합에 추가하고 검색 도구를 사용하여 수집한 Office 365 데이터와 함께 검토 및 분석할 수도 있습니다. 비 Office 365를 추가하는 경우 이 경우 해당 정보를 특정 보직원과 연결해야 합니다. 자세한 내용은 [검토 집합에 비 Microsoft 365 데이터 로드를 참조하세요.](load-non-Office-365-data-into-a-review-set.md)

@@ -63,7 +63,7 @@ Microsoft 365 규정 준수 센터의 새로운 eDiscovery 기능과 향상된 e
 
 이 문서의 다음 섹션에서는 사용 중지되는 각 기능에 대한 지침을 제공합니다. 이 정보에는 사용 중지된 도구 대신 사용할 수 있는 타임라인 및 대체 도구가 있습니다.
 
-## <a name="in-place-ediscovery-and-in-place-holds-in-the-exchange-admin-center"></a>In-Place 관리 센터에서 eDiscovery In-Place 보류 
+## <a name="in-place-ediscovery-and-in-place-holds-in-the-exchange-admin-center"></a>In-Place 관리 센터에서 eDiscovery 및 In-Place 보류 
 
 2017년 7월 1일의 원래 발표에 따라 EAC(Exchange 관리 센터)의 In-Place eDiscovery & 보류 기능이 사용 중지됩니다. EAC의 In-Place eDiscovery & 페이지에서 Exchange Online에서 콘텐츠를 검색, 보류 및 내보낼 수 있습니다. In-Place eDiscovery를 사용하면 검색 결과를 검색 사서함에 복사하여 사용자 또는 다른 eDiscovery 관리자가 콘텐츠를 검토하고 법률, 규정 및 공용 요청에 사용할 수 있도록 할 수 있습니다.
 
@@ -141,7 +141,7 @@ Microsoft 365 규정 준수 센터의 새로운 eDiscovery 기능과 향상된 e
 <tr class=even>
   <td>한 사서함에서 다른 사서함으로 메시지 복사</td>
   <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">사서함에 사용 권한 할당</a></td>
-  <td>다른 사용자의 전자 메일(예: 직원이 조직을 떠나 이전 직원의 전자 메일에 대한 액세스 권한을 다른 사용자에게 제공해야 하는 경우)에 대한 액세스 권한을 부여하려면 이전 직원의 사서함에 액세스할 수 있는 권한을 해당 사용자에게 할당하는 것이 좋습니다. 따라서 사서함 항목을 다른 사용자 사서함이나 공유 사서함에 복사하는 대신 원본 사서함에 액세스할 수 있는 권한을 사용자에게 할당하면 됩니다.</td>
+  <td>다른 사용자의 전자 메일(예: 직원이 조직을 떠나 이전 직원의 전자 메일에 대한 액세스 권한을 다른 사용자에게 제공해야 하는 경우)에 대한 액세스 권한을 사용자에게 부여하려면 이전 직원의 사서함에 액세스할 수 있는 권한을 해당 사용자에게 할당하는 것이 좋습니다. 따라서 사서함 항목을 다른 사용자 사서함 또는 공유 사서함에 복사하는 대신 원본 사서함에 액세스할 수 있는 사용자 권한을 할당하기만 합니다.</td>
   
   </tr>
 <tr class="odd">
@@ -154,7 +154,7 @@ Microsoft 365 규정 준수 센터의 새로운 eDiscovery 기능과 향상된 e
 
 ### <a name="faqs-about-in-place-ediscovery-and-in-place-holds"></a>eDiscovery 및 In-Place 보류에 In-Place FAQ
 
-_ *I use the copy search results functionality of In-Place eDiscovery & Holds in the EAC to copy search results to a discovery mailbox for review by attorney. 현재는 어떤 옵션을 사용할 수 있나요?**
+_ *I use the copy search results functionality of In-Place eDiscovery & Holds in the EAC to copy search results to a discovery mailbox for review by attorney. 현재는 어떤 옵션이 있나요?**
 
 현재 이 기능을 복제하는 방법에는 두 가지가 있습니다. 첫 번째는 [Advanced eDiscovery v2.0에서 검토 집합을 사용하는 것입니다.](https://docs.microsoft.com/microsoft-365/compliance/view-documents-in-review-set) 검토 집합에는 빠른 문서 검색, 태그 지정, 전자 메일 스레딩, 가까운 중복 그룹화, 테마 분석 및 예측 코딩과 같은 기존 검토 도구에서 볼 수 있는 여러 가지 기능이 있습니다. 검색 사서함을 계속 검토하려면 두 번째 옵션은 검색 결과를 PST 파일로 내보냈다가 Microsoft 준수 센터의 PST 가져오기 기능을 사용하여 [PST](use-network-upload-to-import-pst-files.md) 파일을 검색 사서함으로 가져오는 것입니다.
 
@@ -186,7 +186,7 @@ Exchange 관리 센터에서 2017년 7월 1일 발표된 원래 공지에 따라
 
 - 2020년 7월 1일: **New-MailboxSearch를** 사용하여 새 In-Place eDiscovery 검색 및 In-Place 보류를 만들 수 없지만 여전히 cmdlet을 사용하여 기존 검색 및 보류를 실행, 편집 및 삭제할 수 있습니다. Microsoft 지원 서비스에서는 더 이상 이러한 유형의 검색 및 보류에 대한 지원을 제공하지 않습니다.
 
-- 2020년 10월 1일: 앞서 설명한 In-Place eDiscovery & EAC의 보류 기능이 읽기 전용 모드로 설정됩니다. 즉, **New-MailboxSearch,** **Start-MailboxSearch** 또는 **Set-MailboxSearch** cmdlet을 사용할 수 없습니다. 기존 검색 및 보류만 찾아서 제거할 수 있습니다.
+- 2020년 10월 1일: 앞서 설명한 In-Place eDiscovery & EAC의 보류 기능이 읽기 전용 모드로 설정됩니다. 즉, **New-MailboxSearch,** **Start-MailboxSearch** 또는 **Set-MailboxSearch** cmdlet을 사용할 수 없습니다. 기존 검색 및 보류만 검색 및 제거할 수 있습니다.
 
 ### <a name="alternative-tools"></a>대체 도구
 
@@ -228,7 +228,7 @@ Exchange 관리 센터에서 2017년 7월 1일 발표된 원래 공지에 따라
   <tr class=even>
   <td>한 사서함에서 다른 사서함으로 메시지 복사</td>
   <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">사서함에 사용 권한 할당</a></td>
-  <td>다른 사용자의 전자 메일(예: 직원이 조직을 떠나 이전 직원의 전자 메일에 대한 액세스 권한을 다른 사용자에게 제공해야 하는 경우)에 대한 액세스 권한을 부여하려면 이전 직원의 사서함에 액세스할 수 있는 권한을 해당 사용자에게 할당하는 것이 좋습니다. 따라서 사서함 항목을 다른 사용자 사서함이나 공유 사서함에 복사하는 대신 원본 사서함에 액세스할 수 있는 권한을 사용자에게 할당하면 됩니다.</td>
+  <td>다른 사용자의 전자 메일(예: 직원이 조직을 떠나 이전 직원의 전자 메일에 대한 액세스 권한을 다른 사용자에게 제공해야 하는 경우)에 대한 액세스 권한을 사용자에게 부여하려면 이전 직원의 사서함에 액세스할 수 있는 권한을 해당 사용자에게 할당하는 것이 좋습니다. 따라서 사서함 항목을 다른 사용자 사서함 또는 공유 사서함에 복사하는 대신 원본 사서함에 액세스할 수 있는 사용자 권한을 할당하기만 합니다.</td>
   
   </tr>
 
@@ -243,7 +243,7 @@ Exchange 관리 센터에서 2017년 7월 1일 발표된 원래 공지에 따라
 
 **검색 및 보류를 Microsoft 365 규정 준수 센터로 마이그레이션하려면 어떻게 하나요?**
 
-PowerShell 스크립트를 사용하여 Exchange In-Place eDiscovery 검색 및 보류를 마이그레이션할 수 있습니다. 자세한 내용은 [레거시 eDiscovery](migrate-legacy-eDiscovery-searches-and-holds.md)검색 및 Microsoft 365 준수 센터로 보류 마이그레이션을 참조하세요.
+PowerShell 스크립트를 사용하여 exchange In-Place eDiscovery 검색 및 보류를 마이그레이션할 수 있습니다. 자세한 내용은 [레거시 eDiscovery](migrate-legacy-eDiscovery-searches-and-holds.md)검색 및 Microsoft 365 준수 센터로 보류 마이그레이션을 참조하세요.
 
 **cmdlet이 사용 중지된 후에도 검색을 제거하거나 검색할 수 있나요?**
 
@@ -251,7 +251,7 @@ PowerShell 스크립트를 사용하여 Exchange In-Place eDiscovery 검색 및 
 
 ## <a name="search-mailbox-cmdlet"></a>Search-Mailbox cmdlet
 
-Exchange Online PowerShell의 **Search-Mailbox** cmdlet은 2018년으로 다시 시작되는 cmdlet 출력의 경고에서 원래 발표된 그대로 사용 중지됩니다. **Search-Mailbox** cmdlet은 원래 사용자의 사서함을 검색하고 악성 콘텐츠를 삭제하는 데 사용되었다. Office 365 보안 및 준수 센터 PowerShell에서 **New-ComplianceSearch** 및 **New-ComplianceSearchAction** cmdlet을 & 콘텐츠를 검색하고 삭제하는 것이 좋습니다. 기본 제공 보안 환경을 위해 [<span class="underline">Microsoft 365</span>](https://docs.microsoft.com/microsoft-365/security/) 보안 기능은 전자 메일 및 기타 여러 Microsoft 서비스에 강력한 위협 방지 기능을 제공합니다.
+Exchange Online PowerShell의 **Search-Mailbox** cmdlet은 2018년으로 다시 시작되는 cmdlet 출력의 경고에서 원래 발표된 그대로 사용 중지됩니다. **Search-Mailbox** cmdlet은 원래 사용자의 사서함을 검색하고 악성 콘텐츠를 삭제하는 데 사용되었다. Office 365 보안 및 준수 센터 PowerShell에서 **New-ComplianceSearch** 및 **New-ComplianceSearchAction** cmdlet을 & 콘텐츠를 검색하고 삭제하는 것이 좋습니다. 기본 제공 보안 환경을 위해 [<span class="underline">Microsoft 365</span>](https://docs.microsoft.com/microsoft-365/security/) 보안 기능은 전자 메일 및 기타 많은 Microsoft 서비스에 강력한 위협 방지 기능을 제공합니다.
 
 ### <a name="scope-of-affected-organizations"></a>영향을 받는 조직의 범위
 
@@ -298,12 +298,12 @@ Exchange Online PowerShell의 **Search-Mailbox** cmdlet은 2018년으로 다시 
 <tr class="even">
 <td>검색 결과를 검색 사서함에 복사</td>
 <td> </td>
-<td>일부 Microsoft 365 서비스에 대한 액세스 권한을 제공하지는 못하기 때문에 이 기능을 직접 대체할 수 없습니다. 대체 솔루션에 대한 자세한 내용은 <strong>*-MailboxSearch cmdlets</strong> 섹션의 FAQ를 참조하세요. </td>
+<td>일부 Microsoft 365 서비스에 대한 액세스 권한을 제공하지는 못하기 때문에 이 기능을 직접 대체할 수 없습니다. 대체 솔루션에 대한 자세한 내용은 <strong>*-MailboxSearch cmdlet 섹션의 FAQ를</strong> 참조하세요. </td>
 </tr>
 <tr class=odd>
   <td>한 사서함에서 다른 사서함으로 메시지 복사</td>
   <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">사서함에 사용 권한 할당</a></td>
-  <td>다른 사용자의 전자 메일(예: 직원이 조직을 떠나 이전 직원의 전자 메일에 대한 액세스 권한을 다른 사용자에게 제공해야 하는 경우)에 대한 액세스 권한을 부여하려면 이전 직원의 사서함에 액세스할 수 있는 권한을 해당 사용자에게 할당하는 것이 좋습니다. 따라서 사서함 항목을 다른 사용자 사서함이나 공유 사서함에 복사하는 대신 원본 사서함에 액세스할 수 있는 권한을 사용자에게 할당하면 됩니다.</td>
+  <td>다른 사용자의 전자 메일(예: 직원이 조직을 떠나 이전 직원의 전자 메일에 대한 액세스 권한을 다른 사용자에게 제공해야 하는 경우)에 대한 액세스 권한을 사용자에게 부여하려면 이전 직원의 사서함에 액세스할 수 있는 권한을 해당 사용자에게 할당하는 것이 좋습니다. 따라서 사서함 항목을 다른 사용자 사서함 또는 공유 사서함에 복사하는 대신 원본 사서함에 액세스할 수 있는 사용자 권한을 할당하기만 합니다.</td>
 </tr>
 <tr class=even>
   <td>사서함에서 메시지 제거</td>
@@ -359,7 +359,7 @@ Advanced eDiscovery v2.0에 액세스하는 경우:
 
 2. Microsoft 365 규정 준수 센터의 왼쪽 탐색 창에서 모두 표시를 클릭한 다음 **eDiscovery**> 클릭합니다.
 
-이때 eDiscovery 워크플로를 새 Advanced eDiscovery 기능으로 전환하는 것이 좋습니다. 필요한 경우 콘텐츠를 내보내고 오프라인으로 저장하여 Advanced eDiscovery 1.0 사례를 보관할 수 있습니다. 2020년 12월 31일까지 기존 사례에서 Advanced eDiscovery v1.0에 계속 액세스할 수 있습니다. 그러나 Microsoft 지원은 2020년 10월 1일 이후에는 지원을 제공하지 않습니다. 자세한 내용은 다음 타임라인을 참조하세요.
+이때 eDiscovery 워크플로를 새 Advanced eDiscovery 기능으로 전환하는 것이 좋습니다. 필요한 경우 콘텐츠를 내보내고 오프라인으로 저장하여 Advanced eDiscovery 1.0 사례를 보관할 수 있습니다. 2020년 12월 31일까지 기존 사례에서 Advanced eDiscovery v1.0에 계속 액세스할 수 있습니다. 그러나 2020년 10월 1일 이후에는 Microsoft 지원 서비스에서 지원을 제공하지 않습니다. 자세한 내용은 다음 일정을 참조하세요.
 
 ### <a name="scope-of-affected-organizations"></a>영향을 받는 조직의 범위
 

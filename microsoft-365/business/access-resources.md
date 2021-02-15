@@ -28,7 +28,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 12/16/2020
 ms.locfileid: "49688236"
 ---
-# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Microsoft 365 Business Premium의 Azure AD 가입 장치에서의 On-premises 리소스 액세스
+# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Microsoft 365 Business Premium의 Azure AD 가입 장치에서의 프레미스 리소스 액세스
 
 이 문서는 Microsoft 365 Business Premium에 적용됩니다.
 

@@ -38,7 +38,7 @@ ms.locfileid: "49799665"
   |||
 
    > [!NOTE]
-   > <sup>1</sup> 1,000개가 넘는 사례, 보류, 검색 또는 내보내기 목록을 표시하기 위해 해당 Office 365 보안 및 준수 powerShell cmdlet을 & 수 있습니다.
+   > <sup>1</sup> 1,000개가 넘는 사례, 보류, 검색 또는 내보내기 목록을 표시하기 위해 해당 Office 365 보안 & PowerShell cmdlet을 사용할 수 있습니다.
    > 
    > - [Get-ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase)
    > - [Get-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)
