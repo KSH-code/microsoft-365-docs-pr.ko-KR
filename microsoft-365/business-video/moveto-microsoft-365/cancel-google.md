@@ -29,14 +29,14 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49928261"
 ---
-# <a name="cancel-google-workspace-subscription"></a><span data-ttu-id="456e9-103">Google Workspace 구독 취소</span><span class="sxs-lookup"><span data-stu-id="456e9-103">Cancel Google Workspace subscription</span></span>
+# <a name="cancel-google-workspace-subscription"></a><span data-ttu-id="9ce22-103">Google Workspace 구독 취소</span><span class="sxs-lookup"><span data-stu-id="9ce22-103">Cancel Google Workspace subscription</span></span>
 
-1. <span data-ttu-id="456e9-104">[Google Admin에 로그인하고](https://admin.google.com/) **청구로 이동하세요.**</span><span class="sxs-lookup"><span data-stu-id="456e9-104">Sign in to [Google Admin](https://admin.google.com/) and go to **Billing**.</span></span>
-1. <span data-ttu-id="456e9-105">구독 **목록에서** G Suite **구독을** 선택하고 구독을 취소한 다음 계속을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="456e9-105">In the **Subscriptions** list,choose your G Suite subscription, **Cancel subscription**, and then choose **Continue**.</span></span>
+1. <span data-ttu-id="9ce22-104">[Google Admin에 로그인하고](https://admin.google.com/) **청구로 이동하세요.**</span><span class="sxs-lookup"><span data-stu-id="9ce22-104">Sign in to [Google Admin](https://admin.google.com/) and go to **Billing**.</span></span>
+1. <span data-ttu-id="9ce22-105">구독 **목록에서** G Suite **구독을** 선택하고 구독을 취소한 다음 계속을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="9ce22-105">In the **Subscriptions** list,choose your G Suite subscription, **Cancel subscription**, and then choose **Continue**.</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="456e9-106">구독이 즉시 취소되고 이 작업을 취소할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="456e9-106">your subscription will be cancelled immediately and you cannot undo this action.</span></span>
+    > <span data-ttu-id="9ce22-106">구독이 즉시 취소되고 이 작업을 취소할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9ce22-106">your subscription will be cancelled immediately and you cannot undo this action.</span></span>
 
     :::image type="content" source="../../media/cancelgoogleworspace.png" alt-text="Google 관리 청구 페이지의 스크린샷.":::
 
-<span data-ttu-id="456e9-108">DNS 호스트 공급자가 Google 도메인이 아닌 경우 구독 목록에 도메인 등록이 표시되지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="456e9-108">Note that you might not see Domain Registration in your Subscriptions list if your DNS host provider isn't Google domains.</span></span>
+<span data-ttu-id="9ce22-108">DNS 호스트 공급자가 Google 도메인이 아닌 경우 구독 목록에 도메인 등록이 표시되지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9ce22-108">Note that you might not see Domain Registration in your Subscriptions list if your DNS host provider isn't Google domains.</span></span>
