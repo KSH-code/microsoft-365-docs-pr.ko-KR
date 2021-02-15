@@ -11,7 +11,7 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: 관리자는 Globanet에서 Microsoft 365로 데이터를 거래하는 Reuters를 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 Microsoft 365에서 타사 데이터 원본의 데이터를 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
+description: 관리자는 Globanet에서 Microsoft 365로 데이터를 거래하는 Reuters를 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 Microsoft 365에 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
 ms.openlocfilehash: 24ecbc8a6073835e45958191c87f95854fee8db1
 ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
@@ -25,9 +25,9 @@ Microsoft 365 규정 준수 센터의 Globanet 커넥터를 사용하여 Reuters
 
 데이터 처리 Reuters가 사용자 사서함에 저장되고 나면 소송 보존, eDiscovery, 보존 정책 및 보존 레이블, 통신 준수와 같은 Microsoft 365 규정 준수 기능을 적용할 수 있습니다. Reuters Dealing 커넥터를 사용하여 Microsoft 365에서 데이터를 가져오고 보관하면 조직이 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
 
-## <a name="overview-of-archiving-reuters-dealing-data"></a>데이터를 다루는 보관 라우팅 개요
+## <a name="overview-of-archiving-reuters-dealing-data"></a>데이터를 거래하는 보관 로이터의 개요
 
-다음 개요에서는 커넥터를 사용하여 Microsoft 365에서 데이터를 다루는 Reuters를 보관하는 프로세스에 대해 설명합니다.
+다음 개요에서는 커넥터를 사용하여 Microsoft 365에서 데이터를 처리하고 있는 Reuters를 보관하는 프로세스에 대해 설명합니다.
 
 ![데이터를 거래하는 Reuters를 위한 보관 워크플로](../media/ReuetersDealingConnectorWorkflow.png)
 

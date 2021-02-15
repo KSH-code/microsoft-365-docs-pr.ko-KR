@@ -77,7 +77,7 @@ ms.locfileid: "49619914"
 
     - **위치:** 위치를 선택하십시오.
 
-    - **웹앱 이름:** 커넥터 웹앱의 고유한 이름을 제공합니다. Th 이름은 3-18자 사이입니다. 이 이름은 Azure 앱 서비스 URL을 만드는 데 사용됩니다. 예를 들어 **twitterconnector의** 웹 앱 이름을 제공하면 Azure 앱 서비스 URL이 **twitterconnector.azurewebsites.net.**
+    - **웹앱 이름:** 커넥터 웹앱의 고유한 이름을 제공합니다. Th 이름은 3-18자 사이입니다. 이 이름은 Azure 앱 서비스 URL을 만드는 데 사용됩니다. 예를 들어 **twitterconnector의** 웹 앱 이름을 제공하는 경우 Azure 앱 서비스 URL이 **twitterconnector.azurewebsites.net.**
     
     - **tenantId:** 1단계에서 Azure Active Directory에서 Facebook 커넥터 앱을 만들고 복사한 Microsoft 365 조직의 테넌트 ID입니다.
     
@@ -114,7 +114,7 @@ ms.locfileid: "49619914"
 
    ![사용 권한 구성](../media/TCimage30.png)
 
-7. 사용 권한 설정을 저장한  후 앱 세부 정보 탭을 클릭한 다음 편집 > **클릭합니다.**
+7. 사용 권한 설정을 저장한  후 앱 세부 정보 탭을 클릭한 다음 세부 정보 편집 > **클릭합니다.**
 
    ![앱 세부 정보 편집](../media/TCimage31.png)
 
@@ -126,7 +126,7 @@ ms.locfileid: "49619914"
 
     ![커넥터 앱이 Twitter에 로그인하고 OAuth 리디렉션 Uri를 추가하도록 허용](../media/TCimage32.png)
 
-이제 Twitter 개발자 앱을 사용할 준비가 완료되었습니다.
+Twitter 개발자 앱을 사용할 준비가 완료되었습니다.
 
 ## <a name="step-4-configure-the-connector-web-app"></a>4단계: 커넥터 웹앱 구성 
 
@@ -200,4 +200,4 @@ ms.locfileid: "49619914"
 
 13. **다음을** 클릭하여 커넥터 설정을 검토한 다음 **마친을** 클릭하여 커넥터 설정을 완료합니다.
 
-14. 준수 센터에서 데이터 커넥터  페이지로 이동한 다음  커넥터 탭을 클릭하여 가져오기 프로세스의 진행률을 확인하십시오.
+14. 준수 센터에서 데이터 커넥터  페이지로 이동한 다음  커넥터 탭을 클릭하여 가져오기 프로세스의 진행률을 봐야 합니다.

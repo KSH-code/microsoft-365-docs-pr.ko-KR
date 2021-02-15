@@ -136,9 +136,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 6. 새 **MX 레코드** 폼에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다. 
     
-    |**이름**|**TTL(SEC)**|**Exchange(주소 또는 값 포인트)**|**호스트가 정식으로 자격을 갖춘가요?**|**기본 설정(우선 순위)**|
+    |**이름**|**TTL(SEC)**|**Exchange(주소 또는 값 지점)**|**호스트가 정식으로 자격을 갖춘가요?**|**기본 설정(우선 순위)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(공백으로 둠)  <br/> |3600(초)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)      |(확인란 선택)  <br/> |10   <br/> For more information about priority, see What is MX priority?  <br/> |
+    |(공백으로 둠)  <br/> |3600(초)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)      |(확인란 선택)  <br/> |10    <br/> For more information about priority, see What is MX priority?  <br/> |
        
     ![Netregistry_MX_values](../../media/518b3da6-4055-4e2d-b5ce-44a0fee25419.png)
   

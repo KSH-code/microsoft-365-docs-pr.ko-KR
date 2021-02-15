@@ -41,9 +41,9 @@ EML 메시지가 사용자 사서함에 저장되고 나면 소송 보존, eDisc
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- Microsoft 커넥터에 대한 Globanet Merge1 계정을 만드시다. 계정을 만들 경우 [Globanet 고객](https://globanet.com/ms-connectors-contact)지원에 문의하세요. 1단계에서 커넥터를 만들 때 이 계정에 로그인합니다.
+- Microsoft 커넥터에 대한 Globanet Merge1 계정을 생성합니다. 계정을 만들 경우 [Globanet 고객](https://globanet.com/ms-connectors-contact)지원에 문의하세요. 1단계에서 커넥터를 만들 때 이 계정에 로그인합니다.
 
-- 1단계에서 EML 커넥터를 만들고 3단계에서 완료하는 사용자는 Exchange Online의 사서함 가져오기 내보내기 역할에 할당되어야 합니다. 이 역할은 Microsoft 365 규정 준수 센터의 데이터 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다.  기본적으로 이 역할은 Exchange Online의 역할 그룹에 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서에서 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
+- 1단계에서 EML 커넥터를 만들고 3단계에서 완료하는 사용자는 Exchange Online의 사서함 가져오기 내보내기 역할에 할당되어야 합니다. 이 역할은 Microsoft 365 규정 준수 센터의 데이터 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다.  기본적으로 이 역할은 Exchange Online의 역할 그룹에 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
 
 ## <a name="step-1-set-up-an-eml-connector"></a>1단계: EML 커넥터 설정
 
@@ -61,7 +61,7 @@ EML 메시지가 사용자 사서함에 저장되고 나면 소송 보존, eDisc
 
 ## <a name="step-2-configure-the-eml-connector-on-the-globanet-merge1-site"></a>2단계: Globanet Merge1 사이트에서 EML 커넥터 구성
 
-두 번째 단계는 Globanet Merge1 사이트에서 EML 커넥터를 구성하는 것입니다. EML 커넥터 구성에 대한 자세한 내용은 Merge1 타사 커넥터 [사용자 가이드를 참조하십시오.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20EML%20User%20Guide%20.pdf)
+두 번째 단계는 Globanet Merge1 사이트에서 EML 커넥터를 구성하는 것입니다. EML 커넥터 구성에 대한 자세한 내용은 [Merge1 Third-Party Connectors 사용자 가이드를 참조하십시오.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20EML%20User%20Guide%20.pdf)
 
 저장 **&** 마친 후 Microsoft  365 준수 센터의 커넥터 마법사에 있는 사용자 매핑 페이지가 표시됩니다.
 

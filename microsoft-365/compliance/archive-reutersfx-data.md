@@ -11,7 +11,7 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: 관리자는 Reuters FX 데이터를 Globanet에서 Microsoft 365로 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 Microsoft 365에서 타사 데이터 원본의 데이터를 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
+description: 관리자는 Reuters FX 데이터를 Globanet에서 Microsoft 365로 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 Microsoft 365에 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
 ms.openlocfilehash: 40988b103f0130c78d9450e0ce4ea2d848c891a0
 ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
@@ -37,7 +37,7 @@ Reuters FX 데이터가 사용자 사서함에 저장되고 나면 소송 보존
 
 3. Microsoft 365 규정 준수 센터에서 만든 Reuters FX 커넥터는 매일 Globanet Merge1 사이트에 연결하고 콘텐츠를 Microsoft 클라우드의 보안 Azure Storage 위치로 전송합니다.
 
-4. 커넥터는 3단계에 설명된 자동 사용자 매핑의 *Email* 속성 값을 사용하여 특정 사용자의 사서함으로 항목을 [가져올 수 있습니다.](#step-3-map-users-and-complete-the-connector-setup) **Reuters FX라는** 받은 편지함 폴더의 하위 폴더가 사용자 사서함에 만들어지며 항목을 해당 폴더로 가져올 수 있습니다. 커넥터는 Email 속성 값을 사용하여 항목을 가져올 사서함을 결정할 *수* 있습니다. 모든 Reuters FX 항목에는 항목의 모든 참가자의 전자 메일 주소로 채워지는 이 속성이 포함되어 있습니다.
+4. 커넥터는 3단계에 설명된 바와 같이 자동 사용자 매핑의 *Email* 속성 값을 사용하여 특정 사용자의 사서함으로 항목을 [가져올 수 있습니다.](#step-3-map-users-and-complete-the-connector-setup) **Reuters FX라는** 받은 편지함 폴더의 하위 폴더가 사용자 사서함에 만들어지며 항목을 해당 폴더로 가져올 수 있습니다. 커넥터는 Email 속성 값을 사용하여 항목을 가져올 사서함을 결정할 *수* 있습니다. 모든 Reuters FX 항목에는 항목의 모든 참가자의 전자 메일 주소로 채워지는 이 속성이 포함되어 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -69,7 +69,7 @@ Reuters FX 데이터가 사용자 사서함에 저장되고 나면 소송 보존
 
 사용자를 매핑하고 Microsoft 365 규정 준수 센터에서 커넥터 설정을 완료하려면 다음 단계를 따르세요.
 
-1. 로이터 FX 사용자를 **Microsoft 365** 사용자에 매핑 페이지에서 자동 사용자 매핑을 사용하도록 설정합니다.
+1. 로이터 FX 사용자를 **Microsoft 365** 사용자로 매핑 페이지에서 자동 사용자 매핑을 사용하도록 설정합니다.
 
    Reuters FX 항목에는 조직의 사용자에 대한 전자 메일 주소가 포함된 *Email이라는* 속성이 포함되어 있습니다. 커넥터가 이 주소를 Microsoft 365 사용자와 연결하면 항목이 해당 사용자의 사서함으로 가져오기됩니다.
 
@@ -77,7 +77,7 @@ Reuters FX 데이터가 사용자 사서함에 저장되고 나면 소송 보존
 
 ## <a name="step-4-monitor-the-reuters-fx-connector"></a>4단계: Reuters FX 커넥터 모니터링
 
-Reuters FX 커넥터를 만든 후 Microsoft 365 준수 센터에서 커넥터 상태를 볼 수 있습니다.
+Reuters FX 커넥터를 만든 후 Microsoft 365 규정 준수 센터에서 커넥터 상태를 볼 수 있습니다.
 
 1. Go to <https://compliance.microsoft.com/> and click **Data connectors** in the left nav.
 

@@ -32,7 +32,7 @@ ms.locfileid: "49658035"
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요. 
   
-Microsoft 365에서 Microsoft 365 DNS 레코드를 관리하게 하려는 경우 다음 지침을 따릅니다. 원하는 경우 [1 IONOS 1에서 모든 Microsoft 365 DNS&수 있습니다.](create-dns-records-at-1-1-internet.md) 
+Microsoft 365에서 Microsoft 365 DNS 레코드를 관리하게 하려는 경우 다음 지침을 따릅니다. 원하는 경우 모든 [Microsoft 365 DNS 레코드를 1 1 IONOS에서](create-dns-records-at-1-1-internet.md)&수 있습니다. 
   
 
     
@@ -92,7 +92,7 @@ Microsoft 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 
 Microsoft 365를 사용하여 도메인 설정을 완료하려면 도메인 등록 기관에서 Microsoft 365 기본 및 보조 이름 서버를 지점으로 도메인의 NS 레코드를 변경합니다. 이렇게 하면 Microsoft 365가 도메인의 DNS 레코드를 자동으로 업데이트합니다. 전자 메일, 비즈니스용 Skype Online, 공개 웹 사이트가 사용자의 도메인을 사용하도록 모든 레코드가 자동으로 추가되고 모든 설정이 완료됩니다.
   
 > [!CAUTION]
-> Microsoft 365 이름 서버를 설정하기 위해 도메인의 NS 레코드를 변경하면 현재 도메인과 연결된 모든 서비스가 영향을 받는 것입니다. 예를 들어 도메인으로 전송된 모든 전자 메일(예: rob@ *your_domain*  .com)은 이 변경을 한 후 Microsoft 365로 전송됩니다. 
+> Microsoft 365 이름 서버를 지점으로 도메인의 NS 레코드를 변경하면 현재 도메인과 연결된 모든 서비스가 영향을 받는 것입니다. 예를 들어 도메인으로 전송된 모든 전자 메일(예: rob@ *your_domain*  .com)은 이 변경을 한 후 Microsoft 365로 전송됩니다. 
   
 Microsoft 365에서 도메인을 설정할 수 있도록 NS 레코드를 변경할 준비가 되신가요? 아래 단계를 따르거나 [비디오를 시청하세요(2:47에 시작).](https://support.microsoft.com/office/0ef1b3b5-d27a-4004-8ca1-fbe0453a0ea3)
   

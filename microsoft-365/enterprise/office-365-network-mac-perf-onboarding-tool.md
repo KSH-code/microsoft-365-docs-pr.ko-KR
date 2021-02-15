@@ -23,7 +23,7 @@ ms.locfileid: "49569990"
 ---
 # <a name="microsoft-365-network-connectivity-test-tool-preview"></a>Microsoft 365 네트워크 연결 테스트 도구(미리 보기)
 
-Microsoft 365 네트워크 연결 테스트 도구는 <https://connectivity.office.com> 에 있습니다. 이 도구는 상태 | 아래에 있는 Microsoft 365 관리 센터에서 사용할 수 있는 네트워크 평가 및 네트워크 정보의 부재 **중 도구입니다. 연결 메뉴**
+Microsoft 365 네트워크 연결 테스트 도구는 <https://connectivity.office.com> 에 있습니다. 이 도구는 Microsoft 365 관리 센터의 상태 관리 센터에서 사용할 수 있는 네트워크 평가 및 네트워크 인사이트 정보에 대한 | **연결 메뉴**
 
 > [!IMPORTANT]
 > 모든 테스트 보고서를 관리자와 공유하고 로그인하는 동안 테넌트에 업로드하기 때문에 Microsoft 365 테넌트에 로그인하는 것이 중요합니다.
@@ -33,7 +33,7 @@ Microsoft 365 네트워크 연결 테스트 도구는 <https://connectivity.offi
 >[!NOTE]
 >네트워크 연결 테스트 도구는 WW Commercial 및 Germany의 테넌트는 지원하지만 GCC Moderate, GCC High, DoD 또는 중국은 지원하지 않습니다.
 
-Microsoft 365 관리 센터의 네트워크 인사이트는 매일 집계되는 Microsoft 365 테넌트에 대한 정기적인 제품 내 측정을 기반으로 합니다. 이에 비해 Microsoft 365 네트워크 연결 테스트의 네트워크 인사이트는 도구에서 한 번씩 로컬로 실행됩니다. 제품에서 수행될 수 있는 테스트는 제한되어 있으며, 사용자에게 로컬로 테스트를 실행하면 더 많은 데이터를 수집할 수 있습니다. 그런 다음 Microsoft 365 관리 센터의 네트워크 정보를 통해 특정 사무실 위치에서 Microsoft 365를 사용하기 위한 네트워킹 문제가 있는 것으로 나타났습니다. Microsoft 365 연결 테스트는 권장되는 네트워크 성능 개선 작업으로 이어지는 해당 문제의 근본 원인을 파악하는 데 도움이 될 수 있습니다.
+Microsoft 365 관리 센터의 네트워크 인사이트는 매일 집계되는 Microsoft 365 테넌트에 대한 정기적인 제품 내 측정을 기반으로 합니다. 이에 비해 Microsoft 365 네트워크 연결 테스트의 네트워크 인사이트는 도구에서 한 번씩 로컬로 실행됩니다. 제품에서 수행될 수 있는 테스트는 제한되어 있으며, 사용자에게 로컬로 테스트를 실행하면 더 많은 데이터를 수집할 수 있습니다. 그런 다음 Microsoft 365 관리 센터의 네트워크 정보를 통해 특정 사무실 위치에서 Microsoft 365를 사용하기 위한 네트워킹 문제가 있는 것으로 나타났습니다. Microsoft 365 연결 테스트는 권장되는 네트워크 성능 개선 작업으로 이어지는 해당 문제의 근본 원인을 식별하는 데 도움이 될 수 있습니다.
 
 이러한 기능을 함께 사용하여 Microsoft 365 관리 센터의 각 사무실 위치에 대해 네트워킹 품질 상태를 평가할 수 있으며, Microsoft 365 연결 테스트를 기반으로 테스트를 배포한 후 보다 구체적인 정보를 확인할 수 있습니다.
 
@@ -78,7 +78,7 @@ Microsoft 365 네트워크 연결 테스트에는 두 부분으로 구성됩니�
 
 ### <a name="sharing-with-your-microsoft-account-team-support-or-other-personnel"></a>Microsoft 계정 팀, 지원 또는 기타 직원과 공유
 
-개인 식별을 제외한 테스트 보고서는 Microsoft 직원과 공유됩니다. This is enabled by default and can be disabled by your administrator in the **Health |** Microsoft 365 관리 센터의 네트워크 연결 페이지
+개인 식별을 제외한 테스트 보고서는 Microsoft 직원과 공유됩니다. 이 설정은 기본적으로 사용하도록 설정되어 있으며 상태 관리에서 관리자가 사용하지 않도록 설정할 **수 |** Microsoft 365 관리 센터의 네트워크 연결 페이지
 
 ### <a name="sharing-with-other-users-who-sign-in-to-the-same-office-365-tenant"></a>동일한 Office 365 테넌트에 로그인한 다른 사용자와 공유
 
@@ -94,7 +94,7 @@ ReportID 링크에 대한 액세스를 제공하여 모든 사용자와 테스�
 
 ## <a name="network-connectivity-test-results"></a>네트워크 연결 테스트 결과
 
-결과는 요약 및 **Summary** 세부 정보 **탭에** 표시됩니다. 요약 탭에는 검색된 네트워크 경계의 지도와 네트워크 평가를 근처의 다른 Office 365 고객과 비교한 것이 표시됩니다. 또한 테스트 보고서를 공유할 수 있습니다. 요약 결과 보기의 모양은 다음과 같아야 합니다.
+결과는 요약 및  세부 정보 **탭에** 표시됩니다. 요약 탭에는 검색된 네트워크 경계의 지도와 네트워크 평가를 근처의 다른 Office 365 고객과 비교할 수 있습니다. 또한 테스트 보고서를 공유할 수 있습니다. 요약 결과 보기의 모양은 다음과 같아야 합니다.
 
 ![네트워크 연결 테스트 도구 요약 결과](../media/m365-mac-perf/m365-mac-perf-summary-page.png)
 
@@ -126,7 +126,7 @@ Microsoft 365 네트워크 연결을 위해 사용자 사무실 위치에서 인
 
 #### <a name="proxy-server-information"></a>프록시 서버 정보
 
-로컬 컴퓨터로 구성된 프록시 서버를 식별합니다. 네트워크 경로에서 최적화 범주 Microsoft 365 네트워크 트래픽을 위해 이러한 구성이 구성되어 있는지 확인합니다. 사용자 사무실 위치에서 프록시 서버까지의 거리를 식별합니다. 거리는 ICMP ping에서 먼저 테스트하고 TCP ping으로 테스트에 실패하면 테스트한 다음 실패하면 IP 주소 위치 데이터베이스에서 프록시 서버 IP 주소를 검색합니다. 프록시 서버가 사용자 사무실 위치에서 500킬로미터(800킬로미터)를 멀어도 네트워크 정보를 제공합니다. **500 miles**
+로컬 컴퓨터로 구성된 프록시 서버를 식별합니다. 네트워크 경로에서 최적화 범주 Microsoft 365 네트워크 트래픽을 위해 이러한 구성이 구성되어 있는지 확인합니다. 사용자 사무실 위치에서 프록시 서버까지의 거리를 식별합니다. 거리는 ICMP ping에서 먼저 테스트하며, TCP ping으로 테스트에 실패하면 테스트하고 실패하면 IP 주소 위치 데이터베이스에서 프록시 서버 IP 주소를 검색합니다. 프록시 서버가 사용자 사무실 위치에서 500킬로미터(800킬로미터)를 멀어도 네트워크 정보를 제공합니다. 
 
 #### <a name="virtual-private-network-vpn-you-use-to-connect-to-your-organization"></a>조직에 연결하는 데 사용하는 VPN(가상 사설망)
 
@@ -166,7 +166,7 @@ Exchange Online 서비스 프런트 도어에 대한 사용자 사무실 위치�
 
 최상의 Exchange 서비스 프런트 도어 중 하나를 사용하지 않는 경우 로컬 및 직접 네트워크 유출을 권장하는 경우 회사 네트워크가 들어오기 전에 네트워크 백힐로 인해 발생할 수 있습니다. 또한 원격 DNS 재귀 확인 서버 사용으로 인해 발생할 수 있습니다. 이 경우 DNS 재귀 확인 서버와 네트워크 전송을 맞추는 것이 좋습니다.
 
-Exchange 서비스 프런트 도어에 대한 TCP 대기 시간(ms)의 잠재적 향상을 계산합니다. 테스트된 사용자 사무실 위치 네트워크 대기 시간을 보고 현재 위치에서 닫기 Exchange 서비스 프런트 도어로 네트워크 대기 시간을 뺄 수 있습니다. 이 차이는 개선할 수 있는 기회를 나타 내는 것입니다.
+Exchange 서비스 프런트 도어에 대한 TCP 대기 시간(ms)의 잠재적 향상을 계산합니다. 이 수행은 테스트된 사용자 사무실 위치 네트워크 대기 시간을 보고 현재 위치에서 닫기 Exchange 서비스 프런트 도어로 네트워크 대기 시간을 빼서 수행됩니다. 이 차이는 개선할 수 있는 가능성을 나타 내는 것입니다.
 
 #### <a name="best-exchange-service-front-doors-for-your-location"></a>위치에 가장 적합한 Exchange 서비스 프런트 도어
 
@@ -228,7 +228,7 @@ Microsoft에서 제공하지 않는 SSL 인증서가 발견되는 경우 테스�
 
 #### <a name="network-path"></a>네트워크 경로
 
-이 섹션에서는 Exchange Online 서비스 프런트 도어, SharePoint Online 서비스 프런트 도어 및 Microsoft Teams 서비스 프런트 도어로의 ICMP 추적 출구 결과를 보여 제공합니다. 정보만 제공하며 연결된 네트워크 인사이트가 없습니다. 세 개의 추적이 제공됩니다. 이 outlook.office365.com, _outlook.office365.com_ 고객 SharePoint 프런트 엔드 또는 microsoft.sharepoint.com(제공되지 않은 _microsoft.sharepoint.com_ 경우) 및 해당 서비스로의 추적 _world.tr.teams.microsoft.com._
+이 섹션에서는 Exchange Online 서비스 프런트 도어, SharePoint Online 서비스 프런트 도어 및 Microsoft Teams 서비스 프런트 도어로의 ICMP 추적 출구 결과를 보여 제공합니다. 정보만 제공하며 연결된 네트워크 인사이트가 없습니다. 세 개의 추적이 제공됩니다. 이 outlook.office365.com, 고객 SharePoint 프런트 엔드 또는 microsoft.sharepoint.com(제공되지 않은  경우) 및 해당 서비스로의 추적 _world.tr.teams.microsoft.com._
 
 ## <a name="connectivity-reports"></a>연결 보고서
 
@@ -266,7 +266,7 @@ Microsoft 365 서비스 프런트 도어는 Office 클라이언트 및 서비스
 
 ### <a name="what-is-an-internet-egress-location"></a>인터넷으로 이동하는 위치란?
 
-인터넷 나가기 위치는 네트워크 트래픽이 엔터프라이즈 네트워크를 종료하고 인터넷에 연결하는 위치입니다. NAT(Network Address Translation) 장치가 있는 위치와 일반적으로 ISP(인터넷 서비스 공급자)에 연결하는 위치로도 식별됩니다. 위치와 인터넷의 연결 위치 간에 긴 거리가 표시될 경우 이는 중요한 WAN 백HAUL을 식별할 수 있습니다.
+인터넷 나가기 위치는 네트워크 트래픽이 엔터프라이즈 네트워크를 종료하고 인터넷에 연결하는 위치입니다. NAT(Network Address Translation) 장치가 있는 위치와 일반적으로 ISP(인터넷 서비스 공급자)에 연결하는 위치로도 식별됩니다. 위치와 인터넷의 반경 위치 간에 긴 거리가 표시될 경우 이는 중요한 WAN 백HAUL을 식별할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

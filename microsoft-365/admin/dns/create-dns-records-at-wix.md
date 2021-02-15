@@ -44,9 +44,9 @@ DNS 호스팅 공급자로 Wix를 사용하고 있는 경우 이 문서의 단�
     
 - [전자 메일 스팸을 방지하기 위해 SPF에 대한 TXT 레코드를 추가합니다.](#add-a-txt-record-for-spf-to-help-prevent-email-spam)
     
-- [Microsoft에 필요한 2개의 SRV 레코드를 추가합니다.](#add-the-two-srv-records-that-are-required-for-microsoft)
+- [Microsoft에 필요한 두 SRV 레코드를 추가합니다.](#add-the-two-srv-records-that-are-required-for-microsoft)
     
-Wix에서 이러한 레코드를 추가하고 나면 도메인이 Microsoft 서비스에서 작동하게 설정됩니다.
+Wix에서 이러한 레코드를 추가하고 나면 도메인이 Microsoft 서비스에서 작동할 수 있도록 설정됩니다.
   
 > [!NOTE]
 >  일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
@@ -129,7 +129,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
 3. Select **+ Add another** in the **CNAME (Aliases)** row of the DNS editor for each CNAME record. 
     
-4. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다.
+4. 새 레코드의 상자에 다음 표의 값을 입력하거나 복사하여 붙여넣습니다.
     
    | 호스트 이름 | Points to  | TTL |
    |:-----|:-----|:-----|

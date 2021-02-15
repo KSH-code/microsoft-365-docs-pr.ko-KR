@@ -71,7 +71,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
 4. 수정할 도메인의 이름이 포함된 행을 찾아야 합니다. 그런 다음 해당 행에서 관리 를 **선택합니다.**
     
-5. 아래로 스크롤하여 **고급** 기술 설정 섹션으로 이동한 다음 **SPF(TXT 레코드 편집)를 선택합니다.**
+5. 고급 기술 설정 **섹션까지** 아래로 스크롤한 다음 **SPF(TXT 레코드 편집)를 선택합니다.**
     
 6. In the boxes for the new record, type or copy and paste the values from the following table.
     

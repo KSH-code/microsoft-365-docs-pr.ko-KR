@@ -147,7 +147,7 @@ Microsoft에서 도메인 설정을 완료하려면 도메인 등록 기관에�
 1. 다른 이름servers가 나열되어 있는 경우 편집을 **선택합니다.**
     
     > [!CAUTION]
-    > Follow these steps only if you have existing nameservers other than the four correct nameservers. 즉, 이름이 **ns1.bdm.microsoftonline.com,** ns2.bdm.microsoftonline.com, ns3.bdm.microsoftonline.com  또는 ns4.bdm.microsoftonline.com **이름** 없는 모든 현재 이름 ns4.bdm.microsoftonline.com 삭제합니다. 
+    > Follow these steps only if you have existing nameservers other than the four correct nameservers. 즉, 이름이 **ns1.bdm.microsoftonline.com,** ns2.bdm.microsoftonline.com, ns3.bdm.microsoftonline.com  또는 .)로 지정되지 않은 현재 이름 ns4.bdm.microsoftonline.com  **삭제합니다.** 
   
     ![Google-Domains-BP-Redelegate-1-6-1](../../media/fb45d120-55ab-42c2-bdb6-19b130c3c7db.png)
   

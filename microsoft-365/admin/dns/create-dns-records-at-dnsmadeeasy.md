@@ -110,7 +110,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**이름**|**서버**|**MX 수준**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |(이 필드는 비워 둡니다.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** Microsoft 계정에서 \<*domain-key*\>을(를) 받으세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |1800  <br/> |
+    |(이 필드는 비워 둡니다.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** Microsoft 계정에서 \<*domain-key*\>을(를) 받으세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |1800  <br/> |
    
     ![DNSMadeEasy-BP-Configure-2-2](../../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
   

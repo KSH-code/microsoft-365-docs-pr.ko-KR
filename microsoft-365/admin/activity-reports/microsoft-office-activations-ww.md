@@ -18,7 +18,7 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 87c24ae2-82e0-4d1e-be01-c3bcc3f18c60
-description: Office 정품 인증 보고서를 통해 Office 구독을 정품 인증한 사용자를 확인하고 추가 도움말이 필요할 수 있는 사용자를 식별하는 방법을 알아보세요.
+description: Office 정품 인증 보고서를 통해 Office 구독을 정품 인증한 사용자를 파악하고 추가 도움말이 필요할 수 있는 사용자를 식별하는 방법을 알아보세요.
 ms.openlocfilehash: 1247b3ce9b055a3e7dc9f75bee6a072787c1a890
 ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
 ms.translationtype: MT
@@ -38,7 +38,7 @@ Office 정품 인증 보고서는 하나 이상의 장치에서 Office 구독을
 ## <a name="how-to-get-to-the-office-activations-report"></a>Office 정품 인증 보고서에 액세스하는 방법
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요. 
-2. 대시보드 홈페이지에서 Office 정품 **View more** 인증 카드의 더 보기 단추를 클릭합니다.
+2. 대시보드 홈페이지에서 Office 정품  인증 카드의 더 보기 단추를 클릭합니다.
   
 ## <a name="interpret-the-office-activations-report"></a>Office 정품 인증 보고서 해석
   
@@ -54,10 +54,10 @@ Office 정품 인증 보고서는 하나 이상의 장치에서 Office 구독을
 |사용자 이름  <br/> |사용자의 전자 메일 주소입니다.  <br/> |
 |표시 이름  <br/> |사용자의 전체 이름입니다.  <br/> |
 |제품 라이선스  <br/> |이 사용자에게 할당된 제품입니다.  <br/> |
-|마지막으로 활성화된 날짜(UTC)  <br/> |사용자가 데스크톱 또는 장치에서 Office를 활성화한 날짜입니다.  <br/> |
+|마지막으로 활성화된 날짜(UTC)  <br/> |사용자가 데스크톱 또는 장치에서 Office를 정품 인증한 날짜입니다.  <br/> |
 |Windows 컴퓨터에서 정품 인증  <br/> |사용자가 Office를 정품 인증한 Windows 데스크톱 수입니다.  <br/> |
 |Mac 컴퓨터에서 정품 인증 <br/> |사용자가 Office를 정품 인증한 Mac 데스크톱 수입니다.|
-|Windows 10 휴대폰 및 태블릿에서 정품 인증  <br/> |사용자가 Office를 정품 인증한 Windows 10 Mobile 장치 수입니다.  <br/> |
+|Windows 10 휴대폰 및 태블릿에서 정품 인증  <br/> |사용자가 Office를 정품 인증한 Windows 10 Mobile 장치의 수입니다.  <br/> |
 |iOS 휴대폰 및 태블릿에서 정품 인증  <br/> |사용자가 Office를 정품 인증한 iOS 장치 수입니다.|
 |Android 휴대폰 및 태블릿에서 정품 인증  <br/> |사용자가 Office를 정품 인증한 Android 장치의 수입니다.  <br/> |
 |사용된 공유 컴퓨터 정품 인증 |사용자가 공유 컴퓨터 정품 인증을 통해 Office를 사용한 경우 마찬가지입니다.|

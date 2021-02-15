@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c33d1ba6-077c-4cea-be04-cfffbe3f3ed8
-description: 도메인의 이름과 도메인을 구입하거나 비즈니스의 기본 도메인을 사용하는 방법을 이해합니다.
+description: 도메인이 무엇일지와 도메인을 구입하거나 비즈니스의 기본 도메인을 사용하는 방법을 이해합니다.
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio

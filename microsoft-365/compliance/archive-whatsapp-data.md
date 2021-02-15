@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365에서 WhatsApp 데이터를 보관할 커넥터 설정
+title: Microsoft 365에서 WhatsApp 데이터를 보관하는 커넥터 설정
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -35,7 +35,7 @@ WhatsApp 데이터를 사용자 사서함에 저장한 후 소송 보존, 콘텐
 
 2. 24시간마다 조직의 WhatsApp 데이터가 TeleMessage 사이트에 복사됩니다.
 
-3. Microsoft 365 규정 준수 센터에서 만든 WhatsApp 커넥터는 매일 TeleMessage 사이트에 연결하고 이전 24시간의 WhatsApp 데이터를 Microsoft 클라우드의 보안 Azure Storage 위치로 전송합니다. 또한 커넥터는 콘텐츠 WhatsApp 데이터를 전자 메일 메시지 형식으로 변환합니다.
+3. Microsoft 365 규정 준수 센터에서 만든 WhatsApp 커넥터는 매일 TeleMessage 사이트에 연결하고 이전 24시간의 WhatsApp 데이터를 Microsoft 클라우드의 보안 Azure Storage 위치로 전송합니다. 또한 커넥터는 WhatsApp 데이터를 전자 메일 메시지 형식으로 변환합니다.
 
 4. 커넥터는 WhatsApp 데이터를 특정 사용자의 사서함으로 가져올 수 있습니다. **WhatsApp Archiver라는** 새 폴더가 특정 사용자의 사서함에 만들어지며 항목을 해당 폴더로 가져올 수 있습니다. 커넥터는 사용자의 전자 메일 주소 속성 값을 사용하여 이 *매핑을* 실행합니다. 모든 WhatsApp 메시지에는 메시지의 모든 참가자의 전자 메일 주소로 채워지는 이 속성이 포함되어 있습니다.
 
@@ -51,7 +51,7 @@ WhatsApp 통신 데이터를 보관하는 데 필요한 구현 단계 중 일부
 
 - 직원의 휴대폰에 TeleMessage [WhatsApp Phone Archiver](https://www.telemessage.com/mobile-archiver/whatsapp-phone-archiver-2/) 앱을 설치하고 활성화합니다. 또는 직원 휴대폰에 일반 WhatsApp 또는 WhatsApp Business 앱을 설치하고 TeleMessage 웹 사이트에서 QR 코드를 검사하여 WhatsApp Cloud Archiver 서비스를 활성화할 수 있습니다. 자세한 내용은 [WhatsApp Cloud Archiver를 참조하세요.](https://www.telemessage.com/mobile-archiver/whatsapp-archiver/whatsapp-cloud-archiver/)
 
-- Verizon 네트워크 커넥터를 만드는 사용자에게 Exchange Online에서 사서함 가져오기 내보내기 역할이 할당되어야 합니다. 이는 Microsoft 365 규정 준수 센터의 **데이터** 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서에서 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
+- Verizon 네트워크 커넥터를 만드는 사용자에게 Exchange Online에서 사서함 가져오기 내보내기 역할이 할당되어야 합니다. 이는 Microsoft 365 규정 준수 센터의 **데이터** 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
 
 ## <a name="create-a-whatsapp-archiver-connector"></a>WhatsApp Archiver 커넥터 만들기
 
@@ -59,7 +59,7 @@ WhatsApp 통신 데이터를 보관하는 데 필요한 구현 단계 중 일부
 
 1. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com/) and then click Data **connectors**  >  **WhatsApp Archiver.**
 
-2. **WhatsApp Archiver** 제품 설명 페이지에서 커넥터 **추가를 클릭합니다.**
+2. **WhatsApp Archiver 제품** 설명 페이지에서 커넥터 **추가를 클릭합니다.**
 
 3. 서비스 약관 **페이지에서** 수락을 **클릭합니다.**
 

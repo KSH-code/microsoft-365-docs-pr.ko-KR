@@ -1,6 +1,6 @@
 ---
-title: Microsoft Managed Desktop에 대 한 구성 가능 설정
-description: Microsoft Managed Desktop을 사용한 구성 가능한 설정에 대 한 정보
+title: Microsoft Managed Desktop의 구성 가능한 설정
+description: Microsoft Managed Desktop을 사용하여 구성 가능한 설정에 대한 정보
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서, 설정, 구성 가능한 설정
 ms.service: m365-md
 author: jaimeo
@@ -18,60 +18,60 @@ ms.locfileid: "49371493"
 ---
 # <a name="configurable-settings---microsoft-managed-desktop"></a>구성 가능한 설정-Microsoft 관리형 데스크톱
 
-Microsoft Managed Desktop은 Microsoft Managed Desktop이 관리 하는 모든 장치에 적용 되는 설정 및 정책을 배포 합니다. 자세한 내용은 [장치 구성을](../service-description/device-policies.md)참조 하세요.
+Microsoft Managed Desktop은 Microsoft Managed Desktop에서 관리하는 모든 장치에 적용되는 설정 및 정책을 배포합니다. 자세한 내용은 장치 [구성을 참조하세요.](../service-description/device-policies.md)
 
-Microsoft Managed Desktop의 구성 가능한 설정은 IT 관리자에 게 조직 및 비즈니스 요구에 고유한 설정을 사용자 지정 하 고 배포 하는 방법을 제공 합니다. 이러한 설정은 Microsoft Managed Desktop에서 관리 하는 장치 구성 설정 및 정책에 추가 됩니다.  
+Microsoft Managed Desktop에서 구성 가능한 설정을 통해 IT 관리자는 조직 및 비즈니스 요구에 맞는 설정을 사용자 지정하고 배포할 수 있습니다. 이러한 설정은 Microsoft Managed Desktop에서 관리하는 장치 구성 설정 및 정책에 추가됩니다.  
 
-구성 가능한 설정 변경 내용은 클라우드에서 작성 되며 정의 된 배포 그룹의 Microsoft Managed Desktop 장치에 적용 됩니다. 이 프로세스는 Microsoft Managed Desktop이 서비스에 의해 정의 되 고 관리 되는 장치 구성 설정 및 정책에 대 한 변경 내용을 관리 하는 방법과 비슷합니다. Microsoft Managed Desktop이 변경 내용을 배포 하는 데 사용 하는 것과 동일한 프로세스를 사용 하 여 최신 IT 관리 방법을 사용 하 여 조직을 앞으로 계속 이동할 수 있습니다.
+구성 가능한 설정 변경 사항은 클라우드에서 적용되고 정의된 배포 그룹의 Microsoft Managed Desktop 장치에 적용됩니다. 이 프로세스는 Microsoft Managed Desktop이 서비스에 의해 정의 및 관리되는 장치 구성 설정 및 정책에 대한 변경 내용을 관리하는 방법과 비슷합니다. Microsoft Managed Desktop이 변경 내용을 배포하는 데 사용하는 프로세스와 동일한 프로세스를 사용하면 최신 IT 관리 방법을 사용하여 조직을 계속 진행할 수 있습니다.
 
-## <a name="when-to-use-configurable-settings"></a>구성 가능한 설정을 사용 하는 경우
+## <a name="when-to-use-configurable-settings"></a>구성 가능한 설정을 사용하는 경우
 
-구성 가능한 설정을 사용 하는 몇 가지 시간이 있습니다. 
+구성 가능한 설정을 몇 번 사용할 수 있습니다. 
 
-**온 보 딩 프로세스** -Microsoft managed Desktop은 Microsoft managed desktop service에 내장 되어 있거나 많은 수의 장치 (20 개 이상)를 온보드 했을 때 구성 가능한 설정을 사용자 지정 하는 것이 좋습니다. 설정 범주는 Microsoft Managed 데스크톱 관리 포털에서 구성 됩니다. 관리자 포털에 대 한 액세스 권한을 가진 후에는 조직에 맞게 사용자 지정할 범주 설정을 결정 하 고, 변경 작업을 수행 하 고, 배포를 준비 하 고, 변경 내용을 배포할 수 있습니다.
+**온보더링 프로세스** - Microsoft Managed Desktop 서비스에 온보드하거나 많은 수의 디바이스를 온보드할 때(20개 이상) 구성 가능한 설정을 사용자 지정하는 것이 좋습니다. 설정 범주는 Microsoft Managed Desktop 관리 포털에서 구성됩니다. 온보드하고 관리 포털에 액세스한 후 조직에 맞게 사용자 지정할 설정 범주를 결정하고, 변경을 진행하고, 배포를 준비한 다음 변경 내용을 배포할 수 있습니다.
 
-**설정 유지** -정기적으로 설정을 검토 하 고 필요한 사항을 업데이트 합니다. 비즈니스 변경 사항을 지원 하기 위해 변경 작업을 수행 해야 할 수 있습니다.   
+**설정 유지** 관리 - 설정을 정기적으로 검토하고 필요한 업데이트를 적용합니다. 비즈니스 변경을 지원하기 위해 변경해야 할 수 있습니다.   
 
 ## <a name="setting-categories"></a>범주 설정
 
 사용자 지정할 수 있는 구성 가능한 설정 범주는 다음과 같습니다.
-- [바탕 화면 배경 그림](config-setting-ref.md#desktop-background-picture) -Microsoft Managed desktop 장치에 대 한 바탕 화면 배경 그림을 사용자 지정 합니다. 
-- [브라우저 시작 페이지](config-setting-ref.md#browser-start-pages) -Microsoft Edge에서 사용할 시작 페이지를 추가 합니다. 브라우저 시작 페이지 참조
-- [엔터프라이즈 모드 사이트 목록](config-setting-ref.md#enterprise-mode-site-list-location) -사이트 및 호환 모드를 추가 합니다. 목록의 사이트가 Internet Explorer에서 시작 됩니다. 
-- [신뢰할 수 있는 사이트](config-setting-ref.md#trusted-sites) -신뢰할 수 있는 사이트를 추가 하 고 각 사이트에 대해 보안 영역을 설정 합니다. 
-- [프록시 사이트 예외](config-setting-ref.md#proxy) -프록시 서버 주소 번호 및 포트 번호를 설정 하 고 프록시 사이트 예외를 추가 합니다.
+- [데스크톱 배경 그림](config-setting-ref.md#desktop-background-picture) - Microsoft Managed Desktop 장치에 대한 데스크톱 배경 그림을 사용자 지정합니다. 
+- [브라우저 시작 페이지](config-setting-ref.md#browser-start-pages) - Microsoft Edge에서 사용할 시작 페이지를 추가합니다. 브라우저 시작 페이지 참조
+- [엔터프라이즈 모드 사이트 목록](config-setting-ref.md#enterprise-mode-site-list-location) - 사이트 및 해당 호환성 모드를 추가합니다. 목록의 사이트는 목록에서 Internet Explorer. 
+- [신뢰할 수 있는 사이트](config-setting-ref.md#trusted-sites) - 신뢰할 수 있는 사이트를 추가하고 각 사이트에 대해 보안 영역 설정 
+- [프록시 사이트 예외](config-setting-ref.md#proxy) - 프록시 서버 주소 번호 및 포트 번호를 설정하고 프록시 사이트 예외를 추가합니다.
 
-각 설정 범주를 사용자 지정 하 고 직접 배포할 수 있습니다. 동시에 여러 설정 범주에 대 한 변경 내용을 배포할 수 있지만 한 번에 하나의 변경만 설정 범주에 배포할 수 있습니다.
+각 설정 범주는 사용자 지정하고 자체적으로 배포할 수 있습니다. 여러 설정 범주에 변경 내용을 동시에 배포할 수 있습니다. 그러나 한 번의 변경 내용만 설정 범주에 배포할 수 있습니다.
 
 예시:
-- 데스크톱 배경 그림 및 신뢰할 수 있는 사이트에 대 한 변경 내용을 각 사용자에 게 동시에 배포할 수 있습니다. 
-- 두 개의 배포를 브라우저 시작 페이지에 동시에 배포할 수는 없습니다. 가장 최근 배포에서는 아직 진행 중인 이전 배포를 중지 합니다.
+- 데스크톱 배경 그림 및 신뢰할 수 있는 사이트에 변경 내용을 각각 자체 배포로 동시에 배포할 수 있습니다. 
+- 브라우저 시작 페이지에는 두 개의 배포를 동시에 배포할 수 없습니다. 가장 최근 배포는 아직 진행 중인 이전 배포를 중지합니다.
 
 ## <a name="configurable-setting-process"></a>구성 가능한 설정 프로세스
 
-Microsoft Managed Desktop은 조직에 대해 구성 가능한 설정을 활용할 때 다음과 유사한 프로세스를 수행 하는 것이 좋습니다.
+조직에 대해 구성 가능한 설정을 사용할 때 다음과 비슷한 프로세스를 따라야 하는 것이 좋습니다.
 
-**1 단계-계획** -구성 가능한 설정에 대해 설명 하 고 조직에 대해 구성할 설정 범주를 결정 합니다. 각 그룹에 대 한 변경 내용을 배포할 것으로 예상 되는 시간에 대 한 일정을 만듭니다. 내부 변경 관리 프로세스를 충족 하는 사용자에 대 한 통신을 계획 합니다. 예를 들어 브라우저 시작 페이지를 추가 하는 경우에는 배포 후 브라우저에 새 시작 페이지 집합을 사용할 수 있음을 사용자에 게 알려 줍니다.  
+**1단계 - 계획** - 구성 가능한 설정에 대해 알아보고 조직에 대해 구성할 설정 범주를 결정할 수 있습니다. 각 그룹에 변경 내용을 배포할 것으로 예상되는 시간 표시 막대를 만드세요. 내부 변경 관리 프로세스를 충족하는 사용자와의 통신을 계획합니다. 예를 들어 브라우저 시작 페이지를 추가하는 경우 배포 후 브라우저에 새 시작 페이지 집합이 표시된다고 사용자에게 알립니다.  
 
-**2 단계-배포 구성 및 단계** -Microsoft Managed Desktop administration portal에서 구성 가능한 설정을 변경 합니다. 배포 준비가 완료 되도록 변경 단계를 진행 합니다. 사용자에 게 변경 내용에 대 한 정보와 변경 내용이 장치 환경을 어떻게 변경 하는지 알려 줄 것을 고려해 야 합니다.   
+**2단계 - 배포** 구성 및 단계 - Microsoft Managed Desktop 관리 포털에서 구성 가능한 설정을 변경합니다. 변경 내용을 배포할 수 있도록 준비합니다. 사용자에게 변경 내용과 변경 내용이 장치 환경을 어떻게 변경하는지 알려야 합니다.   
 
-Microsoft Managed Desktop admin 포털에서 변경 사항을 구성 하 고 준비 합니다. 자세한 내용은 [구성 가능한 설정 사용자 지정](config-setting-ref.md)을 참조 하십시오. 
+Microsoft Managed Desktop 관리 포털에서 변경 내용을 구성하고 단계화합니다. 자세한 내용은 구성 가능한 설정 [사용자 지정을 참조하십시오.](config-setting-ref.md) 
 
-**3 단계-변경 내용 전달** 사용자에 게 예정 된 변경 내용에 대 한 정보를 전달 합니다. 각 배포에 대해 변경 관리 프로세스의 일부인 통신을 완료 합니다. 사용자가 작업 하는 방식 또는 장치에 표시 되는 내용에 영향을 주는 변경 사항을 명확 하 게 전달 해야 합니다.
+**3단계 - 변경 내용 전달** 사용자에 대한 예정된 변경 내용에 대한 정보를 전달합니다. 각 배포에 대해 변경 관리 프로세스의 일부인 통신을 완료합니다. 사용자의 작동 방식이나 장치에 표시될 변경 내용을 명확하게 전달해야 합니다.
 
-**4 단계-배포 변경** -테스트 그룹부터 시작 하 여 변경 내용을 배포 합니다. 테스트 그룹을 사용 하면 대규모 장치 그룹에 대 한 변경 내용을 배포 하기 전에 장치 수가 적을수록 그룹의 모든 문제를 확인 하 고 문제를 해결할 수 있습니다. 문제가 발생할 경우 변경 내용을 되돌리고 설정을 업데이트 하 고 새 배포를 준비할 수 있습니다. Microsoft Managed Desktop은 Test, First, Fast, 폭넓은 순서로 구조화 된 방식을 따르고 그룹에 배포 하는 것이 좋습니다.   
+**4단계 - 변경 내용 배포** - 변경 내용을 테스트 그룹으로 시작하여 배포합니다. 테스트 그룹을 사용하면 더 많은 장치 그룹에 변경 내용을 배포하기 전에 더 적은 수의 장치로 그룹의 문제를 확인하고 문제를 해결할 수 있습니다. 문제가 있는 경우 변경을 되버려서 설정을 업데이트하고 새 배포를 단계화할 수 있습니다. Microsoft Managed Desktop은 구조화된 접근 방식을 따르고 테스트, 첫 번째, 빠르기 및 광범위 순서로 그룹에 배포하는 것이 좋습니다.   
 
-모든 구성 가능한 설정은 Microsoft Managed Desktop admin 포털을 사용 하 여 관리 됩니다. 자세한 내용은 [배포 변경](config-setting-deploy.md)항목을 참조 하십시오. 
+구성 가능한 모든 설정은 Microsoft Managed Desktop 관리 포털을 사용하여 관리됩니다. 자세한 내용은 변경 내용 [배포를 참조하세요.](config-setting-deploy.md) 
 
-**5 단계-변경 내용 추적** -배포 상태에 대 한 변경 진행률을 추적 합니다. 각 설정에 대해 다음 작업을 수행할 수 있습니다.
-- **진행 상황 관리** -변경 내용을 배포한 후 상태를 추적 합니다. 상태가 **진행** 중으로 변경 되 고 **완료** 되거나 **실패** 합니다. 배포에 실패 하면 문제를 조사 하기 위해 Microsoft Managed Desktop 작업에 대 한 지원 요청이 자동으로 열립니다.  
-- **배포 된 버전 확인** -각 배포 되는 변경 내용에 버전 번호가 있습니다.
-- **변경 내용 되돌리기** -변경 내용을 되돌리면 현재 배포가 중지 되 고 모든 그룹이 모든 그룹에 배포 된 마지막 변경 내용으로 되돌아갑니다. 마지막으로 성공한 설정 값으로 롤백하는 중입니다.
-- **변경 내용 유효성 검사** -배포가 완료 된 후 변경 내용이 예상 대로 적용 되었는지 확인 합니다.  
+**5단계 - 변경 내용 추적** - 배포 상태의 변경 내용 진행 상황을 추적합니다. 각 설정에 대해 다음을 할 수 있습니다.
+- **진행률 추적** - 변경을 배포한 후 상태를 추적합니다. 상태가 진행 중으로 변경된 다음 완료 **또는** **실패합니다.**  배포가 실패하면 Microsoft Managed Desktop Operations에서 문제를 조사하기 위한 지원 요청이 자동으로 열립니다.  
+- **배포된 버전을 참조합니다.** 배포된 각 변경에는 버전 번호가 있습니다.
+- **변경 내용 되전** - 변경 내용을 되전하면 현재 배포가 중지된 다음 모든 그룹이 모든 그룹에 배포된 마지막 변경 내용으로 되전됩니다. 마지막으로 알려진 설정 값으로 롤백합니다.
+- **변경 내용 유효성** 검사 - 배포가 완료된 후 변경 내용이 예상대로 적용된 것이 유효한지 검사합니다.  
 
-배포에 실패 했거나 변경 내용을 되돌릴 수 없는 경우 Microsoft Managed Desktop 작업을 사용 하 여 [지원 요청을 엽니다](admin-support.md) . 
+배포가 실패했거나 변경을 되전할 수 없는 [](admin-support.md) 경우 Microsoft Managed Desktop Operations를 사용하여 지원 요청을 열 수 있습니다. 
 
-자세한 내용은 [배포 및 추적 구성 가능 설정](config-setting-deploy.md)를 참조 하세요.
+자세한 내용은 구성 가능한 설정 배포 및 [추적을 참조하세요.](config-setting-deploy.md)
 
 ## <a name="additional-resources"></a>추가 리소스
 - [구성 가능한 설정 참조](config-setting-ref.md) 

@@ -41,17 +41,17 @@ Slack eDiscovery 데이터를 사용자 사서함에 저장한 후 소송 보존
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- Microsoft 커넥터에 대한 Globanet Merge1 계정을 만드시다. 계정을 만들 경우 [Globanet 고객](https://globanet.com/ms-connectors-contact)지원에 문의하세요. 1단계에서 커넥터를 만들 때 이 계정에 로그인합니다.
+- Microsoft 커넥터에 대한 Globanet Merge1 계정을 생성합니다. 계정을 만들 경우 [Globanet 고객](https://globanet.com/ms-connectors-contact)지원에 문의하세요. 1단계에서 커넥터를 만들 때 이 계정에 로그인합니다.
 
 - 조직의 Slack 엔터프라이즈 계정의 사용자 이름과 암호를 얻습니다. Slack을 구성할 때 2단계에서 이 계정에 로그인해야 합니다.
 
-- 1단계에서 Slack eDiscovery 커넥터를 만들고 3단계에서 완료하는 사용자는 Exchange Online의 사서함 가져오기 내보내기 역할에 할당되어야 합니다. 이 역할은 Microsoft 365 규정 준수 센터의 데이터 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다.  기본적으로 이 역할은 Exchange Online의 역할 그룹에 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서에서 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
+- 1단계에서 Slack eDiscovery 커넥터를 만들고 3단계에서 완료하는 사용자는 Exchange Online의 사서함 가져오기 내보내기 역할에 할당되어야 합니다. 이 역할은 Microsoft 365 규정 준수 센터의 데이터 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다.  기본적으로 이 역할은 Exchange Online의 역할 그룹에 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
 
 ## <a name="step-1-set-up-the-slack-ediscovery-connector"></a>1단계: Slack eDiscovery 커넥터 설정
 
 첫 번째 단계는 Microsoft  365 규정 준수 센터의 데이터 커넥터 페이지에 액세스하고 Slack 데이터에 대한 커넥터를 만드는 것입니다.
 
-1. 이동한 [https://compliance.microsoft.com](https://compliance.microsoft.com/) 다음 **데이터** 커넥터  >  **Slack eDiscovery를 클릭합니다.**
+1. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com/) and then click Data **connectors**  >  **Slack eDiscovery.**
 
 2. **Slack eDiscovery 제품** 설명 페이지에서 커넥터 **추가를 클릭합니다.**
 
@@ -71,7 +71,7 @@ Slack eDiscovery 데이터를 사용자 사서함에 저장한 후 소송 보존
 
 1. 외부 사용자를 **Microsoft 365** 사용자에 매핑 페이지에서 자동 사용자 매핑을 사용하도록 설정합니다.
 
-   Slack eDiscovery 항목에는 조직의 사용자에 대한 전자 메일 주소가 포함된 *Email이라는* 속성이 포함되어 있습니다. 커넥터가 이 주소를 Microsoft 365 사용자와 연결하면 항목이 해당 사용자의 사서함으로 가져오기됩니다.
+   Slack eDiscovery 항목에는 조직의 사용자에 대한 전자 메일 주소가 포함된 *Email이라는* 속성이 포함됩니다. 커넥터가 이 주소를 Microsoft 365 사용자와 연결하면 항목이 해당 사용자의 사서함으로 가져오기됩니다.
 
 2. 다음을 **클릭하고** 설정을 검토하고  데이터 커넥터 페이지로 이동하여 새 커넥터의 가져오기 프로세스 진행률을 확인합니다.
 

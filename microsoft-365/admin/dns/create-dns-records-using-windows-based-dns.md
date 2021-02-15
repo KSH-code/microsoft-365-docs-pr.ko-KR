@@ -45,7 +45,7 @@ DNS 레코드를 추가한 후 메일 흐름에 문제가 발생하거나 기타
 <a name="BKMK_add_MX"> </a>
 
 도메인의 전자 메일이 Microsoft로 전송될 수 있도록 MX 레코드를 추가합니다.
-- 추가할 MX 레코드에는 .mail.protection.outlook.com  값(MSxxxxxxxx와 같은 값)이 \<MX token\> \<MX token\> 포함됩니다. 
+- 추가할 MX 레코드에는 .mail.protection.outlook.com  \<MX token\> 값(MSxxxx와 같은 값)이 \<MX token\> 포함됩니다. 
 - Microsoft의 DNS 레코드 추가 페이지의 Exchange Online 섹션에 있는 MX 행에서 주소의 포인트 아래에 나열된 값을 복사합니다. 이 작업에서 만드는 레코드에 이 값을 사용하게 됩니다. 
 - 도메인의 DNS 관리자 페이지에서 작업   >  **메일 교환기(MX)로 이동합니다.** 도메인에 대한 이 페이지를 찾으면 Windows 기반 DNS에서 DNS 레코드 [찾기를 참조하세요.](#find-your-dns-records-in-windows-based-dns)  
 - 새 자원 **레코드** 대화 상자에서 필드가 정확히 다음 값으로 설정되어 있는지 확인하십시오. 
@@ -61,7 +61,7 @@ DNS 레코드를 추가한 후 메일 흐름에 문제가 발생하거나 기타
 Microsoft에 필요한 CNAME 레코드를 추가합니다. Microsoft에 추가 CNAME 레코드가 나열되어 있는 경우 여기에 표시된 동일한 일반적인 단계에 따라 해당 레코드를 추가합니다.
   
 > [!IMPORTANT]
-> Microsoft용 MDM(모바일 장치 관리)이 있는 경우 두 개의 추가 CNAME 레코드를 만들어야 합니다. 다른 4개의 CNAME 레코드를 만드는 데 사용한 절차를 따르되 다음 표의 값을 입력합니다. (MDM이 없는 경우 이 단계를 건너뛸 수 있습니다.) 
+> Microsoft용 MDM(모바일 장치 관리)이 있는 경우 두 개의 CNAME 레코드를 추가로 만들어야 합니다. 다른 4개의 CNAME 레코드를 만드는 데 사용한 절차를 따르되 다음 표의 값을 입력합니다. (MDM이 없는 경우 이 단계를 건너뛸 수 있습니다.) 
 
 - 도메인의 DNS 관리자 페이지에서 작업   >  **CNAME(CNAME)으로 이동합니다.**
 - 새 자원 **레코드** 대화 상자에서 필드가 정확히 다음 값으로 설정되어 있는지 확인하십시오.  
@@ -88,7 +88,7 @@ SIP CNAME 레코드를 추가합니다.
 ### <a name="add-two-cname-records-for-mobile-device-management-mdm-for-microsoft"></a>Microsoft용 MDM(모바일 장치 관리)에 대한 2개의 CNAME 레코드 추가
 
 > [!IMPORTANT]
-> Microsoft용 MDM(모바일 장치 관리)이 있는 경우 두 개의 추가 CNAME 레코드를 만들어야 합니다. 다른 4개의 CNAME 레코드를 만드는 데 사용한 절차를 따르되 다음 표의 값을 입력합니다. >(MDM이 없는 경우 이 단계를 건너뛸 수 있습니다.) 
+> Microsoft용 MDM(모바일 장치 관리)이 있는 경우 두 개의 CNAME 레코드를 추가로 만들어야 합니다. 다른 4개의 CNAME 레코드를 만드는 데 사용한 절차를 따르되 다음 표의 값을 입력합니다. >(MDM이 없는 경우 이 단계를 건너뛸 수 있습니다.) 
   
 
 MDM Enterpriseregistration CNAME 레코드를 추가합니다.  
@@ -182,7 +182,7 @@ TXT 레코드를 추가합니다.
 > 일부 Windows DNS 관리자 버전에서는 txt 레코드를 만들 때 홈 이름이 기본적으로 상위 도메인으로 설정될 수 있도록 도메인이 설정되어 있을 수 있습니다. 이 경우 TXT 레코드를 추가할 때 호스트 이름을 @ 또는 도메인 이름으로 설정하는 대신 비어 있음(값 없음)으로 설정하세요. 
 
 - 호스트 이름: @
-- 유형: TXT
+- Type: TXT
 - 주소: 방금 Microsoft에서 복사한 대상 또는 대상 주소 값을 여기에 붙여 넣습니다.  
 - 확인 **완료를**  >  **선택합니다.**
 

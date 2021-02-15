@@ -117,7 +117,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**MX 1**|**우선 순위**|
     |:-----|:-----|
-    | *\<domain-key\>*  .mail.protection.outlook.com  <br/>  참고: \<domain-key\> Microsoft 계정에서 다운로드하세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | 
+    | *\<domain-key\>*  .mail.protection.outlook.com  <br/>  참고: \<domain-key\> Microsoft 계정에서 다운로드하세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | 
     
     ![1 및 1 - 2 및 3 구성](../../media/3afb04d1-7bbf-4147-89ae-561e14ded26d.png)<br/>
   
@@ -195,7 +195,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
 4. 도메인 센터 **페이지에서** 하위 도메인 **관리를 선택합니다.**
     
-5. 하위  구성 개요 섹션에서 방금 만든 **lyncdiscover** 하위 구성을 찾은 다음 해당 하위 토마에 대한 **패널(v)** 컨트롤을 선택합니다. <br/>하위 **도메인 설정** 영역에서 DNS 설정 **편집을 선택합니다.**
+5. **하위omain 개요** 섹션에서 방금 만든 **lyncdiscover** 하위 구성을 찾은 다음 해당 하위 토마에 대한 **패널(v)** 컨트롤을 선택합니다. <br/>하위 **도메인 설정** 영역에서 DNS 설정 **편집을 선택합니다.**
     
 6. **A/AAAA 레코드(IP 주소)** 섹션의 **IP 주소(A 레코드)** 영역에서 **CNAME을 선택합니다.**
     

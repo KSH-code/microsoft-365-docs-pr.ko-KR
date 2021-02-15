@@ -44,19 +44,19 @@ Microsoft 파트너와 협력하여 타사 데이터 원본에서 Microsoft 365�
 
 ## <a name="how-the-third-party-data-import-process-works"></a>타사 데이터 가져오기 프로세스의 작동 방식
 
-다음 그림과 설명은 파트너와 함께 작업할 때 타사 데이터 가져오기 프로세스가 작동하는 방식에 대해 설명합니다.
+다음 그림 및 설명은 파트너와 함께 작업할 때 타사 데이터 가져오기 프로세스가 작동하는 방식에 대해 설명합니다.
   
 ![타사 데이터 가져오기 프로세스의 작동 방식](../media/5d4cf8e9-b4cc-4547-90c8-d12d04a9f0e7.png)
   
 1. 고객은 선택한 파트너와 협력하여 타사 데이터 원본에서 항목을 추출한 다음 해당 항목을 Microsoft 365로 가져오는 커넥터를 구성합니다.
     
-2. 파트너 커넥터는 타사 API를 통해(예약 또는 구성에 따라) 타사 데이터 원본에 연결하고 데이터 원본에서 항목을 추출합니다. 파트너 커넥터는 항목의 내용을 전자 메일 메시지 형식으로 변환합니다. 메시지 형식 schema에 대한 설명은 [추가](#more-information) 정보 섹션을 참조하세요. 
+2. 파트너 커넥터는 타사 API(예약 또는 구성에 따라)를 통해 타사 데이터 원본에 연결하고 데이터 원본에서 항목을 추출합니다. 파트너 커넥터는 항목의 내용을 전자 메일 메시지 형식으로 변환합니다. 메시지 형식 schema에 대한 설명은 [추가](#more-information) 정보 섹션을 참조하세요. 
     
 3. 파트너 커넥터는 잘 알려진 끝점을 통해 EWS(Exchange 웹 서비스)를 사용하여 Microsoft 365의 Azure 서비스에 연결합니다.
     
 4. 항목은 특정 사용자의 사서함 또는 "범용" 타사 데이터 사서함으로 가져오기됩니다. 항목을 특정 사용자 사서함으로 가져올지 또는 타사 데이터 사서함으로 가져올지는 다음 기준을 기반으로 합니다.
     
-   1. 사용자 계정에 해당하는 사용자 **ID가 있는 항목:** 파트너 커넥터가 타사 데이터 원본에 있는 항목의 사용자 ID를 Microsoft 365의 특정 사용자 ID에 매핑할  수 있는 경우 해당 항목이 사용자의 복구 가능한 항목 폴더에 있는 제거 폴더에 복사됩니다. 제거 폴더의 항목에는 액세스할 수 없습니다. 그러나 eDiscovery 도구를 사용하여 제거 폴더의 항목을 검색할 수 있습니다.
+   1. 사용자 계정에 해당하는 사용자 ID가 있는 **항목:** 파트너 커넥터가 타사 데이터 원본에 있는 항목의 사용자 ID를 Microsoft 365의 특정 사용자 ID에 매핑할  수 있는 경우 해당 항목이 사용자의 복구 가능한 항목 폴더에 있는 제거 폴더에 복사됩니다. 제거 폴더의 항목에는 액세스할 수 없습니다. 그러나 eDiscovery 도구를 사용하여 제거 폴더의 항목을 검색할 수 있습니다.
     
    1. 사용자 계정에 해당하는 사용자 **ID가 없는 항목:** 파트너 커넥터에서 항목의 사용자 ID를 특정 사용자 ID에 매핑할 수 없는 경우  항목이 타사 데이터 사서함의 받은 편지함 폴더에 복사됩니다. 받은 편지함에 항목을 가져올 수 있으면 관리자 또는 조직의 누군가가 타사 사서함에 로그인하여 이러한 항목을 보고 관리할 수 있으며 파트너 커넥터 구성을 조정해야 하는지 확인할 수 있습니다.
  
@@ -130,7 +130,7 @@ Microsoft 365에서 타사 데이터를 보관하는 주요 구성 요소는 타
     
 - Flickr
     
-- 인자
+- 인연
     
 - LinkedIn
     
@@ -496,7 +496,7 @@ Microsoft 365로 데이터를 가져오기 위한 타사 데이터 사서함을 
     
 3. 타사 데이터 사서함에 대해 다음 준수 관련 기능을 사용하도록 설정하십시오.
     
-    - 보관 사서함을 사용하도록 설정 see [Enable archive mailboxes](enable-archive-mailboxes.md) and [Enable unlimited archiving](enable-unlimited-archiving.md). 이렇게 하면 타사 데이터 항목을 보관 사서함으로 이동하는 보관 정책을 설정하여 기본 사서함의 저장소 공간을 자유롭게 사용할 수 있습니다. 이를 통해 타사 데이터에 대한 무제한 저장소를 제공합니다.
+    - 보관 사서함을 사용하도록 설정 see [Enable archive mailboxes](enable-archive-mailboxes.md) and [Enable unlimited archiving](enable-unlimited-archiving.md). 이렇게 하면 타사 데이터 항목을 보관 사서함으로 이동하는 보관 정책을 설정하여 기본 사서함의 저장소 공간을 자유롭게 사용할 수 있습니다. 이렇게 하면 타사 데이터에 대한 무제한 저장소를 사용할 수 있습니다.
     
     - 타사 데이터 사서함에 소송 보존을 적용합니다. 보안 및 준수 센터에서 Microsoft 365 보존 정책을 적용할 수 있습니다. 이 사서함을 보류하면 타사 데이터 항목(무기한 또는 지정된 기간 동안)이 유지되고 사서함에서 제거되지 않습니다. 다음 항목 중 하나를 참조하세요.
     
@@ -565,12 +565,12 @@ Microsoft 365로 데이터를 가져오기 위한 타사 데이터 사서함을 
     
     |**메시지 속성**|**필수 여부**|**설명**|**예제 값**|
     |:-----|:-----|:-----|:-----|
-    |**보낸 사람** <br/> |예  <br/> |타사 데이터 원본 항목을 처음 만들었거나 보낸 사람입니다. 파트너 커넥터는 원본 항목(예: Twitter 핸들)의 사용자 ID를 모든 참가자(FROM 및 TO 필드의 사용자)의 사용자 계정에 매핑하려고 시도합니다. 메시지 복사본을 모든 참가자의 사서함으로 가져옵니다. 항목의 참가자를 사용자 계정에 매핑할 수 없는 경우 해당 항목을 Microsoft 365의 타사 보관 사서함으로 가져올 수 있습니다.  <br/> <br/> 항목의 보낸 사람으로 식별된 참가자는 항목을 가져오는 조직에서 활성 사서함을 가져와야 합니다. 보낸 사람에게 활성 사서함이 없으면 다음과 같은 오류가 반환됩니다.<br/><br/>  `One or more messages in the Request failed to be delivered to either From or Sender email address. You will need to resend your entire Request. Error: The request failed. The remote server returned an error: (401) Unauthorized.`  | `bob@contoso.com` <br/> |
+    |**보낸 사람** <br/> |예  <br/> |타사 데이터 원본 항목을 처음 만들었거나 보낸 사람입니다. 파트너 커넥터는 원본 항목(예: Twitter 핸들)의 사용자 ID를 모든 참가자(FROM 및 TO 필드의 사용자)의 사용자 계정에 매핑하려고 시도합니다. 메시지 복사본을 모든 참가자의 사서함으로 가져옵니다. 항목의 참가자를 사용자 계정에 매핑할 수 없는 경우 항목을 Microsoft 365의 타사 보관 사서함으로 가져올 수 있습니다.  <br/> <br/> 항목의 보낸 사람으로 식별된 참가자는 항목을 가져오는 조직에서 활성 사서함을 가져와야 합니다. 보낸 사람에게 활성 사서함이 없으면 다음과 같은 오류가 반환됩니다.<br/><br/>  `One or more messages in the Request failed to be delivered to either From or Sender email address. You will need to resend your entire Request. Error: The request failed. The remote server returned an error: (401) Unauthorized.`  | `bob@contoso.com` <br/> |
     |**받는 사람** <br/> |예  <br/> |데이터 원본의 항목을 받은 사람입니다(해당되는 경우).  <br/> | `bob@contoso.com` <br/> |
     |**제목** <br/> |아니요  <br/> |원본 항목의 제목입니다.  <br/> | `"Mega deals with Contoso coming your way! #ContosoHolidayDeals"` <br/> |
     |**DATE** <br/> |예  <br/> |항목을 처음 만들거나 고객 데이터 원본에 게시한 날짜입니다. 예를 들어 Twitter 메시지가 트윗된 날짜입니다.  <br/> | `01 NOV 2015` <br/> |
     |**BODY** <br/> |아니요  <br/> |메시지 또는 게시물의 콘텐츠입니다. 일부 데이터 원본의 경우 이 속성의 콘텐츠는 **SUBJECT** 속성의 콘텐츠와 같을 수 있습니다. 가져오기 프로세스 중에 파트너 커넥터는 콘텐츠 원본에서 최대한 완전한 고화성을 유지하려고 시도합니다. 가능한 경우 원본 항목의 본문에서 가져온 파일, 그래픽 또는 기타 콘텐츠가 이 속성에 포함됩니다. 그렇지 않은 경우 원본 항목의 콘텐츠가 **ATTACHMENT** 속성에 포함됩니다. 이 속성의 내용은 파트너 커넥터 및 원본 플랫폼의 기능에 따라 달라 습니다.  <br/> | `Author: bob@contoso.com` <br/>  `Date: 10 DEC 2014` <br/>  `Tweet: "Mega deals with Contoso coming your way! #ContosoHolidayDeals"` <br/>  `Date: 01 NOV 2015` <br/> |
-    |**첨부 파일** <br/> |아니요  <br/> |데이터 원본의 항목(예: Twitter의 트윗 또는 인스턴트 메시징 대화)에 첨부 파일이 있는 경우 또는 이미지가 포함된 경우 파트너 연결은 먼저 **BODY** 속성에 첨부 파일을 포함하려고 시도합니다. If that't possible, then it's added to the ** ATTACHMENT ** property. 첨부 파일의 다른 예로는 Facebook의 좋아요, 콘텐츠 원본의 메타데이터, 메시지 또는 게시물에 대한 응답이 있습니다.  <br/> | `image.gif` <br/> |
+    |**첨부 파일** <br/> |아니요  <br/> |데이터 원본의 항목(예: Twitter의 트윗 또는 인스턴트 메시징 대화)에 첨부 파일 또는 이미지가 포함된 경우 파트너 연결은 먼저 **BODY** 속성에 첨부 파일을 포함하려고 시도합니다. If that't possible, then it's added to the ** ATTACHMENT ** property. 첨부 파일의 다른 예로는 Facebook의 좋아요, 콘텐츠 원본의 메타데이터, 메시지 또는 게시물에 대한 응답이 있습니다.  <br/> | `image.gif` <br/> |
     |**MESSAGECLASS** <br/> |예  <br/> | 파트너 커넥터가 만들어서 채우는 다중 값 속성입니다. 이 속성의 형식은  `IPM.NOTE.Source.Event` . 이 속성은 .로 시작해야  `IPM.NOTE` 합니다. 이 형식은 메시지 클래스의 형식과  `IPM.NOTE.X` 유사합니다. 이 속성에는 다음 정보가 포함됩니다.  <br/><br/>`Source`: 타사 데이터 원본을 나타냅니다. 예: Twitter, Facebook 또는 BlackBerry.  <br/> <br/>  `Event`: 항목을 생성한 타사 데이터 원본에서 수행된 활동 유형을 나타냅니다. 예를 들어 Twitter의 트윗이나 Facebook의 게시물을 예로 들 수 있습니다. 이벤트는 데이터 원본과 관련이 있습니다.  <br/> <br/>  이 속성의 한 가지 목적은 항목이 시작된 데이터 원본이나 이벤트의 유형에 따라 특정 항목을 필터링하는 것입니다. 예를 들어 eDiscovery 검색에서 특정 사용자가 게시한 모든 트윗을 찾는 검색 쿼리를 만들 수 있습니다.  <br/> | `IPM.NOTE.Twitter.Tweet` <br/> |
    
 - 항목을 Microsoft 365의 사서함으로 가져오면 HTTP 응답의 일부로 고유 식별자가 호출자에 다시 반환됩니다. 파트너가 항목의 종단을 추적하기 위해 후속 문제 해결 목적으로 이 식별자를 사용할  `x-IngestionCorrelationID` 수 있습니다. 파트너는 이 정보를 수집하고 적절하게 기록해두는 것이 좋습니다. 이 식별자를 나타내는 HTTP 응답의 예는 다음과 같습니다.

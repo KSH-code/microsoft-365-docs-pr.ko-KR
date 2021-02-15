@@ -11,7 +11,7 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: 관리자는 Microsoft 365의 Globanet에서 Reuters Eikon 데이터를 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 Microsoft 365에서 타사 데이터 원본의 데이터를 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
+description: 관리자는 Microsoft 365의 Globanet에서 Reuters Eikon 데이터를 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 Microsoft 365에 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
 ms.openlocfilehash: f790317fb8ed8f94601d7915b484015c4cdf6088
 ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "49620365"
 ---
 # <a name="set-up-a-connector-to-archive-reuters-eikon-data"></a>Reuters Eikon 데이터를 보관할 커넥터 설정
 
-Microsoft 365 규정 준수 센터의 Globanet 커넥터를 사용하여 Reuters Eikon 플랫폼에서 Microsoft 365 조직의 사용자 사서함으로 데이터를 가져오고 보관합니다. Globanet은 타사 데이터 원본에서 항목을 캡처하고(정기적으로) 해당 항목을 Microsoft 365로 가져오도록 구성된 [Reuters Eikon](https://globanet.com/eikon/) 커넥터를 제공합니다. 커넥터는 사용자 Reuters Eikon 계정에서 일대일 메시지, 그룹 채팅, 첨부 파일 및 고지와 같은 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 Microsoft 365의 사용자 사서함으로 해당 항목을 가져올 수 있습니다.
+Microsoft 365 규정 준수 센터의 Globanet 커넥터를 사용하여 Reuters Eikon 플랫폼에서 Microsoft 365 조직의 사용자 사서함으로 데이터를 가져오고 보관합니다. Globanet은 타사 데이터 원본에서 항목을 캡처하고(정기적으로) 해당 항목을 Microsoft 365로 가져오도록 구성된 [Reuters Eikon](https://globanet.com/eikon/) 커넥터를 제공합니다. 커넥터는 사용자 Reuters Eikon 계정에서 일대일 메시지, 그룹 채팅, 첨부 파일 및 고지 내용과 같은 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 이러한 항목을 Microsoft 365의 사용자 사서함으로 가져올 수 있습니다.
 
 Reuters Eikon 데이터가 사용자 사서함에 저장되고 나면 소송 보존, eDiscovery, 보존 정책 및 보존 레이블, 통신 준수와 같은 Microsoft 365 규정 준수 기능을 적용할 수 있습니다. Reuters Eikon 커넥터를 사용하여 Microsoft 365에서 데이터를 가져오고 보관하면 조직이 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
 
@@ -61,7 +61,7 @@ Reuters Eikon 데이터가 사용자 사서함에 저장되고 나면 소송 보
 
 ## <a name="step-2-configure-the-reuters-eikon-connector-on-the-globanet-merge1-site"></a>2단계: Globanet Merge1 사이트에서 Reuters Eikon 커넥터 구성
 
-두 번째 단계는 Merge1 사이트에서 Reuters Eikon 커넥터를 구성하는 것입니다. Globanet Merge1 사이트에서 Reuters Eikon 커넥터를 구성하는 방법에 대한 자세한 내용은 Merge1 타사 커넥터 [사용자 가이드를 참조하십시오.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Reuters%20Eikon%20User%20Guide%20.pdf)
+두 번째 단계는 Merge1 사이트에서 Reuters Eikon 커넥터를 구성하는 것입니다. Globanet Merge1 사이트에서 Reuters Eikon 커넥터를 구성하는 방법에 대한 자세한 내용은 [Merge1 Third-Party Connectors 사용자 가이드를 참조하십시오.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Reuters%20Eikon%20User%20Guide%20.pdf)
 
 저장 **&** 마친 후 Microsoft  365 준수 센터의 커넥터 마법사에 있는 사용자 매핑 페이지가 표시됩니다.
 

@@ -43,13 +43,13 @@ ID | 범주 | ER | Addresses | 포트
 19 | 기본<BR>필수 | 아니요 | `*.cdn.office.net` | **TCP:** 443
 20 | 허용<BR>필수 | 아니요 | `adminwebservice.microsoftonline.de, becws.microsoftonline.de, companymanager.microsoftonline.de, device.login.microsoftonline.de, directoryprovisioning.cloudapi.de, graph.cloudapi.de, graph.microsoft.de, login.microsoftonline.de, logincert.microsoftonline.de, pas.cloudapi.de, passwordreset.activedirectory.microsoftazure.de, provisioningapi.microsoftonline.de, syncservice.microsoftonline.de`<BR>`51.4.2.10/32, 51.4.71.61/32, 51.4.136.38/31, 51.4.136.40/31, 51.4.136.42/32, 51.4.146.38/32, 51.4.146.206/32, 51.5.16.7/32, 51.5.71.22/32, 51.5.136.32/30, 51.5.136.36/32, 51.5.145.29/32, 51.5.145.122/32` | **TCP:** 443, 80
 22 | 기본<BR>필수 | 아니요 | `*.msauth.net, *.msauthimages.de, *.msftauth.net, *.msftauthimages.de, secure.aadcdn.microsoftonline-p.com, secure.aadcdn.microsoftonline-p.de` | **TCP:** 443, 80
-25@@ | 기본<BR>필수 | 아니요 | `*.de.msods.nsatc.net, *.office.de.akadns.net, *.windows.de.nsatc.net, officehome.msocdn.de, shellprod.msocdn.com` | **TCP:** 443, 80
-6mb | 기본<BR>필수 | 아니요 | `*.d-trust.net` | **TCP:** 443, 80
-kb(56kbps | 허용<BR>필수 | 아니요 | `*.onmicrosoft.de, *.osi.office.de, office.de, portal.office.de, webshell.suite.office.de, www.office.de`<BR>`51.4.70.0/24, 51.4.71.0/24, 51.4.226.115/32, 51.4.227.178/32, 51.4.230.178/32, 51.5.70.0/24, 51.5.71.0/24, 51.5.147.48/32, 51.5.242.163/32, 51.5.245.67/32, 2a01:4180:2001::2/128, 2a01:4180:2001::3/128, 2a01:4180:2001::92/128, 2a01:4180:2001::234/128, 2a01:4180:2001::3b8/128, 2a01:4180:2401::5/128, 2a01:4180:2401::11e/128, 2a01:4180:2401::11f/128, 2a01:4180:2401::33b/128, 2a01:4180:2401::55b/128` | **TCP:** 443, 80
-28@@ | 기본<BR>필수 | 아니요 | `*.cloudfront.net, prod.msocdn.de, r1.res.office365.com, shellprod.msocdn.de` | **TCP:** 443, 80
-명 | 허용<BR>필수 | 아니요 | `51.4.144.41/32, 51.4.144.174/32, 51.4.145.38/32, 51.4.147.81/32, 51.4.147.233/32, 51.4.148.12/32, 51.4.150.145/32, 51.5.147.242/32, 51.5.149.100/32, 51.5.149.119/32, 51.5.149.123/32, 51.5.149.180/32, 51.5.149.186/32, 51.18.0.0/21` | **TCP:** 443, 80
-kb | 기본<BR>필수 | 아니요 | `sharepoint.de` | **TCP:** 443, 80
-일 | 기본<BR>필수 | 아니요 | `o15.officeredir.microsoft.com, odc.officeapps.live.com, odcsm.officeapps.live.com, office.microsoft.com, office15client.microsoft.com, officeimg.vo.msecnd.net, roaming.officeapps.live.com` | **TCP:** 443, 80
+25 | 기본<BR>필수 | 아니요 | `*.de.msods.nsatc.net, *.office.de.akadns.net, *.windows.de.nsatc.net, officehome.msocdn.de, shellprod.msocdn.com` | **TCP:** 443, 80
+26 | 기본<BR>필수 | 아니요 | `*.d-trust.net` | **TCP:** 443, 80
+27 | 허용<BR>필수 | 아니요 | `*.onmicrosoft.de, *.osi.office.de, office.de, portal.office.de, webshell.suite.office.de, www.office.de`<BR>`51.4.70.0/24, 51.4.71.0/24, 51.4.226.115/32, 51.4.227.178/32, 51.4.230.178/32, 51.5.70.0/24, 51.5.71.0/24, 51.5.147.48/32, 51.5.242.163/32, 51.5.245.67/32, 2a01:4180:2001::2/128, 2a01:4180:2001::3/128, 2a01:4180:2001::92/128, 2a01:4180:2001::234/128, 2a01:4180:2001::3b8/128, 2a01:4180:2401::5/128, 2a01:4180:2401::11e/128, 2a01:4180:2401::11f/128, 2a01:4180:2401::33b/128, 2a01:4180:2401::55b/128` | **TCP:** 443, 80
+28 | 기본<BR>필수 | 아니요 | `*.cloudfront.net, prod.msocdn.de, r1.res.office365.com, shellprod.msocdn.de` | **TCP:** 443, 80
+29 | 허용<BR>필수 | 아니요 | `51.4.144.41/32, 51.4.144.174/32, 51.4.145.38/32, 51.4.147.81/32, 51.4.147.233/32, 51.4.148.12/32, 51.4.150.145/32, 51.5.147.242/32, 51.5.149.100/32, 51.5.149.119/32, 51.5.149.123/32, 51.5.149.180/32, 51.5.149.186/32, 51.18.0.0/21` | **TCP:** 443, 80
+30 | 기본<BR>필수 | 아니요 | `sharepoint.de` | **TCP:** 443, 80
+31 | 기본<BR>필수 | 아니요 | `o15.officeredir.microsoft.com, odc.officeapps.live.com, odcsm.officeapps.live.com, office.microsoft.com, office15client.microsoft.com, officeimg.vo.msecnd.net, roaming.officeapps.live.com` | **TCP:** 443, 80
 33 | 기본<BR>필수 | 아니요 | `res.delve.office.com` | **TCP:** 443
 34 | 기본<BR>필수 | 아니요 | `lpcres.delve.office.com` | **TCP:** 443
 35 | 기본<BR>필수 | 아니요 | `*.office.de` | **TCP:** 443, 80

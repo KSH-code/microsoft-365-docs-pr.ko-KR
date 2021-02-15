@@ -32,7 +32,7 @@ ms.locfileid: "49613859"
 
 ![내부자 위험 솔루션 통신 준수 단계](../media/ir-solution-cc-steps.png)
 
-1. Microsoft 365의 통신 [규정 준수에](communication-compliance.md) 대해 자세히 알아보기
+1. Microsoft 365의 통신 [규정](communication-compliance.md) 준수에 대해 자세히 알아보기
 2. 통신 규정 [준수 계획](communication-compliance-plan.md) 및 [라이선스 확인](communication-compliance-configure.md#subscriptions-and-licensing)
 3. 기능 [참조 및 솔루션 기능 검토](communication-compliance-feature-reference.md)
 4. 선행 [구성 및](communication-compliance-configure.md#step-2-required-enable-the-audit-log) [사용 권한 구성](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance)

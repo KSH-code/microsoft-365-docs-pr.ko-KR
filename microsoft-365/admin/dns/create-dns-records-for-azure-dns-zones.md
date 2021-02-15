@@ -104,7 +104,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     ![Azure-BP-Configure-1-3](../../media/b04db89a-3dbc-4cd2-aaca-af17fda53a60.png)
   
-4. 레코드 집합 추가 **영역의** 새 레코드 집합용 상자에서 다음 표의 값을 선택합니다. 
+4. 레코드 집합 추가 **영역의** 새 레코드 집합에 대한 상자에서 다음 표의 값을 선택합니다. 
     
     (드롭다운 **목록에서 형식** 및 **TTL** 단위 값을 선택합니다.) 
     
@@ -160,7 +160,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**이름**|**Type(종류)**|**TTL**|**TTL 단위**|**기본 설정**|**메일 교환**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1   <br/> |시간  <br/> |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  
+    |@  <br/> |MX  <br/> |1   <br/> |시간  <br/> |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  
    
     ![Azure-BP-Configure-2-1](../../media/712c23ae-9d38-4af2-94e0-0704e70744fe.png)
   

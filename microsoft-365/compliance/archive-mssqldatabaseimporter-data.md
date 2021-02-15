@@ -11,7 +11,7 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: 관리자는 MS SQL 데이터베이스에서 데이터를 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 Microsoft 365에서 타사 데이터 원본의 데이터를 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
+description: 관리자는 MS SQL 데이터베이스에서 데이터를 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 Microsoft 365에 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
 ms.openlocfilehash: 686575877f788a2c2662024d5fac3e425d08c500
 ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
@@ -29,7 +29,7 @@ MS SQL 데이터베이스의 콘텐츠가 사용자 사서함에 저장된 후 �
 
 다음 개요에서는 커넥터를 사용하여 Microsoft 365에서 MS SQL 데이터를 보관하는 프로세스에 대해 설명합니다.
 
-![MS 데이터 보관 워크플로 SQL](../media/MSSQLDatabaseConnectorWorkflow.png)
+![MS 2013 데이터를 위한 SQL 워크플로](../media/MSSQLDatabaseConnectorWorkflow.png)
 
 1. 조직은 MS SQL 데이터베이스 공급자와 함께 MS SQL 데이터베이스 사이트를 설정하고 구성합니다.
 
@@ -43,7 +43,7 @@ MS SQL 데이터베이스의 콘텐츠가 사용자 사서함에 저장된 후 �
 
 - Microsoft 커넥터에 대한 Globanet Merge1 계정을 만드시다. 계정을 만들 경우 [Globanet 고객](https://globanet.com/contact-us/)지원에 문의하세요. 1단계에서 커넥터를 만들 때 이 계정에 로그인해야 합니다.
 
-- 1단계에서 MS SQL 데이터베이스 가져오기 커넥터를 만들고 3단계에서 완료하는 사용자는 Exchange Online의 사서함 가져오기 내보내기 역할에 할당되어야 합니다. 이 역할은 Microsoft 365 규정 준수 센터의 데이터 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다. 기본적으로 이 역할은 Exchange Online의 역할 그룹에 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서에서 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
+- 1단계에서 MS SQL 데이터베이스 가져오기 커넥터를 만들고 3단계에서 완료하는 사용자는 Exchange Online의 사서함 가져오기 내보내기 역할에 할당되어야 합니다. 이 역할은 Microsoft 365 규정 준수 센터의 데이터 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다. 기본적으로 이 역할은 Exchange Online의 역할 그룹에 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
 
 ## <a name="step-1-set-up-the-ms-sql-database-importer-connector"></a>1단계: MS SQL 가져오기 커넥터 설정
 
@@ -63,7 +63,7 @@ MS SQL 데이터베이스의 콘텐츠가 사용자 사서함에 저장된 후 �
 
 두 번째 단계는 Merge1 사이트에서 MS SQL 가져오기 커넥터를 구성하는 것입니다. MS SQL 데이터베이스 가져오기 구성 방법에 대한 자세한 내용은 [Merge1 Third-Party Connectors 사용자 가이드를 참조하십시오.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20MS%20SQL%20Database%20Importer%20User%20Guide%20.pdf)
 
-저장 **&** 마친 후 Microsoft  365 준수 센터의 커넥터 마법사에 있는 사용자 매핑 페이지가 표시됩니다.
+저장 & **마친** 후 Microsoft  365 준수 센터의 커넥터 마법사에 있는 사용자 매핑 페이지가 표시됩니다.
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>3단계: 사용자 매핑 및 커넥터 설정 완료
 

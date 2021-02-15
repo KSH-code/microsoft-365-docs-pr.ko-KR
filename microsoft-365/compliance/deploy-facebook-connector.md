@@ -22,7 +22,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "49619954"
 ---
-# <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Facebook 비즈니스 페이지 데이터를 보관할 커넥터 배포
+# <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Facebook 비즈니스 페이지 데이터를 보관하는 커넥터 배포
 
 이 문서에는 Office 365 가져오기 서비스를 사용하여 Facebook 비즈니스 페이지에서 Microsoft 365로 데이터를 가져오는 커넥터를 배포하는 단계별 프로세스가 포함되어 있습니다. 이 프로세스에 대한 개략적인 개요와 Facebook 커넥터를 배포하는 데 필요한 필수 구성 사항 목록을 확인하려면 Facebook 데이터를 보관할 커넥터 [설정을 참조하세요.](archive-facebook-data-with-sample-connector.md)
 
@@ -66,7 +66,7 @@ ms.locfileid: "49619954"
 
 ## <a name="step-2-deploy-the-connector-web-service-from-github-to-your-azure-account"></a>2단계: GitHub에서 Azure 계정으로 커넥터 웹 서비스 배포
 
-1. 이 [GitHub 사이트로](https://github.com/microsoft/m365-sample-connector-csharp-aspnet) 이동하여 **Azure에 배포를 클릭합니다.**
+1. 이 [GitHub](https://github.com/microsoft/m365-sample-connector-csharp-aspnet) 사이트로 이동하여 **Azure에 배포를 클릭합니다.**
 
     ![Azure에 배포를 클릭합니다.](../media/FBCGithubApp.png)
 
@@ -86,7 +86,7 @@ ms.locfileid: "49619954"
 
      ![리소스 만들기 및 저장소 계정 유형 클릭](../media/FBCimage12.png)
 
-3. 배포가 성공하면 페이지는 다음 스크린샷과 비슷합니다.
+3. 배포가 성공하면 페이지가 다음 스크린샷과 유사하게 표시됩니다.
 
    ![저장소를 클릭한 다음 저장소 계정을 클릭합니다.](../media/FBCimage13.png)
 
@@ -126,7 +126,7 @@ ms.locfileid: "49619954"
 
 9. Webhook 콜백 URL을 추가하고 확인 토큰을 추가합니다. 콜백 URL의 형식은 **<connectorserviceuri> /api/FbPageWebhook** 형식을 사용합니다. 여기서 connectorserviceuri의 값은 조직의 Azure 앱 서비스 URL입니다. 예를 들면 다음과 `https://fbconnector.azurewebsites.net` 같습니다.
 
-   확인 토큰은 강력한 암호와 유사해야 합니다. 확인 토큰을 텍스트 파일 또는 다른 저장소 위치에 복사합니다.
+   확인 토큰은 강력한 암호와 유사해야 합니다. 확인 토큰을 텍스트 파일 또는 다른 저장 위치에 복사합니다.
 
    ![확인 토큰 추가](../media/FBCimage33.png)
 
@@ -204,7 +204,7 @@ ms.locfileid: "49619954"
 
    - 연결 **URL 상자에** Azure 앱 서비스 URL을 입력하거나 붙여넣습니다. 예를 들면 `https://fbconnector.azurewebsites.net` 다음과 같습니다.
 
-   - 암호 **상자에** 2단계에서 추가한 APISecretKey 값을 입력하거나 붙여넣습니다.
+   - 암호 **상자에** 2단계에서 추가한 APISecretKey의 값을 입력하거나 붙여넣습니다.
 
    - Azure **앱 ID** 상자에 1단계에서 만든 AAD 응용 프로그램 ID로도 호출되는 응용 프로그램(클라이언트) ID의 값을 입력하거나 붙여넣습니다.
 
@@ -228,4 +228,4 @@ ms.locfileid: "49619954"
 
 13. **다음을** 클릭하여 커넥터 설정을 검토한 다음 **마친을** 클릭하여 커넥터 설정을 완료합니다.
 
-14. 준수 센터에서 데이터 커넥터  페이지로 이동한 다음  커넥터 탭을 클릭하여 가져오기 프로세스의 진행률을 확인하십시오.
+14. 준수 센터에서 데이터 커넥터  페이지로 이동한 다음  커넥터 탭을 클릭하여 가져오기 프로세스의 진행률을 봐야 합니다.

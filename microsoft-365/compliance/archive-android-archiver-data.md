@@ -21,7 +21,7 @@ ms.locfileid: "49620533"
 ---
 # <a name="set-up-a-connector-to-archive-android-mobile-data"></a>Android 모바일 데이터를 보관할 커넥터 설정
 
-Microsoft 365 규정 준수 센터의 TeleMessage 커넥터를 사용하여 Android 휴대폰에서 SMS, MMS, 음성 통화 및 통화 로그를 가져오고 보관합니다. 커넥터를 설정 및 구성한 후 커넥터는 매일 한 번씩 조직의 TeleMessage 계정에 연결하고, TeleMessage Android Archiver를 사용하여 직원의 모바일 통신을 Microsoft 365의 사서함으로 가져올 수 있습니다.
+Microsoft 365 규정 준수 센터의 TeleMessage 커넥터를 사용하여 Android 휴대폰에서 SMS, MMS, 음성 통화 및 통화 로그를 가져오고 보관합니다. 커넥터를 설정하고 구성한 후 커넥터는 매일 한 번씩 조직의 TeleMessage 계정에 연결하고, TeleMessage Android Archiver를 사용하여 직원의 모바일 통신을 Microsoft 365의 사서함으로 가져올 수 있습니다.
 
 Android 휴대폰의 데이터가 사용자 사서함에 저장되고 나면 소송 보존, 콘텐츠 검색 및 Microsoft 365 보존 정책과 같은 Microsoft 365 규정 준수 기능을 Android 보관 파일에 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용하여 Android Archiver 모바일 통신을 검색하거나 Android Archiver 커넥터 데이터가 포함된 사서함을 고급 eDiscovery 사례의 보호자와 연결할 수 있습니다. Android Archiver 커넥터를 사용하여 Microsoft 365에서 데이터를 가져오고 보관하면 조직이 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
 
@@ -33,7 +33,7 @@ Android 휴대폰의 데이터가 사용자 사서함에 저장되고 나면 소
 
 1. 조직은 TeleMessage와 함께 Android Archiver 커넥터를 설정하는 데 사용됩니다. 자세한 내용은 [Android Archiver를 참조하세요.](https://www.telemessage.com/office365-activation-for-android-archiver/)
 
-2. 조직의 Android 휴대폰에서 24시간마다 SMS, MMS, 음성 통화 및 통화 로그가 TeleMessage 사이트에 복사됩니다.
+2. 24시간마다 조직의 Android 휴대폰에서 SMS, MMS, 음성 통화 및 통화 로그가 TeleMessage 사이트에 복사됩니다.
 
 3. Microsoft 365 규정 준수 센터에서 만든 Android Archiver 커넥터는 매일 TeleMessage 사이트에 연결하고 이전 24시간의 Android 데이터를 Microsoft 클라우드의 보안 Azure Storage 위치로 전송합니다. 또한 커넥터는 Android 데이터를 전자 메일 메시지 형식으로 변환합니다.
 
@@ -49,11 +49,11 @@ Android 통신 데이터를 보관하는 데 필요한 구현 단계 중 일부�
 
 - 직원의 휴대폰에 TeleMessage Android Archiver 앱을 설치하고 활성화합니다.
 
-- Android Archiver 커넥터를 만드는 사용자에게 Exchange Online에서 사서함 가져오기 내보내기 역할이 할당되어야 합니다. 이는 Microsoft 365 규정 준수 센터의 **데이터** 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서에서 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
+- Android Archiver 커넥터를 만드는 사용자에게 Exchange Online에서 사서함 가져오기 내보내기 역할이 할당되어야 합니다. 이는 Microsoft 365 규정 준수 센터의 **데이터** 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
 
 ## <a name="create-an-android-archiver-connector"></a>Android Archiver 커넥터 만들기
 
-마지막 단계는 Microsoft 365 준수 센터에서 Android Archiver 커넥터를 만드는 것입니다. 커넥터는 사용자가 제공한 정보를 사용하여 TeleMessage 사이트에 연결하고 Android 통신을 Microsoft 365의 해당 사용자 사서함 상자로 전송합니다.
+마지막 단계는 Microsoft 365 규정 준수 센터에서 Android Archiver 커넥터를 만드는 것입니다. 커넥터는 사용자가 제공한 정보를 사용하여 TeleMessage 사이트에 연결하고 Android 통신을 Microsoft 365의 해당 사용자 사서함 상자로 전송합니다.
 
 1. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com) and click **Data connectors**  >  **Android Archiver.**
 

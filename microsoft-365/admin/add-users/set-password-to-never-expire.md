@@ -21,7 +21,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
-description: 사용자 암호를 사용하여 일부 개별 사용자 암호를 만료하지 못하도록 설정하는 Windows PowerShell.
+description: 사용자 암호를 사용하여 일부 개별 사용자 암호가 만료되지 않는 것으로 설정하는 Windows PowerShell.
 ms.openlocfilehash: 2d60a8312be070d3f56cfef7cfb93e6c5da32991
 ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
 ms.translationtype: MT
@@ -37,7 +37,7 @@ ms.locfileid: "49580640"
 
 회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정의 새로운 기능](../admin-overview/admin-overview.md) 
 
-이러한 단계를 [수행하려면](about-admin-roles.md) 전역 관리자 또는 암호 관리자 되어야 합니다.
+이러한 단계를 [수행하려면](about-admin-roles.md) 전역 관리자 또는 암호 관리자입니다.
 
 Microsoft 클라우드 서비스의 전역 관리자는 [Azure Active Directory PowerShell for Graph를](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) 사용하여 특정 사용자에 대해 만료되지 않는 암호를 설정할 수 있습니다. [또한 AzureAD](https://docs.microsoft.com/powershell/module/Azuread) cmdlet을 사용하여 만료되지 않는 구성을 제거하거나 만료되지 않는 것으로 설정된 사용자 암호를 볼 수 있습니다.
 
@@ -48,11 +48,11 @@ Microsoft 클라우드 서비스의 전역 관리자는 [Azure Active Directory 
 
 ## <a name="how-to-check-the-expiration-policy-for-a-password"></a>암호의 만료 정책을 검사하는 방법
 
-AzureAD 모듈의 Get-AzureADUser 명령에 대한 자세한 내용은 참조 문서 [Get-AzureADUser를 참조하세요.](https://docs.microsoft.com/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0)
+AzureAD 모듈의 Get-AzureADUser 명령에 대한 자세한 내용은 [Get-AzureADUser](https://docs.microsoft.com/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0)참조 문서를 참조하세요.
 
 다음 명령 중 하나를 실행합니다.
 
-- 단일 사용자의 암호가 만료되지 않는 것으로 설정되어 있는 경우 확인하려는 사용자의 UPN(예: user@contoso.onmicrosoft.com) 또는 사용자 ID를 사용하여 다음 cmdlet을 실행합니다. *user@contoso.onmicrosoft.com*
+- 단일 사용자의 암호가 만료되지 않는 것으로 설정되어 있는 경우 확인하려는 사용자의 UPN(예: user@contoso.onmicrosoft.com) 또는 사용자 ID를 사용하여 다음 cmdlet을 실행합니다. 
 
     ```powershell
     Get-AzureADUser -ObjectId <user id or UPN> | Select-Object UserprincipalName,@{
@@ -76,7 +76,7 @@ AzureAD 모듈의 Get-AzureADUser 명령에 대한 자세한 내용은 참조 �
      }
     ```
 
-- 이름이 l인 현재 사용자의 데스크톱에서 Html로 PasswordNeverExpires를 사용하는  **모든 사용자에 대한ReportPasswordNeverExpires.htm**
+- 이름이 l인 현재 사용자의 바탕 화면에서 Html로 PasswordNeverExpires를 사용하는  **모든 사용자에 대한ReportPasswordNeverExpires.htm**
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{

@@ -11,7 +11,7 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: 관리자는 텍스트로분된 데이터를 Globanet에서 Microsoft 365로 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 Microsoft 365에서 타사 데이터 원본의 데이터를 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
+description: 관리자는 텍스트로분된 데이터를 Globanet에서 Microsoft 365로 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 Microsoft 365에 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
 ms.openlocfilehash: 1c06a1220e597dbf8e278222347a5a5e9c46567e
 ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
@@ -27,13 +27,13 @@ Microsoft 365 규정 준수 센터의 Globanet 커넥터를 사용하여 Microso
 
 ## <a name="overview-of-archiving-the-text-delimited-data"></a>텍스트로분된 데이터 보관 개요
 
-다음 개요에서는 커넥터를 사용하여 Microsoft 365에서 텍스트로 나타났습니다.
+다음 개요에서는 커넥터를 사용하여 Microsoft 365에서 텍스트로분된 원본 정보를 보관하는 프로세스에 대해 설명합니다.
 
 ![텍스트로분된 데이터에 대한 보관 워크플로](../media/TextDelimitedConnectorWorkflow.png)
 
 1. 조직은 텍스트로 구성된 원본과 함께 작업하여 텍스트로 구성된 사이트를 설정하고 구성합니다.
 
-2. 24시간마다 한 번씩 텍스트로 나누는 원본의 채팅 메시지가 Globanet Merge1 사이트에 복사됩니다. 또한 커넥터는 콘텐츠를 전자 메일 메시지 형식으로 변환합니다.
+2. 24시간마다 텍스트로 나누는 원본의 채팅 메시지가 Globanet Merge1 사이트에 복사됩니다. 또한 커넥터는 콘텐츠를 전자 메일 메시지 형식으로 변환합니다.
 
 3. Microsoft 365 규정 준수 센터에서 만든 텍스트로 나타남 커넥터는 매일 Globanet Merge1 사이트에 연결하고 메시지를 Microsoft 클라우드의 보안 Azure Storage 위치로 전송합니다.
 
@@ -41,7 +41,7 @@ Microsoft 365 규정 준수 센터의 Globanet 커넥터를 사용하여 Microso
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- Microsoft 커넥터에 대한 Globanet Merge1 계정을 만드시다. 이 계정을 만들하려면 [Globanet 고객 지원에 문의하세요.](https://globanet.com/ms-connectors-contact) 1단계에서 커넥터를 만들 때 이 계정에 로그인합니다.
+- Microsoft 커넥터에 대한 Globanet Merge1 계정을 생성합니다. 이 계정을 만들하려면 [Globanet 고객](https://globanet.com/ms-connectors-contact)지원에 문의하세요. 1단계에서 커넥터를 만들 때 이 계정에 로그인합니다.
 
 - 1단계에서 텍스트로분된 커넥터를 만들고 3단계에서 완료하는 사용자는 Exchange Online의 사서함 가져오기 내보내기 역할에 할당되어야 합니다. 이 역할은 Microsoft 365 규정 준수 센터의 데이터 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다.  기본적으로 이 역할은 Exchange Online의 역할 그룹에 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서에서 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
 
@@ -63,7 +63,7 @@ Microsoft 365 규정 준수 센터의 Globanet 커넥터를 사용하여 Microso
 
 두 번째 단계는 Merge1 사이트에서 텍스트로 구성된 커넥터를 구성하는 것입니다. Globanet Merge1 사이트에서 텍스트로 나타남 커넥터를 구성하는 데 대한 자세한 내용은 [Merge1 Third-Party Connectors 사용자 가이드를 참조하십시오.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20text-delimited%20User%20Guide%20.pdf)
 
-저장 **&** 마친 후 Microsoft  365 준수 센터의 커넥터 마법사에 있는 사용자 매핑 페이지가 표시됩니다.
+저장 & **마친** 후 Microsoft  365 준수 센터의 커넥터 마법사에 있는 사용자 매핑 페이지가 표시됩니다.
 
 ## <a name="step-3-map-users-and-complete-the-connector-setup"></a>3단계: 사용자 매핑 및 커넥터 설정 완료
 

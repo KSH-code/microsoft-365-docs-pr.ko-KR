@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365의 권한 있는 액세스 관리
-description: Microsoft 365에서 내부자 위험 기능을 구성하는 방법을 알아보고,
+description: Microsoft 365에서 내부자 위험 기능을 구성하는 방법을 자세히 알아보고,
 keywords: Microsoft 365, 내부자 위험, 규정 준수
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
@@ -24,7 +24,7 @@ ms.locfileid: "49613872"
 ---
 # <a name="privileged-access-management-in-microsoft-365"></a>Microsoft 365의 권한 있는 액세스 관리
 
-일부 사용자가 중요한 정보 또는 중요한 네트워크 구성 설정에 Microsoft Exchange Online 액세스하는 것은 손상된 계정 또는 내부 위협 활동에 대한 잠재적인 경로입니다. 권한이 부여된 액세스 관리는 위반으로부터 조직을 보호하고 중요한 데이터 또는 중요한 구성 설정에 대한 액세스를 제한하여 규정 준수 모범 사례를 충족하는 데 도움이 됩니다. 관리자가 지속적으로 액세스하는 대신 관리자 권한 상승이 필요한 작업에 대해 Just-In-Time 액세스 규칙이 구현됩니다. Microsoft 365에서 Exchange Online에 대한 권한 있는 액세스 관리를 사용하도록 설정하면 조직이 제로 스위딩 권한으로 작동하고 관리 액세스 취약성에 대한 방어 계층을 제공할 수 있습니다.
+일부 사용자가 중요한 정보 또는 중요한 네트워크 구성 설정에 Microsoft Exchange Online 손상된 계정 또는 내부 위협 활동에 대한 잠재적인 경로입니다. 권한이 부여된 액세스 관리는 위반으로부터 조직을 보호하고 중요한 데이터 또는 중요한 구성 설정에 대한 액세스를 제한하여 규정 준수 모범 사례를 충족하는 데 도움이 됩니다. 관리자가 지속적으로 액세스하는 대신 관리자 권한 상승이 필요한 작업에 대해 Just-In-Time 액세스 규칙이 구현됩니다. Microsoft 365에서 Exchange Online에 대해 권한 있는 액세스 관리를 사용하도록 설정하면 조직이 제로 스위딩 권한으로 작동하고 관리 액세스 취약성에 대한 방어 계층을 제공할 수 있습니다.
 
 ## <a name="configure-privileged-access-management-for-microsoft-365"></a>Microsoft 365에 대한 권한 있는 액세스 관리 구성
 

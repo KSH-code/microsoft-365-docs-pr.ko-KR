@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 그룹, Teams 및 SharePoint에서 액세스 제어
+title: Microsoft 365 그룹, Teams 및 SharePoint의 액세스 제어
 ms.reviewer: ''
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -22,9 +22,9 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 12/09/2020
 ms.locfileid: "49613469"
 ---
-# <a name="governing-access-in-microsoft-365-groups-teams-and-sharepoint"></a>Microsoft 365 그룹, Teams 및 SharePoint에서 액세스 제어
+# <a name="governing-access-in-microsoft-365-groups-teams-and-sharepoint"></a>Microsoft 365 그룹, Teams 및 SharePoint의 액세스 제어
 
-사용자가 그룹, 팀 및 SharePoint의 리소스에 액세스하는 방법을 제어할 수 있는 많은 컨트롤이 있습니다. 이러한 옵션을 검토하고 비즈니스 요구에 매핑되는 방식, 데이터의 민감도 및 사용자가 공동 작업해야 하는 사용자의 범위를 고려합니다.
+사용자가 그룹, 팀 및 SharePoint의 리소스에 액세스하는 방법을 제어할 수 있는 많은 컨트롤이 있습니다. 이러한 옵션을 검토하고 비즈니스 요구에 매핑되는 방식, 데이터의 민감도 및 사용자가 공동으로 작업해야 하는 사용자의 범위를 고려합니다.
 
 다음 표에서는 Microsoft 365에서 사용할 수 있는 액세스 컨트롤에 대한 빠른 참조를 제공합니다. 자세한 내용은 다음 섹션에서 제공됩니다.
 
@@ -79,7 +79,7 @@ Microsoft 365를 사용하면 조직 내부 및 외부 사용자 모두에 대�
 
 - [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-SharePoint에서 지정된 네트워크 위치에서 사이트에 대한 액세스를 제한할 수 있습니다.
+SharePoint에서는 지정된 네트워크 위치에서 사이트에 대한 액세스를 제한할 수 있습니다.
 
 - [네트워크 위치에 따라 SharePoint 및 OneDrive 데이터에 대한 액세스 제어](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)
 
@@ -117,7 +117,7 @@ Microsoft 365에서는 모든 사용자 공유 링크를 사용하여 파일 및
 
 - [외부 공유를 지정된 보안 그룹으로 제한](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure#limit-sharing-of-files-folders-and-sites-with-people-outside-your-organization-to-specified-security-groups)
 
-그룹 및 Teams에는 게스트 액세스를 허용하거나 거부하는 조직 수준 설정이 있습니다. [Microsoft PowerShell을](per-group-guest-access.md)사용하여 게스트 액세스를 특정 팀 또는 그룹으로 제한할 수 있는 반면 민감도 레이블을 사용하여 이 작업을 하는 것이 좋습니다. 민감도 레이블을 사용하면 적용된 레이블에 따라 게스트 액세스를 자동으로 허용하거나 거부할 수 있습니다.
+그룹 및 Teams에는 게스트 액세스를 허용하거나 거부하는 조직 수준 설정이 있습니다. [Microsoft PowerShell을](per-group-guest-access.md)사용하여 특정 팀 또는 그룹에 대한 게스트 액세스를 제한할 수 있는 반면 민감도 레이블을 사용하여 이 작업을 하는 것이 좋습니다. 민감도 레이블을 사용하면 적용된 레이블에 따라 게스트 액세스를 자동으로 허용하거나 거부할 수 있습니다.
 
 - [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
@@ -139,15 +139,15 @@ Microsoft 365는 다양한 정보 공유 방법을 제공합니다. 중요한 �
 
 ## <a name="user-management"></a>사용자 관리
 
-조직에서 그룹과 팀이 발전함에 따라 팀 및 그룹 구성원을 정기적으로 검토하는 것이 좋습니다. 이는 구성원 자격이 변경된 팀과 그룹, 중요한 정보를 포함하는 그룹 또는 게스트를 포함하는 그룹에 특히 유용할 수 있습니다. 이러한 팀 및 그룹에 대한 액세스 검토를 설정할 수 있습니다.
+그룹 및 팀이 조직에서 발전함에 따라 팀 및 그룹 구성원을 정기적으로 검토하는 것이 좋습니다. 이는 구성원 자격이 변경된 팀과 그룹, 중요한 정보를 포함하는 그룹 또는 게스트를 포함하는 그룹에 특히 유용할 수 있습니다. 이러한 팀 및 그룹에 대한 액세스 검토를 설정할 수 있습니다.
 
 - [Azure AD 액세스 검토란?](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
 
-많은 조직에서는 다른 조직이나 주요 공급업체와의 비즈니스 파트너 관계를 심층 협력하고 있습니다. 이러한 시나리오에서는 사용자 관리 및 리소스 액세스가 어려울 수 있습니다. 일부 사용자 관리 작업을 자동화하고 일부 작업을 파트너 조직으로 전환할 수도 있습니다.
+많은 조직에서는 다른 조직이나 주요 공급업체와의 비즈니스 파트너 관계를 심층 협력하고 있습니다. 이러한 시나리오에서는 사용자 관리 및 리소스 액세스가 어려울 수 있습니다. 일부 사용자 관리 작업을 자동화하고 일부 작업을 파트너 조직으로 전환하는 것을 고려합니다.
 
 - [Azure AD 권리 관리란?](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
 
-Teams의 비공개 채널은 팀 구성원의 하위 집합 간에 범위가 지정되는 대화 및 파일 공유를 허용합니다. 특정 비즈니스 요구에 따라 이 기능을 허용하거나 차단할 수 있습니다.
+Teams의 비공개 채널은 팀 구성원의 하위 집합 간에 범위가 지정한 대화 및 파일 공유를 허용합니다. 특정 비즈니스 요구에 따라 이 기능을 허용하거나 차단할 수 있습니다.
 
 - [Microsoft Teams의 비공개 채널](https://docs.microsoft.com/MicrosoftTeams/private-channels)
 

@@ -32,7 +32,7 @@ ms.locfileid: "49611451"
 
 ## <a name="data-for-the-microsoft-365-usage-analytics-tables"></a>Microsoft 365 사용 현황 분석 테이블에 대한 데이터
 
-Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는 API에 연결합니다. API는 미리 보기에 있으며,(테넌트 GUID로 바꾸기)에서 액세스할 `https://reports.office.com/pbi/v1.0/\<tenantid\>` \<tenant id\> 수 있습니다. 
+Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는 API에 연결합니다. API는 미리 보기에 있으며 테넌트 GUID로 대체하여 액세스할 `https://reports.office.com/pbi/v1.0/\<tenantid\>` \<tenant id\> 수 있습니다. 
   
 > [!NOTE]
 > 자세한 내용은 [Microsoft Graph에서 Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=864336)사용 현황 보고서 작업 참조 
@@ -99,7 +99,7 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |시간 범위  <br/> |이 테이블이 데이터를 나타내는 월 값입니다.  <br/> |
 |EXO_EmailSent  <br/> |보낸 전자 메일 수입니다.  <br/> |
 |EXO_EmailReceived  <br/> |받은 전자 메일 수입니다.  <br/> |
-|EXO_EmailRead  <br/> |사용자가 수행한 읽은 전자 메일 수, 이미 읽은 전자 메일을 여러 번 읽거나 이전에 받은 전자 메일을 읽을 수 있습니다.  <br/> |
+|EXO_EmailRead  <br/> |사용자가 수행한 읽은 전자 메일 수, 이미 읽은 전자 메일을 여러 번 읽거나 이전에 받은 전자 메일일 수 있습니다.  <br/> |
 |EXO_AppointmentCreated  <br/> |만들어진 약속 수입니다.  <br/> |
 |EXO_MeetingAccepted  <br/> |수락된 모임 수입니다.  <br/> |
 |EXO_MeetingCancelled  <br/> |취소된 모임 수입니다.  <br/> |
@@ -156,7 +156,7 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |ActiveUsers  <br/> |시간 프레임 값에 대해 제품에서 의도적인 활동을 수행한 사용자 수입니다.  <br/> 사용자가 제품의 주요 활동 중 하나를 수행한 경우 특정 달의 제품에 대해 활성으로 집계됩니다. 주요 활동은 **테넌트 제품 활동** 테이블에서 확인할 수 있습니다.  <br/> |
 |CumulativeActiveUsers  <br/> |제품을 사용할 수 있고 새 사용 현황 시스템에서 데이터 수집이 시작된 이후 시간 범위(월)까지 제품을 1번 이상 사용한 사용자 수입니다.  <br/> |
 |MoMReturningUsers  <br/> |시간 범위(월)에 활성 상태이고 이전 달에도 활성화된 사용자 수입니다.  <br/> |
-|FirstTimeUsers  <br/> |새 사용 현황 시스템에서 데이터 수집이 시작된 이후 시간 범위 내에서 처음으로 활성 상태가 된 사용자 수입니다.  <br/> 이 새 보고 시스템에서 데이터 수집을 시작한 후 처음으로 사용자 활동을 감지하는 경우 사용자는 특정 달에 최초 사용자로 집계됩니다. 처음 사용자로 계산된 경우, 이 사용자가 활동에서 큰 간격이 있는 경우에도 처음 사용자로 다시 계산되지 않습니다.  <br/> |
+|FirstTimeUsers  <br/> |새 사용 현황 시스템에서 데이터 수집이 시작된 이후 시간 범위 내에서 처음으로 활성 상태가 된 사용자 수입니다.  <br/> 이 새 보고 시스템에서 데이터 수집을 시작한 후 처음으로 사용자 활동을 감지하는 경우 사용자는 특정 달에 최초 사용자로 집계됩니다. 처음 사용자로 계산된 경우, 이 사용자가 활동에 큰 간격이 있는 경우에도 처음 사용자로 다시 계산되지 않습니다.  <br/> |
 |콘텐츠 날짜  <br/> |시간 범위에 이번 달이 표시되는 경우 이 값은 데이터를 사용할 수 있는 이번 달의 마지막 날짜를 나타냅니다.  <br/> 시간 범위에 지난 달이 표시되는 경우 이 값은 시간 범위(월)의 마지막 날짜를 나타냅니다.  <br/> |
    
 ### <a name="data-table---tenant-product-activity"></a>데이터 테이블 - 테넌트 제품 활동
@@ -180,14 +180,14 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |**열 이름**|**열 설명**|
 |:-----|:-----|
 |TotalMailboxes  <br/> |Microsoft 365 구독의 사용자 사서함 수입니다.  <br/> |
-|IssueWarningQuota  <br/> |모든 사용자 사서함에서 경고를 표시하기 위한 총 할당량입니다.  <br/> |
+|IssueWarningQuota  <br/> |모든 사용자 사서함에서 경고를 발행하기 위한 총 할당량입니다.  <br/> |
 |ProhibitSendQuota  <br/> |모든 사용자 사서함에서 보내기를 금지하는 총 할당량입니다.  <br/> |
 |ProhibitSendReceiveQuota  <br/> |모든 사용자 사서함에서 보내기/받기 할당량을 금지하는 총 할당량입니다.  <br/> |
 |TotalItemBytes  <br/> |모든 사용자 사서함에서 사용되는 저장소의 크기(바이트)입니다.  <br/> |
 |MailboxesNoWarning  <br/> |저장소 경고 제한 상태의 사용자 사서함 수입니다.  <br/> |
 |MailboxesIssueWarning  <br/> |저장소 할당량에 대한 경고를 받은 사용자 사서함 수입니다.  <br/> |
 |MailboxesExceedSendQuota  <br/> |보내기 할당량을 초과한 사용자 사서함 수입니다.  <br/> |
-|MailboxesExceedSendReceiveQuota  <br/> |보내기/받기 할당량 초과 사용자 사서함 수입니다.  <br/> |
+|MailboxesExceedSendReceiveQuota  <br/> |보내기/받기 할당량보다 많은 사용자 사서함 수입니다.  <br/> |
 |DeletedMailboxes  <br/> |시간 범위에서 삭제된 사용자 사서함 수입니다.  <br/> |
 |시간 범위  <br/> |월 값입니다.  <br/> |
 |콘텐츠 날짜  <br/> |시간 범위에 이번 달이 표시되는 경우 이 값은 데이터를 사용할 수 있는 이번 달의 마지막 날짜를 나타냅니다.  <br/> 시간 범위에 지난 달이 표시되는 경우 이 값은 시간 범위(월)의 마지막 날짜를 나타냅니다.  <br/> |
@@ -206,7 +206,7 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
    
 ### <a name="data-table---tenant-sharepoint-online-usage"></a>데이터 테이블 - 테넌트 SharePoint 온라인 사용 현황
 
-이 표는 SharePoint Online 사이트의 사용 또는 활동에 대한 월별 요약 데이터로 구성됩니다. 팀 사이트 및 그룹 사이트에만 해당합니다. SharePoint Online 사이트의 월말 상태는 이 열에 표시됩니다. 예를 들어 사용자가 5개의 문서를 만든 후 총 저장소에 10MB를 사용한 다음 일부 파일을 삭제한 다음 파일을 더 추가하여 파일의 월말 상태는 5MB의 저장소를 사용하는 총 7개로, 이 표에 나타났습니다. 이 테이블은 중복된 집계 수를 방지하기 위해 숨겨져 있으며 두 개의 참조 테이블을 만드는 원본으로 사용됩니다.
+이 표는 SharePoint Online 사이트의 사용 또는 활동에 대한 월별 요약 데이터로 구성됩니다. 팀 사이트 및 그룹 사이트에만 해당합니다. SharePoint Online 사이트의 월말 상태는 이 열에 표시됩니다. 예를 들어 사용자가 5개의 문서를 만든 후 총 저장소에 10MB를 사용한 다음 일부 파일을 삭제한 다음 파일을 더 추가하여 파일의 월말 상태는 5MB의 저장소를 사용하는 총 7개로, 이 표에 나타내는 값은 월말 상태가 됩니다. 이 테이블은 중복된 집계 수를 방지하기 위해 숨겨져 있으며 두 개의 참조 테이블을 만드는 원본으로 사용됩니다.
   
 |**열 이름**|**열 설명**|
 |:-----|:-----|
@@ -230,7 +230,7 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |SiteType  <br/> |값은 "OneDrive" 입니다.  <br/> |
 |TotalSites  <br/> |종료 시간에 존재한 비즈니스용 OneDrive 계정 수입니다.  <br/> |
 |DocumentCount  <br/> |종료 시간에 모든 비즈니스용 OneDrive 계정에 존재한 총 문서 수입니다.  <br/> |
-|Diplansed  <br/> |종료 시간의 모든 OneDrive 계정에서 합계된 총 사용된 저장소입니다.  <br/> |
+|Diplansed  <br/> |종료 시 모든 OneDrive 계정에서 합계된 총 사용된 저장소입니다.  <br/> |
 |ActivityType  <br/> |다양한 파일 활동(전체/활성 파일/공유된 파일 EXT/INT/동기화된 파일)을 기록한 계정 수입니다.  <br/> 모든 값은 파일 활동이 수행되었음을 나타냅니다.  <br/> |
 |SitesWithOwnerActivities  <br/> |계정 소유자가 자신의 고유 계정에서 특정 파일 활동을 수행한 비즈니스용 OneDrive용 활성 계정 수입니다.  <br/> |
 |SitesWithNonOwnerActivities  <br/> |계정 소유자 이외의 사용자가 파일 작업을 수행한 비즈니스용 OneDrive 계정의 수입니다.  <br/> |

@@ -27,7 +27,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 12/11/2020
 ms.locfileid: "49656822"
 ---
-# <a name="create-dns-records-at-easydns-for-microsoft"></a>EasyDNS에서 Microsoft용 DNS 레코드 만들기
+# <a name="create-dns-records-at-easydns-for-microsoft"></a>Microsoft용 easyDNS에서 DNS 레코드 만들기
 
 원하는 정보를 찾지 못하면 도메인 [FAQ를](../setup/domains-faq.yml) 확인 합니다. 
   

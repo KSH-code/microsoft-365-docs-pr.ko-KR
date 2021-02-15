@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365에서 O2 네트워크 데이터를 보관할 커넥터 설정
+title: Microsoft 365에서 O2 네트워크 데이터를 보관하는 커넥터 설정
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -33,7 +33,7 @@ SMS 메시지 및 음성 통화가 사용자 사서함에 저장되고 나면 �
 
 1. 조직은 TeleMessage 및 O2와 함께 O2 네트워크 커넥터를 설치합니다. 자세한 내용은 [O2 Network Archiver를 참조하세요.](https://www.telemessage.com/office365-activation-for-o2-network-archiver)
 
-2. 24시간마다 조직의 O2 네트워크에서 보낸 SMS 메시지 및 음성 통화가 TeleMessage 사이트에 복사됩니다.
+2. 24시간마다 조직의 O2 네트워크의 SMS 메시지 및 음성 통화가 TeleMessage 사이트에 복사됩니다.
 
 3. Microsoft 365 규정 준수 센터에서 만드는 O2 네트워크 커넥터는 매일 TeleMessage 사이트에 연결하고 이전 24시간의 SMS 메시지 및 음성 통화를 Microsoft 클라우드의 보안 Azure Storage 위치로 전송합니다. 또한 커넥터는 SMS 메시지의 내용과 음성 통화를 전자 메일 메시지 형식으로 변환합니다.
 
@@ -53,7 +53,7 @@ O2 네트워크 데이터를 보관하는 데 필요한 구현 단계 중 일부
 
 - 직원은 O2 모바일 네트워크에 회사 소유 휴대폰 및 회사 소유 휴대폰이 있어야 합니다. Microsoft 365의 보관 메시지는 직원 소유 또는 "BYOD(Bring Your Own Devices) 장치에는 사용할 수 없습니다.
 
-- O2 네트워크 커넥터를 만드는 사용자에게 Exchange Online에서 사서함 가져오기 내보내기 역할이 할당되어야 합니다. 이는 Microsoft 365 규정 준수 센터의 **데이터** 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서에서 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
+- O2 네트워크 커넥터를 만드는 사용자에게 Exchange Online에서 사서함 가져오기 내보내기 역할이 할당되어야 합니다. 이는 Microsoft 365 규정 준수 센터의 **데이터** 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하십시오.
 
 ## <a name="create-an-o2-network-connector"></a>O2 네트워크 커넥터 만들기
 

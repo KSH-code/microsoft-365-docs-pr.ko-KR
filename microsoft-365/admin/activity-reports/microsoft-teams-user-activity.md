@@ -38,7 +38,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요.
 
     
-2. 보고서 **선택 드롭다운에서** Microsoft **Teams 사용자** \> **활동을 선택합니다.**
+2. 보고서 **선택 드롭다운에서** Microsoft **Teams** 사용자 \> **활동을 선택합니다.**
   
 ## <a name="interpret-the-microsoft-teams-user-activity-report"></a>Microsoft Teams 사용자 활동 보고서 해석
 

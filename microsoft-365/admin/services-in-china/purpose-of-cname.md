@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 - MOE150
 ROBOTS: NOINDEX
-description: 인증 프로세스에 가장 적합한 서버로 연결되는 Office 365의 'MSOID' CNAME 레코드에 대해 자세히 알아보면 응답 속도가 빨라집니다.
+description: 인증 프로세스에 가장 적합한 서버로 연결되는 Office 365의 'MSOID' CNAME 레코드에 대해 자세히 알아보면 응답 속도가 더 빨라집니다.
 monikerRange: o365-21vianet
 ms.openlocfilehash: aea04391768993c40978d94b50817244cd77405c
 ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d

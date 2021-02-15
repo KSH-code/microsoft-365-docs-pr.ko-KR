@@ -20,7 +20,7 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: 페이지 진단을 사용 하 여 SharePoint Online 최신 사이트 페이지에서 웹 파트의 성능을 최적화 하는 방법에 대해 알아봅니다.
+description: 페이지 진단을 사용하여 SharePoint Online 최신 사이트 페이지에서 웹 파트의 성능을 최적화하는 방법을 알아보십시오.
 ms.openlocfilehash: f7b72aa8ed212147c06660585c4e58e548762c35
 ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
@@ -80,7 +80,7 @@ Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페�
   - SharePoint 프레임워크 (SPFx)의 일부로 제공되는 _반응_ 및 _패브릭 가져오기_ 와 같은 프레임워크를 재사용합니다. 자세한 내용은 [SharePoint 프레임워크 개요](https://docs.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview)를 참조하세요.
   - 최신 버전의 SharePoint 프레임워크를 사용하고 있는지 확인하고 새 버전이 가용하게 되면 업그레이드합니다.
 - 데이터 페칭/캐싱
-  - 웹 파트가 표시할 데이터를 가져오기 위해 추가 서버 호출을 사용 하는 경우 해당 서버 Api가 빠른 지, 아니면 클라이언트 쪽 캐싱 (예: 더 큰 집합에 _Localstorage_ 또는 _indexeddb_ 사용)을 구현 해야 합니다.
+  - 웹 파트가 데이터를 표시하기 위해 추가 서버 호출을 사용하는 경우 해당 서버 API가 빠르고 클라이언트 쪽 캐싱을 구현해야 합니다(예: 큰 집합에 _localStorage_ 또는 _IndexedDB_ 사용).
   - 중요한 데이터를 제공하는데 여러 번의 호출이 필요한 경우 서버에서 일괄 처리를 하거나 요청을 단일 호출로 통합하는 다른 방법을 고려합니다.
   - 또는 일부 데이터 요소에 더 느린 API가 필요하지만 초기 렌더링이 중요하지 않은 경우에는 이를 중요한 데이터가 제공된 후 실행되는 별도의 호출로 분리합니다.
   - 여러 파트에서 같은 데이터를 사용하는 경우에는 공통 데이터 레이어를 활용하여 중복되는 호출을 방지합니다.

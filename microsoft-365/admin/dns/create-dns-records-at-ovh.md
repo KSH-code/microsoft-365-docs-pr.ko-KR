@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
-description: Microsoft용 OVH에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 학습합니다.
+description: Microsoft용 OVH에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 배워야 합니다.
 ms.openlocfilehash: 14c3796ff6686ae0d98ec32ec6ddf6afc004a3c3
 ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
@@ -143,7 +143,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
     |**Record type(레코드 종류)**|**하위 도메인**|**TTL**|**우선 순위**|**Target(대상)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(공백으로 둠)  <br/> |3600(초)  <br/> |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |\<domain-key\>.mail.protection.outlook.com.  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  |
+    |MX  <br/> |(공백으로 둠)  <br/> |3600(초)  <br/> |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |\<domain-key\>.mail.protection.outlook.com.  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  |
    
     ![메일에 대한 OVH MX 레코드](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
   

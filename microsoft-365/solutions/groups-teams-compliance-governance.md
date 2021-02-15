@@ -24,7 +24,7 @@ ms.locfileid: "49613633"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Microsoft 365 그룹, Teams 및 SharePoint 공동 작업을 위한 규정 준수 옵션
 
-Microsoft 365는 사용자가 공동 작업을 할 때 규정 준수를 유지하기 위한 전체 도구 모음을 제공합니다. 이러한 옵션을 검토하고 비즈니스 요구에 매핑되는 방식, 데이터의 민감도 및 사용자가 공동 작업해야 하는 사용자의 범위를 고려합니다.
+Microsoft 365는 사용자가 공동 작업을 할 때 규정 준수를 유지하기 위한 전체 도구 모음을 제공합니다. 이러한 옵션을 검토하고 비즈니스 요구에 매핑되는 방식, 데이터의 민감도 및 사용자가 공동으로 작업해야 하는 사용자의 범위를 고려합니다.
 
 다음 표에서는 Microsoft 365에서 사용할 수 있는 준수 컨트롤에 대한 빠른 참조를 제공합니다. 자세한 내용은 다음 섹션에서 제공됩니다.
 
@@ -42,13 +42,13 @@ Microsoft 365는 사용자가 공동 작업을 할 때 규정 준수를 유지�
 ||채팅에서 중요한 정보를 보호합니다.|[데이터 손실 방지 및 Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)|
 ||조직의 중요한 정보 정의|[사용자 지정 중요한 정보 유형](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types)|
 |사용자 분할|||
-||사용자 세그먼트 간의 통신 제한|[정보 장벽](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)|
+||사용자 세그먼트 간 통신 제한|[정보 장벽](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)|
 
 ## <a name="information-retention"></a>정보 보존
 
 보존 정책은 파일, 메시지 및 메일을 포함하여 그룹 및 팀의 공동 작업에 사용되는 항목을 보존하거나 삭제할 수 있습니다. 정책을 보존 및 삭제, 보존만 또는 삭제하기 위해 설정할 수 있습니다. 보존 정책에서 다루는 정보는 그룹 또는 팀이 만료되거나 삭제되는 경우 보호됩니다.
 
-Microsoft 365 그룹에 대한 보존 정책을 구성하는 작업에서는 그룹 사서함 및 연결된 SharePoint 사이트 및 파일에 대해 다를 수 있습니다.
+Microsoft 365 그룹에 대한 보존 정책을 구성하는 경우 그룹 사서함 및 연결된 SharePoint 사이트 및 파일에 대해 다를 수 있습니다.
 
 - [SharePoint 및 OneDrive의 보존 정책에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-sharepoint)
 
@@ -72,7 +72,7 @@ Teams에 대한 보존 정책은 채팅 및 채널 메시지를 보존합니다.
 
 - [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-중요한 정보 유형 또는 학습 가능한 분류자와 패턴 일치를 검색하는 등 지정한 기준에 따라 파일 및 전자 메일에 민감도 레이블을 자동으로 적용하도록 Microsoft 365를 구성할 수 있습니다.
+학습 가능한 분류자와의 패턴 일치 또는 중요한 정보 유형 검색을 포함하여 지정한 기준에 따라 파일 및 전자 메일에 민감도 레이블을 자동으로 적용하도록 Microsoft 365를 구성할 수 있습니다.
 
 - [민감도 레이블을 콘텐츠에 자동으로 적용](https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically)
 

@@ -30,9 +30,9 @@ Teams 음성 솔루션을 사용하면 조직의 사용자가 조직 내부 및 
 
 ![Teams 음성 솔루션 개요](..\media\solutions-architecture-center\voice-concepts.png)
 
-전화 시스템은 조직에 완전한 PBX(Private Branch Exchange) 기능을 제공합니다. 조직의 사용자 간 통화는 지리적 위치에 상관없이 전화 시스템 내에서 내부적으로 처리되므로 이러한 내부 통화에 대한 장거리 비용이 제거됩니다.  
+전화 시스템은 조직에 대한 완전한 PBX(Private Branch Exchange) 기능을 제공합니다. 조직의 사용자 간 통화는 지리적 위치에 상관없이 전화 시스템 내에서 내부적으로 처리되므로 이러한 내부 통화에 대한 장거리 비용이 제거됩니다.  
 
-전화 시스템을 PSTN(Public Switched Telephone Network)에 연결하면 Teams 사용자가 조직 외부에서 전화를 걸 수도 있습니다.
+전화 시스템을 PSTN(Public Switched Telephone Network)에 연결하면 Teams 사용자가 조직 외부에서 전화를 걸 수 있습니다.
 
 이 솔루션 지침은 다음을 하는 데 도움이 됩니다.
 
@@ -41,9 +41,9 @@ Teams 음성 솔루션을 사용하면 조직의 사용자가 조직 내부 및 
 
 다음 단계에 따라 음성 솔루션을 선택, 계획 및 구성합니다.
 
-![음성 솔루션 선택](..\media\solutions-architecture-center\voice-solutions-overview-1.png)
+![음성 솔루션을 선택합니다.](..\media\solutions-architecture-center\voice-solutions-overview-1.png)
 
-1. [음성 솔루션 선택](https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json)
+1. [음성 솔루션을 선택합니다.](https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json)
 
 2. [전화 시스템 설정](https://docs.microsoft.com/microsoftteams/setting-up-your-phone-system?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json)
 
@@ -51,10 +51,10 @@ Teams 음성 솔루션을 사용하면 조직의 사용자가 조직 내부 및 
    - [통화 계획](https://docs.microsoft.com/microsoftteams/set-up-calling-plans?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json) - PSTN 통신 사업자인 Microsoft와 함께 Microsoft의 모든 클라우드 솔루션
    - [직접 라우팅](https://docs.microsoft.com/microsoftteams/direct-routing-configure?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json) - 직접 라우팅을 사용하여 자체 PSTN 통신업체를 Teams에 연결 
 
-또한 Contoso 사례 연구에서 대규모 다국적 기업이 Teams 음성 솔루션으로 마이그레이션된 방식에 대해 [읽어보는 것이 도움이 될 수 있습니다.](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json)
+또한 Contoso 사례 연구에서 대규모 다국적 기업이 Teams 음성 솔루션으로 마이그레이션된 방식에 대해 [읽어보는 것이 도움이](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json)될 수 있습니다.
 
 필수 라이선스에 대한 자세한 내용은 다음을 참조하세요.
 
 - [Teams 추가 기능 라이선스](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=enterprise#what-voice-features-are-available-with-my-plan/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json)
 
-- [직접 라우팅 라이선스 요구 사항](https://docs.microsoft.com/microsoftteams/direct-routing-plan#licensing-and-other-requirements/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json)
+- [직접 라우팅 라이선싱 요구 사항](https://docs.microsoft.com/microsoftteams/direct-routing-plan#licensing-and-other-requirements/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json)

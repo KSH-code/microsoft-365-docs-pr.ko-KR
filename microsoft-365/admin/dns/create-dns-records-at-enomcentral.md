@@ -117,7 +117,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
    |호스트 이름|주소|기본 설정|
    |---|---|---|
-   |@| *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)|10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요.|
+   |@| *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)|10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요.|
 
    ![eNom-BP-Configure-2-1](../../media/c32e8954-8209-4f77-a3a8-4b7aeea325d5.png)
 

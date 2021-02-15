@@ -13,7 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Contoso Corporation이 COVID-19 팬데믹에 대응하고 원격 및 인사이트 작업을 위한 소프트웨어 설치 및 업데이트 인프라를 설계한 방법을 이해합니다.
+description: Contoso Corporation이 COVID-19 팬데믹에 대응하고 원격 및 사내 작업을 위한 소프트웨어 설치 및 업데이트 인프라를 설계한 방법을 이해합니다.
 ms.openlocfilehash: d04b4efcdd4dd04315ad37311cdd2cfbc2e64e88
 ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
 ms.translationtype: MT
@@ -27,7 +27,7 @@ Contoso는 항상 파리 본사의 중앙 VPN 서버를 통해 프레미스 리�
 
 ## <a name="contosos-response-to-covid-19"></a>CONtoso의 COVID-19에 대한 응답
 
-COVID-19 팬데믹이 시작된 후 갑자기 필수적인 작업자를 모두 원격 작업자로 시작했습니다. Contoso는 인력을 집에서 일하고 Microsoft 365 클라우드 서비스를 사용하여 온라인으로 원격 액세스를 통해 기본 활동을 수행하게 하여 대응했습니다.
+COVID-19 팬데믹이 시작된 후 갑자기 필수적인 작업자를 모두 원격 작업자로 시작했습니다. Contoso는 인력을 집에서 일하게 하여 Microsoft 365 클라우드 서비스를 사용하여 온라인 및온-프레미스 리소스에 대한 원격 액세스를 통해 기본 활동을 수행하게 하여 대응했습니다.
 
 Contoso는 이미 원격 인력의 25%를 지원하기 위해 파리 본사에 원격 액세스 VPN 서버를 사용했지만, 인력의 90%를 지원하기 위해 원격 액세스 용량을 확장하기 위해 빠르게 이동했습니다. Contoso는 원격 작업자가 Contoso 인트라넷에 액세스하기 위해 지역적으로 가까운 진입점을 사용할 수 있도록 각 위성 사무실에 원격 액세스 VPN 서버를 배포했습니다.
 
@@ -37,7 +37,7 @@ Contoso는 또한 분할 터널링을 위해 랩톱, 태블릿 및 스마트폰�
 
 ![Contoso의 VPN 인프라](../media/contoso-remote-onsite-work/contoso-vpn-infrastructure.png)
 
-설치된 VPN 클라이언트가 있는 원격 작업원은 DNS를 사용하여 지역적으로 가장 가까운 사무실을 찾은 후 설치된 VPN 장치에 연결합니다. 분할 터널링을 통해 Microsoft 365 최적화 끝점에 대한 트래픽이 지역적으로 가장 가까운 Microsoft 365 네트워크 위치로 직접 전송됩니다. 다른 모든 트래픽은 VPN 연결을 통해 VPN 장치로 전송됩니다.
+설치된 VPN 클라이언트가 있는 원격 작업원은 DNS를 사용하여 지역적으로 가장 가까운 사무실을 찾고 여기에 설치된 VPN 장치에 연결합니다. 분할 터널링을 통해 Microsoft 365 최적화 끝점에 대한 트래픽이 지역적으로 가장 가까운 Microsoft 365 네트워크 위치로 직접 전송됩니다. 다른 모든 트래픽은 VPN 연결을 통해 VPN 장치로 전송됩니다.
 
 ## <a name="contosos-support-for-remote-and-onsite-work"></a>Contoso의 원격 및 인사이트 작업 지원
 
@@ -55,13 +55,13 @@ Microsoft 365 ID, 보안 및 규정 준수 기능은 제로 트러스트용으�
 
 ### <a name="dedicated-on-premises"></a>전용 On-premises
 
-전용 On-premises 장치는 Contoso 인트라넷을 떠나지 않는 데스크톱 또는 서버 컴퓨터로, VPN 클라이언트가 설치되어 있지 않습니다. 이러한 On-premises 장치는 Windows 10, 엔터프라이즈용 Microsoft 365 앱 및 에지 브라우저의 설치 및 업데이트에 Microsoft Endpoint Configuration Manager 및 배포 지점을 계속 사용합니다.
+전용 On-premises 장치는 Contoso 인트라넷을 떠나지 않는 데스크톱 또는 서버 컴퓨터로, VPN 클라이언트가 설치되어 있지 않습니다. 이러한 On-premises 장치는 Windows 10, 엔터프라이즈용 Microsoft 365 앱 및 Edge 브라우저의 설치 및 업데이트에 Microsoft Endpoint Configuration Manager 및 배포 지점을 계속 사용합니다.
 
 ### <a name="roaming"></a>로밍
 
 로밍 장치는 Contoso 인트라넷을 떠날 수 있으며, Contoso VPN 클라이언트가 설치된 스마트폰 및 태블릿과 같은 여러 사무실 작업자와 모든 원격 작업자 및 기타 조직 소유의 장치에 발급된 랩톱을 포함합니다. 
 
-이러한 장치는 인터넷에 연결할 수 있기 때문에 Windows 10, 엔터프라이즈용 Microsoft 365 앱 및 Edge의 설치 및 업데이트에 Intune 또는 기타 클라우드 기반 서비스를 사용하게 됩니다. 기존 On-premises Configuration Manager 배포 지점을 사용하지 않습니다.
+이러한 장치는 제공된 경우 인터넷에 연결할 수 있기 때문에 Windows 10, 엔터프라이즈용 Microsoft 365 앱 및 Edge의 설치 및 업데이트에 Intune 또는 기타 클라우드 기반 서비스를 사용하게 됩니다. 기존 On-premises Configuration Manager 배포 지점을 사용하지 않습니다.
 
 즉, 로밍 장치에 대한 일부 설치 및 업데이트는 인터넷을 통해 수행되고, 이러한 설치 및 업데이트는 인트라넷에 연결되어 있는 동안 수행됩니다. 그러나 Contoso IT 설계자는 특히 대부분의 원격 작업자가 인트라넷에 연결되지 않은 경우 인터넷에 대한 인트라넷 대역폭을 최적화하는 것보다 구성의 단순성을 중요하게 결정했습니다.
 
@@ -83,7 +83,7 @@ Microsoft 365 ID, 보안 및 규정 준수 기능은 제로 트러스트용으�
 
 새 작업자 또는 데이터 센터의 새 서버에 대해 발급된 새 전용 On-premises 장치의 경우, 사용자가 로그인하면 OnPremDevices 그룹의 디바이스 멤버 자격에 따라 Configuration Manager 클라이언트가 Windows 10, 엔터프라이즈용 Microsoft 365 앱 및 Edge에 대한 최신 업데이트를 다운로드하여 설치합니다. 완료되면 전용 On-premises 장치를 사용할 수 있으며 지속적인 업데이트에 이러한 배포 지점을 사용합니다.
 
-새 작업 담당자에게 발급된 새 원격 장치의 경우, 로밍Devices 그룹의 구성원 자격에 따라 장치가 Intune 클라우드 서비스 및 기타 서비스에 연결하고 Windows 10, 엔터프라이즈용 Microsoft 365 앱 및 Edge에 대한 최신 업데이트를 다운로드하고 설치합니다. 완료되면 원격 장치를 사용할 준비가 완료되고 설치된 VPN 클라이언트를 사용하여 진행되는 업데이트에 대한 Microsoft 365 네트워크 및 Microsoft 365 리소스에 액세스할 수 있습니다.
+새 작업 담당자에게 발급된 새 원격 장치의 경우, 로밍Devices 그룹의 구성원 자격에 따라 장치가 Intune 클라우드 서비스 및 기타 서비스에 연결하고 Windows 10, 엔터프라이즈용 Microsoft 365 앱 및 Edge에 대한 최신 업데이트를 다운로드하고 설치합니다. 완료되면 원격 장치를 사용할 준비가 완료되고 설치된 VPN 클라이언트를 사용하여 진행되는 업데이트에 대한 Microsoft 365 네트워크 및 On-premises 리소스에 액세스합니다.
 
 ## <a name="next-step"></a>다음 단계
 

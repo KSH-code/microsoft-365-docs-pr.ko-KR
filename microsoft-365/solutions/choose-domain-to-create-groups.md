@@ -59,7 +59,7 @@ New-EmailAddressPolicy -Name Groups -IncludeUnifiedGroupRecipients -EnabledEmail
 
 Microsoft 365 그룹이 생성되는 하위 도메인을 제어하려는 경우를 제어합니다. 당신은 원합니다:
   
-- 학생(Department가 학생으로  설정된 사용자)이 students.groups.contoso.com 그룹입니다.  다음 명령을 사용하세요.
+- 학생(Department를 Students로  설정한 사용자)이 students.groups.contoso.com 그룹입니다. 다음 명령을 사용하세요.
     
   ```
   New-EmailAddressPolicy -Name StudentsGroups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@students.groups.contoso.com","smtp:@groups.contoso.com" -ManagedByFilter {Department -eq 'Students'} -Priority 1
@@ -100,13 +100,13 @@ EAP를 변경하는 경우 이미 프로비전된 그룹에는 영향이 없습�
   
 ## <a name="hybrid-requirements"></a>하이브리드 요구 사항
 
-조직이 하이브리드 시나리오에서 구성된 경우 조직이 [Microsoft 365](https://docs.microsoft.com/exchange/hybrid-deployment/set-up-microsoft-365-groups) 그룹을 만들기 위한 요구 사항을 충족하는지 확인하도록 Microsoft 365 그룹 구성을(를) 확인할 수 있습니다. 
+조직이 하이브리드 시나리오에서 구성된 경우 조직이 Microsoft 365 그룹을 만들기 위한 요구 사항을 충족하는지 확인하도록 Exchange 하이브리드를 통해 [Microsoft 365](https://docs.microsoft.com/exchange/hybrid-deployment/set-up-microsoft-365-groups) 그룹 구성을 확인합니다. 
   
 ## <a name="additional-info-about-using-email-address-policies-groups"></a>전자 메일 주소 정책 그룹 사용에 대한 추가 정보:
 
-알아야 할 몇 가지 사항도 있습니다.
+알아야 할 몇 가지 추가 사항들이 있습니다.
   
-- 그룹이 만들어지는 속도는 조직에 구성된EAP 수에 따라 달라 졌습니다.
+- 그룹이 만들어지는 속도는 조직에 구성된EAP 수에 따라 다를 수 있습니다.
     
 - 관리자와 사용자는 그룹을 만들 때 도메인을 수정할 수도 있습니다.
     
@@ -114,7 +114,7 @@ EAP를 변경하는 경우 이미 프로비전된 그룹에는 영향이 없습�
     
 - 그룹에 대해 EAP를 구성하지 않은 경우 그룹 만들기를 위해 기본 허용 도메인이 선택됩니다.
     
-- 허용 도메인을 제거하면 먼저 EAP를 업데이트해야 합니다. 그렇지 않으면 그룹 프로비전이 영향을 하게 됩니다.
+- 허용 도메인을 제거하는 경우 먼저 EAP를 업데이트해야 합니다. 그렇지 않으면 그룹 프로비전이 영향을 하게 됩니다.
     
 - 조직에 대해 최대 100개 전자 메일 주소 정책을 구성할 수 있습니다.
     

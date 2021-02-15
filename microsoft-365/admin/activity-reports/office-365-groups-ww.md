@@ -36,7 +36,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 ## <a name="how-to-get-to-the-groups-report"></a>그룹 보고서에 도착하는 방법
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요. 
-2. 대시보드 홈 페이지에서 활성 사용자  - Microsoft 365 앱 또는 활성 사용자 - Microsoft 365 서비스 카드의 추가 보기 단추를 클릭하여 Office 365 보고서 페이지로 이동합니다.
+2. 대시보드 홈 페이지에서 활성 사용자  , Microsoft 365 앱 또는 활성 사용자 - Microsoft 365 서비스 카드에서 더 보기 단추를 클릭하여 Office 365 보고서 페이지로 이동합니다.
   
 ## <a name="interpret-the-groups-report"></a>그룹 보고서 해석
 
