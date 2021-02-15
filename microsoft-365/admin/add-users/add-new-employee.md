@@ -37,13 +37,13 @@ ms.locfileid: "49925341"
   
  **관리자가 아니세요?** [Microsoft 365를](https://support.microsoft.com/office/396b8d9e-e118-42d0-8a0d-87d1f2f055fb) 통해 비즈니스 및 가정용 사용자를 설정하는 데 도움이 되는 방법을 배워야 합니다. 
   
- **계획에 Office 앱이 없는 경우** 아래 단계를 따르지만 앱 설치 섹션은 건너뜁니다. Office의 [온라인 버전을](https://support.microsoft.com/office/91a4ec74-67fe-4a84-a268-f6bdf3da1804) 대신 사용합니다. 
+ **계획에 Office 앱이 없는 경우** 아래 단계를 따르지만 앱 설치를 위한 섹션은 건너뜁니다. Office의 [온라인 버전을](https://support.microsoft.com/office/91a4ec74-67fe-4a84-a268-f6bdf3da1804) 대신 사용합니다. 
   
 간략한 개요는 다음과 같습니다. 
   
 |**단계**|**그 이유는 무엇일까요?**|
 |:-----|:-----|
-|[1단계: 직원을 위한 Microsoft 365 계정 만들기](#step-1-create-a-microsoft-365-account-for-the-employee) <br/> |새 직원이 비즈니스에 가입할 때마다 Microsoft 365 사용을 시작할 수 있도록 해당 직원의 계정을 만들어야 합니다.  <br/> |
+|[1단계: 직원을 위한 Microsoft 365 계정 만들기](#step-1-create-a-microsoft-365-account-for-the-employee) <br/> |새 직원이 회사에 가입할 때마다 Microsoft 365 사용을 시작할 수 있도록 해당 직원의 계정을 만들어야 합니다.  <br/> |
 |[2단계: 직원에게 사용자 ID 및 암호 제공](#step-2-give-the-employee-their-user-id-and-password) <br/> |계정을 만들면 로그인할 수 있도록 직원에게 전달할 수 있는 ID와 암호가 표시됩니다.  <br/> |
 |[3단계: 로그인할 위치 설명](#step-3-explain-where-to-sign-in) <br/> |로그인 위치 [https://www.office.com](https://www.office.com) <br/> |
 |[4단계: 직원 시작 지원](#step-4-help-your-employee-get-started) <br/> |직원이 조직의 OneDrive 또는 팀 사이트를 사용하는 방법을 알 수 있도록 합니다.  <br/> |
@@ -80,11 +80,11 @@ Microsoft [365에서](https://support.microsoft.com/office/b9700090-ce64-4046-ab
 |:-----|:-----|
 |Office에 로그인  <br/> |Go to [https://www.office.com](https://www.office.com) , select **Sign in,** and then enter your user ID and password.  <br/> |
 |컴퓨터에 Office 앱을 설치합니다.  <br/><br/> |로그인하면 홈 페이지에 Word 및 Outlook과 같은 앱을 다운로드하고 설치할 수 있는 링크가 있습니다.  Select **Install Office**.         자세한 내용은 [Office 설치 방법을 참조하세요.](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)  <br/> |
-|Outlook 2016에서 전자 메일을 설정하세요.  <br/> |컴퓨터에 Office 앱을 설치하고 나면 전자 메일을 설정하세요. 자세한 내용은 [Outlook을 설정하는 방법을 참조하십시오.](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)  <br/> |
+|Outlook 2016에서 전자 메일을 설정하세요.  <br/> |컴퓨터에 Office 앱을 설치하고 나면 전자 메일을 설치합니다. 자세한 내용은 [Outlook을 설정하는 방법을 참조하십시오.](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)  <br/> |
 |회사 또는 전 세계의 동사 또는 비즈니스 파트너와 연결할 수 있도록 비즈니스용 Skype를 설정하세요. IM, 음성 또는 화상 통화로 대화를 시작할 수 있습니다.  <br/> |[컴퓨터에 비즈니스용 Skype를 설치합니다.](https://support.microsoft.com/office/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)  <br/> <br/>비즈니스용 Skype를 사용하는 방법을 알아보고 비디오를 [시청하세요.](https://support.microsoft.com/office/3a21eca4-434d-41f1-ab06-3d4a268573b7) <br/> <br/>직원이 무료 Skype 앱을 사용하는 회사 외부의 사용자와 연락할 수 있도록 비즈니스용 Skype를 설정해야 하나요? 그렇지 않은 경우 새 직원에게 비즈니스용 Skype를 사용할 때 예상할 수 있는 정보를 알려 주세요.  <br/> |
 |휴대폰에서 전자 메일을 얻거나 비즈니스용 Skype를 사용하려는 경우 모바일 장치에 앱을 설치합니다.  <br/> |휴대폰을 통해 전자 메일을 받을 수 있도록 Outlook 모바일 앱을 설정하려는 경우 자세한 내용은 [iOS,](https://support.microsoft.com/office/b2de2161-cc1d-49ef-9ef9-81acd1c8e234) [Android,](https://support.microsoft.com/office/886db551-8dfa-4fd5-b835-f8e532091872) [Windows Phone을 참조하세요.](https://support.microsoft.com/office/181a112a-be92-49ca-ade5-399264b3d417) <br/> <br/>모바일 장치에서 비즈니스용 Skype를 사용하려면 모바일 앱을 다운로드하여 설치합니다. 자세한 내용은 [iOS,](https://support.microsoft.com/office/3239c8a3-cf55-4ff0-a967-5de51911c049#OS_Type=iOS) [Android,](https://support.microsoft.com/office/4d1b7dfa-5b0b-4868-bae5-25947fb99e6e#OS_Type=Android) [Windows Phone을 참조하세요.](https://support.microsoft.com/office/4d1b7dfa-5b0b-4868-bae5-25947fb99e6e#OS_Type=Windows_Phone) <br/> |
 |클라우드에서 문서, 프레젠테이션 및 스프레드시트를 저장하고 구성하는 방법을 알아보는 데 도움이 되는 비즈니스용 OneDrive 교육을 완료합니다.  <br/> |비즈니스용 OneDrive를 사용하여 비즈니스 관련 문서를 클라우드에 보관합니다. 다른 컴퓨터에서 Microsoft 365에 로그인한 경우에도 항상 콘텐츠에 로그인할 수 있습니다. [비즈니스용 OneDrive 사용 방법을 알아보는 비디오 시청](https://support.microsoft.com/office/b30da4eb-ddd2-44b6-943b-e6fbfc6b8dde) <br/><br/> **교육:** [비즈니스용 OneDrive](https://support.microsoft.com/office/1f608184-b7e6-43ca-8753-2ff679203132) 교육(비즈니스용 OneDrive 선택)  <br/> |
-|SharePoint Online 교육을 완료하여 동료와 공동 작업을 진행하고 콘텐츠를 공유할 수 있습니다.  <br/> |동료도 액세스할 문서를 보관하기에 가장 적합한 장소는 SharePoint Online입니다.  <br/> <br/>**교육:** [비디오: SharePoint Online을](https://support.microsoft.com/office/c17b6824-cc22-478f-8757-497cc6b57121) 사용하여 팀 콘텐츠 공동 작업 <br/><br/> **다음을 찾아야 합니다.** 조직에서 SharePoint Online을 사용하는 방법 및 저장되는 문서 유형 또한 비즈니스용 OneDrive에 저장되는 문서도 있습니다.  <br/> |
+|SharePoint Online 교육을 완료하여 동료와 공동 작업을 진행하고 콘텐츠를 공유할 수 있습니다.  <br/> |동료도 액세스할 문서를 보관하기에 가장 적합한 장소는 SharePoint Online입니다.  <br/> <br/>**교육:** [비디오: SharePoint Online을](https://support.microsoft.com/office/c17b6824-cc22-478f-8757-497cc6b57121) 사용하여 팀 콘텐츠 공동 작업 <br/><br/> **다음에 대한 자세한 정보를 찾아보아야 합니다.** 조직에서 SharePoint Online을 사용하는 방법 및 저장되는 문서 유형 또한 비즈니스용 OneDrive에 저장되는 문서도 있습니다.  <br/> |
 
 ## <a name="related-articles"></a>관련 문서
 

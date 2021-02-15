@@ -84,7 +84,7 @@ ms.locfileid: "49927253"
 
 ## <a name="6-get-outlook-on-your-phone"></a>6. 휴대폰에서 Outlook 사용
 
-- 앱 **스토어** 또는 Google Play 스토어에서 휴대폰에서 Outlook을 다운로드합니다. 열고 시작을 **선택하고** 전자 메일 및 암호를 추가합니다.
+- 앱 **스토어** 또는 Google Play 스토어에서 휴대폰에서 Outlook을 다운로드합니다. Open it, and choose **Get Started** and add your email and password.
 - 그렇지 않으면 iOS 또는 Android 장치에서는 Outlook을 열고 **설정** 으로 이동합니다.
 
     **계정 추가** 를 선택한 다음 **전자 메일 계정 추가** 를 선택하고 전자 메일 및 암호를 입력합니다.

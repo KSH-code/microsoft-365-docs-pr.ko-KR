@@ -37,13 +37,13 @@ ms.locfileid: "49926825"
 
 
   
-## <a name="info-to-have-on-hand-before-you-run-the-setup-wizard"></a>설치 마법사를 실행하기 전에 준비해야 할 정보
+## <a name="info-to-have-on-hand-before-you-run-the-setup-wizard"></a>설정 마법사를 실행하기 전에 준비해야 할 정보
 
 설치 마법사를 실행하고 도메인을 Microsoft 365로 이동할 준비가 되면 다음과 같은 정보를 준비해야 합니다.
   
 - Microsoft 365에 추가할 사용자 목록입니다. Microsoft 365에 이미 추가한 경우에도 도메인 정보를 업데이트하는 경우 여기에 해당 이름을 입력해야 합니다.
 
-- 로그인할 수 있도록 직원에게 사용자 ID와 암호를 알리는 방법 정보를 사용하여 호출할 것인가? 또는 개인 전자 메일 주소로 보내시겠습니까? 전자 메일에 액세스할 수 없습니다. 따라서 사용할 수 없습니다.
+- 로그인할 수 있도록 직원에게 사용자 ID와 암호를 알리는 방법 정보를 사용하여 호출하나요? 또는 개인 전자 메일 주소로 보내시겠습니까? 전자 메일에 액세스할 수 없습니다. 따라서 사용할 수 없습니다.
 
 - 조직의 도메인 이름(예: contoso.com)이 있는 경우  Microsoft 전자 메일을 사용하려면 도메인이 등록된 위치를 알아야 합니다.
 
@@ -60,9 +60,9 @@ ms.locfileid: "49926825"
   
 ## <a name="when-not-to-use-the-setup-wizard-active-directory-synchronization-and-hybrid-environments"></a>설정 마법사를 사용하면 안 되는 경우: Active Directory 동기화 및 하이브리드 환경
 
-데이터 또는 사용자를온-프레미스 환경에서 마이그레이션하거나 디렉터리 동기화를 포함하는 하이브리드 시스템을 설정하는 시나리오는 몇 가지가 있습니다. 두 범주 중 하나에 속하는 경우 다음 문서의 지침을 따릅니다.
+데이터 또는 사용자를온-프레미스 환경에서 마이그레이션하거나 디렉터리 동기화를 포함하는 하이브리드 시스템을 설정하는 시나리오는 몇 가지가 있습니다. 두 범주 중 하나에 속하는 경우 다음 문서의 지침을 따르세요.
   
-- Microsoft 365의 디렉터리 동기화를 설정하고 [Microsoft 365의](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)다양한 ID 모델을 이해하기 위해 Microsoft 365 Active Directory와 디렉터리 동기화를 설정하고 [Microsoft 365 ID](https://docs.microsoft.com/microsoft-365/enterprise/about-microsoft-365-identity)및 Azure Active Directory 이해를 참조하세요.
+- Microsoft 365의 디렉터리 동기화를 설정하고 [Microsoft 365의](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)다양한 ID 모델을 이해하기 위해 Microsoft 365 Active Directory와 디렉터리 동기화를 설정하는 방법을 참조하세요. Microsoft [365 ID](https://docs.microsoft.com/microsoft-365/enterprise/about-microsoft-365-identity)및 Azure Active Directory 이해를 참조하세요.
 
 - Exchange 하이브리드를 설정하려면 다음에서 하이브리드 Exchange를 설정(DNS 레코드 설정 포함)하는 여러 다른 방법을 모두 안내하는 전체 지침 집합을 찾을 수 있습니다. [Exchange Server 배포 도우미](https://aka.ms/exdeploy)
 
@@ -72,7 +72,7 @@ ms.locfileid: "49926825"
 
 - **조직을 Microsoft 365로 한 번만 이동하고 싶나요?** 그렇다면 도메인을 Microsoft 365로 바로 이동하기 위한 계획을 세우는 것이 좋습니다. 먼저 Microsoft 365 설치 마법사를 실행합니다. 도메인을 설정하라는 메시지가 표시됩니다.
 
-- **점진적으로 Microsoft 365로 이동하고 싶나요?** Microsoft 365로 단계적 이동하려는 경우 Microsoft 365 설치 마법사 실행을 건너뛰고 다음 순서로 Microsoft 365 기능을 채택하는 것이 좋습니다.
+- **점진적으로 Microsoft 365로 이동하고 싶나요?** 단계적 Microsoft 365로 이동하려는 경우 Microsoft 365 설치 마법사 실행을 건너뛰고 다음 순서로 Microsoft 365 기능을 채택하는 것이 좋습니다.
 
     1. Office 앱을 다운로드하고 설치할 수 있도록 [직원을 Microsoft 365에](../add-users/add-users.md) 추가합니다.
 
@@ -106,7 +106,7 @@ ms.locfileid: "49926825"
 
 ### <a name="plan-to-move-your-existing-email-contacts-and-calendar"></a>기존 전자 메일, 연락처 및 일정 이동 계획
   
-전자 메일 계정에 Microsoft 365를 사용하려면 기존 전자 메일, 연락처 및 일정을 가져올 수 있습니다. 설치 **페이지에서는** 대부분의 시나리오에서 기존 전자 메일과 연락처를 이동할 수 있습니다. 하나 이상의 사서함으로 이동하는 단계별 지침도 제공합니다.
+전자 메일 계정에 Microsoft 365를 사용하려면 기존 전자 메일, 연락처 및 일정을 가져올 수 있습니다. 설치 **페이지를** 사용하면 대부분의 시나리오에서 기존 전자 메일과 연락처를 이동할 수 있습니다. 하나 이상의 사서함으로 이동하는 단계별 지침도 제공합니다.
   
 |**사서함이 몇 개인가요?**|**권장 사항**|
 |:-----|:-----|
@@ -133,7 +133,7 @@ Microsoft Teams를 사용하여 구독에 있는 조직의 다른 사용자와 �
   
 - **Microsoft 365를 다른 회사에서 만든 소프트웨어와 통합하고 싶나요?** Microsoft 365를 조직의 다른 소프트웨어와 통합해야 하는 경우 [](https://go.microsoft.com/fwlink/?linkid=391089) 배포에 도움이 되는 파트너를 고용하는 것이 좋습니다.
   
-## <a name="do-you-want-someone-to-help-you-set-up-microsoft-365"></a>누군가가 Microsoft 365를 설정하는 데 도움을 주시겠습니까?
+## <a name="do-you-want-someone-to-help-you-set-up-microsoft-365"></a>다른 사용자가 Microsoft 365를 설정하는 데 도움을 주시겠습니까?
 
 - **직원 수가 50명 미만인 경우:**
 

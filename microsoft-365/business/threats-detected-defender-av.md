@@ -48,7 +48,7 @@ Microsoft Defender 바이러스 백신은 운영 체제의 일부로, Windows 10
 
 사용하지 않도록 설정되어 있는 경우 사용자와 고객은 예약된 검사 또는 필요한 경우 검사에 여전히 Microsoft Defender 바이러스 백신을 사용하여 위협을 식별할 수 있습니다. 그러나 Microsoft Defender 바이러스 백신은 더 이상 다음을 실행하지 않습니다.
 
-- 기본 바이러스 백신 앱으로 사용됩니다.
+- 는 기본 바이러스 백신 앱으로 사용됩니다.
 - 파일을 적극적으로 검색하여 위협을 검사합니다.
 - 위협을 수정하거나 해결합니다.
 
@@ -64,7 +64,7 @@ Microsoft Defender 바이러스 백신에서 위협이 감지되면 다음과 �
 
 - 사용자는 [Windows에서 알림을 받게 됩니다.](https://support.microsoft.com/windows/8942c744-6198-fe56-4639-34320cf9444e) 
 - 검색은 보호 기록 페이지의 [Windows 보안](/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center) **앱에 나열됩니다.**  
-- [Windows 10](secure-win-10-pcs.md) 장치를 보호하고 [Intune에](/mem/intune/enrollment/windows-enrollment-methods)등록한 경우 조직에 등록된 장치가 800개 이하인 경우 위협 및 바이러스 백신 페이지의 Microsoft <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">365</a> 관리 센터에서 위협 감지 및 인사이트를 볼 수  있습니다. 위협 감지 및 통찰력은 홈 페이지의 **Microsoft Defender** 바이러스 백신 카드 또는 상태 위협 & 바이러스 백신을 선택하여 탐색   >  **창에서** 액세스할 수 있습니다.
+- [Windows 10](secure-win-10-pcs.md) 장치를 보호하고 [Intune에](/mem/intune/enrollment/windows-enrollment-methods)등록한 경우 조직에 등록된 장치가 800개 이하인 경우 위협 및 바이러스 백신 페이지의 **Microsoft** <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">365</a>  관리 센터에서 위협 감지 및 정보를 볼 수 있습니다. 이 페이지에서는 홈 페이지(또는 상태 위협 & 바이러스 백신을 선택하여 탐색   >  **창)에서** 액세스할 수 있습니다.
 
     조직에 Intune에 등록된 장치가 800개가 넘는 경우 위협 및 바이러스 백신 페이지 대신 [Microsoft Endpoint Manager에서](/mem/endpoint-manager-overview) 위협 감지 및 인사이트를 볼지 묻는 메시지가 **표시됩니다.**
  

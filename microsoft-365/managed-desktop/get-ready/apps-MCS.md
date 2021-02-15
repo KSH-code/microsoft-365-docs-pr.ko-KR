@@ -18,7 +18,7 @@ ms.locfileid: "49841426"
 ---
 # <a name="working-with-microsoft-consulting-services"></a>Microsoft 컨설팅 서비스 활용
 
-MCS(Microsoft Consulting Services)에 참여하여 Microsoft Managed Desktop에서 사용하기 위해 패키지된 앱을 다운로드할 수 있습니다. 정확한 세부 정보를 확인하려면 계정 담당자와 함께 MCS에 연락하여 특정 앱 패키징 프로젝트의 범위를 지정합니다.
+MCS(Microsoft Consulting Services)에 참여하여 Microsoft Managed Desktop에서 사용하기 위해 패키지된 앱을 다운로드할 수 있습니다. 정확한 세부 정보는 계정 담당자와 함께 MCS에 문의하고 특정 앱 패키징 프로젝트의 범위를 지정합니다.
 
 ## <a name="roles-and-responsibilities"></a>역할 및 책임
 
@@ -36,11 +36,11 @@ MCS 앱 패키징을 사용하려면 **다음 요소를 제공해야 합니다.*
 
 ## <a name="app-delivery-schedule"></a>앱 배달 일정
 
-Microsoft Managed Desktop 포털에 앱 정보를 업로드하여 패키징 프로세스를 시작하세요. 패키징 팀은 매주 목요일에 새 제출을 검토합니다. 검토 및 패키징 후 패키지된 앱은 다음 금요일에 제공됩니다. 시작을 위해 일주일에 최대 5개의 앱을 패키지로 구성할 수 있지만, 서비스는 요구에 따라 확장할 수 있습니다.
+Microsoft Managed Desktop 포털에 앱 정보를 업로드하여 패키징 프로세스를 시작하세요. 패키징 팀은 매주 목요일에 새 제출을 검토합니다. 검토 및 패키징 후 패키지된 앱은 다음 금요일에 제공됩니다. 시작을 위해 일주일에 최대 5개의 앱을 패키지로 구성할 수 있지만 서비스는 요구에 따라 확장할 수 있습니다.
 
-![목요일(이 예의 21일), 미디어 유효성 검사, 다음 월요일(25일) 패키징, 다음 금요일(29일)에 앱 배달을 표시하는 일정](../../media/MCS-cal.png)
+![목요일(이 예의 21일), 미디어 유효성 검사, 다음 주 월요일(25일) 패키징, 다음 금요일(29일) 앱 배달을 보여주는 일정](../../media/MCS-cal.png)
 
-앱이 제공된 후 알림을 하게 됩니다. 이때 Microsoft Managed Desktop 포털에서 승인 테스트를 수행하고 작업을 승인할 수 있는 21일이 있습니다. 수용 테스트 중에 앱에 문제가 발견되면 Microsoft Managed Desktop 포털에서 앱을 거부하고 MCS 패키지러와 전자 메일을 통해 연결하여 문제를 이해하고 해결합니다.
+앱이 제공된 후 알림을 하게 됩니다. 이때 Microsoft Managed Desktop 포털에서 승인 테스트를 수행하고 작업을 승인할 수 있는 21일이 있습니다. 수락 테스트 중에 앱에 문제가 발견되면 Microsoft Managed Desktop 포털에서 앱을 거부하고 MCS 패키지러와 전자 메일을 통해 연결하여 문제를 이해하고 해결합니다.
 
 ## <a name="testing-accounts-and-environment"></a>계정 및 환경 테스트
 
@@ -54,6 +54,6 @@ MCS는 이러한 사용 권한을 사용하여 다음 작업을 수행하게 됩
 -   Microsoft Managed Desktop에 대해 구성된 가상 머신에서 앱이 작동하는지 보장
 -   사용자에게 배포하기 위해 Microsoft Intune에 앱 업로드
 
-이러한 사용 권한이 없는 경우 MCS가 진행할 수 있지만 응용 프로그램을 사용자 환경에 업로드할 수 없습니다.
+이러한 사용 권한이 없는 경우 MCS가 진행할 수 있지만 해당 환경으로 응용 프로그램을 업로드할 수 없습니다.
 
 

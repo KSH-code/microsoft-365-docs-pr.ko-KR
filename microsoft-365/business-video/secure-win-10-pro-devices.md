@@ -22,7 +22,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 365 Business Premium을 사용하여 Windows 10 Pro 장치 정책을 관리하는 방법에 대해 자세히 알아보습니다.
+description: Microsoft 365 Business Premium을 사용하여 Windows 10 Pro 장치 정책을 관리하는 방법을 알아보고
 ms.openlocfilehash: f42c175543ae16ae645c17997b20ed67aa5d705c
 ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
@@ -42,7 +42,7 @@ Microsoft 365 Business를 사용하여 Windows 10 장치에서 Windows Defender 
 1. **정책에서** 정책 추가를 선택 합니다.
 1. 정책 추가 **창에서** 정책 이름 아래에 이름을 입력한 다음 정책 유형에서 **Windows 10** 장치 **구성을 선택합니다.**
 1. 하위 **설정을 표시하려면 Windows 10** 디바이스 보안 옵션을 선택합니다.
-1. 바이러스 백신을 **사용하여** 바이러스 및 기타 위협으로부터 PC를 보호하는 Windows Defender Windows **10** 장치를 최신 상태로 유지하는 것이 자동으로 켜져 있는지 확인 합니다.
+1. 바이러스 **백신을** 사용하여 바이러스 및 기타 위협으로부터 PC를 보호하는 Windows Defender Windows **10** 장치를 최신 상태로 유지하는 것이 자동으로 켜져 있는지 확인 합니다.
 1. 이러한 설정을 사용할 사용자 **아래에는** 모든 사용자가 기본적으로 선택되지만, 변경을 선택하여 만든 보안 그룹을 선택할 수 있습니다. 
 1. 정책 만들기를 완료하고 추가를 **선택 합니다.**
 1. 정책 추가 **페이지에서** 닫기 를 **선택합니다.**

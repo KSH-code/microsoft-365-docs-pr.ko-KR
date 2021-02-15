@@ -33,7 +33,7 @@ ms.locfileid: "49925497"
 
 >[!CAUTION]
 >**ServiceNow 커넥터의 미리 보기 기간이 종료된 경우**<br>
->이 기능은 더 이상 사용할 수 없습니다. 다음 단계를 결정하는 동안 여러분의 피드백에 감사드립니다. 지원을 계속해주신 경우
+>이 기능은 더 이상 사용할 수 없습니다. 다음 단계를 결정하는 동안 여러분의 피드백에 감사하고 지원을 계속해주신 것을 환영합니다.
 
 [Microsoft 365](overview-security-center.md) 보안 센터는 ServiceNow에서 티켓을 기본적으로 만들고 추적하는 기능으로 향상됩니다. [ServiceNow에 대해 자세히](https://www.servicenow.com/)
 

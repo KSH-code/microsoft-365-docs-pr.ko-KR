@@ -21,7 +21,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Google Workspace에서 비즈니스용 Microsoft 365로 데이터 및 사용자를 이동하는 방법을 학습합니다.
+description: Google Workspace에서 비즈니스용 Microsoft 365로 데이터 및 사용자를 이동하는 방법을 자세히 알아보고
 ms.openlocfilehash: 49fc163821f74ca42a07353e59ed4439b6d52023
 ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT

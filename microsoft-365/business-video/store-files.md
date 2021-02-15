@@ -40,11 +40,11 @@ Microsoft 365에서는 비즈니스용 OneDrive 또는 SharePoint 사이트에 �
 ### <a name="store-or-share-files-with-onedrive"></a>OneDrive와 파일 저장 또는 공유
 
 1. 컴퓨터에서 파일 탐색기를 사용하여 OneDrive를 엽니다. 또는 [Office 365에서](https://www.office.com/)앱 시작기에서  **OneDrive를**  여는 경우
-2. 공유를 클릭한 다음 다른 사용자에게 문서를 보거나  링크를 보내 개인 파일을 보고 업로드하거나 문서 또는 폴더를 공유합니다. [자세한 정보](https://support.microsoft.com/office/9fcc2f7d-de0c-4cec-93b0-a82024800c07#os_type=onedrive_-_business).
+2. 공유를 클릭한 다음 다른 사용자에게 문서를 보거나  링크를 보내 개인 파일을 보고 업로드하거나 문서 또는 폴더를 공유합니다. [자세히 알아보기](https://support.microsoft.com/office/9fcc2f7d-de0c-4cec-93b0-a82024800c07#os_type=onedrive_-_business).
 
 ### <a name="collaborate-with-a-sharepoint-site"></a>SharePoint 사이트와 공동 작업
 
-1. [Office 365에서](https://www.office.com/)앱 시작기에서 **SharePoint를** 연 다음 팀 사이트를 선택합니다.
+1. [Office 365에서](https://www.office.com/)앱 시작기에서 **SharePoint를** 열고 팀 사이트를 선택합니다.
 2. 기본 문서 위치에 파일을 추가하거나 라이브러리라는 문서 위치를 더 만들 수 있습니다.
 
 특정 프로젝트, 팀 또는 고객에 대한 하위 사이트를 만들어 SharePoint 사이트를 사용자 지정할 수 있습니다. 회사 이름, 로고 및 모양과 느낌을 추가하여 사이트를 비즈니스 인트라넷으로 전환할 수도 있습니다. [자세히 알아보기](https://support.microsoft.com/office/06bbadc3-6b04-4a60-9d14-894f6a170818).

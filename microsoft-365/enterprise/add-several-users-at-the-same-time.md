@@ -75,7 +75,7 @@ ms.locfileid: "49877215"
 
 ## <a name="next-steps"></a>다음 단계
 
-- 이제 이러한 사용자에 계정이 있는 경우 PC 또는 [Mac에 Microsoft 365 또는 Office 2016을](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658)다운로드하고 설치하거나 다시 설치해야 합니다. 팀의 각 사람은 최대 5대의 PC 또는 Mac에 Microsoft 365를 설치할 수 있습니다.
+- 이제 이러한 사용자 계정이 있는 경우 PC 또는 [Mac에 Microsoft 365 또는 Office 2016을](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658)다운로드하고 설치하거나 다시 설치해야 합니다. 팀의 각 사람은 최대 5대의 PC 또는 Mac에 Microsoft 365를 설치할 수 있습니다.
 
 - 각 사용자는 iPhones, iPads 및 Android 휴대폰 및 태블릿과 같은 최대 5대의 태블릿과 5대의 휴대폰에서 [모바일 장치의 Office 앱 및 전자 메일을 설정](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f)할 수도 있습니다. 이 방법으로 어디서나 Office 파일을 편집할 수 있습니다.
 
@@ -105,7 +105,7 @@ CSV 파일은 쉼표로 구분된 값을 사용한 파일입니다. 모든 텍�
 
 - **스프레드시트의 크기는 얼마나 작거나 크나요?** 스프레드시트에는 행이 두 개 이상 있어야 합니다. One is for the column headings (the user data column label) and one for the user. You cannot have more than 251 rows. If you need to import more than 250 users, you can create more than one spreadsheet.
 
-- **어떤 언어를 사용할 수 있나요?** 스프레드시트를 만들 때 사용자 데이터 열 레이블을 언어나 문자로 입력할 수 있지만 샘플과 같이 레이블 순서를 변경하면 안 됩니다. You can then make entries into the fields, using any language or characters, and save your file in a Unicode or UTF-8 format.
+- **어떤 언어를 사용할 수 있나요?** 스프레드시트를 만들 때 모든 언어나 문자로 사용자 데이터 열 레이블을 입력할 수 있지만 샘플과 같이 레이블의 순서를 변경하면 안 됩니다. You can then make entries into the fields, using any language or characters, and save your file in a Unicode or UTF-8 format.
 
 - **다른 국가나 지역의 사용자를 추가하는 경우** 각 지역에 대해 별도의 스프레드시트를 만듭니다. 각 스프레드시트의 사용자 일괄 추가 마법사를 단계적으로 따르면 작업 중인 파일에 포함된 모든 사용자를 한 곳에서 볼 수 있습니다.
 

@@ -32,7 +32,7 @@ ITIL 및 해당 단계 및 프로세스에 대한 자세한 내용은 해당 설
 |---------|---------|---------|
 |서비스 수준 관리     | 응답 시간은 관리자 지원 요청 및 인시던트에 대해 정의됩니다.  |  [Microsoft Managed Desktop의 관리자 지원](working-with-managed-desktop/admin-support.md)  |
 |서비스 카탈로그 관리     | 서비스의 구성 요소를 자세히 설명하는 서비스 설명은 현재 및 관심 있는 모든 고객이 사용할 수 있는 서비스의 상태를 계속합니다.<br><br>서비스를 운영하는 데 필요한 사항을 이해하기 위해 자세히 설명된 선행 사항  | - [Microsoft Managed Desktop 서비스 설명](service-description/index.md)<br><br>- [Microsoft Managed Desktop에 등록 준비](get-ready/index.md)  |
-|정보 보안 관리     | 서비스에 대한 정보 보안을 비롯한 보안 정보입니다.<br><br> 디바이스 구성 방법에 대한 보안 관련 정책 및 기타 정보   | - [Microsoft Managed Desktop의 보안](service-description/security.md)<br><br>- [장치 구성](service-description/device-policies.md)  |
+|정보 보안 관리     | 서비스에 대한 정보 보안을 비롯한 보안 정보입니다.<br><br> 보안 관련 정책 및 장치 구성 방법에 대한 기타 정보   | - [Microsoft Managed Desktop의 보안](service-description/security.md)<br><br>- [장치 구성](service-description/device-policies.md)  |
 |가용성 관리     |  Microsoft Managed Desktop은 서비스의 가용성을 보장하기 위해 조직과 책임의 균형을 조정합니다.<br><br>관리자와 사용자는 서비스 또는 가용성 문제가 있는 경우 각 지원에 대한 경로를 사용할 수 있습니다. | - [Microsoft Managed Desktop 작업 및 모니터링](service-description/operations-and-monitoring.md)<br><br>- [Microsoft Managed Desktop에 대한 관리자 지원](working-with-managed-desktop/admin-support.md)<br>- [사용자에 대한 도움말](working-with-managed-desktop/end-user-support.md)  |
 
 

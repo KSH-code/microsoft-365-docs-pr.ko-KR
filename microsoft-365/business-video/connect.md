@@ -21,7 +21,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: PC를 Microsoft 365 Business에 연결하는 방법을 학습합니다.
+description: PC를 Microsoft 365 Business에 연결하는 방법을 배워야 합니다.
 ms.openlocfilehash: 61adae68541233ffb7b7087174c4633995b28fdd
 ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
@@ -44,7 +44,7 @@ Microsoft 365 Business Premium(이전의 Microsoft 365 Business)을 설정한 �
 다음으로 Microsoft 365 Business에 연결합니다.
 
 1. **시작을** 선택한 다음 설정 **아이콘을** 선택합니다.
-2. Select **Accounts**  >   **Access work or school**   >   **Connect**.
+2. Select **Accounts**  >   **Access work or school**   >   **Connect.**
 3. 이 **디바이스를 Azure Active Directory에 가입을 선택합니다.**
 4. Microsoft 365 계정의 전자 메일 주소를 입력하고 다음을 **선택합니다.**
 5. 암호를 입력하고  **로그인을** 선택한 다음 올바른 조직에 가입하고 있는지 확인합니다.

@@ -21,7 +21,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Android 장치에 Outlook 및 기타 Office 앱을 설치하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+description: Android 디바이스에 Outlook 및 기타 Office 앱을 설치하는 방법을 배워야 합니다.
 ms.openlocfilehash: 3b449d98a9e19e8f4ce8a3cc84dbbdce058dc310
 ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT

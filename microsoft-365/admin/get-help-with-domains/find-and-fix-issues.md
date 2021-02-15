@@ -38,7 +38,7 @@ ms.locfileid: "49926393"
 도메인을 Microsoft 365와 함께 작동할 수 있도록 설정하는 것은 어려울 수 있습니다. DNS 시스템은 번거로우며, 도메인에 대한 DNS 설정은 전자 메일처럼 중요한 비즈니스 활동에 영향을 줍니다.
 
 > [!NOTE]
-> 도메인의 상태를 확인하여 도메인 문제를 확인할 수 있습니다. 설치   >  **도메인으로 이동하여** 상태 열에서  알림을 시청합니다. 문제가 표시이면 추가 작업(3개 점)을 선택한 다음 **상태 확인을 선택합니다.** 창이 열리면 도메인에서 발생하는 문제를 설명할 수 있습니다.
+> 도메인의 상태를 확인하여 도메인 문제를 확인할 수 있습니다. 설치   >  **도메인으로 이동하여** 상태 열에서  알림을 시청합니다. 문제가 있는 경우 추가 작업(3개 점)을 선택한 다음 **상태 확인을 선택합니다.** 창이 열리면 도메인에서 발생하는 문제를 설명할 수 있습니다.
   
 ## <a name="whats-going-on"></a>무슨 일이죠?
 
@@ -46,7 +46,7 @@ ms.locfileid: "49926393"
     
 - [Outlook이 작동하지 않는 경우](#outlook-isnt-working)
     
-- [모든 사용자 전자 메일이 Microsoft 365로 전환된 후 전자 메일만 전환하고 싶나요?](#everyones-email-got-switched-to-microsoft-365-and-you-only-wanted-your-email-to-switch)
+- [모든 사용자 전자 메일이 Microsoft 365로 전환된 경우 전자 메일만 전환하고 싶나요?](#everyones-email-got-switched-to-microsoft-365-and-you-only-wanted-your-email-to-switch)
 
 - [비영리 또는 학교 계정 상태를 확인할 수 없는 경우](#cant-confirm-non-profit-or-school-account-status)
 
@@ -70,7 +70,7 @@ ms.locfileid: "49926393"
 
 도메인에 대해 MX 레코드 및 기타 DNS 레코드를 올바르게 설정했으나 메일이 작동하지 않는 경우 [Outlook 문제 해결](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues)을 도와드리겠습니다.
   
-## <a name="everyones-email-got-switched-to-microsoft-365-and-you-only-wanted-your-email-to-switch"></a>모든 사용자 전자 메일이 Microsoft 365로 전환된 후 전자 메일만 전환하고 싶나요?
+## <a name="everyones-email-got-switched-to-microsoft-365-and-you-only-wanted-your-email-to-switch"></a>모든 사용자 전자 메일이 Microsoft 365로 전환된 경우 전자 메일만 전환하고 싶나요?
 <a name="BKMK_EmailSwitched"> </a>
 
 Microsoft 365에 도메인을 추가하면 일반적으로 도메인의 MX 레코드가 Microsoft 365를 지점하기 위해(사용자 또는 Microsoft 365에 의해) 업데이트됩니다. 해당 도메인으로 전송된 모든 전자 메일이 Microsoft 365로 전송됩니다. MX 레코드를 변경하기 전에 도메인에 전자 메일이 있는 모든 사용자에 대해 Microsoft 365에서 사서함을 만들었다고 합니다.
@@ -90,7 +90,7 @@ Microsoft 365에 도메인을 추가하면 일반적으로 도메인의 MX 레�
 Microsoft에서는 도메인의 DNS 설정 문제를 해결할 수 있도록 지원합니다. Microsoft 365의 도메인 문제 해결사는 수정이 필요한 레코드와 레코드를 설정해야 하는 레코드를 정확하게 보여 주게 됩니다. 
 
 > [!TIP]
-> DNS를 올바르게 설정했지만 데스크톱의 Outlook에서 메일이 작동하지 않나요? 비즈니스에 대해 올바르게 설정되어 있는지 확인하려면 [Microsoft 365에서](https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices) 사용할 수 있는 다양한 메일 흐름 시나리오를 확인하세요. 또는 전자 메일과 관련된 추가 문제 해결 도움말을 [Outlook 문제 해결](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues)에서 확인합니다. 
+> DNS를 올바르게 설정했지만 데스크톱의 Outlook에서 메일이 작동하지 않나요? [Microsoft 365에서](https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices) 사용할 수 있는 다양한 메일 흐름 시나리오를 확인하여 비즈니스에 대해 올바르게 설정되어 있는지 확인합니다. 또는 전자 메일과 관련된 추가 문제 해결 도움말을 [Outlook 문제 해결](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues)에서 확인합니다. 
   
 ## <a name="accessing-your-website-isnt-working"></a>웹 사이트에 액세스할 수 없나요?
 <a name="BKMK_Website"> </a>

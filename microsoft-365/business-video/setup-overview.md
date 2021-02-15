@@ -57,8 +57,8 @@ Microsoft 365를 통해 비즈니스를 클라우드로 전환하기로 결정�
 
 - 전자 메일, 문서 만들기, 공동 작업 및 클라우드 저장소에 대한 온라인 앱(웹 브라우저에서 액세스할 수 있는 앱)만 사용하려는 경우 [Office 365 Business Essentials를](https://www.microsoft.com/en-us/p/office-365-business-essentials/cfq7ttc0k59v?rtc=1&amp;activetab=pivot:overviewtab) 선택하세요. 여기에는 Word Online, Excel Online, PowerPoint Online 및 SharePoint Online이 포함됩니다.
 - PC 및 Mac에서 직접 실행된 Word, Excel 및 Teams와 같은 다양한 Office 앱 버전을 사용하려는 경우 [Office 365 Business Premium을](https://products.office.com/en-us/business/office-365-business-premium) 선택하세요. 이는 온라인 앱에 추가됩니다.
-- 모든 Office 앱과 클라우드 보안 및 장치 관리를 원하는 경우 [Microsoft 365 Business를](https://www.microsoft.com/microsoft-365/business?rtc=1) 선택하세요. 여기에는 바이러스, 맬웨어, 랜섬웨어 등을 방지하는 것뿐만 아니라 장치 관리 및 암호화가 포함됩니다. 또한 이전 Windows Professional 버전에서 Windows 10 Pro로 무료 업그레이드를 받을 수 있습니다.
-- 대기업이 되거나 더 복잡한 IT 앱 및 서비스가 필요한 경우 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)요금제에 대해 자세히 알아보하세요.
+- 모든 Office 앱과 클라우드 보안 및 장치 관리를 원하는 경우 [Microsoft 365 Business를](https://www.microsoft.com/microsoft-365/business?rtc=1) 선택하세요. 여기에는 바이러스, 맬웨어, 랜섬웨어 등을 보호하는 것뿐만 아니라 장치 관리 및 암호화가 포함됩니다. 또한 이전 Windows Professional 버전에서 Windows 10 Pro로 무료 업그레이드를 받을 수 있습니다.
+- 대기업이 되거나 더 복잡한 IT 앱 및 서비스가 필요한 경우 [Microsoft 365 Enterprise 요금제에 대해 자세히 알아보하세요.](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)
 
 
 ## <a name="2-add-a-domain-name"></a>2. 도메인 이름 추가
@@ -93,8 +93,8 @@ Microsoft 365를 통해 비즈니스를 클라우드로 전환하기로 결정�
 ## <a name="7-connect-your-pcs-to-microsoft-365"></a>7. PC를 Microsoft 365에 연결
 
 - Microsoft 365를&#39;Microsoft 365 Business Premium 및 Azure Active Directory에 Windows 10 PC를 연결하고 싶을 것입니다. 이를 통해 Microsoft 365 Business Premium에서 PC를 관리하여 데이터 손실 및 기타 사이버 위협으로부터 소프트웨어 업데이트 및 보호를 받을 수 있습니다.
-- PC를 연결하면 Windows 10에서 조직&#39;네트워크에 장치를 등록한 다음 조직에서 사용자 이름 및 암호를 사용하여 로그인하고 리소스에 액세스할&#39;수 있도록 디바이스를 네트워크에 연결합니다.
-- 조직의 요구 사항에&#39;Microsoft Intune과 같은 2단계 인증, 암호화 및 모바일 장치 관리를 설정해야 할 수 있습니다.
+- PC를 연결하면 Windows 10에서 조직&#39;네트워크에 장치를 등록한 다음 조직에서 사용자 이름과 암호를 사용하여 로그인하고 리소스에 액세스할&#39;수 있도록 디바이스를 네트워크에 연결합니다.
+- 조직의 요구 사항에&#39;따라 2단계 인증, 암호화 및 Microsoft Intune과 같은 모바일 장치 관리를 설정해야 할 수 있습니다.
 
 ## <a name="8-set-up-and-use-office-apps"></a>8. Office 앱 설정 및 사용
 

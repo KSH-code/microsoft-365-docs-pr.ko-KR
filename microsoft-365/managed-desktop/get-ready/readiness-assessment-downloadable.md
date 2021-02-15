@@ -82,7 +82,7 @@ Microsoft Managed Desktop에서 잘 작동하려면 디바이스가 하드웨어
 
 #### <a name="print-queues"></a>인쇄 큐
 
-권고 **결과는** 일부 미해결 인쇄 큐가 있는 것으로, 권장되지 않습니다. 한 가지 해결 방법은 클라우드 인쇄를 사용하는 것입니다. 자세한 내용은 Microsoft Managed Desktop에 대한 인쇄 [리소스 준비를 참조하세요.](printing.md)
+권고 **결과는** 일부 미해결 인쇄 큐가 있는 것으로, 권장되지 않습니다. 한 가지 해결 방법은 클라우드 인쇄를 사용하는 것입니다. 자세한 내용은 Microsoft Managed Desktop에 대한 인쇄 리소스 [준비를 참조하세요.](printing.md)
 
 #### <a name="proxies"></a>Proxies
 

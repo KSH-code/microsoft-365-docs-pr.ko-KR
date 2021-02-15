@@ -22,7 +22,7 @@ ms.locfileid: "49877203"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 
-이 문서에는 Microsoft Managed Desktop 설명서의 신규 문서와 [업데이트된 문서가 나열되어 있습니다.](index.yml) "업데이트된" 문서에는 오타, 스타일 또는 서식 문제의 수정과 같은 사소한 수정이 나열되지 않습니다. [항상 GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)리포지토리를 방문하여 특정 커밋 기록(변경 내용 세부 정보 포함)을 볼 수 있습니다.
+이 문서에는 Microsoft Managed Desktop 설명서의 신규 문서와 [업데이트된 문서가 나열되어 있습니다.](index.yml) "업데이트된" 문서에는 오타, 스타일 또는 서식 문제의 수정과 같은 사소한 수정이 나열되지 않습니다. [언제든지 GitHub의](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)리포지토리를 방문하여 특정 커밋 기록(변경 내용 세부 정보 포함)을 볼 수 있습니다.
 
 
 ## <a name="december-2020"></a>2020년 12월
@@ -257,7 +257,7 @@ ms.locfileid: "49877203"
 [Microsoft Managed Desktop 장치에 Microsoft Project 및 Microsoft Visio 설치](get-started/project-visio.md) | 새 문서 
 [Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](get-ready/authentication.md) | 새 문서
 [Microsoft Managed Desktop에서 장치 등록](get-started/register-devices-self.md) | 새 문서
-[파트너용 Microsoft Managed Desktop에 장치 등록](get-started/register-devices-partner.md) | 새 문서
+[파트너용 Microsoft Managed Desktop에서 장치 등록](get-started/register-devices-partner.md) | 새 문서
 [Microsoft Managed Desktop 장치에 앱 배포](get-started/deploy-apps.md) | 업데이트된 문서
 
 ## <a name="march-2019"></a>2019년 3월

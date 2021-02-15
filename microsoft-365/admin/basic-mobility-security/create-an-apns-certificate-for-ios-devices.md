@@ -1,5 +1,5 @@
 ---
-title: iOS 장치에 대한 APNS 인증서 만들기
+title: iOS 장치용 APN 인증서 만들기
 f1.keywords: NOCSH
 ms.author: kwekua
 author: kwekua
@@ -21,7 +21,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/15/2021
 ms.locfileid: "49877083"
 ---
-# <a name="create-an-apns-certificate-for-ios-devices"></a>iOS 장치에 대한 APNS 인증서 만들기
+# <a name="create-an-apns-certificate-for-ios-devices"></a>iOS 장치용 APN 인증서 만들기
 
 iPad 및 iPhone과 같은 iOS 장치를 기본 이동성 및 보안에서 관리하기 위해 APNS 인증서를 만드십시오.
 

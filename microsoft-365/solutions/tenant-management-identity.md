@@ -96,7 +96,7 @@ Microsoft 365 테넌트의 ID에 대해 다음을 결정했습니다.
 
 - DirSync 서버 및 Azure AD Connect를 사용하여 Azure AD 테넌트와 동기화되는 AD DS 포리스트입니다.
 - AD DS 포리스트의 AD DS 사용자 계정 및 기타 개체의 복사본입니다.
-- 사용자 계정을 기반으로 보안 사용자 로그인 및 액세스를 적용하는 조건부 액세스 정책 집합입니다. 
+- 사용자 계정을 기반으로 보안 사용자 로그인 및 액세스를 적용하기 위한 조건부 액세스 정책 집합입니다. 
 
 ## <a name="ongoing-maintenance-for-identity"></a>ID에 대한 지속적인 유지 관리
 

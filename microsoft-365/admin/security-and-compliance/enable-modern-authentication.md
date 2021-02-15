@@ -21,7 +21,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
-description: 2013을 설치한 장치에 대해 최신 인증을 사용하도록 설정하는 레지스트리 Microsoft Office 방법을 학습합니다.
+description: 2013에서 최신 인증을 사용하도록 설정하는 레지스트리 키를 설정하는 방법을 Microsoft Office 합니다.
 ms.openlocfilehash: 34078291fa237b63c391a7e90ba06ea0085c37cb
 ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT

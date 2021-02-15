@@ -37,10 +37,10 @@ ms.locfileid: "49925058"
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-고급 [헌팅](advanced-hunting-overview.md) schema는 장치, 경고, ID 및 기타 엔터티 유형에 대한 이벤트 정보 또는 정보를 제공하는 여러 테이블로 구성됩니다. 여러 표를 포괄하는 쿼리를 효과적으로 작성하려면 고급 헌팅 스키마에서 표 및 열을 이해해야 합니다.
+고급 [헌팅](advanced-hunting-overview.md) 스마는 장치, 경고, ID 및 기타 엔터티 유형에 대한 이벤트 정보 또는 정보를 제공하는 여러 테이블로 구성됩니다. 여러 표를 포괄하는 쿼리를 효과적으로 작성하려면 고급 헌팅 스키마에서 표 및 열을 이해해야 합니다.
 
-## <a name="get-schema-information-in-the-security-center"></a>보안 센터에서 스마마 정보 얻기
-쿼리를 구성하는 동안 기본 제공된 스마마 참조를 사용하여 각 테이블에 대한 다음 정보를 빠르게 얻을 수 있습니다.
+## <a name="get-schema-information-in-the-security-center"></a>보안 센터에서 schema 정보 얻기
+쿼리를 구성하는 동안 기본 제공된 Schema 참조를 사용하여 각 테이블에 대한 다음 정보를 빠르게 얻을 수 있습니다.
 
 - **테이블 설명**- 테이블에 포함된 데이터 형식 및 해당 데이터의 원본입니다.
 - **열**- 표의 모든 열입니다.

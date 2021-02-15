@@ -1,5 +1,5 @@
 ---
-title: 기본 이동성 및 보안 끄기
+title: 기본 이동성 및 보안 해제
 f1.keywords: NOCSH
 ms.author: kwekua
 author: kwekua
@@ -21,7 +21,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/15/2021
 ms.locfileid: "49876843"
 ---
-# <a name="turn-off-basic-mobility-and-security"></a>기본 이동성 및 보안 끄기
+# <a name="turn-off-basic-mobility-and-security"></a>기본 이동성 및 보안 해제
 
 기본 이동성 및 보안을 효과적으로 해제하려면 장치 관리 정책에서 보안 그룹으로 정의된 사용자 그룹을 제거하거나 정책 자체를 제거합니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "49876843"
 
 5.  **제거를** 선택하고 저장을 **선택합니다.**
 
-## <a name="remove-basic-mobility-and-security-device-policies"></a>기본 이동성 및 보안 장치 정책 제거
+## <a name="remove-basic-mobility-and-security-device-policies"></a>기본 모바일 및 보안 장치 정책 제거
 
 1.  브라우저 유형:  [https://protection.office.com/devicev2](https://protection.office.com/devicev2) . 
 

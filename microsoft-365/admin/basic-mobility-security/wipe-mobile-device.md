@@ -41,7 +41,7 @@ Microsoft 365의 기본 제공 Basic Mobility and Security를 사용하여 조�
     
 - **장치** 자동 초기화: 사용자가 장치 암호를 특정 횟수로 입력하지 못하면 장치를 자동으로 초기화하는 기본 이동성 및 보안 정책을 설정할 수 있습니다. 이렇게하려면 기본 이동성 및 보안에서 장치 보안 [정책 만들기의 단계를 따릅니다.](create-device-security-policies.md)
     
-- **장치를 초기화할** 때의 사용자 환경을 알고 싶은 경우 사용자 및 장치   [영향이 무엇입니까?](#whats-the-user-and-device-impact).
+- **장치를 초기화할** 때 사용자 환경을 알고 싶은 경우 사용자 및 장치   [영향이 무엇입니까?](#whats-the-user-and-device-impact).
 
 ## <a name="wipe-a-mobile-device"></a>모바일 장치 지우기
 
@@ -79,7 +79,7 @@ Microsoft 365의 기본 제공 Basic Mobility and Security를 사용하여 조�
 
 ## <a name="whats-the-user-and-device-impact"></a>사용자 및 디바이스가 미치는 영향
 
-지우는 즉시 모바일 장치로 전송됩니다. 장치는 Azure Active Directory에서 규격이 아닌 것으로 표시됩니다. 장치가 공장 기본값으로 다시 설정될 때 모든 데이터가 제거되는 동안 다음 표에서는 회사 데이터를 제거할 때 장치 유형별로 제거되는 콘텐츠에 대해 설명하고 있습니다.
+지우기를 모바일 장치로 즉시 보내고 장치가 Azure Active Directory에서 호환되지 않는 것으로 표시됩니다. 장치가 공장 기본값으로 다시 설정될 때 모든 데이터가 제거되는 동안 다음 표에서는 회사 데이터를 제거할 때 장치 유형별로 제거되는 콘텐츠에 대해 설명하고 있습니다.
 
 |**콘텐츠 부정확**|**iOS 10 이상**|**Android 5 이상**|
 |:-----|:-----|:-----|

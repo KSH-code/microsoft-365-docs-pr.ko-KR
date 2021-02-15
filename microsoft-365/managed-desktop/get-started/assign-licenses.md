@@ -18,7 +18,7 @@ ms.locfileid: "49841040"
 ---
 # <a name="assign-licenses"></a>라이선스 할당
 
-Microsoft Managed Desktop에 등록하기 위한 준비의 일부로, 필요한 라이선스를 획득해야 합니다. 라이선스를 아직 얻지 않은 경우 필요한 [](../get-ready/prerequisites.md#more-about-licenses) 라이선스에 대한 자세한 내용은 라이선스에 대한 자세한 내용을 참조합니다.
+Microsoft Managed Desktop에 등록하기 위한 준비의 일부로 필요한 라이선스를 획득해야 합니다. 라이선스를 아직 획득하지 않은 경우 필요한 [](../get-ready/prerequisites.md#more-about-licenses) 라이선스에 대한 자세한 내용은 라이선스에 대한 자세한 내용을 참조합니다.
 
 
 라이선스가 모두 줄이면 이제 사용자에게 라이선스를 할당해야 합니다. 라이선스를 할당하기 위해 Azure Active Directory의 그룹 기반 라이선싱 기능을 활용하는 것이 좋습니다. [](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal)

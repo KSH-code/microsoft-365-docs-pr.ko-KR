@@ -31,7 +31,7 @@ ms.locfileid: "49927111"
 ---
 # <a name="install-outlook-and-office-apps-on-ios-devices"></a>iOS 장치에 Outlook 및 Office 앱 설치
 
-Microsoft&#39;Microsoft 365 Business Premium을 설정한 후 iPhone에 Office 앱을 설치할 수 있습니다. 앱을 설치한 후&#39;보안에 도움이 되는 PIN을 만들지 묻는 메시지가 표시될 수 있습니다.
+Microsoft&#39;Microsoft 365 Business Premium을 설정한 후 iPhone에 Office 앱을 설치할 수 있습니다. 앱을 설치한&#39;Office 데이터를 보호하는 데 도움이 되는 PIN을 만들지 묻는 메시지가 표시될 수 있습니다.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n?autoplay=false]
 
@@ -40,8 +40,8 @@ Microsoft&#39;Microsoft 365 Business Premium을 설정한 후 iPhone에 Office �
 1. iPhone에서 앱 스토어를 열 수 있습니다.
 2. 검색을  **선택하고** 검색 표시줄에  **Outlook을** 입력한 다음 선택합니다.
 3. Choose **Get**   >   **Install**.
-4. Apple ID 암호를 입력하고 로그인   >   **열기를 선택합니다.**
-5. 작업 전자 메일 주소를 입력합니다.
+4. Enter your Apple ID password, select **Sign in**  >   **Open**.
+5. 직장 전자 메일 주소를 입력합니다.
 6. 계정 **추가를 선택하고** 암호를 입력한 다음 **로그인을 선택합니다.**
 7. (선택 사항), **Let's Do It ** to add more accounts, or select  **Maybe Later**  to skip this step.
 8. **확인을** 선택하여 Microsoft 365 Business가 Outlook 데이터를 보호할 수 있도록 앱을 다시 시작합니다.

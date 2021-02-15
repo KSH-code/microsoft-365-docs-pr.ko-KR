@@ -22,7 +22,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 청구서를 보거나 다운로드하거나 인쇄하는 방법에 대해 자세히 알아보습니다.
+description: 청구서를 보거나 다운로드하거나 인쇄하는 방법에 대해 자세히 알아보아야 합니다.
 ms.openlocfilehash: e814878dce99dcda665f98afa2e147dc3249375f
 ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT

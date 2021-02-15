@@ -61,7 +61,7 @@ ms.locfileid: "49927373"
  | Windows Exploit Guard 적용 | 아니요 | 예 | 아니요 |
 | **ID 관리** | 하이브리드 Azure Active Directory 계정에 대한 셀프 서비스 암호 재설정 | 아니요 | 예 | 아니요 |
  | Azure Multi-Factor Authentication, 조건부 액세스 정책 | 아니요 | 예 | 아니요 |
-| **장치 &amp; 앱 관리** | Microsoft Intune, Windows AutoPilot, Windows Pro Management | 아니요 | 예 | 아니요 |
+| **디바이스 &amp; 앱 관리** | Microsoft Intune, Windows AutoPilot, Windows Pro Management | 아니요 | 예 | 아니요 |
  | 공유 컴퓨터 활성화 | 아니요 | 예 | 예 |
  | Win 7/8.1 Pro 라이선스용 Windows 10 Pro로 업그레이드 권한 | 아니요 | 예 | 아니요 |
  | Windows Virtual Desktop | 아니요 | 예 | 아니요 |

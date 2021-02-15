@@ -38,7 +38,7 @@ MICROSOFT Managed Desktop에 SCEP 또는 PKCS 인증서를 배포하기 전에 �
 
 엔터프라이즈 네트워크에 대한 필수 Wi-Fi 구성과 함께 디바이스가 자동으로 제공될 수 있도록 Wi-Fi 프로필이 필요할 수 있습니다. 이러한 프로필을 장치에 배포하도록 Microsoft Managed Desktop을 구성할 수 있습니다. 네트워크 보안에 따라 장치가 로컬 도메인에 가입해야 하는 경우 Wi-Fi 네트워크 인프라를 평가하여 Microsoft Managed Desktop 장치와 호환되는지 확인해야 할 수도 있습니다(Microsoft Managed Desktop 장치는 Azure AD 가입 전용). 
  
-Microsoft Managed Desktop Wi-Fi 배포하기 전에 각 관리되는 데스크톱 장치에 대한 조직의 요구 사항을 수집해야 Wi-Fi 합니다. 이 활동을 더 쉽게 만들 수 있도록 이 WiFi 프로필 [템플릿을 사용할 수 있습니다.](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/WiFi-profile-template.xlsx)
+Microsoft Managed Desktop Wi-Fi 배포하기 전에 각 관리되는 데스크톱 네트워크에 대한 조직의 요구 사항을 수집해야 Wi-Fi 합니다. 이 활동을 더 쉽게 만들 수 있도록 이 WiFi 프로필 [템플릿을 사용할 수 있습니다.](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/WiFi-profile-template.xlsx)
  
  
 ## <a name="wired-connectivity-requirements-and-8021x-authentication"></a>유선 연결 요구 사항 및 802.1x 인증 
@@ -48,7 +48,7 @@ Microsoft Managed Desktop Wi-Fi 배포하기 전에 각 관리되는 데스크�
 유선 네트워크 구성 프로필을 Microsoft Managed Desktop 장치에 배포하기 전에 유선 회사 네트워크에 대한 조직의 요구 사항을 수집합니다. 이렇게 하려면 다음 단계를 따릅니다. 
  
  
-1. 기존 802.1x 프로필이 구성되고 LAN 네트워크에 연결되어 있는 장치에 로그인합니다.  
+1. 기존 802.1x 프로필이 구성되고 LAN 네트워크에 연결된 장치에 로그인합니다.  
 2. 관리 자격 증명을 사용하여 명령 프롬프트를 열 수 있습니다. 
 3. netsh 인터페이스 표시 인터페이스를 실행하여 LAN **인터페이스 이름을 찾을 수 있습니다.** 
 4. netsh lan 내보내기 프로필 **폴더=를 실행하여 LAN 프로필 XML을 내보낼 수 있습니다.  Interface="interface_name"**. 

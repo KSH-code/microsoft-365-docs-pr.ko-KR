@@ -36,9 +36,9 @@ ms.locfileid: "49876951"
 2. 브라우저에 다음을  [https://protection.office.com](https://protection.office.com/) 입력합니다.    
 
     >[!IMPORTANT]
-    >Microsoft 365 Business Standard용 Basic Mobility and Security를 처음 사용하는 경우 다음에서 활성화합니다. [기본 보안](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx)및 이동성 활성화 장치를 정품 인증한 후 Office 365 보안 및 규정 [준수로 & 관리합니다.](https://protection.office.com/)
+    >Microsoft 365 Business Standard용 Basic Mobility and Security를 처음 사용하는 경우 [](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx)기본 보안 및 모바일 기능을 활성화합니다. 장치를 정품 인증한 후 Office 365 보안 및 규정 [준수로 & 관리합니다.](https://protection.office.com/)
 
-3. 장치 관리 장치 > **** 데이터 손실 방지로 이동한 다음 조직 전체의 장치 액세스   >  **** **설정 관리를 선택합니다.**
+3. 장치 관리 장치 > **** 데이터 손실 방지로 이동하고 조직 전체의 장치 액세스   >  **** **설정 관리를 선택합니다.**
 
 4. 차단을 **선택합니다.**
 

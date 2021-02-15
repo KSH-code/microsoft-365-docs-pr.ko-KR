@@ -31,17 +31,17 @@ ms.locfileid: "49921693"
 
 ![새 독일 데이터 센터로의 9단계 마이그레이션](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
 
-다음 섹션에서는 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 신규 독일 데이터 센터 지역의 Office 365 서비스로 전환할 때의 고객 경험에 대한 추가 정보를 제공합니다.
+다음 섹션에서는 독일 Microsoft 클라우드(도이클란드 Microsoft 클라우드)에서 신규 독일 데이터 센터 지역의 Office 365 서비스로 전환할 때의 고객 경험에 대한 추가 정보를 제공합니다.
 
 ## <a name="services"></a>서비스
 
-### <a name="azure-ad-phase-2-of-9"></a>Azure AD(2단계 중 9단계)
+### <a name="azure-ad-phase-2-of-9"></a>Azure AD(9단계 중 2단계)
 
 | 단계 | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
-| 도이치란드 Microsoft 클라우드의 Azure AD 테넌트가 Office 365 서비스에 복사됩니다. | Azure AD는 테넌트를 Office 365 서비스에 복사합니다. 테넌트 및 사용자 식별자는 보존됩니다. Azure AD 서비스 통화는 도이치란드 Microsoft 클라우드에서 Office 365 서비스로 리디렉션되고 서비스에 투명합니다. | 모든 Office 고객 | - 일반 데이터 보호 규정(GDPR) DSR(데이터 주체 요청)은 Azure 관리 포털에서 향후 요청을 위해 실행됩니다. 도이치란드 Microsoft 클라우드에 있는 레거시 또는 비 고객 진단 데이터는 30일 경과 시 또는 그 전에 삭제됩니다. <br><br> - AD FS(Active Directory Federation Services)와의 페더타 인증을 사용하는 고객은 마이그레이션 중의 모든 인증에 사용되는 발급자 URIS를 변경하지 말아야 합니다. 발급자 UR을 변경하면 도메인의 사용자에 대한 인증 오류가 발생합니다. 발급자 URIS는 AD FS에서 직접 변경하거나 도메인이  관리에서  페더러티로 변환되거나 그 반대로 변환될 때 변경할 수 있습니다. 고객은 마이그레이션된 Azure AD 테넌트에서 페더티드 도메인을 추가, 제거 또는 변환하지 않는 것이 좋습니다. 마이그레이션이 완전히 완료된 후 발급자 URIS를 변경할 수 있습니다. <br><br> - 테넌트가 Office 365 서비스에 복사되는 동안 Microsoft Authenticator를 사용자 ObjectID(GUID)로 표시하는 MFA(다단계 인증) 요청. 이러한 표시 동작에도 불구하고 MFA 요청은 예상대로 수행됩니다.  Office 365 서비스 끝점을 사용하여 정품 인증된 Microsoft Authenticator 계정에 UPN(사용자 계정 이름)이 표시됩니다.  도이치란드 Microsoft 클라우드 끝점을 사용하여 추가된 계정은 사용자 ObjectID를 표시하지만 도이치란드 Microsoft 클라우드 및 Office 365 서비스 끝점에서 모두 사용할 수 있습니다.  |
+| 도이치란드 Microsoft 클라우드의 Azure AD 테넌트가 Office 365 서비스에 복사됩니다. | Azure AD는 테넌트를 Office 365 서비스에 복사합니다. 테넌트 및 사용자 식별자는 보존됩니다. Azure AD 서비스 통화는 도이치란드 Microsoft 클라우드에서 Office 365 서비스로 리디렉션되고 서비스에 투명합니다. | 모든 Office 고객 | - 일반 데이터 보호 규정(GDPR) DSR(데이터 주체 요청)은 Azure 관리 포털에서 향후 요청을 위해 실행됩니다. 도이치란드 Microsoft 클라우드에 있는 레거시 또는 비 고객 진단 데이터는 30일 경과 시 또는 그 전에 삭제됩니다. <br><br> - AD FS(Active Directory Federation Services)와 함께 페더러티 인증을 사용하는 고객은 마이그레이션 중의 모든 인증에 사용되는 발급자 URIS를 변경하지 말아야 합니다. 발급자 UR을 변경하면 도메인의 사용자에 대한 인증 오류가 발생합니다. 발급자 URIS는 AD FS에서 직접 변경하거나 도메인이  관리에서  페더러티로 변환되거나 그 반대로 변환될 때 변경할 수 있습니다. 고객은 마이그레이션된 Azure AD 테넌트에서 페더티드 도메인을 추가, 제거 또는 변환하지 않는 것이 좋습니다. 마이그레이션이 완전히 완료된 후 발급자 URIS를 변경할 수 있습니다. <br><br> - 테넌트가 Office 365 서비스에 복사되는 동안 Microsoft Authenticator를 사용자 ObjectID(GUID)로 사용하는 MFA(다단계 인증) 요청. 이러한 표시 동작에도 불구하고 MFA 요청은 예상대로 수행됩니다.  Office 365 서비스 끝점을 사용하여 정품 인증된 Microsoft Authenticator 계정에 UPN(사용자 계정 이름)이 표시됩니다.  도이치란드 Microsoft 클라우드 끝점을 사용하여 추가된 계정은 사용자 ObjectID를 표시하지만 도이치란드 Microsoft 클라우드 및 Office 365 서비스 끝점에서 모두 사용할 수 있습니다.  |
 | 전역 STS 서비스를 지점으로 하는 AuthServer On-premises를 수립합니다. | 이렇게 하면 하이브리드온-프레미스 환경을 대상으로 하는 Exchange 가용성 요청에 대해 도이치란드 Microsoft 클라우드로 마이그레이션하는 사용자의 요청이 인증되어온-프레미스 서비스에 액세스할 수 있습니다. 마찬가지로, 이렇게 하면 Office 365 서비스 끝점에 대한 요청의 인증이 보장됩니다. | 하이브리드(-프레미스) 배포가 있는 Exchange Online 고객 | Azure AD 마이그레이션이 완료되면 하이브리드 토폴로지의 관리자가 Office 365 서비스에 대한 새 인증 서비스 끝점을 추가해야 합니다. Exchange PowerShell에서 이 명령을 사용하여 조직의 테넌트 `<TenantID>` **ID(Azure Active Directory의 Azure** Portal에 있습니다)로 바환합니다. <br><br> - `New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontrol.windows.net/<TenantId>/metadata/json/1` <br> <br> 이 작업을 완료하지 못하면 도이치란드 Microsoft 클라우드에서 Office 365 서비스로 마이그레이션된 사서함 사용자에 대한 정보 제공에 실패할 수 있습니다.  |
-| Azure 리소스 마이그레이션. | Office 365 및 Azure 리소스(예: 네트워킹, 계산 및 저장소)를 사용하는 고객은 리소스를 Office 365 서비스 인스턴스로 마이그레이션합니다. 이 마이그레이션은 고객의 책임입니다. 메시지 센터 게시물은 시작 신호를 제공합니다. Office 365 서비스 환경에서 Azure AD 조직을 완료하기 전에 마이그레이션을 완료해야 합니다. | Azure 고객 | Azure 마이그레이션에 대한 자세한 내용은 Azure 마이그레이션 플레이북, Azure Germany 마이그레이션 [지침 개요를 참조하세요.](https://docs.microsoft.com/azure/germany/germany-migration-main) |
+| Azure 리소스 마이그레이션. | Office 365 및 Azure 리소스(예: 네트워킹, 계산 및 저장소)를 사용하는 고객은 리소스를 Office 365 서비스 인스턴스로 마이그레이션합니다. 이 마이그레이션은 고객의 책임입니다. 메시지 센터 게시물은 시작 신호를 제공합니다. Office 365 서비스 환경에서 Azure AD 조직을 완료하기 전에 마이그레이션을 완료해야 합니다. | Azure 고객 | Azure 마이그레이션의 경우 Azure 마이그레이션 플레이북, Azure Germany 마이그레이션 [지침 개요를 참조하세요.](https://docs.microsoft.com/azure/germany/germany-migration-main) |
 |||||
 
 ### <a name="exchange-online-phase-5-of-9"></a>Exchange Online(5단계 중 9단계)
@@ -74,7 +74,7 @@ ms.locfileid: "49921693"
 
 | 단계 | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
-| Power BI 리소스 마이그레이션 | Microsoft Power BI를 사용하는 고객은 기존 PBI 마이그레이션 도구를 수동으로 트리거하여 Power BI를 Office 365 서비스 인스턴스로 전환한 후 엔지니어링 또는 FastTrack에 참여하게 됩니다.\*\* | Microsoft Power BI 고객 | - 다음 Power BI _항목은_ 전환되지 않습니다. 이 항목을 다시 만들어야 합니다. <br><br> - 실시간 데이터 집합(예: 스트리밍 또는 푸시 데이터 집합) <br> - Power BI On-premises 데이터 게이트웨이 구성 및 데이터 원본 <br> - 실시간 데이터 집합을 토대로 작성된 보고서는 마이그레이션 후 사용할 수 없습니다. 다시 만들어야 합니다. <br><br> - 전환 중에 사용자가 Power BI 서비스를 사용할 수 없습니다. 서비스를 사용할 수 없는 시간은 24시간을 넘지 말아야 합니다. <br><br> - 사용자는 마이그레이션 후 Power BI 서비스를 사용하여 데이터 원본 및 해당 프레미스 데이터 게이트웨이를 다시 구성해야 합니다.  이렇게 할 때까지 사용자는 이러한 데이터 원본을 사용하여 예약된 새로 고침 및/또는 이러한 데이터 원본에 대해 쿼리를 직접 수행할 수 없습니다. <br><br> - 용량 및 고급 작업 영역은 마이그레이션할 수 없습니다. 고객은 마이그레이션 전에 모든 용량을 삭제하고 마이그레이션 후 다시 만들어야 합니다. 작업 영역이 원하는 용량으로 다시 이동됩니다.  |
+| Power BI 리소스 마이그레이션 | Microsoft Power BI를 사용하는 고객은 기존 PBI 마이그레이션 도구를 수동으로 트리거하여 Power BI를 Office 365 서비스 인스턴스로 전환한 후 엔지니어링 또는 FastTrack에 참여하게 됩니다.\*\* | Microsoft Power BI 고객 | - 다음 Power BI _항목은_ 전환되지 않습니다. 이 항목을 다시 만들어야 합니다. <br><br> - 실시간 데이터 집합(예: 스트리밍 또는 푸시 데이터 집합) <br> - Power BI On-premises 데이터 게이트웨이 구성 및 데이터 원본 <br> - 실시간 데이터 집합을 토대로 작성된 보고서는 마이그레이션 후 사용할 수 없는데 다시 만들어야 합니다. <br><br> - 전환 중에 사용자가 Power BI 서비스를 사용할 수 없습니다. 서비스를 사용할 수 없는 시간은 24시간을 넘지 말아야 합니다. <br><br> - 사용자는 마이그레이션 후 Power BI 서비스를 사용하여 데이터 원본 및 해당 프레미스 데이터 게이트웨이를 다시 구성해야 합니다.  이렇게 할 때까지 사용자는 이러한 데이터 원본을 사용하여 예약된 새로 고침 및/또는 이러한 데이터 원본에 대해 직접 쿼리를 수행할 수 없습니다. <br><br> - 용량 및 고급 작업 영역은 마이그레이션할 수 없습니다. 고객은 마이그레이션 전에 모든 용량을 삭제하고 마이그레이션 후 다시 만들어야 합니다. 작업 영역이 원하는 용량으로 다시 이동됩니다.  |
 |||||
 
 \*\* (i) Microsoft Power BI를 사용 하는 고객은 제공된 마이그레이션 프로세스에 정의된 이 마이그레이션 시나리오에서 조치를 취해야 합니다. (ii) 고객이 조치를 취하지 못하면 Microsoft가 마이그레이션을 완료할 수 없게 됩니다. (iii) 고객의 비활성으로 인해 Microsoft가 마이그레이션을 완료할 수 없는 경우 고객의 구독은 2021년 10월 29일에 만료됩니다. 
@@ -89,7 +89,7 @@ ms.locfileid: "49921693"
 
 ## <a name="during-migration"></a>마이그레이션 진행 중
 
-### <a name="sharepoint-online-phase-4-of-9"></a>SharePoint Online(4단계 중 9단계)
+### <a name="sharepoint-online-phase-4-of-9"></a>SharePoint Online(9단계 중 4단계)
 
 | 단계 | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
@@ -154,7 +154,7 @@ Office 365 서비스 끝점에 대한 타사 서비스의 경우:
 | Office 365 서비스 끝점에 대한 파트너 및 타사 서비스를 업데이트합니다. | - Office 365 Germany를 지점하는 타사 서비스 및 파트너는 Office 365 서비스 끝점을 지점으로 업데이트해야 합니다. 예제: 사용 가능한 경우 공급업체 및 파트너에 맞게 응용 프로그램의 갤러리 앱 버전을 다시 등록합니다. <br><br> - Graph API를 활용하는 모든 사용자 지정 응용 프로그램을 포인트로 `graph.microsoft.de` `graph.microsoft.com` 지정합니다. 변경된 끝점이 있는 다른 API도 업데이트해야 합니다(활용하는 경우). <br><br> - 모든 비사용자 엔터프라이즈 응용 프로그램을 변경하여 전 세계 끝점으로 리디렉션합니다.  | 모든 Office 고객 | 필수 작업입니다. 이렇게 하지 못하면 서비스 또는 소프트웨어 클라이언트가 실패할 수 있습니다. |
 |||||
 
-### <a name="sharepoint-online-phase-4-of-9"></a>SharePoint Online(4단계 중 9단계)
+### <a name="sharepoint-online-phase-4-of-9"></a>SharePoint Online(9단계 중 4단계)
 
 | 단계 | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
@@ -175,7 +175,7 @@ eDiscovery의 경우:
 | 단계 | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
 |  모든 SharePoint Online, 비즈니스용 OneDrive 및 Exchange Online 위치가 SCC(보안 및 준수 센터)와 함께 마이그레이션됩니다. | 모든 eDiscovery 활동은 전 세계 테넌트에서 실행해야 합니다. 이제 검색이 100% 성공합니다.  오류 또는 오류는 일반적인 지원 채널을 따라야 합니다. | eDiscovery를 사용하는 모든 고객 | 없음 |
-| 마이그레이션 전 단계 중에 만들어진 조직 전체 보존 정책 제거 | 고객은 고객의 마이그레이션 전 작업 중에 만들어진 조직 전체 보존 정책을 제거할 수 있습니다. | 마이그레이션 전 단계의 일부로 보존 정책을 적용한 모든 고객입니다. | 없음 |
+| 마이그레이션 전 단계 중에 만들어진 조직 전체 보존 정책 제거 | 고객은 마이그레이션 전 작업 중에 만들어진 조직 전체 보존 정책을 제거할 수 있습니다. | 마이그레이션 전 단계의 일부로 보존 정책을 적용한 모든 고객입니다. | 없음 |
 |||||
 
 
@@ -197,7 +197,7 @@ eDiscovery의 경우:
 
 - [문장 작업 및 영향 마이그레이션](ms-cloud-germany-transition-phases.md)
 - [추가 사전 작업](ms-cloud-germany-transition-add-pre-work.md)
-- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [장치,](ms-cloud-germany-transition-add-devices.md) [환경 및](ms-cloud-germany-transition-add-experience.md) [AD FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
+- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [디바이스,](ms-cloud-germany-transition-add-devices.md) [환경 및](ms-cloud-germany-transition-add-experience.md)AD [FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
 
 클라우드 앱:
 

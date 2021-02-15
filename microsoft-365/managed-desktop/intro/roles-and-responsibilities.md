@@ -33,7 +33,7 @@ Microsoft는 다음 주요 역할 및 책임을 제공합니다.
 MDM 정책 관리 | Microsoft는 모범 사례에 따라 MDM 정책을 적용하고 정책 변경 요청을 고려합니다. 또한 장치 정책에 설명된 따라 테넌트도 [변경합니다.](../service-description/device-policies.md)
 사용자 지원 | 모든 Microsoft Managed Desktop 디바이스에 미리 설치되는 도움말 보기 앱을 통해 등록된 모든 사용자에 대해 장치, Windows 및 엔터프라이즈용 Microsoft 365 앱 제품 제품군에 대한 사용자 지원을 제공합니다. 
 Microsoft Managed Desktop 서비스 지원 | Microsoft는 Microsoft Managed Desktop Operations Team을 통해 IT 부서에 지원을 제공합니다. 이 팀은 고객의 Microsoft Managed Desktop 환경에 대한 기술 문제 해결, 변경 요청 및 인시던트 관리를 지원할 것입니다. 자세한 내용은 [Microsoft Managed Desktop에 대한 관리자 지원을 참조하세요.](../working-with-managed-desktop/admin-support.md)
-보안 모니터링 | Microsoft는 끝점용 Microsoft Defender를 사용하여 Microsoft Managed Desktop 장치를 모니터링합니다. Microsoft Managed Desktop Security Operations Center(SOC)에서 위협을 감지하는 경우 Microsoft는 사용자에게 알리고 장치를 격리하고 문제를 원격으로 해결합니다. 자세한 내용은 Security 를 [참조하십시오.](../service-description/security.md)
+보안 모니터링 | Microsoft는 끝점용 Microsoft Defender를 사용하여 Microsoft Managed Desktop 장치를 모니터링합니다. Microsoft SOC(Managed Desktop Security Operations Center)가 위협을 감지하는 경우 Microsoft는 사용자에게 알리고 장치를 격리하고 문제를 원격으로 해결합니다. 자세한 내용은 Security 를 [참조하십시오.](../service-description/security.md)
 모니터링 및 관리 업데이트 | Microsoft Windows 및 Windows용 최신 품질 및 기능 업데이트가 설치되도록 Microsoft Managed Desktop 장치를 적극적으로 Microsoft Office. 자세한 내용은 업데이트 처리 [방법을 참조하세요.](../service-description/updates.md)
 사용자 및 장치 그룹화 | Microsoft Managed Desktop 운영 팀은 IT 작업의 일부로 필요한 장치 및 사용자 그룹을 만들고 관리합니다. 이러한 그룹에는 구성원 자격 또는 구성 변경이 허용되지 않습니다. 이러한 그룹을 변경하면 디바이스가 예기치 않게 구성되어 기능이 손실될 수 있습니다. 일단 설정되면 이러한 그룹에 대한 문제나 질문이 있으면 IT 관리자가 Microsoft Managed Desktop 작업에 문의할 수 있습니다. 자세한 내용은 [Microsoft Managed Desktop에 대한 관리자 지원을 참조하세요.](../working-with-managed-desktop/admin-support.md)
 

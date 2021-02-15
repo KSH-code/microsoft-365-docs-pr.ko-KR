@@ -42,7 +42,7 @@ Microsoft Teams에서 회사의 모든 사람이 참여할 수 있는 전체 팀
 3. Select  **Create an Org-wide team**.
 
 > [!NOTE]
-> 이 옵션을 사용하려면 Microsoft 365 관리자 되어야 합니다.
+> 이 옵션을 보기 위해 Microsoft 365 관리자 되어야 합니다.
 
 1. 팀에 이름을 지정하고 설명을 추가한 다음 만들기를 **선택합니다.**
 

@@ -29,7 +29,7 @@ ms.locfileid: "49841366"
 
 ![도움말 앱 아이콘 다운로드](../../media/get-help.png)
 
-도움말 보기는 모든 Microsoft Managed Desktop 장치에 설치되고 작업 표시줄에 고정된 응용 프로그램입니다. 
+도움말은 모든 Microsoft Managed Desktop 장치에 설치되고 작업 표시줄에 고정된 응용 프로그램입니다. 
 
 - 사용자는 제공된 전화 번호로 콜백을 요청하거나 서비스 응답으로 온라인으로 채팅할 수 있습니다.
 - Microsoft Managed Desktop 지원 범위를 벗어날 요청은 전화 통화를 통해 로컬 IT 헬프데스크로 리디렉션됩니다.
@@ -38,10 +38,10 @@ ms.locfileid: "49841366"
 > 도움말 앱의 표시 언어는 사용자가 디바이스를 설정할 때 또는 장치 설정에서 다른 언어를 선택한 경우에도 영어로만 표시됩니다. 
 
 ### <a name="prerequisites"></a>필수 구성 요소
-사용자가 앱을 통해 도움을 받을 수 있도록 이러한 선행 조문을 충족하는지 확인
+사용자가 앱을 통해 도움을 받을 수 있도록 이러한 선행 조처가 충족하는지 확인
 
-- 새 디바이스를 직접 등록하는 등 Microsoft Managed Desktop 장치 설정에 있는 방법 중 하나를 사용하여 [디바이스를 Microsoft Managed Desktop에](../get-started/set-up-devices.md) [등록해야 합니다.](../get-started/register-devices-self.md)
-- 디바이스의 표시 언어는 en-us, en-gb, en-au, en-nz 또는 en-ca 중 한 언어로 설정해야 합니다.
+- 새 디바이스를 직접 등록하는 등 Microsoft Managed Desktop 장치 설정의 방법 중 하나를 사용하여 디바이스를 [Microsoft Managed Desktop에](../get-started/set-up-devices.md) [등록해야 합니다.](../get-started/register-devices-self.md)
+- 장치의 표시 언어는 en-us, en-gb, en-au, en-nz 또는 en-ca 중 한 언어로 설정해야 합니다.
 - 도움말 다운로드 앱은 최신으로 설정해야 합니다. 상태를 확인한 후 Microsoft Store에서 앱 업데이트를 확인합니다.
 - 특정 [끝점은](../get-ready/network.md#endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop) 장치에서 액세스할 수 있어야 합니다.
 

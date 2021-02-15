@@ -21,7 +21,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 365 Business Voice에 대해 자세히 알아보습니다.
+description: Microsoft 365 Business Voice에 대해 자세히 알아보아야 합니다.
 ms.openlocfilehash: 270ca1f59b866274eb9d51c12c9934c59d8c1836
 ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT

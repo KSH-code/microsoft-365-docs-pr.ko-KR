@@ -95,7 +95,7 @@ ms.locfileid: "49925509"
 ::: moniker range="o365-21vianet"
 
 사용자는 자신을 [추가하거나 승인을](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d)요청할 수 있습니다. 또는 지금 추가할 수 있습니다.
-1. 관리 센터에서 새 그룹이 나타나게 페이지를 새로  고치고 그룹 그룹을 선택한 다음 구성원을 추가할 그룹을 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a>선택합니다.
+1. 관리 센터에서 새 그룹이 나타나게 페이지를 새로  고치고 그룹 그룹을 선택한 다음 구성원을 추가할 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a>그룹을 선택합니다.
     
 2. 구성원 옆에 **있는** 편집을 **선택합니다.**
 3. **구성원 추가** 를 선택합니다.
@@ -118,7 +118,7 @@ ms.locfileid: "49925509"
 
 ## <a name="next-step-manage-your-group"></a>다음 단계: 그룹 관리
 
-새 그룹을 만들고 구성원을 추가한 후 그룹 이름 또는 설명 편집, 소유자 또는 구성원 변경, 외부 보낸 사람이 그룹에 전자 메일을 보낼 수 있는지 여부 및 구성원에게 그룹 대화의 복사본을 보낼지 여부를 지정하는 등 그룹을 추가로 구성할 수 있습니다. 자세한 [내용은 Microsoft 365 그룹](manage-groups.md) 관리를 참조하세요.
+새 그룹을 만들고 구성원을 추가한 후 그룹 이름 또는 설명 편집, 소유자 또는 구성원 변경, 외부 보낸 사람이 그룹에 전자 메일을 보낼 수 있는지 여부 및 구성원에게 그룹 대화의 복사본을 보낼지 여부를 지정하는 등 그룹을 추가로 구성할 수 있습니다. 자세한 [내용은 Microsoft 365](manage-groups.md) 그룹 관리를 참조하세요.
 
 ## <a name="related-articles"></a>관련 문서
 

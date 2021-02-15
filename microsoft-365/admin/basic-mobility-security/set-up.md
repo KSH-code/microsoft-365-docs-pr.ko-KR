@@ -27,7 +27,7 @@ ms.locfileid: "49876867"
 ---
 # <a name="set-up-basic-mobility-and-security"></a>기본 이동성 및 보안 설정
 
-기본 제공 Microsoft 365용 Basic Mobility and Security는 iPhone, iPad, Androids 및 Windows 휴대폰과 같은 사용자의 모바일 장치를 보호하고 관리하는 데 도움이 됩니다. 디바이스 보안 정책을 생성하고 관리하며, 원격으로 디바이스를 지우고, 자세한 디바이스 보고서를 볼 수 있습니다.
+기본 제공 Microsoft 365용 Basic Mobility and Security는 iPhone, iPad, Android 및 Windows 휴대폰과 같은 사용자의 모바일 장치를 보호하고 관리하는 데 도움이 됩니다. 디바이스 보안 정책을 생성하고 관리하며, 원격으로 디바이스를 지우고, 자세한 디바이스 보고서를 볼 수 있습니다.
 
 질문이 있나요? 일반적인 질문을 해결하기 위한 FAQ는 기본 이동성 및 보안 FAQ(질문과 대답)를 [참조하세요.](frequently-asked-questions.md) 위임된 관리자 계정을 사용하여 Basic Mobility and Security를 관리할 수는 없습니다. 자세한 내용은 [파트너: 위임된 관리 제공을 참조하세요.](https://support.microsoft.com/office/partners-offer-delegated-administration-26530dc0-ebba-415b-86b1-b55bc06b073e) 
 
@@ -98,13 +98,13 @@ MFA를 설정한 후 보안 & 준수 센터로 돌아가 **** 데이터 손실
 
 ### <a name="step-4-recommended-manage-device-security-policies"></a>4단계: (권장) 장치 보안 정책 관리
 
-다음 단계는 Microsoft 365 조직 데이터를 보호하는 데 도움이 되는 장치 보안 정책을 만들고 배포하는 것입니다. 예를 들어 5분 동안 비활성으로 장치를 잠그고 3회 로그인 실패 후 장치를 지우는 정책을 만들어 사용자가 장치를 분실할 경우 데이터 손실을 방지할 수 있습니다.
+다음 단계는 Microsoft 365 조직 데이터를 보호하는 데 도움이 되는 장치 보안 정책을 만들고 배포하는 것입니다. 예를 들어 5분 동안 비활성으로 장치를 잠그고 3회 로그인에 실패한 후 장치를 지우는 정책을 만들어 사용자가 장치를 분실할 경우 데이터 손실을 방지할 수 있습니다.
 
 1. 전역 관리자 계정으로 Microsoft 365에 로그인합니다.
 
 2. 모바일 [장치 관리 활성화를 선택합니다.](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx) 서비스가 활성화된 경우 대신 정품 인증 단계에 장치 관리에 대한 [링크가 표시됩니다.](https://admin.microsoft.com/adminportal/home#/MifoDevices)  
 
-3. 장치 **정책으로 이동.**
+3. 장치 **정책으로 이동**
 
    :::image type="content" source="../../media/basic-mobility-security/bms-4-policy.png" alt-text="기본 보안 및 모바일 정책 설정":::
 
@@ -116,7 +116,7 @@ MFA를 설정한 후 보안 & 준수 센터로 돌아가 **** 데이터 손실
 >
 > - 조직의 모든 사용자에게 새 정책을 배포하기 전에 소수의 사용자가 사용하는 장치에서 테스트하는 것이 좋습니다.
 >
-> - 또한 정책을 배포하기 전에 조직에 기본 이동성 및 보안에서 장치 등록이 미칠 수 있는 영향을 알 수 있습니다. 정책을 설정하는 방법에 따라 정책을 준수하지 않는 장치(비규준 장치)가 Microsoft 365에 액세스하지 못하도록 차단할 수 있습니다. 호환되지 않는 장치에는 앱이 설치되고, 사진 및 기타 개인 정보도 있을 수 있으며, 등록된 디바이스에서 장치가 지워진 경우 삭제될 수 있습니다. 자세한 내용은 기본 이동성 및 보안에서 모바일 장치 [지우기를 참조하세요.](wipe-mobile-device.md)
+> - 또한 정책을 배포하기 전에 조직에 기본 이동성 및 보안에서 장치 등록이 미칠 수 있는 영향을 알 수 있습니다. 정책을 설정하는 방법에 따라 정책을 준수하지 않는 장치(비호준 장치)가 Microsoft 365에 액세스하지 못하도록 차단할 수 있습니다. 호환되지 않는 장치에는 앱이 설치되고, 사진 및 기타 개인 정보도 있을 수 있으며, 등록된 디바이스에서 장치가 지워진 경우 삭제될 수 있습니다. 자세한 내용은 기본 이동성 및 보안에서 모바일 장치 [지우기를 참조하세요.](wipe-mobile-device.md)
 
 ## <a name="make-sure-users-enroll-their-devices"></a>사용자가 장치를 등록하는지 확인
 
@@ -127,7 +127,7 @@ MFA를 설정한 후 보안 & 준수 센터로 돌아가 **** 데이터 손실
 
 Android 또는 iOS 장치를 사용 하는 사용자는 등록 프로세스의 일부로 회사 포털 앱을 설치해야 합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-[기본 모바일 및 보안 기능](capabilities.md)<br/>
+[기본 이동성 및 보안 기능](capabilities.md)<br/>
 [기본 이동성 및 보안에서 장치 보안 정책 만들기](create-device-security-policies.md)

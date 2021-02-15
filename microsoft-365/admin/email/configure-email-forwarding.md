@@ -66,7 +66,7 @@ ms.locfileid: "49926645"
 
     **여러 전자 메일 주소로 전달하기** 위해 사용자에게 Outlook에서 주소로 전달할 규칙을 설정하도록 할 수 있습니다. 자세한 내용은 규칙을 사용하여 메시지를 자동으로 [전달합니다.](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746)
 
-     또는 관리 센터에서 [](../setup/create-distribution-lists.md)메일 그룹을 만들고 [](add-user-or-contact-to-distribution-list.md)해당 그룹에 주소를 추가한 다음 이 문서의 지침을 사용하여 DL을 설정하여 전달을 설정할 수 있습니다.
+     또는 관리 센터에서 [](../setup/create-distribution-lists.md)메일 그룹을 만들고 [](add-user-or-contact-to-distribution-list.md)해당 그룹에 주소를 추가한 다음 이 문서의 지침을 사용하여 DL을 지점으로 하는 전달을 설정할 수 있습니다.
 
 5. 전달할 전자 메일의 사용자 계정을 삭제하거나 라이선스를 제거하지 않습니다!  이렇게 하면 전자 메일 전달이 중지됩니다.
 
@@ -102,7 +102,7 @@ ms.locfileid: "49926645"
 
    **여러 전자 메일 주소로 전달하기** 위해 사용자에게 Outlook에서 주소로 전달할 규칙을 설정하도록 할 수 있습니다. 자세한 내용은 규칙을 사용하여 메시지를 자동으로 [전달합니다.](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746)
 
-   또는 관리 센터에서 [](../setup/create-distribution-lists.md)메일 그룹을 만들고 [](add-user-or-contact-to-distribution-list.md)해당 그룹에 주소를 추가한 다음 이 문서의 지침을 사용하여 DL을 설정하여 전달을 설정할 수 있습니다.
+   또는 관리 센터에서 [](../setup/create-distribution-lists.md)메일 그룹을 만들고 [](add-user-or-contact-to-distribution-list.md)해당 그룹에 주소를 추가한 다음 이 문서의 지침을 사용하여 DL을 지점으로 하는 전달을 설정할 수 있습니다.
 
 5. 전달할 전자 메일의 사용자 계정을 삭제하거나 라이선스를 제거하지 않습니다!  이렇게 하면 전자 메일 전달이 중지됩니다.
 

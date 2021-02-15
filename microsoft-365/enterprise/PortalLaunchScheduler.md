@@ -137,5 +137,5 @@ SharePoint Online에서 포털 시작 롤아웃 계획에 자세히 설명된 �
 
 2. 모든 사용자에 대해 리디렉션이 진행되지 않은지 검사합니다.
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 [SharePoint Online에서 포털 시작 롤아웃 계획](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out)

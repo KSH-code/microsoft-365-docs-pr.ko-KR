@@ -26,13 +26,13 @@ Microsoft Endpoint Manager 콘솔은 여러 제품의 보고를 단일 위치로
 
 이러한 보고서에는 다음이 포함됩니다.
 - **관리되는 장치**  >  **기능 업데이트:** 이 보기는 Microsoft Managed Desktop 장치에서 기능 업데이트의 전체 상태를 보여줍니다.
-- **관리되는 장치**  >  **Office 업데이트:** 이 보기에는 Microsoft Managed Desktop 장치에서 Office 업데이트의 전체 상태가 표시됩니다.
+- **관리되는 장치**  >  **Office 업데이트:** 이 보기는 Microsoft Managed Desktop 장치에서 Office 업데이트의 전체 상태를 보여줍니다.
 
 또한 Microsoft Endpoint Manager 전체의 여러 위치에서 다른 제품 그룹의 보고서를 필터링하여 Microsoft Managed Desktop에서 관리하는 장치를 구체적으로 포함하거나 제외할 수 있습니다. 이러한 보고서에는 다음 필터링 기능이 통합되어 있습니다.
 
 - [모든 장치](https://docs.microsoft.com/mem/intune/remote-actions/device-management#get-to-your-devices)
 - [장치 준수](https://docs.microsoft.com/mem/intune/fundamentals/reports#device-compliance-report-organizational)
-- [비호정 장치](https://docs.microsoft.com/mem/intune/fundamentals/reports#noncompliant-devices-report-operational)
+- [비호원 장치](https://docs.microsoft.com/mem/intune/fundamentals/reports#noncompliant-devices-report-operational)
 
 > [!NOTE]
 > 사용자 지정 Microsoft Managed Desktop 역할은 Microsoft Managed Desktop 보고서에 대한 액세스만 보장합니다. 모든 장치와 같은 Microsoft Endpoint Manager의 다른 부분에 액세스하는 경우 Microsoft Intune을 사용하여 역할 기반 [액세스 제어를 참조합니다.](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control) 

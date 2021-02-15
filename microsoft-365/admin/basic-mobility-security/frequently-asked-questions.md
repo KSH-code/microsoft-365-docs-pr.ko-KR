@@ -17,7 +17,7 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: 기본 이동성 및 보안에 대한 질문과 대답입니다.
+description: 기본 이동성 및 보안에 대한 질문과 대답
 ms.openlocfilehash: 5651b9f9742c45f1229e55b298cf78532c835c9a
 ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
@@ -37,7 +37,7 @@ ms.locfileid: "49876879"
 
 ## <a name="how-can-i-get-started-with-device-management-in-basic-mobility-and-security"></a>기본 이동성 및 보안에서 장치 관리를 시작하려면 어떻게 하나요?
 
-기본 이동성 및 보안 시작에는 다음 네 가지 단계가 있습니다. 
+기본 이동성 및 보안을 시작하는 데는 다음 네 가지 단계가 있습니다. 
 
 1. [Office 365](https://protection.office.com/)보안 및 규정 준수로 이동하여 기본 모바일 & 활성화합니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "49876879"
 
 ## <a name="whats-the-difference-between-intune-and-basic-mobility-and-security"></a>Intune과 기본 이동성 및 보안의 차이점은 무엇입니까?
 
-기본 모바일 및 보안은 Intune 서비스에서 호스팅합니다. Microsoft 365에 추가된 혜택으로 제공되는 Intune 서비스의 하위 집합으로, 조직에서 디바이스를 관리하기 위한 기본 제공 클라우드 기반 솔루션입니다. Intune 또는 Microsoft 365용 Basic Mobility and Security를 사용하는 것이 가장 적합한지 결정하는 데 도움이 되는 두 서비스를 나란히 비교한 내용은 Basic [Mobility Security와 Intune](choose-between-basic-mobility-and-security-and-intune.md)중 선택을 참조합니다.
+기본 모바일 및 보안은 Intune 서비스에서 호스팅합니다. Microsoft 365에 추가된 혜택으로 제공되는 Intune 서비스의 하위 집합으로, 조직에서 디바이스를 관리하기 위한 기본 제공 클라우드 기반 솔루션입니다. Intune 또는 Microsoft 365용 Basic Mobility and Security를 사용하는 것이 가장 적합한지 결정하는 데 도움이 되는 두 서비스를 나란히 비교한 내용은 기본 이동성 보안과 [Intune](choose-between-basic-mobility-and-security-and-intune.md)중 선택을 참조합니다.
 
 ## <a name="how-do-policies-work-for-basic-mobility-and-security-how-do-i-set-them-up-disable-them"></a>기본 이동성 및 보안에 대한 정책은 어떻게 작동하나요? 설정 방법 사용하지 않도록 설정하나요?
 
@@ -87,6 +87,6 @@ ms.locfileid: "49876879"
 
 장치가 기본 이동성 및 보안에 등록된 후 Exchange ActiveSync 모바일 장치 사서함 정책 또는 장치에 적용된 장치 액세스 규칙은 무시됩니다.
 
-## <a name="i--set-up-basic-mobility-and-security-but-now-i-want-to-remove-it-what-are-the-steps"></a>기본 이동성 및 보안을 설정했지만 이제 제거하고 싶습니다. 단계는 무엇입니까?
+## <a name="i--set-up-basic-mobility-and-security-but-now-i-want-to-remove-it-what-are-the-steps"></a>기본 이동성 및 보안을 설정했지만 이제 제거합니다. 단계는 무엇입니까?
 
 그러나 기본 이동성 및 보안을 설정한 후에 단순히 "비프로비전"할 수 없습니다. 그러나 만든 장치 정책에서 사용자 보안 그룹을 제거하여 사용자 그룹에 대해 제거할 수 있습니다. 또는 디바이스 정책이 적용되지 않고 적용되지 않도록 장치 정책을 제거하여 모든 사용자에 대해 사용하지 않도록 설정할 수 있습니다. 자세한 내용은 [기본 이동성 및 보안 해제를 참조하세요.](turn-off.md)

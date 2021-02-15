@@ -24,7 +24,7 @@ Microsoft Managed Desktop에 등록할 준비가 되면 인쇄 요구 사항을 
 - 사용자 지정 PowerShell 스크립트를 사용하여 프린터를 직접 배포합니다. 로컬 프린터 설정 [섹션의](#set-up-local-printers) 단계를 따릅니다.
 - Azure Active Directory 도메인에 가입된 Windows 10 장치와 호환되는 Microsoft가 아닌 클라우드 인쇄 솔루션을 사용하세요. 솔루션은 Microsoft Managed Desktop의 소프트웨어 요구 사항을 충족해야 합니다. 자세한 내용은 Microsoft Managed Desktop 앱 요구 [사항을 참조하세요.](../service-description/mmd-app-requirements.md)
  
-프린터 드라이버를 Microsoft Update 또는 Microsoft Store에서 사용할 수 없는 경우 프린터 드라이버를 직접 얻어 Microsoft Intune을 사용하여 Microsoft Managed Desktop 디바이스에 배포하기 위해 패키지로 제공해야 합니다. 자세한 내용은 [Intune 독립 실행형 - Win32 앱 관리를 참조하세요.](https://docs.microsoft.com/mem/intune/apps/apps-win32-app-management)
+모든 경우에 프린터 드라이버를 Microsoft Update 또는 Microsoft Store에서 사용할 수 없는 경우 프린터 드라이버를 직접 얻어 Microsoft Intune을 사용하여 Microsoft Managed Desktop 디바이스에 배포하기 위해 패키지로 제공해야 합니다. 자세한 내용은 [Intune 독립 실행형 - Win32 앱 관리를 참조하세요.](https://docs.microsoft.com/mem/intune/apps/apps-win32-app-management)
 
 ## <a name="set-up-local-printers"></a>로컬 프린터 설정
 

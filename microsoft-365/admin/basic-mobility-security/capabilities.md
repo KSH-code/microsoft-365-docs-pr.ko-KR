@@ -1,5 +1,5 @@
 ---
-title: 기본 모바일 및 보안 기능
+title: 기본 이동성 및 보안 기능
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -25,7 +25,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/15/2021
 ms.locfileid: "49877119"
 ---
-# <a name="capabilities-of-basic-mobility-and-security"></a>기본 모바일 및 보안 기능
+# <a name="capabilities-of-basic-mobility-and-security"></a>기본 이동성 및 보안 기능
 
 기본 모바일 및 보안을 사용하면 조직의 라이선스가 부여된 Microsoft 365 사용자가 사용하는 iPhone, iPad, Android 및 Windows Phone과 같은 모바일 장치를 보호하고 관리할 수 있습니다. 지원되는 모바일 장치 및 앱에 대한 조직의 Microsoft 365 전자 메일 및 문서에 대한 액세스를 제어하는 데 도움이 되는 설정을 사용하여 모바일 장치 관리 정책을 만들 수 있습니다. 장치를 분실하거나 도난 당한 경우 장치의 데이터를 원격으로 지워 중요한 조직 정보를 제거할 수 있습니다.
 
@@ -60,17 +60,17 @@ Windows 10에 대한 액세스 제어를 사용하려면 Azure AD Premium을 포
 
 ## <a name="access-control-for-microsoft-365-email-and-documents"></a>Microsoft 365 전자 메일 및 문서에 대한 액세스 제어
 
-다음 표에 있는 다양한 유형의 모바일 장치에 대해 지원되는 앱은 사용자의 장치에 적용되는 새로운 모바일 장치 관리 정책이 있으며 사용자가 이전에 장치를 등록하지 않은 경우 기본 이동성 및 보안에 등록하라는 메시지를 사용자에게 제공합니다. 사용자의 장치가 정책을 설정한 방법에 따라 정책을 준수하지 않는 경우 사용자가 이러한 앱의 Microsoft 365 리소스에 액세스하지 못하게 차단되거나 액세스 권한이 있지만 Microsoft 365는 정책 위반을 보고합니다.
+다음 표에 있는 다양한 유형의 모바일 장치에 대해 지원되는 앱은 사용자의 장치에 적용되는 새로운 모바일 장치 관리 정책이 있으며 사용자가 이전에 장치를 등록하지 않은 경우 기본 이동성 및 보안에 등록하라는 메시지를 사용자에게 제공합니다. 사용자의 장치가 정책을 설정한 방법에 따라 정책을 준수하지 않는 경우 사용자가 이러한 앱의 Microsoft 365 리소스에 액세스하지 못하게 차단되거나 액세스 권한이 있지만 Microsoft 365에서 정책 위반을 보고할 수 있습니다.
 
 |**제품**|**iOS 10.0 이상**|**Android 5.0 이상**|
 |:-----|:-----|:-----|
 |**Exchange** Exchange ActiveSync 버전 14.1 이상을 사용하는 터치다운과 같은 기본 제공 전자 메일 및 타사 Exchange ActiveSync 포함되어 있습니다. |메일 |전자 메일 |
-|**Office**   및  **비즈니스용 OneDrive** |Outlook </br>OneDrive </br>Word </br>Excel </br>PowerPoint|**휴대폰 및 태블릿**:<br/>Outlook <br/> OneDrive <br/> Word <br/> Excel <br/> PowerPoint <br/> **휴대폰만 해당:** <br/> Office Mobile |
+|**Office**   및  **비즈니스용 OneDrive** |Outlook </br>OneDrive </br>Word </br>Excel </br>PowerPoint|**휴대폰 및 태블릿:**<br/>Outlook <br/> OneDrive <br/> Word <br/> Excel <br/> PowerPoint <br/> **휴대폰만 해당:** <br/> Office Mobile |
 
 >[!NOTE]
 - >iOS 10.0 이상 버전에 대한 지원에는 iPhone 및 iPad 장치가 포함됩니다.
 - >BlackBerry OS 디바이스 관리는 기본 보안 및 모바일 기능에서 지원되지 않습니다. BlackBerry의 BBCS(BlackBerry Business Cloud Services)를 사용하여 BlackBerry OS 장치를 관리합니다. Android OS를 실행하는 Blackberry 장치는 표준 Android 장치로 지원됩니다.
-- >사용자가 모바일 브라우저를 사용하여 Microsoft 365 SharePoint 사이트, Office Online의 문서 또는 웹 사이트의 전자 메일에 액세스하는 경우 사용자에게 등록하라는 메시지가 표시되거나 정책 위반으로 보고되지 Outlook Web App.
+- >사용자가 모바일 브라우저를 사용하여 Microsoft 365 SharePoint 사이트, Office Online의 문서 또는 Office Online의 전자 메일에 액세스하는 경우 등록하라는 메시지가 표시되거나 정책 위반에 대해 차단되거나 Outlook Web App.
 
 다음 다이어그램은 새 장치를 사용하는 사용자가 기본 이동성 및 보안으로 액세스 제어를 지원하는 앱에 로그인할 때 발생하는 일과를 보여줍니다. 사용자가 디바이스를 등록할 때까지 앱에서 Microsoft 365 리소스에 액세스할 수 없습니다.
 

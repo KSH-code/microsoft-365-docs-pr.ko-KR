@@ -82,7 +82,7 @@ ms.locfileid: "49876891"
 
 Get-MsolUserDeviceComplianceStatus.ps1 실행하려면 PowerShell 스크립트를 실행하도록 설정해야 합니다.
 
-1. Windows 바탕 화면에서 **** 시작을 선택한 다음 시작을 Windows PowerShell. 이 Windows PowerShell 마우스 오른쪽 단추로 클릭한 다음 관리자 권한으로 **실행을 선택합니다.**
+1. Windows 바탕 화면에서 **** 시작을 선택한 다음 시작을 Windows PowerShell. 이 Windows PowerShell 마우스 오른쪽 단추로 클릭한 다음 **관리자 권한으로 실행을 선택합니다.**
 
 2. 다음 명령을 실행합니다.
 

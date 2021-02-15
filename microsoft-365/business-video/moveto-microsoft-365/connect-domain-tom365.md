@@ -41,7 +41,7 @@ Microsoft 365를 설정하고 Google Workspace에서 전자 메일 데이터를 
 
 1. 로그인하여 Google Workspace 관리 [콘솔의](https://admin.google.com)admin.google.com.
 1. Select **Domains,** **Manage domains,** **View details,** Manage **domain,** then **DNS** in the left nav.
-1. 가상 **레코드로 스크롤하여** **Google Workspace를** 열고 삭제를 선택한 다음 다시 **삭제를** 선택합니다. 
+1. 아래로 스크롤하여 **가상** 레코드, **Google Workspace 열기,** **삭제** 선택, 다시 **삭제를** 선택합니다.
 1. 아래로 스크롤하여 **사용자** 지정 리소스 레코드로 스크롤하고 이전에 Microsoft 365에 대해 만든 DNS 레코드를 포함하여 나타나는 기존 DNS 레코드를 삭제합니다.
 1. [Microsoft 365 관리 센터로 이동하세요.](https://admin.microsoft.com)
 1. In the left nav, choose, **Show all**, **Settings**, **Domains.**

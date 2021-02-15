@@ -27,7 +27,7 @@ ms.locfileid: "49877059"
 ---
 # <a name="enroll-your-mobile-device-using-basic-mobility-and-security"></a>기본 이동성 및 보안을 사용하여 모바일 장치 등록
 
-업무에 휴대폰, 태블릿 및 기타 모바일 장치를 사용하면 사무실을 비우는 동안 비즈니스 프로젝트에 대한 정보를 계속 사용하고 업무를 진행할 수 있습니다. 디바이스에서 Microsoft 365 서비스를 사용하려면 먼저 Microsoft Intune 회사 포털을 사용하여 Microsoft 365용 Basic Mobility and Security에 등록해야 할 수 있습니다.
+업무에 휴대폰, 태블릿 및 기타 모바일 장치를 사용하면 사무실을 비우는 동안 비즈니스 프로젝트에 대한 정보를 계속 사용하고 업무를 진행할 수 있습니다. 디바이스에서 Microsoft 365 서비스를 사용하려면 먼저 Microsoft Intune 회사 포털을 사용하여 Microsoft 365용 기본 이동성 및 보안에 등록해야 할 수 있습니다.
 
 조직은 직원이 모바일 장치를 사용하여 회사 전자 메일, 일정 및 문서에 안전하게 액세스할 수 있도록 기본 이동성 및 보안을 선택하고 비즈니스에서 중요한 데이터를 보호하고 규정 준수 요구 사항을 충족합니다.자세한 내용은 [Microsoft 365의 기본 이동성 및 보안 개요를 참조하세요.](overview.md) 자세한 내용은 내 장치를 등록할 때 조직에서 [볼 수 있는 정보를 참조하세요.](https://docs.microsoft.com/intune-user-help/what-info-can-your-company-see-when-you-enroll-your-device-in-intune)
 
@@ -44,7 +44,7 @@ Intune 서비스에서 호스팅하는 Microsoft 365의 기본 이동성 및 보
 
 - Windows 8.1 및 Windows 10(휴대폰 및 PC)
 
-장치가 위에 나열되지 않은 경우 기본 이동성 및 보안과 함께 장치를 사용하려면 직장 또는 학교 관리자에게 문의하세요.
+장치가 위에 나열되지 않은 경우 기본 이동성 및 보안과 함께 사용하려면 직장 또는 학교 관리자에게 문의하세요.
 
 >[!TIP]
 >장치를 등록하는 데 문제가 있는 경우 기본 이동성 및 보안 문제 [해결을 참조하세요.](/basic-mobility-security/troubleshoot.md)
@@ -75,7 +75,7 @@ Google Play 스토어로 이동하여 Intune 회사 포털을 다운로드하여
 
 Microsoft Store로 이동하여 Intune 회사 포털을 다운로드하여 설치합니다.
 
-회사 포털을 사용하여 Windows Phone 또는 PC를 Microsoft 365에 연결하고 구성하려면 Intune 회사 포털에서 Windows 장치 [등록을 참조하세요.](https://docs.microsoft.com/intune-user-help/windows-enrollment-company-portal)
+회사 포털을 사용하여 Windows 휴대폰 또는 PC를 Microsoft 365에 연결하고 구성하려면 Intune 회사 포털에서 Windows 장치 [등록을 참조하세요.](https://docs.microsoft.com/intune-user-help/windows-enrollment-company-portal)
 
 ## <a name="whats-next"></a>다음 작업
 

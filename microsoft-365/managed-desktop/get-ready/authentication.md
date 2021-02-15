@@ -18,7 +18,7 @@ ms.locfileid: "49841414"
 ---
 #  <a name="prepare-on-premises-resources-access-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비
 
-Microsoft Managed Desktop에서 장치는 Azure AD(Azure Active Directory)에 자동으로 가입됩니다. 이러한 이유로, On-premises Active Directory를 사용하는 경우 Azure AD에 가입된 장치가 On-premises Active Directory와 통신할 수 있도록 몇 가지를 검사해야 합니다. 
+Microsoft Managed Desktop에서 장치는 Azure AD(Azure Active Directory)에 자동으로 가입됩니다. 이러한 이유로, On-premises Active Directory를 사용하는 경우 Azure AD에 가입된 장치가 On-premises Active Directory와 통신할 수 있도록 몇 가지를 점검해야 합니다. 
 
 > [!NOTE]  
 > *하이브리드* Azure AD 가입은 Microsoft Managed Desktop에서 지원되지 않습니다.

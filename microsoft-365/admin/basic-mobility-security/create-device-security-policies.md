@@ -37,10 +37,10 @@ ms.locfileid: "49877071"
 - 기본 이동성 및 보안에서 지원하는 장치, 모바일 장치 앱 및 보안 설정에 대해 자세히 알아보습니다. 기본 [이동성 및 보안 기능을 참조합니다.](capabilities.md)
 - 정책을 배포하려는 Microsoft 365 사용자가 포함된 보안 그룹을 만들고 Microsoft 365에 대한 액세스가 차단되지는 않습니다. 조직에 새 정책을 배포하기 전에 소수의 사용자에게 배포하여 정책을 테스트하는 것이 좋습니다. 자신만 또는 소수의 Microsoft 365 사용자가 포함된 보안 그룹을 만들고 사용할 수 있습니다. 보안 그룹에 대한 자세한 내용은 보안 그룹 [만들기, 편집 또는 삭제를 참조합니다.](https://go.microsoft.com/fwlink/p/?LinkId=518555)
 - Microsoft 365에서 기본 이동성 및 보안 정책을 만들고 배포하려면 Microsoft 365 전역 관리자 해야 합니다. 자세한 내용은 보안 및 준수 [센터의 & 참조하세요.](https://support.microsoft.com/office/d10608af-7934-490a-818e-e68f17d0e9c1)
-- 정책을 배포하기 전에 조직에 기본 이동성 및 보안에서 장치 등록이 미칠 수 있는 영향을 알 수 있도록 합니다. 정책을 설정하는 방법에 따라 준수하지 않는 장치가 등록된 장치에 설치된 응용 프로그램, 사진 및 개인 정보를 포함하여 Microsoft 365 및 데이터에 액세스하지 차단할 수 있으며 데이터를 삭제할 수 있습니다.
+- 정책을 배포하기 전에 조직에 기본 이동성 및 보안에서 장치 등록이 미칠 수 있는 영향을 알 수 있도록 합니다. 정책을 설정하는 방법에 따라 등록된 장치에 설치된 응용 프로그램, 사진 및 개인 정보를 포함하여 준수하지 않는 장치가 Microsoft 365 및 데이터에 액세스하지 차단할 수 있으며 데이터를 삭제할 수 있습니다.
 
 >[!NOTE]
->Microsoft 365 Business Standard용 Basic Mobility and Security에서 만든 정책 및 액세스 규칙은 Exchange 관리 센터에서 Exchange ActiveSync 장치 사서함 정책 및 장치 액세스 규칙에 대해 다시 적용됩니다. 장치가 Microsoft 365 Business Standard의 기본 이동성 및 보안에 등록된 후 Exchange ActiveSync 모바일 장치 사서함 정책 또는 장치에 적용된 장치 액세스 규칙은 무시됩니다. Exchange Online의 Exchange ActiveSync 자세한 내용은 [Exchange ActiveSync 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=524380)
+>Microsoft 365 Business Standard용 Basic Mobility and Security에서 만든 정책 및 액세스 규칙은 Exchange 관리 센터에서 Exchange ActiveSync 장치 사서함 정책 및 장치 액세스 규칙을 대신합니다. 장치가 Microsoft 365 Business Standard의 기본 이동성 및 보안에 등록된 후 Exchange ActiveSync 모바일 장치 사서함 정책 또는 장치에 적용된 장치 액세스 규칙은 무시됩니다. Exchange Online의 Exchange ActiveSync 자세한 내용은 [Exchange ActiveSync 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=524380)
 
 ## <a name="step-1-create-a-device-policy-and-deploy-to-a-test-group"></a>1단계: 장치 정책을 만들고 테스트 그룹에 배포
 
@@ -54,7 +54,7 @@ ms.locfileid: "49877071"
 
 3. 정책 설정 **페이지에서** 조직의 모바일 장치에 적용할 요구 사항을 지정합니다.
 
-4. **전자 메일 프로필** 관리 요구: 사용하도록 설정하면 기본 이동성 및 보안으로 관리되는 전자 메일 프로필이 없는 장치는 호환되지 않는 것으로 간주됩니다. 디바이스의 대상이 올바르게 지정되지 않은 경우 또는 사용자가 디바이스에서 전자 메일 계정을 수동으로 설정한 경우 디바이스에 관리되는 전자 메일 프로필을 사용할 수 없습니다. 사용 안  하도록 설정(기본값)으로 두면 이 설정이 준수 또는 비준수로 평가되지 않습니다. 이 옵션을 선택할 때 사용자가 규정 준수를 받을 수 있는 방법에 대한 지침은 기존 전자 메일 계정을 [찾은 것입니다.](https://docs.microsoft.com/intune-user-help/existing-company-email-account-found)
+4. **전자 메일 프로필 관리** 요구: 사용하도록 설정하면 기본 이동성 및 보안으로 관리되는 전자 메일 프로필이 없는 장치는 호환되지 않는 것으로 간주됩니다. 디바이스가 올바르게 대상이 지정되지 않은 경우 또는 사용자가 디바이스에서 전자 메일 계정을 수동으로 설정한 경우 디바이스에 관리되는 전자 메일 프로필을 사용할 수 없습니다. 사용 안  하도록 설정(기본값)으로 두면 이 설정이 준수 또는 비준수로 평가되지 않습니다. 이 옵션을 선택할 때 사용자가 규정 준수를 받을 수 있는 방법에 대한 지침은 기존 전자 메일 계정을 [찾은 것입니다.](https://docs.microsoft.com/intune-user-help/existing-company-email-account-found)
 
 5. On the **do you want to apply this policy now?** page, choose the groups that you want to apply this policy to.
 
@@ -64,7 +64,7 @@ ms.locfileid: "49877071"
 
 ## <a name="step-2-verify-that-your-policy-works"></a>2단계: 정책이 작동하는지 확인
 
-장치 정책을 만든 후 조직에 배포하기 전에 정책이 예상한 것만큼 작동하는지 확인합니다.
+장치 정책을 만든 후 정책이 조직에 배포하기 전에 예상한 것만큼 작동하는지 확인합니다.
 
 1. 브라우저에서 [https://protection.office.com/devicev2](https://protection.office.com/devicev2) .를 입력합니다.
 2. 관리되는 **장치 목록 보기를 선택합니다.**
@@ -81,7 +81,7 @@ ms.locfileid: "49877071"
 4. 닫기 **및** **변경 설정을 선택합니다.**
 5. 닫기 **및** **편집 정책을 선택합니다.**
 
-정책은 다음에 모바일 장치에서 Microsoft 365에 로그인할 때 각 사용자의 모바일 장치로 푸시됩니다. 사용자가 모바일 장치에 정책을 적용하지 않은 경우 기본 이동성 및 보안에 대해 등록하고 활성화하는 단계가 있는 알림이 장치에 표시됩니다. 등록을 완료하면 정책이 장치에 적용됩니다. 자세한 내용은 기본 이동성 및 보안을 사용하여 모바일 장치 [등록을 참조하세요.](enroll-your-mobile-device.md)
+정책은 다음에 모바일 장치에서 Microsoft 365에 로그인할 때 각 사용자의 모바일 장치로 푸시됩니다. 사용자가 모바일 장치에 정책을 적용하지 않은 경우 기본 이동성 및 보안에 대한 등록 및 활성화 단계가 있는 알림이 장치에 표시됩니다. 등록을 완료하면 정책이 장치에 적용됩니다. 자세한 내용은 기본 이동성 및 보안을 사용하여 모바일 장치 [등록을 참조하세요.](enroll-your-mobile-device.md)
 
 ## <a name="step-4-block-email-access-for-unsupported-devices"></a>4단계: 지원되지 않는 장치에 대한 전자 메일 액세스 차단
 
@@ -97,7 +97,7 @@ ms.locfileid: "49877071"
 
 ## <a name="step-5-choose-security-groups-to-be-excluded-from-conditional-access-checks"></a>5단계: 조건부 액세스 검사에서 제외할 보안 그룹 선택
 
-모바일 장치에서 조건부 액세스 검사에서 일부 사용자 제외를 하려는 경우 해당 사용자에 대해 하나 이상의 보안 그룹을 만들었다면 여기에 보안 그룹을 추가합니다. 이러한 그룹의 사용자들은 지원되는 모바일 장치에 대해 어떤 정책도 적용되지 않습니다. 조직에서 더 이상 기본 이동성 및 보안을 사용하지 못하게 하려는 경우 이 옵션을 사용하는 것이 좋습니다.
+모바일 장치에서 조건부 액세스 검사에서 일부 사용자만 제외하고 해당 사용자에 대해 하나 이상의 보안 그룹을 만들었다면 여기에 보안 그룹을 추가합니다. 이러한 그룹의 사용자들은 지원되는 모바일 장치에 대해 어떤 정책도 적용되지 않습니다. 조직에서 더 이상 기본 이동성 및 보안을 사용하지 못하게 하려는 경우 이 옵션을 사용하는 것이 좋습니다.
 
 1. 브라우저에서 [https://protection.office.com/devicev2](https://protection.office.com/devicev2) .를 입력합니다.
 
@@ -111,7 +111,7 @@ ms.locfileid: "49877071"
 
 5. 이름을 선택한 다음 **저장을**  >  **추가합니다.**
 
-6. 조직 전체 장치 **액세스** 설정 패널에서 저장을 **선택합니다.**
+6. 조직 전체 **장치 액세스 설정** 패널에서 저장을 **선택합니다.**
 
    :::image type="content" source="../../media/basic-mobility-security/bms-8-allow-access.png" alt-text="기본 이동성 및 보안 허용 액세스 옵션":::
 
@@ -131,7 +131,7 @@ ms.locfileid: "49877071"
 |앱 스토어에 대한 액세스 차단 |아니요|예|예|Android 홈 페이지에서 누락된 앱 스토어 아이콘, Windows에서 사용하지 않도록 설정, iOS에서 누락|
 |앱 스토어에 암호 필요 |아니요|아니요|예|iOS: iTunes 구매에 필요한 암호입니다.|
 |이동식 저장소에 대한 연결 차단 |아니요|예|해당 없음|Android: SD 카드가 설정에서 회색으로 표시, Windows에서 사용자에게, 설치된 앱을 사용할 수 없습니다.|
-|Bluetooth 연결 차단 |참고 사항 보기|참고 사항 보기|예|Android에서는 BlueTooth를 설정으로 사용하지 않도록 설정할 수 없습니다. 대신 BlueTooth가 필요한 모든 트랜잭션(고급 오디오 배포, 오디오/비디오 원격 제어, 핸즈 프리 디바이스, 헤드셋, 전화 번호부 액세스 및 직렬 포트)을 사용하지 않도록 설정합니다. 이러한 메시지가 사용될 경우 페이지 맨 아래에 작은 메시지도 나타납니다.|
+|Bluetooth 연결 차단 |참고 사항 참조|참고 사항 참조|예|Android에서는 BlueTooth를 설정으로 사용하지 않도록 설정할 수 없습니다. 대신 BlueTooth가 필요한 모든 트랜잭션(고급 오디오 배포, 오디오/비디오 원격 제어, 핸즈 프리 디바이스, 헤드셋, 전화 번호부 액세스 및 직렬 포트)을 사용하지 않도록 설정합니다. 이러한 메시지가 사용될 경우 페이지 맨 아래에 작은 메시지도 나타납니다.|
 
 ## <a name="what-happens-when-you-delete-a-policy-or-remove-a-user-from-the-policy"></a>정책을 삭제하거나 정책에서 사용자를 제거하면 어떻게 하나요?
 
@@ -152,4 +152,4 @@ ms.locfileid: "49877071"
 
 [기본 모바일 및 보안 개요](overview.md)
 
-[기본 모바일 및 보안 기능](capabilities.md)
+[기본 이동성 및 보안 기능](capabilities.md)

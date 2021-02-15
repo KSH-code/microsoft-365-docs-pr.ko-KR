@@ -51,4 +51,4 @@ ms.locfileid: "49925721"
 
 ## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>서비스를 켜기 위한 설정 페이지는 어디에 있나요?
 
-Microsoft 365 Defender를 켜기 위해 Microsoft 365 보안 센터의 탐색 창에서 설정에 액세스합니다.  이 탐색 항목은 선행 사용 권한 및 라이선스가 있는 경우만 [표시됩니다.](mtp-enable.md#check-license-eligibility-and-required-permissions)
+Microsoft 365 Defender를 켜기 위해 Microsoft 365 보안 센터의 탐색 창에서 설정에 액세스합니다.  이 탐색 항목은 선행 권한 및 라이선스가 있는 경우만 [표시됩니다.](mtp-enable.md#check-license-eligibility-and-required-permissions)

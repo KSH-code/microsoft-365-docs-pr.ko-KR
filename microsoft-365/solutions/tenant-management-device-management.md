@@ -46,7 +46,7 @@ Microsoft [Intune을](https://docs.microsoft.com/mem/intune/fundamentals/plannin
 
 ## <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
-Microsoft는 안전하고 생산적인 [](../security/office-365-security/microsoft-365-policies-configurations.md) 인력을 확보하기 위해 ID 및 장치 액세스를 위한 구성 집합을 제공합니다. 이러한 구성에는 다음이 포함됩니다.
+Microsoft는 안전하고 생산적인 [](../security/office-365-security/microsoft-365-policies-configurations.md) 인력을 확보하기 위해 ID 및 장치 액세스에 대한 구성 집합을 제공합니다. 이러한 구성에는 다음의 사용이 포함됩니다.
 
 - Azure AD 조건부 액세스 정책
 - Microsoft Intune 장치 준수 및 앱 보호 정책

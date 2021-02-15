@@ -29,7 +29,7 @@ ms.locfileid: "49905288"
 
 여러개의 사무실이 있는 대부분의 회사 조직에서 WAN에 연결하기 위해 Office 365 네트워크 연결을 구성해야 합니다. 방화벽을 통해 직접 모든 신뢰할 수 있는 Office 365 네트워크 요청을 보내 모든 추가 패킷 수준 검사 또는 처리를 건너뜀으로써 네트워크를 최적화할 수 있습니다. 이렇게 하면 대기 시간 및 경계 용량 요구 사항이 줄어듭니다. 사용자에게 최적의 성능을 제공할 수 있는 첫 번째 단계는 Office 365 네트워크 트래픽을 식별하는 것입니다. 자세한 내용은 [Office 365 네트워크 연결 원칙을 참조하세요.](microsoft-365-network-connectivity-principles.md)
 
-Office 365 IP 주소 및 URL 웹 서비스를 사용하여 [Office 365](microsoft-365-ip-web-service.md)네트워크 끝점 및 해당 끝점에 지속적인 변경 내용을 액세스하는 것이 좋습니다.
+Office 365 IP 주소 및 URL 웹 서비스를 사용하여 Office [365](microsoft-365-ip-web-service.md)네트워크 끝점 및 지속적인 변경 내용에 액세스하는 것이 좋습니다.
 
 중요 Office 365 네트워크 트래픽을 관리하는 방법과 관계없이 Office 365를 사용하려면 인터넷에 연결되어 있어야 합니다. 연결이 필요한 다른 네트워크 끝점은 [Office 365 IP 주소 및 URL 웹 서비스에 포함되지 않은 추가 끝점](additional-office365-ip-addresses-and-urls.md)에 나열되어 있습니다.
 
@@ -168,7 +168,7 @@ serviceA.office.com -> CNAME: serviceA.domainA.com -> CNAME: serviceA.domainB.co
 
 Office 365 및 기타 Microsoft 서비스에서는 Office 365 환경을 개선하기 위해 Akamai 및 MarkMonitor와 같은 몇 가지 타사 서비스를 사용합니다. 가능한 최상의 환경을 계속 제공하기 위해 Microsoft는 향후 이러한 서비스를 변경할 수 있습니다. 타사 도메인은 CDN과 같은 콘텐츠를 호스트하거나 지리적 트래픽 관리 서비스 등의 서비스를 호스트할 수 있습니다. 현재 사용 중인 몇 가지 서비스는 다음과 같습니다.
   
-.nsatc.net 요청이 표시되어 [MarkMonitor가](https://www.markmonitor.com/) *\* 사용 중입니다.* 이 서비스는 악의적인 동작으로부터 보호하기 위해 도메인 이름 보호 및 모니터링을 제공합니다.
+.nsatc.net 포함된 요청이 표시되어 [MarkMonitor가](https://www.markmonitor.com/) *\* 사용 중입니다.* 이 서비스는 악의적인 동작으로부터 보호하기 위해 도메인 이름 보호 및 모니터링을 제공합니다.
   
 .exacttarget.com 요청이 표시되어 [ExactTarget이](https://www.marketingcloud.com/) *\* 사용 중입니다.* 이 서비스는 악의적인 동작으로부터 전자 메일 링크 관리 및 모니터링을 제공합니다.
   
@@ -191,7 +191,7 @@ Office 365 및 기타 Microsoft 서비스에서는 Office 365 환경을 개선�
 
 Office 365는 인터넷을 통해 작동하도록 구축된 서비스 모음이므로 안정성 및 가용성 약속은 사용할 수 있는 많은 표준 인터넷 서비스를 기반으로 합니다. 예를 들어 DNS, CRL 및 CDN과 같은 표준 인터넷 서비스는 최신 인터넷 서비스를 사용하기 위해 연결할 수 있어야 하는 것처럼 Office 365를 사용하기 위해 연결할 수 있어야 합니다.
 
-Office 365 제품군은 주요 서비스 영역으로 나뉩니다. 이러한 영역은 연결에 대해 선택적으로 사용하도록 설정될 수 있으며 공통 영역이 있으며 이는 모두에 대한 종속성으로, 항상 필수입니다.
+Office 365 제품군은 주요 서비스 영역으로 나뉩니다. 이러한 영역은 연결에 대해 선택적으로 사용하도록 설정될 수 있으며, 모두에 대한 종속성인 공통 영역이 있으며 항상 필요합니다.
 
 | 서비스 영역 | 설명 |
 |:-----|:-----|

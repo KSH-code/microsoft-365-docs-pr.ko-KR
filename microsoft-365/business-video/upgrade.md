@@ -42,5 +42,5 @@ Microsoft 365 business를 사용하려면 Windows 10 Pro가 데이터 보안을 
 3. Under **Upgrade to Windows 10 Pro,** choose Learn **more,** and then choose **Buy.**
 4. **Windows** 보안 상자에 PIN을 입력하여 ID를 검증합니다.
 5. 결제 페이지를 검토하고, 판매 약관을 읽고, 원하는 경우 결제 방법을 변경한 다음 구입을 **선택합니다.**
-6. Windows **10 Pro로 업그레이드하고** 설치를 **선택하십시오.**
+6. Windows **10 Pro로 업그레이드할** 때 설치를 **선택하십시오.**
 7. 필요한 경우 파일을 저장한 다음 예,&#39; **Windows 설치를**  시작하도록 합니다.
