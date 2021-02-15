@@ -18,7 +18,7 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: 932d57c0-1520-4f0f-8ec9-9966d646480f
-description: PowerShell을 사용 하 여 Microsoft 365 사용자, 라이선스 및 365 앱을 관리 하는 방법에 대해 알아봅니다.
+description: PowerShell을 사용하여 Microsoft 365 사용자, 라이선스 및 365 앱을 관리하는 방법을 학습합니다.
 ms.openlocfilehash: b1e8353eac1fb2917330ef5b5c2c7752fe5b1824
 ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
@@ -26,42 +26,42 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/22/2020
 ms.locfileid: "48655854"
 ---
-# <a name="manage-microsoft-365-with-powershell"></a><span data-ttu-id="1cc13-103">PowerShell로 Microsoft 365 관리</span><span class="sxs-lookup"><span data-stu-id="1cc13-103">Manage Microsoft 365 with PowerShell</span></span>
+# <a name="manage-microsoft-365-with-powershell"></a><span data-ttu-id="36b40-103">PowerShell로 Microsoft 365 관리</span><span class="sxs-lookup"><span data-stu-id="36b40-103">Manage Microsoft 365 with PowerShell</span></span>
 
-<span data-ttu-id="1cc13-104">*이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*</span><span class="sxs-lookup"><span data-stu-id="1cc13-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="36b40-104">*이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*</span><span class="sxs-lookup"><span data-stu-id="36b40-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="1cc13-105">Microsoft 365 용 PowerShell은 Microsoft 365 관리 센터를 보완 하는 강력한 관리 도구입니다.</span><span class="sxs-lookup"><span data-stu-id="1cc13-105">PowerShell for Microsoft 365 is a powerful management tool that complements the Microsoft 365 admin center.</span></span> <span data-ttu-id="1cc13-106">예를 들어 PowerShell automation을 사용 하 여 여러 사용자 계정 및 라이선스를 쉽게 관리 하 고 보고서를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1cc13-106">For example, you can use PowerShell automation to easily manage multiple user accounts and licenses and to create reports.</span></span>
+<span data-ttu-id="36b40-105">Microsoft 365용 PowerShell은 Microsoft 365 관리 센터를 보완하는 강력한 관리 도구입니다.</span><span class="sxs-lookup"><span data-stu-id="36b40-105">PowerShell for Microsoft 365 is a powerful management tool that complements the Microsoft 365 admin center.</span></span> <span data-ttu-id="36b40-106">예를 들어 PowerShell 자동화를 사용하여 여러 사용자 계정 및 라이선스를 쉽게 관리하고 보고서를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="36b40-106">For example, you can use PowerShell automation to easily manage multiple user accounts and licenses and to create reports.</span></span>
 
-<span data-ttu-id="1cc13-107">다음 항목을 선택 하 여 PowerShell을 사용 하 여 Microsoft 365를 관리 하는 방법을 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="1cc13-107">Select from the following topics to learn how to use PowerShell to manage Microsoft 365:</span></span>
+<span data-ttu-id="36b40-107">다음 항목에서 PowerShell을 사용하여 Microsoft 365를 관리하는 방법을 알아보는 방법을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="36b40-107">Select from the following topics to learn how to use PowerShell to manage Microsoft 365:</span></span>
   
-- [<span data-ttu-id="1cc13-108">**시작**</span><span class="sxs-lookup"><span data-stu-id="1cc13-108">**Get started**</span></span>](getting-started-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="36b40-108">**시작**</span><span class="sxs-lookup"><span data-stu-id="36b40-108">**Get started**</span></span>](getting-started-with-microsoft-365-powershell.md)
 
-    <span data-ttu-id="1cc13-109">Microsoft 365 용 PowerShell에 익숙하지 않고 Microsoft 365 모듈을 설치 하 고 구독에 연결 하려면 여기에서 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="1cc13-109">Start here if you're not familiar with PowerShell for Microsoft 365, and you want to install the Microsoft 365 modules and connect to your subscription.</span></span>
+    <span data-ttu-id="36b40-109">Microsoft 365용 PowerShell에 익숙하지 않은 경우 Microsoft 365 모듈을 설치하고 구독에 연결하려는 경우 여기에서 시작하세요.</span><span class="sxs-lookup"><span data-stu-id="36b40-109">Start here if you're not familiar with PowerShell for Microsoft 365, and you want to install the Microsoft 365 modules and connect to your subscription.</span></span>
 
-- [<span data-ttu-id="1cc13-110">**사용자 계정, 라이선스 및 그룹**</span><span class="sxs-lookup"><span data-stu-id="1cc13-110">**User accounts, licenses, and groups**</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="36b40-110">**사용자 계정, 라이선스 및 그룹**</span><span class="sxs-lookup"><span data-stu-id="36b40-110">**User accounts, licenses, and groups**</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
 
-    <span data-ttu-id="1cc13-111">자동화 명령을 사용 하 여 사용자 계정, 라이선스 및 그룹을 관리 하는 방법에 대해 알아보려면 여기에서 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="1cc13-111">Start here if want to learn about using automation commands to manage user accounts, licenses, and groups.</span></span>
+    <span data-ttu-id="36b40-111">자동화 명령을 사용하여 사용자 계정, 라이선스 및 그룹을 관리하는 방법을 알아보고 싶은 경우 여기에서 시작하세요.</span><span class="sxs-lookup"><span data-stu-id="36b40-111">Start here if want to learn about using automation commands to manage user accounts, licenses, and groups.</span></span>
 
-- [<span data-ttu-id="1cc13-112">**SharePoint**</span><span class="sxs-lookup"><span data-stu-id="1cc13-112">**SharePoint**</span></span>](manage-sharepoint-online-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="36b40-112">**SharePoint**</span><span class="sxs-lookup"><span data-stu-id="36b40-112">**SharePoint**</span></span>](manage-sharepoint-online-with-microsoft-365-powershell.md)
 
-    <span data-ttu-id="1cc13-113">자동화 명령을 사용 하 여 SharePoint를 관리 하려면 여기에서 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="1cc13-113">Start here if you want to use automation commands to manage SharePoint.</span></span>
+    <span data-ttu-id="36b40-113">자동화 명령을 사용하여 SharePoint를 관리하려는 경우 여기에서 시작하세요.</span><span class="sxs-lookup"><span data-stu-id="36b40-113">Start here if you want to use automation commands to manage SharePoint.</span></span>
 
-- [<span data-ttu-id="1cc13-114">**Exchange Online**</span><span class="sxs-lookup"><span data-stu-id="1cc13-114">**Exchange Online**</span></span>](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)
+- [<span data-ttu-id="36b40-114">**Exchange Online**</span><span class="sxs-lookup"><span data-stu-id="36b40-114">**Exchange Online**</span></span>](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)
 
-    <span data-ttu-id="1cc13-115">Exchange Online을 관리 하려면 여기에서 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="1cc13-115">Start here if you want to manage Exchange Online.</span></span>
+    <span data-ttu-id="36b40-115">Exchange Online을 관리하려는 경우 여기에서 시작하세요.</span><span class="sxs-lookup"><span data-stu-id="36b40-115">Start here if you want to manage Exchange Online.</span></span>
 
-- [<span data-ttu-id="1cc13-116">**전자 메일 마이그레이션**</span><span class="sxs-lookup"><span data-stu-id="1cc13-116">**Email migration**</span></span>](use-powershell-for-email-migration-to-microsoft-365.md)
+- [<span data-ttu-id="36b40-116">**전자 메일 마이그레이션**</span><span class="sxs-lookup"><span data-stu-id="36b40-116">**Email migration**</span></span>](use-powershell-for-email-migration-to-microsoft-365.md)
 
-    <span data-ttu-id="1cc13-117">기존 시스템에서 전자 메일을 마이그레이션하려면 여기에서 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="1cc13-117">Start here if you want to migrate your email from pre-existing systems.</span></span>
+    <span data-ttu-id="36b40-117">기존 시스템에서 전자 메일을 마이그레이션하려면 여기에서 시작하세요.</span><span class="sxs-lookup"><span data-stu-id="36b40-117">Start here if you want to migrate your email from pre-existing systems.</span></span>
 
-- [<span data-ttu-id="1cc13-118">**보안 및 준수 센터**</span><span class="sxs-lookup"><span data-stu-id="1cc13-118">**Security & Compliance Center**</span></span>](https://docs.microsoft.com/powershell/exchange/scc-powershell)
+- [<span data-ttu-id="36b40-118">**보안 및 준수 센터**</span><span class="sxs-lookup"><span data-stu-id="36b40-118">**Security & Compliance Center**</span></span>](https://docs.microsoft.com/powershell/exchange/scc-powershell)
 
-    <span data-ttu-id="1cc13-119">보안 & 준수 센터 기능을 관리 하려면 여기에서 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="1cc13-119">Start here if you want to manage Security & Compliance Center features.</span></span>
+    <span data-ttu-id="36b40-119">보안 및 준수 센터 기능을 관리하려는 경우 & 시작하세요.</span><span class="sxs-lookup"><span data-stu-id="36b40-119">Start here if you want to manage Security & Compliance Center features.</span></span>
 
-- [<span data-ttu-id="1cc13-120">**DAP (위임 된 액세스 권한) 파트너**</span><span class="sxs-lookup"><span data-stu-id="1cc13-120">**Delegated Access Permissions (DAP) partners**</span></span>](manage-microsoft-365-with-windows-powershell-for-delegated-access-permissions-dap-p.md)
+- [<span data-ttu-id="36b40-120">**DAP(위임된 액세스 권한) 파트너**</span><span class="sxs-lookup"><span data-stu-id="36b40-120">**Delegated Access Permissions (DAP) partners**</span></span>](manage-microsoft-365-with-windows-powershell-for-delegated-access-permissions-dap-p.md)
 
-    <span data-ttu-id="1cc13-121">배포 및 CSP (클라우드 솔루션 공급자) 파트너를 사용 하 여 Microsoft 365 고객 테 넌 트를 관리 하려면 여기에서 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="1cc13-121">Start here if you want to use Syndication and Cloud Solution Provider (CSP) partners to manage your Microsoft 365 customer tenants.</span></span>
+    <span data-ttu-id="36b40-121">신디ication 및 CSP(클라우드 솔루션 공급자) 파트너를 사용하여 Microsoft 365 고객 테넌트를 관리하려는 경우 여기에서 시작하세요.</span><span class="sxs-lookup"><span data-stu-id="36b40-121">Start here if you want to use Syndication and Cloud Solution Provider (CSP) partners to manage your Microsoft 365 customer tenants.</span></span>
 
-- [<span data-ttu-id="1cc13-122">**비즈니스용 Skype Online**</span><span class="sxs-lookup"><span data-stu-id="1cc13-122">**Skype for Business Online**</span></span>](manage-skype-for-business-online-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="36b40-122">**비즈니스용 Skype Online**</span><span class="sxs-lookup"><span data-stu-id="36b40-122">**Skype for Business Online**</span></span>](manage-skype-for-business-online-with-microsoft-365-powershell.md)
 
-    <span data-ttu-id="1cc13-123">비즈니스용 Skype Online을 관리 하려면 여기에서 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="1cc13-123">Start here to manage Skype for Business Online.</span></span>
+    <span data-ttu-id="36b40-123">비즈니스용 Skype Online을 관리하기 위해 여기에서 시작하세요.</span><span class="sxs-lookup"><span data-stu-id="36b40-123">Start here to manage Skype for Business Online.</span></span>
