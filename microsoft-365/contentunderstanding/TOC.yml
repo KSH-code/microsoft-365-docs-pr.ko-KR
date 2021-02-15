@@ -30,6 +30,8 @@
       href: model-usage-analytics.md
     - name: 추출자를 만들 때 용어 저장소 분류 활용
       href: leverage-term-store-taxonomy.md
+    - name: SharePoint Syntex 접근성 모드
+      href: accessibility-mode.md
 - name: 채택
   items:
     - name: 서비스 도입 프레임 워크 시작

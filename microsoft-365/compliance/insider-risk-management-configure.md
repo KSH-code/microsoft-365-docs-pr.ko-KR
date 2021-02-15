@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 13e5d1f160fe957748295749662a7042489887ca
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 108f086af014c4f634e321f2e84e112db2032f17
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150586"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233310"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
@@ -44,6 +44,7 @@ ms.locfileid: "50150586"
 - Microsoft 365 G5 구독(유료 또는 평가판)
 - Microsoft 365 G3 구독 + Microsoft 365 G5 규정 준수 추가 기능
 - Microsoft 365 G3 구독 + Microsoft 365 G5 Insider Risk Management 추가 기능
+- Office 365 E3 구독 + Enterprise Mobility and Security E3 + Microsoft 365 E5 규정 준수 추가 기능
 
 내부자 위험 관리 정책에 포함된 사용자에게 위의 라이선스 중 하나를 할당해야 합니다.
 

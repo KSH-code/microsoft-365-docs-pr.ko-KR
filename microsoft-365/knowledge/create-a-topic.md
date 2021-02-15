@@ -14,12 +14,12 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 35d4615057deee81285ba950a157f28160b6eefa
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 2b543dbc8132f261814aec45e713874971b9b5d1
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107303"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242893"
 ---
 # <a name="create-a-new-topic"></a>새 항목 만들기 
 
@@ -38,7 +38,19 @@ Viva 항목에서는 인덱싱을 통해 검색되지 않았거나 AI 기술에�
 > [!Note] 
 > 항목 센터(기술 관리자)에서 항목을 관리할 수 있는 권한이 있는 사용자는 이미 항목을 만들고 편집할 수 있는 권한이 있습니다.
 
-## <a name="to-create-a-new-topic"></a>새 항목을 만들 수 있습니다.
+## <a name="to-create-a-topic"></a>항목을 만들 수 있습니다.
+
+다음 두 위치에서 새 항목을 만들 수 있습니다.
+
+- 항목 센터 홈 페이지: 항목을  만들거나 편집할 수 있는 사용자(참가자)가 있는 사용이 허가된 사용자는 <b></b> 새 메뉴를 선택하고 항목 페이지를 선택하여 항목 센터에서 새 항목을 만들 <b>수 있습니다.</b></br> 
+
+    ![항목 센터의 새로운 항목](../media/knowledge-management/new-topic.png) </br> 
+
+- 항목 관리 페이지: 항목 사용  권한을 관리할 수 있는 사용자(기술 관리자)가 있는 사용이 허가된 모든 사용자는 항목 센터의 항목 관리 페이지에서 새 항목 페이지를 선택하여 새 항목을 만들 수 <b>있습니다.</b></br> 
+
+    ![항목 관리의 새로운 항목](../media/knowledge-management/new-topic-topic-center.png) </br> 
+
+### <a name="to-create-a-new-topic"></a>새 항목을 만들 수 있습니다.
 
 1. 이 **항목 이름 섹션에서** 새 항목의 이름을 입력합니다.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 675a98656655521095096a535d4ee8352885e70c
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 2541519ad9082383c5381452722d023f23760798
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166463"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242714"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -43,21 +43,22 @@ Teams 보존 정책을 통해 다음의 Teams 항목(포함된 이미지, 표, �
 > [!NOTE]
 > 카드 콘텐츠 포함은 최근에 추가된 사항이며 현재 테넌트에 배포되고 있습니다. 자세한 내용은 [이제 Teams의 응용 프로그램을 통한 적응형 카드 콘텐츠에 대한 Microsoft 365 규정 준수 기능 제공](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869)을 참조하세요.
 
-비공개 채널의 Teams 메시지는 포함되지 않으며 코드 조각 및 이모티콘 형태의 다른 사용자의 반응도 포함되지 않습니다.
+현재 비공개 채널의 Teams 메시지는 보존 정책에 대해 지원되지 않습니다. Teams에 대한 보존 정책을 사용할 때 코드 스니펫, Teams 모바일 클라이언트의 녹음된 음성 메모 및 이모티콘 형식의 다른 사용자의 응답은 포함되지 않습니다.
 
 Teams에서 사용하는 전자 메일 및 파일은 Teams의 보존 정책에 포함되지 않습니다. 이러한 항목은 자체 보존 정책이 있습니다.
-
-RecipientTypeDetails의 다음 사서함은 Teams 보존 정책에 대해 지원됩니다.
-
-- MailUser
-- UserMailbox
-- GroupMailbox
-- ArbitrationMailbox
-- SharedMailbox
 
 ## <a name="how-retention-works-with-microsoft-teams"></a>보존이 Microsoft Teams에서 작동하는 방식
 
 보존 정책을 사용하여 Teams의 채팅 및 채널 메시지를 보존하고 삭제할 수 있습니다. Exchange 사서함은 뒤에서 이러한 메시지를 저장하는 데 사용됩니다. Teams 채팅의 테이터는 채팅에 포함된 각 사용자의 사서함에 있는 숨겨진 폴더에 저장되고, 팀의 그룹 사서함에 있는 유사한 숨겨진 폴더는 Teams 채널 메시지에 사용됩니다.
+
+이러한 사서함은 RecipientTypeDetails 특성에 따라 나열됩니다.
+
+- **UserMailbox**: 이러한 사서함은 Exchange Online 사서함이 있는 Teams 사용자를 위한 메시지를 저장합니다.
+- **MailUser**: 이러한 사서함은 Exchange 온라인이 아닌 온-프레미스 Exchange 서버에 대한 사서함이 있는 Teams 사용자에 대한 메시지를 저장합니다.
+- **사용자**: 이러한 사서함은 Exchange Online 또는 온-프레미스 Exchange 서버용 사서함이 없는 Teams 사용자를 위한 메시지를 저장합니다.
+- **GroupMailbox**: 이러한 사서함은 Teams 채널의 메시지를 저장합니다.
+
+Teams 회의실에 사용되는 RoomMailbox와 같은 다른 사서함 유형은 Teams 보존 정책에 대해 지원되지 않습니다.
 
 Teams에서 역시 이 데이터를 저장하는 Azure 기반 채팅 서비스를 사용하고, 기본적으로 이 서비스에서는 데이터를 무제한적으로 저장한다는 사실을 이해하는 것이 중요합니다. 따라서 규정 준수를 이유로 Teams 메시지를 삭제해야 하는 경우 Exchange 사서함과 기본 Azure 기반 채팅 서비스 모두에서 이 데이터를 영구적으로 삭제할 수 있는 Teams에 대한 보존 정책을 사용하는 것이 좋습니다. 기본 아키텍처에 대한 자세한 내용은 [Microsoft Teams의 보안 및 규정 준수](https://go.microsoft.com/fwlink/?linkid=871258) 및 특히 [정보 보호 아키텍처](https://docs.microsoft.com/MicrosoftTeams/security-compliance-overview#information-protection-architecture) 섹션을 참조하세요.
 

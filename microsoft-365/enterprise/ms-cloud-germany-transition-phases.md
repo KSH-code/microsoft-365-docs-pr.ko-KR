@@ -18,14 +18,14 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: c0fdfc83bbdb8ec4c2f408cef113a487908957bf
-ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
+ms.openlocfilehash: 9dc2f4c0923f52bfc83a9177b595a6955a3afa8f
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110032"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242737"
 ---
-# <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 작업 및 영향 마이그레이션 단계(일반)
+# <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>마이그레이션 단계, 도이치란드 Microsoft 클라우드 마이그레이션 작업 및 영향(일반)
 
 독일 Microsoft 클라우드에서 Microsoft Office 365 서비스의 독일 지역으로 테넌트 마이그레이션은 단계 집합 및 각 워크로드에 대해 구성된 작업으로 실행됩니다. 이 그림에서는 새로운 독일 데이터 센터로의 9단계 마이그레이션 단계를 보여 주었다.
 
@@ -95,6 +95,15 @@ ms.locfileid: "50110032"
 |:-------|:-----|:-------|:-------|
 | 비즈니스용 Skype를 Teams로 마이그레이션. | 기존 비즈니스용 Skype 고객은 유럽의 Office 365 서비스로 마이그레이션된 다음 Office 365 서비스의 독일 지역의 Microsoft Teams로 전환됩니다. | 비즈니스용 Skype 고객 | - 사용자는 마이그레이션 날짜에 비즈니스용 Skype에 로그인할 수 없습니다. 마이그레이션이 시작되기 10일 전에 관리 센터에 게시하여 마이그레이션이 언제 수행될지 알려드려야 합니다. <br><br> - 정책 구성이 마이그레이션됩니다. <br><br> - 사용자는 Teams로 마이그레이션됩니다. 마이그레이션 후 비즈니스용 Skype가 더 이상 사용되지 않습니다. <br><br> - 사용자에게 Teams 데스크톱 클라이언트가 설치되어 있어야 합니다. 설치는 비즈니스용 Skype 인프라의 정책을 통해 10일 동안 진행되지만 실패하는 경우 사용자는 클라이언트를 다운로드하거나 지원되는 브라우저에 연결해야 합니다. <br><br> - 연락처 및 모임이 Teams로 마이그레이션됩니다. <br><br> - 사용자는 고객 DNS 항목이 완료될 때까지 서비스가 Office 365 서비스로 전환되는 동안 비즈니스용 Skype에 로그인할 수 없습니다. <br><br> - 연락처 및 기존 모임은 비즈니스용 Skype 모임으로 계속 작동됩니다. |
 |||||
+
+
+## <a name="office-apps-phase-8-of-9"></a>Office 앱(8단계 중 9단계)
+
+| 단계 | 설명 | 적용 대상 | 영향 |
+|:-------|:-----|:-------|:-------|
+| 클라이언트, Office 클라이언트 컷오버 중 Office Online에서 Azure AD는 Office 365 서비스를 지점으로 하는 테넌트 범위를 마무리합니다. | 이 구성 변경을 통해 Office 클라이언트는 Office 365 서비스 끝점을 업데이트하고 이를 지점으로 할 수 있습니다. | 모든 Office 고객 | - _Office_ 클라이언트가 변경 내용을 선택할 수 있도록 모든 Office 앱을 닫은 다음 다시 로그인(또는 클라이언트가 다시 시작하고 사용자가 로그인하도록 강제)하도록 사용자에게 알릴 수 있습니다. <br><br> - 사용자에게 Office 배너가  표시될 수 있으며, 72시간 이내에 Office 앱을 다시 활성화하라는 메시지가 표시될 수 있습니다. <br><br> - 개인 컴퓨터의 모든 Office 응용 프로그램을 닫고 사용자가 로그인한 다음 다시 로그인해야 합니다. 노란색 정품 인증 표시줄에 로그인하여 Office 365 서비스에 대해 다시 활성화합니다. <br><br> - 공유 컴퓨터는 개인 컴퓨터와 유사한 작업이 필요하며 특별한 절차가 필요하지 않습니다. <br><br> - 모바일 장치에서 사용자는 앱에서 로그인하고 닫은 다음 다시 로그인해야 합니다. |
+|||||
+
 
 ## <a name="office-services"></a>Office Services
 

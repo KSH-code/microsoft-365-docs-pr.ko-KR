@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 전환할 때의 추가 고객 환경 정보입니다.'
-ms.openlocfilehash: 3f9bc40d7551dfcdb65abcf8b150f98b8242d7d2
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 717978d69c9f87855967c474f29216f6db8d3ce9
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921693"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242857"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-advanced"></a>마이그레이션 단계, 도이클란드 Microsoft 클라우드 마이그레이션 작업 및 영향(고급) 
 
@@ -31,7 +31,7 @@ ms.locfileid: "49921693"
 
 ![새 독일 데이터 센터로의 9단계 마이그레이션](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
 
-다음 섹션에서는 독일 Microsoft 클라우드(도이클란드 Microsoft 클라우드)에서 신규 독일 데이터 센터 지역의 Office 365 서비스로 전환할 때의 고객 경험에 대한 추가 정보를 제공합니다.
+다음 섹션에서는 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 신규 독일 데이터 센터 지역의 Office 365 서비스로 전환할 때의 고객 경험에 대한 추가 정보를 제공합니다.
 
 ## <a name="services"></a>서비스
 
@@ -39,7 +39,7 @@ ms.locfileid: "49921693"
 
 | 단계 | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
-| 도이치란드 Microsoft 클라우드의 Azure AD 테넌트가 Office 365 서비스에 복사됩니다. | Azure AD는 테넌트를 Office 365 서비스에 복사합니다. 테넌트 및 사용자 식별자는 보존됩니다. Azure AD 서비스 통화는 도이치란드 Microsoft 클라우드에서 Office 365 서비스로 리디렉션되고 서비스에 투명합니다. | 모든 Office 고객 | - 일반 데이터 보호 규정(GDPR) DSR(데이터 주체 요청)은 Azure 관리 포털에서 향후 요청을 위해 실행됩니다. 도이치란드 Microsoft 클라우드에 있는 레거시 또는 비 고객 진단 데이터는 30일 경과 시 또는 그 전에 삭제됩니다. <br><br> - AD FS(Active Directory Federation Services)와 함께 페더러티 인증을 사용하는 고객은 마이그레이션 중의 모든 인증에 사용되는 발급자 URIS를 변경하지 말아야 합니다. 발급자 UR을 변경하면 도메인의 사용자에 대한 인증 오류가 발생합니다. 발급자 URIS는 AD FS에서 직접 변경하거나 도메인이  관리에서  페더러티로 변환되거나 그 반대로 변환될 때 변경할 수 있습니다. 고객은 마이그레이션된 Azure AD 테넌트에서 페더티드 도메인을 추가, 제거 또는 변환하지 않는 것이 좋습니다. 마이그레이션이 완전히 완료된 후 발급자 URIS를 변경할 수 있습니다. <br><br> - 테넌트가 Office 365 서비스에 복사되는 동안 Microsoft Authenticator를 사용자 ObjectID(GUID)로 사용하는 MFA(다단계 인증) 요청. 이러한 표시 동작에도 불구하고 MFA 요청은 예상대로 수행됩니다.  Office 365 서비스 끝점을 사용하여 정품 인증된 Microsoft Authenticator 계정에 UPN(사용자 계정 이름)이 표시됩니다.  도이치란드 Microsoft 클라우드 끝점을 사용하여 추가된 계정은 사용자 ObjectID를 표시하지만 도이치란드 Microsoft 클라우드 및 Office 365 서비스 끝점에서 모두 사용할 수 있습니다.  |
+| 도이치란드 Microsoft 클라우드의 Azure AD 테넌트가 Office 365 서비스에 복사됩니다. | Azure AD는 테넌트를 Office 365 서비스에 복사합니다. 테넌트 및 사용자 식별자는 보존됩니다. Azure AD 서비스 통화는 도이치란드 Microsoft 클라우드에서 Office 365 서비스로 리디렉션되고 서비스에 투명합니다. | 모든 Office 고객 | - 일반 데이터 보호 규정(GDPR) DSR(데이터 주체 요청)은 Azure 관리 포털에서 향후 요청을 위해 실행됩니다. 도이치란드 Microsoft 클라우드에 있는 레거시 또는 비 고객 진단 데이터는 30일 경과 시 또는 그 전에 삭제됩니다. <br><br> - AD FS(Active Directory Federation Services)와의 페더타 인증을 사용하는 고객은 마이그레이션 중의 모든 인증에 사용되는 발급자 URIS를 변경하지 말아야 합니다. 발급자 UR을 변경하면 도메인의 사용자에 대한 인증 오류가 발생합니다. 발급자 URIS는 AD FS에서 직접 변경하거나 도메인이  관리에서  페더러티로 변환되거나 그 반대로 변환될 때 변경할 수 있습니다. 고객은 마이그레이션된 Azure AD 테넌트에서 페더티된 도메인을 추가, 제거 또는 변환하지 않는 것이 좋습니다. 마이그레이션이 완전히 완료된 후 발급자 URIS를 변경할 수 있습니다. <br><br> - 테넌트가 Office 365 서비스에 복사되는 동안 Microsoft Authenticator를 사용자 ObjectID(GUID)로 사용하는 MFA(다단계 인증) 요청. 이러한 표시 동작에도 불구하고 MFA 요청은 예상대로 수행됩니다.  Office 365 서비스 끝점을 사용하여 정품 인증된 Microsoft Authenticator 계정에 UPN(사용자 계정 이름)이 표시됩니다.  도이치란드 Microsoft 클라우드 끝점을 사용하여 추가된 계정은 사용자 ObjectID를 표시하지만 도이치란드 Microsoft 클라우드 및 Office 365 서비스 끝점에서 모두 사용할 수 있습니다.  |
 | 전역 STS 서비스를 지점으로 하는 AuthServer On-premises를 수립합니다. | 이렇게 하면 하이브리드온-프레미스 환경을 대상으로 하는 Exchange 가용성 요청에 대해 도이치란드 Microsoft 클라우드로 마이그레이션하는 사용자의 요청이 인증되어온-프레미스 서비스에 액세스할 수 있습니다. 마찬가지로, 이렇게 하면 Office 365 서비스 끝점에 대한 요청의 인증이 보장됩니다. | 하이브리드(-프레미스) 배포가 있는 Exchange Online 고객 | Azure AD 마이그레이션이 완료되면 하이브리드 토폴로지의 관리자가 Office 365 서비스에 대한 새 인증 서비스 끝점을 추가해야 합니다. Exchange PowerShell에서 이 명령을 사용하여 조직의 테넌트 `<TenantID>` **ID(Azure Active Directory의 Azure** Portal에 있습니다)로 바환합니다. <br><br> - `New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontrol.windows.net/<TenantId>/metadata/json/1` <br> <br> 이 작업을 완료하지 못하면 도이치란드 Microsoft 클라우드에서 Office 365 서비스로 마이그레이션된 사서함 사용자에 대한 정보 제공에 실패할 수 있습니다.  |
 | Azure 리소스 마이그레이션. | Office 365 및 Azure 리소스(예: 네트워킹, 계산 및 저장소)를 사용하는 고객은 리소스를 Office 365 서비스 인스턴스로 마이그레이션합니다. 이 마이그레이션은 고객의 책임입니다. 메시지 센터 게시물은 시작 신호를 제공합니다. Office 365 서비스 환경에서 Azure AD 조직을 완료하기 전에 마이그레이션을 완료해야 합니다. | Azure 고객 | Azure 마이그레이션의 경우 Azure 마이그레이션 플레이북, Azure Germany 마이그레이션 [지침 개요를 참조하세요.](https://docs.microsoft.com/azure/germany/germany-migration-main) |
 |||||
@@ -50,7 +50,7 @@ ms.locfileid: "49921693"
 
 | 단계 | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
-| 새 독일 지역이 기존 조직 설정에 추가된 후 사서함이 Office 365 서비스로 이동됩니다. | Exchange Online 구성은 전환 조직에 새로운 이동 독일 지역을 추가합니다. 이 Office 365 서비스 지역은 기본으로 설정되어 내부 부하 분산 서비스가 Office 365 서비스의 적절한 기본 지역으로 사서함을 재배포할 수 있도록 합니다. 이 전환에서 한 쪽(독일 또는 Office 365 서비스)의 사용자는 동일한 조직에 있으며 URL 끝점을 사용할 수 있습니다. |  Exchange Online | 사용자 사서함이 마이그레이션되어도 관리자 사서함이 마이그레이션되지 않은 경우 또는 그 반대로도 관리자가 PowerShell cmdlet인 **Set-UserPhoto를** 실행할 수 없습니다. 이 경우 관리자는 다음 구문을 사용하여 연결 설정 중에 추가 문자열을 `ConnectionUri` 전달해야 합니다. <br><br> `https://outlook.office.de/PowerShell-LiveID?email=<user_email>` <br><br> 여기서는 `<user_email>` **Set-UserPhoto를** 사용하여 사진을 변경해야 하는 사용자의 전자 메일 ID 자리를 찍습니다. |
+| 새 독일 지역이 기존 조직 설정에 추가된 후 사서함이 Office 365 서비스로 이동됩니다. | Exchange Online 구성은 전환 조직에 새로운 이동 독일 지역을 추가합니다. 이 Office 365 서비스 지역은 기본으로 설정되어 내부 부하 분산 서비스가 Office 365 서비스의 적절한 기본 지역으로 사서함을 재배포할 수 있도록 합니다. 이 전환에서는 한 쪽(독일 또는 Office 365 서비스)의 사용자가 동일한 조직에 있으며 URL 끝점을 사용할 수 있습니다. |  Exchange Online | 사용자 사서함이 마이그레이션되어도 관리자 사서함이 마이그레이션되지 않은 경우 또는 그 반대로도 관리자가 PowerShell cmdlet인 **Set-UserPhoto를** 실행할 수 없습니다. 이 경우 관리자는 다음 구문을 사용하여 연결 설정 중에 추가 문자열을 `ConnectionUri` 전달해야 합니다. <br><br> `https://outlook.office.de/PowerShell-LiveID?email=<user_email>` <br><br> 여기서는 `<user_email>` **Set-UserPhoto를** 사용하여 사진을 변경해야 하는 사용자의 전자 메일 ID 자리를 찍습니다. |
 |||||
 
 하이브리드 배포를 사용하는 경우, 다음을 통해 다음을 구현할 수 있습니다.
@@ -80,12 +80,6 @@ ms.locfileid: "49921693"
 \*\* (i) Microsoft Power BI를 사용 하는 고객은 제공된 마이그레이션 프로세스에 정의된 이 마이그레이션 시나리오에서 조치를 취해야 합니다. (ii) 고객이 조치를 취하지 못하면 Microsoft가 마이그레이션을 완료할 수 없게 됩니다. (iii) 고객의 비활성으로 인해 Microsoft가 마이그레이션을 완료할 수 없는 경우 고객의 구독은 2021년 10월 29일에 만료됩니다. 
 
 
-### <a name="office-apps-phase-9-of-9"></a>Office 앱(9단계 중 9단계)
-
-| 단계 | 설명 | 적용 대상 | 영향 |
-|:-------|:-----|:-------|:-------|
-| 클라이언트, Office 클라이언트 컷오버 중 Office Online에서 Azure AD는 Office 365 서비스를 지점으로 하는 테넌트 범위를 마무리합니다. | 이 구성 변경을 통해 Office 클라이언트는 Office 365 서비스 끝점을 업데이트하고 이를 지점으로 할 수 있습니다. | 모든 Office 고객 | - _Office_ 클라이언트가 변경 내용을 선택할 수 있도록 모든 Office 앱을 닫은 다음 다시 로그인(또는 클라이언트가 다시 시작하고 사용자가 로그인하도록 강제)하도록 사용자에게 알릴 수 있습니다. <br><br> - 사용자에게 Office 배너가  표시될 수 있으며, 72시간 이내에 Office 앱을 다시 활성화하라는 메시지가 표시될 수 있습니다. <br><br> - 개인 컴퓨터의 모든 Office 응용 프로그램을 닫고 사용자가 로그인한 다음 다시 로그인해야 합니다. 노란색 정품 인증 표시줄에서 Office 365 서비스에 대해 다시 활성화하기 위해 로그인합니다. <br><br> - 공유 컴퓨터는 개인 컴퓨터와 유사한 작업이 필요하며 특별한 절차가 필요하지 않습니다. <br><br> - 모바일 장치에서 사용자는 앱에서 로그인하고 닫은 다음 다시 로그인해야 합니다. |
-|||||
 
 ## <a name="during-migration"></a>마이그레이션 진행 중
 
@@ -123,14 +117,14 @@ eDiscovery의 경우:
 
 | 단계 | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
-| Azure AD Connect를 업데이트합니다. | Azure AD로의 인계가 완료되면 조직은 Office 365 서비스를 완전히 사용하며 더 이상 도이클란드 Microsoft 클라우드에 연결되지 않습니다. 이때 고객은 델타 동기화 프로세스가 완료되어 레지스트리 경로에서 문자열 값을 `AzureInstance` 3(도이클랜드 Microsoft 클라우드)에서 0으로 변경해야 `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Azure AD Connect` 합니다. | 하이브리드 Azure AD 연결 조직 | `AzureInstance`레지스트리 키의 값을 변경합니다. 이렇게 하지 못하면 도이치란드 Microsoft 클라우드 끝점을 더 이상 사용할 수 없는 후에 개체가 동기화되지 않습니다. |
+| Azure AD Connect를 업데이트합니다. | Azure AD로의 인계가 완료되면 조직은 Office 365 서비스를 완전히 사용하며 더 이상 도이클란드 Microsoft 클라우드에 연결되지 않습니다. 이때 고객은 델타 동기화 프로세스가 완료되어 레지스트리 경로에서 문자열 값을 `AzureInstance` 3(도이치랜드 Microsoft 클라우드)에서 0으로 변경해야 `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Azure AD Connect` 합니다. | 하이브리드 Azure AD 연결 조직 | `AzureInstance`레지스트리 키의 값을 변경합니다. 이렇게 하지 못하면 도이치란드 Microsoft 클라우드 끝점을 더 이상 사용할 수 없는 후에 개체가 동기화되지 않습니다. |
 |||||
 
 페더타 인증의 경우:
 
 | 단계 | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
-| 도이치란드 Microsoft 클라우드 AD FS에서 신뢰 파티 트러스트 제거 | Azure AD로의 인계가 완료되면 조직은 Office 365 서비스를 완전히 사용하며 더 이상 도이클란드 Microsoft 클라우드에 연결되지 않습니다. 이때 고객은 도이클란드 Microsoft 클라우드 끝점에 대한 신뢰를 제거해야 합니다. 이는 Azure AD가 IdP(ID 공급자)로 활용될 때 고객 응용 프로그램이 도이클란드 Microsoft 클라우드 끝점을 지날 때만 가능합니다. | 페더타 인증 조직 | 없음 |
+| 도이치란드 Microsoft 클라우드 AD FS에서 신뢰 파티 트러스트 제거 | Azure AD로의 인계가 완료되면 조직은 Office 365 서비스를 완전히 사용하며 더 이상 도이클란드 Microsoft 클라우드에 연결되지 않습니다. 이때 고객은 도이클란드 Microsoft 클라우드 끝점에 대한 신뢰를 제거해야 합니다. 이는 Azure AD가 IdP(ID 공급자)로 활용될 때 고객 응용 프로그램이 도이클란드 Microsoft 클라우드 끝점을 지점으로 하는 응용 프로그램이 없는 경우만 가능합니다. | 페더타 인증 조직 | 없음 |
 |||||
 
 Azure AD의 경우:
@@ -168,7 +162,7 @@ Office 365 서비스 끝점에 대한 타사 서비스의 경우:
 
 | 단계 | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
-| Office 365 서비스에 대해 HCW(하이브리드 구성 마법사)를 다시 실행합니다. | 기존 HCW 구성은 도이클란드 Microsoft 클라우드를 지원하기 위한 것입니다. Exchange 서비스 마이그레이션이 완료되면 도이치란드 Microsoft 클라우드에서 프레미스 구성을 분리합니다. | 하이브리드 배포를 실행하는 Exchange Online 고객 | - 필수 작업입니다. 이렇게 하지 못하면 서비스 또는 소프트웨어 클라이언트가 실패할 수 있습니다. Exchange 사서함 마이그레이션이 시작되기 전에(5일 이상 알림을 보내면) 사서함의 온보드 또는 오프보더 이동을 중지하고 삭제해야 한다고 클라이언트에 알립니다.  그렇지 않은 경우 이동 요청에 오류가 표시됩니다. <br><br> - Exchange 사서함 마이그레이션이 완료되면 온보더링 및 오프보더 이동을 다시 시작할 수 있도록 클라이언트에 알릴 수 있습니다. <br> 도이치란드 Microsoft 클라우드에서 Office 365 서비스로 Exchange를 마이그레이션하는 동안 PowerShell cmdlet인 **Test-MigrationServerAvailabiilty를** 실행하지 않을 수 있습니다. 그러나 마이그레이션이 완료된 후 제대로 작동합니다. <br><br> 사서함이 마이그레이션된 후 클라이언트에서 자격 증명 또는 권한 부여에 문제가 있는 경우 사용자는 마이그레이션 끝점에서 실행하거나 ECP(Exchange 제어판)를 사용하여 동일하게 설정하여 자신의 마이그레이션 끝점에서 자신의온-프레미스 관리자 자격 증명을 다시 입력할 수 `Set-MigrationEndpoint endpointName -Credential $(Get-Credential)` 있습니다.  |
+| Office 365 서비스에 대해 HCW(하이브리드 구성 마법사)를 다시 실행합니다. | 기존 HCW 구성은 도이클란드 Microsoft 클라우드를 지원하기 위한 것입니다. Exchange 서비스 마이그레이션이 완료되면 도이치란드 Microsoft 클라우드에서 프레미스 구성을 분리합니다. | 하이브리드 배포를 실행하는 Exchange Online 고객 | - 필수 작업. 이렇게 하지 못하면 서비스 또는 소프트웨어 클라이언트가 실패할 수 있습니다. Exchange 사서함 마이그레이션이 시작되기 전에(5일 이상 알림을 보내면) 사서함의 온보드 또는 오프보더 이동을 중지하고 삭제해야 한다고 클라이언트에 알립니다.  그렇지 않은 경우 이동 요청에 오류가 표시됩니다. <br><br> - Exchange 사서함 마이그레이션이 완료되면 온보더링 및 오프보더 이동을 다시 시작할 수 있도록 클라이언트에 알릴 수 있습니다. <br> 도이치란드 Microsoft 클라우드에서 Office 365 서비스로 Exchange를 마이그레이션하는 동안 PowerShell cmdlet인 **Test-MigrationServerAvailabiilty를** 실행하면 작동하지 않을 수 있습니다. 그러나 마이그레이션이 완료된 후 제대로 작동합니다. <br><br> 사서함이 마이그레이션된 후 클라이언트에서 자격 증명 또는 권한 부여에 문제가 있는 경우 사용자는 마이그레이션 끝점에서 실행하거나 ECP(Exchange 제어판)를 사용하여 동일하게 설정하여 자신의 마이그레이션 끝점에서 자신의온-프레미스 관리자 자격 증명을 다시 입력할 수 `Set-MigrationEndpoint endpointName -Credential $(Get-Credential)` 있습니다.  |
 
 eDiscovery의 경우:
 

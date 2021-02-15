@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에 대한 리소스를 찾는 방법을 알아봅니다.
-ms.openlocfilehash: 02f3da4e03d13b0710590336e49292ac6df70560
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: 21dc0e29e9322b4c009b0f1e63b7bfbc4b92da9a
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044759"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242703"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex 소개
 
@@ -45,8 +45,8 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 |문서 이해에 대한 자세한 정보|[문서 이해 개요](https://docs.microsoft.com/microsoft-365/contentunderstanding/document-understanding-overview)|
 |양식 처리에 대한 자세한 정보|[양식 처리 개요](https://docs.microsoft.com/microsoft-365/contentunderstanding/form-processing-overview)|
 |두 방법 간의 차이점 이해|[문서 이해와 양식 처리 모델의 차이](https://docs.microsoft.com/microsoft-365/contentunderstanding/difference-between-document-understanding-and-form-processing-model)|
-|Microsoft Tech 커뮤니티 리소스 센터의 리소스 참조|[SharePoint Syntex - Microsoft 365의 콘텐츠 서비스](https://resources.techcommunity.microsoft.com/sharepoint-syntex/)|
-|Microsoft Tech 커뮤니티 리소스 센터의 SharePoint Syntex FAQ |[SharePoint Syntex - FAQ](https://resources.techcommunity.microsoft.com/project-cortex-microsoft-365/faq/)|
+|Microsoft Tech 커뮤니티 리소스 센터의 리소스 참조|[SharePoint Syntex - Microsoft 365의 콘텐츠 서비스](https://techcommunity.microsoft.com/t5/sharepoint-syntex/bg-p/SharePointSyntex)|
+|Microsoft Tech 커뮤니티 리소스 센터의 SharePoint Syntex FAQ |[SharePoint Syntex - FAQ](https://resources.techcommunity.microsoft.com/sharepoint-syntex/faq/)|
 |SharePoint Syntex를 다운로드하는 방법 |[SharePoint Syntex 제품 페이지](https://www.microsoft.com/microsoft-365/enterprise/sharepoint-syntex)|
 
 ## <a name="adoption"></a>채택
@@ -76,6 +76,7 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 |모델에 보존 레이블 적용|[문서 이해 모델에 보존 레이블 적용](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-retention-label-to-a-model)|
 |추출기를 만들 때 관리되는 메타 데이터 서비스 용어 저장소 분류 사용|[추출기를 만들 때 용어 저장소 분류 활용](https://docs.microsoft.com/microsoft-365/contentunderstanding/leverage-term-store-taxonomy)|
 |모델에 대한 데이터를 확인하는 방법 알아보기|[모델 사용량 분석](https://docs.microsoft.com/microsoft-365/contentunderstanding/model-usage-analytics)|
+|모델을 교육할 때 접근성 모드를 사용하는 방법 알아보기|[SharePoint Syntex 접근성 모드](https://docs.microsoft.com/microsoft-365/contentunderstanding/accessibility-mode)|
 
 ## <a name="premium-services"></a>프리미엄 서비스
 
