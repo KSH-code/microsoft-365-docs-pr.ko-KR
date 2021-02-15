@@ -1,5 +1,5 @@
 ---
-title: Contoso Corporation의 최상위 비밀 프로젝트에 대 한 격리 된 팀
+title: Contoso Corporation의 최상위 프로젝트를 위한 격리된 팀
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -15,7 +15,7 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
-description: '요약: Contoso에서 최상위 비밀 프로젝트에 대해 보안 격리를 적용 하 여 팀을 사용 하 여 새로운 제품 및 서비스 제품군을 개발 하는 방법을 설명 합니다.'
+description: '요약: Contoso가 비밀 프로젝트의 보안이 강화된 팀을 사용하여 새 제품 및 서비스 제품군을 개발하는 방법'
 ms.openlocfilehash: b8794502afcb77a8e597a1b05dfc92acd093f23a
 ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
 ms.translationtype: MT
@@ -23,84 +23,84 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/22/2020
 ms.locfileid: "48656072"
 ---
-# <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Contoso Corporation의 최상위 비밀 프로젝트에 대 한 격리 된 팀
+# <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Contoso Corporation의 최상위 프로젝트를 위한 격리된 팀
 
-경영진은이 Contoso의 CEO가 향후 5 년 동안 Contoso의 이익을 두 배로 만들 수 있는 새로운 제품 및 서비스 제품군의 개발을 주문 했습니다. 비즈니스, 엔지니어링 및 시장 계획을 개발 하기 위한 최상위 수준의 보안 프로젝트는 **프로젝트 2** , 회사 전체의 주요 직원 이라는 것이 recruited 되었습니다. 
+임원진의 오프사이트 이후 Contoso의 CEO는 이후 5년 동안 Contoso의 이익을 두 배로 증가할 수 있는 새로운 제품군의 개발을 주문했습니다. 비즈니스, 엔지니어링 및 시장 계획을 개발하는 최상위 프로젝트의 이름이 **Project 2X로** 지정되고 회사의 주요 직원도 채용했습니다. 
 
-연구 및 개발에 대 한 일정은 공동 작업을 효율적으로 수행 하 고 보안 모임, 진행 중인 대화 및 파일 저장을 제공 하기 위한 것입니다.
+연구 및 개발의 일정이 긴밀하게 유지된 것이기 때문에 공동 작업의 효율성을 보장하고 모임, 지속적인 대화 및 파일 저장소를 제공해야 합니다.
 
-프로젝트 2의 결과 결과물은 비즈니스 계획, 제품 및 엔지니어링 사양, 마케팅 자료 및 일정은 Word, Excel 및 PowerPoint 파일 형식입니다. 
+Project 2X의 결과물은 비즈니스 계획, 제품 및 엔지니어링 사양, 마케팅 자료 및 일정(Word, Excel 및 PowerPoint 파일 형식)입니다. 
 
-중요 한 특성으로 인해 다음과 같은 파일에 액세스할 수 있습니다.
+중요한 특성으로 인해 이러한 파일에 대한 액세스는 다음이 있습니다.
 
-- 프로젝트 2, 팀 구성원 및 선임 리더십으로 제한 됩니다.
-- 암호화 및 보호 됨 해당 파일이 보안 폴더 외부에 배포 된 경우에도 프로젝트 2 개 팀 구성원 및 선임 리더십에만 액세스할 수 있도록 허용 합니다.
+- Project 2X 팀 구성원 및 선임 리더로 제한됩니다.
+- 파일이 보안 폴더 외부에 배포된 경우에도 Project 2X 팀 구성원 및 고위 임원만 액세스할 수 있도록 권한이 암호화되고 보호됩니다.
 
-Contoso IT 직원은 프로젝트를 두 배로 격리 하 고 이러한 단계를 수행 하는 [팀](secure-teams-security-isolation.md) 을 사용 했습니다.
+Contoso IT 직원은 Project 2X에 대한 보안이 있는 팀과 이러한 단계를 사용했습니다. [](secure-teams-security-isolation.md)
 
-## <a name="step-1-created-a-private-team"></a>1 단계: 비공개 팀 만들기
+## <a name="step-1-created-a-private-team"></a>1단계: 비공개 팀 생성
 
-먼저, Contoso IT 관리자는 팀의 기본 SharePoint 사이트에 대 한 액세스를 보호 하기 위해 [권장 되는 sharepoint 액세스 정책을](../security/office-365-security/sharepoint-file-access-policies.md)구성 했습니다.
+먼저, 팀의 기본 SharePoint 사이트에 대한 액세스를 보호하기 위해 Contoso IT 관리자가 [권장되는 SharePoint 액세스 정책을 구성했습니다.](../security/office-365-security/sharepoint-file-access-policies.md)
 
-다음으로 Contoso IT 관리자가 Project 라는 새 비공개 팀을 만들고 프로젝트 2 개 직원의 사용자 계정을 구성원으로 추가 했습니다. 또한 프로젝트 2 배의 팀 소유자만 개인 채널을 만들 수 있도록 팀을 구성 했습니다.
+다음으로 Contoso IT 관리자가 Project 2X라는 새 비공개 팀을 만들어 Project 2X 직원의 사용자 계정을 구성원으로 추가했습니다. 또한 Project 2X 팀 소유자만 비공개 채널을 만들 수 있도록 팀을 구성했습니다.
 
-구성에 대 한 자세한 내용은 [비공개 팀 만들기](secure-teams-security-isolation.md#create-a-private-team)를 참조 하십시오.
+구성 세부 정보는 비공개 팀 [만들기를 참조합니다.](secure-teams-security-isolation.md#create-a-private-team)
 
-## <a name="step-2-created-a-sensitivity-label-for-the-project-2x-team"></a>2 단계: 프로젝트 2 팀에 대 한 민감도 레이블 작성
+## <a name="step-2-created-a-sensitivity-label-for-the-project-2x-team"></a>2단계: Project 2X 팀에 대한 민감도 레이블 생성
 
-Contoso 관리자는 다음과 같은 **프로젝트별** 라는 새 민감도 레이블을 만들었습니다.
+Contoso 관리자는 **Project 2X라는** 새 민감도 레이블을 만들었다.
 
-- 암호화를 사용 합니다.
-- Project에서 Microsoft 365 그룹 2 배로 Co-Author 권한을 허용 합니다.
-- 선임 리더십 그룹에 대 한 뷰어 권한이 허용 됩니다.
-- 관리 되지 않는 장치에 대 한 액세스 차단
+- 암호화를 사용하도록 설정했습니다.
+- Project Co-Author 2X Microsoft 365 그룹에 대한 사용 권한이 허용됩니다.
+- 선임 리더십 그룹에 대한 보기 권한 허용
+- 관리되지 않는 장치에 대한 액세스가 차단되었습니다.
 
-원본으로 사용 하는 Project 2의 **문서** 섹션에 있는 파일은 다음과 같은 방법으로 보호 됩니다.
+다음을 **통해** 기본적으로 Project 2X SharePoint 사이트의 문서 섹션에 있는 파일이 보호됩니다.
 
-- Microsoft 365 그룹의 구성원에 대 한 모든 권한 및 선임 리더십 그룹에 대 한 읽기 권한을 허용 하는 사이트 권한
-- 파일을 이동 하거나 복사 하는 경우 파일과 함께 이동 하는 암호화 및 사용 권한을 갖는 프로젝트 2X 민감도 레이블입니다.
+- Project 2X Microsoft 365 그룹의 구성원에게만 모든 권한을 허용하고 선임 리더십 그룹에 대한 읽기 권한만 허용하는 사이트 권한
+- 사이트에서 이동하거나 복사하는 경우 파일과 함께 이동하는 암호화 및 사용 권한이 있는 Project 2X 민감도 레이블입니다.
 
-구성에 대 한 자세한 내용은 [우편물 종류 레이블 만들기](secure-teams-security-isolation.md#create-a-sensitivity-label)를 참조 하십시오.
+구성 세부 정보는 민감도 레이블 [만들기를 참조합니다.](secure-teams-security-isolation.md#create-a-sensitivity-label)
 
-## <a name="step-3-configured-the-underlying-sharepoint-site"></a>3 단계: 기본 SharePoint 사이트 구성
+## <a name="step-3-configured-the-underlying-sharepoint-site"></a>3단계: 기본 SharePoint 사이트 구성
 
-먼저, Contoso IT 관리자는 팀의 기본 SharePoint 사이트에 대 한 액세스를 보호 하기 위해 [권장 되는 sharepoint 액세스 정책을](../security/office-365-security/sharepoint-file-access-policies.md)구성 했습니다.
+먼저, 팀의 기본 SharePoint 사이트에 대한 액세스를 보호하기 위해 Contoso IT 관리자가 [권장되는 SharePoint 액세스 정책을 구성했습니다.](../security/office-365-security/sharepoint-file-access-policies.md)
 
-다음으로, 사이트에 대 한 추가 사용 권한 설정을 구성 합니다.
+그런 다음 사이트에 대한 추가 사용 권한 설정을 구성했습니다.
 
-- Project에서 그룹 구성원이 사이트에 대 한 액세스를 공유 하지 못하도록 방지 합니다. 구성에 대 한 자세한 내용은 [보안이 격리 된 팀에 대 한 SharePoint 설정](secure-teams-security-isolation.md#sharepoint-settings)를 참조 하세요.
-- 선임 리더십 그룹에 대 한 읽기 권한
+- Project 2X 그룹 구성원이 사이트에 대한 액세스를 공유하지 못하게 합니다. 구성 세부 정보는 보안이 강화된 팀에 대한 [SharePoint 설정을 참조하세요.](secure-teams-security-isolation.md#sharepoint-settings)
+- 선임 리더십 그룹의 읽기 권한
 
-다음으로, 프로젝트 그룹 구성원이 사이트에 대 한 액세스를 공유 하는 것을 방지 하기 위해 사이트에 대 한 추가 권한 설정을 구성 했습니다. 
+그런 다음 Project 2X 그룹 구성원이 사이트에 대한 액세스를 공유하지 못하도록 사이트에 대한 추가 사용 권한 설정을 구성했습니다. 
 
-프로젝트의 개인 채널이 2 배로 만들어진 후 그룹 소유자가 게스트 공유를 사용 하지 않도록 설정 하 고, **특정 사용자** 값에 대 한 기본 공유 링크를 설정할 수 있습니다.
+Project 2X에 대한 비공개 채널을 만들 때 그룹 소유자는 게스트 공유를 사용하지 않도록 설정하고 기본 공유 링크를 **특정** 사용자 값으로 설정했습니다.
 
-다음은 보안이 격리 된 프로젝트를 2 배로 구성 하는 결과입니다.
+다음은 보안이 고지된 Project 2X 팀의 구성 결과입니다.
 
-![프로젝트 2 배의 결과 구성](../media/contoso-team-for-top-secret-project.png)
+![Project 2X 팀의 결과 구성](../media/contoso-team-for-top-secret-project.png)
 
- ## <a name="step-4-trained-project-2x-team-members"></a>4 단계: 팀 구성원 2 대 교육 프로젝트
+ ## <a name="step-4-trained-project-2x-team-members"></a>4단계: Project 2X 팀 구성원 교육
 
-Contoso 보안 직원은 다음과 같은 작업을 수행 하는 필수 과정을 통해 프로젝트를 2 배의 팀 구성원에 게 교육 합니다.
+Contoso 보안 직원은 다음을 단계적으로 진행하는 필수 과정으로 Project 2X 팀 구성원을 교육했습니다.
 
-- 새 프로젝트에 액세스 하는 방법 2 배, 모임 및 채팅을 사용 하 고 팀 파일을 공동으로 작업 하는 방법
-- 팀에서 새 파일을 만들고 로컬로 만든 새 파일을 업로드 하는 방법
-- 프로젝트의 민감도 레이블을 사용 하 여 파일에 레이블을 지정 하는 방법
-- 프로젝트가 팀에서 나간 경우에도 파일을 2 차원으로 보호 하는 방법을 보여 주는 예제입니다.
+- 새 Project 2X 팀에 액세스하고, 모임 및 채팅을 사용하는 방법 및 팀 파일에서 공동 작업하는 방법
+- 팀에서 새 파일을 만들고 로컬로 만든 새 파일을 업로드하는 방법
+- Project 2X 민감도 레이블로 파일에 레이블을 지정하는 방법
+- Project 2X 레이블이 팀을 떠나도 파일을 보호하는 방법에 대한 데모입니다.
 
-최종 결과는 프로젝트 2 개 팀 구성원이 대화방, 모임 및 파일을 위해 안전한 환경에서 collaborated 하는 보안 환경 이었습니다.
+결과적으로 Project 2X 팀 구성원이 채팅, 모임 및 파일을 위한 안전한 환경에서 공동 작업을 하는 안전한 환경이 이되었습니다.
 
-다음은 원본으로 사용 하는 프로젝트에 저장 되는 파일의 예로, 프로젝트 2X 민감도 레이블이 지정 된 사이트를 포함 하는 예제입니다.
+다음은 Project 2X 민감도 레이블이 할당된 프로젝트 2X 사이트에 저장된 파일의 예입니다.
 
-![원본으로 사용 하는 프로젝트 2 개 사이트에 저장 된 파일의 예](../media/contoso-team-for-top-secret-project-example.png)
+![밑에 있는 Project 2X 사이트에 저장된 파일의 예](../media/contoso-team-for-top-secret-project-example.png)
 
-두 개의 인스턴스에서 프로젝트 2 개 프로젝트의 보호 된 파일을 오프 라인 작업을 위해 로컬 드라이브로 다운로드 했습니다. 
+몇 가지 경우에 Project 2X 팀 구성원은 오프라인 작업을 위해 Project 2X 레이블로 보호된 파일을 로컬 드라이브에 다운로드했습니다. 
 
-그러나 자격 증명을 열 때 확인 메시지가 표시 되 면 사용자가 실수로 메시지를 인식 하 고 삭제 합니다.
+그러나 자격 증명을 열 때 자격 증명을 입력하라는 메시지가 표시되면 실수를 실현하고 삭제했습니다.
 
-팀의 공동 작업 환경 및 Microsoft 365의 보안 기능 때문에 프로젝트의 세부 정보는 프로젝트 기간 동안 기밀로 유지 되었습니다. Contoso는 해당 계획을 발표 했으며, 고객 및 투자자의 안전 게 및 경쟁사의 chagrin에 새 제품 및 서비스를 배포 하는 프로세스를 진행 하 고 있습니다.
+Teams의 공동 작업 환경과 Microsoft 365의 보안 기능 때문에 Project 2X의 세부 정보는 프로젝트 기간 동안 비밀로 유지되었습니다. Contoso는 계획을 발표하고 고객 및 투자가의 즐거움과 경쟁 업체를 위해 새로운 제품 및 서비스를 출시하는 중입니다.
 
 ## <a name="next-step"></a>다음 단계
 
-조직에서 [보안 격리를 사용 하 여 팀을 배포](secure-teams-security-isolation.md) 합니다.
+[조직에 보안이 고지된](secure-teams-security-isolation.md) 팀을 배포합니다.
 

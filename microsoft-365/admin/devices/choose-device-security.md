@@ -1,5 +1,5 @@
 ---
-title: 서로 다른 장치 및 앱 데이터 보호 방법 비교
+title: 다양한 장치 및 앱 데이터 보호 방법 비교
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -17,7 +17,7 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: 여러 MDM 및 MAM 방법 중에서 선택 합니다.
+description: 다른 MDM 및 MAM 메서드 중 선택
 ms.openlocfilehash: 2866aa8cf172361b2b5f5055932717154cd6ddd1
 ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
 ms.translationtype: MT
@@ -25,34 +25,34 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 11/06/2020
 ms.locfileid: "48941300"
 ---
-# <a name="options-for-protecting-your-devices-and-app-data"></a>장치 및 앱 데이터를 보호 하기 위한 옵션
+# <a name="options-for-protecting-your-devices-and-app-data"></a>장치 및 앱 데이터를 보호하기 위한 옵션
 
-비즈니스 및 기업을 위해 Microsoft 365을 사용 하 여 조직 장치 및 데이터를 보호 하는 몇 가지 방법이 있습니다. 다음 독립 실행형 계획을 사용할 수 있습니다.
+비즈니스 및 엔터프라이즈용 Microsoft 365를 사용하여 조직의 장치와 데이터를 보호하는 여러 가지 방법이 있습니다. 다음과 같은 독립 실행형 계획을 사용할 수 있습니다.
 
-- Intune (Microsoft Endpoint Management의 일부)
-- Azure Active Directory Premium 요금제입니다.
-- 기본 이동성 및 보안 (비즈니스 및 엔터프라이즈 요금제에 대 한 대부분의 Microsoft 365에 포함 됨) 또는 이전 독립 실행형 계획이 일부 또는 모두 포함 된 구독을 사용 합니다.
+- Intune(Microsoft Endpoint Management의 일부)
+- Azure Active Directory Premium 요금제.
+- 기본 이동성 및 보안(대부분의 비즈니스용 Microsoft 365 및 엔터프라이즈 요금제에 포함) 또는 이전 독립 실행형 계획의 일부 또는 전체를 포함 하는 구독을 사용 합니다.
 
-- Microsoft 365 Business Premium subscription-300 사용자의 중소 기업에 대 한 보안 및 위협 보호를 포함 합니다.
-- Microsoft 365 advanced security 및 threat protection이 포함 된 Enterprise 요금제입니다.
+- 300명 미만의 소규모 기업을 위한 보안 및 위협 보호를 포함하는 Microsoft 365 Business Premium 구독입니다.
+- 고급 보안 및 위협 방지가 포함된 Microsoft 365 Enterprise 요금제.
 
 ## <a name="device-management-options"></a>장치 관리 옵션
 
-- **기본 이동성 및 보안** 은 대부분의 microsoft 365 요금제와 함께 제공 되며 Microsoft 365 business Standard 및 Microsoft 365 business Basic에 제공 되는 유일한 기본 제공 옵션입니다. 자세한 내용은 [기본 이동성 및 보안의 가용성](../basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md#availability-of-basic-mobility-and-security-and-intune)을 참조 하세요. 
+- **기본 이동성 및 보안은** 대부분의 Microsoft 365 요금제에서 제공하며 Microsoft 365 Business Standard 및 Microsoft 365 Business Basic에 대해 제공되는 유일한 기본 제공 선택입니다. 자세한 내용은 기본 [이동성 및 보안의 가용성을 참조하세요.](../basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md#availability-of-basic-mobility-and-security-and-intune) 
 
-    Microsoft 365 Business Basic 또는 Microsoft 365 Business Standard를 보유 하 고 있는 경우 조직의 보안 요구 사항이 더 복잡 한 경우 Intune을 구입할 수도 있습니다.
+    Microsoft 365 Business Basic 또는 Microsoft 365 Business Standard가 있는 경우 조직에 더 복잡한 보안 요구가 있는 경우 Intune을 구입할 수도 있습니다.
  
-- **Microsoft Intune** 은 비즈니스 또는 기업 요금제에 대 한 일부 microsoft 365에도 포함 되어 있는 독립 실행형 계획입니다. 독립 실행형 또는 구독 일부로 Intune을 사용 하는 경우에는 장치 및 응용 프로그램 데이터 관리를 미세 조정할 수 있는 기능을 제공 합니다. Microsoft 365의 가용성에 대 한 자세한 내용은 [Intune 가용성](../basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md#availability-of-basic-mobility-and-security-and-intune)를 참조 하세요.
+- **Microsoft Intune은** 일부 비즈니스용 Microsoft 365 또는 엔터프라이즈 요금제에도 포함된 독립 실행형 계획입니다. Intune이 독립 실행형 또는 구독의 일부로 있는 경우 장치 및 앱 데이터 관리를 미세 조정할 수 있습니다. Microsoft 365의 가용성에 대한 자세한 내용은 [Intune의 가용성을 참조하세요.](../basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md#availability-of-basic-mobility-and-security-and-intune)
 
-    Microsoft Intune은 MDM (모바일 장치 관리) 및 MAM (모바일 응용 프로그램 관리)에 중점을 둔 클라우드 기반 서비스입니다. 휴대폰, 태블릿 및 랩톱을 포함 하 여 조직의 장치를 사용 하는 방법을 제어 합니다. 응용 프로그램을 제어 하도록 특정 정책을 구성할 수도 있습니다. 자세한 내용은 [Microsoft Intune 설명서](https://docs.microsoft.com/mem/intune/)를 참조 하세요.
+    Microsoft Intune은 MDM(모바일 장치 관리) 및 MAM(모바일 응용 프로그램 관리)에 중점을 두는 클라우드 기반 서비스입니다. 휴대폰, 태블릿 및 노트북을 포함하여 조직의 장치를 사용하는 방법을 제어할 수 있습니다. 응용 프로그램을 제어하도록 특정 정책을 구성할 수도 있습니다. 자세한 내용은 [Microsoft Intune 설명서를 참조하세요.](https://docs.microsoft.com/mem/intune/)
 
-- **AZURE AD (Active Directory) 프리미엄** 계획은 비즈니스 및 엔터프라이즈 요금제 용 Microsoft 365도 함께 제공 되는 독립 실행형 계획입니다. 자세한 내용은 [AZURE AD 가격 책정](https://azure.microsoft.com/pricing/details/active-directory/)를 참조 하세요.
+- **Azure AD(Active Directory) Premium** 요금제는 일부 비즈니스용 Microsoft 365 및 엔터프라이즈 요금제와 함께 제공된 독립 실행형 요금제입니다. 자세한 내용은 Azure AD 가격 [책정을 참조하세요.](https://azure.microsoft.com/pricing/details/active-directory/)
 
-     Azure AD premium P1 및 Azure AD Premium P2를 사용 하면 조건부 액세스 기능, 셀프 서비스 암호 재설정 등을 설정할 수 있습니다. 프리미엄 계획의 기능에 대 한 자세한 내용은 [AZURE AD 가격](https://azure.microsoft.com/pricing/details/active-directory/) 페이지를 참조 하세요.
-- **Microsoft 365 Business Premium** 에는 Intune 및 Azure Active Directory premium P1 및 Office 365 Advanced Threat Protection이 포함 되어 있습니다. 
+     Azure AD Premium P1 및 Azure AD Premium P2를 사용하면 조건부 액세스 기능, 셀프 서비스 암호 재설정 등을 설정할 수 있습니다. Premium 요금제의 기능에 대한 자세한 내용은 Azure AD 가격 페이지를 [참조하세요.](https://azure.microsoft.com/pricing/details/active-directory/)
+- **Microsoft 365 Business Premium에는** Intune 및 Azure Active Directory Premium P1 및 Office 365 Advanced Threat Protection이 포함되어 있습니다. 
  
-    Microsoft 365 Business Premium에서는 장치 및 앱 데이터를 보호 하기 위한 정책 템플릿 집합을 제공 합니다. 이를 통해 300 사용자에 게 있어 대부분의 비즈니스에 대 한 보안 및 위협 보호 수준이 향상 됩니다. 자세한 내용은 [설치 마법사에서 microsoft 365 Business premium 설정](../../business/set-up.md), [Windows 10 컴퓨터 보안](../../business/secure-win-10-pcs.md)및 [microsoft 365 business premium 보안 및 규정 준수 기능](../../business/security-features.md)을 참조 하세요.
+    Microsoft 365 Business Premium은 장치 및 앱 데이터를 보호하기 위한 정책 템플릿 집합을 제공합니다. 300명 미만의 대부분의 기업에 대해 수준 높은 보안 및 위협 보호를 제공합니다. 자세한 내용은 설치 마법사, [보안 Windows 10](../../business/secure-win-10-pcs.md)컴퓨터 및 [Microsoft 365 Business Premium](../../business/set-up.md)보안 및 규정 준수 기능에서 Microsoft [365 Business Premium](../../business/security-features.md)설정을 참조하세요.
 
-- **Enterprise 구독에 대 한 microsoft 365에** 는 microsoft Intune 및 E5에도 Azure AD premium 요금제 1 및 2가 포함 됩니다.
+- **엔터프라이즈용 Microsoft 365** 구독에는 Microsoft Intune이 포함되어 있으며 E5에는 Azure AD Premium 요금제 1과 2도 포함되어 있습니다.
 
-    Microsoft 365 E5는 모든 Microsoft 365 구독에 대 한 보안 및 위협 보호를 최고 수준으로 제공 합니다. 자세한 내용은 [Microsoft 365 for 엔터프라이즈 개요](../../enterprise/microsoft-365-overview.md)를 참조 하세요.
+    Microsoft 365 E5는 모든 Microsoft 365 구독의 최고 수준의 보안 및 위협 보호를 제공합니다. 자세한 내용은 [엔터프라이즈용 Microsoft 365 개요를 참조하세요.](../../enterprise/microsoft-365-overview.md)

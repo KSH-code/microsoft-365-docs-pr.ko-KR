@@ -23,7 +23,7 @@ ms.locfileid: "48754254"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Contoso의 Windows 10 Enterprise 배포
 
-기업에 대 한 Microsoft 365을 광범위 하 게 출시 하기 전에 Contoso는 windows와 호환 되는 Pc 및 장치 (10%, Windows 8.1 (65%) 및 Windows 10 (25%)를 함께 사용 하 고 있습니다. Contoso는 Windows 10 Enterprise 용 Pc를 업그레이드 하기 위해 고급 보안을 활용 하 고 자동화 된 업데이트 배포에서 IT 오버 헤드를 절감 하려고 했습니다. 
+엔터프라이즈용 Microsoft 365를 광범위하게 출시하기 전에 Contoso는 Windows 7(10%), Windows 8.1(65%) 및 Windows 10(25%)이 혼합된 Windows 호환 PC 및 장치를 실행했습니다. Contoso는 Windows 10 Enterprise용 PC를 업그레이드하여 고급 보안을 활용하고 자동화된 업데이트 배포에서 IT 오버헤드를 낮추고자 했습니다. 
 
 Contoso는 해당 인프라 및 비즈니스 요구를 파악한 후 다음과 같은 핵심 배포 요구 사항을 확인했습니다.
 
@@ -54,7 +54,7 @@ Contoso는 기존의 Configuration Manager(현재 분기) 인프라가 있습니
 
 ## <a name="planning-process"></a>계획 프로세스
 
-Contoso는 Windows Analytics의 업그레이드 준비 상태를 사용 하 여 설치 된 앱 집합 및 Windows 10 Enterprise와의 호환성을 확인 했습니다.
+Contoso는 Windows Analytics의 업그레이드 준비를 사용하여 설치된 앱 집합과 Windows 10 Enterprise와의 호환성을 확인합니다.
 
 ## <a name="deployment-process"></a>배포 프로세스
 
@@ -62,11 +62,11 @@ Windows 10 Enterprise의 현재 위치 업그레이드 배포를 완료하기 �
 
 1. Configuration Manager에 대한 피어 캐시를 사용하도록 설정했습니다.
 2. 볼륨 라이선스 서비스 센터의 이미지를 기준으로 사용자 지정된 Windows 패키지를 생성했습니다.
-3. 구성 관리자를 사용 하 여 네트워크의 배포 지점에 Windows 패키지를 배포 하 고 3 개의 유효성 검사 및 배포 준비 그룹에 빌드를 배포 했습니다.
+3. Configuration Manager를 사용하여 네트워크의 배포 지점에 Windows 패키지를 배포하고 세 가지 유효성 검사 및 배포 준비 그룹에 빌드를 배포했습니다.
 4. Windows Analytics의 장치 상태 및 업데이트 준수 솔루션을 사용하여 3개의 유효성 검사 및 배포 준비 링의 PC 및 장치에 대한 배포 성공 여부를 평가했습니다.
-5. Windows Analytics 정보를 기반으로, Contoso는 광범위 한 배포 그룹에 배포할 Windows 10 Enterprise의 버전을 확인 했습니다.
-6. Configuration Manager 배포 작업 순서를 실행 하 여 광범위 한 배포 그룹에 선택한 Windows 패키지를 배포 합니다.
-7. 문제 해결을 위해 장치 상태 및 업데이트 준수 솔루션을 사용 하 여 광범위 한 배포 그룹의 Pc 및 장치를 모니터링 했습니다.
+5. Windows Analytics 정보에 따라 Contoso는 광범위한 배포 그룹에 배포할 Windows 10 Enterprise 버전을 결정했습니다.
+6. Configuration Manager 배포 작업 순서를 실행하여 선택된 Windows 패키지를 광범위한 배포 그룹에 배포했습니다.
+7. 장치 상태 및 업데이트 준수 솔루션을 사용하여 광범위한 배포 그룹의 PC 및 장치를 모니터링하여 문제를 해결합니다.
 
 Contoso의 현재 위치 업그레이드 및 지속적인 업데이트 배포 아키텍처는 다음과 같습니다.
 
@@ -78,11 +78,11 @@ Contoso의 현재 위치 업그레이드 및 지속적인 업데이트 배포 �
   - Microsoft Network의 Microsoft 볼륨 라이선스 센터에서 Windows 10 Enterprise 패키지에 대한 이미지를 가져옵니다.
   - 배포 패키지에 대한 중앙 관리 지점
 - 일반적으로 Contoso의 지역 허브 사무실에 있는 지역별 배포 지점
-- 그룹 구성원을 기반으로 하는 전체 업그레이드 또는 지속적인 업데이트용 배포 패키지를 수신 하 고 설치 하는 다양 한 위치의 Windows Pc 및 장치입니다.
+- 그룹 구성원 자격에 따라 현재 위치 업그레이드 또는 지속적인 업데이트에 대한 배포 패키지를 받아 설치하는 다양한 위치의 Windows PC 및 장치
 
 ## <a name="next-step"></a>다음 단계
 
-Contoso가 해당 Configuration Manager 인프라를 활용 하 여 조직 전체 [에 최신 Microsoft 365 앱을 배포 하 고 유지](contoso-o365pp.md) 하는 방법을 알아봅니다. 
+Contoso가 Configuration Manager 인프라를 활용하여 조직 전체에 최신 [엔터프라이즈용 Microsoft 365](contoso-o365pp.md) 앱을 배포하고 유지하는 방법을 알아보습니다. 
 
 ## <a name="see-also"></a>참고 항목
 

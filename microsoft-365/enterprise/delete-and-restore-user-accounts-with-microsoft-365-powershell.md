@@ -1,5 +1,5 @@
 ---
-title: PowerShell을 사용 하 여 Microsoft 365 사용자 계정 삭제
+title: PowerShell을 통해 Microsoft 365 사용자 계정 삭제
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,7 +19,7 @@ ms.custom:
 - O365ITProTrain
 - seo-marvel-apr2020
 ms.assetid: 209c9868-448c-49bc-baae-11e28b923a39
-description: PowerShell에서 서로 다른 모듈을 사용 하 여 Microsoft 365 사용자 계정을 삭제 하는 방법을 알아봅니다.
+description: PowerShell에서 다른 모듈을 사용하여 Microsoft 365 사용자 계정을 삭제하는 방법을 자세히 알아보는 방법을 배워야 합니다.
 ms.openlocfilehash: 39bf57fe7e7aad1bdc9915e503107ad799515030
 ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
@@ -27,34 +27,34 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/24/2020
 ms.locfileid: "48754543"
 ---
-# <a name="delete-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 사용 하 여 Microsoft 365 사용자 계정 삭제
+# <a name="delete-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 통해 Microsoft 365 사용자 계정 삭제
 
-Microsoft 365 용 PowerShell을 사용 하 여 사용자 계정을 삭제 하 고 복원할 수 있습니다.
+Microsoft 365용 PowerShell을 사용하여 사용자 계정을 삭제하고 복원할 수 있습니다.
 
 >[!Note]
->Microsoft 365 관리 센터를 사용 하 여 [사용자 계정을 복원](https://docs.microsoft.com/microsoft-365/admin/add-users/restore-user) 하는 방법에 대해 알아봅니다.
+>Microsoft 365 관리 센터를 사용하여 사용자 계정을 복원하는 방법을 학습합니다. [](https://docs.microsoft.com/microsoft-365/admin/add-users/restore-user)
 >
->추가 리소스 목록은 [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/)을 참조 하십시오.
+>추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/add-users/)
 >   
    
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 
-먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.
+먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
-연결한 후 다음 구문을 사용 하 여 개별 사용자 계정을 제거 합니다.
+연결한 후 다음 구문을 사용하여 개별 사용자 계정을 제거합니다.
   
 ```powershell
 Remove-AzureADUser -ObjectID <sign-in name>
 ```
 
-이 예에서는 사용자 계정 *fabricec \@ litwareinc.com*을 제거 합니다.
+이 예에서는 사용자 계정 *fabricec 응용 \@* litwareinc.com.
   
 ```powershell
 Remove-AzureADUser -ObjectID fabricec@litwareinc.com
 ```
 
 > [!NOTE]
-> **AzureADUser** cmdlet의 *-ObjectID* 매개 변수는 사용자 보안 주체 이름 또는 계정의 개체 ID 라고도 하는 계정의 로그인 이름을 허용 합니다.
+> **Remove-AzureADUser** cmdlet의 *-ObjectID* 매개 변수는 계정의 로그인 이름(사용자 계정 이름 또는 계정의 개체 ID)을 수락합니다.
   
 사용자 이름을 기준으로 계정 이름을 표시하려면 다음 명령을 사용합니다.
   
@@ -63,7 +63,7 @@ $userName="<User name>"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
-다음은 사용자 *Caleb 창턱*에 대 한 계정 이름을 표시 하는 예제입니다.
+이 예에서는 사용자 *Caleb Sills의 계정 이름을 표시합니다.*
   
 ```powershell
 $userName="Caleb Sills"
@@ -79,9 +79,9 @@ Remove-AzureADUser -ObjectID (Get-AzureADUser | where {$_.DisplayName -eq $userN
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기
 
-Windows PowerShell 용 Microsoft Azure Active Directory 모듈을 통해 사용자 계정을 삭제 하면 해당 계정이 영구적으로 삭제 되지 않습니다. 30 일 이내에 삭제 한 사용자 계정은 복원할 수 있습니다.
+Microsoft Azure Active Directory 모듈을 통해 사용자 계정을 삭제하는 Windows PowerShell 계정은 영구적으로 삭제되지 않습니다. 30 일 이내에 삭제 한 사용자 계정은 복원할 수 있습니다.
 
-먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)합니다.
+먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 사용자 계정을 삭제 하려면 다음 구문을 사용 합니다.
   
@@ -90,10 +90,10 @@ Remove-MsolUser -UserPrincipalName <sign-in name>
 ```
 
 >[!Note]
->PowerShell Core에서는 이름에 *Msol* 이 포함 된 Windows powershell 모듈 및 cmdlet에 대 한 Microsoft Azure Active Directory 모듈을 지원 하지 않습니다. Windows PowerShell에서 다음 cmdlet을 실행 합니다.
+>PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 *Msol* 이 있는 cmdlet을 지원하지 않습니다. Windows PowerShell에서 이러한 cmdlet을 실행합니다.
 >
 
-이 예에서는 사용자 계정 *BelindaN@litwareinc.com*를 삭제 합니다.
+이 예에서는 의 사용자 계정을 *BelindaN@litwareinc.com.*
   
 ```powershell
 Remove-MsolUser -UserPrincipalName belindan@litwareinc.com
@@ -105,7 +105,7 @@ Remove-MsolUser -UserPrincipalName belindan@litwareinc.com
 Restore-MsolUser -UserPrincipalName <sign-in name>
 ```
 
-이 예에서는 삭제 된 계정 *BelindaN \@ litwareinc.com*를 복원 합니다.
+이 예에서는 삭제된 *계정 BelindaN을 \@* litwareinc.com.
   
 ```powershell
 Restore-MsolUser -UserPrincipalName BelindaN@litwareinc.com

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Managed Desktop에 대 한 지원
+title: Microsoft Managed Desktop 지원
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -14,39 +14,39 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 11/03/2020
 ms.locfileid: "48846195"
 ---
-# <a name="support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 지원
+# <a name="support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop 지원
 
-Microsoft는 사전 및 사후 대응 인시던트 관리를 제공 합니다. Microsoft 관리 되는 데스크톱 관리 포털의 인시던트를 추적 합니다. [심각도 정의](../working-with-managed-desktop/admin-support.md#sev)에 따라 분류 됩니다.
+Microsoft는 사전 대응 및 사후 인시던트 관리를 제공합니다. Microsoft는 Microsoft Managed Desktop 관리 포털에서 인시던트 추적 심각도 정의에 [따라 분류됩니다.](../working-with-managed-desktop/admin-support.md#sev)
 
 고객은 다음에 대해 Microsoft Managed Desktop 작업에 문의할 수 있습니다.
-- Microsoft Managed Desktop 테 넌 트 또는 구성에 대 한 정보 요청
-- Microsoft Managed Desktop 장치 구성에 대 한 변경 요청
-- 인시던트 또는 중단 보고
+- Microsoft Managed Desktop 테넌트 또는 구성에 대한 정보 요청
+- Microsoft Managed Desktop 장치 구성에 대한 요청 변경
+- 인시던트 또는 정전 보고
 
-## <a name="whats-included"></a>포함 된 기능
+## <a name="whats-included"></a>어떤 것이 포함되어 있나요?
 
-Microsoft 관리형 데스크톱 지원에는 다음이 포함 됩니다.
+Microsoft Managed Desktop 지원에는 다음이 포함됩니다.
 
-- Microsoft Managed Desktop 장치 전용 엔지니어 팀
+- Microsoft Managed Desktop 장치 전담 엔지니어 팀
 - Microsoft Managed Desktop 장치를 사용 하는 사용자를 위한 지원 옵션
-- Microsoft managed Desktop devices에 대 한 제한 된 관리 액세스 권한을 부여 합니다. 
+- Microsoft Managed Desktop 장치를 관리하는 엔지니어에게 Microsoft Managed Desktop 장치에 대한 제한된 관리 액세스 권한 부여 
 
-지원 되는 제품:
+지원되는 제품:
 
-- 끝점에 대 한 Microsoft Defender가 포함 된 Windows 10
-- 엔터프라이즈 앱에 대 한 Microsoft 365 앱: Outlook, Word, PowerPoint, Excel, 비즈니스용 Skype 클라이언트, Microsoft 팀 
+- 끝점용 Microsoft Defender가 있는 Windows 10
+- 엔터프라이즈용 Microsoft 365 앱: Outlook, Word, PowerPoint, Excel, 비즈니스용 Skype 클라이언트, Microsoft Teams 
 - 비즈니스용 Microsoft Store 
 - 비즈니스용 OneDrive 클라이언트 
 
 지원 세부 정보:
 
-- 현재: 미국, 캐나다 (퀘벡 제외), 영국, 벨기에, 룩셈부르크, 네덜란드, 오스트레일리아 및 뉴질랜드 (연중 무휴) 
-- 고객과 채팅 대화에 대해 지원 되는 언어는 영어입니다. 
-- Microsoft는 회사 지원 센터를 교체 하지 않고 파트너에 게 제공 합니다. LOB (기간 업무) 앱, 네트워크 리소스 등은 여전히 지원 센터에서 처리 됩니다. 
-- "Test" 그룹의 microsoft 관리 되는 데스크톱 장치와 Microsoft Managed Desktop의 일부가 아닌 장치는 범위를 벗어납니다. 
+- 현재: 미국, 캐나다(Quebec 제외), 영국, 벨기에, 룩셈부르크, 네덜란드, 오스트레일리아 및 뉴질랜드(24x7x365) 
+- 영어는 고객과의 전화 및 채팅 대화에 지원되는 유일한 언어입니다. 
+- We are partnering with, not replacing, your corporate helpdesk; LOB(LOB) 앱, 네트워크 리소스 등은 여전히 지원 데스크에서 처리합니다. 
+- "테스트" 그룹의 Microsoft Managed Desktop 장치 및 Microsoft Managed Desktop의 일부가 아닌 장치는 범위를 벗어날 수 있습니다. 
 
 
 ## <a name="related-topics"></a>관련 항목
 
-- [IT 관리자가 지원을 받을 수 있는 방법 알아보기](../working-with-managed-desktop/admin-support.md)
-- [사용자가 지원을 받을 수 있는 방법 알아보기](../working-with-managed-desktop/end-user-support.md)
+- [IT 관리자가 지원을 받을 수 있는 방법에 대해 자세히 알아보기](../working-with-managed-desktop/admin-support.md)
+- [사용자가 지원을 받을 수 있는 방법에 대해 자세히 알아보기](../working-with-managed-desktop/end-user-support.md)
