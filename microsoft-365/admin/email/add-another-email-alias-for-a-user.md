@@ -21,7 +21,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
-description: '비즈니스용 Microsoft 365 계정과 연결된 전자 메일 별칭이라고 하는 전자 메일 주소를 두 개 이상 사용할 수 있는 방법을 알아보고, '
+description: '비즈니스용 Microsoft 365 계정과 연결된 전자 메일 별칭이라는 전자 메일 주소를 두 개 이상 사용할 수 있는 방법에 대해 자세히 알아보습니다. '
 ms.openlocfilehash: 3c97640f4bb16876ec028a1af2b361a21a0decab
 ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
@@ -42,7 +42,7 @@ ms.locfileid: "50126408"
   
 Microsoft 365의 기본 전자 메일 주소는 일반적으로 사용자가 계정을 만들 때 할당된 전자 메일 주소입니다. 사용자가 다른 사람에게 전자 메일을 보내면 전자 메일 앱의  *보낸 사람*  필드에 일반적으로 사용자의 기본 전자 메일 주소가 표시됩니다. 또한 비즈니스용 Microsoft 365 계정과 연결된 전자 메일 주소를 둘 이상 사용할 수도 있습니다. 이러한 추가 주소를 별칭이라고 합니다. 
   
-예를 들어 Jenna에게 전자 메일 주소가 jenna@contosoco.com 일부 사람들이 해당 이름으로 jen@contosoco.com 전자 메일을 받기를 원합니다. 두 전자 메일 주소가 모두 Jenna의 받은 편지함으로 이동하게 하여 별칭을 만들 수 있습니다.
+예를 들어 Jenna에게 전자 메일 주소가 jenna@contosoco.com 있지만 일부 사람들이 해당 이름으로 jen@contosoco.com 전자 메일을 받으려 했기 때문에 전자 메일을 받기를 원합니다. 두 전자 메일 주소가 모두 Jenna의 받은 편지함으로 이동하게 하여 별칭을 만들 수 있습니다.
 <br><br>  
   
 사용자는 최대 400의 별칭을 만들 수 있습니다. 추가 요금이나 라이선스는 필요하지 않습니다.

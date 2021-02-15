@@ -26,7 +26,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 02/03/2021
 ms.locfileid: "50097189"
 ---
-# <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Teams 채팅, 그룹 및 파일 보호를 위한 정책 권장 사항
+# <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Teams 채팅, 그룹 및 파일 보안에 대한 정책 권장 사항
 
 이 문서에서는 권장 ID 및 장치 액세스 정책을 구현하여 Microsoft Teams 채팅, 그룹 및 콘텐츠(예: 파일 및 일정)를 보호하는 방법을 설명합니다. 이 지침은 일반적인 [ID](identity-access-policies.md)및 장치 액세스 정책을 구축하며 Teams 관련 추가 정보를 제공합니다. Teams는 다른 제품과 통합됩니다. [또한 SharePoint](sharepoint-file-access-policies.md) 사이트 및 파일 보안에 대한 정책 권장 사항과 전자 메일 보안에 대한 정책 권장 사항을 [참조하세요.](secure-email-recommended-policies.md)
 
@@ -67,7 +67,7 @@ Teams에서 채팅, 그룹 및 콘텐츠를 보호하기 위해 다음 다이어
 |---|---|---|
 |**기준**|[로그인 위험이 중간 또는 높음인 경우 MFA *필요*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Teams 및 종속 서비스가 앱 목록에 포함해야 합니다. Teams에는 게스트 액세스 및 외부 액세스 규칙도 고려할 수 있으며, 이 문서의 부분에서 이러한 규칙에 대해 자세히 알아보게 됩니다.|
 ||[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-multi-factor)|클라우드 앱 할당에 Teams 및 종속 서비스를 포함합니다.|
-||[위험이 높은 사용자는 암호를 변경해야 함](identity-access-policies.md#high-risk-users-must-change-password)|계정에 대해 위험 위험이 높은 활동이 감지된 경우 Teams 사용자가 로그인할 때 암호를 강제로 변경합니다. Teams 및 종속 서비스가 앱 목록에 포함해야 합니다.|
+||[위험이 높은 사용자는 암호를 변경해야 함](identity-access-policies.md#high-risk-users-must-change-password)|계정에 대해 높은 위험 활동이 감지된 경우 Teams 사용자가 로그인할 때 암호를 강제로 변경합니다. Teams 및 종속 서비스가 앱 목록에 포함해야 합니다.|
 ||[APP 데이터 보호 정책 적용](identity-access-policies.md#apply-app-data-protection-policies)|Teams 및 종속 서비스가 앱 목록에 포함해야 합니다. 각 플랫폼(iOS, Android, Windows)에 대한 정책을 업데이트합니다.|
 ||[장치 준수 정책 정의](identity-access-policies.md#define-device-compliance-policies)|이 정책에 Teams 및 종속 서비스를 포함합니다.|
 ||[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|이 정책에 Teams 및 종속 서비스를 포함합니다.|
@@ -119,7 +119,7 @@ Azure AD B2B 계정이 있는 게스트 및 외부 사용자에 대한 액세스
 
 ## <a name="teams-policies"></a>Teams 정책
 
-위에 나열된 일반적인 정책 외에는 다양한 Teams 기능을 관리하도록 구성할 수 있는 Teams 관련 정책이 있습니다.
+위에 나열된 일반적인 정책 외에는 다양한 Teams 기능을 관리하도록 구성할 수 있는 Teams별 정책이 있습니다.
 
 ### <a name="teams-and-channels-policies"></a>Teams 및 채널 정책
 

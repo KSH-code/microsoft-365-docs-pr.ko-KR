@@ -21,7 +21,7 @@ ms.custom:
 search.appverid:
 - MET150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
-description: 구독이 만료되거나, 사용하지 않도록 설정되거나, 취소될 때 구독을 다시 활성화하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+description: 구독이 만료되거나, 사용하지 않도록 설정되거나, 취소될 때 구독을 다시 활성화하는 방법에 대해 자세히 알아보고, 구독을 다시 활성화합니다.
 ms.openlocfilehash: 01dee5e8a4c5a9ef7d30c21f66186086900b6cc1
 ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
@@ -64,13 +64,13 @@ ms.locfileid: "50114624"
 
 2. 다시 활성화할 구독을 찾은 다음 다시 **활성화를 선택합니다.**
 
-    ![다시 활성화 단추를 사용하여 비활성화 및 기능 축소를 표시하는 구독 카드의 클로즈업입니다.](../../media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
+    ![다시 활성화 단추를 사용하여 비활성화 및 축소된 기능을 표시하는 구독 카드의 클로즈업입니다.](../../media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
   
     사용 가능한 작업으로 **다시** 활성화가 확인되지 않는 경우 [지원에](../../admin/contact-support-for-business-products.md) 문의하여 구독을 다시 활성화하세요.
 
 3. 결제 정보를 입력합니다. 여기에서 기존 결제 정보를 업데이트할 수 있습니다.
 
-   구독이 만료된 경우 결제 세부 정보를 제출하면 구독이 활성 상태로 돌아오고  다음 청구 날짜는 현재 구독 약정에 따라 한 달 또는 1년까지 연장됩니다. 신용 카드 또는 은행 계좌로 결제하는 경우 신용 카드 또는 은행 계좌에 내선 요금이 청구됩니다. If you pay by invoice, you'll see the extension reflected on your next invoice. 구독이 다시 만료되지 않는지 확인하려면 재발생 청구를 [켜야 합니다.](renew-your-subscription.md#turn-recurring-billing-off-or-on)
+   구독이 만료된 경우 결제 세부 정보를 제출하면 구독이 활성 상태로 돌아오고  다음 청구 날짜는 현재 구독 약정에 따라 한 달 또는 1년까지 연장됩니다. 신용 카드 또는 은행 계좌로 결제하는 경우 신용 카드 또는 은행 계좌에 내선 요금이 청구됩니다. If you pay by invoice, you'll see the extension reflected on your next invoice. 구독이 다시 만료되지 않는지 확인하려면 [재발생 청구를 켜야 합니다.](renew-your-subscription.md#turn-recurring-billing-off-or-on)
 
    > [!NOTE]
    > 은행 계좌로 결제하는 기능을 일부 국가나 지역에서는 사용할 수 없습니다.
@@ -85,13 +85,13 @@ ms.locfileid: "50114624"
 
 2. 다시 활성화할 구독을 찾은 다음 다시 **활성화를 선택합니다.**
 
-    ![다시 활성화 단추를 사용하여 비활성화 및 기능 축소를 표시하는 구독 카드의 클로즈업입니다.](../../media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
+    ![다시 활성화 단추를 사용하여 비활성화 및 축소된 기능을 표시하는 구독 카드의 클로즈업입니다.](../../media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
   
     사용 가능한 작업으로 **다시** 활성화가 확인되지 않는 경우 [지원에](../../admin/contact-support-for-business-products.md) 문의하여 구독을 다시 활성화하세요.
 
 3. 결제 정보를 입력합니다. 여기에서 기존 결제 정보를 업데이트할 수 있습니다.
 
-   구독이 만료된 경우 결제 세부 정보를 제출하면 구독이 활성 상태로 돌아오고  다음 청구 날짜는 현재 구독 약정에 따라 한 달 또는 1년까지 연장됩니다. 신용 카드 또는 은행 계좌로 결제하는 경우 신용 카드 또는 은행 계좌에 내선 요금이 청구됩니다. If you pay by invoice, you'll see the extension reflected on your next invoice. 구독이 다시 만료되지 않는지 확인하려면 재발생 청구를 [켜야 합니다.](renew-your-subscription.md#turn-recurring-billing-off-or-on)
+   구독이 만료된 경우 결제 세부 정보를 제출하면 구독이 활성 상태로 돌아오고  다음 청구 날짜는 현재 구독 약정에 따라 한 달 또는 1년까지 연장됩니다. 신용 카드 또는 은행 계좌로 결제하는 경우 신용 카드 또는 은행 계좌에 내선 요금이 청구됩니다. If you pay by invoice, you'll see the extension reflected on your next invoice. 구독이 다시 만료되지 않는지 확인하려면 [재발생 청구를 켜야 합니다.](renew-your-subscription.md#turn-recurring-billing-off-or-on)
 
    > [!NOTE]
    > 은행 계좌로 결제하는 기능을 일부 국가나 지역에서는 사용할 수 없습니다.

@@ -99,7 +99,7 @@ Azure AD 조직의 Intune 장치 준수 정책은 Microsoft Managed Desktop 장�
 
 **권고**
 
-Microsoft Managed Desktop 사용자를 대상으로 지정하지 않은 준수 정책이 있는지 확인 자세한 단계는 [Microsoft Intune에서](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy)준수 정책 만들기를 참조하세요.
+Microsoft Managed Desktop 사용자를 대상으로 지정하지 않은 준수 정책이 있는지 확인 자세한 단계는 [Microsoft Intune에서 준수 정책 만들기를 참조하세요.](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy)
 
 
 
@@ -123,7 +123,7 @@ Microsoft Managed Desktop 장치는 Intune에 등록할 수 있어야 합니다.
 
 **준비되지 않음**
 
-현재 Windows 장치가 Intune에 등록되지 않도록 등록 제한 정책을 하나 이상 구성했습니다. Microsoft Managed [](https://docs.microsoft.com/mem/intune/enrollment/enrollment-restrictions-set) Desktop 사용자를 대상으로 하는 각 등록 제한 정책에 대한 등록 제한 설정 단계를 따르고 **Windows(MDM)** 설정을 허용으로 **변경합니다.** 그러나 개인  **소유의 Windows(MDM)** 장치를 차단으로 설정할 수 **있습니다.** 
+현재 Windows 장치가 Intune에 등록되지 않도록 등록 제한 정책을 하나 이상 구성했습니다. Microsoft Managed [](https://docs.microsoft.com/mem/intune/enrollment/enrollment-restrictions-set) Desktop 사용자를 대상으로 하는 각 등록 제한 정책에 대한 등록 제한 설정의 단계를 따르고 **Windows(MDM)** 설정을 허용으로 **변경합니다.** 그러나 개인  **소유의 Windows(MDM)** 장치를 차단으로 설정할 수 **있습니다.** 
 
 
 ### <a name="enrollment-status-page"></a>등록 상태 페이지
@@ -132,7 +132,7 @@ Microsoft Managed Desktop 장치는 Intune에 등록할 수 있어야 합니다.
 
 **준비되지 않음**
 
-ESP 기본 프로필이 앱 및 프로필 구성 진행률 **표시로 설정되어 있습니다.** 이 설정을 사용하지 않도록 설정하거나 등록 상태 설정 페이지의 단계에 따라 Azure AD 그룹에 대한 할당에 Microsoft Managed Desktop 장치가 포함되어 [있지 않은지 확인하십시오.](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)
+ESP 기본 프로필이 앱 및 프로필 구성 진행률 **표시로 설정되어 있습니다.** 등록 상태 설정 페이지의 단계에 따라 이 설정을 사용하지 않도록 설정하거나 Azure AD 그룹에 대한 할당에 Microsoft Managed Desktop 장치가 포함되어 [있지 않은지 확인하십시오.](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status)
 
 **권고**
 
@@ -201,7 +201,7 @@ Azure AD 조직이 있는 하나 이상의 국가는 Microsoft Managed Desktop�
 
 **권고**
 
-Microsoft Managed Desktop 장치를 제외한 보안 기준 정책이 있는지 확인 단계는 보안 기준을 사용하여 [Intune에서 Windows 10 디바이스를 구성합니다.](https://docs.microsoft.com/mem/intune/protect/security-baselines) 등록하는 동안 모든 Microsoft Managed Desktop 장치에 새 보안 기준을 적용합니다. 최신 작업 공간 **장치 - 모든** Azure AD 그룹은 Microsoft Managed Desktop에 등록할 때 만드는 동적 그룹이기 때문에 등록 후 이 그룹을 제외하기 위해 돌아와야 합니다. 
+Microsoft Managed Desktop 장치를 제외한 보안 기준 정책이 있는지 확인 단계는 보안 기준을 사용하여 [Intune에서 Windows 10 디바이스를 구성하는 방법을 참조하세요.](https://docs.microsoft.com/mem/intune/protect/security-baselines) 등록하는 동안 모든 Microsoft Managed Desktop 장치에 새 보안 기준을 적용합니다. 최신 작업 공간 **장치 - 모든** Azure AD 그룹은 Microsoft Managed Desktop에 등록할 때 만드는 동적 그룹이기 때문에 등록 후 이 그룹을 제외하기 위해 돌아와야 합니다. 
 
 
 ### <a name="windows-apps"></a>Windows 앱
@@ -238,7 +238,7 @@ Intune의 "Windows 10 업데이트 링" 정책은 Microsoft Managed Desktop 장�
 
 **권고**
 
-최신 작업 공간 장치 -모든 Azure AD 그룹을 제외한 모든 업데이트 **링** 정책이 있는지 확인 합니다. 이러한 정책에 Azure AD 사용자 그룹을 할당한 경우 Microsoft Managed Desktop 사용자를 추가하는 최신 **Workplace -All** Azure AD 그룹(또는 동등한 그룹)도 제외한 업데이트 링 정책이 있는지 확인하세요. 단계는 [Intune에서 Windows 10 소프트웨어 업데이트 관리를 참조하세요.](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure) 최신 작업 공간 장치 **-All** 및 **Modern Workplace -All** Azure AD 그룹은 Microsoft Managed Desktop에 등록할 때 만든 그룹이기 때문에 등록 후 이 그룹을 제외하기 위해 다시 돌아와야 합니다.
+최신 작업 공간 장치 -All Azure AD 그룹을 제외한 모든 업데이트 **링** 정책이 있는지 확인 합니다. 이러한 정책에 Azure AD 사용자 그룹을 할당한 경우 Microsoft Managed Desktop 사용자를 추가하는 최신 **Workplace -All** Azure AD 그룹(또는 동등한 그룹)도 제외한 업데이트 링 정책이 있는지 확인하세요. 단계는 [Intune에서 Windows 10 소프트웨어 업데이트 관리를 참조하세요.](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure) 최신 작업 공간 장치 **-All** 및 **Modern Workplace -All** Azure AD 그룹은 Microsoft Managed Desktop에 등록할 때 만든 그룹이기 때문에 등록 후 이 그룹을 제외하기 위해 다시 돌아와야 합니다.
 
 
 ## <a name="azure-active-directory-settings"></a>Azure Active Directory 설정
@@ -336,4 +336,4 @@ Microsoft Managed Desktop 사용자에게는 등록 후 Microsoft Managed Deskto
 
 **권고**
 
-특정 도메인 설정에 가입된 PC에서만 동기화 **허용을 사용하고** 있습니다. 이 설정은 Microsoft Managed Desktop에서는 작동하지 않습니다. 이 설정을 사용하지 않도록 설정하고 대신 조건부 액세스 정책을 사용하기 위해 OneDrive를 설치합니다. 도움말은 [조건부 액세스 배포](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access) 계획을 참조합니다.
+특정 도메인 설정에 가입된 PC에서만 동기화 **허용을 사용 중입니다.** 이 설정은 Microsoft Managed Desktop에서는 작동하지 않습니다. 이 설정을 사용하지 않도록 설정하고 대신 조건부 액세스 정책을 사용하기 위해 OneDrive를 설치합니다. 도움말은 [조건부 액세스 배포](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access) 계획을 참조합니다.

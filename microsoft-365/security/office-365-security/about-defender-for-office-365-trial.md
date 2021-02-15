@@ -37,7 +37,7 @@ Office 365용 Microsoft Defender는 전자 메일 메시지, 링크(URL) 및 공
 Office 365용 Microsoft Defender 평가판은 Office 365용 Defender의 기능을 체험하는 가장 쉬운 방법으로, 설정하는 데 몇 번의 클릭만 하면 됩니다. 평가판 설정이 완료되면 조직에서 Office 365 계획 1 및 계획 2의 모든 Defender 기능을 최대 90일 동안 사용할 수 있습니다.
 
 > [!NOTE]
-> 이 문서에 설명된 자동화된 구성은 현재 공개 미리 보기로 제공되어 있으며 해당 위치에서 사용할 수 없습니다.
+> 이 문서에서 설명하는 자동화된 구성은 현재 공개 미리 보기로 제공되어 있으며 해당 위치에서 사용할 수 없습니다.
 
 ## <a name="terms-and-conditions"></a>사용 약관
 
@@ -45,9 +45,9 @@ Office 365용 Defender 평가판은 90일 동안 사용할 수 있으며 모든 
 
 ## <a name="set-up-a-defender-for-office-365-trial"></a>Office 365용 Defender 평가판 설정
 
-평가판을 통해 조직은 Office 365용 Defender 기능을 쉽게 설정하고 구성할 수 있습니다. 설치하는 동안 Office 365용 Defender 전용 정책(특히 스팸 [](atp-safe-links.md)방지 정책의 [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)안전한 첨부 [파일,](atp-safe-attachments.md)안전한 링크 및 가장 보호)은 미리 설정한 보안 정책에 표준 템플릿을 사용하여 [적용됩니다.](preset-security-policies.md)
+평가판을 통해 조직은 Office 365용 Defender 기능을 쉽게 설정하고 구성할 수 있습니다. 설치 중에 Office 365용 Defender 전용 정책(특히 안전한 첨부 [](atp-safe-links.md) [파일,](atp-safe-attachments.md) [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)안전한 링크 및 스팸 방지 정책의 가장 보호)은 미리 설정한 보안 정책에 표준 템플릿을 사용하여 [적용됩니다.](preset-security-policies.md)
 
-기본적으로 이러한 정책의 범위는 조직의 모든 사용자로 지정되지만 관리자는 설치 중 또는 후에 정책을 사용자 지정하여 특정 사용자에게만 적용할 수 있습니다.
+기본적으로 이러한 정책의 범위는 조직의 모든 사용자로 지정되지만 관리자는 설치 중이나 후에 정책을 사용자 지정하여 특정 사용자에게만 적용할 수 있습니다.
 
 설치하는 동안 MDO P2 또는 이에 상응하는 MDO 응답 기능도 전체 조직에 대해 설정됩니다. 정책의 스위핑은 필요하지 않습니다.
 
@@ -55,9 +55,9 @@ Office 365용 Defender 평가판은 90일 동안 사용할 수 있으며 모든 
 
 평가판 설정의 일부로 Office 365용 Defender 라이선스가 조직에 자동으로 적용됩니다. 라이선스는 처음 90일 동안 무료로 제공됩니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
-평가판을 시작하거나 종료하려면 Azure Active Directory에서 전역  관리자 또는 보안 관리자 역할의 구성원이 되거나 종료해야 합니다.  자세한 내용은 관리자 [역할에 대한 정보를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
+평가판을 시작하거나 종료하려면 Azure Active Directory에서 전역  관리자 또는 보안 관리자 역할의 구성원이 되거나,  자세한 내용은 관리자 [역할에 대한 정보를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
 
 ## <a name="additional-information"></a>추가 정보
 
@@ -104,7 +104,7 @@ Office 365용 Defender는 포괄적인 기능을 제공하면 조직이 엔터�
 
 광범위한 인시던트 대응 및 자동화 기능은 보안 팀의 효율성과 효율성을 향상시킵니다.
 
-- [Microsoft Defender for Office 365의 자동화된 조사 및 대응(AIR)](office-365-air.md)
+- [Office 365용 Microsoft Defender의 자동화된 조사 및 대응(AIR)](office-365-air.md)
 
 ### <a name="awareness-and-training"></a>인식과 교육
 
@@ -114,9 +114,9 @@ Office 365용 Defender는 포괄적인 기능을 제공하면 조직이 엔터�
 
 ### <a name="secure-posture"></a>보안 자세
 
-권장 템플릿 및 구성 정보를 사용하면 고객이 안전하게 보호할 수 있습니다.
+권장 템플릿 및 구성 인사이트는 고객이 안전하게 보호하는 데 도움이 됩니다.
 
-- [EOP 및 Office 365용 Microsoft Defender의 미리 설정 보안 정책](preset-security-policies.md)
+- [EOP 및 Office 365용 Microsoft Defender에서 보안 정책 미리 설정](preset-security-policies.md)
 - [EOP 및 Office 365용 Microsoft Defender의](configuration-analyzer-for-security-policies.md)보호 정책에 대한 구성 분석기.
 
 ## <a name="give-feedback"></a>피드백 제공

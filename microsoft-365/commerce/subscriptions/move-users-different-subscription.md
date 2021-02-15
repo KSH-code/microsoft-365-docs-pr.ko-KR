@@ -1,5 +1,5 @@
 ---
-title: 사용자를 다른 구독으로 이동
+title: 다른 구독으로 사용자 이동
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -27,7 +27,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 02/05/2021
 ms.locfileid: "50114672"
 ---
-# <a name="move-users-to-a-different-subscription"></a>사용자를 다른 구독으로 이동
+# <a name="move-users-to-a-different-subscription"></a>다른 구독으로 사용자 이동
 
 ::: moniker range="o365-21vianet"
 
@@ -42,7 +42,7 @@ ms.locfileid: "50114672"
 
 라이선스를 할당하려면 전역, 라이선스 또는 사용자 관리자여야 합니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)를 참조하세요.
 
-## <a name="move-users-to-a-different-subscription"></a>사용자를 다른 구독으로 이동
+## <a name="move-users-to-a-different-subscription"></a>다른 구독으로 사용자 이동
 
 ::: moniker range="o365-worldwide"
 
@@ -82,7 +82,7 @@ ms.locfileid: "50114672"
 
 ## <a name="next-steps"></a>다음 단계
 
-사용되지 않는 라이선스를 [](../../managed-desktop/get-started/assign-licenses.md)다른 사용자에게 다시 배포하지 않을 경우 필요한 [](../../commerce/licenses/buy-licenses.md) 것보다 많은 라이선스 비용을 지불하지 않을 수 있도록 구독에서 라이선스를 제거하는 것이 있습니다.
+사용되지 않는 라이선스를 [](../../managed-desktop/get-started/assign-licenses.md)다른 사용자에게 다시 배포하지 않을 경우 필요한 [](../../commerce/licenses/buy-licenses.md) 것보다 많은 라이선스 비용을 지불하지 않을 수 있도록 구독에서 라이선스를 제거하는 것을 고려하세요.
 
 ## <a name="related-content"></a>관련 콘텐츠
 

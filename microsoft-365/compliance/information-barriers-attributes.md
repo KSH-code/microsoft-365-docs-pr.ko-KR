@@ -42,7 +42,7 @@ Azure Active Directory의 특정 특성을 사용하여 사용자를 분할할 �
 
     - 단일 계정을 편집하려면 Azure Active Directory를 사용하여 사용자의 프로필 정보 추가 또는 [업데이트를 참조하세요.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
-3. [다음 예와 유사하게 PowerShell을](information-barriers-policies.md#define-segments-using-powershell)사용하여 세그먼트를 정의합니다.
+3. [다음 예제와 비슷한 PowerShell을](information-barriers-policies.md#define-segments-using-powershell)사용하여 세그먼트를 정의합니다.
 
     |**예**|**Cmdlet**|
     |:----------|:---------|

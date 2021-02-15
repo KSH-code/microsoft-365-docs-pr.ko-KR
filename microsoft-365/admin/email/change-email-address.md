@@ -45,23 +45,23 @@ ms.locfileid: "50114024"
   
 ::: moniker range="o365-worldwide"
 
-Microsoft 365의 초기 전자 메일 주소에는 .onmicrosoft.com(tom@fourthcoffee.onmicrosoft.com. 이는 tom@fourthcoffee.com과 같이 보다 친숙한 주소로 변경할 수 있습니다. 먼저 fourthcoffee.com과 같은 고유한 도메인 이름이 필요합니다. 도메인 이름이 이미 있는 경우 해당 도메인을 사용해도 됩니다. 그렇지 않은 경우 [도메인 등록 기관에서 도메인을 구입](../get-help-with-domains/buy-a-domain-name.md)하는 방법에 대해 알아보세요.
+Microsoft 365의 초기 전자 메일 주소에는 .onmicrosoft.com 포함됩니다(tom@fourthcoffee.onmicrosoft.com. 이는 tom@fourthcoffee.com과 같이 보다 친숙한 주소로 변경할 수 있습니다. 먼저 fourthcoffee.com과 같은 고유한 도메인 이름이 필요합니다. 도메인 이름이 이미 있는 경우 해당 도메인을 사용해도 됩니다. 그렇지 않은 경우 [도메인 등록 기관에서 도메인을 구입](../get-help-with-domains/buy-a-domain-name.md)하는 방법에 대해 알아보세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Office 365 Germany의 초기 전자 메일 주소에는 .onmicrosoft.de(tom@fourthcoffee.onmicrosoft.de. You can change it to a friendlier address like tom@fourthcoffee.de. 먼저 도메인 이름과 같은 자체 도메인 fourthcoffee.de 합니다. 도메인 이름이 이미 있는 경우 해당 도메인을 사용해도 됩니다. 그렇지 않은 경우 [도메인 등록 기관에서 도메인을 구입](../get-help-with-domains/buy-a-domain-name.md)하는 방법에 대해 알아보세요.
+Office 365 Germany의 초기 전자 메일 주소에는 .onmicrosoft.de 포함됩니다(tom@fourthcoffee.onmicrosoft.de. You can change it to a friendlier address like tom@fourthcoffee.de. 먼저 도메인 이름과 같은 자체 도메인 fourthcoffee.de 합니다. 도메인 이름이 이미 있는 경우 해당 도메인을 사용해도 됩니다. 그렇지 않은 경우 [도메인 등록 기관에서 도메인을 구입](../get-help-with-domains/buy-a-domain-name.md)하는 방법에 대해 알아보세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-21Vianet에서 운영하는 Office 365의 초기 전자 메일 주소에는 partner.onmschina.cn 같은 tom@fourthcoffee.partner.onmschina.cn. 사용자와 같은 더 친한 주소로 변경할 수 tom@fourthcoffee.cn. 먼저 도메인 이름과 같은 자체 도메인 fourthcoffee.cn 합니다. 도메인 이름이 이미 있는 경우 해당 도메인을 사용해도 됩니다. 그렇지 않은 경우 [도메인 등록 기관에서 도메인을 구입](../get-help-with-domains/buy-a-domain-name.md)하는 방법에 대해 알아보세요.
+21Vianet에서 운영하는 Office 365의 초기 전자 메일 주소에는 partner.onmschina.cn 같은 tom@fourthcoffee.partner.onmschina.cn. You can change it to a friendlier address like tom@fourthcoffee.cn. 먼저 도메인 이름과 같은 자체 도메인 fourthcoffee.cn 합니다. 도메인 이름이 이미 있는 경우 해당 도메인을 사용해도 됩니다. 그렇지 않은 경우 [도메인 등록 기관에서 도메인을 구입](../get-help-with-domains/buy-a-domain-name.md)하는 방법에 대해 알아보세요.
 
 ::: moniker-end
 
-When you change your domain's email to come to Microsoft 365, by updating your domain's MX record during setup, ALL email sent to that domain will start coming to Microsoft 365. MX 레코드를 변경하기 전에 도메인에 전자 메일이 있는 모든 사용자에 대해 Microsoft 365에서 사용자를 추가하고 사서함을 만들었다고 합니다. 도메인의 모든 사용자에 대한 전자 메일을 Microsoft 365로 이동하고 싶지 않은가요? 대신 몇 가지 전자 메일 주소만 사용하여 [Microsoft 365를](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain?view=o365-worldwide)시험해 볼 수 있습니다.
+When you change your domain's email to come to Microsoft 365, by updating your domain's MX record during setup, all email sent to that domain will start coming to Microsoft 365. MX 레코드를 변경하기 전에 도메인에 전자 메일이 있는 모든 사용자에 대해 Microsoft 365에서 사용자를 추가하고 사서함을 만들었다고 합니다. 도메인의 모든 사용자에 대한 전자 메일을 Microsoft 365로 이동하고 싶지 않은가요? 대신 몇 가지 전자 메일 주소만 사용하여 [Microsoft 365를](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain?view=o365-worldwide)시험해 볼 수 있습니다.
   
 ## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 사용하여 사용자 지정 도메인을 사용하기 위해 전자 메일 주소 변경
 

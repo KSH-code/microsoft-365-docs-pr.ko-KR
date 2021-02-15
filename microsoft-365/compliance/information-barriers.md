@@ -65,7 +65,7 @@ Microsoft Teams, SharePoint Online 및 비즈니스용 OneDrive는 정보 장벽
 - 다른 사용자와 파일 공유
 - 공유 링크를 통해 파일에 액세스
 
-관련 사용자가 활동을 방지하기 위해 정보 장벽 정책에 포함된 경우 계속할 수 없습니다. 또한 정보 장벽 정책에 포함된 모든 사람이 Microsoft Teams의 다른 사용자와의 통신을 차단할 수 있습니다. 정보 장벽 정책의 영향을 받는 사람이 동일한 팀 또는 그룹 채팅에 참여하는 경우 해당 채팅 세션에서 제거되고 그룹과의 추가 통신이 허용되지 않을 수 있습니다.
+관련 사용자가 활동을 방지하기 위해 정보 장벽 정책에 포함된 경우 계속할 수 없습니다. 또한 정보 장벽 정책에 포함된 모든 사람이 Microsoft Teams의 다른 사용자와 통신하는 것을 차단할 수 있습니다. 정보 장벽 정책의 영향을 받는 사람이 동일한 팀 또는 그룹 채팅에 참여하는 경우 해당 채팅 세션에서 제거되고 그룹과의 추가 통신이 허용되지 않을 수 있습니다.
 
 정보 장벽이 있는 사용자 경험에 대한 자세한 내용은 Microsoft Teams의 정보 장벽을 [참조하세요.](/MicrosoftTeams/information-barriers-in-teams)
 
@@ -80,7 +80,7 @@ SharePoint Online 및 OneDrive에서 정보 장벽 정책은 다음과 같은 �
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
-정보 장벽은 이제 출시 중으로, 다음과 같은 구독에 포함됩니다.
+이제 정보 장벽이 롤아웃 중으로, 다음과 같은 구독에 포함됩니다.
 
 - Microsoft 365 E5/A5
 - Office 365 E5/A5
@@ -90,7 +90,7 @@ SharePoint Online 및 OneDrive에서 정보 장벽 정책은 다음과 같은 �
 
 자세한 내용은 보안 및 규정 준수에 대한 [Microsoft 365 & 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)
 
-정보 장벽 정책을 정의하거나 [편집하려면](information-barriers-policies.md)다음 역할 중 하나를 할당해야 합니다.
+정보 [장벽 정책을](information-barriers-policies.md)정의하거나 편집하려면 다음 역할 중 하나를 할당해야 합니다.
 
 - Microsoft 365 전역 관리자
 - Office 365 전역 관리자

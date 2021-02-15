@@ -95,7 +95,7 @@ Microsoft 365 그룹 만들기를 특정 Microsoft 365 그룹 또는 보안 그�
 
 아래 스크립트를 메모장 같은 텍스트 편집기나 [ISE의 텍스트 Windows PowerShell 복사합니다.](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
 
-만든 그룹의 이름으로 *\<GroupName\>* 바 대체합니다. 예:
+만든 그룹의 이름으로 *\<GroupName\>* 바 대체합니다. 예시:
 
 `$GroupName = "Group Creators"`
 

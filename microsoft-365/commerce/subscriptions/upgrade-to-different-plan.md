@@ -19,7 +19,7 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: 다른 계획으로 업그레이드하는 방법에 대해 자세히 알아보습니다.
+description: 다른 계획으로 업그레이드하는 방법을 자세히 알아보는 방법을 배워야 합니다.
 ms.openlocfilehash: e1872279ebef49cd0e3b8cf58dbd24b603cc6b3c
 ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
@@ -43,7 +43,7 @@ ms.locfileid: "50114540"
 
 ## <a name="use-the-upgrade-tab"></a>업그레이드 탭 사용
 
-업그레이드 **탭을** 사용할 때 새 요금제 구입 프로세스를 진행하게 됩니다. 모든 사용자에게 새 요금제의 라이선스가 자동으로 할당되고 이전 요금제가 취소됩니다.
+업그레이드 **탭을** 사용할 때 새 요금제 구입 프로세스를 진행하게 됩니다. 모든 사용자에게 새 요금제에서 라이선스가 자동으로 할당되고 이전 요금제가 취소됩니다.
 
 1. 관리 센터에서 제품 청구  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">페이지로</a> 이동합니다.
 
@@ -56,9 +56,9 @@ ms.locfileid: "50114540"
 5. 필요한 라이선스 수를 입력하고 매월 지불할지 또는 1년 동안 지불할지 선택한 다음 체크 아웃으로 **이동을 선택합니다.**
 
     > [!NOTE]
-    > 모든 사용자를 다루기에 충분한 라이선스를 구입해야 합니다.
+    > 모든 사용자를 다루기 위해 충분한 라이선스를 구입해야 합니다.
 
-6. 다음 페이지에서 판매할  주소, 청구된  정보 및 이 순서의 항목을 **확인하십시오.** 이 단계에서 기본 결제 방법을 변경할 수 있습니다. 변경해야 하는 경우 해당 섹션 옆에 **있는** 변경을 선택합니다.
+6. 다음 페이지에서 판매할  주소, 청구된  정보 및 이 순서의 **항목을 확인하십시오.** 이 단계에서 기본 결제 방법을 변경할 수 있습니다. 변경해야 하는 경우 해당 섹션 옆에 **있는** 변경을 선택합니다.
 
 7. 완료되면 장소 **순서를 선택합니다.**
 
@@ -72,7 +72,7 @@ ms.locfileid: "50114540"
 
 업그레이드 **탭을** 사용하면 업그레이드할 수 있는 계획이 현재 계획의 서비스에 따라 표시됩니다. 업그레이드 탭을  사용하여 데이터 관련 서비스가 동일한 계획 또는 상위 버전으로만 이동할 수 있습니다. 이렇게 하면 사용자가 변경 중에 해당 서비스와 관련된 데이터를 손실하지 않습니다.
 
-서비스 수가 적은 계획으로 전환하려면 계획을 수동으로 변경하거나 [지원을](change-plans-manually.md) [문의하여 도움을](../../admin/contact-support-for-business-products.md) 줄 수 있습니다.
+서비스 수가 적은 계획으로 전환하려는 경우 계획을 수동으로 변경하거나 [지원을](change-plans-manually.md) [문의하여 도움을](../../admin/contact-support-for-business-products.md) 줄 수 있습니다.
 
 ## <a name="i-only-want-to-upgrade-some-of-my-users-how-do-i-do-that"></a>일부 사용자만 업그레이드하고 싶을 것입니다. 어떻게 해야 합니까?
 
@@ -92,7 +92,7 @@ ms.locfileid: "50114540"
 
 #### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>라이선스보다 많은 사용자가 있기 때문에 지금 구독을 업그레이드할 수 없습니다.
 
-계획을 자동으로 업그레이드하려면 모든 사용자에게 유효한 라이선스가 할당되어 있어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../admin/manage/resolve-license-conflicts.md). 라이선스 충돌을 해결한 후 업그레이드 탭에 계획이 **나열됩니다.** 그렇지 않은 경우 계획을 수동으로 [변경하거나](change-plans-manually.md)지원을 [문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
+계획을 자동으로 업그레이드하려면 모든 사용자에게 유효한 라이선스가 할당되어 있어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../admin/manage/resolve-license-conflicts.md). 라이선스 충돌을 해결한 후 업그레이드 탭에 계획이 **표시됩니다.** 그렇지 않은 경우 계획을 수동으로 [변경하거나](change-plans-manually.md)지원을 [문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
 
 #### <a name="you-cant-upgrade-subscriptions-right-now-because-this-subscription-isnt-fully-set-up-or-the-service-isnt-available"></a>이 구독이 완전히 설정되지 않은 경우나 서비스를 사용할 수 없는 경우 지금 구독을 업그레이드할 수 없습니다.
 
@@ -120,9 +120,9 @@ ms.locfileid: "50114540"
 
 #### <a name="you-have-a-prepaid-plan"></a>선불 요금제를 사용 중인 경우
 
-구독 요금을 미리 지불한 경우 요금제는 수동으로 [변경할 수 있습니다.](change-plans-manually.md) 그러나 현재 계획이 만료되기 전에 계획을 업그레이드하는 경우 현재 구독에서 남은 미사용 시간에 대한 크레딧을 받지 못합니다.
+구독 요금을 미리 지불한 경우 요금제는 수동으로 [변경할 수 있습니다.](change-plans-manually.md) 그러나 현재 계획이 만료되기 전에 계획을 업그레이드하는 경우 현재 구독에서 남은 미사용 시간에 대한 크레딧은 받지 않습니다.
 
-지원을 [문의할](../../admin/contact-support-for-business-products.md) 수 있습니다.
+지원을 [문의할 수](../../admin/contact-support-for-business-products.md) 있습니다.
 
 #### <a name="you-have-a-government-or-non-profit-plan"></a>Government 또는 Nonprofit 요금제를 보유하고 있는 경우
 
@@ -136,7 +136,7 @@ ms.locfileid: "50114540"
 
 계획을 업그레이드할 때 업그레이드할 수 있는 계획은 현재 계획의 서비스에 따라 표시됩니다. Exchange Online 또는 SharePoint Online과 같은 데이터 관련 서비스가 동일한 요금제 또는 상위 버전으로만 업그레이드할 수 있습니다. 이렇게 하면 사용자가 업그레이드 중에 해당 서비스와 관련된 데이터를 \' 손실하지 않습니다.
 
-계획을 자동으로 업그레이드할 수 없는 경우 계획을 수동으로 변경할 [수](change-plans-manually.md)있습니다. 지원을 [문의할](../../admin/contact-support-for-business-products.md) 수 있습니다.
+계획을 자동으로 업그레이드할 수 없는 경우 계획을 수동으로 변경할 [수](change-plans-manually.md)있습니다. 지원을 [문의할 수](../../admin/contact-support-for-business-products.md) 있습니다.
 
 #### <a name="your-subscription-has-an-add-on"></a>구독에 추가 기능
 
@@ -162,13 +162,13 @@ ms.locfileid: "50114540"
   
 이전 구독에 여러 서비스가 포함되어 있으며 이러한 서비스 중 사용자에게 할당된 서비스를 변경한 경우 계획을 업그레이드하기 전에 이를 메모하여 이후에 이러한 변경 내용을 다시 만들 수 있습니다. 모든 사용자는 새 구독의 모든 서비스에 액세스할 수 있습니다. 예를 들어 이전에 사용자 100명 모두에 대해 Microsoft 365 Business Premium을 구입했지만 이 중 50명에서 SharePoint Online 서비스를 배정하지 않은 경우 계획 업그레이드 후에도 이 변경이 유지되지 않습니다.
   
-계획을 업그레이드하기 전에 구독이 두 개 이상 있으며 사용자에게 두 개 이상의 구독에 라이선스를 할당한 경우 이 할당 패턴은 새 구독에서 가능한 한 많이 유지됩니다.
+계획을 업그레이드하기 전에 구독이 두 개 이상 있는 경우 사용자에게 두 개 이상의 구독에 라이선스를 할당한 경우 이 할당 패턴은 새 구독에서 가능한 한 많이 유지됩니다.
   
 업그레이드 중에 Exchange 사서함, SharePoint Online 문서, 목록 및 기타 정보를 비롯한 모든 사용자 데이터가 보존됩니다.
   
 ### <a name="billing"></a>청구
 
-계획 업그레이드가 완료된 날에는 이전 구독에 대한 청구가 해제되어 새 구독에 대한 청구가 설정됩니다. 사용자는 이전 구독에서 사용하지 않은 서비스에 대해 비례 배분된 공제액을 받게 됩니다. 새 구독으로 업그레이드한 후 30일 이내에 이전 구독에 대한 크레딧이 포함된 새 송장을 받게 됩니다.
+계획 업그레이드가 완료된 날에는 이전 구독에 대한 청구가 해제되어 새 구독에 대한 청구가 켜집니다. 사용자는 이전 구독에서 사용하지 않은 서비스에 대해 비례 배분된 공제액을 받게 됩니다. 새 구독으로 업그레이드한 후 30일 이내에 이전 구독에 대한 크레딧이 포함된 새 송장을 받게 됩니다.
   
 > [!NOTE]
 > 결제 계좌에서 실제로 공제하는 데 걸리는 시간은 구독에 사용된 지불 방법에 따라 다릅니다.

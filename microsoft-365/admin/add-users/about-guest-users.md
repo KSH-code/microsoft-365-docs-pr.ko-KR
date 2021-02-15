@@ -50,7 +50,7 @@ Teams에 게스트를 추가하는 방법을 보고 다음 비디오를 참조�
 
 Azure Active Directory에서 게스트를 추가하는 경우 게스트 [사용자 추가를 참조하세요.](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal)
 
-사용자를 추가한 후 그룹에 사용자를 할당하거나 조직의 앱에 대한 액세스 권한을 부여할 수도 있습니다. Azure AD 포털에 사용자를 추가하면 해당 사용자가 Microsoft 365 관리 센터의 게스트 사용자 페이지에도 나열됩니다. 
+사용자를 추가한 후 해당 사용자를 그룹에 할당하거나 조직의 앱에 대한 액세스 권한을 부여할 수도 있습니다. Azure AD 포털에 사용자를 추가하면 해당 사용자가 Microsoft 365 관리 센터의 게스트 사용자 페이지에도 나열됩니다. 
 사용자를 게스트 사용자 목록에  추가한 후 Microsoft [](../create-groups/manage-guest-access-in-groups.md#add-guests-to-a-microsoft-365-group-from-the-admin-center) 365 관리 센터의 그룹에 추가할 수 있습니다.
 
 여러 [게스트를](https://docs.microsoft.com/azure/active-directory/b2b/tutorial-bulk-invite) 초대하여 조직과 공동 작업을 할 수 있도록 대량으로 게스트를 추가합니다.

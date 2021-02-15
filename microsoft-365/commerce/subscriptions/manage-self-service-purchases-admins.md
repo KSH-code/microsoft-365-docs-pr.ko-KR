@@ -67,7 +67,7 @@ ms.locfileid: "50114696"
 
 셀프 서비스 구매에 할당된 사용자의 기존 계약을 통해 기존 라이선스를 할당하거나 추가 구독을 구입할 수 있습니다. 중앙에서 구매한 라이선스를 할당한 후 구매자에 기존 구독을 취소할 수 있습니다.
 
-1. 관리 센터에서 청구 구매 **서비스** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">페이지로</a> 이동합니다.
+1. 관리 센터에서 대금  청구 서비스 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">페이지로</a> 이동합니다.
 2. 구입하려는 제품을 찾아 선택한 다음 구입을 **선택하십시오.**
 3. 나머지 단계를 완료하여 구매를 완료합니다.
 4. 셀프 서비스 [](#view-who-has-licenses-for-a-self-service-purchase-subscription) 구매 구독에 대한 라이선스가 있는 사용자 보기의 단계에 따라 다음 단계에서 참조할 사용자 목록을 내보낼 수 있습니다.
@@ -81,7 +81,7 @@ ms.locfileid: "50114696"
 1. 사용자를 다른 구독으로 이동하고 원래 구독을 취소합니다.
 2. 셀프 서비스 구매 구독을 취소하고 할당된 사용자로부터 라이선스를 제거합니다.
 
-### <a name="move-users-to-a-different-subscription"></a>사용자를 다른 구독으로 이동
+### <a name="move-users-to-a-different-subscription"></a>다른 구독으로 사용자 이동
 
 사용자를 다른 구독으로 이동하면 이전 구독이 자동으로 취소됩니다. 셀프 서비스 구매 구독을 처음 구입한 사용자는 구독이 취소되었습니다는 내용의 전자 메일을 받게 됩니다.
 
@@ -110,10 +110,10 @@ ms.locfileid: "50114696"
 6. 드롭다운 목록에서 취소 이유를 선택한 다음 구독 **취소를 선택합니다.**
 7. In the **sure you want to cancel?** box, select Cancel **subscription**.
 8. 오른쪽 창을 닫습니다.
-9. 구독 세부 정보 페이지에서 구독 **상태가** 삭제된 **것으로 표시됩니다.**
+9. 구독 세부 정보 페이지에서 구독 **상태가** **삭제된 것으로 표시됩니다.**
 
 ## <a name="need-help-contact-us"></a>도움이 필요하신가요? 문의처에 문의해 주시기 바랍니다.
 
 셀프 서비스 구매에 대한 일반적인 질문은 셀프 서비스 [구매 FAQ를 참조하세요.](self-service-purchase-faq.md)
 
-질문이 있는 경우 또는 셀프 서비스 구매에 대한 도움이 필요한 경우 지원 [서비스에 문의하세요.](../../admin/contact-support-for-business-products.md)
+질문이 있는 경우 또는 셀프 서비스 구매에 대한 도움이 필요한 경우 고객 [지원에 문의하세요.](../../admin/contact-support-for-business-products.md)

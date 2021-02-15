@@ -43,7 +43,7 @@ ms.locfileid: "50099681"
   
 - 상용 클라우드의 사용자와 보호된 전자 메일 공유가 지원됩니다.
   
-- 현재 상업용 클라우드의 사용자와 문서 및 전자 메일 첨부 파일을 공유할 수 없습니다. 여기에는 상용 클라우드의 21Vianet 사용자가 운영하는 Office 365, 상업용 클라우드의 21Vianet 사용자가 운영하는 비 Office 365 사용자 및 개인용 RMS 라이선스가 있는 사용자가 포함됩니다.
+- 현재 상용 클라우드의 사용자와 문서 및 전자 메일 첨부 파일을 공유할 수 없습니다. 여기에는 상용 클라우드의 21Vianet 사용자가 운영하는 Office 365, 상업용 클라우드의 21Vianet 사용자가 운영하는 비 Office 365 사용자 및 개인용 RMS 라이선스가 있는 사용자가 포함됩니다.
   
 - SharePoint(IRM으로 보호된 사이트 및 라이브러리)를 사용하는 IRM은 현재 사용할 수 없습니다.
   
@@ -51,7 +51,7 @@ ms.locfileid: "50099681"
 
 - 모바일 [뷰어는](/azure/information-protection/rms-client/mobile-app-faq) Azure China 21Vianet에서 지원되지 않습니다.
 
-- 중국 고객은 Azure Portal의 AIP 영역을 사용할 수 없습니다. 포털에서 작업을 수행하는 대신 [PowerShell](#step-5-install-the-aip-on-premises-scanner-and-manage-content-scan-jobs) 명령을 사용합니다(예: On-premises scanner 설치 및 콘텐츠 검색 작업 관리).
+- 중국의 고객은 Azure Portal의 AIP 영역을 사용할 수 없습니다. 포털에서 작업을 수행하는 대신 [PowerShell](#step-5-install-the-aip-on-premises-scanner-and-manage-content-scan-jobs) 명령을 사용합니다(예: On-premises scanner 설치 및 콘텐츠 검색 작업 관리).
 
 ## <a name="configure-aip-for-customers-in-china"></a>중국 고객의 AIP 구성
 

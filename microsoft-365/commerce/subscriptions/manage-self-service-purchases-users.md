@@ -33,7 +33,7 @@ ms.locfileid: "50114684"
 
 사용자는 특정 제품에 대한 구독을 구입하고 해당 구독에 대한 라이선스를 팀의 사용자에게 할당할 수 있습니다. 셀프 서비스 구매에 대한 대가를 지불해야 합니다. Microsoft 365 관리 센터의 microsoft 365 관리 센터에서 구독을 관리할 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">수</a>admin.microsoft.com.
 
-관리자는 구입한 모든 구독에 대한 읽기 전용 보기가 있습니다. 구매한 각 구독에 대한 제품, 구매자 이름, 구독, 만료 날짜, 구매 가격 및 할당된 사용자를 볼 수 있습니다.
+관리자는 구입한 모든 구독에 대한 읽기 전용 보기가 있습니다. 제품, 구매자 이름, 구입한 구독, 만료 날짜, 구매 가격 및 구입한 각 구독에 대해 할당된 사용자를 볼 수 있습니다.
 
 ## <a name="view-your-subscriptions"></a>구독 보기
 
@@ -46,7 +46,7 @@ ms.locfileid: "50114684"
 
 1. 관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.
 2. 제품 **탭에서** 더 구입하거나 라이선스를 줄일 구독을 선택합니다.
-3. 라이선스 **구입 또는** 라이선스 **제거를 선택 합니다.**
+3. Choose **Buy licenses** or **Remove licenses.**
 4. 오른쪽 창의 총 라이선스  상자에 이 구독에 대해 원하는 총 라이선스 수를 입력한 다음 저장을 **선택합니다.** 예를 들어 라이선스가 100개인 경우 5를 더 추가하려는 경우 105를 입력합니다.
 
 ## <a name="assign-or-unassign-licenses"></a>라이선스 할당 또는 할당 안 퇴장
@@ -64,7 +64,7 @@ ms.locfileid: "50114684"
 ### <a name="to-unassign-licenses"></a>라이선스를 배포하지 않는 경우
 
 1. 관리 센터에서 청구 라이선스   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">페이지로</a> 이동합니다.
-2. 라이선스의 배포를 해지할 제품을 선택하십시오.
+2. 라이선스를 배포할 제품을 선택하십시오.
 3. 라이선스를 배포할 사용자를 선택 합니다.
 4. Choose **Unassign licenses**.
 5. 라이선스의 **Unassign (Unassign) 상자에서** **Unassign (Unassign)을 선택합니다.**
@@ -96,7 +96,7 @@ ms.locfileid: "50114684"
 
 1. 관리 센터에서 청구서 및 결제 &  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">이동합니다.</a>
 2. 결제 **방법 탭에서** 결제 방법 **추가를 선택합니다.**
-3. 결제 **방법 추가 창에서** 새 결제 방법에 대한 정보를 입력한 다음 추가를 **선택하십시오.**
+3. 결제 방법 **추가 창에서** 새 결제 방법에 대한 정보를 입력한 다음 추가를 **선택하십시오.**
 
 ## <a name="view-your-invoices"></a>송장 보기
 
@@ -107,4 +107,4 @@ ms.locfileid: "50114684"
 
 셀프 서비스 구매에 대한 일반적인 질문은 셀프 서비스 [구매 FAQ를 참조하세요.](self-service-purchase-faq.md)
 
-질문이 있는 경우 또는 셀프 서비스 구매에 대한 도움이 필요한 경우 지원 [서비스에 문의하세요.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+질문이 있는 경우 또는 셀프 서비스 구매에 대한 도움이 필요한 경우 고객 [지원에 문의하세요.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)

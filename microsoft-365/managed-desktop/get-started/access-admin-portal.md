@@ -1,7 +1,7 @@
 ---
 title: 관리 포털 액세스
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
-description: 관리 포털에 대한 액세스 제어를 포함하여 관리 포털을 찾아 사용하는 방법
+description: 관리 포털을 찾아서 사용하는 방법(액세스 제어 포함)
 ms.service: m365-md
 ms.author: jaimeo
 author: jaimeo
@@ -19,13 +19,13 @@ ms.locfileid: "50110010"
 ---
 # <a name="access-the-admin-portal"></a>관리 포털 액세스
 
-Microsoft Managed Desktop 서비스에 대한 게이트웨이가 [Microsoft Endpoint Manager입니다.](https://endpoint.microsoft.com/) 장치 관리를 위해 이 포털의 기능을 익숙하지 않은 경우 [Microsoft Endpoint Manager](https://docs.microsoft.com/mem/)설명서를 참조하십시오.
+Microsoft Managed Desktop 서비스에 대한 게이트웨이는 [Microsoft Endpoint Manager입니다.](https://endpoint.microsoft.com/) 장치 관리를 위해 이 포털의 기능을 익숙하지 않은 경우 [Microsoft Endpoint Manager](https://docs.microsoft.com/mem/)설명서를 참조하십시오.
 
 > [!NOTE]
 > [Microsoft Endpoint Manager에서 지원되는](https://endpoint.microsoft.com/) 브라우저는 다음과 같습니다.
 > - Microsoft Edge(최신 버전)
 > - Microsoft Internet Explorer 11
-> - Safari(최신 버전, Mac에만 해당)
+> - Safari(최신 버전, Mac만 해당)
 > - Chrome(최신 버전)
 > - Firefox(최신 버전)
 
@@ -33,13 +33,13 @@ Microsoft Managed Desktop 서비스에 대한 게이트웨이가 [Microsoft Endp
 
 ## <a name="azure-active-directory-roles-with-microsoft-managed-desktop-access"></a>Microsoft Managed Desktop 액세스가 있는 Azure Active Directory 역할
 
-|Azure AD 역할  |Microsoft Managed Desktop 사용 권한  |
+|Azure AD 역할  |Microsoft Managed Desktop 권한  |
 |---------|---------|
 |전역 관리자     | 이 역할이 있는  관리자는 Microsoft Managed Desktop Admin 포털의 모든 기능에 대한 읽기 및 쓰기 권한이 있습니다.         |
 |전역 읽기 권한자     | 이 역할이 있는  관리자는 Microsoft Managed Desktop Admin 포털의 모든 기능에 대한 읽기 전용 권한을 하게 됩니다.         |
 |Intune 서비스 관리자     |  이 역할이 있는  관리자는 Microsoft Managed Desktop Admin 포털의 보안과 관련이 없는 기능에 대한 읽기 및 쓰기 권한이 있습니다.       |
-|서비스 지원 관리자     | 이 역할이 있는  관리자는 보안과 관련이 없는 기능에  대한 읽기 전용 권한을 가지며 Microsoft Managed Desktop Admin 포털에서 지원 요청을 관리하기 위한 쓰기 권한을 하게 됩니다.         |
-|보안 관리자 | 이 역할이 있는  관리자는 관리 포털에서 Microsoft  Managed Desktop의 보안 관련 기능에 대한 읽기 전용 권한을 가지며 모든 기능에 대한 읽기 전용 권한을 습니다. |
+|서비스 지원 관리자     | 이 역할이 있는  관리자는 Microsoft Managed Desktop Admin 포털에서 지원 요청을 관리하기 위한 보안 및 쓰기 권한과 관련이 없는 기능에 대한 읽기 전용 사용 권한을 하게 됩니다.          |
+|보안 관리자 | 이 역할이 있는  관리자는 관리 포털에서 Microsoft  Managed Desktop의 보안 관련 기능에 대한 읽기 전용 권한을 가지며 모든 기능에 대한 쓰기 권한이 있습니다. |
 |보안 읽기 권한자 |이 역할이 있는  관리자는 Microsoft Managed Desktop Admin 포털의 모든 기능에 대한 읽기 전용 권한을 하게 됩니다.|
 
 Azure Active Directory 역할 할당에 대한 도움이 필요한 경우 Azure Active Directory에서 관리자 역할 [권한을 참조하세요.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
@@ -50,7 +50,7 @@ Azure Active Directory 역할 할당에 대한 도움이 필요한 경우 Azure 
 ## <a name="built-in-roles-provided-by-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 제공하는 기본 제공 역할
 
 
-|기본 제공 역할  |Microsoft Managed Desktop 사용 권한  |
+|기본 제공 역할  |Microsoft Managed Desktop 권한  |
 |---------|---------|
 |Microsoft Managed Desktop Service 관리자  | 사용자에게 할당된 경우 이 역할은  Microsoft Managed Desktop Admin 포털의 보안과 관련이 없는 기능에 대한 읽기 및 쓰기 권한을 관리자에게 부여합니다.  |
 |Microsoft Managed Desktop Service Reader | 사용자에게 할당된 경우 이 역할은  Microsoft Managed Desktop Admin 포털의 보안과 관련이 없는 기능에 대한 읽기 전용 권한을 관리자에게 부여합니다. |
@@ -62,7 +62,7 @@ Azure Active Directory 역할 할당에 대한 도움이 필요한 경우 Azure 
 ### <a name="assigning-built-in-roles-to-user"></a>사용자에게 기본 제공 역할 할당
 
 기본 제공 역할을 쉽게 관리하기 위해 "최신 작업 공간 역할 _-_ 역할 이름"(예: "최신 작업 공간 역할 - 보안 관리자")으로 각 사용자 지정 역할에 대한 보안 그룹이 있습니다. 이러한 보안 그룹 중 하나에 사용자를 할당하기 위해 다음 단계를 수행합니다.
-1.  Microsoft Endpoint Manager 포털로 이동합니다.
+1.  Microsoft Endpoint Manager 포털로 이동
 2.  **왼쪽에서** 그룹을 선택합니다.
 3.  최신 작업 **공간** 역할을 검색한 다음 할당할 역할과 연결된 그룹을 선택합니다. 
 4.  **왼쪽에서** 구성원을 선택한 다음 **명령** 표시줄에서 + 구성원 추가를 선택합니다.

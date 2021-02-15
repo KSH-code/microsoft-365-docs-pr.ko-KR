@@ -44,7 +44,7 @@ ADAL(Active Directory 인증 라이브러리) 또는 MSAL(Microsoft 인증 라�
 <br>
 <br>
 
-| 클라이언트 | Android | iOS | Mac| Windows 10 <br> 최신 앱| Windows 10 <br> 데스크톱 |
+| 클라이언트 | Android | iOS | Mac| Windows 10 <br> 최신 앱| Windows 10 <br> 데스크톱 |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | Azure Active Directory 관리자 | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
 | Access | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
@@ -55,7 +55,7 @@ ADAL(Active Directory 인증 라이브러리) 또는 MSAL(Microsoft 인증 라�
 | Edge<sup>1</sup> | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
 | Excel | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |
 | Exchange Online 관리자 | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
-| 양식 | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 |
+| Forms | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 |
 | Office 365 관리자 | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |  |
 | Kaizala | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | 해당 없음 | 해당 없음 |
 | Office Lens| ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | ![지원됨](../media/check-mark.png) | 해당 없음 |
@@ -70,10 +70,10 @@ ADAL(Active Directory 인증 라이브러리) 또는 MSAL(Microsoft 인증 라�
 | Power BI | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |
 | PowerPoint | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |
 | Project | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
-| Publisher | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
+| 게시자 | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
 | 비즈니스용 Skype | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | ![지원](../media/check-mark.png) |
 | 비즈니스용 Skype 관리자 | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
-| SharePoint를 입력하세요. | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | 해당 없음 | 해당 없음 |
+| SharePoint | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | 해당 없음 | 해당 없음 |
 | SharePoint Online 관리자 | 계획 | 계획 | 해당 없음 | 해당 없음 | 해당 없음 |
 | 스티커 메모 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원됨](../media/check-mark.png) | 해당 없음 |
 | Stream | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | 해당 없음 | 해당 없음 |
@@ -87,7 +87,7 @@ ADAL(Active Directory 인증 라이브러리) 또는 MSAL(Microsoft 인증 라�
 | Yammer | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 계획 | 해당 없음 | 계획 |
 
 >[!NOTE]
-><sup>iOS</sup> 및 Android용 1 Edge는 계정 흐름 추가 중에 인증서 기반 인증을 지원합니다. iOS 및 Android용 에지에서는 일반적으로 인트라넷 사이트인 웹 사이트에 대해 인증을 수행할 때 인증서 기반 인증을 지원하지 않습니다. <br><br>  이 시나리오에서는 사용자가 웹 사이트(일반적으로 인트라넷)로 이동하여 사용자가 인증서를 통해 인증해야 하는 웹 사이트로 이동합니다. 이 경우 최신 인증이 사용되지는 않습니다. Microsoft 인증 라이브러리를 활용하지는 않습니다. iOS의 제한 때문에 iOS에서는 타사 앱이 인증서가 저장된 시스템 키체인에 액세스할 수 없습니다(Apple 앱과 [Safari webview](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) 컨트롤러만 시스템 키체인에 액세스할 수 있습니다). <br><br> Edge는 웹 사이트 렌더링을 위해 [WebKit](https://developer.apple.com/documentation/webkit) 프레임워크를 사용하게 때문에 Edge는 시스템 키체인에 액세스하여 사용자에게 인증서 선택을 제공하지 못합니다. 안타깝게도 Apple의 아키텍처 때문에 디자인되었습니다.
+><sup>iOS</sup> 및 Android용 1 Edge는 계정 흐름 추가 중에 인증서 기반 인증을 지원합니다. iOS 및 Android용 에지에서는 일반적으로 인트라넷 사이트인 웹 사이트에 대해 인증을 수행할 때 인증서 기반 인증을 지원하지 않습니다. <br><br>  이 시나리오에서는 사용자가 웹 사이트(일반적으로 인트라넷)로 이동하여 사용자가 인증서를 통해 인증해야 하는 웹 사이트로 이동합니다. 이 경우 최신 인증이 사용되지는 않습니다. Microsoft 인증 라이브러리를 활용하지는 않습니다. iOS의 제한 때문에 iOS에서는 타사 앱이 인증서가 저장된 시스템 키체인에 액세스할 수 없습니다(Apple 앱과 [Safari webview](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) 컨트롤러만 시스템 키체인에 액세스할 수 있습니다). <br><br> Edge는 웹 사이트를 렌더링하기 위해 [WebKit](https://developer.apple.com/documentation/webkit) 프레임워크를 사용하게 때문에 Edge는 시스템 키체인에 액세스하여 사용자에게 인증서 선택을 제공하지 못합니다. 안타깝게도 Apple의 아키텍처 때문에 디자인되었습니다.
 
 ## <a name="supported-powershell-modules"></a>지원되는 PowerShell 모듈
 

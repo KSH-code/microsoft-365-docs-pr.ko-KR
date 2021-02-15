@@ -55,13 +55,13 @@ ms.locfileid: "50114156"
 ::: moniker range="o365-worldwide"
 
 1. <https://admin.microsoft.com> 의 관리 센터로 이동합니다.
-2. 사용자 활성 **사용자로** 이동한 다음 > 사용자 **추가를 선택합니다.**
+2. 사용자  활성 > **사용자로 이동한** 다음 사용자 **추가를 선택합니다.**
 3. 기본 **설정** 창에서 기본 사용자 정보를 입력하고 다음을 **선택합니다.**
     - **이름** 이름과 성, 표시 이름 및 사용자 이름을 입력합니다.
-    - **도메인** 사용자 계정의 도메인을 선택하십시오. 예를 들어 사용자의 사용자 이름이 Jakob인 경우 도메인이 contoso.com 로그인할 수 있는 jakob@contoso.com.
+    - **도메인** 사용자 계정의 도메인을 선택하십시오. 예를 들어 사용자의 사용자 이름이 Jakob인 경우 도메인이 contoso.com 로그인할 수 jakob@contoso.com.
     - **암호 설정** 자동 생성 암호를 사용하거나 사용자에 대해 강력한 암호를 만들 수 있습니다.
-    - 사용자는 90일 후에 암호를 변경해야 합니다. 또는 이 사용자가 처음 로그인할 때 암호를 변경하도록 **선택할 수 있습니다.**
-    - 사용자가 추가될 때 암호를 전자 메일로 보낼지 여부를 선택하십시오.
+    - 사용자는 90일 후에 암호를 변경해야 합니다. 또는 이 사용자가 처음 로그인할 때 암호를 **변경하도록 선택할 수 있습니다.**
+    - 사용자가 추가될 때 전자 메일로 암호를 보낼지 여부를 선택하십시오.
 4. 제품 라이선스 **할당** 창에서 사용자의 위치 및 적절한 라이선스를 선택합니다. 사용 가능한 라이선스가 없어도 사용자를 추가하고 추가 라이선스를 구입할 수 있습니다. 앱을 **확장하고** 앱을 선택하거나 선택을 선택하여 사용자에게 라이선스가 있는 앱을 제한합니다. **다음** 을 선택합니다.
 5. 선택적 **설정 창에서** **역할을** 확장하여 이 사용자를 관리자로 설정합니다. 프로필 **정보를 확장하여** 사용자에 대한 추가 정보를 추가합니다.
 6. Select **Next,** review your new user's settings, make any changes you like, then select **Finish adding,** then **Close**.
@@ -71,7 +71,7 @@ ms.locfileid: "50114156"
 ::: moniker range="o365-germany"
 
 1. <https://portal.office.de/adminportal> 의 관리 센터로 이동합니다.
-2. 사용자 활성 **사용자로** 이동한 다음 > 사용자 **추가를 선택합니다.**
+2. 사용자  활성 > **사용자로 이동한** 다음 사용자 **추가를 선택합니다.**
 3. 새 사용자 **창에서** 다음 정보를 입력합니다. 완료되면 추가를 **선택합니다.**
     - **이름** 이름, 성, 표시 이름 및 사용자 이름을 입력합니다.
     - **도메인** 예를 들어 사용자의 사용자 이름이 Jakob인 경우 도메인이 contoso.com 로그인하려면 다음을 입력하여 jakob@contoso.com.
@@ -85,10 +85,10 @@ ms.locfileid: "50114156"
 ::: moniker range="o365-21vianet"
 
 1. <https://portal.partner.microsoftonline.cn> 의 관리 센터로 이동합니다.
-2. 사용자 활성 **사용자로** 이동한 다음 > 사용자 **추가를 선택합니다.**
+2. 사용자  활성 > **사용자로 이동한** 다음 사용자 **추가를 선택합니다.**
 3. 새 사용자 **창에서** 다음 정보를 입력합니다. 완료되면 추가를 **선택합니다.**
     - **이름** 이름, 성, 표시 이름 및 사용자 이름을 입력합니다.
-    - **도메인** 예를 들어 사용자의 사용자 이름이 Jakob인 경우 도메인이 contoso.com 로그인하려면 다음을 입력하여 jakob@contoso.com.
+    - **도메인** 예를 들어 사용자의 사용자 이름이 Jakob인 경우 도메인이 contoso.com 로그인할 때 사용자 이름을 입력하여 jakob@contoso.com.
     - **연락처 정보** 확장하여 휴대폰 번호, 주소 등을 입력합니다.
     - **암호** 자동 생성 암호를 사용하거나 확장하여 사용자의 강력한 암호를 지정합니다. 90일 후에 암호를 변경해야 합니다. 또는 **사용자가 처음 로그인할 때 암호를 변경하도록 설정** 할 수도 있습니다.
     - **역할** 사용자를 관리자로 설정해야 하는 경우 확장합니다.
@@ -102,8 +102,8 @@ ms.locfileid: "50114156"
 
 - **스프레드시트를 사용하여 사용자 일괄 추가** 동시에 [여러 사용자 추가를 참조합니다.](https://docs.microsoft.com/microsoft-365/enterprise/add-several-users-at-the-same-time)
 - **계정 추가 및 라이선스 할당을 자동화합니다.** [Microsoft 365 PowerShell을](https://docs.microsoft.com/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell)사용하여 사용자 계정 만들기를 참조합니다. 이미 cmdlet을 사용하는 방법에 익숙한 경우 이 Windows PowerShell 선택하십시오.
-- **ActiveDirectory를 사용하나요?** [Microsoft 365에 대한 디렉터리 동기화를 설치합니다.](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization) Azure AD Connect 도구를 사용하여 Microsoft 365에서 Active Directory 사용자 계정 및 기타 Active Directory 개체를 복제합니다. 동기화하면 사용자 계정만 추가됩니다. 동기화된 사용자에게 라이선스를 할당해야 전자 메일 및 기타 Office 앱을 사용할 수 있습니다.
-- **Exchange에서 마이그레이션?** 여러 [전자 메일 계정을 Office 365로](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration)마이그레이션하는 방법을 참조하세요. 컷오버, 단계적 또는 하이브리드 Exchange 방법을 사용하여 여러 사서함을 Microsoft 365로 마이그레이션하는 경우 마이그레이션의 일부로 사용자를 자동으로 추가합니다. 마이그레이션하면 사용자 계정만 추가됩니다. 전자 메일 및 기타 Office 앱을 사용하려면 먼저 사용자에게 라이선스를 할당해야 합니다. 사용자에게 라이선스를 할당하지 않은 경우 30일의 유예 기간이 지난 후 해당 사서함을 사용할 수 없습니다. Microsoft 365 관리 센터에서 사용자에게 라이선스를 할당하는 방법을 학습합니다. [](../manage/assign-licenses-to-users.md)
+- **ActiveDirectory 사용 여부** [Microsoft 365에 대한 디렉터리 동기화를 설정합니다.](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization) Azure AD Connect 도구를 사용하여 Microsoft 365에서 Active Directory 사용자 계정 및 기타 Active Directory 개체를 복제합니다. 동기화하면 사용자 계정만 추가됩니다. 동기화된 사용자에게 라이선스를 할당해야 전자 메일 및 기타 Office 앱을 사용할 수 있습니다.
+- **Exchange에서 마이그레이션 중이신가요?** 여러 [전자 메일 계정을 Office 365로](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration)마이그레이션하는 방법을 참조하세요. 컷오버, 단계적 또는 하이브리드 Exchange 방법을 사용하여 여러 사서함을 Microsoft 365로 마이그레이션하는 경우 마이그레이션의 일부로 사용자를 자동으로 추가합니다. 마이그레이션하면 사용자 계정만 추가됩니다. 전자 메일 및 기타 Office 앱을 사용하려면 먼저 사용자에게 라이선스를 할당해야 합니다. 사용자에게 라이선스를 할당하지 않은 경우 30일의 유예 기간 후에 해당 사서함을 사용할 수 없습니다. Microsoft 365 관리 센터에서 사용자에게 라이선스를 할당하는 방법을 학습합니다. [](../manage/assign-licenses-to-users.md)
 
 ## <a name="next-steps"></a>다음 단계
 

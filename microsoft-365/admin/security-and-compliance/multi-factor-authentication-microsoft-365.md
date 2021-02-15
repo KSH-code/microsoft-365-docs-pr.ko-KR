@@ -174,8 +174,8 @@ Microsoft 365 관리 센터에서 사용자별 및 서비스 MFA 설정을 구�
 
 [Microsoft 365 MFA 설정](set-up-multi-factor-authentication.md)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [비디오: 다단계 인증 켜기](https://docs.microsoft.com/microsoft-365/business-video/turn-on-mfa)
 
-[비디오: 휴대폰에 대해 다단계 인증 켜기](https://docs.microsoft.com/microsoft-365/business-video/set-up-mfa)
+[비디오: 휴대폰의 다단계 인증 켜기](https://docs.microsoft.com/microsoft-365/business-video/set-up-mfa)

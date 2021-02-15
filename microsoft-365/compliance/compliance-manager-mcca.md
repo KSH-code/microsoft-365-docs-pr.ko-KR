@@ -23,7 +23,7 @@ ms.locfileid: "50122398"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>준수 관리자용 Microsoft 준수 구성 분석기(미리 보기)
 
-**이 문서에서:** Microsoft 준수 관리자를 빠르게 시작할 수 있도록 Microsoft 규정 준수 구성 분석기 도구를 설치 및 실행하는 방법을 알아보고 있습니다.
+**이 문서에서:** Microsoft 준수 관리자를 빠르게 시작할 수 있도록 Microsoft 규정 준수 구성 분석기 도구를 설치하고 실행하는 방법을 학습합니다.
 
 ## <a name="microsoft-compliance-configuration-analyzer-mcca-preview-overview"></a>MCCA(Microsoft 준수 구성 분석기)(미리 보기) 개요
 
@@ -66,7 +66,7 @@ MCCA를 설치한 후 MCCA를 실행하고 보고서를 생성할 수 있습니�
     ```
 3. MCCA가 실행된 후 초기 버전 확인을 통해 자격 증명을 요청합니다. 사용자 이름 입력 프롬프트에서 Microsoft 365 계정 전자 메일 주소로 로그인합니다(보고서를 만들 수 있는 역할[보기).](#role-based-reporting) 그런 다음 암호 프롬프트에 암호를 입력합니다.
 
-그러면 보고서를 생성하는 데 약 2~5분이 걸립니다. 완료되면 브라우저 창이 열리며 HTML 보고서가 표시됩니다. 도구를 실행할 때마다 자격 증명을 요청하고 새 보고서를 생성합니다. 이 보고서는 다음 디렉터리에 로컬로 저장됩니다.
+그러면 보고서가 생성되는 데 약 2~5분 정도 걸립니다. 완료되면 브라우저 창이 열리며 HTML 보고서가 표시됩니다. 도구를 실행할 때마다 자격 증명을 요청하고 새 보고서를 생성합니다. 이 보고서는 다음 디렉터리에 로컬로 저장됩니다.
 
 C:\Users \<username> \AppData\Local\Microsoft\MCCA. 
 
@@ -74,7 +74,7 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
 
 ## <a name="understanding-your-report"></a>보고서 이해
 
-보고서에는 보고서가 생성된 날짜와 시간을 기준으로 데이터가 반영됩니다. 맨 위 섹션에서는 생성된 경우, 조직 이름 및 테넌트 ID에 대한 세부 정보를 제공합니다.
+보고서에는 보고서가 생성된 날짜 및 시간을 기준으로 데이터가 반영됩니다. 맨 위 섹션에서는 생성된 경우, 조직 이름 및 테넌트 ID에 대한 세부 정보를 제공합니다.
 
 #### <a name="geolocation-based-reporting"></a>지리적 위치 기반 보고
 
@@ -103,7 +103,7 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
   | 7  | 일본 |
   | 8  | 한국 |
   | 9  | 북미(캐나다 제외) |
-  | 10  | 남미 |
+  | 10   | 남미 |
   | 11  | 남아프리카 공화국 |
   | 12  | 스위스 |
   | 13  | 아랍에미리트 |
@@ -115,7 +115,7 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
 
 #### <a name="role-based-reporting"></a>역할 기반 보고
 
-또한 역할에 따라 보고서가 사용자 지정됩니다.
+또한 보고서는 역할에 따라 사용자 지정됩니다.
 
 아래 표에는 보고서의 어떤 섹션에 액세스할 수 있는 역할이 표시됩니다. 아래 표에 나열되지 않은 조직 내의 다른 역할은 도구를 실행하지 못하거나 도구를 실행하여 최종 보고서의 정보에 제한적으로 액세스할 수 있습니다.
 
@@ -160,4 +160,4 @@ DLP의 경우 권장되는  작업을 기반으로 미리 생성된 PowerShell �
 
 MCCA 설치, 설정 및 사용에 대한 자세한 내용은 [GitHub의 README](https://github.com/OfficeDev/MCCA#overview) 지침을 참조하세요(GitHub 계정 필요 없음).
 
-자세한 내용은 Windows PowerShell PowerShell 설명서를 사용하는 [방법부터 시작하세요.](https://docs.microsoft.com/powershell/scripting/how-to-use-docs?view=powershell-7) 자세한 내용은 [시작 Windows PowerShell.](https://docs.microsoft.com/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7)
+자세한 Windows PowerShell PowerShell 설명서를 사용하는 [방법부터 시작하세요.](https://docs.microsoft.com/powershell/scripting/how-to-use-docs?view=powershell-7) 자세한 내용은 [시작 Windows PowerShell.](https://docs.microsoft.com/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7)

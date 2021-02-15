@@ -85,7 +85,7 @@ ms.locfileid: "50126565"
 
 ### <a name="what-to-do"></a>수행할 작업
 
-해당 사용자가 정보 장벽 정책에 포함되어 있는지 확인 
+해당 사용자가 정보 장벽 정책에 포함되는지 확인 
 
 1. Identity 매개 변수와 함께 **Get-InformationBarrierRecipientStatus** cmdlet을 사용합니다.
 
@@ -102,7 +102,7 @@ ms.locfileid: "50126565"
 
     |**결과**|**다음에 할 일**|
     |:----------|:------------------|
-    | 선택한 사용자에 대한 세그먼트가 나열되지 않습니다. | 다음 중 하나를 수행합니다.<br/>- Azure Active Directory에서 사용자 프로필을 편집하여 기존 세그먼트에 사용자를 할당합니다. (Office [365 PowerShell을](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)사용하여 사용자 계정 속성 구성을 참조하세요.)<br/>- 정보 장벽에 대해 지원되는 특성을 [사용하여 세그먼트를 정의합니다.](information-barriers-attributes.md) 그런 다음 새 정책을 [정의하거나](information-barriers-policies.md#part-2-define-information-barrier-policies) 해당 세그먼트를 포함하기 [위해](information-barriers-edit-segments-policies.md#edit-a-policy) 기존 정책을 편집합니다. |
+    | 선택한 사용자에 대한 세그먼트가 나열되지 않습니다. | 다음 중 하나를 수행합니다.<br/>- Azure Active Directory에서 사용자 프로필을 편집하여 기존 세그먼트에 사용자를 할당합니다. (Office [365 PowerShell을](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)사용하여 사용자 계정 속성 구성을 참조하세요.)<br/>- 정보 장벽에 대해 지원되는 특성을 사용하여 [세그먼트를 정의합니다.](information-barriers-attributes.md) 그런 다음 새 정책을 [정의하거나](information-barriers-policies.md#part-2-define-information-barrier-policies) 해당 세그먼트를 포함하기 위해 기존 정책을 편집합니다. [](information-barriers-edit-segments-policies.md#edit-a-policy) |
     | 세그먼트가 나열되지만 이러한 세그먼트에 정보 장벽 정책이 할당되지 않습니다. | 다음 중 하나를 수행합니다.<br/>- [해당 세그먼트마다](information-barriers-policies.md#part-2-define-information-barrier-policies) 새로운 정보 장벽 정책 정의 <br/>- [기존 정보 장벽](information-barriers-edit-segments-policies.md#edit-a-policy) 정책을 편집하여 올바른 세그먼트에 할당 |
     | 세그먼트가 나열되어 있으며 각 세그먼트는 정보 장벽 정책에 포함됩니다. | - `Get-InformationBarrierPolicy` cmdlet을 실행하여 정보 장벽 정책이 활성 상태인지 확인<br/>- `Get-InformationBarrierPoliciesApplicationStatus` cmdlet을 실행하여 정책이 적용되는지 확인<br/>- `Start-InformationBarrierPoliciesApplication` cmdlet을 실행하여 모든 활성 정보 장벽 정책 적용 |
 
@@ -172,7 +172,7 @@ ms.locfileid: "50126565"
 
 ## <a name="issue-information-barrier-policy-not-applied-to-all-designated-users"></a>문제: 지정된 모든 사용자에게 적용되지 않는 정보 장벽 정책
 
-세그먼트를 정의하고, 정보 장벽 정책을 정의하고, 해당 정책을 적용하려고 시도한 후 정책이 일부 받는 사람에게 적용되고 다른 받는 사람에게는 적용되지 않는 것을 발견할 수 있습니다.
+세그먼트를 정의하고, 정보 장벽 정책을 정의하고, 해당 정책을 적용하려고 한 후 정책이 일부 받는 사람에게 적용되고 다른 받는 사람에게는 적용되지 않을 수 있습니다.
 cmdlet을 실행할 때 출력에서 `Get-InformationBarrierPoliciesApplicationStatus` 다음 텍스트를 검색합니다.
 
 > ID: `<application guid>`
@@ -199,7 +199,7 @@ $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDat
    $DetailedLogs[1] |fl
 ```
 
-예:
+예시:
 
 > "UserId": User1
 >

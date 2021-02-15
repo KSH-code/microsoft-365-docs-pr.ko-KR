@@ -39,7 +39,7 @@ ms.locfileid: "50114492"
 ::: moniker-end
 
 > [!IMPORTANT]
-> 이 문서에 설명된 Microsoft 365 업데이트는 Microsoft 365, SharePoint Online 및 Exchange Online에 적용됩니다. 이러한 릴리스 옵션은 Microsoft 365에 대한 변경 내용을 릴리스하는 가장 좋은 방법을 대상으로 하지만 어떤 경우나 모든 업데이트에 대해 보장할 수는 없습니다. Microsoft 365 앱, 비즈니스용 Skype, Microsoft Teams 및 관련 서비스에는 적용되지 않습니다. Microsoft 365 앱의 릴리스 옵션에 대한 자세한 내용은 Microsoft 365 앱 업데이트 채널 [개요를 참조하세요.](https://docs.microsoft.com/deployoffice/overview-update-channels)
+> 이 문서에 설명된 Microsoft 365 업데이트는 Microsoft 365, SharePoint Online 및 Exchange Online에 적용됩니다. 이러한 릴리스 옵션은 Microsoft 365에 대한 변경 내용을 릴리스하는 최선의 방법을 대상으로 하지만, 어떤 경우나 모든 업데이트에 대해 보장할 수는 없습니다. Microsoft 365 앱, 비즈니스용 Skype, Microsoft Teams 및 관련 서비스에는 적용되지 않습니다. Microsoft 365 앱의 릴리스 옵션에 대한 자세한 내용은 Microsoft 365 앱 업데이트 채널 [개요를 참조하세요.](https://docs.microsoft.com/deployoffice/overview-update-channels)
 
 Microsoft 365를 사용하면 몇 년마다 비용이 많이 드는 업데이트를 수행하지 않고 새로운 제품 업데이트 및 기능을 사용할 수 있습니다. 관리자는 조직에서 이러한 업데이트를 받는 방법을 관리할 수 있습니다. 예를 들어, 조직에서 먼저 업데이트를 받도록 초기 릴리스에 등록할 수 있습니다. 특정 개인만 업데이트를 받도록 지정할 수 있습니다. 또는 기본 릴리스 일정을 유지하고 나중에 업데이트를 받을 수도 있습니다. 이 문서에서는 다양한 릴리스 옵션과 조직에 사용할 수 있는 방법에 대해 설명합니다.
 
@@ -77,7 +77,7 @@ Microsoft 365를 사용하면 몇 년마다 비용이 많이 드는 업데이트
   
 ### <a name="targeted-release-for-selected-users"></a>선택한 사용자에 대한 대상 지정된 릴리스
 
-이 [옵션에](#set-up-the-release-option-in-the-admin-center) 대한 릴리스 옵션을 관리 센터에서 설정한 경우 기능 및 기능에 대한 조기 액세스를 받을 특정 사용자(일반적으로 파워 사용자)를 정의할 수 있습니다. 
+이 [옵션에](#set-up-the-release-option-in-the-admin-center) 대해 관리 센터에서 릴리스 옵션을 설정한 경우 기능 및 기능에 대한 조기 액세스를 받을 특정 사용자(일반적으로 파워 사용자)를 정의할 수 있습니다. 
   
 ## <a name="benefits-of-targeted-release"></a>대상 지정된 릴리스의 이점
 
@@ -108,12 +108,12 @@ Microsoft 365를 사용하면 몇 년마다 비용이 많이 드는 업데이트
     
 7. 조직의 일부 사용자에 대해 대상 지정 릴리스를 사용하도록 설정하려면 선택한 사용자에 대해 대상 지정 릴리스를 선택한 다음 **변경** 내용 **저장을 선택합니다.** 
     
-8. 사용자를 **한에** 하나씩 추가하려면 사용자  선택을 선택하거나, 사용자를 업로드하여 대량으로 추가합니다.
+8. 사용자를 **한에** 하나씩 추가하려면 사용자  선택을 선택하거나, 대량으로 추가할 사용자를 업로드합니다.
     
 9. 사용자 추가가 완료되면 변경 내용 **저장을 선택합니다.**
 
 
   
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
 [Microsoft 365](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter) 메시지 센터에서 메시지를 관리하여 예정된 Microsoft 365 업데이트 및 릴리스에 대한 알림을 다운로드하는 방법을 확인합니다. [](https://docs.microsoft.com/office365/admin/manage/message-center)

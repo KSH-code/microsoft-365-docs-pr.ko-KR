@@ -28,12 +28,12 @@ ms.locfileid: "50107392"
 
 ## <a name="to-access-topics-management-settings"></a>항목 관리 설정에 액세스하려면
 
-1. Microsoft 365 관리 센터에서 설정, Org 설정을 **클릭합니다.**
+1. Microsoft 365 관리 센터에서 설정을 클릭한 **다음, Org 설정을 클릭합니다.**
 2. 서비스 **탭에서** 항목 **환경을 클릭합니다.**
 
     ![지식에 사람 연결](../media/admin-org-knowledge-options-completed.png) 
 
-3. 항목 사용 **권한 탭을** 선택합니다. 각 설정에 대한 자세한 내용은 다음 섹션을 참조하세요.
+3. 항목 **사용 권한 탭을** 선택합니다. 각 설정에 대한 자세한 내용은 다음 섹션을 참조하세요.
 
     ![knowledge-network-settings](../media/knowledge-network-settings-topic-permissions.png) 
 
@@ -66,6 +66,6 @@ ms.locfileid: "50107392"
 
 [Microsoft Viva 항목에서 항목 검색 관리](topic-experiences-discovery.md)
 
-[Microsoft Viva 항목의 항목 표시 여부 관리](topic-experiences-knowledge-rules.md)
+[Microsoft Viva 항목의 항목 표시 관리](topic-experiences-knowledge-rules.md)
 
 [Microsoft Viva 항목에서 항목 센터의 이름 변경](topic-experiences-administration.md)

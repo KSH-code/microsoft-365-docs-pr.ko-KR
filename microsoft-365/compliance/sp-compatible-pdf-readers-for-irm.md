@@ -26,7 +26,7 @@ ms.locfileid: "50142433"
 ---
 # <a name="sharepoint-compatible-pdf-readers-that-support-microsoft-information-rights-management-services"></a>SharePoint-Compatible Microsoft 정보 권한 관리 서비스를 지원하는 PDF 판독기
 
-Microsoft SharePoint 2013에서는 PDF 문서의 IRM(정보 권한 관리) 보호 기능을 제공합니다. 이러한 지원을 통해 사용자는 PDF 문서를 IRM으로 보호된 라이브러리에 업로드할 수 있으며 다운로드 시 IRM을 통해 파일이 Microsoft Office 있습니다.
+Microsoft SharePoint 2013에서는 PDF 문서의 IRM(정보 권한 관리) 보호 기능을 제공합니다. 이러한 지원을 통해 사용자는 PDF 문서를 IRM으로 보호된 라이브러리에 업로드할 수 있으며 다운로드 시 IRM을 사용하여 파일이 Microsoft Office 있습니다.
   
 소유자가 IRM으로 보호한 라이브러리에서 PDF 파일을 사용하려면 사용자는 다음 PDF 호환 읽기 프로그램 중 하나를 얻어야 합니다.
   

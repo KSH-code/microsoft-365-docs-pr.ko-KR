@@ -52,7 +52,7 @@ ms.locfileid: "50114012"
 
 2. 사용자 **활성 사용자를** > **선택합니다.**
 
-3. 이동할 모든 사용자의 이름 옆에 있는 상자를 선택합니다.
+3. 이동할 모든 사용자의 이름 옆에 있는 확인란을 선택합니다.
 
 4. Select **More options** (**...**), at the top of the page, and then choose **Change domains**.
 
@@ -68,7 +68,7 @@ ms.locfileid: "50114012"
 
 2. 사용자 **활성 사용자를** > **선택합니다.**
 
-3. 이동할 모든 사용자의 이름 옆에 있는 상자를 선택합니다.
+3. 이동할 모든 사용자의 이름 옆에 있는 확인란을 선택합니다.
 
 4. At the top of the page, choose **More** > **Edit domains.**
 
@@ -84,7 +84,7 @@ ms.locfileid: "50114012"
 
 2. 사용자 **활성 사용자를** > **선택합니다.**
 
-3. 이동할 모든 사용자의 이름 옆에 있는 상자를 선택합니다.
+3. 이동할 모든 사용자의 이름 옆에 있는 확인란을 선택합니다.
 
 4. At the top of the page, choose **More** > **Edit domains.**
 
@@ -148,9 +148,9 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 그룹 **그룹 페이지로** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a> 이동합니다.
+1. 관리 센터에서 그룹 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">페이지로</a> 이동합니다.
   
-2. 그룹 이름을 선택한 다음 전자 메일 주소 기본 아래에 있는 일반 **탭에서** **편집을** **선택합니다.**
+2. 그룹 이름을 선택한 다음 전자  메일 주소 기본 아래에 있는 일반 탭에서 **편집을** **선택합니다.**
 
 3. 드롭다운 목록을 사용하여 다른 도메인을 선택합니다.
 
@@ -160,7 +160,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 ::: moniker range="o365-germany"
 
-1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">센터에서</a>그룹 **그룹 페이지로** >  이동합니다.
+1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">센터에서</a>그룹 **그룹** > **페이지로** 이동합니다.
 
 2. 그룹 이름을 선택하고 이름 옆에 **있는** 편집을 **선택합니다.**
 
@@ -172,7 +172,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">센터에서</a>그룹 **그룹 페이지로** >  이동합니다.
+1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">센터에서</a>그룹 **그룹** > **페이지로** 이동합니다.
 
 2. 그룹 이름을 선택하고 이름 옆에 **있는** 편집을 **선택합니다.**
 

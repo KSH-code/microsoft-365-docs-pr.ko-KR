@@ -16,7 +16,7 @@ search.appverid:
 ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
-description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 및 업데이트된 설명서를 배포하는 경우, Microsoft 365는 계속 변화하는 규정 준수 환경의 최상단을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
+description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 및 업데이트된 설명서를 배포하는 경우 Microsoft 365는 변화하는 규정 준수 환경의 최상단을 유지하도록 지원합니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 682f736456ebe822ee5a34de0175003fd7516920
 ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
@@ -27,7 +27,7 @@ ms.locfileid: "50113977"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
-[Microsoft 365](microsoft-365-compliance-center.md)규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 및 업데이트된 설명서를 배포하는 경우, Microsoft 365는 계속 변화하는 규정 준수 환경의 최상단을 유지하도록 지원합니다. 아래에서 Microsoft 365 규정 준수의 새로운 모습을 확인하세요.
+[Microsoft 365](microsoft-365-compliance-center.md)규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 및 업데이트된 설명서를 배포하는 경우, Microsoft 365는 변화하는 규정 준수 환경의 최상단을 유지하도록 지원합니다. 아래에서 Microsoft 365 규정 준수의 새로운 모습을 확인하세요.
 
 > [!NOTE]
 > 일부 규정 준수 기능은 고객에게 다른 속도로 롤아웃됩니다. 아직 기능이 없는 경우 대상 릴리스에 자신을 [추가해 보세요.](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365)
@@ -42,7 +42,7 @@ ms.locfileid: "50113977"
 
 Microsoft 365 규정 준수 콘텐츠 팀은 규정 준수 기능을 함께 사용하여 규정 준수 목표를 달성하는 방법을 홍보하기 위해 '콘텐츠 솔루션' docs를 만들기 위해 노력합니다.
 
-먼저 커뮤니케이션 규정 준수, 내부자 위험 관리, 정보 장벽 및 권한 있는 액세스 관리와 같은 내부자 위험 솔루션을 함께 연계하는 콘텐츠입니다. 다음은 찾을 수 있는 정보를 한 가지 예입니다.
+먼저 커뮤니케이션 규정 준수, 내부자 위험 관리, 정보 장벽 및 권한이 부여된 액세스 관리와 같은 내부자 위험 솔루션을 함께 연계하는 콘텐츠입니다. 다음은 찾을 수 있는 정보를 한 가지 예입니다.
 
 - [내부자 위험 솔루션에 대한 새 방문 페이지입니다.](insider-risk-solution-overview.md) 솔루션으로 완화, 라이선스 요구 사항, 배포 시퀀스, 아키텍처 그림, 교육 리소스 등 완화에 도움이 될 수 있는 위험에 대한 세부 정보가 포함됩니다.
 - 각 내부자 위험 솔루션에 대한 새로운 개요 문서입니다. 각 솔루션에 대해 알아보고, 계획하고, 배포하고, 관리하는 데 도움이 되는 문서에 대한 지침 및 링크:
@@ -63,7 +63,7 @@ Microsoft 365 규정 준수 콘텐츠 팀은 규정 준수 기능을 함께 사�
 
 ### <a name="encryption"></a>암호화
 
-테넌트 [수준에서 Microsoft 365용 고객 키를 소개합니다.](customer-key-tenant-level.md) 제공한 키를 사용하여 DEP(데이터 암호화 정책)를 만들고 테넌트에 할당할 수 있습니다. DEP는 다음 워크로드에 대한 테넌트에서 데이터를 암호화합니다.
+테넌트 [수준에서 Microsoft 365에 대한 고객 키를 소개합니다.](customer-key-tenant-level.md) 제공한 키를 사용하여 DEP(데이터 암호화 정책)를 만들고 테넌트에 할당할 수 있습니다. DEP는 이러한 워크로드에 대한 테넌트에서 데이터를 암호화합니다.
 
 - Teams 채팅 메시지(1:1 채팅, 그룹 채팅, 모임 채팅 및 채널 대화)
 - Teams 미디어 메시지(이미지, 코드, 비디오, 위키 이미지)
@@ -112,7 +112,7 @@ eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수
 ### <a name="sensitivity-labels"></a>민감도 레이블
 
 - [(미리 보기) SharePoint 사이트에 대한 외부 공유 설정입니다.](sensitivity-labels-teams-groups-sites.md#how-to-configure-groups-and-site-settings) 그룹 및 사이트에 사용할 레이블을 만들 때 레이블이 적용된 SharePoint 사이트의 외부 공유를 제어하는 옵션이 표시됩니다. 모든 사용자, 신규 및 기존 게스트, 기존 게스트만 또는 조직의 사용자에 대해 공유를 허용하도록 지정할 수 있습니다. 레이블이 적용되면 레이블 설정이 SharePoint 관리 센터에 구성된 외부 공유 설정을 [대체합니다.](https://docs.microsoft.com/sharepoint/change-external-sharing-site)
-- [레이블이 있는 문서에서 레이블 및 암호화를 제거합니다.](sensitivity-labels-sharepoint-onedrive-files.md#remove-encryption-for-a-labeled-document) 레이블과 암호화를 모두 제거하려면 전역 관리자와 SharePoint 관리자가 새 cmdlet을 실행할 수 `Unlock-SPOSensitivityLabelEncryptedFile` 있습니다. 이 cmdlet은 관리자가 사이트 또는 파일에 대한 액세스 권한이 없거나 Azure 권한 관리 서비스를 사용할 수 없는 경우에도 실행됩니다.
+- [레이블이 있는 문서에서 레이블 및 암호화를 제거합니다.](sensitivity-labels-sharepoint-onedrive-files.md#remove-encryption-for-a-labeled-document) 레이블과 암호화를 모두 SharePoint의 레이블이 지정한 문서에서 제거하려면 전역 관리자와 SharePoint 관리자가 새 `Unlock-SPOSensitivityLabelEncryptedFile` cmdlet을 실행할 수 있습니다. 이 cmdlet은 관리자가 사이트 또는 파일에 대한 액세스 권한이 없거나 Azure 권한 관리 서비스를 사용할 수 없는 경우에도 실행됩니다.
 
 ## <a name="october-2020"></a>2020년 10월
 
@@ -144,24 +144,24 @@ eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수
 ### <a name="communication-compliance"></a>커뮤니케이션 규정 준수
 
 - [역할 그룹이 업데이트되었습니다.](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance) 통신 준수 역할 그룹은 이제 내부자 위험 관리 솔루션에 사용할 수 있는 역할 그룹 구조와 일치합니다.
-- [대시보드를 보고합니다.](communication-compliance-feature-reference.md#reports-preview) 모든 통신 준수 보고서를 볼 수 있는 중앙 위치입니다. 보고서 위젯은 커뮤니케이션 준수 활동의 상태를 전반적으로 평가하는 데 가장 일반적으로 필요한 인사이트를 빠르게 볼 수 있도록 합니다.
+- [대시보드를 보고합니다.](communication-compliance-feature-reference.md#reports-preview) 모든 통신 준수 보고서를 볼 수 있는 중앙 위치입니다. 보고서 위젯은 커뮤니케이션 준수 활동의 상태를 전반적으로 평가하는 데 가장 일반적으로 필요한 인사이트를 빠르게 확인할 수 있도록 합니다.
 - [전원 흐름을 자동화합니다.](communication-compliance-feature-reference.md#power-automate-flows) 경고 및 사용자에 대한 작업을 자동화하고, 사용자가 경고를 트리거할 때 관리자에게 알리는 흐름을 설정하는 등 작업을 수행합니다.
 - ['분류 개선' 수정 작업.](communication-compliance-investigate-remediate.md#step-3-decide-on-a-remediation-action) 학습 가능한 분류자와 일치하는 항목이 포함된 경고는 피드백을 통해 조직에서 가짓 긍정을 최소화할 수 있습니다. 분류 **개선 옵션을** 사용하면 검색된 항목이 관련 통신 준수 정책에 구성된 분류자와 일치하는지 여부를 피드백을 제공할 수 있습니다. 항목과 연결하여 향후 경고에 대한 일치 정확도를 향상시킬 다른 분류자도 제안할 수 있습니다.
 
 ### <a name="data-connectors"></a>데이터 커넥터
 
 - [새 타사 데이터 커넥터.](archiving-third-party-data.md#third-party-data-connectors) Globanet의 커넥터 14개와 Telemessage의 8개 커넥터를 포함하여 새 데이터 커넥터 25개
-- [물리적 배지 커넥터.](import-physical-badging-data.md) 직원의 원시 물리적 액세스 이벤트 또는 조직의 배지 시스템에 의해 생성된 모든 물리적 액세스 알람과 같은 물리적 배지 데이터를 가져올 수 있습니다. 예를 들어 건물, 서버 방 또는 데이터 센터에 대한 항목이 포함됩니다. 내부자 위험 관리 솔루션에서 물리적 배지 데이터를 사용하여 조직 내부의 악의적인 활동이나 데이터 도용으로부터 조직을 보호할 수 있습니다.
+- [물리적 배지 커넥터.](import-physical-badging-data.md) 직원의 원시 물리적 액세스 이벤트 또는 조직의 배지 시스템에서 생성된 모든 물리적 액세스 알람과 같은 물리적 배지 데이터를 가져올 수 있습니다. 예를 들어 건물, 서버 방 또는 데이터 센터에 대한 항목이 포함됩니다. 내부자 위험 관리 솔루션에서 물리적 배지 데이터를 사용하여 조직 내부의 악의적인 활동이나 데이터 도용으로부터 조직을 보호할 수 있습니다.
 
 ### <a name="insider-risk-management"></a>내부자 위험 관리
 
-- [Microsoft Teams 통합.](insider-risk-management-settings.md#microsoft-teams-preview) 내부자 위험 설정에서 Teams 통합이 설정되어 있는 경우 개별 사례와 관련된 데이터를 안전하게 공유 및 저장하고 분석가 및 조사자의 응답 활동을 추적 및 검토하는 등 작업에서 Teams의 다른 이해 관계자와 협력할 수 있습니다.
+- [Microsoft Teams 통합.](insider-risk-management-settings.md#microsoft-teams-preview) 내부자 위험 설정에서 Teams 통합이 설정되어 있는 경우 개별 사례와 관련된 데이터를 안전하게 공유 및 저장하고 분석가 및 조사자의 응답 활동을 추적 및 검토하는 등 Teams의 다른 이해 관계자와 협력할 수 있습니다.
 - [전원 흐름을 자동화합니다.](insider-risk-management-settings.md#power-automate-flows-preview) 사용자, 경고 및 사례 정보를 검색하여 관련자 및 기타 앱과 공유하고 사례 메모에 게시와 같은 작업을 자동화하는 등 사례 및 사용자에 대한 중요한 작업을 자동화하는 흐름을 설정합니다.
 - [활동 탐색기.](insider-risk-management-alerts.md#activity-explorer-preview) 경고를 검토할 때 사용할 수 있는 활동 탐색기는 조사자 및 분석가에게 각 경고로 드릴다운하기 위한 포괄적인 분석 도구를 제공합니다. 검색된 위험한 활동의 타임라인을 신속하게 검토하고 경고와 관련된 모든 위험 활동을 식별하고 필터링합니다.
 
 ### <a name="retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블
 
-- [에 대한 Yammer.](retention-policies-yammer.md) 이제 보존 정책을 사용하여 커뮤니티 메시지 및 개인 Yammer 보존하고 삭제할 수 있습니다.
+- [에 대한 Yammer.](retention-policies-yammer.md) 이제 보존 정책을 사용하여 커뮤니티 메시지와 개인 Yammer 보존하고 삭제할 수 있습니다.
 - [Teams 모임 녹음/녹화에 레이블을 적용합니다.](apply-retention-labels-automatically.md#microsoft-teams-meeting-recordings) 자동 레이블 지정 정책을 만들 때 키워드 쿼리 편집기를 사용하여 사용자의 OneDrive 계정 또는 SharePoint에 저장된 Teams 모임 녹음/녹화를 식별합니다.
 
 ### <a name="records-management"></a>레코드 관리
@@ -170,11 +170,11 @@ eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수
 
 ### <a name="sensitivity-labels"></a>민감도 레이블
 
-[미국 정부 고객에 대한 지원.](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description) 이제 GCC, GCC High 및 DoD 고객에게 민감도 레이블이 지원되고 Azure Information Protection 통합 레이블 클라이언트 및 스캐너에 한해 지원됩니다.
+[미국 정부 고객에 대한 지원.](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description) 이제 GCC, GCC High 및 DoD 고객에 대해 민감도 레이블이 Azure Information Protection 통합 레이블 클라이언트 및 스캐너에만 지원됩니다.
 
 ### <a name="trainable-classifiers"></a>교육 가능한 분류자
 
-새로운 재조정 및 피드백 기능은 모든 사용자 지정 분류자 및 사전 학습된 분류자에 대한 정확도를 개선하고 가양성 일치를 최소화하는 데 도움이 됩니다. 이 흐름을 통해 항목이 특정 분류자와 일치하는지 여부에 대한 피드백을 제공하고, 항목과 연결하기 위한 다른 분류자 제안, 일치 정확도를 구체화 및 개선하기 위한 분류자 재조정을 할 수 있습니다.
+새로운 재조정 및 피드백 기능은 정확도를 개선하고 모든 사용자 지정 분류자 및 사전 학습된 일부 분류자에 대한 가양성 일치를 최소화하는 데 도움이 됩니다. 이 흐름을 통해 항목이 특정 분류자와 일치하는지 여부에 대한 피드백을 제공하고, 항목과 연결하기 위한 다른 분류자 제안, 일치 정확도를 구체화 및 개선하기 위한 분류자 재조정을 할 수 있습니다.
 
 이 새로운 기능은 다음 기능에 포함되어 있습니다.
 
@@ -204,7 +204,7 @@ eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수
 - [끝점용 Microsoft Defender와의](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 통합을 통해 새 보안 위반 정책 템플릿에서 만든 정책으로 검색된 활동에 대한 끝점용 Microsoft Defender 경고를 가져오고 필터링할 수 있습니다. 또한 끝점 경고 [](insider-risk-management-settings.md#microsoft-defender-for-endpoint-preview) 등급 상태에 대한 Microsoft Defender를 기반으로 내부자 위험 관리로 보안 경고를 가져올 수 있는 관련 내부자 위험 설정도 있습니다.
 
     > [!NOTE]
-    > 끝점 통합을 위한 Microsoft Defender(새 보안 정책 위반 템플릿 포함)를 활용하려면 조직에 끝점용 Microsoft Defender를 구성해야 합니다. 또한 끝점용 Microsoft Defender의 고급 기능을 구성하여 내부자 위험 관리 통합을 위해 [끝점에 대해 Microsoft Defender를 사용하도록 설정해야 합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)
+    > 끝점 통합을 위한 Microsoft Defender(새 보안 정책 위반 템플릿 포함)를 활용하려면 조직에 끝점용 Microsoft Defender를 구성해야 합니다. 또한 끝점용 Microsoft Defender의 고급 기능을 구성하여 내부자 위험 관리 통합을 위해 [끝점용 Microsoft Defender를 사용하도록 설정해야 합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)
  
 - 정책을 만들 때 표시기 [임계값을 사용자 지정합니다.](insider-risk-management-policies.md#create-a-new-policy)
 - 우선 [순위 사용자](insider-risk-management-settings.md#priority-user-groups-preview) 그룹을 설정하여 자신의 위치, 중요한 정보에 대한 액세스 수준 또는 위험 기록과 같은 요인에 따라 활동이 필요한 사용자를 정의합니다.
@@ -245,7 +245,7 @@ eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수
 
 ### <a name="spotlight-on-help-docs"></a>도움말 도움말에 대한 스포트라이트
 
-조직의 중요한 데이터를 보호하고 관리하기 위해 사용되는 규정 준수 솔루션을 이해하기 위해 관련 문서에 대한 링크를 포함하여 솔루션이 이러한 목표를 달성하기 위해 함께 작업하는 방식에 대한 개요가 있는 두 개의 새로운 방문 페이지를 만들 수 있습니다.
+조직의 중요한 데이터를 보호하고 관리하기 위해 사용되는 규정 준수 솔루션을 이해하기 위해 관련 문서에 대한 링크를 포함하여 이러한 목표를 달성하기 위해 솔루션이 함께 작동되는 방식에 대한 개요가 있는 두 개의 새로운 방문 페이지를 만들 수 있습니다.
 
 [Microsoft 365의 Microsoft Information Protection](information-protection.md)<br>
 [Microsoft 365의 Microsoft 정보 거버넌스](manage-Information-governance.md)

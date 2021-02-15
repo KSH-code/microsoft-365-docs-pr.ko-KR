@@ -20,7 +20,7 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: 비즈니스 구독에 대한 청구되는 기간을 변경하는 방법에 대해 자세히 알아보습니다.
+description: 비즈니스 구독에 대해 청구되는 청구되는 기간을 변경하는 방법에 대해 자세히 알아보습니다.
 ms.openlocfilehash: 77d2e72b7b315f223cc6ab7faf3e53f8354218ae
 ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT

@@ -24,7 +24,7 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
-description: 비즈니스용 Microsoft 365의 대금 청구 주소를 업데이트하는 방법을 자세히 알아보는 방법을 배워야 합니다. 청구 알림을 받는 데 사용되는 전자 메일 주소를 업데이트할 수도 있습니다.
+description: 비즈니스용 Microsoft 365의 대금 청구 주소를 업데이트하는 방법을 알아보는 방법을 배워야 합니다. 청구 알림을 받는 데 사용되는 전자 메일 주소를 업데이트할 수도 있습니다.
 ms.openlocfilehash: a6019a72bff1e5f4a3d0e6fdc6bb8cf7b8344d26
 ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
@@ -41,7 +41,7 @@ ms.locfileid: "50114874"
 
 ::: moniker-end
 
-청구서 또는 송장에는 다음 세 가지 주소가 포함되어 있습니다.
+청구서 또는 송장에는 다음 세 개의 주소가 포함되어 있습니다.
   
 - **구매자 주소** 조직 프로필에 표시된 회사 이름과 주소입니다.
 
@@ -65,13 +65,13 @@ ms.locfileid: "50114874"
 
 ::: moniker range="o365-21vianet"
 
-중국의 21Vianet에서 운영하는 Office 365를 사용하는 경우 청구서 보기를 참조하거나 [21Vianet에서 운영하는 Office 365용 Fapiaos를](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md)사용
+중국의 21Vianet에서 운영하는 Office 365를 사용하는 경우 청구서 보기를 참조하거나 [21Vianet에서 운영하는 Office 365용 Fapiaos를](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md)받을 수 있습니다.
 
 ::: moniker-end
 
 ## <a name="change-your-sold-to-address"></a>구매자 주소 변경
 
-1. 관리 센터에서 청구 계정  페이지로 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank"></a> 이동합니다.
+1. 관리 센터에서 청구 계정  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">페이지로</a> 이동합니다.
 
 2. 청구 **계정 정보 편집을 선택합니다.**
 
@@ -85,7 +85,7 @@ ms.locfileid: "50114874"
 
 2. 변경할 신용 카드 또는 은행 계좌를 선택합니다.
 
-3. 결제 방법 **세부 정보 페이지에서** 편집을 **선택합니다.**
+3. 결제 **방법 세부 정보 페이지에서** 편집을 **선택합니다.**
 
 4. 청구 주소를 업데이트한 다음 저장 **완료를** \> **선택합니다.**
 
@@ -104,7 +104,7 @@ ms.locfileid: "50114874"
     > [!NOTE]
     > 은행 계좌로 결제하는 기능을 일부 국가나 지역에서는 사용할 수 없습니다.
 
-     *송장 고객:*  결제 정보 **변경 페이지에서** 청구 주소를 업데이트한 다음 제출을 **선택합니다.**
+     *송장 고객:*  결제 **정보 변경** 페이지에서 청구 주소를 업데이트한 다음 제출을 **선택합니다.**
   
     > [!NOTE]
     > 수표로 송장을 결제하는 기능을 일부 국가나 지역에서는 사용할 수 없습니다.
@@ -121,7 +121,7 @@ ms.locfileid: "50114874"
   
 3. 결제 **정보 변경** 페이지에서 청구 주소를 업데이트한 다음 제출을 **선택합니다.**
 
-    Alipay 또는 China UnionPay를 사용하여 21Vianet에서 운영하는 Office 365의 결제 방법을 송장에서 온라인 결제로 변경하거나 그 반대로 변경할 수 있습니다.
+    21Vianet에서 운영하는 Office 365의 결제 방법을 송장에서 Alipay 또는 China UnionPay를 사용하여 온라인 결제로 변경하거나 그 반대로 변경할 수 있습니다.
 
 ::: moniker-end
 
@@ -162,7 +162,7 @@ ms.locfileid: "50114874"
 
 ## <a name="change-the-alternate-email-address-your-billing-notifications-are-sent-to"></a>대금 청구 알림을 받을 다른 전자 메일 주소 변경
 
-기본적으로 조직의 청구 알림은 조직의 모든 전역 관리자와 대금 청구 관리자의 대체 전자 메일 주소와 Microsoft 전자 메일 주소로 전송됩니다. 각 관리자는 자신의 프로필 정보를 업데이트하여 자신의 대체 전자 메일 주소를 변경할 수 있습니다.
+기본적으로 조직의 청구 알림은 Microsoft 전자 메일 주소와 조직의 모든 전역 및 대금 청구 관리자의 대체 전자 메일 주소로 전송됩니다. 각 관리자는 자신의 프로필 정보를 업데이트하여 자신의 대체 전자 메일 주소를 변경할 수 있습니다.
   
 1. 전역 관리자로 직장 또는 학교 계정으로 Microsoft 365에 [로그인합니다. 로그인하는 방법을 알아보하세요.](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)
 

@@ -36,9 +36,9 @@ ms.locfileid: "50114204"
 
 ::: moniker-end
 
-Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보에 액세스하는 방법을 간소화할 수 [있습니다(Office](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)추가 기능 사용 시작 참조). 
+Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보에 액세스하는 방법을 간소화할 [수 있습니다(Office](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)추가 기능 사용 시작 참조). 
 
-관리자가 조직의 사용자를 위해 추가 기능을 배포한 후 추가 기능을 해제하거나 설정하고, 추가 기능 액세스를 편집, 삭제 및 관리할 수 있습니다.
+관리자가 조직의 사용자에 대해 추가 기능을 배포한 후 추가 기능을 해제하거나 설정하고, 추가 기능 액세스를 편집, 삭제 및 관리할 수 있습니다.
 
 관리 센터에서 추가 기능을 설치하는 데 대한 자세한 내용은 관리 센터에서 추가 기능 [배포를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
   
@@ -134,7 +134,7 @@ Office 스토어 끄기 지원은 다음 버전에서 사용할 수 있습니다
 사용자가 Microsoft 계정으로 로그인하지 못하도록 조직 계정만 사용하도록 로그온을 제한할 수 있습니다. 자세한 내용은 [Office 2016의 ID, 인증](https://technet.microsoft.com/library/jj683102%28v=office.16%29.aspx)및 권한 부여를 참조하세요.  
 
 > [!NOTE]
-> 사용자가 Office 스토어에 액세스하지 못하게 하면 테스트용 Office 추가 기능을 [테스트용으로 로드하지 못하게 됩니다.](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)
+> 또한 사용자가 Office 스토어에 액세스하지 못하게 하여 테스트용 Office 추가 기능을 [테스트용으로 로드하지 못하게 합니다.](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)
 
 ## <a name="more-about-the-end-user-experience-with-add-ins"></a>추가 기능의 최종 사용자 경험에 대한 자세한 내용은
 
@@ -160,7 +160,7 @@ Office 스토어 끄기 지원은 다음 버전에서 사용할 수 있습니다
   
 2. 왼쪽 **네비게이트에서** 관리되는 관리자를 선택합니다. 
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
 [관리 센터에서 추가 기능 배포](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
 

@@ -49,7 +49,7 @@ Office 365 고급 메시지 암호화를 사용하여 메시지를 암호화한 
 
 ## <a name="how-to-revoke-an-encrypted-message-that-you-sent"></a>전송한 암호화된 메시지를 해지하는 방법
 
-단일 받는 사람에게 보낸 메일(예: gmail.com 또는 사용자 계정)을 해지할 수 yahoo.com. 즉, 링크 기반 환경을 수신한 단일 받는 사람에게 전송된 전자 메일을 해지할 수 있습니다.
+단일 받는 사람에게 보낸 메일(예: gmail.com 또는 공유 계정)을 해지할 수 yahoo.com. 즉, 링크 기반 환경을 수신한 단일 받는 사람에게 전송된 전자 메일을 해지할 수 있습니다.
 
 Office 365 또는 Microsoft 365에서 직장 또는 학교 계정을 사용하는 받는 사람 또는 Microsoft 계정을 사용하는 사용자(예: outlook.com 계정)에게 보낸 메일은 해지할 수 없습니다. 
 
@@ -81,7 +81,7 @@ Microsoft 365 관리자는 다음과 같은 일반적인 단계에 따라 적합
 
 `<xxxxxxxxxxxxxxxxxxxxxxx@xxxxxx.xxxx.prod.outlook.com>`  
 
-해지할 전자 메일의 메시지 ID를 찾는 방법에는 여러 가지가 있습니다. 이 섹션에서는 몇 가지 옵션에 대해 설명하지만 ID를 제공하는 모든 메서드를 사용할 수 있습니다.
+해지할 전자 메일의 메시지 ID를 찾는 방법에는 여러 가지가 있습니다. 이 섹션에서는 두 가지 옵션에 대해 설명하지만 ID를 제공하는 모든 메서드를 사용할 수 있습니다.
 
 #### <a name="to-identify-the-message-id-of-the-email-you-want-to-revoke-by-using-message-trace-in-the-security-amp-compliance-center"></a>보안 준수 센터에서 메시지 추적을 사용하여 해지하려는 전자 메일의 메시지 ID를 &amp; 식별합니다.
 
@@ -101,7 +101,7 @@ Microsoft 365 관리자는 다음과 같은 일반적인 단계에 따라 적합
 
 메시지를 해지할 수 있는지 확인을 위해 보안 준수 센터의 세부 정보 표에 있는  암호화 보고서에 해지 상태 필드가 표시되는지 &amp; 여부를 확인해야 합니다.
 
-전자 메일 메시지를 사용하여 특정 전자 메일 메시지를 취소할 수 있는지 여부를 확인 Windows PowerShell 다음 단계를 완료합니다.
+전자 메일 메시지를 사용하여 특정 전자 메일 메시지를 해지할 Windows PowerShell 다음 단계를 완료합니다.
 
 1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
@@ -129,7 +129,7 @@ Microsoft 365 관리자는 다음과 같은 일반적인 단계에 따라 적합
 
 2. 암호화 **보고서의** **메시지에** 대한 세부 정보 표에서 메시지 **취소를 선택하십시오.**
 
-사용자 계정을 사용하여 전자 메일을 Windows PowerShell Set-OMEMessageRevocation cmdlet을 사용하세요.
+전자 메일을 사용하여 전자 메일을 Windows PowerShell cmdlet을 Set-OMEMessageRevocation.
 
 1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 [Exchange Online PowerShell에 연결합니다.](https://aka.ms/exopowershell)
 

@@ -72,10 +72,10 @@ ms.locfileid: "50126535"
 
     권한이 부여된 액세스에는 연결된 승인 정책이 정의된 작업에 대한 승인이 필요합니다. 승인 정책에 포함된 작업의 경우 사용자는 작업을 실행하는 데 필요한 사용 권한을 가지기 위해 액세스 승인을 요청하고 부여해야 합니다.
 
-승인이 부여된 후 요청하는 사용자는 의도한 작업을 실행할 수 있으며 권한이 부여된 액세스는 사용자를 대신하여 작업을 승인하고 실행합니다. 승인은 요청된 기간(기본 기간은 4시간)에 대해 유효하게 유지되어 요청자에서 의도한 작업을 여러 번 실행할 수 있습니다. 이러한 모든 실행은 기록되어 보안 및 규정 준수 감사에 사용할 수 있습니다. 
+승인이 부여된 후 요청하는 사용자는 의도한 작업을 실행할 수 있으며 권한이 부여된 액세스는 사용자를 대신하여 작업을 승인하고 실행합니다. 승인은 요청한 기간(기본 기간은 4시간)에 대해 유효하게 유지되어 요청자에서 의도한 작업을 여러 번 실행할 수 있습니다. 이러한 모든 실행은 기록되어 보안 및 규정 준수 감사에 사용할 수 있습니다. 
 
 >[!NOTE]
->Exchange 관리 PowerShell을 사용하여 권한 있는 액세스를 사용하도록 설정하고 구성하려면 다단계 인증을 사용하여 [Exchange Online PowerShell에](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa) 연결하여 Office 365 자격 증명으로 Exchange Online PowerShell에 연결합니다. Exchange Online PowerShell에 연결하는 동안 권한이 부여된 액세스를 사용하도록 설정하는 단계를 조직에 대해 다단계 인증을 사용하도록 설정할 필요는 없습니다. 다단계 인증을 사용하여 연결하면 요청에 서명하는 데 권한이 부여된 액세스에 사용되는 OAuth 토큰이 생성됩니다.
+>Exchange 관리 PowerShell을 사용하여 권한 있는 액세스를 사용하도록 설정하고 구성하려면 다단계 인증을 사용하여 [Exchange Online PowerShell에](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa) 연결의 단계를 수행하여 Office 365 자격 증명을 사용하여 Exchange Online PowerShell에 연결합니다. Exchange Online PowerShell에 연결하는 동안 권한이 부여된 액세스를 사용하도록 설정하는 단계를 조직에 대해 다단계 인증을 사용하도록 설정할 필요는 없습니다. 다단계 인증을 사용하여 연결하면 요청에 서명하는 데 권한이 부여된 액세스에 사용되는 OAuth 토큰이 생성됩니다.
 
 <a name="step1"> </a>
 
@@ -89,7 +89,7 @@ ms.locfileid: "50126535"
 
 4. 그룹을 저장합니다. 그룹을 완전히 구성하고 Microsoft 365 관리 센터에 표시하는 데 몇 분 정도 걸릴 수 있습니다.
 
-5. 새 승인자 그룹을 선택하고 편집을 선택하여 그룹에 사용자를 추가합니다. 
+5. 새 승인자 그룹을 선택하고 편집을 **선택하여** 그룹에 사용자를 추가합니다.
 
 6. 그룹을 저장합니다.
 
@@ -130,7 +130,7 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 
 ## <a name="step-3-create-an-access-policy"></a>3단계: 액세스 정책 만들기
 
-조직에 대해 최대 30개 이상의 권한 있는 액세스 정책을 만들고 구성할 수 있습니다.
+조직에 대해 최대 30개까지 권한 있는 액세스 정책을 만들고 구성할 수 있습니다.
 
 ### <a name="in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서
 
@@ -172,9 +172,9 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 
 <a name="step4"> </a>
 
-## <a name="step-4-submitapprove-privileged-access-requests"></a>4단계: 권한이 부여된 액세스 요청 제출/승인
+## <a name="step-4-submitapprove-privileged-access-requests"></a>4단계: 권한 있는 액세스 요청 제출/승인
 
-### <a name="requesting-elevation-authorization-to-execute-privileged-tasks"></a>권한 있는 작업을 실행하기 위한 권한 상승 권한 요청
+### <a name="requesting-elevation-authorization-to-execute-privileged-tasks"></a>권한 있는 작업 실행을 위한 권한 상승 권한 부여 요청
 
 권한 있는 액세스 요청은 요청이 제출된 후 최대 24시간 동안 유효합니다. 승인되거나 거부되지 않은 경우 요청이 만료되고 액세스가 승인되지 않습니다.
 
@@ -196,7 +196,7 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 
     **기간(시간)**: 요청된 액세스의 시간입니다. 요청할 수 있는 시간 수에는 제한이 없습니다.
 
-    **설명**: 액세스 요청과 관련된 설명의 텍스트 필드
+    **설명:** 액세스 요청과 관련된 설명의 텍스트 필드
 
 5. 저장을 **선택한** 다음 **닫습니다.** 요청은 전자 메일을 통해 승인자 그룹으로 전송됩니다.
 
@@ -292,7 +292,7 @@ Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comm
 
 1. 조직의 관리자 계정에 대한 자격 증명을 사용하여 [Microsoft 365](https://admin.microsoft.com) 관리 센터에 로그인합니다.
 
-2. 관리 센터에서 개인 **정보** 보호 권한 액세스  >    >  **& 설정**  >  **보안으로 이동합니다.**
+2. 관리 센터에서 개인 **정보** 보호 권한이 부여된 액세스  >    >  **권한으로 & 설정**  >  **보안으로 이동합니다.**
 
 3. 액세스 **정책 및 요청 관리 선택.**
 
@@ -318,7 +318,7 @@ Remove-ElevatedAccessApprovalPolicy -Identity <identity GUID of the policy you w
 
 1. 조직의 관리자 계정에 대한 자격 증명을 사용하여 [Microsoft 365](https://admin.microsoft.com) 관리 센터에 로그인합니다.
 
-2. 관리 센터에서 개인 **정보** 보호 권한이 부여된 액세스  >    >  **권한으로 & 설정**  >  **보안으로 이동합니다.**
+2. 관리 센터에서 개인 **정보** 보호 권한이 부여된 액세스  >    >  **& 설정**  >  **보안으로 이동합니다.**
 
 3. 권한이 **부여된 액세스 제어에 대한 승인 필요를 사용하도록** 설정
 

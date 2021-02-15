@@ -40,7 +40,7 @@ Microsoft 365 환경에서 Viva 항목을 사용하는 경우 사용자는 다�
 
 ## <a name="topic-contributors"></a>주제 참가자
 
-주제 참가자는 조직의 사용자로, 항목 보기 권한뿐만 아니라 기존 항목을 편집하거나 새 항목을 만들 수도 있는 사용자입니다. 품질 보장을 위해 항목 페이지의 정보를 수동으로 "큐레이터"하는 데 중요한 역할을 합니다(AI 또는 수동으로 제공).
+주제 참가자는 조직의 사용자로, 항목 보기 권한뿐만 아니라 기존 항목을 편집하거나 새 항목을 만들 수도 있는 사용자입니다. 항목 페이지(AI 또는 수동으로 제공된 정보 모두)의 정보를 수동으로 "조정"하여 품질을 보장하는 데 중요한 역할을 합니다.
 
 항목 참가자 권한이 있는 사용자에게는  항목을 업데이트하고 게시할 수 있는 항목 페이지에 편집 단추가 표시됩니다.
 
@@ -62,7 +62,7 @@ Microsoft 365 환경에서 Viva 항목을 사용하는 경우 사용자는 다�
 
 또한 지식 관리자는 기존 항목을 편집하거나 새 항목을 만들 수 있습니다.
 
-항목을 관리하려면 사용자가 다음을 해야 합니다.
+항목을 관리하려면 다음을 해야 합니다.
 -   Microsoft 365 관리자가 [Viva Topics](https://docs.microsoft.com/microsoft-365/knowledge/set-up-topic-experiences#assign-licenses) 라이선스를 할당합니다.
 -   항목을 관리할 수 [있는 사용 권한을 할당합니다.](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions#change-who-has-permissions-to-do-tasks-on-the-topic-center) 이 작업은 Microsoft 365 관리 센터의 Viva 항목 설정 페이지에서 기술 관리자가 수행합니다.
 

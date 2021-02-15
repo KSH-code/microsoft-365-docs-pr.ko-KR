@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-description: Microsoft Viva 항목에서 항목 검색을 관리하는 방법을 학습합니다.
+description: Microsoft Viva 항목에서 항목 검색을 관리하는 방법에 대해 자세히 알아보고,
 ms.openlocfilehash: 36b64433726479dc2a46c809ae9504c6f12f4ab8
 ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "50107762"
 
 ## <a name="to-access-topics-management-settings"></a>항목 관리 설정에 액세스하려면
 
-1. Microsoft 365 관리 센터에서 설정, Org 설정을 **클릭합니다.**
+1. Microsoft 365 관리 센터에서 설정을 클릭한 **다음, Org 설정을 클릭합니다.**
 2. 서비스 **탭에서** 항목 **환경을 클릭합니다.**
 
     ![지식에 사람 연결](../media/admin-org-knowledge-options-completed.png) 
@@ -47,10 +47,10 @@ Site name,URL
 항목 검색을 위한 사이트를 선택
 
 1. 항목 검색 **탭의** **SharePoint** 항목 원본 선택 아래에서 편집을 **선택합니다.**
-2. **SharePoint** 항목 원본 선택 페이지에서 검색 중에 항목에 대한 원본으로 크롤링할 SharePoint 사이트를 선택합니다. 해당 활동은 다음과 같습니다.
-    - **모든 사이트**: 테넌트의 모든 SharePoint 사이트 이렇게 하여 현재 및 향후 사이트를 캡처합니다.
+2. **SharePoint** 항목 원본 선택 페이지에서 검색 중에 항목에 대한 원본으로 크롤링할 SharePoint 사이트를 선택합니다. 여기에는 다음이 포함됩니다.
+    - **모든 사이트:** 테넌트의 모든 SharePoint 사이트 이렇게 하여 현재 및 향후 사이트를 캡처합니다.
     - **선택한 사이트를 제외한** 모든 사이트: 제외할 사이트의 이름을 입력합니다.  검색에서 옵트아웃하려는 사이트 목록을 업로드할 수도 있습니다. 앞으로 만든 사이트는 항목 검색을 위한 원본으로 포함됩니다. 
-    - **선택한 사이트만**: 포함할 사이트의 이름을 입력합니다. 사이트 목록을 업로드할 수도 있습니다. 앞으로 만든 사이트는 항목 검색을 위한 원본으로 포함되지 않습니다.
+    - **선택한 사이트만 :** 포함할 사이트의 이름을 입력합니다. 사이트 목록을 업로드할 수도 있습니다. 앞으로 만든 사이트는 항목 검색을 위한 원본으로 포함되지 않습니다.
     - **사이트 없음**: 항목은 SharePoint 콘텐츠로 자동으로 생성되거나 업데이트되지 않습니다. 기존 항목은 항목 센터에 남아 있습니다.
 
     ![SharePoint 항목 원본 사용자 인터페이스 스크린샷](../media/k-manage-select-topic-source.png)
@@ -82,7 +82,7 @@ CSV 템플릿에서 제외할 항목에 대한 다음 정보를 입력합니다.
     - 정확한 일치: 정확한 이름이나 약어(예: *Contoso* 또는 ATL)를 포함할 *수 있습니다.*
     - 부분 일치: 특정 단어가 있는 모든 항목을 제외할 수 있습니다.  예를 들어 *호는* 호 원, 마주치기 또는 교육 호와 같이 단어 호가 있는 모든 항목을 *제외합니다.*  아키텍처와 같이 텍스트가 단어의 일부로 포함된 항목은 제외하지 *않습니다.*
 - **약어(선택 사항)**: 약어를 제외하려는 경우 약어가 대명하는 단어를 입력합니다.
-- **MatchType-Exact/Partial**: 입력한 이름이 정확히 일치하는 형식인지 부분 일치 *형식인지* *여부를* 입력합니다.
+- **MatchType-Exact/Partial**: 입력한 이름이 정확한지 부분 일치 *유형인지* *여부를* 입력합니다.
 
     ![CSV 템플릿의 항목 제외](../media/exclude-topics-csv.png) 
 

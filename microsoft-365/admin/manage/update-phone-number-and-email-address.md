@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
-description: 관리 센터에서 관리자 전화 번호 및 전자 메일 주소를 업데이트합니다. 관리자 암호를 다시 설정하려는 경우 이 정보가 필요합니다.
+description: 관리 센터에서 관리자 전화 번호 및 전자 메일 주소를 업데이트합니다. 관리자 암호를 다시 설정하려면 이 정보가 필요합니다.
 ms.openlocfilehash: 8ceb2fdc6543bf38089b40d3a66dfc2ab1d7dc64
 ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
@@ -41,7 +41,7 @@ ms.locfileid: "50114432"
   
 ## <a name="to-update-your-phone-number-and-email-address"></a>전화 번호 및 전자 메일 주소를 업데이트하는 경우
 
-보안 정보 **페이지를 사용하여** 휴대폰 번호 및 대체 전자 메일 주소를 변경합니다. 대체 전자 메일 주소는 관리자 암호 다시 설정(컴퓨터 관리자 암호 아우라)을 다시 설정하는 등의 중요한 알림에 사용됩니다. 
+보안 정보 **페이지를 사용하여** 휴대폰 번호 및 대체 전자 메일 주소를 변경합니다. 대체 전자 메일 주소는 컴퓨터 관리자 암호가 아닌 관리자 암호 재설정과 같은 중요한 알림에 사용됩니다. 
   
 1. Microsoft 365 관리 센터로 탐색합니다.
 

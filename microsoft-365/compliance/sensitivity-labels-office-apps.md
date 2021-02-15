@@ -14,7 +14,7 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: 사용자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 사용하는 방법과 민감도 레이블을 지원하는 앱에 대해 자세히 알아보습니다.
+description: 데스크톱, 모바일 및 웹용 Office 앱에서 사용자가 민감도 레이블을 사용하는 방법과 민감도 레이블을 지원하는 앱에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: e9e3f73ad3756381a2ea6884d6ec65bc85063a10
 ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
@@ -102,7 +102,7 @@ Office 기본 제공 레이블 지정 클라이언트는 다음 관리 센터에
 - Microsoft 365 보안 센터
 - Office 365 보안 및 준수 센터
 
-Office 기본 제공 레이블 지정 클라이언트를 사용하려면 나열된 관리 센터 및 지원되는 Office 버전 중 하나에서 사용자에게 하나 이상의 레이블 정책을 [게시해야 합니다.](#support-for-sensitivity-label-capabilities-in-apps) [](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy)
+Office 기본 제공 레이블 클라이언트를 사용하려면 나열된 [](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) 관리 센터 및 지원되는 Office 버전 중 하나에서 사용자에게 하나 이상의 레이블 정책을 [게시해야 합니다.](#support-for-sensitivity-label-capabilities-in-apps)
 
 이러한 조건이 모두 충족되지만 Office 기본 제공 레이블 클라이언트를 해제해야 하는 경우 다음 그룹 정책 설정을 사용 합니다.
 
@@ -110,15 +110,15 @@ Office 기본 제공 레이블 지정 클라이언트를 사용하려면 나열�
 
 2. Office의 **민감도** 기능을 사용하여 민감도 레이블을 적용하고 **0으로 설정** 
  
-이 설정은 그룹 정책 또는 Office 클라우드 정책 서비스를 사용하여 [배포합니다.](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service) 이 설정은 Office 앱이 다시 시작될 때 적용됩니다.
+그룹 정책 또는 Office 클라우드 정책 서비스를 사용하여 이 [설정을 배포합니다.](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service) 이 설정은 Office 앱이 다시 시작될 때 적용됩니다.
 
 ### <a name="office-built-in-labeling-client-and-the-azure-information-protection-client"></a>Office 기본 제공 레이블 클라이언트 및 Azure Information Protection 클라이언트
 
-사용자에게 Azure Information Protection 클라이언트(통합[](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2) 레이블 클라이언트 또는 [](https://docs.microsoft.com/azure/information-protection/rms-client/aip-client)클래식 클라이언트) 중 하나를 설치한 경우 기본적으로 Office 앱에서 기본 제공 레이블 클라이언트가 꺼집니다. 
+사용자에게 Azure Information Protection 클라이언트 중[](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2) 하나(통합 레이블 [](https://docs.microsoft.com/azure/information-protection/rms-client/aip-client)지정 클라이언트 또는 클래식 클라이언트)가 설치되어 있는 경우 기본적으로 Office 앱에서 기본 제공 레이블 지정 클라이언트가 꺼집니다. 
 
-Office 앱용 Azure Information Protection 클라이언트가 아닌 기본 제공 레이블 지정을 사용하기 위해 이전  섹션의 지침을 사용하지만 그룹 정책 설정 Office의 민감도 기능을 사용하여 민감도 레이블을 **적용하고 1로 하세요.** 
+Office 앱용 Azure Information Protection 클라이언트가 아닌 기본 제공 레이블 지정을 사용하기 위해 이전 섹션의 지침을 사용하지만 그룹 정책 설정 **Office의** 민감도 기능을 사용하여 민감도 레이블을 **적용하고 1로 하세요.** 
 
-또는 Office 추가 기능인 Azure Information Protection을 사용하지 않도록 **설정하거나 제거합니다.** 이 방법은 단일 컴퓨터 및 ad-hoc 테스트에 적합합니다. 자세한 내용은 Office 프로그램에서 추가 기능 보기, 관리 및 [설치를 참조하세요.](https://support.office.com/article/16278816-1948-4028-91e5-76dca5380f8d) 
+또는 Office 추가 기능인 Azure Information Protection을 사용하지 않도록 설정하거나 **제거합니다.** 이 방법은 단일 컴퓨터 및 ad-hoc 테스트에 적합합니다. 자세한 내용은 Office 프로그램에서 추가 기능 보기, 관리 및 [설치를 참조하세요.](https://support.office.com/article/16278816-1948-4028-91e5-76dca5380f8d) 
 
 이 Office 추가 기능을 사용하지 않도록 설정하거나 제거하면 Azure Information Protection 클라이언트가 설치된 상태로 유지되어 Office 앱 외부의 파일에 계속 레이블을 지정합니다. 예를 들어 파일 탐색기 또는 PowerShell을 사용합니다.
 
@@ -145,7 +145,7 @@ Office 365 메시지 암호화에 대해 정의한 템플릿과 같은 관리자
 - 문서의 경우: **파일**  >  **정보 보호** 문서  >  **액세스**  >  **제한**
 - 전자 메일의 경우: 옵션 **탭에서** >  
   
-사용자가 처음에 문서 또는 전자 메일에 레이블을 지정하면 항상 자체 암호화 설정으로 레이블 구성 설정을 의회할 수 있습니다. 예:
+사용자가 처음에 문서 또는 전자 메일에 레이블을 지정하면 항상 자체 암호화 설정으로 레이블 구성 설정을 의회할 수 있습니다. 예시:
 
 - 사용자가 문서에 **기밀 \ 모든** 직원 레이블을 적용하고 이 레이블은 조직의 모든 사용자에 대해 암호화 설정을 적용하도록 구성됩니다. 그런 다음 이 사용자는 조직 외부의 사용자에 대한 액세스를 제한하도록 IRM 설정을 수동으로 구성합니다. 최종 결과로 Confidential \ All **Employees** 레이블이 지정되고 암호화된 문서가 있지만 조직의 사용자가 예상대로 열 수 없습니다.
 
@@ -155,9 +155,9 @@ Office 365 메시지 암호화에 대해 정의한 템플릿과 같은 관리자
 
 문서 또는 전자 메일에 이미 레이블이 지정되어 있는 경우 사용자는 콘텐츠가 아직 암호화되지 않은 [](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) 경우 또는 사용권 내보내기 또는 모든 사용권이 있는 경우 이러한 작업을 수행할 수 있습니다. 
 
-의미 있는 보고를 통해 보다 일관된 레이블 환경을 위해 사용자가 문서를 보호하기 위해 레이블만 적용하도록 적절한 레이블 및 지침을 제공합니다. 예:
+의미 있는 보고를 통해 보다 일관된 레이블 환경을 위해 사용자가 문서를 보호하기 위해 레이블만 적용하도록 적절한 레이블 및 지침을 제공합니다. 예시:
 
-- 사용자가 고유한 사용 권한을 할당해야 하는 예외의 경우 사용자가 자신의 사용 권한을 할당할 수 있는 [레이블을 제공합니다.](encryption-sensitivity-labels.md#let-users-assign-permissions) 
+- 사용자가 고유한 사용 권한을 할당해야 하는 예외의 경우 사용자가 자신의 권한을 할당할 수 있는 [레이블을 제공합니다.](encryption-sensitivity-labels.md#let-users-assign-permissions) 
 
 - 사용자가 암호화를 적용하는 레이블을 선택한 후 암호화를 수동으로 제거하는 대신 동일한 분류를 사용하지만 암호화가 없는 레이블이 필요한 경우 하위 레이블 대안을 제공합니다. 예:
     - **기밀 \ 모든 직원**
@@ -173,13 +173,13 @@ Office 365 메시지 암호화에 대해 정의한 템플릿과 같은 관리자
 
 첨부 파일이 있는 전자 메일 메시지에 레이블을 지정하면 전자 메일 메시지에 적용하는 레이블이 암호화를 적용하고 첨부 파일이 Office 문서가 아직 암호화되지 않은 경우 첨부 파일이 레이블을 상속합니다. 상속된 레이블은 암호화를 적용하기 때문에 첨부 파일이 새로 암호화됩니다.
 
-전자 메일 메시지에 적용된 레이블이 암호화를 적용하지 못하거나 첨부 파일이 이미 암호화되어 있는 경우 첨부 파일은 전자 메일 메시지에서 레이블을 상속하지 않습니다.
+전자 메일 메시지에 적용된 레이블이 암호화를 적용하지 못하거나 첨부 파일이 이미 암호화된 경우 첨부 파일은 전자 메일 메시지에서 레이블을 상속하지 않습니다.
 
-레이블 기밀이 암호화를 적용하고 **일반** 레이블은 암호화를 적용하지 않는 레이블 상속의 예: 
+레이블 상속의 예로, **Confidential** 레이블은 암호화를 적용하고 **일반** 레이블은 암호화를 적용하지 않습니다.
 
 - 사용자가 새 전자 메일 메시지를 만들고 이 메시지에 **기밀** 레이블을 적용합니다. 그런 다음 레이블이 지정되거나 암호화되지 않은 Word 문서를 추가합니다. 상속의 결과로 문서에 **기밀** 레이블이 새로 추가되고 해당 레이블에서 암호화가 적용되었습니다.
 
-- 사용자가 새 전자 메일 메시지를 만들고 이 메시지에 **기밀** 레이블을 적용합니다. 그런 다음 일반 레이블이 지정되어 있으며 이 파일은 암호화되지 않은 Word 문서를 추가합니다.  상속의 결과로 문서는 **기밀로** 레이블이 지정되고 해당 레이블에서 암호화가 적용되었습니다.
+- 사용자가 새 전자 메일 메시지를 만들고 이 메시지에 **기밀** 레이블을 적용합니다. 그런 다음 일반 레이블이 지정되어 있으며 이 파일은 암호화되지 않은 Word 문서를 추가합니다.  상속의 결과로 문서는 기밀로 레이블이  지정되고 해당 레이블에서 암호화가 적용되었습니다.
 
 ## <a name="sensitivity-label-compatibility"></a>민감도 레이블 호환성
 
@@ -271,7 +271,7 @@ Office 앱 외부에 민감도 레이블을 적용하는 것이 포함된 시나
 | `${Item.Name}` | 레이블을 지정하는 콘텐츠의 파일 이름 또는 전자 메일 제목 | **Sales.docx** |
 | `${Item.Location}` | 레이블을 지정하는 문서의 경로 및 파일 이름 또는 레이블이 지정되는 전자 메일의 전자 메일 제목 | **\\\Sales\2020\Q3\Report.docx**|
 | `${User.Name}` | 레이블을 적용한 사용자의 표시 이름| **Richard Simone** |
-| `${User.PrincipalName}` | 레이블을 적용하는 사용자의 Azure AD UPN(사용자 계정 이름) | **rsimone \@ contoso.com** |
+| `${User.PrincipalName}` | 레이블을 적용한 사용자의 Azure AD UPN(사용자 계정 이름) | **rsimone \@ contoso.com** |
 | `${Event.DateTime}` | 레이블을 적용한 사용자의 현지 표준 시간대에서 콘텐츠에 레이블이 지정되는 날짜 및 시간 | **2020/8/10 오후 1:30** |
 
 > [!NOTE]
@@ -331,7 +331,7 @@ ${If.App.<application type>}<your visual markings text> ${If.End}
 
 기본 제공 레이블 지정에 대한 추가 정보:
 
-- 레이블이 지정되지 않은 문서를 열기 때문에 민감도 레이블을 추가하라는 메시지가 표시될 경우 레이블을 추가하거나 읽기 전용 모드로 문서를 열지 선택할 수 있습니다.
+- 레이블이 지정되지 않은 문서를 열기 때문에 민감도 레이블을 추가하라는 메시지가 표시될 경우 레이블을 추가하거나 문서를 읽기 전용 모드로 열 수 있습니다.
 
 - 필수 레이블이 적용된 경우 사용자는 문서에서 민감도 레이블을 제거할 수 없지만 기존 레이블을 변경할 수 있습니다.
 

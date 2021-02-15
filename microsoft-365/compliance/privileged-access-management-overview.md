@@ -29,7 +29,7 @@ ms.locfileid: "50126607"
 ---
 # <a name="learn-about-privileged-access-management"></a>권한이 부여된 액세스 관리에 대한 자세한 정보
 
-권한이 부여된 액세스 관리를 사용하면 Office 365의 권한 있는 관리 작업에 대한 세부적인 액세스 제어가 허용됩니다. 중요한 데이터에 대한 액세스 또는 중요한 구성 설정에 대한 액세스 권한이 있는 기존 권한 있는 관리자 계정을 사용하는 위반으로부터 조직을 보호하는 데 도움이 될 수 있습니다. 권한이 부여된 액세스 관리를 사용하려면 사용자가 범위가 넓고 시간이 제한적인 승인 워크플로를 통해 권한 상승 및 권한 있는 작업을 완료하기 위해 적시 액세스를 요청해야 합니다. 이 구성을 사용하면 중요한 데이터나 중요한 구성 설정이 노출되지 않고도 작업을 수행할 수 있는 충분한 액세스 권한을 사용자에게 제공합니다. Microsoft 365에서 권한이 부여된 액세스 관리를 사용하도록 설정하면 조직이 제로 스위딩 권한으로 작동하고 관리 액세스 취약성에 대한 방어 계층을 제공할 수 있습니다.
+권한이 부여된 액세스 관리를 사용하면 Office 365의 권한 있는 관리 작업에 대한 세부적인 액세스 제어가 허용됩니다. 중요한 데이터에 대한 액세스 또는 중요한 구성 설정에 대한 액세스 권한이 있는 기존 권한 있는 관리자 계정을 사용하는 위반으로부터 조직을 보호하는 데 도움이 될 수 있습니다. 권한이 부여된 액세스 관리를 사용하려면 사용자가 범위가 넓고 시간이 제한적인 승인 워크플로를 통해 권한 상승 및 권한 있는 작업을 완료하기 위해 적시 액세스를 요청해야 합니다. 이 구성을 사용하면 중요한 데이터나 중요한 구성 설정이 노출되지 않고도 작업을 수행할 수 있는 충분한 액세스 권한을 사용자에게 제공합니다. Microsoft 365에서 권한이 부여된 액세스 관리를 사용하도록 설정하면 조직이 제로 스위딩 권한으로 운영할 수 있으며, 관리 액세스 취약성에 대한 방어 계층을 제공할 수 있습니다.
 
 통합된 고객 Lockbox 및 권한이 부여된 액세스 관리 워크플로에 대한 간략한 개요는 고객 Lockbox 및 권한이 부여된 액세스 관리 비디오를 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=2066800)
 
@@ -41,7 +41,7 @@ ms.locfileid: "50126607"
 
 권한 있는 액세스 관리는 작업  수준에서 정의되고 범위가 지정되는 반면, Azure  AD Privileged Identity Management는 여러 작업을 실행하는 기능을 사용하여 역할 수준에서 보호를 적용합니다. Azure AD Privileged Identity Management는 주로 AD 역할 및 역할 그룹에 대한 액세스를 관리할 수 있도록 하지만 Microsoft 365의 권한 있는 액세스 관리는 작업 수준에서만 적용됩니다.
 
-- **Azure AD Privileged Identity Management를** 이미 사용하는 동안 권한 있는 액세스 관리를 사용하도록 설정: 권한 있는 액세스 관리를 추가하면 Microsoft 365 데이터에 대한 권한 있는 액세스에 대한 또 다른 세부적인 보호 및 감사 기능을 사용할 수 있습니다.
+- **Azure AD Privileged Identity Management를** 이미 사용하는 동안 권한 있는 액세스 관리를 사용하도록 설정: 권한 있는 액세스 관리를 추가하면 Microsoft 365 데이터에 대한 권한 있는 액세스에 대한 또 다른 세부적인 보호 및 감사 기능을 제공합니다.
 
 - **Office 365에서**  권한 있는 액세스 관리를 이미 사용하는 동안 Azure AD Privileged Identity Management를 사용하도록 설정:  Azure AD Privileged Identity Management를 권한 있는 액세스 관리에 추가하면 주로 사용자 역할 또는 ID에 의해 정의된 Microsoft 365 외부의 데이터에 대한 권한 있는 액세스를 확장할 수 있습니다.  
 
@@ -73,13 +73,13 @@ Microsoft [365](https://admin.microsoft.com) 관리 센터 또는 Exchange 관�
 
 ![4단계: 액세스 처리](../media/pam-step4-access-processing.jpg)
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="what-skus-can-use-privileged-access-in-office-365"></a>Office 365에서 권한 있는 액세스를 사용할 수 있는 SKUS는 무엇입니까?
 
-권한 있는 액세스 관리는 다양한 Microsoft 365 및 Office 365 구독 및 추가 기능에서 고객이 사용할 수 있습니다. 자세한 [내용은 권한 있는](privileged-access-management-configuration.md) 액세스 관리 시작을 참조합니다.
+권한 있는 액세스 관리는 다양한 Microsoft 365 및 Office 365 구독 및 추가 기능에서 고객이 사용할 수 있습니다. 자세한 내용은 권한 있는 액세스 [관리 시작을](privileged-access-management-configuration.md) 참조합니다.
 
-### <a name="when-will-privileged-access-support-office-365-workloads-beyond-exchange"></a>권한 있는 액세스가 Exchange를 초과하는 Office 365 작업을 언제 지원하나요?
+### <a name="when-will-privileged-access-support-office-365-workloads-beyond-exchange"></a>권한 있는 액세스는 Exchange를 넘어 Office 365 작업을 언제 지원하나요?
 
 권한 있는 액세스 관리는 곧 다른 Office 365 워크로드에서 사용할 수 있습니다. 자세한 내용은 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap) 방문합니다.
 
@@ -99,6 +99,6 @@ Microsoft [365](https://admin.microsoft.com) 관리 센터 또는 Exchange 관�
 
 권한이 부여된 액세스 관리를 위한 조직 [구성을 시작하십시오.](privileged-access-management-configuration.md)
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
 [대화형 가이드: 권한이 부여된 액세스 관리를 사용하여 관리자 작업 모니터링 및 제어](https://content.cloudguides.com/guides/Privileged%20Access%20Management)

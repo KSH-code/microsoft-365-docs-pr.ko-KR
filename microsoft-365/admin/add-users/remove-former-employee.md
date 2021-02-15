@@ -87,10 +87,10 @@ ms.locfileid: "50114060"
 > [!NOTE]
 > 전역 관리자로 로그인을 시작해야 합니다.
 
-1시간 이내에 또는 현재 Microsoft 365 페이지를 떠났다가 다시 로그인하라는 메시지가 표시됩니다. 액세스 토큰은 1시간 동안 사용할 수 있으므로 타임라인은 해당 토큰에 남은 시간 및 현재 웹 페이지를 탐색하는지 여부에 따라 결정됩니다.
+1시간 이내에 또는 현재 Microsoft 365 페이지를 떠났다가 다시 로그인하라는 메시지가 표시됩니다. 액세스 토큰은 한 시간 동안 양호하기 때문에 타임라인은 해당 토큰에 남은 시간 및 현재 웹 페이지를 탐색하는지 여부에 따라 결정됩니다.
   
 > [!IMPORTANT]
-> 사용자가 웹에서 Outlook에 있는 경우 사서함을 클릭하기만 하면 즉시 시작되지 않을 수 있습니다. OneDrive와 같은 다른 타일을 선택하거나 브라우저를 새로 고치면 즉시 로그인이 시작됩니다.
+> 사용자가 웹에서 Outlook에 있는 경우 사서함을 클릭하기만 하면 즉시 시작되지 않을 수 있습니다. OneDrive와 같은 다른 타일을 선택하거나 브라우저를 새로 고치자마자 로그인이 시작됩니다.
   
 PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-AzureADUserAllRefreshToken](https://go.microsoft.com/fwlink/?linkid=841345) cmdlet을 참조하세요.
   
@@ -114,7 +114,7 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 |4. [Microsoft 365](#block-a-former-employees-access-to-microsoft-365-data) 데이터에 대한 이전 직원의 액세스 차단<br/> |사용자가 이전 Microsoft 365 사서함 및 데이터에 액세스할 수 없습니다.  <br/><br/> **팁:** 사용자의 액세스를 차단하는 경우 라이선스 비용은 계속 지불하게 됩니다. 요금 지불을 중지하려면 구독에서 라이선스를 삭제합니다(5단계).  |
 |5. [직원의 OneDrive 콘텐츠 이동](get-access-to-and-back-up-a-former-user-s-data.md) <br/> |사용자의 라이선스만 제거하고 계정을 삭제하지 않으면 30일이 지난 후에도 사용자의 OneDrive에 있는 콘텐츠에 계속 액세스할 수 있습니다.  <br/><br/> 계정을 삭제하기 전에 OneDrive의 콘텐츠를 액세스하기 쉬운 다른 위치로 이동해야 합니다. 직원의 계정을 삭제하면 해당 OneDrive의 콘텐츠는 **30** 일 동안 보관됩니다. 그러나 이 기간 동안 사용자의 계정을 복원하고 OneDrive 콘텐츠에 대한 액세스 권한을 얻을 수 있습니다. 사용자의 계정을 복원하는 경우에는 30일이 지난 후에도 OneDrive 콘텐츠에 계속 액세스할 수 있습니다.  <br/> |
 |5a. 사용자가 개인용 컴퓨터를 사용하여 OneDrive 및 SharePoint에 액세스하는 경우 어떻게 해야 하나요?  <br/> |회사에서 발급한 컴퓨터 대신 개인용 컴퓨터를 사용하여 OneDrive 및 SharePoint에서 파일을 다운로드하는 경우 저장한 파일을 지울 방법이 없습니다.  <br/><br/> 컴퓨터와 동기화된 모든 파일에 계속 액세스할 수 있습니다.  <br/> |
-|6. [이전 직원의 Microsoft 365 라이선스](#remove-and-delete-the-microsoft-365-license-from-a-former-employee) 제거 및 삭제<br/> |라이선스를 제거하면 다른 사람에게 해당 라이선스를 할당할 수 있습니다. 또는 다른 사람을 고용할 때까지 라이선스 비용을 지불하지 않도록 라이선스를 삭제할 수 있습니다.  <br/><br/> 라이선스를 제거하거나 삭제하면 사용자의 이전 전자 메일, 연락처 및 일정이 **30일** 간 보존된 후 영구적으로 삭제됩니다. 라이선스를 제거하거나 삭제하되 계정은 삭제하지 않으면 30일이 지난 후에도 사용자의 OneDrive에 있는 콘텐츠에 계속 액세스할 수 있습니다.  <br/> |
+|6. [이전 직원의 Microsoft 365 라이선스 제거 및 삭제](#remove-and-delete-the-microsoft-365-license-from-a-former-employee)<br/> |라이선스를 제거하면 다른 사람에게 해당 라이선스를 할당할 수 있습니다. 또는 다른 사람을 고용할 때까지 라이선스 비용을 지불하지 않도록 라이선스를 삭제할 수 있습니다.  <br/><br/> 라이선스를 제거하거나 삭제하면 사용자의 이전 전자 메일, 연락처 및 일정이 **30일** 간 보존된 후 영구적으로 삭제됩니다. 라이선스를 제거하거나 삭제하되 계정은 삭제하지 않으면 30일이 지난 후에도 사용자의 OneDrive에 있는 콘텐츠에 계속 액세스할 수 있습니다.  <br/> |
 |7. [이전 직원의 사용자 계정 삭제](#delete-a-former-employees-user-account)<br/> |그러면 관리 센터에서 계정이 제거됩니다. 깔끔하게 정리됩니다.  <br/> |
 
 ## <a name="save-the-contents-of-a-former-employees-mailbox"></a>이전 직원 사서함의 콘텐츠 저장
@@ -259,9 +259,9 @@ Microsoft 365 구독의 일부로 전자 메일이 있는 경우 Exchange 관리
 
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
-2. 차단할 직원을 선택하고 제품 라이선스 옆에 있는 **편집을** **선택합니다.**
+2. 차단할 직원을 선택하고 제품 라이선스 옆에 **있는** 편집을 **선택합니다.**
 
-3. 제품 **라이선스** 페이지에서 제거할 라이선스를 해제한 다음 저장을 **선택합니다.**
+3. 제품 **라이선스** 페이지에서 제거하려는 라이선스를 해제한 다음 저장을 **선택합니다.**
 
 ::: moniker-end
 
@@ -269,9 +269,9 @@ Microsoft 365 구독의 일부로 전자 메일이 있는 경우 Exchange 관리
 
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
-2. 차단할 직원을 선택하고 제품 라이선스 옆에 있는 **편집을** **선택합니다.**
+2. 차단할 직원을 선택하고 제품 라이선스 옆에 **있는** 편집을 **선택합니다.**
 
-3. 제품 **라이선스** 페이지에서 제거할 라이선스를 해제한 다음 저장을 **선택합니다.**
+3. 제품 **라이선스** 페이지에서 제거하려는 라이선스를 해제한 다음 저장을 **선택합니다.**
 
 ::: moniker-end
 
@@ -297,7 +297,7 @@ Microsoft 365 구독의 일부로 전자 메일이 있는 경우 Exchange 관리
 
 비즈니스에 [다른](add-users.md) 사람을 추가하면 한 단계만 거치면 동시에 라이선스를 구입하라는 메시지가 표시될 것입니다.
 
-비즈니스용 Microsoft 365의 사용자 라이선스를 관리하는 데 대한 자세한 내용은 [비즈니스용 Microsoft 365의](../manage/assign-licenses-to-users.md)사용자에게 라이선스 할당 및 비즈니스용 [Microsoft 365의](../manage/remove-licenses-from-users.md)사용자 라이선스 할당을 참조하세요.
+비즈니스용 Microsoft 365의 사용자 라이선스를 관리하는 데 대한 자세한 내용은 [비즈니스용 Microsoft 365의](../manage/assign-licenses-to-users.md)사용자에게 라이선스 할당 및 비즈니스용 [Microsoft 365](../manage/remove-licenses-from-users.md)사용자의 라이선스 할당을 배정을 참조하세요.
   
 ## <a name="how-the-deleted-employee-account-affects-skype-for-business"></a>삭제된 직원 계정이 비즈니스용 Skype에 영향을 미치는 방식
 
@@ -307,7 +307,7 @@ Office 365에서 사용자 라이선스를 제거하면 사용자와 연결된 P
 
 ## <a name="set-up-call-forwarding-to-people-in-your-organization"></a>조직의 사용자에 대한 통화 전달 설정
 
-종료된 직원의 전화 번호에 대해 통화 전달을 설정해야 하는 경우 통화 정책에 따라 수신 전화를 다른 사용자에게 전달하거나 동시에 다른 사용자에게 벨이 울리는 전달을 설정할 수 있습니다. 자세한 내용은 [Microsoft Teams의 통화 정책을 참조하세요.](https://docs.microsoft.com/microsoftteams/teams-calling-policy)
+종료된 직원의 전화 번호에 대해 통화 전달을 설정해야 하는 경우 통화 정책에 따라 수신 전화를 다른 사용자에게 전달하거나 동시에 다른 사용자에게 벨이 울리는 전달을 설정할 수 있습니다. 자세한 내용은 Microsoft Teams의 통화 [정책을 참조하세요.](https://docs.microsoft.com/microsoftteams/teams-calling-policy)
   
 ## <a name="delete-a-former-employees-user-account"></a>이전 직원의 사용자 계정 삭제
 
@@ -347,7 +347,7 @@ Office 365에서 사용자 라이선스를 제거하면 사용자와 연결된 P
   
 ### <a name="does-your-organization-use-active-directory"></a>조직에서 Active Directory를 사용하나요?
 
-조직이 로컬 Active Directory 환경에서 사용자 계정을 Microsoft 365와 동기화하는 경우 로컬 Active Directory 서비스에서 해당 사용자 계정을 삭제하고 복원해야 합니다. Office 365에서는 해당 사용자 계정을 삭제하거나 복원할 수 없습니다.
+조직에서 로컬 Active Directory 환경에서 사용자 계정을 Microsoft 365와 동기화하는 경우 로컬 Active Directory 서비스에서 해당 사용자 계정을 삭제하고 복원해야 합니다. Office 365에서는 해당 사용자 계정을 삭제하거나 복원할 수 없습니다.
   
 Active Directory에서 사용자 계정을 삭제 및 복원하는 방법에 대한 자세한 내용은 사용자 계정 [삭제를 참조하세요.](https://go.microsoft.com/fwlink/?linkid=841808)
   

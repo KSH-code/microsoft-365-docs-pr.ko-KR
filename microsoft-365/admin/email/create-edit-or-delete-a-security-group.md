@@ -47,7 +47,7 @@ Microsoft 365  그룹 페이지에서 SharePoint Online 및 CRM Online에서 동
 
 ### <a name="add-a-security-group"></a>보안 그룹 추가
 
-1. Microsoft 365 관리 센터에서 그룹 **그룹 페이지로**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a> 이동합니다.
+1. Microsoft 365 관리 센터에서 그룹 **페이지로**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a> 이동합니다.
   
 2. 그룹 **페이지에서** 그룹 **추가를 선택합니다.**
     
@@ -92,7 +92,7 @@ Microsoft 365  그룹 페이지에서 SharePoint Online 및 CRM Online에서 동
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 그룹 **그룹 페이지로** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a> 이동합니다.
+1. 관리 센터에서 그룹 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">페이지로</a> 이동합니다.
   
 2. 그룹 **페이지에서** 그룹의 이름을 선택합니다. 
     
@@ -102,7 +102,7 @@ Microsoft 365  그룹 페이지에서 SharePoint Online 및 CRM Online에서 동
 
 ::: moniker range="o365-germany"
 
-1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">센터에서</a>그룹 **그룹 페이지로** \>  이동합니다.  
+1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">센터에서</a>그룹 **그룹** \> **페이지로** 이동합니다.  
   
 2. 그룹 **페이지에서** 그룹의 이름을 선택합니다. 
     
@@ -127,7 +127,7 @@ Microsoft 365  그룹 페이지에서 SharePoint Online 및 CRM Online에서 동
 
 ### <a name="delete-a-security-group"></a>보안 그룹 삭제
 
-1. 관리 센터에서 그룹 **그룹 페이지로**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a> 이동합니다.
+1. 관리 센터에서 그룹 **그룹**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">페이지로</a> 이동합니다.
     
 2. 그룹 **페이지에서** 그룹의 이름을 선택합니다. 
     

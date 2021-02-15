@@ -55,7 +55,7 @@ ms.locfileid: "50126420"
 
 #### <a name="step-1-create-an-approvers-group"></a>[1단계: 승인자 그룹 만들기](../compliance/privileged-access-management-configuration.md#step-1-create-an-approvers-group)
 
-권한이 부여된 액세스 사용을 시작하기 전에 승격된 작업 및 권한 있는 작업에 대한 액세스에 대한 들어오는 요청에 대한 승인 권한이 있는 사용자를 결정하십시오. 승인자 그룹의 일부인 모든 사용자는 액세스 요청을 승인할 수 있습니다. 권한이 부여된 액세스를 사용하려면 Microsoft 365에서 메일 사용이 가능한 보안 그룹을 만들어야 합니다. 테스트 환경에서 새 보안 그룹 이름을 "Privileged Access Approvers"로 지정하고 이전 테스트 랩 가이드 단계에서 이전에 만든 "사용자 3"을 추가합니다.
+권한이 부여된 액세스 사용을 시작하기 전에 승격된 작업 및 권한 있는 작업에 대한 액세스에 대한 들어오는 요청에 대한 승인 권한이 있는 사용자를 결정하십시오. 승인자 그룹의 일부인 모든 사용자는 액세스 요청을 승인할 수 있습니다. 권한이 부여된 액세스를 사용하려면 Microsoft 365에서 메일 사용이 가능한 보안 그룹을 만들어야 합니다. 테스트 환경에서 새 보안 그룹 이름을 "권한 있는 액세스 승인자"로 지정하고 이전 테스트 랩 가이드 단계에서 이전에 만든 "사용자 3"을 추가합니다.
 
 #### <a name="step-2-enable-privileged-access"></a>[2단계: 권한 있는 액세스 사용](../compliance/privileged-access-management-configuration.md#step-2-enable-privileged-access)
 

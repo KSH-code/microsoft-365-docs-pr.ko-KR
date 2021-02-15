@@ -1,6 +1,6 @@
 ---
 title: Microsoft Managed Desktop 기술
-description: 이 문서에는 Microsoft Managed Desktop에서 사용되는 기술 및 앱이 나열됩니다.
+description: 이 문서에서는 Microsoft Managed Desktop에서 사용되는 기술 및 앱을 나열합니다.
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -18,7 +18,7 @@ ms.locfileid: "50094870"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Microsoft Managed Desktop 기술
 
-이 문서에는 Microsoft Managed Desktop에서 사용되는 기술 및 앱이 나열됩니다.
+이 문서에서는 Microsoft Managed Desktop에서 사용되는 기술 및 앱을 나열합니다.
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- in O365 table, standard suite, removed this sentence "Please see the Installation of Project/Visio 64bit Click to Run Addendum for important deployment instructions. -->
@@ -63,7 +63,7 @@ Win32 응용 프로그램 |    Teams는 디바이스와 함께 제공되지 않�
 [Microsoft Defender 바이러스 백신 클라우드 제공 보호](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus) | 새로운 위협에 대해 거의 즉각적이고 자동화된 동적 보호 기능을 제공합니다.
 [Microsoft Defender 차단을 최초로 차단](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus) | Windows에서 의심스러운 파일 또는 알 수 없는 파일을 감지할 때 새 맬웨어를 검색하고 차단합니다.
 [Microsoft Defender AV 잠재적으로 원치 않는 응용 프로그램](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus) | PUA(사용자들이 원치 않는 응용 프로그램)를 사용하여 컴퓨터 실행 속도가 느려지거나 예기치 않은 광고를 표시하거나, 최악의 경우 예기치 않게 또는 원치 않는 다른 소프트웨어를 설치할 수 있는 앱을 차단합니다.
-[Windows Defender 보안이 있는 방화벽](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security) | 디바이스에 대한 호스트 기반의 양측 네트워크 트래픽 필터링을 Windows Defender 방화벽은 로컬 장치로 유입되거나 밖으로 흐르는 권한이 없는 네트워크 트래픽을 차단합니다.
+[Windows Defender 보안이 있는 방화벽](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security) | 디바이스에 대한 호스트 기반의 양측 네트워크 트래픽 필터링을 Windows Defender 방화벽은 로컬 장치로 유입되거나 유출되는 권한이 없는 네트워크 트래픽을 차단합니다.
 [사용자 계정 컨트롤](https://docs.microsoft.com/windows/security/identity-protection/user-account-control/how-user-account-control-works) | 작업 또는 작업에 관리자 계정 유형 액세스 권한이 필요한 경우 사용자 계정 컨트롤이 보안 데스크톱으로 전환됩니다. Microsoft Managed Desktop 사용자에게는 등록 시 Standard 사용자 액세스 권한이 할당됩니다. 
 
 

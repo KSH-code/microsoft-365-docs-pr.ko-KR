@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - GEA150
 ms.assetid: c80a315a-af87-4996-94b9-fd2194f58a93
-description: 중국의 21Vianet에서 운영하는 Office 365에서 결제를 한 후 Fapiao 요청을 21Vianet Fapiao 관리 시스템에 제출하는 방법을 자세히 알아보고
+description: 중국의 21Vianet에서 운영하는 Office 365에서 지급을 한 후 Fapiao 요청을 21Vianet Fapiao 관리 시스템에 제출하는 방법을 자세히 알아보고
 monikerRange: o365-21vianet
 ms.openlocfilehash: 7145b4c223e7cb9347d38d6399fc8a3338651d42
 ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
@@ -41,7 +41,7 @@ ms.locfileid: "50114372"
 
 Fapiao를 신청하는 방법에는 다음 두 가지가 있습니다.
   
-1. 21Vianet에서 운영하는 Office 365 웹 사이트에서 결제를 한 후 주문 번호와 Fapiao 관리 시스템에 대한 링크가 포함된 주문 확인 전자 메일을 받게 됩니다. 전자 메일의 링크를 사용하여 <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao</a>정보 관리 시스템에서 계정을 만들 수 있습니다.
+1. 21Vianet 웹 사이트에서 운영하는 Office 365에서 결제를 한 후 주문 번호와 Fapiao 관리 시스템에 대한 링크가 포함된 주문 확인 전자 메일을 받게 됩니다. 전자 메일의 링크를 사용하여 <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao</a>정보 관리 시스템에서 계정을 만들 수 있습니다.
 
     또는
 
@@ -101,7 +101,7 @@ Fapiao를 신청하는 방법에는 다음 두 가지가 있습니다.
   
 ## <a name="step-4-check-application-progress"></a>4단계: 응용 프로그램 진행률 확인
 
-응용 프로그램은 21Vianet 서비스 센터로 자동 전송되며 2일 동안 완료됩니다.
+응용 프로그램은 21Vianet 서비스 센터로 자동으로 전송되며 2일 후 완료됩니다.
   
 응용 프로그램을 제출한 후 진행률을 확인할 수 있습니다. 응용 프로그램의 상태를 **Issued** 또는 **Mailed out과 같은 비고로 업데이트합니다.**
   
@@ -129,13 +129,13 @@ Fapiao 제목을 변경하려는 경우 Fapiao를 다시 보내 주세요. Fapia
   
 2. 로그인 암호를 잊은 경우 로그인 전자 메일 주소를 사용하여 암호를 다시 설정할 수 있습니다. Fapiao 관리 시스템은 전자 메일 주소로 새 암호를 전송합니다. 새 암호를 사용하여 로그인할 수 있습니다.
 
-    ![21Vianet Fapiao 관리 시스템에서 암호를 다시 설정하는 방법을 보여주는 일차 이미지.](../../media/2edb0a47-1286-4792-804d-7e84534c8370.png)
+    ![21Vianet Fapiao 관리 시스템에서 암호를 다시 설정하는 방법을 보여주는 일차 이미지](../../media/2edb0a47-1286-4792-804d-7e84534c8370.png)
   
-3. 로그인 전자 메일 주소를 잊어버렸다면 (86) 400-089-0365에서 21Vianet 고객 서비스에 문의하세요.
+3. 로그인 전자 메일 주소를 잊은 경우 (86) 400-089-0365에서 21Vianet 고객 서비스에 문의하세요.
 
 ### <a name="how-do-i-find-my-order-id"></a>주문 ID를 찾는 방법
 
-1. 관리 [센터에서](https://go.microsoft.com/fwlink/p/?linkid=850627)결제 페이지로 &  \> **청구서 페이지로** 이동합니다.
+1. 관리 [센터에서](https://go.microsoft.com/fwlink/p/?linkid=850627)청구서  및 결제 & \> **이동합니다.**
 
 2. 원하는 송장을 찾거나 보거나 PDF를 다운로드하기로 선택합니다.
 
@@ -145,7 +145,7 @@ Fapiao 제목을 변경하려는 경우 Fapiao를 다시 보내 주세요. Fapia
   
 ### <a name="what-if-i-dont-receive-an-activation-email"></a>정품 인증 전자 메일을 받지 못하면 어떻게 하나요?
 
-등록한 후 24시간 이내에 계정 정품 인증 전자 메일을 받지 못하면 <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao 정보</a>관리 시스템으로 이동하여 전자 메일 주소를 입력한 다음 정품 인증 전자 메일 다시 보내기를 **선택합니다.** 시스템은 계정 활성화 전자 메일을 등록된 전자 메일 주소로 다시 전송합니다.
+등록한 후 24시간 이내에 계정 활성화 전자 메일을 받지 못하면 <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao 정보</a>관리 시스템으로 이동하여 전자 메일 주소를 입력한 다음 정품 인증 전자 메일 다시 보내기를 **선택합니다.** 시스템은 계정 활성화 전자 메일을 등록된 전자 메일 주소로 다시 전송합니다.
   
 ![21Vianet Fapioa 관리 시스템 등록 페이지입니다.](../../media/60d39184-95b2-4ea4-a8a2-3e11763bec87.png)
   

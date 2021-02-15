@@ -37,7 +37,7 @@ Single [Sign-On에 대해 자세히 알아보시고.](/azure/active-directory/ma
 <br>
 <br>
 
-| 클라이언트 | Android | iOS | Mac| Windows 10 <br> 최신 앱| Windows 10 <br> 데스크톱 |
+| 클라이언트 | Android | iOS | Mac| Windows 10 <br> 최신 앱| Windows 10 <br> 데스크톱 |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | Access | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
 | 회사 포털 | 해당 없음 | ![지원](../media/check-mark.png) | 계획 | ![지원됨](../media/check-mark.png) | 해당 없음 |
@@ -58,9 +58,9 @@ Single [Sign-On에 대해 자세히 알아보시고.](/azure/active-directory/ma
 | Power BI | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | ![지원](../media/check-mark.png) | 계획 |
 | PowerPoint | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) |
 | Project | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
-| Publisher | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
+| 게시자 | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
 | 비즈니스용 Skype | 계획 | 계획 | 해당 없음 | 해당 없음 | 해당 없음 |
-| SharePoint를 입력하세요. | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | 해당 없음 | 해당 없음 |
+| SharePoint | ![지원](../media/check-mark.png) | ![지원](../media/check-mark.png) | 해당 없음 | 해당 없음 | 해당 없음 |
 | 스티커 메모 | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |
 | Stream | 계획 | 계획 | 해당 없음 | 해당 없음 | 해당 없음 |
 | Sway | 해당 없음 | 해당 없음 | 해당 없음 | 해당 없음 | ![지원](../media/check-mark.png) |

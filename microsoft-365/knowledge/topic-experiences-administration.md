@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-description: Microsoft Viva 항목에서 항목 센터의 이름을 변경하는 방법에 대해 자세히 알아보습니다.
+description: Microsoft Viva 항목에서 항목 센터의 이름을 변경하는 방법에 대해 자세히 알아보고
 ms.openlocfilehash: 91f0693ba24e412812e1b8db19cfcf0febd2ec66
 ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "50107726"
 
 ## <a name="to-access-topics-management-settings"></a>항목 관리 설정에 액세스하려면
 
-1. Microsoft 365 관리 센터에서 설정, Org 설정을 **클릭합니다.**
+1. Microsoft 365 관리 센터에서 설정을 클릭한 **다음, Org 설정을 클릭합니다.**
 2. 서비스 **탭에서** 항목 **환경을 클릭합니다.**
 
     ![지식에 사람 연결](../media/admin-org-knowledge-options-completed.png) 
@@ -46,6 +46,6 @@ ms.locfileid: "50107726"
 
 [Microsoft Viva 항목에서 항목 검색 관리](topic-experiences-discovery.md)
 
-[Microsoft Viva 항목의 항목 표시 여부 관리](topic-experiences-knowledge-rules.md)
+[Microsoft Viva 항목의 항목 표시 관리](topic-experiences-knowledge-rules.md)
 
 [Microsoft Viva 항목의 항목 사용 권한 관리](topic-experiences-user-permissions.md)

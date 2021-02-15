@@ -1,6 +1,6 @@
 ---
 title: 정보 장벽 정책 정의
-description: Microsoft Teams에서 정보 장벽에 대한 정책을 정의하는 방법을 배워야 합니다.
+description: Microsoft Teams에서 정보 장벽에 대한 정책을 정의하는 방법을 학습합니다.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -24,7 +24,7 @@ ms.locfileid: "50126587"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
-정보 장벽을 사용하여 특정 사용자 세그먼트가 서로 통신하지 못하도록 설계된 정책을 정의하거나 특정 세그먼트가 특정 세그먼트와만 통신할 수 있도록 허용할 수 있습니다. 정보 장벽 정책은 조직이 관련 산업 표준 및 규정을 준수하고 잠재적인 이해 상충을 방지하는 데 도움이 될 수 있습니다. 자세한 내용은 정보 [장벽을 참조하세요.](information-barriers.md)
+정보 장벽을 사용하여 특정 사용자 세그먼트가 서로 통신하지 못하도록 설계된 정책을 정의하거나 특정 세그먼트가 특정 세그먼트와만 통신할 수 있도록 허용할 수 있습니다. 정보 장벽 정책은 조직이 관련 산업 표준 및 규정을 준수하도록 유지 관리하고 잠재적인 이해 상충을 방지하는 데 도움이 될 수 있습니다. 자세한 내용은 정보 [장벽을 참조하세요.](information-barriers.md)
 
 이 문서에서는 정보 장벽 정책을 계획, 정의, 구현 및 관리하는 방법을 설명합니다. 여러 단계가 관련이 있으며 작업 흐름은 여러 부분으로 나뉘어 있습니다. 정보 장벽 정책 [](#prerequisites) 정의(또는 편집)를 시작하기 전에 선행 작업 및 전체 프로세스를 읽어야 합니다.
 
@@ -36,7 +36,7 @@ ms.locfileid: "50126587"
 정보 장벽에 대한 정책을 정의하면 사용자 계정 특성, 세그먼트, "차단" 및/또는 "허용" 정책 및 정책 응용 프로그램을 사용할 수 있습니다.
 
 - 사용자 계정 특성은 Azure Active Directory(또는 Exchange Online)에서 정의됩니다. 이러한 특성에는 부서, 직위, 위치, 팀 이름 및 기타 작업 프로필 세부 정보가 포함됩니다. 
-- 세그먼트는 선택한 사용자 계정 특성을 사용하여 보안 & 준수 **센터에 정의된 사용자 집합입니다.** 지원되는 [특성 목록을 참조하세요.](information-barriers-attributes.md)
+- 세그먼트는 선택한 사용자 계정 특성을 사용하여 보안 & 준수 센터에 정의된 **사용자 집합입니다.** 지원되는 [특성 목록을 참조하세요.](information-barriers-attributes.md)
 - 정보 장벽 정책은 통신 제한 또는 제한을 결정합니다. 정보 장벽 정책을 정의할 때 다음 두 가지 유형의 정책 중 선택할 수 있습니다.
     - "차단" 정책은 한 세그먼트가 다른 세그먼트와 통신하지 못하게 합니다.
     - "허용" 정책을 사용하면 한 세그먼트가 다른 특정 세그먼트와만 통신할 수 있습니다.
@@ -47,8 +47,8 @@ ms.locfileid: "50126587"
 |**작업 단계**|**관련 항목**|
 |:--------|:------------------|
 | [선행 준비를 충족하는지 확인](#prerequisites) | - 필요한 라이선스 및 사용 [권한이 있는지 확인](information-barriers.md#required-licenses-and-permissions)<br/>- 디렉터리에 사용자 분할을 위한 데이터가 포함되어 있는지 확인<br/>- Microsoft Teams에 대해 범위가 지정한 디렉터리 검색 사용<br/>- 감사 로깅이 켜져 있는지 확인<br/>- Exchange 주소부 정책이 없는지 확인<br/>- PowerShell 사용(예제 제공)<br/>- Microsoft Teams에 대한 관리자 동의 제공(단계 포함) |
-| [1부: 조직에서 사용자 구분](#part-1-segment-users) | - 필요한 정책 결정<br/>- 정의할 세그먼트 목록 만들기<br/>- 사용할 특성 식별<br/>- 정책 필터 측면에서 세그먼트 정의 |
-| [2부: 정보 장벽 정책 정의](#part-2-define-information-barrier-policies) | - 정책 정의(아직 적용되지 않습니다)<br/>- 두 가지 종류(차단 또는 허용) 중 선택 |
+| [1부: 조직의 사용자 구분](#part-1-segment-users) | - 필요한 정책 결정<br/>- 정의할 세그먼트 목록 만들기<br/>- 사용할 특성 식별<br/>- 정책 필터 측면에서 세그먼트 정의 |
+| [2부: 정보 장벽 정책 정의](#part-2-define-information-barrier-policies) | - 정책 정의(아직 적용되지 않습니다.<br/>- 두 가지 종류(차단 또는 허용) 중 선택 |
 | [3부: 정보 장벽 정책 적용](#part-3-apply-information-barrier-policies) | - 정책을 활성 상태로 설정<br/>- 정책 응용 프로그램 실행<br/>- 정책 상태 보기 |
 | (필요한 경우) [세그먼트 또는 정책 편집](information-barriers-edit-segments-policies.md) | - 세그먼트 편집<br/>- 정책 편집 또는 제거<br/>- 정책 응용 프로그램 다시 실행<br/>- 정책 상태 보기 |
 | (필요한 경우) [문제 해결](information-barriers-troubleshooting.md)| - 작업이 예상대로 작동하지 않는 경우 작업 수행|
@@ -62,7 +62,7 @@ ms.locfileid: "50126587"
   - [Azure Active Directory를 사용하여 사용자의 프로필 정보 추가 또는 업데이트](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
   - [Office 365 PowerShell를 사용 하 여 사용자 계정 속성 구성](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
 
-- 범위 디렉터리 검색 - 조직의 첫 번째 정보 장벽 정책을 정의하기 전에 [Microsoft Teams에서 범위가 지정한 디렉터리](/MicrosoftTeams/teams-scoped-directory-search)검색을 사용하도록 설정해야 합니다. 정보 장벽 정책을 설정하거나 정의하기 전에 범위가 지정한 디렉터리 검색을 사용하도록 설정한 후 24시간 이상 기다릴 수 있습니다.
+- 범위가 지정한 디렉터리 검색 - 조직의 첫 번째 정보 장벽 정책을 정의하기 전에 [Microsoft Teams에서 범위가 지정한 디렉터리](/MicrosoftTeams/teams-scoped-directory-search)검색을 사용하도록 설정해야 합니다. 정보 장벽 정책을 설정하거나 정의하기 전에 범위가 지정한 디렉터리 검색을 사용하도록 설정한 후 24시간 이상 기다릴 수 있습니다.
 
 - EXO 라이선스 - 대상 사용자에게 EXO 라이선스가 할당된 경우 IB 정책이 적용됩니다.
 
@@ -113,7 +113,7 @@ ms.locfileid: "50126587"
 초기 정책 목록 외에 조직의 세그먼트 목록을 만들어야 합니다. 정보 장벽 정책에 포함될 사용자는 세그먼트에 속해야 합니다. 사용자가 하나의 세그먼트에만 있을 수 있는 경우 세그먼트를 신중하게 계획합니다. 각 세그먼트에는 하나의 정보 장벽 정책만 적용할 수 있습니다.
 
 > [!IMPORTANT]
-> 사용자는 하나의 세그먼트에만 있을 수 있습니다.
+> 사용자는 세그먼트 하나에만 있을 수 있습니다.
 
 세그먼트를 정의하는 데 사용할 조직의 디렉터리 데이터의 특성을 확인합니다. Department,  *MemberOf* 또는 지원되는 특성을 사용할 수 있습니다. 사용자에 대해 선택한 특성의 값이 있는지 확인 [정보 장벽에 대해 지원되는 특성 목록을 참조하세요.](information-barriers-attributes.md)
 
@@ -128,7 +128,7 @@ ms.locfileid: "50126587"
 
     |**다중값 속성 구문 표에서 선택하는 구문은 cmdlet에 대한 매개 변수 값으로 지정됩니다. 예를 들어 다음 명령을 통해 다중값 속성에 여러 값을 추가할 수 있습니다.**|**예**|
     |:---------|:----------|
-    | `New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -eq 'attributevalue'"` |`New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` <p>이 예에서 *HR이라는* 세그먼트는 Department 특성의 *값인 HR을* *사용하여 정의됩니다.* cmdlet의 **-eq** 부분은 "같음"을 참조합니다. 또는 **-ne를** 사용하여 "같지 않은"을 의미할 수 있습니다. 세그먼트 [정의에서 "같음" 및 "같지 않은" 사용](#using-equals-and-not-equals-in-segment-definitions)참조 |
+    | `New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -eq 'attributevalue'"` |`New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` <p>이 예에서 *HR이라는* 세그먼트는 Department 특성의 *값인 HR을* *사용하여 정의됩니다.* cmdlet의 **-eq** 부분은 "같음"을 참조합니다. 또는 **-ne를** 사용하여 "같지 않은"을 의미할 수 있습니다. 세그먼트 [정의에서 "같음"](#using-equals-and-not-equals-in-segment-definitions)및 "같지 않은" 사용 참조 |
 
     각 cmdlet을 실행하면 새 세그먼트에 대한 세부 정보 목록이 표시됩니다. 세부 정보에는 세그먼트 유형, 세그먼트를 만들거나 마지막으로 수정한 사람 등이 포함됩니다. 
 
@@ -169,7 +169,7 @@ ms.locfileid: "50126587"
 
 특정 세그먼트 간의 통신을 차단할지 또는 특정 세그먼트로 통신을 제한해야 하는지 여부를 결정합니다. 이상적으로는 최소 수의 정책을 사용하여 조직이 법률 및 산업 요구 사항을 준수하는지 확인합니다.
 
-사용자 세그먼트 목록과 정의할 정보 장벽 정책을 사용하여 시나리오를 선택한 다음 단계를 수행합니다.
+사용자 세그먼트 목록과 정의할 정보 장벽 정책을 사용하여 시나리오를 선택하고 단계를 수행합니다.
 
 - [시나리오 1: 세그먼트 간 통신 차단](#scenario-1-block-communications-between-segments)
 - [시나리오 2: 세그먼트가 다른 세그먼트와만 통신하도록 허용](#scenario-2-allow-a-segment-to-communicate-only-with-one-other-segment)
@@ -181,13 +181,13 @@ ms.locfileid: "50126587"
 
 ### <a name="scenario-1-block-communications-between-segments"></a>시나리오 1: 세그먼트 간 통신 차단
 
-세그먼트가 서로 통신하는 것을 차단하려는 경우 각 방향에 대해 하나씩 두 가지 정책을 정의합니다. 각 정책은 통신을 단방으로만 차단합니다.
+세그먼트가 서로 통신하는 것을 차단하려는 경우 각 방향에 대해 하나씩 두 가지 정책을 정의합니다. 각 정책은 단방으로만 통신을 차단합니다.
 
 예를 들어 세그먼트 A와 세그먼트 B 간의 통신을 차단하려는 경우를 가정해 보겠습니다. 이 경우 세그먼트 A가 세그먼트 B와 통신하지 못하게 하는 하나의 정책을 정의한 다음 세그먼트 B가 세그먼트 A와 통신하지 못하게 하는 두 번째 정책을 정의합니다.
 
 1. 첫 번째 차단 정책을 정의하기 위해 **SegmentsBlocked** 매개 변수와 함께 **New-InformationBarrierPolicy** cmdlet을 사용합니다.
 
-    |**구문** | **예제**| |**--------|:----------| |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsBlocked "segment2name"` | `New-InformationBarrierPolicy -Name "Sales-Research" -AssignedSegment "Sales" -SegmentsBlocked "Research" -State Inactive` <p> 이 예제에서는 Sales라는 세그먼트에 대해 *Sales-Research라는* 정책을 *정의했습니다.* 이 정책은 활성화되고 적용될 때 Sales의 사용자가 *Research라는* 세그먼트의 사용자와 통신하지 못하게 *합니다.* |
+    |**구문** | **예제**| |**--------|:----------| |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsBlocked "segment2name"` | `New-InformationBarrierPolicy -Name "Sales-Research" -AssignedSegment "Sales" -SegmentsBlocked "Research" -State Inactive` <p> 이 예제에서는 Sales라는 세그먼트에 대해 *Sales-Research라는* 정책을 *정의했습니다.* 이 정책을 활성화하고 적용하면 Sales의 사용자가 *Research라는* 세그먼트의 사용자와 통신할 수 *없습니다.* |
 
 2. 두 번째 차단 세그먼트를 정의하기 위해 **SegmentsBlocked** 매개 변수와 함께 **New-InformationBarrierPolicy** cmdlet을 다시 사용합니다. 이번에는 세그먼트가 반대로 설정됩니다.
 
@@ -206,13 +206,13 @@ ms.locfileid: "50126587"
 
     |**다중값 속성 구문 표에서 선택하는 구문은 cmdlet에 대한 매개 변수 값으로 지정됩니다. 예를 들어 다음 명령을 통해 다중값 속성에 여러 값을 추가할 수 있습니다.**|**예**|
     |:----------|:----------|
-    | `New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name","segment1name"` | `New-InformationBarrierPolicy -Name "Manufacturing-HR" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR","Manufacturing" -State Inactive` <p> 이 예에서는 Manufacturing이라는 세그먼트에 *대해 Manufacturing-HR이라는* 정책을 *정의했습니다.* 이 정책을 활성화하고 적용하면  제조업의 사용자가 *HR이라는* 세그먼트의 사용자와만 통신할 수 있습니다. (이 경우 *제조는* HR에 참여하지 않는 사용자와 통신할 *수 없습니다.)* |
+    | `New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name","segment1name"` | `New-InformationBarrierPolicy -Name "Manufacturing-HR" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR","Manufacturing" -State Inactive` <p> 이 예에서는 Manufacturing이라는 세그먼트에 *대해 Manufacturing-HR이라는* 정책을 *정의했습니다.* 이 정책을 활성화하고 적용하면  제조업의 사용자가 *HR이라는* 세그먼트의 사용자와만 통신할 수 있습니다. 이 경우 *제조는* *HR에* 참여하지 않는 사용자와 통신할 수 없습니다. |
 
     **필요한 경우 다음 예제와 같이 이 cmdlet을 사용하여 여러 세그먼트를 지정할 수 있습니다.**
 
     |**다중값 속성 구문 표에서 선택하는 구문은 cmdlet에 대한 매개 변수 값으로 지정됩니다. 예를 들어 다음 명령을 통해 다중값 속성에 여러 값을 추가할 수 있습니다.**|**예**|
     |:---------|:----------|
-    | `New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name", "segment3name","segment1name"` | `New-InformationBarrierPolicy -Name "Research-HRManufacturing" -AssignedSegment "Research" -SegmentsAllowed "HR","Manufacturing","Research" -State Inactive` <p> 이 예제에서는 Research 세그먼트가 *HR* 및 제조와만 통신할 수 있도록 하는 정책을 *정의했습니다.*  |
+    | `New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name", "segment3name","segment1name"` | `New-InformationBarrierPolicy -Name "Research-HRManufacturing" -AssignedSegment "Research" -SegmentsAllowed "HR","Manufacturing","Research" -State Inactive` <p> 이 예제에서는 연구 세그먼트가 *HR* 및 제조와만 통신할 수 있도록 하는 정책을 *정의했습니다.*  |
 
     특정 세그먼트가 다른 특정 세그먼트와만 통신할 수 있도록 정의하려는 각 정책에 대해 이 단계를 반복합니다.
 
@@ -229,7 +229,7 @@ ms.locfileid: "50126587"
 
     구문: `Get-InformationBarrierPolicy`
 
-2. 정책을 활성 상태로 설정하기 위해 **Identity** 매개 변수와 **함께 Set-InformationBarrierPolicy** cmdlet을 사용하며 State 매개 변수를 **Active로** **설정하십시오.** 
+2. 정책을 활성 상태로 설정하기 위해 **Identity** 매개 변수와 함께 **Set-InformationBarrierPolicy** cmdlet을 사용하며 State 매개 변수를 **Active로** **설정하십시오.** 
 
     |**다중값 속성 구문 표에서 선택하는 구문은 cmdlet에 대한 매개 변수 값으로 지정됩니다. 예를 들어 다음 명령을 통해 다중값 속성에 여러 값을 추가할 수 있습니다.**|**예**|
     |:---------|:----------|

@@ -59,7 +59,7 @@ Microsoft 365 Business Premium에는 중소기업에 필요한 모든 것이 있
 | Yammer, SharePoint Online, Planner, Stream    | ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | MileIQ    | ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | | 
 | **위협 방지**        | | | 
-| 공격 표면 감소 기능    | [이 목록 참조](#threat-protection) | Microsoft Edge에 대한 하드웨어 기반 고리의 엔터프라이즈 관리 | 
+| 공격 표면 축소 기능    | [이 목록 참조](#threat-protection) | Microsoft Edge에 대한 하드웨어 기반 고리의 엔터프라이즈 관리 | 
 | Office 365 계획 1용 Defender | ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | 포함되지 않지만 추가할 수 있습니다. | 
 | **ID 관리**        | | | 
 | 하이브리드 Azure AD(Azure Active Directory) 계정, Azure AD MFA(다단계 인증), 조건부 액세스,온-프레미스 ID에 대한 암호 쓰기 저장에 대한 셀프 서비스 암호 재설정|     ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
@@ -85,7 +85,7 @@ Microsoft 365 Business Premium에는 중소기업에 필요한 모든 것이 있
 | MRM(메시징 레코드 관리) 보존 태그 및 보존 정책    | ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 ||||
 
-\* SaaS 앱에 대한 액세스 권한이 할당된 사용자는 최대 10개 앱에 대한 SSO 액세스를 얻을 수 있습니다. 관리자는 SSO를 구성하고 다른 SaaS 앱에 대한 사용자 액세스를 변경할 수 있지만, SSO 액세스는 한 시기에 사용자당 10개 앱에 한해 허용됩니다. 모든 Office 365 앱은 단일 앱으로 계산됩니다.
+\* SaaS 앱에 대한 액세스 권한이 할당된 사용자는 최대 10개 앱에 대한 SSO 액세스를 얻을 수 있습니다. 관리자는 SSO를 구성하고 다른 SaaS 앱에 대한 사용자 액세스를 변경할 수 있지만 SSO 액세스는 한 시기에 사용자당 10개 앱에 한해 허용됩니다. 모든 Office 365 앱은 단일 앱으로 계산됩니다.
 
 ## <a name="migration"></a>마이그레이션
 
@@ -120,7 +120,7 @@ Windows 10 Business에는 다음 보호가 포함됩니다.
 - Microsoft Edge, Internet Explorer 및 Chrome에 대한 신뢰도 기반 네트워크 보호
 - 호스트 기반 방화벽
 - 랜섬웨어 완화
-- Microsoft Edge에 대한 하드웨어 기반의 고리
+- Microsoft Edge에 대한 하드웨어 기반 고리
 - 지능형 보안 그래프를 통해 지원된 응용 프로그램 컨트롤
 - 디바이스 제어(USB)
 - 웹 기반 위협에 대한 네트워크 보호
