@@ -1,5 +1,5 @@
 ---
-title: Microsoft 제품이 아닌 클라우드 앱에 대해 데이터 손실 방지 정책 사용 (미리 보기)
+title: Microsoft가 아닌 클라우드 앱에 데이터 손실 방지 정책 사용(미리 보기)
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: 타사 클라우드 앱에 대해 dlp 정책을 사용 하는 방법에 대해 알아봅니다.
+description: Microsoft가 아닌 클라우드 앱에 대해 dlp 정책을 사용하는 방법을 학습합니다.
 ms.openlocfilehash: 0b588bf27738a0f9a8078999311294f74e5193c0
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
@@ -27,17 +27,17 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48649659"
 ---
-# <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Microsoft 제품이 아닌 클라우드 앱에 대해 데이터 손실 방지 정책 사용 (미리 보기)
+# <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Microsoft가 아닌 클라우드 앱에 데이터 손실 방지 정책 사용(미리 보기)
 
-Microsoft 제품이 아닌 클라우드 앱에 대 한 DLP (데이터 손실 방지) 정책은 Microsoft 365 DLP 기능 집합의 일부입니다. 이러한 기능을 사용 하면 Microsoft 365 서비스에서 중요 한 항목을 검색 및 보호할 수 있습니다. 모든 Microsoft DLP 제공에 대 한 자세한 내용은 [Overview For data 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide)를 참조 하십시오.
+Microsoft가 아닌 클라우드 앱에 대한 DLP(데이터 손실 방지) 정책은 Microsoft 365 DLP 기능 제품군의 일부입니다. 이러한 기능을 사용하여 Microsoft 365 서비스에서 중요한 항목을 검색하고 보호할 수 있습니다. 모든 Microsoft DLP 제공에 대한 자세한 내용은 데이터 손실 방지 [개요를 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide)
 
-Microsoft 제품이 아닌 클라우드 앱에 대해 DLP 정책을 사용 하 여 중요 한 항목을 사용 하 고 공유 하는 시간을 모니터링 하 고 검색할 수 있습니다. 이러한 정책을 사용 하면 올바르게 사용 및 보호 되는지 확인 하는 데 필요한 가시성 및 제어를 얻을 수 있으며,이를 통해 손상 될 수 있는 위험한 동작이 방지 됩니다.
+DLP 정책을 사용하여 Microsoft가 아닌 클라우드 앱에 중요한 항목이 사용되는 경우를 모니터링하고 Microsoft가 아닌 클라우드 앱을 통해 공유할 수 있습니다. 이러한 정책을 사용하면 정책이 올바르게 사용 및 보호되도록 하는 데 필요한 가시성과 제어가 제공될 수 있으며 손상될 수 있는 위험한 동작을 방지하는 데 도움이 됩니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
 ### <a name="skusubscriptions-licensing"></a>SKU/구독 라이선싱
 
-Microsoft 이외의 클라우드 앱에 DLP 정책을 사용 하기 전에 [microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) 및 모든 추가 기능을 확인 합니다. 이 기능에 액세스 하 고 사용 하려면 다음 구독 또는 추가 기능 중 하나가 있어야 합니다.
+DLP 정책을 Microsoft가 아닌 클라우드 앱에 사용하려면 먼저 [Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) 구독 및 추가 기능을 확인하세요. 이 기능에 액세스하고 사용하려면 다음 구독 또는 추가 기능 중 하나가 있어야 합니다.
 
 - Microsoft 365 E5
 - Microsoft 365 E5 Compliance
@@ -45,46 +45,46 @@ Microsoft 이외의 클라우드 앱에 DLP 정책을 사용 하기 전에 [micr
 
 ### <a name="prepare-your-cloud-app-security-environment"></a>Cloud App Security 환경 준비
 
-비 Microsoft 클라우드 앱에 대 한 DLP 정책은 Cloud App Security DLP 기능을 사용 합니다. 이 도구를 사용 하려면 Cloud App Security environment를 준비 해야 합니다. 자세한 내용은 [앱에 대 한 빠른 표시, 보호 및 관리 작업을 설정](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security#step-1-set-instant-visibility-protection-and-governance-actions-for-your-apps)합니다 .를 참조 하세요.
+Microsoft가 아닌 클라우드 앱에 대한 DLP 정책은 Cloud App Security DLP 기능을 사용 합니다. 클라우드 앱 보안 환경을 준비해야 합니다. 지침은 앱에 대한 [인스턴트 가시성, 보호 및 거버넌스 작업 설정을 참조하세요.](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security#step-1-set-instant-visibility-protection-and-governance-actions-for-your-apps)
 
-### <a name="connect-a-non-microsoft-cloud-app"></a>타사 클라우드 앱 연결
+### <a name="connect-a-non-microsoft-cloud-app"></a>Microsoft가 아닌 클라우드 앱 연결
 
-Microsoft 제품이 아닌 특정 클라우드 앱에 DLP 정책을 사용 하려면 앱이 Cloud App Security에 연결 되어 있어야 합니다. 자세한 내용은 다음 항목을 참조 하십시오.
+DLP 정책을 Microsoft가 아닌 특정 클라우드 앱에 사용하려면 앱이 Cloud App Security에 연결되어 있어야 합니다. 자세한 내용은 다음을 참조하세요.
 
-- [연결 상자](https://docs.microsoft.com/cloud-app-security/connect-box-to-microsoft-cloud-app-security)
+- [Connect Box](https://docs.microsoft.com/cloud-app-security/connect-box-to-microsoft-cloud-app-security)
 - [Dropbox 연결](https://docs.microsoft.com/cloud-app-security/connect-dropbox-to-microsoft-cloud-app-security)
-- [G-제품군 연결](https://docs.microsoft.com/cloud-app-security/connect-google-apps-to-microsoft-cloud-app-security)
-- [Salesforce 연결](https://docs.microsoft.com/cloud-app-security/connect-salesforce-to-microsoft-cloud-app-security)
+- [G-Suite 연결](https://docs.microsoft.com/cloud-app-security/connect-google-apps-to-microsoft-cloud-app-security)
+- [Connect Salesforce](https://docs.microsoft.com/cloud-app-security/connect-salesforce-to-microsoft-cloud-app-security)
 - [Cisco Webex 연결](https://docs.microsoft.com/cloud-app-security/connect-webex-to-microsoft-cloud-app-security)
 
-클라우드 앱을 Cloud App Security에 연결한 후에는 Microsoft 365 DLP 정책을 만들 수 있습니다.
+클라우드 앱을 Cloud App Security에 연결한 후 클라우드 앱에 대한 Microsoft 365 DLP 정책을 만들 수 있습니다.
 
 >[!NOTE]
->Microsoft Cloud App Security를 사용 하 여 Microsoft 클라우드 앱에 DLP 정책을 만들 수도 있습니다. 그러나 microsoft 클라우드 앱에 DLP 정책을 만들고 관리 하는 데에는 마이크로소프트 365를 사용 하는 것이 좋습니다.
+>Microsoft Cloud App Security를 사용하여 Microsoft 클라우드 앱에 대한 DLP 정책을 만들 수 있습니다. 그러나 Microsoft 365를 사용하여 Microsoft 클라우드 앱에 대한 DLP 정책을 만들고 관리하는 것이 좋습니다.
 
-## <a name="create-a-dlp-policy-to-a-non-microsoft-cloud-app"></a>비 Microsoft cloud app에 대 한 DLP 정책 만들기
+## <a name="create-a-dlp-policy-to-a-non-microsoft-cloud-app"></a>Microsoft가 아닌 클라우드 앱에 대한 DLP 정책 만들기
 
-DLP 정책에 대 한 위치를 선택 하는 경우 **Microsoft Cloud App Security** 위치를 설정 합니다.
+DLP 정책의 위치를 선택하면 Microsoft Cloud **App Security** 위치를 켜야 합니다.
 
-- 특정 앱 또는 인스턴스를 선택 하려면 **인스턴스 선택을**선택 합니다.
-- 인스턴스를 선택 하지 않으면 정책에서 Microsoft Cloud App Security 테 넌 트에 연결 된 모든 앱을 사용 합니다.
+- 특정 앱 또는 인스턴스를 선택하려면 인스턴스 **선택을 선택합니다.**
+- 인스턴스를 선택하지 않은 경우 정책은 Microsoft Cloud App Security 테넌트의 연결된 모든 앱을 사용하게 됩니다.
 
    ![정책을 적용할 위치](../media/1-dlp-non-microsoft-cloud-app-choose-instance.png)
 
-   ![박스 및 Box-General](../media/2-dlp-non-microsoft-cloud-app-box.png)
+   ![Box-US 및 Box-General](../media/2-dlp-non-microsoft-cloud-app-box.png)
 
-지원 되는 Microsoft cloud가 아닌 모든 클라우드 앱에 대해 다양 한 작업을 선택할 수 있습니다. 모든 앱에 대해 다양 한 작업을 수행할 수 있습니다 (cloud app API에 따라 다름).
+지원되는 모든 비 Microsoft 클라우드 앱에 대해 다양한 작업을 선택할 수 있습니다. 모든 앱에 대해 가능한 작업이 여러 가지 있습니다(클라우드 앱 API에 따라 다름).
 
 ![규칙 만들기](../media/3-dlp-non-microsoft-cloud-app-create-rule.png)
 
-DLP 정책에서 규칙을 만들 때 비 Microsoft 클라우드 앱에 대 한 작업을 선택할 수 있습니다. 타사 앱을 제한 하려면 타사 **앱 제한을**선택 합니다.
+DLP 정책에서 규칙을 만들 때 Microsoft가 아닌 클라우드 앱에 대한 작업을 선택할 수 있습니다. 타사 앱을 제한하려면 타사 앱 **제한을 선택합니다.**
 
 ![타사 앱 제한](../media/4-dlp-non-microsoft-cloud-app-restrict-third-party-apps.png)
 
-DLP 정책을 만들고 구성 하는 방법에 대 한 자세한 내용은 [Create test and expressiona dlp policy](https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy?view=o365-worldwide)을 참조 하십시오.
+DLP 정책 만들기 및 구성에 대한 자세한 내용은 테스트 만들기 및 DLP 정책 [조정을 참조하십시오.](https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy?view=o365-worldwide)
 
 ## <a name="see-also"></a>참고 항목
 
-- [테스트 만들기 및 DLP 정책 튜닝](https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy?view=o365-worldwide)
+- [테스트 만들기 및 DLP 정책 조정](https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy?view=o365-worldwide)
 - [기본 DLP 정책을 사용하여 시작](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-the-default-dlp-policy?view=o365-worldwide)
 - [서식 파일에서 DLP 정책 만들기](https://docs.microsoft.com/microsoft-365/compliance/create-a-dlp-policy-from-a-template?view=o365-worldwide)

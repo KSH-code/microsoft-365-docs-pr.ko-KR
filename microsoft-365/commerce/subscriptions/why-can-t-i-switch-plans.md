@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 for business 요금제를 전환할 수 없는 이유는 무엇 인가요?
+title: 비즈니스용 Microsoft 365 요금제는 전환할 수 없는 이유는 무엇입니까?
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,7 +23,7 @@ search.appverid:
 - GEA150
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
-description: 때로는 수동으로 전환 하거나 지원 서비스를 호출 하 여 계획을 수행 해야 하는 이유를 이해 합니다.
+description: 경우에 따라 요금제 전환을 수동으로 또는 지원에 문의하여 전환해야 하는 이유를 이해합니다.
 ms.openlocfilehash: 8e217ad59e6436641af3b2f0151a760da5239839
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
@@ -31,29 +31,29 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48646754"
 ---
-# <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Microsoft 365 for business 요금제를 전환할 수 없는 이유는 무엇 인가요?
+# <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>비즈니스용 Microsoft 365 요금제는 전환할 수 없는 이유는 무엇입니까?
 
 ::: moniker range="o365-worldwide"
 > [!NOTE]
-> 이 문서는 이전 관리 센터에 적용 됩니다. 관리 센터 (미리 보기)에 대 한 문서를 보려면 [요금제를 업그레이드할 수 없는 이유](upgrade-to-different-plan.md#why-cant-i-upgrade-plans)를 참조 하세요. 모든 Microsoft 365 관리자가 미리 보기를 사용할 수 있는 경우 홈 페이지 위쪽에 있는 **미리 보기** 사용 안 함을 선택 하 여 참여할 수 있습니다. 자세한 내용은 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md)를 참고하세요.
+> 이 문서는 이전 관리 센터에 적용됩니다. 관리 센터에 대한 문서(미리 보기)를 확인하려면 계획을 업그레이드할 수 없는 [이유는 무엇입니까?](upgrade-to-different-plan.md#why-cant-i-upgrade-plans) 미리 보기는 모든 Microsoft 365 관리자가 사용할 수 있습니다. 홈 페이지 상단에 있는 미리 보기 토글 시도를 선택하여 옵트인(opt in)할 수 있습니다.  자세한 내용은 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md)를 참고하세요.
 ::: moniker-end
 
-**요금제 전환** 단추가 표시 되지 않으면 요금제를 자동으로 전환할 수 없습니다. 일부 경우 **요금제 전환** 단추를 사용할 수 있도록 문제를 해결할 수 있거나, 대신 [요금제를 수동으로 전환](switch-plans-manually.md)할 수 있습니다. **요금제 전환** 단추를 사용할 수 없는 이유를 설명하는 메시지를 보려면 마우스를 정보 아이콘 위에 놓으세요. 이 문서의 정보를 사용하여 문제를 해결하세요.
+요금제 전환 단추가  없는 경우 요금제는 자동으로 전환할 수 없습니다. 일부 경우 **요금제 전환** 단추를 사용할 수 있도록 문제를 해결할 수 있거나, 대신 [요금제를 수동으로 전환](switch-plans-manually.md)할 수 있습니다. **요금제 전환** 단추를 사용할 수 없는 이유를 설명하는 메시지를 보려면 마우스를 정보 아이콘 위에 놓으세요. 이 문서의 정보를 사용하여 문제를 해결하세요.
   
 ::: moniker range="o365-worldwide"
 
- **다른 사항이 필요 합니다.** [다른 구독 구입](../buy-another-subscription.md)  |  [구독 취소](cancel-your-subscription.md)  |  [구독 및 대금 청구](../index.yml)  |  [통화 지원](../../admin/contact-support-for-business-products.md)
+ **다른 것이 필요하세요?** [다른 구독 구입](../buy-another-subscription.md)  |  [구독 취소](cancel-your-subscription.md)  |  [구독 및 청구](../index.yml)  |  [지원 문의](../../admin/contact-support-for-business-products.md)
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- **다른 사항이 필요 합니다.** [다른 구독 구입](../buy-another-subscription.md)  |  [구독 취소](cancel-your-subscription.md)  |  [구독 및 대금 청구](../index.yml)  |  [통화 지원](../../admin/contact-support-for-business-products.md)
+ **다른 것이 필요하세요?** [다른 구독 구입](../buy-another-subscription.md)  |  [구독 취소](cancel-your-subscription.md)  |  [구독 및 청구](../index.yml)  |  [지원 문의](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- **다른 사항이 필요 합니다.** [21vianet에서 운영 하는 Office 365 구독 구입 또는 체험](../../admin/services-in-china/buy-or-try-subscriptions.md)  |  [구독 취소](cancel-your-subscription.md)  |  [통화 지원](../../admin/contact-support-for-business-products.md)
+ **다른 것이 필요하세요?** [21Vianet에서 운영하는 Office 365](../../admin/services-in-china/buy-or-try-subscriptions.md) 구독 구입 또는 시도  |  [구독 취소](cancel-your-subscription.md)  |  [지원 문의](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
@@ -63,19 +63,19 @@ ms.locfileid: "48646754"
 
 ::: moniker range="o365-worldwide"
 
-**요금제 전환** 단추를 사용하여 요금제를 자동으로 전환하려면 모든 사용자에게 유효한 라이선스가 할당되어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../admin/manage/resolve-license-conflicts.md). 라이선스 충돌을 해결하고 나면 **요금제 전환** 단추가 표시되어야 합니다. 그렇지 않은 경우 요금제를 [수동으로 전환](switch-plans-manually.md)하거나 [지원 서비스에 문의할](../../admin/contact-support-for-business-products.md)수 있습니다.
+**요금제 전환** 단추를 사용하여 요금제를 자동으로 전환하려면 모든 사용자에게 유효한 라이선스가 할당되어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../admin/manage/resolve-license-conflicts.md). 라이선스 충돌을 해결하고 나면 **요금제 전환** 단추가 표시되어야 합니다. 그렇지 않은 경우 요금제 [수동](switch-plans-manually.md)전환 또는 [지원에 문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-**요금제 전환** 단추를 사용하여 요금제를 자동으로 전환하려면 모든 사용자에게 유효한 라이선스가 할당되어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../admin/manage/resolve-license-conflicts.md). 라이선스 충돌을 해결하고 나면 **요금제 전환** 단추가 표시되어야 합니다. 그렇지 않은 경우 요금제를 [수동으로 전환](switch-plans-manually.md)하거나 [지원 서비스에 문의할](../../admin/contact-support-for-business-products.md)수 있습니다.
+**요금제 전환** 단추를 사용하여 요금제를 자동으로 전환하려면 모든 사용자에게 유효한 라이선스가 할당되어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../admin/manage/resolve-license-conflicts.md). 라이선스 충돌을 해결하고 나면 **요금제 전환** 단추가 표시되어야 합니다. 그렇지 않은 경우 요금제 [수동](switch-plans-manually.md)전환 또는 [지원에 문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-**요금제 전환** 단추를 사용하여 요금제를 자동으로 전환하려면 모든 사용자에게 유효한 라이선스가 할당되어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../admin/manage/resolve-license-conflicts.md). 라이선스 충돌을 해결하고 나면 **요금제 전환** 단추가 표시되어야 합니다. 그렇지 않은 경우 요금제를 [수동으로 전환](switch-plans-manually.md)하거나 [지원 서비스에 문의할](../../admin/contact-support-for-business-products.md)수 있습니다.
+**요금제 전환** 단추를 사용하여 요금제를 자동으로 전환하려면 모든 사용자에게 유효한 라이선스가 할당되어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../admin/manage/resolve-license-conflicts.md). 라이선스 충돌을 해결하고 나면 **요금제 전환** 단추가 표시되어야 합니다. 그렇지 않은 경우 요금제 [수동](switch-plans-manually.md)전환 또는 [지원에 문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
@@ -84,23 +84,23 @@ ms.locfileid: "48646754"
 
 ::: moniker range="o365-worldwide"
 
-프로 비전 또는 서비스 상태 문제가 있는지 확인 하려면 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">서비스 상태</a> 페이지로 이동 하거나 **상태** \> **서비스 상태**를 선택 합니다.
+프로비전 또는 서비스 상태 문제가 있는지 확인하려면 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank"></a> 센터에서 서비스 상태 페이지로 이동하거나 상태 서비스 상태(상태)를  \> **선택합니다.**
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-프로 비전 또는 서비스 상태 문제가 있는지 확인 하려면 Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=848042" target="_blank">서비스 상태</a> 페이지로 이동 하거나 **상태** \> **서비스 상태**를 선택 합니다.
+프로비전 또는 서비스 상태 문제가 있는지 확인하려면 Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=848042" target="_blank"></a> 관리 센터에서 서비스  상태 페이지로 이동하거나 상태 서비스 상태 를 \> **선택합니다.**
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-프로 비전 또는 서비스 상태 문제가 있는지 확인 하려면 Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=850629" target="_blank">서비스 상태</a> 페이지로 이동 하거나 **상태** \> **서비스 상태**를 선택 합니다.
+프로비전 또는 서비스 상태 문제가 있는지 확인하려면 Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=850629" target="_blank"></a> 관리 센터에서 서비스  상태 페이지로 이동하거나 상태 서비스 상태 를 \> **선택합니다.**
 
 ::: moniker-end
 
-서비스가 완전히 프로비전되지 않았거나 서비스 상태 문제가 있는 경우 몇 시간 후에 서비스를 이용할 수 있을 때까지 기다린 다음 다시 시도하세요. 여전히 문제가 있는 경우 [지원 서비스에 문의](../../admin/contact-support-for-business-products.md)하세요.
+서비스가 완전히 프로비전되지 않았거나 서비스 상태 문제가 있는 경우 몇 시간 후에 서비스를 이용할 수 있을 때까지 기다린 다음 다시 시도하세요. 문제가 계속 발생하면 [지원에 문의하시기 바랍니다.](../../admin/contact-support-for-business-products.md)
   
 ### <a name="you-cant-switch-plans-because-another-plan-is-in-the-process-of-being-switched-and-is-pending-a-credit-check"></a>다른 요금제가 전환 중이며 신용 검사 결과를 기다리고 있기 때문에 요금제를 전환할 수 없습니다.
 
@@ -108,11 +108,11 @@ ms.locfileid: "48646754"
   
 ### <a name="currently-this-subscription-is-not-eligible-to-switch-plans"></a>현재 이 구독에서는 요금제를 전환할 수 없습니다.
 
-요금제를 [수동으로 전환](switch-plans-manually.md) 하거나 [지원 서비스에 문의할](../../admin/contact-support-for-business-products.md)수 있습니다.
+[요금제는 수동으로 전환하거나](switch-plans-manually.md) 지원을 [문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
   
 ### <a name="i-see-a-different-message-than-whats-listed-here"></a>여기에 나열된 내용과 다른 메시지가 표시됩니다.
 
-요금제를 [수동으로 전환](switch-plans-manually.md) 하거나 [지원 서비스에 문의할](../../admin/contact-support-for-business-products.md)수 있습니다.
+[요금제는 수동으로 전환하거나](switch-plans-manually.md) 지원을 [문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
   
 ## <a name="additional-reasons-the-switch-plans-button-is-unavailable"></a>요금제 전환 단추를 사용할 수 없는 추가적인 이유
 
@@ -120,15 +120,15 @@ ms.locfileid: "48646754"
 
 구독에 대해 선불 비용을 지불한 경우 [요금제를 수동으로 전환](switch-plans-manually.md)할 수 있습니다. 하지만 현재 요금제가 만료되기 전에 요금제를 전환하는 경우 현재 구독의 남은 시간에 대한 차액을 보상받지 못합니다.
   
-[지원을 요청할](../../admin/contact-support-for-business-products.md) 수도 있습니다.
+지원을 [문의할](../../admin/contact-support-for-business-products.md) 수 있습니다.
   
 ### <a name="you-have-a-government-or-non-profit-plan"></a>Government 또는 Nonprofit 요금제를 보유하고 있는 경우
 
-정부 또는 비영리 요금제가 있는 경우 [요금제를 수동으로 전환](switch-plans-manually.md) 하거나 [지원 서비스에 문의](../../admin/contact-support-for-business-products.md) 하 여 도움을 받을 수 있습니다.
+정부 또는 비영리 계획이 있는 [](switch-plans-manually.md) 경우 요금제 수동 전환 또는 지원을 [문의할](../../admin/contact-support-for-business-products.md) 수 있습니다.
   
 ### <a name="3000-or-more-licenses-have-been-purchased-and-assigned-for-the-subscription"></a>구독에 대해 3,000개 이상의 라이선스를 구매하고 할당한 경우
 
-사용자에게 3,000개 이상의 라이선스가 할당된 구독에는 **요금제 전환** 단추를 사용할 수 없습니다. 그러나 [요금제를 수동으로 전환](switch-plans-manually.md)할 수 있습니다. [지원을 요청할](../../admin/contact-support-for-business-products.md) 수도 있습니다.
+사용자에게 3,000개 이상의 라이선스가 할당된 구독에는 **요금제 전환** 단추를 사용할 수 없습니다. 그러나 [요금제를 수동으로 전환](switch-plans-manually.md)할 수 있습니다. 지원을 [문의할 수](../../admin/contact-support-for-business-products.md) 있습니다.
   
 ### <a name="the-subscription-that-you-want-to-switch-from-has-a-temporary-issue"></a>전환하려는 원래 구독에 일시적인 문제가 있는 경우
 
@@ -138,7 +138,7 @@ ms.locfileid: "48646754"
 
 요금제를 전환할 때 전환에 사용할 수 있는 요금제는 현재 요금제의 서비스를 기반으로 표시됩니다. Exchange Online 또는 SharePoint Online과 같은 동일한 데이터 관련 서비스가 있는 요금제나 상위 버전으로만 전환할 수 있습니다. 이렇게 해야 전환 중에 해당 서비스와 관련된 데이터가 손실되지 않습니다.
   
-요금제가 요금제 자동 전환에 적합하지 않은 경우 대신 [요금제를 수동으로 전환](switch-plans-manually.md)할 수 있습니다. [지원을 요청할](../../admin/contact-support-for-business-products.md) 수도 있습니다.
+요금제가 요금제 자동 전환에 적합하지 않은 경우 대신 [요금제를 수동으로 전환](switch-plans-manually.md)할 수 있습니다. 지원을 [문의할 수](../../admin/contact-support-for-business-products.md) 있습니다.
   
 > [!NOTE]
 > Office 365 Small Business, Office 365 Small Business Premium 또는 Office 365 Midsize Business 요금제에서는 수동 전환이 지원되지 않습니다.

@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4f374dc7-b96c-49c7-80ed-554716ba0138
-description: '회사 또는 학교 전자 메일을 사용 하 여 IT 부서를 포함 하지 않고 Microsoft online services에 등록 하는 방법에 대해 알아봅니다. '
+description: 'IT 부서에 개입하지 않고도 직장 또는 학교 전자 메일을 사용하여 Microsoft 온라인 서비스에 등록하는 방법을 배워야 합니다. '
 ms.openlocfilehash: ad46d698398da32d88d0c1617499b326e8fcb163
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48644870"
 ---
-# <a name="your-domain-may-be-in-use-if-someone-else-signed-up-with-it"></a>다른 사용자가 사용자의 도메인에 등록 한 경우 해당 도메인이 사용 중일 수 있습니다.
+# <a name="your-domain-may-be-in-use-if-someone-else-signed-up-with-it"></a>다른 사용자가 도메인에 등록한 경우 도메인이 사용 중일 수 있습니다.
 
 회사 또는 학교 전자 메일을 사용하는 사용자는 해당 IT 부서에 포함되지 않고 [일부 Microsoft Online Services에 등록](self-service-sign-up.md)할 수 있습니다. 이러한 서비스로는 Office 365, Power BI, 권한 관리 서비스 등이 있습니다. 해당 회사 또는 학교 전자 메일 주소를 제공하여 셀프 서비스 등록을 완료하면 서비스에 포함된 기능에 액세스할 수 있지만 사용자 추가, 라이선스 추가, 도메인 관리 등의 서비스는 관리할 수 없습니다. 
   

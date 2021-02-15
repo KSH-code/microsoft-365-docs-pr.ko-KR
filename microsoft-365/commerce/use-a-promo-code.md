@@ -1,5 +1,5 @@
 ---
-title: 홍보 코드를 사용 하 여 가격 절감
+title: 프로모션 코드를 사용하여 가격 인하
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,7 +23,7 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: fce1510d-9ea5-4aff-8752-1676ec7fede3
-description: Microsoft 365 구독에 판촉 코드를 적용 하 여 가격을 줄이고, 오류가 발생 하는 경우 홍보 코드 문제를 해결 하는 방법을 알아봅니다.
+description: Microsoft 365 구독에 홍보 코드를 적용하여 가격을 인하하는 방법과 오류 발생 시 홍보 코드 문제를 해결하는 방법에 대해 자세히 알아보고 있습니다.
 ms.openlocfilehash: 09f39b6f82153c6b23525ab41cfb94e77437d062
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
@@ -31,25 +31,25 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48646742"
 ---
-# <a name="use-your-promo-code-to-reduce-price"></a>홍보 코드를 사용 하 여 가격 절감
+# <a name="use-your-promo-code-to-reduce-price"></a>프로모션 코드를 사용하여 가격 인하
 
-구독을 구입할 때 홍보 코드를 사용 하 여 가격을 줄일 수 있습니다. 이 문서를 읽으면 구독에 홍보 코드를 적용 하 고 홍보 [코드 용어](#promo-code-terms)에 대해 알아보고 홍보 코드 [문제를 해결](#troubleshooting-promo-codes)하는 방법에 대해 알아봅니다.
+구독을 구매할 때 홍보 코드를 사용하여 가격을 인하할 수 있습니다. 이 문서를 읽고 구독에 프로모션 코드를 적용하고, 프로모션 코드 [](#promo-code-terms)용어에 대해 알아보고, 프로모션 코드 문제 해결에 대해 [알아보는 방법을 읽어보는 것이 좋습니다.](#troubleshooting-promo-codes)
   
 ## <a name="apply-a-promo-code-to-your-subscription"></a>구독에 홍보 코드 적용
 
-1. 새 구독을 구입 하거나 기존 구독에 서비스를 추가 하 여 구입을 시작 합니다.
+1. 새 구독을 구매하거나 기존 구독에 서비스를 추가하여 구매를 시작하세요.
     
-2. 체크 아웃할 때 * * 프로 모션 또는 할인 코드를 선택 하 고 상자에 코드를 입력 합니다. 
+2. When you check out, choose **Have a promo or discount code?, and then enter your code in the box. 
   
-3. **홍보용 코드 적용**을 선택 합니다. 확인이 성공적으로 적용 되었음을 확인할 수 있습니다. 다른 메시지가 표시되는 경우 [홍보 코드 문제 해결](#troubleshooting-promo-codes)을 참조하여 이유를 확인합니다. 
+3. 프로모션 **코드 적용을 선택합니다.** 성공적으로 적용되었다는 확인 메시지가 표시됩니다. 다른 메시지가 표시되는 경우 [홍보 코드 문제 해결](#troubleshooting-promo-codes)을 참조하여 이유를 확인합니다. 
     
-4. 계속 해 서 체크 아웃 합니다. 주문 확인 페이지에 할인 코드가 해당 금액에 포함 된 것을 볼 수 있습니다. 
+4. 체크 아웃을 계속합니다. 주문 확인 페이지에서 금액에 포함된 할인 코드가 표시됩니다. 
     
-구입을 완료한 후 언제든지 청구서에서 홍보 코드로 인한 할인을 확인할 수 있습니다. 자세한 내용은 [View](billing-and-payments/view-your-bill-or-invoice.md)To를 참조 하십시오.
+구입을 완료한 후 언제든지 청구서에서 홍보 코드로 인한 할인을 확인할 수 있습니다. 자세한 내용은 [보기를 참조합니다.](billing-and-payments/view-your-bill-or-invoice.md)
   
 ## <a name="promo-code-terms"></a>홍보 코드 조건
 
-다음 지침은 Microsoft 365 for business 구독에 대 한 홍보 코드에 적용 됩니다.
+다음 지침은 비즈니스용 Microsoft 365 구독의 프로모션 코드에 적용됩니다.
   
 - **구독당 홍보 코드 수** 동일한 주문의 여러 구독에 대해 하나의 홍보 코드를 사용할 수 있지만 동일한 구독에 대해 여러 홍보 코드를 사용할 수는 없습니다. 
     
