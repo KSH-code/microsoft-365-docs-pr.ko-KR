@@ -27,147 +27,147 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 02/05/2021
 ms.locfileid: "50114204"
 ---
-# <a name="manage-add-ins-in-the-admin-center"></a><span data-ttu-id="60820-103">관리 센터에서 추가 기능 관리</span><span class="sxs-lookup"><span data-stu-id="60820-103">Manage add-ins in the admin center</span></span>
+# <a name="manage-add-ins-in-the-admin-center"></a><span data-ttu-id="23ef1-103">관리 센터에서 추가 기능 관리</span><span class="sxs-lookup"><span data-stu-id="23ef1-103">Manage add-ins in the admin center</span></span>
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> <span data-ttu-id="60820-104">관리 센터가 변경되고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-104">The admin center is changing.</span></span> <span data-ttu-id="60820-105">사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="60820-105">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).</span></span>
+> <span data-ttu-id="23ef1-104">관리 센터가 변경되고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-104">The admin center is changing.</span></span> <span data-ttu-id="23ef1-105">사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="23ef1-105">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).</span></span>
 
 ::: moniker-end
 
-<span data-ttu-id="60820-106">Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보에 액세스하는 방법을 간소화할 수 [있습니다(Office](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)추가 기능 사용 시작 참조).</span><span class="sxs-lookup"><span data-stu-id="60820-106">Office add-ins help you personalize your documents and streamline the way you access information on the web (see [Start using your Office add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)).</span></span> 
+<span data-ttu-id="23ef1-106">Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보에 액세스하는 방법을 간소화할 [수 있습니다(Office](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)추가 기능 사용 시작 참조).</span><span class="sxs-lookup"><span data-stu-id="23ef1-106">Office add-ins help you personalize your documents and streamline the way you access information on the web (see [Start using your Office add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)).</span></span> 
 
-<span data-ttu-id="60820-107">관리자가 조직의 사용자를 위해 추가 기능을 배포한 후 추가 기능을 해제하거나 설정하고, 추가 기능 액세스를 편집, 삭제 및 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-107">After an admin deploys add-ins for users in an organization, the admin can turn add-ins off or on, edit, delete, and manage access to the add-ins.</span></span>
+<span data-ttu-id="23ef1-107">관리자가 조직의 사용자에 대해 추가 기능을 배포한 후 추가 기능을 해제하거나 설정하고, 추가 기능 액세스를 편집, 삭제 및 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-107">After an admin deploys add-ins for users in an organization, the admin can turn add-ins off or on, edit, delete, and manage access to the add-ins.</span></span>
 
-<span data-ttu-id="60820-108">관리 센터에서 추가 기능을 설치하는 데 대한 자세한 내용은 관리 센터에서 추가 기능 [배포를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)</span><span class="sxs-lookup"><span data-stu-id="60820-108">For more information about installing add-ins from the admin center, see [Deploy add-ins in the admin center](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins).</span></span>
+<span data-ttu-id="23ef1-108">관리 센터에서 추가 기능을 설치하는 데 대한 자세한 내용은 관리 센터에서 추가 기능 [배포를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)</span><span class="sxs-lookup"><span data-stu-id="23ef1-108">For more information about installing add-ins from the admin center, see [Deploy add-ins in the admin center](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins).</span></span>
   
-## <a name="add-in-states"></a><span data-ttu-id="60820-109">추가 기능 상태</span><span class="sxs-lookup"><span data-stu-id="60820-109">Add-in states</span></span>
+## <a name="add-in-states"></a><span data-ttu-id="23ef1-109">추가 기능 상태</span><span class="sxs-lookup"><span data-stu-id="23ef1-109">Add-in states</span></span>
 
-<span data-ttu-id="60820-110">추가 기능의 상태는 On **또는** **Off 상태일 수** 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-110">An add-in can be in either the **On** or **Off** state.</span></span>
+<span data-ttu-id="23ef1-110">추가 기능의 상태는 On **또는** **Off 상태일 수** 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-110">An add-in can be in either the **On** or **Off** state.</span></span>
   
-|<span data-ttu-id="60820-111">**상태**</span><span class="sxs-lookup"><span data-stu-id="60820-111">**State**</span></span>|<span data-ttu-id="60820-112">**상태가 적용되는 경우**</span><span class="sxs-lookup"><span data-stu-id="60820-112">**How the state occurs**</span></span>|<span data-ttu-id="60820-113">**영향**</span><span class="sxs-lookup"><span data-stu-id="60820-113">**Impact**</span></span>|
+|<span data-ttu-id="23ef1-111">**상태**</span><span class="sxs-lookup"><span data-stu-id="23ef1-111">**State**</span></span>|<span data-ttu-id="23ef1-112">**상태가 적용되는 경우**</span><span class="sxs-lookup"><span data-stu-id="23ef1-112">**How the state occurs**</span></span>|<span data-ttu-id="23ef1-113">**영향**</span><span class="sxs-lookup"><span data-stu-id="23ef1-113">**Impact**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="60820-114">**활성**</span><span class="sxs-lookup"><span data-stu-id="60820-114">**Active**</span></span>  <br/> |<span data-ttu-id="60820-115">관리자가 추가 기능을 업로드하고 사용자 또는 그룹에 할당했습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-115">Admin uploaded the add-in and assigned it to users or groups.</span></span>  <br/> |<span data-ttu-id="60820-116">추가 기능에 할당된 사용자 및 그룹은 관련 클라이언트에서 추가 기능을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-116">Users and groups assigned to the add-in see it in the relevant clients.</span></span>  <br/> |
-|<span data-ttu-id="60820-117">**해제됨**</span><span class="sxs-lookup"><span data-stu-id="60820-117">**Turned off**</span></span>  <br/> |<span data-ttu-id="60820-118">관리자가 추가 기능을 해제했습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-118">Admin turned off the add-in.</span></span>  <br/> |<span data-ttu-id="60820-119">추가 기능에 할당된 사용자 및 그룹이 더 이상 추가 기능에 액세스할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-119">Users and groups assigned to the add-in no longer have access to it.</span></span>  <br/> <span data-ttu-id="60820-120">추가 기능 상태가 활성으로 변경되면 사용자 및 그룹이 추가 기능에 다시 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-120">If the add-in state is changed to Active, the users and groups will have access to it again.</span></span>  <br/> |
-|<span data-ttu-id="60820-121">**삭제됨**</span><span class="sxs-lookup"><span data-stu-id="60820-121">**Deleted**</span></span>  <br/> |<span data-ttu-id="60820-122">관리자가 추가 기능을 삭제했습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-122">Admin deleted the add-in.</span></span>  <br/> |<span data-ttu-id="60820-123">추가 기능에 할당된 사용자 및 그룹이 더 이상 추가 기능에 액세스할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-123">Users and groups assigned the add-in no longer have access to it.</span></span>  <br/> |
+|<span data-ttu-id="23ef1-114">**활성**</span><span class="sxs-lookup"><span data-stu-id="23ef1-114">**Active**</span></span>  <br/> |<span data-ttu-id="23ef1-115">관리자가 추가 기능을 업로드하고 사용자 또는 그룹에 할당했습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-115">Admin uploaded the add-in and assigned it to users or groups.</span></span>  <br/> |<span data-ttu-id="23ef1-116">추가 기능에 할당된 사용자 및 그룹은 관련 클라이언트에서 추가 기능을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-116">Users and groups assigned to the add-in see it in the relevant clients.</span></span>  <br/> |
+|<span data-ttu-id="23ef1-117">**해제됨**</span><span class="sxs-lookup"><span data-stu-id="23ef1-117">**Turned off**</span></span>  <br/> |<span data-ttu-id="23ef1-118">관리자가 추가 기능을 해제했습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-118">Admin turned off the add-in.</span></span>  <br/> |<span data-ttu-id="23ef1-119">추가 기능에 할당된 사용자 및 그룹이 더 이상 추가 기능에 액세스할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-119">Users and groups assigned to the add-in no longer have access to it.</span></span>  <br/> <span data-ttu-id="23ef1-120">추가 기능 상태가 활성으로 변경되면 사용자 및 그룹이 추가 기능에 다시 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-120">If the add-in state is changed to Active, the users and groups will have access to it again.</span></span>  <br/> |
+|<span data-ttu-id="23ef1-121">**삭제됨**</span><span class="sxs-lookup"><span data-stu-id="23ef1-121">**Deleted**</span></span>  <br/> |<span data-ttu-id="23ef1-122">관리자가 추가 기능을 삭제했습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-122">Admin deleted the add-in.</span></span>  <br/> |<span data-ttu-id="23ef1-123">추가 기능에 할당된 사용자 및 그룹이 더 이상 추가 기능에 액세스할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-123">Users and groups assigned the add-in no longer have access to it.</span></span>  <br/> |
    
-<span data-ttu-id="60820-124">더 이상 추가 기능을 사용하고 있는 사용자가 없는 경우 추가 기능을 삭제하는 것이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-124">Consider deleting an add-in if no one is using it anymore.</span></span> <span data-ttu-id="60820-125">예를 들어 추가 기능을 끄면 특정 연도의 특정 시간 동안만 추가 기능을 사용하는 것이 나을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-125">For example, turning off an add-in might make sense if an add-in is used only during specific times of the year.</span></span>
+<span data-ttu-id="23ef1-124">더 이상 추가 기능을 사용하고 있는 사용자가 없는 경우 추가 기능을 삭제하는 것이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-124">Consider deleting an add-in if no one is using it anymore.</span></span> <span data-ttu-id="23ef1-125">예를 들어 추가 기능을 끄면 특정 연도의 특정 시간 동안만 추가 기능을 사용하는 것이 나을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-125">For example, turning off an add-in might make sense if an add-in is used only during specific times of the year.</span></span>
 
-## <a name="delete-an-add-in"></a><span data-ttu-id="60820-126">추가 기능 삭제</span><span class="sxs-lookup"><span data-stu-id="60820-126">Delete an add-in</span></span>
+## <a name="delete-an-add-in"></a><span data-ttu-id="23ef1-126">추가 기능 삭제</span><span class="sxs-lookup"><span data-stu-id="23ef1-126">Delete an add-in</span></span>
 
-<span data-ttu-id="60820-127">배포된 추가 기능을 삭제할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-127">You can also delete an add-in that was deployed.</span></span>
+<span data-ttu-id="23ef1-127">배포된 추가 기능을 삭제할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-127">You can also delete an add-in that was deployed.</span></span>
 
-1. <span data-ttu-id="60820-128">관리 센터에서 설정 서비스 및 &  >  **페이지로** 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="60820-128">In the admin center, go to the **Settings** > **Services & add-ins** page.</span></span>
-
-     > [!NOTE]
-    > <span data-ttu-id="60820-129">관리 센터가 통합 앱을 사용하여 배포 환경으로 업데이트되고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-129">The admin center is getting updated to deployment experience with Integrated Apps .</span></span> <span data-ttu-id="60820-130">위의 단계가 없는 경우 설정 통합 앱으로 이동하여 중앙 집중식 배포  >  **섹션으로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="60820-130">If you don't see the above steps, go to Centralized Deployment section by going to **Settings** > **Integrated apps**.</span></span> <span data-ttu-id="60820-131">통합 앱 페이지  위쪽에서 추가 기능을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="60820-131">On the top of the **Integrated apps** page, choose **Add-ins**.</span></span>
-
-2. <span data-ttu-id="60820-132">배포된 추가 기능을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="60820-132">Select the deployed add-in.</span></span>
-
-3. <span data-ttu-id="60820-133">추가 기능 **삭제를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="60820-133">Click on **Delete Add-In**.</span></span> <span data-ttu-id="60820-134">오른쪽 아래 모서리에서 추가 기능 단추를 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="60820-134">Remove the Add-in button on the bottom right corner.</span></span>
-
-4. <span data-ttu-id="60820-135">선택의 유효성을 검사하고 추가 기능 **제거를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="60820-135">Validate your selections, and choose **Remove add-in**.</span></span>
-
-## <a name="edit-add-in-access"></a><span data-ttu-id="60820-136">추가 기능 액세스 편집</span><span class="sxs-lookup"><span data-stu-id="60820-136">Edit add-in access</span></span>
-
-<span data-ttu-id="60820-137">배포 후 관리자는 추가 기능의 사용자 액세스를 관리할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-137">Post deployment, admins can also manage user access to add-ins.</span></span>
-
-1. <span data-ttu-id="60820-138">관리 센터에서 설정 서비스 및 &  >  **페이지로** 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="60820-138">In the admin center, go to the **Settings** > **Services & add-ins** page.</span></span>
+1. <span data-ttu-id="23ef1-128">관리 센터에서 설정 서비스 및 &  >  **페이지로** 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-128">In the admin center, go to the **Settings** > **Services & add-ins** page.</span></span>
 
      > [!NOTE]
-    > <span data-ttu-id="60820-139">관리 센터가 통합 앱을 사용하여 배포 환경으로 업데이트되고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-139">The admin center is getting updated to deployment experience with Integrated Apps .</span></span> <span data-ttu-id="60820-140">위의 단계가 없는 경우 설정 통합 앱으로 이동하여 중앙 집중식 배포  >  **섹션으로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="60820-140">If you don't see the above steps, go to Centralized Deployment section by going to **Settings** > **Integrated apps**.</span></span> <span data-ttu-id="60820-141">통합 앱 페이지  위쪽에서 추가 기능을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="60820-141">On the top of the **Integrated apps** page, choose **Add-ins**.</span></span>
+    > <span data-ttu-id="23ef1-129">관리 센터가 통합 앱을 사용하여 배포 환경으로 업데이트되고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-129">The admin center is getting updated to deployment experience with Integrated Apps .</span></span> <span data-ttu-id="23ef1-130">위의 단계가 없는 경우 설정 통합 앱으로 이동하여 중앙 집중식 배포  >  **섹션으로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="23ef1-130">If you don't see the above steps, go to Centralized Deployment section by going to **Settings** > **Integrated apps**.</span></span> <span data-ttu-id="23ef1-131">통합 앱 페이지  위쪽에서 추가 기능을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="23ef1-131">On the top of the **Integrated apps** page, choose **Add-ins**.</span></span>
 
-2. <span data-ttu-id="60820-142">배포된 추가 기능을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="60820-142">Select the deployed add-in.</span></span>
+2. <span data-ttu-id="23ef1-132">배포된 추가 기능을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-132">Select the deployed add-in.</span></span>
 
-3. <span data-ttu-id="60820-143">Access가 **있는 사용자** 아래에 있는 **편집을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="60820-143">Click on **Edit** under **Who has Access**.</span></span>
+3. <span data-ttu-id="23ef1-133">추가 기능 **삭제를 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="23ef1-133">Click on **Delete Add-In**.</span></span> <span data-ttu-id="23ef1-134">오른쪽 아래 모서리에서 추가 기능 단추를 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-134">Remove the Add-in button on the bottom right corner.</span></span>
 
-4. <span data-ttu-id="60820-144">변경 내용을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="60820-144">Save the changes.</span></span>
+4. <span data-ttu-id="23ef1-135">선택의 유효성을 검사하고 추가 기능 **제거를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="23ef1-135">Validate your selections, and choose **Remove add-in**.</span></span>
 
-## <a name="prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook"></a><span data-ttu-id="60820-145">모든 클라이언트에서 Office 스토어를 해제하여 추가 기능 다운로드 방지(Outlook 제외)</span><span class="sxs-lookup"><span data-stu-id="60820-145">Prevent add-in downloads by turning off the Office Store across all clients (Except Outlook)</span></span>
+## <a name="edit-add-in-access"></a><span data-ttu-id="23ef1-136">추가 기능 액세스 편집</span><span class="sxs-lookup"><span data-stu-id="23ef1-136">Edit add-in access</span></span>
+
+<span data-ttu-id="23ef1-137">배포 후 관리자는 추가 기능의 사용자 액세스를 관리할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-137">Post deployment, admins can also manage user access to add-ins.</span></span>
+
+1. <span data-ttu-id="23ef1-138">관리 센터에서 설정 서비스 및 &  >  **페이지로** 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-138">In the admin center, go to the **Settings** > **Services & add-ins** page.</span></span>
+
+     > [!NOTE]
+    > <span data-ttu-id="23ef1-139">관리 센터가 통합 앱을 사용하여 배포 환경으로 업데이트되고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-139">The admin center is getting updated to deployment experience with Integrated Apps .</span></span> <span data-ttu-id="23ef1-140">위의 단계가 없는 경우 설정 통합 앱으로 이동하여 중앙 집중식 배포  >  **섹션으로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="23ef1-140">If you don't see the above steps, go to Centralized Deployment section by going to **Settings** > **Integrated apps**.</span></span> <span data-ttu-id="23ef1-141">통합 앱 페이지  위쪽에서 추가 기능을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="23ef1-141">On the top of the **Integrated apps** page, choose **Add-ins**.</span></span>
+
+2. <span data-ttu-id="23ef1-142">배포된 추가 기능을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-142">Select the deployed add-in.</span></span>
+
+3. <span data-ttu-id="23ef1-143">Access가 **있는 사용자** 아래에 있는 **편집을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="23ef1-143">Click on **Edit** under **Who has Access**.</span></span>
+
+4. <span data-ttu-id="23ef1-144">변경 내용을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-144">Save the changes.</span></span>
+
+## <a name="prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook"></a><span data-ttu-id="23ef1-145">모든 클라이언트에서 Office 스토어를 해제하여 추가 기능 다운로드 방지(Outlook 제외)</span><span class="sxs-lookup"><span data-stu-id="23ef1-145">Prevent add-in downloads by turning off the Office Store across all clients (Except Outlook)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="60820-146">Outlook 추가 기능 설치는 다른 프로세스에 [의해 관리됩니다.](https://technet.microsoft.com/library/jj943754%28v=exchg.150%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="60820-146">Outlook add-in installation is managed by a [different process](https://technet.microsoft.com/library/jj943754%28v=exchg.150%29.aspx).</span></span>
+> <span data-ttu-id="23ef1-146">Outlook 추가 기능 설치는 다른 프로세스에 [의해 관리됩니다.](https://technet.microsoft.com/library/jj943754%28v=exchg.150%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="23ef1-146">Outlook add-in installation is managed by a [different process](https://technet.microsoft.com/library/jj943754%28v=exchg.150%29.aspx).</span></span>
 
-<span data-ttu-id="60820-147">조직은 Office 스토어에서 새 Office 추가 기능을 다운로드하지 못하게 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-147">As an organization you may wish to prevent the download of new Office add-ins from the Office Store.</span></span> <span data-ttu-id="60820-148">중앙 집중식 배포와 함께 사용하면 조직 내에서 조직에서 승인한 추가 기능만 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-148">This can be used in conjunction with Centralized Deployment to ensure that only organization-approved add-ins are deployed to users within your organization.</span></span>
+<span data-ttu-id="23ef1-147">조직은 Office 스토어에서 새 Office 추가 기능을 다운로드하지 못하게 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-147">As an organization you may wish to prevent the download of new Office add-ins from the Office Store.</span></span> <span data-ttu-id="23ef1-148">중앙 집중식 배포와 함께 사용하면 조직 내에서 조직에서 승인한 추가 기능만 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-148">This can be used in conjunction with Centralized Deployment to ensure that only organization-approved add-ins are deployed to users within your organization.</span></span>
   
-<span data-ttu-id="60820-149">**추가 기능 취득을 끄기 위해**</span><span class="sxs-lookup"><span data-stu-id="60820-149">**To turn off add-in acquisition**</span></span>
+<span data-ttu-id="23ef1-149">**추가 기능 취득을 끄기 위해**</span><span class="sxs-lookup"><span data-stu-id="23ef1-149">**To turn off add-in acquisition**</span></span>
   
-1. <span data-ttu-id="60820-150">관리 센터 미리 보기에서 **설정** \> [서비스 &amp; 추가 기능](https://go.microsoft.com/fwlink/p/?linkid=2053743) 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="60820-150">In the admin center, go to the **Settings** \> [Services &amp; add-ins](https://go.microsoft.com/fwlink/p/?linkid=2053743) page.</span></span>
+1. <span data-ttu-id="23ef1-150">관리 센터 미리 보기에서 **설정** \> [서비스 &amp; 추가 기능](https://go.microsoft.com/fwlink/p/?linkid=2053743) 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-150">In the admin center, go to the **Settings** \> [Services &amp; add-ins](https://go.microsoft.com/fwlink/p/?linkid=2053743) page.</span></span>
 
      > [!NOTE]
-    > <span data-ttu-id="60820-151">관리 센터가 통합 앱을 사용하여 배포 환경으로 업데이트되고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-151">The admin center is getting updated to deployment experience with Integrated Apps .</span></span> <span data-ttu-id="60820-152">위의 단계가 없는 경우 설정 통합 앱으로 이동하여 중앙 집중식 배포  >  **섹션으로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="60820-152">If you don't see the above steps, go to Centralized Deployment section by going to **Settings** > **Integrated apps**.</span></span> <span data-ttu-id="60820-153">통합 앱 페이지  위쪽에서 추가 기능을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="60820-153">On the top of the **Integrated apps** page, choose **Add-ins**.</span></span>
+    > <span data-ttu-id="23ef1-151">관리 센터가 통합 앱을 사용하여 배포 환경으로 업데이트되고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-151">The admin center is getting updated to deployment experience with Integrated Apps .</span></span> <span data-ttu-id="23ef1-152">위의 단계가 없는 경우 설정 통합 앱으로 이동하여 중앙 집중식 배포  >  **섹션으로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="23ef1-152">If you don't see the above steps, go to Centralized Deployment section by going to **Settings** > **Integrated apps**.</span></span> <span data-ttu-id="23ef1-153">통합 앱 페이지  위쪽에서 추가 기능을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="23ef1-153">On the top of the **Integrated apps** page, choose **Add-ins**.</span></span>
     
-3. <span data-ttu-id="60820-154">사용자 **소유의 앱 및 서비스를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="60820-154">Select **User owned apps and services**.</span></span>
+3. <span data-ttu-id="23ef1-154">사용자 **소유의 앱 및 서비스를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="23ef1-154">Select **User owned apps and services**.</span></span>
     
-4. <span data-ttu-id="60820-155">사용자가 Office 스토어에 액세스할 수 있도록 하는 옵션을 선택 취소합니다.</span><span class="sxs-lookup"><span data-stu-id="60820-155">Clear the option to let users access the Office store.</span></span>
+4. <span data-ttu-id="23ef1-155">사용자가 Office 스토어에 액세스할 수 있도록 하는 옵션을 선택 취소합니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-155">Clear the option to let users access the Office store.</span></span>
 
-<span data-ttu-id="60820-156">이렇게 하면 모든 사용자가 스토어에서 다음 추가 기능을 다운로드할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-156">This will prevent all users from acquiring the following add-ins from the store.</span></span>
+<span data-ttu-id="23ef1-156">이렇게 하면 모든 사용자가 스토어에서 다음 추가 기능을 다운로드할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-156">This will prevent all users from acquiring the following add-ins from the store.</span></span>
   
-- <span data-ttu-id="60820-157">다음에서 Word, Excel 및 PowerPoint 2016용 추가 기능:</span><span class="sxs-lookup"><span data-stu-id="60820-157">Add-ins for Word, Excel, and PowerPoint 2016 from:</span></span>
+- <span data-ttu-id="23ef1-157">다음에서 Word, Excel 및 PowerPoint 2016용 추가 기능:</span><span class="sxs-lookup"><span data-stu-id="23ef1-157">Add-ins for Word, Excel, and PowerPoint 2016 from:</span></span>
     
-  - <span data-ttu-id="60820-158">Windows</span><span class="sxs-lookup"><span data-stu-id="60820-158">Windows</span></span>
+  - <span data-ttu-id="23ef1-158">Windows</span><span class="sxs-lookup"><span data-stu-id="23ef1-158">Windows</span></span>
     
-  - <span data-ttu-id="60820-159">Mac</span><span class="sxs-lookup"><span data-stu-id="60820-159">Mac</span></span>
+  - <span data-ttu-id="23ef1-159">Mac</span><span class="sxs-lookup"><span data-stu-id="23ef1-159">Mac</span></span>
     
-  - <span data-ttu-id="60820-160">사무실</span><span class="sxs-lookup"><span data-stu-id="60820-160">Office</span></span>
+  - <span data-ttu-id="23ef1-160">사무실</span><span class="sxs-lookup"><span data-stu-id="23ef1-160">Office</span></span>
     
     
-- <span data-ttu-id="60820-161">**AppSource** 내에서 시작하여 취득</span><span class="sxs-lookup"><span data-stu-id="60820-161">Acquisitions starting within **AppSource**</span></span>
+- <span data-ttu-id="23ef1-161">**AppSource** 내에서 시작하여 취득</span><span class="sxs-lookup"><span data-stu-id="23ef1-161">Acquisitions starting within **AppSource**</span></span>
     
-- <span data-ttu-id="60820-162">Microsoft 365 내의 추가 기능</span><span class="sxs-lookup"><span data-stu-id="60820-162">Add-ins within Microsoft 365</span></span>
+- <span data-ttu-id="23ef1-162">Microsoft 365 내의 추가 기능</span><span class="sxs-lookup"><span data-stu-id="23ef1-162">Add-ins within Microsoft 365</span></span>
     
-<span data-ttu-id="60820-163">스토어에 액세스하는 사용자에게 Office 스토어 추가 기능을 개별적으로 취득할 수 있도록 **Microsoft 365가** 구성되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-163">A user who tries to access the store will see the following message: **Sorry, Microsoft 365 has been configured to prevent individual acquisition of Office Store add-ins.**</span></span>
+<span data-ttu-id="23ef1-163">스토어에 액세스하는 사용자에게 Office 스토어 추가 기능을 개별적으로 취득할 수 있도록 **Microsoft 365가** 구성되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-163">A user who tries to access the store will see the following message: **Sorry, Microsoft 365 has been configured to prevent individual acquisition of Office Store add-ins.**</span></span>
   
-<span data-ttu-id="60820-164">Office 스토어 끄기 지원은 다음 버전에서 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-164">Support for turning off the Office Store is available in the following versions:</span></span>
+<span data-ttu-id="23ef1-164">Office 스토어 끄기 지원은 다음 버전에서 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-164">Support for turning off the Office Store is available in the following versions:</span></span>
   
-- <span data-ttu-id="60820-165">Windows: 16.0.9001 - 현재 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-165">Windows: 16.0.9001 - Currently available.</span></span>
+- <span data-ttu-id="23ef1-165">Windows: 16.0.9001 - 현재 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-165">Windows: 16.0.9001 - Currently available.</span></span>
     
-- <span data-ttu-id="60820-166">Mac: 16.10.18011401 - 현재 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-166">Mac: 16.10.18011401 - Currently available.</span></span>
+- <span data-ttu-id="23ef1-166">Mac: 16.10.18011401 - 현재 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-166">Mac: 16.10.18011401 - Currently available.</span></span>
     
-- <span data-ttu-id="60820-167">iOS: 2.9.18010804 - 현재 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-167">iOS: 2.9.18010804 - Currently available.</span></span>
+- <span data-ttu-id="23ef1-167">iOS: 2.9.18010804 - 현재 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-167">iOS: 2.9.18010804 - Currently available.</span></span>
     
-- <span data-ttu-id="60820-168">웹 - 현재 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-168">The web - Currently available.</span></span>
+- <span data-ttu-id="23ef1-168">웹 - 현재 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-168">The web - Currently available.</span></span>
     
-<span data-ttu-id="60820-169">이렇게 해서 관리자가 중앙 집중식 배포를 사용하여 Office 스토어에서 추가 기능을 할당하는 것을 방지하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-169">This does not prevent an administrator from using Centralized Deployment to assign an add-in from the Office Store.</span></span>
+<span data-ttu-id="23ef1-169">이렇게 해서 관리자가 중앙 집중식 배포를 사용하여 Office 스토어에서 추가 기능을 할당하는 것을 방지하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-169">This does not prevent an administrator from using Centralized Deployment to assign an add-in from the Office Store.</span></span>
   
-<span data-ttu-id="60820-170">사용자가 Microsoft 계정으로 로그인하지 못하도록 조직 계정만 사용하도록 로그온을 제한할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-170">To prevent a user from signing in with a Microsoft account, you can restrict logon to use only the organizational account.</span></span> <span data-ttu-id="60820-171">자세한 내용은 [Office 2016의 ID, 인증](https://technet.microsoft.com/library/jj683102%28v=office.16%29.aspx)및 권한 부여를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="60820-171">For more information, see [Identity, authentication, and authorization in Office 2016](https://technet.microsoft.com/library/jj683102%28v=office.16%29.aspx).</span></span>  
+<span data-ttu-id="23ef1-170">사용자가 Microsoft 계정으로 로그인하지 못하도록 조직 계정만 사용하도록 로그온을 제한할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-170">To prevent a user from signing in with a Microsoft account, you can restrict logon to use only the organizational account.</span></span> <span data-ttu-id="23ef1-171">자세한 내용은 [Office 2016의 ID, 인증](https://technet.microsoft.com/library/jj683102%28v=office.16%29.aspx)및 권한 부여를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="23ef1-171">For more information, see [Identity, authentication, and authorization in Office 2016](https://technet.microsoft.com/library/jj683102%28v=office.16%29.aspx).</span></span>  
 
 > [!NOTE]
-> <span data-ttu-id="60820-172">사용자가 Office 스토어에 액세스하지 못하게 하면 테스트용 Office 추가 기능을 [테스트용으로 로드하지 못하게 됩니다.](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)</span><span class="sxs-lookup"><span data-stu-id="60820-172">Preventing users from accessing the office store will also prevent them from [Sideloading Office Add-ins for testing](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins).</span></span>
+> <span data-ttu-id="23ef1-172">또한 사용자가 Office 스토어에 액세스하지 못하게 하여 테스트용 Office 추가 기능을 [테스트용으로 로드하지 못하게 합니다.](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)</span><span class="sxs-lookup"><span data-stu-id="23ef1-172">Preventing users from accessing the office store will also prevent them from [Sideloading Office Add-ins for testing](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins).</span></span>
 
-## <a name="more-about-the-end-user-experience-with-add-ins"></a><span data-ttu-id="60820-173">추가 기능의 최종 사용자 경험에 대한 자세한 내용은</span><span class="sxs-lookup"><span data-stu-id="60820-173">More about the end user experience with add-ins</span></span>
+## <a name="more-about-the-end-user-experience-with-add-ins"></a><span data-ttu-id="23ef1-173">추가 기능의 최종 사용자 경험에 대한 자세한 내용은</span><span class="sxs-lookup"><span data-stu-id="23ef1-173">More about the end user experience with add-ins</span></span>
 
-<span data-ttu-id="60820-174">추가 기능을 배포한 후 최종 사용자는 Office 응용 프로그램에서 사용할 수 [있습니다(Office](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)추가 기능 사용 시작 참조).</span><span class="sxs-lookup"><span data-stu-id="60820-174">After you deploy an add-in, your end users can start using it in their Office applications (see [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)).</span></span> <span data-ttu-id="60820-175">추가 기능을 지원하는 모든 플랫폼에 추가 기능을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="60820-175">The add-in appears on all platforms that the add-in supports.</span></span>
+<span data-ttu-id="23ef1-174">추가 기능을 배포한 후 최종 사용자는 Office 응용 프로그램에서 사용할 수 [있습니다(Office](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)추가 기능 사용 시작 참조).</span><span class="sxs-lookup"><span data-stu-id="23ef1-174">After you deploy an add-in, your end users can start using it in their Office applications (see [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)).</span></span> <span data-ttu-id="23ef1-175">추가 기능을 지원하는 모든 플랫폼에 추가 기능을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-175">The add-in appears on all platforms that the add-in supports.</span></span>
   
-<span data-ttu-id="60820-p110">추가 기능이 추가 기능 명령을 지원하는 경우 명령은 Office 리본에 나타납니다. 다음 예에서는 **인용 검색** 명령이 **인용** 추가 기능에 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="60820-p110">If the add-in supports add-in commands, the commands appear on the Office ribbon. In the following example, the command **Search Citation** appears for the **Citations** add-in.</span></span> 
+<span data-ttu-id="23ef1-p110">추가 기능이 추가 기능 명령을 지원하는 경우 명령은 Office 리본에 나타납니다. 다음 예에서는 **인용 검색** 명령이 **인용** 추가 기능에 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-p110">If the add-in supports add-in commands, the commands appear on the Office ribbon. In the following example, the command **Search Citation** appears for the **Citations** add-in.</span></span> 
 
 ![검색 인설이 있는 Office 리본 메뉴](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
   
-<span data-ttu-id="60820-179">배포된 추가 기능에서 추가 기능 명령을 지원하지 않는 경우 또는 배포된 모든 추가 기능을 보거나 내 추가 기능을 통해 볼 **수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="60820-179">If the deployed add-in doesn't support add-in commands or if you want to view all deployed add-ins, you can view them via **My Add-ins**.</span></span> 
+<span data-ttu-id="23ef1-179">배포된 추가 기능에서 추가 기능 명령을 지원하지 않는 경우 또는 배포된 모든 추가 기능을 보거나 내 추가 기능을 통해 볼 **수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="23ef1-179">If the deployed add-in doesn't support add-in commands or if you want to view all deployed add-ins, you can view them via **My Add-ins**.</span></span> 
   
-### <a name="in-word-2016-excel-2016-or-powerpoint-2016"></a><span data-ttu-id="60820-180">Word 2016, Excel 2016 또는 PowerPoint 2016의 경우</span><span class="sxs-lookup"><span data-stu-id="60820-180">In Word 2016, Excel 2016, or PowerPoint 2016</span></span>
+### <a name="in-word-2016-excel-2016-or-powerpoint-2016"></a><span data-ttu-id="23ef1-180">Word 2016, Excel 2016 또는 PowerPoint 2016의 경우</span><span class="sxs-lookup"><span data-stu-id="23ef1-180">In Word 2016, Excel 2016, or PowerPoint 2016</span></span>
 
-1. <span data-ttu-id="60820-181">내 **추가 \> 기능 삽입을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="60820-181">Select **Insert \> My Add-ins**.</span></span> 
+1. <span data-ttu-id="23ef1-181">내 **추가 \> 기능 삽입을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="23ef1-181">Select **Insert \> My Add-ins**.</span></span> 
     
-2. <span data-ttu-id="60820-182">Office 추가 기능 창에서 **관리자가 관리함** 탭을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="60820-182">Select the **Admin Managed** tab in the Office Add-ins window.</span></span> 
+2. <span data-ttu-id="23ef1-182">Office 추가 기능 창에서 **관리자가 관리함** 탭을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-182">Select the **Admin Managed** tab in the Office Add-ins window.</span></span> 
     
-3. <span data-ttu-id="60820-183">이전에 배포한 추가 기능을 두 번 클릭합니다(이 예에서는 **인용** ).</span><span class="sxs-lookup"><span data-stu-id="60820-183">Double-click the add-in you deployed earlier (in this example, **Citations** ).</span></span> <br/><span data-ttu-id="60820-184">![Office 추가 기능 페이지의 관리 탭](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)</span><span class="sxs-lookup"><span data-stu-id="60820-184">![Admin Managed tab of the Office Add-ins page](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)</span></span>
+3. <span data-ttu-id="23ef1-183">이전에 배포한 추가 기능을 두 번 클릭합니다(이 예에서는 **인용** ).</span><span class="sxs-lookup"><span data-stu-id="23ef1-183">Double-click the add-in you deployed earlier (in this example, **Citations** ).</span></span> <br/><span data-ttu-id="23ef1-184">![Office 추가 기능 페이지의 관리 탭](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)</span><span class="sxs-lookup"><span data-stu-id="23ef1-184">![Admin Managed tab of the Office Add-ins page](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)</span></span>
   
-### <a name="in-outlook"></a><span data-ttu-id="60820-185">Outlook의 경우</span><span class="sxs-lookup"><span data-stu-id="60820-185">In Outlook</span></span>
+### <a name="in-outlook"></a><span data-ttu-id="23ef1-185">Outlook의 경우</span><span class="sxs-lookup"><span data-stu-id="23ef1-185">In Outlook</span></span>
 
-1. <span data-ttu-id="60820-186">홈 **리본 메뉴에서** **추가** 기능 선택</span><span class="sxs-lookup"><span data-stu-id="60820-186">On the **Home** ribbon, select **Get Add-ins**.</span></span><br/><span data-ttu-id="60820-187">![Outlook의 스토어 단추](../../media/getaddinsicon.png)</span><span class="sxs-lookup"><span data-stu-id="60820-187">![Store button in Outlook](../../media/getaddinsicon.png)</span></span>
+1. <span data-ttu-id="23ef1-186">홈 **리본 메뉴에서** **추가** 기능 선택</span><span class="sxs-lookup"><span data-stu-id="23ef1-186">On the **Home** ribbon, select **Get Add-ins**.</span></span><br/><span data-ttu-id="23ef1-187">![Outlook의 스토어 단추](../../media/getaddinsicon.png)</span><span class="sxs-lookup"><span data-stu-id="23ef1-187">![Store button in Outlook](../../media/getaddinsicon.png)</span></span>
   
-2. <span data-ttu-id="60820-188">왼쪽 **네비게이트에서** 관리되는 관리자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="60820-188">Select **Admin-managed** in the left nav.</span></span> 
+2. <span data-ttu-id="23ef1-188">왼쪽 **네비게이트에서** 관리되는 관리자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-188">Select **Admin-managed** in the left nav.</span></span> 
 
-## <a name="learn-more"></a><span data-ttu-id="60820-189">자세히 알아보기</span><span class="sxs-lookup"><span data-stu-id="60820-189">Learn more</span></span>
+## <a name="learn-more"></a><span data-ttu-id="23ef1-189">자세한 정보</span><span class="sxs-lookup"><span data-stu-id="23ef1-189">Learn more</span></span>
 
-[<span data-ttu-id="60820-190">관리 센터에서 추가 기능 배포</span><span class="sxs-lookup"><span data-stu-id="60820-190">Deploy add-ins in the admin center</span></span>](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
+[<span data-ttu-id="23ef1-190">관리 센터에서 추가 기능 배포</span><span class="sxs-lookup"><span data-stu-id="23ef1-190">Deploy add-ins in the admin center</span></span>](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
 
-<span data-ttu-id="60820-191">[Office 추가 기능](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)을 만들고 빌드하는 방법에 대해 자세히 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="60820-191">Learn more about creating and building [Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).</span></span>
+<span data-ttu-id="23ef1-191">[Office 추가 기능](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)을 만들고 빌드하는 방법에 대해 자세히 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="23ef1-191">Learn more about creating and building [Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).</span></span>
   
-<span data-ttu-id="60820-192">[중앙 집중식 배포 PowerShell cmdlet을](https://docs.microsoft.com/office365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)사용하여 추가 기능을 관리합니다.</span><span class="sxs-lookup"><span data-stu-id="60820-192">[Use Centralized Deployment PowerShell cmdlets to manage add-ins](https://docs.microsoft.com/office365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins).</span></span>
+<span data-ttu-id="23ef1-192">[중앙 집중식 배포 PowerShell cmdlet을](https://docs.microsoft.com/office365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)사용하여 추가 기능을 관리합니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-192">[Use Centralized Deployment PowerShell cmdlets to manage add-ins](https://docs.microsoft.com/office365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins).</span></span>
   
-[<span data-ttu-id="60820-193">문제 해결: 사용자가 추가 기능을 볼 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="60820-193">Troubleshoot: User not seeing add-ins</span></span>](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)
+[<span data-ttu-id="23ef1-193">문제 해결: 사용자가 추가 기능을 볼 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="23ef1-193">Troubleshoot: User not seeing add-ins</span></span>](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)
 
-[<span data-ttu-id="60820-194">Microsoft Store에서 미성년자 및 추가 기능 다운로드</span><span class="sxs-lookup"><span data-stu-id="60820-194">Minors and acquiring add-ins from the Microsoft Store</span></span>](https://docs.microsoft.com/microsoft-365/admin/manage/minors-and-acquiring-addins-from-the-store)
+[<span data-ttu-id="23ef1-194">Microsoft Store에서 미성년자 및 추가 기능 다운로드</span><span class="sxs-lookup"><span data-stu-id="23ef1-194">Minors and acquiring add-ins from the Microsoft Store</span></span>](https://docs.microsoft.com/microsoft-365/admin/manage/minors-and-acquiring-addins-from-the-store)

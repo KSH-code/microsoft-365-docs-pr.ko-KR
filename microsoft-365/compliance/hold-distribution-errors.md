@@ -16,7 +16,7 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
-description: 고급 eDiscovery에서 보유자 및 보유하지 않은 데이터 원본에 적용된 보류와 관련된 오류를 해결합니다.
+description: 고급 eDiscovery에서 보유자 및 보유되지 않은 데이터 원본에 적용된 보류와 관련된 오류를 해결합니다.
 ms.openlocfilehash: a9956ac76cc083b6e408bd2f458b0320158fa231
 ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
 ms.translationtype: MT
@@ -24,6 +24,6 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 02/04/2021
 ms.locfileid: "50099835"
 ---
-# <a name="troubleshoot-ediscovery-hold-errors"></a><span data-ttu-id="75131-103">eDiscovery 보류 오류 해결</span><span class="sxs-lookup"><span data-stu-id="75131-103">Troubleshoot eDiscovery hold errors</span></span>
+# <a name="troubleshoot-ediscovery-hold-errors"></a><span data-ttu-id="50fee-103">eDiscovery 보류 오류 해결</span><span class="sxs-lookup"><span data-stu-id="50fee-103">Troubleshoot eDiscovery hold errors</span></span>
 
-<span data-ttu-id="75131-104">여기에서 콘텐츠 추가 시작</span><span class="sxs-lookup"><span data-stu-id="75131-104">start adding content here</span></span>
+<span data-ttu-id="50fee-104">여기에서 콘텐츠 추가 시작</span><span class="sxs-lookup"><span data-stu-id="50fee-104">start adding content here</span></span>

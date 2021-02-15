@@ -1,5 +1,5 @@
 ---
-title: Microsoft Viva 항목의 항목 표시 여부 관리
+title: Microsoft Viva 항목의 항목 표시 관리
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,43 +17,43 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 02/04/2021
 ms.locfileid: "50107682"
 ---
-# <a name="manage-topic-visibility-in-microsoft-viva-topics"></a><span data-ttu-id="56a28-103">Microsoft Viva 항목의 항목 표시 여부 관리</span><span class="sxs-lookup"><span data-stu-id="56a28-103">Manage topic visibility in Microsoft Viva Topics</span></span>
+# <a name="manage-topic-visibility-in-microsoft-viva-topics"></a><span data-ttu-id="f4407-103">Microsoft Viva 항목의 항목 표시 관리</span><span class="sxs-lookup"><span data-stu-id="f4407-103">Manage topic visibility in Microsoft Viva Topics</span></span>
 
-<span data-ttu-id="56a28-104">[Microsoft 365](https://admin.microsoft.com)관리 센터에서 항목 강조 표시, 항목 카드 및 항목 센터를 볼 수 있는 사용자 집합을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56a28-104">You can manage the set of users who can see topic highlights, topic cards, and the topic center in the [Microsoft 365 admin center](https://admin.microsoft.com).</span></span> <span data-ttu-id="56a28-105">이러한 작업을 수행하려면 전역 관리자 또는 SharePoint 관리자 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="56a28-105">You must be a global administrator or SharePoint administrator to perform these tasks.</span></span>
+<span data-ttu-id="f4407-104">[Microsoft 365](https://admin.microsoft.com)관리 센터에서 항목 강조, 항목 카드 및 항목 센터를 볼 수 있는 사용자 집합을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f4407-104">You can manage the set of users who can see topic highlights, topic cards, and the topic center in the [Microsoft 365 admin center](https://admin.microsoft.com).</span></span> <span data-ttu-id="f4407-105">이러한 작업을 수행하려면 전역 관리자 또는 SharePoint 관리자 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f4407-105">You must be a global administrator or SharePoint administrator to perform these tasks.</span></span>
 
-## <a name="to-access-topics-management-settings"></a><span data-ttu-id="56a28-106">항목 관리 설정에 액세스하려면</span><span class="sxs-lookup"><span data-stu-id="56a28-106">To access topics management settings:</span></span>
+## <a name="to-access-topics-management-settings"></a><span data-ttu-id="f4407-106">항목 관리 설정에 액세스하려면</span><span class="sxs-lookup"><span data-stu-id="f4407-106">To access topics management settings:</span></span>
 
-1. <span data-ttu-id="56a28-107">Microsoft 365 관리 센터에서 설정, Org 설정을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="56a28-107">In the Microsoft 365 admin center, click **Settings**, then **Org settings**.</span></span>
-2. <span data-ttu-id="56a28-108">서비스 **탭에서** 항목 **환경을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="56a28-108">On the **Services** tab, click **Topic experiences**.</span></span>
+1. <span data-ttu-id="f4407-107">Microsoft 365 관리 센터에서 설정을 클릭한 **다음, Org 설정을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="f4407-107">In the Microsoft 365 admin center, click **Settings**, then **Org settings**.</span></span>
+2. <span data-ttu-id="f4407-108">서비스 **탭에서** 항목 **환경을 클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="f4407-108">On the **Services** tab, click **Topic experiences**.</span></span>
 
     ![지식에 사람 연결](../media/admin-org-knowledge-options-completed.png) 
 
-3. <span data-ttu-id="56a28-110">항목 **표시 여부 탭을** 선택합니다. 각 설정에 대한 자세한 내용은 다음 섹션을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="56a28-110">Select the **Topic visibility** tab. See the following sections for information about each setting.</span></span>
+3. <span data-ttu-id="f4407-110">항목 표시 **여부 탭을** 선택합니다. 각 설정에 대한 자세한 내용은 다음 섹션을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="f4407-110">Select the **Topic visibility** tab. See the following sections for information about each setting.</span></span>
 
     ![knowledge-network-settings](../media/knowledge-network-settings-topic-visibility.png) 
 
-##  <a name="change-who-can-see-topics-in-your-organization"></a><span data-ttu-id="56a28-112">조직에서 항목을 볼 수 있는 사용자 변경</span><span class="sxs-lookup"><span data-stu-id="56a28-112">Change who can see topics in your organization</span></span>
+##  <a name="change-who-can-see-topics-in-your-organization"></a><span data-ttu-id="f4407-112">조직에서 항목을 볼 수 있는 사용자 변경</span><span class="sxs-lookup"><span data-stu-id="f4407-112">Change who can see topics in your organization</span></span>
 
-<span data-ttu-id="56a28-113">조직에서 항목을 볼 수 있는 사용자를 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56a28-113">You can change the users who can see topics in your organization.</span></span>
+<span data-ttu-id="f4407-113">조직에서 항목을 볼 수 있는 사용자를 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f4407-113">You can change the users who can see topics in your organization.</span></span>
 
-1. <span data-ttu-id="56a28-114">항목 표시 **여부 탭의** 항목을 볼 수 **있는 사용자** 아래에서 편집을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="56a28-114">On the **Topic visibility** tab, under **Who can see topics**, select **Edit**.</span></span>
-2. <span data-ttu-id="56a28-115">항목을 **볼** 수 있는 사용자 페이지에서 강조 표시된 항목, 항목 카드, 검색의 항목 답변 및 항목 페이지와 같은 항목 세부 정보에 액세스할 수 있는 사용자 선택</span><span class="sxs-lookup"><span data-stu-id="56a28-115">On the **Who can see topics** page, you choose who will have access to topic details, such as highlighted topics, topic cards, topic answers in search, and topic pages.</span></span> <span data-ttu-id="56a28-116">다음을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56a28-116">You can select:</span></span>
-    - <span data-ttu-id="56a28-117">**조직의 모든 사람**</span><span class="sxs-lookup"><span data-stu-id="56a28-117">**Everyone in your organization**</span></span>
-    - <span data-ttu-id="56a28-118">**선택한 사용자 또는 보안 그룹만**</span><span class="sxs-lookup"><span data-stu-id="56a28-118">**Only selected people or security groups**</span></span>
-    - <span data-ttu-id="56a28-119">**아무도 없어**</span><span class="sxs-lookup"><span data-stu-id="56a28-119">**No one**</span></span>
+1. <span data-ttu-id="f4407-114">항목 표시 **여부 탭의** 항목을 볼 수 **있는 사용자 아래에서** 편집을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="f4407-114">On the **Topic visibility** tab, under **Who can see topics**, select **Edit**.</span></span>
+2. <span data-ttu-id="f4407-115">항목을 **볼** 수 있는 사용자 페이지에서 강조 표시된 항목, 항목 카드, 검색의 항목 답변 및 항목 페이지와 같은 항목 세부 정보에 액세스할 수 있는 사용자 선택</span><span class="sxs-lookup"><span data-stu-id="f4407-115">On the **Who can see topics** page, you choose who will have access to topic details, such as highlighted topics, topic cards, topic answers in search, and topic pages.</span></span> <span data-ttu-id="f4407-116">다음을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f4407-116">You can select:</span></span>
+    - <span data-ttu-id="f4407-117">**조직의 모든 사람**</span><span class="sxs-lookup"><span data-stu-id="f4407-117">**Everyone in your organization**</span></span>
+    - <span data-ttu-id="f4407-118">**선택한 사용자 또는 보안 그룹만**</span><span class="sxs-lookup"><span data-stu-id="f4407-118">**Only selected people or security groups**</span></span>
+    - <span data-ttu-id="f4407-119">**아무도 없어**</span><span class="sxs-lookup"><span data-stu-id="f4407-119">**No one**</span></span>
 
-    ![항목을 볼 수 있는 사람](../media/k-manage-who-can-see-topics.png) 
+    ![항목을 볼 수 있는 사용자](../media/k-manage-who-can-see-topics.png) 
 
-3. <span data-ttu-id="56a28-121">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="56a28-121">Select **Save**.</span></span>  
+3. <span data-ttu-id="f4407-121">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="f4407-121">Select **Save**.</span></span>  
  
 > [!Note] 
-> <span data-ttu-id="56a28-122">이 설정을 사용하면 조직의 모든 사용자를 선택할 수 있습니다. 그러나 항목에 항목 환경 라이선스가 할당된 사용자만 항목을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56a28-122">While this setting allows you to select any user in your organization, only users who have Topic Experiences licenses assigned to them will be able to view topics.</span></span>
+> <span data-ttu-id="f4407-122">이 설정을 사용하면 조직의 모든 사용자를 선택할 수 있는 반면, 항목에 항목 환경 라이선스가 할당된 사용자만 항목을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f4407-122">While this setting allows you to select any user in your organization, only users who have Topic Experiences licenses assigned to them will be able to view topics.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="56a28-123">참고 항목</span><span class="sxs-lookup"><span data-stu-id="56a28-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f4407-123">참고 항목</span><span class="sxs-lookup"><span data-stu-id="f4407-123">See also</span></span>
 
-[<span data-ttu-id="56a28-124">Microsoft Viva 항목에서 항목 검색 관리</span><span class="sxs-lookup"><span data-stu-id="56a28-124">Manage topic discovery in Microsoft Viva Topics</span></span>](topic-experiences-discovery.md)
+[<span data-ttu-id="f4407-124">Microsoft Viva 항목에서 항목 검색 관리</span><span class="sxs-lookup"><span data-stu-id="f4407-124">Manage topic discovery in Microsoft Viva Topics</span></span>](topic-experiences-discovery.md)
 
-[<span data-ttu-id="56a28-125">Microsoft Viva 항목의 항목 사용 권한 관리</span><span class="sxs-lookup"><span data-stu-id="56a28-125">Manage topic permissions in Microsoft Viva Topics</span></span>](topic-experiences-user-permissions.md)
+[<span data-ttu-id="f4407-125">Microsoft Viva 항목의 항목 사용 권한 관리</span><span class="sxs-lookup"><span data-stu-id="f4407-125">Manage topic permissions in Microsoft Viva Topics</span></span>](topic-experiences-user-permissions.md)
 
-[<span data-ttu-id="56a28-126">Microsoft Viva 항목에서 항목 센터의 이름 변경</span><span class="sxs-lookup"><span data-stu-id="56a28-126">Change the name of the topic center in Microsoft Viva Topics</span></span>](topic-experiences-administration.md)
+[<span data-ttu-id="f4407-126">Microsoft Viva 항목에서 항목 센터의 이름 변경</span><span class="sxs-lookup"><span data-stu-id="f4407-126">Change the name of the topic center in Microsoft Viva Topics</span></span>](topic-experiences-administration.md)
 
