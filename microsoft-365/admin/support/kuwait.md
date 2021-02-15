@@ -1,5 +1,5 @@
 ---
-title: 쿠웨이트에 대 한 지원 정보
+title: 쿠웨이트에 대한 지원 정보
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
+description: 해당 국가 또는 지역에 대한 지원 팀에 문의하는 방법을 자세히 알아보는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: a0b265930653c69efe078350726b0d9f7e064c8c
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,30 +20,30 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48641714"
 ---
-# <a name="contact-support-for-kuwait"></a><span data-ttu-id="69656-103">쿠웨이트에 대 한 지원 문의</span><span class="sxs-lookup"><span data-stu-id="69656-103">Contact support for Kuwait</span></span>
+# <a name="contact-support-for-kuwait"></a><span data-ttu-id="3477f-103">쿠웨이트 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="3477f-103">Contact support for Kuwait</span></span>
 
-<span data-ttu-id="69656-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="69656-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="3477f-104">[다른 국가 또는 지역을 찾을 수 있습니다.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="3477f-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="69656-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="69656-105">Phone number</span></span>
-<span data-ttu-id="69656-106">+ 965 22219876</span><span class="sxs-lookup"><span data-stu-id="69656-106">+965 22219876</span></span>
+## <a name="phone-number"></a><span data-ttu-id="3477f-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="3477f-105">Phone number</span></span>
+<span data-ttu-id="3477f-106">+965 22219876</span><span class="sxs-lookup"><span data-stu-id="3477f-106">+965 22219876</span></span>
 
-<span data-ttu-id="69656-107">옵션 2 선택</span><span class="sxs-lookup"><span data-stu-id="69656-107">Select option 2</span></span>
+<span data-ttu-id="3477f-107">옵션 2 선택</span><span class="sxs-lookup"><span data-stu-id="3477f-107">Select option 2</span></span>
 
-<span data-ttu-id="69656-108">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="69656-108">Select option 9</span></span>
+<span data-ttu-id="3477f-108">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="3477f-108">Select option 9</span></span>
 
-<span data-ttu-id="69656-109">7701 코드 입력</span><span class="sxs-lookup"><span data-stu-id="69656-109">Enter code 7701</span></span>
+<span data-ttu-id="3477f-109">코드 7701 입력</span><span class="sxs-lookup"><span data-stu-id="3477f-109">Enter code 7701</span></span>
 
-## <a name="hours"></a><span data-ttu-id="69656-110">시간</span><span class="sxs-lookup"><span data-stu-id="69656-110">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="69656-111">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="69656-111">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="3477f-110">시간</span><span class="sxs-lookup"><span data-stu-id="3477f-110">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="3477f-111">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="3477f-111">Billing Support:</span></span>
 
-<span data-ttu-id="69656-112">아랍어: 오전 10 시 Sun-Thu 오후 6 시</span><span class="sxs-lookup"><span data-stu-id="69656-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="3477f-112">아랍어: Sun-Thu 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="3477f-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="69656-113">영어: 오전 10 시 Mon-Fri 오후 6 시</span><span class="sxs-lookup"><span data-stu-id="69656-113">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="3477f-113">영어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="3477f-113">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="69656-114">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="69656-114">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="3477f-114">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="3477f-114">Technical Support:</span></span>
 
-<span data-ttu-id="69656-115">아랍어: 오전 10 시 Sun-Thu 오후 6 시</span><span class="sxs-lookup"><span data-stu-id="69656-115">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="3477f-115">아랍어: Sun-Thu 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="3477f-115">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="69656-116">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="69656-116">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="3477f-116">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="3477f-116">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="69656-117">지역 전화 요금이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="69656-117">Local call charges apply</span></span>
+<span data-ttu-id="3477f-117">현지 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="3477f-117">Local call charges apply</span></span>
