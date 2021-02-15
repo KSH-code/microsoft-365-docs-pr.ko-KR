@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: 시작
+    - name: 시작하기
       items:
         - name: 재택 근무 지원을 위한 주요 작업
           href: top-security-tasks-for-remote-work.md
@@ -275,6 +275,8 @@
                   href: mtp/device-profile.md
                 - name: 피드백 제공
                   href: mtp/feedback.md
+                - name: MSSP(관리되는 서비스 공급자) 액세스 제공
+                  href: mtp/mssp-access.md
                 - name: ServiceNow 티켓 및 작업 만들기
                   items:
                     - name: ServiceNow 통합 개요
