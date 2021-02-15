@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 구독에 대 한 결제를 보낼 위치를 알아봅니다.
+description: 구독에 대한 결제를 보낼 수 있는 위치를 자세히 알아보아야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 593293fab0d61ba7ecb154f3eb7ed48cf07e1dee
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48648398"
 ---
-# <a name="payment-information-for-switzerland"></a><span data-ttu-id="10bfb-103">스위스의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="10bfb-103">Payment information for Switzerland</span></span>
+# <a name="payment-information-for-switzerland"></a><span data-ttu-id="43475-103">스위스의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="43475-103">Payment information for Switzerland</span></span>
 
-<span data-ttu-id="10bfb-104">[다른 국가 또는 지역을 찾습니다](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="10bfb-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="43475-104">[다른 국가 또는 지역을 찾을 수 있습니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="43475-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="10bfb-105">CHF에만 요금을 지불 하 고 지급 remittance에 대 한 청구서 번호를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="10bfb-105">Please pay in CHF only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="43475-105">CHF로만 결제하고 송장 번호를 송장 번호로 송금합니다.</span><span class="sxs-lookup"><span data-stu-id="43475-105">Please pay in CHF only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="10bfb-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="10bfb-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="43475-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="43475-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="10bfb-107">**뱅크:** Citibank, 런던</span><span class="sxs-lookup"><span data-stu-id="10bfb-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="10bfb-108">**SWIFT Code/BIC:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="10bfb-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
-<span data-ttu-id="10bfb-109">**Iban:** GB44CITI18500812207648</span><span class="sxs-lookup"><span data-stu-id="10bfb-109">**IBAN:** GB44CITI18500812207648</span></span>  
-<span data-ttu-id="10bfb-110">**계정 번호:** 12207648</span><span class="sxs-lookup"><span data-stu-id="10bfb-110">**Account Number:** 12207648</span></span>  
-<span data-ttu-id="10bfb-111">**계정 이름:** MFC</span><span class="sxs-lookup"><span data-stu-id="10bfb-111">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="43475-107">**은행:** Citibank, London</span><span class="sxs-lookup"><span data-stu-id="43475-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="43475-108">**SWIFT 코드/BIC:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="43475-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
+<span data-ttu-id="43475-109">**IBAN:** GB44CITI18500812207648</span><span class="sxs-lookup"><span data-stu-id="43475-109">**IBAN:** GB44CITI18500812207648</span></span>  
+<span data-ttu-id="43475-110">**계정 번호:** 12207648</span><span class="sxs-lookup"><span data-stu-id="43475-110">**Account Number:** 12207648</span></span>  
+<span data-ttu-id="43475-111">**계정 이름:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="43475-111">**Account Name:** MICROSOFT</span></span>  
