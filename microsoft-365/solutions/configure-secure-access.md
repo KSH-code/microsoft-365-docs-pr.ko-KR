@@ -19,6 +19,6 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "49771802"
 ---
-# <a name="configure-secure-access-to-microsoft-365-services"></a><span data-ttu-id="07b89-103">Microsoft 365 서비스에 대한 보안 액세스 구성</span><span class="sxs-lookup"><span data-stu-id="07b89-103">Configure secure access to Microsoft 365 services</span></span>
+# <a name="configure-secure-access-to-microsoft-365-services"></a><span data-ttu-id="b58dd-103">Microsoft 365 서비스에 대한 보안 액세스 구성</span><span class="sxs-lookup"><span data-stu-id="b58dd-103">Configure secure access to Microsoft 365 services</span></span>
 
-<span data-ttu-id="07b89-104">이 솔루션은["M365 골든](https://aka.ms/m365goldenconfig)구성" - 3계층 보호에 대한 MFA, 조건부 액세스 및 관련 정책을 구현하기 위한 징계 지침인 기준, 중요, 높은 중요 정책을 기반으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="07b89-104">This solution is based on the "[M365 golden config](https://aka.ms/m365goldenconfig)" -- prescriptive guidance for implementing MFA, conditional access, and related policies for three tiers of protection: baseline, sensitive, highly sensitive.</span></span> 
+<span data-ttu-id="b58dd-104">이 솔루션은["M365 골든](https://aka.ms/m365goldenconfig)구성" - 3계층 보호에 대한 MFA, 조건부 액세스 및 관련 정책을 구현하기 위한 징계 지침인 기준, 중요, 높은 중요 정책을 기반으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="b58dd-104">This solution is based on the "[M365 golden config](https://aka.ms/m365goldenconfig)" -- prescriptive guidance for implementing MFA, conditional access, and related policies for three tiers of protection: baseline, sensitive, highly sensitive.</span></span> 

@@ -23,20 +23,20 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "49780571"
 ---
-# <a name="address-space-calculator-for-azure-gateway-subnets"></a><span data-ttu-id="6df63-103">Azure 게이트웨이 서브넷용 주소 공간 계산기</span><span class="sxs-lookup"><span data-stu-id="6df63-103">Address space calculator for Azure gateway subnets</span></span>
+# <a name="address-space-calculator-for-azure-gateway-subnets"></a><span data-ttu-id="85b6f-103">Azure 게이트웨이 서브넷용 주소 공간 계산기</span><span class="sxs-lookup"><span data-stu-id="85b6f-103">Address space calculator for Azure gateway subnets</span></span>
 
-<span data-ttu-id="6df63-104">다른 네트워크에 연결된 Azure 인프라 서비스의 VNet(가상 네트워크)에는 게이트웨이 서브넷이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6df63-104">A virtual network (VNet) in Azure infrastructure services that is connected to other networks must have a gateway subnet.</span></span> <span data-ttu-id="6df63-105">게이트웨이 서브넷을 정의하는 최상의 방법은 다음입니다.</span><span class="sxs-lookup"><span data-stu-id="6df63-105">The best practices for defining the gateway subnet are:</span></span>
+<span data-ttu-id="85b6f-104">다른 네트워크에 연결된 Azure 인프라 서비스의 VNet(가상 네트워크)에는 게이트웨이 서브넷이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="85b6f-104">A virtual network (VNet) in Azure infrastructure services that is connected to other networks must have a gateway subnet.</span></span> <span data-ttu-id="85b6f-105">게이트웨이 서브넷을 정의하는 최상의 방법은 다음입니다.</span><span class="sxs-lookup"><span data-stu-id="85b6f-105">The best practices for defining the gateway subnet are:</span></span>
 
-- <span data-ttu-id="6df63-106">게이트웨이 서브넷의 시작두사 길이는 최대 29(예: 10.119.255.248/29)이지만 현재는 27의 prefix 길이를 사용하는 것이 좋습니다(예: 10.119.255.224/27).</span><span class="sxs-lookup"><span data-stu-id="6df63-106">The prefix length of the gateway subnet can have a maximum prefix length of 29 (for example, 10.119.255.248/29), but the current recommendation is that you use a prefix length of 27 (for example, 10.119.255.224/27).</span></span>
-- <span data-ttu-id="6df63-107">게이트웨이 서브넷의 주소 공간을 정의할 때 VNet 주소 공간의 마지막 부분을 사용하세요.</span><span class="sxs-lookup"><span data-stu-id="6df63-107">When defining the address space of the gateway subnet, use the last part of the VNet address space.</span></span>
+- <span data-ttu-id="85b6f-106">게이트웨이 서브넷의 연결선 길이는 최대 29(예: 10.119.255.248/29)를 사용할 수 있지만 현재는 27의 전두사 길이를 사용하는 것이 좋습니다(예: 10.119.255.224/27).</span><span class="sxs-lookup"><span data-stu-id="85b6f-106">The prefix length of the gateway subnet can have a maximum prefix length of 29 (for example, 10.119.255.248/29), but the current recommendation is that you use a prefix length of 27 (for example, 10.119.255.224/27).</span></span>
+- <span data-ttu-id="85b6f-107">게이트웨이 서브넷의 주소 공간을 정의할 때 VNet 주소 공간의 마지막 부분을 사용하세요.</span><span class="sxs-lookup"><span data-stu-id="85b6f-107">When defining the address space of the gateway subnet, use the last part of the VNet address space.</span></span>
 
-<span data-ttu-id="6df63-108">두 번째 권장 항목에서는 게이트웨이 서브넷에 사용되는 비트를 0으로 설정하고 VNet 주소 공간의 나머지 비트를 1로 설정하여 게이트웨이 서브넷의 주소 공간을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6df63-108">For the second recommendation, you can determine the address space of the gateway subnet by setting the bits used for the gateway subnet to 0 and the remaining bits in the VNet address space to 1.</span></span> <span data-ttu-id="6df63-109">이진수로 다시 10진수로 변환하지 않고 게이트웨이 서브넷 주소 공간을 빠르게 계산하기 위해 C# 또는 Python 또는 PowerShell 명령 블록으로 작성된 콘솔 응용 프로그램을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6df63-109">To quickly calculate the gateway subnet address space without having to convert to binary and back to decimal, you can use a console application written in C# or Python or with a PowerShell command block.</span></span>
+<span data-ttu-id="85b6f-108">두 번째 권장 항목에서는 게이트웨이 서브넷에 사용되는 비트를 0으로 설정하고 VNet 주소 공간의 나머지 비트를 1로 설정하여 게이트웨이 서브넷의 주소 공간을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85b6f-108">For the second recommendation, you can determine the address space of the gateway subnet by setting the bits used for the gateway subnet to 0 and the remaining bits in the VNet address space to 1.</span></span> <span data-ttu-id="85b6f-109">이진수로 다시 10진수로 변환하지 않고 게이트웨이 서브넷 주소 공간을 빠르게 계산하기 위해 C# 또는 Python 또는 PowerShell 명령 블록으로 작성된 콘솔 응용 프로그램을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85b6f-109">To quickly calculate the gateway subnet address space without having to convert to binary and back to decimal, you can use a console application written in C# or Python or with a PowerShell command block.</span></span>
 
-<span data-ttu-id="6df63-110">이 문서에는 VNet 주소록의 w.x.y.z/n 값과 게이트웨이 서브넷 주소 길이에 따라 게이트웨이 서브넷 주소 공간을 계산하는 C#, Python 및 PowerShell 코드 블록이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6df63-110">This article contains C#, Python, and PowerShell code blocks that calculate the gateway subnet address space based on the values of w.x.y.z/n for the VNet address prefix and the gateway subnet prefix length.</span></span>
+<span data-ttu-id="85b6f-110">이 문서에는 VNet 주소록의 w.x.y.z/n 값과 게이트웨이 서브넷 주소 길이에 따라 게이트웨이 서브넷 주소 공간을 계산하는 C#, Python 및 PowerShell 코드 블록이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85b6f-110">This article contains C#, Python, and PowerShell code blocks that calculate the gateway subnet address space based on the values of w.x.y.z/n for the VNet address prefix and the gateway subnet prefix length.</span></span>
 
-## <a name="c-code-block"></a><span data-ttu-id="6df63-111">C# 코드 블록</span><span class="sxs-lookup"><span data-stu-id="6df63-111">C# code block</span></span>
+## <a name="c-code-block"></a><span data-ttu-id="85b6f-111">C# 코드 블록</span><span class="sxs-lookup"><span data-stu-id="85b6f-111">C# code block</span></span>
 
-<span data-ttu-id="6df63-112">이 코드 블록을 사용하여 C#으로 콘솔 앱을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6df63-112">Use this code block to create a console app in C#.</span></span>
+<span data-ttu-id="85b6f-112">이 코드 블록을 사용하여 C#으로 콘솔 앱을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85b6f-112">Use this code block to create a console app in C#.</span></span>
 
 ```c#
 using System; 
@@ -108,9 +108,9 @@ namespace ConsoleApplication1
 } 
 ```
 
-## <a name="python-code-block"></a><span data-ttu-id="6df63-113">Python 코드 블록</span><span class="sxs-lookup"><span data-stu-id="6df63-113">Python code block</span></span>
+## <a name="python-code-block"></a><span data-ttu-id="85b6f-113">Python 코드 블록</span><span class="sxs-lookup"><span data-stu-id="85b6f-113">Python code block</span></span>
 
-<span data-ttu-id="6df63-114">이 코드 블록을 사용하여 Python에서 콘솔 앱을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6df63-114">Use this code block to create a console app in Python.</span></span>
+<span data-ttu-id="85b6f-114">이 코드 블록을 사용하여 Python에서 콘솔 앱을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="85b6f-114">Use this code block to create a console app in Python.</span></span>
 
 ```python
 import math 
@@ -147,9 +147,9 @@ print(gwAddrPref)
 ```
 
 
-## <a name="powershell-command-block"></a><span data-ttu-id="6df63-115">PowerShell 명령 블록</span><span class="sxs-lookup"><span data-stu-id="6df63-115">PowerShell command block</span></span>
+## <a name="powershell-command-block"></a><span data-ttu-id="85b6f-115">PowerShell 명령 블록</span><span class="sxs-lookup"><span data-stu-id="85b6f-115">PowerShell command block</span></span>
 
-<span data-ttu-id="6df63-116">값을 입력하고 PowerShell 창 또는 PowerShell ISE(통합 스크립트 환경)에서 결과 명령 블록을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="6df63-116">Fill in the values and run the resulting command block in a PowerShell window or in the PowerShell Integrated Script Environment (ISE).</span></span>
+<span data-ttu-id="85b6f-116">값을 입력하고 PowerShell 창 또는 PowerShell ISE(통합 스크립트 환경)에서 결과 명령 블록을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="85b6f-116">Fill in the values and run the resulting command block in a PowerShell window or in the PowerShell Integrated Script Environment (ISE).</span></span>
 
 ```powershell
 # Specify the values of w.x.y.z/n for your VNet address space and g, the prefix length of your gateway subnet: 
@@ -177,6 +177,6 @@ $dx= [string]$w2 + "." + [string]$x2 + "." + [string]$y2 + "." + [string]$z2 + "
 Write-Host "Your gateway address prefix is: " $dx
 ```
     
-## <a name="related-topics"></a><span data-ttu-id="6df63-117">관련 항목</span><span class="sxs-lookup"><span data-stu-id="6df63-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="85b6f-117">관련 항목</span><span class="sxs-lookup"><span data-stu-id="85b6f-117">Related topics</span></span>
 
-[<span data-ttu-id="6df63-118">PowerShell로 Microsoft 365 관리</span><span class="sxs-lookup"><span data-stu-id="6df63-118">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
+[<span data-ttu-id="85b6f-118">PowerShell로 Microsoft 365 관리</span><span class="sxs-lookup"><span data-stu-id="85b6f-118">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
