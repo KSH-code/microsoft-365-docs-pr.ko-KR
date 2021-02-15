@@ -1,5 +1,5 @@
 ---
-title: 서비스 기본 사항
+title: 기본
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -13,7 +13,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - commerce
 ms.custom: AdminSurgePortfolio
-description: 새 서비스 구성 기능에 대해 알아봅니다.
+description: 새로운 추가 기능에 대해 자세히 알아보습니다.
 ms.openlocfilehash: 2ab8efd637bb278faf6065559cab26cb7016975b
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
@@ -21,32 +21,32 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48638234"
 ---
-# <a name="allotment-basics"></a>서비스 기본 사항
+# <a name="allotment-basics"></a>기본
 
-라이선스 할당을 사용 하면 라이선스 제한을 설정 하 고 사용자가 선택한 제품 및 라이선스 제한에 맞게 라이선스 지정 관리를 위임할 수 있습니다.
+라이선스 할당을 사용하면 라이선스 제한 및 라이선스 할당 관리를 선택한 제품 및 라이선스 제한으로만 설정할 수 있습니다.
 
-서비스 그룹 기반 라이선싱을 사용 하 여 사용자에 게 라이선스를 할당 합니다. 라이선스 제한을 사용 하면 그룹의 사용자에 게 할당 된 라이선스 수를 보다 강력 하 게 조정할 수 있습니다. 따라서 그룹의 사용자 수가 늘어나면 해당 할당에 대해 설정한 라이선스 제한 범위 내에서 유지 되도록 할 수 있습니다.
+할당은 그룹 기반 라이선싱을 사용하여 사용자에게 라이선스를 할당합니다. 라이선스 제한을 통해 그룹의 사용자에게 할당된 라이선스 수를 더 제어할 수 있습니다. 따라서 그룹의 사용자 수가 증가하는 경우에도 해당 제한에 대해 설정한 라이선스 제한 내에 유지되도록 할 수 있습니다.
 
-또한 서비스의 관리를 위임할 수도 있습니다. 위임 된 서비스 소유자는 관리 센터에 대 한 액세스 권한을 얻게 되지만 자신이 소유한 사용자의 라이선스를 보고 관리할 수만 있습니다. 이렇게 하면 조직 내에서 더 세분화 된 라이선스 관리 위임이 제공 됩니다.
+또한 관리는 위임할 수 있습니다. 위임된 할당 소유자는 관리 센터에 액세스할 수 있지만 소유한 할당에서만 라이선스를 보고 관리할 수 있습니다. 따라서 조직 내에서 라이선스 관리를 보다 세분화하여 위임할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
-[그룹 기반 라이선싱](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements)에 대 한 라이선스 요구 사항을 충족 해야 합니다.
+그룹 기반 라이선싱에 대한 라이선스 [요구 사항을 충족해야 합니다.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements)
 
-사용자가 사용할 수 있는 모든 제품과 함께 서비스를 사용할 수 있습니다.
+사용자가 사용할 수 있는 모든 제품에 대한 추가를 사용할 수 있습니다.
 
 - Office 제품군 및 독립 실행형 제품
-- 엔터프라이즈 및 모바일 제품
+- Enterprise 및 Mobility 제품
 - Dynamics 365 제품
 
-다음 제품은 서비스 사용과 함께 사용할 수 없습니다.
+다음 제품은 사용 시에 사용할 수 없습니다.
 
 - Microsoft Store 앱
-- 라이선스가 없는 경우 사용자에 게 직접 할당 되는 정품 소프트웨어 또는 소프트웨어입니다.
+- 관련된 라이선스가 없는 경우 사용자에게 직접 할당된 소프트웨어 또는 정적 소프트웨어
 - Azure 리소스
 
-할당을 시작 하려면 전역 또는 라이선스 관리자 여야 합니다.
+할당을 시작하려면 전역 관리자 또는 라이선스 관리자 되어야 합니다.
 
-## <a name="getting-started"></a>TVM을 간편하게
+## <a name="getting-started"></a>시작하기
 
-서비스 구성 기능은 소수의 고객 에게만 전용 미리 보기에서 사용할 수 있습니다. 참석 하려는 경우이 양식을 작성 [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup) 합니다.
+전용 미리 보기에서는 소수의 고객만이 이 기능을 사용할 수 있습니다. 참가에 관심이 있는 경우 다음 양식을 [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup) 작성합니다.

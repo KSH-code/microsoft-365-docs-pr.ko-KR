@@ -27,7 +27,7 @@ ms.locfileid: "48487449"
 ---
 # <a name="pass-through-authentication-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 통과 인증
 
-*이 테스트 랩 가이드는 enterprise 및 Office 365 Enterprise 테스트 환경용 Microsoft 365에 모두 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 엔터프라이즈용 Microsoft 365 및 Office 365 Enterprise 테스트 환경에 모두 사용할 수 있습니다.*
 
 Microsoft 클라우드 기반 서비스 및 응용 프로그램에 대한 인증을 위해 AD DS (Active Directory 도메인 서비스) 인프라를 직접 사용하려는 조직은 통과 인증을 사용할 수 있습니다. 이 문서에서는 통과 인증에 대해 Microsoft 365 테스트 환경을 구성하여 다음과 같은 결과를 얻는 방법을 설명합니다.
   
@@ -64,23 +64,23 @@ Microsoft 클라우드 기반 서비스 및 응용 프로그램에 대한 인증
 
 2.    APP1의 데스크톱에서 Azure AD Connect를 실행합니다.
 
-3.    **시작** 페이지에서 **구성**을 클릭합니다.
+3.    **시작** 페이지에서 **구성** 을 클릭합니다.
 
-4.    추가 작업 페이지에서 **사용자 로그인 변경**을 클릭한 후 **다음**을 클릭합니다.
+4.    추가 작업 페이지에서 **사용자 로그인 변경** 을 클릭한 후 **다음** 을 클릭합니다.
 
-5.    **Azure AD에 연결** 페이지에서 전역 관리자 계정 자격 증명을 입력한 후 **다음**을 클릭합니다.
+5.    **Azure AD에 연결** 페이지에서 전역 관리자 계정 자격 증명을 입력한 후 **다음** 을 클릭합니다.
 
-6.    **사용자 로그인** 페이지에서 **통과 인증**를 클릭한 다음, **다음**을 클릭합니다.
+6.    **사용자 로그인** 페이지에서 **통과 인증** 를 클릭한 다음, **다음** 을 클릭합니다.
 
-7.    **구성 준비 완료** 페이지에서 **구성**을 클릭합니다.
+7.    **구성 준비 완료** 페이지에서 **구성** 을 클릭합니다.
 
-8.    **구성 완료** 페이지에서 **끝내기**를 클릭합니다.
+8.    **구성 완료** 페이지에서 **끝내기** 를 클릭합니다.
 
-9.    Azure Portal의 왼쪽 창에서 **Azure Active Directory > Azure AD Connect**를 클릭합니다. **통과 인증** 기능이 **사용**으로 표시되는지 확인합니다.
+9.    Azure Portal의 왼쪽 창에서 **Azure Active Directory > Azure AD Connect** 를 클릭합니다. **통과 인증** 기능이 **사용** 으로 표시되는지 확인합니다.
 
-10.    **통과 인증**을 클릭하세요. **통과 인증** 창에는 인증 에이전트가 설치된 서버가 나열됩니다. 목록에 APP1이 표시되었는지 확인해야 합니다. 그 다음 **통과 인증** 창을 닫습니다.
+10.    **통과 인증** 을 클릭하세요. **통과 인증** 창에는 인증 에이전트가 설치된 서버가 나열됩니다. 목록에 APP1이 표시되었는지 확인해야 합니다. 그 다음 **통과 인증** 창을 닫습니다.
 
-다음으로 user1@testlab를 사용 하 여 구독에 로그인 하는 기능을 테스트 합니다 <strong>.</strong>\<your public domain> 기능을 테스트합니다.
+다음으로, 구독을 통해 구독에 로그인하는 기능을 <strong>user1@testlab.</strong>\<your public domain> 기능을 테스트합니다.
 
 1. APP1에서 로그아웃한 다음 다른 계정을 지정하여 다시 로그인합니다.
 
@@ -94,7 +94,7 @@ User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더�
  
 이 구성은 다음으로 이루어집니다.
 
-- DNS 도메인 testlab과 함께 Microsoft 365 E5 평가판 또는 유료 구독입니다.\<your domain name> 유료 구독.
+- DNS 도메인 테스트 랩이 있는 Microsoft 365 E5 평가판 또는 유료 구독\<your domain name> 유료 구독.
 - 인터넷에 연결된 간소화된 조직 인트라넷으로, Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. 인증 에이전트는 APP1에서 실행되어 Microsoft 365 구독의 Azure AD 테넌트의 통과 인증 요청을 처리합니다.
 
 ## <a name="next-step"></a>다음 단계
@@ -107,4 +107,4 @@ User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더�
 
 [엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
-[엔터프라이즈 설명서에 대 한 Microsoft 365](https://docs.microsoft.com/microsoft-365-enterprise/)
+[기업용 Microsoft 365 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)

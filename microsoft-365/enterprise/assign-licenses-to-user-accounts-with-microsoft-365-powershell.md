@@ -1,5 +1,5 @@
 ---
-title: PowerShell을 사용 하 여 사용자 계정에 Microsoft 365 라이선스 할당
+title: PowerShell을 통해 사용자 계정에 Microsoft 365 라이선스 할당
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -20,7 +20,7 @@ ms.custom:
 ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be
 search.appverid:
 - MET150
-description: 이 문서에서는 PowerShell을 사용 하 여 라이선스가 없는 사용자에 게 Microsoft 365 라이선스를 할당 하는 방법을 알아봅니다.
+description: 이 문서에서는 PowerShell을 사용하여 허가되지 않은 사용자에게 Microsoft 365 라이선스를 할당하는 방법을 알아보고 있습니다.
 ms.openlocfilehash: 8c3165b99477afa14e6d2b0da927b5f64c416ef1
 ms.sourcegitcommit: 3165329d1fb5a7fd866ff287bea3b6354ea2be18
 ms.translationtype: MT
@@ -28,44 +28,44 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/17/2020
 ms.locfileid: "48580943"
 ---
-# <a name="assign-microsoft-365-licenses-to-user-accounts-with-powershell"></a>PowerShell을 사용 하 여 사용자 계정에 Microsoft 365 라이선스 할당
+# <a name="assign-microsoft-365-licenses-to-user-accounts-with-powershell"></a>PowerShell을 통해 사용자 계정에 Microsoft 365 라이선스 할당
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-사용자는 계정에 라이선스 요금제의 라이선스가 할당 되기 전 까지는 Microsoft 365 서비스를 사용할 수 없습니다. PowerShell을 사용 하 여 라이선스가 없는 계정에 빠르게 라이선스를 할당할 수 있습니다. 
+사용자는 계정에 라이선스 계획의 라이선스가 할당될 때까지 Microsoft 365 서비스를 사용할 수 없습니다. PowerShell을 사용하여 라이선스가 없는 계정에 라이선스를 신속하게 할당할 수 있습니다. 
 
-사용자 계정에는 먼저 위치를 할당 해야 합니다. 위치를 지정 하는 것은 [Microsoft 365 관리 센터](../admin/add-users/add-users.md)에서 새 사용자 계정을 만드는 데 필수 요소입니다. 
+사용자 계정에 먼저 위치를 할당해야 합니다. 위치를 지정하는 것은 [Microsoft 365](../admin/add-users/add-users.md)관리 센터에서 새 사용자 계정을 만드는 데 필요합니다. 
 
-온-프레미스 Active Directory 도메인 서비스에서 동기화 되는 계정에는 기본적으로 위치가 지정 되어 있지 않습니다. 다음 계정에 대 한 위치를 구성할 수 있습니다.
+기본적으로 Exchange Active Directory 도메인 서비스에서 동기화된 계정에는 위치가 지정되어 있지 않습니다. 다음에서 이러한 계정의 위치를 구성할 수 있습니다.
 
 - Microsoft 365 관리 센터
  - [PowerShell](configure-user-account-properties-with-microsoft-365-powershell.md)
- - [Azure portal](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) (**Active Directory**  >  **사용자** > 사용자 계정 > **프로필**  >  **연락처 정보**  >  **국가 또는 지역**)
+ - [Azure Portal(Active](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) **Directory** 사용자 계정> 프로필 연락처 정보  >   > 국가   >    >  **또는 지역).**
 
 >[!Note]
->Microsoft 365 관리 센터를 사용 하 여 [사용자 계정에 라이선스를 할당 하는 방법을 알아봅니다](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) . 추가 리소스 목록은 [Manage users and groups](https://docs.microsoft.com/microsoft-365/admin/add-users/)을 참조 하십시오.
+>[](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) Microsoft 365 관리 센터를 통해 사용자 계정에 라이선스를 할당하는 방법을 학습합니다. 추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/add-users/)
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 
-먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.
+먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
 
-그런 다음이 명령을 사용 하 여 테 넌 트에 대 한 라이선스 계획을 나열 합니다.
+다음으로, 이 명령을 사용하여 테넌트의 라이선스 계획을 나열합니다.
 
 ```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
-다음으로, UPN (사용자 계정 이름)이 라고도 하는 라이선스를 추가할 계정의 로그인 이름을 가져옵니다.
+그런 다음 라이선스를 추가할 계정의 로그인 이름을 UPN(사용자 계정 이름)이라고도 합니다.
 
-다음으로, 사용자 계정에 사용 위치를 할당 했는지 확인 합니다.
+다음으로, 사용자 계정에 사용 위치가 할당되어 있도록 합니다.
 
 ```powershell
 Get-AzureADUser -ObjectID <user sign-in name (UPN)> | Select DisplayName, UsageLocation
 ```
 
-사용 위치를 할당 하지 않은 경우 다음 명령을 사용 하 여 할당을 할당할 수 있습니다.
+할당된 사용 위치가 없는 경우 다음 명령을 사용하여 할당할 수 있습니다.
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
@@ -73,7 +73,7 @@ $userLoc="<ISO 3166-1 alpha-2 country code>"
 Set-AzureADUser -ObjectID $userUPN -UsageLocation $userLoc
 ```
 
-마지막으로 사용자 로그인 이름 및 라이선스 계획 이름을 지정 하 고 다음 명령을 실행 합니다.
+마지막으로 사용자 로그인 이름 및 라이선스 계획 이름을 지정하고 다음 명령을 실행합니다.
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
@@ -87,35 +87,35 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기
 
-먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)합니다.
+먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-`Get-MsolAccountSku`사용 가능한 라이선스 계획 및 조직의 각 계획에서 사용 가능한 라이선스 수를 확인 하려면 명령을 실행 합니다. 각 계획에서 사용할 수 있는 라이선스의 수는 **activeunits**  -  **WarningUnits**  -  **ConsumedUnits**입니다. 라이선스 계획, 라이선스 및 서비스에 대 한 자세한 내용은 PowerShell을 [사용 하 여 라이선스 및 서비스 보기](view-licenses-and-services-with-microsoft-365-powershell.md)를 참조 하세요.
+이 명령을 실행하여 조직의 각 계획에서 사용 가능한 라이선스 수와 사용 가능한 라이선스 수를 `Get-MsolAccountSku` 볼 수 있습니다. 각 계획에서 사용 가능한 라이선스 수는 **ActiveUnits**  -  **WarningUnits**  -  **ConsumedUnits입니다.** 라이선스 계획, 라이선스 및 서비스에 대한 자세한 내용은 PowerShell을 통해 라이선스 및 [서비스 보기를 참조하세요.](view-licenses-and-services-with-microsoft-365-powershell.md)
 
 >[!Note]
->PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 **Msol**이 있는 cmdlet을 지원하지 않습니다. 이러한 cmdlet을 계속 사용하려면 Windows PowerShell에서 이를 실행해야 합니다.
+>PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈 및 이름에 **Msol** 이 있는 cmdlet을 지원하지 않습니다. 이러한 cmdlet을 계속 사용하려면 Windows PowerShell에서 이를 실행해야 합니다.
 >
 
-조직에서 라이선스가 없는 계정을 찾으려면이 명령을 실행 합니다.
+조직에서 라이선스가 없는 계정을 찾으면 이 명령을 실행합니다.
 
 ```powershell
 Get-MsolUser -All -UnlicensedUsersOnly
 ```
 
-**UsageLocation** 속성이 유효한 ISO 3166-1 국가 코드로 설정 된 사용자 계정에만 라이선스를 할당할 수 있습니다. 예를 들어 미국, 프랑스의 경우 FR을 들을 있습니다. 일부 Microsoft 365 서비스는 특정 국가에서 사용할 수 없습니다. 자세한 내용은 [사용권 제한 정보](https://go.microsoft.com/fwlink/p/?LinkId=691730)를 참조 하세요.
+**UsageLocation** 속성이 유효한 ISO 3166-1 alpha-2 국가 코드로 설정된 사용자 계정에만 라이선스를 할당할 수 있습니다. 예를 들어 미국의 경우 미국, 프랑스의 경우 FR입니다. 일부 Microsoft 365 서비스는 특정 국가에서는 사용할 수 없습니다. 자세한 내용은 라이선스 제한 [정보를 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=691730)
     
-**UsageLocation** 값이 없는 계정을 찾으려면이 명령을 실행 합니다.
+**UsageLocation** 값이 없는 계정을 찾으면 이 명령을 실행합니다.
 
 ```powershell
 Get-MsolUser -All | where {$_.UsageLocation -eq $null}
 ```
 
-계정에 **UsageLocation** 값을 설정 하려면 다음 명령을 실행 합니다.
+계정에 **UsageLocation** 값을 설정하려면 이 명령을 실행합니다.
 
 ```powershell
 Set-MsolUser -UserPrincipalName "<Account>" -UsageLocation <CountryCode>
 ```
 
-예제:
+예시:
 
 ```powershell
 Set-MsolUser -UserPrincipalName "belindan@litwareinc.com" -UsageLocation US
@@ -125,19 +125,19 @@ Set-MsolUser -UserPrincipalName "belindan@litwareinc.com" -UsageLocation US
 
 ### <a name="assigning-licenses-to-user-accounts"></a>사용자 계정에 라이선스 할당
     
-사용자에 게 라이선스를 할당 하려면 PowerShell에서 다음 명령을 사용 합니다.
+사용자에게 라이선스를 할당하기 위해 PowerShell에서 다음 명령을 사용 합니다.
   
 ```powershell
 Set-MsolUserLicense -UserPrincipalName "<Account>" -AddLicenses "<AccountSkuId>"
 ```
 
-이 예에서는 **litwareinc: ENTERPRISEPACK** (Office 365 Enterprise E3) 라이선스 계획에서 라이선스가 없는 사용자 **belindan \@ litwareinc.com**에 라이선스를 할당 합니다.
+이 예에서는 **litwareinc:ENTERPRISEPACK(Office** 365 Enterprise E3) 라이선스 계획의 라이선스를 사용 허가되지 않은 사용자 **belindan \@** litwareinc.com.
   
 ```powershell
 Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
 
-라이선스가 없는 모든 사용자에 게 라이선스를 할당 하려면이 명령을 실행 합니다.
+라이선스가 없는 모든 사용자에게 라이선스를 할당하기 위해 이 명령을 실행합니다.
   
 ```powershell
 Get-MsolUser -All -UnlicensedUsersOnly [<FilterableAttributes>] | Set-MsolUserLicense -AddLicenses "<AccountSkuId>"
@@ -147,31 +147,31 @@ Get-MsolUser -All -UnlicensedUsersOnly [<FilterableAttributes>] | Set-MsolUserLi
 >동일한 라이센스 제도에서 여러 라이센스 사용자 지정할 수 없습니다. 반환 하는 순서 대로 사용자에 게 라이선스 할당 된 충분 한 사용 가능한 라이센스를 설정 하지 않은 경우는 **Get-MsolUser** cmdlet 사용 가능한 라이센스가 실행 될 때까지.
 >
 
-이 예에서는 **litwareinc: ENTERPRISEPACK** (Office 365 Enterprise E3) 라이선스 계획에서 라이선스가 없는 모든 사용자에 게 라이선스를 할당 합니다.
+이 예에서는 라이선스가 없는 모든 사용자에게 **litwareinc:ENTERPRISEPACK(Office** 365 Enterprise E3) 라이선스 계획의 라이선스를 할당합니다.
   
 ```powershell
 Get-MsolUser -All -UnlicensedUsersOnly | Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
 
-이 예에서는 미국의 영업 부서에 있는 라이선스가 없는 사용자에 게 동일한 라이선스를 할당 합니다.
+이 예에서는 미국 판매 부서의 허가되지 않은 사용자에게 동일한 라이선스를 할당합니다.
   
 ```powershell
 Get-MsolUser -All -Department "Sales" -UsageLocation "US" -UnlicensedUsersOnly | Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
   
-## <a name="move-a-user-to-a-different-subscription-license-plan-with-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈에 대 한 Azure Active Directory PowerShell을 사용 하 여 다른 구독으로 사용자 이동 (라이선스 계획)
+## <a name="move-a-user-to-a-different-subscription-license-plan-with-the-azure-active-directory-powershell-for-graph-module"></a>Azure Active Directory PowerShell for Graph 모듈을 사용하여 사용자를 다른 구독(라이선스 계획)으로 이동
 
-먼저 [Microsoft 365 테 넌 트에 연결](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.
+먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
-다음으로, UPN (사용자 계정 이름)이 라고도 하는 스위치 구독을 사용할 사용자 계정의 로그인 이름을 가져옵니다.
+그런 다음 구독을 전환할 사용자 계정의 로그인 이름을 UPN(사용자 계정 이름)이라고도 합니다.
 
-그런 다음이 명령을 사용 하 여 테 넌 트에 대 한 구독 (라이선스 계획)을 나열 합니다.
+다음으로, 이 명령을 사용하여 테넌트의 구독(라이선스 계획)을 나열합니다.
 
 ```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
-다음으로는 사용자 계정에 현재 이러한 명령이 포함 된 구독을 나열 합니다.
+다음으로, 사용자 계정이 현재 이러한 명령을 사용하여 있는 구독을 나열합니다.
 
 ```powershell
 $userUPN="<user account UPN>"
@@ -180,9 +180,9 @@ $userList = Get-AzureADUser -ObjectID $userUPN | Select -ExpandProperty Assigned
 $userList | ForEach { $sku=$_.SkuId ; $licensePlanList | ForEach { If ( $sku -eq $_.ObjectId.substring($_.ObjectId.length - 36, 36) ) { Write-Host $_.SkuPartNumber } } }
 ```
 
-현재 사용자가 있는 구독 (보낸 사람 구독)과 사용자가 이동 하는 구독 (TO subscription)을 식별 합니다.
+사용자가 현재 있는 구독(FROM 구독) 및 사용자가 이동 중인 구독(TO 구독)을 식별합니다.
 
-마지막으로 TO 및 FROM 구독 이름 (SKU 부분 번호)을 지정 하 고 다음 명령을 실행 합니다.
+마지막으로 TO 및 FROM 구독 이름(SKU 부분 번호)을 지정하고 다음 명령을 실행합니다.
 
 ```powershell
 $subscriptionFrom="<SKU part number of the current subscription>"
@@ -203,7 +203,7 @@ $licenses.AddLicenses = $License
 Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
 ```
 
-이러한 명령을 사용 하 여 사용자 계정에 대 한 구독의 변경 내용을 확인할 수 있습니다.
+다음 명령을 사용하여 사용자 계정의 구독 변경을 확인할 수 있습니다.
 
 ```powershell
 $licensePlanList = Get-AzureADSubscribedSku

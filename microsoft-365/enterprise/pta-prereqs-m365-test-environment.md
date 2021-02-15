@@ -24,9 +24,9 @@ ms.locfileid: "48399184"
 ---
 # <a name="identity-and-device-access-prerequisites-for-pass-through-authentication-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 통과 인증을 위한 ID 및 장치 액세스 필수 구성 요소
 
-*이 테스트 랩 가이드는 엔터프라이즈 테스트 환경용 Microsoft 365에만 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 엔터프라이즈용 Microsoft 365 테스트 환경에만 사용할 수 있습니다.*
 
-[Id 및 장치 액세스 구성은](../security/office-365-security/microsoft-365-policies-configurations.md) Azure Active Directory (azure AD)와 통합 된 엔터프라이즈에 대 한 Microsoft 365의 모든 서비스에 대 한 액세스를 보호 하기 위한 구성 및 조건부 액세스 정책 집합입니다.
+[ID 및 장치 액세스](../security/office-365-security/microsoft-365-policies-configurations.md) 구성은 Azure AD(Azure Active Directory)와 통합된 엔터프라이즈용 Microsoft 365의 모든 서비스에 대한 액세스를 보호하기 위한 구성 및 조건부 액세스 정책 집합입니다.
 
 이 문서에서는 ID 및 장치 액세스에 대한 [통과 인증 필수 요건 구성](../security/office-365-security/identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 Microsoft 365 테스트 환경을 구성하는 방법에 대해 설명합니다.
 
@@ -121,11 +121,11 @@ Online 비즈니스용 Skype의 경우:
 
 [추가 ID 테스트 랩 가이드](m365-enterprise-test-lab-guides.md#identity)
 
-[Id 로드맵](identity-roadmap-microsoft-365.md)
+[ID 로드맵](identity-roadmap-microsoft-365.md)
 
 [엔터프라이증용 Microsoft 365 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 
 [엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
-[엔터프라이즈 설명서에 대 한 Microsoft 365](https://docs.microsoft.com/microsoft-365-enterprise/)
+[기업용 Microsoft 365 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)
 

@@ -31,23 +31,23 @@ ms.locfileid: "48487473"
 
 TLS(테스트 랩 가이드)는 Microsoft 제품을 빠르게 알아보도록 지원합니다. 그리고 간소하지만 대표적인 테스트 환경을 구성하기 위한 지침을 제공합니다. 평가 기간 또는 유료 구독 기간 동안 데모, 사용자 지정 또는 복잡한 개념 증명 생성을 위해 이러한 환경을 사용할 수 있습니다.
 
-TLGs는 모듈식으로 설계 되었습니다. 두 사용자는 서로를 구성 하 여 학습 또는 테스트 요구 사항에 보다 근접 한 여러 구성을 만듭니다. 실무 환경에서 제공 하는 "직접 작성 한"를 사용 하 여 새로운 제품 또는 시나리오의 배포 요구 사항을 이해 하는 데 도움을 줄 수 있으므로 프로덕션 환경의 호스팅 계획을 보다 효율적으로 개선할 수도 있습니다.
+TLG는 모듈식으로 설계됩니다. 이러한 구성은 서로를 토대하여 학습 또는 테스트 구성 요구에 보다 잘 일치하는 여러 구성을 만들 수 있습니다. "구축 후 작동" 실습을 통해 새 제품 또는 시나리오의 배포 요구 사항을 이해할 수 있으므로 프로덕션에서 호스팅을 보다 잘 계획할 수 있습니다.
 
-또한 TLGs를 사용 하 여 개발/테스트 환경이 라고도 하는 응용 프로그램 개발과 테스트를 위한 대표 환경을 만들 수 있습니다.
+또한 TLG를 사용하여 대표적인 환경을 만들어 개발/테스트 환경(개발/테스트 환경)을 개발하고 테스트할 수 있습니다.
   
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-엔터프라이즈 테스트 랩 가이드 스택의 Microsoft 365에 있는 모든 문서에 대 한 시각적 지도를 보려면 다음 그래픽을 확장 하거나 [microsoft 365 for Enterprise Test Lab Guide stack를 참조](../downloads/Microsoft365EnterpriseTLGStack.pdf)하세요.
+엔터프라이즈용 Microsoft 365 테스트 랩 가이드 스택의 모든 문서에 대한 시각적 맵은 다음 그래픽을 확장하거나 [엔터프라이즈용 Microsoft 365](../downloads/Microsoft365EnterpriseTLGStack.pdf)테스트 랩 가이드 스택으로 이동하십시오.
 
 [![Microsoft 365 Enterprise 테스트 랩 가이드 스택](../media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](../downloads/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="base-configuration"></a>기본 구성
 
-먼저, [엔터프라이즈에 대해 Microsoft 365](https://docs.microsoft.com/microsoft-365-enterprise/)에 대 한 테스트 환경을 만듭니다. 다음과 같은 두 가지 유형의 기본 구성을 만들 수 있습니다.
+먼저 엔터프라이즈용 Microsoft [365의 테스트 환경을 만들어야 합니다.](https://docs.microsoft.com/microsoft-365-enterprise/) 두 가지 유형의 기본 구성을 만들 수 있습니다.
 
-- [경량 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md) -온-프레미스 구성 요소를 포함 하지 않는 클라우드 전용 환경에서 엔터프라이즈 기능에 대 한 Microsoft 365을 구성 하 고 시연 하려면이를 사용 합니다.
+- [간단한 기본](lightweight-base-configuration-microsoft-365-enterprise.md) 구성 - 클라우드 전용 환경에서 엔터프라이즈용 Microsoft 365의 기능을 구성하고 시연하려는 경우 이 기능을 사용하며, 이러한 기능에는 어떠한 프레미스 구성 요소도 포함되어 있지 않습니다.
 
-- [시뮬레이트된 엔터프라이즈 기반 구성](simulated-ent-base-configuration-microsoft-365-enterprise.md) -AD DS (Active Directory 도메인 서비스) 도메인과 같은 온-프레미스 구성 요소를 사용 하는 하이브리드 클라우드 환경의 enterprise 기능 및 기능에 대 한 Microsoft 365를 구성 하 고 시연 하려면이 구성을 사용 합니다.
+- [시뮬레이트된 엔터프라이즈](simulated-ent-base-configuration-microsoft-365-enterprise.md) 기본 구성 - AD DS(Active Directory 도메인 서비스) 도메인과 같은프레미스 구성 요소를 사용하는 하이브리드 클라우드 환경에서 엔터프라이즈용 Microsoft 365 기능을 구성하고 시연하려는 경우 이 기능을 사용하세요.
 
 평가판 또는 프로덕션 테스트 환경에 Microsoft 365 E5 라이선스를 추가하지 않고 Office 365 E5에 대한 테스트 환경을 만들 수도 있습니다.
     
@@ -69,7 +69,7 @@ ID 관련 기능을 시연하려면 다음을 참조하세요.
 
 - [Azure AD Seamless Single Sign-on](single-sign-on-m365-ent-test-environment.md)
   
-   AD DS 도메인 컨트롤러를 사용 하 여 Azure AD 원활한 Single Sign-on (원활한 SSO)을 설정 하 고 테스트 합니다.
+   AD DS 도메인 컨트롤러를 사용하여 Azure AD Seamless SSO(Single Sign-On)를 사용하도록 설정하고 테스트합니다.
 
 - [Multi-Factor authentication](multi-factor-authentication-microsoft-365-test-environment.md)
   
@@ -85,7 +85,7 @@ ID 관련 기능을 시연하려면 다음을 참조하세요.
 
 - [암호 재설정](password-reset-m365-ent-test-environment.md)
 
-   셀프 서비스 암호 재설정을 사용 하 여 암호를 다시 설정 합니다.
+   셀프 서비스 암호 재설정을 사용하여 암호를 재설정합니다.
 
 - [자동 라이선싱 및 그룹 구성원](automate-licenses-group-membership-microsoft-365-test-environment.md)
 

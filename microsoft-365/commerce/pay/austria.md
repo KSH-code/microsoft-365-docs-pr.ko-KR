@@ -1,5 +1,5 @@
 ---
-title: 오스트리아 위한 지불 정보
+title: 오스트리아의 결제 정보
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 구독에 대 한 결제를 보낼 위치를 알아봅니다.
+description: 구독에 대한 결제를 보낼 수 있는 위치를 자세히 알아보아야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: c7797855725f51f86f87631afe81cc602365d400
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,17 +20,17 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48637958"
 ---
-# <a name="payment-information-for-austria"></a>오스트리아 위한 지불 정보
+# <a name="payment-information-for-austria"></a>오스트리아의 결제 정보
 
-[다른 국가 또는 지역을 찾습니다](../billing-and-payments/pay-for-your-subscription.md).
+[다른 국가 또는 지역을 찾을 수 있습니다.](../billing-and-payments/pay-for-your-subscription.md)
 
-EUR에만 요금을 지불 하 고 청구서 remittance에서 청구서 번호를 참조 하세요.
+EUR로만 결제하고 송장 번호를 참조하십시오.
 
 ## <a name="electronic-funds-transfer"></a>전자 자금 이체
 
-**뱅크:** Citibank, 런던  
-**SWIFT Code/BIC:** CITIGB2L  
-**정렬 코드:** 185008  
-**Iban** GB31CITI18500812207591  
+**은행:** Citibank, London  
+**SWIFT 코드/BIC:** CITIGB2L  
+**SORT 코드:** 185008  
+**IBAN** GB31CITI18500812207591  
 **계정 번호:** 12207591  
-**계정 이름:** MFC  
+**계정 이름:** MICROSOFT  

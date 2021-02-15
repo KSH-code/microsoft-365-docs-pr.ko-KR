@@ -1,5 +1,5 @@
 ---
-title: 아르헨티나 지불 정보
+title: 아르헨티나의 결제 정보
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 구독에 대 한 결제를 보낼 위치를 알아봅니다.
+description: 구독에 대한 결제를 보낼 위치를 알 수 있습니다.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 8b890f0b694181157c2704beee5f25772aa449a9
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48638006"
 ---
-# <a name="payment-information-for-argentina"></a>아르헨티나 지불 정보
+# <a name="payment-information-for-argentina"></a>아르헨티나의 결제 정보
 
-[다른 국가 또는 지역을 찾습니다](../billing-and-payments/pay-for-your-subscription.md).
+[다른 국가 또는 지역을 찾을 수 있습니다.](../billing-and-payments/pay-for-your-subscription.md)
 
-USD에만 결제 하 고 결제 방식 remittance에서 청구서 번호를 참조 하세요.
+미화로만 결제하고 송장 번호를 송장 번호로 송장으로 송장으로 보냅니다.
 
 ## <a name="electronic-funds-transfer"></a>전자 자금 이체
 
-**뱅크:** 아메리카 뱅크  
-**분기** 지사  
+**은행:** 뱅크 of America  
+**분기** 달라  
 **SWIFT 코드:** BOFAUS3N  
 **계정 번호:** 4426587954  
-**계정 이름:** Mfc  
+**계정 이름:** Microsoft  

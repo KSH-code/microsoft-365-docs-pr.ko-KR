@@ -17,7 +17,7 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: e9b8e065-2750-4534-9d39-aafd51a2a4e2
-description: Microsoft Azure에서 Office Server 작업을 배포 하는 데 유용한 정보에 대 한 링크 목록을 제공 합니다.
+description: Microsoft Azure에서 Office Server 워크로드를 배포하는 데 유용한 정보에 대한 링크 목록을 제공합니다.
 ms.openlocfilehash: ba294b437d815c81c7747f60b2a82ca0bef05e7a
 ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
 ms.translationtype: MT
@@ -27,9 +27,9 @@ ms.locfileid: "48327918"
 ---
 # <a name="hybrid-solutions"></a>하이브리드 솔루션
 
-Microsoft Azure를 사용 하 여 Azure 인프라 서비스에서 일반적으로 온-프레미스에 배포 된 일부 Office Server 작업을 배포할 수 있습니다.
+Microsoft Azure를 사용하면 Azure 인프라 서비스에 일반적으로 배포된 일부 Office Server 워크로드를 배포할 수 있습니다.
   
-Azure의 Microsoft 365 id 인프라의 경우:
+Azure의 Microsoft 365 ID 인프라:
 
 - [SharePoint Server 인증에 Azure AD를 사용](using-azure-ad-for-sharepoint-server-authentication.md)
 

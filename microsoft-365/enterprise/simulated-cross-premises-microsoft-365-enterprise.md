@@ -26,7 +26,7 @@ ms.locfileid: "48487654"
 ---
 # <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 시뮬레이트된 크로스-프레미스 가상 네트워크
 
-*이 테스트 랩 가이드는 enterprise 및 Office 365 Enterprise 테스트 환경용 Microsoft 365에 모두 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 엔터프라이즈용 Microsoft 365 및 Office 365 Enterprise 테스트 환경에 모두 사용할 수 있습니다.*
 
 이 문서는 2개의 Azure 가상 네트워크를 사용하여 Microsoft Azure에 시뮬레이션된 하이브리드 클라우드 환경을 만드는 방법을 단계별로 설명합니다. 결과 구성은 다음과 같습니다. 
   
@@ -59,12 +59,12 @@ Azure IaaS 하이브리드 클라우드 프로덕션 환경을 시뮬레이트�
 > [!NOTE]
 > 이 구성을 위해서는 유료 Azure 구독이 필요합니다. 
 
-결과 환경을 사용 하 여 추가 [테스트 랩 가이드](m365-enterprise-test-lab-guides.md) 또는 자체를 사용 하 여 [기업에 대 한 Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise) 의 기능과 기능을 테스트할 수 있습니다.
+결과 환경을 사용하여 추가 테스트 랩 가이드를 통해 엔터프라이즈용 [Microsoft 365의](https://www.microsoft.com/microsoft-365/enterprise) 기능과 기능을 테스트하거나 직접 테스트할 수 있습니다. [](m365-enterprise-test-lab-guides.md)
 
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> 엔터프라이즈 테스트 랩 가이드 스택의 Microsoft 365 모든 문서에 대 한 시각적 지도를 보려면 [microsoft 365 (엔터프라이즈 테스트 랩 가이드](../downloads/Microsoft365EnterpriseTLGStack.pdf) 스택)로 이동 합니다.
+> [엔터프라이즈용 Microsoft 365](../downloads/Microsoft365EnterpriseTLGStack.pdf) 테스트 랩 가이드 스택으로 이동하여 엔터프라이즈용 Microsoft 365 테스트 랩 가이드 스택의 모든 문서에 대한 시각적 맵을 확인할 수 있습니다.
 
 ## <a name="phase-1-configure-the-testlab-virtual-network"></a>1단계: TestLab 가상 네트워크 구성
 
@@ -205,7 +205,7 @@ New-ADReplicationSubnet -Name "192.168.0.0/16" -Site "XPrem"
   
 시뮬레이션된 Azure 하이브리드 클라우드 환경은 이제 테스트 준비 중입니다.
   
-이제 [엔터프라이즈 용 Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise)의 추가 기능을 시험해 볼 준비가 되었습니다.
+이제 엔터프라이즈용 [Microsoft 365의](https://www.microsoft.com/microsoft-365/enterprise)추가 기능을 실험할 준비가 완료되었습니다.
   
 ## <a name="next-steps"></a>다음 단계
 
@@ -221,4 +221,4 @@ New-ADReplicationSubnet -Name "192.168.0.0/16" -Site "XPrem"
 
 [엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
-[엔터프라이즈 설명서에 대 한 Microsoft 365](https://docs.microsoft.com/microsoft-365-enterprise/)
+[기업용 Microsoft 365 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)
