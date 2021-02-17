@@ -307,6 +307,8 @@
               href: retention-policies-yammer.md
             - name: Exchange에 대한 보존
               href: retention-policies-exchange.md
+            - name: 보존 제한
+              href: retention-limits.md
         - name: 보존 시작하기
           href: get-started-with-retention.md
         - name: 보존 정책 만들기
