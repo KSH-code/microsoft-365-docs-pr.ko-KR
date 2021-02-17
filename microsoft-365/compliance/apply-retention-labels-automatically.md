@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: 2b06188a5990c7de81fca0afd21f05ef346807ba
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.openlocfilehash: 69bada084aa3817b49b75d970a1a8d304f6853e6
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49759968"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261349"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -128,6 +128,9 @@ ms.locfileid: "49759968"
 - [학습 가능한 분류자와 일치](#auto-apply-labels-to-content-by-using-trainable-classifiers)
 
 #### <a name="auto-apply-labels-to-content-with-specific-types-of-sensitive-information"></a>특정 유형의 중요한 정보가 있는 콘텐츠에 레이블 자동 적용
+
+> [!WARNING]
+> 선택한 중요한 정보 유형과 일치하는 항목이 있을 때 레이블이 지정되지 않은 모든 전자 메일에 항상 선택된 보존 레이블이 적용되는 알려진 제한이 있습니다. 예를 들어 특정 사용자에게 자동 적용 정책의 범위를 지정하거나 정책에 대해 Exchange가 아닌 다른 위치를 선택해도 일치하는 항목이 있는 경우 레이블이 항상 레이블이 지정되지 않은 전자 메일에 적용됩니다.
 
 중요한 정보에 대한 자동 적용 보존 레이블 정책을 만들면 DLP(데이터 손실 방지) 정책을 만들 때 같은 정책 템플릿 목록이 표시됩니다. 각 템플릿은 특정 중요한 정보 유형을 찾도록 미리 구성되어 있습니다. 예를 들어 여기에 나와 있는 서식 파일은 미국 ITIN, SSN 및 여권 번호를 **개인 정보** 범주와 **미국 PII (개인 식별 정보) 데이터 서식 파일** 에서 검색합니다.
 

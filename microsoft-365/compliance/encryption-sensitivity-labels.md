@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 액세스 및 사용을 제한하여 데이터를 보호하는 암호화를 위한 민감도 레이블을 구성합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83ed515d5ac6ea853c3e6a822fae0a03f73fc37c
-ms.sourcegitcommit: 9e4b3df05eff94fe1be4ef8618a7ce6f2fca3658
+ms.openlocfilehash: 602b4b3abd2b07386ad130e4b2cd21bb593eee7e
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49904033"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261575"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한
 
@@ -379,6 +379,8 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
   - DLP 정책은 이러한 암호화된 파일의 메타 데이터(보존 레이블 정보 포함)에 대해서는 작동하지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 적용되지 않습니다.
   - 사용자는 웹에서 Office를 사용하여 암호화된 파일을 열 수 없습니다. SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블을 사용하도록 설정하면 사용자는 웹에서 Office를 사용하여 암호화된 파일을 열 수 있습니다. 이 경우에는 온-프레미스 키("자체 키 보유" 또는 HYOK)를 사용하여 적용된 암호화, [이중 키 암호화](#double-key-encryption)와 민감도 레이블과 독립적으로 적용된 암호화를 포함하는 몇 가지 [제한 사항](sensitivity-labels-sharepoint-onedrive-files.md#limitations)이 있습니다.
 
+- 암호화된 문서를 조직 외부의 사용자와 공유하는 경우 게스트 계정을 만들고 조건부 액세스 정책을 수정해야 할 수 있습니다. 자세한 내용은 [암호화된 문서를 외부 사용자와 공유하기](sensitivity-labels-office-apps.md#support-for-external-users-and-labeled-content)를 참조하세요.
+
 - 여러 사용자가 동시에 암호화된 파일을 편집하려면 모두 웹용 Office를 사용해야 합니다. 그와 같은 상황이 아니고 파일이 이미 열려있는 경우:
 
   - Office 앱(Windows, Mac, Android 및 iOS)에서, 사용자에게는 파일을 체크아웃한 사용자의 이름과 함께 **사용 중인 파일** 메시지가 표시됩니다. 그런 다음 읽기 전용 사본을 보거나 파일 사본을 저장 및 편집하고, 파일을 사용할 수 있을 때 알림을 받을 수 있습니다.
@@ -396,6 +398,7 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
   - 파일 이름 또는 위치 변경. 대안으로, 사용자는 SharePoint에서 [문서 라이브러리에서 파일, 폴더 또는 링크 이름 바꾸기](https://support.microsoft.com/office/rename-a-file-folder-or-link-in-a-document-library-bc493c1a-921f-4bc1-a7f6-985ce11bb185)를 할 수 있습니다.
 
 민감도 레이블로 암호화된 파일에 대한 최상의 공동 작업 환경을 위해서는 웹용 Office와 [SharePoint 및 OneDrive의 Office 파일에 대해 민감도 레이블을 사용](sensitivity-labels-sharepoint-onedrive-files.md)하는 것이 좋습니다.
+
 
 ## <a name="important-prerequisites"></a>중요한 필수 구성 요소
 
