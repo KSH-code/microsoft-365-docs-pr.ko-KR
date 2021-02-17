@@ -1,5 +1,5 @@
 ---
-title: 기존 테넌트에 롤아웃하는 Azure Information Protection의 보호 기능
+title: 기존 테넌트에 롤아웃된 Azure Information Protection의 보호 기능
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -16,22 +16,22 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서에서는 Azure Information Protection의 보호 기능에 롤아웃되는 변경 내용을 설명합니다.
+description: 이 문서에서는 Azure Information Protection의 보호 기능에 롤아웃되는 변경 내용에 대해 설명합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2cb78f9e13d8ae429f5f46f2b1051d07ee541a10
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 0769306c3aa2d1a357e1d5999d1a1406c02aa5f3
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165982"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261564"
 ---
-# <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-tenants"></a>기존 테넌트에 롤아웃하는 Azure Information Protection의 보호 기능
+# <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-tenants"></a>기존 테넌트에 롤아웃된 Azure Information Protection의 보호 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Microsoft Defender for Office 365 요금제 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Office 365용 Microsoft Defender 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 정보 보호의 초기 단계를 지원하기 위해 2018년 7월부터 모든 Azure Information Protection 적격 테넌트에는 기본적으로 Azure Information Protection의 보호 기능이 켜져 있습니다. Azure Information Protection의 보호 기능은 이전 Office 365에서 권한 관리 또는 Azure RMS로 알려져 있습니다. 조직에 Office E3 서비스 플랜 또는 상위 서비스 플랜이 있는 경우 이러한 기능을 롤아웃할 때 Azure Information Protection을 통해 정보를 보호하기 시작할 수 있습니다.
@@ -60,7 +60,8 @@ Office 365 메시지 암호화는 Azure Information Protection의 보호 기능�
 
 조직에서 적합한 Office 365 라이선스를 구입한 경우 테넌트는 이 변경의 영향을 받을 수 있습니다.
 
- **중요!** 프레미스 환경에서 AD RMS(Active Directory Rights Management Services)를 사용하는 경우 다음 30일 이내에 이 변경을 롤아웃하기 전에 이 변경을 즉시 옵트아웃하거나 Azure Information Protection으로 마이그레이션해야 합니다. 옵트아웃하는 방법에 대한 자세한 내용은 "AD RMS를 사용하세요. 옵트아웃하는 방법"을 참조하세요. 후반부에 이 문서의 마이그레이션을 원하는 경우 [AD RMS에서 Azure Information Protection으로 마이그레이션을 참조하세요.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
+> [!IMPORTANT]
+> 프레미스 환경에서 AD RMS(Active Directory Rights Management Services)를 사용하는 경우 다음 30일 이내에 이 변경을 롤아웃하기 전에 이 변경을 즉시 옵트아웃하거나 Azure Information Protection으로 마이그레이션해야 합니다. 옵트아웃하는 방법에 대한 자세한 내용은 "AD RMS를 사용하세요. 옵트아웃하는 방법"을 참조하세요. 후반부에 이 문서의 마이그레이션하려면 [AD RMS에서 Azure Information Protection으로 마이그레이션을 참조하세요.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
 
 ## <a name="can-i-use-azure-information-protection-with-active-directory-rights-management-services-ad-rms"></a>AD RMS(Azure Information Protection)Active Directory Rights Management Services 사용할 수 있나요?
 
@@ -72,9 +73,9 @@ AD RMS(Active Directory Rights Management Services)도 있는 경우 Azure 권�
 
 1. 선택 사항이지만 대부분의 AD RMS 배포는 도메인 컴퓨터가 AD RMS 클러스터를 검색할 수 있도록 SCP(서비스 연결 지점)를 Active Directory에 게시합니다.
 
-ADSI 편집을 사용하여 SCP가 Active Directory에 게시되어 있는지 확인합니다. CN=Configuration [서버 이름], CN=Services, CN=RightsManagementServices, CN=SCP
+   ADSI 편집을 사용하여 SCP가 Active Directory에 게시되어 있는지 확인합니다. CN=Configuration [서버 이름], CN=Services, CN=RightsManagementServices, CN=SCP
 
-2. SCP를 사용하지 않는 경우 WINDOWS 레지스트리를 사용하여 AD RMS 클러스터에 연결하는 Windows 컴퓨터를 클라이언트 쪽 서비스 검색 또는 라이선스 리디렉션에 맞게 구성해야 합니다HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation 또는 HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation
+2. SCP를 사용하지 않는 경우 WINDOWS 레지스트리를 사용하여 AD RMS 클러스터에 연결하는 Windows 컴퓨터를 클라이언트 쪽 서비스 검색 또는 라이선스 리디렉션에 맞게 구성해야 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation or HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation` 합니다.
 
 이러한 레지스트리 구성에 대한 자세한 내용은 [Windows](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#enabling-client-side-service-discovery-by-using-the-windows-registry) 레지스트리를 사용하여 클라이언트 쪽 서비스 검색 사용 및 라이선스 서버 트래픽 리디렉션을 [참조하세요.](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#redirecting-licensing-server-traffic)
 

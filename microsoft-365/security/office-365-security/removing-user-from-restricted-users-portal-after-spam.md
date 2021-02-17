@@ -20,12 +20,12 @@ description: 관리자는 Office 365의 제한된 사용자 포털에서 사용�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ae630babaf68457567bbe49e743ca8be8ce38fc2
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1ba5334689ad58c8a50864a3618c0972b61dfd7f
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166834"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261552"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Office 365의 제한된 사용자 포털에서 차단된 사용자 제거
 
@@ -57,8 +57,9 @@ ms.locfileid: "50166834"
   자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
   > [!NOTE]
-  > 
+  >
   > - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요.
+  >
   > - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - 아웃바운드 전자 메일 제한을 초과 하는 보낸 사람은 손상된 계정을 나타냅니다. 제한된 사용자 포털에서 사용자를 제거하기 전에 해당 계정을 다시 제어하기 위해 필요한 단계를 수행해야 합니다. 자세한 내용은 [Office 365에서 손상된 전자 메일 계정에 응답](responding-to-a-compromised-email-account.md)을 참조하세요.

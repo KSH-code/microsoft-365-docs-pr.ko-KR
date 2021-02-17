@@ -20,24 +20,24 @@ ms.collection:
 description: 관리자는 Office 365용 Microsoft Defender의 안전 첨부 파일 기능에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5e85695a6d0fba221f3c614ec33b3552d37153e2
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 5d2d348856dbd51cabe2b320d315406076921fee
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175850"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261540"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 안전한 첨부 파일
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-[Microsoft Defender for Office 365의](office-365-atp.md) 안전한 첨부 파일은 [EOP(Exchange Online](anti-malware-protection.md)Protection)에서 맬웨어 방지 보호 기능으로 이미 검사된 전자 메일 첨부 파일에 대한 추가 보호 계층을 제공합니다. 특히 안전한 첨부 파일은 가상 환경을 사용하여 받는 사람에게 배달되기 전에 전자 메일 메시지의 첨부 파일을 검사합니다(데토나이트라고도 하는 프로세스). 
+[Microsoft Defender for Office 365의](office-365-atp.md) 안전한 첨부 파일은 [EOP(Exchange Online](anti-malware-protection.md)Protection)에서 맬웨어 방지 보호 기능으로 이미 검사된 전자 메일 첨부 파일에 대한 추가 보호 계층을 제공합니다. 특히 안전한 첨부 파일은 가상 환경을 사용하여 받는 사람에게 배달되기 전에 전자 메일 메시지의 첨부 파일을 _검사합니다(발신_ 프로세스).
 
-전자 메일 메시지에 대한 안전한 첨부 파일 보호는 안전한 첨부 파일 정책에 의해 제어됩니다. 기본 안전 첨부 파일 정책이 있으므로 안전한 첨부 파일 보호를 위해 하나 이상의 안전 첨부 파일 정책을 **만들어야 합니다.** 자세한 내용은 [Office 365용 Defender에서 안전](set-up-atp-safe-attachments-policies.md)첨부 파일 정책 설정을 참조하세요.
+전자 메일 메시지에 대한 안전한 첨부 파일 보호는 안전 첨부 파일 정책에 의해 제어됩니다. 기본 안전 첨부 파일 정책이 있으므로 안전한 첨부 파일 보호를 위해 하나 이상의 안전 첨부 파일 정책을 **만들어야 합니다.** 자세한 내용은 [Office 365용 Defender에서 안전](set-up-atp-safe-attachments-policies.md)첨부 파일 정책 설정을 참조하세요.
 
 다음 표에서는 Office 365용 Microsoft Defender가 포함된 Microsoft 365 및 Office 365 조직의 안전 첨부 파일 시나리오에 대해 설명합니다(즉, 라이선스 부족은 예에서 문제가 아닙니다).
 
@@ -54,13 +54,13 @@ ms.locfileid: "50175850"
 안전한 첨부 파일 검색은 Microsoft 365 데이터가 있는 동일한 지역에서 진행됩니다. 데이터 센터 지리에 대한 자세한 내용은 데이터가 [어디에 있나요?](https://products.office.com/where-is-your-data-located?geo=All)
 
 > [!NOTE]
-> 다음 기능은 보안 및 준수 센터의 안전 첨부 파일 정책에 & 전역 설정에 있지만 이러한 설정은 전역적으로 사용되거나 사용되지 않도록 설정되어 있으며 안전 첨부 파일 정책이 필요하지 않습니다.
+> 다음 기능은 보안 및 준수 센터에서 안전한 첨부 파일 정책의 전역 & 있습니다. 그러나 이러한 설정은 전역적으로 사용 또는 사용되지 않도록 설정되어 있으며 안전 첨부 파일 정책이 필요하지 않습니다.
 >
 > - [SharePoint, OneDrive 및 Microsoft Teams에](atp-for-spo-odb-and-teams.md)대한 안전한 첨부 파일.
 >
 > - [Microsoft 365 E5에서 안전한 문서](safe-docs.md)
 
-## <a name="safe-attachments-policy-settings"></a>안전한 첨부 파일 정책 설정
+## <a name="safe-attachments-policy-settings"></a>안전 첨부 파일 정책 설정
 
 이 섹션에서는 안전 첨부 파일 정책의 설정에 대해 설명합니다.
 
@@ -72,16 +72,16 @@ ms.locfileid: "50175850"
   |---|---|---|
   |**끄기**|첨부 파일은 안전한 첨부 파일로 맬웨어를 검색하지 않습니다. [메시지는 EOP에서](anti-malware-protection.md)맬웨어 방지 보호를 통해 여전히 맬웨어를 검색합니다.|선택한 받는 사람에 대한 검색을 해제합니다. <p> 내부 메일을 라우팅할 때 불필요한 지연을 방지합니다. <p> **이 옵션은 대부분의 사용자에게 권장되지 않습니다. 이 옵션을 사용하여 신뢰할 수 있는 보낸 사람의 메시지만 받는 사람에 대한 안전 첨부 파일 검색을 해제해야 합니다.**|
   |**모니터**|첨부 파일이 있는 메시지를 배달한 다음 검색된 맬웨어로 발생하는 문제를 추적합니다. <p> 안전한 첨부 파일 검색으로 인해 안전한 메시지 배달이 지연될 수 있습니다.|검색된 맬웨어가 조직에 있는 위치를 참조합니다.|
-  |**Block**|검색된 맬웨어 첨부 파일이 있는 메시지가 배달되지 않도록 합니다. <p> 메시지는 [](manage-quarantined-messages-and-files.md) 최종 사용자가 아닌 관리자만 메시지를 검토, 해제 또는 삭제할 수 있는 경우를 위해 고지됩니다. <p> 메시지 및 첨부 파일의 향후 인스턴스를 자동으로 차단합니다. <p> 안전한 첨부 파일 검색으로 인해 안전한 메시지 배달이 지연될 수 있습니다.|동일한 맬웨어 첨부 파일을 사용하여 반복되는 공격으로부터 조직을 보호합니다. <p> 이 값은 기본값으로, Standard 및 Strict 미리 설정 보안 정책의 [권장 값입니다.](preset-security-policies.md)|
+  |**Block**|검색된 맬웨어 첨부 파일이 있는 메시지가 배달되지 않도록 합니다. <p> 메시지는 [](manage-quarantined-messages-and-files.md) 최종 사용자가 아닌 관리자만 메시지를 검토, 해제 또는 삭제할 수 있는 경우를 위해 고지됩니다. <p> 메시지 및 첨부 파일의 향후 인스턴스를 자동으로 차단합니다. <p> 안전한 첨부 파일 검색으로 인해 안전한 메시지 배달이 지연될 수 있습니다.|동일한 맬웨어 첨부 파일을 사용하여 반복되는 공격으로부터 조직을 보호합니다. <p> 이 값은 기본값으로, Standard 및 Strict 미리 설정 보안 정책에서 [권장되는 값입니다.](preset-security-policies.md)|
   |**바꾸기**|검색된 맬웨어 첨부 파일을 제거합니다. <p> 첨부 파일이 제거되었다는 메시지를 받는 사람에게 보냅니다. <p>  메시지는 [](manage-quarantined-messages-and-files.md) 최종 사용자가 아닌 관리자만 메시지를 검토, 해제 또는 삭제할 수 있는 경우를 위해 고지됩니다. <p> 안전한 첨부 파일 검색으로 인해 안전한 메시지 배달이 지연될 수 있습니다.|검색된 맬웨어로 인하여 첨부 파일이 제거된 받는 사람의 가시성을 높입니다.|
-  |**동적 배달**|메시지를 즉시 배달하지만 안전 첨부 파일 검색이 완료될 때까지 첨부 파일을 자리 표시자로 바 대체합니다. <p> 자세한 내용은 이 문서 부분의 [안전](#dynamic-delivery-in-safe-attachments-policies) 첨부 파일 정책 섹션에서 동적 배달을 참조하십시오.|악의적인 파일로부터 받는 사람을 보호하면서 메시지 지연을 방지합니다. <p> 받는 사람이 스캔이 진행 중일 때 안전 모드에서 첨부 파일을 미리 볼 수 있도록 합니다.|
+  |**동적 배달**|메시지를 즉시 배달하지만 안전 첨부 파일 검색이 완료될 때까지 첨부 파일을 자리 표시자로 바 대체합니다. <p> 자세한 내용은 이 문서 부분의 [안전](#dynamic-delivery-in-safe-attachments-policies) 첨부 파일 정책에서 동적 배달 섹션을 참조하십시오.|악의적인 파일로부터 받는 사람을 보호하면서 메시지 지연을 방지합니다. <p> 받는 사람이 스캔이 진행 중일 때 안전 모드에서 첨부 파일을 미리 볼 수 있도록 합니다.|
   |
 
 - 검색 시 첨부 파일 **리디렉션:** 리디렉션을 사용하도록 설정하고 다음 전자  메일 주소로 첨부 파일을 보내기:  **차단,** 모니터링 또는 바꾸기 작업의 경우 맬웨어 첨부 파일이 포함된 메시지를 분석 및 조사를 위해 지정된 내부 또는 외부 전자 메일 주소로 전송합니다.
 
   표준 및 엄격한 정책 설정에 대한 권장은 리디렉션을 사용하도록 설정하는 것입니다. 자세한 내용은 안전 첨부 파일 [설정을 참조하십시오.](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings)
 
-- **첨부 파일에** 대한 맬웨어 검색이 시간보다 멀어지거나  오류가 발생하는 경우 위의 선택을 적용합니다. 안전 첨부 파일 검색을 완료할 수 없는 경우에도 메시지에 대해 알 수 없는 맬웨어 응답이 수행됩니다. 리디렉션 사용을 선택하는 경우 항상 이 **옵션을 선택합니다.** 그렇지 않으면 메시지가 손실될 수 있습니다.
+- **첨부 파일에** 대한 맬웨어 검색이 시간 밖으로 발생하거나 오류가  발생하는 경우 위의 선택을 적용합니다. 안전 첨부 파일 알 수 없는 맬웨어 응답으로 지정된 작업은 안전 첨부 파일 검색을 완료할 수 없는 경우에도 메시지에 대해 수행됩니다. 리디렉션 사용을 선택하는 경우 항상 이 **옵션을 선택합니다.** 그렇지 않으면 메시지가 손실될 수 있습니다.
 
 - **받는 사람 필터:** 정책을 적용하는 사람을 결정하는 받는 사람 조건 및 예외를 지정해야 합니다. 조건 및 예외에 대해 다음 속성을 사용할 수 있습니다.
 
@@ -102,9 +102,9 @@ ms.locfileid: "50175850"
 
 안전 첨부 파일 정책의 동적 배달 작업은 안전 첨부 파일 검색으로 인해 발생할 수 있는 전자 메일 배달 지연을 제거하기 위해 노력합니다. 전자 메일 메시지의 본문은 각 첨부 파일에 대한 자리 표시자가 있는 받는 사람에게 배달됩니다. 첨부 파일이 안전한 것으로 발견될 때까지 자리를 유지한 다음 첨부 파일을 열거나 다운로드할 수 있습니다.
 
-첨부 파일이 악의적인 것으로 확인된 경우 메시지는 에지로 전송됩니다. 최종 사용자가 아닌 관리자만 안전 첨부 파일 검색에 의해 의해 검리된 메시지를 검토, 해제 또는 삭제할 수 있습니다. 자세한 내용은 관리자로 [quarantined messages and files를 참조하십시오.](manage-quarantined-messages-and-files.md)
+첨부 파일이 악성으로 확인된 경우 메시지는 에지로 전송됩니다. 최종 사용자가 아닌 관리자만 안전 첨부 파일 검색에 의해 의해 검리된 메시지를 검토, 해제 또는 삭제할 수 있습니다. 자세한 내용은 관리자로 [quarantined messages and files를 참조하십시오.](manage-quarantined-messages-and-files.md)
 
-안전 첨부 파일 검색이 진행 중일 때 대부분의 PDF 및 Office 문서를 안전 모드에서 미리 볼 수 있습니다. 첨부 파일이 동적 배달 미리 보기와 호환되지 않는 경우 안전한 첨부 파일 검색이 완료될 때까지 받는 사람에게 첨부 파일에 대한 자리 표시자가 표시됩니다.
+대부분의 PDF 및 Office 문서는 안전 모드에서 미리 볼 수 있으며 안전 첨부 파일 검색이 진행 중입니다. 첨부 파일이 동적 배달 미리 보기와 호환되지 않는 경우 안전한 첨부 파일 검색이 완료될 때까지 받는 사람에게 첨부 파일에 대한 자리 표시자가 표시됩니다.
 
 모바일 장치를 사용 중일 때 PC가 모바일 장치의 동적 배달 미리 보기에서 렌더링되지 않는 경우 모바일 브라우저를 사용하여 웹용 Outlook(이전의 Outlook Web App)에서 메시지를 열어 보십시오.
 
@@ -130,7 +130,7 @@ ms.locfileid: "50175850"
 
 - [S/MIME)](s-mime-for-message-signing-and-encryption.md) 암호화된 메시지
 
-- 안전 첨부 파일 정책에서 동적 배달 작업을 구성했지만 받는 사람이 동적 배달을 지원하지 않습니다(예: 받는 사람이 사서함에 있는 경우). 그러나 [Office 365용 Microsoft Defender의](set-up-atp-safe-links-policies.md) 안전한 링크는 URL이 포함된 Office 파일 첨부 파일을 [](configure-global-settings-for-safe-links.md) 검색할 수 있습니다(안전한 링크에 대한 전역 설정이 구성된 방식에 따라 다를 수 있습니다).
+- 안전 첨부 파일 정책에서 동적 배달 작업을 구성했으나 받는 사람이 동적 배달을 지원하지 않습니다(예: 받는 사람이 사서함은 On-premises Exchange 조직의 사서함). 그러나 [Office 365용 Microsoft Defender의](set-up-atp-safe-links-policies.md) 안전한 링크는 URL이 포함된 Office 파일 첨부 파일을 [](configure-global-settings-for-safe-links.md) 검색할 수 있습니다(안전한 링크에 대한 전역 설정이 구성된 방식에 따라 다를 수 있습니다).
 
 ## <a name="submitting-files-for-malware-analysis"></a>맬웨어 분석을 위해 파일 제출
 
