@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Microsoft 365 끝점 데이터 손실 방지는 파일 활동의 모니터링 및 해당 파일에 대한 보호 작업을 끝점으로 확장합니다. 파일은 Microsoft 365 규정 준수 솔루션에서 확인할 수 있습니다. '
-ms.openlocfilehash: 1dac32505144c3966ad2219cc69a33ba29f194dc
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: d5394499b5514e6e0a49f958a62e70cde61ebf44
+ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682629"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50279312"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Microsoft 365 끝점 데이터 손실 방지 알아보기
 
@@ -34,8 +34,7 @@ Microsoft 365 DLP(데이터 손실 방지)를 사용하여 중요한 항목에 �
 
 ## <a name="endpoint-activities-you-can-monitor-and-take-action-on"></a>모니터링 및 조치 가능한 끝점 활동
 
-Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사용자가 중요한 항목에 대해 수행하는 다음 유형의 활동을 감사하고 관리할 수 있습니다.
-
+Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사용자가 중요한 항목에 대해 수행하는 다음 유형의 활동을 감사하고 관리할 수 있습니다. 
 
 |활동 |설명  | 감사/통제|
 |---------|---------|---------|
@@ -47,6 +46,28 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 |항목 만들기|사용자가 항목을 만들 때 이를 감지합니다.| 감사|
 |항목 이름 바꾸기|사용자가 항목 이름을 바꿀 때 이를 감지합니다.| 감사|
 
+ ## <a name="monitored-files"></a>모니터링된 파일
+
+끝점 DLP는 다음 파일 형식의 모니터링을 지원합니다.
+
+- Word 파일
+- PowerPoint 파일
+- Excel 파일
+- PDF 파일
+- .csv 파일
+- .tsv 파일
+- .txt 파일
+- RTF 파일
+- c 파일
+- 클래스 파일
+- cpp 파일
+- cs 파일
+- h 파일
+- java 파일
+ 
+기본적으로 끝점 DLP는 정책 일치가 없는 경우에도 이러한 파일 유형에 대한 작업을 감사합니다. 정책 일치의 데이터만 모니터링하려는 경우 끝점 DLP 전역 설정에서 **장치의 항상 감사 파일 활동** 을 해제할 수 있습니다. Word, PowerPoint, Excel, PDF 및 .csv 파일의 작업은 항상 감사됩니다.
+
+끝점 DLP는 활동 기반의 Om MIME 유형을 모니터링하므로 파일 확장명이 변경되더라도 활동은 캡처됩니다. 
 
 ## <a name="whats-different-in-endpoint-dlp"></a>끝점 DLP의 다양한 기능
 
@@ -79,25 +100,7 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 
 ### <a name="viewing-endpoint-dlp-data"></a>끝점 DLP 데이터 확인하기
 
- 끝점 DLP는 활동 기반의 Om MIME 유형을 모니터링하므로 파일 확장명이 변경되더라도 활동은 캡처됩니다. 현재 다음 파일 형식이 지원됩니다.
 
-- Word 파일
-- PowerPoint 파일
-- Excel 파일
-- PDF 파일
-- .csv 파일
-- .tsv 파일
-- .txt 파일
-- RTF 파일
-- c 파일
-- 클래스 파일
-- cpp 파일
-- cs 파일
-- h 파일
-- java 파일
-
-> [!NOTE]
-> 끝점 DLP는 DLP 정책을 기준으로 위의 모든 유형의 파일을 평가하고 그에 따라 보호 작업을 적용합니다. DLP 정책과 일치하는 모든 파일은 차단되지 않은 경우에도 지원되는 모든 작업에 대해 감사됩니다. 또한 Word, PowerPoint, Excel, PDF 및 .csv 파일에서 수행되는 파일 작업은 DLP 정책이 있는지 또는 이러한 파일과 일치하는지 여부에 관계없이 기본적으로 감사됩니다.
 
 [DLP 경고 관리 대시보드](dlp-configure-view-alerts-policies.md)로 이동하여 끝점 장치에 적용되는 DLP 정책과 관련된 경고를 볼 수 있습니다.
 
