@@ -15,32 +15,32 @@ ms.custom:
 description: 이 문서에서는 PowerShell을 사용하여 EOP(Microsoft Exchange Online Protection)의 테넌트에 구성 설정을 적용하는 방법을 배우게 됩니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b7d856a7cec3bddc32455ba3afadf0323ddce935
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 4823ed09cd8a9d72aef21df3d51213cb4512b4f9
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166594"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288540"
 ---
-# <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a><span data-ttu-id="96e69-103">여러 테넌트에 EOP 설정을 적용하기 위한 샘플 스크립트</span><span class="sxs-lookup"><span data-stu-id="96e69-103">Sample script for applying EOP settings to multiple tenants</span></span>
+# <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a><span data-ttu-id="560f2-103">여러 테넌트에 EOP 설정을 적용하기 위한 샘플 스크립트</span><span class="sxs-lookup"><span data-stu-id="560f2-103">Sample script for applying EOP settings to multiple tenants</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-<span data-ttu-id="96e69-104">**적용 대상**</span><span class="sxs-lookup"><span data-stu-id="96e69-104">**Applies to**</span></span>
--  [<span data-ttu-id="96e69-105">Exchange Online Protection 독립 실행형</span><span class="sxs-lookup"><span data-stu-id="96e69-105">Exchange Online Protection standalone</span></span>](https://go.microsoft.com/fwlink/?linkid=2148611)
+<span data-ttu-id="560f2-104">**적용 대상**</span><span class="sxs-lookup"><span data-stu-id="560f2-104">**Applies to**</span></span>
+-  [<span data-ttu-id="560f2-105">Exchange Online Protection 독립 실행형</span><span class="sxs-lookup"><span data-stu-id="560f2-105">Exchange Online Protection standalone</span></span>](exchange-online-protection-overview.md)
 
-<span data-ttu-id="96e69-106">다음 샘플 스크립트를 사용하면 여러 테넌트(회사)를 관리하는 EOP(Microsoft Exchange Online Protection) 관리자가 Exchange Online PowerShell을 사용하여 해당 테넌트에 구성 설정을 보고/또는 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96e69-106">The following sample script lets Microsoft Exchange Online Protection (EOP) admins who manage multiple tenants (companies) use Exchange Online PowerShell to view and/or apply configuration settings to their tenants.</span></span>
+<span data-ttu-id="560f2-106">다음 샘플 스크립트를 사용하면 여러 테넌트(회사)를 관리하는 EOP(Microsoft Exchange Online Protection) 관리자가 Exchange Online PowerShell을 사용하여 해당 테넌트에 구성 설정을 보고/또는 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="560f2-106">The following sample script lets Microsoft Exchange Online Protection (EOP) admins who manage multiple tenants (companies) use Exchange Online PowerShell to view and/or apply configuration settings to their tenants.</span></span>
 
-## <a name="to-run-a-script-or-cmdlet-on-multiple-tenants"></a><span data-ttu-id="96e69-107">여러 테넌트에 대해 스크립트 또는 cmdlet을 실행하려면</span><span class="sxs-lookup"><span data-stu-id="96e69-107">To run a script or cmdlet on multiple tenants</span></span>
+## <a name="to-run-a-script-or-cmdlet-on-multiple-tenants"></a><span data-ttu-id="560f2-107">여러 테넌트에 대해 스크립트 또는 cmdlet을 실행하려면</span><span class="sxs-lookup"><span data-stu-id="560f2-107">To run a script or cmdlet on multiple tenants</span></span>
 
-1. <span data-ttu-id="96e69-108">아직 설치하지 않은 경우 [Exchange Online V2 모듈을 설치합니다.](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module)</span><span class="sxs-lookup"><span data-stu-id="96e69-108">If you haven't already, [install the Exchange Online V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module).</span></span>
+1. <span data-ttu-id="560f2-108">아직 설치하지 않은 경우 [Exchange Online V2 모듈을 설치합니다.](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module)</span><span class="sxs-lookup"><span data-stu-id="560f2-108">If you haven't already, [install the Exchange Online V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module).</span></span>
 
-2. <span data-ttu-id="96e69-109">스프레드시트 앱(예: Excel)을 사용하여 다음 세부 정보가 있는 .csv 파일을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="96e69-109">Using an spreadsheet app (for example, Excel), create a .csv file with the following details:</span></span>
+2. <span data-ttu-id="560f2-109">스프레드시트 앱(예: Excel)을 사용하여 다음 세부 정보가 있는 .csv 파일을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="560f2-109">Using an spreadsheet app (for example, Excel), create a .csv file with the following details:</span></span>
 
-   - <span data-ttu-id="96e69-110">UserName 열: 연결하는 데 사용할 계정(예: `admin@contoso.onmicrosoft.com` ).</span><span class="sxs-lookup"><span data-stu-id="96e69-110">UserName column: The account that you'll use to connect (for example, `admin@contoso.onmicrosoft.com`).</span></span>
-   - <span data-ttu-id="96e69-111">cmdlet 열: 실행할 cmdlet 또는 명령(예: `Get-AcceptedDomain` `Get-AcceptedDomain | FT Name`</span><span class="sxs-lookup"><span data-stu-id="96e69-111">Cmdlet column: The cmdlet or command to run (for example, `Get-AcceptedDomain` or `Get-AcceptedDomain | FT Name`).</span></span>
+   - <span data-ttu-id="560f2-110">UserName 열: 연결하는 데 사용할 계정(예: `admin@contoso.onmicrosoft.com` ).</span><span class="sxs-lookup"><span data-stu-id="560f2-110">UserName column: The account that you'll use to connect (for example, `admin@contoso.onmicrosoft.com`).</span></span>
+   - <span data-ttu-id="560f2-111">cmdlet 열: 실행할 cmdlet 또는 명령(예: `Get-AcceptedDomain` `Get-AcceptedDomain | FT Name`</span><span class="sxs-lookup"><span data-stu-id="560f2-111">Cmdlet column: The cmdlet or command to run (for example, `Get-AcceptedDomain` or `Get-AcceptedDomain | FT Name`).</span></span>
 
-   <span data-ttu-id="96e69-112">파일은 다음과 같이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="96e69-112">The file will look like this:</span></span>
+   <span data-ttu-id="560f2-112">파일은 다음과 같이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="560f2-112">The file will look like this:</span></span>
 
    ```text
    UserName,Cmdlet
@@ -48,28 +48,28 @@ ms.locfileid: "50166594"
    admin@fabrikam.onmicrosoft.com,Get-AcceptedDomain | FT Name
    ```
 
-3. <span data-ttu-id="96e69-113">.csv 파일을 찾기 쉬운 위치에 저장합니다(예: c:\scripts\inputfile.csv.</span><span class="sxs-lookup"><span data-stu-id="96e69-113">Save the .csv file in a location that's easy to find (for example, c:\scripts\inputfile.csv).</span></span>
+3. <span data-ttu-id="560f2-113">.csv 파일을 찾기 쉬운 위치에 저장합니다(예: c:\scripts\inputfile.csv.</span><span class="sxs-lookup"><span data-stu-id="560f2-113">Save the .csv file in a location that's easy to find (for example, c:\scripts\inputfile.csv).</span></span>
 
-4. <span data-ttu-id="96e69-114">RunCmdletOnMultipleTenants.ps1[](#runcmdletonmultipletenantsps1) 스크립트를 메모장에 복사한 다음 파일을 찾기 쉬운 위치(예: c:\scripts)에 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="96e69-114">Copy the [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) script into Notepad, and then save the file to a location that's easy to find (for example, c:\scripts).</span></span>
+4. <span data-ttu-id="560f2-114">RunCmdletOnMultipleTenants.ps1[](#runcmdletonmultipletenantsps1) 스크립트를 메모장에 복사한 다음 파일을 찾기 쉬운 위치(예: c:\scripts)에 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="560f2-114">Copy the [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) script into Notepad, and then save the file to a location that's easy to find (for example, c:\scripts).</span></span>
 
-5. <span data-ttu-id="96e69-115">다음 구문을 사용하여 스크립트를 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="96e69-115">Run the script by using the following syntax:</span></span>
+5. <span data-ttu-id="560f2-115">다음 구문을 사용하여 스크립트를 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="560f2-115">Run the script by using the following syntax:</span></span>
 
    ```powershell
    & "<file path>\RunCmdletOnMultipleTenants.ps1" "<file path>\inputfile.csv"
    ```
 
-   <span data-ttu-id="96e69-116">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="96e69-116">Here's an example:</span></span>
+   <span data-ttu-id="560f2-116">예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="560f2-116">Here's an example:</span></span>
 
    ```powershell
    & "c:\scripts\RunCmdletOnMultipleTenants.ps1" "c:\scripts\inputfile.csv"
    ```
 
-6. <span data-ttu-id="96e69-117">각 테넌트가 로그온되어 스크립트가 실행됩니다.</span><span class="sxs-lookup"><span data-stu-id="96e69-117">Each tenant will be logged on to, and the script will be run.</span></span>
+6. <span data-ttu-id="560f2-117">각 테넌트가 로그온되어 스크립트가 실행됩니다.</span><span class="sxs-lookup"><span data-stu-id="560f2-117">Each tenant will be logged on to, and the script will be run.</span></span>
 
-## <a name="runcmdletonmultipletenantsps1"></a><span data-ttu-id="96e69-118">RunCmdletOnMultipleTenants.ps1</span><span class="sxs-lookup"><span data-stu-id="96e69-118">RunCmdletOnMultipleTenants.ps1</span></span>
+## <a name="runcmdletonmultipletenantsps1"></a><span data-ttu-id="560f2-118">RunCmdletOnMultipleTenants.ps1</span><span class="sxs-lookup"><span data-stu-id="560f2-118">RunCmdletOnMultipleTenants.ps1</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="96e69-119">사용자 환경과 일치하도록 스크립트의 `Connect-IPPSSession` 줄을 수정해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="96e69-119">You might need to modify the `Connect-IPPSSession` line in the script to match your environment.</span></span> <span data-ttu-id="96e69-120">예를 들어 Office 365 Germany의 경우 스크립트의 현재 값과 다른 _ConnectionUri_ 값이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="96e69-120">For example, Office 365 Germany requires a different _ConnectionUri_ value than the current value in a script.</span></span> <span data-ttu-id="96e69-121">자세한 내용은 [Exchange Online Powershell에 연결 을 참조하세요.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)</span><span class="sxs-lookup"><span data-stu-id="96e69-121">For details, see Connect to [Exchange Online Powershell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).</span></span>
+> <span data-ttu-id="560f2-119">사용자 환경과 일치하도록 스크립트의 `Connect-IPPSSession` 줄을 수정해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="560f2-119">You might need to modify the `Connect-IPPSSession` line in the script to match your environment.</span></span> <span data-ttu-id="560f2-120">예를 들어 Office 365 Germany의 경우 스크립트의 현재 값과 다른 _ConnectionUri_ 값이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="560f2-120">For example, Office 365 Germany requires a different _ConnectionUri_ value than the current value in a script.</span></span> <span data-ttu-id="560f2-121">자세한 내용은 [Exchange Online Powershell에 연결 을 참조하세요.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)</span><span class="sxs-lookup"><span data-stu-id="560f2-121">For details, see Connect to [Exchange Online Powershell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).</span></span>
 
 ```powershell
 # This script runs Windows PowerShell cmdlets on multiple tenants.
