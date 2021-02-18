@@ -12,19 +12,19 @@ ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: 성공을 위해 설정하고 일반적인 구성 오류를 방지하기 위해 독립 실행형 EOP(Exchange Online Protection)에 대한 모범 사례 권장 사항을 따르세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1a38454ceaba7f95dff172335dc374530efca20a
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: c64a9592d93ef046ad1c023a49bf378ccf6cf503
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165934"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290836"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>독립 실행형 EOP 구성을 위한 모범 사례
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
--  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Exchange Online Protection 독립 실행형](exchange-online-protection-overview.md)
 
 성공을 위해 설정하고 일반적인 구성 오류를 방지하기 위해 독립 실행형 EOP(Exchange Online Protection)에 대한 모범 사례 권장 사항을 따르세요. 이 항목에서는 설정 프로세스를 이미 완료했다고 가정합니다. EOP 설정을 완료하지 않은 경우 [EOP 서비스 설정](set-up-your-eop-service.md)을 참조하세요.
 
@@ -62,7 +62,7 @@ ms.locfileid: "50165934"
 |[PowerShell 연결](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)|사용 안 함|사용 안 함|사서함 사용자 또는 메일 [사용자(Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user) cmdlet에서 반환된 사용자 개체)에 사용할 수 있습니다.|
 |[스푸핑 인텔리전스를](learn-about-spoof-intelligence.md) 사용하여 허용 목록에 보낸 사람 추가|예|예||
 |[DBEB(디렉터리 기반 Edge 차단)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|사용|사용|도메인 유형 = 권한 있는|
-|[모든 관리자 계정에 대해 다단계 인증 설정](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)|사용|사용||
+|[모든 관리자 계정에 대해 다단계 인증 설정](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)|사용|사용||
 |
 
 ## <a name="troubleshooting"></a>문제 해결

@@ -12,21 +12,21 @@ ms.assetid: ''
 description: 관리자는 보안 및 준수 센터에서 새 사용자 전달 전자 메일 정보를 사용하여 조직의 사용자가 새 도메인으로 메시지를 전달하는 & 조사하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7b86d726979991a55e7d4e43bf3581a4a664ee4f
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 9706951df480d07f4a6311e99cab5c9f404e999e
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150258"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290824"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>보안 및 준수 센터에서 전자 메일을 전달하는 & 사용자
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 조직의 새 사용자 계정이 갑자기 외부 도메인에 전자 메일 메시지를 전달하기 시작하면 의심스러우게 됩니다.
 
@@ -51,7 +51,7 @@ Security **&** 준수 센터에서 전달되는 [](https://protection.office.com
 - 외부 도메인으로 메시지를 전달하는 새로 만든 계정입니다.
 - 조직의 다른 보낸 사람이 전달한 적이 없는 외부 도메인으로 메시지를 전달하는 계정입니다.
 
-이러한 유형의 전달된 메시지는 보안 또는 규정 준수 위험을 내포할 수 있으며 손상된 계정을 나타낼 수 있습니다.
+이러한 유형의 전달된 메시지는 보안 또는 규정 준수 위험을 내포할 수 있으며 계정 손상을 나타낼 수 있습니다.
 
 보고서에는 최대 90일간의 데이터가 포함되어 있습니다. 기본적으로 보고서에는 지난 7일간의 데이터가 표시됩니다.
 
@@ -62,7 +62,7 @@ Security **&** 준수 센터에서 전달되는 [](https://protection.office.com
 
 ### <a name="report-view-for-the-forwarding-modifications-report"></a>전달 수정 보고서에 대한 보고서 보기
 
-보고서 보기에서는 다음 차트를 사용할 수 있습니다.
+보고서 보기에서 사용할 수 있는 차트는 다음과 같습니다.
 
 - **데이터 표시: 새** 전달 사용자:
 
@@ -112,6 +112,6 @@ Security **&** 준수 센터에서 전달되는 [](https://protection.office.com
 
 보고서 보기로 돌아가려면 보고서 **보기를 클릭합니다.**
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 메일 흐름 대시보드의 다른 인사이트에 대한 자세한 내용은 보안 및 준수 센터의 메일 [흐름 & 참조하세요.](mail-flow-insights-v2.md)

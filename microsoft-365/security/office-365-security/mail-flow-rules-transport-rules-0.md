@@ -13,27 +13,27 @@ ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: 메일 흐름 규칙(전송 규칙)을 사용하여 조직을 통과하는 메시지를 식별하고 조치를 취할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3f873d4e46c9e3b7f085e03a9fbb19e5914317fa
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: d189a9f4b21828fa4e23f7d5a325b4e9c56259bc
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167038"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289940"
 ---
 # <a name="mail-flow-rules-transport-rules-in-standalone-eop"></a>독립형 EOP 메일 흐름 규칙(전송 규칙)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 메일 흐름 규칙(전송 규칙)을 사용하여 조직을 통과하는 메시지를 식별하고 조치를 취할 수 있습니다.
 
 이 항목에서는 메일 흐름 규칙의 구성 요소와 작동 방식에 대해 설명합니다.
 
-메일 흐름 규칙을 만들고 복사하고 관리하는 단계는 Exchange Online에서 메일 흐름 [규칙 관리를 참조하세요.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) 각 규칙에 대해 규칙을 적용하거나, 규칙을 테스트하거나, 규칙을 테스트하고 보낸 사람에게 알릴 수 있는 옵션이 제공됩니다. 테스트 옵션에 대한 자세한 내용은 Exchange Online의 테스트 메일 흐름 [규칙](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) 및 [정책 팁을 참조하세요.](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips)
+메일 흐름 규칙을 만들고 복사하고 관리하는 단계는 Exchange Online에서 메일 흐름 [규칙 관리를 참조하세요.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) 각 규칙에 대해 규칙을 적용하거나, 규칙을 테스트하거나, 규칙을 테스트하고 보낸 사람에게 알릴 수 있는 옵션이 제공됩니다. 테스트 옵션에 대한 자세한 내용은 Exchange Online의 테스트 [메일](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) 흐름 규칙 및 [정책 팁을 참조하세요.](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips)
 
 메일 흐름 규칙과 일치하는 메시지에 대한 요약 및 세부 보고서는 메일 보호 보고서를 사용하여 맬웨어, 스팸 및 규칙 검색에 대한 데이터를 [볼 수 있습니다.](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports)
 
@@ -51,7 +51,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protect
 
 - [Exchange Online Protection에서 첨부 파일 차단을 통해 맬웨어 위협 줄이기](reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md)
 
-- [Office 365에서 전자 메일 메시지를 암호화하거나 암호 해독하는 규칙 정의](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)
+- [Office 365에서 전자 메일 메시지를 암호화하거나 암호 해독하는 규칙 정의](../../compliance/define-mail-flow-rules-to-encrypt-email.md)
 
 다음 비디오에서는 독립 실행형 EOP에서 메일 흐름 규칙을 설정하는 데모를 제공합니다.
 
@@ -73,7 +73,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protect
 
 - **속성:** 조건, 예외 또는 작업이 아닌 다른 규칙 설정을 지정합니다. 예를 들어, 규칙이 적용되는 시기, 규칙 적용 또는 테스트 여부, 규칙이 활성화되는 시기를 지정합니다.
 
-  자세한 내용은 이 문서의 [메일 흐름 규칙 속성](#mail-flow-rule-properties) 섹션을 참조하십시오.
+  자세한 내용은 이 문서의 메일 흐름 [규칙 속성](#mail-flow-rule-properties) 섹션을 참조하십시오.
 
 ### <a name="multiple-conditions-exceptions-and-actions"></a>여러 조건, 예외 및 작업
 
@@ -98,7 +98,7 @@ Use a transport rule so messages can bypass Clutter
 |EAC의 속성 이름|PowerShell의 매개 변수 이름|설명|
 |---|---|---|
 |**우선 순위**|_우선 순위_|규칙이 메시지에 적용되는 순서를 나타냅니다. 기본 우선 순위는 규칙을 만든 때를 기반으로 합니다(이전 규칙은 새 규칙보다 우선 순위가 높고 우선 순위가 더 높은 규칙은 우선 순위가 낮은 규칙보다 먼저 처리) <p> 규칙 목록에서 규칙을 상하로 이동하여 EAC에서 규칙 우선 순위를 변경합니다. PowerShell에서 우선 순위 번호를 설정합니다(0이 가장 높은 우선 순위). <p> 예를 들어 신용 카드 번호가 포함된 메시지는 거부하는 규칙과 승인을 요구하는 또 다른 규칙이 있을 때 거부 규칙이 먼저 적용되도록 한 다음 다른 규칙이 적용되지 않도록 할 수 있습니다.  |
-|**Mode**|_Mode_|규칙에서 메시지 처리를 즉시 시작할지 또는 메시지 배달에 영향을 주지 않고(데이터 손실 방지 또는 DLP 정책 팁 사용 여부에 영향을 주지 않고) 규칙을 테스트할지 여부를 지정할 수 있습니다. <p> 정책 팁은 Outlook 또는 웹에서 Outlook에서 메시지를 만드는 사용자에게 정책 위반에 대한 정보를 제공하는 간략한 메모를 제공합니다. 자세한 내용은 **정책 팁** 을 참조하세요. <p> 모드에 대한 자세한 내용은 메일 흐름 규칙 **테스트(Test a mail flow rule)를 참조하십시오.**|
+|**Mode**|_Mode_|규칙에서 메시지 처리를 즉시 시작할지 또는 메시지 배달에 영향을 주지 않고(데이터 손실 방지 또는 DLP 정책 팁 사용 여부에 영향을 주지 않고) 규칙을 테스트할지 여부를 지정할 수 있습니다. <p> 정책 팁은 메시지를 만드는 사용자에게 가능한 정책 위반에 대한 정보를 제공하는 간략한 메모를 Outlook 또는 웹에서 Outlook에 제공합니다. 자세한 내용은 **정책 팁** 을 참조하세요. <p> 모드에 대한 자세한 내용은 메일 흐름 규칙 **테스트(Test a mail flow rule)를 참조하십시오.**|
 |**다음 날짜에 이 규칙 활성화** <p> **다음 날짜에 이 규칙 비활성화**|_ActivationDate_ <p> _ExpiryDate_|규칙이 활성화된 날짜 범위를 지정합니다.|
 |**확인란이** 선택되거나 선택되지 않은 경우|새 _규칙:_ **New-TransportRule** cmdlet에서 Enabled 매개 변수를 사용합니다. <p> 기존 규칙: **Enable-TransportRule** 또는 **Disable-TransportRule** cmdlet을 사용 합니다. <p> 값은 **규칙의 State** 속성에 표시됩니다.|사용하지 않도록 설정한 규칙을 만들고 테스트할 준비가 되면 사용하도록 설정할 수 있습니다. 또는 설정을 보존하기 위해 규칙을 삭제하지 않고 규칙을 사용하지 않도록 설정할 수 있습니다.|
 |**규칙 처리가 완료되지 않은 경우 메시지 지연**|_RuleErrorAction_|규칙 처리를 완료할 수 없는 경우 메시지를 처리할 방법을 지정할 수 있습니다. 기본적으로 규칙은 무시되지만 처리를 위해 메시지를 다시 제출할 수 있습니다.|
@@ -122,7 +122,7 @@ Use a transport rule so messages can bypass Clutter
 |조직을 통과하는 메시지 유형에는 몇 가지가 있습니다. 다음 표에는 전송 규칙으로 처리될 수 있는 메시지 유형이 나와 있습니다.|메시지 유형|
 |---|---|
 |**일반 메시지:** 단일 서식 있는 텍스트 형식(RTF), HTML 또는 일반 텍스트 메시지 본문이나 여러 가지 또는 대체 메시지 본문 집합을 포함하는 메시지입니다.|예|
-|**Office 365 메시지** 암호화: Office 365의 Office 365 메시지 암호화로 암호화된 메시지입니다. 자세한 내용은 [Office 365의 암호화](https://docs.microsoft.com/microsoft-365/compliance/encryption)를 참조하세요.|규칙은 항상 봉투 헤더에 액세스하여 해당 헤더를 검사하는 조건에 따라 메시지를 처리합니다. <p> 암호화된 메시지의 내용을 검사하거나 수정하려면 전송 암호 해독이 사용하도록 설정되어 있는지(필수 또는 선택 사항이며 기본값은 선택 사항)을 확인해야 합니다. 자세한 내용은 [Office 365에서](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)전자 메일 메시지를 암호화하거나 암호 해독하는 규칙 정의를 참조하세요.|
+|**Office 365 메시지** 암호화: Office 365의 Office 365 메시지 암호화로 암호화된 메시지입니다. 자세한 내용은 [Office 365의 암호화](../../compliance/encryption.md)를 참조하세요.|규칙은 항상 봉투 헤더에 액세스하여 해당 헤더를 검사하는 조건에 따라 메시지를 처리합니다. <p> 암호화된 메시지의 내용을 검사하거나 수정하려면 전송 암호 해독이 사용하도록 설정되어 있는지(필수 또는 선택 사항이며 기본값은 선택 사항)을 확인해야 합니다. 자세한 내용은 [Office 365에서](../../compliance/define-mail-flow-rules-to-encrypt-email.md)전자 메일 메시지를 암호화하거나 암호 해독하는 규칙 정의를 참조하세요.|
 |**S/MIME 암호화된 메시지**|규칙은 봉투 헤더에 액세스하고 해당 헤더를 검사하는 조건에 따라 메시지를 처리합니다. <p> 메시지 내용을 검사해야 하는 조건이 있는 규칙 또는 메시지의 콘텐츠를 수정하는 작업은 처리될 수 없습니다.|
 |**RMS 보호** 메시지: AD RMS(Active Directory Rights Management Services) 또는 RMS(Azure 권한 관리) 정책이 적용된 메시지입니다.|규칙은 항상 봉투 헤더에 액세스하여 해당 헤더를 검사하는 조건에 따라 메시지를 처리합니다. <p> RMS로 보호된 메시지의 내용을 검사하거나 수정하려면 전송 암호 해독이 사용하도록 설정되어 있는지(필수 또는 선택 사항이며 기본값은 선택 사항)를 확인해야 합니다.|
 |**지우기 서명된 메시지:** 서명은 했지만 암호화되지 않은 메시지입니다.|예|
@@ -135,7 +135,7 @@ Use a transport rule so messages can bypass Clutter
 
 - 규칙의 **Version** 또는 **RuleVersion** 속성 값은 Exchange Online Protection에서 중요하지 않습니다.
 
-- 메일 흐름 규칙을 만들거나 수정한 후 새 규칙이나 업데이트된 규칙을 메시지에 적용하는 데 최대 30분이 걸릴 수 있습니다.
+- 메일 흐름 규칙을 만들거나 수정한 후 새 규칙 또는 업데이트된 규칙을 메시지에 적용하는 데 최대 30분이 걸릴 수 있습니다.
 
 ## <a name="for-more-information"></a>자세한 내용
 

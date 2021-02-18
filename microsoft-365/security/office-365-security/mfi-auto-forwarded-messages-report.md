@@ -12,21 +12,21 @@ ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 자동 전달된 메시지 & 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c95c403e0b342bf0466c45804ba3975c492b8e1b
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 8f5e7088a88307576a054a1f6833101789d68d01
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150604"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290636"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 전달된 메시지 정보
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Security  [&](https://protection.office.com) 준수 센터의 메일 [](mail-flow-insights-v2.md) 흐름 대시보드에서 자동 전달된 메시지 정보에는 조직에서 외부 도메인의 받는 사람에게 자동으로 전달되는 메시지에 대한 정보가 표시됩니다.
 
@@ -55,7 +55,7 @@ Security  [&](https://protection.office.com) 준수 센터의 메일 [](mail-flo
 
 ## <a name="insights"></a>인사이트
 
-보고서 데이터를 기반으로 두 가지 인사이트를 생성합니다.
+보고서 데이터를 기반으로 두 가지 인사이트가 생성됩니다.
 
 - [전자 메일을 전달하는 새 사용자](mfi-new-users-forwarding-email.md)
 - [전자 메일로 전달되는 새 도메인](mfi-new-domains-being-forwarded-email.md)

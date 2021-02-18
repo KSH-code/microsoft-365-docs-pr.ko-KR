@@ -17,21 +17,21 @@ ms.collection:
 description: Microsoft 365 데이터 센터에서 배달 풀을 사용하여 전자 메일 서버의 신뢰도 보호 방법에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5480916f55fc180a6f08d3c420cb92c730e4065b
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 89aac1478d3e5840df4379b9f49832b79d0e133a
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167542"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289808"
 ---
 # <a name="outbound-delivery-pools"></a>아웃바운드 배달 풀
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Microsoft 365 데이터 센터의 전자 메일 서버가 일시적으로 스팸을 보내지 않을 수 있습니다. 예를 들어 Microsoft 365 또는 손상된 Microsoft 365 계정을 통해 아웃바운드 메일을 보내는 전자 메일 조직의 맬웨어 또는 악의적인 스팸 공격이 있습니다. 또한 공격자는 Microsoft 365 전달을 통해 메시지를 릴레이하여 검색을 방지하려고 합니다.
 
@@ -42,7 +42,7 @@ Microsoft 365 데이터 센터의 전자 메일 서버가 일시적으로 스팸
 
 위험 수준 배달 풀은 "저품질" 메시지(예: 스팸 및 후방 스캐터)를 보내는 데만 사용되는 아웃바운드 전자 메일에 대한 별도의 IP 주소 [풀입니다.](backscatter-messages-and-eop.md) 위험성 배달 풀을 사용하면 아웃바운드 전자 메일의 일반 IP 주소 풀에서 스팸을 보내지 못하게 할 수 있습니다. 아웃바운드 전자 메일의 일반 IP 주소 풀은 "고품질" 메시지를 보내는 신뢰도 유지 관리로, 이러한 IP 주소가 IP 차단 목록에 표시될 가능성을 줄입니다.
 
-고위험 배달 풀의 IP 주소가 IP 차단 목록에 배치될 가능성은 매우 높지만 이는 디자인에 따라 정해진 것입니다. 많은 전자 메일 조직이 고위험 배달 풀의 메시지를 수락하지 못하기 때문에 의도한 받는 사람에게 배달이 보장되지 않습니다.
+고위험 배달 풀의 IP 주소가 IP 차단 목록에 배치될 가능성은 매우 높지만 이는 디자인에 따라 지정됩니다. 많은 전자 메일 조직이 고위험 배달 풀의 메시지를 수락하지 못하기 때문에 의도한 받는 사람에게 배달이 보장되지 않습니다.
 
 자세한 내용은 아웃바운드 스팸 [제어를 참조하세요.](outbound-spam-controls.md)
 
@@ -60,7 +60,7 @@ NDRS의 급증에 대한 가능한 원인은 다음과 같습니다.
 - 스팸 공격.
 - Rogue 전자 메일 서버.
 
-이러한 모든 문제로 인해 서비스에서 처리되는 NDRS 수가 갑자기 증가할 수 있습니다. 대부분의 경우 이러한 NDRS는 다른 전자 메일 서버 및 서비스(후방 스캐터라고도 하는)에 스팸으로 _[나타납니다.](backscatter-messages-and-eop.md)_
+이러한 모든 문제로 인해 서비스에서 처리되는 NDRS 수가 갑자기 증가할 수 있습니다. 대부분의 경우 이러한 NDRS는 다른 전자 메일 서버 및 서비스(후방 스캐터라고도 하는)에 스팸인 _[것으로 나타납니다.](backscatter-messages-and-eop.md)_
 
 ## <a name="relay-pool"></a>릴레이 풀
 

@@ -6,6 +6,7 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.prod: m365-security
 ms.topic: article
+audience: Admin
 f1.keywords:
 - NOCSH
 ms.reviewer: martincoetzer
@@ -18,18 +19,18 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: 0f6e3d7bef0f09dc922a7c1878e6ea7ce0aad3d7
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: e4b85091366927596a2c8f52c579c369fc9697c3
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233155"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290720"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
 
 이제 조직의 최신 보안 경계는 다양한 디바이스로 모든 위치에서 클라우드 기반 앱에 액세스하는 사용자를 포함하기 위해 네트워크 이상으로 확장됩니다. 보안 인프라는 특정 액세스 요청을 허용할지 여부와 조건에 따라 결정해야 합니다.
 
@@ -42,7 +43,7 @@ ID 및 장치 액세스 설정 및 정책은 기준 보호, 중요한 보호 및
 이러한 기능 및 권장 사항:
 
 - Microsoft 365 E3 및 Microsoft 365 E5에서 지원됩니다.
-- [Azure AD에서](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)ID 점수뿐만 아니라 [Microsoft 보안](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) 점수에 맞춰지며 조직에서 이러한 점수가 증가합니다.
+- [Azure AD에서](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)ID 점수뿐만 아니라 [Microsoft 보안](../mtp/microsoft-secure-score.md) 점수에 맞춰지며 조직에서 이러한 점수가 증가합니다.
 - ID 인프라를 보호하는 5단계를 구현하는 [데 도움이 됩니다.](https://docs.microsoft.com/azure/security/azure-ad-secure-steps)
 
 조직에 고유한 환경 요구 사항이나 복잡한 사항이 있는 경우 이러한 권장 사항을 시작점으로 사용하세요. 그러나 대부분의 조직에서는 이러한 권장 사항을 정해진 경우 구현할 수 있습니다.
@@ -97,20 +98,20 @@ ID 및 장치 액세스 설정 및 정책은 기준 보호, 중요한 보호 및
 
 ## <a name="security-and-productivity-trade-offs"></a>보안과 생산성의 절충
 
-보안 전략을 구현하려면 보안과 생산성 간의 상거래가 필요합니다. 각 결정이 보안, 기능 및 사용 편의성의 균형에 어떤 영향을 주는지 평가하는 것이 유용합니다.
+보안 전략을 구현하려면 보안과 생산성 간의 상하 관계가 필요합니다. 각 결정이 보안, 기능 및 사용 편의성의 균형에 어떤 영향을 주는지 평가하는 것이 유용합니다.
 
-![보안 삼각형 균형 보안, 기능 및 사용 편의성.](../../media/microsoft-365-policies-configurations/security-triad.png)
+![보안 삼각형 보안, 기능 및 사용 편의성의 균형을 조정합니다.](../../media/microsoft-365-policies-configurations/security-triad.png)
 
 제공된 권장 사항은 다음 원칙에 따라 결정됩니다.
 
-- 사용자를 알고 보안 및 기능 요구 사항에 유연하게 융통성이 있습니다.
+- 사용자를 알고 보안 및 기능 요구 사항을 유연하게 충족할 수 있습니다.
 - 제시간에 보안 정책을 적용하고 의미가 있도록 합니다.
 
 ## <a name="services-and-concepts-for-identity-and-device-access-protection"></a>ID 및 장치 액세스 보호를 위한 서비스 및 개념
 
 엔터프라이즈용 Microsoft 365는 대규모 조직에서 모든 사람이 창의적이고 안전하게 함께 작업할 수 있도록 합니다.
 
-이 섹션에서는 ID 및 장치 액세스에 중요한 Microsoft 365 서비스 및 기능에 대해 간략하게 설명합니다.
+이 섹션에서는 ID 및 장치 액세스에 중요한 Microsoft 365 서비스 및 기능에 대한 개요를 제공합니다.
 
 ### <a name="azure-ad"></a>Azure AD
 
@@ -137,7 +138,7 @@ Intune 및 Azure AD 개체, 설정 및 하위 서비스를 포함하여 ID 및 �
 
 #### <a name="intune-app-protection"></a>Intune 앱 보호
 
-[Intune 앱 보호](https://docs.microsoft.com/intune/app-protection-policy) 정책은 장치를 관리에 등록하거나 등록하지 않고 모바일 앱에서 조직의 데이터를 보호하는 데 사용할 수 있습니다. Intune은 정보를 보호하여 직원이 여전히 생산성을 잃지 않도록 하여 데이터 손실을 방지하는 데 도움이 됩니다. 앱 수준 정책을 구현하면 회사 리소스에 대한 액세스를 제한하고 데이터를 IT 부서의 제어 내에 유지할 수 있습니다.
+[Intune 앱 보호](https://docs.microsoft.com/intune/app-protection-policy) 정책은 장치를 관리에 등록하거나 등록하지 않고 모바일 앱에서 조직의 데이터를 보호하는 데 사용할 수 있습니다. Intune은 정보를 보호하여 직원이 생산성을 계속 잃지 않도록 하여 데이터 손실을 방지하는 데 도움이 됩니다. 앱 수준 정책을 구현하면 회사 리소스에 대한 액세스를 제한하고 데이터를 IT 부서의 제어 내에 유지할 수 있습니다.
 
 이 지침에서는 승인된 앱 사용을 적용하고 이러한 앱을 비즈니스 데이터와 함께 사용할 수 있는 방법을 결정하는 권장 정책을 만드는 방법을 보여줍니다.
 
@@ -149,9 +150,9 @@ Intune 및 Azure AD 개체, 설정 및 하위 서비스를 포함하여 ID 및 �
 
   테넌트의 기준 보안에 적용되는 권장 사항입니다.
 
-- [보안 로드맵: 처음 30일, 90일 및 그 이상에 대한 최상위 우선 순위](security-roadmap.md)
+- [보안 로드맵: 처음 30일, 90일 및 그 이후의 최상위 우선 순위](security-roadmap.md)
 
-  로깅, 데이터 거버넌스, 관리자 액세스 및 위협 방지가 포함된 권장 사항입니다.
+  로깅, 데이터 거버넌스, 관리자 액세스 및 위협 방지를 포함할 수 있는 권장 사항입니다.
 
 ### <a name="windows-10-and-microsoft-365-apps-for-enterprise"></a>Windows 10 및 Microsoft Office 365 ProPlus
 

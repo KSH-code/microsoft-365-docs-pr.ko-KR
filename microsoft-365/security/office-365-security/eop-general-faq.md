@@ -15,19 +15,19 @@ ms.custom:
 description: EOP(Exchange Online Protection) 클라우드 호스팅 전자 메일 필터링 서비스에 대한 가장 일반적인 질문에 대한 답변을 얻습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d0a5712d2bfb110c3292dee06b456161599d40b1
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1a1ce845ef50d7485113c211b0a8d7770ea57815
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165490"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290024"
 ---
 # <a name="eop-general-faq"></a>EOP 관련 일반 FAQ(질문과 대답)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
--  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Exchange Online Protection 독립 실행형](exchange-online-protection-overview.md)
 
 여기에서는 EOP(Exchange Online Protection) 클라우드 호스팅 전자 메일 필터링 서비스에 대한 가장 일반적인 질문과 대답을 제공합니다. 그 이외의 FAQ(질문과 대답) 항목은 다음 링크를 참조하십시오.
 
@@ -45,7 +45,7 @@ ms.locfileid: "50165490"
 
 ## <a name="what-is-eop"></a>EOP란 무엇입니까?
 
-EOP는 스팸 및 맬웨어로부터 고객을 보호하고 사용자 지정 정책 규칙을 구현하도록 구축된 클라우스 호스트 전자 메일 필터링 서비스입니다. EOP는 Exchange Online 사서함이 포함된 모든 Microsoft 365 구독에 포함됩니다. EOP는 또한 독립 실행형 서비스로 제공되어온-프레미스 전자 메일 환경을 보호할 수 있습니다.
+EOP는 스팸 및 맬웨어로부터 고객을 보호하고 사용자 지정 정책 규칙을 구현하도록 구축된 클라우스 호스트 전자 메일 필터링 서비스입니다. EOP는 Exchange Online 사서함이 포함된 모든 Microsoft 365 구독에 포함됩니다. EOP는 또한 독립 실행형 제품으로 제공되어온-프레미스 전자 메일 환경을 보호할 수 있습니다.
 
 ## <a name="how-do-i-sign-up-for-an-eop-trial-or-purchase-eop"></a>EOP 평가판을 등록하거나 EOP를 구입할 수 있는 방법은 어떻게 됩니까?
 

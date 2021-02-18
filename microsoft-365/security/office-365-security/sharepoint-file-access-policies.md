@@ -6,6 +6,7 @@ author: JoeDavies-MSFT
 manager: Laurawi
 ms.prod: m365-security
 ms.topic: article
+audience: Admin
 f1.keywords:
 - NOCSH
 ms.reviewer: martincoetzer
@@ -18,30 +19,30 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 5c739a47ccab79561277436812c36f842b6b578c
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: f3a9cc2c3bae32a8fee10e814f96968b864e78a5
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142816"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290420"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>SharePoint 사이트 및 파일 보안에 대한 정책 권장 사항
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
 - SharePoint Online 
 
 
 이 문서에서는 SharePoint 및 비즈니스용 OneDrive를 보호하기 위해 권장되는 ID 및 장치 액세스 정책을 구현하는 방법을 설명합니다. 이 지침은 공통 ID 및 장치 액세스 [정책을 빌드합니다.](identity-access-policies.md)
 
-이러한 권장 사항은 요구의 세분성에 따라 적용할 수 있는 세 가지 SharePoint 파일의 보안 및 보호 계층인 **기준,** 중요 및 높은 규제 계층을 기반으로 **합니다.** 이러한 보안 계층 및 권장되는 클라이언트 운영 체제에 대한 자세한 내용은 개요에서 이러한 권장 사항을 [참조하세요.](microsoft-365-policies-configurations.md)
+이러한 권장 사항은 요구의 세분성에 따라 적용할 수 있는 세 가지 SharePoint 파일의 보안 및 보호 계층인 **기준,** 중요 및 높은 규제 계층을 기반으로 **합니다.** 이러한 보안 계층 및 권장되는 클라이언트 운영 체제에 대한 자세한 내용은 개요에서 이러한 권장 사항을 [참조할 수 있습니다.](microsoft-365-policies-configurations.md)
 
-이 지침을 구현하는 것 외에도 중요하고 높은 규제 대상 콘텐츠에 적절한 사용 권한을 설정하는 등 적절한 양의 보호를 사용하여 SharePoint 사이트를 구성해야 합니다.
+이 지침을 구현하는 것 외에도 중요하고 높은 규제 대상 콘텐츠에 적절한 사용 권한을 설정하는 등 적절한 보호 기능을 사용하여 SharePoint 사이트를 구성해야 합니다.
 
 ## <a name="updating-common-policies-to-include-sharepoint-and-onedrive-for-business"></a>SharePoint 및 비즈니스용 OneDrive를 포함하기 위해 일반 정책 업데이트
 
-SharePoint 및 OneDrive의 파일을 보호하기 위해 다음 다이어그램에서는 공통 ID 및 장치 액세스 정책에서 업데이트할 정책을 보여 주며,
+SharePoint 및 OneDrive의 파일을 보호하기 위해 다음 다이어그램은 공통 ID 및 장치 액세스 정책에서 업데이트할 정책을 보여 주는 다이어그램입니다.
 
 [![Teams 및 해당 종속 서비스에 대한 액세스를 보호하기 위한 정책 업데이트 요약](../../media/microsoft-365-policies-configurations/identity-access-ruleset-sharepoint.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-sharepoint.png)
 
@@ -59,8 +60,8 @@ SharePoint 및 OneDrive의 파일을 보호하기 위해 다음 다이어그램�
 ||[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-multi-factor)|클라우드 앱 할당에 SharePoint를 포함합니다.|
 ||[APP 데이터 보호 정책 적용](identity-access-policies.md#apply-app-data-protection-policies)|모든 권장 앱이 앱 목록에 포함해야 합니다. 각 플랫폼(iOS, Android, Windows)에 대한 정책을 업데이트해야 합니다.|
 ||[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|클라우드 앱 목록에 SharePoint를 포함합니다.|
-||[SharePoint에서 앱 적용 제한 사용](#use-app-enforced-restrictions-in-sharepoint)|이 새 정책을 추가합니다. 그러면 Azure AD(Azure Active Directory)가 SharePoint에 지정된 설정을 사용하게 됩니다. 이 정책은 모든 사용자에게 적용되지만 SharePoint 액세스 정책에 포함된 사이트에 대한 액세스에만 영향을 미치게 됩니다.|
-|**중요**|[로그인 위험이 낮음, 중간 또는  높음인 경우 MFA *필요*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 SharePoint를 포함합니다.|
+||[SharePoint에서 앱 적용 제한 사용](#use-app-enforced-restrictions-in-sharepoint)|이 새 정책을 추가합니다. 그러면 Azure AD(Azure Active Directory)에서 SharePoint에 지정된 설정을 사용하게 됩니다. 이 정책은 모든 사용자에게 적용되지만 SharePoint 액세스 정책에 포함된 사이트에 대한 액세스에만 영향을 미치게 됩니다.|
+|**중요**|[로그인 위험이 낮음, 보통  *또는* 높음인 경우 MFA *필요*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 SharePoint를 포함합니다.|
 ||[호환 PC 및 *모바일* 장치 필요](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|클라우드 앱 목록에 SharePoint를 포함합니다.|
 ||[SharePoint 액세스 제어 정책:](#sharepoint-access-control-policies)관리되지 않는 장치에서 특정 SharePoint 사이트에 대한 브라우저 전용 액세스를 허용합니다.|이렇게 하면 파일을 편집하고 다운로드할 수 없습니다. PowerShell을 사용하여 사이트를 지정합니다.|
 |**매우 엄격한 규제**|[*항상* MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 SharePoint를 포함합니다.|
@@ -94,8 +95,8 @@ SharePoint 사이트 권한은 일반적으로 사이트에 대한 액세스에 
 
 James는 기본 조건부 액세스 정책을 할당했지만 중요하거나 높은 규제 대상 보호를 통해 SharePoint 사이트에 대한 액세스 권한을 부여할 수 있습니다.
 
-- James가 중요하거나 높은 규제 대상 사이트에 액세스하는 경우 해당 PC를 사용하는 구성원인 경우 PC가 규격인 한 액세스 권한이 부여됩니다.
-- James가 관리되지 않는 전화(기준 사용자에 대해 허용되는)를 사용하는 구성원인 중요한 사이트에 액세스하는 경우 이 사이트에 대해 구성된 장치 액세스 정책으로 인해 중요한 사이트에 대한 브라우저 전용 액세스를 받게 됩니다.
+- James가 중요하거나 높은 규제 대상 사이트에 액세스하는 경우 이 사용자가 PC를 사용하는 구성원인 경우 PC가 규격인 한 액세스 권한이 부여됩니다.
+- James가 중요한 사이트에 액세스하는 경우 기본 사용자에게 허용되는 관리되지 않는 전화를 사용하는 구성원이면 이 사이트에 대해 구성된 장치 액세스 정책으로 인해 중요한 사이트에 대한 브라우저 전용 액세스를 받게 됩니다.
 - James가 높은 규제 대상 사이트에 액세스하는 경우 관리되지 않는 휴대폰을 사용하는 구성원인 경우 이 사이트에 대해 구성된 액세스 정책으로 인해 차단됩니다. 관리되고 호환되는 PC를 사용하여 이 사이트에만 액세스할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계

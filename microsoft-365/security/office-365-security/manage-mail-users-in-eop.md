@@ -14,21 +14,21 @@ description: 디렉터리 동기화, EAC 및 PowerShell을 사용하여 사용�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 34edafea7567da04094ea386d469d3d27937eee5
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 6a0dc1c0c343be77c6d6f713ee6b68a08a4fe5be
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166396"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289916"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>독립 실행형 EOP에서 메일 사용자 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
--  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Exchange Online Protection 독립 실행형](exchange-online-protection-overview.md)
 
-Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 메일 사용자는 기본 유형의 사용자 계정입니다. 메일 사용자는 독립 실행형 EOP 조직에 계정 자격 증명을 가지며 리소스에 액세스할 수 있습니다(사용 권한이 할당되어 있습니다). 메일 사용자의 전자 메일 주소가 외부(예: 전자 메일 환경의 경우)입니다.
+Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 메일 사용자가 기본 유형의 사용자 계정입니다. 메일 사용자는 독립 실행형 EOP 조직에 계정 자격 증명을 가지며 리소스에 액세스할 수 있습니다(사용 권한이 할당되어 있습니다). 메일 사용자의 전자 메일 주소가 외부(예: 전자 메일 환경의 경우)입니다.
 
 > [!NOTE]
 > 메일 사용자를 만들면 Microsoft 365 관리 센터에서 해당 사용자 계정을 사용할 수 있습니다. Microsoft 365 관리 센터에서 사용자 계정을 만들 때 해당 계정을 사용하여 메일 사용자를 만들 수 없습니다.
@@ -50,7 +50,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protect
 - 이 문서의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 [Exchange Online의 Exchange](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)관리 센터에 대한 바로 가기 키를 참조하십시오.
 
 > [!TIP]
-> 문제가 있습니까? Exchange 포럼에서 도움을 요청하세요. Exchange [Online Protection 포럼을 방문하세요.](https://go.microsoft.com/fwlink/p/?linkId=285351)
+> 문제가 있습니까? Exchange 포럼에서 도움을 요청하세요. Exchange [Online Protection 포럼을 방문하세요.](https://social.technet.microsoft.com/Forums/forefront/home?forum=FOPE)
 
 ## <a name="use-the-exchange-admin-center-to-manage-mail-users"></a>Exchange 관리 센터를 사용하여 메일 사용자 관리
 
@@ -72,7 +72,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protect
 
    - **외부 전자 메일 주소:** 사용자의 전자 메일 주소를 입력합니다. 도메인은 클라우드 기반 조직 외부에 있습니다.
 
-   - <sup>\*</sup>**사용자 ID:** 사용자가 서비스에 로그인하는 데 사용할 계정을 입력합니다. 사용자 ID는 @(@) 기호 왼쪽의 사용자 이름과 오른쪽에 있는 도메인으로 구성됩니다.
+   - <sup>\*</sup>**사용자 ID:** 사용자가 서비스에 로그인하는 데 사용할 계정을 입력합니다. 사용자 ID는 @ 기호(@) 왼쪽의 사용자 이름과 오른쪽에 있는 도메인으로 구성됩니다.
 
    - <sup>\*</sup>**새 암호** 및 <sup>\*</sup> **암호 확인:** 계정 암호를 입력하고 다시 입력합니다. 암호가 조직의 암호 길이, 복잡성 및 기록 요구 사항을 준수하는지 확인합니다.
 
@@ -165,7 +165,7 @@ Get-User -Identity <MailUserIdentity> | Format-List
 New-EOPMailUser -Name "<UniqueName>" -MicrosoftOnlineServicesID <Account> -Password (ConvertTo-SecureString -String '<password>' -AsPlainText -Force) [-Alias <AliasValue>] [-DisplayName "<Display Name>"] [-ExternalEmailAddress <ExternalEmailAddress>] [-FirstName <Text>] [-Initials <Text>] [-LastName <Text>]
 ```
 
-**참고**:
+**참고:**
 
 - _Name_ 매개 변수는 필수 매개 변수로, 최대 길이는 64자입니다. _DisplayName_ 매개 변수를 사용하지 않는 경우에는 _Name_ 매개 변수의 값이 표시 이름에 사용됩니다.
 - 별칭 매개 변수를  사용하지 않는 경우 _MicrosoftOnlineServicesID_ 매개 변수의 왼쪽이 별칭에 사용됩니다.
@@ -255,7 +255,7 @@ Remove-EOPMailUser -Identity "Jeffrey Zeng"
 
 독립 실행형 EOP에서는 Exchange Active Directory가 있는 고객이 디렉터리 동기화를 사용할 수 있습니다. 계정의 복사본이 클라우드에 저장되는 Azure AD(Azure Active Directory)에 해당 계정을 동기화할 수 있습니다. 기존 사용자 계정을 Azure Active Directory와 동기화할 때 EAC(Exchange 관리 센터)의 받는 사람 창 또는 독립 실행형 EOP PowerShell에서 해당 사용자를 볼 수 있습니다. 
 
-**참고**:
+**참고:**
 
 - 디렉터리 동기화를 사용하여 받는 사람을 관리하는 경우 Microsoft 365 관리 센터에서 사용자를 추가하고 관리할 수 있지만 이러한 사용자는 사용자와 동기화되지 않습니다. 이는 디렉터리 동기화가 클라우드로의 받는 사람만 동기화하기 위한 것입니다.
 

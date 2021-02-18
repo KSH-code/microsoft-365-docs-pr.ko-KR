@@ -20,25 +20,25 @@ ms.custom:
 description: 관리자는 특정 스푸핑된 보낸 사람에 대해 허용하거나 차단할 수 있는 EOP(Exchange Online Protection)의 스푸핑 인텔리전스에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 55a744cf2d226e72e8d84f6eb125f2baf9b9d3a0
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 2a65400d1b48abfc6ac0e4dd38a8245dd7b4f87b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167266"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289690"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>EOP에서 스푸핑 인텔리전스 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 인바운드 전자 메일 메시지는 2018년 10월부로 EOP의 스푸핑으로부터 자동으로 보호됩니다. EOP는 피싱에 대한 조직의 전반적인 방어의 일부로 스푸핑 인텔리전스를 활용합니다. 자세한 내용은 EOP의 스푸핑 방지 보호 [기능을 참조하세요.](anti-spoofing-protection.md)
+Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 인바운드 전자 메일 메시지는 2018년 10월부로 EOP의 스푸핑으로부터 자동으로 보호됩니다. EOP는 피싱에 대한 조직의 전반적인 방어의 일부로 스푸핑 인텔리전스를 활용합니다. 자세한 내용은 EOP의 스푸핑 방지 보호 기능을 [참조하세요.](anti-spoofing-protection.md)
 
-보낸 사람이 전자 메일 주소를 스푸핑하면 조직의 도메인 중 하나에 있는 사용자 또는 조직에 전자 메일을 보내는 외부 도메인의 사용자로 표시됩니다. 스팸 또는 피싱 전자 메일을 보내기 위해 보낸 사람 스푸핑하는 공격자는 차단해야 합니다. 그러나 합법적인 보낸 사람이 스푸핑하는 시나리오가 있습니다. 예:
+보낸 사람이 전자 메일 주소를 스푸핑하면 조직의 도메인 중 하나에 있는 사용자 또는 조직에 전자 메일을 보내는 외부 도메인의 사용자로 표시됩니다. 스팸 또는 피싱 전자 메일을 보내기 위해 보낸 사람 스푸핑하는 공격자는 차단해야 합니다. 그러나 합법적인 보낸 사람이 스푸핑하는 시나리오가 있습니다. 예시:
 
 - 내부 도메인 스푸핑에 대한 합법적인 시나리오:
 
@@ -64,14 +64,14 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 - 이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 받아야 합니다.
   - 스푸핑 인텔리전스 정책을 수정하거나 스푸핑 인텔리전스를 사용하거나  사용하지 않도록 설정하려면 조직 관리 또는 보안 관리자 역할 그룹의 **구성원이** 되어야 합니다.
-  - 스푸핑 인텔리전스 정책에 대한 읽기 전용 액세스 권한을  사용하려면 전역 읽기 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되거나,
+  - 스푸핑 인텔리전스 정책에 대한 읽기 전용 액세스 권한을  사용하려면 전역 읽기 또는 보안 읽기 권한이 있는 역할 그룹의 구성원이 **되거나,**
 
   자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
   **참고**:
 
-  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요.
-  - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+  - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - 스푸핑 인텔리전스에 대한 권장 설정은 EOP 기본 피싱 방지 정책 설정을 [참조하세요.](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings)
 
@@ -82,7 +82,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 1. 보안 및 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지** 로 이동합니다.
 
-2. 스팸 방지 **설정 페이지에서** 확장 아이콘을 클릭하여 ![ 스푸핑 인텔리전스 정책을 ](../../media/scc-expand-icon.png) **확장합니다.**
+2. 스팸 방지 **설정 페이지에서** 확장 아이콘을 클릭하여 스푸핑 인텔리전스 정책을 ![ ](../../media/scc-expand-icon.png) **확장합니다.**
 
    ![스푸핑 인텔리전스 정책 선택](../../media/anti-spam-settings-spoof-intelligence-policy.png)
 
@@ -91,14 +91,14 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
    - **새 보낸 사람 검토**
    - **이미 검토한 보낸 사람 표시**
 
-4. 보낸 **사람이 나타나는** 사용자 플라이아웃을 스푸핑할 수 있도록 허용할지 결정에서 다음 탭 중 하나를 선택합니다.
+4. 이 보낸 **사람이** 나타나는 사용자 플라이아웃을 스푸핑할 수 있도록 허용할지 결정에서 다음 탭 중 하나를 선택합니다.
 
-   - **도메인:** 보낸 사람이 내부 도메인의 사용자를 스푸핑합니다.
+   - **도메인**: 보낸 사람이 내부 도메인의 사용자를 스푸핑합니다.
    - **외부 도메인**: 보낸 사람이 외부 도메인의 사용자를 스푸핑합니다.
 
 5. 스푸핑 허용 열에서 확장 ![ ](../../media/scc-expand-icon.png) **아이콘을** 클릭합니다. **스푸핑된** 보낸 사람이 허용하도록 허용하거나 **아니요를** 선택하면 메시지를 스푸핑된 메시지로 표시하도록 할 수 있습니다. 이 작업은 기본 피싱 방지 정책 또는 사용자 지정 피싱 방지 정책에 의해 제어됩니다(기본값은 정크 메일 폴더로 메시지 **이동).** 자세한 내용은 피싱 방지 정책의 [스푸핑 설정을 참조하세요.](set-up-anti-phishing-policies.md#spoof-settings)
 
-   ![스푸핑된 보낸 사람 플라이아웃 및 보낸 사람이 스푸핑을 허용하는지 여부를 보여 줄 수 있는 스크린샷](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
+   ![스푸핑된 보낸 사람 플라이아웃과 보낸 사람이 스푸핑할 수 있는지 여부를 보여 줄 수 있는 스크린샷](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
 
    다음 목록에는 열과 값이 설명됩니다.
 
@@ -110,7 +110,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
    - **보내는 인프라:** 원본 전자 메일 서버의 IP 주소의 역방향 DNS PTR 레코드에 있는 도메인입니다. 원본 IP 주소에 PTR 레코드가 없는 경우 보내는 인프라는 \<source IP\> /24(예: 192.168.100.100/24)로 식별됩니다.
 
-     메시지 원본 및 메시지 보낸 사람에 대한 자세한 내용은 전자 메일 메시지 표준 [개요를 참조하세요.](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
+     메시지 원본 및 메시지 보낸 사람에 대한 자세한 내용은 전자 메일 메시지 표준 [개요를 참조하십시오.](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
 
    - **메시지 #**: 지난 30일 이내에 지정된 스푸핑된 보낸 사람 또는 보낸 사람이 포함된 보내는 인프라에서 조직으로 보내는 메시지 수입니다.
 
@@ -121,7 +121,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
       - **실패:** 보낸 사람이 EOP 보낸 사람 인증 검사를 실패했습니다.
       - **알** 수 없음: 이러한 검사의 결과를 알 수 없습니다.
 
-   - **결정 집합:** 보내는 인프라가 사용자를 스푸핑할 수 있도록 허용할지 결정한 사용자를 보여줍니다.
+   - **결정 집합:** 보내는 인프라가 사용자를 스푸핑할 수 있도록 허용할지 결정한 사용자를 보여 주며,
        - **스푸핑 인텔리전스** 정책(자동)
        - **관리자(수동)**
 
@@ -187,7 +187,7 @@ Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
 
 스푸핑이 허용 및 허용되지 않는 보낸 사람으로 스푸핑 인텔리전스를 구성하고 스푸핑 인텔리전스 설정을 구성한지 확인하려면 다음 단계를 수행합니다.
 
-- 보안 & 준수 센터에서 위협 관리  정책 스팸 방지 확장 스푸핑 \>  \>  \> **인텔리전스** \>  \>    정책으로 이동하여 이미 검토한 보낸 사람 표시 또는 도메인 또는 외부 도메인 탭을 선택하고 스푸핑 허용 여부 확인을 선택합니다.
+- 보안 & 준수 센터에서 위협 관리  정책 스팸 방지 확장 스푸핑 \>  \>  \> **인텔리전스** \>  \>    정책으로 이동하여 이미 검토한 보낸 사람 표시 또는 도메인 또는 외부 도메인 탭을 선택하고 스푸핑 허용 여부를 확인한 후 보낸 사람에 대한 스푸핑 허용 값을 선택합니다.
 
 - PowerShell에서 다음 명령을 실행하여 스푸핑이 허용 및 스푸핑이 허용되지 않은 보낸 사람 보기
 

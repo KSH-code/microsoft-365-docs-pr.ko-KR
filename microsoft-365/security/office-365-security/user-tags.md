@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for Office 365 요금제 2에서 사용자 태그를 사용하여 특정 사용자 그룹을 식별하는 방법을 배울 수 있습니다. 태그 필터링은 Microsoft Defender for Office 365의 경고, 보고서 및 조사에서 사용할 수 있으며, 태그가 지정된 사용자를 빠르게 식별할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ed91492e652773b3a48373df49b20d97887df6ee
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 62d858fe5962b94f536d4ccbd712e21bdd5caa57
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931437"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290132"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 사용자 태그
 
@@ -30,7 +30,7 @@ ms.locfileid: "49931437"
 
 사용자 태그는 [Office 365용 Microsoft Defender의](office-365-atp.md)특정 사용자 그룹에 대한 식별자입니다. 사용자 태그에는 다음 두 가지 유형이 있습니다.
 
-- **시스템 태그:** 현재 [우선](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) 순위 계정은 시스템 태그의 유일한 유형입니다.
+- **시스템 태그:** 현재 [우선](../../admin/setup/priority-accounts.md) 순위 계정은 시스템 태그의 유일한 유형입니다.
 - **사용자 지정 태그:** 이러한 사용자 태그를 직접 만들 수 있습니다.
 
 조직에 Office 365 계획 2용 Defender가 있는 경우(구독 또는 추가 기능으로 포함) 우선 순위 계정 태그를 사용하는 것 외에도 사용자 지정 사용자 태그를 만들 수 있습니다.
@@ -47,25 +47,25 @@ ms.locfileid: "49931437"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 사용자 태그 페이지로 직접 **이동하기 위해** 를 열습니다. <https://protection.office.com/userTags>
+- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 사용자 태그 **페이지로** 직접 이동하기 위해 를 <https://protection.office.com/userTags> 열습니다.
 
 - 이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 받아야 합니다.
   - 사용자 태그를 만들고 수정하고 삭제하려면 **조직** 관리 또는 보안 관리자 역할 그룹의 **구성원이** 되거나 삭제됩니다.
-  - 기존 사용자 태그에서 구성원을 추가 및 제거하려면 **조직** **관리,** 보안 관리자 또는 보안 운영자 역할 그룹의 **구성원이** 되거나,
+  - 기존 사용자 태그에서 구성원을 추가 및 제거하려면 조직 **관리,** 보안 관리자 또는 보안 운영자 역할 그룹의 **구성원이** 되거나,
   - 사용자 태그에 대한 읽기 전용 액세스의 경우 전역  읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되거나,
 
   자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
   **참고**:
 
-  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요.
+  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   - 사용자 태그 관리는 태그 판독기, 태그 참가자 및 태그 관리자  **역할에 의해 제어됩니다.** 
 
-- Microsoft 365 관리 센터에서 우선 순위 계정을 관리하고 모니터링할 수도 있습니다. 자세한 내용은 우선 순위 계정 관리 [및 모니터링을 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts)
+- Microsoft 365 관리 센터에서 우선 순위 계정을 관리하고 모니터링할 수도 있습니다. 자세한 내용은 우선 순위 계정 관리 [및 모니터링을 참조하세요.](../../admin/setup/priority-accounts.md)
 
 ## <a name="use-the-security-center-to-create-user-tags"></a>보안 센터를 사용하여 사용자 태그 만들기
 
-1. 보안 센터에서 **위협** 관리 \> **사용자 태그로 이동합니다.**
+1. 보안 센터에서 **위협** 관리 \> **사용자 태그로 이동 합니다.**
 
 2. 사용자 태그 **페이지가** 열리면 태그 **만들기를 클릭합니다.**
 
@@ -96,7 +96,7 @@ ms.locfileid: "49931437"
 
 ## <a name="use-the-security-center-to-view-user-tags"></a>보안 센터를 사용하여 사용자 태그 보기
 
-1. 보안 센터에서 **위협** 관리 \> **사용자 태그로 이동합니다.**
+1. 보안 센터에서 **위협** 관리 \> **사용자 태그로 이동 합니다.**
 
 2. 열 **수 있는 사용자** 태그 페이지에서 보하려는 사용자 태그를 선택합니다(확인란을 클릭하지 않습니다).
 
@@ -106,9 +106,9 @@ ms.locfileid: "49931437"
 
 ## <a name="use-the-security-center-to-modify-user-tags"></a>보안 센터를 사용하여 사용자 태그 수정
 
-1. 보안 센터에서 **위협** 관리 \> **사용자 태그로 이동합니다.**
+1. 보안 센터에서 **위협** 관리 \> **사용자 태그로 이동 합니다.**
 
-2. 열 **수 있는 사용자** 태그 페이지에서 보하려는 사용자 태그를 선택하고 태그 **편집을 클릭합니다.**
+2. 사용자 **태그 페이지가** 열리면 보게 할 사용자 태그를 선택하고 태그 **편집을 클릭합니다.**
 
 3. 정책 마법사가 태그 편집 **플라이아웃에서** 열립니다. 다음을 **클릭하여** 설정을 검토하고 수정합니다.
 
@@ -118,6 +118,6 @@ ms.locfileid: "49931437"
 
 **참고:** 기본 제공 우선 순위 계정 태그는 제거할 **수** 없습니다.
 
-1. 보안 센터에서 **위협** 관리 \> **사용자 태그로 이동합니다.**
+1. 보안 센터에서 **위협** 관리 \> **사용자 태그로 이동 합니다.**
 
 2. 사용자 **태그** 페이지가 열리면 제거할 사용자 태그를 선택하고 태그 삭제를 클릭한 다음 **예를** 선택하고 나타나는 경고에서 제거합니다.

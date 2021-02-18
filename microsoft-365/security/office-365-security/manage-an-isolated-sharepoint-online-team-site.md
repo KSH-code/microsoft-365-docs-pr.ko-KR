@@ -8,7 +8,6 @@ manager: laurawi
 ms.date: 12/15/2017
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
@@ -16,17 +15,23 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
 description: 격리된 SharePoint Online 팀 사이트를 관리하고, 새 사용자 및 그룹을 추가하고, 사용자 및 그룹을 제거하고, 사용자 지정 권한이 있는 문서 하위 하위폴더를 만들 수 있습니다.
-ms.openlocfilehash: 1e244738071b434efd09e8fd700462bbef7e116a
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 20e354de77b70ea69d69e201bd3b1d40ea32cc5b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616767"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289524"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender for Office 365 요금제 1](office-365-atp.md)
+- SharePoint Online 
 
  **요약:** 다음 절차에 따라 격리된 SharePoint Online 팀 사이트를 관리합니다.
 
@@ -48,7 +53,7 @@ Microsoft 365를 통해 사용자 계정 및 그룹을 관리하는 경우 Micro
 
 - Microsoft 365 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당된 사용자 계정으로 로그인하고 그룹을 사용하여 적절한 액세스 그룹에 적절한 사용자를 추가합니다.
 
-- PowerShell의 경우 먼저 [Azure Active Directory PowerShell for Graph 모듈에 연결합니다.](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) UPN(사용자 계정 이름)을 사용하여 액세스 그룹에 사용자 계정을 추가하려면 다음 PowerShell 명령 블록을 사용하세요.
+- PowerShell의 경우 먼저 [Azure Active Directory PowerShell for Graph 모듈에 연결합니다.](../../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module) UPN(사용자 계정 이름)을 사용하여 액세스 그룹에 사용자 계정을 추가하려면 다음 PowerShell 명령 블록을 사용하세요.
 
 ```powershell
 $userUPN="<UPN of the user account>"
@@ -80,7 +85,7 @@ Office 365를 통해 사용자 계정 및 그룹을 관리하는 경우 Microsof
 
 - Microsoft 365 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당된 사용자 계정으로 로그인하고 그룹을 사용하여 적절한 액세스 그룹에 적절한 그룹을 추가합니다.
 
-- PowerShell의 경우 먼저 [Azure Active Directory PowerShell for Graph 모듈에 연결합니다.](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+- PowerShell의 경우 먼저 [Azure Active Directory PowerShell for Graph 모듈에 연결합니다.](../../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
  그런 다음 다음 PowerShell 명령을 사용 합니다.
 
 ```powershell
@@ -105,7 +110,7 @@ Office 365를 통해 사용자 계정 및 그룹을 관리하는 경우 Microsof
 
 - Microsoft 365 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당된 사용자 계정으로 로그인하고 그룹을 사용하여 적절한 액세스 그룹에서 해당 사용자를 제거합니다.
 
-- PowerShell의 경우 먼저 [Azure Active Directory PowerShell for Graph 모듈에 연결합니다.](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+- PowerShell의 경우 먼저 [Azure Active Directory PowerShell for Graph 모듈에 연결합니다.](../../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 UPN이 있는 액세스 그룹에서 사용자 계정을 제거하려면 다음 PowerShell 명령 블록을 사용하세요.
 
 ```powershell
@@ -138,7 +143,7 @@ Office 365를 통해 사용자 계정 및 그룹을 관리하는 경우 Microsof
 
 - Microsoft 365 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당된 사용자 계정으로 로그인하고 그룹을 사용하여 적절한 액세스 그룹에서 해당 그룹을 제거합니다.
 
-- PowerShell의 경우 먼저 [Azure Active Directory PowerShell for Graph 모듈에 연결합니다.](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+- PowerShell의 경우 먼저 [Azure Active Directory PowerShell for Graph 모듈에 연결합니다.](../../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 표시 이름을 사용하여 액세스 그룹에서 그룹을 제거하려면 다음 PowerShell 명령 블록을 사용 합니다.
 
 ```powershell

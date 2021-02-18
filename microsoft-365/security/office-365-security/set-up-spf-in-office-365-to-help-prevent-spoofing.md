@@ -19,21 +19,21 @@ ms.custom:
 description: Office 365에서 사용자 지정 도메인과 함께 SPF(Sender Policy Framework)를 사용할 수 있도록 DNS(도메인 이름 서비스) 레코드를 업데이트하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fbed28047b88a3eff75f574fc4d2581a75f15518
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 52997150302805ea5085028e9a8f1cd5f745d841
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166234"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290456"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>스푸핑을 방지할 수 있도록 SPF 설정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 이 문서에서는 Office 365에서 사용자 지정 도메인과 함께 SPF(Sender Policy Framework) 전자 메일 인증을 사용할 수 있도록 DNS(Domain Name Service) 레코드를 업데이트하는 방법에 대해 설명합니다.
 
@@ -48,7 +48,7 @@ SPF를 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 �
 
 다음 정보를 수집합니다.
 
-- 사용자 정의 도메인의 현재 SPF TXT 레코드(있는 경우). 지침은 [Office 365 DNS 레코드를 만드는 데 필요한 정보 수집](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/information-for-dns-records)을 참조하세요.
+- 사용자 정의 도메인의 현재 SPF TXT 레코드(있는 경우). 지침은 [Office 365 DNS 레코드를 만드는 데 필요한 정보 수집](../../admin/get-help-with-domains/information-for-dns-records.md)을 참조하세요.
 
 - 메시징 서버로 이동하여 외부 IP 주소(모든 온-프레미스 메시징 서버에서 필요)를 찾습니다. 예를 들어, **131.107.2.200**.
 
@@ -94,7 +94,7 @@ SPF를 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 �
 
    사용자가 이미 Office 365에 배포되어 있고 사용자 지정 도메인에 대한 SPF TXT 레코드를 설정했고 Office 365 Germany로 마이그레이션하는 경우에는 SPF TXT 레코드를 업데이트해야 합니다. 이렇게 하려면 `include:spf.protection.outlook.com` 를 `include:spf.protection.outlook.de`로 변경합니다.
 
-3. SPF TXT 레코드를 구성한 후에는 DNS에서 레코드를 업데이트해야 합니다. 도메인에 대해 하나의 SPF TXT 레코드만 가질 수 있습니다. SPF TXT 레코드가 존재하는 경우 새 레코드를 추가하는 대신 기존 레코드를 업데이트해야 합니다. [Office 365용 DNS 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)로 이동한 다음 DNS 호스트에 대한 링크를 클릭합니다.
+3. SPF TXT 레코드를 구성한 후에는 DNS에서 레코드를 업데이트해야 합니다. 도메인에 대해 하나의 SPF TXT 레코드만 가질 수 있습니다. SPF TXT 레코드가 존재하는 경우 새 레코드를 추가하는 대신 기존 레코드를 업데이트해야 합니다. [Office 365용 DNS 레코드 만들기](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)로 이동한 다음 DNS 호스트에 대한 링크를 클릭합니다.
 
 4. 사용자의 SPF TXT 레코드를 테스트 합니다.
 
@@ -137,6 +137,6 @@ SPF는 사용자를 대신하여 메일을 보낼 수 있는 메일 서버를 �
 
  SPF는 스푸핑 차단을 돕지만 SPF가 방어할 수 없는 스푸핑 기술이 있습니다. 이 같은 기술로부터 방어하려면 SPF를 설정한 후에 Office 365용 DKIM 및 DMARC를 구성해야 합니다.
 
-[DKIM](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide) 전자 메일 인증의 목표는 전자 메일 내용이 위조되지 않았다는 것을 증명하는 것입니다.
+[DKIM](use-dkim-to-validate-outbound-email.md) 전자 메일 인증의 목표는 전자 메일 내용이 위조되지 않았다는 것을 증명하는 것입니다.
 
-[DMARC](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-dmarc-to-validate-email?view=o365-worldwide) 전자 메일 인증의 목표는 SPF 및 DKIM 정보가 보낸 주소와 일치하도록 하는 것입니다.
+[DMARC](use-dmarc-to-validate-email.md) 전자 메일 인증의 목표는 SPF 및 DKIM 정보가 보낸 주소와 일치하도록 하는 것입니다.

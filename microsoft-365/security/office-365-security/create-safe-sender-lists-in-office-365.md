@@ -17,21 +17,21 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)에서 인바운드 메시지를 허용하는 사용 가능한 옵션 및 기본 옵션에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 92229f0324eb9c05b233e5c4b0bc9f1bd7ab2e39
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: ddcd6240cfc80350920999f9fc1e8ea188834553
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165562"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289714"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>EOP에서 수신 가능한 보낸 사람 목록 만들기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 고객인 경우 EOP는 신뢰할 수 있는 보낸 사람으로부터 전자 메일을 받을 수 있는 여러 가지 방법을 제공합니다. 이러한 옵션에는 스팸 방지 정책의 Exchange 메일 흐름 규칙(전송 규칙), Outlook 수신 허용- 보낸 사람, IP 허용 목록(연결 필터링) 및 허용된 보낸 사람 목록 또는 허용된 도메인 목록이 포함됩니다. 이러한 옵션을 전체적으로 수신 수신이 가능한 보낸 사람 _목록으로 생각할 수 있습니다._
 
@@ -113,7 +113,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 조건
 
 앞서 설명한 메일 흐름 규칙을 사용할 수 없는 경우 다음으로는 연결 필터 정책의 IP 허용 목록에 원본 전자 메일 서버 또는 서버를 추가하는 것이 가장 좋습니다. 자세한 내용은 EOP에서 연결 필터링 [구성을 참조합니다.](configure-the-connection-filter-policy.md)
 
-**참고**:
+**참고:**
 
 - 허용되는 IP 주소 수를 최소로 유지하는 것이 중요하기 때문에 가능하면 전체 IP 주소 범위를 사용하지 않도록 합니다.
 
@@ -128,7 +128,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 조건
 
 가장 바람직한 옵션은 스팸 방지 정책에서 허용된 보낸 사람 목록 또는 허용된 도메인 목록을 사용하는 것입니다. 보낸 사람이 모든  스팸, 스푸핑 및 피싱 보호 및 보낸 사람 인증(SPF, DKIM, DMARC)을 무시하기 때문에 가능하면 이 옵션을 피해야 합니다. 이 방법은 임시 테스트에만 사용하는 것이 가장 좋습니다. 자세한 단계는 [EOP의](configure-your-spam-filter-policies.md) 스팸 방지 정책 구성 항목에서 찾을 수 있습니다.
 
-이러한 목록의 최대 제한은 약 1,000개 항목입니다. 그러나 포털에 30개 항목만 입력할 수 있습니다. PowerShell을 사용하여 30개 이상의 항목을 추가해야 합니다.
+이러한 목록에 대한 최대 제한은 약 1,000개 항목입니다. 그러나 포털에 30개 항목만 입력할 수 있습니다. PowerShell을 사용하여 30개 이상의 항목을 추가해야 합니다.
 
 > [!CAUTION]
 >
@@ -146,7 +146,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 조건
 
 주소와 주소가 `5321.MailFrom` `5322.From` 같을 때가 잦습니다(사용자 간 통신). 그러나 다른 사람을 대신하여 전자 메일을 보낼 경우 주소가 다를 수 있습니다. 이 문제는 대량 전자 메일 메시지에 대해 가장 자주 발생합니다.
 
-예를 들어 Blue Yonder Airlines가 Margie's Travel을 고용하여 전자 메일 광고를 보낸 경우를 가정해 보겠습니다. 받은 편지함에서 받는 메시지의 속성은 다음과 같습니다.
+예를 들어 Blue Yonder Airlines에서 Margie's Travel을 고용하여 전자 메일 광고를 보낸 경우를 가정해 보겠습니다. 받은 편지함에서 받는 메시지의 속성은 다음과 같습니다.
 
 - 주소가 `5321.MailFrom` blueyonder.airlines@margiestravel.com.
 

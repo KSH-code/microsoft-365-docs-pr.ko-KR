@@ -18,20 +18,20 @@ ms.collection:
 description: 관리자는 Office 365용 Microsoft Defender에서 안전한 링크 정책 및 전역 안전 링크 설정을 보고, 만들고, 수정하고, 삭제하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 71ea33f1f6fbebf6d87a4b42ad3bd96a60597b90
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 29d777a7f351b9ab33232cb0136703ce3fa29842
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166270"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290156"
 ---
 # <a name="set-up-safe-links-policies-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender에서 안전한 링크 정책 설정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!IMPORTANT]
 > 이 문서는 [Office 365용 Microsoft Defender](office-365-atp.md)가 있는 비즈니스 고객을 대상으로 합니다. Outlook의 Safelinks에 대한 정보를 찾고 있는 가정용 사용자인 경우 고급 보안 [Outlook.com.](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)
@@ -60,7 +60,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. 안전한 링크 페이지로 직접 **이동하기** 위해 다음을 <https://protection.office.com/safelinksv2> 사용하세요.
+- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 안전한 링크 페이지로 직접 **이동하기** 위해 다음을 <https://protection.office.com/safelinksv2> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
@@ -72,7 +72,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
   > [!NOTE]
   > 
-  > - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요.
+  > - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   . - [Exchange Online의](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) 보기 **전용 조직** 관리 역할 그룹은 기능에 대한 읽기 전용 액세스 권한을 제공합니다.
 
 - 안전한 링크 정책에 대한 권장 설정은 안전 링크 정책 [설정을 참조하세요.](recommended-settings-for-eop-and-office365-atp.md#safe-links-policy-settings)
@@ -83,9 +83,9 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 ## <a name="use-the-security--compliance-center-to-create-safe-links-policies"></a>보안 및 & 센터를 사용하여 안전한 링크 정책 만들기
 
-보안 및 준수 센터에서 사용자 지정 안전 링크 정책을 & 동일한 이름을 사용하여 안전한 링크 규칙과 연결된 안전한 링크 정책을 동시에 만듭니다.
+Security & 준수 센터에서 사용자 지정 안전 링크 정책을 만들면 안전한 링크 규칙과 연결된 안전한 링크 정책이 동시에 두 가지에 대해 동일한 이름을 사용하여 생성됩니다.
 
-1. 보안 및 & 센터에서 **위협 관리** \>  \> **정책 ATP 안전한 링크로 이동하십시오.**
+1. 보안 & 준수 센터에서 **위협** 관리 \>  \> **정책 ATP 안전한 링크로 이동하십시오.**
 
 2. 안전한 링크 **페이지에서** 만들기를 **클릭합니다.**
 
@@ -107,7 +107,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
    - **메시지를 배달하기** 전에 URL 검색이 완료될 때까지 기다렸다가 다음 설정을 선택합니다. 메시지를 배달하기 전에 실시간 URL 검색이 완료될 때까지 기다릴 수 있습니다.
 
-   - **조직 내에서** 전송된 전자 메일 메시지에 안전한 링크 적용: 내부 보낸 사람과 내부 받는 사람 간의 메시지에 안전 링크 정책을 적용하려면 이 설정을 선택합니다.
+   - **조직 내에서** 보낸 전자 메일 메시지에 안전한 링크 적용: 내부 보낸 사람과 내부 받는 사람 간의 메시지에 안전 링크 정책을 적용하려면 이 설정을 선택합니다.
 
    - **사용자 클릭 추적** 안 하세요. 추적 사용자가 전자 메일 메시지의 URL을 클릭할 수 있도록 설정하려면 이 설정을 선택하지 않은 것으로 하세요.
 
@@ -119,7 +119,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
      기존 항목을 제거하려면 해당 항목을 선택하고 ![삭제 단추 아이콘](../../media/ITPro-EAC-DeleteIcon.png).
 
-     항목 구문은 "다음 URL을 다시 입력하지 않습니다." 목록에 대한 항목 구문을 [참조하세요.](atp-safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list)
+     항목 구문은 ["다음 URL을](atp-safe-links.md#entry-syntax-for-the-do-not-rewrite-the-following-urls-list)다시 입력하지 않습니다." 목록에 대한 항목 구문을 참조하세요.
 
    이러한 설정에 대한 자세한 내용은 전자 메일 메시지에 대한 [안전한](atp-safe-links.md#safe-links-settings-for-email-messages) 링크 설정 및 Microsoft Teams의 안전한 링크 설정을 [참조하세요.](atp-safe-links.md#safe-links-settings-for-microsoft-teams)
 
@@ -194,7 +194,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 안전한 링크 정책은 처리되는 순서대로 표시됩니다(첫 번째  정책의 우선 순위 값은 0).
 
 > [!NOTE]
-> 보안 & 준수 센터에서는 안전한 링크 정책의 우선 순위를 만든 후에만 변경할 수 있습니다. PowerShell에서 안전한 링크 규칙을 만들 때 기본 우선 순위를 다시 정할 수 있습니다(기존 규칙의 우선 순위에 영향을 줄 수 있습니다).
+> 보안 & 준수 센터에서는 안전 링크 정책을 만든 후에만 안전 링크 정책의 우선 순위를 변경할 수 있습니다. PowerShell에서 안전한 링크 규칙을 만들 때 기본 우선 순위를 다시 정할 수 있습니다(기존 규칙의 우선 순위에 영향을 줄 수 있습니다).
 
 정책의 우선순위를 변경하려면 목록에서 정책을 위나 아래로 이동합니다. 보안 및 준수 센터에서 **우선순위** 번호를 직접 수정할 수는 없습니다.
 
@@ -267,10 +267,10 @@ New-SafeLinksPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-IsEn
 이 예에서는 다음 값을 가지는 Contoso All이라는 안전한 링크 정책을 만듭니다.
 
 - 전자 메일 메시지에서 URL 검색 및 다시 덮기 기능을 켜세요.
-- Teams에서 URL 검색을 켜세요(TAP 미리 보기만 해당).
-- 파일을 포인트로 하는 클릭된 링크를 포함하여 클릭한 URL의 실시간 검색을 켜야 합니다.
+- Teams에서 URL 검색을 켜세요(TAP 미리 보기에만 해당).
+- 파일을 포인트로 하는 클릭된 링크를 포함하여 클릭한 URL의 실시간 검색을 켜는 기능을 제공합니다.
 - URL 검색이 완료될 때까지 기다렸다가 메시지를 배달합니다.
-- 내부 메시지에 대해 URL 검색 및 다시 덮기 기능을 켜세요.
+- 내부 메시지에 대한 URL 검색 및 다시 덮기 기능을 켜세요.
 - 안전한 링크 보호와 관련된 사용자 클릭을 _추적합니다(DoNotTrackUserClicks_ 매개 변수를 사용하지 않습니다. 기본값은 $false, 즉 사용자 클릭이 추적됩니다).
 - 사용자가 원래 URL을 클릭할 수 있도록 허용하지 않습니다.
 
@@ -429,7 +429,7 @@ Set-SafeLinksRule -Identity "Marketing Department" -Priority 2
 ```
 
 > [!NOTE]
-> 새 규칙을 만들 때 새 규칙의 우선 순위를 설정하기 위해 **New-SafeLinksRule** cmdlet에서 _Priority_ 매개 변수를 대신 사용합니다.
+> 새 규칙을 만들 때 새 규칙의 우선 순위를 설정하기 위해 **New-SafeLinksRule** cmdlet의 _Priority_ 매개 변수를 대신 사용합니다.
 
 구문과 매개 변수에 대한 자세한 내용은 [Set-SafeLinksRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/set-safelinksrule)
 

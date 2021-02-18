@@ -14,21 +14,21 @@ ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: 관리자는 커넥터를 사용하여 메시지 배달과 연결된 오류 코드(메일 흐름 인텔리전스라고도 합니다.)에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 864b69bf650a4e460376ae988a9ce4abc4c61ad4
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 32a98459ce3d3494e576b10d5c5b097393ee2335
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167074"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289666"
 ---
 # <a name="mail-flow-intelligence-in-eop"></a>EOP의 메일 흐름 인텔리전스
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Exchange Online 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에 사서함이 있는 Microsoft 365 조직에서는 일반적으로 커넥터를 사용하여 EOP에서 전자 메일 환경으로 전자 메일 메시지를 라우팅합니다. 커넥터를 사용하여 Microsoft 365에서 파트너 조직으로 메시지를 라우팅할 수도 있습니다. Microsoft 365에서 커넥터를 통해 이러한 메시지를 배달할 수 없는 경우 Microsoft 365에서 대기합니다. Microsoft 365는 24시간 동안 각 메시지에 대해 배달을 계속 다시 시도합니다. 24시간이 지난 후 대기 중인 메시지가 만료되고, 메시지가 배달되지 않은 보고서(NDR 또는 반송 메시지라고도 알려지음)에서 원래 보낸 사람으로 반환됩니다.
 
@@ -52,7 +52,7 @@ Exchange Online 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(
 
 ## <a name="error-code-450-44315-connection-timed-out"></a>오류 코드: 450 4.4.315 연결 시간
 
-일반적으로 이는 Microsoft 365가 대상 전자 메일 서버에 연결할 수 없습니다. 오류 세부 정보에서 문제를 설명합니다. 예:
+일반적으로 이는 Microsoft 365가 대상 전자 메일 서버에 연결할 수 없습니다. 오류 세부 정보에서 문제를 설명합니다. 예시:
 
 - On-premises email server is down.
 
@@ -70,7 +70,7 @@ Exchange Online 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(
 
 ### <a name="how-do-i-fix-error-code-450-44316"></a>오류 코드 450 4.4.316을 수정하는 방법
 
-- 프레미스 환경에 사서함이 있는 경우 TCP 포트 25의 Microsoft 365 IP 주소에서 전자 메일 서버로의 연결을 허용하도록 방화벽 설정을 수정해야 합니다. Microsoft 365 IP 주소 목록은 [Microsoft 365 URL](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)및 IP 주소 범위를 참조하세요.
+- 프레미스 환경에 사서함이 있는 경우 TCP 포트 25의 Microsoft 365 IP 주소에서 전자 메일 서버로의 연결을 허용하도록 방화벽 설정을 수정해야 합니다. Microsoft 365 IP 주소 목록은 [Microsoft 365 URL](../../enterprise/urls-and-ip-address-ranges.md)및 IP 주소 범위를 참조하세요.
 
 - 더 이상 메시지를 프레미스 환경으로 배달할  수 없는 경우 Microsoft 365에서 잘못된 받는 사람이 있는 메시지를 즉시 거부할 수 있도록 경고에서 지금 수정을 클릭합니다. 이렇게 하면 잘못된 받는 사람에 대한 조직의 할당량 초과 위험이 줄어들어 정상적인 메시지 배달에 영향을 줄 수 있습니다. 또는 다음 지침을 사용하여 문제를 수동으로 해결할 수 있습니다.
 
@@ -82,7 +82,7 @@ Exchange Online 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(
 
        - 제거 아이콘 삭제를 **클릭하여** 커넥터 ![ 삭제](../../media/adf01106-cc79-475c-8673-065371c1897b.gif)
 
-       - 편집 아이콘을 클릭하고 켜기 선택을 취소하여 커넥터를  ![ 사용하지 않도록 ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **설정합니다.**
+       - 편집 아이콘을 클릭하고 켜기 아이콘을 선택 취소하여 커넥터를  ![ 사용하지 않도록 ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **설정합니다.**
 
   - Microsoft 365의 허용 도메인을 내부 릴레이에서 권한이 있는  전자 메일 환경과 연결된 Microsoft 365로 **변경합니다.** 자세한 내용은 [Exchange Online에서 허용 도메인 관리를 참조하세요.](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
 
@@ -92,7 +92,7 @@ Exchange Online 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(
 
 ## <a name="error-code-450-44317-cannot-connect-to-remote-server"></a>오류 코드: 450 4.4.317 원격 서버에 연결할 수 없습니다.
 
-일반적으로 이 오류는 대상 전자 메일 서버에 Microsoft 365가 연결되어 있지만 서버가 즉시 오류로 응답했거나 연결 요구 사항을 충족하지 않는다는 의미입니다. 오류 세부 정보에서 문제를 설명합니다. 예:
+일반적으로 이 오류는 대상 전자 메일 서버에 Microsoft 365가 연결되어 있지만 서버가 즉시 오류로 응답했거나 연결 요구 사항을 충족하지 않는다는 의미입니다. 오류 세부 정보에서 문제를 설명합니다. 예시:
 
 - 대상 전자 메일 서버가 "서비스를 사용할 수 없습니다." 오류로 응답했습니다. 이 오류는 서버가 Microsoft 365와의 통신을 유지할 수 없습니다.
 
@@ -124,7 +124,7 @@ Exchange Online 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(
 
 ## <a name="error-code-450-47320-certificate-validation-failed"></a>오류 코드: 450 4.7.320 인증서 유효성 검사 실패
 
-일반적으로 이 오류는 대상 전자 메일 서버의 인증서 유효성을 검사하는 동안 Microsoft 365에서 오류가 발생했다는 의미입니다. 오류 세부 정보에서 오류를 설명합니다. 예:
+일반적으로 이 오류는 대상 전자 메일 서버의 인증서 유효성을 검사하는 동안 Microsoft 365에서 오류가 발생했다는 의미입니다. 오류 세부 정보에서 오류를 설명합니다. 예시:
 
 - 인증서 만료
 

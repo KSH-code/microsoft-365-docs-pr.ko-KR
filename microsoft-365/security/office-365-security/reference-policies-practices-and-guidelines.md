@@ -17,23 +17,23 @@ ms.collection:
 description: Microsoft는 다양한 정책, 절차를 개발하고, 악의적, 원치 않는 전자 메일 또는 악의적인 전자 메일로부터 사용자를 보호하기 위해 다양한 업계 모범 사례를 채택했습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 01df2e8c1cc8a8ca68688377c4cad6ade91b5623
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1065fdef5f804214ca48f7ca54170e6e417490d7
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166858"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289212"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>참조: 정책, 사례 및 지침
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Microsoft는 웹에서 가장 신뢰할 수 있는 사용자 환경을 제공하기 위해 전념하고 있습니다. 따라서 Microsoft는 다양한 정책, 절차를 개발하고, 악의적이거나 원치 않는 전자 메일 또는 악의적인 전자 메일로부터 사용자를 보호하기 위해 다양한 업계 모범 사례를 채택했습니다. 사용자에게 전자 메일을 보내고자 하는 보낸 사람은 이 문서의 지침을 완전히 이해하고 이 문서의 지침을 따라야 합니다. 이러한 노력에 도움을 주며 잠재적인 배달 문제를 방지하는 데 도움이 됩니다.
+Microsoft는 웹에서 가장 신뢰할 수 있는 사용자 환경을 제공하기 위해 전념하고 있습니다. 따라서 Microsoft는 다양한 정책, 절차를 개발하고, 악의적이거나 원치 않는 전자 메일 또는 악의적인 전자 메일로부터 사용자를 보호하기 위해 다양한 업계 모범 사례를 채택했습니다. 사용자에게 전자 메일을 보내고자 하는 보낸 사람은 이러한 노력에 도움을 주며 잠재적인 배달 문제를 방지하는 데 도움이 되도록 완전히 이해하고 이 문서의 지침을 따라야 합니다.
 
 이러한 정책 및 지침을 준수하지 않는 경우 지원 팀에서 도움을 받지 못하게 될 수 있습니다. 이 문서에 제시된 지침, 사례 및 정책을 준수하고 있으며 보내는 IP 주소를 기반으로 배달 문제가 계속 발생하는 경우 단계에 따라 목록링 요청을 제출하세요. 자세한 내용은 목록 제거 포털을 사용하여 수신 차단된 보낸 사람 목록에서 자신을 [제거합니다.](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)
 
@@ -41,7 +41,7 @@ Microsoft는 웹에서 가장 신뢰할 수 있는 사용자 환경을 제공하
 
 Microsoft 365 사용자에게 전송되는 전자 메일은 Microsoft 365의 전자 메일 전송 및 사용을 규정하는 모든 Microsoft 정책을 준수해야 합니다.
 
-- Microsoft 365에 적용되는 서비스 약관 특히 서비스를 사용하여 스팸을 방지하거나 맬웨어를 배포하는 것이 금지됩니다.
+- Microsoft 365에 적용되는 서비스 약관 특히 서비스를 사용하여 스팸을 방지하거나 맬웨어를 배포하지 않습니다.
 
 - [Microsoft 서비스 계약](https://www.microsoft.com/servicesagreement/)
 
@@ -59,7 +59,7 @@ Microsoft 365로 전송되는 전자 메일은 아래 문서에 나열된 적용
 
 - [RFC 2505: SMTP MTAS에 대한 스팸 방지 권장 사항](https://www.ietf.org/rfc/rfc2505.txt)
 
-- [RFC 2920: 명령 파이프라이너용 SMTP 서비스 확장](https://www.ietf.org/rfc/rfc2920.txt)
+- [RFC 2920: 명령 파이프라이링용 SMTP 서비스 확장](https://www.ietf.org/rfc/rfc2920.txt)
 
 또한 Microsoft 365에 연결하는 전자 메일 서버는 다음 요구 사항을 준수해야 합니다.
 
@@ -97,7 +97,7 @@ Microsoft는 인터넷 및 전자 메일 에코시스템을 개선하기 위해 
 
 ## <a name="abuse-and-spam-reporting"></a>남용 및 스팸 보고
 
-위조, 악의적, 원치 않는 또는 악의적인 전자 메일을 보고하려면 Microsoft에 메시지 및 [파일을 보고하세요.](report-junk-email-messages-to-microsoft.md) 이러한 유형의 통신을 보내는 것은 Microsoft 정책을 위반하며 확인된 보고서에 대해 적절한 조치를 취합니다.
+위조, 악의적, 원치 않는 또는 악의적인 전자 메일을 보고하려면 Microsoft에 메시지 및 [파일을 보고하세요.](report-junk-email-messages-to-microsoft.md) 이러한 유형의 통신을 전송하는 것은 Microsoft 정책을 위반하며 확인된 보고서에 대해 적절한 조치를 취합니다.
 
 ## <a name="law-enforcement"></a>법 집행
 

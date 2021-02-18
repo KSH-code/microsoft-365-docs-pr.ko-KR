@@ -19,21 +19,21 @@ description: 관리자는 EOP(Exchange Online Protection)에서 자주 묻는 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 019f1c103ef1aaf7641072cd1259d22e83f0de4c
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 8496ae4f1702bb63328be0c494d8829c9ddd8cf2
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166930"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289404"
 ---
 # <a name="quarantined-messages-faq"></a>Quarantined messages FAQ
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 이 항목에서는 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에 대해 자주 묻는 질문과 대답을 제공합니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "50166930"
 
 기본적으로 스팸 필터링을 통해 스팸 또는 대량 전자 메일로 분류된 메시지는 사용자의 사서함으로 배달되어 정크 메일 폴더로 이동됩니다. 그러나 스팸 또는 대량 전자 메일 메시지를 대신 차단하도록 스팸 방지 정책을 만들고 구성할 수 있습니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-## <a name="how-do-i-give-users-access-to-the-quarantine"></a>사용자에게 검호에 대한 액세스 권한을 부여하는 방법
+## <a name="how-do-i-give-users-access-to-the-quarantine"></a>사용자에게 검지 액세스 권한을 부여하는 방법
 
 사용자는 자신의 메시지에 액세스하려면 유효한 계정이 있어야 합니다. 독립 실행형 EOP를 사용하려면 사용자가 EOP에서 메일 사용자로 표시됩니다(디렉터리 동기화를 통해 수동으로 만들거나 생성). 독립 실행형 EOP 환경에서 사용자를 관리하는 데 대한 자세한 내용은 [EOP에서 메일 사용자 관리를 참조하십시오.](manage-mail-users-in-eop.md)
 
@@ -89,7 +89,7 @@ ms.locfileid: "50166930"
 
 - fabrikam 도메인의 모든 보낸 사람으로부터 스팸으로 스팸으로 차단된 미해제 메시지를 찾을 수 있습니다. 최대 결과 수는 50,000개(결과 1000페이지 50개)입니다.
 - 결과를 CSV 파일에 저장합니다.
-- 모든 원래 받는 사람에게 일치하는 메일 메시지를 해제합니다.
+- 일치하는 메시지를 원래 받는 사람에게 릴리스합니다.
 
 ```powershell
 $Page = 1

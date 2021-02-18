@@ -1,5 +1,5 @@
 ---
-title: 위협 탐색기 및 실시간 검색의 보기
+title: 위협 탐색기 및 실시간 검색 보기
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: 05/15/2020
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: ''
 ms.collection:
@@ -16,16 +15,22 @@ ms.collection:
 - m365initiative-defender-office365
 description: 위협 탐색기 및 실시간 검색 보고서를 사용하여 보안 및 준수 센터에서 위협을 조사하고 & 방법에 대해 자세히 알아보십시오.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7300f8c87b100a38117b0cc4bee1bb95c9584c6
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: aef3f7fe69e5cbd1d70b7aee3284f0c5dc6416df
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615711"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290288"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색 보기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+**적용 대상**
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 
 ![위협 탐색기](../../media/ThreatExplorerFirstOpened.png)
@@ -56,7 +61,7 @@ ms.locfileid: "49615711"
 
 ## <a name="email--malware"></a>전자 메일 > 맬웨어
 
-이 보고서를 확인하려면 탐색기(또는 실시간 검색)에서 전자 메일 맬웨어  \> **보기를** \> **선택하십시오.** 이 보기에는 맬웨어가 포함된 것으로 확인된 전자 메일 메시지에 대한 정보가 표시됩니다.
+이 보고서를 확인하려면 탐색기(또는 실시간 검색)에서 전자 메일 맬웨어  \>  \> **보기를 선택하십시오.** 이 보기에는 맬웨어가 포함된 것으로 확인된 전자 메일 메시지에 대한 정보가 표시됩니다.
 
 ![맬웨어로 식별된 전자 메일에 대한 데이터 보기](../../media/ExplorerEmailMalwareMenu.png)
 
@@ -92,15 +97,15 @@ ms.locfileid: "49615711"
 
 ## <a name="email--submissions"></a>전자 > 제출
 
-이 보고서를 확인하려면 탐색기(또는 실시간 검색)에서 **전자** 메일 제출 \>  \> **보기를 선택하십시오.** 이 보기에는 사용자가 정크 메일이 아닌 정크 메일 또는 피싱 전자 메일로 보고한 전자 메일이 표시됩니다.
+이 보고서를 확인하려면 탐색기(또는 실시간 검색)에서 전자 메일 제출  \>  \> **보기를 선택하십시오.** 이 보기에는 사용자가 정크 메일, 정크 메일 또는 피싱 전자 메일로 보고한 전자 메일이 표시됩니다.
 
 ![사용자가 보고한 전자 메일 메시지](../../media/ThreatExplorerEmailUserReportedViewOptions.png)
 
-보낸 **사람 클릭하여** 보기 옵션 목록을 열 수 있습니다. 이 목록을 사용하여 보낸 사람, 받는 사람, 보고서 유형(전자 메일이 정크 메일이 아니라 정크 메일 또는 피싱으로 확인) 등의 정보를 볼 수 있습니다.
+보낸 **사람 클릭하여** 보기 옵션 목록을 열 수 있습니다. 이 목록을 사용하여 보낸 사람, 받는 사람, 보고서 유형(전자 메일이 정크 메일이 아닌 정크 메일 또는 피싱으로 확인) 등별로 정보를 볼 수 있습니다.
 
 예를 들어 피싱 시도로 보고된 전자 메일 메시지에 대한  정보를 보려면 보낸 사람 보고서 유형을 클릭하고 \>  **피싱을** 선택한 다음 새로 고침 단추를 클릭합니다.
 
-![보고서 유형 필터에 대해 선택된 피싱](../../media/ThreatExplorerEmailUserReportedPhishSelected.png)
+![보고서 유형 필터에 대해 선택한 피싱](../../media/ThreatExplorerEmailUserReportedPhishSelected.png)
 
 차트 아래에서 제목 줄, 보낸 사람 IP 주소, 메시지를 정크 메일로 보고한 사용자, 정크 메일 메시지 또는 피싱 등의 특정 전자 메일 메시지에 대한 세부 정보를 볼 수 있습니다.
 
@@ -108,7 +113,7 @@ ms.locfileid: "49615711"
 
 목록에서 항목을 선택하여 추가 세부 정보를 볼 수 있습니다.
 
-## <a name="email--all-email"></a>전자 > 전자 메일
+## <a name="email--all-email"></a>전자 메일 > 모든 전자 메일
 
 이 보고서를 확인하려면 탐색기에서 **전자** 메일 모두 \>  \> **보기를 선택하십시오.** 이 보기는 피싱 또는 맬웨어로 인해 악의적인 것으로 식별된 전자 메일뿐만 아니라 모든 악성 메일(일반 전자 메일, 스팸 및 대량 메일)을 포함하여 전자 메일 활동에 대한 전체 보기를 보여줍니다.
 

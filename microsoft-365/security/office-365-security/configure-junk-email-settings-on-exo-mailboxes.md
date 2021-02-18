@@ -17,21 +17,21 @@ ms.collection:
 description: 관리자는 Exchange Online 사서함에서 정크 메일 설정을 구성하는 방법을 배울 수 있습니다. 이러한 설정 중 다수는 Outlook 또는 웹용 Outlook의 사용자가 사용할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2aa75376a431ded5abf44ad17ddad4f0ac731fa8
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 31f247ec74f1780d05aaeb79753abd0075401d9a
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165694"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290120"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Exchange Online 사서함에 대한 정크 메일 설정 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Exchange Online에 사서함이 있는 Microsoft 365 조직에서는 조직의 스팸 방지 설정이 EOP(Exchange Online Protection)에 의해 제어됩니다. 자세한 내용은 EOP의 스팸 방지 [보호 기능을 참조하세요.](anti-spam-protection.md)
 
@@ -43,20 +43,20 @@ Exchange Online에 사서함이 있는 Microsoft 365 조직에서는 조직의 �
 
   - 사용자가 Outlook 또는 웹용 **Outlook에서** 자신에 대해 구성하는 정크 메일 설정: 수신 금지 목록 모음은 각 사서함의 수신 금지 - 보낸 사람 목록, 수신할 수 있는 받는 사람 목록 및 수신 차단된 보낸 사람 목록입니다.  이러한 목록의 항목에 따라 정크 메일 규칙이 메시지를 받은 편지함 또는 정크 메일 폴더로 이동할지 여부가 결정됩니다. 사용자는 Outlook 또는 웹용 Outlook(이전의 Outlook)에서 자신의 사서함에 대해 safelist 컬렉션을 구성할 수 Outlook Web App. 관리자는 사용자의 사서함에 대해 Safelist 컬렉션을 구성할 수 있습니다.
 
-사서함에서 정크 메일 규칙을 사용하도록 설정하면 EOP는 스팸 필터링 판정 동작에 따라 메시지를 정크  메일 폴더로 이동하고 사서함의 수신 차단된 보낸 사람 목록 또는 정크 메일 폴더로 메시지를 이동하고 사서함의 수신 가능 보낸 사람 목록에 따라 메시지가 정크 메일 폴더로 배달되지 않도록 할 수 있습니다.
+사서함에서 정크 메일 규칙을 사용하도록 설정하면 EOP는 스팸 필터링 판정 동작에 따라 메시지를 정크  메일 폴더로 이동하고 사서함의 수신 차단된 보낸 사람 목록 또는 정크 메일 폴더로 메시지를 이동하고, 메시지가 사서함의 수신 가능 보낸 사람 목록에 따라 정크 메일 폴더로 배달되지 않도록 할 수 있습니다.
 
  사서함에서 정크 메일 규칙을 사용하지 않도록 설정하면 EOP는 스팸 필터링 판정 작업에 따라 메시지를 정크 메일 폴더로 이동할 수 **없습니다.**
 
 관리자는 Exchange Online PowerShell을 사용하여 사서함에서 정크 메일 규칙의 상태를 사용하지 않도록 설정하고, 사용하도록 설정하고, 볼 수 있습니다. 관리자는 Exchange Online PowerShell을 사용하여 사서함의 수신 금지 목록 모음(수신-보낸 사람 목록, 수신 -받는 사람 목록 및 수신 금지된 보낸 사람 목록)의 항목을 구성할 수도 있습니다.
 
 > [!NOTE]
-> 사용자가 자신의 수신이 가능한 보낸 사람 목록에 추가한 보낸 사람이 보낸 메시지는 EOP의 일부로 연결 필터링을 건너뜁습니다(SCL은 -1). 사용자가 Outlook의 수신 수신 -보낸 사람 목록에 항목을 추가하지 못하게 방지하려면 이 문서의 부분에 있는  [Outlook의](#about-junk-email-settings-in-outlook) 정크 메일 정보 설정에 설명된 그룹 정책을 사용합니다. 정책 필터링, Office 365용 콘텐츠 필터링 및 Defender 검사는 메시지에 계속 적용됩니다.
+> 사용자가 자신의 수신이 가능한 보낸 사람 목록에 추가한 보낸 사람이 보낸 메시지는 EOP의 일부로 연결 필터링을 건너뜁습니다(SCL은 -1). 사용자가 Outlook의 수신 수신 -보낸 사람 목록에 항목을 추가하지 못하게 방지하려면 이 문서 부분의  [Outlook](#about-junk-email-settings-in-outlook) 섹션에서 정크 메일 정보 설정에 설명된 그룹 정책을 사용합니다. 정책 필터링, Office 365용 콘텐츠 필터링 및 Defender 검사는 메시지에 계속 적용됩니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 이 문서의 절차를 수행하기 위해 Exchange Online PowerShell만 사용할 수 있습니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
-- 이 문서의 절차를 수행하려면 먼저 Exchange Online에서 사용 권한을 할당해야 합니다. 특히 조직 관리, 받는 사람 관리 및 사용자 지정 메일 받는  사람 역할 그룹에 기본적으로 할당되는  **메일** 받는 사람 역할 또는  사용자 옵션 역할(기본적으로 조직 관리 및 **지원** 센터 역할 그룹에 할당)이 필요합니다.  Exchange Online의 역할 그룹에 사용자를 추가하려면 Exchange Online에서 역할 [그룹 수정을 참조하세요.](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 기본 권한이 있는 사용자는 [Exchange Online PowerShell에](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)액세스할 수 있는 한 자신의 사서함에서 이와 동일한 절차를 수행 할 수 있습니다.
+- 이 문서의 절차를 수행하려면 먼저 Exchange Online에서 사용 권한을 할당해야 합니다. 특히 조직 관리, 받는 사람 관리 및 사용자 지정 메일 받는  사람 역할 그룹에 기본적으로 할당되는  **메일** 받는 사람 역할 또는  사용자 옵션 역할(기본적으로 조직 관리 및 **지원** 센터 역할 그룹에 할당)이 필요합니다.  Exchange Online의 역할 그룹에 사용자를 추가하려면 Exchange Online에서 역할 [그룹 수정을 참조하세요.](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 기본 권한이 있는 사용자는 [Exchange Online PowerShell에](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)액세스할 수 있는 한 자신의 사서함에서 동일한 절차를 수행 할 수 있습니다.
 
 - EOP로 온-프레미스 Exchange 사서함을 보호하는 독립 실행형 EOP 환경에서는 EOP 스팸 필터링 결과를 변환하여 정크 메일 규칙에 따라 메시지를 정크 메일 폴더로 이동하기 위해 온-프레미스 Exchange에서 메일 흐름 규칙(전송 규칙이라고도 함)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.
 
@@ -95,7 +95,7 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
-사서함에서 정크 메일 규칙을 사용하도록 설정하거나 사용하지 않도록 설정한 경우 다음 절차를 수행하십시오.
+사서함에서 정크 메일 규칙을 사용하도록 설정하거나 사용하지 않도록 설정한 경우 다음 절차를 사용하세요.
 
 - 사서함의 이름, 별칭 또는 전자 메일 주소로 바꾸고 다음 명령을 실행하여 Enabled 속성 값을 _\<MailboxIdentity\>_ 확인합니다. 
 
@@ -114,7 +114,7 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 |_BlockedSendersAndDomains_|**이러한 보낸 사람 또는 도메인에서 정크 메일 폴더로 전자 메일 이동**|
 |_ContactsTrusted_|**연락처의 전자 메일 신뢰**|
 |_TrustedListsOnly_|**수신 허용 - 보낸 사람 및 도메인 목록 및 수신 허용 - 메일 목록의 주소에서 전자 메일만 신뢰**|
-|_TrustedSendersAndDomains_<sup>\*</sup>|**이러한 보낸 사람이 내 정크 메일 폴더로 전자 메일을 이동하지 않습니다.**|
+|_TrustedSendersAndDomains_<sup>\*</sup>|**이러한 보낸 사람이 보낸 전자 메일을 정크 메일 폴더로 이동하지 않습니다.**|
 |
 
 <sup>\*</sup>**참고**:
@@ -131,9 +131,9 @@ Set-MailboxJunkEmailConfiguration <MailboxIdentity> -BlockedSendersAndDomains <E
 
 여러 값을 입력하고 _BlockedSendersAndDomains_ 및 _TrustedSendersAndDomains_ 매개 변수에 대한 기존 항목을 덮어치기 위해 다음 구문을 `"<Value1>","<Value2>"...` 사용합니다. 다른 기존 항목에 영향을 주지 않고 하나 이상의 값을 추가하거나 제거하려면 다음 구문을 사용합니다. `@{Add="<Value1>","<Value2>"... ; Remove="<Value3>","<Value4>...}`
 
-이 예에서는 Ori Epstein의 사서함에 있는 safelist 컬렉션에 대해 다음 설정을 구성합니다.
+이 예에서는 Ori Epstein의 사서함에서 safelist 컬렉션에 대해 다음 설정을 구성합니다.
 
-- 수신 shopping@fabrikam.com 보낸 사람 목록에 값을 추가합니다.
+- 수신 shopping@fabrikam.com 보낸 사람 목록에 추가합니다.
 
 - 수신 chris@fourthcoffee.com 보낸 사람 목록 및 수신할 수 있는 받는 사람 목록에서 값을 제거합니다.
 
@@ -190,7 +190,7 @@ Outlook 정크 메일 필터를  낮음 또는 높음으로 설정하면 Outlook
 
 Outlook과 웹에서 Outlook은 모두 Safelist 컬렉션을 지원합니다. Safelist 컬렉션은 Exchange Online 사서함에 저장되어 Outlook의 Safelist 컬렉션에 대한 변경 내용은 웹용 Outlook에 표시되고 그 반대의 경우도 마찬가지입니다.
 
-## <a name="limits-for-junk-email-settings"></a>정크 메일 설정에 대한 제한
+## <a name="limits-for-junk-email-settings"></a>정크 메일 설정 제한
 
 사용자 사서함에 저장된 수신 가능 목록 모음(수신 가능 보낸 사람 목록, 수신 가능 받는 사람 목록 및 수신 차단된 보낸 사람 목록)도 EOP와 동기화됩니다. 디렉터리 동기화를 통해 Safelist 컬렉션이 Azure AD에 동기화됩니다.
 
@@ -207,7 +207,7 @@ Outlook과 웹에서 Outlook은 모두 Safelist 컬렉션을 지원합니다. Sa
 
   1024 항목 제한에 도달하면 다음과 같은 상황이 발생하게됩니다.
 
-  - 목록에는 PowerShell 및 웹에서 Outlook의 항목 수락이 중지되지만 오류가 표시되지 않습니다.
+  - 목록에는 PowerShell 및 웹에서 Outlook 항목 수락이 중지되지만 오류가 표시되지 않습니다.
 
     Outlook 사용자는 Outlook 제한인 510 KB에 도달할 때까지 1024개가 넘는 항목을 계속 추가할 수 있습니다. EOP 필터가 사서함으로 배달되기 전에 메시지를 차단하지 않는 한 Outlook에서는 이러한 추가 항목을 사용할 수 있습니다(메일 흐름 규칙, 스푸핑 방지 등).
 

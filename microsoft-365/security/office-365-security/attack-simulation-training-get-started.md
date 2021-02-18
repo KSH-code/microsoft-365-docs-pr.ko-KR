@@ -1,5 +1,5 @@
 ---
-title: 공격 시뮬레이션 교육 사용 시작
+title: 공격의 신나는 교육 사용 시작
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,15 +17,17 @@ ms.collection:
 - m365initiative-m365-defender
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 공격 시뮬레이션 교육을 사용하여 Microsoft 365 E5 또는 Office 365 계획 2용 Microsoft Defender에서 시뮬레이션된 피싱 및 암호 공격을 실행하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 2c00fb27748887c6b8e2fa1458b10f0c3405eef7
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+description: 관리자는 Microsoft 365 E5 또는 Microsoft Defender for Office 365 Plan 2 조직에서 공격 시뮬레이션 교육을 사용하여 시뮬레이션된 피싱 및 암호 공격을 실행하는 방법을 배울 수 있습니다.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 1ec5b8175db6eb03e59a31a4dc21d9649c5e7616
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877167"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289899"
 ---
-# <a name="get-started-using-attack-simulation-training"></a>공격 시뮬레이션 교육 사용 시작
+# <a name="get-started-using-attack-simulation-training"></a>공격의 신나는 교육 사용 시작
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -35,17 +36,17 @@ ms.locfileid: "49877167"
 > [!NOTE]
 > 공격 시뮬레이션 교육은 [Office 365용 Microsoft Defender의](attack-simulator.md)공격 시뮬레이터에 설명된 이전 공격 시뮬레이터 v1 환경을 대체합니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - Microsoft 보안 센터를 열기 위해 . <https://security.microsoft.com/> 공격 시뮬레이션 교육은 전자 메일 및 공동 작업 공격 **시뮬레이션** \> **교육에서 사용할 수 있습니다.** 공격 시뮬레이션 교육으로 직접 이동하기 위해 를 열고 <https://security.microsoft.com/attacksimulator> .
 
 - 여러 Microsoft 365 구독에서 공격 시뮬레이션 교육의 가용성에 대한 자세한 내용은 [Microsoft Defender for Office 365 서비스 설명을 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
-- 이 문서의 절차를 수행하려면 먼저 보안 & 준수 센터 또는 Azure Active Directory에서 사용 권한을 할당해야 합니다. 특히 조직 관리의 구성원 또는 보안 관리자 또는 다음 역할 중 하나에 해당해야 합니다.
+- 이 문서의 절차를 수행하려면 먼저 Security & 준수 센터 또는 Azure Active Directory에서 사용 권한을 할당해야 합니다. 특히 조직 관리의 구성원 또는 보안 관리자 또는 다음 역할 중 하나에 해당해야 합니다.
   - **공격 시뮬레이터 관리자:** 공격 시뮬레이션 캠페인의 모든 측면을 만들고 관리합니다.
   - **공격 시뮬레이터 페이로드 작성자:** 관리자가 나중에 시작할 수 있는 공격 페이로드를 만드세요.
 
-  자세한 내용은 보안 및 준수 센터 또는 & [정보의](permissions-in-the-security-and-compliance-center.md) 사용 [권한을 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
+  자세한 내용은 보안 및 준수 센터 또는 & [정보의](permissions-in-the-security-and-compliance-center.md) 사용 [권한을 참조하세요.](../../admin/add-users/about-admin-roles.md)
 
 - 공격 시뮬레이션 교육을 위한 해당 PowerShell cmdlet은 없습니다.
 
@@ -59,11 +60,11 @@ ms.locfileid: "49877167"
 
 - **자격 증명 수집**: 공격자가 URL이 포함된 메시지를 받는 사람에게 보냅니다. 받는 사람이 URL을 클릭하면 일반적으로 사용자에게 사용자 이름과 암호를 묻는 대화 상자가 표시되는 웹 사이트로 이동됩니다. 일반적으로 대상 페이지는 사용자 신뢰를 구축하기 위해 잘 알려진 웹 사이트를 나타내기 위한 것입니다.
 
-- **맬웨어 첨부** 파일 : 공격자가 첨부 파일이 포함된 메시지를 받는 사람에게 보냅니다. 받는 사람이 첨부 파일을 열면 사용자의 장치에서 임의의 코드(예: 매크로)가 실행하여 공격자가 추가 코드를 설치하거나 추가 코드를 직접 설치하는 데 도움을 줄 수 있습니다.
+- **맬웨어 첨부** 파일 : 공격자가 첨부 파일이 포함된 메시지를 받는 사람에게 보냅니다. 받는 사람이 첨부 파일을 열면 공격자가 추가 코드를 설치하거나 추가 코드를 직접 설치하는 데 도움을 줄 수 있도록 사용자의 장치에서 임의의 코드(예: 매크로)가 실행됩니다.
 
 - **첨부 파일 링크**: 자격 증명 수집의 하이브리드입니다. 공격자는 첨부 파일 내부의 URL이 포함된 메시지를 받는 사람에게 보냅니다. 받는 사람이 첨부 파일을 열고 URL을 클릭하면 일반적으로 사용자에게 사용자 이름과 암호를 묻는 대화 상자가 표시되는 웹 사이트로 이동됩니다. 일반적으로 대상 페이지는 사용자 신뢰를 구축하기 위해 잘 알려진 웹 사이트를 나타내기 위한 것입니다.
 
-- **맬웨어에** 대한 링크: 공격자는 잘 알려진 파일 공유 사이트의 첨부 파일에 대한 링크가 포함된 메시지를 받는 사람에게 보냅니다(예: SharePoint Online 또는 Dropbox). 받는 사람이 URL을 클릭하면 첨부 파일이 열리며 사용자의 장치에서 임의의 코드(예: 매크로)가 실행됩니다. 공격자가 추가 코드를 설치하거나 추가 코드를 직접 설치하는 데 도움을 줄 수 있습니다.
+- **맬웨어에** 대한 링크: 공격자는 잘 알려진 파일 공유 사이트의 첨부 파일에 대한 링크가 포함된 메시지를 받는 사람에게 보냅니다(예: SharePoint Online 또는 Dropbox). 받는 사람이 URL을 클릭하면 첨부 파일이 열리며 사용자의 장치에서 매크로와 같은 임의 코드가 실행됩니다. 공격자가 추가 코드를 설치하거나 추가 코드를 직접 설치하는 데 도움을 줄 수 있습니다.
 
 - **드라이브-URL:** 공격자는 URL이 포함된 메시지를 받는 사람에게 보냅니다. 받는 사람이 URL을 클릭하면 백그라운드 코드를 실행하는 웹 사이트로 이동됩니다. 이 백그라운드 코드는 받는 사람에 대한 정보를 수집하거나 장치에 임의 코드를 배포하려고 시도합니다. 일반적으로 대상 웹 사이트는 손상된 잘 알려진 웹 사이트 또는 잘 알려진 웹 사이트의 복제본입니다. 웹 사이트에 대해 잘 알고 있는 경우 링크를 클릭하기에 안전한지 사용자에게 확신할 수 있습니다. 이 기술을 워터홀 _공격(watering hole attack)라고도 합니다._
 

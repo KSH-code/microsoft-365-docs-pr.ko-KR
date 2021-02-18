@@ -19,12 +19,12 @@ search.appverid:
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b1425015843b2f444c6a410df449eeeaf4045ee5
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: a8fb8557d6cd2677aeb6dcda75d34e86ada8f68c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261428"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290672"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -65,7 +65,7 @@ DLP 보고서를 사용하여 다음을 수행할 수 있습니다.
 
 DLP 보고서는 보안 센터 및 규정 준수 센터에 있습니다. 보고서 \> 보고서 보기로 이동합니다. DLP(데이터 손실 방지)에서 DLP 정책 및 규칙 일치 또는 DLP 가양성 및 재정의로 이동합니다.
 
-자세한 내용은 [데이터 손실 방지에 대한 보고서 보기](https://docs.microsoft.com/microsoft-365/compliance/view-the-dlp-reports)를 참조하세요.
+자세한 내용은 [데이터 손실 방지에 대한 보고서 보기](../../compliance/view-the-dlp-reports.md)를 참조하세요.
 
 ![DLP 정책 일치를 표시하는 보고서](../../media/Monitor-for-leaks-of-personal-data-image2.png)
 
@@ -87,17 +87,17 @@ Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 �
 
 경고 정책 및 감사 로그 검색에 대한 자세한 정보:
 
-- [Microsoft 365 보안 및 규정 준수 센터의 알림 정책](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)
+- [Microsoft 365 보안 및 규정 준수 센터의 알림 정책](../../compliance/alert-policies.md)
 
-- [Office 365의 감사 로그에서 사용자 및 관리자 활동 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log)(소개)
+- [Office 365의 감사 로그에서 사용자 및 관리자 활동 검색](../../compliance/search-the-audit-log-in-security-and-compliance.md)(소개)
 
-- [감사 로그 검색 켜기 또는 끄기](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+- [감사 로그 검색 켜기 또는 끄기](../../compliance/turn-audit-log-search-on-or-off.md)
 
-- [감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [감사 로그 검색](../../compliance/search-the-audit-log-in-security-and-compliance.md)
 
 - [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog)(cmdlet)
 
-- [감사 로그의 자세한 속성](https://docs.microsoft.com/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log)
+- [감사 로그의 자세한 속성](../../compliance/detailed-properties-in-the-office-365-audit-log.md)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 

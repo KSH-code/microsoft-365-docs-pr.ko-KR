@@ -1,5 +1,5 @@
 ---
-title: Office 365용 Microsoft Defender와 SIEM 통합
+title: Microsoft Defender for Office 365와 SIEM 통합
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -7,7 +7,6 @@ author: denisebmsft
 manager: dansimp
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -18,14 +17,21 @@ ms.collection:
 - M365-security-compliance
 description: 조직의 SIEM 서버를 Office 365용 Microsoft Defender 및 Office 365 활동 관리 API의 관련 위협 이벤트와 통합합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 93ff1606130c60ceb46087d28bb26f9a6d27d330
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: f637750a31b5034d2ee1110ab0070fa6abcda49b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615663"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290396"
 ---
 # <a name="siem-integration-with-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365와 SIEM 통합
+
+**적용 대상**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 

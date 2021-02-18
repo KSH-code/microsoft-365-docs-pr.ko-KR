@@ -5,7 +5,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.article: how-to
+ms.topic: article
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,21 +15,21 @@ ms.collection:
 description: Microsoft 365 관리자는 랜섬웨어 공격으로부터 복구하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b834adb3d9ba5f85984e09b4bb1e4b48673c32f2
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 120dd9ae71f04d6921fae95965f56f0a08f1280c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166906"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289308"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Microsoft 365의 랜섬웨어 공격으로부터 복구
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 조직을 보호하기 위해 모든 예방 조치를 취하는 경우에도 랜섬웨어 공격의 피해자가 될 [수](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) 있습니다. 랜섬웨어는 대기업이자 공격은 매우 정교합니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "50166906"
 
 ## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>2단계: Exchange ActiveSync 및 OneDrive 동기화를 사용하지 않도록 설정
 
-여기서 핵심적인 점은 랜섬웨어에 의해 데이터 암호화 확산을 중지하는 것입니다.
+여기서 핵심적인 점은 랜섬웨어에 의해 데이터 암호화의 확산을 중지하는 것입니다.
 
 전자 메일이 랜섬웨어 암호화의 대상으로 의심되는 경우 사서함에 대한 사용자 액세스를 일시적으로 사용하지 않도록 설정하십시오. Exchange ActiveSync Exchange Online 사서함 간에 데이터를 동기화할 수 있습니다.
 
@@ -75,15 +75,15 @@ OneDrive 동기화를 Pausing하면 잠재적으로 감염된 장치에 의해 �
 
 랜섬웨어 또는 맬웨어를 제거하는 데 도움이 되는 [MSRT(악성](https://www.microsoft.com/download/details.aspx?id=9905)소프트웨어 제거 도구)를 대신 사용할 수 있습니다.
 
-이러한 옵션이 작동하지 않는 경우 오프라인으로 전환하거나 Windows Defender 맬웨어 검색 및 제거 문제를 [해결할 수 있습니다.](https://support.microsoft.com/help/4466982) [](https://support.microsoft.com/help/17466)
+이러한 옵션이 작동하지 않는 경우 오프라인으로 Windows Defender 맬웨어 검색 및 제거 문제를 해결할 [수 있습니다.](https://support.microsoft.com/help/4466982) [](https://support.microsoft.com/help/17466)
 
 ## <a name="step-4-recover-files-on-a-cleaned-computer-or-device"></a>4단계: 정리된 컴퓨터 또는 장치에서 파일 복구
 
 사용자 환경에서 랜섬웨어 페이로드를 제거하는 이전 단계를 완료한 후(랜섬웨어가 파일을 암호화하거나 제거하지 못하게 하여) Windows 10 및 Windows 8.1의 파일 기록 또는 Windows 7의 시스템 보호를 사용하여 로컬 파일 및 폴더를 복구할 수 있습니다. [](https://support.microsoft.com/help/17128)
 
-**참고**:
+**참고:**
 
-- 일부 랜섬웨어는 또한 백업 버전을 암호화하거나 삭제하기 때문에 파일 기록 또는 시스템 보호를 사용하여 파일을 복원할 수 없습니다. 이 경우 다음 섹션에 설명된 바와 같이 랜섬웨어 또는 OneDrive의 영향을 받지 않는 외부 드라이브 또는 장치에서 백업을 사용해야 합니다.
+- 일부 랜섬웨어는 또한 백업 버전을 암호화하거나 삭제하기 때문에 파일 기록 또는 시스템 보호를 사용하여 파일을 복원할 수 없습니다. 이 경우 다음 섹션에 설명된 바와 같이 랜섬웨어 또는 OneDrive의 영향을 받지 않는 외부 드라이브 또는 디바이스에서 백업을 사용해야 합니다.
 
 - 폴더가 OneDrive와 동기화된 경우 최신 버전의 Windows를 사용하지 않는 경우 파일 기록을 사용하는 데 몇 가지 제한이 있을 수 있습니다.
 
@@ -145,7 +145,7 @@ OneDrive 동기화를 Pausing하면 잠재적으로 감염된 장치에 의해 �
 
 - [랜섬웨어 응답 - 지불할지 또는 지불하지 않을 것인가?](https://www.microsoft.com/security/blog/2019/12/16/ransomware-response-to-pay-or-not-to-pay/)
 
-- [Norsk의 랜섬웨어 공격에 투명성으로 대응](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
+- [Norsk 연산은 투명성을 통해 랜섬웨어 공격에 대응합니다.](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
 
 - [OneDrive에서 랜섬웨어 검색 및 파일 복구](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 

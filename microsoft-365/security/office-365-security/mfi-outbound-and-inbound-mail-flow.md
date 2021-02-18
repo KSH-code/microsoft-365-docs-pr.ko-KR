@@ -13,33 +13,33 @@ ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 아웃바운드 및 & 정보를 얻을 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fcce6981369217f21ace5fdf2abbf23ca8606569
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 87c5bd9ab0d550f50feabbb96176debbe04863e5
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150811"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289452"
 ---
 # <a name="outbound-and-inbound-mail-flow-insight-in-the-security--compliance-center"></a>보안 및 준수 센터의 아웃바운드 및 & 흐름 정보
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 [](mail-flow-insights-v2.md) Security [](view-mail-flow-reports.md#connector-report) **&** 준수 센터의 메일 흐름 대시보드에 [](https://protection.office.com) 있는 아웃바운드 및 인바운드 메일 흐름 정보는 커넥터 보고서와 이전 **TLS** 개요 보고서의 정보를 한 곳으로 결합합니다.
 
 위젯에는 조직으로 메시지를 배달할 때 연결에 사용되는 TLS 암호화가 표시됩니다. 다른 전자 메일 서비스와 함께 설정한 연결은 양측에서 TLS를 제공하는 경우 TLS로 암호화됩니다. 위젯은 메일 흐름의 마지막 주에 대한 스냅숏을 제공합니다.
 
-![보안 및 준수 센터의 메일 흐름 대시보드에 있는 & 및 인바운드 메일 흐름 위젯](../../media/mfi-outbound-and-inbound-mail-flow-report-widget.png)
+![보안 및 준수 센터의 메일 흐름 대시보드에서 아웃바운드 & 및 인바운드 메일 흐름 위젯](../../media/mfi-outbound-and-inbound-mail-flow-report-widget.png)
 
 위젯의 정보는 Microsoft 365의 커넥터 및 TLS 메시지 보호와 관련이 있습니다. 자세한 내용은 다음 항목을 참조하세요.
 
 - [커넥터를 사용하여 메일 흐름 구성](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)
-- [Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법](https://docs.microsoft.com/microsoft-365/compliance/exchange-online-uses-tls-to-secure-email-connections)
-- [Microsoft 365의 암호화에 대한 기술 참조 세부 정보](https://docs.microsoft.com/microsoft-365/compliance/technical-reference-details-about-encryption)
+- [Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법](../../compliance/exchange-online-uses-tls-to-secure-email-connections.md)
+- [Microsoft 365의 암호화에 대한 기술 참조 세부 정보](../../compliance/technical-reference-details-about-encryption.md)
 
 ## <a name="message-protected-in-transit-by-tls"></a>전송 중(TLS로 보호된 메시지)
 
@@ -49,7 +49,7 @@ ms.locfileid: "50150811"
 
 현재 TLS 1.2는 Microsoft 365에서 제공하는 가장 안전한 TLS 버전입니다. 준수 감사에 사용되는 TLS 암호화를 알아야 하는 경우가 종종 있습니다. 대부분의 원본 및 대상 전자 메일 서버와 직접적인 관계가 없는 것일 수 있으므로(소유하지도 않은 Microsoft도 아니며) 해당 서버에서 사용되는 TLS 암호화를 개선할 수 있는 옵션이 많지 않습니다.
 
-그러나 커넥터를 [](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 사용하여 전자 메일 서버와 Microsoft 365 간에 전송되는 메시지에 대해 사용 가능한 최상의 TLS 보호를 보장할 수 있습니다. Microsoft 365와 자체 전자 메일 서버 또는 파트너에 속하는 서버 간의 메일 흐름은 일반 메시지보다 더 중요하고 중요한 경우가 종종 있으므로 이러한 메시지에 보안 및 보안 강화를 적용하는 것이 좋습니다.
+그러나 커넥터를 [](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 사용하여 전자 메일 서버와 Microsoft 365 간에 전송되는 메시지에 대해 사용 가능한 최상의 TLS 보호를 보장할 수 있습니다. Microsoft 365와 파트너에 속하는 자체 전자 메일 서버 또는 서버 간의 메일 흐름이 일반 메시지보다 더 중요하고 민감하기 때문에 이러한 메시지에 보안 및 보안 강화를 적용하는 것이 좋습니다.
 
 사용되고 있는 TLS 암호화를 개선하기 위해 자체 전자 메일 서버를 업그레이드하거나 수정하거나 파트너에게 연락하여 동일한 작업을 할 수 있습니다. 커넥터 **보고서에는** Microsoft 365 커넥터를 사용하는 메시지에 대한 메일 흐름 볼륨과 TLS 암호화가 모두 표시됩니다.
 

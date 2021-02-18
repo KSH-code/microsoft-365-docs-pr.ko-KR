@@ -20,25 +20,25 @@ description: 사용자는 보안 또는 규정 준수 기능을 관리하기 전
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9e19825ce0f8224b2aee8e1419ef5d1ad425aadb
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e1a619b184c575e3750b2499adc661627b4d27d6
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165418"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289880"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-사용자는 보안 또는 규정 준수 & 관리하기 전에 보안 및 규정 준수 센터에서 사용 권한을 할당해야 합니다. Security & 준수 센터에서 OrganizationManagement 역할 그룹의 구성원 또는 전역 관리자로 사용자에게 이러한 권한을 부여할 수 있습니다. 사용자는 액세스 권한을 부여 받은 보안 또는 규정 준수 기능만 관리할 수 있습니다.
+사용자는 보안 또는 규정 준수 & 관리하기 전에 보안 및 규정 준수 센터에서 사용 권한을 할당해야 합니다. Security & 준수 센터에서 OrganizationManagement 역할 그룹의 전역 관리자 또는 구성원으로 이러한 권한을 사용자에게 부여할 수 있습니다. 사용자는 액세스 권한을 부여 받은 보안 또는 규정 준수 기능만 관리할 수 있습니다.
 
-Security & 준수 센터에서 사용자에게 부여할 수 있는 다양한 사용 권한에 대한 자세한 내용은 보안 및 준수 센터에서 & [확인하세요.](permissions-in-the-security-and-compliance-center.md)
+Security & 준수 센터에서 사용자에게 부여할 수 있는 다양한 사용 권한에 대한 자세한 내용은 보안 및 준수 센터에서 & [있습니다.](permissions-in-the-security-and-compliance-center.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
@@ -64,7 +64,7 @@ Security & 준수 센터에서 사용자에게 부여할 수 있는 다양한 �
 
 ## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>보안 & 준수 센터 PowerShell을 사용하여 다른 사용자에게 보안 및 준수 센터에 & 권한을 부여합니다.
 
-1. [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+1. [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)합니다.
 
 2. 다음 구문을 사용합니다.
 

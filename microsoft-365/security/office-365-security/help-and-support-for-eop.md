@@ -13,21 +13,21 @@ ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a2b8228d33648f7bd20bde9d9e7b852276231aa6
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 945f3c4e32a6c41193e3df4813cc4ed4fe9f7b1f
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167110"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289796"
 ---
 # <a name="help-and-support-for-eop"></a>EOP에 대한 도움말 및 지원
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Exchange Online 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에 사서함이 있는 Microsoft 365 조직에서는 이 문서에 나열된 기술 지원 리소스를 통해 EOP에 문제가 있는 경우 답변을 찾을 수 있습니다. Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
 
@@ -37,7 +37,7 @@ Exchange Online 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(
 
 [Exchange Online Protection에 대한 제품 개요](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
-[비즈니스용 제품에 대한 고객 지원 센터 문의 - 관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+[비즈니스용 제품에 대한 고객 지원 센터 문의 - 관리자 도움말](../../admin/contact-support-for-business-products.md)
 
 [Microsoft 365 커뮤니티](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 

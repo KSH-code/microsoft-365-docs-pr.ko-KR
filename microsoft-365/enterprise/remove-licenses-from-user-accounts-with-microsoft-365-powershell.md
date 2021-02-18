@@ -20,12 +20,12 @@ ms.custom:
 - O365ITProTrain
 ms.assetid: e7e4dc5e-e299-482c-9414-c265e145134f
 description: PowerShell을 사용하여 이전에 사용자에게 할당된 Microsoft 365 라이선스를 제거하는 방법을 설명 합니다.
-ms.openlocfilehash: 7651f300dbf7a57ce163096d500401365e624663
-ms.sourcegitcommit: c1ee4ed3c5826872b57339e1e1aa33b4d2209711
+ms.openlocfilehash: 8ae7ca1013e26a60f16177f2dab7ced4cc8b97a8
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235457"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289596"
 ---
 # <a name="remove-microsoft-365-licenses-from-user-accounts-with-powershell"></a>PowerShell을 사용하여 사용자 계정에서 Microsoft 365 라이선스 제거
 
@@ -61,30 +61,22 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $license
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
-$licensePlanList = Get-AzureADSubscribedSku
-$userList = Get-AzureADUser -ObjectID $userUPN | Select -ExpandProperty AssignedLicenses | Select SkuID
+$userList = Get-AzureADUser -ObjectID $userUPN
+$Skus = $userList | Select -ExpandProperty AssignedLicenses | Select SkuID
 if($userList.Count -ne 0) {
-if($userList -is [array]) {
-for ($i=0; $i -lt $userList.Count; $i++) {
-$license = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
-$licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
-$license.SkuId = $userList[$i].SkuId
-$licenses.AddLicenses = $license
-Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
-$Licenses.AddLicenses = @()
-$Licenses.RemoveLicenses =  (Get-AzureADSubscribedSku | Where-Object -Property SkuID -Value $userList[$i].SkuId -EQ).SkuID
-Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
+    if($Skus -is [array])
+    {
+        $licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+        for ($i=0; $i -lt $Skus.Count; $i++) {
+            $Licenses.RemoveLicenses +=  (Get-AzureADSubscribedSku | Where-Object -Property SkuID -Value $Skus[$i].SkuId -EQ).SkuID   
+        }
+        Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
+    } else {
+        $licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+        $Licenses.RemoveLicenses =  (Get-AzureADSubscribedSku | Where-Object -Property SkuID -Value $Skus.SkuId -EQ).SkuID
+        Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
+    }
 }
-} else {
-$license = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
-$licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
-$license.SkuId = $userList.SkuId
-$licenses.AddLicenses = $license
-Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
-$Licenses.AddLicenses = @()
-$Licenses.RemoveLicenses =  (Get-AzureADSubscribedSku | Where-Object -Property SkuID -Value $userList.SkuId -EQ).SkuID
-Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
-}}
 ```
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기
@@ -162,7 +154,7 @@ kakers@contoso.com
   Set-MsolUserLicense -UserPrincipalName $x[$i] -RemoveLicenses "<AccountSkuId1>","<AccountSkuId2>"...
   }
   ```
-이 예에서는 C:\My Documents\Accounts.txt 텍스트 파일에 정의된 사용자 계정에서 **litwareinc:ENTERPRISEPACK(Office** 365 Enterprise E3) 라이선스를 Documents\Accounts.txt.
+이 예에서는 텍스트 파일 C:\My Documents\Accounts.txt에 정의된 사용자 계정에서 **litwareinc:ENTERPRISEPACK(Office** 365 Enterprise E3) 라이선스를 Documents\Accounts.txt.
     
   ```powershell
   $x=Get-Content "C:\My Documents\Accounts.txt"

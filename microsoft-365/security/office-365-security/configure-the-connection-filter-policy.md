@@ -19,21 +19,21 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)에서 전자 메일 서버에서 전자 메일을 허용하거나 차단하도록 연결 필터링을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ef81d602e1f6da368e9d469bf1deaf0ef2c0a6af
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: c6ec8b4adcdda692ee561f7d50bacf0511642269
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165754"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290048"
 ---
 # <a name="configure-connection-filtering"></a>연결 필터링 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 
 Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 고객인 경우 EOP의 연결 필터링(특히 기본 연결 필터 정책)을 사용하여 해당 IP 주소로 양호하거나 잘못된 원본 전자 메일 서버를 식별합니다. 기본 연결 필터 정책의 주요 구성 요소는 다음입니다.
@@ -56,15 +56,15 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 - 이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 받아야 합니다.
-  - 기본 연결 필터 정책을 수정하려면 조직 관리 또는  보안 관리자 역할 그룹의 **구성원이** 되어야 합니다.
+  - 기본 연결 필터 정책을 수정하려면 조직 관리 또는  보안 관리자 역할 그룹의 구성원이 **되어야** 합니다.
   - 기본 연결 필터 정책에 대한 읽기 전용 액세스 권한을 사용하려면 전역 읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되어야 합니다. 
 
   자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
   **참고**:
 
-  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요.
-  - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+  - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - 허용하거나 차단할 전자 메일 서버(보낸 사람)의 원본 IP 주소를 찾으면 메시지 헤더에서 연결 **IP(CIP)** 헤더 필드를 확인할 수 있습니다. 다양한 전자 메일 클라이언트에서 메시지 헤더를 확인하려면 Outlook에서 인터넷 [메시지 헤더 보기를 참조하세요.](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c)
 
@@ -94,7 +94,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
    - **IP 차단 목록**: 편집을 **클릭합니다.** 나타나는 **IP 차단** 목록 플라이아웃에서 이전에 IP 허용 목록 설정에 설명된  주소 또는 주소 범위 상자에 단일 IP, IP 범위 또는 CIDR **IP를 입력합니다.**
 
-     IP 주소 또는 주소 범위를 추가하려면 **아이콘** ![ 추가를 ](../../media/ITPro-EAC-AddIcon.png) 클릭합니다. 항목을 제거하려면 차단된 **IP** 주소의 항목을 선택한 다음 **제거를** ![ ](../../media/scc-remove-icon.png) 클릭합니다. 작업을 마쳤으면 **저장** 을 클릭합니다.
+     IP 주소 또는 주소 범위를 추가하려면 **아이콘** ![ 추가를 ](../../media/ITPro-EAC-AddIcon.png) 클릭합니다. 항목을 제거하려면 차단된 IP 주소의 항목을 **선택한** 다음  ![ ](../../media/scc-remove-icon.png) 제거를 클릭합니다. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
    - **수신 가능 목록** 켜기: 수신 가능 목록 사용을 사용하도록 설정하거나 사용하지 않도록 설정하여 스팸 필터링을 건너뛰는 알려진 좋은 보낸 사람도 식별합니다.
 
@@ -116,7 +116,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 Set-HostedConnectionFilterPolicy -Identity Default [-AdminDisplayName <"Optional Comment">] [-EnableSafeList <$true | $false>] [-IPAllowList <IPAddressOrRange1,IPAddressOrRange2...>] [-IPBlockList <IPAddressOrRange1,IPAddressOrRange2...>]
 ```
 
-**참고**:
+**참고:**
 
 - 유효한 IP 주소 또는 주소 범위 값은
 
@@ -130,7 +130,7 @@ Set-HostedConnectionFilterPolicy -Identity Default [-AdminDisplayName <"Optional
 
 - 다른 *기존 항목에* 영향을 주지 않고 IP 주소 또는 주소 범위를 추가하거나 제거하려면 다음 구문을 `@{Add="IPAddressOrRange1","IPAddressOrRange2",...,"IPAddressOrRangeN";Remove="IPAddressOrRange3","IPAddressOrRange4",...,"IPAddressOrRangeN"}` 사용합니다.
 
-- IP 허용 목록 또는 IP 차단 목록을 비우기 위해 이 값을 `$null` 사용하세요.
+- IP 허용 목록 또는 IP 차단 목록을 비우기 위해 값을 `$null` 사용하세요.
 
 이 예에서는 지정된 IP 주소 및 주소 범위를 사용하여 IP 허용 목록 및 IP 차단 목록을 구성합니다.
 
@@ -166,7 +166,7 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 ### <a name="skip-spam-filtering-for-a-cidr-ip-outside-of-the-available-range"></a>CIDR IP에 대해 사용 가능한 범위를 밖으로 스팸 필터링 건너뛰기
 
-이 문서의 앞부분에서 설명한 대로 IP 허용 목록에서 네트워크 마스크가 /24 ~/32인 CIDR IP만 사용할 수 있습니다. /1에서 /23 범위의 원본 전자 메일 서버에서 보낸 메시지에 대해 스팸 필터링을 건너뛰기 위해 Exchange 메일 흐름 규칙(전송 규칙라고도 합니다)을 사용해야 합니다. 그러나 /1 ~ /23 CIDR IP 범위의 IP 주소가 Microsoft의 독점 또는 타사 차단 목록에 표시될 경우 메시지가 차단될 것이기 때문에 가능한 한 이 작업을 하지 않는 것이 좋습니다.
+이 문서의 앞부분에서 설명한 대로 IP 허용 목록에서 네트워크 마스크 /24 ~/32가 있는 CIDR IP만 사용할 수 있습니다. /1에서 /23 범위의 원본 전자 메일 서버에서 보낸 메시지에 대해 스팸 필터링을 건너뛰기 위해 Exchange 메일 흐름 규칙(전송 규칙라고도 합니다)을 사용해야 합니다. 그러나 /1 ~ /23 CIDR IP 범위의 IP 주소가 Microsoft의 독점 또는 타사 차단 목록에 표시될 경우 메시지가 차단될 것이기 때문에 가능한 한 이 작업을 하지 않는 것이 좋습니다.
 
 이제 잠재적인 문제를 완전히 인식했기 때문에 최소한 다음 설정을 사용하여 메일 흐름 규칙을 만들어 이러한 IP 주소의 메시지가 스팸 필터링을 건너뛰게 할 수 있습니다.
 
@@ -196,7 +196,7 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 다음과 같은 시나리오에서는 IP 허용 목록의 전자 메일 서버에서 보낸 메시지에 여전히 스팸 필터링이 적용될 수 있습니다.
 
-- IP 허용 목록의 IP 주소는 Microsoft 365의 모든 테넌트에  있는 IP 기반 인바운드 커넥터(이 테넌트  A)에 구성됩니다. 또한 메시지를 처음 접하는 테넌트 A 및 EOP 서버는 모두 Microsoft 데이터 센터의 동일한 *Active* Directory 포리스트에 있습니다. 이 시나리오에서는 **IPV:CAL이**  메시지의 스팸 [](anti-spam-message-headers.md) 방지 메시지 헤더에 추가되지만(메시지가 스팸 필터링을 무시되었음을 나타) 여전히 스팸 필터링이 적용될 수 있습니다.
+- IP 허용 목록의 IP 주소는 Microsoft 365의 모든 테넌트에  있는 IP 기반 인바운드 커넥터(이 테넌트  A라고도 합니다)에 구성하고, 메시지를 처음 접하는 테넌트 A 및 EOP 서버는 모두 Microsoft 데이터 센터의 동일한 *Active* Directory 포리스트에 있습니다. 이 시나리오에서는 **IPV:CAL이**  메시지의 스팸 [](anti-spam-message-headers.md) 방지 메시지 헤더에 추가되지만(메시지가 스팸 필터링을 무시되었음을 나타) 여전히 스팸 필터링이 적용될 수 있습니다.
 
 - IP 허용 목록 및 메시지를 처음 접하는 EOP 서버가 포함된 테넌트는 Microsoft 데이터 센터의 다른 *Active* Directory 포리스트에 있습니다. 이 시나리오에서는 **IPV:CAL이**  메시지 헤더에 추가되지 않습니다. 따라서 메시지에 여전히 스팸 필터링이 적용될 수 있습니다.
 
@@ -210,4 +210,4 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 ****
 
-![](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Microsoft 365에** 새로 추가된 LinkedIn Learning의 짧은 아이콘 LinkedIn Learning에서 제공한 **Microsoft 365** 관리자 및 IT pros를 위한 무료 비디오 과정을 검색합니다.
+![](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Microsoft 365의** 새로운 LinkedIn Learning에 대한 짧은 아이콘이 있나요? LinkedIn Learning에서 제공한 **Microsoft 365** 관리자 및 IT pros를 위한 무료 비디오 과정을 검색합니다.
