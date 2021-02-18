@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: 보안 준수 센터의 DLP(데이터 손실 방지)에는 DLP 정책에 사용할 준비가 된 80가지 중요한 정보 &amp; 유형이 포함되어 있습니다. 이 문서에서는 이러한 모든 중요한 정보 유형을 나열하고 DLP 정책이 각 유형을 감지할 때 검색하는 것을 보여 주며,
-ms.openlocfilehash: 431349ffdfc1a9aa05d071ec5ef10d76919f7465
-ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
+ms.openlocfilehash: d23c6900e9aeb9ad9b550bb069b7a9592faa9b10
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50094748"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288139"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
@@ -56,7 +56,7 @@ ms.locfileid: "50094748"
 - 하이픈
 - 숫자
 
-변형되지 않은: 0, 1, 2, 3, 6, 7 또는 8로 시작하는 9자리 연속 숫자 
+무형: 0, 1, 2, 3, 6, 7 또는 8로 시작하는 9자리 연속 숫자 
 
 ### <a name="checksum"></a>체크 um
 
@@ -99,7 +99,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - bankrouting #
 - bankroutingnumber
 - 라우팅 #
-- 라우팅 아니요
+- routing no
 - 라우팅 번호
 - routing transit number
 - 라우팅 #
@@ -127,7 +127,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 정규식은 Regex_argentina_national_id 일치하는 콘텐츠를 검색합니다.
 - 검색된 Keyword_argentina_national_id 검색됩니다.
 
@@ -182,7 +182,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Regex_australia_bank_account_number_bsb 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 정규식은 Regex_australia_bank_account_number 일치하는 콘텐츠를 찾을 수 있습니다.
+- 정규식은 Regex_australia_bank_account_number 일치하는 콘텐츠를 검색합니다.
 
 - Keyword_australia_bank_account_number의 키워드가 발견되었습니다.
 
@@ -254,7 +254,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이 Func_australian_business_number 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keywords_australian_business_number 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_australian_business_number 일치하는 콘텐츠를 찾을 수 있습니다.
 
 ```xml
@@ -370,7 +370,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Regex_australia_drivers_license_number 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_australia_drivers_license_number의 키워드가 발견되었습니다.
 - Keyword_australia_drivers_license_number_exclusions의 키워드가 발견되지 않았습니다.
@@ -501,10 +501,10 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 ### <a name="pattern"></a>패턴
 
 10-11자리 숫자:
-- 1자리 숫자가 2-6 범위에 있습니다.
-- 9번째 숫자는 검사 숫자입니다.
+- 첫 번째 숫자는 2-6 범위에 있습니다.
+- 9자리 숫자는 검사 숫자입니다.
 - 10번째 숫자는 문제 숫자입니다.
-- 11자리 숫자(선택 사항)는 개별 번호입니다.
+- 11번째 숫자(선택 사항)는 개인 번호입니다.
 
 ### <a name="checksum"></a>체크 um
 
@@ -559,9 +559,9 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Regex_australia_passport_number 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- 검색된 Keyword_passport Keyword_australia_passport_number 검색됩니다.
+- 검색된 Keyword_passport 또는 Keyword_australia_passport_number 키워드가 발견됩니다.
 
 ```xml
 <!-- Australia Passport Number -->
@@ -589,7 +589,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - passportnumber
 - パスポート
 - パスポート番号
-- ೺೺臲೺
+- ೺೺೺臲
 - パスポート ＃ 
 - Numéro de passeport
 - Passeport n °
@@ -680,7 +680,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
   
 - `Regex_austria_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_austria_eu_driver's_license_number` 발견되거나 발견됩니다. 
@@ -760,7 +760,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -856,7 +856,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
   
 - `Regex_austria_eu_national_id_card`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_austria_eu_national_id_card` 발견됩니다. 
@@ -904,7 +904,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_austria_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_eu_passport_date1`정규식이 DD.MM.YYYY 형식의 날짜를 찾거나 키워드를 `Keywords_eu_passport_date` 찾은 경우
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_austria_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_austria_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -957,6 +957,10 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - Passnummer
 - reisepässe
 
+#### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
+
+- 문제의 날짜
+- 만료 날짜
 
 ## <a name="austria-social-security-number"></a>오스트리아 사회 보장 번호
 
@@ -982,7 +986,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_austria_eu_ssn_or_equivalent` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_austria_eu_ssn_or_equivalent` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_austria_eu_ssn_or_equivalent` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
 ```xml
@@ -1117,11 +1121,11 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - T 또는 t
 - 선택적 공백
 - U 또는 u
-- 선택적 공간
+- 선택적 공백
 - 2-3자리 숫자
-- 선택적 공간
+- 선택적 공백
 - 4자리 숫자
-- 선택적 공간
+- 선택적 공백
 - 1-2자리 숫자
 
 ### <a name="checksum"></a>체크 um
@@ -1134,7 +1138,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이 Func_Austria_Value_Added_Tax 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keyword_Austria_Value_Added_Tax 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_Austria_Value_Added_Tax 일치하는 콘텐츠를 찾을 수 있습니다.
 
 ```xml
@@ -1165,7 +1169,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - mwstnummer
 - ust.-identifikationsnummer
 - umsatzsteuer-identifikationsnummer
-- vat identification number
+- vat id number
 - atu number
 - uid number
 
@@ -1192,7 +1196,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 정규식은 CEP_Regex_AzureDocumentDBAuthKey 일치하는 콘텐츠를 검색합니다.
-- 정규식 CEP_CommonExampleKeywords 패턴과 일치하는 콘텐츠를 찾을 수 없습니다.
+- 정규식 CEP_CommonExampleKeywords 일치하는 콘텐츠를 찾지 못합니다.
 
 ```xml
 <!-- Azure Document DB Auth Key -->
@@ -1226,21 +1230,21 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 ### <a name="format"></a>형식
 
-문자열 "Server", "server" 또는 "data source" 다음에 문자열 "cloudapp.azure"를 포함하여 아래 패턴에 설명된 문자와 문자열이 표시됩니다.<!--no-hyperlink-->com" 또는 "cloudapp.azure.<!--no-hyperlink-->net" 또는 "database.windows.<!--no-hyperlink-->net", 문자열 "Password" 또는 "password" 또는 "pwd".
+문자열 "Server", "server", "data source" 및 그 다음에 문자열 "cloudapp.azure"를 포함하여 아래 패턴에 설명된 문자와 문자열이 표시됩니다.<!--no-hyperlink-->com" 또는 "cloudapp.azure.<!--no-hyperlink-->net" 또는 "database.windows.<!--no-hyperlink-->net", 문자열 "Password" 또는 "password" 또는 "pwd".
 
 ### <a name="pattern"></a>패턴
 
 - 문자열 "Server", "server" 또는 "data source"
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 등호(=)
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 소문자, 숫자, 기호, 특수 문자 또는 공백의 조합
 - 문자열 "cloudapp.azure.<!--no-hyperlink-->com", "cloudapp.azure.<!--no-hyperlink-->net" 또는 "database.windows.<!--no-hyperlink-->net"
-- 소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 모든 조합
+- 소문자, 숫자, 기호, 특수 문자 또는 공백의 조합
 - 문자열 "Password", "password" 또는 "pwd"
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 등호(=)
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 세미콜론(;), 인용 부호(") 또는 아포스트로피(')가 아닌 하나 이상의 문자
 - 세미코론(;), 인용 부호(") 또는 아포스트로피(')
 
@@ -1252,7 +1256,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 정규식은 CEP_Regex_AzureConnectionString 일치하는 콘텐츠를 검색합니다.
-- 정규식 CEP_CommonExampleKeywords 패턴과 일치하는 콘텐츠를 찾을 수 없습니다.
+- 정규식 CEP_CommonExampleKeywords 일치하는 콘텐츠를 찾지 못합니다.
 
 ```xml
 <!--Azure IAAS Database Connection String and Azure SQL Connection String-->
@@ -1286,21 +1290,21 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 ### <a name="format"></a>형식
 
-문자열 "HostName" 다음에 아래 패턴에 설명된 문자와 문자열("azure-devices" 문자열 포함)<!--no-hyperlink-->net" 및 "SharedAccessKey".
+문자열 "HostName"과 아래 패턴에 설명된 문자 및 문자열("azure-devices" 문자열 포함)<!--no-hyperlink-->net" 및 "SharedAccessKey".
 
 ### <a name="pattern"></a>패턴
 
 - 문자열 "HostName"
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 등호(=)
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 소문자, 숫자, 기호, 특수 문자 또는 공백의 조합
 - 문자열 "azure-devices.<!--no-hyperlink-->net"
 - 소문자, 숫자, 기호, 특수 문자 또는 공백의 조합
 - 문자열 "SharedAccessKey"
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 등호(=)
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 소문자 또는 대문자 43자, 숫자, 슬래시(/) 또는 더하기 기호(+)의 조합
 - 등호(=)
 
@@ -1312,7 +1316,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 정규식은 CEP_Regex_AzureIoTConnectionString 일치하는 콘텐츠를 검색합니다.
-- 정규식 CEP_CommonExampleKeywords 패턴과 일치하는 콘텐츠를 찾을 수 없습니다.
+- 정규식 CEP_CommonExampleKeywords 일치하는 콘텐츠를 찾지 못합니다.
 
 ```xml
 <!--Azure IoT Connection String-->
@@ -1362,7 +1366,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 정규식은 CEP_Regex_AzurePublishSettingPasswords 일치하는 콘텐츠를 검색합니다.
-- 정규식 CEP_CommonExampleKeywords 패턴과 일치하는 콘텐츠를 찾을 수 없습니다.
+- 정규식 CEP_CommonExampleKeywords 일치하는 콘텐츠를 찾지 못합니다.
 
 
 ```xml
@@ -1404,9 +1408,9 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 문자열 "redis.cache.windows.<!--no-hyperlink-->net"
 - 소문자, 숫자, 기호, 특수 문자 또는 공백의 조합
 - 문자열 "password" 또는 "pwd"
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 등호(=)
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 대문자, 숫자, 슬래시(/) 또는 더하기 기호(+)가 있는 43자 조합
 - 등호(=)
 
@@ -1418,7 +1422,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - 정규식은 CEP_Regex_AzureRedisCacheConnectionString 일치하는 콘텐츠를 검색합니다.
-- 정규식 CEP_CommonExampleKeywords 패턴과 일치하는 콘텐츠를 찾을 수 없습니다.
+- 정규식 CEP_CommonExampleKeywords 일치하는 콘텐츠를 찾지 못합니다.
 
 ```xml
 <!--Azure Redis Cache Connection String-->
@@ -1457,9 +1461,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="pattern"></a>패턴
 
 - 문자열 "sig"
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 등호(=)
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 대문자, 숫자 또는 백분율 기호(%) 중 소문자 또는 대문자인 43-53자 사이의 조합
 - 문자열 "%3d"
 - 대문자, 숫자 또는 백분율 기호(%)가 아닌 문자
@@ -1471,7 +1475,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
-- 정규식은 CEP_Regex_AzureSAS 일치하는 콘텐츠를 검색합니다.
+- 정규식은 CEP_Regex_AzureSAS 일치하는 콘텐츠를 찾을 수 있습니다.
 
 ```xml
 <!--Azure SAS-->
@@ -1491,16 +1495,16 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 ### <a name="pattern"></a>패턴
 
 - 문자열 "EndPoint"
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 등호(=)
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 소문자, 숫자, 기호, 특수 문자 또는 공백의 조합
 - 문자열 "servicebus.windows.<!--no-hyperlink-->net"
 - 소문자, 숫자, 기호, 특수 문자 또는 공백의 조합
 - 문자열 "SharedAccessKey"
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 등호(=)
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 대문자, 숫자, 슬래시(/) 또는 더하기 기호(+)가 있는 43자 조합
 - 등호(=)
 
@@ -1512,7 +1516,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - 정규식은 CEP_Regex_AzureServiceBusConnectionString 일치하는 콘텐츠를 검색합니다.
-- 정규식 CEP_CommonExampleKeywords 패턴과 일치하는 콘텐츠를 찾을 수 없습니다.
+- 정규식 CEP_CommonExampleKeywords 일치하는 콘텐츠를 찾지 못합니다.
 
 ```xml
 <!--Azure Service Bus Connection String-->
@@ -1546,19 +1550,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식
 
-"DefaultEndpointsProtocol" 문자열 다음에 문자열 "AccountKey" 문자열을 포함하여 아래 패턴에 설명된 문자와 문자열이 표시됩니다.
+문자열 "DefaultEndpointsProtocol"에는 문자열 "AccountKey"를 포함하여 아래 패턴에 설명된 문자와 문자열이 따릅니다.
 
 ### <a name="pattern"></a>패턴
 
 - 문자열 "DefaultEndpointsProtocol"
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 등호(=)
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 소문자, 숫자, 기호, 특수 문자 또는 공백의 조합
 - 문자열 "AccountKey"
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 등호(=)
-- 0에서 두 개의 공백 문자
+- 0에서 2개의 공백 문자
 - 대문자, 숫자, 슬래시(/) 또는 더하기 기호(+)가 있는 86자 조합
 - 등호 2개(=)
 
@@ -1571,7 +1575,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 정규식은 CEP_Regex_AzureStorageAccountKey 일치하는 콘텐츠를 검색합니다.
 - 정규식 CEP_AzureEmulatorStorageAccountFilter 패턴과 일치하는 콘텐츠를 찾을 수 없습니다.
-- 정규식 CEP_CommonExampleKeywords 패턴과 일치하는 콘텐츠를 찾을 수 없습니다.
+- 정규식 CEP_CommonExampleKeywords 일치하는 콘텐츠를 찾지 못합니다.
 
 ```xml
 <!--Azure Storage Account Key-->
@@ -1653,7 +1657,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_belgium_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가 `Keywords_eu_driver's_license_number` `Keywords_belgium_eu_driver's_license_number` 발견되거나 발견됩니다.
     
@@ -1733,7 +1737,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -1830,7 +1834,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_belgium_national_number 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keyword_belgium_national_number 있습니다.
 - 체크섬이 통과됩니다.
@@ -1934,7 +1938,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_belgium_eu_passport_number` 발견되거나 발견됩니다. 
 - 정규식이 DD MM YY 형식의 날짜 또는 키워드를 찾거나 찾을 `Regex_eu_passport_date2` `Keywords_eu_passport_date` 수 `Keywords_belgium_eu_passport_number` 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_belgium_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_belgium_eu_passport_number` 발견되거나 발견됩니다. 
 
@@ -1992,6 +1996,10 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - Passnummer
 - 다시 커인 재구성
 
+#### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
+
+- 문제의 날짜
+- 만료 날짜
 
 ## <a name="belgium-value-added-tax-number"></a>벨기에 값 추가 세금 번호
 이 중요한 정보 유형은 다음에서만 사용할 수 있습니다.
@@ -2030,7 +2038,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이 Func_belgium_value_added_tax_number 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keywords_belgium_value_added_tax_number 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_belgium_value_added_tax_number 일치하는 콘텐츠를 찾을 수 있습니다.
 
 ```xml
@@ -2092,7 +2100,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 검색된 Keyword_brazil_cpf 있습니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_brazil_cpf 일치하는 콘텐츠를 찾을 수 있습니다.
 - 체크섬이 통과됩니다.
 
@@ -2139,7 +2147,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - 3자리 숫자 
 - 기간 
 - 3자리 숫자(처음 8자리 숫자는 등록 번호) 
-- 슬래시 
+- 슬래시(슬래시) 
 - 4자리 분기 번호 
 - 하이픈 
 - 검사 숫자인 2자리 숫자
@@ -2155,7 +2163,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 검색된 Keyword_brazil_cnpj 있습니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_brazil_cnpj 일치하는 콘텐츠를 찾을 수 있습니다.
 - 체크섬이 통과됩니다.
 
@@ -2197,7 +2205,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - Empresa 
 
    
-## <a name="brazil-national-identification-card-rg"></a>브라질 국가 ID 카드(RG)
+## <a name="brazil-national-identification-card-rg"></a>브라질 RG(국가 ID 카드)
 
 ### <a name="format"></a>형식
 
@@ -2273,7 +2281,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_bulgaria_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_bulgaria_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -2352,7 +2360,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -2440,7 +2448,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 - 생년월일(YYMMDD)에 해당하는 6자리 숫자 
 - 생년월일 순서에 해당하는 2자리 숫자
-- 성별에 해당하는 1자리 숫자: 남성의 1자리 숫자와 여성의 홀수 숫자
+- 성별에 해당하는 1자리 숫자: 남성의 1자리와 여성의 홀수 숫자
 - 검사 숫자 1개
 
 ### <a name="checksum"></a>체크 um
@@ -2453,7 +2461,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_bulgaria_eu_national_id_card` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_bulgaria_eu_national_id_card` 발견됩니다. 
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_bulgaria_eu_national_id_card` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
 ```xml
@@ -2498,7 +2506,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - ssn
 - uniform uniform id
 - uniform uniform no
-- uniform의 민수
+- uniform 매수
 - uniformcivilno #
 - uniformcivilno
 - uniformcivilnumber #
@@ -2542,7 +2550,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_bulgaria_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_eu_passport_date1`정규식이 DD.MM.YYYY 형식의 날짜를 찾거나 키워드를 `Keywords_eu_passport_date` 찾은 경우
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_bulgaria_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_bulgaria_eu_passport_number` 발견되거나 발견됩니다. 
 
@@ -2685,7 +2693,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_[province_name]_drivers_license_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_[province_name]_drivers_license_name의 키워드가 발견되었습니다.
 - Keyword_canada_drivers_license의 키워드가 발견되었습니다.
@@ -2903,7 +2911,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Regex_canada_health_service_number 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_canada_health_service_number의 키워드가 발견되었습니다.
 
@@ -2950,9 +2958,9 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Regex_canada_passport_number 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- 또는 Keyword_canada_passport_number 키워드가 Keyword_passport 있습니다.
+- 검색된 Keyword_canada_passport_number Keyword_passport 검색됩니다.
 
 ```xml 
 <!-- Canada Passport Number -->
@@ -2991,7 +2999,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - passportnumber
 - パスポート
 - パスポート番号
-- ೺೺臲೺
+- ೺೺೺臲
 - パスポート＃
 - Numéro de passeport
 - Passeport n °
@@ -3018,7 +3026,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Regex_canada_phin 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - 검색된 키워드 또는 Keyword_canada_phin 키워드가 Keyword_canada_provinces 있습니다.
 
@@ -3104,7 +3112,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
     - Func_eu_date 함수가 올바른 날짜 형식의 날짜를 찾습니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_unformatted_canadian_sin 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_sin의 키워드가 발견되었습니다.
 - 체크섬이 통과됩니다.
@@ -3185,7 +3193,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 검색된 Keyword_chile_id_card 있습니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_chile_id_card 일치하는 콘텐츠를 찾을 수 있습니다.
 - 체크섬이 통과됩니다.
 
@@ -3242,7 +3250,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - 칠레 ID #
 
    
-## <a name="china-resident-identity-card-prc-number"></a>중국 상주 ID 카드(PRC) 번호
+## <a name="china-resident-identity-card-prc-number"></a>중국 거주 ID 카드(PRC) 번호
 
 ### <a name="format"></a>형식
 
@@ -3267,7 +3275,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 검색된 키워드가 Keyword_china_resident_id 있습니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_china_resident_id 일치하는 콘텐츠를 찾을 수 있습니다.
 - 체크섬이 통과됩니다.
 
@@ -3432,7 +3440,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - mastercard
 - master card
 - mc
-- mastercards
+- 마스터 카드
 - master cards
 - diner's Club
 - diners club
@@ -3614,7 +3622,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
   
 - `Regex_croatia_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가 `Keywords_eu_driver's_license_number` `Keywords_croatia_eu_driver's_license_number` 발견되거나 발견됩니다. 
@@ -3694,7 +3702,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -3779,7 +3787,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_croatia_id_card 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keyword_croatia_id_card 있습니다.
 
@@ -3848,7 +3856,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_croatia_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_eu_passport_date1`정규식이 DD.MM.YYYY 형식의 날짜를 찾거나 키워드를 `Keywords_eu_passport_date` 찾은 경우
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_croatia_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_croatia_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -3919,7 +3927,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 검색된 Keywords_croatia_eu_tax_file_number 있습니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_croatia_oib_number 일치하는 콘텐츠를 찾을 수 있습니다.
 - 체크섬이 통과됩니다.
 
@@ -4046,7 +4054,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_cyprus_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_cyprus_eu_driver's_license_number` 발견되거나 발견됩니다.
 
@@ -4125,7 +4133,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -4215,7 +4223,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_cyprus_eu_national_id_card`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_cyprus_eu_national_id_card` 발견됩니다. 
     
@@ -4262,7 +4270,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_cyprus_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_cyprus_eu_passport_date`정규식이 DD/MM/YYYY 형식의 날짜를 찾거나 키워드를 `Keywords_cyprus_eu_passport_date` 찾은 경우
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_cyprus_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_cyprus_eu_passport_number` 발견되거나 발견됩니다.  
     
@@ -4339,9 +4347,9 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="pattern"></a>패턴
 
-8자리 숫자와 문자 1자:
+8자리 숫자와 한 문자:
   
-- a "0" 또는 "9"
+- "0" 또는 "9"
 - 7자리 숫자
 - 한 문자(대소문자 구분 안 )
     
@@ -4355,7 +4363,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_cyprus_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_cyprus_eu_tax_file_number` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_cyprus_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
 ```xml
@@ -4423,7 +4431,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_czech_republic_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_czech_republic_eu_driver's_license_number` 발견되거나 발견됩니다. 
 
@@ -4502,7 +4510,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -4592,7 +4600,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_czech_republic_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_eu_passport_date1`정규식이 DD.MM.YYYY 형식의 날짜를 찾거나 키워드를 `Keywords_eu_passport_date` 찾은 경우
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_czech_republic_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_czech_republic_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -4653,7 +4661,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="format"></a>형식
 
-선택적 슬래시(이전 형식)가 있는 9자리 숫자(선택적 슬래시(새 형식)가 있는 10자리 숫자
+선택적 슬래시(이전 형식) 10자리(선택적 슬래시(새 형식)가 있는 9자리 숫자
 
 ### <a name="pattern"></a>패턴
 
@@ -4676,10 +4684,10 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 
 - 이 Func_czech_id_card 일치하는 콘텐츠를 찾을 수 있습니다.
-- 검색된 Keyword_czech_id_card 있습니다.
+- 검색된 Keyword_czech_id_card 검색됩니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 
 - 이 Func_czech_id_card_new_format 일치하는 콘텐츠를 찾을 수 있습니다.
 - 체크섬이 통과됩니다.
@@ -4724,7 +4732,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - pid #
 - pid
 - pojištění íslo
-- r 내선
+- r호
 - rodne cislo
 - rodné ííslo
 - ssn
@@ -4805,7 +4813,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - national number
 - 개인 ID 번호
 - personalidnumber #
-- r 내선
+- r호
 - rodné ííslo
 - rodne cislo
 
@@ -4825,7 +4833,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_denmark_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_denmark_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -4904,7 +4912,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -4992,7 +5000,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_denmark_eu_passport_number` 발견되거나 발견됩니다. 
 - 정규식이 DD MM YY 형식의 날짜를 찾거나 `Regex_eu_passport_date2` 키워드를 `Keywords_eu_passport_date` 찾은 경우
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_denmark_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_denmark_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -5067,7 +5075,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 정규식은 Func_denmark_eu_tax_file_number 일치하는 콘텐츠를 검색합니다.
 - 검색된 Keyword_denmark_id 있습니다.
 - 체크섬이 통과됩니다.
@@ -5120,7 +5128,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - rejsesygesikringskort
 - ssn
 - ssn #
-- 이니시트 id
+- 일자 id
 - kode
 - nummer
 - 텐ummer
@@ -5230,9 +5238,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="pattern"></a>패턴
 
 패턴에는 다음이 모두 포함되어야 합니다.
-- 등록자 코드인 abcdefghjklmnprstux와 같은 가능한 문자 집합의 한 문자(대/소문자 구분 안 ) 
+- 이 가능한 문자 집합의 한 문자(대/소문자 구분 안 하여) 등록자 코드인 abcdefghjklmnprstux 
 - 등록자 성 또는 숫자 '9'의 첫 문자인 한 문자(대/소문자 구분 안 )
-- 7자리 숫자( 마지막 숫자는 검사 숫자)
+- 7자리 숫자, 마지막 숫자는 검사 숫자입니다.
 
 ### <a name="checksum"></a>체크 um
 
@@ -5242,10 +5250,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_dea_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- 검색된 `Keyword_dea_number` 키워드
+- 키워드가 `Keyword_dea_number` 발견됩니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_dea_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
@@ -5298,7 +5306,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_estonia_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_estonia_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -5377,7 +5385,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -5477,7 +5485,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_estonia_eu_national_id_card` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_estonia_eu_national_id_card` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_estonia_eu_national_id_card` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
 ```xml
@@ -5537,7 +5545,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="format"></a>형식
 
-문자 한 개와 공백이나 따로 숫자가 없는 7자리 숫자
+1개의 문자와 공백이나 디지타이터가 없는 7자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -5554,7 +5562,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_estonia_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_eu_passport_date1`정규식이 DD.MM.YYYY 형식의 날짜를 찾거나 키워드를 `Keywords_eu_passport_date` 찾은 경우
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_estonia_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_estonia_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -5767,7 +5775,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - master card 
 - master cards 
 - mastercard 
-- mastercards 
+- 마스터 카드 
 - mc 
 - mister cash 
 - n carta 
@@ -5978,7 +5986,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - [이탈리아](#italy-drivers-license-number)
 - [라트비아](#latvia-drivers-license-number)
 - [리투아니아](#lithuania-drivers-license-number)
-- [룩세부르크](#luxemburg-drivers-license-number)
+- [룩emburg](#luxemburg-drivers-license-number)
 - [몰타](#malta-drivers-license-number)
 - [네덜란드](#netherlands-drivers-license-number)
 - [폴란드](#poland-drivers-license-number) 
@@ -6012,7 +6020,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - [이탈리아](#italy-fiscal-code)
 - [라트비아](#latvia-personal-code)
 - [리투아니아](#lithuania-personal-code)
-- [룩세부르크](#luxemburg-national-identification-number-natural-persons)
+- [룩emburg](#luxemburg-national-identification-number-natural-persons)
 - [몰타](#malta-identity-card-number)
 - [네덜란드](#netherlands-citizens-service-bsn-number)
 - [폴란드](#poland-national-id-pesel)
@@ -6045,7 +6053,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - [이탈리아](#italy-passport-number)
 - [라트비아](#latvia-passport-number)
 - [리투아니아](#lithuania-passport-number)
-- [룩세부르크](#luxemburg-passport-number)
+- [룩emburg](#luxemburg-passport-number)
 - [몰타](#malta-passport-number)
 - [네덜란드](#netherlands-passport-number)
 - [폴란드](#poland-passport-number)
@@ -6098,7 +6106,7 @@ EU 사회 보장 번호 또는 동등한 식별자에 해당하며 중요한 정
 - [이탈리아](#italy-fiscal-code)
 - [라트비아](#latvia-personal-code)
 - [리투아니아](#lithuania-personal-code)
-- [룩세부르크](#luxemburg-national-identification-number-non-natural-persons)
+- [룩emburg](#luxemburg-national-identification-number-non-natural-persons)
 - [몰타](#malta-tax-identification-number)
 - [네덜란드](#netherlands-tax-identification-number)
 - [폴란드](#poland-tax-identification-number)
@@ -6132,7 +6140,7 @@ EU 사회 보장 번호 또는 동등한 식별자에 해당하며 중요한 정
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_finland_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_finland_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -6211,7 +6219,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -6312,7 +6320,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - regex Regex_Finland_European_Health_Insurance_Number 패턴과 일치하는 콘텐츠를 검색합니다.
 - 검색된 Keyword_Finland_European_Health_Insurance_Number 있습니다.
 
@@ -6368,10 +6376,10 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 해당 Func_finnish_national_id 일치하는 콘텐츠를 찾는 함수
-- 검색된 Keyword_finnish_national_id 발견
+- 찾은 Keyword_finnish_national_id 키워드
 - 체크 um 통과
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 해당 Func_finnish_national_id 일치하는 콘텐츠를 찾는 함수
 - 체크 um 통과
 
@@ -6457,25 +6465,41 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
-- 정규식은 Regex_finland_passport_number 일치하는 콘텐츠를 검색합니다.
-- 검색된 Keywords_eu_passport_number_common 또는 Keyword_finland_passport_number 키워드가 발견됩니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
+- `Regex_finland_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 키워드가 `Keywords_eu_passport_number` `Keyword_finland_passport_number` 발견되거나 발견됩니다.
+- `Regex_eu_passport_date1`정규식이 DD.MM.YYYY 형식의 날짜를 찾거나 키워드를 `Keywords_eu_passport_date` 찾은 경우
+
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
+- `Regex_finland_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 키워드가 `Keywords_eu_passport_number` `Keyword_finland_passport_number` 발견되거나 발견됩니다.
 
 ```xml
-<!-- Finland Passport Number -->
-<Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300">
+      <!-- Finland Passport Number -->
+      <Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" patternsProximity="300" recommendedConfidence="75">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Regex_finland_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keyword_finland_passport_number" />
+          </Any>
+          <Any minMatches="1">
+            <Match idRef="Regex_eu_passport_date1" />
+            <Match idRef="Keywords_eu_passport_date" />
+          </Any>
+        </Pattern>
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_finland_passport_number" />
           <Any minMatches="1">
-            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_eu_passport_number" />
             <Match idRef="Keyword_finland_passport_number" />
           </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+#### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
 - passport #
 - passport #
@@ -6498,6 +6522,10 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - passi #
 - passi number
 
+#### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
+
+- 문제의 날짜
+- 만료 날짜
 
 ## <a name="france-drivers-license-number"></a>프랑스 운전 면허 번호
 
@@ -6517,7 +6545,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_french_drivers_license 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keyword_french_drivers_license 있습니다.
 
@@ -6593,7 +6621,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -6661,7 +6689,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - numéros de licence
 
 
-## <a name="france-health-insurance-number"></a>프랑스 건강 보험 번호
+## <a name="france-health-insurance-number"></a>프랑스 의료 보험 번호
 이 중요한 정보 유형은 다음에서만 사용할 수 있습니다.
 - 데이터 손실 방지 정책
 - 통신 준수 정책
@@ -6690,7 +6718,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - regex Regex_France_Health_Insurance_Number 패턴과 일치하는 콘텐츠를 검색합니다.
 - 검색된 Keyword_France_Health_Insurance_Number 있습니다.
 
@@ -6779,46 +6807,79 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
-- Func_fr_passport 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- Keyword_passport의 키워드가 발견되었습니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
+- 이 `Func_fr_passport` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 키워드가 `Keywords_eu_passport_number` `Keywords_france_eu_passport_number` 발견되거나 발견됩니다.
+- 정규식이 DD MM YYYY 형식의 날짜를 찾거나 `Regex_eu_passport_date3` 키워드를 `Keywords_eu_passport_date` 찾은 경우
+
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
+- 이 `Func_fr_passport` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 키워드가 `Keywords_eu_passport_number` `Keywords_france_eu_passport_number` 발견되거나 발견됩니다.
+
 
 ```xml
-<!-- France Passport Number -->
-<Entity id="3008b884-8c8c-4cd8-a289-99f34fc7ff5d" patternsProximity="300" recommendedConfidence="75">
-  <Pattern confidenceLevel="75">
-        <IdMatch idRef="Func_fr_passport" />
-        <Match idRef="Keyword_passport" />
-  </Pattern>
-</Entity>
+    <!-- France Passport Number -->
+    <Entity id="3008b884-8c8c-4cd8-a289-99f34fc7ff5d" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_fr_passport" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keywords_france_eu_passport_number" />
+          </Any>
+          <Any minMatches="1">
+            <Match idRef="Regex_eu_passport_date3" />
+            <Match idRef="Keywords_eu_passport_date" />
+          </Any>
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_fr_passport" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keywords_france_eu_passport_number" />
+          </Any>
+        </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keyword_passport"></a>Keyword_passport
+#### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passport Number
-- Passport No
-- Passport #
-- Passport #
-- PassportID
-- Passportno
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
 - passportnumber
-- パスポート
-- パスポート番号
-- ೺೺臲೺
-- パスポート ＃ 
-- Numéro de passeport
-- Passeport n °
-- Passeport Non
-- Passeport #
-- Passeport #
-- PasseportNon
-- Passeportn °
+- passport number
+- passportnumbers
+- passport numbers
 
-      
+#### <a name="keywords_france_eu_passport_number"></a>Keywords_france_eu_passport_number
+
+- numéro de passeport
+- passeport n °
+- passeport non
+- passeport #
+- passeport #
+- passeportnon
+- passeportn °
+- passeport français
+- passeport livre
+- passeport carte
+- numéro passeport
+- passeport n°
+- n° du passeport
+- n° 전달
+
+#### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
+
+- 문제의 날짜
+- 만료 날짜
+
+
 ## <a name="france-social-security-number-insee-or-equivalent-identification"></a>프랑스 사회 보장 번호(INSEE) 또는 동등한 식별
-이 중요한 정보 유형 엔터티는 EU 사회 보장 번호 및 동등한 ID 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
 ### <a name="format"></a>형식
 
@@ -6837,61 +6898,62 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 95% 신뢰합니다.
-- 이 Func_french_insee Func_fr_insee 일치하는 콘텐츠를 찾을 수 있습니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
+- 이 `Func_french_insee` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
 - Keyword_fr_insee의 키워드가 발견되었습니다.
 - 체크섬이 통과됩니다.
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_french_insee Func_fr_insee 일치하는 콘텐츠를 찾을 수 있습니다.
-- Keyword_fr_insee의 키워드가 발견되지 않았습니다.
 - 체크섬이 통과됩니다.
 
 ```xml
-<!-- France INSEE -->
-<Entity id="71f62b97-efe0-4aa1-aa49-e14de253619d" patternsProximity="300" recommendedConfidence="85">
-  <Pattern confidenceLevel="95">
+    <!-- France INSEE -->
+    <Entity id="71f62b97-efe0-4aa1-aa49-e14de253619d" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_french_insee" />
-        <Match idRef="Func_fr_insee" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_fr_insee" />
-        </Any>
-  </Pattern>
-  <Pattern confidenceLevel="85">
-        <IdMatch idRef="Func_french_insee" />
-        <Match idRef="Func_fr_insee" />
         <Any minMatches="0" maxMatches="0">
           <Match idRef="Keyword_fr_insee" />
         </Any>
-  </Pattern>
-</Entity>
+      </Pattern>
+      <Pattern confidenceLevel="85">
+        <IdMatch idRef="Func_french_insee" />
+        <Match idRef="Keyword_fr_insee" />
+      </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
 #### <a name="keyword_fr_insee"></a>Keyword_fr_insee
 
+- code sécu
+- d'identité nationale
 - insee
-- securité sociale
-- securite sociale
+- fssn #
+- le numéro d'identification nationale
+- le code de la sécurité sociale
 - national id
 - national identification
-- numéro d'identité
 - no d'identité
 - 아니요. d'identité
+- numéro d'assurance
+- numéro d'identité
 - numero d'identite
+- numéro de sécu
+- numéro de sécurité sociale
 - no d'identite
 - 아니요. d'identite
+- ssn
+- ssn #
+- sécurité sociale
+- securité sociale
+- securite sociale
+- socialsecuritynumber
 - social security number
 - social security code
 - social insurance number
-- le numéro d'identification nationale
-- d'identité nationale
-- numéro de sécurité sociale
-- le code de la sécurité sociale
-- numéro d'assurance sociale
-- numéro de sécu
-- code sécu 
+
 
 ## <a name="france-tax-identification-number"></a>프랑스 세금 식별 번호
 
@@ -6925,7 +6987,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_france_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_france_eu_tax_file_number` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_france_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
 ```xml
@@ -7005,7 +7067,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이 Func_france_value_added_tax_number 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keywords_france_value_added_tax_number 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_france_value_added_tax_number 일치하는 콘텐츠를 찾을 수 있습니다.
 
 ```xml
@@ -7059,7 +7121,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_german_drivers_license 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_german_drivers_license_number의 키워드가 발견되었습니다.
 - 체크섬이 통과됩니다.
@@ -7166,7 +7228,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -7267,7 +7329,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 #### <a name="keyword_germany_id_card"></a>Keyword_germany_id_card
 
-- ausweis
+- 오스와이
 - gpid
 - identification
 - identifikation
@@ -7309,7 +7371,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가 `Keyword_german_passport` `Keywords_eu_passport_number_common` 발견되거나 발견됩니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_german_passport_data 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - 키워드가 `Keyword_german_passport` `Keywords_eu_passport_number_common` 발견되거나 발견됩니다.
 - 체크섬이 통과됩니다.
@@ -7391,7 +7453,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_germany_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_germany_eu_tax_file_number` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_germany_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
 ```xml
@@ -7456,9 +7518,9 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - E 또는 e 문자
 - 선택적 공백
 - 3자리 숫자
-- 선택적 공백 또는 콤마
-- 3자리 숫자
 - 선택적 공백 또는 COMMA
+- 3자리 숫자
+- 선택적 공백 또는 콤마
 - 3자리 숫자
 
 ### <a name="checksum"></a>체크 um
@@ -7471,7 +7533,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이 Func_germany_value_added_tax_number 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keywords_germany_value_added_tax_number 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_germany_value_added_tax_number 일치하는 콘텐츠를 찾을 수 있습니다.
 
 ```xml
@@ -7517,7 +7579,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_greece_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_greece_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -7596,7 +7658,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -7745,7 +7807,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_greece_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_greece_eu_passport_date`정규식이 DD MMM YY(예 - 28 8월 19일) 형식의 날짜를 찾거나 키워드가 `Keywords_greece_eu_passport_date` 발견되었습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_greece_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_greece_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -7823,7 +7885,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_greece_eu_ssn` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_greece_eu_ssn_or_equivalent` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_greece_eu_ssn` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 
 ```xml
@@ -7875,7 +7937,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
   
 - `Regex_greece_eu_tax_file_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_greece_eu_tax_file_number` 발견됩니다. 
@@ -7941,7 +8003,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_hong_kong_id_card 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keyword_hong_kong_id_card 있습니다.
 - 체크섬이 통과됩니다.
@@ -8025,7 +8087,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
   
 - `Regex_hungary_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_hungary_eu_driver's_license_number` 발견되거나 발견됩니다. 
@@ -8104,7 +8166,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -8189,7 +8251,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 11자리 숫자:
   
-- 성별에 해당하는 1자리 숫자(1900년 이전의 여성, 2-여성, 기타 번호는 1900년 이전의 시민 또는 이중 시민권이 있는 시민도 가능) 
+- 성별에 해당하는 1자리 숫자(1900년 이전의 여성, 2-여성, 기타 번호는 1900년 이전의 시민 또는 2배 시민권이 있는 시민도 가능) 
 - 생년월일에 해당하는 6자리 숫자(YYMMDD)
 - 일련 번호에 해당하는 3자리 숫자
 - 검사 숫자 1개
@@ -8205,7 +8267,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_hungary_eu_national_id_card` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_hungary_eu_national_id_card` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
   
 - 이  `Func_hungary_eu_national_id_card` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
@@ -8260,7 +8322,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_hungary_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_hungary_eu_passport_date`정규식이 DD MMM/MMM YY(예 - 01 MÁR/MAR 12) 형식의 날짜를 찾거나 키워드가 `Keywords_eu_passport_date` 발견되었습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_hungary_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_hungary_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -8308,6 +8370,11 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - Útlevelek száma
 - útlevél szám
 
+#### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
+
+- 문제의 날짜
+- 만료 날짜
+
 
 ## <a name="hungary-social-security-number-taj"></a>헝가리 TAJ(사회 보장 번호)
 
@@ -8330,7 +8397,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_hungary_eu_ssn_or_equivalent` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_hungary_eu_ssn_or_equivalent` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
   
 - 이  `Func_hungary_eu_ssn_or_equivalent` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
@@ -8401,7 +8468,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_hungary_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_hungary_eu_tax_file_number` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
   
 - 이  `Func_hungary_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
@@ -8468,7 +8535,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 영문자 10자 패턴:
 
 - 두 글자 - HU 또는 hu
-- 선택적 공간
+- 선택적 공백
 - 8자리 숫자
 
 ### <a name="checksum"></a>체크 um
@@ -8482,7 +8549,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이 Func_hungarian_value_added_tax_number 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keywords_hungarian_value_added_tax_number 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 
 - 이 Func_hungarian_value_added_tax_number 일치하는 콘텐츠를 찾을 수 있습니다.
 
@@ -8526,7 +8593,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 10자리 문자 또는 숫자:
 - 3개의 문자(대소문자 구분 안 ) 
-- C, P, H, F, A, T, B, L, J, G의 문자(대소문자 구분 안 림)
+- C, P, H, F, A, T, B, L, J, G의 문자(대소문자 구분 안 )
 - 문자
 - 4자리 숫자 
 - 알파벳 검사 숫자인 문자
@@ -8567,7 +8634,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - Permanent Account Number 
 - PAN 
    
-## <a name="india-unique-identification-aadhaar-number"></a>인도 고유 ID(Aadhaar) 번호
+## <a name="india-unique-identification-aadhaar-number"></a>인도 고유 식별(Aadhaar) 번호
 
 ### <a name="format"></a>형식
 
@@ -8594,7 +8661,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 검색된 Keyword_india_aadhar 있습니다.
 - 체크섬이 통과됩니다.
 - 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 
 - 이 Func_india_aadhaar 일치하는 콘텐츠를 찾을 수 있습니다.
 - 체크섬이 통과됩니다.
@@ -8728,9 +8795,9 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 검색된 Dictionary_icd_10_updated 있습니다.
-- 검색된 Dictionary_icd_10_codes 검색됩니다.
+- 검색된 Dictionary_icd_10_codes 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 업데이트된 Dictionary_icd_10_ 키워드가 발견되었습니다.
 
 ```xml
@@ -8750,7 +8817,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ICD-Dictionary_icd_10_updated 국제질병 [분류, 10번째 수정, ICD-10-CM(예방 수정)을](https://go.microsoft.com/fwlink/?linkid=852604)기반으로 하는 키워드 사전의 용어입니다. 이 유형은 보험 코드가 아니라 용어만 됩니다.
 
-ICD-Dictionary_icd_10_codes 국제질병 [분류, 10번째 수정, ICD-10-CM(예방 수정)을](https://go.microsoft.com/fwlink/?linkid=852604)기반으로 하는 키워드 사전의 용어입니다. 이 유형은 설명이 아닌 보험 코드를 입니다.
+[ICD-Dictionary_icd_10_codes 분류, 10번째 수정, ICD-10-CM(예방 수정)을](https://go.microsoft.com/fwlink/?linkid=852604)기반으로 하는 Dictionary_icd_10_codes 키워드 사전의 용어입니다. 이 유형은 설명이 아닌 보험 코드를 입니다.
 
 ## <a name="international-classification-of-diseases-icd-9-cm"></a>국제질병 분류(ICD-9-CM)
 
@@ -8772,7 +8839,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 검색된 Dictionary_icd_9_updated 있습니다.
 - 검색된 Dictionary_icd_9_codes 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 검색된 Dictionary_icd_9_updated 있습니다.
 
 ```xml
@@ -8876,7 +8943,7 @@ IPv6의 경우 DLP 정책은 다음과 같은 경우 이러한 유형의 중요�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
   
 - `Regex_ireland_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_ireland_eu_driver's_license_number` 발견되거나 발견됩니다. 
@@ -8956,7 +9023,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -9027,7 +9094,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="format"></a>형식
 
-2개의 문자 또는 숫자와 7자리 숫자(공백 또는 디지타이터 없음)
+2개의 문자 또는 숫자, 7자리 숫자(공백 또는 디지타이터 없음)
   
 ### <a name="pattern"></a>패턴
 
@@ -9047,7 +9114,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_ireland_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_ireland_eu_passport_date`정규식이 DD MMM/MMM YYYYY(예제 - 01 BEA/MAY 1988) 형식의 날짜를 찾거나 키워드가 `Keywords_eu_passport_date` 발견되었습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_ireland_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_ireland_eu_passport_number` 발견되거나 발견됩니다.
     
@@ -9178,7 +9245,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - publicserviceno
 - revenue and social insurance number
 - rsi no
-- rsi 번호
+- rsi number
 - rsin
 - seirbhís aitheantais 클라이언트
 - uimh
@@ -9227,7 +9294,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Regex_israel_bank_account_number 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_israel_bank_account_number의 키워드가 발견되었습니다.
 
@@ -9268,7 +9335,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_israeli_national_id_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_Israel_National_ID의 키워드가 발견되었습니다.
 - 체크섬이 통과됩니다.
@@ -9329,23 +9396,145 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
-- Regex_italy_drivers_license_number 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- Keyword_italy_drivers_license_number의 키워드가 발견되었습니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
+- `Regex_italy_drivers_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 키워드가 `Keywords_eu_driver's_license_number` `Keyword_italy_drivers_license_number` 발견되거나 발견됩니다.
 
 ```xml
-<!-- Italy Driver's license Number -->
-<Entity id="97d6244f-9157-41bd-8e0c-9d669a5c4d71" patternsProximity="300" recommendedConfidence="75">
-    <Pattern confidenceLevel="75">
+    <!-- Italy Driver's license Number -->
+    <Entity id="97d6244f-9157-41bd-8e0c-9d669a5c4d71" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Regex_italy_drivers_license_number" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_italy_drivers_license_number" />
-        </Any>
-    </Pattern>
-</Entity>
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keyword_italy_drivers_license_number" />
+          </Any>
+        </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
+
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
+
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
+- driver license
+- driver licenses
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
+- drivers license
+- drivers licenses
+- drivers licence
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- driver's lic
+- driver's lics
+- driver's license
+- driver's licenses
+- driver's licence
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license(드라이버 라이선스) #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
+- driving licence 
+- driving license
+- dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv licence
+- driv 라이선스
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
+- driving licence
+- driving licences
+- driving permit
+- dl no
+- dlno
+- dl number
 
 #### <a name="keyword_italy_drivers_license_number"></a>Keyword_italy_drivers_license_number
 
@@ -9354,6 +9543,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - patente guida
 - patenti di guida
 - patenti guida
+
 
 ## <a name="italy-fiscal-code"></a>이탈리아 회계 코드
 이 중요한 정보 유형은 다음에서만 사용할 수 있습니다.
@@ -9375,7 +9565,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - 생년월일의 마지막 숫자에 해당하는 두 자리 숫자
 - 생년월일의 문자에 해당하는 한 문자- 문자는 사전순으로 사용되지만 A에서 E, H, L, M, P, R에서 T까지의 문자만 사용됩니다(따라서 1월은 A, 10월은 R임).
 - 성별을 차별화하기 위해 생년월일에 해당하는 두 자리 숫자는 여성의 생년월일에 40이 추가됩니다.
-- 사람이 태어났던 시정구와 관련한 지역 번호에 해당하는 4자리 숫자(국가 전체 코드가 외국가에 사용)
+- 사람이 태어나는 시외 지역에 해당하는 지역 번호에 해당하는 4자리 숫자(국가 전체 코드가 외국가에 사용)
 - 패리티 숫자 1개
     
 ### <a name="checksum"></a>체크 um
@@ -9388,7 +9578,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_italy_eu_national_id_card` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_italy_eu_national_id_card` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_italy_eu_national_id_card` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
 ```xml
@@ -9446,7 +9636,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="format"></a>형식
 
-2개의 문자 또는 숫자 다음에 공백이나 디지타이터가 없는 7자리 숫자
+2개의 문자 또는 숫자, 7자리 숫자(공백 또는 디지타이터 없음)
   
 ### <a name="pattern"></a>패턴
 
@@ -9466,7 +9656,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_italy_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_italy_eu_passport_date`정규식이 DD MMM/MMM YYYYY(예제 - 01 GEN/JAN 1988) 형식의 날짜를 찾거나 키워드가 `Keywords_eu_passport_date` 발견되었습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_italy_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_italy_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -9556,7 +9746,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이 Func_italy_value_added_tax_number 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 키워드가 Keywords_italy_value_added_tax_number 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_italy_value_added_tax_number 일치하는 콘텐츠를 찾을 수 있습니다.
 
 ```xml
@@ -9611,7 +9801,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - Func_jp_bank_account_branch_code 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_jp_bank_branch_code의 키워드가 발견되었습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_jp_bank_account 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_jp_bank_account의 키워드가 발견되었습니다.
 
@@ -9702,7 +9892,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_jp_drivers_license_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_jp_drivers_license_number의 키워드가 발견되었습니다.
 
@@ -9786,7 +9976,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이 Func_japanese_my_number_corporate 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keywords_japanese_my_number_corporate 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_japanese_my_number_corporate 일치하는 콘텐츠를 찾을 수 있습니다.
 
 ```xml
@@ -9898,7 +10088,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_jp_passport 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_jp_passport의 키워드가 발견되었습니다.
 
@@ -9951,7 +10141,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 정규식은 Regex_jp_residence_card_number 일치하는 콘텐츠를 검색합니다.
 - 검색된 Keyword_jp_residence_card_number 있습니다.
 
@@ -9992,7 +10182,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_jp_resident_registration_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_jp_resident_registration_number의 키워드가 발견되었습니다.
 
@@ -10046,7 +10236,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - Func_jp_sin 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_jp_sin의 키워드가 발견되었습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_jp_sin_pre_1997 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_jp_sin의 키워드가 발견되었습니다.
 
@@ -10107,7 +10297,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_latvia_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_latvia_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -10186,7 +10376,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -10268,8 +10458,8 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 - 생년월일(DDMMYY)에 해당하는 6자리 숫자 
 - 하이픈
-- 생년월일 세기(19 세기의 경우 "0", 20년의 경우 "1", 21 세기의 경우 "2")에 해당하는 1자리 숫자
-- 4자리 숫자(임의로 생성)
+- 생년월일 세기(19세기의 경우 "0", 20년의 경우 "1", 21 세기의 경우 "2")에 해당하는 1자리 숫자
+- 임의로 생성된 4자리 숫자
 
 새 형식
 
@@ -10288,7 +10478,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 함수 또는  `Func_latvia_eu_national_id_card` regex가 해당 `Regex_latvia_eu_national_id_card_new_format` 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_latvia_eu_national_id_card` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 함수 또는  `Func_latvia_eu_national_id_card` regex가 해당 `Regex_latvia_eu_national_id_card_new_format` 패턴과 일치하는 콘텐츠를 검색합니다. 
     
 ```xml
@@ -10336,7 +10526,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - id #
 - id-code
 - identification number
-- identifikikifcijas numurs
+- identifikikcijas numurs
 - id-number
 - individual number
 - latvija alva
@@ -10389,7 +10579,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="format"></a>형식
 
-2개의 문자 또는 숫자 다음에 공백이나 디지타이터가 없는 7자리 숫자
+2개의 문자 또는 숫자, 7자리 숫자(공백 또는 디지타이터 없음)
   
 ### <a name="pattern"></a>패턴
 
@@ -10409,7 +10599,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_latvia_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_eu_passport_date1`정규식이 DD.MM.YYYY 형식의 날짜를 찾거나 키워드를 `Keywords_eu_passport_date` 찾은 경우
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_latvia_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_latvia_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -10483,7 +10673,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_lithuania_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_lithuania_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -10562,7 +10752,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -10628,7 +10818,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 - vairuotojo pažymėjimas
 - vairuotojo pažymėjimo 숫자
-- vairuotojo pažymėjimo 숫자
+- vairuotojo pažymėjimo numeriai
 
 ## <a name="lithuania-personal-code"></a>리투아니아 개인 코드
 이 중요한 정보 유형은 다음에서만 사용할 수 있습니다.
@@ -10661,7 +10851,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_lithuania_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_lithuania_eu_tax_file_number` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_lithuania_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
 ```xml
@@ -10739,7 +10929,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_lithuania_eu_passport_number` 발견되거나 발견됩니다. 
 - 정규식이 DD MM YYYY 형식의 날짜를 찾거나 `Regex_eu_passport_date3` 키워드를 `Keywords_eu_passport_date` 찾은 경우
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_lithuania_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_lithuania_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -10810,7 +11000,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_luxemburg_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_luxemburg_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -10889,7 +11079,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -10985,7 +11175,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_luxemburg_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_luxemburg_eu_national_id_card` 발견됩니다. 
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_luxemburg_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 
 
@@ -11052,7 +11242,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_luxemburg_eu_passport_number` 발견되거나 발견됩니다. 
 - 정규식이 DD MM YYYY 형식의 날짜를 찾거나 `Regex_eu_passport_date3` 키워드를 `Keywords_eu_passport_date` 찾은 경우
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_luxemburg_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_luxemburg_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -11101,7 +11291,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - luxembourg passeport
 - luxembourg passport
 - de passeport 없음
-- 재구성 없음
+- re-reisepass
 - nr-reisepass
 - numéro de passeport
 - pass net
@@ -11118,7 +11308,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - 만료 날짜
 
 
-## <a name="luxemburg-national-identification-number-non-natural-persons"></a>룩세르부르크 국가 ID 번호(자연인이 아닌 사람)
+## <a name="luxemburg-national-identification-number-non-natural-persons"></a>룩부르크 국가 식별 번호(자연인이 아닌 사람)
 
 ### <a name="format"></a>형식
 
@@ -11147,7 +11337,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_luxemburg_eu_tax_file_number_non_natural` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_luxemburg_eu_tax_file_number` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_luxemburg_eu_tax_file_number_non_natural` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
 ```xml
@@ -11298,7 +11488,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_malta_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_malta_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -11377,7 +11567,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -11442,7 +11632,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 #### <a name="keywords_malta_eu_drivers_license_number"></a>Keywords_malta_eu_driver s_license_number
 
 - liċenzja-tas-pqan
-- liċenzji-tas-tas-taswieq
+- liċenzji-tas-분wieq
 
 
 ## <a name="malta-identity-card-number"></a>몰타 ID 카드 번호
@@ -11470,7 +11660,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_malta_eu_national_id_card`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_malta_eu_national_id_card` 발견됩니다. 
     
@@ -11514,7 +11704,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 ### <a name="format"></a>형식
 
-공백이나 디지타이터가 없는 7자리 숫자
+공백 또는 디지타이터가 없는 7자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -11529,9 +11719,9 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_malta_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_malta_eu_passport_number` 발견되거나 발견됩니다. 
-- 검색된 `Keywords_eu_passport_date` 키워드
+- 키워드가 `Keywords_eu_passport_date` 발견됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_malta_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_malta_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -11590,7 +11780,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 몰타 국가:
 - 지정된 패턴의 7자리 숫자와 한 문자
   
-몰타어가 아닌 국가 및 몰타어 엔터티:
+몰타어가 아닌 국가 및 몰타 엔터티:
 - 9자리 숫자
   
 ### <a name="pattern"></a>패턴
@@ -11610,7 +11800,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - regex  `Regex_malta_eu_tax_file_number`  또는 `Regex_malta_eu_tax_file_number_non_maltese_national` 패턴과 일치하는 콘텐츠를 찾습니다. 
 - 키워드가  `Keywords_malta_eu_tax_file_number` 발견됩니다. 
     
@@ -11750,7 +11940,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_netherlands_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_netherlands_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -11829,7 +12019,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -11922,7 +12112,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_netherlands_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_netherlands_eu_passport_date`정규식은 DD MMM/MMM YYYY 형식의 날짜를 검색합니다(예 - 26 MAA/MAR 2012)
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_netherlands_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_netherlands_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -11969,7 +12159,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - paspoortnummer
 - paspoort nr
 
-## <a name="netherlands-tax-identification-number"></a>네덜란드 세금 식별 번호
+## <a name="netherlands-tax-identification-number"></a>네덜란드 세금 ID 번호
 이 중요한 정보 유형은 다음에서만 사용할 수 있습니다.
 - 데이터 손실 방지 정책
 - 통신 준수 정책
@@ -12021,7 +12211,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - hulandes impuesto identification
 - identificatienummer belasting
 - identificatienummer van belasting
-- impuesto identification number
+- impuesto id number
 - impuesto number
 - nederlands belasting id nummer
 - nederlands belasting identificatie
@@ -12084,9 +12274,9 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_netherlands_value_added_tax_number 일치하는 콘텐츠를 찾을 수 있습니다.
-- 검색된 Keywords_netherlands_value_added_tax_number 있습니다.
+- 검색된 Keywords_netherlands_value_added_tax_number 검색됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_netherlands_value_added_tax_number 일치하는 콘텐츠를 찾을 수 있습니다.
 
 ```xml
@@ -12149,7 +12339,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이 Func_new_zealand_bank_account_number 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keywords_new_zealand_bank_account_number 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_new_zealand_bank_account_number 일치하는 콘텐츠를 찾을 수 있습니다.
 
 ```xml
@@ -12323,7 +12513,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이 Func_new_zealand_inland_revenue_number 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keywords_new_zealand_inland_revenue_number 검색됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_new_zealand_inland_revenue_number 일치하는 콘텐츠를 찾을 수 있습니다.
 
 ```xml
@@ -12374,7 +12564,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - Keyword_nz_terms의 키워드가 발견되었습니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_new_zealand_ministry_of_health_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
@@ -12404,7 +12594,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - nhi no.
 - NHI #
 - National Health Index No.
-- National Health Index Id
+- 국가 상태 인덱스 ID
 - 국가 건강 인덱스 #
 
 ## <a name="new-zealand-social-welfare-number"></a>뉴질랜드 사회 일지 번호
@@ -12492,7 +12682,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 검색된 Keyword_norway_id_number 있습니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_norway_id_numbe 일치하는 콘텐츠를 찾을 수 있습니다.
 - 체크섬이 통과됩니다.
 
@@ -12542,7 +12732,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 정규식은 Regex_philippines_unified_id 일치하는 콘텐츠를 검색합니다.
 - 검색된 Keyword_philippines_id 있습니다.
 
@@ -12573,12 +12763,12 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="pattern"></a>패턴
 
-14자리 숫자와 슬래시 2개:
+14자리 숫자와 두 개의 슬래시:
   
 - 5자리 숫자 
-- 슬래시
+- 슬래시(슬래시)
 - 2자리 숫자
-- 슬래시
+- 슬래시(슬래시)
 - 7자리 숫자
     
 ### <a name="checksum"></a>체크 um
@@ -12587,7 +12777,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_poland_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_poland_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -12666,7 +12856,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -12749,7 +12939,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_polish_national_id 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_polish_national_id_passport_number의 키워드가 발견되었습니다.
 - 체크섬이 통과됩니다.
@@ -12800,7 +12990,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - Keyword_pesel_identification_number의 키워드가 발견되었습니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_pesel_identification_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
@@ -12850,28 +13040,75 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 ### <a name="definition"></a>정의
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
-- Func_polish_passport_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- Keyword_polish_national_id_passport_number의 키워드가 발견되었습니다.
+- 이 `Func_polish_passport_number_v2` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 체크섬이 통과됩니다.
+- 키워드가 `Keywords_eu_passport_number` `Keyword_polish_national_passport_number` 발견되거나 발견됩니다.
+- 키워드가 `Keywords_eu_passport_date` 발견됩니다.
+
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
+- 이 `Func_polish_passport_number_v2` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 체크섬이 통과됩니다.
+- 키워드가 `Keywords_eu_passport_number` `Keyword_polish_national_passport_number` 발견되거나 발견됩니다.
+
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보가 검색될 수 있다는 신뢰도는 낮습니다.
+- 이 `Func_polish_passport_number_v2` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
 - 체크섬이 통과됩니다.
 
 ```xml
-<!-- Poland Passport Number -->
-<Entity id="03937FB5-D2B6-4487-B61F-0F8BFF7C3517" patternsProximity="300" recommendedConfidence="85">
-      <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_polish_passport_number" />
-          <Match idRef="Keyword_polish_national_id_passport_number" />
-      </Pattern>
-</Entity>
-</Version>
+      <!-- Poland Passport Number -->
+      <Entity id="03937FB5-D2B6-4487-B61F-0F8BFF7C3517" patternsProximity="300" recommendedConfidence="75">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_polish_passport_number_v2" />
+          <Match idRef="Keywords_eu_passport_date" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keyword_polish_national_passport_number" />
+          </Any>
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_polish_passport_number_v2" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keyword_polish_national_passport_number" />
+          </Any>
+        </Pattern>
+        <Pattern confidenceLevel="65">
+          <IdMatch idRef="Func_polish_passport_number_v2" />
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keyword_poland_national_id_passport_number"></a>Keyword_poland_national_id_passport_number
+#### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Numer paszportu
-- Nr. Paszportu
-- Paszport
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
+- passport number
+- passportnumbers
+- passport numbers
+
+#### <a name="keyword_polish_national_passport_number"></a>Keyword_polish_national_passport_number
+
+- numer paszportu
+- numery paszportów
+- numery paszportowe
+- nr paszportu
+- nr. paszportu
+- nr paszportów
+- n° 전달
+- passeport n°
+
+#### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
+
+- 문제의 날짜
+- 만료 날짜
+
 
 ## <a name="poland-regon-number"></a>폴란드 REGON 번호
 이 중요한 정보 유형은 다음에서만 사용할 수 있습니다.
@@ -12887,7 +13124,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 ### <a name="pattern"></a>패턴
 
-9자리 또는 14자리 숫자:
+9자리 숫자 또는 14자리 숫자:
 
 - 9자리 숫자 또는 
 - 9자리 숫자
@@ -13027,7 +13264,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 정규식은 Regex_portugal_citizen_card 일치하는 콘텐츠를 검색합니다.
-- 검색된 Keyword_portugal_citizen_card 있습니다.
+- 검색된 키워드가 Keyword_portugal_citizen_card 있습니다.
 
 ```xml
 <!-- Portugal Citizen Card Number -->
@@ -13051,7 +13288,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - id number
 - identification no
 - identification number
-- IDENTITY card no
+- ID card no
 - ID 카드 번호
 - national id card
 - nic
@@ -13078,7 +13315,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 1자리 숫자
 
 패턴 2: 문자 1개와 특수 문자가 있는 6/8자리 숫자
-- 1개 문자(대소문자 구분 안 )
+- 한 문자(대소문자 구분 안 )
 - 하이픈
 - 6 또는 8자리 숫자
 - 공백
@@ -13091,7 +13328,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_portugal_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_portugal_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -13170,7 +13407,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -13269,7 +13506,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_portugal_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_eu_passport_date1`정규식이 DD.MM.YYYY 형식의 날짜를 찾거나 키워드를 `Keywords_eu_passport_date` 찾은 경우
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_portugal_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_portugal_eu_passport_number` 발견되거나 발견됩니다.
     
@@ -13407,7 +13644,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
   
 ### <a name="pattern"></a>패턴
 
-문자 1개와 숫자 8자
+한 문자와 8자리 숫자:
 - 한 문자(대소문자 구분 안 되거나) 또는 숫자 
 - 8자리 숫자
     
@@ -13417,7 +13654,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_romania_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_romania_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -13496,7 +13733,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -13596,7 +13833,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_romania_eu_national_id_card` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_romania_eu_national_id_card` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_romania_eu_national_id_card` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
 ```xml
@@ -13631,10 +13868,10 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - national id
 - national identification number
 - num피r identificare personal
-- num피r identitate
-- num의 개인 유니버시
-- num피리어dentitate #
-- num피리어dentitate
+- num자 identitate
+- num nutr personal unic
+- num피리어드entitate #
+- num피리어드entitate
 - num호rpersonalunic #
 - num호rpersonalunic
 - numruru de identificare fiscal피
@@ -13686,7 +13923,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_romania_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_romania_eu_passport_date`정규식이 DD MMM/MMM YY(예제- 01 FEB/FEB 10) 형식의 날짜를 찾거나 키워드가 `Keywords_eu_passport_date` 발견되었습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_romania_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_romania_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -13767,7 +14004,7 @@ numuirul pașaportului numarul pasaportului numerele pașaportului Pașaport nr
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - regex Regex_Russian_Passport_Number_Domestic 패턴과 일치하는 콘텐츠를 검색합니다.
 - 검색된 Keyword_Russian_Passport_Number 있습니다.
 
@@ -13792,11 +14029,11 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - passportno #
 - passportnumber #
 - паспорт нет
-- рррррра р 11/2 id
+- рррррра ра рр а 1015 id
 - pоссийской паспорт
 - pусский номер паспорта
 - паспорт #
-- раррра ррра рра ар ар ра р #
+- ррррра ррра ра рр ар ра рр #
 - номер паспорта
 - номерпаспорта #
 
@@ -13827,7 +14064,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - regex Regex_Russian_Passport_Number_International 패턴과 일치하는 콘텐츠를 검색합니다.
 - 검색된 Keyword_Russian_Passport_Number 있습니다.
 
@@ -13852,11 +14089,11 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - passportno #
 - passportnumber #
 - паспорт нет
-- рррррра р 11/2 id
+- рррррра ра рр а 1015 id
 - pоссийской паспорт
 - pусский номер паспорта
 - паспорт #
-- раррра ррра рра ар ар ра р #
+- ррррра ррра ра рр ар ра рр #
 - номер паспорта
 - номерпаспорта #
 
@@ -13877,7 +14114,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Regex_saudi_arabia_national_id 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_saudi_arabia_national_id의 키워드가 발견되었습니다.
 
@@ -13927,7 +14164,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 검색된 키워드가 Keyword_singapore_nric 있습니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 정규식은 Regex_singapore_nric 일치하는 콘텐츠를 검색합니다.
 - 체크섬이 통과됩니다.
 
@@ -13976,7 +14213,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_slovakia_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_slovakia_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -14055,7 +14292,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -14122,7 +14359,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - vodiazskuk preukaz
 - vodiéské preukazy
 - vodiéského preukazu
-- vodiazskukch preukazov
+- vodiazsk선ch preukazov
 
 ## <a name="slovakia-personal-number"></a>슬로바키아 개인 번호
 이 중요한 정보 유형은 다음에서만 사용할 수 있습니다.
@@ -14141,7 +14378,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - 생년월일을 나타내는 6자리 숫자
 - 선택적 슬래시(/)
 - 3자리 숫자
-- 선택적 검사 숫자 1개
+- 선택 사항 검사 숫자 1개
   
 ### <a name="checksum"></a>체크 um
 
@@ -14184,14 +14421,14 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - identification number
 - identifikaáná karta á
 - identifikaéné íslo
-- IDENTITY card no
+- ID card no
 - ID 카드 번호
 - národná identifikaáná znaáka á
 - national number
 - nationalnumber #
 - nemzeti személyazonosító igazolvány
 - personalidnumber #
-- r 내선
+- r호
 - rodne cislo
 - rodné ííslo
 - social security number
@@ -14240,7 +14477,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_slovakia_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_eu_passport_date1`정규식이 DD.MM.YYYY 형식의 날짜를 찾거나 키워드를 `Keywords_eu_passport_date` 찾은 경우
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_slovakia_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_slovakia_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -14313,7 +14550,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_slovenia_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_slovenia_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -14392,7 +14629,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -14462,7 +14699,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - katevilka vozni명kega dovoljenja
 - ࢹ vozni의kih dovoljenj
 
-## <a name="slovenia-unique-master-citizen-number"></a>스로베니아 고유 마스터 시민 번호
+## <a name="slovenia-unique-master-citizen-number"></a>Slovenia Unique Master Citizen Number
 이 중요한 정보 유형은 다음에서만 사용할 수 있습니다.
 - 데이터 손실 방지 정책
 - 통신 준수 정책
@@ -14480,7 +14717,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 - 생년월일(DDMMLLL)에 해당하는 7자리 숫자입니다. 여기서 "LLL"은 생년월일의 마지막 세 자리 숫자에 해당합니다. 
 - 생년월일 "50"에 해당하는 두 자리 숫자
-- 같은 날에 출산한 사람의 성별 및 일련 번호 조합에 해당하는 3자리 숫자(남성 000-499, 여성의 경우 500-999)
+- 같은 날에 태어나는 사람의 성별 및 일련 번호 조합에 해당하는 3자리 숫자(남성 000-499, 여성의 경우 500-999)
 - 검사 숫자 1개
     
 ### <a name="checksum"></a>체크 um
@@ -14493,7 +14730,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_slovenia_eu_national_id_card` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_slovenia_eu_national_id_card` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_slovenia_eu_national_id_card` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
 ```xml
@@ -14564,7 +14801,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_slovenia_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_eu_passport_date1`정규식이 DD.MM.YYYY 형식의 날짜를 찾거나 키워드를 `Keywords_eu_passport_date` 찾은 경우
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_slovenia_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_slovenia_eu_passport_number` 발견되거나 발견됩니다. 
     
@@ -14764,7 +15001,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 검색된 Keyword_south_korea_resident_number 검색됩니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_south_korea_resident_number 일치하는 콘텐츠를 찾을 수 있습니다.
 - 체크섬이 통과됩니다.
 
@@ -14795,7 +15032,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="format"></a>형식
 
-8자리 숫자와 문자 1자
+8자리 숫자와 한 문자
   
 ### <a name="pattern"></a>패턴
 
@@ -14811,11 +15048,11 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 ### <a name="definition"></a>정의
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
-- 해당  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` 패턴과 일치하는 콘텐츠를 찾거나 함수를 검색합니다. 
+- 해당  `Func_spain_eu_DL_and_NI_number_citizen` 패턴과 일치하는 `Func_spain_eu_DL_and_NI_number_foreigner` 콘텐츠를 찾거나 함수를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_spain_eu_driver's_license_number` 발견되거나 발견됩니다. 
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
-- 해당  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` 패턴과 일치하는 콘텐츠를 찾거나 함수를 검색합니다. 
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
+- 해당  `Func_spain_eu_DL_and_NI_number_citizen` 패턴과 일치하는 `Func_spain_eu_DL_and_NI_number_foreigner` 콘텐츠를 찾거나 함수를 검색합니다. 
     
 ```xml
       <!-- Spain Driver's License Number -->
@@ -14905,7 +15142,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -14992,7 +15229,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="format"></a>형식
 
-8자리 숫자와 문자 1자
+8자리 숫자와 한 문자
   
 ### <a name="pattern"></a>패턴
 
@@ -15009,11 +15246,11 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 ### <a name="definition"></a>정의
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
-- 해당  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` 패턴과 일치하는 콘텐츠를 찾거나 함수를 검색합니다. 
+- 해당  `Func_spain_eu_DL_and_NI_number_citizen` 패턴과 일치하는 `Func_spain_eu_DL_and_NI_number_foreigner` 콘텐츠를 찾거나 함수를 검색합니다. 
 - 키워드가  `Keywords_spain_eu_national_id_card"` 발견됩니다. 
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
-- 해당  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` 패턴과 일치하는 콘텐츠를 찾거나 함수를 검색합니다. 
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
+- 해당  `Func_spain_eu_DL_and_NI_number_citizen` 패턴과 일치하는 `Func_spain_eu_DL_and_NI_number_foreigner` 콘텐츠를 찾거나 함수를 검색합니다. 
 
     
 ```xml
@@ -15058,7 +15295,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - número de identificación
 - número nacional identidad
 - 개인 식별 번호
-- 개인 ID 아니요
+- 개인 ID no
 - 고유 ID 번호
 - uniqueid #
 
@@ -15087,7 +15324,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 키워드가  `Keywords_eu_passport_number` `Keywords_spain_eu_passport_number` 발견되거나 발견됩니다. 
 - `Regex_spain_eu_passport_date`정규식이 DD-MM-YYYY 형식의 날짜를 찾거나 키워드를 `Keywords_eu_passport_date` 찾은 경우
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_spain_eu_passport_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_passport_number` `Keywords_spain_eu_passport_number` 발견되거나 발견됩니다.
     
@@ -15153,7 +15390,6 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ## <a name="spain-social-security-number-ssn"></a>스페인 SSN(사회 보장 번호)
 
-이 중요한 정보 유형 엔터티는 EU 사회 보장 번호 또는 동등한 ID 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
 ### <a name="format"></a>형식
 
@@ -15164,7 +15400,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 11-12자리 숫자:
 - 2자리 숫자 
 - 슬래시(선택 사항) 
-- 7~8자리 숫자 
+- 7-8자리 숫자 
 - 슬래시(선택 사항) 
 - 2자리 숫자
 
@@ -15177,21 +15413,37 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_spanish_social_security_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
+- - 키워드가  `Keywords_spain_eu_ssn_or_equivalent` 발견됩니다. 
+
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
+- Func_spanish_social_security_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
+- 체크섬이 통과됩니다.
 
 ```xml
-<!-- Spain SSN -->
-<Entity id="5df987c0-8eae-4bce-ace7-b316347f3070" patternsProximity="300" recommendedConfidence="85">
-    <Pattern confidenceLevel="85">
-        <IdMatch idRef="Func_spanish_social_security_number" />
-    </Pattern>
-</Entity>
+    <!-- Spain SSN -->
+    <Entity id="5df987c0-8eae-4bce-ace7-b316347f3070" patternsProximity="300" recommendedConfidence="85" relaxProximity="true" >
+      <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_spanish_social_security_number" />
+          <Match idRef="Keywords_spain_eu_ssn_or_equivalent" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_spanish_social_security_number" />
+        </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-없음
+#### <a name="keywords_spain_eu_passport_number"></a>Keywords_spain_eu_passport_number
 
-## <a name="spain-tax-identification-number"></a>스페인 세금 식별 번호
+- ssn
+- ssn #
+- socialsecurityno
+- social security no
+- social security number
+- número de la seguridad social
+
+## <a name="spain-tax-identification-number"></a>스페인 세금 ID 번호
 이 중요한 정보 유형은 다음에서만 사용할 수 있습니다.
 - 데이터 손실 방지 정책
 - 통신 준수 정책
@@ -15201,7 +15453,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 ### <a name="format"></a>형식
 
-지정된 패턴의 7-8자리 숫자와 1~2자리 문자
+지정한 패턴의 7-8자리 숫자와 1-2개 문자
   
 ### <a name="pattern"></a>패턴
 
@@ -15241,11 +15493,11 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 ### <a name="definition"></a>정의
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
-- 해당  `Func_spain_eu_tax_file_number` `Func_spain_eu_DL_and_NI_number_citizen` 패턴과 일치하는 콘텐츠를 찾거나 함수를 검색합니다. 
+- 해당  `Func_spain_eu_tax_file_number` 패턴과 일치하는 `Func_spain_eu_DL_and_NI_number_citizen` 콘텐츠를 찾거나 함수를 검색합니다. 
 - 키워드가  `Keywords_spain_eu_tax_file_number` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
-- 해당  `Func_spain_eu_tax_file_number` `Func_spain_eu_DL_and_NI_number_citizen` 패턴과 일치하는 콘텐츠를 찾거나 함수를 검색합니다. 
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
+- 해당  `Func_spain_eu_tax_file_number` 패턴과 일치하는 `Func_spain_eu_DL_and_NI_number_citizen` 콘텐츠를 찾거나 함수를 검색합니다. 
     
 ```xml
       <!-- Spain Tax Identification Number -->
@@ -15327,7 +15579,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 정규식은 CEP_Regex_SQLServerConnectionString 일치하는 콘텐츠를 검색합니다.
 - 검색된 CEP_GlobalFilter 찾을 수 없습니다.
 - 정규식 CEP_PasswordPlaceHolder 일치하는 콘텐츠를 찾지 못합니다.
-- 정규식 CEP_CommonExampleKeywords 패턴과 일치하는 콘텐츠를 찾을 수 없습니다.
+- 정규식 CEP_CommonExampleKeywords 일치하는 콘텐츠를 찾지 못합니다.
 
 ```sql
 <!---SQL Server Connection String>
@@ -15397,7 +15649,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - `Regex_sweden_eu_driver's_license_number`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_eu_driver's_license_number` `Keywords_sweden_eu_driver's_license_number` 발견되거나 발견됩니다. 
     
@@ -15476,7 +15728,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - driverlicences #
 - driver lic #
 - driver lics #
-- driver license #
+- driver license(드라이버 라이선스) #
 - driver licenses #
 - driver licences #
 - driverslic #
@@ -15574,10 +15826,10 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 `Func_swedish_national_identifier` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
-- 검색된 `Keywords_swedish_national_identifier` 키워드
+- 키워드가 `Keywords_swedish_national_identifier` 발견됩니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 `Func_swedish_national_identifier` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
 - 체크섬이 통과됩니다.
 
@@ -15617,7 +15869,6 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - steidentifikationsnummer
    
 ## <a name="sweden-passport-number"></a>스웨덴 여권 번호
-이 중요한 정보 유형 엔터티는 EU Passport 번호 중요한 정보 유형에 포함되어 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
 ### <a name="format"></a>형식
 
@@ -15633,59 +15884,82 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 정규식 Regex_sweden_passport_number 일치하는 콘텐츠를 찾을 수 있습니다.
-- 다음 중 하나는 true입니다.
-    - 검색된 Keyword_passport 있습니다.
-    - 검색된 Keyword_sweden_passport 있습니다.
+- 키워드를 `Keywords_eu_passport_number` `Keyword_sweden_passport` 찾거나 찾은 경우
+- `Regex_sweden_eu_passport_date`정규식이 DD MMM/MMM YY(01 JAN/JAN 12) 형식의 날짜를 찾거나 키워드가 `Keywords_eu_passport_date` 발견되었습니다.
+
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
+- 정규식 Regex_sweden_passport_number 일치하는 콘텐츠를 찾을 수 있습니다.
+- 키워드를 `Keywords_eu_passport_number` `Keyword_sweden_passport` 찾거나 찾은 경우
+
 
 ```xml
-<!-- Sweden Passport Number -->
-<Entity id="ba4e7456-55a9-4d89-9140-c33673553526" patternsProximity="300" recommendedConfidence="75">
-    <Pattern confidenceLevel="75">
-        <IdMatch idRef="Regex_sweden_passport_number" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_passport" />
-          <Match idRef="Keyword_sweden_passport" />
-        </Any>
-    </Pattern>
-</Entity>
+    <!-- Sweden Passport Number -->
+    <Entity id="ba4e7456-55a9-4d89-9140-c33673553526" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="85">
+          <IdMatch idRef="Regex_sweden_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keyword_sweden_passport" />
+          </Any>
+          <Any minMatches="1">
+            <Match idRef="Regex_sweden_eu_passport_date" />
+            <Match idRef="Keywords_eu_passport_date" />
+          </Any>
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Regex_sweden_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keyword_sweden_passport" />
+          </Any>
+      </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
    
+#### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
+
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
+- passport number
+- passportnumbers
+- passport numbers
+
 #### <a name="keyword_sweden_passport"></a>Keyword_sweden_passport
 
-- visa requirements 
-- Alien Registration Card 
-- Schengen visas 
-- Schengen visa 
-- Visa Processing 
-- Visa Type 
-- Single Entry 
-- Multiple Entry 
-- G3 Processing Fees 
+- 에나 등록 카드
+- g3 처리 요금
+- 여러 항목
+- Numéro de passeport
+- passeport n °
+- passeport non
+- passeport #
+- passeport #
+- passeportnon
+- passeportn °
+- passnummer
+- pass nr
+- schengen visa
+- schengen visas
+- 단일 항목
+- sverige 패스
+- visa requirements
+- visa processing
+- visa type(visa type)
 
-#### <a name="keyword_passport"></a>Keyword_passport
+#### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Passport Number 
-- Passport No 
-- Passport # 
-- Passport # 
-- PassportID 
-- Passportno 
-- passportnumber 
-- パスポート 
-- パスポート番号 
-- ೺೺臲೺ 
-- パスポート＃ 
-- Numéro de passeport 
-- Passeport n ° 
-- Passeport Non 
-- Passeport # 
-- Passeport # 
-- PasseportNon 
-- Passeportn ° 
+- 문제의 날짜
+- 만료 날짜
+
 
 ## <a name="sweden-social-security-number-or-equivalent-identification"></a>스웨덴 사회 보장 번호 또는 동등한 식별
 이 중요한 정보 유형 엔터티는 EU 사회 보장 번호 또는 동등한 ID 중요한 정보 유형에서만 사용할 수 있습니다.
@@ -15701,7 +15975,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - 생년월일에 해당하는 8자리 숫자(YYYYMMDD) 
 - 일련 번호에 해당하는 세 자리 숫자는 여기서: 
   - 일련 번호의 마지막 숫자는 남성의 홀수 할당에 의해 성별을 나타내고 여성은 등수입니다.
-  - 1990년 이전의 일련 번호 할당은 해당 번호의 원주민이 태어나는 시에 해당합니다. 또는 1947년 1월 1일 세금 기록에 따라 거주했던(1947년 1월 1일 이전의 생년월일)에는 이민자에 대한 특수 코드(일반적으로 9번째 숫자)가 있습니다.
+  - 1990년 이전의 일련 번호 할당은 해당 번호의 원주민이 태어나는 시에 해당합니다. 또는 1947년 1월 1일 세금 기록에 따라 이민자에 대한 특수 코드(일반적으로 9번째 숫자)를 사용하여 생년월일인 경우(1947년 7월 1일 이전의 생년월일)
 - 검사 숫자 1개
     
 ### <a name="checksum"></a>체크 um
@@ -15767,7 +16041,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 생년월일(YYMMDD)에 해당하는 6자리 숫자 
 - 더하기 기호 또는 minus 기호
 - ID 번호를 고유하게 만드는 3자리 숫자: 
-  - 1990년 이전 발급된 숫자의 경우 7-8번째 숫자는 생년월일 또는 외세의 신생아를 식별합니다.
+  - 1990년 전에 발급된 숫자의 경우 7번째와 8번째 숫자는 생년월일 또는 외세의 신생아를 식별합니다.
   - 9번째 위치의 숫자는 성별을 남성의 홀수 또는 심지어 여성으로 나타냅니다.
 - 검사 숫자 1개
     
@@ -15781,7 +16055,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이  `Func_sweden_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_sweden_eu_tax_file_number` 발견됩니다. 
     
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_sweden_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
     
 ```xml
@@ -15851,7 +16125,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Regex_swift 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_swift의 키워드가 발견되었습니다.
 
@@ -15937,7 +16211,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이 Func_swiss_social_security_number_ahv 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keywords_swiss_social_security_number_ahv 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_swiss_social_security_number_ahv 일치하는 콘텐츠를 찾을 수 있습니다.
 
 ```xml
@@ -16001,7 +16275,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - Keyword_taiwanese_national_id의 키워드가 발견되었습니다.
 - 체크섬이 통과됩니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_taiwanese_national_id 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
@@ -16058,7 +16332,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 정규식은 Regex_taiwan_passport 일치하는 콘텐츠를 검색합니다.
 - 검색된 Keyword_taiwan_passport 있습니다.
 
@@ -16103,7 +16377,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 정규식은 Regex_taiwan_resident_certificate 일치하는 콘텐츠를 검색합니다.
 - 검색된 키워드가 Keyword_taiwan_resident_certificate 있습니다.
 
@@ -16155,7 +16429,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이 Func_Thai_Citizen_Id 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keyword_Thai_Citizen_Id 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_Thai_Citizen_Id 일치하는 콘텐츠를 찾을 수 있습니다.
 
 ```xml
@@ -16202,7 +16476,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - 이 Func_Turkish_National_Id 일치하는 콘텐츠를 찾을 수 있습니다.
 - 검색된 Keyword_Turkish_National_Id 있습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_Turkish_National_Id 일치하는 콘텐츠를 찾을 수 있습니다.
 
 ```xml
@@ -16228,7 +16502,6 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 - Vatandaandaandalandak no
 
 ## <a name="uk-drivers-license-number"></a>영국 driver's license number(운전 면허 번호)
-이 중요한 정보 유형 엔터티는 EU 운전 면허 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
 ### <a name="format"></a>형식
 
@@ -16239,7 +16512,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 18개의 문자 및 숫자:
 - 5자리 문자(대소문자 구분 안 되거나 문자 대신 숫자 "9") 
 - 1자리 숫자
-- 생년월일 형식 MMDDY의 5자리 숫자입니다. 드라이버가 여성인 경우 7번째 문자가 50으로 증가합니다. 검사의 경우 01에서 12까지가 아니라 51에서 62까지입니다.
+- 생년월일의 날짜 형식 MMDDY의 5자리 숫자입니다. 드라이버가 여성인 경우 7번째 문자가 50으로 증가합니다. 검사의 경우 01에서 12까지가 아니라 51에서 62까지입니다.
 - 대소문자 구분 안 2개 또는 문자 대신 숫자 "9"를 입력합니다. 
 - 5자리 숫자
 
@@ -16249,40 +16522,151 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
-- Func_uk_drivers_license 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- Keyword_uk_drivers_license의 키워드가 발견되었습니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
+- 이 `Func_uk_drivers_license` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 키워드가 `Keywords_eu_driver's_license_number` 발견됩니다.
+- 체크섬이 통과됩니다.
+
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보가 검색될 수 있다는 신뢰도는 낮습니다.
+- 이 `Func_uk_drivers_license` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
 - 체크섬이 통과됩니다.
 
 ```xml
-<!-- U.K. Driver's License Number -->
-<Entity id="f93de4be-d94c-40df-a8be-461738047551" patternsProximity="300" recommendedConfidence="75">
-    <Pattern confidenceLevel="75">
-        <IdMatch idRef="Func_uk_drivers_license" />
-        <Match idRef="Keyword_uk_drivers_license" />
-    </Pattern>
-</Entity>
+    <!-- U.K. Driver's License Number -->
+    <Entity id="f93de4be-d94c-40df-a8be-461738047551" patternsProximity="300" recommendedConfidence="75" relaxProximity="true" >
+      <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_uk_drivers_license" />
+          <Match idRef="Keywords_eu_driver's_license_number" />
+        </Pattern>
+        <Pattern confidenceLevel="65">
+          <IdMatch idRef="Func_uk_drivers_license" />
+        </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keyword_uk_drivers_license"></a>Keyword_uk_drivers_license
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver s_license_number
 
-- DVLA 
-- light vans 
-- 사분면 
-- motor cars 
-- 125cc 
-- sidecar 
-- 삼각형 
-- motorcycles 
-- photocard licence 
-- learner drivers 
-- licence holder 
-- licence holders 
-- driving licences 
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
+- driver license
+- driver licenses
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
+- drivers license
+- drivers licenses
+- drivers licence
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- driver's lic
+- driver's lics
+- driver's license
+- driver's licenses
+- driver's licence
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license(드라이버 라이선스) #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
-- dual control car 
+- driving license
+- dlno #
+- driv lic
+- driv licen
+- driv 라이선스
+- driv 라이선스
+- driv licence
+- driv 라이선스
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
+- driving licence
+- driving licences
+- driving permit
+- dl no
+- dlno
+- dl number
+
    
 ## <a name="uk-electoral-roll-number"></a>영국 electoral roll number
 
@@ -16300,7 +16684,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Regex_uk_electoral 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_uk_electoral의 키워드가 발견되었습니다.
 
@@ -16406,7 +16790,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 - 두 글자(유효한 NOS는 이 연결의 유효성을 검사하는 특정 문자만 사용하고 대소문자는 구분하지 않습니다.)
 - 6자리 숫자
-- 'A', 'B', 'C' 또는 'D'(접두사와 같이 접미사에는 특정 문자만 사용할 수 있습니다. 대소문자 구분 안 되거나)
+- 'A', 'B', 'C' 또는 'D'(접두사와 같이 접미사에는 특정 문자만 사용할 수 있습니다.)
 
 또는
 
@@ -16430,7 +16814,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - Func_uk_nino 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_uk_nino의 키워드가 발견되었습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_uk_nino 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 
 ```xml
@@ -16494,7 +16878,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
   
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이  `Func_uk_eu_tax_file_number` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
 - 키워드가  `Keywords_uk_eu_tax_file_number` 발견됩니다. 
     
@@ -16546,7 +16930,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Regex_usa_bank_account_number 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_usa_Bank_Account의 키워드가 발견되었습니다.
 
@@ -16610,7 +16994,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_new_york_drivers_license_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_[state_name]_drivers_license_name의 키워드가 발견되었습니다.
 - 검색된 Keyword_us_drivers_license 있습니다.
@@ -16777,7 +17161,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - Func_formatted_itin 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_itin의 키워드가 발견되었습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_unformatted_itin 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_itin의 키워드가 발견되었습니다.
 
@@ -16833,11 +17217,11 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 
 ### <a name="pattern"></a>패턴
 
-네 가지 함수는 네 가지 다른 패턴에서 SSNS를 봐야 합니다.
-- Func_ssn 대시 또는 공백으로 서식이 지정되어 있는 2011년 전 강력한 서식의 SSNS를 검색합니다(ddd-dd-dddd OR ddd dd)
+네 가지 함수는 네 가지 다른 패턴에서 SSNS를 찾아보세요.
+- Func_ssn 대시 또는 공백으로 서식이 지정되어 있는 2011년 전 강력한 서식의 SSNS를 검색합니다(ddd-dd-dddd OR ddd dddd)
 - Func_unformatted_ssn 9자리 연속 숫자(ddddddd)로 서식이 지정되지 않은 2011년 전 강력한 서식의 SSNS를 찾을 수 있습니다.
 - Func_randomized_formatted_ssn 대시 또는 공백으로 서식이 지정된 2011년 후 SSNS를 검색합니다(ddd-dd-dddd OR ddd dddd)
-- Func_randomized_unformatted_ssn 9자리 연속 숫자로 포스터가 없는 2011년 후 SSNS를 검색합니다(ddddddddd).
+- Func_randomized_unformatted_ssn 9자리 연속 숫자로폼이 없는 2011년 후 SSNS를 검색합니다(ddddddddd).
 
 ### <a name="checksum"></a>체크 um
 
@@ -16850,7 +17234,7 @@ DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보
 - Func_ssn 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_ssn의 키워드가 발견되었습니다.
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - 이 Func_unformatted_ssn 일치하는 콘텐츠를 찾을 수 있습니다.
 - Keyword_ssn의 키워드가 발견되었습니다.
 
@@ -16903,7 +17287,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - SSID
    
 ## <a name="us--uk-passport-number"></a>미국/영국 passport number
-영국 passport 번호 중요한 정보 유형 엔터티는 EU Passport 번호 중요한 정보 유형에서 사용할 수 있습니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
 ### <a name="format"></a>형식
 
@@ -16919,41 +17302,56 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - Func_usa_uk_passport 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- Keyword_passport의 키워드가 발견되었습니다.
+- 키워드가 `Keywords_eu_passport_number` `Keywords_uk_eu_passport_number` 발견되거나 발견됩니다.
+- 키워드가 `Keywords_eu_passport_date` 발견됩니다.
+
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
+- Func_usa_uk_passport 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
+- 키워드가 `Keywords_eu_passport_number` `Keywords_uk_eu_passport_number` 발견되거나 발견됩니다.
 
 ```xml
-<Entity id="178ec42a-18b4-47cc-85c7-d62c92fd67f8" patternsProximity="300" recommendedConfidence="75">
-    <Pattern confidenceLevel="75">
-        <IdMatch idRef="Func_usa_uk_passport" />
-        <Match idRef="Keyword_passport" />
-    </Pattern>
-</Entity>
+    <!-- U.S. / U.K. Passport Number -->
+    <Entity id="178ec42a-18b4-47cc-85c7-d62c92fd67f8" patternsProximity="300" recommendedConfidence="75">
+       <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_usa_uk_passport" />
+          <Match idRef="Keywords_eu_passport_date" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keywords_uk_eu_passport_number" />
+          </Any>
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_usa_uk_passport" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keywords_uk_eu_passport_number" />
+          </Any>
+        </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keyword_passport"></a>Keyword_passport
+#### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passport Number 
-- Passport No 
-- Passport # 
-- Passport # 
-- PassportID 
-- Passportno 
-- passportnumber 
-- パスポート 
-- パスポート番号 
-- ೺೺臲೺ 
-- パスポート＃ 
-- Numéro de passeport 
-- Passeport n ° 
-- Passeport Non 
-- Passeport # 
-- Passeport # 
-- PasseportNon 
-- Passeportn ° 
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
+- passport number
+- passportnumbers
+- passport numbers
+
+#### <a name="keywords_uk_eu_passport_number"></a>Keywords_uk_eu_passport_number
+
+- british passport 
+- uk passport 
+
 
 ## <a name="ukraine-passport-domestic"></a>우크라이나 여권 국내
 이 중요한 정보 유형은 다음에서만 사용할 수 있습니다.
@@ -16977,7 +17375,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - regex Regex_Ukraine_Passport_Domestic 패턴과 일치하는 콘텐츠를 검색합니다.
 - 검색된 Keyword_Ukraine_Passport_Domestic 있습니다.
 
@@ -17027,7 +17425,7 @@ DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300자 이내의 근접성인 경우 이 유형의 중요한 정보가 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+DLP 정책은 300자 이내의 근접성으로 다음 유형의 중요한 정보를 검색할 수 있습니다.
 - regex Regex_Ukraine_Passport_International 패턴과 일치하는 콘텐츠를 검색합니다.
 - 검색된 Keyword_Ukraine_Passport_International 있습니다.
 

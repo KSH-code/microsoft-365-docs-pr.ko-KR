@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: DLP(데이터 손실 방지) 정책을 사용하여 타사 시스템의 속성이 있는 문서를 보호하는 방법을 학습합니다.
-ms.openlocfilehash: a3dd82dae76336dc3d1293430e10ba505585e707
-ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
+ms.openlocfilehash: cf026e447ad1f0da3486a36dd5e36c52c09998cb
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49562979"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288231"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기
 
@@ -49,6 +49,9 @@ DLP 정책은 단순히 특정 속성 이름/값 쌍을 검색합니다. 속성�
 DLP 정책에서 Windows Server FCI 속성 또는 기타 속성을 사용하려면 먼저 SharePoint 관리 센터에서 관리 속성을 만들어야 합니다. 그 이유는 다음과 있습니다.
 
 예제
+
+> [!NOTE]
+> 조건을 사용하여 DLP 규칙을 만들 때 크롤링 속성 이름이 아닌 관리 속성 이름을 사용해야 `ContentPropertyContainsWords` 합니다.
 
 이는 DLP가 검색 크롤러를 사용하여 사이트에서 중요한 정보를 식별하고 분류한 다음 해당 중요한 정보를 검색 인덱스의 보안 부분에 저장하기 때문에 중요합니다. Office 365로 문서를 업로드하는 경우 SharePoint는 문서 속성을 기준으로 크롤링된 속성을 자동으로 만듭니다. 그러나 FCI 또는 DLP 정책의 다른 속성을 사용하려면 해당 속성을 갖는 콘텐츠가 인덱스에 보관될 수 있게 크롤링된 속성이 관리 속성에 매핑되어야 합니다.
 
@@ -88,13 +91,13 @@ DLP 정책에서 Windows Server FCI 속성 또는 기타 속성을 사용하려�
 
 ## <a name="create-a-dlp-policy-that-uses-an-fci-property-or-other-property"></a>FCI 속성 또는 기타 속성을 사용하는 DLP 정책 만들기
 
-이 예에서 조직은 Windows Server 기반 파일 서버에서 FCI를 사용하고 있습니다. 특히, 높음, 보통, 낮음,  공용 및 **PII가** 아닌 값과 함께 개인 식별이 가능한 정보라는 FCI 분류 속성을 사용합니다.   이제 Office 365의 DLP 정책에서 기존 FCI 분류를 사용하려는 경우
+이 예에서 조직은 Windows Server 기반 파일 서버에서 FCI를 사용하고 있습니다. 특히, 높음, 보통, 낮음,  공용 및 **PII가** 아닌 값과 함께 개인 식별이 가능한 정보라는 FCI 분류 속성을 사용합니다.   이제 Office 365의 DLP 정책에서 기존 FCI 분류를 사용하려는 경우.
 
 먼저 위 단계에 따라 SharePoint Online에서 관리 속성을 만듭니다. 이 속성은 FCI 속성에서 자동으로 만들어진 크롤링 속성에 매핑됩니다.
 
 다음으로, 둘 다 조건 문서 속성에 다음 값을 포함하는 두 규칙이 포함된 DLP **정책을 생성합니다.**
 
-- **FCI PII 콘텐츠 - 높음, 보통** 첫 번째 규칙은 FCI 분류 속성 개인  식별이 가능한 정보가 **높음** 또는  보통과 같고 문서가 조직 외부의 사용자와 공유되는 경우 문서에 대한 액세스를 제한합니다.
+- **FCI PII 콘텐츠 - 높음, 보통** 첫 번째 규칙은 FCI 분류 속성 개인  식별 정보가 **높음** 또는 보통과  같고 문서가 조직 외부의 사용자와 공유되는 경우 문서에 대한 액세스를 제한합니다.
 
 - **FCI PII 콘텐츠 - 낮음** 두 번째 규칙은 FCI 분류 속성 개인 식별이 가능한 정보가 **낮음과** 같고 문서가 조직 외부의 사용자와 공유되는 경우 문서 소유자에게 알림을 전송합니다. 
 
@@ -132,7 +135,7 @@ DLP 정책에서 Windows Server FCI 속성 또는 기타 속성을 사용하려�
 
 ## <a name="after-you-create-the-dlp-policy"></a>DLP 정책을 만든 후
 
-이전 섹션의 단계를 수행하면 해당 속성이 있는 콘텐츠를 빠르게 검색하는 DLP 정책이 만들어지지만 해당 콘텐츠가 새로 업로드된 경우(콘텐츠가 인덱싱될 수 있도록) 또는 해당 콘텐츠가 오래 되지만 편집만 된 경우(콘텐츠가 다시 인덱싱될 수 있도록).
+이전 섹션의 단계를 수행하면 해당 속성이 있는 콘텐츠를 빠르게 검색하는 DLP 정책이 만들어지지만 해당 콘텐츠가 새로 업로드된 경우(콘텐츠가 인덱싱될 수 있도록) 또는 해당 콘텐츠가 오래 되지만 방금 편집된 콘텐츠인 경우(콘텐츠가 다시 인덱싱될 수 있도록).
 
 모든 위치에서 해당 속성을 갖는 콘텐츠를 검색하려는 경우 DLP 정책이 해당 속성의 모든 콘텐츠를 인식할 수 있게 라이브러리, 사이트 또는 사이트 모음을 다시 인덱싱하도록 수동으로 요청할 수 있습니다. SharePoint Online에서 콘텐츠는 정의된 크롤링 일정에 따라 자동으로 크롤링됩니다. 크롤러는 마지막 크롤링 이후에 변경된 콘텐츠를 선택하고 인덱스를 업데이트합니다. 예약된 다음 크롤링 전에 DLP 정책을 통해 콘텐츠를 보호해야 할 경우 다음 단계를 수행할 수 있습니다.
 
