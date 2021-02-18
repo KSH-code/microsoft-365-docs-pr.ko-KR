@@ -18,21 +18,21 @@ ms.collection:
 description: 관리자는 EOP(Exchange Online Protection)에서 스푸핑 방지 보호에 대한 질문과 대답을 볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2d0805b5ca9e951234679ed8b3d03b6bdfced2be
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: d2d307d201af8ad09a4faf7a865a29da8942bdf8
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175898"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288912"
 ---
 # <a name="anti-spoofing-protection-faq"></a>스푸핑 방지 보호 기능 FAQ
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 이 문서에서는 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에 대한 스푸핑 방지 보호에 대한 질문과 대답을 제공합니다.
 
@@ -40,9 +40,9 @@ ms.locfileid: "50175898"
 
 맬웨어 방지 보호에 대한 질문과 대답은 맬웨어 방지 [보호 FAQ를 참조하세요.](anti-malware-protection-faq-eop.md)
 
-## <a name="why-did-microsoft-choose-to-junk-unauthenticated-inbound-email"></a>Microsoft에서 확인되지 않은 인바운드 전자 메일을 정크로 선택한 이유는 무엇입니까?
+## <a name="why-did-microsoft-choose-to-junk-unauthenticated-inbound-email"></a>Microsoft에서 확인되지 않은 인바운드 전자 메일을 정크 메일로 선택한 이유는 무엇입니까?
 
-Microsoft는 합법적인 인바운드 전자 메일을 잃을 위험이 더 높을 것으로 생각하며, 이를 통해 확인되지 않은 인바운드 전자 메일을 계속 허용할 위험이 더 높다는 것입니다.
+Microsoft는 합법적인 인바운드 전자 메일을 잃을 위험보다 더 높은 것으로 생각하고 있습니다.
 
 ## <a name="does-junking-unauthenticated-inbound-email-cause-legitimate-email-to-be-marked-as-spam"></a>정크 메일 정크를 통해 합법적인 전자 메일이 스팸으로 표시될 수 있나요?
 
@@ -64,7 +64,7 @@ See [You don't know all sources for your email.](email-validation-and-authentica
 
 ## <a name="what-happens-if-i-disable-anti-spoofing-protection-for-my-organization"></a>조직에서 스푸핑 방지 보호 기능을 사용하지 않도록 설정하면 어떻게 하나요?
 
-스푸핑 방지 보호 기능을 사용 하지 않는 것이 좋습니다. 보호 기능을 설정하면 조직에서 더 많은 피싱 및 스팸 메시지를 배달할 수 있습니다. 모든 피싱이 스푸핑인 것은 아니며, 스푸핑된 메시지 중 모든 메시지가 누락되지는 않습니다. 그러나 위험은 더 높아야 합니다.
+스푸핑 방지 보호 기능을 사용 하지 않는 것이 좋습니다. 보호 기능을 설정하면 조직에 더 많은 피싱 및 스팸 메시지가 배달될 수 있습니다. 모든 피싱이 스푸핑인 것은 아니며, 스푸핑된 메시지 중 모든 메시지가 누락되지는 않습니다. 그러나 위험은 더 높아야 합니다.
 
 커넥터에 [](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) 대한 향상된 필터링을 사용할 수 있습니다. 전자 메일이 EOP 전에 다른 서비스를 통해 라우팅되는 경우 더 이상 스푸핑 방지 보호 기능을 해제하는 것이 좋습니다.
 
@@ -84,4 +84,4 @@ See [You don't know all sources for your email.](email-validation-and-authentica
 
 ## <a name="does-sender-rewriting-scheme-help-fix-forwarded-email"></a>보낸 사람 다시 덮기 스키마가 전달된 전자 메일을 수정하는 데 도움이 하나요?
 
-SRS는 전달된 전자 메일 문제를 부분적으로만 수정합니다. SRS는 SMTP **MAIL FROM을** 다시 하여 전달된 메시지가 다음 대상에 SPF를 전달하는지 보장할 수 있습니다. 그러나 스푸핑 방지는 **MAIL FROM**  또는 DKIM 서명 도메인(또는 기타 신호)와 함께 보낸 편지지 주소를 기반으로 하기 때문에 SRS 전달 전자 메일이 스푸핑으로 표시되지 않도록 방지하는 것만으로는 충분하지 않습니다.
+SRS는 전달된 전자 메일 문제를 부분적으로만 수정합니다. SRS는 SMTP **MAIL FROM을** 다시 하여 전달된 메시지가 다음 대상에 SPF를 전달하는지 보장할 수 있습니다. 그러나 스푸핑 방지는 **MAIL FROM**  또는 DKIM 서명 도메인(또는 기타 신호)와 함께 보낸 편지지 주소를 기반으로 하기 때문에 SRS 전달 전자 메일이 스푸핑으로 표시되지 않도록 하는 것만으로는 충분하지 않습니다.

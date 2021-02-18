@@ -13,16 +13,28 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 8f6826865f38dad6040f65ac083be76450127299
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.openlocfilehash: d2ce8ecc12c73969a6ad9b939dc02c6b9cb360f4
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877203"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288410"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 
-이 문서에는 Microsoft Managed Desktop 설명서의 신규 문서와 [업데이트된 문서가 나열되어 있습니다.](index.yml) "업데이트된" 문서에는 오타, 스타일 또는 서식 문제의 수정과 같은 사소한 수정이 나열되지 않습니다. [언제든지 GitHub의](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)리포지토리를 방문하여 특정 커밋 기록(변경 내용 세부 정보 포함)을 볼 수 있습니다.
+이 문서에는 Microsoft Managed Desktop 설명서의 신규 문서와 [업데이트된 문서가 나열되어 있습니다.](index.yml) "업데이트된" 문서에는 오타 수정, 스타일 또는 서식 문제 수정과 같은 사소한 수정이 나열되지 않습니다. [항상 GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)리포지토리를 방문하여 특정 커밋 기록(변경 내용 세부 정보 포함)을 볼 수 있습니다.
+
+## <a name="january-2021"></a>2021년 1월
+새 문서 또는 변경된 문서 | 설명
+--- | ---
+[준비 평가 도구에서 발견한 문제 해결](get-ready/readiness-assessment-fix.md) | 업데이트된 문서
+[등록 후 설정 수정](get-started/conditional-access.md) | 업데이트된 문서
+[보고서 작업](working-with-managed-desktop/reports.md) | 업데이트된 문서
+[장치에 Intune 회사 포털 설치](get-started/company-portal.md) | 업데이트된 문서
+[장치 요구 사항](service-description/device-requirements.md) | 새 문서
+[규정 준수](intro/compliance.md) | 업데이트된 문서
+[Microsoft Managed Desktop에서 업데이트 처리 방법](service-description/updates.md) | 업데이트된 문서
+[관리 포털 액세스](get-started/access-admin-portal.md) | 업데이트된 문서
 
 
 ## <a name="december-2020"></a>2020년 12월
@@ -129,7 +141,7 @@ ms.locfileid: "49877203"
 새 문서 또는 변경된 문서 | 설명
 --- | ---
 [규정 준수](intro/compliance.md) | 새 문서
-[Microsoft Managed Desktop 지원 지역 및 언어](service-description/regions-languages.md) | 업데이트된 문서
+[Microsoft Managed Desktop 지원되는 지역 및 언어](service-description/regions-languages.md) | 업데이트된 문서
 
 
 
@@ -191,7 +203,7 @@ ms.locfileid: "49877203"
 [서비스 변경 및 커뮤니케이션](service-description/servicechanges.md) | 새 문서
 [직접 새 장치 등록](get-started/register-devices-self.md) | 업데이트된 문서
 [직접 기존의 장치 등록](get-started/register-reused-devices-self.md) | 업데이트된 문서
-[Microsoft Managed Desktop 지원 지역 및 언어](service-description/regions-languages.md) | 업데이트된 문서
+[Microsoft Managed Desktop 지원되는 지역 및 언어](service-description/regions-languages.md) | 업데이트된 문서
 
 
 
@@ -242,7 +254,7 @@ ms.locfileid: "49877203"
 ## <a name="may-2019"></a>2019년 5월
 새 문서 또는 변경된 문서 | 설명
 --- | ---
-[Microsoft Managed Desktop 지원 지역 및 언어](service-description/regions-languages.md) | 업데이트된 문서
+[Microsoft Managed Desktop 지원되는 지역 및 언어](service-description/regions-languages.md) | 업데이트된 문서
 [Microsoft Managed Desktop 장치](service-description/device-list.md) | 업데이트된 문서
 [Microsoft Managed Desktop 보관 장치](service-description/archived-device-list.md) | 새 문서
 [Microsoft Managed Desktop의 매핑된 드라이브 준비](get-ready/mapped-drives.md) | 새 문서
@@ -257,7 +269,7 @@ ms.locfileid: "49877203"
 [Microsoft Managed Desktop 장치에 Microsoft Project 및 Microsoft Visio 설치](get-started/project-visio.md) | 새 문서 
 [Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](get-ready/authentication.md) | 새 문서
 [Microsoft Managed Desktop에서 장치 등록](get-started/register-devices-self.md) | 새 문서
-[파트너용 Microsoft Managed Desktop에서 장치 등록](get-started/register-devices-partner.md) | 새 문서
+[파트너용 Microsoft Managed Desktop에 장치 등록](get-started/register-devices-partner.md) | 새 문서
 [Microsoft Managed Desktop 장치에 앱 배포](get-started/deploy-apps.md) | 업데이트된 문서
 
 ## <a name="march-2019"></a>2019년 3월

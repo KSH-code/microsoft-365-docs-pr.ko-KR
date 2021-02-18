@@ -11,20 +11,21 @@ ms.topic: article
 ms.collection:
 - o365_security_incident_response
 - M365-security-compliance
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인지하고 재구성하는 방법 알아보기
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cbdc41315d64d341248d6900147aabc5a0b9877c
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: e22cfa97ae59fdd094c161cdaeff899dc1dd6507
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663646"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286396"
 ---
-# <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
+# <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 수정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -168,7 +169,7 @@ ms.locfileid: "49663646"
 
 4. 최신 버전의 Outlook을 설치합니다. 최신 버전의 Outlook은 기본적으로 이 두 가지 유형의 공격을 차단한다는 사실을 기억하세요.
 
-5. 사서함의 모든 오프라인 복사본이 제거된 후 사용자의 암호를 다시 설정하고(고품질의 복사본 사용) MFA를 아직 사용하도록 설정하지 않은 경우 사용자에 대해 다단계 인증을 설치하는 단계를 수행합니다. [](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication) 이렇게 하면 사용자의 자격 증명이 다른 수단(예: 피싱 또는 암호 재사용)을 통해 노출되지 않습니다.
+5. 사서함의 모든 오프라인 복사본이 제거된 후 사용자의 암호를 다시 설정하고(고품질의 복사본 사용) MFA를 아직 사용하도록 설정하지 않은 경우 사용자에 대해 다단계 인증을 설치하는 단계를 수행합니다. [](../../admin/security-and-compliance/set-up-multi-factor-authentication.md) 이렇게 하면 사용자의 자격 증명이 다른 수단(예: 피싱 또는 암호 재사용)을 통해 노출되지 않습니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
@@ -196,7 +197,7 @@ ms.locfileid: "49663646"
 
 사용자 계정 중 하나를 도난 혹은 침해를 받은 경우에만 공격자가 이 규칙과 양식을 활용합니다. 따라서 조직에서 이러한 악용을 방지하는 첫 번째 단계는 사용자 계정을 적극적으로 보호하는 것입니다. 계정을 침해하는 가장 일반적인 방법 중 일부는 피싱 또는 [암호 스프레이](https://www.dabcc.com/microsoft-defending-against-password-spray-attacks/) 공격을 통해 발생합니다.
 
-사용자 계정 및 특히 관리자 계정을 보호하는 가장 좋은 방법은 사용자에 대해 다단계 인증을 [설정하는 것입니다.](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication) 사용자는 또한:
+사용자 계정 및 특히 관리자 계정을 보호하는 가장 좋은 방법은 사용자에 대해 다단계 인증을 [설정하는 것입니다.](../../admin/security-and-compliance/set-up-multi-factor-authentication.md) 사용자는 또한:
 
 - 사용자 계정이 [액세스되고 사용되는](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) 방식을 모니터링합니다. 초기 침해를 방지하지 못할 수 있지만 침해의 기간과 영향은 더 일찍 발견하여 줄일 수 있습니다. [Office 365 클라우드 앱 보안 정책](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)을 사용 하여 계정을 모니터링하고 비정상적 활동에 대 한 알림을 사용할 수 있습니다.
 

@@ -19,19 +19,19 @@ description: '요약: 정치적 캠페인 개발/테스트 환경의 사용자 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2d23539951e4d51fcd29417ab71ce599853d7537
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e600b3baf012d416a7b5de974b94111bb6cf90a2
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165706"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287452"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Office 365용 Microsoft Defender 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Office 365용 Microsoft Defender 플랜 2](office-365-atp.md)
 
  **요약:** 정치적 캠페인 개발/테스트 환경의 사용자 및 그룹을 사용하여 Office 365 및 EMS(Enterprise Mobility + Security) 평가판 구독을 만듭니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "50165706"
 
 이 단계에서는 정치적 캠페인을 표방하는 가상의 조직을 위해 Office 365 E5 및 EMS(Enterprise Mobility + Security) E5에 대한 평가판 구독을 얻습니다.
 
-먼저 [간단한 기본 구성](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)의 **2단계** 에 나와 있는 지침을 따르세요.
+먼저 [간단한 기본 구성](../../enterprise/lightweight-base-configuration-microsoft-365-enterprise.md)의 **2단계** 에 나와 있는 지침을 따르세요.
 
 다음으로, EMS E5 평가판 구독을 등록하고 평가판 구독과 동일한 조직에 추가합니다.
 
@@ -140,7 +140,7 @@ ms.locfileid: "50165706"
 
 이 단계에서는 정치적 캠페인에 대한 예제 사용자 계정을 추가합니다.
 
-먼저 [Azure Active Directory PowerShell for Graph 모듈에 연결](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell)합니다.
+먼저 [Azure Active Directory PowerShell for Graph 모듈에 연결](../../enterprise/connect-to-microsoft-365-powershell.md)합니다.
 
 다음으로 조직 이름, 사용자 위치 및 공통 암호를 입력합니다. PowerShell 명령 프롬프트 또는 ISE(Integrated Script Environment)에서 다음 명령을 실행합니다.
 
@@ -213,6 +213,6 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 
 [정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기](create-team-sites-in-a-political-campaign-dev-test-environment.md)
 
-[클라우드 도입 TLG(테스트 랩 가이드)](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[클라우드 도입 TLG(테스트 랩 가이드)](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
 [클라우드 도입 및 하이브리드 솔루션](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)

@@ -19,21 +19,21 @@ localization_priority: Priority
 description: 관리자는 EOP가 전자 메일 인증(SPF, DKIM 및 DMARC)을 사용하여 스푸핑, 피싱 및 스팸을 방지하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ff6bbaa4831234e45c5617fb4e7ee9d4113f1eb1
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: d1e0fbe8a00b17e871adf65f86a337a0a94493ed
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165457"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286516"
 ---
 # <a name="email-authentication-in-eop"></a>EOP에서 전자 메일 인증
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 
 전자 메일 인증(전자 메일 유효성 검사라고도 함)은 스푸핑(위조된 보낸 사람의 전자 메일 메시지)방지를 시도하는 표준 그룹입니다. 모든 Microsoft 365 조직에서 EOP는 다음 표준을 사용하여 인바운드 전자 메일을 확인합니다.

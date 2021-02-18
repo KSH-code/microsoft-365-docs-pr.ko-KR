@@ -17,21 +17,21 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)의 보호 응용 프로그램 순서와 보호 정책의 우선 순위 값이 적용되는 정책을 결정하는 방법을 알 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7f3d4a607f702349d3a8e43c1eceba5ecbb697d7
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: ec21be03280a8b7da122569d51186efc1f756a69
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167482"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286840"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>전자 메일 보호의 순서 및 우선 순위
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 인바운드 전자 메일은 여러 형태의 보호로 플래그가 지정될 수 있습니다. 예를 들어 모든 Microsoft 365 고객이 사용할 수 있는 EOP의 기본 제공 피싱 방지 정책과 Office 365 고객용 Microsoft Defender에서 사용할 수 있는 보다 강력한 피싱 방지 정책이 있습니다. 또한 메시지는 맬웨어, 스팸, 피싱 등에 대한 여러 검색 검색을 통과합니다. 이 모든 활동이 제공될 경우 어떤 정책이 적용되는지 혼동될 수 있습니다.
 
@@ -73,7 +73,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 1. 스푸핑의 우선 순위가 사용자 가장(5)보다 높기 때문에 메시지가 스푸핑으로 표시 및 처리됩니다.
 2. 정책 A는 정책 B보다 우선 순위가 높기 때문에 사용자에게 적용됩니다.
-3. 정책 A의 설정에 따라 정책에서 스푸핑 방지가 해제되어 있기 때문에 메시지에 아무 작업도 수행하지 않습니다.
+3. 정책 A의 설정에 따라 정책에서 스푸핑 방지가 꺼져 있기 때문에 메시지에 아무 작업도 수행하지 않습니다.
 4. 정책 처리가 중지되고 정책 B가 사용자에게 적용되지 않습니다.
 
 동일한 사용자가 같은 유형의 여러 사용자 지정 정책에 의도적으로 또는 의도하지 않은 것으로 포함될 수 있기 때문에 사용자 지정 정책에 대해 다음 디자인 지침을 사용하세요.

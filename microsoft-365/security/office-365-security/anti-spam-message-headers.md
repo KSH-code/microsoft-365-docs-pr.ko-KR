@@ -18,21 +18,21 @@ description: 관리자는 Exchange Online Protection(EOP)에서 메시지에 추
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5f0befa764982ae30e0c7c5c1a9f109067f3ee02
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: e78d7d6eb2b38ab93dc09e0098641f97f845015c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175658"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289008"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Microsoft 365의 스팸 방지 메시지 헤더
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 모든 Microsoft 365 조직에서 EOP(Exchange Online Protection)는 들어오는 모든 메시지에 대해 스팸, 멀웨어 및 기타 위협을 검색합니다. 이러한 검색 결과는 메시지의 다음 헤더 필드에 추가됩니다.
 

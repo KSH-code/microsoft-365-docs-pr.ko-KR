@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,17 +16,23 @@ ms.collection:
 - M365-security-compliance
 description: Exchange Online Protection에서 메시지를 식별하고 메시지의 SCL(스팸 지수)을 설정하는 메일 흐름 규칙(전송 규칙)을 만드는 방법을 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 447333eb968ba7d91a1673c57b11afdb16b90469
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: aa2893214543f77114d517dc38f874d6172a920a
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659840"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287560"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages-in-eop"></a>메일 흐름 규칙을 사용하여 EOP의 메시지에서 SCL(스팸 지수) 설정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 EOP는 스팸 방지 정책(스팸 필터 정책 또는 콘텐츠 필터 정책)을 사용하여 인바운드 메시지에서 스팸을 검색합니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
@@ -63,14 +68,14 @@ Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 
 
    - **다음의 경우** 이 규칙을 적용합니다. 메시지를 식별하는 조건을 하나 이상 선택합니다. 자세한 내용은 Exchange Online의 메일 흐름 규칙 조건 및 예외(조건자)를 [참조하세요.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
 
-   - **다음을 선택합니다.** SCL(스팸 지수)을 설정하는 메시지 속성  \> **수정을 선택합니다.** 나타나는 **SCL 지정** 대화 상자에서 다음 값 중 하나를 구성합니다.
+   - **다음을 선택합니다.** SCL(스팸 **지수)을** 설정하는 메시지 속성 \> **수정을 선택합니다.** 나타나는 **SCL 지정** 대화 상자에서 다음 값 중 하나를 구성합니다.
 
    - **스팸 필터링 무시:** 메시지는 스팸 필터링을 건너뜁습니다.
 
      > [!CAUTION]
-     > 메시지에서 스팸 필터링을 건너뛸 수 있도록 허용하는 데 주의해야 합니다. 공격자는 이 취약성을 사용하여 피싱 및 기타 악성 메시지를 조직으로 보낼 수 있습니다. 메일 흐름 규칙에는 보낸 사람 전자 메일 주소나 도메인만 필요합니다. 자세한 내용은 [EOP에서 수신이 가능한 보낸 사람 목록 만들기를 참조하세요.](create-safe-sender-lists-in-office-365.md)
+     > 메시지에서 스팸 필터링을 건너뛰게 하는 데 주의해야 합니다. 공격자는 이 취약점을 사용하여 피싱 및 기타 악의적인 메시지를 조직으로 보낼 수 있습니다. 메일 흐름 규칙에는 보낸 사람 전자 메일 주소 또는 도메인 이상이 필요합니다. 자세한 내용은 [EOP에서 수신이 가능한 보낸 사람 목록 만들기를 참조하세요.](create-safe-sender-lists-in-office-365.md)
 
-   - **0~4:** 메시지가 추가 처리를 위해 스팸 필터링을 통해 전송됩니다.
+   - **0~4:** 추가 처리를 위해 메시지가 스팸 필터링을 통해 전송됩니다.
 
    - **5 또는 6:** 메시지가 스팸으로 **표시됩니다.** 스팸 방지 정책에서 스팸  필터링 판정에 대해 구성한 작업이 메시지에 적용됩니다(기본값은 정크 메일 폴더로 메시지 **이동).**
 
@@ -80,4 +85,4 @@ Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 
 
 ## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
-이 절차가 올바르게 작동하고 있는지 확인하려면 조직 내부의 사람에게 전자 메일 메시지를 보내고 메시지에 대해 수행된 작업이 예상대로 수행된지 확인합니다. 예를 들어 **SCL(스팸** 지수)을 스팸 필터링 무시로 설정한 경우 지정된 받는 사람의 받은 편지함으로 메시지를 보내야 합니다. 그러나 **SCL(스팸** 지수)을 **9로** 설정하고  적용 가능한 스팸 방지 정책에 대해 높은 신뢰도 스팸 작업을 수행하여 메시지를 정크 메일 폴더로 이동하는 경우 지정된 받는 사람의 정크 메일 폴더로 메시지가 전송됩니다.
+이 절차가 올바르게 작동하고 있는지 확인하려면 조직 내부의 사람에게 전자 메일 메시지를 보내고 메시지에 대해 수행된 작업이 예상대로 수행된지 확인합니다. 예를 들어 **SCL(스팸** 지수)을 스팸 필터링 무시로 설정한 경우 지정된 받는 사람의 받은 편지함으로 메시지를 보내야 합니다. 그러나 **SCL(스팸** 지수)을 **9로** 설정하고  적용 가능한 스팸 방지 정책에 대해 높은 지수 스팸 작업을 수행하여 메시지를 정크 메일 폴더로 이동하는 경우 지정된 받는 사람의 정크 메일 폴더로 메시지를 보내야 합니다.

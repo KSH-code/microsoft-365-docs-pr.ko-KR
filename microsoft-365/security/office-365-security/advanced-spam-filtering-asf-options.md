@@ -19,21 +19,21 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)의 스팸 방지 정책에서 사용할 수 있는 ASF(고급 스팸 필터) 설정에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ec316c98befada7a793f525be909ba0b8fa5e3ae
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 0b6db02815f5b50d199e10685e2895a174997fd2
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50176054"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288684"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>EOP의 ASF(고급 스팸 필터) 설정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!NOTE]
 > 현재 스팸 방지 정책에서 사용할 수 있는 ASF 설정은 사용되지 않습니다. 스팸 방지 정책에서는 이러한 설정을 사용하지 않는 것이 좋습니다. 이러한 ASF 설정의 기능은 필터링 스택의 다른 부분에 통합되고 있습니다. 자세한 내용은 EOP 스팸 [방지 정책 설정을 참조하세요.](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)
@@ -65,9 +65,9 @@ ms.locfileid: "50176054"
 
   - **기본 X-헤더 텍스트 *추가(AddXHeader*)**: X-헤더 값이 `X-CustomSpam: This message was filtered by the custom spam filter option` 메시지에 추가됩니다. 받은 편지함 규칙 또는 메일 흐름 규칙(전송 규칙)에서 이 값을 사용하여 메시지 배달에 영향을 줄 수 있습니다.
 
-  - **Bcc 메시지 *보내기(BccMessage*)**: 지정된 전자 메일 주소(PowerShell의 *TestModeBccToRecipients* 매개 변수 값)가 메시지의 Bcc 필드에 추가되어 추가 Bcc 받는 사람에게 배달됩니다. 보안 & 준수 센터에서는 전자 메일 주소가 여러 개인 경우 세미 ;). PowerShell에서는 전자 메일 주소가 여러 개인 경우 각 주소를 콤보로 구분합니다.
+  - **Bcc 메시지 *보내기(BccMessage*)**: 지정된 전자 메일 주소(PowerShell의 *TestModeBccToRecipients* 매개 변수 값)가 메시지의 Bcc 필드에 추가되어 추가 Bcc 받는 사람에게 메시지가 배달됩니다. 보안 & 준수 센터에서는 전자 메일 주소가 여러 개인 경우 세미코론(;). PowerShell에서는 전자 메일 주소가 여러 개인 경우 각 주소를 콤보로 구분합니다.
 
-  **참고**:
+  **참고:**
 
   - 다음 ASF 설정에는 테스트 모드를 사용할 수 없습니다.
 
@@ -105,9 +105,9 @@ ms.locfileid: "50176054"
 |**HTML의 Object 태그** <p> *MarkAsSpamObjectTagsInHtml*|HTML 태그가 포함된 메시지는 높은 신뢰도 `<object>` 스팸으로 표시됩니다. <p> 이 태그를 사용하면 플러그 인 또는 응용 프로그램이 HTML 창에서 실행될 수 있습니다.|`X-CustomSpam: Object tag in html`|
 |**HTML의 Embed 태그** <p> *MarkAsSpamEmbedTagsInHtml*|`<embed>`HTML 태그가 포함된 메시지는 높은 신뢰도 스팸으로 표시됩니다. <p> 이 태그를 사용하면 HTML 문서에 다양한 종류의 문서(예: 사운드, 비디오 또는 그림)를 함께 사용할 수 있습니다.|`X-CustomSpam: Embed tag in html`|
 |**HTML의 Form 태그** <p> *MarkAsSpamFormTagsInHtml*|HTML 태그가 포함된 메시지는 높은 신뢰도 `<form>` 스팸으로 표시됩니다. <p> 이 태그는 웹 사이트 양식을 만드는 데 사용됩니다. 전자 메일 광고에는 대개 받는 사람으로부터 정보를 얻기 위해 이 태그가 포함됩니다.|`X-CustomSpam: Form tag in html`|
-|**HTML의 웹 버그** <p> *MarkAsSpamWebBugsInHtml*|웹  버그(웹 알림)는 받는 사람이 메시지를 읽은지 여부를 확인하는 데 사용되는 그래픽 요소(대개 1픽셀 x 1픽셀)입니다.  <p> 웹 버그가 포함된 메시지는 높은 신뢰도 스팸으로 표시됩니다. <p> 합법적인 뉴스레터는 웹 버그를 사용할 수 있습니다. 그러나 많은 뉴스레터는 이를 개인 정보 침해로 고려합니다. |`X-CustomSpam: Web bug`|
+|**HTML의 웹 버그** <p> *MarkAsSpamWebBugsInHtml*|웹  버그(웹 알림)는 받는 사람이 메시지를 읽은지 여부를 확인하는 데 사용되는 그래픽 요소(보통 1픽셀 x 1픽셀)입니다.  <p> 웹 버그가 포함된 메시지는 높은 신뢰도 스팸으로 표시됩니다. <p> 합법적인 뉴스레터는 웹 버그를 사용할 수 있습니다. 그러나 많은 뉴스레터는 이를 개인 정보 침해로 고려합니다. |`X-CustomSpam: Web bug`|
 |**민감한 단어 목록 적용** <p> *MarkAsSpamSensitiveWordList*|Microsoft는 잠재적으로 공격적인 메시지와 연관된 동적이지만 편집할 수 없는 단어 목록을 유지 관리합니다. <p> 제목 또는 메시지 본문에 있는 중요한 단어 목록의 단어가 포함된 메시지는 높은 신뢰도 스팸으로 표시됩니다.|`X-CustomSpam: Sensitive word in subject/body`|
 |**SPF 레코드: 영구 실패** <p> *MarkAsSpamSpfRecordHardFail*|원본 전자 메일 도메인에 대한 DNS의 SPF(Sender Policy Framework) 레코드에 지정되지 않은 IP 주소에서 보낸 메시지는 높은 신뢰도 스팸으로 표시됩니다. <p> 이 설정에는 테스트 모드를 사용할 수 없습니다.|`X-CustomSpam: SPF Record Fail`|
-|**조건부 보낸 사람 ID 필터링: 영구 실패** <p> *MarkAsSpamFromAddressAuthFail*|조건부 보낸 사람 ID 검사에 실패한 메시지는 스팸으로 표시됩니다. <p> 이 설정은 SPF 검사를 보낸 사람 ID 검사와 결합하여 보낸 사람이 포함된 메시지 헤더를 보호합니다. <p> 이 설정에는 테스트 모드를 사용할 수 없습니다.|`X-CustomSpam: SPF From Record Fail`|
-|**NDR 후방 분산** <p> *MarkAsSpamNdrBackscatter*|*후방산은* 전자 메일 메시지의 보낸 사람에 의해 발생된 NDRs 또는 반송 메시지라고도 하는, 사용하지 않는 배달되지 않는 보고서입니다. 자세한 내용은 후방산자 메시지 및 [EOP를 참조하세요.](backscatter-messages-and-eop.md) <p> 합법적인 NDRS가 배달되어 후방산이 스팸으로 표시되어 있기 때문에 다음 환경에서는 이 설정을 구성할 필요가 없습니다. <ul><li>Exchange Online 사서함이 있는 Microsoft 365 조직</li><li>EOP를 통해 아웃바운드 전자 메일을 라우팅하는 On-premises  전자 메일 조직</li></ul> <p> 인바운드 전자 메일을온-프레미스 사서함으로 보호하는 독립 실행형 EOP 환경에서 이 설정을 켜거나 끄면 다음과 같은 결과가 나타납니다. <ul><li> **On**: 합법적인 NDRS가 배달되어 후방 스캐터가 스팸으로 표시됩니다.</li><li>**해제:** 합법적인 NDRS 및 후방 스캐터는 일반적인 스팸 필터링을 거치게 됩니다. 대부분의 합법적인 NDRS는 원본 메시지 보낸 사람에 배달됩니다. 일부 후방 스캐터는 높은 신뢰도 스팸으로 표시됩니다. 정의에 따라 후방산자는 원래 보낸 사람이 아니라 스푸핑된 보낸 사람만 배달할 수 있습니다.</li></ul> <p> 이 설정에는 테스트 모드를 사용할 수 없습니다.|`X-CustomSpam: Backscatter NDR`|
+|**조건부 보낸 사람 ID 필터링: 영구 실패** <p> *MarkAsSpamFromAddressAuthFail*|조건부 보낸 사람 ID 검사에 실패한 메시지는 스팸으로 표시됩니다. <p> 이 설정은 SPF 검사와 보낸 사람 ID 검사를 결합하여 보낸 사람이 포함된 메시지 헤더를 보호합니다. <p> 이 설정에는 테스트 모드를 사용할 수 없습니다.|`X-CustomSpam: SPF From Record Fail`|
+|**NDR 후방 분산** <p> *MarkAsSpamNdrBackscatter*|*후방산은* 전자 메일 메시지의 보낸 사람에 의해 발생된 NDRs 또는 반송 메시지라고도 하는, 사용하지 않는 배달되지 않는 보고서입니다. 자세한 내용은 후방산자 메시지 및 [EOP를 참조하세요.](backscatter-messages-and-eop.md) <p> 합법적인 NDRS가 배달되어 후방 스캐터가 스팸으로 표시되어 있기 때문에 다음 환경에서는 이 설정을 구성할 필요가 없습니다. <ul><li>Exchange Online 사서함이 있는 Microsoft 365 조직</li><li>EOP를 통해 아웃바운드 전자 메일을 라우팅하는 On-premises  전자 메일 조직</li></ul> <p> 인바운드 전자 메일을온-프레미스 사서함으로 보호하는 독립 실행형 EOP 환경에서 이 설정을 켜거나 끄면 다음과 같은 결과가 나타납니다. <ul><li> **On**: 적법한 NDRS가 배달되어 후방 스캐터가 스팸으로 표시됩니다.</li><li>**해제:** 합법적인 NDRS 및 후방 스캐터는 일반적인 스팸 필터링을 거치게 됩니다. 대부분의 합법적인 NDRS는 원본 메시지 보낸 사람에 배달됩니다. 일부 후방 스캐터는 높은 신뢰도 스팸으로 표시됩니다. 정의에 따라 후방산자는 원래 보낸 사람이 아니라 스푸핑된 보낸 사람만 배달할 수 있습니다.</li></ul> <p> 이 설정에는 테스트 모드를 사용할 수 없습니다.|`X-CustomSpam: Backscatter NDR`|
 |

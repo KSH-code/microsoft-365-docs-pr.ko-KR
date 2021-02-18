@@ -19,20 +19,20 @@ ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
 description: 권한 수준 결정, 액세스 그룹이 있는 사용자에게 사용 권한 할당 및 중첩된 Azure AD 그룹을 포함하여 격리된 SharePoint Online 팀 사이트를 디자인합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f0f92a925948dbf6c8c5c1beb6b9c709f508c4b3
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 0d53f3b45e3f406dfb0b38bcc910bd34876acb08
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165514"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288338"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 디자인
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 
  **요약:** 격리된 SharePoint Online 팀 사이트에 대한 디자인 프로세스를 단계적으로 진행합니다.
@@ -62,7 +62,7 @@ SharePoint 그룹의 구성원이 사이트에서 할 수 있는 작업을 결�
 |\<site name> 소유자|모든 권한|
 |
 
- **모범 사례:** 추가 SharePoint 그룹 및 권한 수준을 만들 수 있습니다. 그러나 격리된 SharePoint Online 사이트에 대해 기본 SharePoint 그룹 및 권한 수준을 사용하는 것이 좋습니다.
+ **모범 사례:** 추가 SharePoint 그룹 및 권한 수준을 만들 수 있습니다. 그러나 격리된 SharePoint Online 사이트에 기본 SharePoint 그룹 및 사용 권한 수준을 사용하는 것이 좋습니다.
 
 기본 SharePoint 그룹 및 권한 수준은 다음과 같습니다.
 
@@ -70,7 +70,7 @@ SharePoint 그룹의 구성원이 사이트에서 할 수 있는 작업을 결�
 
 ## <a name="phase-2-assign-permissions-to-users-with-access-groups"></a>2단계: 액세스 그룹이 있는 사용자에게 사용 권한 할당
 
-SharePoint 그룹에 사용자 계정 또는 사용자 계정이 구성원인 Microsoft 365 또는 Azure AD 그룹을 추가하여 사용자에게 권한을 할당할 수 있습니다. 추가된 사용자 계정에는 Microsoft 365 또는 Azure AD 그룹의 구성원 자격을 통해 직접 또는 간접적으로 SharePoint 그룹과 연결된 사용 권한 수준이 할당됩니다.
+SharePoint 그룹에 사용자 계정 또는 사용자 계정이 구성원으로 있는 Microsoft 365 또는 Azure AD 그룹을 추가하여 사용자에게 권한을 할당할 수 있습니다. 추가된 사용자 계정에는 Microsoft 365 또는 Azure AD 그룹의 구성원 자격을 통해 직접 또는 간접적으로 SharePoint 그룹과 연결된 사용 권한 수준이 할당됩니다.
 
 기본 SharePoint 그룹을 예로 들 수 있습니다.
 
@@ -125,11 +125,11 @@ Azure AD 기반 액세스 그룹을 사용하도록 구성된 기본 SharePoint 
 
 소수의 사용자로 제한되는 프로젝트의 경우 사이트의 SharePoint 그룹에 추가된 단일 수준의 Azure AD 기반 액세스 그룹이 대부분의 시나리오에 적합합니다. 그러나 사용자가 많은 경우 이미 설정한 Azure AD 그룹의 구성원인 경우 중첩된 그룹 또는 다른 그룹을 구성원으로 포함하는 그룹을 사용하여 SharePoint 사용 권한을 보다 쉽게 할당할 수 있습니다.
 
-예를 들어 영업, 마케팅, 엔지니어링, 법률 및 지원 부서의 임원과 임원 사용자 계정 멤버 자격이 있는 해당 부서의 임원들이 공동 작업을 위해 격리된 SharePoint 온라인 팀 사이트를 만들 수 있습니다. 새 사이트 구성원을 위한 새 그룹을 만들고 모든 개별 임원 사용자 계정을 해당 그룹에 배치하는 대신 각 부서의 기존 임원 그룹을 새 그룹에 배치합니다.
+예를 들어 영업, 마케팅, 엔지니어링, 법률 및 지원 부서의 임원과 임원 사용자 계정 멤버 자격이 있는 해당 부서의 임원들이 공동 작업을 위해 격리된 SharePoint 온라인 팀 사이트를 만들 수 있습니다. 새 사이트 구성원에 대해 새 그룹을 만들고 모든 개별 임원 사용자 계정을 배치하는 대신 새 그룹에 각 부서의 기존 임원 그룹을 배치합니다.
 
  여러 조직 간에 Microsoft 365 구독을 공유하는 경우 매우 많은 수의 사용자 계정으로 인해 조직에 대해 격리된 사이트에 대한 단일 수준의 그룹 구성원 자격을 관리하기 어려울 수 있습니다. 이 경우 조직 내의 그룹이 포함된 각 조직에 대해 중첩된 Azure AD 그룹을 사용하여 권한을 관리할 수 있습니다.
 
-중첩된 Azure AD 그룹을 사용하세요.
+중첩된 Azure AD 그룹을 사용:
 
 1. 사용자 계정을 포함할 Azure AD 그룹을 식별하거나 만들고 적절한 사용자 계정을 구성원으로 추가합니다.
 

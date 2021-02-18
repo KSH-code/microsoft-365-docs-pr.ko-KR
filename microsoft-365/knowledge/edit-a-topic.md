@@ -4,6 +4,7 @@ description: Microsoft Viva 항목의 기존 항목을 편집하는 방법
 author: efrene
 ms.author: efrene
 manager: pamgreen
+audience: admin
 ms.reviewer: cjtan
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -13,12 +14,12 @@ ms.collection:
 - m365initiative-topics
 ms.service: ''
 localization_priority: Normal
-ms.openlocfilehash: 4194328804285f93f023092f1c7ac31d31a581da
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 9dfad7e179699c599d9320390aaefd2dac176fbb
+ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107463"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50279413"
 ---
 # <a name="edit-an-existing-topic"></a>기존 항목 편집 
 
@@ -31,20 +32,20 @@ ms.locfileid: "50107463"
 Viva 항목에서는 기존 항목을 편집할 수 있습니다. 기존 항목 페이지에 추가 정보를 수정하거나 추가하려면 이 작업을 해야 할 수 있습니다. 
 
 > [!Note] 
-> AI가 수집하는 항목의 정보는 보안이 조정된 [반면,](topic-experiences-security-trimming.md)기존 항목을 편집할 때 수동으로 추가하는 정보는 항목을 볼 수 있는 권한이 있는 모든 사용자에게 표시됩니다. 
+> AI에서 수집하는 항목의 정보는 보안이 조정된 반면 [기존](topic-experiences-security-trimming.md)항목을 편집할 때 수동으로 추가하는 항목 설명 및 사용자 정보는 항목을 볼 수 있는 권한이 있는 모든 사용자에게 표시됩니다. 
 
 ## <a name="requirements"></a>요구 사항
 
 기존 항목을 편집하려면 다음을 해야 합니다.
 - Viva Topics 라이선스가 있습니다.
-- 항목을 만들거나 편집할 수 [**있는 사용자에 대한 권한이 있습니다.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) 지식 관리자는 Viva 항목 항목의 사용 권한 설정에서 이 권한을 사용자에게 부여할 수 있습니다. 
+- 항목을 만들거나 편집할 수 있는 사용자에 대한 [**권한이 있습니다.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) 지식 관리자는 Viva 항목 항목의 사용 권한 설정에서 사용자에게 이 권한을 부여할 수 있습니다. 
 
 > [!Note] 
 > 항목 센터(기술 관리자)에서 항목을 관리할 수 있는 권한이 있는 사용자는 이미 항목을 만들고 편집할 수 있는 권한이 있습니다.
 
 ## <a name="how-to-edit-a-topic-page"></a>항목 페이지를 편집하는 방법
 
-항목 작성  또는 편집 권한이 있는 사용자는 항목 강조 표시에서 항목 페이지를 연 다음 항목 <b></b> 페이지의 오른쪽 위에 있는 편집 단추를 선택하여 항목을 편집할 수 있습니다. 또한 연결에 있는 모든 항목을 찾을 수 있는 항목 센터 홈 페이지에서 항목 페이지를 열 수도 있습니다.
+항목 작성  또는 편집 권한이 있는 사용자는 항목 강조 표시에서 항목 페이지를 열고 항목 페이지의 <b></b> 오른쪽 위에 있는 편집 단추를 선택하여 항목을 편집할 수 있습니다. 또한 연결에 있는 모든 항목을 찾을 수 있는 항목 센터 홈 페이지에서 항목 페이지를 열 수도 있습니다.
 
    ![편집 단추](../media/knowledge-management/edit-button.png) </br> 
 
@@ -62,7 +63,7 @@ Viva 항목에서는 기존 항목을 편집할 수 있습니다. 기존 항목 
 2. 대체 <b>이름</b> 섹션에서 항목을 참조할 수 있는 다른 이름을 입력합니다. 
 
     ![대체 이름](../media/knowledge-management/alt-names.png) </br> 
-3. Description <b>섹션에서</b> 항목을 설명하는 몇 가지 문장을 입력합니다. 또는 설명이 이미 있는 경우 필요한 경우 업데이트합니다.
+3. Description <b>섹션에서</b> 항목을 설명하는 몇 문장을 입력합니다. 또는 설명이 이미 있는 경우 필요한 경우 업데이트합니다.
 
     ![설명 섹션](../media/knowledge-management/description.png)</br>
 
@@ -82,11 +83,14 @@ Viva 항목에서는 기존 항목을 편집할 수 있습니다. 기존 항목 
 
     링크 시작 옵션을 <b></b> 사용하여 URL을 제공하여 파일 또는 페이지를 추가할 수도 있습니다. 
 
+   > [!Note] 
+   > 추가하는 파일 및 페이지는 동일한 Microsoft 365 테넌트 내에 있어야 합니다. 항목의 외부 리소스에 대한 링크를 추가하려면 9단계의 캔버스 아이콘을 통해 추가하면 됩니다.
+
 6. 추천 <b>파일 및 페이지 섹션에는</b> AI가 항목에 연결될 수 있는 파일 및 페이지가 표시됩니다.
 
    ![추천 파일 및 페이지 섹션](../media/knowledge-management/suggested-files-and-pages.png)</br>
 
-    고정된 아이콘을 선택하여 고정된 파일 또는 페이지에 제안된 파일 또는 페이지를 만들 수 있습니다.
+    고정된 아이콘을 선택하여 제안된 파일 또는 페이지를 고정된 파일 또는 페이지로 변경할 수 있습니다.
 
 7.  관련 <b>사이트 섹션에는</b> 항목에 대한 정보가 있는 사이트가 표시됩니다. 
 
@@ -107,6 +111,14 @@ Viva 항목에서는 기존 항목을 편집할 수 있습니다. 기존 항목 
    추가한 관련 항목은 연결된 항목으로 표시됩니다.
 
    ![연결된 관련 항목](../media/knowledge-management/related-topics-final.png)</br> 
+
+   관련 항목을 제거하려면 제거할 항목을 선택한 다음 항목 제거 <b>아이콘을</b> 선택합니다.</br>
+ 
+   ![관련 항목 제거](../media/knowledge-management/remove-related.png)</br>  
+
+   그런 다음 <b>제거를 선택합니다.</b></br>
+
+   ![제거 확인](../media/knowledge-management/remove-related-confirm.png)</br> 
 
 
 9. 간단한 설명 아래에 있는 캔버스 아이콘을 선택하여 페이지에 정적 항목(예: 텍스트, 이미지 또는 링크)을 추가할 수도 있습니다. 이 옵션을 선택하면 페이지에 추가할 항목을 선택할 수 있는 SharePoint 도구 상자가 열립니다.

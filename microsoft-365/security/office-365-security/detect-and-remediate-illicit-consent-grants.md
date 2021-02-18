@@ -18,20 +18,20 @@ description: 365에서 무단 동의 권한 부여 공격을 인식하고 수정
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a1c724bb3b201e0ddf1edea4794606c7083605e8
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 2a50ce58d91d2ff7b2e31e57830289c870364d9b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165442"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288290"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>위조 동의 권한 부여 감지 및 수정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 **요약** Office 365에서 불법 동의 권한 부여 공격을 인식하고 교정하는 방법에 대해 알아보세요.
 
@@ -143,10 +143,10 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 ## <a name="determine-the-scope-of-the-attack"></a>공격 범위 확인
 
-응용 프로그램 액세스 인벤토리 작성을  완료한 후 감사 로그를 검토하여 위반의 전체 범위를 파악합니다. 영향을 받는 사용자, 불법 응용 프로그램에서 조직에 액세스한 시간 프레임, 앱에 대한 사용 권한을 검색합니다. [Microsoft 365 보안 및 준수 센터](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)에서 **감사 로그** 를 검색할 수 있습니다.
+응용 프로그램 액세스 인벤토리 작성을  완료한 후 감사 로그를 검토하여 위반의 전체 범위를 파악합니다. 영향을 받는 사용자, 불법 응용 프로그램에서 조직에 액세스한 시간 프레임, 앱에 대한 사용 권한을 검색합니다. [Microsoft 365 보안 및 준수 센터](../../compliance/search-the-audit-log-in-security-and-compliance.md)에서 **감사 로그** 를 검색할 수 있습니다.
 
 > [!IMPORTANT]
-> 이 정보를 받으려면 공격 전에 [사서함 감사](https://docs.microsoft.com/microsoft-365/compliance/enable-mailbox-auditing) 및 [관리자 및 사용자 활동에 대한 감사](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)가 설정되어 있어야 합니다.
+> 이 정보를 받으려면 공격 전에 [사서함 감사](../../compliance/enable-mailbox-auditing.md) 및 [관리자 및 사용자 활동에 대한 감사](../../compliance/turn-audit-log-search-on-or-off.md)가 설정되어 있어야 합니다.
 
 ## <a name="how-to-stop-and-remediate-an-illicit-consent-grant-attack"></a>불법 동의 권한 부여를 방지하고 교정하는 방법
 
@@ -168,7 +168,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 - 영향을 받는 계정에 대한 로그인을 사용하지 않도록 설정할 수도 있습니다. 그러면 해당 계정의 데이터에 대한 앱 액세스를 해제합니다. 이는 최종 사용자의 생산성에 이상적이지는 않지만 영향을 신속하게 제한려 한다면 단기적으로 조치가 될 수 있습니다.
 
-- 테넌시에 통합 응용 프로그램을 해제할 수 있습니다. 이는 최종 사용자가 테넌트 전반에 대한 동의를 부여하는 기능을 해제하는 극단적인 단계입니다. 따라서 사용자가 실수로 악성 응용 프로그램에 액세스를 부여하는 것을 방지할 수 있습니다. 타사 응용 프로그램을 사용하여 생산성을 높일 수 있는 사용자 능력을 크게 손상시킬 수 있으므로 권장하지 않습니다. [통합 앱을 설정하거나 해제](https://docs.microsoft.com/microsoft-365/admin/misc/integrated-apps)하는 단계를 수행하여 이 작업을 수행할 수 있습니다.
+- 테넌시에 통합 응용 프로그램을 해제할 수 있습니다. 이는 최종 사용자가 테넌트 전반에 대한 동의를 부여하는 기능을 해제하는 극단적인 단계입니다. 따라서 사용자가 실수로 악성 응용 프로그램에 액세스를 부여하는 것을 방지할 수 있습니다. 타사 응용 프로그램을 사용하여 생산성을 높일 수 있는 사용자 능력을 크게 손상시킬 수 있으므로 권장하지 않습니다. [통합 앱을 설정하거나 해제](../../admin/misc/user-consent.md)하는 단계를 수행하여 이 작업을 수행할 수 있습니다.
 
 ## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>사이버 보안 프로그램과 같은 Microsoft 365 보안
 

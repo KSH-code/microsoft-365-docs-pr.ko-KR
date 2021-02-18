@@ -19,25 +19,25 @@ description: 관리자는 EOP(Exchange Online Protection)에서 수락 또는 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e7c2cbec49082fbded857dde13f73516fd3e0fd5
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: f8ced200c2e521533c1dec8a9d0917add7ca058f
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167518"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287822"
 ---
 # <a name="how-eop-validates-the-from-address-to-prevent-phishing"></a>EOP에서 피싱을 방지하기 위해 시작 주소의 유효성을 검사하는 방법
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-피싱 공격은 모든 전자 메일 조직에 지속적으로 위협됩니다. 공격자는 스푸핑된(위조된) 보낸 사람 전자 메일 주소를 사용하는 것 외에도 보낸 사람 주소의 값을 사용하여 인터넷 표준을 위반하는 경우가 종종 있습니다. [](anti-spoofing-protection.md) 이러한 유형의 피싱을 방지하기 위해 EOP(Exchange Online Protection) 및 Outlook.com 이 문서에 설명된 RFC 규격 보낸사서 주소를 포함해야 합니다. 이 적용은 2017년 11월에 사용하도록 설정되어 있습니다.
+피싱 공격은 모든 전자 메일 조직에 지속적으로 위협됩니다. 공격자는 스푸핑된(위조된) 보낸 사람 전자 메일 주소를 사용하는 것 외에도 보낸 사람 주소의 값을 사용하여 인터넷 표준을 위반하는 경우가 자주 있습니다. [](anti-spoofing-protection.md) 이러한 유형의 피싱을 방지하기 위해 EOP(Exchange Online Protection) 및 Outlook.com 이 문서에 설명된 RFC 규격 보낸사서 주소를 포함해야 합니다. 이 적용은 2017년 11월에 사용하도록 설정되어 있습니다.
 
-**참고**:
+**참고:**
 
 - 이 문서에 설명된 바와 같이 주소가 올지 의문이 있는 조직으로부터 전자 메일을 정기적으로 받는 경우 이러한 조직에서 최신 보안 표준을 준수하도록 전자 메일 서버를 업데이트하도록 권장합니다.
 
@@ -74,7 +74,7 @@ From 주소는 여러 RFC(예: RFC 5322 섹션 3.2.3, 3.4 및 3.4.1 및 [RFC 369
 
 ## <a name="examples-of-valid-and-invalid-from-addresses"></a>유효하고 유효하지 않은 From 주소의 예
 
-다음 전자 메일 주소가 유효합니다.
+다음의 전자 메일 주소가 유효합니다.
 
 - `From: sender@contoso.com`
 
@@ -118,7 +118,7 @@ From 주소는 여러 RFC(예: RFC 5322 섹션 3.2.3, 3.4 및 3.4.1 및 [RFC 369
 
 - 이 도메인에 대한 null MX 레코드는 단일 기간으로 구성됩니다.
 
-예:
+예시:
 
 ```text
 noreply.contoso.com IN MX .

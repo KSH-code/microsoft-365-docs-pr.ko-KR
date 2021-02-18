@@ -15,19 +15,19 @@ ms.custom:
 description: 관리자는 독립 실행형 EOP(Exchange Online Protection)에서 관리자 역할 그룹 보고서를 실행하는 방법을 배울 수 있습니다. 이 보고서는 관리자가 구성원을 관리자 역할 그룹에 추가하거나 관리자 역할 그룹에 구성원을 제거할 때 기록됩니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 507fbe6fb6c99677cf91b6eb824bf110f1c826f3
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: d778e807a087a5e29b31645457d4a81bd05c5649
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166630"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288022"
 ---
 # <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>독립 실행형 EOP에서 관리자 역할 그룹 보고서 실행
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
--  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Exchange Online Protection 독립 실행형](exchange-online-protection-overview.md)
 
 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 관리자가 관리 역할 그룹에 구성원을 추가하거나 관리 역할 그룹에서 구성원을 제거하면 서비스가 각 발생을 기록합니다. 독립 실행형 EOP의 역할 그룹에 대한 자세한 내용은 독립 실행형 [EOP의 사용 권한을 참조하세요.](feature-permissions-in-eop.md)
 
@@ -42,7 +42,7 @@ EAC(Exchange 관리 센터)에서 관리자 역할 그룹 보고서를 실행하
 - 이 문서의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 [Exchange Online의 Exchange](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)관리 센터에 대한 바로 가기 키를 참조하십시오.
 
 > [!TIP]
-> 문제가 있나요? [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) 포럼에서 도움을 요청하세요.
+> 문제가 있나요? [Exchange Online Protection](https://social.technet.microsoft.com/Forums/forefront/home?forum=FOPE) 포럼에서 도움을 요청하세요.
 
 ## <a name="use-the-eac-to-run-an-administrator-role-group-report"></a>EAC를 사용하여 관리자 역할 그룹 보고서 실행
 
@@ -104,7 +104,7 @@ Search-AdminAuditLog -Cmdlets Set-Mailbox -Parameters ProhibitSendQuota,Prohibit
 
 이 예에서는 특정 사서함에 대한 변경 내용을 검색합니다. 문제를 해결하거나 조사에 필요한 정보를 제공해야 할 경우에 유용합니다. 다음과 같은 기준이 사용됩니다.
 
-- **시작 날짜**: 2018/05/01
+- **시작 날짜**: 2018년 5월 1일
 - **종료 날짜**: 2018년 10월 3일
 - **개체 ID:** contoso.com/Users/DavidS
 

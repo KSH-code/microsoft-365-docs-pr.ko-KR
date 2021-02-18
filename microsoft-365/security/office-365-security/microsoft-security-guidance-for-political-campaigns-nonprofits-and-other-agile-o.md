@@ -22,20 +22,20 @@ ms.assetid: 10d1004b-42b6-4e2b-aaa2-18ddd9118f64
 description: '요약: 증가된 위협 프로필을 가진 빠르게 변화하는 조직에 대한 계획 및 구현 지침입니다.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e7d16f63b808edc008022b17d20461df6cd30e75
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: f8ed01d2c41529782c5c714bfe66096b97300712
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150775"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287404"
 ---
 # <a name="microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-organizations"></a>정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
 
  **요약:** 증가된 위협 프로필을 가진 빠르게 변화하는 조직에 대한 계획 및 구현 지침입니다.
 
@@ -69,6 +69,6 @@ ms.locfileid: "50150775"
 
 ## <a name="see-also"></a>참고 항목
 
-[클라우드 도입 TLG(테스트 랩 가이드)](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[클라우드 도입 TLG(테스트 랩 가이드)](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
-[Microsoft 클라우드 IT 아키텍처 리소스](https://docs.microsoft.com/microsoft-365/solutions/cloud-architecture-models)
+[Microsoft 클라우드 IT 아키텍처 리소스](../../solutions/cloud-architecture-models.md)

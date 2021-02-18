@@ -19,20 +19,20 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터의 제출 포털을 사용하여 의심스러운 전자 메일, 의심스러운 피싱 메일, 스팸 및 기타 유해한 메시지, URL 및 파일을 검색을 위해 Microsoft에 제출하는 방법을 배울 수 있습니다. &
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7a822909c318cb336c179b299aa64cd71dcca4d8
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 7b4e6dfcb5900ed41ad3ab0b44fada93599f0b4b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175874"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288792"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
 
 
 Exchange Online에 사서함이 있는 Microsoft 365 조직에서 관리자는 보안 및 준수 센터의 제출 포털을 & 전자 메일 메시지, URL 및 첨부 파일을 검사하기 위해 Microsoft에 제출할 수 있습니다.
@@ -51,7 +51,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. 제출 페이지로 직접 **이동하기** 위해 <https://protection.office.com/reportsubmission> 다음을 사용하세요.
+- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 제출 페이지로 직접 **이동하기** 위해 <https://protection.office.com/reportsubmission> 다음을 사용하세요.
 
 - 메시지와 파일을 Microsoft에 제출하려면 다음 역할 그룹 중 하나의 구성원이 됩니다.
 
@@ -165,11 +165,11 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 관리자 제출에 제출된 메시지는 다시 검색된 후 세부 정보 플라이아웃에 표시됩니다.
 
 - 배달 시 보낸 사람 전자 메일 인증에 오류가 발생했습니다.
-- 메시지의 판정에 영향을 주거나 의리가 있을 수 있는 정책 적중에 대한 정보입니다.
-- 메시지에 포함된 URL 또는 파일이 악의적이지 않은지의 현재 확인 결과입니다.
-- 학년의 피드백.
+- 메시지의 판정에 영향을 주거나 은(는) 있을 수 있는 정책 적중에 대한 정보입니다.
+- 현재 검색 결과는 메시지에 포함된 URL 또는 파일이 악의적이지 않은지 확인합니다.
+- 학년으로부터의 피드백.
 
-다시 검색된 재지정은 몇 분 후 완료됩니다. 전자 메일 인증에 문제가 없는 경우 또는 배달에 대한 오버라이드의 영향을 받지 않은 경우 학년들의 피드백이 하루가 걸릴 수 있습니다.
+다시 검색된 재지정은 몇 분 후 완료됩니다. 전자 메일 인증에 문제가 없는 경우 또는 배달에 대한 오버라이드의 영향을 받지 않은 경우 학년의 피드백이 하루가 걸릴 수 있습니다.
 
 ### <a name="view-admin-url-submissions"></a>관리자 URL 제출 보기
 
@@ -251,7 +251,7 @@ URL **탭을** 클릭합니다.
 - **보낸 사람 IP**<sup>\*</sup>
 - **제출 유형**
 
-페이지 위쪽에서 시작 날짜, 종료 날짜를 입력할 수 있으며 상자에 값을 입력하고 새로 고침 단추를 클릭하여 **제출된** 날짜로 필터링할 ![ 수 ](../../media/scc-quarantine-refresh.png) 있습니다. Update
+페이지 위쪽에서 시작 날짜, 종료 날짜를 입력할 수 있으며 상자에 값을 입력하고 새로 고침 단추를 클릭하여 **제출로** 필터링할 ![ 수 ](../../media/scc-quarantine-refresh.png) 있습니다. Update
 
 결과를 내보내려면 페이지 위쪽에 **있는** 내보내기를 클릭하고 차트 데이터 또는 **표를** **선택합니다.** 나타나는 대화 상자에서 .csv 파일을 저장합니다.
 
@@ -263,7 +263,7 @@ URL **탭을** 클릭합니다.
 
 Microsoft로 메시지를 보내지 않고 사용자가 보고한 메시지를 가로채도록 사용자 지정 사서함을 구성한 경우 분석을 위해 특정 메시지를 찾아 Microsoft로 보낼 수 있습니다. 그러면 사용자 제출이 관리자 제출로 효과적으로 이동됩니다.
 
-사용자 **지정 사서함** 탭의 목록에서 메시지를 선택하고  작업 단추를 클릭한 다음 다음 중 하나를 선택합니다.
+사용자 **지정 사서함 탭의** 목록에서 메시지를 선택하고  작업 단추를 클릭한 다음 다음 중 하나를 선택합니다.
 
 - **정리 보고**
 - **피싱 보고**

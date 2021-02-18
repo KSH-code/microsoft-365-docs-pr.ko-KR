@@ -23,20 +23,20 @@ ms.custom:
 description: SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams의 파일에 대한 Microsoft Defender for Office 365에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 640867cb38dab650bca990fe36c0b7cea7f6a0d8
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: ce73e1fd5c8ecb63bee1db2e9e64aade305b37e9
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175730"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287056"
 ---
 # <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams를 위한 안전한 첨부 파일
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Office [365용 Microsoft Defender의](office-365-atp.md) SharePoint, OneDrive 및 Microsoft Teams에 대한 안전한 첨부 파일은 [Microsoft 365의](virus-detection-in-spo.md)일반적인 바이러스 검색 엔진에 의해 업로드 시 이미 검사된 파일에 대한 추가 보호 계층을 제공합니다. SharePoint, OneDrive 및 Microsoft Teams용 안전 첨부 파일은 팀 사이트 및 문서 라이브러리에서 악성으로 식별된 기존 파일을 검색하고 차단하는 데 도움이 됩니다.
 

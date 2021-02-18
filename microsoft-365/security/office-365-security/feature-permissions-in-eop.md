@@ -13,25 +13,25 @@ ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
 description: 독립 실행형 Exchange Online Protection의 작업에 필요한 사용 권한에 대해 자세히 알아보기
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4f1f364e684f2d1d76f26f573e66fbd50bf5138b
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 9c24c6f57ea9a7c0e1b3332d2f4b518b232ec0c2
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167398"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288302"
 ---
 # <a name="permissions-in-standalone-eop"></a>독립 실행형 EOP의 사용 권한
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
--  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Exchange Online Protection 독립 실행형](exchange-online-protection-overview.md)
 
 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection)는 RBAC(역할 기반 액세스 제어) 권한 모델을 사용하여 관리자에게 사용 권한을 쉽게 부여합니다. 독립 실행형 EOP의 사용 권한 기능을 사용하여 새 조직을 신속하게 운영할 수 있습니다.
 
 사용자에게 사용 권한을 부여하려면 [EOP에서 관리자 역할 그룹 관리를 참조하세요.](manage-admin-role-group-permissions-in-eop.md)
 
-Microsoft 365의 사용 권한에 대한 자세한 내용은 관리자 역할 [정보를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
+Microsoft 365의 사용 권한에 대한 자세한 내용은 관리자 역할 [정보를 참조하세요.](../../admin/add-users/about-admin-roles.md)
 
 ## <a name="role-based-permissions"></a>역할 기반 사용 권한
 
@@ -69,7 +69,7 @@ Microsoft 365의 사용 권한에 대한 자세한 내용은 관리자 역할 [�
 |ViewOnlyOrganizationManagement|조직에서 받는 사람, 보호 및 구성 개체와 해당 속성을 볼 수 있습니다.|준수 관리자 <p> 보안 관리자 <p> 보안 읽기 권한자 <p> 민감도 레이블 관리자 <p> 보기 전용 구성 <p> 보기 전용 받는 사람|
 |
 
-소수의 관리자만 있는 소규모 조직에서 작업하는 경우 해당 사용자를 조직 관리 역할 그룹에만 추가해야 할 수 있으며 다른 역할 그룹을 사용할 필요가 없습니다. 대규모 조직에서 작업하는 경우 받는 사람 구성과 같은 특정 작업을 수행하는 관리자가 있을 수 있습니다. 이러한 경우 받는 사람 관리 역할 그룹에 관리자 한 명을 추가하고 조직 관리 역할 그룹에 다른 관리자를 추가할 수 있습니다. 그러면 해당 관리자가 특정 영역을 관리할 수 있지만 담당하지 않는 영역을 관리할 수 있는 권한이 없습니다.
+소수의 관리자만 있는 소규모 조직에서 작업하는 경우 조직 관리 역할 그룹에만 해당 사용자를 추가해야 할 수 있으며 다른 역할 그룹을 사용할 필요가 없습니다. 대규모 조직에서 작업하는 경우 받는 사람 구성과 같은 특정 작업을 수행하는 관리자가 있을 수 있습니다. 이러한 경우 받는 사람 관리 역할 그룹에 관리자 한 명을 추가하고 조직 관리 역할 그룹에 다른 관리자를 추가할 수 있습니다. 그러면 해당 관리자가 특정 영역을 관리할 수 있지만 담당하지 않는 영역을 관리할 수 있는 권한이 없습니다.
 
 Exchange Online의 기본 제공 역할 그룹이 관리자의 작업 기능과 일치하지 않는 경우 역할 그룹을 만들고 역할을 추가할 수 있습니다. 자세한 내용은 독립 [실행형 EOP에서 역할 그룹 관리를 참조하세요.](manage-admin-role-group-permissions-in-eop.md)
 
@@ -129,7 +129,7 @@ Microsoft 365 관리 센터에서 사용자를 만들 때 전역 관리자, 서�
 > [!NOTE]
 > 독립 실행형 EOP 조직을 만드는 데 사용한 계정은 전역 관리자 역할에 자동으로 할당됩니다.
 
-다음 표에는 Microsoft 365 역할과 해당 역할이 해당하는 독립 실행형 EOP 역할 그룹이 나열됩니다. 이러한 역할에 대한 자세한 내용은 관리자 [역할에 대한 정보를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
+다음 표에는 Microsoft 365 역할과 해당 역할이 해당하는 독립 실행형 EOP 역할 그룹이 나열됩니다. 이러한 역할에 대한 자세한 내용은 관리자 [역할에 대한 정보를 참조하세요.](../../admin/add-users/about-admin-roles.md)
 
 ****
 
@@ -143,7 +143,7 @@ Microsoft 365 관리 센터에서 사용자를 만들 때 전역 관리자, 서�
 |보안 읽기 권한자|SecurityReader|
 |
 
-다른 Microsoft 365 역할에는 해당하는 EOP 역할 그룹이 있으며 EOP에서 관리 권한을 부여하지 않습니다. 사용자에게 Microsoft 365 역할을 할당하는 데 대한 자세한 내용은 관리자 역할 [할당을 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles)
+다른 Microsoft 365 역할에는 해당하는 EOP 역할 그룹이 있으며 EOP에서 관리 권한을 부여하지 않습니다. 사용자에게 Microsoft 365 역할을 할당하는 데 대한 자세한 내용은 관리자 역할 [할당을 참조하세요.](../../admin/add-users/assign-admin-roles.md)
 
 사용자는 Microsoft 365 역할에 추가하지 않고도 EOP에서 관리 권한을 부여할 수 있습니다. 이 작업을 위해 사용자를 EOP 역할 그룹의 구성원으로 추가합니다. 사용자는 EOP에서 사용 권한을 얻지만 다른 Microsoft 365 워크로드에서 사용 권한을 얻지 못합니다.
 

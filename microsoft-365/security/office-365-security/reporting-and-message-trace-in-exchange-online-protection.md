@@ -12,26 +12,26 @@ localization_priority: Normal
 ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서에서는 EOP(Microsoft Exchange Online Protection) 관리자가 사용할 수 있는 보고서 및 문제 해결 도구에 대해 자세히 알아보게 됩니다.
+description: 이 문서에서는 EOP(Microsoft Exchange Online 보호) 관리자가 사용할 수 있는 보고서 및 문제 해결 도구에 대해 자세히 알아보게 됩니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 86c9eb0ee050c4c1a40ef7f29ea3d01dc202be9a
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 783c7ea0aca47c805daf66592b401a98f739d071
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166678"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288082"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>EOP의 보고 및 메시지 추적
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 EOP는 조직의 전반적인 상태를 확인하는 데 도움이 되는 다양한 보고서를 제공합니다. 받는 사람에게 메시지가 도착하지 않는 등 특정 이벤트에 대한 문제를 해결할 수 있는 도구와 규정 준수 요구 사항을 지원하는 감사 보고서도 있습니다.
+Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 EOP는 조직의 전반적인 상태를 확인하는 데 도움이 되는 다양한 보고서를 제공합니다. 받는 사람에게 메시지가 도착하지 않는 등 특정 이벤트에 대한 문제를 해결할 수 있는 도구와 규정 준수 요구 사항을 지원하는 감사 보고서도 있습니다.
 
 ## <a name="usage-reports"></a>사용 현황 보고서
 
@@ -45,13 +45,13 @@ Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 
 
 자세한 내용은 다음 리소스를 참조하세요.
 
-- [관리 센터의 Microsoft 365 보고서 - Microsoft 365 그룹](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups)
+- [관리 센터의 Microsoft 365 보고서 - Microsoft 365 그룹](../../admin/activity-reports/office-365-groups.md)
 
-- [관리 센터의 Microsoft 365 보고서 - 전자 메일 활동](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-activity)
+- [관리 센터의 Microsoft 365 보고서 - 전자 메일 활동](../../admin/activity-reports/email-activity.md)
 
-- [관리 센터의 Microsoft 365 보고서 - 전자 메일 앱 사용 현황](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-apps-usage)
+- [관리 센터의 Microsoft 365 보고서 - 전자 메일 앱 사용 현황](../../admin/activity-reports/email-apps-usage.md)
 
-- [관리 센터의 Microsoft 365 보고서 - 사서함 사용량](https://docs.microsoft.com/microsoft-365/admin/activity-reports/mailbox-usage)
+- [관리 센터의 Microsoft 365 보고서 - 사서함 사용량](../../admin/activity-reports/mailbox-usage.md)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Microsoft & 센터의 보안 및 규정 준수 보고서
 
@@ -65,7 +65,7 @@ Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Microsoft Graph를 사용한 사용자 지정 보고서
 
-Microsoft Graph를 사용하여 관리 센터에서 사용할 수 있는 보고서를 프로그래밍식으로 만들 수 있습니다. 자세한 내용은 [Microsoft Graph의 개요](https://docs.microsoft.com/graph/overview) 및 Microsoft [Graph에서 Office 365](https://docs.microsoft.com/graph/api/resources/report)사용 현황 보고서 작업 개요를 참조하세요.
+Microsoft Graph를 사용하여 관리 센터에서 사용할 수 있는 보고서를 프로그래밍식으로 만들 수 있습니다. 자세한 내용은 [Microsoft Graph의 개요](https://docs.microsoft.com/graph/overview) 및 Office 365 사용 현황 보고서 [작업(Microsoft Graph)을 참조하세요.](https://docs.microsoft.com/graph/api/resources/report)
 
 ## <a name="message-trace"></a>Message trace
 

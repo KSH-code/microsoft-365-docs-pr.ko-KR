@@ -19,17 +19,21 @@ description: 관리자는 보안 및 준수 센터의 보고서 대시보드에�
 ms.custom: ''
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e69085d1fad845ab519f2590b0527316463373a7
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: dbbec056203ad816d37f5451115d2c7d172eee92
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029801"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286720"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>보안 및 준수 센터의 보고서 대시보드에서 & 보고서 보기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 보안 및 준수 센터의 메일 흐름 [](mail-flow-insights-v2.md) 대시보드에서 사용할 수 있는 메일 흐름 보고서 외에도 & 보고서 대시보드에서 다양한 추가 메일 흐름 보고서를 사용하여 Microsoft 365 조직을 모니터링할 수 있습니다.
 
@@ -541,12 +545,12 @@ Top **senders and recipients** report is a pie chart showing your top email send
 - **조직 관리**
 - **보안 관리자**
 - **보안 읽기**
-- **전역 읽기 권한자**
+- **전역 읽기**
 
 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
 > [!NOTE]
-> Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요.
+> Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
 

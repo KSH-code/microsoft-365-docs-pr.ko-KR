@@ -21,20 +21,20 @@ ms.custom:
 description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7624b9a62530e54a161bbc4aacc8bee56ed959b2
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 741b00a55ee73d16c82abd4806d06660d49be65b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150727"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287668"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!IMPORTANT]
 > 이 문서는 [Office 365용 Microsoft Defender](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)가 있는 비즈니스 고객을 대상으로 합니다. Outlook.com, Microsoft 365 Family 또는 Microsoft 365 Personal을 사용하고 있고 Outlook의 안전한 링크 또는 안전한 첨부 파일에 대한 정보를 찾고 있다면 [Office 365 구독자용 고급 Outlook.com 보안](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조하세요.
@@ -92,7 +92,7 @@ Office 365용 Microsoft Defender가 처음이거나 *사용하면서* 배우기 
 
 - [안전한 문서](safe-docs.md) 기능은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스가 있는 사용자만 사용할 수 있습니다. (Office 365용 Microsoft Defender 플랜에는 미포함)
 
-- 현재 구독에 Office 365용 Microsoft Defender가 포함되어 있지 않은 경우 [평가판을 시작](https://go.microsoft.com/fwlink/p/?LinkId=518644)하고 Office 365용 Defender가 조직에 대해 작동하는 방법을 알아보려면 영업 담당자에게 문의하세요.
+- 현재 구독에 Office 365용 Microsoft Defender가 포함되어 있지 않은 경우 [평가판을 시작](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)하고 Office 365용 Defender가 조직에 대해 작동하는 방법을 알아보려면 영업 담당자에게 문의하세요.
 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Office 365용 Microsoft Defender 정책 구성
 
@@ -149,7 +149,7 @@ Office 365용 Microsoft Defender 플랜 2에는 조직의 보안팀이 악의적
 
 |역할 또는 역할 그룹|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|
-|전역 관리자(Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.)|[Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
+|전역 관리자(Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.)|[Microsoft 365 관리자 역할 정보](../../admin/add-users/about-admin-roles.md)|
 |보안 관리자 (Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.)|[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)|
 |Exchange Online 조직 관리(Exchange Online에서 할당합니다.)|[Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <p> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
 |검색 및 제거(보안 & 규정 준수 센터에서만 할당합니다.)|[보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)|

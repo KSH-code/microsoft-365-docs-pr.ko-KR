@@ -11,24 +11,24 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 허용되지 않는 도메인 보고서를 사용하여 Microsoft 365에서 보낸 사람 도메인이 구성되지 않은 & 조직의 메시지를 모니터링하는 방법을 배울 수 있습니다.
+description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 허용되지 않은 도메인 보고서를 사용하여 Microsoft 365에서 보낸 사람 도메인이 구성되지 않은 & 조직의 메시지를 모니터링하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 573fb0ba2bf7981b6eb7df4eec7c8c4e5d596cac
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 6d7355af49c5810a593c5776b70cf7497b43af6b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150823"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287868"
 ---
 # <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 도메인 보고서
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 [보안](https://protection.office.com) & 준수 센터의 [](mail-flow-insights-v2.md) 메일 흐름 대시보드에서 허용되지 않는 도메인 보고서에는 보낸 사람 도메인이 Microsoft 365 조직의 허용 도메인으로 구성되지 않은 사용자의 전자 메일 조직의 메시지에 대한 정보가 표시됩니다. 
 
@@ -72,6 +72,6 @@ Microsoft 365는 이러한 메시지의 의도가 악의적이기 때문에 입�
 
 보고서 보기로 돌아가려면 보고서 **보기를 클릭합니다.**
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 메일 흐름 대시보드의 다른 인사이트에 대한 자세한 내용은 보안 및 준수 센터의 메일 [흐름 & 참조하세요.](mail-flow-insights-v2.md)

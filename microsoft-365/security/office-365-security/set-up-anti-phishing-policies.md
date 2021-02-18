@@ -17,25 +17,25 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Office 365용 Microsoft Defender에서 사용할 수 있는 피싱 방지 정책에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a97d95ab4d7cf0146ea6d6d008230ee6aa678d80
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 083fd4ae7e5564f2affeca73dd3d78a52657c5a7
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166384"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287320"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 피싱 방지 보호 설정을 구성하는 정책은 Exchange Online 사서함이 있는 Microsoft 365 조직, Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직 및 Office 365용 Microsoft Defender 조직에서 사용할 수 있습니다.
 
-Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defender가 있는 조직에서만 사용할 수 있습니다. 예:
+Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defender가 있는 조직에서만 사용할 수 있습니다. 예시:
 
 - Microsoft 365 Enterprise E5, Microsoft 365 Education A5 등
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -105,11 +105,11 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
   >
   > - MX 레코드가 Microsoft 365를 사용하지 않는 경우 스푸핑 방지 보호 기능을 사용하지 않도록 설정할 필요가 없습니다. 대신 커넥터에 대해 향상된 필터링을 사용하도록 설정할 수 있습니다. 자세한 내용은 Exchange Online의 커넥터에 대한 향상된 [필터링을 참조하세요.](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
   >
-  > - 스푸핑 방지 보호 기능을 사용하지 않도록 설정하면 복합 인증 검사에서 암시적 스푸핑 보호가 [비활성화됩니다.](email-validation-and-authentication.md#composite-authentication) 보낸 사람이 [명시적 DMARC](use-dmarc-to-validate-email.md) 검사에 실패하면 정책이 여전히 메시지에 대한 검거 또는 거부로 설정되어 있습니다.
+  > - 스푸핑 방지 보호 기능을 사용하지 않도록 설정하면 복합 인증 검사에서 암시적 스푸핑 보호 기능을 사용할 [수](email-validation-and-authentication.md#composite-authentication) 없습니다. 보낸 사람이 [명시적 DMARC](use-dmarc-to-validate-email.md) 검사에 실패하면 정책이 여전히 메시지에 대한 검거 또는 거부로 설정되어 있습니다.
 
   차단된 스푸핑된 보낸 사람이 보낸 메시지의 경우 메시지에 대해 취할 작업을 지정할 수도 있습니다.
 
-  - **정크 메일 폴더로** 메시지 이동 : 이 값은 기본값입니다. 메시지가 사서함으로 배달된 후 정크 메일 폴더로 이동됩니다. Exchange Online에서는 사서함에서 정크 메일 규칙이 사용하도록 설정된 경우(기본적으로 사용하도록 설정되어 있는 경우) 메시지가 정크 메일 폴더로 이동됩니다. 자세한 내용은 [Microsoft 365의 Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md)사서함에 대한 정크 메일 설정 구성을 참조하세요.
+  - **정크 메일 폴더로** 메시지 이동 : 이 값은 기본값입니다. 메시지가 사서함으로 배달된 후 정크 메일 폴더로 이동됩니다. Exchange Online에서는 사서함에서 정크 메일 규칙이 사용하도록 설정되어 있는 경우(기본적으로 사용하도록 설정되어 있는 경우) 메시지가 정크 메일 폴더로 이동됩니다. 자세한 내용은 [Microsoft 365의 Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md)사서함에 대한 정크 메일 설정 구성을 참조하세요.
 
   - **메시지를 Quarantine the message**: Sends the message to quarantine instead of the intended recipients. 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -127,7 +127,7 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
 
 - 메시지가 SPF 또는 DKIM 검사를 통과하지 못하고 메시지가 DMARC 또는 복합  인증을 통과하지 못하면 보낸 사람 사진에 물음표(?)가 [추가됩니다.](email-validation-and-authentication.md#composite-authentication) 확인되지 않은 보낸 사람 ID를 사용 안 하여 보낸 사람 사진에 물음표가 추가되지 않습니다.
 
-- chris@contoso.com 보낸 사람 <u>주소의</u> 도메인(전자 메일 클라이언트에 표시되는 메시지 보낸 사람)이 DKIM 서명의 도메인 또는 **MAIL FROM** 주소와 다른 경우 via 태그(fabrikam.com 통해)가 추가됩니다. 이러한 주소에 대한 자세한 내용은 전자 메일 메시지 표준 [개요를 참조하세요.](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
+- 보낸 사람 chris@contoso.com <u>주소의</u> 도메인(전자 메일 클라이언트에 표시되는 메시지 보낸 사람)이 DKIM 서명의 도메인 또는 **MAIL FROM** 주소와 다른 경우 경유 태그(fabrikam.com를 통해)가 추가됩니다. 이러한 주소에 대한 자세한 내용은 전자 메일 메시지 표준 [개요를 참조하세요.](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
 
   보낸 사람 주소의 도메인이 DKIM 서명의 도메인 또는 MAIL FROM 주소와 다른 경우, 확인되지 않은 보낸 사람 ID를 사용할 수 없는 경우 via 태그가 추가되는 것을 방지하지 않습니다.
 
@@ -137,7 +137,7 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
 
 - [보낸 사람 도메인에](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) 대한 전자 메일 인증을 구성합니다.
   - 보낸 사람 사진의 물음표에 대해 SPF 또는 DKIM이 가장 중요합니다.
-  - Via 태그의 경우 DKIM 서명 또는 **MAIL FROM** 주소의 도메인이 보낸 편지함 주소의 도메인과 일치하거나 해당 도메인의 하위 도메인인지 확인
+  - 경유 태그의 경우 DKIM 서명의 도메인 또는 **MAIL FROM** 주소가 보낸 편지함 주소의 도메인이 일치하는지(또는 해당 도메인의 하위 도메인인 경우) 확인
 
 자세한 내용은 웹용 Outlook 및 Outlook.com 의심스러운 메시지 [식별을 참조하세요.](https://support.microsoft.com/office/3d44102b-6ce3-4f7c-a359-b623bec82206)
 
@@ -182,7 +182,7 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
 
   목록을 보호하기 위해 도메인에 도메인을 추가하면 해당  도메인의 보낸 사람이 보낸 메시지에 가장 보호 검사가 적용됩니다.  정책이 적용되는 받는 사람(기본  정책의 모든 받는  사람)에게 메시지가 전송된 경우 가장이 확인됩니다. **사용자 지정 정책의** 받는 사람에게 적용됩니다. 보낸 사람 도메인에서 가장이 감지되면 도메인에 대한 가장 보호 작업이 메시지(메시지로 수행할 작업, 가장된 사용자 보안 팁 표시 여부 등)에 적용됩니다.
 
-- **보호된** 사용자 또는 도메인에 대한 작업: 정책의 보호된 사용자 및 보호된 도메인에 대한 가장 시도가 포함된 인바운드 메시지에 대해 수행할 작업을 선택하십시오. 보호된 사용자 가장과 보호된 도메인 가장에 대해 서로 다른 작업을 지정할 수 있습니다.
+- **보호된** 사용자 또는 도메인에 대한 작업: 정책의 보호된 사용자 및 보호된 도메인에 대해 가장 시도가 포함된 인바운드 메시지에 대해 수행할 작업을 선택하십시오. 보호된 사용자 가장과 보호된 도메인 가장에 대해 서로 다른 작업을 지정할 수 있습니다.
 
   - **아무 작업도 적용하지 않습니다.**
 
@@ -206,10 +206,11 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
   - **가장된 도메인:** From 주소에 보호된 도메인이 포함되어 있습니다.
   - **비정상 문자:** 보낸 사람 주소에는 보호된 보낸 사람 또는 도메인의 비정상적인 문자 집합(예: 수학 기호 및 텍스트 또는 대/소문자 혼합)이 포함되어 있습니다.
 
+
   > [!IMPORTANT]
   >
-  > 가장 보안 팁이 꺼져 있는 경우에도  메일 흐름 규칙(전송 규칙)을 사용하여 **X-MS-Exchange-EnableFirstContactSafetyTip이라는** 메시지 헤더를 메시지에  사용할 수 있는 값으로 추가하는 것이 좋습니다. 보안 팁은 보낸 사람이 메시지를 처음 받을 때 또는 보낸 사람에게 메시지를 자주 수신하지 않는 경우 받는 사람에게 알릴 수 있습니다.
-  > :::image type="content" source="../../media/safety-tip-first-contact-multiple-recipients.png" alt-text="여러 받는 사람이 있는 가장 보호를 위한 안전 팁 텍스트입니다.":::
+  > 보낸 사람 및 받는 사람 간의 첫 번째 접촉 중에 나타나는 보안 팁을 사용하도록 설정하는 권장 사항: 가장 보안  팁이 꺼져 있는 경우에도 메일 흐름 규칙(전송 규칙)을 사용하여 **X-MS-Exchange-EnableFirstContactSafetyTip이라는** 메시지 헤더를 메시지에 사용할 수 있는 값과 함께 추가하는 것이 좋습니다.   보안 팁은 보낸 사람이 메시지를 처음 받을 때 또는 보낸 사람에게 메시지를 자주 수신하지 않는 경우 받는 사람에게 알릴 수 있습니다. 이 기능을 통해 잠재적인 가장 공격으로부터 보안을 강화할 수 있습니다. 
+  > :::image type="content" source="../../media/safety-tip-first-contact-multiple-recipients.png" alt-text="여러 받는 사람이 있는 가장 보호를 위한 보안 팁의 텍스트입니다.":::
 
 - **사서함 인텔리전스:** 자주 연락하는 사용자 전자 메일 패턴을 결정하는 AI(인공 지능)를 활성화 또는 비활성화합니다. 이 설정은 AI가 합법적인 전자 메일과 스푸핑된 전자 메일을 해당 연락처와 구분하는 데 도움이 됩니다. 사서함 인텔리전스는 Exchange Online 사서함에만 사용할 수 있습니다.
 
@@ -228,7 +229,7 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
 
 다음 고급 피싱 임계값은 Office 365용 Microsoft Defender의 피싱 방지 정책에서만 사용할 수 있습니다. 이러한 임계값은 피싱 판정을 결정하기 위해 메시지에 기계 학습 모델을 적용하기 위한 민감도를 제어합니다.
 
-- **1 - 표준**: 이 값이 기본값입니다. 메시지에 수행되는 작업의 심각도는 메시지의 피싱 신뢰도(낮음, 보통, 높음 또는 매우 높은 신뢰도)에 따라 달라 습니다. 예를 들어 신뢰도가 매우 높은 피싱으로 식별된 메시지에는 가장 심각한 작업이 적용되고 신뢰도가 낮은 피싱으로 식별된 메시지에는 덜 심각한 작업이 적용됩니다.
+- **1 - 표준**: 이 값이 기본값입니다. 메시지에 수행되는 작업의 심각도는 메시지의 피싱 신뢰도(낮음, 보통, 높음 또는 매우 높은 신뢰도)에 따라 다를 수 있습니다. 예를 들어 신뢰도가 매우 높은 피싱으로 식별된 메시지에는 가장 심각한 작업이 적용되고 신뢰도가 낮은 피싱으로 식별된 메시지의 경우 심각한 작업이 덜 적용됩니다.
 
 - **2 -** 적극적: 신뢰도가 높은 피싱으로 식별된 메시지는 매우 높은 신뢰도로 식별된 것으로 처리됩니다.
 

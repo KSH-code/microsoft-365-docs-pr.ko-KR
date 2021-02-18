@@ -15,19 +15,19 @@ ms.custom:
 description: 독립 실행형 EOP(Exchange Online Protection) 조직의 관리자는 EAC(Exchange 관리 센터) 및 독립 실행형 EOP(Exchange Online Protection) PowerShell에서 메일 그룹 및 메일 사용이 가능한 보안 그룹을 만들고 수정하고 제거하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 01fe5c6ab1555749d38f9c092b05aca9befb67fe
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: d03b8a5129eb3b070f30de46b9b9c7bcc8e9898d
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166966"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286804"
 ---
 # <a name="manage-groups-in-eop"></a>EOP에서 그룹 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
--  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Exchange Online Protection 독립 실행형](exchange-online-protection-overview.md)
 
 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 다음 유형의 그룹을 만들고 수정하고 제거할 수 있습니다.
 
@@ -56,7 +56,7 @@ EAC(Exchange 관리 센터) 및 독립 실행형 EOP PowerShell에서 그룹을 
 - 이 문서의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 [Exchange Online의 Exchange](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)관리 센터에 대한 바로 가기 키를 참조하십시오.
 
 > [!TIP]
-> 문제가 있나요? [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) 포럼에서 도움을 요청하세요.
+> 문제가 있나요? [Exchange Online Protection](https://social.technet.microsoft.com/Forums/forefront/home?forum=FOPE) 포럼에서 도움을 요청하세요.
 
 ## <a name="use-the-exchange-admin-center-to-manage-distribution-groups"></a>Exchange 관리 센터를 사용하여 메일 그룹 관리
 
@@ -72,7 +72,7 @@ EAC(Exchange 관리 센터) 및 독립 실행형 EOP PowerShell에서 그룹을 
 
 3. 새 그룹 페이지가 열리면 다음 설정을 구성합니다. 필수 설정으로 표시된 <sup>\*</sup> 설정이 필요합니다.
 
-   - <sup>\*</sup>**표시 이름:** 이 이름은 조직의 주소부, 이 그룹에 전자 메일을 보낼 때의 보낸사서: 줄 및 EAC의 그룹 목록에 표시됩니다.  표시 이름은 필수로, 고유해야 하며, 사람들이 인식할 수 있도록 사용자에게 친숙한 이름을 지정해야 합니다.
+   - <sup>\*</sup>**표시 이름:** 이 이름은 조직의 주소부, 이 그룹에 전자 메일을 보낼 때의 보낸사서: 줄 및 EAC의 그룹 목록에 표시됩니다.  표시 이름은 필수로, 고유해야 하며, 사용자가 인식할 수 있도록 사용자에게 친숙해야 합니다.
 
    - <sup>\*</sup>**별칭:** 이 상자에 그룹의 별칭 이름을 입력합니다. 별칭은 64자까지 사용할 수 있으며 고유해야 합니다. 사용자가 전자 메일 메시지의 To 줄에 별칭을 입력하면 그룹의 표시 이름으로 확인됩니다.
 
@@ -84,7 +84,7 @@ EAC(Exchange 관리 센터) 및 독립 실행형 EOP PowerShell에서 그룹을 
 
      소유자를 추가하려면 추가 **아이콘을** ![ ](../../media/ITPro-EAC-AddIcon.png) 클릭합니다. 나타나는 대화 상자에서 받는 사람 또는 그룹을 찾아 선택한 다음 **->.** 필요한 만큼 이 단계를 반복합니다. 작업을 마친 후 **확인** 을 클릭합니다.
 
-     소유자를 제거하려면 소유자를 선택한 다음 제거 **아이콘을** ![ ](../../media/ITPro-EAC-RemoveIcon.gif) 클릭합니다.
+     소유자를 제거하려면 소유자를 선택한 다음 아이콘 **제거를** ![ ](../../media/ITPro-EAC-RemoveIcon.gif) 클릭합니다.
 
    - **구성원:** 그룹 구성원을 추가 및 제거합니다.
 
@@ -132,7 +132,7 @@ EAC(Exchange 관리 센터) 및 독립 실행형 EOP PowerShell에서 그룹을 
 
 구성원을 추가하려면 추가 **아이콘을** ![ ](../../media/ITPro-EAC-AddIcon.png) 클릭합니다. 나타나는 대화 상자에서 받는 사람 또는 그룹을 찾아 선택한 다음 **->.** 필요한 만큼 이 단계를 반복합니다. 작업을 마친 후 **확인** 을 클릭합니다.
 
-구성원을 제거하려면 구성원을 선택한 다음 제거 **아이콘을** ![ ](../../media/ITPro-EAC-RemoveIcon.gif) 클릭합니다.
+구성원을 제거하려면 구성원을 선택하고 제거 **아이콘을** ![ ](../../media/ITPro-EAC-RemoveIcon.gif) 클릭합니다.
 
 ### <a name="use-the-eac-to-remove-groups"></a>EAC를 사용하여 그룹 제거
 
@@ -166,7 +166,7 @@ Get-DistributionGroupMember -Identity <GroupIdentity>
 New-EOPDistributionGroup -Name "<Unique Name>" -ManagedBy @("UserOrGroup1","UserOrGroup2",..."UserOrGroupN">) [-Alias <text>] [-DisplayName "<Descriptive Name>"] [-Members @("UserOrGroup1","UserOrGroup2",..."UserOrGroupN">)] [-Notes "<Optional Text>"] [-PrimarySmtpAddress <SmtpAddress>] [-Type <Distribution | Security>]
 ```
 
-**참고**:
+**참고:**
 
 - _Name_ 매개 변수는 필수 매개 변수로, 최대 길이는 64자입니다. _DisplayName_ 매개 변수를 사용하지 않는 경우에는 _Name_ 매개 변수의 값이 표시 이름에 사용됩니다.
 
@@ -234,7 +234,7 @@ Remove-EOPDistributionGroup -Identity "IT Administrators"
 
 - EAC에서 받는 사람 **그룹으로** \> **이동 합니다.** 그룹이 나열되어 있는지 또는 나열되지 않는지 확인하고 그룹 유형 **값을** 검증합니다. 그룹을 선택하고 세부 정보 창에서 정보를 보거나  편집 아이콘을 클릭하여 설정을 ![ ](../../media/ITPro-EAC-AddIcon.png) 확인합니다.
 
-- 독립 실행형 EOP PowerShell에서 다음 명령을 실행하여 그룹이 나열되어 있는지(또는 목록에 없는지) 확인
+- 독립 실행형 EOP PowerShell에서 다음 명령을 실행하여 그룹이 나열되어 있는지(또는 목록에 없는지) 확인해야 합니다.
 
   ```PowerShell
   Get-Recipient -RecipientType MailUniversalDistributionGroup,MailUniversalSecurityGroup -ResultSize unlimited

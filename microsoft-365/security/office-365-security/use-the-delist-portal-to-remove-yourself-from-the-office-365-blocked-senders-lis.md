@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: 04/18/2016
 audience: ITPro
 ms.topic: troubleshooting
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -19,17 +18,23 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 문서에서는 목록 제거 포털을 사용하여 Microsoft 365 수신이 차단된 보낸 사람 목록에서 자신을 제거하는 방법을 배우게 됩니다.
-ms.openlocfilehash: 0c87d467db004a50502402b05eb0fa3283aa46c5
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: c11fced30ef52315ecb44dda51e6825d36b57c7e
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49614765"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287524"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>목록 해제 포털을 사용하여 수신 거부 목록에서 본인 제거
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 해당 전자 메일 주소가 Microsoft 365에 있는 받는 사람에게 전자 메일을 보내려고 할 때 오류 메시지가 표시하나요? 오류 메시지가 수신되지 않는 것으로 생각될 경우 목록 제거 포털을 사용하여 차단된 보낸 사람 목록에서 자신을 제거할 수 있습니다.
 
@@ -62,6 +67,6 @@ Microsoft는 수신 거부 목록을 사용하여 스팸, 스푸핑 및 피싱 �
     IP 주소가 수신 차단된 보낸 사람 목록에서 제거되면 해당 IP 주소의 전자 메일 메시지가 Microsoft 365를 사용하는 받는 사람에게 배달됩니다. 따라서 해당 IP 주소에서 보낸 전자 메일이 악의적이지 않은지 확신해야 합니다. 그렇지 않으면 IP 주소가 다시 차단될 수 있습니다.
 
     > [!NOTE]
-    > 최대 24시간이 걸릴 수 있습니다. 또는 제한이 제거되기 전에 결과가 크게 달라질 수 있습니다.
+    > 최대 24시간이 걸릴 수 있습니다. 제한을 제거하기 전에 결과가 크게 달라질 수 있습니다.
 
 [IP가 차단되지](create-safe-sender-lists-in-office-365.md) 않도록 EOP 및 [EOP의](outbound-spam-controls.md) 아웃바운드 스팸 보호에서 수신이 가능한 보낸 사람 목록 만들기를 참조하세요.

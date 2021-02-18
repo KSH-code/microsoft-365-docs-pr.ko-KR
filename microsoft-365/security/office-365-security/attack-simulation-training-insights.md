@@ -12,16 +12,16 @@ ms.collection:
 - m365initiative-defender-office365
 description: 관리자는 Microsoft 365 보안 센터의 공격 시뮬레이션 교육이 직원에게 미치는 영향과 시뮬레이션 및 교육 결과에 대한 정보를 얻을 수 있습니다.
 ms.technology: mdo
-ms.openlocfilehash: b7fd414cc355e768077198eb5215720c4d4a9444
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 43319089f604d32bf295392dd223cf65af8bd4be
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49933069"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288660"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>공격 시뮬레이션 교육 활용
 
-공격 시뮬레이션 교육 내에서 Microsoft는 직원이 진행한 시뮬레이션 및 교육 결과를 기반으로 정보를 제공합니다. 이러한 인사이트를 통해 직원의 위협 준비 진행 상황을 계속 파악하고 직원과 환경을 공격에 대비하기 위한 다음 단계를 권장할 수 있습니다.
+공격 시뮬레이션 교육 내에서 Microsoft는 직원이 진행한 시뮬레이션 및 교육 결과를 기반으로 정보를 제공합니다. 이러한 인사이트를 통해 직원의 위협 준비 진행 상황을 계속 알릴 수 있으며, 직원과 환경을 공격에 대비하기 위한 다음 단계를 권장할 수 있습니다.
 
 당사는 지속적으로 사용할 수 있는 인사이트를 확장하기 위해 작업 중입니다. 동작 영향 및 권장 작업은 현재 사용할 수 있습니다. 시작을 위해 Microsoft 365 보안 센터에서 공격 [시뮬레이션 교육을 진행합니다.](https://security.microsoft.com/attacksimulator?viewid=overview)
 
@@ -34,7 +34,7 @@ ms.locfileid: "49933069"
 - **공격 시뮬레이션 교육을** 사용하는 다른 Microsoft 365 테넌트에서 동일한 유형의 페이로드를 사용하는 시뮬레이션의 평균 손상률을 반영하는 예측된 손상률입니다.
 - **실제 손상률은** 시뮬레이션에 대해 떨어졌다는 직원의 비율을 반영합니다.
 
-또한 공격으로 손상된 실제 직원 수와 예측한 손상율의 `<number> less susceptible to phishing` 차이를 반영합니다. 이 수의 직원은 향후 유사한 공격으로 손상될 가능성이 낮아지지만 예상 손상률과는 대조적으로 직원들이 전반적으로 어떻게 `<percent%> better than predicted rate` 나타냈는가를 나타냅니다.
+또한 공격으로 손상된 실제 직원 수와 예측한 손상율 간의 `<number> less susceptible to phishing` 차이를 반영합니다. 이 수의 직원은 향후 유사한 공격으로 손상될 가능성이 낮아지지만 예상 손상률과는 대조적으로 직원들이 전반적으로 어떻게 `<percent%> better than predicted rate` 나타냈는가를 나타냅니다.
 
 > [!div class="mx-imgBorder"]
 > ![공격 시뮬레이션 교육 개요에 대한 동작 영향 카드](../../media/attack-sim-preview-behavior-impact-card.png)
@@ -45,7 +45,7 @@ ms.locfileid: "49933069"
 
 시뮬레이션 [ **탭에서**](https://security.microsoft.com/attacksimulator?viewid=simulations)시뮬레이션을 선택하면 추천 작업 섹션이 있는 시뮬레이션 세부 정보로 **이동됩니다.**
 
-권장 작업 섹션에서는 Microsoft 보안 점수에서 사용할 수 있는 권장 [사항을 자세히 설명합니다.](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) 이러한 권장 사항은 시뮬레이션에 사용된 페이로드를 기반으로 하여 직원과 환경을 보호하는 데 도움이 됩니다. 각 개선 작업을 클릭하면 세부 정보를 확인하게 됩니다.
+권장 작업 섹션에서는 Microsoft 보안 점수에서 사용할 수 있는 권장 사항을 [자세히 설명합니다.](../mtp/microsoft-secure-score.md) 이러한 권장 사항은 시뮬레이션에 사용된 페이로드를 기반으로 하여 직원과 환경을 보호하는 데 도움이 됩니다. 각 개선 작업을 클릭하면 세부 정보를 확인하게 됩니다.
 
 > [!div class="mx-imgBorder"]
 > ![공격 시뮬레이션 교육에 대한 권장 작업 섹션](../../media/attack-sim-preview-recommended-actions.png)

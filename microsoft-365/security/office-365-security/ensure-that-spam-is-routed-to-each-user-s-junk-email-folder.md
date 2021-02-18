@@ -18,19 +18,19 @@ description: 관리자는 Exchange Online Protection 하이브리드 환경에�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 926ac6dec33bf00fc8f0dcd292229e20ccc2b93f
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: b8fbc1b065e348f759806d80fd85421eb9d66098
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167122"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288876"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>하이브리드 환경의 정크 메일 폴더에 스팸을 배달하도록 독립 실행형 EOP 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
--  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Exchange Online Protection 독립 실행형](exchange-online-protection-overview.md)
 
 > [!IMPORTANT]
 > 이 항목은 하이브리드 환경의 독립 실행형 EOP 고객에게만 해당됩니다. 이 항목은 Exchange Online 사서함이 있는 Microsoft 365 고객에게는 적용되지 않습니다.
@@ -45,7 +45,7 @@ ms.locfileid: "50167122"
 
 - `X-Forefront-Antispam-Report: SFV:SKB` (보낸 사람 전자 메일 주소 또는 전자 메일 도메인이 차단된 보낸 사람 목록 또는 EOP의 차단된 도메인 목록에 있는 경우 스팸 필터링에 의해 스팸으로 표시된 메시지)
 
-이러한 헤더 값에 대한 자세한 내용은 스팸 방지 [메시지 헤더를 참조하십시오.](anti-spam-message-headers.md)
+이러한 헤더 값에 대한 자세한 내용은 스팸 [방지 메시지 헤더를 참조하십시오.](anti-spam-message-headers.md)
 
 이 항목에서는 EAC(Exchange 관리 센터) 및 Exchange 관리 셸(Exchange PowerShell)에서 이러한 메일 흐름 규칙을 만드는 방법에 대해 설명하고 있습니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "50167122"
 
 - 이러한 절차를 수행하려면 먼저 사용 권한을 할당해야 합니다. 특히 조직 관리, 준수  관리 및 레코드 관리 역할에 기본적으로 할당되는 전송 규칙 역할을 할당해야 합니다.   자세한 내용은 [역할 그룹에 구성원을 추가 합니다.](https://docs.microsoft.com/Exchange/permissions/role-group-members#add-members-to-a-role-group)를 참조하세요.
 
-- 메시지가 다음 설정의 조합으로 제어되는 경우 및 메시지가 정크 메일 조직의 정크 메일 폴더로 배달되는 경우와 그에 따라 제어됩니다.
+- 메시지가 다음 설정의 조합으로 제어되는 경우 및 메시지가 정크 메일 폴더로 배달되는 경우와 그에 따라 제어됩니다.
 
   - Exchange 관리 셸의 [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) cmdlet에 대한 _SCLJunkThreshold_ 매개 변수 값입니다. 기본값은 4로, SCL이 5 이상이면 메시지를 사용자의 정크 메일 폴더로 배달해야 합니다.
 
@@ -84,7 +84,7 @@ ms.locfileid: "50167122"
 
 3. 새 **규칙** 페이지가 열리면 다음 설정을 구성합니다.
 
-   - **이름:** 규칙에 대해 설명하는 고유한 이름을 입력합니다. 예:
+   - **이름:** 규칙에 대해 설명하는 고유한 이름을 입력합니다. 예시:
 
      - EOP SFV:SPM에서 SCL 6으로
 
@@ -118,7 +118,7 @@ ms.locfileid: "50167122"
 New-TransportRule -Name "<RuleName>" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "<EOPSpamFilteringVerdict>" -SetSCL 6
 ```
 
-예:
+예시:
 
 ```Powershell
 New-TransportRule -Name "EOP SFV:SPM to SCL 6" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SFV:SPM" -SetSCL 6
@@ -146,7 +146,7 @@ New-TransportRule -Name "EOP SFV:SKB to SCL 6" -HeaderContainsMessageHeader "X-F
   Get-TransportRule -Identity "<RuleName>" | Format-List
   ```
 
-- 아웃바운드 메시지에서 스팸을 검색하지 않는 외부 전자 메일 시스템에서 해당 받는 사람에게 GTUBE(원치 않는 대량 전자 메일) 메시지에 대한 일반 테스트를 보낸 다음 해당 정크 메일 폴더로 배달된지 확인합니다. GTUBE 메시지는 맬웨어 설정을 테스트하기 위한 EICAR(European Institute for Computer Antivirus Research) 텍스트 파일과 유사합니다.
+- 아웃바운드 메시지에서 스팸을 검색하지 않는 외부 전자 메일 시스템에서 GTUBE(원치 않는 대량 전자 메일) 메시지에 대한 일반 테스트를 해당 받는 사람에게 보내고 해당 메시지가 정크 메일 폴더로 배달된지 확인합니다. GTUBE 메시지는 맬웨어 설정을 테스트하기 위한 EICAR(European Institute for Computer Antivirus Research) 텍스트 파일과 유사합니다.
 
   GTUBE 메시지를 보내기 위해 공백이나 줄을 끊지 않고 전자 메일 메시지 본문에 다음 텍스트를 한 줄에 포함합니다.
 

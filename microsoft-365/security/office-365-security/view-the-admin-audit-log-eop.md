@@ -8,18 +8,22 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: 관리자는 독립 실행형 EOP(Exchange Online Protection)에서 관리자 감사 로그를 보고 검색하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: c65c09efa0f90fc9b63d635dae598b24d93ea714
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: ab6bf0a2739a88a075b636b990539b24006f3e63
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659444"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286480"
 ---
 # <a name="view-the-admin-audit-log-in-standalone-eop"></a>독립 실행형 EOP에서 관리자 감사 로그 보기
+
+**적용 대상**
+- [Exchange Online Protection 독립 실행형](exchange-online-protection-overview.md)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -32,7 +36,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protect
 >
 > - 관리자 감사 로깅은 기본적으로 사용하도록 설정되어 있으며 사용하지 않도록 설정할 수 없습니다.
 >
-> - 관리자 감사 로그는 **Get,** **Search** 또는 Test 동사로 시작하는 cmdlet을 기반으로 작업을 기록하지 **않습니다.**
+> - 관리자 감사 로그는 **Get,** **Search** 또는 Test 동사로 시작하는 cmdlet에 따라 작업을 기록하지 **않습니다.**
 >
 > - 감사 로그 항목은 90일 동안 보관됩니다. 항목이 90일보다 오래된 경우 삭제됩니다.
 
@@ -47,19 +51,19 @@ Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protect
 - 이 문서의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 [Exchange Online의 Exchange](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)관리 센터에 대한 바로 가기 키를 참조하십시오.
 
 > [!TIP]
-> 문제가 있나요? [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) 포럼에서 도움을 요청하세요.
+> 문제가 있나요? [Exchange Online Protection](https://social.technet.microsoft.com/Forums/forefront/home?forum=FOPE) 포럼에서 도움을 요청하세요.
 
 ## <a name="use-the-eac-to-view-the-admin-audit-log"></a>EAC를 사용하여 관리자 감사 로그 보기
 
 1. EAC에서 준수 관리  감사로 이동한 다음 관리자 감사 로그 보고서 \>  **실행을 선택 합니다.**
 
-2. 관리자  역할 그룹 변경 내용 검색 페이지가 열리면  시작 날짜와 종료 날짜(기본 범위는 지난 2주)를 선택한 다음 검색을 **선택합니다.**  지정한 기간 동안 변경된 모든 구성이 표시되고 다음 정보를 사용하여 정렬할 수 있습니다.
+2. 관리자  역할 그룹 변경 내용 검색 페이지가 열리면  시작 날짜와 종료 날짜(기본 범위는 지난 2주)를 선택한 다음 검색을 **선택합니다.**  지정된 기간 동안 적용된 모든 구성 변경 내용이 표시되고 다음 정보를 사용하여 정렬할 수 있습니다.
 
    - **날짜:** 구성이 변경된 날짜 및 시간입니다. 날짜와 시간은 UTC(협정 세계시) 형식으로 저장됩니다.
 
    - **cmdlet:** 구성을 변경하는 데 사용된 cmdlet의 이름입니다.
 
-   - **사용자**: 구성을 변경한 사용자의 사용자 계정 이름입니다.
+   - **사용자:** 구성을 변경한 사용자의 사용자 계정 이름입니다.
 
      여러 페이지에 항목이 5,000개까지 표시됩니다. 결과의 범위를 좁혀야 하는 경우 날짜 범위를 더 좁게 지정하세요. 개별 검색 결과를 선택하면 세부 정보 창에 다음 추가 정보가 표시됩니다.
 
@@ -77,18 +81,18 @@ Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protect
 Search-AdminAuditLog [-Cmdlets <Cmdlet1,Cmdlet2,...CmdletN>] [-Parameters <Parameter1,Parameter2,...ParameterN>] [-StartDate <UTCDateTime>] [-EndDate <UTCDateTime>] [-UserIds <"User1","User2",..."UserN">] [-ObjectIds <"Object1","Object2",..."ObjectN">] [-IsSuccess <$true | $false>]
 ```
 
-**참고**:
+**참고:**
 
 - _Parameters_ 매개 변수는 _Cmdlets_ 매개 변수와 함께만 사용할 수 있습니다.
 
-- _ObjectIds 매개_ 변수는 cmdlet에서 수정한 개체에 따라 결과를 필터합니다. 유효한 값은 개체가 감사 로그에 어떻게 나타내는지 여부에 따라 다를 수 있습니다. 예:
+- _ObjectIds_ 매개 변수는 cmdlet에서 수정한 개체에 따라 결과를 필터합니다. 유효한 값은 개체가 감사 로그에 어떻게 나타내는지 여부에 따라 다를 수 있습니다. 예시:
 
   - 이름
   - 정식 고유 이름(예: contoso.com/Users/Akia 알-주하이리)
 
   이 cmdlet에서 다른 필터링 매개 변수를 사용하여 결과 범위를 좁히고 관심 있는 개체 유형을 식별해야 할 수 있습니다.
 
-- _UserIds_ 매개 변수는 cmdlet을 통해 변경한 사용자(cmdlet을 런타임)에 따라 결과를 필터로 지정합니다.
+- _UserIds_ 매개 변수는 변경한 사용자(cmdlet을 런 사용자)를 통해 결과를 필터로 지정합니다.
 
 - _StartDate_ 및 _EndDate_ 매개 변수의 경우 표준 시간대 없이 날짜/시간 값을 지정하는 경우 값은 UTC(협정 세계시)입니다. 이 매개 변수에 대한 날짜/시간값을 지정하려면 다음 옵션 중 하나를 사용하십시오.
 
@@ -154,7 +158,7 @@ Search-AdminAuditLog -Cmdlets Update-RoleGroupMember -StartDate (Get-Date "08/04
 |`ExternalAccess`|이 필드는 EOP에서 내부적으로 사용됩니다.|
 |`Succeeded`|이 필드는 필드의 cmdlet이 성공적으로 `CmdletName` 성공한지 여부를 지정합니다. 값은 다음 중 하나 또는 `True` `False` .|
 |`Error`|이 필드에는 필드의 cmdlet이 성공적으로 완료되지 못한 경우 생성되는 오류 `CmdletName` 메시지가 포함되어 있습니다.|
-|`RunDate`|이 필드에는 필드의 cmdlet이 실행된 날짜와 `CmdletName` 시간이 포함되어 있습니다. 날짜와 시간은 UTC(협정 세계시) 형식으로 저장됩니다.|
+|`RunDate`|이 필드에는 필드의 cmdlet이 실행된 날짜와 시간이 `CmdletName` 포함되어 있습니다. 날짜와 시간은 UTC(협정 세계시) 형식으로 저장됩니다.|
 |`OriginatingServer`|이 필드는 필드에 지정된 cmdlet이 실행된 서버를 `CmdletName` 나타냅니다.|
 |`ClientIP`|이 필드는 EOP에서 내부적으로 사용됩니다.|
 |`SessionId`|이 필드는 EOP에서 내부적으로 사용됩니다.|

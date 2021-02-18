@@ -15,19 +15,19 @@ ms.custom:
 description: 이 문서에서는 PowerShell을 사용하여 EOP(Microsoft Exchange Online Protection)의 테넌트에 구성 설정을 적용하는 방법을 배우게 됩니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b7d856a7cec3bddc32455ba3afadf0323ddce935
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 4823ed09cd8a9d72aef21df3d51213cb4512b4f9
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166594"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288540"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>여러 테넌트에 EOP 설정을 적용하기 위한 샘플 스크립트
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
--  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Exchange Online Protection 독립 실행형](exchange-online-protection-overview.md)
 
 다음 샘플 스크립트를 사용하면 여러 테넌트(회사)를 관리하는 EOP(Microsoft Exchange Online Protection) 관리자가 Exchange Online PowerShell을 사용하여 해당 테넌트에 구성 설정을 보고/또는 적용할 수 있습니다.
 

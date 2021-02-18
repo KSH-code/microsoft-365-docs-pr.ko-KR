@@ -21,21 +21,21 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)에서 스팸을 방지하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2ae2c4f42d42c37f5b7a7df2b6c8306fd390b0af
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: f82e3f36d00994a68ed579779bed314318c51f47
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175862"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288948"
 ---
 # <a name="anti-spam-protection-in-eop"></a>EOP의 스팸 방지 보호 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!NOTE]
 > 이 항목은 관리자를 위한 것입니다. 최종 사용자 항목은 정크 메일 필터 개요 및 정크 메일 및 피싱에 [대해 자세히를 참조하세요.](https://support.microsoft.com/office/86c1d76f-4d5a-4967-9647-35665dc17c31) [](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)
@@ -44,7 +44,7 @@ Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 
 
 Microsoft의 전자 메일 보안 로드맵에는 제품 간 접근 방식이 수반됩니다. EOP 스팸 방지 및 피싱 방지 기술은 전자 메일 플랫폼에 적용하여 사용자에게 네트워크 전반에 걸쳐 최신 스팸 방지 및 피싱 방지 도구와 혁신 기능을 제공합니다. EOP의 목표는 정크 메일, 사기성 전자 메일 위협(피싱) 및 맬웨어로부터 사용자를 감지하고 보호하는 데 도움이 되는 포괄적이고 사용 가능한 전자 메일 서비스를 제공하는 것입니다.
 
-전자 메일 사용이 증가하여 전자 메일 남용이 있습니다. 원치 않는 정크 메일은 받은 편지함 및 네트워크를 막고, 사용자 만족도에 영향을 미치며, 합법적인 전자 메일 통신의 효율성을 저해할 수 있습니다. 이러한 이유 때문에 Microsoft는 스팸 방지 기술에 계속 투자하고 있습니다. 간단히 말하면 정크 메일을 포함하고 필터링하는 것으로 시작합니다.
+전자 메일 사용이 증가하고 있으므로 전자 메일 남용이 있습니다. 원치 않는 정크 메일은 받은 편지함 및 네트워크를 막고, 사용자 만족도에 영향을 미치며, 합법적인 전자 메일 통신의 효율성을 저해할 수 있습니다. 이러한 이유 때문에 Microsoft는 스팸 방지 기술에 계속 투자하고 있습니다. 간단히 말하면 정크 메일을 포함하고 필터링하는 것으로 시작합니다.
 
 > [!TIP]
 > 다음 스팸 방지 기술은 메시지 봉투(예: 보낸 사람 도메인 또는 메시지의 원본 IP 주소)를 기반으로 메시지를 허용하거나 차단하려는 경우 유용합니다. 페이로드를 기반으로 하는 메시지(예: 메시지의 URL 또는 첨부된 파일)를 허용하거나 차단하려면 [테넌트 허용/차단](tenant-allow-block-list.md)목록 포털을 사용해야 합니다.
@@ -60,7 +60,7 @@ EOP의 스팸 방지 설정은 다음 기술로 구성됩니다.
   > [!NOTE]
   > 스푸핑 인텔리전스에서는 연결 필터링을 사용하여 전자 메일 도메인을 스푸핑하는 보낸 사람 목록을 허용하고 차단합니다. 자세한 내용은 [Microsoft 365의](learn-about-spoof-intelligence.md)스푸핑 인텔리전스에 대한 자세한 내용을 참조하세요.
 
-- **스팸 필터링(콘텐츠 필터링)**: EOP는 스팸 필터링 판정 **스팸,** **높은** 지수 **스팸,**  대량 전자 **메일,** 피싱 전자 메일 및 높은 신뢰도 피싱 전자 메일을 사용하여 메시지를 분류합니다. 이러한 판정에 따라 수행할 작업을 구성할 수 있으며, 배달되지 않고 메일이 전송된 메시지에 대해 최종 사용자 알림 옵션을 구성할 수 있습니다. 자세한 내용은 [Microsoft 365에서](configure-your-spam-filter-policies.md)스팸 방지 정책 구성을 참조하세요.
+- **스팸 필터링(콘텐츠 필터링)**: EOP는 스팸 필터링 판정 **스팸,** **높은** 지수 **스팸,**  대량 전자 **메일,** 피싱 전자 메일 및 높은 신뢰도 피싱 전자 메일을 사용하여 메시지를 분류합니다. 이러한 판정에 따라 수행할 작업을 구성할 수 있으며, 배달되지 않고 고지된 메시지에 대한 최종 사용자 알림 옵션을 구성할 수 있습니다. 자세한 내용은 [Microsoft 365에서](configure-your-spam-filter-policies.md)스팸 방지 정책 구성을 참조하세요.
 
   > [!NOTE]
   > 기본적으로 스팸 필터링은 스팸으로 표시된 메시지를 받는 사람의 정크 메일 폴더로 보내도록 구성됩니다. 그러나 EOP가 전자 메일 흐름 사서함을 보호하는 하이브리드 환경에서는 메시지에 추가된 EOP 스팸 헤더를 인식하도록 두 개의 메일 흐름 규칙(전송 규칙)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.
@@ -79,7 +79,7 @@ EOP의 스팸 방지 설정은 다음 기술로 구성됩니다.
 
 - **스팸 방지** 메시지 헤더 검사: 이러한 값은 메시지가 스팸으로 표시된 이유 또는 스팸 필터링을 건너뛴 이유를 알 수 있습니다. 자세한 내용은 [스팸 방지 메시지 헤더](anti-spam-message-headers.md)를 참조하세요.
 
-- MX 레코드를 **Microsoft 365로** 설정: EOP가 최상의 보호를 제공하기 위해서는 항상 Microsoft 365로 전자 메일을 전달하는 것이 좋습니다. 자세한 내용은 모든 DNS 호스팅 [공급자에서 Microsoft 365용 DNS 레코드 만들기를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
+- MX 레코드를 **Microsoft 365로** 설정: EOP가 최상의 보호를 제공하기 위해서는 항상 Microsoft 365로 먼저 전자 메일을 전달하는 것이 좋습니다. 자세한 내용은 모든 DNS 호스팅 [공급자에서 Microsoft 365용 DNS 레코드 만들기를 참조하세요.](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
 
   MX 레코드가 다른 위치(예: 타사 스팸 방지 솔루션 또는 어플라이언스)를 포인트로 하는 경우 EOP에서 정확한 스팸 필터링을 제공하기가 어렵습니다. 이 시나리오에서는 커넥터에 대해 향상된 필터링을 구성해야 합니다(목록 건너뛰기라고도 _합니다)._ 자세한 내용은 Exchange Online의 커넥터에 대한 향상된 [필터링을 참조하세요.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
 
@@ -111,7 +111,7 @@ EOP의 스팸 방지 설정은 다음 기술로 구성됩니다.
 
 - **사용자의 Outlook 정크 메일 필터 설정을 확인합니다.**
 
-  - **Outlook 정크** 메일 필터가 사용하지 않도록 설정되어 있는지 확인: Outlook 정크 메일 필터가 **기본값인 자동** 필터링 없음으로 설정되어 있는 경우 Outlook에서는 스팸으로 분류하지 않습니다.  낮음 또는 높음으로 설정하면 Outlook 정크 메일 필터는 자체 SmartScreen 필터 기술을 사용하여 스팸을 식별하고 정크 메일 폴더로 이동하여 가긍정을 얻을 수 있습니다.  Microsoft는 2016년 11월 Exchange 및 Outlook에서 SmartScreen 필터에 대한 스팸 정의 업데이트 생성을 중지했습니다. 기존 SmartScreen 스팸 정의는 적용된 것이지만 시간이 지날 때 효율성이 저하될 수 있습니다.
+  - **Outlook 정크** 메일 필터가 사용하지 않도록 설정되어 있는지 확인: Outlook 정크 메일 필터가 **기본값인 자동** 필터링 없음으로 설정되어 있는 경우 Outlook에서는 스팸으로 분류하지 않습니다.  낮음 또는 높음으로 설정하면 Outlook 정크 메일 필터는 자체 SmartScreen 필터 기술을 사용하여 스팸을 식별하고 정크 메일 폴더로 이동하여 가긍정을 얻을 수 있습니다.  Microsoft는 2016년 11월 Exchange 및 Outlook에서 SmartScreen 필터에 대한 스팸 정의 업데이트 생성을 중지했습니다. 기존 SmartScreen 스팸 정의는 제 자리에 남아 있지만 시간이 지날 때 효율성이 저하될 수 있습니다.
 
   - **Outlook '수신** 가능 목록만' 설정이 사용되지 않도록 설정되어 있는지 확인합니다. 이 설정을 사용하도록 설정하면 사용자의 수신 가능 보낸 사람 목록 또는 수신 가능 받는 사람 목록에 있는 보낸 사람의 메시지만 받은 편지함으로 배달됩니다. 다른 모든 사람이 전송한 전자 메일은 자동으로 정크 메일 폴더로 이동됩니다.
 
@@ -125,4 +125,4 @@ EOP의 스팸 방지 설정은 다음 기술로 구성됩니다.
 
 ## <a name="anti-spam-legislation"></a>스팸 방지 입법
 
-Microsoft는 새로운 기술 및 자율 규제를 개발하려면 효과적인 정부 정책 및 법률 프레임워크를 지원해야 합니다. 전 세계 스팸 확산은 상업용 전자 메일을 규제하기 위해 수많은 입법 기관을 급증하고 있습니다. 이제 많은 국가에서 스팸 방지법이 제정되었습니다. 미국에는 스팸을 규정하는 연방법과 주법이 둘 다 있으며 이러한 보완적인 접근 방식은 합법적인 전자 상거래가 번성할 수 있도록 하면서 스팸을 자르는 데 도움이 됩니다. CAN-SPAM Act는 사기성 및 사기성 전자 메일 메시지를 차단하는 데 사용할 수 있는 도구를 확장합니다.
+Microsoft는 새로운 기술 및 자율 규제를 개발하려면 효과적인 정부 정책 및 법률 프레임워크를 지원해야 합니다. 전 세계 스팸 확산은 상업용 전자 메일을 규제하기 위해 수많은 입법 기관을 급증하고 있습니다. 이제 많은 국가에서 스팸 방지법이 적용되고 있습니다. 미국에는 스팸을 규정하는 연방법과 주법이 둘 다 있으며 이러한 보완적인 접근 방식은 합법적인 전자 상거래가 번성할 수 있도록 하면서 스팸을 자르는 데 도움이 됩니다. CAN-SPAM Act는 사기성 및 사기성 전자 메일 메시지를 차단하는 데 사용할 수 있는 도구를 확장합니다.

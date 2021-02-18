@@ -14,35 +14,35 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 2b543dbc8132f261814aec45e713874971b9b5d1
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: fbdd0e9b75e92d8080d9aaf43a2d1eaa8baacbc3
+ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242893"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50279401"
 ---
 # <a name="create-a-new-topic"></a>새 항목 만들기 
 
-Viva 항목에서는 인덱싱을 통해 검색되지 않았거나 AI 기술에서 이를 주제로 설정할 충분한 증거를 찾지 못하면 새 항목을 만들 수 있습니다.
+Viva 항목에서 인덱싱을 통해 검색되지 않았거나 AI 기술에서 이를 주제로 설정할 충분한 증거를 찾지 못하면 새 항목을 만들 수 있습니다.
 
 > [!Note] 
-> AI가 수집하는 항목의 정보는 보안이 조정되는 [반면,](topic-experiences-security-trimming.md)수동으로 만든 항목의 정보는 해당 항목을 볼 수 있는 권한이 있는 모든 사용자에게 표시됩니다. 
+> AI가 수집하는 항목의 정보는 보안이 조정되는 [반면,](topic-experiences-security-trimming.md)수동으로 만든 항목의 항목 설명 및 사용자 정보는 해당 항목을 볼 수 있는 권한이 있는 모든 사용자에게 표시됩니다. 
 
 
 ## <a name="requirements"></a>요구 사항
 
 새 항목을 만들하려면 다음을 해야 합니다.
 - Viva Topics 라이선스가 있습니다.
-- 항목을 만들거나 편집할 수 [**있는 사용자에 대한 권한이 있습니다.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) 지식 관리자는 Viva 항목 항목의 사용 권한 설정에서 이 권한을 사용자에게 부여할 수 있습니다. 
+- 항목을 만들거나 편집할 수 있는 사용자에 대한 [**권한이 있습니다.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) 지식 관리자는 Viva 항목 항목의 사용 권한 설정에서 사용자에게 이 권한을 부여할 수 있습니다. 
 
 > [!Note] 
-> 항목 센터(기술 관리자)에서 항목을 관리할 수 있는 권한이 있는 사용자는 이미 항목을 만들고 편집할 수 있는 권한이 있습니다.
+> 항목 센터에서 항목을 관리할 수 있는 권한이 있는 사용자(기술 관리자)에게는 항목을 만들고 편집할 수 있는 권한이 이미 있습니다.
 
 ## <a name="to-create-a-topic"></a>항목을 만들 수 있습니다.
 
 다음 두 위치에서 새 항목을 만들 수 있습니다.
 
-- 항목 센터 홈 페이지: 항목을  만들거나 편집할 수 있는 사용자(참가자)가 있는 사용이 허가된 사용자는 <b></b> 새 메뉴를 선택하고 항목 페이지를 선택하여 항목 센터에서 새 항목을 만들 <b>수 있습니다.</b></br> 
+- 항목 센터 홈 페이지: 항목  사용 권한을 만들거나 편집할 수 있는 사용자(참가자)가 있는 사용이 <b></b> 허가된 사용자는 새 메뉴를 선택하고 항목 페이지를 선택하여 항목 센터에서 새 항목을 만들 <b>수 있습니다.</b></br> 
 
     ![항목 센터의 새로운 항목](../media/knowledge-management/new-topic.png) </br> 
 
@@ -77,6 +77,9 @@ Viva 항목에서는 인덱싱을 통해 검색되지 않았거나 AI 기술에�
 
     링크 시작 옵션을 <b></b> 사용하여 URL을 제공하여 파일 또는 페이지를 추가할 수도 있습니다. 
 
+    > [!Note] 
+    > 추가하는 파일 및 페이지는 동일한 Microsoft 365 테넌트 내에 있어야 합니다. 항목의 외부 리소스에 대한 링크를 추가하려면 8단계의 캔버스 아이콘을 통해 추가하면 됩니다.
+
 
 6.  관련 <b>사이트 섹션에는</b> 항목에 대한 정보가 있는 사이트가 표시됩니다. 
 
@@ -97,6 +100,16 @@ Viva 항목에서는 인덱싱을 통해 검색되지 않았거나 AI 기술에�
    추가한 관련 항목은 연결된 항목으로 표시됩니다.
 
    ![연결된 관련 항목](../media/knowledge-management/related-topics-final.png)</br> 
+
+   관련 항목을 제거하려면 제거할 항목을 선택한 다음 항목 제거 <b>아이콘을</b> 선택합니다.</br>
+ 
+   ![관련 항목 제거](../media/knowledge-management/remove-related.png)</br>  
+
+   그런 다음 <b>제거를 선택합니다.</b></br>
+
+   ![제거 확인](../media/knowledge-management/remove-related-confirm.png)</br> 
+     
+ 
 
 
 8. 간단한 설명 아래에 있는 캔버스 아이콘을 선택하여 페이지에 정적 항목(예: 텍스트, 이미지 또는 링크)을 추가할 수도 있습니다. 이 옵션을 선택하면 페이지에 추가할 항목을 선택할 수 있는 SharePoint 도구 상자가 열립니다.

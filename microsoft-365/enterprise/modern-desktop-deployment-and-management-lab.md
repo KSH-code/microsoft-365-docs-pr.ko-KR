@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 459b0fd246455f46a1c1ff497379487de9fdb61d
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 9b558ad20a84bc902dd9a4a78ebafdbcecd8a9bb
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142268"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288266"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
@@ -72,7 +72,7 @@ Windows 및 Office 배포 랩 키트는 Windows 10 Enterprise 및 엔터프라�
 ### <a name="prepare-applications"></a>응용 프로그램 준비    
 
 - Office용 Toolkit 준비  
-- WIN32 응용 프로그램의 MSIX 패키징 및 변환   
+- Win32 응용 프로그램의 MSIX 패키징 및 변환   
 
 ### <a name="deploy-windows-10"></a>Windows 10 배포   
 
@@ -99,7 +99,7 @@ Windows 및 Office 배포 랩 키트는 Windows 10 Enterprise 및 엔터프라�
 
 [Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-* 설치된 기준 버전 2002는 콘솔 내 업데이트를 사용하여 버전 2010으로 업데이트할 수 있습니다. 이 콘텐츠를 다운로드하고 자동 프로비전을 위해 30-45분을 허용하려면 광범위한 대역폭 인터넷 연결을 사용하세요. 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 메모리와 300GB의 사용 가능한 공간이 권장됩니다. 키트는 2021년 2월 11일 만료됩니다. 만료 전에 새 버전이 게시됩니다.
+* 설치된 기준 버전 2002는 콘솔 내 업데이트를 사용하여 버전 2010으로 업데이트할 수 있습니다. 이 콘텐츠를 다운로드하고 자동 프로비전을 위해 30-45분을 허용하려면 광범위한 대역폭 인터넷 연결을 사용하세요. 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 메모리와 300GB의 사용 가능한 공간이 권장됩니다. 키트는 2021년 5월 2일 만료됩니다. 만료 전에 새 버전이 게시됩니다.
 
 ## <a name="additional-guidance"></a>추가 안내
 

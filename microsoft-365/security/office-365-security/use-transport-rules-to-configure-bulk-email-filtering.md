@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,19 +15,25 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 EOP(Exchange Online Protection)에서 메일 흐름 규칙(전송 규칙)을 사용하여 대량 메일(회색 메일)을 식별하고 필터링하는 방법을 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b029e805147218551ba6ff80fb5abfda3fbfef7f
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 8030d21d414cb38769a6831391262fa3798a8838
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658640"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287296"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>메일 흐름 규칙을 사용하여 EOP에서 대량 전자 메일 필터링
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 EOP는 스팸 방지 정책(스팸 필터 정책 또는 콘텐츠 필터 정책)을 사용하여 인바운드 메시지에서 스팸 및 대량 메일(회색 메일)을 검색합니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+Exchange Online 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에 사서함이 있는 Microsoft 365 조직에서 EOP는 스팸 방지 정책(스팸 필터 정책 또는 콘텐츠 필터 정책)을 사용하여 인바운드 메시지에서 스팸 및 대량 메일(회색 메일)을 검색합니다. 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 대량 메일을 필터링하는 더 많은 옵션을 사용하려는 경우 메일 흐름 규칙(전송 규칙)을 만들어 대량 메일에서 자주 발견되는 텍스트 패턴 또는 구를 검색하고 해당 메시지를 스팸으로 표시하면 됩니다. 대량 메일에 대한 자세한 [](what-s-the-difference-between-junk-email-and-bulk-email.md) 내용은 EOP의 정크 메일과 대량 전자 메일의 차이점과 [BCL(대량 불만 수준)을 참조하세요.](bulk-complaint-level-values.md)
 
@@ -56,7 +61,7 @@ Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 
 
   - [Exchange Online의 메일 흐름 규칙 작업](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
 
-- 예제에서 대량 메일을 식별하는 데 사용되는 단어 및 텍스트 패턴 목록은 전체적인 것이 아니며, 항목을 필요한 경우 추가하고 제거할 수 있습니다. 그러나 이러한 두 가지는 좋은 시작점입니다.
+- 예제에서 대량 메일을 식별하는 데 사용되는 단어 및 텍스트 패턴 목록은 전체적인 것이 아니며, 항목을 필요한 경우 추가 및 제거할 수 있습니다. 그러나 이러한 두 가지는 좋은 시작점입니다.
 
 - ASCII 텍스트의 SMTP 서버 간에 바이너리 메시지를 전송하는 데 사용되는 MIME 콘텐츠 전송 인코딩 메서드에서 메시지가 디코딩된 *후* 메시지의 제목이나 다른 머리글 필드에 있는 단어 또는 텍스트 패턴이 검색됩니다. 조건이나 예외를 사용하여 메시지의 제목이나 다른 머리글 필드에 있는 원시(일반적으로, Base64) 인코딩된 값을 검색할 수 없습니다.
 
@@ -115,7 +120,7 @@ Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 
 
        작업을 마친 후 **확인** 을 클릭합니다.
 
-   - **다음을 선택합니다.** SCL(스팸 지수)을 설정하는 메시지 속성  \> **수정을 선택합니다.** 나타나는 **SCL 지정** 대화 상자에서 다음 설정 중 하나를 구성합니다.
+   - **다음을 선택합니다.** SCL(스팸 **지수)을** 설정하는 메시지 속성 \> **수정을 선택합니다.** 나타나는 **SCL 지정** 대화 상자에서 다음 설정 중 하나를 구성합니다.
 
      - 메시지를 스팸으로 **표시하려면** **6을 선택합니다.** 스팸 방지 정책에서 스팸  필터링 판정에 대해 구성한 작업이 메시지에 적용됩니다(기본값은 정크 메일 폴더로 메시지 **이동).**
 
@@ -151,7 +156,7 @@ New-TransportRule -Name "Bulk email filtering - Words" -SubjectOrBodyContainsWor
 
 대량 전자 메일을 필터링하도록 메일 흐름 규칙이 구성되어 있는지 확인을 위해 다음 단계를 수행합니다.
 
-- EAC에서 메일 흐름 **규칙으로** 이동하여 편집 아이콘을 클릭하는 규칙을 선택하고 설정을 \>  \> \>  ![ ](../../media/ITPro-EAC-EditIcon.png) 확인합니다.
+- EAC에서 메일 흐름 **규칙으로** 이동하여 편집 아이콘을 클릭하는 규칙을 선택하고 \>  \> 설정을 \>  ![ ](../../media/ITPro-EAC-EditIcon.png) 확인합니다.
 
 - PowerShell에서 규칙 이름으로 바꾸고 다음 명령을 실행하여 설정을 \<Rule Name\> 확인합니다.
 

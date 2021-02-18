@@ -15,25 +15,25 @@ ms.collection:
 description: 관리자는 Exchange Online 사서함을 사용하거나 없는 EOP(Exchange Online Protection) 조직에서 사용할 수 있는 피싱 방지 정책을 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 052e19d811f56fe633ff0fbde79f51860a04a669
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 5bab5e791cb58c4e681a802179583471bb6ab165
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165850"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287916"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성하기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
 
 Exchange Online 사서함이 없는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에는 기본적으로 사용하도록 설정된 제한된 수의 스푸핑 방지 기능을 포함하는 기본 피싱 방지 정책이 있습니다. 자세한 내용은 피싱 방지 정책의 [스푸핑 설정을 참조하세요.](set-up-anti-phishing-policies.md#spoof-settings)
 
 관리자는 기본 피싱 방지 정책을 보고 편집하고 구성할 수 있지만 삭제할 수 없습니다. 세분성을 강화하기 위해 조직의 특정 사용자, 그룹 또는 도메인에 적용되는 사용자 지정 피싱 방지 정책을 만들 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.
 
-Exchange Online 사서함이 있는 조직은 보안 & 준수 센터 또는 Exchange Online PowerShell에서 피싱 방지 정책을 구성할 수 있습니다. 독립 실행형 EOP 조직은 보안 및 준수 & 수 있습니다.
+Exchange Online 사서함이 있는 조직은 보안 및 준수 센터 또는 Exchange Online powerShell에서 & 피싱 방지 정책을 구성할 수 있습니다. 독립 실행형 EOP 조직은 보안 및 준수 & 수 있습니다.
 
 Office 365용 Defender에서 사용할 수 있는 Microsoft Defender for Office 365에서 보다 고급 피싱 방지 정책을 만들고 수정하는 데 대한 자세한 내용은 [Office 365용 Microsoft Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책 구성을 참조하세요.
 
@@ -60,13 +60,13 @@ Exchange Online PowerShell에서는 정책과 규칙을 별도로 관리합니�
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. 피싱 방지 **페이지로** 직접 이동하기 위해 다음을 <https://protection.office.com/antiphishing> 사용하세요.
+- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 피싱 방지 **페이지로** 직접 이동하기 위해 다음을 <https://protection.office.com/antiphishing> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
   독립 실행형 EOP PowerShell에서는 피싱 방지 정책을 관리할 수 없습니다.
 
-- 이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 할당받아야 합니다.
+- 이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 받아야 합니다.
   - 피싱 방지 정책을 추가, 수정 및 삭제하려면 조직 관리 또는  보안 관리자 역할 그룹의 구성원이 **되거나** 삭제해야 합니다.
   - 피싱 방지 정책에 대한 읽기 전용 액세스 권한을 사용하려면  전역 읽기 그룹 또는 보안 읽기 권한이 있는 역할 그룹의 구성원이 **되거나,** <sup>\*</sup>
 
@@ -74,11 +74,11 @@ Exchange Online PowerShell에서는 정책과 규칙을 별도로 관리합니�
 
   **참고**:
 
-  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요.
+  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   - [또한 Exchange Online의](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) 보기 **전용 조직 관리** 역할 그룹은 기능에 대한 읽기 전용 액세스 권한을 <sup>\*</sup> 제공합니다.
   - <sup>\*</sup> 보안 & 준수 센터에서 읽기 전용 액세스를 통해 사용자는 사용자 지정 피싱 방지 정책 설정을 볼 수 있습니다. 읽기 전용인 사용자는 기본 피싱 방지 정책의 설정을 볼 수 없습니다.
 
-- 독립 실행형 EOP에서 피싱 방지 정책을 만들고 수정하려면 테넌트에 대한 하이드레이션이 필요한 작업을 해야 합니다.  예를 들어 EAC(Exchange 관리 센터)에서 사용  권한 탭으로 이동하여 기존  역할 그룹을 선택하고 편집 아이콘을 클릭한 다음 역할을 제거할 수 있습니다(최종적으로 다시 추가). ![ ](../../media/ITPro-EAC-EditIcon.png) 테넌트가 하이드레이션된 적이 없는 경우  성공적으로 완료해야 하는 진행률 표시줄이 있는 조직 설정 업데이트라는 대화 상자가 표시됩니다. 하이드레이션에 대한 자세한 내용은 [Enable-OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/enable-organizationcustomization) cmdlet(독립 실행형 EOP PowerShell 또는 보안 및 준수 센터에서는 사용할 수 & 없습니다.)을 참조하세요.
+- 독립 실행형 EOP에서 피싱 방지 정책을 만들고 수정하려면 테넌트에 대한 하이드레이션이 필요한 작업을 해야 합니다.  예를 들어 EAC(Exchange 관리 센터)에서 사용  권한 탭으로 이동하여 기존  역할 그룹을 선택하고 편집 아이콘을 클릭한 다음 역할을 제거할 수 있습니다(최종적으로 다시 추가). ![ ](../../media/ITPro-EAC-EditIcon.png) 테넌트가 하이드레이션된 적이 없는 경우  성공적으로 완료해야 하는 진행률 표시줄이 있는 조직 설정 업데이트라는 대화 상자가 표시됩니다. 하이드레이션에 대한 자세한 내용은 [Enable-OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/enable-organizationcustomization) cmdlet(독립 실행형 EOP PowerShell 또는 Security & 준수 센터에서는 사용할 수 없습니다.)를 참조하세요.
 
 - 피싱 방지 정책에 대한 권장 설정은 EOP 기본 피싱 방지 정책 설정을 [참조하세요.](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings)
 
@@ -146,7 +146,7 @@ Exchange Online PowerShell에서는 정책과 규칙을 별도로 관리합니�
 
 3. 정책 **편집 \<name\> 플라이아웃이** 나타납니다. 모든 **섹션에서** 편집을 클릭하면 해당 섹션의 설정에 액세스할 수 있습니다.
 
-   - 다음 단계는 섹션이 나타나는 순서대로 나타나지만 순서에 구문을 추가하지는 않습니다(순서에 따라 섹션을 선택하고 수정할 수 있습니다).
+   - 다음 단계는 섹션이 나타나는 순서대로 나타나지만 순서에 따라 섹션을 선택 및 수정할 수 있습니다.
 
    - 섹션에서  편집을 클릭하면 사용 가능한 설정이 마법사 형식으로 제공되지만 순서에 따라 페이지 내에서 점프할 수 있으며,    ![ ](../../media/scc-remove-icon.png) **\<name\>** 페이지에서 저장 또는 닫기 아이콘을 클릭하여 정책 편집 페이지로 돌아올 수 있습니다(저장하거나 남기기 위해 마법사의 마지막 페이지를 방문할 필요는 없음).
 
@@ -209,7 +209,7 @@ Exchange Online PowerShell에서는 정책과 규칙을 별도로 관리합니�
    - 기본 정책은 삭제할 수 없습니다.
    - 기본 정책의 우선 순위는 변경할 수 없습니다(항상 마지막에 적용).
 
-4. On the **Edit your policy Office365 AntiPhish Default page,** review your settings and then click **Close.**
+4. On the **Edit your policy Office365 AntiPhish Default** page, review your settings and then click **Close**.
 
 ### <a name="enable-or-disable-custom-anti-phishing-policies"></a>사용자 지정 피싱 방지 정책 사용 또는 사용 안 하도록 설정
 
@@ -253,7 +253,7 @@ Exchange Online PowerShell에서는 정책과 규칙을 별도로 관리합니�
 
 ## <a name="use-the-security--compliance-center-to-view-anti-phishing-policies"></a>보안 및 & 센터를 사용하여 피싱 방지 정책 보기
 
-1. 보안 & 준수 센터에서 위협 **관리** 정책 피싱 \>  \> **방지로 이동**
+1. 보안 & 준수 센터에서 위협 관리  정책 피싱 \>  \> **방지로 이동**
 
 2. 다음 단계 중 하나를 수행합니다.
 
@@ -279,7 +279,7 @@ Exchange Online PowerShell에서는 정책과 규칙을 별도로 관리합니�
 
 Exchange Online PowerShell에서는 피싱 방지 정책과 피싱 방지 규칙의 차이점이 분명합니다. **\* -AntiPhishPolicy** cmdlet을 사용하여 피싱 방지 정책을 관리하고 **\* -AntiPhishRule** cmdlet을 사용하여 피싱 방지 규칙을 관리합니다.
 
-- PowerShell에서 먼저 피싱 방지 정책을 만든 다음 규칙이 적용되는 정책을 식별하는 피싱 방지 규칙을 생성합니다.
+- PowerShell에서 피싱 방지 정책을 먼저 만든 다음 규칙이 적용되는 정책을 식별하는 피싱 방지 규칙을 생성합니다.
 - PowerShell에서는 피싱 방지 정책 및 피싱 방지 규칙의 설정을 별도로 수정합니다.
 - PowerShell에서 피싱 방지 정책을 제거하면 해당 피싱 방지 규칙이 자동으로 제거되지 않습니다.
 
@@ -293,7 +293,7 @@ PowerShell에서 피싱 방지 정책을 만드는 과정은 다음 두 단계�
 1. 피싱 방지 정책을 생성합니다.
 2. 규칙이 적용되는 피싱 방지 정책을 지정하는 피싱 방지 규칙을 생성합니다.
 
- **참고**:
+ **참고:**
 
 - 새 피싱 방지 규칙을 만들고 기존의 통합되지 않은 피싱 방지 정책을 할당할 수 있습니다. 피싱 방지 규칙은 피싱 방지 정책과 두 개 이상 연결될 수 없습니다.
 
@@ -401,7 +401,7 @@ Get-AntiPhishRule -Identity "Contoso Executives"
 
 다음 항목 이외에도 PowerShell에서 피싱 방지 정책을 수정할 때와 동일한 설정을 사용할 수 있습니다. [1단계: PowerShell을](#step-1-use-powershell-to-create-an-anti-phish-policy) 사용하여 이 문서의 앞부분에서 설명한 대로 피싱 방지 정책을 만들 수 있습니다.
 
-- 지정된 정책을 기본 정책으로 전환하는 _MakeDefault_ 스위치는 PowerShell에서 피싱 방지 정책을 수정할 때만 사용할 수 있습니다(모든 사용자, 항상 최하위 우선 순위 및 삭제할 수 없습니다). 
+- 지정된 정책을 기본 정책으로 전환하는 _MakeDefault_ 스위치는 PowerShell에서 피싱 방지 정책을 수정할 때만 사용할 수 있습니다(모든 사용자에 적용, 항상 최하위 우선 순위 및 삭제할 수 없습니다). 
 
 - 피싱 방지 정책의 이름을 다시 설정할 수 **없습니다(Set-AntiPhishPolicy** cmdlet에는 Name 매개 _변수가_ 없음). 보안 및 준수 센터에서 피싱 방지 정책의 이름을 & 피싱 방지 규칙의 이름만 다시 _매기게 됩니다._
 
@@ -417,7 +417,7 @@ Set-AntiPhishPolicy -Identity "<PolicyName>" <Settings>
 
 PowerShell에서 피싱 방지 규칙을 수정할 때 사용할 수 없는 설정은 _사용되지_ 않는 규칙을 만들 수 있는 Enabled 매개 변수뿐입니다. 기존 피싱 방지 규칙을 사용하도록 설정하거나 사용하지 않도록 설정하려면 다음 섹션을 참조하세요.
 
-그렇지 않으면 [2단계: PowerShell을](#step-2-use-powershell-to-create-an-anti-phish-rule) 사용하여 이 문서의 앞부분에서 설명한 대로 피싱 방지 규칙 섹션을 만들 때 동일한 설정을 사용할 수 있습니다.
+그렇지 않으면 [2단계: PowerShell을](#step-2-use-powershell-to-create-an-anti-phish-rule) 사용하여 이 문서 앞부분의 피싱 방지 규칙 섹션을 만들 때와 동일한 설정을 사용할 수 있습니다.
 
 피싱 방지 규칙을 수정하려면 다음 구문을 사용 합니다.
 
@@ -471,7 +471,7 @@ Set-AntiPhishRule -Identity "Marketing Department" -Priority 2
 
 - 새 규칙을 만들 때 새 규칙의 우선 순위를 설정하기 위해 **New-AntiPhishRule** cmdlet에서 _Priority_ 매개 변수를 대신 사용합니다.
 
-- 기본 피싱 방지 정책에는 해당하는 피싱 방지 규칙이 없습니다. 항상 이 정책의 우선 순위는 **가장 낮습니다.**
+- 기본 피싱 방지 정책에는 해당하는 피싱 방지 규칙이 없습니다. 항상 가장 낮은 우선 순위 값이 **가장 낮습니다.**
 
 ### <a name="use-powershell-to-remove-anti-phish-policies"></a>PowerShell을 사용하여 피싱 방지 정책 제거
 

@@ -14,25 +14,25 @@ search.appverid:
 description: 관리자는 EOP(Exchange Online Protection)에서 인바운드 메시지를 차단하는 사용 가능한 옵션 및 기본 옵션에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d77457567d4c3f9f4a8620021a7fb41615f0594d
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 5c95b49db811807a0cb46dce5363b8ae2dbe5602
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165658"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287284"
 ---
 # <a name="create-blocked-sender-lists-in-eop"></a>EOP에서 수신 차단된 보낸 사람 목록 만들기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 EOP는 원치 않는 보낸 사람으로부터 전자 메일을 차단하는 여러 가지 방법을 제공합니다. 이러한 옵션에는 Outlook 차단된 보낸 사람, 스팸 방지 정책의 차단된 보낸 사람 목록 또는 차단된 도메인 목록, Exchange 메일 흐름 규칙(전송 규칙) 및 IP 차단 목록(연결 필터링)이 포함됩니다. 이러한 옵션을 전체적으로 차단된 보낸 _사람 목록으로 생각할 수 있습니다._
 
-보낸 사람 차단의 가장 좋은 방법은 영향 범위에 따라 다릅니다. 단일 사용자의 경우 Outlook 수신이 차단된 보낸 사람일 수 있습니다. 많은 사용자의 경우 다른 옵션 중 하나를 더 적절하게 사용할 수 있습니다. 다음 옵션은 영향 범위와 범위 모두에 따라 순위가 지정됩니다. 목록은 범위가 좁아지지만 전체 권장 사항에 대한 자세한 내용을 읽습니다. 
+보낸 사람 차단의 가장 좋은 방법은 영향 범위에 따라 다릅니다. 단일 사용자의 경우 Outlook 수신이 차단된 보낸 사람일 수 있습니다. 대부분의 사용자에 대해 다른 옵션 중 하나를 더 적절하게 사용할 수 있습니다. 다음 옵션은 영향 범위와 범위 모두에 따라 순위가 지정됩니다. 목록이 좁아지며  광범위하게 진행되지만 전체 권장 사항에 대한 자세한 내용을 읽습니다.
 
 1. Outlook 수신이 차단된 보낸 사람(각 사서함에 저장된 수신 차단된 보낸 사람 목록)
 

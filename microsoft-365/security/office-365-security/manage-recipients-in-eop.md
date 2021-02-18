@@ -15,19 +15,19 @@ ms.custom:
 description: 관리자는 독립 실행형 EOP(Exchange Online Protection)에서 다양한 유형의 받는 사람 개체에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 20d1c3e77c916e2c04a9c35eceb410859eb85ba0
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 045146b0c8676398482e813d6986fd64dda3aa6d
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150270"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287764"
 ---
 # <a name="manage-recipients-in-standalone-eop"></a>독립 실행형 EOP에서 받는 사람 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
--  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Exchange Online Protection 독립 실행형](exchange-online-protection-overview.md)
 
 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직은 다음과 같은 유형의 받는 사람을 지원합니다.
 

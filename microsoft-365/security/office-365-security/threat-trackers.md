@@ -7,7 +7,6 @@ author: msfttracyp
 manager: dansimp
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,17 +16,22 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: 조직이 보안 문제를 가장 잘 아는 데 도움이 될 수 있도록 새로운 주목할 만한 추적을 포함하여 위협 트래커에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 551f5704337ef8989fd1568854822bc1d9d4c14b
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: a734085e9bc341424ee40757a21b855442605bcd
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615459"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287392"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 트래커 - 신규 및 주목할 만한 사항
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Office 365용 Microsoft Defender 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 [Office 365 위협](office-365-ti.md) 조사 및 대응 기능을 통해 조직의 보안 팀은 사이버 보안 위협을 검색하고 조치를 취할 수 있습니다. Office 365 위협 조사 및 응답 기능에는 주목할 만한 추적기 등의 위협 트래커 기능이 포함되어 있습니다. 이 문서를 읽고 이러한 새로운 기능 및 다음 단계를 간략하게 살펴 읽습니다.
 
@@ -46,7 +50,7 @@ ms.locfileid: "49615459"
 
 추적기 기능은 [Office 365 계획 2용 Microsoft Defender에서](office-365-ti.md)얻을 수 있는 많은 기능 중 일부에 불과합니다. 위협 추적에는 [Noteworth 추적기,](#noteworthy-trackers) [인기](#trending-trackers) [추적기,](#tracked-queries)추적된 쿼리 및 [저장된 쿼리가 포함됩니다.](#saved-queries)
 
-조직에 대한 위협 트래커를 보고 사용, 보안 & 준수 센터() 및 위협 관리 <https://protection.office.com>  \> **위협 추적기 선택.**
+조직에 대한 위협 트래커를 보고 사용하기 위해 보안 & 준수 센터()로 이동하여 위협 관리 <https://protection.office.com>  \> **위협 추적을 선택하십시오.**
 
 > [!NOTE]
 > 위협 트래커를 사용하려면 전역 관리자, 보안 관리자 또는 보안 독자가 되어야 합니다. 보안 [및 준수 센터에서 & 참조합니다.](permissions-in-the-security-and-compliance-center.md)
@@ -93,9 +97,9 @@ ms.locfileid: "49615459"
 
 ![보안 및 준수 센터의 Office 365용 Microsoft &](../../media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
 
-오늘날의 위협이 있는 세계에서 기존의 맬웨어 방지 검사만 실행하면 공격으로부터 충분히 보호되지 않습니다. 오늘날의 보다 정교한 공격자는 일반적으로 사용 가능한 도구를 사용하여 기존의 서명 기반 맬웨어 방지 엔진에서 인식되지 않는 새로운, 난독 또는 지연된 공격을 만들 수 있습니다. 안전한 첨부 파일 기능은 전자 메일 첨부 파일을 사용하여 가상 환경에서 이를 확인하여 안전하거나 악의적인지 여부를 판단합니다. 이 데토니타 프로세스는 가상 컴퓨터 환경에서 각 파일을 연 다음 파일을 연 후 어떤 일이 일어나는지 확인합니다. PDF 및 압축 파일이든 Office 문서이든, 파일에서 악성 코드가 숨겨져 있으며, 희생자가 컴퓨터에서 파일을 열 때만 활성화할 수 있습니다. Office 365용 Defender는 전자 메일 흐름에서 파일을 검색하고 분석하여 동작, 파일 신뢰도 및 다양한 방어 규칙을 기반으로 이러한 위협을 검색합니다.
+오늘날의 위협이 있는 세계에서 기존의 맬웨어 방지 검사만 실행하면 공격으로부터 충분히 보호되지 않습니다. 오늘날의 보다 정교한 공격자는 일반적으로 사용 가능한 도구를 사용하여 기존의 서명 기반 맬웨어 방지 엔진에서 인식되지 않는 새로운, 난독 또는 지연된 공격을 만들 수 있습니다. 안전한 첨부 파일 기능은 전자 메일 첨부 파일을 사용하여 가상 환경에서 이를 확인하여 안전하거나 악의적인지 여부를 판단합니다. 이 데토니타 프로세스는 가상 컴퓨터 환경에서 각 파일을 연 다음 파일을 연 후 발생하는 과정을 확인합니다. PDF 및 압축 파일이든 Office 문서이든, 파일에서 악성 코드가 숨겨져 있으며, 희생자가 컴퓨터에서 파일을 열 때만 활성화할 수 있습니다. Office 365용 Defender는 전자 메일 흐름에서 파일을 검색하고 분석하여 동작, 파일 신뢰도 및 다양한 방어 규칙을 기반으로 이러한 위협을 검색합니다.
 
-새로운 주목할 만한 위협 필터는 안전 첨부 파일을 통해 최근에 검색된 항목을 강조합니다. 이러한 검색은 전자 메일 흐름 또는 다른 고객의 전자 메일에서 이전에 Microsoft 365에서 찾지 못했던 새로운 악성 파일인 항목을 나타내고 있습니다. Noteworthy Threat Tracker의 항목에 주의를 기울여 대상을 지정한 사용자와 고급 분석 탭에 표시된 검색 세부 정보를 검토합니다(탐색기에서 전자 메일의 제목을 클릭하여 찾음). 안전 첨부 파일 기능에서 검색된 전자 메일에서만 이 탭을 찾을 수 있습니다. 이 참고 사항 추적기에는 해당 필터가 포함되어 있지만 탐색기에서 다른 검색에 해당 필터를 사용할 수도 있습니다.
+새로운 주목할 만한 위협 필터는 안전 첨부 파일을 통해 최근에 검색된 항목을 강조합니다. 이러한 검색은 전자 메일 흐름 또는 다른 고객의 전자 메일에서 이전에 Microsoft 365에서 찾지 못했던 새로운 악성 파일인 항목을 나타내고 있습니다. Noteworthy Threat Tracker의 항목에 주의를 기울여 대상을 지정한 사용자와 고급 분석 탭에 표시된 검색 세부 정보를 검토합니다(탐색기에서 전자 메일의 제목을 클릭하여 찾음). 안전 첨부 파일 기능에서 검색된 전자 메일에서만 이 탭을 찾을 수 있습니다. 이 참고 사항 추적기는 해당 필터를 포함하지만 탐색기에서 다른 검색에 해당 필터를 사용할 수도 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

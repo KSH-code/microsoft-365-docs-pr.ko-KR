@@ -17,19 +17,19 @@ ms.collection:
 description: 독립 실행형 EOP(Exchange Online Protection)의 웹 관리 인터페이스에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 81af6c64d2ec3204d0c9d46888bbfe21335955bd
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: ec9dcbccbee734ea7c475b1ac0a5f9a92a0b401b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166222"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286960"
 ---
 # <a name="exchange-admin-center-in-standalone-eop"></a>독립 실행형 EOP의 Exchange 관리 센터
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
--  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Exchange Online Protection 독립 실행형](exchange-online-protection-overview.md)
 
 EAC(Exchange 관리 센터)는 독립 실행형 EOP(Exchange Online Protection)를 위한 웹 기반 관리 콘솔입니다.
 
@@ -115,7 +115,7 @@ EAC(Exchange 관리 센터)는 독립 실행형 EOP(Exchange Online Protection)�
 - **도움말**: 도움말 ![ 아이콘을 클릭하여 ](../../media/ITPro-EAC-HelpIcon.gif) 온라인 도움말 콘텐츠를 볼 수 있습니다.
 - **피드백**: 피드백을 남기기
 - **커뮤니티**: 커뮤니티 포럼에서 답변을 찾을 수 있는 질문을 게시합니다.
-- **풍선형 도움말** 사용 안 합니다. 풍선형 도움말은 개체를 만들거나 편집할 때 필드에 대한 상황에 맞는 도움말을 나타냅니다. 풍선형 도움말을 끌 수 있으며, 풍선형 도움말을 사용하지 않도록 설정한 경우에는 켤 수 있습니다.
+- **풍선형 도움말** 비활성화 : 풍선형 도움말에는 개체를 만들거나 편집할 때 필드에 대한 상황에 맞는 도움말이 표시됩니다. 풍선형 도움말을 끌 수 있으며, 풍선형 도움말을 사용하지 않도록 설정한 경우에는 켤 수 있습니다.
 - **명령 로깅** 표시 : EAC에서 구성한 명령에 따라 해당하는 PowerShell 명령을 표시하는 새 창이 열립니다.
 
 ## <a name="supported-browsers"></a>지원되는 브라우저

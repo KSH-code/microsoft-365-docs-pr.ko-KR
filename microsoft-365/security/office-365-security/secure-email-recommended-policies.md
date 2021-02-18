@@ -6,6 +6,7 @@ author: JoeDavies-MSFT
 manager: Laurawi
 ms.prod: m365-security
 ms.topic: article
+audience: Admin
 f1.keywords:
 - NOCSH
 ms.reviewer: martincoetzer
@@ -19,18 +20,18 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 653b16b7b3f6637440e3740830ffe9f9a51c6dd8
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 4651f220e88bf5161a8ddfe4e2bdde03118afa15
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166510"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288482"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>메일을 보호하기 위한 정책 권장 사항
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
 
 
 이 문서에서는 최신 인증 및 조건부 액세스를 지원하는 조직 전자 메일 및 전자 메일 클라이언트를 보호하기 위해 권장되는 ID 및 장치 액세스 정책을 구현하는 방법을 설명합니다. 이 지침은 [일반 ID](identity-access-policies.md) 및 장치 액세스 정책을 구축하며 몇 가지 추가 권장 사항도 포함합니다.
@@ -59,7 +60,7 @@ ActiveSync 클라이언트를 차단하는 Exchange Online에 대한 새 정책�
 ||[승인된 앱 및 APP 보호 필요](identity-access-policies.md#require-approved-apps-and-app-protection)|클라우드 앱 목록에 Exchange Online 포함|
 ||[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|클라우드 앱 목록에 Exchange Online 포함|
 ||[ActiveSync 클라이언트 차단](#block-activesync-clients)|이 새 정책 추가|
-|**중요**|[로그인 위험이 낮음, 중간 또는  높음인 경우 MFA *필요*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 Exchange Online 포함|
+|**중요**|[로그인 위험이 낮음, 보통  *또는* 높음인 경우 MFA *필요*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 Exchange Online 포함|
 ||[호환 PC 및 *모바일* 장치 필요](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|클라우드 앱 목록에 Exchange Online 포함|
 |**매우 엄격한 규제**|[*항상* MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 Exchange Online 포함|
 |
@@ -110,7 +111,7 @@ iOS 및 Android용 Outlook을 사용하여 메시징 공동 작업 액세스 관
 
 Azure Information Protection의 보호 기능을 활용하는 새로운 Office 365 메시지 암호화(OME) 기능을 사용하여 조직은 모든 디바이스의 모든 사용자와 보호된 전자 메일을 쉽게 공유할 수 있습니다. 사용자는 다른 Microsoft 365 조직과 함께 보호된 메시지를 보내고 받을 수 있으며, Outlook.com, Gmail 및 기타 전자 메일 서비스를 사용하는 고객도 사용할 수 있습니다.
 
-자세한 내용은 새 Office 365 메시지 암호화 기능 [설정을 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities)
+자세한 내용은 새 Office 365 메시지 암호화 기능 [설정을 참조하세요.](../../compliance/set-up-new-message-encryption-capabilities.md)
 
 ## <a name="next-steps"></a>다음 단계
 

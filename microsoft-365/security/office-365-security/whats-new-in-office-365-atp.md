@@ -1,7 +1,7 @@
 ---
 title: Office 365용 Microsoft Defender의 새로운
 description: Office 365용 Microsoft Defender의 최신 릴리스에서 사용할 수 있는 새로운 기능에 대해 자세히 알아보습니다.
-keywords: Office 365 atp, ga, 일반적으로 사용할 수 있는 기능, 사용 가능한 기능, 새로운 기능의 새로운 기능
+keywords: Office 365 atp, ga, 일반 제공, 기능, 사용 가능, 새로운 기능의 새로운 기능
 search.appverid: met150
 ms.sitesec: library
 ms.pagetype: security
@@ -21,34 +21,34 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3544f1ccb760c461b7ab72c6dc037fd653136db9
-ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
+ms.openlocfilehash: 5934abb3afec3253da78c680735730b63ddb5701
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49988163"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287356"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 새로운
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-**적용 대상:**
-
-- [Office 365용 Microsoft Defender](office-365-atp.md)
-
-이 문서에는 Office 365용 Microsoft Defender 최신 릴리스의 새로운 기능이 나열됩니다. 현재 미리 보기 상태인 기능은 미리 **보기로 표시됩니다.**
+이 문서에는 Office 365용 Microsoft Defender의 최신 릴리스의 새로운 기능이 나열됩니다. 현재 미리 보기 상태인 기능은 미리 **보기로 표시됩니다.**
 
 > [!TIP]
-> 아직 Office 365용 Microsoft Defender가 없는가요? [평가판을 시작하고 영업에 문의합니다.](https://go.microsoft.com/fwlink/p/?LinkId=518644)
+> 아직 Office 365용 Microsoft Defender가 없는가요? [평가판을 시작하고 영업에 문의합니다.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 
 ## <a name="december-2020"></a>2020년 12월
 
 - [Office 365에서 기본적으로 보안](secure-by-default.md)
+- 자동화된 조사 개선 사항: 수동 트리거된 전자 메일 조사에 대한 일반 경고, 사서함 변경 내용을 별도의 엔터티 범주로 처리, 중복 URL 차단 작업 제거 및 사용자 손상 조사를 위한 아웃바운드 전자 메일 클러스터 만들기
 
 ## <a name="november-2020"></a>2020년 11월
 
-- 검토 > 관리 센터에서 메일 전송 및 > 로그의 업데이트된 내보내기 제한(Office 365 계획 2용 Defender)
+- 검토 > 관리 센터에서 메일 전송 및 > 로그에서 업데이트된 내보내기 제한(Office 365 계획 2용 Defender)
 
 ## <a name="septemberoctober-2020"></a>2020년 9월/10월
 
@@ -69,7 +69,7 @@ ms.locfileid: "49988163"
 ## <a name="januaryfebruary-2020"></a>2020년 1월/2월
 
 - [Office 365용 Microsoft Defender의](campaigns.md) 캠페인 보기 일반 공급(Office 365 계획 2용 Microsoft Defender)
-- 보안 운영 [팀이](threat-explorer.md) 전자 메일을 조사하는 동안 여러 필드를 검색하고 필터링할 수 있도록 위협 탐색기 기능이 [향상:](investigate-malicious-email-that-was-delivered.md)(Microsoft Defender for Office 365 계획 2)
+- 보안 작업 [팀이](threat-explorer.md) 전자 메일을 조사하는 동안 여러 필드를 검색하고 필터링할 수 있도록 하는 위협 탐색기 개선 [사항:](investigate-malicious-email-that-was-delivered.md)(Office 365 계획 2용 Microsoft Defender)
   - 배달 위치 및 특수 작업
   - 방향(인바운드, 아웃바운드 또는 반도 내)
   - 고급 NOT 필터(포함하지 않는 고급 필터링 옵션, 포함하지 않는 고급 필터링 옵션 등)
@@ -83,11 +83,11 @@ ms.locfileid: "49988163"
 
 - [오프라인 분석을 위한 URL 클릭](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) 데이터 내보내기(Office 365 계획 1 또는 계획 2용 Microsoft Defender)
 
-- [Microsoft Defender for Office 365의 캠페인 보기 **사용(미리** 보기)(Microsoft](campaigns.md) Defender for Office 365 요금제 2)
+- [Microsoft Defender for Office 365의 캠페인 보기 **사용(미리** 보기)(Office](campaigns.md) 365 계획 2용 Microsoft Defender)
 
 ## <a name="november-2019"></a>2019년 11월
 
-- [손상된 새로운](address-compromised-users-quickly.md) 사용자 검색 및 응답 기능 **확인(미리 보기)(Microsoft** Defender for Office 365 계획 2)
+- [손상된 사용자](address-compromised-users-quickly.md) 검색 및 응답 기능(미리 **보기)(Microsoft** Defender for Office 365 계획 2) 확인
 
 ## <a name="september-2019"></a>2019년 9월
 
@@ -107,7 +107,7 @@ ms.locfileid: "49988163"
 
 ## <a name="june-2019"></a>2019년 6월
 
-- [피싱 URL 보기 및 판정 데이터 클릭(Microsoft](threat-explorer.md#view-phishing-url-and-click-verdict-data) Defender for Office 365 요금제 1 또는 계획 2)
+- [피싱 URL 보기 및 판정 데이터 클릭(Microsoft](threat-explorer.md#view-phishing-url-and-click-verdict-data) Defender for Office 365 계획 1 또는 계획 2)
 
 ## <a name="microsoft-defender-for-office-365-plan-1-and-plan-2"></a>Office 365용 Microsoft Defender 플랜 1 및 플랜 2
 

@@ -19,12 +19,12 @@ description: Microsoft Defender for Office 365 계획 2의 자동화된 조사 �
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 01/29/2021
-ms.openlocfilehash: 3fb77fa41ff3e9af995cf80b9f4024aa92a51212
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: a11e9ee6a4c2426951fe2b4aa4f2dd08d1931f1c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50176018"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287116"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>Office 365에서 수정 작업 검토 및 관리
 
@@ -37,8 +37,8 @@ ms.locfileid: "50176018"
 이러한 수정 작업은 보안 운영 팀이 승인하지 않는 한 수행되지 않습니다. 자동화된 조사가 제시간에 완료될 수 있도록 가능한 한 빨리 보류 중인 작업을 검토하고 승인하는 것이 좋습니다. 경우에 따라 수정 작업을 실행 취소할 수 있습니다.
 
 **적용 대상**
-- [Microsoft Defender for Office 365 요금제 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Office 365용 Microsoft Defender 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 ## <a name="approve-or-reject-pending-actions"></a>보류 중인 작업 승인(또는 거부)
 

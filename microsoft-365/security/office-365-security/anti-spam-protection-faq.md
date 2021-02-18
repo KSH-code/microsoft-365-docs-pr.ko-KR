@@ -19,21 +19,21 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)에서 스팸 방지 보호에 대한 질문과 대답을 볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8620ad3f99c45dae3442ec89d879124053c1a005
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 8abccdac73877c3f24114afaa78c13143e156868
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175982"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288972"
 ---
 # <a name="anti-spam-protection-faq"></a>스팸 방지 보호 FAQ
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 이 항목에서는 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직을 위한 맬웨어 방지 보호에 대한 질문과 대답을 제공합니다.
 
@@ -108,11 +108,11 @@ Exchange Online 고객: [Exchange Online의 모니터링,](https://docs.microsof
 
 ## <a name="can-i-use-a-third-party-anti-spam-and-anti-malware-provider-in-conjunction-with-exchange-online"></a>타사 스팸 방지 및 맬웨어 방지 공급자와 Exchange Online을 함께 사용할 수 있습니까?
 
-예. MX 레코드를 Microsoft를 설정하는 것이 까다로우지만, Microsoft가 먼저 전자 메일을 Microsoft가 다른 곳으로 라우팅해야 하는 합법적인 비즈니스 이유가 있습니다.
+예. MX 레코드를 Microsoft를 설정하는 것이 좋습니다. 그러나 Microsoft가 먼저 전자 메일을 다른 곳으로 라우팅해야 하는 합법적인 비즈니스 이유가 있습니다.
 
-- **인바운드**: 타사 공급자를 설정하기 위해 MX 레코드를 변경한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션합니다. 자세한 내용은 Exchange Online의 커넥터에 대한 향상된 [필터링을 참조하세요.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
+- **인바운드:** 타사 공급자를 설정하기 위해 MX 레코드를 변경한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션합니다. 자세한 내용은 Exchange Online의 커넥터에 대한 향상된 [필터링을 참조하세요.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
 
-- **아웃바운드**: Microsoft 365에서 대상 타사 공급자로 스마트 호스트 라우팅을 구성합니다.
+- **아웃바운드**: Microsoft 365에서 대상 타사 공급자로의 스마트 호스트 라우팅을 구성합니다.
 
 ## <a name="does-microsoft-have-any-documentation-about-how-i-can-protect-myself-from-phishing-scams"></a>Microsoft에 피싱 메일로부터 자기 자신을 보호할 수 있는 방법에 대한 설명서가 있습니까?
 
@@ -120,7 +120,7 @@ Exchange Online 고객: [Exchange Online의 모니터링,](https://docs.microsof
 
 ## <a name="are-spam-and-malware-messages-being-investigated-as-to-who-sent-them-or-being-transferred-to-law-enforcement-entities"></a>스팸 및 맬웨어 메시지의 경우 보낸 사람을 조사하거나 법 집행 기관으로 전송됩니까?
 
-이 서비스는 스팸 및 맬웨어 감지 및 제거에 중점을 두지만 경우에 따라 특히 위험하거나 손상된 스팸 또는 공격 캠페인을 조사하고 가해자에 대해 진행할 수 있습니다. 여기에는 법률 및 디지털 범죄 단위와 협력하여 스패머 봇넷을 다운하고, 스패머가 서비스를 사용하지 못하도록 차단하고(아웃바운드 전자 메일을 보내는 데 사용하는 경우), 사법 기관에 정보를 전달하여 범죄 기소를 위한 정보를 전달할 수 있습니다.
+이 서비스는 스팸 및 맬웨어 감지 및 제거에 중점을 두지만 경우에 따라 특히 위험하거나 손상된 스팸 또는 공격 캠페인을 조사하고 가해자 추격을 진행할 수 있습니다. 여기에는 법률 및 디지털 범죄 단위와 협력하여 스패머 봇넷을 다운하고, 스패머가 서비스를 사용하지 못하도록 차단하고(아웃바운드 전자 메일을 보내는 데 사용하는 경우), 사법 기관에 정보를 전달하여 범죄 기소를 위한 정보를 전달할 수 있습니다.
 
 ## <a name="what-are-a-set-of-best-outbound-mailing-practices-that-will-ensure-that-my-mail-is-delivered"></a>메일 배달을 보장할 수 있는 가장 좋은 아웃바운드 메일 보내기 방법은 무엇입니까?
 
@@ -146,7 +146,7 @@ Exchange Online 고객: [Exchange Online의 모니터링,](https://docs.microsof
 
   [스푸핑을 방지할 수 있도록 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-  [도메인 FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
+  [도메인 FAQ](../../admin/setup/domains-faq.yml#how-can-i-validate-spf-records-for-my-domain)
 
 - **DKIM으로 전자 메일에 서명을 하는 경우 낮은 수준의 정규화로 서명합니다.**
 

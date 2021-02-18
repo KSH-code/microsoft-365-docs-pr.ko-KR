@@ -17,20 +17,20 @@ ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: 이 단계별 배포 가이드를 사용하여 365에서 격리된 SharePoint Online 팀 사이트를 Microsoft Office 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1b1f0342afc92b4540330417ad0fc9cabe1dc8a8
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: d226a545c3f8dc274f02e5d54d39739fe5d981ea
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165502"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288350"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 배포
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
  **요약:** 이러한 단계별 지침에 따라 격리된 새 SharePoint Online 팀 사이트를 배포합니다.
 
@@ -57,7 +57,7 @@ Microsoft 365를 통해 사용자 계정 및 그룹을 관리하고 PowerShell�
 
 ### <a name="step-3-list-the-viewers-for-the-site"></a>3단계: 사이트의 뷰어 나열
 
-격리된 팀 사이트의 뷰어에 해당하는 사용자 계정 집합, 사이트에 저장된 리소스를 볼 수 있지만 해당 리소스를 수정하거나 콘텐츠에 대해 직접 공동 작업할 수 없는 사용자 계정 집합을 결정하십시오.
+격리된 팀 사이트의 뷰어에 해당하는 사용자 계정 집합, 사이트에 저장된 리소스를 보지만 해당 리소스를 수정하거나 콘텐츠에 대해 직접 공동 작업할 수 없는 사용자 계정 집합을 결정하십시오.
 
 Microsoft 365를 통해 사용자 계정 및 그룹을 관리하고 PowerShell을 사용하려는 경우 해당 UPNS 목록을 만들어야 합니다. 사이트 구성원이 많은 경우 텍스트 파일에 UPNS 목록을 저장하고 모두 단일 PowerShell 명령으로 추가할 수 있습니다.
 
@@ -92,11 +92,11 @@ Azure AD에서 다음 액세스 그룹을 만들어야 합니다.
 6. 추가 그룹에 대해 3-5단계를 반복합니다.
 
 > [!NOTE]
-> Office 기능을 사용하도록 설정하려면 Azure Portal을 사용하여 그룹을 만들어야 합니다. 격리된 SharePoint Online 사이트가 나중에 파일을 암호화하고 특정 그룹에 권한을 할당하기 위해 Azure Information Protection 레이블이 있는 기밀 사이트로 구성되는 경우 허용된 그룹은 Office 기능을 사용하도록 설정하여 만들어야 합니다. Azure AD 그룹이 만들어진 후 Office 기능 설정을 변경할 수 없습니다.
+> Office 기능을 사용하도록 설정하려면 Azure Portal을 사용하여 그룹을 만들어야 합니다. 격리된 SharePoint Online 사이트가 나중에 파일을 암호화하고 특정 그룹에 권한을 할당하기 위해 Azure Information Protection 레이블이 있는 기밀 사이트로 구성된 경우 허용된 그룹은 Office 기능을 사용하도록 설정하여 만들어야 합니다. Azure AD 그룹이 만들어진 후 Office 기능 설정을 변경할 수 없습니다.
 
 다음은 세 개의 사이트 액세스 그룹을 구성한 결과입니다.
 
-![격리된 SharePoint Online 사이트 배포를 위한 세 가지 액세스 그룹](../../media/c2557f61-478b-4494-95e9-d79fe5909e8b.png)
+![격리된 SharePoint Online 사이트의 배포를 위한 세 가지 액세스 그룹](../../media/c2557f61-478b-4494-95e9-d79fe5909e8b.png)
 
 ### <a name="step-5-add-the-user-accounts-to-the-access-groups"></a>5단계. 액세스 그룹에 사용자 계정 추가
 
@@ -112,9 +112,9 @@ Office 365를 통해 사용자 계정 및 그룹을 관리하는 경우 Microsof
 
 Microsoft 365 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당된 사용자 계정으로 로그인하고 그룹을 사용하여 적절한 액세스 그룹에 적절한 사용자 계정 및 그룹을 추가합니다.
 
-PowerShell의 경우 먼저 [Azure Active Directory PowerShell for Graph 모듈에 연결합니다.](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+PowerShell의 경우 먼저 [Azure Active Directory PowerShell for Graph 모듈에 연결합니다.](../../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
-다음으로, 다음 명령 블록을 사용하여 액세스 그룹에 개별 사용자 계정을 추가합니다.
+다음 명령 블록을 사용하여 액세스 그룹에 개별 사용자 계정을 추가합니다.
 
 ```powershell
 $userUPN="<UPN of the user account>"
@@ -122,7 +122,7 @@ $grpName="<display name of the access group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
 ```
 
-액세스 그룹의 UPNS를 텍스트 파일에 저장한 경우 다음 PowerShell 명령 블록을 사용하여 모두 한 번씩 추가할 수 있습니다.
+액세스 그룹에 대한 사용자 계정의 UPNS를 텍스트 파일에 저장한 경우 다음 PowerShell 명령 블록을 사용하여 모두 한 번씩 추가할 수 있습니다.
 
 ```powershell
 $grpName="<display name of the access group>"
@@ -223,11 +223,11 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
 - **\<site name> Visitors** SharePoint 그룹에는 모든 구성원이 읽기 권한 수준을 가지는 사이트 뷰어 액세스 **그룹이** 포함되어 있습니다.
 - 구성원이 다른 구성원을 초대하거나 구성원이 아닌 구성원이 액세스를 요청하는 기능을 사용할 수 없습니다.
 
-사용자 계정 또는 Azure AD 그룹으로 채워지는 세 가지 액세스 그룹을 사용하도록 구성된 사이트에 대한 세 개의 SharePoint 그룹이 있는 결과 구성은 다음과 같습니다.
+다음은 사용자 계정 또는 Azure AD 그룹으로 채워지는 세 가지 액세스 그룹을 사용하도록 구성된 사이트에 대한 세 개의 SharePoint 그룹이 있는 결과 구성입니다.
 
 ![액세스 그룹 및 사용자 계정을 통해 격리된 SharePoint Online 사이트의 최종 구성](../../media/e7618971-06ab-447b-90ff-d8be3790fe63.png)
 
-이제 사용자와 사이트 구성원은 액세스 그룹 중 하나의 그룹 구성원 자격을 통해 사이트의 리소스를 사용하여 공동 작업을 할 수 있습니다.
+이제 사용자와 사이트 구성원이 액세스 그룹 중 하나의 그룹 구성원 자격을 통해 사이트의 리소스를 사용하여 공동 작업을 할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 

@@ -13,19 +13,19 @@ ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: 관리자는 EOP(Exchange Online Protection)에서 사용할 수 있는 관리자 감사 보고서에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4fa08f35100a3603c461c211349035e23ace466c
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 9508cd843b6986768158b5f036903869ced5a1b1
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175682"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286708"
 ---
 # <a name="auditing-reports-in-standalone-eop"></a>독립 실행형 EOP에서 보고서 감사
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
--  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Exchange Online Protection 독립 실행형](exchange-online-protection-overview.md)
 
 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 감사 보고서를 통해 조직의 규정, 규정 준수 및 소송 요구 사항을 충족할 수 있습니다. 언제든지 감사 보고서를 가져와 EOP 구성에 적용된 변경 내용을 확인할 수 있습니다. 이러한 보고서를 사용하면 구성 문제를 해결하거나 보안 또는 규정 준수 관련 문제의 원인을 찾을 수 있습니다.
 

@@ -8,7 +8,6 @@ manager: laurawi
 ms.date: 10/08/2018
 audience: Admin
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - Ent_O365
@@ -17,13 +16,15 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
-description: 'Microsoft 365 환경을 보호하기 위한 보안 기능을 구현하기 위한 Microsoft 사이버 보안 팀의 주요 권장 사항 '
-ms.openlocfilehash: 452ce2a303f02cadfcdcbe12310f2538d33a24e7
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+description: Microsoft 365 환경을 보호하기 위한 보안 기능을 구현하기 위한 Microsoft 사이버 보안 팀의 주요 권장 사항
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: a7d376eb7266975dc7582b83bfd4fa5e930ccea4
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615807"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288172"
 ---
 # <a name="security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>보안 로드맵 - 처음 30일, 90일 및 그 이상에 대한 최상위 우선 순위
 
@@ -75,9 +76,9 @@ ms.locfileid: "49615807"
 
 ****
 
-|영역|작업|
+|영역|작업 |
 |---|---|
-|보안 관리|<ul><li>보안 점수에서 작업 환경에 권장되는 작업()을 확인 <https://securescore.office.com> 합니다.</li><li>Microsoft 365 보안 센터, Cloud App Security 및 SIEM 도구에서 대시보드 및 보고서를 정기적으로 검토합니다.</li><li>소프트웨어 업데이트를 찾아 구현합니다.</li><li>공격 시뮬레이터(Office 365 위협 인텔리전스에 포함)를 사용하여 [](attack-simulator.md) 스피어 피싱, 암호 분사 및 무차별 암호 대시 공격에 대한 공격 [시뮬레이션을 실시합니다.](office-365-ti.md)</li><li>Cloud App Security(조사 탭)에서 기본 제공 보고서를 검토하여 공유 위험을 찾아 봐야 합니다.</li><li>준수 [관리자를](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) 확인하여 조직에 적용되는 규정(예: GDPR, NIST 800-171)에 대한 상태를 검토합니다.</li></ul>|
+|보안 관리|<ul><li>보안 점수에서 작업 환경에 권장되는 작업()을 확인 <https://securescore.office.com> 합니다.</li><li>Microsoft 365 보안 센터, Cloud App Security 및 SIEM 도구에서 대시보드 및 보고서를 정기적으로 검토합니다.</li><li>소프트웨어 업데이트를 찾아 구현합니다.</li><li>공격 시뮬레이터(Office 365 위협 인텔리전스에 포함)를 사용하여 [](attack-simulator.md) 스피어 피싱, 암호 분사 및 무차별 암호 대시 공격에 대한 공격 [시뮬레이션을 실시합니다.](office-365-ti.md)</li><li>Cloud App Security(조사 탭)에서 기본 제공 보고서를 검토하여 공유 위험을 찾아 봐야 합니다.</li><li>준수 [관리자를](../../compliance/compliance-manager.md) 확인하여 조직에 적용되는 규정(예: GDPR, NIST 800-171)에 대한 상태를 검토합니다.</li></ul>|
 |위협 방지|관리자 계정에 대한 향상된 보호를 구현합니다. <ul><li>관리자 활동에 대해 PAW(Privileged [Access Workstations)를](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/privileged-access-workstations) 구성합니다.</li><li>[Azure AD Privileged Identity Management를 구성합니다.](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure)</li><li>Office 365, Cloud App Security 및 AD FS를 비롯한 기타 서비스에서 로깅 데이터를 수집하도록 SIEM(보안 정보 및 이벤트 관리) 도구를 구성합니다. 감사 로그는 90일 동안만 데이터를 저장합니다. SIEM 도구에서 이 데이터를 캡처하면 데이터를 더 오랫동안 저장할 수 있습니다.</li></ul>|
 |ID 및 액세스 관리|<ul><li>모든 사용자에 대해 MFA를 사용하도록 설정하고 적용합니다.</li><li>조건부 액세스 [및 관련 정책 집합을 구현합니다.](microsoft-365-policies-configurations.md)</li></ul>|
 |정보 보호| 정보 보호 정책을 조정하고 구현합니다. 이러한 리소스에는 예제가 포함됩니다. <ul><li>[GDPR에 대한 Office 365 정보 보호](https://aka.ms/o365gdpr)</li><li>[세 가지 보호 계층으로 Teams 구성](../../solutions/configure-teams-three-tiers-protection.md)</li></ul> <p> Cloud App Security 대신 Microsoft 365에 저장된 데이터에 대해 Microsoft 365의 데이터 손실 방지 정책 및 모니터링 도구를 사용합니다. <p> Microsoft 365와 함께 Cloud App Security를 사용하여 고급 경고 기능(데이터 손실 방지 외)을 사용할 수 있습니다.|
@@ -90,7 +91,7 @@ ms.locfileid: "49615807"
 
 ****
 
-|영역|작업|
+|영역|작업 |
 |---|---|
 |보안 관리|<ul><li>보안 점수()를 사용하여 다음 작업을 계속 <https://securescore.office.com> 계획합니다.</li><li>Microsoft 365 보안 센터, Cloud App Security 및 SIEM 도구에서 대시보드 및 보고서를 정기적으로 검토합니다.</li><li>소프트웨어 업데이트를 계속 찾아 구현합니다.</li><li>eDiscovery를 법적 및 위협 대응 프로세스에 통합합니다.</li></ul>|
 |위협 방지|<ul><li>ID [구성 요소에](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/securing-privileged-access) 대해 AD, AD FS(Secure Privileged Access)를 구현합니다.</li><li>Cloud App Security를 사용하여 내부자 위협을 모니터링합니다.</li><li>Cloud App Security를 사용하여 섀도 IT SaaS 사용을 검색합니다.</li></ul>|

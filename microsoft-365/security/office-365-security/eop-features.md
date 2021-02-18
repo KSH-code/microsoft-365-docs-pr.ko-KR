@@ -13,19 +13,19 @@ ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2c66c1cd8715717bae92ac81fbefe050f5e485eb
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 7dbdf30df0659565d775bfba2cf968ac56f6a4ac
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166174"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286852"
 ---
 # <a name="eop-features"></a>EOP 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
--  [Exchange Online Protection 독립 실행형](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Exchange Online Protection 독립 실행형](exchange-online-protection-overview.md)
 
 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "50166174"
 |메시지 본문 및 첨부 파일에 대한 맬웨어 검사|이 서비스는 메시지 본문 및 모든 메시지 첨부 파일의 활성 페이로드에서 맬웨어를 검사합니다.|
 |기본 또는 사용자 지정 맬웨어 경고 알림|보낸 사람 또는 관리자에게 알림 메시지를 보낼 수 있습니다. 자세한 내용은 맬웨어 [방지 정책 구성을 참조하십시오.](configure-anti-malware-policies.md)|
 |받는 사람 알림|메시지를 자동으로 검지하거나 메시지를 잠가 표준 또는 사용자 지정 텍스트가 포함된 단일 텍스트 파일로 대체된 모든 첨부 파일로 배달합니다. 자세한 내용은 맬웨어 [방지 정책 구성을 참조하십시오.](configure-anti-malware-policies.md)|
-|일반적인 첨부 파일 필터링|항상 맬웨어로 생각되는 파일 형식 목록을 사용하도록 설정하고 사용자 지정할 수 있습니다. 자세한 내용은 [EOP의 맬웨어 방지 보호 기능을 참조하세요.](anti-malware-protection.md)|
+|일반 첨부 파일 필터링|항상 맬웨어로 생각되는 파일 형식 목록을 사용하도록 설정하고 사용자 지정할 수 있습니다. 자세한 내용은 [EOP의 맬웨어 방지 보호 기능을 참조하세요.](anti-malware-protection.md)|
 |스파이웨어 방지 보호 기능|맬웨어 방지 보호는 바이러스 백신 및 스파이웨어 방지를 포괄합니다.|
 |사용자 지정 맬웨어 필터 정책 만들기|세분성을 높이기 위해 사용자 지정 맬웨어 필터 정책을 만들어서 조직의 지정된 사용자, 그룹 또는 도메인에 적용할 수 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만 사용자 지정 정책의 우선 순위(즉, 실행 순서)를 변경할 수 있습니다. 자세한 내용은 맬웨어 [방지 정책 구성을 참조하십시오.](configure-anti-malware-policies.md)|
 |**메일 라우팅 및 커넥터**||
@@ -75,7 +75,7 @@ ms.locfileid: "50166174"
 |사용자 지정 사전|메일 흐름 규칙에는 긴 텍스트 및 키워드 목록이 포함되어 사용자 지정 사전과 동일한 기능을 제공합니다.|
 |도메인별 정책 규칙|보낸 사람 또는 받는 사람 도메인 이름, IP 주소 범위, 주소 키워드 또는 패턴, 그룹 구성원 자격 및 기타 조건과 일치하도록 메일 흐름 규칙의 범위를 사용자 지정할 수 있습니다.|
 |첨부 파일 검색|첨부 파일의 파일 이름, 확장명 및 내용을 검색하도록 규칙을 만들 수 있습니다.|
-|보낸 사람에게 정책 규칙 알림 보내기|설명이 있는 메시지 거부 또는 확장 상태 코드 작업이 있는 메시지 거부를 통해 메시지를 거부하고  배달되지 않는 보고서(NDR 또는 반송 메시지라고도 합니다)를 보낸 사람에 보낼 수 있습니다.  자세한 내용은 [Exchange Online의 메일 흐름 규칙 작업을 참조하세요.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)|
+|보낸 사람에게 정책 규칙 알림 보내기|메시지를 거부하고 설명이 있는 메시지 거부 또는 확장 상태 코드 작업이 있는 메시지 거부를 통해  보낸에게 배달되지  않는 보고서(NDR 또는 반송 메시지라고도 알려지기)를 보낼 수 있습니다. 자세한 내용은 [Exchange Online의 메일 흐름 규칙 작업을 참조하세요.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)|
 |메시지 리디렉션 또는 복사|메일 흐름 규칙은 리디렉션하고,Cc 또는 Bcc로 받는 사람을 추가하고, 받는 사람 및 기타 옵션을 추가할 수 있습니다. 자세한 내용은 [Exchange Online의 메일 흐름 규칙 작업을 참조하세요.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)|
 |여러 규칙에서 규칙 우선 순위 조정|Exchange 관리 센터를 사용하여 규칙이 처리되는 순서를 변경할 수 있습니다.|
 |메시지를 필터링한 다음 메시지의 라우팅 또는 특성을 변경합니다.|다양한 조건에 따라 메시지를 필터링한 다음 각 메시지에 일련의 동작을 적용할 수 있습니다. 자세한 내용은 Exchange Online Protection의 메일 흐름 [규칙(전송 규칙)을 참조하세요.](mail-flow-rules-transport-rules-0.md)|
@@ -84,7 +84,7 @@ ms.locfileid: "50166174"
 |**관리**||
 |웹 기반 관리|관리자는 60개 언어로 지원되는 EAC(Exchange 관리 센터)에서 서비스를 관리할 수 있습니다. 자세한 내용은 독립 실행형 [EOP의 Exchange 관리 센터를 참조하세요.](exchange-admin-center-in-exchange-online-protection-eop.md)|
 |디렉터리 동기화|디렉터리 동기화는 Azure Active Directory 동기화 도구를 통해 사용할 수 있습니다. 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리" 섹션을 참조하세요.  |
-|DBEB(디렉터리 기반 Edge 차단)|DBEB 기능을 통해 서비스 네트워크 주변에서 잘못된 받는 사람에 대한 메시지를 거부할 수 있습니다. DBEB를 사용하면 메일 사용이 가능한 받는 사람을 Microsoft 365에 추가하고 Microsoft 365에 없는 전자 메일 주소로 전송된 모든 메시지를 차단할 수 있습니다. DBEB 구성에 대한 자세한 내용은 디렉터리 기반 Edge 차단을 사용하여 잘못된 받는 사람에게 보낸 메시지를 [거부합니다.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|
+|DBEB(디렉터리 기반 Edge 차단)|DBEB 기능을 통해 서비스 네트워크 주변에서 잘못된 받는 사람에 대한 메시지를 거부할 수 있습니다. DBEB를 사용하면 관리자가 메일 사용이 가능한 받는 사람을 Microsoft 365에 추가하고 Microsoft 365에 없는 전자 메일 주소로 전송된 모든 메시지를 차단할 수 있습니다. DBEB 구성에 대한 자세한 내용은 디렉터리 기반 Edge 차단을 사용하여 잘못된 받는 사람에게 보낸 메시지를 [거부합니다.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|
 |PowerShell|전체 EOP 기능은 독립 실행형 EOP PowerShell에서 사용할 수 있습니다. 자세한 내용은 [Exchange Online Protection PowerShell을 참조하세요.](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell)|
 |**보고 및 로깅**||
 |Message trace|관리자는 서비스를 통과할 때 전자 메일 메시지를 팔로우할 수 있습니다. 서비스에서 대상 전자 메일 메시지를 수신, 거부, 지연 또는 배달할지 여부를 결정할 수 있습니다. 이를 통해 사용자의 질문에 효율적으로 답변하고, 메일 흐름 문제를 해결하고, 정책 변경의 유효성을 검사하고, 기술 지원에 도움을 요청해야 하는 필요성을 해결할 수 있습니다. 자세한 내용은 [보안 및 준수 센터 메시지 추적](message-trace-scc.md)을 참조하세요.|

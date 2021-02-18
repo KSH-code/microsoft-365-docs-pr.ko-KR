@@ -22,20 +22,20 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b187c5fee560e1ebf5463e889fff874aca05212d
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: a5a1384208141a42459c009952f89d18498cc21e
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175826"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287928"
 ---
 # <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender에서 자동화된 조사 및 대응이 작동하는 방식
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Microsoft Defender for Office 365 요금제 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Office 365용 Microsoft Defender 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 보안 경고가 트리거되면 보안 운영 팀이 이러한 경고를 보고 조직을 보호하기 위한 단계를 수행합니다. 경우에 따라 보안 운영 팀은 트리거되는 경고의 양에 당황할 수 있습니다. Office 365용 Microsoft Defender의 자동화된 조사 및 대응(AIR) 기능이 도움이 될 수 있습니다.
 
@@ -87,13 +87,13 @@ AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 
 
 ![선택한 메시지에 대한 작업 메뉴](../../media/explorer-malwareview-selectedemails-actions.jpg)
 
-경고로 트리거되는 플레이북과 마찬가지로 탐색기에서 보기에서 트리거되는 자동 조사에는 루트 조사, 위협을 식별 및 상관 관계화하는 단계, 이러한 위협을 완화하기 위한 권장 작업이 포함됩니다.
+경고로 트리거되는 플레이북과 마찬가지로 탐색기에서 보기에서 트리거되는 자동 조사에는 루트 조사, 위협을 식별 및 상관 관계화하는 단계, 이러한 위협을 완화하기 위한 권장 조치가 포함됩니다.
 
 ## <a name="example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api"></a>예: 보안 운영 팀은 Office 365 관리 활동 API를 사용하여 AIR을 SIEM과 통합합니다.
 
 Microsoft Defender for Office 365의 AIR 기능에는 보안 [운영 &](air-view-investigation-results.md) 팀이 위협을 모니터링하고 해결하기 위해 사용할 수 있는 세부 정보 보고서가 포함되어 있습니다. 그러나 AIR 기능을 다른 솔루션과 통합할 수도 있습니다. 예로는 SIEM(보안 정보 및 이벤트 관리) 시스템, 사례 관리 시스템 또는 사용자 지정 보고 솔루션이 있습니다. 이러한 종류의 통합은 [Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)관리 활동 API를 사용하여 수행될 수 있습니다.
 
-예를 들어 최근에 조직은 보안 운영 팀이 AIR에서 이미 처리한 사용자가 보고한 피싱 알림을 볼 수 있는 방법을 설정했습니다. 해당 솔루션은 관련 경고를 조직의 SIEM 서버 및 해당 사례 관리 시스템과 통합합니다. 이 솔루션은 보안 운영 팀이 실제 위협에 대한 시간 및 노력을 집중할 수 있도록 가짓 긍정 수를 크게 줄입니다. 이 사용자 지정 솔루션에 대한 자세한 내용은 기술 커뮤니티 [블로그: Office 365용 Microsoft Defender 및 O365](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185)관리 API를 사용하여 SOC의 효율성 개선을 참조하세요.
+예를 들어 최근에 조직은 보안 운영 팀이 AIR에서 이미 처리한 사용자가 보고한 피싱 알림을 볼 수 있는 방법을 설정했습니다. 해당 솔루션은 관련 경고를 조직의 SIEM 서버 및 해당 사례 관리 시스템과 통합합니다. 이 솔루션은 보안 운영 팀이 실제 위협에 대한 시간 및 노력에 집중할 수 있도록 가짓 긍정 수를 크게 줄입니다. 이 사용자 지정 솔루션에 대한 자세한 내용은 기술 커뮤니티 [블로그: Office 365용 Microsoft Defender 및 O365](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185)관리 API를 사용하여 SOC의 효율성 개선을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

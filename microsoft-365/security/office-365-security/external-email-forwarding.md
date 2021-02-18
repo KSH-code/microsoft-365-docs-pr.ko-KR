@@ -15,21 +15,21 @@ ms.custom:
 description: .
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e578cadf6687e02c900299a75bdd00a9d6e5b2ee
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 77f666e5eeceee3f5b324e5b9b6fac721c10e410
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166150"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286876"
 ---
 # <a name="control-automatic-external-email-forwarding-in-microsoft-365"></a>Microsoft 365에서 자동 외부 전자 메일 전달 제어
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 관리자는 외부 받는 사람(조직 외부의 받는 사람)에게 자동으로 전달되는 메시지를 제한하거나 제어해야 하는 회사 요구 사항이 있을 수 있습니다. 전자 메일 전달은 유용할 수 있지만 잠재적인 정보 공개로 인해 보안 위험이 발생할 수도 있습니다. 공격자는 이 정보를 사용하여 조직 또는 파트너를 공격할 수 있습니다.
 
@@ -58,13 +58,13 @@ Microsoft 365에서는 다음과 같은 유형의 자동 전달을 사용할 수
 
 ## <a name="how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls"></a>아웃바운드 스팸 필터 정책 설정이 다른 자동 전자 메일 전달 컨트롤과 함께 작동되는 방식
 
-관리자는 자동 전자 메일 전달을 허용하거나 차단하도록 다른 컨트롤을 이미 구성한 것일 수 있습니다. 예:
+관리자는 자동 전자 메일 전달을 허용하거나 차단하도록 다른 컨트롤을 이미 구성한 것일 수 있습니다. 예시:
 
 - [일부 또는](https://docs.microsoft.com/exchange/mail-flow-best-practices/remote-domains/remote-domains) 모든 외부 도메인으로 자동 전자 메일 전달을 허용하거나 차단하는 원격 도메인
 
 - [외부](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) 받는 사람에게 자동으로 전달되는 메시지를 검색하고 차단하기 위해 Exchange 메일 흐름 규칙의 조건 및 작업(전송 규칙)입니다.
 
-원격 도메인 설정 및 메일 흐름 규칙은 아웃바운드 스팸 필터 정책의 설정과 독립적입니다. 예:
+원격 도메인 설정 및 메일 흐름 규칙은 아웃바운드 스팸 필터 정책의 설정과 독립적입니다. 예시:
 
 - 원격 도메인에 대해 자동 전달을 허용하지만 아웃바운드 스팸 필터 정책에서는 자동 전달을 차단합니다. 이 예에서는 자동으로 전달된 메시지가 차단됩니다.
 
@@ -72,8 +72,8 @@ Microsoft 365에서는 다음과 같은 유형의 자동 전달을 사용할 수
 
 이 기능을 독립적으로 사용하면 아웃바운드 스팸 필터 정책에서 자동 전달을 허용하지만 원격 도메인을 사용하여 사용자가 메시지를 전달할 수 있는 외부 도메인을 제어할 수 있습니다.
 
-## <a name="the-blocked-email-forwarding-message"></a>차단된 전자 메일 전달 메시지
+## <a name="blocked-email-forwarding-messages"></a>차단된 전자 메일 전달 메시지
 
-메시지가 자동으로 전달된 것으로 감지되고 조직 정책에서  해당 활동을 차단하면 다음 정보가 포함된 NDR의 보낸 사람으로 메시지가 반환됩니다.
+메시지가 자동으로 전달된 것으로 감지되고 아웃바운드 스팸  필터 정책이 해당 활동을 차단하면 다음 정보가 포함된 NDR의 보낸 사람으로 메시지가 반환됩니다. [](configure-the-outbound-spam-policy.md)
 
 `5.7.520 Access denied, Your organization does not allow external forwarding. Please contact your administrator for further assistance. AS(7555)`

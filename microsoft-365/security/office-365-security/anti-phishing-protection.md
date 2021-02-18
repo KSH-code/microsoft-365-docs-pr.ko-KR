@@ -21,23 +21,23 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Office 365용 Microsoft Defender의 피싱 방지 보호 기능에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f42ea3159dc5ed975852aaca10ce6f344b71d749
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 4fef8aa30f2b41c0ba84a6535969b12448e80562
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175638"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289056"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Microsoft 365의 피싱 방지 보호 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-*피싱은* 합법적 또는 신뢰할 수 있는 보낸 사람으로부터 보낸 것으로 나타나는 메시지의 중요한 정보를 도용하는 전자 메일 공격입니다. 피싱에는 특정 범주가 있습니다. 예:
+*피싱은* 합법적 또는 신뢰할 수 있는 보낸 사람으로부터 보낸 것으로 나타나는 메시지의 중요한 정보를 도용하는 전자 메일 공격입니다. 피싱에는 특정 범주가 있습니다. 예시:
 
 - **스피어** 피싱은 대상 받는 사람(일반적으로 공격자가 받는 사람을 분석한 후)에 맞게 조정된 집중화된 사용자 지정 콘텐츠를 사용 합니다.
 

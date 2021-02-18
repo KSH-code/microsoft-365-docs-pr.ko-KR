@@ -19,21 +19,21 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)의 모든 사용자에 대해 고지된 메시지를 보고 관리하는 방법을 배울 수 있습니다. Office 365용 Microsoft Defender를 가진 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams에서 분리된 파일을 관리할 수도 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a91f53f8efe4fa6944f0debff472da87b7f17e0c
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 22bcf0cefb746e92ccadf8254f4076b47ee475c4
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167494"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287788"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에서 격리는 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [EOP에서 Quarantined 전자 메일 메시지를 참조하세요.](quarantine-email-messages.md)
 
@@ -57,12 +57,12 @@ Office 365용 Microsoft Defender가 있는 조직의 관리자는 SharePoint Onl
 
   **참고**:
 
-  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요.
-  - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+  - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
   - <sup>\*</sup>Exchange Online PowerShell에서 절차를 수행하려면 **Quarantine Administrator** 역할 그룹의 구성원도 [Exchange Online의](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) **Hygiene Management** 역할 그룹의 구성원이 해야 합니다.
 
 - Quarantined messages are retained for a default period of time before they're automatically deleted:
-  - 스팸 방지 정책(스팸, 피싱 및 대량 전자 메일)으로 차단된 메시지의 경우 30일 이 값은 기본값 및 최대값입니다. 이 값을 구성(더 낮음)은 [스팸 방지 정책 구성을 참조합니다.](configure-your-spam-filter-policies.md)
+  - 스팸 방지 정책(스팸, 피싱 및 대량 전자 메일)으로 차단된 메시지의 경우 30일 이 값은 기본값 및 최대값입니다. 이 값을 구성(더 낮음)하도록 설정하는 내용은 [스팸 방지 정책 구성을 참조합니다.](configure-your-spam-filter-policies.md)
   - 맬웨어가 포함된 메시지의 경우 15일
   - Office 365용 Defender의 SharePoint, OneDrive 및 Microsoft Teams에 대해 안전한 첨부 파일로 검색된 파일의 경우 15일
 
@@ -105,7 +105,7 @@ Office 365용 Microsoft Defender가 있는 조직의 관리자는 SharePoint Onl
 
    - **격리 이유**:
      - **정책:** 메시지가 메일 흐름 규칙의 조건과 일치합니다(전송 규칙).
-     - **대량 메일**
+     - **대량 전자 메일**
      - **피싱**: 스팸 필터  판정이 메시지(스푸핑 설정 또는 가장 보호)를 통해 스팸 전자 메일 또는 피싱 방지 보호를 통해 [확인되었습니다.](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)[](set-up-anti-phishing-policies.md#spoof-settings)
      - **맬웨어**
      - **스팸**
@@ -268,9 +268,9 @@ Office 365용 Defender가 있는 조직에서 관리자는 SharePoint Online, �
 
 - **File Name**
 - **파일 URL**: 파일 위치(예: SharePoint Online)를 정의하는 URL입니다.
-- **검색된 악성 콘텐츠** 파일이 중단된 날짜/시간입니다.
+- **에서 검색된 악성 콘텐츠** 파일이 중단된 날짜/시간입니다.
 - **만료 날짜:** 파일이 Quarantine에서 삭제되는 날짜입니다.
-- **검색:** Office 365용 Defender 또는 Microsoft의 맬웨어 방지 엔진
+- **검색:** Office 365용 Defender 또는 Microsoft의 맬웨어 방지 엔진.
 - **해제되었나요?**
 - **맬웨어 이름**
 - **문서 ID**: 문서의 고유 식별자입니다.

@@ -12,12 +12,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: None
 description: 항목을 보는 데 보안이 사용되는 방식에 대한 개요입니다.
-ms.openlocfilehash: fc8e2a08fcf9af266aee49eee878738f7f17aa59
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 12a2ad34c55cd63468266abca1fa053048053dd2
+ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107521"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50279335"
 ---
 # <a name="microsoft-viva-topics-security-trimming"></a>Microsoft Viva Topics 보안 트리밍 
 
@@ -49,10 +49,11 @@ AI 또는 수동 큐레이터를 통해 항목을 만들 때 항목에 대한 �
 
 ## <a name="ai-versus-manually-curated-topic-information"></a>AI와 수동 큐레이터 항목 정보
 
-항목에는 AI에서 생성된 정보와 주제 참가자 또는 지식 관리자가 추가하거나 편집한 정보가 포함될 수 있습니다.
+항목에는 AI에서 생성된 정보와 항목 참가자 또는 지식 관리자가 추가하거나 편집한 정보가 포함될 수 있습니다.
 
- - AI에서 추가된 항목의 정보는 원본 콘텐츠에 액세스할 수 있는 사용자만 볼 수 있습니다.
- - 항목 작성자 또는 지식 관리자가 수동으로 추가하거나 편집한 정보는 해당 항목을 볼 수 있는 모든 사람이 볼 수 있습니다.
+ - AI에서 추가한 항목의 정보는 원본 콘텐츠에 액세스할 수 있는 사용자만 볼 수 있습니다.
+ - 항목 작성자 또는 지식 관리자가 수동으로 추가 또는 편집한 항목 설명 및 사용자 정보는 해당 항목을 볼 수 있는 모든 사람이 볼 수 있습니다.
+ - 파일, 페이지 및 사이트는 AI에서 수동으로 추가하거나 추가하는 경우 원본 콘텐츠에 대한 사용 권한이 있는 사용자에게만 표시됩니다.
 
 다음 표에서는 사용자(주제 뷰어, 참가자 및 지식 관리자)가 사용 권한에 따라 특정 항목에서 볼 수 있는 항목에 대해 설명합니다.
 

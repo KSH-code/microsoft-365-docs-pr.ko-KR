@@ -22,20 +22,20 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 451a6b19139502a3765795694860e884a7a469bf
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 48d7e1a7497f9bc2a07a84b36fb07939d25609bf
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175754"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289152"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>자동화된 조사 및 응답 기능에서 가짓 긍정/부정을 보고하는 방법
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Microsoft Defender for Office 365 요금제 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Office 365용 Microsoft Defender 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 [Office 365의 자동화된](automated-investigation-response-office.md) 조사 및 대응(AIR) 기능이 누락되거나 잘못 감지된 경우 보안 운영 팀에서 이를 해결하기 위해 취할 수 있는 단계가 있습니다. 이러한 작업은 다음과 같습니다.
 
@@ -66,9 +66,9 @@ Office 365용 Microsoft Defender에서 전자 메일 메시지, 전자 메일 �
 
 ### <a name="undo-an-action-using-threat-explorer"></a>위협 탐색기를 사용하여 작업 실행 취소
 
-위협 탐색기를 사용하여 보안 운영 팀은 작업의 영향을 받는 전자 메일을 찾아 작업을 잠재적으로 실행 취소할 수 있습니다.
+위협 탐색기를 사용하여 보안 운영 팀은 작업의 영향을 받는 전자 메일을 찾고 작업을 잠재적으로 실행 취소할 수 있습니다.
 
-|시나리오|옵션 취소|자세한 정보|
+|시나리오|옵션 취소|자세히 알아보기|
 |---|---|---|
 |전자 메일 메시지가 사용자의 정크 메일 폴더로 라우팅되었습니다.|- 메시지를 사용자의 지우기 항목 폴더로 이동<br/>- 메시지를 사용자의 받은 편지함으로 이동<br/>- 메시지 삭제|[Office 365에서 배달된 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)|
 |전자 메일 메시지 또는 파일이 고지된 경우|- 전자 메일 또는 파일 릴리스<br/>- 전자 메일 또는 파일 삭제|[관리자로 quarantined messages 관리](manage-quarantined-messages-and-files.md)|

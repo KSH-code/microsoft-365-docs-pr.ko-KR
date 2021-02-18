@@ -1,7 +1,7 @@
 ---
 title: Office 365용 Microsoft Defender 평가
 description: 평가 모드에서 Office 365용 Defender는 맬웨어와 같은 판정을 기록하지만 메시지에 대해 활동하지 않는 Office 365 전자 메일 정책에 대한 Defender를 만듭니다.
-keywords: Office 365 평가, Office 365용 Microsoft Defender, Office 365 평가, Office 365, Microsoft Defender, ATP 평가
+keywords: Office 365, Office 365용 Microsoft Defender 평가, Office 365 평가, Office 365, Microsoft Defender, ATP 평가
 f1.keywords:
 - NOCSH
 ms.author: ellevin
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7c0bb1701cf030692bc98218b38be00cae57a2bd
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 1d16c0afc675ba759e392c9fe9a44c42b89dbad0
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080704"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287656"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender 평가
 
@@ -32,23 +32,23 @@ ms.locfileid: "50080704"
 > [!IMPORTANT]
 > Microsoft Defender for Office 365 평가판은 공개 미리 보기에 있습니다. 이 미리 보기 버전은 서비스 수준 계약 없이 제공됩니다. 일부 기능은 지원되지 않을 수도, 기능이 제한될 수도 있습니다.
 
-포괄적인 보안 제품 평가를 수행하면 업그레이드 및 구매에 대한 정보를 제공한 결정을 내리는 데 도움이 될 수 있습니다. 보안 제품의 기능을 사용해 보아 보안 운영 팀이 일상적인 작업에서 어떻게 도움이 될 수 있는지 평가하는 데 도움이 됩니다.
+포괄적인 보안 제품 평가를 수행하면 업그레이드 및 구매에 대한 정보를 제공한 결정을 내리는 데 도움이 될 수 있습니다. 보안 제품의 기능을 사용하여 보안 운영 팀이 일상적인 작업에서 어떻게 도움이 될 수 있는지 평가하는 데 도움이 됩니다.
 
 [Office 365용 Microsoft Defender](office-365-atp.md) 평가 환경은 보안 솔루션의 기능을 평가하는 데 집중할 수 있도록 장치 및 환경 구성의 복잡한 문제를 제거하도록 설계되었습니다. SharePoint, Office 클라이언트 또는 Teams가 아닌 전자 메일 보호에만 적용됩니다.
 
-Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 경우 [무료 30일](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) 평가를 시작하고 Office 365 보안 및 준수 센터에서 기능을 & 수 https://protection.office.com/homepage) 있습니다. 빠른 설치를 즐길 수 있으며 필요한 경우 쉽게 해제할 수 있습니다.
+Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 경우 [무료 30일](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) 평가를 시작하고 Office 365 보안 및 준수 센터에서 기능을 & 수 있습니다. https://protection.office.com/homepage) 빠른 설치를 즐길 수 있으며 필요한 경우 쉽게 해제할 수 있습니다.
 
 ## <a name="how-the-evaluation-works"></a>평가 작동 방식
 
 평가 모드에서 Office 365용 Defender는 맬웨어와 같은 판정을 기록하지만 메시지에 대해 활동하지 않는 Office 365 전자 메일 정책에 대한 Defender를 만듭니다. MX 레코드 구성을 변경할 필요는 없습니다.
 
-평가 [모드에서는](atp-safe-attachments.md)안전 첨부 파일, [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)  [안전한](atp-safe-links.md)링크 및 피싱 방지 가장 정책이 사용자 대신 설정됩니다. Office 365용 모든 Defender 정책은 백그라운드에서 적용되지 않은 모드로 만들어지며 표시되지 않습니다.
+평가 모드에서는 [안전](atp-safe-attachments.md)첨부 파일, [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)  [안전한](atp-safe-links.md)링크 및 피싱 방지 가장 정책이 사용자 대신 설정됩니다. Office 365용 모든 Defender 정책은 백그라운드에서 적용되지 않은 모드로 만들어지며 표시되지 않습니다.
 
 또한 설치의 일부로 평가 모드는 커넥터에 대한 향상된 [필터링을 구성합니다.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) IP 주소 및 보낸 사람 정보를 보존하여 필터링 정확도를 향상시킵니다. 이 정보는 메일이 Office 365용 Defender 앞에 있는 ESG(전자 메일 보안 게이트웨이)를 통과할 때 손실됩니다. 향상된 필터링은 EOP(Exchange Online Protection) 스팸 방지 및 피싱 방지 정책에 대한 필터링 정확도도 향상시킵니다.
 
 일부 미지원 시나리오에 대한 잠재적인 프로덕션 영향을 최소화하기 위해 SCL(스팸 지수)을 -1로 설정하는 전송 규칙을 만들어 모든 EOP 필터링을 무시할 수 있습니다. 자세한 [내용은 EAC를 사용하여 메시지의 SCL을](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message)설정하는 메일 흐름   규칙을 만들 수 있습니다.
 
-평가 모드가 설정되면 정책이 구현된 경우 차단될 메시지를 수량화하는 최대 90일의 데이터로 매일 보고서가 업데이트됩니다(예: 삭제, 정크 메일로 보내기, 정크 메일로 보내기, 정크 메일 보내기). Office 365 및 EOP 검색에 대한 모든 Defender에 대한 보고서가 생성됩니다. 검색 기술(예: 가장)별로 집계되어 시간 범위별로 필터링할 수 있습니다. 또한 요구 시 메시지 보고서를 만들어 사용자 지정 피벗을 만들거나 위협 탐색기를 사용하여 심층 분석 메시지를 만들 수 있습니다.
+평가 모드가 설정되면 정책이 구현된 경우 차단될 메시지를 수량화하는 최대 90일의 데이터로 매일 보고서가 업데이트됩니다(예: 삭제, 정크 메일 보내기, 정크 메일로 보내기, 정크 메일 보내기). Office 365 및 EOP 검색에 대한 모든 Defender에 대한 보고서가 생성됩니다. 검색 기술(예: 가장)별로 집계되어 시간 범위별로 필터링할 수 있습니다. 또한 요구 시 메시지 보고서를 만들어 사용자 지정 피벗을 만들거나 위협 탐색기를 사용하여 심층 분석 메시지를 만들 수 있습니다.
 
 간소화된 설정 환경을 통해 다음에 집중할 수 있습니다.
 
@@ -68,11 +68,11 @@ Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 �
 - Microsoft 365 E5, Microsoft 365 E5 보안
 - Office 365 E5
 
-이러한 라이선스 중 하나가 없는 경우 평가판 라이선스를 얻어야 합니다.
+이러한 라이선스 중 하나만 있는 경우 평가판 라이선스를 얻어야 합니다.
 
 #### <a name="trial"></a>평가판
 
-Office 365용 Microsoft Defender에 대한 평가판 라이선스를  얻습니다. 대금 청구 관리자 역할 또는 전역 관리자 **역할이 필요합니다.** 전역 관리자 역할이 있는 사용자로부터 사용 권한을 요청합니다. [구독 및 라이선스에 대해 자세히](https://docs.microsoft.com/microsoft-365/commerce/licenses/subscriptions-and-licenses)
+Office 365용 Microsoft Defender에 대한 평가판 라이선스를  얻하려면 대금 청구 관리자 역할 또는 전역 관리자 **역할이 필요합니다.** 전역 관리자 역할이 있는 사용자로부터 사용 권한을 요청합니다. [구독 및 라이선스에 대해 자세히](https://docs.microsoft.com/microsoft-365/commerce/licenses/subscriptions-and-licenses)
 
 적절한 역할이 있는 경우 Microsoft 365 관리 센터에서 청구 서비스 구매 서비스로 > Microsoft Defender for Office 365(계획 2)에 대한 평가판 라이선스를 얻는 것이 좋습니다. 평가판에는 25개 라이선스에 대한 30일 무료 평가판이 포함되어 있습니다. [Office 365용 Microsoft Defender 평가판(계획 2)을 다운로드합니다.](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
 
@@ -83,7 +83,7 @@ Office 365용 Microsoft Defender에 대한 평가판 라이선스를  얻습니�
 평가 모드에서 Office 365용 Defender를 설정하려면 Exchange Online 역할이 필요합니다.
 
 - [Exchange Online의 사용 권한에 대해 자세히](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
-- [관리자 역할 할당에 대해 자세히](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles)
+- [관리자 역할 할당에 대해 자세히](../../admin/add-users/assign-admin-roles.md)
 
 다음 역할이 필요합니다.
 
@@ -105,9 +105,9 @@ Office 365용 Microsoft Defender에 대한 평가판 라이선스를  얻습니�
 
 ### <a name="urls"></a>URL
 
-메일 흐름 중에 URL이 확인됩니다. 특정 URL을 검색하지 못하도록 하려는 경우 허용되는 URL 목록을 적절하게 관리합니다. 자세한 [내용은 테넌트 허용/차단 목록](tenant-allow-block-list.md) 관리를 참조하세요.
+메일 흐름 중에 URL이 확인됩니다. 특정 URL을 검색하지 못하도록 하려는 경우 허용된 URL 목록을 적절하게 관리합니다. 자세한 [내용은 테넌트 허용/차단 목록](tenant-allow-block-list.md) 관리를 참조하세요.
 
-전자 메일 메시지 본문의 URL 링크는 줄 바꿈되지 않습니다. 이를 통해 고객 영향을 줄입니다.
+전자 메일 메시지 본문의 URL 링크는 줄 바꿈되지 않습니다. 이를 통해 고객 영향이 줄 바꿈되지 않습니다.
 
 ### <a name="email-routing"></a>전자 메일 라우팅
 

@@ -15,21 +15,21 @@ ms.collection:
 description: Microsoft 정크 메일 보고 추가 기능을 설치 및 사용하여 스팸, 스팸이 아닌 메시지 및 피싱 메시지를 Microsoft에 보고하는 방법을 알아보세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 171bdc43e565a0890cddcd1e48208b49774a5315
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e22a1364e8d7a1447bbcf518cc339a681c57a8af
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167350"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286624"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Microsoft Outlook용 정크 메일 보고 추가 기능 설치 및 사용
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender for Office 365 요금제 1 및 계획 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!NOTE]
 > 현재 정크 메일 보고 추가 기능을 사용하지 않는 경우 대신 보고서 [](enable-the-report-message-add-in.md) 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하는 [것이](enable-the-report-phish-add-in.md) 좋습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
@@ -90,7 +90,7 @@ Microsoft Outlook용 정크 메일 보고 추가 기능을 사용하면 가음�
 
      ![정크 메일 폴더에서 마우스 오른쪽 단추를 클릭하여 정크 메일 또는 피싱 메일 아님 보고](../../media/junk-email-reporting-junk-folder-right-click.png)
 
-   - 여러 메시지를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **보고를** 정크 메일 아님 또는 피싱으로 **보고를 선택합니다.**
+   - 여러 메시지를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **보고를** 정크 메일 아님 또는 피싱으로 **보고로 선택합니다.**
 
      ![정크 메일 폴더에서 마우스 오른쪽 단추를 클릭하여 여러 정크 메일 또는 피싱 전자 메일 메시지 보고](../../media/junk-email-reporting-junk-folder-right-click-multiple.png)
 
@@ -214,9 +214,9 @@ Microsoft에 피싱 메일을 보고하려는 경우 **피싱 메일로 보고**
 
 Outlook을 닫은 후 다음 절차에 따라 정크 메일 보고 추가 기능을 제거합니다.
 
-- **제어판**: Windows 키 + R을 누르는 경우 실행 **대화** 상자가 열리면 입력한 `control appwiz.cpl` 다음 확인을 **클릭합니다.**
+- **제어판:** Windows 키 + R을 누르는 경우 실행 **대화** 상자가 열리면 입력한 `control appwiz.cpl` 다음 확인을 **클릭합니다.**
 
-  목록에서 **Microsoft 정크 메일** 보고 추가 기능을 찾아 선택한 다음 **제거를 클릭합니다.**
+  목록에서 **Microsoft 정크** 메일 보고 추가 기능을 찾아 선택한 다음 **제거를 클릭합니다.**
 
 - **Windows Installer 패키지:** 적절한 .msi 파일을 찾거나 다운로드한 다음 두 번 클릭합니다.
 

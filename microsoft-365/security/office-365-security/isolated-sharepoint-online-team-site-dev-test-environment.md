@@ -8,7 +8,6 @@ manager: laurawi
 ms.date: 12/15/2017
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
@@ -16,16 +15,23 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: '요약: Microsoft 365 개발/테스트 환경의 나머지 조직과 격리된 SharePoint Online 팀 사이트를 구성합니다.'
-ms.openlocfilehash: 6e056cd1d930d13e1ae20f8f8d0cdc9aa886f17e
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 103ba1ddb2b5123db80be91f40c4fce8c6e2eb3d
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616491"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286612"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>격리된 SharePoint Online 팀 사이트 개발/테스트 환경
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+**적용 대상**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Microsoft Defender for Office 365 요금제 1](office-365-atp.md)
+- SharePoint Online 
 
 
  **요약:** Microsoft 365 개발/테스트 환경의 나머지 조직과 격리된 SharePoint Online 팀 사이트를 구성합니다.
@@ -57,16 +63,16 @@ Microsoft 365 개발/테스트 환경에서 격리된 SharePoint Online 팀 사�
 
 ## <a name="phase-1-build-out-your-lightweight-or-simulated-enterprise-microsoft-365-devtest-environment"></a>1단계: 경량 또는 시뮬레이트된 엔터프라이즈 Microsoft 365 개발/테스트 환경 구축
 
-최소 요구 사항을 사용하여 격리된 SharePoint Online 팀 사이트를 경량 방식으로 만들하려는 경우 간단한 기본 구성의 2, 3단계의 지침을 [따릅니다.](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)
+최소 요구 사항을 사용하여 격리된 SharePoint Online 팀 사이트를 경량 방식으로 만들하려는 경우 간단한 기본 구성의 2, 3단계의 지침을 [따릅니다.](../../enterprise/lightweight-base-configuration-microsoft-365-enterprise.md)
 
-시뮬레이트된 엔터프라이즈 구성에서 격리된 SharePoint Online 팀 사이트를 만들하려면 [Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/password-hash-sync-m365-ent-test-environment)테스트 환경에 대한 암호 해시 동기화의 지침을 따릅니다.
+시뮬레이트된 엔터프라이즈 구성에서 격리된 SharePoint Online 팀 사이트를 만들하려면 [Microsoft 365](../../enterprise/password-hash-sync-m365-ent-test-environment.md)테스트 환경에 대한 암호 해시 동기화의 지침을 따릅니다.
 
 > [!NOTE]
 > 격리된 SharePoint Online 사이트를 만들 필요는 없습니다. 여기에는 시뮬레이트된 엔터프라이즈 개발/테스트 환경이 필요하지 않습니다. 여기에는 인터넷에 연결된 시뮬레이트된 인트라넷과 AD DS(Active Directory 도메인 서비스) 포리스트에 대한 디렉터리 동기화가 포함됩니다. 여기서는 격리된 SharePoint Online 사이트를 테스트하고 일반적인 조직을 나타내는 환경에서 실험할 수 있도록 옵션으로 제공됩니다.
 
 ## <a name="phase-2-create-user-accounts-and-access-groups"></a>2단계: 사용자 계정 및 액세스 그룹 만들기
 
-[Office 365 PowerShell에 연결의](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell) 지침을 사용하여 전역 관리자 계정으로 평가판 구독에 연결합니다.
+[Office 365 PowerShell에 연결의](../../enterprise/connect-to-microsoft-365-powershell.md) 지침을 사용하여 전역 관리자 계정으로 평가판 구독에 연결합니다.
 
 - 컴퓨터(경량 Microsoft 365 개발/테스트 환경용)
 
@@ -287,10 +293,10 @@ ProjectX에 대한 SharePoint Online 팀 사이트를 만들 경우 다음을 �
 
 [격리된 SharePoint Online 팀 사이트](isolated-sharepoint-online-team-sites.md)
 
-[클라우드 도입 TLG(테스트 랩 가이드)](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[클라우드 도입 TLG(테스트 랩 가이드)](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
-[시뮬레이트된 엔터프라이즈 기본 구성](https://docs.microsoft.com/microsoft-365/enterprise/simulated-ent-base-configuration-microsoft-365-enterprise)
+[시뮬레이트된 엔터프라이즈 기본 구성](../../enterprise/simulated-ent-base-configuration-microsoft-365-enterprise.md)
 
-[간단한 기본 구성](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)
+[간단한 기본 구성](../../enterprise/lightweight-base-configuration-microsoft-365-enterprise.md)
 
-[클라우드 도입 및 하이브리드 솔루션](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
+[Microsoft 365 솔루션 및 아키텍처 센터](../../solutions/index.yml)

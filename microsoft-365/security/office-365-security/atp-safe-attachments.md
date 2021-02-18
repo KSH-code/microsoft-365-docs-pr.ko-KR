@@ -20,20 +20,20 @@ ms.collection:
 description: 관리자는 Office 365용 Microsoft Defender의 안전 첨부 파일 기능에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5d2d348856dbd51cabe2b320d315406076921fee
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: f0d7028f33e7a9259d12930631f259ae1cedc4fe
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261540"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287032"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 안전한 첨부 파일
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 [Microsoft Defender for Office 365의](office-365-atp.md) 안전한 첨부 파일은 [EOP(Exchange Online](anti-malware-protection.md)Protection)에서 맬웨어 방지 보호 기능으로 이미 검사된 전자 메일 첨부 파일에 대한 추가 보호 계층을 제공합니다. 특히 안전한 첨부 파일은 가상 환경을 사용하여 받는 사람에게 배달되기 전에 전자 메일 메시지의 첨부 파일을 _검사합니다(발신_ 프로세스).
 

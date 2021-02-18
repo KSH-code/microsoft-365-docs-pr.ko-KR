@@ -20,21 +20,21 @@ search.appverid:
 description: Microsoft 365에서 제공하는 도구를 사용하여 손상된 전자 메일 계정을 인식하고 대처하는 방법에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a34780b260a6e4bbc2d8b3f53af6b67de04fbdcd
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1bbd607386b49b45ebd7444c4a91d05e4cee475b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166666"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288612"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>손상된 전자 메일 계정에 응답
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Exchange Online Protection](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 **요약** Microsoft 365에서 손상된 전자 메일 계정을 인식하고 응답하는 방법에 대해 알아봅니다.
 
@@ -90,7 +90,7 @@ Microsoft 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 �
 
 ### <a name="step-1-reset-the-users-password"></a>1단계 사용자의 암호 재설정하기
 
-[다른 사람을 위해 비즈니스 암호 재설정하기](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords#reset-my-admin-password)의 절차를 따르세요. 
+[다른 사람을 위해 비즈니스 암호 재설정하기](../../admin/add-users/reset-passwords.md#reset-my-admin-password)의 절차를 따르세요. 
 
 > [!IMPORTANT]
 >
@@ -104,7 +104,7 @@ Microsoft 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 �
 >
 > - 앱 암호를 업데이트해야 합니다. 사용자 계정 암호가 재설정되어도 앱 암호가 자동으로 취소되지 않습니다. 사용자가 직접 기존 앱 암호를 삭제하고 새 암호를 만들어야 합니다. 자세한 내용은 [추가 보안 확인 페이지에서 앱 암호 만들기 및 삭제](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page)를 참조하세요.
 >
-> - 특히 관리자 권한이있는 계정의 경우에는 손상 방지를 위해 MFA(다중 요소 인증)를 사용하는 것이 좋습니다. MFA에 대한 자세한 내용은 [다단계 인증 설정하기로](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication) 이동하세요.
+> - 특히 관리자 권한이있는 계정의 경우에는 손상 방지를 위해 MFA(다중 요소 인증)를 사용하는 것이 좋습니다. MFA에 대한 자세한 내용은 [다단계 인증 설정하기로](../../admin/security-and-compliance/set-up-multi-factor-authentication.md) 이동하세요.
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>2단계 의심스러운 메일 전달 주소 제거하기
 
