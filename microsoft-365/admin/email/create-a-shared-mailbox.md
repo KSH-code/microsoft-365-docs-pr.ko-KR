@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: 공유 사서함을 만들어 회사의 여러 사용자가 하나의 주소로 전송된 전자 메일을 읽고 답장하는 업무를 나눌 수 있습니다.
-ms.openlocfilehash: d0bd5770f347766638af0f0e66b9f961b3721697
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: d71e33aa0a04bd52f707038ac31e98bef68f27b0
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926597"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287236"
 ---
 # <a name="create-a-shared-mailbox"></a>공유 사서함 만들기 
 
@@ -81,6 +81,30 @@ ms.locfileid: "49926597"
 7. **닫기** 를 선택합니다.
 
 공유 일정이 포함된 공유 사서함을 만들었습니다. 이제 다음 단계인 공유 사서함 계정에 대한 로그인 차단으로 넘어갑니다.
+
+## <a name="which-permissions-should-you-use"></a>사용해야 하는 권한
+
+공유 사서함에서 다음 사용 권한을 사용할 수 있습니다.
+
+- **모든 액세스 권한**: 모든 권한이 있는 사용자는 공유 사서함을 열어 해당 사서함의 소유자로서 작업할 수 있습니다. 공유 사서함에 액세스한 후 사용자는 일정 항목을 만들고, 전자 메일 메시지를 읽고, 보고, 삭제하고, 변경하고, 작업 및 일정 연락처를 만들 수 있습니다. 그러나 모든 권한을 가진 사용자라도 다른 사람 이름으로 보내기 또는 대신 보내기 사용 권한이 없으면 공유 사서함에서 전자 메일을 보낼 수 없습니다.
+
+- **다른 사람 이름으로 보내기**: 다른 사람 이름으로 보내기 사용 권한을 부여하면 사용자가 전자 메일을 보낼 때 공유 사서함인 것처럼 보이게 할 수 있습니다. 예를 들어 Katerina가 마케팅 부서의 공유 사서함에 로그인하여 전자 메일을 보낸 경우에는 마케팅 부서에서 전자 메일을 보낸 것으로 보입니다.
+
+- **대신 보내기**: 대신 보내기 권한이 있는 사용자는 공유 사서함 대신 전자 메일을 보낼 수 있습니다. 예를 들면 John이 Reception Building 32 공유 사서함에 로그인하여 이메일을 보내면, "Reception Building 32 대신 John"이 보낸 것처럼 메일이 표시됩니다. EAC를 사용하여 대신 보내기 사용 권한을 부여할 수는 없습니다. 대신 보내기 사용 권한을 부여하려면 **Set-Mailbox** cmdlet을 _GrantSendonBehalf_ 매개 변수와 함께 사용해야 합니다.
+
+### <a name="use-the-eac-to-edit-shared-mailbox-delegation"></a>EAC를 사용하여 공유 사서함 위임 편집
+
+1. EAC에서 **받는 사람** > \>**공유** 이동합니다. 공유 사서함을 선택한 다음 **편집** ![편집 아이콘](../../media/ITPro-EAC-EditIcon.png)을 선택합니다.
+
+2. **사서함 위임** 을 선택합니다.
+
+3. 모든 권한 및 다른 사람 권한을 부여하거나 제거하려면 **아이콘** ![아이콘 추가](../../media/ITPro-EAC-AddIcon.png) 또는 **제거** ![아이콘 제거](../../media/ITPro-EAC-RemoveIcon.gif)를 선택한 다음 사용 권한을 부여할 사용자를 선택합니다.
+
+   > [!NOTE]
+   > 모든 액세스 권한을 사용하면 사서함을 열 수 있을 뿐만 아니라 사서함에서 항목을 만들고 수정할 수 있습니다. 다른 사람 이름으로 보내기 권한을 사용하면 사서함 소유자가 아닌 사용자가 공유 사서함에서 전자 메일을 보낼 수 있습니다. 두 권한 모두 공유 사서함 작업에 필요합니다.
+
+4. 변경 내용을 저장하려면 **저장** 을 선택합니다.
+
 
 ## <a name="block-sign-in-for-the-shared-mailbox-account"></a>공유 사서함 계정에 대한 로그인 차단
 
@@ -185,8 +209,5 @@ Outlook의 공유 사서함에 대한 자세한 내용은 다음을 참조하세
 [공유 사서함에서 라이선스 제거](remove-license-from-shared-mailbox.md)
 
 [공유 사서함의 문제 해결](resolve-issues-with-shared-mailboxes.md)
-
-
-
 
 
