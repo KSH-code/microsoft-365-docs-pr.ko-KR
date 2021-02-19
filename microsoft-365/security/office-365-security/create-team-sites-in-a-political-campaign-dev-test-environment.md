@@ -19,12 +19,12 @@ ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: '요약: 정치적 캠페인 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1f3488b479b4d37b7e38e4ced0d612e8fb5ae8a0
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1c12970fb3ff6d5616201ff153085d411068d11c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165478"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288398"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기
 
@@ -32,7 +32,7 @@ ms.locfileid: "50165478"
 
 **적용 대상**
 
-- [Office 365용 Microsoft Defender 플랜 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Office 365용 Microsoft Defender 플랜 2](office-365-atp.md)
 - 
  **요약:** 정치적 캠페인 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다. 
    
@@ -424,6 +424,6 @@ Azure Information Protection 및 이 새로운 레이블을 사용하여 문서�
 
 [정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성](configure-groups-and-users-for-a-political-campaign-dev-test-environment.md)
 
-[클라우드 도입 TLG(테스트 랩 가이드)](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[클라우드 도입 TLG(테스트 랩 가이드)](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
-[클라우드 도입 및 하이브리드 솔루션](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
+[Microsoft 365 솔루션 및 아키텍처 센터](../../solutions/index.yml)

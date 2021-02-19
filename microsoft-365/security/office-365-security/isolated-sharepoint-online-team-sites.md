@@ -8,7 +8,6 @@ manager: laurawi
 ms.date: 12/15/2017
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - Ent_O365
@@ -18,17 +17,23 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 71250a04-fd2d-4c3c-a32b-b8a838b19a54
 description: 사용, 요구 사항, 사용할 수 있는 기능을 포함하여 격리된 SharePoint Online 팀 사이트에 대해 알아봅니다.
-ms.openlocfilehash: 55bdf2999610310babb60b6938afb97732e5a7a0
-ms.sourcegitcommit: 89097fb648987567b9493b9d94c85c5990562874
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 056c6f2a463d38dd27b26d484995280dddedf436
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49845094"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286588"
 ---
 # <a name="isolated-sharepoint-online-team-sites"></a>격리된 SharePoint Online 팀 사이트
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**적용 대상**
+- [Exchange Online Protection](exchange-online-protection-overview.md)
+- [Office 365용 Microsoft Defender 플랜 1](office-365-atp.md)
+- SharePoint Online 
 
  **요약:** 격리된 SharePoint Online 팀 사이트의 용도에 대해 알아봅니다.
 
