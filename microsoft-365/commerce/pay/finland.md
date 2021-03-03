@@ -1,8 +1,8 @@
 ---
 title: 핀란드의 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
+author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
 audience: Admin
@@ -11,26 +11,35 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 구독에 대한 결제를 보낼 수 있는 위치를 자세히 알아보아야 합니다.
+description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ce84cb49d0b120b50fba27980e9b061ac81f6290
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: cdcc7508ffb0974a5c6ef5105c09521af5f62116
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647654"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406959"
 ---
-# <a name="payment-information-for-finland"></a><span data-ttu-id="8f0dc-103">핀란드의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="8f0dc-103">Payment information for Finland</span></span>
+# <a name="payment-information-for-finland"></a><span data-ttu-id="5249e-103">핀란드의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="5249e-103">Payment information for Finland</span></span>
 
-<span data-ttu-id="8f0dc-104">[다른 국가 또는 지역을 찾을 수 있습니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="8f0dc-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="5249e-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="5249e-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="8f0dc-105">EUR로만 결제하고 송장 번호를 송장 번호로 송금합니다.</span><span class="sxs-lookup"><span data-stu-id="8f0dc-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="5249e-105">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="5249e-105">Electronic Funds Transfer</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="8f0dc-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="8f0dc-106">Electronic Funds Transfer</span></span>
+<span data-ttu-id="5249e-106">**EUR로 결제하고 송장 번호를 송장 번호로 송금합니다.**</span><span class="sxs-lookup"><span data-stu-id="5249e-106">**Please pay in EUR and reference invoice number(s) on your payment remittance.**</span></span>
 
-<span data-ttu-id="8f0dc-107">**은행:** Citibank, London</span><span class="sxs-lookup"><span data-stu-id="8f0dc-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="8f0dc-108">**SWIFT 코드/BIC:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="8f0dc-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
-<span data-ttu-id="8f0dc-109">**IBAN:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="8f0dc-109">**IBAN:** GB31CITI18500812207591</span></span>  
-<span data-ttu-id="8f0dc-110">**SORT 코드:** 185008</span><span class="sxs-lookup"><span data-stu-id="8f0dc-110">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="8f0dc-111">**계정 번호:** 12207591</span><span class="sxs-lookup"><span data-stu-id="8f0dc-111">**Account Number:** 12207591</span></span>  
-<span data-ttu-id="8f0dc-112">**계정 이름:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="8f0dc-112">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="5249e-107">**Microsoft Ireland Operations Limited에서** 청구한 송장이 있는 경우 다음 은행 정보를 사용하세요.</span><span class="sxs-lookup"><span data-stu-id="5249e-107">If you have an invoice billed by **Microsoft Ireland Operations Limited**, use this bank information:</span></span>
+
+<span data-ttu-id="5249e-108">은행: Citibank, London</span><span class="sxs-lookup"><span data-stu-id="5249e-108">Bank: Citibank, London</span></span>\
+<span data-ttu-id="5249e-109">SWIFT 코드: CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="5249e-109">SWIFT Code: CITIGB2L</span></span>\
+<span data-ttu-id="5249e-110">IBAN 코드: GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="5249e-110">IBAN Code: GB31CITI18500812207591</span></span>\
+<span data-ttu-id="5249e-111">계정 번호: 12207591</span><span class="sxs-lookup"><span data-stu-id="5249e-111">Account Number: 12207591</span></span>\
+<span data-ttu-id="5249e-112">계정 이름: MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="5249e-112">Account Name: MICROSOFT</span></span>
+
+<span data-ttu-id="5249e-113">2021년 3월 1일부터 주문 및 소비를 위해 **Microsoft Oy에서** 청구한 송장이 있는 경우 다음 은행 정보를 사용하세요.</span><span class="sxs-lookup"><span data-stu-id="5249e-113">If you have an invoice billed by **Microsoft Oy** for orders and consumption starting March 1, 2021, use this bank information:</span></span>
+
+<span data-ttu-id="5249e-114">은행: Citibank Europe plc</span><span class="sxs-lookup"><span data-stu-id="5249e-114">Bank: Citibank Europe plc</span></span>\
+<span data-ttu-id="5249e-115">SWIFT 코드: CITIIE2X</span><span class="sxs-lookup"><span data-stu-id="5249e-115">SWIFT Code: CITIIE2X</span></span>\
+<span data-ttu-id="5249e-116">IBAN 코드: IE97CITI99005170000127</span><span class="sxs-lookup"><span data-stu-id="5249e-116">IBAN Code: IE97CITI99005170000127</span></span>\
+<span data-ttu-id="5249e-117">계정 번호: 70000127</span><span class="sxs-lookup"><span data-stu-id="5249e-117">Account Number: 70000127</span></span>\
+<span data-ttu-id="5249e-118">계정 이름: MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="5249e-118">Account Name: MICROSOFT</span></span>
