@@ -20,12 +20,12 @@ search.appverid:
 description: Microsoft 365에서 제공하는 도구를 사용하여 손상된 전자 메일 계정을 인식하고 대처하는 방법에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1bbd607386b49b45ebd7444c4a91d05e4cee475b
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 5dfb40c195cb9df9c8f2ac5d1cfbacdda022d416
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288612"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406727"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>손상된 전자 메일 계정에 응답
 
@@ -204,7 +204,7 @@ Microsoft 365 구독에는 데이터 및 사용자를 보호하는 데 사용할
 
 - [Microsoft 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성](detect-and-remediate-outlook-rules-forms-attack.md)
 
-- [인터넷 범죄 불만 센터](https://www.ic3.gov/preventiontips.aspx)
+- [인터넷 범죄 불만 센터](https://www.ic3.gov/Home/Ransomware)
 
 - [증권 거래 위원회 - “피싱” 사기](https://www.sec.gov/investor/pubs/phishing.htm)
 

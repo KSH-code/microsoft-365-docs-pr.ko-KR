@@ -16,15 +16,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 EOP(Exchange Online Protection)의 모든 사용자에 대해 고지된 메시지를 보고 관리하는 방법을 배울 수 있습니다. Office 365용 Microsoft Defender를 가진 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams에서 분리된 파일을 관리할 수도 있습니다.
+description: 관리자는 EOP(Exchange Online Protection)의 모든 사용자에 대해 분리된 메시지를 보고 관리하는 방법을 배울 수 있습니다. Office 365용 Microsoft Defender를 사용하여 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams에서 분리된 파일을 관리할 수도 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 22bcf0cefb746e92ccadf8254f4076b47ee475c4
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: b0515d610b38986c2b5339c1cb967a7b150914a2
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287788"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50405821"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
@@ -35,13 +35,13 @@ ms.locfileid: "50287788"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에서 격리는 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [EOP에서 Quarantined 전자 메일 메시지를 참조하세요.](quarantine-email-messages.md)
+Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에서 격리는 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [EOP에서 Quarantined email messages를 참조하세요.](quarantine-email-messages.md)
 
-관리자는 모든 사용자에 대해 모든 유형의 메시지를 보고, 해제하고, 삭제할 수 있습니다. 관리자만 맬웨어, 높은 신뢰도 피싱 또는 메일 흐름 규칙(전송 규칙)의 결과로 고지된 메시지를 관리할 수 있습니다. 관리자는 Microsoft에 가짓 긍정을 보고할 수도 있습니다.
+관리자는 모든 사용자에 대해 모든 유형의 메시지를 보고, 해제하고, 삭제할 수 있습니다. 관리자만 맬웨어, 높은 신뢰도 피싱 또는 메일 흐름 규칙(전송 규칙)의 결과로 고지된 메시지를 관리할 수 있습니다. 관리자는 Microsoft에 가의성도 보고할 수 있습니다.
 
-Office 365용 Microsoft Defender가 있는 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams에서 분리된 파일을 보고, 다운로드하고, 삭제할 수도 있습니다.
+Office 365용 Microsoft Defender를 사용하여 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams에서 분리된 파일을 보고, 다운로드하고, 삭제할 수도 있습니다.
 
-보안 & 준수 센터 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell)에서 각기 다른 메시지를 보고 관리합니다.
+보안 & 준수 센터 또는 PowerShell(Exchange Online에 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell)에서 분리된 메시지를 보고 관리합니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
@@ -49,28 +49,28 @@ Office 365용 Microsoft Defender가 있는 조직의 관리자는 SharePoint Onl
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
-- 이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 받아야 합니다.
-  - 모든 사용자에 대해 분리된 메시지에 대해 작업을 수행하려면 조직 **관리,** 보안 관리자 또는 **Quarantine Administrator** 역할 그룹의 <sup>\*</sup> 구성원이면 됩니다.
-  - 모든 사용자에 대해 읽기 전용으로 전송된 메시지에 액세스하려면 전역 읽기  또는 보안 읽기 권한이 있는 역할 그룹의 구성원이 **되거나,**
+- 이 문서의 절차를 수행하려면 **먼저 Exchange Online에서** 사용 권한을 할당해야 합니다.
+  - 모든 사용자에 대해 검역된 메시지에 대해 작업을 수행하려면 조직 **관리,** 보안 관리자 또는 **Quarantine Administrator** 역할 그룹의 <sup>\*</sup> 구성원일 수 있습니다.
+  - 모든 사용자에 대해 정식으로 전송된 메시지에 대한 읽기 전용 액세스의  경우 전역 읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이면** 됩니다.
 
-  자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+  자세한 내용은 [Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)을 참조하세요.
 
-  **참고**:
+  **참고:**
 
-  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안 및 준수 센터에서 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+  - Microsoft 365 관리 센터에서 해당 Azure Active Directory 역할에 사용자를  추가하면 Microsoft 365의 다른 기능에 필요한 사용 권한 및 사용 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
   - <sup>\*</sup>Exchange Online PowerShell에서 절차를 수행하려면 **Quarantine Administrator** 역할 그룹의 구성원도 [Exchange Online의](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) **Hygiene Management** 역할 그룹의 구성원이 해야 합니다.
 
 - Quarantined messages are retained for a default period of time before they're automatically deleted:
-  - 스팸 방지 정책(스팸, 피싱 및 대량 전자 메일)으로 차단된 메시지의 경우 30일 이 값은 기본값 및 최대값입니다. 이 값을 구성(더 낮음)하도록 설정하는 내용은 [스팸 방지 정책 구성을 참조합니다.](configure-your-spam-filter-policies.md)
+  - 스팸 방지 정책(스팸, 피싱 및 대량 전자 메일)으로 차단된 메시지에 대해 30일 이 값은 기본값 및 최대값입니다. 이 값을 구성(더 낮음)으로 설정하는 내용은 스팸 방지 정책 [구성을 참조합니다.](configure-your-spam-filter-policies.md)
   - 맬웨어가 포함된 메시지의 경우 15일
-  - Office 365용 Defender의 SharePoint, OneDrive 및 Microsoft Teams에 대해 안전한 첨부 파일로 검색된 파일의 경우 15일
+  - Office 365용 Defender의 SharePoint, OneDrive 및 Microsoft Teams에 대한 안전한 첨부 파일로 15일간의 파일
 
   메시지가 검지에서 만료되면 복구할 수 없습니다.
 
 ## <a name="use-the-security--compliance-center-to-manage-quarantined-email-messages"></a>보안 및 & 센터를 사용하여 고지된 전자 메일 메시지 관리
 
-### <a name="view-quarantined-email"></a>에 대 한 전자 메일 보기
+### <a name="view-quarantined-email"></a>quarantined email 보기
 
 1. 보안 및 준수 센터에서 **위협 관리** \> **검토** \> **격리** 로 이동합니다.
 
@@ -106,7 +106,7 @@ Office 365용 Microsoft Defender가 있는 조직의 관리자는 SharePoint Onl
    - **격리 이유**:
      - **정책:** 메시지가 메일 흐름 규칙의 조건과 일치합니다(전송 규칙).
      - **대량 전자 메일**
-     - **피싱**: 스팸 필터  판정이 메시지(스푸핑 설정 또는 가장 보호)를 통해 스팸 전자 메일 또는 피싱 방지 보호를 통해 [확인되었습니다.](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)[](set-up-anti-phishing-policies.md#spoof-settings)
+     - **피싱:** 스팸 필터 판정이 피싱 전자 메일 또는 피싱 방지 보호 [](set-up-anti-phishing-policies.md#spoof-settings) 기능으로 메시지(스푸핑 설정 또는 가장 보호)를 통해 [확인되었습니다.](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) 
      - **맬웨어**
      - **스팸**
      - **높은 신뢰도 피싱**
@@ -118,7 +118,7 @@ Office 365용 Microsoft Defender가 있는 조직의 관리자는 SharePoint Onl
      - **호스트된 필터 정책**(스팸 방지 정책)
      - **전송 규칙**
 
-   - **전자 메일 받는** 사람: 모든 사용자 또는 사용자에게 보낸 메시지만 최종 사용자는 해당 메시지에 전송된 메시지만 관리할 수 있습니다.
+   - **전자 메일 받는** 사람: 모든 사용자 또는 사용자에게 보낸 메시지만 최종 사용자는 해당 사용자에게 전송된 분리된 메시지만 관리할 수 있습니다.
 
    필터를 지우려면 **지우기** 를 클릭합니다. 필터 플라이아웃을 숨기려면 다시 **필터** 를 클릭합니다.
 
@@ -126,7 +126,7 @@ Office 365용 Microsoft Defender가 있는 조직의 관리자는 SharePoint Onl
 
    - **메시지 ID**: 메시지의 GUID(Globally Unique Identifier)입니다.
 
-     예를 들어 메시지 [](message-trace-scc.md) 추적을 사용하여 조직의 사용자에게 전송된 메시지를 찾아 메시지가 배달되지 않고 2016년 6월에 중단된 것으로 확인했습니다. 괄호()를 포함할 수 있는 전체 메시지 ID 값을 포함해야 \<\> 합니다. 예를 들면 다음과 `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>` 같습니다.
+     예를 들어 메시지 [](message-trace-scc.md) 추적을 사용하여 조직의 사용자에게 전송된 메시지를 찾아 메시지가 배달된 것이 아니라 메시지에 대해 중단된 것으로 확인한 경우를 예로 들 수 있습니다. 괄호( )를 포함할 수 있는 전체 메시지 ID 값을 포함해야 \<\> 합니다. 예: `<79239079-d95a-483a-aacf-e954f592a0f6@XYZPR00BM0200.contoso.com>` .
 
    - **보낸 사람 전자 메일 주소**: 보낸 사람 한 명의 전자 메일 주소입니다.
 
@@ -136,7 +136,7 @@ Office 365용 Microsoft Defender가 있는 조직의 관리자는 SharePoint Onl
 
    - **제목**: 메시지의 전체 제목을 사용합니다. 검색은 대/소문자를 구분하지 않습니다.
 
-   - **정책 이름:** 메시지를 대리하는 정책의 이름입니다.
+   - **정책 이름:** 메시지를 대리한 정책의 이름입니다.
 
    검색 조건을 입력한 후 ![새로 고침 단추](../../media/scc-quarantine-refresh.png) **새로 고침** 을 클릭하여 결과를 필터링합니다.
 
@@ -154,7 +154,7 @@ Office 365용 Microsoft Defender가 있는 조직의 관리자는 SharePoint Onl
 
 - **제목**
 
-- **Quarantine reason**: 메시지가 스팸, 대량, 피싱, 메일 흐름 규칙(전송 규칙)에 일치했거나 맬웨어가 포함된 것으로 식별된 경우를 **보여줍니다.** 
+- **Quarantine reason:** 메시지가 **스팸,** 대량,  **피싱,** 메일 흐름 **규칙(전송** 규칙)과 일치했거나 맬웨어가 포함된 것으로 확인된 **경우를 보여 주며,**
 
 - **받는 사람 수**
 
@@ -168,16 +168,16 @@ Office 365용 Microsoft Defender가 있는 조직의 관리자는 SharePoint Onl
 
 ### <a name="take-action-on-quarantined-email"></a>격리된 전자 메일에 대한 작업 수행하기
 
-메시지를 선택한 후 세부 정보 플라이아웃 창에서 메시지에  대해 어떤 작업을 할지 선택할 수 있습니다.
+메시지를 선택한 후 세부 정보 플라이아웃 창에서 메시지로  할 작업을 위한 몇 가지 옵션이 있습니다.
 
 - **릴리스 메시지:** 나타나는 플라이아웃 창에서 다음 옵션을 선택합니다.
 
-  - **분석을 위해 Microsoft에** 메시지 보고 : 이 설정은 기본적으로 선택되어 있으며, Microsoft에 잘못된 긍정으로 보고합니다. 메시지가 스팸, 대량, 피싱 또는 맬웨어를 포함하는 것으로 확인된 경우 메시지도 Microsoft 스팸 분석 팀에 보고됩니다. 분석에 따라 메시지 통과를 허용하도록 서비스 전체 스팸 필터 규칙이 조정될 수 있습니다.
+  - **분석을 위해 Microsoft에** 메시지 보고: 이 설정은 기본적으로 선택되어 있으며, 잘못된 메시지는 오판정으로 Microsoft에 보고합니다. 메시지가 스팸, 대량, 피싱 또는 맬웨어를 포함하는 것으로 확인된 경우 메시지도 Microsoft 스팸 분석 팀에 보고됩니다. 분석에 따라 메시지 통과를 허용하도록 서비스 전체 스팸 필터 규칙이 조정될 수 있습니다.
 
   - 다음 옵션 중 하나를 선택합니다.
     - **모든 받는 사람에게 메시지 릴리스**
     - **특정 받는 사람에게 메시지 릴리스**
-    - **다른 사람에게** 메시지 릴리스: 원래 받는 사람이 아닌 다른 사람에게 맬웨어 메시지를 릴리스하는 것은 지원되지 않습니다.
+    - **다른 사람에게** 메시지 릴리스: 원래 받는 사람이 아닌 다른 사람에게 맬웨어 메시지를 릴리스할 수 없습니다.
 
   작업을 마쳤으면 **메시지 해제** 를 클릭합니다.
 
@@ -193,19 +193,19 @@ Office 365용 Microsoft Defender가 있는 조직의 관리자는 SharePoint Onl
   - **원본 보기**: 모든 링크를 사용하지 않도록 설정한 HTML 버전의 메시지 본문을 표시합니다.
   - **텍스트 보기**: 일반 텍스트로 메시지 본문을 표시합니다.
 
-- **Quarantine에서** 제거: 나타나는 경고에서 **예를** 클릭하면 메시지가 원래 받는 사람에게 전송되지 않고 즉시 삭제됩니다.
+- **분리에서** 제거: 나타나는 경고에서 **예를** 클릭하면 메시지가 원래 받는 사람에게 전송되지 않고 즉시 삭제됩니다.
 
 - **메시지 다운로드하기**: 표시되는 플라이아웃 창에서 **이 메시지를 다운로드하는 데 따르는 위험을 알고 있습니다.** 를 선택하여 메시지의 로컬 복사본을 .eml 형식으로 저장합니다.
 
-- **메시지 전송:** 나타나는 플라이아웃 창에서 다음 옵션을 선택합니다.
+- **메시지 제출:** 플라이아웃 창이 나타나면 다음 옵션을 선택합니다.
 
-  - **개체 유형:** **전자 메일(기본값),** **URL** 또는 첨부 **파일.**
+  - **개체 유형:** **전자 메일(기본값),** **URL** 또는 첨부 **파일입니다.**
 
-  - **전송 형식:** **네트워크 메시지** ID(기본값, 네트워크 메시지 **ID** 상자에 해당 값 사용) 또는 **파일(로컬** .eml 또는 .msg 파일 찾아보기)입니다. 파일을 선택한 **다음** 네트워크 메시지 **ID를** 선택하면 초기 값이 사라집니다.
+  - **전송 형식:** **네트워크 메시지** ID(기본값, 네트워크 메시지 **ID** 상자에 해당 값 사용) 또는 **파일(로컬** .eml 또는 .msg 파일 찾아보기)입니다. 파일을 **선택한** 다음 네트워크 메시지 **ID를** 선택하면 초기 값이 사라집니다.
 
-  - **받는 사람:** 메시지를 원래 받는 사람 한 명을 임대할 때 입력하거나 모두 선택을 클릭하여 모든 받는 사람을 식별합니다.  모두 선택을 **클릭한** 다음 개별 받는 사람을 선택적으로 제거할 수도 있습니다.
+  - **받는 사람:** 메시지를 받는 사람 한 명을  임대할 때 입력하거나 모두 선택을 클릭하여 모든 받는 사람을 식별합니다. 모두 선택을 **클릭한** 다음 개별 받는 사람을 선택적으로 제거할 수도 있습니다.
 
-  - **제출 사유:** **차단되지** 않은 경우(기본값) 또는 **차단된 것입니다.**
+  - **제출 사유:** **차단되지** 않은 경우(기본값) 또는 **차단된 을(를) 차단해야 합니다.**
 
   완료되면 제출을 **클릭합니다.**
 
@@ -218,26 +218,26 @@ Office 365용 Microsoft Defender가 있는 조직의 관리자는 SharePoint Onl
 - **메시지 해제하기**:이 옵션은 **특정 받는사람에게 메시지 해제하기** 를 선택할 수 없는 점을 제외하고 메시지를 하나만 해제할 때와 동일합니다. **모든 받는 사람에게 메시지 해제하기** 또는 **다른 사람에게 메시지 해제하기** 만 선택할 수 있습니다.
 
   > [!NOTE]
-  > 다음 시나리오를 고려합니다. john@gmail.com 메시지는 faith@contoso.com john@subsidiary.contoso.com. Gmail은 이 메시지를 Microsoft에서 피싱으로 두 개의 복사본으로 이중으로 처리합니다. 관리자는 이러한 두 메시지를 모두 해제하여 admin@contoso.com. 관리자 사서함에 도달하는 첫 번째 릴리스된 메시지가 배달됩니다. 두 번째 릴리스된 메시지는 중복 배달으로 식별되어 건너뜁니다. 메시지 ID가 같고 받은 시간이 같은 경우 메시지가 중복된 것으로 식별됩니다.
+  > 다음 시나리오를 고려합니다. john@gmail.com 메시지를 faith@contoso.com john@subsidiary.contoso.com. Gmail은 이 메시지를 Microsoft에서 피싱으로 모두 검역으로 라우팅된 두 개의 복사본으로 쌍으로 처리합니다. 관리자는 이러한 두 메시지를 모두 릴리스하여 admin@contoso.com. 관리자 사서함에 도달하는 첫 번째 릴리스된 메시지가 배달됩니다. 두 번째 릴리스된 메시지는 중복 배달으로 식별되어 건너뜁니다. 메시지는 동일한 메시지 ID와 수신 시간이 있는 경우 중복 항목으로 식별됩니다.
 
 - **메시지 삭제:** 나타나는 경고에서 **예를** 클릭하면 메시지가 원래 받는 사람에게 전송되지 않고 즉시 삭제됩니다.
 
 작업을 마쳤으면 **닫기** 를 클릭합니다.
 
-## <a name="microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files"></a>Microsoft Defender for Office 365만 해당: 보안 & 준수 센터를 사용하여 분리된 파일 관리
+## <a name="microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files"></a>Office 365용 Microsoft Defender만: 보안 & 준수 센터를 사용하여 분리된 파일 관리
 
 > [!NOTE]
-> 이 섹션의 각 파일에 대한 절차는 Office 365 계획 1 및 계획 2 구독자용 Microsoft Defender에서만 사용할 수 있습니다.
+> 이 섹션의 quarantined files에 대한 절차는 Microsoft Defender for Office 365 계획 1 및 계획 2 구독자만 사용할 수 있습니다.
 
-Office 365용 Defender가 있는 조직에서 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams에서 분리된 파일을 관리할 수 있습니다. 이러한 파일에 대한 보호를 사용하도록 설정하려면 [SharePoint, OneDrive](turn-on-atp-for-spo-odb-and-teams.md)및 Microsoft Teams에 대한 안전한 첨부 파일 켜기를 참조합니다.
+Office 365용 Defender가 있는 조직에서 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams에서 분리된 파일을 관리할 수 있습니다. 이러한 파일에 대한 보호를 사용하도록 설정하려면 [SharePoint, OneDrive](turn-on-atp-for-spo-odb-and-teams.md)및 Microsoft Teams에 대한 안전한 첨부 파일 설정을 참조합니다.
 
-### <a name="view-quarantined-files"></a>Quarantined 파일 보기
+### <a name="view-quarantined-files"></a>quarantined files(Quarantined Files 보기)
 
 1. 보안 및 준수 센터에서 **위협 관리** \> **검토** \> **격리** 로 이동합니다.
 
 2. 값 **파일로 quarantined 보기를** **변경합니다.** 사용 가능한 열 헤더를 클릭하여 필드를 정렬할 수 있습니다.
 
-3. 사용 가능한 열 헤더를 클릭하여 결과를 정렬할 수 있습니다. **열 수정** 을 클릭하여 최대 7개의 열을 표시합니다. 기본 열은 다음으로 표시되어 있습니다. <sup>\*</sup>
+3. 사용 가능한 열 헤더를 클릭하여 결과를 정렬할 수 있습니다. **열 수정** 을 클릭하여 최대 7개의 열을 표시합니다. 기본 열에는 다음이 표시되어 있습니다. <sup>\*</sup>
 
    - **사용자**<sup>\*</sup>
    - **위치**<sup>\*</sup>
@@ -257,49 +257,49 @@ Office 365용 Defender가 있는 조직에서 관리자는 SharePoint Online, �
      - **다음 7일**
      - 사용자 지정 날짜/시간 범위입니다.
    - **받은 시간**
-   - **Quarantine reason**: the only available value is **Malware.**
+   - **Quarantine reason**: The only available value is **Malware**.
    - **정책 유형**
 
-특정 고지된 파일을 찾은 후 해당 파일에 대한 세부 정보를 보고 메시지 보기, 릴리스, 다운로드 또는 삭제와 같은 작업을 수행하려면 해당 파일을 선택합니다.
+특정 고지된 파일을 찾은 후 해당 파일을 선택하여 해당 파일에 대한 세부 정보를 보고 메시지 보기, 릴리스, 다운로드 또는 삭제와 같은 작업을 수행하십시오.
 
-#### <a name="view-quarantined-file-details"></a>각 파일 세부 정보 보기
+#### <a name="view-quarantined-file-details"></a>quarantined file details 보기
 
 목록에서 파일을 선택하면 세부 정보 플라이아웃 창에 다음 파일 **세부** 정보가 표시됩니다.
 
 - **File Name**
-- **파일 URL**: 파일 위치(예: SharePoint Online)를 정의하는 URL입니다.
-- **에서 검색된 악성 콘텐츠** 파일이 중단된 날짜/시간입니다.
-- **만료 날짜:** 파일이 Quarantine에서 삭제되는 날짜입니다.
-- **검색:** Office 365용 Defender 또는 Microsoft의 맬웨어 방지 엔진.
+- **파일 URL:** 파일 위치(예: SharePoint Online)를 정의하는 URL입니다.
+- **검색된 악성 콘텐츠** 파일이 대리된 날짜/시간입니다.
+- **만료 날짜:** 파일이 검지에서 삭제되는 날짜입니다.
+- **검색:** Office 365용 Defender 또는 Microsoft의 맬웨어 방지 엔진입니다.
 - **해제되었나요?**
 - **맬웨어 이름**
-- **문서 ID**: 문서의 고유 식별자입니다.
+- **문서 ID:** 문서의 고유 식별자입니다.
 - **파일 크기:** KB(킬로바이트)
 - **조직** 조직의 고유 ID입니다.
 - **마지막으로 수정한 날짜**
 - **수정한 사람:** 파일을 마지막으로 수정한 사용자입니다.
-- **보안 해시 알고리즘 256비트(SHA-256)** 값: 이 해시 값을 사용하여 다른 신뢰도 저장소 또는 환경의 다른 위치에서 파일을 식별할 수 있습니다.
+- **Secure Hash Algorithm 256비트(SHA-256) 값:** 이 해시 값을 사용하여 다른 신뢰도 저장소 또는 환경의 다른 위치에서 파일을 식별할 수 있습니다.
 
 ### <a name="take-action-on-quarantined-files"></a>고지된 파일에 대한 작업 수행
 
-목록에서 파일을 선택하면 세부 정보 플라이아웃 창에서 파일에 대해 다음 작업을 **수행할** 수 있습니다.
+목록에서 파일을 선택하면 세부 정보 플라이아웃 창의 파일에  대해 다음 작업을 수행할 수 있습니다.
 
-- **릴리스 파일:** 분석을 위해 **Microsoft에** 보고서 파일을 선택(기본값)하거나 선택을 해제한 다음 파일 **릴리스를 클릭합니다.**
+- **파일 릴리스:** 분석을 위해 **Microsoft에 보고** 파일 선택(기본값)을 선택하거나 선택을 해제한 다음 파일 **릴리스를 클릭합니다.**
 - **파일 다운로드**
 - **파일 제거**
 
-파일을 해제하거나 제거하지 않는 경우 기본 분리 보존 기간이 만료된 후에 삭제됩니다.
+파일을 해제하거나 제거하지 않는 경우 기본 검지 보존 기간이 만료된 후 삭제됩니다.
 
 #### <a name="actions-on-multiple-quarantined-files"></a>여러 개의 고지된 파일에 대한 작업
 
-목록에서 여러 개의 고지된 파일(최대 100개)을 선택하면 대량 작업 플라이아웃 창이 나타나 다음 작업을 수행할 수 있습니다. 
+목록에서 여러 개의 고지된 파일(최대 100개)을 선택하면 다음 작업을 수행할 수 있는 대량 작업 **플라이아웃** 창이 나타납니다.
 
-- **파일 해제**
+- **파일 릴리스**
 - **파일 삭제:** 나타나는 경고에서 **예를** 클릭하면 파일이 즉시 삭제됩니다.
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-view-and-manage-quarantined-messages-and-files"></a>Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell을 사용하여 독립 실행형 메시지 및 파일 보기 및 관리
 
-메시지 및 파일을 보고 관리하는 데 사용하는 cmdlet은 다음을 제공합니다.
+메시지와 파일을 확인 및 관리하는 데 사용하는 cmdlet은 다음을 제공합니다.
 
 - [Delete-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/delete-quarantinemessage)
 
@@ -307,6 +307,6 @@ Office 365용 Defender가 있는 조직에서 관리자는 SharePoint Online, �
 
 - [Get-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/get-quarantinemessage)
 
-- [Preview-QuarantineMessage:](https://docs.microsoft.com/powershell/module/exchange/preview-quarantinemessage)이 cmdlet은 SharePoint, OneDrive 및 Microsoft Teams용 안전 첨부 파일의 맬웨어 파일이 아니라 메시지에만 사용할 수 있습니다.
+- [Preview-QuarantineMessage:](https://docs.microsoft.com/powershell/module/exchange/preview-quarantinemessage)이 cmdlet은 SharePoint, OneDrive 및 Microsoft Teams에 대한 안전한 첨부 파일의 맬웨어 파일이 아니라 메시지 전용입니다.
 
 - [Release-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/release-quarantinemessage)

@@ -22,12 +22,12 @@ ms.assetid: 10d1004b-42b6-4e2b-aaa2-18ddd9118f64
 description: '요약: 증가된 위협 프로필을 가진 빠르게 변화하는 조직에 대한 계획 및 구현 지침입니다.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f8ed01d2c41529782c5c714bfe66096b97300712
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 76680ef5b21ae80525a7158ca0473cf82bd154d7
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287404"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406331"
 ---
 # <a name="microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-organizations"></a>정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침
 
@@ -65,10 +65,8 @@ ms.locfileid: "50287404"
 
   내부, 개인, 중요 및 극비 보안 수준으로 SharePoint Online 팀 사이트를 만듭니다.
 
-데모 또는 개념 증명을 위한 추가 보안 기능에 대해서는 [Office 365 테스트 랩 가이드](https://aka.ms/o365tlgs)를 참조하세요.
+데모 또는 개념 증명을 위한 추가 보안 기능에 대해서는 [Office 365 테스트 랩 가이드](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
-
-[클라우드 도입 TLG(테스트 랩 가이드)](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
 [Microsoft 클라우드 IT 아키텍처 리소스](../../solutions/cloud-architecture-models.md)
