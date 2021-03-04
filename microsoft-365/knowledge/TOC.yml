@@ -1,12 +1,12 @@
-- name: Microsoft Viva 시작
+- name: Microsoft Viva 주제
+  href: index.md
+- name: Microsoft Viva 주제 시작
   items:
-    - name: Microsoft Viva 소개
-      href: index.md
-    - name: Microsoft Viva 개요
+    - name: Microsoft Viva 주제 개요
       href: topic-experiences-overview.md
-    - name: Microsoft Viva 검색 및 큐레이션
+    - name: Microsoft Viva 주제 검색 및 큐레이션
       href: topic-experiences-discovery-curation.md
-    - name: Microsoft Viva 역할
+    - name: Microsoft Viva 주제 역할
       href: topic-experiences-roles.md
     - name: 환경 준비
       href: topic-experiences-get-ready.md
@@ -28,6 +28,8 @@
       href: topic-experiences-administration.md
 - name: 주제 관련 작업
   items:
+    - name: Viva 주제 시작
+      href: get-started-with-viva-topics.md
     - name: 토픽 센터 개요
       href: topic-center-overview.md
     - name: 주제 센터에서 주제 관리

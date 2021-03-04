@@ -9,36 +9,34 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Outlook 및 Microsoft Teams를 사용하여 공동 작업하는 방법에 대해 자세히 알아보고
-ms.openlocfilehash: 3d5ac6dd157b0469800a3dd6f841ec1a5c1d1ed9
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Outlook 및 Microsoft Teams를 사용하여 공동 작업을 하는 방법을 배워야 합니다.
+ms.openlocfilehash: 14a3cdf28c4e0c855671c67af36fa25ac47c6568
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927349"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422834"
 ---
 # <a name="use-outlook-and-teams-together"></a>Outlook과 Teams를 함께 사용
 
-중소기업의 직원, 파트너, 클라이언트 및 다른 사용자와 의사소통할 때 Microsoft 365에서 Outlook 및 Teams를 사용하세요. Outlook에서는 전자 메일, 일정, 연락처 및 작업을 찾을 수 있으며 Teams에서는 대화, 파일, 모임 및 Microsoft 및 타사 앱에 빠르게 액세스할 수 있습니다. 다음은 비즈니스에서 각 기능을 사용하는 방법에 대한 요약입니다.
+중소기업의 직원, 파트너, 클라이언트 및 다른 사용자와 의사소통할 때 Microsoft 365에서 Outlook 및 Teams를 사용하세요. Outlook에서 전자 메일, 일정, 연락처 및 작업을 찾을 수 있으며 Teams에서는 대화, 파일, 모임 및 Microsoft 및 타사 앱에 빠르게 액세스할 수 있습니다. 다음은 비즈니스에서 각 기능을 사용하는 방법에 대한 요약입니다.
 
 ## <a name="microsoft-outlook"></a>Microsoft Outlook
 
 - 비즈니스의 새로운 잠재 고객 등 비즈니스 내부 및 외부의 메시지를 검사합니다.
 - 일정을 확인하고 약속을 추가하고 모임을 예약합니다.
-- 함께 작업하는 사용자 이름, 번호 및 전자 메일을 연락처로 추가합니다.
-- 단기 프로젝트와 장기 프로젝트를 맨 위에 두는 작업, 메모 및 기타 방법을 만들 수 있습니다.
+- 연락처로 작업하는 사용자 이름, 번호 및 전자 메일을 추가합니다.
+- 단기 및 장기 프로젝트를 맨 위에 두는 작업, 메모 및 기타 방법을 만들 수 있습니다.
 
 :::image type="content" source="../media/outlook-model.png" alt-text="Outlook 홈페이지의 스타일이 있는 이미지입니다.":::
 
@@ -48,7 +46,7 @@ ms.locfileid: "49927349"
 - 비공개 채팅 또는 통화를 진행하고 화면을 다른 사용자와 공유합니다.
 - 직원 및 게스트와 모임을 예약하고 참가합니다.
 - 연결된 SharePoint 사이트 또는 비즈니스용 OneDrive에서 파일을 추가하거나 공유합니다.
-- Planner, Power BI 또는 GitHub와 같은 앱을 Teams에 추가합니다.
+- Teams에 Planner, Power BI 또는 GitHub와 같은 앱을 더 추가합니다.
 
 :::image type="content" source="../media/teams-model.png" alt-text="Microsoft Teams 홈 페이지의 스타일이 있는 이미지입니다."::: 
 

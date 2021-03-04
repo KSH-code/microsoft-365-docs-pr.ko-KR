@@ -9,37 +9,35 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 비즈니스용 Microsoft 365에서 파일을 저장할 수 있는 위치를 알아보고
-ms.openlocfilehash: 4f9ce18ca86a59e615426b994ef440279a78990a
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: 비즈니스용 Microsoft 365에서 파일을 저장할 수 있는 위치를 알아보습니다.
+ms.openlocfilehash: e8c0347489b3d35217b3cad38e26670d2c6023bb
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927805"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421838"
 ---
 # <a name="where-to-store-files"></a>파일 저장 위치
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX?autoplay=false]
 
-Microsoft 365에서는 비즈니스용 OneDrive 또는 SharePoint 사이트에 작업을 저장할 수 있습니다. 조직의 각 사용자에는 개인 작업 파일을 저장할 수 있는 자체 비즈니스용 OneDrive 라이브러리가 있습니다. 파일을 만들어 OneDrive 폴더에 저장할 때 클라우드와 동기화하여 웹 브라우저, 컴퓨터 또는 모바일 장치 등 어디에서나 액세스할 수 있습니다. 공유 파일 저장소 및 팀 공동 작업의 경우 SharePoint 사이트를 사용하세요. 또한 SharePoint 사이트는 어디서나 쉽게 액세스할 수 있도록 클라우드와 동기화됩니다.
+Microsoft 365에서는 비즈니스용 OneDrive 또는 SharePoint 사이트에 작업을 저장할 수 있습니다. 조직의 각 사용자에는 개인 작업 파일을 저장할 수 있는 자체 비즈니스용 OneDrive 라이브러리가 있습니다. 파일을 만들어 OneDrive 폴더에 저장하면 클라우드와 동기화하여 웹 브라우저, 컴퓨터 또는 모바일 장치 등 어디에서나 액세스할 수 있습니다. 공유 파일 저장소 및 팀 공동 작업의 경우 SharePoint 사이트를 사용하세요. 또한 SharePoint 사이트는 어디서나 쉽게 액세스할 수 있도록 클라우드와 동기화됩니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 
 ### <a name="store-or-share-files-with-onedrive"></a>OneDrive와 파일 저장 또는 공유
 
-1. 컴퓨터에서 파일 탐색기를 사용하여 OneDrive를 엽니다. 또는 [Office 365에서](https://www.office.com/)앱 시작기에서  **OneDrive를**  여는 경우
+1. 컴퓨터에서 파일 탐색기를 사용하여 OneDrive를 엽니다. 또는 [Office 365에서](https://www.office.com/)앱 시작기에서  **OneDrive를**  런타임합니다.
 2. 공유를 클릭한 다음 다른 사용자에게 문서를 보거나  링크를 보내 개인 파일을 보고 업로드하거나 문서 또는 폴더를 공유합니다. [자세히 알아보기](https://support.microsoft.com/office/9fcc2f7d-de0c-4cec-93b0-a82024800c07#os_type=onedrive_-_business).
 
 ### <a name="collaborate-with-a-sharepoint-site"></a>SharePoint 사이트와 공동 작업

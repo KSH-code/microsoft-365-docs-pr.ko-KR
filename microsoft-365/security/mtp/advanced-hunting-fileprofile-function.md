@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender에 대한 고급 헌팅의 FileProfile() 기능
-description: FileProfile()을 사용하여 고급 헌팅 쿼리 결과의 파일에 대한 정보를 보강하는 방법을 학습
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, FileProfile, file profile, function, enrichment
+description: FileProfile()을 사용하여 고급 헌팅 쿼리 결과의 파일에 대한 정보를 강화하는 방법에 대해 자세히 알아보기
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, FileProfile, 파일 프로필, 기능, 향상
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 68196f126ac470088d7ba5e2923accc492d8764c
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: f2e92967b8951cd0f5a3c394a537404db1d53819
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929553"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50424026"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -43,16 +43,16 @@ ms.locfileid: "49929553"
 | SHA256 | 문자열 | 기록된 작업이 적용된 파일의 SHA-256 |
 | MD5 | 문자열 | 기록된 작업이 적용된 파일의 MD5 해시입니다. |
 | FileSize | int | 파일 크기(bytes)입니다. |
-| GlobalPrevalence | int | Microsoft에서 전역적으로 관찰한 엔터티의 인스턴스 수 |
+| GlobalPrevalence | int | Microsoft에서 전역적으로 관찰하는 엔터티의 인스턴스 수 |
 | GlobalFirstSeen | datetime | Microsoft에서 엔터티를 전역적으로 처음 관찰한 날짜 및 시간 |
-| GlobalLastSeen | datetime | Microsoft에서 엔터티가 마지막으로 관찰된 날짜 및 시간 |
+| GlobalLastSeen | datetime | Microsoft에서 엔터티를 마지막으로 관찰한 날짜 및 시간 |
 | 서명자 | 문자열 | 파일의 서명자에 대한 정보 |
 | 발급자 | 문자열 | 발급 CA(인증 기관)에 대한 정보 |
 | SignerHash | 문자열 | 서명자를 식별하는 고유 해시 값 |
 | IsCertificateValid | 부울 | 파일에 서명하는 데 사용된 인증서가 유효한지 여부 |
 | IsRootSignerMicrosoft | 부울 | 루트 인증서의 서명자인지 여부를 나타냅니다. |
 | IsExecutable | 부울 | 파일이 PE(Portable Executable) 파일인지 여부 |
-| ThreatName | 문자열 | 맬웨어 또는 기타 위협이 발견된 검색 이름 |
+| ThreatName | 문자열 | 발견된 맬웨어 또는 기타 위협에 대한 검색 이름 |
 | 게시자 | 문자열 | 파일을 게시한 조직의 이름입니다. |
 | SoftwareName | 문자열 | 소프트웨어 제품의 이름 |
 
@@ -65,11 +65,15 @@ invoke FileProfile(x,y)
 ## <a name="arguments"></a>인수
 
 - **x**-사용할 파일 ID 열: `SHA1` , , 또는 ; `SHA256` `InitiatingProcessSHA1` `InitiatingProcessSHA256` 함수가 `SHA1` 선택하지 않은 경우 사용
-- **y**-보강할 레코드 수로 제한, 1-1000; 함수에서 100을 사용하는 경우
+- **y**- 보강할 레코드 수로 제한, 1-1000; 함수가 100을 사용하는 경우
+
+
+>[!TIP]
+> 향상 함수는 사용할 수 있는 경우만 추가 정보를 보여 주게 됩니다. 정보의 가용성은 다양한 요소에 따라 다릅니다. 쿼리에서 FileProfile()을 사용하거나 사용자 지정 검색을 만들 때 이를 고려해야 합니다. 최상의 결과를 얻기 위해 FileProfile() 함수를 SHA1과 함께 사용하는 것이 좋습니다.
 
 ## <a name="examples"></a>예
 
-### <a name="project-only-the-sha1-column-and-enrich-it"></a>SHA1 열만 프로젝트하고 보강
+### <a name="project-only-the-sha1-column-and-enrich-it"></a>SHA1 열만 프로젝트하고 강화
 
 ```kusto
 DeviceFileEvents
