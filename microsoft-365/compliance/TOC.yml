@@ -158,6 +158,8 @@
           href: sensitivity-labels-sharepoint-onedrive-files.md
         - name: Office 앱의 민감도 레이블 관리
           href: sensitivity-labels-office-apps.md
+        - name: 민감도 레이블에 따라 암호화된 문서에 대한 공동 작성 사용(미리 보기)
+          href: sensitivity-labels-coauthoring.md
     - name: 암호화
       items:
         - name: 암호화 이해
