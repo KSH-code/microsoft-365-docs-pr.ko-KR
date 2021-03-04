@@ -9,26 +9,24 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 비즈니스용 Microsoft 365의 결제 방법을 업데이트하는 방법을 알아보는 방법을 배워야 합니다.
-ms.openlocfilehash: b29aea838e2682035ac56ef31291a5628854df79
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: 비즈니스용 Microsoft 365의 결제 방법을 업데이트하는 방법을 자세히 알아보습니다.
+ms.openlocfilehash: 59972814d5dd9aa291099888539aae8f891c8fba
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925865"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421742"
 ---
 # <a name="update-yor-payment-method-for-your-subscription"></a>구독에 대한 yor 결제 방법 업데이트
 
@@ -39,13 +37,13 @@ Microsoft 365 Business 구독의 결제 방법을 쉽게 업데이트할 수 있
 ## <a name="try-it"></a>사용해 보세요!
 
 1. [Microsoft 365 관리 센터](https://admin.microsoft.com)에 로그인합니다.
-1. 청구를 **선택한** 다음 **결제 방법을 선택합니다.** 파일에 있는 신용 카드가 표시됩니다.
+1. **청구,** 결제 **방법을 선택합니다.** 파일에 있는 신용 카드가 표시됩니다.
 1. 기존 카드를 편집하려면
-    1. 카드 옆에 있는 3개의 점을 선택하고 결제 방법 **편집을 선택합니다.**
-    1. 카드에 대한 보안 코드를 입력합니다.
+    1. 카드 옆에 있는 세 점을 선택하고 결제 **방법 편집 을 선택합니다.**
+    1. 카드의 보안 코드를 입력합니다.
     1. 만료 날짜, 카드의 이름 및 기타 세부 정보를 변경할 수 있습니다.
     1. 변경 내용이 완료되면 저장을 **선택합니다.**
-1. 새 카드를 추가합니다.
+1. 새 카드를 추가하는 경우:
     1. **결제 방법 추가** 를 선택합니다.
-    1. 결제 방법 선택 드롭다운 목록에서 사용할 결제 **방법을** 선택합니다.
-    1. 카드 세부 정보를 입력하고 추가를 **선택합니다.**
+    1. 결제 방법 선택 드롭다운 목록에서 사용할 결제 방법을 선택합니다. 
+    1. 카드 세부 정보를 입력하고 추가 를 **선택합니다.**
