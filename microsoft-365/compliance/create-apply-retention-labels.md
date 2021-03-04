@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들어서 게시한 후에 필요한 항목은 보존하고 필요하지 않은 항목은 삭제하도록 앱에 적용하기 위한 지침입니다.
-ms.openlocfilehash: dfe507283304f1b1a7ded1740df043174987a398
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 67285862756a262233fef934efb377b949fc9d65
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519859"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423499"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>보존 레이블을 만들고 앱에 적용
 
@@ -33,7 +33,7 @@ ms.locfileid: "49519859"
 
 다음 정보를 사용하여 [보존 레이블](retention.md)을 만들어서 게시한 다음 문서 및 전자 메일에 적용하는 데 도움을 받습니다.
 
-보존 레이블은 필요한 항목을 유지하고 항목 수준(문서 또는 전자 메일)에서 삭제하는 데 도움이 됩니다. 또한 Microsoft 365 데이터를 위한 [레코드 관리 솔루션](records-management.md)의 일부로 항목을 레코드로 선언하는 데도 사용됩니다.
+보존 레이블은 항목 수준(문서 또는 전자 메일)에서 필요한 항목은 보존하고 필요하지 않은 항목은 삭제할 수 있게 해줍니다. 또한 Microsoft 365 데이터에 대한 [레코드 관리](records-management.md) 솔루션의 일부로 항목을 레코드로 선언하는 데에도 사용됩니다.
 
 콘텐츠를 분류할 수 있도록 조직의 사용자에게 보존 레이블을 제공하는 작업은 2단계 프로세스입니다. 
 
@@ -47,13 +47,13 @@ ms.locfileid: "49519859"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-조직의 글로벌 관리자는 보존 레이블과 해당 정책을 만들고 편집할 수 있는 모든 권한을 가집니다. 글로벌 관리자로 로그인하지 않는 경우 [보존 정책 및 보존 레이블](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels)을 생성하고 관리하는 데 필요한 권한입니다.
+조직의 전역 관리자는 보존 레이블과 해당 정책을 만들고 편집할 수 있는 모든 권한을 가지고 있습니다. 전역 관리자로 로그인하지 않은 경우 [보존 정책 및 보존 레이블을 만들고 관리하는 데 필요한 권한](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels)을 참조하세요.
 
 ## <a name="how-to-create-and-publish-retention-labels"></a>보존 레이블을 만들고 게시하는 방법
 
-우선 보존 레이블을 생성합니다. 그런 다음 레이블을 앱에 적용할 수 있게 되는 레이블 정책을 만듭니다.
+먼저 보존 레이블을 만듭니다. 그런 다음 레이블을 앱에 적용할 수 있게 되는 레이블 정책을 만듭니다.
 
-보존 레이블을 만들고 구성하는 위치는 레코드 관리를 사용 중인지 여부에 따라 달라집니다. 지침은 두 가지 시나리오 모두에 대해 제공됩니다.
+보존 레이블을 만들고 구성하는 위치는 레코드 관리를 사용 중인지 여부에 따라 달라집니다. 두 시나리오 모두에 대한 지침이 제공 됩니다.
 
 ### <a name="step-1-create-retention-labels"></a>1단계: 보존 레이블 만들기
 
@@ -65,13 +65,13 @@ ms.locfileid: "49519859"
     - 레코드 관리를 사용하지 않는 경우:
        - **솔루션** > **정보 관리** > **레이블** tab > + **레이블 만들기**
     
-    선택사항이 즉시 나타나지 않습니까? 먼저 **모두 표시** 를 선택합니다. 
+    바로 옵션이 표시되지 않나요? 먼저 **모두 표시** 를 선택합니다. 
 
-2. 마법사의 프롬프트를 따릅니다. 레코드 관리를 사용하는 경우 다음을 수행합니다.
+2. 마법사의 지시를 따릅니다. 레코드 관리를 사용하는 경우:
     
     - 파일 계획 설명자에 대한 자세한 내용은 [파일 계획을 사용하여 보존 레이블 관리의 개요](file-plan-manager.md)를 참조하세요.
     
-    - 보존 레이블을 사용하여 레코드를 선언하려면 **품목을 레코드** 로 표시하거나 **품목을 규제 레코드** 로 표시를 선택합니다. 자세한 내용은 [레코드](declare-records.md#configuring-retention-labels-to-declare-records)를 선언하도록 보존 레이블 구성을 참조합니다.
+    - 보존 레이블을 사용하여 레코드를 선언하려면 **항목을 레코드로 표시** 를 선택하거나 **항목을 규제 레코드로 표시** 를 선택합니다. 자세한 정보는 [레코드를 선언하도록 보존 레이블 구성하기](declare-records.md#configuring-retention-labels-to-declare-records)를 참조하세요.
 
 3. 레이블을 만든 후에는 레이블을 게시하는 옵션이 표시되고, 레이블을 자동으로 적용하거나, 단지 레이블을 저장합니다. **지금 레이블을 저장** 하고, 그 후 **완료** 를 선택합니다.
 
@@ -91,18 +91,18 @@ SharePoint 및 Outlook과 같은 앱에서 사용자가 적용할 수 있도록 
     - 레코드 관리를 사용하지 않는 경우:
         - **솔루션** > **정보 관리** > **레이블 정책** 탭 > **레이블 게시**
     
-    선택사항이 즉시 나타나지 않습니까? 먼저 **모두 표시** 를 선택합니다. 
+    바로 옵션이 표시되지 않나요? 먼저 **모두 표시** 를 선택합니다. 
 
 2. 마법사의 지시를 따릅니다.
     
     보존 레이블이 지원하는 위치에 대한 자세한 내용은 [보존 레이블과 위치](retention.md#retention-label-policies-and-locations)를 참조하세요. 
 
-기존 보존 레이블 정책(정책 유형은 **게시**)을 편집하려면 해당 정책을 선택한 다음 **편집** 옵션을 선택하여 보존 편집 정책을 시작합니다. 이 마법사를 사용하여 2단계에서 정책 설명 및 [적용 가능한 설정](#updating-retention-labels-and-their-policies)을 변경할 수 있습니다.
+기존 보존 레이블 정책(정책 유형은 **게시**)을 편집 하려면, 이를 선택하고 그 후 **편집** 옵션을 선택하여 보존 정책 편집을 시작합니다. 이 마법사를 사용하여 정책 설명과 2단계에서 [적격 설정](#updating-retention-labels-and-their-policies)을 변경할 수 있습니다.
 
 
 ## <a name="when-retention-labels-become-available-to-apply"></a>보존 레이블을 적용할 수 있게 되면
 
-SharePoint 또는 OneDrive에 보존 레이블을 게시하면 일반적으로 1일 이내에 최종 사용자가 선택하도록 레이블이 표시됩니다. 그러나 최대 7일이 소요될 수 있습니다. 
+SharePoint 또는 OneDrive에 보존 레이블을 게시하면 일반적으로 1일 이내에 최종 사용자가 선택하도록 레이블이 표시됩니다. 그러나 최대 7일까지 걸릴 수 있습니다. 
 
 보존 레이블을 Exchange에 게시하는 경우 해당 보존 레이블이 최종 사용자에게 표시되기까지 최대 7일이 걸릴 수 있으며 사서함에 10MB 이상의 데이터를 저장할 수 있어야 합니다.
 
@@ -111,7 +111,7 @@ SharePoint 또는 OneDrive에 보존 레이블을 게시하면 일반적으로 1
 ![수동 레이블이 적용되는 경우를 나타내는 다이어그램](../media/b19f3a10-f625-45bf-9a53-dd14df02ae7c.png)
   
 
-7일이 지난 후에도 레이블이 나타나지 않으면 컴플라이언스 센터의 **레이블 정책** 페이지에서 레이블 정책의 **상태** 를 선택합니다. **끔** 상태가 표시되고 위치 세부 정보에서 정책을 배포하거나(SharePoint용) 정책을 다시 배포하는 데 예상보다 오래 걸린다는 메시지가 표시되면 [Set-RetentionCompliancePolicy PowerShell](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) 명령을 실행하여 정책 배포를 다시 시도합니다.
+7일 후에 레이블이 표시되지 않는 경우, 준수 센터의 **레이블 정책** 페이지에서 레이블 정책을 선택하여 그 **상태** 를 확인합니다. **꺼짐(오류)** 의 상태가 표시되고 위치에 대한 세부 정보에 정책을 배포하거나(SharePoint의 경우) 혹은 정책 재배포를 시도하는 데(OneDrive의 경우) 예상보다 시간이 오래 걸리고 있다는 메시지가 표시되는 경우, [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) PowerShell 명령을 실행하여 정책 배포를 다시 시도하세요.
 
 1. [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
@@ -123,7 +123,7 @@ SharePoint 또는 OneDrive에 보존 레이블을 게시하면 일반적으로 1
 
 ### <a name="how-to-check-on-the-status-of-retention-labels-published-to-exchange"></a>Exchange에 게시된 보존 레이블의 상태를 확인하는 방법
 
-Exchange Online에서는 7일 간격으로 실행되는 프로세스를 통해 최종 사용자가 보존 레이블을 사용할 수 있게 됩니다. Powershell을 사용하여 이 프로세스가 마지막으로 실행된 시간 및 다시 실행될 시간을 파악할 수 있습니다.
+Exchange Online에서 보존 레이블은 7일마다 실행되는 프로세스를 통해 최종 사용자에게 제공됩니다. PowerShell을 사용하여 이 프로세스가 마지막으로 실행된 시간을 확인할 수 있고 따라서 이 프로세스가 다시 실행될 시간을 확인할 수 있습니다.
   
 1. [Exchange Online PowerShell에 연결합니다](https://go.microsoft.com/fwlink/?linkid=799773).
     
@@ -291,6 +291,14 @@ When you edit a retention label or retention label policy, and the retention lab
 Some settings can't be changed after the label or policy is created and saved, which include:
 - The retention label and policy name, and the retention settings except the retention period. However, you can't change the retention period when the retention period is based on when items were labeled.
 - The option to mark items as a record.
+
+### Deleting retention labels
+
+You can delete retention labels that aren't currently included in any retention label policies, that aren't configured for event-based retention, or mark items as regulatory records. The ability to delete retention labels that mark items as records is currently rolling out in preview.
+
+For retention labels that you can delete, if they have been applied to items, the deletion fails and you see a link to content explorer to identify the labeled items.
+
+However, it can take up to two days for content explorer to show the items that are labeled. In this scenario, the retention label might be deleted without showing you the link to content explorer.
 
 ## Locking the policy to prevent changes
 

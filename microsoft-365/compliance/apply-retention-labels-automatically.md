@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: 69bada084aa3817b49b75d970a1a8d304f6853e6
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: 34b6fb53095a2c3f52598b84e82cae3083b98f21
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261349"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423307"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -282,6 +282,14 @@ ProgID:Media AND ProgID:Meeting
 다음 내용을 포함하는 레이블이나 정책을 만들고 저장한 후에는 일부 설정을 변경할 수 없습니다.
 - 보존 레이블 및 정책 이름과 보존 기간을 제외한 보존 설정입니다. 그러나 항목에 레이블이 지정된 시기를 기준으로 보존 기간을 변경할 수는 없습니다.
 - 항목을 레코드로 표시하는 옵션입니다.
+
+### <a name="deleting-retention-labels"></a>보존 레이블 제거
+
+이벤트 기반 보존을 위해 구성되지 않은 보존 레이블 정책에 현재 포함되지 않은 보존 레이블을 삭제하거나 항목을 규정 레코드로 표시할 수 있습니다. 항목을 레코드로 표시하는 보존 레이블을 삭제하는 기능은 현재 미리 보기에서 배포 중입니다.
+
+삭제할 수 있는 보존 레이블의 경우, 항목에 적용된 경우 삭제가 실패하고 레이블링된 항목을 식별하기 위한 내용 탐색기에 대한 링크가 표시됩니다.
+
+그러나 콘텐츠 탐색기에서 레이블이 지정된 항목을 표시하는 데 최대 이틀이 걸릴 수 있습니다. 이 시나리오에서는 콘텐츠 탐색기에 대한 링크를 표시하지 않고 보존 레이블을 삭제할 수 있습니다.
 
 ## <a name="locking-the-policy-to-prevent-changes"></a>변경 방지를 위한 정책 잠금
 
