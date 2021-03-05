@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 4cd6e62fd236bf9fd3683425b1e98315fc26dd71
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: e2d0f4f4abbe538d11d61869f52285f19c23a253
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421695"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461809"
 ---
 # <a name="communication-compliance-feature-reference"></a>커뮤니케이션 규정 준수 기능 참조
 
@@ -132,16 +132,6 @@ Microsoft 365 규정 준수 센터에서 Microsoft 365 조직에 대한 통신 �
 
     통신 준수 정책에 커넥터를 할당하려면 먼저 Microsoft 365 조직에 대해 타사 커넥터를 구성해야 합니다. 통신 **준수 정책** 마법사의 타사 원본 섹션에는 현재 구성된 타사 커넥터만 표시됩니다.
 
-## <a name="transitioning-from-supervision-in-office-365"></a>Office 365에서 감독에서 전환
-
-Office 365에서 감독 정책을 사용하고 Microsoft 365에서 커뮤니케이션 규정 준수 정책으로 전환할 계획인 조직은 다음 중요한 지점을 이해해야 합니다.
-
-- 두 솔루션 모두 조직에서 나란히 사용할 수 있지만 각 솔루션에서 사용되는 정책에는 고유한 정책 이름이 있어야 합니다. 그룹 및 사용자 지정 키워드 사전은 전환 기간 동안 솔루션 간에 공유할 수 있습니다.
-- Office 365 정책 일치에 감독하여 저장된 메시지는 Microsoft 365의 통신 규정 준수로 이동하거나 공유할 수 없습니다.
-- Office 365의 감독 솔루션은 Microsoft 365의 통신 준수 솔루션으로 완전히 대체됩니다. 새로운 조사 및 수정 개선을 사용하기 위해 기존 감독 정책과 동일한 설정을 사용하는 통신 규정 준수에서 새 정책을 만드는 것이 좋습니다. Microsoft 365에서 통신 규정 준수로 전환할 때 내부 준수 보존 정책 요구 사항이 있는 경우 Office 365에서 보고 데이터를 감독에서 내보내기 계획을 세우는 것이 중요합니다.
-
-Office 365의 관리에 대한 사용 중지 정보는 자세한 내용은 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap) 참조하세요.
-
 ## <a name="policy-settings"></a>정책 설정
 
 ### <a name="users"></a>사용자
@@ -247,7 +237,7 @@ OCR을 사용하는 정책에 대해 보류 중인 경고를 검토할 때 식�
 입력하는 각 단어와 콤보로 구분하는 단어는 개별적으로 적용됩니다(정책 조건이 전자 메일 또는 첨부 파일에 적용하려면 한 단어만 적용되어야 합니다). 예를 들어 **다음** 단어가 메시지에 포함된 조건과 키워드 "banker", "confidential" 및 "insider trading"를 각 MA(은행원, 기밀, "내부자 거래")로 구분하여 사용해 보겠습니다. 이 정책은 "은행원", "기밀" 또는 "내부자 거래" 구를 포함하는 모든 메시지에 적용됩니다. 이 정책 조건을 적용하려면 이러한 단어 또는 구 중 하나만 발생해야 합니다. 메시지 또는 첨부 파일에 있는 단어는 입력한 단어와 정확히 일치해야 합니다.
 
 >[!IMPORTANT]
->사용자 지정 사전 파일을 가져올 때 각 단어나 구는 캐리지 리턴과 별도의 줄로 구분해야 합니다. <br> 예를 들면 다음과 같습니다. <br><br>
+>사용자 지정 사전 파일을 가져올 때 각 단어나 구는 캐리지 리턴과 별도의 줄로 구분해야 합니다. <br> 예: <br><br>
 >*banker* <br>
 >*confidential* <br>
 >*내부자 거래*
@@ -530,6 +520,16 @@ Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType AeD -
 ```PowerShell
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType Discovery -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeleted
 ```
+
+## <a name="transitioning-from-supervision-in-office-365"></a>Office 365에서 감독에서 전환
+
+Office 365에서 감독 정책을 사용하는 조직은 즉시 Microsoft 365의 통신 준수 정책으로 전환할 계획을 세우고 이러한 중요한 지점을 이해해야 합니다.
+
+- Office 365의 감독 솔루션은 Microsoft 365의 통신 준수 솔루션으로 완전히 대체됩니다. 새로운 조사 및 수정 개선을 사용하기 위해 기존 감독 정책과 동일한 설정을 사용하는 통신 규정 준수에서 새 정책을 만드는 것이 좋습니다. Microsoft 365에서 통신 규정 준수로 전환할 때 내부 준수 보존 정책 요구 사항이 있는 경우 Office 365에서 보고 데이터를 감독에서 내보내기 계획을 세우는 것이 중요합니다.
+- Office 365 정책 일치에 감독하여 저장된 메시지는 Microsoft 365의 통신 규정 준수로 이동하거나 공유할 수 없습니다.
+- 전환 프로세스 중에 두 솔루션을 나란히 사용하는 조직의 경우 각 솔루션에서 사용되는 정책에 고유한 정책 이름이 있어야 합니다. 그룹 및 사용자 지정 키워드 사전은 전환 기간 동안 솔루션 간에 공유할 수 있습니다.
+
+Office 365의 관리에 대한 사용 중지 정보는 자세한 내용은 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap) 참조하세요.
 
 ## <a name="ready-to-get-started"></a>시작할 준비가 되나요?
 
