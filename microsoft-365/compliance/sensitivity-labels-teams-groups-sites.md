@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: 7eea07b91647af2b0b7121f9d9c1f018bc9fc630
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: 3565b47e21d81b4b3d560d72a29f2deae9587709
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261461"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50407318"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -32,7 +32,7 @@ ms.locfileid: "50261461"
 
 - 팀 사이트 및 Microsoft 365 그룹의 개인 정보(공개 또는 비공개)
 - 외부 사용자 액세스
-- SharePoint 사이트에서의 외부 공유(미리 보기)
+- SharePoint 사이트에서의 외부 공유
 - 관리되지 않는 장치에서 액세스
 
 > [!IMPORTANT]
@@ -100,7 +100,7 @@ ms.locfileid: "50261461"
 
 4. **장치 액세스 및 외부 공유 설정** 을 선택한 경우, 이제 다음 설정을 구성합니다.
     
-    - **레이블이 지정된 SharePoint 사이트에서 외부 공유 제어**: 현재 미리 보기에서 이 옵션을 선택하여 모든 사용자, 신규 및 기존 게스트 혹은 조직 내부 사용자만에 대해 외부 공유를 선택합니다. 이 구성 및 설정에 대한 자세한 내용은 SharePoint 설명서, [사이트에 대해 외부 공유 설정 또는 해제](https://docs.microsoft.com/sharepoint/change-external-sharing-site)를 참조 하세요.
+    - **레이블이 지정된 SharePoint 사이트에서 외부 공유 제어**: 이 옵션을 선택하고, 모든 사용자, 신규 및 기존 게스트, 기존 게스트, 조직 내부 사용자만 중 원하는 외부 공유 옵션을 선택합니다. 이 구성 및 설정에 대한 자세한 내용은 SharePoint 설명서, [사이트에 대해 외부 공유 설정 또는 해제](https://docs.microsoft.com/sharepoint/change-external-sharing-site)를 참조 하세요.
     
     - **관리되지 않는 장치에서의 액세스**: 이 옵션은 Azure AD 조건부 액세스를 사용하여 관리되지 않는 장치에서의 SharePoint 및 OneDrive 콘텐츠에 대한 액세스를 차단하거나 제한하는 SharePoint 기능을 사용합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](/sharepoint/control-access-from-unmanaged-devices)를 참조하세요. SharePoint 지침의 [특정 SharePoint 사이트 또는 OneDrive에 대한 액세스 차단 혹은 제한](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) 섹션 3-5단계에서 설명한 대로 이 레이블 설정에 지정하는 옵션은 사이트에 대해 PowerShell 명령을 실행하는 것과 동일합니다.
         

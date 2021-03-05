@@ -16,23 +16,26 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 보존 정책을 사용하면 사용자가 전자 메일, 문서 및 대화를 사용하여 생성하는 콘텐츠를 매우 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 1806000b47a19c07da11a6a732eeacf5d60a7da0
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+description: 보존 정책을 사용하면 사용자가 전자 메일과 문서, 대화를 사용하여 생성하는 콘텐츠를 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
+ms.openlocfilehash: 02d3fd17e4aac34546e545ec10621bc99b945b31
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261327"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50405716"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
-콘텐츠를 보존할지, 삭제할지, 아니면 보존했다가 삭제할지를 사전에 결정하기 위해 보존 정책을 사용합니다.
+콘텐츠를 보존할지, 삭제할지, 아니면 보존했다가 삭제할지를 사전에 결정하여 조직 데이터를 관리하기 위해 보존 정책을 사용합니다.
 
-보존 정책을 사용하면 사이트 또는 사서함 수준에서 위치별로 콘텐츠의 보존 설정을 동일하게 할당하여 효율적으로 이 작업을 수행할 수 있습니다. 보존 정책 또는 보존 레이블을 사용해야 할지 확실하지 않다면 [보존 정책 및 보존 레이블](retention.md#retention-policies-and-retention-labels)을 참조하세요.
+보존 정책은 컨테이너 수준에서 동일한 데이터 보존 설정을 할당하여 해당 컨테이너의 콘텐츠가 자동으로 이를 상속하게 함으로써 이 작업을 매우 효율적으로 수행할 수 있게 해 줍니다. 예를 들어 SharePoint 사이트의 모든 항목과 사용자 Exchange 사서함의 모든 전자 메일, Microsoft Teams에서 사용되는 팀의 모든 채널 메시지가 여기 해당합니다. 컨테이너 수준에서의 보존 정책이나 항목 수준에서의 보존 레이블을 사용해야 할지가 확실하지 않다면 [보존 정책 및 보존 레이블](retention.md#retention-policies-and-retention-labels)을 참조하세요.
 
-보존 정책과 보존이 작동하는 방식에 대한 자세한 내용은 [보존 정책과 보존 레이블에 대해 알아보기](retention.md)를 참조하세요.
+Microsoft 365에서의 보존 정책과 보존 레이블 작동 방식에 대한 자세한 내용은 [보존 정책과 보존 레이블에 대해 알아보기](retention.md)를 참조하세요.
+
+> [!NOTE]
+> 이 페이지의 정보는 규정 준수 관리자를 위한 정보입니다. 관리자가 아니지만 본인이 사용하는 앱의 보존 정책 구성 방식을 알고 싶다면 지원 센터나 IT 팀 또는 관리자에게 문의하세요. Teams 차트와 채널 메시지에 보존 정책 관련 메시지가 표시된다면 [보존 정책 관련 Teams 메시지](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)를 리뷰하는 게 도움이 될 수 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -40,7 +43,7 @@ ms.locfileid: "50261327"
 
 ## <a name="create-and-configure-a-retention-policy"></a>보존 정책 만들기 및 구성하기
 
-보존 정책은 여러 위치를 지원할 수 있지만 지원되는 모든 위치를 포함하는 단일 보존 정책을 만들 수는 없습니다.
+보존 정책은 보존 정책에 ‘위치’로 식별되는 여러 서비스를 지원할 수 있지만 지원되는 모든 위치를 포함하는 단일 보존 정책을 만들 수는 없습니다.
 
 - Exchange 전자 메일
 - SharePoint 사이트
@@ -53,7 +56,7 @@ ms.locfileid: "50261327"
 - Yammer 커뮤니티 메시지
 - Yammer 개인 메시지
 
-보존 정책을 생성할 때 Teams 또는 Yammer 위치를 선택하면 다른 위치는 자동으로 제외됩니다. 따라서, 따라야 할 지침은 Teams 또는 Yammer 위치를 포함해야 하는지에 따라 달라집니다.
+보존 정책을 생성할 때 Teams 또는 Yammer 위치를 선택하면 다른 위치는 자동으로 제외됩니다. 즉, Teams 또는 Yammer 위치 포함 여부에 따라, 따라야 할 지침도 달라진다는 뜻이죠.
 
 - [Teams 위치](#retention-policy-for-teams-locations)에 대한 보존 정책에 대한 지침
 - [Yammer 위치에 대한 보존 정책에 대한 지침](#retention-policy-for-yammer-locations)

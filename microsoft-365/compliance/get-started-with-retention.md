@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 관리하도록 보존 정책 및 보존 레이블 구현을 시작할 준비가 되었지만, 어디서부터 시작해야 할지 모르겠나요? 시작을 도와주는 실질적인 지침을 읽어 보세요.
-ms.openlocfilehash: 26568d2a603e447156aead751178555fa400db5e
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: bb73f0871bfc2ad707d31ef6d4d57e18218842a5
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682533"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406518"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 시작하기
 
@@ -82,9 +82,11 @@ ms.locfileid: "49682533"
 
 레코드 관리에 대한 보존 레이블을 사용하는 경우 콘텐츠를 레코드로 표시하는 보존 레이블에 대해 고유한 추가 시나리오가 있습니다. [레코드 관리에 대한 일반적인 시나리오](get-started-with-records-management.md#common-scenarios-for-records-management)를 참조하세요.
 
-## <a name="end-user-documentation-for-retention-labels"></a>보존 레이블에 대한 최종 사용자 설명서
+## <a name="end-user-documentation-for-retention"></a>보존에 대한 최종 사용자 설명서
 
-보존 정책과 달리 보존 레이블에는 Microsoft 365 앱에 UI가 있습니다. 프로덕션 네트워크에 보존 레이블을 배포하기 전에 최종 사용자와 지원 센터에 대한 지침을 제공하세요.
+대부분 보존 정책은 사용자와의 상호 작용 없이 백그라운드에서 조용히 드러나지 않게 작동하므로 사용자를 위한 문서가 거의 필요하지 않습니다. Teams 보존 정책은 [보존 정책 관련 Teams 메시지](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)로 가는 링크가 포함된 메시지가 삭제되는 경우 사용자에게 공지됩니다.
+
+Microsoft 365 앱의 경우 보전 레이블이 UI에 표시되므로 프로덕션 네트워크에 해당 레이블을 배포하기 전에 최종 사용자와 지원 센터용 지침을 제공하세요.
 
 가장 효과적인 최종 사용자 문서는 선택한 보존 레이블 이름 및 구성에 대한 사용자 지정 안내사항 및 지침입니다. 사용자를 교육하고 채택을 유도하는 데 사용할 수 있는 다운로드 패키지는 다음 블로그 게시물을 참조하세요 [M365의 보존 레이블에 대한 최종 사용자 교육 – 채택을 가속화하는 방법](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-retention-labels-in-m365-how-to-accelerate/ba-p/1750861).
 

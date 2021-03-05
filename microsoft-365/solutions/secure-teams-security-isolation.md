@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 보안을 위한 고유한 민감도 레이블이 있는 팀을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 439dee40d1501801fc09d570614a591259c6f09c
-ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
+ms.openlocfilehash: 5ddd42f9e2f2779ca6bf864554140a3f18d2cdea
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49881708"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50405705"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>보안 격리를 사용하여 팀 구성하기
 
@@ -44,6 +44,7 @@ ms.locfileid: "49881708"
 
 이 비디오를 시청하고 배포 프로세스에 대한 개요를 확인하세요.
 <br>
+<br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mGHf]
 
 <a name="poster"></a>이 시나리오에 대한 1페이지 요약을 보려면 [보안 격리 포스터를 사용한 Microsoft Teams를 참조하세요](../downloads/team-security-isolation-poster.pdf).
@@ -51,6 +52,10 @@ ms.locfileid: "49881708"
 [![보안 격리를 사용하여 Microsoft Teams 구성하기](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
 이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf)나 [PowerPoint](https://download.microsoft.com/download/8/0/5/8057fc16-c044-40b6-a652-7ed555ba2895/team-security-isolation-poster.pptx) 형식으로 다운로드할 수 있고 편지형, 법률형, 타블로이드(11 x 17) 크기 용지에 인쇄할 수도 있습니다.
+
+[이 지침](team-security-isolation-dev-test.md)을 사용해서 본인 테스트 랩에서 이 구성을 시도해 보세요.
+
+Contoso Corporation이 극비 프로젝트에 보안 팀을 사용한 방법을 [이 사례 연구](contoso-team-for-top-secret-project.md)에서 확인해 보세요.
 
 ## <a name="initial-protections"></a>초기 보호
 
@@ -108,7 +113,7 @@ ms.locfileid: "49881708"
 3. **레이블 만들기** 를 클릭합니다.
 4. 레이블에 이름을 지정합니다. 함께 사용할 팀의 이름을 따라 이름을 짓는 것을 권장합니다.
 5. 표시 이름과 설명을 추가하고 **다음** 을 클릭합니다.
-6. **이 레이블에 대한 범위 정의 페이지** 에서 **파일 및 전자 메일** 그리고 **그룹 및 사이트** 를 선택하고 **다음** 을 클릭합니다.
+6. **이 레이블에 대한 범위 정의 페이지** 에서 **파일 및 전자 메일** 과 **그룹 및 사이트** 를 선택하고 **다음** 을 클릭합니다.
 7. **파일 및 전자 메일에 대한 보호 설정 선택** 페이지에서 **파일 및 전자 메일 암호화** 를 선택하고 **다음** 을 클릭합니다.
 8. **암호화** 페이지에서 **암호화 설정 구성** 을 선택합니다.
 9. **사용자 또는 그룹 추가** 를 클릭하고, 만든 팀을 선택한 다음, **추가** 를 클릭합니다.
@@ -130,7 +135,7 @@ ms.locfileid: "49881708"
 21. **관리되지 않는 장치** 에서 **액세스 차단** 을 선택합니다.
 22. **다음** 을 클릭합니다.
 23. **Office 앱에 대한 자동 레이블 지정** 페이지에서 **다음** 을 클릭합니다.
-24. **제출** 을 클릭한 다음 **완료** 를 클릭합니다.
+24. **레이블 만들기** 를 클릭한 다음 **완료** 를 클릭합니다.
 
 레이블을 만든 후에는 레이블을 사용할 사용자에게 게시해야 합니다. 이 경우 팀의 사용자만 레이블을 사용할 수 있도록 설정합니다.
 
