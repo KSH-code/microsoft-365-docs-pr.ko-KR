@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: 시작
+    - name: 시작하기
       items:
         - name: 재택 근무 지원을 위한 주요 작업
           href: top-security-tasks-for-remote-work.md
@@ -488,6 +488,8 @@
               href: ./office-365-security/attack-simulation-training-payloads.md
             - name: 공격 시뮬레이션 교육 활용
               href: ./office-365-security/attack-simulation-training-insights.md
+            - name: 공격 시뮬레이션 교육 배포 고려 사항 및 FAQ
+              href: ./office-365-security/attack-simulation-training-faq.md
             - name: EOP 및 Office 365용 Defender 보안 구성에 대한 권장 설정
               href: ./office-365-security/recommended-settings-for-eop-and-office365-atp.md
             - name: EOP 구성을 위한 모범 사례

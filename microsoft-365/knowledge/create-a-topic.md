@@ -10,120 +10,122 @@ ms.topic: article
 ms.prod: microsoft-365-enterprise
 ms.collection:
 - enabler-strategic
-- m365initiative-topics
+- m365initiative-viva-topics
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: fbdd0e9b75e92d8080d9aaf43a2d1eaa8baacbc3
-ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
+ms.openlocfilehash: c3ba9ce6675e81a99309243db251b34a21a4b43f
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50279401"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454162"
 ---
-# <a name="create-a-new-topic"></a><span data-ttu-id="4bd00-103">새 항목 만들기</span><span class="sxs-lookup"><span data-stu-id="4bd00-103">Create a new topic</span></span> 
+# <a name="create-a-new-topic"></a><span data-ttu-id="2ee00-103">새 항목 만들기</span><span class="sxs-lookup"><span data-stu-id="2ee00-103">Create a new topic</span></span> 
 
-<span data-ttu-id="4bd00-104">Viva 항목에서 인덱싱을 통해 검색되지 않았거나 AI 기술에서 이를 주제로 설정할 충분한 증거를 찾지 못하면 새 항목을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-104">In Viva Topics, you can create a new topic if one is not discovered through indexing or if the AI technology did not find enough evidence to establish it as a topic.</span></span>
-
-> [!Note] 
-> <span data-ttu-id="4bd00-105">AI가 수집하는 항목의 정보는 보안이 조정되는 [반면,](topic-experiences-security-trimming.md)수동으로 만든 항목의 항목 설명 및 사용자 정보는 해당 항목을 볼 수 있는 권한이 있는 모든 사용자에게 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-105">While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), note that topic description and people information in a manually created topic is visible to all users who have permissions to view the topic.</span></span> 
-
-
-## <a name="requirements"></a><span data-ttu-id="4bd00-106">요구 사항</span><span class="sxs-lookup"><span data-stu-id="4bd00-106">Requirements</span></span>
-
-<span data-ttu-id="4bd00-107">새 항목을 만들하려면 다음을 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-107">To create a new topic, you need to:</span></span>
-- <span data-ttu-id="4bd00-108">Viva Topics 라이선스가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-108">Have a Viva Topics license.</span></span>
-- <span data-ttu-id="4bd00-109">항목을 만들거나 편집할 수 있는 사용자에 대한 [**권한이 있습니다.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions)</span><span class="sxs-lookup"><span data-stu-id="4bd00-109">Have permissions to [**Who can create or edit topics**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions).</span></span> <span data-ttu-id="4bd00-110">지식 관리자는 Viva 항목 항목의 사용 권한 설정에서 사용자에게 이 권한을 부여할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-110">Knowledge admins can give users this permission in the Viva Topics topic permissions settings.</span></span> 
+<span data-ttu-id="2ee00-104">Viva 항목에서는 인덱싱을 통해 검색되지 않았거나 AI 기술에서 이를 주제로 설정할 충분한 증거를 찾지 못하면 새 항목을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-104">In Viva Topics, you can create a new topic if one is not discovered through indexing or if the AI technology did not find enough evidence to establish it as a topic.</span></span>
 
 > [!Note] 
-> <span data-ttu-id="4bd00-111">항목 센터에서 항목을 관리할 수 있는 권한이 있는 사용자(기술 관리자)에게는 항목을 만들고 편집할 수 있는 권한이 이미 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-111">Users who have permission to manage topics in the topic center (knowledge managers) already have permissions to create and edit topics.</span></span>
+> <span data-ttu-id="2ee00-105">AI가 수집한 항목의 정보는 보안이 조정되는 반면 수동으로 만든 항목의 항목 설명 및 사용자 정보는 해당 항목을 볼 수 있는 권한이 있는 모든 사용자에게 표시됩니다. [](topic-experiences-security-trimming.md)</span><span class="sxs-lookup"><span data-stu-id="2ee00-105">While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), note that topic description and people information in a manually created topic is visible to all users who have permissions to view the topic.</span></span> 
 
-## <a name="to-create-a-topic"></a><span data-ttu-id="4bd00-112">항목을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-112">To create a topic</span></span>
 
-<span data-ttu-id="4bd00-113">다음 두 위치에서 새 항목을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-113">You can create a new topic from two locations:</span></span>
+## <a name="requirements"></a><span data-ttu-id="2ee00-106">요구 사항</span><span class="sxs-lookup"><span data-stu-id="2ee00-106">Requirements</span></span>
 
-- <span data-ttu-id="4bd00-114">항목 센터 홈 페이지: 항목  사용 권한을 만들거나 편집할 수 있는 사용자(참가자)가 있는 사용이 <b></b> 허가된 사용자는 새 메뉴를 선택하고 항목 페이지를 선택하여 항목 센터에서 새 항목을 만들 <b>수 있습니다.</b></span><span class="sxs-lookup"><span data-stu-id="4bd00-114">Topic center home page: Any licensed user with the **Who can create or edit topics** permission (contributors) can create a new topic from the topic center by selecting the <b>New</b> menu and select <b>Topic page</b>.</span></span></br> 
+<span data-ttu-id="2ee00-107">새 항목을 만들하려면 다음을 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-107">To create a new topic, you need to:</span></span>
+- <span data-ttu-id="2ee00-108">Viva 항목 라이선스가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-108">Have a Viva Topics license.</span></span>
+- <span data-ttu-id="2ee00-109">항목을 만들거나 편집할 수 [**있는 사용자에 대한 사용 권한이 있습니다.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions)</span><span class="sxs-lookup"><span data-stu-id="2ee00-109">Have permissions to [**Who can create or edit topics**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions).</span></span> <span data-ttu-id="2ee00-110">지식 관리자는 Viva 항목의 사용 권한 설정에서 사용자에게 이 권한을 부여할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-110">Knowledge admins can give users this permission in the Viva Topics topic permissions settings.</span></span> 
 
-    ![항목 센터의 새로운 항목](../media/knowledge-management/new-topic.png) </br> 
+> [!Note] 
+> <span data-ttu-id="2ee00-111">항목 센터에서 항목을 관리할 수 있는 권한이 있는 사용자(기술 관리자)에게는 이미 항목을 만들고 편집할 수 있는 권한이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-111">Users who have permission to manage topics in the topic center (knowledge managers) already have permissions to create and edit topics.</span></span>
 
-- <span data-ttu-id="4bd00-116">항목 관리 페이지: 항목 사용  권한을 관리할 수 있는 사용자(기술 관리자)가 있는 사용이 허가된 모든 사용자는 항목 센터의 항목 관리 페이지에서 새 항목 페이지를 선택하여 새 항목을 만들 수 <b>있습니다.</b></span><span class="sxs-lookup"><span data-stu-id="4bd00-116">Manage topics page:  Any licensed user who has **Who can manage topics** permission (knowledge managers) can create a new topic from the Manage topics page in the Topic Center by selecting <b>New topic page</b>.</span></span></br> 
+## <a name="to-create-a-topic"></a><span data-ttu-id="2ee00-112">항목을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-112">To create a topic</span></span>
+
+<span data-ttu-id="2ee00-113">다음 두 위치에서 새 항목을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-113">You can create a new topic from two locations:</span></span>
+
+- <span data-ttu-id="2ee00-114">항목 센터 홈 페이지: 항목을  만들거나 편집할 수 있는 사용자(참가자)가 있는 사용이 허가된 사용자는 <b></b> 새 메뉴를 선택하고 항목 페이지를 선택하여 항목 센터에서 새 항목을 만들 <b>수 있습니다.</b></span><span class="sxs-lookup"><span data-stu-id="2ee00-114">Topic center home page: Any licensed user with the **Who can create or edit topics** permission (contributors) can create a new topic from the topic center by selecting the <b>New</b> menu and select <b>Topic page</b>.</span></span></br> 
+
+    ![항목 센터의 새 항목](../media/knowledge-management/new-topic.png) </br> 
+
+- <span data-ttu-id="2ee00-116">항목 관리 페이지: 항목 사용  권한을 관리할 수 있는 사용자(기술 관리자)가 있는 사용이 허가된 모든 사용자는 항목 센터의 항목 관리 페이지에서 새 항목 페이지를 선택하여 새 항목을 만들 <b>수 있습니다.</b></span><span class="sxs-lookup"><span data-stu-id="2ee00-116">Manage topics page:  Any licensed user who has **Who can manage topics** permission (knowledge managers) can create a new topic from the Manage topics page in the Topic Center by selecting <b>New topic page</b>.</span></span></br> 
 
     ![항목 관리의 새로운 항목](../media/knowledge-management/new-topic-topic-center.png) </br> 
 
-### <a name="to-create-a-new-topic"></a><span data-ttu-id="4bd00-118">새 항목을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-118">To create a new topic:</span></span>
+### <a name="to-create-a-new-topic"></a><span data-ttu-id="2ee00-118">새 항목을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-118">To create a new topic:</span></span>
 
-1. <span data-ttu-id="4bd00-119">이 **항목 이름 섹션에서** 새 항목의 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-119">In the **Name this topic** section, type the name of the new topic.</span></span>
+1. <span data-ttu-id="2ee00-119">항목 관리 페이지의 리본 메뉴에서 새 항목 페이지를 만드는 옵션을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-119">Select the option to create a new Topic Page from the ribbon on the Manage Topics page.</span></span>
+
+2.   <span data-ttu-id="2ee00-120">이 **항목 이름 지정 섹션에서** 새 항목의 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-120">In the **Name this topic** section, type the name of the new topic.</span></span>
 
     ![이 항목의 이름을 지정합니다.](../media/knowledge-management/k-new-topic-page.png) </br> 
 
 
-2. <span data-ttu-id="4bd00-121">대체 <b>이름</b> 섹션에서 항목을 참조할 수 있는 다른 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-121">In the <b>Alternate Names</b> section, type any other names that the topic might be referred to.</span></span> 
+3. <span data-ttu-id="2ee00-122">대체 <b>이름 섹션에서</b> 항목을 참조할 수 있는 다른 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-122">In the <b>Alternate Names</b> section, type any other names that the topic might be referred to.</span></span> 
 
     ![대체 이름](../media/knowledge-management/alt-names.png) </br> 
-3. <span data-ttu-id="4bd00-123">Description <b>섹션에서</b> 항목을 설명하는 몇 문장을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-123">In the <b>Description</b> section, type a couple of sentences that describe the topic.</span></span> 
+4. <span data-ttu-id="2ee00-124">설명 <b>섹션에서</b> 항목을 설명하는 몇 가지 문장을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-124">In the <b>Description</b> section, type a couple of sentences that describe the topic.</span></span> 
 
     ![항목에 대한 설명](../media/knowledge-management/description.png)</br>
 
-4. <span data-ttu-id="4bd00-125">고정된 <b></b> 사용자 섹션에서 주제 전문가로 표시하기 위해 사람을 "고정"할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-125">In the <b>Pinned people</b> section, you can "pin" a person to show them as a subject matter expert on the topic.</span></span> <span data-ttu-id="4bd00-126">먼저 새 사용자 추가 상자에 <b></b> 이름 또는 전자 메일 주소를 입력한 다음 검색 결과에서 추가할 사용자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-126">Begin by typing their name or email address in the <b>add a new user</b> box, and then select the user you want to add from the search results.</span></span> <span data-ttu-id="4bd00-127">사용자 카드에서 목록에서 제거 아이콘을 <b></b> 선택하여 "제거"할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-127">You can also "unpin" them by selecting the <b>Remove from list</b> icon on the user card.</span></span> <span data-ttu-id="4bd00-128">또한 사람을 끌어서 사용자 목록이 나타나는 순서를 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-128">You can also drag the person to change the order that the list of people appear.</span></span>
+4. <span data-ttu-id="2ee00-126">고정된 <b>사용자 섹션에서</b> 주제 전문가로 표시하기 위해 사람을 "고정"할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-126">In the <b>Pinned people</b> section, you can "pin" a person to show them as a subject matter expert on the topic.</span></span> <span data-ttu-id="2ee00-127">먼저 새 사용자 추가 상자에 <b></b> 이름 또는 전자 메일 주소를 입력한 다음 검색 결과에서 추가할 사용자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-127">Begin by typing their name or email address in the <b>add a new user</b> box, and then select the user you want to add from the search results.</span></span> <span data-ttu-id="2ee00-128">사용자 카드에서 목록에서 제거 아이콘을 <b></b> 선택하여 "제거"할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-128">You can also "unpin" them by selecting the <b>Remove from list</b> icon on the user card.</span></span> <span data-ttu-id="2ee00-129">또한 사람을 끌어서 사용자 목록이 나타나는 순서를 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-129">You can also drag the person to change the order that the list of people appear.</span></span>
  
     ![고정된 사람](../media/knowledge-management/pinned-people.png)</br>
 
 
-5. <span data-ttu-id="4bd00-130">고정된 파일 <b>및 페이지</b> 섹션에서 항목과 연결된 파일 또는 SharePoint 사이트 페이지를 추가하거나 "고정"할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-130">In the <b>Pinned files and pages</b> section, you can add or "pin" a file or SharePoint site page that is associated to the topic.</span></span>
+5. <span data-ttu-id="2ee00-131">고정된 파일 및 <b>페이지 섹션에서</b> 항목과 연결된 파일 또는 SharePoint 사이트 페이지를 추가하거나 "고정"할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-131">In the <b>Pinned files and pages</b> section, you can add or "pin" a file or SharePoint site page that is associated to the topic.</span></span>
 
    ![고정된 파일 및 페이지](../media/knowledge-management/pinned-files-and-pages.png)</br>
  
-    <span data-ttu-id="4bd00-132">새 파일을 추가하려면 <b>추가를</b>선택하고 자주 방문하거나 팔로우한 사이트에서 SharePoint 사이트를 선택한 다음 사이트의 문서 라이브러리에서 해당 파일을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-132">To add a new file, select <b>Add</b>, select the SharePoint site from your Frequent or Followed sites, and then select the file from the site's document library.</span></span>
+    <span data-ttu-id="2ee00-133">새 파일을 추가하려면 <b>추가를</b>선택하고 자주 또는 팔로우한 사이트에서 SharePoint 사이트를 선택한 다음 사이트의 문서 라이브러리에서 해당 파일을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-133">To add a new file, select <b>Add</b>, select the SharePoint site from your Frequent or Followed sites, and then select the file from the site's document library.</span></span>
 
-    <span data-ttu-id="4bd00-133">링크 시작 옵션을 <b></b> 사용하여 URL을 제공하여 파일 또는 페이지를 추가할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-133">You can also use the <b>From a link</b> option to add a file or page by providing the URL.</span></span> 
+    <span data-ttu-id="2ee00-134">링크에서 옵션을 <b></b> 사용하여 URL을 제공하여 파일 또는 페이지를 추가할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-134">You can also use the <b>From a link</b> option to add a file or page by providing the URL.</span></span> 
 
     > [!Note] 
-    > <span data-ttu-id="4bd00-134">추가하는 파일 및 페이지는 동일한 Microsoft 365 테넌트 내에 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-134">Files and pages that you add must be located within the same Microsoft 365 tenant.</span></span> <span data-ttu-id="4bd00-135">항목의 외부 리소스에 대한 링크를 추가하려면 8단계의 캔버스 아이콘을 통해 추가하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-135">If you want to add a link to an external resource in the topic, you can add it through the canvas icon in step 8.</span></span>
+    > <span data-ttu-id="2ee00-135">추가하는 파일 및 페이지는 동일한 Microsoft 365 테넌트 내에 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-135">Files and pages that you add must be located within the same Microsoft 365 tenant.</span></span> <span data-ttu-id="2ee00-136">항목의 외부 리소스에 대한 링크를 추가하려면 8단계의 캔버스 아이콘을 통해 추가하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-136">If you want to add a link to an external resource in the topic, you can add it through the canvas icon in step 8.</span></span>
 
 
-6.  <span data-ttu-id="4bd00-136">관련 <b>사이트 섹션에는</b> 항목에 대한 정보가 있는 사이트가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-136">The <b>Related sites</b> section shows sites that have information about the topic.</span></span> 
+6.  <span data-ttu-id="2ee00-137">관련 <b>사이트 섹션에는</b> 항목에 대한 정보가 있는 사이트가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-137">The <b>Related sites</b> section shows sites that have information about the topic.</span></span> 
 
     ![관련 사이트 섹션](../media/knowledge-management/related-sites.png)</br>
 
-    <span data-ttu-id="4bd00-138">추가를 선택한 다음 사이트를 <b></b> 검색하거나 자주 또는 최근 사이트 목록에서 해당 사이트를 선택하여 관련 사이트를 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-138">You can add a related site by selecting <b>Add</b> and then either searching for the site, or selecting it from your list of Frequent or Recent sites.</span></span></br>
+    <span data-ttu-id="2ee00-139">추가를 선택한 다음 사이트를 <b></b> 검색하거나 자주 또는 최근 사이트 목록에서 해당 사이트를 선택하여 관련 사이트를 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-139">You can add a related site by selecting <b>Add</b> and then either searching for the site, or selecting it from your list of Frequent or Recent sites.</span></span></br>
     
     ![사이트 선택](../media/knowledge-management/sites.png)</br>
 
-7. <span data-ttu-id="4bd00-140">관련 <b>항목 섹션에는</b> 항목 간에 존재하는 연결이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-140">The <b>Related topics</b> section shows connections that exist between topics.</span></span> <span data-ttu-id="4bd00-141">관련 항목 연결 단추를 선택한 다음 <b></b> 관련 항목의 이름을 입력한 다음 검색 결과에서 해당 항목을 선택하여 다른 항목에 대한 연결을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-141">You can add a connection to a different topic by selecting the <b>Connect to a related topic</b> button, and then typing the name of the related topic, and selecting it from the search results.</span></span> 
+7. <span data-ttu-id="2ee00-141">관련 <b>항목 섹션에는</b> 항목 간에 존재하는 연결이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-141">The <b>Related topics</b> section shows connections that exist between topics.</span></span> <span data-ttu-id="2ee00-142">관련 항목에 연결 단추를 선택한 다음 <b></b> 관련 항목의 이름을 입력한 다음 검색 결과에서 해당 항목을 선택하여 다른 항목에 대한 연결을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-142">You can add a connection to a different topic by selecting the <b>Connect to a related topic</b> button, and then typing the name of the related topic, and selecting it from the search results.</span></span> 
 
    ![관련 항목](../media/knowledge-management/related-topic.png)</br>  
 
-    <span data-ttu-id="4bd00-143">그런 다음 항목의 관련성에 대한 설명을 입력하고 업데이트를 선택할 <b>수 있습니다.</b></span><span class="sxs-lookup"><span data-stu-id="4bd00-143">You can then give a description of how the topics are related, and select <b>Update</b>.</span></span></br>
+    <span data-ttu-id="2ee00-144">그런 다음 항목의 관계에 대한 설명을 입력하고 업데이트를 선택할 <b>수 있습니다.</b></span><span class="sxs-lookup"><span data-stu-id="2ee00-144">You can then give a description of how the topics are related, and select <b>Update</b>.</span></span></br>
 
    ![관련 항목 설명](../media/knowledge-management/related-topics-update.png)</br> 
 
-   <span data-ttu-id="4bd00-145">추가한 관련 항목은 연결된 항목으로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-145">The related topic you added will display as a connected topic.</span></span>
+   <span data-ttu-id="2ee00-146">추가한 관련 항목은 연결된 항목으로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-146">The related topic you added will display as a connected topic.</span></span>
 
    ![연결된 관련 항목](../media/knowledge-management/related-topics-final.png)</br> 
 
-   <span data-ttu-id="4bd00-147">관련 항목을 제거하려면 제거할 항목을 선택한 다음 항목 제거 <b>아이콘을</b> 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-147">To remove a related topic, select the topic you want to remove, then select the <b>Remove topic</b> icon.</span></span></br>
+   <span data-ttu-id="2ee00-148">관련 항목을 제거하려면 제거할 항목을 선택한 다음 항목 제거 <b>아이콘을</b> 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-148">To remove a related topic, select the topic you want to remove, then select the <b>Remove topic</b> icon.</span></span></br>
  
    ![관련 항목 제거](../media/knowledge-management/remove-related.png)</br>  
 
-   <span data-ttu-id="4bd00-149">그런 다음 <b>제거를 선택합니다.</b></span><span class="sxs-lookup"><span data-stu-id="4bd00-149">Then select <b>Remove</b>.</span></span></br>
+   <span data-ttu-id="2ee00-150">그런 다음 <b>제거를 선택합니다.</b></span><span class="sxs-lookup"><span data-stu-id="2ee00-150">Then select <b>Remove</b>.</span></span></br>
 
    ![제거 확인](../media/knowledge-management/remove-related-confirm.png)</br> 
      
  
 
 
-8. <span data-ttu-id="4bd00-151">간단한 설명 아래에 있는 캔버스 아이콘을 선택하여 페이지에 정적 항목(예: 텍스트, 이미지 또는 링크)을 추가할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-151">You can also add static items to the page (such as text, images, or links) by selecting the canvas icon, which you can find below the short description.</span></span> <span data-ttu-id="4bd00-152">이 옵션을 선택하면 페이지에 추가할 항목을 선택할 수 있는 SharePoint 도구 상자가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-152">Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.</span></span>
+8. <span data-ttu-id="2ee00-152">간단한 설명 아래에 있는 캔버스 아이콘을 선택하여 페이지에 정적 항목(예: 텍스트, 이미지 또는 링크)을 추가할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-152">You can also add static items to the page (such as text, images, or links) by selecting the canvas icon, which you can find below the short description.</span></span> <span data-ttu-id="2ee00-153">이 옵션을 선택하면 페이지에 추가할 항목을 선택할 수 있는 SharePoint 도구 상자가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-153">Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.</span></span>
 
    ![캔버스 아이콘](../media/knowledge-management/webpart-library.png)</br> 
 
 
-9. <span data-ttu-id="4bd00-154">게시를 **선택하여** 변경 내용을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-154">Select **Publish** to save your changes.</span></span> 
+9. <span data-ttu-id="2ee00-155">변경 **내용을** 저장하려면 게시를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-155">Select **Publish** to save your changes.</span></span> 
 
-<span data-ttu-id="4bd00-155">페이지를 게시하면 항목 이름, 대체 이름, 설명 및 고정된 사용자가 해당 항목을 보는 모든 사용이 허가된 사용자에게 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-155">After you publish the page, the topic name, alternate name, description, and pinned people will display to all licensed users who view the topic.</span></span> <span data-ttu-id="4bd00-156">특정 파일, 페이지 및 사이트는 보기 권한자에 항목에 대한 Office 365 권한이 있는 경우 항목 페이지에만 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="4bd00-156">Specific files, pages, and sites will only appear on the topic page if the viewer has Office 365 permissions to the item.</span></span> 
+<span data-ttu-id="2ee00-156">페이지를 게시하면 항목 이름, 대체 이름, 설명 및 고정된 사용자가 해당 항목을 보는 모든 라이선스 사용자에게 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-156">After you publish the page, the topic name, alternate name, description, and pinned people will display to all licensed users who view the topic.</span></span> <span data-ttu-id="2ee00-157">특정 파일, 페이지 및 사이트는 보기 권한자에 항목에 대한 Office 365 권한이 있는 경우 항목 페이지에만 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="2ee00-157">Specific files, pages, and sites will only appear on the topic page if the viewer has Office 365 permissions to the item.</span></span> 
 
 
 
-## <a name="see-also"></a><span data-ttu-id="4bd00-157">참고 항목</span><span class="sxs-lookup"><span data-stu-id="4bd00-157">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2ee00-158">참고 항목</span><span class="sxs-lookup"><span data-stu-id="2ee00-158">See also</span></span>
 
 
 
