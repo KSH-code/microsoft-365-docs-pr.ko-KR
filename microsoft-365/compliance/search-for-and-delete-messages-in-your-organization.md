@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: 보안 및 준수 센터의 검색 및 삭제하기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
-ms.openlocfilehash: f4bcd012708c0b7e9fa37b06288cda18ad4766cf
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 52871fc85a4d5aec1754c1957f2087552b442daf
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546536"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423699"
 ---
 # <a name="search-for-and-delete-email-messages"></a>전자 메일 메시지 검색 및 삭제
 
@@ -47,7 +47,7 @@ ms.locfileid: "47546536"
 
 - 사서함마다 한 번에 최대 10개의 항목을 제거할 수 있습니다. 메시지를 검색하고 제거하는 기능은 인시던트 응답 도구로 고안되었으므로 이러한 제한은 사서함에서 메시지가 빠르게 제거되도록 합니다. 이 기능은 사용자 사서함을 정리하기 위한 것이 아닙니다.
 
-- 콘텐츠 검색에서 검색 및 삭제 작업을 수행하여 항목을 삭제할 수 있는 최대 사서함 수는 50,000개입니다. [1단계](#step-1-create-a-content-search-to-find-the-message-to-delete)에서 만든 콘텐츠 검색에 50,000개를 초과하는 원본 사서함이 있는 경우 3단계에서 만드는 삭제 작업이 실패합니다. 50,000개 이상의 사서함에 대해 검색 및 삭제 작업을 수행하는 방법에 대한 자세한 내용은 [추가 정보](#more-information) 섹션을 참조하세요.
+- 콘텐츠 검색에서 검색 및 삭제 작업을 사용하여 항목을 삭제할 수 있는 최대 사서함 수는 50,000개입니다. [1단계](#step-1-create-a-content-search-to-find-the-message-to-delete)에서 만든 검색에 50,000개를 초과하는 사서함이 있는 경우 3단계에서 만드는 삭제 작업이 실패합니다. 일반적으로 단일 검색에서 50,000개 이상의 편지함을 검색하는 작업은 조직의 모든 편지함을 포함하도록 검색을 구성할 때 발생할 수 있습니다. 이 제한은 50,000개 미만의 사서함에 검색 쿼리와 일치하는 항목이 포함된 경우에도 적용됩니다. 50,000개 이상의 사서함에서 검색 권한 필터를 사용하여 항목을 검색하고 제거하는 방법에 대한 지침은 [자세한 정보](#more-information) 색션을 참조하세요.
 
 - 이 문서의 절차는 Exchange Online 사서함 및 공용 폴더에서 항목을 삭제하는 데에만 사용할 수 있습니다. SharePoint 또는 비즈니스용 OneDrive 사이트에서 콘텐츠를 삭제하는 데에는 사용할 수 없습니다.
 
@@ -133,7 +133,7 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
 
 - **검색 및 삭제 작업에 대한 상태를 어떻게 가져오나요?**
 
-  삭제 작업에 대한 상태를 가져오려면 **Get-ComplianceSearchAction**을 실행합니다. **New-ComplianceSearchAction** cmdlet을 실행할 때 생성되는 개체의 이름은 다음 형식을 사용하여 지정됩니다. `<name of Content Search>_Purge`.
+  삭제 작업에 대한 상태를 가져오려면 **Get-ComplianceSearchAction** 을 실행합니다. **New-ComplianceSearchAction** cmdlet을 실행할 때 생성되는 개체의 이름은 다음 형식을 사용하여 지정됩니다. `<name of Content Search>_Purge`.
 
 - **메시지를 삭제하면 어떻게 되나요?**
 
@@ -143,7 +143,7 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
 
 - **50,000개를 초과하는 사서함에서 메시지를 삭제해야 하는 경우 어떻게 되나요?**
 
-  앞서 설명한 대로 최대 50,000개의 사서함에서 검색 및 삭제 작업을 수행할 수 있습니다. 50,000개를 초과하는 사서함에서 검색 및 삭제 작업을 수행해야 하는 경우 검색되는 사서함 수를 50,000개 이하로 줄여주는 임시 검색 권한 필터를 만들어 보세요. 예를 들어 여러 부서, 주 또는 국가에 조직의 사서함이 포함되어 있는 경우 이러한 사서함 속성 중 하나를 기반으로 사서함 검색 권한 필터를 만들어 조직의 사서함 하위 집합을 검색할 수 있습니다. 검색 사용 권한 필터를 만든 후 1단계에서 설명한 대로 검색을 만든 후 3단계에서 설명한 대로 메시지를 삭제합니다. 그런 다음 필터를 편집하여 다른 사서함 집합에서 메시지를 검색한 후 삭제할 수 있습니다. 검색 권한 필터를 만드는 방법에 대한 자세한 내용은 [콘텐츠 검색에 대한 권한 필터링 구성](permissions-filtering-for-content-search.md)을 참조하세요.
+  앞서 설명한 대로 최대 50,000개의 사서함에서 검색 및 삭제 작업을 수행할 수 있습니다(50,000개 미만의 항목에 검색 쿼리와 일치하는 항목이 포함된 경우에도 마찬가지입니다.) 50,000개를 초과하는 사서함에서 검색 및 삭제 작업을 수행해야 하는 경우 검색되는 사서함 수를 50,000개 이하로 줄여주는 임시 검색 권한 필터를 만들어 보세요. 예를 들어 여러 부서, 주 또는 국가에 조직의 사서함이 포함되어 있는 경우 이러한 사서함 속성 중 하나를 기반으로 사서함 검색 권한 필터를 만들어 조직의 사서함 하위 집합을 검색할 수 있습니다. 검색 사용 권한 필터를 만든 후 1단계에서 설명한 대로 검색을 만든 후 3단계에서 설명한 대로 메시지를 삭제합니다. 그런 다음 필터를 편집하여 다른 사서함 집합에서 메시지를 검색한 후 삭제할 수 있습니다. 검색 권한 필터를 만드는 방법에 대한 자세한 내용은 [콘텐츠 검색에 대한 권한 필터링 구성](permissions-filtering-for-content-search.md)을 참조하세요.
 
 - **검색 결과에 포함된 인덱싱되지 않은 항목이 삭제되나요?**
 
