@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Defender 선행 준비
-description: Microsoft 365 Defender의 라이선싱, 하드웨어 및 소프트웨어 요구 사항 및 기타 구성 설정에 대해 자세히 알아보기
+description: Microsoft 365 Defender의 라이선스, 하드웨어 및 소프트웨어 요구 사항 및 기타 구성 설정에 대해 자세히 알아보시다.
 keywords: 요구 사항, 선행 조건, 하드웨어, 소프트웨어, 브라우저, MTP, M365, 라이선스, E5, A5, EMS, 구매
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: ee1777debdb91a6ac73737db2db48e434ed3e2e2
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: afa5cd42545eddafb1d0ec1a6d88eb0903e07820
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930093"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454554"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Microsoft 365 Defender 선행 준비
 
@@ -35,7 +35,7 @@ ms.locfileid: "49930093"
 **적용 대상:**
 - Microsoft 365 Defender
 
-[Microsoft 365 Defender](microsoft-threat-protection.md)프로비전 및 사용에 대한 라이선싱 및 기타 요구 사항에 대해 자세히 알아보습니다.
+[Microsoft 365 Defender](microsoft-threat-protection.md)프로비전 및 사용에 대한 라이선스 및 기타 요구 사항에 대해 자세히 알아보습니다.
 
 ## <a name="licensing-requirements"></a>라이선스 요구 사항
 이러한 라이선스를 사용하면 추가 비용 없이 Microsoft 365 보안 센터의 Microsoft 365 Defender 기능에 액세스할 수 있습니다.
@@ -50,21 +50,18 @@ ms.locfileid: "49930093"
 - Microsoft Cloud App Security
 - Office 365용 Defender(계획 2)
 
-> [!NOTE]
-> Office 365의 평가판 라이선스는 현재 Microsoft 365 Defender에 대한 액세스를 제공하지 않습니다.
-
-자세한 내용은 [Microsoft 365 Enterprise](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise)서비스 계획을 참조하십시오.
+자세한 내용은 [Microsoft 365 Enterprise](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise)서비스 요금제 를 참조하십시오.
 
 > 아직 라이선스가 없는 경우 [Microsoft 365 구독 체험 또는 구매](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
 
 ### <a name="check-your-existing--licenses"></a>기존 라이선스 확인
-기존 라이선스를 확인하려면 Microsoft[](https://admin.microsoft.com/)365 관리 센터(admin.microsoft.com)로 이동하세요. 관리 센터에서 **청구** > **라이선스** 로 이동합니다.
+Microsoft 365 관리[센터(admin.microsoft.com](https://admin.microsoft.com/))로 이동하여 기존 라이선스를 하세요. 관리 센터에서 **청구** > **라이선스** 로 이동합니다.
 
 >[!NOTE]
 > 라이선스 정보를 볼 수  있게 하려면  [Azure AD에서](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 청구 관리자 또는 전역 리더 역할을 할당해야 합니다. 액세스 문제가 발생하는 경우 전역 관리자에게 문의하세요.
 
 ## <a name="required-permissions"></a>필요한 사용 권한
-Microsoft 365 Defender를 켜기 위해 Azure Active Directory의 전역 관리자 또는 보안 관리자 되어야 합니다.   Microsoft 365 Defender를 사용하는 데 필요한 역할 목록과 데이터에 대한 액세스가 규제되는 방법에 대한 정보는 [Microsoft 365 Defender에](mtp-permissions.md)대한 액세스 관리에 대해 읽어보아야 합니다.
+Microsoft 365 Defender를 켜기 위해 Azure Active Directory에서 전역 관리자 또는 보안 관리자 되어야 합니다.   Microsoft 365 Defender를 사용하는 데 필요한 역할 목록과 데이터에 대한 액세스가 규제되는 방법에 대한 정보는 [Microsoft 365 Defender에](mtp-permissions.md)대한 액세스 관리에 대해 읽어 보아야 합니다.
 
 ## <a name="browser-requirements"></a>브라우저 요구 사항
 Microsoft Edge, Internet Explorer 11 또는 HTML 5 호환 웹 브라우저를 사용하여 Microsoft 365 보안 센터에서 Microsoft 365 Defender에 액세스합니다.

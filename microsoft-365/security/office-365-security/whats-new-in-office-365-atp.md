@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2fd999c27598db6f17073cfe82e4c4f91ffb1667
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 7b6175f507f54adf357e40ea44c39f5e495a1b14
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407207"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454492"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 새로운
 
@@ -46,6 +46,7 @@ ms.locfileid: "50407207"
 - 헌팅 환경의 경고 ID 통합(경고 ID [](threat-explorer.md) 및 Alert-Explorer 탐색을 사용하여 검색)
 - 헌팅 환경의 레코드 내보내기 제한을 9990에서 200,000으로 [늘리기](threat-explorer.md)
 - 헌팅 환경의 평가판 테넌트에 대한 탐색기(및 실시간 검색) 데이터 보존 및 검색 제한을 7일(이전 제한)에서 30일로 [확장](threat-explorer.md)
+- 탐색기 내에서 가장된  도메인 및 가장된 사용자라는 새로운 헌팅 피벗을 사용하여 보호된 사용자 또는 도메인에 대한 가장 공격을 검색합니다.  자세한 내용은 세부 [정보를 참조하세요.](threat-explorer.md#view-phishing-emails-sent-to-impersonated-users-and-domains) (Microsoft Defender for Office 365 계획 1 또는 계획 2)
 
 ## <a name="december-2020"></a>2020년 12월
 

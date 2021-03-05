@@ -36,10 +36,6 @@
           href: communication-compliance-feature-reference.md
         - name: 사례 연구 - Contoso에서 빠르게 무례한 언어 정책을 구성합니다
           href: communication-compliance-case-study.md
-        - name: Office 365에서의 감독 정책
-          href: supervision-policies.md
-        - name: Office 365에 대한 감독 정책 구성
-          href: configure-supervision-policies.md
     - name: 내부자 위험 관리
       items:
         - name: 개요

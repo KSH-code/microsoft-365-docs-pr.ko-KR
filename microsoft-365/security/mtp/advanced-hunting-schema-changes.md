@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender 고급 헌팅의 이름 변경 사항
-description: 고급 헌팅chema에서 이름 변경 테이블 및 열 추적 및 검토
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, data, naming changes, rename, Microsoft Threat Protection
+title: Microsoft 365 Defender 고급 헌팅 스위마의 이름 변경 사항
+description: 고급 헌팅 스위마의 변경 테이블 및 열 이름 변경 추적 및 검토
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 데이터, 명명 변경, 이름 변경, 이름 변경, Microsoft Threat Protection
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3f03543b03dca5fe426700ffff4f5c6edb8fa3c7
-ms.sourcegitcommit: c550c1b5b9e67398fd95bfb0256c4f5c7930b2be
+ms.openlocfilehash: cd06286083297d0930270868b99a14f8ddb2f4b2
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50066872"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461670"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>고급 헌팅 스마 - 이름 변경
 
@@ -72,7 +72,38 @@ ms.locfileid: "50066872"
 | `ServiceSource` | Office 365 ATP  |Office 365용 Microsoft Defender | Rebranding |
 | `ServiceSource` |Azure ATP    |ID용 Microsoft Defender | Rebranding |
 
-`DetectionSource` 는 [AlertInfo 테이블에서](advanced-hunting-alertinfo-table.md) 사용할 수 있습니다. `ServiceSource` 은 [AlertEvidence](advanced-hunting-alertevidence-table.md) 및 [AlertInfo 테이블에서](advanced-hunting-alertinfo-table.md) 사용할 수 있습니다. 
+`DetectionSource` 은 [AlertInfo 테이블에서](advanced-hunting-alertinfo-table.md) 사용할 수 있습니다. `ServiceSource` 은 [AlertEvidence](advanced-hunting-alertevidence-table.md) 및 [AlertInfo 테이블에서](advanced-hunting-alertinfo-table.md) 사용할 수 있습니다. 
+
+## <a name="february-2021"></a>2021년 2월
+
+1. [EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md) 및 [EmailEvents](advanced-hunting-emailevents-table.md) 테이블에서는 및 열을 더는 사용하지 `MalwareFilterVerdict` `PhishFilterVerdict` `ThreatTypes` 않습니다. 또한 및 열을 더는 사용 안 하여 `MalwareDetectionMethod` `PhishDetectionMethod` 열로 `DetectionMethods` 대체했습니다. 이 간소화를 통해 새 열 아래에 추가 정보를 제공할 수 있습니다. 매핑은 아래에 제공됩니다.
+
+| 테이블 이름 | 원래 열 이름 | 새 열 이름 | 변경 이유
+|--|--|--|--|
+| `EmailAttachmentInfo` | `MalwareDetectionMethod` <br> `PhishDetectionMethod` | `DetectionMethods` | 추가 검색 방법 포함 |
+| `EmailAttachmentInfo`  | `MalwareFilterVerdict` <br>`PhishFilterVerdict` | `ThreatTypes` | 더 많은 위협 유형 포함 |
+| `EmailEvents` | `MalwareDetectionMethod` <br> `PhishDetectionMethod` | `DetectionMethods` | 추가 검색 방법 포함 |
+| `EmailEvents` | `MalwareFilterVerdict` <br>`PhishFilterVerdict` | `ThreatTypes` | 더 많은 위협 유형 포함 |
+
+
+2. 및 테이블에 전자 메일 위협에 대한 자세한 정보를 제공하기 위해 `EmailAttachmentInfo` `EmailEvents` `ThreatNames` 열을 추가합니다. 이 열에는 스팸 또는 피싱과 같은 값이 포함되어 있습니다.
+
+3. [DeviceInfo](advanced-hunting-deviceinfo-table.md) 테이블에서 고객 의견에 따라 열을 `DeviceObjectId` `AadDeviceId` 대체했습니다.
+
+4. [DeviceEvents](advanced-hunting-deviceevents-table.md) 테이블에서 작업 설명을 보다 잘 반영하기 위해 몇 가지 ActionType 이름을 업데이트했습니다. 세부 정보는 아래에서 찾을 수 있습니다.
+
+| 테이블 이름 | Original ActionType 이름 | 새 ActionType 이름 | 변경 이유
+|--|--|--|--|
+| `DeviceEvents` | `DlpPocPrintJob` | `FilePrinted` | 고객 피드백 |
+| `DeviceEvents` | `UsbDriveMount` | `UsbDriveMounted` | 고객 피드백 |
+| `DeviceEvents` | `UsbDriveUnmount` | `UsbDriveUnmounted` | 고객 피드백 |
+| `DeviceEvents` | `WriteProcessMemoryApiCall` | `WriteToLsassProcessMemory` | 고객 피드백 |
+| `DeviceEvents` | `AntivirusDetection` | `EdrBlock` | 고객 피드백 |
+
+
+
+
+
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)

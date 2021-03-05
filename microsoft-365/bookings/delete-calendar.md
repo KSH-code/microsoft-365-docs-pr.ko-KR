@@ -8,26 +8,26 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
-description: Microsoft 365 관리 센터 또는 Windows PowerShell 예약 일정을 삭제합니다.
-ms.openlocfilehash: 2fcb92cee18d709ef0e1fa3faa0246e622a9f9db
-ms.sourcegitcommit: 0402d3275632fceda9137b6abc3ce48c8020172a
+description: Microsoft 365 관리 센터 또는 예약 Windows PowerShell 일정을 삭제합니다.
+ms.openlocfilehash: 1f8df15eafac7867f7ae852e344e1c5730362598
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49126652"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454208"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Bookings에서 예약 일정 삭제
 
-이 문서에서는 원치 않는 예약 일정을 삭제하는 방법에 대해 설명합니다. Microsoft 365 관리 센터에서 예약 일정을 삭제하거나 PowerShell을 사용할 수 있습니다. Bookings 일정은 Exchange Online의 사서함으로, 해당 사용자 계정을 삭제하여 예약 일정을 삭제합니다.
+이 문서에서는 원치 않는 예약 일정을 삭제하는 방법에 대해 설명하고 있습니다. Microsoft 365 관리 센터에서 예약 일정을 삭제하거나 PowerShell을 사용할 수 있습니다. Bookings 일정은 Exchange Online의 사서함으로, 해당 사용자 계정을 삭제하여 예약 일정을 삭제합니다.
 
 > [!IMPORTANT]
-> 2017년 또는 그 전에 만든 모든 예약 일정은 이 항목의 PowerShell 지침을 사용하여 삭제해야 합니다. 2018년 또는 그 이후에 만든 모든 예약 일정은 Microsoft 365 관리 센터에서 삭제할 수 있습니다.
+> 2017년 또는 그 전에 만든 모든 예약 일정은 이 항목의 PowerShell 지침을 사용하여 삭제해야 합니다. 2018년 또는 그 이후에 만들어진 모든 예약 일정은 Microsoft 365 관리 센터에서 삭제할 수 있습니다.
 
 예약 일정은 다음을 포함하여 예약 일정 및 데이터에 대한 모든 관련 정보가 저장되는 위치입니다.
 
-- 예약 일정을 만들 때 추가된 비즈니스 정보, 로고 및 작업 시간
+- 예약 일정을 만들 때 추가된 업무 정보, 로고 및 작업 시간
 - 예약 일정을 만들 때 추가된 관련 직원 및 서비스
-- 모든 예약 및 약속을 만든 후 예약 일정에 추가된 약속의 시간입니다.
+- 예약 일정을 만든 후 예약 일정에 추가된 모든 예약 및 약속이 벗어났습니다.
 
 > [!WARNING]
 > 예약 일정이 삭제되면 이 추가 정보도 영구적으로 삭제되고 복구할 수 없습니다.
@@ -46,49 +46,48 @@ ms.locfileid: "49126652"
 
 ## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a>Exchange Online PowerShell을 사용하여 예약 일정 삭제
 
-Exchange [Online PowerShell에](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) 연결하기 위한 전제 및 지침은 Exchange Online PowerShell에 연결하기를 참조하세요.
+Exchange [Online PowerShell에](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) 연결하기 위한 사전 및 지침은 Exchange Online PowerShell에 연결을 참조하세요.
 
 이러한 단계를 수행하려면 "관리자 권한으로 실행" 옵션을 선택하여 실행한 활성 Microsoft PowerShell 명령 창을 사용하고 있어야 합니다.
 
-1. 다음 명령을 입력합니다.
+1. PowerShell 창에서 다음 명령을 실행하여 EXO V2 모듈을 로드합니다.
 
-   ```PowerShell
-    $user = get-credential
+   ```powershell
+   Import-Module ExchangeOnlineManagement
    ```
 
-1. 메시지가 표시되면 영구적으로 삭제할 예약 일정을 호스트하는 Microsoft 365 테넌트에 테넌트 관리자 자격 증명으로 로그온합니다.
+   > [!NOTE]
+   > [EXO V2 모듈을 이미 설치](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exo-v2-module)한 경우 이전 명령은 기록된 대로 작동합니다.
+   
+2. 실행해야 하는 명령은 다음 구문을 사용합니다.
 
-1. PowerShell 명령 프롬프트에 다음 명령을 입력합니다.
-
-   ```PowerShell
-    $s = New-Pssession -ConnectionUri https://outlook.office365.com/powershell-liveid -Credential $user -Authentication basic -AllowRedirection -ConfigurationName Microsoft.Exchange
+   ```powershell
+   Connect-ExchangeOnline -UserPrincipalName <UPN> 
    ```
 
-1. 다음 명령을 입력합니다.
+   - _\<UPN\>_ 은(는) 사용자 계정 이름 형식(예: `john@contoso.com`)의 계정입니다.
 
-   ```PowerShell
-    Import-PSSession $s
+3. 메시지가 표시되면 영구적으로 삭제할 예약 일정을 호스트하는 Microsoft 365 테넌트에 테넌트 관리자 자격 증명으로 로그온합니다.
+
+4. 이 명령의 처리가 완료되면 다음 명령을 입력하여 테넌트의 예약 사서함 목록을 얻습니다.
+
+   ```powershell
+   Get-EXOMailbox -RecipientTypeDetails Scheduling
    ```
 
-1. 이 명령이 처리된 후 다음 명령을 입력하여 테넌트의 예약 사서함 목록을 얻습니다.
+5. 다음 명령을 입력합니다.
 
-   ```PowerShell
-    get-mailbox -RecipientTypeDetails Scheduling
-   ```
-
-1. 다음 명령을 입력합니다.
-
-   ```PowerShell
+   ```powershell
    remove-mailbox [BookingCalendarToDelete]
    ```
 
    > [!IMPORTANT]
    > 영구적으로 삭제할 예약 사서함 별칭의 정확한 이름을 입력해야 합니다.
 
-1. 일정이 삭제된 것을 확인하려면 다음 명령을 입력합니다.
+6. 일정이 삭제된 것을 확인하려면 다음 명령을 입력합니다.
 
-   ```PowerShell
-    get-mailbox -RecipientTypeDetails Scheduling
+   ```powershell
+    Get-EXOMailbox -RecipientTypeDetails Scheduling
    ```
 
    삭제된 달력은 출력에 나타나지 않습니다.
