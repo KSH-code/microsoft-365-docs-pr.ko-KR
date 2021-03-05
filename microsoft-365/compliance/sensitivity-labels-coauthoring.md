@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: SharePoint 및 OneDrive의 레이블이 지정되고 암호화된 문서에 대해 데스크톱 앱에서 공동 작성 및 자동 저장을 사용할 수 있도록 설정하세요.
-ms.openlocfilehash: a5c3e84e4ca8874f99a07294dccfd2e4ad7ed81f
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 3946fa5a08011cc98e8dfad921a08ca0fa77af7a
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50417412"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423865"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>민감도 레이블로 암호화된 파일에 공동 작성 사용
 
@@ -89,7 +89,7 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
         - Android: 아직 지원되지 않음
     
     - **Azure Information Protection 통합 레이블 지정 클라이언트 및 스캐너:** 
-        - [Microsoft 다운로드 센터](https://aka.ms/aip-coauth-pp) 및 이전 항목에 나열된 Windows를 위한 엔터프라이즈용 Microsoft 365 앱 버전 중 하나에서 설치할 수 있는 공개 미리 보기 버전(2.10.45.0 최소 버전)입니다.
+        - [Microsoft 다운로드 센터](https://www.microsoft.com/en-us/download/details.aspx?id=53018) 및 이전 항목에 나열된 Windows를 위한 엔터프라이즈용 Microsoft 365 앱 버전 중 하나에서 설치할 수 있는 공개 미리 보기 버전(AzInfoProtection_2.10.46_CoAuthoring_PublicPreview.exe의 설치 이름)입니다.
     
     - **Windows 또는 MacOS용 OneDrive 동기화 앱:**
         - 19.002.0121.0008 최소 버전
@@ -122,6 +122,8 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
     - **이중 키 암호화** 가 선택됩니다.
     
     이러한 암호화 구성이 있는 레이블이면, 레이블은 Office 앱에 표시됩니다. 하지만 사용자가 이러한 레이블을 선택해도 문서를 편집하는 다른 사용자가 없으면, 공동 작성 및 자동 저장을 사용할 수 없다는 경고가 표시됩니다. 다른 사용자가 문서를 편집한다면, 레이블을 적용할 수 없다는 메시지가 나타납니다.
+
+- Azure Information Protection 통합 레이블 지정 클라이언트를 사용하는 경우: 이 레이블 지정 클라이언트에 대한 설명서 [추가 요구 사항 또는 제한](https://docs.microsoft.com/azure/information-protection/known-issues#known-issues-for-co-authoring-public-preview)에서 참조하세요.
 
 ## <a name="known-issues-for-this-preview"></a>이 미리 보기의 알려진 문제
 

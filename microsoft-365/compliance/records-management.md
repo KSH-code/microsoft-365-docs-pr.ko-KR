@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Microsoft 365의 레코드 관리를 사용하여 보존 일정을 파일 플랜에 적용하여 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: 1f6ab392abbf55851e1f084507d3f1658c3cf264
-ms.sourcegitcommit: 64262f6f42dcce6a4608b2e3c7ca6190b7009093
+ms.openlocfilehash: 857f8118bb2cc0f94065a8b8696c92bd3ae05cc4
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49905237"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461853"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Microsoft 365의 레코드 관리하기에 대해 알아보기
 
@@ -98,7 +98,7 @@ Microsoft 365에서 다음 기능을 사용하여 레코드 관리 솔루션을 
 
 ![SharePoint에서 항목이 삭제되지 않았다는 메시지](../media/d0020726-1593-4a96-b07c-89b275e75c49.png)
 
-<sup>2</sup> 컨테이너에는 SharePoint 문서 라이브러리와 Exchange 사서함이 포함됩니다.
+<sup>2</sup> 컨테이너에는 SharePoint 문서 라이브러리, OneDrive계정과 Exchange 사서함이 포함됩니다.
 
 >[!IMPORTANT] 
 > 규제 기록에서 가장 중요한 차이는 콘텐츠에 적용한 후에는 이를 아무도, 심지어 전역 관리자도 레이블을 제거할 수 없다는 점입니다. 

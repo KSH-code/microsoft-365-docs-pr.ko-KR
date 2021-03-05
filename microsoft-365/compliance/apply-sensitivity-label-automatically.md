@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 4bbea7810c20d72ef75bbb5602b1daddfce45576
-ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
+ms.openlocfilehash: 4eeedca64d1b2244355bb3e0e233969bdd02810c
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084679"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461893"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -60,7 +60,7 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
     
     SharePoint 및 OneDrive에 대한 자동 레이블 지정에만 해당:
     - Word, PowerPoint 및 Excel용 Office 파일이 지원됩니다. Open XML 형식(예: .docx 및 .xlsx)은 지원되지만, Microsoft Office 97~2003 형식(예: .doc 및 .xls)은 지원되지 않습니다.
-        - 이러한 파일은 열려 있는 세션의 일부가 아닌 경우, 자동 레이블 지정 정책을 만든 이후 해당 파일이 생성, 업로드 또는 변경되었는지, 또는 자동 레이블 지정 정책을 만든 이후 변경되지 않은 기존 파일인지 여부에 관계없이 자동으로 레이블이 지정될 수 있습니다.
+        - 이러한 파일은 자동 레이블 지정 정책이 작성되기 전이나 만들어진 후에 유휴 상태로 자동 레이블링될 수 있습니다. 파일이 열려 있는 세션(파일이 열려 있는 경우)의 일부인 경우 자동 레이블을 지정할 수 없습니다.
     - 테넌트에서 하루 최대 25,000개의 자동 레이블 지정 파일 수.
     - 최대 10개의 사이트 (SharePoint 또는 OneDrive)를 대상으로 하는 테넌트당 최대 10개의 자동 레이블 정책.
     - 시뮬레이션 모드 및 레이블 적용 시 둘 다의 경우 자동 레이블링 정책의 결과로 수정됨, 수정자 및 날짜에 대한 기존 값은 변경되지 않습니다.
