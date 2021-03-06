@@ -87,6 +87,8 @@
       items:
         - name: Bookings 개요
           href: overview-bookings.md
+        - name: Microsoft Lists를 사용하여 비즈니스 정보 추적
+          href: track-info-lists.md
         - name: 이벤트 계획
           href: plan-event.md
     - name: 서비스 관리
