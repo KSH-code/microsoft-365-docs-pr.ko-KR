@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 02f12174ef3b8a55f9642bba41c845952b1c1c48
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 141eb16ae77c44c51358c07a74f5050eb07dc26f
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950547"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50509281"
 ---
 # <a name="get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop 시작
 
@@ -21,7 +21,7 @@ ms.locfileid: "47950547"
 > 이 단계를 수행하는 것이 좋습니다. 그러나 순서는 어느 정도 조정할 수 있습니다.
 
 1. [관리 포털에서 관리자 연락처 추가 및 확인](add-admin-contacts.md)
-2. [조건부 액세스 조정](conditional-access.md)
+2. [등록 후 설정 수정](conditional-access.md)
 3. [라이선스 할당](assign-licenses.md)
 4. [Intune 회사 포털 배포](company-portal.md)
 5. [엔터프라이즈 상태 로밍 사용](enterprise-state-roaming.md)

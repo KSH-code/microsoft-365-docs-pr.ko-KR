@@ -19,12 +19,12 @@ localization_priority: Priority
 description: 관리자는 EOP가 전자 메일 인증(SPF, DKIM 및 DMARC)을 사용하여 스푸핑, 피싱 및 스팸을 방지하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d1e0fbe8a00b17e871adf65f86a337a0a94493ed
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 87677608431446a4bdfe6e16ae1204163a4f582a
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50286516"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50509197"
 ---
 # <a name="email-authentication-in-eop"></a>EOP에서 전자 메일 인증
 
@@ -60,7 +60,7 @@ DMARC는 메시지의 **보낸 사람** 주소를 검사하여 스푸핑을 방�
 
 강력한 전자 메일 인증 정책을 게시하는 중소기업의 비율은 더 적습니다. 그리고 북아메리카와 서유럽 밖의 전자 메일 도메인의 숫자는 더 적습니다.
 
-강력한 전자 메일 인증 정책이 없는 것은 큰 문제입니다. W 조직은 전자 메일 인증이 작동하는 방식을 이해하지 못할 수 있지만 공격자는 전자 메일 인증을 완전히 이해하고 이를 활용합니다. Microsoft는 피싱 문제와 강력한 전자 메일 인증 정책의 제한적인 채택으로 인해 *암시적 전자 메일 인증* 을(를) 사용하여 인바운드 전자 메일을 확인합니다.
+강력한 전자 메일 인증 정책이 없는 것은 큰 문제입니다. 조직은 전자 메일 인증이 작동하는 방식을 이해하지 못할 수 있지만 공격자는 전자 메일 인증을 완전히 이해하고 이를 활용합니다. Microsoft는 피싱 문제와 강력한 전자 메일 인증 정책의 제한적인 채택으로 인해 *암시적 전자 메일 인증* 을(를) 사용하여 인바운드 전자 메일을 확인합니다.
 
 암시적 전자 메일 인증은 일반 전자 메일 인증 정책의 확장입니다. 이러한 확장에는 보낸 사람의 평판, 보낸 사람 기록, 받는 사람 기록, 행태 분석 및 기타 고급 기법이 포함됩니다. 이러한 확장의 다른 신호가 없을 경우 전자 메일 인증 정책을 사용하지 않는 도메인에서 보낸 메시지는 스푸핑으로 표시됩니다.
 

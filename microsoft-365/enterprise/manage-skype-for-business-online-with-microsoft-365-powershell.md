@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
 description: Microsoft 365용 PowerShell을 사용하여 비즈니스용 Skype Online 정책, 사용자별 정책 및 모임 설정을 관리할 수 있습니다.
-ms.openlocfilehash: ff35463dc0c2e16106432c393b10e31e6bf0a5d2
-ms.sourcegitcommit: 22755cebfbfa2c4dc3f8b4f54ccb23636a211ee5
+ms.openlocfilehash: 1992edfb6d1c141c7ed4db22064960873b768865
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48477104"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50514959"
 ---
 # <a name="manage-skype-for-business-online-with-powershell"></a>PowerShell을 통해 비즈니스용 Skype Oline 관리
 
@@ -42,11 +42,10 @@ ms.locfileid: "48477104"
    ```powershell
    Import-Module MicrosoftTeams
    $userCredential = Get-Credential
-   $sfbSession = New-CsOnlineSession -Credential $userCredential
-   Import-PSSession $sfbSession
+   Connect-MicrosoftTeams -Credential $userCredential
    ```
 
-2. **Windows PowerShell 자격 증명 요청** 대화 상자에서 관리자 계정 이름과 암호를 입력한 다음 **확인**을 선택합니다.
+2. **Windows PowerShell 자격 증명 요청** 대화 상자에서 관리자 계정 이름과 암호를 입력한 다음 **확인** 을 선택합니다.
 
 
 ## <a name="connect-using-an-admin-account-with-multi-factor-authentication"></a>다단계 인증과 함께 관리자 계정을 사용하여 연결
@@ -55,15 +54,14 @@ ms.locfileid: "48477104"
 
    ```powershell
    Import-Module MicrosoftTeams
-   $sfbSession = New-CsOnlineSession
-   Import-PSSession $sfbSession
+   Connect-MicrosoftTeams
    ```
 
-2. **New-CsOnlineSession** 명령에 메시지가 표시되면 비즈니스용 Skype Online 관리자 계정 이름을 입력 합니다.
+2. 표시될 때 비즈니스용 Skype Online 관리자 계정 이름을 입력합니다.
 
-3. **계정에 로그인** 대화 상자에서 비즈니스용 Skype Online 관리자 암호를 입력한 다음 **로그인**을 선택합니다.
+3. **계정에 로그인** 대화 상자에서 비즈니스용 Skype Online 관리자 암호를 입력한 다음 **로그인** 을 선택합니다.
 
-4. **계정에 로그인** 대화 상자에서 지침에 따라 확인 코드와 같은 인증 정보를 추가한 다음 **확인**을 선택합니다.
+4. **계정에 로그인** 대화 상자에서 지침에 따라 확인 코드와 같은 인증 정보를 추가한 다음 **확인** 을 선택합니다.
 
 자세한 내용은 다음을 참조하세요.
   
