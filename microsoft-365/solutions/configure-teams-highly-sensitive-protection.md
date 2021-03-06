@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 매우 중요한 데이터를 보호하는 팀을 배치하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2679a8a0bd8cf5cc3d35d517e8a44921fc4fdbc1
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 7e746ebc81d1ccd9aea2953fd42004715f8d7819
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921137"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50509269"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>매우 중요한 데이터를 보호하는 팀 구성하기
 
@@ -79,7 +79,7 @@ Teams에서 민감도 레이블을 사용하도록 설정한 후 다음 단계�
 17. **다음** 을 클릭합니다.
 18. **외부 공유 및 장치 액세스 설정 정의** 페이지에서 **레이블이 지정된 SharePoint 사이트에서 외부 공유를 제어** 를 선택합니다.
 19. **콘텐츠를 함께 공유할 수 있습니다** 에서 게스트 액세스를 허용하는 경우에는 **신규 및 기존의 게스트** 를 선택하고, 그렇지 않은 경우 **조직에 있는 사용자만** 을 선택합니다.
-20. **관리되지 않는 장치** 에서 **액세스 차단** 을 선택합니다.
+20. **관리되지 않는 장치** 에서 **액세스 차단** 을 선택합니다. (게스트를 허용하고 관리 장치가 없는 경우 **제한된 웹 전용 액세스 허용** 을 선택할 수 있습니다.)
 21. **다음** 을 클릭합니다.
 22. **Office 앱에 대한 자동 레이블 지정** 페이지에서 **다음** 을 클릭합니다.
 23. **레이블 만들기** 를 클릭한 다음 **완료** 를 클릭합니다.

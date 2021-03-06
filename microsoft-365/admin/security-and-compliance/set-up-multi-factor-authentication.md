@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 조직에 대한 다단계 인증을 설정하는 방법에 대해 알아 보십시오.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 5ea367e64108e80ee7429ec700cf2ac0551aeab2
-ms.sourcegitcommit: b88ffaf3409e02a9847f030f8468f96d36efa398
+ms.openlocfilehash: d08ef54c545809bbb2277f8d0a8471245400a3ac
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50105154"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50514971"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
 
@@ -81,10 +81,11 @@ Azure AD P1 및 P2에 대한 자세한 내용은 [Azure Active Directory 가격]
 
 ### <a name="turn-on-modern-authentication-for-your-organization"></a>조직에 대한 최신 인증 설정하기
 
-대부분의 구독에서 최신 인증이 자동으로 설정되어 있지만 오래전에 구독을 구매한 경우에는 설정되어 있지 않을 수 있습니다. 이는 MFA가 Office 앱에서 제대로 작동하려면 설정되어 있어야 합니다.
+대부분의 구독의 경우 최신 인증이 자동으로 설정되지만 2017년 8월 이전에 구독을 구입한 경우 Outlook과 같은 Windows 클라이언트에서 작동하기 위해 다단계 인증과 같은 기능을 사용하려면 최신 인증을 설정해야 할 수 있습니다.
+
 
 1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **설정** \> **조직 설정** 을 선택합니다.
-1. **서비스** 탭에서 **최신 인증** 을 선택하고, **최신 인증** 창에서 **최신 인증 사용** 이 선택되어 있는지 확인합니다. **변경 내용 저장** 을 선택합니다.
+2. **서비스** 탭에서 **최신 인증** 을 선택하고, **최신 인증** 창에서 **최신 인증 사용** 이 선택되어 있는지 확인합니다. **변경 내용 저장** 을 선택합니다.
 
 ### <a name="turn-off-legacy-per-user-mfa"></a>레거시 사용자별 MFA 해제
 

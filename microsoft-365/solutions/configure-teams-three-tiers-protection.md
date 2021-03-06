@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: 세 가지 보호 수준을 사용하여 보안을 강화하기 위해 Teams를 구성하는 방법에 대해 알아보고, 공동 작업을 쉽게 수행할 수 있습니다.
-ms.openlocfilehash: cb49c35cc1c485d45656b1716d385cf626322ce8
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: d41effb6db9f8995c3c878523babf200ab9af762
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602010"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50509245"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>세 가지 보호 계층으로 Teams 구성
 
@@ -114,6 +114,8 @@ ms.locfileid: "49602010"
 ## <a name="access-from-unmanaged-devices"></a>관리되지 않는 장치에서 액세스
 
 중요한 계층 및 매우 중요한 계층의 경우 민감도 레이블이 포함된 SharePoint 콘텐츠에 대한 액세스를 제한합니다. Azure AD 조건부 액세스는 위치, 위험, 장치 호환성 및 기타 요인에 따른 제한을 비롯하여 사용자가 Microsoft 365에 액세스하는 방법을 결정하는 데 사용할 수 있는 다양한 옵션을 제공합니다. [조건부 액세스란 무엇인가요?](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)를 읽는 것을 권장합니다. 또한 조직에 적합한 추가 정책을 고려하세요.
+
+게스트에는 조직에서 관리하는 장치가 없는 경우가 많습니다. 계층에서 게스트를 허용하는 경우 게스트가 팀 및 사이트에 액세스하는 데 사용할 디바이스 유형을 고려하고 그에 따라 관리되지 않는 디바이스 정책을 설정합니다.
 
 ## <a name="next-step"></a>다음 단계
 
