@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: cd06286083297d0930270868b99a14f8ddb2f4b2
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: 31a2f647351c05842f36198ad05b149086b53b1f
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461670"
+ms.locfileid: "50509305"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>고급 헌팅 스마 - 이름 변경
 
@@ -76,7 +76,7 @@ ms.locfileid: "50461670"
 
 ## <a name="february-2021"></a>2021년 2월
 
-1. [EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md) 및 [EmailEvents](advanced-hunting-emailevents-table.md) 테이블에서는 및 열을 더는 사용하지 `MalwareFilterVerdict` `PhishFilterVerdict` `ThreatTypes` 않습니다. 또한 및 열을 더는 사용 안 하여 `MalwareDetectionMethod` `PhishDetectionMethod` 열로 `DetectionMethods` 대체했습니다. 이 간소화를 통해 새 열 아래에 추가 정보를 제공할 수 있습니다. 매핑은 아래에 제공됩니다.
+1. [EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md) 및 [EmailEvents](advanced-hunting-emailevents-table.md) 테이블에서 및 열이 `MalwareFilterVerdict` `PhishFilterVerdict` 열로 `ThreatTypes` 대체됩니다. 및 `MalwareDetectionMethod` `PhishDetectionMethod` 열도 열로 `DetectionMethods` 대체했습니다. 이 간소화를 통해 새 열 아래에 추가 정보를 제공할 수 있습니다. 매핑은 아래에 제공됩니다.
 
 | 테이블 이름 | 원래 열 이름 | 새 열 이름 | 변경 이유
 |--|--|--|--|
@@ -86,11 +86,11 @@ ms.locfileid: "50461670"
 | `EmailEvents` | `MalwareFilterVerdict` <br>`PhishFilterVerdict` | `ThreatTypes` | 더 많은 위협 유형 포함 |
 
 
-2. 및 테이블에 전자 메일 위협에 대한 자세한 정보를 제공하기 위해 `EmailAttachmentInfo` `EmailEvents` `ThreatNames` 열을 추가합니다. 이 열에는 스팸 또는 피싱과 같은 값이 포함되어 있습니다.
+2. 및 테이블에 전자 메일 위협에 대한 자세한 정보를 제공하기 위해 `EmailAttachmentInfo` `EmailEvents` `ThreatNames` 열이 추가되었습니다. 이 열에는 스팸 또는 피싱과 같은 값이 포함되어 있습니다.
 
-3. [DeviceInfo](advanced-hunting-deviceinfo-table.md) 테이블에서 고객 의견에 따라 열을 `DeviceObjectId` `AadDeviceId` 대체했습니다.
+3. [DeviceInfo](advanced-hunting-deviceinfo-table.md) 테이블에서 열은 고객 의견에 따라 `DeviceObjectId` `AadDeviceId` 열로 대체됩니다.
 
-4. [DeviceEvents](advanced-hunting-deviceevents-table.md) 테이블에서 작업 설명을 보다 잘 반영하기 위해 몇 가지 ActionType 이름을 업데이트했습니다. 세부 정보는 아래에서 찾을 수 있습니다.
+4. [DeviceEvents](advanced-hunting-deviceevents-table.md) 테이블에서는 작업 설명을 보다 잘 반영하기 위해 여러 ActionType 이름이 수정되었습니다. 변경 내용에 대한 자세한 내용은 아래에서 찾을 수 있습니다.
 
 | 테이블 이름 | Original ActionType 이름 | 새 ActionType 이름 | 변경 이유
 |--|--|--|--|

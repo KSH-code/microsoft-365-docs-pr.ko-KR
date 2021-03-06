@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우의 추가 고객 환경 정보입니다.'
-ms.openlocfilehash: 26db69583bac68723d5d57b07abb856c8190d9b1
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 152e9e8d8f4550b9095a7b22e1bcd4cf30fa620f
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454470"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515199"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-advanced"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향(고급) 
 
@@ -62,27 +62,6 @@ ms.locfileid: "50454470"
 |사서함의 온보드 또는 오프보더 이동을 중지하거나 삭제합니다.  | 이렇게 하면 이동 요청이 오류와 함께 실패하지 않습니다. | 하이브리드(-프레미스) 배포가 있는 Exchange Online 고객 | 필수 작업입니다. 이렇게 하지 못하면 서비스 또는 소프트웨어 클라이언트가 실패할 수 있습니다. |
 |||||
 
-### <a name="dynamics-phase-8-of-9"></a>Dynamics(8~9단계)
-
-| Step(s) | 설명 | 적용 대상 | 영향 |
-|:-------|:-----|:-------|:-------|
-| Microsoft Dynamics 리소스 | Microsoft Dynamics를 사용 하는 고객은 Dynamics를 Office 365 서비스 인스턴스로 전환하기 위해 엔지니어링 또는 FastTrack의 참여를 하게 됩니다.* | Microsoft Dynamics 365 고객 | - 마이그레이션 후 관리자는 조직의 유효성을 검사합니다. <br><br> - 관리자는 필요한 경우 워크플로를 수정합니다. <br><br> - 관리자는 AdminOnly 모드를 적절하게 지워야 합니다. <br><br> - 관리자는 조직 유형을 샌드박스에서 적절하게 변경합니다. <br><br> - 최종 사용자에게 새 URL을 알리고 인스턴스(org)에 액세스합니다. <br><br> - 인바운드 연결을 새 끝점 URL로 업데이트합니다. <br><br> - 전환 중에 사용자가 Dynamics 서비스를 사용할 수 없습니다. <br><br> - 사용자는 각 Org를 마이그레이션한 후 해당 상태 및 기능의 유효성을 검사해야 합니다.  |
-|||||
-
-\* (i) Microsoft Dynamics 365를 사용 하는 고객은 제공된 마이그레이션 프로세스에 정의된 이 마이그레이션 시나리오에서 조치를 취해야 합니다. (ii) 고객이 조치를 취하지 못하면 Microsoft가 마이그레이션을 완료할 수 없습니다. (iii) 고객의 비활성으로 인해 Microsoft가 마이그레이션을 완료할 수 없는 경우 고객의 구독은 2021년 10월 29일에 만료됩니다. 
-
-
-### <a name="power-bi-phase-8-of-9"></a>Power BI(8단계 중 9단계)
-
-| Step(s) | 설명 | 적용 대상 | 영향 |
-|:-------|:-----|:-------|:-------|
-| Power BI 리소스 마이그레이션 | Microsoft Power BI를 사용하는 고객은 Power BI를 Office 365 서비스 인스턴스로 전환하기 위해 기존 PBI 마이그레이션 도구를 수동으로 트리거한 후 엔지니어링 또는 FastTrack에 참여하게 됩니다.\*\* | Microsoft Power BI 고객 | - 다음 Power BI _항목은_ 전환되지 않습니다. 다시 만들어야 합니다. <br><br> - 실시간 데이터 집합(예: 스트리밍 또는 푸시 데이터 집합) <br> - Power BI 사내 데이터 게이트웨이 구성 및 데이터 원본 <br> - 실시간 데이터 집합을 토대하여 작성된 보고서는 마이그레이션 후에 사용할 수 없습니다. 다시 만들어야 합니다. <br><br> - 전환 중에 사용자가 Power BI 서비스를 사용할 수 없습니다. 서비스를 사용할 수 없는 시간은 24시간을 넘지 말아야 합니다. <br><br> - 사용자는 마이그레이션 후 Power BI 서비스를 사용하여 데이터 원본 및 해당 사내 데이터 게이트웨이를 다시 구성해야 합니다.  이렇게 할 때까지 사용자는 이러한 데이터 원본을 사용하여 이러한 데이터 원본에 대해 예약된 새로 고침 및/또는 직접 쿼리를 수행할 수 없습니다. <br><br> - 용량 및 고급 작업 영역은 마이그레이션할 수 없습니다. 고객은 마이그레이션 전에 모든 용량을 삭제하고 마이그레이션 후 다시 만들어야 합니다. 작업 영역이 원하는 용량으로 다시 이동됩니다.  |
-|||||
-
-\*\* (i) Microsoft Power BI를 사용 하는 고객은 제공된 마이그레이션 프로세스에 정의된 이 마이그레이션 시나리오에서 조치를 취해야 합니다. (ii) 고객이 조치를 취하지 못하면 Microsoft가 마이그레이션을 완료할 수 없습니다. (iii) 고객의 비활성으로 인해 Microsoft가 마이그레이션을 완료할 수 없는 경우 고객의 구독은 2021년 10월 29일에 만료됩니다. 
-
-
-
 ## <a name="during-migration"></a>마이그레이션 진행 중
 
 ### <a name="sharepoint-online-phase-4-of-9"></a>SharePoint Online(4단계 중 9단계)
@@ -115,14 +94,14 @@ eDiscovery의 경우:
 
 ### <a name="azure-ad-phase-9-of-9"></a>Azure AD(9단계 중 9단계)
 
-하이브리드의 경우:
+하이브리드 Azure 고객의 경우:
 
 | Step(s) | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
 | Azure AD Connect를 업데이트합니다. | Azure AD로의 컷오버가 완료되면 조직은 Office 365 서비스를 완전히 사용하고 있으며 더 이상 도이치랜드 Microsoft 클라우드에 연결되지 않습니다. 이때 고객은 델타 동기화 프로세스가 완료되어 레지스트리 경로에서 문자열 값을 `AzureInstance` 3(도이치랜드 Microsoft 클라우드)에서 0으로 변경해야 `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Azure AD Connect` 합니다. | 하이브리드 Azure AD 연결 조직 | 의 값을 `AzureInstance` 레지스트리 키로 변경합니다. 이렇게 하지 못하면 Microsoft 클라우드 도이클라드 끝점을 더 이상 사용할 수 없는 후에 개체가 동기화되지 않습니다. |
 |||||
 
-페더타 인증의 경우:
+페더링 인증을 사용하는 고객의 경우:
 
 | Step(s) | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
@@ -136,7 +115,7 @@ Azure AD의 경우:
 | 원래 요청이 승인되지 않은 경우 마이그레이션 전에 지난 30일 동안 Azure AD 그룹에 가입하기 위한 요청을 다시 요청해야 합니다. | 최종 사용자 고객은 마이그레이션 전 지난 30일 동안 해당 요청이 승인되지 않은 경우 액세스 패널을 사용하여 Azure AD 그룹에 가입하기 위한 요청을 다시 제출해야 합니다. | 마이그레이션 전 지난 30일 동안 Azure AD 그룹 승인 요청이 승인되지 않은 최종 사용자 |  최종 사용자: <ol><li>액세스 [패널로 이동합니다.](https://account.activedirectory.windowsazure.com/r#/joinGroups)</li><li>마이그레이션 30일 전에 구성원 승인이 보류된 Azure AD 그룹을 찾아야 합니다.</li><li>Azure AD 그룹에 다시 참가를 요청합니다.</li></ol> 마이그레이션 후 다시 요청되지 않는 한 마이그레이션을 승인할 수 없습니다. |
 |||||
 
-DNS의 경우:
+고객 관리 DNS 영역의 경우:
 
 | Step(s) | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|

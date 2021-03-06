@@ -14,39 +14,40 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
 description: '요약: Microsoft 365용 PowerShell을 사용하여 비즈니스용 Skype Online 정책을 사용하여 사용자당 통신 설정을 할당합니다.'
-ms.openlocfilehash: 6ff9fce3e0287313f6725b370b6ba89cb939eb3a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 6ee237e5d2ee0c9f472f372a6aa66c9612336265
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692533"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50514983"
 ---
 # <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Microsoft 365용 PowerShell을 통해 사용자당 비즈니스용 Skype Online 정책 할당
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-Microsoft 365용 PowerShell을 사용하는 것은 비즈니스용 Skype Online 정책을 사용하여 사용자 간 통신 설정을 효율적으로 할당하는 것입니다.
+Microsoft 365용 PowerShell을 사용하는 것은 비즈니스용 Skype Online 정책으로 사용자당 통신 설정을 할당하는 효율적인 방법입니다.
   
 ## <a name="prepare-to-run-the-powershell-commands"></a>PowerShell 명령 실행 준비
 
 다음 지침을 사용하여 명령을 실행하기 위한 설정(이미 완료한 단계 건너뛰기)을 수행합니다.
   
-1. 비즈니스용 Skype Online 커넥터 모듈을 [다운로드하여 설치합니다.](https://www.microsoft.com/download/details.aspx?id=39366)
+  > [!Note]
+   > Skype for Business Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다. 최신 Teams PowerShell 공개 릴리스를 사용 중인 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
+
+1. Teams [PowerShell 모듈을 설치합니다.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
     
 2. Windows PowerShell 명령 프롬프트를 열고 다음 명령을 실행합니다. 
     
-```powershell
-Import-Module LyncOnlineConnector
-$userCredential = Get-Credential
-$sfbSession = New-CsOnlineSession -Credential $userCredential
-Import-PSSession $sfbSession
-```
+   ```powershell
+   Import-Module MicrosoftTeams
+   Connect-MicrosoftTeams
+   ```
 
-메시지가 표시될 때 비즈니스용 Skype Online 관리자 계정 이름과 암호를 입력합니다.
+   메시지가 표시될 때 비즈니스용 Skype Online 관리자 계정 이름과 암호를 입력합니다.
     
 ## <a name="updating-external-communication-settings-for-a-user-account"></a>사용자 계정에 대한 외부 통신 설정 업데이트
 
-사용자 계정에서 외부 통신 설정을 변경하려는 경우를 가정해 가정해 가정합니다. 예를 들어 Alex가 페더임 사용자와 통신하도록 허용할 수 있지만(EnableFederationAccess는 True와 같음) Windows Live 수 없습니다(EnablePublicCloudAccess는 False임). 이를 위해 다음 두 가지 작업을 해야 합니다.
+사용자 계정에서 외부 통신 설정을 변경하려는 경우를 가정해 가정합니다. 예를 들어 Alex가 페더임 사용자와 통신할 수 있도록 허용할 수 있지만(EnableFederationAccess가 True와 같음) Windows Live(EnablePublicCloudAccess는 False임). 이를 위해 다음 두 가지 작업을 해야 합니다.
   
 1. 기준을 충족하는 외부 액세스 정책을 찾습니다.
     
@@ -70,7 +71,7 @@ EnablePublicCloudAudioVideoAccess : False
 EnableOutsideAccess               : True
 ```
 
-Alex에게 할당할 정책을 알고 있는 경우 [Grant-CsExternalAccessPolicy](https://go.microsoft.com/fwlink/?LinkId=523974) cmdlet을 사용하여 해당 정책을 할당할 수 있습니다. 예를 들면 다음과 같습니다.
+Alex에게 할당할 정책을 알고 있습니다. [이제 Grant-CsExternalAccessPolicy](https://go.microsoft.com/fwlink/?LinkId=523974) cmdlet을 사용하여 해당 정책을 할당할 수 있습니다. 예를 들면 다음과 같습니다.
   
 ```powershell
 Grant-CsExternalAccessPolicy -Identity "Alex Darrow" -PolicyName "FederationOnly"
@@ -92,24 +93,22 @@ Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "FederationAndPICDefault"} | 
 Get-CsOnlineUser | Grant-CsExternalAccessPolicy "FederationAndPICDefault"
 ```
 
-이 명령은 Get-CsOnlineUser 사용하여 Lync를 사용하도록 설정된 모든 사용자 컬렉션을 반환한 다음 Grant-CsExternalAccessPolicy에 모든 정보를 보내 컬렉션의 각 사용자와 모든 사용자에게 FederationAndPICDefault 정책을 할당합니다.
+이 명령은 Get-CsOnlineUser 사용하여 Lync를 사용하도록 설정된 모든 사용자 컬렉션을 반환한 다음 해당 모든 정보를 Grant-CsExternalAccessPolicy에 전송하여 컬렉션의 모든 사용자에게 FederationAndPICDefault 정책을 할당합니다.
   
-추가 예로 이전에 FederationAndPICDefault 정책에 Alex를 할당했다가 이제 글로벌 외부 액세스 정책에 의해 관리되고자 하는 마음이 바뀌었다고 가정해 보겠습니다. 전역 정책은 명시적으로 누구에게도 할당할 수 없습니다. 대신 해당 사용자에게 할당된 사용자당 정책이 없는 경우 지정된 사용자에 대해 글로벌 정책이 사용됩니다. 따라서 글로벌 정책에 의해 Alex를 관리하려면 이전에 할당된 사용자 정책의 할당을 해지해야 합니다.  예제 명령은 다음과 같습니다.
+추가 예로 이전에 FederationAndPICDefault 정책에 Alex를 할당했다가 이제 글로벌 외부 액세스 정책을 통해 Alex를 관리하고자 했던 경우를 가정해 보겠습니다. 전역 정책은 명시적으로 누구에게도 할당할 수 없습니다. 대신 해당 사용자에게 사용자당 정책이 할당되지 않은 경우 지정된 사용자에 대해 글로벌 정책이 사용됩니다. 따라서 글로벌 정책에 의해 Alex를 관리하려면 이전에 할당된 사용자 정책의 할당을 해지해야 합니다.  예제 명령은 다음과 같습니다.
   
 ```powershell
 Grant-CsExternalAccessPolicy -Identity "Alex Darrow" -PolicyName $Null
 ```
 
-이 명령은 Alex에게 할당된 외부 액세스 정책의 이름을 null 값($Null. Null은 "nothing"을 의미합니다. 즉, Alex에게 외부 액세스 정책이 할당되지 않습니다. 사용자에게 외부 액세스 정책이 할당되지 않은 경우 해당 사용자는 전역 정책에 의해 관리됩니다.
+이 명령은 Alex에게 할당된 외부 액세스 정책의 이름을 null 값($Null)으로 $Null. Null은 "nothing"을 의미합니다. 즉, Alex에게 외부 액세스 정책이 할당되지 않습니다. 사용자에게 외부 액세스 정책이 할당되지 않은 경우 해당 사용자는 전역 정책에 의해 관리됩니다.
   
 
 ## <a name="managing-large-numbers-of-users"></a>많은 수의 사용자 관리
 
-많은 수의 사용자(1,000명 이상)를 관리하려면 [Invoke-Command](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7) cmdlet을 사용하여 스크립트 블록을 통해 명령을 일괄 처리해야 합니다.  이전 예제에서는 cmdlet이 실행될 때마다 호출을 설정한 다음 결과를 다시 보내기 전에 대기해야 합니다.  스크립트 블록을 사용하는 경우 cmdlet을 원격으로 실행하고 완료되면 데이터를 다시 보낼 수 있습니다. 
+많은 수의 사용자(1,000명 이상)를 관리하려면 [Invoke-Command](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7) cmdlet을 사용하여 스크립트 블록을 통해 명령을 일괄 처리해야 합니다.  이전 예제에서는 cmdlet이 실행될 때마다 호출을 설정한 다음 결과를 다시 보내기 전에 대기해야 합니다.  스크립트 블록을 사용하는 경우 cmdlet을 원격으로 실행할 수 있으며 완료되면 데이터를 다시 보낼 수 있습니다. 
 
 ```powershell
-Import-Module LyncOnlineConnector
-$sfbSession = New-CsOnlineSession
 $users = Get-CsOnlineUser -Filter { ClientPolicy -eq $null } -ResultSize 500
 
 $batch = 50
@@ -134,7 +133,7 @@ $count = 0
 }
 ```
 
-클라이언트 정책이 없는 사용자는 한에 500명까지 찾을 수 있습니다. 클라이언트 정책 "ClientPolicyNoIMURL"과 외부 액세스 정책 "FederationAndPicDefault"를 부여합니다. 결과는 50개 그룹으로 일괄 처리된 다음 각 일괄 처리 50개가 원격 컴퓨터로 전송됩니다.
+이 경우 클라이언트 정책이 없는 사용자는 한에 500명까지 검색됩니다. 클라이언트 정책 "ClientPolicyNoIMURL" 및 외부 액세스 정책 "FederationAndPicDefault"를 부여합니다. 결과는 50개 그룹으로 일괄 처리된 다음 각 일괄 처리 50개가 원격 컴퓨터로 전송됩니다.
   
 ## <a name="see-also"></a>참고 항목
 
