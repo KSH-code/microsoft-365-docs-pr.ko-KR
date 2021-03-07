@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
-description: Office 365 보안 및 준수 센터 또는 Microsoft 365 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인합니다.
+description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인해 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e95c2f3627a6bb0c28b736437012a92107b3533
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: a751ffea9fa184faf90bfe7c43b44c5d4e53bfbf
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976249"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461819"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -61,6 +61,8 @@ ms.locfileid: "49976249"
 - Microsoft Forms의 사용자 및 관리자 활동
 
 - SharePoint Online 또는 Microsoft Teams를 사용하는 사이트의 민감도 레이블에 대한 사용자 및 관리자 활동
+
+- 브리핑 전자 메일 및 MyAnalytics의 관리자 활동
 
 ## <a name="requirements-to-search-the-audit-log"></a>감사 로그를 검색하는 데 필요한 요구 사항
 
@@ -178,7 +180,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
       100개가 넘는 사용자 및 관리자 활동이 감사 로그에 기록됩니다. 여러 서비스의 각 활동에 대한 설명을 보려면 이 문서의 항목에서 **감사되는 활동** 탭을 클릭합니다.
 
-   1. **시작 날짜** 및 **날짜**: 기본적으로 최근 7일이 선택됩니다. 날짜 및 시간 범위를 선택하여 해당 기간 내에 발생한 이벤트를 표시합니다. 날짜 및 시간은 UTC(협정 세계시) 형식으로 표시됩니다. 지정할 수 있는 최대 날짜 범위는 90일입니다. 선택한 날짜 범위가 90일보다 크면 오류가 표시됩니다.
+   1. **시작 날짜** 및 **날짜**: 기본적으로 최근 7일이 선택됩니다. 날짜 및 시간 범위를 선택하여 해당 기간 내에 발생한 이벤트를 표시합니다. 날짜 및 시간은 현지 시간으로 표시됩니다. 지정할 수 있는 최대 날짜 범위는 90일입니다. 선택한 날짜 범위가 90일보다 크면 오류가 표시됩니다.
 
       > [!TIP]
       > 최대 날짜 범위인 90일을 사용하는 경우 **시작 날짜** 에 대해 현재 시간을 선택합니다. 그러지 않으면 시작 날짜가 종료 날짜보다 이전이라는 오류가 표시됩니다. 최근 90일 내에 감사를 켠 경우 최대 날짜 범위가 감사를 켠 날짜 이전에 시작할 수 없습니다.
@@ -221,7 +223,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 결과에는 검색에서 반환되는 각 이벤트에 대한 다음 정보가 포함됩니다.
 
-- **날짜**: 이벤트가 발생한 날짜 및 시간(UTC 형식)입니다.
+- **날짜**: 이벤트가 발생한 날짜 및 시간(현지 시간)입니다.
 
 - **IP 주소**: 활동을 기록할 때 사용된 장치의 IP 주소입니다. IP 주소는 IPv4 또는 IPv6 주소 형식으로 표시됩니다.
 
@@ -368,7 +370,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
         [Power BI 활동](#power-bi-activities)
     :::column-end:::
     :::column:::
-        [Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)
+        [Microsoft Workplace Analytics](#workplace-analytics-activities)
     :::column-end:::
     :::column:::
         [Microsoft Teams 활동](#microsoft-teams-activities)
@@ -417,6 +419,18 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
     :::column-end:::
     :::column:::
         [유지 정책 및 보존 레이블 활동](#retention-policy-and-retention-label-activities)
+    :::column-end:::
+    :::column:::
+        [브리핑 전자 메일 활동](#briefing-email-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [MyAnalytics 활동](#myanalytics-activities)
+    :::column-end:::
+    :::column:::
+        [정보 장벽 활동](#information-barriers-activities)
     :::column-end:::
     :::column:::
         [Exchange 관리자 활동](#exchange-admin-audit-log)
@@ -790,7 +804,7 @@ Power BI에서 활동에 대한 감사 로그를 검색할 수 있습니다. Pow
 
 Power BI에 대 한 감사 로깅은 기본적으로 사용하지 않도록 설정되어 있습니다. 감사 로그에서 Power BI 작업을 검색하려면 Power BI 관리 포털에서 감사를 사용하도록 설정해야 합니다. 자세한 내용은 [Power BI 관리 포털](https://docs.microsoft.com/power-bi/service-admin-portal#audit-logs)의 "감사 로그" 섹션을 참조 하세요.
 
-### <a name="microsoft-workplace-analytics-activities"></a>Microsoft Workplace Analytics 활동
+### <a name="workplace-analytics-activities"></a>Microsoft Workplace Analytics 활동
 
 Workplace Analytics는 조직에서 그룹이 공동으로 작업하는 방법에 대한 정보를 줍니다. 다음 표는 Workplace Analytics에서 관리자 역할 또는 분석가 역할이 할당된 사용자가 수행한 활동을 나열합니다. 분석 역할이 할당된 사용자는 모든 서비스 기능에 대한 전체 액세스 권한을 가지며 제품을 사용하여 분석을 수행합니다. 관리자 역할이 할당된 사용자는 개인 정보 설정 및 시스템 기본값을 구성하고 Workplace Analytics에서 조직 데이터를 준비, 업로드 및 확인할 수 있습니다. 자세한 내용은 [Workplace Analytics](https://docs.microsoft.com/workplace-analytics/index-orig)를 참조하세요.
 
@@ -969,6 +983,42 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 | 보존 정책에 대한 설정 업데이트 | SetRetentionComplianceRule | 관리자가 기존 보존 정책에 대한 보존 설정을 변경했습니다. 보존 설정에는 항목이 보존되는 기간과 보존 기간이 만료될 때 발생하는 작업(예: 항목 삭제, 항목 보존, 보존 및 삭제)이 포함됩니다. 이 활동은 [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule) cmdlet을 실행하는 것과도 같습니다. |
 | 보존 레이블 업데이트 |SetComplianceTag  | 관리자가 기존 보존 레이블을 업데이트했습니다.|
 | 보존 정책이 업데이트되었습니다. |SetRetentionCompliancePolicy |관리자가 기존 보존 정책을 업데이트했습니다. 이 이벤트를 트리거하는 업데이트에는 보존 정책이 적용되는 콘텐츠 위치 추가 또는 제외가 포함됩니다.|
+||||
+
+### <a name="briefing-email-activities"></a>브리핑 전자 메일 활동
+
+다음 표에 Office 365 감사 로그에 기록되는 브리핑 전자 메일 활동이 나와 있습니다. 브리핑 전자 메일에 대한 자세한 내용은 다음을 참조하세요.
+
+- [브리핑 자 메일 개요](https://docs.microsoft.com/Briefing/be-overview)
+
+- [브리핑 전자 메일 구성](https://docs.microsoft.com/Briefing/be-admin)
+
+|**친숙한 이름**|**작업**|**설명**|
+|:-----|:-----|:-----|
+|조직의 개인 정보 보호 설정이 업데이트됨|UpdatedOrganizationBriefingSettings|관리자가 브리핑 전자 메일에 대한 조직 개인 정보 보호 설정을 업데이트합니다. |
+|사용자 개인 정보 보호 설정이 업데이트됨|UpdatedUserBriefingSettings|관리자가 브리핑 전자 메일에 대한 사용자 개인 정보 보호 설정을 업데이트합니다.
+||||
+
+### <a name="myanalytics-activities"></a>MyAnalytics 활동
+
+다음 표에 Office 365 감사 로그에 기록되는 MyAnalytics 활동이 나와 있습니다. MyAnalytics에 대한 자세한 내용은 [관리자용 MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/overview/mya-for-admins)를 참조하세요.
+
+|**친숙한 이름**|**작업**|**설명**|
+|:-----|:-----|:-----|
+|조직 MyAnalytics 설정이 업데이트됨|UpdatedOrganizationMyAnalyticsSettings|관리자가 MyAnalytics에 대한 조직 수준 설정을 업데이트합니다. |
+|사용자 MyAnalytics 설정이 업데이트됨|UpdatedUserMyAnalyticsSettings|관리자가 MyAnalytics의 사용자 설정을 업데이트합니다.|
+||||
+
+### <a name="information-barriers-activities"></a>정보 장벽 활동
+
+다음 표에 Office 365 감사 로그에 기록되는 정보 장벽 활동이 나와 있습니다. 정보 장벽에 대한 자세한 내용은 [Microsoft 365의 정보 장벽에 대한 자세한 정보](information-barriers.md)를 참조하세요.
+
+|**친숙한 이름**|**작업**|**설명**|
+|:----------------|:------------|:--------------|
+| 사이트에 세그먼트 추가됨 | SegmentsAdded | SharePoint, 전역 관리자 또는 사이트 소유자가 하나 이상의 정보 장벽 세그먼트를 사이트에 추가했습니다. |
+| 사이트의 세그먼트가 변경됨 | SegmentsChanged | SharePoint 또는 전역 관리자가 사이트에 대한 하나 이상의 정보 장벽 세그먼트를 변경했습니다. |
+| 사이트에서 세그먼트 제거됨 | SegmentsRemoved | SharePoint 또는 전역 관리자가 사이트에서 하나 이상의 정보 장벽 세그먼트를 제거했습니다. |
+||||
 
 ### <a name="exchange-admin-audit-log"></a>Exchange 관리자 감사 로그
 
