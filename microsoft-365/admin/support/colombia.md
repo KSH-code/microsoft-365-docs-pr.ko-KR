@@ -9,20 +9,19 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 해당 국가 또는 지역에 대한 지원 팀에 문의하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 75eefe1551e07483d19965cd4bad11cf2faad79b
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b275665c62368e87832bc0e863d03875039ba427
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643358"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548071"
 ---
 # <a name="contact-support-for-colombia"></a>콜롬비아 지원에 문의
 
-[다른 국가 또는 지역을 찾을 수 있습니다.](../contact-support-for-business-products.md)
+[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>전화 번호
 01 800 518 1781
@@ -34,4 +33,4 @@ ms.locfileid: "48643358"
 
 ### <a name="technical-support"></a>기술 지원:
 
-스페인어: 연 24시간, 연 7일
+스페인어: 연 24시간, 주 7일
