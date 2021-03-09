@@ -1,5 +1,5 @@
 ---
-title: 하이티의 결제 정보
+title: 하이티 지급 정보
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 구독에 대한 결제를 보낼 수 있는 위치를 자세히 알아보아야 합니다.
+description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f98fc0321cf8e5cf804f45ae22279ac149ad2c80
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 91dd34d9714b878f64ab7828cbff67a8df1ada9b
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647378"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551011"
 ---
-# <a name="payment-information-for-haiti"></a><span data-ttu-id="a2602-103">하이티의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="a2602-103">Payment information for Haiti</span></span>
+# <a name="payment-information-for-haiti"></a><span data-ttu-id="a9b7a-103">하이티 지급 정보</span><span class="sxs-lookup"><span data-stu-id="a9b7a-103">Payment information for Haiti</span></span>
 
-<span data-ttu-id="a2602-104">[다른 국가 또는 지역을 찾을 수 있습니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="a2602-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="a9b7a-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="a9b7a-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="a2602-105">USD로만 결제하고 송장 번호를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="a2602-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="a9b7a-105">USD로만 결제하고 송장 번호를 참조하시기 바랍니다.</span><span class="sxs-lookup"><span data-stu-id="a9b7a-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="a2602-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="a2602-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="a9b7a-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="a9b7a-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="a2602-107">**은행:** 뱅크 of America</span><span class="sxs-lookup"><span data-stu-id="a2602-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="a2602-108">**분기** 달라</span><span class="sxs-lookup"><span data-stu-id="a2602-108">**Branch** Dallas</span></span>  
-<span data-ttu-id="a2602-109">**SWIFT 코드:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="a2602-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="a2602-110">**계정 번호:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="a2602-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="a2602-111">**계정 이름:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="a2602-111">**Account Name:** Microsoft</span></span>  
+<span data-ttu-id="a9b7a-107">**은행:** 뱅크 of America</span><span class="sxs-lookup"><span data-stu-id="a9b7a-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="a9b7a-108">**Branch** 달라</span><span class="sxs-lookup"><span data-stu-id="a9b7a-108">**Branch** Dallas</span></span>  
+<span data-ttu-id="a9b7a-109">**SWIFT 코드:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="a9b7a-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="a9b7a-110">**계정 번호:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="a9b7a-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="a9b7a-111">**계정 이름:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="a9b7a-111">**Account Name:** Microsoft</span></span>  

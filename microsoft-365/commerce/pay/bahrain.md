@@ -1,5 +1,5 @@
 ---
-title: 바레인에 대한 결제 정보
+title: 바레인 결제 정보
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 구독에 대한 결제를 보낼 위치를 알 수 있습니다.
+description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 43713eb06ee46c44801a5148ac263b88fbb98242
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f13fc95c62c6f5afcd0d5941f433a9ea8140b235
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637922"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50549559"
 ---
-# <a name="payment-information-for-bahrain"></a><span data-ttu-id="32e4e-103">바레인에 대한 결제 정보</span><span class="sxs-lookup"><span data-stu-id="32e4e-103">Payment information for Bahrain</span></span>
+# <a name="payment-information-for-bahrain"></a><span data-ttu-id="188b3-103">바레인 결제 정보</span><span class="sxs-lookup"><span data-stu-id="188b3-103">Payment information for Bahrain</span></span>
 
-<span data-ttu-id="32e4e-104">[다른 국가 또는 지역을 찾을 수 있습니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="32e4e-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="188b3-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="188b3-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="32e4e-105">USD로만 결제하고 송장 번호를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="32e4e-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="188b3-105">USD로만 결제하고 송장 번호를 참조하시기 바랍니다.</span><span class="sxs-lookup"><span data-stu-id="188b3-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="32e4e-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="32e4e-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="188b3-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="188b3-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="32e4e-107">**은행:** Citibank, London</span><span class="sxs-lookup"><span data-stu-id="32e4e-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="32e4e-108">**SWIFT 코드:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="32e4e-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="32e4e-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="32e4e-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="32e4e-110">**계정 번호:** 12510049</span><span class="sxs-lookup"><span data-stu-id="32e4e-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="32e4e-111">**계정 이름:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="32e4e-111">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="188b3-107">**은행:** Citibank, London</span><span class="sxs-lookup"><span data-stu-id="188b3-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="188b3-108">**SWIFT 코드:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="188b3-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="188b3-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="188b3-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="188b3-110">**계정 번호:** 12510049</span><span class="sxs-lookup"><span data-stu-id="188b3-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="188b3-111">**계정 이름:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="188b3-111">**Account Name:** MICROSOFT</span></span>  

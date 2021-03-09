@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 구독에 대한 결제를 보낼 수 있는 위치를 자세히 알아보아야 합니다.
+description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ebbf9f3e1504ab779517bbf4088086afa6cb20ac
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: c07e8fce498a179596d3f9485bae77635f05683e
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647450"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551095"
 ---
-# <a name="payment-information-for-guam"></a><span data-ttu-id="a41f5-103">괌의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="a41f5-103">Payment information for Guam</span></span>
+# <a name="payment-information-for-guam"></a><span data-ttu-id="89730-103">괌의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="89730-103">Payment information for Guam</span></span>
 
-<span data-ttu-id="a41f5-104">[다른 국가 또는 지역을 찾을 수 있습니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="a41f5-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="89730-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="89730-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="a41f5-105">USD로만 결제하고 송장 번호를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="a41f5-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="89730-105">USD로만 결제하고 송장 번호를 참조하시기 바랍니다.</span><span class="sxs-lookup"><span data-stu-id="89730-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="a41f5-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="a41f5-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="89730-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="89730-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="a41f5-107">**은행:** 뱅크 of America</span><span class="sxs-lookup"><span data-stu-id="a41f5-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="a41f5-108">**분기** 달라</span><span class="sxs-lookup"><span data-stu-id="a41f5-108">**Branch** Dallas</span></span>  
-<span data-ttu-id="a41f5-109">**SWIFT 코드:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="a41f5-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="a41f5-110">**계정 번호:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="a41f5-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="a41f5-111">**계정 이름:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="a41f5-111">**Account Name:** Microsoft</span></span>  
+<span data-ttu-id="89730-107">**은행:** 뱅크 of America</span><span class="sxs-lookup"><span data-stu-id="89730-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="89730-108">**Branch** 달라</span><span class="sxs-lookup"><span data-stu-id="89730-108">**Branch** Dallas</span></span>  
+<span data-ttu-id="89730-109">**SWIFT 코드:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="89730-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="89730-110">**계정 번호:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="89730-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="89730-111">**계정 이름:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="89730-111">**Account Name:** Microsoft</span></span>  
