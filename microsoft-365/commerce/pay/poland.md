@@ -9,22 +9,21 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 구독에 대한 결제를 보낼 수 있는 위치를 자세히 알아보아야 합니다.
+description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d840e5341eff0259da48657b877a0c493a960933
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 55f4cbc0b4e5d3b88de084fa0db73b54caf424c4
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646934"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50542803"
 ---
 # <a name="payment-information-for-poland"></a>폴란드의 결제 정보
 
-[다른 국가 또는 지역을 찾을 수 있습니다.](../billing-and-payments/pay-for-your-subscription.md)
+[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)
 
-EUR로만 결제하고 송장 번호를 송장 번호로 송금합니다.
+EUR로만 결제하고 송장 번호를 송장 번호를 송금합니다.
 
 ## <a name="electronic-funds-transfer"></a>전자 자금 이체
 
