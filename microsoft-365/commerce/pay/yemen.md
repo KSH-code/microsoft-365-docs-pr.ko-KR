@@ -1,5 +1,5 @@
 ---
-title: 이멘의 결제 정보
+title: Yemen의 결제 정보
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,22 +9,21 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 구독에 대한 결제를 보낼 수 있는 위치를 자세히 알아보아야 합니다.
+description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dea5f3e1365f97af5045fc62d8796829c2c3e00e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: c1ab45a6e8f3282309a63102cb9232a7464d2ebc
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647954"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50549844"
 ---
-# <a name="payment-information-for-yemen"></a>이멘의 결제 정보
+# <a name="payment-information-for-yemen"></a>Yemen의 결제 정보
 
-[다른 국가 또는 지역을 찾을 수 있습니다.](../billing-and-payments/pay-for-your-subscription.md)
+[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)
 
-미화로만 결제하고 송장 번호를 송장 번호로 송금합니다.
+미화로만 결제하고 송장 번호를 송장 번호로 결제하십시오.
 
 ## <a name="electronic-funds-transfer"></a>전자 자금 이체
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 31a2f647351c05842f36198ad05b149086b53b1f
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 948c8bb5c1e6b67f6de355bc532c6b14d5a83933
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509305"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551875"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>고급 헌팅 스마 - 이름 변경
 
@@ -98,12 +98,12 @@ ms.locfileid: "50509305"
 | `DeviceEvents` | `UsbDriveMount` | `UsbDriveMounted` | 고객 피드백 |
 | `DeviceEvents` | `UsbDriveUnmount` | `UsbDriveUnmounted` | 고객 피드백 |
 | `DeviceEvents` | `WriteProcessMemoryApiCall` | `WriteToLsassProcessMemory` | 고객 피드백 |
-| `DeviceEvents` | `AntivirusDetection` | `EdrBlock` | 고객 피드백 |
 
 
 
 
 
-## <a name="related-topics"></a>관련 항목
+
+## <a name="related-topics"></a>관련 주제
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)
