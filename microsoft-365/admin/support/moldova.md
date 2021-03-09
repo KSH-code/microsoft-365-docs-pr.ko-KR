@@ -1,5 +1,5 @@
 ---
-title: 몰도바에 대한 지원 정보
+title: 몰도바 지원 정보
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,35 +9,34 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 해당 국가 또는 지역에 대한 지원에 문의하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7c79a35fedc981826d9ee32fab0342c1a30b7f16
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: c413c93e25f7ae16276464146beeb703e967ddc1
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641042"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545743"
 ---
-# <a name="contact-support-for-moldova"></a><span data-ttu-id="e8e0d-103">몰도바 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="e8e0d-103">Contact support for Moldova</span></span>
+# <a name="contact-support-for-moldova"></a><span data-ttu-id="86819-103">몰도바 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="86819-103">Contact support for Moldova</span></span>
 
-<span data-ttu-id="e8e0d-104">[다른 국가 또는 지역을 찾을 수 있습니다.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="e8e0d-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="86819-104">[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="86819-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="e8e0d-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="e8e0d-105">Phone number</span></span>
-<span data-ttu-id="e8e0d-106">022 20 13 34</span><span class="sxs-lookup"><span data-stu-id="e8e0d-106">022 20 13 34</span></span>
+## <a name="phone-number"></a><span data-ttu-id="86819-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="86819-105">Phone number</span></span>
+<span data-ttu-id="86819-106">022 20 13 34</span><span class="sxs-lookup"><span data-stu-id="86819-106">022 20 13 34</span></span>
 
-<span data-ttu-id="e8e0d-107">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="e8e0d-107">Select option 9</span></span>
+<span data-ttu-id="86819-107">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="86819-107">Select option 9</span></span>
 
-<span data-ttu-id="e8e0d-108">코드 7700 입력</span><span class="sxs-lookup"><span data-stu-id="e8e0d-108">Enter code 7700</span></span>
+<span data-ttu-id="86819-108">코드 7700 입력</span><span class="sxs-lookup"><span data-stu-id="86819-108">Enter code 7700</span></span>
 
-## <a name="hours"></a><span data-ttu-id="e8e0d-109">시간</span><span class="sxs-lookup"><span data-stu-id="e8e0d-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="e8e0d-110">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="e8e0d-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="86819-109">시간</span><span class="sxs-lookup"><span data-stu-id="86819-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="86819-110">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="86819-110">Billing Support:</span></span>
 
-<span data-ttu-id="e8e0d-111">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="e8e0d-111">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="86819-111">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="86819-111">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="e8e0d-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="e8e0d-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="86819-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="86819-112">Technical Support:</span></span>
 
-<span data-ttu-id="e8e0d-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="e8e0d-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="86819-113">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="86819-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="e8e0d-114">현지 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="e8e0d-114">Local call charges apply</span></span>
+<span data-ttu-id="86819-114">로컬 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="86819-114">Local call charges apply</span></span>

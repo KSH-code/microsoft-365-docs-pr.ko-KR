@@ -9,31 +9,30 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 해당 국가 또는 지역에 대한 지원 팀에 문의하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e255e67ccc74d6322adcc88b59b8b9980e0e70f8
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 280bfb29f0040708e022cc06ad40a7d8a548e9a0
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640814"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545515"
 ---
-# <a name="contact-support-for-nauru"></a><span data-ttu-id="5cf2b-103">나우루 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="5cf2b-103">Contact support for Nauru</span></span>
+# <a name="contact-support-for-nauru"></a><span data-ttu-id="ffaa7-103">나우루 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="ffaa7-103">Contact support for Nauru</span></span>
 
-<span data-ttu-id="5cf2b-104">[다른 국가 또는 지역을 찾을 수 있습니다.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="5cf2b-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="ffaa7-104">[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="ffaa7-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="5cf2b-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="5cf2b-105">Phone number</span></span>
-<span data-ttu-id="5cf2b-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="5cf2b-106">+1 312 843 5148</span></span>
+## <a name="phone-number"></a><span data-ttu-id="ffaa7-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="ffaa7-105">Phone number</span></span>
+<span data-ttu-id="ffaa7-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="ffaa7-106">+1 312 843 5148</span></span>
 
-## <a name="hours"></a><span data-ttu-id="5cf2b-107">시간</span><span class="sxs-lookup"><span data-stu-id="5cf2b-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="5cf2b-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="5cf2b-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="ffaa7-107">시간</span><span class="sxs-lookup"><span data-stu-id="ffaa7-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="ffaa7-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="ffaa7-108">Billing Support:</span></span>
 
-<span data-ttu-id="5cf2b-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="5cf2b-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="ffaa7-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="ffaa7-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="5cf2b-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="5cf2b-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="ffaa7-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="ffaa7-110">Technical Support:</span></span>
 
-<span data-ttu-id="5cf2b-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="5cf2b-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="ffaa7-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="ffaa7-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="5cf2b-112">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="5cf2b-112">International call charges apply</span></span>
+<span data-ttu-id="ffaa7-112">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="ffaa7-112">International call charges apply</span></span>

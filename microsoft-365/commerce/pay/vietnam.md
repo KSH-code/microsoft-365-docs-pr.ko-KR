@@ -9,26 +9,25 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 구독에 대한 결제를 보낼 수 있는 위치를 자세히 알아보아야 합니다.
+description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 98212cf98051023ff6afb5612850414fd251d084
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: e4f5bd599f534f44984d3c1105abac7271fd5090
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648038"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50542505"
 ---
-# <a name="payment-information-for-vietnam"></a><span data-ttu-id="1c359-103">베트남 결제 정보</span><span class="sxs-lookup"><span data-stu-id="1c359-103">Payment information for Vietnam</span></span>
+# <a name="payment-information-for-vietnam"></a><span data-ttu-id="a3178-103">베트남 결제 정보</span><span class="sxs-lookup"><span data-stu-id="a3178-103">Payment information for Vietnam</span></span>
 
-<span data-ttu-id="1c359-104">[다른 국가 또는 지역을 찾을 수 있습니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="1c359-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="a3178-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="a3178-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="1c359-105">USD로만 결제하고 송장 번호를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="1c359-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="a3178-105">USD로만 결제하고 송장 번호를 참조하시기 바랍니다.</span><span class="sxs-lookup"><span data-stu-id="a3178-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="1c359-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="1c359-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="a3178-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="a3178-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="1c359-107">**은행:** Citibank, 싱가포르</span><span class="sxs-lookup"><span data-stu-id="1c359-107">**Bank:** Citibank, Singapore</span></span>  
-<span data-ttu-id="1c359-108">**SWIFT 코드:** C 미주</span><span class="sxs-lookup"><span data-stu-id="1c359-108">**SWIFT CODE:** CITISGSG</span></span>  
-<span data-ttu-id="1c359-109">**계정 번호:** 0-817543-138</span><span class="sxs-lookup"><span data-stu-id="1c359-109">**Account Number:** 0-817543-138</span></span>  
-<span data-ttu-id="1c359-110">**계정 이름:** MICROSOFT 지역 영업 CORP</span><span class="sxs-lookup"><span data-stu-id="1c359-110">**Account Name:** MICROSOFT REGIONAL SALES CORP</span></span>  
+<span data-ttu-id="a3178-107">**은행:** Citibank, Singapore</span><span class="sxs-lookup"><span data-stu-id="a3178-107">**Bank:** Citibank, Singapore</span></span>  
+<span data-ttu-id="a3178-108">**SWIFT 코드:** C 조지민 의원</span><span class="sxs-lookup"><span data-stu-id="a3178-108">**SWIFT CODE:** CITISGSG</span></span>  
+<span data-ttu-id="a3178-109">**계정 번호:** 0-817543-138</span><span class="sxs-lookup"><span data-stu-id="a3178-109">**Account Number:** 0-817543-138</span></span>  
+<span data-ttu-id="a3178-110">**계정 이름:** MICROSOFT REGIONAL SALES CORP</span><span class="sxs-lookup"><span data-stu-id="a3178-110">**Account Name:** MICROSOFT REGIONAL SALES CORP</span></span>  
