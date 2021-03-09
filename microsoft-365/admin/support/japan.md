@@ -9,20 +9,19 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 해당 국가 또는 지역에 대한 지원 팀에 문의하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5b120ae4799ab13288abe71dd71dc570db412caa
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 95dcb4b707919d8f944282f433345bd51379203b
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641906"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546607"
 ---
 # <a name="contact-support-for-japan"></a>일본 고객 지원에 문의
 
-[다른 국가 또는 지역을 찾을 수 있습니다.](../contact-support-for-business-products.md)
+[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>전화 번호
 0120 996 680(Office 365 Enterprise)
@@ -50,11 +49,11 @@ ms.locfileid: "48641906"
 
 **기타 계획:**
 
-전화 기술 지원은 평일 9:00~17:30까지 가능합니다. 심각도 높은 문제의 경우 24시간 연 7일 동안 기술 지원을 사용할 수 있습니다.
+전화 기술 지원은 평일 9:00~17:30에 제공됩니다. 심각도 높은 문제의 경우 24시간 연 7일 동안 기술 지원을 사용할 수 있습니다.
 
 대체 전화 번호:
 
-현지 통화 요금이 적용됩니다.
+로컬 통화 요금이 적용됩니다.
 
 03 4332 5493(Office 365 Enterprise)
 

@@ -9,20 +9,19 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 해당 국가 또는 지역에 대한 지원 팀에 문의하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 733dc4fb2300c834af9a862592355a2b77f38b9d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f04c1a05ee18472742910b0131a746f7c9b7691c
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643118"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547891"
 ---
-# <a name="contact-support-for-czech-republic"></a>체코 지원에 문의
+# <a name="contact-support-for-czech-republic"></a>체코 공화국 지원에 문의
 
-[다른 국가 또는 지역을 찾을 수 있습니다.](../contact-support-for-business-products.md)
+[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>전화 번호
 800 701 371
@@ -42,4 +41,4 @@ ms.locfileid: "48643118"
 
 대체 전화 번호: 239 016 433
 
-현지 통화 요금이 적용됩니다.
+로컬 통화 요금이 적용됩니다.

@@ -9,20 +9,19 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 해당 국가 또는 지역에 대한 지원에 문의하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a00aba346a48524303199b63b3622bfb9a742bd3
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: e93ccd2f9ddb545f1ad8ea094b854b7c8df797f2
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643154"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547903"
 ---
 # <a name="contact-support-for-cyprus"></a>키프로스 지원에 문의
 
-[다른 국가 또는 지역을 찾을 수 있습니다.](../contact-support-for-business-products.md)
+[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>전화 번호
 8009 2519

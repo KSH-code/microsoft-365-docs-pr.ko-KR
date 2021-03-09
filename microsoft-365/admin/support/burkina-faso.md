@@ -9,20 +9,19 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 해당 국가 또는 지역에 대한 지원 팀에 문의하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7d5d1531e9f2aeda3e2f9198d56dd8f36bd9dd47
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2c61cc7b37ba40ef04c061a45b12e21f412ed061
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643646"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548347"
 ---
 # <a name="contact-support-for-burkina-faso"></a>부르키나파소 지원에 문의
 
-[다른 국가 또는 지역을 찾을 수 있습니다.](../contact-support-for-business-products.md)
+[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>전화 번호
 +1 312 843 5147
@@ -30,7 +29,7 @@ ms.locfileid: "48643646"
 ## <a name="hours"></a>시간
 ### <a name="billing-support"></a>청구 지원:
 
-프랑스어: Mon-Fri 오전 8시-오후 4시
+프랑스어: Mon-Fri 오전 8시-4시
 
 영어: Mon-Fri 오전 8시-오후 4시
 

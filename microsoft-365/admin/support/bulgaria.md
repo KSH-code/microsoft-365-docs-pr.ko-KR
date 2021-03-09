@@ -9,20 +9,19 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 해당 국가 또는 지역에 대한 지원 팀에 문의하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 15aaec4311b01b91721b0f820ea41a105c750ebe
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f4403e20243b8520c32baef08daa56a233eaf12d
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643634"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548359"
 ---
 # <a name="contact-support-for-bulgaria"></a>불가리아 지원에 문의
 
-[다른 국가 또는 지역을 찾을 수 있습니다.](../contact-support-for-business-products.md)
+[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>전화 번호
 00800 118 4446

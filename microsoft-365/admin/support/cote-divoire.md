@@ -1,5 +1,5 @@
 ---
-title: 코트 디부와르에 대한 지원 정보
+title: 코트 디부아르 지원 정보
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,20 +9,19 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 해당 국가 또는 지역에 대한 지원 팀에 문의하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3ef9cfe761b705669e4499b0a0df1f17785638f7
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 928a6d42bea45be63f705209b4cd05139cc39c56
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643190"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547879"
 ---
-# <a name="contact-support-for-cte-divoire"></a>코트 디부와르 지원에 문의
+# <a name="contact-support-for-cte-divoire"></a>Côte d'Ivoire 지원에 문의
 
-[다른 국가 또는 지역을 찾을 수 있습니다.](../contact-support-for-business-products.md)
+[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)
 
 ## <a name="phone-number"></a>전화 번호
 020 24 24 90
@@ -44,4 +43,4 @@ ms.locfileid: "48643190"
 
 영어: 연중무휴 24시간
 
-현지 통화 요금이 적용됩니다.
+로컬 통화 요금이 적용됩니다.
