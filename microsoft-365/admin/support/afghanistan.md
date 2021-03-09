@@ -9,33 +9,32 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: 해당 국가 또는 지역에 대한 지원 팀에 문의하는 방법을 자세히 알아보는 방법을 배워야 합니다.
+description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 174e03abdf75f288861de5601bcb531c07a3d362
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: c38d9cf409261775fe3c1ab6f198e43b511a56de
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644402"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50549199"
 ---
-# <a name="contact-support-for-afghanistan"></a><span data-ttu-id="32ecb-103">아프가니스탄 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="32ecb-103">Contact support for Afghanistan</span></span>
+# <a name="contact-support-for-afghanistan"></a><span data-ttu-id="f2f59-103">아프가니스탄 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="f2f59-103">Contact support for Afghanistan</span></span>
 
-<span data-ttu-id="32ecb-104">[다른 국가 또는 지역을 찾을 수 있습니다.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="32ecb-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="f2f59-104">[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="f2f59-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="32ecb-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="32ecb-105">Phone number</span></span>
-<span data-ttu-id="32ecb-106">+92 21 111 674 357</span><span class="sxs-lookup"><span data-stu-id="32ecb-106">+92 21 111 674 357</span></span>
+## <a name="phone-number"></a><span data-ttu-id="f2f59-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="f2f59-105">Phone number</span></span>
+<span data-ttu-id="f2f59-106">+92 21 111 674 357</span><span class="sxs-lookup"><span data-stu-id="f2f59-106">+92 21 111 674 357</span></span>
 
-<span data-ttu-id="32ecb-107">옵션 3 선택</span><span class="sxs-lookup"><span data-stu-id="32ecb-107">Select option 3</span></span>
+<span data-ttu-id="f2f59-107">옵션 3 선택</span><span class="sxs-lookup"><span data-stu-id="f2f59-107">Select option 3</span></span>
 
-## <a name="hours"></a><span data-ttu-id="32ecb-108">시간</span><span class="sxs-lookup"><span data-stu-id="32ecb-108">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="32ecb-109">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="32ecb-109">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="f2f59-108">시간</span><span class="sxs-lookup"><span data-stu-id="f2f59-108">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="f2f59-109">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="f2f59-109">Billing Support:</span></span>
 
-<span data-ttu-id="32ecb-110">영어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="32ecb-110">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="f2f59-110">영어: Mon-Fri 오전 10시-오후 6시</span><span class="sxs-lookup"><span data-stu-id="f2f59-110">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="32ecb-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="32ecb-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="f2f59-111">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="f2f59-111">Technical Support:</span></span>
 
-<span data-ttu-id="32ecb-112">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="32ecb-112">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="f2f59-112">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="f2f59-112">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="32ecb-113">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="32ecb-113">International call charges apply</span></span>
+<span data-ttu-id="f2f59-113">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="f2f59-113">International call charges apply</span></span>
