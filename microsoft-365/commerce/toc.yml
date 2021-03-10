@@ -48,12 +48,14 @@
       href: billing-and-payments/view-your-bill-or-invoice.md
     - name: 청구서 또는 송장 이해하기
       href: billing-and-payments/understand-your-invoice.md
-    - name: 결제 방법 관리
-      href: billing-and-payments/manage-payment-methods.md
     - name: 구독 결제
       href: billing-and-payments/pay-for-your-subscription.md
+    - name: 결제 방법 관리
+      href: billing-and-payments/manage-payment-methods.md
     - name: 청구 주기 변경
       href: billing-and-payments/change-payment-frequency.md
+    - name: 청구 알림 및 송장 첨부 파일 관리
+      href: billing-and-payments/manage-billing-notifications.md
     - name: 청구 프로필 이해하기
       href: billing-and-payments/manage-billing-profiles.md
     - name: 대금 청구 주소 변경
