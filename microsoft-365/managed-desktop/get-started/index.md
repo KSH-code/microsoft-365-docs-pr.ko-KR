@@ -6,19 +6,21 @@ ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 141eb16ae77c44c51358c07a74f5050eb07dc26f
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 49cf658c7d146f75d54d1f74f0034db64c3cc5dc
+ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509281"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50572555"
 ---
 # <a name="get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop 시작
 
-이제 서비스에 등록했으므로 다음 단계에 따라 관리자 연락처를 확인하고, 조건부 액세스 설정을 조정하고, 사용자에게 라이선스를 할당하며, 엔터프라이즈 상태 로밍을 설정하고, 장치를 구입하여 설정하고, 사용자가 이에 준비하도록 하고, 장치에 앱을 배포합니다.
+등록할 준비가 되었습니다. [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)를 열고 **테넌트 관리** 로 이동하세요. **Microsoft Managed Desktop** 하위 섹션에서 **테넌트 등록** 을 선택한 다음 마법사에 따라 Microsoft Managed Desktop에 테넌트를 등록합니다.
 
 > [!NOTE]
-> 이 단계를 수행하는 것이 좋습니다. 그러나 순서는 어느 정도 조정할 수 있습니다.
+> 등록을 완료하려면 전역 관리자로 로그인해야 합니다. 자세한 내용은 [관리 포털에 액세스](access-admin-portal.md)를 참조하세요.
+
+등록을 완료한 후 아래 단계에 따라 서비스를 구성합니다. 이 단계를 수행하는 것이 좋습니다. 그러나 순서는 어느 정도 조정할 수 있습니다. 
 
 1. [관리 포털에서 관리자 연락처 추가 및 확인](add-admin-contacts.md)
 2. [등록 후 설정 수정](conditional-access.md)

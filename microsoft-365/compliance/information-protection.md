@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: MIP(Microsoft Information Protection)를 구현하여 중요한 정보를 어디에서나 보호할 수 있습니다.
-ms.openlocfilehash: bf464fd4ea0314a86a10696f8bda62e85a70ea49
-ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
+ms.openlocfilehash: b65f5ea2d4c24bc1c2ef2a34e25150446902d940
+ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50099704"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50572620"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft 365의 Microsoft Information Protection
 
@@ -41,8 +41,7 @@ MIP 기능은 Microsoft 365 규정 준수에 포함되어 있으며, [데이터 
 > [!NOTE]
 > 현재 미리 보기에 있는 Azure Purview에서 데이터 분류 및 레이블 지정에 대한 자세한 내용은 [Azure Purview에서 내용에 자동으로 레이블을 지정](https://docs.microsoft.com/azure/purview/create-sensitivity-label)을 참조하세요.
 > 
-> 이 최근의 릴리스에 대한 자세한 정보는 블로그 게시물 [Microsoft Information Protection 및 Microsoft Azure Purview: Better Together](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-information-protection-and-microsoft-azure-purview/ba-p/1957481)를 참조하세요.
-
+> Azure Purview의 릴리스 공지 사항은 다음 블로그 게시물을 참조하세요. [Microsoft Information Protection 및 Microsoft Azure Purview: 함께 사용하면 더욱 효과적](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-information-protection-and-microsoft-azure-purview/ba-p/1957481) 및 [Spring Ignite 2021의 Azure Purview](https://techcommunity.microsoft.com/t5/azure-purview/azure-purview-at-spring-ignite-2021/ba-p/2175919).
 
 
 하이브리드 환경에서 데이터 환경을 이해하고 중요한 데이터를 식별하려면 다음 기능을 사용합니다.
