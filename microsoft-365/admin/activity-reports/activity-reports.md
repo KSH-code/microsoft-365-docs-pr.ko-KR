@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Microsoft 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 4ec7690e5300b2ac08a98fbec3f4c253e970738c
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: a71ced2dd0aa71179c1b26cec571f3025af1ce05
+ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921173"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50603855"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -85,6 +85,8 @@ ms.locfileid: "49921173"
 ## <a name="which-activity-reports-are-available-in-the-admin-center"></a>관리 센터에서 사용할 수 있는 활동 보고서
 
 구독에 따라 사용 가능한 보고서는 다음과 같습니다.
+
+- [Microsoft 브라우저 사용량](browser-usage-report.md) 
   
 - [이메일 활동](email-activity-ww.md)
 
@@ -125,8 +127,6 @@ ms.locfileid: "49921173"
 - [미국 정부 기관용 비즈니스용 OneDrive 사용](onedrive-for-business-usage.md)
 
 - [Microsoft 365 앱 사용 현황](microsoft365-apps-usage-ww.md)
-
-- [미국 정보 기관용 Microsoft 365 앱 사용 현황](microsoft365-apps-usage.md)
   
 - [SharePoint 사이트 사용 현황](sharepoint-site-usage-ww.md)
 

@@ -18,43 +18,43 @@ search.appverid:
 - MOE150
 ms.assetid: 093a6d0d-890b-489e-9f46-b15687d3fe4f
 description: Microsoft 365 사용 현황 분석, 활동 보고서 및 채택 메트릭의 활성 사용자에 대해 자세히 알아보십시오.
-ms.openlocfilehash: b4834d96b2f762d77f0d27309cf8c71a782b0dcd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7b8d15a88568c9af8b11a157dad2ec5f76ace6d3
+ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402885"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50603975"
 ---
 # <a name="active-user-in-microsoft-365-usage-reports"></a>Microsoft 365 사용 현황 보고서의 활성 사용자
 
 ## <a name="active-user-in-usage-reports"></a>사용 현황 보고서의 활성 사용자
 
-Microsoft 365 사용 현황 분석 및 관리 센터의 [](../activity-reports/activity-reports.md) 활동 보고서에 대한 [Microsoft 365](usage-analytics.md) 제품의 활성 사용자는 다음과 같이 정의됩니다. 
+Microsoft 365 사용 현황 분석 및 관리 센터의 활동 보고서에 대한 [Microsoft 365](usage-analytics.md) 제품의 활성 사용자는 [다음과](../activity-reports/activity-reports.md) 같이 정의됩니다. 
   
 |**제품**|**활성 사용자 정의**|**노트**|
 |:-----|:-----|:-----|
-|Exchange Online  <br/> |전자 메일을 읽거나 보내는 모든 사용자입니다.  <br/> |표시된 일정 정보가 없습니다. 이 기능은 향후 업데이트에 추가됩니다.  <br/> |
+|Exchange Online  <br/> |다음 작업을 수행한 모든 사용자: 읽음으로 표시, 메시지 보내기, 약속 만들기, 모임 요청 보내기, 모임 요청 수락(미정) 또는 거절, 모임 취소  <br/> |표시된 일정 정보가 없습니다. 이 기능은 향후 업데이트에 추가됩니다.  <br/> |
 |SharePoint Online  <br/> |내부적 또는 외부적으로 파일을 만들고, 수정하고, 보고, 삭제하고, 공유하거나 사이트에서 클라이언트와 동기화하는 작업을 수행하거나 사이트에서 페이지를 조회한 사용자입니다.  <br/> |Microsoft 365 사용 현황 분석 템플릿 앱에서 SharePoint Online에 대한 활성 사용자 메트릭은 SharePoint 팀 사이트 또는 그룹 사이트에 대해 파일 활동을 한 사용자만 반영합니다. 템플릿 앱은 관리 센터의 사용 현황 보고서에서 정의와 동일하게 동기화되도록 업데이트됩니다.  <br/> |
 |비즈니스용 OneDrive  <br/> |내부적 또는 외부적으로 파일을 만들고, 수정하고, 보고, 삭제하고, 공유하거나 클라이언트와 동기화하는 작업을 수행한 사용자입니다.  <br/> ||
 |Yammer  <br/> |Yammer에서 메시지를 읽거나 게시했거나 좋아하는 모든 사용자입니다.  <br/> ||
 |비즈니스용 Skype  <br/> |피어 투 피어 세션(인스턴트 메시징, 음성 및 화상 통화, 응용 프로그램 공유 및 파일 전송 포함)에 참여했거나 회의를 구성했거나 회의에 참여한 모든 사용자입니다.  <br/> ||
 |Office  <br/> |하나 이상의 장치에서 Microsoft 365 Pro Plus, Visio Pro 또는 Project Pro 구독을 활성화한 모든 사용자입니다.  <br/> ||
 |Microsoft 365 그룹  <br/> |(메시지가 그룹에 전송된 경우) 사서함 활동이 발생한 그룹 구성원  <br/> |이 정의는 그룹 사이트 파일 활동 및 Yammer 활동(그룹 사이트의 파일 활동 및 그룹과 연결된 Yammer 그룹에 게시된 메시지)을 통해 향상됩니다. 이 데이터는 현재 Microsoft 365 사용 현황 분석 템플릿 앱에서 사용할 수 없습니다.  <br/> |
-|Microsoft Teams  <br/> |채팅 메시지, 비공개 채팅 메시지, 통화, 모임 또는 기타 활동에 참여한 모든 사용자입니다. 다른 활동은 메시지, 앱에 대한 선호, 파일 검색, 팀 및 채널을 따라가서 선호하는 작업을 포함하며 이에 국한되지 않는 사용자에 의해 다른 팀 활동의 수로 정의됩니다.  <br/> ||
+|Microsoft Teams  <br/> |채팅 메시지, 비공개 채팅 메시지, 통화, 모임 또는 기타 활동에 참여한 모든 사용자입니다. 다른 활동은 사용자가 메시지, 앱에 대한 선호, 파일 작업, 검색, 팀 및 채널을 따라가고 선호하는 작업을 포함하며 이에 국한되지 않는 사용자가 다른 팀 활동의 수로 정의합니다.  <br/> ||
    
 ## <a name="adoption-metrics"></a>채택 메트릭
 
-[Microsoft 365 사용 현황 분석에는](usage-analytics.md) 활성 사용자와 관련된 추가 채택 메트릭이 포함되어 시간이 지날 때 제품의 채택을 보여 줍니다. 이러한 메트릭은 선택한 월, 연도 및 제품에 대해 유효하며 다음과 같이 정의됩니다. 
+[Microsoft 365](usage-analytics.md) 사용 현황 분석에는 시간이 지날 때 제품의 채택을 표시하기 위해 활성 사용자와 관련된 추가 채택 메트릭이 포함되어 있습니다. 이러한 메트릭은 선택한 월, 연도 및 제품에 유효하며 다음과 같이 정의됩니다. 
   
 |**메트릭**|**설명**|
 |:-----|:-----|
 |EnabledUsers  <br/> |해당 달에 제품을 사용할 수 있는 사용자 수입니다.  <br/> |
 |ActiveUsers  <br/> |해당 달에 활성 상태인 사용자 수입니다.  <br/> |
-|MoMReturningUsers  <br/> |이전 달에도 활성 상태인 달의 활성 사용자 수입니다.  <br/> |
-|FirstTimeUsers  <br/> |이전 달에 서비스를 사용한 적이 없는 활성 사용자 수입니다.  <br/> |
-|CumulativeActiveUsers  <br/> |해당 월에 활성 상태인 사용자 수와 이전 월을 더한 값입니다.  <br/> |
-|ActiveUsers(%)  <br/> |해당 월에 활성화된 사용자 수와 비교하여 가장 가까운 10분의 1에 반올라된 사용자 비율입니다.  <br/> |
-|MoMReturningUsers(%)  <br/> |활성 사용자 수와 비교하여 이전 달에 활성 상태인 가장 가까운 10분의 1에 반올라된 사용자 비율입니다.  <br/> |
+|MoMReturningUsers  <br/> |이전 달에 활성 상태인 달의 사용자 수입니다.  <br/> |
+|FirstTimeUsers  <br/> |이전 서비스를 사용한 적이 없는 달의 활성 사용자 수입니다.  <br/> |
+|CumulativeActiveUsers  <br/> |이전 달을 더한 달의 활성 사용자 수입니다.  <br/> |
+|ActiveUsers(%)  <br/> |해당 월에 활성화된 사용자 수와 비교하여 가장 가까운 10분의 1로 반올라된 사용자 비율입니다.  <br/> |
+|MoMReturningUsers(%)  <br/> |활성 사용자 수와 비교하여 이전 달에 활성 상태인 가장 가까운 10분의 1로 반올라된 사용자 비율입니다.  <br/> |
    
 MoMReturningUsers, FirstTimeUsers, &amp; CumulativeActiveUsers는 Microsoft Teams를 포함해 2018년 1월 1일부터 초기화되었습니다.
   

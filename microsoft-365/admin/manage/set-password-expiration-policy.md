@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Microsoft 365 관리 센터에서 조직에 대한 암호 만료 정책을 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: 9470a73926327777055a321eb3a592ea3ddcf41e
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 4a7b544b6eded6f0cd6441ad7f6b02de790e5e44
+ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515043"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50603987"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>조직의 암호 만료 정책 설정
 
@@ -43,7 +43,7 @@ ms.locfileid: "50515043"
 
 회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정의 새로운 기능](../admin-overview/admin-overview.md)
 
-[전역 관리자 또는 암호 관리자](../add-users/about-admin-roles.md)만 이 단계를 수행할 수 있습니다.
+다음 단계를 수행하려면 [전역 관리자](../add-users/about-admin-roles.md)여야 합니다.
 
 사용자에게는 만료일이 없는 암호를 설정할 권한이 없습니다. 회사 또는 학교의 기술 지원에 문의하여 이 문서의 단계를 수행합니다.
 
@@ -55,9 +55,7 @@ ms.locfileid: "50515043"
 > 기본적으로 암호는 90일 이내에 만료되도록 설정됩니다. 현재 리서치에서는 강제 암호의 변경은 장점보다 단점이 많다는 것을 강하게 나타내고 있습니다. 사용자가 더 취약한 암호를 선택하거나, 암호를 재사용하거나, 해커가 손쉽게 추측할 수 있는 방식으로 기존 암호를 업데이트하도록 만듭니다. 암호가 만료되지 않도록 설정하는 경우 [다단계 인증](../security-and-compliance/set-up-multi-factor-authentication.md)을 사용하는 것이 좋습니다.
 
 특정 시간 후에 사용자 암호가 만료되도록 설정하려면 아래의 단계를 따릅니다.
-> [!IMPORTANT]
-> [전역 관리자](../add-users/about-admin-roles.md)만 이러한 단계를 수행할 수 있습니다.
-  
+
 1. 관리 센터에서 **설정** \> **조직 설정** 으로 이동합니다.
 
 2. <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">보안 및 개인 정보</a> 페이지로 이동합니다.

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft 365 Defender
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6c5c94ce3994424a6d4b6f4a4ac587f5cc5e33ca
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 0c52b80ffe30da259672e5862d0fa73a8445aa59
+ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454700"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50604045"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Office 365에서 배달된 악성 전자 메일 수정
 
@@ -136,5 +136,7 @@ ms.locfileid: "50454700"
   작업 로그에서 항목을 선택하여 수정 세부 정보를 표시합니다. 세부 정보가 "성공" 또는 "사서함에서 찾을 수 없습니다."라고 말하면 해당 항목이 사서함에서 이미 제거되었습니다. 경우에 따라 수정 중에 시스템 오류가 발생합니다. 이러한 경우 수정을 다시 시도하는 것이 좋습니다.
 
   큰 일괄 처리를 수정하는 경우 메일 전송을 통해 수정을 위해 보내는 메시지와 작업 로그를 통해 수정된 메시지를 내보낼 수도 있습니다. 내보내기 제한이 100k 레코드로 증가합니다.
+
+보안 팀은 최대 50회의 동시 수동 수정을 할 수 있습니다. 그러나 자동화된 조사 및 대응 작업에 대한 제한은 설정되어 없습니다.
 
   수정은 위협을 완화하고 의심스러운 전자 메일을 해결하기 위한 강력한 도구입니다. 조직의 보안을 유지하는 데 도움이 됩니다.

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e0fc96c1bb7b077df50f4f1c3c52ffa0dd49bef
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: 1aa710939a805453a73db38eb93e4ceb90bc25d7
+ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461863"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50597168"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -126,7 +126,7 @@ Office 앱용 Azure Information Protection 클라이언트가 아닌 기본 제�
 
 이 Office 추가 기능을 사용하지 않도록 설정하거나 제거하면 Azure Information Protection 클라이언트가 설치된 상태로 유지되어 Office 앱 외부의 파일에 계속 레이블을 지정합니다. 예를 들어 파일 탐색기 또는 PowerShell을 사용합니다.
 
-Azure Information Protection 클라이언트 및 Office 기본 제공 레이블 클라이언트에서 지원하는 기능에 [](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers) 대한 자세한 내용은 Azure Information Protection 설명서에서 Windows 컴퓨터에 사용할 레이블 클라이언트 선택을 참조하세요.
+Azure Information Protection 클라이언트 및 Office 기본 제공 레이블 클라이언트에서 지원하는 기능에 대한 자세한 내용은 Azure Information Protection 설명서에서 [Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution) 레이블 솔루션 선택을 참조하세요.
 
 ## <a name="office-file-types-supported"></a>지원되는 Office 파일 형식
 

@@ -22,12 +22,12 @@ ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365의 검색 및 eDiscovery 도구를 사용하여 검색할 수 있는 전자 메일 및 파일 속성에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9ad280678cac2d266b6e4c68ac66fb2e5afe0bf1
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: d5b558df15cde6be6f87663dcb999efc6ec66f7e
+ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423921"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50604034"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search-and-ediscovery"></a>콘텐츠 검색 및 eDiscovery에 대한 키워드 쿼리 및 검색 조건
 
@@ -58,7 +58,7 @@ ms.locfileid: "50423921"
 |범주| 검색할 범주입니다. Outlook 또는 웹용 Outlook(이전의 웹용 Outlook)을 사용하여 범주를 정의할 Outlook Web App. 가능한 값은 다음과 같습니다.  <br/><br/>  파랑  <br/>  녹색  <br/>  orange  <br/>  자주  <br/>  빨강  <br/>  노란색|`category:"Red Category"`|원본 사서함에서 red 범주가 지정된 메시지입니다. |
 |Cc|전자 메일 메시지의Cc 필드입니다. <sup>1</sup>|`cc:pilarp@contoso.com`  <br/> `cc:"Pilar Pinilla"`|두 예제 모두 참조 필드에 Pilar Pinilla가 지정된 메시지입니다.|
 |Folderid|특정 사서함 폴더의 폴더 ID(GUID)입니다. 이 속성을 사용하는 경우 지정된 폴더가 있는 사서함을 검색해야 합니다. 지정된 폴더만 검색됩니다. 폴더의 하위 폴더는 검색되지 않습니다. 하위 폴더를 검색하려면 검색할 하위 폴더에 Folderid 속성을 사용해야 합니다.  <br/> Folderid 속성을 검색하고 스크립트를 사용하여 특정 사서함의 폴더ID를 얻는 데 대한 자세한 내용은 [Use Content Search for targeted collections을 참조하십시오.](use-content-search-for-targeted-collections.md)|`folderid:4D6DD7F943C29041A65787E30F02AD1F00000000013A0000`  <br/> `folderid:2370FB455F82FC44BE31397F47B632A70000000001160000 AND participants:garthf@contoso.com`|첫 번째 예에서는 지정한 사서함 폴더의 모든 항목을 반환합니다. 두 번째 예에서는 지정된 사서함 폴더에서 사서함 폴더에서 보내거나 받은 모든 항목을 garthf@contoso.com.|
-|시작|전자 메일 메시지의 보낸 사람입니다. <sup>1</sup>|`from:pilarp@contoso.com`  <br/> `from:contoso.com`|지정된 사용자가 보냈거나 지정된 도메인에서 보낸 메시지입니다.|
+|From|전자 메일 메시지의 보낸 사람입니다. <sup>1</sup>|`from:pilarp@contoso.com`  <br/> `from:contoso.com`|지정된 사용자가 보냈거나 지정된 도메인에서 보낸 메시지입니다.|
 |HasAttachment|메시지에 첨부 파일이 있는지 여부를 나타냅니다. true 또는 **false** 값을 **사용합니다.**|`from:pilar@contoso.com AND hasattachment:true`|첨부 파일이 있는 지정된 사용자가 보낸 메시지입니다.|
 |Importance|보낸 사람이 메시지를 보낼 때 지정할 수 있는 전자 메일 메시지의 중요도입니다. 기본적으로 보낸 사람이 중요도를 **높음** 또는 **낮음** 으로 설정하지 않았다면 메시지는 보통 중요도로 전송됩니다.|`importance:high`  <br/> `importance:medium`  <br/> `importance:low`|높음 중요도, 보통 중요도 또는 낮은 중요도로 표시된 메시지입니다.|
 |IsRead|메시지를 읽은지 여부를 나타냅니다. true 또는 **false** 값을 **사용합니다.**|`isread:true`  <br/> `isread:false`|첫 번째 예제에서는 IsRead 속성이 True로 설정된 메시지를 **반환합니다.** 두 번째 예제에서는 IsRead 속성이 False로 설정된 메시지를 **반환합니다.**|
@@ -161,7 +161,7 @@ Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 S
 
   그런 다음 검색 속성의 ID를 사용하여 사용자 지정 중요한 데이터 형식이 포함된 문서를 반환할 수 있습니다. 예를 들면 다음과 `SensitiveType` 같습니다. `SensitiveType:7e13277e-6b04-3b68-94ed-1aeb9d47de37`
   
-- Exchange Online 사서함에서 미사용 중요한 데이터를 검색하는 데 중요한 정보 유형 및 검색 속성을 사용할 `SensitiveType` 수 없습니다. 그러나 DLP(데이터 손실 방지) 정책을 사용하여 전송되는 중요한 전자 메일 데이터를 보호할 수 있습니다. 자세한 내용은 [데이터](data-loss-prevention-policies.md) 손실 방지 정책 개요 및 개인 데이터 [검색 및 찾기를 참조하세요.](search-for-and-find-personal-data.md)
+- Exchange Online 사서함에서 미사용 중요한 데이터를 검색하는 데 중요한 정보 유형 및 검색 속성을 사용할 `SensitiveType` 수 없습니다. 여기에는 모든 콘텐츠가 사서함에 저장되어 있기 때문에 1:1 채팅 메시지, 1:N 그룹 채팅 메시지 및 Microsoft 팀의 팀 채널 대화가 포함됩니다. 그러나 DLP(데이터 손실 방지) 정책을 사용하여 전송되는 중요한 전자 메일 데이터를 보호할 수 있습니다. 자세한 내용은 [데이터](data-loss-prevention-policies.md) 손실 방지 정책 개요 및 개인 데이터 [검색 및 찾기를 참조하세요.](search-for-and-find-personal-data.md)
   
 ## <a name="search-operators"></a>검색 연산자
 
