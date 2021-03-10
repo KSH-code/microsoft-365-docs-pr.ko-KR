@@ -6,25 +6,27 @@ ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 141eb16ae77c44c51358c07a74f5050eb07dc26f
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 49cf658c7d146f75d54d1f74f0034db64c3cc5dc
+ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509281"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50572555"
 ---
-# <a name="get-started-with-microsoft-managed-desktop"></a><span data-ttu-id="1aa7a-104">Microsoft Managed Desktop 시작</span><span class="sxs-lookup"><span data-stu-id="1aa7a-104">Get started with Microsoft Managed Desktop</span></span>
+# <a name="get-started-with-microsoft-managed-desktop"></a><span data-ttu-id="635c8-104">Microsoft Managed Desktop 시작</span><span class="sxs-lookup"><span data-stu-id="635c8-104">Get started with Microsoft Managed Desktop</span></span>
 
-<span data-ttu-id="1aa7a-105">이제 서비스에 등록했으므로 다음 단계에 따라 관리자 연락처를 확인하고, 조건부 액세스 설정을 조정하고, 사용자에게 라이선스를 할당하며, 엔터프라이즈 상태 로밍을 설정하고, 장치를 구입하여 설정하고, 사용자가 이에 준비하도록 하고, 장치에 앱을 배포합니다.</span><span class="sxs-lookup"><span data-stu-id="1aa7a-105">Now that you've enrolled in the service, follow these steps to confirm admin contacts, adjust conditional access settings, assign licenses to users, enable Enterprise State Roaming,  obtain and set up devices, prepare users, and deploy apps to devices.</span></span>
+<span data-ttu-id="635c8-105">등록할 준비가 되었습니다. [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)를 열고 **테넌트 관리** 로 이동하세요.</span><span class="sxs-lookup"><span data-stu-id="635c8-105">Now that you’re ready to enroll, open [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) and navigate to **Tenant Administration**.</span></span> <span data-ttu-id="635c8-106">**Microsoft Managed Desktop** 하위 섹션에서 **테넌트 등록** 을 선택한 다음 마법사에 따라 Microsoft Managed Desktop에 테넌트를 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="635c8-106">Select **Tenant enrollment** under the **Microsoft Managed Desktop** subsection then follow the wizard to enroll your tenant with Microsoft Managed Desktop.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="1aa7a-106">이 단계를 수행하는 것이 좋습니다. 그러나 순서는 어느 정도 조정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1aa7a-106">This is the recommended order to follow, but you do have some flexibility in the sequence.</span></span>
+> <span data-ttu-id="635c8-107">등록을 완료하려면 전역 관리자로 로그인해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="635c8-107">You must be logged in as a Global Administrator to complete enrollment.</span></span> <span data-ttu-id="635c8-108">자세한 내용은 [관리 포털에 액세스](access-admin-portal.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="635c8-108">For more information, see [access the admin portal](access-admin-portal.md) for details.</span></span>
 
-1. [<span data-ttu-id="1aa7a-107">관리 포털에서 관리자 연락처 추가 및 확인</span><span class="sxs-lookup"><span data-stu-id="1aa7a-107">Add and verify admin contacts in the Admin portal</span></span>](add-admin-contacts.md)
-2. [<span data-ttu-id="1aa7a-108">등록 후 설정 수정</span><span class="sxs-lookup"><span data-stu-id="1aa7a-108">Adjust settings after enrollment</span></span>](conditional-access.md)
-3. [<span data-ttu-id="1aa7a-109">라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="1aa7a-109">Assign licenses</span></span>](assign-licenses.md)
-4. [<span data-ttu-id="1aa7a-110">Intune 회사 포털 배포</span><span class="sxs-lookup"><span data-stu-id="1aa7a-110">Deploy Intune Company Portal</span></span>](company-portal.md)
-5. [<span data-ttu-id="1aa7a-111">엔터프라이즈 상태 로밍 사용</span><span class="sxs-lookup"><span data-stu-id="1aa7a-111">Enable Enterprise State Roaming</span></span>](enterprise-state-roaming.md)
-6. [<span data-ttu-id="1aa7a-112">장치 설정</span><span class="sxs-lookup"><span data-stu-id="1aa7a-112">Set up devices</span></span>](set-up-devices.md)
-7. [<span data-ttu-id="1aa7a-113">사용자들이 장치를 사용할 수 있도록 준비시키기</span><span class="sxs-lookup"><span data-stu-id="1aa7a-113">Get your users ready to use devices</span></span>](get-started-devices.md)
-8. [<span data-ttu-id="1aa7a-114">앱 배포</span><span class="sxs-lookup"><span data-stu-id="1aa7a-114">Deploy apps</span></span>](deploy-apps.md)
+<span data-ttu-id="635c8-109">등록을 완료한 후 아래 단계에 따라 서비스를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="635c8-109">Once you’ve finished enrollment, follow the steps below to configure the service.</span></span> <span data-ttu-id="635c8-110">이 단계를 수행하는 것이 좋습니다. 그러나 순서는 어느 정도 조정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="635c8-110">This is the recommended order to follow, but you do have some flexibility in the sequence.</span></span> 
+
+1. [<span data-ttu-id="635c8-111">관리 포털에서 관리자 연락처 추가 및 확인</span><span class="sxs-lookup"><span data-stu-id="635c8-111">Add and verify admin contacts in the Admin portal</span></span>](add-admin-contacts.md)
+2. [<span data-ttu-id="635c8-112">등록 후 설정 수정</span><span class="sxs-lookup"><span data-stu-id="635c8-112">Adjust settings after enrollment</span></span>](conditional-access.md)
+3. [<span data-ttu-id="635c8-113">라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="635c8-113">Assign licenses</span></span>](assign-licenses.md)
+4. [<span data-ttu-id="635c8-114">Intune 회사 포털 배포</span><span class="sxs-lookup"><span data-stu-id="635c8-114">Deploy Intune Company Portal</span></span>](company-portal.md)
+5. [<span data-ttu-id="635c8-115">엔터프라이즈 상태 로밍 사용</span><span class="sxs-lookup"><span data-stu-id="635c8-115">Enable Enterprise State Roaming</span></span>](enterprise-state-roaming.md)
+6. [<span data-ttu-id="635c8-116">장치 설정</span><span class="sxs-lookup"><span data-stu-id="635c8-116">Set up devices</span></span>](set-up-devices.md)
+7. [<span data-ttu-id="635c8-117">사용자들이 장치를 사용할 수 있도록 준비시키기</span><span class="sxs-lookup"><span data-stu-id="635c8-117">Get your users ready to use devices</span></span>](get-started-devices.md)
+8. [<span data-ttu-id="635c8-118">앱 배포</span><span class="sxs-lookup"><span data-stu-id="635c8-118">Deploy apps</span></span>](deploy-apps.md)
