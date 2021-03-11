@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 9/5/2017
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,16 +18,16 @@ ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365 비활성 사서함의 콘텐츠를 더 이상 보존할 필요가 없는 경우 비활성 사서함을 영구적으로 삭제할 수 있습니다.
-ms.openlocfilehash: 0e5a56fce7f41b0c3b30e56aefbaae0593470756
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: d5acccbf37ee5b6958d282de14edafc0b9b00182
+ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423215"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50717583"
 ---
 # <a name="delete-an-inactive-mailbox"></a>비활성 사서함 삭제
 
-비활성 사서함은 직원이 퇴사한 후에 해당 전자 메일을 유지하는 데 사용됩니다. 비활성 사서함의 콘텐츠를 더 이상 보존할 필요가 없는 경우 비활성 사서함을 영구적으로 삭제할 수 있습니다. 또한 비활성 사서함에 여러 보류가 배치될 수도 있습니다. 예를 들어 비활성 사서함은 소송 보류에 배치될 수 있으며 하나 이상의 소송 In-Place 있습니다. 또한 Office 365 또는 Microsoft 365의 보안 및 준수 센터에서 만든 보존 정책이 비활성 사서함에 적용될 수 있습니다. 비활성 사서함에서 모든 보류 및 보존 정책을 제거하여 삭제해야 합니다. 보존 및 보존 정책을 제거한 후 비활성 사서함은 삭제로 표시되고 처리된 후 영구적으로 삭제됩니다.
+비활성 사서함은 조직에서 나서 이전 직원의 전자 메일을 보존하는 데 사용됩니다. 비활성 사서함의 콘텐츠를 더 이상 보존할 필요가 없는 경우 비활성 사서함을 영구적으로 삭제할 수 있습니다. 또한 비활성 사서함에 여러 보류가 배치될 수도 있습니다. 예를 들어 비활성 사서함은 소송 보류에 배치될 수 있으며 하나 이상의 소송 In-Place 있습니다. 또한 Office 365 또는 Microsoft 365의 보안 및 준수 센터에서 만든 보존 정책이 비활성 사서함에 적용될 수 있습니다. 비활성 사서함에서 모든 보류 및 보존 정책을 제거하여 삭제해야 합니다. 보존 및 보존 정책을 제거한 후 비활성 사서함은 삭제로 표시되고 처리된 후 영구적으로 삭제됩니다.
   
 > [!IMPORTANT]
 > 사서함 콘텐츠를 보존하는 다양한 방식으로 계속 투자함에 따라 Exchange 관리 센터에서 In-Place 보존의 사용 중지를 발표합니다. 즉, 소송 보존 및 보존 정책을 사용하여 비활성 사서함을 만들어야 합니다. 2020년 7월 1일부터는 Exchange Online에서 보류를 In-Place 수 없습니다. 그러나 비활성 사서함에 배치된 보류 In-Place 변경할 수 있습니다. 그러나 2020년 10월 1일부터는 보류 기간을 변경할 수 없습니다. 비활성 사서함은 비활성 사서함을 제거하여 비활성 사서함만 삭제할 In-Place 있습니다. 보류에 있는 In-Place 비활성 사서함은 보존이 제거될 때까지 계속 보존됩니다. 보류의 사용 중지에 대한 In-Place 레거시 [eDiscovery](legacy-ediscovery-retirement.md)도구의 사용 중지를 참조하세요.
@@ -128,12 +128,12 @@ Set-RetentionCompliancePolicy -Identity <retention policy GUID without prefix or
 
  비활성 사서함에서 보류를 In-Place 방법은 두 가지가 있습니다. 
   
-- **Hold In-Place 삭제** 영구적으로 삭제할 비활성 사서함이 비활성 사서함에 대한 원본 사서함만 In-Place 보류 개체를 In-Place 있습니다. 
+- **Hold In-Place 삭제합니다.** 영구적으로 삭제할 비활성 사서함이 비활성 보류에 대한 유일한 원본 In-Place 보류 개체를 In-Place 있습니다. 
 
     > [!NOTE]
     > Hold 개체를 삭제하려면 먼저 보류를 In-Place 합니다. 보류를 사용하도록 In-Place Hold 개체를 삭제하려고 시도하면 오류 메시지가 표시됩니다. 
   
-- **비활성 사서함을 원본** 사서함으로 제거 In-Place 보류 보류에 대해 다른 원본 사서함을 In-Place 경우 원본 사서함 목록에서 비활성 사서함을 제거하고 비활성 사서함을 In-Place 수 있습니다.
+- 비활성 사서함을 보류의 원본 **사서함으로 In-Place 제거합니다.** 보류에 대해 다른 원본 사서함을 In-Place 경우 원본 사서함 목록에서 비활성 사서함을 제거하고 비활성 사서함을 In-Place 수 있습니다.
 
 #### <a name="delete-an-in-place-hold"></a>보류 In-Place 삭제
 
@@ -214,7 +214,7 @@ Set-RetentionCompliancePolicy -Identity <retention policy GUID without prefix or
 
 - **소프트 삭제된 사서함 보존 기간은 비활성 사서함에 어떤 영향을 미치나요?** 비활성 사서함에 대한 일시 삭제 날짜가 보류가 제거된 날짜보다 30일이 지난 경우 사서함은 영구 삭제로 표시됩니다. 그러나 비활성 사서함이 지난 30일 이내에 일시 삭제된 날짜가 있는 경우 보류를 제거하면 일시 삭제된 사서함 보존 기간이 만료될 때까지 사서함을 복구할 수 있습니다. 자세한 내용은 Exchange Online에서 사용자 사서함 삭제 또는 [복원을 참조하세요.](https://docs.microsoft.com/exchange/recipients-in-exchange-online/delete-or-restore-mailboxes) 소프트 삭제된 사서함 보존 기간이 만료되면 비활성 사서함을 복구하기 위한 절차를 따라야 합니다. 자세한 내용은 [Office 365에서 비활성 사서함 복구를 참조합니다.](recover-an-inactive-mailbox.md)
 
-- **보류가 제거된 후 비활성 사서함에 대한 정보를 표시하는 방법** 보류가 제거되고 비활성 사서함이 소프트 삭제된 사서함으로 되돌아가면 **Get-Mailbox** cmdlet과 *함께 InactiveMailboxOnly* 매개 변수를 사용하여 반환되지 않습니다. 그러나 **Get-Mailbox -SoftDeletedMailbox** 명령을 사용하여 사서함에 대한 정보를 표시할 수 있습니다. 예를 들면 다음과 같습니다.
+- **보류가 제거된 후 비활성 사서함에 대한 정보를 표시하는 방법** 보류가 제거되고 비활성 사서함이 소프트 삭제된 사서함으로 되돌아가면 **Get-Mailbox** cmdlet과 *함께 InactiveMailboxOnly* 매개 변수를 사용하여 반환되지 않습니다. 그러나 **Get-Mailbox -SoftDeletedMailbox** 명령을 사용하여 사서함에 대한 정보를 표시할 수 있습니다. 예제:
 
   ```text
   Get-Mailbox -SoftDeletedMailbox -Identity pilarp | FL Name,Identity,LitigationHoldEnabled,In

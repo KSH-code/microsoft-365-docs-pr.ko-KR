@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 72c6ec814c5f3317f582cb4bfb21858677fbb7e1
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 1f5fa231c371ca7a8d6a22ca0b4ff388fd89004c
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509125"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711919"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
@@ -39,6 +39,8 @@ RSS 피드: 다음 URL을 복사하여 피드 읽기에 붙여 넣는 방법을 
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
 
+## <a name="march-2021"></a>2021년 3월
+- [CloudAppEvents 테이블](advanced-hunting-cloudappevents-table.md) <br>Microsoft Cloud App Security에서 다루는 다양한 클라우드 앱 및 서비스의 이벤트에 대한 정보를 찾아 하세요. 이 표에는 이전에 에서 사용 가능한 정보도 포함되어 `AppFileEvents` 있습니다.
 ## <a name="february-2021"></a>2021년 2월
 - (미리 보기) 향상된 [Microsoft 365 보안 https://security.microsoft.com) ](https://security.microsoft.com) 센터( 이제 공개 미리 보기에서 사용할 수 있습니다. 이 새로운 환경은 Endpoint용 Defender 및 Office 365용 Defender를 중앙에 제공합니다. [변경된 내용을 자세히 알아보고 을(를) 변경합니다.](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
 

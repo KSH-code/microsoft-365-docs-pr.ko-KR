@@ -1,7 +1,7 @@
 ---
-title: 고급 헌팅chema의 IdentityLogonEvents 테이블
+title: 고급 헌팅Chema의 IdentityLogonEvents 테이블
 description: 고급 헌팅 구조의 IdentityLogonEvents 표에서 Active Directory에서 기록하는 인증 이벤트에 대해 자세히 알아보십시오.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, IdentityLogonEvents, Azure AD, Active Directory, Azure ATP, ID
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스마마 참조, kusto, 표, 열, 데이터 형식, 설명, IdentityLogonEvents, Azure AD, Active Directory, Azure ATP, ID
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 87ac6194374e8e042cf9d00271b17dd8bb785d64
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: 08dd78c7648126717113066e3c87b05e624f57d0
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145358"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712357"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -35,10 +35,10 @@ ms.locfileid: "50145358"
 **적용 대상:**
 - Microsoft 365 Defender
 
-고급 헌팅 계획의 표에는 ID를 위해 Microsoft Defender에서 캡처한 프레미스 Active Directory를 통한 인증 활동 및 Microsoft Cloud App Security에서 캡처한 Microsoft 온라인 서비스와 관련된 인증 활동에 대한 정보가 포함되어 `IdentityLogonEvents` 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+고급 헌팅 계획의 표에는 ID에 대한 Microsoft Defender에서 캡처한 사내 Active Directory를 통한 인증 활동 및 Microsoft Cloud App Security에서 캡처한 Microsoft 온라인 서비스와 관련된 인증 활동에 대한 정보가 포함되어 `IdentityLogonEvents` 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 >[!TIP]
-> 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` [Schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 사용합니다.
+> 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` Schema 참조를 사용합니다.
 
 >[!NOTE]
 >이 표에서는 Cloud App Security에서 추적하는 Azure AD(Active Directory) 로그온 활동, 특히 ActiveSync 및 기타 레거시 프로토콜을 사용하는 대화형 로그인 및 인증 활동에 대해 설명합니다. 이 표에서 사용할 수 없는 비대화형 로그온은 Azure AD 감사 로그에서 볼 수 있습니다. [Cloud App Security를 Microsoft 365에 연결하는 방법을 자세히 알아보시고](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
@@ -48,8 +48,8 @@ ms.locfileid: "50145358"
 | 열 이름 | 데이터 형식 | 설명 |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
-| `ActionType` | 문자열 | 이벤트를 트리거한 활동의 유형입니다. 자세한 내용은 포털 [내 Schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 참조합니다. |
-| `LogonType` | 문자열 | 특히 로그온 세션의 유형:<br><br> - **대화형** - 사용자가 로컬 키보드 및 화면을 사용하여 컴퓨터와 물리적으로 상호 작용<br><br> - **RDP(원격 대화형)** 로그널 - 사용자가 원격 데스크톱, 터미널 서비스, 원격 지원 또는 기타 RDP 클라이언트를 사용하여 원격으로 컴퓨터와 상호 작용합니다.<br><br> - **네트워크** - PsExec을 사용하여 컴퓨터 액세스 또는 컴퓨터의 공유 리소스(예: 프린터 및 공유 폴더)에 액세스할 때 시작된 세션<br><br> - **Batch** - 예약된 작업으로 시작된 세션<br><br> - **서비스** - 서비스 시작 시 서비스에서 시작된 세션 |
+| `ActionType` | 문자열 | 이벤트를 트리거한 활동의 유형입니다. 자세한 내용은 포털 내 [Schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 참조합니다. |
+| `LogonType` | 문자열 | 로그온 세션의 유형, 특히 다음과 같습니다.<br><br> - **대화형** - 사용자가 로컬 키보드 및 화면을 사용하여 컴퓨터와 물리적으로 상호 작용합니다.<br><br> - **RDP(원격 대화형) 로그널** - 사용자가 원격 데스크톱, 터미널 서비스, 원격 지원 또는 기타 RDP 클라이언트를 사용하여 원격으로 컴퓨터와 상호 작용합니다.<br><br> - **네트워크** - PsExec을 사용하여 컴퓨터 액세스 또는 컴퓨터의 공유 리소스(예: 프린터 및 공유 폴더)에 액세스할 때 시작된 세션<br><br> - **Batch** - 예약된 작업으로 시작된 세션<br><br> - **서비스** - 서비스가 시작할 때 시작된 세션 |
 | `Application` | 문자열 | 기록된 작업을 수행한 응용 프로그램 |
 | `Protocol` | 문자열 | 사용된 네트워크 프로토콜 |
 | `FailureReason` | 문자열 | 기록된 작업이 실패한 이유를 설명하는 정보 |
@@ -58,7 +58,7 @@ ms.locfileid: "50145358"
 | `AccountUpn` | 문자열 | 계정의 UPN(사용자 계정 이름) |
 | `AccountSid` | 문자열 | 계정의 SID(보안 식별자)입니다. |
 | `AccountObjectId` | 문자열 | Azure AD에서 계정의 고유 식별자 |
-| `AccountDisplayName` | 문자열 | 주소부에 표시된 계정 사용자의 이름입니다. 일반적으로 지정한 이름이나 이름, 중간 초기화 및 성 또는 성의 조합입니다. |
+| `AccountDisplayName` | 문자열 | 주소부에 표시된 계정 사용자의 이름입니다. 일반적으로 지정한 이름이나 이름, 중간 시작, 성 또는 성의 조합입니다. |
 | `DeviceName` | 문자열 | 장치의 FQDN(FQDN) |
 | `DeviceType` | 문자열 | 디바이스 유형 |
 | `OSPlatform` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. |
@@ -74,7 +74,7 @@ ms.locfileid: "50145358"
 | `ReportId` | long | 이벤트의 고유 식별자 |
 | `AdditionalFields` | 문자열 | 엔터티 또는 이벤트에 대한 추가 정보 |
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)

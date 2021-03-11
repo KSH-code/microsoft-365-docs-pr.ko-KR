@@ -1,7 +1,7 @@
 ---
-title: 고급 헌팅chema의 IdentityDirectoryEvents 테이블
-description: 고급 헌팅 구조의 IdentityDirectoryEvents 표에서 도메인 컨트롤러 및 Active Directory 이벤트에 대해 자세히 알아보십시오.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, IdentityDirectoryEvents, domain controller, Active Directory, Azure ATP, ID
+title: 고급 헌팅Chema의 IdentityDirectoryEvents 테이블
+description: 고급 헌팅 구조의 IdentityDirectoryEvents 테이블에서 도메인 컨트롤러 및 Active Directory 이벤트에 대해 자세히 알아보십시오.
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스마마 참조, kusto, 표, 열, 데이터 형식, 설명, IdentityDirectoryEvents, 도메인 컨트롤러, Active Directory, Azure ATP, ID
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 95090b0f4abe0b0f0552c81495936f4f2261cf8e
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: d4e119bc0a2e600d5203231eb196cf201469bfd2
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929937"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712369"
 ---
 # <a name="identitydirectoryevents"></a>IdentityDirectoryEvents
 
@@ -35,17 +35,17 @@ ms.locfileid: "49929937"
 **적용 대상:**
 - Microsoft 365 Defender
 
-고급 `IdentityDirectoryEvents` 헌팅 [계획의](advanced-hunting-overview.md) 표에는 AD(Active Directory)를 실행하는 On-프레미스 도메인 컨트롤러와 관련된 이벤트가 포함되어 있습니다. 이 표에서는 암호 변경, 암호 만료 및 UPN(사용자 계정 이름) 변경과 같은 다양한 ID 관련 이벤트를 캡처합니다. 또한 작업 일정 및 PowerShell 활동과 같은 도메인 컨트롤러의 시스템 이벤트를 캡처합니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+고급 헌팅 계획의 표에는 AD(Active Directory)를 실행하는 사내 도메인 컨트롤러와 관련된 `IdentityDirectoryEvents` 이벤트가 포함되어 [](advanced-hunting-overview.md) 있습니다. 이 표에서는 암호 변경, 암호 만료 및 UPN(사용자 계정 이름) 변경과 같은 다양한 ID 관련 이벤트를 캡처합니다. 또한 작업 일정 및 PowerShell 활동과 같은 도메인 컨트롤러의 시스템 이벤트를 캡처합니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
 >[!TIP]
-> 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` [Schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 사용합니다.
+> 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` Schema 참조를 사용합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
 | 열 이름 | 데이터 형식 | 설명 |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
-| `ActionType` | 문자열 | 이벤트를 트리거한 활동의 유형입니다. 자세한 내용은 포털 [내 Schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 참조합니다. |
+| `ActionType` | 문자열 | 이벤트를 트리거한 활동의 유형입니다. 자세한 내용은 포털 내 [Schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 참조합니다. |
 | `Application` | 문자열 | 기록된 작업을 수행한 응용 프로그램 |
 | `TargetAccountUpn` | 문자열 | 기록된 작업이 적용된 계정의 UPN(사용자 계정 이름) |
 | `TargetAccountDisplayName` | 문자열 | 기록된 작업이 적용된 계정의 표시 이름 |
@@ -59,9 +59,9 @@ ms.locfileid: "49929937"
 | `AccountUpn` | 문자열 | 계정의 UPN(사용자 계정 이름) |
 | `AccountSid` | 문자열 | 계정의 SID(보안 식별자)입니다. |
 | `AccountObjectId` | 문자열 | Azure Active Directory에서 계정의 고유 식별자 |
-| `AccountDisplayName` | 문자열 | 주소부에 표시된 계정 사용자의 이름입니다. 일반적으로 지정한 이름이나 이름, 중간 초기화 및 성 또는 성의 조합입니다. |
+| `AccountDisplayName` | 문자열 | 주소부에 표시된 계정 사용자의 이름입니다. 일반적으로 지정한 이름이나 이름, 중간 시작, 성 또는 성의 조합입니다. |
 | `DeviceName` | 문자열 | 장치의 FQDN(FQDN) |
-| `IPAddress` | 문자열 | 통신 중에 장치에 할당된 IP 주소 |
+| `IPAddress` | 문자열 | 통신 중 장치에 할당된 IP 주소 |
 | `Port` | 문자열 | 통신 중에 사용되는 TCP 포트 |
 | `Location` | 문자열 | 이벤트와 관련된 도시, 국가 또는 기타 지리적 위치 |
 | `ISP` | 문자열 | IP 주소와 연결된 인터넷 서비스 공급자 |

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 137fcdad514e8272b99ab735a0cf1ed6f6e3e00e
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: 4296924684e13e163f28e0f952b2cd380cdcc047
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461799"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712014"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -58,8 +58,8 @@ Teams에서 사용하는 전자 메일 및 파일은 Teams의 보존 정책에 �
 
 이러한 사서함은 RecipientTypeDetails 특성에 따라 나열됩니다.
 
-- **UserMailbox**: 이러한 사서함은 Exchange Online 사서함이 있는 Teams 사용자를 위한 메시지를 저장합니다.
-- **MailUser**: 이러한 사서함은 Exchange 온라인이 아닌 온-프레미스 Exchange 서버에 대한 사서함이 있는 Teams 사용자에 대한 메시지를 저장합니다.
+- **MailUser**: 이러한 사서함은 클라우드 기반 Teams 사용자를 위한 메시지를 저장합니다.
+- **UserMailbox**: 이러한 사서함은 [온-프레미스 Teams 사용자](search-cloud-based-mailboxes-for-on-premises-users.md)를 위한 메시지를 저장합니다.
 - **GroupMailbox**: 이러한 사서함은 Teams 채널의 메시지를 저장합니다.
 
 Teams 회의실에 사용되는 RoomMailbox와 같은 다른 사서함 유형은 Teams 보존 정책에 대해 지원되지 않습니다.

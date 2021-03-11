@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터 - 이번 달에 추가된 기능에 대
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: e8e743c0f3de0d7ac2eb8ebb9995596783d2d31a
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: 2ecf9ddbd1257e7273da36371abb9f9e38df3f4a
+ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461837"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50717633"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운
 
@@ -62,6 +62,12 @@ Microsoft Ignite에 오신 것을 환영합니다. Microsoft [Ignite 2021](https
 :::image type="content" source="../media/message-center.png" alt-text="Screenshot: Message Center home page showing inbox and messages":::
 
 새 기능에 대한 자세한 내용은 메시지 센터에서 메시지 [관리를 확인 합니다.](manage/manage-messages.md)
+
+### <a name="whats-new-features"></a>새로운 기능
+
+Office 앱에서 사용자를 위한 "새로운 기능" 기능을 보는 방법을 개선했습니다. 이제 사용자가 볼 수 있는 Whats의 새 창에서 다양한 콘텐츠를 볼 수 있습니다. 사용자에게 기능에 대해 알기 전에 기능에 대해 자세히 알아 볼 수도 있습니다. For more info, check out [Manage which Office‎ features appear in What's New](manage/show-hide-new-features.md).
+
+:::image type="content" source="../media/power-bi-whats-new2.png" alt-text="Screenshot: Office apps what's new page showing improvements to Power BI":::
 
 ## <a name="ignite-2020-august--september"></a>Ignite 2020(8월 &)
 

@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 공격 시뮬레이터를 사용하여 Microsoft 365 E5 또는 Microsoft Defender for Office 365 계획 2 조직에서 시뮬레이션된 피싱 및 암호 공격을 실행하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 85b376701ffa0c567fd66aa629371e9f69b354e9
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 7c88a5df6fae61e1ffe70214ad4a73deef4b380e
+ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407478"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50717617"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 공격 시뮬레이터
 
@@ -36,8 +36,10 @@ ms.locfileid: "50407478"
 조직에 위협 조사 및 대응 기능이 포함된 Microsoft Defender [](office-365-ti.md)for Office 365 계획 2가 있는 경우 보안 및 준수 센터의 공격 시뮬레이터를 & 조직의 실제 공격 시나리오를 실행할 수 있습니다. 이러한 시뮬레이션된 공격은 실제 공격이 아래쪽에 영향을 미치기 전에 취약한 사용자를 식별하고 찾는 데 도움이 될 수 있습니다. 자세한 내용은 이 문서를 읽어 보아야 합니다.
 
 > [!NOTE]
-> 공격 시뮬레이터 v1 환경이 읽기 전용 모드로 전환되고 공격 시뮬레이션 교육 사용 시작에 설명된 공격 시뮬레이터 교육으로 [대체됩니다.](attack-simulation-training-get-started.md)
-> 이 사이트에서 새 시뮬레이션을 실행하는 기능을 사용할 수 없습니다. 그러나 2021년 1월 24일 이후 90일 동안 실행된 시뮬레이션에 대한 보고서에는 계속 액세스할 수 있습니다.
+>
+> 이 문서에 설명된 공격 시뮬레이터는 이제 읽기 전용으로, [Microsoft 365](https://security.microsoft.com)보안 센터의 전자 메일 & 공동 작업 노드에서 공격 시뮬레이션 **교육으로** 대체됩니다.  자세한 내용은 공격 시뮬레이션 교육 사용 [시작을 참조하세요.](attack-simulation-training-get-started.md)
+>
+> 이 버전의 공격 시뮬레이터에서 새 시뮬레이션을 시작 하는 기능을 사용할 수 없습니다. 그러나 2021년 1월 24일 이후 최대 90일 동안 보고서에 액세스할 수 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
