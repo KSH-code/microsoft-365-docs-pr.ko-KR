@@ -1,5 +1,5 @@
 ---
-title: 도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 AD FS 마이그레이션 단계
+title: 도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 AD FS 마이그레이션 단계
 ms.author: andyber
 author: andybergen
 manager: laurawi
@@ -17,65 +17,77 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_TLGs
-description: '요약: 도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 AD FS(Active Directory Federation Services) 마이그레이션 단계입니다.'
-ms.openlocfilehash: c946ec3c0772cf95ab696266475b50959d682ef2
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+description: '요약: 도이치란드 Microsoft 클라우드에서 마이그레이션하기 위한 AD FS(Active Directory Federation Services) 마이그레이션 단계입니다.'
+ms.openlocfilehash: 030515227f3abdae82736807a01d1691d2d45552
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688668"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727470"
 ---
-# <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 AD FS 마이그레이션 단계
+# <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 AD FS 마이그레이션 단계
 
-도이클란드 Microsoft 클라우드에서 AD FS(Active Directory Federation Services) 팜을 마이그레이션하려면
+4단계가 시작되기 전에 이 구성 변경을 적용할 수 있습니다.
+2단계가 완료되면 구성 변경이 작동하고 과 같은 Office 365 전역 끝점에 로그인할 수 `https://portal.office.com` 있습니다. 2단계 전에 구성 변경을 구현하는 경우 Office 365 전역  끝점은 아직 작동하지 않지만 새 신뢰 파티 트러스트는 여전히 AD FS(Active Directory Federation Services) 구성의 일부입니다.
 
-1. 다음 단계를 사용하여 FF 트러스트 정보를 포함하여 AD FS 설정을 [백업합니다.](#backup) 백업 **Microsoft 클라우드** Deutschland_Only 이름을 지정하여 도이클란드 Microsoft 클라우드 테넌트 정보만 들이고 있습니다.
+도이클란드 Microsoft 클라우드에서 AD FS 팜을 마이그레이션하려면
+
+1. 다음 단계를 사용하여 FF 트러스트 정보를 포함하여 AD FS 설정을 [백업합니다.](#backup) 백업 **이름을 Microsoft Deutschland_Only** Microsoft 클라우드 테넌트 정보만 으로 지정합니다.
 2. Microsoft 클라우드 Deutschland_Only 사용하여 복원을 테스트합니다. AD FS 팜은 도이클란드 Microsoft 클라우드로만 계속 작동해야 합니다.
-3. **Office 365 서비스에서 AD FS에서 > 트러스트 만들기.**
-4. AD  FS 관리 콘솔의 신뢰 대상 트러스트에서 신뢰 대상 트러스트 **추가를 선택합니다.**
-5. 신뢰 **파티** **트러스트** 추가 마법사의 시작 페이지에서 다음을 선택합니다.
-6. 데이터 원본 **선택 페이지에서** 온라인 또는 로컬 네트워크에서 게시된 의존 관계에 대한 **데이터 가져오기를 선택합니다.** **페더ation 메타데이터 주소(호스트 이름 또는 URL)** 값이 `https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml` 으로 설정됩니다. **다음** 을 클릭합니다.
-7. 데이터 원본 **선택 페이지에서** 표시 이름을 입력합니다. Microsoft는 **365 Microsoft Office Platform WorldWide를 권장합니다.** **다음** 을 클릭합니다.
-8. 지금 **다단계** 인증 구성을 **클릭하고,** 발행 권한 부여 규칙을 선택하고, 트러스트 페이지를 추가할 **준비를 클릭합니다.**
-9. 완료 **페이지에서** **닫기를** 클릭합니다.
 
-마법사를 닫는 경우 Office 365 서비스 eSTS에 대한 신뢰 파티 트러스트가 설정됩니다. 그러나 발행 변환 규칙은 설정하지 않습니다.
+AD FS 백업을 완료하고 테스트한 후 다음 단계를 수행하여 ADFS 구성에 새 신뢰자 트러스트가 추가됩니다.
 
-[AD FS 도움말을 사용하여](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) 올바른 발행 변환 규칙을 생성할 수 있습니다. AD FS 도움말을 사용하여 생성된 클레임 규칙은 AD FS 관리 콘솔 또는 PowerShell을 통해 수동으로 추가할 수 있습니다. AD FS 도움말은 실행해야 하는 필요한 PowerShell 스크립트를 생성합니다.  
+1. AD FS 관리 콘솔 열기
+2. ADFS 관리 콘솔의 왼쪽 창에서 **ADFS,** 트러스트 관계, 신뢰하는 파티 트러스트를 **확장합니다.**
+3. 오른쪽 창에서 신뢰하는 파티 **트러스트 추가...를 선택합니다.**
+4. 신뢰 **파티** 트러스트 **추가** 마법사의 시작 페이지에서 다음을 선택합니다.
+5. 데이터 **원본 선택 페이지에서** 온라인 또는 로컬 네트워크에서 게시된 의존 관계에 대한 데이터 **가져오기 를 선택합니다.** **페더ation 메타데이터 주소(호스트 이름** 또는 URL) 값을 로 설정해야 `https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml` 합니다. 그리고 **다음** 을 클릭합니다.
+6. 데이터 **원본 선택 페이지에서** **365 Identity Platform WorldWide와 Microsoft Office 표시 이름을 입력합니다.** 그리고 **다음** 을 클릭합니다.
+7. 마법사 페이지 지금 다단계 인증 **구성?** 에서 인증 요구 사항에 따라 적절한 선택을 선택합니다. 기본값을 사용하는 경우 지금 이 신뢰 파티 트러스트에 대해 다단계 인증 설정을 구성하지 않습니다.를 **선택합니다.** 원하는 경우 나중에 이 설정을 변경할 수 있습니다.
+8. Choose **Issuance Authorization Rules 에서** **모든** 사용자가 이 수의신인에게 액세스 허용을 선택한 후 다음을 **클릭합니다.**
+9. **트러스트** 추가 **준비** 완료 페이지에서 다음을 클릭하여 마법사를 완료합니다.
+10. 마친 **페이지에서** **닫기 를** 클릭합니다.
 
-1. AD  FS에서 클레임 생성 도움말을 실행하고 스크립트 오른쪽  위에 있는 복사 옵션을 사용하여 PowerShell 클레임 변환 스크립트를 복사합니다.
-2. 생성된 PowerShell을 다음에 붙여 넣을 수 있습니다.
+마법사를 닫아 Office 365 전역 서비스와의 신뢰 파티 트러스트가 설정됩니다. 그러나 아직 구성되지 않은 Issuance Transform 규칙은 없습니다.
 
-  ```powershell
-  $RuleSet = New-AdfsClaimRuleSet -ClaimRule "<AD FS Help generated PSH>"
-  Set-AdfsRelyingPartyTrust -TargetName “Microsoft Office 365 Identity Platform WorldWide” -IssuanceTransformRules $RuleSet.ClaimRulesString;
-  ```
-3.  완료된 스크립트를 실행합니다.
-4.  두 개의 신뢰 파티 트러스트가 있는지 확인 하나는 전 세계에, 하나는 BF용입니다.
-5.  다음 단계를 사용하여 [트러스트 백업.](#backup) **FFAndWorldwide 이름으로 저장합니다.**
-6.  백end 마이그레이션을 완료하고 마이그레이션 프로세스 중에 AD FS가 계속 작동하는지 확인해야 합니다.
+[AD FS 도움말을 사용하여](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) 올바른 발행 변환 규칙을 생성할 수 있습니다. AD FS 도움말을 사용하여 생성된 클레임 규칙은 AD FS 관리 콘솔을 통해 또는 PowerShell을 사용하여 수동으로 추가할 수 있습니다. AD FS 도움말은 실행해야 하는 필수 PowerShell 스크립트를 생성합니다.  
+
+<!--
+    Question from ckinder
+    is step #3 true?
+    how to verify step 5? Need more information!
+-->
+1. AD  FS에서 클레임 생성 도움말을 실행하고 스크립트의  오른쪽 위 모서리에 있는 복사 옵션을 사용하여 PowerShell 클레임 변환 스크립트를 복사합니다.
+2. 기본 설정 텍스트 편집기를 열고 PowerShell 스크립트를 새 텍스트 창에 붙여 넣습니다.
+3. 2단계에서 붙여 넣은 스크립트의 끝에 다음 PowerShell 줄 추가
+    ```powershell
+    $authzRules = "=>issue(Type = `"http://schemas.microsoft.com/authorization/claims/permit`", Value = `"true`"); "
+    $RuleSet = New-AdfsClaimRuleSet -ClaimRule "<AD FS Help generated PSH>"
+    Set-AdfsRelyingPartyTrust -TargetName “Microsoft Office 365 Identity Platform WorldWide” -IssuanceTransformRules $RuleSet.ClaimRulesString -IssuanceAuthorizationRules $authzRules
+    ```
+4. 안전하며 PowerShell 스크립트를 실행합니다.
+5. 두 개의 신뢰 파티 트러스트가 있는지 확인 도이치클란드 Microsoft 클라우드와 Office 365 전역 서비스용 1개
+6. 다음 단계를 사용하여 [트러스트 백업](#backup). 이름을 **FFAndWorldwide로 저장합니다.**
+7. 백end 마이그레이션을 완료하고 마이그레이션 프로세스 중에 AD FS가 계속 작동하는지 확인해야 합니다.
 
 ## <a name="ad-fs-disaster-recovery-wid-database"></a>AD FS 재해 복구(WID 데이터베이스)
 
-재해 AD FS 신속 복원 도구에서 [AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) 팜을 복원하려면 활용해야 합니다. 따라서 도구를 다운로드해야 합니다. 마이그레이션을 시작하기 전에 백업을 만들어 안전하게 저장해야 합니다. 이 예제(TAT 환경)에서는 팜을 백업하기 위해 다음 명령을 실행했습니다.
+재해 AD FS 신속 복원 도구에서 [AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) 팜을 복원하려면 활용해야 합니다. 따라서 도구를 다운로드하고 마이그레이션을 시작하기 전에 백업을 만들어 안전하게 저장해야 합니다. 이 예(TAT 환경)에서는 팜을 백업하기 위해 다음 명령을 실행했습니다.
 
 <h2 id="backup"></h2>
 
 ### <a name="back-up-an-ad-fs-farm"></a>AD FS 팜 백업
 
-1. 주 AD FS 서버에 AD FS 신속 복원 도구를 설치합니다.
+1. 기본 AD FS 서버에 AD FS 신속 복원 도구를 설치합니다.
 2. 이 명령을 사용하여 PowerShell 세션에서 모듈을 가져올 수 있습니다.
-
-  ```powershell
-  Import-Module "C:\Program Files (x86)\ADFS Rapid Recreation Tool\ADFSRapidRecreationTool.dll"
-  ```
+    ```powershell
+    Import-Module "C:\Program Files (x86)\ADFS Rapid Recreation Tool\ADFSRapidRecreationTool.dll"
+    ```
 3. 백업 명령을 실행합니다.
-
-  ```powershell
-  Backup-ADFS -StorageType "FileSystem" -storagePath "<Storage path of backup>" -EncryptionPassword "<password>" -BackupComment "Restore Doku" -BackupDKM
-  ```
-
-4. 백업을 원하는 대상에 안전하게 저장합니다. 
+    ```powershell
+    Backup-ADFS -StorageType "FileSystem" -storagePath "<Storage path of backup>" -EncryptionPassword "<password>" -BackupComment "Restore Doku" -BackupDKM
+    ```
+4. 백업을 원하는 대상에 안전하게 저장합니다.
 
 ### <a name="restore-an-ad-fs-farm"></a>AD FS 팜 복원
 
@@ -84,9 +96,9 @@ ms.locfileid: "49688668"
 1. 이전에 생성된 백업 및 저장된 백업을 새 주 AD FS 서버로 이동하십시오.
 2. 다음 `Restore-ADFS` PowerShell 명령을 실행합니다. 필요한 경우 AD FS SSL 인증서를 먼저 가져와야 합니다.
 
-  ```powershell
-  Restore-ADFS -StorageType "FileSystem" -StoragePath "<Path to Backup>" -DecryptionPassword "<password>" -GroupServiceAccountIdentifier "<gMSA>" -DBConnectionString "WID" -RestoreDKM
-  ```
+    ```powershell
+    Restore-ADFS -StorageType "FileSystem" -StoragePath "<Path to Backup>" -DecryptionPassword "<password>" -GroupServiceAccountIdentifier "<gMSA>" -DBConnectionString "WID" -RestoreDKM
+    ```
 
 3. 새 DNS 레코드 또는 부하 잔액을 새 AD FS 서버를 지점으로 합니다.
 
@@ -103,7 +115,7 @@ ms.locfileid: "49688668"
 
 - [문장 작업 및 영향 마이그레이션](ms-cloud-germany-transition-phases.md)
 - [추가 사전 작업](ms-cloud-germany-transition-add-pre-work.md)
-- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [장치,](ms-cloud-germany-transition-add-devices.md) [환경 및](ms-cloud-germany-transition-add-experience.md) [AD FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
+- [Azure AD,](ms-cloud-germany-transition-azure-ad.md) [장치,](ms-cloud-germany-transition-add-devices.md) [환경](ms-cloud-germany-transition-add-experience.md)및 [AD FS에](ms-cloud-germany-transition-add-adfs.md)대한 추가 정보.
 
 클라우드 앱:
 

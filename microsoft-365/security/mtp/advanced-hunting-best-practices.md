@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender의 고급 헌팅 쿼리 모범 사례
 description: 고급 헌팅을 사용하여 빠르고 효율적이며 오류가 없는 위협 헌팅 쿼리를 생성하는 방법을 학습합니다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema, kusto, 시간 제한 방지, 명령줄, 프로세스 ID, 최적화, 모범 사례, 구문 분석, 참가, 요약
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema, kusto, 시간 제한 방지, 명령줄, 프로세스 ID, 최적화, 모범 사례, 구문 분석, 가입, 요약
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: cc6110cdd7dd71f80f6897cfbb0026ccce301cf7
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: e838ce873a1c3ecc0f437f96e75cc2a40d3af79d
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928477"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727274"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>고급 헌팅 쿼리 모범 사례
 
@@ -35,17 +35,17 @@ ms.locfileid: "49928477"
 **적용 대상:**
 - Microsoft 365 Defender
 
-이러한 권장 사항을 적용하여 결과를 더 빠르게 얻을 수 있으며 복잡한 쿼리를 실행하는 동안 시간 제한을 방지합니다. 쿼리 성능을 개선하는 방법에 대한 자세한 내용은 [Kusto 쿼리 모범 사례](https://docs.microsoft.com/azure/kusto/query/best-practices)를 참조하세요.
+이러한 권장 사항을 적용하여 결과를 더 빠르게 얻고 복잡한 쿼리를 실행하는 동안 시간 제한을 방지합니다. 쿼리 성능을 개선하는 방법에 대한 자세한 내용은 [Kusto 쿼리 모범 사례](https://docs.microsoft.com/azure/kusto/query/best-practices)를 참조하세요.
 
 ## <a name="understand-cpu-resource-quotas"></a>CPU 리소스 할당량 이해
-크기에 따라 각 테넌트는 고급 헌팅 쿼리를 실행하기 위해 할당된 CPU 리소스 집합에 액세스할 수 있습니다. 다양한 서비스 제한에 대한 자세한 내용은 고급 헌팅 할당량 및 사용 매개 [변수를 참조하세요.](advanced-hunting-limits.md)
+크기에 따라 각 테넌트는 고급 헌팅 쿼리를 실행하기 위해 할당된 CPU 리소스 집합에 액세스할 수 있습니다. 다양한 서비스 제한에 대한 자세한 내용은 고급 헌팅 할당량 및 사용 매개 변수 를 [참조하세요.](advanced-hunting-limits.md)
 
-여러 쿼리를 정기적으로 실행하는 고객은 사용량을 추적하고 이 문서의 최적화 지침을 적용하여 할당량 또는 사용 매개 변수 초과로 인한 중단을 최소화해야 합니다.
+여러 쿼리를 정기적으로 실행하는 고객은 사용을 추적하고 이 문서의 최적화 지침을 적용하여 할당량 또는 사용 매개 변수 초과로 인한 중단을 최소화해야 합니다.
 
 ## <a name="general-optimization-tips"></a>일반 최적화 팁
 
-- **새 쿼리** 크기 -쿼리가 큰 결과 집합을 반환하는 것으로 의심되는 경우 먼저 개수 연산자를 사용하여 [평가합니다.](https://docs.microsoft.com/azure/data-explorer/kusto/query/countoperator) 큰 [결과](https://docs.microsoft.com/azure/data-explorer/kusto/query/limitoperator) 집합을 방지하는 데 제한 또는 `take` 동의어를 사용 합니다.
-- **필터를** 초기에 적용 - 데이터 집합을 줄이기 위해 시간 필터 및 기타 필터를 적용합니다. 특히 [substring()](https://docs.microsoft.com/azure/data-explorer/kusto/query/substringfunction), [replace()](https://docs.microsoft.com/azure/data-explorer/kusto/query/replacefunction), [trim()](https://docs.microsoft.com/azure/data-explorer/kusto/query/trimfunction), [toupper()](https://docs.microsoft.com/azure/data-explorer/kusto/query/toupperfunction)또는 [parse_json()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction)등의 변환 및 구문 분석 함수를 사용하기 전에 데이터 집합을 줄입니다. 아래 예제에서는 필터링 연산자가 레코드 수를 줄인 후에 구문 분석 함수 [extractjson()이](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractjsonfunction) 사용됩니다.
+- **새 쿼리** 크기 -쿼리가 큰 결과 집합을 반환하는 것으로 의심되는 경우 먼저 개수 연산자를 사용하여 [평가합니다.](https://docs.microsoft.com/azure/data-explorer/kusto/query/countoperator) 제한 [또는](https://docs.microsoft.com/azure/data-explorer/kusto/query/limitoperator) 동의어를 사용하여 큰 결과 집합을 `take` 방지합니다.
+- **필터를** 초기에 적용 - 특히 [substring()](https://docs.microsoft.com/azure/data-explorer/kusto/query/substringfunction), [replace()](https://docs.microsoft.com/azure/data-explorer/kusto/query/replacefunction), [trim()](https://docs.microsoft.com/azure/data-explorer/kusto/query/trimfunction), [toupper()](https://docs.microsoft.com/azure/data-explorer/kusto/query/toupperfunction)또는 [parse_json()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction)등의 변환 및 구문 분석 함수를 사용하기 전에 데이터 집합을 줄이기 위해 시간 필터 및 기타 필터를 적용합니다. 아래 예제에서는 필터링 연산자가 레코드 수를 줄인 후 구문 분석 함수 [extractjson()이](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractjsonfunction) 사용됩니다.
 
     ```kusto
     DeviceEvents
@@ -55,20 +55,20 @@ ms.locfileid: "49928477"
     | extend DriveLetter = extractjson("$.DriveLetter", AdditionalFields)
      ```
 
-- **비트에 포함**- 단어 내에서 하위스트링을 불필요하게 검색하지 않도록 하세요. 대신 `has` 연산자를 `contains` 사용합니다. [문자열 연산자에 대해 자세히](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)
-- **특정 열을 검색합니다.** 모든 열에서 전체 텍스트 검색을 실행하지 않고 특정 열을 살펴 봐야 합니다. 모든 열을 `*` 검사하는 데 사용하지 않습니다.
-- **속도에 대한 대소문자** 구분 - 대소문자 구분 검색은 보다 구체적이며 일반적으로 더 많은 기능을 제공합니다. 대소문자 구분 [문자열](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)연산자의 이름(예: `has_cs` 일반적으로 `contains_cs` `_cs` . 대소문자 구분 연산자 대신 대소문자 구분 연산자를 사용할 `==` 수 `=~` 있습니다.
-- **구문 분석,** 추출 안 하세요. [](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) 가능하면 구문 분석 연산자 또는 parse_json() 같은 구문 [분석 함수를 사용하세요.](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction) 문자열 `matches regex` 연산자나 [extract()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction)함수는 모두 정규식을 사용하지 않도록 합니다. 보다 복잡한 시나리오에서는 정규식을 사용할 수 있습니다. [구문 분석 함수에 대한 자세한 내용을 읽어 읽습니다.](#parse-strings)
+- **비트에 포함**- 단어 내에서 하위 스트링을 불필요하게 검색하지 않도록 에는 대신 `has` 연산자를 `contains` 사용합니다. [문자열 연산자에 대한 자세한 내용은](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)
+- **특정 열을 찾아**-모든 열에서 전체 텍스트 검색을 실행하는 대신 특정 열을 살펴 봐야 합니다. 모든 열을 `*` 검사하는 데는 사용하지 않습니다.
+- **속도에 대한 대소문자** 구분 - 대소문자 구분 검색은 보다 구체적이며 일반적으로 더 많은 기능을 합니다. 대소문자 구분 [문자열](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)연산자(예: `has_cs` 및)의 `contains_cs` 이름은 일반적으로 로 `_cs` 끝됩니다. 대신 대소문자 구분 등호 연산자를 사용할 `==` 수 `=~` 있습니다.
+- **구문 분석,** 추출 안 하세요 . [](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) 가능한 경우 구문 분석 연산자 또는 [parse_json() 같은 구문 분석 함수를 사용하세요.](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction) 정규식을 사용하는 문자열 `matches regex` [연산자나 extract()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction)함수는 사용하지 않습니다. 좀 더 복잡한 시나리오에서는 정규식을 사용할 수 있습니다. [구문 분석 함수에 대한 자세한 내용을 읽어 읽습니다.](#parse-strings)
 - **식이 아닌** 필터 테이블 - 테이블 열을 필터링할 수 있는 경우 계산된 열에는 필터링하지 않습니다.
 - **3자 용어** 없음 - 3자 이하의 용어를 사용하여 비교하거나 필터링하지 않습니다. 이러한 용어는 인덱싱되지 않습니다. 이러한 용어와 일치하면 더 많은 리소스가 필요합니다.
-- **선택적으로** 프로젝트 - 필요한 열만 투영하여 결과를 보다 쉽게 이해할 수 있도록 합니다. 조인 또는 유사한 작업을 [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) 실행하기 전에 특정 열을 투영하면 성능을 개선하는 데도 도움이 됩니다.
+- **선택적으로 프로젝트**- 필요한 열만 투영하여 결과를 보다 쉽게 이해할 수 있도록 합니다. 조인 또는 유사한 작업을 [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) 실행하기 전에 특정 열을 투영하면 성능을 개선하는 데도 도움이 됩니다.
 
 ## <a name="optimize-the-join-operator"></a>연산자 `join` 최적화
 조인 [연산자는](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) 지정된 열의 값과 일치하여 두 테이블의 행을 병합합니다. 다음 팁을 적용하여 이 연산자를 사용하는 쿼리를 최적화합니다.
 
-- **왼쪽에 작은** 테이블 - 연산자는 조인 문의 왼쪽에 있는 테이블의 레코드를 오른쪽의 레코드와 `join` 일치합니다. 테이블이 더 작은 경우 더 적은 수의 레코드를 일치해야 하여 쿼리 속도를 향상할 수 있습니다. 
+- **왼쪽에 작은** 테이블 - 연산자는 조인 문 왼쪽에 있는 테이블의 레코드를 오른쪽의 레코드와 `join` 일치합니다. 테이블을 왼쪽에 두면 더 적은 수의 레코드를 일치해야 하여 쿼리 속도를 향상할 수 있습니다. 
 
-    아래 표에서는 계정 SID로 연결하기 전에 세 개의 특정 장치만 지원하도록 왼쪽 테이블을 `DeviceLogonEvents` `IdentityLogonEvents` 줄입니다.
+    아래 표에서는 계정 SID로 연결하기 전에 세 개의 특정 장치만 다루기 위해 왼쪽 테이블을 `DeviceLogonEvents` `IdentityLogonEvents` 줄입니다.
  
     ```kusto
     DeviceLogonEvents 
@@ -81,9 +81,9 @@ ms.locfileid: "49928477"
     on AccountSid
     ```
 
-- **내부 조인** 특징 사용 [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-flavors) - 각 일치에 대한 행을 오른쪽 테이블에 반환하기 전에 기본 조인 특징 또는 [innerunique-join이](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#innerunique-join-flavor) 왼쪽 테이블의 행을 조인 키로 중복 제거합니다. 왼쪽 표에 키 값이 같은 행이 여러 개 있는 경우 각 고유 값에 대해 단일 임의의 행을 남기기 위해 해당 행이 중복 `join` 제거됩니다.
+- **안쪽 조인** 특징 사용 [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-flavors) - 오른쪽 표에 일치하는 각 행을 반환하기 전에 왼쪽 표의 기본 조인 특징 또는 내부 [유니크](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#innerunique-join-flavor) 조인 중복 제거 행을 조인 키로 제거합니다. 왼쪽 표에 키 값이 같은 행이 여러 개 있는 경우 해당 행은 중복 제거하여 각 고유 값에 대해 단일 임의의 행을 `join` 남기게 됩니다.
 
-    이 기본 동작은 유용한 정보를 제공할 수 있는 중요한 정보를 왼쪽 표에서 생길 수 있습니다. 예를 들어 아래 쿼리는 동일한 첨부 파일이 여러 전자 메일 메시지를 사용하여 전송된 경우에도 특정 첨부 파일이 포함된 하나의 전자 메일만 표시됩니다.
+    이 기본 동작은 유용한 정보를 제공할 수 있는 중요한 정보를 왼쪽 표에 남길 수 있습니다. 예를 들어 아래 쿼리는 동일한 첨부 파일이 여러 전자 메일 메시지를 사용하여 전송된 경우에도 특정 첨부 파일이 포함된 전자 메일 하나만 표시됩니다.
 
     ```kusto
     EmailAttachmentInfo
@@ -92,7 +92,7 @@ ms.locfileid: "49928477"
     | join (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
     ```
 
-    이 제한을 해결하기 위해 [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor) 왼쪽 테이블의 모든 행을 오른쪽에 일치하는 값을 표시하여 내부 조인 형식을 `kind=inner` 적용합니다.
+    이 제한을 해결하기 위해 [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor) 왼쪽 테이블의 모든 행이 오른쪽에 일치하는 값을 표시하는 것으로 지정하여 내부 조인 형식을 `kind=inner` 적용합니다.
     
     ```kusto
     EmailAttachmentInfo
@@ -100,14 +100,14 @@ ms.locfileid: "49928477"
     | where Subject == "Document Attachment" and FileName == "Document.pdf"
     | join kind=inner (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
     ```
-- **시간 창에서** 레코드 조인 - 보안 이벤트를 조사할 때 분석가가 같은 기간에 발생하는 관련 이벤트를 검색합니다. 검사할 레코드 수를 줄여 성능을 개선할 때도 동일한 방법을 `join` 적용합니다.
+- **시간 창에서** 레코드에 참가 - 보안 이벤트를 조사할 때 분석가가 같은 기간에 발생하는 관련 이벤트를 검색합니다. 또한 사용할 때 동일한 방법을 적용하면 확인할 레코드 수를 줄여 성능이 `join` 향상됩니다.
     
     아래 쿼리는 악성 파일을 수신한 후 30분 이내에 로그온 이벤트를 검사합니다.
 
     ```kusto
     EmailEvents
     | where Timestamp > ago(7d)
-    | where MalwareFilterVerdict == "Malware" 
+    | where ThreatTypes has "Malware"
     | project EmailReceivedTime = Timestamp, Subject, SenderFromAddress, AccountName = tostring(split(RecipientEmailAddress, "@")[0])
     | join (
     DeviceLogonEvents 
@@ -116,7 +116,7 @@ ms.locfileid: "49928477"
     ) on AccountName 
     | where (LogonTime - EmailReceivedTime) between (0min .. 30min)
     ```
-- **양쪽에** 시간 필터 적용 - 특정 시간 창을 조사하지 않는 경우에도 왼쪽 및 오른쪽 테이블에 시간 필터를 적용하면 레코드 수를 줄이고 성능을 향상시킬 수 `join` 있습니다. 아래 쿼리는 지난 한 시간의 레코드만 조인할 수 있도록 두 테이블에 `Timestamp > ago(1h)` 모두 적용됩니다.
+- **양쪽에** 시간 필터 적용 - 특정 시간 창을 조사하지 않는 경우에도 왼쪽 테이블과 오른쪽 테이블 모두에 시간 필터를 적용하면 레코드 수를 줄이고 성능을 향상시킬 수 `join` 있습니다. 아래 쿼리는 지난 한 시간의 레코드만 조인할 수 있도록 두 테이블에 `Timestamp > ago(1h)` 모두 적용됩니다.
 
     ```kusto
     EmailAttachmentInfo
@@ -125,9 +125,9 @@ ms.locfileid: "49928477"
     | join kind=inner (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
     ```  
 
-- **성능에 대한 힌트를** 사용합니다. 연산자와 힌트를 사용하여 리소스를 많이 사용하는 작업을 실행하는 경우 백end에 부하를 분산할 `join` 수 있도록 지시합니다. [조인 힌트에 대해 자세히 알아보시고](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-hints)
+- **성능에 대한 힌트** 사용 - 연산자와 힌트를 사용하여 리소스를 많이 사용하는 작업을 실행하는 경우 백end에 부하를 분산할 `join` 수 있도록 지시합니다. [조인 힌트에 대해 자세히 알아보시고](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-hints)
 
-    예를 들어 **[](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery)** 셔플 힌트는 기수도 높은 키(아래 쿼리의 경우와 같이 고유한 값이 많은 키)를 사용하여 테이블을 조인할 때 쿼리 성능을 향상시키는 `AccountObjectId` 데 도움이 됩니다.
+    예를 들어 **[](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery)** 셔플 힌트는 기수 값이 많은 키(예: 아래 쿼리의 키)를 사용하여 테이블을 조인할 때 쿼리 성능을 `AccountObjectId` 향상시키는 데 도움이 됩니다.
 
     ```kusto
     IdentityInfo
@@ -139,7 +139,7 @@ ms.locfileid: "49928477"
     on AccountObjectId 
     ```
     
-    **[브로드캐스트](https://docs.microsoft.com/azure/data-explorer/kusto/query/broadcastjoin)** 힌트는 왼쪽 테이블이 작고(최대 100,000개 레코드) 오른쪽 테이블이 매우 큰 경우 도움이 됩니다. 예를 들어 아래 쿼리는 특정 제목이 있는 몇 가지 전자  메일을 표의 링크가 포함된 모든 메시지에 `EmailUrlInfo` 연결하려고 합니다.
+    **[브로드캐스트](https://docs.microsoft.com/azure/data-explorer/kusto/query/broadcastjoin)** 힌트는 왼쪽 테이블이 작고(최대 100,000개 레코드) 오른쪽 테이블이 매우 큰 경우 도움이 됩니다. 예를 들어 아래 쿼리는 표의 링크가 포함된 모든 메시지에  특정 제목이 있는 몇 가지 전자 메일에 참가하려고 `EmailUrlInfo` 합니다.
 
     ```kusto
     EmailEvents 
@@ -150,23 +150,23 @@ ms.locfileid: "49928477"
 ## <a name="optimize-the-summarize-operator"></a>연산자 `summarize` 최적화
 요약 [연산자는](https://docs.microsoft.com/azure/data-explorer/kusto/query/summarizeoperator) 테이블의 내용을 집계합니다. 다음 팁을 적용하여 이 연산자를 사용하는 쿼리를 최적화합니다.
 
-- **고유한 값** 찾기 - 일반적으로 반복할 수 있는 고유한 값을 찾는 `summarize` 데 사용합니다. 반복 값이 없는 열을 집계하는 데 이 값을 사용할 필요가 없습니다.
+- **고유한 값 찾기**- 일반적으로 반복할 수 있는 고유한 값을 찾는 `summarize` 데 사용합니다. 이 값을 사용하여 반복 값이 없는 열을 집계할 필요가 없습니다.
 
-    단일 전자 메일이 여러 이벤트의 일부가  될 수 있는 반면, 개별 전자 메일의 네트워크 메시지 ID에는 항상 고유한 보낸 사람 주소가 있기 때문에 아래 예제를 사용하는 것이 효율적이지 `summarize` 않습니다.
+    단일 전자 메일이 여러 이벤트의 일부가  될 수 있는 반면, 개별 전자 메일의 네트워크 메시지 ID에는 항상 고유한 보낸 사람 주소가 있기 때문에 아래 예제에서는 효율적이지 `summarize` 않습니다.
  
     ```kusto
     EmailEvents  
     | where Timestamp > ago(1h)
     | summarize by NetworkMessageId, SenderFromAddress   
     ```
-    연산자를 쉽게 대체하여 더 적은 리소스를 사용하면서 잠재적으로 동일한 결과를 얻을 `summarize` `project` 수 있습니다.
+    연산자를 으로 쉽게 대체할 수 있습니다. 그러면 더 적은 리소스를 사용하면서 잠재적으로 동일한 결과를 `summarize` `project` 얻을 수 있습니다.
 
     ```kusto
     EmailEvents  
     | where Timestamp > ago(1h)
     | project NetworkMessageId, SenderFromAddress   
     ```
-    다음 예에서는 동일한 받는 사람 주소로 전자 메일을 보내는 보낸 사람 주소의 여러 인스턴스가 있을 수 있기 때문에 보다 효율적으로 `summarize` 사용할 수 있습니다. 이러한 조합은 고유하지는 못하며 중복 항목일 가능성이 뚜렷합니다.
+    다음 예에서는 동일한 받는 사람 주소로 전자 메일을 보내는 보낸 사람 주소의 고유한 인스턴스가 여러 개 있을 수 있기 때문에 보다 효율적으로 `summarize` 사용할 수 있습니다. 이러한 조합은 고유하지 않습니다. 중복 항목일 가능성이 뚜렷합니다.
 
     ```kusto
     EmailEvents  
@@ -174,9 +174,9 @@ ms.locfileid: "49928477"
     | summarize by SenderFromAddress, RecipientEmailAddress   
     ```
 
-- **쿼리 셔플**- 반복되는 값을 사용하는 열에서 가장 잘 사용하겠지만 동일한 열에 기수도 높거나 고유 값이 많은 경우도 `summarize` 있습니다.  연산자와 마찬가지로 처리 부하를 분산하고 카디널리티가 높은 열에서 작업할 때 성능을 잠재적으로 향상하기 위해 셔플 힌트를 적용할 `join` 수도 [](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery) `summarize` 있습니다.
+- **쿼리 셔플**-을(를) 반복적인 값을 사용하는 열에 사용하는 것이 가장 좋은 반면 동일한 열에는 기수도 높거나 고유 값이 많이 사용될 `summarize` 수 있습니다.  연산자와 마찬가지로 처리 부하를 분산하고 카디널리티가 높은 열에서 작업할 때 성능을 잠재적으로 개선하기 위해 셔플 힌트를 적용할 `join` 수도 [](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery) `summarize` 있습니다.
 
-    아래 쿼리는 대규모 조직에서 수십만 개에서 실행할 수 있는 고유한 받는 사람 전자 메일 주소를 `summarize` 세는 데 사용합니다. 성능을 향상하기 위해 다음을 `hint.shufflekey` 통합합니다.
+    아래 쿼리는 수만 개의 대규모 조직에서 실행할 수 있는 고유한 받는 사람 전자 메일 주소의 개수를 `summarize` 계산하는 데 사용합니다. 성능을 향상하기 위해 다음을 `hint.shufflekey` 통합합니다.
 
     ```kusto
     EmailEvents  
@@ -205,17 +205,17 @@ InitiatingProcessCreationTime, InitiatingProcessFileName
 쿼리는 여러 프로세스를 동일한 프로세스 ID와 함께 사용하지 않고 단일 프로세스를 보여주는 `InitiatingProcessId`과 `InitiatingProcessCreationTime` 모두에 대해 요약을 합니다.
 
 ### <a name="query-command-lines"></a>쿼리 명령줄
-여러 가지 방법으로 작업을 수행할 수 있는 명령줄을 만들 수 있습니다. 예를 들어 공격자는 파일 확장명, 환경 변수 또는 따옴표를 사용하여 경로 없이 이미지 파일을 참조할 수 있습니다. 또한 공격자는 매개 변수의 순서를 변경하거나 여러 따옴표와 공백을 추가할 수 있습니다.
+여러 가지 방법으로 작업을 수행할 수 있는 명령줄을 만들 수 있습니다. 예를 들어 공격자는 파일 확장명 없이 환경 변수를 사용하거나 따옴표를 사용하여 경로 없이 이미지 파일을 참조할 수 있습니다. 또한 공격자는 매개 변수 순서를 변경하거나 여러 따옴표와 공백을 추가할 수 있습니다.
 
-명령줄에 대해 더 지속성 있는 쿼리를 만들 수 있는 방법은 다음과 같습니다.
+명령줄에 대해 지속적 쿼리를 더 많이 만들 수 있는 방법은 다음과 같습니다.
 
-- 명령줄 자체에서 필터링하는 대신 ** 파일 이름 *필드에서* 일치하여 알려진 프로세스(예:net.exe또는psexec.exe)를 식별합니다.
-- parse_command_line 함수를 사용하여 [명령줄 섹션 구문 분석](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) 
+- 명령줄 자체를 필터링하는 대신 ** 파일 이름 *필드에* 일치하여 알려진 프로세스(예:net.exe또는psexec.exe)를 식별합니다.
+- parse_command_line 함수를 사용하여 [명령줄 섹션 구문](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) 분석 
 - 명령줄 인수에 대해 쿼리할 때 관련이 없는 여러 인수에서 특정 순서로 정확하게 일치하는 항목을 찾지 마세요. 대신 정규 표현식을 사용하거나 별도의 여러 포함 연산자를 사용합니다.
-- 대/소문자를 구분하지 않는 일치 항목을 사용합니다. 예를 들어 `=~` , 및 를 대신 `in~` `contains` `==` `in` `contains_cs` 사용합니다.
-- 명령줄 난동 기술을 완화하기 위해 따옴표를 제거하고, 콤보를 공백으로 바꾸고, 여러 개의 연속된 공백을 단일 공백으로 바꾸는 것이 고려됩니다. 다른 접근 방식이 필요한 더 복잡한 난 난소화 기술이 있지만 이러한 조정을 통해 일반적인 문제를 해결할 수 있습니다.
+- 대/소문자를 구분하지 않는 일치 항목을 사용합니다. 예를 들어 , 및 대신 `=~` `in~` , `contains` `==` `in` 를 `contains_cs` 사용합니다.
+- 명령줄 난침 기술을 완화하기 위해 따옴표를 제거하고, 콤보를 공백으로 바꾸고, 여러 개의 연속된 공백을 단일 공백으로 바꾸는 것이 고려됩니다. 다른 접근 방식이 필요한 더 복잡한 난 난급법이 있지만 이러한 조정을 통해 일반적인 문제를 해결할 수 있습니다.
 
-다음 예에서는 방화벽 서비스 "MpsSvc"net.exe파일을 검색하는 쿼리를 생성하는 다양한 방법을 보여 주며, 
+다음 예에서는 방화벽 서비스 "MpsSvc"를net.exe파일을 검색하는 쿼리를 생성하는 다양한 방법을 보여집니다. 
 
 ```kusto
 // Non-durable query - do not use
@@ -235,7 +235,7 @@ DeviceProcessEvents
 ```
 
 ### <a name="ingest-data-from-external-sources"></a>외부 원본에서 데이터 수집
-긴 목록이나 큰 테이블을 쿼리에 통합하기 위해 [externaldata](https://docs.microsoft.com/azure/data-explorer/kusto/query/externaldata-operator) 연산자를 사용하여 지정된 URI에서 데이터를 수집합니다. TXT, CSV, JSON 또는 기타 형식의 파일에서 데이터를 얻을 [수 있습니다.](https://docs.microsoft.com/azure/data-explorer/ingestion-supported-formats) 아래 예에서는 MalwareBazaar(abuse.ch)에서 제공하는 맬웨어 SHA-256 해시의 광범위한 목록을 사용하여 전자 메일의 첨부 파일을 검사하는 방법을 보여줍니다.
+긴 목록이나 큰 테이블을 쿼리에 통합하기 위해 [externaldata](https://docs.microsoft.com/azure/data-explorer/kusto/query/externaldata-operator) 연산자를 사용하여 지정된 URI에서 데이터를 수집합니다. TXT, CSV, JSON 또는 기타 형식의 파일에서 데이터를 얻을 [수 있습니다.](https://docs.microsoft.com/azure/data-explorer/ingestion-supported-formats) 아래 예제에서는 MalwareBazaar(abuse.ch)에서 제공하는 맬웨어 SHA-256 해시의 광범위한 목록을 사용하여 전자 메일의 첨부 파일을 검사하는 방법을 보여줍니다.
 
 ```kusto
 let abuse_sha256 = (externaldata(sha256_hash: string )
@@ -248,7 +248,7 @@ abuse_sha256
 | where Timestamp > ago(1d) 
 ) on $left.sha256_hash == $right.SHA256
 | project Timestamp,SenderFromAddress,RecipientEmailAddress,FileName,FileType,
-SHA256,MalwareFilterVerdict,MalwareDetectionMethod
+SHA256,ThreatTypes,DetectionMethods
 ```
 
 ### <a name="parse-strings"></a>문자열 구문 분석
@@ -256,13 +256,13 @@ SHA256,MalwareFilterVerdict,MalwareDetectionMethod
 
 | 문자열 | 함수 | 사용 예제 |
 |--|--|--|
-| 명령줄 | [parse_command_line()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) | 명령과 모든 인수의 추출 | 
+| 명령줄 | [parse_command_line()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) | 명령과 모든 인수를 추출합니다. | 
 | 경로 | [parse_path()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsepathfunction) | 파일 또는 폴더 경로의 섹션을 추출합니다. |
-| 버전 번호 | [parse_version()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-versionfunction) | 섹션당 최대 4개의 섹션과 섹션당 최대 8자까지 버전 번호를 해제합니다. 구문 분석된 데이터를 사용하여 버전 연령을 비교합니다. |
+| 버전 번호 | [parse_version()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-versionfunction) | 섹션당 최대 4개의 섹션과 섹션당 최대 8자까지 버전 번호를 해제합니다. 구문 분석된 데이터를 사용하여 버전 나이를 비교합니다. |
 | IPv4 주소 | [parse_ipv4()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-ipv4function) | IPv4 주소를 긴 정수로 변환합니다. IPv4 주소를 변환하지 않고 비교하기 위해 [ipv4_compare() 를 사용합니다.](https://docs.microsoft.com/azure/data-explorer/kusto/query/ipv4-comparefunction) |
 | IPv6 주소 | [parse_ipv6()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-ipv6function)  | IPv4 또는 IPv6 주소를 정형 IPv6로 변환합니다. IPv6 주소를 비교하기 위해 [ipv6_compare() 를 사용합니다.](https://docs.microsoft.com/azure/data-explorer/kusto/query/ipv6-comparefunction) |
 
-지원되는 모든 구문 분석 함수에 대한 자세한 내용은 [Kusto 문자열 함수를 읽어보아야 합니다.](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalarfunctions#string-functions) 
+지원되는 모든 구문 분석 함수에 대한 자세한 내용은 [Kusto 문자열 함수 를 읽어 보아야 합니다.](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalarfunctions#string-functions) 
 
 ## <a name="related-topics"></a>관련 항목
 - [Kusto 쿼리 언어 설명서](https://docs.microsoft.com/azure/data-explorer/kusto/query/)

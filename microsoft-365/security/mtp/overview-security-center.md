@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 87149ab9c99168d62f5114555a46b8bfaee83ab2
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 7db9b9762830384370a4bedf220d7a52112ab1ea
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712105"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727214"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>통합된 Microsoft 365 보안 센터 개요
 
@@ -107,6 +107,9 @@ Microsoft 365 보안 센터는 Office 365용 Microsoft Defender 및 Endpoint용 
 
 - [Microsoft 365 Defender에](mtp-permissions.md) 대한 액세스를 관리하는 방법에 대해 자세히 알아보시고
 - Microsoft 365 보안 센터에서 사용자 지정 역할을 만드는 방법에 대한 자세한 정보 [](custom-roles.md)
+
+> [!NOTE]
+> Microsoft 365 보안 센터의 끝점용 Microsoft [Defender는 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/mtp/mssp-access)보안 센터에서 액세스 권한을 부여하는 방법과 동일한 방식으로 관리되는 보안 서비스 공급자(MSSP)에 대한 액세스 권한을 부여할 수 있도록 지원합니다. [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access)
 
 ### <a name="integrated-reports"></a>통합 보고서
 

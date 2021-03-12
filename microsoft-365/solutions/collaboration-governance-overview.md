@@ -16,12 +16,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Microsoft 365 그룹, Teams, SharePoint 및 Microsoft 365 그룹의 관련 기능을 Yammer.
-ms.openlocfilehash: 8f1341b3b3bab1e9ae7219f01124983aefb022b1
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: a9b4767c450ffc775fb84711e48b9f6c775419e5
+ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50424047"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741600"
 ---
 # <a name="what-is-collaboration-governance"></a>공동 작업 거버넌스란 무엇인가요?
 
@@ -41,7 +41,7 @@ Microsoft 365 그룹, Teams 및 Yammer 같은 서비스는 공동 작업하는 �
 
 조직에서 안전한 공동 작업을 위해 Microsoft 365 그룹 및 Teams를 배포하는 다양한 옵션이 있습니다. 이 거버넌스 콘텐츠를 [Microsoft 365](setup-secure-collaboration-with-teams.md) 및 관련 문서와 함께 사용하여 조직에 가장 적합한 공동 작업 솔루션을 만드는 것이 좋습니다.
 
-## <a name="what-are-microsoft-365-groups"></a>Microsoft 365 그룹이란?
+## <a name="why-microsoft-365-groups-are-important"></a>Microsoft 365 그룹이 중요한 이유
 
 Microsoft 365 그룹을 사용하면 공동 작업할 사용자 집합을 선택하고 해당 사용자가 공유할 리소스 모음을 쉽게 설정할 수 있습니다. 그룹에 구성원을 추가하면 그룹에서 제공하는 모든 자산에 필요한 사용 권한이 자동으로 부여됩니다. Teams와 Yammer Microsoft 365 그룹을 사용하여 구성원을 관리합니다.
 

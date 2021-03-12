@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: e392d071b77226a23001d8628c3b9c711b06e228
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: bbb3814a973bec53a877bc70d0299ce7b2eb87b5
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454586"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727556"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관 장치
 
@@ -48,16 +48,22 @@ Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나�
 |Dell Optiplex 3070 | 128GB/Intel i3/8GB RAM | 없음 | **2025년 5월 1일**  |
 |HP EliteBook 830 / 840 / 850 G5| 128GB/Intel i5/8GB RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **2023년 2월 15일** |
 |HP EliteBook 830 / 840 / 850 G6| 128GB/Intel i5/8GB RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **2023년 11월 30일** |
+|HP EliteBook 830/840/850 G7| 128GB/Intel i5/8GB RAM | 9MZ21AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **2024년 11월 30일** |
 |HP Elite x2 1013 G3| 256GB/Intel i5/8GB RAM | 5VS03AV가 있는 SKU, IR 카메라 필요 |**2023년 5월 14일** |
+|HP Elite x2 G4| 256GB/Intel i5/8GB RAM | 5VS03AV가 있는 SKU, IR 카메라 필요 |**2024년 5월 31일** |
+|HP EliteBook x360 830 G7| 256GB/Intel i5/8GB RAM | 9MZ21AV가 있는 SKU, IR 카메라 필요 |**2024년 11월 30일** |
 |HP EliteBook x360 1030 G5| 256GB/Intel i5/8GB RAM | 5VS01AV가 있는 SKU, IR 카메라 필요 |**2023년 5월 14일** |
 |HP EliteBook x360 1030 G6| 256GB/Intel i5/8GB RAM | 5VS01AV가 있는 SKU, IR 카메라 필요 |**2023년 11월 30일** |
 |HP EliteBook x360 1040 G5| 256GB/Intel i5/8GB RAM | 5VS01AV가 있는 SKU, IR 카메라 필요 | **2023년 10월 23일** |
 |HP EliteBook x360 1040 G6| 256GB/Intel i5/8GB RAM | 5VS01AV가 있는 SKU, IR 카메라 필요 | **2023년 11월 30일** |
+|HP EliteBook x360 1030/1040 G7| 256GB/Intel i5/8GB RAM | 8XW08AV가 있는 SKU, IR 카메라 필요 | **2024년 8월 31일** |
 |HP ProBook x360 440 G1| 128GB/Intel i3/8GB RAM | 5VS04AV, IR 카메라 또는 지문 판독기가 필요한 SKU | **2023년 6월 6일** |
 |HP EliteDesk 800 G4 DM | 128GB/Intel i3/8GB RAM | 5VS04AV가 있는 SKU | **2023년 7월 18일** |
 |HP EliteDesk 800 G4 SFF | 128GB/Intel i3/8GB RAM | 5VS04AV가 있는 SKU | **2023년 7월 18일** |
 |HP EliteOne 800 G4 23.8in AIO |128GB/Intel i3/8GB RAM |5VS04AV가 있는 SKU| **2023년 7월 18일** |
+|HP EliteOne 800 G6 24/27 AIO |256GB/Intel i5/8GB RAM |9XM14AV가 있는 SKU| **2025년 6월 30일** |
 |HP ZBook 14u/15u G6 Mobile Workstation |256GB/Intel i5/8GB RAM |5VS04AV가 있는 SKU, IR 카메라 필요| **2023년 11월 30일** |
+|HP ZBook Firefly 14/15 G7 Mobile Workstation |256GB/Intel i5/8GB RAM |9MZ22AV가 있는 SKU, IR 카메라 필요| **2024년 11월 30일** |
 |Surface Book 2| 256GB/Intel i5/8GB RAM | 없음 | **2022년 11월 16일** |
 |Surface Go| 128GB/Intel 4415Y/8GB RAM | 없음 | **2023년 8월 2일** |
 |Surface 노트북| 256GB/Intel i5/8GB RAM | 없음 | **2022년 5월 20일** |
