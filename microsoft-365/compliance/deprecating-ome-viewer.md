@@ -4,6 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: krowley
 author: kccross
+manager: laurawi
 ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
@@ -18,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: OME(Office 365 메시지 암호화) 뷰어 앱은 2018년 Android 및 Apple 스토어에서 제거되었습니다.
-ms.openlocfilehash: 9aca6fa2c0e9b276b666ffa187e3d18f061e7224
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: bb96601a8a542d53f6732ab9316051c1a820ba46
+ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817867"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741525"
 ---
 # <a name="deprecating-message-encryption-viewer-app"></a>메시지 암호화 뷰어 앱 사용 안
 
@@ -31,30 +32,30 @@ ms.locfileid: "44817867"
   
 ## <a name="changes-from-august-2018"></a>2018년 8월 변경 내용
 
-2017년 9월 발표에 따라 사용자가 모바일 앱의 요구 사항 없이 암호화되고 보호된 메시지를 조직 내부 또는 외부 사용자에게 보낼 수 있도록 새로운 [버전의 Office 365](https://aka.ms/ome2017) 메시지 암호화를 출시했습니다. 그 이후로 추가 기능이 추가되었습니다.
+2017년 9월에 발표된 것 처럼, 사용자가 모바일 앱의 요구 사항 없이도 암호화되고 보호된 메시지를 조직 내부 또는 외부의 사용자에게 보낼 수 있도록 새로운 [버전의 Office 365](https://aka.ms/ome2017) 메시지 암호화를 출시했습니다. 그 이후로 추가 기능이 추가되었습니다.
   
 - [암호화 전용 템플릿](https://aka.ms/encryptonly)
 
 - [첨부 파일 암호 해독 제어](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Admin-control-for-attachments-now-available-in-Office-365/ba-p/204007)
-    
-이 변경으로 사용자는 더 이상 8월 1일부로 Office 365 메시지 암호화 뷰어 모바일 앱을 다운로드할 수 없습니다. 따라서 메일 받는 사람은 일부 Android 및 Apple 모바일 장치에서 이전 버전의 OME로 암호화된 메시지를 읽을 수 없습니다. 그러나 데스크톱 브라우저를 통해 개인 컴퓨터에서 이러한 메시지를 읽을 수 있습니다. 이미 앱을 다운로드한 사용자는 계속 앱을 사용할 수 있습니다.
-  
-## <a name="why-this-change-was-made"></a>이 변경이 만들어진 이유
 
-새 버전의 OME는 더 이상 모바일 앱이 보호된 전자 메일 메시지 및 첨부 파일을 읽을 필요는 없습니다. 새 OME 기능을 사용하는 고객은 Outlook 모바일에서 보호된 메시지를 볼 수 있으며, 비 고객은 브라우저에서 보호된 메시지를 볼 수 있습니다.
+이 변경으로 사용자는 8월 1일부터 더 이상 Office 365 메시지 암호화 뷰어 모바일 앱을 다운로드할 수 없습니다. 따라서 메일 받는 사람은 일부 Android 및 Apple 모바일 장치에서 이전 버전의 OME로 암호화된 메시지를 읽을 수 없습니다. 그러나 데스크톱 브라우저를 통해 개인 컴퓨터에서 이러한 메시지를 읽을 수 있습니다. 이미 앱을 다운로드한 사용자는 계속 앱을 사용할 수 있습니다.
   
-사용자가 모바일 앱을 다운로드하도록 요구하는 것은 고객이 보호된 메시지를 볼 수 있는 또 다른 번들입니다. 새로운 Office 365 메시지 암호화 기능은 더 나은 모바일 환경을 제공합니다.
+## <a name="why-this-change-was-made"></a>이러한 변경이 이행된 이유
+
+새 버전의 OME는 더 이상 모바일 앱이 보호된 전자 메일 메시지 및 첨부 파일을 읽을 필요는 없습니다. 새로운 OME 기능을 사용하는 고객은 Outlook 모바일에서 보호된 메시지를 볼 수 있으며 비 고객은 브라우저에서 보호된 메시지를 볼 수 있습니다.
+  
+사용자가 모바일 앱을 다운로드하도록 요구하는 것은 고객이 보호된 메시지를 볼 수 있는 또 다른 Hurdle입니다. 새로운 Office 365 메시지 암호화 기능은 더 나은 모바일 환경을 제공합니다.
   
 ## <a name="can-i-still-use-the-previous-version-of-office-365-message-encryption"></a>이전 버전의 Office 365 메시지 암호화를 계속 사용할 수 있습니다.
 
-현재 이전 버전의 Office 365 메시지 암호화는 더 이상 사용되지 않을 예정입니다. 그러나 새로운 버전의 Office 365 메시지 암호화가 크게 향상되어 사용자가 Outlook(데스크톱, 모바일)에서 직접 보호된 메시지를 읽을 수 있는 기능을 포함하여 중요한 데이터를 누구와 디바이스에나 쉽게 암호화하고 보호할 수 있습니다. 및 웹)을 사용할 수 있습니다. 
+Office 365 메시지 암호화의 이전 버전은 현재 더 이상 사용되지 않을 예정입니다. 그러나 새로운 버전의 Office 365 메시지 암호화가 크게 향상되어 사용자가 Outlook(데스크톱, 모바일)에서 보호된 메시지를 직접 읽을 수 있는 기능을 포함하여 모든 사용자와 디바이스에서 중요한 데이터를 더 쉽게 암호화하고 보호할 수 있습니다. 및 web) 
   
-## <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>이 변경에 대비하기 위해 해야 할 일
+## <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>이 변경을 준비하기 위해 해야 할 일
 
-조직에서 현재 암호화된 첨부 파일을 OME 뷰어 앱이 필요한 받는 사람에게 보내는 경우 설명서 및 교육 리소스를 업데이트해야 합니다.
+조직에서 현재 OME 뷰어 앱이 필요한 받는 사람에게 암호화된 첨부 파일을 전송하는 경우 설명서 및 교육 리소스를 업데이트해야 합니다.
   
-조직에서 새 기능과 향상된 기능을 활용할 수 있도록 현재 버전의 OME를 사용하기 위해 기존 Exchange 메일 흐름 규칙을 업데이트하는 것이 좋습니다. 새 OME 기능을 설정한 후 받는 사람은 모바일 장치에서 암호화된 메시지를 읽는 데 OME 뷰어 앱이 필요하지 않습니다.
+조직에서 새 기능과 향상된 기능을 활용할 수 있도록 현재 버전의 OME를 사용하기 위해 기존 Exchange 메일 흐름 규칙을 업데이트하는 것이 좋습니다. 새 OME 기능을 설정한 후 받는 사람은 OME 뷰어 앱이 모바일 장치에서 암호화된 메시지를 읽을 필요가 없습니다.
   
-조직에 적절한 새 OME 기능으로의 이동 계획을 세우는 것이 좋습니다. 자세한 내용은 새 Office 365 메시지 암호화 기능 [설정을 참조하세요.](set-up-new-message-encryption-capabilities.md) 새 기능의 작동 방식에 대한 자세한 내용은 [Office 365 메시지](ome.md)암호화를 참조하세요.
+조직에 적절한 새 OME 기능으로 이동하는 계획을 세우는 것이 좋습니다. 자세한 내용은 [Set up new Office 365 Message Encryption capabilities을 참조하십시오.](set-up-new-message-encryption-capabilities.md) 새 기능의 작동 방식에 대한 자세한 내용은 [Office 365 메시지 암호화를 참조하세요.](ome.md)
   
 

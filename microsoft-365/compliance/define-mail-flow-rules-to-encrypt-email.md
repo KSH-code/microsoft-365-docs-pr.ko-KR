@@ -16,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365 메시지 암호화를 사용하여 메시지를 암호화하고 암호 해독하는 메일 흐름 규칙(전송 규칙)을 만드는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 8060309f350b50c2aadc9a703e7a57a4caf8808c
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 58b5e592ee8da92a2dbfd10f533aad3240b7a484
+ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597230"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741557"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages"></a>전자 메일 메시지를 암호화하는 메일 흐름 규칙 정의
 
@@ -86,7 +86,7 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화를 트리
 
 6. 새 OME 기능을 사용하여 암호화를 사용하도록 설정하려면  **다음 작업에서** 메시지 보안 수정을 선택한 다음 Office 365 메시지 암호화 및 권한 보호 적용 **을 선택하십시오.** 목록에서 RMS 템플릿을 선택하고 저장을 선택한 **다음** 확인 을 **선택합니다.**
 
-   템플릿 목록에는 Office 365에서 사용하기 위해 만든 모든 사용자 지정 템플릿뿐만 아니라 모든 기본 템플릿 및 옵션이 포함됩니다. 목록이 비어 있는 경우 Azure Information Protection을 바탕으로 구축된 새 Office 365 메시지 암호화 기능 설정에 설명된 새 기능을 사용하여 [Office 365](set-up-new-message-encryption-capabilities.md)메시지 암호화를 설정해야 합니다. 기본 템플릿에 대한 자세한 내용은 Azure Information Protection용 템플릿 구성 및 [관리를 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates) 전달 금지 **옵션에** 대한 자세한 내용은 전자 메일에 [대해 전달 금지 옵션을 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) 암호화 전용 **옵션에** 대한 자세한 내용은 전자 메일에 대한 [암호화 전용 옵션을 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
+   템플릿 목록에는 Office 365에서 사용하기 위해 만든 모든 사용자 지정 템플릿뿐만 아니라 모든 기본 템플릿 및 옵션이 포함됩니다. 목록이 비어 있는 경우 Azure Information Protection을 바탕으로 구축된 새 Office 365 메시지 암호화 기능 설정에 설명된 새 기능을 사용하여 [Office 365](set-up-new-message-encryption-capabilities.md)메시지 암호화를 설정해야 합니다. 기본 템플릿에 대한 자세한 내용은 Azure Information Protection용 템플릿 구성 및 [관리를 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates) 전달 금지 옵션에 대한 자세한 내용은 전자 메일에 [대해 전달 금지 옵션을 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) 암호화 전용 옵션에 대한 자세한 내용은 전자 메일에 대한 [암호화 전용 옵션을 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
 
    다른 작업을 **지정하려는** 경우 추가 작업을 선택할 수 있습니다.
 

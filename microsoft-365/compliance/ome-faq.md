@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: 새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1bb5e93b08b74f5691c76e9a59bf9fa970e08f36
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 09d9293cfb1b574b4c179a0b486d436dab99edf2
+ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597198"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741349"
 ---
 # <a name="message-encryption-faq"></a>메시지 암호화 FAQ
 
@@ -145,8 +145,7 @@ Not yet. 비즈니스용 OneDrive 첨부 파일은 지원되지 않습니다. �
 
 ## <a name="what-email-clients-support-revocation-of-protected-emails"></a>보호된 전자 메일의 해지가 지원되는 전자 메일 클라이언트는 무엇입니까?
 
-웹에서 Outlook에서는 보호된 메일의 해지가 지원됩니다.  자세한 내용은 사용자가 보낸 암호화된 메시지를 [해지하는](https://docs.microsoft.com/microsoft-365/compliance/revoke-ome-encrypted-mail?view=o365-worldwide#how-to-revoke-an-encrypted-message-that-you-sent) 방법을 참조합니다.
-
+웹에서 Outlook에서는 보호된 메일의 해지가 지원됩니다.  자세한 내용은 사용자가 보낸 암호화된 메시지를 [해지하는](revoke-ome-encrypted-mail.md#how-to-revoke-an-encrypted-message-that-you-sent) 방법을 참조합니다.
 
 ## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies"></a>정책을 설정하여 메시지를 자동으로 암호화할 수 있나요?
 
@@ -218,8 +217,8 @@ Not yet. 비즈니스용 OneDrive 첨부 파일은 지원되지 않습니다. �
    ```powershell
    Add-MailboxPermission -Identity support@contoso.onmicrosoft.com -User ayla@contoso.com -AccessRights FullAccess -AutoMapping $true
    ```
-   
- ## <a name="can-i-open-encrypted-messages-sent-to-another-users-mailbox-with-fullaccess"></a>Fullaccess를 사용하여 다른 사용자의 사서함으로 전송된 암호화된 메시지를 열 수 있나요?
+
+## <a name="can-i-open-encrypted-messages-sent-to-another-users-mailbox-with-fullaccess"></a>Fullaccess를 사용하여 다른 사용자의 사서함으로 전송된 암호화된 메시지를 열 수 있나요?
 
 사용자가 직접 액세스 권한이 부여되고 자동 응용링이 켜져 있는 한 암호화된 메시지를 열 수 있습니다. 전자 메일 사용이 가능한 보안 그룹을 통해 액세스 권한이 부여된 경우 액세스가 허용되지 않습니다.
 

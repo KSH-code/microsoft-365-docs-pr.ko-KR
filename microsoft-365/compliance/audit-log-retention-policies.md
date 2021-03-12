@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 감사 로그 보존 정책은 Microsoft 365의 새로운 고급 감사 기능의 일부입니다. 감사 로그 보존 정책을 사용하여 조직에서 감사 로그를 보존할 기간을 지정할 수 있습니다.
-ms.openlocfilehash: eeddf4c963284acaa908e07ddfdae77ec0bb080c
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: fd7e5dc37daad220257b4203679c6bb765140385
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114945"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712048"
 ---
 # <a name="manage-audit-log-retention-policies"></a>로그 보존 정책 감사 관리
 
@@ -47,7 +47,7 @@ Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 �
 
 - 조직에서 최대 50개의 감사 로그 보존 정책을 가질 수 있습니다.
 
-- 감사 로그를 90일 이상 유지하려면 감사 로그를 생성한 사용자에게 Office 365 E5 또는 Microsoft 365 E5 라이선스가 할당되거나 Microsoft 365 E5 규정 준수 또는 E5 eDiscovery 및 감사 추가 기능 라이선스가 있어야 합니다.
+- 감사 로그를 90일(최대 1년) 이상 유지하려면 감사 로(감사된 황동을 실행하여)그를 생성한 사용자에게 Office 365 E5 또는 Microsoft 365 E5 라이선스가 할당되거나 Microsoft 365 E5 규정 준수 또는 E5 eDiscovery 및 감사 추가 기능 라이선스가 있어야 합니다. 감사 로그를 10년 동안 보존하려면 감사 로그를 생성하는 사용자에게 E5 라이선스 외에 10년 감사 로그 보존 추가 기능 라이선스도 할당되어야 합니다.
 
 - 조직에서 생성한 모든 사용자 정의 감사 로그 보존 정책은 기본 보존 정책보다 우선합니다. 예를 들어, 보존 기간이 1년보다 짧은 Exchange 사서함 활동에 대한 감사 로그 보존 정책을 만들면 Exchange 사서함 활동에 대한 감사 레코드가 사용자 지정 정책에 의해 지정된 기간 동안 유지됩니다.
 

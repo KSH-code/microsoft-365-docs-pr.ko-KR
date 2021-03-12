@@ -15,12 +15,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Microsoft 365 테넌트 내의 모든 데이터에 대해 고객 키를 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 7bc5403f73e2d61f47e92ab5c94509f3fe9f3e33
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 7ffa9a8148a8ae699711b62da48cd2c856d48cac
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454649"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727481"
 ---
 # <a name="overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview"></a>테넌트 수준의 Microsoft 365 고객 키 개요(공개 미리 보기)
 
@@ -33,6 +33,7 @@ ms.locfileid: "50454649"
 - Cortana의 Teams 채팅 제안
 - Teams 상태 메시지
 - Exchange Online에 대한 사용자 및 신호 정보
+- 응용 프로그램 수준에서 아직 암호화되지 않은 Exchange Online 사서함
 
 Microsoft Teams의 경우 테넌트 수준의 고객 키는 DEP가 테넌트에 할당된 시간부터 새 데이터를 암호화합니다. 공개 미리 보기에서는 과거의 데이터 암호화를 지원하지 않습니다. Exchange Online의 경우 고객 키는 모든 기존 및 새 데이터를 암호화합니다.
 
@@ -42,13 +43,9 @@ Microsoft Teams의 경우 테넌트 수준의 고객 키는 DEP가 테넌트에 
 
 Exchange Online 및 Sharepoint Online에 대해 이미 고객 키를 설정한 경우 새 테넌트 수준 공개 미리 보기가 어떻게 설정되어 있습니다.
 
-만든 테넌트 수준 암호화 정책은 Microsoft 365의 Microsoft Teams 및 Exchange Online 워크로드에 대한 모든 데이터를 암호화합니다. 이 정책은 이미 고객 키에서 만든 DEP를 세부적으로 조정하는 데 방해가 되지 않습니다.
+만든 테넌트 수준 암호화 정책은 Microsoft 365의 Microsoft Teams 및 Exchange Online 워크로드에 대한 모든 데이터를 암호화합니다. 그러나 Exchange Online의 경우 개별 사서함에 이미 고객 키 DEP를 할당한 경우 테넌트 수준 정책은 해당 DEP를 다시 지정하지 않습니다. 테넌트 수준 정책은 사서함 수준 고객 키 DEP가 아직 할당되지 않은 사서함만 암호화합니다.
 
-예제:
-
-비즈니스용 OneDrive 및 SharePoint에 저장된 Microsoft Teams 파일 및 일부 Teams 통화 및 모임 녹음/녹화는 SharePoint Online DEP에 의해 암호화됩니다. 단일 SharePoint Online DEP는 단일 지리적으로 콘텐츠를 암호화합니다.
-
-Exchange Online의 경우 고객 키를 사용하여 하나 이상의 사용자 사서함을 암호화하는 DEP를 만들 수 있습니다. 테넌트 수준 정책을 만들 때 해당 정책은 암호화된 사서함을 암호화하지 않습니다. 그러나 테넌트 수준 키는 DEP의 영향을 받지 않는 사서함을 암호화합니다.
+예를 들어 비즈니스용 OneDrive 및 SharePoint에 저장된 Microsoft Teams 파일 및 일부 Teams 통화 및 모임 녹음/녹화는 SharePoint Online DEP에 의해 암호화됩니다. 단일 SharePoint Online DEP는 단일 지리적으로 콘텐츠를 암호화합니다.
 
 ## <a name="set-up-customer-key-at-the-tenant-level-public-preview"></a>테넌트 수준에서 고객 키 설정(공개 미리 보기)
 
@@ -135,7 +132,7 @@ Microsoft 365 팀에 문의하기 전에 고객 키와 함께 사용하는 각 A
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   예:
+   예를 들면 다음과 같습니다.
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -236,7 +233,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
   
 이 cmdlet에서 생성되는 출력 파일은 암호화되며 Azure Key Vault 외부에서 사용할 수 없습니다. 백업은 백업을 수행한 Azure 구독으로만 복원할 수 있습니다.
   
-예:
+예를 들면 다음과 같습니다.
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -274,7 +271,7 @@ Set-AzKeyVaultAccessPolicy -VaultName <vault name> -PermissionsToKeys wrapKey,un
 Get-AzKeyVaultKey -VaultName <vault name>
 ```
 
-만료된 키는 고객 키에서 사용할 수 없습니다. 만료된 키로 시도한 작업이 실패하여 서비스가 종료될 수 있습니다. 고객 키에 사용되는 키에는 만료 날짜가 없는 것이 좋습니다. 만료 날짜(설정된 경우)는 제거할 수 없지만 다른 날짜로 변경할 수 있습니다. 만료 날짜가 설정된 키를 사용하려면 만료 값을 12/31/9999로 변경합니다. 만료 날짜가 12/31/9999가 아닌 날짜로 설정된 키는 Microsoft 365 유효성 검사를 통과하지 못합니다.
+만료된 키는 고객 키에서 사용할 수 없습니다. 만료된 키로 시도한 작업이 실패하여 서비스가 종료될 수 있습니다. 고객 키에 사용되는 키에는 만료 날짜가 없는 것이 좋습니다. 만료 날짜(설정된 경우)는 제거할 수 없지만 다른 날짜로 변경할 수 있습니다. 만료 날짜가 설정된 키를 사용하려면 만료 값을 12/31/9999로 변경합니다. 만료 날짜가 12/31/9999가 다른 날짜로 설정된 키는 Microsoft 365 유효성 검사를 통과하지 못합니다.
   
 12/31/9999가 아니라 다른 값으로 설정된 만료 날짜를 변경하기 위해 다음과 같이 [Update-AzKeyVaultKey](https://docs.microsoft.com/powershell/module/az.keyvault/update-azkeyvaultkey) cmdlet을 실행합니다.
   
@@ -299,10 +296,10 @@ Azure PowerShell에서:
 ### <a name="create-policy"></a>정책 만들기
 
 ```powershell
-   New-M365DataAtRestEncryptionPolicy [-Name] <String> -AzureKeyIDs <MultiValuedProperty> [-Description <String>] [-Enabled <Boolean>]
+   New-M365DataAtRestEncryptionPolicy [-Name] <String> -AzureKeyIDs <MultiValuedProperty> [-Description <String>]
 ```
 
-설명: 준수 관리자가 두 개의 AKV 루트 키를 사용하여 새 DEP(데이터 암호화 정책)를 만들 수 있도록 합니다. 정책을 만든 후 cmdlet을 사용하여 정책을 할당할 Set-M365DataAtRestEncryptionPolicy 있습니다. 키를 처음 할당하거나 키를 회전한 후 새 키가 적용될 때 최대 24시간이 걸릴 수 있습니다. 새 DEP를 적용하는 데 24시간 이상 소요된 경우 Microsoft에 문의합니다.
+설명: 준수 관리자가 두 개의 AKV 루트 키를 사용하여 새 DEP(데이터 암호화 정책)를 만들 수 있도록 합니다. 정책을 만든 후 cmdlet을 사용하여 정책을 할당할 Set-M365DataAtRestEncryptionPolicyAssignment 있습니다. 키를 처음 할당하거나 키를 회전한 후 새 키가 적용될 때 최대 24시간이 걸릴 수 있습니다. 새 DEP를 적용하는 데 24시간 이상 소요된 경우 Microsoft에 문의합니다.
 
 예제:
 
@@ -321,7 +318,7 @@ New-M365DataAtRestEncryptionPolicy -Name "Default_Policy" -AzureKeyIDs "https://
 ### <a name="assign-policy"></a>정책 할당
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicyAssignment -Policy “<Default_PolicyName or Default_PolicyID>”
+Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy “<Default_PolicyName or Default_PolicyID>”
 ```
 
 설명: 이 cmdlet은 기본 데이터 암호화 정책을 구성하는 데 사용됩니다. 이 정책은 모든 지원 워크로드에서 데이터를 암호화하는 데 사용됩니다. 
@@ -329,18 +326,19 @@ Set-M365DataAtRestEncryptionPolicyAssignment -Policy “<Default_PolicyName or D
 예제:
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicyAssignment -Policy “Tenant default policy”
+Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy “Default_PolicyName”
 ```
 
 매개 변수:
+
 | 이름 | 설명 | 선택 사항(Y/N) |
 |----------|----------|---------|
--Policy|할당해야 하는 데이터 암호화 정책을 지정합니다. 정책 이름 또는 정책 ID를 지정합니다.|N|
+-DataEncryptionPolicy|할당해야 하는 데이터 암호화 정책을 지정합니다. 정책 이름 또는 정책 ID를 지정합니다.|N|
 
 ### <a name="modify-or-refresh-policy"></a>정책 수정 또는 새로 고침
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicy [-Identity] < M365DataAtRestEncryptionPolicy DataEncryptionPolicyIdParameter> -Refresh [-Enabled <Boolean>] [-Name <String>] [-Description <String>]
+Set-M365DataAtRestEncryptionPolicy [-Identity] <M365DataAtRestEncryptionPolicy DataEncryptionPolicyIdParameter> -Refresh [-Enabled <Boolean>] [-Name <String>] [-Description <String>]
 ```
 
 설명: 이 cmdlet을 사용하여 기존 정책을 수정하거나 새로 고칠 수 있습니다. 또한 정책을 활성화 또는 비활성화하는 데 사용할 수 있습니다. 키를 처음 할당하거나 키를 회전한 후 새 키가 적용될 때 최대 24시간이 걸릴 수 있습니다. 새 DEP를 적용하는 데 24시간 이상 소요된 경우 Microsoft에 문의합니다.
@@ -360,19 +358,20 @@ Set-M365DataAtRestEncryptionPolicy -Identity “EUR Policy” -Refresh
 ```
 
 매개 변수:
+
 | 이름 | 설명 | 선택 사항(Y/N) |
 |----------|----------|---------|
 |-Identity|수정할 데이터 암호화 정책을 지정합니다.|N|
 |-Refresh|Azure Key Vault에서 연결된 키를 회전한 후 Refresh 스위치를 사용하여 데이터 암호화 정책을 업데이트합니다. 이 스위치를 사용하면 값을 지정할 필요가 없습니다.|Y|
 |-사용 설정됨|Enabled 매개 변수는 데이터 암호화 정책을 활성화하거나 사용하지 않도록 설정합니다. 정책을 사용하지 않도록 설정하기 전에 테넌트에서 정책을 해제해야 합니다. 유효한 값은 다음과 같습니다.</br > $true: 정책이 사용하도록 설정되어 있습니다.</br > $true: 이 정책은 사용하도록 설정되어 있습니다. 이 값은 기본값입니다.
 |Y|
-|-Name|Name 매개 변수는 데이터 암호화 정책의 고유 이름을 지정합니다.|Y
+|-Name|Name 매개 변수는 데이터 암호화 정책의 고유 이름을 지정합니다.|Y|
 |-Description|Description 매개 변수는 데이터 암호화 정책에 대한 선택적 설명을 지정합니다.|Y|
 
 ### <a name="get-policy-details"></a>정책 세부 정보 확인
 
 ```powershell
-Get-M365DataAtRestEncryptionPolicy [-Identity] < M365DataAtRestEncryptionPolicy DataEncryptionPolicyIdParameter>
+Get-M365DataAtRestEncryptionPolicy [-Identity] <M365DataAtRestEncryptionPolicy DataEncryptionPolicyIdParameter>
 ```
 
 설명: 이 cmdlet은 테넌트에 대해 만들어진 모든 M365DataAtRest 암호화 정책 또는 특정 정책에 대한 세부 정보를 나열합니다.

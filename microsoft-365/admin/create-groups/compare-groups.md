@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: 사용할 수 있는 그룹 유형에 대해 알아봅니다.
-ms.openlocfilehash: 4cbc7f15632026babec3640f021c09e901ad20b9
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: dfb726fadbfbcf69a8ff57fa3d9025cd8811e617
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925533"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727250"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
@@ -41,7 +41,7 @@ Microsoft 365 관리 센터의 **Groups** 구역에서 다음과 같은 유형�
 
 ## <a name="microsoft-365-groups"></a>Microsoft 365 그룹
 
-Microsoft 365 그룹은 회사 내부 및 외부의 사용자 간의 공동 작업에 사용됩니다. 각 Microsoft 365 그룹에서 구성원은 대화, 파일, 일정 이벤트 및 플래너에 대한 그룹 전자 메일 및 공유 작업 영역을 가져옵니다.
+Microsoft 365 그룹은 회사 내부 및 외부의 사용자 간의 공동 작업에 사용됩니다. 각 Microsoft 365 그룹에서 구성원은 대화, 파일, 일정 이벤트, Stream 및 플래너에 대한 그룹 전자 메일 및 공유 작업 영역을 가져옵니다.
 
 [관리자에 의해 사용 가능하도록](manage-guest-access-in-groups.md) 설정한 경우 회사 외부 사용자를 그룹에 추가할 수 있습니다. 외부 보낸 사람이 그룹 전자 메일 주소로 전자 메일을 보낼 수 있도록 허용할 수도 있습니다.
 
