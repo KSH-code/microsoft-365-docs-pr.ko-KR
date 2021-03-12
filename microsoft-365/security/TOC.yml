@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: 시작하기
+    - name: 시작
       items:
         - name: 재택 근무 지원을 위한 주요 작업
           href: top-security-tasks-for-remote-work.md
@@ -53,6 +53,8 @@
               href: mtp/microsoft-365-security-center-mdo.md
             - name: 엔드포인트용 Defender를 Microsoft 365 보안 센터로 리디렉션
               href: mtp/microsoft-365-security-mde-redirection.md
+            - name: Office 365용 Defender를 Microsoft 365 보안 센터로 리디렉션
+              href: mtp/microsoft-365-security-mdo-redirection.md
             - name: 미리 보기 기능
               href: mtp/preview.md
             - name: 문제 해결
