@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: a716e3dd8138d5f7f9b5f8d8abbdb401211db9ae
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: 67697124df7908dca2ace74dc5de921d18d817c6
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461873"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727327"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -362,13 +362,13 @@ eDiscovery 보존 대상 항목도 보존의 첫 번째 원칙에 속하므로 �
 
 ## <a name="releasing-a-policy-for-retention"></a>보존 정책 릴리스
 
-보존 정책의 제공에는 유지 잠금이 포함되어 있지 않으므로 언제든지 정책을 삭제할 수 있어 이전에 적용된 보존 설정을 효과적으로 해제할 수 있습니다. 정책을 유지할 수 있지만 위치 상태를 설정 해제로 변경할 수도 있습니다.
+보존 정책의 제공에는 유지 잠금이 포함되어 있지 않으므로 언제든지 정책을 삭제할 수 있어 이전에 적용된 보존 설정을 효과적으로 해제할 수 있습니다. 정책을 유지하지만 SharePoint 사이트나 OneDrive 계정을 제거하거나 위치 상태를 해제로 변경하거나 정책을 실행 중지할 수도 있습니다.
  
-해당 작업 중 하나를 수행하면 자료 보존 라이브러리에 보존되어 있는 모든 SharePoint 또는 OneDrive 콘텐츠가 즉시 및 영구적으로 삭제되지 않습니다. 실수로 데이터가 손실되는 것을 방지하기 위해 30일간의 유예 기간이 있습니다. 이 기간에는 자료 보존 라이브러리에서 해당 정책에 대한 콘텐츠 만료가 발생하지 않으므로 필요한 경우 콘텐츠를 복원할 수 있습니다. 또한 유예 기간에 이 콘텐츠를 수동으로 삭제할 수 없습니다.
+이러한 작업을 수행할 때 정책의 보존 대상이 되는 SharePoint 또는 OneDrive 콘텐츠는 의도하지 않은 데이터 손실을 방지하기 위해 30일 동안 유지됩니다. 이 30일 유예 기간 동안에는 사이트를 삭제할 수 없으며 삭제된 파일은 보존 보류 라이브러리에 계속 추가되지만 보존 보류 라이브러리를 주기적으로 정리하는 타이머 작업은 이러한 파일에 대해 일시 중단되므로 필요할 경우 복원할 수 있습니다.
 
-유예 기간에 위치 상태를 다시 설정하도록 변경할 수 있으며 해당 정책에 대한 콘텐츠가 삭제되지 않습니다.
+보존 보류 라이브러리에 대한 자세한 내용은 [SharePoint 및 단일 드라이브에 대한 보존 작동 방식](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive)을 참조하세요.
 
-SharePoint 및 OneDrive의 30일간의 유예 기간은 Exchange의 30일 지연 기간에 해당합니다. 자세한 내용은 [지연되는 사서함 관리](identify-a-hold-on-an-exchange-online-mailbox.md#managing-mailboxes-on-delay-hold)를 참조하세요.
+유예 기간 동안의 동작으로 인해 정책을 다시 실행하거나 30일 이내에 위치 상태를 다시 켜면 이 기간 동안 영구 데이터 손실 없이 정책이 다시 시작됩니다.
 
 ## <a name="auditing-retention-configuration"></a>감사 보존 구성
 

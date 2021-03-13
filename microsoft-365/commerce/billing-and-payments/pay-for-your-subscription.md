@@ -8,27 +8,27 @@ manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 search.appverid:
 - MET150
 ms.assetid: 734f4aab-df2d-4e9b-8cb1-691910bde216
-description: 비즈니스용 Microsoft 365 구독 결제에 사용할 수 있는 결제 방법을 자세히 알아보는 것이 좋습니다.
+description: 비즈니스용 Microsoft 365 구독 결제에 사용할 수 있는 결제 옵션을 알아봅니다.
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: 7b2b433d94915d16cd0f5a3611f8fc17d6254e97
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
-ms.translationtype: MT
+ms.openlocfilehash: 21aad23b849db76acb1bcc98bb37ff0d8b6fc1ce
+ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142088"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741448"
 ---
-# <a name="how-to-pay-for-your-subscription"></a>구독 비용을 지불하는 방법
+# <a name="how-to-pay-for-your-subscription"></a>구독 결제 방법
 
 ::: moniker range="o365-21vianet"
 
@@ -37,16 +37,16 @@ ms.locfileid: "50142088"
 
 ::: moniker-end
 
-신용 카드 또는 직불 카드 또는 은행 계좌를 사용하여 구독 비용을 지불할 수 있습니다. 경우에 따라 수표 또는 EFT(전자 자금 이체)를 사용하여 송장으로 결제할 수 있습니다. 청구 프로필이 있는 경우 옵션이 약간 다릅니다. 자세한 내용은 청구 프로필을 사용하여 구독 비용을 결제하는 [방법을 참조하세요.](pay-for-subscription-billing-profile.md) 계정에 청구 프로필이 있는지 확실하지 않은 경우 청구 프로필 [이해를 참조하세요.](manage-billing-profiles.md)
+신용 카드, 직불 카드 또는 은행 계좌를 사용하여 구독을 결제할 수 있습니다. 수표 또는 EFT(전자식 자금 이체)를 사용하여 송장을 결제할 수 있는 경우도 있습니다. 청구 프로필이 있는 경우 옵션이 약간 다릅니다. 자세한 내용은 [청구 프로필로 구독 결제 방법](pay-for-subscription-billing-profile.md)을 참조하세요. 계정에 청구 프로필이 있는지 잘 알지 못하는 경우 [청구 프로필 이해하기](manage-billing-profiles.md)를 참조하세요.
 
-**송장 결제를 보낼 위치를 찾고 싶나요?** 수표 또는 EFT(전자 자금 이체)를 통해 송장을 결제하는 경우 수표 또는 EFT 결제를 어디로 보내야 [하나요?](#where-do-i-send-my-check-or-eft-payment)
+**송장 결제를 어디로 보내야 하는지 알고 싶으신가요?** 수표 또는 EFT(전자식 자금 이체)로 송장을 결제하는 경우 [수표 또는 EFT 결제를 어디로 보내야 하나요?](#where-do-i-send-my-check-or-eft-payment)를 참조하세요.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
 - 이 문서에 설명된 단계를 수행하려면 전역 또는 대금 청구 관리자여야 합니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-- 체크 아웃 중에 선택하는 결제 방법은 향후 모든 청구 기간에 사용하는 결제 방법입니다. 원하는 경우 변경할 수 있습니다.
+- 결제 중에 선택하신 결제 방법은 향후 모든 청구 기간에 사용되는 결제 방법입니다. 이는 언제든지 변경할 수 있습니다.
 
-## <a name="paying-by-credit-or-debit-card-or-bank-account"></a>신용 카드 또는 직불 카드 또는 은행 계좌로 결제
+## <a name="paying-by-credit-or-debit-card-or-bank-account"></a>신용 카드, 직불 카드 또는 은행 계좌로 결제
 
 > [!IMPORTANT]
 > 은행 계좌로 결제하는 방법은 일부 국가나 지역에서는 사용할 수 없습니다.
@@ -55,11 +55,11 @@ ms.locfileid: "50142088"
 
 ## <a name="paying-by-invoice"></a>송장으로 결제
 
-경우에 따라 수표 또는 EFT를 사용하여 송장으로 구독 비용을 지불할 수 있습니다. 송장으로 결제할 자격을 제공하려면 다음을 해야 합니다.
+경우에 따라 수표 또는 EFT를 사용하여 송장으로 구독을 결제할 수 있습니다. 송장으로 결제하려면 다음 자격을 갖추어야 합니다.
 
-- 확립된 고객 1명
-- 특정 금액을 초과하는 구독 비용이 있는 경우(이 금액은 서비스 위치에 따라 다를 수 있습니다).
-- 신용 검사 통과
+- 양호한 상태의 고객 기록
+- 특정 금액 비용을 초과하는 구독 보유(이 금액은 서비스 위치에 따라 다름)
+- 신용 조회 통과
 
 신용 확인이 필요한 경우 구독을 구입할 때 알림을 받습니다. 연락에 동의한 경우 신용 승인 신청에 대한 자세한 정보가 포함된 전자 메일을 받습니다. 신용 검사는 보통 영업일 기준 2일 이내에 완료됩니다.
 
@@ -72,20 +72,20 @@ ms.locfileid: "50142088"
 
 ## <a name="what-if-i-have-an-outstanding-balance"></a>미지불 잔액이 있는 경우에는 어떻게 하나요?
 
-파일에 결제 방법을 청구할 수 없는 경우 문제가 발생했다는 것을 알려주는 전자 메일을 전송합니다. 전자 메일은 문제의 내용에 대해 간략하게 설명하며 미지정 잔액을 확인할 수 있는 링크를 포함합니다. 구독이 유예 기간에 있는 동안 며칠마다 30일마다 거래를 계속 다시 시도합니다. 트랜잭션이 실패할 때마다 오류에 대한 전자 메일 경고가 표시됩니다.
+등록된 결제 방법에 요금을 청구할 수 없는 경우 문제가 있음을 알려주는 이메일을 보내드립니다. 전자 메일에서 문제가 무엇인지 간략히 명시하고 미결제 잔액을 확인할 수 있는 링크가 포함됩니다. 구독 유예 기간인 30일 동안 며칠마다 거래를 계속해서 재시도합니다. 거래가 실패할 때마다 실패에 대한 전자 메일 알림이 전송됩니다.
 
-기한이 지난 결제 방법을 개인적으로 추가한 경우 **결제** 잔액을 사용하여 결제할 수 있습니다. 연체 금액을 지불하기 위해 사용하는 결제 방법은 거절된 결제 방법을 사용한 모든 구독에 대해 새로운 결제 방법이 됩니다.
+연체 금액이 있는 결제 방법을 직접 추가한 경우 **정산 잔액** 을 이용해 결제할 수 있습니다. 연체 금액을 지불하기 위해 사용하는 결제 방법은 거절된 결제 방법을 사용한 모든 구독에 대해 새로운 결제 방법이 됩니다.
 
-1. 관리 센터에서 청구서 및 결제 & 이동한 다음 결제 방법  >   <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">탭을</a> 선택합니다.
-1. 거부된 결제 방법을 표시하는 경고 메시지입니다. 잔액 **조정을 선택합니다.**
-1. 오른쪽 창에서 다른 결제 방법을 선택하거나 새 결제 방법 **추가를 선택합니다.**
-1. 결제 방법 정보를 업데이트한 후 저장을 **선택합니다.**
+1. 관리 센터에서 **청구** > **청구서 및 결제** 페이지로 이동한 다음 <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">결제 방법</a> 탭을 선택합니다.
+1. 경고 메시지에는 거부된 결제 방법이 표시됩니다. **잔액 정산** 을 선택합니다.
+1. 오른쪽 창에서 다른 결제 방법을 선택하거나 **새 결제 방법 추가** 를 선택합니다.
+1. 결제 방법 정보를 업데이트한 후 **저장** 을 선택합니다.
 
-구독 결제에 사용된 결제 방법을 추가하지 않은 경우 결제 방법을 이전에 추가했거나 새 결제 방법으로 바야 합니다.
+구독 결제에 사용되는 결제 방법을 추가하지 않은 경우 이전에 추가한 결제 방법 또는 새 결제 방법으로 교체해야 합니다.
 
 ## <a name="where-do-i-send-my-check-or-eft-payment"></a>수표 또는 EFT 결제를 어디로 보내야 하나요?
 
-[결제 지침을 송장에](view-your-bill-or-invoice.md) 확인하세요. 아래 드롭다운을 사용하여 국가 또는 지역에 대한 결제 지침을 찾을 수도 있습니다. 지불 금액이 확실하지 않은 경우 온라인으로 청구서 및 청구 내역을  결제 페이지의 청구서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">탭에서 확인할 &</a> 있습니다.
+[송장](view-your-bill-or-invoice.md)에서 결제 지침을 확인하세요. 아래 드롭다운을 사용하여 해당 국가 또는 지역에 대한 결제 지침을 찾을 수도 있습니다. 지불할 금액이 확실하지 않은 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">청구서 및 결제</a> 페이지의 **송장** 탭에서 온라인으로 청구서 및 청구 명세를 확인할 수 있습니다.
 
 > [!NOTE]
 > 수표 결제는 일부 국가에서만 사용할 수 있습니다.
@@ -248,18 +248,18 @@ ms.locfileid: "50142088"
 
 ## <a name="can-i-pay-my-invoice-online"></a>온라인으로 송장을 결제할 수 있나요?
 
-온라인으로 송장을 결제할 수 없습니다. 수표 또는 EFT를 통해 결제를 송금해야 합니다.
+온라인으로 송장을 결제할 수 없습니다. 수표나 EFT를 통해 결제를 송금해야 합니다.
 
-## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>현재 결제 방법에서 송장 결제로 변경할 수 있나요?
+## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>내 현재 결제 방법에서 송장으로 결제로 변경할 수 있나요?
 
-구독 비용이 특정 금액보다 많은 경우 송장 결제로만 변경할 수 있습니다. 송장으로 결제하려면 먼저 신용 카드 또는 직불 카드 또는 은행 계좌에 미지불 잔액을 지불해야 합니다. 결제 방법을 변경하는 방법에 대한 자세한 내용은 단일 구독의 결제 방법 [변경을 참조하세요.](manage-payment-methods.md#change-a-payment-method-for-a-single-subscription)
+구독 비용이 특정 금액 이상인 경우에만 송장으로 결제로 변경할 수 있습니다. 송장으로 결제하려면 먼저 신용 카드, 직불카드 또는 은행 계좌에서 미결제 잔액을 지불해야 합니다. 결제 방법을 변경하는 방법에 대해 알아보려면 [단일 구독의 결제 방법 변경](manage-payment-methods.md#change-a-payment-method-for-a-single-subscription)을 참조하세요.
 
-## <a name="can-i-change-from-paying-by-invoice-to-using-a-different-payment-method"></a>송장 결제에서 다른 결제 방법으로 변경할 수 있나요?
+## <a name="can-i-change-from-paying-by-invoice-to-using-a-different-payment-method"></a>송장으로 결제에서 다른 결제 방법으로 변경할 수 있나요?
 
 송장 결제에서 다른 결제 방법으로 자동 변경할 수 없습니다. 대신 신용 카드 또는 직불 카드 또는 은행 계좌로 결제된 [다른 구독을 구입](../try-or-buy-microsoft-365.md#buy-a-different-subscription)하고 [모든 사용자를 새 구독으로 이동](../subscriptions/move-users-different-subscription.md)한 다음 [이전 구독을 취소](../subscriptions/cancel-your-subscription.md)해야 합니다.
 
 ## <a name="related-articles"></a>관련 문서
 
-[결제 방법](manage-payment-methods.md) 관리(문서)\
-[청구서 또는 송장](view-your-bill-or-invoice.md) 보기(문서)\
-[청구서 또는 송장](understand-your-invoice2.md) 이해(문서)
+[결제 방법 관리](manage-payment-methods.md)(문서)\
+[청구서 또는 송장 보기](view-your-bill-or-invoice.md)(문서)\
+[청구서 또는 송장 이해하기](understand-your-invoice2.md)(문서)
