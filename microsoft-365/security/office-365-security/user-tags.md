@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for Office 365 계획 2에서 사용자 태그를 사용하여 특정 사용자 그룹을 식별하는 방법을 배울 수 있습니다. 태그 필터링은 Microsoft Defender for Office 365의 경고, 보고서 및 조사에서 사용할 수 있으며, 태그가 지정된 사용자를 빠르게 식별할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6e5ddffad6405f48a9af55b5123729eb256064a7
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 80bd360888be3aeea42da6f9b58a119a9752d382
+ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453648"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50758895"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 사용자 태그
 
@@ -45,6 +45,8 @@ ms.locfileid: "50453648"
 
 이 문서에서는 보안 및 준수 센터에서 사용자 태그를 & 설명합니다. 보안 및 준수 센터에는 사용자 태그를 & cmdlet이 없습니다.
 
+사용자 태그가 영향력이 큰 사용자 계정을 보호하는 데 도움이 되는 전략의 일부인 방법을 자세한 내용은 [Microsoft 365의](security-recommendations-for-priority-accounts.md)우선 순위 계정에 대한 보안 권장 사항을 참조하세요.
+
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 사용자 태그 페이지로 직접 **이동하기** 위해 를 를 <https://protection.office.com/userTags> 니다.
@@ -63,9 +65,9 @@ ms.locfileid: "50453648"
 
 - Microsoft 365 관리 센터에서 우선 순위 계정을 관리하고 모니터링할 수도 있습니다. 자세한 내용은 우선 순위 [계정 관리 및 모니터링을 참조하세요.](../../admin/setup/priority-accounts.md)
 
-## <a name="use-the-security-center-to-create-user-tags"></a>보안 센터를 사용하여 사용자 태그 만들기
+## <a name="use-the-security--compliance-center-to-create-user-tags"></a>보안 및 준수 & 사용하여 사용자 태그 만들기
 
-1. 보안 센터에서 위협 관리 **사용자** \> **태그로 이동합니다.**
+1. 보안 및 & 센터에서 **위협** 관리 \> **사용자 태그로 이동합니다.**
 
 2. 열 **수 있는 사용자 태그** 페이지에서 태그 **만들기 를 클릭합니다.**
 
@@ -94,9 +96,9 @@ ms.locfileid: "50453648"
 
    완료되면 제출을 **클릭합니다.**
 
-## <a name="use-the-security-center-to-view-user-tags"></a>보안 센터를 사용하여 사용자 태그 보기
+## <a name="use-the-security--compliance-center-to-view-user-tags"></a>보안 및 준수 & 사용하여 사용자 태그 보기
 
-1. 보안 센터에서 위협 관리 **사용자** \> **태그로 이동합니다.**
+1. 보안 및 & 센터에서 **위협** 관리 \> **사용자 태그로 이동합니다.**
 
 2. 열 **수 있는 사용자** 태그 페이지에서 보하려는 사용자 태그를 선택합니다(확인란을 클릭하지 않습니다).
 
@@ -104,9 +106,9 @@ ms.locfileid: "50453648"
 
    작업을 마쳤으면 **닫기** 를 클릭합니다.
 
-## <a name="use-the-security-center-to-modify-user-tags"></a>보안 센터를 사용하여 사용자 태그 수정
+## <a name="use-the-security--compliance-center-to-modify-user-tags"></a>보안 및 준수 & 사용하여 사용자 태그 수정
 
-1. 보안 센터에서 위협 관리 **사용자** \> **태그로 이동합니다.**
+1. 보안 및 & 센터에서 **위협** 관리 \> **사용자 태그로 이동합니다.**
 
 2. 열 **수 있는 사용자** 태그 페이지에서 보하려는 사용자 태그를 선택한 다음 태그 **편집을 클릭합니다.**
 
@@ -114,10 +116,10 @@ ms.locfileid: "50453648"
 
    완료되면 제출을 **클릭합니다.**
 
-## <a name="use-the-security-center-to-remove-user-tags"></a>보안 센터를 사용하여 사용자 태그 제거
+## <a name="use-the-security--compliance-center-to-remove-user-tags"></a>보안 및 준수 & 사용하여 사용자 태그 제거
 
 **참고:** 기본 제공 우선 순위 계정 태그는 제거할 **수** 없습니다.
 
-1. 보안 센터에서 위협 관리 **사용자** \> **태그로 이동합니다.**
+1. 보안 및 & 센터에서 **위협** 관리 \> **사용자 태그로 이동합니다.**
 
 2. 열 **수 있는 사용자** 태그 페이지에서 제거할 사용자 태그를 선택하고 태그 삭제를 클릭한 다음 **예,** 나타나는 경고에서 제거를 선택합니다.

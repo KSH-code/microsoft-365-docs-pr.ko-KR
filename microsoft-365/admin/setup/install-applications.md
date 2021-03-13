@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: scotv
 audience: Admin
-ms.topic: article
+ms.topic: landing-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -21,19 +21,19 @@ ms.custom:
 - seo-marvel-may2020
 - AdminSurgePortfolio
 - okr_smb
-description: 이제 Microsoft 365를 설정했습니다. Mac, PC 또는 모바일 장치에 개별 Office 응용 프로그램을 설치하고 Outlook에서 전자 메일을 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: dc8a4c3670dacf4b3cc85637c3e18c51a8c8e350
-ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
+description: 이제 Microsoft 365를 설정한 후 Mac, PC 또는 모바일 장치에 개별 Office 응용 프로그램을 설치하고 Outlook에서 전자 메일을 설정하는 방법을 배워야 합니다.
+ms.openlocfilehash: c1d88aa1e754424e7a4ef3e486efc8a9618d3e9b
+ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49988035"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "50766358"
 ---
 # <a name="install-office-applications"></a>Office 응용 프로그램 설치
 
 이제 Microsoft 365를 설정한 후 Mac, PC 또는 모바일 장치에 개별 Office 응용 프로그램을 설치할 수 있습니다.
   
-다음 링크를 따라 자세한 방법을 참조하세요.
+방법에 대한 자세한 내용은 다음 링크를 참조하세요.
   
 - Office 응용 프로그램 설치: PC 또는  [Mac에 Office 설치](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
 
@@ -47,7 +47,7 @@ ms.locfileid: "49988035"
 
 ::: moniker range="o365-21vianet"
 
-AADP(Azure Active Directory Premium) 플랜 1 또는 계획 2를 구입한 경우 MIM(Microsoft Identity Manager)을 사용할 수 있습니다. MIM을 다운로드하려면 다운로드 [센터로 이동 합니다.](https://www.microsoft.com/zh-cn/download/details.aspx?id=58498)
+AADP(Azure Active Directory Premium) 플랜 1 또는 플랜 2를 구매한 경우 MIM(Microsoft Identity Manager)을 사용할 수 있습니다. MIM을 다운로드하려면 다운로드 [센터로 이동 합니다.](https://www.microsoft.com/zh-cn/download/details.aspx?id=58498)
 
 ::: moniker-end
 
