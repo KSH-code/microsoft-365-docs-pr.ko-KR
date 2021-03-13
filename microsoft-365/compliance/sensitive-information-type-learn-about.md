@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 90b545f60c68ac6b76509e14daf1258df66e1c63
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 13dee9d5744639149960a16adcf36b7ebe5718f7
+ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741535"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "50766403"
 ---
 # <a name="learn-about-sensitive-information-types"></a>중요한 정보 유형에 대해 자세히 알아보기
 
@@ -129,6 +129,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 > - 신뢰 수준이 76에서 100 사이인 최소 정확도 또는 사용자 지정 SIT 패턴이 있는 모든 정책은 높은 신뢰도로 매핑됩니다. 
 > - 신뢰 수준이 66에서 75 사이인 최소 정확도 또는 사용자 지정 SIT 패턴이 있는 모든 정책은 중간 신뢰도로 매핑됩니다.
 > - 신뢰 수준이 65 이하인 최소 정확도 또는 사용자 지정 SIT 패턴이 있는 모든 정책은 낮은 신뢰도로 매핑됩니다. 
+
 ## <a name="creating-custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형 만들기
 
 보안 및 준수 센터에서 사용자 지정 중요한 정보 유형을 만들려면 몇 가지 옵션 중에서 선택할 수 있습니다.

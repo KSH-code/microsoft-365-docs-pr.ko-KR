@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Microsoft 365 끝점 데이터 손실 방지는 파일 활동의 모니터링 및 해당 파일에 대한 보호 작업을 끝점으로 확장합니다. 파일은 Microsoft 365 규정 준수 솔루션에서 확인할 수 있습니다. '
-ms.openlocfilehash: d5394499b5514e6e0a49f958a62e70cde61ebf44
-ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
+ms.openlocfilehash: c4f0d10808d564fc0ee19510c25d33caba0471ff
+ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50279312"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741589"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Microsoft 365 끝점 데이터 손실 방지 알아보기
 
@@ -43,6 +43,8 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 |USB 이동식 미디어에 복사 |사용자가 항목이나 정보를 이동식 미디어 또는 USB 장치에 복사하려고 할 때이를 감지합니다.         | 감사 및 통제|
 |네트워크 공유 위치에 복사    |사용자가 항목을 네트워크 공유 또는 매핑된 네트워크 드라이브로 복사하려고 할 때 이를 감지합니다.         |감사 및 통제|
 |문서 인쇄    |사용자가 보호된 항목을 로컬 또는 네트워크 프린터로 인쇄하려고 할 때 이를 감지합니다.| 감사 및 통제         |
+|원격 세션에 복사|사용자가 원격 데스크톱 세션에 항목을 복사하려고 할 때 감지 |  감사 및 통제|
+|Bluetooth 장치에 복사|사용자가 허용하지 않는 Bluetooth 앱(끝점 DLP 설정의 허용하지 않는 Bluetooth aps 목록에 정의된 경우)에 대한 복사를 시도하는 경우를 감지합니다.| 감사 및 통제|
 |항목 만들기|사용자가 항목을 만들 때 이를 감지합니다.| 감사|
 |항목 이름 바꾸기|사용자가 항목 이름을 바꿀 때 이를 감지합니다.| 감사|
 
