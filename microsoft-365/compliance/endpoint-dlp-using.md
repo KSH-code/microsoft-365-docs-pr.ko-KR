@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 6723f3f0903ba6a0e1833bfae1f3dea2362e2c30
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 1bb4013069b8f4890ba420f13a0203eb63973121
+ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406212"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "50820190"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
@@ -81,6 +81,9 @@ ms.locfileid: "50406212"
 목록 모드가 **차단** 으로 설정되어 있으면 사용자는 해당 도메인에 중요한 항목을 업로드할 수 없습니다. 항목이 DLP 정책과 일치하여 업로드 작업이 차단되면 DLP가 경고를 생성하거나 중요한 항목의 업로드를 차단합니다.
 
 목록 모드가 **허용** 으로 설정되어 있으면 사용자는 해당 도메인에 **_오직_** 중요한 항목만을 업로드할 수 있으며 다른 모든 도메인에 대한 업로드 액세스는 허용되지 않습니다.
+
+> [!IMPORTANT]
+> 서비스 제한 모드를 "허용"으로 설정한 경우 제한이 적용되기 전에 하나 이상의 서비스 도메인을 구성해야 합니다.
 
 #### <a name="unallowed-browsers"></a>허용되지 않는 브라우저
 

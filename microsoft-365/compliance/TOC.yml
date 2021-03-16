@@ -44,16 +44,18 @@
           href: insider-risk-management.md
         - name: 내부자 위험 관리 계획
           href: insider-risk-management-plan.md
-        - name: 내부자 위험 설정시작
-          href: insider-risk-management-settings.md
         - name: 내부자 위험 관리 시작
           href: insider-risk-management-configure.md
+        - name: 내부자 위험 설정시작
+          href: insider-risk-management-settings.md
         - name: 내부자 위험 정책 만들기 및 관리
           href: insider-risk-management-policies.md
         - name: 내부자 위험 경고 조사
           href: insider-risk-management-alerts.md
         - name: 내부자 위험 사례에 대한 작업 수행
           href: insider-risk-management-cases.md
+        - name: 내부자 위험 감사 로그를 사용하여 활동 검토
+          href: insider-risk-management-audit-log.md
         - name: 내부자 위험 콘텐츠 탐색기를 사용하여 데이터 검토
           href: insider-risk-management-content-explorer.md
         - name: 사용자 대시보드를 사용하여 워크플로 관리
@@ -237,8 +239,12 @@
               href: data-loss-prevention-policies.md
             - name: 끝점 데이터 손실 방지에 대한 자세한 정보
               href: endpoint-dlp-learn-about.md
-            - name: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너에 대한 자세한 정보(미리 보기)
+            - name: Microsoft Teams의 기본 데이터 손실 방지 정책에 대한 자세한 정보(미리 보기)
+              href: dlp-teams-default-policy.md
+            - name: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 알아보기(미리 보기)
               href: dlp-on-premises-scanner-learn.md
+            - name: Microsoft 규정 준수 확장(미리 보기)에 대해 알아보기
+              href: dlp-chrome-learn-about.md
         - name: DLP를 사용하여 시작
           items:
             - name: 기본 DLP 정책을 사용하여 시작
@@ -253,6 +259,8 @@
               href: endpoint-dlp-getting-started.md
             - name: 끝점 DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성합니다.
               href: endpoint-dlp-configure-proxy.md
+            - name: Microsoft 규정 준수 확장 시작(미리 보기)
+              href: dlp-chrome-get-started.md
             - name: Windows 10 장치용 끝점 DLP 온보딩 도구 및 방법
               items:
                 - name: Windows 10 장치용 온보딩 도구 및 방법
