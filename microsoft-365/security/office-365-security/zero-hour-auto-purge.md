@@ -22,12 +22,12 @@ ms.custom:
 description: 관리자는 ZAP(제로 아워 자동 제거)가 Exchange Online 사서함의 배달된 메시지를 스팸 또는 피싱으로 소급 처리된 정크 메일 폴더 또는 검역소로 이동하는 방법을 알 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0f6cd7522581db1fbc594e9350c8712359498e3b
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: be47d8dfda68bfb6819b6423542970c7768c6ffb
+ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509293"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "50820261"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Exchange Online의 ZAP(제로 아워 자동 제거)
 
@@ -63,11 +63,11 @@ ZAP 작업은 사용자에게 매끄럽게 수행됩니다. 메시지가 검색�
 
 배달 **후** 피싱으로 식별된 읽거나 읽지 않은 메시지의 경우 ZAP 결과는 해당  스팸 방지 정책에서 피싱 전자 메일 필터링 결과에 대해 구성된 동작에 따라 결정됩니다. 피싱에 대해 사용 가능한 필터링 결과 작업 및 가능한 ZAP 결과에 대한 설명은 다음 목록에 설명되어 있습니다.
 
-- **X-Header** 추가, **제목** 줄에 텍스트 추가: ZAP는 메시지에 대한 작업을 수행하지 않습니다.
+- **X-Header** **추가,** 제목 줄에 텍스트 추가, 전자 메일 주소로 메시지 **리디렉션** **,** 메시지 삭제: ZAP는 메시지에 대한 작업을 수행하지 않습니다.
 
 - **정크 메일로** 메시지 이동 : ZAP는 사서함에서 정크 메일 규칙이 사용하도록 설정된 경우(기본적으로 사용하도록 설정되어 있는 경우) 메시지를 정크 메일 폴더로 이동합니다. 자세한 내용은 [Microsoft 365에서 Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md)사서함에 대한 정크 메일 설정 구성을 참조하세요.
 
-- **전자 메일 주소로** 메시지 리디렉션 , **메시지** 삭제 , 메시지 **검지:** ZAP가 메시지를 검지합니다.
+- **메시지 Quarantine message**: ZAP quarantines the message.
 
 기본적으로 피싱 ZAP는 스팸 방지 정책에서 사용하도록 설정되어  있으며, 피싱 전자 메일 필터링 판정에 대한 기본 작업은 피싱 ZAP가 메시지를 기본적으로 차단하는 메시지입니다.
 
@@ -77,11 +77,11 @@ ZAP 작업은 사용자에게 매끄럽게 수행됩니다. 메시지가 검색�
 
 배달 **후** 스팸으로 식별되는 읽을 수 없는 메시지의 경우 ZAP 결과는 해당  스팸 방지 정책에서 스팸 필터링 결과에 대해 구성된 동작에 따라 결정됩니다. 스팸에 대해 사용 가능한 필터링 결과 작업 및 가능한 ZAP 결과에 대한 설명은 다음 목록에 설명되어 있습니다.
 
-- **X-Header** 추가, **제목** 줄에 텍스트 추가: ZAP는 메시지에 대한 작업을 수행하지 않습니다.
+- **X-Header** **추가,** 제목 줄에 텍스트 추가, 전자 메일 주소로 메시지 **리디렉션** **,** 메시지 삭제: ZAP는 메시지에 대한 작업을 수행하지 않습니다.
 
 - **정크 메일로** 메시지 이동 : ZAP는 사서함에서 정크 메일 규칙이 사용하도록 설정된 경우(기본적으로 사용하도록 설정되어 있는 경우) 메시지를 정크 메일 폴더로 이동합니다. 자세한 내용은 [Microsoft 365에서 Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md)사서함에 대한 정크 메일 설정 구성을 참조하세요.
 
-- **전자 메일 주소로** 메시지 리디렉션 , **메시지** 삭제 , 메시지 **검지:** ZAP가 메시지를 검지합니다. 최종 사용자는 자신의 스팸으로 분류된 메시지를 보고 관리할 수 있습니다.
+- **메시지 Quarantine message**: ZAP quarantines the message. 최종 사용자는 자신의 스팸으로 분류된 메시지를 보고 관리할 수 있습니다.
 
 기본적으로 스팸 ZAP는 스팸 방지 정책에서 사용하도록 설정되어  있으며 스팸 필터링 판정에 대한 기본 작업은 메시지를 정크  메일 폴더로 이동입니다. **즉,** 스팸 ZAP는 언데이트 메시지를 기본적으로 정크 메일 폴더로 이동합니다.
 

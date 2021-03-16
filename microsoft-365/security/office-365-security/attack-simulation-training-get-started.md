@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 공격 시뮬레이션 교육을 사용하여 Microsoft 365 E5 또는 Microsoft Defender for Office 365 계획 2 조직에서 시뮬레이션된 피싱 및 암호 공격을 실행하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a33c212f7d0fd6b0617a8059b03ac90de03fba16
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 38e16ecd8185b9e8542f58613790585b5aab73ee
+ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407481"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "50820237"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>공격의 신나는 교육 사용 시작
 
@@ -109,3 +109,6 @@ ms.locfileid: "50407481"
 ### <a name="gaining-insights"></a>인사이트 얻기
 
 보고를 통해 인사이트를 얻는 방법에 대한 단계별 지침은 공격 시뮬레이션 교육을 통해 인사이트 [얻기를 참조하세요.](attack-simulation-training-insights.md)
+
+> [!NOTE]
+> 공격 시뮬레이터는 Office 365용 Defender의 안전한 링크를 사용하여 안전한 링크 정책의 사용자 클릭 추적 안 하도록 설정되어 있는 경우에도  피싱 캠페인의 대상을 받는 사람에게 전송되는 페이로드 메시지의 URL에 대한 클릭 데이터를 안전하게 추적합니다.

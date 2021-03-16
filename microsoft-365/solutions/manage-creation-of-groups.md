@@ -16,19 +16,19 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
-description: Microsoft 365 그룹을 만들 수 있는 사용자를 제어하는 방법을 배워야 합니다.
-ms.openlocfilehash: 3fa430e44c272e5ababbfb0e4befba707c72c1ba
-ms.sourcegitcommit: 719b89baca1bae14455acf2e517ec18fc473636c
+description: Microsoft 365 그룹을 만들 수 있는 사용자를 제어하는 방법을 학습합니다.
+ms.openlocfilehash: f2d1a2062d43af750a84984aab66329ed6a4db22
+ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50122387"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "50819705"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Microsoft 365 그룹을 만들 수 있는 사용자 관리
 
-기본적으로 모든 사용자는 Microsoft 365 그룹을 만들 수 있습니다. 이는 사용자가 IT의 지원을 요청하지 않고도 공동 작업을 시작할 수 있도록 하여 권장되는 접근 방식입니다.
+기본적으로 모든 사용자는 Microsoft 365 그룹을 만들 수 있습니다. 이 방법은 사용자가 IT의 지원 없이 공동 작업을 시작할 수 있도록 하여 권장되는 접근 방식입니다.
 
-비즈니스에서 그룹을 만들 수 있는 사용자만 제한해야 하는 경우 이 문서의 절차에 따라 작업을 수행하면 됩니다. 그룹을 만들 수 있는 사용자가 제한될 경우 다음을 포함하여 액세스에 대한 그룹을 사용 하는 모든 서비스에 영향을 미치게 됩니다.
+비즈니스에서 그룹을 만들 수 있는 사용자만 제한해야 하는 경우 이 문서의 절차에 따라 제한할 수 있습니다. 그룹을 만들 수 있는 사용자 수를 제한하면 다음을 비롯한 액세스에 대한 그룹을 사용 하는 모든 서비스에 영향을 미치게 됩니다.
 
 - Outlook
 - SharePoint
@@ -49,25 +49,25 @@ Microsoft 365 그룹 만들기를 특정 Microsoft 365 그룹 또는 보안 그�
 - 디렉터리 작성자: Azure AD
 - SharePoint 관리자: SharePoint 관리 센터, Azure AD
 - Teams 서비스 관리자: Teams 관리 센터, Azure AD
-- 사용자 관리 관리자: Microsoft 365 관리 센터, Yammer, Azure AD
+- 사용자 관리자: Microsoft 365 관리 센터, Azure AD
 
-이러한 역할 중 하나의 구성원인 경우 제한된 사용자에 대해 Microsoft 365 그룹을 만든 다음 해당 사용자를 그룹의 소유자로 할당할 수 있습니다.
+이러한 역할 중 하나의 구성원인 경우 제한된 사용자에 대해 Microsoft 365 그룹을 만든 다음 사용자를 그룹의 소유자로 할당할 수 있습니다.
 
 ## <a name="licensing-requirements"></a>라이선스 요구 사항
 
-그룹을 만드는 사용자 관리하려면 다음 사용자에게 할당된 Azure AD Premium 라이선스 또는 Azure AD Basic EDU 라이선스가 필요합니다.
+그룹을 만드는 사용자 관리를 위해 다음 사용자에게 할당된 Azure AD Premium 라이선스 또는 Azure AD Basic EDU 라이선스가 필요합니다.
 
 - 이러한 그룹 만들기 설정을 구성하는 관리자
 - 그룹을 만들 수 있는 그룹의 구성원
 
 > [!NOTE]
-> Azure [라이선스를](https://docs.microsoft.com/azure/active-directory/fundamentals/license-users-groups) 할당하는 방법에 대한 자세한 내용은 Azure Active Directory 포털에서 라이선스 할당 또는 제거를 참조하세요.
+> [Azure 라이선스를 할당하는](https://docs.microsoft.com/azure/active-directory/fundamentals/license-users-groups) 방법에 대한 자세한 내용은 Azure Active Directory 포털에서 라이선스 할당 또는 제거를 참조하세요.
 
 다음 사용자에게 할당된 Azure AD Premium 또는 Azure AD Basic EDU 라이선스가 필요하지 않습니다.
 
-- Microsoft 365 그룹의 구성원이자 다른 그룹을 만들 수 없는 사용자입니다.
+- Microsoft 365 그룹의 구성원이자 다른 그룹을 만들 수 없는 사용자
 
-## <a name="step-1-create-a-group-for-users-who-need-to-create-microsoft-365-groups"></a>1단계: Microsoft 365 그룹을 만들어야 하는 사용자에 대한 그룹 만들기
+## <a name="step-1-create-a-group-for-users-who-need-to-create-microsoft-365-groups"></a>1단계: Microsoft 365 그룹을 만들어야 하는 사용자를 위한 그룹 만들기
 
 조직에서 그룹을 만들 수 있는 그룹을 제어하는 데는 하나의 그룹만 사용할 수 있습니다. 그러나 다른 그룹을 이 그룹의 구성원으로 중첩할 수 있습니다.
 
@@ -79,13 +79,13 @@ Microsoft 365 그룹 만들기를 특정 Microsoft 365 그룹 또는 보안 그�
 
 3. 원하는 그룹 유형을 선택 합니다. 그룹의 이름을 기억하세요! 나중에 필요합니다.
 
-4. 그룹 설정을 완료하고, 해당 그룹에 그룹을 만들 수 있도록 하려는 사용자 또는 다른 그룹을 추가합니다.
+4. 그룹 설정을 완료하고, 그룹에서 그룹을 만들 수 있도록 하려는 사용자 또는 다른 그룹을 추가합니다.
 
 자세한 내용은 Microsoft [365](https://docs.microsoft.com/microsoft-365/admin/email/create-edit-or-delete-a-security-group)관리 센터에서 보안 그룹 만들기, 편집 또는 삭제를 참조하세요.
 
 ## <a name="step-2-run-powershell-commands"></a>2단계: PowerShell 명령 실행
 
-[AzureAD(AzureAD(Azure Active Directory PowerShell for Graph)의](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) 미리 보기 버전을 사용하여 그룹 수준 게스트 액세스 설정을 변경해야 합니다. 
+그룹 수준 게스트 액세스 설정을 변경하려면 [AzureAD(AzureAD)(모듈](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) 이름 **AzureADPreview)의** Azure Active Directory PowerShell 미리 보기 버전을 사용하여 다음을 변경해야 합니다.
 
 - 이전에 Azure AD PowerShell 모듈의 어떠한 버전도 설치하지 않은 경우 [Azure AD 모듈 설치](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview&preserve-view=true)를 참조하고 지침에 따라 공개 미리 보기 릴리스를 설치합니다.
 
@@ -93,21 +93,21 @@ Microsoft 365 그룹 만들기를 특정 Microsoft 365 그룹 또는 보안 그�
 
 - 미리 보기 버전을 이미 설치한 경우에는 `Install-Module AzureADPreview`를 실행하여 이 모듈의 최신 버전인지 확인합니다.
 
-아래 스크립트를 메모장 같은 텍스트 편집기나 [ISE의 텍스트 Windows PowerShell 복사합니다.](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
+아래 스크립트를 메모장과 같은 텍스트 편집기로 복사하거나 ISE Windows PowerShell [복사합니다.](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
 
-만든 그룹의 이름으로 *\<GroupName\>* 바 대체합니다. 예시:
+을 만든 그룹의 *\<GroupName\>* 이름으로 바 대체합니다. 예:
 
 `$GroupName = "Group Creators"`
 
 파일을 다른 파일로 GroupCreators.ps1.
 
-PowerShell 창에서 파일을 저장한 위치("CD"를 입력)로 <FileLocation> 이동합니다.
+PowerShell 창에서 파일을 저장한 위치로 이동합니다("CD"를 <FileLocation> 입력).
 
 다음을 입력하여 스크립트를 실행합니다.
 
 `.\GroupCreators.ps1`
 
-메시지가 [표시될 때 관리자 계정으로](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription) 로그인합니다.
+메시지가 [표시될 때](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription) 관리자 계정으로 로그인합니다.
 
 ```PowerShell
 $GroupName = "<GroupName>"
@@ -164,7 +164,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 > [!NOTE]
 > 그룹의 구성원이 그룹을 만들 수 없는 경우 해당 OWA 사서함 정책을 통해 차단되지 [않는지 검사합니다.](https://go.microsoft.com/fwlink/?linkid=852135)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 

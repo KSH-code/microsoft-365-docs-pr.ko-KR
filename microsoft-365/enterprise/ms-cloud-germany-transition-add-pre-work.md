@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우 사전 작업입니다.'
-ms.openlocfilehash: e922cf3b5599e81905499db60000c5b5f34b69ad
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 5110c6bd86d5df35a7ceccb4abfedf059cb826d0
+ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712273"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "50826179"
 ---
 # <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 사전 작업
 
@@ -49,6 +49,7 @@ ms.locfileid: "50712273"
 | 평가판 구독을 취소합니다. | 평가판 구독은 마이그레이션되지 않습니다. 유료 구독의 전송이 차단됩니다. | 취소 후 사용자가 액세스하는 경우 평가판 서비스가 만료되고 작동하지 않습니다. |
 | 도이클란드 Microsoft 클라우드와 Office 365 서비스 간의 라이선스 기능 차이를 분석합니다. | Office 365 서비스에는 현재 Microsoft 클라우드 도이치랜드에서 사용할 수 없는 추가 기능 및 서비스가 포함되어 있습니다. 구독을 전송하는 동안 사용자가 새 기능을 사용할 수 있습니다. | <ul><li> 도이클란드 Microsoft 클라우드 및 Office 365 서비스 라이선스에서 제공하는 다양한 기능을 분석합니다. [Office 365 플랫폼 서비스 설명으로 시작하세요.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description) </li><li> 사용자 또는 사용자 변경 관리에 대한 영향을 제한하기 위해 Office 365 서비스의 새 기능을 처음에 사용하지 않도록 설정해야 하는지 여부를 결정하고 필요한 경우 사용자 라이선스 할당을 변경합니다. </li><li>Office 365 서비스에서 제공하는 새 서비스 및 기능에 대해 사용자 및 지원 센터 직원을 준비합니다. |
 | 마이그레이션 중 [](https://docs.microsoft.com/microsoft-365/compliance/retention) 콘텐츠를 무단으로 삭제하는 것을 방지하는 조직 전체 보존 정책을 만들 수 있습니다.  |<ul><li>마이그레이션 중에 최종 사용자가 콘텐츠를 부수적으로 삭제하지 않도록 조직 전체 보존 정책을 사용하도록 설정할 수 있습니다. </li><li>보존은 필요하지는 않습니다. 마이그레이션 중에 언제든지 배치되는 보류는 예상대로 작동해야 하기 때문에 보존 정책을 보유하는 것은 백업 안전 메커니즘입니다. 동시에 일부 고객, 특히 보존이 우려되는 고객은 보존 정책을 사용할 수 없습니다.</li></ul>| 보존 정책 및 보존 레이블에 대해 자세히 설명에 [설명된 보존 정책을 적용합니다.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) 서비스 또는 클라이언트 소프트웨어의 오류는 9단계 중 4단계 전에 수행되지 않은 경우 발생할 수 있습니다. </li></ul>|
+| 올바른 라이선스 과부하 | 특정 상황에서는 고객이 구입한 것보다 더 많은 서비스를 사용할 수 있습니다. 이 조건을 라이선스 과부하라고 합니다. Microsoft는 독일 Microsoft 클라우드에서 독일 데이터 센터 지역으로 라이선스 과도하게 계약된 고객을 마이그레이션할 수 없습니다. 서비스 및 데이터에 지속적으로 액세스하려면 할당된 모든 사용자에게 라이선스가 필요합니다. | 모든 고객 | 고객은 추가 라이선스를 구입하거나 사용자의 라이선스를 배포하여 라이선스 과도하게 조건을 평가하고 해결해야 합니다. |
 |||||
 
 ## <a name="active-directory-federation-services-ad-fs"></a>AD FS(Active Directory Federation Services)

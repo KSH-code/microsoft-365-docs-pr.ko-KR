@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 전환할 때의 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 98a547a9af772e880465f75d9a3b01b1795639e1
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: e630e88fa25bc97bcac27a032499bc31718be396
+ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711955"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "50826213"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향(일반)
 
@@ -65,8 +65,8 @@ ms.locfileid: "50711955"
 **적용 사항:** 도이치클라일랜드(MCD)에서 호스트된 Office 365 테넌트가 있는 모든 고객
 
 | Step(s) | 설명 | 영향 |
-|:-------|:-------|:-------|
-| 구독이 전송된 후 라이선스가 다시 재배치됩니다. | 해당 Office 365 전역 서비스 구독은 전달된 Microsoft 클라우드 도이치랜드 구독에 대한 Office 365 Global 인스턴스에서 구매합니다. 할당된 Microsoft 클라우드 라이선스가 있는 사용자에게는 Office 365 Global 인스턴스에 라이선스가 할당됩니다. 레거시 Microsoft 클라우드 도이치랜드 구독은 완료 시 Office 365 서비스 테넌트에서 제거됩니다.| <ul><li>이 단계에서는 기존 구독에 대한 변경 사항(예: 새 구독 구매 또는 시트 수 변경 없음)이 차단됩니다.</li><li>라이선스 할당 변경이 차단됩니다.</li><li>Microsoft 클라우드 도이치랜드 구독은 해당 Office 365 전역 서비스 구독으로 마이그레이션됩니다. 이 구독의 Office 365 전역 서비스 서비스는 Microsoft(제품 _매핑)로 정의됩니다._</li><li>Office 365 서비스에서 제공하는 기능(서비스 계획)의 수는 도이치랜드의 원래 Microsoft 클라우드 제품보다 클 수 있습니다. Office 365 서비스의 사용자 라이선스는 유사한 Microsoft 클라우드 도이클란드 기능(서비스 계획)에 동일하게 할당됩니다. 모든 사용자의 사용자 라이선스가 새 기능에 자동으로 할당됩니다. 관리자는 필요한 경우 해당 라이선스를 사용하지 않도록 설정하기 위한 명시적 조치를 취해야 합니다. </li><li>구독 마이그레이션이 완료되면 Office 365 서비스 및 Microsoft 클라우드 도이치랜드 구독이 모두 Office 365 관리 포털에 표시될 수 있으며, 상태는 도이프란드 Microsoft 클라우드 구독의 상태(디비전되지 않습니다.)입니다. </li><li>사용자는 새 Office 365 서비스 구독에 대한 라이선스를 다시 재배정합니다. MCD 구독 또는 SKU GUID에 종속된 모든 고객 프로세스는 손상될 수 있으며 Office 365 서비스 제공으로 수정해야 합니다. </li><li>Office 365 서비스의 새 구독은 새 기간(월별/분기별/년)을 통해 구입하며 고객은 도이치랜드 Microsoft 클라우드 구독의 미사용 잔액에 대해 비분산 환불을 받게 됩니다. </li><li>파트너 Microsoft 클라우드 도이치랜드 테넌트는 마이그레이션되지 않습니다. CSP 고객은 동일한 파트너의 새 Office 365 서비스 테넌트에서 Office 365 서비스로 마이그레이션됩니다. 고객 마이그레이션 후 파트너는 Office 365 서비스 테넌트에서만 이 고객을 관리할 수 있습니다. </li><li>테넌트 관리자가 사용하지 않도록 설정하지 않은 경우 추가 기능(예: Microsoft Planner 및 Microsoft Flow)을 사용할 수 있습니다. 사용자의 라이선스에 할당된 서비스 계획을 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 사용자 라이선스를 할당하는 동안 [Microsoft 365](disable-access-to-services-while-assigning-user-licenses.md)서비스에 대한 액세스 사용 안 하도록 설정을 참조하세요.</li></ul> |
+|:-------|:-----|:-------|
+| 구독이 전송된 후 라이선스가 다시 재배치됩니다. | 테넌트가 Office 365 서비스로 전환된 후 해당 Office 365 서비스 구독은 전달된 Microsoft 클라우드 도이치랜드 구독을 구매합니다. 할당된 Microsoft 클라우드 라이선스가 있는 사용자에게는 Office 365 서비스 라이선스가 할당됩니다. 레거시 Microsoft 클라우드 도이치랜드 구독은 완료 시 Office 365 서비스 테넌트에서 제거됩니다. | <ul><li>조직이 '라이선스 과도하게' 상황에 있는 경우(라이선스보다 많은 사용자 수 사용) 이 문제가 다시 처리될 때까지 마이그레이션이 차단될 수 있습니다. 사전 [작업을 참조하여](ms-cloud-germany-transition-add-pre-work.md?view=o365-worldwide#applies-to-everyone) 할당된 시트 수가 사용되고 있는 시트 수와 일치하는지 파악합니다.</li><li> 이 단계에서는 기존 구독에 대한 변경 사항(예: 새 구독 구매 또는 시트 수 변경 없음)이 차단됩니다. </li><li> 라이선스 할당 변경이 차단됩니다. </li><li> 도이치랜드 Microsoft 클라우드 구독은 해당 Office 365 서비스 구독으로 마이그레이션됩니다. 구독의 Office 365 서비스 제공은 Microsoft(제품 _매핑)에 의해 정의됩니다._ </li><li> Office 365 서비스에서 제공하는 기능(서비스 계획)의 수는 도이치랜드의 원래 Microsoft 클라우드 제품보다 클 수 있습니다. Office 365 서비스의 사용자 라이선스는 유사한 Microsoft 클라우드 도이클란드 기능(서비스 계획)에 동일하게 할당됩니다. 모든 사용자의 사용자 라이선스가 새 기능에 자동으로 할당됩니다. 관리자는 필요한 경우 해당 라이선스를 사용하지 않도록 설정하기 위한 명시적 조치를 취해야 합니다. </li><li> 구독 마이그레이션이 완료되면 Office 365 서비스 및 독일 구독이 모두 Office 365 관리 포털에 표시될 수 있으며 독일 구독 상태는 디비전되지 _않습니다._ </li><li> 사용자는 새 Office 365 서비스 구독에 대한 라이선스를 다시 재배정합니다. 독일 구독 또는 SKU GUID에 종속된 모든 고객 프로세스는 손상될 수 있으며 Office 365 서비스 제공으로 수정해야 합니다. </li><li> Office 365 서비스의 새 구독은 새 기간(월별/분기별/년)을 통해 구입하며 고객은 도이치랜드 Microsoft 클라우드 구독의 미사용 잔액에 대해 비분산 환불을 받게 됩니다. </li><li> 파트너 Microsoft 클라우드 도이치랜드 테넌트는 마이그레이션되지 않습니다. CSP 고객은 동일한 파트너의 새 Office 365 서비스 테넌트에서 Office 365 서비스로 마이그레이션됩니다. 고객 마이그레이션 후 파트너는 Office 365 서비스 테넌트에서만 이 고객을 관리할 수 있습니다. </li><li> 테넌트 관리자가 사용하지 않도록 설정하지 않은 경우 추가 기능(예: Microsoft Planner 및 Microsoft Flow)을 사용할 수 있습니다. 사용자의 라이선스에 할당된 서비스 계획을 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 사용자 라이선스를 할당하는 동안 [Microsoft 365](disable-access-to-services-while-assigning-user-licenses.md)서비스에 대한 액세스 사용 안 하도록 설정을 참조하세요. |
 ||||
 
 ## <a name="sharepoint-online-phase-4"></a>SharePoint Online(4단계)
@@ -113,7 +113,7 @@ Exchange Online 하이브리드를 사용하는 경우: Exchange Online 하이�
 
 - 전환하려는 기존 Microsoft 클라우드 고객 또는 전환하는 고객의 경우 파일 > **Info**> 계정 추가를 사용하여 Outlook에 공유 사서함을 추가하면 일정 권한 보기가 실패할 수 있습니다(Outlook 클라이언트가 Rest API를 사용하려고 `https://outlook.office.de/api/v2.0/Me/Calendars` 시도함). 일정 권한을 보기 위해 계정을 추가하려는 고객은 [Outlook에서](https://support.microsoft.com/office/user-experience-changes-for-sharing-a-calendar-in-outlook-5978620a-fe6c-422a-93b2-8f80e488fdec) 일정을 공유하기 위한 사용자 환경 변경에 설명된 레지스트리 키를 추가하여 이 작업이 성공하도록 할 수 있습니다. 이 레지스트리 키는 그룹 정책을 사용하여 조직 전체에 배포할 수 있습니다.
 
-- 마이그레이션 단계에서 PowerShell cmdlet **New-migrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예제:
+- 마이그레이션 단계에서 PowerShell cmdlet **New-migrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예:
 
 ```powershell
 New-PSSession 
