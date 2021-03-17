@@ -15,12 +15,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Microsoft 365 테넌트 내의 모든 데이터에 대해 고객 키를 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 7ffa9a8148a8ae699711b62da48cd2c856d48cac
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 2fed4730e79f6e2ace827eab338bf9da8fe55260
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727481"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838243"
 ---
 # <a name="overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview"></a>테넌트 수준의 Microsoft 365 고객 키 개요(공개 미리 보기)
 
@@ -49,7 +49,7 @@ Exchange Online 및 Sharepoint Online에 대해 이미 고객 키를 설정한 �
 
 ## <a name="set-up-customer-key-at-the-tenant-level-public-preview"></a>테넌트 수준에서 고객 키 설정(공개 미리 보기)
 
-이러한 단계는 응용 프로그램 수준에서 고객 키를 설정하는 단계와 비슷하지만 동일하지는 않습니다. 이 공개 미리 보기는 테스트 테넌트의 테스트 데이터와 함께만 사용해야 합니다. 프로덕션 데이터나 프로덕션 환경에서는 이 릴리스를 사용하지 않습니다. 고객 키의 프로덕션 배포가 이미 있는 경우 다음 단계를 사용하여 테스트 환경의 테넌트 수준에서 고객 키를 설정할 수 있습니다.
+이러한 단계는 응용 프로그램 수준에서 고객 키를 설정하는 단계와 비슷하지만 동일하지는 않습니다. 이 공개 미리 보기는 테스트 테넌트의 테스트 데이터와 함께만 사용해야 합니다. 프로덕션 데이터나 프로덕션 환경에서는 이 릴리스를 사용하지 않습니다. 고객 키의 프로덕션 배포가 이미 있는 경우 다음 단계를 사용하여 테스트 환경의 테넌트 수준에서 고객 키를 설정할 수 있습니다. 테넌트에 테넌트 수준 DEP를 할당한 후 유효성 검사 프로세스를 시작하고 질문이나 m365ck@microsoft.com 문의할 수 있습니다. [Microsoft 365의](https://aka.ms/CustomerKey/PublicPreviewValidation)미사용 데이터 암호화에 대한 유효성 검사 지침의 공개 미리 보기에서 문서화된 유효성 검사 단계를 찾을 수 있습니다.
 
 Azure PowerShell에 원격으로 연결하여 이러한 대부분의 작업을 완료합니다. 최상의 결과를 얻기 위해 Azure PowerShell 버전 4.4.0 이상을 사용하세요.
 
@@ -132,7 +132,7 @@ Microsoft 365 팀에 문의하기 전에 고객 키와 함께 사용하는 각 A
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   예를 들면 다음과 같습니다.
+   예:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -233,7 +233,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
   
 이 cmdlet에서 생성되는 출력 파일은 암호화되며 Azure Key Vault 외부에서 사용할 수 없습니다. 백업은 백업을 수행한 Azure 구독으로만 복원할 수 있습니다.
   
-예를 들면 다음과 같습니다.
+예:
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -318,7 +318,7 @@ New-M365DataAtRestEncryptionPolicy -Name "Default_Policy" -AzureKeyIDs "https://
 ### <a name="assign-policy"></a>정책 할당
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy “<Default_PolicyName or Default_PolicyID>”
+Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy "<Default_PolicyName or Default_PolicyID>"
 ```
 
 설명: 이 cmdlet은 기본 데이터 암호화 정책을 구성하는 데 사용됩니다. 이 정책은 모든 지원 워크로드에서 데이터를 암호화하는 데 사용됩니다. 
@@ -326,7 +326,7 @@ Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy “<Default_P
 예제:
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy “Default_PolicyName”
+Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy "Default_PolicyName"
 ```
 
 매개 변수:
@@ -354,7 +354,7 @@ Set-M365DataAtRestEncryptionPolicy -Identity "NAM Policy" -Enabled $false
 데이터 암호화 정책을 새로 고침합니다.
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicy -Identity “EUR Policy” -Refresh
+Set-M365DataAtRestEncryptionPolicy -Identity "EUR Policy" -Refresh
 ```
 
 매개 변수:

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 82dfab193277744c9a7888e7f9ac1d7b7293d843
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 30ad9bf968fa91218d15a6f71785d5299e664ddc
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50542540"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838501"
 ---
 # <a name="communication-compliance-feature-reference"></a>커뮤니케이션 규정 준수 기능 참조
 
@@ -237,7 +237,7 @@ OCR을 사용하는 정책에 대해 보류 중인 경고를 검토할 때 식�
 입력하는 각 단어와 콤보로 구분하는 단어는 개별적으로 적용됩니다(정책 조건이 전자 메일 또는 첨부 파일에 적용하려면 한 단어만 적용되어야 합니다). 예를 들어 **다음** 단어가 메시지에 포함된 조건과 키워드 "banker", "confidential" 및 "insider trading"를 각 MA(은행원, 기밀, "내부자 거래")로 구분하여 사용해 보겠습니다. 이 정책은 "은행원", "기밀" 또는 "내부자 거래" 구를 포함하는 모든 메시지에 적용됩니다. 이 정책 조건을 적용하려면 이러한 단어 또는 구 중 하나만 발생해야 합니다. 메시지 또는 첨부 파일에 있는 단어는 입력한 단어와 정확히 일치해야 합니다.
 
 >[!IMPORTANT]
->사용자 지정 사전 파일을 가져올 때 각 단어나 구는 캐리지 리턴과 별도의 줄로 구분해야 합니다. <br> 예를 들면 다음과 같습니다. <br><br>
+>사용자 지정 사전 파일을 가져올 때 각 단어나 구는 캐리지 리턴과 별도의 줄로 구분해야 합니다. <br> 예: <br><br>
 >*banker* <br>
 >*confidential* <br>
 >*내부자 거래*
@@ -507,7 +507,7 @@ Power Automate 흐름을 삭제하려면 다음 단계를 완료합니다.
 | **작업** | 정책에서 수행된 검토 작업입니다. |
 | **AuditData** | 이 필드는 모든 정책 검토 활동에 대한 기본 데이터 원본입니다. 모든 검토 활동이 기록되어 0개 구분선으로 구분됩니다. |
 
-통합 감사 로그 또는 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) PowerShell cmdlet을 사용하여 감사 활동을 볼 수도 있습니다.
+통합 감사 로그 또는 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) PowerShell cmdlet을 사용하여 감사 활동을 볼 수도 있습니다. 감사 로그 보존 정책에 대한 자세한 내용은 감사 로그 보존 정책 [관리를 참조합니다.](audit-log-retention-policies.md)
 
 예를 들어 다음 예에서는 모든 관리 검토 활동(정책 및 규칙)에 대한 활동을 반환합니다.
 
@@ -519,6 +519,12 @@ Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType AeD -
 
 ```PowerShell
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType Discovery -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeleted
+```
+
+이 예에서는 현재 통신 준수 정책과 일치하는 활동을 반환합니다.
+
+```PowerShell
+Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionRuleMatch 
 ```
 
 ## <a name="transitioning-from-supervision-in-office-365"></a>Office 365에서 감독에서 전환

@@ -2,8 +2,8 @@
 title: Microsoft 생산성 점수
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: pebaum
+author: pebaum
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 생산성 점수 개요.
-ms.openlocfilehash: 0ce25175b3307e986c079c1614e38e8d87828e04
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 72f9bcfb273912629744ec25ad9c0be720e76081
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509089"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838428"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft 생산성 점수 
 
@@ -72,7 +72,7 @@ Microsoft는 두 가지 영역에서 메트릭, 인사이트 및 권장 사항�
 조직의 점수는 매일 업데이트되며 지난 28일(현재 포함)에 완료된 사용자 작업을 반영합니다.
 
 
-## <a name="pre-requisites"></a>필수 구성 요소 
+## <a name="prerequisites"></a>필수 구성 요소 
 
 사용자 경험 데이터의 경우 비즈니스용 Microsoft 365 또는 Office 365 enterprise 구독이 필요합니다. 테넌트에 대한 엔드포인트 분석 데이터의 경우 구독에 Microsoft Intune을 추가해야 합니다. Intune은 장치와 앱을 관리하여 조직의 데이터를 보호하는 데 도움이 됩니다. Intune을 설치하면 Intune 환경에서 엔드포인트 분석을 켤 수 있습니다. [Microsoft Graph](https://docs.microsoft.com/mem/intune/)에 대해 자세히 알아보세요 
 > [!NOTE]
@@ -92,7 +92,7 @@ Microsoft는 두 가지 영역에서 메트릭, 인사이트 및 권장 사항�
 > [!NOTE]
 > 전역 관리자 역할이 있는 IT 전문가만 생산성 점수를 위해 테넌트에 등록하거나 옵트인할 수 있습니다.
 
-이 정보는 Microsoft 365를 사용한 디지털 변환을 위한 용도로만 사용되므로 신중하게 공유해야 합니다. 
+생산성 점수를 위한 역할 기반 액세스 제어 모델을 통해 조직에서 Microsoft 365를 통해 조직 내 IT 전문가에게 역할을 유연하게 할당할 수 있습니다.
 
 Microsoft는 개인의 프라이버시를 보호하기 위해 노력하고 있습니다. 이 [개인정보 보호 문서](privacy.md)에서는 조직의 IT 관리자로서 Microsoft 에서 사용자가 신뢰하는 바를 훼손하지 않으면서 정보를 작업할 수 있도록 하기 위해 Microsoft에서 제공하는 제어 기능에 대해 설명합니다.
 

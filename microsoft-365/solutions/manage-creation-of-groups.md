@@ -17,18 +17,22 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Microsoft 365 그룹을 만들 수 있는 사용자를 제어하는 방법을 학습합니다.
-ms.openlocfilehash: f2d1a2062d43af750a84984aab66329ed6a4db22
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 04c2b6e738ed41f8d4a2bf96716fb74b1d260497
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819705"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838642"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Microsoft 365 그룹을 만들 수 있는 사용자 관리
 
 기본적으로 모든 사용자는 Microsoft 365 그룹을 만들 수 있습니다. 이 방법은 사용자가 IT의 지원 없이 공동 작업을 시작할 수 있도록 하여 권장되는 접근 방식입니다.
 
-비즈니스에서 그룹을 만들 수 있는 사용자만 제한해야 하는 경우 이 문서의 절차에 따라 제한할 수 있습니다. 그룹을 만들 수 있는 사용자 수를 제한하면 다음을 비롯한 액세스에 대한 그룹을 사용 하는 모든 서비스에 영향을 미치게 됩니다.
+회사에서 그룹을 만들 수 있는 사용자만 제한해야 하는 경우 Microsoft 365 그룹 만들기를 특정 Microsoft 365 그룹 또는 보안 그룹의 구성원으로 제한할 수 있습니다.
+
+비즈니스 표준을 준수하지 않는 팀 또는 그룹을 만드는 사용자가 우려되는 경우 사용자에게 교육 과정을 완료한 다음 허용된 사용자 그룹에 추가하도록 요구하는 것이 고려됩니다.
+
+그룹을 만들 수 있는 사용자 수를 제한하면 다음을 비롯한 액세스에 대한 그룹을 사용 하는 모든 서비스에 영향을 미치게 됩니다.
 
 - Outlook
 - SharePoint
@@ -38,8 +42,6 @@ ms.locfileid: "50819705"
 - Planner
 - Power BI(클래식)
 - 웹용 프로젝트/로드맵
-
-Microsoft 365 그룹 만들기를 특정 Microsoft 365 그룹 또는 보안 그룹의 구성원으로 제한할 수 있습니다. 이를 구성하기 위해 다음을 Windows PowerShell. 이 문서에서는 필요한 단계를 단계로 진행합니다.
 
 이 문서의 단계에서는 특정 역할의 구성원이 그룹을 만들 수 없습니다. Office 365 전역 관리자는 Microsoft 365 관리 센터, Planner, Teams, Exchange 및 SharePoint Online과 같은 모든 수단을 통해 그룹을 만들 수 있습니다. 다른 역할은 아래에 나열된 제한된 수단을 통해 그룹을 만들 수 있습니다.
 
@@ -95,7 +97,7 @@ Microsoft 365 그룹 만들기를 특정 Microsoft 365 그룹 또는 보안 그�
 
 아래 스크립트를 메모장과 같은 텍스트 편집기로 복사하거나 ISE Windows PowerShell [복사합니다.](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
 
-을 만든 그룹의 *\<GroupName\>* 이름으로 바 대체합니다. 예:
+을 만든 그룹의 *\<GroupName\>* 이름으로 바 대체합니다. 예를 들어 다음과 같습니다.
 
 `$GroupName = "Group Creators"`
 
@@ -141,7 +143,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 
 스크립트의 마지막 줄에 업데이트된 설정이 표시됩니다.
 
-![This is what your settings will look like when you're done.](../media/952cd982-5139-4080-9add-24bafca0830c.png)
+![PowerShell 스크립트 출력 스크린샷.](../media/952cd982-5139-4080-9add-24bafca0830c.png)
 
 앞으로 사용되는 그룹을 변경하려는 경우 새 그룹의 이름으로 스크립트를 다시 실행하면 됩니다.
 

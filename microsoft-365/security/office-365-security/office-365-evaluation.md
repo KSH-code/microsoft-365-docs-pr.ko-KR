@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1a9bf9461e8cf6d62e4283c9112b801371242f2e
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: ce17f413b23ef9ef6abf79a2710a5cec9b05206c
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453708"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838534"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender 평가
 
@@ -34,7 +34,7 @@ ms.locfileid: "50453708"
 
 포괄적인 보안 제품 평가를 수행하면 업그레이드 및 구매에 대한 정보를 제공한 결정을 내리는 데 도움이 될 수 있습니다. 보안 제품의 기능을 사용해 보아 보안 운영 팀이 일상적인 작업에서 어떻게 도움을 줄 수 있는지 평가하는 데 도움이 됩니다.
 
-[Microsoft Defender for Office 365](office-365-atp.md) 평가 환경은 보안 솔루션의 기능을 평가하는 데 집중할 수 있도록 장치 및 환경 구성의 복잡한 문제를 제거하도록 설계되었습니다. SharePoint, Word 또는 Teams와 같은 Office 클라이언트가 아닌 전자 메일 보호에만 적용됩니다.
+[Microsoft Defender for Office 365](office-365-atp.md) 평가 환경은 장치 및 환경 구성의 복잡하지 않습니다. 따라서 Office 365용 Microsoft Defender의 기능을 평가하는 데 집중할 수 있습니다. 평가 모드에서는 MX 레코드를 Microsoft를 설정하지 않고 Exchange Online 사서함으로 전송된 모든 메시지를 평가할 수 있습니다. 이 기능은 Word, SharePoint 또는 Teams와 같은 Office 클라이언트에는 적용되지 않는 전자 메일 보호에만 적용됩니다.
 
 Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 경우 [무료 30일](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) 평가를 시작하고 Office 365 보안 및 준수 센터( & 테스트할 수 https://protection.office.com/homepage) 있습니다. 빠른 설치를 즐길 수 있으며 필요한 경우 쉽게 해제할 수 있습니다.
 

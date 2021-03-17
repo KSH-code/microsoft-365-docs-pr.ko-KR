@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 4296924684e13e163f28e0f952b2cd380cdcc047
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: ec4ca9a79ee3b5674e1837d14cea4ee504cb57d5
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712014"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838213"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -46,7 +46,7 @@ ms.locfileid: "50712014"
 Teams 보존 정책을 통해 다음의 Teams 항목(포함된 이미지, 표, 하이퍼텍스트 링크, 다른 Teams 메시지, 파일, [카드 콘텐츠](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards)에 연결된 링크를 포함한 채팅 및 채널 메시지)을 보존하고 삭제할 수 있습니다. 채팅 메시지에는 채팅에 속한 모든 사람의 이름이 포함되어 있고, 채널 메시지에는 팀 이름과 메시지 제목이 포함되어 있습니다(제공되는 경우). 
 
 > [!NOTE]
-> 카드 콘텐츠 포함은 최근에 추가된 사항이며 현재 테넌트에 배포되고 있습니다. 자세한 내용은 [이제 Teams의 응용 프로그램을 통한 적응형 카드 콘텐츠에 대한 Microsoft 365 규정 준수 기능 제공](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869)을 참조하세요.
+> 카드 콘텐츠 포함은 최근에 추가된 사항이며 이제 테넌트에 완전히 배포되었습니다. 자세한 내용은 [이제 Teams의 응용 프로그램을 통한 적응형 카드 콘텐츠에 대한 Microsoft 365 규정 준수 기능 제공](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869)을 참조하세요.
 
 현재 비공개 채널의 Teams 메시지는 보존 정책에 대해 지원되지 않습니다. Teams에 대한 보존 정책을 사용할 때 코드 조각, Teams 모바일 클라이언트에서 녹음된 목소리 메모, 미리 보기, 알림 이미지, 이모티콘 형태로 표현된 다른 사용자의 응답은 포함되지 않습니다.
 

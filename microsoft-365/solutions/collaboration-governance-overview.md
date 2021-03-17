@@ -16,12 +16,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Microsoft 365 그룹, Teams, SharePoint 및 Microsoft 365 그룹의 관련 기능을 Yammer.
-ms.openlocfilehash: a9b4767c450ffc775fb84711e48b9f6c775419e5
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 01dea57504bf5d68c0bb13376379379f29044191
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741600"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838470"
 ---
 # <a name="what-is-collaboration-governance"></a>공동 작업 거버넌스란 무엇인가요?
 
@@ -40,6 +40,10 @@ Microsoft 365 그룹, Teams 및 Yammer 같은 서비스는 공동 작업하는 �
 ### <a name="setting-up-secure-collaboration-with-microsoft-365"></a>Microsoft 365와의 보안 공동 작업 설정
 
 조직에서 안전한 공동 작업을 위해 Microsoft 365 그룹 및 Teams를 배포하는 다양한 옵션이 있습니다. 이 거버넌스 콘텐츠를 [Microsoft 365](setup-secure-collaboration-with-teams.md) 및 관련 문서와 함께 사용하여 조직에 가장 적합한 공동 작업 솔루션을 만드는 것이 좋습니다.
+
+### <a name="data-residency"></a>데이터 상주
+
+조직이 다국적 국가인 경우 여러 지리적 위치의 데이터 레지던시 요구 사항이 있는 경우 공동 작업 거버넌스 계획의 일부로 [Microsoft 365 Multi-Geo를](/microsoft-365/enterprise/microsoft-365-multi-geo) 포함합니다.
 
 ## <a name="why-microsoft-365-groups-are-important"></a>Microsoft 365 그룹이 중요한 이유
 
@@ -109,6 +113,8 @@ Microsoft 365에서 공동 작업 기능을 사용하는 방법을 결정할 때
 - **비즈니스 우선 순위에 맞추기** - 비즈니스 목표는 거버넌스에 투자해야 하는 시간 및 에너지의 정도를 정의하는 데 도움이 됩니다.
 
 - **직접 만든** 솔루션에 거버넌스 결정을 직접 추가 - Microsoft 365의 기능을 켜거나 끄면 많은 거버넌스 결정을 구현할 수 있습니다.
+
+- **단계적 방법 사용** - 공동 작업 기능을 먼저 소수의 사용자 그룹에 롤아웃합니다. 더 큰 그룹으로 진행하기 전에 피드백을 얻거나 지원 센터 티켓을 감시하고 필요한 설정이나 프로세스를 업데이트합니다.
 
 - **교육으로 강화** - Microsoft [365](https://docs.microsoft.com/office365/customlearning) 학습 경로와 같은 솔루션을 조정하여 Microsoft에서 제공하는 교육을 통해 조직별 기대치가 강화되도록 합니다.
 

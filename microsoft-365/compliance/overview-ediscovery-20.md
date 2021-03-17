@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: Microsoft 365의 Advanced eDiscovery 솔루션에 대해 자세히 알아보십시오. 이 문서에서는 내부 및 외부 조사를 관리하는 데 도움이 되는 도구인 Microsoft 365의 Advanced eDiscovery에 대한 개요를 제공합니다. 또한 Advanced eDiscovery를 사용하여 법적 조사를 관리하는 비즈니스 이유에 대한 프레임을 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6623682dedd0342f1e88478127d23bbbd4ab9dbb
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 80a1505bf19beb954c0746efb7fb29f99d6a916b
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727589"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838230"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>Microsoft 365 Advanced eDiscovery 개요
 
@@ -103,7 +103,7 @@ Advanced eDiscovery의 종단-종단 워크플로에 대한 자세한 내용은 
 
 ### <a name="collecting-case-data"></a>사례 데이터 수집하기
 
-검색 **탭을 사용하여** 검색을 만들어 해당 사례와 관련된 콘텐츠에 대한 원본 및 비관용 데이터 원본을 검색합니다. 키워드 및 조건을 사용하여 쿼리 기반 검색을 만들고 실행하여 사례와 관련된 전자 메일 메시지 및 문서 집합을 식별하고 eDiscovery 워크플로의 후속 단계에서 추가로 검토하고 분석할 수 있습니다. 사례와 연결된 검색을 하나 이상 만들 수 있습니다. 검색 도구를 사용하여 예제 문서를 미리 보고 검색 통계를 확인하여 검색 결과를 구체화하고 개선할 수도 있습니다. 검색 결과에 사례와 관련된 모든 데이터가 포함된 경우 추가 검토, 분석 및 컬링을 위해 검색 결과를 검토 집합에 추가합니다. 자세한 내용은 [사례에 대한 데이터 수집을 참조하세요.](collecting-data-for-ediscovery.md)
+컬렉션 **탭을** 사용하여 eDiscovery 검색을 만들어 해당 사례와 관련된 콘텐츠에 대해 원본지원 및 비보조 데이터 원본을 검색합니다. 키워드 및 조건을 사용하여 쿼리 기반 컬렉션을 만들고 실행하여 사례와 관련된 전자 메일 메시지 및 문서 집합을 식별하고 eDiscovery 워크플로의 후속 단계에서 추가로 검토하고 분석할 수 있습니다. 사례와 연결된 컬렉션을 하나 이상 만들 수 있습니다. 컬렉션 도구를 사용하여 예제 문서를 미리 보고 검색 통계를 확인하여 검색 결과를 구체화하고 개선할 수도 있습니다. 컬렉션 결과에 사례와 관련된 데이터가 포함된 경우 추가 검토, 분석 및 컬링을 위해 컬렉션을 검토 집합으로 커밋할 수 있습니다. 자세한 내용은 [사례에 대한 데이터 수집을 참조하세요.](collecting-data-for-ediscovery.md)
 
 ### <a name="reviewing-and-analyzing-case-data"></a>사례 데이터 검토 및 분석
 

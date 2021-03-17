@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 Advanced eDiscovery 사례를 만들고 관리하는 방법을 설명합니다. 첫 번째 단계는 사례를 만들고 Advanced eDiscovery 기능 사용을 시작하는입니다.
-ms.openlocfilehash: 80cfe31a86060cb3603a101b314273cc67750bd8
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 0301213cf6d7e3c30b98ad5125468c6c75ed95b1
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727545"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838265"
 ---
 # <a name="create-and-manage-an-advanced-ediscovery-case"></a>Advanced eDiscovery 사례 만들기 및 관리
 
@@ -82,15 +82,15 @@ Advanced eDiscovery 사용을 시작하기 위해 일반적인 [eDiscovery](adva
 
    - Advanced eDiscovery의 통신 워크플로를 사용하여 보유자에 법적 보류 알림을 보낼 수 있습니다. [](managing-custodian-communications.md)
 
-2. **[데이터 원본에서 사례와 관련된 데이터를 검색합니다.](collecting-data-for-ediscovery.md)** 사례에 보호자 및 비보조 데이터 원본을 추가한 후 기본 제공 검색 도구를 사용하여 이러한 데이터 원본에서 사례와 관련이 있을 수 있는 데이터를 검색합니다. 키워드, 속성 및 조건을 사용하여 [](building-search-queries.md) 사례와 관련성이 가장 높은 데이터로 검색 결과를 반환하는 검색 쿼리를 작성합니다. 또한 다음을 수행할 수 있습니다.
+2. **[데이터 원본에서 관련 데이터를 수집합니다.](create-draft-collection.md)** 사례에 보호자 및 비보조 데이터 원본을 추가한 후 기본 제공 컬렉션 도구를 사용하여 이러한 데이터 원본에서 사례와 관련이 있을 수 있는 콘텐츠를 검색합니다. 키워드, 속성 및 조건을 사용하여 [](building-search-queries.md) 사례와 관련성이 가장 높은 데이터로 검색 결과를 반환하는 검색 쿼리를 작성합니다. 또한 다음을 수행할 수 있습니다.
 
-   - 검색 [쿼리를](search-statistics-in-advanced-ediscovery.md) 구체화하여 결과 범위를 좁히는 데 도움이 될 수 있는 검색 통계를 볼 수 있습니다.
+   - 결과 [범위를 좁히기](collection-statistics-reports.md) 위해 컬렉션을 구체화하는 데 도움이 될 수 있는 컬렉션 통계를 볼 수 있습니다.
 
-   - 검색 결과를 미리 보고 관련 데이터가 있는지 빠르게 확인할 수 있습니다.
+   - 컬렉션 샘플을 미리 보고 관련 데이터가 있는지 빠르게 확인할 수 있습니다.
 
-   - 쿼리를 변경하고 검색을 다시 실행합니다.
+   - 쿼리를 변경하고 컬렉션을 다시 실행합니다.
 
-3. **[검토 집합에 데이터를 추가합니다.](add-data-to-review-set.md)** 검색에서 원하는 데이터를 반환하는지 구성하고 확인한 다음에는 검색 결과를 검토 집합에 추가합니다. 검토 집합에 데이터를 추가하면 항목이 원래 위치에서 안전한 Azure Storage 위치로 복사됩니다. 검토 집합의 항목을 검토하고 분석할 때 철저하고 빠른 검색을 위해 데이터를 다시 인덱서합니다. 또한 검토 집합 [에 비 Office 365 데이터를 추가할 수도 있습니다.](load-non-office-365-data-into-a-review-set.md)
+3. **[컬렉션을 검토 집합에 커밋합니다.](commit-draft-collection.md)** 검색에서 원하는 데이터를 반환하는지 구성하고 확인한 다음에는 검색 결과를 검토 집합에 추가합니다. 검토 집합에 데이터를 추가하면 항목이 원래 위치에서 안전한 Azure Storage 위치로 복사됩니다. 검토 집합의 항목을 검토하고 분석할 때 철저하고 빠른 검색을 위해 데이터를 다시 인덱서합니다. 또한 검토 집합 [에 비 Office 365 데이터를 추가할 수도 있습니다.](load-non-office-365-data-into-a-review-set.md)
 
    대화 검토 집합이라고 하는 데이터를 추가할 수 있는 특별한 종류의 검토 *집합도 있습니다.* 이러한 유형의 리뷰 집합은 Microsoft Teams에서와 같이 스레드된 대화를 재구성, 검토 및 내보내기 위한 대화 재구성 기능을 제공합니다. 자세한 내용은 [고급 eDiscovery에서 대화 검토를 참조하세요.](conversation-review-sets.md)
 
