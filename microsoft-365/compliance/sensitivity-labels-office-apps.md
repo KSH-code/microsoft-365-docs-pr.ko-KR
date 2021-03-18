@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7dcd0ce9b439d78b79d95b3eca39d80ca440726c
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+ms.openlocfilehash: 782c4fdda7e515d921063937f59b199510beaf08
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826190"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838618"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -187,7 +187,7 @@ Office 365 메시지 암호화에 대해 정의하는 경우처럼 [관리자 �
 
 ## <a name="sensitivity-label-compatibility"></a>민감도 레이블 호환성
 
-**RMS가 적용된 응용 프로그램**: 민감도 레이블을 지원하지 않는 [RMS가 적용된 응용 프로그램 ](https://docs.microsoft.com/azure/information-protection/requirements-applications#rms-enlightened-applications)에서 레이블이 지정되고 암호화된 문서 또는 전자 메일을 여는 경우에도 앱에서 암호화 및 권한 관리를 적용합니다.
+**RMS가 적용된 응용 프로그램**: 민감도 레이블을 지원하지 않는 [RMS가 적용된 응용 프로그램](https://docs.microsoft.com/azure/information-protection/requirements-applications#rms-enlightened-applications)에서 레이블이 지정되고 암호화된 문서 또는 전자 메일을 여는 경우에도 앱에서 암호화 및 권한 관리를 적용합니다.
 
 **Azure Information Protection 클라이언트 사용**: Azure Information Protection 클라이언트 등을 사용하여 Office 기본 제공 레이블 지정 클라이언트와 함께 문서 및 전자 메일에 적용하는 민감도 레이블을 보고 변경할 수 있습니다.
 
@@ -352,6 +352,11 @@ ${If.App.<application type>}<your visual markings text> ${If.End}
 - 필수 레이블 지정이 적용되는 경우 사용자는 문서에서 민감도 레이블을 제거할 수 없지만 기존 레이블을 변경할 수는 있습니다.
 
 이 설정을 사용할 시기에 대한 자세한 내용은 [정책 설정](sensitivity-labels.md#what-label-policies-can-do)에 대한 정보를 참조하세요.
+
+> [!NOTE]
+> 필수 레이블 지정 외에도 문서 및 전자 메일에 기본 레이블 정책 설정을 사용하는 경우: 
+>
+> 기본 레이블은 항상 필수 레이블 지정보다 우선 순위로 지정됩니다. 그러나 문서의 경우 Azure Information Protection 통합 레이블 지정 클라이언트는 레이블이 지정되지 않은 모든 문서에 기본 레이블을 적용하는 반면, 기본 레이블 지정은 레이블이 지정되지 않은 기존 문서가 아닌 새 문서에 기본 레이블을 적용합니다. 이러한 동작의 차이는 기본 레이블 설정과 함께 필수 레이블을 사용할 경우 사용자에게 Azure Information Protection 통합 레이블 클라이언트를 사용할 때보다 기본 제공 레이블을 사용할 때 민감도 레이블을 더 자주 적용하라는 메시지가 표시된다는 것을 의미합니다.
 
 ## <a name="end-user-documentation"></a>최종 사용자 설명서
 

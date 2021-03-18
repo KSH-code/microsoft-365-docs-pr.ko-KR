@@ -12,7 +12,7 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-description: Microsoft SharePoint Syntex에 대한 리소스를 찾는 방법을 알아봅니다.
+description: Microsoft Viva Topics에 대한 리소스를 찾는 방법을 알아봅니다.
 ms.openlocfilehash: 31031697b7825b725c020952a6217b278aa09f02
 ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: HT
@@ -61,7 +61,7 @@ Viva Topics는 조직이 정보를 지식으로 전환할 수 있도록 지원�
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|Microsoft Viva 설정 및 구성 방법 배우기|[Microsoft Teams 설정](set-up-topic-experiences.md)|
+|Microsoft Viva 설정 및 구성 방법 배우기|[Microsoft Viva 설정](set-up-topic-experiences.md)|
 |사용자 권한을 구성하는 방법 알아 보기|[항목 권한 관리](topic-experiences-user-permissions.md)|
 |항목을 볼 수 있는 사용자 관리 방법 배우기|[주제 가시성 관리](topic-experiences-knowledge-rules.md)|
 |항목 검색 설정을 관리하는 방법 배우기|[항목 검색 관리](topic-experiences-discovery.md)|
@@ -73,7 +73,7 @@ Viva Topics는 조직이 정보를 지식으로 전환할 수 있도록 지원�
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
 |토픽 를 사용하여 작업하는 방법 알아보기|[주제 센터 개요](topic-center-overview.md)<br><br>[항목 관리](manage-topics.md)<br><br>[새 항목 만들기](create-a-topic.md)<br><br>[기존 토픽 편집](edit-a-topic.md).<br><br>[Microsoft Search로 그룹 검색](search.md)<br><br>|
-|사용자 역할 이해|[Microsoft Viva Topics 역할](topic-experiences-roles.md)|
+|사용자 역할 이해|[Viva Topics 역할](topic-experiences-roles.md)|
 |주제가 서로 다를 수 있는 이유 이해|[Viva Topics 보안 조정](topic-experiences-security-trimming.md)|
 |특정 토픽을 식별 및 보지 못하도록 하는 방법 배우기|[토픽에 대한 액세스 제한](restrict-access-to-topics.md)|
 
