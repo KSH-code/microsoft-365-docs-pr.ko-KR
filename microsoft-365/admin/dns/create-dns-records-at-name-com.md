@@ -20,21 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9ddcc2fc-9433-4335-8192-6ffb1f541087
-description: Microsoft에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 name.com 방법을 자세히 알아보고 있습니다.
-ms.openlocfilehash: 2330755412abfe262ac79c4acbfc12e33af76fe2
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Microsoft에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 name.com 대해 자세히 알아보습니다.
+ms.openlocfilehash: 97cc83fe060f8fbfe78decff584bded3102b09b5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657830"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910177"
 ---
-# <a name="create-dns-records-at-namecom-for-microsoft"></a>Microsoft용 name.com DNS 레코드 만들기
+# <a name="create-dns-records-at-namecom-for-microsoft"></a>Microsoft용 NAME.COM DNS 레코드 만들기
 
  **원하는 정보는 찾지 못한 경우 [도메인 질문과 대답을 확인](../setup/domains-faq.yml)** 하세요. 
   
 DNS 호스팅 공급자로 name.com을 사용하고 있는 경우, 이 문서에 나와 있는 단계를 따라 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 등에 대한 DNS 레코드를 설정합니다.
   
-새 도메인에서 이러한 레코드를 name.com Microsoft 서비스에서 작동 하게 도메인이 설정됩니다.
+다음에 이러한 레코드를 name.com Microsoft 서비스에서 작동 하게 도메인이 설정됩니다.
 
   
 > [!NOTE]
@@ -52,11 +52,11 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. 내 **도메인에서** 수정할 도메인의 이름을 선택합니다.
+2. My **Domains(내 도메인)에서** 수정할 도메인의 이름을 선택합니다.
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. 세부 **정보 열에서** **DNS 레코드를 선택합니다.** 
+3. 세부 **정보 열에서** DNS 레코드 **를 선택합니다.** 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -71,7 +71,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
    
     ![Name-BP-Verify-1-1](../../media/0c352fd3-cf84-439f-a481-0705e225cc54.png)
   
-5. 레코드 **추가를 선택합니다.**
+5. Add **Record (레코드 추가)를 선택합니다.**
     
     ![Name-BP-Verify-1-2](../../media/816fc60b-17ab-4982-8849-6c3fcf3ca3d6.png)
   
@@ -105,11 +105,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. 내 **도메인에서** 수정할 도메인의 이름을 선택합니다.
+2. My **Domains(내 도메인)에서** 수정할 도메인의 이름을 선택합니다.
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. 세부 **정보 열에서** **DNS 레코드를 선택합니다.** 
+3. 세부 **정보 열에서** DNS 레코드 **를 선택합니다.** 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -119,17 +119,17 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**유형**|**호스트**|**응답**|**TTL**|**우선 순위**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(이 필드는 비워 둡니다.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |기본값(300)을 사용합니다.  <br/> |0  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |
+    |MX  <br/> |(이 필드는 비워 둡니다.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |기본값(300)을 사용합니다.  <br/> |0  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.yml)을 참조하세요. <br/> |
    
    ![Name-BP-Configure-2-1](../../media/11ba2160-fc8e-4196-bb15-2b7c6d49c8fc.png)
   
-5. 레코드 **추가를 선택합니다.**
+5. Add **Record (레코드 추가)를 선택합니다.**
     
     ![Name-BP-Configure-2-2](../../media/fd09f161-7cc4-4723-aec2-5fa801bd19e9.png)
   
 6. 다른 MX 레코드가 있으면 다음 2단계 절차를 사용하여 각 레코드를 삭제합니다.
     
-    다른 MX 레코드에 대해 **작업 열에서** **삭제를** 선택합니다. 
+    다른 MX 레코드에 대해 작업 **열에서** **삭제를** 선택합니다. 
     
     ![Name-BP-Configure-2-3](../../media/16734a98-31c4-4023-a2a5-10b7c95bc58e.png)
   
@@ -146,11 +146,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. 내 **도메인에서** 수정할 도메인의 이름을 선택합니다.
+2. My **Domains(내 도메인)에서** 수정할 도메인의 이름을 선택합니다.
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. 세부 **정보 열에서** **DNS 레코드를 선택합니다.** 
+3. 세부 **정보 열에서** DNS 레코드 **를 선택합니다.** 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -190,11 +190,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. 내 **도메인에서** 수정할 도메인의 이름을 선택합니다.
+2. My **Domains(내 도메인)에서** 수정할 도메인의 이름을 선택합니다.
 
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. 세부 **정보 열에서** **DNS 레코드를 선택합니다.** 
+3. 세부 **정보 열에서** DNS 레코드 **를 선택합니다.** 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -208,7 +208,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
    
    ![Name-BP-Configure-4-1](../../media/cbbfc071-840a-4ffa-a59e-0dfce03063cc.png)
   
-5. 레코드 **추가를 선택합니다.**
+5. Add **Record (레코드 추가)를 선택합니다.**
     
     ![Name-BP-Configure-4-2](../../media/db1e0e09-2b95-4fc1-88bd-e86da536921f.png)
   
@@ -219,11 +219,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. 내 **도메인에서** 수정할 도메인의 이름을 선택합니다.
+2. My **Domains(내 도메인)에서** 수정할 도메인의 이름을 선택합니다.
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. 세부 **정보 열에서** **DNS 레코드+ 를 선택합니다.** 
+3. 세부 **정보 열에서** **DNS Records+ 를 선택합니다.** 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -235,12 +235,12 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**유형**|**서비스**|**가중치**|**TTL**|**우선 순위**|**프로토콜**|**포트**|**대상**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV|sip|1 |기본값(300)을 사용합니다.|100|tls|443|sipdir.online.lync.com <br> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
-    |SRV|sipfederationtls|1 |기본값(300)을 사용합니다.|100|tcp|5061|sipfed.online.lync.com <br>**참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
+    |SRV|sip|1|기본값(300)을 사용합니다.|100|tls|443|sipdir.online.lync.com <br> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
+    |SRV|sipfederationtls|1|기본값(300)을 사용합니다.|100|tcp|5061|sipfed.online.lync.com <br>**참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
    ![Name-BP-Configure-5-1](../../media/d9a885fd-7300-45b6-ad4c-0b4bf1067560.png)
   
-5. 레코드 **추가를 선택합니다.**
+5. Add **Record (레코드 추가)를 선택합니다.**
 
     ![Name-BP-Configure-5-2](../../media/a804d51d-8f57-4b0b-8bd6-a52eb1c87a97.png)
   

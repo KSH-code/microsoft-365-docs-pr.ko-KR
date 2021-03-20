@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f40a9185-b6d5-4a80-bb31-aa3bb0cab48a
 description: Microsoft용 GoDaddy에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 2b53985dc17f3d124ec2b37dbf0047bce229385c
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: d0163447abdc7b9fe5afd4f471f24ee09de40d50
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126452"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910249"
 ---
 # <a name="create-dns-records-at-godaddy-for-microsoft"></a>GoDaddy에서 Microsoft용 DNS 레코드 만들기
 
@@ -35,7 +35,7 @@ ms.locfileid: "50126452"
 
 DNS 호스팅 공급자로 GoDaddy를 사용하고 있는 경우, 이 문서에 나와 있는 단계를 따라 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 등에 대한 DNS 레코드를 설정합니다.
 
-GoDaddy에서 이러한 레코드를 추가하고 나면 도메인이 Microsoft 서비스에서 작동하게 설정됩니다.
+GoDaddy에서 이러한 레코드를 추가하고 나면 도메인이 Microsoft 서비스에서 작동할 수 있도록 설정됩니다.
 
 > [!NOTE]
 > 일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요.
@@ -54,7 +54,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 
     ![GoDaddy-BP-Configure-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Under **Domains,** select DNS under the domain that you want to edit.
+2. 도메인 **아래에서** 편집할 도메인 아래에서 DNS를 선택합니다.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
@@ -66,7 +66,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 
     |**Record type(레코드 종류)** |**Host(호스트)**|**TXT 값**|**TTL** |
     |:-----|:-----|:-----|:-----|
-    |TXT(텍스트)|@|MS=ms *XXXXXXXX*<br>**참고**: 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)|1시간  <br>(드롭다운 목록에서 값을 선택합니다.)|
+    |TXT(텍스트)|@|MS=ms *XXXXXXXX*<br>**참고:** 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)|1시간  <br>(드롭다운 목록에서 값을 선택합니다.)|
 
       ![GoDaddy-BP-Verify-1-0](../../media/dns/56526870-d6465780-651a-11e9-9cf0-d6fff71e2f62.png)
 
@@ -105,7 +105,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
     ![GoDaddy-BP-Configure-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Under **Domains,** select DNS under the domain that you want to edit.
+2. 도메인 **아래에서** 편집할 도메인 아래에서 DNS를 선택합니다.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
@@ -123,7 +123,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
     |**Record type(레코드 종류)**|**Host(호스트)**|**Points to(연결 대상)**|**Priority(우선 순위)**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX (Mail Exchanger)(MX(메일 교환기))  <br/> |@  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |1시간  <br/> |
+    |MX (Mail Exchanger)(MX(메일 교환기))  <br/> |@  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.yml)을 참조하세요. <br/> |1시간  <br/> |
 
 6. **저장** 을 선택합니다.
 
@@ -136,7 +136,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
     ![GoDaddy-BP-Configure-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Under **Domains,** select DNS under the domain that you want to edit.
+2. 도메인 **아래에서** 편집할 도메인 아래에서 DNS를 선택합니다.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
@@ -165,7 +165,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
 
 
-6. 6개의 CNAME 레코드를 모두 만들 때까지 다음 CNAME 레코드를 추가하는 단계를 반복합니다.
+6. 6개의 CNAME 레코드를 모두 만들 때까지 다음 CNAME 레코드를 추가하기 위해 이 단계를 반복합니다.
 
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>전자 메일 스팸 방지에 유용한 SPF용 TXT 레코드 추가
 <a name="BKMK_add_TXT"> </a>
@@ -179,7 +179,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
     ![GoDaddy-BP-Configure-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Under **Domains,** select DNS under the domain that you want to edit.
+2. 도메인 **아래에서** 편집할 도메인 아래에서 DNS를 선택합니다.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
@@ -213,7 +213,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
     ![GoDaddy-BP-Configure-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
-2. Under **Domains,** select DNS under the domain that you want to edit.
+2. 도메인 **아래에서** 편집할 도메인 아래에서 DNS를 선택합니다.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
@@ -229,17 +229,17 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
     새 레코드의 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다.
 
-    (드롭다운 **목록에서** 레코드 종류 및 **TTL** 값을 선택합니다.)
+    **(드롭다운 목록에서** 레코드 종류 및 **TTL** 값을 선택합니다.)
 
     |**Record type(레코드 종류)**|**Name(이름)**|**Target(대상)**|**Protocol(프로토콜)**|**Service(서비스)**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (Service)(SRV(서비스))  <br/> |@  <br/> |sipdir.online.lync.com  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1   <br/> |443  <br/> |1시간  <br/> |
-    |SRV (Service)(SRV(서비스))  <br/> |@  <br/> |sipfed.online.lync.com  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1   <br/> |5061  <br/> |1시간  <br/> |
+    |SRV (Service)(SRV(서비스))  <br/> |@  <br/> |sipdir.online.lync.com  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1  <br/> |443  <br/> |1시간  <br/> |
+    |SRV (Service)(SRV(서비스))  <br/> |@  <br/> |sipfed.online.lync.com  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1  <br/> |5061  <br/> |1시간  <br/> |
 
     ![GoDaddy-BP-Configure-5-1](../../media/a1b15ab1-eb6a-4672-90d1-7ac3e0beb223.png)
 
 
-6. **5단계를 반복하여** 다른 SRV 레코드를 만들 수 있습니다.
+6. **5단계를 반복하여** 다른 SRV 레코드 만들기를 반복합니다.
 
 7. **저장** 을 선택합니다.
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: 사용할 수 있는 그룹 유형에 대해 알아봅니다.
-ms.openlocfilehash: dfb726fadbfbcf69a8ff57fa3d9025cd8811e617
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 8565b567706a70bb014fab42b23e9c55fb0efc45
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727250"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908749"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
@@ -45,19 +45,19 @@ Microsoft 365 그룹은 회사 내부 및 외부의 사용자 간의 공동 작�
 
 [관리자에 의해 사용 가능하도록](manage-guest-access-in-groups.md) 설정한 경우 회사 외부 사용자를 그룹에 추가할 수 있습니다. 외부 보낸 사람이 그룹 전자 메일 주소로 전자 메일을 보낼 수 있도록 허용할 수도 있습니다.
 
-Microsoft 365 그룹은 [Azure Active Directory에서 동적 구성원에 대해 구성](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type)할 수 있습니다. 부서, 위치, 제목 등의 사용자 특성을 기반으로 그룹 구성원을 자동으로 추가하거나 제거할 수 있습니다.
+Microsoft 365 그룹은 [Azure Active Directory에서 동적 구성원에 대해 구성](/azure/active-directory/users-groups-roles/groups-change-type)할 수 있습니다. 부서, 위치, 제목 등의 사용자 특성을 기반으로 그룹 구성원을 자동으로 추가하거나 제거할 수 있습니다.
 
 Microsoft 365 그룹은 iOS용 Outlook 및 Android용 Outlook과 같은 모바일 앱을 통해 액세스할 수 있습니다.
 
-[관리자에 의해 사용 가능하도록](allow-members-to-send-as-or-send-on-behalf-of-group.md) 설정한 경우 그룹 구성원은 그룹 전자 메일 주소를 보내기 혹은 대신하여 보낼 수 있습니다.
+[관리자에 의해 사용 가능하도록](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md) 설정한 경우 그룹 구성원은 그룹 전자 메일 주소를 보내기 혹은 대신하여 보낼 수 있습니다.
 
 ## <a name="distribution-groups"></a>메일 그룹
 
-[메일 그룹](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)은 사용자 그룹에 알림을 보내는 데 사용됩니다. 관리자에 의해 사용 가능하도록 설정한 경우 외부 전자메일을 받을 수 있습니다.
+[메일 그룹](/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)은 사용자 그룹에 알림을 보내는 데 사용됩니다. 관리자에 의해 사용 가능하도록 설정한 경우 외부 전자메일을 받을 수 있습니다.
 
 메일 그룹은 "A 빌딩의 사용자" 또는 "Contoso의 모든 사용자"와 같은 사용자 그룹 집합에 정보를 브로드캐스팅하는 경우에 가장 적합합니다.
 
-배포 그룹은 [Microsoft 365 groups로 업그레이드](https://docs.microsoft.com/microsoft-365/admin/manage/upgrade-distribution-lists) 할 수 있습니다.
+배포 그룹은 [Microsoft 365 groups로 업그레이드](../manage/upgrade-distribution-lists.md) 할 수 있습니다.
 
 ## <a name="security-groups"></a>보안 그룹
 
@@ -65,7 +65,7 @@ Microsoft 365 그룹은 iOS용 Outlook 및 Android용 Outlook과 같은 모바�
 
 보안 그룹에는 사용자나 장치가 포함될 수 있습니다. 장치에 대한 보안 그룹 만들기는 Intune과 같은 모바일 장치 관리 서비스와 함께 사용할 수 있습니다.
 
-보안 그룹은 [Azure Active Directory에서 동적 구성원에 대해 구성](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type)할 수 있습니다. 부서, 위치, 제목 등의 사용자 특성이나 운영 체제 버전 등의 장치 속성을 기반으로 그룹 구성원을 자동으로 추가하거나 제거할 수 있습니다.
+보안 그룹은 [Azure Active Directory에서 동적 구성원에 대해 구성](/azure/active-directory/users-groups-roles/groups-change-type)할 수 있습니다. 부서, 위치, 제목 등의 사용자 특성이나 운영 체제 버전 등의 장치 속성을 기반으로 그룹 구성원을 자동으로 추가하거나 제거할 수 있습니다.
 
 ## <a name="mail-enabled-security-groups"></a>메일 사용 가능 보안 그룹
 

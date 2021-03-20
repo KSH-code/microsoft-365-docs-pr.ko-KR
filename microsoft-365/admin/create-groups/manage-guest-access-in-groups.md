@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Microsoft 365 그룹에 게스트를 추가하고, 게스트 사용자를 보고, PowerShell을 사용하여 게스트 액세스를 제어하는 방법을 학습합니다.
-ms.openlocfilehash: 9a713684bb9a2401316dbb3289115be19b220cff
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 114fc1b5262f1632c7e7a8d1aa339c2470223288
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453660"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908609"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Microsoft 365 그룹에서 게스트 액세스 관리
 
@@ -35,8 +35,8 @@ ms.locfileid: "50453660"
 승인되면 게스트 사용자가 디렉터리 및 그룹에 추가됩니다.
 
 > [!Note]
-> Yammer 모드 또는 [EU 지역인](https://go.microsoft.com/fwlink/?linkid=2107357) 엔터프라이즈 네트워크는 네트워크 게스트를 지원하지 않습니다.
-> Microsoft 365 연결된 Yammer 그룹은 현재 게스트 액세스를 지원하지 않지만 연결되지 않은 외부 그룹을 Yammer 있습니다. 자세한 [내용은 2013에서](https://docs.microsoft.com/yammer/work-with-external-users/create-and-manage-external-groups) 외부 그룹 만들기 및 Yammer 참조하세요.
+> Yammer 모드 또는 [EU 지역인](/yammer/manage-security-and-compliance/manage-data-compliance) 엔터프라이즈 네트워크는 네트워크 게스트를 지원하지 않습니다.
+> Microsoft 365 연결된 Yammer 그룹은 현재 게스트 액세스를 지원하지 않지만 연결되지 않은 외부 그룹을 Yammer 있습니다. 자세한 [내용은 2013에서](/yammer/work-with-external-users/create-and-manage-external-groups) 외부 그룹 만들기 및 Yammer 참조하세요.
 
 그룹의 게스트 액세스는 SharePoint 또는 Teams를 포함하는 더 광범위한 시나리오의 일부로 자주 사용됩니다. 이러한 서비스에는 자체 게스트 공유 설정이 있습니다. 그룹, SharePoint 및 Teams에서 게스트 공유를 설정하기 위한 전체 지침은 다음을 참조하세요.
 
@@ -53,7 +53,7 @@ ms.locfileid: "50453660"
 
 ## <a name="add-guests-to-a-microsoft-365-group-from-the-admin-center"></a>관리 센터에서 Microsoft 365 그룹에 게스트 추가
 
-게스트가 디렉터리에 이미 있는 경우 Microsoft 365 관리 센터에서 그룹에 게스트를 추가할 수 있습니다. 동적 구성원이 있는 그룹은 [Azure Active Directory에서 관리해야 합니다.](https://docs.microsoft.com/azure/active-directory/enterprise-users/groups-create-rule)
+게스트가 디렉터리에 이미 있는 경우 Microsoft 365 관리 센터에서 그룹에 게스트를 추가할 수 있습니다. 동적 구성원이 있는 그룹은 [Azure Active Directory에서 관리해야 합니다.](/azure/active-directory/enterprise-users/groups-create-rule)
   
 1. 관리 센터에서 그룹 그룹   >  **페이지로** 이동합니다.
   
@@ -63,16 +63,16 @@ ms.locfileid: "50453660"
     
 5. **저장** 을 선택합니다.
 
-디렉터리에 게스트를 직접 추가하려는 경우 [Azure Portal에서 Azure Active Directory B2B 공동](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)작업 사용자를 추가할 수 있습니다.
+디렉터리에 게스트를 직접 추가하려는 경우 [Azure Portal에서 Azure Active Directory B2B 공동](/azure/active-directory/b2b/add-users-administrator)작업 사용자를 추가할 수 있습니다.
 
-게스트의 정보를 편집하려는 경우 Azure Active Directory 를 사용하여 사용자의 프로필 정보를 추가하거나 [업데이트할 수 있습니다.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+게스트의 정보를 편집하려는 경우 Azure Active Directory 를 사용하여 사용자의 프로필 정보를 추가하거나 [업데이트할 수 있습니다.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 ## <a name="see-also"></a>참고 항목
 
-[특정 그룹에서 게스트 사용자 차단](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[특정 그룹에서 게스트 사용자 차단](../../solutions/per-group-guest-access.md)
 
 [Microsoft 365 관리 센터에서 그룹 구성원 관리](add-or-remove-members-from-groups.md)
   
-[Azure Active Directory 액세스 검토](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
+[Azure Active Directory 액세스 검토](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
 
-[Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser)
+[Set-AzureADUser](/powershell/module/azuread/set-azureaduser)

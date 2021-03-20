@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 250fba7bdf89425bce601112c7863eb9d1c952be
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 3ba9dd3dac97456479b2191ee7f0eb7d97f79fed
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407447"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909049"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 자동화된 조사 및 대응(AIR)
 
@@ -110,8 +110,8 @@ Microsoft 365는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적�
 
 |작업 |역할 필요|
 |---|---|
-|AIR 기능 설정|다음 역할 중 하나: <ul><li>전역 관리자</li><li>보안 관리자</li></ul> <p> 이러한 역할은 Azure [Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 보안 및 준수 [센터에서 & 있습니다.](permissions-in-the-security-and-compliance-center.md)|
-|자동화된 조사 시작 <p> --- 또는 --- <p> 권장 작업 승인 또는 거부|[Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 보안 및 준수 센터에서 할당된 다음 & 중 [하나:](permissions-in-the-security-and-compliance-center.md) <ul><li>전역 관리자</li><li>보안 관리자</li><li>보안 운영자</li><li>보안 읽기 권한자 <br> --- 및 --- </li><li>검색 및 제거(이 역할은 보안 및 준수 [센터에서 & 할당됩니다.](permissions-in-the-security-and-compliance-center.md) 새 역할 그룹을 만들어 검색 및 제거 역할을 새 역할 그룹에 추가해야 할 수 있습니다.</li></ul>|
+|AIR 기능 설정|다음 역할 중 하나: <ul><li>전역 관리자</li><li>보안 관리자</li></ul> <p> 이러한 역할은 Azure [Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 보안 및 준수 [센터에서 & 있습니다.](permissions-in-the-security-and-compliance-center.md)|
+|자동화된 조사 시작 <p> --- 또는 --- <p> 권장 작업 승인 또는 거부|[Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 보안 및 준수 센터에서 할당된 다음 & 중 [하나:](permissions-in-the-security-and-compliance-center.md) <ul><li>전역 관리자</li><li>보안 관리자</li><li>보안 운영자</li><li>보안 읽기 권한자 <br> --- 및 --- </li><li>검색 및 제거(이 역할은 보안 및 준수 [센터에서 & 할당됩니다.](permissions-in-the-security-and-compliance-center.md) 새 역할 그룹을 만들어 검색 및 제거 역할을 새 역할 그룹에 추가해야 할 수 있습니다.</li></ul>|
 
 ## <a name="required-licenses"></a>필수 라이선스
 
@@ -128,7 +128,7 @@ Office 365용 Microsoft Defender에서 AIR 기능을 이미 사용하고 있는 
 
 :::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="통합된 동작 센터":::
 
-새 보안 센터와 향상된 보안 센터는 [Office 365용 Microsoft Defender](office-365-atp.md) 및 [끝점용 Microsoft Defender의](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)AIR 기능을 한 데 모습니다. 이러한 업데이트 및 개선 사항을 통해 보안 운영 팀은 전자 메일, 공동 작업 콘텐츠, 사용자 계정 및 장치 전체에서 자동화된 조사 및 수정 작업에 대한 세부 정보를 한 장소에서 볼 수 있습니다.
+새 보안 센터와 향상된 보안 센터는 [Office 365용 Microsoft Defender](office-365-atp.md) 및 [끝점용 Microsoft Defender의](/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)AIR 기능을 한 데 모습니다. 이러한 업데이트 및 개선 사항을 통해 보안 운영 팀은 전자 메일, 공동 작업 콘텐츠, 사용자 계정 및 장치 전체에서 자동화된 조사 및 수정 작업에 대한 세부 정보를 한 장소에서 볼 수 있습니다.
 
 > [!TIP]
 > 새 Microsoft 365 보안 센터( <https://security.microsoft.com> )는 다음 센터를 대체합니다.
@@ -144,10 +144,10 @@ Office 365용 Microsoft Defender에서 AIR 기능을 이미 사용하고 있는 
 
 |항목|변경된 바는 무엇입니까?|
 |---|---|
-|**조사** 페이지|업데이트된 조사 **페이지는** [끝점용 Microsoft Defender에 있는 페이지와 더 일치합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) 새로운 통합 조사 보기에 맞게 몇 가지 일반적인 형식 및 스타일 변경 내용이 **표시됩니다.** 예를 들어 조사 그래프의 형식은 보다 통합되어 있습니다.|
+|**조사** 페이지|업데이트된 조사 **페이지는** [끝점용 Microsoft Defender에 있는 페이지와 더 일치합니다.](/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) 새로운 통합 조사 보기에 맞게 몇 가지 일반적인 형식 및 스타일 변경 내용이 **표시됩니다.** 예를 들어 조사 그래프의 형식은 보다 통합되어 있습니다.|
 |**사용자** 탭|이제 **사용자 탭이** **사서함 탭이** 됩니다. 사용자에 대한 세부 정보는 사서함 **탭에 나열됩니다.**|
 |**전자 메일** 탭|전자 **메일 탭이** 제거되었습니다. 엔터티 **탭을 방문하여** 전자 메일 및 전자 메일 클러스터 항목 목록을 볼 수 있습니다.|
-|**엔터티 탭**|엔터티 **탭에는** 전체 요약 보기와 엔터티 유형별로 필터링하는 기능을 포함하는 탭 탭 스타일이 있습니다. 이제 **엔터티 탭에**  탐색기에서 열기 옵션 외에 이동 헌팅 **옵션이 포함되어** 있습니다. 이제 위협 탐색기 [](threat-explorer.md) 또는 [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) 고급 헌팅을 사용하여 엔터티와 위협을 찾고 결과를 필터링할 수 있습니다.|
+|**엔터티 탭**|엔터티 **탭에는** 전체 요약 보기와 엔터티 유형별로 필터링하는 기능을 포함하는 탭 탭 스타일이 있습니다. 이제 **엔터티 탭에**  탐색기에서 열기 옵션 외에 이동 헌팅 **옵션이 포함되어** 있습니다. 이제 위협 탐색기 [](threat-explorer.md) 또는 [](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) 고급 헌팅을 사용하여 엔터티와 위협을 찾고 결과를 필터링할 수 있습니다.|
 |**작업** 탭|업데이트된 **작업** 탭에는  보류 중인 작업 탭과 작업 기록 **탭이 포함됩니다.** 보류 중인 작업을 선택할 때 열 수 있는 쪽 창에서 작업을 승인(또는 거부)할 수 있습니다.|
 |**증거 탭**|새 증거 **탭에는** 작업과 관련된 주요 엔터티 찾은 것이 표시됩니다. 보류 중인 작업을 선택할 때 여는 쪽 창에서 각 증거 조각과 관련된 작업을 승인(또는 거부)할 수 있습니다.|
 |**Action Center**|업데이트된 **알림 센터(** )는 전자 메일, 장치 및 ID에서 보류 중인 작업과 완료된 작업을 <https://security.microsoft.com/action-center> 함께 제공합니다. 자세한 내용은 작업 센터를 참조합니다. (자세한 내용은 동작 [센터를 참조합니다.)](../mtp/mtp-action-center.md)|

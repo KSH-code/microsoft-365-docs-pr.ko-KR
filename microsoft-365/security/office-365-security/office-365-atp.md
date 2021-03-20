@@ -21,12 +21,12 @@ ms.custom:
 description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 741b00a55ee73d16c82abd4806d06660d49be65b
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 1a2cb40184de170263a52e52b704b30b0731c868
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287668"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909037"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 
@@ -37,7 +37,7 @@ ms.locfileid: "50287668"
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!IMPORTANT]
-> 이 문서는 [Office 365용 Microsoft Defender](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)가 있는 비즈니스 고객을 대상으로 합니다. Outlook.com, Microsoft 365 Family 또는 Microsoft 365 Personal을 사용하고 있고 Outlook의 안전한 링크 또는 안전한 첨부 파일에 대한 정보를 찾고 있다면 [Office 365 구독자용 고급 Outlook.com 보안](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조하세요.
+> 이 문서는 [Office 365용 Microsoft Defender](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)가 있는 비즈니스 고객을 대상으로 합니다. Outlook.com, Microsoft 365 Family 또는 Microsoft 365 Personal을 사용하고 있고 Outlook의 안전한 링크 또는 안전한 첨부 파일에 대한 정보를 찾고 있다면 [Office 365 구독자용 고급 Outlook.com 보안](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조하세요.
 
 Office 365용 Microsoft Defender는 전자 메일 메시지, 링크 (URL) 및 공동 작업 도구로 인한 악의적인 위협으로부터 조직을 보호합니다. Office 365용 Defender는 다음 사항을 포함합니다.
 
@@ -88,7 +88,7 @@ Office 365용 Microsoft Defender가 처음이거나 *사용하면서* 배우기 
 
 - Office 365용 Microsoft Defender 플랜 1은 Microsoft 365 Business Premium에 포함되어 있습니다.
 
-- Office 365용 Microsoft Defender 플랜 1과 Office365용 Microsoft Defender 플랜 2를 각각 특정 구독의 추가 기능으로 사용할 수 있습니다. 자세한 내용은 [Office 365용 Microsoft Defender 플랜의 기능 가용성을 참좌세요](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+- Office 365용 Microsoft Defender 플랜 1과 Office365용 Microsoft Defender 플랜 2를 각각 특정 구독의 추가 기능으로 사용할 수 있습니다. 자세한 내용은 [Office 365용 Microsoft Defender 플랜의 기능 가용성을 참좌세요](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
 - [안전한 문서](safe-docs.md) 기능은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스가 있는 사용자만 사용할 수 있습니다. (Office 365용 Microsoft Defender 플랜에는 미포함)
 
@@ -150,8 +150,8 @@ Office 365용 Microsoft Defender 플랜 2에는 조직의 보안팀이 악의적
 |역할 또는 역할 그룹|자세한 정보를 알아볼 수 있는 리소스|
 |---|---|
 |전역 관리자(Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.)|[Microsoft 365 관리자 역할 정보](../../admin/add-users/about-admin-roles.md)|
-|보안 관리자 (Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.)|[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)|
-|Exchange Online 조직 관리(Exchange Online에서 할당합니다.)|[Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <p> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
+|보안 관리자 (Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.)|[Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)|
+|Exchange Online 조직 관리(Exchange Online에서 할당합니다.)|[Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo) <p> [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)|
 |검색 및 제거(보안 & 규정 준수 센터에서만 할당합니다.)|[보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)|
 
 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
@@ -160,9 +160,9 @@ Office 365용 Microsoft Defender 플랜 2에는 조직의 보안팀이 악의적
 
 Office 365용 Microsoft Defender는 Microsoft 365 E5, Office 365 E5, Office 365 A5, Microsoft 365 Business Premium 등의 특정 구독에 포함되어 있습니다. 구독에 Office 365용 Defender가 포함되어 있지 않은 경우 Office 365용 Defender 플랜 1 또는 Office 365용 Defender 플랜 2를 특정 구독에 대한 추가 기능으로 구매할 수 있습니다. 자세한 내용은 다음 리소스를 참조하세요.
 
-- Office 365용 Defender 플랜을 포함하는 구독 목록에 대한 [Office 365용 Microsoft Defender 가용성](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#office-365-advanced-threat-protection-atp-availability).
+- Office 365용 Defender 플랜을 포함하는 구독 목록에 대한 [Office 365용 Microsoft Defender 가용성](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#office-365-advanced-threat-protection-atp-availability).
 
-- 플랜 1 및 플랜 2에 포함된 기능 목록에 대한 [Office 365용 Microsoft Defender 플랜의 기능 가용성](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+- 플랜 1 및 플랜 2에 포함된 기능 목록에 대한 [Office 365용 Microsoft Defender 플랜의 기능 가용성](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
 - [Office 365용 Microsoft Defender를 다운로드하여](https://products.office.com/exchange/advance-threat-protection#pmg-allup-content) 플랜을 비교하고 Office 365용 Defender를 구매할 수 있습니다.
 
@@ -174,7 +174,7 @@ Office 365용 Microsoft Defender에는 새로운 기능이 계속해서 추가�
 
 - [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)은 개발 및 출시에 대한 새로운 기능 목록을 제공합니다.
 
-- [Office 365용 Microsoft Office Defender 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)은 Office 365용 Defender 플랜의 기능과 가용성에 대해 설명합니다.
+- [Office 365용 Microsoft Office Defender 서비스 설명](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)은 Office 365용 Defender 플랜의 기능과 가용성에 대해 설명합니다.
 
 ## <a name="see-also"></a>참고 항목
 

@@ -14,16 +14,16 @@ ms.collection:
 localization_priority: Normal
 search.appverid:
 - MET150
-description: 365에서 무단 동의 권한 부여 공격을 인식하고 수정하는 Microsoft Office 방법을 배워보아야 합니다.
+description: 365에서 부적격 동의 권한 부여 공격을 인식하고 수정하는 Microsoft Office 방법을 배워야 합니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2a50ce58d91d2ff7b2e31e57830289c870364d9b
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 575c0396ccf53cba727bb2a9f37b019a53c132bc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288290"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910849"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>위조 동의 권한 부여 감지 및 수정
 
@@ -42,7 +42,7 @@ ms.locfileid: "50288290"
 이러한 공격은 정보를 호출하는 엔터티가 사용자가 아니라 자동화임을 가정하는 상호 작용 모델을 활용합니다.
 
 > [!IMPORTANT]
-> 현재 앱에서의 부적격 동의 권한 부여에 문제가 있는 것으로 의심하나요? MCAS(Microsoft Cloud App Security)에는 OAuth 앱을 검색, 조사 및 수정하기 위한 도구가 있습니다. 이 MCAS 문서에는 위험한 OAuth 앱을 조사하는 방법을 설명하는 [자습서가 있습니다.](https://docs.microsoft.com/cloud-app-security/investigate-risky-oauth) 또한 사용자가 이러한 앱을 승인하는 앱 요청 권한을 조사하고 이러한 사용 권한 요청을 광범위하게 승인하거나 금지하도록 [OAuth](https://docs.microsoft.com/cloud-app-security/app-permission-policy) 앱 정책을 설정할 수도 있습니다.
+> 현재 앱에서의 부적격 동의 권한 부여에 문제가 발생하고 있는 것으로 의심하나요? MCAS(Microsoft Cloud App Security)에는 OAuth 앱을 검색, 조사 및 수정하는 도구가 있습니다. 이 MCAS 문서에는 위험한 OAuth 앱 조사 방법을 간략하게 [설명하는 자습서가 있습니다.](/cloud-app-security/investigate-risky-oauth) [OAuth](/cloud-app-security/app-permission-policy) 앱 정책을 설정하여 앱 요청 권한을 조사하고, 사용자가 이러한 앱을 승인하고, 이러한 사용 권한 요청을 광범위하게 승인하거나 금지할 수도 있습니다.
 
 ## <a name="what-does-an-illicit-consent-grant-attack-look-like-in-office-365"></a>불법 동의 권한 부여는 Office 365에서 어떻게 보이나요?
 
@@ -50,15 +50,15 @@ ms.locfileid: "50288290"
 
 ### <a name="steps-for-finding-signs-of-this-attack"></a>이 공격의 신호를 찾는 단계
 
-1. 에서 **보안 & 규정 준수 센터를** 열 수 <https://protection.office.com> 있습니다.
+1. 에서 **보안 & 준수 센터를** 열 수 <https://protection.office.com> 있습니다.
 
-2. 검색으로 **이동하여** 감사 로그 **검색을 선택합니다.**
+2. 검색으로 **이동하여** 감사 로그 **검색 을 선택합니다.**
 
-3. 검색(모든 활동 및 모든 사용자)을 검색하고 필요한 경우 시작 날짜와 종료 날짜를 입력한 다음 검색을 **클릭합니다.**
+3. 검색(모든 활동 및 모든 사용자)을 검색하고 시작 날짜와 종료 날짜(필요한 경우)를 입력한 다음 검색을 **클릭합니다.**
 
-4. 필터 **결과를 클릭하고** 작업 필드에 응용 프로그램에 대한 **동의를 입력합니다.**
+4. 결과 **필터링을 클릭하고** 활동 필드에 응용 프로그램에 **동의를 입력합니다.**
 
-5. 결과를 클릭하여 활동의 세부 정보를 볼 수 있습니다. 자세한 **정보를 클릭하여** 활동에 대한 세부 정보를 얻습니다. IsAdminContent가 True로 설정되어 있는지 검사합니다.
+5. 결과를 클릭하여 활동의 세부 정보를 봐야 합니다. 자세한 **정보를 클릭하여** 활동에 대한 세부 정보를 얻습니다. IsAdminContent가 True로 설정되어 있는지 검사합니다.
 
 > [!NOTE]
 >
@@ -96,7 +96,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 5. **응용 프로그램** 을 선택합니다.
 
-사용자에게 할당된 앱과 응용 프로그램에 대한 사용 권한이 표시됩니다.
+그러면 사용자에게 할당된 앱과 응용 프로그램에 대한 사용 권한이 표시됩니다.
 
 ### <a name="steps-for-having-your-users-enumerate-their-application-access"></a>사용자가 응용 프로그램에 액세스를 열거하도록 하는 단계
 
@@ -119,11 +119,11 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 1. 로컬 관리자 권한으로 스크립트를 실행할 컴퓨터에 로그인합니다.
 
-2. GitHub에서 [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) 스크립트를 실행할 폴더로 다운로드하거나 복사합니다. 이 폴더는 "permissions.csv" 출력 파일이 작성되는 폴더와 동일합니다.
+2. GitHub에서Get-AzureADPSPermissions.ps1스크립트를 실행할 폴더로 다운로드하거나 복사합니다. [](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) 이 폴더는 "permissions.csv" 출력 파일이 작성되는 폴더와 동일합니다.
 
 3. PowerShell 인스턴스를 관리자로 열고 스크립트를 저장한 폴더를 엽니다.
 
-4. [Connect-AzureAD](https://docs.microsoft.com/powershell/module/azuread/connect-azuread) cmdlet을 사용하여 디렉터리에 연결합니다.
+4. [Connect-AzureAD](/powershell/module/azuread/connect-azuread) cmdlet을 사용하여 디렉터리에 연결합니다.
 
 5. 이 PowerShell 명령을 실행합니다.
 
@@ -133,7 +133,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 스크립트가 Permissions.csv라는 파일 하나를 생성합니다. 다음 단계를 수행하여 불법 응용 프로그램 권한 부여를 찾습니다.
 
-1. ConsentType 열(G열)에서 값 "AllPrinciples"을 검색합니다. AllPrincipals 권한을 사용하면 클라이언트 응용 프로그램이 테넌시의 모든 콘텐츠에 액세스할 수 있습니다. 기본 Microsoft 365 응용 프로그램이 제대로 작동하려면 이 사용 권한이 필요합니다. 이 권한을 가진 Microsoft가 아닌 모든 응용 프로그램은 신중하게 검토해야 합니다.
+1. ConsentType 열(G열)에서 값 "AllPrinciples"을 검색합니다. AllPrincipals 권한을 사용하면 클라이언트 응용 프로그램에서 테넌시의 모든 콘텐츠에 액세스할 수 있습니다. 네이티브 Microsoft 365 응용 프로그램이 제대로 작동하려면 이 권한이 필요합니다. 이 권한을 가진 Microsoft가 아닌 모든 응용 프로그램은 신중하게 검토해야 합니다.
 
 2. 사용 권한 열(F열)에서 각 위임된 응용 프로그램에 대한 콘텐츠 사용 권한을 확인합니다. "읽기" 및 "쓰기" 권한 또는 "*.All" 권한을 찾아 적절하지 않을 수 있으므로 신중하게 검토합니다.
 
@@ -162,9 +162,9 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
   - 드릴 다운에서 **제거** 를 클릭합니다.
 
-- [Remove-AzureADOAuth2PermissionGrant](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant)에 나와 있는 단계를 따라 PowerShell에서 OAuth 승인 부여를 해지할 수 있습니다.
+- [Remove-AzureADOAuth2PermissionGrant](/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant)에 나와 있는 단계를 따라 PowerShell에서 OAuth 승인 부여를 해지할 수 있습니다.
 
-- [Remove-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADServiceAppRoleAssignment)의 단계에 따라 PowerShell을 사용하여 서비스 앱 역할 할당을 해지할 수 있습니다.
+- [Remove-AzureADServiceAppRoleAssignment](/powershell/module/azuread/Remove-AzureADServiceAppRoleAssignment)의 단계에 따라 PowerShell을 사용하여 서비스 앱 역할 할당을 해지할 수 있습니다.
 
 - 영향을 받는 계정에 대한 로그인을 사용하지 않도록 설정할 수도 있습니다. 그러면 해당 계정의 데이터에 대한 앱 액세스를 해제합니다. 이는 최종 사용자의 생산성에 이상적이지는 않지만 영향을 신속하게 제한려 한다면 단기적으로 조치가 될 수 있습니다.
 
@@ -182,12 +182,12 @@ Microsoft 365 구독에는 데이터 및 사용자를 보호하는 데 사용할
 
 ## <a name="see-also"></a>참고 항목:
 
-- [내 응용 프로그램 목록에 예기치 않은 응용 프로그램](https://docs.microsoft.com/azure/active-directory/application-access-unexpected-application)은 데이터에 대한 액세스 권한이 있는 예기치 않은 응용 프로그램이 있다는 사실을 인식한 후 관리자가 수행할 수 있는 다양한 작업을 안내합니다.
+- [내 응용 프로그램 목록에 예기치 않은 응용 프로그램](/azure/active-directory/application-access-unexpected-application)은 데이터에 대한 액세스 권한이 있는 예기치 않은 응용 프로그램이 있다는 사실을 인식한 후 관리자가 수행할 수 있는 다양한 작업을 안내합니다.
 
-- [Azure Active Directory와 응용 프로그램 통합](https://docs.microsoft.com/azure/active-directory/active-directory-apps-permissions-consent)은 동의 및 사용 권한에 대한 개요입니다.
+- [Azure Active Directory와 응용 프로그램 통합](/azure/active-directory/active-directory-apps-permissions-consent)은 동의 및 사용 권한에 대한 개요입니다.
 
-- [내 응용 프로그램 개발 문제](https://docs.microsoft.com/azure/active-directory/active-directory-application-dev-development-content-map)는 다양한 동의 관련 문서의 링크를 제공합니다.
+- [내 응용 프로그램 개발 문제](/azure/active-directory/active-directory-application-dev-development-content-map)는 다양한 동의 관련 문서의 링크를 제공합니다.
 
-- [Azure AD(Active Directory)의 응용 프로그램 및 서비스 주체 개체](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects)는 응용 프로그램 모델의 핵심인 응용 프로그램 및 서비스 주체 개체에 대한 개요를 제공합니다.
+- [Azure AD(Active Directory)의 응용 프로그램 및 서비스 주체 개체](/azure/active-directory/develop/active-directory-application-objects)는 응용 프로그램 모델의 핵심인 응용 프로그램 및 서비스 주체 개체에 대한 개요를 제공합니다.
 
-- [앱 액세스 관리](https://docs.microsoft.com/azure/active-directory/active-directory-managing-access-to-apps)는 관리자가 앱에 대한 사용자 액세스를 관리해야 하는 기능에 대한 개요입니다.
+- [앱 액세스 관리](/azure/active-directory/active-directory-managing-access-to-apps)는 관리자가 앱에 대한 사용자 액세스를 관리해야 하는 기능에 대한 개요입니다.

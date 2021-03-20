@@ -1,5 +1,5 @@
 ---
-title: Freenom에서 Microsoft용 DNS 레코드 만들기
+title: Freenom for Microsoft에서 DNS 레코드 만들기
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -21,21 +21,21 @@ search.appverid:
 - MOE150
 ms.assetid: d8ff45a2-19e3-413d-aa64-a9982bd6633c
 description: Microsoft용 Freenom에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: b958a69d1dad9a0b56cf954d12cd42e40d6d4fea
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 8332d63acf34a7f999b549467494b7819cebf092
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657878"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910357"
 ---
-# <a name="create-dns-records-at-freenom-for-microsoft"></a>Freenom에서 Microsoft용 DNS 레코드 만들기
+# <a name="create-dns-records-at-freenom-for-microsoft"></a>Freenom for Microsoft에서 DNS 레코드 만들기
 
 원하는 정보를 찾지 못하면 도메인 [FAQ를](../setup/domains-faq.yml) 확인 합니다. 
   
 > [!CAUTION]
-> Freenom 웹 사이트는 SRV 레코드를 지원하지 않습니다. 즉, 여러 비즈니스용 Skype Online 및 Outlook Web App 기능이 작동하지 않습니다. 어떤 Microsoft 요금제에 사용하든 서비스 제한이 매우 크며 다른 DNS 호스팅 공급자로 전환할 수 있습니다. 
+> Freenom 웹 사이트는 SRV 레코드를 지원하지 않습니다. 즉, 여러 비즈니스용 Skype Online 및 Outlook Web App 기능이 작동하지 않습니다. 어떤 Microsoft 요금제를 사용하든 중요한 서비스 제한 사항이 있으며 다른 DNS 호스팅 공급자로 전환할 수 있습니다. 
   
-서비스 제한에도 불구하고 Freenom에서 자체 Microsoft DNS 레코드를 관리하기로 선택한 경우 이 문서의 단계에 따라 도메인을 확인하고 전자 메일 및 기타 서비스에 대한 DNS 레코드를 설정하세요.
+서비스 제한에도 불구하고 Freenom에서 Microsoft DNS 레코드를 관리하기로 선택한 경우 이 문서의 단계에 따라 도메인을 확인하고 전자 메일 및 기타 서비스에 대한 DNS 레코드를 설정할 수 있습니다.
   
   
 > [!NOTE]
@@ -53,17 +53,17 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     ![Freenom 로그인](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. 서비스를 **선택하고** 내 **도메인을 선택합니다.**
+2. 서비스를 **선택하고** 내 **도메인 을 선택합니다.**
     
     ![Freenom select Services and My Domains](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
-3. 편집할 도메인의 경우 도메인 **관리(Manage Domain)를 선택합니다.**
+3. 편집할 도메인의 경우 도메인 **관리를 선택합니다.**
     
     ![Freenom select Manage Domain](../../media/67737b71-8b1b-42a6-abaf-62d776d3eb87.png)
   
-4. **Freenom DNS 관리 선택.**
+4. **Freenom DNS 관리를 선택합니다.**
     
-    ![Freenom Manage Freenom DNS](../../media/9854a511-27e3-4658-8903-34b3d425096d.png)
+    ![Freenom Freenom DNS 관리](../../media/9854a511-27e3-4658-8903-34b3d425096d.png)
   
 5. 레코드 **추가의** 종류 **열에서** 메뉴에서 **TXT를** 선택합니다. 
     
@@ -112,25 +112,25 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Freenom 로그인](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. 서비스를 **선택하고** 내 **도메인을 선택합니다.**
+2. 서비스를 **선택하고** 내 **도메인 을 선택합니다.**
     
     ![Freenom select Services and My Domains](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
-3. 편집할 도메인의 경우 도메인 **관리(Manage Domain)를 선택합니다.**
+3. 편집할 도메인의 경우 도메인 **관리를 선택합니다.**
     
     ![Freenom select Manage Domain](../../media/67737b71-8b1b-42a6-abaf-62d776d3eb87.png)
   
-4. 도메인에 대한 이름을 기본 Freenom 이름 서버로 설정하십시오. 관리 **도구를 선택한** 다음 이름 **보호를 선택합니다.**
+4. 도메인에 대한 이름을 기본 Freenom 이름 서버로 설정하십시오. 관리 **도구 를 선택한** 다음 **이름servers 를 선택합니다.**
     
     ![Freenom Nameservers 설정](../../media/a6ae877a-c248-42b9-bae9-210a80cd01e7.png)
   
-5. 기본 이름 **서비스 사용이 선택되어** 있는지 확인한 다음 이름 서비스 **변경을 선택합니다.**
+5. 기본 이름 **서비스 사용이 선택되어** 있는지 확인한 다음 이름 서비스 변경 **을 선택합니다.**
     
-    ![Freenom Change Nameservers](../../media/0ef90d84-c0a0-4ef9-9e4c-43ef0aac3a2e.png)
+    ![Freenom 이름 서비스 변경](../../media/0ef90d84-c0a0-4ef9-9e4c-43ef0aac3a2e.png)
   
-6. **Freenom DNS 관리 선택.**
+6. **Freenom DNS 관리를 선택합니다.**
     
-    ![Freenom 선택 Freenom DNS 관리](../../media/f55a8053-2411-45da-a357-776c6699f721.png)
+    ![Freenom select Manage Freenom DNS](../../media/f55a8053-2411-45da-a357-776c6699f721.png)
   
 7. 레코드 **추가의** 종류 **열에서** 메뉴에서 **MX를** 선택합니다. 
     
@@ -140,7 +140,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**이름**|**Type(종류)**|**TTL**|**Target(대상)**|**우선 순위**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(공백으로 둠)  <br/> |MX (Mail Exchanger)(MX(메일 교환기))  <br/> |3600(초)  <br/> |\<domain-key\>.mail.protection.outlook.com  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |
+    |(공백으로 둠)  <br/> |MX (Mail Exchanger)(MX(메일 교환기))  <br/> |3600(초)  <br/> |\<domain-key\>.mail.protection.outlook.com  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.yml)을 참조하세요. <br/> |
    
    ![Freenom MX 레코드](../../media/8896c4a9-b3dd-45ed-9916-f7da2715ba8c.png)
   
@@ -148,7 +148,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Freenom MX 레코드 변경 내용 저장](../../media/7aa0a464-d136-417f-be40-48d3f728eeb7.png)
   
-10. 다른 MX 레코드가 있는 경우 모두 삭제합니다. 각 레코드에 대해 삭제를 **선택합니다.** 이 항목을 실제로 제거하고 **싶나요?** 메시지가 나타나면 확인을 **선택합니다.**
+10. 다른 MX 레코드가 있는 경우 모두 삭제합니다. 각 레코드에 대해 삭제 **를 선택합니다.** 이 항목을 실제로 제거하고 **싶나요?** 메시지가 나타나면 확인 을 **선택합니다.**
     
 ## <a name="add-the-cname-records-that-are-required-for-microsoft"></a>Microsoft에 필요한 CNAME 레코드 추가하기
 <a name="bkmk_cname"> </a>
@@ -157,19 +157,19 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Freenom 로그인](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. 서비스를 **선택하고** 내 **도메인을 선택합니다.**
+2. 서비스를 **선택하고** 내 **도메인 을 선택합니다.**
     
     ![Freenom select Services and My Domains](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
-3. 편집할 도메인의 경우 도메인 **관리(Manage Domain)를 선택합니다.**
+3. 편집할 도메인의 경우 도메인 **관리를 선택합니다.**
     
     ![Freenom select Manage Domain](../../media/67737b71-8b1b-42a6-abaf-62d776d3eb87.png)
   
-4. **Freenom DNS 관리 선택.**
+4. **Freenom DNS 관리를 선택합니다.**
     
-    ![Freenom 선택 Freenom DNS 관리](../../media/5e7bc3a7-0d5e-431b-bb27-da3b0f316d01.png)
+    ![Freenom select Manage Freenom DNS](../../media/5e7bc3a7-0d5e-431b-bb27-da3b0f316d01.png)
   
-5. 레코드 **추가의** **종류** 열에서 메뉴에서 **CNAME을** 선택합니다. 
+5. 레코드 **추가의** 종류 **열에서** 메뉴에서 **CNAME을** 선택합니다. 
     
     ![Freenom Add Record type CNAME](../../media/9b204755-ca2a-46d2-bce2-030d82fd1f9e.png)
   
@@ -189,7 +189,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Freenom CNAME Save Changes](../../media/68103fd2-0f5f-4aac-a875-25157c6bbdd2.png)
   
-8. 이전 단계를 반복하여 나머지 5개의 CNAME 레코드를 만드십시오. 
+8. 이전 단계를 반복하여 다른 5개의 CNAME 레코드를 만드십시오. 
     
     각 레코드에 대해 위 표의 다음 행 값을 해당 레코드의 상자에 입력하거나 복사하여 붙여넣습니다.
     
@@ -203,17 +203,17 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Freenom 로그인](../../media/90a32855-bfdd-4dfe-881c-b9a36b2f0582.png)
   
-2. 서비스를 **선택하고** 내 **도메인을 선택합니다.**
+2. 서비스를 **선택하고** 내 **도메인 을 선택합니다.**
     
     ![Freenom select Services and My Domains](../../media/1917ced2-e254-4aec-9096-46d339b84d9a.png)
   
-3. 편집할 도메인의 경우 도메인 **관리(Manage Domain)를 선택합니다.**
+3. 편집할 도메인의 경우 도메인 **관리를 선택합니다.**
     
     ![Freenom select Manage Domain](../../media/67737b71-8b1b-42a6-abaf-62d776d3eb87.png)
   
-4. **Freenom DNS 관리 선택.**
+4. **Freenom DNS 관리를 선택합니다.**
     
-    ![Freenom 선택 Freenom DNS 관리](../../media/94809955-0315-409c-a15d-703a2fe4c4ed.png)
+    ![Freenom select Manage Freenom DNS](../../media/94809955-0315-409c-a15d-703a2fe4c4ed.png)
   
 5. 레코드 **추가의** 종류 **열에서** 메뉴에서 **TXT를** 선택합니다. 
     
@@ -225,10 +225,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     |:-----|:-----|:-----|:-----|
     |(공백으로 둠)  <br/> |TXT  <br/> |3600(초)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
-    ![SPF의 Freenom TXT 값](../../media/1b3b1199-9104-4ca1-acdb-786d139c21ac.png)
+    ![SPF에 대한 Freenom TXT 값](../../media/1b3b1199-9104-4ca1-acdb-786d139c21ac.png)
   
 7. 변경 **내용 저장을 선택합니다.**
     
     ![SPF 저장 변경 내용에 대한 Freenom TXT 레코드](../../media/e2fc52b1-0dcb-4595-9a4c-fca5e2ef9f97.png)
-  
-

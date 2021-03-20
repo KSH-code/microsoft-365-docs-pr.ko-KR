@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6626053-a9c8-445b-81ee-eeb6672fae77
 description: Microsoft용 eNomCentral에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 학습합니다.
-ms.openlocfilehash: e6e05b987a893da582ea7fb062eafe421861b970
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 528659667ee062c8cf767bed0989558020032924
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658114"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910369"
 ---
 # <a name="create-dns-records-at-enomcentral-for-microsoft"></a>eNomCentral에서 Microsoft용 DNS 레코드 만들기
 
@@ -34,7 +34,7 @@ ms.locfileid: "49658114"
 
 DNS 호스팅 공급자로 eNomCentral을 사용하고 있는 경우, 이 문서에 나와 있는 단계를 따라 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 등에 대한 DNS 레코드를 설정합니다.
 
-eNomCentral에서 이러한 레코드를 추가하고 나면 도메인이 Microsoft 서비스에서 작동하게 설정됩니다.
+eNomCentral에서 이러한 레코드를 추가하면 도메인이 Microsoft 서비스에서 작동할 수 있도록 설정됩니다.
 
 > [!NOTE]
 > 일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요.
@@ -117,7 +117,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
    |호스트 이름|주소|기본 설정|
    |---|---|---|
-   |@| *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)|10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요.|
+   |@| *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)|10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.yml)을 참조하세요.|
 
    ![eNom-BP-Configure-2-1](../../media/c32e8954-8209-4f77-a3a8-4b7aeea325d5.png)
 
@@ -223,7 +223,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
    ![eNom-BP-Configure-1-5](../../media/c92c514c-8166-4cba-97e3-ee1d9847d255.png)
 
-4. 새 행의 오른쪽에서 **SRV** 또는 SPF 레코드 추가를 선택합니다.
+4. 새 행의 **오른쪽에서** **SRV** 또는 SPF 레코드 추가를 선택합니다.
 
    ![eNom-BP-Configure-5-1](../../media/c73c154d-5aa0-41ef-be25-f43129eb178c.png)
 
@@ -231,8 +231,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
    |서비스|Protocol(프로토콜)|우선 순위|가중치|포트|대상(호스트 이름)|
    |---|---|---|---|---|---|
-   |_sip|_tls|100|1 |443|sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.**|
-   |_sipfederationtls|_tcp|100|1 |5061|sipfed.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.**|
+   |_sip|_tls|100|1|443|sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.**|
+   |_sipfederationtls|_tcp|100|1|5061|sipfed.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.**|
 
    ![eNom-BP-Configure-5-2](../../media/4d478f40-780f-43b9-940b-712b09da8c63.png)
 

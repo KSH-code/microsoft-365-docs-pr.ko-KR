@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ce17f413b23ef9ef6abf79a2710a5cec9b05206c
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 1151cddbad2f5b8633b0e0f19a24c470f85d7614
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838534"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908989"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender 평가
 
@@ -44,7 +44,7 @@ Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 �
 
 평가 모드에서는 [안전](atp-safe-attachments.md)첨부 파일, [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)  [안전한](atp-safe-links.md)링크 및 사서함 인텔리전스 기반 가장 정책이 사용자 대신 설정됩니다. 모든 Defender for Office 365 정책은 백그라운드에서 적용되지 않은 모드로 만들어지며 표시되지 않습니다.
 
-설치의 일부로 평가 모드는 커넥터에 대한 향상된 [필터링도 구성합니다.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) IP 주소 및 보낸 사람 정보를 보존하여 필터링 정확도를 향상시킵니다. 그렇지 않으면 메일이 Office 365용 Defender 앞에 있는 ESG(전자 메일 보안 게이트웨이)를 통과할 때 손실됩니다. 커넥터에 대한 향상된 필터링은 기존 EOP(Exchange Online Protection) 스팸 방지 및 피싱 방지 정책에 대한 필터링 정확도도 향상시킵니다.
+설치의 일부로 평가 모드는 커넥터에 대한 향상된 [필터링도 구성합니다.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) IP 주소 및 보낸 사람 정보를 보존하여 필터링 정확도를 향상시킵니다. 그렇지 않으면 메일이 Office 365용 Defender 앞에 있는 ESG(전자 메일 보안 게이트웨이)를 통과할 때 손실됩니다. 커넥터에 대한 향상된 필터링은 기존 EOP(Exchange Online Protection) 스팸 방지 및 피싱 방지 정책에 대한 필터링 정확도도 향상시킵니다.
 
 사용 커넥터에 대해 향상된 필터링을 사용하면 필터링 정확도가 향상되지만 Office 365용 Defender 앞에 ESG가 있으며 현재 EOP 필터링을 무시하지 않는 경우 특정 메시지의 결과물이 변경될 수 있습니다. 영향은 EOP 정책으로 제한됩니다. 평가의 일부로 MDO 정책 설정은 적용되지 않은 모드로 만들어집니다. 잠재적인 프로덕션 영향을 최소화하기 위해 SCL(스팸 지수)을 -1로 설정하는 전송 규칙을 만들어 모든 EOP 필터링을 무시할 수 있습니다. 자세한 [내용은 EAC를 사용하여 메시지의 SCL을](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message)설정하는 메일 흐름 규칙   만들기를 참조합니다.
 
@@ -72,7 +72,7 @@ Office 365용 Microsoft Defender를 지원하는 라이선스가 아직 없는 �
 
 #### <a name="trial"></a>평가판
 
-Office 365용 Microsoft Defender에 대한 평가판 라이선스를  획득하려면 청구 관리자 역할 또는 전역 관리자 **역할이 필요합니다.** 전역 관리자 역할이 있는 사람에게 권한을 요청합니다. [구독 및 라이선스에 대한 자세한 내용은](https://docs.microsoft.com/microsoft-365/commerce/licenses/subscriptions-and-licenses)
+Office 365용 Microsoft Defender에 대한 평가판 라이선스를  획득하려면 청구 관리자 역할 또는 전역 관리자 **역할이 필요합니다.** 전역 관리자 역할이 있는 사람에게 권한을 요청합니다. [구독 및 라이선스에 대한 자세한 내용은](../../commerce/licenses/subscriptions-and-licenses.md)
 
 적절한 역할이 있는 경우 청구 서비스 구매로 > Microsoft 365 관리 센터에서 Microsoft Defender for Office 365용 Microsoft Defender(계획 2)에 대한 평가판 라이선스를 얻는 것이 좋습니다. 평가판에는 25개 라이선스에 대한 30일 무료 평가판이 포함되어 있습니다. [Office 365용 Microsoft Defender 평가판(계획 2)을 다운로드합니다.](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
 
@@ -80,14 +80,14 @@ Office 365용 Microsoft Defender에 대한 평가판 라이선스를  획득하�
 
 ### <a name="roles"></a>역할
 
-평가 모드에서 Office 365용 Defender를 설정하려면 Exchange Online 역할이 필요합니다.
+**평가 모드에서** Office 365용 Defender를 설정하려면 Exchange Online 역할이 필요합니다. Microsoft 365 규정 준수 또는 보안 관리자 역할 할당은 작동하지 않습니다.
 
-- [Exchange Online의 사용 권한에 대해 자세히 알아보기](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
+- [Exchange Online의 사용 권한에 대해 자세히 알아보기](/exchange/permissions-exo/permissions-exo)
 - [관리자 역할 할당에 대해 자세히](../../admin/add-users/assign-admin-roles.md)
 
 다음 역할이 필요합니다.
 
-|작업 |역할|
+|작업 |역할(Exchange Online)|
 |---|---|
 |무료 평가판 다운로드 또는 Office 365용 Microsoft Defender 구입(계획 2)|청구 관리자 역할 또는 전역 관리자 역할|
 |평가 정책 만들기|원격 및 허용 도메인 역할 보안 관리자 역할|
@@ -95,7 +95,6 @@ Office 365용 Microsoft Defender에 대한 평가판 라이선스를  획득하�
 |평가 정책 삭제|원격 및 허용 도메인 역할 보안 관리자 역할 |
 |평가 보고서 보기|보안 관리자 역할 또는 보안 읽기 관리자 역할|
 |
-
 
 ### <a name="enhanced-filtering"></a>향상된 필터링
 
@@ -111,7 +110,7 @@ Office 365용 Microsoft Defender에 대한 평가판 라이선스를  획득하�
 
 ### <a name="email-routing"></a>전자 메일 라우팅
 
-메일을 라우팅하는 인바운드 커넥터의 이름을 포함하여 전자 메일이 현재 라우팅되는 방법을 설정하는 데 필요한 해당 세부 정보를 준비합니다. Exchange Online Protection만 사용하는 경우 커넥터가 없습니다.  [메일 흐름 및 전자 메일 라우팅에 대해 자세히](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/mail-flow)
+메일을 라우팅하는 인바운드 커넥터의 이름을 포함하여 전자 메일이 현재 라우팅되는 방법을 설정하는 데 필요한 해당 세부 정보를 준비합니다. Exchange Online Protection만 사용하는 경우 커넥터가 없습니다.  [메일 흐름 및 전자 메일 라우팅에 대해 자세히](/office365/servicedescriptions/exchange-online-service-description/mail-flow)
 
 지원되는 전자 메일 라우팅 시나리오는 다음과 같습니다.
 

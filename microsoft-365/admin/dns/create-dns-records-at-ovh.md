@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
 description: Microsoft용 OVH에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 14c3796ff6686ae0d98ec32ec6ddf6afc004a3c3
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: a43593af80d2f651e4407de64ed9aab51f1c1ecb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657782"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910069"
 ---
 # <a name="create-dns-records-at-ovh-for-microsoft"></a>Microsoft용 OVH에서 DNS 레코드 만들기
 
@@ -68,7 +68,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     ![OVH 도메인 선택](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
-3. **DNS 영역 선택.**
+3. **DNS 영역 을 선택합니다.**
     
     ![OVH 선택 DNS 영역](../../media/45218cbe-f3f8-4804-87f9-cfcef89ea113.png)
   
@@ -80,11 +80,11 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     ![OVH 선택 TXT 항목](../../media/3aaa9dae-0b1d-436b-a980-b67a970f31a9.png)
   
-6. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다. TTL 값을 할당하기  위해 드롭다운 목록에서 개인 설정 값을 선택한 다음 텍스트 상자에 값을 입력합니다. 
+6. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다. TTL 값을 할당하기  위해 드롭다운 목록에서 개인 설정 을 선택한 다음 텍스트 상자에 값을 입력합니다. 
     
     |**Record type(레코드 종류)**|**하위 도메인**|**TTL**|**값**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |(공백으로 둠)  <br/> |3600(초)  <br/> |MS=msxxxxxxxxx  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
+    |TXT  <br/> |(공백으로 둠)  <br/> |3600(초)  <br/> |MS=msxxxxxxxxxx  <br/> **참고:** 이 값은 예시입니다. 여기에는 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
    
 7. **확인** 을 선택합니다. 
     
@@ -124,7 +124,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![OVH 도메인 선택](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
-3. **DNS 영역 선택.**
+3. **DNS 영역 을 선택합니다.**
     
     ![OVH 선택 DNS 영역](../../media/45218cbe-f3f8-4804-87f9-cfcef89ea113.png)
   
@@ -132,18 +132,18 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![OVH 항목 추가](../../media/13ded54b-9e48-4c98-8e1b-8c4a99633bc0.png)
   
-5. **MX를 선택합니다.**
+5. **MX 를 선택합니다.**
     
     ![OVH MX 레코드 유형](../../media/29b5e54e-440a-41f2-9eb9-3de573922ddf.png)
   
-6. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다. TTL 값을 할당하기  위해 드롭다운 목록에서 개인 설정 값을 선택한 다음 텍스트 상자에 값을 입력합니다. 
+6. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다. TTL 값을 할당하기  위해 드롭다운 목록에서 개인 설정 을 선택한 다음 텍스트 상자에 값을 입력합니다. 
     
     > [!NOTE]
-    > 기본적으로 OVH는 대상에 대해 상대 표기 기능을 사용하여 대상 레코드의 끝에 도메인 이름을 추가합니다. 대신 절대 표기 방법을 사용하세요. 아래 표와 같이 대상 레코드에 점을 추가합니다. 
+    > 기본적으로 OVH는 대상에 대해 상대 표기 기능을 사용하여 대상 레코드의 끝에 도메인 이름을 추가합니다. 대신 절대 표기 방법을 사용하세요. 아래 표와 같이 대상 레코드에 점이 추가됩니다. 
   
     |**Record type(레코드 종류)**|**하위 도메인**|**TTL**|**우선 순위**|**Target(대상)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(공백으로 둠)  <br/> |3600(초)  <br/> |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |\<domain-key\>.mail.protection.outlook.com.  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  |
+    |MX  <br/> |(공백으로 둠)  <br/> |3600(초)  <br/> |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.yml)을 참조하세요. <br/> |\<domain-key\>.mail.protection.outlook.com.  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  |
    
     ![메일에 대한 OVH MX 레코드](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
   
@@ -172,7 +172,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![OVH 도메인 선택](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
-3. **DNS 영역 선택.**
+3. **DNS 영역 을 선택합니다.**
     
     ![OVH 선택 DNS 영역](../../media/45218cbe-f3f8-4804-87f9-cfcef89ea113.png)
   
@@ -180,13 +180,13 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![OVH 항목 추가](../../media/13ded54b-9e48-4c98-8e1b-8c4a99633bc0.png)
   
-5. **CNAME을 선택합니다.**
+5. **CNAME 을 선택합니다.**
     
     ![OVH CNAME 레코드 유형 추가](../../media/33c7ac74-18d7-4ae1-9e27-1c0f9773a3c3.png)
   
 6. 첫 번째 CNAME 레코드를 만듭니다.
     
-    새 레코드의 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다. TTL 값을 할당하기  위해 드롭다운 목록에서 개인 설정 값을 선택한 다음 텍스트 상자에 값을 입력합니다. 
+    새 레코드의 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다. TTL 값을 할당하기  위해 드롭다운 목록에서 개인 설정 을 선택한 다음 텍스트 상자에 값을 입력합니다. 
     
     |**Record type(레코드 종류)**|**하위 도메인**|**대상**|**TTL**|
     |:-----|:-----|:-----|:-----|
@@ -204,7 +204,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 8. **확인** 을 선택합니다.
     
-9. 이전 단계를 반복하여 나머지 5개의 CNAME 레코드를 만드십시오.
+9. 이전 단계를 반복하여 다른 5개의 CNAME 레코드를 만드십시오.
     
     각 레코드에 대해 위 표의 다음 행 값을 해당 레코드의 상자에 입력하거나 복사하여 붙여넣습니다.
     
@@ -222,7 +222,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![OVH 도메인 선택](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
-3. **DNS 영역 선택.**
+3. **DNS 영역 을 선택합니다.**
     
     ![OVH 선택 DNS 영역](../../media/45218cbe-f3f8-4804-87f9-cfcef89ea113.png)
   
@@ -230,7 +230,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![OVH 항목 추가](../../media/13ded54b-9e48-4c98-8e1b-8c4a99633bc0.png)
   
-5. **TXT를 선택합니다.**
+5. **TXT 를 선택합니다.**
     
 6. In the boxes for the new record, type or copy and paste the following values.
     
@@ -238,7 +238,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |(공백으로 둠)  <br/> |3600(초)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
-    ![SPF에 대한 OVH TXT 레코드 추가](../../media/f50466e9-1557-4548-8a39-e98978a5ee2e.png)
+    ![OVH SPF에 대한 TXT 레코드 추가](../../media/f50466e9-1557-4548-8a39-e98978a5ee2e.png)
   
 7. **다음** 을 선택합니다.
     
@@ -246,7 +246,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 8. **확인** 을 선택합니다.
     
-    ![SPF 및 Confirm에 대한 OVH TXT 레코드 추가](../../media/649eefeb-3227-49e3-98a0-1ce19c42fa54.png)
+    ![OVH SPF 및 확인에 대한 TXT 레코드 추가](../../media/649eefeb-3227-49e3-98a0-1ce19c42fa54.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Microsoft 필요한 2개의 SRV 레코드 추가하기
 <a name="bkmk_srv"> </a>
@@ -259,7 +259,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![OVH 도메인 선택](../../media/fe407909-4ea6-4b92-a3bd-dec4022b1d8d.png)
   
-3. **DNS 영역 선택.**
+3. **DNS 영역 을 선택합니다.**
     
     ![OVH 선택 DNS 영역](../../media/45218cbe-f3f8-4804-87f9-cfcef89ea113.png)
   
@@ -267,18 +267,18 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![OVH 항목 추가](../../media/13ded54b-9e48-4c98-8e1b-8c4a99633bc0.png)
   
-5. **SRV를 선택합니다.**
+5. **SRV 를 선택합니다.**
     
     ![OVH 선택 SRV 레코드 유형](../../media/66bad536-a531-4a4e-b08d-c0d99f6ea1b2.png)
   
 6. 첫 번째 SRV 레코드를 생성합니다.
     
-    새 레코드의 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다. TTL 값을 할당하기  위해 드롭다운 목록에서 개인 설정 값을 선택한 다음 텍스트 상자에 값을 입력합니다. 
+    새 레코드의 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다. TTL 값을 할당하기  위해 드롭다운 목록에서 개인 설정 을 선택한 다음 텍스트 상자에 값을 입력합니다. 
     
     |**Record type(레코드 종류)**|**하위 도메인**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**TTL**|**Target(대상)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (Service)(SRV(서비스))  <br/> |_sip._tls  <br/> |100  <br/> |1   <br/> |443  <br/> |3600(초)  <br/> |sipdir.online.lync.com.  <br/> |
-    |SRV (Service)(SRV(서비스))  <br/> |_sipfederationtls._tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |3600(초)  <br/> |sipfed.online.lync.com.  <br/> |
+    |SRV (Service)(SRV(서비스))  <br/> |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |3600(초)  <br/> |sipdir.online.lync.com.  <br/> |
+    |SRV (Service)(SRV(서비스))  <br/> |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |3600(초)  <br/> |sipfed.online.lync.com.  <br/> |
        
     ![OVH SRV 레코드](../../media/73956b9e-9e4f-40a5-803e-c4ead2f77fa6.png)
   
@@ -292,4 +292,3 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
 > [!NOTE]
 >  일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
-  

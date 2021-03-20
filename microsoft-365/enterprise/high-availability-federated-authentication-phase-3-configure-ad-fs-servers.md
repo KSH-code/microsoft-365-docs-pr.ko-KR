@@ -15,19 +15,19 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: 202b76ff-74a6-4486-ada1-a9bf099dab8f
-description: Microsoft Azure에서 Microsoft 365에 대한 고가용성 페더타 인증을 위한 AD FS 서버를 만들고 구성하는 방법을 설명합니다.
-ms.openlocfilehash: bf8b52f4cd0dead0c264b71363fd5248397ae88d
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Microsoft Azure에서 Microsoft 365에 대한 고가용성 페더전 인증을 위한 AD FS 서버를 만들고 구성하는 방법을 설명합니다.
+ms.openlocfilehash: 388a99aa496c4ecd9145759d4dfb1b9441b4fb2c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692904"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909801"
 ---
 # <a name="high-availability-federated-authentication-phase-3-configure-ad-fs-servers"></a>고가용성 페더레이션 인증 3단계: AD FS 서버 구성
 
-이 Azure 인프라 서비스에서 Microsoft 365 페더타 인증에 대한 고가용성을 배포하는 이 단계에서는 내부 부하 균형 조정 및 AD FS 서버 2대를 생성합니다.
+Azure 인프라 서비스에서 Microsoft 365 페더링 인증에 대한 고가용성을 배포하는 이 단계에서는 내부 부하 균형 조정 및 AD FS 서버 2대를 생성합니다.
   
-4단계: 웹 응용 프로그램 proxies 구성으로 이동하기 전에 이 단계를 [완료해야 합니다.](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) 모든 [단계는 Azure에서 Microsoft 365에](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) 대한 고가용성 페더타 인증 배포를 참조하세요.
+Phase [4: Configure web application proxies 로](high-availability-federated-authentication-phase-4-configure-web-application-pro.md)이동하기 전에 이 단계를 완료해야 합니다. 모든 [단계는 Azure에서 Microsoft 365에](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) 대한 고가용성 페더타 인증 배포를 참조하세요.
   
 ## <a name="create-the-ad-fs-server-virtual-machines-in-azure"></a>Azure에서 AD FS 서버 가상 컴퓨터 만들기
 
@@ -45,15 +45,15 @@ PowerShell 명령의 다음 블록을 사용하여 두 AD FS 서버의 가상 �
     
 - 테이블 A, 가용성 집합
     
-[2단계에서](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) 테이블 M을 정의했다는 점에 유의하세요. 1단계에서 도메인 컨트롤러 및 테이블 R, V, S, I 및 A [구성: Azure 구성.](high-availability-federated-authentication-phase-1-configure-azure.md)
+[Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) 및 Tables R, V, S, I, and A in Phase 1: Configure Azure에서 테이블 M을 정의했다는 [점에 유의하세요.](high-availability-federated-authentication-phase-1-configure-azure.md)
   
 > [!NOTE]
-> 다음 명령 집합은 최신 버전의 Azure PowerShell을 사용합니다. [Azure PowerShell 시작을 참조하세요.](https://docs.microsoft.com/powershell/azure/get-started-azureps) 
+> 다음 명령 집합은 최신 버전의 Azure PowerShell을 사용합니다. [Azure PowerShell 시작을 참조하세요.](/powershell/azure/get-started-azureps) 
   
 먼저, 두 개의 AD FS 서버용 Azure 내부 부하 분산 장치를 만듭니다. 변수 값을 지정하고 문자를 \< and > 제거합니다. 모든 적절한 값이 제공되면 Azure PowerShell 명령 프롬프트나 PowerShell ISE에서 결과 블록을 실행합니다.
   
 > [!TIP]
-> 사용자 지정 설정에 따라 즉시 실행 가능한 PowerShell 명령 블록을 생성하려면 다음 Microsoft Excel 구성 [통합 문서에 사용합니다.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
+> 사용자 지정 설정에 따라 즉시 실행 가능한 PowerShell 명령 블록을 생성하려면 다음 Microsoft Excel 구성 통합 문서 [를 사용합니다.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
 
 ```powershell
 # Set up key variables
@@ -135,7 +135,7 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
   
 각 가상 컴퓨터에 원하는 원격 데스크톱 클라이언트를 사용하고 원격 데스크톱 연결을 만듭니다. 인트라넷 DNS나 컴퓨터 이름 및 로컬 관리자 계정의 자격 증명을 사용합니다.
   
-각 가상 컴퓨터의 경우 메시지 프롬프트에서 다음 명령을 사용하여 해당 AD DS(Active Directory 도메인 서비스) 도메인에 Windows PowerShell 합니다.
+각 가상 컴퓨터의 경우 메시지 메시지에서 다음 명령을 사용하여 해당 AD DS(Active Directory 도메인 서비스) 도메인에 Windows PowerShell 합니다.
   
 ```powershell
 $domName="<AD DS domain name to join, such as corp.contoso.com>"
@@ -148,16 +148,14 @@ Restart-Computer
   
 **3단계: Azure의 고가용성 페더레이션 인증 인프라용 AD FS 서버 및 내부 부하 분산 장치**
 
-![AD FS 서버가 있는 Azure의 고가용성 Microsoft 365 페더타 인증 인프라 3단계](../media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
+![AD FS 서버가 있는 Azure의 고가용성 Microsoft 365 페더전 인증 인프라 3단계](../media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
   
 ## <a name="next-step"></a>다음 단계
 
-4단계: 이 작업을 계속 구성하도록 웹 응용 프로그램 [proxies를](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) 구성합니다.
+4단계: 웹 응용 프로그램 [proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) 구성을 사용하여 이 작업을 계속 구성합니다.
   
 ## <a name="see-also"></a>참고 항목
 
 [Azure에서 Microsoft 365용 고가용성 페더레이션 인증 배포](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
 [Microsoft 365 개발/테스트 환경에 대한 페더러티드 ID](federated-identity-for-your-microsoft-365-dev-test-environment.md)
-
-

@@ -1,5 +1,5 @@
 ---
-title: Register365에서 Microsoft용 DNS 레코드 만들기
+title: Microsoft용 Register365에서 DNS 레코드 만들기
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,15 +20,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 004030b4-10ad-4026-96e7-011b6afc7e73
-description: Microsoft용 Register365에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 6cefdeff3da1256911d80066b55b00f5bef24055
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Microsoft용 Register365에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 학습하세요.
+ms.openlocfilehash: a0bf077a6e034add48e9745711fb37d59e2c8203
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49656918"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910009"
 ---
-# <a name="create-dns-records-at-register365-for-microsoft"></a>Register365에서 Microsoft용 DNS 레코드 만들기
+# <a name="create-dns-records-at-register365-for-microsoft"></a>Microsoft용 Register365에서 DNS 레코드 만들기
 
  **원하는 정보는 찾지 못한 경우 [도메인 질문과 대답을 확인](../setup/domains-faq.yml)** 하세요. 
   
@@ -73,7 +73,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)를** 선택합니다.
+    (행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)** 를 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -131,7 +131,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**호스트 이름**|**우선 순위**|**결과**|
     |:-----|:-----|:-----|
-    |(이 필드는 비워 둡니다.)  <br/> |1   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)     |
+    |(이 필드는 비워 둡니다.)  <br/> |1  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.yml)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)     |
    
     ![DNS 영역 추가/수정 페이지에서 값 입력](../../media/2d3645a8-9cb8-435e-b895-5535b6b1fffd.png)
   
@@ -168,7 +168,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)를** 선택합니다.
+    (행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)** 를 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -206,7 +206,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)를** 선택합니다.
+    (행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)** 를 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -241,8 +241,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**이름**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**결과**|
     |:-----|:-----|:-----|:-----|:-----|
-    |_sip._tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls._tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
     ![서비스 레코드 섹션에 값 입력](../../media/56bb1813-90e2-40c8-98bf-750e2dc3f8b6.png)
   
@@ -254,4 +254,3 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 > [!NOTE]
 >  일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
-  

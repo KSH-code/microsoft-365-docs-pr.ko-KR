@@ -22,18 +22,18 @@ search.appverid:
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
 description: Microsoft 365 그룹을 관리하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: a01bf5dcc0b87cbdce8d7044b666cfb3a16a5aa9
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 529bdb874661329497b103a1207b90625ad33a4b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328555"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911010"
 ---
 # <a name="manage-microsoft-365-groups"></a>Microsoft 365 그룹 관리
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-구성에 따라 여러 가지 방법으로 Microsoft 365 그룹을 관리할 수 있습니다. [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/)관리 센터, PowerShell, AD DS(Active Directory 도메인 서비스) 또는 [Azure AD(Azure Active Directory)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)관리 센터에서 사용자 계정을 관리할 수 있습니다. 
+구성에 따라 여러 가지 방법으로 Microsoft 365 그룹을 관리할 수 있습니다. [Microsoft 365](../admin/add-users/index.yml)관리 센터, PowerShell, AD DS(Active Directory 도메인 서비스) 또는 [Azure AD(Azure Active Directory)](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)관리 센터에서 사용자 계정을 관리할 수 있습니다. 
 
 ## <a name="plan-for-where-and-how-you-will-manage-your-groups"></a>그룹 관리 위치 및 방법 계획
 
@@ -43,19 +43,19 @@ ms.locfileid: "48328555"
 
 다음을 사용하여 그룹을 만들고 관리합니다.
 
-- [Microsoft 365 관리 센터](https://docs.microsoft.com/microsoft-365/admin/add-users/)
+- [Microsoft 365 관리 센터](../admin/add-users/index.yml)
 - [PowerShell](maintain-group-membership-with-microsoft-365-powershell.md)
-- [Azure AD 관리 센터](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+- [Azure AD 관리 센터](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
     
 ### <a name="hybrid"></a>하이브리드
 
-AD DS 그룹은 AD DS에서 Microsoft 365와 동기화됩니다. 따라서 이러한 그룹을 관리하려면 On-premises AD DS 도구를 사용해야 합니다.
+AD DS 그룹은 AD DS에서 Microsoft 365와 동기화되어 있으므로 이러한 그룹을 관리하려면 사내 AD DS 도구를 사용해야 합니다.
 
 AD DS 그룹과는 별개이지만 AD DS의 사용자 및 그룹을 포함할 수 있는 Azure AD 그룹을 만들고 관리할 수도 있습니다. 이 경우 다음을 사용할 수 있습니다.
 
-- [Microsoft 365 관리 센터](https://docs.microsoft.com/microsoft-365/admin/add-users/)
+- [Microsoft 365 관리 센터](../admin/add-users/index.yml)
 - [PowerShell](maintain-group-membership-with-microsoft-365-powershell.md)
-- [Azure AD 관리 센터](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+- [Azure AD 관리 센터](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 
 ## <a name="allow-users-to-create-and-manage-their-own-groups"></a>사용자가 자신의 그룹을 만들고 관리하도록 허용하십시오.
 
@@ -67,7 +67,7 @@ Azure AD는 IT 관리자 대신 그룹 소유자가 관리할 수 있는 그룹�
 >셀프 서비스 그룹 관리는 Azure AD 보안 및 Microsoft 365 그룹에서만 사용할 수 있습니다. 메일 사용 가능 그룹, 메일 그룹 또는 AD DS에서 동기화된 그룹에는 사용할 수 없습니다.
 >
 
-자세한 내용은 [셀프 서비스 관리에 대한 Azure AD(Microsoft Azure Active Directory) 그룹 구성 지침](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-self-service-group-management)을 참조하십시오.
+자세한 내용은 [셀프 서비스 관리에 대한 Azure AD(Microsoft Azure Active Directory) 그룹 구성 지침](/azure/active-directory/active-directory-accessmanagement-self-service-group-management)을 참조하십시오.
 
 ## <a name="set-up-dynamic-group-membership"></a>동적 그룹 구성원 설정
 
@@ -82,7 +82,7 @@ Azure AD는 Azure AD 그룹의 구성원으로 사용자 계정을 자동으로 
 
 동적 구성원을 사용하려면 먼저 공통적인 사용자 계정 속성 집합이 있는 그룹 집합 확인해야 합니다. 예를 들어 Sales 부서의 모든 구성원은 “Sales”로 설정된 Department 사용자 계정 특성에 따라 Sales Azure AD 그룹에 속해야 합니다.
 
-[동적 Azure AD 그룹에 대한 규칙을 만들고 구성하는 지침](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal)을 참조하세요.
+[동적 Azure AD 그룹에 대한 규칙을 만들고 구성하는 지침](/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal)을 참조하세요.
 
 ## <a name="set-up-automatic-licensing"></a>자동 라이선싱 설정
 
@@ -96,6 +96,6 @@ Microsoft 365 Enterprise의 경우 적절한 Microsoft 365 Enterprise 라이선�
 >Azure B2B 계정이 포함된 그룹에 대해 그룹 기반 라이선싱을 구성해서는 안 됩니다.
 >
 
-자세한 내용은 Azure AD의 그룹 [기반 라이선싱 기본을 참조하세요.](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-whatis-azure-portal)
+자세한 내용은 Azure AD의 그룹 [기반 라이선싱 기본 정보를 참조하세요.](/azure/active-directory/active-directory-licensing-whatis-azure-portal)
 
-Azure 보안 그룹에 대한 그룹 [기반 라이선싱을 구성하는 지침을 참조하세요.](https://docs.microsoft.com/azure/active-directory/active-directory-licensing-group-assignment-azure-portal)
+Azure 보안 그룹에 대한 그룹 [기반 라이선싱을 구성하는 지침을 참조하세요.](/azure/active-directory/active-directory-licensing-group-assignment-azure-portal)

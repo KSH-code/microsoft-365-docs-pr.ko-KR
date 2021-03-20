@@ -14,19 +14,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하여 조직에 중요한 규정 및 인증의 요구 사항을 충족할 수 있도록 합니다.
-ms.openlocfilehash: 06b644293c014dafbe46c115b498c2ad2390e99d
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: ff2aa41b91f3cb019dbed542c422d61c79c4ecb5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406760"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908598"
 ---
 # <a name="build-and-manage-assessments-in-compliance-manager"></a>준수 관리자에서 평가 빌드 및 관리
 
 **이 문서의 예는** 평가를 만들고 관리하여 조직의 준수 관리자를 사용자 지정하는 **방법을 학습합니다.** 이 문서에서는 평가를 만드는 방법, 평가를 그룹으로 구성하는 **방법,** 컨트롤  **작업,** 업데이트 수락 및 평가 보고서 내보내기 방법을 **제공합니다.**
 
 > [!IMPORTANT]
-> 조직에서 사용할 수 있는 평가는 사용권 계약에 따라 달라 습니다. [세부 정보를 검토합니다.](https://go.microsoft.com/fwlink/?linkid=2132371)
+> 조직에서 사용할 수 있는 평가는 사용권 계약에 따라 달라 습니다. [세부 정보를 검토합니다.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="introduction-to-assessments"></a>평가 소개
 

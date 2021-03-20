@@ -18,19 +18,19 @@ f1.keywords:
 - CSH
 ms.custom: Adm_O365
 ms.assetid: f0522d4a-fbf4-41f9-854e-c9b59555091d
-description: SharePoint Online의 페이지 다운로드 시간 성능을 개선하는 방법을 알려는 다른 문서의 링크가 포함되어 있습니다.
-ms.openlocfilehash: c488cb47205c8f250494420ffe3a068244411859
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: SharePoint Online의 페이지 다운로드 시간 성능을 개선하는 방법을 알려 주는 다른 문서의 링크가 포함되어 있습니다.
+ms.openlocfilehash: 9ce463898b81e1653932864276be2fa8d6ce830b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692727"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909337"
 ---
 # <a name="tune-sharepoint-online-performance"></a>SharePoint Online 성능 조정
 
-이 문서에는 SharePoint Online의 페이지 다운로드 시간 성능을 개선하는 방법을 알려는 다른 문서의 링크가 포함되어 있습니다. 이 문서는 [Office 365](https://aka.ms/tune) 프로젝트에 대한 네트워크 계획 및 성능 조정의 일부입니다.
+이 문서에는 SharePoint Online의 페이지 다운로드 시간 성능을 개선하는 방법을 알려야 하는 다른 문서의 링크가 포함되어 있습니다. 이 문서는 [Office 365 프로젝트의](./network-planning-and-performance.md) 네트워크 계획 및 성능 조정의 일부입니다.
 
-## <a name="articles-about-fine-tuning-sharepoint-online-performance"></a>SharePoint Online 성능 미세 조정 관련 문서
+## <a name="articles-about-fine-tuning-sharepoint-online-performance"></a>SharePoint Online 성능 미세 조정에 대한 문서
 
 다음 문서를 사용하여 SharePoint Online 성능을 미세 조정할 수 있습니다.
   
@@ -38,9 +38,9 @@ ms.locfileid: "46692727"
 
 - [SharePoint Online용 페이지 진단 도구 사용](page-diagnostics-for-spo.md)
 
-- [SharePoint Online에 대한 탐색 옵션](navigation-options-for-sharepoint-online.md)
+- [SharePoint Online의 탐색 옵션](navigation-options-for-sharepoint-online.md)
 
-- [SharePoint Online 포털에 대한 성능 지침](https://docs.microsoft.com/sharepoint/dev/solution-guidance/portal-performance)
+- [SharePoint Online 포털에 대한 성능 지침](/sharepoint/dev/solution-guidance/portal-performance)
 
 - [SharePoint Online에 대한 이미지 최적화](image-optimization-for-sharepoint-online.md)
 
@@ -58,13 +58,13 @@ ms.locfileid: "46692727"
 
 - [SharePoint online에서 개체 캐시 사용](using-the-object-cache-with-sharepoint-online.md)
 
-- [방법: SharePoint Online에서 스로틀되거나 차단되지 않도록 방지](https://msdn.microsoft.com/library/office/dn889829.aspx)
+- [How to: Avoid getting throttled or blocked in SharePoint Online](/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)
 
 - [SharePoint Online 최신 포털 페이지에서 iFrame 최적화](modern-iframe-optimization.md)
 
 - [SharePoint Online 최신 포털 페이지에서 웹 파트 성능 최적화](modern-web-part-optimization.md)
 
-- [SharePoint Online 최신 포털 페이지에서 페이지 통화 최적화](modern-page-call-optimization.md)
+- [SharePoint Online 최신 포털 페이지에서 페이지 호출 최적화](modern-page-call-optimization.md)
 
 - [SharePoint Online 최신 포털 페이지에서 페이지 가중치 최적화](modern-page-weight-optimization.md)
 

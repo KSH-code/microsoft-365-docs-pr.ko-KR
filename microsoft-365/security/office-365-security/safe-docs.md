@@ -16,12 +16,12 @@ ms.collection:
 description: Microsoft 365 E5 또는 Microsoft 365 E5 보안의 안전한 문서에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 75dfa9e5687a4c4b561067190e7ce338074b2f66
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: f67dd21c4cea62012af4713bceddc2eebae33c7d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407423"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908810"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Microsoft 365 E5에서 안전한 문서
 
@@ -31,9 +31,9 @@ ms.locfileid: "50407423"
 - [Office 365용 Microsoft Defender 플랜 2](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-안전한 문서는 Microsoft 365 E5 또는 Microsoft 365 E5 보안의 기능으로, [끝점용 Microsoft Defender를](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 보호된 보기에서 연 문서 및 파일을 [검사합니다.](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)
+안전한 문서는 Microsoft 365 E5 또는 Microsoft 365 E5 보안의 기능으로, [끝점용 Microsoft Defender를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 보호된 보기에서 연 문서 및 파일을 [검사합니다.](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 안전한 문서는 *Microsoft 365 E5 또는 Microsoft 365 E5* *보안* 라이선스가 있는 사용자만 사용할 수 있습니다. 이러한 라이선스는 Microsoft Defender for Office 365 계획에 포함되어 있지 않습니다.
 
@@ -41,23 +41,23 @@ ms.locfileid: "50407423"
 
 - <https://protection.office.com>에서 보안 및 준수 센터를 엽니다. ATP 안전한 첨부 파일 페이지로 직접 **이동하기** 위해 를 를 니다. <https://protection.office.com/safeattachmentv2>
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
-- 이 문서의 절차를 수행하려면 **먼저 Exchange Online에서** 사용 권한을 할당해야 합니다.
+- 이 게시물의 절차를 수행하려면 먼저 **Exchange Online** 에서 사용 권한을 할당받아야 합니다.
   - 안전한 문서 설정을 구성하려면 조직 관리 또는  보안 관리자 역할 그룹의 **구성원이** 되어야 합니다.
   - 안전 문서 설정에 대한 읽기 전용 액세스의 경우 전역  읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 되어야 합니다.
 
-  자세한 내용은 [Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)을 참조하세요.
+  자세한 내용은 [Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo)을 참조하세요.
 
   > [!NOTE]
   >
-  > - Microsoft 365 관리 센터에서 해당 Azure Active Directory 역할에 사용자를  추가하면 Microsoft 365의 다른 기능에 필요한 사용 권한 및 사용 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+  > - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   >
-  > - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
+  > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 ### <a name="how-does-microsoft-handle-your-data"></a>Microsoft는 데이터를 어떻게 처리하나요?
 
-보호를 유지하기 위해 안전한 문서는 분석을 위해 [Microsoft Defender for Endpoint 클라우드로](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 파일을 전송합니다. 끝점용 Microsoft Defender가 데이터를 처리하는 방법에 대한 자세한 내용은 Endpoint 데이터 저장소 및 개인 정보 [보호용 Microsoft Defender에서](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)찾을 수 있습니다.
+보호를 유지하기 위해 안전한 문서는 분석을 위해 [Microsoft Defender for Endpoint 클라우드로](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 파일을 전송합니다. 끝점용 Microsoft Defender가 데이터를 처리하는 방법에 대한 자세한 내용은 Endpoint 데이터 저장소 및 개인 정보 [보호용 Microsoft Defender에서](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)찾을 수 있습니다.
 
 안전한 문서에서 보낸 파일은 분석에 필요한 시간(일반적으로 24시간 미만)이 지난 시간 동안 Defender에 보존되지 않습니다.
 
@@ -92,7 +92,7 @@ Set-AtpPolicyForO365 -EnableSafeDocs <$true | $false> -AllowSafeDocsOpen <$true 
 Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [Set-AtpPolicyForO365를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365)
+구문과 매개 변수에 대한 자세한 내용은 [Set-AtpPolicyForO365를 참조하십시오.](/powershell/module/exchange/set-atppolicyforo365)
 
 ### <a name="how-do-i-know-this-worked"></a>작동 여부는 어떻게 확인합니까?
 

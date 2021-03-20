@@ -20,21 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
-description: AWS(Amazon Web Services)에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 자세히 알아보십시오.
-ms.openlocfilehash: bb687b8685aed79f5f768c12d652205bbbed0f59
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Microsoft AWS(Amazon Web Services)에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 알아보십시오.
+ms.openlocfilehash: 12f9341ab381324266cf2da1ca6b5423df9973dd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657975"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910417"
 ---
 # <a name="create-dns-records-at-amazon-web-services-aws-for-microsoft"></a>AWS(Amazon Web Services)에서 Microsoft용 DNS 레코드 만들기
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요. 
   
-DNS 호스팅 공급자로 AWS를 사용하고 있는 경우 이 문서의 단계에 따라 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online에 대한 DNS 레코드를 설정하세요.
+DNS 호스팅 공급자로 AWS를 사용하고 있는 경우 이 문서의 단계에 따라 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 등 DNS 레코드를 설정하세요.
   
-AWS에서 이러한 레코드를 추가하고 나면 도메인이 Microsoft 서비스와 함께 작동할 수 있도록 설정됩니다.
+AWS에서 이러한 레코드를 추가하고 나면 도메인이 Microsoft 서비스에서 작동할 수 있도록 설정됩니다.
   
 
   
@@ -51,11 +51,11 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 1. 시작하려면 [이 링크](https://console.aws.amazon.com/route53/home)를 사용하여 AWS의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
-2. 리소스 **페이지에서** 호스팅된 **영역 선택**
+2. 리소스 **페이지에서** 호스팅된 **영역 을 선택합니다.**
     
-3. 호스팅된 **영역** 페이지의 도메인 **이름** 열에서 편집할 도메인의 이름을 선택합니다. 
+3. 호스팅된 **영역** 페이지의 도메인 이름  열에서 편집할 도메인의 이름을 선택합니다. 
     
-4. 레코드 **집합 만들기를 선택합니다.**
+4. Create **Record Set(레코드 집합 만들기)를 선택합니다.**
     
 5. In the **Create Record Set** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -73,7 +73,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
 7. 방금 만든 레코드가 인터넷에서 업데이트될 수 있도록 몇 분 정도 기다립니다.
     
-이제 도메인 등록 기관의 사이트에 레코드를 추가한 후 Microsoft로 돌아가서 레코드에 대한 검색을 요청합니다.
+이제 도메인 등록 기관의 사이트에 레코드를 추가한 후 Microsoft로 돌아가 레코드에 대한 검색을 요청합니다.
   
 Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
@@ -94,11 +94,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
 1. 시작하려면 [이 링크](https://console.aws.amazon.com/route53/home)를 사용하여 AWS의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
-2. 리소스 **페이지에서** 호스팅된 **영역 선택**
+2. 리소스 **페이지에서** 호스팅된 **영역 을 선택합니다.**
     
-3. 호스팅된 **영역** 페이지의 도메인 **이름** 열에서 편집할 도메인의 이름을 선택합니다. 
+3. 호스팅된 **영역** 페이지의 도메인 이름  열에서 편집할 도메인의 이름을 선택합니다. 
     
-4. 레코드 **집합 만들기를 선택합니다.**
+4. Create **Record Set(레코드 집합 만들기)를 선택합니다.**
     
 5. In the **Create Record Set** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -117,7 +117,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 7. 다른 MX 레코드가 있으면 해당 레코드를 제거합니다.
     
     > [!IMPORTANT]
-    > AWS에서는 MX 레코드를 여러 레코드가 포함될 수 있는 한 집합으로 저장합니다. **방금 추가한** 레코드를 포함하여 모든 MX 레코드가 삭제됩니다. 레코드 집합 삭제를 선택하지 않습니다.  대신 다음 지침을 따릅니다. 
+    > AWS에서는 MX 레코드를 여러 레코드가 포함될 수 있는 한 집합으로 저장합니다. **방금** **추가한** MX 레코드를 포함하여 모든 MX 레코드가 삭제될 것이기 때문에 레코드 집합 삭제를 선택하지 않습니다. 대신 다음 지침을 따릅니다. 
   
     먼저 MX 레코드 집합을 선택합니다.
     
@@ -127,7 +127,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![AWS-BP-Configure-2-4](../../media/c3b0c1bc-21ab-44cc-84b7-f504725c5540.png)
   
-8. 레코드 **저장 집합을 선택합니다.**
+8. 레코드 **집합 저장을 선택합니다.**
     
     ![AWS-BP-Configure-2-5](../../media/86f0998d-f5d4-4750-a93d-ac13b318c40b.png)
   
@@ -136,11 +136,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 
 1. 시작하려면 [이 링크](https://console.aws.amazon.com/route53/home)를 사용하여 AWS의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
-2. 리소스 **페이지에서** 호스팅된 **영역 선택**
+2. 리소스 **페이지에서** 호스팅된 **영역 을 선택합니다.**
     
-3. 호스팅된 **영역** 페이지의 도메인 **이름** 열에서 편집할 도메인의 이름을 선택합니다. 
+3. 호스팅된 **영역** 페이지의 도메인 이름  열에서 편집할 도메인의 이름을 선택합니다. 
     
-4. 레코드 **집합 만들기를 선택합니다.**
+4. Create **Record Set(레코드 집합 만들기)를 선택합니다.**
     
 5. 첫 번째 CNAME 레코드를 추가합니다.
     
@@ -164,7 +164,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 7. 나머지 4개의 CNAME 레코드를 추가합니다.
     
-    호스팅된  영역 페이지에서 레코드 집합 만들기를 선택하고 **표의** 다음 행 값을 사용하여 레코드를 만든  다음 만들기를 다시 선택하여 해당 레코드를 완료합니다. 
+    호스팅된 **영역** 페이지에서 레코드 집합 만들기를 선택하고 표의 다음 행 값을 사용하여 레코드를 만든  다음 만들기를 다시 선택하여 해당 레코드를 완료합니다. 
     
     5개의 CNAME 레코드를 모두 만들 때까지 이 프로세스를 반복합니다.
     
@@ -172,13 +172,13 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신 두 값 집합을 모두 포함하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필요한 Microsoft 값을 추가합니다. 예제가 필요하세요? [Microsoft에 대한 외부 Domain Name System 레코드](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records)를 참조하세요. SPF 레코드의 유효성을 검사하기 위해 다음 SPF 유효성 검사 도구 중[하나를 사용할 수 있습니다.](../setup/domains-faq.yml) 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신 두 값 집합을 모두 포함하는  *단일*  SPF 레코드가 있도록 현재 레코드에 필요한 Microsoft 값을 추가합니다. 예제가 필요하세요? [Microsoft에 대한 외부 Domain Name System 레코드](../../enterprise/external-domain-name-system-records.md)를 참조하세요. SPF 레코드의 유효성을 검사하기 위해 다음 SPF 유효성 검사 도구 중[하나를 사용할 수 있습니다.](../setup/domains-faq.yml) 
   
 1. 시작하려면 [이 링크](https://console.aws.amazon.com/route53/home)를 사용하여 AWS의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
-2. 리소스 **페이지에서** 호스팅된 **영역 선택**
+2. 리소스 **페이지에서** 호스팅된 **영역 을 선택합니다.**
     
-3. 호스팅된 **영역** 페이지의 도메인 **이름** 열에서 편집할 도메인의 이름을 선택합니다. 
+3. 호스팅된 **영역** 페이지의 도메인 이름  열에서 편집할 도메인의 이름을 선택합니다. 
     
 4. **TXT 레코드 집합을** 선택합니다. 
     
@@ -192,20 +192,20 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
    
     ![AWS-BP-Configure-4-2](../../media/beb3c086-eaf8-4245-9860-18512a3ff72e.png)
   
-6. 레코드 **저장 집합을 선택합니다.**
+6. 레코드 **집합 저장을 선택합니다.**
     
     ![AWS-BP-Configure-4-3](../../media/94b9306c-bdc9-4f84-ad6f-6d12edbfde90.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-microsoft-365"></a>Microsoft 365에 필요한 2개의 SRV 레코드 추가
+## <a name="add-the-two-srv-records-that-are-required-for-microsoft-365"></a>Microsoft 365에 필요한 두 SRV 레코드 추가
 <a name="BKMK_add_SRV"> </a>
 
 1. 시작하려면 [이 링크](https://console.aws.amazon.com/route53/home)를 사용하여 AWS의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
-2. 리소스 **페이지에서** 호스팅된 **영역 선택**
+2. 리소스 **페이지에서** 호스팅된 **영역 을 선택합니다.**
     
-3. 호스팅된 **영역** 페이지의 도메인 **이름** 열에서 편집할 도메인의 이름을 선택합니다. 
+3. 호스팅된 **영역** 페이지의 도메인 이름  열에서 편집할 도메인의 이름을 선택합니다. 
     
-4. 레코드 **집합 만들기를 선택합니다.**
+4. Create **Record Set(레코드 집합 만들기)를 선택합니다.**
     
 5. 첫 번째 SRV 레코드를 추가합니다.
     
@@ -226,8 +226,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 7. 다른 SRV 레코드를 추가하려면
     
-    호스팅된  영역 페이지에서 레코드 집합 만들기를 선택하고 **표의** 다음 행 값을 사용하여 레코드를 만든  다음 만들기를 다시 선택하여 해당 레코드를 완료합니다. 
+    호스팅된 **영역** 페이지에서 레코드 집합 만들기를 선택하고 표의 다음 행 값을 사용하여 레코드를 만든  다음 만들기를 다시 선택하여 해당 레코드를 완료합니다. 
     
 > [!NOTE]
 > Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제가 발생하는 경우 [도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결하기](../get-help-with-domains/find-and-fix-issues.md)를 참조하세요. 
-  

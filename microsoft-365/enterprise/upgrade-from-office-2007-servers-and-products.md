@@ -24,12 +24,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 Office 2007에 대한 지원이 종료된 경우 Office 2007 서버 및 클라이언트에서 업그레이드하는 데 도움이 되는 리소스를 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28fa1d56ef66297eaf69d2d11b720e3de2d668f7
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 36ae7ab70b8a95a7762f426f5a0d463083e7bc71
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519789"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909289"
 ---
 # <a name="resources-to-help-you-upgrade-from-office-2007-servers-and-clients"></a>Office 2007 서버 및 클라이언트에서 업그레이드하는 데 도움이 되는 리소스
 
@@ -39,15 +39,15 @@ Office 2007 제품 및 서비스를 사용하는 경우 이러한 응용 프로�
       
 ## <a name="office-2007-planning-roadmaps"></a>Office 2007 계획 로드맵
   
-Office 2007 제품 및 서비스에 대한 지원이 종료됩니다. 다음 로드맵을 통해 지금 업그레이드를 계획할 수 있습니다.
+Office 2007 제품 및 서비스에 대한 지원이 종료됩니다. 다음 로드맵은 지금 업그레이드를 계획하는 데 도움이 될 수 있습니다.
 
 |**콘텐츠 계획**|**종료된 날짜 지원**|
 |:-----|:-----|
-|[Office 2007 지원 종료 로드맵](https://docs.microsoft.com/DeployOffice/office-2007-end-support-roadmap) <br/> |2017년 10월 10일  <br/> |
+|[Office 2007 지원 종료 로드맵](/DeployOffice/office-2007-end-support-roadmap) <br/> |2017년 10월 10일  <br/> |
 |[Exchange 2007 지원 종료 로드맵](exchange-2007-end-of-support.md) <br/> |2017년 4월 11일  <br/> |
 |[SharePoint Server 2007 지원 종료 로드맵](sharepoint-2007-end-of-support.md) <br/> |2017년 10월 10일  <br/> |
 |[Project Server 2007 지원 종료 로드맵](project-server-2007-end-of-support.md) <br/> |2017년 10월 10일  <br/> |
-|[Office Communications Server에서 업그레이드](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/upgrade) <br/> |2018년 1월 8일  <br/> |
+|[Office Communications Server에서 업그레이드](/SkypeForBusiness/plan-your-deployment/upgrade) <br/> |2018년 1월 8일  <br/> |
 |[PerformancePoint Server 2007 지원 종료 로드맵](pps-2007-end-of-support.md) <br/> |2018년 1월 9일  <br/> |
    
 Microsoft 제품에 대한 지원이 종료된 후 더 이상 다음이 없습니다.
@@ -56,17 +56,16 @@ Microsoft 제품에 대한 지원이 종료된 후 더 이상 다음이 없습�
 - 사용 가능한 무료 또는 유료 지원 옵션(사용자 지정 지원 계약 포함)
 - 새로운 온라인 기술 콘텐츠 업데이트
 
-엔터프라이즈 조직이든 개별 가정용 사용자이든 고려할 몇 가지 옵션이 있습니다.
+엔터프라이즈 조직이든 개별 가정용 사용자이든 고려할 수 있는 몇 가지 옵션이 있습니다.
 
 ## <a name="im-a-home-user-what-do-i-do"></a>저는 가정용 사용자입니다. 어떻게 해야 하나요?
 
-가정에서 Office 2007 제품 및 응용 프로그램을 사용하는 경우 이 [정보를 참조하세요.](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do)
+가정에서 Office 2007 제품 및 응용 프로그램을 사용하는 경우 이 정보를 [참조하세요.](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do)
      
 ## <a name="related-topics"></a>관련 항목
 
 [비디오: Microsoft 365란 무엇인가요?](https://support.office.com/article/847caf12-2589-452c-8aca-1c009797678b.aspx)
   
-[Microsoft 수명 주기 정책](https://go.microsoft.com/fwlink/?linkid=865200)
+[Microsoft 수명 주기 정책](/lifecycle/)
 
 [Office 2007 또는 Office 2010 서버 및 클라이언트에서 업그레이드 계획](plan-upgrade-previous-versions-office.md)
-  

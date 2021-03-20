@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dc55f9f-5309-450f-acc3-b2b4119c8be3
 description: Microsoft용 네트워크 솔루션에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 알아보십시오.
-ms.openlocfilehash: 9cb403bb8b469f2d7f4e6138ba5833120ea53585
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: f25e21037695c99489adc9038bf70629a103ec7a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657794"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910141"
 ---
 # <a name="create-dns-records-at-network-solutions-for-microsoft"></a>Microsoft용 네트워크 솔루션에서 DNS 레코드 만들기
 
@@ -76,7 +76,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 3. DNS **편집을 선택합니다.**
     
-    ![DNS 편집 선택](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
+    ![DNS 편집을 선택합니다.](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
   
 4. 고급 **DNS 레코드 관리를 선택합니다.**
     
@@ -98,7 +98,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 7. 계속을 **선택합니다.**
     
-    ![계속 선택](../../media/89e7fb38-b4d9-4949-a1bb-d0dd10b361e0.png)
+    ![계속을 선택합니다.](../../media/89e7fb38-b4d9-4949-a1bb-d0dd10b361e0.png)
   
 8. 변경 **내용 저장을 선택합니다.**
     
@@ -145,7 +145,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 3. DNS **편집을 선택합니다.**
     
-    ![DNS 편집 선택](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
+    ![DNS 편집을 선택합니다.](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
   
 4. 고급 **DNS 레코드 관리를 선택합니다.**
     
@@ -155,19 +155,19 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 5. 아래로 스크롤하여 **메일 서버(MX 레코드)** 구역으로 이동한 다음 MX 레코드 **편집을 선택합니다.**
     
-    ![Select Edit MX Records](../../media/74b4e412-9073-4d2d-8710-fe340b223798.png)
+    ![MX 레코드 편집 선택](../../media/74b4e412-9073-4d2d-8710-fe340b223798.png)
   
 6. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다.
     
     |**우선 순위**|**TTL**|**메일 서버**|
     |:-----|:-----|:-----|
-    |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |3600  <br/> | *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
+    |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.yml)을 참조하세요. <br/> |3600  <br/> | *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
        
     ![새 레코드의 상자에 값을 입력하거나 붙여넣습니다.](../../media/0bb96872-cc6e-4dfa-a649-fb7efbbf0012.png)
   
 7. 계속을 **선택합니다.**
     
-    ![계속 선택](../../media/963f758b-e79d-4452-8340-7eba8a3972c9.png)
+    ![계속을 선택합니다.](../../media/963f758b-e79d-4452-8340-7eba8a3972c9.png)
   
 8. 변경 **내용 저장을 선택합니다.**
     
@@ -177,9 +177,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Select the Delete check box for other MX records](../../media/709d6133-9f5d-490a-a91e-95e21ca94695.png)
   
-10. 모두 선택되면 계속을 **선택합니다.**
+10. 모두 선택되면 계속 을 **선택합니다.**
     
-    ![계속 선택](../../media/4710f988-0bbc-4ba7-bf31-ca2392b2900e.png)
+    ![계속을 선택합니다.](../../media/4710f988-0bbc-4ba7-bf31-ca2392b2900e.png)
   
 11. 변경 **내용 저장을 선택합니다.**
     
@@ -203,7 +203,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 3. DNS **편집을 선택합니다.**
     
-    ![DNS 편집 선택](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
+    ![DNS 편집을 선택합니다.](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
   
 4. 고급 **DNS 레코드 관리를 선택합니다.**
     
@@ -227,9 +227,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![새 레코드의 값 입력 또는 붙여넣기](../../media/5ce0b30c-b46c-4778-aa5a-fb5e2f0961c1.png)
   
-7. 필요한 모든 CNAME 레코드를 추가한 경우 계속을 **선택합니다.**
+7. 필요한 모든 CNAME 레코드를 추가한 경우 계속 을 **선택합니다.**
     
-    ![계속 선택](../../media/4978bd8b-f6a6-458d-9522-ad612b301c4a.png)
+    ![계속을 선택합니다.](../../media/4978bd8b-f6a6-458d-9522-ad612b301c4a.png)
   
 8. 변경 **내용 저장을 선택합니다.**
     
@@ -256,7 +256,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 3. DNS **편집을 선택합니다.**
     
-    ![DNS 편집 선택](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
+    ![DNS 편집을 선택합니다.](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
   
 4. 고급 **DNS 레코드 관리를 선택합니다.**
     
@@ -278,7 +278,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 7. 계속을 **선택합니다.**
     
-    ![계속 선택](../../media/482a8dae-0c79-47c4-8bd8-87965683de24.png)
+    ![계속을 선택합니다.](../../media/482a8dae-0c79-47c4-8bd8-87965683de24.png)
   
 8. 변경 **내용 저장을 선택합니다.**
     
@@ -302,7 +302,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 3. DNS **편집을 선택합니다.**
     
-    ![DNS 편집 선택](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
+    ![DNS 편집을 선택합니다.](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
   
 4. 고급 **DNS 레코드 관리를 선택합니다.**
     
@@ -310,7 +310,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![고급 DNS 레코드 관리 선택](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
-5. 아래로 스크롤하여 **서비스(SRV 레코드)** 섹션으로 이동한 다음 **SRV 레코드 편집을 선택합니다.**
+5. 아래로 스크롤하여 **서비스(SRV 레코드)** 구역으로 이동한 다음 **SRV 레코드 편집을 선택합니다.**
     
     ![서비스에서 SRV 레코드 편집 선택](../../media/9a9248ea-5de5-4e16-9364-f7600fa371f5.png)
   
@@ -320,14 +320,14 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**서비스**|**프로토콜**|**TTL**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**대상**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |_tls  <br/> |3600  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
-    |_sipfederationtls  <br/> |_tcp  <br/> |3600  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
+    |_sip  <br/> |_tls  <br/> |3600  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
+    |_sipfederationtls  <br/> |_tcp  <br/> |3600  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
        
     ![새 레코드의 값 입력 또는 붙여넣기](../../media/86968d1c-8e43-4e61-aeaa-37fc7d7ef7a7.png)
   
 7. 계속을 **선택합니다.**
     
-    ![계속 선택](../../media/bfe2c778-5d2b-4bb6-a79d-c3ff9caf9e1e.png)
+    ![계속을 선택합니다.](../../media/bfe2c778-5d2b-4bb6-a79d-c3ff9caf9e1e.png)
   
 8. 변경 **내용 저장을 선택합니다.**
     
@@ -335,4 +335,3 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 > [!NOTE]
 >  일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
-  

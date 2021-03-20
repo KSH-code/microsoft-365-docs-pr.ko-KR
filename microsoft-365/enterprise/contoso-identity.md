@@ -14,26 +14,26 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 IDaaS(Identity as a Service)를 활용하고 직원을 위해 클라우드 기반 인증을 제공하고, 파트너 및 고객을 위해 페더레이션 인증을 제공하는 방법을 알아봅니다.
-ms.openlocfilehash: dea0f53ef1c3fdc2ea32256303c6120c614c904d
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: accd60f6699e7ebf04963213128d1ca1ffc8f7fe
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754644"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911075"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Contoso Corporation의 ID
 
-Microsoft는 Azure AD(Azure Active Directory)를 통해 클라우드 서비스 전반에 걸쳐 IDaaS(Identity as a Service)를 제공합니다. 엔터프라이즈용 Microsoft 365를 채택하기 위해 Contoso IDaaS 솔루션은 해당 프레미스 ID 공급자를 사용하며 기존의 신뢰할 수 있는 타사 ID 공급자와의 페더전 인증을 포함해야 합니다.
+Microsoft는 Azure AD(Azure Active Directory)를 통해 클라우드 서비스 전반에 걸쳐 IDaaS(Identity as a Service)를 제공합니다. 엔터프라이즈용 Microsoft 365를 채택하기 위해 Contoso IDaaS 솔루션은 해당 사내 ID 공급자를 사용하며 기존의 신뢰할 수 있는 타사 ID 공급자와의 페더임 인증을 포함해야 합니다.
 
 ## <a name="the-contoso-active-directory-domain-services-forest"></a>Contoso Active Directory 도메인 서비스 포리스트
 
-Contoso는 전 세계 각 지역에 대해 하나씩, 7개의 하위 도메인이 있는 contoso com에 대해 단일 AD DS(Active Directory 도메인 서비스) 포리스트를 \. 사용했습니다. 본사, 지역 허브 사무실 및 위성 사무실에는 로컬 인증 및 권한 부여를 위한 도메인 컨트롤러가 있습니다.
+Contoso는 7개의 하위 도메인이 있는 contoso com에 대해 단일 AD DS(Active Directory 도메인 서비스) \. 포리스트를 사용하게 됩니다. 본사, 지역 허브 사무실 및 위성 사무실에는 로컬 인증 및 권한 부여를 위한 도메인 컨트롤러가 있습니다.
 
-다음은 지역 허브를 포함하는 전 세계의 여러 부분에 대한 지역별 도메인이 있는 Contoso 포리스트입니다.
+다음은 지역 허브를 포함하는 전 세계 여러 지역을 위한 지역 도메인이 있는 Contoso 포리스트입니다.
 
 ![Contoso의 전 세계 포리스트 및 도메인](../media/contoso-identity/contoso-identity-fig1.png)
  
-Contoso는 Contoso com 포리스트의 계정 및 그룹을 Microsoft 365 워크로드 및 서비스에 대한 인증 및 권한 부여에 \. 사용하기로 결정했습니다.
+Contoso는 Microsoft 365 워크로드 및 서비스에 대한 인증 및 권한 부여를 위해 contoso com 포리스트의 계정 및 그룹을 \. 사용하기로 결정했습니다.
 
 ## <a name="the-contoso-federated-authentication-infrastructure"></a>Contoso 페더전 인증 인프라
 
@@ -42,29 +42,29 @@ Contoso는 다음을 허용합니다.
 - 고객은 Microsoft, Facebook 또는 Google Mail 계정을 사용하여 회사의 공용 웹 사이트에 로그인합니다.
 - 공급업체 및 파트너는 LinkedIn, Salesforce 또는 Google Mail 계정을 사용하여 회사의 파트너 엑스트라넷에 로그인합니다.
 
-다음은 공용 웹 사이트, 파트너 엑스트라넷 및 AD FS(Active Directory Federation Services) 서버 집합을 포함하는 Contoso DMZ입니다. DMZ는 고객, 파트너 및 인터넷 서비스를 포함하는 인터넷에 연결됩니다.
+다음은 공용 웹 사이트, 파트너 엑스트라넷 및 AD FS(Active Directory Federation Services) 서버 집합을 포함하는 Contoso DMZ입니다. DMZ는 고객, 파트너 및 인터넷 서비스가 포함된 인터넷에 연결됩니다.
 
-![Contoso에서 고객 및 파트너를 위한 페더타 인증 지원](../media/contoso-identity/contoso-identity-fig2.png)
+![고객 및 파트너를 위한 페더전 인증에 대한 Contoso 지원](../media/contoso-identity/contoso-identity-fig2.png)
  
-DMZ의 AD FS 서버를 사용하면 공용 웹 사이트에 액세스하기 위해 ID 공급자가 고객 자격 증명을 인증하고 파트너 엑스트라넷에 액세스하기 위한 파트너 자격 증명을 쉽게 인증할 수 있습니다.
+DMZ의 AD FS 서버는 공용 웹 사이트에 액세스하기 위해 ID 공급자가 고객 자격 증명을 인증하고 파트너 엑스트라넷에 액세스하기 위한 파트너 자격 증명을 쉽게 인증할 수 있도록 합니다.
 
-Contoso는 이 인프라를 유지 관리하고 고객 및 파트너 인증에 전담하기로 결정했습니다. Contoso ID 설계자는 이 인프라를 Azure AD [B2B 및 B2C](https://docs.microsoft.com/azure/active-directory/b2b/hybrid-organizations) 솔루션으로 변환하는 방안을 [조사하고](https://docs.microsoft.com/azure/active-directory-b2c/solution-articles) 있습니다.
+Contoso는 이 인프라를 보관하고 고객 및 파트너 인증에 전담하기로 결정했습니다. Contoso ID 설계자는 이 인프라를 Azure AD [B2B](/azure/active-directory/b2b/hybrid-organizations) 및 [B2C](/azure/active-directory-b2c/solution-articles) 솔루션으로 변환하는 방법을 조사하고 있습니다.
 
 ## <a name="hybrid-identity-with-password-hash-synchronization-for-cloud-based-authentication"></a>클라우드 기반 인증을 위해 암호 해시 동기화를 사용하는 하이브리드 ID
 
-Contoso는 Microsoft 365 클라우드 리소스에 대한 인증을 위해 해당 프레미스 AD DS 포리스트를 사용하기를 원했습니다. PHS(암호 해시 동기화)를 사용하기로 결정했습니다.
+Contoso는 Microsoft 365 클라우드 리소스에 대한 인증을 위해 해당 사내 AD DS 포리스트를 사용했습니다. PHS(암호 해시 동기화)를 사용하기로 결정했습니다.
 
-PHS는 엔터프라이즈용 Microsoft 365 구독의 Azure AD 테넌트와, 사용자 및 그룹 계정 및 해시된 버전의 사용자 계정 암호를 복사하여, 프레미스 AD DS 포리스트를 동기화합니다.
+PHS는 엔터프라이즈용 Microsoft 365 구독의 Azure AD 테넌트와 사내 AD DS 포리스트를 동기화하여 사용자 및 그룹 계정 및 해시된 버전의 사용자 계정 암호를 복사합니다.
 
 디렉터리 동기화를 위해 Contoso는 파리 데이터 센터의 서버에 Azure AD Connect 도구를 배포했습니다.
 
-다음은 Azure AD Connect를 실행하는 서버가 Contoso AD DS 포리스트에서 변경 내용을 폴링한 다음 Azure AD 테넌트와 동기화하는 것입니다.
+다음은 Azure AD Connect를 실행하는 서버가 Contoso AD DS 포리스트에서 변경 내용을 폴링한 다음 해당 변경 내용을 Azure AD 테넌트와 동기화하는 것입니다.
 
 ![Contoso PHS 디렉터리 동기화 인프라](../media/contoso-identity/contoso-identity-fig4.png)
  
 ## <a name="conditional-access-policies-for-identity-and-device-access"></a>ID 및 디바이스 액세스에 대한 조건부 액세스 정책
 
-Contoso는 다음 세 가지 보호 수준에서 Azure AD 및 Intune [조건부 액세스 정책](identity-access-policies.md) 세트를 만들었습니다.
+Contoso는 다음 세 가지 보호 수준에서 Azure AD 및 Intune [조건부 액세스 정책](../security/office-365-security/identity-access-policies.md) 세트를 만들었습니다.
 
 - *기준 보호는* 모든 사용자 계정에 적용됩니다.
 - *중요한* 보호는 고위 경영진 및 임원진에게 적용됩니다.
@@ -76,7 +76,7 @@ Contoso ID 및 장치 조건부 액세스 정책의 결과 집합은 다음과 �
  
 ## <a name="next-step"></a>다음 단계
 
-Contoso가 Microsoft Endpoint Configuration Manager 인프라를 사용하여 조직 전체에서 [최신 Windows 10 Enterprise를](contoso-win10.md) 배포하고 유지하는 방법을 알아보습니다.
+Contoso에서 Microsoft Endpoint Configuration Manager 인프라를 사용하여 조직 전체에서 최신 [Windows 10 Enterprise를](contoso-win10.md) 배포하고 유지하는 방법을 알아보습니다.
 
 ## <a name="see-also"></a>참고 항목
 

@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Office_Other
 - O365ITProTrain
 description: PowerShell을 사용하여 보안 그룹을 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: a52fcf6a20598e92f9d5ac8d673a4b1c026030f8
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+ms.openlocfilehash: 64a02a1472fdeb0d61cfb4f380cbe61dd7b557b6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49073230"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909505"
 ---
 # <a name="manage-security-groups-with-powershell"></a>PowerShell을 사용하여 보안 그룹 관리
 
@@ -34,7 +34,7 @@ Microsoft 365 관리 센터 대신 Microsoft 365용 PowerShell을 사용하여 �
 
 이 문서의 명령 블록에 변수 값을 지정해야 하는 경우 다음 단계를 사용합니다.
 
-1. 명령 블록을 클립보드에 복사하여 메모장 또는 PowerShell ISE(통합 스크립트 환경)에 붙여 넣습니다.
+1. 명령 블록을 클립보드에 복사하여 메모장이나 PowerShell ISE(통합 스크립트 환경)에 붙여 넣습니다.
 2. 변수 값을 입력하고 "<" 및 ">" 문자를 제거합니다.
 3. PowerShell 창 또는 PowerShell ISE에서 명령을 실행합니다.
 
@@ -51,7 +51,7 @@ PowerShell을 사용하여 그룹 [구성원을](maintain-group-membership-with-
 ```powershell
 Get-AzureADGroup
 ```
-다음 명령을 사용하여 특정 그룹의 설정을 표시 이름으로 표시합니다.
+다음 명령을 사용하여 표시 이름으로 특정 그룹의 설정을 표시합니다.
 
 ```powershell
 $groupName="<display name of the group>"
@@ -75,7 +75,7 @@ $groupName="<display name of the group>"
 Get-AzureADGroup | Where { $_.DisplayName -eq $groupName } | Select *
 ```
 
-그런 다음 [Set-AzureADGroup](https://docs.microsoft.com/powershell/module/azuread/set-azureadgroup) 문서를 사용하여 설정을 변경하는 방법을 결정할 수 있습니다.
+그런 다음 [Set-AzureADGroup](/powershell/module/azuread/set-azureadgroup) 문서를 사용하여 설정을 변경하는 방법을 결정할 수 있습니다.
 
 ### <a name="remove-a-security-group"></a>보안 그룹 제거
 
@@ -94,7 +94,7 @@ Remove-AzureADGroup -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $gr
 $groupName="<display name of the group>"
 Get-AzureADGroupOwner -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupName }).ObjectId
 ```
-다음 명령을 사용하여 UPN(사용자 계정 **이름)으로** 사용자 계정을 보안 그룹의 현재 소유자에게 추가합니다.
+다음 명령을 사용하여 **UPN(사용자** 계정 이름)으로 사용자 계정을 보안 그룹의 현재 소유자에게 추가합니다.
 
 ```powershell
 $userUPN="<UPN of the user account to add>"
@@ -135,7 +135,7 @@ Remove-AzureADGroupOwner -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -e
 ```powershell
 Get-MsolGroup
 ```
-다음 명령을 사용하여 특정 그룹의 설정을 표시 이름으로 표시합니다.
+다음 명령을 사용하여 표시 이름으로 특정 그룹의 설정을 표시합니다.
 
 ```powershell
 $groupName="<display name of the group>"
@@ -159,7 +159,7 @@ $groupName="<display name of the group>"
 Get-MsolGroup | Where { $_.DisplayName -eq $groupName } | Select *
 ```
 
-그런 다음 [Set-MsolGroup](https://docs.microsoft.com/powershell/module/msonline/set-msolgroup) 문서를 사용하여 설정을 변경하는 방법을 결정할 수 있습니다.
+그런 다음 [Set-MsolGroup](/powershell/module/msonline/set-msolgroup) 문서를 사용하여 설정을 변경하는 방법을 결정할 수 있습니다.
 
 ### <a name="remove-a-security-group"></a>보안 그룹 제거
 
@@ -177,4 +177,3 @@ Remove-MsolGroup -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $group
 [PowerShell로 Microsoft 365 관리](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Microsoft 365 용 PowerShell 시작](getting-started-with-microsoft-365-powershell.md)
-

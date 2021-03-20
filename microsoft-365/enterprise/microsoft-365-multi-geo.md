@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 이 문서에서는 Microsoft 365 Multi-Geo를 사용하여 Microsoft 365 범위를 여러 지리적 지역으로 확장하는 방법을 알아봅니다.
-ms.openlocfilehash: 6d16d222a97f309eafdd79a2b107978ce7b4f242
-ms.sourcegitcommit: 0867495cb02d0b38b439b16bdce97e6eda483ba9
+ms.openlocfilehash: 2805470f1a35bb5978f3d25c30aa07523ad21afb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712500"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909553"
 ---
 # <a name="microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo
 
@@ -50,7 +50,7 @@ Multi-Geo 환경에서 Microsoft 365 테넌트는 중앙 위치(Microsoft 365 �
 
 ## <a name="licensing"></a>라이선싱
 
-Microsoft 365 Multi-Geo는 테넌트에 최소 250명 이상의 Microsoft 365 사용자 수가 있는 기업계약 고객을 위한 다음 Microsoft 365 구독 계획에 대한 추가 기능으로 사용할 수 있으며, 이러한 사용자 중 최소 5%는 Multi-Geo를 사용하는 것입니다. 사용자 구독 라이선스는 Multi-Geo 기업계약 라이선스와 동일한 라이선스에 있어야 합니다. 자세한 내용은 Microsoft 계정 팀에 문의하시기 바랍니다.
+Microsoft 365 Multi-Geo는 테넌트에 최소 250대의 Microsoft 365 사용자 수가 있는 기업계약 고객을 위한 다음 Microsoft 365 구독 계획에 대한 추가 기능으로 사용할 수 있으며, 이러한 사용자 중 최소 5%는 Multi-Geo를 사용하세요. 사용자 구독 라이선스는 Multi-Geo Services 라이선스와 기업계약 라이선스에 있어야 합니다. 자세한 내용은 Microsoft 계정 팀에 문의하시기 바랍니다.
 
 - Microsoft 365 F1, F3, E3 또는 E5
 - Office 365 F3, E1, E3 또는 E5
@@ -88,4 +88,4 @@ Multi-Geo를 시작하려면 이러한 단계를 따르세요.
 
 [Exchange Online의 Multi-Geo 기능](multi-geo-capabilities-in-exchange-online.md)
 
-[Multi-Geo 환경의 Teams 작업 환경](https://docs.microsoft.com/microsoftteams/teams-experience-o365odb-spo-multi-geo)
+[Multi-Geo 환경의 Teams 작업 환경](/microsoftteams/teams-experience-o365odb-spo-multi-geo)

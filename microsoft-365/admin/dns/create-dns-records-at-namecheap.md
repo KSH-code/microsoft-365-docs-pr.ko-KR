@@ -1,5 +1,5 @@
 ---
-title: Namecheap에서 Microsoft용 DNS 레코드 만들기
+title: Microsoft용 Namecheap에서 DNS 레코드 만들기
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 54ae2002-b38e-43a1-82fa-3e49d78fda56
-description: Microsoft용 Namecheap에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 1e0fa8839e4ceae5074059d6ae05e3c7456611c2
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Microsoft용 Namecheap에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 배워야 합니다.
+ms.openlocfilehash: 3de8c4fb7809423848564590193e00537362c034
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657842"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910153"
 ---
-# <a name="create-dns-records-at-namecheap-for-microsoft"></a>Namecheap에서 Microsoft용 DNS 레코드 만들기
+# <a name="create-dns-records-at-namecheap-for-microsoft"></a>Microsoft용 Namecheap에서 DNS 레코드 만들기
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요. 
   
 DNS 호스팅 공급자로 Namecheap을 사용하고 있는 경우 이 문서의 단계에 따라 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online에 대한 DNS 레코드를 설정하세요.
   
-Namecheap에서 이러한 레코드를 추가하고 나면 도메인이 Microsoft 서비스에서 작동하게 설정됩니다.
+Namecheap에서 이러한 레코드를 추가하고 나면 도메인이 Microsoft 서비스에서 작동할 수 있도록 설정됩니다.
   
 > [!NOTE]
 > 일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
@@ -53,26 +53,26 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. 방문 페이지의 **계정** 아래  **드롭다운** 목록에서 도메인 목록을 선택합니다. 
+2. 방문 **페이지의 계정** 아래 **드롭다운** 목록에서 도메인 목록을 선택합니다.  
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. 도메인 목록 **페이지에서** 편집할 도메인의 이름을 찾은 다음 관리 를 **선택합니다.**
+3. 도메인 **목록 페이지에서** 편집할 도메인의 이름을 찾은 다음 관리를 **선택합니다.**
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
-4. 고급 **DNS를 선택합니다.**
+4. 고급 **DNS 를 선택합니다.**
     
     ![Namecheap-BP-Configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
-5. HOST **RECORDS** 섹션에서 새 레코드 **추가를 선택합니다.**
+5. 호스트 **레코드 섹션에서** 새 **레코드 추가를 선택합니다.**
     
     ![Namecheap-BP-Configure-1-5](../../media/8849abfe-deb6-4f6a-b56d-e69be9a28b0f.png)
   
-6. 유형 **드롭다운에서** **TXT 레코드를 선택합니다.**
+6. 유형 **드롭다운에서** **TXT 레코드 를 선택합니다.**
     
     > [!NOTE]
-    > 새 **레코드** 추가를 선택하면 유형 드롭다운이 자동으로 **나타납니다.** 
+    > 새 **레코드** 추가를 선택하면 유형 **드롭다운이 자동으로 나타납니다.** 
   
     ![Namecheap-BP-Verify-1-1](../../media/a5b40973-19b5-4c32-8e1b-1521aa971836.png)
   
@@ -123,19 +123,19 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. 방문 페이지의 **계정** 아래  **드롭다운** 목록에서 도메인 목록을 선택합니다. 
+2. 방문 **페이지의 계정** 아래 **드롭다운** 목록에서 도메인 목록을 선택합니다.  
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. 도메인 목록 **페이지에서** 편집할 도메인의 이름을 찾은 다음 관리 를 **선택합니다.**
+3. 도메인 **목록 페이지에서** 편집할 도메인의 이름을 찾은 다음 관리를 **선택합니다.**
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
-4. 고급 **DNS를 선택합니다.**
+4. 고급 **DNS 를 선택합니다.**
     
     ![Namecheap-BP-Configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
-5. 메일 설정 **섹션의** 전자 메일 전달  드롭다운 목록에서 사용자 지정 **MX를** 선택합니다. 
+5. 메일 **설정 섹션의** 전자 메일 전달  드롭다운 목록에서 사용자 지정 **MX를** 선택합니다. 
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -145,13 +145,13 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Namecheap-BP-Configure-2-2-1](../../media/8d169b81-ba48-4d51-84ea-a08fa1616457.png)
   
-7. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다.
+7. 새 레코드의 상자에 다음 표의 값을 입력하거나 복사하여 붙여넣습니다.
     
-    우선 **순위 상자는** 값 상자 오른쪽의 이름 없는 **상자입니다.** 드롭다운 **목록에서 TTL** 값을 선택합니다.) 
+    우선 **순위 상자는** 값 상자 오른쪽의 이름 없는 **상자입니다.** 드롭다운 목록에서 **TTL** 값을 선택합니다.) 
     
     |**유형**|**호스트**|**Value(값)**|**Priority(우선 순위)**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX 레코드  <br/> |@  <br/> |\<*domain-key*\>.mail.protection.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |0  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |30분  <br/> |
+    |MX 레코드  <br/> |@  <br/> |\<*domain-key*\>.mail.protection.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.  [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |0  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.yml)을 참조하세요. <br/> |30분  <br/> |
        
     ![Namecheap-BP-Configure-2-2-2](../../media/f3b76d62-5022-48c1-901b-8615a8571309.png)
   
@@ -165,7 +165,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Namecheap-BP-Configure-2-4](../../media/7a7a751f-29c2-495f-8f55-98ca37ce555a.png)
   
-    둘째, **'예'를** 선택하여 지우기 확인을 합니다. 
+    둘째, **예를** 선택하여 지우기 확인을 선택합니다. 
     
     ![Namecheap-BP-Configure-2-5](../../media/85ebc0c7-8787-43ee-9e7b-647375b3345c.png)
   
@@ -181,26 +181,26 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. 방문 페이지의 **계정** 아래  **드롭다운** 목록에서 도메인 목록을 선택합니다. 
+2. 방문 **페이지의 계정** 아래 **드롭다운** 목록에서 도메인 목록을 선택합니다.  
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. 도메인 목록 **페이지에서** 편집할 도메인의 이름을 찾은 다음 관리 를 **선택합니다.**
+3. 도메인 **목록 페이지에서** 편집할 도메인의 이름을 찾은 다음 관리를 **선택합니다.**
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
-4. 고급 **DNS를 선택합니다.**
+4. 고급 **DNS 를 선택합니다.**
     
     ![Namecheap-BP-Configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
-5. HOST **RECORDS** 섹션에서 새 레코드 **추가를 선택합니다.**
+5. 호스트 **레코드 섹션에서** 새 **레코드 추가를 선택합니다.**
     
     ![Namecheap-BP-Configure-1-5](../../media/8849abfe-deb6-4f6a-b56d-e69be9a28b0f.png)
   
-6. 형식 **드롭다운에서** **CNAME 레코드를 선택합니다.**
+6. 유형 **드롭다운에서** **CNAME 레코드 를 선택합니다.**
     
     > [!NOTE]
-    > 새 **레코드** 추가를 선택하면 유형 드롭다운이 자동으로 **나타납니다.** 
+    > 새 **레코드** 추가를 선택하면 유형 **드롭다운이 자동으로 나타납니다.** 
   
     ![Namecheap-BP-Configure-3-1](../../media/0898f3b2-06ab-4364-a86a-a603a25b39f4.png)
   
@@ -220,7 +220,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Namecheap-BP-Configure-3-3](../../media/91a5cce4-ca41-41ec-b976-aafe681a4d68.png)
   
-9. 앞의 4단계와 표에 있는 다른 5개 행의 값을 사용하여 다른 5개의 CNAME 레코드를 각각 추가합니다.
+9. 앞의 네 단계와 표에 있는 다른 다섯 행의 값을 사용하여 다른 5개의 CNAME 레코드를 각각 추가합니다.
 
   
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>전자 메일 스팸 방지에 유용한 SPF용 TXT 레코드 추가
@@ -233,26 +233,26 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 1. 시작하려면 이 링크를 사용하여 Namecheap의 도메인 [페이지로 이동합니다.](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f) 로그인 및 계속하라는 메시지가 표시될 것입니다.
     
-2. 방문 페이지의 **계정** 아래  **드롭다운** 목록에서 도메인 목록을 선택합니다. 
+2. 방문 **페이지의 계정** 아래 **드롭다운** 목록에서 도메인 목록을 선택합니다.  
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. 도메인 목록 **페이지에서** 편집할 도메인의 이름을 찾은 다음 관리 를 **선택합니다.**
+3. 도메인 **목록 페이지에서** 편집할 도메인의 이름을 찾은 다음 관리를 **선택합니다.**
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
-4. 고급 **DNS를 선택합니다.**
+4. 고급 **DNS 를 선택합니다.**
     
     ![Namecheap-BP-Configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
-5. HOST **RECORDS** 섹션에서 새 레코드 **추가를 선택합니다.**
+5. 호스트 **레코드 섹션에서** 새 **레코드 추가를 선택합니다.**
     
     ![Namecheap-BP-Configure-1-5](../../media/8849abfe-deb6-4f6a-b56d-e69be9a28b0f.png)
   
-6. 유형 **드롭다운에서** **TXT 레코드를 선택합니다.**
+6. 유형 **드롭다운에서** **TXT 레코드 를 선택합니다.**
     
     > [!NOTE]
-    > 새 **레코드** 추가를 선택하면 유형 드롭다운이 자동으로 **나타납니다.** 
+    > 새 **레코드** 추가를 선택하면 유형 **드롭다운이 자동으로 나타납니다.** 
   
     ![Namecheap-BP-Configure-4-1](../../media/c5d1fddb-28b5-48ec-91c9-3e5d3955ac80.png)
   
@@ -277,35 +277,35 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Namecheap-BP-Configure-1-1](../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png)
   
-2. 방문 페이지의 **계정** 아래  **드롭다운** 목록에서 도메인 목록을 선택합니다. 
+2. 방문 **페이지의 계정** 아래 **드롭다운** 목록에서 도메인 목록을 선택합니다.  
     
     ![Namecheap-BP-Configure-1-2](../../media/3f457d64-4589-422c-ae34-fc24b0e819eb.png)
   
-3. 도메인 목록 **페이지에서** 편집할 도메인의 이름을 찾은 다음 관리 를 **선택합니다.**
+3. 도메인 **목록 페이지에서** 편집할 도메인의 이름을 찾은 다음 관리를 **선택합니다.**
     
     ![Namecheap-BP-Configure-1-3](../../media/fb2020d8-707c-4148-835e-304ac6244d66.png)
   
-4. 고급 **DNS를 선택합니다.**
+4. 고급 **DNS 를 선택합니다.**
     
     ![Namecheap-BP-Configure-1-4](../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png)
   
-5. HOST **RECORDS** 섹션에서 새 레코드 **추가를 선택합니다.**
+5. 호스트 **레코드 섹션에서** 새 **레코드 추가를 선택합니다.**
     
     ![Namecheap-BP-Configure-1-5](../../media/8849abfe-deb6-4f6a-b56d-e69be9a28b0f.png)
   
-6. 유형 **드롭다운에서** **SRV 레코드를 선택합니다.**
+6. 유형 **드롭다운에서** **SRV 레코드 를 선택합니다.**
     
     > [!NOTE]
-    > 새 **레코드** 추가를 선택하면 유형 드롭다운이 자동으로 **나타납니다.** 
+    > 새 **레코드** 추가를 선택하면 유형 **드롭다운이 자동으로 나타납니다.** 
   
     ![Namecheap-BP-Configure-5-1](../../media/fd55cd7c-2243-4de1-8d39-2c3f7ea3ae51.png)
   
-7. 새 레코드의 빈 상자에서 다음 표의 첫 번째 행 값을 입력하거나 복사하여 붙여넣습니다.
+7. 새 레코드의 빈 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다.
     
     |**서비스**|**프로토콜**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**대상**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |_tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |30분  <br/> |
-    |_sipfederationtls  <br/> |_tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |30분  <br/> |
+    |_sip  <br/> |_tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |30분  <br/> |
+    |_sipfederationtls  <br/> |_tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |30분  <br/> |
        
     ![Namecheap-BP-Configure-5-2](../../media/ff9566ea-0096-4b7f-873c-027080a23b56.png)
   
@@ -313,10 +313,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Namecheap-BP-Configure-5-3](../../media/48a8dee4-c66d-449d-8759-9e9784c82b13.png)
   
-9. 앞의 4단계와 표의 두 번째 행 값을 사용하여 다른 SRV 레코드를 추가합니다.
+9. 앞의 네 단계와 표의 두 번째 행 값을 사용하여 다른 SRV 레코드를 추가합니다.
     
 > [!NOTE]
 > 일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
   
 
-  

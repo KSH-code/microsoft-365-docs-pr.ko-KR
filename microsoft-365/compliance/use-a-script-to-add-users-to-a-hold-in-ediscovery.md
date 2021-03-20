@@ -19,19 +19,19 @@ search.appverid:
 - MET150
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 ms.custom: seo-marvel-apr2020
-description: 스크립트를 실행하여 비즈니스용 OneDrive & Microsoft 365 규정 준수 센터의 eDiscovery 사례와 연결된 새 보류에 추가하는 방법을 학습합니다.
-ms.openlocfilehash: 278e8e051165eca906e9b454268068cbbe6aef05
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+description: 스크립트를 실행하여 Microsoft 365 규정 준수 & eDiscovery 사례와 연결된 새 보류에 비즈니스용 OneDrive 사이트를 추가하는 방법을 학습합니다.
+ms.openlocfilehash: d6e6ff1ca053fd8c729054490e78ef42dc64e829
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175577"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909918"
 ---
 # <a name="use-a-script-to-add-users-to-a-hold-in-a-core-ediscovery-case"></a>스크립트를 사용하여 Core eDiscovery 사례에서 보류에 사용자 추가
 
-보안 & 준수 센터 PowerShell에서는 eDiscovery 사례 만들기 및 관리와 관련된 시간이 많이 걸리는 작업을 자동화할 수 있는 cmdlet을 제공합니다. 현재 Security & 준수 센터에서 Core eDiscovery 사례를 사용하여 많은 수의 보유자 콘텐츠 위치를 보류하는 데는 많은 시간 및 준비가 소요됩니다. 예를 들어 보류를 만들기 전에 보류할 각 비즈니스용 OneDrive 사이트의 URL을 수집해야 합니다. 그런 다음 보류하려는 각 사용자에 대해 사서함 및 해당 비즈니스용 OneDrive 사이트를 보류에 추가해야 합니다. 이 문서의 스크립트를 사용하여 이 프로세스를 자동화할 수 있습니다.
+보안 & 준수 센터 PowerShell에서는 eDiscovery 사례 만들기 및 관리와 관련된 시간이 많이 걸리는 작업을 자동화할 수 있는 cmdlet을 제공합니다. 현재 보안 & 준수 센터에서 Core eDiscovery 사례를 사용하여 많은 수의 보유자 콘텐츠 위치를 보류하는 데는 많은 시간 및 준비가 소요됩니다. 예를 들어 보류를 만들기 전에 보류할 각 비즈니스용 OneDrive 사이트의 URL을 수집해야 합니다. 그런 다음 보류하려는 각 사용자에 대해 사서함 및 해당 비즈니스용 OneDrive 사이트를 보류에 추가해야 합니다. 이 문서의 스크립트를 사용하여 이 프로세스를 자동화할 수 있습니다.
   
-이 스크립트는 조직의 내 사이트 도메인 이름(예: URL, 기존 `contoso` eDiscovery 사례의 이름, 사례와 연결된 새 보류의 이름, 보류할 사용자의 전자 메일 주소 목록 및 쿼리 기반 보류를 만들 경우 사용할 검색 쿼리)을 묻는 메시지를 https://contoso-my.sharepoint.com) 제공합니다. 그런 다음 스크립트는 목록의 각 사용자에 대한 비즈니스용 OneDrive 사이트의 URL을 다운로드하고 새 보류를 만든 다음 목록의 각 사용자에 대한 사서함 및 비즈니스용 OneDrive 사이트를 보류에 추가합니다. 또한 스크립트는 새 보류에 대한 정보가 포함된 로그 파일을 생성합니다.
+이 스크립트를 실행하면 조직의 내 사이트 도메인 이름(예: URL, 기존 `contoso` eDiscovery 사례의 이름, 사례와 연결된 새 보류의 이름, 보류할 사용자의 전자 메일 주소 목록 및 쿼리 기반 보류를 만들 때 사용할 검색 쿼리)을 묻는 메시지가 https://contoso-my.sharepoint.com) 표시됩니다. 그런 다음 스크립트는 목록의 각 사용자에 대한 비즈니스용 OneDrive 사이트의 URL을 다운로드하고 새 보류를 만든 다음 목록의 각 사용자에 대한 사서함 및 비즈니스용 OneDrive 사이트를 보류에 추가합니다. 또한 스크립트는 새 보류에 대한 정보가 포함된 로그 파일을 생성합니다.
   
 이를 수행하기 위한 단계는 다음과 같습니다.
   
@@ -43,31 +43,31 @@ ms.locfileid: "50175577"
   
 ## <a name="before-you-add-users-to-a-hold"></a>보류에 사용자를 추가하기 전에
 
-- 3단계에서 스크립트를 실행하기 위해 Security & 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원이자 SharePoint Online 관리자 역할 그룹의 구성원이 되어야 합니다. 자세한 내용은 Office 365 보안 및 준수 센터에서 [eDiscovery 권한 할당을 & 참조하세요.](assign-ediscovery-permissions.md)
+- 3단계에서 스크립트를 실행하기 위해 Security & Compliance Center에서 eDiscovery 관리자 역할 그룹의 구성원이자 SharePoint Online 관리자 역할 그룹의 구성원이 되어야 합니다. 자세한 내용은 Office 365 보안 및 준수 센터에서 [eDiscovery 권한 할당을 & 참조하세요.](assign-ediscovery-permissions.md)
 
-- 보안 및 준수 센터의 eDiscovery 사례와 연결된 보류에 최대 1,000개 & 수 있습니다. 보류하려는 모든 사용자에게 비즈니스용 OneDrive 사이트가 있는 경우 이 문서의 스크립트를 사용하여 보류에 최대 100명 사용자를 추가할 수 있습니다.
+- 보안 및 준수 센터의 eDiscovery 사례와 연결된 보류에 최대 1,000개 사서함과 100개 사이트를 추가할 수 & 있습니다. 보류하려는 모든 사용자에게 비즈니스용 OneDrive 사이트가 있는 경우 이 문서의 스크립트를 사용하여 보류에 최대 100명 사용자를 추가할 수 있습니다.
 
-- 2단계에서 만든 사용자 목록과 3단계의 스크립트를 동일한 폴더에 저장해야 합니다. 이를 통해 스크립트를 보다 쉽게 실행할 수 있습니다.
+- 2단계에서 만든 사용자 목록과 3단계의 스크립트를 동일한 폴더에 저장해야 합니다. 이를 통해 스크립트를 더 쉽게 실행할 수 있습니다.
 
 - 이 스크립트는 기존 사례와 연결된 새 보류에 사용자 목록을 추가합니다. 스크립트를 실행하기 전에 보류와 연결하려는 사례가 만들어지야 합니다.
 
-- 이 문서의 스크립트는 보안 및 준수 센터 PowerShell & SharePoint Online 관리 셸에 연결할 때 최신 인증을 지원합니다. Microsoft 365 또는 Microsoft 365 GCC 조직인 경우와 같은 스크립트를 사용할 수 있습니다. Office 365 Germany 조직, Microsoft 365 GCC High 조직 또는 Microsoft 365 DoD 조직인 경우 스크립트를 편집하여 성공적으로 실행해야 합니다. 특히 줄을 편집하고 `Connect-IPPSSession` *ConnectionUri* 및 *AzureADAuthorizationEndpointUri* 매개 변수 및 조직 유형에 적합한 값)을 사용하여 보안 & 준수 센터 PowerShell에 연결해야 합니다. 자세한 내용은 보안 및 준수 센터 [PowerShell에 연결의 & 참조하세요.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa)
+- 이 문서의 스크립트는 보안 및 준수 센터 PowerShell & SharePoint Online 관리 셸에 연결할 때 최신 인증을 지원합니다. Microsoft 365 또는 Microsoft 365 GCC 조직인 경우 스크립트를 있는 것으로 사용할 수 있습니다. Office 365 Germany 조직, Microsoft 365 GCC High 조직 또는 Microsoft 365 DoD 조직인 경우 스크립트를 편집하여 성공적으로 실행해야 합니다. 특히 줄을 편집하고 `Connect-IPPSSession` *ConnectionUri* 및 *AzureADAuthorizationEndpointUri* 매개 변수(및 조직 유형에 적합한 값)를 사용하여 보안 & 준수 센터 PowerShell에 연결해야 합니다. 자세한 내용은 Connect to [Security & PowerShell의 예를 참조하세요.](/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa)
 
-- 이 스크립트는 보안 및 준수 & PowerShell 및 SharePoint Online 관리 셸에서 자동으로 연결이 끊어집니다.
+- 이 스크립트는 보안 및 준수 & PowerShell 및 SharePoint Online 관리 셸에서 자동으로 연결을 끊습니다.
 
-- 스크립트에는 최소한의 오류 처리가 포함됩니다. 주요 목적은 각 사용자의 사서함 및 비즈니스용 OneDrive 사이트를 빠르고 쉽게 보류하는 것입니다.
+- 스크립트에는 최소한의 오류 처리가 포함됩니다. 기본 목적은 각 사용자의 사서함 및 비즈니스용 OneDrive 사이트를 빠르고 쉽게 보류하는 것입니다.
 
 - 이 항목에서 제공된 샘플 스크립트는 Microsoft 표준 지원 프로그램 또는 서비스에서는 지원되지 않습니다. 샘플 스크립트는 어떠한 보증도 없이 "있는 그대로" 제공됩니다. Microsoft는 묵시적인 모든 보증(상품성 또는 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하되 이에 제한되지 않음)을 부인합니다. 샘플 스크립트 및 문서의 사용 또는 수행으로 인해 발생하는 모든 위험은 사용자의 책임입니다. 어떠한 경우에도 Microsoft, 스크립트 작성자 또는 스크립트의 작성, 생산 또는 제공과 관련된 사람은 누구나 샘플 스크립트 또는 문서의 사용 또는 사용 불가능으로 인해 발생하는 모든 손해(수익에 대한 손실, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 금전상의 손실을 포함하되 이에 제한되지 않음)에 대해 책임지지 않습니다. 이는 Microsoft가 이러한 손해가 발생할 가능성에 대해 알고 있었더라고 마찬가지입니다.
 
 ## <a name="step-1-install-the-sharepoint-online-management-shell"></a>1단계: SharePoint Online 관리 셸 설치
 
-첫 번째 단계는 SharePoint Online 관리 셸이 로컬 컴퓨터에 아직 설치되어 있지 않은 경우 설치하는 것입니다. 이 절차에서 셸을 사용할 필요는 없지만 3단계에서 실행한 스크립트에 필요한 필수 요구가 포함되어 있기 때문에 셸을 설치해야 합니다. 이러한 선행 작업을 통해 스크립트가 SharePoint Online과 통신하여 비즈니스용 OneDrive 사이트의 URL을 얻을 수 있습니다.
+첫 번째 단계는 SharePoint Online 관리 셸이 로컬 컴퓨터에 아직 설치되어 있지 않은 경우 설치하는 것입니다. 이 절차에서는 셸을 사용할 필요는 없지만 3단계에서 실행한 스크립트에 필요한 필수 요구가 포함되어 있기 때문에 셸을 설치해야 합니다. 이러한 선행 작업을 통해 스크립트가 SharePoint Online과 통신하여 비즈니스용 OneDrive 사이트의 URL을 얻을 수 있습니다.
   
-[SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkID=286318) 관리 셸 Windows PowerShell 환경으로 이동한 다음 1단계 및 2단계를 수행하여 로컬 컴퓨터에 SharePoint Online 관리 셸을 설치합니다.
+[SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) 관리 셸 Windows PowerShell 환경 설정으로 이동한 다음 1단계 및 2단계를 수행하여 로컬 컴퓨터에 SharePoint Online 관리 셸을 설치합니다.
 
 ## <a name="step-2-generate-a-list-of-users"></a>2단계: 사용자 목록 생성
 
-3단계의 스크립트는 eDiscovery 사례와 연결된 보류를 만들고 사용자 목록의 사서함 및 비즈니스용 OneDrive 사이트를 보류에 추가합니다. 텍스트 파일에 전자 메일 주소를 입력하기만 하면 되거나 Windows PowerShell 명령을 실행하여 전자 메일 주소 목록을 다운로드하여 파일에 저장할 수 있습니다(스크립트를 3단계에서 저장할 폴더와 동일한 폴더에 위치).
+3단계의 스크립트는 eDiscovery 사례와 연결된 보류를 만들고 사용자 목록의 사서함 및 비즈니스용 OneDrive 사이트를 보류에 추가합니다. 텍스트 파일에 전자 메일 주소를 입력하기만 하면 되거나 Windows PowerShell 명령을 실행하여 전자 메일 주소 목록을 다운로드하여 파일에 저장할 수 있습니다(스크립트를 3단계에 저장할 폴더와 동일한 폴더에 위치).
   
 다음은 Exchange Online 조직에 연결된 원격 PowerShell을 사용하여 실행되는 PowerShell 명령으로, 조직의 모든 사용자에 대한 전자 메일 주소 목록을 다운로드하고 이 전자 메일 주소를 HoldUsers.txt.
   
@@ -75,23 +75,23 @@ ms.locfileid: "50175577"
 Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbox'} | Select-Object PrimarySmtpAddress > HoldUsers.txt
 ```
 
-이 명령을 실행한 후 텍스트 파일을 열고 속성 이름이 포함된 헤더를  `PrimarySmtpAddress` 제거합니다. 그런 다음 3단계에서 만들 보류에 추가할 사용자의 전자 메일 주소를 제외한 모든 전자 메일 주소를 제거합니다. 전자 메일 주소 목록 앞이나 뒤의 빈 행이 없는지 확인
+이 명령을 실행한 후 텍스트 파일을 열고 속성 이름이 포함된 헤더를  `PrimarySmtpAddress` 제거합니다. 그런 다음 3단계에서 만들 보류에 추가할 사용자를 제외한 모든 전자 메일 주소를 제거합니다. 전자 메일 주소 목록 앞이나 뒤의 빈 행이 없는지 확인
   
 ## <a name="step-3-run-the-script-to-create-a-hold-and-add-users"></a>3단계: 스크립트를 실행하여 보류 만들기 및 사용자 추가
 
 이 단계에서 스크립트를 실행 하면 다음 정보를 묻는 메시지가 표시 됩니다. 스크립트를 실행하기 전에 이 정보를 준비해야 합니다.
   
-- **사용자 자격 증명:** 스크립트는 자격 증명을 사용하여 PowerShell을 사용하여 보안 & 준수 센터에 연결합니다. 또한 이러한 자격 증명을 사용하여 SharePoint Online에 액세스하여 사용자 목록에 대한 비즈니스용 OneDrive URL을 얻습니다.
+- **사용자 자격 증명:** 스크립트는 자격 증명을 사용하여 PowerShell을 사용하여 보안 및 & 센터에 연결합니다. 또한 이러한 자격 증명을 사용하여 SharePoint Online에 액세스하여 사용자 목록에 대한 비즈니스용 OneDrive URL을 얻습니다.
 
-- **SharePoint 도메인의 이름:** 스크립트에서 SharePoint 관리 센터에 연결할 수 있도록 이 이름을 입력하라는 메시지가 표시됩니다. 또한 조직의 OneDrive URL에 대한 도메인 이름을 사용 합니다. 예를 들어 관리 센터의 URL이 OneDrive의 URL인 경우 스크립트에서 도메인 이름을 입력하라는 메시지를 표시하면 `https://contoso-admin.sharepoint.com` `https://contoso-my.sharepoint.com` `contoso` 입력합니다.
+- **SharePoint 도메인의 이름:** 스크립트에서 SharePoint 관리 센터에 연결할 수 있도록 이 이름을 입력하라는 메시지가 표시됩니다. 또한 조직의 OneDrive URL에 대한 도메인 이름을 사용 합니다. 예를 들어 관리 센터의 URL이고 OneDrive의 URL이 인 경우 스크립트에서 도메인 이름을 입력하라는 메시지가 표시될 때 `https://contoso-admin.sharepoint.com` `https://contoso-my.sharepoint.com` `contoso` 입력합니다.
 
 - **사례의 이름:** 기존 사례의 이름입니다. 스크립트는 이 사례와 연결된 새 보류를 생성합니다.
 
 - **보류의 이름:** 스크립트가 만들고 지정된 사례와 연결되는 보류의 이름입니다.
 
-- **쿼리 기반 보류에 대한 검색 쿼리:** 지정한 검색 조건을 충족하는 콘텐츠만 보류할 수 있도록 쿼리 기반 보류를 만들 수 있습니다. 모든 콘텐츠를 보류할 수 있습니다. 검색 쿼리를 묻는 메시지가 표시될 때 **Enter를** 누르기만 합니다.
+- **쿼리 기반 보류에 대한 검색 쿼리:** 지정한 검색 조건을 충족하는 콘텐츠만 보류할 수 있도록 쿼리 기반 보류를 만들 수 있습니다. 모든 콘텐츠를 보류하기 위해 검색 쿼리를 묻는 메시지가 표시될 때 **Enter를** 누르기만 합니다.
 
-- **보류 켜기 또는 해제:** 스크립트를 만든 후 보류를 켜거나 스크립트가 보류를 사용하도록 설정하지 않고 보류를 만들 수 있도록 할 수 있습니다. 스크립트가 보류를 켜지 않은 경우 나중에 보안 및 준수 센터에서 또는 다음 PowerShell 명령을 실행하여 & 수 있습니다.
+- **보류 켜기 또는 해제:** 스크립트를 만든 후 보류를 켜거나 스크립트가 보류를 사용하도록 설정하지 않고 보류를 만들 수 있도록 할 수 있습니다. 스크립트를 보류 하도록 설정 하지 않은 경우 나중에 보안 및 준수 센터에서 또는 다음 PowerShell 명령을 실행 하 & 수 있습니다.
 
   ```powershell
   Set-CaseHoldPolicy -Identity <name of the hold> -Enabled $true
@@ -101,7 +101,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
   Set-CaseHoldRule -Identity <name of the hold> -Disabled $false
   ```
 
-- **사용자 목록이** 있는 텍스트 파일의 이름 - 보류에 추가할 사용자 목록이 포함된 2단계의 텍스트 파일 이름입니다. 이 파일이 스크립트와 동일한 폴더에 있는 경우 파일의 이름(예: HoldUsers.txt)을 입력하면 됩니다. 텍스트 파일이 다른 폴더에 있는 경우 파일의 전체 경로 이름을 입력합니다.
+- **사용자 목록이** 있는 텍스트 파일의 이름 - 보류에 추가할 사용자 목록이 포함된 2단계의 텍스트 파일 이름입니다. 이 파일이 스크립트와 동일한 폴더에 있는 경우 파일 이름(예: 스크립트)을 HoldUsers.txt. 텍스트 파일이 다른 폴더에 있는 경우 파일의 전체 경로 이름을 입력합니다.
 
 스크립트에서 요청하는 정보를 수집한 후 마지막 단계는 스크립트를 실행하여 새 보류를 만들고 사용자를 추가하는 것입니다.
   
@@ -271,7 +271,7 @@ Write-host "Script complete!" -foregroundColor Yellow
 #script end
 ```
 
-2. 로컬 컴퓨터에서 스크립트를 Windows PowerShell 폴더로 이동합니다.
+2. 로컬 컴퓨터에서 Windows PowerShell 열고 스크립트를 저장한 폴더로 이동합니다.
 
 3. 스크립트를 실행합니다. 예를 들어:
 
@@ -281,7 +281,7 @@ Write-host "Script complete!" -foregroundColor Yellow
 
 4. 스크립트에서 요청하는 정보를 입력합니다.
 
-   스크립트는 보안 & 준수 센터 PowerShell에 연결한 다음 eDiscovery 사례에 새 보류를 만들고 목록의 사용자에 대한 사서함 및 비즈니스용 OneDrive를 추가합니다. 보안 및 준수 센터의 **eDiscovery** 페이지에서 사례로 이동하여 & 보류를 볼 수 있습니다.
+   이 스크립트는 보안 & 준수 센터 PowerShell에 연결한 다음 eDiscovery 사례에 새 보류를 만들고 목록에 있는 사용자의 사서함 및 비즈니스용 OneDrive를 추가합니다. 보안 및 준수 센터의 **eDiscovery** 페이지에서 사례로 이동하여 & 보류를 볼 수 있습니다.
 
 스크립트 실행이 완료되면 다음 로그 파일을 만들고 스크립트가 있는 폴더에 저장합니다.
   
@@ -291,4 +291,4 @@ Write-host "Script complete!" -foregroundColor Yellow
 
 - **GetCaseHoldPolicy.txt:** 새 보류를 만들고 나서 스크립트가 실행된 새 보류에 대한 **Get-CaseHoldPolicy** cmdlet의 출력을 포함 이 cmdlet이 반환하는 정보에는 사서함 및 비즈니스용 OneDrive 사이트가 보류된 사용자 목록과 보류를 사용할 수 있는지 여부가 포함됩니다. 
 
-- **GetCaseHoldRule.txt:** 새 보류를 만들고 나서 스크립트가 실행된 새 보류에 대한 **Get-CaseHoldRule** cmdlet의 출력을 포함 이 cmdlet이 반환하는 정보에는 스크립트를 사용하여 쿼리 기반 보류를 만드는 경우 검색 쿼리가 포함됩니다.
+- **GetCaseHoldRule.txt:** 새 보류를 만들고 나서 스크립트가 실행된 새 보류에 대한 **Get-CaseHoldRule** cmdlet의 출력이 들어 있습니다. 이 cmdlet이 반환하는 정보에는 스크립트를 사용하여 쿼리 기반 보류를 만든 경우 검색 쿼리가 포함됩니다.

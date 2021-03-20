@@ -19,12 +19,12 @@ description: Microsoft 365 보안 센터나 Microsoft 365 규정 준수 센터�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 55030813ecddedd5661602fddea59f6bf3a8b03a
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 986b6e296304470993a37c17a115182bb5e1d77f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50290790"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908881"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 권한
 
@@ -47,20 +47,20 @@ Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에 나타나�
 
 |역할|설명|
 |---|---|
-|**전역 관리자**|모든 Microsoft 365 서비스의 모든 관리 기능에 액세스할 수 있습니다. 전역 관리자만 다른 관리자 역할을 할당할 수 있습니다. 자세한 내용은 [전역 관리자 / 회사 관리자](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#global-administrator--company-administrator)를 참조하세요.|
-|**규정 준수 데이터 관리자**|Microsoft 365에서 조직의 데이터를 추적하고, 보호가 설정되었는지 확인하고, 위험을 완화하는 데 도움이 되는 모든 문제에 대한 인사이트를 얻으세요. 자세한 내용은 [규정 준수 데이터 관리자](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#compliance-data-administrator)를 참조하세요.|
-|**규정 준수 관리자**|조직이 모든 규정 요구 사항을 준수하고, eDiscovery 사례를 관리하며, Microsoft 365 위치, ID 및 앱 전반에서 데이터 관리 정책을 유지하도록 돕습니다. 자세한 내용은 [규정 준수 관리자](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#compliance-administrator)를 참조하세요.|
-|**보안 운영자**|Microsoft 365 사용자, 디바이스 및 콘텐츠에 대한 활성 위협을 보고, 조사하고, 대응합니다. 자세한 내용은 [보안 운영자](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#security-operator)를 참조하세요.|
-|**보안 읽기 권한자**|Microsoft 365 사용자, 디바이스 및 콘텐츠에 대한 활성 위협을 보고 조사하나 (보안 운영자와는 달리) 조치를 취하여 대응할 권한은 없습니다. 자세한 내용은 [보안 읽기 권한자](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#security-reader)를 참조하세요.|
-|**보안 관리자**|보안 정책을 관리하고, Microsoft 365 제품 전반에서 보안 분석 및 보고서를 검토하고, 위협 상황에 대한 최신 정보를 파악하여 조직의 전반적인 보안을 제어합니다. 자세한 내용은 [보안 관리자](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#security-administrator)를 참조하세요.|
-|**전역 읽기 권한자**|**전역 관리자** 역할의 읽기 전용 버전입니다. Microsoft 365 전반의 모든 설정 및 관리 정보를 봅니다. 자세한 내용은 [전역 읽기 권한자](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#global-reader)를 참조하세요.|
+|**전역 관리자**|모든 Microsoft 365 서비스의 모든 관리 기능에 액세스할 수 있습니다. 전역 관리자만 다른 관리자 역할을 할당할 수 있습니다. 자세한 내용은 [전역 관리자 / 회사 관리자](/azure/active-directory/roles/permissions-reference#global-administrator--company-administrator)를 참조하세요.|
+|**규정 준수 데이터 관리자**|Microsoft 365에서 조직의 데이터를 추적하고, 보호가 설정되었는지 확인하고, 위험을 완화하는 데 도움이 되는 모든 문제에 대한 인사이트를 얻으세요. 자세한 내용은 [규정 준수 데이터 관리자](/azure/active-directory/roles/permissions-reference#compliance-data-administrator)를 참조하세요.|
+|**규정 준수 관리자**|조직이 모든 규정 요구 사항을 준수하고, eDiscovery 사례를 관리하며, Microsoft 365 위치, ID 및 앱 전반에서 데이터 관리 정책을 유지하도록 돕습니다. 자세한 내용은 [규정 준수 관리자](/azure/active-directory/roles/permissions-reference#compliance-administrator)를 참조하세요.|
+|**보안 운영자**|Microsoft 365 사용자, 디바이스 및 콘텐츠에 대한 활성 위협을 보고, 조사하고, 대응합니다. 자세한 내용은 [보안 운영자](/azure/active-directory/roles/permissions-reference#security-operator)를 참조하세요.|
+|**보안 읽기 권한자**|Microsoft 365 사용자, 디바이스 및 콘텐츠에 대한 활성 위협을 보고 조사하나 (보안 운영자와는 달리) 조치를 취하여 대응할 권한은 없습니다. 자세한 내용은 [보안 읽기 권한자](/azure/active-directory/roles/permissions-reference#security-reader)를 참조하세요.|
+|**보안 관리자**|보안 정책을 관리하고, Microsoft 365 제품 전반에서 보안 분석 및 보고서를 검토하고, 위협 상황에 대한 최신 정보를 파악하여 조직의 전반적인 보안을 제어합니다. 자세한 내용은 [보안 관리자](/azure/active-directory/roles/permissions-reference#security-administrator)를 참조하세요.|
+|**전역 읽기 권한자**|**전역 관리자** 역할의 읽기 전용 버전입니다. Microsoft 365 전반의 모든 설정 및 관리 정보를 봅니다. 자세한 내용은 [전역 읽기 권한자](/azure/active-directory/roles/permissions-reference#global-reader)를 참조하세요.|
 |
 
 ## <a name="global-administrators-can-manage-roles-in-azure-active-directory"></a>전역 관리자는 Azure Active Directory에서 역할을 관리할 수 있습니다.
 
 Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에서 역할을 선택하여 해당 할당을 볼 수 있습니다. 하지만 해당 과제를 관리하려면 Azure Active Directory로 이동해야 합니다.
 
-자세한 내용은 [Azure Active Directory에서 관리자 역할 보기 및 할당](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)을 참조하세요.
+자세한 내용은 [Azure Active Directory에서 관리자 역할 보기 및 할당](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)을 참조하세요.
 
 ![Azure Active Directory의 권한 관리 링크](../../media/permissions-manage-in-azure-ad-link.png)
 
@@ -87,20 +87,20 @@ Azure Active Directory에서 이러한 역할을 관리하는 경우에는 **모
 |Microsoft 365 서비스|역할 정보|
 |---|---|
 |Office 365 및 Microsoft 365 비즈니스 요금제 관리자 역할|[Microsoft 365 관리자 역할](../../admin/add-users/about-admin-roles.md)|
-|Azure AD(Azure Active Directory) 및 Azure AD ID 보호|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|ID용 Microsoft Defender|[ID용 Microsoft Defender 역할 그룹](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
-|Azure Information Protection|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|Azure AD(Azure Active Directory) 및 Azure AD ID 보호|[Azure AD 관리자 역할](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|ID용 Microsoft Defender|[ID용 Microsoft Defender 역할 그룹](/azure-advanced-threat-protection/atp-role-groups)|
+|Azure Information Protection|[Azure AD 관리자 역할](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |규정 관리자|[규정 준수 관리자](../../compliance/compliance-manager-setup.md#set-user-permissions-and-assign-roles)|
-|Exchange Online|[Exchange 역할 기반 액세스 제어](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)|
-|Intune|[Intune 역할 기반 액세스 제어](https://docs.microsoft.com/intune/role-based-access-control)|
-|Managed Desktop|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Microsoft Cloud App Security|[역할 기반 액세스 제어](https://docs.microsoft.com/cloud-app-security/manage-admins)|
+|Exchange Online|[Exchange 역할 기반 액세스 제어](/exchange/permissions-exo/permissions-exo)|
+|Intune|[Intune 역할 기반 액세스 제어](/intune/role-based-access-control)|
+|Managed Desktop|[Azure AD 관리자 역할](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|Microsoft Cloud App Security|[역할 기반 액세스 제어](/cloud-app-security/manage-admins)|
 |보안 및 준수 센터|[Microsoft 365 관리자 역할](permissions-in-the-security-and-compliance-center.md)|
-|Privileged Identity Management|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|보안 점수|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|SharePoint Online|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [Office 365의 SharePoint 관리자 역할 정보](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)|
-|Teams/비즈니스용 Skype|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|엔드포인트용 Microsoft Defender|[엔드포인트용 Microsoft Defender 역할 기반 액세스 제어](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/rbac-windows-defender-advanced-threat-protection)|
+|Privileged Identity Management|[Azure AD 관리자 역할](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|보안 점수|[Azure AD 관리자 역할](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|SharePoint Online|[Azure AD 관리자 역할](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [Office 365의 SharePoint 관리자 역할 정보](/sharepoint/sharepoint-admin-role)|
+|Teams/비즈니스용 Skype|[Azure AD 관리자 역할](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|엔드포인트용 Microsoft Defender|[엔드포인트용 Microsoft Defender 역할 기반 액세스 제어](/windows/security/threat-protection/windows-defender-atp/rbac-windows-defender-advanced-threat-protection)|
 |
 
 ## <a name="coming-soon"></a>출시 예정

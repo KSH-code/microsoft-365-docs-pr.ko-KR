@@ -13,14 +13,14 @@ ms.collection:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: SharePoint 사이트를 Multi-Geo 환경 내의 다른 지리적 위치로 이동하고 사용자에게 변경에 대한 기대치를 전달하는 방법을 배워야 합니다.
+description: SharePoint 사이트를 Multi-Geo 환경 내의 다른 지리적 위치로 이동하고 사용자에게 변경에 대한 기대치를 전달하는 방법에 대해 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 819496b9f7612afa1db902e6fc5a0844e99d7a8e
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: eed323b2e2b8f68a4a603052657e17495bb17690
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545639"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910933"
 ---
 # <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>SharePoint 사이트를 다른 지리적 위치로 이동
 
@@ -74,13 +74,13 @@ SharePoint 사이트 지리적 이동 일정을 나중으로 예약하려면 이
 
 SharePoint 사이트 지리적 이동을 수행하려면 사이트가 있는 지리적 위치의 SharePoint 관리자 URL에서 연결 후 이동을 해야 합니다.
 
-예를 들어 사이트 URL이 다음과 같은 <https://contosohealthcare.sharepoint.com/sites/Turbines> 경우 SharePoint 관리 URL에 연결합니다. <https://contosohealthcare-admin.sharepoint.com>
+예를 들어 사이트 URL이 인 경우 <https://contosohealthcare.sharepoint.com/sites/Turbines> 에서 SharePoint 관리 URL에 <https://contosohealthcare-admin.sharepoint.com> 연결합니다.
 
 ```powershell
 Connect-SPOService -Url https://contosohealthcare-admin.sharepoint.com
 ```
 
-![SharePoint Online 관리 셸 창에서 Connect-SPOService 표시](../media/move-onedrive-between-geo-locations-image1.png)
+![SharePoint Online 관리 셸 창에 Connect-SPOService 표시](../media/move-onedrive-between-geo-locations-image1.png)
 
 ### <a name="validating-the-environment"></a>환경 유효성 검사
 
@@ -145,8 +145,8 @@ SharePoint 사이트 지리적 이동이 진행 중이거나 `Stop-SPOSiteConten
 
 다음 cmdlet을 사용하면, 연결된 지역 안팎으로 이동하는 사이트의 이동 상태를 확인할 수 있습니다.
 
-- [Get-SPOSiteContentMoveState](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spositecontentmovestate)(그룹에 연결되지 않은 사이트)
-- [Get-SPOUnifiedGroupMoveState(그룹](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spounifiedgroupmovestate) 연결 사이트)
+- [Get-SPOSiteContentMoveState](/powershell/module/sharepoint-online/get-spositecontentmovestate)(그룹에 연결되지 않은 사이트)
+- [Get-SPOUnifiedGroupMoveState(그룹에](/powershell/module/sharepoint-online/get-spounifiedgroupmovestate) 연결된 사이트)
 
 `-SourceSiteUrl` 매개 변수를 사용하여 이동 상태를 볼 사이트를 지정합니다.
 

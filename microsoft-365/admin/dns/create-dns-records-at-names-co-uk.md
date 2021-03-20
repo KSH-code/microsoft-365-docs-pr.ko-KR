@@ -20,13 +20,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b6c15128-b456-49b4-8b5e-5b823c700f26
-description: Microsoft에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 Names.co.uk 방법을 배워보아야 합니다.
-ms.openlocfilehash: 51dc9b3271468d42e82f98a1b85de5104416b015
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Microsoft에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 Names.co.uk 대해 자세히 알아보습니다.
+ms.openlocfilehash: ddd7286d983a0f180c9aefdbf5218eb9765c8669
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657818"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910045"
 ---
 # <a name="create-dns-records-at-namescouk-for-microsoft"></a>Microsoft용 NAMES.CO.UK DNS 레코드 만들기
 
@@ -34,7 +34,7 @@ ms.locfileid: "49657818"
   
 DNS 호스팅 공급자로 Names.co.uk를 사용하고 있는 경우, 이 문서에 나와 있는 단계를 따라 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 등에 대한 DNS 레코드를 설정합니다.
     
-새 도메인에서 이러한 레코드를 Names.co.uk Microsoft 서비스에서 작동 하게 도메인이 설정됩니다.
+이 레코드를 Names.co.uk Microsoft 서비스에서 작동할 수 있도록 도메인이 설정됩니다.
   
 
   
@@ -63,7 +63,7 @@ Microsoft에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)를** 선택합니다.
+    (행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)** 를 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
         
@@ -121,7 +121,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**호스트 이름**|**우선 순위**|**결과**|
     |:-----|:-----|:-----|
-    |(이 필드는 비워 둡니다.)  <br/> |1   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> > [!NOTE]>  *\<domain-key\>*  Microsoft 계정에서 다운로드하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
+    |(이 필드는 비워 둡니다.)  <br/> |1  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.yml)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> > [!NOTE]>  *\<domain-key\>*  Microsoft 계정에서 다운로드하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
        
     ![NamesUK-BP-Configure-2-1](../../media/e211d73d-864f-4114-864b-8e636c69f595.png)
   
@@ -158,7 +158,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)를** 선택합니다.
+    (행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)** 를 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -192,7 +192,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![NamesUK-BP-Configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
   
-3. 계정의 **DNS** 영역 페이지의 도메인 **이름** 열에서 업데이트할 도메인의 이름을 선택합니다. 
+3. 계정의 **DNS 영역** 페이지의 도메인  이름 열에서 업데이트할 도메인의 이름을 선택합니다. 
     
     ![NamesUK-BP-Configure-1-2-1](../../media/20254eec-6952-47ba-b12b-da32860ee7ef.png)
   
@@ -200,7 +200,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     (드롭다운 목록에서 **Type(종류)** 값을 선택합니다.) 
     
-    행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)를** 선택합니다.
+    (행을 추가해야 하는 경우 **A/CNAME 레코드 추가(+)** 를 선택합니다.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
@@ -235,8 +235,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**이름**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**결과**|
     |:-----|:-----|:-----|:-----|:-----|
-    |_sip._tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls._tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
        
     ![NamesUK-BP-Configure-5-1](../../media/97a96523-005a-4058-9e12-19f6c3bf9b3b.png)
   
@@ -248,4 +248,3 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 > [!NOTE]
 >  일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
-  

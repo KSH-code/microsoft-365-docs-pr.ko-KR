@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 iOS 및 Android용 Outlook에서 정크 메일이 아닌 기본 제공 정크 및 피싱 전자 메일 보고 옵션에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e6e63f534a9f9516c6e1a87ff82d5b0916d25778
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: eda0d8d43244834236a70374df6b7d6ccf0b69ab
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509329"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908821"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Exchange Online에서 iOS 및 Android용 Outlook에서 정크 및 피싱 전자 메일 보고
 
@@ -37,7 +37,7 @@ Exchange Online 또는 하이브리드 최신 인증을 사용하는 사서함�
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 것
 
-- 최상의 사용자 제출 환경을 위해 보고서 메시지 및 피싱 보고 추가 기능을 사용하는 것이 좋습니다. 자세한 [내용은 보고서 메시지](https://docs.microsoft.com/microsoft-365/security/office-365-security/enable-the-report-message-add-in) 추가 기능 사용 및 [피싱](https://docs.microsoft.com/microsoft-365/security/office-365-security/enable-the-report-phish-add-in) 보고서 추가 기능 사용을 참조하세요.
+- 최상의 사용자 제출 환경을 위해 보고서 메시지 및 피싱 보고 추가 기능을 사용하는 것이 좋습니다. 자세한 [내용은 보고서 메시지](./enable-the-report-message-add-in.md) 추가 기능 사용 및 [피싱](./enable-the-report-phish-add-in.md) 보고서 추가 기능 사용을 참조하세요.
 
 - Exchange Online 사서함이 있는 조직의 관리자인 경우 보안 및 준수 센터에서 제출 포털을 & 좋습니다. 자세한 내용은 관리 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출을 [참조하세요.](admin-submission.md)
 

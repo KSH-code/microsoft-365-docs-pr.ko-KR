@@ -20,12 +20,12 @@ search.appverid:
 description: Microsoft 365에서 제공하는 도구를 사용하여 손상된 전자 메일 계정을 인식하고 대처하는 방법에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5dfb40c195cb9df9c8f2ac5d1cfbacdda022d416
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 774d96fb22bb13d4b4edcfab45f27ca9e52c5e88
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406727"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908833"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>손상된 전자 메일 계정에 응답
 
@@ -102,7 +102,7 @@ Microsoft 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 �
 >
 > - 온-프레미스 ID가 Microsoft 365와 페더레이션된 경우 온-프레미스 암호를 변경해야 하며 관리자에게 손상 사실을 알려야 합니다.
 >
-> - 앱 암호를 업데이트해야 합니다. 사용자 계정 암호가 재설정되어도 앱 암호가 자동으로 취소되지 않습니다. 사용자가 직접 기존 앱 암호를 삭제하고 새 암호를 만들어야 합니다. 자세한 내용은 [추가 보안 확인 페이지에서 앱 암호 만들기 및 삭제](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page)를 참조하세요.
+> - 앱 암호를 업데이트해야 합니다. 사용자 계정 암호가 재설정되어도 앱 암호가 자동으로 취소되지 않습니다. 사용자가 직접 기존 앱 암호를 삭제하고 새 암호를 만들어야 합니다. 자세한 내용은 [추가 보안 확인 페이지에서 앱 암호 만들기 및 삭제](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page)를 참조하세요.
 >
 > - 특히 관리자 권한이있는 계정의 경우에는 손상 방지를 위해 MFA(다중 요소 인증)를 사용하는 것이 좋습니다. MFA에 대한 자세한 내용은 [다단계 인증 설정하기로](../../admin/security-and-compliance/set-up-multi-factor-authentication.md) 이동하세요.
 

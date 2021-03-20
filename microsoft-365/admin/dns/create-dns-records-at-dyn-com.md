@@ -20,13 +20,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 34e57a00-2a7d-469c-beec-089423f18369
-description: Microsoft에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 Dyn.com 방법을 자세히 알아보고 있습니다.
-ms.openlocfilehash: d1b77d6b4f38dd3e0979f448a77b293564841f45
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Microsoft용 Skype에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 Dyn.com 대해 자세히 알아보습니다.
+ms.openlocfilehash: 432dc630d49cc3494d17b3f007f813d66dc6b1c3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657939"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910333"
 ---
 # <a name="create-dns-records-at-dyncom-for-microsoft"></a>Microsoft용 DYN.COM DNS 레코드 만들기
 
@@ -46,11 +46,11 @@ DNS 호스팅 공급자로 Dyn.com을 사용하고 있는 경우, 이 문서에 
     
     ![Dyn-BP-Configure-1-1](../../media/77597d44-9b04-43b1-8e23-d4fad238def2.png)
   
-2. 영역 수준 **서비스 페이지에서** 편집할 도메인에 **대해 Dyn Standard DNS Service를** 선택합니다. 
+2. 영역 **수준 서비스 페이지에서** 편집할 도메인에 **대해 Dyn Standard DNS Service를** 선택합니다. 
     
-3. 도메인의 **DNS** 페이지에서 기본 **설정을 선택합니다.**
+3. 도메인의 **DNS** 페이지에서 기본 설정을 **선택합니다.**
     
-4. 전문가 **인터페이스 사용 선택.**
+4. 전문가 **인터페이스 사용 을 선택합니다.**
     
 5. In the **Add DNS Record** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -62,7 +62,7 @@ DNS 호스팅 공급자로 Dyn.com을 사용하고 있는 경우, 이 문서에 
        
    ![Dyn-BP-Verify-1-1](../../media/b3730b15-a313-4b4c-b91e-646eebb649e8.png)
   
-6. 레코드 **만들기를 선택합니다.**
+6. 레코드 **만들기 를 선택합니다.**
     
     ![Dyn-BP-Verify-1-2](../../media/8b63b4ee-dbd7-44a7-b1e6-c6892b02f13e.png)
   
@@ -97,11 +97,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Dyn-BP-Configure-1-1](../../media/77597d44-9b04-43b1-8e23-d4fad238def2.png)
   
-2. 영역 수준 **서비스 페이지에서** 편집할 도메인에 **대해 Dyn Standard DNS Service를** 선택합니다. 
+2. 영역 **수준 서비스 페이지에서** 편집할 도메인에 **대해 Dyn Standard DNS Service를** 선택합니다. 
     
-3. 도메인의 DNS 페이지에서 기본 **설정을 선택합니다.**
+3. 도메인의 DNS 페이지에서 기본 설정을 **선택합니다.**
     
-4. 전문가 **인터페이스 사용을 선택합니다.**
+4. 전문가 **인터페이스 사용 을 선택합니다.**
     
 5. In the **Add DNS Record** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -109,11 +109,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**호스트**|**TTL**|**Type(종류)**|**Data(데이터)**|
     |:-----|:-----|:-----|:-----|
-    |(Leave this field empty.)  <br/> |600  <br/> |MX  <br/> |10  *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **10** 은 MX 우선 순위 값입니다. 이 값을 MX 값 시작 부분에 추가하고 나머지 값과 공백으로 구분합니다.  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)      <br>    우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |
+    |(Leave this field empty.)  <br/> |600  <br/> |MX  <br/> |10  *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **10** 은 MX 우선 순위 값입니다. 이 값을 MX 값 시작 부분에 추가하고 나머지 값과 공백으로 구분합니다.  <br/> **참고:** Microsoft  *\<domain-key\>*  계정에서 다운로드하세요.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)      <br>    우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](../setup/domains-faq.yml)을 참조하세요. <br/> |
    
     ![Dyn-BP-Configure-2-1](../../media/62ac77b7-c84d-426d-9ec4-a28d6479ad04.png)
   
-6. 레코드 **만들기를 선택합니다.**
+6. 레코드 **만들기 를 선택합니다.**
     
     ![Dyn-BP-Configure-2-2](../../media/e84e2cca-75e3-4584-8a98-f2f89cb71bd3.png)
   
@@ -132,11 +132,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Dyn-BP-Configure-1-1](../../media/77597d44-9b04-43b1-8e23-d4fad238def2.png)
   
-2. 영역 수준 **서비스 페이지에서** 편집할 도메인에 **대해 Dyn Standard DNS Service를** 선택합니다. 
+2. 영역 **수준 서비스 페이지에서** 편집할 도메인에 **대해 Dyn Standard DNS Service를** 선택합니다. 
     
-3. 도메인의 **DNS** 페이지에서 기본 **설정을 선택합니다.**
+3. 도메인의 **DNS** 페이지에서 기본 설정을 **선택합니다.**
     
-4. 전문가 **인터페이스 사용 선택.**
+4. 전문가 **인터페이스 사용 을 선택합니다.**
     
 5. 6개의 CNAME 레코드 중 첫 번째 레코드를 추가합니다.
     
@@ -154,13 +154,13 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
    
     ![Dyn-BP-Configure-3-1](../../media/1fd80695-d3d7-4298-9ebe-97a69f46f1b2.png)
   
-6. 레코드 **만들기를 선택합니다.**
+6. 레코드 **만들기 를 선택합니다.**
     
     ![Dyn-BP-Configure-3-2](../../media/89551495-3fa5-44ab-96b2-855f70be0880.png)
   
 7. 나머지 CNAME 레코드 다섯 개를 추가합니다.
     
-    DNS **레코드** 추가 섹션에서 표의 다음 행 값을 사용하여 레코드를 만든 다음  레코드 만들기를 다시 선택하여 해당 레코드를 완료합니다. 
+    DNS **레코드 추가** 구역에서 표의 다음 행 값을 사용하여 레코드를 만든 다음  레코드 만들기를 다시 선택하여 해당 레코드를 완료합니다. 
     
     6개의 CNAME 레코드를 모두 만들 때까지 이 프로세스를 반복합니다.
     
@@ -174,11 +174,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Dyn-BP-Configure-1-1](../../media/77597d44-9b04-43b1-8e23-d4fad238def2.png)
   
-2. 영역 수준 **서비스 페이지에서** 편집할 도메인에 **대해 Dyn Standard DNS Service를** 선택합니다. 
+2. 영역 **수준 서비스 페이지에서** 편집할 도메인에 **대해 Dyn Standard DNS Service를** 선택합니다. 
     
-3. 도메인의 **DNS** 페이지에서 기본 **설정을 선택합니다.**
+3. 도메인의 **DNS** 페이지에서 기본 설정을 **선택합니다.**
     
-4. 전문가 **인터페이스 사용 선택.**
+4. 전문가 **인터페이스 사용 을 선택합니다.**
     
 5. In the **Add DNS Record** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -190,7 +190,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
    
     ![Dyn-BP-Configure-4-1](../../media/f8511349-3ea2-40c3-9853-98e1a58a91b5.png)
   
-6. 레코드 **만들기를 선택합니다.**
+6. 레코드 **만들기 를 선택합니다.**
     
     ![Dyn-BP-Configure-4-2](../../media/bbe04835-d3c0-4146-8123-9781bb9eca51.png)
   
@@ -201,11 +201,11 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     ![Dyn-BP-Configure-1-1](../../media/77597d44-9b04-43b1-8e23-d4fad238def2.png)
   
-2. 영역 수준 **서비스 페이지에서** 편집할 도메인에 **대해 Dyn Standard DNS Service를** 선택합니다. 
+2. 영역 **수준 서비스 페이지에서** 편집할 도메인에 **대해 Dyn Standard DNS Service를** 선택합니다. 
     
-3. 도메인의 **DNS** 페이지에서 기본 **설정을 선택합니다.**
+3. 도메인의 **DNS** 페이지에서 기본 설정을 **선택합니다.**
     
-4. 전문가 **인터페이스 사용 선택.**
+4. 전문가 **인터페이스 사용 을 선택합니다.**
     
 5. 2개의 SRV 레코드 중 첫 번째 레코드를 추가합니다.
     
@@ -220,14 +220,13 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
    
     ![Dyn-BP-Configure-5-1](../../media/a6873411-f4ce-4327-9145-02d435930976.png)
   
-6. 레코드 **만들기를 선택합니다.**
+6. 레코드 **만들기 를 선택합니다.**
     
     ![Dyn-BP-Configure-5-2](../../media/e6f33452-e527-473b-a645-b31ed70b0d43.png)
   
 7. 다른 SRV 레코드를 추가합니다.
     
-    DNS **레코드** 추가 섹션에서 표의 두 번째 행 값을 사용하여 레코드를 만든  다음 레코드 만들기를 다시 선택하여 해당 레코드를 완료합니다. 
+    DNS **레코드 추가 구역에서** 표의 두 번째 행 값을 사용하여 레코드를 만든  다음 레코드 만들기를 다시 선택하여 해당 레코드를 완료합니다. 
     
 > [!NOTE]
 >  일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
-  

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 그룹에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 75bc743ed8f1965d0ed8a1967e6eac1bd6e0178b
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 18cb37a4aae7a163d2e198194251abc727b48848
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453684"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910609"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>관리자를 위한 Microsoft 365 그룹 개요
 
@@ -45,7 +45,7 @@ Microsoft 365 그룹은 Microsoft 365에서 모든 팀워크를 구동하는 기
 
 Microsoft 365 그룹을 사용하면 이러한 각 리소스에 대한 사용 권한을 수동으로 할당할 필요는 없습니다. 그룹에 사용자 추가는 자동으로 필요한 사용 권한을 부여합니다.
 
-특정 사용자 집합으로 그룹 만들기를 제한하지 않는 한 모든 사용자는 그룹을 [만들 수 있습니다.](manage-creation-of-groups.md) 그룹 만들기를 제한하면 그룹을 만들 수 없는 사용자는 SharePoint 사이트, Planners 또는 팀을 만들 수 없습니다. 이러한 서비스를 사용하려면 그룹을 만드는 사람이 그룹을 만들 수 있게 됩니다. 사용자는 그룹의 구성원인 경우 Planner에서 작업을 만들거나 Teams 채팅을 사용하는 등의 그룹 활동에 계속 참여할 수 있습니다.
+특정 사용자 집합으로 그룹 만들기를 제한하지 않는 한 모든 사용자는 그룹을 [만들 수 있습니다.](../../solutions/manage-creation-of-groups.md) 그룹 만들기를 제한하면 그룹을 만들 수 없는 사용자는 SharePoint 사이트, Planners 또는 팀을 만들 수 없습니다. 이러한 서비스를 사용하려면 그룹을 만드는 사람이 그룹을 만들 수 있게 됩니다. 사용자는 그룹의 구성원인 경우 Planner에서 작업을 만들거나 Teams 채팅을 사용하는 등의 그룹 활동에 계속 참여할 수 있습니다.
 
 그룹에는 다음과 같은 역할이 있습니다.
 
@@ -57,17 +57,17 @@ Microsoft 365 그룹을 사용하면 이러한 각 리소스에 대한 사용 �
 
 관리자는 다음을 할 수 있습니다.
 
-- [그룹을 만들 수 있는 사용자 지정](manage-creation-of-groups.md)
-- [조직의 그룹에 대한 이름 정책 만들기](groups-naming-policy.md)
-- [그룹을 만들 때 사용할 도메인 선택](choose-domain-to-create-groups.md)
+- [그룹을 만들 수 있는 사용자 지정](../../solutions/manage-creation-of-groups.md)
+- [조직의 그룹에 대한 이름 정책 만들기](../../solutions/groups-naming-policy.md)
+- [그룹을 만들 때 사용할 도메인 선택](../../solutions/choose-domain-to-create-groups.md)
 - [그룹에 대한 게스트 액세스 관리](manage-guest-access-in-groups.md)
 - [삭제된 그룹 복구(삭제](restore-deleted-group.md) 후 30일 이내에)
 
-Microsoft 365 그룹의 수명 주기를 보다 자동화된 방식으로 관리하기를 원하는 경우 만료 정책을 사용하여 특정 시간 간격으로 그룹을 만료할 수 있습니다. 그룹의 소유자는 그룹 만료 30일, 15일 및 1일 전에 전자 메일을 수신하게 되기 때문에 필요한 경우 그룹을 갱신할 수 있습니다. Microsoft [365 그룹 만료 정책 을 참조합니다.](office-365-groups-expiration-policy.md)
+Microsoft 365 그룹의 수명 주기를 보다 자동화된 방식으로 관리하기를 원하는 경우 만료 정책을 사용하여 특정 시간 간격으로 그룹을 만료할 수 있습니다. 그룹의 소유자는 그룹 만료 30일, 15일 및 1일 전에 전자 메일을 수신하게 되기 때문에 필요한 경우 그룹을 갱신할 수 있습니다. Microsoft [365 그룹 만료 정책 을 참조합니다.](../../solutions/microsoft-365-groups-expiration-policy.md)
 
-Microsoft 365 관리 센터에서 또는 [PowerShell을](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)사용하여 그룹을 관리할 수 있습니다.
+Microsoft 365 관리 센터에서 또는 [PowerShell을](../../enterprise/manage-microsoft-365-groups-with-powershell.md)사용하여 그룹을 관리할 수 있습니다.
 
-대기업이나 대기업 등의 사용자가 많은 경우 다양한 용도로 그룹을 만드는 사용자가 많이 있을 수 있습니다. Microsoft [365](plan-for-groups-governance.md) 그룹의 거버넌스 계획을 검토하여 모범 사례를 검토하는 것이 좋습니다.
+대기업이나 대기업 등의 사용자가 많은 경우 다양한 용도로 그룹을 만드는 사용자가 많이 있을 수 있습니다. Microsoft [365](../../solutions/collaboration-governance-overview.md) 그룹의 거버넌스 계획을 검토하여 모범 사례를 검토하는 것이 좋습니다.
 
 ## <a name="group-limits"></a>그룹 제한
 
@@ -100,14 +100,14 @@ Microsoft 365 그룹에는 다음 제한이 적용됩니다.
 > [!IMPORTANT]
 > 현재 분류 레이블을 사용하는 경우 민감도 레이블을 사용하도록 설정하면 그룹을 만드는 사용자가 더 이상 해당 레이블을 사용할 수 없습니다. 
 
-민감도 레이블 만들기, 관리 및 사용에 대한 자세한 내용은 민감도 레이블을 사용하여 [Microsoft Teams, Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)그룹 및 SharePoint 사이트의 콘텐츠를 보호를 참조하세요.
+민감도 레이블 만들기, 관리 및 사용에 대한 자세한 내용은 민감도 레이블을 사용하여 [Microsoft Teams, Microsoft 365](../../compliance/sensitivity-labels-teams-groups-sites.md)그룹 및 SharePoint 사이트의 콘텐츠를 보호를 참조하세요.
 
 ## <a name="which-microsoft-365-plans-include-groups"></a>그룹을 포함 하는 Microsoft 365 계획?
 
 Exchange Online 및 SharePoint Online이 있는 모든 Microsoft 365 구독은 그룹을 지원합니다. 여기에는 Business Essentials 및 Business Premium 계획과 Enterprise E1, E3 및 E5 요금제가 포함됩니다. 그룹은 그룹을 만든 사람의 라이선스를 관리합니다(그룹의 "이끌이"라고도 알려지기). 이끌이가 그룹에 필요한 기능에 대한 적절한 라이선스가 있는 한 해당 라이선스는 그룹에 전달됩니다.
 
 > [!NOTE]
-> Microsoft 365 서비스 패밀리 및 계획에 대한 자세한 내용은 [Microsoft 365 계획 옵션을 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
+> Microsoft 365 서비스 패밀리 및 계획에 대한 자세한 내용은 [Microsoft 365 계획 옵션을 참조하세요.](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
 
 Exchange 전용 계획이 있는 경우 Outlook에서 그룹의 공유 받은 편지함 및 공유 일정 기능을 계속 사용할 수 있지만 문서 라이브러리, Planner 또는 기타 기능은 사용할 수 없습니다.
 
@@ -123,8 +123,8 @@ Microsoft 365 그룹은 Azure Active Directory와 함께 작동됩니다. 사용
 
 [메일 그룹을 Microsoft 365 그룹으로 업그레이드](../manage/upgrade-distribution-lists.md)
 
-[PowerShell을 사용하여 Microsoft 365 그룹 관리](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)
+[PowerShell을 사용하여 Microsoft 365 그룹 관리](../../enterprise/manage-microsoft-365-groups-with-powershell.md)
 
-[SharePoint Online 제한 사항](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
+[SharePoint Online 제한 사항](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 
-[Microsoft Stream에서 그룹 및 채널 구성](https://docs.microsoft.com/stream/groups-channels-organization)
+[Microsoft Stream에서 그룹 및 채널 구성](/stream/groups-channels-organization)
