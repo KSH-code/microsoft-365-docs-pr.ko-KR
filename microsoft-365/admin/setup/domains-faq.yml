@@ -26,12 +26,12 @@ metadata:
   - GEA150
   ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
   description: FAQ에서 질문에 대한 답변을 찾아 도메인(onmicrosoft domain and tranfer domain)에 대해 자세히 알아보하세요.
-  ms.openlocfilehash: 1ecb82b2dcc93cb57a68e4aa878c5699e06e93b9
-  ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
+  ms.openlocfilehash: 2f7bf168b67559f4ff6dc2fcd9b194dc1aaeb23d
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/12/2021
-  ms.locfileid: "50758919"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50914117"
 title: 도메인 FAQ
 summary: "\n\n이 문서에는 Microsoft 365의 도메인에 대한 질문과 대답이 포함되어 있습니다.\n\n질문에 대한 대답을 찾을 수 없는 경우 저희에게 메모를 남겨 알려주시면 목록에 추가해 드리겠습니다.\n"
 sections:
@@ -51,13 +51,13 @@ sections:
     answer: "::: moniker range=\"o365-worldwide\"\n\n예. 하위 도메인을 추가하려면 등록 기관의 웹 사이트에서 자체 DNS 설정을 관리해야 합니다. Microsoft에서 NS 레코드를 사용하여 DNS 설정을 관리하게 하거나 Microsoft에서 도메인을 구입한 경우 하위 도메인을 추가할 수 없습니다.\n\n::: moniker-end\n\n::: moniker range=\"o365-germany\"\n\n예! 하위 도메인을 추가하려면 등록 기관의 웹 사이트에서 자체 DNS 설정을 관리해야 합니다. Microsoft에서 NS 레코드를 사용하여 DNS 설정을 관리하게 하거나 Microsoft에서 도메인을 구입한 경우 하위 도메인을 추가할 수 없습니다.\n\n::: moniker-end\n\n::: moniker range=\"o365-21vianet\"\n\n예! 하위 도메인을 추가하려면 등록 기관의 웹 사이트에서 자체 DNS 설정을 관리해야 합니다. 21Vianet에서 NS 레코드를 사용하여 DNS 설정을 관리하게 하는 경우 하위 도메인을 추가할 수 없습니다.\n\n::: moniker-end\n\n일반적으로 Microsoft 365 구독에 최대 900개 도메인을 추가할 수 있습니다.\n  \n예를 들어 contoso.com 및 contosomarketing.com 도메인을 추가한 다음 하위 도메인을 www.contoso.com, www.partners.contoso.com, www.marketing.partners.contoso.com 추가할 수 있습니다.\n  \n하위 도메인을 추가하면 확인되는 상위 도메인에 따라 하위 도메인이 자동으로 확인됩니다.\n  \nMicrosoft 365에 여러 도메인을 추가하는 경우 추가한 도메인에서 모든 서비스(예: 전자 메일)를 호스팅할 수 있습니다.  *도메인의 MX 레코드를 업데이트하여 전자 메일을 Microsoft 365로 변경하면 해당 도메인으로 전송된 모든 전자 메일이 Microsoft 365로 전송됩니다.* \n \n::: moniker range=\"o365-worldwide\"\n\n> [!NOTE]\n> Microsoft 365 contoso.com 도메인을 추가한 경우 다른 Microsoft 365 조직에 하위 도메인 xyz.contoso.com 추가할 수도 있습니다. 하위 도메인을 추가할 때 DNS 호스팅 공급자에 TXT 레코드를 추가하라는 메시지가 표시될 수 있습니다.\n::: moniker-end\n"
   - question: Microsoft 365에서 다른 호스트로 도메인을 전송하려면 어떻게 해야 합니까?
     answer: >
-      도메인을 전송하는 절차는 Microsoft에서 다른 호스트로 [도메인 전송을 참조합니다.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host)
+      도메인을 전송하는 절차는 Microsoft에서 다른 호스트로 [도메인 전송을 참조합니다.](../get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host.md)
   - question: 사용자 지정 도메인에서 Microsoft 365 파일럿
     answer: >
-      사용자 지정 도메인에서 Microsoft 365 사서함으로 Microsoft 365 전자 메일 기능을 파일럿하는 절차는 사용자 지정 도메인에서 [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain)파일럿을 참조하세요.
+      사용자 지정 도메인에서 Microsoft 365 사서함으로 Microsoft 365 전자 메일 기능을 파일럿하는 절차는 사용자 지정 도메인에서 [Microsoft 365](../misc/pilot-microsoft-365-from-my-custom-domain.md)파일럿을 참조하세요.
   - question: "\"onmicrosoft.com 도메인이 있는 이유는 무엇입니까?"
     answer: "Microsoft 365는 서비스에 등록할 때 contoso.onmicrosoft.com 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 도메인이 *포함됩니다(alan@contoso.onmicrosoft.com).* \n  \n **If you want to have your email look like *alan \\@ contoso.com*:** [buy the domain](../get-help-with-domains/buy-a-domain-name.md) or just follow the steps in Add your users and domain to Microsoft [365](add-domain.md) if you already own it. \n  \n- **등록한 후 onmicrosoft 도메인의 이름을 뒤로할 수 없습니다.** 예를 들어 선택한 초기 도메인이 fourthcoffee.onmicrosoft.com 도메인으로 변경할 수 fabrikam.onmicrosoft.com. 다른 onmicrosoft.com 도메인을 사용하려면 Microsoft 365를 사용하여 새 구독을 시작해야 합니다. \n    \n- **팀 사이트 URL의 이름을 변경하면 안 됩니다.** 팀 사이트 URL은 사용자 도메인 onmicrosoft.com 기반입니다. 그렇지만 SharePoint Online 아키텍처가 작동하는 방식 때문에 팀 사이트의 이름을 다시 정할 수 없습니다. \n    \n- **onmicrosoft 도메인은 제거할 수 없습니다.** Microsoft 365는 구독을 위해 뒤에서 사용 뒷부분에서 사용 하여 주변을 유지해야 합니다. 그러나 사용자 지정 도메인을 추가한 후 직접 도메인을 사용할 수 없습니다. \n    \n도메인을 추가한 후에도 onmicrosoft.com 도메인을 계속 사용할 수 있습니다. 전자 메일 및 기타 서비스에도 계속 작동하기 때문에 선택이 됩니다.\n  \n"
   - question: "\"onmicrosoft.de 도메인이 있는 이유는 무엇입니까?"
     answer: "Microsoft 365는 서비스에 등록할 때 contoso.onmicrosoft.de 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 도메인이 *포함됩니다(alan@contoso.onmicrosoft.de.* \n  \n **If you want to have your email look like *alan@contoso.de*:** buy the [domain](../get-help-with-domains/buy-a-domain-name.md) or just follow the steps in Add your users and domain to [Microsoft 365](add-domain.md) if you already own it. \n  \n- **등록한 후 onmicrosoft 도메인의 이름을 뒤로할 수 없습니다.** 예를 들어 선택한 초기 도메인이 fourthcoffee.onmicrosoft.de 도메인으로 변경할 수 fabrikam.onmicrosoft.de. 다른 onmicrosoft.de 도메인을 사용하려면 Microsoft 365를 사용하여 새 구독을 시작해야 합니다. \n    \n- **팀 사이트 URL의 이름을 변경하면 안 됩니다.** 팀 사이트 URL은 사용자 도메인 onmicrosoft.de 기반입니다. 그렇지만 SharePoint Online 아키텍처가 작동하는 방식 때문에 팀 사이트의 이름을 다시 정할 수 없습니다. \n    \n- **onmicrosoft 도메인은 제거할 수 없습니다.** Microsoft 365는 구독을 위해 뒤에서 사용 뒷부분에서 사용 하여 주변을 유지해야 합니다. 그러나 사용자 지정 도메인을 추가한 후 직접 도메인을 사용할 수 없습니다. \n    \n도메인을 추가한 후에도 onmicrosoft.de 도메인을 계속 사용할 수 있습니다. 전자 메일 및 기타 서비스에도 계속 작동하기 때문에 선택이 됩니다.\n  \n"
   - question: 비영리 또는 교육 상태를 확인하는 방법
-    answer: "1. 관리 **센터에서** [설치를 선택하여](https://docs.microsoft.com/microsoft-365/admin/admin-home) 마법사를 시작하세요. (먼저 Microsoft 365에 로그인해야 합니다.) \n    \n2. 학교의 관리자가 되하려면 Microsoft  365에서 관리자 되기 옵션을 선택합니다. \n    \n3. 도메인의 DNS 호스트 웹 사이트에서 TXT DNS 레코드를 추가하라는 메시지가 표시됩니다. 이유 DNS 호스트에서 로그인하고 도메인의 레코드를 추가하여 도메인 이름을 소유하고 있는 것을 Microsoft 365에 증명합니다.\n    \n4. 레코드를 추가한 후 Microsoft 365 포털로 돌아가서 추가한 것이 확인되면 Microsoft 365에서 확인할 수 있습니다.\n    \n비영리가 있으며 Microsoft 365를 사용하려는 경우 [조직에서 서비스를 한정하는지 확인한](https://www.microsoft.com/en-us/nonprofits/eligibility) 다음 서비스에 등록합니다. \n  \n학교의 관리자 되기에 대해 더 알고 싶나요? [자세한 내용은 을(를) 자세히 알아보아야 합니다.](https://docs.microsoft.com/microsoft-365/education/deploy/becoming-an-admin-in-office-365-education\n)"
+    answer: "1. 관리 **센터에서** [설치를 선택하여](./index.yml) 마법사를 시작하세요. (먼저 Microsoft 365에 로그인해야 합니다.) \n    \n2. 학교의 관리자가 되하려면 Microsoft  365에서 관리자 되기 옵션을 선택합니다. \n    \n3. 도메인의 DNS 호스트 웹 사이트에서 TXT DNS 레코드를 추가하라는 메시지가 표시됩니다. 이유 DNS 호스트에서 로그인하고 도메인의 레코드를 추가하여 도메인 이름을 소유하고 있는 것을 Microsoft 365에 증명합니다.\n    \n4. 레코드를 추가한 후 Microsoft 365 포털로 돌아가서 추가한 것이 확인되면 Microsoft 365에서 확인할 수 있습니다.\n    \n비영리가 있으며 Microsoft 365를 사용하려는 경우 [조직에서 서비스를 한정하는지 확인한](https://www.microsoft.com/en-us/nonprofits/eligibility) 다음 서비스에 등록합니다. \n  \n학교의 관리자 되기에 대해 더 알고 싶나요? [자세한 내용은 을(를) 자세히 알아보아야 합니다.](https://docs.microsoft.com/microsoft-365/education/deploy/becoming-an-admin-in-office-365-education\n)"
