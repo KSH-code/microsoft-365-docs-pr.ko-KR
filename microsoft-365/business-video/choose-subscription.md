@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에 적합한 Microsoft 365 구독에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9bb72b01c7b1119f96120702e7b4f9c80aa4e729
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 0ac7dbcad1f2d7fa99db607e6d4696c9f8fcb542
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422822"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913757"
 ---
 # <a name="choose-a-microsoft-365-subscription"></a>Microsoft 365 구독 선택
 
@@ -74,4 +74,4 @@ ms.locfileid: "50422822"
 
 \*\*\* 자동 확장이 켜져 있는 경우 무제한 보관.
 
-Microsoft 365 Business Premium을 다른 Microsoft 365 요금제와 다른 제품과 비교하기 위해 중소기업용 [Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb)라이선스를 참조합니다.
+Microsoft 365 Business Premium을 다른 Microsoft 365 요금제와 다른 제품과 비교하기 위해 중소기업용 [Microsoft 365](/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb)라이선스를 참조합니다.

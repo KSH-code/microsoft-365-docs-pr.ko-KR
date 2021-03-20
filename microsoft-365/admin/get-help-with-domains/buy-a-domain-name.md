@@ -23,31 +23,31 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Microsoft 365에서 도메인 이름을 구입하는 방법을 배워야 합니다.
-ms.openlocfilehash: d7215db61577968bb2b21f708bda9d42acd7e675
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 24c6ac017cf25e1a40148e7a2c982e9d1068664b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126396"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915677"
 ---
 # <a name="buy-a-domain-name"></a>도메인 이름 구매
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
- *도메인을 추가, 수정 또는  제거하려면  비즈니스 또는 엔터프라이즈 계획의 전역 관리자 [되어야 합니다.](https://products.office.com/business/office) 이러한 변경 내용은 전체 테넌트,   사용자 지정된 관리자 또는 일반 사용자에게 영향을 미치며 이러한 변경을 할 수 없습니다.*  
+ *도메인을 추가, 수정 또는 제거하려면  **비즈니스** 또는 엔터프라이즈 계획의 전역 관리자 [되어야 합니다.](https://products.office.com/business/office) 이러한 변경 내용은 전체 테넌트,   사용자 지정된 관리자 또는 일반 사용자에게 영향을 미치며 이러한 변경을 할 수 없습니다.*  
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요. 
   
-### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>로그인하고 설정 \> 도메인 \> 구입 도메인으로 이동
+### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>로그인하고 설정 도메인 도메인 \> \> 구입으로 이동합니다.
 
 1. I관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인</a> 페이지로 이동하십시오.
     
-3. On the **Domains** page, select **Buy domain**.
+3. 도메인 **페이지에서** 도메인 **구입을 선택합니다.**
     
 도메인의 다음 최상위 도메인에서 선택할 수 있습니다.
   
@@ -73,13 +73,13 @@ ms.locfileid: "50126396"
     
 
 > [!NOTE]
-> 도메인 구입을 **선택하면** Microsoft 파트너를 통해 테넌트가 구매/관리되는 경우 Microsoft 파트너의 웹 사이트로 리디렉션될 수 있습니다.
+> 도메인 **구입을 선택하면** Microsoft 파트너를 통해 테넌트가 구매/관리되는 경우 Microsoft 파트너의 웹 사이트로 리디렉션될 수 있습니다.
 
 ### <a name="domain-privacy"></a>도메인 개인 정보
-도메인 구입 시 무료 도메인 개인 정보 구독을 제공합니다. 그러면 연락처 정보가 ICANN 비공개로 도메인 등록에 첨부됩니다. [더 알아보세요.](https://whois.icann.org/en/privacy-and-proxy-services)
+도메인 구입 시 도메인 개인 정보 구독을 무료로 제공합니다. 그러면 연락처 정보가 ICANN 비공개로 도메인 등록에 첨부됩니다. [더 알아보세요.](https://whois.icann.org/en/privacy-and-proxy-services)
   
 ### <a name="buy-a-domain-from-another-domain-registrar"></a>다른 도메인 등록 기관에서 도메인 구입
-[GoDaddy가](https://www.godaddy.com)다른 도메인 등록 기관에서 도메인을 구입하려는 경우 자동 설정(Domain Connect)을 지원하는 아래의 도메인을 사용하는 것이 좋습니다. 
+[GoDaddy가](https://www.godaddy.com)외의 도메인 등록 기관에서 도메인을 구입하려는 경우 자동 설정(Domain Connect)을 지원하는 아래의 도메인을 사용하는 것이 좋습니다. 
   
 - [1 &amp; 1 IONOS](https://www.1and1.com/)
 - [WordPress](https://www.wordpress.com) 
@@ -101,12 +101,12 @@ ms.locfileid: "50126396"
 
 고유한 도메인이 아직 없다면 도메인 이름 등록 기관이나 도메인 판매자 또는 현재 인터넷 제공업체에서 온라인으로 손쉽게 도메인을 구입할 수 있습니다. 21Vianet에서 운영하는 Office 365에 등록하면 contoso.partner.onmschina.cn 같은 도메인 이름이 제공됩니다. 하지만 fourthcoffee.com 같은 사용자 지정 도메인 이름도 사용할 수 있습니다.
   
-Microsoft 365에서 도메인을 설정하려면 도메인을 소유하고 도메인의 일부 DNS 레코드를 변경해야 합니다.
+Microsoft 365에서 도메인을 설정하려면 도메인을 소유하고 도메인의 DNS 레코드 중 일부를 변경해야 합니다.
   
 > [!CAUTION]
 > 일부 도메인 등록 기관 또는 DNS 호스팅 공급자는 Microsoft 365에 필요한 모든 DNS 레코드를 만들 수 없습니다. 다음 나열된 호스팅 공급자는 필요한 레코드를 모두 지원합니다. 다른 호스팅 공급자를 사용하는 것을 고려하고 있다면 [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.microsoft.com/office/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 
   
-도메인 등록 기관에서 도메인을 등록한 후 관리자로 Microsoft 365에 로그인하고 전자 메일 주소 및 기타 서비스와 함께 사용할 수 있도록 도메인을 설정합니다.
+도메인을 등록한 후 Microsoft 365에 관리자로 로그인하고 전자 메일 주소 및 기타 서비스와 함께 사용할 수 있도록 도메인을 설정합니다.
   
 > [!NOTE]
 > 이 문서의 SharePoint Online 공개 웹 사이트 정보는 조직에서 2015년 3월 9일 이전에 Microsoft 365를 구입한 경우만 적용됩니다. 
@@ -129,4 +129,4 @@ Microsoft 365에서 도메인을 설정하려면 도메인을 소유하고 도�
 
 [도메인 FAQ](../setup/domains-faq.yml)
 
-[DNS 레코드를 업데이트하여 현재](https://docs.microsoft.com/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider)호스팅 공급자와 함께 웹 사이트를 유지하세요.
+[DNS 레코드를 업데이트하여 현재 호스팅 공급자로 웹 사이트를 유지하세요.](../dns/update-dns-records-to-retain-current-hosting-provider.md)

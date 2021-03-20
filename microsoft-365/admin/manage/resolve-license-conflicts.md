@@ -20,24 +20,24 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
-description: 비즈니스용 Microsoft 365 구독과의 라이선스 충돌을 해결하는 방법을 알아보는 방법을 배워야 합니다.
-ms.openlocfilehash: 284a6b169c02314dd2bbd0e13c10c081cb50f58d
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+description: 비즈니스용 Microsoft 365 구독과 라이선스 충돌을 해결하는 방법을 자세히 알아보습니다.
+ms.openlocfilehash: e2b5daa71164b41825282bd5652549347b8307c1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114456"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915185"
 ---
 # <a name="resolve-license-conflicts"></a>라이선스 충돌 해결
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
-새 사용자를 만들기 전에 구독에 필요한 라이선스를 구입하는 것이 좋습니다. 이렇게 하면 사용자 계정이 만들어지므로 라이선스를 새 사용자에 할당할 수 있습니다. 이미 사용자에게 라이선스를 모두 할당했지만 일부 라이선스가 만료되었거나 사용자에게 이미 할당한 라이선스를 제거하려면 라이선스 충돌이 발생됩니다. 자세한 내용은 구독에서 [라이선스 제거를 참조하세요.](../../commerce/licenses/remove-licenses-from-subscription.md)
+새 사용자를 만들기 전에 구독에 필요한 라이선스를 구입하는 것이 좋습니다. 이렇게 하면 사용자 계정이 만들어지므로 라이선스를 새 사용자에 할당할 수 있습니다. 이미 사용자에게 라이선스를 모두 할당했지만 일부 라이선스가 만료되었거나 사용자에게 이미 할당한 라이선스를 제거하려면 라이선스 충돌이 발생됩니다. 자세한 내용은 구독에서 [라이선스 제거를 참조하세요.](../../commerce/licenses/buy-licenses.md)
   
 ## <a name="how-do-i-view-license-conflicts"></a>라이선스 충돌을 확인하는 방법
 
@@ -66,7 +66,7 @@ ms.locfileid: "50114456"
 
 ## <a name="how-do-i-resolve-license-conflicts"></a>라이선스 충돌을 해결하는 방법
 
-라이선스를 더 구입하거나 더 [](../../commerce/licenses/buy-licenses.md) 이상 필요하지 않은 사용자의 라이선스를 제거하여 라이선스 충돌을 [해결할 수 있습니다.](remove-licenses-from-users.md) 경우에 따라 [사용자 계정을 삭제하여 라이선스를 확보](../add-users/delete-a-user.md)할 수도 있습니다.
+추가 라이선스를 구입하거나 더 [](../../commerce/licenses/buy-licenses.md) 이상 필요하지 않은 사용자로부터 라이선스를 제거하여 라이선스 [충돌을 해결할 수 있습니다.](remove-licenses-from-users.md) 경우에 따라 [사용자 계정을 삭제하여 라이선스를 확보](../add-users/delete-a-user.md)할 수도 있습니다.
   
 ## <a name="related-articles"></a>관련 문서
 

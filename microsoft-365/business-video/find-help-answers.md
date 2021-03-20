@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 Business Premium에 대한 관리자 도움말을 찾는 방법을 배워야 합니다.
-ms.openlocfilehash: cf81ae934a35dadc895a1fc836ef1bd28f5000e0
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 5f09d74a5447b5023b2b3286a3aae504f707d44e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422594"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913637"
 ---
 # <a name="find-answers-and-help-for-admins"></a>관리자를 위한 답변 및 도움말 찾기
 
@@ -47,6 +47,6 @@ ms.locfileid: "50422594"
 
 다음 리소스를 사용하여 문제를 해결해 줄 수도 있습니다.
 
-- [aka.ms/learn365admin](https://aka.ms/learn365admin)암호를 다시 설정하고 Microsoft 구독을 할당하는 등 모든 관리자 관련 작업 및 도움말을 검색합니다.
+- [aka.ms/learn365admin](../admin/index.yml)암호를 다시 설정하고 Microsoft 구독을 할당하는 등 모든 관리자 관련 작업 및 도움말을 검색합니다.
 - [answers.microsoft.com](https://answers.microsoft.com)를 사용하여 답변을 검색하고, 토론을 시작하고, 다른 사용자의 질문을 합니다.
 - [techcommunity.microsoft.com](https://techcommunity.microsoft.com)를 통해 전문가 커뮤니티에 참여하고 비즈니스용 Microsoft 365를 통해 모범 사례를 찾을 수 있습니다.

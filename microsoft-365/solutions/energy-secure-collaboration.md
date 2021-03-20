@@ -13,12 +13,12 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Priority
 description: Microsoft 365에서는 에너지 회사가 데이터와 시스템을 계속 안전하게 유지하고 규정을 준수하는 한편, 최신 공동 작업 플랫폼으로 전환하도록 도와줍니다.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 1e5acc09c72b47f583c2ee9330f78bf3e68aaa33
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: 086cc176190549f2ec8e49ea992744059c5d9005
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558493"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916121"
 ---
 # <a name="key-compliance-and-security-considerations-for-the-energy-industry"></a>에너지 산업에 대한 주요 규정 준수 및 보안 고려 사항
 ![클라우드를 사용하는 다양한 업계 전체 보기를 위한 실제 사례 비유](../media/solution-arch-center/MSC17_global_016.png)
@@ -38,7 +38,7 @@ Microsoft 클라우드 서비스 및 NERC에 대한 자세한 내용은 다음 �
 - Azure 및 Azure Government는 각각 최고 수준의 FedRAMP 인증을 나타내는 FedRAMP High P-ATO(임시 운영 인증) 승인을 받았습니다. 
 
 Microsoft 클라우드 서비스 및 FedRAMP에 대한 자세한 내용은 다음 리소스를 참조하세요.
-- [Microsoft FedRAMP 개요](https://docs.microsoft.com/microsoft-365/compliance/offering-fedramp?view=o365-worldwide)
+- [Microsoft FedRAMP 개요](/compliance/regulatory/offering-FedRAMP?view=o365-worldwide)
 - [Office 365 FedRAMP 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_FedRAMP_Reports)
 
 

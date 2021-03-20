@@ -20,19 +20,19 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 중앙 집중식 추가 기능을 사용하여 조직의 사용자 및 그룹에 추가 기능을 배포하는 방법을 학습합니다.
-ms.openlocfilehash: b888c0f329e3f1f36f5aa566df7efbab07cd1f5f
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 0750b6c9b91bc5cbd67d227fadb304bfc6cf7537
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509137"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915401"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 관리
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -40,7 +40,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
 
 관리자가 조직의 사용자에 대해 추가 기능을 배포한 후 추가 기능을 해제하거나 설정하고, 추가 기능 액세스 권한을 편집, 삭제 및 관리할 수 있습니다.
 
-관리 센터에서 추가 기능을 설치하는 데 대한 자세한 내용은 관리 센터에서 추가 기능 [배포를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
+관리 센터에서 추가 기능을 설치하는 데 대한 자세한 내용은 관리 센터에서 추가 기능 [배포를 참조하세요.](./manage-deployment-of-add-ins.md)
   
 ## <a name="add-in-states"></a>추가 기능 상태
 
@@ -87,7 +87,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹의 정보
 ## <a name="prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook"></a>모든 클라이언트에서 Office 스토어를 해제하여 추가 기능 다운로드 방지(Outlook 제외)
 
 > [!NOTE]
-> Outlook 추가 기능 설치는 다른 프로세스로 [관리됩니다.](https://technet.microsoft.com/library/jj943754%28v=exchg.150%29.aspx)
+> Outlook 추가 기능 설치는 다른 프로세스로 [관리됩니다.](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins)
 
 조직에서는 Office 스토어에서 새 Office 추가 기능을 다운로드하지 못하게 할 수 있습니다. 중앙 집중식 배포와 함께 사용하면 조직에서 승인한 추가 기능만 조직 내의 사용자에게 배포할 수 있습니다.
   
@@ -131,10 +131,10 @@ Office 스토어 끄기 지원은 다음 버전에서 사용할 수 있습니다
     
 이렇게 해서 관리자가 중앙 집중식 배포를 사용하여 Office 스토어에서 추가 기능을 할당할 수 있는 것은 아닙니다.
   
-사용자가 Microsoft 계정으로 로그인하지 못하도록 조직 계정만 사용하도록 로그온을 제한할 수 있습니다. 자세한 내용은 [Office 2016의 ID, 인증](https://technet.microsoft.com/library/jj683102%28v=office.16%29.aspx)및 권한 부여를 참조하세요.  
+사용자가 Microsoft 계정으로 로그인하지 못하도록 조직 계정만 사용하도록 로그온을 제한할 수 있습니다. 자세한 내용은 [Office 2016의 ID, 인증](/DeployOffice/security/identity-authentication-and-authorization-in-office)및 권한 부여를 참조하세요.  
 
 > [!NOTE]
-> 사용자가 Office 스토어에 액세스하지 못하게 하면 테스트용 Office 추가 기능을 [테스트용으로 로드할 수 없습니다.](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)
+> 사용자가 Office 스토어에 액세스하지 못하게 하면 테스트용 Office 추가 기능을 [테스트용으로 로드할 수 없습니다.](/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)
 
 ## <a name="more-about-the-end-user-experience-with-add-ins"></a>추가 기능을 사용할 수 있는 최종 사용자 경험에 대한 자세한 내용은
 
@@ -160,14 +160,14 @@ Office 스토어 끄기 지원은 다음 버전에서 사용할 수 있습니다
   
 2. 왼쪽 **내비게이트에서** 관리자 관리 를 선택합니다. 
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
-[관리 센터에서 추가 기능 배포](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
+[관리 센터에서 추가 기능 배포](./manage-deployment-of-add-ins.md)
 
-[Office 추가 기능](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)을 만들고 빌드하는 방법에 대해 자세히 알아보세요.
+[Office 추가 기능](/office/dev/add-ins/overview/office-add-ins)을 만들고 빌드하는 방법에 대해 자세히 알아보세요.
   
-[중앙 집중식 배포 PowerShell cmdlet을](https://docs.microsoft.com/microsoft-365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)사용하여 추가 기능을 관리합니다.
+[중앙 집중식 배포 PowerShell cmdlet을](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md)사용하여 추가 기능을 관리합니다.
   
-[문제 해결: 사용자가 추가 기능을 볼 수 없습니다.](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)
+[문제 해결: 사용자가 추가 기능을 볼 수 없습니다.](/office365/troubleshoot/access-management/user-not-seeing-add-ins)
 
-[Microsoft Store에서 미성년자 및 추가 기능 다운로드](https://docs.microsoft.com/microsoft-365/admin/manage/minors-and-acquiring-addins-from-the-store)
+[Microsoft Store에서 미성년자 및 추가 기능 다운로드](./minors-and-acquiring-addins-from-the-store.md)

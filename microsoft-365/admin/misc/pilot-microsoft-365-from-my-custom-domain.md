@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 두 개의 테스트 계정만 사용하여 사용자 지정 도메인의 전자 메일 기능을 Microsoft 365 사서함으로 시험해 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6cc5b1163f666af4bd13047ab3b1fda7fd747b5f
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+ms.openlocfilehash: 019f1786756a036132f95fd5e8ef8a1d42cd515b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688220"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914717"
 ---
 # <a name="pilot-microsoft-365-from-my-custom-domain"></a>사용자 지정 도메인에서 Microsoft 365 파일럿
 
@@ -32,7 +32,7 @@ ms.locfileid: "49688220"
 
 - Microsoft 365에서 이러한 레코드를 관리하는 것이 아니라 DNS 호스팅 공급자에서 Microsoft 365 DNS 레코드를 관리해야 합니다.
 
-    자세한 내용은 [DNS 레코드를 추가하여 도메인 연결하기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조하세요.
+    자세한 내용은 [DNS 레코드를 추가하여 도메인 연결하기](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)를 참조하세요.
 
 - 다른 전자 메일 서버의 사용자에 대한 약속 있음/없음 정보를 사용할 수 없습니다.
 
@@ -115,22 +115,22 @@ Microsoft 365에서는 스팸 방지를 위해 EOP(Exchange Online Protection)�
 
 Microsoft 365 또는 Office 365에서 다음 사항을 완료했는지 확인합니다.
 
-1. 커넥터를 설정하려면 시작하기 전에 할당된 사용 권한이 있어야 합니다. 필요한 사용 권한을 확인하려면 [EOP 항목의 기능 사용 권한](https://docs.microsoft.com/microsoft-365/security/office-365-security/feature-permissions-in-eop)에서 Microsoft 365 및 Office 365 커넥터 항목을 참조하세요.
+1. 커넥터를 설정하려면 시작하기 전에 할당된 사용 권한이 있어야 합니다. 필요한 사용 권한을 확인하려면 [EOP 항목의 기능 사용 권한](../../security/office-365-security/feature-permissions-in-eop.md)에서 Microsoft 365 및 Office 365 커넥터 항목을 참조하세요.
 
 2. EOP 또는 Exchange Online이 전자 메일 서버에서 인터넷으로 전자 메일을 릴레이하도록 하려면 다음 작업 중 하나를 수행합니다.
 
-   - Microsoft 365 또는 Office 365의 허용 도메인과 일치하는 주체 이름으로 구성된 인증서를 사용합니다. 인증서의 일반 이름 또는 주체 대체 이름은 조직에 대한 기본 SMTP 도메인과 일치시키는 것이 좋습니다. 자세한 내용은 [온-프레미스 전자 메일 환경의 필수 구성 요소](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#prerequisites-for-your-on-premises-email-environment)를 참조하세요.
+   - Microsoft 365 또는 Office 365의 허용 도메인과 일치하는 주체 이름으로 구성된 인증서를 사용합니다. 인증서의 일반 이름 또는 주체 대체 이름은 조직에 대한 기본 SMTP 도메인과 일치시키는 것이 좋습니다. 자세한 내용은 [온-프레미스 전자 메일 환경의 필수 구성 요소](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#prerequisites-for-your-on-premises-email-environment)를 참조하세요.
 
    -또는-
 
    - 조직의 모든 보낸 사람 도메인과 하위 도메인이 Microsoft 365 또는 Office 365에서 허용 도메인으로 구성되어 있는지 확인합니다.
 
-   허용 도메인 정의에 대한 자세한 내용은 [Exchange Online에서 허용 도메인 관리](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) 및 [Exchange Online에서 하위 도메인에 대한 메일 흐름 사용](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/enable-mail-flow-for-subdomains)을 참조하세요.
+   허용 도메인 정의에 대한 자세한 내용은 [Exchange Online에서 허용 도메인 관리](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) 및 [Exchange Online에서 하위 도메인에 대한 메일 흐름 사용](/exchange/mail-flow-best-practices/manage-accepted-domains/enable-mail-flow-for-subdomains)을 참조하세요.
 
-3. 메일 흐름 규칙(전송 규칙)을 사용할지 또는 도메인 이름을 사용할지 결정하여 Microsoft 365 또는 Office 365에서 전자 메일 서버로 메일을 전송합니다. 대부분의 기업은 모든 허용 도메인에 대한 메일을 전송하도록 선택합니다. 자세한 내용은 [시나리오: Exchange Online에서 조건부 메일 라우팅](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing)을 참조하세요.
+3. 메일 흐름 규칙(전송 규칙)을 사용할지 또는 도메인 이름을 사용할지 결정하여 Microsoft 365 또는 Office 365에서 전자 메일 서버로 메일을 전송합니다. 대부분의 기업은 모든 허용 도메인에 대한 메일을 전송하도록 선택합니다. 자세한 내용은 [시나리오: Exchange Online에서 조건부 메일 라우팅](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing)을 참조하세요.
 
 > [!NOTE]
-> [Exchange Online에서 메일 흐름 규칙 동작](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)에 설명된 대로 메일 흐름 규칙을 설정할 수 있습니다. 예를 들어 현재 메일이 메일 그룹을 통해 여러 사이트로 직접 전송되는 경우 커넥터와 함께 메일 흐름 규칙을 사용할 수 있습니다.
+> [Exchange Online에서 메일 흐름 규칙 동작](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)에 설명된 대로 메일 흐름 규칙을 설정할 수 있습니다. 예를 들어 현재 메일이 메일 그룹을 통해 여러 사이트로 직접 전송되는 경우 커넥터와 함께 메일 흐름 규칙을 사용할 수 있습니다.
 
 ### <a name="2-set-up-a-connector-from-microsoft-365-or-office-365-to-your-email-server"></a>2. Microsoft 365 또는 Office 365에서 전자 메일 서버로 커넥터 설정
 
@@ -140,13 +140,13 @@ Microsoft 365 또는 Office 365에서 커넥터를 만들려면 **관리** 를 �
 
 마법사를 시작하려면 더하기 기호 **+** 을(를) 클릭합니다. 첫 번째 화면에서 Office 365 **에서** 및 조직 메일 서버 **로** 를 선택합니다.
 
-**다음** 을 클릭하고 마법사의 지시를 따릅니다. 추가 정보가 필요한 경우 **도움말** 또는 **추가 정보** 링크를 클릭합니다. 마법사가 설정 과정을 안내합니다. 완료되면 커넥터 유효성 검사가 실행되는지 확인합니다. 커넥터 유효성 검사가 실행되지 않는 경우 자세한 내용을 보려면 표시된 메시지를 두 번 클릭하고 문제 해결을 위해 [커넥터 유효성 검사](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors)를 참조하세요.
+**다음** 을 클릭하고 마법사의 지시를 따릅니다. 추가 정보가 필요한 경우 **도움말** 또는 **추가 정보** 링크를 클릭합니다. 마법사가 설정 과정을 안내합니다. 완료되면 커넥터 유효성 검사가 실행되는지 확인합니다. 커넥터 유효성 검사가 실행되지 않는 경우 자세한 내용을 보려면 표시된 메시지를 두 번 클릭하고 문제 해결을 위해 [커넥터 유효성 검사](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors)를 참조하세요.
 
 
 
 ### <a name="step-7-update-dns-records-at-your-dns-hosting-provider"></a>7단계: DNS 호스팅 공급자에서 DNS 레코드 업데이트하기
 
-DNS 호스팅 공급자의 웹 사이트에 로그인하고 [DNS 레코드를 추가하여 도메인 연결하기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)의 지침을 따릅니다.
+DNS 호스팅 공급자의 웹 사이트에 로그인하고 [DNS 레코드를 추가하여 도메인 연결하기](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)의 지침을 따릅니다.
 
 **다음 두 가지 예외를 수행합니다.**
 
@@ -190,4 +190,3 @@ DNS 호스팅 공급자의 웹 사이트에 로그인하고 [DNS 레코드를 �
 두 명의 테스트 사용자만 이동하고 사용자 A와 사용자 B가 모두 Outlook을 사용하고 있으므로, 새 Outlook 프로필에서 이전 .PST 파일을 열고 메시지, 일정 항목, 연락처 등을 복사하여 전자 메일을 이동할 수 있습니다. 자세한 내용은 [Outlook .pst 파일에서 전자 메일, 연락처 및 일정 가져오기](https://support.microsoft.com/office/import-email-contacts-and-calendar-from-an-outlook-pst-file-431a8e9a-f99f-4d5f-ae48-ded54b3440ac)를 참조하세요.
 
 콘텐츠를 Microsoft 365 사서함의 적절한 위치로 가져온 후에는 어디서나 모든 장치에서 해당 항목에 액세스할 수 있습니다.
-

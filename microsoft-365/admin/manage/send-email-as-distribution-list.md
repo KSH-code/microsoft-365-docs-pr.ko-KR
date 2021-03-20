@@ -1,5 +1,5 @@
 ---
-title: 전자 메일을 메일 그룹으로 보내기
+title: 메일로 전자 메일 보내기
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -20,34 +20,32 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
-description: Microsoft 365의 메일 그룹으로 전자 메일을 보내는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a917e59bbac40846fa289a97465f6d6e065b87ee
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Microsoft 365에서 메일로 전자 메일을 보내는 방법을 배워야 합니다.
+ms.openlocfilehash: 379f2471fd38da5098bf8f2ca82f4f76ee82bd8e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399593"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915161"
 ---
-# <a name="send-email-as-a-distribution-list"></a>전자 메일을 메일 그룹으로 보내기
+# <a name="send-email-as-a-distribution-list"></a>메일로 전자 메일 보내기
 
-Microsoft 365에서는 전자 메일을 메일 그룹으로 보낼 수 있습니다. 메일 그룹의 구성원 인 사용자가 메일 그룹으로 전송 된 메시지에 회신 하면 해당 전자 메일은 개별 사용자가 아닌 메일 그룹에서 보낸 것으로 표시 됩니다. 이 항목에서는이 작업을 수행 하는 방법을 보여 줍니다.
+Microsoft 365에서 메일로 전자 메일을 보낼 수 있습니다. 메일 목록의 구성원인 사용자가 메일 목록에 보낸 메시지에 응답하면 전자 메일은 개별 사용자가 아닌 메일 목록에서 보낸 것으로 표시됩니다. 이 항목에서는 이 작업을 하는 방법을 보여 합니다.
   
-## <a name="send-email-as-a-distribution-list"></a>전자 메일을 메일 그룹으로 보내기
+## <a name="send-email-as-a-distribution-list"></a>메일로 전자 메일 보내기
 
-이 단계를 수행 하기 전에 Microsoft 365 메일 그룹에 추가 되었으며 해당 사용자에 게 다른 사람 이름으로 보내기 권한이 부여 되었는지 확인 합니다.
+이러한 단계를 수행하기 전에 Microsoft 365 메일 목록에 추가한 후 다른 사람으로 보내기 권한을 부여받은지 확인하세요.
   
- **관리자**: [microsoft 365 사용자 또는 연락처를 목록에 추가](../email/add-user-or-contact-to-distribution-list.md) 하 고 [구성원이 microsoft 365 그룹 항목으로 전자 메일을 보낼 수 있도록](../create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md#allow-members-to-send-email-as-a-group) 하 고, 메일 그룹에 올바른 사용자를 추가 하도록 허용 합니다.
+ **관리자:** [목록에 Microsoft 365](../email/add-user-or-contact-to-distribution-list.md) 사용자 또는 연락처 추가 및 구성원이 [Microsoft 365](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md#allow-members-to-send-email-as-a-group) 그룹으로 전자 메일을 보낼 수 있도록 허용 항목의 단계를 수행하고 메일 그룹에 올바른 사용자를 추가해야 합니다.
   
-1. 웹에서 Outlook을 열고 받은 편지 함으로 이동 합니다. 
+1. 웹에서 Outlook을 열고 받은 편지함으로 이동하세요. 
     
-2. 메일 그룹에 전송 된 메시지를 엽니다. 
+2. 메일로 전송된 메시지를 열 수 있습니다. 
     
-3. **회신**을 선택 합니다. 
+3. **회신을 선택합니다.** 
     
-4. 메시지 맨 아래에서 **기타** \> **표시를**선택 합니다.<br/> ![자세히를 선택 하 고 다음에서 표시를 선택 합니다.](../../media/534f13b7-9f15-48ea-8835-ea2ed1863ece.png)
+4. 메시지 아래쪽에서 에서 **추가** \> **표시를 선택합니다.**<br/> ![추가를 선택하고 다음에서 표시를 선택합니다.](../../media/534f13b7-9f15-48ea-8835-ea2ed1863ece.png)
   
-5. 보낸 사람 주소 (예:-)를 마우스 오른쪽 단추로 클릭 `Ina@weewalter.me` 하 고 **제거**를 선택 합니다.<br/> ![보낸 사람 별칭 제거](../../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png)
+5. From 주소(예: )를 마우스 오른쪽 단추로 클릭하고 `Ina@weewalter.me` 제거를 **클릭합니다.**<br/> ![FROM 별칭 제거](../../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png)
   
-6. 그런 다음 메일 그룹 주소 (예: support@contoso.com)를 입력 하 고 메시지를 보냅니다. 다음에 메일 그룹에서 회신할 때 **보낸** 사람 목록에는 해당 주소가 옵션으로 표시 됩니다.<br/>![공유 사서함의 별칭이 표시 됩니다.](../../media/f7632a9a-9cab-446c-9e37-23ef50c5b975.png)
-  
-
+6. 그런 다음 메일 support@contoso.com 입력하고 메시지를 전송합니다. 다음에 메일 목록에서 회신하면 해당 주소가 시작 목록에 옵션으로 **표시됩니다.**<br/>![공유 사서함의 별칭이 나타납니다.](../../media/f7632a9a-9cab-446c-9e37-23ef50c5b975.png)

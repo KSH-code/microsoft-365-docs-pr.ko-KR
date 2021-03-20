@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
 description: Microsoft 365 관리 센터 또는 예약 Windows PowerShell 일정을 삭제합니다.
-ms.openlocfilehash: 7407298adb402de79a1010b51544deee4b94cf5a
-ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
+ms.openlocfilehash: 7b79628327797d2e315d31e1b1a2671f0b24e447
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50604023"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913781"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Bookings에서 예약 일정 삭제
 
@@ -46,7 +46,7 @@ ms.locfileid: "50604023"
 
 ## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a>Exchange Online PowerShell을 사용하여 예약 일정 삭제
 
-Exchange [Online PowerShell에](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) 연결하기 위한 사전 및 지침은 Exchange Online PowerShell에 연결을 참조하세요.
+Exchange [Online PowerShell에](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) 연결하기 위한 사전 및 지침은 Exchange Online PowerShell에 연결을 참조하세요.
 
 이러한 단계를 수행하려면 "관리자 권한으로 실행" 옵션을 선택하여 실행한 활성 Microsoft PowerShell 명령 창을 사용하고 있어야 합니다.
 
@@ -57,7 +57,7 @@ Exchange [Online PowerShell에](https://docs.microsoft.com/powershell/exchange/e
    ```
 
    > [!NOTE]
-   > [EXO V2 모듈을 이미 설치](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exo-v2-module)한 경우 이전 명령은 기록된 대로 작동합니다.
+   > [EXO V2 모듈을 이미 설치](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exo-v2-module)한 경우 이전 명령은 기록된 대로 작동합니다.
    
 2. 실행해야 하는 명령은 다음 구문을 사용합니다.
 

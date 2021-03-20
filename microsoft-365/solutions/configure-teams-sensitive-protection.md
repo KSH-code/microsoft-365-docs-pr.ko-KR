@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 중요한 데이터를 보호하는 팀을 배치하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0f3f12867314fdd91dfb563f0377995807c0f63d
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 03f10c91461d440413ace418a3b6fdd84da1660a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921113"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916229"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>중요한 데이터를 보호하는 팀 구성하기
 
@@ -39,8 +39,8 @@ ms.locfileid: "49921113"
 
 게스트와 안전하게 공유하는 방법에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
-- [파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출 제한하기](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure)
-- [보안 게스트 공유 환경 만들기](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+- [파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출 제한하기](./share-limit-accidental-exposure.md)
+- [보안 게스트 공유 환경 만들기](./create-secure-guest-sharing-environment.md)
 
 게스트 공유를 허용하거나 차단하기 위해 나중에 설명할 팀의 민감도 레이블과 연결된 SharePoint 사이트의 사이트 수준 공유 제어를 조합해서 사용합니다.
 
@@ -48,7 +48,7 @@ ms.locfileid: "49921113"
 
 중요한 수준의 보호를 위해서는 팀을 분류하는 데 민감도 레이블을 사용합니다. 이 레이블은 이 파일이나 다른 팀 또는 SharePoint나 OneDrive와 같은 다른 파일 위치의 개별 파일을 분류하는 데도 사용할 수 있습니다. 
 
-첫 번째 단계로 Teams에서 민감도 레이블을 사용하도록 설정해야 합니다. 자세한 내용은 [Microsoft Teams, Office 365 그룹 및 SharePoint 사이트에서 민감도 레이블 사용하여 콘텐츠 보호하기](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)를 참조하세요.
+첫 번째 단계로 Teams에서 민감도 레이블을 사용하도록 설정해야 합니다. 자세한 내용은 [Microsoft Teams, Office 365 그룹 및 SharePoint 사이트에서 민감도 레이블 사용하여 콘텐츠 보호하기](../compliance/sensitivity-labels-teams-groups-sites.md)를 참조하세요.
 
 조직에 이미 민감도 레이블을 배포한 경우 이 레이블이 전체 레이블 전략에 어떻게 적합한지 고려하세요. 조직의 요구 사항을 충족하는 데 필요한 경우 이름이나 설정을 변경할 수 있습니다.
 
@@ -71,10 +71,10 @@ Teams에서 민감도 레이블을 사용하도록 설정한 후 다음 단계�
 14. **콘텐츠를 공유할 수 있습니다** 에서 게스트 액세스를 허용하는 경우에는 **신규 및 기존의 게스트** 를 선택하고, 그렇지 않은 경우 **조직에 있는 사용자만** 을 선택합니다.
 15. **관리 되지 않는 장치에서 액세스** 에서 **제한된 웹 전용 액세스를 허용** 을 선택합니다.
 16. **다음** 을 클릭합니다.
-17. **데이터베이스 열에 대한 자동 레이블 지정** 페이지에서 **다음** 을 클릭합니다.
+17. **Office 앱에 대한 자동 레이블 지정** 페이지에서 **다음** 을 클릭합니다.
 18. **레이블 만들기** 를 클릭한 다음 **완료** 를 클릭합니다.
 
-레이블을 만든 후에는 레이블을 사용할 사용자에게 게시해야 합니다. 민감한 보호를 위해 모든 사용자가 레이블을 사용할 수 있도록 합니다. Microsoft 365 규정 준수 센터에서 **정보 보호** 페이지의 **레이블 정책** 탭에서 레이블을 게시합니다. 모든 사용자에게 적용되는 기존 정책이 있다면 해당 정책에 이 레이블을 추가합니다. 새 정책을 만들어야 한다면 [레이블 정책을 만들어 민감도 레이블 게시하기](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy)를 참조하세요.
+레이블을 만든 후에는 레이블을 사용할 사용자에게 게시해야 합니다. 민감한 보호를 위해 모든 사용자가 레이블을 사용할 수 있도록 합니다. Microsoft 365 규정 준수 센터에서 **정보 보호** 페이지의 **레이블 정책** 탭에서 레이블을 게시합니다. 모든 사용자에게 적용되는 기존 정책이 있다면 해당 정책에 이 레이블을 추가합니다. 새 정책을 만들어야 한다면 [레이블 정책을 만들어 민감도 레이블 게시하기](../compliance/create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy)를 참조하세요.
 
 ## <a name="create-a-team"></a>팀 만들기
 
@@ -98,7 +98,7 @@ Teams에서 민감도 레이블을 사용하도록 설정한 후 다음 단계�
 2. **설정** 탭에서 **구성원 사용 권한** 을 확장합니다.
 3. **구성원이 비공개 채널을 만들 수 있도록 허용** 확인란을 선택 취소합니다.
 
-[팀 정책](https://docs.microsoft.com/MicrosoftTeams/teams-policies)을 사용하여 비공개 채널을 만들 수 있는 사용자를 제어할 수도 있습니다.
+[팀 정책](/MicrosoftTeams/teams-policies)을 사용하여 비공개 채널을 만들 수 있는 사용자를 제어할 수도 있습니다.
 
 ## <a name="sharepoint-settings"></a>SharePoint 설정
 
@@ -125,7 +125,7 @@ Teams에서 민감도 레이블을 사용하도록 설정한 후 다음 단계�
 6. 기본 공유 링크 유형사람만 **조직 수준 설정과 동일** 확인란을 선택 취소하고 **특정 사특정(사용자가 지정하는 사람만)** 를 선택합니다.
 7. **저장** 을 클릭합니다.
 
-팀 만들기 프로세스의 일부로 이를 스크립팅하려면 다음 매개 변수와 함께 [Set-Get-sposite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite)를 사용할 수 있습니다.
+팀 만들기 프로세스의 일부로 이를 스크립팅하려면 다음 매개 변수와 함께 [Set-Get-sposite](/powershell/module/sharepoint-online/set-sposite)를 사용할 수 있습니다.
 
 - 게스트 공유를 해제하려면 `-SharingCapability Disabled`(기본적으로 켜져 있음)
 - 기본 공유 링크를 *특정 사용자* 로 변경하려면 `-DefaultSharingLinkType Internal`
@@ -149,6 +149,4 @@ Teams에서 민감도 레이블을 사용하도록 설정한 후 다음 단계�
 
 ## <a name="see-also"></a>참고 항목
 
-[민감도 레이블과 해당 정책 생성 및 구성](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels)
-
-
+[민감도 레이블과 해당 정책 생성 및 구성](../compliance/create-sensitivity-labels.md)

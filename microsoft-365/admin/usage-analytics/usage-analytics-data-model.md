@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: '사용 현황 분석이 API에 연결하는 방법을 알아보고 다양한 Microsoft 365 서비스의 월별 사용 추세를 제공합니다.  '
-ms.openlocfilehash: 7d1e797fc388934f66ddc45d2e7f51566e89ad23
-ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
+ms.openlocfilehash: 1975fc0bdba279b281fb45c8aec22255579ef414
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50758943"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913853"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Microsoft 365 사용 현황 분석 데이터 모델
 
@@ -35,7 +35,7 @@ ms.locfileid: "50758943"
 Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는 API에 연결합니다. Microsoft 365 사용 현황 분석에서 데이터를 생성하는 데 사용하는 API는 일반적으로 사용할 수 있는 다양한 Graph API에서 제공됩니다. Microsoft 365 사용 현황 분석 API 자체의 기능은 일반적으로 사용할 수 없습니다.
   
 > [!NOTE]
-> 자세한 내용은 [Microsoft Graph에서 Microsoft 365 사용 현황 보고서 작업을 참조하세요.](https://go.microsoft.com/fwlink/p/?linkid=864336) 
+> 자세한 내용은 [Microsoft Graph에서 Microsoft 365 사용 현황 보고서 작업을 참조하세요.](/graph/api/resources/report) 
   
 이 API는 다양한 Microsoft 365 서비스의 월별 사용 추세에 대한 정보를 제공합니다. API에서 반환되는 정확한 데이터의 경우 다음 섹션의 표를 참조하세요.
   
@@ -295,5 +295,3 @@ Microsoft 365 사용 현황 분석은 다차원 데이터 모델을 노출하는
 |WinRtCount  <br/> |종료 시간까지의 Windows Mobile 장치에 대한 서비스 요금제당 활성화 수입니다.  <br/> |
 |시간 범위  <br/> |이 열에 날짜 값이 있습니다. 일정 테이블에 대해 다대일 관계로 사용됩니다.  <br/> |
 |콘텐츠 날짜  <br/> |시간 범위에 이번 달이 표시되는 경우 이 값은 데이터를 사용할 수 있는 이번 달의 마지막 날짜를 나타냅니다.  <br/> 시간 범위에 지난 달이 표시되는 경우 이 값은 시간 범위(월)의 마지막 날짜를 나타냅니다.  <br/> |
-   
-

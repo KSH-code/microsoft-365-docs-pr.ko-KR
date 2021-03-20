@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Microsoft Bookings에 대한 질문과 대답
-ms.openlocfilehash: a293bf86225731917068712c2887ea79c2540039
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: c7bf14c35626eeeec781f6a9f45769e0ead1730e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454292"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913829"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Microsoft Bookings 질문과 대답
 
@@ -184,7 +184,7 @@ Bookings의 직원에 대한 표준 시간대를 설정하는 프로비전은 �
 
 ### <a name="can-email-notifications-be-sent-as-the-tenant-domain-name"></a>전자 메일 알림을 테넌트 도메인 이름으로 보낼 수 있나요?
 
-전자 메일 주소는 Microsoft 365 설정 수준에서 제어 및 관리되고 도메인 구성 설정에 따라 다릅니다. 자세한 내용은 에서 찾을 수 [있습니다.](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain)
+전자 메일 주소는 Microsoft 365 설정 수준에서 제어 및 관리되고 도메인 구성 설정에 따라 다릅니다. 자세한 내용은 에서 찾을 수 [있습니다.](/powershell/module/exchange/get-accepteddomain)
 
 ### <a name="is-the-ability-to-send-sms-messages-dependent-on-a-different-service-or-specific-configuration"></a>다른 서비스 또는 특정 구성에 따라 SMS 메시지를 보낼 수 있나요?
 
@@ -218,7 +218,7 @@ Bookings 웹앱 내에서 녹음/녹화 시간 해제는 항상 직원 구성원
 
 ### <a name="can-bookings-calendars-be-cloned-or-duplicated-and-can-they-be-templatized-for-easy-scaling"></a>Bookings 일정을 복제하거나 복제할 수 있으며 쉽게 확장할 수 있도록 일정을 임시로 만들 수 있나요?
 
-이 프로세스는 Graph API를 사용하여 사서함 세부 정보를 확인한 다음 해당 세부 정보를 사용하여 새 사서함을 만드는 것입니다. API 설명서는 [입니다.](https://docs.microsoft.com/graph/api/resources/booking-api-overview?view=graph-rest-beta)
+이 프로세스는 Graph API를 사용하여 사서함 세부 정보를 확인한 다음 해당 세부 정보를 사용하여 새 사서함을 만드는 것입니다. API 설명서는 [입니다.](/graph/api/resources/booking-api-overview?view=graph-rest-beta)
 
 ### <a name="what-reporting-is-available-in-bookings"></a>Bookings에서 사용할 수 있는 보고는 무엇입니까?
 
@@ -360,19 +360,19 @@ Bookings가 직원 구성원의 일정과 제대로 동기화하려면 각 직�
 
   - [Microsoft Bookings 설정 또는 해제](turn-bookings-on-or-off.md)
 
-  - [개별적으로 또는 대량으로 사용자 추가](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users?view=o365-worldwide.)
+  - [개별적으로 또는 대량으로 사용자 추가](../admin/add-users/add-users.md?view=o365-worldwide.)
 
   - [Bookings에 직원 추가](add-staff.md)
 
-  - [템플릿이 정의된 후 자동화할 API 구성 요소](https://docs.microsoft.com/graph/api/bookingbusiness-post-bookingbusinesses)
+  - [템플릿이 정의된 후 자동화할 API 구성 요소](/graph/api/bookingbusiness-post-bookingbusinesses)
 
   - [표시용 Bookings 일정 URL](https://outlook.office.com/bookings/calendar)
 
-  - [예약 준수 정책](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365?view=o365-worldwide#bookings)
+  - [예약 준수 정책](/compliance/regulatory/gdpr-dsr-Office365?view=o365-worldwide#bookings)
 
   - [예약 페이지 사용자 정의 및 게시](customize-booking-page.md)
 
-  - [테넌트 사서함 구성](https://docs.microsoft.com/powershell/module/exchange/get-accepteddomain)
+  - [테넌트 사서함 구성](/powershell/module/exchange/get-accepteddomain)
 
   - [그룹 예약](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)
 

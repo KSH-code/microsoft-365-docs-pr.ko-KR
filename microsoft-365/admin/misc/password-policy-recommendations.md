@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: 암호 공격으로부터 조직을 더 안전하게 보호하는 방법과 일반적인 암호를 금지하고 위험 기반 다단계 인증을 사용해야 하는 이유를 알아봅니다.
-ms.openlocfilehash: 66a4048ac1add3a0d47f256dc29519a91ae6cb11
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: ca9a88b0bb154416837254d785cf9cfee8876ae6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926717"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914729"
 ---
 # <a name="password-policy-recommendations"></a>권장 암호 정책
 
@@ -136,10 +136,10 @@ Microsoft 365 암호에 대한 자세한 내용은[관련 문서](#related-artic
 
 ## <a name="related-articles"></a>관련 문서
 
-[암호 초기화](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords)
+[암호 초기화](../add-users/reset-passwords.md)
 
-[개별 사용자 암호가 만료되지 않도록 설정](https://docs.microsoft.com/microsoft-365/admin/add-users/set-password-to-never-expire)
+[개별 사용자 암호가 만료되지 않도록 설정](../add-users/set-password-to-never-expire.md)
 
-[사용자가 암호를 직접 재설정할 수 있도록 허용](https://docs.microsoft.com/microsoft-365/admin/add-users/let-users-reset-passwords)
+[사용자가 암호를 직접 재설정할 수 있도록 허용](../add-users/let-users-reset-passwords.md)
 
-[사용자 암호 다시 보내기 - 관리자 도움말](https://docs.microsoft.com/microsoft-365/admin/add-users/resend-user-password)
+[사용자 암호 다시 보내기 - 관리자 도움말](../add-users/resend-user-password.md)

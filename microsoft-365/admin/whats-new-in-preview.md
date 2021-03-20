@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터 - 이번 달에 추가된 기능에 대
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 2ecf9ddbd1257e7273da36371abb9f9e38df3f4a
-ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
+ms.openlocfilehash: 833f782e071e06d837ca5eacfcb72e2d6e16c8fb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50717633"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913937"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운
 
@@ -41,13 +41,13 @@ Microsoft는 [지속적으로 Microsoft 365](microsoft-365-admin-center-preview.
 
 또한 다른 Microsoft 클라우드 서비스에서 새로운 것을 알고자 하는 경우:
 
-- [Azure Active Directory의 새로운](https://docs.microsoft.com/azure/active-directory/fundamentals/whats-new)
-- [Exchange 관리 센터의 새로운](https://docs.microsoft.com/Exchange/whats-new)
-- [Microsoft Intune의 새로운 기능](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
-- [Microsoft 365 규정 준수 센터의 새로운](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
-- [Microsoft 365 Defender의 새로운 기능](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)
-- [SharePoint 관리 센터의 새로운](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
-- [Office 업데이트](https://docs.microsoft.com/OfficeUpdates/)
+- [Azure Active Directory의 새로운](/azure/active-directory/fundamentals/whats-new)
+- [Exchange 관리 센터의 새로운](/Exchange/whats-new)
+- [Microsoft Intune의 새로운 기능](/mem/intune/fundamentals/whats-new)
+- [Microsoft 365 규정 준수 센터의 새로운](/Office365/SecurityCompliance/whats-new)
+- [Microsoft 365 Defender의 새로운 기능](../security/mtp/whats-new.md)
+- [SharePoint 관리 센터의 새로운](/sharepoint/what-s-new-in-admin-center)
+- [Office 업데이트](/OfficeUpdates/)
 
 ## <a name="ignite-2021-march"></a>Ignite 2021(3월)
 
@@ -104,7 +104,7 @@ CEO와 같이 업무에 큰 영향을 미치는 사용자에게 전송된 실패
 - 사용자로 **이동한** 다음 "추가 작업"  메뉴에서 우선 순위 계정 관리를 선택하여 목록에 사용자를 추가합니다.
 - 설치로 **이동하여** 설치 **작업에서** 가장 중요한 계정 모니터링으로 이동한 다음 시작 **을 선택합니다.**
 
-우선 순위 계정에 대한 자세한 내용은 우선 순위 계정 [모니터링 을 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts)
+우선 순위 계정에 대한 자세한 내용은 우선 순위 계정 [모니터링 을 참조하세요.](./setup/priority-accounts.md)
 
 ### <a name="search-faster-and-get-better-results-from-any-page"></a>모든 페이지에서 더 빠르게 검색하고 더 나은 결과 얻기
 
@@ -163,13 +163,13 @@ CEO와 같이 업무에 큰 영향을 미치는 사용자에게 전송된 실패
 
 ![기본 설정 단추 옆에 있는 명령 표시줄에 '플래너 동기화'가 강조 표시된 메시지 센터 페이지](../media/MAC-WN-MCPlannerSync.png)
 
-자세한 내용은 이 문서 및 비디오를 확인하여 작동 방식 확인: [Planner에서](https://docs.microsoft.com/Office365/Planner/track-message-center-tasks-planner) 메시지 센터 게시물 추적
+자세한 내용은 이 문서 및 비디오를 확인하여 작동 방식 확인: [Planner에서](/Office365/Planner/track-message-center-tasks-planner) 메시지 센터 게시물 추적
 
 ### <a name="documentation-training-and-videos"></a>설명서, 교육 및 비디오
 
 - 새로운 Microsoft Ignite의 새로운 제품으로, 가상[허브입니다.](https://adoption.microsoft.com/virtual-hub/) IT 전담 및 개발자를 위한 기술 교육에 대해 심도 깊은 고민을 합니다. 올해 Ignite 관리자의 이름인 Ignite의 #SIDETRACKED 새 비디오 약 20개가 빠르게 검색됩니다.
 - [Microsoft 365](https://www.youtube.com/watch?v=OVjb2lGJ4GU&t=2s) 비디오 시리즈의 새로운 기능: 이번 달에는 Teams 및 웹용 Whiteboard에서 사용할 수 있는 새로운 기능, Azure AD에 대한 사용자 프로비저닝을 자동화하는 방법, Teams의 새로운 Power Automate 트리거 및 작업 등 다양한 기능을 설명합니다. 그리고 다음 달에 Ignite에서 진행되는 모든 멋진 일에 대한 재구성도 계속 진행할 것입니다.
-- 먼저 솔루션에 중점을 [두는 Microsoft 365](https://docs.microsoft.com/microsoft-365) 설명서 페이지를 다시 디자인했습니다. 이 페이지에서 사용할 수 있는 새로운 솔루션에 대해 중시할 예정이니 잘 확인하실 것입니다.
+- 먼저 솔루션에 중점을 [두는 Microsoft 365](/microsoft-365) 설명서 페이지를 다시 디자인했습니다. 이 페이지에서 사용할 수 있는 새로운 솔루션에 대해 중시할 예정이니 잘 확인하실 것입니다.
 
 !["원격 작업자 강화"와 같은 솔루션이 있는 Microsoft 365 솔루션 설명서의 새로운 방문 페이지입니다.](../media/MAC-WN-M365Docspage.png)
 
@@ -221,7 +221,7 @@ Microsoft에서 Ignite의 시기로 이동하고 있으므로 세션 중에 많�
 
 월별 엔터프라이즈 채널 릴리스와 함께 기존 업데이트 채널의 이름도 수정됩니다. 예를 들어 월별 채널의 이름을 현재 채널로 다시 설정하는 경우를 예로 들 수 있습니다. 새 이름은 2020년 6월 9일에 적용됩니다.
 
-자세한 내용은 [Microsoft 365 앱의](https://docs.microsoft.com/DeployOffice/update-channels-changes)채널 업데이트 변경을 참조하세요.
+자세한 내용은 [Microsoft 365 앱의 업데이트 채널에 대한 변경 내용](/DeployOffice/update-channels-changes)을 참조하세요.
 
 ### <a name="new-admin-roles"></a>새 관리자 역할
 
@@ -231,7 +231,7 @@ Microsoft 365 관리 센터에 새로운 Azure Active Directory 관리자 역할
 - 네트워크 관리자 역할을 통해 사용자는 네트워크 위치를 관리하고 Microsoft 365 Software as a Service 앱에 대한 네트워크 정보를 검토할 수 있습니다.
 - 프린터 관리자 역할은 프린터 및 프린터 연결의 모든 측면을 관리할 수 있는 권한을 부여합니다.
 - 프린터 관리자는 해당 사용자가 프린터를 등록 및 등록을 등록을 해지하고 프린터 상태를 업데이트할 수 있는 프린터 관리자 역할의 하위 집합입니다.
-이러한 역할에 대한 자세한 내용은 관리자 역할 [정보를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
+이러한 역할에 대한 자세한 내용은 관리자 역할 [정보를 참조하세요.](./add-users/about-admin-roles.md)
 
 ### <a name="export-groups-list"></a>그룹 목록 내보내기
 
@@ -239,7 +239,7 @@ Microsoft 365 관리 센터에 새로운 Azure Active Directory 관리자 역할
 
 ### <a name="microsoft-365-solution-and-architecture-center"></a>Microsoft 365 솔루션 및 아키텍처 센터
 
-이번 달에 Microsoft 365 솔루션 및 아키텍처 센터라는 새 사이트를 출시했습니다. 이 사이트를 통해 안전하고 규정을 준수하는 공동 작업을 위해 [https://docs.microsoft.com](https://docs.microsoft.com) 통합된 [Microsoft](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center)365 솔루션을 이해하고 계획하고 구현하는 데 필요한 기술 지침을 제공합니다. 이 센터에서 다음을 찾을 수 있습니다.
+이번 달에 Microsoft 365 솔루션 및 아키텍처 센터라는 새 사이트를 출시했습니다. 이 사이트를 통해 안전하고 규정을 준수하는 공동 작업을 위해 [https://docs.microsoft.com]() 통합된 [Microsoft](../solutions/index.yml)365 솔루션을 이해하고 계획하고 구현하는 데 필요한 기술 지침을 제공합니다. 이 센터에서 다음을 찾을 수 있습니다.
 
 - 기본 솔루션 지침
 - 워크로드 솔루션 및 시나리오 지침
@@ -250,7 +250,7 @@ Microsoft 365 관리 센터에 새로운 Azure Active Directory 관리자 역할
 ### <a name="docs-training-and-videos-may"></a>Docs, training, and videos(5월)
 
 - **Microsoft 365** 비디오 시리즈의 새로운 기능: 이번 달에는 Teams 관리자 및 보안 및 준수 센터의 새로운 지원 환경, 메시지 센터와 Planner 통합, Microsoft Teams의 새로운 3x3 비디오 레이아웃에 대해 다루게 됩니다. 
-- Microsoft [365 관리](https://docs.microsoft.com/microsoft-365/admin/) 센터 도움말 허브 페이지는 필요한 정보를 더 빠르게 찾을 수 있도록 업데이트되었습니다. 지금 해당 페이지를 살펴보면 중요한 업데이트 및 변경 내용을 알리는 카드가 추가되었습니다.
+- Microsoft [365 관리](./index.yml) 센터 도움말 허브 페이지는 필요한 정보를 더 빠르게 찾을 수 있도록 업데이트되었습니다. 지금 해당 페이지를 살펴보면 중요한 업데이트 및 변경 내용을 알리는 카드가 추가되었습니다.
 
 ## <a name="april-2020"></a>2020년 4월
 

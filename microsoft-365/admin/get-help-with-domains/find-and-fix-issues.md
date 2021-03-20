@@ -24,21 +24,21 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: DNS 레코드가 올바르게 설정되어 있는지 확인하여 사용자 지정 도메인을 설정하는 동안 발생할 수 있는 문제를 추적하는 방법을 학습합니다.
-ms.openlocfilehash: 786df75f3f8a514e9b3c2a7666d715c9abd082bd
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: dfb3c93c169a3d31c14d912ddd2cc94fb1e4ace1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926393"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915641"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요. 
   
-도메인을 Microsoft 365와 함께 작동할 수 있도록 설정하는 것은 어려울 수 있습니다. DNS 시스템은 번거로우며, 도메인에 대한 DNS 설정은 전자 메일처럼 중요한 비즈니스 활동에 영향을 줍니다.
+Microsoft 365를 사용하여 도메인을 설정하는 것은 어려울 수 있습니다. DNS 시스템은 번거로우며, 도메인에 대한 DNS 설정은 전자 메일처럼 중요한 비즈니스 활동에 영향을 줍니다.
 
 > [!NOTE]
-> 도메인의 상태를 확인하여 도메인 문제를 확인할 수 있습니다. 설치   >  **도메인으로 이동하여** 상태 열에서  알림을 시청합니다. 문제가 있는 경우 추가 작업(3개 점)을 선택한 다음 **상태 확인을 선택합니다.** 창이 열리면 도메인에서 발생하는 문제를 설명할 수 있습니다.
+> 도메인 상태를 확인하여 도메인 문제를 확인할 수 있습니다. 설정 **도메인으로**  >  **이동하여** 상태 열에서 알림을 **볼 수** 있습니다. 문제가 표시면 추가 작업(세 개의 점)을 선택한 다음 상태 **확인 을 선택합니다.** 창이 열리면 도메인에서 발생하는 문제를 설명할 수 있습니다.
   
 ## <a name="whats-going-on"></a>무슨 일이죠?
 
@@ -46,13 +46,13 @@ ms.locfileid: "49926393"
     
 - [Outlook이 작동하지 않는 경우](#outlook-isnt-working)
     
-- [모든 사용자 전자 메일이 Microsoft 365로 전환된 경우 전자 메일만 전환하고 싶나요?](#everyones-email-got-switched-to-microsoft-365-and-you-only-wanted-your-email-to-switch)
+- [모든 사용자 전자 메일이 Microsoft 365로 전환된 후 전자 메일만 전환하고 싶나요?](#everyones-email-got-switched-to-microsoft-365-and-you-only-wanted-your-email-to-switch)
 
-- [비영리 또는 학교 계정 상태를 확인할 수 없는 경우](#cant-confirm-non-profit-or-school-account-status)
+- [비영리 또는 학교 계정 상태를 확인할 수 있나요?](#cant-confirm-non-profit-or-school-account-status)
 
-- [서비스가 사용자 도메인과 함께 작동하지 않는 경우](#services-not-working-with-your-domain)
+- [서비스가 도메인과 작동하지 않는 경우](#services-not-working-with-your-domain)
     
-- [웹 사이트에 액세스하지 못하나요?](#accessing-your-website-isnt-working)
+- [웹 사이트에 액세스하는 것이 작동하지 않는가요?](#accessing-your-website-isnt-working)
 
 ## <a name="cant-verify-your-domain"></a>도메인을 확인할 수 없나요?
 <a name="BKMK_verify"> </a>
@@ -68,41 +68,40 @@ ms.locfileid: "49926393"
 ## <a name="outlook-isnt-working"></a>Outlook이 작동하지 않나요?
 <a name="BKMK_OutlookBroken"> </a>
 
-도메인에 대해 MX 레코드 및 기타 DNS 레코드를 올바르게 설정했으나 메일이 작동하지 않는 경우 [Outlook 문제 해결](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues)을 도와드리겠습니다.
+도메인에 대해 MX 레코드 및 기타 DNS 레코드를 올바르게 설정했으나 메일이 작동하지 않는 경우 [Outlook 문제 해결](/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues)을 도와드리겠습니다.
   
-## <a name="everyones-email-got-switched-to-microsoft-365-and-you-only-wanted-your-email-to-switch"></a>모든 사용자 전자 메일이 Microsoft 365로 전환된 경우 전자 메일만 전환하고 싶나요?
+## <a name="everyones-email-got-switched-to-microsoft-365-and-you-only-wanted-your-email-to-switch"></a>모든 사용자 전자 메일이 Microsoft 365로 전환된 후 전자 메일만 전환하고 싶나요?
 <a name="BKMK_EmailSwitched"> </a>
 
-Microsoft 365에 도메인을 추가하면 일반적으로 도메인의 MX 레코드가 Microsoft 365를 지점하기 위해(사용자 또는 Microsoft 365에 의해) 업데이트됩니다. 해당 도메인으로 전송된 모든 전자 메일이 Microsoft 365로 전송됩니다. MX 레코드를 변경하기 전에 도메인에 전자 메일이 있는 모든 사용자에 대해 Microsoft 365에서 사서함을 만들었다고 합니다.
+Microsoft 365에 도메인을 추가하면 일반적으로 도메인의 MX 레코드가 Microsoft 365를 지점하기 위해(사용자 또는 Microsoft 365에 의해) 업데이트되어 해당 도메인으로 전송된 모든 전자 메일이 Microsoft 365로 전송됩니다. MX 레코드를 변경하기 전에 도메인에 전자 메일이 있는 모든 사용자에 대해 Microsoft 365에서 사서함을 만들어야 합니다.
   
-도메인의 모든 사용자에 대한 전자 메일을 Microsoft 365로 이동하지 않는 경우 어떻게 하나요? 대신 몇 가지 전자 메일 주소만 사용하여 [Microsoft 365를 시험해](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)볼 수 있습니다.
+도메인의 모든 사용자에 대한 전자 메일을 Microsoft 365로 이동하지 않는 경우 어떻게 하나요? 대신 몇 가지 전자 메일 주소만 사용하여 [Microsoft 365를 시험해 볼 수 있습니다.](../setup/domains-faq.yml)
   
-## <a name="cant-confirm-non-profit-or-school-account-status"></a>비영리 또는 학교 계정 상태를 확인할 수 없는 경우
+## <a name="cant-confirm-non-profit-or-school-account-status"></a>비영리 또는 학교 계정 상태를 확인할 수 있나요?
 <a name="BKMK_validateAcct"> </a>
 
-조직의 도메인을 확인하고 서비스를 설정하지 않은 경우 몇 가지 시나리오가 있습니다. 예를 들어 조직이 학교 구독에 대해 한정하는 것을 Microsoft 365에 증명하려면
+조직의 도메인을 확인하고 서비스를 설정하지 않는 몇 가지 시나리오가 있습니다. 예를 들어 조직이 학교 구독을 한정하는 것을 Microsoft 365에 증명하려면
   
-[Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) 도메인 확인의 지침을 확인하여 소유권, 비영리 또는 교육 상태를 증명하거나 Yammer 모든 필수 단계를 완료해야 합니다. 상황마다 약간 다릅니다. 
+Microsoft [365](../setup/domains-faq.yml) 도메인 확인의 지침을 확인하여 소유권, 비영리 또는 교육 상태를 증명하거나, Yammer 단계를 모두 완료해야 합니다. 각 상황마다 약간 다릅니다. 
   
 ## <a name="services-not-working-with-your-domain"></a>도메인에서 서비스가 작동하지 않나요?
 <a name="BKMK_Test"> </a>
 
-Microsoft에서는 도메인의 DNS 설정 문제를 해결할 수 있도록 지원합니다. Microsoft 365의 도메인 문제 해결사는 수정이 필요한 레코드와 레코드를 설정해야 하는 레코드를 정확하게 보여 주게 됩니다. 
+Microsoft에서는 도메인의 DNS 설정 문제를 해결할 수 있도록 지원합니다. Microsoft 365의 도메인 문제 해결사는 수정이 필요한 모든 레코드와 레코드를 설정해야 하는 레코드를 정확하게 보여 주게 됩니다. 
 
 > [!TIP]
-> DNS를 올바르게 설정했지만 데스크톱의 Outlook에서 메일이 작동하지 않나요? [Microsoft 365에서](https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices) 사용할 수 있는 다양한 메일 흐름 시나리오를 확인하여 비즈니스에 대해 올바르게 설정되어 있는지 확인합니다. 또는 전자 메일과 관련된 추가 문제 해결 도움말을 [Outlook 문제 해결](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues)에서 확인합니다. 
+> DNS를 올바르게 설정했지만 데스크톱의 Outlook에서 메일이 작동하지 않나요? [Microsoft 365에서](/exchange/mail-flow-best-practices/mail-flow-best-practices) 사용할 수 있는 다양한 메일 흐름 시나리오를 확인하여 비즈니스에 대해 올바르게 설정되어 있는지 확인합니다. 또는 전자 메일과 관련된 추가 문제 해결 도움말을 [Outlook 문제 해결](/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues)에서 확인합니다. 
   
 ## <a name="accessing-your-website-isnt-working"></a>웹 사이트에 액세스할 수 없나요?
 <a name="BKMK_Website"> </a>
 
 DNS 문제를 해결한 경우에도 여전히 문제가 있는 경우 다음 방법 중 하나를 수행합니다.
   
-- 다른 사용자가 www.mydomain.com의 내 웹 사이트에 연결할 수 없는 경우: [웹 사이트 문제 추적](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)
+- 다른 사용자가 www.mydomain.com의 내 웹 사이트에 연결할 수 없는 경우: [웹 사이트 문제 추적](../setup/add-domain.md)
     
-- 웹 사이트를 설정하기 위해 A 레코드 또는 CNAME 레코드를 업데이트할 수 없습니다. [Microsoft 365에서](../dns/add-or-edit-custom-dns-records.md) 사용자 지정 DNS 레코드 업데이트
+- 웹 사이트를 설정하기 위해 A 레코드 또는 CNAME 레코드를 업데이트할 수 없습니다. [Microsoft 365에서](../setup/add-domain.md) 사용자 지정 DNS 레코드 업데이트
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[문제 해결: 확인된 도메인 변경에 대한 데이터 감사](https://docs.microsoft.com/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain)
+[문제 해결: 확인된 도메인 변경에 대한 데이터 감사](/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain)
 
-    

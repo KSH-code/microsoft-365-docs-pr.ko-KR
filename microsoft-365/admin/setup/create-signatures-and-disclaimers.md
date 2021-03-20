@@ -24,19 +24,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
-description: 조직으로 들어오거나 조직에서 나가는 모든 전자 메일 메시지에 대한 법적 고지 조항 또는 공개 설명을 포함하여 전자 메일 서명을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: c8d63a11a75b9b53de9cabdf1f4baabc61cc3e42
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: 조직에 들어오거나 조직에서 나가는 모든 전자 메일 메시지에 대한 법적 고지 조항 또는 공개 설명을 포함하여 전자 메일 서명을 관리하는 방법을 학습합니다.
+ms.openlocfilehash: b599ef8b6d0bb236b6111bae86c92409601e00d0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926921"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914237"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>조직 전체의 서명 및 고지 조항 만들기
 
  조직에 들어오거나 조직에서 나가는 전자 메일 메시지에 전자 메일 서명, 법적 고지 조항 또는 공개 문을 추가하여 전자 메일 서명을 관리할 수 있습니다. 아래에 표시된 것처럼 모든 수신 및 발신 메시지에 적용하도록 설정할 수 있습니다. 특정 단어나 텍스트 패턴이 포함된 메시지처럼 특정 메시지에 적용할 수도 있습니다.
 
- 회사 전체의 전자 메일 서명을 만드는 데 대한 짧은 비디오를 시청하세요. <br><br>
+ 회사 전체 전자 메일 서명 만들기에 대한 짧은 비디오를 시청하세요. <br><br>
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
@@ -45,7 +45,7 @@ ms.locfileid: "49926921"
 ## <a name="create-a-signature-that-applies-to-all-messages"></a>모든 메시지에 적용되는 서명 만들기
 
 > [!TIP]
-> 조직 전체 서명은 포함된 문서에 관계없이 "고지"라고 합니다. 예를 들어 서명일 뿐일 수도, 주소, 법적 고지 조항 또는 원하는 기타 정보도 포함할 수 있습니다.
+> 조직 전체 서명은 포함된 서명에 관계없이 "고지"라고 합니다. 예를 들어 서명일 수도, 주소, 법적 고지지 또는 원하는 기타 정보도 포함할 수 있습니다.
     
 ::: moniker range="o365-worldwide"
 
@@ -65,31 +65,31 @@ ms.locfileid: "49926921"
 
 ::: moniker-end
 
-1. 앱 시작 관리자 앱 시작 관리자 아이콘을 선택한 다음 ![ ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) 관리자를 **선택합니다.**
+1. 앱 시작 관리자 앱 시작 관리자 아이콘 을 선택하고 ![ ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) 관리자 를 **선택합니다.**
    
-    찾고자 하는 앱을 찾을 수 없나요? 앱 시작기에서 모든  앱을 선택하여 사용할 수 있는 앱의 사전순 목록을 볼 수 있습니다. 거기에서 특정 앱을 검색할 수 있습니다. 
+    찾고자 하는 앱을 찾을 수 없나요? 앱 시작 앱에서 모든  앱을 선택하여 사용할 수 있는 앱의 사전순 목록을 볼 수 있습니다. 거기에서 특정 앱을 검색할 수 있습니다. 
     
-2. 관리 **센터를 선택한** 다음 **Exchange를 선택합니다.**
+2. 관리 **센터 를** 선택한 다음 Exchange 를 **선택합니다.**
     
-3. 메일 흐름에서 **규칙을 선택합니다.**
+3. 메일 흐름에서 규칙을 **선택합니다.**
     
-4. Select the **+** (Add) icon and choose **Apply Disclaimers.**
+4. (추가) 아이콘을 선택하고 고지 조항 적용 **+** **을 선택합니다.**
     
 5. 규칙 이름을 지정합니다.
     
-6. 이 **규칙 적용 아래에서** **[모든 메시지에 적용]을 선택합니다.**
+6. 이 **규칙 적용에서**[모든 메시지에 **적용] 을 선택합니다.**
     
     > [!TIP]
-    > [자세히 알아보세요](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping). (이 문서의 전체 Exchange Server Microsoft 365에도 적용됩니다.) 
+    > [자세히 알아보세요](/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping). 이 문서의 전체 Exchange Server Microsoft 365에도 적용됩니다. 
   
 7. 다음 작업 실행 아래에서 **고지 사항 추가** 를 선택된 상태로 둡니다. 
     
 8.  텍스트 **입력을 선택하고** 고지 조항을 입력합니다. 
     
     > [!TIP]
-    > [자세히 알아보세요](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer). (이 서식 문서는 Exchange Server Microsoft 365에도 적용됩니다.) 
+    > [자세히 알아보세요](/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer). 이 서식 문서는 Exchange Server Microsoft 365에도 적용됩니다. 
 
-9. 하나를 **선택하고** **다른 옵션으로 줄** 바꿈을 선택합니다. 그런 다음, **확인** 을 선택합니다. 암호화 또는 다른 메일 설정 때문에 고지 사항을 추가할 수 없는 경우 메시지 봉투에 래핑된다는 의미입니다.
+9. 하나 **선택을 선택하고** **래핑을** 옵션으로 래핑을 선택합니다. 그런 다음, **확인** 을 선택합니다. 암호화 또는 다른 메일 설정 때문에 고지 사항을 추가할 수 없는 경우 메시지 봉투에 래핑된다는 의미입니다.
     
 10. **심각도 수준으로 이 규칙 감사** 를 선택된 채로 둡니다. 그런 다음, 메시지 로그에 사용될 **낮음**, **중간** 또는 **높음** 을 선택합니다. 
     
@@ -115,4 +115,4 @@ Microsoft 365에서 전자 메일 서명을 관리할 때 다음을 할 수 없�
   
 ## <a name="more-resources"></a>추가 리소스
 
-- PowerShell 사용에 대한 자세한 내용은 Exchange Online의 조직 전체 메시지 고지, [서명, 머리글](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) 또는 머리글을 참조하세요.
+- PowerShell 사용에 대한 자세한 내용은 [Exchange Online의](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) 조직 전체 메시지 고지, 서명, 머리글 또는 머리글을 참조하세요.

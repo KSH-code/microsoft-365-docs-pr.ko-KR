@@ -23,17 +23,17 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: 공유 사서함을 만들어 회사의 여러 사용자가 하나의 주소로 전송된 전자 메일을 읽고 답장하는 업무를 나눌 수 있습니다.
-ms.openlocfilehash: d71e33aa0a04bd52f707038ac31e98bef68f27b0
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 004473b329b14be9287f249b1d640c3b0803412a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287236"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915881"
 ---
 # <a name="create-a-shared-mailbox"></a>공유 사서함 만들기 
 
 > [!NOTE]
-> 조직에서 하이브리드 Exchange 환경을 사용하는 경우 온-프레미스 EAC(Exchange 관리 센터)를 사용하여 공유 사서함을 만들고 관리해야 합니다. [Exchange 관리 센터에서 공유 사서함을 만드는 방법](https://docs.microsoft.com/Exchange/collaboration/shared-mailboxes/create-shared-mailboxes?view=exchserver-2019&preserve-view=true.)을 참조하세요.<br><br>
+> 조직에서 하이브리드 Exchange 환경을 사용하는 경우 온-프레미스 EAC(Exchange 관리 센터)를 사용하여 공유 사서함을 만들고 관리해야 합니다. [Exchange 관리 센터에서 공유 사서함을 만드는 방법](/Exchange/collaboration/shared-mailboxes/create-shared-mailboxes?preserve-view=true.&view=exchserver-2019)을 참조하세요.<br><br>
 > 공유 사서함 또는 Outlook용 Microsoft 365 그룹 중 무엇을 만들어야 하는지 확실하지 않은 경우 [Compare groups](../create-groups/compare-groups.md)(그룹 비교)에서 지침을 확인하세요. 현재 공유 사서함은 Microsoft 365 그룹으로 마이그레이션할 수 없습니다. 이것이 원하는 것이라면 [여기에서 투표](https://go.microsoft.com/fwlink/?linkid=871518)를 통해 알려주세요.
 
 사용자 그룹이 info@contoso.com과 같은 공통 전자 메일 주소에서 전자 메일을 모니터링하고 보낼 수 있도록 공유 사서함을 만들 수 있습니다. 그룹에 속한 사용자가 공유 사서함에 전송된 메시지에 회신하면 해당 전자 메일은 개별 사용자가 아닌 공유 사서함에서 발송된 것으로 나타납니다.
@@ -153,13 +153,13 @@ ms.locfileid: "50287236"
 4. **로그인 상태 편집** 플라이 아웃에서 사용자의 로그인 차단이 선택되어 있는지 확인한 후 **저장** 을 선택한 다음 **닫기** 를 선택합니다.
 ::: moniker-end
 
-Azure AD PowerShell을 사용하여 계정에 대한 로그인을 차단하는 방법(동시에 여러 계정 포함)에 대한 자세한 내용은 [Office 365 PowerShell을 사용하여 사용자 계정 차단](https://docs.microsoft.com/microsoft-365/enterprise/block-user-accounts-with-microsoft-365-powershell)을 참조하세요.
+Azure AD PowerShell을 사용하여 계정에 대한 로그인을 차단하는 방법(동시에 여러 계정 포함)에 대한 자세한 내용은 [Office 365 PowerShell을 사용하여 사용자 계정 차단](../../enterprise/block-user-accounts-with-microsoft-365-powershell.md)을 참조하세요.
 
 ## <a name="add-the-shared-mailbox-to-outlook"></a>공유 사서함을 Outlook에 추가
 
 회사에서 automapping을 활성화한 경우(대부분의 사용자가 기본값으로 활성화함) Outlook을 종료하고 다시 시작하면 사용자의 Outlook 앱에 공유 사서함이 자동으로 나타납니다. 
 
-Automapping은 공유 사서함이 아니라 사용자의 사서함에서 설정됩니다.   즉 보안 그룹을 사용하여 공유 사서함에 액세스할 수 있는 사용자를 관리하려는 경우 automapping이 작동하지 않습니다. 따라서 automapping을 사용하려면 사용 권한을 명시적으로 할당해야 합니다. Automapping은 기본적으로 설정됩니다. 이 기능을 해제하는 방법은 [공유 사서함에 대한 automapping 제거](https://docs.microsoft.com/office365/troubleshoot/administration/remove-automapping-for-shared-mailbox)를 참조하세요.
+Automapping은 공유 사서함이 아니라 사용자의 사서함에서 설정됩니다.   즉 보안 그룹을 사용하여 공유 사서함에 액세스할 수 있는 사용자를 관리하려는 경우 automapping이 작동하지 않습니다. 따라서 automapping을 사용하려면 사용 권한을 명시적으로 할당해야 합니다. Automapping은 기본적으로 설정됩니다. 이 기능을 해제하는 방법은 [공유 사서함에 대한 automapping 제거](/office365/troubleshoot/administration/remove-automapping-for-shared-mailbox)를 참조하세요.
 
 Outlook의 공유 사서함에 대한 자세한 내용은 다음을 참조하세요.
 
@@ -209,5 +209,3 @@ Outlook의 공유 사서함에 대한 자세한 내용은 다음을 참조하세
 [공유 사서함에서 라이선스 제거](remove-license-from-shared-mailbox.md)
 
 [공유 사서함의 문제 해결](resolve-issues-with-shared-mailboxes.md)
-
-

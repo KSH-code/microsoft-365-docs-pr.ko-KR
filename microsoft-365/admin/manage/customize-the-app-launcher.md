@@ -23,23 +23,23 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: '앱 시작커에 사용자 지정 타일을 추가하여 전자 메일, 문서, 앱, SharePoint 사이트, 외부 사이트 및 기타 리소스에 대한 빠른 링크를 만들 수 있습니다. '
-ms.openlocfilehash: 809788033d0e8ef414511af5ab89857974d8b175
-ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
+ms.openlocfilehash: cc4edbfadc5c9555e04d04de8f7368dd86aa9974
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50766446"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915437"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>앱 시작 관리자에 사용자 지정 타일 추가
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
-Microsoft 365에서는 앱 시작커를 사용하여 전자 메일, 일정, 문서 및 앱에 쉽고 빠르게 액세스 할 수 있습니다([자세한 내용은).](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a) SharePoint 스토어 또는 Azure AD에서 추가하는 사용자 지정 앱뿐만 [](https://support.microsoft.com/office/dd98e50e-d3db-4ecb-9bb7-82b189822d43) 아니라 Microsoft 365에서 다운로드하는 [앱입니다.](https://msdn.microsoft.com/office/office365/howto/connect-your-app-to-o365-app-launcher)
+Microsoft 365에서는 앱 시작커를 사용하여 전자 메일, 일정, 문서 및 앱에 쉽고 빠르게 액세스 할 수 있습니다([자세한 내용은).](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a) SharePoint 스토어 또는 Azure AD에서 추가하는 사용자 지정 앱뿐만 [](https://support.microsoft.com/office/dd98e50e-d3db-4ecb-9bb7-82b189822d43) 아니라 Microsoft 365에서 다운로드하는 [앱입니다.](/previous-versions/office/office-365-api/)
   
 SharePoint 사이트, 외부 사이트, 레거시 앱 등을 가리키는 앱 시작 관리자에 사용자 지정 타일을 추가할 수 있습니다. 사용자 지정 타일은 앱 시작 사용자의 **모든** 앱 아래에 나타나지만  홈 앱에 고정하고 사용자에게 동일한 작업을 하게 지시할 수 있습니다. 이렇게 하면 작업을 할 관련 사이트, 앱 및 리소스를 쉽게 찾을 수 있습니다. 아래 예제에서는 "Contoso Portal"이라는 사용자 지정 타일을 사용하여 조직의 SharePoint 인트라넷 사이트에 액세스합니다. 
   
@@ -80,4 +80,3 @@ SharePoint 사이트, 외부 사이트, 레거시 앱 등을 가리키는 앱 �
 ## <a name="whats-next"></a>다음 작업
 
 앱 시작커에 타일을 추가하는 것 외에도 탐색 모음에 앱 시작 프로그램 타일을 추가할 수 있습니다([자세한 내용은).](https://support.microsoft.com/office/eb34a21b-52fa-4fbf-a8d5-146132242985) 조직의 브랜드에 맞게 Microsoft 365의 모양과 느낌을 사용자 지정하기 위해 Microsoft 365 테마 사용자 [지정을 참조합니다.](../setup/customize-your-organization-theme.md)
-  

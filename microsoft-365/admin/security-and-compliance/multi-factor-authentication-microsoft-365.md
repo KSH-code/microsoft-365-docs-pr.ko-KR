@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365의 다단계 인증에 대한 자세한 정보
-ms.openlocfilehash: 5e72e3990db533b49041dc4167283b9487f23426
-ms.sourcegitcommit: b88ffaf3409e02a9847f030f8468f96d36efa398
+ms.openlocfilehash: e1635e48e3948425a6d91f80fd07d50c474b73d7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50105188"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914513"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Microsoft 365에 대한 다단계 인증 사용
 
@@ -49,7 +49,7 @@ ms.locfileid: "50105188"
 - 전화 통화
 - Microsoft Authenticator 스마트폰 앱
 
-두 경우 모두 MFA 로그인은 추가 확인을 위해 "쉽게 중복되지 않는 항목" 메서드를 사용합니다. Microsoft 365 및 Office 365에서 MFA를 사용 설정 하기 위한 다양한 방법이 있습니다.
+두 경우 모두 MFA 로그인은 추가 확인을 위해 "쉽게 중복되지 않는 항목"을 사용합니다. Microsoft 365 및 Office 365에서 MFA를 사용 설정 하기 위한 다양한 방법이 있습니다.
 
 - 보안 기본값으로
 - 조건부 액세스 정책으로
@@ -81,7 +81,7 @@ Azure 포털의 Azure AD에 대해 **속성** 창에서 보안 기본값을 사�
 
 모든 Microsoft 365 요금제에 보안 기본값을 사용할 수 있습니다.
 
-자세한 정보는 이 [보안 기본값 개요](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)를 참조하세요.
+자세한 정보는 이 [보안 기본값 개요](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)를 참조하세요.
 
 ### <a name="conditional-access-policies"></a>조건부 액세스 정책
 
@@ -117,26 +117,26 @@ Microsoft 365 Business Premium이 있는 소규모 기업의 경우 다음 단�
 
 이 조건부 액세스 정책을 사용하면 사용자가 원하는 진도에 맞춰 MFA 요구 사항을 롤아웃할 수 있습니다.
 
-Enterprises는 [공통 조건부 액세스 정책](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common)을 사용하여 다음 정책을 구성합니다.
+Enterprises는 [공통 조건부 액세스 정책](/azure/active-directory/conditional-access/concept-conditional-access-policy-common)을 사용하여 다음 정책을 구성합니다.
 
-- [관리자에게 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa)
-- [모든 사용자에게 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
-- [레거시 인증 차단](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
+- [관리자에게 MFA 요구](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa)
+- [모든 사용자에게 MFA 요구](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
+- [레거시 인증 차단](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
 
-자세한 내용은 이 [조건부 액세스 개요](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)를 참조하세요.
+자세한 내용은 이 [조건부 액세스 개요](/azure/active-directory/conditional-access/overview)를 참조하세요.
 
 ### <a name="azure-ad-identity-protection"></a>Azure AD ID 보호
 
-Azure AD ID 보호 기능을 사용하여 [로그인 위험이 중간에서 높음일 때 MFA를 요구](https://docs.microsoft.com/microsoft-365/enterprise/identity-access-policies#require-mfa-based-on-sign-in-risk)하는 추가 조건부 액세스 정책을 만들 수 있습니다.
+Azure AD ID 보호 기능을 사용하여 [로그인 위험이 중간에서 높음일 때 MFA를 요구](../../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk)하는 추가 조건부 액세스 정책을 만들 수 있습니다.
 
 다음에서는 Azure AD ID 보호 및 위험 기반 조건부 액세스 정책을 사용할 수 있습니다.
 
 - Microsoft 365 E5
 - Azure AD Premium P2 라이선스
 
-자세한 내용은 이 [Azure AD ID 보호 개요](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)를 참조하세요.
+자세한 내용은 이 [Azure AD ID 보호 개요](/azure/active-directory/identity-protection/overview-identity-protection)를 참조하세요.
 
-### <a name="legacy-per-user-mfa-not-recommended"></a>레거시 사용자당 MFA(권장하지 않음)
+### <a name="legacy-per-user-mfa-not-recommended"></a>사용자당 레거시 MFA(권장하지 않음)
 
 사용자 계정 로그인에 MFA를 요구하기 위해 보안 기본값이나 조건부 액세스 정책을 사용해야 합니다. 하지만 둘 다 사용할 수 없는 경우라면 Microsoft는 관리자 권한이 있는 사용자(특히, 모든 구독에 대한 권역 관리자 역할을 가진 사용자)에 MFA를 권장 합니다.
 
@@ -154,7 +154,7 @@ Microsoft 365 관리 센터의 **활성 사용자** 창에서 개별 사용자 �
 |---|---|---|---|
 |**보안 기본값**|조건부 액세스 정책을 사용할 수 없습니다.|조건부 액세스 정책을 사용할 수 있습니다|Microsoft Authenticator 앱|
 |**조건부 액세스 정책**|사용하도록 설정된 경우 보안 기본값을 사용하도록 설정할 수 없습니다.|상기 수단을 모두 사용하지 않도록 설정한 경우, MFA 등록 중 사용자가 지정한 |MFA 등록 중 사용자 지정|
-|**레거시 사용자당 MFA(권장하지 않음)**|각 로그인에서 MFA를 요구 하는 보안 기본값과 조건부 액세스 정책을 재정의 합니다.|보안 기본값과 조건부 액세스 정책에 의해 재정의|MFA 등록 중 사용자 지정|
+|**사용자당 레거시 MFA(권장하지 않음)**|각 로그인에서 MFA를 요구 하는 보안 기본값과 조건부 액세스 정책을 재정의 합니다.|보안 기본값과 조건부 액세스 정책에 의해 재정의|MFA 등록 중 사용자 지정|
 ||||
 
 보안 기본값을 사용하면 다음 로그인 시 모든 새 사용자에게 MFA 등록 및 Microsoft Authenticator 앱 사용을 요구하는 메시지가 표시됩니다.
@@ -176,6 +176,6 @@ Microsoft 365 관리 센터에서 사용자별 및 서비스 MFA 설정을 구�
 
 ## <a name="related-topics"></a>관련 주제
 
-[비디오: 다단계 인증 켜기](https://docs.microsoft.com/microsoft-365/business-video/turn-on-mfa)
+[비디오: 다단계 인증 켜기](../../business-video/turn-on-mfa.md)
 
-[비디오: 휴대폰의 다단계 인증 켜기](https://docs.microsoft.com/microsoft-365/business-video/set-up-mfa)
+[비디오: 휴대폰의 다단계 인증 켜기](../../business-video/set-up-mfa.md)

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Outlook 및 Microsoft Teams를 사용하여 공동 작업을 하는 방법을 배워야 합니다.
-ms.openlocfilehash: 14a3cdf28c4e0c855671c67af36fa25ac47c6568
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: dd1030833a10678b4630d9e86905c98d30ac15fe
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422834"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913661"
 ---
 # <a name="use-outlook-and-teams-together"></a>Outlook과 Teams를 함께 사용
 
@@ -54,4 +54,4 @@ ms.locfileid: "50422834"
 
 [Outlook이란?](https://support.microsoft.com/office10f1fa35-f33a-4cb7-838c-a7f3e6228b20)
 
-[Teams 개요](https://docs.microsoft.com/MicrosoftTeams/Teams-overview)
+[Teams 개요](/MicrosoftTeams/Teams-overview)

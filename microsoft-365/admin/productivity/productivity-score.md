@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 생산성 점수 개요.
-ms.openlocfilehash: 72f9bcfb273912629744ec25ad9c0be720e76081
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: d818bd766f76f3df6c67a740d6ad1994a2be66de
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838428"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914585"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft 생산성 점수 
 
@@ -44,7 +44,7 @@ Microsoft는 두 가지 영역에서 메트릭, 인사이트 및 권장 사항�
 
 - **기술 경험:** 조직은 신뢰할 수 있고 성능이 우수한 기술과 Microsoft 365의 효율적인 사용에 의존합니다. [엔드포인트 분석](https://aka.ms/endpointanalytics)를 사용하면 하드웨어 및 소프트웨어의 성능 및 상태 문제로 인해 조직에 어떤 영향을 미칠 수 있는지 이해할 수 있습니다. Microsoft 365 앱 상태를 사용하면 조직의 장치에서 권장 채널에서 Microsoft 365 앱을 실행하고 있는지 여부를 파악할 수 있습니다.
 
-개요와 필수 구성 요소 세부 사항에 대한 자세한 내용은 [엔드포인트 분석이란](https://docs.microsoft.com/mem/analytics/overview)을 참조하세요. Microsoft 365 네트워크 연결 인사이트에 대한 자세한 내용은 [네트워크 연결 개요](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview)를 참조하세요.
+개요와 필수 구성 요소 세부 사항에 대한 자세한 내용은 [엔드포인트 분석이란](/mem/analytics/overview)을 참조하세요. Microsoft 365 네트워크 연결 인사이트에 대한 자세한 내용은 [네트워크 연결 개요](../../enterprise/microsoft-365-networking-overview.md)를 참조하세요.
   
 
 ## <a name="how-the-score-is-calculated"></a>점수 계산 방법
@@ -74,7 +74,8 @@ Microsoft는 두 가지 영역에서 메트릭, 인사이트 및 권장 사항�
 
 ## <a name="prerequisites"></a>필수 구성 요소 
 
-사용자 경험 데이터의 경우 비즈니스용 Microsoft 365 또는 Office 365 enterprise 구독이 필요합니다. 테넌트에 대한 엔드포인트 분석 데이터의 경우 구독에 Microsoft Intune을 추가해야 합니다. Intune은 장치와 앱을 관리하여 조직의 데이터를 보호하는 데 도움이 됩니다. Intune을 설치하면 Intune 환경에서 엔드포인트 분석을 켤 수 있습니다. [Microsoft Graph](https://docs.microsoft.com/mem/intune/)에 대해 자세히 알아보세요 
+사용자 경험 데이터의 경우 비즈니스용 Microsoft 365 또는 Office 365 enterprise 구독이 필요합니다. 테넌트에 대한 엔드포인트 분석 데이터의 경우 구독에 Microsoft Intune을 추가해야 합니다. Intune은 장치와 앱을 관리하여 조직의 데이터를 보호하는 데 도움이 됩니다. Intune을 설치하면 Intune 환경에서 엔드포인트 분석을 켤 수 있습니다. [Microsoft Graph](/mem/intune/)에 대해 자세히 알아보세요 
+
 > [!NOTE]
 > 생산성 점수 기능을 사용하기 위해 Workplace Analytics에 대한 라이선스는 필요하지 않습니다.
 
@@ -129,7 +130,7 @@ Microsoft는 개인의 프라이버시를 보호하기 위해 노력하고 있�
 - [이동성 – 사용자 환경](mobility.md)
 - [팀워크 – 사용자 환경](teamwork.md)
 - [Microsoft 365 Apps 상태 - 기술 경험](apps-health.md)
-- [끝점 분석](https://docs.microsoft.com/mem/analytics/productivity-score)
+- [끝점 분석](/mem/analytics/productivity-score)
 
 ## <a name="business-continuity-special-report"></a>비즈니스 연속성 특별 보고서
 
@@ -143,12 +144,12 @@ Microsoft는 개인의 프라이버시를 보호하기 위해 노력하고 있�
 
 - 원격 모임이 효과적인 의사 결정을 지원하는지 여부를 나타냅니다.
 
-[비즈니스 연속성 보고서에 대한 자세한 정보](https://aka.ms/bcrps)
+[비즈니스 연속성 보고서에 대한 자세한 정보](/Workplace-Analytics/tutorials/bcrps)
 
-[Microsoft Graph에 대한 자세한 정보](https://docs.microsoft.com/graph/)
+[Microsoft Graph에 대한 자세한 정보](/graph/)
 
 > [!NOTE]
-> 또한 사용자는 [MyAnalytics 대시보드](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2)에서 생산성 인사이트를 얻을 수 있는 옵션도 있습니다.
+> 또한 사용자는 [MyAnalytics 대시보드](/workplace-analytics/myanalytics/use/dashboard-2)에서 생산성 인사이트를 얻을 수 있는 옵션도 있습니다.
 
 
 ## <a name="we-want-to-hear-from-you"></a>의견을 보내 주세요.

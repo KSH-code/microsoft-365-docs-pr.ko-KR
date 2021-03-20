@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
 description: 2013이 설치된 장치에 대해 최신 인증을 사용하도록 레지스트리 Microsoft Office 방법을 학습합니다.
-ms.openlocfilehash: 2a4be82328d391db7808cb9197ce259275b567c6
-ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
+ms.openlocfilehash: f12511ad6d685647b3b38fd424f1d4611a3119b4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50758931"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914537"
 ---
 # <a name="enable-modern-authentication-for-office-2013-on-windows-devices"></a>Windows 장치에서 Office 2013에 대해 최신 인증 사용
 
@@ -60,6 +60,5 @@ Microsoft Office 2013이 설치되었고 Windows를 실행 중인 장치(예: �
 ## <a name="related-articles"></a>관련 문서
 [두 번째 확인 방법으로 Office 2013에 로그인](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
 
-[Outlook에 암호를 입력하라는 메시지가 표시되어 최신 인증을 사용하여 Office 365에 연결하지 않습니다.](https://docs.microsoft.com/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled)
+[Outlook에 암호를 입력하라는 메시지가 표시되어 최신 인증을 사용하여 Office 365에 연결하지 않습니다.](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled)
 
-  

@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 사용자가 Teams, Exchange, SharePoint 및 기타 Microsoft 365 서비스를 사용하여 생산성을 향상시킬 수 있도록 합니다.
-ms.openlocfilehash: ce19085a358861238e9a7cd4d650246d08fd272d
-ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
+ms.openlocfilehash: 7b62191d08e5ff91e54bb16b06a0511e02f16b6d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055497"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916181"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>5단계. 원격 작업자 생산성 앱 및 서비스 배포
 
@@ -42,7 +42,7 @@ ms.locfileid: "50055497"
 
 Teams를 사용하면 한 곳에서 채팅, 모임, 통화, 공동 작업을 모두 수행할 수 있습니다. Teams는 팀워크를 위한 허브로 원격 작업을 하는 데 필요한 모든 것을 통합하고 있기에 수백만 명의 사용자가 매일 Teams에서 작업을 수행합니다. 
 
-자세한 지침은 [Microsoft Teams를 사용하여 원격 작업자 지원하기](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams)를 참조하세요. 
+자세한 지침은 [Microsoft Teams를 사용하여 원격 작업자 지원하기](/microsoftteams/support-remote-work-with-teams)를 참조하세요. 
 
 원격 작업에 Teams 사용에 대한 지침 및 데모는 [Microsoft Teams 웹캐스트를 사용하여 하이브리드 작업 사용](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/)을 시청하세요.
 
@@ -76,10 +76,10 @@ Outlook을 사용하면 원격 작업자는 연결 상태를 유지하고 전자
 
 다음에서 문서를 SharePoint 또는 OneDrive로 마이그레이션해야 할 수 있습니다.
 
-- [SharePoint Server Team 사이트](https://docs.microsoft.com/sharepointmigration/sp-teams-sites-migration-guide)
-- [MySites](https://docs.microsoft.com/sharepointmigration/mysites-to-onedrive-migration-guide)
-- [파일 공유](https://docs.microsoft.com/sharepointmigration/fileshare-to-odsp-migration-guide)
-- [Box](https://docs.microsoft.com/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide)
+- [SharePoint Server Team 사이트](/sharepointmigration/sp-teams-sites-migration-guide)
+- [MySites](/sharepointmigration/mysites-to-onedrive-migration-guide)
+- [파일 공유](/sharepointmigration/fileshare-to-odsp-migration-guide)
+- [Box](/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide)
 
 SharePoint 및 OneDrive를 보호하기 위해 권장 ID 및 장치 액세스 정책에 대해 [이 문서](../security/office-365-security/sharepoint-file-access-policies.md)를 참조하세요.
 
@@ -87,15 +87,15 @@ SharePoint 및 OneDrive를 보호하기 위해 권장 ID 및 장치 액세스 �
 
 Microsoft 365 앱은 언제 어디에서나 사용자들이 원활하게 함께 작업할 수 있도록 해주는 기업에 가장 생산적이고 안전한 Office 환경입니다. 원격 작업자는 동시에 여러 사용자와 한 문서에 대해 공동 작업을 하고, 실시간으로 편집 및 변경된 내용을 보고, 모든 노트북, PC 또는 모바일 장치를 통해 다른 사용자들과 공동 작성할 수 있습니다.
 
-자세한 내용은 [Microsoft 365 앱용 배포 가이드](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)를 참조하세요.
+자세한 내용은 [Microsoft 365 앱용 배포 가이드](/deployoffice/deployment-guide-microsoft-365-apps)를 참조하세요.
 
 ## <a name="admin-technical-resources-for-productivity-apps-and-services"></a>생산성 앱 및 서비스를 위한 관리자 기술 리소스
 
-- [Microsoft Teams를 사용하여 원격 작업자 지원하기](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams)
+- [Microsoft Teams를 사용하여 원격 작업자 지원하기](/microsoftteams/support-remote-work-with-teams)
 - [Microsoft Teams 웹캐스트를 사용하여 하이브리드 작업 사용](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/)
 - [Teams 고객 성공 키트 다운로드](https://www.microsoft.com/download/details.aspx?id=54244)
-- [Teams의 채택을 촉진하기 위한 도구](https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads) 
-- [Microsoft Teams에 대한 변경 관리 전략 만들기](https://docs.microsoft.com/MicrosoftTeams/change-management-strategy)
+- [Teams의 채택을 촉진하기 위한 도구](/microsoftteams/adopt-tools-and-downloads) 
+- [Microsoft Teams에 대한 변경 관리 전략 만들기](/MicrosoftTeams/change-management-strategy)
 - [세 가지 보호 계층이 있는 Teams](configure-teams-three-tiers-protection.md)
 
 ## <a name="user-training-resources-for-productivity-apps-and-services"></a>생산성 앱과 서비스에 대한 사용자 교육 리소스

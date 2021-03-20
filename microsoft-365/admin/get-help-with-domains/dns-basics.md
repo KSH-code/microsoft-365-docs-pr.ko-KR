@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: 도메인 관리에 도움이 되는 도메인 및 관련 DNS 레코드에 대해 알아봅니다.
-ms.openlocfilehash: 093641a5c80c70264c1d64ee27cb7621e5f7b2cb
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: f8d8171e306a0206facec1621bf2b1a9f8085757
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926417"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915665"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
 
@@ -69,7 +69,7 @@ ms.locfileid: "49926417"
     
 세 번째 수준 도메인을 사용하는 이유는 무엇일까요? 사용자가 마케팅 또는 블로그에 다른 도메인 이름을 원할 수 있습니다. 예를 들어 blog.contoso.com입니다. 일반적으로 Microsoft에서 사용하도록 contoso.com과 같은 두 번째 수준 도메인을 추가하지만, 원한다면 세 번째 수준 도메인을 사용할 수도 있습니다.
   
-각 제품 유형에 따라 도메인에서 수행할 수 있는 기능에 대한 자세한 내용은 [Microsoft 365 및 Office 365 플랫폼 서비스 설명](https://go.microsoft.com/fwlink/?LinkId=402693)을 참조하세요.
+각 제품 유형에 따라 도메인에서 수행할 수 있는 기능에 대한 자세한 내용은 [Microsoft 365 및 Office 365 플랫폼 서비스 설명](/office365/servicedescriptions/office-365-platform-service-description/domains)을 참조하세요.
   
 ## <a name="understand-dns-record-types"></a>DNS 레코드 종류 이해
 
@@ -150,14 +150,14 @@ Microsoft 365에서 이러한 모든 설정이 제대로 작동하기 위해 입
 ## <a name="why-add-a-domain-in-microsoft-365"></a>Microsoft 365에서 도메인을 추가해야 하는 이유
 
 
-사용자 지정 도메인(예: fourthcoffee.com)을 Microsoft 365에 추가하면 서비스에서 더 짧고 친숙한 전자 메일 주소와 사용자 ID를 사용할 수 있습니다. Microsoft 365 계정에 가입할 때 [사용할 도메인이 제공](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)되지만, 여기에는 "onmicrosoft.com"이 포함됩니다. 많은 사용자가 전자 메일에 Microsoft 365를 사용하려는 경우 조직 또는 비즈니스 도메인을 추가하는 것을 선호합니다. 
+사용자 지정 도메인(예: fourthcoffee.com)을 Microsoft 365에 추가하면 서비스에서 더 짧고 친숙한 전자 메일 주소와 사용자 ID를 사용할 수 있습니다. Microsoft 365 계정에 가입할 때 [사용할 도메인이 제공](../setup/domains-faq.yml)되지만, 여기에는 "onmicrosoft.com"이 포함됩니다. 많은 사용자가 전자 메일에 Microsoft 365를 사용하려는 경우 조직 또는 비즈니스 도메인을 추가하는 것을 선호합니다. 
   
 > [!NOTE]
 > Outlook 또는 Word 등의 Microsoft 앱을 다운로드하고 사용하려는 경우에는 도메인을 추가할 필요가 없습니다. [PC 또는 Mac에 Office를 설치](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)하기만 하면 됩니다. 
   
 전자 메일, 공개 웹 사이트 및 메신저 주소에 Microsoft 365의 사용자 도메인 이름을 사용할 수 있습니다.
   
-- **전자 메일:** 도메인 이름을 사용하면 전자 메일을 사용자 지정할 수 있으므로 계정과 함께 제공되는 [초기 onmicrosoft.com 전자 메일 주소](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)보다 더 짧고 기억하기 쉬운 주소를 사용할 수 있습니다. 따라서 전자 메일 주소(Microsoft 365에 로그인하는 데 사용하는 회사 계정으로도 사용됨)가 joe@contoso.onmicrosoft.com 대신 joe@contoso.com으로 될 수 있습니다. 
+- **전자 메일:** 도메인 이름을 사용하면 전자 메일을 사용자 지정할 수 있으므로 계정과 함께 제공되는 [초기 onmicrosoft.com 전자 메일 주소](../setup/domains-faq.yml)보다 더 짧고 기억하기 쉬운 주소를 사용할 수 있습니다. 따라서 전자 메일 주소(Microsoft 365에 로그인하는 데 사용하는 회사 계정으로도 사용됨)가 joe@contoso.onmicrosoft.com 대신 joe@contoso.com으로 될 수 있습니다. 
     
 - **웹 사이트:** Microsoft 365 구독에 SharePoint Online 공개 웹 사이트(더 이상 구입할 수 없음)가 포함된 경우 공개 웹 사이트에는 contoso-public.sharepoint.com과 같은 초기 주소가 제공됩니다. 비즈니스를 위한 웹 사이트를 설정한 경우 www.contoso.com과 같이 사용자 지정 도메인 이름을 사용하여 웹 사이트 주소의 이름을 바꿀 수 있습니다. 
     
@@ -169,14 +169,14 @@ Microsoft 365에서 이러한 모든 설정이 제대로 작동하기 위해 입
 ## <a name="why-add-a-domain-in-microsoft-365"></a>Microsoft 365에서 도메인을 추가해야 하는 이유
 
 
-사용자 지정 도메인(예: fourthcoffee.com)을 Microsoft 365에 추가하면 서비스에서 더 짧고 친숙한 전자 메일 주소와 사용자 ID를 사용할 수 있습니다. Microsoft 365 계정에 가입할 때 [사용할 도메인이 제공](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)되지만, 여기에는 "onmicrosoft.com"이 포함됩니다. 많은 사용자가 전자 메일에 Microsoft 365를 사용하려는 경우 조직 또는 비즈니스 도메인을 추가하는 것을 선호합니다. 
+사용자 지정 도메인(예: fourthcoffee.com)을 Microsoft 365에 추가하면 서비스에서 더 짧고 친숙한 전자 메일 주소와 사용자 ID를 사용할 수 있습니다. Microsoft 365 계정에 가입할 때 [사용할 도메인이 제공](../setup/domains-faq.yml)되지만, 여기에는 "onmicrosoft.com"이 포함됩니다. 많은 사용자가 전자 메일에 Microsoft 365를 사용하려는 경우 조직 또는 비즈니스 도메인을 추가하는 것을 선호합니다. 
   
 > [!NOTE]
 > Outlook 또는 Word 등의 Microsoft 365 앱만을 다운로드하고 사용하려는 경우에는 도메인을 추가할 필요가 없습니다. [PC 또는 Mac에 Office를 설치](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)하기만 하면 됩니다. 
   
 전자 메일, 공개 웹 사이트 및 메신저 주소에 Microsoft 365의 사용자 도메인 이름을 사용할 수 있습니다.
   
-- **전자 메일:** 도메인 이름을 사용하면 전자 메일을 사용자 지정할 수 있으므로 계정과 함께 제공되는 [초기 onmicrosoft.com 전자 메일 주소](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)보다 더 짧고 기억하기 쉬운 주소를 사용할 수 있습니다. 따라서 전자 메일 주소(Microsoft 365에 로그인하는 데 사용하는 회사 계정으로도 사용됨)가 joe@contoso.onmicrosoft.com 대신 joe@contoso.com으로 될 수 있습니다. 
+- **전자 메일:** 도메인 이름을 사용하면 전자 메일을 사용자 지정할 수 있으므로 계정과 함께 제공되는 [초기 onmicrosoft.com 전자 메일 주소](../setup/domains-faq.yml)보다 더 짧고 기억하기 쉬운 주소를 사용할 수 있습니다. 따라서 전자 메일 주소(Microsoft 365에 로그인하는 데 사용하는 회사 계정으로도 사용됨)가 joe@contoso.onmicrosoft.com 대신 joe@contoso.com으로 될 수 있습니다. 
     
 - **웹 사이트:** 구독에 SharePoint Online 공개 웹 사이트(더 이상 구입할 수 없음)가 포함된 경우 공개 웹 사이트에는 contoso-public.sharepoint.com과 같은 초기 주소가 제공됩니다. 비즈니스를 위한 웹 사이트를 설정한 경우 www.contoso.com과 같이 사용자 지정 도메인 이름을 사용하여 웹 사이트 주소의 이름을 바꿀 수 있습니다. 
     
@@ -190,7 +190,7 @@ Microsoft 365에서 도메인이 작동하려면 많은 DNS 레코드가 필요�
   
 도메인을 설정하기 위한 [값 목록을 찾을](information-for-dns-records.md) 수 있습니다. Microsoft 365 관리 센터에 바로 포함되어 있습니다. 
   
-또는 배포를 계획하고 있는 경우 Microsoft 365에 필요한 모든 DNS 레코드, 해당 기능, 예시 값 목록을 검토해 볼 수 있습니다. [Microsoft 365에 대한 외부 Domain Name System 레코드](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records)를 참조하세요.
+또는 배포를 계획하고 있는 경우 Microsoft 365에 필요한 모든 DNS 레코드, 해당 기능, 예시 값 목록을 검토해 볼 수 있습니다. [Microsoft 365에 대한 외부 Domain Name System 레코드](../../enterprise/external-domain-name-system-records.md)를 참조하세요.
   
 ## <a name="how-can-i-learn-more"></a>자세한 내용을 알고 싶은 경우
 

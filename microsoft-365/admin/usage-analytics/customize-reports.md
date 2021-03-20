@@ -20,19 +20,19 @@ search.appverid:
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: 브라우저 및 Power BI Desktop에서 보고서를 사용자 지정하는 방법을 학습합니다.
-ms.openlocfilehash: 3c662dfa91939c68f0aa0a85c19a1fab003064bf
-ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
+ms.openlocfilehash: 18b4352d3aaa2fd16b74f78e1f80da3ee98367a6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50572653"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914009"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석에서 보고서 사용자 지정
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -154,6 +154,4 @@ Power BI 템플릿 파일은 Microsoft 다운로드 센터에서 [다운로드�
     
     데이터를 로드하는 데 다소 시간이 걸릴 수 있으며 로드가 완료되면 파일을 .pbix 파일로 저장하고 계속하여 보고서를 사용자 지정하거나 추가 데이터 원본을 이 보고서로 가져올 수 있습니다.
     
-4. [Power BI 시작](https://go.microsoft.com/fwlink/?linkid=849802) 문서를 확인하여 보고서를 만들고, Power BI 서비스에 게시하고 조직과 공유하는 방법을 알아봅니다. 사용자 지정 및 공유를 위한 이 방법에 따라 작업을 수행하기 위해 Power BI 라이선스가 추가로 필요할 수 있습니다. 자세한 내용은 Power BI [라이선싱 참고 자료](https://go.microsoft.com/fwlink/p/?linkid=849803)를 참조하세요. 
-    
-
+4. [Power BI 시작](/power-bi/fundamentals/desktop-getting-started) 문서를 확인하여 보고서를 만들고, Power BI 서비스에 게시하고 조직과 공유하는 방법을 알아봅니다. 사용자 지정 및 공유를 위한 이 방법에 따라 작업을 수행하기 위해 Power BI 라이선스가 추가로 필요할 수 있습니다. 자세한 내용은 Power BI [라이선싱 참고 자료](https://go.microsoft.com/fwlink/p/?linkid=849803)를 참조하세요. 

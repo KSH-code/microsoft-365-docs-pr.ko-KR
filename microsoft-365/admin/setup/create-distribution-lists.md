@@ -23,12 +23,12 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 description: 각 받는 사람의 이름을 입력하지 않고도 그룹에 전자 메일을 보낼 수 있도록 Microsoft 365 관리 센터에서 메일 그룹 또는 목록을 만드는 방법을 학습합니다.
-ms.openlocfilehash: 7c416612fa241d7fec11a2e24a29e149594951e3
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 5c4781653a5f18b7a41dc20212771368132801cd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080472"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914249"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 메일 그룹 만들기
   
@@ -58,20 +58,18 @@ ms.locfileid: "50080472"
 
 1. 앱 시작 관리자 아이콘 을 선택하고 **관리자** 를 선택합니다.
     
-    찾고자 하는 앱을 찾을 수 없나요? 앱 시작기에서 모든  앱을 선택하여 사용할 수 있는 앱의 사전순 목록을 볼 수 있습니다. 거기에서 특정 앱을 검색할 수 있습니다. 
+    찾고자 하는 앱을 찾을 수 없나요? 앱 시작 앱에서 모든  앱을 선택하여 사용할 수 있는 앱의 사전순 목록을 볼 수 있습니다. 거기에서 특정 앱을 검색할 수 있습니다. 
     
-2. 왼쪽 **탐색** 창에서 그룹 그룹을 선택한 다음 그룹 \>  **추가를 선택합니다.** 
+2. 왼쪽 **탐색 창에서** 그룹을 선택한 다음 그룹 추가 \>  **를 선택합니다.** 
       
-3. 그룹 유형 **선택 필드에서** 배포를 **선택하고** 다음을 선택 **합니다.**
+3. 그룹 **유형 선택 필드에서** 배포를 **선택하고** 다음 을 **선택 합니다.**
   
-4. 새 그룹의 이름, 설명 및 전자 메일 별칭을 입력하고 조직 외부의 사람이 그룹에 전자 메일을 보내게 할지 여부를 선택하십시오. 
+4. 새 그룹의 이름, 설명 및 전자 메일 별칭을 입력하고 조직 외부의 사람이 그룹에 전자 메일을 보낼 수 있도록 할지 여부를 선택하십시오. 
     
-5. Add를 눌러 그룹을 만든 다음 그룹을 검토하고 닫기 를 **선택 합니다.**  
+5. 추가를 눌러 그룹을 만든 다음 그룹을 검토하고 닫기 를 **선택 합니다.**  
     
 6. 메일 그룹에 사용자를 추가하는 경우 메일 그룹에 사용자 또는 [연락처 추가를 참조하세요.](../email/add-user-or-contact-to-distribution-list.md)
     
-Outlook 항목의 연락처 그룹(이전 메일 [그룹)](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39) 사용에서 Outlook 2016 및 웹용 Outlook에서 그룹을 사용하는 방법을 확인해 하세요. 
+Outlook의 연락처 그룹(이전의 메일 그룹) 사용 항목에서 Outlook 2016 및 웹용 [Outlook에서](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39) 그룹을 사용하는 방법을 참조하세요. 
   
-메일 그룹 [문제를 확인하여](https://docs.microsoft.com/office365/troubleshoot/groups/distribution-list-issues) 메일 그룹 문제를 해결합니다. 
-  
-
+메일 그룹 [문제에 대한 도움말은](/office365/troubleshoot/groups/distribution-list-issues) 메일 그룹 문제를 확인해 하세요. 

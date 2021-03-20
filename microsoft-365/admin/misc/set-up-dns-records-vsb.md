@@ -20,12 +20,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365로 도메인을 확인하고 DNS 레코드 만드는 방법을 배웁니다.
 ms.custom:
 - AdminSurgePortfolio
-ms.openlocfilehash: c5c33af8a5635d1092aec2f1bffdfc942f2e4851
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 506ee887edbc59956aee11059a7085bc4b22624e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126338"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914597"
 ---
 # <a name="connect-your-domain-to-microsoft-365"></a>Microsoft 365에 도메인 연결
 
@@ -72,10 +72,10 @@ ms.locfileid: "50126338"
 
 레코드를 저장합니다.
 
-이러한 [SPF 유효성 검사 도구](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain) 중 하나를 사용하여 SPF 레코드의 유효성을 검사합니다.
+이러한 [SPF 유효성 검사 도구](/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain) 중 하나를 사용하여 SPF 레코드의 유효성을 검사합니다.
 
 SPF는 스푸핑 차단을 돕지만 SPF가 방어할 수 없는 스푸핑 기술이 있습니다. 이 같은 기술로부터 보호하려면 SPF를 설정한 후에 Microsoft 365의 DKIM 및 DMARC도 설정해야 합니다.
 
-시작하려면 [DKIM을 사용하여 Microsoft 365의 도메인에서 보낸 발신 전자 메일의 유효성 검사하기](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx) 및 [DMARC를 사용하여 Microsoft 365에서 전자 메일의 유효성 검사하기](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx)를 참조하세요.
+시작하려면 [DKIM을 사용하여 Microsoft 365의 도메인에서 보낸 발신 전자 메일의 유효성 검사하기](../../security/office-365-security/use-dkim-to-validate-outbound-email.md) 및 [DMARC를 사용하여 Microsoft 365에서 전자 메일의 유효성 검사하기](../../security/office-365-security/use-dmarc-to-validate-email.md)를 참조하세요.
 
 마지막으로 관리 센터 도메인 설정 마법사로 돌아가 설정을 완료합니다.

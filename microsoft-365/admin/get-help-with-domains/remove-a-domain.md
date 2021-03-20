@@ -21,26 +21,26 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
-description: Microsoft 365에서 이전 도메인을 제거하고 사용자 및 그룹을 다른 도메인으로 이동하는 방법을 배워야 합니다.
-ms.openlocfilehash: 39f8d97abb3a424251d6847da02f0dcc58baff31
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+description: Microsoft 365에서 이전 도메인을 제거하고 사용자 및 그룹을 다른 도메인으로 이동하는 방법을 학습합니다.
+ms.openlocfilehash: f4281eb793e6a832e3bd7f31484a97ccd5065bf5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114012"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915617"
 ---
 # <a name="remove-a-domain"></a>도메인 제거
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
   
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요. 
   
-다른 Microsoft 365 구독 요금제에 도메인을 추가하려는 경우 도메인을 제거하고 있습니까? 아니면 단지 구독을 취소하고 싶으신가요? [ 또는 구독을 변경 ](../../commerce/subscriptions/switch-to-a-different-plan.md)하거나 [구독을 취소](../../commerce/subscriptions/cancel-your-subscription.md)할 수 있습니다.
+도메인을 다른 Microsoft 365 구독 계획에 추가하려는 경우 도메인을 제거하나요? 아니면 단지 구독을 취소하고 싶으신가요? [ 또는 구독을 변경 ](../../commerce/subscriptions/switch-to-a-different-plan.md)하거나 [구독을 취소](../../commerce/subscriptions/cancel-your-subscription.md)할 수 있습니다.
   
 ### <a name="step-1-move-users-to-another-domain"></a>1단계: 사용자를 다른 도메인으로 이동
 
@@ -52,9 +52,9 @@ ms.locfileid: "50114012"
 
 2. 사용자 **활성 사용자를** > **선택합니다.**
 
-3. 이동할 모든 사용자의 이름 옆에 있는 확인란을 선택합니다.
+3. 이동할 모든 사용자의 이름 옆의 확인란을 선택합니다.
 
-4. Select **More options** (**...**), at the top of the page, and then choose **Change domains**.
+4. 페이지 **맨 위에** 있는 다른 옵션(**...**)을 선택한 다음 도메인 **변경을 선택합니다.**
 
 5. 도메인 **변경 창에서** 다른 도메인을 선택합니다.
 
@@ -68,9 +68,9 @@ ms.locfileid: "50114012"
 
 2. 사용자 **활성 사용자를** > **선택합니다.**
 
-3. 이동할 모든 사용자의 이름 옆에 있는 확인란을 선택합니다.
+3. 이동할 모든 사용자의 이름 옆의 확인란을 선택합니다.
 
-4. At the top of the page, choose **More** > **Edit domains.**
+4. At the top of the page, choose **More** > **Edit domains**.
 
 5. 도메인 **편집 창에서** 다른 도메인을 선택합니다.
   
@@ -84,9 +84,9 @@ ms.locfileid: "50114012"
 
 2. 사용자 **활성 사용자를** > **선택합니다.**
 
-3. 이동할 모든 사용자의 이름 옆에 있는 확인란을 선택합니다.
+3. 이동할 모든 사용자의 이름 옆의 확인란을 선택합니다.
 
-4. At the top of the page, choose **More** > **Edit domains.**
+4. At the top of the page, choose **More** > **Edit domains**.
 
 5. 도메인 **편집 창에서** 다른 도메인을 선택합니다.
   
@@ -100,57 +100,57 @@ ms.locfileid: "50114012"
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>로 이동합니다.
 
-2. 사용자  활성 \> **사용자로 이동한** 다음 목록에서 계정을 선택합니다.
+2. 사용자  활성 \> **사용자로 이동하여** 목록에서 계정을 선택합니다.
 
-3. 계정 **탭에서** **사용자** 이름 관리를 선택한 다음 다른 도메인을 선택합니다.
+3. 계정 **탭에서** 사용자 이름 **관리를** 선택한 다음 다른 도메인을 선택합니다.
   
 4. At the top, select your account name, then select **Sign Out**.
 
 5. 새 도메인과 동일한 암호로 로그인합니다.
 
-PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 있습니다. 자세한 내용은 [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0)을 참조하세요. 기본 도메인을 설정하려면 [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)을 사용하세요.
+PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 있습니다. 자세한 내용은 [Set-MsolUserPrincipalName](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0)을 참조하세요. 기본 도메인을 설정하려면 [Set-MsolDomain](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)을 사용하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 사용자  활성 \> **사용자로 이동한** 다음 목록에서 이름을 선택합니다.
+1. 사용자  활성 \> **사용자로 이동하여** 목록에서 이름을 선택합니다.
 
-2. 사용자 **이름/전자 메일 섹션에서** 편집을 선택한 다음 다른 도메인을 선택합니다. 
+2. 사용자 **이름/전자 메일 섹션에서** 편집 **을** 선택한 다음 다른 도메인을 선택합니다.
 
-3. 기본 **저장 닫기로** > **설정 선택** > 
+3. 기본 **저장** > **닫기 로 설정 을** > **선택합니다.**
   
 4. At the top, select your account name, then select **Sign Out**.
 
 5. 새 도메인과 동일한 암호로 로그인합니다.
 
-PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 있습니다. 자세한 내용은 [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0)을 참조하세요. 기본 도메인을 설정하려면 [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)을 사용하세요.
+PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 있습니다. 자세한 내용은 [Set-MsolUserPrincipalName](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0)을 참조하세요. 기본 도메인을 설정하려면 [Set-MsolDomain](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)을 사용하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 사용자  활성 \> **사용자로 이동한** 다음 목록에서 이름을 선택합니다.
+1. 사용자  활성 \> **사용자로 이동하여** 목록에서 이름을 선택합니다.
 
-2. 사용자 **이름/전자 메일 섹션에서** 편집을 선택한 다음 다른 도메인을 선택합니다. 
+2. 사용자 **이름/전자 메일 섹션에서** 편집 **을** 선택한 다음 다른 도메인을 선택합니다.
 
-3. 기본 **저장 닫기로** > **설정 선택** > 
+3. 기본 **저장** > **닫기 로 설정 을** > **선택합니다.**
   
 4. At the top, select your account name, then select **Sign Out**.
 
 5. 새 도메인과 동일한 암호로 로그인합니다.
 
-PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 있습니다. 자세한 내용은 [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0)을 참조하세요. 기본 도메인을 설정하려면 [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)을 사용하세요.
+PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 있습니다. 자세한 내용은 [Set-MsolUserPrincipalName](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0)을 참조하세요. 기본 도메인을 설정하려면 [Set-MsolDomain](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)을 사용하세요.
 
 ::: moniker-end
 
-### <a name="step-2-move-groups-to-another-domain"></a>2단계: 다른 도메인으로 그룹 이동
+### <a name="step-2-move-groups-to-another-domain"></a>2단계: 그룹을 다른 도메인으로 이동
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 그룹 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">페이지로</a> 이동합니다.
+1. 관리 센터에서 그룹 그룹  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">페이지로</a> 이동합니다.
   
-2. 그룹 이름을 선택한 다음 전자  메일 주소 기본 아래에 있는 일반 탭에서 **편집을** **선택합니다.**
+2. 그룹 이름을 선택하고 전자 메일  주소의 일반 **탭에서 기본** 에서 편집을 **선택합니다.**
 
 3. 드롭다운 목록을 사용하여 다른 도메인을 선택합니다.
 
@@ -160,7 +160,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 ::: moniker range="o365-germany"
 
-1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">센터에서</a>그룹 **그룹** > **페이지로** 이동합니다.
+1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">센터에서</a>그룹 그룹 **페이지로** >  이동합니다.
 
 2. 그룹 이름을 선택하고 이름 옆에 **있는** 편집을 **선택합니다.**
 
@@ -172,7 +172,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">센터에서</a>그룹 **그룹** > **페이지로** 이동합니다.
+1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">센터에서</a>그룹 그룹 **페이지로** >  이동합니다.
 
 2. 그룹 이름을 선택하고 이름 옆에 **있는** 편집을 **선택합니다.**
 
@@ -192,13 +192,13 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 설치  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인 페이지로</a> 이동합니다.
+1. 관리 센터에서 설치 도메인  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">페이지로</a> 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 설치  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인 페이지로</a> 이동합니다.
+1. 관리 센터에서 설치 도메인  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">페이지로</a> 이동합니다.
 
 ::: moniker-end
   
@@ -206,20 +206,20 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 3. 오른쪽 창에서 제거를 **선택합니다.**
 
-4. 추가 프롬프트에 따라 닫기 를 **선택합니다.**
+4. 추가 프롬프트를 따르고 닫기 **를 선택합니다.**
 
 ## <a name="how-long-does-it-take-for-a-domain-to-be-removed"></a>도메인을 제거하는 데 걸리는 시간은 얼마인가요?
 
-보안 그룹, 메일 그룹, 사용자 및 Microsoft 365 그룹과 같은 많은 곳에서 참조되지 않는 경우 Microsoft 365에서 도메인을 제거하는 데 5분 정도 걸릴 수 있습니다. 도메인을 사용하는 참조가 많으면 도메인을 제거하는 데 몇 시간(하루)이 걸릴 수 있습니다.
+보안 그룹, 메일 그룹, 사용자 및 Microsoft 365 그룹과 같은 많은 장소에서 참조되지 않는 경우 Microsoft 365에서 도메인을 제거하는 데 5분 정도 걸릴 수 있습니다. 도메인을 사용하는 참조가 많으면 도메인을 제거하는 데 몇 시간(하루)이 걸릴 수 있습니다.
   
-수백 또는 수천 명의 사용자가 있는 경우 PowerShell을 사용하여 모든 사용자에 대해 쿼리한 다음 사용자를 다른 도메인으로 이동합니다. 그러지 않으면 UI에서 몇 명의 사용자가 누락될 수 있으며, 이 경우 도메인을 제거하기 위해 이동하면 도메인을 제거할 수 없으며 이유를 알지 못하게 됩니다. 자세한 내용은 [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0)을 참조하세요. 기본 도메인을 설정하려면 [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)을 사용하세요.
+수백 또는 수천 명의 사용자가 있는 경우 PowerShell을 사용하여 모든 사용자에 대해 쿼리한 다음 사용자를 다른 도메인으로 이동합니다. 그러지 않으면 UI에서 몇 명의 사용자가 누락될 수 있으며, 이 경우 도메인을 제거하기 위해 이동하면 도메인을 제거할 수 없으며 이유를 알지 못하게 됩니다. 자세한 내용은 [Set-MsolUserPrincipalName](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0)을 참조하세요. 기본 도메인을 설정하려면 [Set-MsolDomain](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)을 사용하세요.
   
 ## <a name="still-need-help"></a>아직 해결되지 않았습니까?
 
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
-> 계정에서 [". onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) 도메인을 제거할 수 없습니다. 도메인을 제거하면 사용자 계정이 기본 SMTP/UserprincipalName onmicrosoft.com ".onmicrosoft.com" 주소로 되돌아가게 됩니다.
+> 계정에서 [". onmicrosoft.com"](../setup/domains-faq.yml) 도메인을 제거할 수 없습니다. 도메인을 제거하면 사용자 계정이 ".onmicrosoft.com" 주소로 되돌아가 기본 SMTP/UserprincipalName으로 되돌아가게 됩니다.
   
 여전히 작동하지 않나요? 도메인을 수동으로 제거해야 할 수도 있습니다. [전화로 연락주시면](../contact-support-for-business-products.md) 작업을 수행할 수 있도록 지원하겠습니다.
   

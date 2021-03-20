@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: '조직의 모든 사용자나 특정 사용자에 대해 중요 받은 편지함을 구성하는 방법을 알아봅니다. '
-ms.openlocfilehash: e6c77bdff00e7cd98f5034267699e19d8582db27
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 7059fbb886669af99c1471789cbbc623dc9719b8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551904"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914285"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>조직의 모든 사용자에 대해 중요 받은 편지함 구성
 
@@ -41,9 +41,9 @@ PowerShell을 사용하여 조직의 모든 사용자에 대해 중요 받은 �
   
 다음 PowerShell 예제는 조직의 중요 받은 편지함을 **끕니다**. 하지만 이렇게 해도 사용자의 기능 사용 가능성은 차단되지 않습니다. 사용자가 원하는 경우 각 클라이언트에서 중요 받은 편지함을 다시 사용하도록 설정할 수 있습니다. 
   
-1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?LinkId=396554)
+1. [원격 PowerShell을 사용하여 Exchange Online에 연결](/powershell/exchange/connect-to-exchange-online-powershell)
 
-2. 이 절차를 수행하려면 사용 권한이 할당된 상태여야 합니다. 필요한 사용 권한을 확인하려면 [메시징 정책 및 규정 준수 권한](https://go.microsoft.com/fwlink/p/?LinkId=829796)의 "전송 규칙" 항목을 참조하세요.
+2. 이 절차를 수행하려면 사용 권한이 할당된 상태여야 합니다. 필요한 사용 권한을 확인하려면 [메시징 정책 및 규정 준수 권한](/exchange/messaging-policy-and-compliance-permissions-exchange-2013-help)의 "전송 규칙" 항목을 참조하세요.
 
 3. 
             **Get-OrganizationConfig** cmdlet을 실행합니다. 
@@ -88,7 +88,7 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 
 이 예제에서는 Contoso 조직의 Tim Matthews에 대해 중요 받은 편지함을 **끕니다**. 하지만 이렇게 해도 Tim Matthews의 기능 사용 가능성은 차단되지 않습니다. Tim Matthews가 원하는 경우 각 클라이언트에서 중요 받은 편지함을 다시 사용하도록 설정할 수 있습니다. 
   
-1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?LinkId=396554)
+1. [원격 PowerShell을 사용하여 Exchange Online에 연결](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. 이 절차를 수행하려면 사용 권한이 할당된 상태여야 합니다. 필요한 사용 권한을 확인하려면 Messaging policy and compliance permissions(메시징 정책 및 규정 준수 권한) 항목에서 “Transport rules”(전송 규칙) 항목을 참조하세요.
 
@@ -129,11 +129,11 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 > [!NOTE]
 > 이 예제에서 메시지 헤더 값 텍스트는 **X-MS-Exchange-Organization-BypassFocusedInbox** 입니다.
   
-## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>PowerShell을 사용하여 전자 메일 메시지를 모든 사용자의 중요 보기로 보내도록 전송 규칙을 만들기
+## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>PowerShell을 사용하여 전자 메일 메시지를 모든 사용자의 중요 보기로 보내도록 전송 규칙을 만듭니다.
 
-1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?LinkId=396554)
+1. [원격 PowerShell을 사용하여 Exchange Online에 연결](/powershell/exchange/connect-to-exchange-online-powershell)
 
-2. 이 절차를 수행하려면 사용 권한이 할당된 상태여야 합니다. 필요한 사용 권한을 확인하려면 [메시징 정책 및 규정 준수 권한](https://go.microsoft.com/fwlink/p/?LinkId=829796)의 "전송 규칙" 항목을 참조하세요.
+2. 이 절차를 수행하려면 사용 권한이 할당된 상태여야 합니다. 필요한 사용 권한을 확인하려면 [메시징 정책 및 규정 준수 권한](/exchange/messaging-policy-and-compliance-permissions-exchange-2013-help)의 "전송 규칙" 항목을 참조하세요.
 
 3. 예를 들어 다음 명령을 실행하여 "급여 부서"의 모든 메시지가 중요 받은 편지함으로 배달되도록 할 수 있습니다.
 
@@ -143,7 +143,7 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 
 > [!IMPORTANT]
 > 이 예제에서 "X-MS-Exchange-Organization-BypassFocusedInbox" 및 "true" 모두 대소문자를 구분합니다.
-> 또한 중요 받은 편지함은 낮은 우선 순위 메일을 바이패스하는 X-헤더를 준수하므로 낮은 우선 순위 메일에서 이 설정을 사용하는 경우 중요 받은 편지함에서 사용됩니다. 자세한 구문 및 매개변수 정보 [New-TransportRule](https://go.microsoft.com/fwlink/p/?LinkId=830194)을 참조하세요.
+> 또한 중요 받은 편지함은 낮은 우선 순위 메일을 바이패스하는 X-헤더를 준수하므로 낮은 우선 순위 메일에서 이 설정을 사용하는 경우 중요 받은 편지함에서 사용됩니다. 자세한 구문 및 매개변수 정보 [New-TransportRule](/powershell/module/exchange/new-transportrule)을 참조하세요.
 
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 

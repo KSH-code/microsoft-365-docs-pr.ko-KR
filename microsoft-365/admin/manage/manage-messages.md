@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
 description: 변경 관리에 도움이 되도록 메시지 센터 메시지를 관리하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3f0a3c5fe20e76d0fff63cefe7e6eaa687696426
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
-ms.translationtype: HT
+ms.openlocfilehash: ee3df1b2f4855421dab4d6715add6503027b24bc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405963"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915281"
 ---
 # <a name="manage-messages-in-message-center"></a>메시지 센터에서 메시지 관리
 
@@ -171,6 +171,6 @@ ms.locfileid: "50405963"
 
 ## <a name="track-your-message-center-tasks-in-planner"></a>Planner에서 메시지 센터 작업 추적
 
-Microsoft 365 서비스 변경 내용에 대해 조치 가능한 많은 정보가 Microsoft 365 메시지 센터에 도착합니다. 어떤 변경 사항을 언제, 누가 작업해야 하는지와 각 작업의 완료를 위한 추적은 어려울 수 있습니다. 해당 사항을 메모하고 추후 확인하기 위해 태그를 지정할 수 있습니다. Microsoft 365 관리 센터에서 Microsoft Planner로 메시지를 동기화하는 경우 이러한 작업을 수행할 수 있습니다. 자세한 내용은 [Planner의 메시지 센터 태스크 추적](https://docs.microsoft.com/office365/planner/track-message-center-tasks-planner)을 참조하십시오.
+Microsoft 365 서비스 변경 내용에 대해 조치 가능한 많은 정보가 Microsoft 365 메시지 센터에 도착합니다. 어떤 변경 사항을 언제, 누가 작업해야 하는지와 각 작업의 완료를 위한 추적은 어려울 수 있습니다. 해당 사항을 메모하고 추후 확인하기 위해 태그를 지정할 수 있습니다. Microsoft 365 관리 센터에서 Microsoft Planner로 메시지를 동기화하는 경우 이러한 작업을 수행할 수 있습니다. 자세한 내용은 [Planner의 메시지 센터 태스크 추적](/office365/planner/track-message-center-tasks-planner)을 참조하십시오.
 
-메시지 센터에 대한 개요는 [Microsoft 365의 메시지 센터](message-center.md)를 참조하십시오. 또는 메시지 센터 게시물에 대해 시스템 변환을 사용하도록 언어 기본 설정을 설정하는 방법에 대한 자세한 내용은 [메시지 센터 게시물에 대한 언어 변환](language-translation-for-message-center-posts.md)을 참조하십시오. 실시간 서비스 상태 정보 및 메시지 센터 통신을 가져오는 다른 방법을 프로그래밍하려면 [Microsoft 365 서비스 통신 API 개요](https://go.microsoft.com/fwlink/p/?linkid=848507)를 참조하십시오.
+메시지 센터에 대한 개요는 [Microsoft 365의 메시지 센터](message-center.md)를 참조하십시오. 또는 메시지 센터 게시물에 대해 시스템 변환을 사용하도록 언어 기본 설정을 설정하는 방법에 대한 자세한 내용은 [메시지 센터 게시물에 대한 언어 변환](language-translation-for-message-center-posts.md)을 참조하십시오. 실시간 서비스 상태 정보 및 메시지 센터 통신을 가져오는 다른 방법을 프로그래밍하려면 [Microsoft 365 서비스 통신 API 개요](/previous-versions/office/developer/o365-enterprise-developers/jj984343(v=office.15))를 참조하십시오.

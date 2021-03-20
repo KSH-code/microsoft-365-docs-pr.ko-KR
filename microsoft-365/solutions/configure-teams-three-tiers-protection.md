@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: 세 가지 보호 수준을 사용하여 보안을 강화하기 위해 Teams를 구성하는 방법에 대해 알아보고, 공동 작업을 쉽게 수행할 수 있습니다.
-ms.openlocfilehash: d41effb6db9f8995c3c878523babf200ab9af762
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 37d59d968d3a8e83a5b42fcce4c0400940314a41
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509245"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916217"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>세 가지 보호 계층으로 Teams 구성
 
@@ -42,7 +42,7 @@ ms.locfileid: "50509245"
 
 - 매우 중요한 보호
 
-각 계층에 권장되는 계층과 기능에 대한 자세한 내용은 [엔터프라이즈 설계자를 위한 Microsoft 클라우드](https://docs.microsoft.com/microsoft-365/solutions/cloud-architecture-models)를 참조하세요.
+각 계층에 권장되는 계층과 기능에 대한 자세한 내용은 [엔터프라이즈 설계자를 위한 Microsoft 클라우드](./cloud-architecture-models.md)를 참조하세요.
 
 
 ## <a name="three-tiers-at-a-glance"></a>세 계층에 대한 간략한 정보
@@ -68,11 +68,11 @@ ms.locfileid: "50509245"
 
 ## <a name="sensitivity-labels"></a>민감도 레이블
 
-중요한 계층 및 매우 중요한 계층에서는 민감도 레이블을 사용하여 팀과 파일을 보호합니다. 이러한 계층을 구현하려면 [Microsoft Teams, Office 365 그룹 및 SharePoint 사이트에서 민감도 레이블 사용하여 콘텐츠 보호하기](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)를 활성화합니다.
+중요한 계층 및 매우 중요한 계층에서는 민감도 레이블을 사용하여 팀과 파일을 보호합니다. 이러한 계층을 구현하려면 [Microsoft Teams, Office 365 그룹 및 SharePoint 사이트에서 민감도 레이블 사용하여 콘텐츠 보호하기](../compliance/sensitivity-labels-teams-groups-sites.md)를 활성화합니다.
 
 기준 계층에는 민감도 레이블이 필요하지 않지만 "일반" 레이블을 만든 다음 모든 팀에 레이블을 지정하는 것이 좋습니다. 이렇게 하면 팀을 만들 때 해당 사용자가 민감도를 쉽게 확인할 수 있습니다. 중요한 또는 매우 중요한 계층을 배포하려는 경우 기준 팀과 중요하지 않은 파일에 사용할 수 있는 "일반" 레이블을 만드는 것이 좋습니다.
 
-민감도 레이블을 처음 사용하는 경우 [민감도 레이블 시작하기](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels)를 읽고 시작하는 것이 좋습니다. 
+민감도 레이블을 처음 사용하는 경우 [민감도 레이블 시작하기](../compliance/get-started-with-sensitivity-labels.md)를 읽고 시작하는 것이 좋습니다. 
 
 조직에서 민감도 레이블이 이미 배포된 경우 중요한 및 매우 중요한 계층에서 사용되는 레이블이 전반적인 레이블 전략에 어떻게 적용되는지 고려합니다. 
 
@@ -95,7 +95,7 @@ ms.locfileid: "50509245"
 
 ## <a name="guest-sharing"></a>게스트 공유
 
-조직 외부의 사용자와 공동 작업을 해야 하는 경우 최상의 공유 및 관리 환경을 위해 [Azure AD B2B와 SharePoint 및 OneDrive 통합](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)을 구성하는 것이 좋습니다.
+조직 외부의 사용자와 공동 작업을 해야 하는 경우 최상의 공유 및 관리 환경을 위해 [Azure AD B2B와 SharePoint 및 OneDrive 통합](/sharepoint/sharepoint-azureb2b-integration-preview)을 구성하는 것이 좋습니다.
 
 팀 게스트 공유 기능은 기본적으로 해제되어 있지만 Office 365 그룹(팀 구성원이 저장된 위치)과 SharePoint는 설정되어 있습니다. 기준 계층에서 팀 공유를 사용하도록 설정하고, 필요한 경우 민감도 레이블을 사용하여 중요한 계층 및 매우 중요한 계층에서 팀 공유를 해제할 수 있습니다.
 
@@ -113,7 +113,7 @@ ms.locfileid: "50509245"
 
 ## <a name="access-from-unmanaged-devices"></a>관리되지 않는 장치에서 액세스
 
-중요한 계층 및 매우 중요한 계층의 경우 민감도 레이블이 포함된 SharePoint 콘텐츠에 대한 액세스를 제한합니다. Azure AD 조건부 액세스는 위치, 위험, 장치 호환성 및 기타 요인에 따른 제한을 비롯하여 사용자가 Microsoft 365에 액세스하는 방법을 결정하는 데 사용할 수 있는 다양한 옵션을 제공합니다. [조건부 액세스란 무엇인가요?](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)를 읽는 것을 권장합니다. 또한 조직에 적합한 추가 정책을 고려하세요.
+중요한 계층 및 매우 중요한 계층의 경우 민감도 레이블이 포함된 SharePoint 콘텐츠에 대한 액세스를 제한합니다. Azure AD 조건부 액세스는 위치, 위험, 장치 호환성 및 기타 요인에 따른 제한을 비롯하여 사용자가 Microsoft 365에 액세스하는 방법을 결정하는 데 사용할 수 있는 다양한 옵션을 제공합니다. [조건부 액세스란 무엇인가요?](/azure/active-directory/conditional-access/overview)를 읽는 것을 권장합니다. 또한 조직에 적합한 추가 정책을 고려하세요.
 
 게스트에는 조직에서 관리하는 장치가 없는 경우가 많습니다. 계층에서 게스트를 허용하는 경우 게스트가 팀 및 사이트에 액세스하는 데 사용할 디바이스 유형을 고려하고 그에 따라 관리되지 않는 디바이스 정책을 설정합니다.
 
@@ -123,6 +123,6 @@ ms.locfileid: "50509245"
 
 ## <a name="see-also"></a>기타 참고 항목
 
-[Microsoft Teams의 보안 및 규정 준수](https://docs.microsoft.com/microsoftteams/security-compliance-overview)
+[Microsoft Teams의 보안 및 규정 준수](/microsoftteams/security-compliance-overview)
 
-[보안 및 준수 센터의 경고 정책](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)
+[보안 및 준수 센터의 경고 정책](../compliance/alert-policies.md)

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 유효한 직장 또는 학교 계정으로 로그인하면 사용자는 Office 365의 엔터프라이즈 수준의 개인 정보, 보안 및 규정 준수 약속을 충족하는 Microsoft 365 환경의 Cortana를 사용하여 클라우드 기반 지원 서비스를 받을 수 있습니다.
-ms.openlocfilehash: 72d7eb2e4195e3941c382d96c7e7319b94202707
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 00702724a44cd75bc68e9f7adac7170d81c080fb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454364"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914801"
 ---
 # <a name="cortana-in-microsoft-365"></a>Microsoft 365의 Cortana
 
@@ -37,7 +37,7 @@ ms.locfileid: "50454364"
 
 - 다른 Office 365 서비스와 일관되게 Cortana 엔터프라이즈 서비스는 [OST(온라인](https://www.microsoft.com/licensing/product-licensing/products)서비스 약관)에 반영된 동일한 엔터프라이즈 수준의 개인 정보, 보안 및 규정 준수 약속을 충족합니다.
 
-- 브리핑 전자 메일 및 내 전자 메일 재생과 같은 새로운 Microsoft 365 환경은 Cortana 엔터프라이즈 서비스를 사용하여 사용하도록 설정되어 있으며 이러한 약속을 완벽하게 준수합니다. 이러한 기능은 현재 전 세계(표준 다중 테넌트)에서 사용할 수 있습니다. 사용 위치를 찾는 데 대한 자세한 내용은 계정에 대한 추가 [속성 값 보기를 방문하세요.](https://docs.microsoft.com/microsoft-365/enterprise/view-user-accounts-with-microsoft-365-powershell?view=o365-worldwide#view-additional-property-values-for-accounts)
+- 브리핑 전자 메일 및 내 전자 메일 재생과 같은 새로운 Microsoft 365 환경은 Cortana 엔터프라이즈 서비스를 사용하여 사용하도록 설정되어 있으며 이러한 약속을 완벽하게 준수합니다. 이러한 기능은 현재 전 세계(표준 다중 테넌트)에서 사용할 수 있습니다. 사용 위치를 찾는 데 대한 자세한 내용은 계정에 대한 추가 [속성 값 보기를 방문하세요.](../../enterprise/view-user-accounts-with-microsoft-365-powershell.md?view=o365-worldwide#view-additional-property-values-for-accounts)
 
 - 사용자는 Windows 10의 Cortana(버전 2004 이상)를 통해 여기에 설명된 Cortana 엔터프라이즈 서비스와 별도의 라이선스 조건에 따라 iOS 및 Android용 Outlook과 같은 클라이언트 응용 프로그램에 연결할 수 있습니다. 
 
@@ -77,9 +77,9 @@ Windows 10 버전 2004 이상 버전의 Cortana는 온라인 서비스 [약관(O
 
 관리자는 Experience\AllowCortana MDM 정책을 사용하여 조직에 맞게 Windows 10에서 Cortana를 구성하거나 그룹 정책 컴퓨터 구성\관리 템플릿\Windows 구성 요소\검색\Cortana 허용을 통해 Cortana를 구성할 수 있습니다.
 
-Windows 10 버전 2004부터 Cortana는 Windows에 미리 설치된 UWP(유니버설 Windows 플랫폼) 앱으로, Microsoft Store를 통해 정기적으로 업데이트됩니다. Cortana에 대한 최신 업데이트를 받으하려면 [Microsoft Store를 통해 업데이트를 사용하도록 설정해야 합니다.](https://docs.microsoft.com/windows/configuration/stop-employees-from-using-microsoft-store)
+Windows 10 버전 2004부터 Cortana는 Windows에 미리 설치된 UWP(유니버설 Windows 플랫폼) 앱으로, Microsoft Store를 통해 정기적으로 업데이트됩니다. Cortana에 대한 최신 업데이트를 받으하려면 [Microsoft Store를 통해 업데이트를 사용하도록 설정해야 합니다.](/windows/configuration/stop-employees-from-using-microsoft-store)
 
-[Windows 10의 Cortana에 대한 자세한 내용은](https://docs.microsoft.com/windows/configuration/cortana-at-work/cortana-at-work-overview)
+[Windows 10의 Cortana에 대한 자세한 내용은](/windows/configuration/cortana-at-work/cortana-at-work-overview)
 
 ### <a name="cortana-voice-assistance-in-teams"></a>Teams의 Cortana 음성 지원
 
@@ -101,7 +101,7 @@ Cortana 음성 지원은 테넌트에 대해 기본적으로 사용하도록 설
 
 4. 디바이스에서 Cortana 음성 지원을 원하는지 여부에 따라 토글을 **설정** 또는 끄기로 전환합니다.
 
-[Teams의 Cortana 음성 지원에 대해 자세히 알아보십시오.](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
+[Teams의 Cortana 음성 지원에 대해 자세히 알아보십시오.](/microsoftteams/cortana-in-teams)
 
 ### <a name="conversational-ai-in-outlook-for-ios-with-cortana"></a>Cortana를 통해 iOS용 Outlook의 대화형 AI
 
@@ -144,13 +144,13 @@ Cortana는 작업을 완료로 표시하거나 포커스 시간을 예약하여 
 
 ### <a name="how-to-opt-out-of-briefing-email"></a>브리핑 전자 메일에서 옵트아웃하는 방법
 
-관리자는 Exchange Online에서 [PowerShell을](https://docs.microsoft.com/briefing/be-admin) 사용하여 조직에 대한 브리핑을 구성할 수 있습니다. 개인은 메시지의 발신자에서 구독 취소를 선택하여  Cortana의 브리핑 전자 메일을 옵트아웃(opt out)할 수 있습니다.
+관리자는 Exchange Online에서 [PowerShell을](/briefing/be-admin) 사용하여 조직에 대한 브리핑을 구성할 수 있습니다. 개인은 메시지의 발신자에서 구독 취소를 선택하여  Cortana의 브리핑 전자 메일을 옵트아웃(opt out)할 수 있습니다.
 
 [브리핑 전자 메일에 대해 자세히 알아보시다](https://support.microsoft.com/help/4558259)
 
 조직의 생산성을 높이기 위해 위와 같은 더 많은 환경을 계속 도입할 것입니다.
 
-[Microsoft 규정 준수 제공에 대해 자세히 알아보시다](https://docs.microsoft.com/microsoft-365/compliance/offering-home)
+[Microsoft 규정 준수 제공에 대해 자세히 알아보시다](/compliance/regulatory/offering-home)
 
 ## <a name="how-is-the-delivery-of-cortana-enterprise-services-different-from-the-delivery-of-other-cortana-features-i-may-have-previously-experienced"></a>Cortana 엔터프라이즈 서비스의 배달은 이전에 경험한 다른 Cortana 기능의 배달과 어떻게 다른가요?
 
