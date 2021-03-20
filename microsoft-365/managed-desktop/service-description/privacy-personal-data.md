@@ -12,12 +12,12 @@ ms.author: jaimeo
 ms.topic: article
 audience: Admin, ITPro
 ms.localizationpriority: normal
-ms.openlocfilehash: e98d42e79ac270e6ccce46e88e3b8ff00f8bfc0a
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 3f1a251d98be5b3a9fefa5c1f6d5d5562516d5d5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712309"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908177"
 ---
 # <a name="privacy-and-personal-data"></a>개인 정보 및 개인 데이터
 
@@ -32,7 +32,7 @@ Microsoft Managed Desktop은 프로파일링, 광고 또는 마케팅 목적으�
 Microsoft Managed Desktop은 자체적으로 해당 서비스를 제공하기 위해 데이터를 [수집하지 않습니다(IT 관리자](#it-admin-contact-information)연락처 정보 제외). 대신 Microsoft Managed Desktop은 Windows 및 Microsoft Intune과 같은 다른 원본이 이미 수집한 데이터를 다시 사용합니다. Microsoft Managed Desktop은 등록된 장치에서 이러한 서비스가 수집하는 데이터를 사용 합니다.
 
 - Microsoft Managed Desktop에서 관리하는 장치의 Windows 진단 데이터는 Microsoft의 Windows 진단 데이터 저장소로 전송됩니다.
-- Microsoft Managed [Desktop은](https://docs.microsoft.com/learn/modules/introduction-to-modern-management-in-microsoft-365/) 최신 관리를 사용하여 등록된 장치를 관리합니다. "최신 관리"의 일부로 디바이스를 테넌트의 Azure Active Directory에 등록해야 합니다.
+- Microsoft Managed [Desktop은](/learn/modules/introduction-to-modern-management-in-microsoft-365/) 최신 관리를 사용하여 등록된 장치를 관리합니다. "최신 관리"의 일부로 디바이스를 테넌트의 Azure Active Directory에 등록해야 합니다.
 - Microsoft Managed Desktop은 고도로 최적화되고 안전한 구성을 등록된 장치에 배포하기 위해 Microsoft Intune을 사용 합니다.
 - Microsoft Managed Desktop은 해당 서비스를 사용하는 고객을 위해 Microsoft Defender Advanced Thread Protection의 보안 인텔리전스 데이터를 사용 합니다.
 
@@ -92,11 +92,11 @@ Azure에서 데이터 저장소에 사용하는 지역에 대한 자세한 내�
 
 ### <a name="microsoft-intune"></a>Microsoft Intune
 
-Intune 데이터는 유럽 북부(아일랜드) 및 유럽 서부(네덜란드)와 같은 몇 가지 다른 지역에 저장할 수 있습니다. IT 관리자가 테넌트 계정을 만들고 Intune 서비스에 처음 등록할 때 데이터가 저장되는 국가를 선택하십시오. Intune에서 사용하는 데이터 센터 위치 목록은 Microsoft Intune -내 고객 데이터는 어디에 [있나요?를 참조하세요.](http://intunedatacentermap.azurewebsites.net/) Intune에서 데이터 저장소 및 사용에 대한 자세한 내용은 [Intune의 데이터 수집을 참조하세요.](https://docs.microsoft.com/intune/privacy-data-collect)
+Intune 데이터는 유럽 북부(아일랜드) 및 유럽 서부(네덜란드)와 같은 몇 가지 다른 지역에 저장할 수 있습니다. IT 관리자가 테넌트 계정을 만들고 Intune 서비스에 처음 등록할 때 데이터가 저장되는 국가를 선택하십시오. Intune에서 사용하는 데이터 센터 위치 목록은 Microsoft Intune -내 고객 데이터는 어디에 [있나요?를 참조하세요.](http://intunedatacentermap.azurewebsites.net/) Intune에서 데이터 저장소 및 사용에 대한 자세한 내용은 [Intune의 데이터 수집을 참조하세요.](/intune/privacy-data-collect)
 
 ### <a name="microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender
 
-끝점용 Microsoft Defender 데이터는 몇 가지 다른 지역에 저장할 수 있습니다. 이러한 이유로 Endpoint용 Defender는 [Microsoft Defender for Endpoint -Data storage locations에](http://intunedatacentermap.azurewebsites.net/)기술된 유럽 연합, 영국 및 미국의 Microsoft Azure 데이터 센터에서 운영됩니다. 끝점용 Defender의 데이터 저장소 및 사용에 대한 자세한 내용은 [Endpoint용 Microsoft Defender에서](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy#what-data-does-microsoft-defender-atp-collect) 수집하는 데이터를 참조하세요.
+끝점용 Microsoft Defender 데이터는 몇 가지 다른 지역에 저장할 수 있습니다. 이러한 이유로 Endpoint용 Defender는 [Microsoft Defender for Endpoint -Data storage locations에](http://intunedatacentermap.azurewebsites.net/)기술된 유럽 연합, 영국 및 미국의 Microsoft Azure 데이터 센터에서 운영됩니다. 끝점용 Defender의 데이터 저장소 및 사용에 대한 자세한 내용은 [Endpoint용 Microsoft Defender에서](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy#what-data-does-microsoft-defender-atp-collect) 수집하는 데이터를 참조하세요.
 
 ### <a name="windows-10"></a>Windows 10
 
@@ -126,7 +126,7 @@ Microsoft Managed Desktop은 프로파일링, 광고 또는 마케팅 목적으�
 
 유럽 연합 [GDPR(일반](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) 데이터 보호 규정)은 사용자(규정에서 데이터 주체로 알려진)에게 고용주 또는 다른 유형의 기관이나 조직(데이터 컨트롤러 또는 단지 컨트롤러)에 의해 수집된 개인 데이터를 관리할 수 있는 권한을 제공합니다. GDPR에서 개인 데이터는 식별되거나 식별 가능한 자연인에 관련된 모든 데이터로 매우 광범위하게 정의됩니다. GDPR은 데이터 주체에게 개인 데이터에 대한 특정 권한을 제공합니다. 이러한 권한에는 개인 데이터의 복사본을 얻거나, 수정을 요청하거나, 처리를 제한하거나, 삭제하거나, 다른 관리자에게 전달할 수 있도록 전자 형식으로 개인 데이터를 수신할 권한이 포함됩니다. 데이터 주체가 개인 데이터에 대한 작업을 수행하도록 관리자에게 공식적으로 요청하는 것을 DSR(Data Subject Request)이라고 합니다.
 
-마찬가지로 CCPA는 캘리포니아 소비자에게 GDPR의 데이터 주체 권리와 유사한 권리를 포함하여 개인 정보 삭제, 액세스 및 수신(이식성)과 같은 개인 정보 보호 권리 및 의무를 제공합니다. 또한 CCPA는 특정 공개, 행사 권한을 선택할 때 차별 방지, "판매"로 분류된 특정 데이터 전송에 대한 "옵트아웃/옵트인" 요구 사항을 제공합니다. 판매는 가치 있는 대가관계를 위하여 데이터 공유를 포함하도록 광범위하게 정의됩니다. CCPA에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa?view=o365-worldwide) 및 [캘리포니아 소비자 개인 정보 보호법 FAQ](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq?view=o365-worldwide)를 참조하세요.
+마찬가지로 CCPA는 캘리포니아 소비자에게 GDPR의 데이터 주체 권리와 유사한 권리를 포함하여 개인 정보 삭제, 액세스 및 수신(이식성)과 같은 개인 정보 보호 권리 및 의무를 제공합니다. 또한 CCPA는 특정 공개, 행사 권한을 선택할 때 차별 방지, "판매"로 분류된 특정 데이터 전송에 대한 "옵트아웃/옵트인" 요구 사항을 제공합니다. 판매는 가치 있는 대가관계를 위하여 데이터 공유를 포함하도록 광범위하게 정의됩니다. CCPA에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법](/compliance/regulatory/offering-ccpa?view=o365-worldwide) 및 [캘리포니아 소비자 개인 정보 보호법 FAQ](/compliance/regulatory/ccpa-faq?view=o365-worldwide)를 참조하세요.
 
 다음 섹션에서는 Microsoft Managed Desktop이 컨트롤러가 Microsoft Managed Desktop에서 사용하는 개인 데이터 또는 개인 정보를 찾고, 액세스하고, 이에 대해 행동하는 데 도움이 되는 방법을 설명합니다.
 
@@ -143,11 +143,11 @@ Microsoft Managed Desktop은 프로파일링, 광고 또는 마케팅 목적으�
 
 ### <a name="user-related-personal-data"></a>사용자 관련 개인 데이터
 
-이 외에도 Microsoft Managed Desktop은 개인 데이터를 자체적으로 수집하지 않습니다. 대신 다른 Microsoft Enterprise Online Services에서 수집한 개인 데이터를 사용하여 사용합니다. 개인 데이터를 보고 수정하고 삭제하기 위한 사용자 요청에 응답하기 위해 IT 관리자는 Microsoft Managed Desktop이 사용하는 원본으로 사용하는 서비스의 각 기능을 사용할 수 있습니다. 이러한 서비스에서 사용하는 개인 데이터를 보거나 삭제하는 데 관심이 있는 경우 [먼저 GDPR에](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure) 대한 Azure 데이터 주체 요청을 참조하세요.
+이 외에도 Microsoft Managed Desktop은 개인 데이터를 자체적으로 수집하지 않습니다. 대신 다른 Microsoft Enterprise Online Services에서 수집한 개인 데이터를 사용하여 사용합니다. 개인 데이터를 보고 수정하고 삭제하기 위한 사용자 요청에 응답하기 위해 IT 관리자는 Microsoft Managed Desktop이 사용하는 원본으로 사용하는 서비스의 각 기능을 사용할 수 있습니다. 이러한 서비스에서 사용하는 개인 데이터를 보거나 삭제하는 데 관심이 있는 경우 [먼저 GDPR에](/compliance/regulatory/gdpr-dsr-Azure) 대한 Azure 데이터 주체 요청을 참조하세요.
 
 또한 다음 지침을 사용하여 Microsoft Managed Desktop이 개인 데이터 수집에 종속된 서비스에 대해 DSRS를 행사합니다.
 
-- [Azure Active Directory](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure?view=o365-worldwide)
-- [Microsoft Intune](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-intune?view=o365-worldwide)
-- [끝점용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
-- [Windows 10](https://docs.microsoft.com/windows/privacy/windows-10-and-privacy-compliance)
+- [Azure Active Directory](/compliance/regulatory/gdpr-dsr-Azure?view=o365-worldwide)
+- [Microsoft Intune](/compliance/regulatory/gdpr-dsr-Intune?view=o365-worldwide)
+- [끝점용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+- [Windows 10](/windows/privacy/windows-10-and-privacy-compliance)

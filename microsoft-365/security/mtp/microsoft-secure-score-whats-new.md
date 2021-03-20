@@ -1,6 +1,6 @@
 ---
 title: Microsoft 보안 점수의 새로운
-description: Microsoft 365 보안 센터의 Microsoft 보안 점수에 대한 새로운 변경 내용에 대해 설명
+description: Microsoft 365 보안 센터에서 Microsoft 보안 점수에 대한 새로운 변경 내용에 대해 설명
 keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 보안 센터
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -21,20 +21,20 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 520a5627d2cd280f28c4e2c3db0e565640a1eace
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 7d24d010f7c16d6db0fd4f9e4817768529ed29d1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289164"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906749"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Microsoft 보안 점수의 새로운
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft 보안 점수가 보안 자세를 보다 잘 대표할 수 있도록 몇 가지 변경 내용을 적용해보아야 합니다. 계획된 변경에 대한 자세한 내용은 Microsoft 보안 점수의 출시 [예정을 참조하세요.](microsoft-secure-score-whats-coming.md)
+Microsoft 보안 점수가 보안 자세를 보다 잘 대표할 수 있도록 몇 가지 변경 사항을 적용해 두었다. 계획된 변경에 대한 자세한 내용은 Microsoft 보안 [점수의 출시 예정을 참조하세요.](microsoft-secure-score-whats-coming.md)
 
-Microsoft 보안 점수는 https://security.microsoft.com/securescore Microsoft [365](overview-security-center.md)보안 센터에서 찾을 수 있습니다.
+Microsoft 보안 점수는 https://security.microsoft.com/securescore Microsoft [365 보안 센터에서 찾을 수 있습니다.](overview-security-center.md)
     
 ## <a name="february-2021"></a>2021년 2월
 
@@ -54,7 +54,7 @@ Microsoft Teams 고객은 보안 점수의 새로운 개선 작업으로 "익명
 
 - '최소 암호 길이'를 '14자 이상'으로 설정
 - '암호 기록 적용'을 '24개 이상의 암호'로 설정
-- '최대 암호 사용 기간'을 '60일 이하로 설정하고 0일이 아닌'로 설정
+- '최대 암호 사용 기간'을 '60일 이하'로 설정하고 0일은 설정하지 않습니다.
 - '최소 암호 사용'을 '1일 이상'으로 설정
 - 기본 제공 관리자 계정을 사용하지 않도록 설정
 - 기본 제공 게스트 계정을 사용하지 않도록 설정
@@ -63,19 +63,19 @@ Microsoft Teams 고객은 보안 점수의 새로운 개선 작업으로 "익명
 
 ### <a name="removed-the-ability-to-create-servicenow-tickets-through-secure-score"></a>보안 점수를 통해 ServiceNow 티켓을 만드는 기능을 제거했습니다. 
 
-Share > **ServiceNow로** 진행하여 보안 점수를 통해 ServiceNow 티켓을 만드는 기능을 더 이상 사용할 수 없습니다. 다음 단계를 결정하는 동안 여러분의 피드백에 감사하고 지원을 계속해주신 것을 환영합니다.
+Share > **ServiceNow로** 진행하여 보안 점수를 통해 ServiceNow 티켓을 만드는 기능을 더 이상 사용할 수 없습니다. 다음 단계를 결정하는 동안 피드백을 보내주시고 지원을 계속해 주셔서 감사합니다.
 
 ### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>끝점용 Microsoft Defender(이전의 Microsoft Defender ATP)에 대한 세 가지 서비스 관련 개선 작업이 추가되었습니다.
 
 - Windows 서비스에 대한 인용되지 않은 서비스 경로 수정
-- 서비스 실행 경로를 공통으로 보호된 위치로 변경
-- Windows 레지스트리에서 캐시된 암호를 방지하려면 서비스 계정 변경
+- 서비스 실행 경로를 일반적인 보호된 위치로 변경
+- Windows 레지스트리에서 캐시된 암호를 방지하는 서비스 계정 변경
 
 ## <a name="october-2020"></a>2020년 10월
 
 ### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender와 관련된 개선 작업 제거
 
-- 경고할 Microsoft Defender SmartScreen Windows 스토어 앱 웹 콘텐츠 검사 설정
+- 경고를 표시하기 위해 Microsoft Defender SmartScreen Windows 스토어 앱 웹 콘텐츠 확인 설정
 
 ## <a name="august-2020"></a>2020년 8월
 
@@ -85,29 +85,29 @@ Share > **ServiceNow로** 진행하여 보안 점수를 통해 ServiceNow 티켓
 
 ## <a name="incompatibility-with-identity-secure-score"></a>ID 보안 점수와 비호화
 
-Microsoft 보안 점수의 최근 릴리스에서는 향상된 점수 모델이 릴리스되었습니다. 이러한 변경을 통해 보안 자세를 보다 유연하고 정확하게 볼 수 있습니다. 그러나 이러한 업데이트로 Microsoft 보안 점수가 ID 보안 점수와 일시적으로 양자화되지 않습니다.
+Microsoft 보안 점수의 최근 릴리스에서는 향상된 점수 모델이 릴리스되었습니다. 이러한 변경을 통해 보안 자세를 보다 유연하고 정확하게 볼 수 있습니다. 그러나 이러한 업데이트로 Microsoft 보안 점수가 ID 보안 점수와 일시적으로 양호하지 않습니다.
 
-ID 보안 점수는 새로운 점수 모델을 채택합니다. 그 때까지 고객은 Microsoft 보안 점수와 ID 보안 점수에서 보고한 점수의 차이를 확인할 수 있습니다. 이로 인해 불편을 드려 죄송합니다. 또한 향후 이러한 환경이 더욱 호환될 수 있도록 지원하기 위해 작업 중입니다.
+시간이 지난 후 ID 보안 점수는 새로운 점수 매기기 모델을 채택합니다. 그 때까지 고객은 Microsoft 보안 점수와 ID 보안 점수에서 보고한 점수의 차이를 확인할 수 있습니다. 이로 인해 불편을 드려 죄송합니다. 이러한 환경이 향후에 더 호환될 수 있도록 보장하기 위해 작업 중입니다.
 
 ## <a name="updated-improvement-actions"></a>개선 작업 업데이트
 
 - Azure Active Directory 개선 작업 추가
 - ID 개선 작업에 대한 Microsoft Defender 추가
-- Endpoint Threat 및 취약성 [& 보안](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) 권장 사항에 대한 Microsoft Defender 지원
-    - TVM에서 제공하는 모든 릴리스된 보안 권장 사항을 이제 사용할 수 있습니다.
+- Endpoint Threat 및 & 관리 보안 권장 사항에 대한 Microsoft [Defender](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) 지원
+    - 이제 TVM에서 제공하는 모든 릴리스된 보안 권장 사항을 사용할 수 있습니다.
 
-## <a name="updated-interface-and-functionality"></a>업데이트된 인터페이스 및 기능
+## <a name="updated-interface-and-functionality"></a>인터페이스 및 기능 업데이트
 
-* CISO 및 잠재 고객 수준 토론에 대한 모든 새로운 메트릭 및 추세 보기
+* CISO 및 주도 수준 토론에 대한 모든 새로운 메트릭 및 추세 보기
 * 점수를 추적하고 벤치마크하는 새로운 방법
 * 점수 회귀에 대한 더 나은 추적 및 이해
 * 개선 작업 필터링, 태그, 검색 및 그룹화
 * 점수 투영 및 계획된 작업을 사용하여 향후 목표에 대한 관리
-* 그리고 더 많이 있습니다!
+* 그리고 더 많은!
 
 ## <a name="we-want-to-hear-from-you"></a>의견을 보내 주세요.
 
-문제가 있는 경우 보안, 개인 정보 보호 및 규정 준수 커뮤니티에 게시하여 [& 알려주세요.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티를 모니터링하고 있으며 도움을 제공할 것입니다.
+문제가 있는 경우 보안, 개인 정보 보호 및 규정 준수 커뮤니티에 게시하여 & [알려주세요.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티를 모니터링하고 있으며 도움을 제공할 것입니다.
 
 ## <a name="related-resources"></a>관련 리소스
 

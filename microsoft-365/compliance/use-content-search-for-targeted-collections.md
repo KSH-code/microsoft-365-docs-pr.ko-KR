@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 ms.custom: seo-marvel-apr2020
 description: Microsoft 365 규정 준수 센터의 콘텐츠 검색을 사용하여 항목을 특정 사서함 또는 사이트 폴더에 배치하는 대상 컬렉션을 수행할 수 있습니다.
-ms.openlocfilehash: 9c549b3ae418d13b6e1aafbf0cc171c52f89e621
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 376adfd1bec20d3b1ec11dac5e775eb386ea6317
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423459"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907700"
 ---
 # <a name="use-content-search-for-targeted-collections"></a>대상 지정 컬렉션을 위해 콘텐츠 검색 사용
 
@@ -37,9 +37,9 @@ Microsoft 365 규정 준수 센터의 콘텐츠 검색 기능은 UI에서 Exchan
 
 - 1단계에서 스크립트를 실행하기 위해 Security & Compliance Center에서 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
 
-    또한 Exchange Online 조직에서 Mail Recipients 역할을 할당해야 합니다. 스크립트에 포함된 **Get-MailboxFolderStatistics** cmdlet을 실행하려면 이 작업을 실행해야 합니다. 기본적으로 Mail Recipients 역할은 Exchange Online의 조직 관리 및 받는 사람 관리 역할 그룹에 할당됩니다. Exchange Online에서 사용 권한을 할당하는 데 대한 자세한 내용은 역할 그룹 구성원 [관리를 참조하세요.](https://go.microsoft.com/fwlink/p/?linkid=692102) 사용자 지정 역할 그룹을 만들고 Mail Recipients 역할을 할당한 다음 1단계에서 스크립트를 실행해야 하는 구성원을 추가할 수도 있습니다. 자세한 내용은 [역할 그룹 관리](https://go.microsoft.com/fwlink/p/?linkid=730688) 항목을 참조하십시오.
+    또한 Exchange Online 조직에서 Mail Recipients 역할을 할당해야 합니다. 스크립트에 포함된 **Get-MailboxFolderStatistics** cmdlet을 실행하려면 이 작업을 실행해야 합니다. 기본적으로 Mail Recipients 역할은 Exchange Online의 조직 관리 및 받는 사람 관리 역할 그룹에 할당됩니다. Exchange Online에서 사용 권한을 할당하는 데 대한 자세한 내용은 역할 그룹 구성원 [관리를 참조하세요.](/exchange/manage-role-group-members-exchange-2013-help) 사용자 지정 역할 그룹을 만들고 Mail Recipients 역할을 할당한 다음 1단계에서 스크립트를 실행해야 하는 구성원을 추가할 수도 있습니다. 자세한 내용은 [역할 그룹 관리](/Exchange/permissions-exo/role-groups) 항목을 참조하십시오.
 
-- 이 문서의 스크립트는 최신 인증을 지원합니다. Microsoft 365 또는 Microsoft 365 GCC 조직인 경우 스크립트를 있는 것으로 사용할 수 있습니다. Office 365 Germany 조직, Microsoft 365 GCC High 조직 또는 Microsoft 365 DoD 조직인 경우 스크립트를 편집하여 성공적으로 실행해야 합니다. 특히 줄을 편집하고 `Connect-ExchangeOnline` *ExchangeEnvironmentName* 매개 변수 및 조직 유형에 적합한 값을 사용하여 Exchange Online PowerShell에 연결해야 합니다.  또한 줄을 편집하고 `Connect-IPPSSession` *ConnectionUri* 및 *AzureADAuthorizationEndpointUri* 매개 변수 및 조직 유형에 적합한 값을 사용하여 보안 & PowerShell에 연결해야 합니다. 자세한 내용은 Exchange Online [PowerShell에](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?#connect-to-exchange-online-powershell-without-using-mfa) 연결 및 보안 및 준수 센터 [PowerShell에 & 예제를 참조하세요.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa)
+- 이 문서의 스크립트는 최신 인증을 지원합니다. Microsoft 365 또는 Microsoft 365 GCC 조직인 경우 스크립트를 있는 것으로 사용할 수 있습니다. Office 365 Germany 조직, Microsoft 365 GCC High 조직 또는 Microsoft 365 DoD 조직인 경우 스크립트를 편집하여 성공적으로 실행해야 합니다. 특히 줄을 편집하고 `Connect-ExchangeOnline` *ExchangeEnvironmentName* 매개 변수 및 조직 유형에 적합한 값을 사용하여 Exchange Online PowerShell에 연결해야 합니다.  또한 줄을 편집하고 `Connect-IPPSSession` *ConnectionUri* 및 *AzureADAuthorizationEndpointUri* 매개 변수 및 조직 유형에 적합한 값을 사용하여 보안 & PowerShell에 연결해야 합니다. 자세한 내용은 Exchange Online [PowerShell에](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-without-using-mfa) 연결 및 보안 및 준수 센터 [PowerShell에 & 예제를 참조하세요.](/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa)
 
 - 스크립트를 실행할 때마다 새 원격 PowerShell 세션이 만들어집니다. 즉, 사용 가능한 모든 원격 PowerShell 세션을 사용할 수 있습니다. 이러한 문제가 발생하지 않도록 방지하기 위해 다음 명령을 실행하여 활성 원격 PowerShell 세션 연결을 끊습니다.
 
@@ -47,7 +47,7 @@ Microsoft 365 규정 준수 센터의 콘텐츠 검색 기능은 UI에서 Exchan
   Get-PSSession | Remove-PSSession
   ```
 
-    자세한 내용은 [원격 PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+    자세한 내용은 [원격 PowerShell을 사용하여 Exchange Online에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
 - 스크립트에는 최소한의 오류 처리가 포함됩니다. 이 스크립트의 기본 목적은 콘텐츠 검색의 검색 쿼리 구문에서 대상 컬렉션을 수행하기 위해 사용할 수 있는 사서함 폴더의 ID 또는 사이트 경로 목록을 빠르게 표시하는 것입니다.
 

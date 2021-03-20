@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 81190961-5454-4a5c-8b0e-6ae75b9fb035
 description: '요약: 사이트 간 VPN 연결을 사용하여 Office Server 작업용 프레미스 간 Azure Virtual Network를 구성하는 방법을 알아봅니다.'
-ms.openlocfilehash: cddb9cfcff02f91ef76f989b87e9dda049cc1b08
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 00fd1c2246e9e9ac3eb55ca5ece9d84ecf49a1d3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46696308"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907711"
 ---
 # <a name="connect-an-on-premises-network-to-a-microsoft-azure-virtual-network"></a>온-프레미스 네트워크를 Microsoft Azure Virtual Network에 연결
 
 프레미스 간 Azure Virtual Network가 온-프레미스 네트워크에 연결되어 Azure 인프라 서비스에서 호스트되는 서브넷 및 가상 시스템을 포함하도록 네트워크를 확장합니다. 이 연결을 통해 온-프레미스 네트워크의 컴퓨터는 Azure의 가상 시스템에 직접 액세스할 수 있으며 그 반대의 경우도 가능합니다. 
 
-예를 들어 Azure Virtual Machine에서 실행되는 디렉터리 동기화 서버는 계정에 대한 변경 내용을 해당 도메인 컨트롤러에 쿼리하고 이러한 변경 내용을 Microsoft 365 구독과 동기화해야 합니다. 이 문서에서는 Azure Virtual Machines를 호스트할 준비가 된 사이트 간 VPN(가상 사설망) 연결을 사용하여 프레미스 간 Azure Virtual Network를 설정하는 방법을 보여줍니다.
+예를 들어 Azure Virtual Machine에서 실행되는 디렉터리 동기화 서버는 계정 변경을 위해 사내 도메인 컨트롤러를 쿼리하고 이러한 변경 내용을 Microsoft 365 구독과 동기화해야 합니다. 이 문서에서는 Azure Virtual Machines를 호스트할 준비가 된 사이트 간 VPN(가상 사설망) 연결을 사용하여 프레미스 간 Azure Virtual Network를 설정하는 방법을 보여줍니다.
 
 ## <a name="configure-a-cross-premises-azure-virtual-network"></a>프레미스 간 Azure Virtual Network 구성
 
@@ -70,7 +70,7 @@ Azure Virtual Network와 온-프레미스 네트워크 간에 VPN 연결을 설�
     
 - 가상 네트워크 및 서브넷에 할당할 수 있는 개인 IPv4 주소 공간. 이 주소 공간에는 현재와 미래에 필요한 가상 컴퓨터 수를 수용할만한 충분한 공간이 있어야 합니다.
     
-- 온-프레미스 네트워크에서 사용할 수 있는 VPN 장치. 이 장치로 IPsec의 요구 사항을 지원하는 사이트 간 VPN 연결을 종료할 수 있습니다. 자세한 내용은 [사이트 간 가상 네트워크 연결용 VPN 장치 정보](https://go.microsoft.com/fwlink/p/?LinkId=393093)를 참조하세요.
+- 온-프레미스 네트워크에서 사용할 수 있는 VPN 장치. 이 장치로 IPsec의 요구 사항을 지원하는 사이트 간 VPN 연결을 종료할 수 있습니다. 자세한 내용은 [사이트 간 가상 네트워크 연결용 VPN 장치 정보](/azure/vpn-gateway/vpn-gateway-about-vpn-devices)를 참조하세요.
     
 - 라우팅 인프라에 대한 변경 내용. Azure Virtual Network의 주소 공간으로 라우팅된 트래픽이 사이트 간 VPN 연결을 호스트하는 VPN 장치로 전달되도록 라우팅 인프라를 변경해야 합니다.
     
@@ -128,11 +128,11 @@ Azure Virtual Network의 개인 IP 주소 공간은 가상 네트워크를 호�
   
 |**필요한 가상 컴퓨터의 수**|**필요한 호스트 비트 수**|**서브넷 크기**|
 |:-----|:-----|:-----|
-|1-3  <br/> |3  <br/> |/29  <br/> |
-|4-11  <br/> |4  <br/> |/28  <br/> |
-|12-27  <br/> |5  <br/> |/27  <br/> |
-|28-59  <br/> |6  <br/> |/26  <br/> |
-|60-123  <br/> |7  <br/> |/25  <br/> |
+|1-3  <br/> |3   <br/> |/29  <br/> |
+|4-11  <br/> |4   <br/> |/28  <br/> |
+|12-27  <br/> |5   <br/> |/27  <br/> |
+|28-59  <br/> |6   <br/> |/26  <br/> |
+|60-123  <br/> |7   <br/> |/25  <br/> |
    
 ### <a name="planning-worksheet-for-configuring-your-azure-virtual-network"></a>Azure Virtual Network 구성용 계획 워크시트
 <a name="worksheet"> </a>
@@ -153,7 +153,7 @@ Azure 가상 네트워크를 만들어서 가상 컴퓨터를 호스트하기 �
    
 이 솔루션의 서브넷에 대해서는 테이블 S를 채웁니다.
   
-- 첫 서브넷의 경우 Azure 게이트웨이 서브넷의 28비트 주소 공간(/28 접두사 길이)을 결정합니다. 이 주소 공간을 확인하는 방법의 정보는 [Azure Virtual Network용 게이트웨이 서브넷 주소 공간 계산](https://blogs.technet.microsoft.com/solutions_advisory_board/2016/12/01/calculating-the-gateway-subnet-address-space-for-azure-virtual-networks/)을 참조하세요.
+- 첫 서브넷의 경우 Azure 게이트웨이 서브넷의 28비트 주소 공간(/28 접두사 길이)을 결정합니다. 이 주소 공간을 확인하는 방법의 정보는 [Azure Virtual Network용 게이트웨이 서브넷 주소 공간 계산](/archive/blogs/solutions_advisory_board/calculating-the-gateway-subnet-address-space-for-azure-virtual-networks)을 참조하세요.
     
 - 두 번째 서브넷의 경우 식별 이름, 가상 네트워크 주소 공간을 기준으로 하는 단일 IP 주소 공간 및 설명이 포함된 용도를 지정합니다.
     
@@ -210,7 +210,7 @@ IT 부서에서 가상 네트워크 주소 공간의 이러한 주소 공간을 
 ### <a name="phase-2-create-the-cross-premises-virtual-network-in-azure"></a>2단계: Azure에 프레미스 간 가상 네트워크 만들기
 <a name="Phase2"></a>
 
-먼저 Azure PowerShell 프롬프트를 엽니다. Azure PowerShell을 설치하지 않은 경우 [Azure PowerShell 시작하기](https://docs.microsoft.com/powershell/azure/get-started-azureps)를 참조하세요.
+먼저 Azure PowerShell 프롬프트를 엽니다. Azure PowerShell을 설치하지 않은 경우 [Azure PowerShell 시작하기](/powershell/azure/get-started-azureps)를 참조하세요.
 
  
 그런 다음 이 명령을 사용하여 Azure 계정에 로그인합니다.
@@ -306,7 +306,7 @@ $vnetConnection=New-AzVirtualNetworkGatewayConnection -Name $vnetConnectionName 
   
 ![이제 Virtual Network에 게이트웨이가 있습니다.](../media/82dd66b2-a4b7-48f6-a89b-cfdd94630980.png)
   
-계속해서 Azure VPN 게이트웨이에 연결할 온-프레미스 VPN 장치를 구성합니다. 자세한 내용은 [사이트 간 Azure Virtual Network 연결용 VPN 장치 정보](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices)를 참조하세요.
+계속해서 Azure VPN 게이트웨이에 연결할 온-프레미스 VPN 장치를 구성합니다. 자세한 내용은 [사이트 간 Azure Virtual Network 연결용 VPN 장치 정보](/azure/vpn-gateway/vpn-gateway-about-vpn-devices)를 참조하세요.
   
 VPN 장치를 구성하려면 다음 항목이 필요합니다.
   

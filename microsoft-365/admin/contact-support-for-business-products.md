@@ -22,12 +22,12 @@ search.appverid:
 description: 해당 국가 또는 지역 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하여 기술 및 청구 지원을 받습니다.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 7679539e64588827b6dcc20f6f98bc67e613aae6
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: aa843f0c81f38e53b525b6e56d7f3fa69696de79
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261338"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907041"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>비즈니스용 제품에 대한 고객 지원 센터 문의 방법 - 관리자 도움말
 
@@ -36,7 +36,7 @@ ms.locfileid: "50261338"
 > [!IMPORTANT]
 > 이러한 지원 방법을 사용하려면 비즈니스 구독의 관리자여야 합니다. 비즈니스 관리자가 아닌 경우 [이 지원 페이지](https://support.microsoft.com/contactus)를 사용하세요.
 
-[서비스의 현재 상태를 봅니다](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)로 시작하기. <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">서비스 상태 대시보드</a>에서 현재와 과거의 문제에 대한 자세한 정보를 볼 수 있습니다. 목록에 없는 문제가 발생하는 경우 다음 방법 중 하나로 지원을 받을 수 있습니다.
+[서비스의 현재 상태를 봅니다](../enterprise/view-service-health.md)로 시작하기. <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">서비스 상태 대시보드</a>에서 현재와 과거의 문제에 대한 자세한 정보를 볼 수 있습니다. 목록에 없는 문제가 발생하는 경우 다음 방법 중 하나로 지원을 받을 수 있습니다.
 
 ## <a name="online-support"></a>온라인 지원
 
@@ -214,7 +214,7 @@ Office 365를 사용할 경우 서로 다른 기능을 수행하는 다양한 �
 
 ## <a name="feature-availability"></a>기능 가용성
 
-Office 365 계획 간의 기능 가용성을 확인하려면 [Office 365 서비스 설명](https://go.microsoft.com/fwlink/p/?linkid=846911)을 참조하세요.
+Office 365 계획 간의 기능 가용성을 확인하려면 [Office 365 서비스 설명](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)을 참조하세요.
 
 ## <a name="follow-us-on-wechat"></a>WeChat에서 팔로우:
 

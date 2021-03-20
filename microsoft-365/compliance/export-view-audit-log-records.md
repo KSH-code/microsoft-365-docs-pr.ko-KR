@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 Microsoft 365 감사 로그 레코드를 내보내고 구성하고 보는 방법을 배우게 됩니다.
-ms.openlocfilehash: a7f731bb30ffdddfe7898ee4051060b8e22c093e
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 4cea867b46d3bda7d3b3a8cd38f3d01938da8764
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454669"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906870"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>감사 로그 레코드 내보내기, 구성 및 보기
 
@@ -104,7 +104,7 @@ ms.locfileid: "50454669"
 
 ## <a name="use-powershell-to-search-and-export-audit-log-records"></a>PowerShell을 사용하여 감사 로그 레코드 검색 및 내보내기
 
-보안 & 준수 센터의 감사 로그 검색 도구를 사용하는 대신 Exchange Online PowerShell에서 [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) cmdlet을 사용하여 감사 로그 검색 결과를 CSV 파일로 내보낼 수 있습니다. 그런 다음 2단계에 설명된 절차에 따라 Power Query 편집기를 사용하여 감사 로그의 형식을 지정합니다. PowerShell cmdlet을 사용할 때의 한 가지 이점은 *RecordType* 매개 변수를 사용하여 특정 서비스에서 이벤트를 검색할 수 있는 것입니다. 다음은 PowerShell을 사용하여 감사 레코드를 CSV 파일로 내보내는 몇 가지 예로, Power Query 편집기를 사용하여 2단계에 설명된 바와 같이 **AuditData** 열의 JSON 개체를 변환할 수 있습니다.
+보안 & 준수 센터의 감사 로그 검색 도구를 사용하는 대신 Exchange Online PowerShell에서 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) cmdlet을 사용하여 감사 로그 검색 결과를 CSV 파일로 내보낼 수 있습니다. 그런 다음 2단계에 설명된 절차에 따라 Power Query 편집기를 사용하여 감사 로그의 형식을 지정합니다. PowerShell cmdlet을 사용할 때의 한 가지 이점은 *RecordType* 매개 변수를 사용하여 특정 서비스에서 이벤트를 검색할 수 있는 것입니다. 다음은 PowerShell을 사용하여 감사 레코드를 CSV 파일로 내보내는 몇 가지 예로, Power Query 편집기를 사용하여 2단계에 설명된 바와 같이 **AuditData** 열의 JSON 개체를 변환할 수 있습니다.
 
 이 예제에서는 다음 명령을 실행하여 SharePoint 공유 작업과 관련된 모든 레코드를 반환합니다.
 
@@ -118,7 +118,7 @@ $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | 
 
 검색 결과는 CreationDate, UserIds, RecordType, AuditData의 네 개의 열을 포함하는 *PowerShellAuditlog라는* CSV 파일로 내보낼 수 있습니다.
 
-레코드 형식의 이름 또는 열어 값도 *RecordType* 매개 변수의 값으로 사용할 수 있습니다. 레코드 유형 이름 및 해당 열문 값 목록은 Office 365 관리 활동 API schema의 *AuditLogRecordType* [테이블을 참조하세요.](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#enum-auditlogrecordtype---type-edmint32)
+레코드 형식의 이름 또는 열어 값도 *RecordType* 매개 변수의 값으로 사용할 수 있습니다. 레코드 유형 이름 및 해당 열문 값 목록은 Office 365 관리 활동 API schema의 *AuditLogRecordType* [테이블을 참조하세요.](/office/office-365-management-api/office-365-management-activity-api-schema#enum-auditlogrecordtype---type-edmint32)
 
 *RecordType* 매개 변수에는 단일 값만 포함할 수 있습니다. 다른 레코드 유형에 대한 감사 레코드를 검색하기 위해 이전의 두 명령을 다시 실행하여 다른 레코드 유형을 지정하고 원본 CSV 파일에 해당 결과를 추가해야 합니다. 예를 들어 다음 두 명령을 실행하여 동일한 날짜 범위의 SharePoint 파일 활동을 PowerShellAuditlog.csv 있습니다.
 

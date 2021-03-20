@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 626bc9950512438bfa43e6500adf72940ddcbfec
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: bdad55a98dba868d45ecea383ba379108ee5305a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727568"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906761"
 ---
 # <a name="redirecting-accounts-from-microsoft-defender-for-endpoint-to-the-microsoft-365-security-center"></a>끝점용 Microsoft Defender에서 Microsoft 365 보안 센터로 계정 리디렉션
 
@@ -42,10 +42,10 @@ SIEM 및 XDR(Extended detection and response)을 통해 위협 방지에 대한 
 이 가이드에서는 이전의 Microsoft Defender for Endpoint 포털(securitycenter.windows.com 또는 securitycenter.microsoft.com)에서 Microsoft 365 보안 센터 포털(security.microsoft.com)으로 자동 리디렉션을 사용하도록 설정하여 계정을 Microsoft 365 보안 센터로 라우팅하는 방법을 설명합니다.
 
 > [!NOTE]
-> Microsoft 365 보안 센터의 끝점용 Microsoft [Defender는 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/mtp/mssp-access)보안 센터에서 액세스 권한을 부여하는 방법과 동일한 방식으로 관리되는 보안 서비스 공급자(MSSP)에 대한 액세스 권한을 부여할 수 있도록 지원합니다. [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access)
+> Microsoft 365 보안 센터의 끝점용 Microsoft [Defender는 Microsoft Defender](./mssp-access.md)보안 센터에서 액세스 권한을 부여하는 방법과 동일한 방식으로 관리되는 보안 서비스 공급자(MSSP)에 대한 액세스 권한을 부여할 수 있도록 지원합니다. [](/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access)
 
 ## <a name="what-to-expect"></a>예상할 일
-자동 리디렉션을 사용하도록 설정하면 securitycenter.windows.com 또는 securitycenter.microsoft.com에서 이전 Microsoft Defender for Endpoint 포털에 액세스하는 계정은 microsoft 365 보안 센터 포털의 security.microsoft.com.
+자동 리디렉션을 사용하도록 설정하면 securitycenter.windows.com 또는 securitycenter.microsoft.com 에서 이전 Microsoft Defender for Endpoint 포털에 액세스하는 계정은 microsoft 365 보안 센터 포털의 security.microsoft.com.
  
 변경된 내용을 자세히 알아보시고, Microsoft 365 보안 센터의 [끝점용 Microsoft Defender를 자세히 알아보실 수 있습니다.](microsoft-365-security-center-mde.md)
 

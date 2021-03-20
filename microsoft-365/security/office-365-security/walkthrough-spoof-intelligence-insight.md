@@ -19,12 +19,12 @@ description: 관리자는 스푸핑 인텔리전스 정보의 작동 방법을 �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8ca40e2cde08e5ea213d4c19366f038f1da19fa7
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: cc53d49401afe3a0d7871bf5f294126315aacfec
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407219"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908097"
 ---
 # <a name="walkthrough---spoof-intelligence-insight-in-microsoft-defender-for-office-365"></a>Walkthrough - Spoof intelligence insight in Microsoft Defender for Office 365
 
@@ -43,7 +43,7 @@ Office 365용 Defender가 있는 Microsoft 365 조직에서는 스푸핑 인텔�
 이 Walkthrough is one of several for the Security & Compliance Center. 보고서 및 인사이트를 진행하는 데 대한 자세한 내용은 관련 항목 섹션의 Walkthroughs를 [참조하십시오.](#related-topics)
 
 > [!NOTE]
-> 스푸핑 인텔리전스 인사이트는 지난 7일간의 데이터를 보여줍니다. Exchange Online PowerShell의 [스푸핑](learn-about-spoof-intelligence.md) 인텔리전스 정책 및 해당 [Get-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/get-phishfilterpolicy) cmdlet은 지난 30일간의 데이터를 보여줍니다. [Get-SpoofMailReport는](https://docs.microsoft.com/powershell/module/exchange/get-spoofmailreport) 최대 90일간의 데이터를 보여줍니다.
+> 스푸핑 인텔리전스 인사이트는 지난 7일간의 데이터를 보여줍니다. Exchange Online PowerShell의 [스푸핑](learn-about-spoof-intelligence.md) 인텔리전스 정책 및 해당 [Get-PhishFilterPolicy](/powershell/module/exchange/get-phishfilterpolicy) cmdlet은 지난 30일간의 데이터를 보여줍니다. [Get-SpoofMailReport는](/powershell/module/exchange/get-spoofmailreport) 최대 90일간의 데이터를 보여줍니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
@@ -130,6 +130,6 @@ Office 365용 Defender가 있는 Microsoft 365 조직에서는 스푸핑 인텔�
 
 해당 도메인/보내는 인프라 쌍의 전자 메일만 스푸핑할 수 있습니다. 스푸핑을 시도하는 gmail.com 허용되지 않습니다. 다른 도메인의 메시지는 tms.mx.com 인텔리전스를 통해 확인됩니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft 365의 스푸핑 방지 보호 기능](anti-spoofing-protection.md)

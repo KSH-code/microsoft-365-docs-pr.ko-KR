@@ -16,12 +16,12 @@ ms.collection:
 description: Office 365의 보안, EOP에서 Office 365 플랜 1 및 2로 변경, 표준(Standard) 및 엄격한(Strict) 보안 구성 등. 현재 보유 중인 항목이 무엇이고 이러한 항목을 어떻게 보호할 수 있는지 알아보세요.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e1c6e768098cd59892c2572fb52497c873aef1a3
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
-ms.translationtype: HT
+ms.openlocfilehash: f8e929fde2908ba0d436c71c2caeb1be94b1338f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711943"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907183"
 ---
 # <a name="office-365-security-overview"></a>Office 365 보안 개요
 
@@ -137,7 +137,7 @@ Office 365용 Microsoft Defender P1 및 P2에 대해 자세히 알아보려면 *
 
 - Office 365용 Microsoft Defender 플랜 1은 Microsoft 365 Business Premium에 포함되어 있습니다.
 
-- Office 365용 Microsoft Defender 플랜 1과 Office365용 Defender 플랜 2를 각각 특정 구독의 추가 기능으로 사용할 수 있습니다. 자세한 내용은 여기 제시된 또 다른 링크 [Office 365용 Microsoft Defender 플랜의 기능 가용성](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)을 참조하세요.
+- Office 365용 Microsoft Defender 플랜 1과 Office365용 Defender 플랜 2를 각각 특정 구독의 추가 기능으로 사용할 수 있습니다. 자세한 내용은 여기 제시된 또 다른 링크 [Office 365용 Microsoft Defender 플랜의 기능 가용성](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)을 참조하세요.
 
 - [안전한 문서](safe-docs.md) 기능은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스가 있는 사용자만 사용할 수 있습니다. (Office 365용 Microsoft Defender 플랜에는 미포함)
 

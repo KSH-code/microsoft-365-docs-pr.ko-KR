@@ -20,12 +20,12 @@ description: SharePoint Online에서 사용자가 업로드하는 파일의 바�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9ba3d19c6b04b93d9b1089540b7483d8b2e7246c
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: a651d198f441c26525cbfb5d7406ae350db8b79e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727502"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908085"
 ---
 # <a name="built-in-virus-protection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>SharePoint Online, OneDrive 및 Microsoft Teams의 기본 제공 바이러스 보호
 
@@ -62,7 +62,7 @@ Microsoft 365 바이러스 검색 엔진은 SharePoint Online 내에서 비동�
 
 > [!NOTE]
 >
-> 관리자는 SharePoint Online PowerShell의 [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant) cmdlet에서 *DisallowInfectedFileDownload* 매개 변수를 사용하여 바이러스 백신 경고 창에서도 사용자가 감염된 파일을 다운로드하지 못하도록 할 수 있습니다. 자세한 내용은 [SharePoint Online PowerShell을 사용하여](turn-on-atp-for-spo-odb-and-teams.md#step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files)사용자가 악성 파일을 다운로드하지 못하게 방지를 참조하세요.
+> 관리자는 SharePoint Online PowerShell의 [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant) cmdlet에서 *DisallowInfectedFileDownload* 매개 변수를 사용하여 바이러스 백신 경고 창에서도 사용자가 감염된 파일을 다운로드하지 못하도록 할 수 있습니다. 자세한 내용은 [SharePoint Online PowerShell을 사용하여](turn-on-atp-for-spo-odb-and-teams.md#step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files)사용자가 악성 파일을 다운로드하지 못하게 방지를 참조하세요.
 >
 > *DisallowInfectedFileDownload* 매개 변수를 사용하도록 설정하는 즉시 검색/차단된 파일에 대한 액세스가 사용자 및 관리자에 대해 완전히 차단됩니다.
 
@@ -76,6 +76,6 @@ OneDrive 동기화 클라이언트는 바이러스가 포함된 파일을 다운
 
 ## <a name="related-articles"></a>관련 문서
 
-[Microsoft 365의 맬웨어 및 랜섬웨어 보호](https://docs.microsoft.com/compliance/assurance/assurance-malware-and-ransomware-protection)
+[Microsoft 365의 맬웨어 및 랜섬웨어 보호](/compliance/assurance/assurance-malware-and-ransomware-protection)
 
 SharePoint Online, OneDrive 및 Microsoft Teams의 바이러스 백신에 [](protect-against-threats.md) 대한 자세한 내용은 위협으로부터 보호 및 [SharePoint, OneDrive](turn-on-atp-for-spo-odb-and-teams.md)및 Microsoft Teams에 대한 안전한 첨부 파일 켜기 를 참조하세요.

@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-jun2020
 f1.keywords: NOCSH
 description: Teams에서 보안 콘텐츠 공동 작업을 설정하여 민감도에 따라 데이터를 보호하는 방법을 알아보겠습니다.
-ms.openlocfilehash: c7881328da2ef78d043b12db29f50b961d79b2cb
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 88cb3557f1c150a9c9fd68ba362fcc9c424aa73a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423996"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906471"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Microsoft 365를 사용하여 안전한 공동 작업 설정
 
@@ -140,7 +140,7 @@ Microsoft Learn의 이러한 교육 모듈은 Teams 및 SharePoint의 공동 작
 |![Teams 공동 작업 교육 아이콘](../media/manage-team-collaboration-with-microsoft-teams.svg)|Microsoft 팀과 팀 공동 작업 관리는 microsoft 365에서 팀 공동 작업을 위한 중앙 허브인 Microsoft 팀의 기능을 소개 합니다. 팀을 사용하여 조직의 팀워크와 커뮤니케이션을 촉진하는 방법에 대해 배워보겠습니다. Office 365의 다양한 기능을 활용하는 동시에 다양한 장치 데스크톱 그리고 태블릿에서 휴대폰까지 온-프레미스와 오프-프레미스 모두에 대해 알아보겠습니다. 응용 프로그램 및 장치 전반에 걸쳐 팀이 공동 작업에 어떻게 포괄적이고 융통성있는 환경을 제공 하는지 이해하게 될 것입니다. 이 학습 경로를 통해 Microsoft 365 인증: Teams 관리자 학위 인증서 준비를 할 수 있습니다.<br><br>2시간 17분 - 학습 경로 - 5개 모듈|
 
 > [!div class="nextstepaction"]
-> [시작 >](https://docs.microsoft.com/learn/modules/m365-teams-collab-prepare-deployment/introduction/)
+> [시작 >](/learn/modules/m365-teams-collab-prepare-deployment/introduction/)
 
 #### <a name="sharepoint"></a>SharePoint
 
@@ -149,7 +149,7 @@ Microsoft Learn의 이러한 교육 모듈은 Teams 및 SharePoint의 공동 작
 |![SharePoint 교육 아이콘](../media/collaborate-with-sharepoint-in-microsoft-365.svg)|Microsoft SharePoint를 사용하여 공유 콘텐츠를 관리함으로서 SharePoint의 기능 및 특성 그리고 Microsoft 365에서 작동하는 방식에 대해 알게됩니다. 허브 사이트, 정보 보호, 보고, 모니터링을 비롯 한 다양한 유형의 SharePoint 사이트에 대해 배우게 될 것입니다. 또한 SharePoint 파일 및 폴더 공유를 활용하여 공동 작업을 최적화 하는 방법, 외부로 파일을 공유하는 방법 그리고 SharePoint 관리 센터에서 SharePoint 사이트를 관리하는 방법에 대해 배우게 될 것입니다. 이 학습 경로를 통해 Microsoft 365 인증: 팀워크 관리자 학위 인증서 준비를 할 수 있습니다.<br><br>1시간 14분 - 학습 경로 - 4개 모듈|
 
 > [!div class="nextstepaction"]
-> [시작 >](https://docs.microsoft.com/learn/modules/m365-teams-sharepoint-plan-sharepoint/introduction/)
+> [시작 >](/learn/modules/m365-teams-sharepoint-plan-sharepoint/introduction/)
 
 #### <a name="information-protection"></a>정보 보호
 
@@ -158,7 +158,7 @@ Microsoft Learn의 이러한 교육 모듈은 Teams 및 SharePoint의 공동 작
 |![Teams 정보 보호 교육 아이콘](../media/protect-enterprise-information-microsoft-365.svg)|조직의 정보를 보호하고 보안을 유지하는 것이 어느 때보다 어려워졌습니다. Microsoft 365로 엔터프라이즈 정보 보호 학습 경로는 우발적인 과도한 공유 또는 오용으로부터 중요한 정보를 보호하는 방법, 데이터를 검색하고 분류하는 방법, 민감도 레이블을 사용하여 중요한 정보를 보호하는 방법 및 중요한 정보가 손실되지 않도록 보호하기 위해 모니터링하고 분석하는 방법에 대해 설명합니다. 이 학습 경로를 통해 Microsoft 365 인증: 보안 관리자 연결 및 Microsoft 365 인증: 엔터프라이즈 관리 전문가 인증을 준비할 수 있습니다.<br><br>1 hr - 학습 경로 - 5개 모듈|
 
 > [!div class="nextstepaction"]
-> [시작 >](https://docs.microsoft.com/learn/modules/m365-security-info-overview/introduction/)
+> [시작 >](/learn/modules/m365-security-info-overview/introduction/)
 
 #### <a name="identity-and-access"></a>ID 및 액세스
 
@@ -167,7 +167,7 @@ Microsoft Learn의 이러한 교육 모듈은 Teams 및 SharePoint의 공동 작
 |![ID 및 액세스 교육 아이콘](../media/protect-identity-and-access-with-microsoft-365.svg)|ID 및 Access 학습 경로에는 최신 ID 및 액세스 기술, 인증 강화 도구 및 조직 내 ID 보호에 대한 지침이 포함되어 있습니다. Microsoft의 액세스 및 ID 기술을 사용하면 온-프레미스 또는 클라우드에 있는 조직의 ID를 보호할 수 있으며, 사용자가 어느 위치에서나 안전하게 작업하도록 할 수 있습니다. 이 학습 경로를 통해 Microsoft 365 인증: 보안 관리자 학위 및 Microsoft 365 인증: 엔터프라이즈 관리 전문가 인증서를 준비할 수 있습니다.<br><br>2시간 52분 - 학습 경로 - 6개 모듈|
 
 > [!div class="nextstepaction"]
-> [시작 >](https://docs.microsoft.com/learn/modules/m365-identity-overview/introduction/)
+> [시작 >](/learn/modules/m365-identity-overview/introduction/)
 
 ## <a name="training-for-end-users"></a>최종 사용자를 위한 교육
 
@@ -205,8 +205,8 @@ Microsoft Teams로 시장을 선도하는 Microsoft 365 생산성 서비스의 �
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 보안 설명서](https://docs.microsoft.com/microsoft-365/security)
+[Microsoft 365 보안 설명서](../security/index.yml)
 
-[Microsoft 365 규정 준수 설명서](https://docs.microsoft.com/microsoft-365/compliance)
+[Microsoft 365 규정 준수 설명서](../compliance/index.yml)
 
-[Microsoft Teams에 오신 것을 환영합니다.](https://docs.microsoft.com/MicrosoftTeams/Teams-overview)
+[Microsoft Teams에 오신 것을 환영합니다.](/MicrosoftTeams/Teams-overview)

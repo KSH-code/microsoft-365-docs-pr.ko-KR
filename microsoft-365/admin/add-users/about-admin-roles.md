@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어, 서비스 관리자는 관리 센터를 통해 지원 티켓을 열 수 있습니다.
-ms.openlocfilehash: ddea8a06af2b529a369ea045913b639b84c6f9d4
-ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
+ms.openlocfilehash: cf628ffd05cb7f5d94c932d48bd4e8ae35a47db9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49867985"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906375"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 
@@ -37,9 +37,9 @@ Microsoft 365 관리 센터를 통해 Azure AD 역할과 Microsoft Intune 역할
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-Microsoft 365 관리 센터에서 관리할 수 있는 자세한 Azure AD 역할 설명의 전체 목록을 찾고 계신가요? Azure Active Directory의 관리자 역할 권한을 확인하세요. [Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
+Microsoft 365 관리 센터에서 관리할 수 있는 자세한 Azure AD 역할 설명의 전체 목록을 찾고 계신가요? Azure Active Directory의 관리자 역할 권한을 확인하세요. [Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
 
-Microsoft 365 관리 센터에서 관리할 수 있는 자세한 Intune 역할 설명의 전체 목록을 찾고 계신가요?  [Microsoft Intune으로 RBAC(역할 기반 액세스 제어)](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control)를 확인하세요.
+Microsoft 365 관리 센터에서 관리할 수 있는 자세한 Intune 역할 설명의 전체 목록을 찾고 계신가요?  [Microsoft Intune으로 RBAC(역할 기반 액세스 제어)](/mem/intune/fundamentals/role-based-access-control)를 확인하세요.
 
 Microsoft 365 관리 센터에서 역할을 할당하는 방법에 대한 자세한 내용은 [관리자 역할 할당하기](assign-admin-roles.md)를 참조하세요.
 
@@ -67,7 +67,7 @@ Microsoft 365 관리 센터에서 **역할** 로 이동한 다음 아무 역할�
 
 ::: moniker-end
 
-조직에서 다음 역할을 할당하기만 하면 됩니다. 기본적으로 Microsoft에서는 대부분의 조직에서 사용하는 역할을 먼저 보여줍니다. 역할을 찾을 수 없는 경우 목록 맨 아래로 이동하여 **모든 범주 보기** 를 선택하세요. (역할에 연결된 cmdlet을 포함한 자세한 내용은 [Azure Active Directory에서 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)을 참조하세요.)
+조직에서 다음 역할을 할당하기만 하면 됩니다. 기본적으로 Microsoft에서는 대부분의 조직에서 사용하는 역할을 먼저 보여줍니다. 역할을 찾을 수 없는 경우 목록 맨 아래로 이동하여 **모든 범주 보기** 를 선택하세요. (역할에 연결된 cmdlet을 포함한 자세한 내용은 [Azure Active Directory에서 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)을 참조하세요.)
 
 |관리자 역할     |이 역할에는 누가 할당되어야 하나요?  |
 |---------|---------|
@@ -92,7 +92,7 @@ Microsoft 파트너와 함께 업무를 진행하는 경우에는 파트너에�
 
 - **헬프데스크 에이전트** 헬프데스크 관리자와 동일한 권한입니다.
 
-파트너가 이러한 역할을 사용자에게 할당하기 전에 파트너를 사용자 계정에 위임된 관리자로 추가해야 합니다. 이 프로세스는 공인 파트너가 시작 합니다. 파트너는 사용자가 파트너에게 위임된 관리자 역할을 수행할 권한을 부여할 것인지 묻는 전자 메일을 보냅니다. 안내 사항은 [파트너 관계 승인 또는 제거](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner)를 참조하십시오.
+파트너가 이러한 역할을 사용자에게 할당하기 전에 파트너를 사용자 계정에 위임된 관리자로 추가해야 합니다. 이 프로세스는 공인 파트너가 시작 합니다. 파트너는 사용자가 파트너에게 위임된 관리자 역할을 수행할 권한을 부여할 것인지 묻는 전자 메일을 보냅니다. 안내 사항은 [파트너 관계 승인 또는 제거](../misc/add-partner.md)를 참조하십시오.
   
 ## <a name="related-articles"></a>관련 문서
 

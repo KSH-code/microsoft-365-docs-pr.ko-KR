@@ -12,31 +12,31 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-- m365solution-ediscovery
+- m365solution-aed
 - m365initiative-compliance
-- m365initiative-scenario
+- m365solution-scenario
 search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 Advanced eDiscovery 사례를 만들고 관리하는 방법을 설명합니다. 첫 번째 단계는 사례를 만들고 Advanced eDiscovery 기능 사용을 시작하는입니다.
-ms.openlocfilehash: 0301213cf6d7e3c30b98ad5125468c6c75ed95b1
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: d0f63bca90945c3dfe13b08fa0f1d139da8a9189
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838265"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908368"
 ---
 # <a name="create-and-manage-an-advanced-ediscovery-case"></a>Advanced eDiscovery 사례 만들기 및 관리
 
 Advanced eDiscovery를 설정하고 사례를 관리할 조직의 [eDiscovery](get-started-with-advanced-ediscovery.md#step-2-assign-ediscovery-permissions) 관리자에게 사용 권한을 할당한 후 다음 단계는 사례를 만들고 관리하는 것입니다.
 
-또한 이 문서에서는 법률 조사를 위한 Advanced eDiscovery 워크플로를 관리하는 사례를 간략하게 소개합니다.
+또한 이 문서에서는 사례를 사용하여 법률 사례 또는 기타 유형의 조사를 위한 Advanced eDiscovery 워크플로를 관리하는 방법을 간략하게 소개합니다.
 
 ## <a name="create-a-case"></a>사례 만들기
 
-다음 단계를 완료하여 사례를 만들고 구성원을 추가합니다. 사례를 만드는 사용자는 자동으로 구성원으로 추가됩니다.
+다음 단계를 완료하여 사례를 만들고 구성원을 추가합니다. 사례를 만드는 사용자는 자동으로 구성원으로 추가됩니다. 사례의 구성원은 Microsoft 365 규정 준수 센터에서 사례에 액세스하고 고급 eDiscovery 작업을 수행할 수 있습니다.
 
-1. 으로 이동한 후 eDiscovery 권한이 할당된 사용자 계정의 자격 증명을 [https://compliance.microsoft.com](https://compliance.microsoft.com) 사용하여 로그인합니다. 조직 관리 역할 그룹의 구성원은 Advanced eDiscovery 사례를 만들 수 있습니다.
+1. 으로 이동한 후 eDiscovery 권한이 할당된 사용자 계정의 자격 증명을 <https://compliance.microsoft.com> 사용하여 로그인합니다. 조직 관리 역할 그룹의 구성원은 Advanced eDiscovery 사례를 만들 수 있습니다.
 
 2. Microsoft 365 규정 준수 센터의 왼쪽 탐색 창에서 모두 표시를 클릭한 다음 **고급 에서 eDiscovery > 클릭합니다.**
 
@@ -82,7 +82,7 @@ Advanced eDiscovery 사용을 시작하기 위해 일반적인 [eDiscovery](adva
 
    - Advanced eDiscovery의 통신 워크플로를 사용하여 보유자에 법적 보류 알림을 보낼 수 있습니다. [](managing-custodian-communications.md)
 
-2. **[데이터 원본에서 관련 데이터를 수집합니다.](create-draft-collection.md)** 사례에 보호자 및 비보조 데이터 원본을 추가한 후 기본 제공 컬렉션 도구를 사용하여 이러한 데이터 원본에서 사례와 관련이 있을 수 있는 콘텐츠를 검색합니다. 키워드, 속성 및 조건을 사용하여 [](building-search-queries.md) 사례와 관련성이 가장 높은 데이터로 검색 결과를 반환하는 검색 쿼리를 작성합니다. 또한 다음을 수행할 수 있습니다.
+2. **[데이터 원본에서 관련 콘텐츠를 수집합니다.](create-draft-collection.md)** 사례에 보호자 및 비보조 데이터 원본을 추가한 후 기본 제공 컬렉션 도구를 사용하여 이러한 데이터 원본에서 사례와 관련이 있을 수 있는 콘텐츠를 검색합니다. 키워드, 속성 및 조건을 사용하여 [](building-search-queries.md) 사례와 관련성이 가장 높은 데이터로 검색 결과를 반환하는 검색 쿼리를 작성합니다. 또한 다음을 수행할 수 있습니다.
 
    - 결과 [범위를 좁히기](collection-statistics-reports.md) 위해 컬렉션을 구체화하는 데 도움이 될 수 있는 컬렉션 통계를 볼 수 있습니다.
 
@@ -107,3 +107,15 @@ Advanced eDiscovery 사용을 시작하기 위해 일반적인 [eDiscovery](adva
    - [사례 데이터를 분석합니다.](analyzing-data-in-review-set.md) Advanced eDiscovery의 분석 기능은 강력합니다. 검토 집합의 데이터에 대한 분석을 실행한 후 중복에 가까운 검색, 전자 메일 스레딩 및 검토해야 하는 문서의 양을 줄이는 데 도움이 되는 테마 등의 분석을 수행 합니다. 또한 분석 실행 결과를 요약하는 분석 보고서를 생성합니다. 앞서 설명한 것 처럼 분석을 실행하면 변호사-클라이언트 권한 검색 [모델도 실행됩니다.](attorney-privilege-detection.md#use-the-attorney-client-privilege-detection-model)
 
 5. **사례 데이터를 내보내고 다운로드합니다.** 사례 데이터를 수집, 검토 및 분석한 후의 마지막 단계는 외부 검토를 위해 고급 eDiscovery에서 내보내거나 조사 팀 외부의 사람이 검토하는 것입니다. 데이터를 내보내는 과정은 2단계 프로세스입니다. 첫 번째 단계는 [](export-documents-from-review-set.md) 검토 집합에서 데이터를 내보내고 다른 Azure Storage 위치(Microsoft에서 제공하거나 조직에서 관리하는 Azure Storage 위치)에 복사하는 것입니다. 그런 다음 Azure Storage Explorer를 사용하여 [로컬](download-export-jobs.md) 컴퓨터에 데이터를 다운로드합니다. 내보내는 데이터 파일 외에 내보내기 패키지의 포함에는 내보내기 보고서, 요약 보고서 및 오류 보고서도 포함되어 있습니다.
+
+## <a name="advanced-ediscovery-architecture"></a>고급 eDiscovery 아키텍처
+
+다음은 단일 위치 환경 및 다중 위치 환경의 Advanced eDiscovery 종단식 워크플로와 전자 검색 참조 모델과 정렬된 종단-종단 데이터 흐름을 보여 [줍니다.](overview-ediscovery-20.md#advanced-ediscovery-alignment-with-the-electronic-discovery-reference-model)
+
+[![모델 포스터: Microsoft 365의 Advanced eDiscovery 아키텍처](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
+
+[이미지로 보기](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
+
+[PDF 파일로 다운로드](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf)
+
+[Visio 파일로 다운로드](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)

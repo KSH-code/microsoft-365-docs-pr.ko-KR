@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 핵심 eDiscovery 사례와 연결된 보류를 만들어 조사와 관련이 있을 수 있는 콘텐츠를 보존할 수 있습니다.
-ms.openlocfilehash: 377a9e7a31864f177f0ccbdc4cf2789fdc1cf373
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: ca87b1b2ad35949de01622771b1ae78c5b3038e9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423469"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908342"
 ---
 # <a name="create-an-ediscovery-hold"></a>eDiscovery 보존 만들기
 
@@ -134,11 +134,11 @@ Microsoft Teams 채널의 일부인 대화는 Microsoft 팀과 연결된 사서�
 > [!IMPORTANT]
 > 클라우드 기반 조직에서는 사서함이 eDiscovery 보류 중일 때 채팅 대화를 유지하려면 Teams에서 채팅 목록에 참여하는 사용자에게 Exchange Online 사서함이 있어야 합니다. 채팅 목록의 일부인 대화는 채팅 참가자의 클라우드 기반 사서함에 저장되어 있기 때문에입니다. 채팅 참가자에 Exchange Online 사서함이 없는 경우 해당 채팅 대화를 보존할 수 없습니다. 예를 들어 Exchange 하이브리드 배포에서, 사내 사서함이 있는 사용자는 Teams의 채팅 목록에 있는 대화에 참가할 수 있습니다. 그러나 이 경우 이러한 사용자에게 보류할 수 있는 클라우드 기반 사서함이 있기 때문에 이러한 대화의 콘텐츠를 보존할 수 없습니다.
 
-Teams 콘텐츠를 보존하는 데 대한 자세한 내용은 Microsoft Teams 사용자 또는 팀을 법적 보존으로 설정 [을 참조하세요.](https://docs.microsoft.com/MicrosoftTeams/legal-hold)
+Teams 콘텐츠를 보존하는 데 대한 자세한 내용은 Microsoft Teams 사용자 또는 팀을 법적 보존으로 설정 [을 참조하세요.](/MicrosoftTeams/legal-hold)
 
 ### <a name="preserve-card-content"></a>카드 콘텐츠 보존
 
-마찬가지로 Teams 채널의 앱에서 생성한 카드 콘텐츠, 1:1 채팅 및 1:N 그룹 채팅은 사서함에 저장되고 사서함이 eDiscovery 보류 중일 때 보존됩니다. *카드* 는 짧은 내용의 UI 컨테이너입니다. 카드에는 여러 속성과 첨부 파일이 있을 수 있으며 카드 작업을 트리거하는 단추를 포함할 수 있습니다. 자세한 내용은 카드 를 [참조하세요.](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards) 다른 Teams 콘텐츠와 마찬가지로 카드 콘텐츠가 저장되는 위치는 카드가 사용된 위치를 기준으로 합니다. Teams 채널에 사용되는 카드의 내용은 Teams 그룹 사서함에 저장됩니다. 1:1 및 1xN 채팅의 카드 콘텐츠는 채팅 참가자의 우편함에 저장됩니다.
+마찬가지로 Teams 채널의 앱에서 생성한 카드 콘텐츠, 1:1 채팅 및 1:N 그룹 채팅은 사서함에 저장되고 사서함이 eDiscovery 보류 중일 때 보존됩니다. *카드* 는 짧은 내용의 UI 컨테이너입니다. 카드에는 여러 속성과 첨부 파일이 있을 수 있으며 카드 작업을 트리거하는 단추를 포함할 수 있습니다. 자세한 내용은 카드 를 [참조하세요.](/microsoftteams/platform/task-modules-and-cards/what-are-cards) 다른 Teams 콘텐츠와 마찬가지로 카드 콘텐츠가 저장되는 위치는 카드가 사용된 위치를 기준으로 합니다. Teams 채널에 사용되는 카드의 내용은 Teams 그룹 사서함에 저장됩니다. 1:1 및 1xN 채팅의 카드 콘텐츠는 채팅 참가자의 우편함에 저장됩니다.
 
 ### <a name="preserve-meeting-and-call-information"></a>모임 및 통화 정보 보존
 
@@ -163,7 +163,7 @@ Teams 및 Office 365 그룹을 eDiscovery 보류에 둘 다 배치할 때 다음
 
 - 앞서 설명했듯이 Teams 및 Office 365 그룹에 있는 콘텐츠를 보류하기 위해 그룹 또는 팀과 연결된 사서함 및 SharePoint 사이트를 지정해야 합니다.
 
-- [Exchange Online PowerShell에서](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) **Get-UnifiedGroup** cmdlet을 실행하여 Teams 및 Office 365 그룹의 속성을 볼 수 있습니다. 이는 팀 또는 Office 365 그룹과 연결된 사이트의 URL을 얻을 수 있는 좋은 방법입니다. 예를 들어 다음 명령을 실행하면 Senior Leadership Team이라는 Office 365 그룹의 선택된 속성이 표시됩니다.
+- [Exchange Online PowerShell에서](/powershell/exchange/connect-to-exchange-online-powershell) **Get-UnifiedGroup** cmdlet을 실행하여 Teams 및 Office 365 그룹의 속성을 볼 수 있습니다. 이는 팀 또는 Office 365 그룹과 연결된 사이트의 URL을 얻을 수 있는 좋은 방법입니다. 예를 들어 다음 명령을 실행하면 Senior Leadership Team이라는 Office 365 그룹의 선택된 속성이 표시됩니다.
 
     ```text
     Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl
@@ -190,10 +190,10 @@ Teams 및 Office 365 그룹을 eDiscovery 보류에 둘 다 배치할 때 다음
 
 ## <a name="preserve-content-in-onedrive-accounts"></a>OneDrive 계정의 콘텐츠 보존
 
-조직에서 비즈니스용 OneDrive 사이트의 URL 목록을 수집하여 eDiscovery 사례와 연결된 보류 또는 검색에 추가할 수 있도록 해당 URL 목록을 수집하기 위해 조직의 모든 [OneDrive](https://docs.microsoft.com/onedrive/list-onedrive-urls)위치 목록 만들기를 참조하세요. 이 문서의 스크립트는 조직의 모든 OneDrive 사이트 목록이 포함된 텍스트 파일을 만듭니다. 이 스크립트를 실행하려면 SharePoint Online 관리 셸을 설치하고 사용해야 합니다. 조직의 MySite 도메인에 대한 URL을 검색하려는 각 OneDrive 사이트 앞에 붙입니다. 이것은 모든 OneDrive 도메인을 포함하는 도메인입니다(예: `https://contoso-my.sharepoint.com`). 사용자의 OneDrive 사이트에 대한 URL의 예는 다음과 같습니다.  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
+조직에서 비즈니스용 OneDrive 사이트의 URL 목록을 수집하여 eDiscovery 사례와 연결된 보류 또는 검색에 추가할 수 있도록 해당 URL 목록을 수집하기 위해 조직의 모든 [OneDrive](/onedrive/list-onedrive-urls)위치 목록 만들기를 참조하세요. 이 문서의 스크립트는 조직의 모든 OneDrive 사이트 목록이 포함된 텍스트 파일을 만듭니다. 이 스크립트를 실행하려면 SharePoint Online 관리 셸을 설치하고 사용해야 합니다. 조직의 MySite 도메인에 대한 URL을 검색하려는 각 OneDrive 사이트 앞에 붙입니다. 이것은 모든 OneDrive 도메인을 포함하는 도메인입니다(예: `https://contoso-my.sharepoint.com`). 사용자의 OneDrive 사이트에 대한 URL의 예는 다음과 같습니다.  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
 
 > [!IMPORTANT]
-> 사용자의 OneDrive 계정의 URL에는 UPN(사용자 계정 이름)이 포함됩니다(예: `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). 드물게 개인의 UPN이 변경되는 경우 OneDrive URL도 새 UPN을 통합하기 위해 변경됩니다. 사용자의 OneDrive 계정이 eDiscovery 보류의 일부인 경우 이전 및 해당 UPN이 변경된 경우 보류를 업데이트해야 합니다. 보류를 업데이트하고 사용자의 새 OneDrive URL을 추가하고 이전 URL을 제거해야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조하세요.
+> 사용자의 OneDrive 계정의 URL에는 UPN(사용자 계정 이름)이 포함됩니다(예: `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). 드물게 개인의 UPN이 변경되는 경우 OneDrive URL도 새 UPN을 통합하기 위해 변경됩니다. 사용자의 OneDrive 계정이 eDiscovery 보류의 일부인 경우 이전 및 해당 UPN이 변경된 경우 보류를 업데이트해야 합니다. 보류를 업데이트하고 사용자의 새 OneDrive URL을 추가하고 이전 URL을 제거해야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](/onedrive/upn-changes)을 참조하세요.
 
 ## <a name="removing-content-locations-from-an-ediscovery-hold"></a>eDiscovery 보류에서 콘텐츠 위치 제거
 
@@ -231,7 +231,7 @@ Teams 및 Office 365 그룹을 eDiscovery 보류에 둘 다 배치할 때 다음
    > [!NOTE]
    > <sup>1</sup> 1,000개가 넘는 사례, 보류, 검색 또는 내보내기 목록을 표시하기 위해 해당 Office 365 보안 및 준수 powerShell cmdlet을 & 수 있습니다.
    >
-   > - [Get-ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase)
-   > - [Get-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)
-   > - [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch)
-   > - [Get-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction)
+   > - [Get-ComplianceCase](/powershell/module/exchange/get-compliancecase)
+   > - [Get-CaseHoldPolicy](/powershell/module/exchange/get-caseholdpolicy)
+   > - [Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch)
+   > - [Get-ComplianceSearchAction](/powershell/module/exchange/get-compliancesearchaction)

@@ -15,13 +15,13 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-description: 이 문서에서는 하이브리드 최신 인증과, 비즈니스용 Skype 및 Exchange 서버에서 사용하기 위한 선행 필요합니다.
-ms.openlocfilehash: b9b48f591f74bd508b20a851ec48a0d7132d6a84
-ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
+description: 이 문서에서는 하이브리드 최신 인증에 대해 알아보고, 비즈니스용 Skype 및 Exchange 서버와 함께 사용하기 위한 선행 방법을 배우게 됩니다.
+ms.openlocfilehash: 33bcf9bde2cda0388160337d3ffe6b81ab94eb12
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097107"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907531"
 ---
 # <a name="hybrid-modern-authentication-overview-and-prerequisites-for-using-it-with-on-premises-skype-for-business-and-exchange-servers"></a>하이브리드 최신 인증 개요 및 온-프레미스 비즈니스용 Skype 및 Exchange 서버에서 사용하기 위한 필수 구성 요소
 
@@ -48,7 +48,7 @@ _최신 인증_ 은 더욱 안전한 사용자 인증 및 권한 부여를 제�
 
 비즈니스용 Skype는 Exchange와 긴밀한 관련이 있으므로 비즈니스용 Skype 클라이언트 사용자에게 표시되는 로그인 동작은 Exchange의 최신 인증 상태의 영향을 받습니다. 비즈니스용 Skype _분할 도메인_ 하이브리드 아키텍처를 사용하고, 여기에 비즈니스용 Skype Online 및 비즈니스용 Skype 온-프레미스가 포함되고 사용자가 양쪽 위치한 경우에도 적용됩니다.
 
-Office 365의 최신 인증에 대한 자세한 내용은 [Office 365 클라이언트 앱](microsoft-365-client-support-multi-factor-authentication.md)지원 - 다단계 인증을 참조하세요.
+Office 365의 최신 인증에 대한 자세한 내용은 [Office 365 클라이언트](microsoft-365-client-support-multi-factor-authentication.md)앱 지원 - 다단계 인증을 참조하세요.
 
 > [!IMPORTANT]
 > 2017년 8월을 기준으로 비즈니스용 Skype Online 및 Exchange Online을 포함하는 모든 새 Office 365 테넌트는 기본적으로 최신 인증을 사용하도록 설정되어 있습니다. 기존 테넌트는 기본 MA 상태에 변경이 없지만, 모든 새 테넌트는 위에 나열된 ID 기능의 확장 세트를 자동으로 지원합니다. MA 상태를 확인하려면 [온-프레미스 환경의 최신 인증 상태 확인](hybrid-modern-auth-overview.md#BKMK_CheckStatus) 섹션을 참조하세요.
@@ -67,7 +67,7 @@ EvoSTS를 변경하면 온-프레미스 서버에서 클라이언트를 인증�
 어떤 변화가 있나요? 분할 도메인 하이브리드 상태인지 또는 비즈니스용 Skype 및 Exchange 서버 온-프레미스를 사용하는지에 상관 없이, 먼저 모든 사용자가 *온-프레미스* 를 인증해야 합니다. 최신 인증을 하이브리드 방식으로 구현하는 경우에는 _Lyncdiscovery_ 및 _Autodiscovery_ 에서 온-프레미스 서버를 가리킵니다.
 
 > [!IMPORTANT]
-> MA에서 지원되는 특정 비즈니스용 Skype 토폴로지를 알아야 하는 경우에는 [여기를 참조](https://technet.microsoft.com/library/mt803262.aspx)하세요.
+> MA에서 지원되는 특정 비즈니스용 Skype 토폴로지를 알아야 하는 경우에는 [여기를 참조](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)하세요.
 
 ## <a name="check-the-modern-authentication-status-of-your-on-premises-environment"></a>온-프레미스 환경의 최신 인증 상태를 확인합니다.
 <a name="BKMK_CheckStatus"> </a>
@@ -80,7 +80,7 @@ Get-OrganizationConfig | ft OAuth*
 
 _OAuth2ClientProfileEnabled_ 속성 값이 **False** 인 경우 최신 인증을 사용할 수 없습니다.
 
-Get-OrganizationConfig cmdlet에 대한 자세한 내용은 [Get-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/get-organizationconfig)를 참조하세요.
+Get-OrganizationConfig cmdlet에 대한 자세한 내용은 [Get-OrganizationConfig](/powershell/module/exchange/get-organizationconfig)를 참조하세요.
 
 다음 PowerShell 명령을 실행하여 비즈니스용 Skype 서버를 확인할 수 있습니다.
 
@@ -90,7 +90,7 @@ Get-CSOAuthConfiguration
 
 명령이 비어 있는 _OAuthServers_ 속성을 반환하거나 _ClientADALAuthOverride_ 속성의 값을 **허용** 하지 않는 경우 최신 인증을 사용하지 않도록 설정됩니다.
 
-Get-CsOAuthConfiguration cmdlet에 대한 자세한 내용은 [Get-CsOAuthConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csoauthconfiguration)을 참조하세요.
+Get-CsOAuthConfiguration cmdlet에 대한 자세한 내용은 [Get-CsOAuthConfiguration](/powershell/module/skype/get-csoauthconfiguration)을 참조하세요.
 
 ## <a name="do-you-meet-modern-authentication-prerequisites"></a>최신 인증 필수 구성 요소를 충족하나요?
 
@@ -108,7 +108,7 @@ Get-CsOAuthConfiguration cmdlet에 대한 자세한 내용은 [Get-CsOAuthConfig
   - 아래에 나열된 대로 최대 2 개의 서로 다른 서버 버전을 포함하여 배포.
     - 비즈니스용 Skype 서버 2015
     - 비즈니스용 Skype 서버 2019
-  - 모든 비즈니스용 Skype 서버에는 최신 누적 업데이트가 설치되어 있어야 하며, [비즈니스용 Skype 서버 업데이트](https://docs.microsoft.com/skypeforbusiness/sfb-server-updates)를 참조하여 사용 가능한 모든 업데이트를 찾고 관리하세요.
+  - 모든 비즈니스용 Skype 서버에는 최신 누적 업데이트가 설치되어 있어야 하며, [비즈니스용 Skype 서버 업데이트](/skypeforbusiness/sfb-server-updates)를 참조하여 사용 가능한 모든 업데이트를 찾고 관리하세요.
   - 하이브리드 환경에 Lync Server 2010 또는 2013이 없습니다.
 
 >[!NOTE]
@@ -136,38 +136,38 @@ Get-CsOAuthConfiguration cmdlet에 대한 자세한 내용은 [Get-CsOAuthConfig
   - Exchange 서버 2013 CU19 이상, Exchange 서버 2016 CU8 이상 또는 Exchange 서버 2019 CU1 이상을 사용하고 있습니다.
   - 환경에 Exchange 서버 2010이 없습니다.
   - SSL 오프로딩이 구성되지 않았습니다. SSL 종료 및 다시 암호화가 지원됩니다.
-  - 사용자 환경이 프록시 서버 인프라를 사용하여 서버에서 인터넷에 연결할 수 있도록 하려면 모든 Exchange 서버에서 [InternetWebProxy](https://technet.microsoft.com/library/bb123716%28v=exchg.160%29.aspx) 속성에 정의된 프록시 서버를 사용해야 합니다.
+  - 사용자 환경이 프록시 서버 인프라를 사용하여 서버에서 인터넷에 연결할 수 있도록 하려면 모든 Exchange 서버에서 [InternetWebProxy](/powershell/module/exchange/set-exchangeserver) 속성에 정의된 프록시 서버를 사용해야 합니다.
 
 - **하이브리드 Office 365 환경에서 Exchange Server 온-프레미스**
 
   - Exchange Server 2013를 사용하는 경우 하나 이상의 서버에 사서함 및 클라이언트 액세스 서버 역할이 설치되어 있어야 합니다. 사서함 및 클라이언트 액세스 역할을 별도 서버에 설치할 수도 있지만, 두 가지 역할을 동일한 서버에 모두 설치해 추가 유연성과 개선된 성능을 확보하는 것이 좋습니다.
   - Exchange 서버 2016 이상을 사용하는 경우 하나 이상의 서버에 사서함 서버 역할이 설치되어 있어야 합니다.
   - 하이브리드 환경에 Exchange 서버 2007 또는 2010이 없습니다.
-  - 모든 Exchange 서버에는 최신 누적 업데이트가 설치되어 있어야 하며, [Exchange를 최신 누적 업데이트로 업그레이드](https://docs.microsoft.com/exchange/plan-and-deploy/install-cumulative-updates)를 참조하여 사용 가능한 모든 업데이트를 찾고 관리하세요.
+  - 모든 Exchange 서버에는 최신 누적 업데이트가 설치되어 있어야 하며, [Exchange를 최신 누적 업데이트로 업그레이드](/exchange/plan-and-deploy/install-cumulative-updates)를 참조하여 사용 가능한 모든 업데이트를 찾고 관리하세요.
 
 - **Exchange 클라이언트 및 프로토콜 요구 사항**
 
     최신 인증의 가용성은 클라이언트, 프로토콜 및 구성의 조합에 따라 결정됩니다. 클라이언트, 프로토콜 및/또는 구성에서 최신 인증이 지원되지 않는 경우 클라이언트는 레거시 인증을 계속 활용합니다.
   
-    다음 클라이언트 및 프로토콜은 환경에서 최신 인증을 사용하도록 설정한 경우의 최신 인증을 지원하며,
+    다음 클라이언트 및 프로토콜은 환경에서 최신 인증을 사용할 수 있는 경우, 다음과 같은 클라이언트 및 프로토콜을 통해 사내 Exchange에서 최신 인증을 지원할 수 있습니다.
 
   |**클라이언트**|**기본 프로토콜**|**참고**|
   |:-----|:-----|:-----|
-  |Outlook 2013 이상  <br/> |HTTP를 통한 MAPI  <br/> |이러한 클라이언트와 최신 인증을 활용하려면 Exchange에서 MAPI를 통한 MAPI를 사용하도록 설정(Exchange 2013 Service Pack 1 이상의 경우 사용 또는 True). 자세한 내용을 보려면 [최신 인증이 Office 2013 및 Office 2016 클라이언트 앱에서 작동하는 방식](modern-auth-for-office-2013-and-2016.md)을 참조하세요.  <br/> Outlook의 최소 필수 빌드를 실행하고 있는지 확인합니다. [Windows Installer(MSI)를 사용하는 Outlook 버전의 최신 업데이트](https://docs.microsoft.com/officeupdates/outlook-updates-msi)를 참조하세요.  <br/> |
+  |Outlook 2013 이상  <br/> |HTTP를 통한 MAPI  <br/> |이러한 클라이언트와 최신 인증을 활용하려면 Exchange에서 MAPI를 통한 MAPI를 사용하도록 설정(Exchange 2013 Service Pack 1 이상의 경우 사용 또는 True). 자세한 내용을 보려면 [최신 인증이 Office 2013 및 Office 2016 클라이언트 앱에서 작동하는 방식](modern-auth-for-office-2013-and-2016.md)을 참조하세요.  <br/> Outlook의 최소 필수 빌드를 실행하고 있는지 확인합니다. [Windows Installer(MSI)를 사용하는 Outlook 버전의 최신 업데이트](/officeupdates/outlook-updates-msi)를 참조하세요.  <br/> |
   |Mac용 Outlook 2016 이상  <br/> |Exchange 웹 서비스  <br/> |  <br/> |
-  |iOS 및 Android용 Outlook  <br/> | Microsoft 동기화 기술 <br/> |자세한 내용은 [Android 및 iOS용 Outlook에서 하이브리드 최신 인증 사용](https://docs.microsoft.com/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth)을 참조하세요.  <br/> |
+  |iOS 및 Android용 Outlook  <br/> | Microsoft 동기화 기술 <br/> |자세한 내용은 [Android 및 iOS용 Outlook에서 하이브리드 최신 인증 사용](/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth)을 참조하세요.  <br/> |
   |Exchange ActiveSync 클라이언트(예: iOS11 메일)  <br/> |Exchange ActiveSync  <br/> |최신 인증을 지원하는 Exchange ActiveSync 클라이언트의 경우, 기본 인증에서 최신 인증으로 전환하려면 프로필을 다시 만들어야 합니다.  <br/> |
 
-    나열되지 않는 클라이언트 및/또는 프로토콜(예: POP3)은 환경에 최신 인증을 사용하도록 설정한 후에도 계속해서 레거시 인증 메커니즘을 활용하고 있습니다.
+    목록에 없는 클라이언트 및/또는 프로토콜(예: POP3)은 사내 Exchange에 대한 최신 인증을 지원하지 않습니다. 또한 환경에서 최신 인증을 사용하도록 설정한 후에도 레거시 인증 메커니즘을 계속 활용합니다.
 
 - **일반 필수 구성 요소**
-  - 리소스 포리스트 시나리오에서는 하이브리드 최신 인증 요청 중에 적절한 SID 코드 확인이 수행되도록 계정 포리스트와의 양측 트러스트가 필요합니다. 
+  - 리소스 포리스트 시나리오에서는 하이브리드 최신 인증 요청 중에 적절한 SID 코드가 수행되도록 계정 포리스트와 양측 트러스트가 필요합니다. 
   - AD FS를 사용하는 경우, 페더레이션을 위해 Windows 2012 R2 AD FS 3.0 이상이 있어야 합니다.
   - ID 구성은 암호 해시 동기화, 통과 인증 및 Office 365에서 지원되는 온-프레미스 STS와 같이 Azure AD Connect에서 지원하는 유형입니다.
   - Azure AD Connect가 구성되어 있으며 사용자 복제 및 동기화를 위해 작동하고 있습니다.
   - 온-프레미스 및 Office 365 환경 간에 Exchange 클래식 하이브리드 토폴로지 모드를 사용하여 하이브리드가 구성되었음을 확인했습니다. Exchange 하이브리드의 공식 지원 정책에는 최신 CU 또는 최신 CU - 1이 있어야 합니다.
     > [!NOTE]
-    > 하이브리드 최신 인증은 [하이브리드 에이전트](https://docs.microsoft.com/exchange/hybrid-deployment/hybrid-agent)에서 지원되지 않습니다.
+    > 하이브리드 최신 인증은 [하이브리드 에이전트](/exchange/hybrid-deployment/hybrid-agent)에서 지원되지 않습니다.
 
   - 온-프레미스 테스트 사용자를 비롯하여 Office 365의 하이브리드 테스트 사용자가 비즈니스용 Skype 데스크톱 클라이언트(Skype에 최신 인증을 사용하려는 경우) 및 Microsoft Outlook(Exchange에 최신 인증을 사용하려는 경우)에 로그인할 수 있는지 확인합니다.
 
@@ -181,6 +181,6 @@ Get-CsOAuthConfiguration cmdlet에 대한 자세한 내용은 [Get-CsOAuthConfig
 <a name="BKMK_URLListforMA"> </a>
 
 - [최신 인증을 사용하도록 Exchange Server 온-프레미스를 구성하는 방법](configure-exchange-server-for-hybrid-modern-authentication.md)
-- [최신 인증으로 지원되는 비즈니스용 Skype 토폴로지](https://technet.microsoft.com/library/mt803262.aspx)
+- [최신 인증으로 지원되는 비즈니스용 Skype 토폴로지](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
 - [최신 인증을 사용하도록 비즈니스용 Skype 온-프레미스를 구성하는 방법](configure-skype-for-business-for-hybrid-modern-authentication.md)
 - [비즈니스용 Skype 및 Exchange에서 하이브리드 최신 인증 제거 또는 사용 안 함](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)

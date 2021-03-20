@@ -21,12 +21,12 @@ ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 규정 준수 센터의 콘텐츠 검색 도구를 사용하여 서로 다른 Microsoft 365 서비스의 콘텐츠를 검색합니다.
-ms.openlocfilehash: b497c584dce02279e0d2a0e68a8f5ada415164e5
-ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
+ms.openlocfilehash: 2e9dcde65a4f2728782fd300f962dfb3e80ed3c9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49988220"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908630"
 ---
 # <a name="content-search"></a>콘텐츠 검색
 
@@ -228,9 +228,9 @@ Office 365 또는 Microsoft 365의 규정 준수 센터의 콘텐츠 검색 eDis
   
 ### <a name="searching-onedrive-accounts"></a>OneDrive 계정 검색
 
-- 조직의 OneDrive 사이트에 대한 URL 목록을 수집하려면 [조직의 모든 OneDrive 위치 목록 만들기](https://docs.microsoft.com/onedrive/list-onedrive-urls)를 참조하세요. 이 문서의 스크립트는 모든 OneDrive 사이트 목록이 포함된 텍스트 파일을 만듭니다. 이 스크립트를 실행하려면 SharePoint Online 관리 셸을 설치하고 사용해야 합니다. 조직의 MySite 도메인에 대한 URL을 검색하려는 각 OneDrive 사이트 앞에 붙입니다. 이것은 모든 OneDrive 도메인을 포함하는 도메인입니다(예: `https://contoso-my.sharepoint.com`). 사용자의 OneDrive 사이트에 대한 URL의 예는 다음과 같습니다.  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
+- 조직의 OneDrive 사이트에 대한 URL 목록을 수집하려면 [조직의 모든 OneDrive 위치 목록 만들기](/onedrive/list-onedrive-urls)를 참조하세요. 이 문서의 스크립트는 모든 OneDrive 사이트 목록이 포함된 텍스트 파일을 만듭니다. 이 스크립트를 실행하려면 SharePoint Online 관리 셸을 설치하고 사용해야 합니다. 조직의 MySite 도메인에 대한 URL을 검색하려는 각 OneDrive 사이트 앞에 붙입니다. 이것은 모든 OneDrive 도메인을 포함하는 도메인입니다(예: `https://contoso-my.sharepoint.com`). 사용자의 OneDrive 사이트에 대한 URL의 예는 다음과 같습니다.  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
     
-    드물게 사용자의 UPN(사용자 계정 이름)이 변경되는 경우 해당 OneDrive 위치의 URL이 새 UPN을 통합하도록 변경됩니다. 이 경우 사용자의 새 OneDrive URL을 추가하고 이전 항목을 제거하여 콘텐츠 검색을 수정해야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조하세요.
+    드물게 사용자의 UPN(사용자 계정 이름)이 변경되는 경우 해당 OneDrive 위치의 URL이 새 UPN을 통합하도록 변경됩니다. 이 경우 사용자의 새 OneDrive URL을 추가하고 이전 항목을 제거하여 콘텐츠 검색을 수정해야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](/onedrive/upn-changes)을 참조하세요.
   
 ### <a name="searching-microsoft-teams-and-microsoft-365-groups"></a>Microsoft Teams 및 Microsoft 365 그룹 검색
 
@@ -240,7 +240,7 @@ Microsoft Teams 및 Microsoft 365 그룹에서 콘텐츠를 검색할 때 다음
   
 - Teams 및 Microsoft 365 그룹에 있는 콘텐츠를 검색하려면 Teams 또는 그룹과 연결된 사서함과 SharePoint 사이트를 지정해야 합니다.
 
-- 개인 채널의 콘텐츠는 팀 사서함이 아닌 각 사용자의 사서함에 저장됩니다. 개인 채널에서 콘텐츠를 검색하려면 [개인 채널의 eDiscovery](https://docs.microsoft.com/microsoftteams/ediscovery-investigation#ediscovery-of-private-channels)을 참조하세요.
+- 개인 채널의 콘텐츠는 팀 사서함이 아닌 각 사용자의 사서함에 저장됩니다. 개인 채널에서 콘텐츠를 검색하려면 [개인 채널의 eDiscovery](/microsoftteams/ediscovery-investigation#ediscovery-of-private-channels)을 참조하세요.
     
 - Exchange Online에서 **Get-UnifiedGroup** cmdlet을 실행하여 팀 또는 Microsoft 365 그룹의 속성을 볼 수 있습니다. 이는 팀 또는 그룹에 연결된 사이트의 URL을 가져오는 데 적합합니다. 예를 들어, 다음 명령을 실행하면 Senior Leadership Team이라는 Microsoft 365 그룹의 선택된 속성이 표시됩니다. 
     
@@ -298,7 +298,7 @@ Microsoft Teams 및 Microsoft 365 그룹에서 콘텐츠를 검색할 때 다음
 
    자세한 내용은 [Microsoft Teams에서 통화 및 모임을 위해 eDiscovery 시작하기](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-launches-ediscovery-for-calling-and-meetings/ba-p/210947)를 참조하세요.
 
-- Teams 채널, 1:1 채팅 및 1xN 채팅의 앱에서 생성된 카드 콘텐츠는 편지함에 저장되어 검색할 수 있습니다. *카드* 는 짧은 내용의 UI 컨테이너입니다. 카드는 여러 가지 속성 및 첨부 파일을 가질 수 있으며 카드 작업을 트리거할 수 있는 단추를 포함할 수 있습니다. 자세한 내용은 [카드](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards)를 참조하세요.
+- Teams 채널, 1:1 채팅 및 1xN 채팅의 앱에서 생성된 카드 콘텐츠는 편지함에 저장되어 검색할 수 있습니다. *카드* 는 짧은 내용의 UI 컨테이너입니다. 카드는 여러 가지 속성 및 첨부 파일을 가질 수 있으며 카드 작업을 트리거할 수 있는 단추를 포함할 수 있습니다. 자세한 내용은 [카드](/microsoftteams/platform/task-modules-and-cards/what-are-cards)를 참조하세요.
 
   다른 Teams 콘텐츠와 마찬가지로 카드 콘텐츠가 저장되는 위치는 카드가 사용된 위치를 기준으로 합니다. Teams 채널에 사용되는 카드의 내용은 Teams 그룹 사서함에 저장됩니다. 1:1 및 1xN 채팅의 카드 콘텐츠는 채팅 참가자의 우편함에 저장됩니다.
 
@@ -412,14 +412,14 @@ Exchange Online 라이선스(또는 전체 Microsoft 365 라이선스)가 사용
 
 ### <a name="searching-for-content-in-a-sharepoint-multi-geo-environment"></a>SharePoint 다중 지역 환경에서 콘텐츠 검색
 
-eDiscovery 관리자가 [SharePoint 다중 지역 환경](https://go.microsoft.com/fwlink/?linkid=860840)의 여러 지역에서 SharePoint 및 OneDrive의 콘텐츠를 검색해야 하는 경우 다음과 같은 작업을 수행해야 합니다.
+eDiscovery 관리자가 [SharePoint 다중 지역 환경](../enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md)의 여러 지역에서 SharePoint 및 OneDrive의 콘텐츠를 검색해야 하는 경우 다음과 같은 작업을 수행해야 합니다.
 
 1. eDiscovery 관리자가 검색해야 하는 각 위성 지리적 위치에 대한 별도의 사용자 계정을 만듭니다. 해당 지리적 위치에 있는 사이트의 콘텐츠를 검색하려면 eDiscovery 관리자가 해당 위치에 대해 만든 계정에 로그인한 다음 콘텐츠 검색을 실행해야 합니다.
 
 2. eDiscovery 관리자가 검색해야 하는 각 위성 지리적 위치 (및 해당 사용자 계정)에 대한 검색 권한 필터를 만듭니다. 이러한 각 검색 권한 필터는 eDiscovery 관리자가 해당 위치와 연결된 사용자 계정에 로그인한 경우 콘텐츠 검색의 범위를 특정 지리적 위치로 제한합니다.
 
 > [!TIP]
-> [고급 eDiscovery](overview-ediscovery-20.md)에서 검색 도구를 사용하는 경우에는 이 전략을 사용할 필요가 없습니다. 이는 고급 eDiscovery에서 SharePoint 사이트 및 OneDrive 계정을 검색하는 경우 모든 데이터 센터가 검색되기 때문입니다. 콘텐츠 검색 도구를 사용하고 [eDiscovery 사례](ediscovery-cases.md)와 연결된 검색을 실행하는 경우에만 지역별 사용자 계정 및 검색 권한 필터를 사용해야 합니다.
+> [고급 eDiscovery](overview-ediscovery-20.md)에서 검색 도구를 사용하는 경우에는 이 전략을 사용할 필요가 없습니다. 이는 고급 eDiscovery에서 SharePoint 사이트 및 OneDrive 계정을 검색하는 경우 모든 데이터 센터가 검색되기 때문입니다. 콘텐츠 검색 도구를 사용하고 [eDiscovery 사례](./get-started-core-ediscovery.md)와 연결된 검색을 실행하는 경우에만 지역별 사용자 계정 및 검색 권한 필터를 사용해야 합니다.
 
 예를 들어 eDiscovery 관리자가 북미, 유럽 그리고 아시아 태평양에서 위성 위치에 SharePoint 및 OneDrive 콘텐츠를 검색해야 한다고 가정해 보겠습니다. 첫 번째 단계는 각 위치마다 하나씩 세 개의 사용자 계정을 만드는 것입니다. 다음 단계는 각 위치 *와* 해당 사용자 계정에 하나씩 세 개의 검색 권한 필터를 만드는 것입니다. 다음은 이 시나리오에 대한 세 가지 검색 권한 필터의 예입니다. 각 예제에서 **지역** 은 해당 지역에 대한 SharePoint 데이터 센터 위치를 지정하고 **사용자** 매개 변수는 해당 사용자 계정을 지정합니다.
 

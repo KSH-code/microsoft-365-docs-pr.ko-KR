@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Microsoft 365 끝점 데이터 손실 방지는 파일 활동의 모니터링 및 해당 파일에 대한 보호 작업을 끝점으로 확장합니다. 파일은 Microsoft 365 규정 준수 솔루션에서 확인할 수 있습니다. '
-ms.openlocfilehash: c4f0d10808d564fc0ee19510c25d33caba0471ff
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: d4a3fef03322912bf169cd195984a17d8dfe3b17
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741589"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907052"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Microsoft 365 끝점 데이터 손실 방지 알아보기
 
@@ -95,7 +95,7 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 
  [Microsoft 365 끝점 DLP 시작하기](endpoint-dlp-getting-started.md)의 절차를 사용하여 장치를 등록하세요.
 
-[엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)를 통해 장치를 온보딩한 경우, 해당 장치는 장치 목록에 자동으로 표시됩니다.
+[엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)를 통해 장치를 온보딩한 경우, 해당 장치는 장치 목록에 자동으로 표시됩니다.
 
 > [!div class="mx-imgBorder"]
 > ![관리된 장치 목록](../media/endpoint-dlp-learn-about-2-device-list.png)
@@ -163,5 +163,5 @@ Microsoft 끝점 DLP를 사용하여 Windows 10을 실행하는 장치에서 사
 - [데이터 손실 방지 개요](data-loss-prevention-policies.md)
 - [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
-- [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)
+- [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)
 - [내부자 위험 관리](insider-risk-management.md)

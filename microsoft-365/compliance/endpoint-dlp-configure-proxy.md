@@ -19,19 +19,19 @@ ms.collection:
 search.appverid:
 - MET150
 description: Endpoint DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1e723adfbf16ba1180558e34b0fe4867e6337c57
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 3b8ebdbb08a6a866cc84df2031e77378925eaa0e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841628"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907008"
 ---
 # <a name="configure-device-proxy-and-internet-connection-settings-for-endpoint-dlp"></a>끝점 DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성합니다.
 
 Microsoft Endpoint DLP는 Microsoft Windows HTTP(WinHTTP)를 사용하여 데이터를 보고하고 Microsoft 끝점 클라우드 서비스와 통신합니다. 포함된 Endpoint DLP는 LocalSystem(로컬 시스템) 계정을 사용하여 시스템 컨텍스트에서 실행됩니다.
 
 > [!TIP]
-> 전달 프록시를 인터넷 게이트웨이로 사용하는 조직의 경우 네트워크 보호를 사용하여 프록시 뒤에서 조사할 수 있습니다. 자세한 내용은 [전달 프록시 뒤에서 발생하는 연결 이벤트 조사](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-behind-proxy)를 참조하십시오.
+> 전달 프록시를 인터넷 게이트웨이로 사용하는 조직의 경우 네트워크 보호를 사용하여 프록시 뒤에서 조사할 수 있습니다. 자세한 내용은 [전달 프록시 뒤에서 발생하는 연결 이벤트 조사](/windows/security/threat-protection/microsoft-defender-atp/investigate-behind-proxy)를 참조하십시오.
 
 WinHTTP 구성 설정은 Windows Internet(WinINet) 인터넷 검색 프록시 설정과 독립적이며 다음 자동 검색 방법을 사용해야만 프록시 서버를 검색할 수 있습니다.
 
@@ -89,7 +89,7 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 
      `netsh winhttp reset proxy`
 
-자세한 내용은 [Netsh 명령 구문, 컨텍스트 및 포맷](https://docs.microsoft.com/windows-server/networking/technologies/netsh/netsh-contexts)을 참조하십시오.
+자세한 내용은 [Netsh 명령 구문, 컨텍스트 및 포맷](/windows-server/networking/technologies/netsh/netsh-contexts)을 참조하십시오.
 
 
 ## <a name="enable-access-to-endpoint-dlp-cloud-service-urls-in-the-proxy-server"></a>프록시 서버에서 끝점 DLP 클라우드 서비스 URL에 대한 액세스를 활성화합니다.
@@ -129,7 +129,7 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 연결 옵션 중 하나 이상이 (200) 상태를 반환하는 경우 엔드포인트용 Defender 클라이언트는 이 연결 방법을 사용하여 테스트된 URL과 제대로 통신할 수 있습니다. 
 
 그러나 연결 검사 결과가 오류를 나타내는 경우 HTTP 오류가 표시됩니다(HTTP 상태 코드 참조). 그런 다음 [프록시 서버에서 끝점 DLP 클라우드 서비스 URL에 대한 액세스 활성화](#enable-access-to-endpoint-dlp-cloud-service-urls-in-the-proxy-server)에 표시된 표의 URL을 사용할 수 있습니다. 사용할 URL은 온보드 절차 중에 선택한 영역에 따라 다릅니다.
-[!NOTE] 연결 분석기 도구가 ASR 규칙 [ PSExec 및 WMI 명령 ](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction#attack-surface-reduction-rules)에서 생성된 블록 프로세스 생성과 호환되지 않습니다. 연결 도구를 실행하려면 이 규칙을 일시적으로 비활성화해야 합니다.
+[!NOTE] 연결 분석기 도구가 ASR 규칙 [ PSExec 및 WMI 명령 ](/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction#attack-surface-reduction-rules)에서 생성된 블록 프로세스 생성과 호환되지 않습니다. 연결 도구를 실행하려면 이 규칙을 일시적으로 비활성화해야 합니다.
 
 [!NOTE] 원격 측정 프록시 서버를 설정할 때 레지스트리 또는 그룹 정책을 통해 엔드포인트에 대한 Defender가 정의된 프록시에 액세스할 수 없는 경우 직접으로 되돌아갑니다.
 관련 항목 • 온보드 Windows 10 장치 • Microsoft 끝점 DLP 온보드 문제 해결
@@ -145,8 +145,8 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 - [데이터 손실 방지 개요](data-loss-prevention-policies.md)
 - [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
-- [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)
-- [Windows 10 컴퓨터용 온보딩 도구 및 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
+- [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)
+- [Windows 10 컴퓨터용 온보딩 도구 및 방법](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
-- [Azure AD 가입 장치](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)
+- [Azure AD 가입 장치](/azure/active-directory/devices/concept-azure-ad-join)
 - [Chromium 기반 새 Microsoft Edge 다운로드하기](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)

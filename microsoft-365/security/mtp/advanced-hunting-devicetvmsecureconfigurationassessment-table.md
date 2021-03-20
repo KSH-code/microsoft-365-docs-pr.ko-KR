@@ -1,6 +1,6 @@
 ---
 title: 고급 헌팅 스키마의 DeviceTvmSecureConfigurationAssessment 표
-description: 고급 헌팅 계획의 DeviceTvmSecureConfigurationAssessment 표에 있는 보안 평가 이벤트에 대해 자세히 알아보습니다. 이러한 위협 & 취약성 관리 이벤트는 장치 정보뿐만 아니라 보안 구성 세부 정보, 영향 및 규정 준수 정보를 제공합니다.
+description: 고급 헌팅 계획의 DeviceTvmSecureConfigurationAssessment 표에서 보안 평가 이벤트에 대해 자세히 알아보습니다. 이러한 위협 & 취약성 관리 이벤트는 장치 정보와 보안 구성 세부 정보, 영향 및 규정 준수 정보를 제공합니다.
 keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, threat & vulnerability management, TVM, device management, security configuration, DeviceTvmSecureConfigurationAssessment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 6924bbc7a88a4f32d97534c72a180a1f1c4f7db6
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 891bfcc775f8c8ebddea63d5490c1c9fef4e691a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931101"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907351"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
@@ -37,7 +37,7 @@ ms.locfileid: "49931101"
 
 
 
-`DeviceTvmSecureConfigurationAssessment` 표의 각 행에는 [위협 및 취약성 관리](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)의 특정 보안 구성에 대한 평가 이벤트가 포함되어 있습니다. 이 참조를 사용하여 최신 평가 결과를 확인하고 장치가 호환되는지 확인합니다.
+`DeviceTvmSecureConfigurationAssessment` 표의 각 행에는 [위협 및 취약성 관리](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)의 특정 보안 구성에 대한 평가 이벤트가 포함되어 있습니다. 이 참조를 사용하여 최신 평가 결과를 확인하고 장치가 호환되는지 확인합니다.
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
@@ -54,9 +54,9 @@ ms.locfileid: "49931101"
 | `IsCompliant` | 부울 | 구성 또는 정책이 올바르게 구성되어 있는지 여부 |
 | `IsApplicable` | 부울 | 구성 또는 정책이 장치에 적용되는지 여부를 나타냅니다. |
 | `Context` | 문자열 | 구성 또는 정책에 대한 추가 상황 정보 |
-| `IsExpectedUserImpactCompliant` | 부울 | 구성 또는 정책이 적용되는 경우 사용자 영향이 있는지 여부를 나타냅니다. |
+| `IsExpectedUserImpactCompliant` | 부울 | 구성 또는 정책이 적용되는 경우 사용자에게 영향을 줄지 여부를 나타냅니다. |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [사전 대응식 위협 탐지](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
@@ -64,4 +64,4 @@ ms.locfileid: "49931101"
 - [장치, 전자 메일, 앱 및 ID를 검색합니다.](advanced-hunting-query-emails-devices.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)
 - [쿼리 모범 사례 적용](advanced-hunting-best-practices.md)
-- [위협 및 취약성 관리 개요](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
+- [위협 및 취약성 관리 개요](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

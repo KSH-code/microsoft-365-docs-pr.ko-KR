@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7b6175f507f54adf357e40ea44c39f5e495a1b14
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 0e2885f4db67f1508f4e7a3f354e11fb361265a3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454492"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907955"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 새로운
 
@@ -100,7 +100,7 @@ ms.locfileid: "50454492"
 
 - [자동화된 조사](automated-investigation-response-office.md) 및 응답 기능 사용(Office 365 계획 2용 Microsoft Defender)
 
-- [Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) 관리 활동 API(Office 365 계획 2용 Defender)를 사용하여 Office 365 자동 조사 및 응답 이벤트에 대한 Microsoft Defender와 통합
+- [Office 365](/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) 관리 활동 API(Office 365 계획 2용 Defender)를 사용하여 Office 365 자동 조사 및 응답 이벤트에 대한 Microsoft Defender와 통합
 
 - [전자 메일 헤더 보기 및](investigate-malicious-email-that-was-delivered.md) 전자 메일 본문 다운로드(Office 365 계획 1 또는 계획 2용 Microsoft Defender)
 
@@ -124,4 +124,4 @@ Office 365용 Microsoft Defender를 두 가지 요금제로 사용할 수 있습
 
 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap)
 
-[Microsoft Defender for Office 365 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+[Microsoft Defender for Office 365 서비스 설명](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)

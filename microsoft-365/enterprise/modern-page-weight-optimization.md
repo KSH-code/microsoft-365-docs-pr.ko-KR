@@ -21,12 +21,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: 페이지 진단 도구를 사용하여 SharePoint Online 최신 사이트 페이지에서 페이지 가중치를 최적화하는 방법을 알아보십시오.
-ms.openlocfilehash: 64fb3c90db78a23c7f1c3fcfe604c8ef58703be0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 780d8ca0debbc5efb834f8f3543b9a5a8d168108
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692339"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907447"
 ---
 # <a name="optimize-page-weight-in-sharepoint-online-modern-site-pages"></a>SharePoint Online 최신 사이트 페이지에서 페이지부하 최적화
 
@@ -35,7 +35,7 @@ SharePoint Online 최신 사이트 페이지에는 이미지, 텍스트, 탐색/
 이 문서는 최신 사이트 페이지에서 페이지 부하를 줄이는 방법을 이해하는데 도움을 줍니다.
 
 >[!NOTE]
->SharePoint Online 최신 포털의 성능에 대한 자세한 내용은 [최신 SharePoint 환경의 성능](https://docs.microsoft.com/sharepoint/modern-experience-performance)을 참조하세요.
+>SharePoint Online 최신 포털의 성능에 대한 자세한 내용은 [최신 SharePoint 환경의 성능](/sharepoint/modern-experience-performance)을 참조하세요.
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-page-weight"></a>SharePoint 용 페이지 진단 도구를 사용한 페이지 부하 분석
 
@@ -68,7 +68,7 @@ Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페�
 
 다음의 문서에서 페이지 부하를 제한하는 방법에 대한 추가 지침을 확인할 수 있습니다.
 
-- [SharePoint에서 페이지 성능 최적화](https://docs.microsoft.com/sharepoint/dev/general-development/optimize-page-performance-in-sharepoint)
+- [SharePoint에서 페이지 성능 최적화](/sharepoint/dev/general-development/optimize-page-performance-in-sharepoint)
 
 성능 문제를 개선하기 위해 페이지를 수정하기 전에 분석 결과에 페이지 로드 시간을 기록해 둡니다. 수정 후에 다시 도구를 실행하여 새 결과가 기준선 표준에 포함되는지 확인하고 새 페이지 로드 시간을 확인하여 개선이 되었는지 확인합니다.
 
@@ -83,7 +83,7 @@ Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페�
 
 [Office 365 성능 조정](tune-microsoft-365-performance.md)
 
-[최신 SharePoint 환경의 성능](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[최신 SharePoint 환경의 성능](/sharepoint/modern-experience-performance)
 
 [콘텐츠 배달 네트워크](content-delivery-networks.md)
 

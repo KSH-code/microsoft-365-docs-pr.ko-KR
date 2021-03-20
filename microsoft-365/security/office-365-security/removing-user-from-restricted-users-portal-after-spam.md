@@ -20,12 +20,12 @@ description: 관리자는 Office 365의 제한된 사용자 포털에서 사용�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7ebc0cd1d6440673ec453322d3e4c3af2e88a028
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 2b4f77f1edf0024a0324736adb2a8bfd6cc51470
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406715"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908221"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Office 365의 제한된 사용자 포털에서 차단된 사용자 제거
 
@@ -36,9 +36,9 @@ ms.locfileid: "50406715"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-사용자가 [서비스 제한](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) 또는 [아웃바운드 스팸 정책](configure-the-outbound-spam-policy.md)에 지정된 아웃바운드 전송 제한 중 하나를 초과하는 경우 전자 메일 보내기가 제한되지만 계속 전자 메일을 받을 수 있습니다.
+사용자가 [서비스 제한](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) 또는 [아웃바운드 스팸 정책](configure-the-outbound-spam-policy.md)에 지정된 아웃바운드 전송 제한 중 하나를 초과하는 경우 전자 메일 보내기가 제한되지만 계속 전자 메일을 받을 수 있습니다.
 
-보안 및 규정 준수 센터의 제한된 사용자 포털에 사용자가 추가됩니다. 사용자가 전자 메일을 보내려고 하면 메시지가 오류 코드 [5.1.8](https://docs.microsoft.com/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/fix-error-code-5-1-8-in-exchange-online) 및 다음 텍스트와 함께 배달 못 함 보고서(NDR 또는 바운스 메시지라고도 함)로 반환됩니다.
+보안 및 규정 준수 센터의 제한된 사용자 포털에 사용자가 추가됩니다. 사용자가 전자 메일을 보내려고 하면 메시지가 오류 코드 [5.1.8](/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/fix-error-code-5-1-8-in-exchange-online) 및 다음 텍스트와 함께 배달 못 함 보고서(NDR 또는 바운스 메시지라고도 함)로 반환됩니다.
 
 > "유효한 보낸 사람으로 인식되지 않았기 때문에 메시지를 배달할 수 없습니다. 가장 일반적인 이유는 전자 메일 주소가 스팸 메일을 보내는 것으로 의심어서 더 이상 전자 메일을 보낼 수 없는 경우입니다.  도움이 필요하면 전자 메일 관리자에게 문의하세요. 원격 서버에서 '550 5.1.8 액세스가 거부되었습니다. 잘못된 아웃 바운드 보낸 사람"이 반환되었습니다.
 
@@ -48,19 +48,19 @@ ms.locfileid: "50406715"
 
 - <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. **제한된 사용자** 페이지로 직접 이동하려면 <https://protection.office.com/restrictedusers>를 사용합니다.
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
 - 이 게시물의 절차를 수행하려면 먼저 **Exchange Online** 에서 사용 권한을 할당받아야 합니다.
   - 제한된 사용자 포털에서 사용자를 제거하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원이어야 합니다.
   - 제한된 사용자 포털에 대한 읽기 전용 액세스를 위해서는 **글로벌 리더** 또는 **보안 리더** 역할 그룹의 구성원이어야 합니다.
 
-  자세한 내용은 [Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)을 참조하세요.
+  자세한 내용은 [Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo)을 참조하세요.
 
   > [!NOTE]
   >
   > - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   >
-  > - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
+  > - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - 아웃바운드 전자 메일 제한을 초과 하는 보낸 사람은 손상된 계정을 나타냅니다. 제한된 사용자 포털에서 사용자를 제거하기 전에 해당 계정을 다시 제어하기 위해 필요한 단계를 수행해야 합니다. 자세한 내용은 [Office 365에서 손상된 전자 메일 계정에 응답](responding-to-a-compromised-email-account.md)을 참조하세요.
 
@@ -120,7 +120,7 @@ Get-BlockedSenderAddress
 Get-BlockedSenderAddress -SenderAddress <emailaddress>
 ```
 
-자세한 구문 및 매개 변수 정보는 [Get-BlockedSenderAddress](https://docs.microsoft.com/powershell/module/exchange/get-blockedsenderaddress)를 참조하세요.
+자세한 구문 및 매개 변수 정보는 [Get-BlockedSenderAddress](/powershell/module/exchange/get-blockedsenderaddress)를 참조하세요.
 
 제한된 사용자 목록에서 사용자를 제거하려면 \<emailaddress\>를 그들의 전자 메일 주소로 바꾸고 다음 명령을 실행합니다.
 
@@ -128,4 +128,4 @@ Get-BlockedSenderAddress -SenderAddress <emailaddress>
 Remove-BlockedSenderAddress -SenderAddress <emailaddress>
 ```
 
-자세한 구문 및 매개 변수 정보는 [Remove-BlockedSenderAddress](https://docs.microsoft.com/powershell/module/exchange/remove-blockedsenderaddress)를 참조하세요.
+자세한 구문 및 매개 변수 정보는 [Remove-BlockedSenderAddress](/powershell/module/exchange/remove-blockedsenderaddress)를 참조하세요.

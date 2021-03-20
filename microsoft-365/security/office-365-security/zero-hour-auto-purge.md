@@ -22,12 +22,12 @@ ms.custom:
 description: 관리자는 ZAP(제로 아워 자동 제거)가 Exchange Online 사서함의 배달된 메시지를 스팸 또는 피싱으로 소급 처리된 정크 메일 폴더 또는 검역소로 이동하는 방법을 알 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: be47d8dfda68bfb6819b6423542970c7768c6ffb
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: b5744fdd4ce371f62fcb4b07a4cbcd003405c3db
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820261"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907979"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Exchange Online의 ZAP(제로 아워 자동 제거)
 
@@ -121,4 +121,4 @@ ZAP는 메시지가 삭제되지 않은 경우 또는 동일한 또는 더 강�
 
 ZAP는 보류된 사서함의 메시지를 검지하지 않습니다. ZAP는 스팸 방지 정책에서 스팸 또는 피싱 판정에 대해 구성된 작업을 기반으로 메시지를 정크 메일 폴더로 이동할 수 있습니다.
 
-Exchange Online의 보류에 대한 자세한 내용은 [Exchange Online의 In-Place Hold and Litigation Hold를 참조하세요.](https://docs.microsoft.com/Exchange/security-and-compliance/in-place-and-litigation-holds)
+Exchange Online의 보류에 대한 자세한 내용은 [Exchange Online의 In-Place Hold and Litigation Hold를 참조하세요.](/Exchange/security-and-compliance/in-place-and-litigation-holds)

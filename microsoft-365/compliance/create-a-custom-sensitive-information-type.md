@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 보안 및 준수 센터의 그래픽 사용자 인터페이스에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정, 제거 및 테스트하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 049c3c123053b4bd833ea95a2413b81366586870
-ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
+ms.openlocfilehash: 36238d14d3d6a1f84b0fdcae62635922f62b58d3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50766369"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908492"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>사용자 지정 중요한 정보 유형 시작하기
 
@@ -45,9 +45,9 @@ ms.locfileid: "50766369"
     - [함수](what-the-dlp-functions-look-for.md)
     - [신뢰 수준](sensitive-information-type-learn-about.md#more-on-confidence-levels)
  
-- 사용자 지정 정보 유형을 UI를 통해 작성하고, 테스트하고 배포하려면 전역 관리자 또는 준수 관리자 권한이 있어야 합니다. Office 365에서 [관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide)를 참조하세요.
+- 사용자 지정 정보 유형을 UI를 통해 작성하고, 테스트하고 배포하려면 전역 관리자 또는 준수 관리자 권한이 있어야 합니다. Office 365에서 [관리자 역할 정보](/office365/admin/add-users/about-admin-roles?view=o365-worldwide)를 참조하세요.
 
-- 조직에 DLP(데이터 손실 방지)를 포함하는 구독(예: Office 365 Enterprise)이 있어야 합니다. [메시징 정책 및 규정 준수 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/messaging-policy-and-compliance-servicedesc)을 참조하세요. 
+- 조직에 DLP(데이터 손실 방지)를 포함하는 구독(예: Office 365 Enterprise)이 있어야 합니다. [메시징 정책 및 규정 준수 서비스 설명](/office365/servicedescriptions/exchange-online-protection-service-description/messaging-policy-and-compliance-servicedesc)을 참조하세요. 
 
 
 > [!IMPORTANT]
@@ -71,7 +71,7 @@ ms.locfileid: "50766369"
 12. 설정을 확인하고 **제출** 을 선택합니다.
 
 > [!IMPORTANT]
-> Microsoft 365는 SharePoint Online 및 비즈니스용 OneDrive 사이트에서 중요한 정보를 식별하고 분류하기 위해 검색 크롤러를 사용합니다. 기존 콘텐츠에서 새로운 사용자 지정 중요한 정보 유형을 식별하려면 해당 콘텐츠에 대한 크롤링을 다시 수행해야 합니다. 콘텐츠는 일정을 기반으로 크롤링되지만 사이트 모음, 목록 또는 라이브러리의 콘텐츠를 수동으로 다시 크롤링할 수 있습니다. 자세한 내용은 [사이트, 라이브러리 또는 목록을 크롤링 및 다시 인덱싱하도록 수동으로 요청](https://docs.microsoft.com/sharepoint/crawl-site-content)을 참조하세요.
+> Microsoft 365는 SharePoint Online 및 비즈니스용 OneDrive 사이트에서 중요한 정보를 식별하고 분류하기 위해 검색 크롤러를 사용합니다. 기존 콘텐츠에서 새로운 사용자 지정 중요한 정보 유형을 식별하려면 해당 콘텐츠에 대한 크롤링을 다시 수행해야 합니다. 콘텐츠는 일정을 기반으로 크롤링되지만 사이트 모음, 목록 또는 라이브러리의 콘텐츠를 수동으로 다시 크롤링할 수 있습니다. 자세한 내용은 [사이트, 라이브러리 또는 목록을 크롤링 및 다시 인덱싱하도록 수동으로 요청](/sharepoint/crawl-site-content)을 참조하세요.
 
 13. **데이터 분류** 페이지에 모든 중요한 정보 유형이 나열됩니다. **새로 고침** 을 선택한 다음 검색 도구를 찾아보거나 사용하여 방금 만든 중요한 정보 유형을 찾을 수 있습니다.
 

@@ -17,40 +17,40 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Microsoft 365의 루트 인증서 및 CAS(인증 기관)의 전체 목록을 볼 수 있습니다.
-ms.openlocfilehash: 3dd85ae9ec4e691c8b3dce03256e1afb1fcb6274
-ms.sourcegitcommit: 2c4c7ebe9bea52765ece0ed27d3ea77313711b10
+ms.openlocfilehash: c5b00a3a663c2ae4862cfa3d11f92015c0331e59
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50068933"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907722"
 ---
 # <a name="microsoft-365-encryption-chains"></a>Microsoft 365 암호화 체인
 
-Microsoft 365는 다양한 인증서 공급자를 활용합니다. 다음에서는 고객이 Microsoft 365에 액세스할 때 발생할 수 있는 알려진 Microsoft 365 루트 인증서의 전체 목록을 설명합니다. 자체 인프라에 설치해야 할 수 있는 인증서에 대한 자세한 내용은 [Microsoft 365용 타사 SSL](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates)인증서 계획을 참조하세요. 다음 인증서 정보는 Microsoft 365의 모든 전 세계 및 국가 클라우드 인스턴스에 적용됩니다.
+Microsoft 365는 다양한 인증서 공급자를 활용합니다. 다음에서는 고객이 Microsoft 365에 액세스할 때 발생할 수 있는 알려진 Microsoft 365 루트 인증서의 전체 목록을 설명합니다. 자체 인프라에 설치해야 할 수 있는 인증서에 대한 자세한 내용은 [Microsoft 365용 타사 SSL](../enterprise/plan-for-third-party-ssl-certificates.md)인증서 계획을 참조하세요. 다음 인증서 정보는 Microsoft 365의 모든 전 세계 및 국가 클라우드 인스턴스에 적용됩니다.
 
 Last updated: **10/16/2020**
 
 >[!NOTE]
->DOD 및 **GCC High** 고객에게 적용되는 인증서 정보는 [Microsoft 365 암호화 체인인 DOD 및 GCC High를 참조하세요.](encryption-office-365-certificate-chains-itar.md)
+>DOD 및 **GCC High** 고객에게 적용되는 인증서 정보는 Microsoft 365 암호화 체인 [- DOD 및 GCC High를 참조하세요.](encryption-office-365-certificate-chains-itar.md)
 
 | **인증서 형식** | **P7b 다운로드** | **CRL 끝점** | **OCSP 끝점** | **AIA 끝점** |
 | --- | --- | --- | --- | --- |
 | 공개적으로 신뢰할 수 있는 루트 인증서 | [Microsoft 365 루트 인증서 번들(P7B)](https://download.microsoft.com/download/4/a/b/4ab1c940-826b-444b-b287-b7a902e68da0/m365_root_certs_20201012.p7b) | crl.globalsign.net<br>www.d-trust.net | 해당 없음 | 해당 없음 |
 | 공개적으로 신뢰할 수 있는 중간 인증서 | [Microsoft 365 중간 인증서 번들(P7B)](https://download.microsoft.com/download/1/4/7/14777f28-3fde-4958-aebf-bd192a4a7fac/m365_intermediate_certs_20201013.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
 
-아래 루트 및 중간 섹션을 확장하여 인증서 공급자에 대한 추가 세부 정보를 볼 수 있습니다.
+아래 루트 및 중간 섹션을 확장하여 인증서 공급자에 대한 추가 세부 정보를 확인하세요.
 
 ## <a name="microsoft-365-root-certificate-details"></a>**Microsoft 365 루트 인증서 세부 정보**
 
 ### <a name="baltimore-cybertrust-root"></a>**Baltimore CyberTrust Root**
 
-| **제목** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=발티모어<br>C=IE |
+| **제목** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=Baltimore<br>C=IE |
 | --- | --- |
 | **일련 번호** | 02:00:00:B9 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha1RSA |
-| **이전이 아닌 유효성** | 5월 12일 18:46:00 2000 UTC |
-| **이후가 아닌 유효성** | 5월 12일 23:59:00 2025 UTC |
+| **이전과 다른 유효성** | 5월 12일 18:46:00 2000 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2025년 5월 12일 23:59:00 UTC |
 | **주체 키 식별자** | e5:9d:59:30:82:47:58:cc:ac:fa:08:54:36:86:7b:3a:b5:04:4d:f0 |
 | **지문(SHA-1)** | D4DE20D05E66FC53FE1A50882C78DB2852CAE474 |
 | **지문(SHA-256)** | 16AF57A9F676B0AB126095AA5EBADEF22AB31119D644AC95CD4B93DBF3F26AEB |
@@ -63,8 +63,8 @@ Last updated: **10/16/2020**
 | **일련 번호** | 49:33:00:01 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha1RSA |
-| **이전이 아닌 유효성** | 4월 16일 07:09:14 2007 UTC |
-| **이후가 아닌 유효성** | 4월 16일 07:09:14 2027 UTC |
+| **이전과 다른 유효성** | 2007년 4월 16일 7:09:14 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2027년 4월 16일 7:09:14 UTC |
 | **주체 키 식별자** | 65:f2:31:ad:2a:f7:f7:dd:52:96:0a:c7:02:c1:0e:ef:a6:d5:3b:11 |
 | **기관 키 식별자** | keyid:65:f2:31:ad:2a:f7:f7:dd:52:96:0a:c7:02:c1:0e:ef:a6:d5:3b:11 |
 | **지문(SHA-1)** | 8BAF4C9B1DF02A92F7DA128EB91BACF498604B6F |
@@ -78,24 +78,24 @@ Last updated: **10/16/2020**
 | **일련 번호** | 08:3B:E0:56:90:42:46:B1:A1:75:6A:C9:59:91:C7:4A |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha1RSA |
-| **이전이 아닌 유효성** | 11월 10일 00:00:00 2006 UTC |
-| **이후가 아닌 유효성** | 11월 10일 00:00:00 2031 UTC |
+| **이전과 다른 유효성** | 2006년 11월 10일 00:00:00 UTC |
+| **유효 기간 이후 아지 않는 경우** | 11월 10일 00:00:00 2031 UTC |
 | **주체 키 식별자** | 03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
-| **기관 키 식별자** | keyid:03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
+| **기관 키 식별자** | keyid:03:de:50:55:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
 | **지문(SHA-1)** | A8985D3A65E5E5C4B2D7D66D40C6DD2FB19C5436 |
 | **지문(SHA-256)** | 4348A0E9444C78CB265E058D5E8944B4D84F9662BD26DB257F8934A443C70161 |
 | **핀(SHA-256)** | r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E= |
 
 ### <a name="digicert-global-root-g2"></a>**DigiCert 전역 루트 G2**
 
-| **제목** | CN=DigiCert Global Root G2<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
+| **제목** | CN=DigiCert 전역 루트 G2<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
 | --- | --- |
 | **발급자** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **일련 번호** | 03:3A:F1:E6:A7:11:A9:A0:BB:28:64:B1:1D:09:FA:E5 |
-| **공개 키 길이** | RSA 2048 비트 |
+| **공개 키 길이** | RSA 2048비트 |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2013년 8월 1일 목요일 오전 5:00 |
-| **다음 기간까지의 유효 기간** | 2038년 1월 15일 금요일 오전 4:00 |
+| **이전과 다른 유효성** | 2013년 8월 1일 목요일 오전 5:00 |
+| **유효 기간 미정** | 2038년 1월 15일 금요일 오전 4:00 |
 | **주체 키 식별자** | 4E2254201895E6E36EE60FFAFAB912ED06178F39 |
 | **기관 키 식별자** | KeyID:4e:22:54:20:18:95:e6:e3:6e:e6:0f:fa:fa:b9:12:ed:06:17:8f:39 |
 | **지문(SHA-1)** | DF3C24F9BFD666761B268073FE06D1CC8D4F82A4 |
@@ -108,8 +108,8 @@ Last updated: **10/16/2020**
 | **일련 번호** | 02:AC:5C:26:6A:0B:40:9B:8F:0B:79:F2:AE:46:25:77 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha1RSA |
-| **이전이 아닌 유효성** | 11월 10일 00:00:00 2006 UTC |
-| **이후가 아닌 유효성** | 11월 10일 00:00:00 2031 UTC |
+| **이전과 다른 유효성** | 2006년 11월 10일 00:00:00 UTC |
+| **유효 기간 이후 아지 않는 경우** | 11월 10일 00:00:00 2031 UTC |
 | **주체 키 식별자** | b1:3e:c3:69:03:f8:bf:47:01:d4:98:26:1a:08:02:ef:63:64:2b:c3 |
 | **기관 키 식별자** | keyid:b1:3e:c3:69:03:f8:bf:47:01:d4:98:26:1a:08:02:ef:63:64:2b:c3 |
 | **지문(SHA-1)** | 5FB7EE0633E259DBAD0C4C9AE6D38F1A61C7DC25 |
@@ -123,8 +123,8 @@ Last updated: **10/16/2020**
 | **일련 번호** | 09:83:F3 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 11월 5일 08:35:58 2009 UTC |
-| **이후가 아닌 유효성** | 11월 5일 08:35:58 2029 UTC |
+| **이전과 다른 유효성** | 2009년 11월 5일 08:35:58 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2029년 11월 5일 08:35:58 UTC |
 | **주체 키 식별자** | fd:da:14:c4:9f:30:de:21:bd:1e:42:39:fc:ab:63:23:49:e0:f1:84 |
 | **지문(SHA-1)** | 58E8ABB0361533FB80F79B1B6D29D3FF8D5F00F0 |
 | **지문(SHA-256)** | 49E7A442ACF0EA6287050054B52564B650E4F49E42E348D6AA38E039E957B1C1 |
@@ -138,8 +138,8 @@ Last updated: **10/16/2020**
 | **일련 번호** | 09:83:F4 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 11월 5일 8:50:46 2009 UTC |
-| **이후가 아닌 유효성** | 11월 5일 08:50:46 2029 UTC |
+| **이전과 다른 유효성** | 2009년 11월 5일 8:50:46 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2029년 11월 5일 8:50:46 UTC |
 | **주체 키 식별자** | d3:94:8a:4c:62:13:2a:19:2e:cc:af:72:8a:7d:36:d7:9a:1c:dc:67 |
 | **지문(SHA-1)** | 96C91B0B95B4109842FAD0D82279FE60FAB91683 |
 | **지문(SHA-256)** | EEC5496B988CE98625B934092EEC2908BED0B0F316C2D4730C84EAF1F3D34881 |
@@ -153,8 +153,8 @@ Last updated: **10/16/2020**
 | **일련 번호** | 44:AF:B0:80:D6:A3:27:BA:89:30:39:86:2E:F8:40:6B |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha1RSA |
-| **이전이 아닌 유효성** | 9월 30일 21:12:19 2000 UTC |
-| **이후가 아닌 유효성** | 9월 30일 14:01:15 2021 UTC |
+| **이전과 다른 유효성** | 9월 30일 21:12:19 2000 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2021년 9월 30일 14:01:15 UTC |
 | **주체 키 식별자** | c4:a7:b1:a4:7b:2c:71:fa:db:e1:4b:90:75:ff:c4:15:60:85:89:10 |
 | **지문(SHA-1)** | DAC9024F54D8F6DF94935FB1732638CA6AD77C13 |
 | **지문(SHA-256)** | 0687260331A72403D909F105E69BCF0D32E1BD2493FFC6D9206D11BCD6770739 |
@@ -162,13 +162,13 @@ Last updated: **10/16/2020**
 
 ### <a name="entrust-root-certification-authority---g2"></a>**Entrust Root Certification Authority - G2**
 
-| **제목** | CN=Entrust Root Certification Authority - G2<br>OU= &quot; (c) 2009 Entrust, Inc. - 권한이 부여된 사용 전용&quot;<br>OU=자세한 www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
+| **제목** | CN=Entrust Root Certification Authority - G2<br>OU= &quot; (c) 2009 Entrust, Inc. - 권한이 부여된 사용 전용&quot;<br>OU=www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | --- | --- |
 | **일련 번호** | 4A:53:8C:28 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 7월 7일 17:25:54 2009 UTC |
-| **이후가 아닌 유효성** | 12월 7일 17:55:54 2030 UTC |
+| **이전과 다른 유효성** | 7월 7일 17:25:54 2009 UTC |
+| **유효 기간 이후 아지 않는 경우** | 12월 7일 17:55:54 2030 UTC |
 | **주체 키 식별자** | 6a:72:26:7a:d0:1e:ef:7d:e7:3b:69:51:d4:6c:8d:9f:90:12:66:ab |
 | **지문(SHA-1)** | 8CF427FD790C3AD166068DE81E57EFBB932272D4 |
 | **지문(SHA-256)** | 43DF5774B03E7FEF5FE40D931A7BEDF1BB2E6B42738C4E6D3841103D3AA7F339 |
@@ -176,13 +176,13 @@ Last updated: **10/16/2020**
 
 ### <a name="entrustnet-certification-authority-2048"></a>**Entrust.net Certification Authority (2048)**
 
-| **제목** | CN=Entrust.net Certification Authority (2048)<br>OU=(c) 1999 Entrust.net Limited<br>OU=www.entrust.net/CPS \_ 2048 incorp. ref. (liab를 제한합니다.)<br>O=Entrust.net |
+| **제목** | CN=Entrust.net 인증 기관(2048)<br>OU=(c) 1999 Entrust.net Limited<br>OU=www.entrust.net/CPS \_ 2048 incorp. by ref. (limit s liab.)<br>O=Entrust.net |
 | --- | --- |
 | **일련 번호** | 38:63:DE:F8 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha1RSA |
-| **이전이 아닌 유효성** | 12월 24일 17:50:51 1999 UTC |
-| **이후가 아닌 유효성** | 7월 24일 14:15:12 2029 UTC |
+| **이전과 다른 유효성** | 12월 24일 17:50:51 1999 UTC |
+| **유효 기간 이후 아지 않는 경우** | 7월 24일 14:15:12 2029 UTC |
 | **주체 키 식별자** | 55:e4:81:d1:11:80:be:d8:89:b9:08:a3:31:f9:a1:24:09:16:b9:70 |
 | **지문(SHA-1)** | 503006091D97D4F5AE39F7CBE7927D7D652D3431 |
 | **지문(SHA-256)** | 6DC47172E01CBCB0BF62580D895FE2B8AC9AD4F873801E0C10B9C837D21EB177 |
@@ -195,8 +195,8 @@ Last updated: **10/16/2020**
 | **일련 번호** | 04:00:00:00:00:01:15:4B:5A:C3:94 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha1RSA |
-| **이전이 아닌 유효성** | 9월 1일 12:00:00 1998 UTC |
-| **이후가 아닌 유효성** | 1월 28일 12:00:00 2028 UTC |
+| **이전과 다른 유효성** | 9월 1일 12:00:00 1998 UTC |
+| **유효 기간 이후 아지 않는 경우** | 1월 28일 12:00:00 2028 UTC |
 | **주체 키 식별자** | 60:7b:66:1a:45:0d:97:ca:89:50:2f:7d:04:cd:34:a8:ff:fc:fd:4b |
 | **지문(SHA-1)** | B1BC968BD4F49D622AA89A81F2150152A41D829C |
 | **지문(SHA-256)** | EBD41040E4BB3EC742C9E381D31EF2A41A48B6685C96E7CEF3C1DF6CD4331C99 |
@@ -207,11 +207,11 @@ Last updated: **10/16/2020**
 | **제목** | CN=GlobalSign<br>O=GlobalSign<br>OU=GlobalSign Root CA - R3 |
 | --- | --- |
 | **발급자** | CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3 |
-| **일련 번호** | 04:00:00:00:01:21:58:53:08:A2 |
-| **공개 키 길이** | RSA 2048 비트 |
+| **일련 번호** | 04:00:00:00:00:01:21:58:53:08:A2 |
+| **공개 키 길이** | RSA 2048비트 |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2009년 3월 18일 수요일 오전 3:00 |
-| **다음 기간까지의 유효 기간** | 2029년 3월 18일 일요일 오전 3:00 |
+| **이전과 다른 유효성** | 2009년 3월 18일 수요일 오전 3:00 |
+| **유효 기간 미정** | 2029년 3월 18일 일요일 오전 3:00 |
 | **주체 키 식별자** | 8FF04B7FA82E4524AE4D50FA639A8BDEE2DD1BBC |
 | **기관 키 식별자** | KeyID:8f:f0:4b:7f:a8:2e:45:24:ae:4d:50:fa:63:9a:8b:de:e2:dd:1b:bc |
 | **지문(SHA-1)** | D69B561148F01C77C54578C10926DF5B856976AD |
@@ -219,16 +219,16 @@ Last updated: **10/16/2020**
 
 ### <a name="thawte-primary-root-ca---g3"></a>**thawte Primary Root CA - G3**
 
-| **제목** | CN=thawte Primary Root CA - G3<br>OU= &quot; (c) 2008 thawte, Inc. - 권한이 부여된 사용만&quot;<br>OU=인증 서비스 부서<br>O= &quot; thawte, Inc.&quot;<br>C=US |
+| **제목** | CN=thawte Primary Root CA - G3<br>OU= &quot; (c) 2008 thawte, Inc. - 승인된 사용 전용&quot;<br>OU=인증 서비스 부서<br>O= &quot; thawte, Inc.&quot;<br>C=US |
 | --- | --- |
 | **일련 번호** | 60:01:97:B7:46:A7:EA:B4:B4:9A:D6:4B:2F:F7:90:FB |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 4월 2일 00:00:00 2008 UTC |
-| **이후가 아닌 유효성** | 12월 1일 23:59:59 2037 UTC |
+| **이전과 다른 유효성** | 4월 2일 00:00:00 2008 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2037년 12월 1일 23:59:59 UTC |
 | **주체 키 식별자** | ad:6c:aa:94:60:9c:ed:e4:ff:fa:3e:0a:74:2b:63:03:f7:b6:59:bf |
 | **지문(SHA-1)** | F18B538D1BE903B6A6F056435B171589CAF36BF2 |
-| **지문(SHA-256)** | 4B03F45807AD70F21BFC2CAE71C9FDE4604C064CF5FFB686BAE5DBAAD7FDDD34C |
+| **지문(SHA-256)** | 4B03F45807AD70F21BFC2CAE71C9FDE4604C064CF5FFB686BAE5DBAAD7FDD34C |
 | **핀(SHA-256)** | GQbGEk27Q4V40A4GbVBUxsN/D6YCjAVUXgmU7drshik= |
 
 ### <a name="verisign-class-3-public-primary-certification-authority---g5"></a>**VeriSign 클래스 3 공용 주 인증 기관 - G5**
@@ -238,8 +238,8 @@ Last updated: **10/16/2020**
 | **일련 번호** | 18:DA:D1:9E:26:7D:E8:BB:4A:21:58:CD:CC:6B:3B:4A |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha1RSA |
-| **이전이 아닌 유효성** | 11월 8일 00:00:00 2006 UTC |
-| **이후가 아닌 유효성** | 7월 16일 23:59:59 2036 UTC |
+| **이전과 다른 유효성** | 2006년 11월 8일 00:00:00 UTC |
+| **유효 기간 이후 아지 않는 경우** | 7월 16일 23:59:59 2036 UTC |
 | **주체 키 식별자** | 7f:d3:65:a7:c2:dd:ec:bb:f0:30:09:f3:43:39:fa:02:af:33:31:33 |
 | **지문(SHA-1)** | 4EB6D578499B1CCF5F581EAD56BE3D9B6744A5E5 |
 | **지문(SHA-256)** | 9ACFAB7E43C8D880D06B262A94DEEEE4B4659989C3D0CAF19BAF6405E41AB7DF |
@@ -255,8 +255,8 @@ Last updated: **10/16/2020**
 | **일련 번호** | 49:33:00:7C |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2014년 12월 18일 12:32:18 UTC |
-| **이후가 아닌 유효성** | 12월 18일 12:32:18 2024 UTC |
+| **이전과 다른 유효성** | 2014년 12월 18일 12:32:18 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2024년 12월 18일 12:32:18 UTC |
 | **주체 키 식별자** | b7:d1:59:8b:8c:0d:06:28:47:23:00:3a:36:04:a5:ee:38:76:53:3c |
 | **기관 키 식별자** | keyid:65:f2:31:ad:2a:f7:f7:dd:52:96:0a:c7:02:c1:0e:ef:a6:d5:3b:11 |
 | **지문(SHA-1)** | FC844648FC708433921BE88B18C48787A3E2813E |
@@ -266,7 +266,7 @@ Last updated: **10/16/2020**
 | **CRL URL** | ldap:///CN=crl1,%20OU=crl,%20O=CNNIC,%20C=CN?certificateRevocationList;binary,authorityRevocationList;binary,deltaRevocationList;binary<br>http://crl.cnnic.cn/download/rootsha2crl/CRL1.crl |
 | **OCSP URL** | <http://ocspcnnicroot.cnnic.cn> |
 
-### <a name="d-trust-ssl-class-3-ca-1-2009"></a>**D-TRUST SSL 클래스 3 CA 1 2009**
+### <a name="d-trust-ssl-class-3-ca-1-2009"></a>**D-TRUST SSL Class 3 CA 1 2009**
 
 | **제목** | CN=D-TRUST SSL Class 3 CA 1 2009<br>O=D-Trust GmbH<br>C=DE |
 | --- | --- |
@@ -275,8 +275,8 @@ Last updated: **10/16/2020**
 | **일련 번호** | 09:90:63 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 11월 12일 12:46:55 2009 UTC |
-| **이후가 아닌 유효성** | 11월 5일 08:35:58 2029 UTC |
+| **이전과 다른 유효성** | 2009년 11월 12일 12:46:55 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2029년 11월 5일 08:35:58 UTC |
 | **주체 키 식별자** | 50:19:32:94:9a:c4:b5:04:4d:56:d0:c0:83:21:d5:35:55:b0:b1:7a |
 | **기관 키 식별자** | keyid:fd:da:14:c4:9f:30:de:21:bd:1e:42:39:fc:ab:63:23:49:e0:f1:84 |
 | **지문(SHA-1)** | 2FC5DE6528CDBE50A14C382FC1DE524FAABF95FC |
@@ -294,8 +294,8 @@ Last updated: **10/16/2020**
 | **일련 번호** | 09:90:64 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 11월 12일 12:52:43 2009 UTC |
-| **이후가 아닌 유효성** | 11월 5일 08:50:46 2029 UTC |
+| **이전과 다른 유효성** | 2009년 11월 12일 12:52:43 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2029년 11월 5일 8:50:46 UTC |
 | **주체 키 식별자** | ac:ed:a5:9d:7a:a2:b6:43:f1:18:8a:25:6a:6c:b1:cc:a8:f2:5a:d4 |
 | **기관 키 식별자** | keyid:d3:94:8a:4c:62:13:2a:19:2e:cc:af:72:8a:7d:36:d7:9a:1c:dc:67 |
 | **지문(SHA-1)** | 1069423D308D0FC54575059638560FC7556E32B3 |
@@ -310,12 +310,12 @@ Last updated: **10/16/2020**
 | --- | --- |
 | **발급자** | CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **일련 번호** | 02:F7:E1:F9:82:BA:D0:09:AF:F4:7D:C9:57:41:B2:F6 |
-| **공개 키 길이** | RSA 2048 비트 |
+| **공개 키 길이** | RSA 2048비트 |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2020년 3월 4일 수요일 오전 4:04 |
-| **다음 기간까지의 유효 기간** | 2030년 3월 4일 월요일 오전 4:04 |
+| **이전과 다른 유효성** | 2020년 3월 4일 수요일 오전 4:04 |
+| **유효 기간 미정** | 2030년 3월 4일 월요일 오전 4:04 |
 | **주체 키 식별자** | 06BDA69B60795031BED5A9024AA0D095538B2F34 |
-| **기관 키 식별자** | KeyID:03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
+| **기관 키 식별자** | KeyID:03:de:50:50:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
 | **지문(SHA-1)** | 4D1FA5D1FB1AC3917C08E43F65015E6AEA571179 |
 | **지문(SHA-256)** | CB57B3FF2040CB269497625BC90FA9D7B4ED4938C6F60F42F69AFDF508AC2993 |
 | **CRL URL** | http://crl.digicert.cn/DigiCertGlobalRootCA.crl |
@@ -327,10 +327,10 @@ Last updated: **10/16/2020**
 | --- | --- |
 | **발급자** | CN=DigiCert 전역 루트 CA<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
 | **일련 번호** | 01:9E:C1:C6:BD:3F:59:7B:B2:0C:33:38:E5:51:D8:77 |
-| **공개 키 길이** | RSA 2048 비트 |
+| **공개 키 길이** | RSA 2048비트 |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2015년 8월 4일 오전 12:00 |
-| **다음 기간까지의 유효 기간** | 2030년 8월 4일 오전 12:00 |
+| **이전과 다른 유효성** | 2015년 8월 4일 오전 12:00 |
+| **유효 기간 미정** | 2030년 8월 4일 오전 12:00 |
 | **주체 키 식별자** | dd:51:d0:a2:31:73:a9:73:ae:8f:b4:01:7e:5d:8c:57:cb:9f:f0:f7 |
 | **기관 키 식별자** | 03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
 | **지문(SHA-1)** | 81B68D6CD2f221F8F534E677523BB236BBA1DC56 |
@@ -345,10 +345,10 @@ Last updated: **10/16/2020**
 | --- | --- |
 | **발급자** | CN=DigiCert 전역 루트 CA<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
 | **일련 번호** | 0F:17:1A:48:C6:F2:23:80:92:18:CD:2E:D6:DD:C0:E8 |
-| **공개 키 길이** | RSA 2048 비트 |
+| **공개 키 길이** | RSA 2048비트 |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2020년 9월 25일 오전 00:00 |
-| **이후가 아닌 유효성** | 2030년 9월 24일 오후 11:59 |
+| **이전과 다른 유효성** | 2020년 9월 25일 오전 00:00 |
+| **유효 기간 이후 아지 않는 경우** | 2030년 9월 24일 오후 11:59 |
 | **주체 키 식별자** | dd:51:d0:a2:31:73:a9:73:ae:8f:b4:01:7e:5d:8c:57:cb:9f:f0:f7 |
 | **기관 키 식별자** | 03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
 | **지문(SHA-1)** | B3F6B64A07BB9611F47174407841F564FB991F29 |
@@ -363,10 +363,10 @@ Last updated: **10/16/2020**
 | --- | --- |
 | **발급자** | CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **일련 번호** | 0C:79:A9:44:B0:8C:11:95:20:92:61:5F:E2:6B:1D:83 |
-| **공개 키 길이** | RSA 2048 비트 |
+| **공개 키 길이** | RSA 2048비트 |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2013년 10월 22일 화요일 오전 5:00 |
-| **다음 기간까지의 유효 기간** | 2028년 10월 22일 일요일 오전 5:00 |
+| **이전과 다른 유효성** | 2013년 10월 22일 화요일 오전 5:00 |
+| **유효 기간 미정** | 2028년 10월 22일 일요일 오전 5:00 |
 | **주체 키 식별자** | 3DD350A5D6A0ADEEF34A600A65D321D4F8F8D60F |
 | **기관 키 식별자** | KeyID:b1:3e:c3:69:03:f8:bf:47:01:d4:98:26:1a:08:02:ef:63:64:2b:c3 |
 | **지문(SHA-1)** | 7E2F3A4F8FE8FA8A5730AECA029696637E986F3F |
@@ -382,8 +382,8 @@ Last updated: **10/16/2020**
 | **일련 번호** | 04:E1:E7:A4:DC:5C:F2:F3:6D:C0:2B:42:B8:5D:15:9F |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 10월 22일 12:00:00 2013 UTC |
-| **이후가 아닌 유효성** | 10월 22일 12:00:00 2028 UTC |
+| **이전과 다른 유효성** | 2013년 10월 22일 12:00:00 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2028년 10월 22일 12:00:00 UTC |
 | **주체 키 식별자** | 51:68:ff:90:af:02:07:75:3c:cc:d9:65:64:62:a2:12:b8:59:72:3b |
 | **기관 키 식별자** | keyid:b1:3e:c3:69:03:f8:bf:47:01:d4:98:26:1a:08:02:ef:63:64:2b:c3 |
 | **지문(SHA-1)** | A031C46782E6E6C662C2C87C76DA9AA62CCABD8E |
@@ -392,7 +392,7 @@ Last updated: **10/16/2020**
 | **CRL URL** | http://crl4.digicert.com/DigiCertHighAssuranceEVRootCA.crl |
 | **OCSP URL** | http://ocsp.digicert.com |
 
-### <a name="digicert-sha2-secure-server-ca"></a>**DigiCert SHA2 Secure Server CA**
+### <a name="digicert-sha2-secure-server-ca"></a>**DigiCert SHA2 보안 서버 CA**
 
 | **제목** | CN=DigiCert SHA2 Secure Server CA<br>O=DigiCert Inc<br>C=US |
 | --- | --- |
@@ -400,28 +400,28 @@ Last updated: **10/16/2020**
 | **일련 번호** | 01:FD:A3:EB:6E:CA:75:C8:88:43:8B:72:4B:CF:BC:91 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 3월 8일 12:00:00 2013 UTC |
-| **이후가 아닌 유효성** | 3월 8일 12:00:00 2023 UTC |
+| **이전과 다른 유효성** | 2013년 3월 8일 12:00:00 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2023년 3월 8일 12:00:00 UTC |
 | **주체 키 식별자** | 0f:80:61:1c:82:31:61:d5:2f:28:e7:8d:46:38:b4:2c:e1:c6:d9:e2 |
-| **기관 키 식별자** | keyid:03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
+| **기관 키 식별자** | keyid:03:de:50:55:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
 | **지문(SHA-1)** | 1FB86B1168EC743154062E8C9CC5B171A4B7CCB4 |
 | **지문(SHA-256)** | 154C433C491929C5EF686E838E323664A00E6A0D822CCC958FB4DAB03E49A08F |
 | **핀(SHA-256)** | 5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w= |
 | **CRL URL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl<br>http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
 | **OCSP URL** | http://ocsp.digicert.com |
 
-### <a name="digicert-sha2-secure-server-ca"></a>**DigiCert SHA2 Secure Server CA**
+### <a name="digicert-sha2-secure-server-ca"></a>**DigiCert SHA2 보안 서버 CA**
 
 | **제목** | CN=DigiCert SHA2 Secure Server CA<br>O=DigiCert Inc<br>C=US |
 | --- | --- |
 | **발급자** | CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **일련 번호** | 02:74:2E:AA:17:CA:8E:21:C7:17:BB:1F:FC:FD:0C:A0 |
-| **공개 키 길이** | RSA 2048 비트 |
+| **공개 키 길이** | RSA 2048비트 |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2020년 9월 22일 화요일 오후 5:00 |
-| **다음 기간까지의 유효 기간** | 2030년 9월 22일 일요일 오후 4:59 |
+| **이전과 다른 유효성** | 2020년 9월 22일 화요일 오후 5:00 |
+| **유효 기간 미정** | 2030년 9월 22일 일요일 오후 4:59 |
 | **주체 키 식별자** | 0F80611C823161D52F28E78D4638B42CE1C6D9E2 |
-| **기관 키 식별자** | KeyID:03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
+| **기관 키 식별자** | KeyID:03:de:50:50:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
 | **지문(SHA-1)** | 626D44E704D1CEABE3BF0D53397464AC8080142C |
 | **지문(SHA-256)** | C1AD7778796D20BCA65C889A2655021156528BB62FF5FA43E1B8E5A83E3D2EAA |
 | **CRL URL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
@@ -433,12 +433,12 @@ Last updated: **10/16/2020**
 | --- | --- |
 | **발급자** | CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **일련 번호** | 0A:35:08:D5:5C:29:2B:01:7D:F8:AD:65:C0:0F:F7:E4 |
-| **공개 키 길이** | RSA 2048 비트 |
+| **공개 키 길이** | RSA 2048비트 |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2020년 9월 23일 수요일 오후 5:00 |
-| **다음 기간까지의 유효 기간** | 2030년 9월 23일 월요일 오후 4:59 |
+| **이전과 다른 유효성** | 2020년 9월 23일 수요일 오후 5:00 |
+| **유효 기간 미정** | 2030년 9월 23일 월요일 오후 4:59 |
 | **주체 키 식별자** | B76BA2EAA8AA848C79EAB4DA0F98B2C59576B9F4 |
-| **기관 키 식별자** | KeyID:03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
+| **기관 키 식별자** | KeyID:03:de:50:50:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
 | **지문(SHA-1)** | 6938FD4D98BAB03FAADB97B34396831E3780AEA1 |
 | **지문(SHA-256)** | 25768713D3B459F9382D2A594F85F34709FD2A8930731542A4146FFB246BEC69 |
 | **CRL URL** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
@@ -448,12 +448,12 @@ Last updated: **10/16/2020**
 
 | **제목** | CN=Entrust Certification Authority - L1C<br>OU= &quot; (c) 2009 Entrust, Inc.&quot;<br>OU=www.entrust.net/rpa는 참조에 의해 통합됩니다.<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | --- | --- |
-| **발급자** | CN=Entrust.net Certification Authority (2048)<br>OU=(c) 1999 Entrust.net Limited<br>OU=www.entrust.net/CPS \_ 2048 incorp. 는 ref. (liab를 제한합니다.)<br>O=Entrust.net |
+| **발급자** | CN=Entrust.net 인증 기관(2048)<br>OU=(c) 1999 Entrust.net Limited<br>OU=www.entrust.net/CPS \_ 2048 incorp. by ref. (limits liab.)<br>O=Entrust.net |
 | **일련 번호** | 4C:0E:8C:39 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha1RSA |
-| **이전이 아닌 유효성** | 11월 11일 15:40:40 2011 UTC |
-| **이후가 아닌 유효성** | 11월 12일 02:51:17 2021 UTC |
+| **이전과 다른 유효성** | 2011년 11월 11일 15:40:40 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2021년 11월 12일 02:51:17 UTC |
 | **주체 키 식별자** | 1e:f1:ab:89:06:f8:49:0f:01:33:77:ee:14:7a:ee:19:7c:93:28:4d |
 | **기관 키 식별자** | keyid:55:e4:81:d1:11:80:be:d8:89:b9:08:a3:31:f9:a1:24:09:16:b9:70 |
 | **지문(SHA-1)** | C53E73073F93CE7895DE7484126BC303DAB9E657 |
@@ -464,14 +464,14 @@ Last updated: **10/16/2020**
 
 ### <a name="entrust-certification-authority---l1k"></a>**Entrust Certification Authority - L1K**
 
-| **제목** | CN=Entrust Certification Authority - L1K<br>OU= &quot; (c) 2012 Entrust, Inc. - 권한이 부여된 사용 전용&quot;<br>OU=자세한 www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
+| **제목** | CN=Entrust Certification Authority - L1K<br>OU= &quot; (c) 2012 Entrust, Inc. - 권한이 부여된 사용 전용&quot;<br>OU=www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | --- | --- |
-| **발급자** | CN=Entrust Root Certification Authority - G2<br>OU= &quot; (c) 2009 Entrust, Inc. - 권한이 부여된 사용 전용&quot;<br>OU=자세한 www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
+| **발급자** | CN=Entrust Root Certification Authority - G2<br>OU= &quot; (c) 2009 Entrust, Inc. - 권한이 부여된 사용 전용&quot;<br>OU=www.entrust.net/legal-terms<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | **일련 번호** | 0E:E9:4C:C3:00:00:00:00:51:D3:77:85 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 10월 5일 19:13:56 2015 UTC |
-| **이후가 아닌 유효성** | 12월 5일 19:43:56 2030 UTC |
+| **이전과 다른 유효성** | 2015년 10월 5일 19:13:56 UTC |
+| **유효 기간 이후 아지 않는 경우** | 12월 5일 19:43:56 2030 UTC |
 | **주체 키 식별자** | 82:a2:70:74:dd:bc:53:3f:cf:7b:d4:f7:cd:7f:a7:60:c6:0a:4c:bf |
 | **기관 키 식별자** | keyid:6a:72:26:7a:d0:1e:ef:7d:e7:3b:69:51:d4:6c:8d:9f:90:12:66:ab |
 | **지문(SHA-1)** | F21C12F46CDB6B2E16F09F9419CDFF328437B2D7 |
@@ -482,14 +482,14 @@ Last updated: **10/16/2020**
 
 ### <a name="globalsign-extended-validation-ca---sha256---g2"></a>**GlobalSign 확장 유효성 검사 CA - SHA256 - G2**
 
-| **제목** | CN=GlobalSign Extended Validation CA - SHA256 - G2<br>O=GlobalSign nv-sa<br>C=BE |
+| **제목** | CN=GlobalSign 확장 유효성 검사 CA - SHA256 - G2<br>O=GlobalSign nv-sa<br>C=BE |
 | --- | --- |
 | **발급자** | CN=GlobalSign<br>O=GlobalSign<br>OU=GlobalSign Root CA - R2 |
-| **일련 번호** | 04:00:00:00:01:44:4E:F0:4A:55 |
+| **일련 번호** | 04:00:00:00:00:01:44:4E:F0:4A:55 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2월 20일 10:00:00 2014 UTC |
-| **이후가 아닌 유효성** | 12월 15일 08:00:00 2021 UTC |
+| **이전과 다른 유효성** | 2월 20일 10:00:00 2014 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2021년 12월 15일 8:00:00 UTC |
 | **주체 키 식별자** | da:40:77:43:65:1c:f8:fe:a7:e3:f4:64:82:3e:4d:43:13:22:31:02 |
 | **기관 키 식별자** | keyid:9b:e2:07:57:67:1c:1e:c0:6a:06:de:59:b4:9a:2d:df:dc:19:86:2e |
 | **지문(SHA-1)** | 65BE102BE26928650E0EF54DC8F4F15AF5F98E8B |
@@ -500,14 +500,14 @@ Last updated: **10/16/2020**
 
 ### <a name="globalsign-extended-validation-ca---sha256---g3"></a>**GlobalSign 확장 유효성 검사 CA - SHA256 - G3**
 
-| **제목** | CN=GlobalSign Extended Validation CA - SHA256 - G3<br>O=GlobalSign nv-sa<br>C=BE |
+| **제목** | CN=GlobalSign 확장 유효성 검사 CA - SHA256 - G3<br>O=GlobalSign nv-sa<br>C=BE |
 | --- | --- |
 | **발급자** | CN=GlobalSign<br>O=GlobalSign<br>OU=GlobalSign Root CA - R3 |
 | **일련 번호** | 48:A4:02:DD:27:92:0D:A2:08:34:9D:D1:99:7B |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 9월 21일 00:00:00 2016 UTC |
-| **이후가 아닌 유효성** | 9월 21일 00:00:00 2026 UTC |
+| **이전과 다른 유효성** | 2016년 9월 21일 00:00:00 UTC |
+| **유효 기간 이후 아지 않는 경우** | 9월 21일 00:00:00 2026 UTC |
 | **주체 키 식별자** | dd:b3:e7:6d:a8:2e:e8:c5:4e:6e:cf:74:e6:75:3c:94:15:ce:e8:1d |
 | **기관 키 식별자** | keyid:8f:f0:4b:7f:a8:2e:45:24:ae:4d:50:fa:63:9a:8b:de:e2:dd:1b:bc |
 | **지문(SHA-1)** | 6023192FE7B59D2789130A9FE4094F9B5570D4A2 |
@@ -518,14 +518,14 @@ Last updated: **10/16/2020**
 
 ### <a name="globalsign-organization-validation-ca---sha256---g2"></a>**GlobalSign 조직 유효성 검사 CA - SHA256 - G2**
 
-| **제목** | CN=GlobalSign Organization Validation CA - SHA256 - G2<br>O=GlobalSign nv-sa<br>C=BE |
+| **제목** | CN=GlobalSign 조직 유효성 검사 CA - SHA256 - G2<br>O=GlobalSign nv-sa<br>C=BE |
 | --- | --- |
 | **발급자** | CN=GlobalSign<br>O=GlobalSign<br>OU=GlobalSign Root CA - R3 |
 | **일련 번호** | 04:00:00:00:00:01:31:89:C6:44:C9 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 8월 2일 10:00:00 2011 UTC |
-| **이후가 아닌 유효성** | 8월 2일 10:00:00 2022 UTC |
+| **이전과 다른 유효성** | 8월 2일 10:00:00 2011 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2022년 8월 2일 10:00:00 UTC |
 | **주체 키 식별자** | 96:de:61:f1:bd:1c:16:29:53:1c:c0:cc:7d:3b:83:00:40:e6:1a:7c |
 | **기관 키 식별자** | keyid:8f:f0:4b:7f:a8:2e:45:24:ae:4d:50:fa:63:9a:8b:de:e2:dd:1b:bc |
 | **지문(SHA-1)** | EF90B2B86F4756EBE7D36FF3015D63523A0076E9 |
@@ -536,14 +536,14 @@ Last updated: **10/16/2020**
 
 ### <a name="globalsign-organization-validation-ca---sha256---g2"></a>**GlobalSign 조직 유효성 검사 CA - SHA256 - G2**
 
-| **제목** | CN=GlobalSign Organization Validation CA - SHA256 - G2<br>O=GlobalSign nv-sa<br>C=BE |
+| **제목** | CN=GlobalSign 조직 유효성 검사 CA - SHA256 - G2<br>O=GlobalSign nv-sa<br>C=BE |
 | --- | --- |
 | **발급자** | CN=GlobalSign Root CA<br>OU=루트 CA<br>O=GlobalSign nv-sa<br>C=BE |
 | **일련 번호** | 04:00:00:00:00:01:44:4E:F0:42:47 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2월 20일 10:00:00 2014 UTC |
-| **이후가 아닌 유효성** | 2월 20일 10:00:00 2024 UTC |
+| **이전과 다른 유효성** | 2월 20일 10:00:00 2014 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2월 20일 10:00:00 2024 UTC |
 | **주체 키 식별자** | 96:de:61:f1:bd:1c:16:29:53:1c:c0:cc:7d:3b:83:00:40:e6:1a:7c |
 | **기관 키 식별자** | keyid:60:7b:66:1a:45:0d:97:ca:89:50:2f:7d:04:cd:34:a8:ff:fc:fd:4b |
 | **지문(SHA-1)** | 902EF2DEEB3C5B13EA4C3D5193629309E231AE55 |
@@ -554,14 +554,14 @@ Last updated: **10/16/2020**
 
 ### <a name="globalsign-organization-validation-ca---sha256---g3"></a>**GlobalSign 조직 유효성 검사 CA - SHA256 - G3**
 
-| **제목** | CN=GlobalSign Organization Validation CA - SHA256 - G3<br>O=GlobalSign nv-sa<br>C=BE |
+| **제목** | CN=GlobalSign 조직 유효성 검사 CA - SHA256 - G3<br>O=GlobalSign nv-sa<br>C=BE |
 | --- | --- |
 | **발급자** | CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE |
 | **일련 번호** | 47:07:B1:01:9A:0C:57:AD:39:B3:E1:7D:A9:F9 |
-| **공개 키 길이** | RSA 2048 비트 |
+| **공개 키 길이** | RSA 2048비트 |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2015년 9월 3일 목요일 오후 5:00 |
-| **다음 기간까지의 유효 기간** | 2025년 9월 3일 수요일 오후 5:00 |
+| **이전과 다른 유효성** | 2015년 9월 3일 목요일 오후 5:00 |
+| **유효 기간 미정** | 2025년 9월 3일 수요일 오후 5:00 |
 | **주체 키 식별자** | 6886B87D7AD96D496B872F188B15346CD7B47A0E |
 | **기관 키 식별자** | KeyID:60:7b:66:1a:45:0d:97:ca:89:50:2f:7d:04:cd:34:a8:ff:fc:fd:4b |
 | **지문(SHA-1)** | 20D1EBAB5A71587B9116E4C74415D1A85B0DDDA5 |
@@ -575,10 +575,10 @@ Last updated: **10/16/2020**
 | --- | --- |
 | **발급자** | CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3 |
 | **일련 번호** | 01:EE:5F:22:1D:FC:62:3B:D4:33:3A:85:57 |
-| **공개 키 길이** | RSA 2048 비트 |
+| **공개 키 길이** | RSA 2048비트 |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2018년 11월 20일 화요일 오후 4:00 |
-| **다음 기간까지의 유효 기간** | 2028년 11월 20일 월요일 오후 4:00 |
+| **이전과 다른 유효성** | 2018년 11월 20일 화요일 오후 4:00 |
+| **유효 기간 미정** | 2028년 11월 20일 월요일 오후 4:00 |
 | **주체 키 식별자** | F8EF7FF2CD7867A8DE6F8F248D88F1870302B3EB |
 | **기관 키 식별자** | KeyID:8f:f0:4b:7f:a8:2e:45:24:ae:4d:50:fa:63:9a:8b:de:e2:dd:1b:bc |
 | **지문(SHA-1)** | DFE83023062B997682708B4EAB8E819AFF5D9775 |
@@ -594,8 +594,8 @@ Last updated: **10/16/2020**
 | **일련 번호** | 0A:01:41:42:00:00:01:53:85:73:6A:0B:85:EC:A7:08 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 3월 17일 16:40:46 2016 UTC |
-| **이후가 아닌 유효성** | 3월 17일 16:40:46 2021 UTC |
+| **이전과 다른 유효성** | 2016년 3월 17일 16:40:46 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2021년 3월 17일 16:40:46 UTC |
 | **주체 키 식별자** | a8:4a:6a:63:04:7d:dd:ba:e6:d1:39:b7:a6:45:65:ef:f3:a8:ec:a1 |
 | **기관 키 식별자** | keyid:c4:a7:b1:a4:7b:2c:71:fa:db:e1:4b:90:75:ff:c4:15:60:85:89:10 |
 | **지문(SHA-1)** | E6A3B45B062D509B3382282D196EFE97D5956CCB |
@@ -607,14 +607,14 @@ Last updated: **10/16/2020**
 
 ### <a name="microsoft-azure-tls-issuing-ca-01"></a>**Microsoft Azure TLS Issuing CA 01**
 
-| **제목** | CN=Microsoft Azure TLSSuing CA 01<br>O=Microsoft Corporation<br>C=US |
+| **제목** | CN=Microsoft Azure TLS Issuing CA 01<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **발급자** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **일련 번호** | 0A:AF:A6:C5:CA:63:C4:51:41:EA:3B:E1:F7:C7:53:17 |
-| **공개 키 길이** | RSA 4096비트 |
+| **공개 키 길이** | RSA 4096 비트 |
 | **서명 알고리즘** | sha384RSA |
-| **이전이 아닌 유효성** | 2020년 7월 29일 수요일 오전 5:30 |
-| **다음 기간까지의 유효 기간** | 2024년 6월 27일 목요일 오후 4:59 |
+| **이전과 다른 유효성** | 2020년 7월 29일 수요일 오전 5:30 |
+| **유효 기간 미정** | 2024년 6월 27일 목요일 오후 4:59 |
 | **주체 키 식별자** | 0F205DD7A15795DB92CF2BD0C7C27704CE728076 |
 | **기관 키 식별자** | KeyID:4e:22:54:20:18:95:e6:e3:6e:e6:0f:fa:fa:b9:12:ed:06:17:8f:39 |
 | **지문(SHA-1)** | 2F2877C5D778C31E0F29C7E371DF5471BD673173 |
@@ -624,15 +624,15 @@ Last updated: **10/16/2020**
 
 ### <a name="microsoft-azure-tls-issuing-ca-02"></a>**Microsoft Azure TLS Issuing CA 02**
 
-| **제목** | CN=Microsoft Azure TLSSuing CA 02<br>O=Microsoft Corporation<br>C=US |
+| **제목** | CN=Microsoft Azure TLS Issuing CA 02<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **발급자** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **일련 번호** | 0C:6A:E9:7C:CE:D5:99:83:86:90:A0:0A:9E:A5:32:14 |
-| **공개 키 길이** | RSA 4096비트 |
+| **공개 키 길이** | RSA 4096 비트 |
 | **서명 알고리즘** | sha384RSA |
-| **이전이 아닌 유효성** | 2020년 7월 29일 수요일 오전 5:30 |
-| **다음 기간까지의 유효 기간** | 2024년 6월 27일 목요일 오후 4:59 |
-| **주체 키 식별자** | 00AB91FC21626979AA8791B61419060A96267FD |
+| **이전과 다른 유효성** | 2020년 7월 29일 수요일 오전 5:30 |
+| **유효 기간 미정** | 2024년 6월 27일 목요일 오후 4:59 |
+| **주체 키 식별자** | 00AB91FC216226979AA8791B61419060A96267FD |
 | **기관 키 식별자** | KeyID:4e:22:54:20:18:95:e6:e3:6e:e6:0f:fa:fa:b9:12:ed:06:17:8f:39 |
 | **지문(SHA-1)** | E7EEA674CA718E3BEFD90858E09F8372AD0AE2AA |
 | **지문(SHA-256)** | 15A98761EBE011554DA3A46D206B0812CB2EB69AE87AAA11A6DD4CB84ED5142A |
@@ -641,14 +641,14 @@ Last updated: **10/16/2020**
 
 ### <a name="microsoft-azure-tls-issuing-ca-05"></a>**Microsoft Azure TLS Issuing CA 05**
 
-| **제목** | CN=Microsoft Azure TLSSuing CA 05<br>O=Microsoft Corporation<br>C=US |
+| **제목** | CN=Microsoft Azure TLS Issuing CA 05<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **발급자** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **일련 번호** | 0D:7B:ED:E9:7D:82:09:96:7A:52:63:1B:8B:DD:18:BD |
-| **공개 키 길이** | RSA 4096비트 |
+| **공개 키 길이** | RSA 4096 비트 |
 | **서명 알고리즘** | sha384RSA |
-| **이전이 아닌 유효성** | 2020년 7월 29일 수요일 오전 5:30 |
-| **다음 기간까지의 유효 기간** | 2024년 6월 27일 목요일 오후 4:59 |
+| **이전과 다른 유효성** | 2020년 7월 29일 수요일 오전 5:30 |
+| **유효 기간 미정** | 2024년 6월 27일 목요일 오후 4:59 |
 | **주체 키 식별자** | C7B29C7F1CE3B85AEFE9681AA85D94C126526A68 |
 | **기관 키 식별자** | KeyID:4e:22:54:20:18:95:e6:e3:6e:e6:0f:fa:fa:b9:12:ed:06:17:8f:39 |
 | **지문(SHA-1)** | 6C3AF02E7F269AA73AFD0EFF2A88A4A1F04ED1E5 |
@@ -656,20 +656,20 @@ Last updated: **10/16/2020**
 | **CRL URL** | http://crl3.digicert.com/DigiCertGlobalRootG2.crl http://crl4.digicert.com/DigiCertGlobalRootG2.crl |
 | **OCSP URL** | http://ocsp.digicert.com |
 
-### <a name="microsoft-azure-tls-issuing-ca-06"></a>**Microsoft Azure TLS 발행 CA 06**
+### <a name="microsoft-azure-tls-issuing-ca-06"></a>**Microsoft Azure TLS Issuing CA 06**
 
-| **제목** | CN=Microsoft Azure TLSSuing CA 06<br>O=Microsoft Corporation<br>C=US |
+| **제목** | CN=Microsoft Azure TLS Issuing CA 06<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **발급자** | CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US |
 | **일련 번호** | 02:E7:91:71:FB:80:21:E9:3F:E2:D9:83:83:4C:50:C0 |
-| **공개 키 길이** | RSA 4096비트 |
+| **공개 키 길이** | RSA 4096 비트 |
 | **서명 알고리즘** | sha384RSA |
-| **이전이 아닌 유효성** | 2020년 7월 29일 수요일 오전 5:30 |
-| **다음 기간까지의 유효 기간** | 2024년 6월 27일 목요일 오후 4:59 |
+| **이전과 다른 유효성** | 2020년 7월 29일 수요일 오전 5:30 |
+| **유효 기간 미정** | 2024년 6월 27일 목요일 오후 4:59 |
 | **주체 키 식별자** | D5C1673AC2A39DF477525B59123829E65568BBA5 |
 | **기관 키 식별자** | KeyID:4e:22:54:20:18:95:e6:e3:6e:e6:0f:fa:fa:b9:12:ed:06:17:8f:39 |
 | **지문(SHA-1)** | 30E01761AB97E59A06B41EF20AF6F2DE7EF4F7B0 |
-| **지문(SHA-256)** | 48FF8B494668C752304B48BFE818758987DEF6582E5F09B921F4B60BB3D6A8D |
+| **지문(SHA-256)** | 48FF8B494668C752304B48BFE818758987DEF6582E5F09B921F4B60BB3D6A8DD |
 | **CRL URL** | http://crl3.digicert.com/DigiCertGlobalRootG2.crl http://crl4.digicert.com/DigiCertGlobalRootG2.crl |
 | **OCSP URL** | http://ocsp.digicert.com |
 
@@ -677,12 +677,12 @@ Last updated: **10/16/2020**
 
 | **제목** | CN=Microsoft IT TLS CA 1<br>OU=Microsoft IT<br>O=Microsoft Corporation<br>L=Redmond<br>S=Washington<br>C=US |
 | --- | --- |
-| **발급자** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=발티모어<br>C=IE |
+| **발급자** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=Baltimore<br>C=IE |
 | **일련 번호** | 08:B8:7A:50:1B:BE:9C:DA:2D:16:4D:3E:39:51:BF:55 |
 | **공개 키 길이** | RSA 4096비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2016년 5월 20일 12:51:28 UTC |
-| **이후가 아닌 유효성** | 5월 20일 12:51:28 2024 UTC |
+| **이전과 다른 유효성** | 2016년 5월 20일 12:51:28 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2024년 5월 20일 12:51:28 UTC |
 | **주체 키 식별자** | 58:88:9f:d6:dc:9c:48:22:b7:14:3e:ff:84:88:e8:e6:85:ff:fa:7d |
 | **기관 키 식별자** | keyid:e5:9d:59:30:82:47:58:cc:ac:fa:08:54:36:86:7b:3a:b5:04:4d:f0 |
 | **지문(SHA-1)** | 417E225037FBFAA4F95761D5AE729E1AEA7E3A42 |
@@ -695,12 +695,12 @@ Last updated: **10/16/2020**
 
 | **제목** | CN=Microsoft IT TLS CA 2<br>OU=Microsoft IT<br>O=Microsoft Corporation<br>L=Redmond<br>S=Washington<br>C=US |
 | --- | --- |
-| **발급자** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=발티모어<br>C=IE |
+| **발급자** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=Baltimore<br>C=IE |
 | **일련 번호** | 0F:2C:10:C9:5B:06:C0:93:7F:B8:D4:49:F8:3E:85:69 |
 | **공개 키 길이** | RSA 4096비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2016년 5월 20일 12:51:57 UTC |
-| **이후가 아닌 유효성** | 5월 20일 12:51:57 2024 UTC |
+| **이전과 다른 유효성** | 2016년 5월 20일 12:51:57 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2024년 5월 20일 12:51:57 UTC |
 | **주체 키 식별자** | 91:9e:3b:44:6c:3d:57:9c:42:77:2a:34:d7:4f:d1:cc:4a:97:2c:da |
 | **기관 키 식별자** | keyid:e5:9d:59:30:82:47:58:cc:ac:fa:08:54:36:86:7b:3a:b5:04:4d:f0 |
 | **지문(SHA-1)** | 54D9D20239080C32316ED9FF980A48988F4ADF2D |
@@ -713,12 +713,12 @@ Last updated: **10/16/2020**
 
 | **제목** | CN=Microsoft IT TLS CA 4<br>OU=Microsoft IT<br>O=Microsoft Corporation<br>L=Redmond<br>S=Washington<br>C=US |
 | --- | --- |
-| **발급자** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=발티모어<br>C=IE |
+| **발급자** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=Baltimore<br>C=IE |
 | **일련 번호** | 0B:6A:B3:B0:3E:B1:A9:F6:C4:60:92:6A:A8:CD:FE:B3 |
 | **공개 키 길이** | RSA 4096비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2016년 5월 20일 12:52:38 UTC |
-| **이후가 아닌 유효성** | 5월 20일 12:52:38 2024 UTC |
+| **이전과 다른 유효성** | 2016년 5월 20일 12:52:38 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2024년 5월 20일 12:52:38 UTC |
 | **주체 키 식별자** | 7a:7b:8c:c1:cf:e7:a0:ca:1c:d4:6b:fa:fb:e1:33:c3:0f:1a:a2:9d |
 | **기관 키 식별자** | keyid:e5:9d:59:30:82:47:58:cc:ac:fa:08:54:36:86:7b:3a:b5:04:4d:f0 |
 | **지문(SHA-1)** | 8A38755D0996823FE8FA3116A277CE446EAC4E99 |
@@ -731,12 +731,12 @@ Last updated: **10/16/2020**
 
 | **제목** | CN=Microsoft IT TLS CA 5<br>OU=Microsoft IT<br>O=Microsoft Corporation<br>L=Redmond<br>S=Washington<br>C=US |
 | --- | --- |
-| **발급자** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=발티모어<br>C=IE |
+| **발급자** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=Baltimore<br>C=IE |
 | **일련 번호** | 08:88:CD:52:5F:19:24:44:4D:14:A5:82:91:DE:B9:52 |
 | **공개 키 길이** | RSA 4096비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2016년 5월 20일 12:53:03 UTC |
-| **이후가 아닌 유효성** | 5월 20일 12:53:03 2024 UTC |
+| **이전과 다른 유효성** | 2016년 5월 20일 12:53:03 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2024년 5월 20일 12:53:03 UTC |
 | **주체 키 식별자** | 08:fe:25:9f:74:ea:87:04:c2:bc:bb:8e:a8:38:5f:33:c6:d1:6c:65 |
 | **기관 키 식별자** | keyid:e5:9d:59:30:82:47:58:cc:ac:fa:08:54:36:86:7b:3a:b5:04:4d:f0 |
 | **지문(SHA-1)** | AD898AC73DF333EB60AC1F5FC6C4B2219DDB79B7 |
@@ -750,11 +750,11 @@ Last updated: **10/16/2020**
 | **제목** | CN=Microsoft RSA TLS CA 01<br>O=Microsoft Corporation<br>C=US |
 | --- | --- |
 | **발급자** | CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE |
-| **일련 번호** | 0F:14:96:5F:20:20:99:4F:D5:C7:AC:78:89:41:E2 |
-| **공개 키 길이** | RSA 4096비트 |
+| **일련 번호** | 0F:14:96:5F:20:20:69:99:4F:D5:C7:AC:78:89:41:E2 |
+| **공개 키 길이** | RSA 4096 비트 |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2020년 7월 21일 화요일 오후 4:00 |
-| **다음 기간까지의 유효 기간** | 2024년 10월 8일 화요일 오전 12:00 |
+| **이전과 다른 유효성** | 2020년 7월 21일 화요일 오후 4:00 |
+| **유효 기간 미정** | 2024년 10월 8일 화요일 오전 12:00 |
 | **주체 키 식별자** | B5760C3011CEC792424D4CC75C2CC8A90CE80B64 |
 | **기관 키 식별자** | KeyID:e5:9d:59:30:82:47:58:cc:ac:fa:08:54:36:86:7b:3a:b5:04:4d:f0 |
 | **지문(SHA-1)** | 703D7A8F0EBF55AAA59F98EAF4A206004EB2516A |
@@ -768,10 +768,10 @@ Last updated: **10/16/2020**
 | --- | --- |
 | **발급자** | CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE |
 | **일련 번호** | 0F:A7:47:22:C5:3D:88:C8:0F:58:9E:FB:1F:9D:4A:3A |
-| **공개 키 길이** | RSA 4096비트 |
+| **공개 키 길이** | RSA 4096 비트 |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 2020년 7월 21일 화요일 오후 4:00 |
-| **다음 기간까지의 유효 기간** | 2024년 10월 8일 화요일 오전 12:00 |
+| **이전과 다른 유효성** | 2020년 7월 21일 화요일 오후 4:00 |
+| **유효 기간 미정** | 2024년 10월 8일 화요일 오전 12:00 |
 | **주체 키 식별자** | FF2F7FE106F438F32DED258D98C2FE0EF66CFCFA |
 | **기관 키 식별자** | KeyID:e5:9d:59:30:82:47:58:cc:ac:fa:08:54:36:86:7b:3a:b5:04:4d:f0 |
 | **지문(SHA-1)** | B0C2D2D13CDD56CDAA6AB6E2C04440BE4A429C75 |
@@ -788,8 +788,8 @@ Last updated: **10/16/2020**
 | **일련 번호** | 7E:E1:4A:6F:6F:EF:F2:D3:7F:3F:AD:65:4D:3A:DA:B4 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 10월 31일 00:00:00 2013 UTC |
-| **이후가 아닌 유효성** | 10월 30일 23:59:59 2023 UTC |
+| **이전과 다른 유효성** | 2013년 10월 31일 00:00:00 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2023년 10월 30일 23:59:59 UTC |
 | **주체 키 식별자** | 01:59:ab:e7:dd:3a:0b:59:a6:64:63:d6:cf:20:07:57:d5:91:e7:6a |
 | **기관 키 식별자** | keyid:7f:d3:65:a7:c2:dd:ec:bb:f0:30:09:f3:43:39:fa:02:af:33:31:33 |
 | **지문(SHA-1)** | E3FC0AD84F2F5A83ED6F86F567F8B14B40DCBF12 |
@@ -798,7 +798,7 @@ Last updated: **10/16/2020**
 | **CRL URL** | http://s1.symcb.com/pca3-g5.crl |
 | **OCSP URL** | http://s2.symcb.com |
 
-### <a name="symantec-class-3-secure-server-ca---g4"></a>**Symantec Class 3 Secure Server CA - G4**
+### <a name="symantec-class-3-secure-server-ca---g4"></a>**Symantec 클래스 3 Secure Server CA - G4**
 
 | **제목** | CN=Symantec Class 3 Secure Server CA - G4<br>OU=Symantec Trust Network<br>O=Symantec Corporation<br>C=US |
 | --- | --- |
@@ -807,8 +807,8 @@ Last updated: **10/16/2020**
 | **일련 번호** | 51:3F:B9:74:38:70:B7:34:40:41:8D:30:93:06:99:FF |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 10월 31일 00:00:00 2013 UTC |
-| **이후가 아닌 유효성** | 10월 30일 23:59:59 2023 UTC |
+| **이전과 다른 유효성** | 2013년 10월 31일 00:00:00 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2023년 10월 30일 23:59:59 UTC |
 | **주체 키 식별자** | 5f:60:cf:61:90:55:df:84:43:14:8a:60:2a:b2:f5:7a:f4:43:18:ef |
 | **기관 키 식별자** | keyid:7f:d3:65:a7:c2:dd:ec:bb:f0:30:09:f3:43:39:fa:02:af:33:31:33 |
 | **지문(SHA-1)** | FF67367C5CD4DE4AE18BCCE1D70FDABD7C866135 |
@@ -821,13 +821,13 @@ Last updated: **10/16/2020**
 
 | **제목** | CN=thawte SHA256 SSL CA<br>O= &quot; thawte, Inc.&quot;<br>C=US |
 | --- | --- |
-| **발급자** | CN=thawte Primary Root CA - G3<br>OU= &quot; (c) 2008 thawte, Inc. - 권한이 부여된 사용만&quot;<br>OU=인증 서비스 부서<br>O= &quot; thawte, Inc.&quot;<br>C=US |
+| **발급자** | CN=thawte Primary Root CA - G3<br>OU= &quot; (c) 2008 thawte, Inc. - 승인된 사용 전용&quot;<br>OU=인증 서비스 부서<br>O= &quot; thawte, Inc.&quot;<br>C=US |
 | **주체 대체 이름** | 디렉터리 주소: CN=VeriSignMPKI-2-415 |
 | **일련 번호** | 36:34:9E:18:C9:9C:26:69:B6:56:2E:6C:E5:AD:71:32 |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 5월 23일 00:00:00 2013 UTC |
-| **이후가 아닌 유효성** | 5월 22일 23:59:59 2023 UTC |
+| **이전과 다른 유효성** | 2013년 5월 23일 00:00:00 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2023년 5월 22일 23:59:59 UTC |
 | **주체 키 식별자** | 2b:9a:35:ae:01:18:38:30:e1:70:7a:05:e0:11:76:a3:ce:bd:90:14 |
 | **기관 키 식별자** | keyid:ad:6c:aa:94:60:9c:ed:e4:ff:fa:3e:0a:74:2b:63:03:f7:b6:59:bf |
 | **지문(SHA-1)** | 67D147D5DAB7F28D663CA5B7A9568F087427B9F7 |
@@ -840,16 +840,16 @@ Last updated: **10/16/2020**
 
 | **제목** | CN=Verizon Akamai SureServer CA G14-SHA2<br>OU=사이버 트러스트<br>O=Verizon Enterprise 솔루션<br>L=Amsterdam<br>C=NL |
 | --- | --- |
-| **발급자** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=발티모어<br>C=IE |
+| **발급자** | CN=Baltimore CyberTrust Root<br>OU=CyberTrust<br>O=Baltimore<br>C=IE |
 | **일련 번호** | 07:27:A4:6B |
 | **공개 키 길이** | RSA 2048비트(e 65537) |
 | **서명 알고리즘** | sha256RSA |
-| **이전이 아닌 유효성** | 4월 2일 14:36:10 2014 UTC |
-| **이후가 아닌 유효성** | 4월 2일 14:35:52 2021 UTC |
+| **이전과 다른 유효성** | 4월 2일 14:36:10 2014 UTC |
+| **유효 기간 이후 아지 않는 경우** | 2021년 4월 2일 14:35:52 UTC |
 | **주체 키 식별자** | f8:bd:fa:af:73:77:c6:c7:1b:f9:4b:4d:11:a7:d1:33:af:af:72:11 |
 | **기관 키 식별자** | keyid:e5:9d:59:30:82:47:58:cc:ac:fa:08:54:36:86:7b:3a:b5:04:4d:f0 |
 | **지문(SHA-1)** | 6AD2B04E2196E48BF685752890E811CD2ED60606 |
-| **지문(SHA-256)** | 7373D219B42547E41BCB752BCBCBE93F592FF6F99C340CE57B73D38C3EC0BA98 |
+| **지문(SHA-256)** | 7373D219B42547E41BCB752BCBE93F592FF6F99C340CE57B73D38C3EC0BA98 |
 | **핀(SHA-256)** | 8XFPrRr4VxmEIYKUu35QtR3oGbduX1AlrBzaBUHgp7c= |
 | **AIA URL** | https://cacert.omniroot.com/baltimoreroot.crt<br>https://cacert.omniroot.com/baltimoreroot.der |
 | **CRL URL** | http://cdp1.public-trust.com/CRL/Omniroot2025.crl |

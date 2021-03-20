@@ -17,13 +17,13 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: e9b8e065-2750-4534-9d39-aafd51a2a4e2
-description: Microsoft Azure에서 Office Server 워크로드를 배포하는 데 유용한 정보에 대한 링크 목록을 제공합니다.
-ms.openlocfilehash: ba294b437d815c81c7747f60b2a82ca0bef05e7a
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+description: Microsoft Azure에서 Office Server 작업을 배포하는 데 유용한 정보에 대한 링크 목록을 제공합니다.
+ms.openlocfilehash: 47e885d3db7d9211b917414d03efdc5b716dcd1e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327918"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907495"
 ---
 # <a name="hybrid-solutions"></a>하이브리드 솔루션
 
@@ -31,7 +31,7 @@ Microsoft Azure를 사용하면 Azure 인프라 서비스에 일반적으로 배
   
 Azure의 Microsoft 365 ID 인프라:
 
-- [SharePoint Server 인증에 Azure AD를 사용](using-azure-ad-for-sharepoint-server-authentication.md)
+- [SharePoint Server 인증에 Azure AD를 사용](/azure/active-directory/saas-apps/sharepoint-on-premises-tutorial)
 
 - [Microsoft Azure에서 Microsoft 365 디렉터리 동기화 배포](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)
   
@@ -48,9 +48,9 @@ Azure의 SharePoint Server 2013 작업을 위해 다음 사항을 준비해주�
 - [SharePoint Server 2013을 사용하는 Microsoft Azure의 인터넷 사이트](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)
   
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[Microsoft 365 솔루션 및 아키텍처 센터](../solutions/solution-architecture-center.md)
+[Microsoft 365 솔루션 및 아키텍처 센터](../solutions/index.yml)
   
 [엔터프라이즈 설계자용 Microsoft 클라우드 일러스트레이션](../solutions/cloud-architecture-models.md)
   

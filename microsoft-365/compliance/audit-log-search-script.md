@@ -17,22 +17,22 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: Exchange Online에서 Search-UnifiedAuditLog cmdlet을 실행하여 감사 로그를 검색하는 PowerShell 스크립트를 사용하세요. 이 스크립트는 대량 감사 레코드 집합(최대 50,000개)을 반환하는 데 최적화되어 있습니다. 이 스크립트는 이러한 레코드를 Excel의 Power Query를 사용하여 보거나 변환할 수 있는 CSV 파일로 내보냅니다.
-ms.openlocfilehash: 3d44054d8d1111fe86e06460f5ca4d442d0d1625
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 7ac3903abffc0bedb28363159c81b1f67a199f32
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233332"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907766"
 ---
 # <a name="use-a-powershell-script-to-search-the-audit-log"></a>PowerShell 스크립트를 사용하여 감사 로그 검색
 
 오늘날의 IT 관리자는 보안, 규정 준수 및 감사를 최우선 과제로 꼽았습니다. Microsoft 365에는 조직이 보안, 규정 준수 및 감사를 관리하는 데 도움이 되는 몇 가지 기능이 내장되어 있습니다. 특히 통합 감사 로깅을 사용하면 보안 인시던트 및 규정 준수 문제를 조사할 수 있습니다. 다음 방법을 사용하여 감사 로그를 검색할 수 있습니다.
 
-- [Office 365 관리 작업 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)
+- [Office 365 관리 작업 API](/office/office-365-management-api/office-365-management-activity-api-reference)
 
 - Microsoft 365 규정 준수 센터의 [ 감사 로그 검색 도구 ](search-the-audit-log-in-security-and-compliance.md)
 
-- Exchange Online PowerShell의 [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) cmdlet
+- Exchange Online PowerShell의 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) cmdlet
 
 감사 로그를 정기적으로 검색해야 하는 경우 대규모 조직에 지속적으로 수백만 개의 감사 레코드를 검색할 수 있는 확장성과 성능을 제공할 수 있으므로 Office 365 관리 작업 API를 사용하는 솔루션을 고려해야 합니다. Microsoft 365 규정 준수 센터에서 감사 로그 검색 도구를 사용하면 더 짧은 시간 범위에서 발생하는 특정 작업에 대한 감사 레코드를 빠르게 찾을 수 있습니다. 감사 로그 검색 도구(특히 대규모 조직의 경우)에서 더 긴 시간 범위를 사용하면 레코드를 너무 많이 반환하여 쉽게 관리하거나 내보낼 수 없습니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "50233332"
 
 ## <a name="step-1-connect-to-exchange-online-powershell"></a>1단계: Exchange Online PowerShell에 연결
 
-첫 번째 단계는 Exchange Online PowerShell에 연결하는 것입니다. 최신 인증 또는 MFA(다단계 인증)를 사용하여 연결할 수 있습니다. 단계별 지침은 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하십시오.
+첫 번째 단계는 Exchange Online PowerShell에 연결하는 것입니다. 최신 인증 또는 MFA(다단계 인증)를 사용하여 연결할 수 있습니다. 단계별 지침은 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하십시오.
 
 ## <a name="step-2-modify-and-run-the-script-to-retrieve-audit-records"></a>2단계: 감사 레코드를 검색하도록 스크립트를 수정 및 실행
 
@@ -146,12 +146,12 @@ Write-Host "Script complete! Finished retrieving audit records for the date rang
    |`$logFile`|"d:\temp\AuditSearchLog.txt"|스크립트에서 수행한 감사 로그 검색 진행률에 대한 정보를 포함하는 로그 파일의 이름과 위치를 지정합니다. 스크립트에서 로그 파일에 UTC 타임스탬프를 작성합니다.|
    |`$outputFile`|"d:\temp\AuditRecords.csv"|스크립트에서 반환한 감사 레코드가 들어 있는 CSV 파일의 이름과 위치를 지정합니다.|
    |`[DateTime]$start` 및 `[DateTime]$end`|[DateTime]::UtcNow.AddDays(-1) <br/>[DateTime]::UtcNow|감사 로그 검색의 날짜 범위를 지정합니다. 스크립트는 지정된 날짜 범위 내에서 발생한 감사 활동에 대한 레코드를 반환합니다. 예를 들어 2021년 1월에 수행된 작업을 반환하려면 시작 날짜 `"2021-01-01"`과(와) 종료 날짜 `"2021-01-31"`을(를) 사용할 수 있습니다(이중 따옴표로 묶어야 함). 스크립트의 샘플 값은 이전 24시간 동안 수행된 작업에 대한 레코드를 반환합니다. 값에 타임스탬프를 포함하지 않을 경우 기본 타임스탬프는 지정된 날짜에 오전 12:00(자정)입니다.|
-   |`$record`|"AzureActiveDirectory"|검색할 감사 작업의 레코드 유형(*작업* 이라고도 함)을 지정합니다. 이 속성은 활동이 트리거된 서비스 또는 기능을 나타냅니다. 이 변수에 사용할 수 있는 레코드 유형 목록은 [감사 로그 레코드 유형](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#auditlogrecordtype)을 참조하십시오. 레코드 유형 이름 또는 ENUM 값을 사용할 수 있습니다. <br/><br/>**팁** 모든 레코드 유형에 대한 감사 레코드를 반환하려면 `$null` 값을 사용하세요(더블 따옴표 없음).|
+   |`$record`|"AzureActiveDirectory"|검색할 감사 작업의 레코드 유형(*작업* 이라고도 함)을 지정합니다. 이 속성은 활동이 트리거된 서비스 또는 기능을 나타냅니다. 이 변수에 사용할 수 있는 레코드 유형 목록은 [감사 로그 레코드 유형](/office/office-365-management-api/office-365-management-activity-api-schema#auditlogrecordtype)을 참조하십시오. 레코드 유형 이름 또는 ENUM 값을 사용할 수 있습니다. <br/><br/>**팁** 모든 레코드 유형에 대한 감사 레코드를 반환하려면 `$null` 값을 사용하세요(더블 따옴표 없음).|
    |`$resultSize`|5000|**-UnifiedAuditLog** cmdlet을 스크립트(*결과 집합* 이라고 함)에서 호출할 때마다 반환되는 결과 수를 지정합니다. 5,000이라는 값은 cmdlet에서 지원하는 최대값입니다. 이 값은 그대로 두십시오.|
    |`$intervalMinutes`|60|반환되는 5000개 레코드의 한계를 극복하기 위해 이 변수는 지정한 데이터 범위를 가져와 더 작은 시간 간격으로 분할합니다. 이제 전체 날짜 범위가 아닌 각 간격은 명령의 5000 레코드 출력 제한에 따릅니다. 날짜 범위 내의 60분 간격당 5000개 레코드의 기본값은 대부분의 조직에 충분해야 합니다. 그러나 스크립트가 `maximum results limitation reached`이라는 오류를 반환하는 경우 시간 간격(예: 30분 또는 15분)을 줄이고 스크립트를 다시 실행합니다.|
    ||||
 
-   위 표에 나열된 대부분의 변수는 **-UnifiedAuditLog** cmdlet에 대한 매개 변수에 해당합니다. 이러한 매개 변수에 대한 자세한 내용은 [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog)를 참조하십시오.
+   위 표에 나열된 대부분의 변수는 **-UnifiedAuditLog** cmdlet에 대한 매개 변수에 해당합니다. 이러한 매개 변수에 대한 자세한 내용은 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog)를 참조하십시오.
 
 3. 로컬 컴퓨터에서 Windows PowerShell을 열고 수정된 스크립트를 저장한 폴더로 이동합니다.
 
