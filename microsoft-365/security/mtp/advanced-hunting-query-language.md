@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender의 고급 헌팅 쿼리 언어 학습
 description: 첫 번째 위협 헌팅 쿼리를 만들고 고급 헌팅 쿼리 언어의 일반적인 연산자와 기타 요소에 대한 정보를 알아봅니다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 언어, 학습, 첫 번째 쿼리, 원격 분석, 이벤트, 원격 분석, 사용자 지정 검색, schema, kusto, 연산자, 데이터 형식, powershell 다운로드, 쿼리 예제
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 언어, 학습, 첫 번째 쿼리, 원격 분석, 이벤트, 원격 분석, 사용자 지정 감지, schema, kusto, 운영자, 데이터 형식, powershell 다운로드, 쿼리 예제
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 41341a2b5238485fc58021fe4af71cd5c635352c
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: f996cd00cc2f7a1f1de2540f1d6686d26431c4f4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929805"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904082"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>고급 헌팅 쿼리 언어 알아보기
 
@@ -35,11 +35,11 @@ ms.locfileid: "49929805"
 **적용 대상:**
 - Microsoft 365 Defender
 
-고급 헌팅은 [Kusto 쿼리 언어](https://docs.microsoft.com/azure/kusto/query/)를 기반으로 합니다. Kusto 연산자 및 문을 사용하여 특수한 구조의 정보를 찾는 쿼리를 [구성할 수 있습니다.](advanced-hunting-schema-tables.md) 이러한 개념을 보다 잘 이해하려면 첫 번째 쿼리를 실행합니다.
+고급 헌팅은 [Kusto 쿼리 언어](/azure/kusto/query/)를 기반으로 합니다. Kusto 연산자 및 문을 사용하여 특수한 Schema에서 정보를 찾는 [쿼리를 구성할 수 있습니다.](advanced-hunting-schema-tables.md) 이러한 개념을 보다 잘 이해하려면 첫 번째 쿼리를 실행합니다.
 
 ## <a name="try-your-first-query"></a>첫 번째 쿼리 시도하기
 
-Microsoft 365 보안 센터에서  헌팅으로 이동하여 첫 번째 쿼리를 실행합니다. 다음 예제를 사용합니다.
+Microsoft 365 보안 센터에서 헌팅으로 **이동하여** 첫 번째 쿼리를 실행합니다. 다음 예제를 사용합니다.
 
 ```kusto
 // Finds PowerShell execution events that could involve a download
@@ -64,19 +64,19 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 **[고급 헌팅에서 이 쿼리 실행](https://security.microsoft.com/hunting?query=H4sIAAAAAAAEAI2TW0sCURSF93PQfxh8Moisp956yYIgQtLoMaYczJpbzkkTpN_et_dcdPQkcpjbmrXXWftyetKTQG5lKqmMpeB9IJksJJKZDOWdZ8wKeP5wvcm3OLgZbMXmXCmIxjnYIfcAVgYvRi8w3TnfsXEDGAG47pCCZXyP5ViO4KeNbt-Up-hEuJmB6lvButnY8XSL-cDl0M2I-GwxVX8Fe2H5zMzHiKjEVB0eEsnBrszfBIWuXOLrxCJ7VqEBfM3DWUYTkNKrv1p5y3X0jwetemzOQ_NSVuuXZ1c6aNTKRaN8VvWhY9n7OS-o6J5r7mYeQypdEKc1m1qfiqpjCSuspsDntt2J61bEvTlXls5AgQfFl5bHM_gr_BhO2RF1rztoBv2tWahrso_TtzkL93KGMGZVr2pe7eWR-xeZl91f_113UOsx3nDR4Y9j5R6kaCq8ajr_YWfFeedsd27L7it-Z6dAZyxsJq1d9-2ZOSzK3y2NVd8-zUPjtZaJnYsIH4Md7AmdeAcd2Cl1XoURc5PzXlfU8U9P54WcswL6t_TW9Q__qX-xygQAAA&runQuery=true&timeRangeId=week)**
 
 ### <a name="describe-the-query-and-specify-the-tables-to-search"></a>쿼리를 설명하고 검색할 테이블 지정
-쿼리의 시작에 해당 설명을 설명하는 짧은 설명이 추가되었습니다. 이 설명은 나중에 쿼리를 저장하고 조직의 다른 사용자와 공유하기로 결정한 경우 도움이 됩니다. 
+쿼리의 시작부에 해당 설명을 설명하는 짧은 설명이 추가되었습니다. 이 설명은 나중에 쿼리를 저장하고 조직의 다른 사용자와 공유하기로 결정한 경우 도움이 됩니다. 
 
 ```kusto
 // Finds PowerShell execution events that could involve a download
 ```
 
-쿼리 자체는 일반적으로 테이블 이름으로 시작한 다음 파이프()로 시작하는 여러 `|` 요소입니다. 이 예제에서는 먼저 두 테이블의 조합을 만들고 파이프된 요소를 필요한 경우  `DeviceProcessEvents` `DeviceNetworkEvents` 추가합니다.
+쿼리 자체는 일반적으로 테이블 이름으로 시작하고 그 다음에 파이프()로 시작하는 여러 요소가 차례로 `|` 실행됩니다. 이 예제에서는 먼저 두 테이블의 조합을 만들고 , 및 파이프된 요소를 필요한 경우  `DeviceProcessEvents` `DeviceNetworkEvents` 추가합니다.
 
 ```kusto
 union DeviceProcessEvents, DeviceNetworkEvents
 ```
 ### <a name="set-the-time-range"></a>시간 범위 설정
-첫 번째 파이프된 요소는 이전 7일로 범위가 지정되는 시간 필터입니다. 시간 범위를 제한하면 쿼리가 잘 수행될 수 있으며 관리 가능한 결과를 반환하며 시간이 초과되지 않습니다.
+첫 번째 파이프된 요소는 이전 7일로 범위가 지정되는 시간 필터입니다. 시간 범위를 제한하면 쿼리가 잘 수행되도록 하고 관리 가능한 결과를 반환하며 시간이 초과되지 않도록 할 수 있습니다.
 
 ```kusto
 | where Timestamp > ago(7d)
@@ -106,7 +106,7 @@ union DeviceProcessEvents, DeviceNetworkEvents
 ```
 
 ### <a name="customize-result-columns-and-length"></a>결과 열 및 길이 사용자 지정 
-이제 쿼리에서 찾을 데이터를 명확하게 식별하기 위해 결과의 모양을 정의할 수 있습니다. `project` 특정 열을 반환하고 결과 `top` 수를 제한합니다. 이러한 연산자는 결과가 형식이 잘 지정되어 있으며 상당히 크고 처리하기 쉬운지 보장하는 데 도움이 됩니다.
+이제 쿼리에서 찾을 데이터를 명확하게 식별하기 위해 결과의 모양을 정의할 수 있습니다. `project` 특정 열을 반환하고 결과 `top` 수를 제한합니다. 이러한 연산자는 결과가 잘 형식화되어 있으며 상당히 크고 처리하기 쉬운지 보장하는 데 도움이 됩니다.
 
 ```kusto
 | project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
@@ -119,11 +119,11 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 ![고급 헌팅 쿼리 편집기에서 확장 컨트롤의 이미지](../../media/advanced-hunting-expand.png)
 
 >[!TIP]
->쿼리 결과를 차트로 보고 필터를 빠르게 조정할 수 있습니다. 지침은 [쿼리 결과 사용에 대한 읽기](advanced-hunting-query-results.md)
+>쿼리 결과를 차트로 보고 필터를 빠르게 조정할 수 있습니다. 자세한 [지침은 쿼리 결과 사용에 대해 읽어 보시고](advanced-hunting-query-results.md)
 
 ## <a name="learn-common-query-operators"></a>일반적인 쿼리 연산자 학습
 
-첫 번째 쿼리를 실행하고 해당 구성 요소에 대한 일반적인 아이디어를 품고 있습니다. 약간 뒤로 돌아가서 몇 가지 기본을 배워야 합니다. 고급 헌팅에서 사용하는 Kusto 쿼리 언어는 다음을 포함하여 다양한 연산자를 지원합니다.
+첫 번째 쿼리를 실행하고 해당 구성 요소에 대한 일반적인 아이디어를 품고 있습니다. 이제 약간 뒤로 돌아가 몇 가지 기본을 배워야 합니다. 고급 헌팅에서 사용하는 Kusto 쿼리 언어는 다음을 포함하여 다양한 연산자를 지원합니다.
 
 | 연산자 | 설명 및 사용법 |
 |--|--|
@@ -146,19 +146,19 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 
 | 데이터 형식 | 설명 및 쿼리 의미 |
 |--|--|
-| `datetime` | 일반적으로 이벤트 타임스탬프를 나타내는 데이터 및 시간 정보입니다. [지원되는 날짜 및 시간 형식 참조](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalar-data-types/datetime) |
-| `string` | UTF-8의 문자 문자열은 따옴표()나 따옴표()로 `'` `"` 묶습니다. [문자열에 대한 자세한 내용을 읽어 읽습니다.](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalar-data-types/string) |
-| `bool` | 이 데이터 형식은 `true` 지원하거나 `false` 상태입니다. [지원되는 리터럴 및 연산자 참조](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalar-data-types/bool) |
+| `datetime` | 일반적으로 이벤트 타임스탬프를 나타내는 데이터 및 시간 정보입니다. [지원되는 datetime 형식 참조](/azure/data-explorer/kusto/query/scalar-data-types/datetime) |
+| `string` | UTF-8의 문자열은 단일 따옴표( ) 또는 `'` 따옴표()로 `"` 묶입니다. [문자열에 대한 자세한 내용은](/azure/data-explorer/kusto/query/scalar-data-types/string) |
+| `bool` | 이 데이터 형식은 지원 `true` 또는 `false` 상태입니다. [지원되는 리터럴 및 연산자 참조](/azure/data-explorer/kusto/query/scalar-data-types/bool) |
 | `int` | 32비트 정수  |
 | `long` | 64비트 정수 |
 
-이러한 데이터 형식에 대한 자세한 내용은 [Kusto 스칼라 데이터 형식을 읽어보아야 합니다.](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalar-data-types/)
+이러한 데이터 형식에 대한 자세한 내용은 Kusto 스칼라 데이터 형식 [을 읽어 보아야 합니다.](/azure/data-explorer/kusto/query/scalar-data-types/)
 
 ## <a name="get-help-as-you-write-queries"></a>쿼리 작성시 도움말 보기
 다음 기능을 활용하여 쿼리를 더 빠르게 작성하세요.
-- **자동 제안**- 쿼리를 작성할 때 고급 헌팅은 사용자가 제안하는 IntelliSense. 
+- **자동 제안**- 쿼리를 작성할 때 고급 헌팅은 쿼리의 제안을 IntelliSense. 
 - **Schema tree**— 테이블 목록과 해당 열을 포함하는 Schema 표현이 작업 영역 옆에 제공됩니다. 자세한 내용을 보려면 항목 위로 마우스를 가져갑니다. 항목을 두 번 클릭하여 쿼리 편집기에 삽입합니다.
-- **[schema reference](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)**—in-portal reference with table and column descriptions, as well as supported event types `ActionType` (values) and sample queries
+- **[Schema reference](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)**—테이블 및 열 설명과 함께 포털 내 참조와 지원되는 이벤트 유형(값) `ActionType` 및 샘플 쿼리
 
 ## <a name="work-with-multiple-queries-in-the-editor"></a>편집기에서 여러 쿼리 작업
 쿼리 편집기를 사용하여 여러 쿼리를 실험할 수 있습니다. 여러 쿼리를 사용:
@@ -175,11 +175,11 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 ![고급 헌팅 창 이미지](../../media/advanced-hunting-get-started.png)
 
 >[!NOTE]
->기본 쿼리 샘플과는 별도로 특정 위협 헌팅 시나리오에 대한 [공유 쿼리](advanced-hunting-shared-queries.md)에 액세스할 수도 있습니다. 페이지 왼쪽 또는 GitHub 쿼리 리포지토리에서 공유 [쿼리를 탐색합니다.](https://aka.ms/hunting-queries)
+>기본 쿼리 샘플과는 별도로 특정 위협 헌팅 시나리오에 대한 [공유 쿼리](advanced-hunting-shared-queries.md)에 액세스할 수도 있습니다. 페이지 왼쪽 또는 GitHub 쿼리 리포지토리의 공유 [쿼리를 탐색합니다.](https://aka.ms/hunting-queries)
 
 ## <a name="access-query-language-documentation"></a>쿼리 언어 설명서에 액세스
 
-Kusto 쿼리 언어와 지원되는 연산자에 대한 자세한 내용은 [Kusto 쿼리 언어 설명서](https://docs.microsoft.com/azure/kusto/query/)를 참조하세요.
+Kusto 쿼리 언어와 지원되는 연산자에 대한 자세한 내용은 [Kusto 쿼리 언어 설명서](/azure/kusto/query/)를 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 개요](advanced-hunting-overview.md)

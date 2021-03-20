@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: a12b2dcf2de472f43e782e2064944ec774bdb9e1
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 1149d8fa614854bdbbd2c154f0e92f6a9c28ce00
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727262"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904070"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>장치, 전자 메일, 앱 및 ID에서 위협을 찾기
 
@@ -50,7 +50,7 @@ ms.locfileid: "50727262"
 ### <a name="obtain-user-accounts-from-email-addresses"></a>전자 메일 주소에서 사용자 계정 가져오기
 [장치와 전자 메일을 포함하는 테이블](advanced-hunting-schema-tables.md)에서 쿼리를 생성할 때 보낸 사람 또는 받는 사람 전자 메일 주소에서 사용자 계정 이름을 확인해야 할 수 있습니다. 일반적으로 전자 메일 주소의 *local-host를* 사용하여 받는 사람 또는 보낸 사람 주소에 대해 이 작업을 할 수 있습니다.
 
-아래 스니킷에서 [tostring()](https://docs.microsoft.com/azure/data-explorer/kusto/query/tostringfunction) Kusto 함수를 사용하여 열의 받는 사람 전자 메일 주소 바로 앞에 있는 로컬 호스트를 `@` `RecipientEmailAddress` 추출합니다.
+아래 스니킷에서 [tostring()](/azure/data-explorer/kusto/query/tostringfunction) Kusto 함수를 사용하여 열의 받는 사람 전자 메일 주소 바로 앞에 있는 로컬 호스트를 `@` `RecipientEmailAddress` 추출합니다.
 
 ```kusto
 //Query snippet showing how to extract the account name from an email address
@@ -86,7 +86,7 @@ Department, City, Country
 고급 [헌팅 계획은](advanced-hunting-schema-tables.md) 다양한 표에 광범위한 장치 정보를 제공합니다. 예를 들어 [DeviceInfo 테이블은](advanced-hunting-deviceinfo-table.md) 정기적으로 집계되는 이벤트 데이터를 기반으로 포괄적인 장치 정보를 제공합니다. 이 쿼리는 테이블을 사용하여 잠재적으로 손상된 사용자()가 모든 장치에 로그온한 다음 해당 장치에서 트리거된 경고를 `DeviceInfo` `<account-name>` 나열합니다.
 
 >[!Tip]
-> 이 쿼리는 내부 조인을 지정하는 데 사용 하여 에 대한 왼쪽 값 중복을 `kind=inner` [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor) `DeviceId` 방지합니다.
+> 이 쿼리는 내부 조인을 지정하는 데 사용 하여 에 대한 왼쪽 값 중복을 `kind=inner` [](/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor) `DeviceId` 방지합니다.
 
 ```kusto
 DeviceInfo
@@ -198,7 +198,7 @@ DeviceProcessEvents
 | where (TimeProc - TimeEmail) between (0min.. 30min)
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [쿼리 결과 작업](advanced-hunting-query-results.md)

@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에 대한 리소스를 찾는 방법을 알아봅니다.
-ms.openlocfilehash: 21dc0e29e9322b4c009b0f1e63b7bfbc4b92da9a
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 4282da5ca1027eaf041241e90011ead8f2942985
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242703"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905731"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex 소개
 
@@ -42,9 +42,9 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 
 | 해당 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|문서 이해에 대한 자세한 정보|[문서 이해 개요](https://docs.microsoft.com/microsoft-365/contentunderstanding/document-understanding-overview)|
-|양식 처리에 대한 자세한 정보|[양식 처리 개요](https://docs.microsoft.com/microsoft-365/contentunderstanding/form-processing-overview)|
-|두 방법 간의 차이점 이해|[문서 이해와 양식 처리 모델의 차이](https://docs.microsoft.com/microsoft-365/contentunderstanding/difference-between-document-understanding-and-form-processing-model)|
+|문서 이해에 대한 자세한 정보|[문서 이해 개요](./document-understanding-overview.md)|
+|양식 처리에 대한 자세한 정보|[양식 처리 개요](./form-processing-overview.md)|
+|두 방법 간의 차이점 이해|[문서 이해와 양식 처리 모델의 차이](./difference-between-document-understanding-and-form-processing-model.md)|
 |Microsoft Tech 커뮤니티 리소스 센터의 리소스 참조|[SharePoint Syntex - Microsoft 365의 콘텐츠 서비스](https://techcommunity.microsoft.com/t5/sharepoint-syntex/bg-p/SharePointSyntex)|
 |Microsoft Tech 커뮤니티 리소스 센터의 SharePoint Syntex FAQ |[SharePoint Syntex - FAQ](https://resources.techcommunity.microsoft.com/sharepoint-syntex/faq/)|
 |SharePoint Syntex를 다운로드하는 방법 |[SharePoint Syntex 제품 페이지](https://www.microsoft.com/microsoft-365/enterprise/sharepoint-syntex)|
@@ -55,7 +55,7 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|SharePoint Syntex를 사용하기 위한 계획을 시작하는 방법을 알아봅니다. |[SharePoint Syntex 채택: 시작](https://docs.microsoft.com/microsoft-365/contentunderstanding/adoption-getstarted)<br><br>|  
+|SharePoint Syntex를 사용하기 위한 계획을 시작하는 방법을 알아봅니다. |[SharePoint Syntex 채택: 시작](./adoption-getstarted.md)<br><br>|  
 
 ## <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
@@ -63,8 +63,8 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|SharePoint Syntex 설정 및 구성|[Microsoft SharePoint Syntex 설정](https://docs.microsoft.com/microsoft-365/contentunderstanding/set-up-content-understanding)|
-|이미지 태그 지정 및 사용 해제 방법에 대 한 자세한 정보|[SharePoint Syntex에서 이미지 태그 지정](https://docs.microsoft.com/microsoft-365/contentunderstanding/image-tagging)|
+|SharePoint Syntex 설정 및 구성|[Microsoft SharePoint Syntex 설정](./set-up-content-understanding.md)|
+|이미지 태그 지정 및 사용 해제 방법에 대 한 자세한 정보|[SharePoint Syntex에서 이미지 태그 지정](./image-tagging.md)|
 
 ## <a name="models"></a>모델
 
@@ -72,11 +72,11 @@ Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|모델을 사용하여 작업하는 방법 알아보기|[콘텐츠 센터 만들기](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-content-center)<br><br>[분류자 만들기](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-classifier)<br><br>[추출기 만들기](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-an-extractor)<br><br>[양식 처리 모델 만들기](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-form-processing-model)<br><br>[설명 유형](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview)<br><br>[문서 이해 모델 적용](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-model)<br><br>[샘플 모델을 통해 문서 이해 모델에 대해 알아보기](https://docs.microsoft.com/microsoft-365/contentunderstanding/learn-about-document-understanding-models-through-the-sample-model)<br><br>|
-|모델에 보존 레이블 적용|[문서 이해 모델에 보존 레이블 적용](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-retention-label-to-a-model)|
-|추출기를 만들 때 관리되는 메타 데이터 서비스 용어 저장소 분류 사용|[추출기를 만들 때 용어 저장소 분류 활용](https://docs.microsoft.com/microsoft-365/contentunderstanding/leverage-term-store-taxonomy)|
-|모델에 대한 데이터를 확인하는 방법 알아보기|[모델 사용량 분석](https://docs.microsoft.com/microsoft-365/contentunderstanding/model-usage-analytics)|
-|모델을 교육할 때 접근성 모드를 사용하는 방법 알아보기|[SharePoint Syntex 접근성 모드](https://docs.microsoft.com/microsoft-365/contentunderstanding/accessibility-mode)|
+|모델을 사용하여 작업하는 방법 알아보기|[콘텐츠 센터 만들기](./create-a-content-center.md)<br><br>[분류자 만들기](./create-a-classifier.md)<br><br>[추출기 만들기](./create-an-extractor.md)<br><br>[양식 처리 모델 만들기](./create-a-form-processing-model.md)<br><br>[설명 유형](./explanation-types-overview.md)<br><br>[문서 이해 모델 적용](./apply-a-model.md)<br><br>[샘플 모델을 통해 문서 이해 모델에 대해 알아보기](./learn-about-document-understanding-models-through-the-sample-model.md)<br><br>|
+|모델에 보존 레이블 적용|[문서 이해 모델에 보존 레이블 적용](./apply-a-retention-label-to-a-model.md)|
+|추출기를 만들 때 관리되는 메타 데이터 서비스 용어 저장소 분류 사용|[추출기를 만들 때 용어 저장소 분류 활용](./leverage-term-store-taxonomy.md)|
+|모델에 대한 데이터를 확인하는 방법 알아보기|[모델 사용량 분석](./model-usage-analytics.md)|
+|모델을 교육할 때 접근성 모드를 사용하는 방법 알아보기|[SharePoint Syntex 접근성 모드](./accessibility-mode.md)|
 
 ## <a name="premium-services"></a>프리미엄 서비스
 
@@ -84,8 +84,8 @@ SharePoint Syntex 라이선스는 사용자에게 Microsoft 365 환경에서 추
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|
-|간단한 지식 조직 시스템 기반 서식을 사용하여 데이터 집합을 가져오는 방법에 대한 자세한 정보|[SKOS 기반 형식 사용하여 용어 집합 가져오기](https://docs.microsoft.com/microsoft-365/contentunderstanding/import-term-set-skos)<br><br>[SharePoint 분류에 대한 SKOS 형식 참조](https://docs.microsoft.com/microsoft-365/contentunderstanding/skos-format-reference)<br><br>|
-|SharePoint 라이브러리 및 목록에서 콘텐츠 형식을 더욱 일관되게 사용하는 방법을 알아봅니다.|[콘텐츠 형식을 허브로 푸시](https://docs.microsoft.com/microsoft-365/contentunderstanding/push-content-type-to-hub)|
-|사용할 수 있는 용어 저장소 보고서에 대한 자세한 정보|[용어 저장소 보고서](https://docs.microsoft.com/microsoft-365/contentunderstanding/term-store-analytics)|
+|간단한 지식 조직 시스템 기반 서식을 사용하여 데이터 집합을 가져오는 방법에 대한 자세한 정보|[SKOS 기반 형식 사용하여 용어 집합 가져오기](./import-term-set-skos.md)<br><br>[SharePoint 분류에 대한 SKOS 형식 참조](./skos-format-reference.md)<br><br>|
+|SharePoint 라이브러리 및 목록에서 콘텐츠 형식을 더욱 일관되게 사용하는 방법을 알아봅니다.|[콘텐츠 형식을 허브로 푸시](./push-content-type-to-hub.md)|
+|사용할 수 있는 용어 저장소 보고서에 대한 자세한 정보|[용어 저장소 보고서](./term-store-analytics.md)|
 
 ## <a name="see-also"></a>참고 항목

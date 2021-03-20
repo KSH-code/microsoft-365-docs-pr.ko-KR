@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: 관리자는 다중 위치 환경에서 SharePoint 및 OneDrive 서비스를 관리하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 1b6d2cb1cb9511677f717f0e58553abc4473e1ad
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 213070f2f7a04e15a1e2ac3cd9a3ae697b66a718
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692286"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905603"
 ---
 # <a name="administering-a-multi-geo-environment"></a>Multi-Geo 환경 관리
 
@@ -76,17 +76,17 @@ Multi-Geo 테넌트에 대해 하나의 중앙 준수 센터인 [Microsoft 365 �
 
 ## <a name="taxonomy"></a>분류
 
-우리는 지리적 위치에서 엔터프라이즈 관리 메타 데이터에 대한 통합 [분류](https://docs.microsoft.com/sharepoint/managed-metadata)를 지원하며 마스터는 회사의 중앙 위치에서 호스팅됩니다. 전역 분류를 중앙 위치에서 관리하고 위치 관련 용어만 위성 위치의 분류에 추가하는 것이 좋습니다. 전역 분류 용어는 위성 위치에 동기화됩니다.
+우리는 지리적 위치에서 엔터프라이즈 관리 메타 데이터에 대한 통합 [분류](/sharepoint/managed-metadata)를 지원하며 마스터는 회사의 중앙 위치에서 호스팅됩니다. 전역 분류를 중앙 위치에서 관리하고 위치 관련 용어만 위성 위치의 분류에 추가하는 것이 좋습니다. 전역 분류 용어는 위성 위치에 동기화됩니다.
 
-자세한 내용 및 개발자 지침은 [다중 지역 테넌트의 메타 데이터 관리](https://docs.microsoft.com/sharepoint/dev/solution-guidance/multigeo-managedmetadata)를 참조하세요.
+자세한 내용 및 개발자 지침은 [다중 지역 테넌트의 메타 데이터 관리](/sharepoint/dev/solution-guidance/multigeo-managedmetadata)를 참조하세요.
 
 ## <a name="user-profile-application"></a>사용자 프로필 응용 프로그램
 
-[사용자 프로필 응용 프로그램](https://docs.microsoft.com/sharepoint/manage-user-profiles)은 각 지리적 위치에 있습니다. 각 사용자의 프로필 정보는 지리적 위치에서 호스팅되며 해당 지리적 위치의 관리자가 사용할 수 있습니다.
+[사용자 프로필 응용 프로그램](/sharepoint/manage-user-profiles)은 각 지리적 위치에 있습니다. 각 사용자의 프로필 정보는 지리적 위치에서 호스팅되며 해당 지리적 위치의 관리자가 사용할 수 있습니다.
 
-사용자 정의 프로필 속성이 있으면 지리적 위치 간에 동일한 프로필 스키마를 사용하고 모든 지리적 위치에 또는 필요할 때 사용자 지정 프로필 속성을 채우는 것이 좋습니다. 프로그래밍 방식으로 사용자 프로필 데이터를 채우는 방법에 대한 지침은 [대량 사용자 프로필 업데이트 API](https://docs.microsoft.com/sharepoint/dev/solution-guidance/bulk-user-profile-update-api-for-sharepoint-online)를 참조하세요.
+사용자 정의 프로필 속성이 있으면 지리적 위치 간에 동일한 프로필 스키마를 사용하고 모든 지리적 위치에 또는 필요할 때 사용자 지정 프로필 속성을 채우는 것이 좋습니다. 프로그래밍 방식으로 사용자 프로필 데이터를 채우는 방법에 대한 지침은 [대량 사용자 프로필 업데이트 API](/sharepoint/dev/solution-guidance/bulk-user-profile-update-api-for-sharepoint-online)를 참조하세요.
 
-자세한 내용 및 개발자 지침은 [다중 지역 테넌트의 사용자 프로필 작업](https://docs.microsoft.com/sharepoint/dev/solution-guidance/multigeo-userprofileexperience)를 참조하세요.
+자세한 내용 및 개발자 지침은 [다중 지역 테넌트의 사용자 프로필 작업](/sharepoint/dev/solution-guidance/multigeo-userprofileexperience)를 참조하세요.
 
 ## <a name="video-portal"></a>비디오 포털
 
@@ -107,4 +107,4 @@ Multi-Geo 테넌트에 대해 하나의 중앙 준수 센터인 [Microsoft 365 �
 
 ## <a name="yammer"></a>Yammer
 
-Yammer 작업은 Multi-Geo 워크로드가 아니기 때문에 Yammer 저장된 Yammer 테넌트의 중앙 위치에 배치됩니다. Yammer SharePoint 내에 Yammer 저장소 변경을 롤아웃하는 중입니다. Yammer 파일을 저장하면 SharePoint 그룹에 연결된 SharePoint Yammer 배치됩니다. SharePoint 그룹 사이트는 SharePoint 사이트 및 그룹에 설명된 PDL [논리를 기반으로 합니다.](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md#sharepoint-sites-and-groups)
+Yammer 작업은 Multi-Geo 작업 부하가 아니기 때문에 Yammer 저장된 Yammer 테넌트의 중앙 위치에 배치됩니다. Yammer SharePoint 내에 Yammer 저장하는 파일 저장소 변경을 롤아웃하는 중입니다. Yammer SharePoint에 저장된 파일은 SharePoint 사이트와 연결된 sharePoint Yammer 배치됩니다. SharePoint 그룹 사이트는 SharePoint 사이트 및 그룹에 설명된 PDL [논리를 기반으로 합니다.](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md#sharepoint-sites-and-groups)

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 구성 분석기를 사용하여 Microsoft 준수 관리자를 사용하여 빠르게 시작하고 실행하는 방법을 이해합니다.
-ms.openlocfilehash: 272477251efed7ebf13bd2e644869eaf2aad1bc2
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: a77f38dcc0c0215e539c868e47135f5d7194f4b6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454689"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906040"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>준수 관리자용 Microsoft 준수 구성 분석기(미리 보기)
 
@@ -101,7 +101,7 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
     ```
   | 입력 |  국가 또는 지역 | 
   | :------------- | :------------: |
-  | 1  | 아시아 태평양 |
+  | 1 | 아시아 태평양 |
   | 2  | 오스트레일리아 |
   | 3  | 캐나다 |
   | 4  | 유럽(프랑스 제외) /중동/아프리카 |
@@ -167,4 +167,4 @@ DLP의 경우 권장되는  정보를 기반으로 미리 생성된 PowerShell �
 
 MCCA 설치, 설정 및 사용에 대한 자세한 내용은 [GitHub의 README](https://github.com/OfficeDev/MCCA#overview) 지침을 참조하세요(GitHub 계정 필요 없음).
 
-자세한 내용은 Windows PowerShell PowerShell 설명서를 사용하는 방법을 [참조하세요.](https://docs.microsoft.com/powershell/scripting/how-to-use-docs?view=powershell-7) 자세한 내용은 [시작 Windows PowerShell](https://docs.microsoft.com/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7)참조합니다.
+자세한 내용은 Windows PowerShell PowerShell 설명서를 사용하는 방법을 [참조하세요.](/powershell/scripting/how-to-use-docs?view=powershell-7) 자세한 내용은 [시작 Windows PowerShell](/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7)참조합니다.

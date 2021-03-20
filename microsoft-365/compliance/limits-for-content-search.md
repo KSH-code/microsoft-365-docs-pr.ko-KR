@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
 description: 최대 동시 검색 수와 같은 Microsoft 365 규정 준수 센터의 콘텐츠 검색 기능에 적용된 제한에 대해 자세히 알아보겠습니다. 이러한 검색 제한은 Core eDiscovery 사례와 연결된 검색에도 적용됩니다.
-ms.openlocfilehash: 7212175dece6956ac825cef273b06603230736ee
-ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
+ms.openlocfilehash: fd77b12fe8cfc8a53876a3e95ba8f48434ae77b8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50717606"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905880"
 ---
 # <a name="limits-for-content-search"></a>콘텐츠 검색에 대한 제한 
 Microsoft 365 규정 준수 센터의 콘텐츠 검색 도구에는 다양한 제한이 적용됩니다. 여기에는 콘텐츠 검색 페이지에서  실행되는 검색과 **Core eDiscovery** 페이지의 eDiscovery 사례와 연결된 검색이 포함됩니다. 이러한 제한은 조직에 제공된 서비스의 상태 및 품질을 유지하는 데 도움이 됩니다. 검색을 위해 Exchange Online의 전자 메일 메시지 인덱싱과 관련된 제한도 있습니다. 콘텐츠 검색 또는 전자 메일 인덱싱에 대한 제한은 수정할 수 없지만 콘텐츠 검색 계획, 실행 및 문제 해결 시 이러한 제한을 고려할 수 있도록 이러한 제한을 알고 있어야 합니다.
@@ -107,7 +107,7 @@ Microsoft는 모든 조직에서 실행한 검색에 대한 성능 정보를 수
 
 - [eDiscovery에서 부분적으로 인덱싱된 항목 조사](investigating-partially-indexed-items-in-ediscovery.md)
 
-- [SharePoint Online에 대한 검색 제한](https://docs.microsoft.com/sharepoint/search-limits)
+- [SharePoint Online에 대한 검색 제한](/sharepoint/search-limits)
 
 콘텐츠 검색에 대한 자세한 내용은 다음을 참조하세요.
   

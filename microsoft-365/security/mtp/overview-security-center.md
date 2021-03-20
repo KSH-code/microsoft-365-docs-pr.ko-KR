@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 7db9b9762830384370a4bedf220d7a52112ab1ea
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 43e341111ad1cb9b64ac257903d0e79bf24df5bd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727214"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903889"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>통합된 Microsoft 365 보안 센터 개요
 
@@ -34,18 +34,18 @@ ms.locfileid: "50727214"
 
 **적용 대상:**
 
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Microsoft 365 Defender](./microsoft-threat-protection.md)
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
-- [Office 365용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Office 365용 Microsoft Defender](../office-365-security/office-365-atp.md)
 
-> Microsoft 365 Defender를 경험하고 싶나요? 랩 [환경에서 평가하거나](https://aka.ms/mtp-trial-lab) 프로덕션 [환경에서 파일럿](https://aka.ms/m365d-pilotplaybook)프로젝트를 실행할 수 있습니다.
+> Microsoft 365 Defender를 경험하고 싶나요? 랩 [환경에서 평가하거나](./mtp-evaluation.md?ocid=cx-docs-MTPtriallab) 프로덕션 [환경에서 파일럿](./mtp-pilot.md?ocid=cx-evalpilot)프로젝트를 실행할 수 있습니다.
 
 개선된 **Microsoft 365** 보안 센터( )는 중앙 포털에서 전자 메일, 공동 작업, ID 및 장치 위협에 대한 보호, 검색, 조사 및 [https://security.microsoft.com](https://security.microsoft.com) 응답을 결합합니다.    
 
 Microsoft 365 보안 센터는 Microsoft Defender 보안 센터 및 Office 365 보안 및 준수 센터와 같은 기존 Microsoft 보안 포털의 & 제공합니다. 보안 센터에서는 정보에 빠르게 액세스하고, 더 간단한 레이아웃을 사용하며, 관련 정보를 함께 모아 보다 쉽게 사용할 수 있도록 합니다. 이 센터에는 다음이 포함됩니다.
 
-- **[Office 365용 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)** Microsoft Defender for Office 365는 조직이 전자 메일 및 Office 365 리소스를 보호하기 위한 예방, 검색, 조사 및 헌팅 기능 집합으로 엔터프라이즈를 보호하는 데 도움이 됩니다.
-- **[끝점용 Microsoft Defender는](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)** 조직의 장치에 대한 예방 보호, 위반 후 감지, 자동화된 조사 및 응답을 제공합니다.
+- **[Office 365용 Microsoft Defender](../office-365-security/office-365-atp.md)** Microsoft Defender for Office 365는 조직이 전자 메일 및 Office 365 리소스를 보호하기 위한 예방, 검색, 조사 및 헌팅 기능 집합으로 엔터프라이즈를 보호하는 데 도움이 됩니다.
+- **[끝점용 Microsoft Defender는](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)** 조직의 장치에 대한 예방 보호, 위반 후 감지, 자동화된 조사 및 응답을 제공합니다.
 - **[Microsoft 365 Defender는](microsoft-threat-protection.md)** Microsoft 365 보안 포트폴리오를 활용하여 도메인 전체의 위협 데이터를 자동으로 분석하고 단일 대시보드에 대한 공격 그림을 작성하는 Microsoft의 XDR(확장 검색 및 응답) 솔루션의 일부입니다. 
 
 Office 365 보안 및 준수 센터 또는 Microsoft Defender 보안 센터에서 변경된 & 정보가 필요한 경우 다음을 참조하세요.
@@ -103,13 +103,13 @@ Microsoft 365 보안 센터는 Office 365용 Microsoft Defender 및 Endpoint용 
 
 ![사용 권한 & 그룹, 역할 및 장치 & 끝점 역할을 보여 주는 역할 페이지입니다.](../../media/converged-roles-5.png)
 
- Microsoft 365 보안 센터에 액세스는 Azure Active Directory 전역 역할 또는 사용자 지정 역할을 사용하여 구성됩니다. 끝점용 Defender에 대한 자세한 내용은 Microsoft Defender 보안 센터에 대한 사용자 [액세스 할당을 참조합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/assign-portal-access) Office 365용 Defender에 대한 자세한 내용은 Microsoft 365 규정 준수 센터 및 [Microsoft 365](../office-365-security/permissions-microsoft-365-compliance-security.md)보안 센터의 사용 권한을 참조합니다.
+ Microsoft 365 보안 센터에 액세스는 Azure Active Directory 전역 역할 또는 사용자 지정 역할을 사용하여 구성됩니다. 끝점용 Defender에 대한 자세한 내용은 Microsoft Defender 보안 센터에 대한 사용자 [액세스 할당을 참조합니다.](/windows/security/threat-protection/microsoft-defender-atp/assign-portal-access) Office 365용 Defender에 대한 자세한 내용은 Microsoft 365 규정 준수 센터 및 [Microsoft 365](../office-365-security/permissions-microsoft-365-compliance-security.md)보안 센터의 사용 권한을 참조합니다.
 
 - [Microsoft 365 Defender에](mtp-permissions.md) 대한 액세스를 관리하는 방법에 대해 자세히 알아보시고
 - Microsoft 365 보안 센터에서 사용자 지정 역할을 만드는 방법에 대한 자세한 정보 [](custom-roles.md)
 
 > [!NOTE]
-> Microsoft 365 보안 센터의 끝점용 Microsoft [Defender는 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/mtp/mssp-access)보안 센터에서 액세스 권한을 부여하는 방법과 동일한 방식으로 관리되는 보안 서비스 공급자(MSSP)에 대한 액세스 권한을 부여할 수 있도록 지원합니다. [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access)
+> Microsoft 365 보안 센터의 끝점용 Microsoft [Defender는 Microsoft Defender](./mssp-access.md)보안 센터에서 액세스 권한을 부여하는 방법과 동일한 방식으로 관리되는 보안 서비스 공급자(MSSP)에 대한 액세스 권한을 부여할 수 있도록 지원합니다. [](/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access)
 
 ### <a name="integrated-reports"></a>통합 보고서
 
@@ -123,10 +123,10 @@ Microsoft 365 보안 센터는 Office 365용 Microsoft Defender 및 Endpoint용 
 
 카드는 다음 범주로 분류됩니다.
 
-- **ID**- 조직의 ID를 모니터링하고 의심스거나 위험한 동작을 추적합니다. [ID 보호에 대해 자세히 알아보시다.](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)
+- **ID**- 조직의 ID를 모니터링하고 의심스거나 위험한 동작을 추적합니다. [ID 보호에 대해 자세히 알아보시다.](/azure/active-directory/identity-protection/overview-identity-protection)
 - **데이터** - 무단 데이터 공개로 이어질 수 있는 사용자 활동을 추적하는 데 도움이 됩니다.
 - **장치** - 장치의 경고, 위반 활동 및 기타 위협에 대한 최신 정보를 얻습니다.
-- **앱** - 조직에서 클라우드 앱이 어떻게 사용되는지 파악합니다. [Cloud App Security 검색된 앱에 대해 자세히 알아보하세요.](https://docs.microsoft.com/cloud-app-security/discovered-apps)
+- **앱** - 조직에서 클라우드 앱이 어떻게 사용되는지 파악합니다. [Cloud App Security 검색된 앱에 대해 자세히 알아보하세요.](/cloud-app-security/discovered-apps)
 
 ## <a name="threat-analytics-with-better-data-coverage"></a>더 나은 데이터 범위를 제공하는 위협 분석
 다음 Microsoft 365 Defender 위협 분석 통합 환경을 사용하여 새로운 위협을 추적하고 대응합니다.
@@ -175,11 +175,11 @@ Microsoft 365 보안 센터의 기능을 계속 탐색합니다.
 
 - [인시던트 및 경고 관리](manage-incidents.md)
 - [위협 분석을 사용하여 새로운 위협 추적 및 대응](threat-analytics.md)
-- [알림 센터](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)
-- [장치, 전자 메일, 앱 및 ID에서 위협을 찾기](https://docs.microsoft.com/microsoft-365/security/mtp/advanced-hunting-query-emails-devices)
-- [사용자 지정 검색 규칙](https://docs.microsoft.com/microsoft-365/security/mtp/custom-detection-rules)
-- [전자 메일 & 공동 작업 알림](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies)
-- [피싱 공격 시뮬레이션을](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulation-training) 만들고 팀 교육을 위한 [페이로드 만들기](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulation-training-payloads)
+- [알림 센터](./mtp-action-center.md)
+- [장치, 전자 메일, 앱 및 ID에서 위협을 찾기](./advanced-hunting-query-emails-devices.md)
+- [사용자 지정 검색 규칙](./custom-detection-rules.md)
+- [전자 메일 & 공동 작업 알림](../../compliance/alert-policies.md#default-alert-policies)
+- [피싱 공격 시뮬레이션을](../office-365-security/attack-simulation-training.md) 만들고 팀 교육을 위한 [페이로드 만들기](../office-365-security/attack-simulation-training-payloads.md)
  
 ### <a name="related-information"></a>관련 정보
 - [Microsoft 365 보안 센터](overview-security-center.md)

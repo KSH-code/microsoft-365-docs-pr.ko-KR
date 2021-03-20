@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: MailItemsAccessed 사서함 감사 작업을 사용하여 손상된 사용자 계정에 대한 포렌식 조사를 수행합니다.
-ms.openlocfilehash: 15379a5c24ee222cf097e94d46dc46de0e385820
-ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
+ms.openlocfilehash: e9dda101b330f6632e66c226156df3497ac38453
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868006"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903484"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>고급 감사를 사용하여 손상된 계정 조사
 
@@ -31,7 +31,7 @@ ms.locfileid: "49868006"
 
 ## <a name="the-mailitemsaccessed-mailbox-auditing-action"></a>MailItemsAccessed 사서함 감사 작업
 
-새 MailItemsAccessed 작업은 새로운 [고급 감사](advanced-audit.md) 기능의 일부입니다. [Exchange 사서함 감사](https://docs.microsoft.com/office365/securitycompliance/enable-mailbox-auditing#mailbox-auditing-actions)의 일부이며, Office 365 혹은 Microsoft 365 E5 라이선스가 부여된 사용자나 Microsoft 365 E5 준수 추가 기능 구독이 있는 조직에 기본적으로 활성화되어 있습니다.
+새 MailItemsAccessed 작업은 새로운 [고급 감사](advanced-audit.md) 기능의 일부입니다. [Exchange 사서함 감사](/office365/securitycompliance/enable-mailbox-auditing#mailbox-auditing-actions)의 일부이며, Office 365 혹은 Microsoft 365 E5 라이선스가 부여된 사용자나 Microsoft 365 E5 준수 추가 기능 구독이 있는 조직에 기본적으로 활성화되어 있습니다.
 
 MailItemsAccessed 사서함 감사 작업은 POP, IMAP, MAPI, EWS, Exchange ActiveSync 및 REST와 같은 모든 메일 프로토콜을 포함합니다. 또한 *동기화* 및 *바인딩* 에 대한 두 가지 메일 액세스 유형을 다룹니다.
 
@@ -67,7 +67,7 @@ Windows 또는 Mac용 Outlook 클라이언트의 데스크톱 버전에서 사�
 
 사서함 감사는 전자 메일 메시지로의 액세스에 대한 감사 레코드를 생성하여 전자 메일 메시지가 손상되지 않았음을 확신할 수 있도록 합니다. 이러한 이유로 일부 데이터에 액세스했는지 확실하지 않은 경우 모든 메일 액세스 활동을 기록하여 액세스한 것으로 가정합니다.
 
-포렌식 목적의 MailItemsAccessed 감사 레코드 사용은 일반적으로 데이터 침해가 해결되고 공격자가 제거된 후에 수행됩니다. 조사를 시작하려면 손상된 사서함 집합을 확인 하고, 공격자가 조직의 사서함에 액세스할 때의 시간 프레임을 확인해야 합니다. 그런 다음 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)에서 **Search-UnifiedAuditLog** 혹은 **Search-MailboxAuditLog** cmdlet을 사용하여 데이터 위반에 해당하는 감사 레코드를 검색할 수 있습니다. 
+포렌식 목적의 MailItemsAccessed 감사 레코드 사용은 일반적으로 데이터 침해가 해결되고 공격자가 제거된 후에 수행됩니다. 조사를 시작하려면 손상된 사서함 집합을 확인 하고, 공격자가 조직의 사서함에 액세스할 때의 시간 프레임을 확인해야 합니다. 그런 다음 [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)에서 **Search-UnifiedAuditLog** 혹은 **Search-MailboxAuditLog** cmdlet을 사용하여 데이터 위반에 해당하는 감사 레코드를 검색할 수 있습니다. 
 
 다음의 명령 중 하나를 실행하여 MailItemsAccessed 감사 레코드를 검색할 수 있습니다.
 
@@ -192,4 +192,4 @@ Search-MailboxAuditLog -Identity <user> -StartDate 01/06/2020 -EndDate 01/20/202
 
 ```powershell
 Search-MailboxAuditLog -Identity admin -ShowDetails -Operations MailItemsAccessed -ResultSize 2000 | Select LastAccessed,Operation,AuditOperationsCountInAggregatedRecord,ClientInfoString
-``` 
+```

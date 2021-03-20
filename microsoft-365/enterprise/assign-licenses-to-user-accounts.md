@@ -25,21 +25,21 @@ search.appverid:
 - MOE150
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
-description: 개별적으로 또는 그룹 구성원 자격에 따라 사용자 계정에 Microsoft 365 라이선스를 할당하는 방법을 설명 합니다.
-ms.openlocfilehash: a2eed7b3597dcc2531834456a9b05f5aa1b07a23
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+description: 개별적으로 또는 그룹 구성원 자격에 따라 사용자 계정에 Microsoft 365 라이선스를 할당하는 방법에 대해 설명
+ms.openlocfilehash: 6bba3cd767787f450840c5cae6c30f2be21bed1b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326510"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905443"
 ---
 # <a name="assign-microsoft-365-licenses-to-user-accounts"></a>사용자 계정에 Microsoft 365 라이선스 할당
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
-클라우드 전용 ID 모델의 경우 만드는 방법에 따라 Microsoft 365 라이선스를 만들 때 사용자 계정에 할당할 수 있습니다.
+클라우드 전용 ID 모델의 경우 만든 방법에 따라 사용자 계정에 Microsoft 365 라이선스를 할당할 수 있습니다.
 
-하이브리드 ID 모델의 경우 AD DS(Active Directory 도메인 서비스) 사용자 계정이 처음으로 동기화될 때 위치 또는 Microsoft 365 라이선스가 자동으로 할당되지 않습니다. **라이선스를 할당하기 전이나 할당하기 전에 사용자 위치로 각 사용자 계정을 구성해야 합니다.**
+하이브리드 ID 모델의 경우 AD DS(Active Directory 도메인 서비스) 사용자 계정이 처음으로 동기화될 때 위치 또는 Microsoft 365 라이선스가 자동으로 할당되지 않습니다. **라이선스 할당 전 또는 할당과 함께 사용자 위치로 각 사용자 계정을 구성해야 합니다.**
 
 두 경우 모두 사용자가 전자 메일 및 Microsoft Teams와 같은 Microsoft 365 서비스에 액세스할 수 있도록 사용자 계정에 라이선스를 할당해야 합니다.
 
@@ -47,7 +47,7 @@ ms.locfileid: "48326510"
 
 개별 사용자 계정에 Microsoft 365 라이선스를 할당하기 위해 다음을 사용할 수 있습니다.
 
-- [Microsoft 365 관리 센터](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+- [Microsoft 365 관리 센터](../admin/manage/assign-licenses-to-users.md)
 - [PowerShell](assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)
 - Azure AD 관리 센터
 
@@ -61,13 +61,13 @@ Azure AD에서 보안 그룹을 구성하여 구독 집합의 라이선스를 �
 >Azure B2B 계정이 포함된 그룹에 대해 그룹 기반 라이선싱을 구성해서는 안 됩니다.
 >
 
-자세한 내용은 Azure AD에서 그룹 [기반 라이선싱을 참조하세요.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal)
+자세한 내용은 Azure AD의 그룹 [기반 라이선싱을 참조하세요.](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal)
 
 ## <a name="next-steps"></a>다음 단계
 
-라이선스가 할당된 적절한 사용자 계정 집합을 사용하면 이제 다음을 할 수 있습니다.
+라이선스가 할당된 적절한 사용자 계정 집합을 통해 이제 다음을 할 준비가 된 것입니다.
 
-- [보안 구현](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
-- [Microsoft 365 앱과 같은 클라이언트 소프트웨어 배포](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
+- [보안 구현](../security/office-365-security/security-roadmap.md)
+- [Microsoft 365 앱과 같은 클라이언트 소프트웨어 배포](/DeployOffice/deployment-guide-microsoft-365-apps)
 - [장치 관리 설정](device-management-roadmap-microsoft-365.md)
 - [서비스 및 응용 프로그램 구성](configure-services-and-applications.md)

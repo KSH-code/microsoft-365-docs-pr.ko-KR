@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 법률, 비즈니스 또는 규제 의무에 대한 높은 가치의 콘텐츠를 관리하는 Microsoft 365의 레코드 관리 솔루션이 필요하지만 어디서 시작해야 하나요? 시작을 도와주는 실질적인 지침을 참조하세요.
-ms.openlocfilehash: 0dc0258ed53aa07df778f5d0883b02b7635f50d8
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: a757cabf13e85731bd16ccd84f1eea3dbe7e432a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682725"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906010"
 ---
 # <a name="get-started-with-records-management"></a>레코드 관리 시작
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니스 또는 규제 의무에 대한 조직의 높은 가치의 콘텐츠 관리를 시작할 준비가 되었나요? 시작하려면 다음과 같은 고급 지침을 사용하세요.
 
@@ -45,7 +45,7 @@ Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니
 
 다양한 구독 지원 레코드 관리 및 사용자에 대한 라이선스 요구 사항은 사용하는 기능에 따라 다릅니다.
 
-사용자에게 Microsoft 365 규정 준수 기능을 사용하도록 라이선스를 부여하는 옵션을 보려면 [보안 및 규정 준수에 대한 Microsoft 365 라이선스 지침](https://aka.ms/ComplianceSD)을 참조하세요. 레코드 관리에 대한 자세한 내용은 기능 수준 라이선스 요구 사항에 대한 [레코드 관리](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management) 섹션 및 관련 PDF 또는 Excel 다운로드를 참조하세요.
+사용자에게 Microsoft 365 규정 준수 기능을 사용하도록 라이선스를 부여하는 옵션을 보려면 [보안 및 규정 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조하세요. 레코드 관리에 대한 자세한 내용은 기능 수준 라이선스 요구 사항에 대한 [레코드 관리](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management) 섹션 및 관련 PDF 또는 Excel 다운로드를 참조하세요.
 
 ## <a name="permissions-required-for-records-management"></a>레코드 관리에 필요한 사용 권한
 
@@ -53,9 +53,9 @@ Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니
 
 읽기 전용 역할의 경우 새 역할 그룹을 생성하고 **보기 전용 레코드 관리** 역할을 이 그룹에 추가할 수 있습니다. 
 
-역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center#roles-in-the-security--compliance-center)을 참조하세요.
+역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center)을 참조하세요.
 
-사용자에게 역할 그룹을 추가하고 역할을 할당하는 방법에 대한 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요.
+사용자에게 역할 그룹을 추가하고 역할을 할당하는 방법에 대한 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
 
 해당 권한은 레코드를 선언하고 처리를 관리하는 보존 레이블을 만들고 구성하고 적용하는 경우에만 필요합니다. 해당 레이블을 구성하는 사용자는 콘텐츠에 대한 액세스 권한이 필요하지 않습니다.
 

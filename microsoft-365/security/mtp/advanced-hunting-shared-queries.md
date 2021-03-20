@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender 고급 헌팅에서 공유 쿼리 사용
 description: 미리 정의된 쿼리 및 공유 쿼리를 사용하여 위협 요소를 즉시 헌팅합니다. 쿼리를 공용 또는 조직에 공유합니다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 사용자 지정 검색, schema, kusto, github 리포지터, 내 쿼리, 공유 쿼리
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 사용자 지정 감지, schema, kusto, github 리포지터, 내 쿼리, 공유 쿼리
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7dcf446b5e1014d411fc8af08dd15506a2b04e49
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: ccf2b52c744e2ae8e7ccfc631268d79a375c91d4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932193"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904045"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>고급 헌팅에서 공유 쿼리 사용
 
@@ -66,13 +66,13 @@ ms.locfileid: "49932193"
 2. **삭제** 선택하고 삭제를 확인합니다. 또는 **이름 바꾸기** 를 선택하고 쿼리의 새 이름을 입력합니다.
 
 ## <a name="create-a-direct-link-to-a-query"></a>쿼리에 대한 직접 링크 만들기
-고급 헌팅 쿼리 편집기에서 쿼리를 직접 여는 링크를 생성하려면 쿼리를 마무리하고 공유 **링크를 선택합니다.**
+고급 헌팅 쿼리 편집기에서 쿼리를 직접 여는 링크를 생성하려면 쿼리를 마무리하고 링크 **공유 를 선택합니다.**
 
 ## <a name="access-queries-in-the-github-repository"></a>GitHub 리포지토리의 쿼리에 액세스  
 Microsoft 보안 연구원은 [GitHub의 지정된 공용 저장소](https://aka.ms/hunting-queries)에서 고급 헌팅 쿼리를 정기적으로 공유 합니다. 이 리포지토리는 참가 기회가 열려 있습니다. 참가하려면 [무료로 GitHub에 가입](https://github.com/)하세요.
 
 >[!tip]
->또한 Microsoft 보안 연구원들은 최신 위협과 관련 된 활동과 지표를 찾는 데 사용할 수 있는 고급 검색 쿼리를 제공합니다. 이러한 쿼리는 Microsoft Defender 보안 센터의 [위협 분석](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) 보고서의 일부로 제공됩니다.
+>또한 Microsoft 보안 연구원들은 최신 위협과 관련 된 활동과 지표를 찾는 데 사용할 수 있는 고급 검색 쿼리를 제공합니다. 이러한 쿼리는 Microsoft Defender 보안 센터의 [위협 분석](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) 보고서의 일부로 제공됩니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 개요](advanced-hunting-overview.md)

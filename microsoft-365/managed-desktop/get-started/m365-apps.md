@@ -10,12 +10,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 26e62d6e59f1f90e35d9e18e6eed917a66876645
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: f8dd666c41863192d866693c6860a64064f846e6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453924"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904855"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>엔터프라이즈용 Microsoft 365 앱
 
@@ -47,7 +47,7 @@ Microsoft Managed Desktop은 32비트 버전의 엔터프라이즈용 M365 앱 �
 
 ## <a name="updates-to-microsoft-365-apps"></a>Microsoft 365 앱 업데이트
 
-Microsoft 365 앱은 월별 엔터프라이즈 채널에서 [업데이트로 설정됩니다.](https://docs.microsoft.com/deployoffice/overview-update-channels#monthly-enterprise-channel-overview) 이 방법은 매월 사용자에게 새로운 Office 기능을 제공하지만 예측 가능한 릴리스 일정에 따라 매월 하나의 업데이트만 받게 됩니다. 업데이트는 두 번째 화요일에 릴리스됩니다. 이러한 업데이트에는 기능, 보안 및 품질 업데이트가 포함됩니다. 이러한 업데이트는 자동으로 발생하며 해당 특정 채널에 대한 Office CDN에서 직접 끌어오게 됩니다.
+Microsoft 365 앱은 월별 엔터프라이즈 채널에서 [업데이트로 설정됩니다.](/deployoffice/overview-update-channels#monthly-enterprise-channel-overview) 이 방법은 매월 사용자에게 새로운 Office 기능을 제공하지만 예측 가능한 릴리스 일정에 따라 매월 하나의 업데이트만 받게 됩니다. 업데이트는 두 번째 화요일에 릴리스됩니다. 이러한 업데이트에는 기능, 보안 및 품질 업데이트가 포함됩니다. 이러한 업데이트는 자동으로 발생하며 해당 특정 채널에 대한 Office CDN에서 직접 끌어오게 됩니다.
 
 Microsoft Managed Desktop은 각 릴리스에 시차를 두어 작업 환경에서 발생할 수 있는 문제를 식별합니다. Microsoft 365 앱 제품 그룹에서 릴리스 후 28일 후에 출시를 완료합니다. Microsoft Managed Desktop은 다음과 같이 유효성 검사 및 테스트 시간을 허용하도록 업데이트 릴리스를 다른 그룹으로 예약합니다. 
 
@@ -56,7 +56,7 @@ Microsoft Managed Desktop은 각 릴리스에 시차를 두어 작업 환경에�
 - 빠르기: 3일
 - 광범위: 7일
 
-Microsoft Managed Desktop은 장치에 [](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) 대한 업데이트 마감일을 7일로 설정합니다. 업데이트를 사용할 수 있는 경우 7일 이내에 설치해야 합니다. 마감일 [](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) 12시간 전에 응용 프로그램, 시스템 트레이의 여러 위치에서 업데이트가 필요하다는 알림을 받고 마감일 이전에 15분간 경고를 받게 됩니다. 업데이트를 완료하려면 모든 Microsoft 365 앱을 닫아야 합니다.
+Microsoft Managed Desktop은 장치에 [](/deployoffice/configure-update-settings-microsoft-365-apps) 대한 업데이트 마감일을 7일로 설정합니다. 업데이트를 사용할 수 있는 경우 7일 이내에 설치해야 합니다. 마감일 [](/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) 12시간 전에 응용 프로그램, 시스템 트레이의 여러 위치에서 업데이트가 필요하다는 알림을 받고 마감일 이전에 15분간 경고를 받게 됩니다. 업데이트를 완료하려면 모든 Microsoft 365 앱을 닫아야 합니다.
 
 ### <a name="pausing-or-rolling-back-an-update"></a>업데이트의 페이스킹 또는 롤백
 
@@ -68,7 +68,7 @@ Microsoft Managed Desktop은 장치에 [](https://docs.microsoft.com/deployoffic
 
 배달 최적화는 Windows 10에서 사용할 수 있는 피어 투 피어 배포 기술입니다. 이 기능을 사용하면 장치가 인터넷을 통해 Microsoft에서 다운로드한 업데이트와 같은 콘텐츠를 공유할 수 있습니다. 장치를 사용하면 Microsoft에서 업데이트를 완전히 다운로드하지 않고도 로컬 네트워크의 다른 장치에서 업데이트의 일부를 다운로드할 수 있기 때문에 네트워크 대역폭을 줄이는 데 도움이 될 수 있습니다.
 
-[배달 최적화는](https://docs.microsoft.com/deployoffice/delivery-optimization) Windows 10 Enterprise 또는 Windows 10 Education 에디션을 실행하는 디바이스에서 기본적으로 사용하도록 설정됩니다. 
+[배달 최적화는](/deployoffice/delivery-optimization) Windows 10 Enterprise 또는 Windows 10 Education 에디션을 실행하는 디바이스에서 기본적으로 사용하도록 설정됩니다. 
 
 ## <a name="settings-managed-by-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 관리되는 설정
 
@@ -76,7 +76,7 @@ Microsoft는 서비스의 일부로 일부 설정을 관리합니다. Microsoft 
 
 ### <a name="update-settings"></a>설정 업데이트
 
-Microsoft Managed Desktop은 [관리되는](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) 장치에 대한 모든 업데이트 설정을 유지 관리하며 이러한 설정을 수정해야 합니다.
+Microsoft Managed Desktop은 [관리되는](/deployoffice/configure-update-settings-microsoft-365-apps) 장치에 대한 모든 업데이트 설정을 유지 관리하며 이러한 설정을 수정해야 합니다.
 
 ### <a name="set-updates-to-occur-automatically"></a>자동으로 실행하도록 업데이트 설정
 
@@ -88,7 +88,7 @@ Microsoft Managed Desktop은 [관리되는](https://docs.microsoft.com/deployoff
 
 **기본값:** 7일
 
-**UpdateDeadline** 정책은 장치에 업데이트가 적용되기 전에 사용자가 가지는 유예 기간을 구성하는 데 사용됩니다. 또한 이 마감일 [](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) 정책은 사용자에게 알림을 트리거하여 장치에 필요한 변경 내용을 알릴 수 있습니다.  
+**UpdateDeadline** 정책은 장치에 업데이트가 적용되기 전에 사용자가 가지는 유예 기간을 구성하는 데 사용됩니다. 또한 이 마감일 [](/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) 정책은 사용자에게 알림을 트리거하여 장치에 필요한 변경 내용을 알릴 수 있습니다.  
 
 ### <a name="defer-updates-on-a-device-for-a-period"></a>장치에 대한 업데이트 지연 기간
 
@@ -103,7 +103,7 @@ Microsoft Managed Desktop은 [관리되는](https://docs.microsoft.com/deployoff
 
 **기본값:** False
 
-Microsoft Managed Desktop 장치에서 "업데이트 알림 숨기기" 설정은 업데이트가 필요한 [](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) 경우 사용자에게 알리는 최상의 업데이트 환경을 제공하기 위해 **False로** 설정됩니다.
+Microsoft Managed Desktop 장치에서 "업데이트 알림 숨기기" 설정은 업데이트가 필요한 [](/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) 경우 사용자에게 알리는 최상의 업데이트 환경을 제공하기 위해 **False로** 설정됩니다.
 
 ### <a name="specify-a-location-to-look-for-updates"></a>업데이트를 찾을 위치 지정
 
@@ -150,7 +150,7 @@ Microsoft Managed Desktop에서 사용자 대신 선택적으로 구성할 수 �
 
 ## <a name="settings-you-manage"></a>관리하는 설정
 
-Microsoft Managed Desktop이 아직 서비스의 일부로 설정하지 않은 다른 많은 정책이 있습니다. Office 클라우드 정책 서비스를 사용하는 Microsoft Intune을 사용하여 이러한 [정책을 구성할 수](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service#how-the-policy-configuration-is-applied) 있습니다. 이러한 정책을 설정하기 위해 다음 단계를 수행합니다.
+Microsoft Managed Desktop이 아직 서비스의 일부로 설정하지 않은 다른 많은 정책이 있습니다. Office 클라우드 정책 서비스를 사용하는 Microsoft Intune을 사용하여 이러한 [정책을 구성할 수](/DeployOffice/overview-office-cloud-policy-service#how-the-policy-configuration-is-applied) 있습니다. 이러한 정책을 설정하기 위해 다음 단계를 수행합니다.
 
 1.  Microsoft Endpoint Manager 관리 센터에 로그인합니다.
 2.  Office **앱에 > 정책 및 앱** > 선택

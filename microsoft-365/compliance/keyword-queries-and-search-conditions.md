@@ -22,12 +22,12 @@ ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365의 검색 및 eDiscovery 도구를 사용하여 검색할 수 있는 전자 메일 및 파일 속성에 대해 자세히 알아보습니다.
-ms.openlocfilehash: d5b558df15cde6be6f87663dcb999efc6ec66f7e
-ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
+ms.openlocfilehash: e3282cd5b8bcc493e7c423db72c086f953d114ec
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50604034"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903586"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search-and-ediscovery"></a>콘텐츠 검색 및 eDiscovery에 대한 키워드 쿼리 및 검색 조건
 
@@ -42,7 +42,7 @@ ms.locfileid: "50604034"
 콘텐츠 검색을 만드는 방법에 대한 단계별 지침은 [콘텐츠 검색을 참조하세요.](content-search.md)
 
 > [!NOTE]
-> Microsoft 365 규정 준수 센터의 콘텐츠 검색 및 Security & Compliance Center PowerShell의 해당 **\* -ComplianceSearch** cmdlet은 KQL(키워드 쿼리 언어)을 사용합니다. 자세한 내용은 키워드 쿼리 언어 [구문 참조 를 참조하세요.](https://go.microsoft.com/fwlink/?LinkId=269603) 
+> Microsoft 365 규정 준수 센터의 콘텐츠 검색 및 Security & Compliance Center PowerShell의 해당 **\* -ComplianceSearch** cmdlet은 KQL(키워드 쿼리 언어)을 사용합니다. 자세한 내용은 키워드 쿼리 언어 [구문 참조 를 참조하세요.](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference) 
   
 ## <a name="searchable-email-properties"></a>검색 가능한 전자 메일 속성
 
@@ -91,7 +91,7 @@ ms.locfileid: "50604034"
 
 다음 표에는 보안 & 준수 센터의 콘텐츠 검색 기능을 사용하여 검색하거나 **New-ComplianceSearch 또는 Set-ComplianceSearch** cmdlet을 사용하여 검색할  수 있는 SharePoint 및 비즈니스용 OneDrive 속성 중 일부가 나열되어 있습니다. 이 표에는 각 속성에 대한  _property:value_ 구문의 예와 예제에서 반환된 검색 결과에 대한 설명이 포함되어 있습니다. 
   
-검색할 수 있는 SharePoint 속성의 전체 목록은 SharePoint의 크롤링 속성 및 관리 속성 [개요를 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=331599) 쿼리 가능 열에  **예로** 표시된 속성을 검색할 수 있습니다. 
+검색할 수 있는 SharePoint 속성의 전체 목록은 SharePoint의 크롤링 속성 및 관리 속성 [개요를 참조하세요.](/SharePoint/technical-reference/crawled-and-managed-properties-overview) 쿼리 가능 열에  **예로** 표시된 속성을 검색할 수 있습니다. 
   
 | 속성 | 속성 설명 | 예제 | 예제에서 반환된 검색 결과 |
 |:-----|:-----|:-----|:-----|
@@ -161,7 +161,7 @@ Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 S
 
   그런 다음 검색 속성의 ID를 사용하여 사용자 지정 중요한 데이터 형식이 포함된 문서를 반환할 수 있습니다. 예를 들면 다음과 `SensitiveType` 같습니다. `SensitiveType:7e13277e-6b04-3b68-94ed-1aeb9d47de37`
   
-- Exchange Online 사서함에서 미사용 중요한 데이터를 검색하는 데 중요한 정보 유형 및 검색 속성을 사용할 `SensitiveType` 수 없습니다. 여기에는 모든 콘텐츠가 사서함에 저장되어 있기 때문에 1:1 채팅 메시지, 1:N 그룹 채팅 메시지 및 Microsoft 팀의 팀 채널 대화가 포함됩니다. 그러나 DLP(데이터 손실 방지) 정책을 사용하여 전송되는 중요한 전자 메일 데이터를 보호할 수 있습니다. 자세한 내용은 [데이터](data-loss-prevention-policies.md) 손실 방지 정책 개요 및 개인 데이터 [검색 및 찾기를 참조하세요.](search-for-and-find-personal-data.md)
+- Exchange Online 사서함에서 미사용 중요한 데이터를 검색하는 데 중요한 정보 유형 및 검색 속성을 사용할 `SensitiveType` 수 없습니다. 여기에는 모든 콘텐츠가 사서함에 저장되어 있기 때문에 1:1 채팅 메시지, 1:N 그룹 채팅 메시지 및 Microsoft 팀의 팀 채널 대화가 포함됩니다. 그러나 DLP(데이터 손실 방지) 정책을 사용하여 전송되는 중요한 전자 메일 데이터를 보호할 수 있습니다. 자세한 내용은 [데이터](data-loss-prevention-policies.md) 손실 방지 정책 개요 및 개인 데이터 [검색 및 찾기를 참조하세요.](/compliance/regulatory/gdpr)
   
 ## <a name="search-operators"></a>검색 연산자
 
@@ -227,7 +227,7 @@ Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 S
 |:-----|:-----|
 |메시지 종류| 검색할 메시지의 유형입니다. Kind 전자 메일 속성과 같은 속성입니다. 사용 가능한 값:  <br/><br/>  contacts  <br/>  docs  <br/>  전자 메일  <br/>  externaldata  <br/>  팩스  <br/>  im  <br/>  journals  <br/>  모임  <br/>  microsoftteams  <br/>  notes  <br/>  posts  <br/>  rssfeeds  <br/>  작업  <br/>  voicemail|
 |참가자|전자 메일 메시지의 모든 사용자 필드입니다. 이러한 필드는 From, To, Cc 및 Bcc입니다.|
-|유형|전자 메일 항목의 메시지 클래스 속성입니다. ItemClass 전자 메일 속성과 같은 속성입니다. 또한 다중값 조건입니다. 따라서 여러 메시지 클래스를 선택하려면 **Ctrl** 키를 보유한 다음 드롭다운 목록에서 조건에 추가할 메시지 클래스를 두 개 이상 클릭합니다. 목록에서 선택하는 각 메시지 클래스는 해당 검색 쿼리의 **OR** 연산자에 의해 논리적으로 연결됩니다.  <br/> Exchange에서 사용하며 메시지 클래스 목록에서 선택할 수 있는 메시지 클래스 및 해당  메시지 클래스 ID 목록은 항목 형식 및 메시지 클래스 를 [참조하세요.](https://go.microsoft.com/fwlink/?linkid=848143)|
+|유형|전자 메일 항목의 메시지 클래스 속성입니다. ItemClass 전자 메일 속성과 같은 속성입니다. 또한 다중값 조건입니다. 따라서 여러 메시지 클래스를 선택하려면 **Ctrl** 키를 보유한 다음 드롭다운 목록에서 조건에 추가할 메시지 클래스를 두 개 이상 클릭합니다. 목록에서 선택하는 각 메시지 클래스는 해당 검색 쿼리의 **OR** 연산자에 의해 논리적으로 연결됩니다.  <br/> Exchange에서 사용하며 메시지 클래스 목록에서 선택할 수 있는 메시지 클래스 및 해당  메시지 클래스 ID 목록은 항목 형식 및 메시지 클래스 를 [참조하세요.](/office/vba/outlook/Concepts/Forms/item-types-and-message-classes)|
 |수신됨|받는 사람이 전자 메일 메시지를 받은 날짜입니다. Received 전자 메일 속성과 같은 속성입니다.|
 |받는 사람|전자 메일 메시지의 모든 받는 사람 필드 이러한 필드는 To, Cc 및 Bcc입니다.|
 |보낸 사람|전자 메일 메시지의 보낸 사람입니다.|

@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 4d29f4f3df3d65ad72a19f059763523d7f7cba31
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 5f356c5861586d4435a619a056a6fa1a0afc53f0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597003"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904141"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 고급 헌팅 쿼리 마이그레이션
 
@@ -73,7 +73,7 @@ ms.locfileid: "50597003"
 다음 표를 사용하여 열이 및 테이블의 열에 매핑되는 `DeviceAlertEvents` 방법을 `AlertInfo` 확인할 수 `AlertEvidence` 있습니다.
 
 >[!TIP]
->다음 표의 열 외에도 이 표에는 다양한 원본의 경고에 대한 보다 전체적인 그림을 제공하는 다른 여러 `AlertEvidence` 열이 포함되어 있습니다. [모든 AlertEvidence 열 보기](advanced-hunting-alertevidence-table.md) 
+>표에는 다음 표의 열 외에도 다양한 원본의 경고에 대한 보다 전체적인 그림을 제공하는 다른 여러 열이 `AlertEvidence` 포함되어 있습니다. [모든 AlertEvidence 열 보기](advanced-hunting-alertevidence-table.md) 
 
 | DeviceAlertEvents 열 | Microsoft 365 Defender에서 동일한 데이터를 찾을 수 있는 위치 |
 |-------------|-----------|-------------|-------------|
@@ -182,4 +182,4 @@ AlertInfo
 - [Microsoft 365 Defender 켜기](advanced-hunting-query-language.md)
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)
-- [끝점용 Microsoft Defender의 고급 헌팅](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
+- [끝점용 Microsoft Defender의 고급 헌팅](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)

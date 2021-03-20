@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
 description: 이 문서에서는 Microsoft 365용 PowerShell을 사용하여 사용자 계정에 관리자 역할을 할당하는 방법을 쉽고 빠르게 학습합니다.
-ms.openlocfilehash: 7e3292ab26924384beb8d0c7450b7665dccd48fa
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 84e785052c970ca15487540c3904eacdd0e9ca28
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754201"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905383"
 ---
 # <a name="assign-admin-roles-to-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 통해 Microsoft 365 사용자 계정에 관리자 역할 할당
 
@@ -34,18 +34,18 @@ ms.locfileid: "48754201"
 Microsoft 365용 PowerShell을 사용하여 사용자 계정에 역할을 쉽게 할당할 수 있습니다.
 
 >[!Note]
->Microsoft 365 관리 센터를 통해 사용자 계정에 관리자 역할을 할당하는 방법을 학습합니다. [](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles)
+>Microsoft 365 관리 센터를 통해 사용자 계정에 관리자 역할을 할당하는 방법을 학습합니다. [](../admin/add-users/assign-admin-roles.md)
 >
->추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/add-users/)
+>추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 
 먼저 전역 관리자 계정을 사용하여 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
-그런 다음 역할에 추가할 사용자 계정의 로그인 이름(예: fredsm contoso.com)을 \@ 식별합니다. 이를 UPN(사용자 계정 이름)이라고도 합니다.
+그런 다음 역할에 추가할 사용자 계정의 로그인 이름(예: fredsm \@ contoso.com)을 식별합니다. 이를 UPN(사용자 계정 이름)이라고도 합니다.
 
-다음으로 역할의 이름을 결정 합니다. [Azure Active Directory에서 관리자 역할 권한을 참조하세요.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
+그런 다음 역할의 이름을 확인 합니다. [Azure Active Directory의 관리자 역할 권한을 참조하세요.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 
 >[!Note]
 >이 문서의 메모에 주의하세요. 일부 역할 이름은 Azure AD(Azure Active Directory) PowerShell과 다릅니다. 예를 들어 Microsoft 365 관리 센터의 *SharePoint* 관리자 역할은 Azure AD PowerShell의 *SharePoint* 서비스 관리자입니다.
@@ -100,7 +100,7 @@ Get-AzureADDirectoryRole | Where { $_.DisplayName -eq $roleName } | Get-AzureADD
   
 - 구성할 사용자 계정
     
-    사용자 계정을 지정하려면 해당 표시 이름을 결정해야 합니다. 전체 계정 목록을 얻은 다음 명령을 사용하세요.
+    사용자 계정을 지정하려면 해당 표시 이름을 결정해야 합니다. 계정의 전체 목록을 표시하기 위해 다음 명령을 사용하세요.
     
   ```powershell
   Get-MsolUser -All | Sort DisplayName | Select DisplayName | More
@@ -134,9 +134,9 @@ $roleName="<The admin role name you want to assign to the account>"
 Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser -All | Where DisplayName -eq $dispName).UserPrincipalName -RoleName $roleName
 ```
 
-명령을 메모장에 붙여 넣습니다. $dispName *변수와* *$roleName* 설명 텍스트를 해당 값으로 바 사용합니다. 문자를 \< and > 제거하지만 인용 부호는 유지해야 합니다. 수정된 줄을 Microsoft Azure Active Directory 모듈에 붙여 Windows PowerShell 실행합니다. 또는 ISE(통합 스크립트 Windows PowerShell)를 사용할 수 있습니다.
+명령을 메모장에 붙여 넣습니다. $dispName *$roleName* *변수의* 경우 설명 텍스트를 해당 값으로 바 사용합니다. 문자를 \< and > 제거하 고 인용 부호를 유지 합니다. 수정된 줄을 Microsoft Azure Active Directory 모듈에 붙여 Windows PowerShell 실행합니다. 또는 ISE(통합 스크립트 Windows PowerShell)를 사용할 수 있습니다.
   
-다음은 완료된 명령 집합의 예입니다.
+완성된 명령 집합의 예는 다음과 같습니다.
   
 ```powershell
 $dispName="Scott Wallace"
@@ -156,7 +156,7 @@ Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser -All | Where DisplayNam
   Get-MsolUser -All | Sort UserPrincipalName | Select UserPrincipalName | More
   ```
 
-    이 명령은 사용자 계정의 UPN을 UPN별로 정렬하여 한 화면씩 나열합니다. **Where** cmdlet을 사용하여 목록을 필터링할 수 있습니다. 예를 들면 다음과 같습니다.
+    이 명령은 사용자 계정의 UPN을 UPN별로 정렬하여 한 화면씩 나열합니다. Where cmdlet을 **사용하여** 목록을 필터링할 수 있습니다. 예를 들면 다음과 같습니다.
     
   ```powershell
   Get-MsolUser -All | Where DisplayName -like "John*" | Sort UserPrincipalName | Select UserPrincipalName | More
@@ -180,9 +180,9 @@ $roleName="<The role name you want to assign to the account>"
 Add-MsolRoleMember -RoleMemberEmailAddress $upnName -RoleName $roleName
 ```
 
-명령을 복사하여 메모장에 붙여 넣습니다. 변수 **및** $upnName **변수에 $roleName** 변수입니다. 설명 텍스트를 해당 값으로 바 대체합니다. 문자를 \< and > 제거하지만 인용 부호는 유지해야 합니다. 수정된 줄을 Microsoft Azure Active Directory 모듈에 붙여 Windows PowerShell 실행합니다. 또는 ISE를 사용하여 Windows PowerShell 있습니다.
+명령을 복사하여 메모장에 붙여 넣습니다. 변수 **및 $upnName** **$roleName.** 설명 텍스트를 해당 값으로 바 대체합니다. 문자를 \< and > 제거하 고 인용 부호를 유지 합니다. 수정된 줄을 Microsoft Azure Active Directory 모듈에 붙여 Windows PowerShell 실행합니다. 또는 ISE를 사용하여 WINDOWS POWERSHELL 있습니다.
   
-다음은 완료된 명령 집합의 예입니다.
+완성된 명령 집합의 예는 다음과 같습니다.
   
 ```powershell
 $upnName="scottw@contoso.com"
@@ -202,7 +202,7 @@ Add-MsolRoleMember -RoleMemberEmailAddress $upnName -RoleName $roleName
   Get-MsolRole | Sort Name | Select Name,Description
   ```
 
-그런 다음 표시 이름 또는 UPN 및 역할 이름 필드가 있는 CSV(콤보로 구분된 값) 텍스트 파일을 생성합니다. Microsoft Excel에서 이 작업을 쉽게 할 수 있습니다.
+그런 다음 표시 이름 또는 UPN 및 역할 이름 필드가 있는 CSV(콤보로 구분된 값) 텍스트 파일을 생성합니다. Microsoft Excel에서 쉽게 이 작업을 할 수 있습니다.
 
 표시 이름의 예는 다음과 같습니다.
   

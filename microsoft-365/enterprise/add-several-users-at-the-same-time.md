@@ -24,16 +24,16 @@ search.appverid:
 - GEA150
 - BCS160
 description: '스프레드시트 또는 다른 CSV 형식의 파일의 목록에서 비즈니스용 Microsoft 365에 여러 사용자를 추가하는 방법을 학습합니다. YouTube에서 Microsoft 365에 계정을 추가하는 방법을 설명하는 비디오를 시청하세요. 이 프로세스가 끝나면 계정이 있는 각 사용자에게 Microsoft 365 사서함이 있습니다. '
-ms.openlocfilehash: 7629879990facbce57a6fbca1aa543471ad1b05b
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.openlocfilehash: 6b3e8d885466e44a4aa23427a54cfc98b2eebdf3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877215"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905623"
 ---
 # <a name="add-several-users-at-the-same-time-to-microsoft-365---admin-help"></a>Microsoft 365에 동시에 여러 사용자 추가 - 관리자 도움말
 
-팀의 각 사용자는 전자 메일 및 Office와 같은 Microsoft 365 서비스에 로그인하고 액세스할 수 있도록 사용자 계정이 필요합니다. 사용자가 많은 경우 Excel 스프레드시트 또는 CSV 형식으로 저장된 다른 파일에서 계정을 모두 한 번씩 추가할 수 있습니다. [CSV](add-several-users-at-the-same-time.md#not-sure-what-csv-format-is)형식이 어떻게 하나요?
+팀의 각 사용자는 전자 메일 및 Office와 같은 Microsoft 365 서비스에 로그인하고 액세스할 수 있도록 사용자 계정이 필요합니다. 사용자가 많은 경우 Excel 스프레드시트 또는 CSV 형식으로 저장된 다른 파일에서 모든 계정을 한 번에 추가할 수 있습니다. [CSV 형식이 무엇입니까?](add-several-users-at-the-same-time.md#not-sure-what-csv-format-is)
   
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
@@ -49,7 +49,7 @@ ms.locfileid: "49877215"
 4. 
             **여러 사용자 가져오기** 패널에서 예제 데이터가 입력되어 있는 예제 CSV 파일과 입력되어 있지 않은 예제 CSV 파일 중 선택하여 다운로드할 수 있습니다.
 
-    스프레드시트에는 예제와  정확히 동일한 열 제목(사용자 이름, 이름 등)이 포함되어야 합니다. 서식 파일을 사용하는 경우 메모장과 같은 텍스트 편집 도구에서 열고 모든 데이터를 행 1에만 남겨두고 2행 이하의 데이터만 입력하는 것이 좋습니다.
+    스프레드시트는 정확히  동일한 열 제목을 예제로 포함해야 합니다(사용자 이름, 이름 등). 서식 파일을 사용하는 경우 메모장과 같은 텍스트 편집 도구에서 열고 모든 데이터를 행 1에 남겨두고 행 2와 그 아래 행에만 데이터를 입력하는 것이 좋습니다.
 
     스프레드시트는 사용자 이름(예: hyunki@contoso.com)과 각 사용자에 대한 표시 이름(예: 유현기)에 대한 값도 포함해야 합니다.
 
@@ -79,7 +79,7 @@ ms.locfileid: "49877215"
 
 - 각 사용자는 iPhones, iPads 및 Android 휴대폰 및 태블릿과 같은 최대 5대의 태블릿과 5대의 휴대폰에서 [모바일 장치의 Office 앱 및 전자 메일을 설정](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f)할 수도 있습니다. 이 방법으로 어디서나 Office 파일을 편집할 수 있습니다.
 
-    설치 단계의 종단을 나열하려면 [비즈니스용 Microsoft 365](https://support.office.com/article/6a3a29a0-e616-4713-99d1-15eda62d04fa) 설정을 참조하세요.
+    전체 설치 단계 목록은 [비즈니스용 Microsoft 365](https://support.office.com/article/6a3a29a0-e616-4713-99d1-15eda62d04fa) 설정을 참조하세요.
 
 ## <a name="more-information-about-how-to-add-users-to-microsoft-365"></a>Microsoft 365에 사용자를 추가하는 방법에 대한 자세한 정보
 
@@ -87,7 +87,7 @@ ms.locfileid: "49877215"
 
 CSV 파일은 쉼표로 구분된 값을 사용한 파일입니다. 모든 텍스트 편집기나 Excel과 같은 스프레드시트 프로그램에서 이와 같은 파일을 만들거나 편집할 수 있습니다.
   
-시작점으로 [이 예제 스프레드시트](https://www.microsoft.com/download/details.aspx?id=45485)를 다운로드할 수 있습니다. Microsoft 365에는 첫 번째 행에 열 머리주가 필요하기 때문에 다른 항목으로 바꾸지 않습니다. 
+시작점으로 [이 예제 스프레드시트](https://www.microsoft.com/download/details.aspx?id=45485)를 다운로드할 수 있습니다. Microsoft 365에는 첫 번째 행에 열 머리줄이 필요하기 때문에 다른 항목으로 바꾸지 않습니다. 
   
 파일을 새 이름으로 저장하고 CSV 형식을 지정합니다.
   
@@ -99,13 +99,13 @@ CSV 파일은 쉼표로 구분된 값을 사용한 파일입니다. 모든 텍�
   
 ### <a name="tips-for-formatting-your-spreadsheet"></a>스프레드시트 서식 지정 팁
 
-- **예제 스프레드시트와 같은 열 머리글이 필요한가요?** 예. 예제 스프레드시트에는 첫 행에 열 머리글이 포함되어 있습니다. 해당 머리글은 필수 항목입니다. Microsoft 365에 추가할 각 사용자에 대해 제목 아래에 행을 생성합니다. 열 제목을 추가, 변경 또는 삭제하는 경우 Microsoft 365에서 파일의 정보에서 사용자를 만들지 못하게 될 수 있습니다.
+- **예제 스프레드시트와 같은 열 머리글이 필요한가요?** 예. 예제 스프레드시트에는 첫 행에 열 머리글이 포함되어 있습니다. 해당 머리글은 필수 항목입니다. Microsoft 365에 추가할 각 사용자에 대해 제목 아래에 행을 생성합니다. 열 제목을 추가, 변경 또는 삭제하는 경우 Microsoft 365가 파일의 정보에서 사용자를 만들지 못하게 될 수 있습니다.
 
 - **각 사용자에 대해 필요한 정보가 일부만 있는 경우** 사용자 이름 및 표시 이름은 필수 항목입니다. 이 정보 없이는 새 사용자를 추가할 수 없습니다. 팩스 등 기타 정보가 없는 경우 공백과 쉼표를 사용해 필드를 빈 상태로 둘 수 있습니다.
 
 - **스프레드시트의 크기는 얼마나 작거나 크나요?** 스프레드시트에는 행이 두 개 이상 있어야 합니다. One is for the column headings (the user data column label) and one for the user. You cannot have more than 251 rows. If you need to import more than 250 users, you can create more than one spreadsheet.
 
-- **어떤 언어를 사용할 수 있나요?** 스프레드시트를 만들 때 모든 언어나 문자로 사용자 데이터 열 레이블을 입력할 수 있지만 샘플과 같이 레이블의 순서를 변경하면 안 됩니다. You can then make entries into the fields, using any language or characters, and save your file in a Unicode or UTF-8 format.
+- **어떤 언어를 사용할 수 있나요?** 스프레드시트를 만들 때 사용자 데이터 열 레이블을 언어나 문자로 입력할 수 있지만 샘플과 같이 레이블의 순서를 변경하면 안 됩니다. You can then make entries into the fields, using any language or characters, and save your file in a Unicode or UTF-8 format.
 
 - **다른 국가나 지역의 사용자를 추가하는 경우** 각 지역에 대해 별도의 스프레드시트를 만듭니다. 각 스프레드시트의 사용자 일괄 추가 마법사를 단계적으로 따르면 작업 중인 파일에 포함된 모든 사용자를 한 곳에서 볼 수 있습니다.
 
@@ -113,7 +113,7 @@ CSV 파일은 쉼표로 구분된 값을 사용한 파일입니다. 모든 텍�
 
 |**사용자 데이터 열 레이블**|**최대 문자 길이**|
 |:-----|:-----|
-|사용자 이름 (필수)  <br/> |기호(@)를 포함한 79개 형식의 \<extension\> name@domain. 사용자의 별칭은 50자를 초과할 수 없습니다. 도메인 이름은 48자를 초과할 수 없습니다.  <br/> |
+|사용자 이름 (필수)  <br/> |기호(@)를 포함한 79개(@ 형식 \<extension\> name@domain. 사용자의 별칭은 50자를 초과할 수 없습니다. 도메인 이름은 48자를 초과할 수 없습니다.  <br/> |
 |이름  <br/> |64  <br/> |
 |성  <br/> |64  <br/> |
 |표시 이름 (필수)  <br/> |256  <br/> |
@@ -133,8 +133,8 @@ CSV 파일은 쉼표로 구분된 값을 사용한 파일입니다. 모든 텍�
 
 - **스프레드시트 형식이 올바른지 다시 한 번 확인합니다.** 열 머리글이 예제 파일의 머리글과 일치하는지 확인합니다. 문자 길이 규칙을 준수했고 각 필드를 쉼표로 구분했는지 확인합니다.
 
-- **Microsoft 365에서 새 사용자가 바로 볼 수 없는 경우 몇 분 정도 기다립니다.** Microsoft 365의 모든 서비스를 변경하는 데는 약간의 시간이 걸릴 수 있습니다. 
+- **Microsoft 365의 새 사용자가 바로 볼 수 없는 경우 몇 분 정도 기다립니다.** Microsoft 365의 모든 서비스를 변경하는 데는 약간의 시간이 걸릴 수 있습니다. 
 
 ## <a name="related-articles"></a>관련 문서
 
-[Microsoft 365에 개별적으로 또는 대량으로 사용자 추가](https://docs.microsoft.com/office365/admin/add-users/add-users)
+[Microsoft 365에 개별적으로 또는 대량으로 사용자 추가](/office365/admin/add-users/add-users)

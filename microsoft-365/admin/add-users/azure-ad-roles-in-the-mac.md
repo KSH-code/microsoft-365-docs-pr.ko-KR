@@ -16,16 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: Microsoft 365 관리 센터의 Azure 관리자 역할을 관리합니다.
-ms.openlocfilehash: 7a4e28667bc16d6619fe87451cd48ea77d89c81d
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: b07174763384150a7ae8cda6709f5d0ec5cb40ec
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126108"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904495"
 ---
 # <a name="azure-active-directory-roles-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 Azure Active Directory 역할
 
-Microsoft 365 관리 센터를 통해 30개 이상의 Azure AD 역할을 관리할 수 있습니다. 그러나 이 역할은 Azure 포털에서 사용할 수 있는 역할의 하위 집합입니다. 대기업의 경우 조직 요구 사항을 충족하는 역할이 Azure 포털에 있을 수 있습니다. Azure AD에 대한 자세한 역할 설명을 찾고 있나요? [Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)을 확인하세요.
+Microsoft 365 관리 센터를 통해 30개 이상의 Azure AD 역할을 관리할 수 있습니다. 그러나 이 역할은 Azure 포털에서 사용할 수 있는 역할의 하위 집합입니다. 대기업의 경우 조직 요구 사항을 충족하는 역할이 Azure 포털에 있을 수 있습니다. Azure AD에 대한 자세한 역할 설명을 찾고 있나요? [Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)을 확인하세요.
 
 관리자 역할이 할당된 사용자는 Microsoft 365 관리 센터 또는 Azure 포털에서 역할을 할당하거나 Windows PowerShell용 Azure AD 모듈을 사용하든지와 관계 없이 조직에 가입한 클라우드 서비스에 동일한 수준의 액세스 권한을 갖습니다. 
 
@@ -37,7 +37,7 @@ Microsoft 365 관리 센터에서 **역할** 로 이동한 다음 아무 역할�
 
 ## <a name="all-azure-ad-roles"></a>모든 Azure AD 역할
 
-여기에 Microsoft 365 관리 센터에서 이용 가능한 모든 관리자 역할에 대한 목록이 나와 있습니다. Microsoft 365 관리자 역할에 대한 자세한 역할 설명을 찾고 있나요? [관리자 역할 소개](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)를 확인하세요.
+여기에 Microsoft 365 관리 센터에서 이용 가능한 모든 관리자 역할에 대한 목록이 나와 있습니다. Microsoft 365 관리자 역할에 대한 자세한 역할 설명을 찾고 있나요? [관리자 역할 소개](./about-admin-roles.md?view=o365-worldwide)를 확인하세요.
 
 |관리자 역할     |설명  |
 |---------|---------|
@@ -57,7 +57,7 @@ Microsoft 365 관리 센터에서 **역할** 로 이동한 다음 아무 역할�
 |Exchange 관리자     |  Exchange Online 전체에 액세스하고, 그룹을 만들고 관리하며 서비스 요청을 관리하고 서비스 상태를 모니터링합니다.    |
 |외부 id 공급자 관리자    |     직접 페더레이션에서 사용하도록 id 공급자를 구성합니다.    |
 |전역 관리자     |    모든 관리 센터에서 모든 관리 기능과 모든 데이터에 무제한으로 액세스할 수 있습니다.     |
-|전역 읽기 권한자     |    관리 센터에서 모든 관리 기능과 모든 데이터에 읽기 전용으로 액세스할 수 있습니다. 이 역할의 액세스 권한 및 제한 사항에 대한 자세한 설명은 [Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader)을 참조하십시오.    |
+|전역 읽기 권한자     |    관리 센터에서 모든 관리 기능과 모든 데이터에 읽기 전용으로 액세스할 수 있습니다. 이 역할의 액세스 권한 및 제한 사항에 대한 자세한 설명은 [Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader)을 참조하십시오.    |
 |그룹 관리자   |그룹을 만들고 관리 센터에서 모든 그룹 설정을 관리합니다.|
 |게스트 초대자     |    Azure Active Directory B2B 게스트 사용자 초대를 관리합니다.     |
 |헬프데스크 관리자     | 모든 비관리자와 일부 관리자 역할에 대해 암호를 재설정하고 다시 인증하고 서비스 요청을 관리하고 서비스 상태를 모니터링합니다.      |
@@ -99,7 +99,7 @@ Microsoft 파트너와 함께 업무를 진행하는 경우에는 파트너에�
 
 - 헬프데스크 관리자와 동일한 권한을 가진 제한된 관리 기능
 
-파트너가 이러한 역할을 사용자에게 할당하기 전에 파트너를 사용자 계정에 위임된 관리자로 추가해야 합니다. 이 프로세스는 공인 파트너가 시작 합니다. 파트너는 사용자가 파트너에게 위임된 관리자 역할을 수행할 권한을 부여할 것인지 묻는 전자 메일을 보냅니다. 안내 사항은 [파트너 관계 승인 또는 제거](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner)를 참조하십시오.
+파트너가 이러한 역할을 사용자에게 할당하기 전에 파트너를 사용자 계정에 위임된 관리자로 추가해야 합니다. 이 프로세스는 공인 파트너가 시작 합니다. 파트너는 사용자가 파트너에게 위임된 관리자 역할을 수행할 권한을 부여할 것인지 묻는 전자 메일을 보냅니다. 안내 사항은 [파트너 관계 승인 또는 제거](../misc/add-partner.md)를 참조하십시오.
   
 ## <a name="related-articles"></a>관련 문서
 

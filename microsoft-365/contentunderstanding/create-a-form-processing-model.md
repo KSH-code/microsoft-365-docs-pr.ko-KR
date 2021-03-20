@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 양식 처리 모델을 만듭니다.
-ms.openlocfilehash: c025317a5eb88199b849f90b51fac9779e1c97a2
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: d71273e416bf7922627e44d9423eaa8903411689
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976012"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905849"
 ---
 # <a name="create-a-form-processing-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 양식 처리 모델을 만들기
 
@@ -27,7 +27,7 @@ ms.locfileid: "49976012"
 
 </br>
 
-Microsoft PowerApps의 기능인 [AI Builder](https://docs.microsoft.com/ai-builder/overview)를 사용하여 SharePoint Syntex 사용자는 SharePoint 문서 라이브러리에서 직접 [양식 처리 모델](form-processing-overview.md)을 만들 수 있습니다. 
+Microsoft PowerApps의 기능인 [AI Builder](/ai-builder/overview)를 사용하여 SharePoint Syntex 사용자는 SharePoint 문서 라이브러리에서 직접 [양식 처리 모델](form-processing-overview.md)을 만들 수 있습니다. 
 
 양식 처리 모델을 만드는 과정은 다음과 같습니다.
  - 1 단계: 양식 처리 모델을 만들어 콘텐츠 유형 만들기
@@ -68,7 +68,7 @@ Microsoft PowerApps의 기능인 [AI Builder](https://docs.microsoft.com/ai-buil
 새 양식 처리 모델을 만든 후에, 브라우저가 새 PowerApps AI Builder 양식 처리 모델 페이지를 엽니다. 이 페이지에서 예제 문서를 추가하 고 분석할 수 있습니다. </br>
 
 > [!NOTE]
-> 사용할 예제 파일을 찾을 때는 [양식 처리 모델 입력 문서 요구 사항 및 최적화 팁](https://docs.microsoft.com/ai-builder/form-processing-model-requirements)을 참조하세요. 
+> 사용할 예제 파일을 찾을 때는 [양식 처리 모델 입력 문서 요구 사항 및 최적화 팁](/ai-builder/form-processing-model-requirements)을 참조하세요. 
 
    ![Power Apps AI Builder](../media/content-understanding/powerapps.png)</br> 
  
@@ -148,6 +148,6 @@ Microsoft PowerApps의 기능인 [AI Builder](https://docs.microsoft.com/ai-buil
 
 ## <a name="see-also"></a>참고 항목
   
-[파워 자동화 문서](https://docs.microsoft.com/power-automate/)
+[파워 자동화 문서](/power-automate/)
 
-[교육: AI Builder를 사용하여 비즈니스 성과 개선](https://docs.microsoft.com/learn/paths/improve-business-performance-ai-builder/?source=learn)
+[교육: AI Builder를 사용하여 비즈니스 성과 개선](/learn/paths/improve-business-performance-ai-builder/?source=learn)

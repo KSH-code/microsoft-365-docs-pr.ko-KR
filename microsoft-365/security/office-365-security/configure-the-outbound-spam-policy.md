@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)에서 아웃바운드 스팸 정책을 보고, 만들고, 수정하고, 삭제하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 748b274903590c5e28f34ce2fb4e65292d382cd2
-ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
+ms.openlocfilehash: aec3149a4a91e011c6d6d206d9fc10f36a3d6588
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50717622"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903907"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>EOP에서 아웃바운드 스팸 필터링 구성
 
@@ -70,18 +70,18 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 - <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **스팸 방지 설정** 페이지로 바로 이동하려면 <https://protection.office.com/antispam>을 사용하세요.
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
 - 이 게시물의 절차를 수행하려면 먼저 **Exchange Online** 에서 사용 권한을 할당받아야 합니다.
   - 아웃바운드 스팸 정책을 추가, 수정 및 삭제하려면 **조직** 관리 또는 보안 관리자 역할 그룹의 **구성원이면** 됩니다.
   - 아웃바운드 스팸 정책에 대한 읽기 전용 액세스의  경우 전역 읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이면** 됩니다.
 
-  자세한 내용은 [Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)을 참조하세요.
+  자세한 내용은 [Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo)을 참조하세요.
 
   **참고**:
 
   - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - 아웃바운드 스팸 정책에 대한 권장 설정은 [EOP 아웃바운드 스팸 필터 정책 설정 을 참조하세요.](recommended-settings-for-eop-and-office365-atp.md#eop-outbound-spam-policy-settings)
 
@@ -141,7 +141,7 @@ Security & Compliance Center에서 사용자 지정 아웃바운드 스팸 정�
 
    - **사용자당 최대 받는 사람 수**
 
-     유효한 값은 0에서 10000까지입니다. 기본값은 0으로, 서비스 기본값이 사용됩니다. 자세한 내용은 보내기 [제한을 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1)
+     유효한 값은 0에서 10000까지입니다. 기본값은 0으로, 서비스 기본값이 사용됩니다. 자세한 내용은 보내기 [제한을 참조하세요.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1)
 
      - **외부 시간당 제한:** 시간당 최대 외부 받는 사람 수입니다.
 
@@ -171,7 +171,7 @@ Security & Compliance Center에서 사용자 지정 아웃바운드 스팸 정�
    >
    > - 이러한 설정은 클라우드 기반 사서함에만 적용됩니다.
    >
-   > - 자동 전달을 사용하지 않도록 설정하면 외부 보낸 사람이 전달이 있는 사서함으로 전자 메일을 보내는 경우 받는 사람은 배달 못함 보고서(NDR 또는 반송 메시지라고도함)를 받게 됩니다. 내부 보낸 사람이 메시지를 보내고  전달 방법이 사서함 [](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) _전달(SMTP_ 전달)인 경우 내부 보낸 사람이 NDR을 얻습니다. 받은 편지함 규칙으로 인해 전달이 발생한 경우 내부 보낸 사람이 NDR을 얻지 못합니다.
+   > - 자동 전달을 사용하지 않도록 설정하면 외부 보낸 사람이 전달이 있는 사서함으로 전자 메일을 보내는 경우 받는 사람은 배달 못함 보고서(NDR 또는 반송 메시지라고도함)를 받게 됩니다. 내부 보낸 사람이 메시지를 보내고  전달 방법이 사서함 [](/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) _전달(SMTP_ 전달)인 경우 내부 보낸 사람이 NDR을 얻습니다. 받은 편지함 규칙으로 인해 전달이 발생한 경우 내부 보낸 사람이 NDR을 얻지 못합니다.
 
    사용 가능한 값은 다음과 같습니다.
 
@@ -309,7 +309,7 @@ New-HostedOutboundSpamFilterPolicy -Name "<PolicyName>" [-AdminDisplayName "<Com
 
 이 예에서는 다음 설정을 사용하여 Contoso Executives라는 새 아웃바운드 스팸 필터 정책을 만듭니다.
 
-- 받는 사람 비율 제한은 기본값인 더 작은 값으로 제한됩니다. 자세한 내용은 [Microsoft 365 옵션에서 전송 제한을 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)
+- 받는 사람 비율 제한은 기본값인 더 작은 값으로 제한됩니다. 자세한 내용은 [Microsoft 365 옵션에서 전송 제한을 참조하세요.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)
 
 - 제한 중 하나에 도달하면 사용자가 메시지를 보낼 수 없습니다.
 
@@ -317,7 +317,7 @@ New-HostedOutboundSpamFilterPolicy -Name "<PolicyName>" [-AdminDisplayName "<Com
 New-HostedOutboundSpamFilterPolicy -Name "Contoso Executives" -RecipientLimitExternalPerHour 400 -RecipientLimitInternalPerHour 800 -RecipientLimitPerDay 800 -ActionWhenThresholdReached BlockUser
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [New-HostedOutboundSpamFilterPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/new-hostedoutboundspamfilterpolicy)
+구문과 매개 변수에 대한 자세한 내용은 [New-HostedOutboundSpamFilterPolicy를 참조하십시오.](/powershell/module/exchange/new-hostedoutboundspamfilterpolicy)
 
 #### <a name="step-2-use-powershell-to-create-an-outbound-spam-filter-rule"></a>2단계: PowerShell을 사용하여 아웃바운드 스팸 필터 규칙 만들기
 
@@ -336,7 +336,7 @@ New-HostedOutboundSpamFilterRule -Name "<RuleName>" -HostedOutboundSpamFilterPol
 New-HostedOutboundSpamFilterRule -Name "Contoso Executives" -HostedOutboundSpamFilterPolicy "Contoso Executives" -FromMemberOf "Contoso Executives Group"
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [New-HostedOutboundSpamFilterRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/new-hostedoutboundspamfilterrule)
+구문과 매개 변수에 대한 자세한 내용은 [New-HostedOutboundSpamFilterRule을 참조하십시오.](/powershell/module/exchange/new-hostedoutboundspamfilterrule)
 
 ### <a name="use-powershell-to-view-outbound-spam-filter-policies"></a>PowerShell을 사용하여 아웃바운드 스팸 필터 정책 보기
 
@@ -358,7 +358,7 @@ Get-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>" | Format-List [<Spec
 Get-HostedOutboundSpamFilterPolicy -Identity "Executives" | Format-List
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [Get-HostedOutboundSpamFilterPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/get-hostedoutboundspamfilterpolicy)
+구문과 매개 변수에 대한 자세한 내용은 [Get-HostedOutboundSpamFilterPolicy를 참조하십시오.](/powershell/module/exchange/get-hostedoutboundspamfilterpolicy)
 
 ### <a name="use-powershell-to-view-outbound-spam-filter-rules"></a>PowerShell을 사용하여 아웃바운드 스팸 필터 규칙 보기
 
@@ -396,7 +396,7 @@ Get-HostedOutboundSpamFilterRule -Identity "<RuleName>" | Format-List [<Specific
 Get-HostedOutboundSpamFilterRule -Identity "Contoso Executives" | Format-List
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [Get-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/get-hostedoutboundspamfilterrule)을 참조하십시오.
+구문과 매개 변수에 대한 자세한 내용은 [Get-HostedOutboundSpamFilterRule](/powershell/module/exchange/get-hostedoutboundspamfilterrule)을 참조하십시오.
 
 ### <a name="use-powershell-to-modify-outbound-spam-filter-policies"></a>PowerShell을 사용하여 아웃바운드 스팸 필터 정책 수정
 
@@ -411,7 +411,7 @@ Get-HostedOutboundSpamFilterRule -Identity "Contoso Executives" | Format-List
 Set-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>" <Settings>
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [Set-HostedOutboundSpamFilterPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/set-hostedoutboundspamfilterpolicy)
+구문과 매개 변수에 대한 자세한 내용은 [Set-HostedOutboundSpamFilterPolicy를 참조하십시오.](/powershell/module/exchange/set-hostedoutboundspamfilterpolicy)
 
 ### <a name="use-powershell-to-modify-outbound-spam-filter-rules"></a>PowerShell을 사용하여 아웃바운드 스팸 필터 규칙 수정
 
@@ -425,7 +425,7 @@ PowerShell에서 아웃바운드 스팸 필터 규칙을 수정할 때 사용할
 Set-HostedOutboundSpamFilterRule -Identity "<RuleName>" <Settings>
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [Set-HostedOutboundSpamFilterRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/set-hostedoutboundspamfilterrule)
+구문과 매개 변수에 대한 자세한 내용은 [Set-HostedOutboundSpamFilterRule을 참조하십시오.](/powershell/module/exchange/set-hostedoutboundspamfilterrule)
 
 ### <a name="use-powershell-to-enable-or-disable-outbound-spam-filter-rules"></a>PowerShell을 사용하여 아웃바운드 스팸 필터 규칙 사용 또는 사용 안 하도록 설정
 
@@ -449,7 +449,7 @@ Disable-HostedOutboundSpamFilterRule -Identity "Marketing Department"
 Enable-HostedOutboundSpamFilterRule -Identity "Marketing Department"
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [Enable-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/enable-hostedoutboundspamfilterrule) 및 [Disable-HostedOutboundSpamFilterRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/disable-hostedoutboundspamfilterrule)
+구문과 매개 변수에 대한 자세한 내용은 [Enable-HostedOutboundSpamFilterRule](/powershell/module/exchange/enable-hostedoutboundspamfilterrule) 및 [Disable-HostedOutboundSpamFilterRule을 참조하십시오.](/powershell/module/exchange/disable-hostedoutboundspamfilterrule)
 
 ### <a name="use-powershell-to-set-the-priority-of-outbound-spam-filter-rules"></a>PowerShell을 사용하여 아웃바운드 스팸 필터 규칙의 우선 순위 설정
 
@@ -489,7 +489,7 @@ Remove-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>"
 Remove-HostedOutboundSpamFilterPolicy -Identity "Marketing Department"
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [Remove-HostedOutboundSpamFilterPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/remove-hostedoutboundspamfilterpolicy)
+구문과 매개 변수에 대한 자세한 내용은 [Remove-HostedOutboundSpamFilterPolicy를 참조하십시오.](/powershell/module/exchange/remove-hostedoutboundspamfilterpolicy)
 
 ### <a name="use-powershell-to-remove-outbound-spam-filter-rules"></a>PowerShell을 사용하여 아웃바운드 스팸 필터 규칙 제거
 
@@ -507,7 +507,7 @@ Remove-HostedOutboundSpamFilterRule -Identity "<PolicyName>"
 Remove-HostedOutboundSpamFilterRule -Identity "Marketing Department"
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [Remove-HostedOutboundSpamFilterRule을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/remove-hostedoutboundspamfilterrule)
+구문과 매개 변수에 대한 자세한 내용은 [Remove-HostedOutboundSpamFilterRule을 참조하십시오.](/powershell/module/exchange/remove-hostedoutboundspamfilterrule)
 
 ## <a name="for-more-information"></a>자세한 내용
 

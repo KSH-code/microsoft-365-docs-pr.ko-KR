@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Microsoft 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: a71ced2dd0aa71179c1b26cec571f3025af1ce05
-ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
+ms.openlocfilehash: 9b58c6fa51fbca5d78680b4b13cbbc2129d9c393
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50603855"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903727"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -136,13 +136,13 @@ ms.locfileid: "50603855"
 
 - [미국 정부 기관용 SharePoint 활동](sharepoint-activity.md)
   
-- [Skype for Business Online activity](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/activity-report)(비즈니스용 Skype Online 활동)
+- [Skype for Business Online activity](/SkypeForBusiness/skype-for-business-online-reporting/activity-report)(비즈니스용 Skype Online 활동)
   
-- [Skype for Business Online conference organized activity](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/conference-organizer-activity-report)(비즈니스용 Skype Online 전화 회의 조직 활동)
+- [Skype for Business Online conference organized activity](/SkypeForBusiness/skype-for-business-online-reporting/conference-organizer-activity-report)(비즈니스용 Skype Online 전화 회의 조직 활동)
   
-- [Skype for Business Online conference participant activity](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/conference-participant-activity-report)(비즈니스용 Skype Online 전화 회의 참가자 활동)
+- [Skype for Business Online conference participant activity](/SkypeForBusiness/skype-for-business-online-reporting/conference-participant-activity-report)(비즈니스용 Skype Online 전화 회의 참가자 활동)
   
-- [Skype for Business Online peer-to-peer activity](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/peer-to-peer-activity-report)(비즈니스용 Skype Online 피어 투 피어 활동)
+- [Skype for Business Online peer-to-peer activity](/SkypeForBusiness/skype-for-business-online-reporting/peer-to-peer-activity-report)(비즈니스용 Skype Online 피어 투 피어 활동)
   
 ::: moniker range="o365-worldwide"
 
@@ -242,5 +242,4 @@ ms.locfileid: "50603855"
   
 ## <a name="related-articles"></a>관련 문서
 
-[보안 &amp; 준수 센터의 보고서](https://docs.microsoft.com/microsoft-365/compliance/reports-in-security-and-compliance)
-  
+[보안 &amp; 준수 센터의 보고서](../../compliance/reports-in-security-and-compliance.md)

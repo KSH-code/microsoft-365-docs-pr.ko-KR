@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Teams에서 게스트와 작업, 대화 및 문서 공동 작업을 위한 팀을 설정하는 데 필요한 Microsoft 365 구성 단계에 대해 자세히 알아보세요.
-ms.openlocfilehash: 986f9c1f343c8ccc3d76557291938d170923c89b
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 4e734af198563d0bc4599b4476b3823384989212
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712321"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904663"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>게스트와 팀으로 공동 작업하기
 
@@ -38,7 +38,7 @@ ms.locfileid: "50712321"
 
 ## <a name="azure-external-collaboration-settings"></a>Azure 외부 공동 작업 설정
 
-Microsoft 365의 공유는 [Azure Active Directory의 B2B 외부 공동 작업 설정](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations)에 따라 가자 높은 수준에서 관리됩니다. Azure AD에서 게스트 공유가 비활성화되거나 제한된 경우 이 설정은 Microsoft 365에서 구성하는 모든 공유 설정을 재정의합니다.
+Microsoft 365의 공유는 [Azure Active Directory의 B2B 외부 공동 작업 설정](/azure/active-directory/external-identities/delegate-invitations)에 따라 가자 높은 수준에서 관리됩니다. Azure AD에서 게스트 공유가 비활성화되거나 제한된 경우 이 설정은 Microsoft 365에서 구성하는 모든 공유 설정을 재정의합니다.
 
 게스트와의 공유가 차단되지 않도록 B2B 외부 공동 작업 설정을 확인합니다.
 
@@ -74,7 +74,7 @@ Teams 게스트 액세스를 설정하려면 다음을 수행합니다.
 5. Teams의 **게스트 액세스 허용** 이 **사용** 으로 설정되어 있는지 확인합니다.
 6. 추가 게스트 설정을 원하는대로 변경 한 다음 **저장** 을 클릭하세요.
 
-Teams 게스트 액세스가 설정되어 있는 경우, 민감도 레이블을 사용하여 선택적으로 개별 팀 및 관련 SharePoint 사이트에 대한 게스트 액세스를 제어할 수 있습니다. 자세한 내용은 [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)를 참조하세요.
+Teams 게스트 액세스가 설정되어 있는 경우, 민감도 레이블을 사용하여 선택적으로 개별 팀 및 관련 SharePoint 사이트에 대한 게스트 액세스를 제어할 수 있습니다. 자세한 내용은 [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호](../compliance/sensitivity-labels-teams-groups-sites.md)를 참조하세요.
 
 > [!NOTE]
 > Teams 게스트 설정을 켠 후 활성화되려면 최대 24시간이 걸릴 수 있습니다.
@@ -187,6 +187,6 @@ SharePoint 조직 수준 기본 링크 설정을 설정하려면
 
 [관리 대상 게스트와 B2B 엑스트라넷 작성](b2b-extranet.md)
 
-[Azure AD B2B와 SharePoint 및 OneDrive의 통합(미리 보기)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)
+[Azure AD B2B와 SharePoint 및 OneDrive의 통합(미리 보기)](/sharepoint/sharepoint-azureb2b-integration-preview)
 
-[SharePoint 또는 OneDrive에서 공유하면 공유 옵션이 회색으로 표시됩니다.](https://docs.microsoft.com/sharepoint/troubleshoot/administration/sharing-options-grayed-out-when-sharing-from-sharepoint-online-or-onedrive)
+[SharePoint 또는 OneDrive에서 공유하면 공유 옵션이 회색으로 표시됩니다.](/sharepoint/troubleshoot/administration/sharing-options-grayed-out-when-sharing-from-sharepoint-online-or-onedrive)

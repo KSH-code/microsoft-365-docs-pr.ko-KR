@@ -14,12 +14,12 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: c3ba9ce6675e81a99309243db251b34a21a4b43f
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: d6e953c86939d732632e87573fc2aa5392f09aa2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454162"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904939"
 ---
 # <a name="create-a-new-topic"></a>새 항목 만들기 
 
@@ -33,7 +33,7 @@ Viva 항목에서는 인덱싱을 통해 검색되지 않았거나 AI 기술에�
 
 새 항목을 만들하려면 다음을 해야 합니다.
 - Viva 항목 라이선스가 있습니다.
-- 항목을 만들거나 편집할 수 [**있는 사용자에 대한 사용 권한이 있습니다.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) 지식 관리자는 Viva 항목의 사용 권한 설정에서 사용자에게 이 권한을 부여할 수 있습니다. 
+- 항목을 만들거나 편집할 수 [**있는 사용자에 대한 사용 권한이 있습니다.**](./topic-experiences-user-permissions.md) 지식 관리자는 Viva 항목의 사용 권한 설정에서 사용자에게 이 권한을 부여할 수 있습니다. 
 
 > [!Note] 
 > 항목 센터에서 항목을 관리할 수 있는 권한이 있는 사용자(기술 관리자)에게는 이미 항목을 만들고 편집할 수 있는 권한이 있습니다.
@@ -93,7 +93,7 @@ Viva 항목에서는 인덱싱을 통해 검색되지 않았거나 AI 기술에�
 
 7. 관련 <b>항목 섹션에는</b> 항목 간에 존재하는 연결이 표시됩니다. 관련 항목에 연결 단추를 선택한 다음 <b></b> 관련 항목의 이름을 입력한 다음 검색 결과에서 해당 항목을 선택하여 다른 항목에 대한 연결을 추가할 수 있습니다. 
 
-   ![관련 항목](../media/knowledge-management/related-topic.png)</br>  
+   ![관련 주제](../media/knowledge-management/related-topic.png)</br>  
 
     그런 다음 항목의 관계에 대한 설명을 입력하고 업데이트를 선택할 <b>수 있습니다.</b></br>
 
@@ -126,13 +126,6 @@ Viva 항목에서는 인덱싱을 통해 검색되지 않았거나 AI 기술에�
 
 
 ## <a name="see-also"></a>참고 항목
-
-
-
-  
-
-
-
 
 
 

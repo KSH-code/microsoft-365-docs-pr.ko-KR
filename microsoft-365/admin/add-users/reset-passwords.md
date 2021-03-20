@@ -26,23 +26,23 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
-description: 비즈니스용 Microsoft 365 구독에서 사용자의 암호를 다시 설정하는 방법을 학습하세요.
-ms.openlocfilehash: faae2d31f29eb4817abc31cde1e1ce2bd6a47db1
-ms.sourcegitcommit: fdb5f9d865037c0ae23aae34a5c0f06b625b2f69
+description: 비즈니스용 Microsoft 365 구독에서 사용자의 암호를 다시 설정하는 방법을 배워야 합니다.
+ms.openlocfilehash: 985b9fbae68f12c3f6a23fe8a3e1add4a86df716
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "48131705"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903703"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
-이 문서에서는 비즈니스용 Microsoft 365 구독이 있는 경우 자신과 사용자를 위해 암호를 다시 설정하는 방법을 설명합니다.
+이 문서에서는 비즈니스용 Microsoft 365 구독이 있는 경우 자신 및 사용자를 위해 암호를 다시 설정하는 방법을 설명합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
 회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정의 새로운 기능](../admin-overview/admin-overview.md)
 
-이러한 단계를 [수행하려면](about-admin-roles.md) 전역 관리자 또는 암호 관리자입니다.
+이러한 단계를 [수행하려면](about-admin-roles.md) 전역 관리자 또는 암호 관리자 되어야 합니다.
 
 ## <a name="watch-reset-a-business-password-for-a-user"></a>감시: 사용자에 대한 비즈니스 암호 다시 설정
 
@@ -72,9 +72,9 @@ ms.locfileid: "48131705"
 
 ::: moniker-end
 
-2. 활성 사용자 **페이지에서** 사용자를 선택하고 암호 **재설정을 선택합니다.**
+2. 활성 **사용자 페이지에서** 사용자를 선택한 다음 암호 다시 설정을 **선택합니다.**
 
-3. 암호 다시 설정  페이지의 지침에 따라 사용자의 새 암호를 자동으로 생성하거나 새로 만든 다음 재설정을 **선택합니다.**  
+3. 암호 다시 설정  페이지의 지침에 따라 사용자에 대한 새 암호를 자동으로 생성하거나 새로 만든 다음 다시 설정을 **선택합니다.**  
 
 4. 사용자가 새 암호를 받을 수 있도록 사용자가 얻을 수 있는 전자 메일 주소를 입력하고 추가하여 받은지 확인하세요.
 
@@ -82,19 +82,19 @@ ms.locfileid: "48131705"
 
 셀프 서비스 암호 재설정을 설정하는 것이 좋습니다. 이 방법을 사용하면 사용자의 암호를 수동으로 재설정할 필요가 없습니다. 그 방법을 알고 싶으면 [Office 365에서 사용자가 암호를 직접 재설정할 수 있도록 허용](let-users-reset-passwords.md)을 참조하세요.
 
-## <a name="reset-my-admin-password"></a>관리자 암호 다시 설정
+## <a name="reset-my-admin-password"></a>내 관리자 암호 다시 설정
 
 예를 들어 암호가 브라우저에 저장되어 있기 때문에 암호를 잊어버렸다가 Microsoft 365에 로그인할 수 있는 경우 다음 단계를 사용합니다.
 
-1. Select your name (icon) in upper right corner > **My Account**  >  **Personal Info.**
+1. Select your name (icon) in upper right corner > **My Account**  >  **Personal Info**.
 
-2. 연락처 **세부 정보에서** 대체 전자  메일이 정확한지와 휴대폰 번호를 제공한지 다시 한 번 검사합니다. 그렇지 않은 경우 지금 변경합니다.
+2. 연락처 **세부 정보에서** 대체 전자  메일이 정확한지와 휴대폰 번호를 제공한지 다시 한 번 확인하세요. 그렇지 않은 경우 지금 변경합니다.
 
-3. Sign out: select your name in the upper right corner \> **Sign out.**
+3. Sign out: select your name in the upper right corner \> **Sign out**.
 
-4. 이제 다시 로그인합니다. 다음에 사용자 이름을 입력하고 암호를 \>  \> **잊어버렸다는 것을 선택합니다.**
+4. 이제 다시 로그인: 사용자 이름 \> **다음을** \> 입력하고 암호 **잊어버렸다 를 선택합니다.**
 
-5. 마법사의 단계에 따라 암호를 다시 설정하세요. 대체 연락처 정보를 사용하여 암호를 재설정할 수 있는 올바른 사람이 올바른지 확인할 수 있습니다.
+5. 마법사의 단계에 따라 암호를 다시 설정하세요. 대체 연락처 정보를 사용하여 암호를 재설정할 수 있는 올바른 사람인지를 확인할 수 있습니다.
 
 암호를 잊어버렸다가 로그인할 수 없는 경우:
 
@@ -102,31 +102,31 @@ ms.locfileid: "48131705"
 
 - 휴대폰 번호를 비롯한 대체 연락처 정보를 제공해야 합니다.
 
-- 또는 [Microsoft 지원에 문의합니다.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+- 또는 [Microsoft 지원에 문의합니다.](../contact-support-for-business-products.md)
 
 ## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>조직의 모든 사용자에 대한 모든 비즈니스 암호를 동시에 다시 설정
 <a name="bkmk_forgot"> </a>
 
-다음 단계는 수십 명의 사용자가 속한 비즈니스에 적합한 방법입니다. 사용자가 수백 또는 수천 명인 경우 다음 섹션에서 대량으로 암호를 다시 설정하는 섹션을 참조하세요(한 번에 최대 40명의 사용자).
+다음 단계는 수십 명의 사용자가 속한 비즈니스에 적합한 방법입니다. 수백 또는 수천 명의 사용자가 있는 경우 다음 섹션에서 대량으로 암호를 다시 설정(한 번에 최대 40명의 사용자)을 참조하세요.
   
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
-2. 표시 이름 옆의 옵션을 선택하여 비즈니스의 모든 사람을 선택합니다.  자신의 이름은 선택 취소합니다. 다른 모든 사람의 암호와 자신의 암호를 동시에 재설정할 수 없습니다.
+2. 표시 이름 옆의 옵션을 **선택하여** 비즈니스의 모든 사람을 선택합니다. 자신의 이름은 선택 취소합니다. 다른 모든 사람의 암호와 자신의 암호를 동시에 재설정할 수 없습니다.
 
-3. 암호 **재설정을 선택합니다.** 
+3. 암호 **다시 설정을 선택합니다.** 
 
-4. 암호 다시 설정 페이지의 지침에 **따라** 재설정을 **선택합니다.**  암호를 자동으로 생성하기로 선택한 경우 새 임시 암호가 표시됩니다.
+4. 암호 다시 설정 페이지의 **지침에 따라** 다시 설정을 **선택합니다.**  암호를 자동으로 생성하기로 선택하면 새 임시 암호가 표시됩니다.
 
 5. 임시 암호를 받을 수 있는 전자 메일 주소를 입력합니다. 사용자에게 임시 암호에 대해 알려야 합니다.
   
-## <a name="reset-business-passwords-in-bulk"></a>비즈니스 암호를 대량으로 재설정
+## <a name="reset-business-passwords-in-bulk"></a>대량으로 비즈니스 암호 재설정
 <a name="bkmk_forgot"> </a>
 
 PowerShell을 사용하세요! Eyal Doron이 작성한 게시물을 확인하세요. [PowerShell을 사용하여 암호 관리](https://go.microsoft.com/fwlink/?linkid=853696)
   
-<!-- Here's a related article: [Set the passwords for multiple user accounts](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell). -->
+<!-- Here's a related article: [Set the passwords for multiple user accounts](/office365/enterprise/powershell/manage-office-365-with-office-365-powershell). -->
   
-개요 정보는 [PowerShell을 사용하여 Microsoft 365 관리를 참조하세요.](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-with-microsoft-365-powershell)
+개요 정보는 [PowerShell을 사용하여 Microsoft 365 관리를 참조하세요.](../../enterprise/manage-microsoft-365-with-microsoft-365-powershell.md)
   
 ## <a name="force-a-password-change-for-all-users-in-your-business"></a>조직의 모든 사용자가 암호를 변경하게 만들기
 

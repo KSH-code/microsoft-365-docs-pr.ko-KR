@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
-description: 사용자 암호를 사용하여 일부 개별 사용자 암호가 만료되지 않는 것으로 설정하는 Windows PowerShell.
-ms.openlocfilehash: 2d60a8312be070d3f56cfef7cfb93e6c5da32991
-ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
+description: 사용자 암호를 사용하여 만료되지 않는 개별 사용자 암호를 설정하는 Windows PowerShell.
+ms.openlocfilehash: 564ea3338fcb11d699d385a40c9594f34964edf7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49580640"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903643"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>개별 사용자 암호가 만료되지 않도록 설정
 
@@ -37,22 +37,22 @@ ms.locfileid: "49580640"
 
 회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정의 새로운 기능](../admin-overview/admin-overview.md) 
 
-이러한 단계를 [수행하려면](about-admin-roles.md) 전역 관리자 또는 암호 관리자입니다.
+이러한 단계를 [수행하려면](about-admin-roles.md) 전역 관리자 또는 암호 관리자 되어야 합니다.
 
-Microsoft 클라우드 서비스의 전역 관리자는 [Azure Active Directory PowerShell for Graph를](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) 사용하여 특정 사용자에 대해 만료되지 않는 암호를 설정할 수 있습니다. [또한 AzureAD](https://docs.microsoft.com/powershell/module/Azuread) cmdlet을 사용하여 만료되지 않는 구성을 제거하거나 만료되지 않는 것으로 설정된 사용자 암호를 볼 수 있습니다.
+Microsoft 클라우드 서비스의 전역 관리자는 [Azure Active Directory PowerShell for Graph를](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) 사용하여 특정 사용자에 대해 만료되지 않는 암호를 설정할 수 있습니다. [AzureAD](/powershell/module/Azuread) cmdlet을 사용하여 만료되지 않는 구성을 제거하거나 만료되지 않는 것으로 설정된 사용자 암호를 볼 수도 있습니다.
 
-이 가이드는 Id 및 디렉터리 서비스에 대해 Azure AD를 사용하며 Intune 및 Microsoft 365와 같은 다른 공급자에 적용됩니다. 암호 만료는 변경할 수 있는 정책의 유일한 부분입니다.
+이 가이드는 Id 및 디렉터리 서비스에 Azure AD를 사용 하는 Intune 및 Microsoft 365와 같은 다른 공급자에 적용됩니다. 암호 만료는 변경할 수 있는 정책의 유일한 부분입니다.
 
 > [!NOTE]
-> 디렉터리 동기화를 통해 동기화되지 않은 사용자 계정의 암호만 만료되지되도록 구성할 수 있습니다. 디렉터리 동기화에 대한 자세한 내용은 Azure AD를 사용하여 [AD 연결을 참조하세요.](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)
+> 디렉터리 동기화를 통해 동기화되지 않은 사용자 계정의 암호만 만료되지되도록 구성할 수 있습니다. 디렉터리 동기화에 대한 자세한 내용은 [Azure AD를 사용하여 AD 연결을 참조하세요.](/azure/active-directory/connect/active-directory-aadconnect)
 
-## <a name="how-to-check-the-expiration-policy-for-a-password"></a>암호의 만료 정책을 검사하는 방법
+## <a name="how-to-check-the-expiration-policy-for-a-password"></a>만료 정책에서 암호를 검사하는 방법
 
-AzureAD 모듈의 Get-AzureADUser 명령에 대한 자세한 내용은 [Get-AzureADUser](https://docs.microsoft.com/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0)참조 문서를 참조하세요.
+AzureAD 모듈의 Get-AzureADUser 명령에 대한 자세한 내용은 참조 문서 [Get-AzureADUser를 참조하세요.](/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0)
 
 다음 명령 중 하나를 실행합니다.
 
-- 단일 사용자의 암호가 만료되지 않는 것으로 설정되어 있는 경우 확인하려는 사용자의 UPN(예: user@contoso.onmicrosoft.com) 또는 사용자 ID를 사용하여 다음 cmdlet을 실행합니다. 
+- 단일 사용자의 암호가 만료되지 않는 것으로 설정되어 있는 경우 확인하려는 사용자의 UPN(예: user@contoso.onmicrosoft.com) 또는 사용자 ID를 사용하여 다음 cmdlet을 *실행합니다.*
 
     ```powershell
     Get-AzureADUser -ObjectId <user id or UPN> | Select-Object UserprincipalName,@{
@@ -68,7 +68,7 @@ AzureAD 모듈의 Get-AzureADUser 명령에 대한 자세한 내용은 [Get-Azur
     }
     ```  
 
-- 모든 사용자에 **대한 암호** 사용 기간이 만료되지 않는 설정을 확인한 후 다음 cmdlet을 실행합니다.
+- 모든 사용자에 **대한 암호** 사용 기간 만료 안 기간 설정 확인을 위해 다음 cmdlet을 실행합니다.
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
@@ -76,7 +76,7 @@ AzureAD 모듈의 Get-AzureADUser 명령에 대한 자세한 내용은 [Get-Azur
      }
     ```
 
-- 이름이 l인 현재 사용자의 바탕 화면에서 Html로 PasswordNeverExpires를 사용하는  **모든 사용자에 대한ReportPasswordNeverExpires.htm**
+- 이름이 l인 현재 사용자의 바탕 화면에서 Html로 PasswordNeverExpires를 사용하는 모든 사용자에  **대한ReportPasswordNeverExpires.htm**
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
@@ -84,7 +84,7 @@ AzureAD 모듈의 Get-AzureADUser 명령에 대한 자세한 내용은 [Get-Azur
     } | ConvertTo-Html | Out-File $env:userprofile\Desktop\ReportPasswordNeverExpires.html
     ```  
 
-- 현재 사용자의 바탕 화면에 이름이 있는 CSV에 PasswordNeverExpires가 있는 모든 사용자에 대한 **보고서를ReportPasswordNeverExpires.csv**
+- 이름이 같은 현재 사용자의 바탕 화면에서 CSV에 PasswordNeverExpires가 있는 모든 사용자에 대한 **보고서를ReportPasswordNeverExpires.csv**
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
@@ -108,9 +108,9 @@ Run one of the following commands:
     ```
 
 > [!WARNING]
-> 매개 변수로 구성된 `-PasswordPolicies DisablePasswordExpiration` 사용자 계정은 특성에 따라 계속 남아 `pwdLastSet` 있습니다. 특성에 따라 만료를 `pwdLastSet` 90일보다 오래된 모든 암호로 변경하려면 다음에 로그인할 때 해당 암호를 변경해야 `-PasswordPolicies None` 합니다. 이 변경은 많은 수의 사용자에게 영향을 줄 수 있습니다.
+> 매개 변수로 구성된 `-PasswordPolicies DisablePasswordExpiration` 사용자 계정은 특성에 따라 계속 남아 `pwdLastSet` 있습니다. 특성에 따라 만료를 로 변경하는 경우 `pwdLastSet` pwdLastSet이 90일보다 오래된 모든 암호는 사용자가 다음에 로그인할 때 해당 암호를 변경해야 `-PasswordPolicies None` 합니다. 이 변경은 많은 수의 사용자에게 영향을 줄 수 있습니다.
 
-### <a name="set-a-password-to-expire"></a>암호 만료 설정
+### <a name="set-a-password-to-expire"></a>암호가 만료될 수 있습니다.
 
 다음 명령 중 하나를 실행합니다.
 
@@ -120,7 +120,7 @@ Run one of the following commands:
     Set-AzureADUser -ObjectId <user ID> -PasswordPolicies None
     ```
 
-- 조직의 모든 사용자의 암호를 만료할 수 있도록 설정하기 위해 다음 cmdlet을 사용하세요.
+- 조직에 있는 모든 사용자의 암호를 만료할 수 있도록 설정하기 위해 다음 cmdlet을 사용하세요.
 
     ```powershell
     Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies None

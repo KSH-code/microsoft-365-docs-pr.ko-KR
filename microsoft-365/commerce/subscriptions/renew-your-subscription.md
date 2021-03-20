@@ -21,19 +21,19 @@ search.appverid:
 - MET150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: 되풀이 청구를 끄거나 켜서 Microsoft 365를 갱신하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3bde3cc6d62e89e3339c268b9e3f9be5d657c467
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 8b38336ccb7a0a29b5782e55117389f6a19a0d80
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114612"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903527"
 ---
 # <a name="renew-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 갱신
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -112,4 +112,4 @@ ms.locfileid: "50114612"
 
 [제품 키 입력](../enter-your-product-key.md)
   
-[비즈니스용 Microsoft 365의 평가판 구매](../buy-a-subscription-from-your-free-trial.md)
+[비즈니스용 Microsoft 365의 평가판 구매](../try-or-buy-microsoft-365.md)

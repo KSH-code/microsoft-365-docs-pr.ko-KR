@@ -14,16 +14,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 정보 거버넌스 기능을 구현하여 규정 준수 또는 규제 요구 사항에 대한 데이터를 관리합니다.
-ms.openlocfilehash: 6b06de54f18ce4081c3b13d108a5c0ceae6d24a7
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 8a104775cd9bfc75af5b5af9840274f5f84509f0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087117"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903494"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Microsoft 365의 Microsoft 정보 거버넌스
 
->*[보안 및 규정 준수에 대한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수에 대한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Microsoft 정보 거버넌스(MIG) 기능을 사용하여 규정 준수 또는 규제 요구 사항에 대한 데이터를 관리합니다.
 
@@ -49,4 +49,3 @@ Microsoft 정보 거버넌스(MIG) 기능을 사용하여 규정 준수 또는 �
 |기능|어떤 문제를 해결하나요?|시작|
 |:------|:------------|---------------------|:----------------------------|
 |[레코드 관리](records-management.md)| 레코드 선언, 보존 및 처리를 사용하여 콘텐츠의 전체 수명을 지원하는 파일 계획에서 보존 일정 및 요구 사항을 통합하는 전자 메일 및 문서에 대한 단일 솔루션 <br /><br />시나리오 예시: [레코드의 처리](disposition.md#disposition-of-records)|[레코드 관리 시작](get-started-with-records-management.md) |
-

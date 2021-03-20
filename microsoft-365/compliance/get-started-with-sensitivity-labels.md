@@ -19,22 +19,22 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블 구현을 시작할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: ef89cadc09dea7c2186fbf4a0d76d2c690aa8acc
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: b88e32ccfc0f82749ede2b0919001e9c29f7f7be
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597220"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906020"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 민감도 레이블이 무엇인지와 조직의 데이터를 보호하는 데 도움이 되는 방법에 대한 자세한 내용은 [민감도 레이블에 대한 자세한 정보](sensitivity-labels.md)를 참조하세요.
 
-[Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)을 사용하는 경우 레이블을 통합 레이블 플랫폼으로 마이그레이션해야 하는지 여부와 사용할 클라이언트 레이블 클라이언트를 결정합니다.
-- [내 테넌트가 통합 레이블 플랫폼에 있는지 어떻게 확인할 수 있나요?](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)
-- [Windows 레이블 지정 솔루션 선택](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution)
+[Azure Information Protection](/azure/information-protection/what-is-information-protection)을 사용하는 경우 레이블을 통합 레이블 플랫폼으로 마이그레이션해야 하는지 여부와 사용할 클라이언트 레이블 클라이언트를 결정합니다.
+- [내 테넌트가 통합 레이블 플랫폼에 있는지 어떻게 확인할 수 있나요?](/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)
+- [Windows 레이블 지정 솔루션 선택](/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution)
 
 민감도 레이블을 사용하여 조직의 데이터를 보호하기 시작할 준비가 되면 다음을 수행합니다.
 
@@ -54,7 +54,7 @@ ms.locfileid: "50597220"
 
 다양한 구독 지원 민감도 레이블과 사용자에 대한 라이선스 요구 사항은 사용하는 기능에 따라 다릅니다.
 
-사용자에게 Microsoft 365 규정 준수 기능을 사용하도록 라이선스를 부여하는 옵션을 보려면 [보안 및 규정 준수에 대한 Microsoft 365 라이선스 지침](https://aka.ms/ComplianceSD)을 참조하세요. 민감도 레이블에 대한 자세한 내용은 [정보 보호](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) 섹션 및 관련 PDF 또는 Excel 다운로드를 참조하세요.
+사용자에게 Microsoft 365 규정 준수 기능을 사용하도록 라이선스를 부여하는 옵션을 보려면 [보안 및 규정 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조하세요. 민감도 레이블에 대한 자세한 내용은 [정보 보호](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) 섹션 및 관련 PDF 또는 Excel 다운로드를 참조하세요.
 
 ## <a name="permissions-required-to-create-and-manage-sensitivity-labels"></a>민감도 레이블을 만들고 관리하는 데 필요한 사용 권한
 
@@ -64,7 +64,7 @@ ms.locfileid: "50597220"
 
 기본 역할을 사용하는 대신 새 역할 그룹을 만들고 **민감도 레이블 관리자** 또는 **조직 구성** 역할을 이 그룹에 추가할 수 있습니다. 읽기 전용 역할의 경우 **민감도 레이블 리더** 를 사용하세요. 
 
-기본 역할에 사용자를 추가하거나 고유의 역할 그룹을 만드는 방법에 대한 지침은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요.
+기본 역할에 사용자를 추가하거나 고유의 역할 그룹을 만드는 방법에 대한 지침은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
 
 이러한 사용 권한은 민감도 레이블과 해당 레이블 정책을 만들고 구성하는 데만 필요합니다. 앱이나 서비스에서 레이블을 적용하는 것은 필요하지 않습니다. 민감도 레이블과 관련된 특정 구성에 대해 추가 사용 권한이 필요한 경우 해당 사용 권한은 해당하는 문서 지침에 나열되어 있습니다.
 
@@ -82,19 +82,19 @@ ms.locfileid: "50597220"
 |필요|설명서|
 |----------------|---------------|
 |Office 앱의 민감도 레이블을 관리하여 컨텐츠가 생성된 대로 레이블이 지정되도록 합니다(모든 플랫폼에서 수동 레이블 지원 포함). |[Office 앱의 민감도 레이블 관리](sensitivity-labels-office-apps.md)|
-|사용자가 Office 앱, 파일 탐색기 및 PowerShell을 사용하여 Windows 컴퓨터에서 파일에 레이블을 지정하고 파일을 보호하도록 할 수 있습니다.|[Windows용 Azure Information Protection 통합 레이블 지정 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)|
+|사용자가 Office 앱, 파일 탐색기 및 PowerShell을 사용하여 Windows 컴퓨터에서 파일에 레이블을 지정하고 파일을 보호하도록 할 수 있습니다.|[Windows용 Azure Information Protection 통합 레이블 지정 클라이언트](/azure/information-protection/rms-client/aip-clientv2)|
 |민감도 레이블이있는 문서 및 이메일을 암호화하고 해당 컨텐츠에 액세스할 수 있는 사람과 사용 방법을 제한합니다. |[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)|
 |문서를 암호화한 경우에도 공동 작성, eDiscovery, 데이터 손실 방지, 검색에 대 한 지원을 사용하여 웹용 Office에 대한 민감도 레이블을 사용하도록 설정합니다. | [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용](sensitivity-labels-sharepoint-onedrive-files.md)
 |문서가 암호화된 경우 Office 데스크톱 앱에서 공동 작성 및 자동 저장 사용 | [민감도 레이블로 암호화된 파일에 공동 작성 사용](sensitivity-labels-coauthoring.md)
 |문서 및 전자 메일에 자동으로 민감도 레이블 적용 | [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)|
 |민감도 레이블을 사용하여 Teams와 SharePoint에서 콘텐츠 보호 |[Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 민감도 레이블 사용하기](sensitivity-labels-teams-groups-sites.md)|
 |특정 민감도 레이블로 파일 또는 전자 메일 공유에 대해 사용자 차단 또는 경고 |[민감도 레이블을 DLP 정책의 조건으로 사용(미리 보기)](dlp-sensitivity-label-as-condition.md) |
-|온 프레미스에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호 |[파일을 자동으로 분류하고 보호하는 Azure Information Protection 스캐너 배포](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
-|클라우드에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호|[클라우드에 저장된 데이터를 검색하고, 분류하고, 레이블을 지정하고, 보호](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
-|Power BI에서 레이블을 적용 및 확인하고 서비스 외부에서 데이터를 저장할 때 데이터를 보호합니다.|[Power BI의 민감도 레이블](https://docs.microsoft.com/power-bi/admin/service-security-sensitivity-label-overview)|
+|온 프레미스에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호 |[파일을 자동으로 분류하고 보호하는 Azure Information Protection 스캐너 배포](/azure/information-protection/deploy-aip-scanner)|
+|클라우드에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호|[클라우드에 저장된 데이터를 검색하고, 분류하고, 레이블을 지정하고, 보호](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
+|Power BI에서 레이블을 적용 및 확인하고 서비스 외부에서 데이터를 저장할 때 데이터를 보호합니다.|[Power BI의 민감도 레이블](/power-bi/admin/service-security-sensitivity-label-overview)|
 |조직에서 민감도 레이블이 사용되는 방식을 모니터링하고 이해하기|[데이터 파악 - 데이터 분류 개요](data-classification-overview.md) <br /><br /> [데이터 분류 시작하기](data-classification-overview.md)|
-|타사 앱 및 서비스에 민감도 레이블을 연장|[Microsoft Information Protection SDK](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|
-|Azure Blob Storage, Azure 파일, Azure Data Lake Storage 1세대 및 Azure Data Lake Storage Gen12의 컨텐츠에 걸쳐 민감도 레이블 확장|[Azure Purview에서 내용에 자동으로 레이블을 지정](https://docs.microsoft.com/azure/purview/create-sensitivity-label) |
+|타사 앱 및 서비스에 민감도 레이블을 연장|[Microsoft Information Protection SDK](/information-protection/develop/overview#microsoft-information-protection-sdk)|
+|Azure Blob Storage, Azure 파일, Azure Data Lake Storage 1세대 및 Azure Data Lake Storage Gen12의 컨텐츠에 걸쳐 민감도 레이블 확장|[Azure Purview에서 내용에 자동으로 레이블을 지정](/azure/purview/create-sensitivity-label) |
 
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>민감도 레이블용 최종 사용자 설명서
@@ -111,6 +111,6 @@ ms.locfileid: "50597220"
 - [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)
     - [민감도 레이블 자동 적용 또는 추천에 대한 알려진 문제](https://support.office.com/article/known-issues-with-automatically-applying-or-recommending-sensitivity-labels-451698ae-311b-4d28-83aa-a839a66f6efc)
 
-- [Azure Information Protection 통합 레이블 사용자 가이드](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-user-guide)
+- [Azure Information Protection 통합 레이블 사용자 가이드](/azure/information-protection/rms-client/clientv2-user-guide)
 
-민감도 레이블이 PDF 문서에 대해 암호화를 적용하는 경우 Windows 또는 Mac에서 Microsoft Edge를 사용하여 문서를 열 수 있습니다. 자세한 내용과 대체 읽기 프로그램에 대한 자세한 내용은 [보호되는 Pdf에 대해 지원되는 PDF 읽기 프로그램](https://docs.microsoft.com/azure/information-protection/rms-client/protected-pdf-readers#viewing-protected-pdfs-in-microsoft-edge-on-windows-or-mac)을 참조하세요.
+민감도 레이블이 PDF 문서에 대해 암호화를 적용하는 경우 Windows 또는 Mac에서 Microsoft Edge를 사용하여 문서를 열 수 있습니다. 자세한 내용과 대체 읽기 프로그램에 대한 자세한 내용은 [보호되는 Pdf에 대해 지원되는 PDF 읽기 프로그램](/azure/information-protection/rms-client/protected-pdf-readers#viewing-protected-pdfs-in-microsoft-edge-on-windows-or-mac)을 참조하세요.

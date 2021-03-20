@@ -1,5 +1,5 @@
 ---
-title: 기본 이동성 및 보안 관리 장치에 대한 세부 정보 확인
+title: 기본 모바일 및 보안 관리 장치에 대한 세부 정보 확인
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -17,29 +17,29 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: 이 Windows PowerShell 사용하여 조직의 기본 이동성 및 보안 장치에 대한 세부 정보를 얻을 수 있습니다.
-ms.openlocfilehash: 7c6a0365dfd573377c3675bbcee8ee8280e33816
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+description: 이 Windows PowerShell 사용하여 조직의 기본 모바일 및 보안 장치에 대한 세부 정보를 얻을 수 있습니다.
+ms.openlocfilehash: 92fcd6f39ffff97d7a4ecd2a69626ece54b481b2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49876891"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904255"
 ---
-# <a name="get-details-about-basic-mobility-and-security-managed-devices"></a>기본 이동성 및 보안 관리 장치에 대한 세부 정보 확인
+# <a name="get-details-about-basic-mobility-and-security-managed-devices"></a>기본 모바일 및 보안 관리 장치에 대한 세부 정보 확인
 
-이 문서에서는 기본 이동성 및 Windows PowerShell 설정한 조직의 장치에 대한 세부 정보를 표시하는 방법을 보여줍니다.
+이 문서에서는 기본 이동성 및 Windows PowerShell 설정한 조직의 장치에 대한 세부 정보를 표시하기 위해 이 문서를 사용하는 방법을 보여줍니다.
 
 다음은 사용할 수 있는 장치 세부 정보의 분석입니다.
 
 |**자세한 정보**|**PowerShell에서 찾아야 할 것**|
 |:----------------|:------------------------------------------------------------------------------|
-|장치가 기본 이동성 및 보안에 등록됩니다. 자세한 내용은 기본 이동성 및 보안을 사용하여 모바일 장치 [등록을 참조하세요.](enroll-your-mobile-device.md)|isManaged 매개 *변수의 값은*   다음입니다.<br/>**True**= 장치가 등록됩니다.<br/>**False**= 장치가 등록되지 않습니다. |
+|장치가 기본 모바일 및 보안에 등록됩니다. 자세한 내용은 기본 모바일 및 보안을 사용하여 모바일 장치 [등록을 참조하세요.](enroll-your-mobile-device.md)| *isManaged* 매개   변수의 값은 다음입니다.<br/>**True**= 장치가 등록됩니다.<br/>**False**= 장치가 등록되지 않습니다. |
 |장치가 장치 보안 정책을 준수합니다. 자세한 내용은 장치 보안 [정책 만들기를 참조하세요.](create-device-security-policies.md)| *isCompliant* 매개 변수의   값은 다음입니다.<br/>**True**   = 장치가 정책을 준수합니다.<br/>**False**   = 장치가 정책을 준수하지 않습니다.|
 
 :::image type="content" source="../../media/basic-mobility-security/bms-7-powershell-parameters.png" alt-text="기본 Mobility and Security PowerShell 매개 변수":::
 
 >[!NOTE]
->이 문서의 명령 및 스크립트는 Microsoft Intune에서 관리하는 장치에 대한 세부 [정보도 반환합니다.](https://www.microsoft.com/cloud-platform/microsoft-intune)
+>이 문서의 명령 및 스크립트는 [Microsoft Intune에서](https://www.microsoft.com/cloud-platform/microsoft-intune)관리하는 모든 장치에 대한 세부 정보도 반환합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -47,9 +47,9 @@ ms.locfileid: "49876891"
 
 ### <a name="step-1-download-and-install-the-azure-active-directory-module-for-windows-powershell"></a>1단계: Azure Active Directory 모듈을 다운로드하여 Windows PowerShell
 
-이러한 단계에 대한 자세한 내용은 [PowerShell을 사용하여 Microsoft 365에 연결합니다.](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell)
+이러한 단계에 대한 자세한 내용은 [PowerShell을 사용하여 Microsoft 365에 연결을 참조하세요.](/office365/enterprise/powershell/connect-to-office-365-powershell)
 
-1. IT [Microsoft Online Services Sign-In RTWl용](https://www.microsoft.com/download/details.aspx?id=41950)Microsoft Online Services 도우미로    **이동하여 다운로드를 선택합니다.**   
+1. IT 전문가용 Microsoft Online Services Sign-In 도우미 [RTWl로](https://www.microsoft.com/download/details.aspx?id=41950)이동하고 로그인 도우미에 Microsoft Online Services    **다운로드를 선택합니다.**
 
 2. 다음 단계에 따라 Windows PowerShell용 Microsoft Azure Active Directory 모듈을 설치합니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "49876891"
 
     $UserCredential = Get-Credential
 
-2. 자격 증명 Windows PowerShell 대화 상자에 Microsoft 365 전역 관리자 계정의 사용자 이름과 암호를 입력한 다음 확인을 **선택합니다.**
+2. 자격 증명 Windows PowerShell 대화 상자에서 Microsoft 365 전역 관리자 계정의 사용자 이름과 암호를 입력한 다음 확인 을 **선택합니다.**
 
 3. 다음 명령을 실행합니다.
 
@@ -78,11 +78,11 @@ ms.locfileid: "49876891"
 ### <a name="step-3-make-sure-youre-able-to-run-powershell-scripts"></a>3단계: PowerShell 스크립트를 실행할 수 있는지 확인
 
 >[!NOTE]
->PowerShell 스크립트를 실행하기 위해 이미 설정한 경우 이 단계를 건너뛸 수 있습니다.
+>PowerShell 스크립트를 실행하기로 이미 설정한 경우 이 단계를 건너뛸 수 있습니다.
 
-Get-MsolUserDeviceComplianceStatus.ps1 실행하려면 PowerShell 스크립트를 실행하도록 설정해야 합니다.
+Get-MsolUserDeviceComplianceStatus.ps1 실행하려면 PowerShell 스크립트 실행을 사용하도록 설정해야 합니다.
 
-1. Windows 바탕 화면에서 **** 시작을 선택한 다음 시작을 Windows PowerShell. 이 Windows PowerShell 마우스 오른쪽 단추로 클릭한 다음 **관리자 권한으로 실행을 선택합니다.**
+1. Windows 데스크톱에서 시작 을 **선택한** 다음 시작을 Windows PowerShell. 마우스 오른쪽 단추로 Windows PowerShell 다음 **관리자 권한으로 실행 을 선택합니다.**
 
 2. 다음 명령을 실행합니다.
 
@@ -98,7 +98,7 @@ Get-MsolUserDeviceComplianceStatus.ps1 실행하려면 PowerShell 스크립트�
 
     Get-MsolDevice -All -ReturnRegisteredOwners | Where-Object {$_를 사용합니다. RegisteredOwners.Count -gt 0}
 
-자세한 예는  [Get-MsolDevice를 참조합니다.](https://go.microsoft.com/fwlink/?linkid=841721)
+자세한 예제는  [Get-MsolDevice 를 참조합니다.](https://go.microsoft.com/fwlink/?linkid=2157939)
 
 ## <a name="run-a-script-to-get-device-details"></a>스크립트를 실행하여 장치 세부 정보 확인
 
@@ -106,7 +106,7 @@ Get-MsolUserDeviceComplianceStatus.ps1 실행하려면 PowerShell 스크립트�
 
 1. 다음 텍스트를 복사하여 메모장에 붙여 넣습니다.  
 
-2.  param (
+2.  param(
 
 3.  [PSObject[]]$users = @(),
 
@@ -158,13 +158,13 @@ Get-MsolUserDeviceComplianceStatus.ps1 실행하려면 PowerShell 스크립트�
 28.  [PSObject]$resultObject = New-Object -TypeName PSObject -Property $script:schema
     
 
-30.  반환 $resultObject
+30.  return $resultObject
     
 
 31.  }
     
 
-33.  ($users. Count -eq 0)
+33.  If($users. Count -eq 0)
     
 
 34.  {
@@ -245,7 +245,7 @@ Get-MsolUserDeviceComplianceStatus.ps1 실행하려면 PowerShell 스크립트�
 64.  {
     
 
-65.  $result | Export-Csv -path($exportPath + " + \" $exportFileName) -NoTypeInformation
+65.  $result | Export-Csv -path ($exportPath + " \" + $exportFileName) -NoTypeInformation
     
 
 66.  }
@@ -273,7 +273,7 @@ Get-MsolUserDeviceComplianceStatus.ps1 실행하려면 PowerShell 스크립트�
     
     cd C:\PS-Scripts
 
-3. 다음 명령을 실행하여 장치 세부 정보를 얻을 사용자를 식별합니다. 이 예제에서는 이 예제의 세부 정보를 bar@example.com.
+3. 다음 명령을 실행하여 장치 세부 정보를 확인할 사용자를 식별합니다. 이 예제에서는 자세한 정보를 bar@example.com.
     
     $u = Get-MsolUser -UserPrincipalName bar@example.com
 
@@ -281,7 +281,7 @@ Get-MsolUserDeviceComplianceStatus.ps1 실행하려면 PowerShell 스크립트�
 
     .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
 
-정보는 CSV 파일로 Windows 데스크톱으로 내보낼 수 있습니다. 추가 매개 변수를 사용하여 CSV의 파일 이름과 경로를 지정할 수 있습니다.
+정보는 Windows 데스크톱에 CSV 파일로 내보낼 수 있습니다. 추가 매개 변수를 사용하여 CSV의 파일 이름과 경로를 지정할 수 있습니다.
 
 ## <a name="run-the-script-to-get-device-information-for-a-group-of-users"></a>스크립트를 실행하여 사용자 그룹에 대한 장치 정보 얻기
 
@@ -295,16 +295,16 @@ Get-MsolUserDeviceComplianceStatus.ps1 실행하려면 PowerShell 스크립트�
 
     $u = Get-MsolGroupMember -SearchString "FinanceStaff" | % { Get-MsolUser -ObjectId $_. ObjectId }
 
-4. 다음 명령을 실행하여 스크립트를 초기화합니다.   
+4. 다음 명령을 실행하여 스크립트를 초기화합니다.
 
     .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
 
-정보는 CSV 파일로 Windows 데스크톱으로 내보낼 수 있습니다. 추가 매개 변수를 사용하여 CSV의 파일 이름과 경로를 지정할 수 있습니다.
+정보는 Windows 데스크톱에 CSV 파일로 내보낼 수 있습니다. 추가 매개 변수를 사용하여 CSV의 파일 이름과 경로를 지정할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[Microsoft Connect 사용 중지](https://docs.microsoft.com/collaborate/connect-redirect)
+[Microsoft Connect 사용 중지](/collaborate/connect-redirect)
 
 [기본 모바일 및 보안 개요](overview.md)
 
-[Get-MsolDevice](https://go.microsoft.com/fwlink/?linkid=841721)
+[Get-MsolDevice](https://go.microsoft.com/fwlink/?linkid=2157939)

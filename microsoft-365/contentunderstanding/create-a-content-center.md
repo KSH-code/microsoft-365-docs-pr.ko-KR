@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: 콘텐츠 센터 만드는 방법 알아보기
-ms.openlocfilehash: 3544bbef7cf2f898733c7aaad620487098a2dd24
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 34ba45cd62214743e5a6784893e0f24e9815fdfb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515139"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905827"
 ---
 # <a name="create-a-content-center-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 콘텐츠 센터 만들기
 
@@ -35,12 +35,12 @@ ms.locfileid: "50515139"
 [설정](set-up-content-understanding.md) 중에 기본 콘텐츠 센터가 만들어집니다. SharePoint 관리자는 필요한 경우 추가 센터를 만들도록 선택할 수도 있습니다. 모든 모델 활동을 롤업하는 환경이라면 단일 콘텐츠 센터로도 괜찮지만 모델에 따라 요구사항과 사용 권한이 다를 경우 조직 내에 여러 부서를 위한 추가 센터가 필요할 수도 있습니다.
 
 > [!NOTE]
-> [Microsoft 365 Multi-Geo 환경](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo)에서는 중앙 위치에 단일 기본 콘텐츠 센터가 있는 경우 해당 위치 내에서만 모델 작업의 롤업을 제공할 수 있습니다. 현재 다중 지역 환경에서 팜 경계에 걸쳐 모델 활동을 롤업할 수 없습니다. 
+> [Microsoft 365 Multi-Geo 환경](../enterprise/microsoft-365-multi-geo.md)에서는 중앙 위치에 단일 기본 콘텐츠 센터가 있는 경우 해당 위치 내에서만 모델 작업의 롤업을 제공할 수 있습니다. 현재 다중 지역 환경에서 팜 경계에 걸쳐 모델 활동을 롤업할 수 없습니다. 
 
 
 ## <a name="create-a-content-center"></a>콘텐츠 센터 만들기
 
-SharePoint 관리자는 관리 센터 사이트 프로비전 창에서 [다른 SharePoint 사이트를 만드는 것](https://docs.microsoft.com/sharepoint/create-site-collection)과 같이 콘텐츠 센터 사이트를 만들 수 있습니다.
+SharePoint 관리자는 관리 센터 사이트 프로비전 창에서 [다른 SharePoint 사이트를 만드는 것](/sharepoint/create-site-collection)과 같이 콘텐츠 센터 사이트를 만들 수 있습니다.
 
 새 콘텐츠 센터를 만들려면 다음과 같이 합니다.
 
@@ -63,7 +63,7 @@ SharePoint 관리자는 관리 센터 사이트 프로비전 창에서 [다른 S
 
 ### <a name="give-access-to-additional-users"></a>추가 사용자에게 액세스 부여
  
-사이트를 만든 후에는 다른 사용자에게 표준 [SharePoint 사이트 사용 권한 모델](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions)을 통해 사이트에 액세스를 부여할 수 있습니다.
+사이트를 만든 후에는 다른 사용자에게 표준 [SharePoint 사이트 사용 권한 모델](/sharepoint/modern-experience-sharing-permissions)을 통해 사이트에 액세스를 부여할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 [분류자 만들기](create-a-classifier.md)
@@ -76,4 +76,4 @@ SharePoint 관리자는 관리 센터 사이트 프로비전 창에서 [다른 S
 
 [양식 처리 모델 만들기](create-a-form-processing-model.md)
 
-[모델 적용](apply-a-model.md)    
+[모델 적용](apply-a-model.md)

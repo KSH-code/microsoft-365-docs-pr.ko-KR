@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)에서 인바운드 메시지를 허용하는 사용 가능한 옵션 및 기본 설정 옵션에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 33f4e9ac33f7952612e8b469345e38507ece5f4b
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 88c70eea4952eda9315687ae90e2f6834f1edaf8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453744"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903823"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>EOP에서 수신 가능한 보낸 사람 목록 만들기
 
@@ -58,7 +58,7 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
 ## <a name="recommended-use-mail-flow-rules"></a>(권장) 메일 흐름 규칙 사용
 
-Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 조건 및 예외를 사용하여 메시지를 식별하고 해당 메시지에 대해 수행할 작업을 지정합니다. 자세한 내용은 Exchange Online의 메일 흐름 [규칙(전송 규칙)을 참조하세요.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
+Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 조건 및 예외를 사용하여 메시지를 식별하고 해당 메시지에 대해 수행할 작업을 지정합니다. 자세한 내용은 Exchange Online의 메일 흐름 [규칙(전송 규칙)을 참조하세요.](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
 
 다음 예에서는 스팸 필터링을 건너뛰기 위해 contoso.com 전자 메일이 필요하다고 가정합니다. 이렇게하려면 다음 설정을 구성합니다.
 

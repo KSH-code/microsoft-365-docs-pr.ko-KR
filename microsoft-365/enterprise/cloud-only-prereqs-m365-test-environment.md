@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 클라우드 전용 인증을 위한 필수 구성 요소를 사용하여 ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: 1e659304eee330960937b641c9a39b03920f52e7
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 3e5a9ef1f610bf3dc6d23c9e584e179fb8ab9ca9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233133"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905143"
 ---
 # <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 클라우드 전용 ID 및 장치 액세스 필수 구성 요소
 
@@ -51,7 +51,7 @@ ms.locfileid: "50233133"
 
 먼저 조직에서 사용하는 공개 IP 주소 또는 주소 범위를 결정합니다.
 
-그 다음 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/reports-monitoring/quickstart-configure-named-locations)에서 명명된 위치 구성의 지침에 따라 주소 또는 주소 범위를 명명된 위치로 추가합니다. 
+그 다음 [Azure Active Directory](/azure/active-directory/reports-monitoring/quickstart-configure-named-locations)에서 명명된 위치 구성의 지침에 따라 주소 또는 주소 범위를 명명된 위치로 추가합니다. 
 
 ## <a name="phase-3-configure-self-service-password-reset"></a>3단계: 셀프 서비스 암호 재설정 구성
 
@@ -79,11 +79,11 @@ ms.locfileid: "50233133"
 
 ## <a name="phase-5-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>5단계: 도메인에 가입된 Windows 컴퓨터의 자동 장치 등록 사용 
 
-다음 [지침에 따라](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan) 도메인에 가입된 Windows 컴퓨터의 자동 장치 등록을 사용하도록 설정할 수 있습니다.
+다음 [지침에 따라](/azure/active-directory/devices/hybrid-azuread-join-plan) 도메인에 가입된 Windows 컴퓨터의 자동 장치 등록을 사용하도록 설정하세요.
 
 ## <a name="phase-6-configure-azure-ad-password-protection"></a>6단계: Azure AD 암호 보호 구성 
 
-다음 [지침에 따라](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) 알려진 약한 암호 및 해당 변형을 차단합니다.
+다음 [지침에 따라](/azure/active-directory/authentication/concept-password-ban-bad) 알려진 약한 암호 및 해당 변형을 차단합니다.
 
 ## <a name="phase-7-enable-azure-ad-identity-protection"></a>7단계: Azure Active Directory Identity Protection 사용
 
@@ -91,11 +91,11 @@ ms.locfileid: "50233133"
 
 ## <a name="phase-8-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>8단계: Exchange Online 및 Skype for Business Online에 대한 최신 인증을 실행합니다.
 
-Exchange Online의 경우에는 [이 지침](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later)을 따릅니다. 
+Exchange Online의 경우에는 [이 지침](/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later)을 따릅니다. 
 
 Online 비즈니스용 Skype의 경우:
 
-1. [온라인 비즈니스를 위한 Skype에 연결](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+1. [온라인 비즈니스를 위한 Skype에 연결](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 2. 이 명령을 실행합니다.
 
@@ -113,7 +113,7 @@ Online 비즈니스용 Skype의 경우:
 
 ## <a name="next-step"></a>다음 단계
 
-[일반 ID 및 장치 액세스 정책](identity-access-policies.md)을 사용하여 필수 구성 요소를 기반으로 구축되고 ID 및 장치를 보호하는 정책을 구성합니다.
+[일반 ID 및 장치 액세스 정책](../security/office-365-security/identity-access-policies.md)을 사용하여 필수 구성 요소를 기반으로 구축되고 ID 및 장치를 보호하는 정책을 구성합니다.
 
 ## <a name="see-also"></a>참고 항목
 
@@ -125,4 +125,4 @@ Online 비즈니스용 Skype의 경우:
 
 [엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
-[기업용 Microsoft 365 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)
+[기업용 Microsoft 365 설명서](/microsoft-365-enterprise/)

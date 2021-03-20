@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: '전역 관리자가 사용자의 전자 메일 주소 및 표시 이름을 변경하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 7f894af3778964dfa6c696c1f467bc0dd8313f32
-ms.sourcegitcommit: 98146c67a1d99db5510fa130340d3b7be8d81b21
+ms.openlocfilehash: 6a5498f4e480802f8770f7b7adde55fe7c996dc8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49585297"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904483"
 ---
 # <a name="change-a-user-name-and-email-address"></a>사용자 이름 및 전자 메일 주소 변경
 
@@ -221,7 +221,7 @@ ms.locfileid: "49585297"
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>"매개 변수 이름 'EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다.”
 
-"**A parameter cannot be found that matches parameter name 'EmailAddresses**"(매개 변수 이름 'EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다.) 오류 메시지가 표시되는 경우 테넌트 또는 최근에 추가한 사용자 지정 도메인 설정을 완료하는 데 시간이 더 소요됨을 의미합니다. 설정 프로세스를 완료하는 데 최대 4시간이 걸릴 수 있습니다. 설정 프로세스가 완료될 때까지 기다린 후 다시 시도하세요. 문제가 계속되는 경우 [고객 지원](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)에 연락하여 사용자를 대신해 전체 동기화를 수행하도록 요청하세요.
+"**A parameter cannot be found that matches parameter name 'EmailAddresses**"(매개 변수 이름 'EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다.) 오류 메시지가 표시되는 경우 테넌트 또는 최근에 추가한 사용자 지정 도메인 설정을 완료하는 데 시간이 더 소요됨을 의미합니다. 설정 프로세스를 완료하는 데 최대 4시간이 걸릴 수 있습니다. 설정 프로세스가 완료될 때까지 기다린 후 다시 시도하세요. 문제가 계속되는 경우 [고객 지원](../contact-support-for-business-products.md)에 연락하여 사용자를 대신해 전체 동기화를 수행하도록 요청하세요.
   
 ### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>“죄송합니다. 사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요."
 
@@ -249,7 +249,7 @@ Set-MsolUserPrincipalName -UserPrincipalName anne.wallace@contoso.onmicrosoft.co
 > [!TIP]
 > 이를 통해 사용자의 **userPrincipalName** 특성이 변경되고 MOERA(Microsoft Online 전자 메일 라우팅 주소) 전자 메일 주소와 관련이 없습니다. 그러나 이는 사용자의 로그온 UPN을 해당 기본 SMTP 주소와 일치시키기 위한 모범 사례입니다. 
   
-Windows Server 2003 및 이전 버전의 Active Directory에서 사용자 이름을 변경하는 방법을 알아보려면 [사용자 계정 이름 바꾸기](https://go.microsoft.com/fwlink/?LinkId=809091)를 참조하세요.
+Windows Server 2003 및 이전 버전의 Active Directory에서 사용자 이름을 변경하는 방법을 알아보려면 [사용자 계정 이름 바꾸기](/previous-versions/windows/it-pro/windows-server-2003/cc772952(v=ws.10))를 참조하세요.
   
 ## <a name="related-articles"></a>관련 문서
 

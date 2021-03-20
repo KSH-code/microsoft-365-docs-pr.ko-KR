@@ -16,18 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
-ms.openlocfilehash: 48bb0f3d1a3a239025017fda261945094a3eda79
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 7f733dab02ab3ff33131be96a96451d7d1c14f55
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126084"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904411"
 ---
 # <a name="intune-admin-roles-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 Intune 관리자 역할
 
 Microsoft 365 또는 Office 365 구독은 Microsoft 365 관리 센터를 사용하여 조직의 사용자에게 할당할 수 있는 관리자 역할의 집합과 함께 제공됩니다. 각 관리자 역할은 공통 비즈니스 기능에 매핑되며 조직의 직원에게 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
 
-Microsoft 365 관리 센터를 통해 일부 Microsoft Intune 역할을 관리할 수 있습니다. 그러나 해당 역할은 Intune 관리 센터에서 사용할 수 있는 역할의 하위 집합입니다. Microsoft Intune에 대한 자세한 역할 설명을 찾고 있나요? [Microsoft Intune으로 RBAC(역할 기반 액세스 제어)](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control)를 확인하세요.
+Microsoft 365 관리 센터를 통해 일부 Microsoft Intune 역할을 관리할 수 있습니다. 그러나 해당 역할은 Intune 관리 센터에서 사용할 수 있는 역할의 하위 집합입니다. Microsoft Intune에 대한 자세한 역할 설명을 찾고 있나요? [Microsoft Intune으로 RBAC(역할 기반 액세스 제어)](/mem/intune/fundamentals/role-based-access-control)를 확인하세요.
 
 Microsoft 365 관리 센터에서 역할을 할당하는 방법에 대한 자세한 내용은 [관리자 역할 할당하기](assign-admin-roles.md)를 참조하세요.
 
@@ -58,7 +58,7 @@ Microsoft 파트너와 함께 업무를 진행하는 경우에는 파트너에�
 
 - 헬프데스크 관리자와 동일한 권한을 가진 제한된 관리 기능
 
-파트너가 이러한 역할을 사용자에게 할당하기 전에 파트너를 사용자 계정에 위임된 관리자로 추가해야 합니다. 이 프로세스는 공인 파트너가 시작 합니다. 파트너는 사용자가 파트너에게 위임된 관리자 역할을 수행할 권한을 부여할 것인지 묻는 전자 메일을 보냅니다. 안내 사항은 [파트너 관계 승인 또는 제거](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner)를 참조하십시오.
+파트너가 이러한 역할을 사용자에게 할당하기 전에 파트너를 사용자 계정에 위임된 관리자로 추가해야 합니다. 이 프로세스는 공인 파트너가 시작 합니다. 파트너는 사용자가 파트너에게 위임된 관리자 역할을 수행할 권한을 부여할 것인지 묻는 전자 메일을 보냅니다. 안내 사항은 [파트너 관계 승인 또는 제거](../misc/add-partner.md)를 참조하십시오.
   
 ## <a name="related-articles"></a>관련 문서
 

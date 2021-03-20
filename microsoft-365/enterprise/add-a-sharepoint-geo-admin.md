@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 description: 각 지리적 위치에 대해 별도의 관리자를 구성해야 하나요? Microsoft 365 Multi-Geo에서 지역 관리자를 추가하거나 제거하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9a3d916bfec2c53850f923fb5322298e9ff440ca
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 32fe5e934e6a3d6f18c802c3c427974e67c1b454
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692865"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905611"
 ---
 # <a name="add-or-remove-a-geo-administrator-in-microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo에서 지역 관리자를 추가하거나 제거
 
@@ -32,7 +32,7 @@ ms.locfileid: "46692865"
 
 지역 관리자를 구성하려면 SharePoint Online PowerShell 모듈이 필요합니다.
 
-[Connect-SPOService](https://docs.microsoft.com/powershell/module/sharepoint-online/Connect-SPOService)를 사용하여 지역 관리자를 추가할 지리적 위치의 관리 센터에 연결합니다. (예 : Connect-SPOService  https://ContosoEUR-admin.sharepoint.com.)
+[Connect-SPOService](/powershell/module/sharepoint-online/Connect-SPOService)를 사용하여 지역 관리자를 추가할 지리적 위치의 관리 센터에 연결합니다. (예 : Connect-SPOService  https://ContosoEUR-admin.sharepoint.com.)
 
 어떤 위치의 기존 지역 관리자를 보려면 다음을 실행하세요. `Get-SPOGeoAdministrator` 
 
@@ -50,18 +50,18 @@ ms.locfileid: "46692865"
 
 지역 관리자 권한으로 그룹을 제거하려면 다음을 실행하세요. `Remove-SPOGeoAdministrator -GroupAlias <alias>`
 
-모든 보안 그룹이 그룹 별칭이 있는 것은 아닙니다. 별칭이 없는 보안 그룹을 추가하려면 [Get-MsolGroup](https://docs.microsoft.com/powershell/module/msonline/get-msolgroup)을 실행하여 그룹 목록을 검색하고 보안 그룹의 ObjectID를 찾은 다음 다음을 실행합니다.
+모든 보안 그룹이 그룹 별칭이 있는 것은 아닙니다. 별칭이 없는 보안 그룹을 추가하려면 [Get-MsolGroup](/powershell/module/msonline/get-msolgroup)을 실행하여 그룹 목록을 검색하고 보안 그룹의 ObjectID를 찾은 다음 다음을 실행합니다.
 
 `Add-SPOGeoAdministrator -ObjectID <ObjectID>`
 
 ObjectID를 사용하여 그룹을 제거하려면 다음을 실행하세요. `Remove-SPOGeoAdministrator -ObjectID <ObjectID>`
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[Add-SPOGeoAdministrator](https://docs.microsoft.com/powershell/module/sharepoint-online/add-spogeoadministrator)
+[Add-SPOGeoAdministrator](/powershell/module/sharepoint-online/add-spogeoadministrator)
 
-[Get-SPOGeoAdministrator](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spogeoadministrator)
+[Get-SPOGeoAdministrator](/powershell/module/sharepoint-online/get-spogeoadministrator)
 
-[Remove-SPOGeoAdministrator](https://docs.microsoft.com/powershell/module/sharepoint-online/remove-spogeoadministrator)
+[Remove-SPOGeoAdministrator](/powershell/module/sharepoint-online/remove-spogeoadministrator)
 
-[보안 그룹에 대한 별칭(MailNickName) 설정](https://docs.microsoft.com/powershell/module/azuread/set-azureadgroup)
+[보안 그룹에 대한 별칭(MailNickName) 설정](/powershell/module/azuread/set-azureadgroup)

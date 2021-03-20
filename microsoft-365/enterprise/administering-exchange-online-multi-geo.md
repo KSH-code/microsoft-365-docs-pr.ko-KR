@@ -12,16 +12,16 @@ f1.keywords:
 ms.custom: seo-marvel-mar2020
 localization_priority: normal
 description: PowerShell을 사용하여 Microsoft 365 환경에서 Exchange Online Multi-Geo 설정을 관리하는 방법을 확인합니다.
-ms.openlocfilehash: 83889b4582d2e305b2cb9f07a64307e85d30be77
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: c8f06318313c4192fc2b3a289727933c5a54f3ad
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406045"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905587"
 ---
 # <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Multi-Geo 환경에서 Exchange Online 사서함 관리
 
-Microsoft 365 환경에서 다중 지리적 속성을 보고 구성하려면 Exchange Online PowerShell이 필요합니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+Microsoft 365 환경에서 다중 지리적 속성을 보고 구성하려면 Exchange Online PowerShell이 필요합니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
 사용자 개체의 **PreferredDataLocation** 속성을 보려면 v1.x에서 [Microsoft Azure Active Directory PowerShell 모듈](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx) v1.1.166.0 이상이 필요합니다. AAD Connect를 통해 AAD에 동기화된 사용자 개체의 **PreferredDataLocation** 값은 AAD PowerShell을 통해 직접 수정할 수 없습니다. 클라우드 전용 사용자 개체는 AAD PowerShell을 통해 수정할 수 있습니다. Azure AD PowerShell에 연결하려면 [PowerShell에 연결](connect-to-microsoft-365-powershell.md)을 참조하세요.
 
@@ -31,7 +31,7 @@ Exchange Online Multi-Geo 환경에서는 테넌트에 지역을 추가하기 �
 
 일반적으로 Exchange Online PowerShell은 중앙 지리적 위치에 연결합니다. 그러나 위성 지리적 위치에 직접 연결할 수도 있습니다. 특정 위치의 사용자만 관리하는 경우 성능 개선을 위해 해당 위성 위치에 직접 연결할 것을 권장합니다.
 
-EXO V2 모듈을 설치하고 사용하는 데 필요한 사항에 대한 자세한 내용은 [EXO V2 모듈 설치 및 유지 관리](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module)를 참조하세요.
+EXO V2 모듈을 설치하고 사용하는 데 필요한 사항에 대한 자세한 내용은 [EXO V2 모듈 설치 및 유지 관리](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module)를 참조하세요.
 
 Exchange Online PowerShell을 특정 지리적 위치에 연결하기 위해 *ConnectionUri* 매개 변수는 일반 연결 지침과 다릅니다. 나머지 명령과 값은 동일합니다.
 
@@ -136,7 +136,7 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 
 > [!NOTE]
 >
-> - 앞서 언급했듯이, 이 절차를 사용하여 동기화된 사용자 개체는 On-프레미스 Active Directory에서 사용할 수 없습니다. Active Directory에서 **PreferredDataLocation** 값을 변경하고 AAD Connect를 사용하여 동기화해야 합니다. 자세한 내용은 [Azure Active Directory Connect 동기화: Microsoft 365 리소스의 기본 데이터 위치 구성](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation)을 참조하세요.
+> - 앞서 언급했듯이, 이 절차를 사용하여 동기화된 사용자 개체는 On-프레미스 Active Directory에서 사용할 수 없습니다. Active Directory에서 **PreferredDataLocation** 값을 변경하고 AAD Connect를 사용하여 동기화해야 합니다. 자세한 내용은 [Azure Active Directory Connect 동기화: Microsoft 365 리소스의 기본 데이터 위치 구성](/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation)을 참조하세요.
 >
 > - 새로운 지리적 위치로 사서함 위치를 변경하는 데 걸리는 시간은 몇 가지 요인에 따라 달라집니다.
 >
@@ -148,29 +148,29 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 
 **PreferredDataLocation** 값을 변경하여 준수 목적으로 보존된 비활성 사서함(예: 소송 보존 사서함)을 이동할 수 없습니다. 비활성 사서함을 다른 지역으로 이동하기 위해 다음 단계를 수행합니다.
 
-1. 비활성 사서함을 복구합니다. 자세한 내용은 비활성 사서함 [복구를 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/recover-an-inactive-mailbox)
+1. 비활성 사서함을 복구합니다. 자세한 내용은 비활성 사서함 [복구를 참조하세요.](../compliance/recover-an-inactive-mailbox.md)
 
-2. 사서함의 이름, 별칭, 계정 또는 전자 메일 주소로 바꾸고 \<MailboxIdentity\> [Exchange Online PowerShell에서](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)다음 명령을 실행하여 관리되는 폴더 도우미가 복구된 사서함을 처리하지 못하게 합니다.
+2. 사서함의 이름, 별칭, 계정 또는 전자 메일 주소로 바꾸고 \<MailboxIdentity\> [Exchange Online PowerShell에서](/powershell/exchange/connect-to-exchange-online-powershell)다음 명령을 실행하여 관리되는 폴더 도우미가 복구된 사서함을 처리하지 못하게 합니다.
 
     ```powershell
     Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $true
     ```
 
-3. 복구된 **사서함에 Exchange Online 계획 2** 라이선스를 할당합니다. 이 단계는 사서함을 다시 소송 보류에 두는 데 필요합니다. 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+3. 복구된 **사서함에 Exchange Online 계획 2** 라이선스를 할당합니다. 이 단계는 사서함을 다시 소송 보류에 두는 데 필요합니다. 자세한 내용은 사용자에게 라이선스 할당을 [참조하세요.](../admin/manage/assign-licenses-to-users.md)
 
 4. 이전 섹션에 설명된 바와 같이 사서함에 **PreferredDataLocation** 값을 구성합니다.
 
-5. 사서함이 새 지리적 위치로 이동된 것이 확인되면 복구된 사서함을 소송 보류에 다시 옮기면 됩니다. 자세한 내용은 [Place a mailbox on Litigation Hold을 참조하십시오.](https://docs.microsoft.com/microsoft-365/compliance/create-a-litigation-hold#place-a-mailbox-on-litigation-hold)
+5. 사서함이 새 지리적 위치로 이동된 것이 확인되면 복구된 사서함을 소송 보류에 다시 옮기면 됩니다. 자세한 내용은 [Place a mailbox on Litigation Hold을 참조하십시오.](../compliance/create-a-litigation-hold.md#place-a-mailbox-on-litigation-hold)
 
-6. 소송 보류가 설정되고 있는지 확인한 후 관리되는 폴더 도우미가 사서함의 이름, 별칭, 계정 또는 전자 메일 주소로 바꾸고 \<MailboxIdentity\> [Exchange Online PowerShell에서](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)다음 명령을 실행하여 사서함을 다시 처리하도록 허용합니다.
+6. 소송 보류가 설정되고 있는지 확인한 후 관리되는 폴더 도우미가 사서함의 이름, 별칭, 계정 또는 전자 메일 주소로 바꾸고 \<MailboxIdentity\> [Exchange Online PowerShell에서](/powershell/exchange/connect-to-exchange-online-powershell)다음 명령을 실행하여 사서함을 다시 처리하도록 허용합니다.
 
     ```powershell
     Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $false
     ```
 
-7. 사서함과 연결된 사용자 계정을 제거하여 사서함을 다시 비활성화합니다. 자세한 내용은 [조직에서 사용자 삭제를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user) 이 단계에서는 다른 용도의 Exchange Online 계획 2 라이선스도 릴리스합니다.
+7. 사서함과 연결된 사용자 계정을 제거하여 사서함을 다시 비활성화합니다. 자세한 내용은 [조직에서 사용자 삭제를 참조하세요.](../admin/add-users/delete-a-user.md) 이 단계에서는 다른 용도의 Exchange Online 계획 2 라이선스도 릴리스합니다.
 
-**참고:** 비활성 사서함을 다른 지리적 위치로 이동하면 콘텐츠 검색 결과 또는 이전 지리적 위치에서 사서함을 검색하는 능력에 영향을 줄 수 있습니다. 자세한 내용은 Multi-Geo 환경에서 콘텐츠 검색 및 [내보내기 를 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments)
+**참고:** 비활성 사서함을 다른 지리적 위치로 이동하면 콘텐츠 검색 결과 또는 이전 지리적 위치에서 사서함을 검색하는 능력에 영향을 줄 수 있습니다. 자세한 내용은 Multi-Geo 환경에서 콘텐츠 검색 및 [내보내기 를 참조하세요.](../compliance/set-up-compliance-boundaries.md#searching-and-exporting-content-in-multi-geo-environments)
 
 ## <a name="create-new-cloud-mailboxes-in-a-specific-geo-location"></a>특정 지리적 위치에 새 클라우드 사서함 만들기
 
@@ -207,11 +207,11 @@ New-MsolUser -UserPrincipalName ebrunner@contoso.onmicrosoft.com -DisplayName "E
 
 ## <a name="onboard-existing-on-premises-mailboxes-in-a-specific-geo-location"></a>특정 지리적 위치에 기존 온-프레미스 사서함 등록
 
-표준 등록 도구와 프로세스를 사용하여 사서함을 온-프레미스 Exchange 조직에서 Exchange Online으로 마이그레이션할 수 있습니다([EAC의 마이그레이션 대시보드](https://support.office.com/article/d164b35c-f624-4f83-ac58-b7cae96ab331), Exchange Online PowerShell의 [New-MigrationBatch](https://docs.microsoft.com/powershell/module/exchange/new-migrationbatch) cmdlet 포함).
+표준 등록 도구와 프로세스를 사용하여 사서함을 온-프레미스 Exchange 조직에서 Exchange Online으로 마이그레이션할 수 있습니다([EAC의 마이그레이션 대시보드](https://support.office.com/article/d164b35c-f624-4f83-ac58-b7cae96ab331), Exchange Online PowerShell의 [New-MigrationBatch](/powershell/module/exchange/new-migrationbatch) cmdlet 포함).
 
 첫 번째 단계는 등록될 사서함마다 사용자 개체가 있는지 확인하고 Azure AD에 올바른 **PreferredDataLocation** 값이 구성되었는지 확인하는 일입니다. 등록 도구는 **PreferredDataLocation** 값을 고려하고 사서함을 지정된 지리적 위치에 직접 마이그레이션합니다.
 
-또는 Exchange Online PowerShell의 [새로 만들기 MoveRequest](https://docs.microsoft.com/powershell/module/exchange/new-moverequest) cmdlet을 사용하는 다음 단계를 통해 사서함을 특정 지리적 위치에 직접 등록할 수 있습니다.
+또는 Exchange Online PowerShell의 [새로 만들기 MoveRequest](/powershell/module/exchange/new-moverequest) cmdlet을 사용하는 다음 단계를 통해 사서함을 특정 지리적 위치에 직접 등록할 수 있습니다.
 
 1. 등록될 사서함마다 사용자 개체가 있고 **PreferredDataLocation** 이 Azure AD에서 원하는 값으로 설정되어 있는지 확인합니다. **PreferredDataLocation** 값은 Exchange Online에서 해당 메일 사용자 개체의 **MailboxRegion** 특성에 동기화됩니다.
 

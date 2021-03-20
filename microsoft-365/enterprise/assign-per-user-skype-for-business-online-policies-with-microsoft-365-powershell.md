@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
 description: '요약: Microsoft 365용 PowerShell을 사용하여 비즈니스용 Skype Online 정책을 사용하여 사용자당 통신 설정을 할당합니다.'
-ms.openlocfilehash: 6ee237e5d2ee0c9f472f372a6aa66c9612336265
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 2d3d953fe0beb74cc63f914137942f068ce90be7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50514983"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905407"
 ---
 # <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Microsoft 365용 PowerShell을 통해 사용자당 비즈니스용 Skype Online 정책 할당
 
@@ -34,7 +34,7 @@ Microsoft 365용 PowerShell을 사용하는 것은 비즈니스용 Skype Online 
   > [!Note]
    > Skype for Business Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다. 최신 Teams PowerShell 공개 릴리스를 사용 중인 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
 
-1. Teams [PowerShell 모듈을 설치합니다.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+1. [Teams PowerShell 모듈](/microsoftteams/teams-powershell-install)를 설치합니다.
     
 2. Windows PowerShell 명령 프롬프트를 열고 다음 명령을 실행합니다. 
     
@@ -71,7 +71,7 @@ EnablePublicCloudAudioVideoAccess : False
 EnableOutsideAccess               : True
 ```
 
-Alex에게 할당할 정책을 알고 있습니다. [이제 Grant-CsExternalAccessPolicy](https://go.microsoft.com/fwlink/?LinkId=523974) cmdlet을 사용하여 해당 정책을 할당할 수 있습니다. 예를 들면 다음과 같습니다.
+Alex에게 할당할 정책을 알고 있습니다. [이제 Grant-CsExternalAccessPolicy](/powershell/module/skype/Get-CsExternalAccessPolicy) cmdlet을 사용하여 해당 정책을 할당할 수 있습니다. 예를 들면 다음과 같습니다.
   
 ```powershell
 Grant-CsExternalAccessPolicy -Identity "Alex Darrow" -PolicyName "FederationOnly"
@@ -106,7 +106,7 @@ Grant-CsExternalAccessPolicy -Identity "Alex Darrow" -PolicyName $Null
 
 ## <a name="managing-large-numbers-of-users"></a>많은 수의 사용자 관리
 
-많은 수의 사용자(1,000명 이상)를 관리하려면 [Invoke-Command](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7) cmdlet을 사용하여 스크립트 블록을 통해 명령을 일괄 처리해야 합니다.  이전 예제에서는 cmdlet이 실행될 때마다 호출을 설정한 다음 결과를 다시 보내기 전에 대기해야 합니다.  스크립트 블록을 사용하는 경우 cmdlet을 원격으로 실행할 수 있으며 완료되면 데이터를 다시 보낼 수 있습니다. 
+많은 수의 사용자(1,000명 이상)를 관리하려면 [Invoke-Command](/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7) cmdlet을 사용하여 스크립트 블록을 통해 명령을 일괄 처리해야 합니다.  이전 예제에서는 cmdlet이 실행될 때마다 호출을 설정한 다음 결과를 다시 보내기 전에 대기해야 합니다.  스크립트 블록을 사용하는 경우 cmdlet을 원격으로 실행할 수 있으며 완료되면 데이터를 다시 보낼 수 있습니다. 
 
 ```powershell
 $users = Get-CsOnlineUser -Filter { ClientPolicy -eq $null } -ResultSize 500

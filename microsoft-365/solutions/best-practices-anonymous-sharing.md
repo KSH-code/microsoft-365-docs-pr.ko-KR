@@ -17,16 +17,16 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: 이 문서에서는 인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례를 알아봅니다.
-ms.openlocfilehash: eeee1ca0ddbb37525c86f44a3d02ab95de20e9fc
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+ms.openlocfilehash: 3fbe48159dab7fd9ebb072feab7724c3186f7847
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030068"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904807"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례
 
-인증되지 않은 공유( *모든 사용자* 링크)는 다양한 상황에서 편리하며 유용합니다. *모든 사용자* 링크는 가장 간편하게 공유하는 방법입니다. 사용자가 인증 없이 링크를 열 수 있으며 다른 사용자에게 무료로 전달할 수 있습니다.
+인증되지 않은 공유(*모든 사용자* 링크)는 다양한 상황에서 편리하며 유용합니다. *모든 사용자* 링크는 가장 간편하게 공유하는 방법입니다. 사용자가 인증 없이 링크를 열 수 있으며 다른 사용자에게 무료로 전달할 수 있습니다.
 
 일반적으로 조직의 모든 콘텐츠가 인증되지 않은 공유에 적합하지는 않습니다. 이 문서에서는 사용자가 파일 및 폴더의 인증되지 않은 공유를 할 수 있지만, 조직의 콘텐츠를 보호하는 데 도움이 되는 보호 기능도 포함된 환경을 만들 수 있는 옵션을 다룹니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "49030068"
 
 *모든 사용자* 링크가 만료되면 파일이나 폴더를 새 *모든 사용자* 링크와 다시 공유할 수 있습니다.
 
-[Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite)를 사용하여 특정 OneDrive에 대한 *모든 사용자* 링크 만료를 설정할 수 있습니다.
+[Set-SPOSite](/powershell/module/sharepoint-online/set-sposite)를 사용하여 특정 OneDrive에 대한 *모든 사용자* 링크 만료를 설정할 수 있습니다.
 
 ## <a name="set-link-permissions"></a>링크 사용 권한 설정
 
@@ -103,7 +103,7 @@ ms.locfileid: "49030068"
 
 ## <a name="prevent-unauthenticated-sharing-of-sensitive-content"></a>중요한 콘텐츠의 인증되지 않은 공유 방지
 
-[DLP(데이터 손실 방지)](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)를 사용하여 중요한 콘텐츠의 인증되지 않은 게스트와의 공유를 방지할 수 있습니다. 데이터 손실 방지는 파일 자체의 파일 민감도 레이블, 보존 레이블 또는 중요한 정보를 기반으로 하는 조치를 취할 수 있습니다.
+[DLP(데이터 손실 방지)](../compliance/data-loss-prevention-policies.md)를 사용하여 중요한 콘텐츠의 인증되지 않은 게스트와의 공유를 방지할 수 있습니다. 데이터 손실 방지는 파일 자체의 파일 민감도 레이블, 보존 레이블 또는 중요한 정보를 기반으로 하는 조치를 취할 수 있습니다.
 
 DLP 규칙을 만들려면 다음을 수행합니다.
 1. Microsoft 365 준수 관리 센터에서 [데이터 손실 방지 페이지](https://compliance.microsoft.com/datalossprevention)로 이동합니다.
@@ -140,7 +140,7 @@ DLP 규칙을 만들려면 다음을 수행합니다.
 
 4. 필요에 따라 안전한 문서를 켠 다음 **저장** 을 클릭합니다.
 
-추가 지침은 [SharePoint, OneDrive 및 Microsoft Teams용 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)의 경우 [SharePoint, OneDrive 및 Microsoft Teams용 ATP 설정](https://docs.microsoft.com/microsoft-365/security/office-365-security/turn-on-atp-for-spo-odb-and-teams)을 참조하시기 바랍니다.
+추가 지침은 [SharePoint, OneDrive 및 Microsoft Teams용 ATP](../security/office-365-security/atp-for-spo-odb-and-teams.md)의 경우 [SharePoint, OneDrive 및 Microsoft Teams용 ATP 설정](../security/office-365-security/turn-on-atp-for-spo-odb-and-teams.md)을 참조하시기 바랍니다.
 
 ## <a name="add-copyright-information-to-your-files"></a>파일에 저작권 정보 추가
 
@@ -161,7 +161,7 @@ Microsoft 365 규정 준수 관리 센터에서 민감도 레이블을 사용하
 
 ## <a name="see-also"></a>참고 항목
 
-[민감도 레이블 개요](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels)
+[민감도 레이블 개요](/Office365/SecurityCompliance/sensitivity-labels)
 
 [게스트와 공유할 때 파일에 실수로 발생하는 노출을 제한](share-limit-accidental-exposure.md)
 

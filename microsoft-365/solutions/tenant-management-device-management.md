@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Microsoft 365 테넌트의 장치 및 앱 관리에 대한 올바른 옵션을 배포합니다.
-ms.openlocfilehash: 96412cb52540e87341fa67e20382951db7becfbe
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 994ab7d21ae70307fa78e1f7249d39ac314a7358
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406375"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904615"
 ---
 # <a name="step-5-device-and-app-management-for-your-microsoft-365-for-enterprise-tenants"></a>5단계. 엔터프라이즈용 Microsoft 365 테넌트의 장치 및 앱 관리
 
@@ -34,13 +34,13 @@ ms.locfileid: "50406375"
 조직의 리소스를 보호하고 보호할 수 있도록 엔터프라이즈용 Microsoft 365에는 장치 및 앱에 대한 액세스를 관리하는 데 도움이 되는 기능이 포함되어 있습니다. 장치 관리에는 두 가지 옵션이 있습니다.
 
 - 엔터프라이즈를 위한 포괄적인 장치 및 앱 관리 솔루션인 Microsoft Intune
-- 기본 Mobility and Security - 조직의 장치를 관리하기 위한 모든 Microsoft 365 제품에 포함된 Intune 서비스의 하위 집합입니다. 자세한 내용은 [Capabilities of Basic Mobility and Security을 참조하십시오.](https://docs.microsoft.com/microsoft-365/admin/basic-mobility-security/capabilities)
+- 기본 Mobility and Security - 조직의 장치를 관리하기 위한 모든 Microsoft 365 제품에 포함된 Intune 서비스의 하위 집합입니다. 자세한 내용은 [Capabilities of Basic Mobility and Security을 참조하십시오.](../admin/basic-mobility-security/capabilities.md)
 
 Microsoft 365 E3 또는 E5가 있는 경우 Intune을 사용해야 합니다.
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 
-Microsoft [Intune을](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide) 사용하여 MDM 또는 MAM을 사용하여 조직에 대한 액세스를 관리합니다. MDM은 사용자가 Intune에서 장치를 "등록"하는 경우입니다. 장치가 등록된 후 관리되는 장치로, 조직의 정책, 규칙 및 설정을 받을 수 있습니다. 예를 들어 특정 앱을 설치하고, 암호 정책을 만들고, VPN 연결을 설치하는 등 여러 가지를 할 수 있습니다.
+Microsoft [Intune을](/mem/intune/fundamentals/planning-guide) 사용하여 MDM 또는 MAM을 사용하여 조직에 대한 액세스를 관리합니다. MDM은 사용자가 Intune에서 장치를 "등록"하는 경우입니다. 장치가 등록된 후 관리되는 장치로, 조직의 정책, 규칙 및 설정을 받을 수 있습니다. 예를 들어 특정 앱을 설치하고, 암호 정책을 만들고, VPN 연결을 설치하는 등 여러 가지를 할 수 있습니다.
 
 개인 장치를 소유한 사용자는 장치를 등록하거나 Intune 및 조직의 정책에 따라 관리하지 않을 수 있습니다. 그러나 여전히 조직의 리소스와 데이터를 보호해야 합니다. 이 시나리오에서는 MAM을 사용하여 앱을 보호할 수 있습니다. 예를 들어 장치에서 SharePoint에 액세스할 때 사용자가 PIN을 입력해야 하는 MAM 정책을 사용할 수 있습니다.
 
