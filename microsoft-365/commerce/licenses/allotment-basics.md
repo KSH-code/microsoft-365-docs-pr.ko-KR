@@ -13,40 +13,40 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - commerce
 ms.custom: AdminSurgePortfolio
-description: 새로운 추가 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 2ab8efd637bb278faf6065559cab26cb7016975b
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: 새로운 배정 기능에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 62df346def3fd2577568916d2d668ca50542bdbd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638234"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911617"
 ---
-# <a name="allotment-basics"></a><span data-ttu-id="7350c-103">기본</span><span class="sxs-lookup"><span data-stu-id="7350c-103">Allotment basics</span></span>
+# <a name="allotment-basics"></a><span data-ttu-id="fc7d7-103">기본</span><span class="sxs-lookup"><span data-stu-id="fc7d7-103">Allotment basics</span></span>
 
-<span data-ttu-id="7350c-104">라이선스 할당을 사용하면 라이선스 제한 및 라이선스 할당 관리를 선택한 제품 및 라이선스 제한으로만 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7350c-104">License allotments let you set license limits and delegate management of license assignment to only the products and license limits that you select.</span></span>
+<span data-ttu-id="fc7d7-104">라이선스 할당을 통해 라이선스 할당을 선택한 제품 및 라이선스 제한으로만 라이선스 제한 및 라이선스 할당 관리를 위임할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fc7d7-104">License allotments let you set license limits and delegate management of license assignment to only the products and license limits that you select.</span></span>
 
-<span data-ttu-id="7350c-105">할당은 그룹 기반 라이선싱을 사용하여 사용자에게 라이선스를 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="7350c-105">Allotments use group-based licensing to assign licenses to your users.</span></span> <span data-ttu-id="7350c-106">라이선스 제한을 통해 그룹의 사용자에게 할당된 라이선스 수를 더 제어할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7350c-106">License limits provide added control over how many licenses are assigned to the users in your groups.</span></span> <span data-ttu-id="7350c-107">따라서 그룹의 사용자 수가 증가하는 경우에도 해당 제한에 대해 설정한 라이선스 제한 내에 유지되도록 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7350c-107">So even as the number of users in your groups increases, you can ensure that you stay within the license limit that you have set for your allotment.</span></span>
+<span data-ttu-id="fc7d7-105">할당은 그룹 기반 라이선싱을 사용하여 사용자에게 라이선스를 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="fc7d7-105">Allotments use group-based licensing to assign licenses to your users.</span></span> <span data-ttu-id="fc7d7-106">라이선스 제한을 통해 그룹의 사용자에게 할당된 라이선스 수에 대한 제어가 추가됩니다.</span><span class="sxs-lookup"><span data-stu-id="fc7d7-106">License limits provide added control over how many licenses are assigned to the users in your groups.</span></span> <span data-ttu-id="fc7d7-107">따라서 그룹의 사용자 수가 증가하는 경우에도, 사용자가 추가에 대해 설정한 라이선스 제한 내에 유지되도록 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fc7d7-107">So even as the number of users in your groups increases, you can ensure that you stay within the license limit that you have set for your allotment.</span></span>
 
-<span data-ttu-id="7350c-108">또한 관리는 위임할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7350c-108">You can also delegate management of your allotments.</span></span> <span data-ttu-id="7350c-109">위임된 할당 소유자는 관리 센터에 액세스할 수 있지만 소유한 할당에서만 라이선스를 보고 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7350c-109">Delegated allotment owners gain access to the admin center, but can only see and manage the licenses in the allotments they own.</span></span> <span data-ttu-id="7350c-110">따라서 조직 내에서 라이선스 관리를 보다 세분화하여 위임할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7350c-110">This provides more granular delegation of license management within your organization.</span></span>
+<span data-ttu-id="fc7d7-108">또한 사용권의 관리를 위임할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fc7d7-108">You can also delegate management of your allotments.</span></span> <span data-ttu-id="fc7d7-109">위임된 할당 소유자는 관리 센터에 액세스할 수 있지만 소유한 할당에서만 라이선스를 보고 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fc7d7-109">Delegated allotment owners gain access to the admin center, but can only see and manage the licenses in the allotments they own.</span></span> <span data-ttu-id="fc7d7-110">이렇게 하면 조직 내에서 라이선스 관리를 보다 세밀하게 위임할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fc7d7-110">This provides more granular delegation of license management within your organization.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="7350c-111">필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="7350c-111">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="fc7d7-111">필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="fc7d7-111">Prerequisites</span></span>
 
-<span data-ttu-id="7350c-112">그룹 기반 라이선싱에 대한 라이선스 [요구 사항을 충족해야 합니다.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements)</span><span class="sxs-lookup"><span data-stu-id="7350c-112">You must meet the licensing requirements for [group-based licensing](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements).</span></span>
+<span data-ttu-id="fc7d7-112">그룹 기반 라이선싱에 대한 라이선스 [요구 사항을 충족해야 합니다.](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements)</span><span class="sxs-lookup"><span data-stu-id="fc7d7-112">You must meet the licensing requirements for [group-based licensing](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements).</span></span>
 
-<span data-ttu-id="7350c-113">사용자가 사용할 수 있는 모든 제품에 대한 추가를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7350c-113">You can use allotments with any product available to users:</span></span>
+<span data-ttu-id="fc7d7-113">사용자가 사용할 수 있는 모든 제품에 대해 다음을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fc7d7-113">You can use allotments with any product available to users:</span></span>
 
-- <span data-ttu-id="7350c-114">Office 제품군 및 독립 실행형 제품</span><span class="sxs-lookup"><span data-stu-id="7350c-114">Office suites and standalone products</span></span>
-- <span data-ttu-id="7350c-115">Enterprise 및 Mobility 제품</span><span class="sxs-lookup"><span data-stu-id="7350c-115">Enterprise and Mobility products</span></span>
-- <span data-ttu-id="7350c-116">Dynamics 365 제품</span><span class="sxs-lookup"><span data-stu-id="7350c-116">Dynamics 365 products</span></span>
+- <span data-ttu-id="fc7d7-114">Office 제품군 및 독립 실행형 제품</span><span class="sxs-lookup"><span data-stu-id="fc7d7-114">Office suites and standalone products</span></span>
+- <span data-ttu-id="fc7d7-115">Enterprise 및 Mobility 제품</span><span class="sxs-lookup"><span data-stu-id="fc7d7-115">Enterprise and Mobility products</span></span>
+- <span data-ttu-id="fc7d7-116">Dynamics 365 제품</span><span class="sxs-lookup"><span data-stu-id="fc7d7-116">Dynamics 365 products</span></span>
 
-<span data-ttu-id="7350c-117">다음 제품은 사용 시에 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7350c-117">The following products can't be used with allotments:</span></span>
+<span data-ttu-id="fc7d7-117">다음 제품은 사용 시에 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="fc7d7-117">The following products can't be used with allotments:</span></span>
 
-- <span data-ttu-id="7350c-118">Microsoft Store 앱</span><span class="sxs-lookup"><span data-stu-id="7350c-118">Microsoft Store apps</span></span>
-- <span data-ttu-id="7350c-119">관련된 라이선스가 없는 경우 사용자에게 직접 할당된 소프트웨어 또는 정적 소프트웨어</span><span class="sxs-lookup"><span data-stu-id="7350c-119">Perpetual software, or software that is directly assigned to a user if there is no license involved.</span></span>
-- <span data-ttu-id="7350c-120">Azure 리소스</span><span class="sxs-lookup"><span data-stu-id="7350c-120">Azure resources</span></span>
+- <span data-ttu-id="fc7d7-118">Microsoft Store 앱</span><span class="sxs-lookup"><span data-stu-id="fc7d7-118">Microsoft Store apps</span></span>
+- <span data-ttu-id="fc7d7-119">관련 라이선스가 없는 경우 사용자에게 직접 할당된 소프트웨어 또는 소프트웨어.</span><span class="sxs-lookup"><span data-stu-id="fc7d7-119">Perpetual software, or software that is directly assigned to a user if there is no license involved.</span></span>
+- <span data-ttu-id="fc7d7-120">Azure 리소스</span><span class="sxs-lookup"><span data-stu-id="fc7d7-120">Azure resources</span></span>
 
-<span data-ttu-id="7350c-121">할당을 시작하려면 전역 관리자 또는 라이선스 관리자 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7350c-121">You must be a global or license admin to get started with an allotment.</span></span>
+<span data-ttu-id="fc7d7-121">할당을 시작하려면 전역 관리자 또는 라이선스 관리자 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="fc7d7-121">You must be a global or license admin to get started with an allotment.</span></span>
 
-## <a name="getting-started"></a><span data-ttu-id="7350c-122">시작하기</span><span class="sxs-lookup"><span data-stu-id="7350c-122">Getting started</span></span>
+## <a name="getting-started"></a><span data-ttu-id="fc7d7-122">시작하기</span><span class="sxs-lookup"><span data-stu-id="fc7d7-122">Getting started</span></span>
 
-<span data-ttu-id="7350c-123">전용 미리 보기에서는 소수의 고객만이 이 기능을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7350c-123">The allotments feature is available in a private preview to only a small number of customers.</span></span> <span data-ttu-id="7350c-124">참가에 관심이 있는 경우 다음 양식을 [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup) 작성합니다.</span><span class="sxs-lookup"><span data-stu-id="7350c-124">If you're interested in joining, fill out this form: [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup).</span></span>
+<span data-ttu-id="fc7d7-123">전용 미리 보기에서는 소수의 고객만이 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fc7d7-123">The allotments feature is available in a private preview to only a small number of customers.</span></span> <span data-ttu-id="fc7d7-124">가입에 관심이 있는 경우 다음 양식을 [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup) 작성합니다. .</span><span class="sxs-lookup"><span data-stu-id="fc7d7-124">If you're interested in joining, fill out this form: [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup).</span></span>

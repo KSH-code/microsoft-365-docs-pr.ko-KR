@@ -21,33 +21,33 @@ search.appverid:
 - MET150
 - MOE150
 description: 랜섬웨어를 방지하기 위한 전자 메일 규칙을 만드는 방법을 배워야 합니다.
-ms.openlocfilehash: 0d8b4a9de881f47752ac0bfbf778453d6ee73046
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 34590945b13408cf3521f000d703bd37e04ba73f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422258"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913553"
 ---
-# <a name="create-email-rules-to-prevent-ransomware"></a><span data-ttu-id="29ecb-103">랜섬웨어를 방지하기 위한 전자 메일 규칙 만들기</span><span class="sxs-lookup"><span data-stu-id="29ecb-103">Create email rules to prevent ransomware</span></span>
+# <a name="create-email-rules-to-prevent-ransomware"></a><span data-ttu-id="c685c-103">랜섬웨어를 방지하기 위한 전자 메일 규칙 만들기</span><span class="sxs-lookup"><span data-stu-id="c685c-103">Create email rules to prevent ransomware</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrWGt?autoplay=false]
 
-<span data-ttu-id="29ecb-104">Microsoft 365는 JavaScript, 배치 및 실행 파일과 같은 잠재적으로 위험한 파일이 Outlook에서 열리지 못하게 하여 랜섬웨어로부터 비즈니스를 보호합니다.</span><span class="sxs-lookup"><span data-stu-id="29ecb-104">Microsoft 365 helps protect your business against ransomware by preventing potentially dangerous files, like JavaScript, batch, and executables, from being opened in Outlook.</span></span> <span data-ttu-id="29ecb-105">추가 파일 형식을 차단하거나 경고하는 규칙을 추가하여 이 보호 수준을 높이기 위해 다음 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="29ecb-105">To increase this level of protection by adding rules that block or warn you of additional types of files, follow these steps.</span></span>
+<span data-ttu-id="c685c-104">Microsoft 365는 JavaScript, 배치 및 실행 파일과 같은 잠재적으로 위험한 파일이 Outlook에서 열리지 못하게 하여 랜섬웨어로부터 비즈니스를 보호합니다.</span><span class="sxs-lookup"><span data-stu-id="c685c-104">Microsoft 365 helps protect your business against ransomware by preventing potentially dangerous files, like JavaScript, batch, and executables, from being opened in Outlook.</span></span> <span data-ttu-id="c685c-105">추가 파일 형식을 차단하거나 경고하는 규칙을 추가하여 이 보호 수준을 높이기 위해 다음 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="c685c-105">To increase this level of protection by adding rules that block or warn you of additional types of files, follow these steps.</span></span>
 
-## <a name="try-it"></a><span data-ttu-id="29ecb-106">사용해 보세요!</span><span class="sxs-lookup"><span data-stu-id="29ecb-106">Try it!</span></span>
+## <a name="try-it"></a><span data-ttu-id="c685c-106">사용해 보세요!</span><span class="sxs-lookup"><span data-stu-id="c685c-106">Try it!</span></span>
 
-1. <span data-ttu-id="29ecb-107">의 관리 센터에서 [https://admin.microsoft.com](https://admin.microsoft.com) 관리 센터 **아래 Exchange를** **선택하세요.**</span><span class="sxs-lookup"><span data-stu-id="29ecb-107">From the admin center at [https://admin.microsoft.com](https://admin.microsoft.com), choose **Exchange** under **Admin centers**.</span></span>
-1. <span data-ttu-id="29ecb-108">왼쪽 메뉴에서 메일 흐름 **을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="29ecb-108">From the menu on the left, choose **mail flow**.</span></span>
-1. <span data-ttu-id="29ecb-109">규칙 탭에서 더하기 기호(+) 옆의 화살표를 선택한 다음 새 규칙 만들기 **를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="29ecb-109">On the rules tab, choose the arrow next to the plus (+) symbol, and then choose **Create a new rule**.</span></span>
-1. <span data-ttu-id="29ecb-110">새 **규칙 페이지에서** 규칙의 이름을 입력하고 아래쪽으로 스크롤한 다음 추가 옵션을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="29ecb-110">On the **new rule** page, enter a name for your rule, scroll to the bottom, and then choose **More options**.</span></span>
-1. <span data-ttu-id="29ecb-111">다음의 **경우 이 규칙 적용에서** **첨부 파일 을** 선택한 다음 다음 단어를 포함하는 파일 **확장명을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="29ecb-111">Under **Apply this rule if**, select **Any attachment**, and then select **file extension includes these words**.</span></span>
-1. <span data-ttu-id="29ecb-112">단어 또는 구 지정 아래 상자에 규칙을 적용할 파일 확장명(예: 매크로를 포함할 수 있는 파일 확장명)을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="29ecb-112">In the box under **specify words or phrases**, enter the file extensions that you want the rule to be applied to, such as file extensions that can contain macros.</span></span> <span data-ttu-id="29ecb-113">더하기(+) 기호를 사용하여 한 번씩 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="29ecb-113">Use the plus (+) symbol to add them one at a time.</span></span>
+1. <span data-ttu-id="c685c-107">의 관리 센터에서 [https://admin.microsoft.com](https://admin.microsoft.com) 관리 센터 **아래 Exchange를** **선택하세요.**</span><span class="sxs-lookup"><span data-stu-id="c685c-107">From the admin center at [https://admin.microsoft.com](https://admin.microsoft.com), choose **Exchange** under **Admin centers**.</span></span>
+1. <span data-ttu-id="c685c-108">왼쪽 메뉴에서 메일 흐름 **을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c685c-108">From the menu on the left, choose **mail flow**.</span></span>
+1. <span data-ttu-id="c685c-109">규칙 탭에서 더하기 기호(+) 옆의 화살표를 선택한 다음 새 규칙 만들기 **를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c685c-109">On the rules tab, choose the arrow next to the plus (+) symbol, and then choose **Create a new rule**.</span></span>
+1. <span data-ttu-id="c685c-110">새 **규칙 페이지에서** 규칙의 이름을 입력하고 아래쪽으로 스크롤한 다음 추가 옵션을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c685c-110">On the **new rule** page, enter a name for your rule, scroll to the bottom, and then choose **More options**.</span></span>
+1. <span data-ttu-id="c685c-111">다음의 **경우 이 규칙 적용에서** **첨부 파일 을** 선택한 다음 다음 단어를 포함하는 파일 **확장명을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c685c-111">Under **Apply this rule if**, select **Any attachment**, and then select **file extension includes these words**.</span></span>
+1. <span data-ttu-id="c685c-112">단어 또는 구 지정 아래 상자에 규칙을 적용할 파일 확장명(예: 매크로를 포함할 수 있는 파일 확장명)을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c685c-112">In the box under **specify words or phrases**, enter the file extensions that you want the rule to be applied to, such as file extensions that can contain macros.</span></span> <span data-ttu-id="c685c-113">더하기(+) 기호를 사용하여 한 번씩 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="c685c-113">Use the plus (+) symbol to add them one at a time.</span></span>
 
-    <span data-ttu-id="29ecb-114">랜섬웨어로부터 보호를 읽어 파일 형식에 대해 자세히 [알아보십시오.](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data#ransomware)</span><span class="sxs-lookup"><span data-stu-id="29ecb-114">Learn more about file types by reading [Protect against ransomware](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data#ransomware).</span></span>
+    <span data-ttu-id="c685c-114">랜섬웨어로부터 보호를 읽어 파일 형식에 대해 자세히 [알아보십시오.](../admin/security-and-compliance/secure-your-business-data.md#ransomware)</span><span class="sxs-lookup"><span data-stu-id="c685c-114">Learn more about file types by reading [Protect against ransomware](../admin/security-and-compliance/secure-your-business-data.md#ransomware).</span></span>
 
-1. <span data-ttu-id="29ecb-115">아래로 스크롤하여 목록을 검토한 다음 확인 을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="29ecb-115">Scroll down to review your list, and then choose **OK**.</span></span>
-1. <span data-ttu-id="29ecb-116">새 **규칙 페이지에서** 조건 추가 **를** 선택한 다음 다음으로 이동에서 **조건을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="29ecb-116">On the **new rule** page, choose **add condition**, and then choose a condition under **Do the following**.</span></span>
-1. <span data-ttu-id="29ecb-117">선택할 수 있는 규칙 옵션이 많지만 이 예에서는 메시지를 받는 사람에게 **알리도록 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="29ecb-117">You have many rule options to choose from, but in this example we'll choose to **Notify the recipient with a message**.</span></span>
-1. <span data-ttu-id="29ecb-118">알림에 대한 메시지 텍스트를 입력하고 확인 을 **선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="29ecb-118">Enter message text for your notification, and then chose **OK**.</span></span>
-1. <span data-ttu-id="29ecb-119">선택 사항: 새 규칙  **페이지에서** 예외 추가를 선택하고 신뢰할 수 있는 보낸 사람이 보낸 메시지 등 규칙에 대한 예외에 대한 세부 정보를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="29ecb-119">Optional: On the **new rule** page, choose **add exception**, and enter any details for exceptions to your rule, such as messages from trusted senders.</span></span>
-1. <span data-ttu-id="29ecb-120">새 규칙 페이지에서 저장 **을** 선택하고 제공된 규칙 요약 정보를 검토합니다.</span><span class="sxs-lookup"><span data-stu-id="29ecb-120">On the new rule page, choose **Save**, and review the rule summary information provided.</span></span>
+1. <span data-ttu-id="c685c-115">아래로 스크롤하여 목록을 검토한 다음 확인 을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c685c-115">Scroll down to review your list, and then choose **OK**.</span></span>
+1. <span data-ttu-id="c685c-116">새 **규칙 페이지에서** 조건 추가 **를** 선택한 다음 다음으로 이동에서 **조건을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c685c-116">On the **new rule** page, choose **add condition**, and then choose a condition under **Do the following**.</span></span>
+1. <span data-ttu-id="c685c-117">선택할 수 있는 규칙 옵션이 많지만 이 예에서는 메시지를 받는 사람에게 **알리도록 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c685c-117">You have many rule options to choose from, but in this example we'll choose to **Notify the recipient with a message**.</span></span>
+1. <span data-ttu-id="c685c-118">알림에 대한 메시지 텍스트를 입력하고 확인 을 **선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="c685c-118">Enter message text for your notification, and then chose **OK**.</span></span>
+1. <span data-ttu-id="c685c-119">선택 사항: 새 규칙  **페이지에서** 예외 추가를 선택하고 신뢰할 수 있는 보낸 사람이 보낸 메시지 등 규칙에 대한 예외에 대한 세부 정보를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="c685c-119">Optional: On the **new rule** page, choose **add exception**, and enter any details for exceptions to your rule, such as messages from trusted senders.</span></span>
+1. <span data-ttu-id="c685c-120">새 규칙 페이지에서 저장 **을** 선택하고 제공된 규칙 요약 정보를 검토합니다.</span><span class="sxs-lookup"><span data-stu-id="c685c-120">On the new rule page, choose **Save**, and review the rule summary information provided.</span></span>
