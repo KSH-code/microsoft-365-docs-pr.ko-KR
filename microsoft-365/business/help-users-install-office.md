@@ -26,19 +26,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: 사용자가 Windows 10 장치에 Office 앱을 설치하고 Microsoft 365 관리 센터에서 Windows 10 PC에 Office를 쉽게 설치할 수 있도록 합니다.
-ms.openlocfilehash: 680c1c4e43a037c6afd109220090f387b207f8b1
-ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
+description: 사용자가 Windows 10 디바이스에 Office 앱을 설치하고 Microsoft 365 관리 센터에서 Windows 10 PC에 Office를 쉽게 설치할 수 있도록 합니다.
+ms.openlocfilehash: 5337c8ef008c1af79490eb6b6705d450055d24fb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46601986"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913349"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>사용자가 Windows 10 장치에 Office를 설치하도록 지원
 
-[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](/office365/admin/microsoft-365-admin-center-preview)
 
-Microsoft 365 관리 센터에서 Windows 10 PC에 쉽고 빠르게 Office를 설치할 수 있습니다.
+Microsoft 365 관리 센터에서 Windows 10 PC에 빠르고 쉽게 Office를 설치할 수 있습니다.
   
 이전에 설치한 Office 앱에서의 작동 방식을 알아보려면 시작하기 전에 [Office 클라이언트 설치 준비](prepare-for-office-client-deployment.md)를 확인하세요.
 
@@ -50,17 +50,17 @@ Office 앱 설치에 대한 짧은 비디오를 시청하세요.<br><br>
 
 ## <a name="manage-office-deployments"></a>Office 배포 관리
 
-1. 관리 센터로 이동하여 전역 관리자 자격 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 증명으로 로그인합니다. 
+1. 의 관리 센터로 이동하고 전역 관리자 자격 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 증명으로 로그인합니다. 
 
-2. 왼쪽 탐색 **창의** 설치 프로그램으로 이동하고 설치 페이지에서 앱 및 업데이트로 **스크롤합니다.** 
+2. 왼쪽 탐색 **창의** 설치로 이동하고  설치 페이지에서 앱 및 업데이트로 **스크롤합니다.**
     > [!NOTE]
     > 모든 사용자가 Office 앱을 설치한 경우 이 카드가 표시되지 않을 수 있습니다.
   
-3. 사용자가 Office 앱 **카드를 설치하는** 도움말에서 보기를 선택한 다음 **시작을 선택하세요.**
+3. 사용자가 **Office 앱 카드를 설치하도록** 지원 카드에서 보기를 선택한 다음 시작 **을 선택하세요.**
     
-4. 전자 **메일 사용자에 Office** 패널 다운로드 링크, 전자 메일로 보낼 사용자를 선택한 다음 선택한 사용자를 전자 **메일로 전송합니다.**
+4. 전자 **메일 사용자에게 Office** 다운로드 링크에서 전자 메일로 보낼 사용자를 선택한 다음 선택한 사용자를 **전자 메일로 보내기 를 선택합니다.**
 
-   ![Office 다운로드 링크가 있는 전자 메일을 보낼 사용자를 선택합니다.](../media/sendemailtousers.png)
+   ![Office 다운로드 링크로 전자 메일을 보낼 사용자를 선택합니다.](../media/sendemailtousers.png)
 
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 설정 및 사용에 대한 자세한 내용은
 

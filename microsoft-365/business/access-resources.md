@@ -21,29 +21,29 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Azure Active Directory에 연결된 Windows 10 장치의 LOB(기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 액세스하는 방법을 알아봅니다.
-ms.openlocfilehash: fc02fd30f41f25f52e653e750a6bdfd1bd7f800e
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: b78509d72cbd9b3c121039c4965625bf5c21c7e0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233843"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913525"
 ---
-# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Microsoft 365 Business Premium의 Azure AD 가입 장치에서의 프레미스 리소스 액세스
+# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Microsoft 365 Business Premium의 Azure AD 가입 장치에서의 사내 리소스 액세스
 
 이 문서는 Microsoft 365 Business Premium에 적용됩니다.
 
-Azure Active Directory에 가입된 모든 Windows 10 디바이스는 Microsoft 365 앱과 같은 모든 클라우드 기반 리소스에 액세스할 수 있으며 Microsoft 365 Business Premium으로 보호될 수 있습니다. LOB(기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 대한 액세스를 허용할 수도 있습니다. 액세스를 허용하려면 [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)를 사용하여 온-프레미스 Active Directory를 Azure Active Directory와 동기화합니다. 
+Azure Active Directory에 가입된 모든 Windows 10 디바이스는 Microsoft 365 앱과 같은 모든 클라우드 기반 리소스에 액세스할 수 있으며 Microsoft 365 Business Premium으로 보호할 수 있습니다. LOB(기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 대한 액세스를 허용할 수도 있습니다. 액세스를 허용하려면 [Azure AD Connect](/azure/active-directory/connect/active-directory-aadconnect)를 사용하여 온-프레미스 Active Directory를 Azure Active Directory와 동기화합니다. 
 
-자세한 내용은 [Azure Active Directory에서 장치 관리 소개](https://docs.microsoft.com/azure/active-directory/device-management-introduction)를 참조하세요.
+자세한 내용은 [Azure Active Directory에서 장치 관리 소개](/azure/active-directory/device-management-introduction)를 참조하세요.
 다음 섹션에서도 단계는 요약되어 있습니다.
  
 ## <a name="run-azure-ad-connect"></a>Azure AD Connect를 실행합니다.
 
 조직의 Azure AD 조인 장치에서 온-프레미스 리소스에 액세스하도록 설정하려면 다음 단계를 완료하세요.
   
-1. 로컬 Active Directory의 사용자, 그룹 및 연락처를 Azure Active Directory와 동기화하려면 [Office 365에 대한 디렉터리 동기화 설정](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)에서 설명한 대로 디렉터리 동기화 마법사 및 Azure AD Connect를 실행합니다.
+1. 로컬 Active Directory의 사용자, 그룹 및 연락처를 Azure Active Directory와 동기화하려면 [Office 365에 대한 디렉터리 동기화 설정](../enterprise/set-up-directory-synchronization.md)에서 설명한 대로 디렉터리 동기화 마법사 및 Azure AD Connect를 실행합니다.
     
-2. 디렉터리 동기화가 완료되면 조직의 Windows 10 장치가 Azure AD에 연결되어 있는지 확인합니다. 이 단계는 각각의 Windows 10 장치에서 개별적으로 수행됩니다. 자세한 [내용은 Microsoft 365 Business Premium](set-up-windows-devices.md) 사용자에 대한 Windows 장치 설정을 참조합니다. 
+2. 디렉터리 동기화가 완료되면 조직의 Windows 10 장치가 Azure AD에 연결되어 있는지 확인합니다. 이 단계는 각각의 Windows 10 장치에서 개별적으로 수행됩니다. 자세한 [내용은 Microsoft 365 Business Premium](set-up-windows-devices.md) 사용자를 위한 Windows 장치 설치를 참조합니다. 
     
 3. Windows 10 장치가 Azure AD에 가입된 후 각 사용자는 장치를 다시 시작하고 Microsoft 365 Business Premium 자격 증명으로 로그인해야 합니다. 이제 모든 장치에서 온-프레미스 리소스에 액세스할 수 있습니다.
     
@@ -59,8 +59,8 @@ Azure AD에 연결된 Windows 장치가 이전에 도메인에 가입된 경우 
   
 - 장치에 Azure AD가 연결되면 기존 프로필을 참조하지 않고 새 사용자를 만듭니다. 프로필은 수동으로 마이그레이션해야 합니다. 사용자 프로필에는 즐겨찾기, 로컬 파일, 브라우저 설정 및 시작 메뉴 설정과 같은 정보가 포함되어 있습니다. 가장 좋은 방법은 기존 파일 및 설정을 새 프로필로 매핑하는 타사 도구를 찾는 것입니다.
 
-- 장치가 GPO(그룹 정책 개체)를 사용하는 경우 일부 GPO는 Intune에서 유사한 [Configuration Service Provider](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers)(CSP)를 갖지 않을 수 있습니다. [MMAT 도구](https://www.microsoft.com/download/details.aspx?id=45520)를 실행하여 기존 GPO와 유사한 CSP를 찾습니다.
+- 장치가 GPO(그룹 정책 개체)를 사용하는 경우 일부 GPO는 Intune에서 유사한 [Configuration Service Provider](/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers)(CSP)를 갖지 않을 수 있습니다. [MMAT 도구](https://www.microsoft.com/download/details.aspx?id=45520)를 실행하여 기존 GPO와 유사한 CSP를 찾습니다.
 
 - 사용자가 Active Directory 인증을 사용하는 응용 프로그램에 인증하지 않을 수 있습니다. 레거시 앱을 평가하고 가능한 경우 최신 인증을 사용하는 앱으로 업데이트하는 것이 좋습니다.
 
-- Active Directory 프린터 검색이 작동하지 않습니다. 모든 사용자에 대해 직접 프린터 경로를 제공하거나 유니버설 [인쇄를 사용할 수 있습니다.](https://aka.ms/UPDocs)
+- Active Directory 프린터 검색이 작동하지 않습니다. 모든 사용자에게 직접 프린터 경로를 제공하거나 유니버설 [인쇄를 사용할 수 있습니다.](/universal-print/)

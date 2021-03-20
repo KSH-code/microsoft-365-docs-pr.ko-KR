@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Project Cortex에서 콘텐츠 이해 설정
-ms.openlocfilehash: a275b2ec14403e16651acb293f8598b453fd3739
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: db6340e8bf4dc23163b67e749f60567f7841a943
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515019"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911189"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
@@ -123,6 +123,6 @@ SharePoint Syntex를 구성한 후에는 SharePoint Syntex 기능을 사용할 �
 
 ## <a name="see-also"></a>참고 항목
 
-[양식 처리 모델](https://docs.microsoft.com/ai-builder/form-processing-model-overview)을(를) 검토합니다.
+[양식 처리 모델](/ai-builder/form-processing-model-overview)을(를) 검토합니다.
 
 [단계별 절차는 다음과 같습니다. 문서 이해 모델(비디오)](https://www.youtube.com/watch?v=DymSHObD-bg)을(를) 작성하는 방법

@@ -18,13 +18,13 @@ description: Microsoft 제품 또는 서비스를 구입할 때의 등록 번호
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-- Commerce
-ms.openlocfilehash: 342813fa103cb260c036de5dd2cdfd13bea12d33
-ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
+- commerce
+ms.openlocfilehash: a9625b391260d27610bb304b0ae3788b541b7709
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50717725"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912011"
 ---
 # <a name="about-registration-numbers-and-under-review-notifications"></a>등록 번호 및 검토 알림
 
@@ -36,13 +36,15 @@ ms.locfileid: "50717725"
 
 등록 번호가 필수인 국가의 경우 텍스트 상자 위에 있는 레이블은 필요한 번호 유형을 나타냅니다.
 
-<!-- For example, in the following screenshot, the label indicates that a CNPJ registration number is needed.
- add screenshot-->
+예를 들어 다음 스크린샷에서 레이블은 CNPJ 등록 번호가 필요를 나타냅니다.
+
+:::image type="content" source="../media/macregnum-cnpj-screenshot-400.png" alt-text="C N P J 번호의 등록 번호 필드 스크린샷.":::
 
 등록 번호가 선택 사항인 국가의 경우 회사 법적 등록 번호를 제공 하게 선택할 수 있습니다. 이 필드에 개인 ID를 입력하지 않습니다.
 
-<!-- The following screenshot shows an example of when the registration number is optional.
-add screenshot -->
+다음 스크린샷은 등록 번호가 선택 사항인 경우의 예를 보여줍니다.
+
+:::image type="content" source="../media/macregnum-reg-screenshot_400.png" alt-text="선택적 등록 번호 필드의 스크린샷입니다.":::
 
 유효한 등록 번호가 없는 경우 자세한 내용은 국가 등록 [번호를](#registration-numbers-by-country) 참조합니다.
 
@@ -52,13 +54,15 @@ add screenshot -->
 
 검토 프로세스는 일반적으로 완료하는 데 하루 정도 걸리지만 시간이 오래 걸릴 수 있습니다.
 
-<!-- The following screenshot shows the review notification displayed during checkout.
-add screenshot -->
+다음 스크린샷은 체크 아웃 중에 표시되는 리뷰 알림을 보여줍니다.
+
+:::image type="content" source="../media/macregnum_statuscheckout_screenshot_400.png" alt-text="체크 아웃 페이지에 있는 계정 검토 알림 스크린샷.":::
 
 계정의 모든 전역 관리자 및 대금 청구 관리자에게도 전자 메일 알림이 전송됩니다. 경우에 따라 알림은 계정에 대한 청구 계정 소유자 또는 청구 계정 참가자 역할이 있는 사용자에게 전송됩니다. 알림에 검토가 현재 진행 중입니다. 검토 프로세스가 완료된 후 확인 전자 메일 알림이 전송됩니다.
 
-<!-- The following screenshot shows the notification displayed on the billing account details page.
-add screenshot -->
+다음 스크린샷은 청구 계정 세부 정보 페이지에 표시되는 알림을 보여줍니다.
+
+:::image type="content" source="../media/macregnum-statusbillacct-screenshot_700.png" alt-text="Screenshot of the under review notification on the billing accounts page.":::
 
 ## <a name="registration-numbers-by-country"></a>국가당 등록 번호
 

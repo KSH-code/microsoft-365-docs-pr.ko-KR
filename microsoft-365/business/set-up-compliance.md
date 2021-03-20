@@ -21,13 +21,13 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: 데이터 손실을 방지하고 사용자와 고객의 중요한 정보를 안전하게 유지하는 규정 준수 기능을 설정하세요.
-ms.openlocfilehash: 2c95ad3f36df28af2c68cd11192bcfe92dfe29e3
-ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+description: 규정 준수 기능을 설정하여 데이터 손실을 방지하고 사용자와 고객의 중요한 정보를 안전하게 보호합니다.
+ms.openlocfilehash: e210787718025c5df29af8d4a2283291dcecc2a8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48841176"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912533"
 ---
 # <a name="set-up-compliance-features"></a>준수 기능 설정
 
@@ -35,9 +35,9 @@ Microsoft 365 Business Premium에는 데이터 및 장치를 보호하고 사용
 
 ## <a name="set-up-dlp-features"></a>DLP 기능 설정
 
-개인 [데이터 손실을](https://docs.microsoft.com/microsoft-365/compliance/create-a-dlp-policy-from-a-template) 보호하기 위해 정책을 설정하는 방법에 대한 예제는 템플릿에서 DLP 정책 만들기를 참조합니다. 
+개인 [데이터 손실을](../compliance/create-a-dlp-policy-from-a-template.md) 방지하는 정책을 설정하는 방법에 대한 예제는 템플릿에서 DLP 정책 만들기를 참조합니다. 
   
-DLP는 다양한 로 로컬에 대한 즉시 사용이 준비된 많은 정책 템플릿과 함께 제공합니다. 예를 들어 오스트레일리아 재무 데이터, 캐나다 개인 정보법, 미국 재무 데이터 등입니다. 전체 [목록에 대한 DLP 정책 템플릿에](https://docs.microsoft.com/microsoft-365/compliance/what-the-dlp-policy-templates-include) 포함된 항목은 참조하세요. 이러한 모든 템플릿은 PII 템플릿 예제와 유사하게 사용하도록 설정될 수 있습니다. 
+DLP는 다양한 로 로컬에 대해 즉시 사용할 수 있는 많은 정책 템플릿과 함께 제공합니다. 예를 들어 오스트레일리아 재무 데이터, 캐나다 개인 정보법, 미국 재무 데이터 등입니다. 전체 [목록은 DLP 정책 템플릿에](../compliance/what-the-dlp-policy-templates-include.md) 포함된 것을 참조하세요. 이러한 모든 템플릿은 PII 템플릿 예제와 유사하게 사용하도록 설정될 수 있습니다. 
   
 ## <a name="set-up-email-retention-with-exchange-online-archiving"></a>Exchange Online Archiving을 사용하여 전자 메일 보존 설정
 
@@ -49,19 +49,19 @@ DLP는 다양한 로 로컬에 대한 즉시 사용이 준비된 많은 정책 �
     
 1. 왼쪽 탐색 영역에서 **사용자** \> **활성 사용자** 로 이동합니다.
     
-2. 사서함에 소송을 보류할 사용자를 선택합니다. 사용자 창에서 메일 설정을 **확장하고** **추가** 설정 옆에 있는 Exchange 속성 **편집을 선택합니다.**
+2. 사서함에 소송을 보류할 사용자를 선택합니다. 사용자 창에서 메일 설정 **을** 확장하고 추가 설정 옆의 Exchange 속성  **편집을 선택합니다.**
     
 3. 사용자의 사서함 페이지에서 왼쪽 탐색 영역의 ** 사서함 기능**을 선택하고 **소송 보존** 아래의 **사용** 링크를 선택합니다.
     
-4. 소송  보유 대화 상자에서 소송 보유 기간 필드에 소송 보유 기간을 **지정할 수** 있습니다. 무한 보류를 하려는 경우 필드를 비워 두면 됩니다. 또한 메모를 추가하고 사서함 소유자를 소송 보유에 대해 더 설명해야 할 수 있는 웹 사이트로 지시할 수도 있습니다. \>**저장합니다.**
+4. 소송  보유 대화 상자에서 소송 보유 기간 필드에 소송 보유 기간을 **지정할 수** 있습니다. 무한 보류를 하려는 경우 필드를 비워 두면 됩니다. 또한 메모를 추가하고 사서함 소유자를 소송 보류에 대해 더 설명해야 할 수 있는 웹 사이트에 지시할 수도 있습니다. \>**를 저장합니다.**
     
-**보존:** 특정 기간 동안 보존하거나 보존 기간이 끝나면 영구적으로 콘텐츠를 삭제하는 것과 같은 사용자 지정된 보존 정책을 사용하도록 설정할 수 있습니다. 자세한 내용은 [보존 정책 개요](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)를 참조하세요.
+**보존:** 특정 기간 동안 보존하거나 보존 기간이 끝나면 영구적으로 콘텐츠를 삭제하는 것과 같은 사용자 지정된 보존 정책을 사용하도록 설정할 수 있습니다. 자세한 내용은 [보존 정책 개요](../compliance/retention.md)를 참조하세요.
 
 ## <a name="set-up-sensitivity-labels"></a>민감도 레이블 설정
 
-민감도 레이블은 AIP(Azure Information Protection) 계획 1과 함께 제공되어 레이블을 적용하여 문서 및 전자 메일을 분류하고 선택적으로 보호하는 데 도움이 됩니다. 규칙 및 조건을 정의하는 관리자가 레이블을 자동으로 적용하거나, 사용자가 수동으로 또는 사용자에게 권장 사항을 제공한 조합을 사용하여 레이블을 적용할 수 있습니다.
+민감도 레이블은 AIP(Azure Information Protection) 플랜 1과 함께 제공되어 레이블을 적용하여 문서 및 전자 메일을 분류하고 선택적으로 보호하는 데 도움이 됩니다. 규칙 및 조건을 정의하는 관리자가 레이블을 자동으로 적용하거나, 사용자가 수동으로 또는 사용자에게 권장 사항을 제공한 조합을 사용하여 레이블을 적용할 수 있습니다.
 
-민감도 레이블을 설정하기 위해 민감도 레이블 비디오를 보고 [관리합니다.](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9)
+민감도 레이블을 설정하기 위해 민감도 레이블 비디오를 만들고 [관리합니다.](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9)
 
 
 
@@ -69,9 +69,9 @@ DLP는 다양한 로 로컬에 대한 즉시 사용이 준비된 많은 정책 �
 
 AIP 클라이언트를 수동으로 설치하려면
 
-1. Microsoft **AzinfoProtection_UL.exe** 다운로드 [센터에서 다운로드합니다.](https://www.microsoft.com/download/details.aspx?id=53018)
+1. Microsoft **AzinfoProtection_UL.exe** [센터에서 다운로드할 수 있습니다.](https://www.microsoft.com/download/details.aspx?id=53018)
  
 2. Word 문서를 보고 홈 탭에서 민감도 옵션을 사용할  수 있는지 확인하여 설치가 완료된지 **확인할 수** 있습니다.
 <br/>![Word 문서의 보호 탭 드롭다운](../media/word-sensitivity.png)
 
-자세한 내용은 클라이언트 [설치를 참조하세요.](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3)
+자세한 내용은 [클라이언트 설치를 참조하세요.](/azure/information-protection/infoprotect-tutorial-step3)

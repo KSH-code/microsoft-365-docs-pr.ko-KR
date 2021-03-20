@@ -14,12 +14,12 @@ metadata:
   audience: microsoft-business 
   keywords: Microsoft 365 Business Premium, Microsoft 365, SMB, FAQ, frequently asked questions, answers, business
   ms.date: 07/21/2020
-  ms.openlocfilehash: bdbdd8d2709bc70923eddf54af4c9b719789ad48
-  ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+  ms.openlocfilehash: 13e1804a14bc41365d7c2a8757694f7dfecd7d76
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 12/11/2020
-  ms.locfileid: "49658187"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50912445"
 title: Microsoft 365 Business Premium 자주 묻는 질문
 summary: ''
 sections:
@@ -55,10 +55,10 @@ sections:
 
       - 다단계 인증, 셀프 서비스 암호 재설정, 조건부 액세스를 통한 ID 보호
 
-      - 장치 전반에서 회사 데이터를 &mdash; 보호하는 장치 전반에 걸쳐 일관된 보안 구성 항상 최신 상태로 유지되는 Microsoft Defender 바이러스 백신.
+      - 장치 전반에 걸쳐 회사 데이터를 보호하는 장치 &mdash; 전반의 일관된 보안 구성 항상 최신 상태로 유지되는 Microsoft Defender 바이러스 백신.
 
 
-      **간소화된 장치 배포 및 사용자 설정:**
+      **간소화된 장치 배포 및 사용자 설정**:
 
 
       - 사용자와 디바이스를 설정 및 관리하기 위한 단일 관리 콘솔
@@ -70,10 +70,10 @@ sections:
       - Windows AutoPilot을 통해 간소화된 PC 배포.
 
 
-      **기타 권리:**
+      **기타 권리 권한**:
 
 
-      - Microsoft 365 Business Premium 고객은 Windows Virtual Desktop 및 Office 공유 컴퓨터 인증 기능에도 액세스할 수 있습니다. 자세한 내용은 [Microsoft 365 Business Premium 블로그](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog)를 참조하세요. 비즈니스용 [Microsoft 365 서비스 설명도 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)
+      - Microsoft 365 Business Premium 고객은 Windows Virtual Desktop 및 Office 공유 컴퓨터 인증 기능에도 액세스할 수 있습니다. 자세한 내용은 [Microsoft 365 Business Premium 블로그](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog)를 참조하세요. 비즈니스용 [Microsoft 365 서비스 설명도 참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)
   - question: Microsoft 365 Business Premium 채택을 고려할 대상은 누구인가요?
     answer: >
       Microsoft 365 Business Premium은 포괄적인 클라우드 기반 보안 솔루션으로 다음 작업을 지원합니다.
@@ -111,7 +111,7 @@ sections:
       현재 실행 중인 하드웨어가 Windows 7 Pro 이상을 실행하고 있다면 Microsoft 365 Business Premium에 대한 최소 요구 사항을 충족할 것입니다. Cortana, Windows Hello 및 멀티 터치와 같은 일부 Windows 10 기능에는 최신 PC에서만 사용 가능한 특정 하드웨어가 필요합니다. 자세한 내용은 [Windows 10 Pro 시스템 요구 사항](https://www.microsoft.com/windows/windows-10-specifications)을 참조하세요.
 
 
-      Windows 10에서 기존 데스크톱(Win32) 응용 프로그램도 호환성이 뛰어나므로 어떠한 변경 없이도 대부분의 기존 응용 프로그램과 제대로 작동할 것으로 예상됩니다. 고객과 신뢰할 수 있는 IT 조언자는 Microsoft 365 Business Premium으로 원활하게 전환하려면 [Windows 10 호환성](https://docs.microsoft.com/windows/deployment/planning/windows-10-compatibility#recommended-application-testing-process)에 대한 권장 응용 프로그램 테스트 프로세스를 읽고 [Office 시스템 요구 사항](https://products.office.com/office-system-requirements#subscription-plans-section)을 검토해야 합니다.
+      Windows 10에서 기존 데스크톱(Win32) 응용 프로그램도 호환성이 뛰어나므로 어떠한 변경 없이도 대부분의 기존 응용 프로그램과 제대로 작동할 것으로 예상됩니다. 고객과 신뢰할 수 있는 IT 조언자는 Microsoft 365 Business Premium으로 원활하게 전환하려면 [Windows 10 호환성](/windows/deployment/planning/windows-10-compatibility#recommended-application-testing-process)에 대한 권장 응용 프로그램 테스트 프로세스를 읽고 [Office 시스템 요구 사항](https://products.office.com/office-system-requirements#subscription-plans-section)을 검토해야 합니다.
   - question: Windows 10 Business란?
     answer: >
       Windows 10 Business는 Windows 10 Pro를 보완하고 Microsoft 365 Business Premium의 중앙 집중식 관리 및 보안 컨트롤을 지원하는 클라우드 서비스 및 디바이스 관리 기능의 집합입니다.
@@ -139,13 +139,13 @@ sections:
       - **Windows 10 PC용** 장치 관리를 통해 기업은 맬웨어에 대한 Microsoft Defender 바이러스 백신 보호, 자동 업데이트, 정해진 시간 후 화면 끄기 등의 기능을 설정하고 적용할 수 있습니다. 또한 Windows 10 디바이스를 분실하거나 도난당한 경우 관리 센터를 통해 비즈니스 응용 프로그램 및 데이터를 완전히 삭제할 수 있습니다.
 
 
-      - **iOS용 장치 관리, Android & macOS** 기능은 기업이 iOS, Android, Windows 및 macOS 장치를 포함하는 다양한 장치 에코시스템을 안전하게 관리하는 데 도움이 됩니다.
+      - **iOS용** 장치 관리, Android & macOS 기능은 기업이 iOS, Android, Windows 및 macOS 장치를 포함하는 다양한 장치 에코시스템을 안전하게 관리하는 데 도움이 됩니다.
   - question: Microsoft 365 Business Premium에서 어떻게 악의적 공격으로부터 내 조직의 PC를 보호하나요?
     answer: >
-      Microsoft 365 Business Premium으로 관리되는 PC는 Microsoft Defender 바이러스 백신(No)으로 보호됩니다. Windows 10의 단일 바이러스 백신 기능은 다른 어떤 솔루션보다 더 많은 컴퓨터를 바이러스, 맬웨어, 스파이웨어 및 기타 위협으로부터 보호합니다. Microsoft 365 Business Premium을 사용하여 조직은 Microsoft Defender 바이러스 백신 보호가 실행되고 있으며 모든 Windows 10 장치에서 항상 최신 상태로 유지되도록 할 수 있습니다.
+      Microsoft 365 Business Premium으로 관리되는 PC는 아니요인 Microsoft Defender 바이러스 백신으로 보호됩니다. Windows 10의 단일 바이러스 백신 기능은 다른 어떤 솔루션보다 더 많은 컴퓨터를 바이러스, 맬웨어, 스파이웨어 및 기타 위협으로부터 보호합니다. Microsoft 365 Business Premium을 사용하여 조직은 Microsoft Defender 바이러스 백신 보호가 실행되고 있으며 모든 Windows 10 장치에서 항상 최신 상태로 유지되도록 할 수 있습니다.
 
 
-      Windows 10 Business에는 새로운 침입 방지 기능 집합인 Microsoft Defender Exploit Guard도 포함되어 있습니다. 제어된 폴더 액세스 기능 중 하나는 폴더를 잠그고 권한이 없는 앱이 사용자의 중요한 파일에 액세스하지 못하도록 하여 랜섬웨어를 중지합니다.
+      Windows 10 Business에는 새로운 침입 방지 기능 집합인 Microsoft Defender Exploit Guard도 포함되어 있습니다. 제어된 폴더 액세스 기능 중 하나는 폴더를 잠그고 권한이 없는 앱이 사용자의 중요한 파일에 액세스하지 못하게 하여 랜섬웨어를 중지합니다.
   - question: Microsoft 365 Business Standard, Microsoft 365 Business Premium 및 Microsoft 365 Enterprise의 차이점은 무엇인가요?
     answer: >
       Microsoft는 중소규모의 고객이 데스크톱 및 디바이스 인프라를 업그레이드할 때 고려할 수 있는 각각 점점 더 강력한 기능을 제공하는 다양한 생산성 및 보안 관리 서비스를 보유하고 있습니다.
@@ -172,26 +172,26 @@ sections:
   questions:
   - question: Microsoft 365 Business Premium 배포를 계획할 때 고객이 고려해야 할 사항은 무엇인가요?
     answer: >
-      성공적으로 Microsoft 365 Business Premium을 배포하는 가장 직접적인 경로는 Microsoft 파트너와 협력하는 것입니다. Microsoft 파트너는 다양한 고객 시나리오의 광범위한 교육과 경험을 갖추었으며 귀하의 환경에 필요한 것을 파악하도록 가장 잘 훈련되었습니다. 숙련된 IT 직원이 있는 고객은 [Microsoft 365 Business Premium 시작](https://docs.microsoft.com/microsoft-365/business/microsoft-365-business-overview)을 참고하여 Microsoft 365 Business Premium 배포를 지원할 수 있습니다.
+      성공적으로 Microsoft 365 Business Premium을 배포하는 가장 직접적인 경로는 Microsoft 파트너와 협력하는 것입니다. Microsoft 파트너는 다양한 고객 시나리오의 광범위한 교육과 경험을 갖추었으며 귀하의 환경에 필요한 것을 파악하도록 가장 잘 훈련되었습니다. 숙련된 IT 직원이 있는 고객은 [Microsoft 365 Business Premium 시작](../microsoft-365-business-overview.md)을 참고하여 Microsoft 365 Business Premium 배포를 지원할 수 있습니다.
   - question: Microsoft 365 Business Premium에 Microsoft Intune의 전체 기능이 포함되나요?
-    answer: 예, Microsoft 365 Business Premium 구독자는 iOS, Android, macOS 및 기타 플랫폼 간 장치 관리에 대한 전체 Intune 기능을 사용할 수 있는 라이선스가 있습니다. 타사 앱 관리, Wi-Fi 프로필 구성 및 VPN 인증서와 같은 Microsoft 365 Business Premium의 간소화된 관리 콘솔에서 사용할 수 없는 기능은 전체 Intune 콘솔에서 관리할 수 있습니다.
+    answer: 예, Microsoft 365 Business Premium 구독자는 iOS, Android, macOS 및 기타 플랫폼 간 장치 관리에 대한 전체 Intune 기능을 사용할 수 있습니다. 타사 앱 관리, Wi-Fi 프로필 구성 및 VPN 인증서와 같은 Microsoft 365 Business Premium의 간소화된 관리 콘솔에서 사용할 수 없는 기능은 전체 Intune 콘솔에서 관리할 수 있습니다.
   - question: Azure AD(Azure Active Directory) Premium P1이 Microsoft 365 Business Premium과 함께 제공하나요?
     answer: 예, Azure AD Premium P1은 Microsoft Business Premium에 포함되어 있습니다.
   - question: Microsoft 365 Business Premium을 통해 Mac을 관리할 수 있나요?
     answer: Intune을 사용하면 iOS, Android, Windows 및 macOS 장치를 안전하게 관리할 수 있습니다.
   - question: Windows AutoPilot이란 무엇인가요?
     answer: >
-      Windows AutoPilot은 새로운 Windows 10 PC의 배포를 간소화하는 서비스입니다. 이 과정은 최종 사용자가 처음으로 Microsoft 365 Business Premium에 로그인할 때 &mdash;IT가 디바이스를 작동하지 않고&mdash; Microsoft 365 Business Premium의 중앙 집중식 관리 컨트롤을 활용하여 실행할 수 있습니다. 또한 Windows 10 Professional 크리에이터스 업데이트(이상)를 실행하고 공장 초기화된 기존 PC에 대해 Windows AutoPilot을 사용할 수도 있습니다. Windows AutoPilot에 대한 자세한 내용은 [2017년 6월 블로그 게시물에서 찾을 수 있습니다.](https://blogs.technet.microsoft.com/windowsitpro/2017/06/29/modernizing-windows-deployment-with-windows-autopilot/)
+      Windows AutoPilot은 새로운 Windows 10 PC의 배포를 간소화하는 서비스입니다. 이 과정은 최종 사용자가 처음으로 Microsoft 365 Business Premium에 로그인할 때 &mdash;IT가 디바이스를 작동하지 않고&mdash; Microsoft 365 Business Premium의 중앙 집중식 관리 컨트롤을 활용하여 실행할 수 있습니다. 또한 Windows 10 Professional 크리에이터스 업데이트(이상)를 실행하고 공장 초기화된 기존 PC에 대해 Windows AutoPilot을 사용할 수도 있습니다. Windows AutoPilot에 대한 자세한 내용은 [2017년 6월 블로그 게시물 에서 찾을 수 있습니다.](https://blogs.technet.microsoft.com/windowsitpro/2017/06/29/modernizing-windows-deployment-with-windows-autopilot/)
 - name: 호환성
   questions:
   - question: Microsoft 365 Business Premium에 Office 365 추가 기능을 추가할 수 있습니까?
     answer: Microsoft 365 Business Standard에 추가할 수 있는 모든 추가 기능을 Microsoft 365 Business Premium에 추가할 수 있습니다. 즉, Office 365 Cloud App Security, Advanced Compliance, Threat Intelligence, MyAnalytics, Power BI Pro 및 오디오 회의를 구입할 수 있습니다.
   - question: Microsoft 365 Business Premium에 전화 시스템 및 통화 요금제를 추가할 수 있습니까?
     answer: >
-      예, Business Voice 구독을 구입할 수 있습니다. [Business Voice는](https://docs.microsoft.com/microsoftteams/business-voice/whats-business-voice) 전화 시스템, 오디오 회의, 국내 통화 플랜 등 최대 300명 이상의 사용자를 위한 전화 통신 솔루션입니다. 사용할 전화 시스템 기능에는 음성 메일, 발신자 번호, 통화 대기, 전화 전달, 자동 전화 번호 및 통화 큐가 포함됩니다. <br> Business Voice를 해당 국가 또는 지역에서 사용할 수 있는지 확인 내용은 Business Voice의 국가 및 지역 가용성을 [참조합니다.](https://docs.microsoft.com/microsoftteams/business-voice/country-region-availability) 가격 정보는 Business [Voice 가격을 참조하세요.](https://go.microsoft.com/fwlink/?linkid=2127221)
+      예, Business Voice 구독을 구입할 수 있습니다. [Business Voice는](/microsoftteams/business-voice/whats-business-voice) 전화 시스템, 오디오 회의, 국내 통화 플랜을 번들로 묶는 최대 300명 이상의 중소기업을 위해 설계된 전화 통신 솔루션입니다. 사용할 전화 시스템 기능에는 음성 메일, 발신자 번호, 통화 대기, 통화 전달, 자동 전화 연결 및 통화 큐가 포함됩니다. <br> Business Voice를 해당 국가 또는 지역에서 사용할 수 있는지 확인 내용은 Business Voice의 국가 및 지역 [가용성을 참조합니다.](/microsoftteams/business-voice/country-region-availability) 가격 정보는 Business [Voice 가격을 참조하세요.](https://go.microsoft.com/fwlink/?linkid=2127221)
   - question: Microsoft 365 Business Premium 고객이 끝점용 Microsoft Defender를 사용할 수 있나요?
     answer: >
-      예. Microsoft 클라우드 솔루션 공급자에서 구매한 경우 끝점용 Microsoft Defender를 Microsoft 365 Business Premium의 추가 기능으로 사용할 [수 있습니다.](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)
+      예, Microsoft 클라우드 솔루션 공급자에서 구매한 경우 끝점용 Microsoft Defender를 Microsoft 365 Business Premium의 추가 기능으로 [사용할 수 있습니다.](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)
 - name: 파트너 기회
   questions:
   - question: 어디에서 Microsoft 파트너가 되는 기회와 혜택에 대해 알아볼 수 있나요?
@@ -228,7 +228,7 @@ sections:
     answer: 아니요, Microsoft 365 Business Premium은 정품이 아닌 Windows 버전을 정품으로 만들 수 없습니다. Microsoft 365 Business Premium은 정품 Windows 7, 8 또는 8.1 Pro를 실행하는 고객에게 최선 정품 버전의 Windows 10 Pro에 대한 업그레이드를 제공합니다.
   - question: GDPR이란 무엇이며, 어떻게 Microsoft 365 Business Premium에서 고객의 규정 준수 의무를 지원하나요?
     answer: >
-      일반 데이터 보호 규정(GDPR)은 유럽 연합(EU)의 거주자에게 "개인 데이터"에 대한 더 큰 제어를 제공하며 조직에게 개인 데이터의 무결성을 유지하도록 요구하는 종합적인 새 개인 정보 보호 법률입니다. GDPR은 EU 거주자와 관련된 개인 데이터를 제어 또는 처리하는 조직이 개인 데이터 처리에 대한 GDPR의 요구 사항을 충족하는 제3자 데이터 프로세서만을 사용할 것을 요구합니다. 2017년 3월 Microsoft는 이러한 보장을 제공하는 보증 계약을 체결했습니다. Microsoft가 추가 GDPR 의무를 충족하도록 도와주는 방법에 대한 질문이 있는 고객은 Microsoft 365 Business Premium(예: Azure Information Protection, 데이터 손실 방지, Office 365용 Defender 등) 및 기타 제품군(예: Microsoft 365 Enterprise E5)에서 사용할 수 있는 고급 규정 준수 및 보안 기능에 대해 알아보아야 합니다. 자세한 내용을 보려면 [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr)를 방문하세요.
+      일반 데이터 보호 규정(GDPR)은 유럽 연합(EU)의 거주자에게 "개인 데이터"에 대한 더 큰 제어를 제공하며 조직에게 개인 데이터의 무결성을 유지하도록 요구하는 종합적인 새 개인 정보 보호 법률입니다. GDPR은 EU 거주자와 관련된 개인 데이터를 제어 또는 처리하는 조직이 개인 데이터 처리에 대한 GDPR의 요구 사항을 충족하는 제3자 데이터 프로세서만을 사용할 것을 요구합니다. 2017년 3월 Microsoft는 이러한 보장을 제공하는 보증 계약을 체결했습니다. Microsoft가 추가 GDPR 의무를 충족하는 데 도움을 줄 수 있는 방법에 대한 질문이 있는 고객은 Microsoft 365 Business Premium(예: Azure Information Protection, 데이터 손실 방지, Office 365용 Defender 등) 및 기타 제품군(예: Microsoft 365 Enterprise E5)에서 사용할 수 있는 고급 규정 준수 및 보안 기능에 대해 학습해야 합니다. 자세한 내용을 보려면 [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr)를 방문하세요.
 additionalContent: >-
   ## <a name="footnotes"></a>각주
 

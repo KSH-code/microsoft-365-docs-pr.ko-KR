@@ -28,12 +28,12 @@ ms.custom:
 - AdminSurgePortfolio
 description: Microsoft 365 관리 센터에서 송장 또는 청구서를 찾으십시오. 청구서 복사본을 저장하고 인쇄할 수도 있습니다.
 ms.date: 07/31/2020
-ms.openlocfilehash: 5bf257847ec880855841035792c7714fd24d9b68
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 395c9773d4bc67ed466d7b3f8d568cecedddfd36
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928535"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911650"
 ---
 # <a name="view-your-bill-or-invoice"></a>청구서 또는 송장 보기
 
@@ -80,4 +80,4 @@ ms.locfileid: "49928535"
 
 [송장, 신용 카드 또는 은행 계좌로 결제](pay-for-your-subscription.md)(문서) \
 [결제 방법 관리](manage-payment-methods.md) (문서) \
-[Minecraft: Education Edition 결제 옵션](https://go.microsoft.com/fwlink/p/?linkid=838761) (문서)
+[Minecraft: Education Edition 결제 옵션](/education/windows/school-get-minecraft) (문서)

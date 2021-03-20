@@ -19,19 +19,19 @@ search.appverid:
 - MET150
 description: Microsoft 비즈니스 제품에 대한 청구서 또는 송장을 읽고 이해하는 방법에 대해 알아보세요.
 keywords: 청구 계정, 조직 정보, 송장
-ms.openlocfilehash: 521ef49e7f2292f8ea09210fb0edcce0d56e1b76
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 2b11cca810b17ae2dacc3ddab723725608ffceb5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126576"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911701"
 ---
 # <a name="understand-your-bill-or-invoice"></a>청구서 또는 송장 이해하기
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -60,13 +60,13 @@ Microsoft 365 구독이 있는 경우에는 [비즈니스용 Microsoft 365의 �
 | --- | --- |
 | 요금|이 청구 기간 동안 구입한 총 제품 수 및 관련 요금 및 세금입니다. 구매 내역을 통해 청구서를 간결하게 볼 수 있습니다. |
 | 크레딧 |환불 받은 크레딧 |
-| Azure 크레딧이 적용됨 |Azure에 자동으로 적용되는 Azure 크레딧은 청구 기간마다 청구됩니다. Azure 크레딧이 없는 경우 이 필드는 숨겨져 있습니다. Azure 크레딧에 대한 자세한 내용은 [Microsoft 고객 계약 Azure 크레딧 잔액 추적](https://docs.microsoft.com/azure/billing/billing-mca-check-azure-credits-balance)을 참조하세요. |
+| Azure 크레딧이 적용됨 |Azure에 자동으로 적용되는 Azure 크레딧은 청구 기간마다 청구됩니다. Azure 크레딧이 없는 경우 이 필드는 숨겨져 있습니다. Azure 크레딧에 대한 자세한 내용은 [Microsoft 고객 계약 Azure 크레딧 잔액 추적](/azure/billing/billing-mca-check-azure-credits-balance)을 참조하세요. |
 | 소계 |사전 세금 금액 |
 | 세금 |청구 프로필의 국가에 따라 지불하는 세금 유형 및 금액입니다. 세금을 낼 필요가 없다면, 송장에 세금이 표시되지 않습니다. |
 
 ### <a name="understand-your-charges"></a>요금 이해
 
-요금 페이지에는 제품별로 분류된 비용이 표시됩니다. Azure 고객의 경우 청구서 섹션별로 비용이 정리될 수 있습니다. Azure 제품에서 송장 섹션을 사용하는 방법에 대한 자세한 내용은[ Microsoft 고객 계약 청구 계정 시작](https://docs.microsoft.com/azure/billing/billing-mca-overview)에서 [송장 섹션](https://docs.microsoft.com/azure/billing/billing-mca-overview#invoice-sections)을 참조하세요. 각 제품 주문 내에서 비용은 서비스 제품군별로 분류됩니다.
+요금 페이지에는 제품별로 분류된 비용이 표시됩니다. Azure 고객의 경우 청구서 섹션별로 비용이 정리될 수 있습니다. Azure 제품에서 송장 섹션을 사용하는 방법에 대한 자세한 내용은[ Microsoft 고객 계약 청구 계정 시작](/azure/billing/billing-mca-overview)에서 [송장 섹션](/azure/billing/billing-mca-overview#invoice-sections)을 참조하세요. 각 제품 주문 내에서 비용은 서비스 제품군별로 분류됩니다.
 
 | 용어 |설명 |
 | --- | --- |
@@ -86,7 +86,7 @@ Microsoft 365 구독이 있는 경우에는 [비즈니스용 Microsoft 365의 �
 
 > 합계 = 요금/크레딧 - Azure 크레딧 + 세금
 
-송장에 더 자세한 정보는 [Microsoft 고객 계약 송장 검토](https://docs.microsoft.com/azure/cost-management-billing/understand/review-customer-agreement-bill)를 참조하세요.
+송장에 더 자세한 정보는 [Microsoft 고객 계약 송장 검토](/azure/cost-management-billing/understand/review-customer-agreement-bill)를 참조하세요.
 
 ## <a name="understand-the-last-invoice-page"></a>마지막 송장 페이지 이해
 

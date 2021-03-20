@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: MFA를 요구하고 비즈니스용 Microsoft 365에 대한 조건부 액세스 정책을 설정하는 방법을 알아보습니다.
-ms.openlocfilehash: e16b7f4ff7d215ee749435806be214a807cc60a4
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: dcb79ed060dd15fd288cdcfb9e3739a788f5fbc2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453672"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912189"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>다단계 인증 필요 및 조건부 액세스 정책 설정
 
@@ -48,7 +48,7 @@ ms.locfileid: "50453672"
 
 이러한 모든 기준 정책을 사용하도록 설정하는 것이 좋습니다. 이러한 정책을 사용하도록 설정하면 관리자와 사용자에게 Azure AD 다단계 인증을 등록하라는 메시지가 표시됩니다.
 
-이러한 정책에 대한 자세한 내용은 [기준 정책이란?을 참조하세요.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection)
+이러한 정책에 대한 자세한 내용은 [기준 정책이란?을 참조하세요.](/azure/active-directory/conditional-access/concept-baseline-protection)
 
 ## <a name="require-mfa"></a>MFA 필요
 
@@ -73,12 +73,12 @@ ms.locfileid: "50453672"
 1. [Azure Portal로 이동한](https://portal.azure.com)다음 **Azure Active Directory** 보안 조건부 액세스로 이동하여 새 정책을 \>  \>  **만드십시오.**
 
 각 정책에 대한 다음 특정 지침을 참조하세요. <br>
-    - [관리자에게 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators) <br>
-    - [사용자에 대해 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users) <br>
-    - [레거시 인증 차단](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth) <br>
-    - [서비스 관리를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
+    - [관리자에게 MFA 필요](/azure/active-directory/conditional-access/howto-baseline-protect-administrators) <br>
+    - [사용자에 대해 MFA 요구](/azure/active-directory/conditional-access/howto-baseline-protect-end-users) <br>
+    - [레거시 인증 차단](/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth) <br>
+    - [서비스 관리를 위해 MFA 필요](/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
 > [!NOTE]
 > 미리 보기 정책이 더 이상 존재하지 않는 경우 사용자는 자신의 정책을 만들어야 합니다.
 
-승인된 클라이언트 앱을 요구하는 등의 추가 정책을 설정할 수 있습니다. 자세한 내용은 조건부 액세스 [설명서를 참조하십시오.](https://docs.microsoft.com/azure/active-directory/conditional-access/)
+승인된 클라이언트 앱을 요구하는 등의 추가 정책을 설정할 수 있습니다. 자세한 내용은 조건부 액세스 [설명서를 참조하십시오.](/azure/active-directory/conditional-access/)

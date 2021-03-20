@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Office 생산성 앱과 사이버 위협으로부터 비즈니스를 보호하는 고급 보호 기능을 포함하는 구독 서비스인 Microsoft 365 Business Premium에 대해 알아봅니다.
-ms.openlocfilehash: e67ae036bf3ce7811f19c8745838bb51dde073ea
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: aa6e313f0f3db1c3401836c3e1737c219fcf6c3a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842183"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913005"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 개요
 
@@ -48,9 +48,9 @@ Microsoft 365 Business Premium에 대한 간략한 개요를 보려면 이 비�
   
 이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요. 
 
-Microsoft 365 Business Premium은 최대 300개의 라이선스용으로 만들어졌습니다. 라이선스가 더 필요한 경우 자세한 내용은 [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) 설명서를 참조하세요.
+Microsoft 365 Business Premium은 최대 300개의 라이선스용으로 만들어졌습니다. 라이선스가 더 필요한 경우 자세한 내용은 [Microsoft 365 Enterprise](../enterprise/index.yml) 설명서를 참조하세요.
 
-전체 기능 목록은 [Microsoft 365 Business Premium 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)을 참조하세요.
+전체 기능 목록은 [Microsoft 365 Business Premium 서비스 설명](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)을 참조하세요.
   
 ## <a name="small-business-security-needs"></a>소규모 비즈니스 보안 요구 사항
 
@@ -73,7 +73,7 @@ Microsoft 365 Business Premium은 다음을 통해 **위협으로부터 보호�
 
 - 전자 메일 및 문서의 링크를 실시간으로 검사하여 안전하지 않은 웹 사이트(안전한 링크)를 차단합니다.
 
-- 샌드박스 환경에서 전자 메일 첨부 파일을 고급 분석하여 새로 개발된 맬웨어(안전한 첨부 파일)를 검색합니다. 
+- 샌드박스 환경에서 전자 메일 첨부 파일에 대한 고급 분석을 수행하여 새로 개발된 맬웨어(안전한 첨부 파일)를 검색합니다. 
 
 - 기계 학습 모델 및 가장 검색을 사용하는 피싱 방지 정책을 사용하도록 설정하여 고급 공격(Office 365 인텔리전스용 Defender의 피싱 방지)을 보호합니다. 
 
@@ -103,7 +103,7 @@ Microsoft 365 Business Premium은 다음을 통해 **위협으로부터 보호�
 
 - 간단한 컨트롤을 사용하여 회사의 모든 Windows 10 PC에 대한 정책을 관리하고, BitLocker 암호화를 적용하고, 중요한 Windows 업데이트를 자동으로 설치합니다(Windows 업데이트 정책 적용).
 
-전체 보안 기능 목록을 보려면 [Microsoft 365 Business Premium 보안 기능](security-features.md)을 참조하세요. [Microsoft 365 Business Premium을 설정](set-up.md)한 후에는 [위협 방지 강화](increase-threat-protection.md) 및 [규정 준수 기능 설정](set-up-compliance.md)을 참조하여 가이드 설정의 일부로 포함되지 않은 보안 기능을 시작하세요. 또한 사이버 범죄자와 해커로부터 보호를 설정하는 방법에 대한 개요를 보려면 [Office 365 및 Microsoft 365 Business Premium 플랜을 보호하는 10가지 주요 방법](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data)을 참조하세요.
+전체 보안 기능 목록을 보려면 [Microsoft 365 Business Premium 보안 기능](security-features.md)을 참조하세요. [Microsoft 365 Business Premium을 설정](set-up.md)한 후에는 [위협 방지 강화](increase-threat-protection.md) 및 [규정 준수 기능 설정](set-up-compliance.md)을 참조하여 가이드 설정의 일부로 포함되지 않은 보안 기능을 시작하세요. 또한 사이버 범죄자와 해커로부터 보호를 설정하는 방법에 대한 개요를 보려면 [Office 365 및 Microsoft 365 Business Premium 플랜을 보호하는 10가지 주요 방법](/office365/admin/security-and-compliance/secure-your-business-data)을 참조하세요.
 
 ## <a name="get-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 받기
 

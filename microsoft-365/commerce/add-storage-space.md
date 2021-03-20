@@ -23,19 +23,19 @@ search.appverid:
 - MET150
 description: Microsoft 365 구독에서 파일 저장소를 추가하고 줄이는 방법을 학습하세요. 추가 파일 저장소를 사용하면 SharePoint Online 및 OneDrive에 더 많은 콘텐츠를 저장할 수 있습니다.
 ms.date: ''
-ms.openlocfilehash: 626cc81faea43ebdcf618a4f26c33069bae6a206
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: b170924f40d517cb6bbdf8635ad3e163eadc8643
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405891"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911929"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>구독에 대한 저장소 공간 추가
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -50,18 +50,18 @@ SharePoint Online 사이트 모음의 저장소 공간이 부족해지면 해당
 
 ## <a name="view-available-storage"></a>사용 가능한 저장소 보기
 
-1. SharePoint 관리 센터에서 활성 사이트 페이지로 <a href="https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true" target="_blank">이동한</a> 다음 조직에 [](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) 대한 관리자 권한이 있는 계정으로 로그인합니다.
+1. SharePoint 관리 센터에서 활성 사이트 페이지로 <a href="https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true" target="_blank">이동한</a> 다음 조직에 [](/sharepoint/sharepoint-admin-role) 대한 관리자 권한이 있는 계정으로 로그인합니다.
 
 2. 페이지의 오른쪽 위에서 모든 사이트에서 사용된 저장소의 크기와 구독에 대한 총 저장소 크기를 확인합니다. 조직에서 Office 365에서 Multi-Geo를 구성한 경우 표시줄에는 모든 지리적 위치에서 사용되는 저장소의 양도 표시됩니다.
 
-   ![활성 사이트 페이지의 저장소 표시줄](https://docs.microsoft.com/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
+   ![활성 사이트 페이지의 저장소 표시줄](/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
 
    > [!NOTE]
    > 사용된 저장소에는 최근 24-48시간 내에 변경한 내용이 포함되지 않습니다.
 
 사용하는 저장소의 용량을 확인한 후 구독에 대한 저장소 공간을 추가하거나 제거할 수 있습니다. 저장소 공간을 추가하는 데 얼마나 드는 비용은 이 문서의 단계를 따르고, 추가 구입 전에 가격 정보를 검토하세요.
   
-사이트 모음 저장 용량 제한을 설정하는 데 대한 자세한 내용은 [Manage site collection storage limits를 참조하십시오.](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits)
+사이트 모음 저장 용량 제한을 설정하는 데 대한 자세한 내용은 [Manage site collection storage limits를 참조하십시오.](/sharepoint/manage-site-collection-storage-limits)
   
 ## <a name="add-storage-to-your-subscription"></a>구독에 저장소 추가
 
@@ -112,4 +112,4 @@ Office 365 추가 파일 저장소는 다음 구독에서 사용할 수 있습�
 ## <a name="related-content"></a>관련 콘텐츠
 
 [사이트 저장 용량 제한](ttps://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) 관리(문서)\
-[OneDrive](https://docs.microsoft.com/onedrive/set-default-storage-space)사용자의 기본 저장소 공간 설정(문서)
+[OneDrive](/onedrive/set-default-storage-space)사용자의 기본 저장소 공간 설정(문서)

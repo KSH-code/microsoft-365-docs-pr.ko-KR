@@ -10,18 +10,18 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: Priority
 description: SharePoint 분류에 대한 SKOS 형식 참조
-ms.openlocfilehash: 90c20ddb440e216941a5ea06f1aa815cb80102a9
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 6a565de9598706e998206304093ed86a1a55704d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087285"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911177"
 ---
 # <a name="skos-format-reference-for-sharepoint-taxonomy"></a>SharePoint 분류에 대한 SKOS 형식 참조
 
-본 문서는 [SharePoint 분류](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy)를 나타내는 데 사용되는 RDF 용어를 포함하고 있으며 [SKOS](https://www.w3.org/TR/skos-primer/)를 기반으로 합니다. 이 RDF 구문을 직렬화하려면 RDF [TURTLE](https://www.w3.org/TR/turtle/)을 사용하세요.
+본 문서는 [SharePoint 분류](/dotnet/api/microsoft.sharepoint.taxonomy)를 나타내는 데 사용되는 RDF 용어를 포함하고 있으며 [SKOS](https://www.w3.org/TR/skos-primer/)를 기반으로 합니다. 이 RDF 구문을 직렬화하려면 RDF [TURTLE](https://www.w3.org/TR/turtle/)을 사용하세요.
 
-다음 표에서 [SharePoint 분류](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy) 용어에 해당하는 [SKOS](https://www.w3.org/TR/skos-primer/)를 표시합니다. SharePoint는 해당하는 SharePoint 분류가 없는 [SKOS](https://www.w3.org/TR/skos-primer/) 값을 지원하지 않습니다.
+다음 표에서 [SharePoint 분류](/dotnet/api/microsoft.sharepoint.taxonomy) 용어에 해당하는 [SKOS](https://www.w3.org/TR/skos-primer/)를 표시합니다. SharePoint는 해당하는 SharePoint 분류가 없는 [SKOS](https://www.w3.org/TR/skos-primer/) 값을 지원하지 않습니다.
 
 |SharePoint 분류|해당하는 SKOS|
 |:-----------------|:--------------|
@@ -55,9 +55,9 @@ ms.locfileid: "49087285"
 
 관리된 메타데이터 계층 구조에서 Term 또는 Keyword를 나타냅니다.
 
-[Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)는 SharePoint [TermStore](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore)의 원자성 단위입니다. 각 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)는 [TermGroup](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.group)에 속한 [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 속해 있습니다. 
+[Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)는 SharePoint [TermStore](/dotnet/api/microsoft.sharepoint.taxonomy.termstore)의 원자성 단위입니다. 각 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)는 [TermGroup](/dotnet/api/microsoft.sharepoint.taxonomy.group)에 속한 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 속해 있습니다. 
 
-[Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)을 정의하는 구문은 다음과 같습니다.
+[Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 정의하는 구문은 다음과 같습니다.
 
 ```SKOS
 ex:TermA    a    sharepoint-taxonomy:Term;
@@ -68,27 +68,27 @@ ex:TermA    a    sharepoint-taxonomy:Term;
     sharePoint-taxonomy:defaultLabel    “Term A”@en-us.
 ```
 
-[Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)은 필수적으로 [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset) 내에 존재합니다. DefaultLabel은 시각적 표현에 표시되는 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) 이름입니다. [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)을 정의하는 데 필요한 필드에는 다음이 있습니다.
+[Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)은 필수적으로 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset) 내에 존재합니다. DefaultLabel은 시각적 표현에 표시되는 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term) 이름입니다. [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 정의하는 데 필요한 필드에는 다음이 있습니다.
 
 - sharepoint-taxonomy:defaultLabel
 - sharepoint-taxonomy:inTermSet
 
-[Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)은 다음 사항을 수행할 수 있습니다.
+[Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)은 다음 사항을 수행할 수 있습니다.
 
-- 동일한 [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 속해 있는 두 가지 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)과 제공된 다른 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)과 계층적으로 관련될 수 있습니다.
-- 여러 하위 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)이 있지만 하나의 상위 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)만 가집니다.
-- topLevelTermOf [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)의 경우 상위 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)이 정의되지 않습니다.
-- [TermStore](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore) 작업 언어 당 하나의 defaultLabel이 있습니다.
-- 상위 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)이 포함되지 않거나 topLevelTermOf [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)이 아닌 경우 존재하지 않습니다. 
+- 동일한 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 속해 있는 두 가지 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)과 제공된 다른 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)과 계층적으로 관련될 수 있습니다.
+- 여러 하위 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)이 있지만 하나의 상위 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)만 가집니다.
+- topLevelTermOf [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)의 경우 상위 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)이 정의되지 않습니다.
+- [TermStore](/dotnet/api/microsoft.sharepoint.taxonomy.termstore) 작업 언어 당 하나의 defaultLabel이 있습니다.
+- 상위 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)이 포함되지 않거나 topLevelTermOf [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)이 아닌 경우 존재하지 않습니다. 
 - 동일한 계층 수준에 고유한 defaultLabel이 있어야 합니다.
 
 **sharepoint-taxonomy:TermSet**
 
 "TermSet" 이라는 계층적 또는 일련의 용어 개체 집합을 나타냅니다.
 
-이름에서 알 수 있듯이 TermSet은 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)의 집합입니다. [TermStore](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore)의 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)은 [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 속해 있어야 합니다. [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)은 독립적으로 존재할 수 없습니다. 
+이름에서 알 수 있듯이 TermSet은 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)의 집합입니다. [TermStore](/dotnet/api/microsoft.sharepoint.taxonomy.termstore)의 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)은 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 속해 있어야 합니다. [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)은 독립적으로 존재할 수 없습니다. 
 
-[TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)을 정의하는 구문은 다음과 같습니다.
+[TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)을 정의하는 구문은 다음과 같습니다.
 
 ```SKOS
 ex:TermSetA    a    sharepoint-taxonomy:TermSet;
@@ -97,15 +97,15 @@ ex:TermSetA    a    sharepoint-taxonomy:TermSet;
     sharepoint-taxonomy:hasTopLevelTerm    Ex:Term A.
 ```
 
-[TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)은 [TermGroup](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.group)에서 논리적으로 함께 그룹화됩니다. [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)을 정의하는 데 필요한 필드에는 다음이 있습니다.
+[TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)은 [TermGroup](/dotnet/api/microsoft.sharepoint.taxonomy.group)에서 논리적으로 함께 그룹화됩니다. [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)을 정의하는 데 필요한 필드에는 다음이 있습니다.
 
 - sharepoint-taxonomy:termSetName
 
-제공된 termSetName이 [TermGroup](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.group) 내에서 고유하지 않은 경우 SharePoint는 이름 끝에 숫자를 추가하여 termSetName의 고유성을 유지합니다.
+제공된 termSetName이 [TermGroup](/dotnet/api/microsoft.sharepoint.taxonomy.group) 내에서 고유하지 않은 경우 SharePoint는 이름 끝에 숫자를 추가하여 termSetName의 고유성을 유지합니다.
 
 **sharepoint-taxonomy:hasTopLevelTerm**
 
-SharePoint는 이 속성을 사용하여 [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)에서 맨 위의 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)을 매핑합니다. 이는 [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)에서 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)의 계층 구조에 대한 진입점입니다. 이는 sharepoint-taxonomy:topLevelTermOf와 역 관계입니다. 
+SharePoint는 이 속성을 사용하여 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)에서 맨 위의 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 매핑합니다. 이는 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)에서 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)의 계층 구조에 대한 진입점입니다. 이는 sharepoint-taxonomy:topLevelTermOf와 역 관계입니다. 
 
 이를 정의하는 구문은 다음과 같습니다.
 
@@ -114,7 +114,7 @@ ex:TermSetA    sharepoint-taxonomy:hasTopLevelTerm    ex:TermA.
 ```
 
 >[!NOTE]
-> 상위 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)의 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)을 정의할 수 없습니다.
+> 상위 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)의 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 정의할 수 없습니다.
 
 **sharepoint-taxonomy:topLevelTermOf**
 
@@ -128,7 +128,7 @@ ex:TermA    sharepoint-taxonomy:topLevelTermOf    ex:TermSetA.
 
 **sharepoint-taxonomy:inTermSet**
 
-이를 사용하여 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)을 [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 매핑합니다. [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)은 단일 [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)에만 존재할 수 있습니다. [용어를 정의](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/blob/3a3cd54dd076b18bdff1d43b3e342897f8704c23/microsoft-365/contentunderstanding/skos-format-reference.md#term)하는 경우 SharePoint에서 해당 속성이 필요합니다.
+이를 사용하여 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 매핑합니다. [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)은 단일 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)에만 존재할 수 있습니다. [용어를 정의](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/blob/3a3cd54dd076b18bdff1d43b3e342897f8704c23/microsoft-365/contentunderstanding/skos-format-reference.md#term)하는 경우 SharePoint에서 해당 속성이 필요합니다.
 
 ## <a name="required-labels"></a>필수 레이블
 
@@ -138,7 +138,7 @@ Term에는 기본 언어로 레이블이 하나 이상 포함될 수 있으며 �
 
 **sharepoint-taxonomy:defaultLabel**
 
-[Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)에 대한 필수 매개 변수인 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)에 대한 기본 어휘 레이블을 사용합니다. [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)을 시각적으로 나타내기 위해 사용합니다.
+[Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)에 대한 필수 매개 변수인 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)에 대한 기본 어휘 레이블을 사용합니다. [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 시각적으로 나타내기 위해 사용합니다.
 
 DefaultLabel을 정의하는 구문은 다음과 같습니다.
 
@@ -146,13 +146,13 @@ DefaultLabel을 정의하는 구문은 다음과 같습니다.
 ex:TermA    sharepoint-taxonomy:defaultLabel    “Term A”@en-us.
 ```
 
-DefaultLabel에는 문자열 및 언어 태그의 두 부분이 포함되어 있습니다. 언어는 [TermStore](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore) 작업 언어 중 하나여야 합니다. DefaultLabel은 동일한 계층 수준에서 동일한 [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)의 모든 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)에 대해 고유해야 합니다.
+DefaultLabel에는 문자열 및 언어 태그의 두 부분이 포함되어 있습니다. 언어는 [TermStore](/dotnet/api/microsoft.sharepoint.taxonomy.termstore) 작업 언어 중 하나여야 합니다. DefaultLabel은 동일한 계층 수준에서 동일한 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)의 모든 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)에 대해 고유해야 합니다.
 
 **sharepoint-taxonomy:termSetName**
 
 현재 TermSet 개체의 이름을 가져오고 설정합니다.
 
-[TermStore](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore) 작업 언어에 [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 대한 어휘 레이블입니다. [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 대한 필수 매개 변수입니다. [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)을 시각적으로 나타내기 위해 사용합니다.
+[TermStore](/dotnet/api/microsoft.sharepoint.taxonomy.termstore) 작업 언어에 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 대한 어휘 레이블입니다. [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 대한 필수 매개 변수입니다. [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)을 시각적으로 나타내기 위해 사용합니다.
 
 termSetName을 정의하는 구문은 다음과 같습니다.
 
@@ -164,7 +164,7 @@ ex:TermA    sharepoint-taxonomy:TermSetName    “Term Set A”@en-us.
 
 현재 TermSet 개체의 속성 이름을 가져오고 설정합니다.
 
-이는 [TermStore](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termstore) 작업 언어에서 sharepoint-taxonomy:SharedCustomPropertyForTerm, sharepoint-taxonomy:LocalCustomPropertyForTerm and sharepoint-taxonomy:CustomPropertyForTermSet에 대한 어휘 레이블입니다.
+이는 [TermStore](/dotnet/api/microsoft.sharepoint.taxonomy.termstore) 작업 언어에서 sharepoint-taxonomy:SharedCustomPropertyForTerm, sharepoint-taxonomy:LocalCustomPropertyForTerm and sharepoint-taxonomy:CustomPropertyForTermSet에 대한 어휘 레이블입니다.
 
 sharepoint-taxonomy:propertyName은 CustomProperty의 키로 간주됩니다.
 
@@ -180,7 +180,7 @@ ex:SharedCustomProperty1    sharepoint-taxonomy:propertyName    “Shared Custom
 
 **sharepoint-taxonomy:otherLabel**
 
-[Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)에 대한 대체 어휘 레이블입니다. 
+[Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)에 대한 대체 어휘 레이블입니다. 
 
 otherLabel을 정의하는 구문은 다음과 같습니다.
 
@@ -194,7 +194,7 @@ ex:TermA    sharepoint-taxonomy:otherLabel    “Term A”@en-us.
 
 **sharepoint-taxonomy:parent**
 
-이는 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)을 다른 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)과 계층적으로 관련되게 합니다. [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)은 [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)의 최상위 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)이 될 수 있지만 최상위 Term이 아닌 경우에는 상위 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)이 있어야 합니다. 
+이는 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 다른 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)과 계층적으로 관련되게 합니다. [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)은 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)의 최상위 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)이 될 수 있지만 최상위 Term이 아닌 경우에는 상위 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)이 있어야 합니다. 
 
 상위 항목을 정의하는 구문은 다음과 같습니다.
 
@@ -208,7 +208,7 @@ ex:TermA1    sharepoint-taxonomy:parent    ex:TermA.
 
 개체는 하나 이상의 하위 TermSet 인스턴스를 포함하며 TermSet 속성을 통해 액세스할 수 있습니다. 이 클래스는 새 하위 TermSet 개체를 만드는 방법을 제공합니다. 하위 Term 및 TermSet 인스턴스 편집 권한은 그룹에서 지정됩니다. 
 
-이는 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)을 다른 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)과 계층적으로 관련되게 합니다.
+이는 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 다른 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)과 계층적으로 관련되게 합니다.
 
 하위 항목을 정의하는 구문은 다음과 같습니다.
 
@@ -224,7 +224,7 @@ ex:TermA    sharepoint-taxonomy:child    ex:TermA1.
 
 **sharepoint-taxonomy:description**
 
-이는 [SharePoint 분류](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy) 용어 엔터티에 대한 자세한 설명입니다. 
+이는 [SharePoint 분류](/dotnet/api/microsoft.sharepoint.taxonomy) 용어 엔터티에 대한 자세한 설명입니다. 
 
 설명을 추가하는 구문은 다음과 같습니다.
 
@@ -236,7 +236,7 @@ ex:TermA    sharepoint-taxonomy:description    “Term A is the top level term o
 
 읽기 전용 사전에서 현재 Term 개체에 대한 사용자 지정 속성 개체의 컬렉션을 가져옵니다.
 
-사용자 지정 속성은 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) 또는 [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 대해 정의할 수 있는 키 값 쌍으로서 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) 또는 [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 대해 상세히 설명합니다. SharePoint는 propertyName에 대한 도움말이 있는 사용자 지정 속성의 키를 지정합니다.
+사용자 지정 속성은 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term) 또는 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 대해 정의할 수 있는 키 값 쌍으로서 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term) 또는 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)에 대해 상세히 설명합니다. SharePoint는 propertyName에 대한 도움말이 있는 사용자 지정 속성의 키를 지정합니다.
 
 **sharepoint-taxonomy:CustomPropertyForTermSet**
 
@@ -251,7 +251,7 @@ ex:TermSetA    ex:CustomProp1    “Red”@en-us.
 
 **sharepoint-taxonomy:SharedCustomPropertyForTerm**
 
-[Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)에 대한 사용자 지정 속성을 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)함께 사용해야 하는 경우 해당 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)을 다른 위치에서 재사용한 다음 SharedCustomPropertyForTerm에서 정의해야 합니다.
+[Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)에 대한 사용자 지정 속성을 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)함께 사용해야 하는 경우 해당 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 다른 위치에서 재사용한 다음 SharedCustomPropertyForTerm에서 정의해야 합니다.
 
 이를 정의하는 구문은 다음과 같습니다.
 
@@ -263,7 +263,7 @@ ex:TermA    ex:CustomProp2    “5 cm”@en-us.
 ```
 **sharepoint-taxonomy:LocalCustomPropertyForTerm**
 
-[Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)에 대한 사용자 지정 속성을 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)함께 사용하지 않아야 하는 경우 해당 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term)을 다른 위치에서 재사용한 다음 LocalCustomPropertyForTerm에서 정의해야 합니다.
+[Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)에 대한 사용자 지정 속성을 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)함께 사용하지 않아야 하는 경우 해당 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term)을 다른 위치에서 재사용한 다음 LocalCustomPropertyForTerm에서 정의해야 합니다.
 
 이를 정의하는 구문은 다음과 같습니다.
 
@@ -280,7 +280,7 @@ ex:TermA    ex:CustomProp3    “5 cm”@en-us.
 
 **sharepoint-taxonomy:isAvailableForTagging**
 
-이 속성을 사용하여 [Term](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.term) 또는 [TermSet](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy.termset)을 SharePoint 목록 및 라이브러리에서 사용할 수 있는지 여부를 지정할 수 있습니다.  
+이 속성을 사용하여 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term) 또는 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset)을 SharePoint 목록 및 라이브러리에서 사용할 수 있는지 여부를 지정할 수 있습니다.  
 
 이에 대한 구문은 다음과 같습니다.
 
@@ -310,7 +310,7 @@ propertyName|속성 레이블이 있음|SharedCustomPropertyForTerm, LocalCustom
 |LocalCustomPropertyForTerm|로컬 사용자 지정 속성 있음|용어|부울, 문자열, 정수, 소수, 실수|
 |CustomPropertyForTermSet|사용자 지정 속성 있음|TermSet|부울, 문자열, 정수, 소수, 실수|
 
-[SKOS](https://www.w3.org/TR/skos-primer/)는 [SharePoint 분류](https://docs.microsoft.com/dotnet/api/microsoft.sharepoint.taxonomy)에서 허용하지 않는 유효한 시나리오를 제공합니다.
+[SKOS](https://www.w3.org/TR/skos-primer/)는 [SharePoint 분류](/dotnet/api/microsoft.sharepoint.taxonomy)에서 허용하지 않는 유효한 시나리오를 제공합니다.
 
 - 계층 중복 - [SKOS](https://www.w3.org/TR/skos-primer/) 개념이 여러 광범위한 개념에 동시에 부여될 수 있지만 sharepoint-taxonomy:Term은 하나의 sharepoint-taxonomy:parent만 가지므로 Term의 주기적은 의존은 허용되지 않습니다.
 - 분리된 용어는 SharePoint 분류에서 허용되지 않습니다. 모든 sharepoint-taxonomy:Term은 sharepoint-taxonomy:parent를 가지거나 sharepoint-taxonomy:topLevelTermOf a TermSet이어야 합니다.
@@ -321,4 +321,3 @@ propertyName|속성 레이블이 있음|SharedCustomPropertyForTerm, LocalCustom
 ## <a name="see-also"></a>참고 항목
 
 [SKOS 기반 형식을 사용하여 용어 집합 가져오기](import-term-set-skos.md)
-

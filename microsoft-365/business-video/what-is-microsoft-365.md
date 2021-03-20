@@ -20,12 +20,12 @@ search.appverid:
 description: Microsoft 365 Business Premium 기능에 대해 알아보세요.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 2183c3c865b618d71e15b366f7eaed091101bbc7
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: b92e3790e83c5da62d65e6c98bf448d33862df54
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421626"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913541"
 ---
 # <a name="microsoft-365-business-premium"></a>Microsoft 365 Business Premium
 
@@ -46,4 +46,4 @@ Microsoft 365 Business Premium에 가입하면 Microsoft 365 Business Standard�
 | 장치 보안 | 복사 및 붙여넣기와 같은 모바일 액세스를 제한하여 장치에서 작업 파일을 보호할 수 있습니다. 또한 장치를 분실하거나 도난당한 경우에 등록된 모바일 장치에서 비즈니스 데이터를 선택적으로 지울 수 있습니다. |
 | 추가 보안 기능 | Microsoft 365 Business Premium의 고급 기능을 사용하여 사이버 위협으로부터 비즈니스를 보호하고 중요한 정보를 보호할 수 있습니다. 이러한 기능에는 Office 365 Advanced Threat Protection, DLP(데이터 손실 방지 정책), Exchange Online archiving, Azure Information Protection 및 Intune이 포함됩니다. |
 
-자세한 세부 내용은 [Microsoft 365 Business 콘텐츠](https://docs.microsoft.com/microsoft-365/business/)를 참조하세요.
+자세한 세부 내용은 [Microsoft 365 Business 콘텐츠](../business/index.yml)를 참조하세요.

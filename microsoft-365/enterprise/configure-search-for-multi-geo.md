@@ -12,13 +12,13 @@ ms.collection: Strat_SP_gtc
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Multi-Geo 환경에서 검색을 구성하는 방법을 알아보고, 비즈니스용 OneDrive와 같은 일부 클라이언트만 다중 위치 환경에서 결과를 반환할 수 있습니다.
-ms.openlocfilehash: e213e93cfbc967a723b4d27f4b36a83fe6687da9
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+description: Multi-Geo 환경에서 검색을 구성하는 방법을 학습합니다. 비즈니스용 OneDrive와 같은 일부 클라이언트만 다중 위치 환경에서 결과를 반환할 수 있습니다.
+ms.openlocfilehash: b3a96b1d0652cb954c58ae410583befa078460d9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547155"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911165"
 ---
 # <a name="configure-search-for-microsoft-365-multi-geo"></a>Microsoft 365 Multi-Geo 검색 구성
 
@@ -84,7 +84,7 @@ Multi-Geo 환경이 설정된 후에 각 검색 센터는 자체 지리적 위�
 <tr class="odd">
 <td align="left"></td>
 <td align="left">Multi-Geo 검색은 수치 구체화에 대한 동적 버킷팅을 지원하지 않습니다.</td>
-<td align="left">숫자 <a href="https://docs.microsoft.com/sharepoint/dev/general-development/query-refinement-in-sharepoint">구체화에 "Discretize"</a> 매개 변수를 사용합니다.</td>
+<td align="left">숫자 <a href="/sharepoint/dev/general-development/query-refinement-in-sharepoint">구체화에 "Discretize"</a> 매개 변수를 사용합니다.</td>
 </tr>
 <tr class="even">
 <td align="left">문서 ID</td>
@@ -98,7 +98,7 @@ Multi-Geo 환경이 설정된 후에 각 검색 센터는 자체 지리적 위�
 </tr>
 <tr class="even">
 <td align="left">Hybrid search</td>
-<td align="left"><a href="https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint">클라우드 하이브리드 검색</a>이 있는 하이브리드 SharePoint 환경에서는 온-프레미스 콘텐츠가 중앙 위치의 Microsoft 365 인덱스에 추가됩니다.</td>
+<td align="left"><a href="/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint">클라우드 하이브리드 검색</a>이 있는 하이브리드 SharePoint 환경에서는 온-프레미스 콘텐츠가 중앙 위치의 Microsoft 365 인덱스에 추가됩니다.</td>
 <td align="left"></td>
 </tr>
 </tbody>
@@ -168,7 +168,7 @@ Multi-Geo 환경이 설정된 후에 각 검색 센터는 자체 지리적 위�
 <span id="_Get_custom_search" class="anchor"><span id="_Ref501388387" class="anchor"></span></span>
 ## <a name="get-custom-search-applications-to-show-results-from-all-or-some-geo-locations"></a>사용자 지정 검색 응용 프로그램에서 전체 또는 일부 지리적 위치의 결과를 표시하도록 지정
 
-사용자 지정 검색 응용 프로그램은 SharePoint 검색 REST API에 대한 요청을 통해 쿼리 매개 변수를 지정하여 전체 또는 일부 지리적 위치에서 결과를 가져옵니다. 쿼리 매개 변수에 따라, 쿼리는 모든 지리적 위치 또는 일부 지리적 위치로 팬아웃됩니다. 예를 들어, 관련 정보를 찾기 위해 지리적 위치의 하위 집합만 쿼리하면 될 경우 팬아웃을 이러한 위치로만 제어할 수 있습니다. 요청이 성공하면 SharePoint 검색 REST API가 응답 데이터를 반환됩니다.
+사용자 지정 검색 응용 프로그램은 SharePoint 검색 REST API에 대한 요청과 함께 쿼리 매개 변수를 지정하여 전체 또는 일부 지리적 위치에서 결과를 얻습니다. 쿼리 매개 변수에 따라 쿼리는 모든 지리적 위치 또는 일부 지리적 위치로 팬아웃됩니다. 예를 들어 관련 정보를 찾기 위해 지리적 위치의 하위 집합만 쿼리해야 하는 경우 이러한 위치로만 팬아웃을 제어할 수 있습니다. 요청이 성공하면 SharePoint 검색 REST API는 응답 데이터를 반환합니다.
 
 ### <a name="requirement"></a>요구 사항
 
@@ -205,7 +205,7 @@ MultiGeoSearchConfiguration -**EnableMultiGeoSearch** 가 **true** 일 때 쿼�
 </tbody>
 </table>
 
-DataLocation 또는 EndPoint를 생략하거나 DataLocation이 중복되면 요청이 실패합니다. [Microsoft Graph를 사용하여 테넌트의 지리적 위치 끝점에 대한 정보를 얻을 수 있습니다](https://docs.microsoft.com/sharepoint/dev/solution-guidance/multigeo-discovery).
+DataLocation 또는 EndPoint를 생략하거나 DataLocation이 중복되면 요청이 실패합니다. [Microsoft Graph를 사용하여 테넌트의 지리적 위치 끝점에 대한 정보를 얻을 수 있습니다](/sharepoint/dev/solution-guidance/multigeo-discovery).
 
 ### <a name="response-data"></a>응답 데이터
 

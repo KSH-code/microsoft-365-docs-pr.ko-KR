@@ -21,19 +21,19 @@ ms.custom:
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: 21aad23b849db76acb1bcc98bb37ff0d8b6fc1ce
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 44cb7b09c76ee5e49d2f556df104e55150212f30
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741448"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911785"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>구독 결제 방법
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 

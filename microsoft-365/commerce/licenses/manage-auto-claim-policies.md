@@ -18,12 +18,12 @@ ms.custom:
 - commerce
 search.appverid:
 - MET150
-ms.openlocfilehash: c1715d2420315c6e645303c959512a45d47fddfe
-ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
+ms.openlocfilehash: bf3f79e425b3f7cd86f1a5ab95a337ef5127e345
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50759213"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911474"
 ---
 # <a name="manage-auto-claim-policies"></a>자동 클레임 정책 관리
 
@@ -43,7 +43,7 @@ ms.locfileid: "50759213"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-자동 클레임 정책을 만들고 관리하려면 전역, 청구 또는 사용자 관리자 되어야 합니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+자동 클레임 정책을 만들고 관리하려면 전역 관리자 되어야 합니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
 ## <a name="turn-the-auto-claim-policy-feature-on-or-off"></a>자동 클레임 정책 기능 켜기 또는 끄기
 

@@ -19,12 +19,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 청구 알림 전자 메일 및 송장 첨부 파일을 받는 사람 관리 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f0811c5d027d042b5114c9e05c698dab1e08763b
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 8997a4d3ca575c60214adbedccc018e6768850cd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515230"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911857"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>청구 알림 및 송장 첨부 파일 관리
 
@@ -109,7 +109,7 @@ To stop receiving the invoice attachment at any time, follow the steps above and
 - 청구 프로필 참가자
 - 송장 관리자
 
-청구 프로필 역할 및 해당 역할을 관리하는 방법에 대한 자세한 내용은 Azure에서 Microsoft 고객 계약 관리 역할 이해를 [참조하세요.](https://docs.microsoft.com/azure/cost-management-billing/manage/understand-mca-roles)
+청구 프로필 역할 및 해당 역할을 관리하는 방법에 대한 자세한 내용은 Azure에서 Microsoft 고객 계약 관리 역할 이해를 [참조하세요.](/azure/cost-management-billing/manage/understand-mca-roles)
 
 조직의 청구 알림을 받는 사용자를 변경하기 위해 다음 단계에 따라 사용자에게 할당된 역할을 변경합니다.
 
@@ -127,6 +127,6 @@ To stop receiving the invoice attachment at any time, follow the steps above and
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[청구서 또는 송장](view-your-bill-or-invoice.md) 보기(문서)\
+[청구서 또는 송장 보기](view-your-bill-or-invoice.md)(문서)\
 [비즈니스용 Microsoft 365의](understand-your-invoice2.md) 청구서 또는 송장 이해(문서)\
 [사용자 추가 및](../../admin/add-users/add-users.md) 동시에 라이선스 할당(문서)

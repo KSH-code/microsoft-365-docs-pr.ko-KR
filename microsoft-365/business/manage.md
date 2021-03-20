@@ -21,21 +21,21 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: 비즈니스용 Microsoft 365 관련 관리 작업, 모바일 장치, Windows 10 PC 및 다양한 작업을 관리하는 방법을 설명합니다.
-ms.openlocfilehash: 0534356f4ffc4a05504121d96edbc381e00632e9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: 비즈니스용 Microsoft 365 관리 작업, 모바일 장치, Windows 10 PC 및 다양한 작업을 관리하는 방법을 설명합니다.
+ms.openlocfilehash: d4136298a1305f12602e0ce258a440dd72e8cd64
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403041"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913177"
 ---
 # <a name="manage-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 관리
 
 ## <a name="general-microsoft-365-for-business-admin-tasks"></a>일반 비즈니스용 Microsoft 365 관리 작업
 
-Office 365의 관리자 콘텐츠는 대부분 비즈니스용 Microsoft 365에도 적용됩니다. [](https://docs.microsoft.com/office365/admin/admin-home)
+Office 365의 관리 콘텐츠는 대부분 비즈니스용 Microsoft 365에도 적용됩니다. [](/office365/admin/admin-home)
 
-- [비즈니스용 Microsoft 365에 사용자 추가](add-users-m365b.md)
+- [비즈니스용 Microsoft 365에 더 많은 사용자 추가](../admin/add-users/add-users.md)
     
 - [정책 및 장치 보기](view-policies-and-devices.md)
     
@@ -63,11 +63,11 @@ Office 365의 관리자 콘텐츠는 대부분 비즈니스용 Microsoft 365에�
     
 - [Windows 10 장치에서 장치 보호 설정 설정하기](protection-settings-for-windows-10-pcs.md)
     
-    작동 여부를 확인하려면 Windows 10 장치에서 장치 보호 설정 유효성 [검사를 참조하세요.](validate-settings-on-windows-10-pcs.md) 
+    이 작동 여부를 확인하려면 Windows 10 장치에서 장치 보호 설정 유효성 [검사를 참조하세요.](validate-settings-on-windows-10-pcs.md) 
     
 - [Windows 10 장치에서 응용 프로그램 보호 설정 설정하기](protection-settings-for-windows-10-devices.md)
     
-    작동 여부를 확인하려면 [Windows 10 PC에서](validate-protection-settings-on-windows-10-pcs.md)앱 보호 설정 유효성 검사를 참조하세요. 
+    이 작동 여부를 확인하려면 Windows 10 PC에서 앱 보호 설정 유효성 [검사를 참조하세요.](validate-protection-settings-on-windows-10-pcs.md) 
     
 - [장치에서 회사 데이터 제거](remove-company-data.md)
     
@@ -91,7 +91,7 @@ Office 365의 관리자 콘텐츠는 대부분 비즈니스용 Microsoft 365에�
     
 ## <a name="set-up-and-prerequisite-information"></a>설정 및 선행 준비 정보
 
-- [비즈니스용 Microsoft 365를 사용하여 디바이스의 데이터 보호를 위한 선행 준비](pre-requisites-for-data-protection.md)
+- [비즈니스용 Microsoft 365를 사용하여 장치에서 데이터를 보호하기 위한 선행 준비](pre-requisites-for-data-protection.md)
     
 - [설치 마법사를 사용하여 비즈니스용 Microsoft 365 설정](set-up.md)
     

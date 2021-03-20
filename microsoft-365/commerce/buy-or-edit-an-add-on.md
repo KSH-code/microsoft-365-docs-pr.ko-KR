@@ -19,19 +19,19 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - Commerce
-ms.openlocfilehash: 22868021fec978f8f55c47adca82438f1ae51029
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: ea9cdb6edf3aaac1575b1d2b14790bd28876ee26
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405867"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911649"
 ---
 # <a name="buy-or-manage-add-ons"></a>추가 기능 구입 또는 관리
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true)를 참조하세요.
+> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
 
 ::: moniker-end
 
@@ -50,7 +50,7 @@ ms.locfileid: "50405867"
 
 다음 단계에 따라 추가 기능을 찾아서 구입합니다. 목록에는 사용할 수 있는 추가 기능만 포함됩니다. 이 목록은 현재 활성 구독 및 이미 있는 다른 모든 기존 추가 기능을 기반으로 합니다. 추가 기능을 목록에 없는 경우 구입할 수 없습니다.
 
-비즈니스용 Skype 추가 기능에 대한 자세한 내용은 [비즈니스용 Skype 및 Microsoft Teams 추가 기능 라이선스](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)를 참조하세요.
+비즈니스용 Skype 추가 기능에 대한 자세한 내용은 [비즈니스용 Skype 및 Microsoft Teams 추가 기능 라이선스](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)를 참조하세요.
 
 1. 관리 센터에서 청구 구매  서비스 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">페이지로</a> 이동합니다.
 2. 서비스 구매 페이지의  아래쪽에 있는  추가 기능 섹션에서 구입하려는 추가 기능을 찾고 세부 **정보를 선택합니다.**

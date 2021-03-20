@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 랜섬웨어를 방지하기 위한 전자 메일 규칙을 만드는 방법을 배워야 합니다.
-ms.openlocfilehash: 0d8b4a9de881f47752ac0bfbf778453d6ee73046
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 34590945b13408cf3521f000d703bd37e04ba73f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422258"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913553"
 ---
 # <a name="create-email-rules-to-prevent-ransomware"></a>랜섬웨어를 방지하기 위한 전자 메일 규칙 만들기
 
@@ -43,7 +43,7 @@ Microsoft 365는 JavaScript, 배치 및 실행 파일과 같은 잠재적으로 
 1. 다음의 **경우 이 규칙 적용에서** **첨부 파일 을** 선택한 다음 다음 단어를 포함하는 파일 **확장명을 선택합니다.**
 1. 단어 또는 구 지정 아래 상자에 규칙을 적용할 파일 확장명(예: 매크로를 포함할 수 있는 파일 확장명)을 입력합니다. 더하기(+) 기호를 사용하여 한 번씩 추가합니다.
 
-    랜섬웨어로부터 보호를 읽어 파일 형식에 대해 자세히 [알아보십시오.](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data#ransomware)
+    랜섬웨어로부터 보호를 읽어 파일 형식에 대해 자세히 [알아보십시오.](../admin/security-and-compliance/secure-your-business-data.md#ransomware)
 
 1. 아래로 스크롤하여 목록을 검토한 다음 확인 을 **선택합니다.**
 1. 새 **규칙 페이지에서** 조건 추가 **를** 선택한 다음 다음으로 이동에서 **조건을 선택합니다.**

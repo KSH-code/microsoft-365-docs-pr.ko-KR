@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스를 위한 온라인 모임을 호스팅하는 방법을 알아보하세요.
-ms.openlocfilehash: 18a142700e8b83545219ddabf17be7d562037140
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 85163990d65126cc3d9d6c11627e63aa975b2924
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422318"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913613"
 ---
 # <a name="host-online-meetings-for-your-business"></a>비즈니스를 위한 온라인 모임 호스트
 
@@ -75,7 +75,7 @@ Microsoft Teams에서 채팅을 모임으로 쉽게 변환할 수 있습니다. 
 
 ## <a name="related-articles"></a>관련 문서
 
-[Microsoft Teams의 모임](https://docs.microsoft.com/microsoftteams/tutorial-meetings-in-teams)
+[Microsoft Teams의 모임](/microsoftteams/tutorial-meetings-in-teams)
 
 [가상 모임을 보다 효율적으로 만드는 6가지 방법](https://products.office.com/en-us/business/articles/6-ways-to-make-virtual-meetings-more-efficient)
 

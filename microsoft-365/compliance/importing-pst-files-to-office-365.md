@@ -20,12 +20,12 @@ ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 ms.custom:
 - seo-marvel-apr2020
 description: 보안 및 준수 센터에서 가져오기 서비스를 사용하여 전자 메일 데이터 (PST 파일)를 사용자 사서함에 대량으로 가져오는 방법에 대해 알아보세요.
-ms.openlocfilehash: 36cf04722b13f3d1033ddae54e32307497d9194b
-ms.sourcegitcommit: 37da941919036a714da42eaa039682ccbe0da670
+ms.openlocfilehash: 6d0bca6d76a0eccb9bc8181e73f2c36c51acaf77
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860735"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911322"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files"></a>조직의 PST 파일을 가져오기 개요
 
@@ -81,7 +81,7 @@ ms.locfileid: "46860735"
     
 5. **사서함으로 가져올 PST 데이터 필터링** - 가져오기 작업을 만든 후 (또한 드라이브 배송 작업의 PST 파일이 Azure Storage 위치로 업로드된 후) Microsoft 365에서 PST 파일의 데이터를 PST 파일에 포함된 다양한 메시지 유형과 항목의 보존 기간을 식별하는 방법으로 안전하고 꼼꼼하게 분석합니다. 분석이 완료되고 데이터를 가져올 준비가 되면 PST 파일에 포함된 모든 데이터를 가져오거나 가져올 데이터를 제어하는 필터를 설정하여 가져온 데이터를 트리밍할 수 있습니다. 
     
-6. **PST 가져오기 작업 시작하기** - 가져오기 작업이 시작되면 Microsoft 365는 PST 가져오기 매핑 파일의 정보를 사용하여 Azure Storage 위치의 PST 파일을 사용자 사서함으로 가져옵니다. 가져오기 작업에 대한 상태 정보(가져오는 각 PST 파일에 대한 정보 포함)는 보안 & 준수 센터의 **PST 파일 가져오기** 페이지에 표시됩니다. 가져오기 작업이 완료되면 해당 작업의 상태가 **완료**로 설정됩니다.
+6. **PST 가져오기 작업 시작하기** - 가져오기 작업이 시작되면 Microsoft 365는 PST 가져오기 매핑 파일의 정보를 사용하여 Azure Storage 위치의 PST 파일을 사용자 사서함으로 가져옵니다. 가져오기 작업에 대한 상태 정보(가져오는 각 PST 파일에 대한 정보 포함)는 보안 & 준수 센터의 **PST 파일 가져오기** 페이지에 표시됩니다. 가져오기 작업이 완료되면 해당 작업의 상태가 **완료** 로 설정됩니다.
   
 ## <a name="why-import-email-data-to-microsoft-365"></a>Microsoft 365로 전자 메일 데이터를 가져오는 이유는 무엇인가요?
 
@@ -93,11 +93,11 @@ ms.locfileid: "46860735"
     
   - [보관 사서함](enable-archive-mailboxes.md) 및 [무제한 보관](unlimited-archiving.md)을 사용하여 사용자에게 추가 사서함 저장 공간을 제공합니다. 
     
-  - [소송 증거 유지](https://go.microsoft.com/fwlink/?linkid=841243)에 사서함을 두어 내용을 보존합니다. 
+  - [소송 증거 유지](./create-a-litigation-hold.md)에 사서함을 두어 내용을 보존합니다. 
     
   - [콘텐츠 검색 도구](content-search.md)를 사용하여 사서함 콘텐츠를 검색합니다. 
     
-  - [eDiscovery 사례](ediscovery-cases.md)를 사용하여 조직의 법적 조사를 관리합니다. 
+  - [eDiscovery 사례](./get-started-core-ediscovery.md)를 사용하여 조직의 법적 조사를 관리합니다. 
     
   - 보안 & 준수 센터의 [보존 정책](retention.md)을 사용하여 사서함 콘텐츠의 보존 기간을 제어하고, 보존 기간이 만료되면 콘텐츠를 삭제합니다. 
 
@@ -111,13 +111,13 @@ ms.locfileid: "46860735"
 
 조직에서 SharePoint 사이트 및 OneDrive 계정으로 파일 및 문서를 가져올 수도 있습니다. 자세한 내용은 다음 문서를 참조하십시오.
 
-- [SharePoint Online으로 마이그레이션](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online)
+- [SharePoint Online으로 마이그레이션](/sharepointmigration/migrate-to-sharepoint-online)
 
-- [SharePoint 마이그레이션 도구 소개](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)
+- [SharePoint 마이그레이션 도구 소개](/sharepointmigration/introducing-the-sharepoint-migration-tool)
 
-- [PowerShell을 사용하여 SharePoint Online으로 마이그레이션](https://docs.microsoft.com/sharepointmigration/overview-spmt-ps-cmdlets)
+- [PowerShell을 사용하여 SharePoint Online으로 마이그레이션](/sharepointmigration/overview-spmt-ps-cmdlets)
 
-- [Azure Data Box를 사용하여 파일 공유 콘텐츠를 SharePoint Online으로 마이그레이션](https://docs.microsoft.com/sharepointmigration/how-to-migrate-file-share-content-to-spo-using-azuredatabox)
+- [Azure Data Box를 사용하여 파일 공유 콘텐츠를 SharePoint Online으로 마이그레이션](/sharepointmigration/how-to-migrate-file-share-content-to-spo-using-azuredatabox)
 
 ## <a name="frequently-asked-questions-about-importing-pst-files"></a>PST 파일을 가져오는 방법에 대한 자주 묻는 질문과 대답
   
@@ -131,7 +131,7 @@ ms.locfileid: "46860735"
 
  **Office 365 가져오기 서비스에서 가져오기 작업을 만드는 데 필요한 권한은 무엇입니까?**
   
-PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에서 사서함 가져오기/내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고, 사서함 가져오기 내보내기 역할을 할당한 다음 구성원으로 자신이나 다른 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://go.microsoft.com/fwlink/p/?LinkId=730688)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조하세요.
+PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에서 사서함 가져오기/내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고, 사서함 가져오기 내보내기 역할을 할당한 다음 구성원으로 자신이나 다른 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조하세요.
   
 또한 보안 & 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족되어야 합니다.
   
@@ -156,7 +156,7 @@ Using network upload to import PST files is free.
   
  **Office 365로 가져올 수 있는 PST 파일 형식의 버전은 어떻게 되나요?**
   
-PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유니코드 PST 파일 형식을 사용하는 파일을 가져오는 것이 좋습니다. 하지만 DBCS(더블바이트 문자 집합)를 사용하는 언어를 위한 파일 형식 등 ANSI PST를 사용하는 파일도 Office 365로 가져올 수 있습니다. ANSI PST 파일 가져오기에 대한 자세한 내용은 [네트워크 업로드를 사용하여 PST 파일을 Office 365로 가져오기](https://go.microsoft.com/fwlink/p/?LinkId=823074)의 4단계를 참조하세요.
+PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유니코드 PST 파일 형식을 사용하는 파일을 가져오는 것이 좋습니다. 하지만 DBCS(더블바이트 문자 집합)를 사용하는 언어를 위한 파일 형식 등 ANSI PST를 사용하는 파일도 Office 365로 가져올 수 있습니다. ANSI PST 파일 가져오기에 대한 자세한 내용은 [네트워크 업로드를 사용하여 PST 파일을 Office 365로 가져오기](./use-network-upload-to-import-pst-files.md)의 4단계를 참조하세요.
   
 또한 Outlook 2007 이상 버전의 PST 파일도 Office 365로 가져올 수 있습니다.
   
@@ -168,7 +168,7 @@ PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유
   
  **PST 파일을 사서함으로 가져오는 데 얼마나 걸리나요?**
   
-트워크 용량에 따라 달라지지만 1TB(테라바이트)의 데이터를 조직의 Azure Storage 영역에 업로드하는 데 일반적으로 몇 시간이 걸립니다. PST 파일을 Azure Storage 영역으로 복사한 후 하루당 24GB 이상의 속도로 PST 파일을 Microsoft 365 사서함으로 가져올 수 있습니다. 이 속도가 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 Office 365로 가져오는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.
+트워크 용량에 따라 달라지지만 1TB(테라바이트)의 데이터를 조직의 Azure Storage 영역에 업로드하는 데 일반적으로 몇 시간이 걸립니다. PST 파일을 Azure Storage 영역으로 복사한 후 하루당 24GB 이상의 속도로 PST 파일을 Microsoft 365 사서함으로 가져올 수 있습니다. 이 속도가 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 Office 365로 가져오는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.
   
 다른 PST 파일을 다른 대상 사서함으로 가져오는 경우 가져오기 프로세스가 동시에 수행됩니다. 즉, 각 PST/사서함 쌍을 동시에 가져올 수 있습니다. 마찬가지로, 여러 PST 파일을 같은 사서함으로 동시에 가져올 수 있습니다.
   
@@ -204,7 +204,7 @@ PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 
 
  **Office 365 가져오기 서비스에서 가져오기 작업을 만드는 데 필요한 권한은 무엇입니까?**
   
-PST 파일을 Microsoft 365 사서함으로 가져오려면 사서함 가져오기 내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고, 사서함 가져오기 내보내기 역할을 할당한 다음 구성원으로 자신이나 다른 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://go.microsoft.com/fwlink/p/?LinkId=730688)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조하세요.
+PST 파일을 Microsoft 365 사서함으로 가져오려면 사서함 가져오기 내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고, 사서함 가져오기 내보내기 역할을 할당한 다음 구성원으로 자신이나 다른 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조하세요.
   
 또한 보안 & 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족되어야 합니다.
   
@@ -230,7 +230,7 @@ PST 파일을 Microsoft 365로 가져오기 위한 드라이브 배송은 Micros
   
  **파일을 Microsoft 365로 가져오기 위해 드라이브 배송을 사용하는 경우 그 가격은 얼마인가요?**
   
-Microsoft 365 사서함으로 PST 파일을 가져오기 위해 드라이브 배송을 사용하는 비용은 1GB의 데이터당 2,000원입니다. 예를 들어 1,000GB(1TB)의 PST 파일이 포함된 하드 드라이브를 배송하는 경우 비용은 2,000,000원입니다. 파트너와 협의하여 가져오기 요금을 지불할 수 있습니다. 파트너를 찾는 방법에 대한 내용은 [Microsoft 파트너 또는 대리점 찾기](https://go.microsoft.com/fwlink/p/?LinkId=785197)를 참조하세요.
+Microsoft 365 사서함으로 PST 파일을 가져오기 위해 드라이브 배송을 사용하는 비용은 1GB의 데이터당 2,000원입니다. 예를 들어 1,000GB(1TB)의 PST 파일이 포함된 하드 드라이브를 배송하는 경우 비용은 2,000,000원입니다. 파트너와 협의하여 가져오기 요금을 지불할 수 있습니다. 파트너를 찾는 방법에 대한 내용은 [Microsoft 파트너 또는 대리점 찾기](../admin/manage/find-your-partner-or-reseller.md)를 참조하세요.
   
  **드라이브 배송이 가능한 하드 드라이브는 어떤 종류인가요?**
   
@@ -253,7 +253,7 @@ Microsoft 데이터 센터에 하드 드라이브가 도착하면 PST 파일을 
   
  **PST 파일을 사서함으로 가져오는 데 얼마나 걸리나요?**
   
-PST 파일이 Azure Storage 영역에 업로드되면 Microsoft 365에서 PST 파일의 데이터를 안전한 방법으로 분석하여 항목 경과 시간과 PST 파일에 포함된 다양한 메시지 유형을 식별합니다. 분석이 완료되면 PST 파일의 모든 데이터를 가져오거나 필터를 설정하여 가져온 데이터를 제어할 수 있는 옵션이 나타납니다. 가져오기 작업을 시작하면 하루당 최소 24GB의 속도로 PST 파일을 Microsoft 365 사서함으로 가져옵니다. 이 속도가 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 Microsoft 365로 가져오는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [Microsoft 365로 여러 전자 메일 계정을 마이그레이션하는 방법](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.
+PST 파일이 Azure Storage 영역에 업로드되면 Microsoft 365에서 PST 파일의 데이터를 안전한 방법으로 분석하여 항목 경과 시간과 PST 파일에 포함된 다양한 메시지 유형을 식별합니다. 분석이 완료되면 PST 파일의 모든 데이터를 가져오거나 필터를 설정하여 가져온 데이터를 제어할 수 있는 옵션이 나타납니다. 가져오기 작업을 시작하면 하루당 최소 24GB의 속도로 PST 파일을 Microsoft 365 사서함으로 가져옵니다. 이 속도가 요구 사항을 충족하지 않는 경우 전자 메일 데이터를 Microsoft 365로 가져오는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [Microsoft 365로 여러 전자 메일 계정을 마이그레이션하는 방법](/Exchange/mailbox-migration/mailbox-migration)을 참조하세요.
   
 다른 PST 파일을 다른 대상 사서함으로 가져오는 경우 가져오기 프로세스가 동시에 수행됩니다. 즉, 각 PST/사서함 쌍을 동시에 가져올 수 있습니다. 마찬가지로, 여러 PST 파일을 같은 사서함으로 동시에 가져올 수 있습니다.
   
