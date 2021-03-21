@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: '관리자용: Exchange Online 사서함에 대한 무제한 저장소를 사용자에게 제공하는 자동 확장 보관을 사용하도록 설정하는 방법을 배워야 합니다. 전체 조직 또는 특정 사용자에 대해 자동 확장 보관을 사용하도록 설정할 수 있습니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 967b623b8ac1898567b5e6e779e8e557404b5242
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: ac5661ac43ed9c0f35eba20007f0c4c4406ebf20
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423659"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927828"
 ---
 # <a name="enable-unlimited-archiving---admin-help"></a>무제한 보관 사용 - 관리자 도움말
 
@@ -42,13 +42,13 @@ Exchange Online 자동 확장 보관 기능을 사용하여 보관 사서함에 
 
 - 자동 확장 보관을 사용하면 비활성 사서함을 복구하거나 복원할 [수 없습니다.](inactive-mailboxes-in-office-365.md#what-are-inactive-mailboxes) 즉, 사서함에 대해 자동 확장 보관을 사용하도록 설정하고 나중에 사서함이 비활성 상태로 설정되어 있는 [](recover-an-inactive-mailbox.md) 경우 비활성 사서함을 활성 사서함으로 복구하거나 [](restore-an-inactive-mailbox.md) 기존 사서함에 내용을 통합하여 복원할 수 없습니다. 비활성 사서함에서 자동 확장 보관을 사용하도록 설정한 경우 데이터를 복구하는 유일한 방법은 Microsoft 365 규정 준수 센터의 콘텐츠 검색 도구를 사용하여 사서함에서 데이터를 내보내고 다른 사서함으로 가져오는 것입니다. 자세한 내용은 비활성 사서함 개요의 "비활성 사서함 및 자동 확장 보관함" [섹션을 참조하십시오.](inactive-mailboxes-in-office-365.md#inactive-mailboxes-and-auto-expanding-archives)
 
-- Exchange 관리 센터 또는 보안 및 준수 센터를 사용하여 자동 & 보관을 사용하도록 설정할 수 없습니다. Exchange Online PowerShell을 사용해야 합니다. 원격 PowerShell을 사용하여 Exchange Online 조직에 연결하기 위해 [Exchange Online PowerShell에 연결을 참조하세요.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+- Exchange 관리 센터 또는 보안 및 준수 센터를 사용하여 자동 & 보관을 사용하도록 설정할 수 없습니다. Exchange Online PowerShell을 사용해야 합니다. 원격 PowerShell을 사용하여 Exchange Online 조직에 연결하기 위해 [Exchange Online PowerShell에 연결을 참조하세요.](/powershell/exchange/connect-to-exchange-online-powershell)
 
 ## <a name="enable-auto-expanding-archiving-for-your-entire-organization"></a>전체 조직에 대해 자동 확장 보관 사용
 
 전체 조직에 대해 자동 확장 보관을 사용하도록 설정할 수 있습니다. 이 기능을 설정하면 기존 사용자 사서함 및 새로 만든 사용자 사서함에 대해 자동 확장 보관이 사용하도록 설정됩니다. 사용자 사서함을 만들 때 자동 확장 보관 기능이 새 사용자 사서함에 대해 작동하도록 사용자의 기본 보관 사서함을 사용하도록 설정해야 합니다.
   
-1. [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+1. [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. Exchange Online PowerShell에서 다음 명령을 실행하여 전체 조직에 대해 자동 확장 보관을 사용하도록 설정할 수 있습니다.
 
@@ -68,7 +68,7 @@ Exchange Online 자동 확장 보관 기능을 사용하여 보관 사서함에 
 
 자동 확장 보관이 프로비전되기 전에 발생할 수 있는 저장소 문제를 방지하기 위해 이 추가 공간이 추가되었습니다. 이전  *섹션에서*  설명한 바와 같이 전체 조직에 대해 자동 확장 보관을 사용하도록 설정하면 추가 저장소 공간이 추가되지 않습니다.
   
-1. [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+1. [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. Exchange Online PowerShell에서 다음 명령을 실행하여 특정 사용자에 대해 자동 확장 보관을 사용하도록 설정할 수 있습니다. 앞서 설명한 것 처럼 사용자의 보관 사서함(기본 보관함)을 사용하도록 설정해야 해당 사용자에 대한 자동 확장 보관을 사용하도록 설정해야 합니다.
 

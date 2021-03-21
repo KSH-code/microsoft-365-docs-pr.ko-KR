@@ -15,12 +15,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 65fa24d0a69e43cbdb2deeed8362b83d6b097413
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: b245a0f7ca0845024fec0c498aca4c7d447f14ad
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838361"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928018"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -60,7 +60,7 @@ ms.locfileid: "50838361"
 - 디렉터리 데이터 - 조직의 구조가 디렉터리 데이터에 반영해야 합니다. 이 작업을 수행하려면 그룹 구성원, 부서 이름 등의 사용자 계정 특성이 Azure Active Directory(또는 Exchange Online)에 올바르게 채워야 합니다. 자세한 내용은 다음 리소스를 참조하세요.
   - [정보 장벽 정책의 속성](information-barriers-attributes.md)
   - [Azure Active Directory를 사용하여 사용자 프로필 정보 추가 또는 업데이트](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
-  - [Office 365 PowerShell를 사용 하 여 사용자 계정 속성 구성](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
+  - [Office 365 PowerShell를 사용 하 여 사용자 계정 속성 구성](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)
 
 - 범위 디렉터리 검색 - 조직의 첫 번째 정보 장벽 정책을 정의하기 전에 Microsoft Teams에서 범위가 지정한 [디렉터리 검색을 사용하도록 설정해야 합니다.](/MicrosoftTeams/teams-scoped-directory-search) 정보 장벽 정책을 설정하거나 정의하기 전에 범위가 지정한 디렉터리 검색을 사용하도록 설정한 후 24시간 이상 기다릴 수 있습니다.
 
@@ -124,7 +124,7 @@ ms.locfileid: "50838361"
 세그먼트를 정의하는 데 사용할 조직의 디렉터리 데이터의 특성을 확인합니다. *Department,* *MemberOf* 또는 지원되는 특성을 사용할 수 있습니다. 사용자에 대해 선택한 특성에 값이 있는지 확인 [정보 장벽에 대해 지원되는 특성 목록을 참조하세요.](information-barriers-attributes.md)
 
 > [!IMPORTANT]
-> **다음 섹션을 진행하기 전에** 디렉터리 데이터에 세그먼트를 정의하는 데 사용할 수 있는 특성 값이 있는지 확인합니다. 디렉터리 데이터에 사용하려는 특성 값이 없는 경우 정보 장벽을 계속하기 전에 해당 정보를 포함하도록 사용자 계정을 업데이트해야 합니다. 이에 대한 도움이 필요한 경우 다음 리소스를 참조합니다.<br/>- [Office 365 PowerShell을 사용하여 사용자 계정 속성 구성](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>- [Azure Active Directory를 사용하여 사용자 프로필 정보 추가 또는 업데이트](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+> **다음 섹션을 진행하기 전에** 디렉터리 데이터에 세그먼트를 정의하는 데 사용할 수 있는 특성 값이 있는지 확인합니다. 디렉터리 데이터에 사용하려는 특성 값이 없는 경우 정보 장벽을 계속하기 전에 해당 정보를 포함하도록 사용자 계정을 업데이트해야 합니다. 이에 대한 도움이 필요한 경우 다음 리소스를 참조합니다.<br/>- [Office 365 PowerShell을 사용하여 사용자 계정 속성 구성](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)<br/>- [Azure Active Directory를 사용하여 사용자 프로필 정보 추가 또는 업데이트](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 ### <a name="define-segments-using-powershell"></a>PowerShell을 사용하여 세그먼트 정의
 

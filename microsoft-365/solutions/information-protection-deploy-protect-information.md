@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft 365 보안 및 규정 준수 기능을 배포하고 개인 정보를 보호합니다.
-ms.openlocfilehash: a5bba79f8ab382707b6fd5e448003a0271d690c6
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 657b3c9c6416c8a38629a0d26253e1222aa6d242
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597241"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928475"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>데이터 개인 정보 보호 규정을 준수하는 정보 보호
 
@@ -38,7 +38,7 @@ ms.locfileid: "50597241"
 ![데이터 개인 정보 보호 규정에 따라 개인 정보를 보호하기 위한 주요 서비스](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-grid.png)
 
 >[!Note]
->이 솔루션은 데이터 개인 정보 규정을 준수하는 정보를 보호하기 위한 보안 및 규정 준수 기능에 대해 설명합니다. Microsoft 365의 전체 보안 기능 목록은 [Microsoft 365 보안 설명서를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/) Microsoft 365의 준수 기능의 전체 목록은 [Microsoft 365 규정 준수 설명서를 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/)
+>이 솔루션은 데이터 개인 정보 규정을 준수하는 정보를 보호하기 위한 보안 및 규정 준수 기능에 대해 설명합니다. Microsoft 365의 전체 보안 기능 목록은 [Microsoft 365 보안 설명서를 참조하세요.](../security/index.yml) Microsoft 365의 준수 기능의 전체 목록은 [Microsoft 365 규정 준수 설명서를 참조하세요.](../compliance/index.yml)
 >
 
 ## <a name="data-privacy-regulations-that-impact-information-protection-controls"></a>정보 보호 제어에 영향을 미치는 데이터 개인 정보 보호 규정
@@ -68,7 +68,7 @@ Microsoft 365의 정보 보호 체계를 시작하는 데 도움을 줄 수 있�
 Microsoft [정보 보호 솔루션에는](../compliance/information-protection.md) Microsoft 365, Microsoft Azure 및 Microsoft Windows의 다양한 통합 기능이 포함되어 있습니다. Microsoft 365에서 정보 보호 솔루션은 다음과 같습니다.
 
 - [고객 키를 사용한 서비스 암호화](../compliance/customer-key-overview.md)
-- [중요한 정보 유형(데이터](../compliance/what-the-sensitive-information-types-look-for.md) 개인 정보 보호 위험 평가 및 중요한 항목 식별 문서에서 [설명)](information-protection-deploy-assess.md)
+- [중요한 정보 유형(데이터](../compliance/sensitive-information-type-entity-definitions.md) 개인 정보 보호 위험 평가 및 중요한 항목 식별 문서에서 [설명)](information-protection-deploy-assess.md)
 - [민감도 레이블](../compliance/sensitivity-labels.md) 
   - 서비스/컨테이너 수준
   - 클라이언트 쪽/콘텐츠 수준
@@ -81,10 +81,10 @@ Microsoft [정보 보호 솔루션에는](../compliance/information-protection.m
 
 Microsoft 365 외부의 다른 정보 보호 기능에 대한 자세한 내용은 다음을 참조하세요.
 
-- [MICROSOFT 클라우드 응용 프로그램 보안(MCAS)](https://docs.microsoft.com/cloud-app-security/)
-- [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)
+- [MICROSOFT 클라우드 응용 프로그램 보안(MCAS)](/cloud-app-security/)
+- [Azure Information Protection](/azure/information-protection/what-is-information-protection)
 - [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager)
-- [Windows Information Protection](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
+- [Windows Information Protection](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
 
 ## <a name="sensitivity-labels"></a>민감도 레이블
 

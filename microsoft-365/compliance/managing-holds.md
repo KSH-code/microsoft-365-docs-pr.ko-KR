@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery 사례에 대한 관련 콘텐츠를 보존하기 위해 보유자 및 해당 데이터 원본에 보류를 설정하는 방법을 학습합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fbad81e93635f823fab1c4f44867760d00fc59ed
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 07edcb2707d1dffecfa5a2aac6c4340ac6cbe53f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838589"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926376"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Advanced eDiscovery에서 보류 관리
 
@@ -80,7 +80,7 @@ Advanced eDiscovery 사례에 대해 보유하지 않은 보류를 만들 수 �
       Microsoft 365 그룹 및 Microsoft Teams를 보류하는 방법에 대한 팁은 **FAQ** 섹션을 참조하세요.
 
       > [!NOTE]
-      > 사용자의 OneDrive 계정의 URL에는 UPN(사용자 계정 이름)이 포함됩니다(예: `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). 드물게 개인의 UPN이 변경되는 경우 OneDrive URL도 새 UPN을 통합하기 위해 변경됩니다. 사용자의 OneDrive 계정이 비 보유의 일부인 경우 해당 UPN이 변경된 경우 보류를 업데이트하고 새 OneDrive URL을 지정해야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조하세요.
+      > 사용자의 OneDrive 계정의 URL에는 UPN(사용자 계정 이름)이 포함됩니다(예: `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). 드물게 개인의 UPN이 변경되는 경우 OneDrive URL도 새 UPN을 통합하기 위해 변경됩니다. 사용자의 OneDrive 계정이 비 보유의 일부인 경우 해당 UPN이 변경된 경우 보류를 업데이트하고 새 OneDrive URL을 지정해야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](/onedrive/upn-changes)을 참조하세요.
 
    1. **Exchange 공용 폴더** - 토글 스위치를 모두 위치로 이동하여 Exchange Online 조직의 모든 공용 폴더를 보류합니다. 보류할 특정 공용 폴더를 선택할 수 없습니다. 공용 폴더에 보류를 설정하지 않는 경우 토글 스위치를 **None으로** 설정하십시오.
 
@@ -92,7 +92,7 @@ Advanced eDiscovery 사례에 대해 보유하지 않은 보류를 만들 수 �
 
     - 조건  **추가를** 클릭하여 하나 이상의 조건을 추가하여 보류에 대한 검색 쿼리 범위를 좁힐 수 있습니다. 각 조건은 보류를 만들 때 만들어 실행되는 KQL 검색 쿼리에 절을 추가합니다. 예를 들어 날짜 범위 내에서 만든 전자 메일 또는 사이트 문서가 보류될 수 있도록 날짜 범위를 지정할 수 있습니다. 조건은 AND 연산자를 사용하여 키워드 쿼리(키워드 상자에 지정)에 논리적으로 연결됩니다. 즉, 항목이 키워드 쿼리와 보류 상태를 모두 충족해야 합니다.
 
-     검색 쿼리를 만들고 조건을 사용하는 데 대한 자세한 내용은 콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건을 [참조하세요.](https://docs.microsoft.com/office365/SecurityCompliance/keyword-queries-and-search-conditions)
+     검색 쿼리를 만들고 조건을 사용하는 데 대한 자세한 내용은 콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건을 [참조하세요.](/office365/SecurityCompliance/keyword-queries-and-search-conditions)
 
 11. 쿼리 기반 보류를 구성한 후 다음 을 **클릭합니다.**
 

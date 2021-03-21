@@ -15,16 +15,16 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: 새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 09d9293cfb1b574b4c179a0b486d436dab99edf2
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: fdfcc2e7454b1243016754ba32dcc2622b876672
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741349"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927756"
 ---
 # <a name="message-encryption-faq"></a>메시지 암호화 FAQ
 
-새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요. 또한 Azure Information [Protection의](https://docs.microsoft.com/information-protection/get-started/faqs-rms) 데이터 보호 서비스인 Azure Rights Management에 대한 질문과 대답은 Azure Information Protection의 데이터 보호에 대한 질문과 대답을 살펴보아야 합니다.
+새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요. 또한 Azure Information [Protection의](/information-protection/get-started/faqs-rms) 데이터 보호 서비스인 Azure Rights Management에 대한 질문과 대답은 Azure Information Protection의 데이터 보호에 대한 질문과 대답을 살펴보아야 합니다.
 
 ## <a name="what-is-office-365-message-encryption-ome"></a>OME(Office 365 메시지 암호화)란?
 
@@ -38,7 +38,7 @@ OME는 전자 메일 암호화 및 권한 관리 기능을 결합합니다. 권�
 
 - OME 및 IRM을 설정한 경우 Azure Information Protection의 Azure 권한 관리 서비스를 사용하는 경우 다음 단계를 사용할 수 있습니다.
 
-- Ad RMS(Active Directory Rights Management Service)와 함께 Exchange Online을 사용하는 경우 이러한 새 기능을 바로 사용하도록 설정할 수 없습니다. 대신 AD [RMS를 Azure Information Protection으로](https://docs.microsoft.com/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms) 먼저 마이그레이션해야 합니다. 마이그레이션이 완료되면 OME를 성공적으로 설정할 수 있습니다.
+- Ad RMS(Active Directory Rights Management Service)와 함께 Exchange Online을 사용하는 경우 이러한 새 기능을 바로 사용하도록 설정할 수 없습니다. 대신 AD [RMS를 Azure Information Protection으로](/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms) 먼저 마이그레이션해야 합니다. 마이그레이션이 완료되면 OME를 성공적으로 설정할 수 있습니다.
 
   Azure Information Protection으로 마이그레이션하는 대신 Exchange Online에서 계속해서 Exchange Online과 함께 사내 AD RMS를 사용하려면 이러한 새 기능을 사용할 수 없습니다.
 
@@ -52,13 +52,13 @@ OME는 전자 메일 암호화 및 권한 관리 기능을 결합합니다. 권�
 
 - Office 365 메시지 암호화를 통해 혜택을 받을 수 있는 각 사용자는 해당 기능을 적용하도록 라이선스가 부여되어야 합니다.
 
-- 전체 목록은 Office 365 [메시지 암호화에](https://technet.microsoft.com/library/exchange-online-service-description.aspx) 대한 Exchange Online 서비스 설명을 참조하세요.
+- 전체 목록은 Office 365 [메시지 암호화에](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) 대한 Exchange Online 서비스 설명을 참조하세요.
 
 ## <a name="can-i-use-exchange-online-with-bring-your-own-key-byok-in-azure-information-protection"></a>Azure Information Protection에서 BYOK(Bring Your Own Key)와 함께 Exchange Online을 사용할 수 있나요?
 
 예! OME를 설정하기 전에 BYOK를 설정하는 단계를 완료하는 것이 좋습니다.
   
-BYOK에 대한 자세한 내용은 Azure Information Protection 테넌트 키 계획 및 [구현을 참조하세요.](https://docs.microsoft.com/information-protection/plan-design/plan-implement-tenant-key)
+BYOK에 대한 자세한 내용은 Azure Information Protection 테넌트 키 계획 및 [구현을 참조하세요.](/information-protection/plan-design/plan-implement-tenant-key)
   
 ## <a name="do-ome-and-byok-with-azure-information-protection-change-microsofts-approach-to-third-party-data-requests-such-as-subpoenas"></a>Azure Information Protection을 사용하여 OME 및 BYOK가 Microsoft의 소속 데이터 요청과 같은 타사 데이터 요청에 대한 접근 방식을 변경하나요?
 
@@ -88,11 +88,11 @@ Office 365 메시지 암호화의 새로운 기능은 기존 IRM 및 레거시 O
   
 ## <a name="my-organization-uses-active-directory-rights-management-can-i-use-this-functionality"></a>조직에서 Active Directory 권한 관리를 사용하나요? 이 기능을 사용할 수 있나요?
 
-아니요. Ad RMS(Active Directory Rights Management Service)와 함께 Exchange Online을 사용하는 경우 이러한 새 기능을 바로 사용하도록 설정할 수 없습니다. 대신 AD [RMS를 Azure Information Protection으로](https://docs.microsoft.com/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms) 먼저 마이그레이션해야 합니다.
+아니요. Ad RMS(Active Directory Rights Management Service)와 함께 Exchange Online을 사용하는 경우 이러한 새 기능을 바로 사용하도록 설정할 수 없습니다. 대신 AD [RMS를 Azure Information Protection으로](/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms) 먼저 마이그레이션해야 합니다.
   
 ## <a name="my-organization-has-an-exchange-hybrid-deployment-can-i-use-this-feature"></a>조직에 Exchange 하이브리드 배포가 있습니다. 이 기능을 사용할 수 있나요?
 
-Exchange Online 메일 흐름 규칙을 사용하여 암호화된 메일을 보낼 수 있습니다. 이렇게하려면 Exchange Online을 통해 전자 메일을 라우팅해야 합니다. 자세한 내용은 2부: 전자 메일 서버에서 [Microsoft 365로](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-2-configure-mail-to-flow-from-your-email-server-to-office-365)흐르도록 메일 구성을 참조하세요.
+Exchange Online 메일 흐름 규칙을 사용하여 암호화된 메일을 보낼 수 있습니다. 이렇게하려면 Exchange Online을 통해 전자 메일을 라우팅해야 합니다. 자세한 내용은 2부: 전자 메일 서버에서 [Microsoft 365로](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-2-configure-mail-to-flow-from-your-email-server-to-office-365)흐르도록 메일 구성을 참조하세요.
   
 ## <a name="what-email-client-do-i-need-to-use-in-order-to-create-an-ome-encrypted-message-what-applications-are-supported-for-sending-protected-messages"></a>OME 암호화된 메시지를 만들기 위해 어떤 전자 메일 클라이언트를 사용해야 하나요? 보호된 메시지를 보내는 데 지원되는 응용 프로그램은 무엇입니까?
 
@@ -108,11 +108,11 @@ Microsoft 365 사용자는 Outlook for PC 버전 2019 및 Microsoft 365를 사�
 
 ## <a name="is-there-a-size-limit-for-messages-you-can-send-with-ome"></a>OME를 사용하여 보낼 수 있는 메시지의 크기 제한이 있나요?
 
-예. 첨부 파일을 포함하여 OME를 사용하여 보낼 수 있는 최대 메시지 크기는 25MB입니다. 자세한 내용은 메시지 [제한을 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits-1)
+예. 첨부 파일을 포함하여 OME를 사용하여 보낼 수 있는 최대 메시지 크기는 25MB입니다. 자세한 내용은 메시지 [제한을 참조하세요.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits-1)
 
 ## <a name="what-file-types-are-supported-as-attachments-in-protected-emails-do-attachments-inherit-the-protection-policies-associated-with-protected-emails"></a>보호된 전자 메일의 첨부 파일로 지원되는 파일 형식은 무엇입니까? 첨부 파일이 보호된 전자 메일과 연결된 보호 정책을 상속하나요?
 
-모든 파일 형식을 보호된 메일에 첨부할 수 있습니다. 한 가지 예외를 제외하고, 보호 정책은 Azure Information Protection 클라이언트에서 지원하는 파일 형식에 언급된 파일 [형식에만 적용됩니다.](https://docs.microsoft.com/information-protection/rms-client/client-admin-guide-file-types) OME에서는 Word(.doc), Excel(.xls) 및 PowerPoint(.ppt)의 97-2003 버전을 지원하지 않습니다.
+모든 파일 형식을 보호된 메일에 첨부할 수 있습니다. 한 가지 예외를 제외하고, 보호 정책은 Azure Information Protection 클라이언트에서 지원하는 파일 형식에 언급된 파일 [형식에만 적용됩니다.](/information-protection/rms-client/client-admin-guide-file-types) OME에서는 Word(.doc), Excel(.xls) 및 PowerPoint(.ppt)의 97-2003 버전을 지원하지 않습니다.
 
 Word, Excel 또는 PowerPoint 파일과 같은 파일 형식이 지원되는 경우 받는 사람이 첨부 파일을 다운로드한 후에도 파일이 항상 보호됩니다. 예를 들어 첨부 파일이 전달 금지로 보호되어 있는 경우를 예로 들 수 있습니다. 원래 받는 사람이 파일을 다운로드하고 새 받는 사람에게 메시지를 만들고 파일을 첨부합니다. 새 받는 사람이 파일을 받으면 받는 사람이 보호된 파일을 열 수 없습니다.
   
@@ -124,7 +124,7 @@ Word, Excel 또는 PowerPoint 파일과 같은 파일 형식이 지원되는 경
 
 Outlook 데스크톱은 기본적으로 PDF 첨부 파일의 암호화를 지원하지 않습니다. 대신, 먼저 PDF 첨부 파일에 암호화를 적용하기 위한 Exchange 메일 흐름 규칙 또는 DLP를 설정해야 합니다. PDF 첨부 파일이 있는 Outlook Desktop에서 메일을 보낼 때 클라이언트는 첨부 파일이 있는 메시지를 먼저 서비스에 전송합니다. 서비스가 파일을 받으면 서비스는 Exchange Online에서 DLP(데이터 손실 방지) 정책 또는 메일 흐름 규칙의 OME 보호를 적용합니다. 다음으로 Exchange Online은 보호된 PDF 파일 첨부 파일이 있는 메시지를 전송합니다.
 
-PDF 첨부 파일에 암호화를 사용하도록 설정하려면 [Exchange Online PowerShell에서 다음 명령을 실행합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+PDF 첨부 파일에 암호화를 사용하도록 설정하려면 [Exchange Online PowerShell에서 다음 명령을 실행합니다.](/powershell/exchange/connect-to-exchange-online-powershell)
 
 ```powershell
 Set-IRMConfiguration -EnablePdfEncryption $true
@@ -196,7 +196,7 @@ Not yet. 비즈니스용 OneDrive 첨부 파일은 지원되지 않습니다. �
 | 플랫폼 | 메일 읽기 | 전자 메일 첨부 파일 보기 |
 |----------|-----------|------------------------|
 | 웹용 Outlook | 예 | 예                |
-|  Windows용 Outlook| 예 | 예                |
+| Windows용 Outlook| 예 | 예                |
 | Outlook for Mac    | 예 | 예                |
 | Android용 Outlook| 예 | 아니요                 |
 | iOS용 Outlook    | 예 | 아니요                 |
@@ -210,7 +210,7 @@ Not yet. 비즈니스용 OneDrive 첨부 파일은 지원되지 않습니다. �
 
 **공유 사서함에 사용자를 할당하기 위해**
 
-1. [원격 PowerShell을 사용하여 Exchange Online에 연결합니다.](https://technet.microsoft.com/library/jj984289?v=exchg.150%29.aspx)
+1. [원격 PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?v=exchg.150).aspx를 사용하여 Exchange Online에 연결합니다.
 
 2. Automapping Add-MailboxPermission cmdlet을 실행합니다. 이 예에서는 Ayla에게 지원 사서함에 대한 모든 액세스 권한을 부여합니다.
 

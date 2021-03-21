@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 1bb4013069b8f4890ba420f13a0203eb63973121
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 91e8a25c2a15e82cd7f286d1110b1c87bedf31d5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820190"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926436"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
@@ -219,10 +219,10 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 - [데이터 손실 방지 개요](data-loss-prevention-policies.md)
 - [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
-- [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)
-- [Windows 10 컴퓨터용 온보딩 도구 및 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
+- [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)
+- [Windows 10 컴퓨터용 온보딩 도구 및 방법](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
-- [Azure Active Directory(AAD) 가입](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)
+- [Azure Active Directory(AAD) 가입](/azure/active-directory/devices/concept-azure-ad-join)
 - [Chromium 기반 새 Microsoft Edge 다운로드](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)
 - [기본 DLP 정책을 사용하여 시작](get-started-with-the-default-dlp-policy.md)
 - [서식 파일에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)

@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: c337d5ccd05ee665b62c9ce5a68abbd8084da943
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 98f4355e06ef2724ef4eb5f8d4db3dca017678c2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080821"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926426"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>엔드포인트 데이터 손실 방지 시작하기
 
@@ -90,7 +90,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 2. 맬웨어 방지 클라이언트 버전이 4.18.2009.7 이상입니다. Windows 보안 앱을 열고, 설정 아이콘을 선택한 다음 정보를 선택하여 현재 버전을 확인합니다. 버전 번호는 맬웨어 방지 클라이언트 버전 아래에 나열됩니다. Windows 업데이트 KB4052623을 설치하여 최신 맬웨어 방지 클라이언트 버전으로 업데이트합니다. 
 
    > [!NOTE]
-   > Windows 보안 구성 요소가 활성화되지 않아도 Windows 보안 상태와 독립적으로 끝점 DLP를 실행할 수 있습니다. 그러나 [실시간 보호 및 동작 모니터](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)는 활성화되어야 합니다.
+   > Windows 보안 구성 요소가 활성화되지 않아도 Windows 보안 상태와 독립적으로 끝점 DLP를 실행할 수 있습니다. 그러나 [실시간 보호 및 동작 모니터](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)는 활성화되어야 합니다.
  
 3. 다음 Windows 업데이트가 설치되어 있습니다. 
  
@@ -102,11 +102,11 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
     - Windows 10 2004의 경우 - KB4568831, KB4577063
     - Office 2016(다른 Office 버전이 아님)을 실행하는 장치의 경우 - KB4577063 
 
-4. 모든 장치가 [AAD(Azure Active Directory)에 연결](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)되어 있거나 Hybrid Azure AD에 연결되어 있어야 합니다.
+4. 모든 장치가 [AAD(Azure Active Directory)에 연결](/azure/active-directory/devices/concept-azure-ad-join)되어 있거나 Hybrid Azure AD에 연결되어 있어야 합니다.
 
 5. 엔드 포인트 장치에 Microsoft Chromium Edge 브라우저를 설치하여 클라우드로 업로드 활동에 대한 정책 작업을 적용하세요. [Chromium 기반 새 Microsoft Edge 다운로드하기](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)를 참조하세요.
 
-6. Microsoft 365 앱 버전 2004~2008의 월 단위 엔터프라이즈 채널을 사용하고 있는 경우 Office 콘텐츠를 분류하는 엔드포인트 DLP와 관련된 알려진 문제가 있으며 버전 2009 이상으로 업데이트해야 합니다. 현재 버전에 대한 자세한 내용은 [Microsoft 365 앱의 업데이트 기록(날짜순)](https://docs.microsoft.com/officeupdates/update-history-microsoft365-apps-by-date)을 참조하세요. 해당 문제에 대한 자세한 내용을 보려면 [2020년 현재 채널 릴리스에 대한 릴리스 노트](https://docs.microsoft.com/officeupdates/current-channel#version-2010-october-27)의 Office 제품군 섹션을 참조하세요.
+6. Microsoft 365 앱 버전 2004~2008의 월 단위 엔터프라이즈 채널을 사용하고 있는 경우 Office 콘텐츠를 분류하는 엔드포인트 DLP와 관련된 알려진 문제가 있으며 버전 2009 이상으로 업데이트해야 합니다. 현재 버전에 대한 자세한 내용은 [Microsoft 365 앱의 업데이트 기록(날짜순)](/officeupdates/update-history-microsoft365-apps-by-date)을 참조하세요. 해당 문제에 대한 자세한 내용을 보려면 [2020년 현재 채널 릴리스에 대한 릴리스 노트](/officeupdates/current-channel#version-2010-october-27)의 Office 제품군 섹션을 참조하세요.
 
 7. 장치 프록시를 사용하여 인터넷에 연결하는 끝점이 있는 경우 [끝점 DLP에 대한 장치 프록시 및 인터넷 연결 설정 구성](endpoint-dlp-configure-proxy.md)의 절차를 따르세요.
 
@@ -116,7 +116,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
 아직 온보딩되지 않은 장치를 온보딩하려는 경우 적절한 스크립트를 다운로드하여 해당 장치에 배포합니다. [장치 온보딩 절차](endpoint-dlp-getting-started.md#onboarding-devices)를 따르세요.
 
-이미 [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)에 온보딩된 장치가 있으면 해당 장치가 관리되는 장치 목록에 표시됩니다. [엔드포인트용 Microsoft Defender에 온보딩된 장치 절차](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-getting-started?view=o365-worldwide&source=docs#with-devices-onboarded-into-microsoft-defender-for-endpoint)를 따릅니다.
+이미 [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)에 온보딩된 장치가 있으면 해당 장치가 관리되는 장치 목록에 표시됩니다. [엔드포인트용 Microsoft Defender에 온보딩된 장치 절차](?source=docs&view=o365-worldwide#with-devices-onboarded-into-microsoft-defender-for-endpoint)를 따릅니다.
 
 ### <a name="onboarding-devices"></a>온보딩 장치
 
@@ -141,7 +141,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
    > [!div class="mx-imgBorder"]
    > ![배포 방법](../media/endpoint-dlp-getting-started-3-deployment-method.png)
    
-6. [Windows 10 컴퓨터용 온보딩 도구와 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 엔드포인트용 Microsoft Defender에 액세스할 수 있는 랜딩 페이지로 이동합니다.
+6. [Windows 10 컴퓨터용 온보딩 도구와 방법](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 엔드포인트용 Microsoft Defender에 액세스할 수 있는 랜딩 페이지로 이동합니다.
 
     - 그룹 정책을 사용하여 Windows 10 컴퓨터 온보딩하기
     - Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩하기
@@ -171,7 +171,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
 5. **배포 방법** 목록에서 이러한 추가 장치에 배포할 방법을 선택한 다음 **패키지를 다운로드합니다**.
 
-6. [Windows 10 컴퓨터용 온보딩 도구와 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 엔드포인트용 Microsoft Defender에 액세스할 수 있는 랜딩 페이지로 이동합니다.
+6. [Windows 10 컴퓨터용 온보딩 도구와 방법](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)의 해당 절차를 따르세요. 이 링크를 누르면 5단계에서 선택한 배포 패키지와 일치하는 엔드포인트용 Microsoft Defender에 액세스할 수 있는 랜딩 페이지로 이동합니다.
 
     - 그룹 정책을 사용하여 Windows 10 컴퓨터 온보딩하기
     - Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩하기
@@ -212,8 +212,8 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 - [데이터 손실 방지 개요](data-loss-prevention-policies.md)
 - [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
-- [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)
-- [Windows 10 컴퓨터용 온보딩 도구 및 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
+- [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)
+- [Windows 10 컴퓨터용 온보딩 도구 및 방법](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
-- [Azure AD 가입 장치](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)
+- [Azure AD 가입 장치](/azure/active-directory/devices/concept-azure-ad-join)
 - [Chromium 기반 새 Microsoft Edge 다운로드하기](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)

@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 ms.custom: seo-marvel-apr2020
 description: 준수 센터를 사용하여 조직의 메시지 보존, eDiscovery 및 보유 요구 사항을 지원하기 위해 보관 사서함을 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: d7506b92cc16120f1d40a6d5a1744ab38d446a76
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 2bc80d347d1324a317cc2cc2712d475781adc492
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233818"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926518"
 ---
 # <a name="enable-archive-mailboxes-in-the-compliance-center"></a>준수 센터에서 보관 사서함 사용
 
@@ -102,7 +102,7 @@ Microsoft 365(*내부 보관* 이라고도 함)의 보관은 사용자에게 추
 
 Exchange Online PowerShell을 사용하여 보관 사서함을 사용할 수도 있습니다. PowerShell을 사용하는 주된 이유는 조직의 모든 사용자에 대해 보관 사서함을 신속하게 사용할 수 있다는 것입니다.
 
-첫 번째 단계는 Exchange Online PowerShell에 연결하는 것입니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+첫 번째 단계는 Exchange Online PowerShell에 연결하는 것입니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
 Exchange Online에 연결되면 다음 섹션의 명령을 실행하여 보관 사서함을 사용하거나 사용하지 않도록 설정할 수 있습니다.
 
@@ -150,8 +150,8 @@ Get-Mailbox -Filter {ArchiveGuid -Ne "00000000-0000-0000-0000-000000000000" -AND
 
 - 보관 사서함 및 Exchange 보존 정책에 대한 자세한 내용은 다음을 참조하십시오.
 
-  - [Exchange Online의 보존 태그 및 보존 정책](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
+  - [Exchange Online의 보존 태그 및 보존 정책](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
 
-  - [Exchange Online의 기본 보존 정책](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/default-retention-policy)
+  - [Exchange Online의 기본 보존 정책](/exchange/security-and-compliance/messaging-records-management/default-retention-policy)
 
   - [조직에서 사서함에 대한 보관 및 삭제 정책 설정하기](set-up-an-archive-and-deletion-policy-for-mailboxes.md)

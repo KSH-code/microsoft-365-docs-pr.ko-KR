@@ -23,7 +23,7 @@
     - name: 배포
       items:
         - name: 도메인 추가
-          href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
+          href: ../admin/setup/add-domain.md
         - name: 우회하도록 끝점 구성
           items:
             - name: Office 365 IP 주소 및 URL 웹 서비스
@@ -49,7 +49,7 @@
             - name: 중국 사용자를 위한 Microsoft 365 최적화
               href: microsoft-365-networking-china.md
             - name: 기본 Windows 10 VPN 클라이언트를 사용하는 원격 작업자를 위한Microsoft 365 트래픽 최적화
-              href: 'https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-office-365-optimization'
+              href: /windows/security/identity-protection/vpn/vpn-office-365-optimization
         - name: Office 365용 ExpressRoute
           href: azure-expressroute.md
           items:
@@ -126,7 +126,7 @@
             - name: Single Sign-On
               href: microsoft-365-client-support-single-sign-on.md
             - name: 기본 Mobility 보안 및 Intune에서 선택
-              href: 'https://docs.microsoft.com/office365/securitycompliance/choose-between-mdm-and-intune'
+              href: /office365/securitycompliance/choose-between-mdm-and-intune
         - name: 하이브리드 최신 인증
           items:
             - name: 비즈니스용 Skype 서버 및 Exchange 서버의 필수 구성 요소
@@ -147,13 +147,13 @@
                 - name: Office 2007 서버 및 클라이언트에서 업그레이드
                   href: upgrade-from-office-2007-servers-and-products.md
                 - name: Office 2007 데스크톱
-                  href: 'https://docs.microsoft.com/DeployOffice/endofsupport/office-2007-end-support-roadmap'
+                  href: /DeployOffice/endofsupport/office-2007-end-support-roadmap
                 - name: Exchange 2007
                   href: exchange-2007-end-of-support.md
                 - name: SharePoint 2007
                   href: sharepoint-2007-end-of-support.md
                 - name: Office Communications Server
-                  href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
+                  href: /skypeforbusiness/plan-your-deployment/upgrade
                 - name: PerformancePoint Server 2007
                   href: pps-2007-end-of-support.md
                 - name: Project Server 2007
@@ -163,13 +163,13 @@
                 - name: Office 2010 서버 및 클라이언트에서 업그레이드
                   href: upgrade-from-office-2010-servers-and-products.md
                 - name: Office 2010 데스크톱
-                  href: 'https://docs.microsoft.com/DeployOffice/endofsupport/office-2010-end-support-roadmap'
+                  href: /DeployOffice/endofsupport/office-2010-end-support-roadmap
                 - name: Exchange 2010
                   href: exchange-2010-end-of-support.md
                 - name: SharePoint 2010
                   href: upgrade-from-sharepoint-2010.md
                 - name: Lync Server 2010
-                  href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
+                  href: /skypeforbusiness/plan-your-deployment/upgrade
                 - name: Project Server 2010
                   href: project-server-2010-end-of-support.md
         - name: Microsoft 365에서 테넌트 격리
@@ -178,9 +178,9 @@
             - name: Azure Active Directory에서 격리 및 액세스 제어
               href: microsoft-365-isolation-in-azure-active-directory.md
             - name: 테넌트 경계 모니터링 및 테스트
-              href: microsoft-365-monitoring-and-testing.md
+              href: /compliance/assurance/assurance-monitoring-and-testing
             - name: 리소스 제한 사항
-              href: microsoft-365-resource-limits.md
+              href: /compliance/assurance/assurance-resource-limits
             - name: 격리 및 액세스 컨트롤
               href: microsoft-365-isolation-in-microsoft-365.md
             - name: 검색에서 테넌트 격리
@@ -192,7 +192,7 @@
     - name: 배포
       items:
         - name: 도메인 추가
-          href: 'https://docs.microsoft.com/microsoft-365/admin/setup/add-domain'
+          href: ../admin/setup/add-domain.md
     - name: 관리
       items:
         - name: Microsoft 365 서비스 상태
@@ -321,7 +321,7 @@
                 - name: 개요
                   href: hybrid-solutions.md
                 - name: Azure Active Directory를 사용하여 SharePoint Server 2016 인증
-                  href: using-azure-ad-for-sharepoint-server-authentication.md
+                  href: /azure/active-directory/saas-apps/sharepoint-on-premises-tutorial
                 - name: 온-프레미스 네트워크를 Azure Virtual Network에 연결
                   href: connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md
                 - name: Azure IaaS에서 디렉터리 동기화 서버 배포
@@ -386,13 +386,13 @@
             - name: Office 2007 서버 및 클라이언트에서 업그레이드
               href: upgrade-from-office-2007-servers-and-products.md
             - name: Office 2007 데스크톱
-              href: 'https://docs.microsoft.com/DeployOffice/office-2007-end-support-roadmap'
+              href: /DeployOffice/office-2007-end-support-roadmap
             - name: Exchange 2007
               href: exchange-2007-end-of-support.md
             - name: SharePoint 2007
               href: sharepoint-2007-end-of-support.md
             - name: Office Communications Server
-              href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
+              href: /skypeforbusiness/plan-your-deployment/upgrade
             - name: PerformancePoint Server 2007
               href: pps-2007-end-of-support.md
             - name: Project Server 2007
@@ -402,13 +402,13 @@
             - name: Office 2010 서버 및 클라이언트에서 업그레이드
               href: upgrade-from-office-2010-servers-and-products.md
             - name: Office 2010 데스크톱
-              href: 'https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap'
+              href: /DeployOffice/office-2010-end-support-roadmap
             - name: Exchange 2010
               href: exchange-2010-end-of-support.md
             - name: SharePoint 2010
               href: upgrade-from-sharepoint-2010.md
             - name: Lync Server 2010
-              href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
+              href: /skypeforbusiness/plan-your-deployment/upgrade
             - name: 프로젝트 서버 2010
               href: project-server-2010-end-of-support.md
 - name: 규정 준수
@@ -424,13 +424,13 @@
         - name: 준비
           href: configure-services-and-applications.md
         - name: Exchange Online
-          href: 'https://docs.microsoft.com/Exchange/exchange-online'
+          href: /Exchange/exchange-online
         - name: SharePoint
-          href: 'https://docs.microsoft.com/sharepoint/sharepoint-online'
+          href: /sharepoint/sharepoint-online
         - name: 비즈니스용 Skype
-          href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online'
+          href: /SkypeForBusiness/skype-for-business-online
         - name: Microsoft Teams
-          href: 'https://docs.microsoft.com/MicrosoftTeams/Teams-overview'
+          href: /MicrosoftTeams/Teams-overview
         - name: Yammer
           href: 'https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe'
         - name: 권한 관리 활성화
@@ -438,7 +438,7 @@
         - name: 릴리스 옵션 구성
           href: 'https://support.office.com/article/365-3b3adfa4-1777-4ff0-b606-fb8732101f47'
         - name: 사용자 교육하기
-          href: 'https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users'
+          href: /office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users
     - name: 관리
       items:
         - name: 서비스 상태 확인 방법
@@ -446,13 +446,13 @@
         - name: 지원 옵션
           href: 'https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b'
         - name: Exchange Online
-          href: 'https://docs.microsoft.com/Exchange/exchange-online'
+          href: /Exchange/exchange-online
         - name: SharePoint
           href: 'https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a'
         - name: 비즈니스용 Skype
-          href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online'
+          href: /SkypeForBusiness/skype-for-business-online
         - name: Microsoft Teams
-          href: 'https://docs.microsoft.com//MicrosoftTeams/quality-of-experience-review-guide'
+          href: //MicrosoftTeams/quality-of-experience-review-guide
         - name: Yammer
           href: 'https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe'
         - name: 성능 및 조정
@@ -473,21 +473,21 @@
             - name: 비즈니스용 Skype Online 성능 조정
               href: tune-skype-for-business-online-performance.md
             - name: Project Online 성능 조정
-              href: 'https://docs.microsoft.com/ProjectOnline/tune-project-online-performance'
+              href: /ProjectOnline/tune-project-online-performance
             - name: 성능 문제 해결 계획
               href: performance-troubleshooting-plan.md
 - name: Windows 10
-  href: 'https://docs.microsoft.com/windows/deployment/'
+  href: /windows/deployment/
 - name: 엔터프라이즈용 Microsoft 365 앱
-  href: 'https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps'
+  href: /deployoffice/deployment-guide-microsoft-365-apps
 - name: Surface 디바이스
-  href: 'https://docs.microsoft.com/surface/deploy'
+  href: /surface/deploy
 - name: 디바이스 관리
   items:
     - name: 로드맵
       href: device-management-roadmap-microsoft-365.md
 - name: Microsoft Edge
-  href: 'https://docs.microsoft.com/deployedge/deploy-edge-plan-deployment'
+  href: /deployedge/deploy-edge-plan-deployment
 - name: 배포 및 업데이트 채널 예제 구성
   items:
     - name: 개요
@@ -568,7 +568,7 @@
         - name: SharePoint Online 사이트 그룹 관리
           href: manage-sharepoint-site-groups-with-powershell.md
     - name: Exchange Online 관리
-      href: 'https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell'
+      href: /powershell/exchange/connect-to-exchange-online-powershell
     - name: PowerShell을 사용하여 Microsoft 365로 전자 메일을 마이그레이션
       href: use-powershell-for-email-migration-to-microsoft-365.md
       items:
@@ -586,11 +586,11 @@
         - name: 위임된 액세스 파트너용 Windows PowerShell을 사용하여 클라이언트 테넌트에 도메인 추가
           href: add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-pe.md
         - name: 위임된 액세스 파트너용 원격 Windows PowerShell을 통해 Exchange Online에 연결
-          href: 'https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell'
+          href: /powershell/exchange/connect-to-exchange-online-powershell
         - name: 위임된 액세스 파트너용 Windows PowerShell을 통해 고객 보고 데이터 검색
           href: retrieve-customer-tenant-reporting-data-with-windows-powershell-for-delegated-ac.md
     - name: Microsoft Teams 관리
-      href: 'https://docs.microsoft.com/microsoftteams/teams-powershell-install'
+      href: /microsoftteams/teams-powershell-install
     - name: 비즈니스용 Skype Online 관리
       href: manage-skype-for-business-online-with-microsoft-365-powershell.md
       items:
@@ -678,15 +678,15 @@
 - name: Microsoft 365 아키텍처 및 솔루션
   href: ../solutions/index.yml
 - name: 클라우드 서비스를 사용한 엔터프라이즈 비즈니스 연속성 관리(EBCM)
-  href: ebcm-understanding-ebcm-with-cloud-services.md
+  href: /compliance/assurance/assurance-understanding-ebcm-with-cloud-services
   items:
     - name: 고객 및 클라우드 파트너의 EBCM 책임
-      href: ebcm-customer-and-cloud-partner-ebcm-responsibilities.md
+      href: /compliance/assurance/assurance-customer-and-cloud-partner-ebcm-responsibilities
     - name: Microsoft 365 클라우드 서비스 복원
-      href: ebcm-m365-service-resiliency.md
+      href: /compliance/assurance/assurance-m365-service-resiliency
     - name: 연속성 계획 개발
-      href: ebcm-developing-your-ebcm-plan.md
+      href: /compliance/assurance/assurance-developing-your-ebcm-plan
     - name: 서비스 인시던트 완화 시나리오
-      href: ebcm-microsoft-365-mitigations.md
+      href: /compliance/assurance/assurance-microsoft-365-mitigations
 - name: 비즈니스용 Microsoft 365
   href: ../admin/index.yml

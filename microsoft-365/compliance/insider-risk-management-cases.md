@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 58c8d2cdebdef6c0307b0c234951f6d32e5009df
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: f6f01a1bed296b6af2e6be973de6605910809fc3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820175"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926406"
 ---
 # <a name="insider-risk-management-cases"></a>내부자 위험 관리 사례
 
@@ -241,27 +241,6 @@ Microsoft 팀 통합을 사용하도록 설정하기 전에 연 사례의 경우
 사례가 해결되면 연결된 Microsoft 팀이 자동으로 보관됩니다(숨겨져 읽기 전용으로 설정).
 
 내부자 위험 관리를 위한 Microsoft Teams에 대한 자세한 내용은 내부자 위험 관리 설정 [시작을 참조하세요.](insider-risk-management-settings.md#microsoft-teams-preview)
-
-### <a name="share-the-case"></a>사례 공유
-
-내부자 위험 관리 사례를 공유하면 위험 조사자와 분석가가 조직의 다른 규정 준수 관련자와 쉽게 공동 작업을 할 수 있습니다. 사례 관리 영역의 외부 이해 관계자와 내부자 위험 관리 사례에 대한 링크를 빠르게 공유할 수 있습니다. 링크에서 내부자 위험 관리 사례에 액세스하려면 관련자를 내부자 위험 관리 역할 그룹에 포함해야 합니다.
-
->[!NOTE]
->ServiceNow 커넥터 미리 보기를 하는 동안 피드백과 지원에 감사드립니다. ServiceNow 커넥터의 미리 보기를 종료하고 2020년 11월 30일 내부자 위험 관리에서 지원을 중단하기로 결정했습니다. 내부자 위험 관리에서 ServiceNow 통합을 고객에게 제공하기 위한 대체 방법을 적극적으로 평가하고 있습니다.
-
-다음과 같은 공유 옵션을 사용할 수 있습니다.
-
-- **ServiceNow:** Microsoft 365 조직에 대해 Microsoft 365 ServiceNow 커넥터를 구성한 후 사례에 대한 링크를 쉽게 공유하거나 인시던트를 열거나 ServiceNow 조직에 변경을 요청할 수 있습니다. ServiceNow와 사례를 공유하려면 사례 작업에서 사례 **작업**  >  **공유**  >  **ServiceNow를** 선택합니다. 내부자 위험 관리 지원과 ServiceNow 통합에는 다음과 같은 사례 정보 및 작업이 포함됩니다.
-    - **작업 이름:** 새 ServiceNow 작업의 이름입니다.
-    - **작업 설명**: 새 ServiceNow 작업에 대한 설명입니다. 이 편집 가능한 설명 필드에는 내부자 위험 관리 사례에 대한 링크가 자동으로 포함됩니다.
-    - **작업 유형**: 새 ServiceNow 작업의 작업  유형(인시던트 또는 변경 *요청)입니다.*
-    - **우선** 순위: 계획, 낮음, 보통, 높음 또는 중요 등 새 ServiceNow 작업의 우선 *순위입니다.* 
-    - **기한:** ServiceNow 작업을 완료하기 위한 요청된 날짜입니다.
-
-![ServiceNow와의 내부자 위험 관리 공유](../media/insider-risk-share-servicenow.png)
-
-- **전자 메일**: 전자 메일에서 내부자 위험 관리 사례에 대한 링크를 공유합니다. 이 공유 옵션을 사용하여 로컬로 구성된 모든 전자 메일 클라이언트를 선택할 수 있습니다. 사례 링크를 전자 메일과 공유하려면 사례 **작업** 도구 모음에서 전자 메일  >   공유를 선택합니다.
-- **복사 링크:** 내부자 위험 관리 사례에 대한 링크를 클립보드에 복사합니다. 사례 링크를 클립보드에 복사하려면 사례 작업 도구 모음에서 **복사** 링크  >   공유를 선택합니다.
 
 ### <a name="resolve-the-case"></a>사례 해결
 

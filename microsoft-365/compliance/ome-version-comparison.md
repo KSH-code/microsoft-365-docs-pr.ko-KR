@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 이 문서에서는 서로 다른 버전의 Office 365 메시지 암호화 간의 차이점을 설명하는 데 도움이 되는 정보를 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a587e27460d949811f9f30af0244cf325aaadac6
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: e75a709be6141c4bd1df4e63df677dd263c0777a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741339"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927736"
 ---
 # <a name="compare-versions-of-ome"></a>OME 버전 비교
 
@@ -41,7 +41,7 @@ Exchange Online에는 전자 메일 메시지 및 첨부 파일에 대한 온라
 
 ### <a name="prepare-for-ad-rms-deprecation"></a>AD RMS 사용 고지
 
-Azure Information Protection을 이미 설정했지만 사용하지 않는 경우 Exchange Online PowerShell을 사용하여 서비스를 사용하도록 설정하세요. 로컬 컴퓨터에서 조직의 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 조직 창에서 [Exchange Online PowerShell에](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) Windows PowerShell 합니다.
+Azure Information Protection을 이미 설정했지만 사용하지 않는 경우 Exchange Online PowerShell을 사용하여 서비스를 사용하도록 설정하세요. 로컬 컴퓨터에서 조직의 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 조직 창에서 [Exchange Online PowerShell에](/powershell/exchange/connect-to-exchange-online-powershell) Windows PowerShell 합니다.
 
 Azure Information Protection을 사용하도록 설정하려면 다음 명령을 Set-IrmConfiguration cmdlet을 사용하세요.
 
@@ -49,7 +49,7 @@ Azure Information Protection을 사용하도록 설정하려면 다음 명령을
 Set-IrmConfiguration -AzureRMSLicensingEnabled $true
 ```
 
-조직에서 아직 Azure Information Protection을 설정하지 않은 경우 AD RMS에서 Azure Information Protection으로 마이그레이션해야 합니다. 자세한 내용은 [AD RMS에서 Azure Information Protection으로 마이그레이션을 참조하세요.](https://docs.microsoft.com/azure/information-protection/migrate-from-ad-rms-to-azure-rms)
+조직에서 아직 Azure Information Protection을 설정하지 않은 경우 AD RMS에서 Azure Information Protection으로 마이그레이션해야 합니다. 자세한 내용은 [AD RMS에서 Azure Information Protection으로 마이그레이션을 참조하세요.](/azure/information-protection/migrate-from-ad-rms-to-azure-rms)
 
 ## <a name="side-by-side-comparison-of-features-and-capabilities"></a>기능의 나란히 비교
 

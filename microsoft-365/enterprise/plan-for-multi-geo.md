@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: Microsoft 365 Multi-Geo, Multi-Geo 작동 방식 및 데이터 저장소에 사용할 수 있는 지리적 위치에 대해 알아봅니다.
-ms.openlocfilehash: ce8b752cc6a335249f9d8e03289fd16b04756ce9
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 9625d55015cc0f18801d59e82fc8ca7090b3b721
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712345"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927535"
 ---
 # <a name="plan-for-microsoft-365-multi-geo"></a>Microsoft 365 Business를 위한 계획
 
@@ -70,18 +70,18 @@ Microsoft 365에서 해당 OneDrive를 프로비전할 지리적 위치를 결�
 
 사용자 목록을 만들고, 해당 UPN(사용자 주체 이름)과 해당 기본 설정 데이터 위치에 대한 위치 코드를 포함합니다. 시작할 테스트 사용자와 초기 파일럿 그룹을 포함합니다. 구성 절차를 위해 이 목록이 필요합니다.
 
-사용자가 온 - 프레미스 Active Directory 시스템에서 Azure Active Directory로 동기화되는 경우 기본 데이터 위치를 Active Directory 특성으로 설정하고 Azure Active Directory Connect를 사용하여 동기화해야 합니다. Azure AD PowerShell을 사용하여 동기화된 사용자의 기본 데이터 위치를 직접 구성할 수 없습니다. Active Directory에서 PDL을 설정하고 동기화하는 단계는 [Azure Active Directory Connect 동기화: Microsoft 365 리소스의 기본 설정 데이터 위치 구성](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation)에서 다룹니다.
+사용자가 온 - 프레미스 Active Directory 시스템에서 Azure Active Directory로 동기화되는 경우 기본 데이터 위치를 Active Directory 특성으로 설정하고 Azure Active Directory Connect를 사용하여 동기화해야 합니다. Azure AD PowerShell을 사용하여 동기화된 사용자의 기본 데이터 위치를 직접 구성할 수 없습니다. Active Directory에서 PDL을 설정하고 동기화하는 단계는 [Azure Active Directory Connect 동기화: Microsoft 365 리소스의 기본 설정 데이터 위치 구성](/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation)에서 다룹니다.
 
 SharePoint 및 OneDrive 설정과 서비스가 다중 위치를 인식하므로 다중 위치 테넌트의 관리는 다중 위치가 아닌 테넌트의 관리와 다를 수 있습니다. 구성을 계속하기 전에 [다중 위치 환경 관리](administering-a-multi-geo-environment.md)를 검토하는 것이 좋습니다.
 
 Multi-Geo 환경의 최종 사용자 환경에 대한 자세한 내용은 [Multi-Geo](multi-geo-user-experience.md) 환경의 사용자 환경을 참조하세요.
 
-Microsoft 365 Multi-Geo 테넌시의 Teams 경험에 대한 자세한 내용은 [Microsoft 365 OneDrive 및 SharePoint Online Multi-Geo 지원 테넌시의 Teams 경험](https://docs.microsoft.com/microsoftteams/teams-experience-o365odb-spo-multi-geo)을 참조하세요.
+Microsoft 365 Multi-Geo 테넌시의 Teams 경험에 대한 자세한 내용은 [Microsoft 365 OneDrive 및 SharePoint Online Multi-Geo 지원 테넌시의 Teams 경험](/microsoftteams/teams-experience-o365odb-spo-multi-geo)을 참조하세요.
 
 Microsoft 365 Multi-Geo를 구성을 시작하려면 [Microsoft 365 Multi-Geo 구성](multi-geo-tenant-configuration.md)을 참조하세요.
 
 구성을 완료한 경우 기본 설정 데이터 위치에서 작업할 때 필요하므로 [사용자의 OneDrive 라이브러리를 마이그레이션](move-onedrive-between-geo-locations.md)해야 합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[Microsoft 365 Multi-Geo eDiscovery 구성](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-ediscovery-configuration)
+[Microsoft 365 Multi-Geo eDiscovery 구성](./multi-geo-ediscovery-configuration.md)

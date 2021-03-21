@@ -16,12 +16,12 @@ ms.custom: ''
 localization_priority: Priority
 f1.keywords: NOCSH
 description: 파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출을 제한하는 방법을 알아보세요.
-ms.openlocfilehash: 430c00d46fa3801d0869b05a651fadd3bf5dea28
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+ms.openlocfilehash: 952337790ce2f0418dd5ab637435f1523b27b562
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49029972"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928415"
 ---
 # <a name="limit-accidental-exposure-to-files-when-sharing-with-people-outside-your-organization"></a>파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출을 제한
 
@@ -79,7 +79,7 @@ Anyone 링크는 가장 쉽게 공유하는 방법이며 사용자가 IT 부서�
 
 5. **저장** 을 클릭합니다.
 
-SharePoint 및 OneDrive 보다 상위 수준에서 도메인 별로 공유를 제한하려는 경우 Azure Active Directory의 [특정 조직에서 B2B 사용자에 대한 초청을 허용하거나 차단](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)할 수 있습니다. 설정이 SharePoint 및 OneDrive에 적용되도록 [Azure AD B2B 사전 검토와 Sharepoint 및 OneDrive의 통합](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)을 구성해야 합니다.
+SharePoint 및 OneDrive 보다 상위 수준에서 도메인 별로 공유를 제한하려는 경우 Azure Active Directory의 [특정 조직에서 B2B 사용자에 대한 초청을 허용하거나 차단](/azure/active-directory/b2b/allow-deny-list)할 수 있습니다. 설정이 SharePoint 및 OneDrive에 적용되도록 [Azure AD B2B 사전 검토와 Sharepoint 및 OneDrive의 통합](/sharepoint/sharepoint-azureb2b-integration-preview)을 구성해야 합니다.
 
 ## <a name="limit-sharing-of-files-folders-and-sites-with-people-outside-your-organization-to-specified-security-groups"></a>조직 외부의 사람들과 파일, 폴더 및 사이트 공유를 지정된 보안 그룹으로 제한하세요.
 
@@ -91,13 +91,13 @@ SharePoint 및 OneDrive 보다 상위 수준에서 도메인 별로 공유를 �
 
 3. **특정 보안 그룹의 사용자만 외부에서 공유할 수 있도록 허용** 을 선택한 다음 **보안 그룹 관리** 를 선택합니다.
 
-    ![보안 그룹 관리 패널의 스크린샷](https://docs.microsoft.com/sharepoint/sharepointonline/media/manage-security-groups.png)
+    ![보안 그룹 관리 패널의 스크린샷](/sharepoint/sharepointonline/media/manage-security-groups.png)
 
 4. **보안 그룹 추가** 상자에서 보안 그룹의 이름을 입력합니다. 보안 그룹 상자가 나타납니다.
 
 5. 보안 그룹 이름 옆에 있는 **공유 가능 대상** 드롭다운에서 다음 중 하나를 선택합니다.
 
-    - **인증된 게스트 전용** (기본값)
+    - **인증된 게스트 전용**(기본값)
     - **모든 사용자**
 
 6. **저장** 을 선택합니다.

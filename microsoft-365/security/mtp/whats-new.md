@@ -18,18 +18,18 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 1f5fa231c371ca7a8d6a22ca0b4ff388fd89004c
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 5de805784b2772b0169b2ad2a503e9378b82fda7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711919"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927099"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-> Microsoft 365 Defender를 경험하고 싶나요? 랩 [환경에서 평가하거나](https://aka.ms/mtp-trial-lab) 프로덕션 [환경에서 파일럿](https://aka.ms/m365d-pilotplaybook)프로젝트를 실행할 수 있습니다.
+> Microsoft 365 Defender를 경험하고 싶나요? 랩 [환경에서 평가하거나](./mtp-evaluation.md?ocid=cx-docs-MTPtriallab) 프로덕션 [환경에서 파일럿](./mtp-pilot.md?ocid=cx-evalpilot)프로젝트를 실행할 수 있습니다.
 >
 
 다음 기능은 Microsoft 365 Defender의 최신 릴리스에서 일반적으로 사용할 수 있습니다(GA).
@@ -42,7 +42,7 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 ## <a name="march-2021"></a>2021년 3월
 - [CloudAppEvents 테이블](advanced-hunting-cloudappevents-table.md) <br>Microsoft Cloud App Security에서 다루는 다양한 클라우드 앱 및 서비스의 이벤트에 대한 정보를 찾아 하세요. 이 표에는 이전에 에서 사용 가능한 정보도 포함되어 `AppFileEvents` 있습니다.
 ## <a name="february-2021"></a>2021년 2월
-- (미리 보기) 향상된 [Microsoft 365 보안 https://security.microsoft.com) ](https://security.microsoft.com) 센터( 이제 공개 미리 보기에서 사용할 수 있습니다. 이 새로운 환경은 Endpoint용 Defender 및 Office 365용 Defender를 중앙에 제공합니다. [변경된 내용을 자세히 알아보고 을(를) 변경합니다.](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
+- (미리 보기) 향상된 [Microsoft 365 보안 https://security.microsoft.com) ](https://security.microsoft.com) 센터( 이제 공개 미리 보기에서 사용할 수 있습니다. 이 새로운 환경은 Endpoint용 Defender 및 Office 365용 Defender를 중앙에 제공합니다. [변경된 내용을 자세히 알아보고 을(를) 변경합니다.](./overview-security-center.md)
 
 ## <a name="september-2020"></a>2020년 9월
 - [IdentityDirectoryEvents 테이블](advanced-hunting-identitydirectoryevents-table.md) <br> AD(Active Directory)를 실행하는 사내 도메인 컨트롤러와 관련된 이벤트를 검색합니다. 이 [고급 헌팅](advanced-hunting-overview.md) 체계표에는 도메인 컨트롤러의 ID 관련 이벤트 및 시스템 이벤트가 포함됩니다.
@@ -69,4 +69,4 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 ## <a name="march-2019"></a>2019년 3월
 - 고급 헌팅 <br> 전자 메일 및 데이터, 장치 및 ID에 영향을 주는 위협을 사전 대응적으로 찾을 수 있는 다양한 헌팅 기능에 대한 방문 페이지입니다.
 - [Microsoft 보안 점수](microsoft-secure-score.md) <br> 조직의 보안 자세 측정값으로, 수치가 높을수록 개선 작업이 더 많이 수행됩니다. 보안 점수 권장 사항을 따라 조직을 위협으로부터 보호할 수 있습니다. 
-- [보고서](monitoring-and-reporting.md) <br>  보안 분석가와 관리자가 매일 작업의 일부로 추적하는 다양한 영역을 다루는 카드 호스트를 제공합니다.
+- [보고서](./overview-security-center.md) <br>  보안 분석가와 관리자가 매일 작업의 일부로 추적하는 다양한 영역을 다루는 카드 호스트를 제공합니다.

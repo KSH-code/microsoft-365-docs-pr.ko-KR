@@ -13,12 +13,12 @@ ms.author: shmehta
 ms.reviewer: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: 8078f5de698adf437e843a423fe9e82c5e4dd8de
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 708e5dc68b777db42696c6791124b2a8dd1d3b87
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233122"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927954"
 ---
 # <a name="preparing-for-tls-12-in-office-365-and-office-365-gcc"></a>Office 365 및 Office 365 GCC에서 TLS 1.2 준비
 
@@ -32,11 +32,11 @@ TLS 1.0 및 1.1 종속성을 제거하는 방법에 대한 자세한 내용은 �
 
 ## <a name="more-information"></a>추가 정보
 
-2020년 1월부터 이미 TLS 1.0과 1.1의 사용 중단이 시작되었습니다. DoD 또는 GCC High 인스턴스에서 TLS 1.0 또는 1.1을 통해 Office 365에 연결되는 모든 클라이언트, 디바이스 또는 서비스는 지원되지 않습니다. Office 365의 상용 고객의 경우 TLS 1.0 및 1.1의 사용이 2020년 10월 15일부터 시작되고 다음 주와 몇 개월에 한해 출시가 계속됩니다. 
+2020년 1월부터 이미 TLS 1.0과 1.1의 사용 중단이 시작되었습니다. DoD 또는 GCC High 인스턴스에서 TLS 1.0 또는 1.1을 통해 Office 365에 연결되는 모든 클라이언트, 디바이스 또는 서비스는 지원되지 않습니다. Office 365의 상용 고객의 경우 TLS 1.0 및 1.1 사용이 2020년 10월 15일부터 시작되고 출시는 다음 주와 몇 개월에 진행됩니다. 
 
 모든 클라이언트-서버 및 브라우저-서버 조합에서는 Office 365 서비스 연결을 유지하기 위해 TLS 1.2(이상의 버전)를 사용하는 것이 좋습니다. 특정 클라이언트-서버 및 브라우저-서버 조합을 업데이트해야 할 수 있습니다.
 
-TLS 1.2를 사용하려면 TLS 1.0 또는 TLS 1.1을 통해 Microsoft 365 API를 호출하는 응용 프로그램을 업데이트해야 합니다. .NET 4.5는 기본적으로 TLS 1.1로 설정됩니다. .NET 구성을 업데이트하려면 클라이언트에서 [TLS(전송 계층 보안) 1.2를](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2-client)사용하도록 설정하는 방법을 참조합니다.
+TLS 1.2를 사용하려면 TLS 1.0 또는 TLS 1.1을 통해 Microsoft 365 API를 호출하는 응용 프로그램을 업데이트해야 합니다. .NET 4.5는 기본적으로 TLS 1.1로 설정됩니다. .NET 구성을 업데이트하려면 [클라이언트에서 TLS(전송 계층 보안) 1.2를](/mem/configmgr/core/plan-design/security/enable-tls-1-2-client)사용하도록 설정하는 방법을 참조합니다.
 
 다음 클라이언트는 TLS 1.2를 사용할 수 없습니다. 서비스에 중단 없이 액세스할 수 있도록 클라이언트를 업데이트하세요.
 
@@ -48,7 +48,7 @@ TLS 1.2를 사용하려면 TLS 1.0 또는 TLS 1.1을 통해 Microsoft 365 API를
 
 ### <a name="tls-12-for-microsoft-teams-rooms-and-surface-hub"></a>Microsoft Teams Rooms 및 Surface Hub용 TLS 1.2
 
-Microsoft Teams Rooms(이전 Skype Room System V2 SRS V2)는 2018년 12월부터 TLS 1.2를 지원하고 있습니다. Rooms 디바이스에는 Microsoft Teams Rooms 앱 버전 4.0.64.0 이상이 설치되어 있는 것이 좋습니다. 자세한 내용은 [릴리스 노트](https://docs.microsoft.com/microsoftteams/room-systems/srs2-release-note)를 참조하세요. 변경 사항은 이전 및 이후 버전과 호환됩니다.
+Microsoft Teams Rooms(이전 Skype Room System V2 SRS V2)는 2018년 12월부터 TLS 1.2를 지원하고 있습니다. Rooms 디바이스에는 Microsoft Teams Rooms 앱 버전 4.0.64.0 이상이 설치되어 있는 것이 좋습니다. 자세한 내용은 [릴리스 노트](/microsoftteams/room-systems/srs2-release-note)를 참조하세요. 변경 사항은 이전 및 이후 버전과 호환됩니다.
 
 Surface Hub는 2019년 5월에 TLS 1.2 지원을 릴리스했습니다.
 
@@ -78,4 +78,4 @@ Microsoft Teams Rooms 및 Surface Hub 제품에서 TLS 1.2를 지원하려면 �
 - [Exchange Server TLS 지침, 1부: TLS 1.2 준비](https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/ba-p/607649)
 - [Exchange Server TLS 지침 2부: TLS 1.2 사용 및 이를 사용하지 않는 클라이언트 식별](https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-server-tls-guidance-part-2-enabling-tls-1-2-and/ba-p/607761)
 - [Exchange Server TLS 지침 3부: TLS 1.0/1.1 끄기](https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-server-tls-guidance-part-3-turning-off-tls-1-0-1-1/ba-p/607898)
-- [Office Online Server에서 TLS 1.1 및 TLS 1.2 지원 사용](https://docs.microsoft.com/officeonlineserver/enable-tls-1-1-and-tls-1-2-support-in-office-online-server)
+- [Office Online Server에서 TLS 1.1 및 TLS 1.2 지원 사용](/officeonlineserver/enable-tls-1-1-and-tls-1-2-support-in-office-online-server)

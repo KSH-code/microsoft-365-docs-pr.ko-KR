@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 설명 유형에 대해 자세히 알아보세요.
-ms.openlocfilehash: caba92b635feaf8f87e2c487559f70be3fab6df9
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 5187b27438f25db1a2714f1fbc7b31db6d060ccc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242628"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928403"
 ---
 # <a name="introduction-to-explanation-types"></a>설명 유형 소개
 
@@ -71,7 +71,7 @@ ms.locfileid: "50242628"
    ![정확한 대소문자 사용](../media/content-understanding/exact-caps.png)
 
 > [!NOTE]
-> 패턴 목록 설명을 수동으로 만드는 대신 [설명 라이브러리](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#use-explanation-templates)를 사용하여 *날짜*, *전화 번호*, *신용카드 번호* 등 일반 패턴 목록의 서식파일을 사용할 수 있습니다.
+> 패턴 목록 설명을 수동으로 만드는 대신 [설명 라이브러리](#use-explanation-templates)를 사용하여 *날짜*, *전화 번호*, *신용카드 번호* 등 일반 패턴 목록의 서식파일을 사용할 수 있습니다.
 
 ## <a name="proximity"></a>근접 
 

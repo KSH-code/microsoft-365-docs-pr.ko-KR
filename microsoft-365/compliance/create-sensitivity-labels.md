@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 문서와 전자 메일을 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: b7943259d3a20cbf4fd6d8b0b57ca7c027e74d3f
-ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
+ms.openlocfilehash: 34cbea7199ed50de8e65a48f8087e6475fb41a50
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084659"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926646"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
 모든 Microsoft Information Protection 솔루션(때로는 MIP로 줄여서 부름)은 [민감도 레이블](sensitivity-labels.md)을 사용하여 구현됩니다. 이러한 레이블을 만들고 게시하려면, [Microsoft 365 준수 센터](https://compliance.microsoft.com/)와 같은 레이블 관리 센터로 이동합니다. Microsoft 365 보안 센터나 보안 및 준수 센터를 사용할 수도 있습니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "50084659"
     ![민감도 레이블 만들기](../media/create-sensitivity-label-full.png)
     
     > [!NOTE]
-    > 기본적으로 테넌트에는 레이블이 없으며 레이블을 만들어야 합니다. 예제 그림에 나와 있는 레이블에 [Azure Information Protection에서 마이그레이션된](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) 기본 레이블이 표시됩니다.
+    > 기본적으로 테넌트에는 레이블이 없으며 레이블을 만들어야 합니다. 예제 그림에 나와 있는 레이블에 [Azure Information Protection에서 마이그레이션된](/azure/information-protection/configure-policy-migrate-labels) 기본 레이블이 표시됩니다.
 
 3. **이 레이블에 대한 범위 정의** 페이지에서 선택한 옵션은 구성할 수 있는 설정에 대한 레이블 범위와 게시될 때 표시되는 위치를 결정합니다.
     
@@ -70,7 +70,7 @@ ms.locfileid: "50084659"
     
     - **그룹 및 사이트** 가 선택된 경우, 이 마법사에서 Microsoft 365 그룹 및 Teams와 SharePoint용 사이트에 적용되는 설정을 구성할 수 있습니다. 이 옵션이 선택되지 않은 경우, 마법사는 해당 설정의 첫 번째 페이지를 표시하지만 사용자는 설정을 구성할 수 없으며 레이블은 그룹 및 사이트에 대해 사용자들이 선택하도록 제공되지 않습니다.
     
-    **Azure Purview 자산(미리 보기)** 범위에 대한 자세한 내용은 [Azure Purview에서 내용에 자동으로 레이블을 지정](https://docs.microsoft.com/azure/purview/create-sensitivity-label)을 참조하세요.
+    **Azure Purview 자산(미리 보기)** 범위에 대한 자세한 내용은 [Azure Purview에서 내용에 자동으로 레이블을 지정](/azure/purview/create-sensitivity-label)을 참조하세요.
 
 4. 화면에 나타나는 레이블 설정 마법사 메시지를 따릅니다.
     
@@ -98,13 +98,13 @@ ms.locfileid: "50084659"
 
 ### <a name="additional-label-settings-with-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell를 이용한 추가 레이블 설정
 
-추가 레이블 설정은 [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/scc-powershell)에서 [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label) cmdlet으로 사용할 수 있습니다.
+추가 레이블 설정은 [보안 및 준수 센터 PowerShell](/powershell/exchange/scc-powershell)에서 [Set-Label](/powershell/module/exchange/set-label) cmdlet으로 사용할 수 있습니다.
 
 예시:
 
 - 사용자가 로컬 언어로 레이블 이름과 도구 설명을 확인하기 위한 다국적 배포에는 *LocaleSettings* 매개 변수를 사용합니다. [다음 섹션](#example-configuration-to-configure-a-sensitivity-label-for-different-languages)에는 프랑스어, 이탈리아어, 독일어에 대한 레이블 이름 및 도구 설명 텍스트를 지정하는 예제 구성이 있습니다.
 
-- Azure Information Protection 통합 레이블 클라이언트의 경우, 레이블 색 설정과 레이블이 적용된 경우 사용자 지정 속성 적용을 포함하는 [고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)을 지정할 수 있습니다. 전체 목록을 보려면 이 클라이언트의 관리자 가이드에서 [레이블의 사용 가능한 고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels)을 참조하세요.
+- Azure Information Protection 통합 레이블 클라이언트의 경우, 레이블 색 설정과 레이블이 적용된 경우 사용자 지정 속성 적용을 포함하는 [고급 설정](/azure/information-protection/rms-client/clientv2-admin-guide-customizations)을 지정할 수 있습니다. 전체 목록을 보려면 이 클라이언트의 관리자 가이드에서 [레이블의 사용 가능한 고급 설정](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels)을 참조하세요.
 
 #### <a name="example-configuration-to-configure-a-sensitivity-label-for-different-languages"></a>다양한 언어로 민감도 레이블을 구성하는 예제 구성입니다.
 
@@ -112,9 +112,9 @@ ms.locfileid: "50084659"
 
 이 구성의 결과로 해당 표시 언어를 사용하는 Office 앱을 사용하는 사용자는 동일한 언어로 레이블 이름과 도구 설명을 확인할 수 있습니다. 마찬가지로, 파일 탐색기에서 파일을 레이블 지정하기 위해 Azure Information Protection 통합 레이블 클라이언트를 설치한 경우 해당 언어 버전의 Windows를 사용하는 사용자는 레이블 지정을 위해 마우스 오른쪽 단추 클릭 작업을 할 때 로컬 언어로 레이블 이름과 도구 설명을 확인할 수 있습니다.
 
-지원해야 하는 언어의 경우에는 Office [언어 식별자](https://docs.microsoft.com/deployoffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016#language-identifiers)(언어 태그라고도 함)를 사용하여 레이블 이름 및 도구 설명에 대한 고유한 번역을 지정할 수 있습니다.
+지원해야 하는 언어의 경우에는 Office [언어 식별자](/deployoffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016#language-identifiers)(언어 태그라고도 함)를 사용하여 레이블 이름 및 도구 설명에 대한 고유한 번역을 지정할 수 있습니다.
 
-PowerShell에서 명령을 실행하기 전에 먼저 [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)해야 합니다.
+PowerShell에서 명령을 실행하기 전에 먼저 [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)해야 합니다.
 
 
 ```powershell
@@ -186,26 +186,26 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 이 단추를 선택하면 포함할 레이블과 레이블 설정을 편집할 수 있는 **정책 만들기** 마법사가 시작됩니다. 마법사를 완료하면 변경 내용이 선택된 사용자 및 서비스로 자동 복제됩니다.
 
-Windows, macOS, iOS 및 Android에서 Office 앱용 기본 제공 레이블을 사용하는 경우 사용자에게 4시간 이내, 웹용 Office의 경우 1시간 이내에 새 레이블이 표시됩니다. 그러나 변경 사항이 모든 앱과 서비스에 복제되려면 최대 24시간이 소요됩니다.
+Windows, MacOS, iOS 및 Android에서 Office 앱에 대한 기본 제공 레이블을 사용하면 브라우저를 새로 고치면 4시간 내에, 웹에서 Word, Excel 및 PowerPoint에 대해 1시간 이내에 새 레이블이 표시됩니다. 그러나 변경 사항이 모든 앱과 서비스에 복제되려면 최대 24시간이 소요됩니다.
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell를 이용한 추가 레이블 정책 설정
 
-추가 레이블 정책 설정은 [보안 및 규정 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/scc-powershell)에서 [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy) cmdlet으로 사용할 수 있습니다.
+추가 레이블 정책 설정은 [보안 및 규정 준수 센터 PowerShell](/powershell/exchange/scc-powershell)에서 [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy) cmdlet으로 사용할 수 있습니다.
 
-Azure Information Protection 통합 레이블 지정 클라이언트의 경우에만, Outlook에 대해 다양한 기본 레이블 설정이 포함된 [고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)을 지정하고, Outlook에서 보내는 전자 메일에 대해 경고, 정렬 또는 차단하는 팝업 메시지를 구현할 수 있습니다. 전체 목록을 보려면 이 클라이언트의 관리자 가이드에서 [레이블 정책에 사용 가능한 고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies)을 참조하세요.
+Azure Information Protection 통합 레이블 지정 클라이언트의 경우에만, Outlook에 대해 다양한 기본 레이블 설정이 포함된 [고급 설정](/azure/information-protection/rms-client/clientv2-admin-guide-customizations)을 지정하고, Outlook에서 보내는 전자 메일에 대해 경고, 정렬 또는 차단하는 팝업 메시지를 구현할 수 있습니다. 전체 목록을 보려면 이 클라이언트의 관리자 가이드에서 [레이블 정책에 사용 가능한 고급 설정](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies)을 참조하세요.
 
 ## <a name="use-powershell-for-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책에 PowerShell 사용
 
-이제 [보안 및 규정 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/scc-powershell)에서 레이블 지정 관리 센터에 표시되는 모든 설정을 만들고 구성할 수 있습니다. 레이블 지정 관리 센터에서 사용할 수 없는 설정에 대해 PowerShell을 사용하는 것 외에, 이제 민감도 레이블 및 민감도 레이블 정책의 만들기 및 유지 보수를 전체적으로 스크립팅할 수 있습니다.  
+이제 [보안 및 규정 준수 센터 PowerShell](/powershell/exchange/scc-powershell)에서 레이블 지정 관리 센터에 표시되는 모든 설정을 만들고 구성할 수 있습니다. 레이블 지정 관리 센터에서 사용할 수 없는 설정에 대해 PowerShell을 사용하는 것 외에, 이제 민감도 레이블 및 민감도 레이블 정책의 만들기 및 유지 보수를 전체적으로 스크립팅할 수 있습니다.  
 
 지원되는 매개 변수와 값에 대한 자세한 내용은 다음 문서를 참조하세요.
 
-- [New-Label](https://docs.microsoft.com/powershell/module/exchange/new-label)
-- [New-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/new-labelpolicy)
-- [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label)
-- [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy)
+- [New-Label](/powershell/module/exchange/new-label)
+- [New-LabelPolicy](/powershell/module/exchange/new-labelpolicy)
+- [Set-Label](/powershell/module/exchange/set-label)
+- [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy)
 
-민감도 레이블 또는 민감도 레이블 정책의 삭제를 스크립팅해야 하는 경우에는 [Remove-Label](https://docs.microsoft.com/powershell/module/exchange/remove-label) 및 [Remove-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-labelpolicy)를 사용할 수 있습니다. 그러나 민감도 레이블을 삭제하기 전에 다음 섹션을 참조하세요.
+민감도 레이블 또는 민감도 레이블 정책의 삭제를 스크립팅해야 하는 경우에는 [Remove-Label](/powershell/module/exchange/remove-label) 및 [Remove-LabelPolicy](/powershell/module/exchange/remove-labelpolicy)를 사용할 수 있습니다. 그러나 민감도 레이블을 삭제하기 전에 다음 섹션을 참조하세요.
 
 ## <a name="removing-and-deleting-labels"></a>레이블 제거 및 삭제
 
@@ -219,7 +219,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트의 경우�
 
 비교해보면, 레이블을 삭제하는 경우:
 
-- 레이블에서 암호화를 적용한 경우, 이전에 보호된 콘텐츠가 계속 열려 있도록 기본 보호 서식 파일을 보관합니다. 보관된 보호 서식 파일로 인해, 새 레이블을 동일한 이름으로 만들 수 없습니다. [PowerShell](https://docs.microsoft.com/powershell/module/aipservice/remove-aipservicetemplate)을 사용하여 보호 서식 파일을 삭제할 수 있는 경우에도, 보관된 서식 파일로 암호화된 콘텐츠를 열 필요가 없다고 확신이 들지 않으면 이 작업을 수행하지 마세요.
+- 레이블에서 암호화를 적용한 경우, 이전에 보호된 콘텐츠가 계속 열려 있도록 기본 보호 서식 파일을 보관합니다. 보관된 보호 서식 파일로 인해, 새 레이블을 동일한 이름으로 만들 수 없습니다. [PowerShell](/powershell/module/aipservice/remove-aipservicetemplate)을 사용하여 보호 서식 파일을 삭제할 수 있는 경우에도, 보관된 서식 파일로 암호화된 콘텐츠를 열 필요가 없다고 확신이 들지 않으면 이 작업을 수행하지 마세요.
 
 - 데스크톱 앱의 경우: 메타데이터의 레이블 정보는 유지되지만, 레이블 ID와 이름 매핑은 더 이상 사용할 수 없기 때문에 사용자에게 적용된 레이블 이름이 표시되지 않으므로 사용자가 해당 콘텐츠에 레이블이 지정되지 않은 것으로 가정합니다. 레이블에서 암호화를 적용하는 경우, 암호화가 유지되며 콘텐츠를 여는 경우 사용자에게 지금 보관된 보호 서식 파일의 이름과 설명이 계속 표시됩니다.
 

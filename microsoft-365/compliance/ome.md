@@ -19,12 +19,12 @@ ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 ms.custom:
 - seo-marvel-apr2020
 description: 조직 내부 및 외부의 사용자 간에 암호화된 전자 메일 메시지를 보내고 받는 방법을 학습합니다.
-ms.openlocfilehash: 8d1803442428f3061c686afa0b790d3f468abde8
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 504fa9918636cd596cde0d242083ccb7b9817e69
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741329"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927716"
 ---
 # <a name="message-encryption"></a>메시지 암호화
 
@@ -36,7 +36,7 @@ Office 365 메시지 암호화를 사용하여 조직은 조직 내부 및 외�
 
 이 문서의 나머지 기능은 새로운 OME 기능에 적용됩니다.
 
-Office 365 메시지 암호화는 Azure Information Protection의 일부인 Microsoft Azure RMS(Azure 권한 관리)를 사용하여 구축된 온라인 서비스입니다. 이 서비스에는 전자 메일을 보호하는 데 도움이 되는 암호화, ID 및 권한 부여 정책이 포함되어 있습니다. 권한 관리 템플릿, 전달 금지 옵션 [](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)및 암호화 전용 옵션을 사용하여 메시지를 [암호화할 수 있습니다.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
+Office 365 메시지 암호화는 Azure Information Protection의 일부인 Microsoft Azure RMS(Azure 권한 관리)를 사용하여 구축된 온라인 서비스입니다. 이 서비스에는 전자 메일을 보호하는 데 도움이 되는 암호화, ID 및 권한 부여 정책이 포함되어 있습니다. 권한 관리 템플릿, 전달 금지 옵션 [](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)및 암호화 전용 옵션을 사용하여 메시지를 [암호화할 수 있습니다.](/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
 
 그러면 사용자는 이러한 옵션을 사용하여 전자 메일 메시지와 다양한 첨부 파일을 암호화할 수 있습니다. 지원되는 첨부 파일 형식의 전체 목록은 전자 메일 메시지에 대한 IRM 소개에서 ["메시지에 첨부된 경우 IRM](https://support.office.com/article/bb643d33-4a3f-4ac7-9770-fd50d95f58dc#FileTypesforIRM)정책에서 다루는 파일 형식"을 참조하세요.
 
@@ -54,7 +54,7 @@ Outlook이 아니라 클라이언트에서 암호화되거나 권한으로 보�
 
 보호된 메일의 보낸 사람이 GCC High에 있으며 받는 사람이 상용 사용자, Outlook.com 사용자 및 Gmail과 같은 다른 전자 메일 공급자의 사용자를 포함하여 GCC High 외부에 있는 경우 받는 사람은 래퍼 메일을 받게 됩니다. 래퍼 메일은 받는 사람이 메시지를 읽고 회신할 수 있는 OME 포털로 받는 사람을 연결합니다. 그렇지 않은 경우 보낸 사람 및 받는 사람이 모두 GCC High 환경에 있는 경우 동일한 조직에 있지 않은 경우에도 Outlook 클라이언트를 사용하여 메일을 읽는 받는 사람은 암호화되고 권한으로 보호된 메일에 대한 기본 고급 읽기 환경을 받을 수 있습니다. GCC High의 다양한 경험에 대한 자세한 내용은 OME 버전 [비교를 참조하세요.](ome-version-comparison.md)
 
-OME를 사용하여 암호화할 수 있는 메시지 및 첨부 파일에 대한 크기 제한에 대한 자세한 내용은 [Exchange Online 제한을 참조하세요.](https://technet.microsoft.com/library/exchange-online-limits.aspx)
+OME를 사용하여 암호화할 수 있는 메시지 및 첨부 파일에 대한 크기 제한에 대한 자세한 내용은 [Exchange Online 제한을 참조하세요.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)
 
 ## <a name="how-office-365-advanced-message-encryption-works-on-top-of-ome"></a>Office 365 고급 메시지 암호화가 OME 위에 작동하는 방식
 

@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: d1ac0bd289185f47fc5eb0bbe34c16fbe28bba84
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: a995b6fdbbff36c6466f5e55cda9d7e196fa2c02
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819894"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927032"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
@@ -227,7 +227,7 @@ DLP 정책은 다음 정책 템플릿을 사용할 때 필요합니다.
 
 11. 이전 단계에서 **SharePoint 사이트,** 민감도 레이블 및/또는 중요한 정보 유형을 우선 순위 콘텐츠로 지정하려는 경우 *SharePoint* *사이트,* 중요한 정보 유형 및 민감도 레이블에 대한 세부 정보 페이지가 표시됩니다.  이러한 세부 정보 페이지를 사용하여 정책의 우선 순위를 지정하기 위해 SharePoint, 중요한 정보 유형 및 민감도 레이블을 정의합니다.
 
-    - **SharePoint 사이트:** **SharePoint** 사이트 추가를 선택하고 액세스 권한이 있으며 우선 순위를 지정할 SharePoint 조직을 선택합니다. 예를 들어 *"group1@contoso.sharepoint.com/sites/group1" 를 사용할 수 있습니다.*
+    - **SharePoint 사이트:** **SharePoint** 사이트 추가를 선택하고 액세스 권한이 있으며 우선 순위를 지정할 SharePoint 사이트를 선택합니다. 예를 들어 *"group1@contoso.sharepoint.com/sites/group1" 를 사용할 수 있습니다.*
     - **중요한 정보 유형:** 중요한 정보 **유형 추가를 선택하고** 우선 순위를 지정할 민감도 유형을 선택합니다. 예를 들어 "미국 은행 계좌 *번호"* 및 *"신용 카드 번호"를 예로 들 수 있습니다.*
     - **민감도 레이블:** **민감도** 레이블 추가를 선택하고 우선 순위를 지정할 레이블을 선택합니다. 예를 들어 *"기밀"* *및 "비밀"입니다.*
 

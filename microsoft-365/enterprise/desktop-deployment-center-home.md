@@ -12,23 +12,23 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
-description: 사용 불가능한 데스크톱 배포 센터에 해당하는 리소스에 액세스하는 방법
-ms.openlocfilehash: 1b930bae76c510108556947977aa1393ae9bd86b
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+description: 사용 불가능한 데스크톱 배포 센터와 동등한 리소스에 액세스하는 방법
+ms.openlocfilehash: c4456d0f17e38920e77c855e31205e51025f111b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398834"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928171"
 ---
 # <a name="desktop-deployment-center-deprecated"></a>데스크톱 배포 센터(사용 불가능)
 
-데스크톱 배포 센터로 구성된 콘텐츠 본문은 더 이상의 사용되지 않습니다. 
+데스크톱 배포 센터로 구성된 콘텐츠 본문은 사용되지 않습니다. 
 
 다음 리소스를 사용하여 최신 데스크톱을 배포합니다.
 
-- [Windows 10 배포](https://docs.microsoft.com/windows/deployment/)
-- [Microsoft 365 앱 배포](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
-- [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide)
+- [Windows 10 배포](/windows/deployment/)
+- [Microsoft 365 앱 배포](/deployoffice/deployment-guide-microsoft-365-apps)
+- [Microsoft Intune](/mem/intune/fundamentals/planning-guide)
 - [ID 및 장치 액세스 정책](../security/office-365-security/microsoft-365-policies-configurations.md)
 
 [Microsoft Mechanics에서 데스크톱](https://www.aka.ms/watchhowtoshift)배포 시리즈 비디오를 볼 수도 있습니다.

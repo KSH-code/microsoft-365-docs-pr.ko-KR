@@ -1,5 +1,5 @@
 ---
-title: DAP 파트너에 대한 사용자 지정을 사용하여 Windows PowerShell 보고 데이터 검색
+title: DAP 파트너를 위한 Windows PowerShell 고객 테넌트 보고 데이터 검색
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 893e5275-30b3-433f-8ecd-644f78f513e2
 description: '요약: Microsoft Exchange Online용 원격Windows PowerShell을 사용하여 개별 고객 테넌트에서 보고서를 검색합니다.'
-ms.openlocfilehash: 24d56fffa60232c4ea39f4fe7769131cab23be2f
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 8ea5f9834bfcc0d517fc1e0938c3547d88d1d8a8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692353"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927219"
 ---
 # <a name="retrieve-customer-tenant-reporting-data-with-windows-powershell-for-delegated-access-permissions-dap-partners"></a>DAP(위임된 액세스 권한) 파트너용 Windows PowerShell을 사용하여 고객 테넌트 보고 데이터 검색
 
@@ -28,14 +28,14 @@ ms.locfileid: "46692353"
 
 원격 Windows PowerShell 사용하여 Microsoft Exchange Online 테넌트에서 보고서를 검색할 수 있습니다.
   
-Syndication 및 CSP(클라우드 솔루션 공급자) 파트너는 Exchange Online PowerShell용 원격 서비스를 통해 직접 고객 테넌트 보고서를 Windows PowerShell 액세스할 수 있습니다. 이를 통해 파트너는 보고 데이터를 수집하고 저장한 후 여기에서 다른 작업을 수행할 수 있습니다. 원격 연결을 연 후 고객 테넌트에 대한 보고 데이터 검색은 고객 테넌트에 대해 cmdlet을 실행하는 것과 동일합니다.
+Syndication 및 CSP(클라우드 솔루션 공급자) 파트너는 Exchange Online PowerShell용 원격 서비스를 통해 직접 고객 테넌트 보고서를 Windows PowerShell 데이터에 액세스할 수 있습니다. 이를 통해 파트너는 보고 데이터를 수집하고 저장한 후 여기에서 다른 작업을 수행할 수 있습니다. 원격 연결을 연 후 고객 테넌트에 대한 보고 데이터 검색은 고객 테넌트에 대해 cmdlet을 실행하는 것과 동일합니다.
   
-이 문서에서는 Exchange Online용 원격 Windows PowerShell 사용하여 단일 고객 테넌트에 연결하고 보고서를 검색합니다. 기본적으로 Windows PowerShell 테넌트의 보고 데이터 집계는 지원되지 않습니다. 이 프로시저를 사용하여 검색하는 보고서는 연결하는  _DelegatedOrg에만_ 해당합니다.
+이 문서에서는 Exchange Online용 원격 Windows PowerShell 사용하여 단일 고객 테넌트에 연결하고 보고서를 검색합니다. 기본적으로 Windows PowerShell 테넌트의 보고 데이터 집계를 지원하지 않습니다. 이 절차를 사용하여 검색하는 보고서는 연결하는  _DelegatedOrg에만_ 해당합니다.
   
  
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 원격 Windows PowerShell을 사용하여 Exchange Online 테넌트에 연결해야 합니다. 자세한 내용은 [DAP(위임된 액세스 권한) 파트너용 원격 Windows PowerShell을 사용하여 Exchange Online 테넌트에 연결](connect-to-exchange-online-tenants-with-remote-windows-powershell-for-delegated.md)을 참조하세요.
+- 원격 Windows PowerShell을 사용하여 Exchange Online 테넌트에 연결해야 합니다. 자세한 내용은 [DAP(위임된 액세스 권한) 파트너용 원격 Windows PowerShell을 사용하여 Exchange Online 테넌트에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
     
 ## <a name="run-the-get-stalemailboxreport-sample"></a>Get-StaleMailboxReport 샘플 실행
 
@@ -51,9 +51,8 @@ Get-StaleMailboxReport -StartDate 03/25/2015 -EndDate 03/31/2015
 
 #### 
 
-[Office 365 보고 웹 서비스](https://go.microsoft.com/fwlink/p/?LinkId=532777)
+[Office 365 보고 웹 서비스](/previous-versions/office/developer/o365-enterprise-developers/jj984325(v=office.15))
   
-[Exchange Online의 보고 cmdlet](https://go.microsoft.com/fwlink/p/?LinkId=526430)
+[Exchange Online의 보고 cmdlet](/powershell/module/exchange/get-csclientdevicedetailreport)
   
 [파트너를 위한 도움말](https://go.microsoft.com/fwlink/p/?LinkID=533477)
-

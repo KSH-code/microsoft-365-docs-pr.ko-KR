@@ -17,12 +17,12 @@ ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: 이 방문 페이지에서는 Office 365의 보안 및 규정 준수에 대한 링크 및 계획 정보를 제공합니다.
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3684506b458ea2d40d3ff8b022bfb9e8154accf3
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: f050d8bb7052ec2f62a9e33c35bcbe43546a40c2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399037"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927964"
 ---
 # <a name="plan-for-security-amp-compliance"></a>보안 준수 &amp; 계획
 
@@ -32,7 +32,7 @@ ms.locfileid: "48399037"
 
 Office 365용 정보 보호 포스터의 정보 보호 기능을 안내합니다. 
   
-[Microsoft 365를 사용하여 데이터 개인 정보 보호 규정에 대한 정보 보호 배포](https://docs.microsoft.com/microsoft-365/solutions/information-protection-deploy?view=o365-worldwide)
+[Microsoft 365를 사용하여 데이터 개인 정보 보호 규정에 대한 정보 보호 배포](../solutions/information-protection-deploy.md?view=o365-worldwide)
   
 ## <a name="step-2-check-your-secure-score"></a>2단계: 보안 점수 확인
 
@@ -56,19 +56,19 @@ Microsoft 365 데이터 및 서비스에 대한 액세스를 보호하는 것은
   
 [PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
   
-## <a name="step-5-leverage-the-microsoft-365-security-amp-compliance-center"></a>5단계: Microsoft 365 보안 준수 센터 &amp; 활용
+## <a name="step-5-leverage-the-microsoft-365-security-amp-compliance-center"></a>5단계: Microsoft 365 보안 및 준수 &amp; 센터 활용
 
-보안 준수 센터는 위협 관리, 데이터 거버넌스, 검색 및 조사를 포함하여 Microsoft 365 보안의 스펙트럼을 관리하는 데 사용할 컨트롤에 대한 단일 &amp; 보기를 제공합니다. 
+보안 및 준수 센터에서는 위협 관리, 데이터 거버넌스, 검색 및 조사를 포함하여 Microsoft 365 보안의 스펙트럼을 관리하는 데 사용할 컨트롤에 대한 단일 보기를 &amp; 제공합니다. 
   
-- [보안 준수 &amp; 센터로 이동](go-to-the-securitycompliance-center.md)
+- [보안 및 준수 &amp; 센터로 이동](./microsoft-365-compliance-center.md)
     
-- [보안 준수 &amp; 센터의 사용 권한](~/security/office-365-security/protect-against-threats.md)
+- [보안 및 준수 &amp; 센터의 사용 권한](~/security/office-365-security/protect-against-threats.md)
     
-- [사용자에게 보안 준수 센터에 대한 &amp; 액세스 권한을 부여합니다.](~/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
+- [사용자에게 보안 및 준수 센터에 대한 &amp; 액세스 권한을 부여합니다.](~/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
     
 ## <a name="step-6-use-end-to-end-security-scenarios-as-starting-points"></a>6단계: 종단별 보안 시나리오를 시작점으로 사용
 
-엔터프라이즈 규모 또는 정교한 액세스 보안 시나리오의 시작점으로 이러한 권장 구성을 사용 합니다.
+이러한 권장 구성을 엔터프라이즈 규모 또는 정교한 액세스 보안 시나리오의 시작 지점으로 활용하십시오.
   
 - [보안 전자 메일 정책 및 구성](../security/office-365-security/secure-email-recommended-policies.md)
     

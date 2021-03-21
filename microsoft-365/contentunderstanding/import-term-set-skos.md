@@ -11,12 +11,12 @@ ms.service: ''
 ms.collection: enabler-strategic
 search.appverid: ''
 localization_priority: Priority
-ms.openlocfilehash: 3d6efce9b6414444793da54d9c6d7be47d6a9a5c
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: 734edbb462193291b6bd2fb4a8e6afc3a0b709cb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145082"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928251"
 ---
 # <a name="import-a-term-set-using-a-skos-based-format"></a>SKOS 기반 형식을 사용하여 용어 집합 가져오기
 
@@ -44,7 +44,7 @@ SKOS 기반 형식을 사용하여 용어 집합을 가져올 수 있습니다. 
 
 ## <a name="see-also"></a>참고 항목
 
-[관리되는 메타데이터 소개](https://docs.microsoft.com/sharepoint/managed-metadata)
+[관리되는 메타데이터 소개](/sharepoint/managed-metadata)
 
 [문서 이해 개요](document-understanding-overview.md)
 

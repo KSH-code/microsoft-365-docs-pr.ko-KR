@@ -18,12 +18,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: Office 365 메시지 암호화를 사용하여 조직에 대한 중요한 정보 유형 정책을 만드는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 22aec87b149c58b2537f6921fb7c37552ef72f98
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: ad570f64122aecd245b912b1b6545a5950e838cc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741381"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927746"
 ---
 # <a name="create-a-sensitive-information-type-policy-for-your-organization-using-message-encryption"></a>메시지 암호화를 사용하여 조직에 대한 중요한 정보 유형 정책 만들기
 
@@ -35,7 +35,7 @@ EAC(Exchange 관리 센터)에 로그인하고 메일 흐름 **규칙으로**  >
 
 ### <a name="to-create-the-policy-by-using-mail-flow-rules-in-powershell"></a>PowerShell에서 메일 흐름 규칙을 사용하여 정책을 만들 수 있습니다.
 
-조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요. 정책 Set-IRMConfiguration New-TransportRule cmdlet을 사용하여 정책을 만들 수 있습니다.
+조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 정책 Set-IRMConfiguration New-TransportRule cmdlet을 사용하여 정책을 만들 수 있습니다.
 
 ## <a name="example-mail-flow-rule-created-with-powershell"></a>PowerShell을 통해 만든 메일 흐름 규칙 예
 
@@ -54,7 +54,7 @@ Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $true
 New-TransportRule -Name "Encrypt outbound sensitive emails (out of box rule)" -SentToScope  NotInOrganization  -ApplyRightsProtectionTemplate "Encrypt" -MessageContainsDataClassifications @(@{Name="ABA Routing Number"; minCount="1"},@{Name="Credit Card Number"; minCount="1"},@{Name="Drug Enforcement Agency (DEA) Number"; minCount="1"},@{Name="U.S. / U.K. Passport Number"; minCount="1"},@{Name="U.S. Bank Account Number"; minCount="1"},@{Name="U.S. Individual Taxpayer Identification Number (ITIN)"; minCount="1"},@{Name="U.S. Social Security Number (SSN)"; minCount="1"}) -SenderNotificationType "NotifyOnly"
 ```
 
-자세한 내용은 [Set-IRMConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-irmconfiguration) 및 [New-TransportRule을 참조하세요.](https://docs.microsoft.com/powershell/module/exchange/new-transportrule)
+자세한 내용은 [Set-IRMConfiguration](/powershell/module/exchange/set-irmconfiguration) 및 [New-TransportRule을 참조하세요.](/powershell/module/exchange/new-transportrule)
 
 ## <a name="how-recipients-access-attachments"></a>받는 사람이 첨부 파일에 액세스하는 방법
 
@@ -77,4 +77,4 @@ Microsoft 365는 이 활동을 감사하고 관리자가 사용할 수 있도록
 
 ## <a name="to-disable-or-customize-the-sensitive-information-types-policy"></a>중요한 정보 유형 정책을 사용하지 않도록 설정하거나 사용자 지정
 
-Exchange 메일 흐름 규칙을 만든 후 [](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule)   >   EAC(Exchange 관리 센터)의 메일 흐름 규칙으로 이동하여 규칙을 사용하지 않도록 설정하거나 편집하고 "아웃바운드 중요한 전자 메일 *암호화(기본* 규칙 외) " 규칙을 사용하지 않도록 설정할 수 있습니다.
+Exchange 메일 흐름 규칙을 만든 후 [](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule)   >   EAC(Exchange 관리 센터)의 메일 흐름 규칙으로 이동하여 규칙을 사용하지 않도록 설정하거나 편집하고 "아웃바운드 중요한 전자 메일 *암호화(기본* 규칙 외) " 규칙을 사용하지 않도록 설정할 수 있습니다.

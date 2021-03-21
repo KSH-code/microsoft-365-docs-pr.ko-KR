@@ -12,19 +12,19 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
-description: 이 문서에서는 SharePoint 사이트를 다중 위치 환경의 지정된 지리적 위치로 제한하는 방법을 학습합니다.
-ms.openlocfilehash: f2a09f177c68d30121c207287e053b2b25405fbc
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: 이 문서에서는 SharePoint 사이트를 Multi-Geo 환경에서 지정된 지리적 위치로 제한하는 방법을 학습합니다.
+ms.openlocfilehash: 74255db19b2ecf9b333d33208c63da260b2bd747
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692354"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927267"
 ---
 # <a name="restrict-sharepoint-site-content-to-a-geo-location"></a>SharePoint 사이트 콘텐츠를 지리적 위치로 제한
 
 상황에 따라 사이트가 이동되지 않도록 하거나 다른 지리적 위치에 있는 사이트의 파일 콘텐츠를 캐싱하지 못하게 하여 사이트가 만들어진 위치에 남아 있도록 사이트와 파일 콘텐츠를 적용할 수 있습니다.
 
-[Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) cmdlet을 **RestrictedToGeo** 매개 변수와 함께 사용하여 이 작업을 할 수 있습니다. 이 매개 변수의 기본값은 NULL이지만 다음 중 하나로 변경할 수 있습니다.
+[Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) cmdlet을 **RestrictedToGeo** 매개 변수와 함께 사용하여 이 작업을 할 수 있습니다. 이 매개 변수의 기본값은 NULL이지만 다음 중 하나로 변경할 수 있습니다.
 
 |제한|설명|
 |:----------|:----------|
