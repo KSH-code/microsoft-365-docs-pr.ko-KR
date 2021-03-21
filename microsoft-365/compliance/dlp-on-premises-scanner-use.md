@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 사용 방법을 배워서 미사용 데이터를 스캔하고 온-프레미스 파일 공유와 온-프레미스 SharePoint 폴더와 문서 라이브러리에 대한 보호 조치를 시행하세요.
-ms.openlocfilehash: 34be93f5c9980a7f8ea8ad31b708af14a8725f73
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: c46b67ca392732616329bad138166c892cd06640
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50417395"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917824"
 ---
 # <a name="use-the-microsoft-365-data-loss-prevention-on-premises-scanner-preview"></a>Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 사용(미리 보기)
 
@@ -47,7 +47,7 @@ DLP 온-프레미스 스캐너의 데이터는 다양한 영역에서 나타납�
  
 #### <a name="microsoft-365-audit-log"></a>Microsoft 365 감사 로그
 
-공개 미리 보기 동안 DLP 규칙 일치 항목은 감사 로그 UI에서 확인할 수 있으며, [규정 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)에서 보거나 [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) PowerShell으로 액세스할 수 있습니다.
+공개 미리 보기 동안 DLP 규칙 일치 항목은 감사 로그 UI에서 확인할 수 있으며, [규정 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)에서 보거나 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) PowerShell으로 액세스할 수 있습니다.
 
 #### <a name="aip"></a>AIP
 

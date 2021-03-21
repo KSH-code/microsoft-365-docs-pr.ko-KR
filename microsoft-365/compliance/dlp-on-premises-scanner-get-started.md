@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 설정
-ms.openlocfilehash: e0d7bc9eeae7d701c14aaaeeed7a01cab33829ea
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 7e190a1d6e902af3406f7e8f317efe80e825e7f2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50417403"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917834"
 ---
 # <a name="get-started-with-the-data-loss-prevention-on-premises-scanner-preview"></a>데이터 손실 방지 온-프레미스 스캐너로 시작하기(미리 보기)
 
@@ -41,7 +41,7 @@ DLP 온-프레미스 스캐너를 시작하기 전에 [Microsoft 365 구독](htt
 - Microsoft 365 E5 정보 보호 및 거버넌스 
 
 
-전체 라이선싱에 대한 자세한 내용은 [보안 & 준수에 대한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조하세요.
+전체 라이선싱에 대한 자세한 내용은 [보안 & 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조하세요.
 
 ### <a name="permissions"></a>사용 권한
 
@@ -56,13 +56,13 @@ DLP 온-프레미스 스캐너의 데이터는 [활동 탐색기](data-classific
 ### <a name="dlp-on-premises-scanner-prerequisites"></a>DLP 온-프레미스 스캐너에 대한 필수 구성 요소
 
 - Azure Information Protection(AIP) 스캐너는 DLP 정책 일치 및 정책 적용을 구현합니다. 스캐너가 AIP 클라이언트의 일부로 설치되어 있으므로 설치에 있어서 AIP, AIP 클라이언트 및 AIP 통합 레이블 지정 스캐너의 모든 필수 구성 요소를 충족해야 합니다.
-- AIP 클라이언트 및 스캐너를 배포합니다. [AIP 통합 레이블 지정 클라이언트 설치](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app) 및 []에 대한 자세한 내용은 [Azure Information Protection 통합 레이블 지정 스캐너 구성 및 설치](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install)를 참조하세요.
+- AIP 클라이언트 및 스캐너를 배포합니다. [AIP 통합 레이블 지정 클라이언트 설치](/azure/information-protection/rms-client/install-unifiedlabelingclient-app) 및 []에 대한 자세한 내용은 [Azure Information Protection 통합 레이블 지정 스캐너 구성 및 설치](/azure/information-protection/deploy-aip-scanner-configure-install)를 참조하세요.
 - 모든 검색 규칙이 중요한 정보 유형만을 기반으로 할지라도 테넌트에 하나 이상의 레이블 및 정책이 게시되어야 합니다.
 
 ## <a name="deploy-the-dlp-on-premises-scanner"></a>DLP 온-프레미스 스캐너 배포
 
-1. [AIP 통합 레이블 지정 클라이언트 설치](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app) 절차를 따르세요. 
-2. [Azure Information Protection 통합 레이블 지정 스캐너 구성 및 설치](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install)절차를 따라 스캐너 설치를 완료합니다.
+1. [AIP 통합 레이블 지정 클라이언트 설치](/azure/information-protection/rms-client/install-unifiedlabelingclient-app) 절차를 따르세요. 
+2. [Azure Information Protection 통합 레이블 지정 스캐너 구성 및 설치](/azure/information-protection/deploy-aip-scanner-configure-install)절차를 따라 스캐너 설치를 완료합니다.
     1. 네트워크 검색 작업 구성은 선택적 단계입니다. 이를 건너뛰고 콘텐츠 스캔 작업에서 스캔할 특정 리포지토리를 정의할 수 있습니다.
     2. 콘텐츠 스캔 작업을 만들고 DLP 엔진으로 평가해야 하는 파일을 호스트하는 리포지토리를 지정해야 합니다.
     3. 만든 콘텐츠 스캔 작업의 DLP 규칙을 사용하도록 설정하고, DLP 적용 단계로 직접 진행하지 않는 이상 옵션을 **끄기** 로 **적용** 하도록 설정합니다.
@@ -115,7 +115,7 @@ DLP 온-프레미스 스캐너의 데이터는 [활동 탐색기](data-classific
 
 2. [활동 탐색기 시작하기](data-classification-activity-explorer.md)의 절차를 참조하여 온-프레미스 스캐너 위치에 대한 모든 데이터에 액세스합니다.
 
-3. [규정 준수 센터의 감사 로그](https://security.microsoft.com/auditlogsearch)를 엽니다. 공개 미리 보기 동안 DLP 규칙 일치 항목은 감사 로그 UI에서 확인할 수 있으며, [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) PowerShell을 이용하여 액세스할 수 있습니다. 
+3. [규정 준수 센터의 감사 로그](https://security.microsoft.com/auditlogsearch)를 엽니다. 공개 미리 보기 동안 DLP 규칙 일치 항목은 감사 로그 UI에서 확인할 수 있으며, [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) PowerShell을 이용하여 액세스할 수 있습니다. 
 
 
 ## <a name="next-steps"></a>다음 단계

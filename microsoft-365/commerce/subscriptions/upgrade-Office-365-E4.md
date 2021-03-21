@@ -17,22 +17,22 @@ ms.collection:
 ms.custom: customer-email
 search.appverid:
 - MET150
-description: Office 365 E4 구독에서 업그레이드하는 방법을 학습합니다.
+description: Office 365 E4 구독에서 업그레이드하는 방법을 배워야 합니다.
 ms.date: 08/14/2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2587732a6c4092dcb7b53daf9493e7cee2f1987c
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: d4b9b22a4291f57e16d8b18a820a1016245e4cbc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47308008"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917549"
 ---
 # <a name="upgrade-from-an-office-365-e4-subscription"></a>Office 365 E4 구독에서 업그레이드
 
 이 문서에서는 Office 365 E4에서 새 구독으로 업그레이드하는 프로세스를 단계화합니다. Office 365 E4에서 업그레이드할 때 사용할 수 있는 옵션에 대한 자세한 내용은 [Office 365 E4](important-information-e4.md)고객을 위한 중요 정보를 참조하세요.
 
 > [!IMPORTANT]
-> 이 문서는 신용 카드 또는 송장을 통해서만 Microsoft에서 직접 구입한 Office 365 E4 구독에 적용됩니다. 파트너 또는 볼륨 라이선스 서비스 센터를 통해 구독을 다른 방식으로 구입한 경우 Microsoft 계정 담당자 또는 파트너에게 문의하여 요금제 업그레이드를 지원하세요.
+> 이 문서는 신용 카드 또는 송장을 통해 Microsoft에서 직접 구입한 Office 365 E4 구독에만 적용됩니다. 파트너 또는 볼륨 라이선스 서비스 센터를 통해 구독을 다른 방식으로 구입한 경우 Microsoft 계정 담당자 또는 파트너에게 문의하여 요금제 업그레이드를 지원하세요.
 
 ## <a name="what-are-my-options-for-how-to-upgrade"></a>업그레이드하는 방법에 대한 내 옵션은 무엇입니까?
 
@@ -59,10 +59,10 @@ ms.locfileid: "47308008"
 
 1. 관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.
 2. Office 365 E4 구독을 선택합니다.
-3. 업그레이드 **탭을** 선택합니다. 다른 요금제가 나열되어 있는 경우 요금제가 자동으로 업그레이드될 수 있습니다.
+3. 업그레이드 **탭을** 선택합니다. 다른 계획이 나열되어 있는 경우 요금제가 자동으로 업그레이드될 수 있습니다.
 4. 자동으로 업그레이드할 수 없는 경우 업그레이드할 수 없는 이유를 설명하는 메시지가 표시됩니다.
 
-계획을 자동으로 업그레이드할 수 없는 이유는 여러 가지가 있습니다. 대부분의 문제는 해결할 수 있는 서비스 상태 문제와 같은 임시 문제입니다. 자세한 내용은 계획을 업그레이드할 수 없는 [이유를 참조하세요.](upgrade-to-different-plan.md#why-cant-i-upgrade-plans) 업그레이드에 대한 도움이 필요한 경우 고객 [지원에 문의합니다.](../../admin/contact-support-for-business-products.md)
+계획을 자동으로 업그레이드할 수 없는 이유는 여러 가지가 있습니다. 대부분의 문제는 해결할 수 있는 서비스 상태 문제와 같은 일시적인 문제입니다. 자세한 내용은 요금제 업그레이드를 할 수 없는 [이유는 무엇입니까?를 참조하세요.](upgrade-to-different-plan.md#why-cant-i-upgrade-plans) 업그레이드에 대한 도움이 필요한 경우 고객 [지원에 문의합니다.](../../admin/contact-support-for-business-products.md)
 
 ## <a name="will-a-credit-check-be-required"></a>신용 검사가 필요한가요?
 
@@ -74,11 +74,11 @@ ms.locfileid: "47308008"
 
 다음은 시작하기 전에 알아야 할 중요 사항입니다.
 
-- **관리 다운타임 계획** 관리자는 요금제가 업그레이드되는 동안 Microsoft 365 관리 센터를 사용할 수 없습니다. 사용자 수에 따라 업그레이드에 몇 분에서 몇 시간까지 걸릴 수 있습니다. Microsoft 365 관리 센터를 사용하여 업데이트를 할 필요가 없는 경우 업그레이드를 계획하는 것이 좋습니다.
+- **관리 다운타임 계획** 관리자는 요금제가 업그레이드되는 동안 Microsoft 365 관리 센터를 사용할 수 없습니다. 사용자의 수에 따라 업그레이드에 몇 분에서 몇 시간까지 걸릴 수 있습니다. Microsoft 365 관리 센터를 사용하여 업데이트를 만들 필요가 없는 경우 업그레이드를 계획하는 것이 좋습니다.
 
-    사용자는 요금제가 업그레이드되는 동안 서비스가 중단되지 않고 업그레이드 프로세스 중에도 E4 구독에 대한 모든 권한을 계속 사용할 수 있습니다. 업그레이드가 완료되면 사용자는 새 계획에 액세스할 수 있습니다.
-- **사용자, 라이선스, 청구 및 사용자 지정 도메인** 업그레이드 중에 사용자 및 라이선스를 처리하는 방법, 계획 업그레이드가 청구에 미치는 영향 및 사용자 지정 도메인을 처리하는 방법을 이해하려면 요금제 업그레이드가 내 서비스 및 청구에 대해 어떤 작업을 [하나요?](upgrade-to-different-plan.md#what-does-upgrading-a-plan-do-to-my-service-and-billing)
-- **사용자 라이선스 수를 변경합니다.** 계획 업그레이드의 일부로 라이선스를 제거할 수 없습니다. 그러나 계획을 [업그레이드하기](../licenses/buy-licenses.md) 전이나 후에 라이선스 수를 줄일 수 있습니다.
+    사용자는 요금제가 업그레이드되는 동안 서비스가 중단되지 않고 업그레이드 프로세스 중에도 E4 구독에 대한 모든 권한을 계속 사용할 수 있습니다. 업그레이드가 완료되면 사용자가 새 계획에 액세스할 수 있습니다.
+- **사용자, 라이선스, 청구 및 사용자 지정 도메인** 업그레이드 중에 사용자 및 라이선스가 처리된 방식, 계획 업그레이드가 청구에 미치는 영향 및 사용자 지정 도메인을 처리하는 방법을 이해하려면 요금제 업그레이드가 내 서비스 및 대금 청구에 어떤 영향을 미치나요?를 [참조하세요.](upgrade-to-different-plan.md#what-does-upgrading-a-plan-do-to-my-service-and-billing)
+- **사용자 라이선스 수를 변경합니다.** 요금제 업그레이드의 일부로 라이선스를 제거할 수 없습니다. 그러나 계획을 [업그레이드하기](../licenses/buy-licenses.md) 전이나 후에 라이선스 수를 줄일 수 있습니다.
 
 ### <a name="start-the-upgrade-by-using-the-upgrade-tab"></a>업그레이드 탭을 사용하여 업그레이드 시작
 
@@ -86,21 +86,21 @@ ms.locfileid: "47308008"
 2. Office 365 E4 구독을 선택합니다.
 3. 구독 세부 정보 페이지에서 업그레이드 **탭을** 선택합니다.
 4. 구입하려는 구독을 찾은 다음 업그레이드를 **선택합니다.**
-5. 카트 **페이지에서** 모든 것이 올바른지 확인합니다. 월별 또는 년별 지불 여부를 선택하고 수량에 따라 라이선스 **수를 검증합니다.**
+5. 카트 **페이지에서** 모든 것이 올바른지 확인합니다. 월간 또는 년별 지불 여부를 선택하고 수량에서 라이선스 **수를 확인 합니다.**
     > [!NOTE]
     > Office 365 추가 파일 저장소와 같은 Office 365 E4 구독과 연결된 모든 추가 기능 구독도 나열됩니다. 그러나 업그레이드할 구독에 포함된 추가 기능 구독이 있는 경우 해당 구독이 제거됩니다.
 6. 주문을 검토한 후 체크 아웃으로 **이동을 선택합니다.**
-7. 체크 아웃 **페이지에서** 판매 판매, 청구 항목 및 이 순서대로 **항목을 검토합니다.** 이러한 **항목** 옆의 변경을 선택하여 정보를 편집합니다.
+7. 체크 **아웃 페이지에서** 판매된 항목  **,** 청구된 항목 및 이 **순서대로 항목을 검토합니다.** 이러한 **항목 옆의** 변경을 선택하여 정보를 편집합니다.
     > [!NOTE]
-    > 송장을 결제 방법으로 사용하는 옵션은 특정 비용 금액을 상회하는 주문에만 사용할 수 있습니다. 신용 검사가 필요한 경우 송장 결제 옵션을 선택하면 업그레이드 프로세스를 영업일 최대 2일까지 연기할 수 있습니다.
-8. 완료되면 장소 **순서를 선택합니다.**
+    > 송장을 결제 방법으로 사용하는 옵션은 특정 비용 금액을 상회하는 주문에만 사용할 수 있습니다. 신용 검사가 필요한 경우 송장 결제 옵션을 선택하면 업그레이드 프로세스가 영업일 최대 2일까지 지연될 수 있습니다.
+8. 완료되면 주문 **을 선택합니다.**
 
 > [!NOTE]
-> 일반적으로 계획 업그레이드에는 오류나 문제가 없는 경우 10분 미만이 걸립니다. 이전 구독 또는 새 구독을 확인하여 업그레이드 상태를 확인할 수 있습니다.
+> 오류나 문제가 없는 경우 요금제 업그레이드에는 일반적으로 10분 미만이 걸립니다. 이전 또는 새 구독을 확인하여 업그레이드 상태를 확인할 수 있습니다.
 
 ## <a name="upgrade-your-plan-manually"></a>수동으로 계획 업그레이드
 
-사용자를 다른 구독으로 수동으로 업그레이드하려면 표시된 순서대로 다음 단계를 완료합니다.
+사용자를 다른 구독으로 수동으로 업그레이드하려면 다음 단계를 표시된 순서대로 완료합니다.
 
 - [1단계: 새 구독 구입](#step-1-buy-a-new-subscription)
 - [2단계: 구독의 라이선스 수가 올바른지 확인](#step-2-verify-that-your-subscription-has-the-right-number-of-licenses)
@@ -109,32 +109,32 @@ ms.locfileid: "47308008"
 
 ### <a name="step-1-buy-a-new-subscription"></a>1단계: 새 구독 구입
 
-아직 새 구독이 없는 경우 다른 [비즈니스용 Microsoft 365](../buy-another-subscription.md)구독을 구입할 수 있습니다.
+아직 새 구독이 없는 경우 다른 [비즈니스용 Microsoft 365 구독을 구입할 수 있습니다.](../try-or-buy-microsoft-365.md)
 
-이미 구독이 있는 경우 다음 단계를 계속 진행합니다.
+구독이 이미 있는 경우 다음 단계를 계속 진행합니다.
 
 ### <a name="step-2-verify-that-your-subscription-has-the-right-number-of-licenses"></a>2단계: 구독의 라이선스 수가 올바른지 확인
 
-다음 단계로 이동하기 전에 새 구독 내부의 모든 서비스가 설정되어 있는지 확인해야 합니다. 처음 확인할 때 구독이 준비되지 않은 경우 나중에 다시 시도하십시오.
+다음 단계로 이동하기 전에 새 구독 내부의 모든 서비스가 설정되어 있는지 확인해야 합니다. 처음 확인할 때 구독이 준비되지 않은 경우 나중에 다시 시도하세요.
 
 > [!NOTE]
-> 새 구독 비용을 송장으로 결제하기로 선택한 경우 신용 검사가 필요한 것일 수 있습니다. 구독을 사용할 수 있는 경우 영업일 최대 2일이 걸릴 수 있습니다.
+> 새 구독 비용을 송장으로 결제하기로 선택한 경우 신용 검사가 필요한 것일 수 있습니다. 구독을 사용할 수 있는 데 영업일까지 최대 2일이 걸릴 수 있습니다.
 
 1. 관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.
-2. 구독 상태 **드롭다운에서** 활성을 **선택합니다.**
+2. 구독 **상태 드롭다운에서** 활성 을 **선택합니다.**
 3. 새 구독이 표시되고 라이선스 수가 Office 365 E4의 라이선스 수와 동일한지 확인
-4. 라이선스를 더 구입해야 하는 경우 구독 라이선스 구입 또는 제거의 단계를 [따릅니다.](../licenses/buy-licenses.md)
+4. 라이선스를 더 구입해야 하는 경우 구독 라이선스 구입 또는 제거의 [단계를 따릅니다.](../licenses/buy-licenses.md)
 
 ### <a name="step-3-reassign-licenses-to-users"></a>3단계: 사용자에게 라이선스 다시 배포
 
-Microsoft 365 관리 센터를 사용하여 한에 최대 20명 사용자의 라이선스를 다시 할당할 수 있습니다. 자세한 내용은 사용자를 다른 [구독으로 이동을 참조하세요.](move-users-different-subscription.md)
+Microsoft 365 관리 센터를 사용하여 한에 최대 20명 사용자에 대한 라이선스를 다시 할당할 수 있습니다. 자세한 내용은 [Move users to a different subscription을 참조하세요.](move-users-different-subscription.md)
 
 > [!TIP]
-> 사용자가 많은 경우 [Office 365 PowerShell을](https://docs.microsoft.com/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell)사용하여 사용자 라이선스를 대량으로 할당할 수 있습니다.
+> 사용자가 많은 경우 [Office 365 PowerShell을](../../enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)사용하여 대량으로 사용자 라이선스를 할당할 수 있습니다.
 
 ### <a name="step-4-cancel-the-office-365-e4-subscription"></a>4단계: Office 365 E4 구독 취소
 
-모든 사용자가 새 구독에 다시 재배치되면 [Office 365 E4](cancel-your-subscription.md)구독을 취소합니다.
+모든 사용자가 새 구독에 다시 재할당된 후 [Office 365 E4 구독을 취소합니다.](cancel-your-subscription.md)
 
 ## <a name="related-content"></a>관련 콘텐츠
 

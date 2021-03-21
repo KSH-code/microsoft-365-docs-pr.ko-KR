@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva Topics 개요입니다.
-ms.openlocfilehash: 91442ba12b3d5df1d9934022751f4bc381cd40e8
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
-ms.translationtype: HT
+ms.openlocfilehash: 68a88e74a674a7bbc290ae0e8f88bfbe0277d910
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453972"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917383"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Microsoft Viva Topics 개요 
 
@@ -66,7 +66,7 @@ Viva Topics는 Microsoft AI 기술을 사용하여 Microsoft 365 환경에서 **
 
 지식 관리자는 테넌트의 모든 SharePoint 사이트를 크롤링하거나 특정 SharePoint 사이트를 선택할 수 있습니다.
 
-[주제 검색 및 큐레이션](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery-curation) 참조
+[주제 검색 및 큐레이션](./topic-experiences-discovery-curation.md) 참조
 
 ## <a name="roles"></a>역할
 
@@ -108,7 +108,7 @@ Microsoft 365 관리 센터의 관리자 컨트롤을 사용하여 지식 네트
 - 주제를 만들고 편집할 수 있는 사용자를 제어합니다.
 - 주제를 볼 수 있는 사용자를 제어합니다.
 
-관리자 컨트롤에 대한 자세한 내용은 [사용자 권한 할당](https://docs.microsoft.com/microsoft-365/knowledge/plan-topic-experiences#user-permissions), [주제 표시 여부 관리](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-knowledge-rules) 및 [주제 검색 관리](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery)를 참조하세요.
+관리자 컨트롤에 대한 자세한 내용은 [사용자 권한 할당](./plan-topic-experiences.md#user-permissions), [주제 표시 여부 관리](./topic-experiences-knowledge-rules.md) 및 [주제 검색 관리](./topic-experiences-discovery.md)를 참조하세요.
 
 ## <a name="topic-curation--feedback"></a>주제 큐레이션 및 피드백
 
@@ -120,8 +120,7 @@ AI는 사용자 환경이 변함에 따라 계속해서 주제를 개선하기 �
 
 또한, 적절한 권한이 있는 사용자는 주제와 관련된 Yammer 대화와 같은 항목에 태그를 지정하고 항목을 특정 주제에 추가할 수 있습니다. 
 
-[주제 검색 및 큐레이션](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery-curation) 참조
+[주제 검색 및 큐레이션](./topic-experiences-discovery-curation.md) 참조
 
 
 ## <a name="see-also"></a>참고 항목
-

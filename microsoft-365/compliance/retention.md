@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 67697124df7908dca2ace74dc5de921d18d817c6
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 0eaf89b3f49d8b69cb7b36e4e25df90946c19e32
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727327"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917210"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
 > [!NOTE]
 > 앱에 보존 정책에 대한 메시지가 표시되면 IT 부서에 이러한 보존 정책이 구성된 방식에 대한 정보를 문의하세요. 이러한 메시지가 Teams 채팅 또는 채널 메시지용인 경우 [보존 정책에 대한 Teams 메시지](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)를 참조하세요.
@@ -96,7 +96,7 @@ ms.locfileid: "50727327"
 
 - SharePoint 문서에 대해 기본 레이블을 적용합니다.
 
-- 콘텐츠를 영구적으로 삭제하기 전에 검토할 수 있는 [처리 검토](disposition-reviews.md) 를 지원합니다.
+- 콘텐츠를 영구적으로 삭제하기 전에 검토할 수 있는 [처리 검토](./disposition.md) 를 지원합니다.
 
 - 콘텐츠를 레이블 설정의 일부로 [레코드](records-management.md#records)로 표시하고, 보관 기간이 끝나 콘텐츠가 삭제된 경우 항상  [처리 증명](disposition.md#disposition-of-records) 이 있습니다.
 
@@ -200,7 +200,7 @@ Exchange 공용 폴더, Skype, Teams 및 Yammer 메시지는 보존 레이블을
 전자 메일 또는 문서에는 한 번에 하나의 보존 레이블만 할당할 수 있습니다. 보존 레이블은 최종 사용자나 관리자가 [수동으로](create-apply-retention-labels.md#manually-apply-retention-labels) 적용하거나 다음 방법 중 하나를 사용하여 자동으로 적용할 수 있습니다.
 
 - [자동 적용 레이블 정책](apply-retention-labels-automatically.md)
-- [SharePoint Syntex용 문서 이해 모델](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-retention-label-to-a-model)
+- [SharePoint Syntex용 문서 이해 모델](../contentunderstanding/apply-a-retention-label-to-a-model.md)
 - [SharePoint용 기본 레이블](create-apply-retention-labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set) 또는 [Outlook](create-apply-retention-labels.md#applying-a-default-retention-label-to-an-outlook-folder)
 - [Outlook 규칙](create-apply-retention-labels.md#automatically-applying-a-retention-label-to-email-by-using-rules)
 
@@ -376,35 +376,35 @@ eDiscovery 보존 대상 항목도 보존의 첫 번째 원칙에 속하므로 �
 
 ## <a name="powershell-cmdlets-for-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블의 PowerShell cmdlet
 
-보존 정책 cmdlet을 사용하려면 먼저 [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)해야 합니다. 그런 다음, 다음 cmdlet 중 하나를 사용하세요.
+보존 정책 cmdlet을 사용하려면 먼저 [Office 365 보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)해야 합니다. 그런 다음, 다음 cmdlet 중 하나를 사용하세요.
 
-- [Get-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/get-compliancetag)
+- [Get-ComplianceTag](/powershell/module/exchange/get-compliancetag)
 
-- [New-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/new-compliancetag)
+- [New-ComplianceTag](/powershell/module/exchange/new-compliancetag)
 
-- [Remove-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/remove-compliancetag)
+- [Remove-ComplianceTag](/powershell/module/exchange/remove-compliancetag)
 
-- [Set-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/set-compliancetag)
+- [Set-ComplianceTag](/powershell/module/exchange/set-compliancetag)
 
-- [Enable-ComplianceTagStorage](https://docs.microsoft.com/powershell/module/exchange/enable-compliancetagstorage)
+- [Enable-ComplianceTagStorage](/powershell/module/exchange/enable-compliancetagstorage)
 
-- [Get-ComplianceTagStorage](https://docs.microsoft.com/powershell/module/exchange/get-compliancetagstorage)
+- [Get-ComplianceTagStorage](/powershell/module/exchange/get-compliancetagstorage)
 
-- [Get-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancepolicy)
+- [Get-RetentionCompliancePolicy](/powershell/module/exchange/get-retentioncompliancepolicy)
 
-- [New-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancepolicy)
+- [New-RetentionCompliancePolicy](/powershell/module/exchange/new-retentioncompliancepolicy)
 
-- [Remove-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/remove-retentioncompliancepolicy)
+- [Remove-RetentionCompliancePolicy](/powershell/module/exchange/remove-retentioncompliancepolicy)
 
-- [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy)
+- [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy)
 
-- [Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancerule)
+- [Get-RetentionComplianceRule](/powershell/module/exchange/get-retentioncompliancerule)
 
-- [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule)
+- [New-RetentionComplianceRule](/powershell/module/exchange/new-retentioncompliancerule)
 
-- [Remove-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/remove-retentioncompliancerule)
+- [Remove-RetentionComplianceRule](/powershell/module/exchange/remove-retentioncompliancerule)
 
-- [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule)
+- [Set-RetentionComplianceRule](/powershell/module/exchange/set-retentioncompliancerule)
 
 ## <a name="when-to-use-retention-policies-and-retention-labels-or-ediscovery-holds"></a>보존 정책 및 보존 레이블 또는 eDiscovery 보류를 사용하는 경우
 
@@ -430,11 +430,11 @@ eDiscovery 보존 대상 항목도 보존의 첫 번째 원칙에 속하므로 �
 오래된 eDiscovery 도구를 사용하여 데이터를 보존하는 경우, 다음 리소스를 참조하세요.
 
 - Exchange: 
-    - [원본 위치 유지 및 소송 보존](https://go.microsoft.com/fwlink/?linkid=846124)
-    - [Exchange Online 사서함의 보류 유형을 식별하는 방법](https://docs.microsoft.com/microsoft-365/compliance/identify-a-hold-on-an-exchange-online-mailbox)
+    - [원본 위치 유지 및 소송 보존](/exchange/security-and-compliance/in-place-and-litigation-holds)
+    - [Exchange Online 사서함의 보류 유형을 식별하는 방법](./identify-a-hold-on-an-exchange-online-mailbox.md)
 
 - SharePoint 및 OneDrive: 
-    - [eDiscovery 센터에서 사례에 콘텐츠 추가 및 원본 우 위치 유지](https://docs.microsoft.com/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)
+    - [eDiscovery 센터에서 사례에 콘텐츠 추가 및 원본 우 위치 유지](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)
 
 - [eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md)
 
@@ -446,7 +446,7 @@ eDiscovery 보존 대상 항목도 보존의 첫 번째 원칙에 속하므로 �
 
 **Exchange Online의 이전 기능:**
 
-- [MRM(메시징 레코드 관리)](https://go.microsoft.com/fwlink/?linkid=846126)이라고도 하는 [보존 태그 및 보존 정책](https://go.microsoft.com/fwlink/?linkid=846125) (삭제만 해당)
+- [MRM(메시징 레코드 관리)](/exchange/security-and-compliance/messaging-records-management/messaging-records-management)이라고도 하는 [보존 태그 및 보존 정책](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies) (삭제만 해당)
 
 **SharePoint 및 OneDrive의 이전 기능:**
 
@@ -462,8 +462,8 @@ eDiscovery 보존 대상 항목도 보존의 첫 번째 원칙에 속하므로 �
 
 ## <a name="related-information"></a>관련 정보
 
-- [SharePoint Online 제한 사항](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
-- [Microsoft Teams의 제한 사항 및 사양](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) 
+- [SharePoint Online 제한 사항](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
+- [Microsoft Teams의 제한 사항 및 사양](/microsoftteams/limits-specifications-teams) 
 - [정보 거버넌스 및 레코드 관리를 위해 규정 요구 사항을 충족할 수 있도록 도움이 되는 리소스](retention-regulatory-requirements.md)
 
 ## <a name="configuration-guidance"></a>구성 지침
@@ -473,4 +473,3 @@ eDiscovery 보존 대상 항목도 보존의 첫 번째 원칙에 속하므로 �
 보존 레이블을 만들고 적용하려면:
 - [보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)
 - [보존 레이블을 콘텐츠에 자동으로 적용하기](apply-retention-labels-automatically.md)
-

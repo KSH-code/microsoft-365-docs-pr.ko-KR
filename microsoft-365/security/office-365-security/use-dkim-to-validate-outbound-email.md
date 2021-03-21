@@ -20,12 +20,12 @@ ms.custom:
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 55a7bf612d121364ed64c159a450b6cf035d3837
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 7894375cf7dd7973a7c3dc0160dbaa084823e9d4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50286432"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918645"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -88,7 +88,7 @@ SPF는 메시지 봉투에 정보를 추가하지만 DKIM은 실제로 메시지
 ## <a name="manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>수동으로 1024 비트 키를 2048 비트 DKIM 암호화 키로 업그레이드
 <a name="1024to2048DKIM"> </a>
 
-1024 및 2048 비트가 모두 DKIM 키에 대한 지원 을 받게되므로 다음의 지침은 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)에서 1024 비트 키를 2048로 업그레이드하는 방법을 설명할 것입니다. 다음은 두 가지 사용 사례에 대한 단계입니다. 구성에 가장 적합한 한 사례를 선택하세요.
+1024 및 2048 비트가 모두 DKIM 키에 대한 지원 을 받게되므로 다음의 지침은 [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)에서 1024 비트 키를 2048로 업그레이드하는 방법을 설명할 것입니다. 다음은 두 가지 사용 사례에 대한 단계입니다. 구성에 가장 적합한 한 사례를 선택하세요.
 
 - **이미 DKIM을 구성** 한 경우 다음을 실행하여 비트 수를 회전합니다.
 
@@ -115,7 +115,7 @@ Get-DkimSigningConfig -Identity <Domain for which the configuration was set> | F
 
 두 번째 선택기를 회전하려면 a) Microsoft 365 서비스가 선택기를 회전시키게 하고 6개월 이내에 2048 비트로 업그레이드하거나 b) 4일 후 2048 비트가 사용되고 있는지 확인한 후 나열된 적절 한 cmdlet을 사용하여 수동으로 두 번째 회전기 키를 회전시킵니다.
 
-구문 및 매개 변수에 대한 자세한 정보는 다음 문서를 참조하세요.[Rotate-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig), [New-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/new-dkimsigningconfig) 및 [Get-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/get-dkimsigningconfig)
+구문 및 매개 변수에 대한 자세한 정보는 다음 문서를 참조하세요.[Rotate-DkimSigningConfig](/powershell/module/exchange/rotate-dkimsigningconfig), [New-DkimSigningConfig](/powershell/module/exchange/new-dkimsigningconfig) 및 [Get-DkimSigningConfig](/powershell/module/exchange/get-dkimsigningconfig)
 
 ## <a name="steps-you-need-to-do-to-manually-set-up-dkim"></a>DKIM을 수동으로 설정하는 데 필요한 단계
 <a name="SetUpDKIMO365"> </a>
@@ -132,7 +132,7 @@ DKIM을 구성하려면 다음 단계를 수행합니다.
 DNS에 DKIM 서명을 추가하려는 각 도메인에 대해 두 개의 CNAME 레코드를 게시해야 합니다.
 
 > [!NOTE]
-> 전체 문서를 읽지 않은 경우 시간을 절약해 주는 이 PowerShell 연결 정보를 놓쳤을 수 있습니다. [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+> 전체 문서를 읽지 않은 경우 시간을 절약해 주는 이 PowerShell 연결 정보를 놓쳤을 수 있습니다. [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell).
 
 Exchange Online PowerShell에서 다음 명령을 실행하여 선택 레코드를 만들 수 있습니다.
 
@@ -215,7 +215,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 >:::image type="content" source="../../media/DKIMNoKeysSavedForThisDomain.PNG" alt-text="'이 도메인에 대해 저장된 DKIM 키가 없습니다.' 오류가 발생합니다.":::
 > DKIM을 처음 구성하는 경우 '이 도메인에 대해 저장된 DKIM 키가 없습니다' 오류가 표시됩니다. 아래 2단계의 명령을 완료하여(예: *Set-DkimSigningConfig -IDENTITY contoso.com -enabled $true*) 키를 확인합니다.
 
-1. [Exchange Online PowerShell에 연결합니다](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+1. [Exchange Online PowerShell에 연결합니다](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. 다음 명령을 실행합니다.
 
@@ -266,7 +266,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 
 ### <a name="to-disable-the-dkim-signing-policy-by-using-windows-powershell"></a>Windows PowerShell을 사용하여 DKIM 서명 정책을 비활성화하려면
 
-1. [Exchange Online PowerShell에 연결합니다](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+1. [Exchange Online PowerShell에 연결합니다](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. DKIM 서명을 비활성화하려는 각 도메인에 대해 다음 명령 중 하나를 실행합니다.
 
@@ -359,4 +359,4 @@ DKIM은 스푸핑을 방지하도록 설계되었지만 SPF 및 DMARC에서 더 
 
 ## <a name="more-information"></a>추가 정보
 
-[회전-DkimSigningConfig](https://docs.microsoft.com/powershell/module/exchange/rotate-dkimsigningconfig)을 통한 키 회전
+[회전-DkimSigningConfig](/powershell/module/exchange/rotate-dkimsigningconfig)을 통한 키 회전

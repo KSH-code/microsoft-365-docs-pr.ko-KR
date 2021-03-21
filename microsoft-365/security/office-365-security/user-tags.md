@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for Office 365 계획 2에서 사용자 태그를 사용하여 특정 사용자 그룹을 식별하는 방법을 배울 수 있습니다. 태그 필터링은 Microsoft Defender for Office 365의 경고, 보고서 및 조사에서 사용할 수 있으며, 태그가 지정된 사용자를 빠르게 식별할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 80bd360888be3aeea42da6f9b58a119a9752d382
-ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
+ms.openlocfilehash: e9bb6a233f21268df860974549ecffbfd7154045
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50758895"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916409"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 사용자 태그
 
@@ -41,7 +41,7 @@ ms.locfileid: "50758895"
 - [위협 탐색기 및 실시간 검색](threat-explorer.md)
 - [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
 - [캠페인 보기](campaigns.md)
-- 우선 순위 계정의 경우 [](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) EAC(Exchange 관리 센터)의 우선 순위 계정 보고서에 대한 전자 메일 문제를 사용할 수 있습니다.
+- 우선 순위 계정의 경우 [](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) EAC(Exchange 관리 센터)의 우선 순위 계정 보고서에 대한 전자 메일 문제를 사용할 수 있습니다.
 
 이 문서에서는 보안 및 준수 센터에서 사용자 태그를 & 설명합니다. 보안 및 준수 센터에는 사용자 태그를 & cmdlet이 없습니다.
 

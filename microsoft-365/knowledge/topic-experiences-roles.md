@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva 항목의 사용자 역할에 대해 자세히 알아보습니다.
-ms.openlocfilehash: d5b57e768a1de8bc0447492067371630b2d045f6
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 6d93046a96b60779c3cd3bd6c6aa600cb443118f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453947"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917359"
 ---
 # <a name="microsoft-viva-topics-roles"></a>Microsoft Viva 주제 역할 
 
@@ -34,7 +34,7 @@ Microsoft 365 환경에서 Viva 항목을 사용하는 경우 사용자는 다�
 주제 뷰어는 조직의 사용자로, SharePoint 최신 사이트, SharePoint를 통한 Microsoft Search 및 Office.com 센터에서 강조 표시된 항목을 볼 수 있습니다. 항목 페이지에서 항목에 대한 자세한 내용을 볼 수 있습니다. 
 
 항목 강조 및 해당 항목 페이지를 항목 뷰어에 표시하려면 사용자가 다음을 해야 합니다.
--   Microsoft 365 관리자가 [Viva Topics](https://docs.microsoft.com/microsoft-365/knowledge/set-up-topic-experiences#assign-licenses) 라이선스를 할당합니다.
+-   Microsoft 365 관리자가 [Viva Topics](./set-up-topic-experiences.md#assign-licenses) 라이선스를 할당합니다.
 -   항목에 대한 가시성을 확보할 수 있습니다. 이 작업은 Microsoft 365 관리 센터의 Viva 항목 설정 페이지에서 기술 관리자가 수행합니다.
 
 
@@ -48,8 +48,8 @@ Microsoft 365 환경에서 Viva 항목을 사용하는 경우 사용자는 다�
 
 항목을 만들고 편집하려면 사용자가 다음을 해야 합니다.
 
--   Microsoft 365 관리자가 [Viva Topics](https://docs.microsoft.com/microsoft-365/knowledge/set-up-topic-experiences#assign-licenses) 라이선스를 할당합니다.
--   항목을 만들고 편집할 수 있는 사용 [권한을 할당합니다.](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions#change-who-has-permissions-to-do-tasks-on-the-topic-center) 이 작업은 Microsoft 365 관리 센터의 Viva 항목 설정 페이지에서 기술 관리자가 수행합니다.
+-   Microsoft 365 관리자가 [Viva Topics](./set-up-topic-experiences.md#assign-licenses) 라이선스를 할당합니다.
+-   항목을 만들고 편집할 수 있는 사용 [권한을 할당합니다.](./topic-experiences-user-permissions.md#change-who-has-permissions-to-do-tasks-on-the-topic-center) 이 작업은 Microsoft 365 관리 센터의 Viva 항목 설정 페이지에서 기술 관리자가 수행합니다.
 
 ## <a name="knowledge-managers"></a>지식 관리자
 
@@ -63,8 +63,8 @@ Microsoft 365 환경에서 Viva 항목을 사용하는 경우 사용자는 다�
 또한 기술 관리자는 기존 항목을 편집하거나 새 항목을 만들 수 있습니다.
 
 항목을 관리하려면 사용자가 다음을 해야 합니다.
--   Microsoft 365 관리자가 [Viva Topics](https://docs.microsoft.com/microsoft-365/knowledge/set-up-topic-experiences#assign-licenses) 라이선스를 할당합니다.
--   항목을 관리할 수 [있는 사용 권한을 할당합니다.](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions#change-who-has-permissions-to-do-tasks-on-the-topic-center) 이 작업은 Microsoft 365 관리 센터의 Viva 항목 설정 페이지에서 기술 관리자가 수행합니다.
+-   Microsoft 365 관리자가 [Viva Topics](./set-up-topic-experiences.md#assign-licenses) 라이선스를 할당합니다.
+-   항목을 관리할 수 [있는 사용 권한을 할당합니다.](./topic-experiences-user-permissions.md#change-who-has-permissions-to-do-tasks-on-the-topic-center) 이 작업은 Microsoft 365 관리 센터의 Viva 항목 설정 페이지에서 기술 관리자가 수행합니다.
 
 비즈니스에 대한 전반적 지식이 있는 사용자는 지식 관리자 역할에 대한 좋은 후보가 될 수 있습니다. 이러한 사용자들은 주제가 유효한지 알 수 있을 뿐만 아니라 해당 항목과 관련된 회사 내의 사용자도 알고 있을 수 있습니다.
 
@@ -85,4 +85,3 @@ Microsoft 365 환경에서 Viva 항목을 사용하는 경우 사용자는 다�
 
 
 ## <a name="see-also"></a>참고 항목
-

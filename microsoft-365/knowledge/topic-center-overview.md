@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: 54e513fc12a42d2779ee5f35628781676adc0f48
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 558d0fc9279c4b0d9e8c287fe4d99f5ac5884606
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453996"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917491"
 ---
 # <a name="topic-center-overview"></a>토픽 센터 개요
 
@@ -32,7 +32,7 @@ Microsoft Viva 항목에서 항목 센터는 조직에 대한 지식의 중심 �
 
 ## <a name="where-is-my-topic-center"></a>내 항목 센터 위치
 
-항목 센터는 Viva 항목 설정 중에 만들어집니다. 설치가 완료되면 관리자는 항목 센터 관리 페이지에서 [URL을 찾을 수 있습니다.](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-administration#to-access-topics-management-settings)
+항목 센터는 Viva 항목 설정 중에 만들어집니다. 설치가 완료되면 관리자는 항목 센터 관리 페이지에서 [URL을 찾을 수 있습니다.](./topic-experiences-administration.md#to-access-topics-management-settings)
 
 
 1. Microsoft 365 관리 센터에서 **설정,** **Org 설정을 클릭합니다.**
@@ -94,13 +94,6 @@ Microsoft Viva 항목에서 항목 센터는 조직에 대한 지식의 중심 �
 
 
 ## <a name="see-also"></a>참고 항목
-
-
-
-  
-
-
-
 
 
 

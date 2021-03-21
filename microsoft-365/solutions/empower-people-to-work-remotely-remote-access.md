@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft 365 클라우드 서비스로의 액세스를 최적화하는 동안 원격 작업자는 온-프레미스 리소스에 액세스할 수 있는지 확인합니다.
-ms.openlocfilehash: 43000ce27fc24dbc6c2db3782b0ed40aa66b7fd2
-ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
+ms.openlocfilehash: ae86013ea1235c6dfd9929fd329cb0b2dba0fb93
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055534"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918353"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>2단계. 온-프레미스 앱 및 서비스로의 원격 액세스 제공
 
@@ -55,7 +55,7 @@ Microsoft 365 트래픽은 조직을 통해 간접 경로를 가져와야 하며
 
 분할 터널링을 사용할 경우, 사용자는 특정 유형의 트래픽을 제외하여 VPN 연결을 통해 조직 네트워크에 보내지 않도록 VPN 클라이언트를 구성할 수 있습니다.
 
-Microsoft 365 클라우드 리소스에 대한 액세스를 최적화하려면 VPN 연결을 통해 범주 **최적화** Microsoft 365 끝점으로의 트래픽을 제외하도록 분할 터널링 VPN 클라이언트를 구성합니다. 자세한 내용은 [Office 365 끝점 범주](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#new-office-365-endpoint-categories)를 참조하세요. 최적화 카테고리 끝점의 [이 목록](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)을 참조하세요.
+Microsoft 365 클라우드 리소스에 대한 액세스를 최적화하려면 VPN 연결을 통해 범주 **최적화** Microsoft 365 끝점으로의 트래픽을 제외하도록 분할 터널링 VPN 클라이언트를 구성합니다. 자세한 내용은 [Office 365 끝점 범주](../enterprise/microsoft-365-network-connectivity-principles.md#new-office-365-endpoint-categories)를 참조하세요. 최적화 카테고리 끝점의 [이 목록](../enterprise/urls-and-ip-address-ranges.md)을 참조하세요.
 
 다음은 Microsoft 365 클라우드 앱에 대한 대부분의 트래픽이 VPN 연결을 바이패스하는 결과 트래픽 흐름입니다.
 
@@ -63,7 +63,7 @@ Microsoft 365 클라우드 리소스에 대한 액세스를 최적화하려면 V
 
 이는 VPN 클라이언트가 인터넷을 통해 직접 중요한 Microsoft 365 클라우드 서비스 트래픽을 가장 가까운 진입점으로 Microsoft 네트워크로 전송하고 받도록 해줍니다.
 
-자세한 내용과 지침은 [VPN 분산 터널링을 사용한 원격 근무자의 Office 365 연결 최적화](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel??)를 참조하세요. 
+자세한 내용과 지침은 [VPN 분산 터널링을 사용한 원격 근무자의 Office 365 연결 최적화](../enterprise/microsoft-365-vpn-split-tunnel.md)를 참조하세요. 
 
 ## <a name="deploy-remote-access-when-all-your-apps-are-web-apps-and-you-have-hybrid-identity"></a>모든 앱이 웹 앱이고 하이브리드 ID가 있는 경우 원격 액세스 배포
 
@@ -73,7 +73,7 @@ Azure AD 응용 프로그램 프록시의 구성 요소는 다음과 같습니�
 
 ![Azure AD 응용 프로그램 프록시의 구성 요소](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-application-proxy.png)
 
-자세한 내용은 이 [Azure AD 응용 프로그램 프록시 개요](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)를 참조하세요.
+자세한 내용은 이 [Azure AD 응용 프로그램 프록시 개요](/azure/active-directory/manage-apps/application-proxy)를 참조하세요.
 
 >[!Note]
 >Azure AD 응용 프로그램 프록시는 Microsoft 365 구독에 포함되어 있지 않습니다. 별도의 Azure 구독을 통해 비용을 지불해야 합니다.
@@ -87,7 +87,7 @@ P2S VPN 연결은 Azure 가상 네트워크를 통해 원격 작업자의 장치
 
 ![Azure P2S VPN의 구성 요소](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-p2s-vpn.png)
 
-자세한 내용은 이 [P2S VPN의 개요](https://docs.microsoft.com/azure/vpn-gateway/point-to-site-about)를 참조하세요.
+자세한 내용은 이 [P2S VPN의 개요](/azure/vpn-gateway/point-to-site-about)를 참조하세요.
 
 >[!Note]
 >Azure P2S VPN은 Microsoft 365 구독에 포함되어 있지 않습니다. 별도의 Azure 구독을 통해 비용을 지불해야 합니다.
@@ -99,7 +99,7 @@ P2S VPN 연결은 Azure 가상 네트워크를 통해 원격 작업자의 장치
 
 ![Azure Windows Virtual Desktop의 구성 요소](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-windows-virtual-desktop.png)
 
-자세한 내용은 [Windows Virtual Desktop의 개요](https://docs.microsoft.com/azure/virtual-desktop/overview)를 참조하세요. 
+자세한 내용은 [Windows Virtual Desktop의 개요](/azure/virtual-desktop/overview)를 참조하세요. 
 
 >[!Note]
 >Windows Virtual Desktop은 Microsoft 365 구독에 포함되어 있지 않습니다. 별도의 Azure 구독을 통해 비용을 지불해야 합니다.
@@ -116,7 +116,7 @@ P2S VPN 연결은 Azure 가상 네트워크를 통해 원격 작업자의 장치
 ## <a name="admin-technical-resources-for-remote-access"></a>원격 액세스를 위한 관리자 기술 리소스
 
 - [원격 직원에 맞게 Office 365 트래픽을 빠르게 최적화하고 인프라의 부하를 줄이는 방법](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
-- [VPN 분할 터널링을 사용하여 원격 사용자의 Office 365 연결 최적화](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel?)
+- [VPN 분할 터널링을 사용하여 원격 사용자의 Office 365 연결 최적화](../enterprise/microsoft-365-vpn-split-tunnel.md)
 
 ## <a name="results-of-step-2"></a>2단계의 결과
 
@@ -136,4 +136,3 @@ P2S VPN 연결은 Azure 가상 네트워크를 통해 원격 작업자의 장치
 [![3단계: Microsoft 365 보안 및 규정 준수 서비스 배포](../media/empower-people-to-work-remotely/remote-workers-step-grid-3.png)](empower-people-to-work-remotely-security-compliance.md)
 
 [3단계](empower-people-to-work-remotely-security-compliance.md)를 계속 진행해 Microsoft 365 보안 및 규정 준수 서비스를 배포하여 앱, 데이터 및 장치를 보호하세요.
-

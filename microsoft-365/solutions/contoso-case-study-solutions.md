@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 대표적인 가상 글로벌 조직이 Microsoft 365 솔루션을 배포한 방법
-ms.openlocfilehash: 1e06da623a9d580d71823ab030976b213a9e7022
-ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
+ms.openlocfilehash: 0c11b849f75e5707c5f49762c0b279a5dbfb2fd1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49620554"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918421"
 ---
 # <a name="microsoft-365-solutions-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 솔루션
 
@@ -36,6 +36,6 @@ Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우�
 
 - [극비 프로젝트를 위해 격리된 팀](contoso-team-for-top-secret-project.md)
 
-- [통합 커뮤니케이션, 공동 작업 및 음성 기능을 위해 Teams로 온-프레미스 사용자를 마이그레이션](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview)
+- [통합 커뮤니케이션, 공동 작업 및 음성 기능을 위해 Teams로 온-프레미스 사용자를 마이그레이션](/MicrosoftTeams/voice-case-study-overview)
 
 - [Microsoft Teams, Exchange 및 Yammer 통신에 대한 공격적 언어 정책 구성](../compliance/communication-compliance-case-study.md)

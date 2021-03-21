@@ -15,12 +15,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: 관리자가 Exchange Online PowerShell 및 CSV 파일을 사용하여 외부 연락처를 전체 주소 목록으로 대량으로 가져오는 방법을 알아보습니다.
-ms.openlocfilehash: 475afc3b0622c404b50ebe5549bb5be85af80c5e
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 178e3676f8dc5fb59cdad9cc46d7ecbd9dddb90e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423255"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918214"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Exchange Online으로 외부 연락처 대량 가져오기
 
@@ -71,7 +71,7 @@ ms.locfileid: "50423255"
 
 다음 단계는 1단계 및 PowerShell에서 만든 CSV 파일을 사용하여 CSV 파일에 나열된 외부 연락처를 Exchange Online으로 대량으로 가져오는 것입니다. 
   
-1.  PowerShell을 Exchange Online 조직에 연결합니다. 단계별 지침은 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하십시오. Exchange Online PowerShell에 연결할 때 전역 관리자 계정의 사용자 이름과 암호를 사용하세요. 
+1.  PowerShell을 Exchange Online 조직에 연결합니다. 단계별 지침은 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하십시오. Exchange Online PowerShell에 연결할 때 전역 관리자 계정의 사용자 이름과 암호를 사용하세요. 
     
 2. PowerShell을 Exchange Online에 연결한 후 1단계에서 CSV 파일을 저장한 데스크톱 폴더로 이동합니다. 예를 들면 `C:\Users\Administrator\desktop` 입니다.
     
@@ -86,7 +86,7 @@ ms.locfileid: "50423255"
 4. 새 외부 연락처를 보려면 EAC(Exchange 관리 센터)로 이동한 다음 받는 사람 연락처  \> **를 클릭합니다.** 
     
     > [!TIP]
-    > EAC에 연결하는 방법에 대한 지침은 [Exchange Online의 Exchange 관리 센터를 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=328197) 
+    > EAC에 연결하는 방법에 대한 지침은 [Exchange Online의 Exchange 관리 센터를 참조하세요.](/exchange/exchange-admin-center) 
   
 5. 필요한 경우 새로 **고침을** 클릭하여 목록을 업데이트하고 가져온 외부 연락처를 봐야 합니다. 
     
@@ -99,7 +99,7 @@ ms.locfileid: "50423255"
 
 2단계에서 명령을 실행하면 외부 연락처가 만들어지지만 CSV 파일에 있는 대부분의 셀의 정보인 연락처나 조직 정보는 포함되지 않습니다. 이는 새 외부 연락처를 만들 때 필요한 속성만 채워지기 때문에입니다. CSV 파일에 정보가 모두 채워지는 경우 걱정하지 마세요. 여기에 없는 경우 추가되지 않습니다.
   
-1.  PowerShell을 Exchange Online 조직에 연결합니다. 단계별 지침은 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하십시오.
+1.  PowerShell을 Exchange Online 조직에 연결합니다. 단계별 지침은 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하십시오.
     
 2. 1단계에서 CSV 파일을 저장한 데스크톱 폴더로 이동합니다. 예를 들면 `C:\Users\Administrator\desktop` 입니다.
     
@@ -138,7 +138,7 @@ ms.locfileid: "50423255"
 
 일부 회사에서는 외부 연락처만 사용하여 메일 그룹의 구성원으로 추가할 수 있습니다. 이 시나리오에서는 공유 주소 책에서 외부 연락처를 숨길 수 있습니다. 방법은 다음과 같습니다.
   
-1.  PowerShell을 Exchange Online 조직에 연결합니다. 단계별 지침은 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하십시오.
+1.  PowerShell을 Exchange Online 조직에 연결합니다. 단계별 지침은 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하십시오.
     
 2. 단일 외부 연락처를 숨기기 위해 다음 명령을 실행합니다.
     

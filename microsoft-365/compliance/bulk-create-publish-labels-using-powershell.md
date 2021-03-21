@@ -18,16 +18,16 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: PowerShell을 사용하여 Microsoft 365 준수 센터와 별개로 명령줄에서 보존 레이블을 만들고 게시하는 방법을 알아봅니다.
-ms.openlocfilehash: 5b8bb7a08c9794139e840d59f9238d858e15dd4e
-ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
+ms.openlocfilehash: 1c3a1e1b9e363659b276d2f11a929308f43737b3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47426985"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918224"
 ---
 # <a name="create-and-publish-retention-labels-by-using-powershell"></a>PowerShell을 사용하여 보존 레이블 만들기 및 게시
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
 Microsoft 365에서 문서 및 전자 메일을 유지하거나 삭제하게 해주는 [보존 레이블](retention.md)을 사용하기로 결정한 후에 최대 수백 개에 이르는 여러 개의 보존 레이블을 만들고 게시할 수 있음을 깨달았을 수 있습니다. 대량으로 보존 레이블을 만드는 권장 방법은 Microsoft 365 준수 센터에서 [파일 계획](file-plan-manager.md)을 사용하는 것입니다. 그렇지만 [PowerShell](retention.md#powershell-cmdlets-for-retention-policies-and-retention-labels)을 사용할 수도 있습니다.
   
@@ -51,7 +51,7 @@ Microsoft 365에서 문서 및 전자 메일을 유지하거나 삭제하게 해
 
 2. 텍스트를 열로 변환: **데이터** 탭 \> **텍스트를 열로 구분** \> **구분** \> **쉼표** \> **일반**
 
-2. 예제를 사용자가 직접 작성한 보존 레이블 및 설정 항목으로 대체합니다. 매개 변수 값에 대한 자세한 내용은 [New-ComplianceTag](https://go.microsoft.com/fwlink/?linkid=866511)를 참조하세요.
+2. 예제를 사용자가 직접 작성한 보존 레이블 및 설정 항목으로 대체합니다. 매개 변수 값에 대한 자세한 내용은 [New-ComplianceTag](/powershell/module/exchange/new-compliancetag)를 참조하세요.
 
 3. 워크시트를 이후의 단계에서 쉽게 찾을 수 있는 위치에 .csv 파일로 저장합니다. 예: C:\>Scripts\Labels.csv
 
@@ -78,7 +78,7 @@ LabelName_t_4,Record label tag - financial,$true,Keep,730,CreationAgeInDays,
 
 2. 텍스트를 열로 변환: **데이터** 탭 \> **텍스트를 열로 구분** \> **구분** \> **쉼표** \> **일반**
 
-2. 예제를 사용자가 직접 작성한 보존 레이블 정책 및 그 설정에 대한 입력으로 대체합니다. 이 cmdlet의 매개 변수 값에 대한 자세한 내용은 [New-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancepolicy)를 참조하세요.
+2. 예제를 사용자가 직접 작성한 보존 레이블 정책 및 그 설정에 대한 입력으로 대체합니다. 이 cmdlet의 매개 변수 값에 대한 자세한 내용은 [New-RetentionCompliancePolicy](/powershell/module/exchange/new-retentioncompliancepolicy)를 참조하세요.
 
 3. 워크시트를 이후의 단계에서 쉽게 찾을 수 있는 위치에 .csv 파일로 저장합니다. 예: `<path>Policies.csv`
 
@@ -102,7 +102,7 @@ Publishing Policy Yellow1,"LabelName_t_3, LabelName_t_4",N/A,$false,All,,,,,,,,,
 
 1. 다음 PowerShell 스크립트를 복사하여 메모장에 붙여넣습니다.
 
-2. 쉽게 찾을 수 있는 위치에 **.ps1**이라는 파일 이름 확장명을 사용하여 파일을 저장합니다. 예: `<path>CreateRetentionSchedule.ps1`
+2. 쉽게 찾을 수 있는 위치에 **.ps1** 이라는 파일 이름 확장명을 사용하여 파일을 저장합니다. 예: `<path>CreateRetentionSchedule.ps1`
 
 참고:
 
@@ -736,7 +736,7 @@ if ($ResultCSV)
 
 ## <a name="step-4-run-the-powershell-script"></a>4단계: PowerShell 스크립트 실행하기
 
-먼저 [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)합니다.
+먼저 [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)합니다.
 
 그런 다음 보존 레이블을 만들고 게시하는 스크립트를 실행합니다.
   
@@ -761,5 +761,3 @@ if ($ResultCSV)
 ```
 <path>.\Log_Publish_Compliance_Tag_01112018_151239.txt
 ```
-
-

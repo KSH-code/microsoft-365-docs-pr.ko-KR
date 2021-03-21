@@ -10,27 +10,30 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: None
 ms.collection:
+- M365-subscription-management
+- Adm_O365
+ms.custom:
+- AdminSurgePortfolio
 - commerce
-ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: AllowSelfServicePurchase PowerShell cmdlet을 사용하여 셀프 서비스 구매를 켜거나 끄는 방법을 학습합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 79ee2d96fa1ae6f49f0402f49ddec34e69257082
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 9fb5593855f9523198a3d70548e444a831e82c80
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653716"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918245"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>MSCommerce PowerShell 모듈에 AllowSelfServicePurchase 사용
 
-**MSCommerce** PowerShell 모듈을 [PowerShell](https://aka.ms/allowselfservicepurchase-powershell-gallery)갤러리에서 사용할 수 있습니다. 모듈에는 조직의 사용자가 셀프 서비스 구매를 할 수 있는지 여부를 제어할 수 있는 **AllowSelfServicePurchase에** 대한 **PolicyID** 매개 변수 값이 포함되어 있습니다.
+**이제 MSCommerce** PowerShell 모듈을 [PowerShell 갤러리에서 사용할 수 있습니다.](https://aka.ms/allowselfservicepurchase-powershell-gallery) 이 모듈에는 조직의 사용자가 셀프 서비스 구매를 할 수 있는지 여부를 제어할 수 있는 **AllowSelfServicePurchase에** 대한 **PolicyID** 매개 변수 값이 포함되어 있습니다.
 
 **MSCommerce** PowerShell 모듈을 사용하여 다음을 할 수 있습니다.
 
-- **AllowSelfServicePurchase** 매개 변수 값의 기본 상태(활성화 또는 비활성화 여부)를 확인합니다.
-- 적용 가능한 제품 목록 및 셀프 서비스 구매를 사용할 수 있는지 여부 보기
+- **AllowSelfServicePurchase** 매개 변수 값의 기본 상태(사용 또는 사용 안 하도록 설정되어 있는지 여부)를 확인합니다.
+- 해당 제품 목록 및 셀프 서비스 구매를 사용할 수 있는지 여부 보기
 - 특정 제품의 현재 설정을 보거나 수정하여 특정 제품을 사용하거나 사용하지 않도록 설정
 
 ## <a name="requirements"></a>요구 사항
@@ -43,7 +46,7 @@ ms.locfileid: "46653716"
 
 ## <a name="install-the-mscommerce-powershell-module"></a>MSCommerce PowerShell 모듈 설치
 
-Windows 10 장치에 **MSCommerce** PowerShell 모듈을 한 번 설치한 다음 시작하는 각 PowerShell 세션으로 가져올 수 있습니다. PowerShell 갤러리에서 **MSCommerce** [PowerShell 모듈을 다운로드합니다.](https://aka.ms/allowselfservicepurchase-powershell-gallery)
+WINDOWS 10 디바이스에 **MSCommerce** PowerShell 모듈을 한 번 설치한 다음 시작할 각 PowerShell 세션으로 가져올 수 있습니다. PowerShell **갤러리에서 MSCommerce** [PowerShell 모듈을 다운로드합니다.](https://aka.ms/allowselfservicepurchase-powershell-gallery)
 
 **PowerShellGet을** 사용하여 **MSCommerce** PowerShell 모듈을 설치하려면 다음 명령을 실행합니다.
 
@@ -67,7 +70,7 @@ Import-Module -Name MSCommerce
 Connect-MSCommerce
 ```
 
-이 명령은 현재 PowerShell 세션을 Azure Active Directory 테넌트에 연결합니다. 이 명령은 연결할 테넌트의 사용자 이름과 암호를 묻는 메시지를 제공합니다. 자격 증명에 다단계 인증을 사용하도록 설정한 경우 대화형 옵션을 사용하여 로그인합니다.
+이 명령은 현재 PowerShell 세션을 Azure Active Directory 테넌트에 연결합니다. 이 명령은 연결할 테넌트의 사용자 이름과 암호를 묻는 메시지를 제공합니다. 자격 증명에 대해 다단계 인증을 사용하도록 설정한 경우 대화형 옵션을 사용하여 로그인합니다.
 
 ## <a name="view-details-for-allowselfservicepurchase"></a>AllowSelfServicePurchase에 대한 세부 정보 보기
 
@@ -91,17 +94,19 @@ Get-MSCommerceProductPolicies -PolicyId AllowSelfServicePurchase
 |-----------------------------|--------------|
 | 사용자당 Power Apps | CFQ7TTC0KP0P |
 | 사용자당 전원 자동화 | CFQ7TTC0KP0N |
+| Power Automate RPA | CFQ7TTC0KXG6  |
+| Power BI Premium(독립 실행형) | CFQ7TTC0KXG7  |
 | Power BI Pro | CFQ7TTC0L3PB |
 | 프로젝트 계획 1 | CFQ7TTC0KXND |
 | 프로젝트 계획 3 | CFQ7TTC0KXNC |
-| Visio Plan 1 | CFQ7TTC0KXN9 |
-| Visio Plan 2 | CFQ7TTC0KXN8 |
+| Visio 요금제 1 | CFQ7TTC0KXN9 |
+| Visio 요금제 2 | CFQ7TTC0KXN8 |
 
 ## <a name="view-or-set-the-status-for-allowselfservicepurchase"></a>AllowSelfServicePurchase의 상태 보기 또는 설정
 
 셀프 서비스 구매에 사용할 수 있는 제품 목록을 보고 나면 특정 제품의 설정을 보거나 수정할 수 있습니다.
 
-특정 제품에 대한 정책 설정을 얻은 후 다음 명령을 실행합니다.
+특정 제품에 대한 정책 설정을 얻었다면 다음 명령을 실행합니다.
 
 ```powershell
 Get-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ7TTC0KP0N
@@ -136,13 +141,13 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $pr
 
 다음과 같은 오류 메시지가 표시됩니다.
 
-> HandleError : PolicyId 'AllowSelfServicePurchase', ErrorMessage를 사용하여 정책을 검색하지 못했습니다. 보내기에서 예기치 않은 오류가 발생했습니다.
+> HandleError : PolicyId 'AllowSelfServicePurchase', ErrorMessage를 사용하여 정책을 검색하지 못했습니다. - 연결이 닫혔습니다. 보내기 시 예기치 않은 오류가 발생했습니다.
 
 이전 버전의 TLS(전송 계층 보안) 때문일 수 있습니다. 이 서비스를 연결하려면 TLS 1.2 이상을 사용해야 합니다.
 
 ### <a name="solution"></a>해결 방법
 
-TLS 1.2로 업그레이드: [https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2)
+TLS 1.2로 업그레이드: [https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2](/mem/configmgr/core/plan-design/security/enable-tls-1-2)
 
 <!--
 ## Uninstall the MSCommerce module

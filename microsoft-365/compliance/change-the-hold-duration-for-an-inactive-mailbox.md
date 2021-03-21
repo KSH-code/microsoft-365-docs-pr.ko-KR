@@ -20,12 +20,12 @@ ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 사서함을 비활성으로 설정한 후 비활성 사서함에 할당된 보존 또는 Office 365 보존 정책의 기간을 변경합니다.
-ms.openlocfilehash: ec8a4cac7d2ee8e40bd791bd531556d1151c1ad1
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 49d133c64763cee12cb26e27d372a16ba4ad7e94
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421637"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918204"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox"></a>비활성 사서함의 보존 기간 변경
 
@@ -40,9 +40,9 @@ ms.locfileid: "50421637"
     
 - Exchange Online PowerShell 또는 보안 및 준수 & PowerShell에 연결하기 위해 다음 항목 중 하나를 참조하세요.
     
-  - [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+  - [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)
     
-  - [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+  - [보안 및 준수 센터 PowerShell에 연결하기](/powershell/exchange/connect-to-scc-powershell)
     
 - eDiscovery 사례와 연결된 보류는 무한 보류입니다. 즉, 변경할 수 있는 보류 기간이 없습니다. 항목은 영구적으로 또는 보류가 제거되고 비활성 사서함이 삭제될 때까지 유지됩니다.
     

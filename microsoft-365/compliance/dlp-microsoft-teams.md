@@ -15,19 +15,19 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft Teams 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서의 작동 방식에 대해 자세히 알아보면 이 문서를 읽어보아야 합니다.
-ms.openlocfilehash: 4b6f0c2e6915e7e96ba862fc6862b69aa0d827fd
-ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
+ms.openlocfilehash: 3a7b228292952bdba3c950b8ab67501c40e99238
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50572664"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917924"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft Teams
 
 > [!NOTE]
 > 데이터 손실 방지 기능은 최근에 Office 365 E5/A5, Microsoft 365 E5/A5, Microsoft 365 정보 보호 및 거버넌스 또는 Office 365 고급 규정 준수에 대해 라이선스가 부여된 사용자를 위한 Microsoft Teams 채팅 및 채널 메시지에 추가되었습니다. Office 365 및 Microsoft 365 E3에는 SharePoint Online, OneDrive 및 Exchange Online에 대한 DLP 보호가 포함되어 있습니다. 여기에는 Teams가 SharePoint Online 및 OneDrive를 사용하여 파일을 공유하기 때문에 Teams를 통해 공유되는 파일도 포함됩니다.
 Teams 채팅에서 DLP 보호를 지원하려면 E5가 필요합니다.
-라이선스 요구 사항에 대한 자세한 내용은 [Microsoft 365 테넌트 수준 서비스 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance)을 참고하십시오.
+라이선스 요구 사항에 대한 자세한 내용은 [Microsoft 365 테넌트 수준 서비스 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance)을 참고하십시오.
 
 ## <a name="overview-of-dlp-for-microsoft-teams"></a>Microsoft Teams용 DLP 개요
 
@@ -38,7 +38,7 @@ Teams 채팅에서 DLP 보호를 지원하려면 E5가 필요합니다.
 - **예제 1: 메시지의 중요한 정보 보호** 누군가 Teams 채팅 또는 채널에서 게스트(외부 사용자)와 중요한 정보를 공유하려고 시도하는 경우를 가정해 보세요. 이를 방지하는 DLP 정책이 정의되어 있는 경우 외부 사용자에게 전송되는 중요한 정보가 있는 메시지는 삭제됩니다. 이 문제는 DLP 정책이 구성된 방식에 따라 자동으로 몇 초 내에 발생합니다.
 
     > [!NOTE]
-    > Microsoft Teams용 DLP는 중요한 콘텐츠가 있는 Microsoft Teams 사용자와 공유할 때 차단합니다.<br/>- [팀 및](https://docs.microsoft.com/MicrosoftTeams/guest-access) 채널의 게스트 액세스 또는<br/>- [모임 및](https://docs.microsoft.com/MicrosoftTeams/manage-external-access) 채팅 세션의 외부 액세스 <p>외부 채팅 세션에 대한 DLP는 보낸 사람 및 수신자가 모두 Teams 전용 모드에 있으며 Microsoft Teams 네이티브 페더미스를 사용하는 [경우만 작동됩니다.](https://docs.microsoft.com/microsoftteams/manage-external-access) Teams용 DLP는 비즈니스용 [](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability#interoperability-of-teams-and-skype-for-business) Skype 또는 비 네이티브 페더임 채팅 세션과 상호 연동된 메시지를 차단하지 않습니다.
+    > Microsoft Teams용 DLP는 중요한 콘텐츠가 있는 Microsoft Teams 사용자와 공유할 때 차단합니다.<br/>- [팀 및](/MicrosoftTeams/guest-access) 채널의 게스트 액세스 또는<br/>- [모임 및](/MicrosoftTeams/manage-external-access) 채팅 세션의 외부 액세스 <p>외부 채팅 세션에 대한 DLP는 보낸 사람 및 수신자가 모두 Teams 전용 모드에 있으며 Microsoft Teams 네이티브 페더미스를 사용하는 [경우만 작동됩니다.](/microsoftteams/manage-external-access) Teams용 DLP는 비즈니스용 [](/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability#interoperability-of-teams-and-skype-for-business) Skype 또는 비 네이티브 페더임 채팅 세션과 상호 연동된 메시지를 차단하지 않습니다.
 
 - **예제 2: 문서의 중요한 정보 보호** 누군가가 Microsoft Teams 채널 또는 채팅에서 게스트와 문서를 공유하려고 시도하고 문서에 중요한 정보가 포함되어 있는 경우를 가정해 보세요. 이를 방지하는 DLP 정책이 정의되어 있는 경우 해당 사용자에 대해 문서가 열리지 않습니다. 이 경우 보호를 적용하려면 DLP 정책에 SharePoint 및 OneDrive가 포함되어야 합니다. 이 예제는 Microsoft Teams에 표시하는 SharePoint용 DLP의 예로, 사용자에게 Office 365 DLP(Office 365 E3에 포함)에 대한 라이선스가 필요하지만 사용자에게 Office 365 고급 규정 준수에 대한 라이선스가 필요하지 않습니다.
 
@@ -144,7 +144,7 @@ Teams 채팅에서 DLP 보호를 지원하려면 E5가 필요합니다.
 
 기본적으로 SharePoint 또는 Teams에서 외부 게스트가 중요한 정보를 포함하는 SharePoint 문서에 액세스할 수 없는 경우 다음을 선택합니다.
 
-- 기본적으로 새 파일을 중요한 것으로 표시하여 DLP가 문서를 검사하고 공유하기에 안전한 것으로 표시될 때까지 문서가 보호되도록 [할 수 있습니다.](https://docs.microsoft.com/sharepoint/sensitive-by-default)
+- 기본적으로 새 파일을 중요한 것으로 표시하여 DLP가 문서를 검사하고 공유하기에 안전한 것으로 표시될 때까지 문서가 보호되도록 [할 수 있습니다.](/sharepoint/sensitive-by-default)
 - 권장 DLP 정책 구조
     - **조건**
         - 콘텐츠에 다음 중요한 정보 유형이 포함되어 있습니다. [적용되는 모든 정보 선택]

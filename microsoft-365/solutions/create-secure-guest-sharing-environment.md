@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Microsoft 365에서 안전한 게스트 공유 환경을 만드는 데 사용할 수 있는 옵션에 대해 알아보고, 공동 작업을 위한 게스트 액세스를 제공합니다.
-ms.openlocfilehash: 28b2efba9f0c4ba17811a9871b05ab9f5a7a4839
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 0eb999d48bc0976d7c2bb32ff1bdba8d63409d81
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838685"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918469"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>보안 게스트 공유 환경 만들기
 
@@ -39,7 +39,7 @@ ms.locfileid: "50838685"
 - 중요한 정보 유형을 포함하는 문서에 대한 민감도 레이블을 자동으로 할당합니다.
 - 민감도 레이블이 있는 파일에서 게스트 액세스를 자동으로 제거합니다.
 
-이 문서에서 다루는 일부 옵션은 게스트가 Azure Active Directory의 계정이 있어야 액세스할 수 있습니다. 파일과 폴더를 공유할 때 게스트가 디렉터리에 포함되도록 하려면 [Azure AD B2B와 SharePoint 및 OneDrive의 통합(미리 보기)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)을 사용하세요.
+이 문서에서 다루는 일부 옵션은 게스트가 Azure Active Directory의 계정이 있어야 액세스할 수 있습니다. 파일과 폴더를 공유할 때 게스트가 디렉터리에 포함되도록 하려면 [Azure AD B2B와 SharePoint 및 OneDrive의 통합(미리 보기)](/sharepoint/sharepoint-azureb2b-integration-preview)을 사용하세요.
 
 이 문서에서는 게스트 공유 설정을 활성화하는 방법에 대해서는 다루지 않습니다. 다른 시나리오의 게스트 공유 활성화에 대해 자세히 알아보려면 [조직 외부 사용자와 공동 작업](collaborate-with-people-outside-your-organization.md)을 참조하세요.
 
@@ -66,7 +66,7 @@ ms.locfileid: "50838685"
 
 ### <a name="more-information"></a>추가 정보
 
-[Azure AD 다단계 인증 배포 계획](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
+[Azure AD 다단계 인증 배포 계획](/azure/active-directory/authentication/howto-mfa-getstarted)
 
 ## <a name="set-up-a-terms-of-use-for-guests"></a>게스트에 대한 사용 약관 설정
 
@@ -108,11 +108,11 @@ Azure AD 사용 약관을 만들려면
 이제 게스트가 처음으로 콘텐츠나 조직의 팀 또는 사이트에 액세스하려고 하면 사용 약관을 수락해야 합니다.
 
 > [!NOTE]
-> 조건부 액세스를 사용 하려면 Azure AD Premium P1 라이선스가 필요합니다. 자세한 내용은 [조건부 액세스는 무엇인가요](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)를 참조하세요.
+> 조건부 액세스를 사용 하려면 Azure AD Premium P1 라이선스가 필요합니다. 자세한 내용은 [조건부 액세스는 무엇인가요](/azure/active-directory/conditional-access/overview)를 참조하세요.
 
 ### <a name="more-information"></a>추가 정보
 
-[Azure Active Directory 사용 약관](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use)
+[Azure Active Directory 사용 약관](/azure/active-directory/conditional-access/terms-of-use)
 
 ## <a name="set-up-guest-access-reviews"></a>게스트 액세스 검토 설정
 
@@ -145,15 +145,15 @@ Azure AD의 액세스 검토로 다양한 팀과 그룹에 대한 주기적 사�
 
 ### <a name="more-information"></a>추가 정보
 
-[Azure AD 액세스 검토를 사용하여 게스트 액세스 관리](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews)
+[Azure AD 액세스 검토를 사용하여 게스트 액세스 관리](/azure/active-directory/governance/manage-guest-access-with-access-reviews)
 
-[Azure AD 액세스 검토에서 그룹 또는 애플리케이션에 대한 액세스 검토 만들기](https://docs.microsoft.com/azure/active-directory/governance/create-access-review)
+[Azure AD 액세스 검토에서 그룹 또는 애플리케이션에 대한 액세스 검토 만들기](/azure/active-directory/governance/create-access-review)
 
 ## <a name="set-up-web-only-access-for-guests"></a>게스트가 웹에만 액세스할 수 있게 설정
 
 게스트가 웹 브라우저만 사용하여 팀, 사이트 및 파일에 액세스하게 하면 공격 영역을 줄이고 관리가 용이해지게 할 수 있습니다.
 
-Microsoft 365 그룹 및 Teams의 경우, Azure AD 조건부 액세스 정책을 사용하여 이 작업을 수행합니다. SharePoint의 경우, 이는 SharePoint 관리 센터에서 구성됩니다. (사용자는 또한 [민감도 레이블을 사용하여 게스트를 웹 전용 액세스로 제한](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)할 수도 있습니다.)
+Microsoft 365 그룹 및 Teams의 경우, Azure AD 조건부 액세스 정책을 사용하여 이 작업을 수행합니다. SharePoint의 경우, 이는 SharePoint 관리 센터에서 구성됩니다. (사용자는 또한 [민감도 레이블을 사용하여 게스트를 웹 전용 액세스로 제한](../compliance/sensitivity-labels-teams-groups-sites.md)할 수도 있습니다.)
 
 그룹 및 Teams에 대해 게스트를 웹 전용 액세스로 제한하려면 다음을 수행합니다.
 
@@ -222,7 +222,7 @@ SharePoint 관리 센터의 이 설정은 Azure AD에 지원 조건부 액세스
 
 ### <a name="more-information"></a>추가 정보
 
-[사용자 지정 중요한 정보 유형](https://docs.microsoft.com/Office365/SecurityCompliance/custom-sensitive-info-types)
+[사용자 지정 중요한 정보 유형](/Office365/SecurityCompliance/custom-sensitive-info-types)
 
 ## <a name="create-an-auto-labeling-policy-to-assign-a-sensitivity-label-based-on-a-sensitive-information-type"></a>중요한 정보 유형을 기반으로 민감도 레이블을 할당할 자동 레이블 지정 정책 만들기
 
@@ -252,11 +252,11 @@ SharePoint 관리 센터의 이 설정은 Azure AD에 지원 조건부 액세스
 
 ### <a name="more-information"></a>추가 정보
 
-[민감도 레이블을 콘텐츠에 자동으로 적용](https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically)
+[민감도 레이블을 콘텐츠에 자동으로 적용](../compliance/apply-sensitivity-label-automatically.md)
 
 ## <a name="create-a-dlp-policy-to-remove-guest-access-to-highly-sensitive-files"></a>매우 중요한 파일에 대한 게스트 액세스 권한을 제거할 DLP 정책 만들기
 
-[DLP(데이터 손실 방지)](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)를 사용하여 중요한 콘텐츠의 원치 않는 게스트와의 공유를 방지할 수 있습니다. 데이터 손실 방지는 파일의 민감도 레이블에 따라 조치를 취하고 게스트 액세스를 제거할 수 있습니다.
+[DLP(데이터 손실 방지)](../compliance/data-loss-prevention-policies.md)를 사용하여 중요한 콘텐츠의 원치 않는 게스트와의 공유를 방지할 수 있습니다. 데이터 손실 방지는 파일의 민감도 레이블에 따라 조치를 취하고 게스트 액세스를 제거할 수 있습니다.
 
 DLP 규칙을 만들려면 다음을 수행합니다.
 
@@ -287,9 +287,9 @@ DLP 규칙을 만들려면 다음을 수행합니다.
 
 Microsoft 365 및 Azure Active Directory에는 게스트 공유 환경을 보호하는 데 도움이 되는 몇 가지 추가 옵션이 있습니다.
 
-- 사용자가 공유할 수 있는 사람을 제한하기 위해 허용 또는 거부된 공유 도메인 목록을 만들 수 있습니다. 자세한 내용은 [도메인별 SharePoint 및 OneDrive 콘텐츠 공유 제한](https://docs.microsoft.com/sharepoint/restricted-domains-sharing) 및 [특정 조직의 B2B 사용자에게 초대 허용 또는 차단](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)을 참조하십시오.
-- 사용자가 연결할 수 있는 다른 Azure Active Directory 테넌트를 제한할 수 있습니다. 자세한 내용은 [테넌트 제한을 사용하여 SaaS 클라우드 응용 프로그램에 대한 액세스 관리](https://docs.microsoft.com/azure/active-directory/manage-apps/tenant-restrictions)를 참조하세요.
-- 파트너가 게스트 계정을 관리할 수 있는 관리형 환경을 만들 수 있습니다. 자세한 내용은 [관리 대상 게스트와 B2B 엑스트라넷 작성](https://docs.microsoft.com/Office365/Enterprise/b2b-extranet)을 참조하십시오.
+- 사용자가 공유할 수 있는 사람을 제한하기 위해 허용 또는 거부된 공유 도메인 목록을 만들 수 있습니다. 자세한 내용은 [도메인별 SharePoint 및 OneDrive 콘텐츠 공유 제한](/sharepoint/restricted-domains-sharing) 및 [특정 조직의 B2B 사용자에게 초대 허용 또는 차단](/azure/active-directory/b2b/allow-deny-list)을 참조하십시오.
+- 사용자가 연결할 수 있는 다른 Azure Active Directory 테넌트를 제한할 수 있습니다. 자세한 내용은 [테넌트 제한을 사용하여 SaaS 클라우드 응용 프로그램에 대한 액세스 관리](/azure/active-directory/manage-apps/tenant-restrictions)를 참조하세요.
+- 파트너가 게스트 계정을 관리할 수 있는 관리형 환경을 만들 수 있습니다. 자세한 내용은 [관리 대상 게스트와 B2B 엑스트라넷 작성](/Office365/Enterprise/b2b-extranet)을 참조하십시오.
 
 ## <a name="see-also"></a>참고 항목
 

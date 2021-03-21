@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너는 파일 활동과 해당 파일에 대한 보호 작업 모니터링을 온-프레미스 파일 공유와 SharePoint 폴더 및 문서 라이브러리로 확대시킵니다. Azure Information Protection(AIP) 스캐너로 파일을 스캔하고 보호합니다.
-ms.openlocfilehash: 996de5ea640a16ef2a250830d7167aa316b54a21
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: fa1c14520c8ad0afa4856fdd8a1c59a0f71f400d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50417390"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917814"
 ---
 # <a name="learn-about-the-microsoft-365-data-loss-prevention-on-premises-scanner-preview"></a>Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 알아보기(미리 보기)
 
@@ -36,12 +36,12 @@ Microsoft 데이터 손실 방지 온-프레미스 스캐너는 Microsoft 365 �
 
 DLP 온-프레미스 스캐너는 Azure Information Protection(AIP) 스캐너의 전체 구현을 사용하여 중요한 항목을 모니터링, 레이블 지정 및 보호합니다. AIP 스캐너에 익숙하지 않은 경우 익숙해지도록 하는 것이 좋습니다. 자세한 내용은 다음 문서를 참조하세요.
 
-- [Azure Information Protection이란?](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)
-- [Azure Information Protection 통합 레이블 지정 스캐너란?](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)
-- [Azure Information Protection 통합 레이블 지정 스캐너 설치 및 배포를 위한 필수 사항](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-prereqs)
-- [자습서: Azure Information Protection(AIP) 통합 라벨링 스캐너 설치](https://docs.microsoft.com/azure/information-protection/tutorial-install-scanner)
-- [Azure Information Protection 통합 레이블 지정 스캐너 구성 및 설치](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install)
-- [Azure Information Protection 통합 레이블 지정 클라이언트 - 버전 출시 기록 및 지원 정책](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)
+- [Azure Information Protection이란?](/azure/information-protection/what-is-information-protection)
+- [Azure Information Protection 통합 레이블 지정 스캐너란?](/azure/information-protection/deploy-aip-scanner)
+- [Azure Information Protection 통합 레이블 지정 스캐너 설치 및 배포를 위한 필수 사항](/azure/information-protection/deploy-aip-scanner-prereqs)
+- [자습서: Azure Information Protection(AIP) 통합 라벨링 스캐너 설치](/azure/information-protection/tutorial-install-scanner)
+- [Azure Information Protection 통합 레이블 지정 스캐너 구성 및 설치](/azure/information-protection/deploy-aip-scanner-configure-install)
+- [Azure Information Protection 통합 레이블 지정 클라이언트 - 버전 출시 기록 및 지원 정책](/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)
 
 ## <a name="dlp-on-premises-scanner-actions"></a>DLP 온-프레미스 스캐너 작업
 
@@ -56,7 +56,7 @@ DLP 온-프레미스 스캐너는 다음 네 가지 방법 중 하나를 통해 
 
 |작업 |설명  |
 |---------|---------|
-|**이러한 사용자들이 온-프레미스 스캐너에 저장된 파일에 액세스하지 못하도록 차단합니다 - 모든 사용자** | 이 작업을 적용하면 콘텐츠 소유자, 항목을 수정한 마지막 계정 및 관리자를 제외한 모든 계정의 액세스가 차단됩니다. 이 작업은 파일 소유자, 리포지토리 소유자(콘텐츠 검색 작업 내 [리포지토리 소유자 설정](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install#use-a-data-loss-prevention-dlp-policy-public-preview)에서 설정됨), 마지막 수정자(SharePoint에서만 식별 가능) 및 관리자를 제외하고 파일 수준에서 NTFS/SharePoint 사용 권한으로부터 모든 계정을 제거합니다. 스캐너 계정에는 파일에 대한 FC 권한이 부여됩니다.|
+|**이러한 사용자들이 온-프레미스 스캐너에 저장된 파일에 액세스하지 못하도록 차단합니다 - 모든 사용자** | 이 작업을 적용하면 콘텐츠 소유자, 항목을 수정한 마지막 계정 및 관리자를 제외한 모든 계정의 액세스가 차단됩니다. 이 작업은 파일 소유자, 리포지토리 소유자(콘텐츠 검색 작업 내 [리포지토리 소유자 설정](/azure/information-protection/deploy-aip-scanner-configure-install#use-a-data-loss-prevention-dlp-policy-public-preview)에서 설정됨), 마지막 수정자(SharePoint에서만 식별 가능) 및 관리자를 제외하고 파일 수준에서 NTFS/SharePoint 사용 권한으로부터 모든 계정을 제거합니다. 스캐너 계정에는 파일에 대한 FC 권한이 부여됩니다.|
 |**이러한 사용자들이 온-프레미스 스캐너에 저장된 파일에 액세스하지 못하도록 차단합니다 - 조직 전체(공개) 액세스 차단**    |이 작업을 적용하면 **_Everyone_*_, _*_NT AUTHORITY\authenticated users_*_, and _*_Domain Users_** SID를 파일 액세스 제어 목록(ACL)에서 제거합니다. 파일 또는 상위 폴더에 명시적으로 권한을 부여받은 사용자 및 그룹만이 파일에 액세스할 수 있습니다.|
 |**파일 사용 권한 설정**|이 작업을 적용하면, 파일이 상위 폴더의 사용 권한을 상속하도록 강제 처리합니다. 기본적으로 이 작업은 파일에 이미 있는 사용 권한보다 상위 폴더에 대한 사용 권한이 더 제한적인 경우만 적용됩니다. 예를 들어 파일의 ACL이 **_특정 사용자_*만_ 허용하도록 설정되어 있고 _*_도메인 사용자_*_ 그룹을 허용하도록 상위 폴더가 구성된 경우, 상위 폴더 사용 권한은 파일에 상속되지 않습니다. _* 상위 사용 권한이 덜 제한적인 옵션인 경우에도 상속을 선택하여** 해당 동작을 재정의할 수 있습니다.|
 |**부적절한 위치에서 파일 제거**|이 작업을 적용하면 원본 파일을 .txt 확장명을 가지고 스텁 파일로 대체하고 원본 파일의 복사본을 격리 폴더에 배치합니다. 

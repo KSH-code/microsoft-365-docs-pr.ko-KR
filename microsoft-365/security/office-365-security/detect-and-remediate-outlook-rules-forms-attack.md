@@ -18,12 +18,12 @@ description: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 30ddd5f57dee2156504211e76304d346a63e192d
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 0846051b65b34ec26358f87bb4ca49302573e6e7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406703"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917049"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
 
@@ -110,7 +110,7 @@ Outlook을 다시 설치하거나 영향을 받는 사용자에게 새 컴퓨터
 
 4. 규칙 설명에서 응용 프로그램을 시작하거나 .EXE, .ZIP을 참조하거나 URL을 실행하는 규칙 작업을 찾아봅니다.
 
-5. Outlook 프로세스 ID를 사용하여 시작하는 새 프로세스를 찾습니다. [프로세스 ID 찾기](https://docs.microsoft.com/windows-hardware/drivers/debugger/finding-the-process-id)를 참조합니다.
+5. Outlook 프로세스 ID를 사용하여 시작하는 새 프로세스를 찾습니다. [프로세스 ID 찾기](/windows-hardware/drivers/debugger/finding-the-process-id)를 참조합니다.
 
 ### <a name="steps-to-confirm-the-forms-attack-using-the-outlook-client"></a>Outlook 클라이언트를 사용하여 양식 공격을 확인하는 단계
 
@@ -176,19 +176,19 @@ Outlook을 다시 설치하거나 영향을 받는 사용자에게 새 컴퓨터
 
 #### <a name="steps-for-mailboxes-that-are-on-an-exchange-server"></a>Exchange 서버에 있는 사서함에 대한 단계
 
-1. 원격 PowerShell을 사용하여 Exchange 서버에 연결합니다. [원격 PowerShell을 사용하여 Exchange 서버에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-servers-using-remote-powershell)에 있는 단계를 따릅니다.
+1. 원격 PowerShell을 사용하여 Exchange 서버에 연결합니다. [원격 PowerShell을 사용하여 Exchange 서버에 연결](/powershell/exchange/connect-to-exchange-servers-using-remote-powershell)에 있는 단계를 따릅니다.
 
-2. 사서함의 단일 규칙, 여러 규칙 또는 모든 규칙을 완전히 제거하려면 [InboxRule 제거](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) cmdlet을 사용합니다.
+2. 사서함의 단일 규칙, 여러 규칙 또는 모든 규칙을 완전히 제거하려면 [InboxRule 제거](/powershell/module/exchange/Remove-InboxRule) cmdlet을 사용합니다.
 
-3. 추가 조사를 위해 규칙과 해당 콘텐츠를 보존하려면 [InboxRule 비활성화](https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule) cmdlet을 사용합니다.
+3. 추가 조사를 위해 규칙과 해당 콘텐츠를 보존하려면 [InboxRule 비활성화](/powershell/module/exchange/disable-inboxrule) cmdlet을 사용합니다.
 
 #### <a name="steps-for-mailboxes-in-exchange-online"></a>Exchange Online의 사서함에 대한 단계
 
-1. [PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)에 있는 단계를 따릅니다.
+1. [PowerShell을 사용하여 Exchange Online에 연결](/powershell/exchange/connect-to-exchange-online-powershell)에 있는 단계를 따릅니다.
 
-2. 사서함의 단일 규칙, 여러 규칙 또는 모든 규칙을 완전히 제거하려면 [받은 편지함 제거 규칙](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) cmdlet을 사용합니다.
+2. 사서함의 단일 규칙, 여러 규칙 또는 모든 규칙을 완전히 제거하려면 [받은 편지함 제거 규칙](/powershell/module/exchange/Remove-InboxRule) cmdlet을 사용합니다.
 
-3. 추가 조사를 위해 규칙과 해당 콘텐츠를 보존하려면 [InboxRule 비활성화](https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule) cmdlet을 사용합니다.
+3. 추가 조사를 위해 규칙과 해당 콘텐츠를 보존하려면 [InboxRule 비활성화](/powershell/module/exchange/disable-inboxrule) cmdlet을 사용합니다.
 
 ## <a name="how-to-minimize-future-attacks"></a>미래의 공격을 최소화하는 방법
 
@@ -198,7 +198,7 @@ Outlook을 다시 설치하거나 영향을 받는 사용자에게 새 컴퓨터
 
 사용자 계정 및 특히 관리자 계정을 보호하는 가장 좋은 방법은 사용자에 대해 다단계 [인증을 설정하는 것입니다.](../../admin/security-and-compliance/set-up-multi-factor-authentication.md) 사용자는 또한:
 
-- 사용자 계정이 [액세스되고 사용되는](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) 방식을 모니터링합니다. 초기 침해를 방지하지 못할 수 있지만 침해의 기간과 영향은 더 일찍 발견하여 줄일 수 있습니다. [Office 365 클라우드 앱 보안 정책](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)을 사용 하여 계정을 모니터링하고 비정상적 활동에 대 한 알림을 사용할 수 있습니다.
+- 사용자 계정이 [액세스되고 사용되는](/azure/active-directory/active-directory-view-access-usage-reports) 방식을 모니터링합니다. 초기 침해를 방지하지 못할 수 있지만 침해의 기간과 영향은 더 일찍 발견하여 줄일 수 있습니다. [Office 365 클라우드 앱 보안 정책](/cloud-app-security/what-is-cloud-app-security)을 사용 하여 계정을 모니터링하고 비정상적 활동에 대 한 알림을 사용할 수 있습니다.
 
   - **로그인 시도의 수차례 실패**: 이 정책은 침해의 시도를 나타낼 수 있는 학습한 기준을 고려하여 단일 세션에서 수차례 로그인 활동에 실패하는 경우 사용자 환경을 프로파일링하고 알림을 트리거합니다.
 
@@ -226,7 +226,7 @@ Outlook을 다시 설치하거나 영향을 받는 사용자에게 새 컴퓨터
 
 ### <a name="third-monitor-your-outlook-clients"></a>세 번째: Outlook 클라이언트 모니터링
 
-패치 및 업데이트가 설치되어 있더라도 공격자가 로컬 컴퓨터 구성을 변경하여 "응용 프로그램 시작" 동작을 다시 사용하도록 설정할 수 있습니다. [고급 그룹 정책 관리](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/)를 사용하여 클라이언트에서 로컬 컴퓨터 정책을 모니터링하고 적용할 수 있습니다.
+패치 및 업데이트가 설치되어 있더라도 공격자가 로컬 컴퓨터 구성을 변경하여 "응용 프로그램 시작" 동작을 다시 사용하도록 설정할 수 있습니다. [고급 그룹 정책 관리](/microsoft-desktop-optimization-pack/agpm/)를 사용하여 클라이언트에서 로컬 컴퓨터 정책을 모니터링하고 적용할 수 있습니다.
 
 [64비트 버전의 Windows를](https://support.microsoft.com/help/305097)사용하여 시스템 레지스트리를 보는 방법의 정보를 사용하여 레지스트리의 재지정을 통해 "응용 프로그램 시작"이 다시 활성화되어 있는지 알 수 있습니다. 다음의 하위 키를 확인합니다:
 
@@ -236,7 +236,7 @@ Outlook을 다시 설치하거나 영향을 받는 사용자에게 새 컴퓨터
 
 EnableUnsafeClientMailRules 키를 찾습니다. 찾았고 1로 설정되어 있으면 Outlook 보안 패치가 오버라이드되었고 컴퓨터가 양식/규칙 공격에 취약합니다. 값이 0 이면 "응용 프로그램 시작" 작업을 사용할 수 없습니다. 업데이트되고 패치가 적용된 버전의 Outlook이 설치되었고 이 레지스트리 키가 없는 경우에는 시스템이 이러한 공격에 취약하지 않습니다.
 
-온-프레미스 Exchange 설치를 사용하는 고객은 사용 가능한 패치가 없는 이전 버전의 Outlook을 차단하는 것이 좋습니다. 이 프로세스에 대한 자세한 내용은 [Outlook 클라이언트 차단 구성](https://docs.microsoft.com/exchange/configure-outlook-client-blocking-exchange-2013-help) 문서를 참조하세요.
+온-프레미스 Exchange 설치를 사용하는 고객은 사용 가능한 패치가 없는 이전 버전의 Outlook을 차단하는 것이 좋습니다. 이 프로세스에 대한 자세한 내용은 [Outlook 클라이언트 차단 구성](/exchange/configure-outlook-client-blocking-exchange-2013-help) 문서를 참조하세요.
 
 ## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>사이버 보안 프로그램과 같은 Microsoft 365 보안
 

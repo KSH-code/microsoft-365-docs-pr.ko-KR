@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: Microsoft 365 규정 준수 센터에서 실행한 eDiscovery 검색에 포함할 수 있는 Exchange 및 SharePoint의 인덱서되지 않은 항목에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 308e0755f1966b8e4559cf6f08b3133a00ea1b5a
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 39f78c9a6e937fc7152b86a67e56cc95c132ad6a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711908"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916810"
 ---
 # <a name="partially-indexed-items-in-ediscovery"></a>eDiscovery에서 부분적으로 인덱싱된 항목
 
@@ -57,11 +57,11 @@ Microsoft 365 규정 준수 센터에서 실행되는 eDiscovery 검색에는 �
   
 지원되는 파일 형식과 사용하지 않도록 설정한 파일 형식 목록은 다음 항목을 참조하세요.
   
-- **Exchange**  -  [Exchange 검색에서 인덱싱하는 파일 형식](https://go.microsoft.com/fwlink/p/?LinkID=386618)
+- **Exchange**  -  [Exchange 검색에서 인덱싱하는 파일 형식](/exchange/file-formats-indexed-by-exchange-search-exchange-2013-help)
 
-- **Exchange**  -  [Get-SearchDocumentFormat](https://go.microsoft.com/fwlink/p/?LinkID=724037)
+- **Exchange**  -  [Get-SearchDocumentFormat](/powershell/module/exchange/get-searchdocumentformat)
 
-- **SharePoint**  -  [SharePoint의](https://go.microsoft.com/fwlink/p/?LinkID=404033) 크롤링되는 기본 파일 이름 확장명 및 구문 분석된 파일 형식
+- **SharePoint**  -  [SharePoint의](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) 크롤링되는 기본 파일 이름 확장명 및 구문 분석된 파일 형식
   
 ## <a name="messages-and-documents-with-partially-indexed-file-types-can-be-returned-in-search-results"></a>부분적으로 인덱싱된 파일 형식의 메시지 및 문서가 검색 결과에 반환될 수 있습니다.
 
@@ -110,7 +110,7 @@ Microsoft 365 규정 준수 센터에서 실행되는 eDiscovery 검색에는 �
 
 다음 표에서는 Microsoft 365의 eDiscovery 검색에서 전자 메일 메시지가 부분적으로 인덱싱된 항목으로 반환될 수 있는 인덱싱 제한에 대해 설명하고 있습니다.
   
-SharePoint 문서의 인덱싱 제한 목록은 SharePoint Online에 대한 검색 [제한을 참조하세요.](https://docs.microsoft.com/sharepoint/search-limits)
+SharePoint 문서의 인덱싱 제한 목록은 SharePoint Online에 대한 검색 [제한을 참조하세요.](/sharepoint/search-limits)
   
 |**인덱싱 제한**|**참고**|**설명**|
 |:-----|:-----|:-----|

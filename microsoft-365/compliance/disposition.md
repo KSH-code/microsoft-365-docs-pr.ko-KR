@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용하든 콘텐츠가 구성한 설정에 따라 자동으로 삭제되는지, 콘텐츠의 처리를 모니터링하고 관리합니다.
-ms.openlocfilehash: 092067e676c1cbae3fae6e9d6a5ff77099ce4631
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: d2c2e4e469efe16277f34a902f6720dc2b39e908
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461883"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918044"
 ---
 # <a name="disposition-of-content"></a>콘텐츠의 처리
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 탭을 사용하여 처리 검토를 관리하고 보존 기간이 끝날 때 자동으로 삭제된 [레코드](records-management.md#records)를 봅니다. 
 
@@ -128,7 +128,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스하려면 사용자에
 
 ![처리 검토가 없이 처리된 항목](../media/records-disposed2.png)
 
-레코드 레이블을 위해 **처리된 항목** 탭에 표시되는 항목은 항목이 처리된 후 최대 7년간 유지되고, 해당 기간에 대한 레코드 당 100만 항목의 제한을 둡니다. **계산** 수가 이 100만의 제한에 근접하고 레코드에 대한 처리 증거가 필요한 경우, [Microsoft 지원](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)에 문의하세요.
+레코드 레이블을 위해 **처리된 항목** 탭에 표시되는 항목은 항목이 처리된 후 최대 7년간 유지되고, 해당 기간에 대한 레코드 당 100만 항목의 제한을 둡니다. **계산** 수가 이 100만의 제한에 근접하고 레코드에 대한 처리 증거가 필요한 경우, [Microsoft 지원](/office365/admin/contact-support-for-business-products)에 문의하세요.
 
 > [!NOTE]
 > 이 기능은 [통합 감사 로그](search-the-audit-log-in-security-and-compliance.md)의 정보를 기초로 하며, 따라서 해당 이벤트를 캡처할 수 있도록 감사를 [사용하도록 설정하고 검색 가능하도록](turn-audit-log-search-on-or-off.md) 해야 합니다.
@@ -144,4 +144,3 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스하려면 사용자에
 아래의 항목에 대한 정보를 .csv 파일로 내보낼 수 있습니다. 그런 다음 Excel을 사용하여 정렬을 하고 관리할 수 있습니다.
 
 ![처리에 대한 내보내기 옵션](../media/retention-export-option.png)
-

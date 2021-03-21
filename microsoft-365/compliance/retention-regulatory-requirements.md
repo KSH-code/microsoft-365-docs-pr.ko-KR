@@ -15,16 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 정보 거버넌스 및 레코드 관리를 위해 규정 요구 사항을 충족할 수 있도록 도움이 되는 리소스
-ms.openlocfilehash: e46abc4efec356cfd058414063d3e76ffe8ff224
-ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
+ms.openlocfilehash: a2629dbd9df4b582b2aeb7726de87d81eb726a76
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50109937"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917784"
 ---
 # <a name="regulatory-requirements-for-information-governance-and-records-management"></a>정보 거버넌스 및 레코드 관리를 위한 규정 요구 사항
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Microsoft 365의 정보 거버넌스 및 레코드 관리를 위해 특정 규정 요구 사항을 충족할 수 있도록 도움이 되는 이 페이지의 리소스를 사용합니다. 본 문서의 각 섹션에서는 하나 이상의 관련 규정에 중점을 두고 있으며 명시된 요구 사항을 지원하기 위해 Microsoft 365를 구성하는 방법에 대한 모든 기존 지침이나 제3자 평가를 포함하고 있습니다.
 

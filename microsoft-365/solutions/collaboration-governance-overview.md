@@ -16,12 +16,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Microsoft 365 그룹, Teams, SharePoint 및 Microsoft 365 그룹의 관련 기능을 Yammer.
-ms.openlocfilehash: 01dea57504bf5d68c0bb13376379379f29044191
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: b31e9bf1cd46f94343a489497fb5eb00e138ce60
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838470"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916445"
 ---
 # <a name="what-is-collaboration-governance"></a>공동 작업 거버넌스란 무엇인가요?
 
@@ -59,7 +59,7 @@ Microsoft 365 그룹에는 사용자가 통신 및 공동 작업을 위해 사�
 |[받은 편지함](https://support.office.com/article/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22)|그룹 구성원 간의 전자 메일 대화 이 받은 편지함에는 전자 메일 주소가 있으며 기존 메일 그룹처럼 그룹 외부 사용자와 조직 외부의 사용자로부터 받은 메시지를 수락할 수 있도록 설정할 수 있습니다.|
 |[OneNote 전자 필기장](https://support.office.com/article/get-started-with-onenote-e768fafa-8f9b-4eac-8600-65aa10b2fe97)|아이디어, 연구 및 정보 수집|
 |[Planner](https://support.office.com/article/microsoft-planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc)|그룹 구성원 간 프로젝트 작업 할당 및 관리|
-|[Power BI 작업 영역](https://docs.microsoft.com/power-bi/collaborate-share/service-new-workspaces)|대시보드 및 보고서가 있는 데이터 공동 작업 공간|
+|[Power BI 작업 영역](/power-bi/collaborate-share/service-new-workspaces)|대시보드 및 보고서가 있는 데이터 공동 작업 공간|
 |[프로젝트 및 로드맵](https://support.microsoft.com/project)|웹 기반 프로젝트 관리 도구|
 |[SharePoint 팀 사이트](https://support.office.com/article/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e)|그룹과 관련된 정보, 링크 및 콘텐츠에 대한 중앙 리포지토리|
 |[Stream](https://support.microsoft.com/microsoft-stream)|비디오 스트리밍 서비스|
@@ -114,9 +114,10 @@ Microsoft 365에서 공동 작업 기능을 사용하는 방법을 결정할 때
 
 - **직접 만든** 솔루션에 거버넌스 결정을 직접 추가 - Microsoft 365의 기능을 켜거나 끄면 많은 거버넌스 결정을 구현할 수 있습니다.
 
+
 - **단계적 방법 사용** - 공동 작업 기능을 먼저 소수의 사용자 그룹에 롤아웃합니다. 더 큰 그룹으로 진행하기 전에 피드백을 얻거나 지원 센터 티켓을 감시하고 필요한 설정이나 프로세스를 업데이트합니다.
 
-- **교육으로 강화** - Microsoft [365](https://docs.microsoft.com/office365/customlearning) 학습 경로와 같은 솔루션을 조정하여 Microsoft에서 제공하는 교육을 통해 조직별 기대치가 강화되도록 합니다.
+- **교육으로 강화** - Microsoft [365](/office365/customlearning) 학습 경로와 같은 솔루션을 조정하여 Microsoft에서 제공하는 교육을 통해 조직별 기대치가 강화되도록 합니다.
 
 - **조직에서** 거버넌스 정책 및 지침을 전달하기 위한 전략이 있습니다. SharePoint 커뮤니케이션 사이트에 Microsoft 365 채택 센터를 만들어 정책 및 절차를 전달합니다.
 
@@ -175,7 +176,7 @@ Microsoft Learn의 이러한 교육 모듈은 Microsoft 365의 거버넌스 기�
 |![정보 보호 교육 아이콘](../media/information-protection-governance.svg)|오늘날 생성되는 데이터의 양은 그 전보다 빠르게 증가하고 있으며, 직원들은 모든 곳에서 작업을 수행하기를 원하며 규제 환경은 지속적으로 변화하고 있습니다. 정보 보호 및 거버넌스를 위한 Microsoft의 솔루션은 조직이 데이터를 보호하고 사용자 생산성을 유지하는 것 간에 올바른 균형을 이루는 데 도움이 됩니다. 이 학습 경로를 통해 Microsoft 365 인증: 보안 관리자 학위 및 Microsoft 365 인증: 엔터프라이즈 관리 전문가 인증서를 준비할 수 있습니다.<br><br>5분 13분 - 학습 경로 - 7개 모듈|
 
 > [!div class="nextstepaction"]
-> [시작 >](https://docs.microsoft.com/learn/modules/m365-compliance-information-governance/introduction/)
+> [시작 >](/learn/modules/m365-compliance-information-governance/introduction/)
 
 <br><br>
 
@@ -184,16 +185,16 @@ Microsoft Learn의 이러한 교육 모듈은 Microsoft 365의 거버넌스 기�
 |![Teams 교육 아이콘](../media/protect-enterprise-information-microsoft-365.svg)|조직의 정보를 보호하고 보안을 유지하는 것이 어느 때보다 어려워졌습니다. Microsoft 365로 엔터프라이즈 정보 보호 학습 경로는 우발적인 과도한 공유 또는 오용으로부터 중요한 정보를 보호하는 방법, 데이터를 검색하고 분류하는 방법, 민감도 레이블을 사용하여 중요한 정보를 보호하는 방법 및 중요한 정보가 손실되지 않도록 보호하기 위해 모니터링하고 분석하는 방법에 대해 설명합니다. 이 학습 경로를 통해 Microsoft 365 인증: 보안 관리자 연결 및 Microsoft 365 인증: 엔터프라이즈 관리 전문가 인증을 준비할 수 있습니다.<br><br>1 hr - 학습 경로 - 5개 모듈|
 
 > [!div class="nextstepaction"]
-> [시작 >](https://docs.microsoft.com/learn/modules/m365-security-info-overview/introduction/)
+> [시작 >](/learn/modules/m365-security-info-overview/introduction/)
 
 #### <a name="security-and-compliance"></a>보안 및 규정 준수
 
 |교육:|Microsoft 365 보안 및 규정 준수 기능에 대한 기본 지식 입증|
 |:---|:---|
-|![보안 및 규정 준수 교육 아이콘](../media/microsoft-365-security-and-compliance-capabilities.svg)|Microsoft 365 보안 및 규정 준수 솔루션 영역과 기업이 엔터프라이즈를 보호하고 규정 요구 사항을 충족하는 데 도움이 되는 기능에 대해 자세히 알아보십시오. 기본 클라우드 컴퓨팅 개념에 익숙하지 않은 경우 클라우드 컴퓨팅의 원칙인 클라우드 개념을 [활용하는 것이 좋습니다.](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)<br><br>3분 11분 - 학습 경로 - 8개 모듈|
+|![보안 및 규정 준수 교육 아이콘](../media/microsoft-365-security-and-compliance-capabilities.svg)|Microsoft 365 보안 및 규정 준수 솔루션 영역과 기업이 엔터프라이즈를 보호하고 규정 요구 사항을 충족하는 데 도움이 되는 기능에 대해 자세히 알아보십시오. 기본 클라우드 컴퓨팅 개념에 익숙하지 않은 경우 클라우드 컴퓨팅의 원칙인 클라우드 개념을 [활용하는 것이 좋습니다.](/learn/modules/principles-cloud-computing/index)<br><br>3분 11분 - 학습 경로 - 8개 모듈|
 
 > [!div class="nextstepaction"]
-> [시작 >](https://docs.microsoft.com/learn/modules/what-is-m365/1-introduction/)
+> [시작 >](/learn/modules/what-is-m365/1-introduction/)
 
 ## <a name="illustrations"></a>그림
 
@@ -248,6 +249,6 @@ Microsoft 365 그룹, SharePoint, Teams 및 그룹이 함께 작업하여 글로
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 보안 설명서](https://docs.microsoft.com/microsoft-365/security)
+[Microsoft 365 보안 설명서](../security/index.yml)
 
-[Microsoft 365 규정 준수 설명서](https://docs.microsoft.com/microsoft-365/compliance)
+[Microsoft 365 규정 준수 설명서](../compliance/index.yml)

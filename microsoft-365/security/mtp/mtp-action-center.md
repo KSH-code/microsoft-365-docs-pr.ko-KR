@@ -17,17 +17,16 @@ audience: ITPro
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 12/09/2020
-ms.technology: m365d
-ms.openlocfilehash: 45e02e4ce7d5d813cc8215a1f27ed9c415707cb1
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.date: 02/01/2021
+ms.openlocfilehash: c1eba9d78d45068788789825c3513a0fa70255b9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930429"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917140"
 ---
 # <a name="the-action-center"></a>알림 센터
 
@@ -37,10 +36,6 @@ ms.locfileid: "49930429"
 **적용 대상:**
 - Microsoft 365 Defender
 
-관리 센터()를 사용하여 조직의 장치 및 사서함에서 현재 및 과거의 조사 결과를 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 볼 수 있습니다. 위협의 유형 및 결과 판정에 [](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-remediation-actions) 따라 수정 작업이 자동으로 또는 조직의 보안 운영 팀의 승인에 따라 발생할 수 있습니다. 모든 수정 작업이 승인이 보류 중이든 이미 승인되었든 알림 센터에 통합되어 있습니다. 
-
-![알림 센터 ](../../media/air-actioncenter.png)
-
 ## <a name="a-single-pane-of-glass-experience"></a>"단일 창 방식" 환경
 
 알림 센터를 통해 다음과 같은 작업에 대한 "단일 창 방식" 환경을 제공합니다.
@@ -48,79 +43,96 @@ ms.locfileid: "49930429"
 - 이미 승인된 수정 작업의 감사 로그 보기. 그리고
 - 완료된 수정 작업을 검토
 
-관리 센터는 직장에서 Microsoft 365 Defender에 대한 포괄적인 보기를 제공하기 때문에 보안 운영 팀이 더 효율적이고 효율적으로 운영될 수 있습니다.
+보안 운영 팀은 관리 센터가 직장에서 Microsoft 365 Defender를 포괄적으로 볼 수 있기 때문에 보다 효율적이고 효율적으로 작업할 수 있습니다.
 
-## <a name="go-to-the-action-center"></a>알림 센터로 이동합니다.
+## <a name="a-new-unified-action-center"></a>새로운 통합된 동작 센터
 
-1. [https://security.microsoft.com](https://security.microsoft.com)으로 이동하여 로그인합니다. 
+새로운 통합된 통합 동작 센터( )를 발표하게 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 됩니다. 
 
-2. 탐색 창에서 **작업 센터** 를 선택합니다. 
+:::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Microsoft 365 Defender의 통합 관리 센터":::
 
-3. 작업 센터에는 보류 중 및 기록의 두 개의 **탭이** **표시됩니다.**
+향상된 알림 센터에는 장치에 대한 보류 중 및 완료된 수정 작업, 전자 메일 & 공동 작업 콘텐츠 및 ID가 한 위치에 나열됩니다.
+- 이전에 Office 365 보안 & 준수 센터()를 사용 중이면 Microsoft 365 보안 센터()의 새로운 통합된 관리 센터를 사용해 [https://protection.office.com](https://protection.office.com) 보아야 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 합니다.
+- Microsoft Defender 보안 센터()에서 관리 센터를 사용 중이면 Microsoft 365 보안 센터()에서 새로운 통합된 관리 센터를 [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) 사용해 보아야 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 합니다.
+- Microsoft 365 보안 센터()를 이미 사용하고 있는 경우 관리 센터()에서 몇 가지 개선된 기능을 [https://security.microsoft.com](https://security.microsoft.com) 볼 수 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 있습니다.
 
-    - **보류 중** 탭에는 보안 운영팀의 누군가가 계속 진행하기 위해 검토하고 승인해야 하는 조사가 나열됩니다. 여기에 표시되는 보류 중인 항목을 검토하여 조치를 취해야 합니다.
+통합 관리 센터는 끝점용 Defender 및 Office 365용 Defender에 대한 수정 작업을 통합합니다. 모든 수정 작업에 대한 공통 언어를 정의하고 통합 조사 환경을 제공합니다. 관리 센터는 보안 운영 팀에 수정 작업을 보고 관리할 수 있는 "단일 창 창" 환경을 제공합니다.  
 
-    - **기록** 탭에는 자동으로 수행된 과거 조사와 수정 작업이 표시됩니다. 지난 일, 주, 월 또는 6개월에 대한 데이터를 볼 수 있습니다.
+적절한 사용 권한 및 다음 구독 중 하나 이상이 있는 경우 통합 관리 센터를 사용할 수 있습니다.
 
-4. 원하는 열만 표시하려면 **열 사용자 정의** 를 선택합니다.<br/>![Microsoft 365 Defender의 관리 센터](../../media/mtp-action-center.png)
-
-5. 목록에서 항목을 선택하여 조사에 대한 자세한 정보를 확인합니다. 조사 세부 정보 보기가 열립니다.<br/>![조사 세부 정보](../../media/mtp-air-investdetails.png)
-
-    - 조사가 전자 메일 콘텐츠(예: 엔터티가 사서함)와 관련이 있는 경우 조사 세부 정보는 보안 & 준수 센터()에서 [https://protection.office.com/threatinvestigation](https://protection.office.com/threatinvestigation) 열립니다. 
-
-    - 조사가 장치에 관련된 경우 조사 세부 정보는 보안 센터([https://security.microsoft.com](https://security.microsoft.com))에서 열립니다. 
+- [엔드포인트용 Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- [Office 365용 Defender](../office-365-security/office-365-atp.md)
+- [Microsoft 365 Defender](./microsoft-threat-protection.md)
 
 > [!TIP]
-> Microsoft 365 Defender의 자동화된 조사 및 응답 기능으로 누락되거나 잘못 감지된 것으로 생각되면 알려주세요! [Microsoft 365 Defender에서 자동화된](mtp-autoir-report-false-positives-negatives.md)조사 및 응답(AIR) 기능에서 가음성/부정을 보고하는 방법을 참조합니다.
+> 자세한 내용은 요구 사항을 [참조하세요.](./prerequisites.md)
 
-## <a name="available-actions"></a>사용 가능한 작업
+## <a name="using-the-action-center"></a>동작 센터 사용
 
-수정 작업이 수행된 경우 관리 센터의 기록 **탭에** 나열됩니다. 이러한 작업에는 다음이 포함됩니다.
+1. [https://security.microsoft.com](https://security.microsoft.com)으로 이동하여 로그인합니다. 
+2. 탐색 창에서 **작업 센터** 를 선택합니다. 
+
+작업 센터를 방문하면 보류 중인 작업 및 기록의 두 개의 탭이 표시됩니다. 다음 표에서는 각 탭에 표시하는 내용을 요약하여 제공합니다.
+
+|Tab  |설명  |
+|---------|---------|
+|**보류 중**     | 주의가 필요한 작업 목록을 표시합니다. 작업을 한 번씩 승인하거나 거부하거나 동일한 유형의 작업(예: 파일 Quarantine file)이 있는 경우 여러 작업을 선택할 수 있습니다. <p>**팁:** 자동화된 조사가 제시간에 완료될 수 있도록 가능한 한 빨리 보류 중인 작업을 검토하고 승인(또는 거부)해야 합니다.       |
+|**기록**     | 다음을 수행한 작업에 대한 감사 로그 역할을 합니다. <br/>- 자동화된 조사의 결과로 수행된 수정 작업 <br/>- 의심스러우거나 악의적인 전자 메일 메시지, 파일 또는 URL에 대해 수행된 수정 작업<br/>- 보안 운영 팀에서 승인한 수정 작업 <br/>- 실행된 명령 및 라이브 응답 세션 중에 적용된 수정 작업<br/>- 바이러스 백신 보호에 의해 수행된 수정 작업 <p>특정 작업을 취소하는 방법을 제공합니다(완료된 작업 취소 [참조).](mtp-autoir-actions.md#undo-completed-actions)        |
+
+관리 센터에서 데이터를 사용자 지정, 정렬, 필터링 및 내보낼 수 있습니다.
+
+:::image type="content" source="../../media/m3d-action-center-columnsfilters.png" alt-text="관리 센터를 사용하면 작업 목록을 정렬, 필터링 및 사용자 지정할 수 있습니다.":::
+
+- 열 제목을 선택하여 항목을 오차 또는 내선 순서로 정렬합니다.
+- 기간 필터를 사용하여 지난 일, 주, 30일 또는 6개월의 데이터를 볼 수 있습니다.
+- 보하려는 열을 선택 합니다.
+- 각 데이터 페이지에 포함할 항목 수를 지정합니다.
+- 필터를 사용하여 보 원하는 항목만 볼 수 있습니다.
+- 내보내기 **를** 선택하여 결과를 .csv 파일로 내보낼 수 있습니다.
+
+## <a name="actions-tracked-in-the-action-center"></a>동작 센터에서 추적된 작업
+
+승인 보류 중이거나 이미 수행된 모든 작업은 작업 센터에서 추적됩니다. 사용 가능한 작업은 다음과 같습니다.
 
 - 조사 패키지 수집 
 - 장치 격리(이 작업은 실행을 실행하지 않습니다.) 
 - 컴퓨터 오프보드 
 - 릴리스 코드 실행 
 - 릴리스 
-- 샘플 요청 
-- 코드 실행 제한(이 작업은 실행을 실행 중지할 수 있습니다.) 
+- 요청 샘플 
+- 코드 실행 제한(이 작업을 실행 중지할 수 있습니다. 
 - 바이러스 백신 검사 실행 
-- 중지 및 Quarantine 
+- 중지 및 검사 
 
-> [!NOTE]
-> 보안 운영 팀은 자동으로 수행되는 수정 작업 외에도 감지된 위협을 해결하기 위한 수동 조치를 취할 수 있습니다. 자동 및 수동 수정 작업에 대한 자세한 내용은 수정 [작업을 참조하세요.](mtp-remediation-actions.md)
+자동화된 조사의 결과로 자동으로 수행되는 수정 [](mtp-autoir.md)작업 외에도, 관리 센터는 보안 팀이 감지된 위협을 해결하기 위해 수행한 작업과 Microsoft 365 Defender의 위협 방지 기능으로 인해 수행된 작업을 추적합니다. 자동 및 수동 수정 작업에 대한 자세한 내용은 수정 [작업 을 참조하세요.](mtp-remediation-actions.md)
 
-## <a name="action-source"></a>작업 원본
+## <a name="viewing-action-source-details"></a>작업 원본 세부 정보 보기
 
-(**NEW!**) 아시다시피 Microsoft 365 Defender는 끝점용 Microsoft Defender 및 [Office 365용 Microsoft](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) [Defender와](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 같은 여러 서비스에서 자동화된 조사 및 대응 기능을 통합합니다. 새 관리 센터와 향상된 관리  센터에는 각 수정 작업이 어디에서 시작된 위치를 알려는 작업 원본 열이 포함되어 있습니다. 
-
-다음 표에서는 가능한 **작업 원본 값에 대해** 설명하고 있습니다.
+(**NEW!**) 개선된 작업 센터에는  이제 각 작업이 시작된 위치를 알려하는 작업 원본 열이 포함되어 있습니다. 다음 표에서는 가능한 작업 **원본 값에 대해** 설명하고 있습니다.
 
 | 작업 원본 값 | 설명 |
 |:-----|:---|
-| **수동 장치 작업** | 디바이스에서 수행된 수동 작업입니다. 예를 [들어 장치 고리 또는](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network) 파일 [Quarantine을 들 수 있습니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-file-alerts#stop-and-quarantine-files) |
-| **수동 전자 메일 작업** | 전자 메일에 대한 수동 작업입니다. 전자 메일 메시지의 소프트 삭제 또는 전자 메일 메시지 [수정을 예로 들 수 있습니다.](https://docs.microsoft.com/microsoft-365/security/office-365-security/remediate-malicious-email-delivered-office-365) |
-| **자동화된 장치 작업** | 파일 또는 프로세스와 같은 엔터티에 대한 자동화된 작업입니다. 자동화된 작업의 예로는 파일을 분리하기 위한 파일 보내기, 프로세스 중지, 레지스트리 키 제거가 있습니다. [(끝점에 대한 Microsoft Defender의](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-auto-investigation#remediation-actions)수정 작업을 참조합니다.) |
-| **자동화된 전자 메일 작업** | 전자 메일 메시지, 첨부 파일 또는 URL과 같은 전자 메일 콘텐츠에 대한 자동화된 작업입니다. 자동화된 작업의 예로는 전자 메일 메시지의 소프트 삭제, URL 차단, 외부 메일 전달 해제가 있습니다. (Office [365용 Microsoft Defender의](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-remediation-actions)수정 작업을 참조합니다.) |
-| **고급 헌팅 작업** | 고급 헌팅이 있는 장치 또는 전자 [메일에 대해 수행되는 작업입니다.](https://docs.microsoft.com/microsoft-365/security/mtp/advanced-hunting-overview) |
-| **탐색기 동작** | 탐색기를 사용하여 전자 메일 콘텐츠에 대해 수행된 [작업입니다.](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) |
-| **수동 실시간 응답 작업** | 라이브 응답이 있는 [디바이스에서 수행된 작업입니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) 예를 들어 파일 삭제, 프로세스 중지, 예약된 작업 제거가 있습니다. |
-| **라이브 응답 작업** | 끝점 API용 [Microsoft Defender를 사용하여 디바이스에서 수행한 작업입니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis#microsoft-defender-for-endpoint-apis) 작업의 예로는 장치 차단, 바이러스 백신 검사 실행, 파일에 대한 정보 보기가 있습니다. |
+| **수동 장치 작업** | 디바이스에서 수행된 수동 작업입니다. [예로는 장치 고리 또는](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network) 파일 검지가 [있습니다.](/windows/security/threat-protection/microsoft-defender-atp/respond-file-alerts#stop-and-quarantine-files) |
+| **수동 전자 메일 작업** | 전자 메일에 대한 수동 작업입니다. 예를 들어 전자 메일 메시지를 소프트 삭제하거나 전자 메일 [메시지를 수정합니다.](../office-365-security/remediate-malicious-email-delivered-office-365.md) |
+| **자동화된 장치 작업** | 파일 또는 프로세스와 같은 엔터티에 대한 자동화된 작업입니다. 자동화된 작업의 예로는 파일을 검지로 보내기, 프로세스 중지, 레지스트리 키 제거가 있습니다. [(Endpoint에 대한 Microsoft Defender의 수정 작업을 참조합니다.)](/windows/security/threat-protection/microsoft-defender-atp/manage-auto-investigation#remediation-actions) |
+| **자동화된 전자 메일 작업** | 전자 메일 메시지, 첨부 파일 또는 URL과 같은 전자 메일 콘텐츠에 대한 자동화된 작업입니다. 자동화된 작업의 예로는 전자 메일 메시지의 소프트 삭제, URL 차단 및 외부 메일 전달 해제가 있습니다. (Office [365용 Microsoft Defender의](../office-365-security/air-remediation-actions.md)수정 작업을 참조합니다.) |
+| **고급 헌팅 작업** | 고급 헌팅이 있는 장치 또는 전자 [메일에 대해 수행된 작업입니다.](./advanced-hunting-overview.md) |
+| **탐색기 동작** | 탐색기를 사용하여 전자 메일 콘텐츠에 대해 수행한 [작업입니다.](../office-365-security/threat-explorer.md) |
+| **수동 실시간 응답 작업** | 라이브 응답이 있는 [디바이스에서 수행된 작업입니다.](/windows/security/threat-protection/microsoft-defender-atp/live-response) 예를 들어 파일 삭제, 프로세스 중지 및 예약된 작업 제거가 있습니다. |
+| **라이브 응답 작업** | 끝점 API용 [Microsoft Defender를 사용하여 디바이스에서 수행한 작업입니다.](/windows/security/threat-protection/microsoft-defender-atp/management-apis#microsoft-defender-for-endpoint-apis) 작업의 예로는 장치 차단, 바이러스 백신 검사 실행, 파일에 대한 정보 보기가 있습니다. |
 
 ## <a name="required-permissions-for-action-center-tasks"></a>알림 센터 작업에 필요한 사용 권한
 
-알림 센터에서 보류 중인 작업을 승인하거나 거부하려면 다음 표에 나열된 대로 사용 권한이 할당되어 있어야 합니다.
+관리 센터에서 보류 중인 작업 승인 또는 거부와 같은 작업을 수행하려면 다음 표에 나열된 사용 권한을 할당해야 합니다.
 
 |수정 작업 |필요한 역할 및 사용 권한 할당 |
 |--|----|
-|끝점 수정용 Microsoft Defender(장치) |Azure Active Directory([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 할당된 보안 관리자 역할<br/>--- 또는 ---<br/>끝점용 Microsoft Defender에 할당된 활성 수정 작업 역할 <br/> <br/> 자세한 내용은 다음 리소스를 참조하세요. <br/>- [Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [역할 기반 액세스 제어에 대한 역할 만들기 및 관리(끝점용 Microsoft Defender)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles)  |
-|Office 365 수정용 Microsoft Defender(Office 콘텐츠 및 전자 메일)  |Azure Active Directory([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 할당된 보안 관리자 역할<br/>--- 및 --- <br/>보안 및 준수 센터가 할당된 & 제거 [https://protection.office.com](https://protection.office.com) 역할( ) <br/><br/>**중요:** 보안 관리자 역할만 보안 & 준수 센터에 할당된 경우 관리 센터 또는 Microsoft 365 Defender 기능에 액세스할 수 없습니다. Azure Active Directory 또는 Microsoft 365 관리 센터에 할당된 보안 관리자 역할이 있어야 합니다. <br/><br/>자세한 내용은 다음 리소스를 참조하세요. <br/>- [Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [보안 및 준수 & 사용 권한](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
+|끝점 수정을 위한 Microsoft Defender(장치) |Azure Active Directory([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 할당된 **보안 관리자** 역할<br/>--- 또는 ---<br/>**끝점용** Microsoft Defender에 할당된 활성 수정 작업 역할 <br/> <br/> 자세한 내용은 다음 리소스를 참조하세요. <br/>- [Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [역할 기반 액세스 제어에 대한 역할 만들기 및 관리(끝점용 Microsoft Defender)](/windows/security/threat-protection/microsoft-defender-atp/user-roles)  |
+|Microsoft Defender for Office 365 수정(Office 콘텐츠 및 전자 메일)  |Azure Active Directory([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 할당된 **보안 관리자** 역할<br/>--- 및 --- <br/>**보안 및 준수** 센터에 할당된 & 제거 역할( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**중요:** Office 365 보안 & 준수 센터()에서만 보안 관리자 역할이 할당된 경우, 관리 센터 또는 Microsoft  [https://protection.office.com](https://protection.office.com) 365 Defender 기능에 액세스할 수 없습니다. Azure Active  Directory 또는 Microsoft 365 관리 센터에서 보안 관리자 역할이 할당되어 있어야 합니다. <br/><br/>자세한 내용은 다음 리소스를 참조하세요. <br/>- [Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [보안 및 준수 센터의 & 권한](../office-365-security/permissions-in-the-security-and-compliance-center.md) |
 
-> [!NOTE]
-> Azure Active Directory에서 전역 관리자 역할이 할당된 사용자는 알림 센터에서 대기 중인 모든 작업을 승인하거나 거부할 수 있습니다. 그러나 조직에서 전역 관리자 역할이 할당된 사용자 수를 제한하는 것이 가장 좋습니다. 알림 센터 사용 권한에 대해 위에 나열한 보안 관리자, 활성 수정 작업, 검색 및 제거 역할을 사용하는 것이 좋습니다.
+> [!TIP]
+> Azure Active Directory에서 **전역 관리자** 역할이 할당된 사용자는 알림 센터에서 대기 중인 모든 작업을 승인하거나 거부할 수 있습니다. 그러나 조직에서는 전역 관리자 역할이 할당된 사용자 수를 제한하는 것이 가장 좋은 **모범** 사례입니다. 앞의 관리 센터 권한 표에 나열된  보안 **관리자,** 활성 수정 작업 및 검색 및 제거 역할을 사용하는 것이 좋습니다.
 
-## <a name="next-steps"></a>다음 단계 
+## <a name="next-step"></a>다음 단계 
 
-- [자동화된 조사 후 보류 중인 작업 승인 또는 거부](mtp-autoir-actions.md)
-- [자동화된 조사 결과 보기](mtp-autoir-results.md)
-
+- [수정 작업 검토 및 관리](mtp-autoir-actions.md)

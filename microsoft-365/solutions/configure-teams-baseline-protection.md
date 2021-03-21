@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 기본 수준의 보호로 팀을 배포하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 11554dbd7e33a77c9f6397ae9c5e91669f537081
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 4f38bf286b8ebd3edf6f7705299008566d2b7c8f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921873"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916337"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>기본 보호 기능으로 팀 구성
 
@@ -37,9 +37,9 @@ ms.locfileid: "49921873"
 
 |옵션|정보|
 |:------|:-----------|
-|SPO, OneDrive 및 Teams용 안전 첨부 파일|[안전 첨부 파일](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br>[Office 365용 Defender - SharePoint, OneDrive 및 Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)|
-|안전 문서|[Office 365용 Microsoft Defender의 안전 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)|
-|Teams용 안전 링크|[Teams의 Office 365 안전한 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams)<br>[안전 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)|
+|SPO, OneDrive 및 Teams용 안전 첨부 파일|[안전 첨부 파일](../security/office-365-security/atp-safe-attachments.md)<br>[Office 365용 Defender - SharePoint, OneDrive 및 Microsoft Teams](../security/office-365-security/atp-for-spo-odb-and-teams.md)|
+|안전 문서|[Office 365용 Microsoft Defender의 안전 문서](../security/office-365-security/safe-docs.md)|
+|Teams용 안전 링크|[Teams의 Office 365 안전한 링크](../security/office-365-security/atp-safe-links.md#safe-links-settings-for-microsoft-teamssafe-links-settings-for-microsoft-teams)<br>[안전 링크](../security/office-365-security/atp-safe-links.md)|
 
 ## <a name="teams-guest-sharing"></a>Teams 게스트 공유
 
@@ -59,7 +59,7 @@ Teams 게스트 액세스를 설정하려면 다음을 수행합니다.
 > [!NOTE]
 > Teams 게스트 설정을 켠 후 활성화되려면 최대 24시간이 걸릴 수 있습니다.
 
-Office 365 그룹 ​​및 SharePoint에서는 게스트 공유가 기본적으로 사용 설정되어 있지만 이전에 조직의 게스트 공유 설정을 변경한 경우 [팀의 게스트와 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)을 검토하여 게스트 공유를 Teams에서 사용할 수 있는지 확인하는 것이 좋습니다.
+Office 365 그룹 ​​및 SharePoint에서는 게스트 공유가 기본적으로 사용 설정되어 있지만 이전에 조직의 게스트 공유 설정을 변경한 경우 [팀의 게스트와 공동 작업](./collaborate-as-team.md)을 검토하여 게스트 공유를 Teams에서 사용할 수 있는지 확인하는 것이 좋습니다.
 
 ## <a name="site-and-file-sharing"></a>사이트 및 파일 공유
 
@@ -71,7 +71,7 @@ Office 365 그룹 ​​및 SharePoint에서는 게스트 공유가 기본적으
 3. **파일 및 폴더 링크** 에서 **조직 내 사용자만** 을 선택합니다.
 4. **저장** 을 클릭합니다.
 
-최상의 게스트 공유 환경을 위해서는 [Azure AD B2B와의 SharePoint 및 OneDrive 통합](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)을 사용하는 것이 좋습니다.
+최상의 게스트 공유 환경을 위해서는 [Azure AD B2B와의 SharePoint 및 OneDrive 통합](/sharepoint/sharepoint-azureb2b-integration-preview)을 사용하는 것이 좋습니다.
 
 ## <a name="create-a-team"></a>팀 만들기
 
@@ -94,12 +94,12 @@ Office 365 그룹 ​​및 SharePoint에서는 게스트 공유가 기본적으
 
 Microsoft 365에서는 콘텐츠를 보호하기 위한 추가 방법을 제공합니다. 다음 옵션이 조직의 보안을 개선하는 데 도움이 되는지 고려해 보세요.
 
-- 게스트들이 [사용 약관](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use)에서 동의하도록 합니다.
-- 게스트 사용자에 대한 [세션 시간 초과 정책](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)을 구성합니다.
-- [중요한 정보 유형](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types)을 만들고 [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)를 사용하여 중요한 정보에 액세스하는 방법에 대한 정책을 설정합니다.
+- 게스트들이 [사용 약관](/azure/active-directory/conditional-access/terms-of-use)에서 동의하도록 합니다.
+- 게스트 사용자에 대한 [세션 시간 초과 정책](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)을 구성합니다.
+- [중요한 정보 유형](../compliance/sensitive-information-type-learn-about.md)을 만들고 [데이터 손실 방지](../compliance/data-loss-prevention-policies.md)를 사용하여 중요한 정보에 액세스하는 방법에 대한 정책을 설정합니다.
 
 ## <a name="see-also"></a>참고 항목
 
-[Teams에서의 모임 정책 관리](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)
+[Teams에서의 모임 정책 관리](/microsoftteams/meeting-policies-in-teams)
 
-[내부자 위험 관리 시작](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-configure)
+[내부자 위험 관리 시작](../compliance/insider-risk-management-configure.md)

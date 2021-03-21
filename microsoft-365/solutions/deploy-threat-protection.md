@@ -16,27 +16,23 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: a2d758ca4628e4cd5f73e77d0d86946e350163c5
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 3156e6bc7715db9847b295add7850dcbd0ff6642
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50424110"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918409"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에 위협 방지 기능 배포
 
-[맬웨어](https://docs.microsoft.com/windows/security/threat-protection/intelligence/understanding-malware)및 정교한 사이버 공격(예: 파일 없는 위협)은 일반적으로 발생합니다. [](https://docs.microsoft.com/windows/security/threat-protection/intelligence/fileless-threats) 기업은 효과적인 IT 보안 기능으로 자신과 고객을 보호해야 합니다. 사이버 공격은 신뢰 상실에서 재무적 위험, 비즈니스를 위협하는 다운타임 등 조직에 중요한 문제를 일으킬 수 있습니다. 위협으로부터 보호하는 것은 중요하지만 조직의 시간, 작업 및 리소스에 집중할 위치를 결정하기 어려울 수 있습니다. 
+[맬웨어](/windows/security/threat-protection/intelligence/understanding-malware)및 정교한 사이버 공격(예: 파일 없는 위협)은 일반적으로 발생합니다. [](/windows/security/threat-protection/intelligence/fileless-threats) 기업은 효과적인 IT 보안 기능으로 자신과 고객을 보호해야 합니다. 사이버 공격은 신뢰 상실에서 재무적 위험, 비즈니스를 위협하는 다운타임 등 조직에 중요한 문제를 일으킬 수 있습니다. 위협으로부터 보호하는 것은 중요하지만 조직의 시간, 작업 및 리소스에 집중할 위치를 결정하기 어려울 수 있습니다. 
 
-Microsoft 보안 솔루션은 제품 및 서비스에 기본 제공되어 있습니다. 자동화 및 기계 학습 기능은 보안 팀의 부하를 줄여 올바른 항목이 해결될 수 있도록 합니다. 또한 Microsoft 보안 솔루션의 강점은 지능형 보안 그래프에서 매일 수조 가지 신호를 [처리합니다.](https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph) Microsoft 365 보안 솔루션에는 전자 메일, 데이터, 장치 및 ID 전반의 신호를 모아 조직에 대한 고급 위협 그림을 그릴 수 있는 솔루션인 [Microsoft 365 Defender가](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)포함되어 있습니다.
+Microsoft 보안 솔루션은 제품 및 서비스에 기본 제공되어 있습니다. 자동화 및 기계 학습 기능은 보안 팀의 부하를 줄여 올바른 항목이 해결될 수 있도록 합니다. 또한 Microsoft 보안 솔루션의 강점은 지능형 보안 그래프에서 매일 수조 가지 신호를 [처리합니다.](https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph) Microsoft 365 보안 솔루션에는 전자 메일, 데이터, 장치 및 ID 전반의 신호를 모아 조직에 대한 고급 위협 그림을 그릴 수 있는 솔루션인 [Microsoft 365 Defender가](../security/mtp/microsoft-threat-protection.md)포함되어 있습니다.
 
 
 이 비디오를 시청하고 배포 프로세스에 대한 개요를 확인하세요.
 <br><br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vsI7]
-
->[!Note]
->이 비디오에서는 위협 방지 제품 및 기능의 이전 이름을 사용하지만 개념은 동일합니다. 이 비디오에 대한 업데이트가 진행 중입니다.
->
 
 이 문서를 위협 방지 솔루션을 구현하기 위한 가이드로 사용하세요.
 
@@ -82,4 +78,4 @@ Office 365용 Defender 기능을 배포하는 즉시 Microsoft 365 Defender를 �
 
 위협 방지 기능을 병렬로 구성할 수 있으므로 여러 네트워크 보안 팀이 서로 다른 서비스를 담당하는 경우 조직의 보호 기능을 동시에 구성할 수 있습니다. 다음 다이어그램은 위협 방지 기능을 배포하기 위한 높은 수준의 프로세스를 보여 제공합니다. 
 
-![위협 방지 기능 배포 프로세스](../media/deploy-threat-protection/deploy-threat-protection-across-m365-grid.png) 
+![위협 방지 기능 배포 프로세스](../media/deploy-threat-protection/deploy-threat-protection-across-m365-grid.png)

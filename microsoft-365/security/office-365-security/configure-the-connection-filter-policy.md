@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 전자 메일 서버에서 전자 메일을 허용하거나 차단하도록 EOP(Exchange Online Protection)에서 연결 필터링을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bdc8033996c41238bb1defe831eb8e8c7650bb44
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 43f6c1b9f3867670810f2c4e2ada13544d39380f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406093"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917061"
 ---
 # <a name="configure-connection-filtering"></a>연결 필터링 구성
 
@@ -53,18 +53,18 @@ Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange Online 
 
 - <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **스팸 방지 설정** 페이지로 바로 이동하려면 <https://protection.office.com/antispam>을 사용하세요.
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.
 
-- 이 문서의 절차를 수행하려면 **먼저 Exchange Online에서** 사용 권한을 할당해야 합니다.
+- 이 게시물의 절차를 수행하려면 먼저 **Exchange Online** 에서 사용 권한을 할당받아야 합니다.
   - 기본 연결 필터 정책을 수정하려면 조직 관리 또는  보안 관리자 역할 그룹의 **구성원이** 되어야 합니다.
   - 기본 연결 필터 정책에 대한 읽기 전용 액세스의 경우  전역 읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이면** 됩니다.
 
-  자세한 내용은 [Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)을 참조하세요.
+  자세한 내용은 [Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo)을 참조하세요.
 
-  **참고:**
+  **참고**:
 
-  - Microsoft 365 관리 센터에서 해당 Azure Active Directory 역할에 사용자를  추가하면 Microsoft 365의 다른 기능에 필요한 사용 권한 및 사용 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  - [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
+  - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+  - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
 
 - 허용하거나 차단할 전자 메일 서버(보낸 사람)의 원본 IP 주소를 찾으면 메시지 헤더에서 연결 **IP(CIP)** 헤더 필드를 확인할 수 있습니다. 다양한 전자 메일 클라이언트에서 메시지 헤더를 확인하려면 Outlook에서 인터넷 메시지 [헤더 보기를 참조하세요.](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c)
 
@@ -144,7 +144,7 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList 192.168.1.10,192
 Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2.10","192.169.3.0/24","192.168.4.1-192.168.4.5";Remove="192.168.1.10"}
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [Set-HostedConnectionFilterPolicy를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/set-hostedconnectionfilterpolicy)
+구문과 매개 변수에 대한 자세한 내용은 [Set-HostedConnectionFilterPolicy를 참조하십시오.](/powershell/module/exchange/set-hostedconnectionfilterpolicy)
 
 ## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
@@ -174,13 +174,13 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 - 규칙 작업: **메시지 속성 수정** \> **SCL(스팸 지수)** 스팸 필터링 무시를 \> **설정합니다.**
 
-규칙을 감사하고, 규칙을 테스트하고, 특정 기간 동안 규칙을 활성화하는 등 기타 선택을 할 수 있습니다. 옵션을 적용하기 전에 규칙을 테스트하는 것이 좋습니다. 자세한 내용은 [Exchange Online에서 메일 흐름 규칙 관리를 참조하세요.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
+규칙을 감사하고, 규칙을 테스트하고, 특정 기간 동안 규칙을 활성화하는 등 기타 선택을 할 수 있습니다. 옵션을 적용하기 전에 규칙을 테스트하는 것이 좋습니다. 자세한 내용은 [Exchange Online에서 메일 흐름 규칙 관리를 참조하세요.](/Exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
 
 ### <a name="skip-spam-filtering-on-selective-email-domains-from-the-same-source"></a>동일한 원본에서 선택적 전자 메일 도메인에 대한 스팸 필터링 건너뛰기
 
 일반적으로 IP 허용 목록에 IP 주소 또는 주소 범위를 추가하면 해당 전자 메일 원본에서 들어오는 모든 메시지를 신뢰하게 됩니다. 그러나 해당 원본이 여러 도메인에서 전자 메일을 보내고 해당 도메인 중 일부에 대해 스팸 필터링을 건너뛰고 다른 도메인은 건너뛰고 싶은 경우에는 어떻게 하나요? IP 허용 목록만 사용하여 이 작업을 할 수 없지만 메일 흐름 규칙과 함께 IP 허용 목록을 사용할 수 있습니다.
 
-예를 들어 원본 전자 메일 서버 192.168.1.25는 도메인contoso.com, fabrikam.com 및 tailspintoys.com에서 전자 메일을 보내지만 도메인의 보낸 사람이 보낸 메시지에 대한 스팸 필터링만 건너뛰 fabrikam.com. 이 작업을 수행하기 위해 다음 단계를 수행합니다.
+예를 들어 원본 전자 메일 서버 192.168.1.25는 도메인 contoso.com, fabrikam.com 및 tailspintoys.com 에서 전자 메일을 보내지만 도메인의 보낸 사람이 보낸 메시지에 대한 스팸 필터링만 건너뛰 fabrikam.com. 이 작업을 수행하기 위해 다음 단계를 수행합니다.
 
 1. IP 허용 목록에 192.168.1.25를 추가합니다.
 

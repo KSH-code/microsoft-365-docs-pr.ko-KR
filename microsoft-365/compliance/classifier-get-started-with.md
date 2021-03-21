@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 분류자 는 다양한 유형의 콘텐츠를 인식할 수 있는 도구로, 샘플을 제공하면 됩니다. 이 문서에서는 사용자 지정 분류기를 만들고 교육하는 방법과 정확도를 높이기 위해 분류기를 다시 학습하는 방법을 보여집니다.
-ms.openlocfilehash: a73acd7665cd23f13329bb5db4e890b0f3b0d861
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 90e47ec94528bbadeb98dc9eb590929e25ae6ff1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423297"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918182"
 ---
 # <a name="get-started-with-trainable-classifiers"></a>학습 가능한 분류자 시작
 
@@ -95,7 +95,7 @@ UI에서 분류자에 액세스하는 경우:
 
 ## <a name="how-to-create-a-trainable-classifier"></a>학습 가능한 분류자 만들기 방법
 
-1. 50-500개 사이의 시드 콘텐츠 항목을 수집합니다. 이러한 샘플은 학습 가능한 분류자에서 분류 범주에 속하는 것으로 긍정적으로 식별하려는 콘텐츠 유형을 강력하게 나타내는 샘플만 있어야 합니다. 지원되는 파일 형식에 대한 자세한 내용은 [SharePoint Server의](https://docs.microsoft.com/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) 크롤링되는 기본 파일 이름 확장명 및 구문 분석된 파일 형식을 참조합니다.
+1. 50-500개 사이의 시드 콘텐츠 항목을 수집합니다. 이러한 샘플은 학습 가능한 분류자에서 분류 범주에 속하는 것으로 긍정적으로 식별하려는 콘텐츠 유형을 강력하게 나타내는 샘플만 있어야 합니다. 지원되는 파일 형식에 대한 자세한 내용은 [SharePoint Server의](/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) 크롤링되는 기본 파일 이름 확장명 및 구문 분석된 파일 형식을 참조합니다.
 
    > [!IMPORTANT]
    > 시드 및 테스트 샘플 항목은 암호화되지 말고 영어로 표시되어야 합니다.
@@ -127,7 +127,7 @@ UI에서 분류자에 액세스하는 경우:
     > [!div class="mx-imgBorder"]
     > ![교육 가능한 분류자 테스트 준비](../media/classifier-trainable-ready-to-test-detail.png)
 
-11. 최상의 결과를 얻으 위해 테스트 콘텐츠 항목을 200개 이상(최대 10,000개) 수집합니다. 이러한 항목은 강한 양성, 강력한 부정 및 특성상 약간 명확하지 않다는 항목이 혼합된 것이 틀려야 합니다. 지원되는 파일 형식에 대한 자세한 내용은 [SharePoint Server의](https://docs.microsoft.com/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) 크롤링되는 기본 파일 이름 확장명 및 구문 분석된 파일 형식을 참조합니다.
+11. 최상의 결과를 얻으 위해 테스트 콘텐츠 항목을 200개 이상(최대 10,000개) 수집합니다. 이러한 항목은 강한 양성, 강력한 부정 및 특성상 약간 명확하지 않다는 항목이 혼합된 것이 틀려야 합니다. 지원되는 파일 형식에 대한 자세한 내용은 [SharePoint Server의](/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) 크롤링되는 기본 파일 이름 확장명 및 구문 분석된 파일 형식을 참조합니다.
 
     > [!IMPORTANT]
     > 샘플 항목은 암호화되지 말고 영어로 번역해야 합니다.

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기에서 학습 가능한 분류자에 피드백을 제공하는 방법을 학습합니다.
-ms.openlocfilehash: fabfe8e4df377c25012b358960d7f7ff7ff994bc
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: d61437634dcad7f01a6737947b0f32f42de2818e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423265"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918104"
 ---
 # <a name="how-to-retrain-a-classifier-in-content-explorer"></a>콘텐츠 탐색기에서 분류자를 재학습하는 방법
 
@@ -112,4 +112,4 @@ Microsoft 365 규정 준수 센터에서 분류자에 액세스하는 경우:
 ## <a name="see-also"></a>참고 항목
 
 - [학습 가능한 분류자에 대한 자세한 정보](classifier-learn-about.md)
-- [SharePoint Server의 크롤링되는 기본 파일 이름 확장명 및 구문 분석되는 파일 형식](https://docs.microsoft.com/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
+- [SharePoint Server의 크롤링되는 기본 파일 이름 확장명 및 구문 분석되는 파일 형식](/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)

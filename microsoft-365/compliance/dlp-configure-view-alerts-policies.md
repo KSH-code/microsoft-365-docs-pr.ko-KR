@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: DLP 정책에 대한 경고를 정의하고 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 7bc9d9b59c0424792f995be42591548b758c99ec
-ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
+ms.openlocfilehash: 0594cee5208049aef16dee6fa03954faae2a1cdd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50766423"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917864"
 ---
 # <a name="configure-and-view-alerts-for-dlp-polices-preview"></a>DLP 경찰에 대한 경고 구성 및 보기(미리 보기)
 
@@ -54,9 +54,9 @@ ms.locfileid: "50766423"
 
 ### <a name="licensing-for-the-dlp-alert-management-dashboard"></a>DLP 경고 관리 대시보드에 대한 라이선스
 
-Office 365 DLP에 적합한 모든 테넌트는 새 DLP 경고 관리 대시보드에 액세스할 수 있습니다. 시작을 위해 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive에 대한 Office 365 DLP를 사용할 수 있습니다. Office 365 DLP의 라이선스 요구 사항에 대한 자세한 내용은 사용자에게 서비스 혜택을 받을 수 있는 권한을 제공하는 라이선스를 [참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16)
+Office 365 DLP에 적합한 모든 테넌트는 새 DLP 경고 관리 대시보드에 액세스할 수 있습니다. 시작을 위해 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive에 대한 Office 365 DLP를 사용할 수 있습니다. Office 365 DLP의 라이선스 요구 사항에 대한 자세한 내용은 사용자에게 서비스 혜택을 받을 수 있는 권한을 제공하는 라이선스를 [참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16)
 
-[끝점 DLP](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-learn-about?view=o365-worldwide) 공개 미리 보기에 참여하거나 [Teams DLP를](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?view=o365-worldwide) 사용할 자격이 있는 고객은 DLP 경고 관리 대시보드에서 끝점 DLP 정책 경고 및 Teams DLP 정책 경고를 볼 수 있습니다.
+[끝점 DLP](./endpoint-dlp-learn-about.md?view=o365-worldwide) 공개 미리 보기에 참여하거나 [Teams DLP를](./dlp-microsoft-teams.md?view=o365-worldwide) 사용할 자격이 있는 고객은 DLP 경고 관리 대시보드에서 끝점 DLP 정책 경고 및 Teams DLP 정책 경고를 볼 수 있습니다.
 
 ### <a name="licensing-for-alert-configuration-options"></a>경고 구성 옵션에 대한 라이선싱
 
@@ -115,7 +115,7 @@ DLP 경고 관리 대시보드에서 작업하는 경우:
     |-------------------|-------------------------------|----------------------------------------------------------------------------|------------------------------------------|
     |*이벤트 세부 정보*||
     |      | Id                            | 이벤트와 연결된 고유 ID                                        | 모든 이벤트                               |
-    |                   | Location                      | 이벤트가 검색된 워크로드                                      | 모든 이벤트                               |
+    |                   | 위치                      | 이벤트가 검색된 워크로드                                      | 모든 이벤트                               |
     |                   | 활동 시간              | DLP 위반을 일으운 사용자 활동 시간                    | 모든 이벤트                               |
     |*영향을 미치는 엔터티*||
     |  | 사용자                          | DLP 위반을 유발한 사용자                                          | 모든 이벤트                               |

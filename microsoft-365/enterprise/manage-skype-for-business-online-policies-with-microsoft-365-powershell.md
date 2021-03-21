@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: ff93a341-6f0f-4f06-9690-726052e1be64
 description: '요약: PowerShell을 사용하여 정책으로 비즈니스용 Skype Online 사용자 계정 속성을 관리합니다.'
-ms.openlocfilehash: ca945bc05e76525b4b2df6fb0b982a8468d87810
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: a10929bbdce499ad26f9714127f675beeef58765
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515055"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916705"
 ---
 # <a name="manage-skype-for-business-online-policies-with-powershell"></a>PowerShell을 사용하여 온라인 비즈니스 정책용 Skype 관리
 
@@ -34,7 +34,7 @@ ms.locfileid: "50515055"
   > [!Note]
   > Skype for Business Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다. 최신 Teams PowerShell 공개 릴리스를 사용 중인 경우 비즈니스용 Skype Online 커넥터를 설치할 필요가 없습니다.
 
-1. Teams [PowerShell 모듈을 설치합니다.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+1. [Teams PowerShell 모듈](/microsoftteams/teams-powershell-install)를 설치합니다.
     
 2. Windows PowerShell 명령 프롬프트를 열고 다음 명령을 실행합니다. 
 
@@ -90,11 +90,11 @@ Get-CsOnlineUser -Identity "Alex Darrow" | ForEach {Get-CsExternalAccessPolicy -
   
 PowerShell을 사용하여 비즈니스용 Skype Online 정책을 관리하기 위해 다음에 대한 cmdlet을 참조하세요.
 
-- [클라이언트 정책](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#client-policy-cmdlets)
-- [회의 정책](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#conferencing-policy-cmdlets)
-- [모바일 정책](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#mobile-policy-cmdlets)
-- [온라인 음성메일 정책](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#online-voicemail-policy-cmdlets)
-- [음성 라우팅 정책](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#voice-routing-policy-cmdlets)
+- [클라이언트 정책](/previous-versions//mt228132(v=technet.10)#client-policy-cmdlets)
+- [회의 정책](/previous-versions//mt228132(v=technet.10)#conferencing-policy-cmdlets)
+- [모바일 정책](/previous-versions//mt228132(v=technet.10)#mobile-policy-cmdlets)
+- [온라인 음성메일 정책](/previous-versions//mt228132(v=technet.10)#online-voicemail-policy-cmdlets)
+- [음성 라우팅 정책](/previous-versions//mt228132(v=technet.10)#voice-routing-policy-cmdlets)
 
 
 > [!NOTE]
@@ -107,7 +107,7 @@ Get-CsVoicePolicy
 ```
 
 > [!NOTE]
-> 이 경우 사용 가능한 모든 음성 정책의 목록이 반환됩니다. 그러나 일부 정책을 모든 사용자에게 할당할 수 있는 것은 아니라는 사실에 유의해야 합니다. 이는 라이선싱 및 지리적 위치와 관련된 다양한 제한 때문에입니다. (소위 "[사용 위치.")](https://msdn.microsoft.com/library/azure/dn194136.aspx) 특정 사용자에게 할당할 수 있는 외부 액세스 정책 및 회의 정책을 알고 싶은 경우 다음 명령을 사용 합니다. 
+> 이 경우 사용 가능한 모든 음성 정책의 목록이 반환됩니다. 그러나 일부 정책을 모든 사용자에게 할당할 수 있는 것은 아니라는 사실에 유의해야 합니다. 이는 라이선싱 및 지리적 위치와 관련된 다양한 제한 때문에입니다. (소위 "[사용 위치.")](/previous-versions/azure/dn194136(v=azure.100)) 특정 사용자에게 할당할 수 있는 외부 액세스 정책 및 회의 정책을 알고 싶은 경우 다음 명령을 사용 합니다. 
 
 ```powershell
 Get-CsConferencingPolicy -ApplicableTo "Alex Darrow"
@@ -131,4 +131,3 @@ Get-CsClientPolicy -Identity "Global"
 [PowerShell로 Microsoft 365 관리](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Microsoft 365 용 PowerShell 시작](getting-started-with-microsoft-365-powershell.md)
-

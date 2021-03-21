@@ -17,12 +17,12 @@ ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365에서 Exchange Online 사서함에 배치할 수 있는 다양한 유형의 보류를 식별하는 방법을 학습합니다.
-ms.openlocfilehash: a5bea8cd279bb980ba2f8a57950c8a66857ba502
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 0fdfbd4503a4ddffd2ce2dd97c6af42684aea293
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423629"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917538"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 
@@ -34,7 +34,7 @@ Microsoft 365는 조직에서 사서함 콘텐츠가 영구적으로 삭제되�
 
 - **[eDiscovery 보류](create-ediscovery-holds.md):** 보안 및 규정 준수 센터의 Core eDiscovery 사례와 연결된 보류. eDiscovery 보류는 사용자 사서함 및 Microsoft 365 그룹 및 Microsoft Teams에 대한 해당 사서함에 적용할 수 있습니다.
 
-- **[In-Place Hold](https://docs.microsoft.com/Exchange/security-and-compliance/create-or-remove-in-place-holds):** Exchange Online의 Exchange 관리 센터에서 In-Place eDiscovery & 보류 도구를 사용하여 사용자 사서함에 적용되는 보류입니다. 
+- **[In-Place Hold](/Exchange/security-and-compliance/create-or-remove-in-place-holds):** Exchange Online의 Exchange 관리 센터에서 In-Place eDiscovery & 보류 도구를 사용하여 사용자 사서함에 적용되는 보류입니다. 
 
    > [!NOTE]
    > In-Place 보류가 사용 중지되어 더 이상 보류를 만들거나 사서함에 In-Place 수 없습니다. 그러나 In-Place 사서함에 여전히 보류가 적용될 수 있습니다. 따라서 보류가 이 문서에 포함되어 있습니다. 자세한 내용은 레거시 [eDiscovery](legacy-ediscovery-retirement.md#in-place-ediscovery-and-in-place-holds-in-the-exchange-admin-center)도구의 사용 중지를 참조하세요.
@@ -59,7 +59,7 @@ Exchange Online PowerShell에서 다음 두 cmdlet을 실행하여 사서함에 
 
 - **Get-OrganizationConfig:** 이 cmdlet을 사용하여 조직 전체 보존 정책에 대한 GUID를 얻을 수 있습니다.
 
-Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
 ### <a name="get-mailbox"></a>Get-Mailbox
 
@@ -129,7 +129,7 @@ InPlaceHolds 속성의 항목을 Microsoft 365 보존 정책으로 식별하는 
 
 Security & Compliance Center PowerShell에서 다음 명령을 실행하여 사서함에 적용되는 eDiscovery 보류를 식별합니다. 1단계에서 식별한 eDiscovery 보류에 대한 GUID(UniH prefix 포함 안 )를 사용 합니다. 
 
-보안 및 준수 & PowerShell에 연결하기 위해 보안 및 준수 & [PowerShell에 연결을 참조합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+보안 및 준수 & PowerShell에 연결하기 위해 보안 및 준수 & [PowerShell에 연결을 참조합니다.](/powershell/exchange/connect-to-scc-powershell)
 
 첫 번째 명령은 보류에 대한 정보가 포함된 변수를 만듭니다. 이 변수는 다른 명령에 사용됩니다. 두 번째 명령은 보류가 연결된 eDiscovery 사례의 이름을 표시합니다. 세 번째 명령은 보류의 이름과 보류가 적용되는 사서함 목록을 표시합니다.
 
@@ -227,7 +227,7 @@ Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplie
 > [!TIP]
 > 이전 명령에서 비활성 사서함을 지정하는 가장 좋은 방법은 고유 이름 또는 Exchange GUID 값을 사용하는 것입니다. 이러한 값 중 하나를 사용하면 잘못된 사서함을 실수로 지정하는 것을 방지할 수 있습니다. 
 
-이러한 매개 변수를 사용하여 지연 보류를 관리하는 데 대한 자세한 내용은 [Set-Mailbox를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/set-mailbox)
+이러한 매개 변수를 사용하여 지연 보류를 관리하는 데 대한 자세한 내용은 [Set-Mailbox를 참조하십시오.](/powershell/module/exchange/set-mailbox)
 
 사서함을 지연 보류할 때 다음에 유의해야 합니다.
 
@@ -239,7 +239,7 @@ Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplie
 
 사서함에 적용되는 보류를 식별한 후 보류 기간을 변경하거나, 보류를 일시적으로 또는 영구적으로 제거하거나, 비활성 사서함을 Microsoft 365 보존 정책에서 제외하는 등의 작업을 수행할 수 있습니다. 보류와 관련된 작업을 수행하는 데 대한 자세한 내용은 다음 항목 중 하나를 참조하십시오.
 
-- 보안 및 준수 센터 PowerShell에서 [Set-RetentionCompliancePolicy -Identity \<Policy Name> -AddExchangeLocationExcept & ion \<user mailbox> ](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) 명령을 실행하여 조직 전체의 Microsoft 365 보존 정책에서 사서함을 제외합니다. 이 명령은 *ExchangeLocation* 속성 값이 같은 보존 정책에만 사용할 수 `All` 있습니다.
+- 보안 및 준수 센터 PowerShell에서 [Set-RetentionCompliancePolicy -Identity \<Policy Name> -AddExchangeLocationExcept & ion \<user mailbox> ](/powershell/module/exchange/set-retentioncompliancepolicy) 명령을 실행하여 조직 전체의 Microsoft 365 보존 정책에서 사서함을 제외합니다. 이 명령은 *ExchangeLocation* 속성 값이 같은 보존 정책에만 사용할 수 `All` 있습니다.
 
 - [비활성 사서함의 유지 보존 기간 변경](change-the-hold-duration-for-an-inactive-mailbox.md)
 
