@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서는 Microsoft 365 네트워크 연결을 안전하게 최적화하기 위한 최신 가이드를 재공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6f104f53abd0a9aa2376b09c93af96d7f8178e8
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: e0391133721270c0fdfb288b5d26ab23f301a844
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519742"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923293"
 ---
 # <a name="microsoft-365-network-connectivity-principles"></a>Microsoft 365 네트워크 연결 원칙
 
@@ -228,7 +228,7 @@ Microsoft는 광범위한 Microsoft 365 보안 기능을 제공하며, Microsoft
   - Microsoft 365 트래픽의 로컬 송신을 보장합니다.
 - 개선 사항은 [증분 최적화](microsoft-365-network-connectivity-principles.md#BKMK_IncOpt) 섹션에 설명된 대로 단계적으로 처리될 수 있습니다. 일부 최적화 기술에서는 네트워크 아키텍처에 따라 더 나은 비용/이익 비율을 제공할 수 있으므로 사용자는 조직에 가장 적합한 최적화를 선택해야 합니다.
 
-Microsoft 365 보안 및 규정 준수에 대한 자세한 내용은 [Microsoft 365 보안](https://docs.microsoft.com/microsoft-365/security) 및 [Microsoft 365 규정 준수](https://docs.microsoft.com/microsoft-365/compliance) 문서를 참조 하세요.
+Microsoft 365 보안 및 규정 준수에 대한 자세한 내용은 [Microsoft 365 보안](../security/index.yml) 및 [Microsoft 365 규정 준수](../compliance/index.yml) 문서를 참조 하세요.
   
 ## <a name="incremental-optimization"></a>증분 최적화
 <a name="BKMK_IncOpt"> </a>

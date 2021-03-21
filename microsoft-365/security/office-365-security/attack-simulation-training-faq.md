@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 Microsoft 365 E5 또는 Office 365 계획 2 조직용 Microsoft Defender의 공격 시뮬레이션 및 교육과 관련하여 배포 고려 사항 및 자주 묻는 질문에 대해 학습할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b57252252d8a22ade4b8e1a18f42d7fdce91324e
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: f404e2a47756a611135fc70026bf0cce3eec62c4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454737"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921375"
 ---
 # <a name="attack-simulation-training-deployment-considerations-and-faq"></a>공격 시뮬레이션 교육 배포 고려 사항 및 FAQ
 
@@ -51,7 +51,7 @@ URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 
 
 ### <a name="phishing-simulation-and-admin-urls-blocked-by-network-proxy-solutions-and-filter-drivers"></a>네트워크 프록시 솔루션 및 필터 드라이버에 의해 차단되는 피싱 시뮬레이션 및 관리자 URL
 
-피싱 시뮬레이션 URL과 관리자 URL은 모두 중간 보안 장치 또는 필터에 의해 차단되거나 삭제될 수 있습니다. 예:
+피싱 시뮬레이션 URL과 관리자 URL은 모두 중간 보안 장치 또는 필터에 의해 차단되거나 삭제될 수 있습니다. 예를 들어 다음과 같습니다.
 
 - 방화벽
 - WAF(웹 응용 프로그램 방화벽) 솔루션
@@ -72,7 +72,7 @@ URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 
 - 게스트 사용자.
 - Azure AD(Azure Active Directory)에서 더 이상 활성이 없는 사용자입니다.
 
-유효한 사서함이 있는 게스트가 아닌 유효한 사용자만 시뮬레이션에 포함됩니다. 메일 그룹 또는 메일 사용이 가능한 보안 그룹을 사용하여 사용자를 대상으로 지정하는 경우 Exchange Online [PowerShell에서](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) [Get-DistributionGroupMember](https://docs.microsoft.com/powershell/module/exchange/get-distributiongroupmember) cmdlet을 사용하여 메일 그룹 구성원을 보고 유효성을 검사할 수 있습니다.
+유효한 사서함이 있는 게스트가 아닌 유효한 사용자만 시뮬레이션에 포함됩니다. 메일 그룹 또는 메일 사용이 가능한 보안 그룹을 사용하여 사용자를 대상으로 지정하는 경우 Exchange Online [PowerShell에서](/powershell/exchange/connect-to-exchange-online-powershell) [Get-DistributionGroupMember](/powershell/module/exchange/get-distributiongroupmember) cmdlet을 사용하여 메일 그룹 구성원을 보고 유효성을 검사할 수 있습니다.
 
 ## <a name="issues-with-attack-simulation-training-reporting"></a>공격 시뮬레이션 교육 보고 관련 문제
 
@@ -118,7 +118,7 @@ URL 신뢰도 서비스는 공격 시뮬레이션 교육에 사용되는 하나 
 
 ### <a name="messages-reported-as-phishing-by-users-arent-appearing-in-simulation-reports"></a>사용자가 피싱으로 보고한 메시지가 시뮬레이션 보고서에 나타나지 않습니다.
 
-공격 시뮬레이터 교육의 시뮬레이션 보고서는 사용자 활동에 대한 세부 정보를 제공합니다. 예:
+공격 시뮬레이터 교육의 시뮬레이션 보고서는 사용자 활동에 대한 세부 정보를 제공합니다. 예를 들어 다음과 같습니다.
 
 - 메시지의 링크를 클릭한 사용자입니다.
 - 자격 증명을 포기한 사용자입니다.

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 감사 로그 보존 정책은 Microsoft 365의 새로운 고급 감사 기능의 일부입니다. 감사 로그 보존 정책을 사용하여 조직에서 감사 로그를 보존할 기간을 지정할 수 있습니다.
-ms.openlocfilehash: fd7e5dc37daad220257b4203679c6bb765140385
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 53449b6b83373eb2f749a4547845866dbea4a2af
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712048"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922854"
 ---
 # <a name="manage-audit-log-retention-policies"></a>로그 보존 정책 감사 관리
 
@@ -104,7 +104,7 @@ Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 �
 
 
 > [!IMPORTANT]
-> **New-UnifiedAuditLogRetentionPolicy** cmdlet을 사용하는 경우, 대시보드의 **감사 보존 정책 만들기** 도구에서 사용할 수 없는 레코드 종류나 활동에 대한 감사 로그 보존 정책을 만들 수 있습니다. 이 경우, **감사 보존 정책** 대시보드에서 정책(예: 보존 기간 변경 또는 활동 추가 및 제거)을 편집할 수 없습니다. 규정 준수 센터에서만 정책을 보고 삭제할 수 있습니다. 정책을 편집하려면 보안 및 준수 센터 PowerShell에서 [Set-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/set-unifiedauditlogretentionpolicy) cmdlet을 사용해야 합니다.<br/><br/>**팁:** PowerShell을 사용하여 편집해야 하는 정책에 대한 메시지가 플라이아웃 페이지의 맨 위에 표시됩니다.
+> **New-UnifiedAuditLogRetentionPolicy** cmdlet을 사용하는 경우, 대시보드의 **감사 보존 정책 만들기** 도구에서 사용할 수 없는 레코드 종류나 활동에 대한 감사 로그 보존 정책을 만들 수 있습니다. 이 경우, **감사 보존 정책** 대시보드에서 정책(예: 보존 기간 변경 또는 활동 추가 및 제거)을 편집할 수 없습니다. 규정 준수 센터에서만 정책을 보고 삭제할 수 있습니다. 정책을 편집하려면 보안 및 준수 센터 PowerShell에서 [Set-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/set-unifiedauditlogretentionpolicy) cmdlet을 사용해야 합니다.<br/><br/>**팁:** PowerShell을 사용하여 편집해야 하는 정책에 대한 메시지가 플라이아웃 페이지의 맨 위에 표시됩니다.
 
 ### <a name="delete-policies-in-the-dashboard"></a>대시보드에서 정책 삭제
 
@@ -118,7 +118,7 @@ Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 �
 
 다음 단계에 따라 PowerShell에서 감사 로그 보존 정책을 만들 수 있습니다.
 
-1. [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+1. [보안 및 준수 센터 PowerShell에 연결하기](/powershell/exchange/connect-to-scc-powershell)
 
 2. 다음 명령을 실행하여 감사 로그 보존 정책을 생성하십시오.
 
@@ -142,11 +142,11 @@ Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 �
 New-UnifiedAuditLogRetentionPolicy -Name "SixMonth retention for admin logons" -RecordTypes AzureActiveDirectoryStsLogon -Operations UserLoggedIn -UserIds admin@contoso.onmicrosoft.com -RetentionDuration SixMonths -Priority 25
 ```
 
-자세한 정보는 [New-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/new-unifiedauditlogretentionpolicy)를 참조하십시오.
+자세한 정보는 [New-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/new-unifiedauditlogretentionpolicy)를 참조하십시오.
 
 ### <a name="view-policies-in-powershell"></a>PowerShell에서 정책 보기
 
-보안 및 준수 센터 PowerShell에서 [Get-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/get-unifiedauditlogretentionpolicy) cmdlet을 사용하여 감사 로그 보존 정책을 볼 수 있습니다.
+보안 및 준수 센터 PowerShell에서 [Get-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/get-unifiedauditlogretentionpolicy) cmdlet을 사용하여 감사 로그 보존 정책을 볼 수 있습니다.
 
 다음은 조직의 감사 로그 보존 정책에 대한 설정을 표시하는 샘플 명령입니다. 이 명령은 정책을 가장 높은 우선 순위에서 가장 낮은 우선 순위로 정렬합니다.
 
@@ -159,11 +159,11 @@ Get-UnifiedAuditLogRetentionPolicy | Sort-Object -Property Priority -Descending 
 
 ### <a name="edit-policies-in-powershell"></a>PowerShell에서 정책 편집
 
-보안 및 규정 센터 PowerShell에서 [Set-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/set-unifiedauditlogretentionpolicy) cmdlet을 사용하여 기존 감사 로그 보존 정책을 편집할 수 있습니다.
+보안 및 규정 센터 PowerShell에서 [Set-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/set-unifiedauditlogretentionpolicy) cmdlet을 사용하여 기존 감사 로그 보존 정책을 편집할 수 있습니다.
 
 ### <a name="delete-policies-in-powershell"></a>PowerShell에서 정책 삭제
 
-보안 및 준수 센터 PowerShell에서 [Remove-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-unifiedauditlogretentionpolicy) cmdlet을 사용하여 감사 로그 보존 정책을 삭제할 수 있습니다. 조직에서 정책이 제거되는 데 최대 30분이 걸릴 수 있습니다.
+보안 및 준수 센터 PowerShell에서 [Remove-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/remove-unifiedauditlogretentionpolicy) cmdlet을 사용하여 감사 로그 보존 정책을 삭제할 수 있습니다. 조직에서 정책이 제거되는 데 최대 30분이 걸릴 수 있습니다.
 
 ## <a name="more-information"></a>추가 정보
 

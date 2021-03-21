@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Microsoft 365 서비스 상태
-ms.openlocfilehash: f7bb310452f841c04eabdd683d3ec82b4ad2b57a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d0e32fb34cf1d14a5da8c10a07551cee00e2421a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686605"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923115"
 ---
 # <a name="microsoft-365-network-health-status"></a>Microsoft 365 네트워크 상태
 
@@ -44,5 +44,5 @@ Microsoft 글로벌 네트워크 내에서 또는 고객과 Microsoft 네트워�
 이러한 리소스를 사용하여 Microsoft 서비스의 네트워크 사용률을 향상시키세요.
 
 - [VPN 분할 터널링를 사용하여 원격 사용자를 위한 Microsoft 365 연결을 최적화합니다.](microsoft-365-vpn-split-tunnel.md)
-- [Microsoft 365의 네트워크 연결 원리](https://aka.ms/pnc)
-- [Azure 네트워킹 서비스를 사용하여 원격으로 작업](https://docs.microsoft.com/azure/networking/working-remotely-support)
+- [Microsoft 365의 네트워크 연결 원리](./microsoft-365-network-connectivity-principles.md)
+- [Azure 네트워킹 서비스를 사용하여 원격으로 작업](/azure/networking/working-remotely-support)

@@ -22,12 +22,12 @@ localization_priority: Priority
 description: 관리자는 스푸핑된 보낸 사람 및 도메인의 피싱 공격을 완화하는 데 도움이 되며 EOP(Exchange Online Protection)에서 사용할 수 있는 스푸핑 방지 기능에 대해 알아볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2b20ae766ee308e9c59ed0d495df7c5a97c79b00
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 1d048a65b34bc97a619855216945d1cc988bf9e2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287068"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921387"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>EOP의 스푸핑 방지 보호 기능
 
@@ -94,7 +94,7 @@ Microsoft는 서로 다른 두 가지 유형의 스푸핑 메일을 구분합니
   - 보낸 사람과 받는 사람이 같은 도메인의 하위 도메인 소속입니다.
     > 보낸 사람: laura@marketing.fabrikam.com <br> 받는 사람: julia@engineering.fabrikam.com
 
-  - 보낸 사람과 받는 사람이 동일한 조직에 속하는 다른 도메인 소속입니다(즉, 동일한 조직에서 두 도메인이 모두 [허용 도메인](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)으로 구성되어 있음).
+  - 보낸 사람과 받는 사람이 동일한 조직에 속하는 다른 도메인 소속입니다(즉, 동일한 조직에서 두 도메인이 모두 [허용 도메인](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)으로 구성되어 있음).
     > 발신자: 보낸 사람@microsoft.com <br> 수신자: 받는 사람@bing.com
 
     스팸봇 수확을 방지하고자 전자 메일 주소에서 공백이 사용됩니다.
@@ -150,7 +150,7 @@ Office 365용 Microsoft Defender 조직은 보안 및 준수 센터의 위협 �
 
   - DMARC.org의 FAQ를 확인하십시오. [메일링 목록을 운영 중이며 DMARC와 상호 운용하고 싶습니다. 어떻게 해야 합니까?](https://dmarc.org/wiki/FAQ#I_operate_a_mailing_list_and_I_want_to_interoperate_with_DMARC.2C_what_should_I_do.3F).
 
-  - 이 블로그 게시물의 지침을 읽으십시오: [메일 그룹 운영자가 DMARC와 상호 작용하여 실패를 방지하는 팁](https://blogs.msdn.microsoft.com/tzink/2017/03/22/a-tip-for-mailing-list-operators-to-interoperate-with-dmarc-to-avoid-failures/).
+  - 이 블로그 게시물의 지침을 읽으십시오: [메일 그룹 운영자가 DMARC와 상호 작용하여 실패를 방지하는 팁](/archive/blogs/tzink/a-tip-for-mailing-list-operators-to-interoperate-with-dmarc-to-avoid-failures).
 
   - ARC를 지원하기 위해 메일 그룹 서버에 업데이트를 설치를 생각하고 있다면 <http://arc-spec.org>(을)를 참조하세요.
 

@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 엔터프라이즈용 Microsoft 365의 구성 요소, 계획 및 배포 경로에 대한 소개를 제공합니다.
-ms.openlocfilehash: 324e5166dd722f9fcd682db7e536a4b864365025
-ms.sourcegitcommit: 2c4c7ebe9bea52765ece0ed27d3ea77313711b10
+ms.openlocfilehash: 19bc4763f60fae1db914ab7c1f10354e7904cb50
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50068976"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923173"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -87,7 +87,7 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 
 **2020년 10월 13일** 에 다음 제품의 지원이 종료됩니다.
 
-- [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
+- [Office 2010](/DeployOffice/office-2010-end-support-roadmap)
 - [Exchange Server 2010](exchange-2010-end-of-support.md)
 
 [SharePoint 서버 2010](upgrade-from-sharepoint-2010.md)에 대한 서비스 지원이 **2021년 4월 13일** 에 종료 될 예정입니다.
@@ -120,11 +120,11 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 
 ## <a name="additional-microsoft-365-products"></a>추가 Microsoft 365 제품
 
-- [Microsoft 365 Business Premium](https://docs.microsoft.com/microsoft-365/business/)
+- [Microsoft 365 Business Premium](../business/index.yml)
 
   동급 최고의 생산성 및 공동 작업 기능을 장치 관리 및 보안 솔루션과 결합하여 중소 중견 기업의 비즈니스 데이터를 보호합니다.
 
-- [Microsoft 365 Education](https://docs.microsoft.com/education)
+- [Microsoft 365 Education](/education)
 
   강사들이 교육용으로 디자인된 저렴한 단일 솔루션에서 독창성을 발휘하고, 팀 작업을 촉진하고, 간편하고 안전한 환경을 제공하도록 지원합니다.
 
@@ -154,7 +154,7 @@ Microsoft 365 E3 사용자는 이러한 추가 기능을 사용하여 Microsoft 
 
 ![Microsoft 365 기본 교육](../media/microsoft-365-overview/m365-fundamentals.svg)
 
-Microsoft 365와 Microsoft 365 인증에 대한 자세한 내용은 [Microsoft 365 인증: 기본](https://docs.microsoft.com/learn/paths/m365-fundamentals/)에서 시작할 수 있습니다.
+Microsoft 365와 Microsoft 365 인증에 대한 자세한 내용은 [Microsoft 365 인증: 기본](/learn/paths/m365-fundamentals/)에서 시작할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 

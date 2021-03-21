@@ -17,16 +17,16 @@ search.appverid:
 ms.assetid: ''
 description: Advanced eDiscovery 사례를 관리할 때 사례에 액세스할 수 있는 구성원을 추가하거나 제거하는 방법을 학습합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 53119bfa61e259eb7a22dea37ee99b0d7b533da6
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 06199ebfc9bdf24f1e4fb245f3b373c4129ebc9e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423387"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923498"
 ---
 # <a name="add-or-remove-members-from-a-case"></a>사례에서 구성원 추가 또는 제거
 
-구성원을 추가하거나 제거하여 사례에 액세스할 수 있는 사용자도 관리할 수 있습니다. 그러나 구성원이 Advanced eDiscovery 사례에 액세스하고 이 경우 작업을 수행하려면 먼저 보안 및 규정 준수 센터의  사용 권한 페이지에서 eDiscovery 관리자 역할 그룹에 사용자를 추가해야 합니다. 자세한 내용은 보안 및 준수 센터에서 [eDiscovery 권한 할당을 & 참조하세요.](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions)
+구성원을 추가하거나 제거하여 사례에 액세스할 수 있는 사용자도 관리할 수 있습니다. 그러나 구성원이 Advanced eDiscovery 사례에 액세스하고 이 경우 작업을 수행하려면 먼저 보안 및 규정 준수 센터의  사용 권한 페이지에서 eDiscovery 관리자 역할 그룹에 사용자를 추가해야 합니다. 자세한 내용은 [보안 및 준수 센터의 eDiscovery 사용 권한 할당](./assign-ediscovery-permissions.md)을 참조하세요.
 
 1. Advanced **eDiscovery** 페이지에서 구성원을 추가할 사례로 이동합니다.
 

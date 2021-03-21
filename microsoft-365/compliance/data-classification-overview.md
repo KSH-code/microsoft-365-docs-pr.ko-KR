@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이터 분류 대시보드에서는 조직에서 검색 및 분류한 중요한 데이터의 양을 시각적으로 파악할 수 있습니다.
-ms.openlocfilehash: 7bf9a7151f8df45716ab032dd3c62a33f4f5adc8
-ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
+ms.openlocfilehash: 8f3bb2da1e7011fef334ec345a02d7facedc25fc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999398"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922682"
 ---
 # <a name="know-your-data---data-classification-overview"></a>데이터 파악 - 데이터 분류 개요
 
@@ -37,7 +37,7 @@ Microsoft 365 관리자 또는 준수 관리자는 조직의 콘텐츠가 이동
 
 또한 데이터 분류 페이지에서 다음 기능을 관리합니다.
 - [학습 가능한 분류자](classifier-learn-about.md)
-- [중요한 정보 유형](what-the-sensitive-information-types-look-for.md)
+- [중요한 정보 유형](./sensitive-information-type-entity-definitions.md)
 
 **Microsoft 365 규정 준수 센터** 또는 **Microsoft 365 보안 센터** > **분류** > **데이터 분류** 에서 데이터 분류를 찾을 수 있습니다.
 
@@ -49,7 +49,7 @@ Microsoft 365 관리자 또는 준수 관리자는 조직의 콘텐츠가 이동
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
-다양한 구독에서 끝점 DLP를 지원합니다. 끝점 DLP 라이선스 옵션을 보려면 [지침에 관한 Information Protection](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)을 참조하세요. 
+다양한 구독에서 끝점 DLP를 지원합니다. 끝점 DLP 라이선스 옵션을 보려면 [지침에 관한 Information Protection](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)을 참조하세요. 
 
 ### <a name="permissions"></a>권한
 
@@ -97,7 +97,7 @@ Microsoft 365 또는 AIP(Azure Information Protection)를 통해 항목에 민�
 
 > [!NOTE]
 > 민감도 레이블을 생성 또는 게시하지 않았거나 민감도 레이블이 적용된 콘텐츠가 없는 경우 이 카드에 “검색된 민감도 레이블이 없음” 메시지가 표시됩니다. 민감도 레이블을 시작하려면 다음을 참조하세요.
->- [민감도 레이블](get-started-with-sensitivity-labels.md) 또는 AIP [구성 Azure 정보 보호 정책](https://docs.microsoft.com/azure/information-protection/configure-policy) 시작하기
+>- [민감도 레이블](get-started-with-sensitivity-labels.md) 또는 AIP [구성 Azure 정보 보호 정책](/azure/information-protection/configure-policy) 시작하기
 
 ## <a name="top-retention-labels-applied-to-content"></a>콘텐츠에 적용되는 상위 보존 레이블
 

@@ -1,5 +1,5 @@
 ---
-title: 핵심 데이터를 새 Microsoft 365 데이터 센터 지역으로 이동
+title: 새 Microsoft 365 데이터 센터 지역으로 핵심 데이터 이동
 ms.author: andyber
 author: andybergen
 manager: laurawi
@@ -13,24 +13,24 @@ search.appverid:
 ms.assetid: 0a35176a-e585-4dec-a90b-36be8314667f
 f1.keywords:
 - NOCSH
-description: 새 Office 365 데이터 센터 지역 및 데이터 레지스터 옵션을 사용하여 핵심 데이터를 새 지역으로 이동하는 방법을 자세히 알아보습니다.
+description: 새 Office 365 데이터 센터 지역 및 데이터 레지스터 옵션을 사용하여 핵심 데이터를 새 지역으로 이동을 요청하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c5e63a973ca6fdf6aaaaca884df306ff790c325
-ms.sourcegitcommit: 1db81b85d327fe423695ce675ad325e538417211
+ms.openlocfilehash: f752956506df98ea71d0d02886d14dc719ed9413
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349247"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921609"
 ---
-# <a name="moving-core-data-to-new-microsoft-365-datacenter-geos"></a>핵심 데이터를 새 Microsoft 365 데이터 센터 지역으로 이동
+# <a name="moving-core-data-to-new-microsoft-365-datacenter-geos"></a>새 Microsoft 365 데이터 센터 지역으로 핵심 데이터 이동
 
-Microsoft 365 서비스에 대한 새 데이터 센터 지역이 계속 열립니다. 이러한 새로운 데이터 센터 지역은 지속적인 고객 수요 및 사용 증가를 지원하기 위해 용량 및 계산 리소스를 추가합니다. 또한 새로운 데이터 센터 지역은 핵심 고객 데이터에 대한 지역 내 데이터 레지스터를 제공합니다. 
+Microsoft 365 서비스에 대한 새 데이터 센터 지역이 계속 열립니다. 이러한 새로운 데이터 센터 지역은 지속적인 고객 요구 및 사용 증가를 지원하기 위해 용량 및 계산 리소스를 추가합니다. 또한 새 데이터 센터 지역은 핵심 고객 데이터에 대한 지역 내 데이터 레지스터를 제공합니다. 
 
 핵심 고객 데이터는 고객 데이터의 하위 집합을 참조하는 용어로, 
 - Exchange Online 사서함 콘텐츠(전자 메일 본문, 일정 항목 및 전자 메일 첨부 파일 콘텐츠)
 - SharePoint Online 사이트 콘텐츠 및 해당 사이트에 저장된 파일
 - 비즈니스용 OneDrive에 업로드된 파일
-- 비공개 메시지, 채널 메시지 및 채팅에 사용된 이미지를 포함한 Teams 채팅 메시지
+- 비공개 메시지, 채널 메시지 및 채팅에 사용되는 이미지를 포함한 Teams 채팅 메시지
   
 핵심 고객 데이터가 기존 데이터 센터 지역에 이미 저장되어 있는 기존 고객은 새 데이터 센터 지역의 시작에 영향을 받지 않습니다. Microsoft는 새 데이터 센터 지역에 고유한 기능 또는 규정 준수 인증을 도입하지 않습니다. 두 지역 중 어떤 지역의 고객이든 이전과 동일한 서비스 품질, 성능 및 보안 제어를 경험할 수 있습니다. 아래 표에 나열된 기존 고객에게 휴지 상태의 조직의 핵심 고객 데이터를 새 데이터 센터 지역으로 조기 마이그레이션할 수 있는 옵션을 제공합니다.
   
@@ -50,28 +50,28 @@ Microsoft 365 서비스에 대한 새 데이터 센터 지역이 계속 열립�
 |**노르웨이**| 유럽 연합 | 노르웨이 | 2020년 4월 |
 |**브라질**| 아메리카 | 브라질 | 2020년 11월 |
 
-2020년 10월 1일 현재, 테넌트에 Office 365 Education 구독이 포함된 고객은 마이그레이션할 수 없습니다.
+2020년 10월 1일 현재 테넌트에 Office 365 Education 구독이 포함된 고객은 마이그레이션할 수 없습니다.
 
-모든 데이터 센터 지역, 데이터 센터 및 미사용 고객 데이터의 위치의 전체 목록은 대화형 데이터 센터 맵의 [일부로 사용할 수 있습니다.](https://office.com/datamaps) 
+모든 데이터 센터 지역, 데이터 센터 및 미사용 고객 데이터 위치의 전체 목록은 대화형 데이터 센터 맵의 [일부로 사용할 수 있습니다.](https://office.com/datamaps) 
   
 ## <a name="data-residency-option"></a>데이터 상주 옵션
 
-위 표에 나열된 데이터 센터 지역이 적용된 적격 Microsoft 365 고객에게 데이터 상주 옵션을 제공합니다. 이 옵션을 사용하면 데이터 상주 요구 사항이 있는 적격 고객은 휴지 상태의 조직의 핵심 고객 데이터를 새 데이터 센터 지역으로 마이그레이션할 수 있습니다.  Microsoft는 등록 기간 동안 마이그레이션을 요청하는 모든 적격 고객에게 마감일을 제공합니다.  데이터 [센터](request-your-data-move.md) 지리적으로 열려 있는 등록 창 및 프로그램에 등록하는 단계에 대한 자세한 내용은 데이터 이동 페이지를 요청하는 방법을 검토하세요.  데이터 이동은 요청 기간이 완료된 후 최대 24개월이 걸릴 수 있습니다.
+Microsoft는 위 표에 나열된 데이터 센터 지역이 적용된 적격 Microsoft 365 고객에게 데이터 상주 옵션을 제공합니다. 이 옵션을 사용하면 데이터 상주 요구 사항이 있는 적격 고객은 조직의 핵심 고객 데이터 미사용 마이그레이션을 새 데이터 센터 지역으로 요청할 수 있습니다.  Microsoft는 등록 기간 동안 마이그레이션을 요청하는 모든 적격 고객에게 커밋된 기한을 제공합니다.  데이터 [센터](request-your-data-move.md) 지리적으로 열려 있는 등록 창에 대한 자세한 내용과 프로그램에 등록하는 단계에 대한 자세한 내용은 데이터 이동을 요청하는 방법 페이지를 검토하세요.  데이터 이동은 요청 기간이 완료된 후 최대 24개월이 걸릴 수 있습니다.
 
 Microsoft는 새 데이터 센터 지역에 고유한 기능 또는 규정 준수 인증을 도입하지 않습니다.
     
 전체적으로 운영되는 자동화 환경에서 데이터 이동을 수행할 때 수반되는 복잡성, 정밀도 및 규모 때문에 귀하의 테넌트 또는 다른 단일 테넌트에서 데이터 이동이 완료될 것으로 예상되는 시기를 알려드리기가 어렵습니다. 고객은 데이터 이동이 완료되었을 때 메시지 센터에서 관련 서비스별로 1번의 확인을 받게 됩니다. 
     
-데이터 이동은 최종 사용자에게 최소의 영향만 미치는 백 엔드 서비스 작업입니다. 영향을 받을 수 있는 기능은 [During and after your data move](during-and-after-your-data-move.md) 페이지에 나와 있습니다. 당사는 가용성에 [Microsoft Online Services SLA(서비스](https://go.microsoft.com/fwlink/p/?LinkId=523897) 수준 계약)를 준수하기 때문에 고객이 이동 중에 준비하거나 모니터링할 필요가 없습니다. 서비스 유지 관리에 대한 알림은 필요한 경우에 수행됩니다. 
+데이터 이동은 최종 사용자에게 최소의 영향만 미치는 백 엔드 서비스 작업입니다. 영향을 받을 수 있는 기능은 [During and after your data move](during-and-after-your-data-move.md) 페이지에 나와 있습니다. 당사는 가용성을 [Microsoft Online Services](https://go.microsoft.com/fwlink/p/?LinkId=523897) SLA(서비스 수준 계약)를 준수하기 때문에 이동 중에 고객이 준비하거나 모니터링할 필요가 없습니다. 서비스 유지 관리에 대한 알림은 필요한 경우에 수행됩니다. 
 
-새 데이터 센터 지역으로의 데이터 이동은 추가 비용에 따라 고객에게 완료됩니다.
+새 데이터 센터 지역으로의 데이터 이동은 추가 비용으로 고객에게 완료됩니다.
     
-## <a name="related-topics"></a>관련 항목 
+## <a name="related-topics"></a>관련 주제 
  
 [데이터 이동을 요청하는 방법](request-your-data-move.md)
     
 [데이터 이동 일반 FAQ](data-move-faq.md)
   
-[새 데이터 센터 지역을 Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
+[새 데이터 센터 Microsoft Dynamics CRM Online](/power-platform/admin/new-datacenter-regions)
   
 [지역별로 Azure 서비스](https://azure.microsoft.com/regions/)

@@ -19,12 +19,12 @@ search.appverid:
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a8fb8557d6cd2677aeb6dcda75d34e86ada8f68c
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: b51bc5d5d3cbfa8951392f88edc6e178778206df
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50290672"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921255"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -83,7 +83,7 @@ DLP 보고서는 보안 센터 및 규정 준수 센터에 있습니다. 보고�
 
 또한 정보 보안 팀은 감사 로그를 검색하여 의심되는 데이터 침해를 조사하고, 침해의 근본 원인과 범위를 확인할 수 있습니다. 이러한 기본 제공 기능은 GDPR 감독 기관 및 데이터 주체 자체에 특정 기간 동안 데이터 침해가 발생했음을 알리는 알림을 제공하도록 요구하는 GDPR 33 및 34절을 통해 규정이 준수되도록 합니다. 감사 로그 항목은 권장 지침대로 서비스 내에서 90일 동안만 유지되며, 많은 조직은 이러한 로그를 더 오랫 동안 보관해야 합니다.
 
-Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 솔루션을 사용할 수 있으며, 필요에 따라 로그 항목을 저장할 수 있고 고급 대시보드 및 경고를 제공할 수 있습니다. 한 가지 예제는 [Microsoft OMS(Operations Management Suite)](https://docs.microsoft.com/azure/operations-management-suite/oms-solution-office-365)입니다.
+Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 솔루션을 사용할 수 있으며, 필요에 따라 로그 항목을 저장할 수 있고 고급 대시보드 및 경고를 제공할 수 있습니다. 한 가지 예제는 [Microsoft OMS(Operations Management Suite)](/azure/operations-management-suite/oms-solution-office-365)입니다.
 
 경고 정책 및 감사 로그 검색에 대한 자세한 정보:
 
@@ -95,7 +95,7 @@ Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 �
 
 - [감사 로그 검색](../../compliance/search-the-audit-log-in-security-and-compliance.md)
 
-- [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog)(cmdlet)
+- [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog)(cmdlet)
 
 - [감사 로그의 자세한 속성](../../compliance/detailed-properties-in-the-office-365-audit-log.md)
 
@@ -130,11 +130,11 @@ Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 
 추가 정보:
 
-- [Cloud App Security 배포](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
+- [Cloud App Security 배포](/cloud-app-security/getting-started-with-cloud-app-security)
 
 - [Microsoft Cloud App Security에 대한 자세한 정보](https://www.microsoft.com/cloud-platform/cloud-app-security)
 
-- [Microsoft Cloud App Security 프록시를 사용하여 중요한 정보 다운로드 차단](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)
+- [Microsoft Cloud App Security 프록시를 사용하여 중요한 정보 다운로드 차단](/cloud-app-security/use-case-proxy-block-session-aad)
 
 ## <a name="example-file-and-activity-policies-to-detect-sharing-of-personal-data"></a>개인 데이터의 공유를 감지하는 예제 파일 및 활동 정책
 

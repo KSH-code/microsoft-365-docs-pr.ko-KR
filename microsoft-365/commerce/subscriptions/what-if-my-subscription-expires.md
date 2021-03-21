@@ -20,18 +20,18 @@ search.appverid:
 - MET150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Microsoft 365 비즈니스 에디션 구독이 만료되거나, 비활성화되거나, 사용자가 취소하는 경우 사용자의 데이터가 어떻게 처리되는지 알아봅니다.
-ms.openlocfilehash: a9e2e68c0eee119126af93552a50f1859f708c1f
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 7560e715a9b1951915866f96c8df3bd1f884a475
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741360"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921819"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?
 
 구독이 만료되거나 취소하기로 결정하여 구독이 종료되는 경우, Microsoft 365 서비스, 응용 프로그램 및 고객 데이터에 대한 액세스는 구독이 완전히 해제되거나 *삭제* 되기 전에 여러 상태를 거치게 됩니다. 이 진행 상황을 알고 있는 경우, 너무 늦기 전에 구독을 활성 상태로 되돌리거나 Microsoft 365를 종료하는 경우 최종적으로 삭제되기 전에 데이터를 백업할 수 있습니다.
 
-[Microsoft 365 지원팀](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)에 문의하기 전에 이 중요한 정보를 읽어보세요.
+[Microsoft 365 지원팀](../../admin/contact-support-for-business-products.md)에 문의하기 전에 이 중요한 정보를 읽어보세요.
   
 ## <a name="what-happens-to-data-when-a-subscription-expires"></a>구독이 만료되면 데이터는 어떻게 되나요?
 
@@ -51,7 +51,7 @@ ms.locfileid: "50741360"
 *대부분의 혜택은 대부분의 국가와 지역에서 제공됩니다.
   
 > [!NOTE]
-> **"고객 데이터"란?** [Microsoft 온라인 서비스 사용 약관](https://go.microsoft.com/fwlink/p/?LinkId=613649)에 정의된 바와 같이 고객 데이터는 고객의 Microsoft 365 서비스 사용을 통해 Microsoft에 제공되거나 고객을 대신하여 제공되는 모든 텍스트, 사운드 또는 이미지 파일을 포함한 모든 데이터를 의미합니다. 고객 데이터 보호에 대한 자세한 내용은 [Microsoft Service Trust Portal 시작](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal)을 참조하세요.
+> **"고객 데이터"란?** [Microsoft 온라인 서비스 사용 약관](https://go.microsoft.com/fwlink/p/?LinkId=613649)에 정의된 바와 같이 고객 데이터는 고객의 Microsoft 365 서비스 사용을 통해 Microsoft에 제공되거나 고객을 대신하여 제공되는 모든 텍스트, 사운드 또는 이미지 파일을 포함한 모든 데이터를 의미합니다. 고객 데이터 보호에 대한 자세한 내용은 [Microsoft Service Trust Portal 시작](../../compliance/get-started-with-service-trust-portal.md)을 참조하세요.
 
 ## <a name="what-happens-if-i-cancel-a-subscription"></a>구독을 취소할 경우 어떻게 되나요?
 
@@ -210,13 +210,13 @@ ms.locfileid: "50741360"
 
 ::: moniker range="o365-worldwide"
 
-- **Microsoft 365를 구입하세요.** 평가판이 만료되면 Microsoft 365를 구매할 수 있도록 30일(대부분의 국가 및 지역에서 사용하는 거의 모든 평가판에 해당)의 유예 기간이 주어집니다. 평가판을 유료 구독으로 전환하는 방법에 대한 자세한 내용은 [비즈니스용 Microsoft 365 평가판 구입](../buy-a-subscription-from-your-free-trial.md)을 참조하세요.
+- **Microsoft 365를 구입하세요.** 평가판이 만료되면 Microsoft 365를 구매할 수 있도록 30일(대부분의 국가 및 지역에서 사용하는 거의 모든 평가판에 해당)의 유예 기간이 주어집니다. 평가판을 유료 구독으로 전환하는 방법에 대한 자세한 내용은 [비즈니스용 Microsoft 365 평가판 구입](../try-or-buy-microsoft-365.md)을 참조하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-- **Microsoft 365를 구입하세요.** 평가판이 만료되면 Microsoft 365를 구매할 수 있도록 30일(대부분의 국가 및 지역에서 사용하는 거의 모든 평가판에 해당)의 유예 기간이 주어집니다. 평가판을 유료 구독으로 전환하는 방법에 대한 자세한 내용은 [비즈니스용 Microsoft 365 평가판 구입](../buy-a-subscription-from-your-free-trial.md)을 참조하세요.
+- **Microsoft 365를 구입하세요.** 평가판이 만료되면 Microsoft 365를 구매할 수 있도록 30일(대부분의 국가 및 지역에서 사용하는 거의 모든 평가판에 해당)의 유예 기간이 주어집니다. 평가판을 유료 구독으로 전환하는 방법에 대한 자세한 내용은 [비즈니스용 Microsoft 365 평가판 구입](../try-or-buy-microsoft-365.md)을 참조하세요.
 
 ::: moniker-end
 
@@ -235,7 +235,6 @@ ms.locfileid: "50741360"
 
 ## <a name="related-content"></a>관련 콘텐츠 
 
-[구독 취소](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription)(문서)\
-[비즈니스용 Microsoft 365 갱신](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/renew-your-subscription)(문서)\
-[구독 다시 활성화](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/reactivate-your-subscription)(문서)
-
+[구독 취소](./cancel-your-subscription.md)(문서)\
+[비즈니스용 Microsoft 365 갱신](./renew-your-subscription.md)(문서)\
+[구독 다시 활성화](./reactivate-your-subscription.md)(문서)

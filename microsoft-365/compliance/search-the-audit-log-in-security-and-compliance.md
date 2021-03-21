@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인해 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f158461bfecf0ab26f440203d079da0c7c0d238
-ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
+ms.openlocfilehash: eabc9a59592ed2b1849bac8c7b716e68d4b9e214
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50572642"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922552"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -75,7 +75,7 @@ ms.locfileid: "50572642"
   ```
   *UnifiedAuditLogIngestionEnabled* 에 대한 `True` 값은 로그 검색이 켜져 있는 것을 나타냅니다. 자세한 내용은 [감사 로그 검색 설정 및 해제](turn-audit-log-search-on-or-off.md)를 참조하세요.
 
-- 감사 로그를 검색하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 참고 Office 365 및 Microsoft 365의 전역 관리자는 자동으로 Exchange Online 서비스에서 조직 관리 역할 그룹의 구성원이 됩니다. 최소 권한 수준을 사용하여 감사 로그를 검색할 수 있는 권한을 사용자에게 제공하려면 Exchange Online에서 사용자 지정 역할 그룹을 만들고, 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음, 새 역할 그룹의 구성원으로 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://go.microsoft.com/fwlink/p/?LinkID=730688)를 참조하세요.
+- 감사 로그를 검색하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 참고 Office 365 및 Microsoft 365의 전역 관리자는 자동으로 Exchange Online 서비스에서 조직 관리 역할 그룹의 구성원이 됩니다. 최소 권한 수준을 사용하여 감사 로그를 검색할 수 있는 권한을 사용자에게 제공하려면 Exchange Online에서 사용자 지정 역할 그룹을 만들고, 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음, 새 역할 그룹의 구성원으로 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
 
   > [!IMPORTANT]
   > 보안 및 준수 센터의 **사용 권한** 페이지에서 사용자에게 보기 전용 감사 로그 또는 감사 로그 역할을 할당하는 경우 감사 로그를 검색할 수 없습니다. Exchange Online에서 사용 권한을 할당해야 합니다. 감사 로그를 검색하는 데 사용되는 기본 cmdlet이 Exchange Online cmdlet이기 때문입니다.
@@ -87,7 +87,7 @@ ms.locfileid: "50572642"
     > [!NOTE]
     > 조직이 감사 레코드의 1년 보존을 위해 개인 미리보기 프로그램에 참여한 경우 일반 가용성 롤아웃 날짜 이전에 생성 된 감사 레코드의 보존 기간은 재설정되지 않습니다.
 
-  - E5 이외의 다른 Office 365 또는 Microsoft 365 라이선스가 할당된 사용자의 경우 감사 레코드가 90일 동안 보존됩니다. 통합 감사 로깅을 지원하는 Office 365 및 Microsoft 365 구독 목록을 확인하려면 [보안 및 규정 준수 센터 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)을 참조하세요.
+  - E5 이외의 다른 Office 365 또는 Microsoft 365 라이선스가 할당된 사용자의 경우 감사 레코드가 90일 동안 보존됩니다. 통합 감사 로깅을 지원하는 Office 365 및 Microsoft 365 구독 목록을 확인하려면 [보안 및 규정 준수 센터 서비스 설명](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)을 참조하세요.
 
     > [!NOTE]
     > 기본적으로 사서함 감사가 설정되어 있더라도 일부 사용자에 대한 사서함 감사 이벤트는 보안 및 준수 센터의 감사 로그 검색에서 발견되지 않거나 Office 365 관리 작업 API를 통해 찾지 못할 수 있습니다. 자세한 내용은 [사서함 감사 로깅에 대한 자세한 정보](enable-mailbox-auditing.md#more-information)를 참조하세요.
@@ -106,11 +106,11 @@ ms.locfileid: "50572642"
 
   자세한 내용은 [감사 로그 검색 해제](turn-audit-log-search-on-or-off.md)를 참조하세요.
 
-- 이전에 설명한 것처럼, 감사 로그를 검색하는 데 사용되는 기본 cmdlet은 **Search-UnifiedAuditLog** 인 Exchange Online cmdlet입니다. 즉 보안 및 준수 센터의 **감사 로그 검색** 페이지를 사용하는 대신 이 cmdlet을 사용하여 감사 로그를 검색할 수 있습니다. Exchange Online 조직에 연결된 원격 PowerShell에서 이 cmdlet을 실행해야 합니다. 자세한 내용은 [Search-UnifiedAuditLog](https://go.microsoft.com/fwlink/p/?linkid=834776)를 참조하세요.
+- 이전에 설명한 것처럼, 감사 로그를 검색하는 데 사용되는 기본 cmdlet은 **Search-UnifiedAuditLog** 인 Exchange Online cmdlet입니다. 즉 보안 및 준수 센터의 **감사 로그 검색** 페이지를 사용하는 대신 이 cmdlet을 사용하여 감사 로그를 검색할 수 있습니다. Exchange Online 조직에 연결된 원격 PowerShell에서 이 cmdlet을 실행해야 합니다. 자세한 내용은 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog)를 참조하세요.
 
   **Search-UnifiedAuditLog** cmdlet에서 반환되는 검색 결과를 CSV 파일로 내보내는 방법에 대한 자세한 내용은 [감사 로그 레코드 내보내기, 구성 및 보기](export-view-audit-log-records.md#tips-for-exporting-and-viewing-the-audit-log)의 "감사 로그 내보내기 및 보기 팁" 섹션을 참조하세요.
 
-- 감사 로그에서 프로그래밍 방식으로 데이터를 다운로드하려면 PowerShell 스크립트를 사용하는 대신 Office 365 관리 작업 API를 사용하는 것이 좋습니다. Office 365 관리 작업 API는 조직의 작업, 보안 및 규정 준수 모니터링 솔루션을 개발하는 데 사용할 수 있는 REST 웹 서비스입니다. 자세한 내용은 [Office 365 관리 작업 API 참조](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 참조하세요.
+- 감사 로그에서 프로그래밍 방식으로 데이터를 다운로드하려면 PowerShell 스크립트를 사용하는 대신 Office 365 관리 작업 API를 사용하는 것이 좋습니다. Office 365 관리 작업 API는 조직의 작업, 보안 및 규정 준수 모니터링 솔루션을 개발하는 데 사용할 수 있는 REST 웹 서비스입니다. 자세한 내용은 [Office 365 관리 작업 API 참조](/office/office-365-management-api/office-365-management-activity-api-reference)를 참조하세요.
 
 - 감사 로그 검색 결과에 해당 감사 로그 레코드가 반환되려면 이벤트 발생 시점으로부터 30분에서 24시간 정도 걸릴 수 있습니다. 다음 표에는 Office 365의 여러 서비스가 표시되는 데 걸리는 시간이 나와 있습니다.
 
@@ -137,9 +137,9 @@ ms.locfileid: "50572642"
   |Microsoft Forms|![확인 표시](../media/checkmark.png)|
   ||||
 
-- Azure A (azure Active Directory)는 Office 365의 디렉터리 서비스입니다. 통합 감사 로그에는 Microsoft 365 관리 센터 또는 Azure 관리 포털에서 수행된 사용자, 그룹, 응용 프로그램, 도메인 및 디렉터리 활동이 포함됩니다. Azure AD 이벤트의 전체 목록은 [Azure Active Directory 감사 보고서 이벤트](https://go.microsoft.com/fwlink/p/?LinkID=616549)를 참조하세요.
+- Azure A (azure Active Directory)는 Office 365의 디렉터리 서비스입니다. 통합 감사 로그에는 Microsoft 365 관리 센터 또는 Azure 관리 포털에서 수행된 사용자, 그룹, 응용 프로그램, 도메인 및 디렉터리 활동이 포함됩니다. Azure AD 이벤트의 전체 목록은 [Azure Active Directory 감사 보고서 이벤트](/azure/active-directory/reports-monitoring/concept-audit-logs)를 참조하세요.
 
-- Power BI에 대 한 감사 로깅은 기본적으로 사용하지 않도록 설정되어 있습니다. 감사 로그에서 Power BI 작업을 검색하려면 Power BI 관리 포털에서 감사를 사용하도록 설정해야 합니다. 자세한 내용은 [Power BI 관리 포털](https://docs.microsoft.com/power-bi/service-admin-portal#audit-logs)의 "감사 로그" 섹션을 참조 하세요.
+- Power BI에 대 한 감사 로깅은 기본적으로 사용하지 않도록 설정되어 있습니다. 감사 로그에서 Power BI 작업을 검색하려면 Power BI 관리 포털에서 감사를 사용하도록 설정해야 합니다. 자세한 내용은 [Power BI 관리 포털](/power-bi/service-admin-portal#audit-logs)의 "감사 로그" 섹션을 참조 하세요.
 
 ## <a name="search-the-audit-log"></a>감사 로그 검색
 
@@ -493,7 +493,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 
 #### <a name="the-appsharepoint-user-in-audit-records"></a>감사 레코드의 app\@sharepoint 사용자입니다.
 
-일부 파일 작업(및 기타 SharePoint 관련 작업)에 대한 감사 기록에서 작업을 수행한 사용자(User 및 UserId 필드에 식별됨)가 app@sharepoint인 것을 알 수 있습니다. 이는 작업을 수행한 "사용자"가 응용 프로그램임을 나타냅니다. 이 경우 응용 프로그램은 사용자, 관리자 또는 서비스를 대신하여 조직 전체 작업(예: SharePoint 사이트 검색 또는 OneDrive 계정 검색)을 수행할 수 있는 권한을 SharePoint에서 부여 받았습니다. 응용 프로그램에 대한 사용 권한을 부여하는 프로세스를 *SharePoint 앱 전용* 액세스 권한이라고 합니다. 이는 사용자가 아닌 응용 프로그램에서 작업을 수행하기 위해 SharePoint에 제공되는 인증을 의미합니다. App@sharepoint 사용자가 특정 감사 레코드로 식별되었기 때문입니다. 자세한 내용은 [SharePoint 앱 전용을 사용하여 액세스 허가](https://docs.microsoft.com/sharepoint/dev/solution-guidance/security-apponly-azureacs)를 참조하세요.
+일부 파일 작업(및 기타 SharePoint 관련 작업)에 대한 감사 기록에서 작업을 수행한 사용자(User 및 UserId 필드에 식별됨)가 app@sharepoint인 것을 알 수 있습니다. 이는 작업을 수행한 "사용자"가 응용 프로그램임을 나타냅니다. 이 경우 응용 프로그램은 사용자, 관리자 또는 서비스를 대신하여 조직 전체 작업(예: SharePoint 사이트 검색 또는 OneDrive 계정 검색)을 수행할 수 있는 권한을 SharePoint에서 부여 받았습니다. 응용 프로그램에 대한 사용 권한을 부여하는 프로세스를 *SharePoint 앱 전용* 액세스 권한이라고 합니다. 이는 사용자가 아닌 응용 프로그램에서 작업을 수행하기 위해 SharePoint에 제공되는 인증을 의미합니다. App@sharepoint 사용자가 특정 감사 레코드로 식별되었기 때문입니다. 자세한 내용은 [SharePoint 앱 전용을 사용하여 액세스 허가](/sharepoint/dev/solution-guidance/security-apponly-azureacs)를 참조하세요.
 
 예를 들어 app@sharepoint은 종종 "검색 쿼리 수행" 및 "액세스 파일" 이벤트에 대한 사용자로 식별됩니다. 이는 조직에서 SharePoint 앱 전용 액세스 권한을 가진 응용 프로그램이 사이트 및 OneDrive 계정에 보존 정책을 적용할 때 검색 쿼리를 수행하고 파일에 액세스하기 때문입니다.
 
@@ -565,7 +565,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 |사이트 모음에 사용 권한 수준 추가됨|PermissionLevelAdded|사이트 모음에 사용 권한 수준이 추가되었습니다.|
 |액세스 요청 수락됨|AccessRequestAccepted|사이트, 폴더 또는 문서에 대한 액세스 요청이 수락되었으며 요청하는 사용자에게 액세스 권한이 부여되었습니다.|
 |공유 초대 수락됨|SharingInvitationAccepted|사용자(구성원 또는 게스트)가 공유 초대를 수락했으며 리소스에 대한 액세스 권한이 부여되었습니다. 이 이벤트에는 초대를 받은 사용자 및 초대를 수락하는 데 사용된 전자 메일 주소에 대한 정보가 포함됩니다(다를 수 있음). 이 활동에는 대체로 사용자에게 리소스에 대한 액세스 권한이 어떻게 부여되었는지를 설명(예: 리소스에 대한 액세스 권한이 있는 그룹에 사용자 추가)하는 두 번째 이벤트가 수반됩니다.|
-|공유 초대 차단됨|SharingInvitationBlocked|조직의 사용자가 보낸 공유 초대가 대상 사용자의 도메인을 기반으로 외부 공유를 허용하거나 거부하는 외부 공유 정책으로 인해 차단되었습니다. 이 경우 공유 초대는 다음과 같은 이유로 차단되었습니다. <br/> 대상 사용자의 도메인이 허용된 도메인 목록에 포함되어 있지 않습니다. <br/> 또는 <br/> 대상 사용자의 도메인이 차단된 도메인 목록에 포함되어 있습니다. <br/> 도메인을 기반으로 한 외부 공유 허용 또는 차단에 대한 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive의 제한된 도메인 공유](https://docs.microsoft.com/sharepoint/restricted-domains-sharing)를 참조하세요.|
+|공유 초대 차단됨|SharingInvitationBlocked|조직의 사용자가 보낸 공유 초대가 대상 사용자의 도메인을 기반으로 외부 공유를 허용하거나 거부하는 외부 공유 정책으로 인해 차단되었습니다. 이 경우 공유 초대는 다음과 같은 이유로 차단되었습니다. <br/> 대상 사용자의 도메인이 허용된 도메인 목록에 포함되어 있지 않습니다. <br/> 또는 <br/> 대상 사용자의 도메인이 차단된 도메인 목록에 포함되어 있습니다. <br/> 도메인을 기반으로 한 외부 공유 허용 또는 차단에 대한 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive의 제한된 도메인 공유](/sharepoint/restricted-domains-sharing)를 참조하세요.|
 |액세스 요청 생성됨|AccessRequestCreated|사용자가 액세스 권한이 없는 사이트, 폴더 또는 문서에 대한 액세스를 요청합니다.|
 |회사에서 공유할 수 있는 링크 생성됨 |CompanyLinkCreated|사용자가 리소스에 대한 회사 전체 링크를 생성했습니다. 회사 전체 링크는 조직의 구성원만 사용할 수 있습니다. 게스트는 사용할 수 없습니다.|
 |익명 링크 생성됨|AnonymousLinkCreated|사용자가 리소스에 대한 익명 링크를 만들었습니다. 이 링크만 있으면 누구든지 인증 필요 없이 리소스에 액세스할 수 있습니다.|
@@ -594,8 +594,8 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 
 |이름|작업|설명|
 |:-----|:-----|:-----|
-|컴퓨터에서 파일을 동기화할 수 있도록 허용됨|ManagedSyncClientAllowed|사용자가 사이트와 동기화 관계를 설정합니다. 사용자 컴퓨터가 조직의 문서 라이브러리에 액세스할 수 있는 도메인 목록(*수신 허용-받는 사람 목록*)에 추가된 도메인의 구성원이므로 동기화 관계는 성공적으로 설정됩니다. <br/><br/> 이 기능에 대한 자세한 내용은 [Windows PowerShell cmdlet을 통해 수신 허용 - 받는 사람 목록에 있는 도메인에 대해 OneDrive 동기화를 사용하도록 설정](https://go.microsoft.com/fwlink/p/?LinkID=534609)을 참조하세요.|
-|컴퓨터에서 파일을 동기화할 수 없도록 차단됨|UnmanagedSyncClientBlocked|사용자가 조직의 도메인 구성원이 아니거나 조직의 문서 라이브러리에 액세스할 수 있는 도메인 목록(*수신 허용 - 받는 사람 목록)* 에 추가되지 않은 도메인의 구성원인 컴퓨터에서 사이트와 동기화 관계를 설정하려고 합니다. 동기화 관계는 허용되지 않고 사용자의 컴퓨터에서 문서 라이브러리의 파일에 대한 동기화, 다운로드 또는 업로드가 차단됩니다. <br/><br/> 이 기능에 대한 자세한 내용은 [Windows PowerShell cmdlet을 통해 수신 허용 - 받는 사람 목록에 있는 도메인에 대해 OneDrive 동기화를 사용하도록 설정](https://go.microsoft.com/fwlink/p/?LinkID=534609)을 참조하세요.|
+|컴퓨터에서 파일을 동기화할 수 있도록 허용됨|ManagedSyncClientAllowed|사용자가 사이트와 동기화 관계를 설정합니다. 사용자 컴퓨터가 조직의 문서 라이브러리에 액세스할 수 있는 도메인 목록(*수신 허용-받는 사람 목록*)에 추가된 도메인의 구성원이므로 동기화 관계는 성공적으로 설정됩니다. <br/><br/> 이 기능에 대한 자세한 내용은 [Windows PowerShell cmdlet을 통해 수신 허용 - 받는 사람 목록에 있는 도메인에 대해 OneDrive 동기화를 사용하도록 설정](/powershell/module/sharepoint-online/)을 참조하세요.|
+|컴퓨터에서 파일을 동기화할 수 없도록 차단됨|UnmanagedSyncClientBlocked|사용자가 조직의 도메인 구성원이 아니거나 조직의 문서 라이브러리에 액세스할 수 있는 도메인 목록(*수신 허용 - 받는 사람 목록)* 에 추가되지 않은 도메인의 구성원인 컴퓨터에서 사이트와 동기화 관계를 설정하려고 합니다. 동기화 관계는 허용되지 않고 사용자의 컴퓨터에서 문서 라이브러리의 파일에 대한 동기화, 다운로드 또는 업로드가 차단됩니다. <br/><br/> 이 기능에 대한 자세한 내용은 [Windows PowerShell cmdlet을 통해 수신 허용 - 받는 사람 목록에 있는 도메인에 대해 OneDrive 동기화를 사용하도록 설정](/powershell/module/sharepoint-online/)을 참조하세요.|
 |컴퓨터에 파일 다운로드됨|FileSyncDownloadedFull|사용자가 동기화 관계를 설정하고 처음으로 문서 라이브러리에서 해당 컴퓨터로 파일을 다운로드합니다.|
 |컴퓨터에 파일 변경 내용 다운로드됨|FileSyncDownloadedPartial|사용자가 문서 라이브러리의 파일에 대한 변경 내용을 다운로드합니다. 이 활동은 문서 라이브러리의 파일에 대한 변경 내용이 사용자 컴퓨터로 모두 다운로드되었음을 나타냅니다. **컴퓨터에 파일 다운로드됨** 활동에 표시된 것처럼 사용자가 이전에 문서 라이브러리를 다운로드했기 때문에 변경 내용만 다운로드되었습니다.|
 |문서 라이브러리에 파일 업로드됨|FileSyncUploadedFull|사용자가 동기화 관계를 설정하고 처음으로 해당 컴퓨터에서 문서 라이브러리로 파일을 업로드합니다.|
@@ -608,7 +608,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 
 |이름|작업|설명|
 |:-----|:-----|:-----|
-|사이트 모음 관리자 추가됨|SiteCollectionAdminAdded|사이트 모음 관리자 또는 소유자가 사이트에 대한 사이트 모음 관리자로 사용자를 추가합니다. 사이트 모음 관리자는 사이트 모음 및 모든 하위 사이트에 대한 모든 권한을 갖습니다. 이 활동은 또한 관리자가 사용자의 OneDrive 계정에 액세스할 수 있는 경우(SharePoint 관리 센터에서 사용자 프로필을 편집하거나 [Microsoft 365 관리 센터를 사용하는 경우](https://docs.microsoft.com/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data))에도 기록됩니다.|
+|사이트 모음 관리자 추가됨|SiteCollectionAdminAdded|사이트 모음 관리자 또는 소유자가 사이트에 대한 사이트 모음 관리자로 사용자를 추가합니다. 사이트 모음 관리자는 사이트 모음 및 모든 하위 사이트에 대한 모든 권한을 갖습니다. 이 활동은 또한 관리자가 사용자의 OneDrive 계정에 액세스할 수 있는 경우(SharePoint 관리 센터에서 사용자 프로필을 편집하거나 [Microsoft 365 관리 센터를 사용하는 경우](/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data))에도 기록됩니다.|
 |SharePoint 그룹에 사용자 또는 그룹 추가됨|AddedToGroup|사용자가 SharePoint 그룹에 구성원 또는 게스트를 추가했습니다. 이는 의도된 작업이거나 공유 이벤트와 같은 다른 활동의 결과일 수 있습니다.|
 |사용 권한 수준 상속 해제|PermissionLevelsInheritanceBroken|항목이 더 이상 부모에서 사용 권한을 상속하지 않도록 변경되었습니다.|
 |상속 공유 해제|SharingInheritanceBroken|항목이 더 이상 부모에서 공유 권한을 상속하지 않도록 변경되었습니다.|
@@ -636,12 +636,12 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 |예외 사용자 에이전트 추가됨|ExemptUserAgentSet|SharePoint 또는 전역 관리자가 SharePoint 관리 센터에서 예외 사용자 에이전트 목록에 사용자 에이전트를 추가했습니다.|
 |지리적 위치 관리자 추가됨|GeoAdminAdded|SharePoint 또는 전역 관리자가 위치에 대한 지리적 관리자로 사용자를 추가했습니다.|
 |사용자가 그룹을 만들 수 있도록 허용됨|AllowGroupCreationSet|사이트 관리자 또는 소유자가 해당 권한이 할당된 사용자가 사이트에 대한 그룹을 만들 수 있도록 허용하는 사용 권한 수준을 사이트에 추가합니다.|
-|사이트 지리적 이동 취소됨|SiteGeoMoveCancelled|SharePoint 또는 전역 관리자가 SharePoint 또는 OneDrive 사이트 지리적 이동을 성공적으로 취소했습니다. Multi-Geo Capabilities를 사용하면 조직이 geos라는 여러 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [OneDrive 및 SharePoint Online의 여러 지리 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조하세요.|
+|사이트 지리적 이동 취소됨|SiteGeoMoveCancelled|SharePoint 또는 전역 관리자가 SharePoint 또는 OneDrive 사이트 지리적 이동을 성공적으로 취소했습니다. Multi-Geo Capabilities를 사용하면 조직이 geos라는 여러 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [OneDrive 및 SharePoint Online의 여러 지리 기능](../enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md)을 참조하세요.|
 |공유 정책 변경됨|SharingPolicyChanged|SharePoint 또는 전역 관리자가 Microsoft 365 관리 포털, SharePoint 관리자 포털 또는 SharePoint Online 관리 셸을 사용하여 SharePoint 공유 정책을 변경했습니다. 조직의 공유 정책 설정에 대한 변경 내용이 모두 기록됩니다. 변경 된 정책은 이벤트 레코드의 자세한 속성에서 **ModifiedProperties** 필드에서 식별됩니다.|
-|장치 액세스 정책 변경됨|DeviceAccessPolicyChanged|SharePoint 또는 전역 관리자가 조직의 관리되지 않는 장치 정책을 변경했습니다. 이 정책은 조직에 가입되지 않은 장치에서의 SharePoint, OneDrive, Microsoft 365 액세스를 제어합니다. 이 정책을 구성하려면 Enterprise Mobility + Security 구독이 필요합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)를 참조하세요.|
+|장치 액세스 정책 변경됨|DeviceAccessPolicyChanged|SharePoint 또는 전역 관리자가 조직의 관리되지 않는 장치 정책을 변경했습니다. 이 정책은 조직에 가입되지 않은 장치에서의 SharePoint, OneDrive, Microsoft 365 액세스를 제어합니다. 이 정책을 구성하려면 Enterprise Mobility + Security 구독이 필요합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](/sharepoint/control-access-from-unmanaged-devices)를 참조하세요.|
 |예외 사용자 에이전트 변경됨|CustomizeExemptUsers|SharePoint 또는 전역 관리자가 SharePoint 관리 센터에서 예외 사용자 에이전트 목록을 사용자 지정했습니다. 인덱스에 전체 웹 페이지를 받을 수 없도록 제외할 사용자 에이전트를 지정할 수 있습니다. 즉, 예외로 지정한 사용자 에이전트가 InfoPath 양식을 만나면 해당 양식은 전체 웹 페이지가 아닌 XML 파일로 반환됩니다. 이렇게 하면 InfoPath 양식을 더 빠르게 인덱싱할 수 있습니다.|
-|네트워크 액세스 정책 변경됨|NetworkAccessPolicyChanged|SharePoint 또는 전역 관리자가 SharePoint 관리 센터에서 또는 SharePoint PowerShell을 사용하여 위치 기반 액세스 정책(신뢰할 수 있는 네트워크 경계라고도 함)을 변경했습니다. 이 정책 유형은 지정한 권한 있는 IP 주소 범위를 기반으로 조직의 SharePoint 및 OneDrive 리소스에 액세스할 수 있는 사용자를 제어합니다. 자세한 내용은 [네트워크 위치를 기반으로 SharePoint Online 및 OneDrive 데이터에 대한 액세스 제어](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)를 참조하세요.|
-|사이트 지리적 이동 완료됨|SiteGeoMoveCompleted|조직의 전역 관리자가 예약한 사이트 지리적 이동이 완료되었습니다. Multi-Geo Capabilities를 사용하면 조직이 geos라는 여러 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [Office 365의 OneDrive 및 SharePoint Online의 여러 지리 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조하세요.|
+|네트워크 액세스 정책 변경됨|NetworkAccessPolicyChanged|SharePoint 또는 전역 관리자가 SharePoint 관리 센터에서 또는 SharePoint PowerShell을 사용하여 위치 기반 액세스 정책(신뢰할 수 있는 네트워크 경계라고도 함)을 변경했습니다. 이 정책 유형은 지정한 권한 있는 IP 주소 범위를 기반으로 조직의 SharePoint 및 OneDrive 리소스에 액세스할 수 있는 사용자를 제어합니다. 자세한 내용은 [네트워크 위치를 기반으로 SharePoint Online 및 OneDrive 데이터에 대한 액세스 제어](/sharepoint/control-access-based-on-network-location)를 참조하세요.|
+|사이트 지리적 이동 완료됨|SiteGeoMoveCompleted|조직의 전역 관리자가 예약한 사이트 지리적 이동이 완료되었습니다. Multi-Geo Capabilities를 사용하면 조직이 geos라는 여러 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [Office 365의 OneDrive 및 SharePoint Online의 여러 지리 기능](../enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md)을 참조하세요.|
 |받는 사람 연결 생성됨|SendToConnectionAdded|SharePoint 또는 전역 관리자가 SharePoint 관리 센터의 레코드 관리 페이지에서 새 보내기 연결을 만듭니다. 받는 사람 연결은 문서 리포지토리 또는 레코드 센터에 대한 설정을 지정합니다. 받는 사람 연결을 만들면 콘텐츠 구성 도우미가 문서를 지정된 위치에 제출할 수 있습니다.|
 |사이트 모음 생성됨|SiteCollectionCreated|Sharepoint 또는 전역 관리자가 SharePoint Online 조직에서 사이트 모음을 만들거나 사용자가 비즈니스용 OneDrive 사이트를 프로비전합니다.|
 |분리된 허브 사이트 삭제됨|HubSiteOrphanHubDeleted|SharePoint 또는 전역 관리자가 연결된 사이트가 없는 허브 사이트인 분리된 허브 사이트를 삭제합니다. 분리된 허브는 원본 허브 사이트를 삭제하여 발생하는 문제일 수 있습니다.|
@@ -657,7 +657,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 |허용된 데이터 위치 제거됨|AllowedDataLocationDeleted|SharePoint 또는 전역 관리자가 여러 지리적 환경에서 허용되는 데이터 위치를 제거했습니다.|
 |지리적 위치 관리자 제거됨|GeoAdminDeleted|SharePoint 또는 전역 관리자가 위치에 대한 지리적 관리자로 사용자를 제거했습니다.|
 |사이트 이름 바뀜|SiteRenamed|사이트 관리자 또는 소유자가 사이트 이름을 바꿉니다.|
-|예약된 사이트 지리적 이동|SiteGeoMoveScheduled|SharePoint 또는 전역 관리자가 SharePoint 또는 OneDrive 사이트 지리적 이동을 예약합니다. Multi-Geo Capabilities를 사용하면 조직이 geos라는 여러 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [Office 365의 OneDrive 및 SharePoint Online의 여러 지리 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조하세요.|
+|예약된 사이트 지리적 이동|SiteGeoMoveScheduled|SharePoint 또는 전역 관리자가 SharePoint 또는 OneDrive 사이트 지리적 이동을 예약합니다. Multi-Geo Capabilities를 사용하면 조직이 geos라는 여러 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [Office 365의 OneDrive 및 SharePoint Online의 여러 지리 기능](../enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md)을 참조하세요.|
 |호스트 사이트 설정됨|HostSiteSet|SharePoint 또는 전역 관리자가 개인 또는 비즈니스용 OneDrive 사이트를 호스트하도록 지정된 사이트를 변경합니다.|
 |지리적 위치에 대한 저장소 할당량 설정됨|GeoQuotaAllocated|SharePoint 또는 전역 관리자가 다중 지리적 환경에서 지리적 위치에 대한 저장소 할당량을 구성했습니다.|
 |허브 사이트의 사이트 연결이 끊김|HubSiteUnjoined|사이트 소유자가 사이트를 허브 사이트에서 연결을 끊습니다.|
@@ -668,7 +668,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 
 다음 표에서는 사서함 감사 로깅에서 기록할 수 있는 활동을 보여 줍니다. 사서함 소유자, 위임된 사용자 또는 관리자가 수행한 사서함 활동은 최대 90일 동안 감사 로그에 자동으로 기록됩니다. 관리자는 조직의 모든 사용자에 대한 사서함 감사 로깅을 해제할 수 있습니다. 이 경우 어떤 사용자에 대한 사서함 작업도 기록되지 않습니다. 자세한 내용은 [사서함 감사 관리](enable-mailbox-auditing.md)를 참조하세요.
 
- Exchange Online PowerShell에서 [Search-MailboxAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) cmdlet을 사용하여 사서함 활동을 검색할 수도 있습니다.
+ Exchange Online PowerShell에서 [Search-MailboxAuditLog](/powershell/module/exchange/search-mailboxauditlog) cmdlet을 사용하여 사서함 활동을 검색할 수도 있습니다.
 
 |이름|작업|설명|
 |:-----|:-----|:-----|
@@ -708,17 +708,17 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 |:-----|:-----|:-----|
 |사용자 추가됨|사용자를 추가합니다.|사용자 계정이 생성되었습니다.|
 |사용자 라이선스 변경됨|사용자 라이선스를 변경합니다.|사용자에게 할당된 라이선스가 변경되었습니다. 변경된 라이선스를 확인하려면 해당 **사용자 업데이트됨** 활동을 참조하세요.|
-|사용자 암호 변경됨|사용자 암호를 변경합니다.|사용자가 암호를 변경합니다. 사용자가 암호를 재설정할 수 있도록 하려면 조직에서 셀프 서비스 암호 재설정을 활성화해야(모든 사용자 또는 선택된 사용자 대상) 합니다. Azure Active Directory에서 셀프 서비스 암호 재설정 활동을 추적할 수도 있습니다. 자세한 내용은 [Azure AD 암호 관리 보고 옵션](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-reporting)을 참조하세요.
+|사용자 암호 변경됨|사용자 암호를 변경합니다.|사용자가 암호를 변경합니다. 사용자가 암호를 재설정할 수 있도록 하려면 조직에서 셀프 서비스 암호 재설정을 활성화해야(모든 사용자 또는 선택된 사용자 대상) 합니다. Azure Active Directory에서 셀프 서비스 암호 재설정 활동을 추적할 수도 있습니다. 자세한 내용은 [Azure AD 암호 관리 보고 옵션](/azure/active-directory/authentication/howto-sspr-reporting)을 참조하세요.
 |사용자 삭제됨|사용자를 삭제합니다.|사용자 계정이 삭제되었습니다.|
 |사용자 암호 재설정|사용자 암호를 재설정합니다.|관리자가 사용자 암호를 재설정했습니다.|
 |강제로 사용자 암호를 변경하게 하는 속성 설정|사용자 암호를 강제 변경 설정합니다.|관리자가 다음에 Office 365에 로그인할 때 강제로 사용자 암호를 변경하게 하는 속성을 설정했습니다.|
 |라이선스 속성 설정|라이선스 속성을 설정합니다.|관리자가 사용자에게 할당된 라이선스의 속성을 수정했습니다.|
-|사용자 업데이트됨|사용자를 업데이트합니다.|관리자가 사용자 계정의 속성을 하나 이상 변경합니다. 업데이트할 수 있는 사용자 속성 목록은 [Azure Active Directory 감사 보고서 이벤트](https://go.microsoft.com/fwlink/p/?LinkID=616549)에서 "사용자 속성 업데이트" 섹션을 참조하세요.|
+|사용자 업데이트됨|사용자를 업데이트합니다.|관리자가 사용자 계정의 속성을 하나 이상 변경합니다. 업데이트할 수 있는 사용자 속성 목록은 [Azure Active Directory 감사 보고서 이벤트](/azure/active-directory/reports-monitoring/concept-audit-logs)에서 "사용자 속성 업데이트" 섹션을 참조하세요.|
 ||||
 
 ### <a name="azure-ad-group-administration-activities"></a>Azure AD 그룹 관리 활동
 
-다음 표에서는 관리자 또는 사용자가 Microsoft 365 그룹을 만들거나 변경할 때 또는 관리자가 Microsoft 365 관리 센터 또는 Azure 관리 포털을 사용하여 보안 그룹을 만들 때 기록되는 그룹 관리 활동을 보여 줍니다. Office 365의 그룹에 대한 자세한 내용은 [Microsoft 365 관리 센터에서 그룹 보기, 만들기, 삭제](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)를 참조하세요.
+다음 표에서는 관리자 또는 사용자가 Microsoft 365 그룹을 만들거나 변경할 때 또는 관리자가 Microsoft 365 관리 센터 또는 Azure 관리 포털을 사용하여 보안 그룹을 만들 때 기록되는 그룹 관리 활동을 보여 줍니다. Office 365의 그룹에 대한 자세한 내용은 [Microsoft 365 관리 센터에서 그룹 보기, 만들기, 삭제](../admin/create-groups/create-groups.md)를 참조하세요.
 
 > [!NOTE]
 > 다음 표의 **작업** 열에 나열된 작업 이름에는 마침표(`.`)가 포함되어 있습니다. 감사 로그를 검색하거나, 감사 보존 정책을 만들거나, 경고 정책을 만들거나, 활동 알림을 만들 때 PowerShell 명령에서 작업을 지정하는 경우 작업 이름에 기간을 포함해야 합니다. 작업 이름을 포함하기 위해 반드시 두 개의 물음표(`" "`)를 사용해야 합니다.
@@ -812,13 +812,13 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 
 ### <a name="power-bi-activities"></a>Power BI 활동
 
-Power BI에서 활동에 대한 감사 로그를 검색할 수 있습니다. Power BI 활동에 대한 자세한 내용은 [조직 내에서 감사 사용](https://docs.microsoft.com/power-bi/service-admin-auditing#activities-audited-by-power-bi)의 "Power BI가 감사한 활동" 섹션을 참조하세요.
+Power BI에서 활동에 대한 감사 로그를 검색할 수 있습니다. Power BI 활동에 대한 자세한 내용은 [조직 내에서 감사 사용](/power-bi/service-admin-auditing#activities-audited-by-power-bi)의 "Power BI가 감사한 활동" 섹션을 참조하세요.
 
-Power BI에 대 한 감사 로깅은 기본적으로 사용하지 않도록 설정되어 있습니다. 감사 로그에서 Power BI 작업을 검색하려면 Power BI 관리 포털에서 감사를 사용하도록 설정해야 합니다. 자세한 내용은 [Power BI 관리 포털](https://docs.microsoft.com/power-bi/service-admin-portal#audit-logs)의 "감사 로그" 섹션을 참조 하세요.
+Power BI에 대 한 감사 로깅은 기본적으로 사용하지 않도록 설정되어 있습니다. 감사 로그에서 Power BI 작업을 검색하려면 Power BI 관리 포털에서 감사를 사용하도록 설정해야 합니다. 자세한 내용은 [Power BI 관리 포털](/power-bi/service-admin-portal#audit-logs)의 "감사 로그" 섹션을 참조 하세요.
 
 ### <a name="workplace-analytics-activities"></a>Microsoft Workplace Analytics 활동
 
-Workplace Analytics는 조직에서 그룹이 공동으로 작업하는 방법에 대한 정보를 줍니다. 다음 표는 Workplace Analytics에서 관리자 역할 또는 분석가 역할이 할당된 사용자가 수행한 활동을 나열합니다. 분석 역할이 할당된 사용자는 모든 서비스 기능에 대한 전체 액세스 권한을 가지며 제품을 사용하여 분석을 수행합니다. 관리자 역할이 할당된 사용자는 개인 정보 설정 및 시스템 기본값을 구성하고 Workplace Analytics에서 조직 데이터를 준비, 업로드 및 확인할 수 있습니다. 자세한 내용은 [Workplace Analytics](https://docs.microsoft.com/workplace-analytics/index-orig)를 참조하세요.
+Workplace Analytics는 조직에서 그룹이 공동으로 작업하는 방법에 대한 정보를 줍니다. 다음 표는 Workplace Analytics에서 관리자 역할 또는 분석가 역할이 할당된 사용자가 수행한 활동을 나열합니다. 분석 역할이 할당된 사용자는 모든 서비스 기능에 대한 전체 액세스 권한을 가지며 제품을 사용하여 분석을 수행합니다. 관리자 역할이 할당된 사용자는 개인 정보 설정 및 시스템 기본값을 구성하고 Workplace Analytics에서 조직 데이터를 준비, 업로드 및 확인할 수 있습니다. 자세한 내용은 [Workplace Analytics](/workplace-analytics/index-orig)를 참조하세요.
 
 |이름|작업|설명|
 |:-----|:-----|:-----|
@@ -836,21 +836,21 @@ Workplace Analytics는 조직에서 그룹이 공동으로 작업하는 방법�
 
 ### <a name="microsoft-teams-activities"></a>Microsoft Teams 활동
 
-Microsoft Teams에서 사용자 및 관리자 활동에 대한 감사 로그를 검색할 수 있습니다. Teams는 Office 365에서 채팅 중심의 작업 영역입니다. Microsoft Teams를 사용하면 팀의 대화, 모임, 파일 및 메모를 모두 한곳에서 관리할 수 있습니다. 감사되는 Teams 활동에 관한 설명은 [Microsoft Teams에서 이벤트 감사 로그 검색](https://docs.microsoft.com/microsoftteams/audit-log-events#teams-activities)을 참조하세요.
+Microsoft Teams에서 사용자 및 관리자 활동에 대한 감사 로그를 검색할 수 있습니다. Teams는 Office 365에서 채팅 중심의 작업 영역입니다. Microsoft Teams를 사용하면 팀의 대화, 모임, 파일 및 메모를 모두 한곳에서 관리할 수 있습니다. 감사되는 Teams 활동에 관한 설명은 [Microsoft Teams에서 이벤트 감사 로그 검색](/microsoftteams/audit-log-events#teams-activities)을 참조하세요.
 
 ### <a name="microsoft-teams-healthcare-activities"></a>Microsoft Teams 보건 활동
 
-조직에서 Microsoft Teams의 [환자 응용 프로그램](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview)을 사용하는 경우 환자 앱을 사용과 관련된 활동에 대한 감사 로그를 검색할 수 있습니다. 환자 앱을 지원하도록 환경을 구성한 경우 이러한 활동에 대한 추가 활동 그룹을 **활동** 선택기 목록에서 사용할 수 있습니다.
+조직에서 Microsoft Teams의 [환자 응용 프로그램](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview)을 사용하는 경우 환자 앱을 사용과 관련된 활동에 대한 감사 로그를 검색할 수 있습니다. 환자 앱을 지원하도록 환경을 구성한 경우 이러한 활동에 대한 추가 활동 그룹을 **활동** 선택기 목록에서 사용할 수 있습니다.
 
 ![활동 선택기 목록에서 Microsoft Teams의 보건 활동](../media/TeamsHealthcareAuditActivities.png)
 
-환자 앱 활동에 대한 자세한 내용은 [환자 앱에 대한 감사 로그](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit)를 참조하세요.
+환자 앱 활동에 대한 자세한 내용은 [환자 앱에 대한 감사 로그](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit)를 참조하세요.
 
 ### <a name="microsoft-teams-shifts-activities"></a>Microsoft Teams Shifts 활동
 
 조직에서 Microsoft Teams의 Shifts 앱을 사용하는 경우, Shifts 앱 사용과 관련된 활동에 대한 감사 로그를 검색할 수 있습니다. Shifts 앱을 지원하도록 환경을 구성한 경우 이러한 활동에 대한 추가 활동 그룹을 **활동** 선택기 목록에서 사용할 수 있습니다.
 
-Shifts 앱 활동에 관한 설명은 [Microsoft Teams에서 이벤트 감사 로그 검색](https://docs.microsoft.com/microsoftteams/audit-log-events#shifts-in-teams-activities)을 참조하세요.
+Shifts 앱 활동에 관한 설명은 [Microsoft Teams에서 이벤트 감사 로그 검색](/microsoftteams/audit-log-events#shifts-in-teams-activities)을 참조하세요.
 
 ### <a name="yammer-activities"></a>Yammer 활동
 
@@ -883,11 +883,11 @@ Power Automate(이전의 Microsoft Flow)에서 활동에 대한 감사 로그를
 
 ### <a name="microsoft-power-apps-activities"></a>Microsoft Power Apps 활동
 
-Power Apps에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 앱을 만들고, 시작하고, 게시하는 작업이 포함됩니다. 앱에 대한 사용 권한을 할당하는 방법도 감사할 수 있습니다. 모든 PowerApps 활동에 대한 설명은 [Power Apps에 대한 활동 로깅](https://docs.microsoft.com/power-platform/admin/logging-powerapps#what-events-are-audited)을 참조하세요.
+Power Apps에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 앱을 만들고, 시작하고, 게시하는 작업이 포함됩니다. 앱에 대한 사용 권한을 할당하는 방법도 감사할 수 있습니다. 모든 PowerApps 활동에 대한 설명은 [Power Apps에 대한 활동 로깅](/power-platform/admin/logging-powerapps#what-events-are-audited)을 참조하세요.
 
 ### <a name="microsoft-stream-activities"></a>Microsoft Stream 활동
 
-Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 사용자가 수행한 비디오 활동, 그룹 채널 활동 및 관리자 활동(예: 사용자 관리, 조직 설정 관리, 보고서 내보내기 등)이 포함됩니다. 이러한 활동에 대한 설명은 [Microsoft Stream의 감사 로그](https://docs.microsoft.com/stream/audit-logs#actions-logged-in-stream)에서 "Stream에 기록된 활동" 섹션을 참조하세요.
+Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 사용자가 수행한 비디오 활동, 그룹 채널 활동 및 관리자 활동(예: 사용자 관리, 조직 설정 관리, 보고서 내보내기 등)이 포함됩니다. 이러한 활동에 대한 설명은 [Microsoft Stream의 감사 로그](/stream/audit-logs#actions-logged-in-stream)에서 "Stream에 기록된 활동" 섹션을 참조하세요.
 
 ### <a name="content-explorer-activities"></a>콘텐츠 탐색기 활동
 
@@ -978,21 +978,21 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 |사이트에서 제거된 민감도 레이블|SensitivityLabelRemoved|민감도 레이블이 SharePoint 또는 Teams 사이트에서 제거되었습니다.|
 |파일에 적용된 민감도 레이블|FileSensitivityLabelApplied|웹용 Office 또는 자동 레이블 정책을 사용하여 민감도 레이블을 문서에 적용했습니다.|
 |파일에 변경된 민감도 레이블을 적용|FileSensitivityLabelChanged|웹용 Office 또는 자동 레이블 정책을 사용하여 다른 민감도 레이블을 문서에 적용했습니다.|
-|파일에서 제거된 민감도 레이블|FileSensitivityLabelRemoved|웹의 Office, 자동 레이블 지정 정책을 사용하거나 [Unlocked-SPOSensitivityLabelEncryptedFile](https://docs.microsoft.com/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) cmdlet을 사용하여 문서에서 민감도 레이블이 제거되었습니다.|
+|파일에서 제거된 민감도 레이블|FileSensitivityLabelRemoved|웹의 Office, 자동 레이블 지정 정책을 사용하거나 [Unlocked-SPOSensitivityLabelEncryptedFile](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) cmdlet을 사용하여 문서에서 민감도 레이블이 제거되었습니다.|
 ||||
 
 ### <a name="retention-policy-and-retention-label-activities"></a>유지 정책 및 보존 레이블 활동
 
 |이름|작업|설명|
 |:-----|:-----|:-----|
-| 보존 정책에 대해 구성된 설정 |NewRetentionComplianceRule |관리자가 새 보존 정책에 대한 보존 설정을 구성했습니다. 보존 설정에는 항목이 보존되는 기간과 보존 기간이 만료될 때 발생하는 작업(예: 항목 삭제, 항목 보존, 보존 및 삭제)이 포함됩니다. 이 활동은 [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule) cmdlet을 실행하는 것과도 같습니다.|
+| 보존 정책에 대해 구성된 설정 |NewRetentionComplianceRule |관리자가 새 보존 정책에 대한 보존 설정을 구성했습니다. 보존 설정에는 항목이 보존되는 기간과 보존 기간이 만료될 때 발생하는 작업(예: 항목 삭제, 항목 보존, 보존 및 삭제)이 포함됩니다. 이 활동은 [New-RetentionComplianceRule](/powershell/module/exchange/new-retentioncompliancerule) cmdlet을 실행하는 것과도 같습니다.|
 | 보존 레이블을 만들었습니다. |NewComplianceTag |관리자가 새 보존 레이블을 만들었습니다.|
 | 보존 정책을 만들었습니다. |NewRetentionCompliancePolicy|관리자가 새 보존 정책을 만들었습니다.|
-| 보존 정책에서 설정을 삭제했습니다.| RemoveRetentionComplianceRule<br/>| 관리자가 보존 정책의 구성 설정을 삭제했습니다. 이 활동은 관리자가 보존 정책을 삭제하거나 [RetentionComplianceRule 제거](https://docs.microsoft.com/powershell/module/exchange/Remove-RetentionComplianceRule) cmdlet을 실행할 때 기록될 가능성이 높습니다.|
+| 보존 정책에서 설정을 삭제했습니다.| RemoveRetentionComplianceRule<br/>| 관리자가 보존 정책의 구성 설정을 삭제했습니다. 이 활동은 관리자가 보존 정책을 삭제하거나 [RetentionComplianceRule 제거](/powershell/module/exchange/Remove-RetentionComplianceRule) cmdlet을 실행할 때 기록될 가능성이 높습니다.|
 | 보존 레이블 삭제. |RemoveComplianceTag | 관리자가 보존 레이블을 삭제했습니다.|
 | 보존 정책을 삭제했습니다. |RemoveRetentionCompliancePolicy<br/> |관리자가 보존 정책을 삭제했습니다. |
-| 보존 레이블에 대한 규제 레코드 옵션이 활성화되었습니다.<br/> |SetRestrictiveRetentionUI |관리자가 [Set-RegulatoryCompliance를 설정](https://docs.microsoft.com/powershell/module/exchange/set-regulatorycomplianceui) cmdlet을 사용하면 관리자가 보존 레이블에 대한 UI 구성 옵션을 선택하여 내용을 규제 레코드로 표시할 수 있습니다.|
-| 보존 정책에 대한 설정 업데이트 | SetRetentionComplianceRule | 관리자가 기존 보존 정책에 대한 보존 설정을 변경했습니다. 보존 설정에는 항목이 보존되는 기간과 보존 기간이 만료될 때 발생하는 작업(예: 항목 삭제, 항목 보존, 보존 및 삭제)이 포함됩니다. 이 활동은 [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule) cmdlet을 실행하는 것과도 같습니다. |
+| 보존 레이블에 대한 규제 레코드 옵션이 활성화되었습니다.<br/> |SetRestrictiveRetentionUI |관리자가 [Set-RegulatoryCompliance를 설정](/powershell/module/exchange/set-regulatorycomplianceui) cmdlet을 사용하면 관리자가 보존 레이블에 대한 UI 구성 옵션을 선택하여 내용을 규제 레코드로 표시할 수 있습니다.|
+| 보존 정책에 대한 설정 업데이트 | SetRetentionComplianceRule | 관리자가 기존 보존 정책에 대한 보존 설정을 변경했습니다. 보존 설정에는 항목이 보존되는 기간과 보존 기간이 만료될 때 발생하는 작업(예: 항목 삭제, 항목 보존, 보존 및 삭제)이 포함됩니다. 이 활동은 [New-RetentionComplianceRule](/powershell/module/exchange/set-retentioncompliancerule) cmdlet을 실행하는 것과도 같습니다. |
 | 보존 레이블 업데이트 |SetComplianceTag  | 관리자가 기존 보존 레이블을 업데이트했습니다.|
 | 보존 정책이 업데이트되었습니다. |SetRetentionCompliancePolicy |관리자가 기존 보존 정책을 업데이트했습니다. 이 이벤트를 트리거하는 업데이트에는 보존 정책이 적용되는 콘텐츠 위치 추가 또는 제외가 포함됩니다.|
 ||||
@@ -1001,9 +1001,9 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 다음 표에 Office 365 감사 로그에 기록되는 브리핑 전자 메일 활동이 나와 있습니다. 브리핑 전자 메일에 대한 자세한 내용은 다음을 참조하세요.
 
-- [브리핑 자 메일 개요](https://docs.microsoft.com/Briefing/be-overview)
+- [브리핑 자 메일 개요](/Briefing/be-overview)
 
-- [브리핑 전자 메일 구성](https://docs.microsoft.com/Briefing/be-admin)
+- [브리핑 전자 메일 구성](/Briefing/be-admin)
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
@@ -1013,7 +1013,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 ### <a name="myanalytics-activities"></a>MyAnalytics 활동
 
-다음 표에 Office 365 감사 로그에 기록되는 MyAnalytics 활동이 나와 있습니다. MyAnalytics에 대한 자세한 내용은 [관리자용 MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/overview/mya-for-admins)를 참조하세요.
+다음 표에 Office 365 감사 로그에 기록되는 MyAnalytics 활동이 나와 있습니다. MyAnalytics에 대한 자세한 내용은 [관리자용 MyAnalytics](/workplace-analytics/myanalytics/overview/mya-for-admins)를 참조하세요.
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
@@ -1034,7 +1034,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 ### <a name="exchange-admin-audit-log"></a>Exchange 관리자 감사 로그
 
-관리자(또는 관리 권한이 할당 된 사용자)가 Exchange Online 조직에서 변경 작업을 수행할 때 Exchange 관리자 감사 로깅(Office 365에서 기본적으로 사용하도록 설정됨)은 감사 로그에 이벤트를 기록합니다. Exchange 관리 센터를 사용하거나 Exchange Online PowerShel에서 cmdlet을 실행하여 수행한 변경 내용은 Exchange 관리 감사 로그에 기록 됩니다. **Get-**, **Search-** 또는 **Test-** 동사로 시작하는 cmdlet은 감사 로그에 기록되지 않습니다. Exchange의 관리자 감사 로깅에 대한 자세한 내용은 [관리자 감사 로깅](https://go.microsoft.com/fwlink/p/?LinkID=619225)을 참조하세요.
+관리자(또는 관리 권한이 할당 된 사용자)가 Exchange Online 조직에서 변경 작업을 수행할 때 Exchange 관리자 감사 로깅(Office 365에서 기본적으로 사용하도록 설정됨)은 감사 로그에 이벤트를 기록합니다. Exchange 관리 센터를 사용하거나 Exchange Online PowerShel에서 cmdlet을 실행하여 수행한 변경 내용은 Exchange 관리 감사 로그에 기록 됩니다. **Get-**, **Search-** 또는 **Test-** 동사로 시작하는 cmdlet은 감사 로그에 기록되지 않습니다. Exchange의 관리자 감사 로깅에 대한 자세한 내용은 [관리자 감사 로깅](/exchange/administrator-audit-logging-exchange-2013-help)을 참조하세요.
 
 > [!IMPORTANT]
 > Exchange 관리자 감사 로그(또는 감사 로그)에 기록되지 않는 일부 Exchange Online cmdlet도 있습니다. 이러한 cmdlet 중 다수는 Exchange Online 서비스 유지 관리와 관련이 있으며 Microsoft 데이터 센터 직원 또는 서비스 계정에 의해 실행됩니다. 이 cmdlet은 많은 양의 "소음이 발생 하는" 감사 이벤트를 생성하므로 기록되지 않습니다. 감사되지 않는 Exchange Online cmdlet이 있으면 [보안 및 규정 준수 사용자 의견 포럼](https://office365.uservoice.com/forums/289138-office-365-security-compliance)에 제안 사항을 제출하고 감사를 사용할 수 있도록 요청하세요. DCR(디자인 변경 요청)를 Microsoft 지원에 제출할 수도 있습니다.
@@ -1049,13 +1049,13 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 - 실행된 cmdlet, 사용된 매개 변수 및 매개 변수 값, 영향을 받은 개체에 대한 정보를 가져오려면 **모든 결과 다운로드** 옵션을 선택하여 검색 결과를 내보낼 수 있습니다. 자세한 내용은 [감사 로그 레코드 내보내기, 구성 및 보기](export-view-audit-log-records.md)를 참조하세요.
 
-- Exchange Online PowerShell에서 `Search-UnifiedAuditLog -RecordType ExchangeAdmin` 명령을 사용하여 Exchange 관리자 감사 로그의 감사 레코드만 반환할 수도 있습니다. Exchange cmdlet가 실행된 후 해당 감사 로그 항목이 검색 결과에 반환되려면 최대 30분이 걸릴 수 있습니다. 자세한 내용은 [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog)를 참조하세요. **Search-UnifiedAuditLog** cmdlet에서 반환되는 검색 결과를 CSV 파일로 내보내는 방법에 대한 자세한 내용은 [감사 로그 레코드 내보내기, 구성 및 보기](export-view-audit-log-records.md#tips-for-exporting-and-viewing-the-audit-log)의 "감사 로그 내보내기 및 보기 팁" 섹션을 참조하세요.
+- Exchange Online PowerShell에서 `Search-UnifiedAuditLog -RecordType ExchangeAdmin` 명령을 사용하여 Exchange 관리자 감사 로그의 감사 레코드만 반환할 수도 있습니다. Exchange cmdlet가 실행된 후 해당 감사 로그 항목이 검색 결과에 반환되려면 최대 30분이 걸릴 수 있습니다. 자세한 내용은 [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog)를 참조하세요. **Search-UnifiedAuditLog** cmdlet에서 반환되는 검색 결과를 CSV 파일로 내보내는 방법에 대한 자세한 내용은 [감사 로그 레코드 내보내기, 구성 및 보기](export-view-audit-log-records.md#tips-for-exporting-and-viewing-the-audit-log)의 "감사 로그 내보내기 및 보기 팁" 섹션을 참조하세요.
 
 - Exchange 관리 센터를 사용하거나 Exchange Online PowerShell에서 **Search-AdminAuditLog** 를 실행하여 Exchange 관리자 감사 로그에서 이벤트를 볼 수도 있습니다. 이 방법은 Exchange Online 관리자가 수행하는 활동을 구체적으로 검색하는 좋은 방법입니다. 해당 지침은 다음 항목을 참조하세요.
 
-  - [관리자 감사 로그 보기](https://technet.microsoft.com/library/dn342832%28v=exchg.150%29.aspx)
+  - [관리자 감사 로그 보기](/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log)
 
-  - [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-adminauditlog)
+  - [Search-AdminAuditLog](/powershell/module/exchange/search-adminauditlog)
 
    동일한 Exchange 관리 활동은 Exchange 관리자 감사 로그 및 감사 로그에 모두 기록됩니다.
 
@@ -1079,7 +1079,7 @@ Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Direc
 
 **프로그래밍 방식으로 감사 데이터에 액세스할 수 있나요?**
 
-예. Office 365 관리 활동 API는 프로그래밍 방식으로 감사 로그를 가져오는 데 사용됩니다.  시작하려면 [Office 365 관리 API 시작](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)을 참조하세요.
+예. Office 365 관리 활동 API는 프로그래밍 방식으로 감사 로그를 가져오는 데 사용됩니다.  시작하려면 [Office 365 관리 API 시작](/office/office-365-management-api/get-started-with-office-365-management-apis)을 참조하세요.
 
 **보안 및 준수 센터 또는 Office 365 관리 활동 API를 사용하는 것 외에도 다른 방법을 사용하여 감사 로그를 얻을 수 있나요?**
 
@@ -1099,6 +1099,6 @@ Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Direc
 
 **감사 데이터는 암호화되어 있나요?**
 
-감사 데이터는 통합 감사 파이프라인이 배포된 동일한 지역의 Exchange 사서함(휴지 상태인 데이터)에 저장됩니다. 휴지 상태인 사서함 데이터는 Exchange에서 암호화되지 않습니다. 그러나 Microsoft 데이터 센터의 Exchange 서버는 BitLocker를 통해 암호화되므로 서비스 수준 암호화는 모든 사서함 데이터를 암호화합니다. 보다 자세한 정보는 [비즈니스용 Skype, 비즈니스용 OneDrive, SharePoint 온라인 및 Exchange 온라인을 위한 Office 365 암호화](office-365-encryption-for-skype-onedrive-sharepoint-and-exchange.md)를 참조하십시오.
+감사 데이터는 통합 감사 파이프라인이 배포된 동일한 지역의 Exchange 사서함(휴지 상태인 데이터)에 저장됩니다. 휴지 상태인 사서함 데이터는 Exchange에서 암호화되지 않습니다. 그러나 Microsoft 데이터 센터의 Exchange 서버는 BitLocker를 통해 암호화되므로 서비스 수준 암호화는 모든 사서함 데이터를 암호화합니다. 보다 자세한 정보는 [비즈니스용 Skype, 비즈니스용 OneDrive, SharePoint 온라인 및 Exchange 온라인을 위한 Office 365 암호화](/compliance/assurance/assurance-encryption-for-microsoft-365-services)를 참조하십시오.
 
 전송 중인 사서함 데이터는 언제나 암호화됩니다.

@@ -19,19 +19,19 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: SharePoint Online 모던 및 클래식 게시 사이트 페이지의 Iframe 성능을 최적화하는 방법에 대해 배워보세요.
-ms.openlocfilehash: 8985eb1038bbdfc53dc3c6a8ea9350fa6df33556
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d6e9aefa23972589c752540959b17f5d20ed0889
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692897"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923064"
 ---
 # <a name="optimize-iframes-in-sharepoint-online-modern-and-classic-publishing-site-pages"></a>SharePoint Online 모던 및 클래식 게시 사이트 페이지에서 Iframe 최적화
 
 IFrames는 비디오나 기타 미디어와 같은 풍부한 콘텐츠를 미리 보는데 유용할 수 있습니다. 그러나 iFrame은 SharePoint 사이트 페이지 내에서 별도의 페이지를 로드하므로 iFrame에서 로드된 콘텐츠에는 전체 페이지 로드 시간을 유발하고 페이지에서 제어할 수 없는 대형 이미지, 비디오 또는 기타 요소가 포함될 수 있습니다. 이 문서는 페이지의 iFrame이 어떻게 사용자가 인식하는 대기 시간에 미치는 영향을 미치는지와 일반적인 문제를 해결하는 방법을 이해하는데 도움을 줄 것입니다.
 
 >[!NOTE]
->SharePoint Online 최신 사이트의 성능에 대한 자세한 내용은 [최신 SharePoint 환경의 성능](https://docs.microsoft.com/sharepoint/modern-experience-performance)을 참조하세요.
+>SharePoint Online 최신 사이트의 성능에 대한 자세한 내용은 [최신 SharePoint 환경의 성능](/sharepoint/modern-experience-performance)을 참조하세요.
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-web-parts-using-iframes"></a>SharePoint 용 페이지 진단 도구를 사용한 iFrames를 사용하는 웹 파트 분석
 
@@ -80,4 +80,4 @@ iFrame의 최적화된 사용을 보장하기 위해 아래 지침을 따르세�
 
 [Office 365 성능 조정](tune-microsoft-365-performance.md)
 
-[최신 SharePoint 환경의 성능](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[최신 SharePoint 환경의 성능](/sharepoint/modern-experience-performance)

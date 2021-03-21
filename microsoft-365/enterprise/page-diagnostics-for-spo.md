@@ -19,12 +19,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: SharePoint용 페이지 진단 도구를 사용하여 미리 정의된 성능 기준 집합에 대해 SharePoint Online 최신 포털 및 클래식 게시 페이지를 분석합니다.
-ms.openlocfilehash: a6616a7d3f9f27365c7b96bbfb08a17c6d2be030
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: b55e5c04f56bac4e6313284de60753d1beaaaed1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820218"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921633"
 ---
 # <a name="use-the-page-diagnostics-for-sharepoint-tool"></a>SharePoint용 페이지 진단 도구 사용
 
@@ -177,7 +177,7 @@ SharePoint용 페이지 진단 도구를 사용하여 SharePoint 최신 포털 �
 
 [Office 365 성능 조정](tune-microsoft-365-performance.md)
 
-[최신 SharePoint 환경의 성능](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[최신 SharePoint 환경의 성능](/sharepoint/modern-experience-performance)
 
 [콘텐츠 배달 네트워크](content-delivery-networks.md)
 

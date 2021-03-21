@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 통과 인증을 구성합니다.'
-ms.openlocfilehash: d83de4ece4d1eaeddac882cf46a4fe85b8ba7cd4
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: cdbb6927fb8ca0001e3089c7169ce9046208e8f8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487449"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921531"
 ---
 # <a name="pass-through-authentication-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 통과 인증
 
@@ -80,7 +80,7 @@ Microsoft 클라우드 기반 서비스 및 응용 프로그램에 대한 인증
 
 10.    **통과 인증** 을 클릭하세요. **통과 인증** 창에는 인증 에이전트가 설치된 서버가 나열됩니다. 목록에 APP1이 표시되었는지 확인해야 합니다. 그 다음 **통과 인증** 창을 닫습니다.
 
-다음으로, 구독을 통해 구독에 로그인하는 기능을 <strong>user1@testlab.</strong>\<your public domain> 기능을 테스트합니다.
+다음으로, 구독에 로그인하는 기능을 테스트하고 구독을 <strong>user1@testlab.</strong>\<your public domain> 기능을 테스트합니다.
 
 1. APP1에서 로그아웃한 다음 다른 계정을 지정하여 다시 로그인합니다.
 
@@ -94,7 +94,7 @@ User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더�
  
 이 구성은 다음으로 이루어집니다.
 
-- DNS 도메인 테스트 랩이 있는 Microsoft 365 E5 평가판 또는 유료 구독\<your domain name> 유료 구독.
+- DNS 도메인 testlab이 있는 Microsoft 365 E5 평가판 또는 유료 구독\<your domain name> 유료 구독.
 - 인터넷에 연결된 간소화된 조직 인트라넷으로, Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. 인증 에이전트는 APP1에서 실행되어 Microsoft 365 구독의 Azure AD 테넌트의 통과 인증 요청을 처리합니다.
 
 ## <a name="next-step"></a>다음 단계
@@ -107,4 +107,4 @@ User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더�
 
 [엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
-[기업용 Microsoft 365 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)
+[기업용 Microsoft 365 설명서](/microsoft-365-enterprise/)

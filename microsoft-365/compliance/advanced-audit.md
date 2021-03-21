@@ -18,19 +18,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: 012361e8ebbf1961d5ca21cef97357d5150523d5
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 0a77a5c54ce328a3966a952fc8fef08553f42462
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712058"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923488"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
 Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-compliance.md)은 조직에 Microsoft 365의 여러 서비스에서 다양한 유형의 감사 활동에 대한 가시성을 제공합니다. 고급 감사는 필요한 감사 로그 보존을 강화하고 손상 범위를 확인하는 데 도움이 되는 중요한 이벤트에 대한 액세스를 제공하고 Office 365 관리 활동 API에 빠르게 액세스할 수 있게 해주어 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 됩니다. 
 
 > [!NOTE]
-> Office 365 또는 Microsoft 365 Enterprise E5 구독이 있는 조직의 경우 고급 감사 기능을 사용할 수 있습니다. 또한 감사 로그가 장기 보존되는 경우와 조사에 대한 중요한 이벤트에 액세스하는 경우와 같이 고급 감사 기능에 대 한 사용자별 라이선스가 필요한 경우에는 Microsoft 365 E5 준수 또는 E5 eDiscovery 및 감사 추가 기능 라이선스가 사용자에게 할당될 수 있습니다. 라이선싱에 대한 자세한 내용은 [보안 & 준수에 대한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit)을 참조하세요.
+> Office 365 또는 Microsoft 365 Enterprise E5 구독이 있는 조직의 경우 고급 감사 기능을 사용할 수 있습니다. 또한 감사 로그가 장기 보존되는 경우와 조사에 대한 중요한 이벤트에 액세스하는 경우와 같이 고급 감사 기능에 대 한 사용자별 라이선스가 필요한 경우에는 Microsoft 365 E5 준수 또는 E5 eDiscovery 및 감사 추가 기능 라이선스가 사용자에게 할당될 수 있습니다. 라이선싱에 대한 자세한 내용은 [보안 & 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit)을 참조하세요.
 
 이 문서에서는 고급 감사 기능 개요와 고급 감사에 대한 사용자 설정 방법이 나와 있습니다.
 
@@ -85,7 +85,7 @@ MailItemsAccessed 감사 레코드를 검색하려면 Microsoft 365 보안 및 �
 
 ![감사 로그 검색 도구에서 MailItemsAccessed 작업 검색](../media/AdvAudit_MailItemsAccessed.png)
 
-Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations MailItemsAccessed](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) 또는 [Search-MailboxAuditLog -Operations MailItemsAccessed](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) 명령을 실행할 수도 있습니다.
+Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations MailItemsAccessed](/powershell/module/exchange/search-unifiedauditlog) 또는 [Search-MailboxAuditLog -Operations MailItemsAccessed](/powershell/module/exchange/search-mailboxauditlog) 명령을 실행할 수도 있습니다.
 
 ### <a name="send"></a>보내기
 
@@ -103,7 +103,7 @@ Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations MailItemsAc
 
 ![감사 로그 검색 도구에서 보낸 메시지 동작 검색하기](../media/AdvAudit_SentMessage.png)
 
-또한 Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations Send](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) 또는 [Search-MailboxAuditLog -Operations Send](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) 명령을 실행할 수도 있습니다.
+또한 Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations Send](/powershell/module/exchange/search-unifiedauditlog) 또는 [Search-MailboxAuditLog -Operations Send](/powershell/module/exchange/search-mailboxauditlog) 명령을 실행할 수도 있습니다.
 
 ### <a name="searchqueryinitiatedexchange"></a>SearchQueryInitiatedExchange
 
@@ -125,7 +125,7 @@ SearchQueryInitiatedExchange 감사 레코드를 검색하려면 준수 센터�
 
 ![감사 로그 검색 도구에서 수행된 전자 메일 검색 작업을 검색하는 중](../media/AdvAudit_SearchExchange.png)
 
-Exchange Online PowerShell에서 [Search-UnifiedAuditLog-Operations SearchQueryInitiatedExchange](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog)를 실행할 수도 있습니다.
+Exchange Online PowerShell에서 [Search-UnifiedAuditLog-Operations SearchQueryInitiatedExchange](/powershell/module/exchange/search-unifiedauditlog)를 실행할 수도 있습니다.
 
 > [!NOTE]
 > Exchange Online PowerShell에서 다음 명령을 실행하여 SearchQueryInitiatedExchange 이벤트(지정된 E5 사용자가 수행한)가 감사 로그 검색 결과에 포함되도록 합니다.`Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`<br/><br/>
@@ -150,7 +150,7 @@ SearchQueryInitiatedSharePoint 감사 레코드를 검색하려면 준수 센터
 
 ![감사 로그 검색 도구에서 수행된 SharePoint 검색 작업을 검색하는 중](../media/AdvAudit_SearchSharePoint.png)
 
-또한 Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations SearchQueryInitiatedExchange](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog)를 실행할 수도 있습니다.
+또한 Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations SearchQueryInitiatedExchange](/powershell/module/exchange/search-unifiedauditlog)를 실행할 수도 있습니다.
 
 > [!NOTE]
 > Exchange Online PowerShell에서 다음 명령을 실행하여 SearchQueryInitiatedExchange 이벤트(지정된 E5 사용자가 수행한)가 감사 로그 검색 결과에 포함되도록 합니다.`Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`<br/><br/>
@@ -165,7 +165,7 @@ Office 365 관리 활동 API를 통해 감사 로그에 액세스하는 조직�
 
 모든 조직에는 처음에 분당 2,000건의 요청 기준이 할당됩니다. 이 한도는 조직의 라이선스 수와 라이선스 구독에 따라 동적으로 증가합니다. E5 조직은 E5 이외의 조직보다 약 2배의 대역폭을 얻게 됩니다. 또한 서비스 상태를 보호하기 위해 최대 대역폭에 제한이 있습니다.
 
-자세한 내용은 [Office 365 관리 활동 API 참조](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference#api-throttling)의 "API 조절"섹션을 참조하십시오.
+자세한 내용은 [Office 365 관리 활동 API 참조](/office/office-365-management-api/office-365-management-activity-api-reference#api-throttling)의 "API 조절"섹션을 참조하십시오.
 
 ## <a name="set-up-advanced-audit-for-users"></a>사용자에 대한 고급 감사 설정
 
@@ -183,7 +183,7 @@ MailItemsAccessed 및 전송과 같은 중요한 이벤트를 기록하는 기�
 
    사용자에 대한 MailItemsAccessed, 전송 및 기타 중요한 이벤트에 대한 감사 레코드 로깅이 24시간 내에 시작됩니다.
 
-그룹 기반 라이선스를 사용하여 사용자 그룹에 라이선스를 할당하는 조직의 경우 그룹의 Microsoft 365 고급 감사에 대한 라이선스 할당을 해제해야 합니다. 변경 내용을 저장한 후에는 그룹에 대해 Microsoft 365 고급 감사를 해제했는지 확인합니다. 그런 다음, 그룹에 대한 라이선스 할당을 다시 설정합니다. 그룹 기반 라이선싱에 대한 자세한 내용은 [Azure Active Directory에서 그룹 구성원으로 사용자에게 라이선스 할당](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)을 참조하세요.
+그룹 기반 라이선스를 사용하여 사용자 그룹에 라이선스를 할당하는 조직의 경우 그룹의 Microsoft 365 고급 감사에 대한 라이선스 할당을 해제해야 합니다. 변경 내용을 저장한 후에는 그룹에 대해 Microsoft 365 고급 감사를 해제했는지 확인합니다. 그런 다음, 그룹에 대한 라이선스 할당을 다시 설정합니다. 그룹 기반 라이선싱에 대한 자세한 내용은 [Azure Active Directory에서 그룹 구성원으로 사용자에게 라이선스 할당](/azure/active-directory/users-groups-roles/licensing-groups-assign)을 참조하세요.
 
 또한 사용자 사서함 또는 공유 사서함에 로그온한 사서함 작업을 사용자 정의한 경우 MailItemsAccessed와 같은 새로운 기본 사서함 작업은 해당 사서함에 대해 자동으로 감사되지 않습니다. 각 로그온 유형에 대해 감사되는 사서함 작업을 변경하는 방법에 대한 자세한 내용은 [사서함 감사 관리](enable-mailbox-auditing.md#change-or-restore-mailbox-actions-logged-by-default)의 "기본적으로 로그되는 사서함 작업 변경 또는 복원" 섹션을 참조하세요.
 

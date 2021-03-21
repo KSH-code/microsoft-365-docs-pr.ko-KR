@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 조직의 요구 사항에 맞는 규칙을 사용할 수 있도록 해주는 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 40584b430af6e822b115e014c20481c027222aae
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 79d79a220e0cd8de0755f6cdac99cf7cceb2997f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423407"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922662"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>기본 제공 중요한 정보 유형 사용자 지정
 
@@ -33,7 +33,7 @@ ms.locfileid: "50423407"
   
 ## <a name="export-the-xml-file-of-the-current-rules"></a>현재 규칙의 XML 파일 내보내기
 
-XML을 내보내려면 [원격 PowerShell을 통해 보안 및 준수 센터에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)해야 합니다.
+XML을 내보내려면 [원격 PowerShell을 통해 보안 및 준수 센터에 연결](/powershell/exchange/connect-to-scc-powershell)해야 합니다.
   
 1. PowerShell에서 다음을 입력하여 화면에 조직의 규칙을 표시합니다. 고유한 규칙을 아직 만들지 않은 경우 “Microsoft 규칙 패키지”라는 기본 제공 규칙만 표시됩니다.
 
@@ -201,7 +201,7 @@ XML에서 신용 카드 번호 규칙 정의를 찾았으므로 요구에 맞게
   
 1. 유니코드 인코딩을 사용하여 .xml 파일로 저장합니다. 이 작업은 파일을 다른 인코딩으로 저장하면 규칙이 작동하지 않으므로 중요합니다.
     
-2. [원격 PowerShell을 통해 보안 및 준수 센터에 연결합니다.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+2. [원격 PowerShell을 통해 보안 및 준수 센터에 연결합니다.](/powershell/exchange/connect-to-scc-powershell)
     
 3. PowerShell에서 다음을 입력합니다.
 

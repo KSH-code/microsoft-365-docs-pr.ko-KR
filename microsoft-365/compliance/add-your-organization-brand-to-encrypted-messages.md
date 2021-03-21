@@ -20,13 +20,13 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-description: Office 365 전역 관리자가 암호화 포털의 콘텐츠와 함께 암호화된 전자 메일 메시지에 조직의 & 적용하는 방법을 자세히 알아보겠습니다.
-ms.openlocfilehash: 56b948fc941da4fb221d929ecd59c5300b135e39
-ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
+description: Office 365 전역 관리자가 암호화 포털의 콘텐츠와 함께 암호화된 전자 메일 메시지에 조직의 & 적용하는 방법을 알아보겠습니다.
+ms.openlocfilehash: 3c5dc089363a7dfe895e79f03e5a01cb57c2ad57
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49709500"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923508"
 ---
 # <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>비즈니스용 Microsoft 365 메시지 암호화 암호화 메시지에 조직의 브랜드 추가
 
@@ -34,7 +34,7 @@ ms.locfileid: "49709500"
   
 - 소개 텍스트
 
-- 고지 조항 텍스트
+- 고지서 텍스트
 
 - 조직의 개인 정보 취급 방침 URL
 
@@ -46,7 +46,7 @@ ms.locfileid: "49709500"
 
 언제든지 기본 모양과 느낌으로 되돌릴 수 있습니다.
 
-더 많은 제어를 원할 경우 Office 365 고급 메시지 암호화를 사용하여 조직에서 시작된 암호화된 전자 메일에 대한 여러 템플릿을 만듭니다. 이러한 템플릿을 사용하여 최종 사용자 환경의 일부를 제어합니다. 예를 들어 받는 사람이 Google, Yahoo 및 Microsoft 계정을 사용하여 암호화 포털에 로그인할 수 있는지 여부를 지정합니다. 템플릿을 사용하여 다음의 여러 사용 사례를 처리합니다.
+더 많은 제어를 원할 경우 Office 365 고급 메시지 암호화를 사용하여 조직에서 시작된 암호화된 전자 메일에 대한 여러 템플릿을 만듭니다. 이러한 템플릿을 사용하여 최종 사용자 환경의 일부를 제어합니다. 예를 들어 받는 사람이 Google, Yahoo 및 Microsoft 계정을 사용하여 암호화 포털에 로그인할 수 있는지 여부를 지정합니다. 서식 파일을 사용하여 다음의 여러 사용 사례를 처리합니다.
 
 - 재무, 영업 등의 개별 부서
 
@@ -62,44 +62,44 @@ ms.locfileid: "49709500"
 
 ## <a name="work-with-ome-branding-templates"></a>OME 브랜랜드 템플릿 사용
 
-브랜드 템플릿 내에서 여러 기능을 수정할 수 있습니다. 기본 템플릿은 수정할 수 있지만 제거할 수 없습니다. 고급 메시지 암호화가 있는 경우 사용자 지정 템플릿을 만들고 수정하고 제거할 수도 있습니다. 이 Windows PowerShell 사용하여 한 번의 브랜드 템플릿으로 작업할 수 있습니다.
+브랜드 템플릿 내에서 여러 기능을 수정할 수 있습니다. 기본 템플릿은 수정할 수 있지만 제거할 수 없습니다. 고급 메시지 암호화가 있는 경우 사용자 지정 서식 파일을 만들고 수정하고 제거할 수도 있습니다. 브랜 Windows PowerShell 한 번씩 작업할 수 있습니다.
 
-- [Set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-omeconfiguration) - 만든 기본 브랜드 템플릿 또는 사용자 지정 브랜드 템플릿을 수정합니다.
-- [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) - 새 브랜드 템플릿인 고급 메시지 암호화만 만듭니다.
-- [Remove-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration) - 사용자 지정 브랜드 템플릿을 제거하고 고급 메시지 암호화만 제거합니다. 기본 브랜드 템플릿은 삭제할 수 없습니다.
+- [Set-OMEConfiguration](/powershell/module/exchange/set-omeconfiguration) - 만든 기본 브랜징 템플릿 또는 사용자 지정 브랜징 템플릿을 수정합니다.
+- [New-OMEConfiguration](/powershell/module/exchange/new-omeconfiguration) - 새 브랜드 템플릿인 고급 메시지 암호화만 만듭니다.
+- [Remove-OMEConfiguration](/powershell/module/exchange/remove-omeconfiguration) - 사용자 지정 브랜징 템플릿인 고급 메시지 암호화만 제거합니다. 기본 브랜드 템플릿은 삭제할 수 없습니다.
   
 ## <a name="modify-an-ome-branding-template"></a>OME 브랜랜드 템플릿 수정
 
-이 Windows PowerShell 사용하여 한 번씩 하나의 브랜디트 템플릿을 수정할 수 있습니다. 고급 메시지 암호화가 있는 경우 사용자 지정 템플릿을 만들고 수정하고 제거할 수도 있습니다.
+이 Windows PowerShell 사용하여 한 번씩 하나의 브랜디트 템플릿을 수정할 수 있습니다. 고급 메시지 암호화가 있는 경우 사용자 지정 서식 파일을 만들고 수정하고 제거할 수도 있습니다.
 
-1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
+1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
-2. [Set-OMEConfiguration에](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) 설명된 Set-OMEConfiguration cmdlet을 사용하거나 다음 그래픽 및 표를 사용하여 지침을 참조하세요.
+2. [Set-OMEConfiguration에](/powershell/module/exchange/Set-OMEConfiguration) 설명된 Set-OMEConfiguration cmdlet을 사용하거나 다음 그래픽 및 표를 사용하여 지침을 참조하세요.
 
 ![사용자 지정 가능한 전자 메일 파트](../media/ome-template-breakout.png)
 
 |**암호화 환경에서 사용자 지정하려는 기능**|**다음 명령 사용**|
 |:-----|:-----|
-|배경색|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "<#RRGGBB hexadecimal color code or name value>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "#ffffff"` <br/> 배경색에 대한 자세한 내용은 이 문서의 부분에 있는 [배경색](#background-color-reference) 섹션을 참조하십시오.|
-|로고|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <Byte[]>` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> 지원되는 파일 형식: .png, .jpg, .bmp 또는 .tiff  <br/> 로고 파일의 최적 크기: 40KB 미만  <br/> 최적의 로고 이미지 크기: 170x70 픽셀 이미지가 이러한 크기를 초과하면 서비스에서 포털에 표시하기 위해 로고 크기를 변경합니다. 서비스는 그래픽 파일 자체를 수정하지 않습니다. 최상의 결과를 얻기 위해 최적의 크기를 사용 합니다.|
+|배경색|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "<#RRGGBB hexadecimal color code or name value>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "#ffffff"` <br/> 배경색에 대한 자세한 내용은 이 문서 부분의 [배경색](#background-color-reference) 섹션을 참조하세요.|
+|로고|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <Byte[]>` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> 지원되는 파일 형식: .png, .jpg, .bmp 또는 .tiff  <br/> 로고 파일의 최적 크기: 40KB 미만  <br/> 로고 이미지의 최적 크기: 170x70 픽셀 이미지가 이러한 크기를 초과하면 서비스에서 포털에 표시하기 위해 로고 크기를 변경합니다. 서비스는 그래픽 파일 자체를 수정하지 않습니다. 최상의 결과를 얻기 위해 최적의 크기를 사용 합니다.|
 |보낸 사람 이름 및 전자 메일 주소 옆의 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -IntroductionText "<String up to 1024 characters>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."`|
 |"메시지 읽기" 단추에 나타나는 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -ReadButtonText "<String up to 1024 characters>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message."`|
 |"메시지 읽기" 단추 아래에 나타나는 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<String up to 1024 characters>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."`|
 |개인 정보 취급 방침 링크의 URL|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PrivacyStatementURL "<URL>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -PrivacyStatementURL "https://contoso.com/privacystatement.html"`|
 |암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -DisclaimerText "<Disclaimer statement. String of up to 1024 characters.>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -DisclaimerText "This message is confidential for the use of the addressee only."`|
 |암호화된 메일 보기 포털 위쪽에 표시되는 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<Text for your portal. String of up to 128 characters.>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal."`|
-|이 사용자 지정 서식 파일에서 일회성 코드로 인증을 사용하도록 설정하거나 사용하지 않도록 설정하려면|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -OTPEnabled <$true|$false>` <br/> **예제:** <br/>이 사용자 지정 템플릿에 일회용 암호를 사용하도록 설정하려면 <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true` <br/> 이 사용자 지정 서식 파일에서 일회용 암호를 사용하지 않도록 설정 <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false`|
-|이 사용자 지정 템플릿에 대해 Microsoft, Google 또는 Yahoo ID에 대한 인증을 사용하도록 설정하거나 사용하지 않도록 설정하려면|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -SocialIdSignIn <$true|$false>` <br/> **예제:** <br/>이 사용자 지정 서식 파일에서 공유 ID를 사용하도록 설정하려면 <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $true` <br/> 이 사용자 지정 서식 파일에서 공유 ID를 사용하지 않도록 설정 <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false`|
+|이 사용자 지정 서식 파일에서 일회용 암호로 인증을 사용하도록 설정하거나 사용하지 않도록 설정하려면|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -OTPEnabled <$true|$false>` <br/> **예제:** <br/>이 사용자 지정 서식 파일에서 일회용 암호를 사용하도록 설정하려면 <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true` <br/> 이 사용자 지정 서식 파일에서 일회용 암호를 사용하지 않도록 설정 <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false`|
+|이 사용자 지정 서식 파일에서 Microsoft, Google 또는 Yahoo ID로 인증을 사용하도록 설정하거나 사용하지 않도록 설정하려면|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -SocialIdSignIn <$true|$false>` <br/> **예제:** <br/>이 사용자 지정 서식 파일에서 공유 ID를 사용하도록 설정하려면 <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $true` <br/> 이 사용자 지정 서식 파일에서 공유 ID를 사용하지 않도록 설정 <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false`|
 
 ## <a name="create-an-ome-branding-template-advanced-message-encryption"></a>OME 브랜랜드 템플릿 만들기(고급 메시지 암호화)
 
-Office 365 고급 메시지 암호화가 있는 경우 [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) cmdlet을 사용하여 조직에 대한 사용자 지정 브랜드 템플릿을 만들 수 있습니다. 템플릿을 만든 후 OME 브랜랜드 템플릿 수정에 설명된 Set-OMEConfiguration cmdlet을 사용하여 [템플릿을 수정합니다.](#modify-an-ome-branding-template) 여러 서식 파일을 만들 수 있습니다.
+Office 365 고급 메시지 암호화가 있는 경우 [New-OMEConfiguration](/powershell/module/exchange/new-omeconfiguration) cmdlet을 사용하여 조직에 대한 사용자 지정 브랜징 템플릿을 만들 수 있습니다. 템플릿을 만든 후 Modify an OME branding template 에 설명된 Set-OMEConfiguration cmdlet을 사용하여 [템플릿을 수정합니다.](#modify-an-ome-branding-template) 여러 서식 파일을 만들 수 있습니다.
 
-새 사용자 지정 브랜랜드 템플릿을 만들 수 있습니다.
+새 사용자 지정 브랜징 템플릿을 만들 수 있습니다.
 
-1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
+1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
-2. [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) cmdlet을 사용하여 새 템플릿을 만듭니다.
+2. [New-OMEConfiguration](/powershell/module/exchange/new-omeconfiguration) cmdlet을 사용하여 새 템플릿을 만들 수 있습니다.
 
    ```powershell
    New-OMEConfiguration -Identity "<OMEConfigurationName>"
@@ -115,30 +115,30 @@ Office 365 고급 메시지 암호화가 있는 경우 [New-OMEConfiguration](ht
 
 브랜드 사용자 지정 등을 포함하여 기본 템플릿에서 모든 수정 내용을 제거하려면 다음 단계를 완료합니다.
   
-1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
+1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
-2. **Set-OMEConfiguration에** 설명된 바와 같이 [Set-OMEConfiguration cmdlet을 사용 합니다.](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) DisclaimerText, EmailText 및 PortalText 값에서 조직의 브랜드가 지정한 사용자 지정을 제거하려면 값을 빈 문자열로 `""` 설정하십시오. 로고와 같은 모든 이미지 값에 대해 값을  `"$null"` .로 설정
+2. **Set-OMEConfiguration 에** 설명된 바와 같이 [Set-OMEConfiguration cmdlet을 사용 합니다.](/powershell/module/exchange/Set-OMEConfiguration) DisclaimerText, EmailText 및 PortalText 값에서 조직의 브랜드 사용자 지정을 제거하려면 값을 빈 문자열인 로 `""` 설정하십시오. 로고와 같은 모든 이미지 값에 대해 값을 로  `"$null"` 설정합니다.
 
-   다음 표에서는 암호화 사용자 지정 옵션 기본값에 대해 설명하고 있습니다.
+   다음 표에는 암호화 사용자 지정 옵션 기본값이 설명되어 있습니다.
 
    **암호화 환경의 이 기능을 기본 텍스트 및 이미지로 되돌리려면**|**다음 명령 사용**|
    |:-----|:-----|
    |암호화된 전자 메일 메시지와 함께 제공된 기본 텍스트  <br/> 암호화된 메시지를 보기 위한 지침 위에 표시되는 기본 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<empty string>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
    |암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" DisclaimerText "<empty string>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""`|
-   |암호화된 메일 보기 포털 위쪽에 표시되는 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<empty string>"` <br/> **기본값으로 되돌리기 예:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""`|
-   |로고|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <"$null">` <br/> **기본값으로 되돌리기 예:** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
-   |배경색|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "$null">` <br/> **기본값으로 되돌리기 예:** <br/> `Set-OMEConfiguration -Identity "OME configuration" -BackgroundColor $null`|
+   |암호화된 메일 보기 포털 위쪽에 표시되는 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<empty string>"` <br/> **기본값으로 되돌리기 예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""`|
+   |로고|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <"$null">` <br/> **기본값으로 되돌리기 예제:** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
+   |배경색|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "$null">` <br/> **기본값으로 되돌리기 예제:** <br/> `Set-OMEConfiguration -Identity "OME configuration" -BackgroundColor $null`|
    |
 
-## <a name="remove-a-custom-branding-template-advanced-message-encryption"></a>사용자 지정 브랜드 템플릿 제거(고급 메시지 암호화)
+## <a name="remove-a-custom-branding-template-advanced-message-encryption"></a>사용자 지정 브랜징 템플릿 제거(고급 메시지 암호화)
 
-만든 브랜랜드 템플릿만 제거하거나 삭제할 수 있습니다. 기본 브랜드 템플릿은 제거할 수 없습니다.
+만든 브랜디드 템플릿만 제거하거나 삭제할 수 있습니다. 기본 브랜드 템플릿은 제거할 수 없습니다.
 
-사용자 지정 브랜드 템플릿을 제거하려면
+사용자 지정 브랜징 서식 파일을 제거하려면
   
-1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
+1. 조직에서 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 Windows PowerShell 세션을 시작하고 Exchange Online에 연결합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
-2. **Remove-OMEConfiguration** cmdlet을 다음과 같이 사용 합니다.
+2. **Remove-OMEConfiguration** cmdlet은 다음과 같이 사용할 수 있습니다.
 
    ```powershell
    Remove-OMEConfiguration -Identity ""<OMEConfigurationName>"
@@ -150,45 +150,45 @@ Office 365 고급 메시지 암호화가 있는 경우 [New-OMEConfiguration](ht
    Remove-OMEConfiguration -Identity "Branding template 1"
    ```
 
-   자세한 내용은 [Remove-OMEConfiguration을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration)
+   자세한 내용은 [Remove-OMEConfiguration을 참조하십시오.](/powershell/module/exchange/remove-omeconfiguration)
 
 ## <a name="create-an-exchange-mail-flow-rule-that-applies-your-custom-branding-to-encrypted-emails"></a>암호화된 전자 메일에 사용자 지정 브랜드를 적용하는 Exchange 메일 흐름 규칙 만들기
 
-기본 템플릿을 수정하거나 새 브랜드 템플릿을 만든 후 Exchange 메일 흐름 규칙을 만들어 특정 조건에 따라 사용자 지정 브랜드를 적용할 수 있습니다. 이러한 규칙은 다음과 같은 시나리오에서 사용자 지정 브랜랜드를 적용합니다.
+기본 템플릿을 수정하거나 새 브랜징 템플릿을 만든 후 Exchange 메일 흐름 규칙을 만들어 특정 조건에 따라 사용자 지정 브랜드를 적용할 수 있습니다. 이러한 규칙은 다음과 같은 시나리오에서 사용자 지정 브랜드를 적용합니다.
 
-- Outlook 또는 웹용 Outlook을 사용하여 최종 사용자가 전자 메일을 수동으로 암호화한 경우 이전의 전자 메일은 Outlook Web App
+- Outlook 또는 웹용 Outlook을 사용하여 최종 사용자가 전자 메일을 수동으로 암호화한 경우 이전의 Outlook Web App
 
 - 전자 메일이 Exchange 메일 흐름 규칙 또는 데이터 손실 방지 정책에 의해 자동으로 암호화된 경우
 
-암호화를 적용하는 Exchange 메일 흐름 규칙을 만드는 방법에 대한 자세한 내용은 [Office 365에서](define-mail-flow-rules-to-encrypt-email.md)전자 메일 메시지를 암호화하는 메일 흐름 규칙 정의를 참조하십시오.
+암호화를 적용하는 Exchange 메일 흐름 규칙을 만드는 방법에 대한 자세한 내용은 [Define mail flow rules to encrypt email messages in Office 365를 참조하세요.](define-mail-flow-rules-to-encrypt-email.md)
 
 1. 웹 브라우저에서 전역 관리자 권한이 부여된 직장 또는 학교 계정을 사용하여 [Office 365에 로그인합니다.](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser)
 
 2. 관리 **타일을** 선택하세요.
 
-3. Microsoft 365 관리 센터에서 **관리 센터** \> **Exchange를 선택 합니다.**
+3. Microsoft 365 관리 센터에서 관리 센터 Exchange **를** \> **선택 합니다.**
 
-4. EAC에서 메일 흐름 **규칙으로** 이동하고 새 새로 만들기 \>   ![ ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **아이콘을 선택합니다.** EAC 사용에 대한 자세한 내용은 [Exchange Online의 Exchange 관리 센터를 참조하세요.](https://docs.microsoft.com/exchange/exchange-admin-center)
+4. EAC에서 메일 흐름 **규칙으로** 이동하고 새 새로 만들기 아이콘 새 규칙 \>   ![ 만들기 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **를 선택합니다.** EAC 사용에 대한 자세한 내용은 [Exchange Online의 Exchange 관리 센터를 참조하세요.](/exchange/exchange-admin-center)
 
-5. **이름에** 영업 부서의 브랜드와 같은 규칙의 이름을 입력합니다.
+5. **이름에** 규칙의 이름(예: 영업 부서의 브랜드)을 입력합니다.
 
-6. 이 **규칙 적용에서** 보낸  사람이 조직 내부에 있는 조건 및 사용 가능한 조건 목록에서 원하는 기타 조건을 선택합니다. 예를 들어 다음에 특정 브랜드 템플릿을 적용할 수 있습니다.
+6. 다음의 **경우** 이 규칙  적용에서 보낸 사람이 조직 내부에 있는 조건 및 사용 가능한 조건 목록에서 원하는 기타 조건을 선택합니다. 예를 들어 다음에 특정 브랜드 템플릿을 적용할 수 있습니다.
 
    - 재무 부서의 구성원이 보낸 모든 암호화된 전자 메일
    - "외부" 또는 "파트너"와 같은 특정 키워드를 사용하여 전송된 암호화된 전자 메일
    - 특정 도메인으로 전송된 암호화된 전자 메일
 
-7. 다음 **작업에서** 메시지  보안 수정을 선택하여 OME 메시지에 사용자 지정 \> **브랜드 적용을 선택합니다.** 그런 다음 드롭다운에서 브랜드 템플릿을 선택합니다.
+7. 다음 **작업에서** 메시지 보안 수정 **OME** 메시지에 사용자 지정 \> **브랜드 적용 을 선택합니다.** 그런 다음 드롭다운에서 브랜드 템플릿을 선택합니다.
 
-8. (선택 사항) 암호화 및 사용자 지정 브랜드를 적용하도록 메일 흐름 규칙을 구성할 수 있습니다. 다음 **작업에서** 메시지 보안 수정을 선택한 다음 **Office 365** 메시지 암호화 및 권한 보호 적용을 선택합니다. 목록에서 RMS 템플릿을 선택하고 저장을 선택한 다음 확인을 **선택합니다.**
+8. (선택 사항) 암호화 및 사용자 지정 브랜드를 적용하도록 메일 흐름 규칙을 구성할 수 있습니다. 다음 **작업에서** **메시지** 보안 수정을 선택한 다음 **Office 365** 메시지 암호화 및 권한 보호 적용을 선택합니다. 목록에서 RMS 템플릿을 선택하고 **저장을** 선택한 다음 확인 을 **선택합니다.**
   
-   템플릿 목록에는 기본 서식 파일 및 옵션과 만든 모든 사용자 지정 템플릿이 포함됩니다. 목록이 비어 있는 경우 새 기능을 사용하여 Office 365 메시지 암호화를 설정해야 합니다. 자세한 내용은 새 Office 365 메시지 암호화 기능 [설정을 참조하세요.](set-up-new-message-encryption-capabilities.md) 기본 템플릿에 대한 자세한 내용은 Azure Information Protection용 템플릿 구성 [및 관리를 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates) 전달 금지  옵션에 대한 자세한 내용은 전자 메일에 대한 전달 금지 [옵션을 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) 암호화 전용 옵션에 대한 **자세한** 내용은 전자 메일에 대한 암호화 [전용 옵션을 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
+   템플릿 목록에는 기본 서식 파일 및 옵션과 만든 모든 사용자 지정 템플릿이 포함됩니다. 목록이 비어 있는 경우 새 기능을 사용하여 Office 365 메시지 암호화를 설정해야 합니다. 자세한 내용은 [Set up new Office 365 Message Encryption capabilities을 참조하십시오.](set-up-new-message-encryption-capabilities.md) 기본 템플릿에 대한 자세한 내용은 Azure Information Protection용 템플릿 구성 및 [관리를 참조하세요.](/information-protection/deploy-use/configure-policy-templates) 전달 금지 **옵션에** 대한 자세한 내용은 전자 메일에 [대해 전달 금지 옵션을 참조하세요.](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) 암호화 전용 **옵션에** 대한 자세한 내용은 전자 메일에 대한 [암호화 전용 옵션을 참조하세요.](/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
 
-   다른 **작업을 지정하려는** 경우 추가 작업을 선택 합니다.
+   다른 **작업을 지정하려는** 경우 작업 추가를 선택 합니다.
 
 ## <a name="background-color-reference"></a>배경색 참조
 
-배경색에 사용할 수 있는 색 이름은 제한됩니다. 색 이름 대신 16진수 코드 값(16진수)을 사용할 #RRGGBB. 색 이름에 해당하는 16진수 코드 값을 사용할 수도, 사용자 지정 16진수 코드 값을 사용할 수도 있습니다. 16진수 코드 값을 인용 부호(예: 16진수)로 `"#f0f8ff"` 묶습니다.
+배경색에 사용할 수 있는 색 이름은 제한됩니다. 색 이름 대신 16진수 코드 값(16진수)을 사용할 #RRGGBB. 색 이름에 해당하는 16진수 코드 값을 사용할 수도, 사용자 지정 16진수 코드 값을 사용할 수도 있습니다. 16진수 코드 값을 인용 부호(예: )로 `"#f0f8ff"` 묶습니다.
 
 사용 가능한 배경색 이름과 해당 16진수 코드 값은 다음 표에 설명되어 있습니다.
 

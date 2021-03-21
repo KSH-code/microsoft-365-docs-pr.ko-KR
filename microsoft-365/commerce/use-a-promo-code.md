@@ -23,29 +23,29 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: fce1510d-9ea5-4aff-8752-1676ec7fede3
-description: Microsoft 365 구독에 홍보 코드를 적용하여 가격을 인하하는 방법과 오류 발생 시 홍보 코드 문제를 해결하는 방법에 대해 자세히 알아보고 있습니다.
-ms.openlocfilehash: 09f39b6f82153c6b23525ab41cfb94e77437d062
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Microsoft 365 구독에 홍보 코드를 적용하여 가격을 인하하는 방법과 오류 발생 시 홍보 코드 문제를 해결하는 방법을 배워야 합니다.
+ms.openlocfilehash: c526d5fd44db5e653f79c4987a35c72cdd6fdcad
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646742"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921759"
 ---
 # <a name="use-your-promo-code-to-reduce-price"></a>프로모션 코드를 사용하여 가격 인하
 
-구독을 구매할 때 홍보 코드를 사용하여 가격을 인하할 수 있습니다. 이 문서를 읽고 구독에 프로모션 코드를 적용하고, 프로모션 코드 [](#promo-code-terms)용어에 대해 알아보고, 프로모션 코드 문제 해결에 대해 [알아보는 방법을 읽어보는 것이 좋습니다.](#troubleshooting-promo-codes)
+구독을 구매할 때 홍보 코드를 사용하여 가격을 할인할 수 있습니다. 이 문서를 통해 구독에 프로모션 코드를 적용하고, 프로모션 코드 [](#promo-code-terms)용어에 대해 알아보고, 프로모션 코드 문제 해결을 [읽어보는 방법을 읽어보는 것이 좋습니다.](#troubleshooting-promo-codes)
   
 ## <a name="apply-a-promo-code-to-your-subscription"></a>구독에 홍보 코드 적용
 
-1. 새 구독을 구매하거나 기존 구독에 서비스를 추가하여 구매를 시작하세요.
+1. 새 구독을 구입하거나 기존 구독에 서비스를 추가하여 구매를 시작하세요.
     
-2. When you check out, choose **Have a promo or discount code?, and then enter your code in the box. 
+2. 체크 아웃할 때 **프로모션 또는 할인 코드가 있나요?를 선택한 다음 상자에 코드를 입력합니다. 
   
 3. 프로모션 **코드 적용을 선택합니다.** 성공적으로 적용되었다는 확인 메시지가 표시됩니다. 다른 메시지가 표시되는 경우 [홍보 코드 문제 해결](#troubleshooting-promo-codes)을 참조하여 이유를 확인합니다. 
     
-4. 체크 아웃을 계속합니다. 주문 확인 페이지에서 금액에 포함된 할인 코드가 표시됩니다. 
+4. 체크 아웃을 계속합니다. 주문 확인 페이지에 금액에 포함된 할인 코드가 표시됩니다. 
     
-구입을 완료한 후 언제든지 청구서에서 홍보 코드로 인한 할인을 확인할 수 있습니다. 자세한 내용은 [보기를 참조합니다.](billing-and-payments/view-your-bill-or-invoice.md)
+구입을 완료한 후 언제든지 청구서에서 홍보 코드로 인한 할인을 확인할 수 있습니다. 자세한 내용은 을(를) [참조합니다.](billing-and-payments/view-your-bill-or-invoice.md)
   
 ## <a name="promo-code-terms"></a>홍보 코드 조건
 
@@ -73,8 +73,8 @@ ms.locfileid: "48646742"
   
 ## <a name="related-articles"></a>관련 문서
 
-[무료 평가판에서 구독 구입](buy-a-subscription-from-your-free-trial.md)
+[무료 평가판에서 구독 구입](./try-or-buy-microsoft-365.md)
   
-[다른 구독 구입](buy-another-subscription.md)
+[다른 구독 구입](./try-or-buy-microsoft-365.md)
   
 [추가 기능 구입 또는 편집](buy-or-edit-an-add-on.md)

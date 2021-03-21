@@ -14,14 +14,14 @@ ms.collection:
 - m365initiative-viva-topics
 ms.service: ''
 localization_priority: Normal
-ms.openlocfilehash: ac8e4b8cdcdfd4d2de0c48a22500338c7a8480a8
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 34c6551dd3a40852368b40d960bf921c52f46372
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454174"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921519"
 ---
-# <a name="edit-an-existing-topic"></a>기존 항목 편집 
+# <a name="edit-an-existing-topic"></a>기존 토픽 편집. 
 
 </br>
 
@@ -38,7 +38,7 @@ Viva 항목에서는 기존 항목을 편집할 수 있습니다. 기존 항목 
 
 기존 항목을 편집하려면 다음을 해야 합니다.
 - Viva 항목 라이선스가 있습니다.
-- 항목을 만들거나 편집할 수 [**있는 사용자에 대한 사용 권한이 있습니다.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) 지식 관리자는 Viva 항목의 사용 권한 설정에서 사용자에게 이 권한을 부여할 수 있습니다. 
+- 항목을 만들거나 편집할 수 [**있는 사용자에 대한 사용 권한이 있습니다.**](./topic-experiences-user-permissions.md) 지식 관리자는 Viva 항목의 사용 권한 설정에서 사용자에게 이 권한을 부여할 수 있습니다. 
 
 > [!Note] 
 > 항목 센터에서 항목을 관리할 수 있는 권한이 있는 사용자(기술 관리자)에게는 이미 항목을 만들고 편집할 수 있는 권한이 있습니다.
@@ -130,13 +130,6 @@ Viva 항목에서는 기존 항목을 편집할 수 있습니다. 기존 항목 
 
 
 ## <a name="see-also"></a>참고 항목
-
-
-
-  
-
-
-
 
 
 

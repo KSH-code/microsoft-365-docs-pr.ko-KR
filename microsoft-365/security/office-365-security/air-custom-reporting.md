@@ -15,35 +15,35 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: 자동화된 조사 및 대응을 사용자 지정 또는 타사 보고 솔루션과 통합하는 방법을 알아보십시오.
+description: 자동화된 조사 및 응답을 사용자 지정 또는 타사 보고 솔루션과 통합하는 방법을 알아보십시오.
 ms.date: 01/29/2021
 ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 13782a8e0a8c691a66f214d3f9f03ef9cad4da1f
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 9f62d73417cc4d7ecaa113ae1c304630ef1852eb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287140"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921435"
 ---
 # <a name="custom-or-third-party-reporting-solutions-for-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender에 대한 사용자 지정 또는 타사 보고 솔루션
 
-[Office 365용 Microsoft Defender를](office-365-atp.md)사용하면 자동화된 조사에 대한 자세한 [정보를 얻을 수 있습니다.](air-view-investigation-results.md) 그러나 일부 조직에서는 사용자 지정 또는 타사 보고 솔루션도 사용하게 됩니다. 조직에서 자동화된 조사에 [](office-365-air.md) 대한 정보를 이러한 솔루션과 통합하려는 경우 Office 365 관리 활동 API를 사용할 수 있습니다.
+[Microsoft Defender for Office 365를](office-365-atp.md)사용하면 자동화된 조사에 대한 자세한 [정보를 얻을 수 있습니다.](air-view-investigation-results.md) 그러나 일부 조직에서는 사용자 지정 또는 타사 보고 솔루션도 사용하게 됩니다. 조직에서 자동화된 조사에 [](office-365-air.md) 대한 정보를 이러한 솔루션과 통합하려는 경우 Office 365 관리 활동 API를 사용할 수 있습니다.
 
 **적용 대상**
 - [Office 365용 Microsoft Defender 플랜 2](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-[Office 365용 Microsoft Defender를](office-365-atp.md)사용하면 자동화된 조사에 대한 자세한 [정보를 얻을 수 있습니다.](air-view-investigation-results.md) 그러나 일부 조직에서는 사용자 지정 또는 타사 보고 솔루션도 사용하게 됩니다. 조직에서 자동화된 조사에 대한 정보를 이러한 솔루션과 통합하려는 경우 Office 365 관리 활동 API를 사용할 수 있습니다.
+[Microsoft Defender for Office 365를](office-365-atp.md)사용하면 자동화된 조사에 대한 자세한 [정보를 얻을 수 있습니다.](air-view-investigation-results.md) 그러나 일부 조직에서는 사용자 지정 또는 타사 보고 솔루션도 사용하게 됩니다. 조직에서 자동화된 조사에 대한 정보를 이러한 솔루션과 통합하려는 경우 Office 365 관리 활동 API를 사용할 수 있습니다.
 
 |리소스|설명|
 |:---|:---|
-|[Office 365 관리 API 개요](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview)|Office 365 관리 활동 API는 Microsoft 365 및 Azure Active Directory 활동 로그의 다양한 사용자, 관리자, 시스템 및 정책 작업 및 이벤트에 대한 정보를 제공합니다.|
-|[Office 365 관리 API 시작](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)|Office 365 관리 API는 Azure AD를 사용하여 응용 프로그램에서 Microsoft 365 데이터에 액세스할 수 있는 인증 서비스를 제공합니다. 이 문서의 단계에 따라 이 단계를 설정하세요.|
-|[Office 365 관리 작업 API 참고자료](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)|Office 365 관리 활동 API를 사용하여 Microsoft 365 및 Azure AD 활동 로그에서 사용자, 관리자, 시스템 및 정책 작업 및 이벤트에 대한 정보를 검색할 수 있습니다. 이 문서의 작동 방식에 대해 자세히 알아보고자 합니다.|
-|[Office 365 관리 작업 API 스키마](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema)|Office 365용 [Common schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#common-schema) 및 [Defender for Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) 및 위협 조사 및 응답 계획에 대한 개요를 확인하여 Office 365 관리 활동 API를 통해 사용할 수 있는 특정 종류의 데이터에 대해 자세히 알아보습니다.|
+|[Office 365 관리 API 개요](/office/office-365-management-api/office-365-management-apis-overview)|Office 365 관리 활동 API는 Microsoft 365 및 Azure Active Directory 활동 로그의 다양한 사용자, 관리자, 시스템 및 정책 작업 및 이벤트에 대한 정보를 제공합니다.|
+|[Office 365 관리 API 시작](/office/office-365-management-api/get-started-with-office-365-management-apis)|Office 365 관리 API는 Azure AD를 사용하여 응용 프로그램이 Microsoft 365 데이터에 액세스하는 데 사용할 인증 서비스를 제공합니다. 이 문서의 단계에 따라 이 단계를 설정하세요.|
+|[Office 365 관리 작업 API 참고자료](/office/office-365-management-api/office-365-management-activity-api-reference)|Office 365 관리 활동 API를 사용하여 Microsoft 365 및 Azure AD 활동 로그에서 사용자, 관리자, 시스템 및 정책 작업 및 이벤트에 대한 정보를 검색할 수 있습니다. 이 문서의 작동 방식에 대해 자세히 알아보면 이 문서를 읽어 보아야 합니다.|
+|[Office 365 관리 작업 API 스키마](/office/office-365-management-api/office-365-management-activity-api-schema)|Common [schema](/office/office-365-management-api/office-365-management-activity-api-schema#common-schema) and the [Defender for Office 365 및 Threat investigation and response schema의](/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) 개요를 확인하여 Office 365 관리 활동 API를 통해 사용할 수 있는 특정 종류의 데이터에 대해 자세히 알아보습니다.|
 |
 
 ## <a name="see-also"></a>참고 항목

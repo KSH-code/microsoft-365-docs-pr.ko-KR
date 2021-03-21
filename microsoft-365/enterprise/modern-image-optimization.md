@@ -21,12 +21,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: SharePoint Online에 포함된 도구를 사용하여 SharePoint Online 최신 사이트 페이지에서 이미지를 최적화하는 방법을 학습합니다.
-ms.openlocfilehash: 09122dfd0bc832cf9a09cfb05bf0540e323797d9
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: a4f2def86e1378a9fb76ae9ecbe6a55da75ecffc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692780"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923019"
 ---
 # <a name="optimize-images-in-sharepoint-online-modern-site-pages"></a>SharePoint Online 최신 사이트 페이지에서 이미지 최적화
 
@@ -35,7 +35,7 @@ ms.locfileid: "46692780"
 클래식 게시 사이트에서 이미지 최적화에 대한 자세한 내용은 [SharePoint Online용 이미지 최적화](image-optimization-for-sharepoint-online.md)를 참조하세요.
 
 >[!NOTE]
->SharePoint Online 최신 포털의 성능에 대한 자세한 내용은 [최신 SharePoint 환경의 성능](https://docs.microsoft.com/sharepoint/modern-experience-performance)을 참조하세요.
+>SharePoint Online 최신 포털의 성능에 대한 자세한 내용은 [최신 SharePoint 환경의 성능](/sharepoint/modern-experience-performance)을 참조하세요.
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-image-optimization"></a>SharePoint용 페이지 진단 도구를 사용한 이미지 최적화 분석
 
@@ -72,7 +72,7 @@ SharePoint용 페이지 진단 도구를 사용하여 SharePoint 최신 사이�
 
 [Office 365 성능 조정](tune-microsoft-365-performance.md)
 
-[최신 SharePoint 환경의 성능](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[최신 SharePoint 환경의 성능](/sharepoint/modern-experience-performance)
 
 [콘텐츠 배달 네트워크](content-delivery-networks.md)
 

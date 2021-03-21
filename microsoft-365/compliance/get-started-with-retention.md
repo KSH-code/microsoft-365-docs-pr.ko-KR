@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 관리하도록 보존 정책 및 보존 레이블 구현을 시작할 준비가 되었지만, 어디서부터 시작해야 할지 모르겠나요? 시작을 도와주는 실질적인 지침을 읽어 보세요.
-ms.openlocfilehash: bb73f0871bfc2ad707d31ef6d4d57e18218842a5
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 27f361ba98cdaecb5b7788283c8d4244583ee82c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406518"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922622"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 시작하기
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
 보관해야 할 콘텐츠를 보존하고 보관할 필요 없는 콘텐츠를 삭제하여 조직의 데이터 관리를 시작할 준비가 되었나요? 시작하려면 다음과 같은 개괄적인 지침을 사용하세요.
 
@@ -48,7 +48,7 @@ ms.locfileid: "50406518"
 
 다양한 구독이 보존 정책 및 보존 레이블을 지원하며 사용자에 대한 라이선스 요구 사항은 사용하는 기능에 따라 다릅니다.
 
-사용자에게 Microsoft 365 규정 준수 기능을 사용하도록 라이선스를 부여하는 옵션을 보려면 [보안 및 규정 준수에 대한 Microsoft 365 라이선스 지침](https://aka.ms/ComplianceSD)을 참조하세요. 보존에 대한 자세한 내용은 기능 수준 라이선스 요구 사항에 대한 [정보 거버넌스](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) 섹션 및 관련 PDF 또는 Excel 다운로드를 참조하세요.
+사용자에게 Microsoft 365 규정 준수 기능을 사용하도록 라이선스를 부여하는 옵션을 보려면 [보안 및 규정 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참조하세요. 보존에 대한 자세한 내용은 기능 수준 라이선스 요구 사항에 대한 [정보 거버넌스](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) 섹션 및 관련 PDF 또는 Excel 다운로드를 참조하세요.
 
 ## <a name="permissions-required-to-create-and-manage-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블을 만들고 관리하는 데 필요한 권한
 
@@ -56,9 +56,9 @@ ms.locfileid: "50406518"
 
 이 기본 역할을 사용하는 대신 새 역할 그룹을 생성하고 **보존 관리** 역할을 이 그룹에 추가할 수 있습니다. 읽기 전용 역할의 경우 **읽기 전용 보존 관리** 를 사용하세요. 
 
-해당 역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center#roles-in-the-security--compliance-center)을 참조하세요.
+해당 역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center)을 참조하세요.
 
-사용자에게 역할 그룹을 추가하고 역할을 할당하는 방법에 대한 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요.
+사용자에게 역할 그룹을 추가하고 역할을 할당하는 방법에 대한 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
 
 해당 권한은 보존 정책 및 보존 레이블을 만들고 구성하고 적용하는 경우에만 필요합니다. 해당 정책 및 레이블을 구성하는 사용자는 콘텐츠에 대한 액세스 권한이 필요하지 않습니다.
 

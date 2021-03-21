@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: 이 문서에서는 위성 위치를 추가하고 Microsoft 365 Multi-Geo용 테넌트를 구성하는 방법을 알아봅니다.
-ms.openlocfilehash: fb907c02a4714c5a2d8e47245321252e7186a8a7
-ms.sourcegitcommit: f3059a0065496623e36e5a084cd2291e6b844597
+ms.openlocfilehash: 9176c66e8d0aa7e893ef137131147f8e0c85d3ac
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50040571"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923651"
 ---
 # <a name="microsoft-365-multi-geo-tenant-configuration"></a>Microsoft 365 Multi-Geo 테넌트 구성
 
@@ -93,7 +93,7 @@ Azure Active Directory(Azure AD)에는 두 가지 유형의 사용자 개체(클
 
 1.  테넌트에 대한 전역 관리자 자격 증명으로 [연결 및 로그인](/powershell/connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-2.  [Set-MsolUser](https://docs.microsoft.com/powershell/msonline/v1/set-msoluser) cmdlet을 사용하여 각 사용자에 대한 기본 설정 데이터 위치를 지정합니다. 예를 들면 다음과 같습니다.
+2.  [Set-MsolUser](/powershell/msonline/v1/set-msoluser) cmdlet을 사용하여 각 사용자에 대한 기본 설정 데이터 위치를 지정합니다. 예를 들면 다음과 같습니다.
 
     `Set-MsolUser -userprincipalName Robyn.Buckley@Contoso.com -PreferredDatalocation EUR`
 
@@ -113,7 +113,7 @@ Azure Active Directory(Azure AD)에는 두 가지 유형의 사용자 개체(클
 사용자가 이미 테넌트에 OneDrive 사이트를 만든 경우 PDL을 설정해도 기존 OneDrive가 자동으로 이동하지 않습니다. 사용자의 OneDrive를 이동하는 경우 [비즈니스용 OneDrive 지리적 이동을 참조합니다.](move-onedrive-between-geo-locations.md)
 
 > [!NOTE]
-> PLD가 변경되고 MailboxRegion이 사서함 데이터베이스 지리적 위치 코드와 더 이상 일치하지 경우 Exchange Online은 사용자의 사서함을 자동으로 재배치합니다. 자세한 내용은 다중 위치 환경에서 Exchange Online 사서함 [관리를 참조하십시오.](https://docs.microsoft.com/microsoft-365/enterprise/administering-exchange-online-multi-geo)
+> PLD가 변경되고 MailboxRegion이 사서함 데이터베이스 지리적 위치 코드와 더 이상 일치하지 경우 Exchange Online은 사용자 사서함의 위치를 자동으로 다시 지정합니다. 자세한 내용은 [Administering Exchange Online mailboxes in a multi-geo environment를 참조하십시오.](./administering-exchange-online-multi-geo.md)
 
 테넌트 내에 OneDrive 사이트가 없으면 해당 사용자의 PDL가 회사의 위성 위치 중 하나와 일치한다고 가정할 경우 해당 PDL 값에 따라 OneDrive가 프로비전됩니다.
 

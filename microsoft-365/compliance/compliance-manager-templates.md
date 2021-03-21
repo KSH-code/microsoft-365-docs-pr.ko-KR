@@ -14,19 +14,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하기 위해 템플릿을 사용 및 관리하는 방법을 이해합니다. 서식 있는 Excel 파일을 사용하여 서식 파일을 만들고 수정합니다.
-ms.openlocfilehash: 9f76ff6202ff9ad4a876c57209748dd7c98877b4
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 2d95aa4172d80a81e8c635edb01ab56579513c53
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405832"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922788"
 ---
 # <a name="working-with-assessment-templates-in-compliance-manager"></a>준수 관리자에서 평가 템플릿 작업
 
 **이 문서의 예는** 템플릿의 작동 **방식과** 평가 템플릿 페이지에서 템플릿을 **관리하는** 방법을 이해합니다. 새 서식 **파일을** **만들고,** 기존 서식 파일을 수정하고, **Excel을** 사용하여 서식 파일 데이터 서식을 지정하고, 서식 파일 보고서를 내보내는 방법에 대한 지침을 **얻습니다.**
 
 > [!IMPORTANT]
-> 조직에서 사용할 수 있는 평가 템플릿은 사용권 계약에 따라 다를 수 있습니다. [세부 정보를 검토합니다.](https://go.microsoft.com/fwlink/?linkid=2132371)
+> 조직에서 사용할 수 있는 평가 템플릿은 사용권 계약에 따라 다를 수 있습니다. [세부 정보를 검토합니다.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="templates-overview"></a>서식 파일 개요
 
@@ -38,7 +38,7 @@ ms.locfileid: "50405832"
 
 #### <a name="included-and-premium-templates"></a>포함 및 고급 서식 파일
 
-사용할 수 있는 템플릿은 조직의 라이선스 계약(라이선스 세부 정보 보기)을[기반으로 합니다.](https://go.microsoft.com/fwlink/?linkid=2132371) 템플릿에는 포함 및 프리미엄의 두 가지 범주가 있습니다.
+사용할 수 있는 템플릿은 조직의 라이선스 계약(라이선스 세부 정보 보기)을[기반으로 합니다.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) 템플릿에는 포함 및 프리미엄의 두 가지 범주가 있습니다.
 
 1. **포함된 서식** 파일은 조직의 라이선스 계약의 일부로 사용할 수 있습니다.
 2. **프리미엄 템플릿을** 구매하여 평가를 만들어야 합니다. 구매한 후 템플릿에서 필요한 수만큼 평가를 만들 수 있습니다.
@@ -60,7 +60,7 @@ ms.locfileid: "50405832"
 
 카운터에 5/2가 표시되면 이는 조직이 제한을 초과하고 사용 중이 있는 프리미엄 템플릿 3개를 구입해야 하다는 것을 나타냅니다.
 
-자세한 [내용은 준수 관리자 라이선스](https://go.microsoft.com/fwlink/?linkid=2132371) 지침을 참조하세요.
+자세한 [내용은 준수 관리자 라이선스](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) 지침을 참조하세요.
 
 ## <a name="viewing-and-managing-templates-from-the-assessment-templates-page"></a>평가 템플릿 페이지에서 템플릿 보기 및 관리
 

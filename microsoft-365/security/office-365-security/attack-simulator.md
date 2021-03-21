@@ -20,12 +20,12 @@ ms.custom:
 description: 관리자는 공격 시뮬레이터를 사용하여 Microsoft 365 E5 또는 Microsoft Defender for Office 365 계획 2 조직에서 시뮬레이션된 피싱 및 암호 공격을 실행하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7c88a5df6fae61e1ffe70214ad4a73deef4b380e
-ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
+ms.openlocfilehash: 105ca66cdfacaab3b73d8bf89c3a05207b673a3c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50717617"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921363"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 공격 시뮬레이터
 
@@ -45,7 +45,7 @@ ms.locfileid: "50717617"
 
 - 보안 및 준수 센터를 열려면 <https://protection.office.com/>로 이동하세요. 공격 시뮬레이터는 **위협** 관리 공격 \> **시뮬레이터에서 사용할 수 있습니다.** 공격 시뮬레이터로 직접 이동하여 를 를 <https://protection.office.com/attacksimulator> 습니다.
 
-- 여러 Microsoft 365 구독의 공격 시뮬레이터 가용성에 대한 자세한 내용은 [Microsoft Defender for Office 365 서비스 설명을 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+- 여러 Microsoft 365 구독의 공격 시뮬레이터 가용성에 대한 자세한 내용은 [Microsoft Defender for Office 365 서비스 설명을 참조하세요.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
 - 조직 관리 또는 보안 관리자 역할 **그룹의** **구성원이면** 됩니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
@@ -55,7 +55,7 @@ ms.locfileid: "50717617"
 
 - 피싱 캠페인은 30일 동안 이벤트를 수집하고 처리합니다. 이전 캠페인 데이터는 캠페인을 시작한 후 최대 90일 동안 사용할 수 있습니다.
 
-- 공격 시뮬레이션 및 교육 관련 데이터는 Microsoft 365 서비스의 다른 고객 데이터와 함께 저장됩니다. 자세한 내용은 [Microsoft 365 데이터 위치를 참조하세요.](/microsoft-365/enterprise/o365-data-locations)
+- 공격 시뮬레이션 및 교육 관련 데이터는 Microsoft 365 서비스의 다른 고객 데이터와 함께 저장됩니다. 자세한 내용은 [Microsoft 365 데이터 위치를 참조하세요.](../../enterprise/o365-data-locations.md)
 
 - 공격 시뮬레이터에 해당하는 PowerShell cmdlet은 없습니다.
 

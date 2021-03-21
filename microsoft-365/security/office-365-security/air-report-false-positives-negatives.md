@@ -22,12 +22,12 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 8a91a55d9598b5e780474315ddf1f7019e593fed
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 755be1dde256bc612ba85e1b1af485cfaacf7da9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406165"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921867"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>자동화된 조사 및 응답 기능에서 가짓 긍정/부정을 보고하는 방법
 
@@ -53,9 +53,9 @@ Office 365용 Microsoft Defender에서 전자 메일 메시지, 전자 메일 �
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>가식이 재발하지 않도록 경고 조정
 
-합법적인 사용으로 경고가 트리거되거나 경고가 부정확한 경우 Cloud App Security 포털에서 경고를 [관리할 수 있습니다.](https://docs.microsoft.com/cloud-app-security/managing-alerts)
+합법적인 사용으로 경고가 트리거되거나 경고가 부정확한 경우 Cloud App Security 포털에서 경고를 [관리할 수 있습니다.](/cloud-app-security/managing-alerts)
 
-조직에서 Office 365 외에 [끝점용 Microsoft Defender를](https://docs.microsoft.com/windows/security/threat-protection) 사용하고 파일, IP 주소, URL 또는 도메인이 안전한 경우에도 장치에서 맬웨어로 처리되는 경우 장치에 [대해 "허용"](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators)작업이 있는 사용자 지정 표시기를 만들 수 있습니다.
+조직에서 Office 365 외에 [끝점용 Microsoft Defender를](/windows/security/threat-protection) 사용하고 파일, IP 주소, URL 또는 도메인이 안전한 경우에도 장치에서 맬웨어로 처리되는 경우 장치에 [대해 "허용"](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators)작업이 있는 사용자 지정 표시기를 만들 수 있습니다.
 
 ## <a name="undo-a-remediation-action"></a>수정 작업 실행 취소
 
@@ -68,7 +68,7 @@ Office 365용 Microsoft Defender에서 전자 메일 메시지, 전자 메일 �
 
 위협 탐색기를 사용하여 보안 운영 팀은 작업의 영향을 받는 전자 메일을 찾아 작업을 실행 취소할 수 있습니다.
 
-|시나리오|옵션 취소|자세히 알아보기|
+|시나리오|옵션 취소|자세한 정보|
 |---|---|---|
 |전자 메일 메시지가 사용자의 정크 메일 폴더로 라우팅되었습니다.|- 메시지를 사용자의 지우기 항목 폴더로 이동<br/>- 메시지를 사용자의 받은 편지함으로 이동<br/>- 메시지 삭제|[Office 365에서 배달된 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)|
 |전자 메일 메시지 또는 파일이 고지된 경우|- 전자 메일 또는 파일 해제<br/>- 전자 메일 또는 파일 삭제|[관리자로 quarantined messages 관리](manage-quarantined-messages-and-files.md)|

@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 37b473e2cfffff3984ff81245f09e98ee18685ea
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+ms.openlocfilehash: 0ac1028ca3485f75518ccca298a1fd85a7bf40ec
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826201"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922393"
 ---
 # <a name="user-submissions-policy"></a>사용자 제출 정책
 
@@ -75,7 +75,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직에서는 사용자가 �
 - 사용자 제출에 대한 구성을 수정하려면 다음 역할 그룹 중 하나의 구성원이 되어야 합니다.
 
   - [보안 및 준수 센터](permissions-in-the-security-and-compliance-center.md)의 **조직 관리** 또는 **보안 관리자**
-  -  [Exchange Online의 조직 관리.](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups)
+  -  [Exchange Online의 조직 관리.](/Exchange/permissions-exo/permissions-exo#role-groups)
 
 - Exchange Online PowerShell에 액세스해야 합니다. 사용하려는 계정에 Exchange Online PowerShell에 액세스할 수 없는 경우 제출 사서함을 지정할 때 다음과 같은 오류가 표시됩니다.
 
@@ -83,8 +83,8 @@ Exchange Online 사서함이 있는 Microsoft 365 조직에서는 사용자가 �
 
   Exchange Online PowerShell에 대한 액세스를 활성화 또는 사용 안 하는 데 대한 자세한 내용은 다음 항목을 참조하세요.
 
-  - [Exchange Online PowerShell에 대한 액세스 사용 또는 사용 안 하도록 설정](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell) 
-  - [Exchange Online의 클라이언트 액세스 규칙](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
+  - [Exchange Online PowerShell에 대한 액세스 사용 또는 사용 안 하도록 설정](/powershell/exchange/disable-access-to-exchange-online-powershell) 
+  - [Exchange Online의 클라이언트 액세스 규칙](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
 ## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>보안 및 & 센터를 사용하여 사용자 제출 사서함 구성
 
@@ -155,4 +155,3 @@ Exchange Online 사서함이 있는 Microsoft 365 조직에서는 사용자가 �
 `3|49871234-6dc6-43e8-abcd-08d797f20abe|167.220.232.101|test@contoso.com|(test phishing submission)`
 
 이 형식을 따르지 않는 메시지는 제출 포털에 제대로 표시되지 않습니다.
-

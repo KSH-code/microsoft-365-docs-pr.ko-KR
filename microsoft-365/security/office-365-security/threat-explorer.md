@@ -19,12 +19,12 @@ description: 보안 및 준수 센터의 탐색기 및 실시간 검색을 사�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 614cd7c256fe8af5fd7474a2101f937b1ecfd0d3
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 3f8f8dfc5cf1066b4ebcf166487bfcdb0a8b2db7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406411"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922501"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -38,7 +38,7 @@ ms.locfileid: "50406411"
 
 |Microsoft Defender for Office 365 요금제 2를 사용하면 다음을 볼 수 있습니다.|Microsoft Defender for Office 365 요금제 1을 사용하면 다음을 볼 수 있습니다.|
 |---|---|
-|![위협 탐색기](../../media/threatmgmt-explorer.png)|![실시간 탐지](../../media/threatmgmt-realtimedetections.png)|
+|![위협 탐색기](../../media/threatmgmt-explorer.png)|![실시간 감지](../../media/threatmgmt-realtimedetections.png)|
 |
 
 탐색기 또는 실시간 검색을 통해 보안 운영 팀이 위협을 효율적으로 조사하고 대응할 수 있습니다. 보고서는 다음 이미지와 같습니다.
@@ -201,7 +201,7 @@ ms.locfileid: "50406411"
 
 - URL 플라이아웃의 클릭 섹션에 전체 클릭된 URL(URL의 일부인 쿼리 매개 변수 포함)을 표시하세요.  현재 URL 도메인 및 경로는 제목 표시줄에 표시됩니다. 전체 URL을 표시하기 위해 해당 정보를 확장하고 있습니다.
 
-- URL  *필터(URL과* URL 도메인 및 URL 도메인 및 *경로)* 픽스: 업데이트는 URL/클릭 결과를 포함하는 메시지 검색에 영향을 미치게 됩니다. 프로토콜에 기반하지 않은 검색에 대한 지원을 사용하도록 설정하여 를 사용하지 않고 URL을 검색할 수 `http` 있습니다. 기본적으로 URL 검색은 다른 값을 명시적으로 지정하지 않는 한 http에 매핑됩니다. 예를 들면 다음과 같습니다.
+- URL  *필터(URL과* URL 도메인 및 URL 도메인 및 *경로)* 픽스: 업데이트는 URL/클릭 결과를 포함하는 메시지 검색에 영향을 미치게 됩니다. 프로토콜에 기반하지 않은 검색에 대한 지원을 사용하도록 설정하여 를 사용하지 않고 URL을 검색할 수 `http` 있습니다. 기본적으로 URL 검색은 다른 값을 명시적으로 지정하지 않는 한 http에 매핑됩니다. 예를 들어 다음과 같습니다.
 
    -  URL, URL 도메인 및 URL 도메인 및 경로 필터 필드의 사전 사전을 사용하여 `http://` 검색합니다.    검색에 동일한 결과가 표시해야 합니다.
 
@@ -507,7 +507,7 @@ Microsoft 365 기술을 통해 정렬된 전자 메일에서 맬웨어가 검색
 이 문서에 설명된 시나리오 외에도 탐색기(또는 실시간 검색)에서 더 많은 보고 옵션을 사용할 수 있습니다. 다음 문서를 참조합니다.
 
 - [배달된 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)
-- [SharePoint Online, OneDrive 및 Microsoft Teams에서 검색된 악성 파일 보기](malicious-files-detected-in-spo-odb-or-teams.md)
+- [SharePoint Online, OneDrive 및 Microsoft Teams에서 검색된 악성 파일 보기](./atp-for-spo-odb-and-teams.md)
 - [위협 탐색기(및 실시간 검색)에서 보기에 대한 개요를 얻습니다.](threat-explorer-views.md)
 - [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
 - [Microsoft Threat Protection의 자동화된 조사 및 대응](../mtp/mtp-autoir.md)
@@ -528,7 +528,7 @@ Microsoft 365 기술을 통해 정렬된 전자 메일에서 맬웨어가 검색
   - 보안 관리자(Azure Active Directory 관리 센터에서 할당할 수 있습니다. <https://aad.portal.azure.com> )
   - 보안 읽기 권한자
 
-- Exchange Online의 경우 Exchange 관리 센터( ) 또는 Exchange Online <https://admin.protection.outlook.com/ecp/> [PowerShell에서](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)다음 역할 중 하나를 할당해야 합니다.
+- Exchange Online의 경우 Exchange 관리 센터( ) 또는 Exchange Online <https://admin.protection.outlook.com/ecp/> [PowerShell에서](/powershell/exchange/exchange-online-powershell)다음 역할 중 하나를 할당해야 합니다.
 
   - 조직 관리
   - 보기 전용 조직 관리
@@ -538,14 +538,14 @@ Microsoft 365 기술을 통해 정렬된 전자 메일에서 맬웨어가 검색
 역할 및 사용 권한에 대한 자세한 내용은 다음 리소스를 참조합니다.
 
 - [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
-- [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
+- [Exchange Online의 기능 사용 권한](/exchange/permissions-exo/feature-permissions)
 
 ## <a name="differences-between-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색 간의 차이점
 
 - 실시간 *검색 보고서는* Defender for Office 365 계획 1에서 사용할 수 있습니다. *위협 탐색기는* Defender for Office 365 계획 2에서 사용할 수 있습니다.
 - 실시간 검색 보고서를 사용하면 검색을 실시간으로 볼 수 있습니다. 위협 탐색기에서도 이 기능을 하지만 주어진 공격에 대한 추가 세부 정보도 제공합니다.
 - 모든 *전자 메일* 보기는 위협 탐색기에서 사용할 수 있지만 실시간 검색 보고서에서는 사용할 수 없습니다.
-- 위협 탐색기에는 더 많은 필터링 기능과 사용 가능한 작업이 포함되어 있습니다. 자세한 내용은 [Office 365용 Microsoft Defender 서비스 설명: Office 365 계획용 Defender의 기능 가용성을 참조하세요.](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)
+- 위협 탐색기에는 더 많은 필터링 기능과 사용 가능한 작업이 포함되어 있습니다. 자세한 내용은 [Office 365용 Microsoft Defender 서비스 설명: Office 365 계획용 Defender의 기능 가용성을 참조하세요.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)
 
 ## <a name="other-articles"></a>기타 문서
 

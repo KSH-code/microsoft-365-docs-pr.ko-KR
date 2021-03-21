@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: ee03e5a255a88c084403842e7bf0319c06c0517b
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: a162226793cc63a9e7e4d490c721a2c488ac64fc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926201"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922177"
 ---
 # <a name="supported-microsoft-365-defender-apis"></a>지원되는 Microsoft 365 Defender API 
 
@@ -35,7 +35,7 @@ ms.locfileid: "49926201"
 - Microsoft 365 Defender
 
 > [!IMPORTANT]
-> 일부 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 판매된 제품과 관련이 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> 일부 정보는 상업적으로 출시되기 전에 상당수 수정될 수 있는 미리 시판된 제품과 관련이 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 ## <a name="list-of-available-apis"></a>사용 가능한 API 목록
 
@@ -46,19 +46,19 @@ ms.locfileid: "49926201"
 
 ### <a name="endpoint-uris"></a>끝점 URIS
 
-두 기본 API 모두에 대한 기본 URI는 . https://api.security.microsoft.com 성능을 향상하기 위해 지리적 위치와 더 가까운 서버를 사용하십시오.
+두 기본 API의 기본 URI는 https://api.security.microsoft.com 입니다. 더 나은 성능을 위해 지리적 위치와 더 가까운 서버를 사용 합니다.
 
 - 미국: api-us.security.microsoft.com
 - 유럽: api-eu.security.microsoft.com
 - 영국: api-uk.security.microsoft.com
 
-토큰은 액세스하여 획득할 수 https://api.security.microsoft.com 있습니다.
+토큰은 에 액세스하여 획득할 수 https://api.security.microsoft.com 있습니다.
 
-경로의 모든 `/api` API는 [OData](https://docs.microsoft.com/odata/overview) 프로토콜을 https://api.security.microsoft.com/api/incidents 사용합니다(예: .
+경로의 모든 `/api` API는 [OData](/odata/overview) 프로토콜(예: )을 https://api.security.microsoft.com/api/incidents 사용합니다.
 
 ## <a name="related-articles"></a>관련 문서
 
 - [Microsoft 365 Defender API 개요](api-overview.md)
 - [Microsoft Threat Protection API 액세스](api-access.md)
-- [API 제한 및 라이선싱에 대해 자세히](api-terms.md)
+- [API 제한 및 라이선싱에 대해 자세히 알아보기](api-terms.md)
 - [오류 코드 이해](api-error-codes.md)

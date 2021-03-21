@@ -15,16 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책 및 보존 레이블 정책과 함께 유지 잠금을 사용하여 규정 요구 사항을 충족하고 로그 관리자로부터의 안전 보호를 지원합니다.
-ms.openlocfilehash: 9890c73495bd14ea7264f3314f6313254ef1bf6b
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 72f667b970b4257a3a540fb74a121c620892b56d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49612990"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922532"
 ---
 # <a name="use-preservation-lock-to-restrict-changes-to-retention-policies-and-retention-label-policies"></a>보존 정책 및 보존 레이블 정책 변경을 제한하기 위한 유지 잠금 사용
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 유지 잠금은 전역 관리자를 비롯하여 누구도 정책을 해제하거나 삭제하거나 덜 제한적으로 만들 수 없도록 보존 정책 또는 보존 레이블 정책을 잠급니다. 해당 구성은 규정 요구 사항에 필요할 수 있으며 로그 관리자로부터의 안전 보호를 지원할 수 있습니다.
 
@@ -56,13 +56,13 @@ ms.locfileid: "49612990"
 
 모든 보존 정책 및 모든 구성 관련 정책은 유지 잠금을 지원합니다.
 
-1. [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)합니다.
+1. [보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/connect-to-scc-powershell)합니다.
 
-2. [Get-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancepolicy)를 실행하여 잠그려는 정책의 이름을 찾습니다. 예를 들어,
+2. [Get-RetentionCompliancePolicy](/powershell/module/exchange/get-retentioncompliancepolicy)를 실행하여 잠그려는 정책의 이름을 찾습니다. 예를 들어,
     
    ![PowerShell의 보존 정책 목록](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
 
-3. 사용자의 정책에 유지 잠금을 설정하려면 [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) cmdlet을 해당 정책 이름으로 실행하고 *RestrictiveRetention* 매개 변수를 True로 설정합니다.
+3. 사용자의 정책에 유지 잠금을 설정하려면 [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) cmdlet을 해당 정책 이름으로 실행하고 *RestrictiveRetention* 매개 변수를 True로 설정합니다.
     
     ```powershell
     Set-RetentionCompliancePolicy -Identity "<Name of Policy>" –RestrictiveRetention $true
