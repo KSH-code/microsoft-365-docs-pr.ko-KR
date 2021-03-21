@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: 분류자를 만드는 방법 알아보기
-ms.openlocfilehash: bff23807fce18bf4a585dbb1ec47c1502ab686f6
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 13ae099d051ac526dc5b13e4cb55a1dc10eec087
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242691"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925359"
 ---
 # <a name="create-a-classifier-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 분류자 만들기
 
@@ -32,7 +32,7 @@ ms.locfileid: "50242691"
 
 ![계약 갱신 문서](../media/content-understanding/contract-renewal.png)
 
-분류자를 만들면 모델에 연결되는 새 [SharePoint 콘텐츠 유형](https://docs.microsoft.com/sharepoint/governance/content-type-and-workflow-planning#content-type-overview)을 만들 수 있습니다.
+분류자를 만들면 모델에 연결되는 새 [SharePoint 콘텐츠 유형](/sharepoint/governance/content-type-and-workflow-planning#content-type-overview)을 만들 수 있습니다.
 
 분류자를 만들 때 모델을 정의하려면 *설명* 을 만들어야 합니다. 이 기능을 통해 해당 문서 유형을 일관되게 찾을 수 있는 공통 데이터를 기록할 수 있습니다. 
 

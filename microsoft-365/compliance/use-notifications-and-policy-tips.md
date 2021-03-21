@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: DLP(데이터 손실 방지) 정책에 정책 팁을 추가하여 사용자에게 DLP 정책과 충돌하는 콘텐츠를 사용 중일 때 이를 알리는 방법을 학습합니다.
-ms.openlocfilehash: 79435343df2d2cb3bc027a92acce44eb74b4d91c
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 63909be2f88ef5f9c42dcd07e127309b4b5b17e9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454533"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925474"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시
 
@@ -285,8 +285,8 @@ DLP 정책의 정책 팁이 이러한 옵션으로 구성되어 있는 경우 �
 
 - [데이터 손실 방지 정책 개요](data-loss-prevention-policies.md)
     
-- [템플릿에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)
-- [DLP 정책 조건, 예외 및 작업(미리 보기)](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?view=o365-worldwide)
+- [서식 파일에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)
+- [DLP 정책 조건, 예외 및 작업(미리 보기)](./dlp-microsoft-teams.md?view=o365-worldwide)
     
 - [FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기](protect-documents-that-have-fci-or-other-properties.md)
     

@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: seo-marvel-apr2020
 description: '요약: 시뮬레이트된 프레미스 간 가상 네트워크를 Microsoft Azure에 Microsoft 365 테스트 환경으로 만듭니다.'
-ms.openlocfilehash: ce8b1963e97decc58820bff7b563bb835a843772
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 545cce668df66b594de6b45ddd506b87afcf44ac
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487654"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926035"
 ---
 # <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 시뮬레이트된 크로스-프레미스 가상 네트워크
 
@@ -59,12 +59,12 @@ Azure IaaS 하이브리드 클라우드 프로덕션 환경을 시뮬레이트�
 > [!NOTE]
 > 이 구성을 위해서는 유료 Azure 구독이 필요합니다. 
 
-결과 환경을 사용하여 추가 테스트 랩 가이드를 통해 엔터프라이즈용 [Microsoft 365의](https://www.microsoft.com/microsoft-365/enterprise) 기능과 기능을 테스트하거나 직접 테스트할 수 있습니다. [](m365-enterprise-test-lab-guides.md)
+결과 환경을 사용하여 추가 테스트 랩 가이드를 사용하여 엔터프라이즈용 [Microsoft 365의](https://www.microsoft.com/microsoft-365/enterprise) 기능과 기능을 테스트하거나 직접 [테스트할](m365-enterprise-test-lab-guides.md) 수 있습니다.
 
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> [엔터프라이즈용 Microsoft 365](../downloads/Microsoft365EnterpriseTLGStack.pdf) 테스트 랩 가이드 스택으로 이동하여 엔터프라이즈용 Microsoft 365 테스트 랩 가이드 스택의 모든 문서에 대한 시각적 맵을 확인할 수 있습니다.
+> [엔터프라이즈용 Microsoft 365](../downloads/Microsoft365EnterpriseTLGStack.pdf) 테스트 랩 가이드 스택의 모든 문서에 대한 시각적 맵을 확인한 다음 엔터프라이즈용 Microsoft 365 테스트 랩 가이드 스택으로 이동하세요.
 
 ## <a name="phase-1-configure-the-testlab-virtual-network"></a>1단계: TestLab 가상 네트워크 구성
 
@@ -81,7 +81,7 @@ Azure IaaS 하이브리드 클라우드 프로덕션 환경을 시뮬레이트�
 먼저 로컬 컴퓨터에서 Azure PowerShell 프롬프트를 시작합니다.
   
 > [!NOTE]
-> 다음 명령 집합은 최신 버전의 Azure PowerShell을 사용합니다. [Azure PowerShell cmdlet으로 시작](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/)을 참조하세요. 
+> 다음 명령 집합은 최신 버전의 Azure PowerShell을 사용합니다. [Azure PowerShell cmdlet으로 시작](/powershell/azureps-cmdlets-docs/)을 참조하세요. 
   
 이 명령을 사용하여 Azure 계정에 로그인합니다.
   
@@ -221,4 +221,4 @@ New-ADReplicationSubnet -Name "192.168.0.0/16" -Site "XPrem"
 
 [엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
-[기업용 Microsoft 365 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)
+[기업용 Microsoft 365 설명서](/microsoft-365-enterprise/)

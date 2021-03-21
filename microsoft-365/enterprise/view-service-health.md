@@ -25,17 +25,17 @@ search.appverid:
 - BCS160
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
-description: 지원 서비스에 문의하기 전에 Microsoft 365 서비스의 상태를 확인하여 활성 서비스 중단이 발생 하는지 확인할 수 있습니다.
-ms.openlocfilehash: b1819e455732d142c563f598433c410b0ae60882
-ms.sourcegitcommit: fcc1b40732f28f075d95faffc1655473e262dd95
+description: 지원 서비스에 문의하기 전에 Microsoft 365 서비스의 상태를 확인하여 활성 서비스 중단이 있는지 확인할 수 있습니다.
+ms.openlocfilehash: 3802ca01902d5b0d457d2a3d75b784d38f71bd42
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2020
-ms.locfileid: "49072762"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924687"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>Microsoft 365 서비스 상태 확인 방법
 
-[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/O365-Admin-AdminCenterChanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview?view=o365-worldwide&preserve-view=true)
+[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/O365-Admin-AdminCenterChanging.png)](/office365/admin/microsoft-365-admin-center-preview?preserve-view=true&view=o365-worldwide)
 
 웹용 Office, Yammer, Microsoft Dynamics CRM 및 모바일 장치 관리 클라우드 서비스를 비롯한 Microsoft 서비스의 상태는 Microsoft  [365](https://go.microsoft.com/fwlink/p/?linkid=2024339)관리 센터의 서비스 상태 페이지에서 볼 수 있습니다. 클라우드 서비스와 관련된 문제가 발생한 경우 지원 서비스에 문의하거나 문제 해결에 시간을 소비하기 전에 먼저 서비스 상태를 확인하여 이 문제가 현재 해결이 진행 중인 상태인 알려진 문제인지 확인할 수 있습니다.
 
@@ -44,57 +44,57 @@ ms.locfileid: "49072762"
   
 ### <a name="how-to-check-service-health"></a>서비스 상태 확인 방법
 
-1. Go to the Microsoft 365 admin center [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339) at, and sign in with an admin account.
+1. 의 Microsoft 365 관리 센터로 이동하고 관리자 [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339) 계정으로 로그인합니다.
 
     > [!NOTE]
-    > 전역 관리자 또는 서비스 관리자 역할이 할당된 사용자는 서비스 상태를 볼 수 있습니다. Exchange, SharePoint 및 비즈니스용 Skype 관리자가 서비스 상태를 볼 수 있도록 하려면 이러한 관리자에게도 서비스 관리자 역할을 할당해야 합니다. 서비스 상태 볼 수 있는 역할에 대한 자세한 내용은 관리자 역할 [정보를 참조하십시오.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true#roles-available-in-the-microsoft-365-admin-center)
+    > 전역 관리자 또는 서비스 관리자 역할이 할당된 사용자는 서비스 상태를 볼 수 있습니다. Exchange, SharePoint 및 비즈니스용 Skype 관리자가 서비스 상태를 볼 수 있도록 하려면 이러한 관리자에게도 서비스 관리자 역할을 할당해야 합니다. 서비스 상태 볼 수 있는 역할에 대한 자세한 내용은 관리자 역할 [정보를 참조하세요.](../admin/add-users/about-admin-roles.md?preserve-view=true&view=o365-worldwide#roles-available-in-the-microsoft-365-admin-center)
   
 2. 새 관리 센터를 사용하지 않는 경우  홈 페이지에서  오른쪽 위에 있는 새 관리 센터 시도 토글을 선택합니다.
 
 3. 서비스 상태 보기를 위해 관리 센터에서 상태 서비스 상태로 이동하거나 홈 대시보드에서 서비스 상태   >   **카드를 선택합니다.**  대시보드 카드는 활성 서비스 문제가 있는지 여부와 자세한 서비스 상태 페이지에 대한 **링크를** 나타냅니다.
   
-4. 서비스 상태 **페이지에서** 각 클라우드 서비스의 상태는 표 형식으로 표시됩니다.
+4. 서비스 **상태 페이지에서** 각 클라우드 서비스의 상태는 표 형식으로 표시됩니다.
 
    ![View of current issues in service health](../media/service-health-all-services.png)
 
-모든 **서비스 탭(기본** 보기)에는 모든 서비스와 해당 서비스의 현재 상태가 표시됩니다. 아이콘과 **상태** 열은 각 서비스의 상태를 나타냅니다. 
+모든 **서비스 탭(기본** 보기)에는 모든 서비스와 해당 현재 상태가 표시됩니다. 아이콘과 **상태** 열은 각 서비스의 상태를 나타냅니다. 
 
-현재 인시던트가 발생하는 서비스로 보기를  필터링하려면 페이지 위쪽의 인시던트 탭을 선택합니다. 권고 **탭을 선택하면** 현재 게시된 권고가 있는 서비스만 표시됩니다. 
+현재 인시던트가 발생하는 서비스로 보기를  필터링하려면 페이지 위쪽의 인시던트 탭을 선택합니다. 권고 **탭을 선택하면** 현재 권고가 게시된 서비스만 표시됩니다. 
 
-기록 **탭에는** 해결된 인시던트 및 권고의 기록이 표시됩니다.
+기록 **탭에는** 해결된 인시던트 및 권고 기록이 표시됩니다.
 
-Microsoft 365 서비스에 문제가 발생하고 서비스 상태 페이지에 나열되지 않은 경우  문제 보고를 선택하고 짧은 양식을 완료하여 해당 문제를 알려 주세요. 다른 조직의 관련 데이터 및 보고서를 살펴보고 문제가 얼마나 광범위한지와 서비스에서 시작된 경우를 살펴 봐야 합니다. 이 경우 서비스 상태 페이지에서 해결을 추적할 수 있는  새 인시던트 또는 권고로 추가합니다. 약 30분 내에 목록에 나타나는 것이 나타나지 않으면 지원에 문의하여 문제를 해결할 수 있습니다.
+Microsoft 365 서비스에서 문제가 발생하고 서비스 상태 페이지에 나열되어 있는  문제가 없는 경우 문제 보고 및 짧은 양식을 완료하여 해당 문제를 알려 주세요. 다른 조직의 관련 데이터 및 보고서를 살펴보고 문제가 얼마나 광범위하고, 서비스가 시작된 경우를 살펴 봐야 합니다. 이 경우 해결을 추적할 수 있는 서비스 상태 페이지에서  새 인시던트 또는 권고로 추가합니다. 약 30분 내에 목록에 나타나지 않으면 지원에 문의하여 문제를 해결하는 것이 가장 까다로우면 됩니다.
 
 대시보드에 표시하는 서비스의 보기를 사용자 지정하려면 기본 설정 사용자 지정 보기를 선택하고 서비스 상태 대시보드 보기에서 필터링할 서비스의 확인란 선택을   >  취소합니다. 모니터링할 각 서비스에 대해 확인란이 선택되어 있는지 확인란을 선택해야 합니다.    
 
-테넌트에 영향을 주는 새 인시던트 및 활성 인시던트에 대한 상태 변경에 대한 전자 메일 알림을 등록하려면 기본 설정 전자 메일을 선택하고 전자 메일로 서비스 상태 알림을 보내고 다음을  >  지정합니다. 
+테넌트에 영향을 주는 새 인시던트 및 활성 인시던트에 대한 상태 변경에 대한 전자 메일 알림을 등록하려면 기본 설정 전자 메일을 선택하고 전자 메일로 서비스 열 알림 보내기 를 클릭한 후 다음을  >  지정합니다. 
 
 - 최대 2개의 전자 메일 주소.
 - 인시던트 또는 권고에 대한 알림을 원하는지 여부
 - 알림을 원하는 서비스
 
 > [!NOTE]
-> 각 관리자는 기본 설정을 사용할 수 있으며 위의 두 전자 메일 주소 제한은 관리자 계정별로 설정됩니다.
+> 각 관리자는 기본 설정을 사용할 수 있으며 위의 두 전자 메일 주소 제한은 관리자 계정당입니다.
 
 > [!TIP]
-> 모바일 장치에서 [Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=627216) 관리 앱을 사용하여 서비스 상태(푸시 알림으로 최신 상태 유지)를 볼 수도 있습니다. 
+> 모바일 장치에서 [Microsoft 365 관리](https://go.microsoft.com/fwlink/p/?linkid=627216) 앱을 사용하여 서비스 상태도 볼 수 있습니다. 이는 푸시 알림을 사용하여 최신 정보를 유지 하는 좋은 방법입니다. 
   
 ### <a name="view-details-of-posted-service-health"></a>게시된 서비스 상태의 세부 정보 보기
 
-모든 서비스 **보기에서** 서비스 상태를 선택하면 권고 또는 인시던트의 요약 보기가 열립니다.
+모든 **서비스 보기에서** 서비스 상태를 선택하면 권고 또는 인시던트의 요약 보기가 열립니다.
   
 [![서비스 권고를 보여주는 스크린샷 ](../media/service-health-advisory.png)](../media/service-health-advisory.png#lightbox)
 
 권고 또는 인시던트 요약은 다음 정보를 제공합니다.
 
 - **title** - 문제의 요약입니다.
-- **서비스** - 영향을 받는 서비스의 이름입니다.
+- **Service** - 영향을 받는 서비스의 이름입니다.
 - **ID** - 문제의 숫자 식별자입니다.
-- **status** - 이 문제가 서비스에 미치는 영향
+- **Status** - 이 문제가 서비스에 미치는 영향.
 - **시작 시간** - 문제가 시작된 시간입니다.
-- **마지막 업데이트** - 서비스 상태 메시지가 마지막으로 업데이트된 시간입니다. 솔루션 적용 진행 상황을 알려 주기 위해 자주 메시지를 게시합니다.
+- **Last updated** - 서비스 상태 메시지가 마지막으로 업데이트된 시간입니다. 솔루션 적용 진행률을 알려주기 위해 자주 메시지를 게시합니다.
 
-문제 제목을 선택하여 해결 방법에서 작업하는 동안 게시된 모든 [](#history) 메시지의 기록을 포함하여 문제에 대한 자세한 정보를 표시하는 문제 세부 정보 페이지를 볼 수 있습니다.
+문제 제목을 선택하여 해결 방법에서 작업하는 동안 게시된 모든 [](#history) 메시지 기록을 포함하여 문제에 대한 자세한 정보를 표시하는 문제 세부 정보 페이지를 볼 수 있습니다.
 
 ![문제 세부 정보를 보여주는 스크린샷](../media/service-health-advisory-detail.png)
 
@@ -133,12 +133,12 @@ Microsoft 365 서비스에 문제가 발생하고 서비스 상태 페이지에 
 |**확장된 복구** | 이 상태는 대부분의 사용자에 대해 서비스를 복원하기 위한 정정 작업이 진행 중이지만, 영향을 받는 모든 시스템에 이를 적용하는 데 시간이 다소 소요될 것임을 나타냅니다. 영구적인 수정 사항을 적용하기 위해 대기하는 동안 영향을 줄이기 위해 임시 수정 사항을 적용한 경우에도 이 상태가 표시될 수 있습니다. |
 |**조사 일시 중단됨** | 잠재적 문제에 대한 자세한 조사 결과, 추가 조사를 하기 위한 고객의 추가 정보가 필요한 경우 이 상태가 표시됩니다. 고객의 행동이 요구되는 경우 필요한 데이터나 로그를 알려드립니다. |
 |**서비스 복원됨** | Microsoft에서 정정 작업이 기본 문제를 해결했으며 서비스가 정상 상태로 복원되었음을 확인했습니다. 문제를 확인하려면 문제 세부 정보를 확인하세요. |
-|**가짓 긍정** | 자세한 조사가 끝날 때 서비스가 정상 상태이고 디자인된 작동 상태인 것으로 확인했습니다. 서비스에 대한 영향이 관찰되지 않았습니다. 또는 인시던트의 원인은 서비스 외부에서 발생했습니다. |
-|**인시던트 사후 보고서 게시** | 유사한 문제가 다시 발생하지 않도록 근본 원인 정보와 다음 단계를 포함하는 특정 문제의 사후 사고 보고서를 게시했습니다. |
+|**가긍성** | 자세한 조사가 끝날 때 서비스가 정상 상태인지와 설계에 따라 작동하고 있는 것으로 확인했습니다. 서비스에 대한 영향이 관찰되지 않았습니다. 또는 인시던트의 원인이 서비스 외부에서 발생했습니다. |
+|**게시된 인시던트 사후 보고서** | 근본 원인 정보가 포함된 특정 문제와 유사한 문제가 다시 발생하지 않도록 하는 다음 단계가 포함된 인시던트 사후 보고서를 게시했습니다. |
 
 ### <a name="history"></a>기록
 
-서비스 상태를 통해 현재 상태를 보고 지난 30일 동안 테넌트에 영향을 미쳤던 서비스 권고 및 인시던트의 기록을 볼 수 있습니다. 모든 서비스의 과거를 확인하려면 문제 세부 정보 페이지에서 **기록** 보기를 선택합니다.
+서비스 상태를 통해 현재 상태를 보고 지난 30일 동안 테넌트에 영향을 미쳤던 모든 서비스 권고 및 인시던트의 기록을 볼 수 있습니다. 모든 서비스의 지난 상태 확인하려면 문제 **세부** 정보 페이지에서 기록 보기를 선택합니다.
   
 ![Show link to health history](../media/service-health-view-history.png)
   
@@ -146,11 +146,11 @@ Microsoft 365 서비스에 문제가 발생하고 서비스 상태 페이지에 
   
 ![View service health history](../media/service-health-history.png)
   
-모든 행을 확장하여 이슈에 대한 세부 정보를 볼 수 있습니다.
+모든 행을 확장하여 문제의 세부 정보를 볼 수 있습니다.
   
-작동 시간의 약속에 대한 자세한 내용은 [Microsoft 365의 투명한 운영을 참조하세요.](https://go.microsoft.com/fwlink/?linkid=848695)
+작동 시간 약속에 대한 자세한 내용은 [Microsoft 365의 투명한 운영을 참조하세요.](/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft 365 관리 센터의 활동 보고서](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 
- [메시지 센터 기본 설정](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide&preserve-view=true#preferences11)
+ [메시지 센터 기본 설정](../admin/manage/message-center.md?preserve-view=true&view=o365-worldwide#preferences11)

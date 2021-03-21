@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우 사전 작업입니다.'
-ms.openlocfilehash: 5110c6bd86d5df35a7ceccb4abfedf059cb826d0
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+ms.openlocfilehash: 37fde0119dfc84cbe9120cf922cbac469a0a50f1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826179"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923841"
 ---
 # <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 사전 작업
 
@@ -45,10 +45,10 @@ ms.locfileid: "50826179"
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
 | 마이그레이션 후 클라이언트를 다시 시작하고 클라이언트에서 로그인 및 로그인하는 방법을 사용자에게 알릴 준비를 합니다. | Office 클라이언트 라이선스는 마이그레이션 시 도이치클란드 Microsoft 클라우드에서 Office 365 서비스로 전환됩니다. 클라이언트는 Office 클라이언트에서 로그인한 후 유효한 새 라이선스를 선택 합니다. | 사용자의 Office 제품은 Office 365 서비스에서 라이선스를 새로 고쳐야 합니다. 라이선스를 새로 고치지 않은 경우 Office 제품에서 라이선스 유효성 검사 오류가 발생할 수 있습니다. |
-| [Office 365](https://aka.ms/o365urls)서비스 URL 및 IP 주소에 대한 네트워크 연결을 확인합니다. | Office 365 서비스에 액세스하는 데 사용되는 고객이 호스팅하는 모든 클라이언트 및 서비스는 Office 365 전역 서비스 끝점에 액세스할 수 있어야 합니다. <br>사용자 또는 공동 작업 파트너가 Office 365 서비스 URL 및 IP 주소에 나열된 URL 및 IP 주소에 액세스하지 못하게 하는 방화벽 규칙이 있는 경우 [Office 365](https://aka.ms/o365urls) 전역 서비스 끝점에 대한 액세스를 허용하는 방화벽 규칙을 변경해야 합니다.| 4단계 전에 이 단계를 수행하지 않은 경우 서비스 또는 클라이언트 소프트웨어 오류가 발생할 수 있습니다.  |
+| [Office 365](./urls-and-ip-address-ranges.md)서비스 URL 및 IP 주소에 대한 네트워크 연결을 확인합니다. | Office 365 서비스에 액세스하는 데 사용되는 고객이 호스팅하는 모든 클라이언트 및 서비스는 Office 365 전역 서비스 끝점에 액세스할 수 있어야 합니다. <br>사용자 또는 공동 작업 파트너가 Office 365 서비스 URL 및 IP 주소에 나열된 URL 및 IP 주소에 액세스하지 못하게 하는 방화벽 규칙이 있는 경우 [Office 365](./urls-and-ip-address-ranges.md) 전역 서비스 끝점에 대한 액세스를 허용하는 방화벽 규칙을 변경해야 합니다.| 4단계 전에 이 단계를 수행하지 않은 경우 서비스 또는 클라이언트 소프트웨어 오류가 발생할 수 있습니다.  |
 | 평가판 구독을 취소합니다. | 평가판 구독은 마이그레이션되지 않습니다. 유료 구독의 전송이 차단됩니다. | 취소 후 사용자가 액세스하는 경우 평가판 서비스가 만료되고 작동하지 않습니다. |
-| 도이클란드 Microsoft 클라우드와 Office 365 서비스 간의 라이선스 기능 차이를 분석합니다. | Office 365 서비스에는 현재 Microsoft 클라우드 도이치랜드에서 사용할 수 없는 추가 기능 및 서비스가 포함되어 있습니다. 구독을 전송하는 동안 사용자가 새 기능을 사용할 수 있습니다. | <ul><li> 도이클란드 Microsoft 클라우드 및 Office 365 서비스 라이선스에서 제공하는 다양한 기능을 분석합니다. [Office 365 플랫폼 서비스 설명으로 시작하세요.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description) </li><li> 사용자 또는 사용자 변경 관리에 대한 영향을 제한하기 위해 Office 365 서비스의 새 기능을 처음에 사용하지 않도록 설정해야 하는지 여부를 결정하고 필요한 경우 사용자 라이선스 할당을 변경합니다. </li><li>Office 365 서비스에서 제공하는 새 서비스 및 기능에 대해 사용자 및 지원 센터 직원을 준비합니다. |
-| 마이그레이션 중 [](https://docs.microsoft.com/microsoft-365/compliance/retention) 콘텐츠를 무단으로 삭제하는 것을 방지하는 조직 전체 보존 정책을 만들 수 있습니다.  |<ul><li>마이그레이션 중에 최종 사용자가 콘텐츠를 부수적으로 삭제하지 않도록 조직 전체 보존 정책을 사용하도록 설정할 수 있습니다. </li><li>보존은 필요하지는 않습니다. 마이그레이션 중에 언제든지 배치되는 보류는 예상대로 작동해야 하기 때문에 보존 정책을 보유하는 것은 백업 안전 메커니즘입니다. 동시에 일부 고객, 특히 보존이 우려되는 고객은 보존 정책을 사용할 수 없습니다.</li></ul>| 보존 정책 및 보존 레이블에 대해 자세히 설명에 [설명된 보존 정책을 적용합니다.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) 서비스 또는 클라이언트 소프트웨어의 오류는 9단계 중 4단계 전에 수행되지 않은 경우 발생할 수 있습니다. </li></ul>|
+| 도이클란드 Microsoft 클라우드와 Office 365 서비스 간의 라이선스 기능 차이를 분석합니다. | Office 365 서비스에는 현재 Microsoft 클라우드 도이치랜드에서 사용할 수 없는 추가 기능 및 서비스가 포함되어 있습니다. 구독을 전송하는 동안 사용자가 새 기능을 사용할 수 있습니다. | <ul><li> 도이클란드 Microsoft 클라우드 및 Office 365 서비스 라이선스에서 제공하는 다양한 기능을 분석합니다. [Office 365 플랫폼 서비스 설명으로 시작하세요.](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description) </li><li> 사용자 또는 사용자 변경 관리에 대한 영향을 제한하기 위해 Office 365 서비스의 새 기능을 처음에 사용하지 않도록 설정해야 하는지 여부를 결정하고 필요한 경우 사용자 라이선스 할당을 변경합니다. </li><li>Office 365 서비스에서 제공하는 새 서비스 및 기능에 대해 사용자 및 지원 센터 직원을 준비합니다. |
+| 마이그레이션 중 [](../compliance/retention.md) 콘텐츠를 무단으로 삭제하는 것을 방지하는 조직 전체 보존 정책을 만들 수 있습니다.  |<ul><li>마이그레이션 중에 최종 사용자가 콘텐츠를 부수적으로 삭제하지 않도록 조직 전체 보존 정책을 사용하도록 설정할 수 있습니다. </li><li>보존은 필요하지는 않습니다. 마이그레이션 중에 언제든지 배치되는 보류는 예상대로 작동해야 하기 때문에 보존 정책을 보유하는 것은 백업 안전 메커니즘입니다. 동시에 일부 고객, 특히 보존이 우려되는 고객은 보존 정책을 사용할 수 없습니다.</li></ul>| 보존 정책 및 보존 레이블에 대해 자세히 설명에 [설명된 보존 정책을 적용합니다.](../compliance/retention.md) 서비스 또는 클라이언트 소프트웨어의 오류는 9단계 중 4단계 전에 수행되지 않은 경우 발생할 수 있습니다. </li></ul>|
 | 올바른 라이선스 과부하 | 특정 상황에서는 고객이 구입한 것보다 더 많은 서비스를 사용할 수 있습니다. 이 조건을 라이선스 과부하라고 합니다. Microsoft는 독일 Microsoft 클라우드에서 독일 데이터 센터 지역으로 라이선스 과도하게 계약된 고객을 마이그레이션할 수 없습니다. 서비스 및 데이터에 지속적으로 액세스하려면 할당된 모든 사용자에게 라이선스가 필요합니다. | 모든 고객 | 고객은 추가 라이선스를 구입하거나 사용자의 라이선스를 배포하여 라이선스 과도하게 조건을 평가하고 해결해야 합니다. |
 |||||
 
@@ -58,7 +58,7 @@ ms.locfileid: "50826179"
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
-| [재해 복구 시나리오를 위한 AD FS(Active Directory Federation Services)](ms-cloud-germany-transition-add-adfs.md#backup) 팜 백업 | 고객은 도메인의 발급자 URI를 터치하지 않고도 & 글로벌 트러스트에 대한 신뢰 파티 트러스트가 복원될 수 있도록 AD FS 팜을 적절하게 백업해야 합니다. 필요한 경우 팜의 백업 및 각 복원에 AD FS 신속 복원을 사용하는 것이 좋습니다. | 필수 작업. 고객의 AD FS 팜에 오류가 발생하면 마이그레이션 중에 서비스가 영향을 미치게 됩니다. 자세한 내용은 [ADFS 마이그레이션 단계를 참조하세요.](https://docs.microsoft.com/microsoft-365/enterprise/ms-cloud-germany-transition-add-adfs) |
+| [재해 복구 시나리오를 위한 AD FS(Active Directory Federation Services)](ms-cloud-germany-transition-add-adfs.md#backup) 팜 백업 | 고객은 도메인의 발급자 URI를 터치하지 않고도 & 글로벌 트러스트에 대한 신뢰 파티 트러스트가 복원될 수 있도록 AD FS 팜을 적절하게 백업해야 합니다. 필요한 경우 팜의 백업 및 각 복원에 AD FS 신속 복원을 사용하는 것이 좋습니다. | 필수 작업. 고객의 AD FS 팜에 오류가 발생하면 마이그레이션 중에 서비스가 영향을 미치게 됩니다. 자세한 내용은 [ADFS 마이그레이션 단계를 참조하세요.](./ms-cloud-germany-transition-add-adfs.md) |
 ||||
 
 ## <a name="exchange-online"></a>Exchange Online
@@ -158,13 +158,13 @@ Office 365 테넌트가 마이그레이션 단계 3에 도달하기 전에 Micro
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
-| 사용하려는 Azure 서비스를 결정하고 파트너와 협력하여 독일에서 Office 365 서비스 테넌트로의 향후 마이그레이션을 준비합니다. Azure 마이그레이션 [플레이북에 설명된 단계를 따릅니다.](https://docs.microsoft.com/azure/germany/germany-migration-main) |<ul><li>Azure 리소스 마이그레이션은 고객의 책임이 있으며, 정해진 단계에 따라 수동으로 노력해야 합니다. 조직에서 사용하려는 서비스를 이해하는 것은 Azure 서비스의 성공적인 마이그레이션을 위한 핵심입니다. </li><li> 동일한 ID 파티션(조직)에 Azure 구독이 있는 Office 365 Germany 고객은 구독 및 서비스 마이그레이션을 시작할 수 있는 경우 Microsoft에서 정한 순서를 따라야 합니다.</li></ul>|<ul><li>고객은 여러 Azure 구독을 사용할 수 있으며 각 구독에는 인프라, 서비스 및 플랫폼 구성 요소가 포함됩니다. </li><li> 관리자는 이 마이그레이션 이벤트의 일부로 신속한 마이그레이션 및 유효성 검사가 가능하도록 구독 및 관련자를 파악해야 합니다. </li><li>이러한 구독 및 정해진 시간 내에 Azure 구성 요소의 마이그레이션을 성공적으로 완료하지 못하면 Office 및 Azure AD가 Office 365 서비스로의 전환 완료에 영향을 미치며 데이터 손실이 발생하게 될 수 있습니다. </li><li> 메시지 센터 알림은 고객이 주도하는 마이그레이션을 시작할 수 있는 지점을 신호합니다. </li></ul>|
+| 사용하려는 Azure 서비스를 결정하고 파트너와 협력하여 독일에서 Office 365 서비스 테넌트로의 향후 마이그레이션을 준비합니다. Azure 마이그레이션 [플레이북에 설명된 단계를 따릅니다.](/azure/germany/germany-migration-main) |<ul><li>Azure 리소스 마이그레이션은 고객의 책임이 있으며, 정해진 단계에 따라 수동으로 노력해야 합니다. 조직에서 사용하려는 서비스를 이해하는 것은 Azure 서비스의 성공적인 마이그레이션을 위한 핵심입니다. </li><li> 동일한 ID 파티션(조직)에 Azure 구독이 있는 Office 365 Germany 고객은 구독 및 서비스 마이그레이션을 시작할 수 있는 경우 Microsoft에서 정한 순서를 따라야 합니다.</li></ul>|<ul><li>고객은 여러 Azure 구독을 사용할 수 있으며 각 구독에는 인프라, 서비스 및 플랫폼 구성 요소가 포함됩니다. </li><li> 관리자는 이 마이그레이션 이벤트의 일부로 신속한 마이그레이션 및 유효성 검사가 가능하도록 구독 및 관련자를 파악해야 합니다. </li><li>이러한 구독 및 정해진 시간 내에 Azure 구성 요소의 마이그레이션을 성공적으로 완료하지 못하면 Office 및 Azure AD가 Office 365 서비스로의 전환 완료에 영향을 미치며 데이터 손실이 발생하게 될 수 있습니다. </li><li> 메시지 센터 알림은 고객이 주도하는 마이그레이션을 시작할 수 있는 지점을 신호합니다. </li></ul>|
 ||||
 
 <!--
 Reworked as text:
 
-**Step:** Determine which Azure services are in use and prepare for future migration from Germany to the Office 365 services tenant by working with your partners. Follow the steps described in the [Azure migration playbook](https://docs.microsoft.com/azure/germany/germany-migration-main).
+**Step:** Determine which Azure services are in use and prepare for future migration from Germany to the Office 365 services tenant by working with your partners. Follow the steps described in the [Azure migration playbook](/azure/germany/germany-migration-main).
 
 **Description:** Migration of Azure resources is a customer responsibility and requires manual effort following prescribed steps. Understanding what services are in use in the organization is key to successful migration of Azure services. 
 
@@ -198,6 +198,6 @@ Office 365 Germany customers who have Azure subscriptions under the same identit
 
 클라우드 앱:
 
-- [Dynamics 365 마이그레이션 프로그램 정보](https://aka.ms/d365ceoptin)
-- [Power BI 마이그레이션 프로그램 정보](https://aka.ms/pbioptin)
-- [Microsoft Teams 업그레이드 시작하기](https://aka.ms/SkypeToTeams-Home)
+- [Dynamics 365 마이그레이션 프로그램 정보](/dynamics365/get-started/migrate-data-german-region)
+- [Power BI 마이그레이션 프로그램 정보](/power-bi/admin/service-admin-migrate-data-germany)
+- [Microsoft Teams 업그레이드 시작하기](/microsoftteams/upgrade-start-here)

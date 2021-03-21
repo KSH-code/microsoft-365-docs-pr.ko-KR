@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Microsoft 365 관리 센터의 네트워크 연결 개요(미리 보기)
-ms.openlocfilehash: 159edf6f95910625c3f924d02c8307d681164df7
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 0bfcebff4ebbefdb77049119fef2402af1ca8f90
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454244"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926099"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Microsoft 365 관리 센터의 네트워크 연결(미리 보기)
 
@@ -97,7 +97,7 @@ Windows 위치 서비스는 컴퓨터의 동의를 얻어야 합니다. 지도 �
 
 ## <a name="how-we-can-solve-these-challenges"></a>이러한 문제를 해결하는 방법
 
-엔터프라이즈는 Office 365 연결 원칙에 따라 [Microsoft 365](https://aka.ms/pnc) 관리 센터 네트워크 연결 기능을 사용하여 일반 사용자 환경을 개선하고 환경을 보호할 수 있습니다. 대부분의 경우 이러한 일반적인 원칙에 따라 최종 사용자 대기 시간, 서비스 안정성 및 Microsoft 365의 전반적인 성능에 큰 영향을 줍니다.
+엔터프라이즈는 Office 365 연결 원칙에 따라 [Microsoft 365](./microsoft-365-network-connectivity-principles.md) 관리 센터 네트워크 연결 기능을 사용하여 일반 사용자 환경을 개선하고 환경을 보호할 수 있습니다. 대부분의 경우 이러한 일반적인 원칙에 따라 최종 사용자 대기 시간, 서비스 안정성 및 Microsoft 365의 전반적인 성능에 큰 영향을 줍니다.
 
 Microsoft는 경우에 따라 대기업 고객을 위한 Microsoft 365의 네트워크 성능 문제를 조사해야 하며 이러한 문제의 근본 원인은 고객 네트워크 경계 인프라와 관련이 있습니다. 고객 네트워크 경계 문제의 일반적인 근본 원인이 발견되는 경우 이를 식별하는 간단한 테스트 측정을 식별하기 위해 노력합니다. 특정 문제를 식별하는 측정 임계값이 있는 테스트는 모든 위치에서 동일한 측정을 테스트하고 이 근본 원인이 있는지 여부를 알려 관리자와 네트워크 인사이트로 공유할 수 있기 때문에 매우 소중합니다.
 
@@ -202,7 +202,7 @@ Microsoft 365 서비스 프런트 도어는 Office 클라이언트 및 서비스
 
 인터넷 나가기 위치는 네트워크 트래픽이 엔터프라이즈 네트워크를 종료하고 인터넷에 연결하는 위치입니다. 이 위치는 NAT(Network Address Translation) 장치가 있으며 일반적으로 ISP(인터넷 서비스 공급자)에 연결하는 위치로도 식별됩니다. 위치와 인터넷 시작 위치 간에 긴 거리가 표시될 경우 이는 중요한 WAN 백할ul을 나타낼 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft 365 네트워크 인사이트(미리 보기)](office-365-network-mac-perf-insights.md)
 

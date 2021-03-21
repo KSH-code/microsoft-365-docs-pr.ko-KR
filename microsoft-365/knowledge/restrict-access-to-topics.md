@@ -13,12 +13,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: b8c49c96ace14ac1ba03411b5670d8e77268109a
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: dc344e0263bab287133ddb01ecab262440eb9e10
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453912"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925955"
 ---
 # <a name="restrict-access-to-topics-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 항목에 대한 액세스 제한
 
@@ -33,28 +33,21 @@ Microsoft Viva에서 조직의 관련자는 특정 항목을 검색하여 사용
 
 지식 관리자는 초기 인덱싱에서 해당 항목을 찾지 못하도록 하여 특정 항목에 대한 액세스를 제한할 수 있습니다. Microsoft 365 관리 센터의 지식 네트워크 관리 설정에서 이 작업을 수행 하는 방법에는 두 가지가 있습니다.
  
-- [항목 검색에서 제외할 SharePoint](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery#select-sharepoint-topic-sources)사이트를 선택합니다. 이 설정을 사용하여 특정 SharePoint 사이트가 항목에 대해 크롤링되지 않도록 할 수 있습니다.
-- [이름으로 항목 제외:](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery#exclude-topics-by-name)관리자는 이 설정을 사용하여 특정 항목을 이름으로 검색하지 못하도록 할 수 있습니다. 지식 네트워크 관리 설정에서 관리자는 CSV 파일에서 제외할 항목 목록을 업로드할 수 있습니다. 항목 이름과 정확히 일치하거나 부분적으로 일치하는 항목을 제외할 수 있습니다.
+- [항목 검색에서 제외할 SharePoint](./topic-experiences-discovery.md#select-sharepoint-topic-sources)사이트를 선택합니다. 이 설정을 사용하여 특정 SharePoint 사이트가 항목에 대해 크롤링되지 않도록 할 수 있습니다.
+- [이름으로 항목 제외:](./topic-experiences-discovery.md#exclude-topics-by-name)관리자는 이 설정을 사용하여 특정 항목을 이름으로 검색하지 못하도록 할 수 있습니다. 지식 네트워크 관리 설정에서 관리자는 CSV 파일에서 제외할 항목 목록을 업로드할 수 있습니다. 항목 이름과 정확히 일치하거나 부분적으로 일치하는 항목을 제외할 수 있습니다.
 
 ## <a name="prevent-topics-from-being-viewed-by-specific-users"></a>특정 사용자가 항목을 볼 수 없습니다.
 
-지식 관리자는 조직에서 항목을 볼 수 있는 [사용자도 선택할 수 있습니다.](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-knowledge-rules) 이 설정을 사용하면 모든 항목을 볼 수 있는 라이선스가 있는 사용자를 선택할 수 있습니다. 예를 들어 파일럿 환경에서는 소수의 사용자만 항목을 볼 수 있도록 허용할 수 있습니다.
+지식 관리자는 조직에서 항목을 볼 수 있는 [사용자도 선택할 수 있습니다.](./topic-experiences-knowledge-rules.md) 이 설정을 사용하면 모든 항목을 볼 수 있는 라이선스가 있는 사용자를 선택할 수 있습니다. 예를 들어 파일럿 환경에서는 소수의 사용자만 항목을 볼 수 있도록 허용할 수 있습니다.
 
 ## <a name="remove-topics-from-being-viewed"></a>항목을 보지 못하게 제거
 
-지식 관리자는 사용자가 [](https://docs.microsoft.com/microsoft-365/knowledge/manage-topics) 더 이상 볼 수 없는 항목을 제거할 수 있습니다. 항목 **관리 페이지의** 항목 센터에서 기술 관리자는 특정 항목을 거부하여 항목을 볼 수 없습니다. 추천 상태나 확인된 상태와 관계없이 항목을 제거할 수 있습니다.
+지식 관리자는 사용자가 [](./manage-topics.md) 더 이상 볼 수 없는 항목을 제거할 수 있습니다. 항목 **관리 페이지의** 항목 센터에서 기술 관리자는 특정 항목을 거부하여 항목을 볼 수 없습니다. 추천 상태나 확인된 상태와 관계없이 항목을 제거할 수 있습니다.
 
 제거된 항목은 나중에 필요한 경우 다시 볼 수 있는 항목으로 추가할 수 있습니다. 
 
 
 ## <a name="see-also"></a>참고 항목
-
-
-
-  
-
-
-
 
 
 

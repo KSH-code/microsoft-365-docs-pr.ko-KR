@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: '관리자: 네트워크 업로드를 사용하여 Microsoft 365의 사용자 사서함으로 여러 PST 파일을 대량으로 가져오는 방법에 대해 알아봅니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6248fcb96468ecfbb2b5454e40badc6293770003
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: b59ffc9d665091a5de1e5e23ab8e32be6d86f1a5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597085"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925464"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>네트워크 업로드를 사용하여 조직의 PST 파일을 Microsoft 365로 가져오기
 
@@ -49,7 +49,7 @@ Microsoft 365 사서함으로 PST 파일을 가져오려면 1단계를 한 번�
 
 ## <a name="before-you-import-pst-files"></a>PST 파일을 가져오기 전에
   
-- PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에서 사서함 가져오기/내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기/내보내기 역할을 할당한 후 구성원으로 자신을 추가할 수 있습니다. 자세한 내용은 [역할 그룹 관리](https://go.microsoft.com/fwlink/p/?LinkId=730688)의 “역할 그룹에 역할 추가” 또는 “역할 그룹 만들기” 섹션을 참조하세요.
+- PST 파일을 Microsoft 365 사서함으로 가져오려면 Exchange Online에서 사서함 가져오기/내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기/내보내기 역할을 할당한 후 구성원으로 자신을 추가할 수 있습니다. 자세한 내용은 [역할 그룹 관리](/Exchange/permissions-exo/role-groups)의 “역할 그룹에 역할 추가” 또는 “역할 그룹 만들기” 섹션을 참조하세요.
     
     또한 보안 및 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족되어야 합니다.
     
@@ -233,7 +233,7 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후에는 PST 파�
     | `Mailbox` <br/> |PST 파일을 가져올 사서함의 전자 메일 주소를 지정합니다. PST 가져오기 서비스는 공용 폴더에 PST 파일 가져오기를 지원하지 않으므로 공용 폴더를 지정할 수 없습니다.  <br/> PST 파일을 비활성 사서함으로 가져오려면 이 매개 변수의 사서함 GUID를 지정해야 합니다. 이 GUID를 얻으려면 Exchange Online에서 다음 PowerShell 명령을 실행합니다. `Get-Mailbox <identity of inactive mailbox> -InactiveMailboxOnly | FL Guid` <br/> <br/>**참고:** 경우에 따라 동일한 전자 메일 주소에 여러 사서함이 있을 수 있습니다. 이 경우 한 사서함은 활성 사서함이고 다른 사서함은 일시 삭제된 (또는 비활성) 상태일 수 있습니다. 이러한 상황에서는 PST 파일을 가져올 사서함을 고유하게 식별하기 위해 사서함 GUID를 지정해야 합니다. 활성 사서함에 대한 GUID를 얻으려면 다음 PowerShell 명령을 실행합니다. `Get-Mailbox <identity of active mailbox> | FL Guid` 일시 삭제된 (또는 비활성) 사서함에 대한 GUID를 얻으려면 이 명령을 실행합니다. `Get-Mailbox <identity of soft-deleted or inactive mailbox> -SoftDeletedMailbox | FL Guid`  <br/> | `annb@contoso.onmicrosoft.com` <br/> 또는  <br/>  `2d7a87fe-d6a2-40cc-8aff-1ebea80d4ae7` <br/> |
     | `IsArchive` <br/> | PST 파일을 사용자의 보관 사서함으로 가져올 것인지 여부를 지정합니다. 다음 두 가지 옵션이 있습니다.  <br/><br/>**FALSE:**  PST 파일을 사용자의 기본 사서함으로 가져옵니다.  <br/> **TRUE:**  PST 파일을 사용자의 보관 사서함으로 가져옵니다. [사용자의 보관 사서함이 활성화](enable-archive-mailboxes.md)되어 있다고 가정합니다. <br/><br/>사용자의 보관 사서함이 활성화되지 않은 상태에서 이 매개 변수를 `TRUE`로 설정하면 해당 사용자의 가져오기가 실패합니다. (보관 사서함이 활성화되지 않은 상태에서 매개 변수를 `TRUE`로 설정하여) 한 사용자의 가져오기가 실패하더라도 다른 사용자의 가져오기 작업에는 영향을 주지 않습니다.  <br/>  매개 변수를 공란으로 두면 PST 파일을 사용자의 기본 사서함으로 가져옵니다.  <br/> <br/>**참고:** 기본 사서함이 온-프레미스에 존재하는 사용자에 대해 PST 파일을 클라우드 기반 보관 사서함으로 가져오려면 이 매개 변수를 `TRUE`로 설정하고 `Mailbox` 매개 변수에 대해 사용자의 온-프레미스 사서함의 전자 메일 주소를 지정합니다.  <br/> | `FALSE` <br/> 또는  <br/>  `TRUE` <br/> |
     | `TargetRootFolder` <br/> | PST 파일을 가져올 사서함 폴더를 지정합니다.  <br/> <br/> 이 매개 변수를 공란으로 두면 PST 파일은 사서함의 루트 수준(받은 편지함 폴더 및 기타 기본 사서함 폴더와 같은 수준)에 있는 **가져온 파일** 이라는 새 폴더로 가져오게 됩니다.  <br/> <br/> `/`를 지정하는 경우 PST 파일의 폴더 및 항목을 대상 사서함 또는 보관 파일에서 폴더 구조의 맨 위로 가져옵니다. 대상 사서함에 폴더가 있는 경우 (예: 받은 편지함, 보낸 편지함, 받은 편지함, 지운 편지함 등 기본 폴더) PST에서 해당 폴더의 항목이 대상 사서함의 기존 폴더에 병합됩니다. 예를 들어 PST 파일에 받은 편지함 폴더가 있는 경우 해당 폴더의 항목을 대상 사서함의 받은 편지함 폴더로 가져오게 됩니다. 대상 사서함에 대한 폴더 구조에 폴더가 없으면 새 폴더를 만들 수 있습니다.  <br/><br/>  `/<foldername>`을 지정하는 경우 PST 파일의 항목 및 폴더를 *\<foldername\>* 이라는 폴더로 가져오게 됩니다. 예를 들어 `/ImportedPst`을 사용하는 경우 항목을 **importedPst** 라는 폴더로 가져오게 됩니다. 이 폴더는 받은 편지함 폴더와 같은 수준의 사용자 사서함에 있습니다.  <br/><br/> **팁:** PST 파일을 가져올 가장 적합한 폴더 위치를 결정할 수 있도록 몇 가지 테스트 배치를 실행하면서 이 매개 변수를 실험해볼 수 있습니다.   <br/> |(공백으로 둠)  <br/> 또는  <br/>  `/` <br/> 또는  <br/>  `/ImportedPst` <br/> |
-    | `ContentCodePage` <br/> |이 선택적 매개 변수는 ANSI 파일 형식으로 PST 파일을 가져오는 데 사용할 코드 페이지의 숫자 값을 지정합니다. 이 매개 변수는 중국어, 일본어 및 한국어 (CJK) 조직에서 PST 파일을 가져오는 데 사용됩니다. 이러한 언어는 일반적으로 문자 인코딩에 2 바이트 문자 세트 (DBCS)를 사용하기 때문입니다. 사서함 폴더 이름으로 DBCS를 사용하는 언어의 PST 파일을 가져오는 데 이 매개 변수를 사용하지 않으면, 가져온 후에 폴더 이름이 왜곡되는 경우가 많습니다.  <br/><br/> 이 매개 변수를 사용하는 데 지원되는 값의 목록은 [코드 페이지 식별자](https://go.microsoft.com/fwlink/p/?LinkId=328514)를 참조하세요.  <br/> <br/>**참고:** 앞서 설명한 것처럼 이것은 선택적 매개 변수이며 CSV 파일에 포함하지 않아도 됩니다. 또는 포함하고 하나 이상의 행에 대해 값을 비워둘 수 있습니다.  <br/> |(공백으로 둠)  <br/> 또는  <br/>  `932` (ANSI/OEM 일본어에 대한 코드 페이지 식별자)  <br/> |
+    | `ContentCodePage` <br/> |이 선택적 매개 변수는 ANSI 파일 형식으로 PST 파일을 가져오는 데 사용할 코드 페이지의 숫자 값을 지정합니다. 이 매개 변수는 중국어, 일본어 및 한국어 (CJK) 조직에서 PST 파일을 가져오는 데 사용됩니다. 이러한 언어는 일반적으로 문자 인코딩에 2 바이트 문자 세트 (DBCS)를 사용하기 때문입니다. 사서함 폴더 이름으로 DBCS를 사용하는 언어의 PST 파일을 가져오는 데 이 매개 변수를 사용하지 않으면, 가져온 후에 폴더 이름이 왜곡되는 경우가 많습니다.  <br/><br/> 이 매개 변수를 사용하는 데 지원되는 값의 목록은 [코드 페이지 식별자](/windows/win32/intl/code-page-identifiers)를 참조하세요.  <br/> <br/>**참고:** 앞서 설명한 것처럼 이것은 선택적 매개 변수이며 CSV 파일에 포함하지 않아도 됩니다. 또는 포함하고 하나 이상의 행에 대해 값을 비워둘 수 있습니다.  <br/> |(공백으로 둠)  <br/> 또는  <br/>  `932` (ANSI/OEM 일본어에 대한 코드 페이지 식별자)  <br/> |
     | `SPFileContainer` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
     | `SPManifestContainer` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
     | `SPSiteUrl` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 사항 없음  <br/> |
@@ -328,7 +328,7 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후에는 PST 파�
     
   - [보관 사서함](enable-archive-mailboxes.md) 및 [자동 확장 보관](enable-unlimited-archiving.md)을 사용하면 사용자에게 가져온 데이터를 저장할 수 있는 추가적인 사서함 저장 공간이 제공됩니다. 
     
-  - 사서함을 [소송 보존](https://go.microsoft.com/fwlink/?linkid=856286)에 배치하여 가져온 데이터를 유지합니다. 
+  - 사서함을 [소송 보존](./create-a-litigation-hold.md)에 배치하여 가져온 데이터를 유지합니다. 
     
   - Microsoft [eDiscovery 도구](search-for-content.md)를 사용하여 가져온 데이터를 검색합니다. 
     
@@ -360,9 +360,9 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후에는 PST 파�
 
 - 앞서 설명한 것처럼 Office 365 가져오기 서비스는 PST 파일을 사서함으로 가져온 후 보존 보류 설정(무기한으로)을 사용하도록 설정합니다. 즉, 사서함에 할당된 보존 정책이 처리되지 않도록 *RetentionHoldEnabled* 속성이 **True** 로 설정됨을 의미합니다. 이는 삭제 또는 보관 정책이 오래된 메시지를 삭제하거나 보관하지 못하도록 하여 사서함 소유자가 새로 가져온 메시지를 관리할 수 있는 시간을 제공합니다. 다음은 이 보존 보류를 관리하기 위해 수행할 수 있는 몇 가지 단계입니다. 
     
-    - 일정 시간이 지나면 **Set-Mailbox -RetentionHoldEnabled $false** 명령을 실행하여 보존 보류를 해제할 수 있습니다. 자세한 내용은 [사서함을 보존 보류 상태로 두기](https://go.microsoft.com/fwlink/p/?LinkId=544749)를 참조하십시오.
+    - 일정 시간이 지나면 **Set-Mailbox -RetentionHoldEnabled $false** 명령을 실행하여 보존 보류를 해제할 수 있습니다. 자세한 내용은 [사서함을 보존 보류 상태로 두기](/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold)를 참조하십시오.
     
-   - 차후의 특정 날짜에 해제되도록 보존 보류를 구성할 수 있습니다. **Set-Mailbox -EndDateForRetentionHold *일자*** 명령을 실행하여 이 작업을 수행할 수 있습니다. 예를 들어 오늘 날짜가 2016년 6월 1일이고 보존 보류를 30일 이내에 해제하려는 경우, 다음의 명령을 실행합니다. **Set-Mailbox -EndDateForRetentionHold 7/1/2016**. 이 시나리오에서는 **RetentionHoldEnabled** 속성을 *True* 로 설정된 상태로 둡니다. 자세한 내용은 [설정-사서함](https://go.microsoft.com/fwlink/p/?LinkId=150317)을 참조하세요.
+   - 차후의 특정 날짜에 해제되도록 보존 보류를 구성할 수 있습니다. **Set-Mailbox -EndDateForRetentionHold *일자*** 명령을 실행하여 이 작업을 수행할 수 있습니다. 예를 들어 오늘 날짜가 2016년 6월 1일이고 보존 보류를 30일 이내에 해제하려는 경우, 다음의 명령을 실행합니다. **Set-Mailbox -EndDateForRetentionHold 7/1/2016**. 이 시나리오에서는 **RetentionHoldEnabled** 속성을 *True* 로 설정된 상태로 둡니다. 자세한 내용은 [설정-사서함](/powershell/module/exchange/set-mailbox)을 참조하세요.
     
    - 사용자는 이전에 가져온 항목을 즉시 삭제하거나 사용자의 보관 사서함으로 옮기지 않도록 사서함에 할당된 보존 정책 설정을 변경할 수 있습니다. 예를 들어 사서함에 할당된 삭제 또는 보관 정책의 보존 기간을 늘릴 수 있습니다. 이 시나리오에서는 보존 정책의 설정을 변경한 후 사서함의 보존 보류를 해제합니다. 자세한 내용은 [조직에서 사서함에 대한 보관 및 삭제 정책 설정하기](set-up-an-archive-and-deletion-policy-for-mailboxes.md)를 참조하세요.
 

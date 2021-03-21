@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 08dd78c7648126717113066e3c87b05e624f57d0
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 7426e22fd617e93fbf63748ba38fc705e4c995a9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712357"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924413"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -41,7 +41,7 @@ ms.locfileid: "50712357"
 > 테이블에서 지원하는 이벤트 유형(값)에 대한 자세한 내용은 보안 센터에서 사용할 수 있는 기본 제공 `ActionType` Schema 참조를 사용합니다.
 
 >[!NOTE]
->이 표에서는 Cloud App Security에서 추적하는 Azure AD(Active Directory) 로그온 활동, 특히 ActiveSync 및 기타 레거시 프로토콜을 사용하는 대화형 로그인 및 인증 활동에 대해 설명합니다. 이 표에서 사용할 수 없는 비대화형 로그온은 Azure AD 감사 로그에서 볼 수 있습니다. [Cloud App Security를 Microsoft 365에 연결하는 방법을 자세히 알아보시고](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
+>이 표에서는 Cloud App Security에서 추적하는 Azure AD(Active Directory) 로그온 활동, 특히 ActiveSync 및 기타 레거시 프로토콜을 사용하는 대화형 로그인 및 인증 활동에 대해 설명합니다. 이 표에서 사용할 수 없는 비대화형 로그온은 Azure AD 감사 로그에서 볼 수 있습니다. [Cloud App Security를 Microsoft 365에 연결하는 방법을 자세히 알아보시고](/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
 
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](advanced-hunting-schema-tables.md)를 참조하세요.
 
@@ -74,7 +74,7 @@ ms.locfileid: "50712357"
 | `ReportId` | long | 이벤트의 고유 식별자 |
 | `AdditionalFields` | 문자열 | 엔터티 또는 이벤트에 대한 추가 정보 |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [고급 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)

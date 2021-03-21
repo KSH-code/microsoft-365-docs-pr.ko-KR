@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
 description: '요약: Office 365를 사용하려면 인터넷에 연결되어 있어야 합니다. 아래의 끝점은 Government 커뮤니티 클라우드(GCC)를 포함하여 Office 365 요금제를 사용하는 고객에 연결할 수 있어야 합니다.'
 hideEdit: true
-ms.openlocfilehash: 826da75ea4f6991a3291e8b1e36d644fb19a7704
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 1c0a2a486bf6964edc9b94fd670c96ade161cacd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50596959"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925271"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 및 IP 주소 범위
 
@@ -69,9 +69,9 @@ Office 365를 사용하려면 인터넷에 연결되어 있어야 합니다. 아
 
 [Office 365 끝점 관리](managing-office-365-endpoints.md)
 
-[일반적인 Microsoft Stream 끝점](https://docs.microsoft.com/stream/network-overview#general-microsoft-stream-endpoints)
+[일반적인 Microsoft Stream 끝점](/stream/network-overview#general-microsoft-stream-endpoints)
   
-[Microsoft 365 연결 모니터링](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity)
+[Microsoft 365 연결 모니터링](./monitor-connectivity.md)
 
 [타사 응용 프로그램 시스템의 루트 CA 및 중간 CA 번들](../compliance/encryption-office-365-certificate-chains.md)
   

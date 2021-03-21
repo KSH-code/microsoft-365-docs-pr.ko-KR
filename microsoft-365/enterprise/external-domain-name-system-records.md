@@ -22,20 +22,20 @@ search.appverid:
 - BCS160
 ms.assetid: c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0
 description: Office 365 배포를 계획할 때 사용할 외부 Domain Name System 레코드의 참조 목록입니다.
-ms.openlocfilehash: da5a9a1095e50de779ee2fc148803e31583426a2
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: c2384f1e330692d43c923a7932db4c3ff2bc99ae
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692832"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924215"
 ---
 # <a name="external-domain-name-system-records-for-office-365"></a>Office 365에 대한 외부 Domain Name System 레코드
 
 |||
 |:-----|:-----|
-|![도메인](../media/e05b1c78-1df0-4200-ba40-6e26b7ead68f.png)|**Office 365 조직의 DNS 레코드 사용자 지정 목록을 보고 싶습니까?** Office 365에서 도메인에 대한 [Office 365 DNS 레코드를 만드는 데 필요한 정보를 찾을 수 있습니다](https://support.office.microsoft.com/article/Gather-the-information-you-need-to-create-Office-365-DNS-records-77f90d4a-dc7f-4f09-8972-c1b03ea85a67).<br/> **GoDaddy 또는 eNom과 같은 도메인의 DNS 호스트에서 이러한 레코드를 추가하는 데 필요한 단계별 도움말이 필요합니까?** [ 인기 있는 많은 DNS 호스트에 대한 단계별 지침 링크를 찾으세요 ](https://go.microsoft.com/fwlink/?LinkId=286745). <br/>  **자체 사용자 지정 배포를 위한 참조 목록을 사용하려고 하십니까?** 아래 목록은 사용자 지정 Office 365 배포에 대한 참조로 사용해야 합니다. 조직에 적용할 레코드를 선택하고 해당 값을 입력해야 합니다. <br/> [Office 365의 네트워크 계획 및 성능 조정](https://aka.ms/tune)**으로 돌아가기**.  <br/> |
+|![도메인](../media/e05b1c78-1df0-4200-ba40-6e26b7ead68f.png)|**Office 365 조직의 DNS 레코드 사용자 지정 목록을 보고 싶습니까?** Office 365에서 도메인에 대한 [Office 365 DNS 레코드를 만드는 데 필요한 정보를 찾을 수 있습니다](https://support.office.microsoft.com/article/Gather-the-information-you-need-to-create-Office-365-DNS-records-77f90d4a-dc7f-4f09-8972-c1b03ea85a67).<br/> **GoDaddy 또는 eNom과 같은 도메인의 DNS 호스트에서 이러한 레코드를 추가하는 데 필요한 단계별 도움말이 필요합니까?** [ 인기 있는 많은 DNS 호스트에 대한 단계별 지침 링크를 찾으세요](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md). <br/>  **자체 사용자 지정 배포를 위한 참조 목록을 사용하려고 하십니까?** 아래 목록은 사용자 지정 Office 365 배포에 대한 참조로 사용해야 합니다. 조직에 적용할 레코드를 선택하고 해당 값을 입력해야 합니다. <br/> [Office 365의 네트워크 계획 및 성능 조정](./network-planning-and-performance.md)**으로 돌아가기**.  <br/> |
 
-SPF 및 MX 레코드를 파악하기 어려운 경우도 종종 있습니다. SPF 레코드 지침을 업데이트해서 이 문서 끝부분에 추가했습니다. 기억해야 할 중요한 사항은 _도메인에 대해 SPF 레코드가 하나만 있을 수 있다는 것_입니다. 그렇지만 여러 개의 MX 레코드가 있을 수도 있습니다. 이러한 경우 메일 배달 문제를 야기할 수 있습니다. 전자 메일을 단일 메일 시스템으로 보내는 단일 MX 레코드가 있으면 발생할 수 있는 많은 문제가 해결됩니다.
+SPF 및 MX 레코드를 파악하기 어려운 경우도 종종 있습니다. SPF 레코드 지침을 업데이트해서 이 문서 끝부분에 추가했습니다. 기억해야 할 중요한 사항은 _도메인에 대해 SPF 레코드가 하나만 있을 수 있다는 것_ 입니다. 그렇지만 여러 개의 MX 레코드가 있을 수도 있습니다. 이러한 경우 메일 배달 문제를 야기할 수 있습니다. 전자 메일을 단일 메일 시스템으로 보내는 단일 MX 레코드가 있으면 발생할 수 있는 많은 문제가 해결됩니다.
   
 아래 섹션은 Office 365의 서비스별로 구성되어 있습니다. 도메인에 대한 Office 365 DNS 레코드의 사용자 지정 목록을 보려면 Office 365에 로그인하고 [Office 365 DNS 레코드를 만드는 데 필요한 정보를 수집합니다](https://support.office.com/article/77f90d4a-dc7f-4f09-8972-c1b03ea85a67).
   
@@ -47,8 +47,8 @@ SPF 및 MX 레코드를 파악하기 어려운 경우도 종종 있습니다. SP
 ||||
 |:-----|:-----|:-----|
 |**DNS 레코드** <br/> |**용도** <br/> |**사용할 값** <br/> |
-|**CNAME** <br/> **(제품군)** <br/> |Office 365에서 올바른 ID 플랫폼으로 인증을 연결하는 데 사용됩니다. [추가 정보](https://go.microsoft.com/fwlink/p/?LinkId=322005) <br/> **참고:** CNAME은 21Vianet에서 운영되는 Office 365에만 적용됩니다. [추가 정보](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)  |**별칭:** msoid  <br/> **대상:** clientconfig.partner.microsoftonline-p.net.cn  <br/> |
-|**TXT** <br/> **(도메인 확인)** <br/> |Office 365에서 사용자의 도메인을 확인하는 용도로만 사용됩니다. 그 밖의 항목에는 영향을 주지 않습니다.  <br/> |**호스트:** @(또는 일부 DNS 호스팅 공급자의 경우 도메인 이름)  <br/> **TXT 값:** Office 365에서 제공되는 _텍스트 문자열 _  <br/> Office 365 **도메인 설정** 마법사는 이 레코드를 만드는 데 사용하는 값을 제공합니다.  <br/> |
+|**CNAME** <br/> **(제품군)** <br/> |Office 365에서 올바른 ID 플랫폼으로 인증을 연결하는 데 사용됩니다. [추가 정보](../admin/services-in-china/purpose-of-cname.md?viewFallbackFrom=o365-worldwide) <br/> **참고:** CNAME은 21Vianet에서 운영되는 Office 365에만 적용됩니다. [추가 정보](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)  |**별칭:** msoid  <br/> **대상:** clientconfig.partner.microsoftonline-p.net.cn  <br/> |
+|**TXT** <br/> **(도메인 확인)** <br/> |Office 365에서 사용자의 도메인을 확인하는 용도로만 사용됩니다. 그 밖의 항목에는 영향을 주지 않습니다.  <br/> |**호스트:** @(또는 일부 DNS 호스팅 공급자의 경우 도메인 이름)  <br/> **TXT 값:** Office 365에서 제공되는 _텍스트 문자열_  <br/> Office 365 **도메인 설정** 마법사는 이 레코드를 만드는 데 사용하는 값을 제공합니다.  <br/> |
 
 
 ## <a name="external-dns-records-required-for-email-in-office-365-exchange-online"></a>Office 365 (Exchange Online)에서 전자 메일에 필요한 외부 DNS 레코드
@@ -56,12 +56,12 @@ SPF 및 MX 레코드를 파악하기 어려운 경우도 종종 있습니다. SP
 
 Office 365의 전자 메일에는 몇 개의 다른 레코드가 필요합니다. 모든 고객이 사용해야 하는 세 가지 기본 레코드는 자동 검색, MX 및 SPF 레코드입니다.
   
-- **자동 검색 레코드**를 사용하면 클라이언트 컴퓨터는 Exchange를 자동으로 찾고 클라이언트를 적절히 구성할 수 있습니다.
+- **자동 검색 레코드** 를 사용하면 클라이언트 컴퓨터는 Exchange를 자동으로 찾고 클라이언트를 적절히 구성할 수 있습니다.
 
-- **MX 레코드**는 다른 메일 시스템에 도메인의 이메일을 보낼 위치를 알려줍니다. **참고:** 도메인의 MX 레코드를 업데이트하여 전자 메일을 Office 365로 변경하면 해당 도메인으로 전송된 모든 전자 메일이 Office 365로 배달되기 시작합니다.  
+- **MX 레코드** 는 다른 메일 시스템에 도메인의 이메일을 보낼 위치를 알려줍니다. **참고:** 도메인의 MX 레코드를 업데이트하여 전자 메일을 Office 365로 변경하면 해당 도메인으로 전송된 모든 전자 메일이 Office 365로 배달되기 시작합니다.  
 몇 개의 전자 메일 주소만 Office 365로 전환하시나요? [사용자 지정 도메인으로 된 전자 메일 주소로 Office 365 시험 사용](https://support.office.com/article/39cee536-6a03-40cf-b9c1-f301bb6001d7)할 수 있습니다.
 
-- **SPF용 TXT 레코드**는 받는 사람의 전자 메일 시스템에서 전자 메일을 보내는 서버가 승인된 서버인지를 확인하는 데 사용됩니다. 이렇게 하면 전자 메일 스푸핑 및 피싱과 같은 문제를 방지할 수 있습니다. 레코드에 포함할 내용을 이해하는 데 도움이 되는 이 문서의 [SPF에 필요한 외부 DNS 레코드](external-domain-name-system-records.md#BKMK_SPFrecords)를 참조하세요.
+- **SPF용 TXT 레코드** 는 받는 사람의 전자 메일 시스템에서 전자 메일을 보내는 서버가 승인된 서버인지를 확인하는 데 사용됩니다. 이렇게 하면 전자 메일 스푸핑 및 피싱과 같은 문제를 방지할 수 있습니다. 레코드에 포함할 내용을 이해하는 데 도움이 되는 이 문서의 [SPF에 필요한 외부 DNS 레코드](external-domain-name-system-records.md#BKMK_SPFrecords)를 참조하세요.
 
 Exchange 페더레이션을 사용하는 전자 메일 고객의 경우 표 아래쪽에 추가 CNAME 및 TXT 레코드도 필요합니다.
   
@@ -69,7 +69,7 @@ Exchange 페더레이션을 사용하는 전자 메일 고객의 경우 표 아�
 |:-----|:-----|:-----|
 |**DNS 레코드** <br/> |**용도** <br/> |**사용할 값** <br/> |
 |**CNAME** <br/> **(Exchange Online)** <br/> |Outlook 클라이언트가 자동 검색 서비스를 사용하여 Exchange Online 서비스에 쉽게 연결하는 데 도움이 됩니다. 자동 검색은 올바른 Exchange Server 호스트를 자동으로 검색하고 사용자를 대신하여 Outlook을 구성합니다.  <br/> |**별칭:** autodiscover  <br/> **대상:** autodiscover.outlook.com  <br/> |
-|**MX** <br/> **(Exchange Online)** <br/> |Office 365에서 도메인에 대한 받는 메일을 Exchange Online 서비스로 보냅니다.  <br/> [!NOTE] 전자 메일이 Exchange Online으로 이동되면 이전 시스템을 가리키는 MX 레코드를 제거해야 합니다.   |**도메인:** (예)contoso.com  <br/> **대상 전자 메일 서버:**\<MX token\>.mail.protection.outlook.com  <br/> **기본 설정/우선 순위:** 다른 MX 레코드보다 더 낮음(예: 1 또는 '낮음')(이를 통해 메일이 Exchange Online으로 전달됨)  <br/>  다음 단계를 따라 \<MX token\>를(을) 찾으세요.  <br/>  Office 365에 로그인하고 Office 365 관리자 \> 도메인으로 이동합니다.  <br/>  도메인에 대한 작업 열에서 문제 해결을 선택합니다.  <br/>  MX 레코드 섹션에서 해결 방법을 선택합니다.  <br/>  이 페이지의 지시에 따라 MX 레코드를 업데이트합니다.  <br/> [MX 우선 순위란?](https://go.microsoft.com/fwlink/p/?LinkId=396471) <br/> |
+|**MX** <br/> **(Exchange Online)** <br/> |Office 365에서 도메인에 대한 받는 메일을 Exchange Online 서비스로 보냅니다.  <br/> [!NOTE] 전자 메일이 Exchange Online으로 이동되면 이전 시스템을 가리키는 MX 레코드를 제거해야 합니다.   |**도메인:** (예)contoso.com  <br/> **대상 전자 메일 서버:**\<MX token\>.mail.protection.outlook.com  <br/> **기본 설정/우선 순위:** 다른 MX 레코드보다 더 낮음(예: 1 또는 '낮음')(이를 통해 메일이 Exchange Online으로 전달됨)  <br/>  다음 단계를 따라 \<MX token\>를(을) 찾으세요.  <br/>  Office 365에 로그인하고 Office 365 관리자 \> 도메인으로 이동합니다.  <br/>  도메인에 대한 작업 열에서 문제 해결을 선택합니다.  <br/>  MX 레코드 섹션에서 해결 방법을 선택합니다.  <br/>  이 페이지의 지시에 따라 MX 레코드를 업데이트합니다.  <br/> [MX 우선 순위란?](../admin/setup/domains-faq.yml) <br/> |
 |**SPF (TXT)** <br/> **(Exchange Online)**  <br/> |(MO_ExchangeOnline_2nd)  <br/> |[SPF에 필요한 외부 DNS 레코드](external-domain-name-system-records.md#BKMK_SPFrecords) <br/> |
 |**TXT** <br/> **(Exchange 페더레이션)** <br/> |하이브리드 배포용 Exchange 페더레이션에 사용됩니다.  <br/> |**TXT 레코드 1:** 예를 들면 contoso.com 및 사용자 지정 생성된 관련 도메인 증명 해시 텍스트(예: Y96nu89138789315669824)와 같습니다.  <br/> **TXT 레코드 2:** 예를 들면 exchangedelegation.contoso.com 및 연관된 사용자 지정 생성 도메인 증명 해시(예: Y3259071352452626169)  <br/> |
 |**CNAME** <br/> **(Exchange 페더레이션)** <br/> |회사에서 Exchange 페더레이션을 사용할 때 자동 검색 서비스를 사용하여 Outlook Online 클라이언트가 Exchange Online 서비스에 쉽게 연결할 수 있도록 지원합니다. 자동 검색은 자동으로 올바른 Exchange Server 호스트를 찾고 사용자를 위해 Outlook을 구성합니다.  <br/> |**별칭:**(예) Autodiscover.service.contoso.com  <br/> **대상:** autodiscover.outlook.com  <br/> |
@@ -103,7 +103,7 @@ Exchange 페더레이션을 사용하는 전자 메일 고객의 경우 표 아�
 <a name="BKMK_SPFrecords"> </a>
 
 > [!IMPORTANT]
-> SPF는 스푸핑을 방지하도록 설계되었지만 SPF가 방어할 수 없는 스푸핑 기술이 있습니다. 이를 방어하려면 SPF를 설정한 후에 Office 365에 대해 DKIM 및 DMARC도 구성해야 합니다. 이를 시작하려면 [DKIM을 사용하여 Office 365의 도메인에서 보낸 아웃바운드 전자 메일의 유효성을 검사하는 방법](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx)을 참조하세요. 다음으로, [DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx)를 참조하세요.
+> SPF는 스푸핑을 방지하도록 설계되었지만 SPF가 방어할 수 없는 스푸핑 기술이 있습니다. 이를 방어하려면 SPF를 설정한 후에 Office 365에 대해 DKIM 및 DMARC도 구성해야 합니다. 이를 시작하려면 [DKIM을 사용하여 Office 365의 도메인에서 보낸 아웃바운드 전자 메일의 유효성을 검사하는 방법](../security/office-365-security/use-dkim-to-validate-outbound-email.md)을 참조하세요. 다음으로, [DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사](../security/office-365-security/use-dmarc-to-validate-email.md)를 참조하세요.
   
 SPF 레코드는 다른 사용자가 사용자의 도메인을 사용하여 스팸 또는 기타 악성 전자 메일을 보내지 못하도록하는 TXT 레코드입니다. Sender Policy Framework(SPF) 레코드는 사용자의 도메인에서 전자 메일을 보낼 수 있는 서버를 식별하여 작동합니다.
   
@@ -125,7 +125,7 @@ Values: v=spf1 include:spf.protection.outlook.com -all
 Office 365용 Exchange Online 전자 메일을 사용하지 않는 시나리오의 경우(예: SharePoint Online에서 만든 전자 메일을 사용하는 경우 등)에는 다음 표를 사용하여 레코드 값에 포함할 내용을 결정합니다.
   
 > [!NOTE]
-> 예를 들어, 방화벽을 통해 전자 메일 트래픽을 관리하기 위한 에지 전자 메일 서버를 포함하는 복잡한 시나리오가있는 경우 더욱 자세한 SPF 레코드를 설정해야합니다. 방법 알아보기:[스푸핑을 방지하기 위해 Office 365에서 SPF 레코드를 설정합니다](https://go.microsoft.com/fwlink/?LinkId=787656). 또한, [스푸핑을 방지하기 위해 Office 365에서 Sender Policy Framework (SPF)를 사용하는 방법](https://go.microsoft.com/fwlink/?LinkId=787065)을 참조하여 Office 365에서 SPF가 작동하는 방식에 대해 자세히 알아볼 수 있습니다.
+> 예를 들어, 방화벽을 통해 전자 메일 트래픽을 관리하기 위한 에지 전자 메일 서버를 포함하는 복잡한 시나리오가있는 경우 더욱 자세한 SPF 레코드를 설정해야합니다. 방법 알아보기:[스푸핑을 방지하기 위해 Office 365에서 SPF 레코드를 설정합니다](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md). 또한, [스푸핑을 방지하기 위해 Office 365에서 Sender Policy Framework (SPF)를 사용하는 방법](../security/office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md)을 참조하여 Office 365에서 SPF가 작동하는 방식에 대해 자세히 알아볼 수 있습니다.
   
 | 숫자|다음를 사용하는 경우...  <br/> |용도  <br/> |추가할 포함 내용  <br/> |
 |:-----|:-----|:-----|:-----|
@@ -181,6 +181,6 @@ TXT Name @
 Values: v=spf1 include:spf.protection.outlook.com include:mail.contoso.com -all
 ```
 
-다음은 전자 메일에 대해 도메인을 Office 365에 추가할 때 기존 SPF 레코드를 조정하는 데 도움이 되는 몇 가지 일반적인 예입니다. 예를 들어, 방화벽을 통해 전자 메일 트래픽을 관리하기 위한 에지 전자 메일 서버를 포함하는 복잡한 시나리오가 있는 경우, 더욱 자세한 SPF 레코드를 설정해야 합니다. 방법 알아보기: [스푸핑을 방지하기 위해 Office 365에서 SPF 레코드를 설정합니다](https://go.microsoft.com/fwlink/?LinkId=787656).
+다음은 전자 메일에 대해 도메인을 Office 365에 추가할 때 기존 SPF 레코드를 조정하는 데 도움이 되는 몇 가지 일반적인 예입니다. 예를 들어, 방화벽을 통해 전자 메일 트래픽을 관리하기 위한 에지 전자 메일 서버를 포함하는 복잡한 시나리오가 있는 경우, 더욱 자세한 SPF 레코드를 설정해야 합니다. 방법 알아보기: [스푸핑을 방지하기 위해 Office 365에서 SPF 레코드를 설정합니다](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md).
   
-다음의 간단한 링크를 사용할 수 있습니다. [https://aka.ms/o365edns](https://aka.ms/o365edns)
+다음의 간단한 링크를 사용할 수 있습니다. [https://aka.ms/o365edns]()

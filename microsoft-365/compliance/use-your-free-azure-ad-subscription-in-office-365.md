@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: 조직의 유료 구독에 포함되어 있는 Azure Active Directory에 액세스하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c968d4ae8cc5f0798b6ba7d5bcb52ca6fe7d6116
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 5bc1c57c0c40df03d27471aafd222908ba9d5887
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528154"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925454"
 ---
 # <a name="use-your-free-azure-active-directory-subscription"></a>무료 Azure Active Directory 구독 사용하기
 
@@ -40,7 +40,7 @@ ms.locfileid: "46528154"
 
 1. [portal.azure.com](https://portal.azure.com)으로 이동하여 회사 또는 학생 계정으로 로그인합니다.
 
-2. Azure Portal의 왼쪽 탐색 창에서 **Azure Active Directory**를 클릭합니다.
+2. Azure Portal의 왼쪽 탐색 창에서 **Azure Active Directory** 를 클릭합니다.
 
     ![Azure Portal의 왼쪽 탐색 창에서 Azure Active Directory를 클릭합니다.](../media/97d2d72f-ac20-46ab-898c-851f6009b453.png)
 
@@ -48,8 +48,8 @@ ms.locfileid: "46528154"
 
 ## <a name="more-information"></a>추가 정보
 
-- 무료 Azure Active Directory 구독에는 로그인 활동 보고서가 포함되지 않습니다. 로그인 활동(데이터 침해에 유용할 수 있음)을 기록하려면 Azure Active Directory Premium 가입이 필요합니다. 자세한 내용은 [Azure AD는 데이터를 얼마나 오래 저장하나요?](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-data-retention#how-long-does-azure-ad-store-the-data)를 참조하세요.
+- 무료 Azure Active Directory 구독에는 로그인 활동 보고서가 포함되지 않습니다. 로그인 활동(데이터 침해에 유용할 수 있음)을 기록하려면 Azure Active Directory Premium 가입이 필요합니다. 자세한 내용은 [Azure AD는 데이터를 얼마나 오래 저장하나요?](/azure/active-directory/reports-monitoring/reference-reports-data-retention#how-long-does-azure-ad-store-the-data)를 참조하세요.
 
-- Microsoft 365 관리 센터에서 **Azure Active Directory** 관리 센터에 액세스할 수도 있습니다. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **관리 센터** \> **Azure Active Directory**를 클릭합니다.
+- Microsoft 365 관리 센터에서 **Azure Active Directory** 관리 센터에 액세스할 수도 있습니다. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **관리 센터** \> **Azure Active Directory** 를 클릭합니다.
 
-- 사용자 및 그룹 관리와 기타 디렉터리 관리 작업 수행에 대한 자세한 내용은 [Azure AD 디렉터리 관리](https://docs.microsoft.com/azure/active-directory/active-directory-administer)를 참조하세요.
+- 사용자 및 그룹 관리와 기타 디렉터리 관리 작업 수행에 대한 자세한 내용은 [Azure AD 디렉터리 관리](/azure/active-directory/active-directory-administer)를 참조하세요.

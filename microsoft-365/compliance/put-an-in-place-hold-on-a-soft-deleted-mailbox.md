@@ -14,12 +14,12 @@ ms.assetid: 421f72bd-dd43-4be1-82f5-0ae9ac43bd00
 ms.custom:
 - seo-marvel-apr2020
 description: 비활성으로 만들고 콘텐츠를 In-Place 사서함에 대한 보류를 만드는 방법을 배워야 합니다.
-ms.openlocfilehash: 638cc0554f216a0cb552c1f8eacef3d692d9f792
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 4cca34ab2ca3a946245f34a9b0d898a07537a722
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423769"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925524"
 ---
 # <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-in-exchange-online"></a>Exchange online에서 In-Place 사서함에 대한 사서함 보류 설정
 
@@ -37,7 +37,7 @@ ms.locfileid: "50423769"
 
 - 사서함에서 **New-MailboxSearch** cmdlet을 사용하여 Windows PowerShell 사서함에 In-Place 보류를 설정해야 합니다. SharePoint Online의 EAC(Exchange 관리 센터) 또는 eDiscovery 센터를 사용할 수 없습니다. 
 
-- Windows PowerShell을 사용하여 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
+- Windows PowerShell을 사용하여 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
 - 다음 명령을 실행하여 조직의 소프트 삭제된 사서함에 대한 ID 정보를 얻습니다. 
 
@@ -49,7 +49,7 @@ ms.locfileid: "50423769"
 
 ## <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-to-make-it-an-inactive-mailbox"></a>사서함을 In-Place 사서함을 비활성 사서함으로 만들기 위해 보류
 
-**New-MailboxSearch** cmdlet을 사용하여 소프트 삭제된 사서함을 비활성 사서함으로 만들 수 있습니다. 자세한 내용은 [New-MailboxSearch 를 참조하십시오.](https://technet.microsoft.com/library/74303b47-bb49-407c-a43b-590356eae35c.aspx)
+**New-MailboxSearch** cmdlet을 사용하여 소프트 삭제된 사서함을 비활성 사서함으로 만들 수 있습니다. 자세한 내용은 [New-MailboxSearch 를 참조하십시오.](/powershell/module/exchange/new-mailboxsearch)
   
 1. 소프트 삭제된 사서함의 속성을 포함하는 변수를 생성합니다.
 

@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈용 Microsoft 365의 시뮬레이트된 엔터프라이즈 테스트 환경을 만들 수 있습니다.
-ms.openlocfilehash: e66ec8c48e309daeb15aad5fcc475edcb2b8bb35
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: 8df63e1a580b57aa263c11dccaed947f46f2cbb9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487663"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926047"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>시뮬레이트된 엔터프라이즈 기본 구성
 
@@ -36,22 +36,22 @@ ms.locfileid: "48487663"
  
 ![시뮬레이트된 엔터프라이즈 기본 구성](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
 
-간소화된 테스트 환경을 만드는 과정에는 다음 두 단계가 있습니다.
+간소화된 테스트 환경을 만들 때에는 다음 두 단계가 필요합니다.
 - [1단계: 시뮬레이트된 인트라넷 만들기](#phase-1-create-a-simulated-intranet)
 - [2단계: Microsoft 365 E5 구독 만들기](#phase-2-create-your-microsoft-365-e5-subscription)
 
-결과 환경을 사용하여 추가 테스트 랩 가이드를 통해 엔터프라이즈용 [Microsoft 365의](https://www.microsoft.com/microsoft-365/enterprise) 기능과 기능을 테스트하거나 직접 테스트할 수 있습니다. [](m365-enterprise-test-lab-guides.md)
+결과 환경을 사용하여 추가 테스트 랩 가이드를 사용하여 엔터프라이즈용 [Microsoft 365의](https://www.microsoft.com/microsoft-365/enterprise) 기능과 기능을 테스트하거나 직접 [테스트할](m365-enterprise-test-lab-guides.md) 수 있습니다.
 
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> 엔터프라이즈용 Microsoft 365 테스트 랩 가이드 스택의 모든 문서에 대한 시각적 맵은 [엔터프라이즈용 Microsoft 365](../downloads/Microsoft365EnterpriseTLGStack.pdf)테스트 랩 가이드 스택으로 이동하세요.
+> 엔터프라이즈용 Microsoft 365 테스트 랩 가이드 스택의 모든 문서에 대한 시각적 맵은 [엔터프라이즈용 Microsoft 365 테스트](../downloads/Microsoft365EnterpriseTLGStack.pdf)랩 가이드 스택으로 이동하세요.
 
 ## <a name="phase-1-create-a-simulated-intranet"></a>1단계: 시뮬레이트된 인트라넷 만들기
 
 이 단계에서는 AD DS(Active Directory 도메인 서비스) 도메인 컨트롤러, 응용 프로그램 서버 및 클라이언트 컴퓨터를 포함하는 Azure 인프라 서비스에 시뮬레이트된 인트라넷을 구축합니다.
 
-추가 [엔터프라이즈용 Microsoft 365](m365-enterprise-test-lab-guides.md) 테스트 랩 가이드에서 이러한 컴퓨터를 사용하여 하이브리드 ID 및 기타 기능을 구성하고 보여줄 것입니다.
+추가 [엔터프라이즈용 Microsoft 365 테스트](m365-enterprise-test-lab-guides.md) 랩 가이드에서 이러한 컴퓨터를 사용하여 하이브리드 ID 및 기타 기능을 구성하고 보여줄 것입니다.
 
 ### <a name="method-1-build-your-simulated-intranet-with-an-azure-resource-manager-template"></a>방법 1: Azure Resource Manager 템플릿으로 시뮬레이트된 인트라넷 만들기
 
@@ -59,7 +59,7 @@ ms.locfileid: "48487663"
 
 서식 파일을 배포하기 전에 서식 파일 [README](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm.m365-ems) 페이지를 읽고 다음 정보를 준비합니다.
 
-- 테스트 환경(testlab)의 공용 DNS 도메인 \<*your public domain*> 이름입니다. 사용자 지정 배포 페이지의 **도메인 이름** 필드에 이 이름을 **입력합니다.**
+- 테스트 환경의 공용 DNS 도메인 이름(testlab. \<*your public domain*> ) 사용자 지정 배포 페이지의 **도메인 이름** 필드에 이 이름을 **입력합니다.**
 - 가상 머신의 공용 IP 주소 URL에 대한 DNS 레이블 접두사입니다. **사용자 지정 배포** 페이지의 **DNS 레이블 접두사** 필드에 이 레이블을 입력해야 합니다.
 
 지침을 읽은 후 템플릿 [README](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm.m365-ems) 페이지에서 **Azure에** 배포를 선택하여 시작할 수 있습니다.
@@ -84,7 +84,7 @@ PowerShell을 통해 한 번에 하나의 단계씩 Azure 인프라의 요소를
 먼저, 로컬 컴퓨터에서 Windows PowerShell 명령 프롬프트를 시작합니다.
   
 > [!NOTE]
-> 다음 명령 집합은 최신 버전의 Azure PowerShell을 사용합니다. [Azure PowerShell cmdlet으로 시작](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/)을 참조하세요. 
+> 다음 명령 집합은 최신 버전의 Azure PowerShell을 사용합니다. [Azure PowerShell cmdlet으로 시작](/powershell/azureps-cmdlets-docs/)을 참조하세요. 
   
 다음 명령을 사용하여 Azure 계정에 로그인합니다.
   
@@ -98,7 +98,7 @@ Connect-AzAccount
 Get-AzSubscription | Sort Name | Select Name
 ```
 
-Azure 구독을 설정합니다. 괄호("<" 및 ">")를 포함하여 인용 부호 안에 있는 모든 것을 올바른 이름으로 바 대체합니다.
+Azure 구독을 설정합니다. 앵글 괄호("<" 및 ">")를 포함하여 인용 부호 안에 있는 모든 것을 올바른 이름으로 바칭합니다.
   
 ```powershell
 $subscr="<subscription name>"
@@ -111,7 +111,7 @@ Get-AzSubscription -SubscriptionName $subscr | Select-AzSubscription
 Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
-이러한 명령을 사용하여 새 리소스 그룹을 만듭니다. 앵글 괄호를 포함하여 인용 부호 안에 있는 모든 것을 올바른 이름으로 바칭합니다.
+이러한 명령을 사용하여 새 리소스 그룹을 만듭니다. 괄호를 포함하여 인용 부호 안에 있는 모든 것을 올바른 이름으로 바칭합니다.
   
 ```powershell
 $rgName="<resource group name>"
@@ -160,23 +160,23 @@ DC1의 로컬 관리자 계정에 대한 사용자 이름과 암호를 입력하
   
 다음으로 DC1 가상 컴퓨터에 연결합니다.
   
-1. Azure [Portal에서](https://portal.azure.com)DC1 Connect에 **> <** 리소스 그룹의 이름을 사용하여 리소스 ***> >***   >  **선택합니다.**
+1. Azure [Portal에서](https://portal.azure.com)리소스  그룹을 선택하고 > <리소스 그룹의 이름 _> > _ ****  >  **연결합니다.**
     
-2. 열린 창에서 **RDP 파일 다운로드를 선택합니다.** 다운로드한 DC1.rdp 파일을 열고 연결 을 **선택합니다.**
+2. 열린 창에서 **RDP 파일 다운로드를 선택합니다.** 다운로드한 DC1.rdp 파일을 열고 연결을 **선택합니다.**
     
 3. DC1 로컬 관리자 계정 이름을 지정합니다.
     
    - Windows 7:
     
-     Windows 보안 **대화** 상자에서 다른 계정 **사용을 선택합니다.** 사용자 **이름에** **DC1 \\** 로컬 관리자 계정 < *이름을 입력합니다>.*
+     Windows 보안 **대화** 상자에서 다른 계정 **사용을 선택합니다.** 사용자 **이름 에** **\\ DC1** 로컬 관리자 계정 < *이름*>.
     
    - Windows 8.1 또는 Windows 10:
     
-     Windows 보안 **대화** 상자에서 다른 옵션을 선택한 다음 다른 계정 **사용을 선택합니다.** 사용자 **이름에** **DC1 \\** 로컬 관리자 계정 < *이름을 입력합니다>.*
+     Windows **보안 대화** 상자에서 추가 **선택** 을 선택한 다음 다른 계정 사용을 **선택합니다.** 사용자 **이름 에** **\\ DC1** 로컬 관리자 계정 < *이름*>.
     
-4. **암호에서** 로컬 관리자 계정의 암호를 입력한 다음 확인을 **선택합니다.**
+4. **암호에서** 로컬 관리자 계정의 암호를 입력한 다음 확인 을 **선택합니다.**
     
-5. 메시지가 표시될 때 **예를 선택합니다.**
+5. 메시지가 표시될 때 예를 **선택합니다.**
     
 다음으로 DC1의 관리자 수준 Windows PowerShell 명령 프롬프트에서 다음 명령을 사용하여 추가 데이터 디스크를 드라이브 문자 F:의 새로운 볼륨으로 추가합니다.
   
@@ -184,7 +184,7 @@ DC1의 로컬 관리자 계정에 대한 사용자 이름과 암호를 입력하
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
 ```
 
-그런 다음, DC1을 **testlab.**\<*your public domain*> 도메인에 대한 도메인 컨트롤러 및 DNS 서버로 구성합니다. 공용 도메인 이름을 지정하고 앵글 괄호를 제거한 다음 DC1의 관리자 수준 Windows PowerShell 명령 프롬프트에서 다음 명령을 실행합니다.
+그런 다음, DC1을 **testlab.**\<*your public domain*> 도메인에 대한 도메인 컨트롤러 및 DNS 서버로 구성합니다. 공용 도메인 이름을 지정하고 괄호를 제거한 다음 DC1의 관리자 수준 Windows PowerShell 명령 프롬프트에서 다음 명령을 실행합니다.
   
 ```powershell
 $yourDomain="<your public domain>"
@@ -197,17 +197,17 @@ Install-ADDSForest -DomainName testlab.$yourDomain -DatabasePath "F:\NTDS" -Sysv
   
 DC1이 다시 시작되면 DC1 가상 머신에 다시 연결합니다.
   
-1. Azure [Portal에서](https://portal.azure.com) **DC1** Connect에서 리소스  **> <** 그룹> > 그룹을  >  **선택합니다.**
+1. Azure [Portal에서](https://portal.azure.com)리소스  그룹 > <DC1 Connect에서 리소스 *> >*   >  **선택합니다.**
     
-2. 다운로드한 DC1.rdp 파일을 실행한 다음 Connect를 **선택합니다.**
+2. 다운로드한 DC1.rdp 파일을 실행한 다음 연결을 **선택합니다.**
     
-3. Windows **보안에서** 다른 **계정 사용 선택**. 사용자 **이름에** **TESTLAB \\** 로컬 관리자 계정 < *이름을 입력합니다>.*
+3. **Windows 보안에서** 다른 계정 **사용을 선택합니다.** 사용자 **이름에** **TESTLAB \\** 로컬 관리자 계정 < *이름 입력을>.*
     
-4. 암호 **상자에** 로컬 관리자 계정의 암호를 입력한 다음 확인을 **선택합니다.**
+4. 암호 **상자에** 로컬 관리자 계정의 암호를 입력한 다음 확인 을 **선택합니다.**
     
-5. 메시지가 표시될 때 **예를 선택합니다.**
+5. 메시지가 표시될 때 예를 **선택합니다.**
     
-다음으로, TESTLAB 도메인 구성원 컴퓨터에 로그인할 때 사용할 사용자 계정을 Active Directory에 생성합니다. 관리자 수준 명령 프롬프트에서 Windows PowerShell 실행합니다.
+다음으로, TESTLAB 도메인 구성원 컴퓨터에 로그인할 때 사용할 사용자 계정을 Active Directory에 생성합니다. 관리자 수준의 명령 프롬프트에서 Windows PowerShell 실행합니다.
   
 ```powershell
 New-ADUser -SamAccountName User1 -AccountPassword (read-host "Set user password" -assecurestring) -name "User1" -enabled $true -PasswordNeverExpires $true -ChangePasswordAtLogon $false
@@ -335,19 +335,19 @@ CLIENT1을 다시 시작한 후에 TESTLAB\\User1 계정 이름 및 암호를 �
   
 그런 후 CLIENT1에서 APP1의 웹 및 파일 공유 리소스에 액세스할 수 있는지 확인합니다.
   
-1. 서버 관리자의 트리 창에서 로컬 **서버를 선택합니다.**
+1. 서버 관리자의 트리 창에서 로컬 서버 **를 선택합니다.**
     
-2. **CLIENT1의 속성에서** IE **보안** 강화 구성 **옆의 On을 선택합니다.**
+2. **CLIENT1의 속성에서** IE **보안 강화** 구성 옆에 **있는 을 선택합니다.**
     
-3. 보안 **Internet Explorer** 구성에서 관리자 및  사용자에  대해 해제를 선택한 다음 확인을 **선택합니다.**
+3. 보안 **Internet Explorer** 에서 관리자 및  사용자에  대해 끄기 를 선택하고 확인 을 **선택합니다.**
     
-4. 시작 화면에서 Internet Explorer **선택한** 다음 확인을 **선택합니다.**
+4. 시작 화면에서 를 **Internet Explorer** 를 선택한 다음 확인 을 **선택합니다.**
     
-5. 주소 표시줄에 **http <span>://</span>app1.testab를** 입력하고 \<*your public domain name*> **/** Enter 를 **누르고 있습니다.** APP1에 대한 기본 인터넷 정보 서비스 웹 페이지가 표시됩니다.
+5. 주소 표시줄에 **http <span>://</span>app1.testab.** 를 입력한 \<*your public domain name*> **/** 다음 **Enter를 입력합니다.** APP1에 대한 기본 인터넷 정보 서비스 웹 페이지가 표시됩니다.
     
 6. 데스크톱 작업 표시줄에서 파일 탐색기 아이콘을 선택합니다.
     
-7. 주소 표시줄에 **\\ \\ app1 \\ 파일을 입력한** 다음 Enter 를 **누르고 있습니다.** Files 공유 폴더의 내용이 있는 폴더 창이 표시됩니다.
+7. 주소 표시줄에 **\\ \\ app1 Files 를 \\ 입력한** 다음 Enter 를 **입력합니다.** Files 공유 폴더의 내용이 있는 폴더 창이 표시됩니다.
     
 8. **Files** 공유 폴더 창에서 **Example.txt** 파일을 두 번 클릭합니다. Example.txt 파일의 내용을 표시됩니다.
     
@@ -367,7 +367,7 @@ CLIENT1을 다시 시작한 후에 TESTLAB\\User1 계정 이름 및 암호를 �
 
 - 적은 수의 라이선스로 Microsoft 365 E5의 별도 프로덕션 구독을 사용합니다.
 
-  이 경우 추가 비용이 들지만 만료되지 않는 작업 테스트 환경이 있습니다. 기능, 구성 및 시나리오를 시도할 수 있습니다. 개념 증명, 피어 및 관리에 대한 데모, 응용 프로그램 개발 및 테스트를 위해 장기적으로 동일한 테스트 환경을 사용할 수 있습니다. 이 방법이 권장됩니다.
+  이 경우 추가 비용이 들지만 만료되지 않는 작업 테스트 환경이 확보됩니다. 기능, 구성 및 시나리오를 시도할 수 있습니다. 개념 증명, 피어 및 관리에 대한 데모, 응용 프로그램 개발 및 테스트를 위해 장기적으로 동일한 테스트 환경을 사용할 수 있습니다. 이 방법을 사용하는 것이 좋습니다.
 
 ### <a name="sign-up-for-an-office-365-e5-trial-subscription"></a>Office 365 E5 평가판 구독 등록
 
@@ -385,7 +385,7 @@ Microsoft 365 및 Office 365에 적용되는 추가 테스트 랩 가이드는 [
 
 ### <a name="add-a-microsoft-365-e5-trial-subscription"></a>Microsoft 365 E5 평가판 구독 추가
 
-Microsoft 365 E5 평가판 구독을 추가하고 라이선스를 통해 사용자 계정을 구성하려면 간단한 기본 구성 테스트 [랩 가이드의 3단계에](lightweight-base-configuration-microsoft-365-enterprise.md#phase-3-add-a-microsoft-365-e5-trial-subscription) 있는 지침을 수행하십시오.
+Microsoft 365 E5 평가판 구독을 추가하고 라이선스를 통해 사용자 계정을 구성하려면 간단한 기본 구성 테스트 [랩 가이드의 3단계에](lightweight-base-configuration-microsoft-365-enterprise.md#phase-3-add-a-microsoft-365-e5-trial-subscription) 있는 지침을 수행하세요.
 
   
 ## <a name="results"></a>결과
@@ -416,4 +416,4 @@ Microsoft 365 E5 평가판 구독을 추가하고 라이선스를 통해 사용�
 
 [엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 
-[기업용 Microsoft 365 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)
+[기업용 Microsoft 365 설명서](/microsoft-365-enterprise/)

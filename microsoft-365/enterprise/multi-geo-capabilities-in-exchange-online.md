@@ -12,12 +12,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: 'Exchange Online의 다중 위치 기능(예: 기능 제한 및 사서함 배치)에 대해 자세히 알아보습니다.'
-ms.openlocfilehash: ca7203c72f23fd03512bf23eaa5a4687e4bac1b5
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: bf1c3c8f510c57f47cbfc7b2609d97f5932e05d3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692606"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923735"
 ---
 # <a name="multi-geo-capabilities-in-exchange-online"></a>Exchange Online의 다중 위치 기능
 
@@ -59,4 +59,4 @@ Exchange Online에서 Azure AD의 **PreferredDataLocation** 속성을 Exchange O
 
 - 공용 폴더는 다중 지역 조직에서 지원됩니다. 그러나 공용 폴더가 중앙 지리적 위치에 있어야 합니다. 공용 폴더를 위성의 지리적 위치로 이동할 수 없습니다.
 
-- 다중 지리적 환경에서는 지역 횡단 사서함 감사가 지원되지 않습니다. 예를 들어 사용자가 다른 지리적 위치에서 공유 사서함에 액세스할 수 있는 권한을 할당받더라도 그 사용자가 수행한 사서함 작업이 공유 사서함의 사서함 감사 로그에 기록되지 않습니다. 자세한 내용은 [사서함 감사 관리](https://docs.microsoft.com/microsoft-365/compliance/enable-mailbox-auditing?view=o365-worldwide)를 참조하세요.
+- 다중 지리적 환경에서는 지역 횡단 사서함 감사가 지원되지 않습니다. 예를 들어 사용자가 다른 지리적 위치에서 공유 사서함에 액세스할 수 있는 권한을 할당받더라도 그 사용자가 수행한 사서함 작업이 공유 사서함의 사서함 감사 로그에 기록되지 않습니다. 자세한 내용은 [사서함 감사 관리](../compliance/enable-mailbox-auditing.md?view=o365-worldwide)를 참조하세요.

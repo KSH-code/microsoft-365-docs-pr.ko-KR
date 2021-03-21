@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 레코드 선언
-ms.openlocfilehash: 34b5272a8bed9be01c3965dae258c88facec0145
-ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
+ms.openlocfilehash: fd88858c8d5cd1870f594050607b784a9dc5b78c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48830607"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925664"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>보존 레이블을 사용하여 레코드 선언
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 문서 및 전자 메일을 [레코드](records-management.md#records)로 선언하려면 콘텐츠를 **레코드** 또는 **규제 레코드** 로 표시하는 [보존 레이블](retention.md#retention-labels)을 사용합니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "48830607"
 
 기본적으로 내용을 규제 레코드로 표시하는 보존 레이블 옵션은 보존 레이블 마법사에 표시되지 않습니다. 이 옵션을 표시하려면 먼저 PowerShell 명령을 실행해야 합니다.
 
-1. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다.
+1. [Office 365 보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다.
 
 2. 다음 cmdlet을 실행합니다.
     

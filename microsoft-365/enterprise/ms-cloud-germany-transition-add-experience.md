@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우의 추가 고객 환경 정보입니다.'
-ms.openlocfilehash: 8dcb8b8ab2ec5c3dea105380858d26cfd5537d9c
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 84705eaf78da4d1e8d35f743599f6a4e9e46208f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712285"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924425"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-advanced"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향(고급) 
 
@@ -42,7 +42,7 @@ ms.locfileid: "50712285"
 | Step(s) | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
 | 도이클란드 Microsoft 클라우드의 Azure AD 테넌트가 Office 365 서비스에 복사됩니다. | Azure AD는 테넌트를 Office 365 서비스에 복사합니다. 테넌트 및 사용자 식별자는 보존됩니다. Azure AD 서비스 통화는 도이치클란드 Microsoft 클라우드에서 Office 365 서비스로 리디렉션되고 서비스에 투명합니다. | 모든 Office 고객 | - GDPR(일반 데이터 보호 규정) DSR(데이터 주체 요청)은 향후 요청을 위해 Azure 관리 포털에서 실행됩니다. 도이클란드 Microsoft 클라우드에 있는 레거시 또는 비 고객 진단 데이터는 30일 전 또는 30일 전에 삭제됩니다. <br><br> - AD FS(Active Directory Federation Services)에서 페더전된 인증을 사용하는 고객은 마이그레이션 중의 모든 인증에 사용되는 발급자 URIS를 변경하지 말아야 합니다. 발급자 URIS를 변경하면 도메인의 사용자에 대한 인증 오류가 발생합니다. 발급자 URIS는 AD FS에서 직접 변경하거나 도메인이  관리에서  페더러티로 변환되고 그 반대의 경우도 마찬가지입니다. 고객은 마이그레이션된 Azure AD 테넌트에서 페더넌트 도메인을 추가, 제거 또는 변환하지 않는 것이 좋습니다. 발급자 URIS는 마이그레이션이 완전히 완료된 후 변경할 수 있습니다. <br><br> - 테넌트가 Office 365 서비스에 복사되는 동안 Microsoft Authenticator를 사용하는 MFA(다단계 인증) 요청은 사용자 ObjectID(GUID)로 표시됩니다. 이러한 표시 동작에도 불구하고 MFA 요청은 예상대로 수행됩니다.  Office 365 서비스 끝점을 사용하여 활성화된 Microsoft Authenticator 계정에 UPN(사용자 계정 이름)이 표시됩니다.  도이치클라드 Microsoft 클라우드 끝점을 사용하여 추가된 계정은 사용자 ObjectID를 표시하지만 도이클란드 Microsoft 클라우드 및 Office 365 서비스 끝점에서 모두 사용할 수 있습니다.  |
-| Azure 리소스 마이그레이션. | Office 365 및 Azure 리소스(예: 네트워킹, 계산 및 저장소)를 사용하는 고객은 Office 365 서비스 인스턴스로 리소스 마이그레이션을 수행하게 됩니다. 이 마이그레이션은 고객의 책임입니다. 메시지 센터 게시물에 시작 신호가 표시됩니다. Office 365 서비스 환경에서 Azure AD 조직을 완료하기 전에 마이그레이션을 완료해야 합니다. | Azure 고객 | Azure 마이그레이션의 경우 Azure 마이그레이션 플레이북, Azure Germany에 대한 마이그레이션 [지침 개요를 참조하세요.](https://docs.microsoft.com/azure/germany/germany-migration-main) |
+| Azure 리소스 마이그레이션. | Office 365 및 Azure 리소스(예: 네트워킹, 계산 및 저장소)를 사용하는 고객은 Office 365 서비스 인스턴스로 리소스 마이그레이션을 수행하게 됩니다. 이 마이그레이션은 고객의 책임입니다. 메시지 센터 게시물에 시작 신호가 표시됩니다. Office 365 서비스 환경에서 Azure AD 조직을 완료하기 전에 마이그레이션을 완료해야 합니다. | Azure 고객 | Azure 마이그레이션의 경우 Azure 마이그레이션 플레이북, Azure Germany에 대한 마이그레이션 [지침 개요를 참조하세요.](/azure/germany/germany-migration-main) |
 |||||
 
 ### <a name="exchange-online-before-phase-5"></a>5단계 이전 Exchange Online
@@ -84,7 +84,7 @@ ms.locfileid: "50712285"
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
-| 4단계의 시작부터 9단계까지 eDiscovery 검색은 실패하거나 마이그레이션된 SharePoint Online, 비즈니스용 OneDrive 및 Exchange Online 위치에 대해 0개 결과를 반환합니다. | 마이그레이션 중에 고객은 콘텐츠 검색을 포함하여 보안 및 준수 센터에서 사례, 보류& 검색 [및 내보내기 &](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)수 [있습니다.](https://docs.microsoft.com/microsoft-365/compliance/search-for-content)  그러나 마이그레이션된 SharePoint Online, 비즈니스용 OneDrive 및 Exchange Online 위치를 검색하면 0개 결과가 반환되거나 오류가 발생합니다. 수정에 대한 자세한 내용은 영향 _열을 참조합니다._ | 마이그레이션 중 검색에서 결과 0개 또는 오류가 반환될 경우 SharePoint Online에 대해 다음 작업을 수행하세요. <ul><li>OneDrive 또는 SharePoint에서 파일 및 폴더 다운로드의 지침에 따라 SharePoint Online/ 비즈니스용 [OneDrive](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05)사이트에서 직접 사이트를 다운로드합니다. 이 방법을 사용하려면 사이트에 대한 SharePoint Online 관리자 권한 또는 읽기 전용 권한이 필요합니다.</li><li>[OneDrive 또는 SharePoint에서](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05)파일 및 폴더 다운로드에 설명된 제한을 초과하는 경우 고객은 [컴퓨터와 SharePoint](https://support.office.com/article/sync-sharepoint-files-with-the-new-onedrive-sync-app-6de9ede8-5b6e-4503-80b2-6190f3354a88)및 Teams 파일 동기화의 지침에 따라 비즈니스용 OneDrive 동기화 클라이언트를 사용할 수 있습니다.</li><li>자세한 내용은  [In-Place eDiscovery in Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/ediscovery/ediscovery) |
+| 4단계의 시작부터 9단계까지 eDiscovery 검색은 실패하거나 마이그레이션된 SharePoint Online, 비즈니스용 OneDrive 및 Exchange Online 위치에 대해 0개 결과를 반환합니다. | 마이그레이션 중에 고객은 콘텐츠 검색을 포함하여 보안 및 준수 센터에서 사례, 보류& 검색 [및 내보내기 &](../compliance/manage-legal-investigations.md)수 [있습니다.](../compliance/search-for-content.md)  그러나 마이그레이션된 SharePoint Online, 비즈니스용 OneDrive 및 Exchange Online 위치를 검색하면 0개 결과가 반환되거나 오류가 발생합니다. 수정에 대한 자세한 내용은 영향 _열을 참조합니다._ | 마이그레이션 중 검색에서 결과 0개 또는 오류가 반환될 경우 SharePoint Online에 대해 다음 작업을 수행하세요. <ul><li>OneDrive 또는 SharePoint에서 파일 및 폴더 다운로드의 지침에 따라 SharePoint Online/ 비즈니스용 [OneDrive](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05)사이트에서 직접 사이트를 다운로드합니다. 이 방법을 사용하려면 사이트에 대한 SharePoint Online 관리자 권한 또는 읽기 전용 권한이 필요합니다.</li><li>[OneDrive 또는 SharePoint에서](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05)파일 및 폴더 다운로드에 설명된 제한을 초과하는 경우 고객은 [컴퓨터와 SharePoint](https://support.office.com/article/sync-sharepoint-files-with-the-new-onedrive-sync-app-6de9ede8-5b6e-4503-80b2-6190f3354a88)및 Teams 파일 동기화의 지침에 따라 비즈니스용 OneDrive 동기화 클라이언트를 사용할 수 있습니다.</li><li>자세한 내용은  [In-Place eDiscovery in Exchange Server](/Exchange/policy-and-compliance/ediscovery/ediscovery) |
 ||||
 
 ## <a name="post-migration"></a>마이그레이션 후
@@ -179,6 +179,6 @@ Office 365 서비스 끝점에 대한 타사 서비스:
 
 클라우드 앱:
 
-- [Dynamics 365 마이그레이션 프로그램 정보](https://aka.ms/d365ceoptin)
-- [Power BI 마이그레이션 프로그램 정보](https://aka.ms/pbioptin)
-- [Microsoft Teams 업그레이드 시작하기](https://aka.ms/SkypeToTeams-Home)
+- [Dynamics 365 마이그레이션 프로그램 정보](/dynamics365/get-started/migrate-data-german-region)
+- [Power BI 마이그레이션 프로그램 정보](/power-bi/admin/service-admin-migrate-data-germany)
+- [Microsoft Teams 업그레이드 시작하기](/microsoftteams/upgrade-start-here)

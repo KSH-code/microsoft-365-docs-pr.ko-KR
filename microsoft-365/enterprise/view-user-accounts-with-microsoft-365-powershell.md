@@ -19,13 +19,13 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: bb12f49d-a85d-4f3b-ada2-5c4e33977b10
-description: PowerShell을 통해 다양한 방식으로 Microsoft 365 사용자 계정을 보거나, 나열하거나, 표시하는 방법을 자세히 알아보는 방법을 배워야 합니다.
-ms.openlocfilehash: 312e9fb983c4d1f4de8bc74586c88f1e669eb90a
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+description: PowerShell을 통해 다양한 방식으로 Microsoft 365 사용자 계정을 보거나, 나열하거나, 표시하는 방법을 학습합니다.
+ms.openlocfilehash: de91195afeb8480bf231d9536e4b3a94502a6da1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754075"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924651"
 ---
 # <a name="view-microsoft-365-user-accounts-with-powershell"></a>PowerShell을 통해 Microsoft 365 사용자 계정 보기
 
@@ -76,7 +76,7 @@ Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com
 
 기본적으로 **Get-AzureADUser** cmdlet은 계정의 *ObjectID,* *DisplayName* 및 *UserPrincipalName* 속성만 표시합니다.
 
-표시할 속성에 대해 보다 선택적으로 선택하려면 **Get-AzureADUser**  cmdlet과 함께 Select cmdlet을 사용하세요. 두 cmdlet을 결합하기 위해 "파이프" 문자("|")를 사용하여 Graph용 Azure Active Directory PowerShell에 한 명령의 결과를 받아 다음 명령으로 전송합니다. 다음은 모든 사용자 계정에 대한 *DisplayName,* *Department* 및 *UsageLocation을* 표시하는 명령의 예입니다.
+표시할 속성에 대해 보다 선택적으로 선택하려면 **Get-AzureADUser**  cmdlet과 함께 Select cmdlet을 사용하세요. 두 cmdlet을 결합하기 위해 "파이프" 문자("|")를 사용하여 Graph용 Azure Active Directory PowerShell에 한 명령의 결과를 받아 다음 명령으로 전송합니다. 다음은 모든 사용자 계정에 대한 *DisplayName,* *Department* 및 *UsageLocation을* 표시하는 예제 명령입니다.
   
 ```powershell
 Get-AzureADUser | Select DisplayName,Department,UsageLocation
@@ -86,15 +86,15 @@ Get-AzureADUser | Select DisplayName,Department,UsageLocation
   
 1. 사용자 **계정(Get-AzureADUser)에** 대한 모든 정보를 확인하여 다음 명령()으로 **|** 전송합니다.
     
-1.  사용자 계정 이름, 부서 및 사용 **위치(DisplayName, Department, UsageLocation 선택)만 표시합니다.**
+1.  사용자 계정 이름, 부서 및 사용 위치만 표시합니다(**DisplayName, Department, UsageLocation 선택).**
   
-특정 사용자 계정에 대한 모든 속성을 표시하려면 **Select** cmdlet과 와일드카드 문자(*)를 사용하세요. 예를 들면 다음과 같습니다.
+특정 사용자 계정에 대한 모든 속성을 표시하려면 **Select** cmdlet 및 와일드카드 문자(*)를 사용하세요. 예를 들면 다음과 같습니다.
   
 ```powershell
 Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com | Select *
 ```
 
-다른 예로, 다음 명령을 실행하여 특정 사용자 계정의 사용 상태를 확인합니다.
+다른 예로 다음 명령을 실행하여 특정 사용자 계정의 사용 상태를 확인합니다.
   
 ```powershell
 Get-AzureADUser -ObjectID <sign-in name of the user account> | Select DisplayName,UserPrincipalName,AccountEnabled
@@ -104,18 +104,18 @@ Get-AzureADUser -ObjectID <sign-in name of the user account> | Select DisplayNam
 
 사용자 계정에는 다음 두 가지 원본이 있습니다. 
 
-- Windows Server AD(Active Directory) - 클라우드로의 동기화 계정입니다.
+- Windows Server AD(Active Directory)는 사내 AD에서 클라우드로 동기화되는 계정입니다.
 
 - 클라우드에서 직접 생성되는 Azure AD(Azure Active Directory) AD 계정
 
 
-다음 명령은 *DirSyncEnabled* 특성이 True로 설정된 모든 사용자를 PowerShell에 *지시합니다.* 이 계정을 사용하여 이 계정을 사용하여 On-premise AD에서 동기화하는 계정을 찾을 수 있습니다.
+다음 명령은 *DirSyncEnabled* 특성이 True로 설정된 모든 사용자를 하게 PowerShell에 *지시합니다.* 이를 사용하여 사내 AD에서 동기화하는 계정을 찾을 수 있습니다.
 
 ```powershell
 Get-AzureADUser | Where {$_.DirSyncEnabled -eq $true}
 ```
 
-다음 명령은 *DirSyncEnabled* 특성이 False로 설정된 모든 사용자를 PowerShell에 *지시합니다.* 이 계정을 사용하여 클라우드 전용 계정을 찾을 수 있습니다.
+다음 명령은 *DirSyncEnabled* 특성이 False로 설정된 모든 사용자를 얻게 PowerShell에 *지시합니다.* 클라우드 전용 계정을 찾는 데 사용할 수 있습니다.
 
 ```powershell
 Get-AzureADUser | Where {$_.DirSyncEnabled -ne $false}
@@ -123,19 +123,19 @@ Get-AzureADUser | Where {$_.DirSyncEnabled -ne $false}
 
 ### <a name="view-accounts-based-on-a-common-property"></a>공통 속성을 기반으로 계정 보기
 
-표시할 계정 목록에 대해 보다 선택적으로 선택하려면 **Where** cmdlet을 **Get-AzureADUser** cmdlet과 함께 사용하면 됩니다. 두 cmdlet을 결합하기 위해 "파이프" 문자("|")를 사용하여 Graph용 Azure Active Directory PowerShell에 한 명령의 결과를 받아 다음 명령으로 전송합니다. 다음은 지정되지 않은 사용 위치가 있는 사용자 계정만 표시하는 명령의 예입니다.
+표시할 계정 목록에 대해 보다 선택적으로 사용하려면 **Where** cmdlet을 **Get-AzureADUser** cmdlet과 함께 사용하면 됩니다. 두 cmdlet을 결합하기 위해 "파이프" 문자("|")를 사용하여 Graph용 Azure Active Directory PowerShell에 한 명령의 결과를 받아 다음 명령으로 전송합니다. 다음은 지정되지 않은 사용 위치가 있는 사용자 계정만 표시하는 예제 명령입니다.
   
 ```powershell
 Get-AzureADUser | Where {$_.UsageLocation -eq $Null}
 ```
 
-이 명령은 Graph용 Azure Active Directory PowerShell에 다음을 지시합니다.
+이 명령은 Azure Active Directory PowerShell for Graph에 다음을 지시합니다.
   
 1. 사용자 **계정(Get-AzureADUser)에** 대한 모든 정보를 확인하여 다음 명령()으로 **|** 전송합니다.
     
-1. 미지정 사용 위치(Where {$)가 있는 모든 사용자 **계정을 찾아야 \_ 합니다. UsageLocation -eq $Null}**). 중괄호 안에 있는 명령은 UsageLocation 사용자 계정 속성(.**$ \_ UsageLocation**)이 지정되지 **않았습니다(-eq $Null).**
+1. 미지정 사용 위치가 있는 모든 사용자 **계정(Where {$ \_ 을 찾아야 합니다. UsageLocation -eq $Null}**). 중괄호 안의 명령은 PowerShell에 UsageLocation 사용자 계정 속성이 있는 계정 집합만 찾게 **$ \_ 합니다. UsageLocation**)이 지정되지 않았습니다(**-eq $Null).**
     
-**UsageLocation 속성은** 사용자 계정과 연결된 여러 속성 중 하나일 뿐입니다. 특정 사용자 계정에 대한 모든 속성을 표시하려면 **Select** cmdlet과 와일드카드 문자(*)를 사용하세요. 예를 들면 다음과 같습니다.
+**UsageLocation 속성은** 사용자 계정과 연결된 여러 속성 중 하나일 뿐입니다. 특정 사용자 계정에 대한 모든 속성을 표시하려면 **Select** cmdlet 및 와일드카드 문자(*)를 사용하세요. 예를 들면 다음과 같습니다.
   
 ```powershell
 Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com | Select *
@@ -148,7 +148,7 @@ Get-AzureADUser | Where {$_.City -eq "London"}
 ```
 
 > [!TIP]
->  이 예제의 **Where** cmdlet 구문은 **Where {$ \_ 입니다.** [사용자 계정 속성 이름] [비교 연산자] [value] **}**.> [비교 연산자]는 **-eq이고,** 같지 않은 경우 **-ne,** **-lt이면 -lt,** 보다 크면 **-gt입니다.**  [value]는 일반적으로 문자열(문자, 숫자 및 기타 문자 시퀀스), 숫자 값  또는 지정되지 않은 $Null 값입니다. 자세한 내용은 [Where를 참조하세요.](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)
+>  이 예제의 **Where** cmdlet에 대한 구문은 **Where {$ \_ 입니다.** [사용자 계정 속성 이름] [비교 연산자] [value] **}**.> [비교 연산자]는 **-eq가** 같음, **-ne이면** 같지 않습니다. **-lt는** 보다 작음, -gt이면 보다 크면 **-gt입니다.**  [value]는 일반적으로 문자열(문자, 숫자 및 기타 문자 시퀀스), 숫자 값  또는 지정되지 않은 $Null 값입니다. 자세한 내용은 Where 를 [참조하세요.](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)
   
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈 사용하기
@@ -179,7 +179,7 @@ AnneWlitwareinc.onmicrosoft.com       Anne Wallace          True
 ScottW@litwareinc.onmicrosoft.com     Scott Wallace         False
 ```
 
-**Get-msoluser** cmdlet에도 매개 변수 집합이 있어 표시된 사용자 계정 집합을 필터링할 수 있습니다. 예를 들어 허가되지 않은 사용자(Microsoft 365에 추가했지만 서비스를 사용할 수 있는 라이선스가 아직 부여되지 않은 사용자)의 경우 다음 명령을 실행합니다.
+**Get-msoluser** cmdlet에도 매개 변수 집합이 있어 표시된 사용자 계정 집합을 필터링할 수 있습니다. 예를 들어 허가되지 않은 사용자(Microsoft 365에 추가했지만 서비스를 사용할 수 있는 라이선스가 아직 부여되지 않은 사용자) 목록의 경우 다음 명령을 실행합니다.
   
 ```powershell
 Get-MsolUser -UnlicensedUsersOnly
@@ -194,7 +194,7 @@ BrianJ@litwareinc.onmicrosoft.com     Brian Johnson         False
 ScottW@litwareinc.onmicrosoft.com     Scott Wallace         False
 ```
 
-표시되는 사용자 계정 집합을 필터링하는 추가 매개 변수에 대한 자세한 내용은 [Get-MsolUser를 참조하십시오.](https://docs.microsoft.com/previous-versions/azure/dn194133(v=azure.100))
+표시되는 사용자 계정 집합을 필터링하는 추가 매개 변수에 대한 자세한 내용은 [Get-MsolUser 를 참조하세요.](/previous-versions/azure/dn194133(v=azure.100))
   
 ### <a name="view-a-specific-account"></a>특정 계정 보기
 
@@ -206,7 +206,7 @@ Get-MsolUser -UserPrincipalName <sign-in name of the user account>
 
 ### <a name="view-accounts-based-on-a-common-property"></a>공통 속성을 기반으로 계정 보기
 
-표시할 계정 목록에 대해 보다 선택적으로 선택하려면 **Where** cmdlet을 **Get-MsolUser** cmdlet과 함께 사용하면 됩니다. 두 cmdlet을 결합하기 위해 PowerShell에 한 명령의 결과를 받아 다음 명령으로 보내라고 하는 "파이프" 문자("|")를 사용 합니다. 다음은 지정되지 않은 사용 위치가 있는 사용자 계정만 표시하는 예입니다.
+표시할 계정 목록에 대해 보다 선택적으로 사용하려면 **Where** cmdlet을 **Get-MsolUser** cmdlet과 함께 사용하면 됩니다. 두 cmdlet을 결합하기 위해 PowerShell에 한 명령의 결과를 받아 다음 명령으로 보내라고 알려주는 "파이프" 문자("|")를 사용 합니다. 다음은 지정되지 않은 사용 위치가 있는 사용자 계정만 표시하는 예입니다.
   
 ```powershell
 Get-MsolUser | Where {$_.UsageLocation -eq $Null}
@@ -216,7 +216,7 @@ Get-MsolUser | Where {$_.UsageLocation -eq $Null}
   
 1. 사용자 **계정(Get-MsolUser)에** 대한 모든 정보를 확인하여 다음 명령()으로 **|** 전송합니다.
     
-1. 미지정 사용 위치(Where {$)가 있는 모든 **사용자 계정을 찾아야 \_ 합니다. UsageLocation -eq $Null}**). 중괄호 안에 있는 명령은 UsageLocation 사용자 계정 속성(.**$ \_ UsageLocation**)이 지정되지 **않았습니다(-eq $Null).**
+1. 미지정 사용 위치가 있는 모든 사용자 **계정(Where {$ \_ 을 찾아야 합니다. UsageLocation -eq $Null}**). 중괄호 안의 명령은 PowerShell에 UsageLocation 사용자 계정 속성이 있는 계정 집합만 찾게 **$ \_ 합니다. UsageLocation**)이 지정되지 않았습니다(**-eq $Null).**
     
 다음 정보를 얻을 수 있습니다.
   
@@ -241,9 +241,9 @@ Get-MsolUser | Where {$_.City -eq "London"}
 ```
 
 > [!TIP]
->  이 예제의 **Where** cmdlet 구문은 **Where {$ \_ 입니다.** [사용자 계정 속성 이름] [비교 연산자] [value] **}**.  [비교 연산자]는 **-eq(같음)** - **ne이면** 같음, **-lt는** 작음, **-gt는** 보다 크면 등입니다.  [value]는 일반적으로 문자열(문자, 숫자 및 기타 문자 시퀀스), 숫자 값  또는 지정되지 않은 $Null 값입니다. 자세한 내용은 [Where를 참조하세요.](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)
+>  이 예제의 **Where** cmdlet에 대한 구문은 **Where {$ \_ 입니다.** [사용자 계정 속성 이름] [비교 연산자] [value] **}**.  [비교 연산자]는 **-eq가** 같음, **-ne이면** 같지 않습니다. **-lt는** 보다 작음, -gt 보다 크면 **-gt입니다.**  [value]는 일반적으로 문자열(문자, 숫자 및 기타 문자 시퀀스), 숫자 값  또는 지정되지 않은 $Null 값입니다. 자세한 내용은 Where 를 [참조하세요.](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)
   
-사용자 계정의 차단된 상태를 확인하려면 다음 명령을 사용하세요.
+사용자 계정의 차단 상태를 확인하려면 다음 명령을 사용하세요.
   
 ```powershell
 Get-MsolUser -UserPrincipalName <UPN of user account> | Select DisplayName,BlockCredential
@@ -259,7 +259,7 @@ Get-MsolUser -UserPrincipalName <UPN of user account> | Select DisplayName,Block
     
 - isLicensed
     
-사용자가 작업하는 부서, Microsoft 365 서비스를 사용하는 국가/지역 등의 추가 속성이 필요한 경우 Select cmdlet과 함께  **Get-MsolUser를** 실행하여 사용자 계정 속성 목록을 지정할 수 있습니다. 예를 들면 다음과 같습니다.
+사용자가 작업하는 부서, Microsoft 365 서비스를 사용하는 국가/지역 등의 추가 속성이 필요한 경우 **Get-MsolUser를** **Select** cmdlet과 함께 실행하여 사용자 계정 속성 목록을 지정할 수 있습니다. 예를 들면 다음과 같습니다.
   
 ```powershell
 Get-MsolUser | Select DisplayName, Department, UsageLocation
@@ -267,9 +267,9 @@ Get-MsolUser | Select DisplayName, Department, UsageLocation
 
 이 명령은 PowerShell에 지시합니다.
   
-1. 사용자 **계정(Get-MsolUser)에** 대한 모든 정보를 확인하여 다음 명령()으로 **|** 전송합니다.
+1. 사용자 **계정(Get-MsolUser)에** 대한 모든 정보를 확인하여 다음 명령( )으로 **|** 전송합니다.
     
-1. 사용자 계정 이름, 부서 및 사용 **위치(DisplayName, Department, UsageLocation 선택)만 표시합니다.**
+1. 사용자 계정 이름, 부서 및 사용 위치만 표시합니다(**DisplayName, Department, UsageLocation 선택).**
     
 다음 정보를 얻을 수 있습니다.
   
@@ -290,7 +290,7 @@ Select  cmdlet을 사용하면 표시할 속성을 선택할 수 있습니다. �
 Get-MsolUser -UserPrincipalName BelindaN@litwareinc.onmicosoft.com | Select *
 ```
 
-표시할 계정 목록에 대해 보다 선택적으로 선택하려면 **Where** cmdlet을 사용할 수도 있습니다. 다음은 지정되지 않은 사용 위치가 있는 사용자 계정만 표시하는 명령의 예입니다.
+표시할 계정 목록에 대해 보다 선택적으로 선택하려면 **Where** cmdlet을 사용할 수도 있습니다. 다음은 지정되지 않은 사용 위치가 있는 사용자 계정만 표시하는 예제 명령입니다.
   
 ```powershell
 Get-MsolUser | Where {$_.UsageLocation -eq $Null} | Select DisplayName, Department, UsageLocation
@@ -298,11 +298,11 @@ Get-MsolUser | Where {$_.UsageLocation -eq $Null} | Select DisplayName, Departme
 
 이 명령은 PowerShell에 지시합니다.
   
-1. 사용자 **계정(Get-MsolUser)에** 대한 모든 정보를 확인하여 다음 명령()으로 **|** 전송합니다.
+1. 사용자 **계정(Get-MsolUser)에** 대한 모든 정보를 확인하여 다음 명령( )으로 **|** 전송합니다.
     
-1. 미지정 사용 위치(Where {$)가 있는 모든 **사용자 계정을 찾아야 \_ 합니다. UsageLocation -eq $Null}를** 사용하여 다음 명령()에 결과 정보를 **|** 전송합니다. 중괄호 안에 있는 명령은 UsageLocation 사용자 계정 속성(.**$ \_ UsageLocation**)이 지정되지 **않았습니다(-eq $Null).**
+1. 미지정 사용 위치가 있는 모든 사용자 **계정(Where {$ \_ 을 찾아야 합니다. UsageLocation -eq $Null}**) 및 다음 명령()에 결과 정보를 **|** 전송합니다. 중괄호 안의 명령은 PowerShell에 UsageLocation 사용자 계정 속성이 있는 계정 집합만 찾게 **$ \_ 합니다. UsageLocation**)이 지정되지 않았습니다(**-eq $Null).**
     
-1. 사용자 계정 이름, 부서 및 사용 **위치(DisplayName, Department, UsageLocation 선택)만 표시합니다.**
+1. 사용자 계정 이름, 부서 및 사용 위치만 표시합니다(**DisplayName, Department, UsageLocation 선택).**
     
 다음 정보를 얻을 수 있습니다.
   
@@ -315,7 +315,7 @@ Scott Wallace            Operations
 
 디렉터리 동기화를 사용하여 Microsoft 365 사용자를 만들고 관리하는 경우 Microsoft 365 사용자가 프로젝트된 로컬 계정을 표시할 수 있습니다. 다음 예제에서는 다음을 가정합니다.
 
-- Azure AD Connect는 ObjectGUID의 기본 원본 앵커를 사용하도록 구성됩니다. 원본 앵커 구성에 대한 자세한 내용은 [Azure AD Connect: 디자인 개념을 참조하세요.](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts)
+- Azure AD Connect는 ObjectGUID의 기본 원본 앵커를 사용하도록 구성됩니다. 원본 앵커 구성에 대한 자세한 내용은 [Azure AD Connect: 디자인 개념을 참조하세요.](/azure/active-directory/hybrid/plan-connect-design-concepts)
 - PowerShell용 Active Directory 도메인 서비스 모듈이 [설치되었습니다(RSAT 도구 참조).](https://www.microsoft.com/en-gb/download/details.aspx?id=45520)
 
 ```powershell

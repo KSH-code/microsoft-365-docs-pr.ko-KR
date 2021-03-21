@@ -13,12 +13,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: 3d083537f3a9337d88d63861e0bf66867f558aba
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 2443319d254130b38bb1047a633c85c160eadd8c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454008"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926003"
 ---
 # <a name="manage-topics-in-the-topic-center"></a>항목 센터에서 항목 관리 
 
@@ -52,7 +52,7 @@ Viva 항목 항목 센터에서 기술 관리자는 항목  관리 페이지를 
 항목 센터에서 항목을 관리하려면 다음을 해야 합니다.
 - Viva 항목 라이선스가 있습니다.
 
-- 항목을 [**관리할 수 있는 사용자 권한을 부여합니다.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) 지식 관리자는 Viva 항목의 사용 권한 설정에서 사용자에게 이 권한을 부여할 수 있습니다. 
+- 항목을 [**관리할 수 있는 사용자 권한을 부여합니다.**](./topic-experiences-user-permissions.md) 지식 관리자는 Viva 항목의 사용 권한 설정에서 사용자에게 이 권한을 부여할 수 있습니다. 
 
 항목을 관리할 수 있는 사용자 권한이 없는 경우 항목 센터에서 항목 관리 페이지를 볼 **수** 없습니다.
 
@@ -111,8 +111,4 @@ Viva 항목 항목 센터에서 기술 관리자는 항목  관리 페이지를 
 ## <a name="published-topics"></a>게시된 항목
 게시된 항목은 편집된 항목으로, 특정 정보가 페이지를 방문하는 모든 사용자에 대해 항상 표시됩니다. 수동으로 만든 항목도 여기에 나열됩니다.
 
-   ![항목 관리](../media/knowledge-management/manage-topics-new.png) </br> 
-
-
-
-
+   ![항목 관리](../media/knowledge-management/manage-topics-new.png) </br>

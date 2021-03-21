@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: DLP(데이터 손실 방지) 정책을 사용하여 타사 시스템의 속성이 있는 문서를 보호하는 방법을 학습합니다.
-ms.openlocfilehash: 971d2a1dd4f69f7bbd2598e31fc99c9c5cfe1eda
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 2d66a0a863b2076044a5c1d1cb9c3d4e8c29a186
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423801"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925564"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기
 
@@ -55,7 +55,7 @@ DLP 정책에서 Windows Server FCI 속성 또는 기타 속성을 사용하려�
 
 이는 DLP가 검색 크롤러를 사용하여 사이트에서 중요한 정보를 식별하고 분류한 다음 해당 중요한 정보를 검색 인덱스의 보안 부분에 저장하기 때문에 중요합니다. Office 365로 문서를 업로드하는 경우 SharePoint는 문서 속성을 기준으로 크롤링된 속성을 자동으로 만듭니다. 그러나 FCI 또는 DLP 정책의 다른 속성을 사용하려면 해당 속성을 갖는 콘텐츠가 인덱스에 보관될 수 있게 크롤링된 속성이 관리 속성에 매핑되어야 합니다.
 
-검색 및 관리 속성에 대한 자세한 내용은 [Manage the search schema in SharePoint Online 를 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkID=627454)
+검색 및 관리 속성에 대한 자세한 내용은 [Manage the search schema in SharePoint Online 를 참조하세요.](/sharepoint/manage-search-schema)
 
 ### <a name="step-1-upload-a-document-with-the-needed-property-to-office-365"></a>1단계: 필요한 속성을 갖는 문서를 Office 365에 업로드합니다.
 
@@ -105,9 +105,9 @@ DLP 정책에서 Windows Server FCI 속성 또는 기타 속성을 사용하려�
 
 문서 **속성에** 이러한 값이 포함된 조건은 보안 및 준수 센터의 UI에서 일시적으로 사용할 수 없지만 PowerShell을 사용하여 이 조건을 사용할 &amp; 수 있습니다. cmdlet을 사용하여 DLP 정책을 사용할 수 있으며 매개 변수와 `New\Set\Get-DlpCompliancePolicy` 함께 cmdlet을 사용하여 Document 속성에 이러한 값이 포함된 조건을 `New\Set\Get-DlpComplianceRule` 추가할 수 `ContentPropertyContainsWords` **있습니다.**
 
-이러한 cmdlet에 대한 자세한 내용은 보안 및 준수 [ &amp; 센터 cmdlet을 참조하세요.](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)
+이러한 cmdlet에 대한 자세한 내용은 보안 및 준수 [ &amp; 센터 cmdlet을 참조하세요.](/powershell/exchange/exchange-online-powershell)
 
-1. [원격 &amp; PowerShell을 사용하여 보안 및 준수 센터에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+1. [원격 &amp; PowerShell을 사용하여 보안 및 준수 센터에 연결](/powershell/exchange/connect-to-scc-powershell)
 
 2. 를 사용하여 정책을  `New-DlpCompliancePolicy` 생성합니다.
 
@@ -125,7 +125,7 @@ DLP 정책에서 Windows Server FCI 속성 또는 기타 속성을 사용하려�
    New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy -AccessScope NotInOrganization -BlockAccess $true -ContentPropertyContainsWords "Personally Identifiable Information:High,Moderate" -Disabled $falseNew-DlpComplianceRule -Name FCI_PII_content-Low -Policy FCI_PII_policy -AccessScope NotInOrganization -BlockAccess $false -ContentPropertyContainsWords "Personally Identifiable Information:Low" -Disabled $false -NotifyUser Owner
    ```
 
-   Windows Server FCI에는 이 예제에 사용된 개인 식별 정보를 비롯한 여러 기본 제공 **속성이** 포함되어 있습니다. 각 속성에 대해 가능한 값은 조직마다 다를 수 있습니다. 여기에 **사용된 High,** **Moderate** 및 **Low** 값은 예일 뿐입니다. 조직의 경우 Windows Server 기반 파일 서버의 서버 리소스 관리자 파일에서 가능한 값으로 Windows Server FCI 분류 속성을 볼 수 있습니다. 자세한 내용은 분류 속성 [만들기를 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkID=627456)
+   Windows Server FCI에는 이 예제에 사용된 개인 식별 정보를 비롯한 여러 기본 제공 **속성이** 포함되어 있습니다. 각 속성에 대해 가능한 값은 조직마다 다를 수 있습니다. 여기에 **사용된 High,** **Moderate** 및 **Low** 값은 예일 뿐입니다. 조직의 경우 Windows Server 기반 파일 서버의 서버 리소스 관리자 파일에서 가능한 값으로 Windows Server FCI 분류 속성을 볼 수 있습니다. 자세한 내용은 분류 속성 [만들기를 참조하세요.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759215(v=ws.11))
 
 완료되면 정책에 문서 속성을 사용하는 두 개의 새 규칙에 이러한 값 **조건이 모두 포함되어야** 합니다. 다른 조건, 작업 및 설정이 나타나지만 이 조건은 UI에 나타나지 않습니다.
 
@@ -142,7 +142,7 @@ DLP 정책에서 Windows Server FCI 속성 또는 기타 속성을 사용하려�
 > [!CAUTION]
 > 사이트를 다시 인덱싱하면 검색 시스템에서 대량의 부하가 발생할 수 있습니다. 시나리오에서 반드시 필요한 경우를 한 사이트를 다시 인덱싱하지 않습니다.
 
-자세한 내용은 [사이트, 라이브러리 또는 목록을 크롤링 및 다시 인덱싱하도록 수동으로 요청](https://go.microsoft.com/fwlink/p/?LinkID=627457)을 참조하세요.
+자세한 내용은 [사이트, 라이브러리 또는 목록을 크롤링 및 다시 인덱싱하도록 수동으로 요청](/sharepoint/crawl-site-content)을 참조하세요.
 
 ### <a name="reindex-a-site-optional"></a>사이트 다시 인덱스(선택 사항)
 

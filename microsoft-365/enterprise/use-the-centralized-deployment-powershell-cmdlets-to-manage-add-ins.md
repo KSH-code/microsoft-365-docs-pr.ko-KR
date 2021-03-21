@@ -19,17 +19,17 @@ f1.keywords:
 ms.assetid: 94f4e86d-b8e5-42dd-b558-e6092f830ec9
 ms.custom:
 - seo-marvel-apr2020
-description: 중앙 집중식 배포 PowerShell cmdlet을 사용하여 Microsoft 365 조직에 대한 Office 추가 기능을 배포하고 관리하는 데 도움이 됩니다.
-ms.openlocfilehash: 659f12d2533601c4b2165a95ddbf59ea521945b8
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: 중앙 집중식 배포 PowerShell cmdlet을 사용하여 Microsoft 365 조직에 대한 Office 추가 기능을 배포하고 관리할 수 있습니다.
+ms.openlocfilehash: 7872deedfcfe058f0a4ac63c489bbed139699d18
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692777"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924675"
 ---
 # <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a>중앙 집중식 배포 PowerShell cmdlet을 사용하여 추가 기능 관리
 
-Microsoft 365 전역 관리자는 중앙 집중식 배포 기능을 통해 사용자에게 Office 추가 기능을 배포할 [수 있습니다(관리 센터에서 Office](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)추가 기능 배포 참조). Microsoft 365 관리 센터를 통해 Office 추가 기능을 배포하는 것 외에도 Microsoft PowerShell을 사용할 수도 있습니다. O365 중앙 집중식 Add-In [배포 모듈을](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment)Windows PowerShell. 
+Microsoft 365 전역 관리자는 중앙 집중식 배포 기능을 통해 사용자에게 Office 추가 기능을 배포할 수 있습니다(관리 센터에서 [Office](../admin/manage/manage-deployment-of-add-ins.md)추가 기능 배포 참조). Microsoft 365 관리 센터를 통해 Office 추가 기능을 배포하는 것 외에도 Microsoft PowerShell을 사용할 수도 있습니다. 에 대한 [O365](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment)중앙 집중식 Add-In 배포 모듈을 Windows PowerShell. 
 
 모듈을 다운로드한 후 일반 Windows PowerShell 열고 다음 cmdlet을 실행합니다.
 
@@ -41,7 +41,7 @@ Microsoft 365 전역 관리자는 중앙 집중식 배포 기능을 통해 사�
 
 중앙 집중식 배포 cmdlet을 사용하려면 먼저 로그인해야 합니다.
   
-1. PowerShell을 시작합니다.
+1. PowerShell을 시작 합니다.
     
 2. 회사 관리자 자격 증명을 사용하여 PowerShell에 연결합니다. 다음 cmdlet을 실행합니다.
     
@@ -49,7 +49,7 @@ Microsoft 365 전역 관리자는 중앙 집중식 배포 기능을 통해 사�
   Connect-OrganizationAddInService
   ```
 
-3. 자격 증명 **입력 페이지에서** Microsoft 365 전역 관리자 자격 증명을 입력합니다. 또는 cmdlet에 자격 증명을 직접 입력할 수 있습니다. 
+3. 자격 **증명 입력 페이지에서** Microsoft 365 전역 관리자 자격 증명을 입력합니다. 또는 cmdlet에 자격 증명을 직접 입력할 수 있습니다. 
     
     회사 관리자 자격 증명을 PSCredential 개체로 지정하는 다음 cmdlet을 실행합니다.
     
@@ -60,11 +60,11 @@ Microsoft 365 전역 관리자는 중앙 집중식 배포 기능을 통해 사�
   ```
 
 > [!NOTE]
-> PowerShell 사용에 대한 자세한 내용은 [PowerShell을 사용하여 Microsoft 365에 연결합니다.](https://go.microsoft.com/fwlink/p/?linkid=848585) 
+> PowerShell 사용에 대한 자세한 내용은 [PowerShell을 사용하여 Microsoft 365에 연결을 참조하세요.](./connect-to-microsoft-365-powershell.md) 
   
 ## <a name="upload-an-add-in-manifest"></a>추가 기능 매니페스트 업로드
 
-**New-OrganizationAdd-In** cmdlet을 실행하여 경로에서 파일 위치 또는 URL이 될 수 있는 추가 기능 매니페스트를 업로드합니다. 다음 예제에서는  _ManifestPath_ 매개 변수 값에 대한 파일 위치를 보여 제공합니다. 
+**New-OrganizationAdd-In** cmdlet을 실행하여 파일 위치 또는 URL일 수 있는 경로에서 추가 기능 매니페스트를 업로드합니다. 다음 예제에서는  _ManifestPath_ 매개 변수의 값에 대한 파일 위치를 보여 제공합니다. 
   
 ```powershell
 New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US'
@@ -86,9 +86,9 @@ New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale '
 New-OrganizationAddIn -AssetId 'WA104099688' -Locale 'en-US' -ContentMarket 'en-US'
 ```
 
-_AssetId_ 매개 변수의 값을 확인하기 위해 추가 기능의 Office 스토어 웹 페이지 URL에서 해당 값을 복사하면 됩니다. AssetIds는 항상 "WA"로 시작한 다음 숫자로 시작됩니다. 예를 들어 이전 예제에서 WA104099688의 AssetId 값에 대한 원본은 추가 기능의 Office 스토어 웹 페이지 [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) URL입니다.
+_AssetId_ 매개 변수의 값을 확인하기 위해 추가 기능의 Office 스토어 웹 페이지 URL에서 복사하면 됩니다. AssetIds는 항상 "WA"로 시작하고 그 다음에 숫자가 오게 됩니다. 예를 들어 이전 예제에서 AssetId 값 WA104099688의 원본은 추가 기능의 Office 스토어 웹 페이지 [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) URL입니다.
   
-_Locale_ 매개 변수 및 _ContentMarket_ 매개 변수의 값은 동일하며 추가 기능을 설치하려는 국가/지역을 나타냅니다. 형식은 en-US, fr-FR입니다. 등 
+_Locale_ 매개 변수 및 _ContentMarket_ 매개 변수의 값은 동일하며 추가 기능을 설치하려는 국가/지역을 나타냅니다. 형식은 en-US, fr-FR입니다. 등입니다. 
   
 > [!NOTE]
 > Office 스토어에서 업로드한 추가 기능의 경우 Office 스토어에서 사용할 수 있는 최신 업데이트가 며칠 내에 자동으로 업데이트됩니다. 
@@ -101,7 +101,7 @@ _Locale_ 매개 변수 및 _ContentMarket_ 매개 변수의 값은 동일하며 
 Get-OrganizationAddIn
 ```
 
-_ProductId_ 매개 변수 값을 사용하여 **Get-OrganizationAddIn** cmdlet을 실행하여 세부 정보를 검색할 추가 기능을 지정합니다. 
+_ProductId_ 매개 변수의 값과 함께 **Get-OrganizationAddIn** cmdlet을 실행하여 세부 정보를 검색할 추가 기능을 지정합니다. 
   
 ```powershell
 Get-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
@@ -115,13 +115,13 @@ foreach($G in (Get-organizationAddIn)){Get-OrganizationAddIn -ProductId $G.Produ
 
 ## <a name="turn-on-or-turn-off-an-add-in"></a>추가 기능 켜기 또는 끄기
 
-추가 기능을 해제하여 할당된 사용자 및 그룹에 더 이상 액세스할 수 없는 경우 다음 예제와 같이 _ProductId_ 매개 변수와 _Enabled_ 매개 변수를 사용하여 **Set-OrganizationAddIn** cmdlet을 `$false` 실행합니다.
+추가 기능을 해제하여 할당된 사용자 및 그룹에 더 이상 액세스 권한이 부여되지 않습니다. 다음 예와 같이 _ProductId_ 매개 변수와 _Enabled_ 매개 변수를 로 설정하여 **Set-OrganizationAddIn** cmdlet을 `$false` 실행합니다.
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Enabled $false
 ```
 
-추가 기능을 다시 켜기 위해 Enabled 매개 변수가 _으로_ 설정된 동일한 cmdlet을 실행합니다. `$true`
+추가 기능을 다시 켜기 위해 Enabled 매개 변수가 로 설정된  _동일한_ cmdlet을  `$true` 실행합니다.
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Enabled $true
@@ -129,7 +129,7 @@ Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Enabled $
 
 ## <a name="add-or-remove-users-from-an-add-in"></a>추가 기능에서 사용자 추가 또는 제거
 
-사용자 및 그룹을 특정 추가 기능으로 추가하기 위해 _ProductId,_ _Add_ 및 Members 매개 변수를 사용하여 **Set-OrganizationAddInAssignments** cmdlet을 _실행합니다._ 구성원의 전자 메일 주소를 콤보로 구분합니다. 
+사용자 및 그룹을 특정 추가 기능에 추가하기 위해 _ProductId,_ _Add_ 및 Members 매개 변수를 사용하여 **Set-OrganizationAddInAssignments** cmdlet을 _실행합니다._ 구성원의 전자 메일 주소를 콤보로 구분합니다. 
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Add -Members 'KathyBonner@contoso.com','sales@contoso.com'
@@ -141,13 +141,13 @@ Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -Remove -Members 'KathyBonner@contoso.com','sales@contoso.com'
 ```
 
-테넌트의 모든 사용자에게 추가 기능을 할당하기 위해 값이 .로 설정된  _AssignToEveryone_ 매개 변수를 사용하여 동일한 cmdlet을  `$true` 실행합니다.
+테넌트의 모든 사용자에게 추가 기능을 할당하기 위해 값이 로 설정된  _AssignToEveryone_ 매개 변수를 사용하여 동일한 cmdlet을  `$true` 실행합니다.
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -AssignToEveryone $true
 ```
 
-모든 사용자에게 추가 기능을 할당하지 말고 이전에 할당된 사용자 및 그룹으로 되버리기 위해 동일한 cmdlet을 실행하고 해당 값을 으로 설정하여  _AssignToEveryone_ 매개 변수를 해제할 수  `$false` 있습니다.
+모든 사용자에게 추가 기능을 할당하지 말고 이전에 할당된 사용자 및 그룹으로 되 돌리기 위해 동일한 cmdlet을 실행하고 해당 값을 로 설정하여  _AssignToEveryone_ 매개 변수를 해제할 수  `$false` 있습니다.
   
 ```powershell
 Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -AssignToEveryone $false
@@ -155,7 +155,7 @@ Set-OrganizationAddInAssignments -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
 
 ## <a name="update-an-add-in"></a>추가 기능 업데이트
 
-매니페스트에서 추가 기능을 업데이트하기 위해 다음 예와 같이 _ProductId,_ _ManifestPath_ 및 _Locale_ 매개 변수를 사용하여 **Set-OrganizationAddIn** cmdlet을 실행합니다. 
+매니페스트에서 추가 기능을 업데이트하기 위해 다음 예제와 같이 _ProductId,_ _ManifestPath_ 및 _Locale_ 매개 변수를 사용하여 **Set-OrganizationAddIn** cmdlet을 실행합니다. 
   
 ```powershell
 Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US'
@@ -272,10 +272,8 @@ If an add-in has been deployed, it has to be removed from the cache in each comp
 
 ## <a name="get-detailed-help-for-each-cmdlet"></a>각 cmdlet에 대한 자세한 도움말 확인
 
-Get-help cmdlet을 사용하여 각 cmdlet에 대한 자세한 도움말을 볼 수 있습니다. 예를 들어 다음 cmdlet은 Remove-OrganizationAddIn 정보를 제공합니다.
+Get-help cmdlet을 사용하여 각 cmdlet에 대한 자세한 도움말을 볼 수 있습니다. 예를 들어 다음 cmdlet은 cmdlet에 대한 자세한 Remove-OrganizationAddIn 제공합니다.
   
 ```powershell
 Get-help Remove-OrganizationAddIn -Full
 ```
-
-

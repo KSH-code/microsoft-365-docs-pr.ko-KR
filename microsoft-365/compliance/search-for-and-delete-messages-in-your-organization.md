@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: 보안 및 준수 센터의 검색 및 삭제하기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
-ms.openlocfilehash: 52871fc85a4d5aec1754c1957f2087552b442daf
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: b7bb1008120df8efefc983d526d90e8397b3a89e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423699"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924238"
 ---
 # <a name="search-for-and-delete-email-messages"></a>전자 메일 메시지 검색 및 삭제
 
@@ -61,9 +61,9 @@ ms.locfileid: "50423699"
 
 - [콘텐츠 검색에 대한 키워드 쿼리](keyword-queries-and-search-conditions.md)
 
-- [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/New-ComplianceSearch)
+- [New-ComplianceSearch](/powershell/module/exchange/New-ComplianceSearch)
 
-- [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/Start-ComplianceSearch)
+- [Start-ComplianceSearch](/powershell/module/exchange/Start-ComplianceSearch)
 
 > [!NOTE]
 > 이 단계에서 만드는 콘텐츠 검색에서 검색되는 콘텐츠 위치에는 SharePoint 또는 비즈니스용 OneDrive 사이트가 포함될 수 없습니다. 전자 메일 메시지에 사용되는 콘텐츠 검색에는 사서함 및 공용 폴더만 포함될 수 있습니다. 콘텐츠 검색에 사이트가 포함되는 경우 **New-ComplianceSearchAction** cmdlet을 실행할 때 3단계에서 오류가 발생합니다.
@@ -80,7 +80,7 @@ ms.locfileid: "50423699"
 
 - 검색 결과를 미리 확인하여 콘텐츠 검색이 삭제하려는 메시지만 반환하는지 검토합니다.
 
-- 검색 예상 통계(보안 및 준수 센터의 검색 세부 정보 창에 표시되거나 [Get-ComplianceSearch](https://go.microsoft.com/fwlink/p/?LinkId=517934) cmdlet을 사용할 경우에 표시)를 사용하여 결과의 총 개수를 가져올 수 있습니다.
+- 검색 예상 통계(보안 및 준수 센터의 검색 세부 정보 창에 표시되거나 [Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch) cmdlet을 사용할 경우에 표시)를 사용하여 결과의 총 개수를 가져올 수 있습니다.
 
 다음은 의심스러운 전자 메일 메시지를 찾는 쿼리의 두 가지 예입니다.
 
@@ -105,7 +105,7 @@ Start-ComplianceSearch -Identity $Search.Identity
 
 ## <a name="step-2-connect-to-security--compliance-center-powershell"></a>2단계: 보안 및 준수 센터 PowerShell에 연결
 
-다음 단계에서는 조직의 보안 및 준수 센터 PowerShell에 연결합니다. 단계별 지침은 [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)를 참조하세요.
+다음 단계에서는 조직의 보안 및 준수 센터 PowerShell에 연결합니다. 단계별 지침은 [보안 및 준수 센터 PowerShell에 연결하기](/powershell/exchange/connect-to-scc-powershell)를 참조하세요.
 
 보안 및 준수 센터 PowerShell에 연결한 후 이전 단계에서 준비한 **New-ComplianceSearch** 및 **Start-ComplianceSearch** cmdlet을 실행합니다.
 
@@ -127,7 +127,7 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
 
 이전 명령을 실행하여 메시지를 일시 삭제하거나 영구 삭제하는 경우 *SearchName* 매개 변수에 지정된 검색은 1단계에서 만든 콘텐츠 검색입니다.
 
-자세한 내용은 [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/New-ComplianceSearchAction)을 참조하세요.
+자세한 내용은 [New-ComplianceSearchAction](/powershell/module/exchange/New-ComplianceSearchAction)을 참조하세요.
 
 ## <a name="more-information"></a>추가 정보
 

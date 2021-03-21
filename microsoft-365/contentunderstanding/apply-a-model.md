@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: SharePoint 문서 라이브러리에 게시된 모델을 적용하는 방법 알아보기
-ms.openlocfilehash: 17da1e37f72504ac5e0e26c0dd190efced08d285
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 42168537c8d449a075b5e29ef9905b6b98b8d714
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080785"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925403"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint 구문에서 문서 이해 모델 적용
 
@@ -94,7 +94,7 @@ SharePoint Syntex 문서의 이해 또는 양식 처리 모델을 문서 라이�
 
    ![분류 날짜 열](../media/content-understanding/class-date-column.png)</br> 
 
-분류 날짜 필드는 Syntex 콘텐츠 이해 모델이 파일 처리를 완료하고 "분류 날짜" 필드를 업데이트한 후 Power Automate 흐름을 실행하기 위해 [<b>콘텐츠 이해 모델에 의해 파일이 분류되는 경우</b> 트리거](https://docs.microsoft.com/connectors/sharepointonline/#when-a-file-is-classified-by-a-content-understanding-model)에서 사용됩니다.
+분류 날짜 필드는 Syntex 콘텐츠 이해 모델이 파일 처리를 완료하고 "분류 날짜" 필드를 업데이트한 후 Power Automate 흐름을 실행하기 위해 [<b>콘텐츠 이해 모델에 의해 파일이 분류되는 경우</b> 트리거](/connectors/sharepointonline/#when-a-file-is-classified-by-a-content-understanding-model)에서 사용됩니다.
 
    ![흐름 트리거](../media/content-understanding/trigger.png)</br>
 
@@ -108,5 +108,3 @@ SharePoint Syntex 문서의 이해 또는 양식 처리 모델을 문서 라이�
 [추출자 만들기](create-an-extractor.md)
 
 [문서 이해 개요](document-understanding-overview.md)
-
-

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자 사용자 권한 및 역할을 설정하고 작업의 자동화된 테스트를 구성합니다. 사용자 기록을 관리하고 대시보드 보기를 필터링합니다.
-ms.openlocfilehash: 3c8f3f30741d4b0fac5c940bc6ec3fb56ea4f79e
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: d8eb1d7d8245aa31cb5429452128cedc0adf4684
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405798"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925706"
 ---
 # <a name="get-started-with-compliance-manager"></a>규정 준수 관리자 시작
 
@@ -30,7 +30,7 @@ ms.locfileid: "50405798"
 
 ## <a name="who-can-access-compliance-manager"></a>준수 관리자에 액세스할 수 있는 사용자
 
-준수 관리자는 Office 365 및 Microsoft 365 라이선스가 있는 조직과 미국 GCC(Government Community Cloud) 보통 및 GCC High 고객에게 제공됩니다. 평가 가용성 및 관리 기능은 사용권 계약에 따라 달라집니다.  [서비스 설명 세부 정보 보기.](https://go.microsoft.com/fwlink/?linkid=2132371)
+준수 관리자는 Office 365 및 Microsoft 365 라이선스가 있는 조직과 미국 GCC(Government Community Cloud) 보통 및 GCC High 고객에게 제공됩니다. 평가 가용성 및 관리 기능은 사용권 계약에 따라 달라집니다.  [서비스 설명 세부 정보 보기.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -72,19 +72,19 @@ Office 365 보안 및 준수 센터에서 권한을 설정하고 역할을 할�
 
 ##### <a name="more-about-the-office-365-security--compliance-center"></a>Office 365 보안 및 준수 & 대한 자세한 정보
 
-Office 365 보안 및 준수 센터의 사용 [권한에 & 자세히 알아보아야 합니다.](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)
+Office 365 보안 및 준수 센터의 사용 [권한에 & 자세히 알아보아야 합니다.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 
 Office 365 보안 및 준수 센터에 액세스할 수 없는 경우 또는 Microsoft Service Trust Portal에서 준수 관리자의 클래식 버전에 액세스해야 하는 경우 서비스 보안 포털의 관리 설정을 통해 역할을 할당할 수 있습니다(지침[보기).](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users) 이러한 역할은 기능에서 더 제한적입니다.
 
 ##### <a name="more-about-azure-ad"></a>Azure AD에 대한 자세한 내용은
 
-Azure AD에서 역할을 할당하고 권한을 설정하려면 Azure Active Directory를 사용하여 사용자에게 관리자 및 비 관리자 역할 [할당을 참조하세요.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
+Azure AD에서 역할을 할당하고 권한을 설정하려면 Azure Active Directory를 사용하여 사용자에게 관리자 및 비 관리자 역할 [할당을 참조하세요.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
 
 Office 365 또는 Microsoft 365 구독이 없는 Azure AD ID가 있는 사용자는 Microsoft 365 규정 준수 센터에서 준수 관리자에 액세스할 수 없습니다. 준수 관리자에 액세스하는 데 도움이 필요한 경우 에 [cmresearch@microsoft.com.](mailto:cmresearch@microsoft.com)
 
 ### <a name="role-types"></a>역할 유형
 
-아래 표에는 준수 관리자의 각 역할에서 허용되는 기능이 표시됩니다. 또한 이 표에는 각 [Azure AD 역할이](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 준수 관리자 역할에 매핑된 방식도 표시됩니다. 준수 관리자에 액세스하려면 적어도 준수 관리자 읽기 관리자 역할 또는 Azure AD 전역 읽기 권한이 필요합니다.
+아래 표에는 준수 관리자의 각 역할에서 허용되는 기능이 표시됩니다. 또한 이 표에는 각 [Azure AD 역할이](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 준수 관리자 역할에 매핑된 방식도 표시됩니다. 준수 관리자에 액세스하려면 적어도 준수 관리자 읽기 관리자 역할 또는 Azure AD 전역 읽기 권한이 필요합니다.
 
 
 | 사용자는 다음을 할 수 있습니다. | 준수 관리자 역할 | Azure AD 역할 | 
@@ -104,7 +104,7 @@ Microsoft 365 규정 준수 센터의 준수 관리자 설정을 사용하여 �
 
 ### <a name="set-up-automated-testing"></a>자동화된 테스트 설정
 
-준수 관리자의 일부 개선 작업도 [Microsoft 보안 점수에서 모니터링합니다.](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) 공동으로 모니터링되는 작업의 자동화된 테스트를 설정할 수 있습니다. 즉, 보안 점수에서 작업을 테스트하고 업데이트하면 해당 결과가 준수 관리자의 동일한 작업과 동기화되고 준수 점수에 계산됩니다.
+준수 관리자의 일부 개선 작업도 [Microsoft 보안 점수에서 모니터링합니다.](../security/mtp/microsoft-secure-score.md) 공동으로 모니터링되는 작업의 자동화된 테스트를 설정할 수 있습니다. 즉, 보안 점수에서 작업을 테스트하고 업데이트하면 해당 결과가 준수 관리자의 동일한 작업과 동기화되고 준수 점수에 계산됩니다.
 
 자동 테스트는 준수 관리자를 새로 설치하는 조직에 대해 기본적으로 설정됩니다. Microsoft 365 또는 Office 365를 처음 배포할 때 보안 점수가 데이터를 완전히 수집하고 준수 점수에 고려하는 데 약 7일이 소요됩니다.  자동화된 테스트가 켜져 있는 경우 작업의 테스트 날짜는 업데이트되지 않지만 테스트 상태가 업데이트됩니다. 새 평가를 만들면 자동으로 Microsoft 컨트롤 점수와 보안 점수 통합이 점수에 포함됩니다.
 

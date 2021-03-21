@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex의 문서 이해 모델에서 추출기를 만들 때 용어 저장소 분류를 사용하세요.
-ms.openlocfilehash: aff2df6a96fdfee7380651f68e647019e9485658
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: b8dfc028e0a18f3345fec466ec5e0079ed2d11ce
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49975742"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925347"
 ---
 # <a name="leverage-term-store-taxonomy-when-creating-an-extractor"></a>추출자를 만들 때 용어 저장소 분류 활용
 
@@ -27,7 +27,7 @@ ms.locfileid: "49975742"
 
 </br>
 
-SharePoint Syntex를 사용하여 문서 이해 모델에서 추출자를 생성할 때 [ 용어 저장소](https://docs.microsoft.com/sharepoint/managed-metadata)의 글로벌 용어 세트를 활용하여 추출하는 데이터에 대한 선호 용어를 표시할 수 있습니다.  
+SharePoint Syntex를 사용하여 문서 이해 모델에서 추출자를 생성할 때 [ 용어 저장소](/sharepoint/managed-metadata)의 글로벌 용어 세트를 활용하여 추출하는 데이터에 대한 선호 용어를 표시할 수 있습니다.  
 
 예를 들어, 모델은 문서 라이브러리에 업로드 되는 모든 **계약서** 를 식별하고 분류합니다.  또한 모델은 각 계약서에서 **계약 서비스** 값을 추출하고 라이브러리 보기의 열에 표시합니다. 계약서의 다양한 계약 서비스에는 회사가 더 이상 사용하지 않고 이름이 변경 된 여러가지 이전 값이 있습니다. 예를 들어 *디자인*, *그래픽* 또는 *지형* 계약 서비스에 대한 모든 참조는 이제 *창의성* 이라고 불립니다. 모델이 계약 문서에서 오래 된 용어를 추출할 때 사용자는 라이브러리 보기에서 현재 용어인 창의성을 보기 원합니다. 아래 예제에서 모델 교육을 하는 동안 예시 문서에 *디자인* 의 오래된 용어가 포함되어 있는 것이 보입니다.
 
@@ -35,7 +35,7 @@ SharePoint Syntex를 사용하여 문서 이해 모델에서 추출자를 생성
 
 ## <a name="use-a-managed-metadata-column-in-your-extractor"></a>추출기에서 관리되는 메타데이터 열 사용
 
-용어 집합은 SharePoint 관리 센터에서 MMS(관리되는 메타데이터 서비스) 용어 저장소에 구성 됩니다. 아래 예제에서 *계약 서비스* [용어 집합](https://docs.microsoft.com/sharepoint/managed-metadata#term-set)은 *창의성* 을 포함하여 여러 용어를 포함하도록 구성되어 있습니다.  세부 내역에는 용어에 세 가지의 동의어(*디자인*, *그래픽* 및 *지형*)가 있다고 보여주며 이 동의어는 *창의성* 이라고 해석되어야 합니다. 
+용어 집합은 SharePoint 관리 센터에서 MMS(관리되는 메타데이터 서비스) 용어 저장소에 구성 됩니다. 아래 예제에서 *계약 서비스* [용어 집합](/sharepoint/managed-metadata#term-set)은 *창의성* 을 포함하여 여러 용어를 포함하도록 구성되어 있습니다.  세부 내역에는 용어에 세 가지의 동의어(*디자인*, *그래픽* 및 *지형*)가 있다고 보여주며 이 동의어는 *창의성* 이라고 해석되어야 합니다. 
 
    ![용어 집합](../media/content-understanding/term-store.png)</br>
 
@@ -52,13 +52,8 @@ SharePoint Syntex를 사용하여 문서 이해 모델에서 추출자를 생성
 
 
 ## <a name="see-also"></a>참고 항목
-[관리되는 메타데이터 소개](https://docs.microsoft.com/sharepoint/managed-metadata#terms)
+[관리되는 메타데이터 소개](/sharepoint/managed-metadata#terms)
 
 [추출자 만들기](create-an-extractor.md)
 
 [관리되는 메타데이터 열 만들기](https://support.microsoft.com/office/create-a-managed-metadata-column-8fad9e35-a618-4400-b3c7-46f02785d27f?redirectSourcePath=%252farticle%252fc2a06717-8105-4aea-890d-3082853ab7b7&ui=en-US&rs=en-US&ad=US)
-
-
-
-
-

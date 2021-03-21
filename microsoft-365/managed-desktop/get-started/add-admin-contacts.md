@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8b287200b1c94ff350f7ba00cf0c4e6bc1b4a71f
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 18823db8ca8d4bfa82b8ab6265ee8a0902a13e79
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289264"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925895"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>관리 포털에서 관리자 연락처 추가 및 확인
 
@@ -31,7 +31,7 @@ Microsoft Managed Desktop 관리 포털을 사용하려면 포털에 액세스 �
 - 전역 읽기 권한자
 - 서비스 지원 관리자
 
-전역 관리자는 Microsoft Managed Desktop에 조직을 등록해야 합니다. 모든 5개 역할은 관리자 포털에서 동일한 액세스 권한을 가지며 작업을 시작하고 볼 수 있습니다. Azure AD에서 역할을 할당하는 방법에 대한 자세한 내용은 [Azure Active Directory에서 관리자 역할 사용 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)을 참조하세요. 
+전역 관리자는 Microsoft Managed Desktop에 조직을 등록해야 합니다. 모든 5개 역할은 관리자 포털에서 동일한 액세스 권한을 가지며 작업을 시작하고 볼 수 있습니다. Azure AD에서 역할을 할당하는 방법에 대한 자세한 내용은 [Azure Active Directory에서 관리자 역할 사용 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)을 참조하세요. 
 
 ## <a name="admin-contact-areas-of-focus"></a>관리자 연락처 포커스 영역
 

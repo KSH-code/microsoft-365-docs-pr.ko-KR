@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: 이 문서는 SharePoint Syntex에서 모델에 보존 레이블을 적용하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 48c0b983316cfe29019d09cb20546fa4b325b3b0
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 796130bfa967663b5696f49279154cfe9b16f703
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242774"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925371"
 ---
 # <a name="apply-a-retention-label-to-a-model-in-sharepoint-syntex"></a>SharePoint Syntex에서 모델에 보존 레이블 적용
 
@@ -28,14 +28,14 @@ ms.locfileid: "50242774"
 </br>
 
 
-Microsoft SharePoint Syntex의 모델에 [보존 레이블](https://docs.microsoft.com/microsoft-365/compliance/retention)을 쉽게 적용할 수 있습니다. 문서 이해 모델과 양식 처리 모델 모두에서 이 작업을 할 수 있습니다.
+Microsoft SharePoint Syntex의 모델에 [보존 레이블](../compliance/retention.md)을 쉽게 적용할 수 있습니다. 문서 이해 모델과 양식 처리 모델 모두에서 이 작업을 할 수 있습니다.
 
 보존 레이블을 사용하여 모델이 식별하는 문서에 보존 설정을 적용할 수 있습니다.  예를 들어, 모델이 문서 라이브러리에 업로드된 *보험 통지* 문서를 식별할 뿐만 아니라, 지정된 기간 동안(예를 들어, 다음 5개월) 문서 라이브러리에서 이러한 문서를 삭제할 수 없도록 *비즈니스* 보존 태그를 적용합니다.
 
 모델 홈페이지의 문서 설정을 통해 기존 보존 레이블을 모델에 적용할 수 있습니다. 
 
 > [!Important]
-> 문서 이해 모델에 적용하기 위해 보존 레이블을 사용하려면 [Microsoft 365 준수 센터에서 만들고 게시](https://docs.microsoft.com/microsoft-365/compliance/create-apply-retention-labels#how-to-create-and-publish-retention-labels)해야 합니다.
+> 문서 이해 모델에 적용하기 위해 보존 레이블을 사용하려면 [Microsoft 365 준수 센터에서 만들고 게시](../compliance/create-apply-retention-labels.md#how-to-create-and-publish-retention-labels)해야 합니다.
 
 ## <a name="to-add-a-retention-label-to-a-document-understanding-model"></a>문서 이해 모델에 보존 레이블 추가
 
@@ -73,13 +73,13 @@ Microsoft SharePoint Syntex의 모델에 [보존 레이블](https://docs.microso
 ## <a name="to-add-a-retention-label-to-a-form-processing-model"></a>양식 처리 모델에 보존 레이블을 추가하는 방법
 
 > [!Important]
-> 양식 처리 모델에 적용하기 위해 보존 레이블을 사용하려면 [Microsoft 365 준수 센터에서 만들고 게시](https://docs.microsoft.com/microsoft-365/compliance/create-apply-retention-labels#how-to-create-and-publish-retention-labels)해야 합니다.
+> 양식 처리 모델에 적용하기 위해 보존 레이블을 사용하려면 [Microsoft 365 준수 센터에서 만들고 게시](../compliance/create-apply-retention-labels.md#how-to-create-and-publish-retention-labels)해야 합니다.
 
 모델을 만들 때 양식 처리 모델에 보존 레이블을 적용하거나 기존 모델에 적용할 수 있습니다.
 
 ### <a name="to-add-a-retention-label-when-you-create-a-form-processing-model"></a>양식 처리 모델을 만들 때 보존 레이블을 추가하는 방법
 
-1. [새 양식 처리 모델](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-form-processing-model)을 만들 때 <b>고급 설정을 선택합니다.</b>
+1. [새 양식 처리 모델](./create-a-form-processing-model.md)을 만들 때 <b>고급 설정을 선택합니다.</b>
 2. <b>고급 설정</b>의 <b>보존 레이블</b> 섹션에서 메뉴를 선택하고 모델을 적용하려는 보존 레이블을 선택합니다.</b>
 
  
@@ -132,5 +132,3 @@ Microsoft SharePoint Syntex의 모델에 [보존 레이블](https://docs.microso
 [추출자 만들기](create-an-extractor.md)
 
 [문서 이해 개요](document-understanding-overview.md)
-
-
