@@ -21,16 +21,16 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Microsoft 365의 레코드 관리를 사용하여 보존 일정을 파일 플랜에 적용하여 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: 857f8118bb2cc0f94065a8b8696c92bd3ae05cc4
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: 4f07732e403d711e2fa89bfb7c61c9eadfb2bd0b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461853"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926186"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Microsoft 365의 레코드 관리하기에 대해 알아보기
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 모든 유형의 조직에는 레코드 관리 솔루션이 있어야 회사 데이터에서 규정, 법률 및 비즈니스에 중요한 레코드를 관리할 수 있습니다. Microsoft 365의 레코드 관리는 조직이 법적인 의무를 관리하는 데 도움이 되고, 규정 준수를 입증하는 기능을 제공하며, 비즈니스 목적에 대해 더 이상 보존할 필요가 없거나, 더 이상 가치가 없거나, 사용하지 않는 항목을 정기적으로 처리하여 효율성을 높입니다.
 
@@ -94,9 +94,7 @@ Microsoft 365에서 다음 기능을 사용하여 레코드 관리 솔루션을 
 
 <sup>1</sup> 복사본이 안전한 위치에 유지되지만 SharePoint에 의해 차단되므로 OneDrive 및 Exchange에서 지원됩니다.
 
-사용자가 SharePoint에서 레이블이 지정된 문서를 삭제하려고 할 때 표시되는 메시지:
-
-![SharePoint에서 항목이 삭제되지 않았다는 메시지](../media/d0020726-1593-4a96-b07c-89b275e75c49.png)
+문서 첨부 파일이 있는 목록 항목에 보존 레이블을 적용하면 해당 문서는 보존 설정을 상속하지 않으므로 목록 항목에서 삭제할 수 있습니다. 이와 비교하여 해당 목록 항목이 보존 레이블과 함께 레코드로 선언된 경우, 문서 첨부파일은 보존 설정을 상속하므로 삭제할 수 없습니다. 
 
 <sup>2</sup> 컨테이너에는 SharePoint 문서 라이브러리, OneDrive계정과 Exchange 사서함이 포함됩니다.
 
