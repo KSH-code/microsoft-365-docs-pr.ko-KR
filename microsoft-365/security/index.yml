@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 971382e5da5b8bedf7527a7f30ae81dcbffdebdd
-  ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+  ms.openlocfilehash: 6a670287c98d185e4b9acfeb39715c5e1ddf177a
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 11/19/2020
-  ms.locfileid: "49356694"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50928979"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
@@ -41,15 +41,15 @@ landingContent:
   - linkListType: get-started
     links:
     - text: 원격 작업자 보안 유지
-      url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
+      url: /enterprise-mobility-security/remote-work/
 - title: ID용 Microsoft Defender
   linkLists:
   - linkListType: overview
     links:
     - text: ID용 Microsoft Defender란?
-      url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
+      url: /azure-advanced-threat-protection/what-is-atp
     - text: ID 아키텍처용 Microsoft Defender
-      url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
+      url: /azure-advanced-threat-protection/atp-architecture
 - title: Office 365용 Defender
   linkLists:
   - linkListType: overview
@@ -57,31 +57,31 @@ landingContent:
     - text: Office 365용 Defender란 무엇인가요?
       url: office-365-security/office-365-atp.md
     - text: Office 365용 Defender 서비스 설명
-      url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
+      url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
 - title: 엔드포인트용 Defender
   linkLists:
   - linkListType: overview
     links:
     - text: 엔드포인트용 Microsoft Defender란 무엇인가요?
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
+      url: /windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
     - text: 기능 개요
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
+      url: /windows/security/threat-protection/microsoft-defender-atp/overview
 - title: Azure Defender
   linkLists:
   - linkListType: overview
     links:
     - text: Azure Defender란 무엇인가요?
-      url: https://docs.microsoft.com/azure/security-center/security-center-intro
+      url: /azure/security-center/security-center-intro
     - text: 지원되는 기능
-      url: https://docs.microsoft.com/azure/security-center/security-center-services
+      url: /azure/security-center/security-center-services
 - title: Microsoft Cloud App Security
   linkLists:
   - linkListType: overview
     links:
     - text: Microsoft Cloud App Security란 무엇인가요?
-      url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
+      url: /cloud-app-security/what-is-cloud-app-security
     - text: Microsoft Cloud App Security 시작
-      url: https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security
+      url: /cloud-app-security/getting-started-with-cloud-app-security
 - title: 보안 관리
   linkLists:
   - linkListType: overview
@@ -93,4 +93,4 @@ landingContent:
   - linkListType: overview
     links:
     - text: Azure Sentinel이란 무엇인가요?
-      url: https://docs.microsoft.com/azure/sentinel/overview
+      url: /azure/sentinel/overview
