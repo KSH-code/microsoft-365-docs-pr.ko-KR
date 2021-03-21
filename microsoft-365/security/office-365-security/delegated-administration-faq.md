@@ -15,12 +15,12 @@ ms.custom:
 description: 관리자는 Microsoft 파트너 및 대리점용 Microsoft 365의 위임된 관리 작업에 대한 질문과 대답을 볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 304fbba16d6c8e81e965462e3405824bd22982c9
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 82fa70a8025f67610032ba59368bc74789b60f84
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405939"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929375"
 ---
 # <a name="delegated-administration-faq"></a>위임된 관리 FAQ
 
@@ -53,4 +53,4 @@ Microsoft 파트너 또는 대리점인 경우 Microsoft 고문으로 등록한 
 
 ## <a name="can-i-get-consolidated-reporting-across-all-of-my-subtenants"></a>모든 하위텐트에서 통합 보고를 받을 수 있나요?
 
-관리하는 회사 전체에서 보고를 통합하는 것은 Microsoft 365 관리 센터 보고서에서 사용할 수 없습니다. 그러나 Microsoft Graph를 사용하여 보고서를 볼 [수 있습니다.](https://docs.microsoft.com/graph/overview)
+관리하는 회사 전체에서 보고를 통합하는 것은 Microsoft 365 관리 센터 보고서에서 사용할 수 없습니다. 그러나 Microsoft Graph를 사용하여 보고서를 볼 [수 있습니다.](/graph/overview)

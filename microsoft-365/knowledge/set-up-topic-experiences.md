@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목을 설정하는 방법 학습
-ms.openlocfilehash: cc420a0631f5b861341116abcd50cfe90e15450e
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 629008e083d71e09632b05e21eaefb011d7d9ce2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50551894"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929447"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Microsoft Viva 항목 설정
 
@@ -25,7 +25,7 @@ Microsoft 365 관리 센터를 사용하여 항목을 설정하고 [구성할 �
 
 Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 [Viva](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 전역 관리자 또는 SharePoint 관리자 되어야 합니다.
 
-관리되는 장치가 필요하도록 [](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)SharePoint를 구성한 경우 관리되는 장치에서 항목을 설정해야 합니다.
+관리되는 장치가 필요하도록 [](/sharepoint/control-access-from-unmanaged-devices)SharePoint를 구성한 경우 관리되는 장치에서 항목을 설정해야 합니다.
 
 ## <a name="video-demonstration"></a>동영상 데모
 
@@ -123,6 +123,8 @@ Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 [Viva](
 
     ![적용된 설정](../media/ksetup7.png)    
 
+처음 항목 검색을 사용하도록 설정한 경우 제안된 모든 항목을 항목 관리 보기에 표시하는 데 최대 2주가 걸릴 수 있습니다. 콘텐츠에 대한 새 콘텐츠 또는 업데이트가 진행될 때 항목 검색이 계속됩니다. Viva 항목에서 새 정보를 평가할 때 조직에서 제안된 항목 수가 변동되는 것은 일반적입니다.
+
 ## <a name="assign-licenses"></a>라이선스 할당
 
 항목 환경을 구성한 후 항목을 사용할 사용자에 대한 라이선스를 할당해야 합니다. 라이선스가 있는 사용자만 주요 항목, 항목 카드, 항목 페이지 및 항목 센터를 비롯한 항목에 대한 정보를 볼 수 있습니다. 
@@ -137,9 +139,10 @@ Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 [Viva](
 
 4. 앱에서 **그래프** 커넥터 **검색(Viva 항목)** 및 **Viva 항목을** 둘 다 선택해야 합니다.
 
-    ![Microsoft 365 관리 센터의 Microsoft Viva 항목 라이선스](../media/topic-experiences-licenses.png)
+   > [!div class="mx-imgBorder"]
+   > ![Microsoft 365 관리 센터의 Microsoft Viva 항목 라이선스](../media/topic-experiences-licenses.png)
 
-5. **변경 사항 저장** 를 클릭합니다.
+5. **변경 내용 저장** 을 클릭합니다.
 
 ## <a name="manage-topic-experiences"></a>항목 환경 관리
 
@@ -150,6 +153,6 @@ Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 [Viva](
 - [Microsoft Viva 항목에서 항목 사용 권한 관리](topic-experiences-user-permissions.md)
 - [Microsoft Viva 항목의 항목 센터 이름 변경](topic-experiences-administration.md)
 
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [항목 환경 개요](topic-experiences-overview.md)

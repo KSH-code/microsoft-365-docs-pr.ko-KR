@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Office 365용 Microsoft Defender에서 사용할 수 있는 피싱 방지 정책에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fe7d986c537cbc5da31811e0b49cf6224815d32c
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: eeb15040f0e47f7d51852dadf68c4b0c37de0975
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509317"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929231"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
@@ -35,7 +35,7 @@ ms.locfileid: "50509317"
 
 피싱 방지 보호 설정을 구성하는 정책은 Exchange Online 사서함이 있는 Microsoft 365 조직, Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직 및 Office 365용 Microsoft Defender 조직에서 사용할 수 있습니다.
 
-Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defender가 있는 조직에서만 사용할 수 있습니다. 예:
+Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defender가 있는 조직에서만 사용할 수 있습니다. 예를 들어 다음과 같습니다.
 
 - Microsoft 365 Enterprise E5, Microsoft 365 Education A5 등
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -103,7 +103,7 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
   >
   > - 스푸핑 방지 보호는 기본적으로 기본 피싱 방지 정책과 새로 만드는 사용자 지정 피싱 방지 정책에서 사용하도록 설정됩니다.
   >
-  > - MX 레코드가 Microsoft 365를 사용하지 않는 경우 스푸핑 방지 보호 기능을 사용하지 않도록 설정할 필요가 없습니다. 대신 커넥터에 대해 향상된 필터링을 사용하도록 설정할 수 있습니다. 자세한 내용은 Exchange Online에서 커넥터에 대한 [향상된 필터링을 참조하세요.](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
+  > - MX 레코드가 Microsoft 365를 사용하지 않는 경우 스푸핑 방지 보호 기능을 사용하지 않도록 설정할 필요가 없습니다. 대신 커넥터에 대해 향상된 필터링을 사용하도록 설정할 수 있습니다. 자세한 내용은 Exchange Online에서 커넥터에 대한 [향상된 필터링을 참조하세요.](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
   >
   > - 스푸핑 방지 보호 기능을 사용하지 않도록 설정하면 복합 인증 검사에서 암시적 스푸핑 보호 기능만 [사용할 수](email-validation-and-authentication.md#composite-authentication) 있습니다. 보낸 사람이 정책이 quarantine 또는 reject로 설정된 위치를 [명시적 DMARC](use-dmarc-to-validate-email.md) 검사에 실패하면 메시지는 여전히 검리되거나 거부됩니다.
 
@@ -173,7 +173,7 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
 
   사용자 목록에 내부 또는 외부  전자 메일 주소를 추가하여  보호할 경우 해당 보낸 사람이 보낸 메시지에 가장 보호 검사가 적용됩니다. 메시지가 정책이 적용되는 받는 사람(기본 정책의 모든  받는 사람)에게 메시지를 보낼 경우 가장이 확인됩니다.  **사용자 지정 정책의** 받는 사람에게 적용됩니다. 보낸 사람 전자 메일 주소에서 가장이 감지되면 사용자에 대한 가장 보호 작업이 메시지에 적용됩니다(메시지로 수행할 작업, 가장된 사용자 보안 팁 표시 여부 등).
 
-- **보호할 도메인:** 지정된 도메인이 메시지 보낸 사람 도메인에서 가장되지 **않도록 합니다.** 예를 들어 소유한 모든 도메인(허용[도메인)](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)또는 특정 도메인(소유한 도메인 또는 파트너 도메인)입니다. 가장으로부터  보호되는 보낸 사람 도메인 목록은 정책이 적용되는 받는 사람 목록과 다릅니다(기본 정책의 모든 받는 사람, 정책 설정 섹션의  적용 대상 [](#policy-settings) 설정에 구성된 특정 받는 사람). 
+- **보호할 도메인:** 지정된 도메인이 메시지 보낸 사람 도메인에서 가장되지 **않도록 합니다.** 예를 들어 소유한 모든 도메인(허용[도메인)](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)또는 특정 도메인(소유한 도메인 또는 파트너 도메인)입니다. 가장으로부터  보호되는 보낸 사람 도메인 목록은 정책이 적용되는 받는 사람 목록과 다릅니다(기본 정책의 모든 받는 사람, 정책 설정 섹션의  적용 대상 [](#policy-settings) 설정에 구성된 특정 받는 사람). 
 
   > [!NOTE]
   > 모든 피싱 방지 정책에서 정의할 수 있는 보호된 도메인의 최대 수는 50개입니다.

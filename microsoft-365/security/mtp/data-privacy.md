@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 70a3c881c2f68aacdeac00e615f3d09ed90c9f1e
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 0e90a1e8eed376fc267c044e54419e0de01934fd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932049"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928919"
 ---
 # <a name="microsoft-365-defender-data-security-and-privacy"></a>Microsoft 365 Defender 데이터 보안 및 개인 정보
 
@@ -35,12 +35,12 @@ ms.locfileid: "49932049"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender는 유럽 연합, 영국 및 미국의 Microsoft Azure 데이터 센터에서 운영됩니다. 서비스에서 수집하는 고객 데이터는 (a) 프로비전 중에 식별된 테넌트의 지리적 위치에 저장되거나, (b) Microsoft 365 Defender가 다른 Microsoft 온라인 서비스를 사용하여 해당 데이터를 처리한 경우 해당 다른 온라인 서비스의 데이터 저장소 규칙에 정의된 지리적 위치에 저장됩니다.
+Microsoft 365 Defender는 유럽 연합, 영국 및 미국의 Microsoft Azure 데이터 센터에서 운영됩니다. 서비스에서 수집한 고객 데이터는 (a) 프로비전 중에 식별된 테넌트의 지리적 위치에 저장되거나, (b) Microsoft 365 Defender가 다른 Microsoft 온라인 서비스를 사용하여 해당 데이터를 처리한 경우, 다른 온라인 서비스의 데이터 저장소 규칙에 정의된 지리적 위치에 저장됩니다.
 
-가명 처리 양식의 고객 데이터는 미국의 중앙 저장소 및 처리 시스템에도 저장될 수 있습니다.
+가명 처리 양식의 고객 데이터는 미국의 중앙 저장소 및 처리 시스템에 저장될 수도 있습니다.
 
 
 특정 제품의 데이터 저장소 및 개인 정보 보호 정보에 대한 자세한 내용은 다음을 참조하세요.
-- [끝점 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
-- [Microsoft Cloud App Security 데이터 보안 및 개인 정보 보호](https://docs.microsoft.com/cloud-app-security/cas-compliance-trust)
-- [Microsoft 365 개인 정보, 보안 및 투명성](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/privacy-security-and-transparency#advanced-threat-protection)
+- [끝점 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+- [Microsoft Cloud App Security 데이터 보안 및 개인 정보 보호](/cloud-app-security/cas-compliance-trust)
+- [Microsoft 365 개인 정보, 보안 및 투명성](/office365/servicedescriptions/office-365-platform-service-description/privacy-security-and-transparency#advanced-threat-protection)

@@ -21,19 +21,19 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: 페이지 진단을 사용하여 SharePoint Online 최신 사이트 페이지에서 웹 파트의 성능을 최적화하는 방법을 알아보십시오.
-ms.openlocfilehash: ca1b9328ad71fdd4a3f3c6c6be47eaa3993d4fc7
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 2a72ecd8bc1f6dee4166809f72ce5f9bce422dc9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287152"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929063"
 ---
 # <a name="optimize-web-part-performance-in-sharepoint-online-modern-site-pages"></a>SharePoint Online 최신 사이트 페이지에서 웹 파트 성능 최적화
 
 SharePoint Online 최신 사이트 페이지에는 전체 페이지 로드 시간을 유발할 수 있는 웹 파트가 포함되어 있습니다. 이 문서는 페이지의 웹 파트가 어떻게 사용자가 인식하는 대기 시간에 미치는 영향을 미치는지와 일반적인 문제를 해결하는 방법을 이해하는데 도움을 줄 것입니다.
 
 >[!NOTE]
->SharePoint Online 최신 포털의 성능에 대한 자세한 내용은 [최신 SharePoint 환경의 성능](https://docs.microsoft.com/sharepoint/modern-experience-performance)을 참조하세요.
+>SharePoint Online 최신 포털의 성능에 대한 자세한 내용은 [최신 SharePoint 환경의 성능](/sharepoint/modern-experience-performance)을 참조하세요.
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-web-parts"></a>SharePoint 용 페이지 진단 도구를 사용한 웹 파트
 
@@ -56,15 +56,15 @@ Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페�
 
 결과로 제공되는 정보에는 다음이 포함됩니다:
 
-- **웹 파트가** 사용자 지정인지 Microsoft OOTB인지를 보여 주며,
+- **웹 파트가** 사용자 지정인지 아니면 Microsoft OOTB인지를 보여 주며,
 - **이름 및 ID는** 페이지에서 웹 파트를 찾는 데 도움이 될 수 있는 식별 정보를 보여줍니다.
-- **합계는** 웹 파트가 모듈을 로드, 초기화 및 렌더링하는 데 들이는 총 시간을 보여 주며, 웹 파트가 페이지에서 렌더링하는 데 시작부터 끝까지의 총 상대 시간입니다.
-- **모듈 로드에는** 확장 JavaScript 및 CSS 파일을 다운로드, 평가 및 로드하는 데 들이는 시간이 표시됩니다. 그런 다음 이니트 프로세스가 시작됩니다.
-- **지연 로드는** 페이지의 기본 섹션에 없는 웹 파트의 지연된 로드 시간을 보여 주며, 렌더링할 웹 파트가 너무 많고 페이지 로드 시간을 최소화하기 위해 렌더링 대기 중인 특정 조건이 있습니다.
+- **Total은** 웹 파트에서 모듈 로드, 초기화 및 렌더링에 대한 총 시간을 보여 주며, 웹 파트가 페이지에서 렌더링하는 데 시작부터 끝까지의 총 상대 시간입니다.
+- **모듈 로드에는** 확장 JavaScript 및 CSS 파일을 다운로드, 평가 및 로드하는 데 들이는 시간이 표시됩니다. 그런 다음 Init 프로세스가 시작됩니다.
+- **지연 로드에는** 페이지의 기본 섹션에 없는 웹 파트의 지연된 로드 시간이 표시됩니다. 렌더링할 웹 파트가 너무 많고 페이지 로드 시간을 최소화하기 위해 렌더링할 수 있는 특정 조건이 있습니다.
 - **초기화는** 웹 파트가 데이터를 초기화하는 데 들이는 시간을 보여줍니다.
     이 호출은 비동기 호출로, 반환된 약속이 해결될 때 onInit 함수에 대한 시간을 계산하는 것입니다.
-- **렌더링은** 모듈 로드 및 Init가 완료되면 UI(사용자 인터페이스)를 렌더링하는 데 들이는 시간을 보여 주며,
-    문서(페이지)에 DOM을 탑재하는 것은 JavaScript 실행 시간입니다.
+- **렌더링은** 모듈 로드 및 Init가 완료되면 UI(사용자 인터페이스)를 렌더링하는 데 걸립니다.
+    문서(page)에 DOM을 탑재하는 것은 JavaScript 실행 시간입니다.
     이미지와 같은 비동기 리소스 렌더링을 완료하는 데 추가 시간이 걸릴 수 있습니다.
 
 이 정보는 디자이너 및 개발자가 문제를 해결하는데 도움을 주기 위해 제공됩니다. 이 정보는 디자인 및 개발 팀에 제공해야 합니다.
@@ -80,10 +80,10 @@ Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페�
   - _가져오기 ()_ 문을 사용하여 낮은 빈도 수의 시나리오와 편집 모드 코드를 (속성 창 등) 이동시켜 분리합니다.
   - _Package.json_ 파일의 종속성을 검토하여 불필요한 코드를 완전히 제거합니다. 모든 테스트/빌드 종속성을 devDependencies으로 이동합니다.
   - 최적의 정적 리소스 다운로드를 위해서는 Office 365 CDN을 사용해야 합니다. _Js/css_ 파일에는 공개 CDN 출처의 사용을 선호합니다. Office 365 CDN을 사용하는 방법에 대한 자세한 내용은 [SharePoint Online를 활용해 Office 365 Content Delivery Network(CDN) 사용하기](use-microsoft-365-cdn-with-spo.md)를 참조하십시오.
-  - SharePoint 프레임워크 (SPFx)의 일부로 제공되는 _반응_ 및 _패브릭 가져오기_ 와 같은 프레임워크를 재사용합니다. 자세한 내용은 [SharePoint 프레임워크 개요](https://docs.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview)를 참조하세요.
+  - SharePoint 프레임워크 (SPFx)의 일부로 제공되는 _반응_ 및 _패브릭 가져오기_ 와 같은 프레임워크를 재사용합니다. 자세한 내용은 [SharePoint 프레임워크 개요](/sharepoint/dev/spfx/sharepoint-framework-overview)를 참조하세요.
   - 최신 버전의 SharePoint 프레임워크를 사용하고 있는지 확인하고 새 버전이 가용하게 되면 업그레이드합니다.
 - 데이터 페칭/캐싱
-  - 웹 파트가 데이터를 표시하기 위해 추가 서버 호출을 사용하는 경우 해당 서버 API가 빠르고 클라이언트 쪽 캐싱을 구현해야 합니다(예: 큰 집합에 _localStorage_ 또는 _IndexedDB_ 사용).
+  - 웹 파트가 표시할 데이터를 페치하기 위해 추가 서버 호출을 사용하는 경우 해당 서버 API가 빠르고 클라이언트 쪽 캐싱을 구현해야 합니다(예: 큰 집합에 _localStorage_ 또는 _IndexedDB_ 사용).
   - 중요한 데이터를 제공하는데 여러 번의 호출이 필요한 경우 서버에서 일괄 처리를 하거나 요청을 단일 호출로 통합하는 다른 방법을 고려합니다.
   - 또는 일부 데이터 요소에 더 느린 API가 필요하지만 초기 렌더링이 중요하지 않은 경우에는 이를 중요한 데이터가 제공된 후 실행되는 별도의 호출로 분리합니다.
   - 여러 파트에서 같은 데이터를 사용하는 경우에는 공통 데이터 레이어를 활용하여 중복되는 호출을 방지합니다.
@@ -107,7 +107,7 @@ Sharepoint용 페이지 진단 도구를 사용하여 Sharepoint 사이트 페�
 
 [Office 365 성능 조정](tune-microsoft-365-performance.md)
 
-[최신 SharePoint 환경의 성능](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[최신 SharePoint 환경의 성능](/sharepoint/modern-experience-performance)
 
 [콘텐츠 배달 네트워크](content-delivery-networks.md)
 

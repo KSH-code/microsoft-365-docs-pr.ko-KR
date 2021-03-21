@@ -16,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365 메시지 암호화를 사용하여 메시지를 암호화하고 암호 해독하는 메일 흐름 규칙(전송 규칙)을 만드는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 58b5e592ee8da92a2dbfd10f533aad3240b7a484
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 5c0f67acdb5d8fbfff216742cab1c49732c4ab24
+ms.sourcegitcommit: 30c3054004ddc9d6059c11d55577552aa2464810
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741557"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "50939649"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages"></a>전자 메일 메시지를 암호화하는 메일 흐름 규칙 정의
 
@@ -31,10 +31,10 @@ Exchange Online을 관리하는 관리자는 메일 흐름 규칙(전송 규칙)
 
 최근에 Active Directory RMS에서 Azure Information Protection으로 마이그레이션한 경우 기존 메일 흐름 규칙을 검토하여 새 환경에서 계속 작동하도록 해야 합니다. 또한 Azure Information Protection을 통해 사용할 수 있는 새로운 Office 365 메시지 암호화(OME) 기능을 활용하려면 기존 메일 흐름 규칙을 업데이트해야 합니다. 그렇지 않으면 사용자는 새로운 원활한 OME 환경 대신 이전 HTML 첨부 파일 형식을 사용하는 암호화된 메일을 계속 받게 됩니다. 아직 OME를 설정하지 않은 경우 자세한 내용은 [Set up new Office 365 Message Encryption capabilities을](set-up-new-message-encryption-capabilities.md) 참조하십시오.
 
-메일 흐름 규칙을 구성하는 구성 요소 및 메일 흐름 규칙의 작동 방식에 대한 자세한 내용은 Exchange Online의 메일 흐름 [규칙(전송 규칙)을 참조하세요.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) Azure Information Protection에서 메일 흐름 규칙이 작동 하는 방법에 대한 자세한 내용은 Azure Information Protection 레이블에 대한 Exchange Online 메일 흐름 [규칙 구성을 참조하세요.](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-exo-rules)
+메일 흐름 규칙을 구성하는 구성 요소 및 메일 흐름 규칙의 작동 방식에 대한 자세한 내용은 Exchange Online의 메일 흐름 [규칙(전송 규칙)을 참조하세요.](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) Azure Information Protection에서 메일 흐름 규칙이 작동 하는 방법에 대한 자세한 내용은 Azure Information Protection 레이블에 대한 Exchange Online 메일 흐름 [규칙 구성을 참조하세요.](/azure/information-protection/deploy-use/configure-exo-rules)
 
 > [!IMPORTANT]
-> 하이브리드 Exchange 환경의 경우, 전자 메일이 Exchange Online을 통해 라우팅된 경우 OME를 사용하여 암호화된 메일을 보내고 받을 수 있습니다. 하이브리드 Exchange 환경에서 OME를 구성하려면 먼저 [](https://docs.microsoft.com/Exchange/exchange-hybrid) 하이브리드 구성 마법사를 사용하여 하이브리드를 구성한 다음 [Office 365에서](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-1-configure-mail-to-flow-from-office-365-to-your-on-premises-email-server) 전자 메일 서버로 흐르도록 메일을 구성하고 전자 메일 서버에서 [Office 365로](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-2-configure-mail-to-flow-from-your-email-server-to-office-365)흐르도록 메일을 구성해야 합니다. Office 365를 통과하도록 메일을 구성한 후 이 지침을 사용하여 OME에 대한 메일 흐름 규칙을 구성할 수 있습니다.
+> 하이브리드 Exchange 환경의 경우, 전자 메일이 Exchange Online을 통해 라우팅된 경우 OME를 사용하여 암호화된 메일을 보내고 받을 수 있습니다. 하이브리드 Exchange 환경에서 OME를 구성하려면 먼저 [](/Exchange/exchange-hybrid) 하이브리드 구성 마법사를 사용하여 하이브리드를 구성한 다음 [Office 365에서](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-1-configure-mail-to-flow-from-office-365-to-your-on-premises-email-server) 전자 메일 서버로 흐르도록 메일을 구성하고 전자 메일 서버에서 [Office 365로](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-2-configure-mail-to-flow-from-your-email-server-to-office-365)흐르도록 메일을 구성해야 합니다. Office 365를 통과하도록 메일을 구성한 후 이 지침을 사용하여 OME에 대한 메일 흐름 규칙을 구성할 수 있습니다.
 
 ## <a name="create-mail-flow-rules-to-encrypt-email-messages-with-the-new-ome-capabilities"></a>새 OME 기능을 사용하여 전자 메일 메시지를 암호화하는 메일 흐름 규칙 만들기
 
@@ -48,7 +48,7 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화를 트리
 
 3. Microsoft 365 관리 센터에서 관리 센터 Exchange **를** \> **선택 합니다.**
 
-4. EAC에서 메일 흐름 **규칙으로** 이동하고 새 새로 만들기 아이콘 새 규칙 \>   ![ 만들기 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **를 선택합니다.** EAC 사용에 대한 자세한 내용은 [Exchange Online의 Exchange 관리 센터를 참조하세요.](https://docs.microsoft.com/exchange/exchange-admin-center)
+4. EAC에서 메일 흐름 **규칙으로** 이동하고 새 새로 만들기 아이콘 새 규칙 \>   ![ 만들기 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **를 선택합니다.** EAC 사용에 대한 자세한 내용은 [Exchange Online의 Exchange 관리 센터를 참조하세요.](/exchange/exchange-admin-center)
 
 5. **이름에** 규칙의 이름(예: 사용자에 대한 메일 암호화)을 DrToniRamos@hotmail.com.
 
@@ -68,7 +68,7 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화를 트리
 
 8. 새 OME 기능을 사용하여 암호화를 사용하도록 설정하려면  다음 **작업에서** 메시지 보안 수정을 선택한 다음 **Office 365** 메시지 암호화 및 권한 보호 적용을 선택합니다. 목록에서 RMS 템플릿을 선택하고 **저장을** 선택한 다음 확인 을 **선택합니다.**
   
-  템플릿 목록에는 Office 365에서 사용하기 위해 만든 모든 사용자 지정 템플릿뿐만 아니라 모든 기본 템플릿 및 옵션이 포함됩니다. 목록이 비어 있는 경우 [Set up new Office 365 Message Encryption capabilities에](set-up-new-message-encryption-capabilities.md)설명된 새 기능으로 Office 365 메시지 암호화를 설정해야 합니다. 기본 템플릿에 대한 자세한 내용은 Azure Information Protection용 템플릿 구성 및 [관리를 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates) 전달 금지 **옵션에** 대한 자세한 내용은 전자 메일에 [대해 전달 금지 옵션을 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) 암호화 전용 **옵션에** 대한 자세한 내용은 전자 메일에 대한 [암호화 전용 옵션을 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
+  템플릿 목록에는 Office 365에서 사용하기 위해 만든 모든 사용자 지정 템플릿뿐만 아니라 모든 기본 템플릿 및 옵션이 포함됩니다. 목록이 비어 있는 경우 [Set up new Office 365 Message Encryption capabilities에](set-up-new-message-encryption-capabilities.md)설명된 새 기능으로 Office 365 메시지 암호화를 설정해야 합니다. 기본 템플릿에 대한 자세한 내용은 Azure Information Protection용 템플릿 구성 및 [관리를 참조하세요.](/information-protection/deploy-use/configure-policy-templates) 전달 금지 **옵션에** 대한 자세한 내용은 전자 메일에 [대해 전달 금지 옵션을 참조하세요.](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) 암호화 전용 옵션에 대한 **자세한** 내용은 전자 메일의 암호화 [전용 옵션을 참조하세요.](/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
 
   다른 작업을 **지정하려는** 경우 추가 작업을 선택할 수 있습니다.
 
@@ -86,7 +86,7 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화를 트리
 
 6. 새 OME 기능을 사용하여 암호화를 사용하도록 설정하려면  **다음 작업에서** 메시지 보안 수정을 선택한 다음 Office 365 메시지 암호화 및 권한 보호 적용 **을 선택하십시오.** 목록에서 RMS 템플릿을 선택하고 저장을 선택한 **다음** 확인 을 **선택합니다.**
 
-   템플릿 목록에는 Office 365에서 사용하기 위해 만든 모든 사용자 지정 템플릿뿐만 아니라 모든 기본 템플릿 및 옵션이 포함됩니다. 목록이 비어 있는 경우 Azure Information Protection을 바탕으로 구축된 새 Office 365 메시지 암호화 기능 설정에 설명된 새 기능을 사용하여 [Office 365](set-up-new-message-encryption-capabilities.md)메시지 암호화를 설정해야 합니다. 기본 템플릿에 대한 자세한 내용은 Azure Information Protection용 템플릿 구성 및 [관리를 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates) 전달 금지 옵션에 대한 자세한 내용은 전자 메일에 [대해 전달 금지 옵션을 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) 암호화 전용 옵션에 대한 자세한 내용은 전자 메일에 대한 [암호화 전용 옵션을 참조하세요.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
+   템플릿 목록에는 Office 365에서 사용하기 위해 만든 모든 사용자 지정 템플릿뿐만 아니라 모든 기본 템플릿 및 옵션이 포함됩니다. 목록이 비어 있는 경우 Azure Information Protection을 바탕으로 구축된 새 Office 365 메시지 암호화 기능 설정에 설명된 새 기능을 사용하여 [Office 365](set-up-new-message-encryption-capabilities.md)메시지 암호화를 설정해야 합니다. 기본 템플릿에 대한 자세한 내용은 Azure Information Protection용 템플릿 구성 및 [관리를 참조하세요.](/information-protection/deploy-use/configure-policy-templates) 전달 금지 옵션에 대한 자세한 내용은 전자 메일에 [대해 전달 금지 옵션을 참조하세요.](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) 암호화 전용 옵션에 대한 자세한 내용은 전자 메일에 대한 [암호화 전용 옵션을 참조하세요.](/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
 
    다른 작업을 **지정하려는** 경우 추가 작업을 선택할 수 있습니다.
 
@@ -100,7 +100,7 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화 제거를
 
 ### <a name="use-the-eac-to-create-a-rule-to-remove-encryption-from-email-messages-with-the-new-ome-capabilities"></a>EAC를 사용하여 새 OME 기능이 있는 전자 메일 메시지에서 암호화를 제거하는 규칙 만들기
 
-조직에서 액세스할 수 있는 암호화를 제거할 수 있습니다. 즉, 조직 또는 메일에 의해 적용되는 암호화는 암호화 전용입니다.
+조직에서 액세스할 수 있는 암호화를 제거할 수 있습니다. 즉, 조직에서 적용한 암호화가 있는 메일 또는 암호화 전용 제한으로 보호되는 메일입니다.
 
 1. 웹 브라우저에서 전역 관리자 권한이 부여된 직장 또는 학교 계정을 사용하여 [Office 365에 로그인합니다.](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser)
 
@@ -108,11 +108,11 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화 제거를
 
 3. Microsoft 365 관리 센터에서 관리 센터 Exchange **를** \> **선택 합니다.**
 
-4. EAC에서 메일 흐름 **규칙으로** 이동하고 새 새로 만들기 아이콘 새 규칙 \>   ![ 만들기 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **를 선택합니다.** EAC 사용에 대한 자세한 내용은 [Exchange Online의 Exchange 관리 센터를 참조하세요.](https://docs.microsoft.com/exchange/exchange-admin-center)
+4. EAC에서 메일 흐름 **규칙으로** 이동하고 새 새로 만들기 아이콘 새 규칙 \>   ![ 만들기 ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **를 선택합니다.** EAC 사용에 대한 자세한 내용은 [Exchange Online의 Exchange 관리 센터를 참조하세요.](/exchange/exchange-admin-center)
 
 5. **이름에** 규칙의 이름(예: 보낸 메일에서 암호화 제거)을 입력합니다.
 
-6. 다음의 경우 이 규칙 **적용에서** 암호화를 메시지에서 제거해야 하는 조건을 선택합니다. 추가 **받는 사람이 조직 외부** 또는 조직 \>  **내부에 있습니다.**
+6. 다음의 경우 이 규칙 **적용에서** 암호화를 메시지에서 제거해야 하는 조건을 선택합니다. 추가 **보낸 사람이 조직** 내부에 위치하거나 받는 사람이 \>   **조직** \> **내부에 있습니다.**
 
 7. 다음 **작업에서** **메시지** 보안 수정 \> **Office 365 메시지 암호화** 및 권한 보호 제거 를 선택합니다.
 
@@ -122,7 +122,7 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화 제거를
 
 아직 조직을 새 OME 기능으로 이동하지 않은 경우 조직에 적절한 새 OME 기능으로 이동하는 계획을 세우는 것이 좋습니다. 자세한 내용은 Azure Information Protection을 바탕으로 구축된 [새 Office 365](set-up-new-message-encryption-capabilities.md)메시지 암호화 기능 설치를 참조하세요. 그렇지 않으면 새 OME 기능을 사용하지 않는 Office 365 메시지 암호화에 대한 메일 흐름 규칙 [정의를 참조하세요.](legacy-information-for-message-encryption.md#defining-mail-flow-rules-for-office-365-message-encryption-that-dont-use-the-new-ome-capabilities)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365의 암호화](encryption.md)
 
@@ -130,6 +130,6 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화 제거를
 
 [암호화된 메시지에 브랜딩 추가](add-your-organization-brand-to-encrypted-messages.md)
 
-[Exchange Online의 메일 흐름 규칙(전송 규칙)](https://go.microsoft.com/fwlink/p/?LinkId=506707)
+[Exchange Online의 메일 흐름 규칙(전송 규칙)](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
 
-[Exchange Online Protection의 메일 흐름 규칙(전송 규칙)](https://go.microsoft.com/fwlink/p/?LinkId=506708)
+[Exchange Online Protection의 메일 흐름 규칙(전송 규칙)](../security/office-365-security/mail-flow-rules-transport-rules-0.md)

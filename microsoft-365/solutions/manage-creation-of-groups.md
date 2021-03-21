@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Microsoft 365 그룹을 만들 수 있는 사용자를 제어하는 방법을 학습합니다.
-ms.openlocfilehash: 04c2b6e738ed41f8d4a2bf96716fb74b1d260497
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 9c3edf335ce09f04e9b0b538e69fa607a9c34044
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838642"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929159"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Microsoft 365 그룹을 만들 수 있는 사용자 관리
 
@@ -63,7 +63,7 @@ ms.locfileid: "50838642"
 - 그룹을 만들 수 있는 그룹의 구성원
 
 > [!NOTE]
-> [Azure 라이선스를 할당하는](https://docs.microsoft.com/azure/active-directory/fundamentals/license-users-groups) 방법에 대한 자세한 내용은 Azure Active Directory 포털에서 라이선스 할당 또는 제거를 참조하세요.
+> [Azure 라이선스를 할당하는](/azure/active-directory/fundamentals/license-users-groups) 방법에 대한 자세한 내용은 Azure Active Directory 포털에서 라이선스 할당 또는 제거를 참조하세요.
 
 다음 사용자에게 할당된 Azure AD Premium 또는 Azure AD Basic EDU 라이선스가 필요하지 않습니다.
 
@@ -83,19 +83,19 @@ ms.locfileid: "50838642"
 
 4. 그룹 설정을 완료하고, 그룹에서 그룹을 만들 수 있도록 하려는 사용자 또는 다른 그룹을 추가합니다.
 
-자세한 내용은 Microsoft [365](https://docs.microsoft.com/microsoft-365/admin/email/create-edit-or-delete-a-security-group)관리 센터에서 보안 그룹 만들기, 편집 또는 삭제를 참조하세요.
+자세한 내용은 Microsoft [365](../admin/email/create-edit-or-delete-a-security-group.md)관리 센터에서 보안 그룹 만들기, 편집 또는 삭제를 참조하세요.
 
 ## <a name="step-2-run-powershell-commands"></a>2단계: PowerShell 명령 실행
 
-그룹 수준 게스트 액세스 설정을 변경하려면 [AzureAD(AzureAD)(모듈](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) 이름 **AzureADPreview)의** Azure Active Directory PowerShell 미리 보기 버전을 사용하여 다음을 변경해야 합니다.
+그룹 수준 게스트 액세스 설정을 변경하려면 [AzureAD(AzureAD)(모듈](/powershell/azure/active-directory/install-adv2) 이름 **AzureADPreview)의** Azure Active Directory PowerShell 미리 보기 버전을 사용하여 다음을 변경해야 합니다.
 
-- 이전에 Azure AD PowerShell 모듈의 어떠한 버전도 설치하지 않은 경우 [Azure AD 모듈 설치](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview&preserve-view=true)를 참조하고 지침에 따라 공개 미리 보기 릴리스를 설치합니다.
+- 이전에 Azure AD PowerShell 모듈의 어떠한 버전도 설치하지 않은 경우 [Azure AD 모듈 설치](/powershell/azure/active-directory/install-adv2?preserve-view=true&view=azureadps-2.0-preview)를 참조하고 지침에 따라 공개 미리 보기 릴리스를 설치합니다.
 
 - AzureAD(Azure AD PowerShell 모듈)의 2.0 일반 가용성 버전을 설치한 경우에는 PowerShell 세션에서 `Uninstall-Module AzureAD`를 실행하여 제거를 하고 `Install-Module AzureADPreview`를 실행하여 미리 보기 버전을 설치해야 합니다.
 
 - 미리 보기 버전을 이미 설치한 경우에는 `Install-Module AzureADPreview`를 실행하여 이 모듈의 최신 버전인지 확인합니다.
 
-아래 스크립트를 메모장과 같은 텍스트 편집기로 복사하거나 ISE Windows PowerShell [복사합니다.](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
+아래 스크립트를 메모장과 같은 텍스트 편집기로 복사하거나 ISE Windows PowerShell [복사합니다.](/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)
 
 을 만든 그룹의 *\<GroupName\>* 이름으로 바 대체합니다. 예를 들어 다음과 같습니다.
 
@@ -109,7 +109,7 @@ PowerShell 창에서 파일을 저장한 위치로 이동합니다("CD"를 <File
 
 `.\GroupCreators.ps1`
 
-메시지가 [표시될 때](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription) 관리자 계정으로 로그인합니다.
+메시지가 [표시될 때](../enterprise/connect-to-microsoft-365-powershell.md#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription) 관리자 계정으로 로그인합니다.
 
 ```PowerShell
 $GroupName = "<GroupName>"
@@ -164,7 +164,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 그룹의 구성원과 동일한 절차를 다시 시도하십시오.
 
 > [!NOTE]
-> 그룹의 구성원이 그룹을 만들 수 없는 경우 해당 OWA 사서함 정책을 통해 차단되지 [않는지 검사합니다.](https://go.microsoft.com/fwlink/?linkid=852135)
+> 그룹의 구성원이 그룹을 만들 수 없는 경우 해당 OWA 사서함 정책을 통해 차단되지 [않는지 검사합니다.](/powershell/module/exchange/set-owamailboxpolicy)
 
 ## <a name="related-topics"></a>관련 주제
 
@@ -172,10 +172,10 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 
 [공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 
-[Office 365 PowerShell 시작](https://go.microsoft.com/fwlink/p/?LinkId=808033)
+[Office 365 PowerShell 시작](../enterprise/getting-started-with-microsoft-365-powershell.md)
 
-[Azure Active Directory에서 셀프 서비스 그룹 관리 설정](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-self-service-management)
+[Azure Active Directory에서 셀프 서비스 그룹 관리 설정](/azure/active-directory/users-groups-roles/groups-self-service-management)
 
-[Set-ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy)
+[Set-ExecutionPolicy](/powershell/module/microsoft.powershell.security/set-executionpolicy)
 
-[그룹 설정 구성을 위한 Azure Active Directory cmdlet](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+[그룹 설정 구성을 위한 Azure Active Directory cmdlet](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)

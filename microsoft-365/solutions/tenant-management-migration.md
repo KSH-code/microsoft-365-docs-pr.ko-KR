@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Microsoft 365 테넌트에 대한 Windows 장치, Office 클라이언트 앱 및 Office 서버를 마이그레이션합니다.
-ms.openlocfilehash: 85f1c0d927b881c4d1526ce538ae54f5954a0664
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 336dee2e62c6d0917c437252ba1d741c304998fa
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406363"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929147"
 ---
 # <a name="step-4-migration-for-your-microsoft-365-for-enterprise-tenants"></a>4단계. 엔터프라이즈용 Microsoft 365 테넌트 마이그레이션
 
@@ -29,7 +29,7 @@ ms.locfileid: "50406363"
 
 엔터프라이즈용 Microsoft 365 통합 제품군의 비즈니스 가치를 극대화하려면 다음 릴리스를 마이그레이션하는 전략을 계획하고 구현합니다.
 
-| 시작 | 받는 사람 |
+| From | 받는 사람 |
 |:-------|:-----|
 | Windows 7 및 Windows 8.1 | Windows 10 Enterprise |
 | 직장의 장치에 설치된 Office 클라이언트 제품 | 엔터프라이즈용 Microsoft 365 앱 |
@@ -40,17 +40,17 @@ ms.locfileid: "50406363"
 
 각 엔터프라이즈용 Microsoft 365 라이선스에는 Windows 10 Enterprise용 라이선스가 포함되어 있습니다. Windows 7 또는 Windows 8.1을 실행 하는 장치를 마이그레이션하려면 바로 업그레이드를 할 수 있습니다. *2020년 1월 14일* Windows 7에 대한 지원이 종료됩니다. 
 
-전체 업그레이드를 넘어 Windows 10 Enterprise를 설치하는 추가 방법은 [Windows 10 배포 시나리오를 참조합니다.](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios) 직접 [Windows 10 배포를 계획](https://aka.ms/planforwin10deployment)할 수도 있습니다.
+전체 업그레이드를 넘어 Windows 10 Enterprise를 설치하는 추가 방법은 [Windows 10 배포 시나리오를 참조합니다.](/windows/deployment/windows-10-deployment-scenarios) 직접 [Windows 10 배포를 계획](/windows/deployment/planning/)할 수도 있습니다.
 
 ## <a name="migrating-to-microsoft-365-apps-for-enterprise"></a>엔터프라이즈용 Microsoft 365 앱으로 마이그레이션
 
-엔터프라이즈용 Microsoft 365에는 Microsoft 클라우드에서 설치 및 업데이트되는 Office 클라이언트 제품 버전(Word, PowerPoint, Excel 및 Outlook)인 엔터프라이즈용 Microsoft 365 앱이 포함되어 있습니다. 자세한 내용은 [엔터프라이즈용 Microsoft 365 앱 정보를 참조하세요.](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)
+엔터프라이즈용 Microsoft 365에는 Microsoft 클라우드에서 설치 및 업데이트되는 Office 클라이언트 제품 버전(Word, PowerPoint, Excel 및 Outlook)인 엔터프라이즈용 Microsoft 365 앱이 포함되어 있습니다. 자세한 내용은 [엔터프라이즈용 Microsoft 365 앱 정보를 참조하세요.](/deployoffice/about-microsoft-365-apps)
 
 컴퓨터를 Office 2019 또는 이전 버전에 대해 최신으로 유지하는 대신 다음 단계를 수행합니다.
 
 1. 사용자에 대한 Microsoft 365 라이선스를 다운로드하고 할당합니다.
 2. 컴퓨터에서 Office 2013 또는 Office 2016을 제거합니다.
-3. 개별적으로 또는 IT 롤아웃 중에 엔터프라이즈용 Microsoft 365 앱을 설치합니다. 자세한 내용은 Microsoft 365 앱 배포 [가이드를 참조하세요.](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
+3. 개별적으로 또는 IT 롤아웃 중에 엔터프라이즈용 Microsoft 365 앱을 설치합니다. 자세한 내용은 Microsoft 365 앱 배포 [가이드를 참조하세요.](/deployoffice/deployment-guide-microsoft-365-apps)
 
 엔터프라이즈용 Microsoft 365 앱은 보안 업데이트와 새로운 기능 업데이트를 자동으로 설치하며 Microsoft 365의 클라우드 기반 서비스를 사용하여 향상된 보안 및 생산성을 활용할 수 있습니다.
 
@@ -60,9 +60,9 @@ ms.locfileid: "50406363"
 
 특정 Microsoft 365 워크로드에 대한 사용자 및 데이터를 마이그레이션하는 데 대한 정보는 다음 리소스를 사용합니다.
 
-- [사서함을 Exchange Online으로 Exchange Server 사서함 이동](https://docs.microsoft.com/exchange/hybrid-deployment/move-mailboxes)
-- [SharePoint Server에서 SharePoint Online으로 SharePoint 데이터 마이그레이션](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online)
-- [비즈니스용 Skype Online을 Microsoft Teams로 마이그레이션](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+- [사서함을 Exchange Online으로 Exchange Server 사서함 이동](/exchange/hybrid-deployment/move-mailboxes)
+- [SharePoint Server에서 SharePoint Online으로 SharePoint 데이터 마이그레이션](/sharepointmigration/migrate-to-sharepoint-online)
+- [비즈니스용 Skype Online을 Microsoft Teams로 마이그레이션](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 ## <a name="transition-your-entire-organization"></a>전체 조직 전환
 

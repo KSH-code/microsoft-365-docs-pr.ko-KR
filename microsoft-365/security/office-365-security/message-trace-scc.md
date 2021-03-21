@@ -14,12 +14,12 @@ ms.custom:
 description: 관리자는 보안 및 준수 센터에서 메시지 추적을 & 메시지에 대해 어떤 일이 벌어졌다는 것을 알 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9c3f7e4bc9624b9fae48074203da525d7a504a12
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 587e111a71b321c131d0e63a0510ec7e1afa289a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741578"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929399"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 및 준수 센터의 메시지 추적
 
@@ -40,7 +40,7 @@ ms.locfileid: "50741578"
 >
 > - 메시지 추적을 사용하려면 조직 관리, 규정 준수 관리 또는 Help Desk 역할 그룹의 구성원이 해야 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 >
-> - 결과에 표시되는 최대 메시지 수는 선택한 보고서 유형에 따라 다릅니다(자세한 [](#choose-report-type) 내용은 보고서 유형 선택 섹션 참조). Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell의 [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/get-historicalsearch) cmdlet은 결과에 모든 메시지를 반환합니다.
+> - 결과에 표시되는 최대 메시지 수는 선택한 보고서 유형에 따라 다릅니다(자세한 [](#choose-report-type) 내용은 보고서 유형 선택 섹션 참조). Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell의 [Get-HistoricalSearch](/powershell/module/exchange/get-historicalsearch) cmdlet은 결과에 모든 메시지를 반환합니다.
 
 ## <a name="open-message-trace"></a>메시지 추적 열기
 
@@ -231,7 +231,7 @@ ms.locfileid: "50741578"
   > 
   > - 배달되지 않은 메시지가 배달된 경우 메시지 추적에 여러 **Event** 항목이 생성됩니다.
   > 
-  > - 이 목록은 전체 목록으로만 사용되지는 않습니다. 추가 이벤트에 대한 자세한 내용은 메시지 추적 로그의 이벤트 [유형을 참조하세요.](https://docs.microsoft.com/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log) 이 링크는 Exchange Server(Exchange Server Exchange) 항목입니다.
+  > - 이 목록은 전체 목록으로만 사용되지는 않습니다. 추가 이벤트에 대한 자세한 내용은 메시지 추적 로그의 이벤트 [유형을 참조하세요.](/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log) 이 링크는 Exchange Server(Exchange Server Exchange) 항목입니다.
 
 - **추가 정보:** 이 섹션에는 다음과 같은 세부 정보가 포함되어 있습니다.
 
@@ -251,7 +251,7 @@ ms.locfileid: "50741578"
 
 - **sender_address**: 보낸 사람 전자 메일 주소(*별칭* @ *도메인 )입니다.*
 
-- **Recipient_status**: 받는 사람에게 메시지를 배달한 상태입니다. 메시지가 여러 받는 사람에게 전송된 경우 모든 받는 사람 및 각 받는 사람에 대한 해당 상태가 다음 형식으로 \<*email address*\> ## \<*status*\> 표시됩니다. 예를 들면 다음과 같습니다.
+- **Recipient_status**: 받는 사람에게 메시지를 배달한 상태입니다. 메시지가 여러 받는 사람에게 전송된 경우 모든 받는 사람 및 각 받는 사람에 대한 해당 상태가 다음 형식으로 \<*email address*\> ## \<*status*\> 표시됩니다. 예를 들어 다음과 같습니다.
 
   - **##Receive 보내기란** 서비스에 의해 메시지가 수신되어 의도한 대상에 전송된 것일 수 있습니다.
 
@@ -271,7 +271,7 @@ ms.locfileid: "50741578"
 
 - **directionality:** 메시지가 조직에 전송된 인바운드 메시지(1)인지 또는 조직에서 보낸 아웃바운드 메시지(2)를 나타냅니다.
 
-- **connector_id**: 원본 또는 대상 커넥터의 이름입니다. Exchange Online의 커넥터에 대한 자세한 내용은 [Office 365에서](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)커넥터를 사용하여 메일 흐름 구성을 참조하세요.
+- **connector_id**: 원본 또는 대상 커넥터의 이름입니다. Exchange Online의 커넥터에 대한 자세한 내용은 [Office 365에서](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)커넥터를 사용하여 메일 흐름 구성을 참조하세요.
 
 - **delivery_priority**: 메시지가 높음, 낮음 또는 보통 우선 순위로 <sup>*</sup>   **전송된지 여부입니다.**
 
@@ -289,13 +289,13 @@ ms.locfileid: "50741578"
 
 - **server_hostname**: 대상 서버의 호스트 이름 또는 FQDN입니다.
 
-- **source_context**: 원본 필드와 관련된 추가 **정보입니다.** 예를 들면 다음과 같습니다.
+- **source_context**: 원본 필드와 관련된 추가 **정보입니다.** 예를 들어 다음과 같습니다.
 
   - `Protocol Filter Agent`
 
   - `3489061114359050000`
 
-- **source**: 이벤트를 담당하는 Exchange Online 구성 요소입니다. 예를 들면 다음과 같습니다.
+- **source**: 이벤트를 담당하는 Exchange Online 구성 요소입니다. 예를 들어 다음과 같습니다.
 
   - `AGENT`
 
@@ -313,7 +313,7 @@ ms.locfileid: "50741578"
 
 - **related_recipient_address**: , 및 이벤트와 함께 메시지와 연결된 다른 받는 사람 전자 메일 주소를 표시하는 데 `EXPAND` `REDIRECT` `RESOLVE` 사용됩니다.
 
-- **reference**: 이 필드에는 특정 유형의 이벤트에 대한 추가 정보가 포함되어 있습니다. 예를 들면 다음과 같습니다.
+- **reference**: 이 필드에는 특정 유형의 이벤트에 대한 추가 정보가 포함되어 있습니다. 예를 들어 다음과 같습니다.
 
   - **DSN:** 이 이벤트 이후에 DSN이 생성된 경우 연결된 배달 상태 알림의 message_id 값(DSN, 배달하지 않은 보고서, NDR 또는 반송 메시지라고도 알려지기)의 보고서 링크가 들어 있습니다.  DSN 메시지인 경우 이 필드에는  DSN이 message_id 원래 메시지의 message_id 값이 들어 있습니다.
 
@@ -331,7 +331,7 @@ ms.locfileid: "50741578"
 
 - **return_path**: 메시지를 보낸 **MAIL FROM** 명령으로 지정된 반환 전자 메일 주소입니다. 이 필드는 비어 있는 것이 아니라 로 나타내는 null 보낸 사람 주소 값을 사용할 수 `<>` 있습니다.
 
-- **message_info**: 메시지에 대한 추가 정보입니다. 예를 들면 다음과 같습니다.
+- **message_info**: 메시지에 대한 추가 정보입니다. 예를 들어 다음과 같습니다.
 
   - 메시지 발신 날짜-시간(UTC for `DELIVER` and `SEND` events)입니다. 원본 날짜-시간은 메시지가 Exchange Online 조직에 처음 들어온 시간입니다. UTC 날짜-시간은 ISO 8601 날짜-시간 형식으로 표시됩니다. 여기서 = 년, = 월, 일은 시간 구성 요소의 시작을 `yyyy-mm-ddThh:mm:ss.fffZ` 나타내며, 시간, = 분, = 초, = 초의 분수 및 UTC를 나타내는 또 다른 `yyyy` `mm` `dd` `T` `hh` `mm` `ss` `fff` `Z` `Zulu` 방법인 을 나타냅니다.
 
@@ -413,7 +413,7 @@ ms.locfileid: "50741578"
 |---|---|
 |`ETR|ruleId=<guid>`|일치된 규칙 ID입니다.|
 |`St=<datetime>`|규칙 일치가 발생한 날짜 및 시간(UTC)입니다.|
-|`Action=<ActionDefinition>`|적용된 작업입니다. 사용 가능한 작업 목록은 [Exchange Online의 메일 흐름 규칙 작업을 참조하세요.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)|
+|`Action=<ActionDefinition>`|적용된 작업입니다. 사용 가능한 작업 목록은 [Exchange Online의 메일 흐름 규칙 작업을 참조하세요.](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)|
 |`Mode=<Mode>`|규칙의 모드입니다. 유효한 값은 다음과 같습니다.<ul><li>**적용**: 규칙에 대한 모든 작업이 적용됩니다.</li><li>**정책 팁을 통해 테스트:** 모든 정책 팁 작업이 전송되지만 다른 적용 작업은 실행되지 않습니다.</li><li>**정책 팁이** 없는 테스트: 작업이 로그 파일에 나열되지만 보낸 사람이 어떤 식으로도 알림을 보내지 않고 적용 작업이 실행되지 않습니다.</li></ul>|
 |
 

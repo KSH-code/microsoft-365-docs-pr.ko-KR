@@ -1,5 +1,5 @@
 ---
-title: 고가용성 페더타 인증 4단계 웹 응용 프로그램 proxies 구성
+title: 고가용성 페더타 인증 4단계 웹 응용 프로그램 Proxies 구성
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,31 +13,31 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 1c903173-67cd-47da-86d9-d333972dda80
-description: '요약: Microsoft Azure의 Microsoft 365에 대한 고가용성 페더타 인증을 위한 웹 응용 프로그램 프록시 서버를 구성합니다.'
-ms.openlocfilehash: fd63274ffb9528cedb88fc2ba77834cfd56664d4
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: '요약: Microsoft Azure에서 Microsoft 365에 대한 고가용성 페더임 인증을 위한 웹 응용 프로그램 프록시 서버를 구성합니다.'
+ms.openlocfilehash: 95d73d05f2eef087e606df14db180b24c69d5932
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46692675"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929075"
 ---
 # <a name="high-availability-federated-authentication-phase-4-configure-web-application-proxies"></a>고가용성 페더레이션 인증 4단계: 웹 응용 프로그램 프록시 구성
 
-이 Azure 인프라 서비스에서 Microsoft 365 페더타 인증에 대한 고가용성을 배포하는 이 단계에서는 내부 부하 균형 조정 및 AD FS 서버 2대를 생성합니다.
+Azure 인프라 서비스에서 Microsoft 365 페더링 인증에 대한 고가용성을 배포하는 이 단계에서는 내부 부하 균형 조정 및 AD FS 서버 2대를 생성합니다.
   
-[5단계: Microsoft 365에](high-availability-federated-authentication-phase-5-configure-federated-authentic.md)대한 페더타 인증 구성으로 이동하기 전에 이 단계를 완료해야 합니다. 모든 [단계는 Azure에서 Microsoft 365에](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) 대한 고가용성 페더타 인증 배포를 참조하세요.
+Phase [5: Configure federated authentication for Microsoft 365으로](high-availability-federated-authentication-phase-5-configure-federated-authentic.md)이동하기 전에 이 단계를 완료해야 합니다. 모든 [단계는 Azure에서 Microsoft 365에](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) 대한 고가용성 페더타 인증 배포를 참조하세요.
   
 ## <a name="create-the-internet-facing-load-balancer-in-azure"></a>Azure에서 인터넷 부하 분산 장치를 만듭니다.
 
 Azure가 인터넷에서 수신되는 클라이언트 인증 트래픽을 두 웹 응용 프로그램 프록시 서버에 균등하게 분배할 수 있도록 인터넷 부하 분산 장치를 만들어야 합니다.
   
 > [!NOTE]
-> 다음 명령 집합은 최신 버전의 Azure PowerShell을 사용합니다. [Azure PowerShell 시작을 참조하세요.](https://docs.microsoft.com/powershell/azure/get-started-azureps) 
+> 다음 명령 집합은 최신 버전의 Azure PowerShell을 사용합니다. [Azure PowerShell 시작을 참조하세요.](/powershell/azure/get-started-azureps) 
   
 위치나 리소스 그룹 값이 제공되면 Azure PowerShell 명령 프롬프트나 PowerShell ISE에서 결과 블록을 실행합니다.
   
 > [!TIP]
-> 사용자 지정 설정에 따라 즉시 실행 가능한 PowerShell 명령 블록을 생성하려면 다음 Microsoft Excel 구성 [통합 문서에 사용합니다.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
+> 사용자 지정 설정에 따라 즉시 실행 가능한 PowerShell 명령 블록을 생성하려면 다음 Microsoft Excel 구성 통합 문서 [를 사용합니다.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
 
 ```powershell
 # Set up key variables
@@ -60,7 +60,7 @@ Write-Host (Get-AzPublicIpaddress -Name "WebProxyPublicIP" -ResourceGroup $rgNam
 
 ## <a name="determine-your-federation-service-fqdn-and-create-dns-records"></a>페더레이션 서비스 FQDN을 확인하고 DNS 레코드를 만듭니다.
 
-인터넷에서 페더넷 서비스 이름을 식별할 DNS 이름을 결정해야 합니다. Azure AD Connect는 5단계에서 이 이름으로 Microsoft 365를 구성합니다. 이 이름은 Microsoft 365가 연결 클라이언트에 보내는 URL의 일부가 되어 보안 토큰을 얻습니다. 예를 들어 fs.contoso.com(fs는 페더화 서비스를 나타냈음)입니다.
+인터넷에서 페더전 서비스 이름을 식별하려면 DNS 이름을 결정해야 합니다. Azure AD Connect는 5단계에서 이 이름으로 Microsoft 365를 구성합니다. 이 이름은 Microsoft 365에서 보안 토큰을 다운로드하기 위해 연결 클라이언트에 보내는 URL의 일부가 됩니다. 예로 fs.contoso.com 있습니다(fs는 페더화 서비스용).
   
 페더레이션 서비스 FDQN이 있으면 Azure 인터넷 연결 부하 분산 장치의 공용 IP 주소로 확인되는 페더레이션 서비스 FDQN의 공용 DNS 도메인 A 레코드를 만듭니다.
   
@@ -94,7 +94,7 @@ Write-Host (Get-AzPublicIpaddress -Name "WebProxyPublicIP" -ResourceGroup $rgNam
     
 - 테이블 A, 가용성 집합
     
-[2단계에서](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) 테이블 M을 정의했다는 점에 유의하세요. 1단계에서 도메인 컨트롤러 및 테이블 R, V, S, I 및 A [구성: Azure 구성.](high-availability-federated-authentication-phase-1-configure-azure.md)
+[Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) 및 Tables R, V, S, I, and A in Phase 1: Configure Azure에서 테이블 M을 정의했다는 [점에 유의하세요.](high-availability-federated-authentication-phase-1-configure-azure.md)
   
 모든 적절한 값이 제공되면 Azure PowerShell 명령 프롬프트나 PowerShell ISE에서 결과 블록을 실행합니다.
   
@@ -156,11 +156,11 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
   
 **4단계: Azure의 고가용성 페더레이션 인증 인프라용 인터넷 부하 분산 장치 및 웹 응용 프로그램 프록시 서버**
 
-![웹 응용 프로그램 프록시 서버를 사용하는 Azure의 고가용성 Microsoft 365 페더타 인증 인프라 4단계](../media/7e03183f-3b3b-4cbe-9028-89cc3f195a63.png)
+![웹 응용 프로그램 프록시 서버를 사용하는 Azure의 고가용성 Microsoft 365 페더임 인증 인프라 4단계](../media/7e03183f-3b3b-4cbe-9028-89cc3f195a63.png)
   
 ## <a name="next-step"></a>다음 단계
 
-5단계: 이 작업을 계속 구성하도록 [Microsoft 365에](high-availability-federated-authentication-phase-5-configure-federated-authentic.md) 대한 페더링 인증을 구성합니다.
+[5단계: Microsoft 365에](high-availability-federated-authentication-phase-5-configure-federated-authentic.md) 대한 페더링 인증 구성을 사용하여 이 작업을 계속 구성합니다.
   
 ## <a name="see-also"></a>참고 항목
 
@@ -168,5 +168,4 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
   
 [Microsoft 365 개발/테스트 환경에 대한 페더러티드 ID](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
-[Microsoft 365 솔루션 및 아키텍처 센터](../solutions/solution-architecture-center.md)
-
+[Microsoft 365 솔루션 및 아키텍처 센터](../solutions/index.yml)

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 51a6bc33778248a69e533d9e2077365a63b97e30
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: ed1eeb29119d477673bb04d9474bd38438db9fd9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50424134"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928943"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>사용자 지정 검색 규칙 만들기 및 관리
 
@@ -41,9 +41,9 @@ ms.locfileid: "50424134"
 
 사용자 지정 검색을 관리하려면 다음 역할 중 하나를 할당해야 합니다.
 
-- **보안 관리자**- [이 Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 역할이 있는 사용자는 Microsoft 365 보안 센터 및 기타 포털 및 서비스에서 보안 설정을 관리할 수 있습니다.
+- **보안 관리자**- [이 Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 역할이 있는 사용자는 Microsoft 365 보안 센터 및 기타 포털 및 서비스에서 보안 설정을 관리할 수 있습니다.
 
-- **보안 운영자**- 이 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 역할이 있는 사용자는 경고를 관리하고 Microsoft 365 보안 센터의 모든 정보를 포함하여 보안 관련 기능에 대한 전역 읽기 전용 액세스를 사용할 수 있습니다. 이 역할은 Microsoft Defender for Endpoint에서 RBAC(역할 기반 액세스 제어)가 꺼져 있는 경우만 사용자 지정 검색을 관리하기에 충분합니다. RBAC를 구성한 경우 끝점용  Defender에 대한 보안 설정 관리 권한도 필요합니다.
+- **보안 운영자**- 이 [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#security-administrator) 역할이 있는 사용자는 경고를 관리하고 Microsoft 365 보안 센터의 모든 정보를 포함하여 보안 관련 기능에 대한 전역 읽기 전용 액세스를 사용할 수 있습니다. 이 역할은 Microsoft Defender for Endpoint에서 RBAC(역할 기반 액세스 제어)가 꺼져 있는 경우만 사용자 지정 검색을 관리하기에 충분합니다. RBAC를 구성한 경우 끝점용  Defender에 대한 보안 설정 관리 권한도 필요합니다.
 
 필요한 사용 권한을 관리하려면 전역 **관리자가 다음을 할 수** 있습니다.
 
@@ -138,17 +138,17 @@ DeviceEvents
 
 #### <a name="actions-on-devices"></a>디바이스에 대한 작업
 이러한 작업은 쿼리 결과의 `DeviceId` 열에 있는 장치에 적용됩니다.
-- **장치 격리**- 끝점용 Microsoft Defender를 사용하여 전체 네트워크 격리 적용을 통해 장치가 응용 프로그램 또는 서비스에 연결하지 못하게 합니다. [끝점 컴퓨터의 Microsoft Defender에 대해 자세히 알아보시고](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network)
-- **조사 패키지 수집**- ZIP 파일에 장치 정보를 수집합니다. [Endpoint용 Microsoft Defender 조사 패키지에 대해 자세히 알아보시겠습니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
+- **장치 격리**- 끝점용 Microsoft Defender를 사용하여 전체 네트워크 격리 적용을 통해 장치가 응용 프로그램 또는 서비스에 연결하지 못하게 합니다. [끝점 컴퓨터의 Microsoft Defender에 대해 자세히 알아보시고](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network)
+- **조사 패키지 수집**- ZIP 파일에 장치 정보를 수집합니다. [Endpoint용 Microsoft Defender 조사 패키지에 대해 자세히 알아보시겠습니다.](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
 - **바이러스 백신 검사 실행**-장치에서 Windows Defender 바이러스 백신 검사 수행
 - **조사 시작**- 디바이스에서 [자동화된](mtp-autoir.md) 조사 시작
-- **앱 실행 제한**- Microsoft에서 발급한 인증서로 서명된 파일만 실행할 수 있도록 장치에 대한 제한을 설정합니다. [끝점용 Microsoft Defender의 앱 제한에 대해 자세히 알아보시고](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#restrict-app-execution)
+- **앱 실행 제한**- Microsoft에서 발급한 인증서로 서명된 파일만 실행할 수 있도록 장치에 대한 제한을 설정합니다. [끝점용 Microsoft Defender의 앱 제한에 대해 자세히 알아보시고](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#restrict-app-execution)
 
 #### <a name="actions-on-files"></a>파일에 대한 작업
 이 옵션을 선택하면 쿼리 결과의 , , 또는 열에 있는 파일에 대해 **Quarantine** 파일 `SHA1` `InitiatingProcessSHA1` 작업을 `SHA256` `InitiatingProcessSHA256` 적용하기로 선택할 수 있습니다. 이 작업은 현재 위치에서 파일을 삭제하고 복사본을 검사에 저장합니다.
 
 #### <a name="actions-on-users"></a>사용자에 대한 작업
-이 옵션을  선택하면 쿼리 결과의 , 또는 열에서 사용자에게 손상된 것으로 표시 작업이 `AccountObjectId` `InitiatingProcessAccountObjectId` `RecipientObjectId` 수행됩니다. 이 작업은 Azure Active Directory에서 사용자 위험 수준을 "높음"으로 설정하여 해당 ID 보호 [정책을 트리거합니다.](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)
+이 옵션을  선택하면 쿼리 결과의 , 또는 열에서 사용자에게 손상된 것으로 표시 작업이 `AccountObjectId` `InitiatingProcessAccountObjectId` `RecipientObjectId` 수행됩니다. 이 작업은 Azure Active Directory에서 사용자 위험 수준을 "높음"으로 설정하여 해당 ID 보호 [정책을 트리거합니다.](/azure/active-directory/identity-protection/overview-identity-protection)
 
 > [!NOTE]
 > 사용자 지정 검색 규칙에 대한 허용 또는 차단 작업은 현재 Microsoft 365 Defender에서 지원되지 않습니다.

@@ -19,12 +19,12 @@ ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: '요약: 정치적 캠페인 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1c12970fb3ff6d5616201ff153085d411068d11c
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: a8a7002b7d482c987f77907787c5233dcb8d11e9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288398"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929387"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기
 
@@ -370,7 +370,7 @@ ms.locfileid: "50288398"
 
 20. **설정 검토 창** 에서 **만들기**, **닫기** 를 차례로 클릭합니다.
 
-[Microsoft 365 관리 센터에서 Azure RMS 활성화](https://docs.microsoft.com/information-protection/deploy-use/activate-office365)의 지침을 따릅니다.
+[Microsoft 365 관리 센터에서 Azure RMS 활성화](/information-protection/deploy-use/activate-office365)의 지침을 따릅니다.
 
 다음으로, 아래 단계에 따라 보호 및 권한에 대한 새 범위 지정 정책 및 하위 레이블을 사용하여 Azure Information Protection을 구성합니다.
 
@@ -416,7 +416,7 @@ ms.locfileid: "50288398"
 
 이제 이러한 네 가지 사이트에서 문서를 만들고 다양한 사용자 계정으로 해당 문서에 대한 액세스를 테스트할 준비가 되었습니다.
 
-Azure Information Protection 및 이 새로운 레이블을 사용하여 문서를 보호하려면 테스트 컴퓨터에 [Azure Information Protection 클라이언트를 설치](https://docs.microsoft.com/information-protection/rms-client/install-client-app)하고, 관리 센터에서 Office를 설치한 다음, Microsoft Word에서 평가판 구독의 **선임 및 전략적 직원** 그룹에 속한 계정으로 로그인합니다.
+Azure Information Protection 및 이 새로운 레이블을 사용하여 문서를 보호하려면 테스트 컴퓨터에 [Azure Information Protection 클라이언트를 설치](/information-protection/rms-client/install-client-app)하고, 관리 센터에서 Office를 설치한 다음, Microsoft Word에서 평가판 구독의 **선임 및 전략적 직원** 그룹에 속한 계정으로 로그인합니다.
 
 ## <a name="see-also"></a>참고 항목
 

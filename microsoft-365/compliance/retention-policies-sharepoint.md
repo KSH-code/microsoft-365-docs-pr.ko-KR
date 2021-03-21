@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint 및 OneDrive에서 보존이 작동하는 방식을 알아봅니다.
-ms.openlocfilehash: dd1260df23579ad2e6605805bafe9e36d2274a8e
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 448f3e8e2ab827527b02263fea2b07de4b345dc1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727403"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919774"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive의 보존에 대해 자세히 알아보기
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
 SharePoint 및 OneDrive 관련 정보를 포함하므로 이 문서의 정보는 [보존에 대한 자세한 정보](retention.md)를 보완합니다.
 
@@ -49,7 +49,11 @@ SharePoint 또는 OneDrive 사이트에 저장된 모든 파일은 보존 정책
 > [!TIP]
 > [보존 레이블에 자동 적용 정책과 함께 쿼리](apply-retention-labels-automatically.md#auto-apply-labels-to-content-with-keywords-or-searchable-properties)를 사용하는 경우, `NOT(DocumentLink:"<URL to document library>")` 항목을 사용하여 특정 문서 라이브러리를 제외할 수 있습니다.
 
-목록 항목은 보존 정책에서 지원되지 않지만 시스템 목록의 항목을 제외하고 보존 레이블에서 지원됩니다. 이러한 목록은 SharePoint에서 시스템을 관리하는 데 사용하는 숨겨진 목록으로, 마스터 페이지 카탈로그, 솔루션 카탈로그 및 데이터 원본을 포함합니다.
+목록 항목은 보존 정책에서 지원되지 않지만 시스템 목록의 항목을 제외하고 보존 레이블에서 지원됩니다. 이러한 목록은 SharePoint에서 시스템을 관리하는 데 사용하는 숨겨진 목록으로, 마스터 페이지 카탈로그, 솔루션 카탈로그 및 데이터 원본을 포함합니다. 문서 첨부 파일이 있는 지원되는 목록 항목에 보존 레이블을 적용하는 경우:
+- 표준 보존 레이블의 경우(항목을 레코드로 선언하지 않는 경우):
+    - 문서 첨부 파일은 레이블의 보존 설정을 자동으로 상속하지는 않지만 독립적으로 레이블을 지정할 수 있습니다.
+- 항목을 레코드로 선언하는 보존 레이블의 경우: 
+    - 문서 첨부 파일은 문서의 레이블이 아직 지정되지 않은 경우 레이블에서 보존 설정을 자동으로 상속합니다.
 
 보존 정책 및 보존 레이블의 보존 설정은 라이브러리, 목록 및 폴더를 포함하는 조직 구조에는 모두 적용되지 않습니다.
 
