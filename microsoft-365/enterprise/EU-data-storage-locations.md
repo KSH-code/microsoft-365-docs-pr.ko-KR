@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 유럽 연합 내에서 Microsoft 365 고객 데이터가 저장되는 위치 확인
-ms.openlocfilehash: 78c2ae75656df017631fce0a189f6e25ee44f20f
-ms.sourcegitcommit: 4cbb4ec26f022f5f9d9481f55a8a6ee8406968d2
+ms.openlocfilehash: 28bfa7c18aff485e084e4d77bb2a36f0f5b7e95f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527688"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905683"
 ---
 # <a name="data-locations-for-the-european-union"></a>유럽 연합의 데이터 위치
 
@@ -74,14 +74,14 @@ Microsoft 365 서비스를 사용할 때는 기업 고객이 비즈니스 데이
 
 임시 전송이 필요한 경우, 당사는 항상 전송에서 최신 암호화를 사용하며 그 후에는 즉시 귀하의 데이터를 귀하가 선택한 데이터 저장소 위치로 반환합니다. 당사는 데이터 보호를 위한 추가 조치와 함께 이러한 임시 전송에 대해 SCC(표준 계약 조항)를 통해 유럽 법규를 준수합니다. 
 
-자세한 내용은 [유럽 연합 모델 조항](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses)을 참조하세요.
+자세한 내용은 [유럽 연합 모델 조항](/compliance/regulatory/offering-EU-Model-Clauses)을 참조하세요.
 
 >[!Note]
 >이 서비스를 사용하는 경우, Sway 및 Workplace Analytics에 대한 고객 데이터는 미국에서 저장되고 계산됩니다.
 >
 
 >[!Note]
->Microsoft 365 서비스는 특정 시나리오를 용이하게 하기 위해 필요한 경우 EU 외의 지역에서 테넌트 디렉터리/ID 데이터 정보의 일부를 쿼리하고 저장할 수 있습니다. 예를 들어, 지역간 전자 메일 라우팅, 통화 라우팅 및 인증 시나리오의 경우 Microsoft 365 시스템에서 이 요청을 적절히 라우팅하기 위해 EU 수신자에 대한 정보를 필요로 할 수 있습니다. 또한 Microsoft 365 시스템은 ID 및 인증 기능을 위해 Azure Active Directory에 종속되어 있습니다. 자세한 내용은 [Azure Active Directory에서 유럽 고객을 위한 ID 데이터 저장소](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-data-storage-eu)를 참조하세요.
+>Microsoft 365 서비스는 특정 시나리오를 용이하게 하기 위해 필요한 경우 EU 외의 지역에서 테넌트 디렉터리/ID 데이터 정보의 일부를 쿼리하고 저장할 수 있습니다. 예를 들어, 지역간 전자 메일 라우팅, 통화 라우팅 및 인증 시나리오의 경우 Microsoft 365 시스템에서 이 요청을 적절히 라우팅하기 위해 EU 수신자에 대한 정보를 필요로 할 수 있습니다. 또한 Microsoft 365 시스템은 ID 및 인증 기능을 위해 Azure Active Directory에 종속되어 있습니다. 자세한 내용은 [Azure Active Directory에서 유럽 고객을 위한 ID 데이터 저장소](/azure/active-directory/fundamentals/active-directory-data-storage-eu)를 참조하세요.
 >
 
 ## <a name="how-microsoft-protects-your-data"></a>Microsoft가 데이터를 보호하는 방법
@@ -126,8 +126,7 @@ EU의 GDPR에 따른 명령에 이의를 제기하는 Microsoft의 노력에 대
 ## <a name="additional-resources"></a>추가 리소스
  
 - [신뢰할 수 있는 데이터 보호](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4FhZn)는 Microsoft Online Services 및 전문 서비스를 사용할 때 Microsoft에서 데이터를 보호하는 방법에 대한 개요를 제공합니다. 이 서비스 사용을 제어하는 [OST(Microsoft Online Services 약관) 및 DPA(데이터 보호 부록)](https://www.microsoft.com/licensing/product-licensing/products)를 참조하는 것도 좋습니다.
-- [GDPR에 대한 Office 365 데이터 주최 요청](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365)에서는 Office 365 제품, 서비스 및 관리 도구를 사용하여 개인 데이터 또는 개인 정보를 찾아 조치를 취함으로써 DSR에 대처하는 데 도움을 줍니다. 
-- [데이터 보호 영향 평가: Microsoft Office 365를 사용하는 데이터 컨트롤러에 대한 지침](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365)에서는 조직에서 DPIA 초안이 필요한지 여부를 결정하고, "방법" 지침을 제공하며, 사용자 지정 가능한 DPIA 템플릿 문서를 포함하여 다양한 Microsoft 365 서비스에 대한 DPIA 서비스 요소 매트릭스를 제공합니다.
-- 전반적인 이해를 원하는 감사, 규정 준수, 위험 및 법적 역할에 속한 사람들을 위해 [어떻게 모듈이 설계되었는지 알아봅니다](https://docs.microsoft.com/learn/paths/audit-safeguard-customer-data/). Microsoft 365의 기본 보안 및 개인 정보 보호를 통해 고객 데이터를 보호하는 방법에 대한 심도있는 검토를 제공합니다.
-- [Microsoft 준수 서비스](https://docs.microsoft.com/microsoft-365/compliance/offering-home)에서는 조직이 규정 준수 표준을 충족하는 데 있어 Microsoft 365 서비스가 어떻게 도움을 주는지 보여줍니다. 
-
+- [GDPR에 대한 Office 365 데이터 주최 요청](/compliance/regulatory/gdpr-dsr-Office365)에서는 Office 365 제품, 서비스 및 관리 도구를 사용하여 개인 데이터 또는 개인 정보를 찾아 조치를 취함으로써 DSR에 대처하는 데 도움을 줍니다. 
+- [데이터 보호 영향 평가: Microsoft Office 365를 사용하는 데이터 컨트롤러에 대한 지침](/compliance/regulatory/gdpr-dpia-office365)에서는 조직에서 DPIA 초안이 필요한지 여부를 결정하고, "방법" 지침을 제공하며, 사용자 지정 가능한 DPIA 템플릿 문서를 포함하여 다양한 Microsoft 365 서비스에 대한 DPIA 서비스 요소 매트릭스를 제공합니다.
+- 전반적인 이해를 원하는 감사, 규정 준수, 위험 및 법적 역할에 속한 사람들을 위해 [어떻게 모듈이 설계되었는지 알아봅니다](/learn/paths/audit-safeguard-customer-data/). Microsoft 365의 기본 보안 및 개인 정보 보호를 통해 고객 데이터를 보호하는 방법에 대한 심도있는 검토를 제공합니다.
+- [Microsoft 준수 서비스](/compliance/regulatory/offering-home)에서는 조직이 규정 준수 표준을 충족하는 데 있어 Microsoft 365 서비스가 어떻게 도움을 주는지 보여줍니다.

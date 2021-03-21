@@ -3,7 +3,6 @@ title: Microsoft 클라우드 제품용 구독, 라이선스, 계정 및 테넌�
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/25/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
@@ -21,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - Ent_Architecture
 description: Microsoft의 클라우드 제품에서 조직, 구독, 라이선스, 사용자 계정 및 테넌트의 관계를 이해합니다.
-ms.openlocfilehash: c48e2ecc321f4b6e06ced13f029e344faf12650b
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: eaf1c2399b5d44ea8d6000042b3258d0e8b5a7de
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446034"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909517"
 ---
 # <a name="subscriptions-licenses-accounts-and-tenants-for-microsofts-cloud-offerings"></a>Microsoft 클라우드 제품용 구독, 라이선스, 계정 및 테넌트
 
@@ -66,7 +65,11 @@ Microsoft의 SaaS 클라우드 제품의 경우 라이선스를 통해 특정 �
 **그림 2: 조직을 위한 SaaS 기반 구독에 포함된 라이선스**
 
 ![Microsoft의 SaaS 기반 클라우드 서비스용 구독에 포함된 여러 라이선스 예제입니다.](../media/Subscriptions/Subscriptions-Fig2.png)
-  
+
+>[!Note]
+>보안 모범 사례에서는 관리 기능에 대한 특정 역할이 할당된 별도의 사용자 계정을 사용하는 것입니다. 이러한 전용 관리자 계정에는 관리되는 클라우드 서비스에 대한 라이선스가 할당될 필요가 없습니다. 예를 들어 SharePoint 관리자 계정에 Microsoft 365 라이선스를 할당할 필요가 없습니다.
+>
+
 Azure PaaS 기반 클라우드 서비스의 경우 소프트웨어 라이선스가 서비스 가격에 기본적으로 포함됩니다.
   
 Azure IaaS 기반 가상 머신의 경우 가상 머신 이미지에 설치되어 있는 소프트웨어 또는 이미지를 사용하기 위한 추가 라이선스가 필요할 수도 있습니다. 일부 가상 머신 이미지는 설치된 소프트웨어의 라이선스 버전을 가지며 서버에 대한 분당 요금에 해당 요금이 포함됩니다. 제공된 예제는 SQL Server 2014 및 SQL Server 2016에 대한 가상 머신 이미지입니다. 
@@ -139,7 +142,7 @@ Azure AD 테넌트는 계정 및 그룹을 포함하는 Azure AD의 특정 인�
   
 1. 글로벌 관리자 계정을 사용하여 Microsoft 365 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 로그인합니다.
     
-2. **관리 센터** 홈페이지의 왼쪽 탐색 창에서 **청구**를 클릭하고 **서비스 구매**를 클릭합니다.
+2. **관리 센터** 홈페이지의 왼쪽 탐색 창에서 **청구** 를 클릭하고 **서비스 구매** 를 클릭합니다.
     
 3. **서비스 구매** 페이지에서 새 구독을 구입합니다.
     
@@ -149,11 +152,11 @@ Microsoft 365 구독과 동일한 조직 및 Azure 테넌트를 갖는 Azure 구
   
 1. Microsoft 365 전역 관리자 계정을 사용하여 Azure Portal 포털([https://portal.azure.com](https://portal.azure.com))에 로그인합니다.
     
-2. 왼쪽 탐색 모음에서 **구독**을 클릭하고 **추가**를 클릭합니다.
+2. 왼쪽 탐색 모음에서 **구독** 을 클릭하고 **추가** 를 클릭합니다.
     
 3. **구독 추가** 페이지에서 서비스를 선택하고 결제 정보 및 계약을 완료합니다.
     
-Azure 및 Microsoft 365 구독으로 따로 구입했으며 Azure 구독에서 Microsoft 365 Azure AD 테넌트에 액세스하려는 경우 [Azure Active Directory 테넌트에 기존의 Azure 구독을 추가](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory)의 지침을 참조하세요.
+Azure 및 Microsoft 365 구독으로 따로 구입했으며 Azure 구독에서 Microsoft 365 Azure AD 테넌트에 액세스하려는 경우 [Azure Active Directory 테넌트에 기존의 Azure 구독을 추가](/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory)의 지침을 참조하세요.
  
 ## <a name="see-also"></a>참고 항목
 
@@ -166,4 +169,3 @@ Azure 및 Microsoft 365 구독으로 따로 구입했으며 Azure 구독에서 M
 ## <a name="next-step"></a>다음 단계
 
 [Microsoft 365 네트워크 연결 평가](assessing-network-connectivity.md)
-  

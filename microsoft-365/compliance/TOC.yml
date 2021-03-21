@@ -604,11 +604,11 @@
               href: search-for-ediscovery-activities-in-the-audit-log.md
     - name: Advanced eDiscovery
       items:
-        - name: Advanced eDiscovery 개요
+        - name: 개요
           href: overview-ediscovery-20.md
         - name: Advanced eDiscovery 설정
           href: get-started-with-advanced-ediscovery.md
-        - name: Advanced eDiscovery 사례 만들기
+        - name: 사례 만들기 및 관리
           href: create-and-manage-advanced-ediscoveryv2-case.md
         - name: 보유자 및 비관리 데이터 원본과 작업
           href: managing-custodians.md
@@ -720,8 +720,6 @@
               href: configure-search-and-analytics-settings-in-advanced-ediscovery.md
         - name: Advanced eDiscovery 참조
           items:
-            - name: EDRM과 함께 Advanced eDiscovery 맞춤
-              href: advanced-ediscovery-edrm.md
             - name: Advanced eDiscovery 제한
               href: limits-ediscovery20.md
             - name: 지원되는 파일 형식
@@ -787,11 +785,11 @@
         - name: Office 365 관리 작업 API
           items:
             - name: Office 365 관리 작업 API 참고자료
-              href: 'https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference'
+              href: /office/office-365-management-api/office-365-management-activity-api-reference
             - name: Office 365 관리 작업 API 스키마
-              href: 'https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema'
+              href: /office/office-365-management-api/office-365-management-activity-api-schema
             - name: Office 365 관리 작업 API FAQ 및 문제 해결
-              href: 'https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api'
+              href: /office/office-365-management-api/troubleshooting-the-office-365-management-activity-api
     - name: 사서함 감사
       href: enable-mailbox-auditing.md
     - name: 고급 감사
@@ -846,8 +844,8 @@
         - name: 온-프레미스 AD RMS 서버를 사용하도록 IRM 구성
           href: configure-irm-to-use-an-on-premises-ad-rms-server.md
 - name: Microsoft 365 Enterprise
-  href: 'https://docs.microsoft.com/microsoft-365/enterprise/'
+  href: ../enterprise/index.yml
 - name: Microsoft 365 보안
-  href: 'https://docs.microsoft.com/microsoft-365/security/'
+  href: ../security/index.yml
 - name: 비즈니스용 Microsoft 365 앱
-  href: 'https://docs.microsoft.com/office365/admin/admin-home'
+  href: /office365/admin/admin-home

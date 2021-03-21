@@ -35,7 +35,7 @@
         - name: Microsoft 365로 데이터 마이그레이션
           href: setup/migrate-email-and-contacts-admin.md
         - name: Teams 배포
-          href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
+          href: /microsoftteams/how-to-roll-out-teams?bc=%2foffice365%2fadmin%2fbreadcrumb%2ftoc.json&toc=%2foffice365%2fadmin%2ftoc.json
         - name: 모든 사용자를 위한 교육
           href: 'https://support.microsoft.com/training'
         - name: 내가 구독한 것은 무엇인가요?
@@ -232,7 +232,7 @@
             - name: Microsoft 365 앱 상태
               href: productivity/apps-health.md
             - name: 끝점 분석
-              href: 'https://docs.microsoft.com/mem/analytics/productivity-score'
+              href: /mem/analytics/productivity-score
         - name: 조직 연락처 정보 변경
           href: manage/change-address-contact-and-more.md
         - name: 관리자 연락처 정보 업데이트
@@ -259,6 +259,8 @@
           href: manage/manage-office-scripts-settings.md
         - name: 파트너 또는 재판매업체 찾기
           href: manage/find-your-partner-or-reseller.md
+        - name: Microsoft Rewards 관리
+          href: manage/manage-microsoft-rewards.md
         - name: 메시지 센터 메시지 관리
           href: manage/manage-messages.md
         - name: 릴리스 옵션 설정
@@ -312,7 +314,7 @@
             - name: 준수 기능 설정
               href: ../business/set-up-compliance.md
         - name: 보안 점수
-          href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'
+          href: ../security/mtp/microsoft-secure-score.md
         - name: GDPR 준수 가이드
           href: security-and-compliance/gdpr-compliance.md
     - name: 장치 및 앱 데이터 관리
@@ -321,7 +323,7 @@
         - name: 장치 및 앱 데이터 보호 방법
           href: devices/choose-device-security.md
         - name: Microsoft Intune 문서
-          href: 'https://docs.microsoft.com/mem/intune/'
+          href: /mem/intune/
         - name: Microsoft 365 Business Premium
           items:
             - name: 정책 및 장치 보기 및 편집
@@ -404,6 +406,6 @@
         - name: 게스트 사용자와 Teams 모임 참가
           href: 'https://support.microsoft.com/office/a120c282-063d-46b8-b973-851197ab75d8'
     - name: 문제 해결
-      href: 'https://docs.microsoft.com/office/troubleshoot/'
+      href: /office/troubleshoot/
     - name: 지원 센터 문의
       href: contact-support-for-business-products.md

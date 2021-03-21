@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: 시작
+    - name: 시작하기
       items:
         - name: 재택 근무 지원을 위한 주요 작업
           href: top-security-tasks-for-remote-work.md
@@ -11,8 +11,9 @@
         - name: 우선순위 계정에 대한 보안 권장 사항
           href: ./office-365-security/security-recommendations-for-priority-accounts.md
     - name: ID 및 장치 액세스 구성
-      href: ./office-365-security/microsoft-365-policies-configurations.md
       items:
+        - name: 개요
+          href: ./office-365-security/microsoft-365-policies-configurations.md
         - name: 선행 조건 작업
           href: ./office-365-security/identity-access-prerequisites.md
         - name: 일반 ID 및 장치 액세스 정책
@@ -360,6 +361,8 @@
               href: ./mtp/overview-security-center.md
             - name: 위협 탐색기(및 실시간 검출)
               href: ./office-365-security/threat-explorer.md
+            - name: 전자 메일 엔터티 페이지
+              href: ./office-365-security/mdo-email-entity-page.md
             - name: AIR 개요
               href: ./office-365-security/office-365-air.md
             - name: 자동화된 조사 및 대응이 작동하는 방식
@@ -702,8 +705,8 @@
                 - name: 독립 실행형 EOP에서 역할 그룹 관리
                   href: ./office-365-security/manage-admin-role-group-permissions-in-eop.md
     - name: 엔터프라이즈용 Microsoft 365
-      href: 'https://docs.microsoft.com/microsoft-365/enterprise'
+      href: ../enterprise/index.yml
     - name: 비즈니스용 Microsoft 365
-      href: 'https://docs.microsoft.com/microsoft-365/admin/admin-home'
+      href: ./index.yml
     - name: Microsoft 365 규정 준수
-      href: 'https://docs.microsoft.com/microsoft-365/compliance/'
+      href: ../compliance/index.yml
