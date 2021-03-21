@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 구성 가능한 일치를 사용하도록 EDM 스키마를 수정하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2211e4d99d97fcce241a5f4c3ea7c9d8122ca9d7
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: e00466e4648ebe93f0658383515d1543f858e1b0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49656808"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919375"
 ---
 # <a name="modify-exact-data-match-schema-to-use-configurable-match"></a>구성 가능한 일치를 사용하도록 정확한 데이터 일치 스키마 수정
 
@@ -101,7 +101,7 @@ EDM이 구성 가능한 일치를 사용하도록 스키마를 업데이트하�
 - \"
 - \,
 
-6. [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)의 연결 절차를 사용하여 보안 및 준수 센터에 연결
+6. [보안 및 준수 센터 PowerShell](/powershell/exchange/connect-to-scc-powershell)의 연결 절차를 사용하여 보안 및 준수 센터에 연결
 
 7. cmdlets를 한 번에 하나씩 실행하여 다음과 같이 스키마를 업데이트합니다.
 
@@ -129,7 +129,7 @@ EDM이 구성 가능한 일치를 사용하도록 스키마를 업데이트하�
 
 - [분류에 기반한 정확한 데이터 일치를 사용한 사용자 지정 중요한 정보 유형 만들기](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
 - [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
-- [사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md)
+- [사용자 지정 중요한 정보 유형](./sensitive-information-type-learn-about.md)
 - [DLP 정책 개요](data-loss-prevention-policies.md)
-- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
-- [New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema)
+- [Microsoft Cloud App Security](/cloud-app-security)
+- [New-DlpEdmSchema](/powershell/module/exchange/new-dlpedmschema)

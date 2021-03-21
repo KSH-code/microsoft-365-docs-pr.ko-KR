@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e27659517f8c7b5cbc7936b825ac867a2888e251
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 288be30aa9592ba7feed92b9ad49955406f59f10
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727201"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918801"
 ---
 # <a name="track-and-respond-to-emerging-threats-with-threat-analytics"></a>위협 분석을 사용하여 새로운 위협 추적 및 대응 
 
@@ -35,7 +35,7 @@ ms.locfileid: "50727201"
 **적용 대상:**
 - Microsoft 365 Defender
 
-> Microsoft 365 Defender를 경험하고 싶나요? 랩 [환경에서 평가하거나](https://aka.ms/mtp-trial-lab) 프로덕션 [환경에서 파일럿](https://aka.ms/m365d-pilotplaybook)프로젝트를 실행할 수 있습니다.
+> Microsoft 365 Defender를 경험하고 싶나요? 랩 [환경에서 평가하거나](./mtp-evaluation.md?ocid=cx-docs-MTPtriallab) 프로덕션 [환경에서 파일럿](./mtp-pilot.md?ocid=cx-evalpilot)프로젝트를 실행할 수 있습니다.
 >
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
@@ -155,7 +155,7 @@ _위협 분석 보고서의 전자 메일 시도 방지 섹션_
   - 잠재적으로 원치 않는 응용 프로그램(PUA) 보호
   - 실시간 보호
  
-이 섹션의 완화 정보는 위협 및 [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)취약성 관리의 데이터를 통합하며, 보고서의 다양한 링크에서 자세한 드릴다운 정보도 제공합니다.
+이 섹션의 완화 정보는 위협 및 [](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)취약성 관리의 데이터를 통합하며, 보고서의 다양한 링크에서 자세한 드릴다운 정보도 제공합니다.
 
 ![보안 구성 세부 정보를 보여 주며 위협 분석 보고서의 완화 섹션 이미지 취약성 세부 정보를 보여주는 위협 분석 보고서의 완화 섹션 ](../../media/threat-analytics/ta_mitigations_mtp.png)
  ![ 이미지](../../media/threat-analytics/ta_mitigations_mtp2.png)
@@ -178,7 +178,7 @@ _위협 분석 보고서의 완화 섹션_
 - 장치가 서비스로 데이터를 전송하지 않은 경우 장치는 "사용할 수 없음"으로 계산됩니다.
 - 바이러스 백신 관련 통계는 Microsoft Defender 바이러스 백신 설정을 기반으로 합니다. 타사 바이러스 백신 솔루션이 있는 장치는 "노출"으로 표시될 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [고급 헌팅을 통해 위협을 사전 대응적으로 찾기](advanced-hunting-overview.md) 
 - [분석가 보고서 섹션 이해](threat-analytics-analyst-reports.md)
-- [보안 약점 및 노출 평가 및 해결](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
+- [보안 약점 및 노출 평가 및 해결](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

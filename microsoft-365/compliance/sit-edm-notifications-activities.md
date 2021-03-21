@@ -17,16 +17,16 @@ search.appverid:
 - MET150
 description: 정확한 데이터 일치 활동에 대한 알림을 만드는 방법을 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a537cffe253fa20cf6838ddf3fd9a51ec440fe76
-ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
+ms.openlocfilehash: 2e2f67ef0f276211483519bd5e246e4e041b2b15
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50766700"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919364"
 ---
 # <a name="create-notifications-for-exact-data-match-activities-preview"></a>정확한 데이터 일치 활동에 대한 알림 만들기(미리 보기)
 
-[EDM(정확한 데이터 일치)을 사용하여 중요한 사용자 지정 정보 유형을 만들면](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md) [감사 로그](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log)에 여러 활동이 생성됩니다. [New-ProtectionAlert](https://docs.microsoft.com/powershell/module/exchange/new-protectionalert?view=exchange-ps) PowerShell cmdlet를 사용하여 이러한 활동이 발생할 때 알려주는 알림을 생성합니다.
+[EDM(정확한 데이터 일치)을 사용하여 중요한 사용자 지정 정보 유형을 만들면](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md) [감사 로그](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log)에 여러 활동이 생성됩니다. [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert?view=exchange-ps) PowerShell cmdlet를 사용하여 이러한 활동이 발생할 때 알려주는 알림을 생성합니다.
 
 - CreateSchema
 - EditSchema
@@ -54,11 +54,11 @@ EDM 기반 분류가 이 구독에 포함되어 있습니다
 - Microsoft 365 E5 Compliance
 - Microsoft E5/A5 Information Protection 및 거버넌스
 
-DLP 라이선싱에 대한 자세한 내용은 [보안 & 준수에 대한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)을 참조하세요.
+DLP 라이선싱에 대한 자세한 내용은 [보안 & 준수에 대한 Microsoft 365 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)을 참조하세요.
 
 ## <a name="configure-notifications-for-edm-activities"></a>EDM 활동에 대한 알림 구성
 
-1. [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps)에 연결 
+1. [보안 및 준수 센터 PowerShell](/powershell/exchange/connect-to-scc-powershell?view=exchange-ps)에 연결 
 
 2. 알림을 생성하려는 작업을 사용하여 `New-ProtectionAlert`cmdlet을 실행합니다.  예를 들어 **UploadDataCompleted** 작업이 발생했을 때 알림을 받으려면 를 다음을 실행하세요.
 
@@ -75,4 +75,4 @@ New-ProtectionAlert -Name "EdmUploadFailAlertPolicy" -Category Others -NotifyUse
 ## <a name="related-articles"></a>관련 문서
 
 - [정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기(EDM)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
-- [New-ProtectionAlert](https://docs.microsoft.com/powershell/module/exchange/new-protectionalert?view=exchange-ps) 
+- [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert?view=exchange-ps)

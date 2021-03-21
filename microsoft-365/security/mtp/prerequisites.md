@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: afa5cd42545eddafb1d0ec1a6d88eb0903e07820
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 0184b2c05121e1ea3bf365263df880548f1b9232
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454554"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918873"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Microsoft 365 Defender 선행 준비
 
@@ -52,13 +52,13 @@ ms.locfileid: "50454554"
 
 자세한 내용은 [Microsoft 365 Enterprise](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise)서비스 요금제 를 참조하십시오.
 
-> 아직 라이선스가 없는 경우 [Microsoft 365 구독 체험 또는 구매](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
+> 아직 라이선스가 없는 경우 [Microsoft 365 구독 체험 또는 구매](../../commerce/try-or-buy-microsoft-365.md?view=o365-worldwide)
 
 ### <a name="check-your-existing--licenses"></a>기존 라이선스 확인
 Microsoft 365 관리[센터(admin.microsoft.com](https://admin.microsoft.com/))로 이동하여 기존 라이선스를 하세요. 관리 센터에서 **청구** > **라이선스** 로 이동합니다.
 
 >[!NOTE]
-> 라이선스 정보를 볼 수  있게 하려면  [Azure AD에서](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 청구 관리자 또는 전역 리더 역할을 할당해야 합니다. 액세스 문제가 발생하는 경우 전역 관리자에게 문의하세요.
+> 라이선스 정보를 볼 수  있게 하려면  [Azure AD에서](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 청구 관리자 또는 전역 리더 역할을 할당해야 합니다. 액세스 문제가 발생하는 경우 전역 관리자에게 문의하세요.
 
 ## <a name="required-permissions"></a>필요한 사용 권한
 Microsoft 365 Defender를 켜기 위해 Azure Active Directory에서 전역 관리자 또는 보안 관리자 되어야 합니다.   Microsoft 365 Defender를 사용하는 데 필요한 역할 목록과 데이터에 대한 액세스가 규제되는 방법에 대한 정보는 [Microsoft 365 Defender에](mtp-permissions.md)대한 액세스 관리에 대해 읽어 보아야 합니다.
@@ -73,7 +73,7 @@ Microsoft Edge, Internet Explorer 11 또는 HTML 5 호환 웹 브라우저를 �
 - 미 국방부
 - 상업용 라이선스가 있는 모든 미국 정부 기관
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [Microsoft 365 Defender 개요](microsoft-threat-protection.md)
 - [Microsoft 365 Defender 켜기](mtp-enable.md)
 - [액세스 및 사용 권한 관리](mtp-permissions.md)

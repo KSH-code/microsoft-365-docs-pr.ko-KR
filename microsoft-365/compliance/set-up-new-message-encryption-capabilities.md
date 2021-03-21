@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 조직 내부나 조직 외부의 사람과 보호된 전자 메일을 사용하여 통신할 수 있게 하는 새 Office 365 메시지 암호화 기능에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4102611d3be43a5bedffc83fba5c83c0b648ca42
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 1519748c4bd535e0a3ea1cc3ee653e2c81e807bd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547620"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919394"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>새 메시지 암호화 기능 설정하기
 
@@ -33,14 +33,14 @@ ms.locfileid: "47547620"
 
 ## <a name="verify-that-azure-rights-management-is-active"></a>Azure 권한 관리의 활성화 여부 확인
 
-새 OME 기능은 암호화 및 액세스 제어를 통한 전자 메일 및 문서 보호를 위해 [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms)이 사용하는 기술인 [Azure 권한 관리 서비스(Azure RMS)](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)에 있는 보호 기능을 활용합니다.
+새 OME 기능은 암호화 및 액세스 제어를 통한 전자 메일 및 문서 보호를 위해 [Azure Information Protection](/azure/information-protection/what-is-azure-rms)이 사용하는 기술인 [Azure 권한 관리 서비스(Azure RMS)](/azure/information-protection/what-is-information-protection)에 있는 보호 기능을 활용합니다.
 
-새 OME 기능을 사용하기 위해서는 조직의 테넌트에서 [Azure 권한 관리](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms)가 활성화되어 있기만 하면 됩니다. 활성화된 경우에는 Microsoft 365가 새 OME 기능을 자동으로 활성화하므로 다른 작업이 필요 없습니다.
+새 OME 기능을 사용하기 위해서는 조직의 테넌트에서 [Azure 권한 관리](/azure/information-protection/what-is-azure-rms)가 활성화되어 있기만 하면 됩니다. 활성화된 경우에는 Microsoft 365가 새 OME 기능을 자동으로 활성화하므로 다른 작업이 필요 없습니다.
 
-대부분의 사용 가능한 플랜에서 Azure RMS가 자동으로 활성화되기 때문에, 여기에서도 보통의 경우 다른 추가 작업이 필요없습니다. 자세한 내용은 [Azure 권한 관리 활성화](https://docs.microsoft.com/azure/information-protection/activate-service)를 참조하세요.
+대부분의 사용 가능한 플랜에서 Azure RMS가 자동으로 활성화되기 때문에, 여기에서도 보통의 경우 다른 추가 작업이 필요없습니다. 자세한 내용은 [Azure 권한 관리 활성화](/azure/information-protection/activate-service)를 참조하세요.
 
 >[!IMPORTANT]
->Exchange Online과 함께 Active Directory Rights Management Service(AD RMS)를 사용하는 경우에 새 OME 기능을 사용하려면, 먼저 [Azure Information Protection 마이그레이션](https://docs.microsoft.com/azure/information-protection/migrate-from-ad-rms-to-azure-rms)을 해야 합니다. OME는 AD RMS와 호환되지 않습니다.  
+>Exchange Online과 함께 Active Directory Rights Management Service(AD RMS)를 사용하는 경우에 새 OME 기능을 사용하려면, 먼저 [Azure Information Protection 마이그레이션](/azure/information-protection/migrate-from-ad-rms-to-azure-rms)을 해야 합니다. OME는 AD RMS와 호환되지 않습니다.  
 
 자세한 내용은 다음을 참조하세요.
 
@@ -51,20 +51,20 @@ ms.locfileid: "47547620"
 
 Azure RMS를 비활성화로 설정한 경우나, 어떤 이유에서 자동으로 활성화되지 못한 경우에는 수동으로 활성화할 수 있습니다.
 
-- **Microsoft 365 관리 센터**: [관리 센터에서 Azure 권한 관리 활성화 방법](https://docs.microsoft.com/azure/information-protection/activate-office365)을 확인하세요.
-- **Azure Portal**: [Azure Portal에서 Azure 권한 관리 활성화 방법](https://docs.microsoft.com/azure/information-protection/activate-azure)을 확인하세요.
+- **Microsoft 365 관리 센터**: [관리 센터에서 Azure 권한 관리 활성화 방법](/azure/information-protection/activate-office365)을 확인하세요.
+- **Azure Portal**: [Azure Portal에서 Azure 권한 관리 활성화 방법](/azure/information-protection/activate-azure)을 확인하세요.
 
 ## <a name="configure-management-of-your-azure-information-protection-tenant-key"></a>Azure Information Protection 테넌트 키 관리 구성
 
 이 단계는 선택 사항입니다. 기본 설정은 Azure Information Protection용 루트 키를 Microsoft가 관리하도록 구성하는 것이고, 대부분의 조직에 권장되는 모범 사례입니다. 이렇게 설정된 경우에는 별도의 작업이 필요 없습니다.
 
-여러 가지 이유에서 직접 사용자 고유 루트 키(BYOK(Bring Your Own Key)라고도 함)를 생성하고 관리해야 할 필요가 있는 경우가 있습니다. 예를 들면, 규정 준수 요구 사항을 충족하기 위한 경우입니다. 이러한 경우에는 새 OME 기능을 설정하기 전에 필수 단계를 먼저 완료하는 것을 권장합니다. 자세한 내용은 [Azure Information Protection 테넌트 키 계획 및 구현](https://docs.microsoft.com/information-protection/plan-design/plan-implement-tenant-key)을 참조하세요.
+여러 가지 이유에서 직접 사용자 고유 루트 키(BYOK(Bring Your Own Key)라고도 함)를 생성하고 관리해야 할 필요가 있는 경우가 있습니다. 예를 들면, 규정 준수 요구 사항을 충족하기 위한 경우입니다. 이러한 경우에는 새 OME 기능을 설정하기 전에 필수 단계를 먼저 완료하는 것을 권장합니다. 자세한 내용은 [Azure Information Protection 테넌트 키 계획 및 구현](/information-protection/plan-design/plan-implement-tenant-key)을 참조하세요.
 
 ## <a name="verify-new-ome-configuration-in-exchange-online-powershell"></a>Exchange Online PowerShell에서 새 OME 구성 확인
 
-[Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)에서 새 OME 기능을 사용할 수 있도록 Microsoft 365 테넌트가 올바르게 구성되었는지 확인할 수 있습니다.
+[Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)에서 새 OME 기능을 사용할 수 있도록 Microsoft 365 테넌트가 올바르게 구성되었는지 확인할 수 있습니다.
   
-1. Microsoft 365 테넌트에서 전역 관리자 권한을 사용하여 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)합니다.
+1. Microsoft 365 테넌트에서 전역 관리자 권한을 사용하여 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)합니다.
 
 2. Get-IRMConfiguration cmdlet을 실행합니다.
 
@@ -102,7 +102,7 @@ Azure RMS를 비활성화로 설정한 경우나, 어떤 이유에서 자동으�
 
    - *Contoso* 자리에 조직 이름이 표시됩니다.
 
-   - 기본 템플릿 이름은 위에 표시된 이름과 다를 수 있습니다. 자세한 내용은 [Azure Information Protection의 템플릿 구성 및 관리](https://docs.microsoft.com/azure/information-protection/configure-policy-templates)를 참조하세요.
+   - 기본 템플릿 이름은 위에 표시된 이름과 다를 수 있습니다. 자세한 내용은 [Azure Information Protection의 템플릿 구성 및 관리](/azure/information-protection/configure-policy-templates)를 참조하세요.
 
 4. Remove-PSSession cmdle을 실행하여 권한 관리 서비스와의 연결을 해제합니다.
 
@@ -123,11 +123,11 @@ OME에 대한 메일 흐름 규칙을 만드는 단계에 대한 내용은 [Offi
 
 기존 규칙을 업데이트하여 새 OME 기능을 사용하려면 다음을 실행합니다.
 
-1. Microsoft 365 관리 센터에서 **관리 센터 > Exchange**로 이동합니다.
-2. Exchange 관리 센터에서 **메일 흐름 > 규칙**으로 이동합니다.
-3. 각 규칙에 대해 **다음**을 실행합니다.
-    - **메시지 보안 수정**을 선택합니다.
-    - **365 메시지 암호화 및 권한 보호 적용**을 선택합니다.
+1. Microsoft 365 관리 센터에서 **관리 센터 > Exchange** 로 이동합니다.
+2. Exchange 관리 센터에서 **메일 흐름 > 규칙** 으로 이동합니다.
+3. 각 규칙에 대해 **다음** 을 실행합니다.
+    - **메시지 보안 수정** 을 선택합니다.
+    - **365 메시지 암호화 및 권한 보호 적용** 을 선택합니다.
     - 목록에서 RMS 템플릿을 선택합니다.
-    - **저장**을 선택합니다.
-    - **확인**을 선택합니다.
+    - **저장** 을 선택합니다.
+    - **확인** 을 선택합니다.

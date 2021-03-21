@@ -16,16 +16,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 13dee9d5744639149960a16adcf36b7ebe5718f7
-ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
+ms.openlocfilehash: 12a4e8873cb7212bfa7dde12bba9e98528cd859a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50766403"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919674"
 ---
 # <a name="learn-about-sensitive-information-types"></a>중요한 정보 유형에 대해 자세히 알아보기
 
-조직에서 제어하는 중요한 항목을 식별하고 분류하는 것은 정보 보호 분야 의 [첫 번째 단계입니다.](protect-information.md)  Microsoft 365는 항목을 분류할 수 있도록 다음 세 가지 방법으로 항목을 식별합니다.
+조직에서 제어하는 중요한 항목을 식별하고 분류하는 것은 정보 보호 분야 의 [첫 번째 단계입니다.](./information-protection.md)  Microsoft 365는 항목을 분류할 수 있도록 다음 세 가지 방법으로 항목을 식별합니다.
 
 - 사용자가 수동으로
 - 중요한 정보 유형과 같은 자동화된 패턴 인식

@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 ms.custom: seo-marvel-apr2020
 description: 보안 및 준수 센터에서 감사 로그 검색 기능을 켜거나 & 관리자가 감사 로그를 검색할 수 있도록 설정하거나 사용하지 않도록 설정하는 방법
-ms.openlocfilehash: 3f3e1b913dd163e74f9e5359de772dfcbf3bd786
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: aecd1d47592b9a5e2f134b1d9db9ff203b815b18
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423679"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919284"
 ---
 # <a name="turn-audit-log-search-on-or-off"></a>감사 로그 검색 켜기 또는 끄기
 
@@ -41,7 +41,7 @@ Microsoft 365 및 Office 365 엔터프라이즈 조직에서는 기본적으로 
     > [!NOTE]
     > 감사 로그 검색을 설정하거나 해제하려면 사용자에게 Exchange Online에서 사용 권한을 할당해야 합니다. 보안 및 준수 센터의 사용  권한 페이지에서 사용자에게 감사 로그 역할을 & 감사 로그 검색을 설정하거나 해제할 수 없습니다. 이는 이 cmdlet이 Exchange Online PowerShell cmdlet이기 때문에입니다. 
     
-- 감사 로그 검색에 대한 단계별 지침은 보안 및 준수 센터에서 감사 [로그 & 참조하세요.](search-the-audit-log-in-security-and-compliance.md) Microsoft 365 관리 활동 API에 대한 자세한 내용은 [Microsoft 365 관리 API 시작을 참조하세요.](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)
+- 감사 로그 검색에 대한 단계별 지침은 보안 및 준수 센터에서 감사 [로그 & 참조하세요.](search-the-audit-log-in-security-and-compliance.md) Microsoft 365 관리 활동 API에 대한 자세한 내용은 [Microsoft 365 관리 API 시작을 참조하세요.](/office/office-365-management-api/get-started-with-office-365-management-apis)
 
 - 감사 로그 검색이 켜져 있는지 확인하려면 Exchange Online PowerShell에서 다음 명령을 실행합니다.
 
@@ -71,7 +71,7 @@ Microsoft 365 및 Office 365 엔터프라이즈 조직에서는 기본적으로 
 
 ### <a name="use-powershell-to-turn-on-audit-log-search"></a>PowerShell을 사용하여 감사 로그 검색 켜기
 
-1. [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+1. [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. Office 365에서 감사 로그 검색을 켜기 위해 다음 PowerShell 명령을 실행합니다.
 
@@ -85,7 +85,7 @@ Microsoft 365 및 Office 365 엔터프라이즈 조직에서는 기본적으로 
 
 Exchange Online PowerShell을 사용하여 감사 로그 검색을 해제해야 합니다.
   
-1. [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+1. [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. 다음 PowerShell 명령을 실행하여 감사 로그 검색을 해제합니다.
 

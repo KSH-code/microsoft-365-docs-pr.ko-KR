@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: 91322ff3a1dbe2e6b5506e1e3d8a49156b005d7b
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: b4c6a0e3bbe9bae60bc3ccc7fceea04c65382373
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407286"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919544"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수에 대한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 사용자가 웹용 Office에서 민감도 레이블을 적용할 수 있도록 SharePoint [](sensitivity-labels.md) 및 OneDrive에서 Office 파일에 대한 민감도 레이블을 사용하도록 설정 이 기능을 사용하도록 설정하면 레이블을 적용할 수 있도록 리본 메뉴에 민감도 단추가 표시되고 상태 표시줄에 적용된 레이블 이름이 표시됩니다. 
 
@@ -66,7 +66,7 @@ SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사
 
 ## <a name="requirements"></a>요구 사항
 
-이러한 새로운 기능은 민감도 [레이블에만 작동됩니다.](sensitivity-labels.md) 현재 Azure Information Protection 레이블이 있는 경우 먼저 민감도 레이블로 마이그레이션하여 업로드하는 새 파일에 대해 이러한 기능을 사용하도록 설정할 수 있습니다. 자세한 내용은 Azure Information Protection 레이블을 통합 민감도 [레이블로 마이그레이션하는 방법을 참조하세요.](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
+이러한 새로운 기능은 민감도 [레이블에만 작동됩니다.](sensitivity-labels.md) 현재 Azure Information Protection 레이블이 있는 경우 먼저 민감도 레이블로 마이그레이션하여 업로드하는 새 파일에 대해 이러한 기능을 사용하도록 설정할 수 있습니다. 자세한 내용은 Azure Information Protection 레이블을 통합 민감도 [레이블로 마이그레이션하는 방법을 참조하세요.](/azure/information-protection/configure-policy-migrate-labels)
 
 Windows에서는 OneDrive 동기화 앱 버전 19.002.0121.0008 이상을, Mac에서 버전 19.002.0107.0008 이상을 사용하세요. 이 두 버전은 2019년 1월 28일 릴리스된 후 현재 모든 링에 릴리스됩니다. 자세한 내용은 [OneDrive 릴리스 정보를 참조하세요.](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용하도록 설정하면 이전 버전의 동기화 앱을 실행한 사용자에게 업데이트하라는 메시지가 표시됩니다.
 
@@ -77,14 +77,14 @@ Windows에서는 OneDrive 동기화 앱 버전 19.002.0121.0008 이상을, Mac�
 
 - SharePoint 및 OneDrive는 Azure Information Protection 레이블을 사용하여 이미 암호화한 기존 파일에 민감도 레이블을 자동으로 적용하지 않습니다. 대신 SharePoint 및 OneDrive에서 Office 파일에 대해 민감도 레이블을 사용하도록 설정한 후 기능이 작동하려면 다음 작업을 완료합니다.
     
-    1. Azure Information [Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) 레이블을 민감도 레이블로 마이그레이션하고 [](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) Microsoft 365 규정 준수 센터 또는 동등한 레이블 관리 센터에서 게시해야 합니다.
+    1. Azure Information [Protection](/azure/information-protection/configure-policy-migrate-labels) 레이블을 민감도 레이블로 마이그레이션하고 [](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) Microsoft 365 규정 준수 센터 또는 동등한 레이블 관리 센터에서 게시해야 합니다.
     
     2. 파일을 다운로드한 다음 SharePoint에 업로드합니다.
 
 - 암호화를 적용한 레이블에 다음과 같은 암호화 구성이 있는 경우 SharePoint 및 OneDrive는 암호화된 파일을 [처리하지 못합니다.](encryption-sensitivity-labels.md#configure-encryption-settings)
-    - **사용자가 레이블 및** **Word, PowerPoint** 및 Excel의 확인란을 적용할 때 사용 권한을 할당할 수 있도록 허용하고 사용 권한을 지정하라는 메시지를 표시합니다. 이 설정을 "사용자 정의 권한"이라고도 합니다.
-    - **만료된 콘텐츠에** 대한 사용자 액세스는 Never가 아는 값으로 **설정됩니다.**
-    - **이중 키 암호화가** 선택되어 있습니다.
+    - **사용자가 레이블을 적용할 때 사용 권한을 할당하도록 허용하고** **Word, PowerPoint및 Excel에서는 사용자에게 권한을 지정하라는 메시지** 가 선택됩니다. 이 설정을 "사용자 정의 권한"이라고도 합니다.
+    - **콘텐츠에 대한 사용자 액세스 만료** 가 **만료 안 함** 이외의 값으로 설정됩니다.
+    - **이중 키 암호화** 가 선택됩니다.
     
     이러한 암호화 구성이 있는 레이블의 경우 레이블은 웹용 Office의 사용자에게 표시되지 않습니다. 또한 이러한 암호화 설정이 이미 있는 레이블이 지정되어 있는 문서에는 새 기능을 사용할 수 없습니다. 예를 들어 이러한 문서는 업데이트된 경우에도 검색 결과에 반환되지 않습니다.
 
@@ -139,7 +139,7 @@ Microsoft 365 규정 준수 센터를 사용하여 또는 PowerShell을 사용�
 
 ### <a name="use-powershell-to-enable-support-for-sensitivity-labels"></a>PowerShell을 사용하여 민감도 레이블 지원 사용
 
-준수 센터를 사용하는 대신 SharePoint Online PowerShell의 [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant) cmdlet을 사용하여 민감도 레이블에 대한 지원을 사용하도록 설정할 수 있습니다. 
+준수 센터를 사용하는 대신 SharePoint Online PowerShell의 [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) cmdlet을 사용하여 민감도 레이블에 대한 지원을 사용하도록 설정할 수 있습니다. 
 
 Microsoft 365 Multi-Geo가 있는 경우 PowerShell을 사용하여 모든 지리적 위치에 대해 이 지원을 사용하도록 설정해야 합니다.
 
@@ -165,11 +165,11 @@ PowerShell 명령을 실행하여 SharePoint 및 OneDrive에서 Office 파일에
 
 #### <a name="run-the-powershell-command-to-enable-support-for-sensitivity-labels"></a>PowerShell 명령을 실행하여 민감도 레이블 지원을 사용하도록 설정
 
-새 기능을 사용하도록 설정하려면 *EnableAIPIntegration* 매개 변수와 함께 [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant) cmdlet을 사용합니다.
+새 기능을 사용하도록 설정하려면 *EnableAIPIntegration* 매개 변수와 함께 [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) cmdlet을 사용합니다.
 
-1. Microsoft 365에서 전역 관리자 또는 SharePoint 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 SharePoint에 연결합니다. 자세한 방법은 [SharePoint Online 관리 셸 시작](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)을 참조하세요.
+1. Microsoft 365에서 전역 관리자 또는 SharePoint 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 SharePoint에 연결합니다. 자세한 방법은 [SharePoint Online 관리 셸 시작](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)을 참조하세요.
     
-    참고: Microsoft 365 Multi-Geo가 있는 경우 [Connect-SPOService와](https://docs.microsoft.com/powershell/module/sharepoint-online/connect-sposervice)함께 -Url 매개 변수를 사용하여 지리적 위치 중 하나에 대해 SharePoint Online 관리 센터 사이트 URL을 지정합니다.
+    참고: Microsoft 365 Multi-Geo가 있는 경우 [Connect-SPOService와](/powershell/module/sharepoint-online/connect-sposervice)함께 -Url 매개 변수를 사용하여 지리적 위치 중 하나에 대해 SharePoint Online 관리 센터 사이트 URL을 지정합니다.
 
 2. 다음 명령을 실행하고 **Y를 눌러** 확인합니다.
 
@@ -194,7 +194,7 @@ SharePoint 및 OneDrive에서 민감도 레이블을 사용하는 경우 새 민
 
 [SharePoint IRM(정보](set-up-irm-in-sp-admin-center.md) 권한 관리)은 파일이 다운로드되는 경우 암호화 및 제한을 적용하여 목록 및 라이브러리 수준에서 파일을 보호하는 이전 기술입니다. 이 이전 보호 기술은 권한이 없는 사용자가 SharePoint 외부에 있는 동안 파일을 열지 못하도록 디자인됩니다.
 
-이에 비해 민감도 레이블은 암호화 외에도 시각적 표시(머리그, 머리마크, 워터마크)의 보호 설정을 제공합니다. 암호화 설정은 사용자가 콘텐츠로 할 수 있는 작업을 제한하는 모든 사용 권한을 지원하며, 많은 시나리오에서 동일한 민감도 레이블이 [지원됩니다.](get-started-with-sensitivity-labels.md#common-scenarios-for-sensitivity-labels) [](https://docs.microsoft.com/azure/information-protection/configure-usage-rights) 워크로드 및 앱에 대해 일관된 설정과 동일한 보호 방법을 사용하면 일관된 보호 전략이 보장됩니다.
+이에 비해 민감도 레이블은 암호화 외에도 시각적 표시(머리그, 머리마크, 워터마크)의 보호 설정을 제공합니다. 암호화 설정은 사용자가 콘텐츠로 할 수 있는 작업을 제한하는 모든 사용 권한을 지원하며, 많은 시나리오에서 동일한 민감도 레이블이 [지원됩니다.](get-started-with-sensitivity-labels.md#common-scenarios-for-sensitivity-labels) [](/azure/information-protection/configure-usage-rights) 워크로드 및 앱에 대해 일관된 설정과 동일한 보호 방법을 사용하면 일관된 보호 전략이 보장됩니다.
 
 그러나 두 보호 솔루션을 함께 사용할 수 있으며 동작은 다음과 같습니다. 
 
@@ -219,7 +219,7 @@ SharePoint 및 OneDrive에서 민감도 레이블을 사용하는 경우 새 민
 
 `InformationProtectionLabelId: 8faca7b8-8d20-48a3-8ea2-0f96310a848e`    
 
-민감도 레이블의 GUID를 얻습니다. [Get-Label](https://docs.microsoft.com/powershell/module/exchange/get-label) cmdlet을 사용 합니다.  
+민감도 레이블의 GUID를 얻습니다. [Get-Label](/powershell/module/exchange/get-label) cmdlet을 사용 합니다.    
 
 1. 우선 [Office 365 보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다. 
    
@@ -231,15 +231,15 @@ SharePoint 및 OneDrive에서 민감도 레이블을 사용하는 경우 새 민
     Get-Label |ft Name, Guid    
     ``` 
 
-관리 속성 사용에 대한 자세한 내용은 [Manage the search schema in SharePoint 를 참조하세요.](https://docs.microsoft.com/sharepoint/manage-search-schema)
+관리 속성 사용에 대한 자세한 내용은 [Manage the search schema in SharePoint 를 참조하세요.](/sharepoint/manage-search-schema)
 
 ## <a name="remove-encryption-for-a-labeled-document"></a>레이블이 있는 문서에 대한 암호화 제거
 
-SharePoint 관리자가 SharePoint에 저장된 문서에서 암호화를 제거해야 하는 경우는 드물게 있습니다. 해당 문서에 [](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) 대해 권한 관리 사용 권한을 부여하거나 해당 문서에 대해 모든 권한을 할당한 사용자는 Azure Rights Management 서비스에서 적용한 암호화를 Azure Information Protection에서 제거할 수 있습니다. 예를 들어 이러한 사용 권한 중 하나를 사용하는 사용자는 암호화를 적용하는 레이블을 암호화 없이 레이블로 바꿀 수 있습니다. 또는 슈퍼 [](https://docs.microsoft.com/azure/information-protection/configure-super-users) 사용자는 파일을 다운로드하고 암호화 없이 로컬 복사본을 저장할 수 있습니다.
+SharePoint 관리자가 SharePoint에 저장된 문서에서 암호화를 제거해야 하는 경우는 드물게 있습니다. 해당 문서에 [](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) 대해 권한 관리 사용 권한을 부여하거나 해당 문서에 대해 모든 권한을 할당한 사용자는 Azure Rights Management 서비스에서 적용한 암호화를 Azure Information Protection에서 제거할 수 있습니다. 예를 들어 이러한 사용 권한 중 하나를 사용하는 사용자는 암호화를 적용하는 레이블을 암호화 없이 레이블로 바꿀 수 있습니다. 또는 슈퍼 [](/azure/information-protection/configure-super-users) 사용자는 파일을 다운로드하고 암호화 없이 로컬 복사본을 저장할 수 있습니다.
 
-또는 전역 관리자 또는 [SharePoint](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) 관리자가 민감도 레이블과 암호화를 모두 제거하는 [Unlock-SPOSensitivityLabelEncryptedFile](https://docs.microsoft.com/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) cmdlet을 실행할 수 있습니다. 이 cmdlet은 관리자가 사이트 또는 파일에 대한 액세스 권한이 없거나 Azure 권한 관리 서비스를 사용할 수 없는 경우에도 실행됩니다. 
+또는 전역 관리자 또는 [SharePoint](/sharepoint/sharepoint-admin-role) 관리자가 민감도 레이블과 암호화를 모두 제거하는 [Unlock-SPOSensitivityLabelEncryptedFile](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) cmdlet을 실행할 수 있습니다. 이 cmdlet은 관리자가 사이트 또는 파일에 대한 액세스 권한이 없거나 Azure 권한 관리 서비스를 사용할 수 없는 경우에도 실행됩니다. 
 
-예를 들면 다음과 같습니다.
+예를 들어 다음과 같습니다.
 
 ```powershell
 Unlock-SPOSensitivityLabelEncryptedFile -FileUrl "https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx" -JustificationText "Need to decrypt this file"
@@ -251,13 +251,13 @@ Unlock-SPOSensitivityLabelEncryptedFile -FileUrl "https://contoso.com/sites/Mark
 
 - 암호화는 관리자 정의 암호화 설정(지금 사용 권한 할당 레이블 설정)을 사용하여 민감도 [레이블에](encryption-sensitivity-labels.md#assign-permissions-now) 의해 적용되었습니다. [이 cmdlet에는](encryption-sensitivity-labels.md#double-key-encryption) 이중 키 암호화가 지원되지 않습니다.
 
-사당성 텍스트는 파일에서 제거된 민감도 레이블의 감사 이벤트에 추가되고 암호 해독 작업은 Azure Information Protection에 대한 보호 사용 현황 로깅에도 [기록됩니다.](https://docs.microsoft.com/azure/information-protection/log-analyze-usage) [](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) 
+사당성 텍스트는 파일에서 제거된 민감도 레이블의 감사 이벤트에 추가되고 암호 해독 작업은 Azure Information Protection에 대한 보호 사용 현황 로깅에도 [기록됩니다.](/azure/information-protection/log-analyze-usage) [](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) 
 
 ## <a name="how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out"></a>SharePoint 및 OneDrive에 대해 민감도 레이블을 사용하지 않도록 설정하는 방법(옵트아웃)
 
 이러한 새 기능을 사용하지 않도록 설정하면 SharePoint 및 OneDrive에 대해 민감도 레이블을 사용하도록 설정한 후에 업로드한 파일이 레이블에 의해 계속 보호됩니다. 레이블 설정이 계속 적용됩니다. 이러한 새 기능을 사용하지 않도록 설정한 후 새 파일에 민감도 레이블을 적용하면 전체 텍스트 검색, eDiscovery 및 공동 작업 기능이 더 이상 작동하지 않습니다.
 
-이러한 새 기능을 사용하지 않도록 설정하려면 PowerShell을 사용해야 합니다. SharePoint Online 관리 셸 및 [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant) cmdlet을 사용하여 [PowerShell을](#use-powershell-to-enable-support-for-sensitivity-labels) 사용하여 민감도 레이블 지원을 사용하도록 설정 섹션에 설명된 동일한 *EnableAIPIntegration* 매개 변수를 지정합니다. 그러나 이번에는 매개 변수 값을 false로 설정하고 **Y를 눌러 다음을** 확인할 수 있습니다.
+이러한 새 기능을 사용하지 않도록 설정하려면 PowerShell을 사용해야 합니다. SharePoint Online 관리 셸 및 [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) cmdlet을 사용하여 [PowerShell을](#use-powershell-to-enable-support-for-sensitivity-labels) 사용하여 민감도 레이블 지원을 사용하도록 설정 섹션에 설명된 동일한 *EnableAIPIntegration* 매개 변수를 지정합니다. 그러나 이번에는 매개 변수 값을 false로 설정하고 **Y를 눌러 다음을** 확인할 수 있습니다.
 
 ```PowerShell
 Set-SPOTenant -EnableAIPIntegration $false

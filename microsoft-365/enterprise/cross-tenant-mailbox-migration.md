@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: d81e272cfe50aa8379135406cbe538fbc8a18cb5
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 7c3b4f82d94888cfa6c63b25f20130a38f8b4c9f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454232"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919203"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>테넌트 간 사서함 마이그레이션(미리 보기)
 
@@ -45,7 +45,7 @@ ms.locfileid: "50454232"
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
-테넌트 간 사서함 이동 기능을 사용하려면 [Azure Key Vault가](https://docs.microsoft.com/azure/key-vault/basic-concepts) 테넌트 쌍별 Azure 응용 프로그램을 설정하여 한 테넌트에서 다른 테넌트로의 사서함 마이그레이션을 인증하고 권한을 부여하는 데 사용되는 인증서/비밀을 안전하게 저장하고 액세스하고 테넌트 간에 인증서/비밀을 공유하기 위한 요구 사항을 제거해야 합니다. 
+테넌트 간 사서함 이동 기능을 사용하려면 [Azure Key Vault가](/azure/key-vault/basic-concepts) 테넌트 쌍별 Azure 응용 프로그램을 설정하여 한 테넌트에서 다른 테넌트로의 사서함 마이그레이션을 인증하고 권한을 부여하는 데 사용되는 인증서/비밀을 안전하게 저장하고 액세스하고 테넌트 간에 인증서/비밀을 공유하기 위한 요구 사항을 제거해야 합니다. 
 
 시작하기 전에 Azure Key Vault, 사서함 응용 프로그램 이동, EXO 마이그레이션 끝점 및 EXO 조직 관계를 구성하기 위해 배포 스크립트를 실행하기 위해 필요한 사용 권한이 있는지 확인해야 합니다. 일반적으로 전역 관리자에게는 모든 구성 단계를 수행할 수 있는 권한이 있습니다.
 
@@ -116,7 +116,7 @@ ms.locfileid: "50454232"
     ||||
 
     >[!Note]
-    > 스크립트를 실행하기 전에 Azure AD PowerShell 모듈을 설치해야 합니다. 설치 단계는 ![ 여기를 ](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-5.1.0) 참조하세요.
+    > 스크립트를 실행하기 전에 Azure AD PowerShell 모듈을 설치해야 합니다. 설치 단계는 ![ 여기를 ](/powershell/azure/install-az-ps?view=azps-5.1.0) 참조하세요.
 
 6. 이 스크립트는 일시 중지 하 고이 프로세스 중에 만든 Exchange 사서함 마이그레이션 응용 프로그램에 동의 또는 동의를 요청 합니다. 예를 들면 다음과 같습니다.
 
@@ -430,7 +430,7 @@ T2Tbatch-testforignitedemo Syncing ExchangeRemoteMove 1
 
 사서함이 원본에서 대상으로 이동한 후 원본 및 대상 모두에 대한 새 targetAddress로 업데이트되는 On-premises 메일 사용자를 확인해야 합니다. 예제에서 이동에 사용되는 targetDeliveryDomain은 에 **contoso.onmicrosoft.com.** 이 targetAddress로 메일 사용자를 업데이트합니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **이동 후 원본에서 원격Mailboxes를 업데이트해야 하나요?**
 
@@ -590,7 +590,7 @@ VerifySetup.ps1 -PartnerTenantId <TargetTenantId> -ApplicationId <AADApplication
 
 예. 그러나 다음 문서에 설명된 바와 같이 스토어 사용 권한만 보관합니다.
 
-- [Microsoft Docs | Exchange Online에서 받는 사람에 대한 사용 권한 관리](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients)
+- [Microsoft Docs | Exchange Online에서 받는 사람에 대한 사용 권한 관리](/exchange/recipients-in-exchange-online/manage-permissions-for-recipients)
 
 - [Microsoft 지원 | Office 365 전용 Exchange 및 Outlook 사서함 권한을 부여하는 방법](https://support.microsoft.com/topic/how-to-grant-exchange-and-outlook-mailbox-permissions-in-office-365-dedicated-bac01b2c-08ff-2eac-e1c8-6dd01cf77287)
 
@@ -604,11 +604,11 @@ VerifySetup.ps1 -PartnerTenantId <TargetTenantId> -ApplicationId <AADApplication
 
 **고객 키와 함께 서비스 암호화를 사용하는 경우 어떻게 하나요?**
 
-이동하기 전에 사서함의 암호가 해독됩니다. 고객 키가 필요한 경우 대상 테넌트에 구성되어 있는지 확인 자세한 [내용은 여기를](https://docs.microsoft.com/microsoft-365/compliance/customer-key-overview) 참조하세요.  
+이동하기 전에 사서함의 암호가 해독됩니다. 고객 키가 필요한 경우 대상 테넌트에 구성되어 있는지 확인 자세한 [내용은 여기를](../compliance/customer-key-overview.md) 참조하세요.  
 
 **예상 마이그레이션 시간은 무엇입니까?**
 
-마이그레이션을 계획하는 데 도움이 [](https://docs.microsoft.com/exchange/mailbox-migration/office-365-migration-best-practices#estimated-migration-times) 될 수 있도록 여기에 있는 표에는 대량 사서함 마이그레이션 또는 개별 마이그레이션이 완료될 것으로 예상되는 경우에 대한 지침이 표시됩니다. 이러한 예상 비용은 이전 고객 마이그레이션에 대한 데이터 분석을 기반으로 합니다. 모든 환경은 고유하기 때문에 정확한 마이그레이션 속도는 다를 수 있습니다.  
+마이그레이션을 계획하는 데 도움이 [](/exchange/mailbox-migration/office-365-migration-best-practices#estimated-migration-times) 될 수 있도록 여기에 있는 표에는 대량 사서함 마이그레이션 또는 개별 마이그레이션이 완료될 것으로 예상되는 경우에 대한 지침이 표시됩니다. 이러한 예상 비용은 이전 고객 마이그레이션에 대한 데이터 분석을 기반으로 합니다. 모든 환경은 고유하기 때문에 정확한 마이그레이션 속도는 다를 수 있습니다.  
 
 이 기능은 현재 미리 보기에 있으며 SLA 및 해당 서비스 수준은 이 기능의 미리 보기 상태 중 성능 또는 가용성 문제에 적용되지 않습니다.
 
@@ -733,4 +733,3 @@ VerifySetup.ps1 -PartnerTenantId <TargetTenantId> -ApplicationId <AADApplication
    | Microsoft Defender for Office 365(계획 2)    |
    | Office 365 권한 있는 액세스 관리           |
    | Office 365의 고급 암호화                  |
-    

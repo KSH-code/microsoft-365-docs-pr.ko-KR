@@ -9,17 +9,17 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8e95eb0fd0e03dc718affa7e7cf044beb654bb56
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 07d3d50f012b2d93e9f7a75f47b0c35514b51350
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840938"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920623"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop이란 무엇인가요?
 
 
-Microsoft Managed Desktop은 [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview)를 하나로 모아주는 클라우드 기반 서비스이며 ([Windows 10 Enterprise](https://docs.microsoft.com/windows/windows-10/) 및 [Office 365 Enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) 포함) 다음 기능을 추가합니다.
+Microsoft Managed Desktop은 [Microsoft 365 Enterprise](../../enterprise/microsoft-365-overview.md)를 하나로 모아주는 클라우드 기반 서비스이며 ([Windows 10 Enterprise](/windows/windows-10/) 및 [Office 365 Enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) 포함) 다음 기능을 추가합니다.
 
 - 사용자 장치 배포
 - IT 서비스 관리 및 운영
@@ -44,7 +44,7 @@ Microsoft Managed Desktop은 오늘 날 회사와 사람들이 직면하고 있�
 - Microsoft Managed Desktop 장치 부팅 시간은 1/4입니다.
 - 배터리 수명의 두 배 이상입니다.
 - 1년에 장치의 1/3이 충돌합니다.
-- [Enterprise State Roaming](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview)을 통한 장치 이동성은 사용자가 어떤 장치에서 로그인 해도 동일한 환경을 제공합니다.
+- [Enterprise State Roaming](/azure/active-directory/devices/enterprise-state-roaming-overview)을 통한 장치 이동성은 사용자가 어떤 장치에서 로그인 해도 동일한 환경을 제공합니다.
 
 사용자의 IT 관리자에게는 다음 기능이 제공됩니다.
 
@@ -58,7 +58,7 @@ Microsoft Managed Desktop은 오늘 날 회사와 사람들이 직면하고 있�
 
 - **하드웨어**: IT 부서가 장치(및 드라이버)를 연구하고 검사 할 필요 없이 특정 장치는 Microsoft Managed Desktop에 의해 면밀히 검사 되어 엔터프라이즈 수준의 성능에 적합하고 서비스와 작동이 보장되는 큐레이팅 된 [장치 목록](../service-description/device-list.md)을 제공합니다. 장치를 직접(혹은 파트너와 함께) 구하거나 혹은 이미 보유한 장비가 승인된 목록에 있다면 재사용 할 수 있습니다. 등록된 장비는 쉽고 간편합니다. 배포되기 전 사용자의 고객의 경험에 맞도록 장치를 [사용자 지정](../working-with-managed-desktop/config-setting-overview.md) 할 수 있습니다.
 - **업데이트**: Microsoft Managed Desktop은 Windows 10 품질 및 기능 업데이트, 드라이버, 펌웨어, 바이러스 백신 정의 및 엔터프라이즈용 Microsoft 365 앱 업데이트 [배포 그룹](../service-description/updates.md)의 모든 것을 설정하고 관리합니다. 광범위한 검사 및 모든 업데이트 확인이 포함되어 등록된 장비가 항상 최신 상태를 유지하고 방해를 최소화 하여 상시 업무로 부터 IT 부서를 자유롭게 해줍니다.
-- **앱**: Microsoft 365 Enterprise의 일부로서 Microsoft는 몇 가지 주요 Microsoft 앱을 제공하고 관리 합니다. 비즈니스에 필요한 다른 앱도 있을 것입니다. 사용자의 IT 부서가 이 앱을 검사, 패키지 및 배포하는 대신 Microsoft가 배포를 도와주거나 필요시에는 [Desktop App Assure](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure)로 지원 합니다. [Microsoft Managed Desktop 앱](../get-ready/apps.md)에 대해 더 알아보세요.
+- **앱**: Microsoft 365 Enterprise의 일부로서 Microsoft는 몇 가지 주요 Microsoft 앱을 제공하고 관리 합니다. 비즈니스에 필요한 다른 앱도 있을 것입니다. 사용자의 IT 부서가 이 앱을 검사, 패키지 및 배포하는 대신 Microsoft가 배포를 도와주거나 필요시에는 [Desktop App Assure](/fasttrack/win-10-desktop-app-assure)로 지원 합니다. [Microsoft Managed Desktop 앱](../get-ready/apps.md)에 대해 더 알아보세요.
 
 
 ## <a name="device-monitoring"></a>장치 모니터링
@@ -79,7 +79,7 @@ Microsoft Managed Desktop이 조직에 적합한 경우 조직 등록을 준비�
 - [Microsoft Managed Desktop 기술](technologies.md)
 - [Microsoft Managed Desktop 및 ITIL](../MMD-and-ITSM.md)
 - [규정 준수](compliance.md)
-- [Microsoft Managed Desktop 서비스 설명](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/)
+- [Microsoft Managed Desktop 서비스 설명](../service-description/index.md)
 
 **등록 준비** 환경이 주요 필수 구성 요소를 충족하는지 확인하고, 네트워크를 구성하고, 인증서를 설정하고, 서비스에 포함할 앱을 준비하는 등 조직에서 등록을 준비하기 위해 수행해야 하는 단계에 대해 설명하는 항목입니다.
 
@@ -114,4 +114,3 @@ Microsoft Managed Desktop이 조직에 적합한 경우 조직 등록을 준비�
 <!--When you enroll in Microsoft Managed Desktop, Microsoft provides you with devices that are configured to join your Azure Active Directory tenant. Windows 10, Office 365, and some apps and features associated with [Microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) are installed (by Microsoft) on your devices. When your employees who are using these devices need help, they contact Microsoft Managed Desktop support (provided by Microsoft) through a custom chat app.--> 
 
 <!--With Microsoft Managed Desktop, you get **software as a service** (Microsoft 365 E5), **Device as a service** (Microsoft Surface devices ready to use), and **IT support as a service** (Help desk and more).--> 
- 

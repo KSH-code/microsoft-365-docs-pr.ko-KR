@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 예시 조직이 채널을 사용하여를 배포하고 업데이트하는 방법입니다.
-ms.openlocfilehash: 88567fedd92f01885c4971acc273a676c3e82de8
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: a91ee948ca2051ceccb3883b2dd0198c1070bc03
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686157"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919065"
 ---
 # <a name="deployment-and-update-channel-example-configurations"></a>배포 및 업데이트 채널 예제 구성
 
@@ -41,9 +41,9 @@ Windows 10 및 Microsoft 365 앱에 사용할 업데이트 채널을 선택하�
 
 | 고객/채널 제공 | Windows 10 | 엔터프라이즈용 Microsoft 365 앱(Windows 10) | 예제 |
 |:-------|:-------|:-----|:-------|
-| 최신 릴리스를 원하는 고객은 준비가 되는 즉시 적합합니다. | 반기 채널 | [현재 채널](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) | [최신 릴리스](deploy-update-channels-examples-rapid-deploy.md) |
-| 최신 릴리스를 추가 예측 가능성이 있는 기업을 위한 권한을 보유합니다. | 반기 채널 | [월 단위 엔터프라이즈 채널](https://docs.microsoft.com/deployoffice/overview-update-channels#monthly-enterprise-channel-overview) |  |
-| 각 업데이트 이전에 광범위한 IT 테스트를 수행해야 하는 기업에 적합합니다. | 반기 채널 | [반기 엔터프라이즈 채널](https://docs.microsoft.com/deployoffice/overview-update-channels#semi-annual-enterprise-channel-overview) |  |
+| 최신 릴리스를 원하는 고객은 준비가 되는 즉시 적합합니다. | 반기 채널 | [현재 채널](/deployoffice/overview-update-channels#current-channel-overview) | [최신 릴리스](deploy-update-channels-examples-rapid-deploy.md) |
+| 최신 릴리스를 추가 예측 가능성이 있는 기업을 위한 권한을 보유합니다. | 반기 채널 | [월 단위 엔터프라이즈 채널](/deployoffice/overview-update-channels#monthly-enterprise-channel-overview) |  |
+| 각 업데이트 이전에 광범위한 IT 테스트를 수행해야 하는 기업에 적합합니다. | 반기 채널 | [반기 엔터프라이즈 채널](/deployoffice/overview-update-channels#semi-annual-enterprise-channel-overview) |  |
 |||||
 
 

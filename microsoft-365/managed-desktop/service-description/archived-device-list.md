@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bbb3814a973bec53a877bc70d0299ce7b2eb87b5
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: f3e4b434f1ca267d5bbfbc7e67cb20c7e2b9dbbb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727556"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920567"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관 장치
 
@@ -75,7 +75,7 @@ Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나�
 
 - Microsoft Managed Desktop에서 승인한 이미지가 있습니다. 디바이스를 주문할 때 Microsoft Managed Desktop에서 사용 중이라 지정해야 합니다.
 - Windows 첫 실행 환경을 완료하지 않은 경우
-- 장치 등록 기능을 사용하여 Microsoft Managed [Desktop에 등록](https://aka.ms/mmddrhelp)
+- 장치 등록 기능을 사용하여 Microsoft Managed [Desktop에 등록](../get-started/register-devices-self.md)
 
 #### <a name="more-help"></a>추가 도움말
 

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - BCS160
 description: Office 365 IP 주소 및 URL 웹 서비스를 사용하여 Office 365 네트워크 트래픽을 손쉽게 식별하고 구분하는 방법을 알아봅니다.
-ms.openlocfilehash: 03e6eac86e66db6f9e94c3f98e6d7b565ffa0f14
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+ms.openlocfilehash: 1948491e1d3db724e7b7b6a5275234acab4be08a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456462"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918957"
 ---
 # <a name="office-365-ip-address-and-url-web-service"></a>Office 365 IP 주소 및 URL 웹 서비스
 
@@ -64,9 +64,9 @@ Office 365 IP 주소 및 URL 웹 서비스를 통해 Office 365 네트워크 트
 다음은 모든 웹 서비스 메서드에서 공통되는 매개 변수입니다.
 
 - **format=<JSON | CSV>** - 기본적으로 반환되는 데이터 형식은 JSON입니다. 이 선택적 매개 변수를 사용하여 쉼표로 구분된 값(CSV) 형식으로 데이터를 반환하십시오.
-- **ClientRequestId=\<guid>** — 클라이언트 연결을 위해 생성해야 하는 필수 GUID입니다. 웹 서비스를 호출하는 각 시스템에 대해 고유한 GUID를 생성합니다(이 페이지에 포함된 스크립트가 GUID를 생성함). 다음 예제에 표시된 GUID는 앞으로 웹 서비스에 의해 차단될 수 있으므로 사용하지 마십시오. GUID 형식은 _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_이며 여기서 x는 16진수를 나타냅니다.
+- **ClientRequestId=\<guid>** — 클라이언트 연결을 위해 생성해야 하는 필수 GUID입니다. 웹 서비스를 호출하는 각 시스템에 대해 고유한 GUID를 생성합니다(이 페이지에 포함된 스크립트가 GUID를 생성함). 다음 예제에 표시된 GUID는 앞으로 웹 서비스에 의해 차단될 수 있으므로 사용하지 마십시오. GUID 형식은 _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_ 이며 여기서 x는 16진수를 나타냅니다.
 
-  GUID를 생성하려면 [New-Guid](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) PowerShell 명령을 사용하거나 [Online GUID 생성기](https://www.guidgenerator.com/)와 같은 온라인 서비스를 사용할 수 있습니다.
+  GUID를 생성하려면 [New-Guid](/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) PowerShell 명령을 사용하거나 [Online GUID 생성기](https://www.guidgenerator.com/)와 같은 온라인 서비스를 사용할 수 있습니다.
 
 ## <a name="version-web-method"></a>버전 웹 메서드
 
@@ -78,7 +78,7 @@ Microsoft는 매월 마지막에 Office 365 IP 주소와 FQDN 항목을 업데�
 
 - **AllVersions = < true | false >** -기본적으로 반환되는 버전은 최신 버전입니다. 이 선택적 매개 변수를 포함하여 웹 서비스가 처음 릴리스된 이후에 모든 게시된 버전을 요청하십시오.
 - **형식 = < JSON | CSV | RSS >** -는 JSON 및 CSV 형식 외에도 버전 웹 메서드로도 RSS를 지원합니다. 이 선택적 매개 변수를 _AllVersions = true_ 매개 변수와 함께 사용하여 Outlook이나 다른 RSS 판독기에서 사용할 수 있는 RSS 피드를 요청할 수 있습니다.
-- **인스턴스=<전세계 | 중국 | 독일 | USGovDoD | USGovGCCHigh> ** -이 선택적 매개 변수는 버전을 반환할 인스턴스를 지정합니다. 생략할 경우 모든 인스턴스가 반환됩니다. 유효한 인스턴스는 전세계, 중국, 독일, USGovDoD, USGovGCCHigh입니다.
+- **인스턴스=<전세계 | 중국 | 독일 | USGovDoD | USGovGCCHigh>** -이 선택적 매개 변수는 버전을 반환할 인스턴스를 지정합니다. 생략할 경우 모든 인스턴스가 반환됩니다. 유효한 인스턴스는 전세계, 중국, 독일, USGovDoD, USGovGCCHigh입니다.
 
 버전 웹 메소드는 속도 제한이 없으며 429 HTTP 응답 코드를 반환하지 않습니다. 버전 웹 방법에 대한 응답에는 1시간 동안 데이터 캐싱을 권장하는 캐시 제어 헤더가 포함됩니다. 버전 웹 메서드의 결과는 단일 레코드 또는 레코드의 배열일 수 있습니다. 각 레코드의 요소는 다음과 같습니다.
 
@@ -180,24 +180,24 @@ Worldwide,2018063000
 
 엔드포인트 웹 메서드의 매개 변수는 다음과 같습니다.
 
-- **ServiceAreas=<공통 | 교환 | SharePoint | Skype> ** - 쉼표로 구분 된 서비스 영역 목록입니다. 유효한 항목은 _공통_, _Exchange_, _SharePoint_ 및 _Skype_입니다. _공통_ 서비스 영역 항목은 다른 모든 서비스 영역의 전제 조건이므로 웹 서비스에 항상 포함됩니다. 이 매개 변수를 포함하지 않으면 모든 서비스 영역이 반환됩니다.
+- **ServiceAreas=<공통 | 교환 | SharePoint | Skype>** - 쉼표로 구분 된 서비스 영역 목록입니다. 유효한 항목은 _공통_, _Exchange_, _SharePoint_ 및 _Skype_ 입니다. _공통_ 서비스 영역 항목은 다른 모든 서비스 영역의 전제 조건이므로 웹 서비스에 항상 포함됩니다. 이 매개 변수를 포함하지 않으면 모든 서비스 영역이 반환됩니다.
 - **TenantName=<tenant_name >** - Office 365 테넌트 이름. 웹 서비스는 제공된 이름을 가져와 테넌트 이름이 포함된 URL의 일부에 삽입합니다. 테넌트 이름을 제공하지 않으면 URL의 해당 부분에 와일드 카드 문자(\*)가 있습니다.
-- **NoIPv6=<true | false>** - 네트워크에서 IPv6를 사용하지 않는 경우 출력에서 IPv6 주소를 제외하려면 이 매개 변수를 _true_로 설정합니다.
-- **인스턴스=<전세계 | 중국 | 독일 | USGovDoD | USGovGCCHigh> ** -이 필수 매개 변수는 끝점을 반환할 인스턴스를 지정합니다. 유효한 인스턴스는 _전세계_, _중국_, _독일_, _USGovDoD_, _USGovGCCHigh_입니다.
+- **NoIPv6=<true | false>** - 네트워크에서 IPv6를 사용하지 않는 경우 출력에서 IPv6 주소를 제외하려면 이 매개 변수를 _true_ 로 설정합니다.
+- **인스턴스=<전세계 | 중국 | 독일 | USGovDoD | USGovGCCHigh>** -이 필수 매개 변수는 끝점을 반환할 인스턴스를 지정합니다. 유효한 인스턴스는 _전세계_, _중국_, _독일_, _USGovDoD_, _USGovGCCHigh_ 입니다.
 
 끝점 웹 메서드를 동일한 클라이언트 IP 주소에서 너무 많이 호출하면 HTTP 응답 코드 _429(너무 많은 요청)_ 가 수신될 수 있습니다. 이 응답 코드를 받은 경우, 다시 요청을 반복하기까지 1시간을 기다리거나 요청에 대한 새 GUID를 생성합니다. 일반적으로 버전 웹 메서드가 사용 가능한 새 버전이 있음을 표시하면 끝점 웹 메서드 만 호출합니다.
 
 끝점 웹 메소드의 결과는 각 레코드가 특정 끝점 집합을 나타내는 레코드 배열입니다. 각 레코드의 요소는 다음과 같습니다.
 
 - id - 끝점 집합의 변경이 불가능한 ID 번호입니다.
-- serviceArea - 이 요소가 속하는 서비스 영역은 _Common_, _Exchange_, _SharePoint_ 또는 _Skype_입니다.
+- serviceArea - 이 요소가 속하는 서비스 영역은 _Common_, _Exchange_, _SharePoint_ 또는 _Skype_ 입니다.
 - urls - 끝점 집합의 URL입니다. DNS 레코드의 JSON 배열입니다. 비워 두면 생략됩니다.
 - tcpPorts - 끝점 집합의 TCP 포트입니다. 모든 포트 요소는 쉼표로 구분된 포트 또는 포트 범위가 대시 문자(-)로 구분되어 있습니다. 포트는 주어진 범주에 대한 끝점에 설정된 모든 IP 주소 및 모든 URL에 적용됩니다. 비워 두면 생략됩니다.
 - udpPorts - 이 끝점 집합의 IP 주소 범위에 대한 UDP 포트입니다. 비워 두면 생략됩니다.
 - ips - 나열된 TCP 또는 UDP 포트와 연결된 이 끝점 집합과 연결된 IP 주소 범위입니다. IP 주소 범위의 JSON 배열입니다. 비워 두면 생략됩니다.
-- category - 끝점 집합에 대한 연결 범주입니다. 유효한 값은 _최적화_, _허용_및 _기본값_입니다. 특정 IP 주소 또는 URL 범주에 대한 끝점 웹 메서드 출력을 검색하는 경우에는 쿼리가 여러 범주를 반환하게 될 수 있습니다. 이 경우 우선 순위가 가장 높은 범주에 대한 권장 사항을 따릅니다. 예를 들어, 끝점 _최적화_와 _허용_ 둘 다에 표시되면 _최적화_ 요구 사항을 따라야 합니다. 필수 특성입니다.
-- expressRoute - 이 끝점 집합이 ExpressRoute를 통해 라우팅되는 경우 _True_ 그렇지 않으면 _False_입니다.
-- required - Office 365에 대한 연결이 지원되기 위해 이 끝점 집합이 필요한 경우 _True_입니다. 이 끝점 집합이 선택 사항이면 _False_입니다.
+- category - 끝점 집합에 대한 연결 범주입니다. 유효한 값은 _최적화_, _허용_ 및 _기본값_ 입니다. 특정 IP 주소 또는 URL 범주에 대한 끝점 웹 메서드 출력을 검색하는 경우에는 쿼리가 여러 범주를 반환하게 될 수 있습니다. 이 경우 우선 순위가 가장 높은 범주에 대한 권장 사항을 따릅니다. 예를 들어, 끝점 _최적화_ 와 _허용_ 둘 다에 표시되면 _최적화_ 요구 사항을 따라야 합니다. 필수 특성입니다.
+- expressRoute - 이 끝점 집합이 ExpressRoute를 통해 라우팅되는 경우 _True_ 그렇지 않으면 _False_ 입니다.
+- required - Office 365에 대한 연결이 지원되기 위해 이 끝점 집합이 필요한 경우 _True_ 입니다. 이 끝점 집합이 선택 사항이면 _False_ 입니다.
 - notes - 선택적 끝점의 경우 이 텍스트는 네트워크 계층에서 이 끝점 집합의 IP 주소나 URL에 액세스할 수 없는 경우 사용할 수 없는 Office 365 기능에 대해 설명합니다.  비워 두면 생략됩니다.
 
 ### <a name="examples"></a>예제:
@@ -250,7 +250,7 @@ Worldwide,2018063000
 
 변경 내용 웹 메서드에 대한 필수 매개 변수입니다.
 
-- **Version=\<YYYYMMDDNN>** — 필수 URL 경로 매개 변수입니다. 이 값은 현재 구현한 버전입니다. 웹 서비스는 해당 버전 이후의 변경 사항을 반환합니다. 형식은 _YYYYMMDD_입니다. 여기서 _NN_은 하루 동안 게시해야하는 여러 버전이 있는 경우 자연수 증가분이고 _00_은 해당 날짜의 첫 번째 업데이트를 나타냅니다. 웹 서비스는 _버전_ 매개 변수가 정확히 10 자리를 포함하도록 요구합니다.
+- **Version=\<YYYYMMDDNN>** — 필수 URL 경로 매개 변수입니다. 이 값은 현재 구현한 버전입니다. 웹 서비스는 해당 버전 이후의 변경 사항을 반환합니다. 형식은 _YYYYMMDD_ 입니다. 여기서 _NN_ 은 하루 동안 게시해야하는 여러 버전이 있는 경우 자연수 증가분이고 _00_ 은 해당 날짜의 첫 번째 업데이트를 나타냅니다. 웹 서비스는 _버전_ 매개 변수가 정확히 10 자리를 포함하도록 요구합니다.
 
 변경 웹 메서드는 엔드 포인트 웹 메서드와 같은 방식으로 비율이 제한됩니다. 429 HTTP 응답 코드를 받은 경우, 다시 요청을 반복하기까지 1시간을 기다리거나 요청에 대한 새 GUID를 생성합니다.
 
@@ -258,7 +258,7 @@ Worldwide,2018063000
 
 - id - 변경 레코드의 변경이 불가능한 ID입니다.
 - endpointSetId - 변경된 끝점 집합 레코드의 ID입니다.
-- disposition - 끝점 설정 레코드에 대한 변경 내용에 대해 설명합니다. 값은 _변경_, _추가_ 또는 _제거_입니다.
+- disposition - 끝점 설정 레코드에 대한 변경 내용에 대해 설명합니다. 값은 _변경_, _추가_ 또는 _제거_ 입니다.
 - impact - 모든 환경에서 모든 변경이 똑같이 중요하지는 않습니다. 이 요소는 이러한 변경으로 인해 엔터프라이즈 네트워크 주변 환경에 미치는 영향을 설명합니다. 이 요소는 버전 **2018112800** 이상의 변경 레코드에만 포함됩니다. 영향에 대한 옵션은 다음과 같습니다. — AddedIp – IP 주소가 Office 365에 추가되었고 곧 서비스에 적용됩니다. 이는 방화벽 또는 다른 계층 3 네트워크 주변 장치에서 수행해야하는 변경 사항을 나타냅니다. 사용하기 전에 이것을 먼저 추가하지 않으면 중단이 발생할 수 있습니다.
   — AddedUrl - URL이 Office 365에 추가되었으며 곧 서비스에 게시됩니다. 이는 프록시 서버 또는 URL 파싱 네트워크 주변 장치에서 수행해야하는 변경 사항을 나타냅니다. 사용하기 전에 이 URL을 먼저 추가하지 않으면 중단이 발생할 수 있습니다.
   — AddedIpAndUrl - IP 주소와 URL이 모두 추가되었습니다. 이는 방화벽 계층 3 장치나 프록시 서버 또는 URL 구문 분석 장치에서 수행해야 하는 변경을 나타냅니다. 사용하기 전에 이 IP/URL 쌍을 먼저 추가하지 않으면 중단이 발생할 수 있습니다.
@@ -267,16 +267,16 @@ Worldwide,2018063000
   — MovedIpOrUrl – 이 끝점 세트와 다른 끝점 세트 간에 IP 주소 또는 URL을 이동했습니다. 일반적으로 필요한 작업은 없습니다.
   — RemovedDuplicateIpOrUrl – 중복된 IP 주소 또는 URL을 제거했으나 Office 365에 여전히 게시됩니다. 일반적으로 필요한 작업은 없습니다.
   — OtherNonPriorityChanges – 메모 필드와 같이 다른 옵션보다 덜 중요한 항목이 변경되었습니다.
-- version — 변경 사항이 도입된 게시된 끝점 집합의 버전입니다. 버전 번호의 형식은 _YYYYMMDD_입니다. 여기서 _NN_은 하루 동안 게시해야 하는 여러 버전이 있는 경우 자연수 증가분입니다.
-- previous - 끝점 집합에서 변경된 요소의 이전 값을 설명하는 하위 구조입니다. 새로 추가된 엔드포인트 집합에는 포함되지 않습니다. _ExpressRoute_, _serviceArea_, _category_, _required_, _tcpPorts_, _udpPorts_, 및 _notes_를 포함합니다.
-- current - 끝점 집합의 변경 요소에 대한 업데이트된 값을 설명하는 하부 구조입니다. _ExpressRoute_, _serviceArea_, _category_, _required_, _tcpPorts_, _udpPorts_, 및 _notes_를 포함합니다.
+- version — 변경 사항이 도입된 게시된 끝점 집합의 버전입니다. 버전 번호의 형식은 _YYYYMMDD_ 입니다. 여기서 _NN_ 은 하루 동안 게시해야 하는 여러 버전이 있는 경우 자연수 증가분입니다.
+- previous - 끝점 집합에서 변경된 요소의 이전 값을 설명하는 하위 구조입니다. 새로 추가된 엔드포인트 집합에는 포함되지 않습니다. _ExpressRoute_, _serviceArea_, _category_, _required_, _tcpPorts_, _udpPorts_, 및 _notes_ 를 포함합니다.
+- current - 끝점 집합의 변경 요소에 대한 업데이트된 값을 설명하는 하부 구조입니다. _ExpressRoute_, _serviceArea_, _category_, _required_, _tcpPorts_, _udpPorts_, 및 _notes_ 를 포함합니다.
 - add - 끝점 집합 컬렉션에 추가할 항목을 자세히 설명하는 하위 구조입니다. 추가할 항목이 없으면 생략합니다. 추가할 항목이 없으면 생략합니다.
   — effectiveDate - 서비스에서 추가가 적용될 날짜를 정의합니다.
   — ips - _ips_ 배열에 추가할 항목입니다.
   — urls - _urls_ 배열에 추가할 항목입니다.
 - remove - 끝점 집합에서 제거할 항목을 자세히 설명하는 하위 구조입니다. 제거할 항목이 없으면 생략합니다.
   — ips- _ips_ 배열에서 제거할 항목입니다.
-  — urls -_urls_l 배열에서 제거할 항목입니다.
+  — urls -_urls_ l 배열에서 제거할 항목입니다.
 
 ### <a name="examples"></a>예제:
 
@@ -356,7 +356,7 @@ Office 365 Worldwide 인스턴스에 대한 지정된 버전 이후의 변경 �
 이 스크립트는 다음을 수행합니다.
 
 - 웹 서비스 REST API를 호출하여 현재 Office 365 Worldwide 인스턴스 끝점의 버전 번호를 확인합니다.
-- _$Env:TEMP\O365_endpoints_latestversion.txt_에서 현재 버전 파일을 확인합니다. 전역 변수의 **$Env:TEMP**의 경로는 일반적으로 _C:\Users\\<username\>\AppData\Local\Temp_입니다.
+- _$Env:TEMP\O365_endpoints_latestversion.txt_ 에서 현재 버전 파일을 확인합니다. 전역 변수의 **$Env:TEMP** 의 경로는 일반적으로 _C:\Users\\<username\>\AppData\Local\Temp_ 입니다.
 - 스크립트가 처음 실행된 경우, 스크립트는 현재 버전과 모든 현재 IP 주소 및 URL을 반환하고 끝점 버전을 _$Env:TEMP\O365_endpoints_latestversion.txt_ 파일에 쓰고 끝점 데이터 출력을 _$Env:TEMP\O365_endpoints_data.txt_ 파일에 기록합니다. 다음 줄을 편집하여 출력 파일의 경로 및/또는 이름을 수정할 수 있습니다.
 
     ``` powershell
@@ -367,11 +367,11 @@ Office 365 Worldwide 인스턴스에 대한 지정된 버전 이후의 변경 �
 - 이후에 스크립트를 실행할 때마다 최신 웹 서비스 버전이 _O365_endpoints_latestversion.txt_ 파일의 버전과 동일한 경우 스크립트는 변경하지 않고 종료됩니다.
 - 최신 웹 서비스 버전이 _O365_endpoints_latestversion.txt_ 파일의 버전보다 최신인 경우 스크립트는 **허용** 및 **최적화** 범주 끝점에 대한 끝접 및 필터를 반환하고 _O365_endpoints_latestversion.txt_ 파일에서 버전을 업데이트하고 업데이트된 데이터를 _O365_endpoints_data.txt_ 파일에 기록합니다.
 
-스크립트는 해당 스크립트가 실행되는 컴퓨터에 대해 고유한 _ClientRequestId_를 생성하고 여러 호출에서 이 ID를 재사용합니다. 이 ID는 _O365_endpoints_latestversion_ 파일에 저장됩니다.
+스크립트는 해당 스크립트가 실행되는 컴퓨터에 대해 고유한 _ClientRequestId_ 를 생성하고 여러 호출에서 이 ID를 재사용합니다. 이 ID는 _O365_endpoints_latestversion_ 파일에 저장됩니다.
 
 ### <a name="to-run-the-powershell-script"></a>PowerShell 스크립트 실행하려면
 
-1. 스크립트를 복사하고 로컬 하드 드라이브 또는 스크립트 위치에 _Get-O365WebServiceUpdates.ps1_로 저장합니다.
+1. 스크립트를 복사하고 로컬 하드 드라이브 또는 스크립트 위치에 _Get-O365WebServiceUpdates.ps1_ 로 저장합니다.
 1. 다음 명령을 사용하여 PowerShell ISE 또는 VS 코드와 같은 기본 스크립트 편집기 또는 PowerShell 콘솔에서 스크립트를 실행합니다.
 
     ``` powershell
@@ -607,7 +607,7 @@ IP 주소 및 URL 변경 사항이 웹 서비스에 게시될 때 몇 가지 방
 
 - Microsoft Flow 솔루션을 사용하려면 [Microsoft Flow 사용하여 Office 365 IP 주소 및 URL 변경 내용에 대한 전자 메일 받기](https://techcommunity.microsoft.com/t5/Office-365-Networking/Use-Microsoft-Flow-to-receive-an-email-for-changes-to-Office-365/m-p/240651)를 참조하세요.
 - ARM 서식 파일을 사용하여 Azure Logic 앱을 배포하려면 [Office 365 업데이트 알림(v1.1)](https://aka.ms/ipurlws-updates-template)을 참조하세요.
-- PowerShell을 사용하여 알림 스크립트를 직접 작성하려면 [Send-MailMessage](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/send-mailmessage)를 참조하세요.
+- PowerShell을 사용하여 알림 스크립트를 직접 작성하려면 [Send-MailMessage](/powershell/module/microsoft.powershell.utility/send-mailmessage)를 참조하세요.
 
 ## <a name="exporting-a-proxy-pac-file"></a>프록시 PAC 파일 내보내기
 

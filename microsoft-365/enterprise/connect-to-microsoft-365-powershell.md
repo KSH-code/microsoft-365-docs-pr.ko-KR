@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Microsoft 365용 PowerShell을 사용하여 Microsoft 365 테넌트에 연결하여 명령줄에서 관리 센터 작업을 수행합니다.
-ms.openlocfilehash: 0691304a2d40f7ae4262e6761902f16b4f6d5ee2
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 58af42958e9b50ee8e39cbd7bd5aab53812e444c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288116"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919179"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>PowerShell을 사용하여 Microsoft 365에 연결
 
@@ -60,17 +60,17 @@ Microsoft 365 및 관리자 계정, 그룹 및 라이선스에 연결하는 데 
 - Windows PowerShell용 Microsoft Azure Active Directory 모듈의 경우 PowerShell 버전 5.1 이상 PowerShell 버전 6 이하를 사용해야 합니다. PowerShell 버전 7은 사용할 수 없습니다.
        
 >[!Note]
->이러한 절차는 Microsoft 365 관리자 역할의 구성원인 사용자를 대상으로 합니다. 자세한 내용은 [관리자 역할 정보](https://go.microsoft.com/fwlink/p/?LinkId=532367)를 참조하세요.
+>이러한 절차는 Microsoft 365 관리자 역할의 구성원인 사용자를 대상으로 합니다. 자세한 내용은 [관리자 역할 정보](../admin/add-users/about-admin-roles.md)를 참조하세요.
 
 
 ## <a name="connect-with-the-azure-active-directory-powershell-for-graph-module"></a>그런 다음, Azure Active Directory PowerShell for Graph 모듈에 연결합니다.
 
-Azure Active Directory PowerShell for Graph 모듈의 명령에는 cmdlet 이름에 *AzureAD* 가 있습니다. [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) 모듈 또는 [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps)을 설치할 수 있습니다.
+Azure Active Directory PowerShell for Graph 모듈의 명령에는 cmdlet 이름에 *AzureAD* 가 있습니다. [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2) 모듈 또는 [Azure PowerShell](/powershell/azure/install-az-ps)을 설치할 수 있습니다.
 
 Azure Active Directory PowerShell for Graph 모듈에서 새 cmdlet을 필요로 하는 프로시저의 경우, 이러한 단계를 사용해서 모듈을 설치하고 Microsoft 365 구독에 연결할 수 있습니다.
 
 > [!Note]
-> Windows의 여러 버전에 대한 지원 정보는 [Azure Active Directory PowerShell for Graph 모듈](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2)을 참조하세요.
+> Windows의 여러 버전에 대한 지원 정보는 [Azure Active Directory PowerShell for Graph 모듈](/powershell/azure/active-directory/install-adv2)을 참조하세요.
 
 ### <a name="step-1-install-the-required-software"></a>1단계: 필수 소프트웨어 설치
 
@@ -102,7 +102,7 @@ Azure Active Directory PowerShell for Graph 모듈에서 새 cmdlet을 필요로
 
 다단계 인증을 사용하는 경우 지침에 따라 확인 코드와 같은 추가 인증 정보를 제공합니다.
 
-연결 후 [Azure Active Directory PowerShell for Graph 모듈](https://docs.microsoft.com/powershell/module/azuread)의 cmdlet을 사용할 수 있습니다.
+연결 후 [Azure Active Directory PowerShell for Graph 모듈](/powershell/module/azuread)의 cmdlet을 사용할 수 있습니다.
 
 ## <a name="connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Windows PowerShell용 Microsoft Azure Active Directory 모듈에 연결
 
@@ -152,11 +152,11 @@ PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈
     
 - **Windows PowerShell용 Microsoft Azure Active Directory 모듈을 사용하려면 컴퓨터에 Microsoft .NET Framework 3.5.* x*가 있어야 합니다**. 컴퓨터에 최신 버전(예: 4 또는 4.5.* x*)이 설치되어 있을 수 있습니다. 이전 버전의 .NET Framework와 이전 버전과의 호환성을 사용하거나 사용하지 않도록 설정할 수 있습니다. 자세한 내용은 다음 문서를 참조하세요.
     
-  - Windows Server 2012 또는 Windows Server 2012 R2의 경우 [역할 및 기능 추가 마법사를 사용하여 .NET Framework 3.5를 사용 가능하도록 설정](https://go.microsoft.com/fwlink/p/?LinkId=532368)을 참조하세요.
+  - Windows Server 2012 또는 Windows Server 2012 R2의 경우 [역할 및 기능 추가 마법사를 사용하여 .NET Framework 3.5를 사용 가능하도록 설정](/previous-versions/windows/it-pro/windows-8.1-and-8/dn482071(v=win.10))을 참조하세요.
     
-  - Windows 7 또는 Windows Server 2008 R2의 경우 [Windows PowerShell용 Azure Active Directory 모듈을 열 수 없음](https://go.microsoft.com/fwlink/p/?LinkId=532370)을 참조하세요.
+  - Windows 7 또는 Windows Server 2008 R2의 경우 [Windows PowerShell용 Azure Active Directory 모듈을 열 수 없음](/troubleshoot/azure/active-directory/cant-open-aad-module-powershell)을 참조하세요.
 
-  - Windows 10, Windows 8.1 및 Windows 8의 경우, [Windows 10, Windows 8.1 및 Windows 8에 .NET Framework 3.5 설치](https://docs.microsoft.com/dotnet/framework/install/dotnet-35-windows-10)를 참조하세요.
+  - Windows 10, Windows 8.1 및 Windows 8의 경우, [Windows 10, Windows 8.1 및 Windows 8에 .NET Framework 3.5 설치](/dotnet/framework/install/dotnet-35-windows-10)를 참조하세요.
 
   
 - **Windows PowerShell용 Microsoft Azure Active Directory 모듈 버전이 오래되었을 수 있습니다.** 확인하려면 Windows PowerShell용 Microsoft Azure Active Directory 모듈 또는 Microsoft 365용 PowerShell에서 다음 명령을 실행하세요.
@@ -167,7 +167,7 @@ PowerShell Core는 Windows PowerShell용 Microsoft Azure Active Directory 모듈
 
     반환된 버전 번호가 *1.0.8070.2* 보다 낮은 경우 Windows PowerShell용 Microsoft Azure Active Directory 모듈을 제거한 후 위의 [1단계](#step-1-install-the-required-software)에서 최신 버전을 설치합니다.
 
-- **연결 오류 메시지가 표시되면**, ["Connect-MsolService: 형식 예외가 발생함" 오류](https://go.microsoft.com/fwlink/p/?LinkId=532377)를 참조하세요.
+- **연결 오류 메시지가 표시되면**, ["Connect-MsolService: 형식 예외가 발생함" 오류](/office365/troubleshoot/active-directory/connect-msoservice-throw-exception)를 참조하세요.
     
 - **"Get-Item: 경로를 찾을 수 없음" 오류 메시지가 표시되면**, 다음 명령을 실행하세요.
 

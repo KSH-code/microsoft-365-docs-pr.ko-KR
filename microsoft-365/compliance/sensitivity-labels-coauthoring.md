@@ -13,16 +13,16 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: SharePoint 및 OneDrive의 레이블이 지정되고 암호화된 문서에 대해 데스크톱 앱에서 공동 작성 및 자동 저장을 사용할 수 있도록 설정하세요.
-ms.openlocfilehash: d26696530ed86e6608b6473fead0775fb07a060b
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 90c00eb448d6d8f02170a37062af05cb0c0db59d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454639"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919574"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>민감도 레이블로 암호화된 파일에 공동 작성 사용
 
->*[보안 및 규정 준수에 대한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수에 대한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
 > 미리 보기에 이 기능이 있으며, 변경될 수 있습니다. 
@@ -58,7 +58,7 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
 
 - 블로그 게시물: [Microsoft Information Protection 메타데이터 저장소의 향후 변경 사항](https://techcommunity.microsoft.com/t5/microsoft-security-and/upcoming-changes-to-microsoft-information-protection-metadata/ba-p/1904418)
 
-- 사양 열기: [2.6.3 LabelInfo와 사용자 지정 문서 속성의 대비](https://docs.microsoft.com/openspecs/office_file_formats/ms-offcrypto/13939de6-c833-44ab-b213-e0088bf02341)
+- 사양 열기: [2.6.3 LabelInfo와 사용자 지정 문서 속성의 대비](/openspecs/office_file_formats/ms-offcrypto/13939de6-c833-44ab-b213-e0088bf02341)
 
 조직 내에 이전 위치에 레이블 지정 메타데이터를 읽거나 쓰는 앱, 서비스, 스크립트 또는 도구가 있다면, 이러한 변경 때문에 이 설정을 사용하지 마세요. 그렇게 한다면, 예를 들어 다음과 같은 결과가 나타납니다.
 
@@ -68,7 +68,7 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
 
 - 다른 사용자가 새 레이블 메타데이터를 지원하지 않는 Office 데스크톱 앱에서 문서를 연 경우 공동 작성 및 암호화된 문서에는 공동 작성 및 자동 저장이 작동하지 않습니다.
 
-- [Office 첨부 파일에서 레이블을 사용자 지정 속성으로 식별하는](https://docs.microsoft.com/azure/information-protection/configure-exo-rules#example-2-rule-that-applies-the-encrypt-only-option-to-emails-when-they-have-attachments-that-are-labeled-confidential--partners-and-these-emails-are-sent-outside-the-organization) Exchange Online 메일 흐름 규칙이 전자 메일 및 첨부 파일을 암호화하지 못하거나 잘못 암호화합니다.
+- [Office 첨부 파일에서 레이블을 사용자 지정 속성으로 식별하는](/azure/information-protection/configure-exo-rules#example-2-rule-that-applies-the-encrypt-only-option-to-emails-when-they-have-attachments-that-are-labeled-confidential--partners-and-these-emails-are-sent-outside-the-organization) Exchange Online 메일 흐름 규칙이 전자 메일 및 첨부 파일을 암호화하지 못하거나 잘못 암호화합니다.
 
 다음 섹션에서 이 설정을 지원하는 앱 및 서비스 목록과 레이블 지정 메타데이터의 변경 내용을 확인하세요.
 
@@ -108,7 +108,7 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
 
 - [자동 레이블 지정 정책](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)
 - [민감도 레이블을 조건으로 사용하는 DLP 정책](dlp-sensitivity-label-as-condition.md)
-- [민감도 레이블을 적용하도록 구성한 Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)
+- [민감도 레이블을 적용하도록 구성한 Microsoft Cloud App Security](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)
 
 ## <a name="limitations"></a>제한 사항
 
@@ -125,7 +125,7 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
     
     이러한 암호화 구성이 있는 레이블이면, 레이블은 Office 앱에 표시됩니다. 하지만 사용자가 이러한 레이블을 선택해도 문서를 편집하는 다른 사용자가 없으면, 공동 작성 및 자동 저장을 사용할 수 없다는 경고가 표시됩니다. 다른 사용자가 문서를 편집한다면, 레이블을 적용할 수 없다는 메시지가 나타납니다.
 
-- Azure Information Protection 통합 레이블 지정 클라이언트를 사용하는 경우: 이 레이블 지정 클라이언트에 대한 설명서 [추가 요구 사항 또는 제한](https://docs.microsoft.com/azure/information-protection/known-issues#known-issues-for-co-authoring-public-preview)에서 참조하세요.
+- Azure Information Protection 통합 레이블 지정 클라이언트를 사용하는 경우: 이 레이블 지정 클라이언트에 대한 설명서 [추가 요구 사항 또는 제한](/azure/information-protection/known-issues#known-issues-for-co-authoring-public-preview)에서 참조하세요.
 
 ## <a name="known-issues-for-this-preview"></a>이 미리 보기의 알려진 문제
 
@@ -171,7 +171,7 @@ Microsoft 365 규정 준수 센터에서 이 설정에 액세스하려면, 미�
 
 ![민감도 레이블에 공동 작성 사용을 설정한 것을 나타내는 옵션](../media/co-authoring-tenant-option-set-for-sensitivity-labels.png)
 
-이 설정을 사용할 때의 스크린샷에서 볼 수 있듯이, [Microsoft 지원](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)에 연락하여 이 설정의 해제를 요청할 수 있습니다. 이 요청에는 수일이 소요될 수 있으며, 사용자가 테넌트의 전역 관리자임을 입증해야 합니다. 일반적인 지원 요금이 적용될 것입니다. 
+이 설정을 사용할 때의 스크린샷에서 볼 수 있듯이, [Microsoft 지원](/office365/admin/contact-support-for-business-products)에 연락하여 이 설정의 해제를 요청할 수 있습니다. 이 요청에는 수일이 소요될 수 있으며, 사용자가 테넌트의 전역 관리자임을 입증해야 합니다. 일반적인 지원 요금이 적용될 것입니다. 
 
 지원 엔지니어가 테넌트에 이 설정을 실행 중지하는 경우:
 

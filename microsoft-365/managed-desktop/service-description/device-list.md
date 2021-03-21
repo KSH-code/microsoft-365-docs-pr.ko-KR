@@ -8,18 +8,18 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 729e9dc9ab512a7e93bc291a9a52222c15a42b79
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: b0aa619f09f2d6b32289e037283a0dc6578d0150
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727424"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920507"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
 Microsoft Managed Desktop은 서비스에 포함될 장치를 정기적으로 평가합니다. 이 문서에는 현재 지원되는 특정 장치가 나열됩니다. 장치 요구 사항에 대한 일반적인 설명은 장치 요구 [사항을 참조하세요.](device-requirements.md)
 
-Microsoft Managed Desktop에 대한 자세한 내용은 Microsoft Managed Desktop 설명서 및 [리소스를 참조하세요.](https://docs.microsoft.com/microsoft-365/managed-desktop/) 
+Microsoft Managed Desktop에 대한 자세한 내용은 Microsoft Managed Desktop 설명서 및 [리소스를 참조하세요.](../index.yml) 
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
@@ -78,11 +78,11 @@ Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나�
 
 - 특정 SKU가 장치 요구 사항에 나열되어 있는 경우 주문 시 해당 SKU를 사용하는지 확인합니다. 이렇게 하면 장치가 Microsoft Managed Desktop 소프트웨어 요구 사항을 준수합니다. 
 - Windows 첫 실행 환경을 완료하지 않은 경우
-- 장치 등록 기능을 사용하여 Microsoft Managed [Desktop에 등록](https://aka.ms/mmddrhelp)
+- 장치 등록 기능을 사용하여 Microsoft Managed [Desktop에 등록](../get-started/register-devices-self.md)
 
 >[!NOTE]
 >프로세서가 2.0GHz 이상인 장치는 이러한 활동에 참여하는 사용자에게 훨씬 더 나은 환경을 제공합니다.
->- Teams와 비디오 회의 사용. 자세한 [내용은 Microsoft Teams의 하드웨어](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app) 요구 사항을 참조하세요.
+>- Teams와 비디오 회의 사용. 자세한 [내용은 Microsoft Teams의 하드웨어](/microsoftteams/hardware-requirements-for-the-teams-app) 요구 사항을 참조하세요.
 >-  여러 워크로드에 하나의 디바이스 사용
 >- 여러 모니터 사용.
 
@@ -93,8 +93,3 @@ Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나�
 - Dell 장치에 대한 자세한 내용은 <a href="mailto:MMD_at_dell@dell.com">에</a>MMD_at_dell@dell.com.
 
 - HP 장치 및 장치 주문 지침에 대한 자세한 내용은 미주(mmd-americas@hp.com<a href="mailto:mmd-americas@hp.com">);</a> 유럽/중동/아프리카(<a href="mailto:mmd-emea@hp.com">mmd-emea@hp.com</a>); 아시아 태평양/일본(mmd-apj@hp.com );<a href="mailto:mmd-apj@hp.com"></a> Global(<a href="mailto:mmd@hp.com">mmd@hp.com</a>)
-
-
-
-
-

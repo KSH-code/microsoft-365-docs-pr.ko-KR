@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 90dee316ee5bdc99b6a2386260a3be38728e7282
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 18422f74d87bbadf014de24849235ce5c25bd614
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453720"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920471"
 ---
 # <a name="device-requirements"></a>장치 요구 사항
 
@@ -70,7 +70,7 @@ Microsoft Managed Desktop에 등록하려면 장치가 이러한 요구 사항�
 - 부팅 드라이브의 용량은 128GB 이상입니다.
 - 내부 장치 메모리(RAM)가 8GB를 초과하거나 같아야 합니다.
 
-디바이스가 2020년 7월 1일 이후에 만들어진 경우 [Windows Hello를](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)지원하려면 IR 카메라, 지문 판독기 또는 둘 다가 필요합니다.
+디바이스가 2020년 7월 1일 이후에 만들어진 경우 [Windows Hello를](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)지원하려면 IR 카메라, 지문 판독기 또는 둘 다가 필요합니다.
 
 ## <a name="recommended-requirements"></a>권장 요구 사항
 

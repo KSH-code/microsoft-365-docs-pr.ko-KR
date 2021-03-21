@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: eea8454a02667a42020f9ac1d54402e7b8a06b9b
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 1e6642113ddba9c9110a65e9032ec59db435ac7f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820105"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919864"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>내부자 위험 관리 설정 시작
 
@@ -483,7 +483,7 @@ Microsoft Teams에서 팀과 채널을 사용하는 방법에 대한 자세한 �
 
 기존 사례가 있는 후 내부자 위험 관리에 대해 Microsoft Teams 지원을 사용하도록 설정하는 경우 필요한 경우 각 사례에 대한 팀을 수동으로 만들어야 합니다. 내부자 위험 관리 설정에서 Microsoft Teams 지원을 사용하도록 설정한 후 새로운 사례는 자동으로 새 Microsoft Teams 팀을 생성합니다.
 
-사용자는 사례에서 Microsoft Teams 팀을 만들 수 있도록 조직에서 Microsoft 365 그룹을 만들 수 있는 권한이 필요합니다. Microsoft 365 그룹에 대한 사용 권한을 관리하는 데 대한 자세한 내용은 [Microsoft 365](/microsoft-365/solutions/manage-creation-of-groups)그룹을 만들 수 있는 사용자 관리를 참조하세요.
+사용자는 사례에서 Microsoft Teams 팀을 만들 수 있도록 조직에서 Microsoft 365 그룹을 만들 수 있는 권한이 필요합니다. Microsoft 365 그룹에 대한 사용 권한을 관리하는 데 대한 자세한 내용은 [Microsoft 365](../solutions/manage-creation-of-groups.md)그룹을 만들 수 있는 사용자 관리를 참조하세요.
 
 사례에 대한 팀을 만들기 위해 기존 사례에서 직접 작업할 때 Microsoft 팀 만들기 컨트롤을 사용할 수 있습니다. 다음 단계를 완료하여 새 팀을 만드세요.
 

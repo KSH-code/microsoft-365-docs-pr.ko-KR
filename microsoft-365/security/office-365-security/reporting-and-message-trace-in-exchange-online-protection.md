@@ -12,15 +12,15 @@ localization_priority: Normal
 ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
-description: 이 문서에서는 EOP(Microsoft Exchange Online 보호) 관리자가 사용할 수 있는 보고서 및 문제 해결 도구에 대해 자세히 알아보게 됩니다.
+description: 이 문서에서는 EOP(Microsoft Exchange Online 보호) 관리자에게 사용할 수 있는 보고서 및 문제 해결 도구에 대해 알아보고 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 783c7ea0aca47c805daf66592b401a98f739d071
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 1307fa1431a4fdd46c9ab070a2986a015891568f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288082"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918681"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>EOP의 보고 및 메시지 추적
 
@@ -37,11 +37,11 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 **Microsoft 365 그룹 활동:** 생성 및 사용되는 Microsoft 365 그룹의 수에 대한 정보를 볼 수 있습니다.
 
-**전자 메일 활동:** 전체 조직에서 보내고 받고 읽은 메시지 수와 특정 사용자가 보낸 메시지 수에 대한 정보를 읽습니다.
+**전자 메일 활동:** 전체 조직 및 특정 사용자가 보내고, 받고, 읽은 메시지 수에 대한 정보를 읽습니다.
 
-**전자 메일 앱 사용법:** 사용되는 전자 메일 앱에 대한 정보를 보기 여기에는 각 앱의 총 연결 수와 연결되는 Outlook 버전이 포함됩니다.
+**전자 메일 앱 사용:** 사용되는 전자 메일 앱에 대한 정보를 볼 수 있습니다. 여기에는 각 앱의 총 연결 수와 연결되는 Outlook 버전이 포함됩니다.
 
-**사서함 사용량:** 사서함에 대해 사용된 저장소, 할당량 소비, 항목 수 및 마지막 활동(보내기 또는 읽기 활동)에 대한 정보를 읽습니다.
+**사서함 사용:** 사서함에 대해 사용된 저장소, 할당량 소비, 항목 수 및 마지막 활동(보내기 또는 읽기 활동)에 대한 정보를 읽습니다.
 
 자세한 내용은 다음 리소스를 참조하세요.
 
@@ -55,21 +55,21 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Microsoft & 센터의 보안 및 규정 준수 보고서
 
-이러한 향상된 보고서는 요약 정보를 포함하는 EOP 관리자를 위한 대화형 보고 환경과 자세한 내용을 드릴다운하는 기능을 제공합니다.
+이러한 향상된 보고서는 요약 정보와 자세한 내용을 드릴다운하는 기능을 포함하는 EOP 관리자를 위한 대화형 보고 환경을 제공합니다.
 
-**Office 365용 Defender: Office 365용** Microsoft Defender의 일부인 안전한 링크 및 안전한 첨부 파일에 대한 정보를 볼 수 있습니다.
+**Defender for Office 365: Office 365용** Microsoft Defender의 일부인 안전한 링크 및 안전한 첨부 파일에 대한 정보를 볼 수 있습니다.
 
-**EOP**: 맬웨어 검색, 스푸핑된 메일, 스팸 검색 및 조직과의 메일 흐름에 대한 정보를 볼 수 있습니다.
+**EOP:** 맬웨어 검색, 스푸핑된 메일, 스팸 검색 및 조직과의 메일 흐름에 대한 정보를 볼 수 있습니다.
 
 [Office 365용 Defender에 대한 보고서 보기](view-reports-for-atp.md)
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Microsoft Graph를 사용한 사용자 지정 보고서
 
-Microsoft Graph를 사용하여 관리 센터에서 사용할 수 있는 보고서를 프로그래밍식으로 만들 수 있습니다. 자세한 내용은 [Microsoft Graph의 개요](https://docs.microsoft.com/graph/overview) 및 Office 365 사용 현황 보고서 [작업(Microsoft Graph)을 참조하세요.](https://docs.microsoft.com/graph/api/resources/report)
+Microsoft Graph를 사용하여 관리 센터에서 사용할 수 있는 보고서를 프로그래밍식으로 만들 수 있습니다. 자세한 내용은 [Microsoft Graph 개요](/graph/overview) 및 Microsoft [Graph에서 Office 365](/graph/api/resources/report)사용 현황 보고서 작업을 참조하세요.
 
 ## <a name="message-trace"></a>Message trace
 
-EOP를 통과하는 전자 메일 메시지를 추적합니다. 이를 통해 서비스에서 전자 메일 메시지를 수신, 거부, 지연 또는 배달했는지 여부를 확인할 수 있습니다. 또한 메시지가 최종 상태에 도달하기 전에 메시지에 대해 수행된 작업도 보여 주며,
+EOP를 통과하는 전자 메일 메시지를 추적합니다. 이를 통해 서비스에서 전자 메일 메시지를 수신, 거부, 지연 또는 배달했는지 여부를 확인할 수 있습니다. 또한 최종 상태에 도달하기 전에 메시지에 대해 수행된 작업도 보여 주며,
 
 이 정보를 사용하여 사용자의 질문에 효율적으로 답변하고, 메일 흐름 문제를 해결하고, 정책 변경의 유효성을 검사하고, 기술 지원에 도움을 요청해야 하는 필요성을 해결할 수 있습니다.
 
@@ -77,7 +77,7 @@ EOP를 통과하는 전자 메일 메시지를 추적합니다. 이를 통해 �
 
 ## <a name="audit-logging"></a>감사 로깅
 
-조직 관리자가 변경한 특정 내용을 추적합니다. 이러한 보고서를 사용하면 구성 문제를 해결하거나 보안 또는 규정 준수 관련 문제의 원인을 찾을 수 있습니다. [EOP에서 감사 보고서를 참조합니다.](auditing-reports-in-eop.md)
+조직 관리자가 변경한 특정 내용을 추적합니다. 이러한 보고서를 사용하면 구성 문제를 해결하거나 보안 또는 규정 준수 관련 문제의 원인을 찾을 수 있습니다. [EOP의 감사 보고서를 참조합니다.](auditing-reports-in-eop.md)
 
 ## <a name="reporting-and-message-trace-data-availability-and-latency"></a>보고 및 메시지 추적 데이터 사용 가능 여부 및 대기 시간
 
@@ -93,4 +93,4 @@ EOP를 통과하는 전자 메일 메시지를 추적합니다. 이를 통해 �
 |
 
 > [!NOTE]
-> 데이터 가용성 및 대기 시간은 관리 센터 또는 원격 PowerShell을 통해 요청 여부와는 동일합니다.
+> 데이터 가용성 및 대기 시간은 관리 센터 또는 원격 PowerShell을 통해 요청된 경우와 동일합니다.

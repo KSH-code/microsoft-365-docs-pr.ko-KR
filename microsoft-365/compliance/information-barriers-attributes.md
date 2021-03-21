@@ -13,45 +13,45 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c45a2733c1fa7cf6d05cff747a9cfcdba1b124cc
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: ee410bf455e770087da7999ad2019c17419a8e00
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126165"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919734"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>정보 장벽 정책의 속성
 
-Azure Active Directory의 특정 특성을 사용하여 사용자를 분할할 수 있습니다. 세그먼트가 정의되고 나면 이러한 세그먼트를 정보 장벽 정책에 대한 필터로 사용할 수 있습니다. 예를 들어 **Department를** 사용하여 조직 내의 부서별로 사용자 세그먼트를 정의할 수 있습니다(동시에 두 부서에 대해 한 직원이 일하지 않을 경우).
+Azure Active Directory의 특정 특성을 사용하여 사용자를 분할할 수 있습니다. 세그먼트가 정의되고 나면 이러한 세그먼트를 정보 장벽 정책에 대한 필터로 사용할 수 있습니다. 예를 들어 **Department를** 사용하여 조직 내의 부서별로 사용자 세그먼트를 정의할 수 있습니다(한 번의 직원이 두 부서에 동시에 작업하지 않을 경우).
 
 이 문서에서는 정보 장벽이 있는 특성을 사용하는 방법을 설명하고 사용할 수 있는 특성 목록을 제공합니다. 정보 장벽에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
 - [정보 장벽](information-barriers.md)
-- [Microsoft Teams의 정보 장벽에 대한 정책 정의](information-barriers-policies.md)
+- [Microsoft Teams에서 정보 장벽에 대한 정책 정의](information-barriers-policies.md)
 - [정보 장벽 정책 편집(또는 제거)](information-barriers-edit-segments-policies.md)
 
 ## <a name="how-to-use-attributes-in-information-barrier-policies"></a>정보 장벽 정책에서 특성을 사용하는 방법
 
-이 문서에 나열된 특성을 사용하여 사용자 세그먼트를 정의하거나 편집할 수 있습니다. 정의된 세그먼트는 정보 장벽 정책에서 매개 *변수(UserGroupFilter* [값)로 작용합니다.](information-barriers-policies.md)
+이 문서에 나열된 특성을 사용하여 사용자 세그먼트를 정의하거나 편집할 수 있습니다. 정의된 세그먼트는 정보 장벽 정책에서 매개 변수(UserGroupFilter 값이라고도 합니다.)  [](information-barriers-policies.md)
 
 1. 세그먼트를 정의하는 데 사용할 특성을 결정해야 합니다. (이 [문서의 참조](#reference) 섹션을 참조하세요.)
 
-2. 1단계에서 선택한 특성에 대해 사용자 계정에 값이 채워진지 확인 사용자 계정 세부 정보를 보고 필요한 경우 특성 값을 포함하도록 사용자 계정을 편집합니다. 
+2. 사용자 계정에 1단계에서 선택한 특성에 대해 값이 채워진지 확인 사용자 계정 세부 정보를 보고 필요한 경우 사용자 계정을 편집하여 특성 값을 포함합니다. 
 
-    - 여러 계정을 편집하거나 PowerShell을 사용하여 단일 계정을 편집하려면 [Office 365 PowerShell을](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)사용하여 사용자 계정 속성 구성을 참조하세요.
+    - 여러 계정을 편집하거나 PowerShell을 사용하여 단일 계정을 편집하려면 [Office 365 PowerShell을](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)사용하여 사용자 계정 속성 구성을 참조하세요.
 
     - 단일 계정을 편집하려면 Azure Active Directory를 사용하여 사용자의 프로필 정보 추가 또는 [업데이트를 참조하세요.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
-3. [다음 예제와 비슷한 PowerShell을](information-barriers-policies.md#define-segments-using-powershell)사용하여 세그먼트를 정의합니다.
+3. [다음 예제와 유사한 PowerShell을](information-barriers-policies.md#define-segments-using-powershell)사용하여 세그먼트를 정의합니다.
 
     |**예**|**Cmdlet**|
     |:----------|:---------|
     | Department 특성을 사용하여 Segment1이라는 세그먼트 정의 | `New-OrganizationSegment -Name "Segment1" -UserGroupFilter "Department -eq 'Department1'"` |
-    | MemberOf 특성을 사용하여 SegmentA라는 세그먼트를 정의합니다(이 특성에 "BlueGroup"과 같은 그룹 이름이 포함되어 있는 경우) | `New-OrganizationSegment -Name "SegmentA" -UserGroupFilter "MemberOf -eq 'BlueGroup'"` |
-    | ExtensionAttribute1을 사용하여 DayTraders라는 세그먼트를 정의합니다(이 특성에 "DayTrader"와 같은 직위가 포함되어 있는 경우) | `New-OrganizationSegment -Name "DayTraders" -UserGroupFilter "ExtensionAttribute1 -eq 'DayTrader'"` |
+    | MemberOf 특성을 사용하여 SegmentA라는 세그먼트를 정의합니다(이 특성에 "BlueGroup"과 같은 그룹 이름이 포함된 경우) | `New-OrganizationSegment -Name "SegmentA" -UserGroupFilter "MemberOf -eq 'BlueGroup'"` |
+    | ExtensionAttribute1을 사용하여 DayTraders라는 세그먼트를 정의합니다.(이 특성에 "DayTrader"와 같은 직위가 포함되어 있는 경우) | `New-OrganizationSegment -Name "DayTraders" -UserGroupFilter "ExtensionAttribute1 -eq 'DayTrader'"` |
 
     > [!TIP]
-    > 세그먼트를 정의할 때 모든 세그먼트에 대해 동일한 특성을 사용 합니다. 예를 들어 Department를 사용하여 일부 세그먼트를 정의하는 *경우 Department를* 사용하여 모든 세그먼트를 *정의합니다.* Department를 사용하여 일부 세그먼트를 정의하고 *MemberOf를* 사용하는 세그먼트는 *정의하지 않습니다.* 세그먼트가 겹치지 않는지 확인 각 사용자를 정확히 하나의 세그먼트에 할당해야 합니다.
+    > 세그먼트를 정의할 때 모든 세그먼트에 동일한 특성을 사용 합니다. 예를 들어 Department를 사용하여 일부 세그먼트를 정의하는 경우 *Department를* 사용하여 모든 세그먼트를 *정의합니다.* Department를 사용하여 일부 세그먼트를 정의하고 MemberOf를 사용하는 세그먼트는 *정의하지 않습니다.*  세그먼트가 겹치지 않는지 확인 각 사용자를 정확히 하나의 세그먼트에 할당해야 합니다.
 
 ## <a name="reference"></a>참조
 
@@ -96,6 +96,6 @@ Azure Active Directory의 특정 특성을 사용하여 사용자를 분할할 �
 
 ## <a name="resources"></a>리소스
 
-- [Microsoft Teams의 정보 장벽에 대한 정책 정의](information-barriers-policies.md)
+- [Microsoft Teams에서 정보 장벽에 대한 정책 정의](information-barriers-policies.md)
 - [정보 장벽 문제 해결](information-barriers-troubleshooting.md)
 - [정보 장벽](information-barriers.md)

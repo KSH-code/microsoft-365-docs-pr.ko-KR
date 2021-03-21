@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 도이치란드 Microsoft 클라우드에서 마이그레이션하기 위한 AD FS(Active Directory Federation Services) 마이그레이션 단계입니다.'
-ms.openlocfilehash: 852fc8f93158d7b6080f1add5a05e7367539f889
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 146f476a43e46925d87763a800467bf52adc73e5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838416"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918909"
 ---
 # <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 AD FS 마이그레이션 단계
 
@@ -89,7 +89,8 @@ AD FS 백업을 완료하고 테스트한 후 다음 단계를 수행하여 ADFS
 
 ## <a name="ad-fs-disaster-recovery-wid-database"></a>AD FS 재해 복구(WID 데이터베이스)
 
-재해 AD FS 신속 복원 도구에서 [AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) 팜을 복원하려면 활용해야 합니다. 따라서 도구를 다운로드하고 마이그레이션을 시작하기 전에 백업을 만들어 안전하게 저장해야 합니다. 이 예제에서는 WID 데이터베이스에서 실행되는 팜을 백업하기 위해 다음 명령을 실행했습니다.
+
+재해 AD FS 신속 복원 도구에서 [AD FS](/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) 팜을 복원하려면 활용해야 합니다. 따라서 도구를 다운로드하고 마이그레이션을 시작하기 전에 백업을 만들어 안전하게 저장해야 합니다. 이 예제에서는 WID 데이터베이스에서 실행되는 팜을 백업하기 위해 다음 명령을 실행했습니다.
 
 <h2 id="backup"></h2>
 
@@ -144,6 +145,6 @@ AD FS 백업을 완료하고 테스트한 후 다음 단계를 수행하여 ADFS
 
 클라우드 앱:
 
-- [Dynamics 365 마이그레이션 프로그램 정보](https://aka.ms/d365ceoptin)
-- [Power BI 마이그레이션 프로그램 정보](https://aka.ms/pbioptin)
-- [Microsoft Teams 업그레이드 시작하기](https://aka.ms/SkypeToTeams-Home)
+- [Dynamics 365 마이그레이션 프로그램 정보](/dynamics365/get-started/migrate-data-german-region)
+- [Power BI 마이그레이션 프로그램 정보](/power-bi/admin/service-admin-migrate-data-germany)
+- [Microsoft Teams 업그레이드 시작하기](/microsoftteams/upgrade-start-here)

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용하여 eDiscovery 관리자가 Microsoft 365에서 검색할 수 있는 사용자 콘텐츠 위치를 제어하는 논리적 경계를 만드는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: df582d46472bc7ca6d6e99e823ab94c0884d60a0
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 80f1c6705550d21ac54a0fb4dda2b605b497adbc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423899"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919504"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>eDiscovery 조사를 위한 준수 경계 설정
 
@@ -68,7 +68,7 @@ ID가 있는 Azure AD(Active Directory) 특성(1단계)을 사용자의 OneDrive
 
 - 사용자 사서함의 크기는 10MB 이상입니다. 사용자의 사서함이 10MB 미만이면 기관을 정의하는 데 사용되는 특성이 사용자의 OneDrive 계정에 동기화되지 않습니다.
 
-- 준수 경계 및 검색 권한 필터를 만드는 데 사용되는 특성을 사용하려면 Azure AD(Azure Active Directory) 특성을 사용자 사서함과 동기화해야 합니다. 사용하려는 특성이 동기화된지 확인하려는 경우 Exchange Online PowerShell에서 [Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user) cmdlet을 실행합니다. 이 cmdlet의 출력에는 Exchange Online에 동기화된 Azure AD 특성이 표시됩니다.
+- 준수 경계 및 검색 권한 필터를 만드는 데 사용되는 특성을 사용하려면 Azure AD(Azure Active Directory) 특성을 사용자 사서함과 동기화해야 합니다. 사용하려는 특성이 동기화된지 확인하려는 경우 Exchange Online PowerShell에서 [Get-User](/powershell/module/exchange/get-user) cmdlet을 실행합니다. 이 cmdlet의 출력에는 Exchange Online에 동기화된 Azure AD 특성이 표시됩니다.
 
 ## <a name="step-1-identify-a-user-attribute-to-define-your-agencies"></a>1단계: 기관을 정의하기 위한 사용자 특성 식별
 
@@ -87,7 +87,7 @@ ID가 있는 Azure AD(Active Directory) 특성(1단계)을 사용자의 OneDrive
 - C(2문자 국가 코드) <sup>*</sup>
 
   > [!NOTE]
-  > <sup>*</sup> 이 특성은 Exchange Online PowerShell에서 **Get-User** cmdlet을 실행하여 반환되는 CountryOrRegion 속성에 매핑됩니다. 이 cmdlet은 두 글자로 된 국가 코드에서 번역되는 지역화된 국가 이름을 반환합니다. 자세한 내용은 [Set-User](https://docs.microsoft.com/powershell/module/exchange/set-user) cmdlet 참조 문서의 CountryOrRegion 매개 변수 설명을 참조하세요.
+  > <sup>*</sup> 이 특성은 Exchange Online PowerShell에서 **Get-User** cmdlet을 실행하여 반환되는 CountryOrRegion 속성에 매핑됩니다. 이 cmdlet은 두 글자로 된 국가 코드에서 번역되는 지역화된 국가 이름을 반환합니다. 자세한 내용은 [Set-User](/powershell/module/exchange/set-user) cmdlet 참조 문서의 CountryOrRegion 매개 변수 설명을 참조하세요.
 
 더 많은 사용자 특성을 사용할 수 있습니다. 특히 Exchange 사서함의 경우 위에 나열된 특성만 현재 OneDrive에서 지원됩니다.
   
@@ -198,7 +198,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 ## <a name="searching-and-exporting-content-in-multi-geo-environments"></a>Multi-Geo 환경에서 콘텐츠 검색 및 내보내기
 
-검색 권한 필터를 사용하면 내보내기용 콘텐츠가 라우팅되는 위치와 [SharePoint Multi-Geo](https://go.microsoft.com/fwlink/?linkid=860840)환경에서 콘텐츠 위치를 검색할 때 검색할 수 있는 데이터 센터를 제어할 수도 있습니다.
+검색 권한 필터를 사용하면 내보내기용 콘텐츠가 라우팅되는 위치와 [SharePoint Multi-Geo](../enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md)환경에서 콘텐츠 위치를 검색할 때 검색할 수 있는 데이터 센터를 제어할 수도 있습니다.
   
 - **검색 결과 내보내기:** 특정 데이터 센터에서 Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 검색 결과를 내보낼 수 있습니다. 즉, 검색 결과를 내보낼 데이터 센터 위치를 지정할 수 있습니다.
 
@@ -267,7 +267,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 ## <a name="using-compliance-boundaries-for-sharepoint-hub-sites"></a>SharePoint 허브 사이트에 규정 준수 경계 사용
 
-[SharePoint 허브 사이트는](https://docs.microsoft.com/sharepoint/dev/features/hub-site/hub-site-overview) 종종 eDiscovery 규정 준수 경계가 따르는 동일한 지리적 또는 기관 경계에 맞게 조정됩니다. 즉, 허브 사이트의 사이트 ID 속성을 사용하여 준수 경계를 만들 수 있습니다. 이렇게하려면 SharePoint Online PowerShell에서 [Get-SPOHubSite](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spohubsite#examples) cmdlet을 사용하여 허브 사이트의 SiteId를 얻은 다음 부서 ID 속성에 이 값을 사용하여 검색 권한 필터를 만드면 됩니다.
+[SharePoint 허브 사이트는](/sharepoint/dev/features/hub-site/hub-site-overview) 종종 eDiscovery 규정 준수 경계가 따르는 동일한 지리적 또는 기관 경계에 맞게 조정됩니다. 즉, 허브 사이트의 사이트 ID 속성을 사용하여 준수 경계를 만들 수 있습니다. 이렇게하려면 SharePoint Online PowerShell에서 [Get-SPOHubSite](/powershell/module/sharepoint-online/get-spohubsite#examples) cmdlet을 사용하여 허브 사이트의 SiteId를 얻은 다음 부서 ID 속성에 이 값을 사용하여 검색 권한 필터를 만드면 됩니다.
 
 다음 구문을 사용하여 SharePoint 허브 사이트에 대한 검색 권한 필터를 만들 수 있습니다.
 

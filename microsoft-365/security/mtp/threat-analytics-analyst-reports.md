@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c82b0a84582d18f8b08b369ff76ba34046c40eba
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 96a4a8ae902f0b8e4767ea3fd42079322d661208
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727150"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918813"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics"></a>위협 분석의 분석 보고서 이해
 
@@ -35,7 +35,7 @@ ms.locfileid: "50727150"
 **적용 대상:**
 - Microsoft 365 Defender
 
-> Microsoft 365 Defender를 경험하고 싶나요? 랩 [환경에서 평가하거나](https://aka.ms/mtp-trial-lab) 프로덕션 [환경에서 파일럿](https://aka.ms/m365d-pilotplaybook)프로젝트를 실행할 수 있습니다.
+> Microsoft 365 Defender를 경험하고 싶나요? 랩 [환경에서 평가하거나](./mtp-evaluation.md?ocid=cx-docs-MTPtriallab) 프로덕션 [환경에서 파일럿](./mtp-pilot.md?ocid=cx-evalpilot)프로젝트를 실행할 수 있습니다.
 >
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
@@ -68,7 +68,7 @@ _위협 분석 보고서의 분석가 보고서 섹션_
 - _.lnk_ 첨부 파일 또는 기타 의심스러운 파일 형식이 있는 전자 메일 차단
 - 로컬 관리자 암호 임의로 설정
 - 최종 사용자에게 피싱 전자 메일 및 기타 위협 벡터 교육
-- 특정 공격 [표면 감소 규칙 켜기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction)
+- 특정 공격 [표면 감소 규칙 켜기](/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction)
 
 완화 탭을  사용하여 위협에 대한 보안 상태를 평가할 수 있는 반면, 이러한 권장 사항을 통해 보안 상태를 개선하기 위한 추가 단계를 취할 수 있습니다. 분석가 보고서의 모든 완화 지침을 신중하게 읽고 가능한 경우 적용합니다.
 
@@ -76,13 +76,13 @@ _위협 분석 보고서의 분석가 보고서 섹션_
 분석가 보고서는 끝점 바이러스 백신 및 끝점  감지 및 응답(EDR) 기능에 대한 Microsoft Defender의 검색 기능도 제공합니다.
 
 ### <a name="antivirus-detections"></a>바이러스 백신 검색
-이러한 검색은 [Microsoft Defender 바이러스](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 백신이 켜져 있는 장치에서 사용할 수 있습니다. 끝점용 Microsoft Defender에 온보딩된 장치에서 이러한 검색이 발생하면 보고서의 차트를 밝게 하는 경고도 트리거합니다.
+이러한 검색은 [Microsoft Defender 바이러스](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 백신이 켜져 있는 장치에서 사용할 수 있습니다. 끝점용 Microsoft Defender에 온보딩된 장치에서 이러한 검색이 발생하면 보고서의 차트를 밝게 하는 경고도 트리거합니다.
 
 >[!NOTE]
 >또한 분석가 보고서에는 추적된 위협과 관련한 구성 요소 또는 동작 외에도 광범위한 위협을 식별할 수 있는 일반 탐지가 나열됩니다.  이러한 일반 검색은 차트에 반영되지 않습니다.
 
 ### <a name="endpoint-detection-and-response-edr-alerts"></a>끝점 감지 및 응답(EDR) 경고
-끝점용 Microsoft Defender에 온보딩된 장치에 대해 EDR [경고가 발생했습니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboard-configure) 이러한 경고는 일반적으로 Microsoft Defender for Endpoint 센서 및 기타 끝점 기능(예: 바이러스 백신, 네트워크 보호, 변조 방지)에서 수집한 보안 신호와 강력한 신호 원본 역할을 합니다.
+끝점용 Microsoft Defender에 온보딩된 장치에 대해 EDR [경고가 발생했습니다.](/windows/security/threat-protection/microsoft-defender-atp/onboard-configure) 이러한 경고는 일반적으로 Microsoft Defender for Endpoint 센서 및 기타 끝점 기능(예: 바이러스 백신, 네트워크 보호, 변조 방지)에서 수집한 보안 신호와 강력한 신호 원본 역할을 합니다.
 
 바이러스 백신 검색 목록과 마찬가지로 일부 EDR 경고는 추적된 위협과 연결되지 않을 수 있는 의심스러운 동작에 일반적으로 플래그를 지정하도록 디자인됩니다. 이러한 경우 보고서는 경고를 "일반"으로 명확하게 식별하고 보고서의 차트에 영향을주지 않습니다.
 
@@ -100,10 +100,10 @@ Office 365용 Microsoft Defender의 전자 메일 관련 검색 및 완화는 �
 
 
 >[!NOTE]
-> 위협 분석은 [끝점용 Microsoft Defender에서도 사용할 수 있습니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) 그러나 Office용 Microsoft Defender와 Microsoft 365 Defender 위협 분석에서 제공하는 끝점용 Microsoft Defender 간의 데이터 통합은 없습니다.
+> 위협 분석은 [끝점용 Microsoft Defender에서도 사용할 수 있습니다.](/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) 그러나 Office용 Microsoft Defender와 Microsoft 365 Defender 위협 분석에서 제공하는 끝점용 Microsoft Defender 간의 데이터 통합은 없습니다.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [위협 분석 개요](threat-analytics.md)
 - [고급 헌팅을 통해 위협을 사전 대응적으로 찾기](advanced-hunting-overview.md) 
 - [사용자 지정 검색 규칙](custom-detection-rules.md)

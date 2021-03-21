@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 774f03ebbf12a8bfbf4e2409735352b83e6963aa
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: a5eab2aaecd3d0c339fdc2e58af17dcfd9feb199
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421545"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919884"
 ---
 # <a name="learn-about-communication-compliance-in-microsoft-365"></a>Microsoft 365의 통신 규정 준수에 대한 자세한 정보
 
@@ -38,6 +38,13 @@ Microsoft 365의 커뮤니케이션 규정 준수 정책은 규정 준수 및 �
 - 규제 적용 및 벌금의 위험
 
 또한 IT 관리자와 규정 준수 관리 팀 간에 업무가 분리될 수 있습니다. 커뮤니케이션 규정 준수는 정책 구성과 메시지 조사 및 검토의 구분을 지원합니다. 예를 들어 조직의 IT 그룹은 통신 준수 역할 권한, 그룹 및 정책 설정과 조사자 및 검토자는 메시지 심사, 검토 및 완화 작업을 담당할 수 있습니다.
+
+통신 규정 준수를 위한 최신 Ignite 프레젠테이션은 다음 비디오를 참조하세요.
+
+- [커뮤니케이션 규정 준수를 통해 안전 및 포괄 문화를 육성](https://www.youtube.com/watch?v=oLVzxcaef3w)
+- [조직 내에서 통신 위험을 줄이는 방법에 대해 자세히 알아보기](https://www.youtube.com/watch?v=vzARb1YaxGo)
+- [통신 규정 준수를 통해 규정 준수 요구 사항 이행](https://www.youtube.com/watch?v=gagOhtCBfgU)
+- [Microsoft Teams를 통해 더 나은 기능 - 커뮤니케이션 규정 준수의 최신 네이티브 Teams 통합 기능에 대해 자세히 알아보기](https://www.youtube.com/watch?v=m4jukD5Fh-o)
 
 통신 규정 준수에 대한 간략한 개요는 [Microsoft Mechanics](https://www.youtube.com/user/OfficeGarageSeries)채널의 [Microsoft 365에서](https://youtu.be/z33ji7a7Zho) 직장 괴롭혔습니다 감지 및 커뮤니케이션 규정 준수로 응답 비디오를 참조하세요.
 

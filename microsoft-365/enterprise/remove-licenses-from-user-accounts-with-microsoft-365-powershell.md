@@ -19,35 +19,35 @@ ms.custom:
 - LIL_Placement
 - O365ITProTrain
 ms.assetid: e7e4dc5e-e299-482c-9414-c265e145134f
-description: PowerShell을 사용하여 이전에 사용자에게 할당된 Microsoft 365 라이선스를 제거하는 방법을 설명 합니다.
-ms.openlocfilehash: 8ae7ca1013e26a60f16177f2dab7ced4cc8b97a8
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+description: PowerShell을 사용하여 이전에 사용자에게 할당된 Microsoft 365 라이선스를 제거하는 방법에 대해 설명
+ms.openlocfilehash: 9944d1ab056d109b6bf71a44fe01acef78ce1f14
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289596"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920671"
 ---
 # <a name="remove-microsoft-365-licenses-from-user-accounts-with-powershell"></a>PowerShell을 사용하여 사용자 계정에서 Microsoft 365 라이선스 제거
 
 *이 문서는 Microsoft 365 Enterprise와 Office 365 Enterprise에 모두 적용됩니다.*
 
 >[!Note]
->Microsoft 365 관리 [센터를](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users) 사용하여 사용자 계정에서 라이선스를 제거하는 방법을 학습합니다. 추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/add-users/)
+>Microsoft 365 관리 [센터를](../admin/manage/remove-licenses-from-users.md) 사용하여 사용자 계정에서 라이선스를 제거하는 방법을 학습합니다. 추가 리소스 목록은 사용자 및 그룹 [관리를 참조하세요.](../admin/add-users/index.yml)
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Graph 모듈용 Azure Active Directory PowerShell 사용하기
 
 먼저 [Microsoft 365 테넌트에 연결합니다.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
-다음으로, 이 명령을 사용하여 테넌트의 라이선스 계획을 나열합니다.
+다음으로, 이 명령을 사용하여 테넌트에 대한 라이선스 계획을 나열합니다.
 
 ```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
-다음으로 라이선스를 제거할 계정의 로그인 이름을 UPN(사용자 계정 이름)이라고도 합니다.
+그런 다음 라이선스를 제거할 계정의 로그인 이름을 UPN(사용자 계정 이름)이라고도 합니다.
 
-마지막으로 사용자 로그인 및 라이선스 계획 이름을 지정하고 ,"<" 및 ">" 문자를 제거한 다음 다음 명령을 실행합니다.
+마지막으로 사용자 로그인 및 라이선스 계획 이름을 지정하고 "<" 및 ">" 문자를 제거한 다음 이러한 명령을 실행합니다.
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
@@ -110,7 +110,7 @@ Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "
 ```
 
 >[!Note]
->이 cmdlet을 사용하여 취소된 라이선스에서 사용자를 `Set-MsolUserLicense` 예약 *취소할* 수는 없습니다. Microsoft 365 관리 센터의 각 사용자 계정에 대해 개별적으로 이 작업을 해야 합니다.
+>이 cmdlet을 사용하여 취소된 라이선스에서 사용자를 `Set-MsolUserLicense` 배포 *취소할* 수는 없습니다. Microsoft 365 관리 센터의 각 사용자 계정에 대해 개별적으로 이 작업을 해야 합니다.
 >
 
 기존 라이선스 사용자 그룹에서 모든 라이선스를 제거하려면 다음 방법 중 하나를 사용 합니다.
@@ -154,7 +154,7 @@ kakers@contoso.com
   Set-MsolUserLicense -UserPrincipalName $x[$i] -RemoveLicenses "<AccountSkuId1>","<AccountSkuId2>"...
   }
   ```
-이 예에서는 텍스트 파일 C:\My Documents\Accounts.txt에 정의된 사용자 계정에서 **litwareinc:ENTERPRISEPACK(Office** 365 Enterprise E3) 라이선스를 Documents\Accounts.txt.
+이 예에서는 텍스트 파일 C:\My Documents\Accounts.txt.에 정의된 사용자 계정에서 **litwareinc:ENTERPRISEPACK(Office** 365 Enterprise E3) 라이선스를 Documents\Accounts.txt.
     
   ```powershell
   $x=Get-Content "C:\My Documents\Accounts.txt"
@@ -174,7 +174,7 @@ Set-MsolUserLicense -UserPrincipalName $userArray[$i].UserPrincipalName -RemoveL
 }
 ```
 
-라이선스를 회수하는 또 다른 방법은 사용자 계정을 삭제하는 것입니다. 자세한 내용은 PowerShell을 통해 사용자 계정 삭제 및 [복원을 참조하세요.](delete-and-restore-user-accounts-with-microsoft-365-powershell.md)
+라이선스를 회수하는 또 다른 방법은 사용자 계정을 삭제하는 것입니다. 자세한 내용은 [PowerShell을 통해 사용자 계정](delete-and-restore-user-accounts-with-microsoft-365-powershell.md)삭제 및 복원을 참조하세요.
   
 ## <a name="see-also"></a>참고 항목
 
@@ -183,4 +183,3 @@ Set-MsolUserLicense -UserPrincipalName $userArray[$i].UserPrincipalName -RemoveL
 [PowerShell로 Microsoft 365 관리](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Microsoft 365 용 PowerShell 시작](getting-started-with-microsoft-365-powershell.md)
-

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 보안을 위한 고유한 민감도 레이블이 있는 팀을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 5ddd42f9e2f2779ca6bf864554140a3f18d2cdea
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 2ecd8e0458f6ebef9ebd1b0c3724195cc70f6378
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405705"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920931"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>보안 격리를 사용하여 팀 구성하기
 
@@ -40,7 +40,7 @@ ms.locfileid: "50405705"
     - 레이블이 적용된 문서를 암호화합니다.
 
 > [!IMPORTANT]
-> 이 문서의 단계를 진행하기 전에 [Microsoft Teams, Office 365 그룹 및 SharePoint 사이트에서 콘텐츠를 보호할 수 있도록 민감도 레이블](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)을 사용하도록 설정했는지 확인하세요.
+> 이 문서의 단계를 진행하기 전에 [Microsoft Teams, Office 365 그룹 및 SharePoint 사이트에서 콘텐츠를 보호할 수 있도록 민감도 레이블](../compliance/sensitivity-labels-teams-groups-sites.md)을 사용하도록 설정했는지 확인하세요.
 
 이 비디오를 시청하고 배포 프로세스에 대한 개요를 확인하세요.
 <br>
@@ -70,8 +70,8 @@ Contoso Corporation이 극비 프로젝트에 보안 팀을 사용한 방법을 
 
 게스트와 안전하게 공유하는 방법에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
-- [파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출 제한하기](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure)
-- [보안 게스트 공유 환경 만들기](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+- [파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출 제한하기](./share-limit-accidental-exposure.md)
+- [보안 게스트 공유 환경 만들기](./create-secure-guest-sharing-environment.md)
 
 게스트 공유를 허용하거나 차단하기 위해 나중에 설명할 팀의 민감도 레이블과 연결된 SharePoint 사이트의 사이트 수준 공유 제어를 조합해서 사용합니다.
 
@@ -98,7 +98,7 @@ Contoso Corporation이 극비 프로젝트에 보안 팀을 사용한 방법을 
 2. **설정** 탭에서 **구성원 사용 권한** 을 확장합니다.
 3. **구성원이 비공개 채널을 만들 수 있도록 허용** 확인란을 선택 취소합니다.
 
-[팀 정책](https://docs.microsoft.com/MicrosoftTeams/teams-policies)을 사용하여 비공개 채널을 만들 수 있는 사용자를 제어할 수도 있습니다.
+[팀 정책](/MicrosoftTeams/teams-policies)을 사용하여 비공개 채널을 만들 수 있는 사용자를 제어할 수도 있습니다.
 
 ## <a name="create-a-sensitivity-label"></a>민감도 레이블 만들기
 
@@ -194,7 +194,7 @@ SharePoint에서 수행해야 하는 세 단계는 다음과 같습니다.
 
 #### <a name="private-channels"></a>비공개 채널
 
-팀에 비공개 채널을 추가하면 각 비공개 채널이 기본 공유 설정을 포함하는 새 SharePoint 사이트를 만듭니다. 이러한 사이트는 SharePoint 관리 센터에 표시되지 않으므로 다음 매개 변수와 함께 [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet을 사용하여 게스트 공유 설정을 업데이트해야 합니다.
+팀에 비공개 채널을 추가하면 각 비공개 채널이 기본 공유 설정을 포함하는 새 SharePoint 사이트를 만듭니다. 이러한 사이트는 SharePoint 관리 센터에 표시되지 않으므로 다음 매개 변수와 함께 [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) PowerShell cmdlet을 사용하여 게스트 공유 설정을 업데이트해야 합니다.
 
 - 게스트 공유를 해제하려면 `-SharingCapability Disabled`(기본적으로 켜져 있음)
 - 기본 공유 링크를 *특정 사용자* 로 변경하려면 `-DefaultSharingLinkType Internal`
@@ -229,10 +229,10 @@ SharePoint에서 수행해야 하는 세 단계는 다음과 같습니다.
 
 Microsoft 365에서는 콘텐츠를 보호하기 위한 추가 방법을 제공합니다. 다음 옵션이 조직의 보안을 개선하는 데 도움이 되는지 고려해 보세요.
 
-- 게스트 사용자가 [사용 약관](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use)에 동의하도록 합니다.
-- 게스트 사용자에 대한 [세션 시간 초과 정책](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)을 구성합니다.
-- [중요한 정보 유형](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types)을 만들고 [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)를 사용하여 중요한 정보에 액세스하는 방법에 대한 정책을 설정합니다.
-- [Azure Active Directory 액세스](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview) 검토를 사용하여 팀 액세스 및 구성원을 주기적으로 검토합니다.
+- 게스트 사용자가 [사용 약관](/azure/active-directory/conditional-access/terms-of-use)에 동의하도록 합니다.
+- 게스트 사용자에 대한 [세션 시간 초과 정책](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)을 구성합니다.
+- [중요한 정보 유형](../compliance/sensitive-information-type-learn-about.md)을 만들고 [데이터 손실 방지](../compliance/data-loss-prevention-policies.md)를 사용하여 중요한 정보에 액세스하는 방법에 대한 정책을 설정합니다.
+- [Azure Active Directory 액세스](/azure/active-directory/governance/access-reviews-overview) 검토를 사용하여 팀 액세스 및 구성원을 주기적으로 검토합니다.
 
 ## <a name="drive-user-adoption-for-team-members"></a>팀 구성원을 위한 사용자 채택 유도하기
 
@@ -266,4 +266,4 @@ Microsoft 365에서는 콘텐츠를 보호하기 위한 추가 방법을 제공�
 
 ## <a name="see-also"></a>기타 참고 항목
 
-[Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)
+[Azure AD Privileged Identity Management](/azure/active-directory/privileged-identity-management/pim-configure)

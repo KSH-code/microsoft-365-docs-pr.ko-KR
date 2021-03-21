@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 최신 릴리스를 배포하는 조직에서 Windows 10과 Microsoft 365 앱용 채널을 사용하는 방법입니다.
-ms.openlocfilehash: fd1d8ddd342b2781470378c879ef70d2ba304316
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 29bda1651a83f0e043cf8a0d2a102c6c2e461bfd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686169"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919077"
 ---
 # <a name="example-of-broad-deployment-for-the-latest-releases"></a>최신 릴리스에 대한 광범위한 배포 예제
 
@@ -61,7 +61,7 @@ ms.locfileid: "46686169"
 
 전반적인 목표는 대표 사용자 그룹과 사용자의 장치 그룹에 의한 릴리스 미리 보기 채널 변경 사항의 유효성을 확인한 후 최신 반기 채널 릴리스를 광범위하게 배포하는 것입니다.
 
-Windows 10 배포 방법 및 전략에 대한 자세한 내용은 [Windows 10 배포](https://docs.microsoft.com/windows/deployment/)를 참조하세요.
+Windows 10 배포 방법 및 전략에 대한 자세한 내용은 [Windows 10 배포](/windows/deployment/)를 참조하세요.
 
 | 단계 | 채널 | 배포 그룹 |
 |:-------|:-------|:-----|
@@ -85,7 +85,7 @@ Windows 10 배포 방법 및 전략에 대한 자세한 내용은 [Windows 10 �
 
 전반적인 목표는 대표 사용자 그룹과 사용자의 장치 그룹에 의한 현재 채널(미리 보기) 변경 사항의 유효성을 확인한 후 현재 채널(미리 보기) 릴리스를 광범위하게 배포하는 것입니다.
 
-Microsoft 365 앱 배포 방법 및 전략에 대한 자세한 내용은 [Microsoft 365 앱 배포](https://docs.microsoft.com/deployoffice/plan-office-365-proplus)를 참조하세요.
+Microsoft 365 앱 배포 방법 및 전략에 대한 자세한 내용은 [Microsoft 365 앱 배포](/deployoffice/plan-office-365-proplus)를 참조하세요.
 
 | 단계 | 채널 | 배포 그룹 |
 |:-------|:-------|:-----|
