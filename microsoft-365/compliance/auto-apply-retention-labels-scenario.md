@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 메타데이터를 사용하여 내용을 분류하고 레이블을 자동으로 적용하며 이벤트 기반 보존을 사용하여 보존 기간을 시작하여 SharePoint 에서 문서의 라이프사이클을 관리하는 방법입니다.
-ms.openlocfilehash: 5962b02468b31dda247d03807ef184955c53b83c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6c58658378fd0def9a56783e7b8b35db3323b135
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907860"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034217"
 ---
 # <a name="use-retention-labels-to-manage-the-lifecycle-of-documents-stored-in-sharepoint"></a>보존 레이블로 SharePoint에 저장된 문서의 수명 주기 관리
 
@@ -269,7 +269,7 @@ KQL 쿼리를 올바른 보존 레이블을 제품 문서 내용에 자동으로
 
 **관리 기록** > **이벤트** 로 이동하여 Microsoft 365 규정 준수 센터에서 수동으로 이벤트를 생성할 수 있습니다. 이벤트 유형을 선택하고 올바른 자산 ID를 설정한 다음 이벤트 날짜를 입력합니다. 자세한 내용은 [이벤트가 발생할 때 보존 시작하기](event-driven-retention.md)를 참조하세요.
 
-그러나 이 시나리오에서는 외부 프로덕션 시스템에서 이벤트를 자동으로 생성합니다. 시스템은 제품이 생산 중인지 여부를 나타내는 단순한 SharePoint 목록입니다. 목록과 연결된 [전원 자동화](/flow/getting-started) 흐름이 이벤트를 트리거합니다. 실제 시나리오에서는 다양한 시스템을 사용하여 HR 또는 CRM 시스템과 같은 이벤트를 생성할 수 있습니다. Power Automation에는 Microsoft Exchange, SharePoint, Teams 및 Dynamics 365와 같은 Microsoft 365 워크로드에 대한 많은 사용 가능한 상호 작용 및 구성 요소와 Twitter, Box, Salesforce 및 Workday와 같은 타사 앱이 포함되어 있습니다. 이 기능을 통해 다양한 시스템과 손쉽게 Power Automation을 통합할 수 있습니다. 자세한 내용은 [이벤트 기반 보존의 자동화](./event-driven-retention.md#automate-events-by-using-a-rest-apiautomate-events-by-using-a-rest-api)를 참조하세요.
+그러나 이 시나리오에서는 외부 프로덕션 시스템에서 이벤트를 자동으로 생성합니다. 시스템은 제품이 생산 중인지 여부를 나타내는 단순한 SharePoint 목록입니다. 목록과 연결된 [전원 자동화](/flow/getting-started) 흐름이 이벤트를 트리거합니다. 실제 시나리오에서는 다양한 시스템을 사용하여 HR 또는 CRM 시스템과 같은 이벤트를 생성할 수 있습니다. Power Automation에는 Microsoft Exchange, SharePoint, Teams 및 Dynamics 365와 같은 Microsoft 365 워크로드에 대한 많은 사용 가능한 상호 작용 및 구성 요소와 Twitter, Box, Salesforce 및 Workday와 같은 타사 앱이 포함되어 있습니다. 이 기능을 통해 다양한 시스템과 손쉽게 Power Automation을 통합할 수 있습니다. 자세한 내용은 [이벤트 기반 보존의 자동화](./event-driven-retention.md#automate-events-by-using-a-rest-api)를 참조하세요.
 
 다음 스크린샷은 이벤트를 트리거하는 데 사용되는 SharePoint 목록을 보여줍니다.
 

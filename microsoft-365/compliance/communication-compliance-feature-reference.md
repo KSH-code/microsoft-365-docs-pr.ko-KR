@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 48cc75276e4e3791fa16520df5a4c392c23a0cd5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 298300de8581d3eea185f05b92bb69cb6e7a69eb
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919914"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034207"
 ---
 # <a name="communication-compliance-feature-reference"></a>커뮤니케이션 규정 준수 기능 참조
 
@@ -50,7 +50,7 @@ Microsoft 365 규정 준수 센터에서 Microsoft 365 조직에 대한 통신 �
 
 통신은 정책이 만들어진 시간부터 24시간마다 검색됩니다. 예를 들어 오전 11시에 공격적인 언어 정책을 만드는 경우 정책은 매일 오전 11시에 24시간마다 통신 준수 신호를 수집합니다. 이번에는 정책을 편집해도 변경되지 않습니다. 정책에 대한 마지막 검사 날짜 및 시간을 표시하기 위해 정책 페이지의 마지막 정책 *검사* **열로 이동합니다.** 새 정책을 만들고 나면 첫 번째 정책 검사 날짜 및 시간을 보는 데 최대 24시간이 걸릴 수 있습니다. 마지막 검사의 날짜와 시간이 로컬 시스템의 표준 시간대로 변환됩니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
 >[!Important]
 >기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 이 단계에서 할당된 역할은 통신 준수 기능에 액세스하기 전에 필요합니다.
@@ -78,7 +78,7 @@ Microsoft 365 규정 준수 센터에서 Microsoft 365 조직에 대한 통신 �
 - 관리 검토 관리자
 - 사례 관리
 - 준수 관리자
-- Review
+- 검토
 
 새 역할 그룹 구조에 대한 이러한 사용자에 대한 역할을 업데이트하고 사용자에 대한 액세스 및 관리 권한을 분리하려면 다음과 같은 세 개의 새 그룹과 연결된 새 역할 그룹 할당을 고려할 수 있습니다.
 
@@ -237,7 +237,7 @@ OCR을 사용하는 정책에 대해 보류 중인 경고를 검토할 때 식�
 입력하는 각 단어와 콤보로 구분하는 단어는 개별적으로 적용됩니다(정책 조건이 전자 메일 또는 첨부 파일에 적용하려면 한 단어만 적용되어야 합니다). 예를 들어 **다음** 단어가 메시지에 포함된 조건과 키워드 "banker", "confidential" 및 "insider trading"를 각 MA(은행원, 기밀, "내부자 거래")로 구분하여 사용해 보겠습니다. 이 정책은 "은행원", "기밀" 또는 "내부자 거래" 구를 포함하는 모든 메시지에 적용됩니다. 이 정책 조건을 적용하려면 이러한 단어 또는 구 중 하나만 발생해야 합니다. 메시지 또는 첨부 파일에 있는 단어는 입력한 단어와 정확히 일치해야 합니다.
 
 >[!IMPORTANT]
->사용자 지정 사전 파일을 가져올 때 각 단어나 구는 캐리지 리턴과 별도의 줄로 구분해야 합니다. <br> 예를 들어 다음과 같습니다. <br><br>
+>사용자 지정 사전 파일을 가져올 때 각 단어나 구는 캐리지 리턴과 별도의 줄로 구분해야 합니다. <br> 예: <br><br>
 >*banker* <br>
 >*confidential* <br>
 >*내부자 거래*
@@ -527,6 +527,21 @@ Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType Disco
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionRuleMatch 
 ```
 
+통신 준수 정책 일치는 각 정책에 대한 감독 사서함에 저장됩니다. 경우에 따라 감독 사서함의 크기를 확인하여 현재 50GB 제한에 도달하지 않는지 확인할 수 있습니다. 사서함 제한에 도달하면 정책 일치가 캡처되지 않습니다. 동일한 설정으로 새 정책을 만들어 동일한 활동에 대한 일치를 계속 캡처해야 합니다.
+
+정책에 대한 감독 사서함의 크기를 확인한 후 다음을 완료합니다.
+
+1. Exchange Online PowerShell V2 모듈의 [Connect-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline) cmdlet을 사용하여 최신 인증을 사용하여 Exchange Online PowerShell에 연결합니다.
+2. PowerShell에서 다음을 실행합니다.
+
+    ```PowerShell
+    ForEach ($p in Get-SupervisoryReviewPolicyV2 | Sort-Object Name) 
+    {
+       "<Name of your communication compliance policy>: " + $p.Name
+       Get-MailboxStatistics $p.ReviewMailbox | ft ItemCount,TotalItemSize
+    }
+    ```
+
 ## <a name="transitioning-from-supervision-in-office-365"></a>Office 365에서 감독에서 전환
 
 Office 365에서 감독 정책을 사용하는 조직은 즉시 Microsoft 365의 통신 준수 정책으로 전환할 계획을 세우고 이러한 중요한 지점을 이해해야 합니다.
@@ -537,6 +552,6 @@ Office 365에서 감독 정책을 사용하는 조직은 즉시 Microsoft 365의
 
 Office 365의 관리에 대한 사용 중지 정보는 자세한 내용은 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap) 참조하세요.
 
-## <a name="ready-to-get-started"></a>시작할 준비가 되나요?
+## <a name="ready-to-get-started"></a>시작할 준비가 되셨나요?
 
 Microsoft 365 조직에 대한 통신 규정 준수를 구성하기 위해 Microsoft 365 조직에 대한 통신 [규정 준수 구성을 참조합니다.](communication-compliance-configure.md)

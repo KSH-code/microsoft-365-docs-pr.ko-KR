@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Microsoft 365 eDiscovery 도구가 전자 메일 메시지에 첨부되고 SharePoint Online 및 비즈니스용 OneDrive에 저장된 암호화된 문서를 처리하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 4ddc66d595b9d2129a7ba1b75e69586ccbd130f7
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: ad7ee9816e83caa49e437e1723655162a44c93fa
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423821"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034071"
 ---
 # <a name="decryption-in-microsoft-365-ediscovery-tools"></a>Microsoft 365 eDiscovery 도구의 암호 해독
 
@@ -29,7 +29,7 @@ ms.locfileid: "50423821"
 
 암호화된 콘텐츠에 대한 일반적인 eDiscovery 작업을 실행하려면 eDiscovery 관리자가 콘텐츠 검색, 핵심 eDiscovery 사례 및 Advanced eDiscovery 사례에서 내보낼 때 전자 메일 메시지 콘텐츠의 암호를 해독해야 합니다. Microsoft 암호화 기술로 암호화된 콘텐츠는 내보낼 때까지 검토할 수 없습니다.
 
-eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수 있도록 Microsoft 365 eDiscovery 도구에는 이제 전자 메일 메시지에 첨부되고 Exchange Online에서 전송되는 암호화된 파일의 암호 해독이 통합되어 있습니다. 또한 SharePoint Online 및 비즈니스용 OneDrive에 저장된 암호화된 문서는 Advanced eDiscovery에서 암호 해독됩니다. 
+eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수 있도록 Microsoft 365 eDiscovery 도구에는 이제 전자 메일 메시지에 첨부되고 Exchange Online에서 전송되는 암호화된 파일의 암호 해독이 통합되어 있습니다. 또한 SharePoint Online 및 비즈니스용 OneDrive에 저장된 암호화된 문서는 Advanced eDiscovery에서 암호 해독됩니다.
 
 이 새로운 기능 이전에는 권한 관리(및 첨부되지 않은 파일)로 보호된 전자 메일 메시지의 콘텐츠만 암호 해독했습니다. SharePoint 및 OneDrive의 암호화된 문서는 eDiscovery 워크플로 중에 암호를 해독할 수 없습니다. 이제 Microsoft 암호화 기술로 암호화된 파일이 전자 메일 메시지에 첨부되거나 SharePoint 또는 OneDrive 계정에 있는 경우 검색 결과가 미리 보기를 준비하고 Advanced eDiscovery의 검토 집합에 추가되고 내보내면 암호화된 항목의 암호가 해독됩니다. 이를 통해 eDiscovery 관리자는 검색 결과를 미리 볼 때 암호화된 전자 메일 첨부 파일 및 사이트 문서의 콘텐츠를 보고 Advanced eDiscovery의 검토 집합에 추가된 후 검토할 수 있습니다.
 
@@ -39,7 +39,7 @@ Microsoft eDiscovery 도구는 Microsoft 암호화 기술로 암호화된 항목
 
 ## <a name="ediscovery-activities-that-support-encrypted-items"></a>암호화된 항목을 지원하는 eDiscovery 활동
 
-다음 표에서는 SharePoint 및 OneDrive에서 전자 메일 주소 및 암호화된 문서에 첨부된 암호화된 파일에 대해 Microsoft 365 eDiscovery 도구에서 수행할 수 있는 지원되는 작업을 설명합니다. 이러한 지원되는 작업은 검색 조건과 일치하는 암호화된 파일에 대해 수행할 수 있습니다. 값이면 해당 eDiscovery 도구에서 기능을 사용할 `N/A` 수 없습니다.
+다음 표에서는 전자 메일 메시지에 첨부된 암호화된 파일 및 SharePoint 및 OneDrive의 암호화된 문서에 대해 Microsoft 365 eDiscovery 도구에서 수행할 수 있는 지원되는 작업을 설명합니다. 이러한 지원되는 작업은 검색 조건과 일치하는 암호화된 파일에 대해 수행할 수 있습니다. 값이면 해당 eDiscovery 도구에서 기능을 사용할 `N/A` 수 없습니다.
 
 |eDiscovery 작업  |콘텐츠 검색  |핵심 eDiscovery  |Advanced eDiscovery  |
 |:---------|:---------|:---------|:---------|

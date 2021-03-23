@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 1e6642113ddba9c9110a65e9032ec59db435ac7f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ee4f18342304cf46f97a6ae7aa6e1ba76685bccd
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919864"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994620"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>내부자 위험 관리 설정 시작
 
@@ -217,7 +217,7 @@ Endpoint용 Defender의 경고는 매일 가져오기됩니다. 선택한 Triage
     - 파일, 폴더, 외부 도메인과 공유되는 사이트
     - 외부 도메인에 업로드된 파일(Microsoft Edge 브라우저 사용)
 
-    설정에서 허용되는 도메인을 지정하면 이러한 도메인에 대한 이 활동은 내부 조직 활동이 처리되는 방식과 유사하게 처리됩니다. 예를 들어 여기에 추가된 도메인은 조직 외부의 사용자와 콘텐츠를 공유하는 작업(예: 주소가 있는 사람에게 전자 메일을 보내는 경우)에 gmail.com 수 있습니다. SharePoint 사이트를 허용된 도메인으로 포함할 수 없습니다. 
+    설정에서 허용되는 도메인을 지정하면 이러한 도메인에 대한 이 활동은 내부 조직 활동이 처리되는 방식과 유사하게 처리됩니다. 예를 들어 여기에 추가된 도메인은 조직 외부의 사용자와 콘텐츠를 공유하는 작업(예: 주소가 있는 사람에게 전자 메일을 보내는 경우)에 gmail.com 수 있습니다.
 
 - **타사 도메인:** 조직에서 비즈니스 목적으로 타사 도메인을 사용하는 경우(예: 클라우드 저장소) 장치 표시기와 관련된 활동에 대한 알림을 받을 수 있도록 여기에 해당 도메인을 포함합니다. 브라우저를 사용하여 타사 사이트에서 콘텐츠를 *다운로드합니다.*
 
