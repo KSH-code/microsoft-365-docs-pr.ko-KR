@@ -19,8 +19,6 @@
           href: customize-booking-page.md
         - name: 수동 예약 만들기
           href: create-a-manual-booking.md
-        - name: 업무 종료 및 휴식 시간 예약
-          href: schedule-closures-time-off-vacation.md
         - name: 직원 시간
           href: employee-hours.md
         - name: 예약 페이지에 사용자 정의 및 필수 질문 추가
