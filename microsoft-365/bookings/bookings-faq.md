@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Microsoft Bookings에 대한 질문과 대답
-ms.openlocfilehash: c7bf14c35626eeeec781f6a9f45769e0ead1730e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d357ae83d7fe6fdd9f3d0bff724b037e82a3f5d0
+ms.sourcegitcommit: 1df94f04f138ccf1a2356d26174335c44de7052b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913829"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50999532"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Microsoft Bookings 질문과 대답
 
@@ -37,7 +37,7 @@ Bookings는 온라인 서비스로, 다운로드할 필요가 없습니다. Micr
 
 ### <a name="how-do-i-change-a-bookable-attribute-under-manage-staff"></a>직원 관리에서 예약 가능한 특성을 변경하는 방법
 
-직원 구성원이 추가된 경우 요청을 수락하거나 거부할 전자 메일을 받았을 것입니다. 동일한 전자 메일을 열고 "거부"를 선택하여 예약할 수 없습니다. 현재 앱 내부에서 전환할 방법이 없습니다.
+직원 구성원이 추가된 경우 요청을 수락하거나 거부할 전자 메일을 받았을 것입니다. 동일한 전자 메일을 열고 "거부"를 선택하여 예약할 수 없는 전자 메일을 만들 수 있습니다. 현재 앱 내부에서 전환할 방법이 없습니다.
 
 ### <a name="how-do-end-users-access-the-bookings-app"></a>최종 사용자가 Bookings 앱에 액세스하는 방법
 
@@ -65,7 +65,7 @@ OWA 사서함 정책을 사용하여 Bookings에 대한 액세스를 사용하�
 
 ### <a name="is-all-the-functionality-of-the-original-bookings-web-app-available-in-microsoft-teams"></a>Microsoft Teams에서 원래 Bookings 웹앱의 모든 기능을 사용할 수 있나요?
 
-이제 Teams에서 경량 버전의 Bookings를 앱으로 사용할 수 있습니다. 여기에서 초기 공지 사항을 [찾아 주세요.](https://www.microsoft.com/microsoft-365/blog/2020/03/06/empowering-care-teams-with-new-tools-in-microsoft-365/) 웹앱에 딥 링크 기능이 제공될 수 있으며, 설치 후 Teams를 종료하지 않고도 Bookings를 매일 사용할 수 있습니다. 플랫폼 전반의 정보 흐름
+이제 Teams에서 경량 버전의 Bookings를 앱으로 사용할 수 있습니다. 초기 공지는 [입니다.](https://www.microsoft.com/microsoft-365/blog/2020/03/06/empowering-care-teams-with-new-tools-in-microsoft-365/) 웹앱에 딥 링크 기능이 제공될 수 있으며, 설치 후 Teams를 종료하지 않고도 Bookings를 매일 사용할 수 있습니다. 플랫폼 전반의 정보 흐름
 
 ### <a name="is-bookings-a-small-business-offering-or-an-enterprise-offering-or-both"></a>Bookings a small business offering or an Enterprise offering or both?
 
@@ -144,11 +144,11 @@ E1/F1/F3 라이선스가 있는 직원 또는 라이선스가 없는 직원은 �
 
 Bookings 웹앱을 통해 약속이 이미 예약된 경우 스토어 직원도 Bookings에서 사용할 수 없음으로 표시됩니다. Bookings를 통해 예약한 약속은 Bookings 내에서 직원 구성원의 일정에 대한 약속이 약속 중으로 반영됩니다. Bookings를 사용할 수 없는 라이선스가 있는 직원은 동일한 테넌트에 있는 경우 개인 일정이 Bookings의 가용성에 영향을 줄 수 있습니다.
 
-게스트 역할의 사람은 고객이 초기 약속을 만들 때 제공한 정보를 볼 수 있습니다. 예를 들어 약속을 예약한 스토어 담당자가 약속 전에 고객에게 전화를 걸면 예약 프로세스 중에 고객이 제공하는 정보에 액세스할 수 있습니다. 예약된 직원 구성원은 .ics 일정 이벤트(예: 입력한 고객 전화 번호)뿐만 아니라 확인 전자 메일에 나타나는 모든 정보에 액세스할 수 있습니다.
+게스트 역할의 사람은 고객이 초기 약속을 만들 때 제공한 정보를 볼 수 있습니다. 예를 들어 약속을 예약한 스토어 담당자가 약속 전에 고객에게 전화를 걸면 예약 프로세스 중에 고객이 제공하는 정보에 액세스할 수 있습니다. 예약된 직원 구성원은 확인 전자 메일에 나타나는 모든 정보와 .ics 일정 이벤트(예: 입력한 고객 전화 번호)에 액세스할 수 있습니다.
 
 게스트 역할의 사용자들은 Bookings 웹앱에 액세스하여 설정을 변경하거나 약속을 보고 관리할 수 없습니다(추가, 취소 및 일정 예약). 그러나 고객이 약속을 하는 방법과 동일한 방식으로 셀프 서비스 페이지를 사용하여 고객을 대신하여 약속을 만들 수 있습니다.
 
-페이지 및 약속을 설정하고 관리하기 위해 Bookings 적격 라이선스를 사용하여 각 저장소의 비즈니스 관리자 또는 관리자에게 라이선스를 부여하는 것이 좋습니다. 그러면 나머지 직원은 Bookings 라이선스가 있는 직원과 함께 예약을 재조정하거나 취소합니다.
+페이지 및 약속을 설정하고 관리하기 위해 Bookings 적격 라이선스를 사용하여 각 저장소의 비즈니스 관리자 또는 관리자에게 라이선스를 부여하는 것이 좋습니다. 그러면 나머지 직원은 Bookings 라이선스가 있는 직원과 함께 예약을 다시 예약하거나 취소합니다.
 
 ## <a name="product-features"></a>제품 기능
 
@@ -176,7 +176,7 @@ Skype 또는 Microsoft Teams 클라이언트를 사용하는 경우 Bookings 내
 
 ### <a name="how-does-bookings-work-across-time-zones"></a>Bookings는 표준 시간대에서 어떻게 작동하나요?
 
-모든 시간은 기본적으로 업무 표준 시간대(현지 표준 시간대)에 있습니다. 즉, Bookings 일정에 대해 구성한 작업 시간 등의 설정이 이 표준 시간대에 표시됩니다. 셀프 서비스 페이지에는 최종 사용자의 표준 시간대에 있는 모든 약속 시간을 표시할 수 있습니다. 이 시간은 원하는 경우 해제할 수 있습니다. 항상 **비즈니스** 표준 시간대에 시간 슬롯을 표시하는 경우 예약 페이지 탭에서 확인되지 않은 상태로 유지하면 페이지를 방문하는 사용자가 현지 표준 시간대에 시간 슬롯을 볼 수 있습니다.
+모든 시간은 기본적으로 업무 표준 시간대(현지 표준 시간대)에 있습니다. Bookings 일정에 대해 구성한 작업 시간 등의 설정은 이 표준 시간대에 표시됩니다. 셀프 서비스 페이지에는 최종 사용자의 표준 시간대에 있는 모든 약속 시간을 표시할 수 있습니다. 이 시간은 원하는 경우 해제할 수 있습니다. 항상 **비즈니스** 표준 시간대에 시간 슬롯을 표시하는 경우 예약 페이지 탭에서 확인되지 않은 상태로 유지하면 페이지를 방문하는 사용자가 현지 표준 시간대에 시간 슬롯을 볼 수 있습니다.
 
 :::image type="content" source="media/bookings-faq-region.png" alt-text="예약 지역 및 표준 시간대 설정":::
 
@@ -244,7 +244,7 @@ Bookings 웹앱 내에서 녹음/녹화 시간 해제는 항상 직원 구성원
 
 ### <a name="where-is-bookings-data-stored"></a>Bookings 데이터는 어디에 저장하나요?
 
-Bookings는 Microsoft 365 앱으로, 모든 데이터가 Microsoft 365 플랫폼 및 Exchange에 저장됩니다. Bookings는 Microsoft에서 설정한 모든 데이터 저장소 정책을 따르며, 동일한 정책 다음에 모든 Office 앱이 적용됩니다. Bookings는 Exchange의 공유 사서함을 사용하여 고객, 직원, 서비스 및 약속 세부 정보를 저장합니다. Exchange의 공유 사서함에 대한 준수 정책은 Bookings 사서함에도 적용됩니다. 예약 시 고객이 제공한 정보를 포함하여 모든 고객 데이터는 Bookings에 캡처되고 앱 내에 저장되어 Exchange 내에 저장됩니다. Microsoft Bookings는 Microsoft 365에서 사용하는 동일한 정책을 사용 합니다. 여기에서 찾을 수 [있습니다.](https://www.microsoft.com/online/legal/v2/?docid=22&langid=en-us)
+Bookings는 Microsoft 365 앱으로, 모든 데이터가 Microsoft 365 플랫폼 및 Exchange에 저장됩니다. Bookings는 Microsoft에서 설정한 모든 데이터 저장소 정책을 따르며, 이는 모든 Office 앱이 따르는 정책과 동일합니다. Bookings는 Exchange의 공유 사서함을 사용하여 고객, 직원, 서비스 및 약속 세부 정보를 저장합니다. Exchange의 공유 사서함에 대한 준수 정책은 Bookings 사서함에도 적용됩니다. 예약 시 고객이 제공한 정보를 포함하여 모든 고객 데이터는 Bookings에 캡처되고 앱 내에 저장되어 Exchange 내에 저장됩니다. Microsoft Bookings는 Microsoft 365에서 사용하는 동일한 정책을 사용 합니다. 여기에서 찾을 수 [있습니다.](https://www.microsoft.com/online/legal/v2/?docid=22&langid=en-us)
 
 ### <a name="is-there-a-way-to-centrally-manage-bookings-calendars-for-all-users"></a>모든 사용자의 Bookings 일정을 중앙에서 관리하는 방법이 있나요?
 
@@ -274,7 +274,7 @@ Bookings 웹앱에 대한 액세스에는 일반 AAD(Azure Active Directory) 인
 
 다음 명령을 사용하여 모든 Bookings 사서함 및 해당 사서함에 액세스할 수 있는 사용자의 정보를 검색할 수 있습니다.
 
-`Get-Mailbox -RecipientTypeDetails SchedulingMailbox -ResultSize:Unlimited | Get-MailboxPermission |Select-Object Identity,User,AccessRights | Where-Object {($_.user -like '@')}`
+`Get-Mailbox -RecipientTypeDetails SchedulingMailbox -ResultSize:Unlimited | Get-MailboxPermission |Select-Object Identity,User,AccessRights | Where-Object {($_.user -like '*@*')}`
 
 ## <a name="technical-questions"></a>기술 질문
 

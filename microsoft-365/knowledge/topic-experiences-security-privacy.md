@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목 보안 및 개인 정보 보호를 계획하는 방법에 대해 자세히 알아보기
-ms.openlocfilehash: 9ac7ea085be115ef06244422713099c01ec50a36
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 91d0d5c25502a1938976b9457f8a5dafc6ab957b
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917347"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994549"
 ---
 # <a name="microsoft-viva-topics-security-and-privacy"></a>Microsoft Viva 항목 보안 및 개인 정보
 
@@ -51,7 +51,7 @@ ms.locfileid: "50917347"
 
 |항목 항목|사용자에게 표시될 수 있는 것|
 |:---------|:------------------|
-|항목 이름|사용자는 항목 센터에서 모든 항목의 항목 이름을 볼 수 있습니다. 일부 항목은 사용자의 관련성 수준이 낮은 경우 표시되지 않을 수 있습니다.|
+|항목 이름|사용자는 항목 센터에서 항목 이름을 볼 수 있습니다. 사용자가 원본 콘텐츠에 대한 사용 권한이 없는 경우 또는 사용자에게 관련성이 낮은 경우 일부 항목은 표시되지 않을 수 있습니다.|
 |항목 설명|AI 생성 설명은 원본 콘텐츠에 대한 사용 권한이 있는 사용자에게만 표시됩니다. 수동으로 입력하거나 편집한 설명은 모든 사용자에게 표시됩니다.|
 |사용자|고정된 사용자는 모든 사용자에게 표시됩니다. 제안된 사용자는 원본 콘텐츠에 대한 사용 권한이 있는 사용자에게만 표시됩니다.|
 |파일|파일은 원본 콘텐츠에 대한 사용 권한이 있는 사용자에게만 표시됩니다.|

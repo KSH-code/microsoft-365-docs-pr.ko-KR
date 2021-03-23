@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Microsoft 365 관리 센터에서 새 제품 및 기능 업데이트에 대한 릴리스 옵션을 설정하는 방법을 학습합니다.
-ms.openlocfilehash: f500aac89495c55d27fc4afb699254653786422d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e909cdf35ba9dd8282540783f7c362e5ae49212e
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915209"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034082"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>표준 또는 대상 지정 릴리스 옵션 설정
 
@@ -114,6 +114,10 @@ Microsoft 365를 사용하면 몇 년마다 비용이 많이 드는 업데이트
 
 
   
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
 [Microsoft 365](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter) 메시지 센터에서 메시지를 관리하여 예정된 Microsoft 365 업데이트 및 릴리스에 대한 알림을 다운로드하는 방법을 확인합니다. [](/office365/admin/manage/message-center)
+
+## <a name="related-articles"></a>관련 문서
+
+[Office 참가자](https://insider.office.com/join/windows)

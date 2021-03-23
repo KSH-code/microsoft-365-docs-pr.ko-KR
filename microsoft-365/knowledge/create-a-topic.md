@@ -14,12 +14,12 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: d6e953c86939d732632e87573fc2aa5392f09aa2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6a182556c68a472145f9d4eac69c8915653a67df
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904939"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994597"
 ---
 # <a name="create-a-new-topic"></a>새 항목 만들기 
 
@@ -66,7 +66,7 @@ Viva 항목에서는 인덱싱을 통해 검색되지 않았거나 AI 기술에�
 
     ![항목에 대한 설명](../media/knowledge-management/description.png)</br>
 
-4. 고정된 <b>사용자 섹션에서</b> 주제 전문가로 표시하기 위해 사람을 "고정"할 수 있습니다. 먼저 새 사용자 추가 상자에 <b></b> 이름 또는 전자 메일 주소를 입력한 다음 검색 결과에서 추가할 사용자를 선택합니다. 사용자 카드에서 목록에서 제거 아이콘을 <b></b> 선택하여 "제거"할 수 있습니다. 또한 사람을 끌어서 사용자 목록이 나타나는 순서를 변경할 수 있습니다.
+4. 고정된 <b></b> 사용자 섹션에서 다른 사람을 "고정"하여 항목에 대한 연결이 있는 것으로 표시될 수 있습니다(예: 연결된 리소스의 소유자). 먼저 새 사용자 추가 상자에 <b></b> 이름 또는 전자 메일 주소를 입력한 다음 검색 결과에서 추가할 사용자를 선택합니다. 사용자 카드에서 목록에서 제거 아이콘을 <b></b> 선택하여 "제거"할 수 있습니다. 또한 사람을 끌어서 사용자 목록이 나타나는 순서를 변경할 수 있습니다.
  
     ![고정된 사람](../media/knowledge-management/pinned-people.png)</br>
 
@@ -93,7 +93,7 @@ Viva 항목에서는 인덱싱을 통해 검색되지 않았거나 AI 기술에�
 
 7. 관련 <b>항목 섹션에는</b> 항목 간에 존재하는 연결이 표시됩니다. 관련 항목에 연결 단추를 선택한 다음 <b></b> 관련 항목의 이름을 입력한 다음 검색 결과에서 해당 항목을 선택하여 다른 항목에 대한 연결을 추가할 수 있습니다. 
 
-   ![관련 주제](../media/knowledge-management/related-topic.png)</br>  
+   ![관련 항목](../media/knowledge-management/related-topic.png)</br>  
 
     그런 다음 항목의 관계에 대한 설명을 입력하고 업데이트를 선택할 <b>수 있습니다.</b></br>
 

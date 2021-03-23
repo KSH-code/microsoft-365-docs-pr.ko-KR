@@ -15,12 +15,12 @@ ms.collection:
 description: 관리자는 Office 365용 Microsoft Defender를 사용하여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2985766cf3388382dbe1d2217843504b2bfd1a1c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9f9fe04b2c3b6db3681212d678c8e827f6a83f41
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906591"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994573"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에서 피싱 방지 정책 구성
 
@@ -220,11 +220,11 @@ Microsoft Defender for Office 365에서 피싱 방지 보호의 효율성을 높
 
      - **사서함 인텔리전스 사용:** 기본값은 **입니다.** 끄기 위해 토글을 끄기 로 **밀어 끄기합니다.**
 
-     - **사서함 인텔리전스 기반** 가장 보호 사용: 이 설정은 사서함 인텔리전스 사용이 설정되어 있는 경우만 사용할 수 **있습니다.** 
+     - **사서함 인텔리전스 기반** 가장 보호 사용: 이 설정은 사서함 인텔리전스 사용이 설정되어 있는 **경우** 에서만 사용할 수 **있습니다.** 사서함 인텔리전스 결과에서 가장 검색에 대해 메시지에 대해 수행되는 작업을 지정하기 위해 이 설정을 으로 지정합니다.
 
-       **가장된** 사용자가 전자 메일을 보낸 경우 사서함 인텔리전스에 실패한 메시지에 대해 수행할 다음 작업 중 하나를 지정할 수 있습니다(보호된 사용자 및 보호된 도메인에 사용할 수 있는 작업과 동일).
+       **가장된** 사용자가 전자 메일을 보낸 경우 다음 작업 중 하나를 지정할 수 있습니다(보호된 사용자 및 보호된 도메인에 사용할 수 있는 동일한 작업).
 
-       - **어떤 작업도 적용하지 않습니다.**
+       - 아무 작업도 **적용하지** 않습니다. 이 값은 사서함 인텔리전스 사용 설정과 결과가 같지만 사서함 인텔리전스 기반 가장 보호 사용은 **해제합니다.** 
        - **메시지를 다른 전자 메일 주소로 리디렉션**
        - **정크 메일 폴더로 메시지 이동**
        - **메시지 Quarantine the message**

@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 ms.service: ''
 localization_priority: Normal
-ms.openlocfilehash: 34c6551dd3a40852368b40d960bf921c52f46372
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 36af6e0f882c87d05c5f397982533fb48875b0da
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921519"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994609"
 ---
 # <a name="edit-an-existing-topic"></a>기존 토픽 편집. 
 
@@ -67,11 +67,11 @@ Viva 항목에서는 기존 항목을 편집할 수 있습니다. 기존 항목 
 
     ![설명 섹션](../media/knowledge-management/description.png)</br>
 
-4. 고정된 <b>사용자 섹션에서</b> 주제 전문가로 표시하기 위해 사람을 "고정"할 수 있습니다. 먼저 새 사용자 추가 상자에 <b></b> 이름 또는 전자 메일 주소를 입력한 다음 검색 결과에서 추가할 사용자를 선택합니다. 사용자 카드에서 목록에서 제거 아이콘을 <b></b> 선택하여 "제거"할 수 있습니다.
+4. 고정된 <b></b> 사용자 섹션에서 연결된 리소스의 소유자와 같은 항목을 연결한 것으로 표시하기 위해 사람을 "고정"할 수 있습니다. 먼저 새 사용자 추가 상자에 <b></b> 이름 또는 전자 메일 주소를 입력한 다음 검색 결과에서 추가할 사용자를 선택합니다. 사용자 카드에서 목록에서 제거 아이콘을 <b></b> 선택하여 "제거"할 수 있습니다.
  
     ![고정된 사용자 추가](../media/knowledge-management/pinned-people.png)</br>
 
-    추천 <b>사용자 섹션에서는</b> AI가 주제에 대한 리소스와의 연결부터 주제에 대한 주제 전문가로 생각할 수 있는 사용자를 보여줍니다. 사용자 카드에서 고정 아이콘을 선택하여 상태를 제안에서 고정으로 변경할 수 있습니다.
+    추천 <b>사용자</b> 섹션에서는 AI가 주제에 대한 리소스와의 연결에서 해당 항목에 연결될 수 있는 것으로 생각되는 사용자를 보여줍니다. 사용자 카드에서 고정 아이콘을 선택하여 상태를 제안에서 고정으로 변경할 수 있습니다.
 
    ![추천된 사람 고정](../media/knowledge-management/suggested-people.png)</br>
 

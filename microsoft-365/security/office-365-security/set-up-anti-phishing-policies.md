@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Office 365용 Microsoft Defender에서 사용할 수 있는 피싱 방지 정책에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eeb15040f0e47f7d51852dadf68c4b0c37de0975
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3458d6702dab48072e4846038400b087b1a4a8f1
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929231"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994585"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
@@ -35,7 +35,7 @@ ms.locfileid: "50929231"
 
 피싱 방지 보호 설정을 구성하는 정책은 Exchange Online 사서함이 있는 Microsoft 365 조직, Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직 및 Office 365용 Microsoft Defender 조직에서 사용할 수 있습니다.
 
-Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defender가 있는 조직에서만 사용할 수 있습니다. 예를 들어 다음과 같습니다.
+Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defender가 있는 조직에서만 사용할 수 있습니다. 예:
 
 - Microsoft 365 Enterprise E5, Microsoft 365 Education A5 등
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -206,17 +206,21 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
   - **가장된 도메인:** 시작 주소에 보호된 도메인이 포함되어 있습니다.
   - **비정상 문자:** 보낸 사람 주소에는 보호된 보낸 사람 또는 도메인의 비정상적인 문자 집합(예: 수학 기호 및 텍스트 또는 대문자 및 소문자 혼합)이 포함되어 있습니다.
 
-
   > [!IMPORTANT]
   >
-  > 보낸 사람 및 받는 사람 간의 첫 번째 접촉 중에 나타나는 보안 팁을 사용하도록 설정하는 데 권장 사항: 가장  보안 팁이 꺼져 있어도 메일 흐름 규칙(전송 규칙)을 사용하여 **X-MS-Exchange-EnableFirstContactSafetyTip이라는** 메시지 헤더를 메시지에 사용할 수 있는 값과 함께 추가하는 것이 좋습니다.   보안 팁은 보낸 사람이 메시지를 처음 받을 때 또는 보낸 사람에게 메시지를 자주 수신하지 않는 경우 받는 사람에게 알릴 것입니다. 이 기능을 통해 잠재적인 가장 공격으로부터 보안을 강화할 수 있습니다. 
+  > 가장 보안 팁이 꺼져 있는 경우에도  메일 흐름 규칙(전송 규칙)을 사용하여 **X-MS-Exchange-EnableFirstContactSafetyTip이라는** 메시지 헤더를 메시지에  사용할 수 있는 값으로 추가하는 것이 좋습니다. 보안 팁은 보낸 사람이 메시지를 처음 받을 때 또는 보낸 사람에게 메시지를 자주 수신하지 않는 경우 받는 사람에게 알릴 것입니다. 이 기능을 통해 잠재적인 가장 공격으로부터 보안을 강화할 수 있습니다.
+  >
   > :::image type="content" source="../../media/safety-tip-first-contact-multiple-recipients.png" alt-text="여러 받는 사람이 있는 가장 보호를 위한 안전 팁 텍스트입니다.":::
 
-- **사서함 인텔리전스:** 자주 연락하는 사용자 전자 메일 패턴을 결정하는 인공 지능(AI)을 활성화하거나 비활성화합니다. 이 설정은 AI가 합법적인 전자 메일과 스푸핑된 전자 메일을 해당 연락처와 구분하는 데 도움이 됩니다. 사서함 인텔리전스는 Exchange Online 사서함에만 사용할 수 있습니다.
+- **사서함 인텔리전스:** 자주 연락하는 사용자 전자 메일 패턴을 결정하는 인공 지능(AI)을 활성화하거나 비활성화합니다. 이 설정은 AI가 합법적인 보낸 사람 및 가장된 보낸 사람과 메시지를 구분하는 데 도움이 됩니다.
 
-- **사서함 인텔리전스 기반** 가장 보호: 각 사용자의 개별 보낸 사람 맵에 따라 향상된 가장 결과를 설정하거나 해제합니다. 이 인텔리전스를 통해 Microsoft 365는 사용자 가장 검색을 사용자 지정하고 가짓 긍정을 보다 잘 처리할 수 있습니다. 사용자 가장이 감지되면 메시지에 대해 취할 특정 작업을 정의할 수 있습니다.
+  예를 들어 Gabriela Laureano(glaureano@contoso.com)는 회사의 CEO이기 때문에 사용자에 보호된 보낸 사람으로 추가하여 정책 설정을 보호합니다.  그러나 정책이 적용되는 받는 사람 중 일부는 Gabriela Laureano(glaureano@fabrikam.com)라는 공급업체와 정기적으로 통신합니다. 이러한 받는 사람이 해당 받는 glaureano@fabrikam.com 통신 기록이 있기 때문에 사서함 인텔리전스에서는 해당 받는 glaureano@fabrikam.com 가장 시도로 glaureano@contoso.com 식별하지 않습니다.
 
-  - **어떤 작업도 적용하지 않습니다.**
+  사서함 인텔리전스에 의해 학습된(및 이러한 연락처 부족)를 사용하여 사용자를 가장 공격으로부터 보호하기 위해 자주 연락하기 위해 사서함 인텔리전스 기반 가장 보호를 켜고 사서함 인텔리전스를 설정하는 경우 취할 조치를 지정할 수 **있습니다.**  
+
+- **사서함** 인텔리전스 기반 가장 보호: 이 설정을 켜서 사서함 인텔리전스 결과에서 가장 감지를 위해 메시지에 대해 취할 작업을 지정합니다.
+
+  - **아무 작업도** 적용하지 않습니다. 이 값은 사서함 인텔리전스를 켜고 사서함 인텔리전스 기반 가장 보호를 해제하는 경우와 결과가  **같습니다.**
   - **메시지를 다른 전자 메일 주소로 리디렉션**
   - **정크 메일 폴더로 메시지 이동**
   - **메시지 Quarantine the message**

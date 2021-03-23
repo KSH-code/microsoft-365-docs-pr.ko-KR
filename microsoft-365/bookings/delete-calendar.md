@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
 description: Microsoft 365 관리 센터 또는 예약 Windows PowerShell 일정을 삭제합니다.
-ms.openlocfilehash: 7b79628327797d2e315d31e1b1a2671f0b24e447
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 21fc7b9994ffd7f76ed04000a50bd0ee8f7f167e
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913781"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034094"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Bookings에서 예약 일정 삭제
 
@@ -72,7 +72,7 @@ Exchange [Online PowerShell에](/powershell/exchange/exchange-online-powershell-
 4. 이 명령의 처리가 완료되면 다음 명령을 입력하여 테넌트의 예약 사서함 목록을 얻습니다.
 
    ```powershell
-   Get-EXOMailbox -RecipientTypeDetails Scheduling
+   Get-EXOMailbox -RecipientTypeDetails SchedulingMailbox
    ```
 
 5. 다음 명령을 입력합니다.
