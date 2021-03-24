@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인해 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eabc9a59592ed2b1849bac8c7b716e68d4b9e214
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f61a67b29dec114d222dfc7b25e44c163859ba41
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922552"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051740"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -900,7 +900,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 ### <a name="quarantine-activities"></a>격리 활동
 
-다음 표에는 감사 로그에서 검색 할 수 있는 격리 활동이 나와 있습니다. 격리에 대한 자세한 내용은 [ㅡMicrosoft Office 365에서 전자 메일 메시지 격리](../security/office-365-security/quarantine-email-messages.md)를 참조하세요.
+다음 표에는 감사 로그에서 검색 할 수 있는 격리 활동이 나와 있습니다. 격리에 대한 자세한 내용은 [ㅡMicrosoft Office 365에서 전자 메일 메시지 격리](../security/defender-365-security/quarantine-email-messages.md)를 참조하세요.
 
 |이름|작업|설명|
 |:-----|:-----|:-----|

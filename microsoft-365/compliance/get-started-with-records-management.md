@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 법률, 비즈니스 또는 규제 의무에 대한 높은 가치의 콘텐츠를 관리하는 Microsoft 365의 레코드 관리 솔루션이 필요하지만 어디서 시작해야 하나요? 시작을 도와주는 실질적인 지침을 참조하세요.
-ms.openlocfilehash: a757cabf13e85731bd16ccd84f1eea3dbe7e432a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2ab5eaa494094dcbf0723f426fcbd644901c22bb
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906010"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051900"
 ---
 # <a name="get-started-with-records-management"></a>레코드 관리 시작
 
@@ -53,9 +53,9 @@ Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니
 
 읽기 전용 역할의 경우 새 역할 그룹을 생성하고 **보기 전용 레코드 관리** 역할을 이 그룹에 추가할 수 있습니다. 
 
-역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center)을 참조하세요.
+역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center)을 참조하세요.
 
-사용자에게 역할 그룹을 추가하고 역할을 할당하는 방법에 대한 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+사용자에게 역할 그룹을 추가하고 역할을 할당하는 방법에 대한 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
 
 해당 권한은 레코드를 선언하고 처리를 관리하는 보존 레이블을 만들고 구성하고 적용하는 경우에만 필요합니다. 해당 레이블을 구성하는 사용자는 콘텐츠에 대한 액세스 권한이 필요하지 않습니다.
 

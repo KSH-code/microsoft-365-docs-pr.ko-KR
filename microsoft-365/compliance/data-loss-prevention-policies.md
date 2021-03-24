@@ -22,12 +22,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365에서 조직의 중요한 정보를 자동으로 식별하고 모니터링하고 보호하는 방법을 알아봅니다.
-ms.openlocfilehash: 7d526d5eeb74f0d31f375974824e7a76344bcd76
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9ef369786aa4b79dbdec551c9750500f9c092906
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925812"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052076"
 ---
 # <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -534,7 +534,7 @@ DLP 정책을 만드는 규정 준수 팀의 구성원에게는 보안 &amp; 준
 
 **보기 전용 DLP 준수 관리** 역할을 부여하여 DLP 정책 및 DLP 보고서에 대한 보기 전용 권한이 있는 역할 그룹을 만들 수도 있습니다.
 
-더 자세한 내용은 [Office 365 준수 센터 액세스 권한 부여하기](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참고하십시오.
+더 자세한 내용은 [Office 365 준수 센터 액세스 권한 부여하기](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md)를 참고하십시오.
   
 이러한 정책은 DLP 정책을 만들고 적용하는 데만 필요합니다. 정책 적용을 위해서는 콘텐츠에 액세스하지 않아도 됩니다.
   

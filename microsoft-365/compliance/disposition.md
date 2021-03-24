@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용하든 콘텐츠가 구성한 설정에 따라 자동으로 삭제되는지, 콘텐츠의 처리를 모니터링하고 관리합니다.
-ms.openlocfilehash: d2c2e4e469efe16277f34a902f6720dc2b39e908
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d9786b5e93801153e168784d51e37a00ee1822bc
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918044"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051930"
 ---
 # <a name="disposition-of-content"></a>콘텐츠의 처리
 
@@ -44,7 +44,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스하려면 사용자에
 
 또한 처리 프로세스 중에 항목의 내용을 보려면 **콘텐츠 탐색기 콘텐츠 뷰어** 와 **콘텐츠 탐색기 목록 뷰어** 의 두 역할 그룹에 사용자를 추가합니다. 사용자가 이 역할 그룹의 사용 권한이 없는 경우, 처리 검토 완료를 위해 처리 검토 작업을 여전히 선택할 수 있지만, 준수 센터에서 항목의 내용을 볼 수 없는 상태로 이를 수행해야 합니다.
 
-이 권한을 구성할 수 있는 지침은 [사용자에게 Office 365 보안 및 준수 센터의 액세스 권한 부여하기](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+이 권한을 구성할 수 있는 지침은 [사용자에게 Office 365 보안 및 준수 센터의 액세스 권한 부여하기](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
 
 ### <a name="enable-auditing"></a>감사 사용
 
