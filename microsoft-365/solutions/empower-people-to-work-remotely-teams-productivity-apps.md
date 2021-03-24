@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 사용자가 Teams, Exchange, SharePoint 및 기타 Microsoft 365 서비스를 사용하여 생산성을 향상시킬 수 있도록 합니다.
-ms.openlocfilehash: 7b62191d08e5ff91e54bb16b06a0511e02f16b6d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c56deb091078fb1917bc1060aa366da4e18bd176
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916181"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050877"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>5단계. 원격 작업자 생산성 앱 및 서비스 배포
 
@@ -68,7 +68,7 @@ Teams는 데스크톱, 웹 및 모바일 버전의 Teams에서 액세스할 수 
 
 Outlook을 사용하면 원격 작업자는 연결 상태를 유지하고 전자 메일, 일정, 연락처, 작업 등을 모두 함께 계속해서 한 곳에서 구성할 수 있습니다. Outlook을 사용하면 관련 항목에 따라 하루를 순조롭게 진행하고 우선순위를 지정하는 데 도움이 됩니다. Outlook은 OneDrive에서 바로 첨부 파일을 공유하고, 팀 모임을 계획하고 모임에 참여하며, 일정을 보고 공유하고 다른 사용자에게 대리인 권한을 제공할 수 있도록 해줍니다. 직장 및 개인적 용무 모두의 측면에서 다음에 처리할 용무와 주의를 필요로 하는 사항을 아는 것은 원격 작업자들이 중요한 사항에 집중할 수 있도록 하는 데 도움이 됩니다. Outlook은 원격 작업자들이 그들의 시간 및 필요로 하는 사항을(예를 들어, 파일, 조직 내 사용자 등) 쉽게 관리하는 데 유용한 방법들을 제공합니다. 
 
-최신 인증 및 조건부 액세스를 지원하는 조직의 전자 메일 및 메일 클라이언트를 보호하는 권장 ID와 정책은 [이 문서](../security/office-365-security/secure-email-recommended-policies.md)를 참조하세요.
+최신 인증 및 조건부 액세스를 지원하는 조직의 전자 메일 및 메일 클라이언트를 보호하는 권장 ID와 정책은 [이 문서](../security/defender-365-security/secure-email-recommended-policies.md)를 참조하세요.
 
 ## <a name="store-and-collaborate-on-files-with-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive를 사용한 파일 저장 및 공동 작업
 
@@ -81,7 +81,7 @@ Outlook을 사용하면 원격 작업자는 연결 상태를 유지하고 전자
 - [파일 공유](/sharepointmigration/fileshare-to-odsp-migration-guide)
 - [Box](/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide)
 
-SharePoint 및 OneDrive를 보호하기 위해 권장 ID 및 장치 액세스 정책에 대해 [이 문서](../security/office-365-security/sharepoint-file-access-policies.md)를 참조하세요.
+SharePoint 및 OneDrive를 보호하기 위해 권장 ID 및 장치 액세스 정책에 대해 [이 문서](../security/defender-365-security/sharepoint-file-access-policies.md)를 참조하세요.
 
 ## <a name="create-and-collaborate-on-content-with-microsoft-365-apps"></a>Microsoft 365 앱을 사용한 콘텐츠 만들기 및 공동 작업
 

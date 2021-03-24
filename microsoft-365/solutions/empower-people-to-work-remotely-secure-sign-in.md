@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: 원격 작업자는 MFA(다단계 인증)를 사용하여 로그인해야 합니다.
-ms.openlocfilehash: d27268ac4c71e74afe6ef04cc61fb029b665c1a0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c1436e394174bd3f480186f547f176cea1833cb1
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916205"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050985"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>1단계. MFA를 사용하여 원격 작업자에 대 한 로그인 보안 강화
 
@@ -38,7 +38,7 @@ ms.locfileid: "50916205"
 |---------|---------|
 |모든 Microsoft 365 요금제(Azure AD Premium P1 또는 P2 라이선스 제외)     |[Azure AD](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)에서 보안 기본값을 사용하도록 설정 합니다. Azure AD의 보안 기본값에는 사용자 및 관리자를 위한 MFA가 포함됩니다.   |
 |Microsoft 365 E3(Azure AD Premium P1 라이선스 포함)     | [공통 조건부 액세스 정책](/azure/active-directory/conditional-access/concept-conditional-access-policy-common)을 사용하여 다음 정책을 구성합니다. <br>- [관리자에게 MFA 요구](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [모든 사용자에 대해 MFA 요구](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [레거시 인증 차단](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
-|Microsoft 365 E5(Azure AD Premium P2 라이선스 포함)     | Azure AD ID 보호를 활용하여 다음 정책을 만들어 Microsoft의 [권장 조건부 액세스 및 관련 정책 집합](../security/office-365-security/identity-access-policies.md)을 구현하세요.<br> - [로그인 위험이 중간 이상인 경우 MFA 필요](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [최신 인증을 지원하지 않는 클라이언트 차단](../security/office-365-security/identity-access-policies.md#block-clients-that-dont-support-multi-factor)<br>- [위험이 높은 사용자는 암호를 변경해야 함](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
+|Microsoft 365 E5(Azure AD Premium P2 라이선스 포함)     | Azure AD ID 보호를 활용하여 다음 정책을 만들어 Microsoft의 [권장 조건부 액세스 및 관련 정책 집합](../security/defender-365-security/identity-access-policies.md)을 구현하세요.<br> - [로그인 위험이 중간 이상인 경우 MFA 필요](../security/defender-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [최신 인증을 지원하지 않는 클라이언트 차단](../security/defender-365-security/identity-access-policies.md#block-clients-that-dont-support-multi-factor)<br>- [위험이 높은 사용자는 암호를 변경해야 함](../security/defender-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
 ## <a name="security-defaults"></a>보안 기본값

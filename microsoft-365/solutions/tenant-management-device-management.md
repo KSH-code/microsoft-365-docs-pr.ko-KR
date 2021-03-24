@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Microsoft 365 테넌트의 장치 및 앱 관리에 대한 올바른 옵션을 배포합니다.
-ms.openlocfilehash: 994ab7d21ae70307fa78e1f7249d39ac314a7358
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0351f6be3f191e1a131da5b0b665a205a0abda8c
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904615"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050997"
 ---
 # <a name="step-5-device-and-app-management-for-your-microsoft-365-for-enterprise-tenants"></a>5단계. 엔터프라이즈용 Microsoft 365 테넌트의 장치 및 앱 관리
 
@@ -48,7 +48,7 @@ Microsoft [Intune을](/mem/intune/fundamentals/planning-guide) 사용하여 MDM 
 
 ## <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
-Microsoft는 안전하고 생산적인 [](../security/office-365-security/microsoft-365-policies-configurations.md) 인력을 확보하기 위해 ID 및 장치 액세스에 대한 구성 집합을 제공합니다. 이러한 구성에는 다음이 포함됩니다.
+Microsoft는 안전하고 생산적인 [](../security/defender-365-security/microsoft-365-policies-configurations.md) 인력을 확보하기 위해 ID 및 장치 액세스에 대한 구성 집합을 제공합니다. 이러한 구성에는 다음이 포함됩니다.
 
 - Azure AD 조건부 액세스 정책
 - Microsoft Intune 장치 준수 및 앱 보호 정책
@@ -61,8 +61,8 @@ Microsoft는 안전하고 생산적인 [](../security/office-365-security/micros
 
 장치 액세스 및 앱 관리의 경우 다음 문서의 구성을 사용합니다.
 
-- [필수 구성 요소](../security/office-365-security/identity-access-prerequisites.md)
-- [일반 ID 및 장치 액세스 정책](../security/office-365-security/identity-access-policies.md)
+- [필수 구성 요소](../security/defender-365-security/identity-access-prerequisites.md)
+- [일반 ID 및 장치 액세스 정책](../security/defender-365-security/identity-access-policies.md)
 
 ## <a name="results-of-step-5"></a>5단계의 결과
 

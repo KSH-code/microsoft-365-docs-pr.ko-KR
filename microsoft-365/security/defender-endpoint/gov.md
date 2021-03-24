@@ -1,0 +1,170 @@
+---
+title: 미국 정부 고객을 위한 끝점용 Microsoft Defender
+description: 사용 가능한 미국 정부 고객 요구 사항 및 기능용 Microsoft Defender for Endpoint에 대해 자세히 알아보시고
+keywords: government, gcc, high, requirements, capabilities, defender, defender atp, mdatp, endpoint, dod
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: macapara
+author: mjcaparas
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection: M365-security-compliance
+ms.topic: conceptual
+ms.technology: mde
+ms.openlocfilehash: 31928deddc2a504cc0b6c91af287e4977791c920
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51073908"
+---
+# <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>미국 정부 고객을 위한 끝점용 Microsoft Defender
+
+**적용 대상:**
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+
+미국 Azure Government 환경에서 구축된 미국 정부 고객을 위한 끝점용 Microsoft Defender는 Azure Commercial의 Endpoint용 Defender와 동일한 기본 기술을 사용 합니다.
+
+이 제품은 GCC, GCC High 및 DoD 고객에게 제공되고 상업용 버전과 동일한 예방, 탐지, 조사 및 수정을 기반으로 합니다. 그러나 이 제공 기능에 대한 기능의 가용성에는 몇 가지 차이가 있습니다.
+
+> [!NOTE]
+> Commercial의 Endpoint용 Defender를 사용하는 GCC 고객인 경우 공개 설명서 페이지를 참조하세요.
+
+## <a name="licensing-requirements"></a>라이선스 요구 사항
+미국 정부 고객을 위한 끝점용 Microsoft Defender에는 다음 Microsoft 볼륨 라이선싱 제품 중 하나가 필요합니다.
+
+### <a name="desktop-licensing"></a>데스크톱 라이선싱
+GCC | GCC 높음 | DoD
+:---|:---|:---
+Windows 10 Enterprise E5 GCC | GCC High용 Windows 10 Enterprise E5 | DOD용 Windows 10 Enterprise E5
+| | GCC High용 Microsoft 365 E5 | 
+| | GCC High용 Microsoft 365 G5 보안 | 
+끝점용 Microsoft Defender - GCC | GCC High용 끝점용 Microsoft Defender | DOD용 끝점용 Microsoft Defender
+
+### <a name="server-licensing"></a>서버 라이선스
+GCC | GCC 높음 | DoD
+:---|:---|:---
+Endpoint Server GCC용 Microsoft Defender | GCC High용 끝점 서버용 Microsoft Defender | DOD용 끝점 서버용 Microsoft Defender
+서버용 Azure Defender | 서버용 Azure Defender - 정부 | 서버용 Azure Defender - 정부
+
+> [!NOTE]
+> DoD 라이선스는 DoD 일반 공급에서만 사용할 수 있습니다.
+
+<br>
+
+## <a name="portal-urls"></a>포털 URL
+다음은 미국 정부 고객을 위한 Microsoft Defender for Endpoint 포털 URL입니다.
+
+고객 유형 | 포털 URL
+:---|:---
+GCC | https://gcc.securitycenter.microsoft.us
+GCC 높음 | https://securitycenter.microsoft.us
+DoD(미리 보기) | https://securitycenter.microsoft.us
+
+<br>
+
+## <a name="endpoint-versions"></a>끝점 버전
+
+### <a name="standalone-os-versions"></a>독립 실행형 OS 버전
+다음 OS 버전이 지원됩니다.
+
+OS 버전 | GCC | GCC 높음 | DoD(미리 보기)
+:---|:---|:---|:---
+Windows 10 버전 [20H2(KB4586853](https://support.microsoft.com/help/4586853)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows 10 버전 [2004(KB4586853](https://support.microsoft.com/help/4586853)사용) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows 10 버전 [1909(KB4586819](https://support.microsoft.com/help/4586819)사용) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows 10 버전 [1903(KB4586819](https://support.microsoft.com/help/4586819)사용) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows 10 버전 [1809(KB4586839)](https://support.microsoft.com/help/4586839) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows 10 버전 [1803(KB4598245](https://support.microsoft.com/help/4598245)사용) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows 10 버전 1709 | ![아니요](/security/defender-endpoint/images/svg/check-no)<br>참고: 지원되지 않습니다. | ![](/security/defender-endpoint/images/svg/check-yes) [예(KB4499147)](https://support.microsoft.com/help/4499147)<br>참고: [사용되지 않습니다.](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709)업그레이드하십시오. | ![아니요](/security/defender-endpoint/images/svg/check-no)<br>참고: 지원되지 않습니다.
+Windows 10 버전 1703 이전 버전 | ![아니요](/security/defender-endpoint/images/svg/check-no)<br>참고: 지원되지 않습니다. | ![아니요](/security/defender-endpoint/images/svg/check-no)<br>참고: 지원되지 않습니다. | ![아니요](/security/defender-endpoint/images/svg/check-no)<br>참고: 지원되지 않습니다.
+Windows Server [2019(KB4586839](https://support.microsoft.com/help/4586839)사용) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows Server 2016 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows Server 2012 R2 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows Server 2008 R2 SP1 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows 8.1 Enterprise | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows 8 Pro | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows 7 SP1 Enterprise | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows 7 SP1 Pro | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Linux | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
+macOS | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
+Android | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
+iOS | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
+
+> [!NOTE]
+> 패치가 지정된 경우 올바른 환경으로 끝점에 대한 Defender를 구성하려면 장치 온보딩 전에 패치를 배포해야 합니다.
+
+> [!NOTE]
+> Microsoft 모니터링 에이전트를 사용하여 Windows 10 또는 Windows Server 2019 이전 버전의 Windows 장치를 [온보드하려고 하나요?](configure-server-endpoints.md#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) 설치 마법사를 사용하는 경우 또는 명령줄 또는 스크립트를 사용하는 경우 "Azure [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) Cloud"에서 [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) "Azure US Government"를 선택해야 합니다. "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" 매개 변수를 1로 설정해야 합니다. [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)
+
+### <a name="os-versions-when-using-azure-defender-for-servers"></a>서버용 Azure Defender를 사용하는 경우 OS 버전
+다음 OS 버전은 [서버용 Azure Defender를 사용할 때 지원됩니다.](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
+
+OS 버전 | GCC | GCC 높음 | DoD(미리 보기)
+:---|:---|:---|:---
+Windows Server 2016 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows Server 2012 R2 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows Server 2008 R2 SP1 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+
+<br>
+
+## <a name="required-connectivity-settings"></a>필수 연결 설정
+프록시 또는 방화벽이 기본적으로 모든 트래픽을 차단하고 특정 도메인만 통과하도록 허용하는 경우 다운로드 가능한 시트에 나열된 도메인을 허용된 도메인 목록에 추가합니다.
+
+다음 다운로드 가능한 스프레드시트에는 네트워크에서 연결할 수 있어야 하는 서비스 및 관련 URL이 나열됩니다. 이러한 URL에 대한 액세스를 거부하는 방화벽 또는 네트워크 필터링 규칙이 없는지 확인하거나 해당 URL에 대한 허용 규칙을 만들 수 있습니다. 
+
+도메인 목록의 스프레드시트 | 설명
+:-----|:-----
+![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지](images/mdatp-urls.png)<br/> | 서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <br><br>[여기에서 스프레드시트를 다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
+
+자세한 내용은 장치 프록시 및 인터넷 연결 설정 [구성을 참조하세요.](configure-proxy-internet.md)
+
+> [!NOTE]
+> 스프레드시트에는 상업용 URL도 포함되어 있습니다. "US Gov" 탭을 선택해야 합니다. <br> 필터링할 때 "US Gov"로 레이블이 붙은 레코드와 해당 지리 열에서 특정 클라우드를 찾아야 합니다.
+
+<br>
+
+## <a name="api"></a>API
+[API](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro)설명서에 나열된 공용 URIS 대신 다음 URIS를 사용해야 합니다.
+
+끝점 유형 | GCC | GCC High & DoD(미리 보기)
+:---|:---|:---
+로그인 | `https://login.microsoftonline.com` | `https://login.microsoftonline.us`
+Endpoint API용 Defender | `https://api-gcc.securitycenter.microsoft.us` | `https://api-gov.securitycenter.microsoft.us`
+SIEM | `https://wdatp-alertexporter-us.gcc.securitycenter.windows.us` | `https://wdatp-alertexporter-us.securitycenter.windows.us`
+
+<br>
+
+## <a name="feature-parity-with-commercial"></a>상업용 기능 패리티
+Endpoint용 Defender에는 상업용 제품과 완전한 패리티가 없습니다. 당사의 목표는 모든 상업적 기능을 미국 정부 고객에게 제공하는 것이지만, 아직 사용할 수 없는 몇 가지 기능은 강조하고 싶을 것입니다.
+
+2021년 2월 현재 알려진 차이입니다.
+
+기능 이름 | GCC | GCC 높음 | DoD(미리 보기)
+:---|:---|:---|:---
+자동화된 조사 및 수정: 라이브 응답 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+자동화된 조사 및 수정: Office 365 경고에 대한 응답 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
+이메일 알림 | ![아니요](/security/defender-endpoint/images/svg/check-no) 배포 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 배포 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 배포 중
+평가 랩 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+관리 및 API: 장치 상태 및 규정 준수 보고서 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+관리 및 API: 타사 제품과의 통합 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
+관리 및 API: 스트리밍 API | ![예](/security/defender-endpoint/images/svg/check-yes) | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
+관리 및 API: 위협 방지 보고서 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+위협 & 취약성 관리 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+위협 분석 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+웹 콘텐츠 필터링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
+통합: Azure Sentinel | ![예](/security/defender-endpoint/images/svg/check-yes) | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
+통합: Microsoft Cloud App Security | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
+통합: Microsoft 준수 관리자 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
+통합: Id용 Microsoft Defender | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
+통합: Office 365용 Microsoft Defender | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
+통합: Microsoft Endpoint DLP | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
+통합: Microsoft Intune | ![예](/security/defender-endpoint/images/svg/check-yes) | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
+통합: Microsoft Power Automate & Azure Logic Apps | ![예](/security/defender-endpoint/images/svg/check-yes) | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
+통합: 비즈니스용 Skype/Teams | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Microsoft 위협 전문가 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링

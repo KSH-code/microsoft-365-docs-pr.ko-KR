@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 보안을 위한 고유한 민감도 레이블이 있는 팀을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 2ecd8e0458f6ebef9ebd1b0c3724195cc70f6378
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7c9b770c712d2468369482ba3a6256e57f621f74
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920931"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51042689"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>보안 격리를 사용하여 팀 구성하기
 
@@ -60,8 +60,8 @@ Contoso Corporation이 극비 프로젝트에 보안 팀을 사용한 방법을 
 ## <a name="initial-protections"></a>초기 보호
 
 팀과 기본 SharePoint 사이트에 대한 액세스를 보호하려면 다음과 같은 모범 사례를 검토하세요.
-- [ID 및 장치 액세스 정책](../security/office-365-security/identity-access-policies.md)
-- [SharePoint Online 액세스 정책](../security/office-365-security/sharepoint-file-access-policies.md)
+- [ID 및 장치 액세스 정책](../security/defender-365-security/identity-access-policies.md)
+- [SharePoint Online 액세스 정책](../security/defender-365-security/sharepoint-file-access-policies.md)
 - [기준 보호를 사용하여 팀 배치하기](configure-teams-baseline-protection.md)
 
 ## <a name="guest-sharing"></a>게스트 공유

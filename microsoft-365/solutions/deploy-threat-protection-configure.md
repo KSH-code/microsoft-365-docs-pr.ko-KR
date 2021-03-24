@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: f767b44b66fbc69f28a6514acc3936eb3074e70b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a5ff570439dfecd287a5a5975358262af71d8025
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918481"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051021"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 방지 기능 구성
 
@@ -42,13 +42,13 @@ Microsoft는 모든 SaaS 응용 프로그램, 특히 Microsoft 365에 대한 액
 
 ![기준 보호 배포 프로세스](../media/deploy-threat-protection/deploy-threat-protection-identity-access-steps.png) 
 
-1. Azure AD ID 보호를 포함하여 [선행 구성](../security/office-365-security/identity-access-prerequisites.md)
-2. [기준 보호를 위한](../security/office-365-security/identity-access-policies.md) 공통 ID 및 장치 액세스 정책을 구성합니다.
-3. 게스트 [사용자,](../security/office-365-security/identity-access-policies-guest-access.md) [Microsoft Teams,](../security/office-365-security/teams-access-policies.md) [Exchange Online](../security/office-365-security/secure-email-recommended-policies.md)및 SharePoint Online 및 [OneDrive에 대한 정책을 구성합니다.](../security/office-365-security/sharepoint-file-access-policies.md)
+1. Azure AD ID 보호를 포함하여 [선행 구성](../security/defender-365-security/identity-access-prerequisites.md)
+2. [기준 보호를 위한](../security/defender-365-security/identity-access-policies.md) 공통 ID 및 장치 액세스 정책을 구성합니다.
+3. 게스트 [사용자,](../security/defender-365-security/identity-access-policies-guest-access.md) [Microsoft Teams,](../security/defender-365-security/teams-access-policies.md) [Exchange Online](../security/defender-365-security/secure-email-recommended-policies.md)및 SharePoint Online 및 [OneDrive에 대한 정책을 구성합니다.](../security/defender-365-security/sharepoint-file-access-policies.md)
 
 ### <a name="more-information-about-protecting-identities"></a>ID 보호에 대한 자세한 정보
 
-- [ID 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md)
+- [ID 및 장치 액세스 구성](../security/defender-365-security/microsoft-365-policies-configurations.md)
 - [Azure MFA에 대한 보안 지침](/azure/active-directory/authentication/multi-factor-authentication-security-best-practices)
 
 ## <a name="step-2-configure-microsoft-defender-for-identity"></a>2단계: ID에 맞게 Microsoft Defender 구성
@@ -77,7 +77,7 @@ Microsoft Defender for Identity를 사용하면 하이브리드 환경에서 고
 
 ## <a name="step-3-turn-on-microsoft-365-defender"></a>3단계: Microsoft 365 Defender 켜기
 
-[Microsoft 365 Defender는](../security/mtp/microsoft-threat-protection.md) 신호를 결합하고 기능을 단일 솔루션으로 오케스트레이션합니다. 통합된 Microsoft 365 Defender 솔루션을 사용하여 보안 전문가는 이러한 각 제품이 수신하는 위협 신호를 통합하고 위협의 전체 범위와 영향을 확인할 수 있습니다. 환경이 환경에 들어오고 있는 방법, 영향을 받는 방법 및 현재 조직에 미치는 영향 Microsoft 365 Defender는 공격을 방지하거나 중지하고 영향을 받는 사서함, 끝점 및 사용자 ID를 자체적으로 고치기 위한 자동 조치를 취합니다.
+[Microsoft 365 Defender는](../security/defender/microsoft-365-defender.md) 신호를 결합하고 기능을 단일 솔루션으로 오케스트레이션합니다. 통합된 Microsoft 365 Defender 솔루션을 사용하여 보안 전문가는 이러한 각 제품이 수신하는 위협 신호를 통합하고 위협의 전체 범위와 영향을 확인할 수 있습니다. 환경이 환경에 들어오고 있는 방법, 영향을 받는 방법 및 현재 조직에 미치는 영향 Microsoft 365 Defender는 공격을 방지하거나 중지하고 영향을 받는 사서함, 끝점 및 사용자 ID를 자체적으로 고치기 위한 자동 조치를 취합니다.
 
 Microsoft 365 Defender는 경고, 인시던트, 자동화된 조사 및 대응, 고급 헌팅(ID용 Microsoft Defender, Office 365용 Microsoft Defender, 끝점용 Microsoft Defender 및 Microsoft Cloud App Security)을 단일 유리 환경 창으로 통합합니다. Office 365용 Defender 서비스를 하나 이상 구성한 후 Microsoft 365 Defender를 켜야 합니다. 새로운 기능은 계속해서 Microsoft 365 Defender에 추가됩니다. 미리 보기 기능을 받기 위해 옵트인(opt in)을 고려합니다.
 
@@ -85,22 +85,22 @@ Microsoft 365 Defender는 경고, 인시던트, 자동화된 조사 및 대응, 
 
 ![Microsoft 365 Defender 배포 프로세스](../media/deploy-threat-protection/deploy-mtp-steps.png) 
 
-1. [선행 준비를 검토합니다.](../security/mtp/prerequisites.md)
-2. [Microsoft 365 Defender를 켜기.](../security/mtp/mtp-enable.md)
-3. [미리 보기 기능을 옵트인(opt in)합니다.](../security/mtp/preview.md)
+1. [선행 준비를 검토합니다.](../security/defender/prerequisites.md)
+2. [Microsoft 365 Defender를 켜기.](../security/defender/m365d-enable.md)
+3. [미리 보기 기능을 옵트인(opt in)합니다.](../security/defender/preview.md)
 
 ### <a name="more-information-about-microsoft-365-defender"></a>Microsoft 365 Defender에 대한 자세한 정보
 
-- [Microsoft 365 Defender란 무엇인가요?](../security/mtp/microsoft-threat-protection.md)
-- [Microsoft 365 Defender의 새로운 기능](../security/mtp/whats-new.md)
+- [Microsoft 365 Defender란 무엇인가요?](../security/defender/microsoft-365-defender.md)
+- [Microsoft 365 Defender의 새로운 기능](../security/defender/whats-new.md)
 
 ## <a name="step-4-configure-microsoft-defender-for-office-365"></a>4단계: Office 365용 Microsoft Defender 구성
 
-[Microsoft Defender for Office 365는](../security/office-365-security/office-365-atp.md) 전자 메일 메시지(첨부 파일 및 URL), Office 문서 및 공동 작업 도구의 악의적인 위협에 대해 조직을 보호합니다. 다음 표에는 Microsoft 365 E5에 포함된 Microsoft Defender for Office 365 기능이 나열되어 있습니다.
+[Microsoft Defender for Office 365는](../security/defender-365-security/defender-for-office-365.md) 전자 메일 메시지(첨부 파일 및 URL), Office 문서 및 공동 작업 도구의 악의적인 위협에 대해 조직을 보호합니다. 다음 표에는 Microsoft 365 E5에 포함된 Microsoft Defender for Office 365 기능이 나열되어 있습니다.
 
 |구성, 보호 및 검색 기능|자동화, 조사, 수정 및 교육 기능|
 |---|---|
-|[안전한 첨부 파일](../security/office-365-security/atp-safe-attachments.md)<br/>[안전한 링크](../security/office-365-security/atp-safe-links.md)<br/>[안전한 문서](../security/office-365-security/safe-docs.md)<br/>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](../security/office-365-security/atp-for-spo-odb-and-teams.md)<br/>[Office 365용 Defender 보호의 피싱 방지](../security/office-365-security/set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)|[위협 트래커](../security/office-365-security/threat-trackers.md)<br/>[위협 탐색기](../security/office-365-security/threat-explorer.md)<br/>[자동화된 조사 및 응답](../security/office-365-security/office-365-air.md)<br/>[공격 시뮬레이터](../security/office-365-security/attack-simulator.md)|
+|[안전한 첨부 파일](../security/defender-365-security/safe-attachments.md)<br/>[안전한 링크](../security/defender-365-security/safe-links.md)<br/>[안전한 문서](../security/defender-365-security/safe-docs.md)<br/>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](../security/defender-365-security/mdo-for-spo-odb-and-teams.md)<br/>[Office 365용 Defender 보호의 피싱 방지](../security/defender-365-security/set-up-anti-phishing-policies.md#Exclusive-settings-in-anti-phishing-policies-in Microsoft-Defender-for-Office-365)|[위협 트래커](../security/defender-365-security/threat-trackers.md)<br/>[위협 탐색기](../security/defender-365-security/threat-explorer.md)<br/>[자동화된 조사 및 응답](../security/defender-365-security/office-365-air.md)<br/>[공격 시뮬레이터](../security/defender-365-security/attack-simulator.md)|
 |
 
 Office 365용 Microsoft Defender를 사용하여 조직의 사용자들이 전자 메일 콘텐츠 및 Office 문서에 대한 위협 방지를 통해 보다 안전하게 통신하고 공동 작업을 할 수 있습니다.
@@ -109,14 +109,14 @@ Office 365용 Microsoft Defender를 사용하여 조직의 사용자들이 전�
 
 ![Office 365용 Microsoft Defender 배포 프로세스](../media/deploy-threat-protection/deploy-office365-atp-steps.png) 
 
-1. [Office 365 정책에 대한 Microsoft Defender를 설정하고 구성합니다.](../security/office-365-security/protect-against-threats.md)
-2. [Office 365용 Microsoft Defender 보고서를 보고 사용 합니다.](../security/office-365-security/view-reports-for-atp.md)
-3. [위협 조사 및 응답 기능을 사용 합니다.](../security/office-365-security/office-365-ti.md)
+1. [Office 365 정책에 대한 Microsoft Defender를 설정하고 구성합니다.](../security/defender-365-security/protect-against-threats.md)
+2. [Office 365용 Microsoft Defender 보고서를 보고 사용 합니다.](../security/defender-365-security/view-reports-for-mdo.md)
+3. [위협 조사 및 응답 기능을 사용 합니다.](../security/defender-365-security/office-365-ti.md)
 
 ### <a name="more-information-about-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender에 대한 자세한 정보
 
-- [Microsoft Defender for Office 365 개요](../security/office-365-security/office-365-atp.md)
-- [Office 365용 Microsoft Defender의 새로운](../security/office-365-security/whats-new-in-office-365-atp.md)
+- [Microsoft Defender for Office 365 개요](../security/defender-365-security/defender-for-office-365.md)
+- [Office 365용 Microsoft Defender의 새로운](../security/defender-365-security/whats-new-in-defender-for-office-365.md)
 
 ## <a name="step-5-configure-microsoft-defender-for-endpoint"></a>5단계: 끝점용 Microsoft Defender 구성
 
@@ -162,19 +162,19 @@ Office 365용 Microsoft Defender를 사용하여 조직의 사용자들이 전�
 ![Microsoft 365 보안 센터](../media/solutions-architecture-center/m365-security-center.png)
 
 Microsoft 365 보안 센터는 보안 관리자 및 보안 운영 팀을 위한 것입니다. Microsoft 365 보안 센터에서 다음을 할 수 있습니다.
-- 보안 점수를 통해 조직의 전반적인 보안 [상태 보기](../security/mtp/microsoft-secure-score.md)
-- [ID,](../security/mtp/overview-security-center.md) 데이터, 장치, 앱 및 인프라의 상태에 대한 보고서를 모니터링하고 볼 수 있습니다.
-- 인시던트 를 통해 경고에 대한 점을 [연결합니다.](../security/mtp/incident-queue.md)
-- 자동화된 [조사 및](../security/mtp/mtp-autoir.md) 수정을 사용하여 위협을 해결합니다.
-- [침입 시도](../security/mtp/advanced-hunting-overview.md)또는 전자 메일, 데이터, 장치 및 ID에 영향을 주는 위반 활동과 같은 위협을 사전 예방적으로 헌팅합니다.
-- [위협 분석을 사용하여](../security/mtp/latest-attack-campaigns.md) 최신 공격 캠페인 및 기술을 이해합니다.
+- 보안 점수를 통해 조직의 전반적인 보안 [상태 보기](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score)
+- [ID,](https://docs.microsoft.com/microsoft-365/security/defender/monitoring-and-reporting) 데이터, 장치, 앱 및 인프라의 상태에 대한 보고서를 모니터링하고 볼 수 있습니다.
+- 인시던트 를 통해 경고에 대한 점을 [연결합니다.](https://docs.microsoft.com/microsoft-365/security/defender/incident-queue)
+- 자동화된 [조사 및](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir) 수정을 사용하여 위협을 해결합니다.
+- [침입 시도](https://docs.microsoft.com/microsoft-365/security/defender/advanced-hunting-overview)또는 전자 메일, 데이터, 장치 및 ID에 영향을 주는 위반 활동과 같은 위협을 사전 예방적으로 헌팅합니다.
+- [위협 분석을 사용하여](https://docs.microsoft.com/microsoft-365/security/defender/latest-attack-campaigns) 최신 공격 캠페인 및 기술을 이해합니다.
 - ... 그리고 더 많은!
 
 ### <a name="more-information-about-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터에 대한 자세한 정보
 
-- [Microsoft 365 보안 센터를 시작 합니다.](../security/mtp/overview-security-center.md)
-- [보고서를 모니터링하고 볼 수 있습니다.](../security/mtp/overview-security-center.md)
-- [Microsoft 365의 보안 포털을 참조합니다.](../security/mtp/portals.md)
+- [Microsoft 365 보안 센터를 시작 합니다.](../security/defender/overview-security-center.md)
+- [보고서를 모니터링하고 볼 수 있습니다.](../security/defender/overview-security-center.md)
+- [Microsoft 365의 보안 포털을 참조합니다.](../security/defender/portals.md)
 
 ## <a name="step-8-train-users"></a>8단계: 사용자 교육
 
