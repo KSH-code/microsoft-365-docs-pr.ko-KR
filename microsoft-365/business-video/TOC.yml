@@ -49,6 +49,8 @@
       items:
         - name: Outlook 및 Teams 사용
           href: collab-outlook-teams.md
+        - name: 중소기업에서 Microsoft Teams 시작
+          href: get-started-teams-small-business.md
         - name: 그룹 전자 메일 주소 만들기
           href: group-email.md
         - name: 공유 일정 만들기
