@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 관리자 및 메시지 보낸 사람은 Office 365 고급 메시지 암호화로 암호화된 특정 전자 메일을 해지할 수 있습니다.
-ms.openlocfilehash: b49915b6ef72d366a4b2718319150d2d5b640b9f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 340a9e73dba50e28223ee561db749a089c649df6
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917200"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051720"
 ---
 # <a name="revoke-email-encrypted-by-advanced-message-encryption"></a>고급 메시지 암호화로 암호화된 전자 메일 해지
 
@@ -91,7 +91,7 @@ Microsoft 365 관리자는 다음과 같은 일반적인 단계에 따라 적합
 
 #### <a name="to-identify-the-message-id-of-the-email-you-want-to-revoke-by-using-office-message-encryption-reports-in-the-security-amp-compliance-center"></a>보안 및 준수 센터에서 Office 메시지 암호화 보고서를 사용하여 해지하려는 전자 메일의 메시지 ID를 &amp; 식별하기 위해
 
-1. 보안 및 &amp; 준수 센터에서 메시지 암호화 **보고서로 이동합니다.** 이 보고서에 대한 자세한 내용은 보안 및 준수 센터에서 전자 메일 [보안 보고서 &amp; 보기를 참조하세요.](../security/office-365-security/view-email-security-reports.md)
+1. 보안 및 &amp; 준수 센터에서 메시지 암호화 **보고서로 이동합니다.** 이 보고서에 대한 자세한 내용은 보안 및 준수 센터에서 전자 메일 [보안 보고서 &amp; 보기를 참조하세요.](../security/defender-365-security/view-email-security-reports.md)
 
 2. 세부 **정보 보기 테이블을** 선택하고 해지할 메시지를 식별합니다.
 

@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: Microsoft 준수 관리자가 위험을 해결하고 규정 준수 환경을 개선하기 위해 취한 조치를 기반으로 개인 설정된 점수를 계산하는 방법을 이해합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 75d340c31b4f5477df845531bfb933883f331198
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 756ce207b1e9583bf63f19351e85955950487404
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908578"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052116"
 ---
 # <a name="compliance-score-calculation"></a>준수 점수 계산
 
@@ -61,7 +61,7 @@ ms.locfileid: "50908578"
 
 예를 들어 Azure AD 포털에서 MFA(다단계 인증)를 설정하면 준수 관리자가 설정을 검색하여 컨트롤 액세스 솔루션 세부 정보에 반영합니다. 반대로, MFA를 설정하지 않은 경우 준수 관리자는 권장 작업으로 플래그를 지정합니다.
 
-보안 점수 및 작동 [방식에 대해 자세히 알아보시다.](../security/mtp/microsoft-secure-score.md)
+보안 점수 및 작동 [방식에 대해 자세히 알아보시다.](../security/defender/microsoft-secure-score.md)
   
 ## <a name="action-types-and-points"></a>작업 유형 및 포인트
 
@@ -96,7 +96,7 @@ ms.locfileid: "50908578"
 
 ### <a name="mandatory-and-discretionary-actions"></a>필수 및 재량 작업
 
- - **필수 작업은** 의도적으로 또는 실수로 무시할 수 없습니다. 필수 작업의 예로는 암호 길이, 복잡성 및 만료 요구 사항을 설정하는 중앙에서 관리되는 암호 정책이 있습니다. 사용자는 시스템에 액세스하려면 다음 요구 사항을 따라야 합니다.
+ - **필수 작업은** 의도적으로 또는 실수로 무시할 수 없습니다. 필수 작업의 예로는 암호 길이, 복잡성 및 만료 요구 사항을 설정하는 중앙에서 관리되는 암호 정책이 있습니다. 사용자가 시스템에 액세스하려면 다음 요구 사항을 따라야 합니다.
   
  - **사용자 재량 작업은** 사용자가 정책을 이해하고 준수하는 데 필요합니다. 예를 들어 사용자가 컴퓨터를 떠날 때 컴퓨터를 잠그게 하는 정책은 사용자에게 의존하기 때문에 사용자에 따라 결정됩니다.
   

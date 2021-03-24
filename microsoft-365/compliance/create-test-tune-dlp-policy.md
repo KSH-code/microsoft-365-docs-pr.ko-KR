@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 이 문서에서는 조직의 요구에 따라 DLP 정책을 만들고 테스트하고 조정하는 방법을 배우게 됩니다.
-ms.openlocfilehash: d26412eb54176dfd3c5d881d82076b2a58330ebd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bd4857a2baefb22d789fc713a537d7e4a656718d
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923454"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052086"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 
@@ -50,7 +50,7 @@ DLP 정책을 만드는 규정 준수 팀 구성원에게는 준수 센터에 �
 
 보기 전용 **DLP 준수 관리** 역할을 사용하여 DLP 정책 및 DLP 보고서에 대한 보기 전용 권한이 있는 역할 그룹을 만들 수 있습니다.
 
-더 자세한 내용은 [Office 365 준수 센터 액세스 권한 부여하기](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참고하십시오.
+더 자세한 내용은 [Office 365 준수 센터 액세스 권한 부여하기](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md)를 참고하십시오.
   
 이러한 사용 권한은 정책을 적용하지 않는 DLP 정책을 만들고 적용하는 데 필요합니다.
 

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: eDiscovery 및 검색 도구를 사용하여 조직의 데이터 유출 인시던트 관리 및 대응
-ms.openlocfilehash: 9ca637dcd3b4b07846d977d64f535b7b5319d884
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: da473fcdf553176d3c6d4dfa2a4c4b17b2bcce03
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925684"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051980"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오 - 검색 및 제거
 
@@ -121,7 +121,7 @@ eDiscovery 사례와 연결된 콘텐츠 검색을 만들 내용은 [Core eDisco
   
 보안 및 규정 준수 센터에서 메시지 추적을 사용하거나 Exchange Online PowerShell에서 해당 cmdlet을 사용할 수 있습니다. 메시지 추적은 반환된 데이터의 완전성을 완전하게 보장하지 않습니다. 메시지 추적 사용에 대한 자세한 내용은 다음을 참조하세요. 
   
-- [보안 및 준수 센터의 메시지 추적](../security/office-365-security/message-trace-scc.md)
+- [보안 및 준수 센터의 메시지 추적](../security/defender-365-security/message-trace-scc.md)
     
 - [보안 및 준수 센터의 & 메시지 추적](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)
     

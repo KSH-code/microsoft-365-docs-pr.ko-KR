@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 18ab0065a4a6c90f61730a313eb8c54f538fafab
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: aa3af1e3cf507178a5747cca28fbda543aecd334
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918054"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052126"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
 
@@ -112,13 +112,13 @@ ms.locfileid: "50918054"
 
 9. 닫기 **를** 선택하여 단계를 완료합니다.
 
-역할 그룹 및 사용 권한에 대한 자세한 내용은 [Permissions in the Compliance Center을 참조하세요.](../security/office-365-security/protect-against-threats.md)
+역할 그룹 및 사용 권한에 대한 자세한 내용은 [Permissions in the Compliance Center을 참조하세요.](../security/defender-365-security/protect-against-threats.md)
 
 ## <a name="step-2-required-enable-the-audit-log"></a>2단계(필수): 감사 로그 사용
 
 커뮤니케이션 규정 준수를 위해서는 경고를 표시하고 검토자에 의해 수행된 수정 작업을 추적하기 위한 감사 로그가 필요합니다. 감사 로그는 정의된 조직 정책과 연결된 모든 활동 또는 커뮤니케이션 준수 정책이 변경될 때를 요약한 것입니다.
 
-감사를 켜는 단계별 지침은 감사 로그 검색 켜기 또는 [끄기 를 참조하세요.](turn-audit-log-search-on-or-off.md) 감사를 켜면 감사 로그가 준비되고 있으며 준비가 완료된 후 몇 시간 후에 검색을 실행할 수 있습니다. 이 작업은 한 번만 수행하면 됩니다. 감사 로그 사용에 대한 자세한 내용은 감사 로그 [검색을 참조하세요.](search-the-audit-log-in-security-and-compliance.md)
+감사를 켜는 단계별 지침은 감사 로그 검색 켜기 또는 [끄기 를 참조하세요.](turn-audit-log-search-on-or-off.md) 감사를 설정하면 감사 로그가 준비되고 있으며 준비가 완료된 후 몇 시간 내에 검색을 실행할 수 있다는 메시지가 표시됩니다. 이 작업은 한 번만 수행하면 됩니다. 감사 로그 사용에 대한 자세한 내용은 감사 로그 [검색을 참조하세요.](search-the-audit-log-in-security-and-compliance.md)
 
 ## <a name="step-3-optional-set-up-groups-for-communication-compliance"></a>3단계(선택 사항): 통신 규정 준수를 위한 그룹 설정
 

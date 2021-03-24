@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-compliance
 localization_priority: Normal
 description: Microsoft 365에서 규정 준수를 빠르게 시작하는 데 도움이 되는 작업에 대해 설명합니다.
-ms.openlocfilehash: 69aef07e65f5644f9aa294025c8388410f160243
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b8a6f98a38dcb6096287cbc2389648c0e7457e5c
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908588"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052106"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Microsoft 365 규정 준수를 시작하기 위한 빠른 작업
 
@@ -34,22 +34,22 @@ Microsoft 365 규정 준수를 새로 시작하고 시작할 위치가 궁금한
 
 먼저 조직 내 사용자에게 규정 준수 권한을 할당하여 이러한 작업을 수행할 수 있도록 하고 권한이 없는 사용자가 업무 외의 영역에 액세스하지 못하도록 합니다. Microsoft 365에 포함된 규정 준수 솔루션을 구성하고 구현하기  전에 규정 준수 데이터 관리자 및 준수 관리자 관리자 역할에 적절한 인원을 할당해야 합니다.  또한 준수 관리자에서 데이터를 보기 위해 Azure Active Directory 전역 읽기 프로그램 역할에 사용자를 할당해야 합니다.
 
-사용 권한을 구성하고 관리자 역할에 사용자 할당을 위한 단계별 지침은 Security & Compliance Center의 사용 권한을 [참조하세요.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
+사용 권한을 구성하고 관리자 역할에 사용자 할당을 위한 단계별 지침은 Security & Compliance Center의 사용 권한을 [참조하세요.](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md)
 
 ## <a name="task-2-know-your-state-of-compliance"></a>작업 2: 규정 준수 상태 알기
 
 현재 위치를 모르는 경우 어디로 이동해야 하는지 알기 어렵습니다. 규정 준수 요구 사항을 충족하는 데는 현재 위험 수준과 이러한 변화하는 시간의 업데이트에 대한 이해가 포함됩니다. 조직이 규정 준수 요구 사항을 잘 알고 있는지 아니면 업계를 관리하기 위한 표준 및 규정에 대해 깊이 있는 경험이 있는지에 관계 없는 경우 규정 준수를 개선하기 위해 할 수 있는 한 가지 최선의 일은 조직이 어떤 일을 하는지 이해하는 것입니다.
 
-[Microsoft 준수 관리자는](compliance-manager.md) 조직의 규정 준수 자세를 이해하고 개선이 필요할 수 있는 영역을 강조 표시하는 데 도움을 줄 수 있습니다. 준수 관리자는 중앙 집중식 대시보드를 사용하여 위험 기반 점수를 계산하여 데이터 보호 및 규정 표준에 대한 위험을 줄이는 데 도움이 되는 작업을 완료하는 진행 상황을 측정합니다. 준수 관리자를 도구로 사용하여 모든 위험 평가를 추적할 수도 있습니다. 일반적인 도구를 통해 위험 평가를 효율적으로 완료하는 데 도움이 되는 워크플로 기능을 제공합니다.
+[Microsoft 준수 관리자는](compliance-manager.md) 조직의 규정 준수 자세를 이해하고 개선이 필요할 수 있는 영역을 강조 표시하는 데 도움을 줄 수 있습니다. 준수 관리자는 중앙 집중식 대시보드를 사용하여 위험 기반 점수를 계산하여 데이터 보호 및 규정 표준에 대한 위험을 줄이는 데 도움이 되는 작업을 완료하는 진행 상황을 측정합니다. 준수 관리자를 도구로 사용하여 모든 위험 평가를 추적할 수도 있습니다. 이 도구는 일반적인 도구를 통해 위험 평가를 효율적으로 완료할 수 있는 워크플로 기능을 제공합니다.
 
 준수 관리자를 시작하는 단계별 지침은 준수 관리자 [시작을 참조하세요.](compliance-manager-setup.md)
 
 >[!IMPORTANT]
 >보안 및 규정 준수는 대부분의 조직에 긴밀하게 통합되어 있습니다. 조직에서 기본 보안, 위협 방지 및 ID 및 액세스 관리 영역을 해결하여 보안 및 규정 준수에 대한 심층 방어를 제공하는 것이 중요합니다.
 >
->Microsoft [365](../security/mtp/microsoft-secure-score.md) 보안 센터에서 Microsoft 365 보안 점수를 확인하고 다음 문서에 설명된 작업을 완료합니다.
+>Microsoft [365](../security/defender/microsoft-secure-score.md) 보안 센터에서 Microsoft 365 보안 점수를 확인하고 다음 문서에 설명된 작업을 완료합니다.
 >
-> - [보안 로드맵 - 처음 30일, 90일 및 그 이상에 대한 최상위 우선 순위](../security/office-365-security/security-roadmap.md)
+> - [보안 로드맵 - 처음 30일, 90일 및 그 이상에 대한 최상위 우선 순위](../security/defender-365-security/security-roadmap.md)
 > - [보안 팀이 집에서 작업할 수 있는 상위 12개 작업](../security/top-security-tasks-for-remote-work.md)
 
 ## <a name="task-3-enable-auditing-for-your-organization"></a>작업 3: 조직에 대한 감사를 사용하도록 설정

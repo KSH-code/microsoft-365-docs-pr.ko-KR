@@ -16,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365 메시지 암호화를 사용하여 메시지를 암호화하고 암호 해독하는 메일 흐름 규칙(전송 규칙)을 만드는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 5c0f67acdb5d8fbfff216742cab1c49732c4ab24
-ms.sourcegitcommit: 30c3054004ddc9d6059c11d55577552aa2464810
+ms.openlocfilehash: 63b1b0ba3b13f5beecd049a8ef81d6355855626f
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "50939649"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051940"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages"></a>전자 메일 메시지를 암호화하는 메일 흐름 규칙 정의
 
@@ -122,7 +122,7 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화 제거를
 
 아직 조직을 새 OME 기능으로 이동하지 않은 경우 조직에 적절한 새 OME 기능으로 이동하는 계획을 세우는 것이 좋습니다. 자세한 내용은 Azure Information Protection을 바탕으로 구축된 [새 Office 365](set-up-new-message-encryption-capabilities.md)메시지 암호화 기능 설치를 참조하세요. 그렇지 않으면 새 OME 기능을 사용하지 않는 Office 365 메시지 암호화에 대한 메일 흐름 규칙 [정의를 참조하세요.](legacy-information-for-message-encryption.md#defining-mail-flow-rules-for-office-365-message-encryption-that-dont-use-the-new-ome-capabilities)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365의 암호화](encryption.md)
 
@@ -132,4 +132,4 @@ EAC를 사용하여 새 OME 기능을 사용하여 메시지 암호화 제거를
 
 [Exchange Online의 메일 흐름 규칙(전송 규칙)](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
 
-[Exchange Online Protection의 메일 흐름 규칙(전송 규칙)](../security/office-365-security/mail-flow-rules-transport-rules-0.md)
+[Exchange Online Protection의 메일 흐름 규칙(전송 규칙)](../security/defender-365-security/mail-flow-rules-transport-rules-0.md)

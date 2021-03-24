@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 1adffc35-38e5-4f7d-8495-8e0e8721f377
 description: 콘텐츠 검색 권한 필터링을 사용하여 eDiscovery 관리자가 조직의 사서함 및 사이트의 하위 집합만 검색할 수 있도록 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be1daa4785f67ef54f107319bf88438c134896ec
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 78d36ccd602ea546099e768d7e91594a668df586
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927986"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051730"
 ---
 # <a name="configure-permissions-filtering-for-content-search"></a>콘텐츠 검색에 대한 권한 필터링 구성
 
@@ -45,7 +45,7 @@ ms.locfileid: "50927986"
 
 ## <a name="requirements-to-configure-permissions-filtering"></a>사용 권한 필터링 구성 요구 사항
 
-- 준수 보안 필터 cmdlet을 실행하기 위해 보안 및 준수 센터에서 조직 관리 역할 & 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+- 준수 보안 필터 cmdlet을 실행하기 위해 보안 및 준수 센터에서 조직 관리 역할 & 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
 - 준수 보안 필터 cmdlet을 사용 & Exchange Online 및 보안 센터 PowerShell에 연결해야 합니다. 이러한 cmdlet을 사용하려면 사서함 속성에 액세스해야 하기 때문에 Exchange Online PowerShell에 연결해야 합니다. 다음 섹션의 단계를 참조하세요.
 
