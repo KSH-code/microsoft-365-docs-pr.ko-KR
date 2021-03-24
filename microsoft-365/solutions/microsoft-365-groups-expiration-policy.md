@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 그룹 만료 정책에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 8232e7df2a8390b905386773ed0656eb8239d5c5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 65a746751cd523a5dadce3eca573e6a9bfce0166
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920919"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052305"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365 그룹 만료 정책
 
@@ -37,6 +37,8 @@ Microsoft 365 그룹 및 Microsoft Teams의 사용이 증가하면 관리자와 
 - SharePoint - 파일을 보기, 편집, 다운로드, 이동, 공유 또는 업로드합니다. (SharePoint 페이지 보기는 자동 갱신 작업으로 계산되지 않습니다.)
 - Outlook - 그룹에 가입하거나 그룹에서 그룹 메시지를 읽거나 쓰며 메시지(웹용 Outlook)처럼 표시됩니다.
 - Teams - 팀 채널 방문
+
+자동 그룹 갱신을 트리거하는 Yammer 활동은 커뮤니티 내에서 SharePoint로 문서를 업로드하는 것뿐입니다.
 
 > [!IMPORTANT]
 > 만료 정책을 변경하면 서비스에서 각 그룹의 만료 날짜를 다시 계산합니다. 항상 그룹이 만들어진 날짜부터 계산을 시작한 다음 새 만료 정책을 적용합니다.
@@ -81,7 +83,7 @@ Microsoft 365 그룹 및 Microsoft Teams의 사용이 증가하면 관리자와 
 
 더 이상 사용할 계획이 없는 그룹이 있지만 해당 콘텐츠를 보존하려는 경우 보관 [그룹,](end-life-cycle-groups-teams-sites-yammer.md) 팀 및 Yammer 그룹 서비스에서 정보를 내보내는 방법에 대한 자세한 내용을 참조하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 

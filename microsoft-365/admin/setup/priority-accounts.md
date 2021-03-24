@@ -13,12 +13,12 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: 비즈니스에 큰 영향을 미치는 계정으로 보내거나 보낸 전자 메일로 전송된 실패 및 지연된 전자 메일 메시지를 모니터링합니다.
-ms.openlocfilehash: b31cbf79b5b1b8f882c4c7bc8926779410baefe3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0bba1f87f80de9fea249ce2604e83ceeadfb79ee
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914057"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050645"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>우선 순위 계정 관리 및 모니터링
 
@@ -26,10 +26,10 @@ ms.locfileid: "50914057"
 
 조직에서 이러한 계정을 보호할 수 있도록 이제 특정 사용자를 우선 순위 계정으로 지정하고 추가 보호를 제공하는 앱별 기능을 활용할 수 있습니다. 앞으로 더 많은 앱 및 기능이 우선 순위 계정을 지원할 예정으로, 우선  순위 계정 보호 및 프리미엄 메일 흐름 모니터링의 두 가지 기능을 **발표했습니다.**
 
-- **우선** 순위 계정 보호 - Office 365용 Microsoft Defender(이전의 Office 365 Advanced Threat Protection)는 경고, 보고서 및 조사에서 필터에 사용할 수 있는 태그로 우선 순위 계정을 지원합니다. 자세한 내용은 Microsoft [Defender for Office 365의 사용자 태그를 참조하십시오.](../../security/office-365-security/user-tags.md)
+- **우선** 순위 계정 보호 - Office 365용 Microsoft Defender(이전의 Office 365 Advanced Threat Protection)는 경고, 보고서 및 조사에서 필터에 사용할 수 있는 태그로 우선 순위 계정을 지원합니다. 자세한 내용은 Microsoft [Defender for Office 365의 사용자 태그를 참조하십시오.](../../security/defender-365-security/user-tags.md)
 - **고급 메일 흐름 모니터링** - 정상 메일 흐름은 비즈니스 성공에 중요할 수 있으며, 배달 지연 또는 오류는 비즈니스에 부정적인 영향을 미칠 수 있습니다. 실패 또는 지연된 전자 메일에 대한 임계값을 선택하고, 해당 임계값을 초과하면 경고를 수신하고, 우선 순위 계정에 대한 전자 메일 문제에 대한 보고서를 볼 수 있습니다. 자세한 내용은 최신 [EAC에서](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) 우선 순위 계정 보고서에 대한 전자 메일 문제 확인
 
-우선 순위 계정에 대한 보안 모범 사례는 우선 순위 계정에 [대한 보안 권장 사항을 참조하세요.](../../security/office-365-security/security-recommendations-for-priority-accounts.md)
+우선 순위 계정에 대한 보안 모범 사례는 우선 순위 계정에 [대한 보안 권장 사항을 참조하세요.](../../security/defender-365-security/security-recommendations-for-priority-accounts.md)
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -83,6 +83,6 @@ ms.locfileid: "50914057"
 
 4. 우선 **순위 계정** 페이지에서 목록에서 제거할 사용자를 선택하고 계정 **제거를 선택합니다.**
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 365에서 우선 순위 계정 사용](https://techcommunity.microsoft.com/t5/microsoft-365-blog/using-priority-accounts-in-microsoft-365/ba-p/1873314)

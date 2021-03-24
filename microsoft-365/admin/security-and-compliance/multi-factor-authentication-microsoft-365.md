@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365의 다단계 인증에 대한 자세한 정보
-ms.openlocfilehash: e1635e48e3948425a6d91f80fd07d50c474b73d7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 080251efa7d7d3bda6ad89e95960e43dd38d076d
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914513"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050669"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Microsoft 365에 대한 다단계 인증 사용
 
@@ -127,7 +127,7 @@ Enterprises는 [공통 조건부 액세스 정책](/azure/active-directory/condi
 
 ### <a name="azure-ad-identity-protection"></a>Azure AD ID 보호
 
-Azure AD ID 보호 기능을 사용하여 [로그인 위험이 중간에서 높음일 때 MFA를 요구](../../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk)하는 추가 조건부 액세스 정책을 만들 수 있습니다.
+Azure AD ID 보호 기능을 사용하여 [로그인 위험이 중간에서 높음일 때 MFA를 요구](../../security/defender-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk)하는 추가 조건부 액세스 정책을 만들 수 있습니다.
 
 다음에서는 Azure AD ID 보호 및 위험 기반 조건부 액세스 정책을 사용할 수 있습니다.
 

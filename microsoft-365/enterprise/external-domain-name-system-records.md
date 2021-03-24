@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0
 description: Office 365 배포를 계획할 때 사용할 외부 Domain Name System 레코드의 참조 목록입니다.
-ms.openlocfilehash: c2384f1e330692d43c923a7932db4c3ff2bc99ae
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3aa6bf3362005eb0dae5bca40322fe2178d5d69f
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924215"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051381"
 ---
 # <a name="external-domain-name-system-records-for-office-365"></a>Office 365에 대한 외부 Domain Name System 레코드
 
@@ -103,7 +103,7 @@ Exchange 페더레이션을 사용하는 전자 메일 고객의 경우 표 아�
 <a name="BKMK_SPFrecords"> </a>
 
 > [!IMPORTANT]
-> SPF는 스푸핑을 방지하도록 설계되었지만 SPF가 방어할 수 없는 스푸핑 기술이 있습니다. 이를 방어하려면 SPF를 설정한 후에 Office 365에 대해 DKIM 및 DMARC도 구성해야 합니다. 이를 시작하려면 [DKIM을 사용하여 Office 365의 도메인에서 보낸 아웃바운드 전자 메일의 유효성을 검사하는 방법](../security/office-365-security/use-dkim-to-validate-outbound-email.md)을 참조하세요. 다음으로, [DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사](../security/office-365-security/use-dmarc-to-validate-email.md)를 참조하세요.
+> SPF는 스푸핑을 방지하도록 설계되었지만 SPF가 방어할 수 없는 스푸핑 기술이 있습니다. 이를 방어하려면 SPF를 설정한 후에 Office 365에 대해 DKIM 및 DMARC도 구성해야 합니다. 이를 시작하려면 [DKIM을 사용하여 Office 365의 도메인에서 보낸 아웃바운드 전자 메일의 유효성을 검사하는 방법](../security/defender-365-security/use-dkim-to-validate-outbound-email.md)을 참조하세요. 다음으로, [DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사](../security/defender-365-security/use-dmarc-to-validate-email.md)를 참조하세요.
   
 SPF 레코드는 다른 사용자가 사용자의 도메인을 사용하여 스팸 또는 기타 악성 전자 메일을 보내지 못하도록하는 TXT 레코드입니다. Sender Policy Framework(SPF) 레코드는 사용자의 도메인에서 전자 메일을 보낼 수 있는 서버를 식별하여 작동합니다.
   
@@ -125,7 +125,7 @@ Values: v=spf1 include:spf.protection.outlook.com -all
 Office 365용 Exchange Online 전자 메일을 사용하지 않는 시나리오의 경우(예: SharePoint Online에서 만든 전자 메일을 사용하는 경우 등)에는 다음 표를 사용하여 레코드 값에 포함할 내용을 결정합니다.
   
 > [!NOTE]
-> 예를 들어, 방화벽을 통해 전자 메일 트래픽을 관리하기 위한 에지 전자 메일 서버를 포함하는 복잡한 시나리오가있는 경우 더욱 자세한 SPF 레코드를 설정해야합니다. 방법 알아보기:[스푸핑을 방지하기 위해 Office 365에서 SPF 레코드를 설정합니다](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md). 또한, [스푸핑을 방지하기 위해 Office 365에서 Sender Policy Framework (SPF)를 사용하는 방법](../security/office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md)을 참조하여 Office 365에서 SPF가 작동하는 방식에 대해 자세히 알아볼 수 있습니다.
+> 예를 들어, 방화벽을 통해 전자 메일 트래픽을 관리하기 위한 에지 전자 메일 서버를 포함하는 복잡한 시나리오가있는 경우 더욱 자세한 SPF 레코드를 설정해야합니다. 방법 알아보기:[스푸핑을 방지하기 위해 Office 365에서 SPF 레코드를 설정합니다](../security/defender-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md). 또한, [스푸핑을 방지하기 위해 Office 365에서 Sender Policy Framework (SPF)를 사용하는 방법](../security/defender-365-security/how-office-365-uses-spf-to-prevent-spoofing.md)을 참조하여 Office 365에서 SPF가 작동하는 방식에 대해 자세히 알아볼 수 있습니다.
   
 | 숫자|다음를 사용하는 경우...  <br/> |용도  <br/> |추가할 포함 내용  <br/> |
 |:-----|:-----|:-----|:-----|
@@ -181,6 +181,6 @@ TXT Name @
 Values: v=spf1 include:spf.protection.outlook.com include:mail.contoso.com -all
 ```
 
-다음은 전자 메일에 대해 도메인을 Office 365에 추가할 때 기존 SPF 레코드를 조정하는 데 도움이 되는 몇 가지 일반적인 예입니다. 예를 들어, 방화벽을 통해 전자 메일 트래픽을 관리하기 위한 에지 전자 메일 서버를 포함하는 복잡한 시나리오가 있는 경우, 더욱 자세한 SPF 레코드를 설정해야 합니다. 방법 알아보기: [스푸핑을 방지하기 위해 Office 365에서 SPF 레코드를 설정합니다](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md).
+다음은 전자 메일에 대해 도메인을 Office 365에 추가할 때 기존 SPF 레코드를 조정하는 데 도움이 되는 몇 가지 일반적인 예입니다. 예를 들어, 방화벽을 통해 전자 메일 트래픽을 관리하기 위한 에지 전자 메일 서버를 포함하는 복잡한 시나리오가 있는 경우, 더욱 자세한 SPF 레코드를 설정해야 합니다. 방법 알아보기: [스푸핑을 방지하기 위해 Office 365에서 SPF 레코드를 설정합니다](../security/defender-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md).
   
 다음의 간단한 링크를 사용할 수 있습니다. [https://aka.ms/o365edns]()

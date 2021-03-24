@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용하여 엔터프라이즈용 Microsoft 365 테스트 환경을 추가로 Microsoft 365 보안 설정을 사용하도록 설정할 수 있습니다.
-ms.openlocfilehash: 928deae34dc16c70776eb512188d1a36ae169da5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 186452396af4227a94a7f6cd0fa0109e9d6a7e17
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909789"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051273"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-for-enterprise-test-environment"></a>엔터프라이즈용 Microsoft 365 테스트 환경에 대한 Microsoft 365 보안 강화
 
@@ -47,7 +47,7 @@ ms.locfileid: "50909789"
 
 ### <a name="configure-sharepoint-online-to-block-apps-that-dont-support-modern-authentication"></a>최신 인증을 지원하지 않는 앱을 차단하도록 SharePoint Online 구성
 
-최신 인증을 지원하지 않는 [](../security/office-365-security/microsoft-365-policies-configurations.md) 앱에는 ID 및 장치 액세스 구성을 적용할 수 없습니다. 이는 Microsoft 365 구독 및 디지털 자산을 보호하는 데 중요한 요소입니다. 
+최신 인증을 지원하지 않는 [](../security/defender-365-security/microsoft-365-policies-configurations.md) 앱에는 ID 및 장치 액세스 구성을 적용할 수 없습니다. 이는 Microsoft 365 구독 및 디지털 자산을 보호하는 데 중요한 요소입니다. 
 
 1. Microsoft 365 관리 센터()로 이동하여 전역 관리자 계정으로 Microsoft 365 테스트 랩 구독에 [https://portal.microsoft.com](https://portal.microsoft.com) 로그인합니다.
     
@@ -77,7 +77,7 @@ SharePoint, OneDrive 및 Microsoft Teams용 Office 365용 Defender는 악성 파
 
 맬웨어는 바이러스 및 스파이웨어로 구성됩니다. 바이러스는 다른 프로그램 및 데이터를 감염시키며 컴퓨터 전체로 전파되어 감염시킬 프로그램을 찾습니다. 스파이웨어는 로그인 정보와 개인 데이터 등의 개인 정보를 수집하여 이를 맬웨어 작성자에게 보내는 맬웨어입니다. 
 
-Microsoft 365에는 맬웨어 및 스팸 필터링 기능이 내장되어 있으며 인바운드 및 아웃바운드 메시지를 악성 소프트웨어로부터 보호하고 스팸으로부터 보호하는 데 도움이 됩니다. 자세한 내용은 맬웨어 방지 [보호 & 스팸 방지를 참조하세요.](../security/office-365-security/anti-spam-and-anti-malware-protection.md)
+Microsoft 365에는 맬웨어 및 스팸 필터링 기능이 내장되어 있으며 인바운드 및 아웃바운드 메시지를 악성 소프트웨어로부터 보호하고 스팸으로부터 보호하는 데 도움이 됩니다. 자세한 내용은 맬웨어 방지 [보호 & 스팸 방지를 참조하세요.](../security/defender-365-security/anti-spam-and-anti-malware-protection.md)
 
 일반적인 첨부 파일 형식의 파일에 대해 맬웨어 방지 처리가 수행되도록 보장하려면
 
@@ -100,7 +100,7 @@ Microsoft 365의 위협 관리는 조직의 데이터에 대한 모바일 장치
 
 대시보드의 모든 카드를 살펴보고 제공된 정보를 익히세요.
 
-자세한 내용은 보안 [대시보드를 참조하세요.](../security/office-365-security/security-dashboard.md)
+자세한 내용은 보안 [대시보드를 참조하세요.](../security/defender-365-security/security-dashboard.md)
 
 
 ## <a name="phase-4-examine-microsoft-secure-score"></a>4단계: Microsoft 보안 점수 검사
@@ -111,7 +111,7 @@ Microsoft 보안 점수는 구독에서 사용할 수 있는 기능을 상대로
 2. 개요 **탭에서**  현재 보안 점수와 전역 평균 및 라이선스 수가 비슷한 구독과 비교하는 방법을 기록해 넣습니다.
 3. 개선 **작업 탭에서** 점수를 높이기 위해 수행할 수 있는 작업 목록을 읽어 읽습니다.
 
-자세한 내용은 Microsoft 보안 점수를 [참조하세요.](../security/mtp/microsoft-secure-score.md)
+자세한 내용은 Microsoft 보안 점수를 [참조하세요.](../security/defender/microsoft-secure-score.md)
 
 ## <a name="next-steps"></a>다음 단계
 

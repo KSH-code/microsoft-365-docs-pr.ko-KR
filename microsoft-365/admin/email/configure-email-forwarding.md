@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Office365를 사용하여 하나 이상의 전자 메일 계정으로 전자 메일 전달을 설정할 수 있습니다.
-ms.openlocfilehash: 593a4d1ca906bdee44ec00e260949ff75b582340
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cdefab3df59f1c57abbc221943b58c978ff582a9
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915893"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050717"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>Microsoft 365에서 전자 메일 전달 구성
 
@@ -42,7 +42,7 @@ ms.locfileid: "50915893"
 조직의 관리자는 사용자 사서함에 대한 전자 메일 전달을 설정해야 하는 회사 요구 사항이 있을 수 있습니다. 전자 메일 전달을 사용하면 사용자 사서함으로 전송된 전자 메일 메시지를 조직 내부 또는 외부의 다른 사용자의 사서함으로 전달할 수 있습니다.
 
 > [!IMPORTANT]
-> 아웃바운드 스팸 필터 정책을 사용하여 외부 받는 사람에게 자동 전달을 제어할 수 있습니다. 자세한 내용은 [Microsoft 365에서](../../security/office-365-security/external-email-forwarding.md?preserve-view=true&view=o365-worldwide#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls)자동 외부 전자 메일 전달 제어를 참조하세요.
+> 아웃바운드 스팸 필터 정책을 사용하여 외부 받는 사람에게 자동 전달을 제어할 수 있습니다. 자세한 내용은 [Microsoft 365에서](https://docs.microsoft.com/microsoft-365/security/defender-365-security/external-email-forwarding?view=o365-worldwide&preserve-view=true#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls)자동 외부 전자 메일 전달 제어를 참조하세요.
 
 ## <a name="configure-email-forwarding"></a>전자 메일 전달 구성
 

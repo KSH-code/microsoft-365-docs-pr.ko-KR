@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 엔터프라이즈용 Microsoft 365의 정보 보호 기능을 사용하여 클라우드에서 디지털 자산을 보호하는 방법을 이해합니다.
-ms.openlocfilehash: 90a82fbd4dd77ff0f8faa024ced177a640a10b80
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3bd778708e30253e53cc465e89f7b783141771de
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911041"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051499"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Contoso Corporation의 정보 보호
 
@@ -76,9 +76,9 @@ Contoso는 다음 단계를 수행하여 엔터프라이즈용 Microsoft 365의 
 
 Contoso는 Exchange Online 및 SharePoint 출시의 일환으로 다음과 같은 조건부 액세스 정책 집합을 구성하고 해당 그룹에 적용했습니다.
 
-- [장치 정책에 대한 관리 및 비관리 응용 프로그램 액세스](../security/office-365-security/identity-access-policies.md)
-- [Exchange Online 액세스 정책](../security/office-365-security/secure-email-recommended-policies.md)
-- [SharePoint 액세스 정책](../security/office-365-security/sharepoint-file-access-policies.md)
+- [장치 정책에 대한 관리 및 비관리 응용 프로그램 액세스](../security/defender-365-security/identity-access-policies.md)
+- [Exchange Online 액세스 정책](../security/defender-365-security/secure-email-recommended-policies.md)
+- [SharePoint 액세스 정책](../security/defender-365-security/sharepoint-file-access-policies.md)
 
 정보 보호를 위한 Contoso 정책의 결과 집합은 다음과 있습니다.
 
@@ -117,7 +117,7 @@ Contoso에서 ID 및 액세스 관리, 위협 방지, 정보 보호 및 보안 �
 
 ## <a name="see-also"></a>참고 항목
 
-[보안 로드맵](../security/office-365-security/security-roadmap.md)
+[보안 로드맵](../security/defender-365-security/security-roadmap.md)
 
 [엔터프라이즈용 Microsoft 365 개요](microsoft-365-overview.md)
 

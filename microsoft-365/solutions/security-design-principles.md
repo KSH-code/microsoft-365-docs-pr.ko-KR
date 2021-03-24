@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: b6696d15d728e6b66be5e54a9a3c372564c9f187
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7cd9098766024093a0b9fa2d6e95131bf13d09df
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920859"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052485"
 ---
 # <a name="security-hurdles-you-can-sail-overone-architects-viewpoint"></a>설계자 한 의 관점에서 볼 수 있는 보안 허점을 다분화할 수 있습니다.
 
@@ -49,7 +49,7 @@ ms.locfileid: "50920859"
 
 그런 다음 Zero Trust 아키텍처 접근 방식을 채택합니다. 이는 최신 ID 기반 보안 경계를 구축하는 것부터 시작합니다. 모든 액세스 시도(프레미스 또는 클라우드)가 확인될 때까지 신뢰할 수 없는 것으로 취급되는 보안 아키텍처를 디자인합니다. "절대 신뢰하지 말고 항상 확인"합니다. 이 디자인 방식은 보안 및 생산성을 향상할 뿐만 아니라 사용자가 모든 장치 유형으로 어디에서나 작업할 수 있도록 합니다. Microsoft 365에 포함된 정교한 클라우드 컨트롤은 사용자 위험 수준에 따라 중요한 리소스에 대한 액세스를 제어하면서 사용자의 ID를 보호하는 데 도움이 됩니다.
 
-권장되는 구성은 ID 및 장치 액세스 [구성을 참조하세요.](../security/office-365-security/microsoft-365-policies-configurations.md)
+권장되는 구성은 ID 및 장치 액세스 [구성을 참조하세요.](../security/defender-365-security/microsoft-365-policies-configurations.md)
 
 ## <a name="transition-security-controls-to-the-cloud"></a>보안 컨트롤을 클라우드로 전환
 

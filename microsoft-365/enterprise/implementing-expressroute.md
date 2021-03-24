@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 77735c9d-8b80-4d2f-890e-a8598547dea6
 description: 여러 인터넷 연결 Office 365 서비스에 대한 대체 라우팅 경로를 제공하는 Office 365용 ExpressRoute를 구현하는 방법을 알아보습니다.
-ms.openlocfilehash: d0f0b5156aae5a3e2c38f51ba0b74738918593e9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d75fe3a6dab4926babeef61fc14894566ff819b0
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909835"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051369"
 ---
 # <a name="implementing-expressroute-for-office-365"></a>Office 365용 ExpressRoute 구현
 
@@ -225,7 +225,7 @@ Office 365 지역, ExpressRoute 네트워크 서비스 공급자 meet-me 위치 
 
 - ExpressRoute 경로가 네트워크에 보급되는 거리와 클라이언트가 인터넷 또는 Express 경로 경로를 선택할 수 있는 메커니즘을 결정하십시오. 예를 들어 직접 라우팅 또는 응용 프로그램 프록시를 사용할 수 있습니다.
 
-- 보낸 사람 정책 프레임워크 항목을 포함하여 DNS [레코드 변경을 계획합니다.](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+- 보낸 사람 정책 프레임워크 항목을 포함하여 DNS [레코드 변경을 계획합니다.](../security/defender-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
 - 아웃바운드 및 인바운드 원본 NAT를 포함한 NAT 전략을 계획합니다.
 
@@ -572,7 +572,7 @@ ExpressRoute 연결을 사용하여 Office 365를 배포하는 동안 ExpressRou
   
 다음의 간단한 링크를 사용할 수 있습니다. [https://aka.ms/implementexpressroute365]()
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365 네트워크 연결 평가](assessing-network-connectivity.md) 
   

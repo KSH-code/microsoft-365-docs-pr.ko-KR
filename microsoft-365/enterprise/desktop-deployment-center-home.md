@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: 사용 불가능한 데스크톱 배포 센터와 동등한 리소스에 액세스하는 방법
-ms.openlocfilehash: c4456d0f17e38920e77c855e31205e51025f111b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 54847305576cb5b2cf96177ad810c1b1ccb11eed
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928171"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051475"
 ---
 # <a name="desktop-deployment-center-deprecated"></a>데스크톱 배포 센터(사용 불가능)
 
@@ -29,7 +29,7 @@ ms.locfileid: "50928171"
 - [Windows 10 배포](/windows/deployment/)
 - [Microsoft 365 앱 배포](/deployoffice/deployment-guide-microsoft-365-apps)
 - [Microsoft Intune](/mem/intune/fundamentals/planning-guide)
-- [ID 및 장치 액세스 정책](../security/office-365-security/microsoft-365-policies-configurations.md)
+- [ID 및 장치 액세스 정책](../security/defender-365-security/microsoft-365-policies-configurations.md)
 
 [Microsoft Mechanics에서 데스크톱](https://www.aka.ms/watchhowtoshift)배포 시리즈 비디오를 볼 수도 있습니다.
 

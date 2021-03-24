@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Office 365 VPN 분할 터널링 구현 방법
-ms.openlocfilehash: 2feb03f2142639a1c1de4ff9a69768e23f282546
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 93adc70882e0c8ce9752cb471b13c301a4a59bd4
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924227"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051285"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Office 365 VPN 분할 터널링 구현
 
@@ -304,7 +304,7 @@ Q1에 나와있는 테넌트 제한 기능 외에도 [조건부 액세스 정책
 
 ### <a name="how-do-i-protect-against-viruses-and-malware"></a>바이러스 및 맬웨어를 방지하려면 어떻게 해야 하나요?
 
-Office 365는 [이 문서에서 설명하는](/office365/Enterprise/office-365-malware-and-ransomware-protection) 서비스 자체의 다양한 계층에서 최적화 표시된 끝점에 대한 보호를 제공합니다. 앞서 말한 것 처럼 프로토콜/트래픽을 완전히 이해하지 못 할 수 있는 디바이스와 연계하여 시도하는 대신 서비스 자체에 이러한 보안 요소를 제공하는 것이 훨씬 더 효율적입니다. 기본적으로 SharePoint Online은 [파일](../security/office-365-security/virus-detection-in-spo.md) 업로드에서 알려진 맬웨어를 자동으로 검색합니다.
+Office 365는 [이 문서에서 설명하는](/office365/Enterprise/office-365-malware-and-ransomware-protection) 서비스 자체의 다양한 계층에서 최적화 표시된 끝점에 대한 보호를 제공합니다. 앞서 말한 것 처럼 프로토콜/트래픽을 완전히 이해하지 못 할 수 있는 디바이스와 연계하여 시도하는 대신 서비스 자체에 이러한 보안 요소를 제공하는 것이 훨씬 더 효율적입니다. 기본적으로 SharePoint Online은 [파일](../security/defender-365-security/virus-detection-in-spo.md) 업로드에서 알려진 맬웨어를 자동으로 검색합니다.
 
 위에 나열된 Exchange 끝점의 경우 [Exchange Online Protection](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) 및 Office [365용 Microsoft Defender는](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) 서비스에 트래픽 보안을 제공하는 훌륭한 작업을 합니다.
 

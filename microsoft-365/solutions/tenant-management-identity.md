@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Microsoft 365 테넌트에 대한 올바른 ID 모델을 배포하고 강력한 사용자 로그인을 적용합니다.
-ms.openlocfilehash: 18d950bcca0c4f24e4777d0e29bd8e319d0de77f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 57e84b38715c4fbe29f9aa362e363663b0401f91
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920871"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052365"
 ---
 # <a name="step-3-identity-for-your-microsoft-365-for-enterprise-tenants"></a>3단계. 엔터프라이즈용 Microsoft 365 테넌트의 ID
 
@@ -77,7 +77,7 @@ Microsoft 365 테넌트에는 로그인에 대한 ID 및 인증을 관리하는 
 | 비즈니스용 Windows Hello | Windows 디바이스에서 로그인할 때 암호를 강력한 2단계 인증으로 대체합니다. 2단계 인증 요소는 장치에 연결된 새로운 유형의 사용자 자격 증명과 생체 인식 또는 PIN입니다. | [비즈니스용 Windows Hello 개요](/windows/security/identity-protection/hello-for-business/hello-overview) | Microsoft 365 E3 혹은 E5 |
 | Azure AD 암호 보호 | 알려진 약한 암호와 해당 변형을 검색하고 차단하며 조직에 특정한 약한 용어를 추가로 차단할 수도 있습니다. | [Azure AD 암호 보호 구성](/azure/active-directory/authentication/concept-password-ban-bad) | Microsoft 365 E3 혹은 E5 |
 | MFA(다단계 인증) 사용 | MFA를 사용하려면 사용자 로그인 시 사용자 계정 암호 이상의 추가 확인(예: 스마트폰 앱으로 확인 또는 스마트폰으로 전송된 문자 메시지)이 적용될 수 있습니다. 사용자가 [MFA를](https://support.microsoft.com/office/set-up-multi-factor-authentication-in-microsoft-365-business-a32541df-079c-420d-9395-9d59354f7225) 설정하는 방법에 대한 지침은 이 비디오를 참조하세요. | [엔터프라이즈용 Microsoft 365 MFA](../enterprise/microsoft-365-secure-sign-in.md#mfa) | Microsoft 365 E3 혹은 E5 |
-| ID 및 장치 액세스 구성 | 권장되는 선행 조건 기능과 해당 설정과 조건부 액세스, Intune 및 Azure AD ID 보호 정책으로 구성된 설정 및 정책은 특정 액세스 요청을 허용할지 여부와 조건에 따라 결정됩니다.  | [ID 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md) | Microsoft 365 E3 혹은 E5 |
+| ID 및 장치 액세스 구성 | 권장되는 선행 조건 기능과 해당 설정과 조건부 액세스, Intune 및 Azure AD ID 보호 정책으로 구성된 설정 및 정책은 특정 액세스 요청을 허용할지 여부와 조건에 따라 결정됩니다.  | [ID 및 장치 액세스 구성](../security/defender-365-security/microsoft-365-policies-configurations.md) | Microsoft 365 E3 혹은 E5 |
 | Azure AD ID 보호 | 공격자가 조직의 클라우드 서비스 및 데이터에 액세스하기 위해 사용자의 계정 이름과 암호를 확인하는 자격 증명 손상으로부터 보호합니다. | [Azure AD ID 보호](/azure/active-directory/active-directory-identityprotection) | Id가 & Microsoft 365 E5 또는 Microsoft 365 E3 |
 |  |  |  |
 

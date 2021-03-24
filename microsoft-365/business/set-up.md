@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: 도메인 및 사용자 추가, 보안 정책 설정 등을 포함하여 Microsoft 365 Business Premium의 설정 단계를 검색합니다.
-ms.openlocfilehash: 5b082e78f3dc4067dcce4a96a8088b2347bc3af4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4d49ba7ccdb65691756aaa505d0856deb115595b
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912573"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052237"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>설치 마법사에서 Microsoft 365 Business Premium 설정
 
@@ -107,7 +107,7 @@ Microsoft 365 Business Premium을 구매할 때 소유한 도메인을 사용하
 
 마법사에서 설정한 정책은 모든 사용자라는 [보안](/office365/admin/create-groups/compare-groups#security-groups) 그룹에 *자동으로 적용됩니다.* 추가 그룹을 만들어 관리 센터에서 정책을 할당할 수도 있습니다.
 
-1. 고급 **사이버** 위협으로부터 보호 강화에서 [Office 365 Advanced Threat Protection이 Office](../security/office-365-security/office-365-atp.md) 앱에서 파일 및 링크를 검사할 수 있는 기본값을 수락하는 것이 좋습니다.
+1. 고급 **사이버** 위협으로부터 보호 강화에서 [Office 365 Advanced Threat Protection이 Office](../security/defender-365-security/defender-for-office-365.md) 앱에서 파일 및 링크를 검사할 수 있는 기본값을 수락하는 것이 좋습니다.
 
     ![보호 강화 페이지의 스크린샷.](../media/increasetreatprotection.png)
 

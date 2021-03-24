@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 현재 Microsoft 365 환경에 대해 조직이 직면한 가장 일반적인 위협 및 공격 시나리오와 이러한 위험을 완화하기 위한 권장 조치.
-ms.openlocfilehash: b238ed744d4998d940af456418dbb14ff31360a9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 328bd4c079531ee57b41422fd2d3f2c53ef8dc18
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909085"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051093"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>BDM(비즈니스 의사 결정권자)을 위한 Microsoft 365 보안
 
@@ -29,7 +29,7 @@ ms.locfileid: "50909085"
 
 [![축소판 이미지 Microsoft 365 BDM 보안 권장 스프레드시트](../downloads/microsoft-365-bdm-security-recommendations-spreadsheet-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx)
 
-Microsoft는 테넌트 내에서 보안 점수 도구를 사용하여 정기적인 활동에 따라 보안 자세를 자동으로 분석하고, 점수를 할당하고, 보안 개선 권장 사항을 제공합니다. 이 문서에서 권장하는 작업을 수행하기 전에 현재 점수와 권장 사항을 기록해 넣습니다. 이 문서에서 권장하는 작업을 수행하면 점수가 향상됩니다. 목표는 최대 점수를 달성하는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 방식으로 환경을 보호할 기회를 인식하는 것입니다. [Microsoft 보안 점수를 참조합니다.](mtp/microsoft-secure-score.md)
+Microsoft는 테넌트 내에서 보안 점수 도구를 사용하여 정기적인 활동에 따라 보안 자세를 자동으로 분석하고, 점수를 할당하고, 보안 개선 권장 사항을 제공합니다. 이 문서에서 권장하는 작업을 수행하기 전에 현재 점수와 권장 사항을 기록해 넣습니다. 이 문서에서 권장하는 작업을 수행하면 점수가 향상됩니다. 목표는 최대 점수를 달성하는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 방식으로 환경을 보호할 기회를 인식하는 것입니다. [Microsoft 보안 점수를 참조합니다.](defender/microsoft-secure-score.md)
 
 ![다음 단계에 따라 비즈니스에 대한 위험을 완화합니다.](../media/security/security-for-bdms-overview.png)
 
@@ -58,7 +58,7 @@ Microsoft는 테넌트 내에서 보안 점수 도구를 사용하여 정기적�
 
 다음 포커스 영역은 공격 표면을 줄이는 것입니다. 사용자 및 서비스에 대한 최소한의 노력과 영향으로 이 작업을 수행할 수 있습니다. 공격자는 공격의 표면 영역을 줄이면 조직에 대한 공격을 시작하는 방법이 더 적습니다.
 
-그 예는 다음과 같습니다.
+다음은 몇 가지 예입니다.
 - POP3, IMAP 및 SMTP 프로토콜을 사용하지 않도록 설정 대부분의 최신 조직에서는 더 이상 이러한 이전 프로토콜을 사용하지 않습니다. 이러한 기능을 안전하게 사용하지 않도록 설정하고 필요한 경우 예외를 허용할 수 있습니다. 
 - 테넌트의 전역 관리자 수를 줄이고 필요한 절대 최소값으로 유지하세요. 이렇게 하면 모든 클라우드 응용 프로그램에 대한 공격의 표면 영역을 직접 줄일 수 있습니다. 
 - 해당 환경에서 더 이상 사용되지 않습니다. 
@@ -70,7 +70,7 @@ Microsoft는 테넌트 내에서 보안 점수 도구를 사용하여 정기적�
 
 |권장 사항  |E3  |E5  |
 |---------|---------|---------|
-|**로그인 위험 정책을** 포함하여 다단계 인증을 설정하고 권장되는 조건부 액세스 정책을 사용 Microsoft는 Office 365 및 Microsoft 365 서비스를 비롯한 모든 클라우드 앱을 보호하기 위해 함께 작동되는 정책 집합을 권장하고 테스트했습니다. ID [및 장치 액세스 구성을 참조하세요.](./office-365-security/microsoft-365-policies-configurations.md) | |![녹색 확인 표시](../media/green-check-mark.png)|
+|**로그인 위험 정책을** 포함하여 다단계 인증을 설정하고 권장되는 조건부 액세스 정책을 사용 Microsoft는 Office 365 및 Microsoft 365 서비스를 비롯한 모든 클라우드 앱을 보호하기 위해 함께 작동되는 정책 집합을 권장하고 테스트했습니다. ID [및 장치 액세스 구성을 참조하세요.](./defender-365-security/microsoft-365-policies-configurations.md) | |![녹색 확인 표시](../media/green-check-mark.png)|
 |**모든 사용자에 대해 다단계 인증을 요구합니다.** 권장되는 조건부 액세스 정책을 구현하는 데 라이선스가 필요하지 않은 경우 최소한 모든 사용자에 대해 다단계 인증이 필요합니다.|![녹색 확인 표시](../media/green-check-mark.png)|![녹색 확인 표시](../media/green-check-mark.png)|
 |**메일의 맬웨어에 대한 보호 수준을 높입니다.** Office 365 또는 Microsoft 365 환경에는 맬웨어에 대한 보호가 포함되어 있지만 맬웨어에 일반적으로 사용되는 파일 형식의 첨부 파일을 차단하여 이 보호를 강화할 수 있습니다.|![녹색 확인 표시](../media/green-check-mark.png)|![녹색 확인 표시](../media/green-check-mark.png)|
 |**대상 피싱 공격으로부터** 전자 메일을 보호합니다. Office 365 또는 Microsoft 365 환경에 대해 하나 이상의 사용자 지정 도메인을 구성한 경우 대상 피싱 방지 보호를 구성할 수 있습니다. Office 365용 Defender의 일부인 피싱 방지 보호는 악의적인 가장 기반 피싱 공격 및 기타 피싱 공격으로부터 조직을 보호하는 데 도움이 될 수 있습니다. 사용자 지정 도메인을 구성하지 않은 경우 이 작업을 할 필요가 없습니다.| |![녹색 확인 표시](../media/green-check-mark.png)|
@@ -116,7 +116,7 @@ Microsoft 365 정보 보호 기능을 사용하면 어떤 정보가 저장되고
 
 |권장 사항 |E3|E5 |
 |---------|---------|---------|
-|조건부 액세스 및 관련 정책을 검토하고 최적화하여 제로 트러스트 네트워크에 대한 목표에 **맞게 조정합니다.** 알려진 위협으로부터 보호하는 데는 권장 정책 집합 [구현이 포함됩니다.](./office-365-security/microsoft-365-policies-configurations.md) 이러한 정책의 구현을 검토하여 네트워크에 대한 액세스 권한을 얻은 해커로부터 앱과 데이터를 보호할 수 있도록 합니다. Windows 10에 대해 권장되는 Intune 앱 보호 정책은 WIP(Windows Information Protection)를 사용할 수 있습니다. WIP는 전자 메일, 소셜 미디어 및 공용 클라우드와 같은 앱 및 서비스를 통해 실수로 조직 데이터가 누출되지 않도록 보호합니다. |         |![녹색 확인 표시](../media/green-check-mark.png)|
+|조건부 액세스 및 관련 정책을 검토하고 최적화하여 제로 트러스트 네트워크에 대한 목표에 **맞게 조정합니다.** 알려진 위협으로부터 보호하는 데는 권장 정책 집합 [구현이 포함됩니다.](./defender-365-security/microsoft-365-policies-configurations.md) 이러한 정책의 구현을 검토하여 네트워크에 대한 액세스 권한을 얻은 해커로부터 앱과 데이터를 보호할 수 있도록 합니다. Windows 10에 대해 권장되는 Intune 앱 보호 정책은 WIP(Windows Information Protection)를 사용할 수 있습니다. WIP는 전자 메일, 소셜 미디어 및 공용 클라우드와 같은 앱 및 서비스를 통해 실수로 조직 데이터가 누출되지 않도록 보호합니다. |         |![녹색 확인 표시](../media/green-check-mark.png)|
 |**외부 전자 메일 전달을 사용하지 않도록 설정** 사용자의 사서함에 액세스할 수 있는 해커는 사서함이 자동으로 전자 메일을 전달하도록 설정하여 메일을 도용할 수 있습니다. 이는 사용자의 인식 없이도 발생될 수 있습니다. 메일 흐름 규칙을 구성하여 이러한 문제를 방지할 수 있습니다.|![녹색 확인 표시](../media/green-check-mark.png) |![녹색 확인 표시](../media/green-check-mark.png)|
 |**익명 외부 일정 공유를 사용하지 않도록 설정** 기본적으로 외부 익명 일정 공유는 허용됩니다. [일정 공유를 사용하지](/exchange/sharing/sharing-policies/modify-a-sharing-policy) 않도록 설정하여 중요한 정보의 잠재적 누출을 줄입니다.|![녹색 확인 표시](../media/green-check-mark.png) |![녹색 확인 표시](../media/green-check-mark.png)|
 |**중요한 데이터에 대한 데이터 손실 방지 정책을 구성합니다.** 보안 및 준수 센터에서 데이터 손실 방지 정책을 만들어 신용 카드 번호, 주민등증 번호 및 은행 계좌 번호와 같은 중요한 데이터를 검색하고 &amp; 보호합니다. Microsoft 365에는 데이터 손실 방지 정책에 사용할 수 있는 미리 정의한 많은 중요한 정보 유형이 포함되어 있습니다. 사용자 환경에 사용자 지정되는 중요한 데이터에 대한 중요한 정보 유형을 직접 만들 수도 있습니다. |![녹색 확인 표시](../media/green-check-mark.png)|![녹색 확인 표시](../media/green-check-mark.png)|

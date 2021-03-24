@@ -20,12 +20,12 @@ description: Microsoft 365용 모든 DNS 호스팅 공급자에서 도메인을 
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: d6e8a5a0e23bf9bb9e302566a72b9e1cc6b7bff4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 06a5e7d081a16cd8d5aae28268b3aaf737981a43
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915653"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051045"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>DNS 레코드를 추가하여 도메인 연결하기
 
@@ -129,7 +129,7 @@ Microsoft에서 올바른 MX 레코드를 찾으면 도메인이 확인된 것�
 
 SPF는 스푸핑 차단을 돕지만 SPF가 방어할 수 없는 스푸핑 기술이 있습니다. 이 같은 기술로부터 보호하려면 SPF를 설정한 후에 Microsoft 365의 DKIM 및 DMARC도 설정해야 합니다. 
 
-시작하려면 [DKIM을 사용하여 Microsoft 365의 도메인에서 보낸 발신 전자 메일의 유효성 검사하기](../../security/office-365-security/use-dkim-to-validate-outbound-email.md) 및 [DMARC를 사용하여 Microsoft 365에서 전자 메일의 유효성 검사하기](../../security/office-365-security/use-dmarc-to-validate-email.md)를 참조하세요.
+시작하려면 [DKIM을 사용하여 Microsoft 365의 도메인에서 보낸 발신 전자 메일의 유효성 검사하기](../../security/defender-365-security/use-dkim-to-validate-outbound-email.md) 및 [DMARC를 사용하여 Microsoft 365에서 전자 메일의 유효성 검사하기](../../security/defender-365-security/use-dmarc-to-validate-email.md)를 참조하세요.
 
 ### <a name="add-srv-records-for-communications-services-teams-skype-for-business"></a>커뮤니케이션 서비스(Teams, 비즈니스용 Skype)에 대한 SRV 레코드 추가하기
 

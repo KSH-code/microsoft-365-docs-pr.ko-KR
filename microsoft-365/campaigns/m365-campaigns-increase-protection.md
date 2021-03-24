@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 365에서 보호 수준 증가에 대한 도움말을 얻습니다.
-ms.openlocfilehash: aff5491bd8319be2daf9c9c4ed0fc6e49b27ee27
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0e8b63fec3b764f10039e9f738fd047ff2c513a4
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912213"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052209"
 ---
 # <a name="increase-threat-protection-for-microsoft-365-subscription"></a>Microsoft 365 구독에 대한 위협 방지 강화
 
@@ -36,7 +36,7 @@ ms.locfileid: "50912213"
 
 시작하기 전에 Microsoft 보안 점수를 검사합니다. Microsoft 보안 점수는 정기적인 활동 및 보안 설정에 따라 조직의 보안을 분석하고 점수를 할당합니다. 먼저 현재 점수를 기록해 넣습니다. 이 문서에서 권장하는 작업을 수행하면 점수가 향상됩니다. 목표는 최대 점수를 달성하는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 환경을 보호하기 위한 기회를 인식하는 것입니다.
 
-자세한 내용은 Microsoft 보안 점수를 [참조하세요.](../security/mtp/microsoft-secure-score.md)
+자세한 내용은 Microsoft 보안 점수를 [참조하세요.](../security/defender/microsoft-secure-score.md)
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>메일의 맬웨어에 대한 보호 수준 높이기
 
@@ -58,7 +58,7 @@ Office 365 또는 Microsoft 365 환경에는 맬웨어에 대한 보호가 포�
 
 6. **저장** 을 클릭합니다.
 
-자세한 내용은 [EOP의 맬웨어 방지 보호를 참조하세요.](../security/office-365-security/anti-malware-protection.md)
+자세한 내용은 [EOP의 맬웨어 방지 보호를 참조하세요.](../security/defender-365-security/anti-malware-protection.md)
 
 ## <a name="protect-against-ransomware"></a>랜섬웨어로부터 보호
 
@@ -138,7 +138,7 @@ Office 365용 Defender에서 피싱 방지 정책을 만들거나 이 짧은 교
 
 4. 피싱 **방지 페이지에서** + **만들기를 선택합니다.** 피싱 방지 정책을 정의하는 단계를 안내하는 마법사가 실행됩니다.
 
-5. 아래 차트에서 권장되는 정책의 이름, 설명 및 설정을 지정합니다. 자세한 내용은 [Microsoft Defender for Office 365](../security/office-365-security/set-up-anti-phishing-policies.md)옵션에서 피싱 방지 정책에 대한 자세한 정보를 참조하세요.
+5. 아래 차트에서 권장되는 정책의 이름, 설명 및 설정을 지정합니다. 자세한 내용은 [Microsoft Defender for Office 365](../security/defender-365-security/set-up-anti-phishing-policies.md)옵션에서 피싱 방지 정책에 대한 자세한 정보를 참조하세요.
 
 6. 설정을 검토한 후 이 정책  만들기 또는 **저장을** 적절하게 선택합니다.
 
@@ -153,7 +153,7 @@ Office 365용 Defender에서 피싱 방지 정책을 만들거나 이 짧은 교
 |신뢰할 수 있는 발신자와 도메인 추가|여기에서 자체 도메인 또는 기타 신뢰할 수 있는 도메인을 추가할 수 있습니다.|
 |적용 대상|**받는 사람의 도메인이 다음과 같음** 을 선택합니다. **이러한 항목 모두** 아래에서 **선택** 을 선택합니다. **+ 추가** 를 선택합니다. 도메인 이름 옆의 확인란(예: *contoso)을 선택합니다. <span> <span> 목록에서 com* 을 선택하고 추가를 **선택합니다.** **완료** 를 선택합니다.|
 
-자세한 내용은 [Office 365용 Defender에서](../security/office-365-security/set-up-anti-phishing-policies.md)피싱 방지 정책 설정 을 참조하세요.
+자세한 내용은 [Office 365용 Defender에서](../security/defender-365-security/set-up-anti-phishing-policies.md)피싱 방지 정책 설정 을 참조하세요.
 
 ## <a name="protect-against-malicious-attachments-files-and-links-with-defender-for-office-365"></a>Office 365용 Defender를 통해 악의적인 첨부 파일, 파일 및 링크로부터 보호
 
@@ -207,7 +207,7 @@ Office 365용 Defender에서 피싱 방지 정책을 만들거나 이 짧은 교
 |검색 시 첨부 파일 리디렉션|리디렉션 사용(이 상자 선택) <br/> 관리자 계정 또는 사서함 설정을 입력하여 검지합니다. <br/> 첨부 파일에 대한 맬웨어 검색이 시간보다 멀거나 오류가 발생하는 경우 위의 선택을 적용합니다(이 상자 선택).|
 |적용 대상|받는 사람 도메인은 입니다. . . 도메인을 선택합니다.|
 
-자세한 내용은 [Office 365용 Defender에서](../security/office-365-security/set-up-anti-phishing-policies.md)피싱 방지 정책 설정 을 참조하세요.
+자세한 내용은 [Office 365용 Defender에서](../security/defender-365-security/set-up-anti-phishing-policies.md)피싱 방지 정책 설정 을 참조하세요.
 
 ### <a name="set-up-safe-links-in-the-security--compliance-center"></a>보안 및 준수 센터에서 안전한 & 설정
 
@@ -250,7 +250,7 @@ Office 365용 Defender에서 피싱 방지 정책을 만들거나 이 짧은 교
 |안전한 첨부 파일을 사용하여 다운로드 가능한 콘텐츠 검색|이 상자를 선택합니다.|
 |적용 대상|받는 사람 도메인은 입니다. . . 도메인을 선택합니다.|
 
-자세한 내용은 [Defender for Office 365의 안전한 링크를 참조하세요.](../security/office-365-security/atp-safe-links.md)
+자세한 내용은 [Defender for Office 365의 안전한 링크를 참조하세요.](../security/defender-365-security/safe-links.md)
 
 ## <a name="turn-on-the-unified-audit-log"></a>통합 감사 로그 켜기
 
