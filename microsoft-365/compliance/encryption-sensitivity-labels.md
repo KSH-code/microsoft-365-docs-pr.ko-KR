@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 액세스 및 사용을 제한하여 데이터를 보호하는 암호화를 위한 민감도 레이블을 구성합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f906e2a3ddd8a0847174a61e9f2b28238e5dc19
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4b5d25c51560cfe7a4d55419a7de9ce36321e78f
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928076"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034177"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한
 
@@ -227,27 +227,33 @@ ms.locfileid: "50928076"
 
 ## <a name="let-users-assign-permissions"></a>사용자가 권한을 할당하도록 허용
 
+> [!IMPORTANT]
+> 일부 레이블 지정 클라이언트는 사용자가 자신의 사용 권한을 할당할 수 있는 일부 옵션을 지원하지 않습니다. 자세한 내용은 이 섹션을 참조하세요.
+
 다음 옵션을 사용하여 사용자가 민감도 레이블을 콘텐츠에 수동으로 추가할 때 사용자가 권한을 할당하도록 허용할 수 있습니다.
 
-- Outlook의 경우 사용자는 선택된 수신자에 대해 [전달 안 함](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) 옵션에 해당하는 제한을 선택할 수 있습니다.
+- Outlook의 경우 사용자는 선택된 수신자에 대해 [전달하지 않음](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) 옵션 또는 [암호화 전용](/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails)에 해당하는 제한을 선택할 수 있습니다.
+    
+    전달하지 않음 옵션은 민감도 레이블을 지원하는 모든 전자 메일 클라이언트에서 지원됩니다. 그러나 민감도 레이블에 **암호화 전용** 옵션을 적용하는 것은 Azure Information Protection 통합 레이블 클라이언트가 아닌 기본 제공 레이블에서만 지원되는 최근 릴리스입니다. 이 기능을 지원하지 않는 전자 메일 클라이언트의 경우 레이블이 표시되지 않습니다.
+    
+    기본 제공 레이블 지정을 사용하는 Outlook 앱이 민감도 레이블과 함께 암호화 전용 옵션을 적용을 지원하는지 확인하려면 [Outlook 기능 표](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-outlook)와 **사용자가 권한을 할당하도록 허용: - 암호화 전용** 행을 사용합니다.
 
 - Word, PowerPoint 및 Excel의 경우 사용자에게 특정 사용자, 그룹 또는 조직에 대한 고유 권한을 선택하라는 메시지가 표시됩니다.
 
-    > [!NOTE]
-    > Word, PowerPoint 및 Excel에 대한 이 옵션은 Azure Information Protection 통합 레이블 클라이언트에서 지원됩니다. 기본 제공 되는 레이블을 사용하는 앱의 경우에는 [어떤 앱이 지원하는지 확인하세요](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint).
-    >
-    > 이 옵션이 선택되었지만 사용자의 앱에서 지원되지 않는 경우, 해당 레이블은 사용자에게 표시되지 않거나 레이블이 일관성을 위해 표시되지만 설명 메시지와 함께 적용될 수 없습니다.
+    이 옵션은 Azure Information Protection 통합 레이블 클라이언트와 기본 제공 레이블 지정을 사용하는 일부 앱에서 지원됩니다. 이 기능을 지원하지 않는 앱의 경우 레이블이 사용자에게 표시되지 않거나 레이블이 일관성을 위해 표시되지만 사용자에게 설명 메시지와 함께 적용할 수 없습니다.
+    
+    기본 제공 레이블을 사용하는 앱이 이 옵션을 지원하는지 확인하려면 [Word, Excel 및 PowerPoint 기능 표](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint)와 **사용자가 권한을 할당하도록 허용: - 암호화 전용** 행을 사용합니다.
 
 옵션이 지원되면 다음 표를 사용하여 사용자에게 민감도 레이블이 표시되는 시기를 식별하세요.
 
 |설정 |Outlook에 표시되는 레이블|Word, Excel, PowerPoint에서 표시되는 레이블|
 |:-----|:-----|:-----|:-----|
-|**Outlook에서 전달 안 함 옵션에 해당하는 제한 사항을 적용합니다.**|예 |아니요 |
+|**Outlook에서 전달하지 않음 또는 암호화 전용 옵션으로 제한 사항을 적용합니다.**|예 |아니요 |
 |**Word, PowerPoint 및 Excel에서 사용자에게 사용 권한을 지정하라는 메시지가 표시됩니다.**|아니요 |예|
 
 두 설정을 모두 선택하면 레이블은 Outlook과 Word, Excel 및 PowerPoint 모두에 표시됩니다.
 
-사용자가 권한을 할당할 수 있도록 허용하는 민감도 레이블은 사용자가 수동으로만 콘텐츠에 적용할 수 있으므로, 이를 추천 레이블로 자동 적용 또는 사용할 수 없습니다.
+사용자가 권한을 할당할 수 있도록 허용하는 민감도 레이블은 사용자가 수동으로 콘텐츠에 적용해야 하므로, 이를 자동 적용하거나 권장 레이블 사용할 수 없습니다.
 
 사용자 할당 권한 구성:
 
@@ -255,13 +261,21 @@ ms.locfileid: "50928076"
 
 ### <a name="outlook-restrictions"></a>Outlook 제한 사항
 
-Outlook에서, 사용자가 메시지에 권한을 할당하도록 허용하는 민감도 레이블을 적용하는 경우 이 제한 사항은 전달 금지 옵션과 동일합니다. 사용자에게 메시지 맨 위에 레이블 이름과 설명이 표시됩니다. 이는 콘텐츠가 보호되고 있음을 나타냅니다. Word, PowerPoint 및 Excel([다음 섹션](#word-powerpoint-and-excel-permissions) 참조)과 달리, 사용자에게 특정 권한을 선택 하라는 메시지가 표시되지 않습니다.
+Outlook에서, 사용자가 메시지에 권한을 할당하도록 허용하는 민감도 레이블을 적용하는 경우 **전달하지 않음** 또는 **암호화 전용** 옵션을 선택할 수 있습니다. 사용자에게 메시지 맨 위에 레이블 이름과 설명이 표시됩니다. 이는 콘텐츠가 보호되고 있음을 나타냅니다. Word, PowerPoint 및 Excel([다음 섹션](#word-powerpoint-and-excel-permissions) 참조)과 달리, 사용자에게 특정 권한을 선택 하라는 메시지가 표시되지 않습니다.
 
 ![Outlook의 메시지에 적용된 민감도 레이블](../media/sensitivity-label-outlook-protection-applied.png)
 
-전달 금지 옵션이 전자 메일에 적용되는 경우, 전자 메일이 암호화되므로 받는 사람을 인증해야 합니다. 그런 다음, 받는 사람이 이를 전달하거나, 인쇄하거나, 복사할 수 없습니다. 예를 들어, Outlook 클라이언트에서 전달 단추를 사용할 수 없고, 다른 이름으로 저장 및 인쇄 메뉴 옵션도 사용할 수 없으며, 받는 사람, 참조 또는 숨은 참조 상자에서 받는 사람을 추가하거나 변경할 수 없습니다.
+이러한 옵션 중 하나를 전자 메일에 적용하면, 전자 메일이 암호화되고 받는 사람을 인증해야 합니다. 그런 다음 받는 사람은 자동으로 제한된 사용 권한을 받습니다.
 
-전자 메일에 첨부된 암호화되지 않은 Office 문서는 자동으로 동일한 제한 사항을 상속합니다. 이 문서에 적용되는 사용 권한은 콘텐츠 편집, 편집, 저장, 보기, 열기, 읽기, 모든 매크로입니다. 사용자가 첨부 파일에 대해 다른 권한을 요구하는 경우 또는 첨부 파일이 상속된 보호를 지원하는 Office 문서가 아닌 경우, 사용자가 파일을 전자 메일에 첨부하기 전에 파일을 보호해야 합니다.
+- **전달하지 않음**: 받는 사람이 전자 메일을 전달하거나, 인쇄하거나, 복사할 수 없습니다. 예를 들어, Outlook 클라이언트에서 전달 단추를 사용할 수 없고, 다른 이름으로 저장 및 인쇄 메뉴 옵션도 사용할 수 없으며, 받는 사람, 참조 또는 숨은 참조 상자에서 받는 사람을 추가하거나 변경할 수 없습니다.
+    
+    이 옵션이 작동하는 방식에 대한 자세한 내용은 [전자 메일에 대한 전달하지 않음 옵션](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails)을 참조하세요.
+
+- **암호화 전용**: 받는 사람은 다른 이름으로 저장, 내보내기 및 모든 권한을 제외한 모든 사용 권한을 갖습니다. 이 사용 권한 조합은 받는 사람에게는 보호를 제거할 수 없다는 것 외에는 제한이 없다는 뜻입니다. 예를 들어 받는 사람은 전자 메일에서 복사하여 인쇄한 다음 전달할 수 있습니다.
+    
+    이 옵션이 작동하는 방식에 대한 자세한 내용은 [전자 메일에 대한 암호화 전용 옵션](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails)을 참조하세요.
+
+전자 메일에 첨부된 암호화되지 않은 Office 문서는 자동으로 동일한 제한 사항을 상속합니다. 전달하지 않음의 경우 이 문서에 적용되는 사용 권한은 콘텐츠 편집, 편집, 저장, 보기, 열기, 읽기, 매크로 허용입니다. 사용자가 첨부 파일에 대해 다른 권한을 요구하는 경우 또는 첨부 파일이 상속된 보호를 지원하는 Office 문서가 아닌 경우, 사용자가 파일을 전자 메일에 첨부하기 전에 파일을 암호화해야 합니다.
 
 ### <a name="word-powerpoint-and-excel-permissions"></a>Word, PowerPoint 및 Excel 권한
 

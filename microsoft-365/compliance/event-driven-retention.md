@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: 일반적으로 레코드 관리 솔루션의 일부는 사용자가 식별하는 이벤트에 기반하여 보존 기간을 시작하는 보존 레이블을 구성할 수 있습니다.
-ms.openlocfilehash: 49fe330fa6844361a77caaebb0e6a411297ee643
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ee828b6852440f5be07fdf34df2fb6a11253ae1c
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907018"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034249"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>이벤트가 발생할 때 보존 시작
 
@@ -89,7 +89,7 @@ ms.locfileid: "50907018"
 
 ### <a name="step-1-create-a-label-whose-retention-period-is-based-on-an-event"></a>1단계: 보존 기간이 이벤트에 따라 조정되는 레이블 만들기
 
-보존 레이블을 만들고 구성하려면 [보존 레이블 만들기 및 구성](./create-apply-retention-labels.md#create-and-configure-retention-labels)의 지침을 사용하세요. 이벤트 기반 보존에만 해당하는 경우 보존 레이블 만들기 마법사의 **보존 설정 정의** 페이지에서 **기반 보존 기간을 시작** 한 후 드롭다운 목록에서 기본 이벤트 유형 중 하나를 선택하거나 **새 이벤트 유형 만들기** 를 선택하여 직접 만듭니다.
+보존 레이블을 만들고 구성하려면 [보존 레이블 만들기](./create-apply-retention-labels.md#step-1-create-retention-labels)에 대한 지침을 참조하세요. 이벤트 기반 보존에만 해당하는 경우 보존 레이블 만들기 마법사의 **보존 설정 정의** 페이지에서 **기반 보존 기간을 시작** 한 후 드롭다운 목록에서 기본 이벤트 유형 중 하나를 선택하거나 **새 이벤트 유형 만들기** 를 선택하여 직접 만듭니다.
 
 ![보존 레이블에 새 이벤트 유형 만들기](../media/SPRetention6.png)
 
@@ -212,7 +212,7 @@ REST API를 사용할 수 있는 옵션은 다음과 같이 두 가지가 있습
 
 전역 관리자로서 REST API를 사용하기 전에 보존 이벤트 호출에 사용할 URL을 확인합니다. 확인하려면 다음 REST API URL을 사용하여 POST 보존 이벤트 호출을 실행합니다.
 
-```console
+```http
 https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent
 ```
 

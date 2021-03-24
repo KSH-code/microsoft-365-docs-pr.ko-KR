@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41716fecd0c70c99fd61b090421cb3dc0277cb48
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 72b5422de2ee4b01e3209ec78ea0c10f1285d682
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919554"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034197"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -63,7 +63,7 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 |[콘텐츠 표시](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[변수가 있는 동적 표시](#dynamic-markings-with-variables)                                              | 2010+           | 16.42+     | 2.42+ | 16.0.13328+ | 검토 중 |
 |[지금 권한 할당](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[사용자가 권한을 할당하도록 허용](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16.35+   | 검토 중   | 검토 중         | 검토 중                                                        |
+|[사용자가 권한을 할당하도록 허용: <br /> - 사용자에게 프롬프트](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16.35+   | 검토 중   | 검토 중         | 검토 중                                                        |
 |[레이블 관련 사용자 활동 감사](data-classification-activity-explorer.md)                      | 2011+ | 16.43+ | 2.46+ | 배포 중: 16.0.13628+ | 예<sup>\*</sup>                                                        |
 |[사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+             | 배포 중: 16.45+         | 미리 보기: [베타 채널](https://office.com/insider) | 배포 중: 16.0.13628+ | 검토 중                                            
 |[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | 2009+                                  | 배포 중: 16.44+ | 검토 중 | 검토 중 | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
@@ -87,7 +87,8 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 |[콘텐츠 표시](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[변수가 있는 동적 표시](#dynamic-markings-with-variables)                                              | 검토 중                     | 검토 중                 | 검토 중         | 검토 중           | 검토 중               |
 |[지금 권한 할당](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
-|[사용자가 권한을 할당하도록 허용](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
+|[사용자가 권한을 할당하도록 허용: <br /> - 전달하지 않음](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
+|[사용자가 권한을 할당하도록 허용: <br /> - 암호화 전용](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | 검토 중 | 검토 중  | 검토 중 | 배포 중 |
 |[사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구](#require-users-to-apply-a-label-to-their-email-and-documents)   | 배포 중: 2101+                        | 16.43+ <sup>\*</sup>                    | 검토 중            | 검토 중                | 예                |
 |[레이블 관련 사용자 활동 감사](data-classification-activity-explorer.md) | 2011+ | 검토 중 | 검토 중           | 검토 중               | 검토 중 |
 |[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>\*</sup>                    | 검토 중           | 검토 중               | 예 |

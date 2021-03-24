@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: SharePoint 및 OneDrive의 레이블이 지정되고 암호화된 문서에 대해 데스크톱 앱에서 공동 작성 및 자동 저장을 사용할 수 있도록 설정하세요.
-ms.openlocfilehash: 90c00eb448d6d8f02170a37062af05cb0c0db59d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 34c674dc5fb9be9cb5572ce1f14e11a0f8ab14ae
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919574"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034227"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>민감도 레이블로 암호화된 파일에 공동 작성 사용
 
@@ -83,8 +83,8 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
 - [SharePoint의 Office 파일 및 테넌트의 OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)에 민감도 레이블을 사용해야 합니다. 아직 이 기능을 활성화하지 않은 경우, 민감도 레이블이 있는 파일에 공동 작성 설정을 선택하면 이 기능이 자동으로 활성화됩니다.
 
 - 엔터프라이즈용 Microsoft 365 앱
-    - **Windows**: 최소 빌드 16.0.13801.20182의 [현재 채널(미리 보기)](https://office.com/insider) 또는 최소 빌드 16.0.13819.20006의 [베타 채널](https://office.com/insider)
-    - **macOS**: 최소 빌드 16.47.218.0의 [베타 채널](https://office.com/insider)
+    - **Windows**: 미리 보기: [현재 채널(미리 보기)](https://office.com/insider)
+    - **macOS**: 미리 보기: [베타 채널](https://office.com/insider)
     - **iOS**: 아직 지원되지 않음
     - **Android**: 아직 지원되지 않음
 
