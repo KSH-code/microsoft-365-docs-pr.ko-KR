@@ -1,0 +1,74 @@
+---
+title: Symantec에서 끝점용 Microsoft Defender로 마이그레이션
+description: Symantec에서 끝점용 Microsoft Defender로 전환하는 방법을 간략하게 소개합니다.
+keywords: 마이그레이션, Windows Defender Advanced Threat Protection, atp, edr
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: m365-security
+ms.technology: mde
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: deniseb
+author: denisebmsft
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection:
+- M365-security-compliance
+- m365solution-symantecmigrate
+- m365solution-overview
+ms.topic: conceptual
+ms.date: 03/03/2021
+ms.custom: migrationguides
+ms.reviewer: depicker, yongrhee, chriggs
+ms.openlocfilehash: 6cab09547501da9b533c49b7096389e13dbf1f87
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51060839"
+---
+# <a name="migrate-from-symantec-to-microsoft-defender-for-endpoint"></a><span data-ttu-id="06818-104">Symantec에서 끝점용 Microsoft Defender로 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="06818-104">Migrate from Symantec to Microsoft Defender for Endpoint</span></span>
+<span data-ttu-id="06818-105">Symantec Endpoint Protection(Symantec)에서 [끝점용 Microsoft Defender(Endpoint용 Microsoft Defender)로](https://docs.microsoft.com/windows/security/threat-protection) 전환할 계획이면 올바른 장소에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="06818-105">If you are planning to switch from Symantec Endpoint Protection (Symantec) to [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection) (Microsoft Defender for Endpoint), you're in the right place.</span></span> <span data-ttu-id="06818-106">이 문서를 가이드로 사용하세요.</span><span class="sxs-lookup"><span data-stu-id="06818-106">Use this article as a guide.</span></span>
+
+<span data-ttu-id="06818-107">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="06818-107">**Applies to:**</span></span>
+- [<span data-ttu-id="06818-108">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="06818-108">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [<span data-ttu-id="06818-109">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="06818-109">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+:::image type="content" source="images/symantec-mde-migration.png" alt-text="Symantec에서 끝점용 Defender로 마이그레이션 개요":::
+
+<span data-ttu-id="06818-111">Symantec에서 Endpoint용 Defender로 전환하는 경우 활성 모드에서 Symantec 솔루션으로 시작하고, 수동 모드에서 끝점에 대한 Defender를 구성하고, 끝점용 Defender에 온보딩한 다음 Endpoint용 Defender를 활성 모드로 설정하고 Symantec을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="06818-111">When you make the switch from Symantec to Defender for Endpoint, you begin with your Symantec solution in active mode, configure Defender for Endpoint in passive mode, onboard to Defender for Endpoint, and then set Defender for Endpoint to active mode and remove Symantec.</span></span>
+
+## <a name="the-migration-process"></a><span data-ttu-id="06818-112">마이그레이션 프로세스</span><span class="sxs-lookup"><span data-stu-id="06818-112">The migration process</span></span>
+
+<span data-ttu-id="06818-113">Symantec에서 끝점용 Microsoft Defender로 전환하는 경우 다음 표에 설명된 바와 같이 세 단계로 나눌 수 있는 프로세스를 따를 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="06818-113">When you switch from Symantec to Microsoft Defender for Endpoint, you follow a process that can be divided into three phases, as described in the following table:</span></span>
+
+![마이그레이션 단계 - 준비, 설정, 온보드](images/phase-diagrams/migration-phases.png)
+
+|<span data-ttu-id="06818-115">단계</span><span class="sxs-lookup"><span data-stu-id="06818-115">Phase</span></span> |<span data-ttu-id="06818-116">설명</span><span class="sxs-lookup"><span data-stu-id="06818-116">Description</span></span> |
+|--|--|
+|[<span data-ttu-id="06818-117">마이그레이션 준비</span><span class="sxs-lookup"><span data-stu-id="06818-117">Prepare for your migration</span></span>](symantec-to-microsoft-defender-atp-prepare.md) |<span data-ttu-id="06818-118">준비 **단계에서는** 끝점용 Microsoft Defender를 다운로드하고, 역할 및 사용 권한을 계획하고, Microsoft Defender 보안 센터에 대한 액세스 권한을 부여합니다.</span><span class="sxs-lookup"><span data-stu-id="06818-118">During the **Prepare** phase, you get Microsoft Defender for Endpoint, plan your roles and permissions, and grant access to the Microsoft Defender Security Center.</span></span> <span data-ttu-id="06818-119">또한 조직의 장치와 끝점용 Microsoft Defender 간의 통신을 사용하도록 장치 프록시 및 인터넷 설정을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="06818-119">You also configure your device proxy and internet settings to enable communication between your organization's devices and Microsoft Defender for Endpoint.</span></span> |
+|[<span data-ttu-id="06818-120">끝점에 대한 Microsoft Defender 설정</span><span class="sxs-lookup"><span data-stu-id="06818-120">Set up Microsoft Defender for Endpoint</span></span>](symantec-to-microsoft-defender-atp-setup.md) |<span data-ttu-id="06818-121">설치 **단계에서는** Microsoft Defender 바이러스 백신, Endpoint용 Microsoft Defender 및 Symantec Endpoint Protection에 대한 설정 및 제외를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="06818-121">During the **Setup** phase, you configure settings and exclusions for Microsoft Defender Antivirus, Microsoft Defender for Endpoint, and Symantec Endpoint Protection.</span></span> <span data-ttu-id="06818-122">장치 그룹, 컬렉션 및 조직 구성 단위도 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="06818-122">You also create device groups, collections, and organizational units.</span></span> <span data-ttu-id="06818-123">마지막으로 맬웨어 방지 정책 및 실시간 보호 설정을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="06818-123">Finally, you configure your antimalware policies and real-time protection settings.</span></span>|
+|[<span data-ttu-id="06818-124">끝점용 Microsoft Defender에 온보딩</span><span class="sxs-lookup"><span data-stu-id="06818-124">Onboard to Microsoft Defender for Endpoint</span></span>](symantec-to-microsoft-defender-atp-onboard.md) |<span data-ttu-id="06818-125">**온보딩** 단계에서는 디바이스를 끝점용 Microsoft Defender에 온보딩하고 해당 장치가 끝점용 Microsoft Defender와 통신하는지 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="06818-125">During the **Onboard** phase, you onboard your devices to Microsoft Defender for Endpoint and verify that those devices are communicating with Microsoft Defender for Endpoint.</span></span> <span data-ttu-id="06818-126">마지막으로 Symantec을 제거하고 끝점용 Microsoft Defender를 통한 보호가 활성 모드에 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="06818-126">Last, you uninstall Symantec and make sure protection through Microsoft Defender for Endpoint is in active mode.</span></span> |
+
+## <a name="whats-included-in-microsoft-defender-for-endpoint"></a><span data-ttu-id="06818-127">끝점용 Microsoft Defender에는 무엇이 포함되어 있나요?</span><span class="sxs-lookup"><span data-stu-id="06818-127">What's included in Microsoft Defender for Endpoint?</span></span>
+
+<span data-ttu-id="06818-128">이 마이그레이션 가이드에서는 끝점용 Microsoft [](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) Defender로 이동하기 위한 시작점으로 차세대 보호 및 끝점 감지 및 응답 기능에 중점을 두고 있습니다. [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)</span><span class="sxs-lookup"><span data-stu-id="06818-128">In this migration guide, we focus on [next-generation protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) and [endpoint detection and response](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) capabilities as a starting point for moving to Microsoft Defender for Endpoint.</span></span> <span data-ttu-id="06818-129">그러나 끝점용 Microsoft Defender에는 바이러스 백신 및 끝점 보호보다 훨씬 더 많은 보호가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="06818-129">However, Microsoft Defender for Endpoint includes much more than antivirus and endpoint protection.</span></span> <span data-ttu-id="06818-130">엔드포인트용 Microsoft Defender는 예방적 보호, 침해 후 감지, 자동화된 조사 및 대응을 위한 통합 플랫폼입니다.</span><span class="sxs-lookup"><span data-stu-id="06818-130">Microsoft Defender for Endpoint is a unified platform for preventative protection, post-breach detection, automated investigation, and response.</span></span> <span data-ttu-id="06818-131">다음 표에는 끝점용 Microsoft Defender의 기능이 요약되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="06818-131">The following table summarizes features and capabilities in Microsoft Defender for Endpoint.</span></span> 
+
+| <span data-ttu-id="06818-132">기능/기능</span><span class="sxs-lookup"><span data-stu-id="06818-132">Feature/Capability</span></span> | <span data-ttu-id="06818-133">설명</span><span class="sxs-lookup"><span data-stu-id="06818-133">Description</span></span> |
+|---|---|
+| [<span data-ttu-id="06818-134">위협 & 취약성 관리</span><span class="sxs-lookup"><span data-stu-id="06818-134">Threat & vulnerability management</span></span>](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) | <span data-ttu-id="06818-135">위협 & 관리 기능은 끝점(예: 장치)에서 약점을 식별, 평가 및 수정하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="06818-135">Threat & vulnerability management capabilities help identify, assess, and remediate weaknesses across your endpoints (such as devices).</span></span> |
+| [<span data-ttu-id="06818-136">공격 표면 감소</span><span class="sxs-lookup"><span data-stu-id="06818-136">Attack surface reduction</span></span>](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction) | <span data-ttu-id="06818-137">공격 표면 감소 규칙은 사이버 위협 및 공격으로부터 조직의 장치 및 응용 프로그램을 보호하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="06818-137">Attack surface reduction rules help protect your organization's devices and applications from cyberthreats and attacks.</span></span> |
+| [<span data-ttu-id="06818-138">차세대 보호</span><span class="sxs-lookup"><span data-stu-id="06818-138">Next-generation protection</span></span>](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) | <span data-ttu-id="06818-139">차세대 보호에는 위협과 맬웨어를 차단하는 데 도움이 되는 Microsoft Defender 바이러스 백신이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="06818-139">Next-generation protection includes Microsoft Defender Antivirus to help block threats and malware.</span></span> |
+| [<span data-ttu-id="06818-140">끝점 감지 및 대응</span><span class="sxs-lookup"><span data-stu-id="06818-140">Endpoint detection and response</span></span>](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) | <span data-ttu-id="06818-141">끝점 감지 및 응답 기능은 침입 시도 및 활성 위반을 감지, 조사 및 대응합니다.</span><span class="sxs-lookup"><span data-stu-id="06818-141">Endpoint detection and response capabilities detect, investigate, and respond to intrusion attempts and active breaches.</span></span>  |
+| [<span data-ttu-id="06818-142">고급 헌팅</span><span class="sxs-lookup"><span data-stu-id="06818-142">Advanced hunting</span></span>](advanced-hunting-overview.md) | <span data-ttu-id="06818-143">고급 헌팅 기능을 통해 보안 운영 팀은 알려진 위협 또는 잠재적인 위협의 지표와 엔터티를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="06818-143">Advanced hunting capabilities enable your security operations team to locate indicators and entities of known or potential threats.</span></span> |
+| [<span data-ttu-id="06818-144">동작 차단 및 포함</span><span class="sxs-lookup"><span data-stu-id="06818-144">Behavioral blocking and containment</span></span>](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/behavioral-blocking-containment) | <span data-ttu-id="06818-145">동작 차단 및 포함 기능은 위협이 실행을 시작한 경우에도 동작 및 처리 트리를 기반으로 위협을 식별하고 중지하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="06818-145">Behavioral blocking and containment capabilities help identify and stop threats, based on their behaviors and process trees even when the threat has started execution.</span></span> |
+| [<span data-ttu-id="06818-146">자동화된 조사 및 수정</span><span class="sxs-lookup"><span data-stu-id="06818-146">Automated investigation and remediation</span></span>](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/automated-investigations) | <span data-ttu-id="06818-147">자동화된 조사 및 대응 기능은 경고를 검사하고 위반을 해결하기 위해 즉시 수정 조치를 취합니다.</span><span class="sxs-lookup"><span data-stu-id="06818-147">Automated investigation and response capabilities examine alerts and take immediate remediation action to resolve breaches.</span></span> |
+| <span data-ttu-id="06818-148">[위협 헌팅 서비스(Microsoft](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-threat-experts) 위협 전문가)</span><span class="sxs-lookup"><span data-stu-id="06818-148">[Threat hunting service](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-threat-experts) (Microsoft Threat Experts)</span></span> | <span data-ttu-id="06818-149">위협 헌팅 서비스는 보안 운영 팀에 전문가 수준의 모니터링 및 분석을 제공하고 중요한 위협이 누락되지 않도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="06818-149">Threat hunting services provide security operations teams with expert level monitoring and analysis, and to help ensure that critical threats aren't missed.</span></span> |
+
+<span data-ttu-id="06818-150">**자세한 내용을 원하세요? [끝점용 Microsoft Defender를 참조합니다.](https://docs.microsoft.com/windows/security/threat-protection)**</span><span class="sxs-lookup"><span data-stu-id="06818-150">**Want to learn more? See [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection).**</span></span>
+
+## <a name="next-step"></a><span data-ttu-id="06818-151">다음 단계</span><span class="sxs-lookup"><span data-stu-id="06818-151">Next step</span></span>
+
+- <span data-ttu-id="06818-152">마이그레이션 [준비로 진행합니다.](symantec-to-microsoft-defender-atp-prepare.md)</span><span class="sxs-lookup"><span data-stu-id="06818-152">Proceed to [Prepare for your migration](symantec-to-microsoft-defender-atp-prepare.md).</span></span>
