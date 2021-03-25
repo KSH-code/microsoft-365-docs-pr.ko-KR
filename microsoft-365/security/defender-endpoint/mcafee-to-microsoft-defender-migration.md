@@ -22,17 +22,17 @@ ms.topic: conceptual
 ms.custom: migrationguides
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 7cbe74843e0a71cc1e20cb0b57d9bb838704e19a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 53d9e68fa357d07cf70ab2282de9cee9fc0bd90d
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074863"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185638"
 ---
 # <a name="migrate-from-mcafee-to-microsoft-defender-for-endpoint"></a>McAfee에서 끝점용 Microsoft Defender로 마이그레이션
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 McAfee Endpoint Security(McAfee)에서 [끝점용 Microsoft Defender(끝점용 Microsoft Defender)로](https://docs.microsoft.com/windows/security/threat-protection) 전환할 계획이면 올바른 장소에 있습니다. 이 문서를 가이드로 사용하세요.

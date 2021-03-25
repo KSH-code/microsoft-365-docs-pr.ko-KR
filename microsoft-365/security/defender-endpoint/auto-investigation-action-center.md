@@ -19,12 +19,12 @@ ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.date: 01/28/2021
 ms.technology: mde
-ms.openlocfilehash: 6caa1cfe08a20aa824d85966c104a25988b8be53
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: af9e9315088a8dd5da9740b33135551d28664ed7
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165360"
+ms.locfileid: "51186116"
 ---
 # <a name="visit-the-action-center-to-see-remediation-actions"></a>관리 센터를 방문하여 수정 작업 보기
 
@@ -46,14 +46,14 @@ ms.locfileid: "51165360"
 
 |새로운 통합된 동작 센터  |이전 작업 센터  |
 |---------|---------|
-|장치 및 전자 메일에 대해 보류 중인 작업과 완료된 작업을 한 위치에 나열합니다. <br/>([Endpoint용 Microsoft Defender](microsoft-defender-advanced-threat-protection.md) 및 [Office 365용 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-atp))|장치에 대한 보류 중인 작업 및 완료된 작업 목록 <br/> [(끝점용 Microsoft Defender만 해당)](microsoft-defender-advanced-threat-protection.md)   |
+|장치 및 전자 메일에 대해 보류 중인 작업과 완료된 작업을 한 위치에 나열합니다. <br/>([Endpoint용 Microsoft Defender](microsoft-defender-endpoint.md) 및 [Office 365용 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-atp))|장치에 대한 보류 중인 작업 및 완료된 작업 목록 <br/> [(끝점용 Microsoft Defender만 해당)](microsoft-defender-endpoint.md)   |
 |에 있습니다.<br/>[https://security.microsoft.com/action-center](https://security.microsoft.com/action-center)         |에 있습니다.<br/>[https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center)     |
 | Microsoft 365 보안 센터에서 관리 **센터 를 선택 합니다.** <p>:::image type="content" source="images/action-center-nav-new.png" alt-text="Microsoft 365 보안 센터의 관리 센터로"::: | Microsoft Defender 보안 센터에서 **자동화된** 조사 관리  >  **센터 를 선택 합니다.** <p>:::image type="content" source="images/action-center-nav-old.png" alt-text="Microsoft Defender 보안 센터에서 관리 센터로":::  |
 
 통합 관리 센터는 끝점용 Defender 및 Office 365용 Defender에 대한 수정 작업을 통합합니다. 모든 수정 작업에 대한 공통 언어를 정의하고 통합 조사 환경을 제공합니다. 
 
 적절한 사용 권한 및 다음 구독 중 하나 이상이 있는 경우 통합 관리 센터를 사용할 수 있습니다.
-- [엔드포인트용 Defender](microsoft-defender-advanced-threat-protection.md)
+- [엔드포인트용 Defender](microsoft-defender-endpoint.md)
 - [Office 365용 Defender](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-atp)
 - [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 
 

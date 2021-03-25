@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: d0b7b600e0880bacda3588598387e5b1e8c82958
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 0902dce0af3c101cbaf7ff526beb71e9f46a1bf4
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060743"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51187520"
 ---
 # <a name="deploy-supported-services"></a>지원 서비스 배포
 
@@ -88,7 +88,7 @@ Microsoft 365 Defender의 완전한 이점을 얻기 위해 지원되는 모든 
 
 - [Microsoft 365 Defender 개요](microsoft-365-defender.md)
 - [Microsoft 365 Defender 켜기](m365d-enable.md)
-- [끝점용 Microsoft Defender 개요](../defender-endpoint/microsoft-defender-advanced-threat-protection.md)
+- [끝점용 Microsoft Defender 개요](../defender-endpoint/microsoft-defender-endpoint.md)
 - [Microsoft Defender for Office 365 개요](../defender-365-security/defender-for-office-365.md)
 - [Microsoft Cloud App Security 개요](/cloud-app-security/what-is-cloud-app-security)
 - [Microsoft Defender for Identity 개요](/azure-advanced-threat-protection/what-is-atp)

@@ -22,17 +22,17 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: c87ed20dd1d0c959a9af52fd766d0a34232747b2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: adc8c1259be1e226bf1c2592090cf6008c976cf8
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51069671"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186632"
 ---
 # <a name="migrate-from-mcafee---phase-1-prepare-for-your-migration"></a>McAfee에서 마이그레이션 - 1단계: 마이그레이션 준비
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 |![1단계: 준비](images/phase-diagrams/prepare.png)<br/>1단계: 준비 |[![2단계: 설정](images/phase-diagrams/setup.png)](mcafee-to-microsoft-defender-setup.md)<br/>[2단계: 설정](mcafee-to-microsoft-defender-setup.md) |[![3단계: 온보더](images/phase-diagrams/onboard.png)](mcafee-to-microsoft-defender-onboard.md)<br/>[3단계: 온보더](mcafee-to-microsoft-defender-onboard.md) |

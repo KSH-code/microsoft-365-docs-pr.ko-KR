@@ -21,17 +21,17 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 9bea2f8ac7948b14bbcbdef196a7573d5ca6623b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8784c8d608666946461ddc27aa2e7f2b740276a0
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060871"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185494"
 ---
 # <a name="migrate-from-symantec---phase-1-prepare-for-your-migration"></a>Symantec에서 마이그레이션 - 1단계: 마이그레이션 준비
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 |![1단계: 준비](images/phase-diagrams/prepare.png)<br/>1단계: 준비 |[![2단계: 설정](images/phase-diagrams/setup.png)](symantec-to-microsoft-defender-atp-setup.md)<br/>[2단계: 설정](symantec-to-microsoft-defender-atp-setup.md) |[![3단계: 온보더](images/phase-diagrams/onboard.png)](symantec-to-microsoft-defender-atp-onboard.md)<br/>[3단계: 온보더](symantec-to-microsoft-defender-atp-onboard.md) |

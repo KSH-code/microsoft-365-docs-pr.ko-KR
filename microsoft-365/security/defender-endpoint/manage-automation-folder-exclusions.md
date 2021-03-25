@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fb398f1acbea4bd8f388c072f9706f9b2ca25175
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 37a251acd3b7631cffffaf2eb76bf0f2b4954ee6
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51070196"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185840"
 ---
 # <a name="manage-automation-folder-exclusions"></a>자동화 폴더 제외 관리 
 
@@ -29,7 +29,7 @@ ms.locfileid: "51070196"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-automationexclusionfolder-abovefoldlink)
@@ -50,7 +50,7 @@ ms.locfileid: "51070196"
 >현재는 디렉터리에서 파일을 제외하는 방법으로 와일드카드를 사용할 수 없습니다. 
 
 
-**Extensions**<br>
+**확장**<br>
 특정 디렉터리에서 제외할 확장을 지정할 수 있습니다. 확장은 공격자가 제외된 폴더를 사용하여 악용을 숨기는 것을 방지하는 한 가지 방법입니다. 확장명은 무시할 파일을 명시적으로 정의합니다. 
 
 **파일 이름**<br>
@@ -66,7 +66,7 @@ ms.locfileid: "51070196"
 3. 폴더 세부 정보를 입력합니다.
 
     - 폴더
-    - Extensions
+    - 확장
     - 파일 이름
     - 설명
     

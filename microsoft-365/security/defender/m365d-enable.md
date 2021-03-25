@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4165f13e24e1ecb53413025c59bf6f3195525b17
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 399da6fd54145f73ac72fdac04e8d25148f76507
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076660"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186752"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender 켜기
 
@@ -95,7 +95,7 @@ Microsoft 지원 직원은 테넌트에서 서비스 및 관련 리소스를 프
 - [라이선스 요구 사항 및 기타 필수 구성 요소](prerequisites.md)
 - [지원 서비스 배포](deploy-supported-services.md)
 - [Microsoft 365 Defender 개요](microsoft-365-defender.md)
-- [끝점용 Microsoft Defender 개요](../defender-endpoint/microsoft-defender-advanced-threat-protection.md)
+- [끝점용 Microsoft Defender 개요](../defender-endpoint/microsoft-defender-endpoint.md)
 - [Office 365용 Defender 개요](../defender-365-security/defender-for-office-365.md)
 - [Microsoft Cloud App Security 개요](/cloud-app-security/what-is-cloud-app-security)
 - [Microsoft Defender for Identity 개요](/azure-advanced-threat-protection/what-is-atp)

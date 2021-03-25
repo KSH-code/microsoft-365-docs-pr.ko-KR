@@ -16,18 +16,18 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d6e2c18bd3710e659b5f9887844bc92528da4607
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 6b080c209292c8cac1aa64d748926734f4be964c
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51070140"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185470"
 ---
 # <a name="techniques-in-the-device-timeline"></a>디바이스 타임라인의 기술
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
 
 특정 디바이스에서 발생된 이벤트를 분석하여 조사에서 더 많은 정보를 얻을 수 있습니다. 먼저 장치 목록 에서 관심 있는 장치를 [선택합니다.](machines-view-overview.md) 디바이스 페이지에서 시간 표시 막대  탭을 선택하여 디바이스에서 발생한 모든 이벤트를 볼 수 있습니다.

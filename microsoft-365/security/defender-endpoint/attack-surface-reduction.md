@@ -15,12 +15,12 @@ ms.reviewer: sugamar, jcedola
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: 2bd8442dd8e119a57c490773b6e01a7c5f7adcac
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 62f1f5f2d47482f642f00c870b3e0f3112f5f639
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075420"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185770"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
 
@@ -112,7 +112,7 @@ Microsoft Defender 바이러스 백신은 활성 모드에서 실시간 보호�
 - Windows Server, [버전 1803(반기 채널)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 
-공격 표면 감소 규칙에는 Windows E5 라이선스가 필요하지 [않습니다. Windows E5가](https://docs.microsoft.com/windows/deployment/deploy-enterprise-licenses)있는 경우 고급 관리 기능을 사용할 수 있습니다. Windows E5에서만 사용할 수 있는 이러한 기능에는 [끝점용 Defender에서](microsoft-defender-advanced-threat-protection.md)사용할 수 있는 모니터링, 분석 및 워크플로와 [Microsoft 365](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center)보안 센터의 보고 및 구성 기능이 포함됩니다. 이러한 고급 기능은 Windows Professional 또는 Windows E3 라이선스에서 사용할 수 없습니다. 그러나 해당 라이선스가 있는 경우 이벤트 뷰어 및 Microsoft Defender 바이러스 백신 로그를 사용하여 공격 표면 축소 규칙 이벤트를 검토할 수 있습니다.
+공격 표면 감소 규칙에는 Windows E5 라이선스가 필요하지 [않습니다. Windows E5가](https://docs.microsoft.com/windows/deployment/deploy-enterprise-licenses)있는 경우 고급 관리 기능을 사용할 수 있습니다. Windows E5에서만 사용할 수 있는 이러한 기능에는 [끝점용 Defender에서](microsoft-defender-endpoint.md)사용할 수 있는 모니터링, 분석 및 워크플로와 [Microsoft 365](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center)보안 센터의 보고 및 구성 기능이 포함됩니다. 이러한 고급 기능은 Windows Professional 또는 Windows E3 라이선스에서 사용할 수 없습니다. 그러나 해당 라이선스가 있는 경우 이벤트 뷰어 및 Microsoft Defender 바이러스 백신 로그를 사용하여 공격 표면 축소 규칙 이벤트를 검토할 수 있습니다.
 
 ## <a name="review-attack-surface-reduction-events-in-the-microsoft-defender-security-center"></a>Microsoft Defender 보안 센터에서 공격 표면 감소 이벤트 검토
 

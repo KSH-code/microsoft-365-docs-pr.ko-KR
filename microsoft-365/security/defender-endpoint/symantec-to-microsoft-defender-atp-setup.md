@@ -21,17 +21,17 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 3fbe7ca11ca168f2af75b76252acf4d3a97b35f0
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 6a5e5c10e92d5c8c017360033d7c3fc23b707730
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074852"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185482"
 ---
 # <a name="migrate-from-symantec---phase-2-set-up-microsoft-defender-for-endpoint"></a>Symantec에서 마이그레이션 - 2단계: 끝점용 Microsoft Defender 설정
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 |[![1단계: 준비](images/phase-diagrams/prepare.png)](symantec-to-microsoft-defender-atp-prepare.md)<br/>[1단계: 준비](symantec-to-microsoft-defender-atp-prepare.md) |![2단계: 설정](images/phase-diagrams/setup.png)<br/>2단계: 설정 |[![3단계: 온보더](images/phase-diagrams/onboard.png)](symantec-to-microsoft-defender-atp-onboard.md)<br/>[3단계: 온보더](symantec-to-microsoft-defender-atp-onboard.md) |
@@ -87,7 +87,7 @@ Windows Server 2016을 사용하고 있으며 Microsoft Defender 바이러스 �
 `mpcmdrun -wdenable`
 
 > [!TIP]
-> 여전히 도움이 필요하세요? [Windows Server 2016 및 2019의 Microsoft Defender 바이러스 백신을 참조합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-on-windows-server-2016)
+> 아직 해결되지 않았습니까? [Windows Server 2016 및 2019의 Microsoft Defender 바이러스 백신을 참조합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-on-windows-server-2016)
 
 ### <a name="set-microsoft-defender-antivirus-to-passive-mode-on-windows-server"></a>Windows Server에서 Microsoft Defender 바이러스 백신을 수동 모드로 설정
 

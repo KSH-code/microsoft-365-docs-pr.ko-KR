@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 88e8c232788fa05bd2fa95108d8a20b6a7a01283
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: d13f13872954978a14454d8f3c0e66970606bd21
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164696"
+ms.locfileid: "51185758"
 ---
 # <a name="evaluate-microsoft-defender-for-endpoint"></a>끝점에 대한 Microsoft Defender 평가 
 
@@ -59,4 +59,4 @@ ms.locfileid: "51164696"
 
 ## <a name="see-also"></a>참고 항목
 
-[끝점용 Microsoft Defender 개요](microsoft-defender-advanced-threat-protection.md)
+[끝점용 Microsoft Defender 개요](microsoft-defender-endpoint.md)

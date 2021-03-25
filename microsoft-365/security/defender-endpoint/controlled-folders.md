@@ -16,12 +16,12 @@ ms.reviewer: v-maave
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: ae50d53fbc9bf01d4cd16b939461eecc9ec1a568
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: cd662dc130adc37b3bf8bd06839242ccc9a49f8e
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165180"
+ms.locfileid: "51185972"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>제어된 폴더 액세스로 중요한 폴더 보호
 
@@ -40,7 +40,7 @@ ms.locfileid: "51165180"
 > [!NOTE]
 > 스크립팅 엔진은 신뢰할 수 없습니다. 제어된 보호된 폴더에 대한 액세스를 허용할 수 없습니다.  예를 들어 인증서 및 파일 표시기를 사용하여 허용하는 경우에도 PowerShell은 제어된 폴더 액세스에서 [신뢰되지 않습니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/indicator-certificates) 
 
-제어된 폴더 액세스는 제어된 폴더 액세스 이벤트에 대한 자세한 보고를 제공하고 일반적인 경고 조사 시나리오의 일부로 차단하는 [끝점용 Microsoft Defender와](microsoft-defender-advanced-threat-protection.md)가장 [잘 작동합니다.](investigate-alerts.md)
+제어된 폴더 액세스는 제어된 폴더 액세스 이벤트에 대한 자세한 보고를 제공하고 일반적인 경고 조사 시나리오의 일부로 차단하는 [끝점용 Microsoft Defender와](microsoft-defender-endpoint.md)가장 [잘 작동합니다.](investigate-alerts.md)
 
 > [!TIP]
 > 제어된 폴더 액세스 블록은 경고 큐에 [경고를 생성하지 않습니다.](alerts-queue.md) 그러나 고급 헌팅을 사용하는 동안 또는 [](investigate-machines.md)사용자 지정 검색 [](advanced-hunting-overview.md)규칙과 함께 장치 타임라인 보기에서 제어된 폴더 액세스 블록에 대한 정보를 볼 [수 있습니다.](custom-detection-rules.md)
