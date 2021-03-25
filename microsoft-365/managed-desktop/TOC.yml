@@ -21,6 +21,8 @@
           href: service-description/device-lifecycle.md
         - name: 장치 요구 사항
           href: service-description/device-requirements.md
+        - name: 장치 이미지
+          href: service-description/device-images.md
         - name: 프로그램 장치
           href: service-description/device-list.md
           items:

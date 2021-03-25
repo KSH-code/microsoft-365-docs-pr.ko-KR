@@ -23,12 +23,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: 85e9a47c0180fd7582b2bc107ddf7d78f57e6329
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3ef625e813961c09bb6f74d85fd5a7c8033f9c2a
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075311"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51183876"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 가짓 긍정/음수 해결
 
@@ -55,7 +55,7 @@ ms.locfileid: "51075311"
 ![가음성 및 부정을 해결하기 위한 단계](images/false-positives-step-diagram.png)
 
 > [!NOTE]
-> 이 문서는 [끝점용 Microsoft Defender를](microsoft-defender-advanced-threat-protection.md)사용하는 보안 운영자 및 보안 관리자를 위한 지침입니다.
+> 이 문서는 [끝점용 Microsoft Defender를](microsoft-defender-endpoint.md)사용하는 보안 운영자 및 보안 관리자를 위한 지침입니다.
 
 ## <a name="part-1-review-and-classify-alerts"></a>1부: 경고 검토 및 분류
 
@@ -355,7 +355,7 @@ PUA(사용자 없이도 사용 가능한 응용 프로그램)는 장치가 느�
 > [!IMPORTANT]
 > 자동화된 조사 및 *수정을 위해* 전체 자동화를 사용하는 것이 좋습니다. 가극적이기 때문에 이러한 기능을 해제하지 않습니다. 대신 ["허용"](#indicators-for-microsoft-defender-for-endpoint)표시기를 사용하여 예외를 정의하고 자동화된 조사 및 수정을 설정하여 적절한 조치를 자동으로 취하도록 합니다. 이 [지침에 따라](automation-levels.md#levels-of-automation) 보안 운영 팀이 처리해야 하는 경고 수를 줄일 수 있습니다. 
 
-## <a name="still-need-help"></a>여전히 도움이 필요하세요?
+## <a name="still-need-help"></a>아직 해결되지 않았습니까?
 
 이 문서의 모든 단계를 수행한 후 여전히 도움이 필요한 경우 기술 지원에 문의하세요.
 
