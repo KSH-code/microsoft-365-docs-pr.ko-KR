@@ -1,0 +1,229 @@
+---
+title: 장치 프록시 및 인터넷 연결 설정 구성
+description: 클라우드 서비스와 통신할 수 있도록 Microsoft Defender ATP 프록시 및 인터넷 설정을 구성합니다.
+keywords: 구성, 프록시, 인터넷, 인터넷 연결, 설정, 프록시 설정, netsh, winhttp, 프록시 서버
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: macapara
+author: mjcaparas
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection:
+- m365-security-compliance
+- m365initiative-defender-endpoint
+ms.topic: article
+ms.technology: mde
+ms.openlocfilehash: ce8599556b1d0c8efbd020d525b30ed2cedaa9cb
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165468"
+---
+# <a name="configure-device-proxy-and-internet-connectivity-settings"></a><span data-ttu-id="f97f8-104">장치 프록시 및 인터넷 연결 설정 구성</span><span class="sxs-lookup"><span data-stu-id="f97f8-104">Configure device proxy and Internet connectivity settings</span></span>
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+<span data-ttu-id="f97f8-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="f97f8-105">**Applies to:**</span></span>
+- [<span data-ttu-id="f97f8-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="f97f8-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="f97f8-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f97f8-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+> <span data-ttu-id="f97f8-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="f97f8-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="f97f8-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-configureendpointsscript-abovefoldlink)
+
+<span data-ttu-id="f97f8-110">Endpoint용 Defender 센서를 사용하려면 Microsoft Windows HTTP(WinHTTP)가 센서 데이터를 보고하고 Endpoint용 Defender 서비스와 통신해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-110">The Defender for Endpoint sensor requires Microsoft Windows HTTP (WinHTTP) to report sensor data and communicate with the Defender for Endpoint service.</span></span>
+
+<span data-ttu-id="f97f8-111">포함된 Endpoint용 Defender 센서는 LocalSystem 계정을 사용하여 시스템 컨텍스트에서 실행됩니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-111">The embedded Defender for Endpoint sensor runs in system context using the LocalSystem account.</span></span> <span data-ttu-id="f97f8-112">센서는 Microsoft WinHTTP(Windows HTTP 서비스)를 사용하여 Endpoint용 Defender 클라우드 서비스와 통신할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-112">The sensor uses Microsoft Windows HTTP Services (WinHTTP) to enable communication with the Defender for Endpoint cloud service.</span></span>
+
+>[!TIP]
+><span data-ttu-id="f97f8-113">전달 프록시를 인터넷 게이트웨이로 사용하는 조직의 경우 네트워크 보호를 사용하여 프록시 뒤에서 조사할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-113">For organizations that use forward proxies as a gateway to the Internet, you can use network protection to investigate behind a proxy.</span></span> <span data-ttu-id="f97f8-114">자세한 내용은 [전달 프록시 뒤에서 발생하는 연결 이벤트 조사](investigate-behind-proxy.md)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="f97f8-114">For more information, see [Investigate connection events that occur behind forward proxies](investigate-behind-proxy.md).</span></span>
+
+<span data-ttu-id="f97f8-115">WinHTTP 구성 설정은 WinINet(Windows Internet) 인터넷 검색 프록시 설정과는 독립적이며 다음 검색 방법을 사용하여 프록시 서버를 검색할 수만 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-115">The WinHTTP configuration setting is independent of the Windows Internet (WinINet) Internet browsing proxy settings and can only discover a proxy server by using the following discovery methods:</span></span>
+
+- <span data-ttu-id="f97f8-116">자동 검색 방법:</span><span class="sxs-lookup"><span data-stu-id="f97f8-116">Auto-discovery methods:</span></span>
+  - <span data-ttu-id="f97f8-117">투명한 프록시</span><span class="sxs-lookup"><span data-stu-id="f97f8-117">Transparent proxy</span></span>
+  - <span data-ttu-id="f97f8-118">WPAD(웹 프록시 자동 검색) 프로토콜</span><span class="sxs-lookup"><span data-stu-id="f97f8-118">Web Proxy Auto-discovery Protocol (WPAD)</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="f97f8-119">네트워크 토폴로지에서 투명 프록시 또는 WPAD를 사용하는 경우 특별한 구성 설정이 필요하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-119">If you're using Transparent proxy or WPAD in your network topology, you don't need special configuration settings.</span></span> <span data-ttu-id="f97f8-120">프록시에서 끝점 URL 제외에 대한 Defender에 대한 자세한 내용은 프록시 서버에서 끝점 서비스 URL에 대한 Defender 액세스 사용 [을 참조하세요.](#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server)</span><span class="sxs-lookup"><span data-stu-id="f97f8-120">For more information on Defender for Endpoint URL exclusions in the proxy, see [Enable access to Defender for Endpoint service URLs in the proxy server](#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server).</span></span>
+
+- <span data-ttu-id="f97f8-121">수동 정적 프록시 구성:</span><span class="sxs-lookup"><span data-stu-id="f97f8-121">Manual static proxy configuration:</span></span>
+  - <span data-ttu-id="f97f8-122">레지스트리 기반 구성</span><span class="sxs-lookup"><span data-stu-id="f97f8-122">Registry based configuration</span></span>
+  - <span data-ttu-id="f97f8-123">netsh 명령을 사용하여 구성된 WinHTTP – 안정적인 토폴로지의 데스크톱에만 적합합니다(예: 동일한 프록시 뒤에 있는 회사 네트워크의 데스크톱).</span><span class="sxs-lookup"><span data-stu-id="f97f8-123">WinHTTP configured using netsh command – Suitable only for desktops in a stable topology (for example: a desktop in a corporate network behind the same proxy)</span></span>
+
+## <a name="configure-the-proxy-server-manually-using-a-registry-based-static-proxy"></a><span data-ttu-id="f97f8-124">레지스트리 기반 정적 프록시를 사용하여 프록시 서버를 수동으로 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-124">Configure the proxy server manually using a registry-based static proxy</span></span>
+
+<span data-ttu-id="f97f8-125">컴퓨터가 인터넷에 연결할 수 없는 경우 Endpoint 센서용 Defender만 진단 데이터를 보고하고 Endpoint 서비스용 Defender와 통신할 수 있도록 레지스트리 기반 정적 프록시를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-125">Configure a registry-based static proxy to allow only Defender for Endpoint sensor to report diagnostic data and communicate with Defender for Endpoint services if a computer is not be permitted to connect to the Internet.</span></span>
+
+<span data-ttu-id="f97f8-126">정적 프록시는 GP(그룹 정책)를 통해 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-126">The static proxy is configurable through Group Policy (GP).</span></span> <span data-ttu-id="f97f8-127">그룹 정책은 다음에서 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-127">The group policy can be found under:</span></span>
+
+- <span data-ttu-id="f97f8-128">관리 템플릿 > Windows 구성 요소 > 데이터 수집 및 미리 보기 빌드> 연결된 사용자 환경 및 원격 분석 서비스에 대해 인증된 프록시 사용 구성</span><span class="sxs-lookup"><span data-stu-id="f97f8-128">Administrative Templates > Windows Components > Data Collection and Preview Builds > Configure Authenticated Proxy usage for the Connected User Experience and Telemetry Service</span></span>
+  - <span data-ttu-id="f97f8-129">사용으로 **설정하고** 인증된 프록시 사용 안 **하게**: 그룹 정책 설정의 ![ 이미지 1을 선택합니다.](images/atp-gpo-proxy1.png)</span><span class="sxs-lookup"><span data-stu-id="f97f8-129">Set it to **Enabled** and select **Disable Authenticated Proxy usage**: ![Image of Group Policy setting1](images/atp-gpo-proxy1.png)</span></span>
+- <span data-ttu-id="f97f8-130">**관리 템플릿 > Windows** 구성 요소 > 데이터 수집 및 Preview 빌드 > 사용자 환경 및 원격 분석 구성:</span><span class="sxs-lookup"><span data-stu-id="f97f8-130">**Administrative Templates > Windows Components > Data Collection and Preview Builds > Configure connected user experiences and telemetry**:</span></span>
+  - <span data-ttu-id="f97f8-131">프록시를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-131">Configure the proxy:</span></span><br>
+    <span data-ttu-id="f97f8-132">![그룹 정책 설정의 이미지2](images/atp-gpo-proxy2.png)</span><span class="sxs-lookup"><span data-stu-id="f97f8-132">![Image of Group Policy setting2](images/atp-gpo-proxy2.png)</span></span>
+
+    <span data-ttu-id="f97f8-133">정책은 레지스트리 키 `HKLM\Software\Policies\Microsoft\Windows\DataCollection`에서 레지스트리 값 `TelemetryProxyServer`을(를) REG_SZ로, `DisableEnterpriseAuthProxy`을(를) REG_DWORD로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-133">The policy sets two registry values `TelemetryProxyServer` as REG_SZ and `DisableEnterpriseAuthProxy` as REG_DWORD under the registry key `HKLM\Software\Policies\Microsoft\Windows\DataCollection`.</span></span>
+
+    <span data-ttu-id="f97f8-134">레지스트리 값은 `TelemetryProxyServer` 다음 문자열 형식을 가합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-134">The registry value `TelemetryProxyServer` takes the following string format:</span></span>
+
+    ```text
+    <server name or ip>:<port>
+    ```
+
+    <span data-ttu-id="f97f8-135">예: 10.0.0.6:8080</span><span class="sxs-lookup"><span data-stu-id="f97f8-135">For example: 10.0.0.6:8080</span></span>
+
+    <span data-ttu-id="f97f8-136">레지스트리 값 `DisableEnterpriseAuthProxy`을(를) 1로 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-136">The registry value `DisableEnterpriseAuthProxy` should be set to 1.</span></span>
+
+## <a name="configure-the-proxy-server-manually-using-netsh-command"></a><span data-ttu-id="f97f8-137">netsh 명령을 사용하여 수동으로 프록시 서버 구성</span><span class="sxs-lookup"><span data-stu-id="f97f8-137">Configure the proxy server manually using netsh command</span></span>
+
+<span data-ttu-id="f97f8-138">netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-138">Use netsh to configure a system-wide static proxy.</span></span>
+
+> [!NOTE]
+> - <span data-ttu-id="f97f8-139">이는 Windows 서비스를 포함하여 기본 프록시로 WinHTTP를 사용하는 모든 응용 프로그램에 영향을 미칩니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-139">This will affect all applications including Windows services which use WinHTTP with default proxy.</span></span></br>
+> - <span data-ttu-id="f97f8-140">토폴로지(예: 사무실에서 집으로)를 변경하는 랩톱이 netsh로 오작동합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-140">Laptops that are changing topology (for example: from office to home) will malfunction with netsh.</span></span> <span data-ttu-id="f97f8-141">레지스트리 기반 정적 프록시 구성을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-141">Use the registry-based static proxy configuration.</span></span>
+
+1. <span data-ttu-id="f97f8-142">승격된 명령줄을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-142">Open an elevated command-line:</span></span>
+
+    <span data-ttu-id="f97f8-143">a.</span><span class="sxs-lookup"><span data-stu-id="f97f8-143">a.</span></span> <span data-ttu-id="f97f8-144">**시작**(으)로 이동하고 **cmd** 를 입력하십시오.</span><span class="sxs-lookup"><span data-stu-id="f97f8-144">Go to **Start** and type **cmd**.</span></span>
+
+    <span data-ttu-id="f97f8-145">b.</span><span class="sxs-lookup"><span data-stu-id="f97f8-145">b.</span></span> <span data-ttu-id="f97f8-146">**명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-146">Right-click **Command prompt** and select **Run as administrator**.</span></span>
+
+2. <span data-ttu-id="f97f8-147">다음 명령을 입력하고 **Enter** 를 누릅니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-147">Enter the following command and press **Enter**:</span></span>
+
+   ```PowerShell
+   netsh winhttp set proxy <proxy>:<port>
+   ```
+
+   <span data-ttu-id="f97f8-148">예: netsh winhttp 설정 프록시 10.0.0.6:8080</span><span class="sxs-lookup"><span data-stu-id="f97f8-148">For example: netsh winhttp set proxy 10.0.0.6:8080</span></span>
+
+<span data-ttu-id="f97f8-149">winhttp 프록시를 다시 설정하기 위해 다음 명령을 입력하고 **Enter를 누르기**</span><span class="sxs-lookup"><span data-stu-id="f97f8-149">To reset the winhttp proxy, enter the following command and press **Enter**</span></span>
+
+```PowerShell
+netsh winhttp reset proxy
+```
+
+<span data-ttu-id="f97f8-150">자세한 내용은 [Netsh 명령 구문, 컨텍스트 및 포맷](https://docs.microsoft.com/windows-server/networking/technologies/netsh/netsh-contexts)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="f97f8-150">See [Netsh Command Syntax, Contexts, and Formatting](https://docs.microsoft.com/windows-server/networking/technologies/netsh/netsh-contexts) to learn more.</span></span>
+
+## <a name="enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server"></a><span data-ttu-id="f97f8-151">프록시 서버에서 끝점용 Microsoft Defender 서비스 URL에 대한 액세스 사용</span><span class="sxs-lookup"><span data-stu-id="f97f8-151">Enable access to Microsoft Defender for Endpoint service URLs in the proxy server</span></span>
+
+<span data-ttu-id="f97f8-152">프록시 또는 방화벽이 기본적으로 모든 트래픽을 차단하고 특정 도메인만 통과하도록 허용하는 경우 다운로드 가능한 시트에 나열된 도메인을 허용된 도메인 목록에 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-152">If a proxy or firewall is blocking all traffic by default and allowing only specific domains through, add the domains listed in the downloadable sheet to the allowed domains list.</span></span>
+
+<span data-ttu-id="f97f8-153">다음 다운로드 가능한 스프레드시트에는 네트워크에서 연결할 수 있어야 하는 서비스 및 관련 URL이 나열됩니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-153">The following downloadable spreadsheet lists the services and their associated URLs that your network must be able to connect to.</span></span> <span data-ttu-id="f97f8-154">이러한 URL에 대한 액세스를 거부하는 방화벽 또는 네트워크 필터링 규칙이 없는지 또는 해당 URL에 대한 허용 규칙을 만들어야 할 수도 있습니다. </span><span class="sxs-lookup"><span data-stu-id="f97f8-154">You should ensure that there are no firewall or network filtering rules that would deny access to these URLs, or you may need to create an *allow* rule specifically for them.</span></span>
+
+
+|<span data-ttu-id="f97f8-155">**도메인 목록의 스프레드시트**</span><span class="sxs-lookup"><span data-stu-id="f97f8-155">**Spreadsheet of domains list**</span></span>|<span data-ttu-id="f97f8-156">**설명**</span><span class="sxs-lookup"><span data-stu-id="f97f8-156">**Description**</span></span>|
+|:-----|:-----|
+|![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지](images/mdatp-urls.png)<br/>  | <span data-ttu-id="f97f8-158">서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-158">Spreadsheet of specific DNS records for service locations, geographic locations, and OS.</span></span> <br><br>[<span data-ttu-id="f97f8-159">여기에서 스프레드시트를 다운로드합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-159">Download the spreadsheet here.</span></span>](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
+
+
+<span data-ttu-id="f97f8-160">프록시 또는 방화벽에 HTTPS 검색(SSL 검사)이 활성화된 경우 위의 표에 나열된 도메인을 HTTPS 검색에서 제외합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-160">If a proxy or firewall has HTTPS scanning (SSL inspection) enabled, exclude the domains listed in the above table from HTTPS scanning.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="f97f8-161">settings-win.data.microsoft.com 1803 이전 버전을 실행하는 Windows 10 디바이스가 있는 경우만 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-161">settings-win.data.microsoft.com is only needed if you have Windows 10 devices running version 1803 or earlier.</span></span><br>
+
+
+> [!NOTE]
+> <span data-ttu-id="f97f8-162">v20이 포함된 URL은 버전 1803 이상을 실행하는 Windows 10 장치가 있는 경우만 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-162">URLs that include v20 in them are only needed if you have Windows 10 devices running version 1803 or later.</span></span> <span data-ttu-id="f97f8-163">예를 들어 버전 1803 이상을 실행하고 미국 데이터 저장소 지역에 온보드된 ```us-v20.events.data.microsoft.com``` Windows 10 장치에 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-163">For example, ```us-v20.events.data.microsoft.com``` is needed for a Windows 10 device running version 1803 or later and onboarded to US Data Storage region.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="f97f8-164">환경에서 Microsoft Defender 바이러스 백신을 사용하는 경우 Microsoft Defender 바이러스 백신 클라우드 서비스에 대한 네트워크 연결 [구성을 참조합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus)</span><span class="sxs-lookup"><span data-stu-id="f97f8-164">If you are using Microsoft Defender Antivirus in your environment, see [Configure network connections to the Microsoft Defender Antivirus cloud service](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus).</span></span>
+
+<span data-ttu-id="f97f8-165">프록시 또는 방화벽이 익명 트래픽을 차단하는 경우 Endpoint용 Defender 센서가 시스템 컨텍스트에서 연결하고 있는 경우 이전에 나열된 URL에서 익명 트래픽이 허용되어 있는지 확인하십시오.</span><span class="sxs-lookup"><span data-stu-id="f97f8-165">If a proxy or firewall is blocking anonymous traffic, as Defender for Endpoint sensor is connecting from system context, make sure anonymous traffic is permitted in the previously listed URLs.</span></span>
+
+### <a name="microsoft-monitoring-agent-mma---proxy-and-firewall-requirements-for-older-versions-of-windows-client-or-windows-server"></a><span data-ttu-id="f97f8-166">MMA(Microsoft 모니터링 에이전트) - 이전 버전의 Windows 클라이언트 또는 Windows Server에 대한 프록시 및 방화벽 요구 사항</span><span class="sxs-lookup"><span data-stu-id="f97f8-166">Microsoft Monitoring Agent (MMA) - proxy and firewall requirements for older versions of Windows client or Windows Server</span></span>
+
+<span data-ttu-id="f97f8-167">아래 정보에는 Windows 7 SP1, Windows 8.1, Windows Server 2008 R2, Windows Server 2012 R2 및 Windows Server 2016과 같은 이전 버전의 Windows에 대한 Log Analytics 에이전트(Microsoft 모니터링 에이전트라고도 지칭)와 통신하는 데 필요한 프록시 및 방화벽 구성 정보가 나열되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-167">The information below list the proxy and firewall configuration information required to communicate with Log Analytics agent (often referred to as Microsoft Monitoring Agent) for the previous versions of Windows such as Windows 7 SP1, Windows 8.1, Windows Server 2008 R2, Windows Server 2012 R2, and Windows Server 2016.</span></span>
+
+|<span data-ttu-id="f97f8-168">에이전트 리소스</span><span class="sxs-lookup"><span data-stu-id="f97f8-168">Agent Resource</span></span>|<span data-ttu-id="f97f8-169">포트</span><span class="sxs-lookup"><span data-stu-id="f97f8-169">Ports</span></span> |<span data-ttu-id="f97f8-170">Direction</span><span class="sxs-lookup"><span data-stu-id="f97f8-170">Direction</span></span> |<span data-ttu-id="f97f8-171">HTTPS 검사 무시</span><span class="sxs-lookup"><span data-stu-id="f97f8-171">Bypass HTTPS inspection</span></span>|
+|------|---------|--------|--------|   
+|<span data-ttu-id="f97f8-172">\*.ods.opinsights.azure.com</span><span class="sxs-lookup"><span data-stu-id="f97f8-172">\*.ods.opinsights.azure.com</span></span> |<span data-ttu-id="f97f8-173">포트 443</span><span class="sxs-lookup"><span data-stu-id="f97f8-173">Port 443</span></span> |<span data-ttu-id="f97f8-174">아웃바운드</span><span class="sxs-lookup"><span data-stu-id="f97f8-174">Outbound</span></span>|<span data-ttu-id="f97f8-175">예</span><span class="sxs-lookup"><span data-stu-id="f97f8-175">Yes</span></span> |  
+|<span data-ttu-id="f97f8-176">\*.oms.opinsights.azure.com</span><span class="sxs-lookup"><span data-stu-id="f97f8-176">\*.oms.opinsights.azure.com</span></span> |<span data-ttu-id="f97f8-177">포트 443</span><span class="sxs-lookup"><span data-stu-id="f97f8-177">Port 443</span></span> |<span data-ttu-id="f97f8-178">아웃바운드</span><span class="sxs-lookup"><span data-stu-id="f97f8-178">Outbound</span></span>|<span data-ttu-id="f97f8-179">예</span><span class="sxs-lookup"><span data-stu-id="f97f8-179">Yes</span></span> |  
+|<span data-ttu-id="f97f8-180">\*.blob.core.windows.net</span><span class="sxs-lookup"><span data-stu-id="f97f8-180">\*.blob.core.windows.net</span></span> |<span data-ttu-id="f97f8-181">포트 443</span><span class="sxs-lookup"><span data-stu-id="f97f8-181">Port 443</span></span> |<span data-ttu-id="f97f8-182">아웃바운드</span><span class="sxs-lookup"><span data-stu-id="f97f8-182">Outbound</span></span>|<span data-ttu-id="f97f8-183">예</span><span class="sxs-lookup"><span data-stu-id="f97f8-183">Yes</span></span> |
+|<span data-ttu-id="f97f8-184">\*.azure-automation.net</span><span class="sxs-lookup"><span data-stu-id="f97f8-184">\*.azure-automation.net</span></span> |<span data-ttu-id="f97f8-185">포트 443</span><span class="sxs-lookup"><span data-stu-id="f97f8-185">Port 443</span></span> |<span data-ttu-id="f97f8-186">아웃바운드</span><span class="sxs-lookup"><span data-stu-id="f97f8-186">Outbound</span></span>|<span data-ttu-id="f97f8-187">예</span><span class="sxs-lookup"><span data-stu-id="f97f8-187">Yes</span></span> |  
+
+
+> [!NOTE]
+> <span data-ttu-id="f97f8-188">클라우드 기반 솔루션으로 IP 범위는 변경될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-188">As a cloud-based solution, the IP range can change.</span></span> <span data-ttu-id="f97f8-189">DNS 확인할 수 있는 설정으로 이동하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-189">It's recommended you move to DNS resolving setting.</span></span>
+
+## <a name="confirm-microsoft-monitoring-agent-mma-service-url-requirements"></a><span data-ttu-id="f97f8-190">MMA(Microsoft 모니터링 에이전트) 서비스 URL 요구 사항 확인</span><span class="sxs-lookup"><span data-stu-id="f97f8-190">Confirm Microsoft Monitoring Agent (MMA) Service URL Requirements</span></span> 
+
+<span data-ttu-id="f97f8-191">이전 버전의 Windows에서 MMA(Microsoft 모니터링 에이전트)를 사용할 때 특정 환경에 대한 와일드카드(\*) 요구 사항을 제거하기 위해 다음 지침을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="f97f8-191">Please see the following guidance to eliminate the wildcard (\*) requirement for your specific environment when using the Microsoft Monitoring Agent (MMA) for previous versions of Windows.</span></span>
+
+1.  <span data-ttu-id="f97f8-192">MMA(Microsoft 모니터링 에이전트)를 통해 이전 운영 체제를 끝점용 Defender에 온보딩합니다(자세한 내용은 [Endpoint용 Defender의](https://go.microsoft.com/fwlink/p/?linkid=2010326) 이전 버전 온보딩 및 [Windows 서버](configure-server-endpoints.md#windows-server-2008-r2-sp1-windows-server-2012-r2-and-windows-server-2016)온보딩 참조).</span><span class="sxs-lookup"><span data-stu-id="f97f8-192">Onboard a previous operating system with the Microsoft Monitoring Agent (MMA) into Defender for Endpoint (for more information, see [Onboard previous versions of Windows on Defender for Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2010326) and [Onboard Windows servers](configure-server-endpoints.md#windows-server-2008-r2-sp1-windows-server-2012-r2-and-windows-server-2016).</span></span>
+
+2.  <span data-ttu-id="f97f8-193">Microsoft Defender 보안 센터 포털에 컴퓨터의 보고가 성공적으로 완료된지 확인</span><span class="sxs-lookup"><span data-stu-id="f97f8-193">Ensure the machine is successfully reporting into the Microsoft Defender Security Center portal.</span></span>
+
+3.  <span data-ttu-id="f97f8-194">"C:\Program Files\Microsoft Monitoring Agent\Agent"에서 TestCloudConnection.exe 도구를 실행하여 연결의 유효성을 검사하고 특정 작업 영역의 필수 URL을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-194">Run the TestCloudConnection.exe tool from “C:\Program Files\Microsoft Monitoring Agent\Agent” to validate the connectivity and to see the required URLs for your specific workspace.</span></span>
+
+4.  <span data-ttu-id="f97f8-195">Microsoft Defender for Endpoint URL 목록을 확인하여 해당 지역의 전체 요구 사항 목록을 확인합니다(서비스 URL 스프레드시트를 [참조하세요).](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)</span><span class="sxs-lookup"><span data-stu-id="f97f8-195">Check the Microsoft Defender for Endpoint URLs list for the complete list of requirements for your region (please refer to the Service URLs [Spreadsheet](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)).</span></span>
+
+![조직의 관리자 Windows PowerShell](images/admin-powershell.png)
+
+<span data-ttu-id="f97f8-197">\*.ods.opinsights.azure.com, \*.oms.opinsights.azure.com 및 *.agentsvc.azure-automation.net URL 끝점에서 사용되는 와일드카드(*)를 특정 작업 영역 ID로 바꿀 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-197">The wildcards (\*) used in \*.ods.opinsights.azure.com, \*.oms.opinsights.azure.com, and \*.agentsvc.azure-automation.net URL endpoints can be replaced with your specific Workspace ID.</span></span> <span data-ttu-id="f97f8-198">작업 영역 ID는 환경 및 작업 영역과 관련이 있으며 Microsoft Defender 보안 센터 포털 내에서 테넌트의 온보딩 섹션에서 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-198">The Workspace ID is specific to your environment and workspace and can be found in the Onboarding section of your tenant within the Microsoft Defender Security Center portal.</span></span>
+
+<span data-ttu-id="f97f8-199">\*.blob.core.windows.net URL 끝점을 테스트 결과의 "방화벽 규칙: \*.blob.core.windows.net" 섹션에 표시된 URL로 바꿀 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-199">The \*.blob.core.windows.net URL endpoint can be replaced with the URLs shown in the “Firewall Rule: \*.blob.core.windows.net” section of the test results.</span></span> 
+
+> [!NOTE]
+> <span data-ttu-id="f97f8-200">AsC(Azure 보안 센터)를 통한 온보드의 경우 여러 작업 영역이 사용될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-200">In the case of onboarding via Azure Security Center (ASC), multiple workspaces maybe used.</span></span> <span data-ttu-id="f97f8-201">각 작업 영역의 온보드된 TestCloudConnection.exe 위의 절차에 따라 작업 영역 간에 \*.blob.core.windows.net URL이 변경되어 있는지 확인해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-201">You will need to perform the TestCloudConnection.exe procedure above on an onboarded machine from each workspace (to determine if there are any changes to the \*.blob.core.windows.net URLs between the workspaces).</span></span>
+
+## <a name="verify-client-connectivity-to-microsoft-defender-atp-service-urls"></a><span data-ttu-id="f97f8-202">Microsoft Defender ATP 서비스 URL에 대한 클라이언트 연결 확인</span><span class="sxs-lookup"><span data-stu-id="f97f8-202">Verify client connectivity to Microsoft Defender ATP service URLs</span></span>
+
+<span data-ttu-id="f97f8-203">프록시 구성이 성공적으로 완료되었는지 확인합니다. WinHTTP는 사용자 환경의 프록시 서버를 통해 검색할 수 있으며 프록시 서버가 엔드포인트용 Defender 서비스 URL에 대한 트래픽을 허용하는지 여부를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-203">Verify the proxy configuration completed successfully, that WinHTTP can discover and communicate through the proxy server in your environment, and that the proxy server allows traffic to the Defender for Endpoint service URLs.</span></span>
+
+1. <span data-ttu-id="f97f8-204">끝점용 Defender 센서가 실행되는 PC에 [MDATP](https://aka.ms/mdatpanalyzer) 클라이언트 분석기 도구를 다운로드합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-204">Download the [MDATP Client Analyzer tool](https://aka.ms/mdatpanalyzer) to the PC where Defender for Endpoint sensor is running on.</span></span>
+
+2. <span data-ttu-id="f97f8-205">장치에서 MDATPC Client Analyzer.zip의 내용을 추출합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-205">Extract the contents of MDATPClientAnalyzer.zip on the device.</span></span>
+
+3. <span data-ttu-id="f97f8-206">승격된 명령줄을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-206">Open an elevated command-line:</span></span>
+
+    <span data-ttu-id="f97f8-207">a.</span><span class="sxs-lookup"><span data-stu-id="f97f8-207">a.</span></span> <span data-ttu-id="f97f8-208">**시작**(으)로 이동하고 **cmd** 를 입력하십시오.</span><span class="sxs-lookup"><span data-stu-id="f97f8-208">Go to **Start** and type **cmd**.</span></span>
+
+    <span data-ttu-id="f97f8-209">b.</span><span class="sxs-lookup"><span data-stu-id="f97f8-209">b.</span></span>  <span data-ttu-id="f97f8-210">**명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-210">Right-click **Command prompt** and select **Run as administrator**.</span></span>
+
+4. <span data-ttu-id="f97f8-211">다음 명령을 입력하고 **Enter** 를 누릅니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-211">Enter the following command and press **Enter**:</span></span>
+
+    ```PowerShell
+    HardDrivePath\MDATPClientAnalyzer.cmd
+    ```
+
+    <span data-ttu-id="f97f8-212">예를 들어 *HardDrivePath* 를 MDATPC 클라이언트 Analyzer 도구가 다운로드된 경로로 대체합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-212">Replace *HardDrivePath* with the path where the MDATPClientAnalyzer tool was downloaded to, for example</span></span>
+
+    ```PowerShell
+    C:\Work\tools\MDATPClientAnalyzer\MDATPClientAnalyzer.cmd
+    ```
+
+5. <span data-ttu-id="f97f8-213">*HardDrivePath에서* *MDATPClientAnalyzerResult.zip* 도구로 만든 파일 추출</span><span class="sxs-lookup"><span data-stu-id="f97f8-213">Extract the *MDATPClientAnalyzerResult.zip* file created by tool in the folder used in the *HardDrivePath*.</span></span>
+
+6. <span data-ttu-id="f97f8-214">*MDATPClient AnalyzerResult.txt* 를 열고 프록시 구성 단계를 수행하여 서버 검색 및 서비스 URL 액세스를 설정했는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-214">Open *MDATPClientAnalyzerResult.txt* and verify that you have performed the proxy configuration steps to enable server discovery and access to the service URLs.</span></span> <br><br>
+   <span data-ttu-id="f97f8-215">도구는 엔드포인트용 Defender 클라이언트와 상호 작용하도록 구성된 엔드포인트용 Defender 서비스 URL의 연결을 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-215">The tool checks the connectivity of Defender for Endpoint service URLs that Defender for Endpoint client is configured to interact with.</span></span> <span data-ttu-id="f97f8-216">그런 다음 엔드포인트용 Defender 서비스와 통신하는 데 잠재적으로 사용될 수있는 각 URL에 대한 결과를 *MDATPClientAnalyzerResult.txt* 파일에 인쇄합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-216">It then prints the results into the *MDATPClientAnalyzerResult.txt* file for each URL that can potentially be used to communicate with the Defender for Endpoint services.</span></span> <span data-ttu-id="f97f8-217">예를 들어 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-217">For example:</span></span>
+
+   ```text
+   Testing URL : https://xxx.microsoft.com/xxx
+   1 - Default proxy: Succeeded (200)
+   2 - Proxy auto discovery (WPAD): Succeeded (200)
+   3 - Proxy disabled: Succeeded (200)
+   4 - Named proxy: Doesn't exist
+   5 - Command line proxy: Doesn't exist
+   ```
+
+<span data-ttu-id="f97f8-218">연결 옵션 중 하나 이상이 (200) 상태를 반환하는 경우 엔드포인트용 Defender 클라이언트는 이 연결 방법을 사용하여 테스트된 URL과 제대로 통신할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-218">If at least one of the connectivity options returns a (200) status, then the Defender for Endpoint client can communicate with the tested URL properly using this connectivity method.</span></span> <br><br>
+
+<span data-ttu-id="f97f8-219">그러나 연결 검사 결과가 오류를 나타내는 경우 HTTP 오류가 표시됩니다(HTTP 상태 코드 참조).</span><span class="sxs-lookup"><span data-stu-id="f97f8-219">However, if the connectivity check results indicate a failure, an HTTP error is displayed (see HTTP Status Codes).</span></span> <span data-ttu-id="f97f8-220">그런 다음 프록시 서버 에서 [Defender for Endpoint](#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server)서비스 URL에 대한 액세스 사용에 표시된 표의 URL을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-220">You can then use the URLs in the table shown in [Enable access to Defender for Endpoint service URLs in the proxy server](#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server).</span></span> <span data-ttu-id="f97f8-221">사용할 URL은 온보더링 절차 중에 선택한 지역에 따라 다를 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-221">The URLs you'll use will depend on the region selected during the onboarding procedure.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="f97f8-222"> 연결 분석기 도구가 ASR 규칙 [ PSExec 및 WMI 명령 ](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction#attack-surface-reduction-rules)에서 생성된 블록 프로세스 생성과 호환되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-222">The Connectivity Analyzer tool is not compatible with ASR rule [Block process creations originating from PSExec and WMI commands](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction#attack-surface-reduction-rules).</span></span> <span data-ttu-id="f97f8-223">연결 도구를 실행하려면 이 규칙을 일시적으로 비활성화해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-223">You will need to temporarily disable this rule to run the connectivity tool.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="f97f8-224">TelemetryProxyServer가 설정되어 있는 경우 레지스트리 또는 그룹 정책을 통해 끝점에 대한 Defender가 정의된 프록시에 액세스할 수 없는 경우 직접로 변경됩니다.</span><span class="sxs-lookup"><span data-stu-id="f97f8-224">When the TelemetryProxyServer is set, in Registry or via Group Policy, Defender for Endpoint will fall back to direct if it can't access the defined proxy.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="f97f8-225">관련 항목</span><span class="sxs-lookup"><span data-stu-id="f97f8-225">Related topics</span></span>
+
+- [<span data-ttu-id="f97f8-226">Windows 10 장치 온보드</span><span class="sxs-lookup"><span data-stu-id="f97f8-226">Onboard Windows 10 devices</span></span>](configure-endpoints.md)
+- [<span data-ttu-id="f97f8-227">끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결</span><span class="sxs-lookup"><span data-stu-id="f97f8-227">Troubleshoot Microsoft Defender for Endpoint onboarding issues</span></span>](troubleshoot-onboarding.md)
