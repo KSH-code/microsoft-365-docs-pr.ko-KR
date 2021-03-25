@@ -1,0 +1,472 @@
+---
+title: 공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
+description: 공격 표면 감소 규칙은 악용이 앱 및 스크립트를 사용하여 장치를 맬웨어에 감염하는 것을 방지하는 데 도움이 될 수 있습니다.
+keywords: 공격 표면 감소 규칙, asr, hips, 호스트 침입 방지 시스템, 보호 규칙, 악용 방지, 악용, 감염 방지, 끝점용 Microsoft Defender, Microsoft Defender ATP
+search.product: eADQiWindows 10XVcnh
+ms.prod: m365-security
+ms.mktglfcycl: manage
+ms.sitesec: library
+ms.pagetype: security
+localization_priority: Normal
+audience: ITPro
+author: denisebmsft
+ms.author: deniseb
+ms.reviewer: sugamar, jcedola
+manager: dansimp
+ms.custom: asr
+ms.technology: mde
+ms.openlocfilehash: 2bd8442dd8e119a57c490773b6e01a7c5f7adcac
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51075420"
+---
+# <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a><span data-ttu-id="a75f7-104">공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지</span><span class="sxs-lookup"><span data-stu-id="a75f7-104">Use attack surface reduction rules to prevent malware infection</span></span>
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+<span data-ttu-id="a75f7-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="a75f7-105">**Applies to:**</span></span>
+- [<span data-ttu-id="a75f7-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="a75f7-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [<span data-ttu-id="a75f7-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="a75f7-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+
+
+## <a name="why-attack-surface-reduction-rules-are-important"></a><span data-ttu-id="a75f7-108">공격 표면 감소 규칙이 중요한 이유</span><span class="sxs-lookup"><span data-stu-id="a75f7-108">Why attack surface reduction rules are important</span></span>
+
+<span data-ttu-id="a75f7-109">조직의 공격 표면에는 공격자가 조직의 장치 또는 네트워크를 손상시킬 수 있는 모든 위치가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-109">Your organization's attack surface includes all the places where an attacker could compromise your organization's devices or networks.</span></span> <span data-ttu-id="a75f7-110">공격 표면을 줄이는 것은 조직의 장치와 네트워크를 보호하는 것을 의미하며, 공격자는 공격을 더 적은 방법으로 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-110">Reducing your attack surface means protecting your organization's devices and network, which leaves attackers with fewer ways to perform attacks.</span></span> <span data-ttu-id="a75f7-111">끝점용 Microsoft Defender에서 공격 표면 감소 규칙을 구성하면 도움이 될 수 있습니다!</span><span class="sxs-lookup"><span data-stu-id="a75f7-111">Configuring attack surface reduction rules in Microsoft Defender for Endpoint can help!</span></span>
+
+<span data-ttu-id="a75f7-112">공격 표면 감소 규칙은 다음과 같은 특정 소프트웨어 동작을 대상으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-112">Attack surface reduction rules target certain software behaviors, such as:</span></span>
+
+- <span data-ttu-id="a75f7-113">파일 다운로드 또는 실행을 시도하는 실행 파일 및 스크립트 실행</span><span class="sxs-lookup"><span data-stu-id="a75f7-113">Launching executable files and scripts that attempt to download or run files;</span></span>
+- <span data-ttu-id="a75f7-114">난동되거나 의심스러운 스크립트 실행 및</span><span class="sxs-lookup"><span data-stu-id="a75f7-114">Running obfuscated or otherwise suspicious scripts; and</span></span> 
+- <span data-ttu-id="a75f7-115">앱이 일반적으로 일반적인 일과 중에 시작되지 않는 동작 수행</span><span class="sxs-lookup"><span data-stu-id="a75f7-115">Performing behaviors that apps don't usually initiate during normal day-to-day work.</span></span>
+
+<span data-ttu-id="a75f7-116">이러한 소프트웨어 동작은 경우에 따라 합법적인 응용 프로그램에서 볼 수 있습니다. 그러나 이러한 동작은 일반적으로 맬웨어를 통해 공격자에 의해 악용되는 위험한 동작으로 간주됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-116">Such software behaviors are sometimes seen in legitimate applications; however, these behaviors are often considered risky because they are commonly abused by attackers through malware.</span></span> <span data-ttu-id="a75f7-117">공격 표면 감소 규칙은 위험한 동작을 제한하고 조직을 안전하게 유지하는 데 도움이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-117">Attack surface reduction rules can constrain risky behaviors and help keep your organization safe.</span></span>
+
+<span data-ttu-id="a75f7-118">공격 표면 감소 규칙을 구성하는 방법에 대한 자세한 내용은 공격 표면 감소 규칙 사용 [을 참조하세요.](enable-attack-surface-reduction.md)</span><span class="sxs-lookup"><span data-stu-id="a75f7-118">For more information about configuring attack surface reduction rules, see [Enable attack surface reduction rules](enable-attack-surface-reduction.md).</span></span>
+
+## <a name="assess-rule-impact-before-deployment"></a><span data-ttu-id="a75f7-119">배포 전에 규칙 영향 평가</span><span class="sxs-lookup"><span data-stu-id="a75f7-119">Assess rule impact before deployment</span></span>  
+
+<span data-ttu-id="a75f7-120">위협 및 취약성 관리에서 해당 규칙에 대한 보안 권장을 열면 공격 표면 감소 규칙이 네트워크에 미칠 수 있는 영향을 [평가할 수 있습니다.](https://docs.microsoft.com/windows/security/threat-protection/#tvm)</span><span class="sxs-lookup"><span data-stu-id="a75f7-120">You can assess how an attack surface reduction rule might affect your network by opening the security recommendation for that rule in [threat and vulnerability management](https://docs.microsoft.com/windows/security/threat-protection/#tvm).</span></span> 
+
+:::image type="content" source="images/asrrecommendation.png" alt-text="공격 표면 감소 규칙에 대한 보안 다시코":::
+
+<span data-ttu-id="a75f7-122">권장 사항 세부 정보 창에서 사용자 영향을 확인하여 생산성에 부정적인 영향을 주지 않으면서 차단 모드에서 규칙을 사용하도록 설정하는 새 정책을 허용할 수 있는 장치의 비율을 결정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-122">In the recommendation details pane, check for user impact to determine what percentage of your devices can accept a new policy enabling the rule in blocking mode without adversely affecting productivity.</span></span>
+
+## <a name="audit-mode-for-evaluation"></a><span data-ttu-id="a75f7-123">평가를 위한 감사 모드</span><span class="sxs-lookup"><span data-stu-id="a75f7-123">Audit mode for evaluation</span></span>
+
+<span data-ttu-id="a75f7-124">감사 [모드를 사용하여](audit-windows-defender.md) 공격 표면 감소 규칙이 사용하도록 설정된 경우 조직에 어떤 영향을 주는지 평가합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-124">Use [audit mode](audit-windows-defender.md) to evaluate how attack surface reduction rules would affect your organization if they were enabled.</span></span> <span data-ttu-id="a75f7-125">모든 규칙을 먼저 감사 모드에서 실행하여 해당 규칙이 업무(LINE-OF-BUSINESS) 응용 프로그램에 미치는 영향을 이해할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-125">Run all rules in audit mode first so you can understand how they affect your line-of-business applications.</span></span> <span data-ttu-id="a75f7-126">많은 기간 업무(기간 업무) 응용 프로그램은 제한된 보안 문제로 작성되어 맬웨어와 유사한 방식으로 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-126">Many line-of-business applications are written with limited security concerns, and they might perform tasks in ways that seem similar to malware.</span></span> <span data-ttu-id="a75f7-127">감사 데이터를 모니터링하고 [](enable-attack-surface-reduction.md#exclude-files-and-folders-from-asr-rules) 필요한 응용 프로그램에 대한 제외를 추가하면 생산성을 줄이지 않고 공격 표면 감소 규칙을 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-127">By monitoring audit data and [adding exclusions](enable-attack-surface-reduction.md#exclude-files-and-folders-from-asr-rules) for necessary applications, you can deploy attack surface reduction rules without reducing productivity.</span></span>
+
+## <a name="warn-mode-for-users"></a><span data-ttu-id="a75f7-128">사용자에 대한 경고 모드</span><span class="sxs-lookup"><span data-stu-id="a75f7-128">Warn mode for users</span></span>
+
+<span data-ttu-id="a75f7-129">(**NEW**!) 경고 모드 기능 이전에 사용하도록 설정된 공격 표면 감소 규칙을 감사 모드 또는 차단 모드로 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-129">(**NEW**!) Prior to warn mode capabilities, attack surface reduction rules that are enabled could be set to either audit mode or block mode.</span></span> <span data-ttu-id="a75f7-130">새 경고 모드를 사용하면 콘텐츠가 공격 표면 축소 규칙에 의해 차단되면 콘텐츠가 차단된 것 을 나타내는 대화 상자가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-130">With the new warn mode, whenever content is blocked by an attack surface reduction rule, users see a dialog box that indicates the content is blocked.</span></span> <span data-ttu-id="a75f7-131">또한 이 대화 상자에서는 콘텐츠 차단을 해제할 수 있는 옵션도 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-131">The dialog box also offers the user an option to unblock the content.</span></span> <span data-ttu-id="a75f7-132">그러면 사용자가 작업을 다시 시도할 수 있으며 작업이 완료됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-132">The user can then retry their action, and the operation completes.</span></span> <span data-ttu-id="a75f7-133">사용자가 콘텐츠 차단을 해제하면 콘텐츠가 24시간 동안 차단되지 않은 상태로 유지된 다음 다시 시작을 차단합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-133">When a user unblocks content, the content remains unblocked for 24 hours, and then blocking resumes.</span></span>
+
+<span data-ttu-id="a75f7-134">경고 모드는 사용자가 작업을 수행하는 데 필요한 콘텐츠에 액세스하지 못하게 하여 조직이 공격 표면 감소 규칙을 적용하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-134">Warn mode helps your organization have attack surface reduction rules in place without preventing users from accessing the content they need to perform their tasks.</span></span> 
+
+### <a name="requirements-for-warn-mode-to-work"></a><span data-ttu-id="a75f7-135">작동 경고 모드에 대한 요구 사항</span><span class="sxs-lookup"><span data-stu-id="a75f7-135">Requirements for warn mode to work</span></span>
+
+<span data-ttu-id="a75f7-136">경고 모드는 다음 버전의 Windows를 실행하는 장치에서 지원됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-136">Warn mode is supported on devices running the following versions of Windows:</span></span>
+- <span data-ttu-id="a75f7-137">[Windows 10 버전 1809](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1809) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-137">[Windows 10, version 1809](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1809) or later</span></span>
+- <span data-ttu-id="a75f7-138">[Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-138">[Windows Server, version 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809) or later</span></span>
+ 
+<span data-ttu-id="a75f7-139">Microsoft Defender 바이러스 백신은 활성 모드에서 실시간 보호를 [통해 실행되고 있어야 합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility#functionality-and-features-available-in-each-state)</span><span class="sxs-lookup"><span data-stu-id="a75f7-139">Microsoft Defender Antivirus must be running with real-time protection in [Active mode](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility#functionality-and-features-available-in-each-state).</span></span>
+
+<span data-ttu-id="a75f7-140">또한 Microsoft Defender 바이러스 백신 및 [맬웨어 방지 업데이트가 설치되어 있는지](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus#monthly-platform-and-engine-versions) 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-140">In addition, make sure [Microsoft Defender Antivirus and antimalware updates](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus#monthly-platform-and-engine-versions) are installed.</span></span>
+- <span data-ttu-id="a75f7-141">최소 플랫폼 릴리스 요구 사항: `4.18.2008.9`</span><span class="sxs-lookup"><span data-stu-id="a75f7-141">Minimum platform release requirement: `4.18.2008.9`</span></span>  
+- <span data-ttu-id="a75f7-142">최소 엔진 릴리스 요구 사항: `1.1.17400.5`</span><span class="sxs-lookup"><span data-stu-id="a75f7-142">Minimum engine release requirement: `1.1.17400.5`</span></span>
+
+<span data-ttu-id="a75f7-143">자세한 내용은 Microsoft Defender 맬웨어 방지 플랫폼에 대한 업데이트를 [참조하세요.](https://support.microsoft.com/help/4052623/update-for-microsoft-defender-antimalware-platform)</span><span class="sxs-lookup"><span data-stu-id="a75f7-143">For more information and to get your updates, see [Update for Microsoft Defender antimalware platform](https://support.microsoft.com/help/4052623/update-for-microsoft-defender-antimalware-platform).</span></span>
+
+### <a name="cases-where-warn-mode-is-not-supported"></a><span data-ttu-id="a75f7-144">경고 모드가 지원되지 않는 경우</span><span class="sxs-lookup"><span data-stu-id="a75f7-144">Cases where warn mode is not supported</span></span>
+
+<span data-ttu-id="a75f7-145">다음 공격 표면 감소 규칙에 대해 경고 모드가 지원되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-145">Warn mode is not supported for the following attack surface reduction rules:</span></span>
+
+- <span data-ttu-id="a75f7-146">[JavaScript 또는 VBScript에서 다운로드한](#block-javascript-or-vbscript-from-launching-downloaded-executable-content) 실행 콘텐츠(GUID)를 시작하지 차단 `d3e037e1-3eb8-44c8-a917-57927947596d`</span><span class="sxs-lookup"><span data-stu-id="a75f7-146">[Block JavaScript or VBScript from launching downloaded executable content](#block-javascript-or-vbscript-from-launching-downloaded-executable-content) (GUID `d3e037e1-3eb8-44c8-a917-57927947596d`)</span></span>
+- <span data-ttu-id="a75f7-147">[WMI 이벤트 구독(GUID)을 통한](#block-persistence-through-wmi-event-subscription) 지속성 `e6db77e5-3df2-4cf1-b95a-636979351e5b` 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-147">[Block persistence through WMI event subscription](#block-persistence-through-wmi-event-subscription) (GUID `e6db77e5-3df2-4cf1-b95a-636979351e5b`)</span></span>
+- <span data-ttu-id="a75f7-148">[랜섬웨어에 대한](#use-advanced-protection-against-ransomware) 고급 보호 사용(GUID) `c1db55ab-c21a-4637-bb3f-a12568109d35`</span><span class="sxs-lookup"><span data-stu-id="a75f7-148">[Use advanced protection against ransomware](#use-advanced-protection-against-ransomware) (GUID `c1db55ab-c21a-4637-bb3f-a12568109d35`)</span></span>
+
+<span data-ttu-id="a75f7-149">또한 이전 버전의 Windows를 실행하는 디바이스에서는 경고 모드가 지원되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-149">In addition, warn mode is not supported on devices running older versions of Windows.</span></span> <span data-ttu-id="a75f7-150">이러한 경우 경고 모드에서 실행하도록 구성된 공격 표면 감소 규칙은 차단 모드에서 실행됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-150">In those cases, attack surface reduction rules that are configured to run in warn mode will run in block mode.</span></span>
+
+## <a name="notifications-and-alerts"></a><span data-ttu-id="a75f7-151">알림 및 알림</span><span class="sxs-lookup"><span data-stu-id="a75f7-151">Notifications and alerts</span></span>
+
+<span data-ttu-id="a75f7-152">공격 표면 감소 규칙이 트리거될 때마다 알림이 장치에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-152">Whenever an attack surface reduction rule is triggered, a notification is displayed on the device.</span></span> <span data-ttu-id="a75f7-153">회사 세부 [정보 및 연락처](customize-attack-surface-reduction.md#customize-the-notification) 정보로 알림을 사용자 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-153">You can [customize the notification](customize-attack-surface-reduction.md#customize-the-notification) with your company details and contact information.</span></span>
+
+<span data-ttu-id="a75f7-154">또한 특정 공격 표면 감소 규칙이 트리거되면 경고가 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-154">In addition, when certain attack surface reduction rules are triggered, alerts are generated.</span></span> 
+
+<span data-ttu-id="a75f7-155">알림 및 생성된 경고는 Microsoft Defender 보안 센터( ) 및 [https://securitycenter.windows.com](https://securitycenter.windows.com) Microsoft 365 보안 센터()에서 볼 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-155">Notifications and any alerts that are generated can be viewed in the Microsoft Defender Security Center ([https://securitycenter.windows.com](https://securitycenter.windows.com)) and in the Microsoft 365 security center ([https://security.microsoft.com](https://security.microsoft.com)).</span></span>
+
+## <a name="advanced-hunting-and-attack-surface-reduction-events"></a><span data-ttu-id="a75f7-156">고급 헌팅 및 공격 표면 축소 이벤트</span><span class="sxs-lookup"><span data-stu-id="a75f7-156">Advanced hunting and attack surface reduction events</span></span>
+
+<span data-ttu-id="a75f7-157">고급 헌팅을 사용하여 공격 표면 감소 이벤트를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-157">You can use advanced hunting to view attack surface reduction events.</span></span> <span data-ttu-id="a75f7-158">들어오는 데이터의 양을 간소화하기 위해 고급 헌팅을 통해 각 시간의 고유한 프로세스만 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-158">To streamline the volume of incoming data, only unique processes for each hour are viewable with advanced hunting.</span></span> <span data-ttu-id="a75f7-159">공격 범위 축소 이벤트의 시간은 이벤트가 시간 내에 처음으로 나타났습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-159">The time of an attack surface reduction event is the first time that event is seen within the hour.</span></span>
+
+<span data-ttu-id="a75f7-160">예를 들어 오후 2시 동안 10대의 장치에서 공격 표면 감소 이벤트가 발생했다고 가정해 보겠습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-160">For example, suppose that an attack surface reduction event occurs on 10 devices during the 2:00 PM hour.</span></span> <span data-ttu-id="a75f7-161">첫 번째 이벤트가 2:15에 발생하고 마지막 2:45에 발생했다고 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-161">Suppose that the first event occurred at 2:15, and the last at 2:45.</span></span> <span data-ttu-id="a75f7-162">고급 헌팅을 사용하면 실제로 10대의 장치에서 발생한 경우에도 해당 이벤트의 인스턴스가 하나씩 표시될 수 있으며 타임스탬프는 오후 2시 15분입니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-162">With advanced hunting, you'll see one instance of that event (even though it actually occurred on 10 devices), and its timestamp will be 2:15 PM.</span></span> 
+
+<span data-ttu-id="a75f7-163">고급 헌팅에 대한 자세한 내용은 고급 헌팅으로 위협을 사전 [대응적으로 헌팅을 참조하세요.](advanced-hunting-overview.md)</span><span class="sxs-lookup"><span data-stu-id="a75f7-163">For more information about advanced hunting, see [Proactively hunt for threats with advanced hunting](advanced-hunting-overview.md).</span></span>
+
+## <a name="attack-surface-reduction-features-across-windows-versions"></a><span data-ttu-id="a75f7-164">Windows 버전 전반의 공격 표면 감소 기능</span><span class="sxs-lookup"><span data-stu-id="a75f7-164">Attack surface reduction features across Windows versions</span></span>
+
+<span data-ttu-id="a75f7-165">다음 Windows 버전 및 버전을 실행하는 장치에 대해 공격 표면 감소 규칙을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-165">You can set attack surface reduction rules for devices that are running any of the following editions and versions of Windows:</span></span>
+- <span data-ttu-id="a75f7-166">Windows 10 Pro 버전 [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-166">Windows 10 Pro, [version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) or later</span></span>
+- <span data-ttu-id="a75f7-167">Windows 10 Enterprise 버전 [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-167">Windows 10 Enterprise, [version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) or later</span></span>
+- <span data-ttu-id="a75f7-168">Windows Server, [버전 1803(반기 채널)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-168">Windows Server, [version 1803 (Semi-Annual Channel)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) or later</span></span>
+- [<span data-ttu-id="a75f7-169">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-169">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+
+<span data-ttu-id="a75f7-170">공격 표면 감소 규칙에는 Windows E5 라이선스가 필요하지 [않습니다. Windows E5가](https://docs.microsoft.com/windows/deployment/deploy-enterprise-licenses)있는 경우 고급 관리 기능을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-170">Although attack surface reduction rules don't require a [Windows E5 license](https://docs.microsoft.com/windows/deployment/deploy-enterprise-licenses), if you have Windows E5, you get advanced management capabilities.</span></span> <span data-ttu-id="a75f7-171">Windows E5에서만 사용할 수 있는 이러한 기능에는 [끝점용 Defender에서](microsoft-defender-advanced-threat-protection.md)사용할 수 있는 모니터링, 분석 및 워크플로와 [Microsoft 365](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center)보안 센터의 보고 및 구성 기능이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-171">These capabilities available only in Windows E5 include monitoring, analytics, and workflows available in [Defender for Endpoint](microsoft-defender-advanced-threat-protection.md), as well as reporting and configuration capabilities in the [Microsoft 365 security center](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center).</span></span> <span data-ttu-id="a75f7-172">이러한 고급 기능은 Windows Professional 또는 Windows E3 라이선스에서 사용할 수 없습니다. 그러나 해당 라이선스가 있는 경우 이벤트 뷰어 및 Microsoft Defender 바이러스 백신 로그를 사용하여 공격 표면 축소 규칙 이벤트를 검토할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-172">These advanced capabilities aren't available with a Windows Professional or Windows E3 license; however, if you do have those licenses, you can use Event Viewer and Microsoft Defender Antivirus logs to review your attack surface reduction rule events.</span></span>
+
+## <a name="review-attack-surface-reduction-events-in-the-microsoft-defender-security-center"></a><span data-ttu-id="a75f7-173">Microsoft Defender 보안 센터에서 공격 표면 감소 이벤트 검토</span><span class="sxs-lookup"><span data-stu-id="a75f7-173">Review attack surface reduction events in the Microsoft Defender Security Center</span></span>
+
+<span data-ttu-id="a75f7-174">Endpoint용 Defender는 이벤트에 대한 자세한 보고를 제공하며 경고 조사 시나리오의 일부로 차단합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-174">Defender for Endpoint provides detailed reporting for events and blocks as part of alert investigation scenarios.</span></span>
+
+<span data-ttu-id="a75f7-175">고급 헌팅을 사용하여 Defender에서 끝점 데이터를 [쿼리할 수 있습니다.](advanced-hunting-query-language.md)</span><span class="sxs-lookup"><span data-stu-id="a75f7-175">You can query Defender for Endpoint data by using [advanced hunting](advanced-hunting-query-language.md).</span></span> <span data-ttu-id="a75f7-176">감사 모드를 실행하는 [](audit-windows-defender.md)경우 고급 헌팅을 사용하여 공격 표면 감소 규칙이 환경에 미칠 수 있는 영향을 이해할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-176">If you're running [audit mode](audit-windows-defender.md), you can use advanced hunting to understand how attack surface reduction rules could affect your environment.</span></span>
+
+<span data-ttu-id="a75f7-177">다음은 쿼리의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-177">Here is an example query:</span></span>
+
+```kusto
+DeviceEvents
+| where ActionType startswith 'Asr'
+```
+
+## <a name="review-attack-surface-reduction-events-in-windows-event-viewer"></a><span data-ttu-id="a75f7-178">Windows 이벤트 뷰어에서 공격 표면 축소 이벤트 검토</span><span class="sxs-lookup"><span data-stu-id="a75f7-178">Review attack surface reduction events in Windows Event Viewer</span></span>
+
+<span data-ttu-id="a75f7-179">Windows 이벤트 로그를 검토하여 공격 표면 감소 규칙에 의해 생성된 이벤트를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-179">You can review the Windows event log to view events generated by attack surface reduction rules:</span></span>
+
+1. <span data-ttu-id="a75f7-180">평가 [패키지를](https://aka.ms/mp7z2w) 다운로드하고  디바이스에서cfa-events.xml쉽게 액세스할 수 있는 위치에 파일을 추출합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-180">Download the [Evaluation Package](https://aka.ms/mp7z2w) and extract the file *cfa-events.xml* to an easily accessible location on the device.</span></span>
+2. <span data-ttu-id="a75f7-181">Windows 이벤트 *뷰어를* 열기 위해 시작 메뉴에 이벤트 뷰어 단어를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-181">Enter the words, *Event Viewer*, into the Start menu to open the Windows Event Viewer.</span></span>
+3. <span data-ttu-id="a75f7-182">**작업에서** 사용자 지정 보기 **가져오기... 를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="a75f7-182">Under **Actions**, select **Import custom view...**.</span></span>
+4. <span data-ttu-id="a75f7-183">추출된 *cfa-events.xml* 파일을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-183">Select the file *cfa-events.xml* from where it was extracted.</span></span> <span data-ttu-id="a75f7-184">또는 [XML을 직접 복사합니다.](event-views.md)</span><span class="sxs-lookup"><span data-stu-id="a75f7-184">Alternatively, [copy the XML directly](event-views.md).</span></span>
+5. <span data-ttu-id="a75f7-185">**확인** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-185">Select **OK**.</span></span>
+
+<span data-ttu-id="a75f7-186">이벤트를 필터로 지정하여 제어된 폴더 액세스와 관련된 다음 이벤트만 표시하는 사용자 지정 보기를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-186">You can create a custom view that filters events to only show the following events, all of which are related to controlled folder access:</span></span>
+
+|<span data-ttu-id="a75f7-187">이벤트 ID</span><span class="sxs-lookup"><span data-stu-id="a75f7-187">Event ID</span></span> | <span data-ttu-id="a75f7-188">설명</span><span class="sxs-lookup"><span data-stu-id="a75f7-188">Description</span></span> |
+|:---|:---|
+|<span data-ttu-id="a75f7-189">5007</span><span class="sxs-lookup"><span data-stu-id="a75f7-189">5007</span></span> | <span data-ttu-id="a75f7-190">설정이 변경될 때의 이벤트</span><span class="sxs-lookup"><span data-stu-id="a75f7-190">Event when settings are changed</span></span> |
+|<span data-ttu-id="a75f7-191">1121</span><span class="sxs-lookup"><span data-stu-id="a75f7-191">1121</span></span> | <span data-ttu-id="a75f7-192">차단 모드에서 규칙이 발생하면 이벤트</span><span class="sxs-lookup"><span data-stu-id="a75f7-192">Event when rule fires in Block-mode</span></span> |
+|<span data-ttu-id="a75f7-193">1122</span><span class="sxs-lookup"><span data-stu-id="a75f7-193">1122</span></span> | <span data-ttu-id="a75f7-194">감사 모드에서 규칙이 발생하면 이벤트</span><span class="sxs-lookup"><span data-stu-id="a75f7-194">Event when rule fires in Audit-mode</span></span> |
+
+<span data-ttu-id="a75f7-195">이벤트 로그의 공격 표면 축소 이벤트에 대해 나열된 "엔진 버전"은 운영 체제가 아니라 Endpoint용 Defender에 의해 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-195">The "engine version" listed for attack surface reduction events in the event log, is generated by Defender for Endpoint, not by the operating system.</span></span> <span data-ttu-id="a75f7-196">Endpoint용 Defender는 Windows 10과 통합되어 있으므로 이 기능은 Windows 10이 설치된 모든 장치에서 작동합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-196">Defender for Endpoint is integrated with Windows 10, so this feature works on all devices with Windows 10 installed.</span></span>
+
+## <a name="attack-surface-reduction-rules"></a><span data-ttu-id="a75f7-197">공격 노출 영역 축소 규칙</span><span class="sxs-lookup"><span data-stu-id="a75f7-197">Attack surface reduction rules</span></span>
+
+<span data-ttu-id="a75f7-198">다음 표 및 하위 섹션에서는 15개 공격 표면 감소 규칙 각각에 대해 설명하고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-198">The following table and subsections describe each of the 15 attack surface reduction rules.</span></span> <span data-ttu-id="a75f7-199">공격 표면 감소 규칙은 규칙 이름에 따라 사전순으로 나열됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-199">The attack surface reduction rules are listed in alphabetical order, by rule name.</span></span> 
+
+<span data-ttu-id="a75f7-200">그룹 정책 또는 PowerShell을 사용하여 공격 표면 감소 규칙을 구성하는 경우 GUID가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-200">If you are configuring attack surface reduction rules by using Group Policy or PowerShell, you'll need the GUIDs.</span></span> <span data-ttu-id="a75f7-201">반면, Microsoft Endpoint Manager 또는 Microsoft Intune을 사용하는 경우 GUID가 필요하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-201">On the other hand, if you use Microsoft Endpoint Manager or Microsoft Intune, you do not need the GUIDs.</span></span>
+
+
+| <span data-ttu-id="a75f7-202">규칙 이름</span><span class="sxs-lookup"><span data-stu-id="a75f7-202">Rule name</span></span> | <span data-ttu-id="a75f7-203">GUID</span><span class="sxs-lookup"><span data-stu-id="a75f7-203">GUID</span></span> | <span data-ttu-id="a75f7-204">파일 & 제외</span><span class="sxs-lookup"><span data-stu-id="a75f7-204">File & folder exclusions</span></span> | <span data-ttu-id="a75f7-205">지원되는 최소 OS</span><span class="sxs-lookup"><span data-stu-id="a75f7-205">Minimum OS supported</span></span> |
+|:-----|:-----:|:-----|:-----|
+|[<span data-ttu-id="a75f7-206">Adobe Reader에서 하위 프로세스를 만들지 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-206">Block Adobe Reader from creating child processes</span></span>](#block-adobe-reader-from-creating-child-processes) | `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c` | <span data-ttu-id="a75f7-207">지원</span><span class="sxs-lookup"><span data-stu-id="a75f7-207">Supported</span></span> | <span data-ttu-id="a75f7-208">[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-208">[Windows 10, version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) or greater</span></span> |
+|[<span data-ttu-id="a75f7-209">모든 Office 응용 프로그램에서 하위 프로세스를 만들지 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-209">Block all Office applications from creating child processes</span></span>](#block-all-office-applications-from-creating-child-processes) | `D4F940AB-401B-4EFC-AADC-AD5F3C50688A` | <span data-ttu-id="a75f7-210">지원</span><span class="sxs-lookup"><span data-stu-id="a75f7-210">Supported</span></span> | <span data-ttu-id="a75f7-211">[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-211">[Windows 10, version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) or greater</span></span> |
+|[<span data-ttu-id="a75f7-212">Windows 로컬 보안 기관 하위 체제에서 자격 증명 도용 차단(lsass.exe)</span><span class="sxs-lookup"><span data-stu-id="a75f7-212">Block credential stealing from the Windows local security authority subsystem (lsass.exe)</span></span>](#block-credential-stealing-from-the-windows-local-security-authority-subsystem) | `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2` | <span data-ttu-id="a75f7-213">지원</span><span class="sxs-lookup"><span data-stu-id="a75f7-213">Supported</span></span> | <span data-ttu-id="a75f7-214">[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-214">[Windows 10, version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) or greater</span></span> |
+|[<span data-ttu-id="a75f7-215">전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-215">Block executable content from email client and webmail</span></span>](#block-executable-content-from-email-client-and-webmail) | `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550` | <span data-ttu-id="a75f7-216">지원</span><span class="sxs-lookup"><span data-stu-id="a75f7-216">Supported</span></span> | <span data-ttu-id="a75f7-217">[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-217">[Windows 10, version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) or greater</span></span> |
+|[<span data-ttu-id="a75f7-218">실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-218">Block executable files from running unless they meet a prevalence, age, or trusted list criterion</span></span>](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion) | `01443614-cd74-433a-b99e-2ecdc07bfc25` | <span data-ttu-id="a75f7-219">지원</span><span class="sxs-lookup"><span data-stu-id="a75f7-219">Supported</span></span> | <span data-ttu-id="a75f7-220">[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-220">[Windows 10, version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) or greater</span></span> |
+|[<span data-ttu-id="a75f7-221">잠재적으로 난치될 수 있는 스크립트의 실행 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-221">Block execution of potentially obfuscated scripts</span></span>](#block-execution-of-potentially-obfuscated-scripts) | `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC` | <span data-ttu-id="a75f7-222">지원</span><span class="sxs-lookup"><span data-stu-id="a75f7-222">Supported</span></span> | <span data-ttu-id="a75f7-223">[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-223">[Windows 10, version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) or greater</span></span> |
+|[<span data-ttu-id="a75f7-224">JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-224">Block JavaScript or VBScript from launching downloaded executable content</span></span>](#block-javascript-or-vbscript-from-launching-downloaded-executable-content) | `D3E037E1-3EB8-44C8-A917-57927947596D` | <span data-ttu-id="a75f7-225">지원</span><span class="sxs-lookup"><span data-stu-id="a75f7-225">Supported</span></span> | <span data-ttu-id="a75f7-226">[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-226">[Windows 10, version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) or greater</span></span> |
+|[<span data-ttu-id="a75f7-227">Office 응용 프로그램에서 실행 가능한 콘텐츠를 만들지 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-227">Block Office applications from creating executable content</span></span>](#block-office-applications-from-creating-executable-content) | `3B576869-A4EC-4529-8536-B80A7769E899` | <span data-ttu-id="a75f7-228">지원</span><span class="sxs-lookup"><span data-stu-id="a75f7-228">Supported</span></span> | <span data-ttu-id="a75f7-229">[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-229">[Windows 10, version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) or greater</span></span> |
+|[<span data-ttu-id="a75f7-230">Office 응용 프로그램에서 다른 프로세스에 코드를 삽입하지 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-230">Block Office applications from injecting code into other processes</span></span>](#block-office-applications-from-injecting-code-into-other-processes) | `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84` | <span data-ttu-id="a75f7-231">지원</span><span class="sxs-lookup"><span data-stu-id="a75f7-231">Supported</span></span> | <span data-ttu-id="a75f7-232">[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-232">[Windows 10, version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) or greater</span></span> |
+|[<span data-ttu-id="a75f7-233">Office 통신 응용 프로그램에서 자식 프로세스를 만들지 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-233">Block Office communication application from creating child processes</span></span>](#block-office-communication-application-from-creating-child-processes) |`26190899-1602-49e8-8b27-eb1d0a1ce869` |<span data-ttu-id="a75f7-234">지원</span><span class="sxs-lookup"><span data-stu-id="a75f7-234">Supported</span></span> |<span data-ttu-id="a75f7-235">[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-235">[Windows 10, version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) or greater</span></span>  |
+|[<span data-ttu-id="a75f7-236">WMI 이벤트 구독을 통한 지속성 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-236">Block persistence through WMI event subscription</span></span>](#block-persistence-through-wmi-event-subscription) | `e6db77e5-3df2-4cf1-b95a-636979351e5b` | <span data-ttu-id="a75f7-237">지원되지 않음</span><span class="sxs-lookup"><span data-stu-id="a75f7-237">Not supported</span></span> | <span data-ttu-id="a75f7-238">[Windows 10 버전 1903(빌드](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1903) 18362) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-238">[Windows 10, version 1903](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1903) (build 18362) or greater</span></span> |
+|[<span data-ttu-id="a75f7-239">PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-239">Block process creations originating from PSExec and WMI commands</span></span>](#block-process-creations-originating-from-psexec-and-wmi-commands) | `d1e49aac-8f56-4280-b9ba-993a6d77406c` | <span data-ttu-id="a75f7-240">지원</span><span class="sxs-lookup"><span data-stu-id="a75f7-240">Supported</span></span> | <span data-ttu-id="a75f7-241">[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-241">[Windows 10, version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) or greater</span></span> |
+|[<span data-ttu-id="a75f7-242">USB에서 실행된 무단 및 사인되지 않은 프로세스 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-242">Block untrusted and unsigned processes that run from USB</span></span>](#block-untrusted-and-unsigned-processes-that-run-from-usb) | `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4` | <span data-ttu-id="a75f7-243">지원</span><span class="sxs-lookup"><span data-stu-id="a75f7-243">Supported</span></span> | <span data-ttu-id="a75f7-244">[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-244">[Windows 10, version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) or greater</span></span> |
+|[<span data-ttu-id="a75f7-245">Office 매크로에서 Win32 API 호출 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-245">Block Win32 API calls from Office macros</span></span>](#block-win32-api-calls-from-office-macros) | `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B` | <span data-ttu-id="a75f7-246">지원</span><span class="sxs-lookup"><span data-stu-id="a75f7-246">Supported</span></span> | <span data-ttu-id="a75f7-247">[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-247">[Windows 10, version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) or greater</span></span> |
+|[<span data-ttu-id="a75f7-248">랜섬웨어에 대한 고급 보호 사용</span><span class="sxs-lookup"><span data-stu-id="a75f7-248">Use advanced protection against ransomware</span></span>](#use-advanced-protection-against-ransomware) | `c1db55ab-c21a-4637-bb3f-a12568109d35` | <span data-ttu-id="a75f7-249">지원</span><span class="sxs-lookup"><span data-stu-id="a75f7-249">Supported</span></span> | <span data-ttu-id="a75f7-250">[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상</span><span class="sxs-lookup"><span data-stu-id="a75f7-250">[Windows 10, version 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, build 16299) or greater</span></span> |
+
+### <a name="block-adobe-reader-from-creating-child-processes"></a><span data-ttu-id="a75f7-251">Adobe Reader에서 하위 프로세스를 만들지 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-251">Block Adobe Reader from creating child processes</span></span>
+
+<span data-ttu-id="a75f7-252">이 규칙은 Adobe Reader가 프로세스를 만들지 못하게 차단하여 공격을 방지합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-252">This rule prevents attacks by blocking Adobe Reader from creating processes.</span></span>
+
+<span data-ttu-id="a75f7-253">소셜 엔지니어링 또는 악용을 통해 맬웨어는 페이로드를 다운로드 및 시작하고 Adobe Reader를 중단할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-253">Through social engineering or exploits, malware can download and launch payloads, and break out of Adobe Reader.</span></span> <span data-ttu-id="a75f7-254">Adobe Reader에서 자식 프로세스가 생성되지 않도록 차단하면 벡터로 사용하려는 맬웨어가 확산되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-254">By blocking child processes from being generated by Adobe Reader, malware attempting to use it as a vector are prevented from spreading.</span></span>
+
+<span data-ttu-id="a75f7-255">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-255">This rule was introduced in:</span></span> 
+- [<span data-ttu-id="a75f7-256">Windows 10 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-256">Windows 10, version 1809</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1809)
+- [<span data-ttu-id="a75f7-257">Windows Server, 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-257">Windows Server, version 1809</span></span>](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [<span data-ttu-id="a75f7-258">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-258">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+
+<span data-ttu-id="a75f7-259">Intune 이름: `Process creation from Adobe Reader (beta)`</span><span class="sxs-lookup"><span data-stu-id="a75f7-259">Intune name: `Process creation from Adobe Reader (beta)`</span></span>
+
+<span data-ttu-id="a75f7-260">Configuration Manager 이름: 아직 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-260">Configuration Manager name: Not yet available</span></span>
+
+<span data-ttu-id="a75f7-261">GUID: `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`</span><span class="sxs-lookup"><span data-stu-id="a75f7-261">GUID: `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`</span></span>
+
+### <a name="block-all-office-applications-from-creating-child-processes"></a><span data-ttu-id="a75f7-262">모든 Office 응용 프로그램에서 하위 프로세스를 만들지 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-262">Block all Office applications from creating child processes</span></span>
+
+<span data-ttu-id="a75f7-263">이 규칙은 Office 앱이 자식 프로세스를 만들지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-263">This rule blocks Office apps from creating child processes.</span></span> <span data-ttu-id="a75f7-264">Office 앱에는 Word, Excel, PowerPoint, OneNote 및 Access가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-264">Office apps include Word, Excel, PowerPoint, OneNote, and Access.</span></span>
+
+<span data-ttu-id="a75f7-265">악의적인 자식 프로세스를 만드는 것은 일반적인 맬웨어 전략입니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-265">Creating malicious child processes is a common malware strategy.</span></span> <span data-ttu-id="a75f7-266">Office를 벡터로 남용하는 맬웨어는 VBA 매크로를 실행하고 코드를 악용하여 더 많은 페이로드를 다운로드하고 실행하려고 합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-266">Malware that abuse Office as a vector often run VBA macros and exploit code to download and attempt to run more payloads.</span></span> <span data-ttu-id="a75f7-267">그러나 일부 합법적인 업무용 응용 프로그램은 명령 프롬프트 생성 또는 PowerShell을 사용하여 레지스트리 설정을 구성하는 등 양성 목적으로 자식 프로세스를 생성할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-267">However, some legitimate line-of-business applications might also generate child processes for benign purposes, such as spawning a command prompt or using PowerShell to configure registry settings.</span></span>
+
+<span data-ttu-id="a75f7-268">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-268">This rule was introduced in:</span></span> 
+- [<span data-ttu-id="a75f7-269">Windows 10 버전 1709</span><span class="sxs-lookup"><span data-stu-id="a75f7-269">Windows 10, version 1709</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
+- [<span data-ttu-id="a75f7-270">Windows Server, 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-270">Windows Server, version 1809</span></span>](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [<span data-ttu-id="a75f7-271">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-271">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [<span data-ttu-id="a75f7-272">Configuration Manager CB 1710</span><span class="sxs-lookup"><span data-stu-id="a75f7-272">Configuration Manager CB 1710</span></span>](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+
+<span data-ttu-id="a75f7-273">Intune 이름: `Office apps launching child processes`</span><span class="sxs-lookup"><span data-stu-id="a75f7-273">Intune name: `Office apps launching child processes`</span></span>
+
+<span data-ttu-id="a75f7-274">Configuration Manager 이름: `Block Office application from creating child processes`</span><span class="sxs-lookup"><span data-stu-id="a75f7-274">Configuration Manager name: `Block Office application from creating child processes`</span></span>
+
+<span data-ttu-id="a75f7-275">GUID: `D4F940AB-401B-4EFC-AADC-AD5F3C50688A`</span><span class="sxs-lookup"><span data-stu-id="a75f7-275">GUID: `D4F940AB-401B-4EFC-AADC-AD5F3C50688A`</span></span>
+
+### <a name="block-credential-stealing-from-the-windows-local-security-authority-subsystem"></a><span data-ttu-id="a75f7-276">Windows 로컬 보안 기관 하위에서 자격 증명 도용 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-276">Block credential stealing from the Windows local security authority subsystem</span></span>
+
+<span data-ttu-id="a75f7-277">이 규칙은 LSASS(Local Security Authority Subsystem Service)를 잠가 자격 증명 도용을 방지하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-277">This rule helps prevent credential stealing, by locking down Local Security Authority Subsystem Service (LSASS).</span></span>
+
+<span data-ttu-id="a75f7-278">LSASS는 Windows 컴퓨터에서 로그인하는 사용자를 인증합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-278">LSASS authenticates users who sign in on a Windows computer.</span></span> <span data-ttu-id="a75f7-279">Windows 10의 Microsoft Defender Credential Guard는 일반적으로 LSASS에서 자격 증명을 추출하려고 시도하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-279">Microsoft Defender Credential Guard in Windows 10 normally prevents attempts to extract credentials from LSASS.</span></span> <span data-ttu-id="a75f7-280">그러나 일부 조직에서는 사용자 지정 스마트 카드 드라이버 또는 LSA(Local Security Authority)로 로드되는 다른 프로그램과의 호환성 문제로 인하여 모든 컴퓨터에서 Credential Guard를 사용하도록 설정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-280">However, some organizations can't enable Credential Guard on all of their computers because of compatibility issues with custom smartcard drivers or other programs that load into the Local Security Authority (LSA).</span></span> <span data-ttu-id="a75f7-281">이러한 경우 공격자는 Mimikatz와 같은 해킹 도구를 사용하여 LSASS에서 지우기 암호 및 NTLM 해시를 스크랩할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-281">In these cases, attackers can use hack tools like Mimikatz to scrape cleartext passwords and NTLM hashes from LSASS.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="a75f7-282">일부 앱에서는 코드가 실행 중인 모든 프로세스를 열기하고 모든 사용 권한으로 열려고 시도합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-282">In some apps, the code enumerates all running processes and attempts to open them with exhaustive permissions.</span></span> <span data-ttu-id="a75f7-283">이 규칙은 앱의 프로세스 열기 작업을 거부하고 보안 이벤트 로그에 세부 정보를 기록합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-283">This rule denies the app's process open action and logs the details to the security event log.</span></span> <span data-ttu-id="a75f7-284">이 규칙은 노이즈를 많이 생성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-284">This rule can generate a lot of noise.</span></span> <span data-ttu-id="a75f7-285">LSASS를 열기만 하지만 기능에는 실질적인 영향을 미치는 앱이 있는 경우 제외 목록에 앱을 추가할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-285">If you have an app that simply enumerates LSASS, but has no real impact in functionality, there is NO need to add it to the exclusion list.</span></span> <span data-ttu-id="a75f7-286">이 이벤트 로그 항목 자체는 악의적인 위협을 나타낼 필요는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-286">By itself, this event log entry doesn't necessarily indicate a malicious threat.</span></span>
+
+<span data-ttu-id="a75f7-287">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-287">This rule was introduced in:</span></span>
+- [<span data-ttu-id="a75f7-288">Windows 10 버전 1803</span><span class="sxs-lookup"><span data-stu-id="a75f7-288">Windows 10, version 1803</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
+- [<span data-ttu-id="a75f7-289">Windows Server, 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-289">Windows Server, version 1809</span></span>](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [<span data-ttu-id="a75f7-290">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-290">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [<span data-ttu-id="a75f7-291">Configuration Manager CB 1802</span><span class="sxs-lookup"><span data-stu-id="a75f7-291">Configuration Manager CB 1802</span></span>](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+
+<span data-ttu-id="a75f7-292">Intune 이름: `Flag credential stealing from the Windows local security authority subsystem`</span><span class="sxs-lookup"><span data-stu-id="a75f7-292">Intune name: `Flag credential stealing from the Windows local security authority subsystem`</span></span>
+
+<span data-ttu-id="a75f7-293">Configuration Manager 이름: `Block credential stealing from the Windows local security authority subsystem`</span><span class="sxs-lookup"><span data-stu-id="a75f7-293">Configuration Manager name: `Block credential stealing from the Windows local security authority subsystem`</span></span>
+
+<span data-ttu-id="a75f7-294">GUID: `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`</span><span class="sxs-lookup"><span data-stu-id="a75f7-294">GUID: `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`</span></span>
+
+### <a name="block-executable-content-from-email-client-and-webmail"></a><span data-ttu-id="a75f7-295">전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-295">Block executable content from email client and webmail</span></span>
+
+<span data-ttu-id="a75f7-296">이 규칙은 다음 파일 형식이 Microsoft Outlook 응용 프로그램 내에서 연 전자 메일에서 시작되지 Outlook.com 및 기타 인기 있는 웹 메일 공급자에서 시작되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-296">This rule blocks the following file types from launching from email opened within the Microsoft Outlook application, or Outlook.com and other popular webmail providers:</span></span>
+
+- <span data-ttu-id="a75f7-297">실행 파일(예: .exe, .dll 또는 .scr)</span><span class="sxs-lookup"><span data-stu-id="a75f7-297">Executable files (such as .exe, .dll, or .scr)</span></span>
+- <span data-ttu-id="a75f7-298">스크립트 파일(예: PowerShell .ps, Visual Basic .vbs 또는 JavaScript .js 파일)</span><span class="sxs-lookup"><span data-stu-id="a75f7-298">Script files (such as a PowerShell .ps, Visual Basic .vbs, or JavaScript .js file)</span></span>
+
+<span data-ttu-id="a75f7-299">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-299">This rule was introduced in:</span></span> 
+- [<span data-ttu-id="a75f7-300">Windows 10 버전 1709</span><span class="sxs-lookup"><span data-stu-id="a75f7-300">Windows 10, version 1709</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
+- [<span data-ttu-id="a75f7-301">Windows Server, 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-301">Windows Server, version 1809</span></span>](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [<span data-ttu-id="a75f7-302">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-302">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [<span data-ttu-id="a75f7-303">Microsoft Endpoint Manager CB 1710</span><span class="sxs-lookup"><span data-stu-id="a75f7-303">Microsoft Endpoint Manager CB 1710</span></span>](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+
+<span data-ttu-id="a75f7-304">Intune 이름: `Execution of executable content (exe, dll, ps, js, vbs, etc.) dropped from email (webmail/mail client) (no exceptions)`</span><span class="sxs-lookup"><span data-stu-id="a75f7-304">Intune name: `Execution of executable content (exe, dll, ps, js, vbs, etc.) dropped from email (webmail/mail client) (no exceptions)`</span></span>
+
+<span data-ttu-id="a75f7-305">Microsoft Endpoint Manager 이름: `Block executable content from email client and webmail`</span><span class="sxs-lookup"><span data-stu-id="a75f7-305">Microsoft Endpoint Manager name: `Block executable content from email client and webmail`</span></span>
+
+<span data-ttu-id="a75f7-306">GUID: `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`</span><span class="sxs-lookup"><span data-stu-id="a75f7-306">GUID: `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="a75f7-307">전자 **메일 클라이언트 및 웹** 메일에서 실행 가능한 콘텐츠 차단 규칙에는 사용하는 응용 프로그램에 따라 다음과 같은 대체 설명이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-307">The rule **Block executable content from email client and webmail** has the following alternative descriptions, depending on which application you use:</span></span>
+> - <span data-ttu-id="a75f7-308">Intune(구성 프로필): 전자 메일(webmail/mail client)에서 삭제된 실행 가능한 콘텐츠(예: dll, ps, js, vbs 등)의 실행입니다(예외 없음).</span><span class="sxs-lookup"><span data-stu-id="a75f7-308">Intune (Configuration Profiles): Execution of executable content (exe, dll, ps, js, vbs, etc.) dropped from email (webmail/mail client) (no exceptions).</span></span>
+> - <span data-ttu-id="a75f7-309">끝점 관리자: 전자 메일 및 웹 메일 클라이언트에서 실행 가능한 콘텐츠 다운로드를 차단합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-309">Endpoint Manager: Block executable content download from email and webmail clients.</span></span>
+> - <span data-ttu-id="a75f7-310">그룹 정책: 전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠를 차단합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-310">Group Policy: Block executable content from email client and webmail.</span></span>
+
+### <a name="block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion"></a><span data-ttu-id="a75f7-311">실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-311">Block executable files from running unless they meet a prevalence, age, or trusted list criterion</span></span>
+
+<span data-ttu-id="a75f7-312">이 규칙은 보류 또는 연령 기준을 충족하거나 신뢰할 수 있는 목록 또는 제외 목록에 있는 경우를 제외하지 않으면 다음 파일 형식이 시작되지 못하게 차단합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-312">This rule blocks the following file types from launching unless they meet prevalence or age criteria, or they're in a trusted list or an exclusion list:</span></span>
+
+- <span data-ttu-id="a75f7-313">실행 파일(예: .exe, .dll 또는 .scr)</span><span class="sxs-lookup"><span data-stu-id="a75f7-313">Executable files (such as .exe, .dll, or .scr)</span></span>
+
+<span data-ttu-id="a75f7-314">파일이 악의적인 경우 처음에 명확하지 않을 수 있는 것으로 보아서, 트러블되지 않았거나 알 수 없는 실행 파일을 실행하는 것은 위험할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-314">Launching untrusted or unknown executable files can be risky, as it may not be initially clear if the files are malicious.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="a75f7-315">이 규칙을 [사용하려면](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) 클라우드 제공 보호를 사용하도록 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-315">You must [enable cloud-delivered protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) to use this rule.</span></span> <br/><br/> <span data-ttu-id="a75f7-316">GUID로 **보전,** 보존 기간 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단 규칙은 Microsoft가 소유하며 관리자가 `01443614-cd74-433a-b99e-2ecdc07bfc25` 지정하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-316">The rule **Block executable files from running unless they meet a prevalence, age, or trusted list criterion** with GUID `01443614-cd74-433a-b99e-2ecdc07bfc25` is owned by Microsoft and is not specified by admins.</span></span> <span data-ttu-id="a75f7-317">이 규칙은 클라우드 제공 보호를 사용하여 신뢰할 수 있는 목록을 정기적으로 업데이트합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-317">This rule uses cloud-delivered protection to update its trusted list regularly.</span></span>
+>
+><span data-ttu-id="a75f7-318">개별 파일 또는 폴더(폴더 경로 또는 정식 리소스 이름을 사용하여)를 지정할 수 있지만 적용할 규칙이나 제외를 지정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-318">You can specify individual files or folders (using folder paths or fully qualified resource names) but you can't specify which rules or exclusions apply to.</span></span>
+
+<span data-ttu-id="a75f7-319">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-319">This rule was introduced in:</span></span> 
+- [<span data-ttu-id="a75f7-320">Windows 10 버전 1803</span><span class="sxs-lookup"><span data-stu-id="a75f7-320">Windows 10, version 1803</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
+- [<span data-ttu-id="a75f7-321">Windows Server, 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-321">Windows Server, version 1809</span></span>](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [<span data-ttu-id="a75f7-322">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-322">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [<span data-ttu-id="a75f7-323">Configuration Manager CB 1802</span><span class="sxs-lookup"><span data-stu-id="a75f7-323">Configuration Manager CB 1802</span></span>](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+
+<span data-ttu-id="a75f7-324">Intune 이름: `Executables that don't meet a prevalence, age, or trusted list criteria`</span><span class="sxs-lookup"><span data-stu-id="a75f7-324">Intune name: `Executables that don't meet a prevalence, age, or trusted list criteria`</span></span>
+
+<span data-ttu-id="a75f7-325">Configuration Manager 이름: `Block executable files from running unless they meet a prevalence, age, or trusted list criteria`</span><span class="sxs-lookup"><span data-stu-id="a75f7-325">Configuration Manager name: `Block executable files from running unless they meet a prevalence, age, or trusted list criteria`</span></span>
+
+<span data-ttu-id="a75f7-326">GUID: `01443614-cd74-433a-b99e-2ecdc07bfc25`</span><span class="sxs-lookup"><span data-stu-id="a75f7-326">GUID: `01443614-cd74-433a-b99e-2ecdc07bfc25`</span></span>
+
+### <a name="block-execution-of-potentially-obfuscated-scripts"></a><span data-ttu-id="a75f7-327">잠재적으로 난치될 수 있는 스크립트의 실행 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-327">Block execution of potentially obfuscated scripts</span></span>
+
+<span data-ttu-id="a75f7-328">이 규칙은 난처한 스크립트 내에서 의심스러운 속성을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-328">This rule detects suspicious properties within an obfuscated script.</span></span>
+
+<span data-ttu-id="a75f7-329">스크립트 난동은 맬웨어 작성자와 합법적인 응용 프로그램이 지적 재산을 숨기거나 스크립트 로드 시간을 줄이는 데 사용하는 일반적인 기술입니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-329">Script obfuscation is a common technique that both malware authors and legitimate applications use to hide intellectual property or decrease script loading times.</span></span> <span data-ttu-id="a75f7-330">또한 맬웨어 작성자는 난독을 사용하여 악의적인 코드를 읽기 어렵게 하여 사람 및 보안 소프트웨어에 의해 가려질 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-330">Malware authors also use obfuscation to make malicious code harder to read, which prevents close scrutiny by humans and security software.</span></span>
+
+<span data-ttu-id="a75f7-331">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-331">This rule was introduced in:</span></span>
+- [<span data-ttu-id="a75f7-332">Windows 10 버전 1709</span><span class="sxs-lookup"><span data-stu-id="a75f7-332">Windows 10, version 1709</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
+- [<span data-ttu-id="a75f7-333">Windows Server, 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-333">Windows Server, version 1809</span></span>](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [<span data-ttu-id="a75f7-334">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-334">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [<span data-ttu-id="a75f7-335">Configuration Manager CB 1710</span><span class="sxs-lookup"><span data-stu-id="a75f7-335">Configuration Manager CB 1710</span></span>](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+
+<span data-ttu-id="a75f7-336">Intune 이름: `Obfuscated js/vbs/ps/macro code`</span><span class="sxs-lookup"><span data-stu-id="a75f7-336">Intune name: `Obfuscated js/vbs/ps/macro code`</span></span>
+
+<span data-ttu-id="a75f7-337">Configuration Manager 이름: `Block execution of potentially obfuscated scripts`</span><span class="sxs-lookup"><span data-stu-id="a75f7-337">Configuration Manager name: `Block execution of potentially obfuscated scripts`</span></span>
+
+<span data-ttu-id="a75f7-338">GUID: `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`</span><span class="sxs-lookup"><span data-stu-id="a75f7-338">GUID: `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`</span></span>
+
+### <a name="block-javascript-or-vbscript-from-launching-downloaded-executable-content"></a><span data-ttu-id="a75f7-339">JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-339">Block JavaScript or VBScript from launching downloaded executable content</span></span>
+
+<span data-ttu-id="a75f7-340">이 규칙은 스크립트가 잠재적으로 악의적인 다운로드 콘텐츠를 시작하지 못하게 합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-340">This rule prevents scripts from launching potentially malicious downloaded content.</span></span> <span data-ttu-id="a75f7-341">JavaScript 또는 VBScript로 작성된 맬웨어는 종종 다운로드자 역할을 하여 인터넷에서 다른 맬웨어를 페치하고 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-341">Malware written in JavaScript or VBScript often acts as a downloader to fetch and launch other malware from the Internet.</span></span>
+
+<span data-ttu-id="a75f7-342">일반적인 것은 아니며, 업무용 응용 프로그램에서는 스크립트를 사용하여 설치 관리자를 다운로드하고 실행하기도 합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-342">Although not common, line-of-business applications sometimes use scripts to download and launch installers.</span></span>
+
+<span data-ttu-id="a75f7-343">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-343">This rule was introduced in:</span></span>  
+- [<span data-ttu-id="a75f7-344">Windows 10 버전 1709</span><span class="sxs-lookup"><span data-stu-id="a75f7-344">Windows 10, version 1709</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
+- [<span data-ttu-id="a75f7-345">Windows Server, 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-345">Windows Server, version 1809</span></span>](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [<span data-ttu-id="a75f7-346">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-346">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [<span data-ttu-id="a75f7-347">Configuration Manager CB 1710</span><span class="sxs-lookup"><span data-stu-id="a75f7-347">Configuration Manager CB 1710</span></span>](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+
+<span data-ttu-id="a75f7-348">Intune 이름: `js/vbs executing payload downloaded from Internet (no exceptions)`</span><span class="sxs-lookup"><span data-stu-id="a75f7-348">Intune name: `js/vbs executing payload downloaded from Internet (no exceptions)`</span></span>
+
+<span data-ttu-id="a75f7-349">Configuration Manager 이름: `Block JavaScript or VBScript from launching downloaded executable content`</span><span class="sxs-lookup"><span data-stu-id="a75f7-349">Configuration Manager name: `Block JavaScript or VBScript from launching downloaded executable content`</span></span>
+
+<span data-ttu-id="a75f7-350">GUID: `D3E037E1-3EB8-44C8-A917-57927947596D`</span><span class="sxs-lookup"><span data-stu-id="a75f7-350">GUID: `D3E037E1-3EB8-44C8-A917-57927947596D`</span></span>
+
+### <a name="block-office-applications-from-creating-executable-content"></a><span data-ttu-id="a75f7-351">Office 응용 프로그램에서 실행 가능한 콘텐츠를 만들지 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-351">Block Office applications from creating executable content</span></span>
+
+<span data-ttu-id="a75f7-352">이 규칙은 Word, Excel 및 PowerPoint를 비롯한 Office 앱이 악성 코드가 디스크에 기록되지 않도록 차단하여 잠재적으로 악의적인 실행 파일을 만들지 못하게 합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-352">This rule prevents Office apps, including Word, Excel, and PowerPoint, from creating potentially malicious executable content, by blocking malicious code from being written to disk.</span></span>
+
+<span data-ttu-id="a75f7-353">벡터로 Office를 남용하는 맬웨어는 Office를 중단하고 악성 구성 요소를 디스크에 저장하려고 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-353">Malware that abuses Office as a vector may attempt to break out of Office and save malicious components to disk.</span></span> <span data-ttu-id="a75f7-354">이러한 악성 구성 요소는 컴퓨터 재부팅에서 유지되고 시스템에서 지속됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-354">These malicious components would survive a computer reboot and persist on the system.</span></span> <span data-ttu-id="a75f7-355">따라서 이 규칙은 일반적인 지속성 기술에 대해 방어합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-355">Therefore, this rule defends against a common persistence technique.</span></span>
+
+<span data-ttu-id="a75f7-356">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-356">This rule was introduced in:</span></span> 
+- [<span data-ttu-id="a75f7-357">Windows 10 버전 1709</span><span class="sxs-lookup"><span data-stu-id="a75f7-357">Windows 10, version 1709</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
+- [<span data-ttu-id="a75f7-358">Windows Server, 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-358">Windows Server, version 1809</span></span>](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [<span data-ttu-id="a75f7-359">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-359">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- <span data-ttu-id="a75f7-360">[System Center Configuration](https://docs.microsoft.com/configmgr/core/servers/manage/updates) Manager(SCCM) CB 1710(SCCM은 이제 Microsoft Endpoint Configuration Manager임)</span><span class="sxs-lookup"><span data-stu-id="a75f7-360">[System Center Configuration Manager](https://docs.microsoft.com/configmgr/core/servers/manage/updates) (SCCM) CB 1710 (SCCM is now Microsoft Endpoint Configuration Manager)</span></span>
+
+<span data-ttu-id="a75f7-361">Intune 이름: `Office apps/macros creating executable content`</span><span class="sxs-lookup"><span data-stu-id="a75f7-361">Intune name: `Office apps/macros creating executable content`</span></span>
+
+<span data-ttu-id="a75f7-362">SCCM 이름: `Block Office applications from creating executable content`</span><span class="sxs-lookup"><span data-stu-id="a75f7-362">SCCM name: `Block Office applications from creating executable content`</span></span>
+
+<span data-ttu-id="a75f7-363">GUID: `3B576869-A4EC-4529-8536-B80A7769E899`</span><span class="sxs-lookup"><span data-stu-id="a75f7-363">GUID: `3B576869-A4EC-4529-8536-B80A7769E899`</span></span>
+
+### <a name="block-office-applications-from-injecting-code-into-other-processes"></a><span data-ttu-id="a75f7-364">Office 응용 프로그램에서 다른 프로세스에 코드를 삽입하지 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-364">Block Office applications from injecting code into other processes</span></span>
+
+<span data-ttu-id="a75f7-365">이 규칙은 Office 앱에서 다른 프로세스로의 코드 삽입 시도를 차단합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-365">This rule blocks code injection attempts from Office apps into other processes.</span></span>
+
+<span data-ttu-id="a75f7-366">공격자는 Office 앱을 사용하여 코드 삽입을 통해 악성 코드를 다른 프로세스로 마이그레이션하려고 할 수 있으므로 코드가 깔끔한 프로세스로 당황할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-366">Attackers might attempt to use Office apps to migrate malicious code into other processes through code injection, so the code can masquerade as a clean process.</span></span>
+
+<span data-ttu-id="a75f7-367">코드 삽입을 사용하는 데 알려진 합법적인 비즈니스 목적이 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-367">There are no known legitimate business purposes for using code injection.</span></span>
+
+<span data-ttu-id="a75f7-368">이 규칙은 Word, Excel 및 PowerPoint에 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-368">This rule applies to Word, Excel, and PowerPoint.</span></span>
+
+<span data-ttu-id="a75f7-369">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-369">This rule was introduced in:</span></span> 
+- [<span data-ttu-id="a75f7-370">Windows 10 버전 1709</span><span class="sxs-lookup"><span data-stu-id="a75f7-370">Windows 10, version 1709</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
+- [<span data-ttu-id="a75f7-371">Windows Server, 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-371">Windows Server, version 1809</span></span>](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [<span data-ttu-id="a75f7-372">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-372">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [<span data-ttu-id="a75f7-373">Configuration Manager CB 1710</span><span class="sxs-lookup"><span data-stu-id="a75f7-373">Configuration Manager CB 1710</span></span>](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+
+<span data-ttu-id="a75f7-374">Intune 이름: `Office apps injecting code into other processes (no exceptions)`</span><span class="sxs-lookup"><span data-stu-id="a75f7-374">Intune name: `Office apps injecting code into other processes (no exceptions)`</span></span>
+
+<span data-ttu-id="a75f7-375">Configuration Manager 이름: `Block Office applications from injecting code into other processes`</span><span class="sxs-lookup"><span data-stu-id="a75f7-375">Configuration Manager name: `Block Office applications from injecting code into other processes`</span></span>
+
+<span data-ttu-id="a75f7-376">GUID: `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`</span><span class="sxs-lookup"><span data-stu-id="a75f7-376">GUID: `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`</span></span>
+
+### <a name="block-office-communication-application-from-creating-child-processes"></a><span data-ttu-id="a75f7-377">Office 통신 응용 프로그램에서 자식 프로세스를 만들지 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-377">Block Office communication application from creating child processes</span></span>
+
+<span data-ttu-id="a75f7-378">이 규칙은 합법적인 Outlook 기능을 허용하면서 Outlook에서 하위 프로세스를 만들지 못하게 합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-378">This rule prevents Outlook from creating child processes, while still allowing legitimate Outlook functions.</span></span>
+
+<span data-ttu-id="a75f7-379">이 규칙은 사회 엔지니어링 공격으로부터 보호하고 코드 악용이 Outlook의 취약성을 악용하는 것을 방지합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-379">This rule protects against social engineering attacks and prevents exploiting code from abusing vulnerabilities in Outlook.</span></span> <span data-ttu-id="a75f7-380">또한 사용자의 자격 증명이 손상될 때 공격자가 사용할 수 있는 [Outlook](https://blogs.technet.microsoft.com/office365security/defending-against-rules-and-forms-injection/) 규칙 및 양식 악용으로부터 보호합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-380">It also protects against [Outlook rules and forms exploits](https://blogs.technet.microsoft.com/office365security/defending-against-rules-and-forms-injection/) that attackers can use when a user's credentials are compromised.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="a75f7-381">이 규칙은 Outlook 및 Outlook.com 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-381">This rule applies to Outlook and Outlook.com only.</span></span>
+
+<span data-ttu-id="a75f7-382">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-382">This rule was introduced in:</span></span> 
+- [<span data-ttu-id="a75f7-383">Windows 10 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-383">Windows 10, version 1809</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1809)
+- [<span data-ttu-id="a75f7-384">Windows Server, 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-384">Windows Server, version 1809</span></span>](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [<span data-ttu-id="a75f7-385">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-385">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+
+<span data-ttu-id="a75f7-386">Intune 이름: `Process creation from Office communication products (beta)`</span><span class="sxs-lookup"><span data-stu-id="a75f7-386">Intune name: `Process creation from Office communication products (beta)`</span></span>
+
+<span data-ttu-id="a75f7-387">Configuration Manager 이름: 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-387">Configuration Manager name: Not available</span></span>
+
+<span data-ttu-id="a75f7-388">GUID: `26190899-1602-49e8-8b27-eb1d0a1ce869`</span><span class="sxs-lookup"><span data-stu-id="a75f7-388">GUID: `26190899-1602-49e8-8b27-eb1d0a1ce869`</span></span>
+
+### <a name="block-persistence-through-wmi-event-subscription"></a><span data-ttu-id="a75f7-389">WMI 이벤트 구독을 통한 지속성 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-389">Block persistence through WMI event subscription</span></span>
+
+<span data-ttu-id="a75f7-390">이 규칙은 맬웨어가 WMI를 부인하여 디바이스에서 지속성에 이를 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-390">This rule prevents malware from abusing WMI to attain persistence on a device.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="a75f7-391">파일 및 폴더 제외는 이 공격 표면 축소 규칙에 적용되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-391">File and folder exclusions don't apply to this attack surface reduction rule.</span></span>
+
+<span data-ttu-id="a75f7-392">파일 없는 위협은 다양한 방법을 사용하여 숨김을 유지하여 파일 시스템에서 볼 수 없는 것을 방지하고 주기적인 실행 제어를 얻습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-392">Fileless threats employ various tactics to stay hidden, to avoid being seen in the file system, and to gain periodic execution control.</span></span> <span data-ttu-id="a75f7-393">일부 위협은 WMI 리포지토리 및 이벤트 모델을 남용하여 숨길 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-393">Some threats can abuse the WMI repository and event model to stay hidden.</span></span>
+
+<span data-ttu-id="a75f7-394">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-394">This rule was introduced in:</span></span> 
+- [<span data-ttu-id="a75f7-395">Windows 10 버전 1903</span><span class="sxs-lookup"><span data-stu-id="a75f7-395">Windows 10, version 1903</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1903)
+- [<span data-ttu-id="a75f7-396">Windows Server 1903</span><span class="sxs-lookup"><span data-stu-id="a75f7-396">Windows Server 1903</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-in-windows-server-1903-1909)
+
+<span data-ttu-id="a75f7-397">Intune 이름: 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-397">Intune name: Not available</span></span>
+
+<span data-ttu-id="a75f7-398">Configuration Manager 이름: 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-398">Configuration Manager name: Not available</span></span>
+
+<span data-ttu-id="a75f7-399">GUID: `e6db77e5-3df2-4cf1-b95a-636979351e5b`</span><span class="sxs-lookup"><span data-stu-id="a75f7-399">GUID: `e6db77e5-3df2-4cf1-b95a-636979351e5b`</span></span>
+
+### <a name="block-process-creations-originating-from-psexec-and-wmi-commands"></a><span data-ttu-id="a75f7-400">PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-400">Block process creations originating from PSExec and WMI commands</span></span>
+
+<span data-ttu-id="a75f7-401">이 규칙은 [PsExec](https://docs.microsoft.com/sysinternals/downloads/psexec) 및 [WMI를](https://docs.microsoft.com/windows/win32/wmisdk/about-wmi) 통해 만든 프로세스의 실행을 차단합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-401">This rule blocks processes created through [PsExec](https://docs.microsoft.com/sysinternals/downloads/psexec) and [WMI](https://docs.microsoft.com/windows/win32/wmisdk/about-wmi) from running.</span></span> <span data-ttu-id="a75f7-402">PsExec과 WMI 모두 코드를 원격으로 실행할 수 있으므로 맬웨어가 명령 및 제어 목적으로 이 기능을 남용하거나 조직의 네트워크 전체에 감염을 전파할 위험이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-402">Both PsExec and WMI can remotely execute code, so there is a risk of malware abusing this functionality for command and control purposes, or to spread an infection throughout an organization's network.</span></span>
+
+> [!WARNING]
+> <span data-ttu-id="a75f7-403">[Intune](https://docs.microsoft.com/intune) 또는 다른 MDM 솔루션으로 장치를 관리하는 경우 이 규칙만 사용</span><span class="sxs-lookup"><span data-stu-id="a75f7-403">Only use this rule if you're managing your devices with [Intune](https://docs.microsoft.com/intune) or another MDM solution.</span></span> <span data-ttu-id="a75f7-404">이 규칙은 Configuration Manager 클라이언트가 올바르게 작동하기 위해 사용하는 WMI 명령을 차단하기 때문에 [Microsoft Endpoint Configuration Manager를](https://docs.microsoft.com/configmgr) 통한 관리와는 무관합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-404">This rule is incompatible with management through [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr) because this rule blocks WMI commands the Configuration Manager client uses to function correctly.</span></span>
+
+<span data-ttu-id="a75f7-405">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-405">This rule was introduced in:</span></span> 
+- [<span data-ttu-id="a75f7-406">Windows 10 버전 1803</span><span class="sxs-lookup"><span data-stu-id="a75f7-406">Windows 10, version 1803</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
+- [<span data-ttu-id="a75f7-407">Windows Server, 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-407">Windows Server, version 1809</span></span>](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [<span data-ttu-id="a75f7-408">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-408">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+
+<span data-ttu-id="a75f7-409">Intune 이름: `Process creation from PSExec and WMI commands`</span><span class="sxs-lookup"><span data-stu-id="a75f7-409">Intune name: `Process creation from PSExec and WMI commands`</span></span>
+
+<span data-ttu-id="a75f7-410">Configuration Manager 이름: 해당되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-410">Configuration Manager name: Not applicable</span></span>
+
+<span data-ttu-id="a75f7-411">GUID: `d1e49aac-8f56-4280-b9ba-993a6d77406c`</span><span class="sxs-lookup"><span data-stu-id="a75f7-411">GUID: `d1e49aac-8f56-4280-b9ba-993a6d77406c`</span></span>
+
+### <a name="block-untrusted-and-unsigned-processes-that-run-from-usb"></a><span data-ttu-id="a75f7-412">USB에서 실행된 무단 및 사인되지 않은 프로세스 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-412">Block untrusted and unsigned processes that run from USB</span></span>
+
+<span data-ttu-id="a75f7-413">이 규칙을 사용하여 관리자는 SD 카드를 포함하여 USB 이동식 드라이브에서 사인되지 않은 실행 파일 또는 트러블된 실행 파일을 실행하지 못하게 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-413">With this rule, admins can prevent unsigned or untrusted executable files from running from USB removable drives, including SD cards.</span></span> <span data-ttu-id="a75f7-414">차단된 파일 형식에는 실행 파일(예: .exe, .dll 또는 .scr)이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-414">Blocked file types include executable files (such as .exe, .dll, or .scr)</span></span>
+
+<span data-ttu-id="a75f7-415">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-415">This rule was introduced in:</span></span> 
+- [<span data-ttu-id="a75f7-416">Windows 10 버전 1803</span><span class="sxs-lookup"><span data-stu-id="a75f7-416">Windows 10, version 1803</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
+- [<span data-ttu-id="a75f7-417">Windows Server, 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-417">Windows Server, version 1809</span></span>](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [<span data-ttu-id="a75f7-418">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-418">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [<span data-ttu-id="a75f7-419">Configuration Manager CB 1802</span><span class="sxs-lookup"><span data-stu-id="a75f7-419">Configuration Manager CB 1802</span></span>](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+
+<span data-ttu-id="a75f7-420">Intune 이름: `Untrusted and unsigned processes that run from USB`</span><span class="sxs-lookup"><span data-stu-id="a75f7-420">Intune name: `Untrusted and unsigned processes that run from USB`</span></span>
+
+<span data-ttu-id="a75f7-421">Configuration Manager 이름: `Block untrusted and unsigned processes that run from USB`</span><span class="sxs-lookup"><span data-stu-id="a75f7-421">Configuration Manager name: `Block untrusted and unsigned processes that run from USB`</span></span>
+
+<span data-ttu-id="a75f7-422">GUID: `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`</span><span class="sxs-lookup"><span data-stu-id="a75f7-422">GUID: `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`</span></span>
+
+### <a name="block-win32-api-calls-from-office-macros"></a><span data-ttu-id="a75f7-423">Office 매크로에서 Win32 API 호출 차단</span><span class="sxs-lookup"><span data-stu-id="a75f7-423">Block Win32 API calls from Office macros</span></span>
+
+<span data-ttu-id="a75f7-424">이 규칙은 VBA 매크로가 Win32 API를 호출하지 못하게 합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-424">This rule prevents VBA macros from calling Win32 APIs.</span></span>
+
+<span data-ttu-id="a75f7-425">Office VBA는 Win32 API 호출을 가능하게 합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-425">Office VBA enables Win32 API calls.</span></span> <span data-ttu-id="a75f7-426">맬웨어는 [Win32 API를](https://www.microsoft.com/security/blog/2018/09/12/office-vba-amsi-parting-the-veil-on-malicious-macros/) 호출하여 디스크에 직접 아무것도 쓰지 않고 악성 셸 코드를 시작하는 등 이 기능을 남용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-426">Malware can abuse this capability, such as [calling Win32 APIs to launch malicious shellcode](https://www.microsoft.com/security/blog/2018/09/12/office-vba-amsi-parting-the-veil-on-malicious-macros/) without writing anything directly to disk.</span></span> <span data-ttu-id="a75f7-427">대부분의 조직에서는 다른 방법으로 매크로를 사용하는 경우에도 매일 작동할 때 Win32 API를 호출하는 기능을 사용하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-427">Most organizations don't rely on the ability to call Win32 APIs in their day-to-day functioning, even if they use macros in other ways.</span></span>
+
+<span data-ttu-id="a75f7-428">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-428">This rule was introduced in:</span></span>
+- [<span data-ttu-id="a75f7-429">Windows 10 버전 1709</span><span class="sxs-lookup"><span data-stu-id="a75f7-429">Windows 10, version 1709</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
+- [<span data-ttu-id="a75f7-430">Windows Server, 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-430">Windows Server, version 1809</span></span>](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [<span data-ttu-id="a75f7-431">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-431">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [<span data-ttu-id="a75f7-432">Configuration Manager CB 1710</span><span class="sxs-lookup"><span data-stu-id="a75f7-432">Configuration Manager CB 1710</span></span>](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+
+<span data-ttu-id="a75f7-433">Intune 이름: `Win32 imports from Office macro code`</span><span class="sxs-lookup"><span data-stu-id="a75f7-433">Intune name: `Win32 imports from Office macro code`</span></span>
+
+<span data-ttu-id="a75f7-434">Configuration Manager 이름: `Block Win32 API calls from Office macros`</span><span class="sxs-lookup"><span data-stu-id="a75f7-434">Configuration Manager name: `Block Win32 API calls from Office macros`</span></span>
+
+<span data-ttu-id="a75f7-435">GUID: `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`</span><span class="sxs-lookup"><span data-stu-id="a75f7-435">GUID: `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`</span></span>
+
+### <a name="use-advanced-protection-against-ransomware"></a><span data-ttu-id="a75f7-436">랜섬웨어에 대한 고급 보호 사용</span><span class="sxs-lookup"><span data-stu-id="a75f7-436">Use advanced protection against ransomware</span></span>
+
+<span data-ttu-id="a75f7-437">이 규칙은 랜섬웨어에 대한 추가 보호 계층을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-437">This rule provides an extra layer of protection against ransomware.</span></span> <span data-ttu-id="a75f7-438">시스템에 입력된 실행 파일을 검사하여 파일이 신뢰할 수 있는지 여부를 검사합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-438">It scans executable files entering the system to determine whether they're trustworthy.</span></span> <span data-ttu-id="a75f7-439">파일이 랜섬웨어와 매우 같은 경우 신뢰할 수 있는 목록이나 제외 목록에 없는 경우 이 규칙은 실행을 차단합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-439">If the files closely resemble ransomware, this rule blocks them from running, unless they're in a trusted list or an exclusion list.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="a75f7-440">이 규칙을 [사용하려면](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) 클라우드 제공 보호를 사용하도록 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a75f7-440">You must [enable cloud-delivered protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) to use this rule.</span></span>
+
+<span data-ttu-id="a75f7-441">이 규칙은</span><span class="sxs-lookup"><span data-stu-id="a75f7-441">This rule was introduced in:</span></span> 
+- [<span data-ttu-id="a75f7-442">Windows 10 버전 1803</span><span class="sxs-lookup"><span data-stu-id="a75f7-442">Windows 10, version 1803</span></span>](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
+- [<span data-ttu-id="a75f7-443">Windows Server, 버전 1809</span><span class="sxs-lookup"><span data-stu-id="a75f7-443">Windows Server, version 1809</span></span>](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [<span data-ttu-id="a75f7-444">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="a75f7-444">Windows Server 2019</span></span>](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [<span data-ttu-id="a75f7-445">Configuration Manager CB 1802</span><span class="sxs-lookup"><span data-stu-id="a75f7-445">Configuration Manager CB 1802</span></span>](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+
+<span data-ttu-id="a75f7-446">Intune 이름: `Advanced ransomware protection`</span><span class="sxs-lookup"><span data-stu-id="a75f7-446">Intune name: `Advanced ransomware protection`</span></span>
+
+<span data-ttu-id="a75f7-447">Configuration Manager 이름: `Use advanced protection against ransomware`</span><span class="sxs-lookup"><span data-stu-id="a75f7-447">Configuration Manager name: `Use advanced protection against ransomware`</span></span>
+
+<span data-ttu-id="a75f7-448">GUID: `c1db55ab-c21a-4637-bb3f-a12568109d35`</span><span class="sxs-lookup"><span data-stu-id="a75f7-448">GUID: `c1db55ab-c21a-4637-bb3f-a12568109d35`</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="a75f7-449">참고 항목</span><span class="sxs-lookup"><span data-stu-id="a75f7-449">See also</span></span>
+
+- [<span data-ttu-id="a75f7-450">공격 표면 감소 FAQ</span><span class="sxs-lookup"><span data-stu-id="a75f7-450">Attack surface reduction FAQ</span></span>](attack-surface-reduction-faq.md)
+- [<span data-ttu-id="a75f7-451">공격 표면 감소 규칙 사용</span><span class="sxs-lookup"><span data-stu-id="a75f7-451">Enable attack surface reduction rules</span></span>](enable-attack-surface-reduction.md)
+- [<span data-ttu-id="a75f7-452">공격 표면 감소 규칙 평가</span><span class="sxs-lookup"><span data-stu-id="a75f7-452">Evaluate attack surface reduction rules</span></span>](evaluate-attack-surface-reduction.md)
+- [<span data-ttu-id="a75f7-453">다른 바이러스 백신/맬웨어 방지 솔루션과 Microsoft Defender 바이러스 백신의 호환성</span><span class="sxs-lookup"><span data-stu-id="a75f7-453">Compatibility of Microsoft Defender Antivirus with other antivirus/antimalware solutions</span></span>](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
