@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ed6f6b42570a908a1f4a83d46ef5b2de0c558692
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 059cfbf37c79ff9f99b5e46c8d4329c203aa9665
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199744"
+ms.locfileid: "51215536"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
@@ -161,7 +161,7 @@ Microsoft Threat Expert 구성 요소 2개 중 대상 공격 알림은 일반 �
 
 이 설정을 켜면 신호를 Azure Information Protection으로 전달할 수 있습니다. 이 기능을 사용하면 데이터 소유자와 관리자가 온보더된 디바이스의 보호된 데이터와 장치 위험 등급을 쉽게 사용할 수 있습니다.
 
-## <a name="microsoft-secure-score"></a>Microsoft Secure Score
+## <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
 끝점용 Microsoft Defender 신호를 Microsoft 365 보안 센터의 Microsoft 보안 점수로 전달합니다. 이 기능을 켜면 Microsoft 보안 점수가 장치의 보안 상태와 관련한 가시성을 확보할 수 있습니다. 전달된 데이터는 Microsoft 보안 점수 데이터와 동일한 위치에 저장되고 처리됩니다.
 
@@ -206,7 +206,7 @@ Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 알�
 
 끝점 보안 경고 및 해당 평가 상태를 Microsoft 규정 준수 센터에 전달하여 경고를 통해 내부자 위험 관리 정책을 향상하고 내부 위험을 발생시키는 위험을 해결한 후 손상을 일으킬 수 있습니다. 전달된 데이터는 처리되고 Office 365 데이터와 동일한 위치에 저장됩니다.
 
-내부자 위험 [](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-settings.md#indicators) 관리 설정에서 보안 정책 위반 표시기를 구성한 후 끝점용 Defender 경고는 해당 사용자의 내부자 위험 관리와 공유됩니다.
+내부자 위험 [](/microsoft-365/compliance/insider-risk-management-settings#indicators) 관리 설정에서 보안 정책 위반 표시기를 구성한 후 끝점용 Defender 경고는 해당 사용자의 내부자 위험 관리와 공유됩니다.
 
 ## <a name="related-topics"></a>관련 항목
 

@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터 - 이번 달에 추가된 기능에 대
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 833f782e071e06d837ca5eacfcb72e2d6e16c8fb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b670c6a333485bc3a19ae14b8e7c71f08181cac5
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913937"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215579"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운
 
@@ -48,6 +48,7 @@ Microsoft는 [지속적으로 Microsoft 365](microsoft-365-admin-center-preview.
 - [Microsoft 365 Defender의 새로운 기능](../security/mtp/whats-new.md)
 - [SharePoint 관리 센터의 새로운](/sharepoint/what-s-new-in-admin-center)
 - [Office 업데이트](/OfficeUpdates/)
+- [Windows 릴리스 상태 확인 방법](https://docs.microsoft.com/windows/deployment/update/check-release-health)
 
 ## <a name="ignite-2021-march"></a>Ignite 2021(3월)
 

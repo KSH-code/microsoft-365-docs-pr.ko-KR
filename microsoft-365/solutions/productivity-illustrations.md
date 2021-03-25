@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 423840ae62d0531da76044238bbeef05078a82c8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cc526371fdf12314f762c885ba1775fcf3f00d00
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907991"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215555"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Microsoft 365 생산성 일러스트레이션
 
@@ -33,7 +33,7 @@ Microsoft Teams로 시장을 선도하는 Microsoft 365 생산성 서비스의 �
 
 
 ### <a name="groups-in-microsoft-365-for-it-architects"></a>IT 설계자용 Microsoft 365의 그룹
-IT 설계자가 Microsoft 365의 그룹에 대해 알아야 하는 점
+이 그림에는 MICROSOFT 365 그룹에 대한 IT 설계자용 정보가 포함되어 있습니다. 조직에서 공동 작업을 위해 Microsoft 365 그룹 및 팀을 구성하고 관리하는 방법을 알아보고 [Microsoft 365와의](/microsoft-365/solutions/setup-secure-collaboration-with-teams) 안전한 공동 작업 설정 및 공동 작업 거버넌스란?을 [참조하세요.](/microsoft-365/solutions/collaboration-governance-overview)
 
 | 항목 | 설명 |
 |:-----|:-----|
@@ -52,7 +52,7 @@ Microsoft 365에는 광범위한 정보 보호 및 규정 준수 기능이 포�
 
 
 ### <a name="security-and-information-protection-for-multi-region-organizations"></a>다중 영역 조직에 대한 보안 및 정보 보호
-단일 Microsoft 365 테넌트가 있는 다중 영역 조직에 대한 보안 및 정보 보호
+단일 Microsoft 365 테넌트를 사용 하는 다중 지역 조직에 대한 보안 및 정보 보호
 
 | 항목 | 설명 |
 |:-----|:-----|

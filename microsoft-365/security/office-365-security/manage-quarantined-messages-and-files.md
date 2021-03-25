@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)의 모든 사용자에 대해 분리된 메시지를 보고 관리하는 방법을 배울 수 있습니다. Office 365용 Microsoft Defender를 사용하여 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams에서 분리된 파일을 관리할 수도 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8c606daccfd037cad4d894ab7f33ff02fcf172b5
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3dee441a3442454c5f2978422d18a2084f8377f3
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205347"
+ms.locfileid: "51215541"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
@@ -197,6 +197,8 @@ Office 365용 Microsoft Defender를 사용하여 조직의 관리자는 SharePoi
 
 - **메시지 다운로드하기**: 표시되는 플라이아웃 창에서 **이 메시지를 다운로드하는 데 따르는 위험을 알고 있습니다.** 를 선택하여 메시지의 로컬 복사본을 .eml 형식으로 저장합니다.
 
+- **보낸 사람 차단**: 이 경우 보낸 사람이 관리자 받는 사람 사서함으로 전자 메일을 보내지 않습니다.
+
 - **메시지 제출:** 플라이아웃 창이 나타나면 다음 옵션을 선택합니다.
 
   - **개체 유형:** **전자 메일(기본값),** **URL** 또는 첨부 **파일입니다.**
@@ -307,6 +309,6 @@ Office 365용 Defender가 있는 조직에서 관리자는 SharePoint Online, �
 
 - [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage)
 
-- [Preview-QuarantineMessage:](/powershell/module/exchange/preview-quarantinemessage)이 cmdlet은 SharePoint, OneDrive 및 Microsoft Teams에 대한 안전한 첨부 파일의 맬웨어 파일이 아니라 메시지 전용입니다.
+- [Preview-QuarantineMessage:](/powershell/module/exchange/preview-quarantinemessage)이 cmdlet은 메시지 전용으로, SharePoint, OneDrive 및 Microsoft Teams에 대한 안전한 첨부 파일에서 고지된 파일이 아니라 메시지에 한합니다.
 
 - [Release-QuarantineMessage](/powershell/module/exchange/release-quarantinemessage)
