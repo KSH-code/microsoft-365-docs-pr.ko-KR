@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 6a5e5c10e92d5c8c017360033d7c3fc23b707730
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 6d45e3aa0d3bf938e43201aca969613876ef1f31
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185482"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218715"
 ---
 # <a name="migrate-from-symantec---phase-2-set-up-microsoft-defender-for-endpoint"></a>Symantec에서 마이그레이션 - 2단계: 끝점용 Microsoft Defender 설정
 
@@ -39,7 +39,7 @@ ms.locfileid: "51185482"
 ||*여기 있습니다!* | |
 
 
-**[Symantec에서 끝점용 Microsoft Defender로 마이그레이션하는 설치 단계에 오신 것을 환영합니다.](symantec-to-microsoft-defender-atp-migration.md#the-migration-process)** 이 단계에는 다음 단계가 포함됩니다.
+**[Symantec에서 끝점용 Microsoft Defender로 마이그레이션하는 설치 단계에 오신 것을 환영합니다.](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process)** 이 단계에는 다음 단계가 포함됩니다.
 1. Microsoft Defender 바이러스 백신을 사용하도록 설정하거나 다시 [설치합니다(특정 버전의 Windows용).](#enable-or-reinstall-microsoft-defender-antivirus-for-certain-versions-of-windows)
 2. [Microsoft Defender 바이러스 백신을 사용하도록 설정](#enable-microsoft-defender-antivirus).
 3. [Microsoft Defender 바이러스 백신에 대한 업데이트를 다운로드합니다.](#get-updates-for-microsoft-defender-antivirus)
@@ -228,5 +228,5 @@ Configuration Manager 및 장치 컬렉션을 사용하여 맬웨어 방지 정�
 
 ## <a name="next-step"></a>다음 단계
 
-**축하합니다!** [Symantec에서 끝점용 Microsoft Defender로 마이그레이션하는 설치 단계를 완료했습니다.](symantec-to-microsoft-defender-atp-migration.md#the-migration-process)
+**축하합니다!** [Symantec에서 끝점용 Microsoft Defender로 마이그레이션하는 설치 단계를 완료했습니다.](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process)
 - [3단계: 끝점용 Microsoft Defender 온보딩으로 진행](symantec-to-microsoft-defender-atp-onboard.md)

@@ -17,12 +17,12 @@ ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
 ms.date: 09/24/2020
 ms.technology: mde
-ms.openlocfilehash: 0f9508038dd49e6c2d14d8e33a4fd40dfdfe83cb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c191e2006f42eda215508ba961dcbeb1ea282078
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198658"
+ms.locfileid: "51218631"
 ---
 # <a name="make-the-switch-to-microsoft-defender-for-endpoint-and-microsoft-defender-antivirus"></a>Endpoint용 Microsoft Defender 및 Microsoft Defender 바이러스 백신으로 전환
 
@@ -43,7 +43,7 @@ Microsoft Defender 바이러스 백신을 사용하여 Microsoft가 아닌 위�
 |아직 끝점 보호 솔루션이 없는 경우 Microsoft Defender 바이러스 백신이 어떻게 작동하고, Endpoint용 Microsoft Defender & 알고 싶을 것입니다.  |[끝점용 Microsoft Defender 평가 랩](evaluation-lab.md)   |
 |You have Microsoft Defender for Endpoint & Microsoft Defender Antivirus and need some help getting everything set up and configured.  |[끝점용 Microsoft Defender 배포 가이드](deployment-phases.md)  |
 |McAfee Endpoint Security(McAfee)에서 Microsoft Defender 바이러스 백신을 사용하여 끝점용 Microsoft Defender로 & 계획입니다. |[McAfee에서 끝점용 Microsoft Defender로 전환](mcafee-to-microsoft-defender-migration.md) |
-|Symantec Endpoint Protection(Symantec)에서 Microsoft Defender 바이러스 백신을 사용하여 끝점용 Microsoft Defender로 & 계획입니다. |[Symantec에서 끝점용 Microsoft Defender로 전환](symantec-to-microsoft-defender-atp-migration.md) |
+|Symantec Endpoint Protection(Symantec)에서 Microsoft Defender 바이러스 백신을 사용하여 끝점용 Microsoft Defender로 & 계획입니다. |[Symantec에서 끝점용 Microsoft Defender로 전환](symantec-to-microsoft-defender-endpoint-migration.md) |
 |Microsoft Defender 바이러스 백신을 사용하여 Microsoft가 아닌 다른 끝점 보호 솔루션(McAfee 또는 Symantec 외)에서 Endpoint용 Microsoft Defender로 & 계획입니다. |[끝점용 Microsoft Defender로 전환](switch-to-microsoft-defender-migration.md)   |
 |Microsoft Defender 바이러스 백신용 Microsoft Defender로 & 추가 기능을 구성하거나 보안 설정을 미세 조정하는 등 다음 단계에 대한 도움이 필요합니다. | [끝점용 Microsoft Defender 관리, 마이그레이션 후](manage-atp-post-migration.md) |
 

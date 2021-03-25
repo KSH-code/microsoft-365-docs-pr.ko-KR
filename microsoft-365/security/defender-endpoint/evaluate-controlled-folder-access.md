@@ -13,12 +13,12 @@ ms.author: ellevin
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: e5da8ec3e4555af062aad1a4ebfa96d972bee23b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e965e1a882dadfb565231074165507a6727b45c1
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073911"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218751"
 ---
 # <a name="evaluate-controlled-folder-access"></a>제어된 폴더 액세스 평가
 
@@ -76,5 +76,5 @@ Set-MpPreference -EnableControlledFolderAccess AuditMode
 ## <a name="see-also"></a>참고 항목
 
 * [제어된 폴더 액세스로 중요한 폴더 보호](controlled-folders.md)
-* [끝점에 대한 Microsoft Defender 평가](evaluate-atp.md)
+* [끝점에 대한 Microsoft Defender 평가](evaluate-mde.md)
 * [감사 모드 사용](audit-windows-defender.md)

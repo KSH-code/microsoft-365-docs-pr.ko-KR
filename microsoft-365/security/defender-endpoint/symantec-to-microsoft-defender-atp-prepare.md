@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 8784c8d608666946461ddc27aa2e7f2b740276a0
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 87da8a558e1295f793600aae2fdd836667374052
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185494"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218727"
 ---
 # <a name="migrate-from-symantec---phase-1-prepare-for-your-migration"></a>Symantec에서 마이그레이션 - 1단계: 마이그레이션 준비
 
@@ -39,7 +39,7 @@ ms.locfileid: "51185494"
 |*여기 있습니다!*| | |
 
 
-**[Symantec에서 끝점용 Microsoft Defender로 마이그레이션하는 준비 단계에 오신 것을 환영합니다.](symantec-to-microsoft-defender-atp-migration.md#the-migration-process)** 
+**[Symantec에서 끝점용 Microsoft Defender로 마이그레이션하는 준비 단계에 오신 것을 환영합니다.](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process)** 
 
 이 마이그레이션 단계에는 다음 단계가 포함됩니다.
 1. [끝점용 Microsoft Defender를 다운로드합니다.](#get-microsoft-defender-for-endpoint)
@@ -89,5 +89,5 @@ Microsoft Defender 보안 센터에 대한 사용 권한은 기본 사용 권한
 
 ## <a name="next-step"></a>다음 단계
 
-**축하합니다!** [Symantec에서 끝점용 Microsoft Defender로 마이그레이션하는](symantec-to-microsoft-defender-atp-migration.md#the-migration-process)준비 단계를 완료했습니다. 
+**축하합니다!** [Symantec에서 끝점용 Microsoft Defender로 마이그레이션하는](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process)준비 단계를 완료했습니다. 
 - [끝점에 대한 Microsoft Defender 설정으로 진행합니다.](symantec-to-microsoft-defender-atp-setup.md)

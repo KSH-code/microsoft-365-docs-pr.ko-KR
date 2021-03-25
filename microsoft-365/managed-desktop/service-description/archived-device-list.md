@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: f3e4b434f1ca267d5bbfbc7e67cb20c7e2b9dbbb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 79b4d343326d722e42e09ae2794c05dcdd8eb603
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920567"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218739"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관 장치
 
@@ -40,11 +40,14 @@ Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나�
 |---------|---------|---------|---------|
 |Dell Precision 3530| 256GB/Intel i5/8GB RAM | IR 카메라 필요 | **2023년 5월 22일** |
 |Dell Latitude 5300 / 5300 2-in-1 / 5400 / 5500 | 256GB/Intel i5/8GB RAM | IR 카메라 필요 | **2024년 6월 1일**  |
+|Dell Latitude 5310 / 5310 2-in-1 / 256GB / Intel i5 / 8GB RAM | IR 카메라 필요 | **2025년 4월 28일**  |
+|Dell Latitude 5410 / 5410 2-in-1 / 256GB / Intel i5 / 8GB RAM | IR 카메라 필요 | **2025년 4월 28일**  |
 |Dell Latitude 5490 | 256GB/Intel i5/8GB RAM | IR 카메라 필요 | **2023년 1월 9일** |
 |Dell Latitude 7200 2-in-1 | 256GB/Intel i5/8GB RAM | IR 카메라 필요 | **2024년 5월 1일** |
 |Dell Latitude 7300 / 7400 / 7400 2-in-1 | 256GB/Intel i5/8GB RAM | IR 카메라 필요 | **2024년 5월 1일**  |
 |Dell Latitude 7390 / 7390 2-in-1 / 7490 | 256GB/Intel i5/8GB RAM   | IR 카메라 필요 | **2023년 1월 9일** |
 |Dell Latitude 7410 / 7410 2-in-1 | 256GB/Intel i5/8GB RAM | IR 카메라 필요 | **2025년 5월 19일**  |
+|Dell Latitude 9410 / 9410 2-in-1 | 256GB/Intel i5/8GB RAM | IR 카메라 필요 | **2025년 5월 5일**  |
 |Dell Optiplex 3070 | 128GB/Intel i3/8GB RAM | 없음 | **2025년 5월 1일**  |
 |HP EliteBook 830 / 840 / 850 G5| 128GB/Intel i5/8GB RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **2023년 2월 15일** |
 |HP EliteBook 830 / 840 / 850 G6| 128GB/Intel i5/8GB RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **2023년 11월 30일** |

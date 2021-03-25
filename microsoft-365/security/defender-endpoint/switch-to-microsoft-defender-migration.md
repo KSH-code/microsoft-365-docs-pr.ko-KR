@@ -22,12 +22,12 @@ ms.custom: migrationguides
 ms.date: 02/11/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: 6e5b79e447579631e4aa2eaf02352dc3fa6a8daa
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 2c6029a1aada8f5f5fb27723c868f28c3de6f8aa
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074127"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218655"
 ---
 # <a name="make-the-switch-from-a-non-microsoft-endpoint-solution-to-microsoft-defender-for-endpoint"></a>Microsoft가 아닌 다른 끝점 솔루션에서 끝점용 Microsoft Defender로 전환
 
@@ -39,7 +39,7 @@ Endpoint용 Defender로 전환할 때 활성 모드에서 Microsoft가 아닌 �
 
 > [!TIP]
 > - 현재 McAfee 끝점 보안(McAfee)을 사용 중인 경우 [Migrate from McAfee to Microsoft Defender for Endpoint를 참조합니다.](mcafee-to-microsoft-defender-migration.md)
-> - 현재 Symantec Endpoint Protection(Symantec)을 사용 중인 경우 [Migrate from Symantec to Microsoft Defender for Endpoint를 참조합니다.](symantec-to-microsoft-defender-atp-migration.md)
+> - 현재 Symantec Endpoint Protection(Symantec)을 사용 중인 경우 [Migrate from Symantec to Microsoft Defender for Endpoint를 참조합니다.](symantec-to-microsoft-defender-endpoint-migration.md)
 
 ## <a name="the-migration-process"></a>마이그레이션 프로세스
 

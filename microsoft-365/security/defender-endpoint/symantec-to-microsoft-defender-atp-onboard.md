@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 95b2e4bfc0eca58d6c71670b21ded81affcc219f
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: cc005c559e0f91f1c5888f8d7e4e7a2a420894db
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185506"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218703"
 ---
 # <a name="migrate-from-symantec---phase-3-onboard-to-microsoft-defender-for-endpoint"></a>Symantec에서 마이그레이션 - 3단계: 끝점용 Microsoft Defender로 온보딩
 
@@ -39,7 +39,7 @@ ms.locfileid: "51185506"
 || |*여기 있습니다!* |
 
 
-**[Symantec에서 끝점용 Microsoft Defender로 마이그레이션하는 3단계에 오신 것을 환영합니다.](symantec-to-microsoft-defender-atp-migration.md#the-migration-process)** 이 마이그레이션 단계에는 다음 단계가 포함됩니다.
+**[Symantec에서 끝점용 Microsoft Defender로 마이그레이션하는 3단계에 오신 것을 환영합니다.](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process)** 이 마이그레이션 단계에는 다음 단계가 포함됩니다.
 
 1. [끝점용 Microsoft Defender에 장치를 온보딩합니다.](#onboard-devices-to-microsoft-defender-for-endpoint)
 2. [검색 테스트를 실행합니다.](#run-a-detection-test)
@@ -105,6 +105,6 @@ Symantec을 제거한 후 다음 단계는 Microsoft Defender 바이러스 백�
 
 ## <a name="next-steps"></a>다음 단계
 
-**축하합니다!** [Symantec에서 끝점용 Microsoft Defender로](symantec-to-microsoft-defender-atp-migration.md#the-migration-process)마이그레이션을 완료했습니다! 
+**축하합니다!** [Symantec에서 끝점용 Microsoft Defender로](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process)마이그레이션을 완료했습니다! 
 - Microsoft Defender [보안 센터()의](security-operations-dashboard.md) 보안 작업 대시보드를 [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) 방문하세요. 
 - [마이그레이션 후 끝점에 대한 Microsoft Defender를 관리합니다.](manage-atp-post-migration.md)
