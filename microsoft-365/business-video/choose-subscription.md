@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 조직에 적합한 Microsoft 365 구독에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0ac7dbcad1f2d7fa99db607e6d4696c9f8fcb542
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 19da01142bfe0abf2ad02c3a0ccab4ef25e09df4
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913757"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164648"
 ---
 # <a name="choose-a-microsoft-365-subscription"></a>Microsoft 365 구독 선택
 
@@ -54,7 +54,6 @@ ms.locfileid: "50913757"
 | **소셜, 비디오, 사이트** | Stream, Yammer, Planner, SharePoint \* Online, PowerApps, \* Microsoft Flow\* | 예 | 예 | 예 |
 | **비즈니스 앱** | 앱 예약 - Bookings\*\* | 예 | 예 | 예 |
 |
- | 비즈니스 앱 - MileIQ\*\* | 예 | 예 | 아니요 |
 | **위협 방지** | Office 365 Advanced Threat Protection | 아니요 | 예 | 아니요 |
  | Windows Exploit Guard 적용 | 아니요 | 예 | 아니요 |
 | **ID 관리** | 하이브리드 Azure Active Directory 계정에 대한 셀프 서비스 암호 재설정 | 아니요 | 예 | 아니요 |

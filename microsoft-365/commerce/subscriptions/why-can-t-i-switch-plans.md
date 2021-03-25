@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: 경우에 따라 요금제 전환을 수동으로 또는 지원에 문의하여 전환해야 하는 이유를 이해합니다.
-ms.openlocfilehash: d13b7290f4b5f9aede7406cf76ee60cac262c814
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0880337e4879c093119b98f4d0108ca65c17e705
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922271"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164464"
 ---
 # <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>비즈니스용 Microsoft 365 요금제는 전환할 수 없는 이유는 무엇입니까?
 
@@ -63,19 +63,19 @@ ms.locfileid: "50922271"
 
 ::: moniker range="o365-worldwide"
 
-**요금제 전환** 단추를 사용하여 요금제를 자동으로 전환하려면 모든 사용자에게 유효한 라이선스가 할당되어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../admin/manage/resolve-license-conflicts.md). 라이선스 충돌을 해결하고 나면 **요금제 전환** 단추가 표시되어야 합니다. 그렇지 않은 경우 요금제 수동 전환 [또는](switch-plans-manually.md) [지원에 문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
+**요금제 전환** 단추를 사용하여 요금제를 자동으로 전환하려면 모든 사용자에게 유효한 라이선스가 할당되어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../commerce/licenses/buy-licenses.md). 라이선스 충돌을 해결하고 나면 **요금제 전환** 단추가 표시되어야 합니다. 그렇지 않은 경우 요금제 수동 전환 [또는](switch-plans-manually.md) [지원에 문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-**요금제 전환** 단추를 사용하여 요금제를 자동으로 전환하려면 모든 사용자에게 유효한 라이선스가 할당되어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../admin/manage/resolve-license-conflicts.md). 라이선스 충돌을 해결하고 나면 **요금제 전환** 단추가 표시되어야 합니다. 그렇지 않은 경우 요금제 수동 전환 [또는](switch-plans-manually.md) [지원에 문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
+**요금제 전환** 단추를 사용하여 요금제를 자동으로 전환하려면 모든 사용자에게 유효한 라이선스가 할당되어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../commerce/licenses/buy-licenses.md). 라이선스 충돌을 해결하고 나면 **요금제 전환** 단추가 표시되어야 합니다. 그렇지 않은 경우 요금제 수동 전환 [또는](switch-plans-manually.md) [지원에 문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-**요금제 전환** 단추를 사용하여 요금제를 자동으로 전환하려면 모든 사용자에게 유효한 라이선스가 할당되어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../admin/manage/resolve-license-conflicts.md). 라이선스 충돌을 해결하고 나면 **요금제 전환** 단추가 표시되어야 합니다. 그렇지 않은 경우 요금제 수동 전환 [또는](switch-plans-manually.md) [지원에 문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
+**요금제 전환** 단추를 사용하여 요금제를 자동으로 전환하려면 모든 사용자에게 유효한 라이선스가 할당되어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../commerce/licenses/buy-licenses.md). 라이선스 충돌을 해결하고 나면 **요금제 전환** 단추가 표시되어야 합니다. 그렇지 않은 경우 요금제 수동 전환 [또는](switch-plans-manually.md) [지원에 문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 

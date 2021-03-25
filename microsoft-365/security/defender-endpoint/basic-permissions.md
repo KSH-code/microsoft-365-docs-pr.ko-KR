@@ -1,0 +1,90 @@
+---
+title: 기본 사용 권한을 사용하여 Microsoft Defender 보안 센터 액세스
+description: 기본 권한을 사용하여 끝점 포털용 Microsoft Defender에 액세스하는 방법을 배워야 합니다.
+keywords: 사용자 역할 할당, 읽기 및 쓰기 액세스 할당, 읽기 전용 액세스 할당, 사용자, 사용자 역할, 역할
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: macapara
+author: mjcaparas
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection: M365-security-compliance
+ms.topic: article
+ms.technology: mde
+ms.openlocfilehash: cb5762d2a9e4b62432aba6dacd1033ddc3c7daf2
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51163674"
+---
+# <a name="use-basic-permissions-to-access-the-portal"></a>기본 사용 권한을 사용하여 포털 액세스
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+**적용 대상:**
+- Azure Active Directory
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-basicaccess-abovefoldlink)
+
+기본 사용 권한 관리를 사용하려면 아래 지침을 참조하세요.
+
+다음 솔루션 중 하나를 사용할 수 있습니다.
+- Azure PowerShell
+- Azure Portal
+
+사용 권한에 대한 세부적인 제어를 위해 역할 기반 액세스 [제어로 전환합니다.](rbac.md)
+
+## <a name="assign-user-access-using-azure-powershell"></a>Azure PowerShell을 사용하여 사용자 액세스 할당
+다음 권한 수준 중 하나를 사용하여 사용자를 할당할 수 있습니다.
+- 모든 액세스(읽기 및 쓰기)
+- 읽기 전용 액세스
+
+### <a name="before-you-begin"></a>시작하기 전에
+
+- Azure PowerShell을 설치합니다. 자세한 내용은 Azure [PowerShell을](https://azure.microsoft.com/documentation/articles/powershell-install-configure/)설치 및 구성하는 방법을 참조하세요.<br>
+
+    > [!NOTE]
+    > PowerShell cmdlet은 상승된 명령줄에서 실행해야 합니다.
+
+- Azure Active Directory에 연결합니다. 자세한 내용은 [Connect-MsolService 를 참조하세요.](https://docs.microsoft.com/powershell/module/msonline/connect-msolservice?view=azureadps-1.0&preserve-view=true)
+
+**모든 액세스** <br>
+모든 권한이 있는 사용자는 로그인하고, 모든 시스템 정보를 보고, 경고를 해결하고, 심층 분석을 위해 파일을 제출하고, 온보더링 패키지를 다운로드할 수 있습니다.
+모든 액세스 권한을 할당하려면 사용자를 "보안 관리자" 또는 "전역 관리자" AAD 기본 제공 역할에 추가해야 합니다.
+
+**읽기 전용 액세스** <br>
+읽기 전용 액세스 권한이 있는 사용자는 로그인하고 모든 경고 및 관련 정보를 볼 수 있습니다.
+경고 상태를 변경하거나, 심층 분석을 위해 파일을 제출하거나, 상태 변경 작업을 수행할 수 없습니다.
+읽기 전용 액세스 권한을 할당하려면 사용자를 "보안 읽기 권한자" Azure AD 기본 제공 역할에 추가해야 합니다.
+
+다음 단계에 따라 보안 역할을 할당합니다.
+
+- 읽기 **및 쓰기 액세스의** 경우 다음 명령을 사용하여 사용자를 보안 관리자 역할에 할당합니다.
+
+  ```PowerShell
+  Add-MsolRoleMember -RoleName "Security Administrator" -RoleMemberEmailAddress "secadmin@Contoso.onmicrosoft.com"
+  ```
+  
+- 읽기 **전용 액세스의** 경우 다음 명령을 사용하여 사용자를 보안 읽기 프로그램 역할에 할당합니다.
+
+  ```PowerShell
+  Add-MsolRoleMember -RoleName "Security Reader" -RoleMemberEmailAddress "reader@Contoso.onmicrosoft.com"
+  ```
+
+자세한 내용은 Azure Active Directory를 사용하여 그룹 구성원 추가 또는 [제거를 참조하세요.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-members-azure-portal)
+
+## <a name="assign-user-access-using-the-azure-portal"></a>Azure Portal을 사용하여 사용자 액세스 할당
+
+자세한 내용은 Azure Active Directory를 사용하여 사용자에게 관리자 및 비 [관리자 역할 할당을 참조하세요.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
+
+## <a name="related-topic"></a>관련 항목
+
+- [RBAC를 사용하여 포털 액세스 관리](rbac.md)

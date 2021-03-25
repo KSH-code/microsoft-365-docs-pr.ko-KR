@@ -11,17 +11,17 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: 관리자는 Globanet Slack eDiscovery에서 Microsoft 365로 데이터를 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 Microsoft 365에 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: a5273082ba2f88cda8c323f47aec40fed31455d2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 관리자는 Veritas Slack eDiscovery에서 Microsoft 365로 데이터를 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 Microsoft 365에 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
+ms.openlocfilehash: 48b0a6d4d5e8f6eafaaf900aa5c773cf4f99fe72
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925100"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51163962"
 ---
 # <a name="set-up-a-connector-to-archive-slack-ediscovery-data"></a>Slack eDiscovery 데이터를 보관할 커넥터 설정
 
-Microsoft 365 규정 준수 센터의 Globanet 커넥터를 사용하여 소셜 미디어, 인스턴트 메시징 및 문서 공동 작업 플랫폼에서 Microsoft 365 조직의 사서함으로 타사 데이터를 가져와 보관합니다. Globanet은 타사 데이터 원본에서 항목을 캡처한 다음(정기적으로) 해당 항목을 Microsoft 365로 가져오도록 구성된 [Slack](https://globanet.com/slack/) 커넥터를 제공합니다. Slack은 Slack API에서 메시지와 파일을 가져와서 전자 메일 메시지 형식으로 변환한 다음 항목을 사용자 사서함으로 가져올 수 있습니다.
+Microsoft 365 규정 준수 센터의 Veritas 커넥터를 사용하여 소셜 미디어, 인스턴트 메시징 및 문서 공동 작업 플랫폼에서 Microsoft 365 조직의 사서함으로 타사 데이터를 가져오고 보관합니다. Veritas는 타사 데이터 원본에서 항목을 캡처한 다음(정기적으로) 해당 항목을 Microsoft 365로 가져오도록 구성된 [Slack](https://globanet.com/slack/) 커넥터를 제공합니다. Slack은 Slack API에서 메시지와 파일을 가져와서 전자 메일 메시지 형식으로 변환한 다음 항목을 사용자 사서함으로 가져올 수 있습니다.
 
 Slack eDiscovery 데이터가 사용자 사서함에 저장되고 나면 소송 보존, eDiscovery, 보존 정책 및 보존 레이블, 통신 준수와 같은 Microsoft 365 규정 준수 기능을 적용할 수 있습니다. Slack 커넥터를 사용하여 Microsoft 365에서 데이터를 가져오고 보관하면 조직이 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
 
@@ -33,15 +33,15 @@ Slack eDiscovery 데이터가 사용자 사서함에 저장되고 나면 소송 
 
 1. 조직은 Slack과 함께 Slack 사이트를 설정하고 구성합니다.
 
-2. 24시간마다 Slack eDiscovery의 채팅 메시지가 Globanet Merge1 사이트에 복사됩니다. 또한 커넥터는 채팅 메시지의 내용을 전자 메일 메시지 형식으로 변환합니다.
+2. 24시간마다 Slack eDiscovery의 채팅 메시지가 Veritas Merge1 사이트에 복사됩니다. 또한 커넥터는 채팅 메시지의 내용을 전자 메일 메시지 형식으로 변환합니다.
 
-3. Microsoft 365 규정 준수 센터에서 만든 Slack eDiscovery 커넥터는 매일 Globanet Merge1 사이트에 연결하고 채팅 메시지를 Microsoft 클라우드의 보안 Azure Storage 위치로 전송합니다.
+3. Microsoft 365 규정 준수 센터에서 만든 Slack eDiscovery 커넥터는 매일 Veritas Merge1 사이트에 연결하고 채팅 메시지를 Microsoft 클라우드의 보안 Azure Storage 위치로 전송합니다.
 
 4. 커넥터는 3단계에 설명된 바와 같이 *Email* 속성 및 자동 사용자 매핑 값을 사용하여 변환된 채팅 메시지 항목을 특정 사용자의 사서함으로 가져올 수 있습니다. **Slack eDiscovery라는** 받은 편지함 폴더의 새 하위 폴더가 사용자 사서함에 만들어지며 채팅 메시지 항목을 해당 폴더로 가져오게 됩니다. 커넥터는 Email 속성 값을 사용하여 항목을 가져올 사서함을 결정할 *수* 있습니다. 모든 채팅 메시지에는 채팅 메시지의 모든 참가자의 전자 메일 주소로 채워지는 이 속성이 포함되어 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- Microsoft 커넥터에 대한 Globanet Merge1 계정을 생성합니다. 계정을 만들하려면 [Globanet 고객 지원에 문의하세요.](https://globanet.com/ms-connectors-contact) 1단계에서 커넥터를 만들 때 이 계정에 로그인합니다.
+- Microsoft 커넥터에 대한 Veritas Merge1 계정을 생성합니다. 계정을 만들하려면 [Veritas 고객 지원에 문의하세요.](https://globanet.com/ms-connectors-contact) 1단계에서 커넥터를 만들 때 이 계정에 로그인합니다.
 
 - 조직의 Slack 엔터프라이즈 계정의 사용자 이름과 암호를 얻습니다. Slack을 구성할 때 2단계에서 이 계정에 로그인해야 합니다.
 
@@ -63,7 +63,7 @@ Slack eDiscovery 데이터가 사용자 사서함에 저장되고 나면 소송 
 
 ## <a name="step-2-configure-slack-ediscovery"></a>2단계: Slack eDiscovery 구성
 
-두 번째 단계는 Merge1 사이트에서 Slack eDiscovery 커넥터를 구성하는 것입니다. Globanet Merge1 사이트에서 Slack eDiscovery 커넥터를 구성하는 방법에 대한 자세한 내용은 [Merge1 Third-Party Connectors User Guide를 참조하십시오.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Slack%20eDiscovery%20User%20Guide.pdf)
+두 번째 단계는 Merge1 사이트에서 Slack eDiscovery 커넥터를 구성하는 것입니다. Veritas Merge1 사이트에서 Slack eDiscovery 커넥터를 구성하는 방법에 대한 자세한 내용은 [Merge1 Third-Party Connectors User Guide를 참조하십시오.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Slack%20eDiscovery%20User%20Guide.pdf)
 
 저장 및 & **마친** 후  Microsoft 365 규정 준수 센터의 커넥터 마법사에 있는 사용자 매핑 페이지가 표시됩니다.
 

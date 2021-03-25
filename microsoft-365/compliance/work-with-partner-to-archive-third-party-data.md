@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: Salesforce Chatter, Yahoo Messenger 또는 Yammer.
-ms.openlocfilehash: adf6583f397296361e8f0cb6f12e7054436fa34f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6e93ff765129296f62b43c93937701169bbf4b03
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928382"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164943"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data"></a>타사 데이터를 저장하는 데 파트너와 협력
 
@@ -70,7 +70,7 @@ Microsoft 365에서 타사 데이터를 보관하는 주요 구성 요소는 타
   
 [ArchiveSocial](#archivesocial)
   
-[Globanet](#globanet)
+[Veritas](#veritas)
   
 [OpenText](#opentext)
   
@@ -142,9 +142,9 @@ Microsoft 365에서 타사 데이터를 보관하는 주요 구성 요소는 타
     
 - Vimeo
   
-### <a name="globanet"></a>Globanet
+### <a name="veritas"></a>Veritas
 
-[Globanet은](https://www.globanet.com) 다음과 같은 타사 데이터 원본을 지원합니다. 
+[Veritas는](https://www.globanet.com) 다음과 같은 타사 데이터 원본을 지원합니다. 
   
 - AOL with Pivot Client  
     

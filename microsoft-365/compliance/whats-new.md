@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 규정 준수 센터에 새 솔루션을 추가하거나, 피드백에 따라 기존 기능을 업데이트하거나, 최신 문서와 업데이트된 문서를 배포하는지 여부에 따라 Microsoft 365를 사용하면 계속 변화하는 규정 준수 환경의 최상단을 유지하도록 할 수 있습니다. 이번 달까지의 정보를 찾아보아야 합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ed29ad5186972f56609a596d88a48c7c460f295f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c695bc2632e766eb6f14c4e9f7eabbbddff66fd2
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905860"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164977"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Microsoft 365 규정 준수의 새로운 기능
 
@@ -33,7 +33,7 @@ ms.locfileid: "50905860"
 > 일부 규정 준수 기능은 고객에게 다른 속도로 롤아웃됩니다. 아직 기능이 없는 경우 대상 릴리스에 자신을 [추가해 보세요.](/office365/admin/manage/release-options-in-office-365)
 
 > [!TIP]
-> 다른 관리 센터의 진행 상황에 관심이 있나요? 다음 문서를 확인해보아야 합니다.<br>[Microsoft 365 관리 센터의 새로운](/office365/admin/whats-new-in-preview)<br>[SharePoint 관리 센터의 새로운](/sharepoint/what-s-new-in-admin-center)<br>[Microsoft 365 Defender의 새로운 기능](../security/mtp/whats-new.md)<br><br>
+> 다른 관리 센터의 진행 상황에 관심이 있나요? 다음 문서를 확인해보아야 합니다.<br>[Microsoft 365 관리 센터의 새로운](/office365/admin/whats-new-in-preview)<br>[SharePoint 관리 센터의 새로운](/sharepoint/what-s-new-in-admin-center)<br>[Microsoft 365 Defender의 새로운 기능](../security/defender/whats-new.md)<br><br>
 또한 [Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) 로드맵을 방문하여 시작, 배포 중, 개발 중, 취소 또는 이전에 릴리스된 Microsoft 365 기능에 대해 자세히 알아보습니다.
 
 ## <a name="january-2021"></a>2021년 1월
@@ -66,7 +66,7 @@ Microsoft 365 규정 준수 콘텐츠 팀은 규정 준수 기능을 함께 사�
 - [내부자 위험 솔루션에 대한 새 방문 페이지입니다.](insider-risk-solution-overview.md) 솔루션이 완화하는 데 도움이 될 수 있는 위험에 대한 세부 정보, 라이선스 요구 사항, 배포 시퀀스, 아키텍처 일러스트레이션, 교육 리소스 등
 - 각 내부자 위험 솔루션에 대한 새로운 개요 문서입니다. 각 솔루션을 학습, 계획, 배포 및 관리하는 데 도움이 되는 문서에 대한 지침 및 링크:
   - [커뮤니케이션 규정 준수](communication-compliance-solution-overview.md)
-  - [내부자 위험 관리](insider-risk-management-solution-overview.md)
+  - [내부 위험 관리](insider-risk-management-solution-overview.md)
   - [정보 장벽](information-barriers-solution-overview.md)
   - [권한이 부여된 액세스 관리](privileged-access-management-solution-overview.md)
   
@@ -78,7 +78,7 @@ Microsoft 365 규정 준수 콘텐츠 팀은 규정 준수 기능을 함께 사�
 
 ### <a name="data-connectors"></a>데이터 커넥터
 
-[4개의 새로운 Globanet](archiving-third-party-data.md#third-party-data-connectors)커넥터가 출시되었습니다. Redtail Speak, Salesforce Chatter, ServiceNow 및 Yieldbroker.
+[4개의 새로운 Veritas](archiving-third-party-data.md#third-party-data-connectors)커넥터가 출시되었습니다. Redtail Speak, Salesforce Chatter, ServiceNow 및 Yieldbroker.
 
 ### <a name="encryption"></a>암호화
 
@@ -114,7 +114,7 @@ Microsoft 365 규정 준수 콘텐츠 팀은 규정 준수 기능을 함께 사�
 
 eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수 있도록 Microsoft 365 [](ediscovery-decryption.md) eDiscovery 도구에는 이제 전자 메일 메시지에 첨부되고 Exchange에서 전송되는 암호화된 파일의 암호 해독이 통합되어 있습니다. 또한 SharePoint 및 OneDrive에 저장된 암호화된 문서는 Advanced eDiscovery에서 암호 해독됩니다.
 
-### <a name="compliance-manager"></a>규정 준수 관리자
+### <a name="compliance-manager"></a>규정 관리자
 
 - [Microsoft 365 Government 구독에 대한 지원.](compliance-manager.md) 규정 준수 관리자는 이제 미국 GCC(정부 커뮤니티) 보통 및 높음 고객이 사용할 수 있습니다.
 - [준수 관리자에 대한 Microsoft 준수 구성 분석기.](compliance-manager-mcca.md) 조직의 현재 구성을 검사하고 Microsoft 365 권장 모범 사례에 대해 유효성을 검사하여 준수 관리자를 시작하는 데 도움이 되는 새로운 PowerShell 기반 도구입니다.
@@ -122,7 +122,7 @@ eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수
 
 ### <a name="data-connectors"></a>데이터 커넥터
 
-미리 보기의 5개의 새로운 [Globanet 커넥터.](archiving-third-party-data.md#third-party-data-connectors) 새 커넥터에는 Reuters Dealing, Reuters FX, CellTrust, XIP, 일반 MS SQL 포함됩니다.
+[미리 보기의 새 Veritas 커넥터 5개](archiving-third-party-data.md#third-party-data-connectors) 새 커넥터에는 Reuters Dealing, Reuters FX, CellTrust, XIP, 일반 MS SQL 포함됩니다.
 
 ### <a name="retention-labels-disposition-review"></a>보존 레이블(삭제 검토)
 
@@ -169,10 +169,10 @@ eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수
 
 ### <a name="data-connectors"></a>데이터 커넥터
 
-- [새 타사 데이터 커넥터](archiving-third-party-data.md#third-party-data-connectors). 25개 새 데이터 커넥터(Globanet의 커넥터 14개와 Telemessage의 8개 커넥터 포함)
+- [새 타사 데이터 커넥터](archiving-third-party-data.md#third-party-data-connectors). 새 데이터 커넥터 25개(Veritas의 커넥터 14개와 Telemessage의 8개 커넥터 포함)
 - [물리적 배지 커넥터](import-physical-badging-data.md). 직원의 원시 물리적 액세스 이벤트 또는 조직의 배지 시스템에 의해 생성된 물리적 액세스 알람과 같은 물리적 배지 데이터를 가져올 수 있습니다. 예를 들어 건물, 서버 방 또는 데이터 센터에 대한 항목이 포함됩니다. 내부자 위험 관리 솔루션에서 물리적 배지 데이터를 사용하여 조직 내부의 악의적인 활동이나 데이터 도용으로부터 조직을 보호할 수 있습니다.
 
-### <a name="insider-risk-management"></a>내부자 위험 관리
+### <a name="insider-risk-management"></a>내부 위험 관리
 
 - [Microsoft Teams 통합](insider-risk-management-settings.md#microsoft-teams-preview). 내부자 위험 설정에서 Teams 통합이 설정되어 있는 경우 개별 사례와 관련된 데이터를 안전하게 공유 및 저장하고 분석가 및 조사자의 응답 활동을 추적하고 검토하는 등 Teams의 다른 이해 관계자와 협력할 수 있습니다.
 - [전원 자동화 흐름](insider-risk-management-settings.md#power-automate-flows-preview). 관련자 및 기타 앱과 공유하기 위해 사용자, 경고 및 사례 정보 검색, 사례 메모에 게시 등의 작업을 자동화하는 등 사례 및 사용자에 대한 중요한 작업을 자동화하는 흐름을 설정하세요.
@@ -191,7 +191,7 @@ eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수
 
 [미국 정부 고객에 대한 지원.](/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description) 이제 GCC, GCC High 및 DoD 고객에게 민감도 레이블이 지원되고 Azure Information Protection 통합 레이블 클라이언트 및 스캐너에만 지원됩니다.
 
-### <a name="trainable-classifiers"></a>교육 가능한 분류자
+### <a name="trainable-classifiers"></a>학습 가능한 분류자
 
 새로운 재 교육 및 피드백 기능은 정확도를 개선하고 모든 사용자 지정 분류자 및 사전 학습된 일부 분류자에 대한 가양성 일치를 최소화하는 데 도움이 됩니다. 이 흐름을 통해 항목이 특정 분류자와 일치하는지 여부에 대한 피드백을 제공하고, 항목과 연결하기 위한 다른 분류자 제안, 일치 정확도를 구체화 및 개선하기 위한 분류자 재조정을 할 수 있습니다.
 
@@ -210,7 +210,7 @@ eDiscovery 워크플로에서 암호화된 콘텐츠를 더 쉽게 관리할 수
 
 이번 달에는 몇 가지 신규 및 향상된 기능이 공개 미리 보기에 적중되었습니다.
 
-**내부자 위험 관리**
+**내부 위험 관리**
 
 - 6개의 새 정책 [템플릿을 확인 합니다.](insider-risk-management-policies.md#policy-templates)
     - 우선 순위 사용자에 의해 데이터 누수

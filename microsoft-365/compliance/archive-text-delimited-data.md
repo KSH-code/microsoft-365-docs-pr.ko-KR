@@ -11,17 +11,17 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: 관리자는 Globanet에서 Microsoft 365로 텍스트로분할된 데이터를 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 Microsoft 365에 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 00003cbd897cc80b0596dbb7e5988f010cd7f7e2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 관리자는 텍스트로분할된 데이터를 Veritas에서 Microsoft 365로 가져오고 보관하는 커넥터를 설정할 수 있습니다. 이 커넥터를 사용하면 타사 데이터 원본의 데이터를 Microsoft 365에 보관할 수 있습니다. 이 데이터를 보관한 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용하여 타사 데이터를 관리할 수 있습니다.
+ms.openlocfilehash: 9a8265766dd08a78c3f218710a3bc4b623f7f670
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925012"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51163942"
 ---
 # <a name="set-up-a-connector-to-archive-text-delimited-data"></a>텍스트로분된 데이터를 보관할 커넥터 설정
 
-Microsoft 365 규정 준수 센터의 Globanet 커넥터를 사용하여 Microsoft 365 조직의 사용자 사서함에 텍스트로분할된 데이터를 가져오고 보관합니다. Globanet은 [](https://globanet.com/text-delimited) 타사 데이터 원본의 항목을 정기적으로 캡처하고 해당 항목을 Microsoft 365로 가져오도록 구성된 텍스트로 구성된 커넥터를 제공합니다. 커넥터는 텍스트로분된 데이터 원본의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 이러한 항목을 Microsoft 365의 사용자 사서함으로 가져올 수 있습니다.
+Microsoft 365 규정 준수 센터의 Veritas 커넥터를 사용하여 Microsoft 365 조직의 사용자 사서함에 텍스트로분할된 데이터를 가져오고 보관합니다. Veritas는 [](https://globanet.com/text-delimited) 타사 데이터 원본에서 항목을 캡처하고(정기적으로) 해당 항목을 Microsoft 365로 가져오도록 구성된 텍스트로 구성된 커넥터를 제공합니다. 커넥터는 텍스트로분된 데이터 원본의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 이러한 항목을 Microsoft 365의 사용자 사서함으로 가져올 수 있습니다.
 
 텍스트로 분류된 데이터를 사용자 사서함에 저장한 후 소송 보존, eDiscovery, 보존 정책 및 보존 레이블과 같은 Microsoft 365 규정 준수 기능을 적용할 수 있습니다. 텍스트로분된 데이터 커넥터를 사용하여 Microsoft 365에서 데이터를 가져오고 보관하면 조직이 정부 및 규제 정책을 준수하는 데 도움이 될 수 있습니다.
 
@@ -33,15 +33,15 @@ Microsoft 365 규정 준수 센터의 Globanet 커넥터를 사용하여 Microso
 
 1. 조직은 텍스트로 구성된 원본과 함께 작업하여 텍스트로 구성된 사이트를 설정하고 구성합니다.
 
-2. 24시간마다 텍스트로 나누는 원본의 채팅 메시지가 Globanet Merge1 사이트에 복사됩니다. 또한 커넥터는 콘텐츠를 전자 메일 메시지 형식으로 변환합니다.
+2. 24시간마다 텍스트로 나누는 원본의 채팅 메시지가 Veritas Merge1 사이트에 복사됩니다. 또한 커넥터는 콘텐츠를 전자 메일 메시지 형식으로 변환합니다.
 
-3. Microsoft 365 규정 준수 센터에서 만드는 텍스트로 나타남 커넥터는 매일 Globanet Merge1 사이트에 연결하고 메시지를 Microsoft 클라우드의 보안 Azure Storage 위치로 전송합니다.
+3. Microsoft 365 규정 준수 센터에서 만든 텍스트로 나타났습니다 커넥터는 매일 Veritas Merge1 사이트에 연결하고 메시지를 Microsoft 클라우드의 보안 Azure Storage 위치로 전송합니다.
 
 4. 커넥터는 3단계에 설명된 자동 사용자 매핑의 *Email* 속성 값을 사용하여 변환된 메시지 항목을 특정 사용자의 사서함으로 가져올 수 있습니다. 받은 편지함 폴더의 **Text- Delimited라는** 새 하위 폴더가 사용자 사서함에 만들어지며 메시지 항목을 해당 폴더로 가져오게 됩니다. 커넥터는 Email 속성 값을 사용하여 항목을 가져올 사서함을 결정할 *수* 있습니다. 모든 메시지에는 모든 참가자의 전자 메일 주소로 채워지는 이 속성이 포함되어 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- Microsoft 커넥터에 대한 Globanet Merge1 계정을 생성합니다. 이 계정을 만들하려면 [Globanet 고객 지원에 문의하세요.](https://globanet.com/ms-connectors-contact) 1단계에서 커넥터를 만들 때 이 계정에 로그인합니다.
+- Microsoft 커넥터에 대한 Veritas Merge1 계정을 생성합니다. 이 계정을 만들하려면 [Veritas 고객 지원에 문의하세요.](https://globanet.com/ms-connectors-contact) 1단계에서 커넥터를 만들 때 이 계정에 로그인합니다.
 
 - 1단계에서 텍스트로분된 커넥터를 만들고 3단계에서 완료하는 사용자는 Exchange Online의 사서함 가져오기 내보내기 역할에 할당되어야 합니다. 이 역할은 Microsoft 365 규정 준수 센터의 데이터 커넥터 페이지에서 커넥터를 추가하는 데 필요합니다.  기본적으로 이 역할은 Exchange Online의 역할 그룹에 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange [](/Exchange/permissions-exo/role-groups#create-role-groups) Online에서 [](/Exchange/permissions-exo/role-groups#modify-role-groups) 역할 그룹 관리" 문서의 역할 그룹 만들기 또는 역할 그룹 수정 섹션을 참조하세요.
 
@@ -59,9 +59,9 @@ Microsoft 365 규정 준수 센터의 Globanet 커넥터를 사용하여 Microso
 
 5. Merge1 계정에 로그인하여 커넥터를 구성합니다.
 
-## <a name="step-2-configure-the-text-delimited-connector-on-the-globanet-merge1-site"></a>2단계: Globanet Merge1 사이트에서 텍스트로 구성된 커넥터 구성
+## <a name="step-2-configure-the-text-delimited-connector-on-the-veritas-merge1-site"></a>2단계: Veritas Merge1 사이트에서 텍스트로 구성된 커넥터 구성
 
-두 번째 단계는 Merge1 사이트에서 텍스트로 구성된 커넥터를 구성하는 것입니다. Globanet Merge1 사이트에서 텍스트로분할된 커넥터를 구성하는 데 대한 자세한 내용은 [Merge1 Third-Party Connectors User Guide를 참조하십시오.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20text-delimited%20User%20Guide%20.pdf)
+두 번째 단계는 Merge1 사이트에서 텍스트로 구성된 커넥터를 구성하는 것입니다. Veritas Merge1 사이트에서 텍스트로분할된 커넥터를 구성하는 데 대한 자세한 내용은 [Merge1 Third-Party Connectors User Guide를 참조하십시오.](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20text-delimited%20User%20Guide%20.pdf)
 
 저장 및 & **마친** 후  Microsoft 365 규정 준수 센터의 커넥터 마법사에 있는 사용자 매핑 페이지가 표시됩니다.
 

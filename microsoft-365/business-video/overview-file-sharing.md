@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스 파일을 공유하는 방법에 대한 개요입니다.
-ms.openlocfilehash: b481e7564625fcd019a53ba9116acdb724b4af61
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 6066bb2b1f1ea4fb4fac6a2d9d08dbd19d6cb7b0
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422366"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164600"
 ---
 # <a name="overview-of-sharing-business-files"></a>비즈니스 파일 공유 개요
 
@@ -33,6 +33,10 @@ ms.locfileid: "50422366"
 
 |![안전하게 공유](../media/securely-share-file.png)<br/>[회사 외부의 사용자와 파일 공유](#share-a-file-with-someone-outside-of-your-company)|![클라이언트와 공동 작업](../media/share-and-collab-with-partner.png) <br/>[클라이언트 또는 비즈니스 파트너와 공유 및 공동 작업](#share-and-collaborate-with-a-client-or-business-partner) | ![Org 내부 공유](../media/share-inside-your-org.png) <br/>[비즈니스 내부 공유](#share-inside-your-business) |
 |--|--|--|
+
+인포그래픽을 다운로드하여 비즈니스 파일을 공유하는 방법에 대한 간략한 개요를 확인할 수 있습니다. 
+
+[PDF](https://go.microsoft.com/fwlink/?linkid=2079435)  |  [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079438)
 
 ## <a name="share-a-file-with-someone-outside-of-your-company"></a>회사 외부의 사용자와 파일 공유
 
@@ -68,7 +72,3 @@ ms.locfileid: "50422366"
 - [OneDrive와 파일 및 폴더 공유](https://support.microsoft.com/en-us/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65)
 - [회사 전체 팀 만들기](https://support.microsoft.com/en-us/office/create-an-org-wide-team-037bb27a-bcc9-48fe-8d72-44d9482420a3)
 - [팀에 게스트 추가](https://support.microsoft.com/en-us/office/add-guests-to-a-team-in-teams-fccb4fa6-f864-4508-bdde-256e7384a14f)
-
-인포그래픽을 다운로드하여 비즈니스 파일을 공유하는 방법에 대한 간략한 개요를 확인할 수 있습니다. 
-
-[PDF](https://go.microsoft.com/fwlink/?linkid=2079435)  |  [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079438)

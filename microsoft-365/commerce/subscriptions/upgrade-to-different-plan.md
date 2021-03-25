@@ -20,12 +20,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 다른 계획으로 업그레이드하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 62d6da5713a7785fde9e795bc22956d73616c3c3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5f853dcd0d247a6422489cbe5d0287765bfd72a6
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924317"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164452"
 ---
 # <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드
 
@@ -92,7 +92,7 @@ ms.locfileid: "50924317"
 
 #### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>라이선스보다 더 많은 사용자가 있기 때문에 지금 구독을 업그레이드할 수 없습니다.
 
-계획을 자동으로 업그레이드하려면 모든 사용자에게 유효한 라이선스가 할당되어 있어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../admin/manage/resolve-license-conflicts.md). 라이선스 충돌을 해결한 후 업그레이드 탭에 계획이 **나열됩니다.** 그렇지 않은 경우 [](change-plans-manually.md)요금제 수동 또는 [지원에 문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
+계획을 자동으로 업그레이드하려면 모든 사용자에게 유효한 라이선스가 할당되어 있어야 합니다. 구매한 것보다 많은 라이선스를 할당한 경우 <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지에 해결해야 할 라이선스 충돌이 있다고 알리는 알림이 표시됩니다. [라이선스 충돌 해결 방법을 알아보세요](../../commerce/licenses/buy-licenses.md). 라이선스 충돌을 해결한 후 업그레이드 탭에 계획이 **나열됩니다.** 그렇지 않은 경우 [](change-plans-manually.md)요금제 수동 또는 [지원에 문의할 수 있습니다.](../../admin/contact-support-for-business-products.md)
 
 #### <a name="you-cant-upgrade-subscriptions-right-now-because-this-subscription-isnt-fully-set-up-or-the-service-isnt-available"></a>이 구독이 완전히 설정되지 않은 경우나 서비스를 사용할 수 없는 경우 지금 구독을 업그레이드할 수 없습니다.
 

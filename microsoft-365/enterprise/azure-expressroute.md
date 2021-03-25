@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 6d2534a2-c19c-4a99-be5e-33a0cee5d3bd
 description: Office 365에서 Azure ExpressRoute를 사용하는 방법을 알아보고 이를 사용하여 배포하는 경우 네트워크 구현 프로젝트를 계획합니다.
-ms.openlocfilehash: 7e44feefd375088d2fef36c7e7859e242c1a30aa
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 788bdb45fe2d3c8a01315aac0db371b57577aeb8
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905359"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164988"
 ---
 # <a name="azure-expressroute-for-office-365"></a>Office 365용 Azure Express 경로
 
@@ -35,8 +35,9 @@ ms.locfileid: "50905359"
 
 Office 365에서 Azure ExpressRoute를 사용하는 방법 및 Office 365에서 사용하기 위해 Azure ExpressRoute를 배포하는 경우 필요한 네트워크 구현 프로젝트를 계획하는 방법을 설명합니다. Azure에서 실행되는 인프라 및 플랫폼 서비스는 네트워크 아키텍처 및 성능 고려 사항을 해결하여 종종 이점을 제공합니다. 이러한 경우 Azure용 ExpressRoute를 권장합니다. Office 365 및 Dynamics 365와 같은 서비스로 제공되는 소프트웨어는 인터넷을 통해 안전하고 안정적으로 액세스할 수 있도록 구축되어 있습니다. Office [365](assessing-network-connectivity.md)네트워크 연결 평가 문서에서 인터넷 성능 및 보안 및 Office 365용 Azure ExpressRoute를 고려할 수 있는 경우를 읽을 수 있습니다.
 
-> [!NOTE]
-> Office 365용 ExpressRoute를 사용하려면 Microsoft 권한 부여가 필요합니다. Microsoft는 고객의 규정 요구 사항에 따라 직접 연결을 요구할 때 모든 고객 요청을 검토하고 Office 365 사용에 대한 ExpressRoute를 승인합니다. 이러한 요구 사항이 있는 경우 Microsoft 검토를 시작하려면 [Office 365용 ExpressRoute](https://aka.ms/O365ERReview) 요청 양식에 직접 연결이 필요하다는 의미로 해석되는 규정에 대한 텍스트 발췌 및 웹 링크를 제공하세요. Office 365에 대한 경로 필터를 만들려고 하는 권한이 없는 구독에 오류 메시지가 [표시됩니다.](https://support.microsoft.com/kb/3181709)
+>[!NOTE]
+>Microsoft는 Microsoft 365용 ExpressRoute를 권장하지 않으며 거의 모든 상황에서 서비스에 대한 최상의 연결 모델을 제공하지 않습니다. 따라서 서비스에 이 연결 모델을 사용하려면 Microsoft 권한 부여가 필요합니다. Microsoft는 모든 고객 요청을 검토하고 필요한 드문 시나리오에서만 Microsoft 365용 ExpressRoute를 승인합니다. 자세한 내용은 [Microsoft 365용 ExpressRoute](https://aka.ms/erguide) 가이드를 읽고 Microsoft 계정 팀과 함께 이 가이드의 포괄적인 검토에 따라 필요한 경우 예외를 제출하세요.
+Microsoft 365에 대한 경로 필터를 만들려고 하는 권한이 없는 구독에 오류 메시지가 [표시됩니다.](https://support.microsoft.com/kb/3181709)
 
 이제 선택한 Office 365 네트워크 트래픽에 대해 Office 365에 직접 네트워크 연결을 추가할 수 있습니다. Azure ExpressRoute는 직접 연결, 예측 가능한 성능을 제공하며 Microsoft 네트워킹 구성 요소에 대해 99.95%의 UPTIME SLA를 제공합니다. Azure ExpressRoute를 통해 지원되지 않는 서비스에 대한 인터넷 연결이 계속 필요합니다.
 
@@ -102,7 +103,7 @@ Office 365용 ExpressRoute를 구입하려면 하나 이상의 승인된 [](/azu
 
 [Office 365용 ExpressRoute에 등록할 준비가 되나요?](https://aka.ms/ert)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365 네트워크 연결 평가](assessing-network-connectivity.md) 
 

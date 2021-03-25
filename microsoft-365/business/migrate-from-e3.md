@@ -22,14 +22,14 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 E3에서 Microsoft 365 Business Premium으로 비즈니스를 이동하는 방법을 학습합니다.
-ms.openlocfilehash: f655037891bf8ec42e7b927256025c89c9354e98
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3f9fd70b2d31b32027981e638de249d92e98ea08
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912945"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164536"
 ---
-# <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Office 365 E3에서 Microsoft 365 Business Premium으로 마이그레이션 
+# <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Office 365 E3에서 Microsoft 365 Business Premium으로 마이그레이션
 
 Microsoft 365 Business Premium에는 동급 최고의 클라우드 기반 생산성 앱을 간단한 장치 관리 및 보안과 결합하여 중소기업에 필요한 모든 것이 있습니다. 현재 Office 365 E3 구독이 있지만 직원이 300명을 넘지 않는 경우 추가 보안 기능을 위해 Microsoft 365 Business Premium으로 전환하는 것이 있습니다.
 
@@ -49,7 +49,7 @@ Microsoft 365 Business Premium에는 동급 최고의 클라우드 기반 생산
 | 비즈니스용 OneDrive    | 사용자당 1 TB 저장소 제한    | 무제한 | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | ![Office 365 E3에 포함](../media/check-mark.png) | 
 | StaffHub    | ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | ![Office 365 E3에 포함](../media/check-mark.png) | 
-| Outlook Customer Manager, MileIQ    | ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | | 
+| Outlook Customer Manager    | ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | | 
 | **위협 방지**        | | | 
 | Office 365용 Defender 플랜 1 | ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | 포함되지 않지만 에 추가할 수 있습니다. | 
 | **ID 관리**        | | | 
@@ -122,7 +122,7 @@ Microsoft 365 Business Premium의 저장소 제한은 50GB로, Exchange Online �
 
 ### <a name="threat-protection"></a>위협 방지
 
-Microsoft 365 Business Premium으로 마이그레이션한 후 Office 365용 Defender가 있습니다. 개요는 [Microsoft Defender for Office 365를](../security/office-365-security/office-365-atp.md) 참조하세요. 설정하는 내용은 [안전한](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)링크 [설정,](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)안전한 첨부 파일 설정 및 [Office 365용 Defender에서](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)피싱 방지 설정 을 참조하세요.
+Microsoft 365 Business Premium으로 마이그레이션한 후 Office 365용 Defender가 있습니다. 개요는 [Microsoft Defender for Office 365를](../security/defender-365-security/defender-for-office-365.md) 참조하세요. 설정하는 내용은 [안전한](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)링크 [설정,](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)안전한 첨부 파일 설정 및 [Office 365용 Defender에서](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)피싱 방지 설정 을 참조하세요.
 
 ### <a name="sensitivity-labels"></a>민감도 레이블
 

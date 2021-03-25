@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365가 어디에서나 작업하는 데 도움이 되는 방법에 대한 개요입니다.
-ms.openlocfilehash: 7c3a0ee4b69f7fa4e07064f0adc108afe70bd54d
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: f68c2f4b05437dd5cb29a3588a4878f464c5566a
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421684"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164564"
 ---
 # <a name="work-from-anywhere---overview"></a>어디서나 작업 - 개요
 
@@ -33,7 +33,11 @@ ms.locfileid: "50421684"
 
 **Pro 팁:** 개인 장치에서 작업 앱에 대한 알림을 해제하여 작업 수명 균형을 체크 인합니다.
 
-아래 네 가지 팁을 사용하여 어디서나 작업하기 위한 팁을 다운로드하세요. [PDF,](https://go.microsoft.com/fwlink/?linkid=2079451) [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079455)
+아래 네 가지 팁을 사용하여 어디서나 작업할 수 있습니다.
+
+인포그래픽을 다운로드하여 어디에서나 작업하기 위한 팁을 얻습니다. 
+
+[PDF](https://go.microsoft.com/fwlink/?linkid=2079451)  |  [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079455)
 
 **집에서 정기적으로 일하고 있나요?**
 
