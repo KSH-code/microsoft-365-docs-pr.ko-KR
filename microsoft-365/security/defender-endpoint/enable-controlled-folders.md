@@ -14,12 +14,12 @@ ms.author: ellevin
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: a35c18d805ef3645659f49b8340cbb4cabab2f8d
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 6d07e2a21bb01794990160cf02837fc524008098
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165072"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218763"
 ---
 # <a name="enable-controlled-folder-access"></a>제어된 폴더 액세스 사용
 
@@ -141,4 +141,4 @@ ms.locfileid: "51165072"
 
 * [제어된 폴더 액세스로 중요한 폴더 보호](controlled-folders.md)
 * [제어된 폴더 액세스 사용자 지정](customize-controlled-folders.md)
-* [끝점에 대한 Microsoft Defender 평가](evaluate-atp.md)
+* [끝점에 대한 Microsoft Defender 평가](evaluate-mde.md)
