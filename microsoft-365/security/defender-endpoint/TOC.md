@@ -583,3 +583,7 @@
 #### [공격 표면 감소 문제 해결]()
 ##### [네트워크 보호](troubleshoot-np.md)
 ##### [공격 표면 감소 규칙](troubleshoot-asr.md)
+
+# [Microsoft 365 보안](../index.yml)
+# [Microsoft 365 Defender](../defender/index.yml)
+# [Office 365용 Defender](../office-365-security/overview.md)

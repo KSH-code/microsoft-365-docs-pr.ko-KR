@@ -17,58 +17,59 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d54ab8eaa1e17be82752c480c963d3a24af56389
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a04f3be1f13fb57cd76cda7115d014f2ba3aa8d6
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187580"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198836"
 ---
-# <a name="create-indicators"></a><span data-ttu-id="1feb3-104">표시기 만들기</span><span class="sxs-lookup"><span data-stu-id="1feb3-104">Create indicators</span></span>
+# <a name="create-indicators"></a><span data-ttu-id="f6126-104">표시기 만들기</span><span class="sxs-lookup"><span data-stu-id="f6126-104">Create indicators</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="1feb3-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="1feb3-105">**Applies to:**</span></span>
-- [<span data-ttu-id="1feb3-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="1feb3-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="1feb3-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="1feb3-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="f6126-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="f6126-105">**Applies to:**</span></span>
+- [<span data-ttu-id="f6126-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="f6126-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="f6126-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f6126-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-> <span data-ttu-id="1feb3-108">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="1feb3-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="1feb3-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
+> [!TIP]
+> <span data-ttu-id="f6126-108">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="f6126-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="f6126-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
-<span data-ttu-id="1feb3-110">IoC(손상 표시기) 일치는 모든 끝점 보호 솔루션에서 필수적인 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-110">Indicator of compromise (IoCs) matching is an essential feature in every endpoint protection solution.</span></span> <span data-ttu-id="1feb3-111">SecOps는 이 기능을 통해 검색 및 차단(예방 및 응답)에 대한 표시기 목록을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-111">This capability gives SecOps the ability to set a list of indicators for detection and for blocking (prevention and response).</span></span>
+<span data-ttu-id="f6126-110">IoC(손상 표시기) 일치는 모든 끝점 보호 솔루션에서 필수적인 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-110">Indicator of compromise (IoCs) matching is an essential feature in every endpoint protection solution.</span></span> <span data-ttu-id="f6126-111">SecOps는 이 기능을 통해 검색 및 차단(예방 및 응답)에 대한 표시기 목록을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-111">This capability gives SecOps the ability to set a list of indicators for detection and for blocking (prevention and response).</span></span>
 
-<span data-ttu-id="1feb3-112">엔터티의 검색, 방지 및 제외를 정의하는 표시기를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-112">Create indicators that define the detection, prevention, and exclusion of entities.</span></span> <span data-ttu-id="1feb3-113">수행되는 작업과 작업을 적용할 기간 및 적용할 장치 그룹의 범위를 정의할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-113">You can define the action to be taken as well as the duration for when to apply the action as well as the scope of the device group to apply it to.</span></span>
+<span data-ttu-id="f6126-112">엔터티의 검색, 방지 및 제외를 정의하는 표시기를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-112">Create indicators that define the detection, prevention, and exclusion of entities.</span></span> <span data-ttu-id="f6126-113">수행되는 작업과 작업을 적용할 기간 및 적용할 장치 그룹의 범위를 정의할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-113">You can define the action to be taken as well as the duration for when to apply the action as well as the scope of the device group to apply it to.</span></span>
 
-<span data-ttu-id="1feb3-114">현재 지원되는 원본은 Endpoint용 Defender의 클라우드 검색 엔진, 자동화된 조사 및 수정 엔진 및 끝점 방지 엔진(Microsoft Defender AV)입니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-114">Currently supported sources are the cloud detection engine of Defender for Endpoint, the automated investigation and remediation engine, and the endpoint prevention engine (Microsoft Defender AV).</span></span>
+<span data-ttu-id="f6126-114">현재 지원되는 원본은 Endpoint용 Defender의 클라우드 검색 엔진, 자동화된 조사 및 수정 엔진 및 끝점 방지 엔진(Microsoft Defender 바이러스 백신)입니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-114">Currently supported sources are the cloud detection engine of Defender for Endpoint, the automated investigation and remediation engine, and the endpoint prevention engine (Microsoft Defender Antivirus).</span></span>
 
-<span data-ttu-id="1feb3-115">**클라우드 검색 엔진**</span><span class="sxs-lookup"><span data-stu-id="1feb3-115">**Cloud detection engine**</span></span><br>
-<span data-ttu-id="1feb3-116">Endpoint용 Defender의 클라우드 검색 엔진은 정기적으로 수집된 데이터를 검색하고 설정한 지표와 일치를 합니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-116">The cloud detection engine of Defender for Endpoint regularly scans collected data and tries to match the indicators you set.</span></span> <span data-ttu-id="1feb3-117">일치하는 경우 IoC에 대해 지정한 설정에 따라 작업이 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-117">When there is a match, action will be taken according to the settings you specified for the IoC.</span></span>
+<span data-ttu-id="f6126-115">**클라우드 검색 엔진**</span><span class="sxs-lookup"><span data-stu-id="f6126-115">**Cloud detection engine**</span></span><br>
+<span data-ttu-id="f6126-116">Endpoint용 Defender의 클라우드 검색 엔진은 정기적으로 수집된 데이터를 검색하고 설정한 지표와 일치를 합니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-116">The cloud detection engine of Defender for Endpoint regularly scans collected data and tries to match the indicators you set.</span></span> <span data-ttu-id="f6126-117">일치하는 경우 IoC에 대해 지정한 설정에 따라 작업이 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-117">When there is a match, action will be taken according to the settings you specified for the IoC.</span></span>
 
-<span data-ttu-id="1feb3-118">**끝점 방지 엔진**</span><span class="sxs-lookup"><span data-stu-id="1feb3-118">**Endpoint prevention engine**</span></span><br>
-<span data-ttu-id="1feb3-119">동일한 표시기 목록은 방지 에이전트에 의해 존중됩니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-119">The same list of indicators is honored by the prevention agent.</span></span> <span data-ttu-id="1feb3-120">즉, Microsoft Defender AV가 구성된 기본 AV인 경우 일치하는 표시기가 설정에 따라 처리됩니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-120">Meaning, if Microsoft Defender AV is the primary AV configured, the matched indicators will be treated according to the settings.</span></span> <span data-ttu-id="1feb3-121">예를 들어 작업이 "경고 및 차단"이면 Microsoft Defender AV는 파일 실행(차단 및 재구성)을 방지하고 해당 경고가 발생됩니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-121">For example, if the action is "Alert and Block", Microsoft Defender AV will prevent file executions (block and remediate) and a corresponding alert will be raised.</span></span> <span data-ttu-id="1feb3-122">반면 동작이 "허용"으로 설정된 경우 Microsoft Defender AV는 파일을 검색하거나 실행하지 못하도록 차단하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-122">On the other hand, if the Action is set to "Allow", Microsoft Defender AV will not detect nor block the file from being run.</span></span>
+<span data-ttu-id="f6126-118">**끝점 방지 엔진**</span><span class="sxs-lookup"><span data-stu-id="f6126-118">**Endpoint prevention engine**</span></span><br>
+<span data-ttu-id="f6126-119">동일한 표시기 목록은 방지 에이전트에 의해 존중됩니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-119">The same list of indicators is honored by the prevention agent.</span></span> <span data-ttu-id="f6126-120">즉, Microsoft Defender AV가 구성된 기본 AV인 경우 일치하는 표시기가 설정에 따라 처리됩니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-120">Meaning, if Microsoft Defender AV is the primary AV configured, the matched indicators will be treated according to the settings.</span></span> <span data-ttu-id="f6126-121">예를 들어 작업이 "경고 및 차단"이면 Microsoft Defender AV는 파일 실행(차단 및 재구성)을 방지하고 해당 경고가 발생됩니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-121">For example, if the action is "Alert and Block", Microsoft Defender AV will prevent file executions (block and remediate) and a corresponding alert will be raised.</span></span> <span data-ttu-id="f6126-122">반면 동작이 "허용"으로 설정된 경우 Microsoft Defender AV는 파일을 검색하거나 실행하지 못하도록 차단하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-122">On the other hand, if the Action is set to "Allow", Microsoft Defender AV will not detect nor block the file from being run.</span></span>
 
-<span data-ttu-id="1feb3-123">**자동화된 조사 및 수정 엔진**</span><span class="sxs-lookup"><span data-stu-id="1feb3-123">**Automated investigation and remediation engine**</span></span><BR>
-<span data-ttu-id="1feb3-124">자동화된 조사 및 수정은 동일하게 행동합니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-124">The automated investigation and remediation behave the same.</span></span> <span data-ttu-id="1feb3-125">표시기가 "허용"으로 설정된 경우 자동화된 조사 및 수정은 해당 지표에 대한 "나쁜" 판정을 무시합니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-125">If an indicator is set to "Allow", Automated investigation and remediation will ignore a "bad" verdict for it.</span></span> <span data-ttu-id="1feb3-126">"차단"으로 설정된 경우 자동화된 조사 및 수정은 이를 "불량"으로 취급합니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-126">If set to "Block", Automated investigation and remediation will treat it as "bad".</span></span>
-
-
-<span data-ttu-id="1feb3-127">현재 지원되는 작업은 다음입니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-127">The current supported actions are:</span></span>
-- <span data-ttu-id="1feb3-128">허용</span><span class="sxs-lookup"><span data-stu-id="1feb3-128">Allow</span></span>
-- <span data-ttu-id="1feb3-129">경고만</span><span class="sxs-lookup"><span data-stu-id="1feb3-129">Alert only</span></span>
-- <span data-ttu-id="1feb3-130">경고 및 차단</span><span class="sxs-lookup"><span data-stu-id="1feb3-130">Alert and block</span></span>
+<span data-ttu-id="f6126-123">**자동화된 조사 및 수정 엔진**</span><span class="sxs-lookup"><span data-stu-id="f6126-123">**Automated investigation and remediation engine**</span></span><BR>
+<span data-ttu-id="f6126-124">자동화된 조사 및 수정은 동일하게 행동합니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-124">The automated investigation and remediation behave the same.</span></span> <span data-ttu-id="f6126-125">표시기가 "허용"으로 설정된 경우 자동화된 조사 및 수정은 해당 지표에 대한 "나쁜" 판정을 무시합니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-125">If an indicator is set to "Allow", Automated investigation and remediation will ignore a "bad" verdict for it.</span></span> <span data-ttu-id="f6126-126">"차단"으로 설정된 경우 자동화된 조사 및 수정은 이를 "불량"으로 취급합니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-126">If set to "Block", Automated investigation and remediation will treat it as "bad".</span></span>
 
 
-<span data-ttu-id="1feb3-131">다음에 대한 표시기를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-131">You can create an indicator for:</span></span>
-- [<span data-ttu-id="1feb3-132">파일</span><span class="sxs-lookup"><span data-stu-id="1feb3-132">Files</span></span>](indicator-file.md)
-- [<span data-ttu-id="1feb3-133">IP 주소, URL/도메인</span><span class="sxs-lookup"><span data-stu-id="1feb3-133">IP addresses, URLs/domains</span></span>](indicator-ip-domain.md)
-- [<span data-ttu-id="1feb3-134">인증서</span><span class="sxs-lookup"><span data-stu-id="1feb3-134">Certificates</span></span>](indicator-certificates.md)
+<span data-ttu-id="f6126-127">현재 지원되는 작업은 다음입니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-127">The current supported actions are:</span></span>
+- <span data-ttu-id="f6126-128">허용</span><span class="sxs-lookup"><span data-stu-id="f6126-128">Allow</span></span>
+- <span data-ttu-id="f6126-129">경고만</span><span class="sxs-lookup"><span data-stu-id="f6126-129">Alert only</span></span>
+- <span data-ttu-id="f6126-130">경고 및 차단</span><span class="sxs-lookup"><span data-stu-id="f6126-130">Alert and block</span></span>
 
 
->[!NOTE]
-><span data-ttu-id="1feb3-135">테넌트당 표시기는 15,000개로 제한됩니다.</span><span class="sxs-lookup"><span data-stu-id="1feb3-135">There is a limit of 15,000 indicators per tenant.</span></span>
+<span data-ttu-id="f6126-131">다음에 대한 표시기를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-131">You can create an indicator for:</span></span>
+- [<span data-ttu-id="f6126-132">파일</span><span class="sxs-lookup"><span data-stu-id="f6126-132">Files</span></span>](indicator-file.md)
+- [<span data-ttu-id="f6126-133">IP 주소, URL/도메인</span><span class="sxs-lookup"><span data-stu-id="f6126-133">IP addresses, URLs/domains</span></span>](indicator-ip-domain.md)
+- [<span data-ttu-id="f6126-134">인증서</span><span class="sxs-lookup"><span data-stu-id="f6126-134">Certificates</span></span>](indicator-certificates.md)
 
 
-## <a name="related-topics"></a><span data-ttu-id="1feb3-136">관련 항목</span><span class="sxs-lookup"><span data-stu-id="1feb3-136">Related topics</span></span>
+> [!NOTE]
+> <span data-ttu-id="f6126-135">테넌트당 표시기는 15,000개로 제한됩니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-135">There is a limit of 15,000 indicators per tenant.</span></span> <span data-ttu-id="f6126-136">파일 및 인증서 표시기는 Microsoft Defender 바이러스 백신에 정의된 제외를 [차단하지 않습니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus)</span><span class="sxs-lookup"><span data-stu-id="f6126-136">File and certificate indicators do not block [exclusions defined for Microsoft Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus).</span></span> <span data-ttu-id="f6126-137">Microsoft Defender 바이러스 백신에서 지원되지 않는 표시기는 수동 모드입니다.</span><span class="sxs-lookup"><span data-stu-id="f6126-137">Indicators are not supported in Microsoft Defender Antivirus is in passive mode.</span></span> 
 
-- [<span data-ttu-id="1feb3-137">상황적 IoC 만들기</span><span class="sxs-lookup"><span data-stu-id="1feb3-137">Create contextual IoC</span></span>](respond-file-alerts.md#add-indicator-to-block-or-allow-a-file)
-- [<span data-ttu-id="1feb3-138">끝점 표시기 API에 Microsoft Defender 사용</span><span class="sxs-lookup"><span data-stu-id="1feb3-138">Use the Microsoft Defender for Endpoint indicators API</span></span>](ti-indicator.md)
-- [<span data-ttu-id="1feb3-139">파트너 통합 솔루션 사용</span><span class="sxs-lookup"><span data-stu-id="1feb3-139">Use partner integrated solutions</span></span>](partner-applications.md)
+
+## <a name="related-topics"></a><span data-ttu-id="f6126-138">관련 항목</span><span class="sxs-lookup"><span data-stu-id="f6126-138">Related topics</span></span>
+
+- [<span data-ttu-id="f6126-139">상황적 IoC 만들기</span><span class="sxs-lookup"><span data-stu-id="f6126-139">Create contextual IoC</span></span>](respond-file-alerts.md#add-indicator-to-block-or-allow-a-file)
+- [<span data-ttu-id="f6126-140">끝점 표시기 API에 Microsoft Defender 사용</span><span class="sxs-lookup"><span data-stu-id="f6126-140">Use the Microsoft Defender for Endpoint indicators API</span></span>](ti-indicator.md)
+- [<span data-ttu-id="f6126-141">파트너 통합 솔루션 사용</span><span class="sxs-lookup"><span data-stu-id="f6126-141">Use partner integrated solutions</span></span>](partner-applications.md)
