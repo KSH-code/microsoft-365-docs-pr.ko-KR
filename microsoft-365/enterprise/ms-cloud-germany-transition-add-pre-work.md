@@ -18,80 +18,115 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우 사전 작업입니다.'
-ms.openlocfilehash: 37fde0119dfc84cbe9120cf922cbac469a0a50f1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d05b3fc06c4530a69c49962b0d2b793353033c99
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923841"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165612"
 ---
 # <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 사전 작업
 
 다음 링크를 사용하여 조직과 관련된 사전 작업 단계로 연결합니다.
 
-- 도이클란드 Microsoft 클라우드에서 Office 365를 사용하는 모든 고객의 경우 다음 [단계를 수행합니다.](#applies-to-everyone)
-- Exchange Online 또는 Exchange 하이브리드를 사용하는 경우 이 [단계를 합니다.](#exchange-online)
-- SharePoint Online을 사용하는 경우 이 [단계를 합니다.](#sharepoint-online)
-- 타사 MDM(모바일 장치 관리) 솔루션을 사용하는 경우 이 [단계를 합니다.](#mobile)
-- Office 365와 통합된 타사 서비스 또는 LOB(LOB) 앱을 사용하는 경우 이 [단계를 실행합니다.](#line-of-business-apps)
-- Office 365 구독에 포함된 서비스 이상으로 Azure 서비스를 사용하는 경우 이 [단계를 진행합니다.](#microsoft-azure)
-- Dynamics 365도 사용하는 경우 이 [단계를 진행합니다.](#dynamics365)
-- Power BI도 사용하는 경우 이 [단계를 합니다.](#power-bi)
-- DNS 변경의 경우 이 [단계를 합니다.](#dns)
-- 페더티된 ID를 사용하는 경우 다음 [단계를 수행합니다.](#federated-identity)
+- **도이클란드** Microsoft 클라우드에서 Office 365를 사용하는 모든 고객의 경우 다음 [단계를 수행합니다.](#general-tenant-migration-considerations)
+- DNS **변경의 경우** 이 [단계를 합니다.](#dns)
+- Active **Directory Federation Services를** 사내에서 사용하는 경우 다음 [단계를 수행합니다.](#active-directory-federation-services-ad-fs)
+- **SharePoint Online을 사용 중이면** [을(를) 이 단계를 합니다.](#sharepoint-online)
+- Exchange Online 또는 **Exchange** **하이브리드를** 사용 하는 경우 이 [단계를 합니다.](#exchange-online)
+- If you're using **Skype for Business Online**, do this [step](#skype-for-business-online)
+- 타사 MDM(모바일 장치 관리) 솔루션을 사용하는 경우 이 [단계를 합니다.](#mobile-device-management)
+- Office 365와 통합된 타사 서비스 또는 **LOB(LOB)** 앱을 사용하는 경우 이 [단계를 실행합니다.](#line-of-business-apps) 
+- **Dynamics 365도** 사용하는 경우 이 [단계를 진행합니다.](#dynamics365)
+- Power BI도 사용 **중이면** 이 [단계를 합니다.](#power-bi)
+- Office 365 구독에서 **Azure** 서비스도 사용하는 경우 이 [단계를 진행합니다.](#microsoft-azure)
 
-## <a name="applies-to-everyone"></a>모든 사람에 적용
+## <a name="general-tenant-migration-considerations"></a>일반적인 테넌트 마이그레이션 고려 사항
+
+**다음에 적용됩니다.** 도이클란드 Microsoft 클라우드 인스턴스에서 Office 365를 사용하는 모든 고객
+
+마이그레이션 중에 Office 365 테넌트 및 사용자 식별자가 보존됩니다. Azure AD 서비스 통화는 도이치클란드 Microsoft 클라우드에서 Office 365 전역 서비스로 리디렉션되고 Office 365 서비스로 투명하게 리디렉션됩니다.
+
+- GDPR(일반 데이터 보호 규정) DSR(데이터 주체 요청)은 향후 요청을 위해 Azure 관리 포털에서 실행됩니다. 도이클란드 Microsoft 클라우드에 있는 레거시 또는 비 고객 진단 데이터는 30일 전 또는 30일 전에 삭제됩니다.
+- Microsoft Authenticator를 사용하는 MFA(다단계 인증) 요청은 테넌트가 Office 365 서비스에 복사되는 동안 사용자 ObjectID(GUID)로 표시됩니다. 이러한 표시 동작에도 불구하고 MFA 요청은 예상대로 수행됩니다.  Office 365 서비스 끝점을 사용하여 활성화된 Microsoft Authenticator 계정에 UPN(사용자 계정 이름)이 표시됩니다.  도이치클라드 Microsoft 클라우드 끝점을 사용하여 추가된 계정은 사용자 ObjectID를 표시하지만 도이클란드 Microsoft 클라우드 및 Office 365 서비스 끝점에서 모두 사용할 수 있습니다.
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
 | 마이그레이션 후 클라이언트를 다시 시작하고 클라이언트에서 로그인 및 로그인하는 방법을 사용자에게 알릴 준비를 합니다. | Office 클라이언트 라이선스는 마이그레이션 시 도이치클란드 Microsoft 클라우드에서 Office 365 서비스로 전환됩니다. 클라이언트는 Office 클라이언트에서 로그인한 후 유효한 새 라이선스를 선택 합니다. | 사용자의 Office 제품은 Office 365 서비스에서 라이선스를 새로 고쳐야 합니다. 라이선스를 새로 고치지 않은 경우 Office 제품에서 라이선스 유효성 검사 오류가 발생할 수 있습니다. |
-| [Office 365](./urls-and-ip-address-ranges.md)서비스 URL 및 IP 주소에 대한 네트워크 연결을 확인합니다. | Office 365 서비스에 액세스하는 데 사용되는 고객이 호스팅하는 모든 클라이언트 및 서비스는 Office 365 전역 서비스 끝점에 액세스할 수 있어야 합니다. <br>사용자 또는 공동 작업 파트너가 Office 365 서비스 URL 및 IP 주소에 나열된 URL 및 IP 주소에 액세스하지 못하게 하는 방화벽 규칙이 있는 경우 [Office 365](./urls-and-ip-address-ranges.md) 전역 서비스 끝점에 대한 액세스를 허용하는 방화벽 규칙을 변경해야 합니다.| 4단계 전에 이 단계를 수행하지 않은 경우 서비스 또는 클라이언트 소프트웨어 오류가 발생할 수 있습니다.  |
+| [Office 365](https://aka.ms/o365urls)서비스 URL 및 IP 주소에 대한 네트워크 연결을 확인합니다. | Office 365 서비스에 액세스하는 데 사용되는 고객이 호스팅하는 모든 클라이언트 및 서비스는 Office 365 전역 서비스 끝점에 액세스할 수 있어야 합니다. <br>사용자 또는 공동 작업 파트너가 Office 365 서비스 URL 및 IP 주소에 나열된 URL 및 IP 주소에 액세스하지 못하게 하는 방화벽 규칙이 있는 경우 [Office 365](https://aka.ms/o365urls) 전역 서비스 끝점에 대한 액세스를 허용하기 위해 방화벽 규칙을 변경해야 합니다.| 4단계 전에 이 단계를 수행하지 않은 경우 서비스 또는 클라이언트 소프트웨어 오류가 발생할 수 있습니다.  |
 | 평가판 구독을 취소합니다. | 평가판 구독은 마이그레이션되지 않습니다. 유료 구독의 전송이 차단됩니다. | 취소 후 사용자가 액세스하는 경우 평가판 서비스가 만료되고 작동하지 않습니다. |
-| 도이클란드 Microsoft 클라우드와 Office 365 서비스 간의 라이선스 기능 차이를 분석합니다. | Office 365 서비스에는 현재 Microsoft 클라우드 도이치랜드에서 사용할 수 없는 추가 기능 및 서비스가 포함되어 있습니다. 구독을 전송하는 동안 사용자가 새 기능을 사용할 수 있습니다. | <ul><li> 도이클란드 Microsoft 클라우드 및 Office 365 서비스 라이선스에서 제공하는 다양한 기능을 분석합니다. [Office 365 플랫폼 서비스 설명으로 시작하세요.](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description) </li><li> 사용자 또는 사용자 변경 관리에 대한 영향을 제한하기 위해 Office 365 서비스의 새 기능을 처음에 사용하지 않도록 설정해야 하는지 여부를 결정하고 필요한 경우 사용자 라이선스 할당을 변경합니다. </li><li>Office 365 서비스에서 제공하는 새 서비스 및 기능에 대해 사용자 및 지원 센터 직원을 준비합니다. |
-| 마이그레이션 중 [](../compliance/retention.md) 콘텐츠를 무단으로 삭제하는 것을 방지하는 조직 전체 보존 정책을 만들 수 있습니다.  |<ul><li>마이그레이션 중에 최종 사용자가 콘텐츠를 부수적으로 삭제하지 않도록 조직 전체 보존 정책을 사용하도록 설정할 수 있습니다. </li><li>보존은 필요하지는 않습니다. 마이그레이션 중에 언제든지 배치되는 보류는 예상대로 작동해야 하기 때문에 보존 정책을 보유하는 것은 백업 안전 메커니즘입니다. 동시에 일부 고객, 특히 보존이 우려되는 고객은 보존 정책을 사용할 수 없습니다.</li></ul>| 보존 정책 및 보존 레이블에 대해 자세히 설명에 [설명된 보존 정책을 적용합니다.](../compliance/retention.md) 서비스 또는 클라이언트 소프트웨어의 오류는 9단계 중 4단계 전에 수행되지 않은 경우 발생할 수 있습니다. </li></ul>|
-| 올바른 라이선스 과부하 | 특정 상황에서는 고객이 구입한 것보다 더 많은 서비스를 사용할 수 있습니다. 이 조건을 라이선스 과부하라고 합니다. Microsoft는 독일 Microsoft 클라우드에서 독일 데이터 센터 지역으로 라이선스 과도하게 계약된 고객을 마이그레이션할 수 없습니다. 서비스 및 데이터에 지속적으로 액세스하려면 할당된 모든 사용자에게 라이선스가 필요합니다. | 모든 고객 | 고객은 추가 라이선스를 구입하거나 사용자의 라이선스를 배포하여 라이선스 과도하게 조건을 평가하고 해결해야 합니다. |
+| 도이클란드 Microsoft 클라우드와 Office 365 전역 서비스 간의 라이선스 기능 차이를 분석합니다. | Office 365 서비스에는 현재 Microsoft 클라우드 도이치랜드에서 사용할 수 없는 추가 기능 및 서비스가 포함되어 있습니다. 구독을 전송하는 동안 사용자가 새 기능을 사용할 수 있습니다. | <ul><li> 도이클란드 Microsoft 클라우드 및 Office 365 전역 서비스에 대한 라이선스에서 제공하는 다양한 기능을 분석합니다. [Office 365 플랫폼 서비스 설명으로 시작하세요.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description) </li><li> 사용자 또는 사용자 변경 관리에 대한 영향을 제한하기 위해 Office 365 서비스의 새 기능을 처음에 사용하지 않도록 설정해야 하는지 여부를 결정하고 필요한 경우 사용자 라이선스 할당을 변경합니다. </li><li>Office 365 서비스에서 제공하는 새 서비스 및 기능에 대해 사용자 및 지원 센터 직원을 준비합니다. |
+| 마이그레이션 중 [](https://docs.microsoft.com/microsoft-365/compliance/retention) 콘텐츠를 무단으로 삭제하는 것을 방지하는 조직 전체 보존 정책을 만들 수 있습니다.  |<ul><li>마이그레이션 중에 최종 사용자가 콘텐츠를 부수적으로 삭제하지 않도록 조직 전체 보존 정책을 사용하도록 설정할 수 있습니다. </li><li>보존은 필요하지는 않습니다. 마이그레이션 중에 언제든지 배치되는 보류는 예상대로 작동해야 하기 때문에 보존 정책을 보유하는 것은 백업 안전 메커니즘입니다. 동시에 일부 고객, 특히 보존이 우려되는 고객은 보존 정책을 사용할 수 없습니다.</li></ul>| 보존 정책 및 보존 레이블에 대해 자세히 설명에 [설명된 보존 정책을 적용합니다.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) 서비스 또는 클라이언트 소프트웨어의 오류는 9단계 중 4단계 전에 수행되지 않은 경우 발생할 수 있습니다. </li></ul>|
 |||||
+
+## <a name="dns"></a>DNS
+
+<!-- before phase 9 -->
+
+**적용 사항:** 자체 DNS 도메인에서 사용자 지정 _msoid_ CNAME을 설정한 고객
+
+구성된 경우 _msoid_ CNAME은 Office 데스크톱 클라이언트(Microsoft 365 앱, Office 365 ProPlus, Office 2019, 2016, ...)를 사용하는 고객에게만 영향을 미치게 됩니다.
+
+소유한 하나 또는 여러 DNS 네임스페이스에서 _msoid라는_ DNS CNAME을 설정한 경우 8단계가 끝날 때까지 CNAME을 제거해야 합니다. 8단계가 끝나기 전에 CNAME _msoid를_ 제거할 수 있습니다.
+
+DNS 네임스페이스에 CNAME이 설정되어 있는지 확인하려면 아래 단계를  수행하고 contoso.com 도메인 이름으로 대체합니다.
+
+```console
+nslookup -querytype=CNMAE msoid.contoso.com
+```
+
+명령줄에서 DNS 레코드를 반환하는 경우 도메인에서 _msoid_ CNAME을 제거합니다.
 
 ## <a name="active-directory-federation-services-ad-fs"></a>AD FS(Active Directory Federation Services)
 
-**적용 사항:** AD FS를 사용하여 Microsoft Office 365에 연결하는 사용자를 인증하는 고객
+<!-- before phase 4 -->
 
-| Step(s) | 설명 | 영향 |
-|:-------|:-------|:-------|
-| [재해 복구 시나리오를 위한 AD FS(Active Directory Federation Services)](ms-cloud-germany-transition-add-adfs.md#backup) 팜 백업 | 고객은 도메인의 발급자 URI를 터치하지 않고도 & 글로벌 트러스트에 대한 신뢰 파티 트러스트가 복원될 수 있도록 AD FS 팜을 적절하게 백업해야 합니다. 필요한 경우 팜의 백업 및 각 복원에 AD FS 신속 복원을 사용하는 것이 좋습니다. | 필수 작업. 고객의 AD FS 팜에 오류가 발생하면 마이그레이션 중에 서비스가 영향을 미치게 됩니다. 자세한 내용은 [ADFS 마이그레이션 단계를 참조하세요.](./ms-cloud-germany-transition-add-adfs.md) |
-||||
+**적용 사항:** AD FS를 사용하여 Microsoft Office 365에 연결하는 사용자를 인증하는 고객<br>
+**적용된 경우**: 4단계가 시작되기 전의 시간
 
-## <a name="exchange-online"></a>Exchange Online
-
-**적용 날짜:** 일정 및 가용성 주소 공간 공유를 사용하도록 설정한 Exchange Online 고객에게 적용됩니다.
-
-| Step(s) | 설명 | 영향 |
-|:-------|:-------|:-------|
-| Office 365 서비스로의 예정된 전환을 외부 파트너에게 알릴 수 있습니다. | 가용성 주소 공간 구성을 사용하면 Office 365와 사용 가능한/사용 가능한 정보를 공유할 수 있습니다. | 이 작업을 수행하지 못하면 이후 고객 마이그레이션 단계에서 서비스 또는 클라이언트 오류가 발생될 수 있습니다. |
-|||||
-
-### <a name="exchange-online-hybrid-configuration"></a>Exchange Online 하이브리드 구성
-
-**적용 사항:** 활성 Exchange 하이브리드 구성을 사용 하는 Exchange Online 고객
-
-| Step(s) | 설명 | 영향 |
-|:-------|:-------|:-------|
-| 테넌트가 마이그레이션 단계 5에 들어가기 전에 언제든지 최신 버전의 HCW(하이브리드 구성 마법사)로 업데이트합니다. Office 365 테넌트 마이그레이션이 시작된 메시지 센터 알림을 받은 직후에 이 활동을 시작할 수 있습니다.<br><br> Microsoft 클라우드 도이클란드 하이브리드 Exchange Online 고객은 이전 버전의 HCW를 제거한 다음 에서 최신 버전(17.0.5378.0 이상)을 설치 및 실행해야 [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) 합니다. |<ul><li>HCW의 최신 버전에는 도이클란드 Microsoft 클라우드에서 Office 365 서비스로 전환하는 고객을 지원하기 위해 필요한 업데이트가 포함되어 있습니다.</li><li> 업데이트에는 송신 커넥터 및 수신 커넥터에 대한 사내 인증서 설정이 변경됩니다.</li><li> Exchange 관리자는 5단계 중 9단계(Exchange 마이그레이션)가 시작되기 전에 언제든지 HCW를 다시 설치해야 합니다.<br>5단계 전에 HCW를 실행할 때 내 Office 365 조직 아래의 목록 상자에서 _Office 365 Exchange Online_ 아래의 HCW의 2nd 페이지에서 _"Office 365 Germany"를_ 선택합니다.</li><li>**참고:** Office 365 테넌트 마이그레이션이 완료되면 HCW의 2nd 페이지에서 "Office 365 Worldwide" 설정을 사용하여 HCW를 제거하고 다시 설치하여 Exchange Online 전역 서비스로 하이브리드 설정을 완료합니다.</li></ul>|5단계(Exchange 마이그레이션) 전에 HCW를 실행하지 못하면 서비스 또는 클라이언트 오류가 발생합니다. |
-||||
+[ADFS 마이그레이션 단계 읽기 및 적용](ms-cloud-germany-transition-add-adfs.md)
 
 ## <a name="sharepoint-online"></a>SharePoint Online
 
-**적용 사항:** SharePoint 2013을 사용하는 고객
+<!-- before phase 4 -->
 
+**적용 사항:** SharePoint 2013 사내를 사용하는 고객<br>
+**적용된 경우**: 4단계가 시작되기 전의 시간
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
 | SharePoint Online 마이그레이션 중에 SharePoint 2013 워크플로를 제한합니다. | 전환 전에 SharePoint 2013 워크플로를 줄이고 진행 중 워크플로를 완료합니다. | 비활성으로 인해 사용자에게 혼동을 주며 지원 센터 통화가 있을 수 있습니다. |
 ||||
 
+## <a name="exchange-online"></a>Exchange Online
+
+<!-- before phase 5 -->
+
+**적용 날짜:** 일정 및 가용성 주소 공간 공유를 사용하도록 설정한 Exchange Online 고객<br>
+**적용된 경우:** 9단계가 종료되기 전의 시간
+
+| Step(s) | 설명 | 영향 |
+|:-------|:-------|:-------|
+| Office 365 서비스로의 예정된 전환을 외부 파트너에게 알릴 수 있습니다. | 가용성 주소 공간 구성을 사용하면 Office 365와 사용 가능한/사용 가능한 정보를 공유할 수 있습니다. | 이 작업을 수행하지 못하면 이후 고객 마이그레이션 단계에서 서비스 또는 클라이언트 오류가 발생될 수 있습니다. |
+||||
+
+### <a name="exchange-online-hybrid-configuration"></a>Exchange Online 하이브리드 구성
+
+**다음에 적용됩니다.** Exchange 서버가 있는 활성 Exchange 하이브리드 구성을 사용하는 모든 고객<br>
+**적용된 경우:** 5단계가 시작되기 전의 모든 시간
+
+| Step(s) | 설명 | 영향 |
+|:-------|:-------|:-------|
+| 테넌트가 마이그레이션 단계 5에 들어가기 전에 언제든지 최신 버전의 HCW(하이브리드 구성 마법사)로 업데이트합니다. Office 365 테넌트 마이그레이션이 시작했다는 메시지 센터 알림을 받은 후 바로 이 활동을 시작할 수 있습니다(1단계).<br>Exchange 관리자는 이전 버전의 HCW를 제거한 다음 에서 최신 버전(17.0.5378.0 이상)을 설치 및 실행해야 [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) 합니다. |<ul><li>최신 버전의 HCW에는 도이치랜드 Microsoft 클라우드 인스턴스에서 Office 365 전역 서비스로 Exchange Online 마이그레이션을 지원하는 데 필요한 업데이트가 포함되어 있습니다.</li><li> 업데이트에는 송신 커넥터 및 수신 커넥터에 대한 사내 인증서 _설정에_ 대한 변경 _내용이 포함됩니다._</li><li>5단계 전에 HCW를 실행할 때 내 Office 365 조직 아래의 목록 상자에서 _Office 365 Exchange Online_ 아래의 HCW의 2nd 페이지에서 _"Office 365 Germany"를_ 선택합니다.</li><li>**참고:** 9단계 후 Office 365 테넌트 마이그레이션이 완료되면 HCW를 제거하고 다시 설치합니다. 이번에는 HCW의 2nd 페이지에서 "Office 365 Worldwide" 설정을 사용하여 Exchange Online 전역 서비스로 하이브리드 설정을 완료합니다.</li></ul>|5단계(Exchange 마이그레이션) 전에 HCW를 실행하지 못하면 서비스 또는 클라이언트 오류가 발생합니다. |
+| 인증을 위해 전역 STS(Security Token Service)를 설정하는 AuthServer 사내 설정 | 이렇게 하면 하이브리드 사내 환경을 대상으로 하는 마이그레이션 상태의 사용자로부터의 Exchange 가용성 요청에 대한 인증 요청이 인증되어 사내 서비스에 액세스할 수 있습니다. 마찬가지로, 이렇게 하면 사내에서 Office 365 전역 서비스 끝점으로의 요청 인증이 보장됩니다. | Azure AD 마이그레이션(2단계)이 완료되면 Office 365 전역 서비스에 대한 새 인증 서비스 끝점을 추가해야 합니다. Exchange PowerShell에서 이 명령을 사용하여 Azure Active Directory의 Azure Portal에 있는 조직의 테넌트 `<TenantID>` ID로 대체합니다.<br>`New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontrol.windows.net/<TenantId>/metadata/json/1`<br> 이 작업을 완료하지 못하면 도이치클라드 Microsoft 클라우드에서 Office 365 서비스로 마이그레이션된 사서함 사용자에게 하이브리드 사용 가능한 요청이 정보를 제공하지 못할 수 있습니다.  |
+||||
+
 ## <a name="skype-for-business-online"></a>비즈니스용 Skype Online
 
-**적용 사항:** 비즈니스용 Skype Online 고객
+<!-- before phase 7 -->
+
+**적용 사항:** 비즈니스용 Skype Online 고객<br>
+**적용된 경우**: 7단계가 시작되기 전의 모든 시간
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
@@ -100,9 +135,11 @@ ms.locfileid: "50923841"
 | Microsoft Teams로의 전환을 위한 최종 사용자 및 관리 교육 및 준비를 준비합니다. | 사용자 커뮤니케이션 및 준비를 계획하여 Skype에서 Teams로 전환하는 데 성공하세요. | <ul><li>클라이언트는 새 서비스와 해당 서비스가 Office 365 서비스로 전환된 후 사용하는 방법을 알고 있어야 합니다. </li><li>고객 베니티 도메인과 초기 도메인에 대해 DNS를 변경한 후 사용자는 비즈니스용 Skype에 로그인하고 이제 Teams로 마이그레이션된 것으로 표시됩니다. 또한 백그라운드에서 Teams용 데스크톱 클라이언트를 다운로드합니다. </li></ul>|
 ||||
 
-## <a name="mobile"></a>모바일
+## <a name="mobile-device-management"></a>모바일 디바이스 관리
 
-타사 MDM(모바일 장치 관리) 솔루션을 사용하는 경우:
+<!-- before phase 5 -->
+**다음에 적용됩니다.** 타사 MDM(모바일 장치 관리) 솔루션을 사용하는 고객<br>
+**적용된 경우:** 5단계가 시작되기 전의 모든 시간
 
 | Step(s) | 설명 | 적용 대상 | 영향 |
 |:-------|:-----|:-------|:-------|
@@ -112,7 +149,10 @@ ms.locfileid: "50923841"
 
 ## <a name="line-of-business-apps"></a>업무용 앱
 
-Office 365와 통합된 타사 서비스 또는 LOB(LOB) 앱을 사용하는 경우: 
+**다음에 적용됩니다.** 도이치클라드 Microsoft 클라우드에서 제공하는 끝점과 함께 LOB(LOB) 앱을 사용하는 고객<br>
+**적용된 경우:** 2단계가 완료된 후 9단계가 종료되기 전
+
+Office 365와 통합된 타사 서비스 또는 LOB(LOB) 앱을 사용하는 경우 Microsoft 클라우드 도이치랜드 인스턴스에서 제공하는 끝점에 대한 종속성 문제를 해결해야 합니다. 예를 들어 LOB 앱이 에 연결하는 경우 끝점을 로 `https://graph.microsoft.de/` 변경해야 `https://graph.microsoft.com/` 합니다. 2단계 후에 Microsoft Office 365 전역 서비스의 끝점을 테넌트에서 사용할 수 있습니다.
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
@@ -121,7 +161,7 @@ Office 365와 통합된 타사 서비스 또는 LOB(LOB) 앱을 사용하는 경
 
 ## <a name="dynamics-365"></a>Dynamics 365
 
-**적용 사항:** Microsoft Dynamics를 사용하는 고객
+**적용 사항:** Microsoft Dynamics 365를 사용하는 고객
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
@@ -130,31 +170,21 @@ Office 365와 통합된 타사 서비스 또는 LOB(LOB) 앱을 사용하는 경
 
 ## <a name="power-bi"></a>Power BI
 
-**적용 사항:** Power BI 고객 
+**적용 사항:** Power BI를 사용하는 고객
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
 | Power BI Microsoft 클라우드 도이클랜드에서 Office 365 서비스로 마이그레이션되지 않는 Power BI 구독에서 개체 제거 | Power BI 서비스를 마이그레이션하려면 데이터 집합 및 대시보드와 같은 특정 아티팩트를 삭제하기 위한 고객 작업이 필요합니다. | <ul><li>관리자는 구독에서 다음 항목을 제거해야 할 수 있습니다. </li><li>Real-Time 데이터 집합(예: 스트리밍 또는 푸시 데이터 집합) </li><li>Power BI 사내 데이터 게이트웨이 구성 및 데이터 원본 </li></ul>|
 ||||
 
-## <a name="dns"></a>DNS
-
-**적용 프로그램:** Office 데스크톱 클라이언트를 사용하는 고객(Microsoft 365 앱, Office 365 ProPlus, Office 2019, 2016, ...)<br>
-Azure AD(Azure Active Directory) 컷오버 전에 언제든지 고객 소유 DNS에서 MSOID, CName을 제거합니다. 변경이 빠르게 적용될 수 있도록 5분의 TTL을 설정할 수 있습니다.
-
-## <a name="federated-identity"></a>페더레이션 ID
-
-| Step(s) | 설명 | 영향 |
-|:-------|:-------|:-------|
-| 기존 신뢰 파티 트러스트에 SSO(Single Sign-On)에 대한 식별자를 추가하고 AD FS 메타데이터 자동 업데이트를 사용하지 않도록 설정합니다. | 마이그레이션을 시작하기 전에 AD FS 신뢰 파티 트러스트에 ID를 추가해야 합니다. 실수로 해당 ID가 제거되는 것을 방지하려면 메타데이터 업데이트에 대해 자동 업데이트를 사용하지 않도록 설정하십시오. <br><br> AD FS 서버에서 다음 명령을 단일 명령줄로 실행합니다. <br>`Set-AdfsRelyingPartyTrust -TargetIdentifier urn:federation:microsoftonline.de -Identifier @('urn:federation:microsoftonline.de', 'https://login.microsoftonline.de/extSTS.srf', 'https://login.microsoftonline.de') -AutoUpdate $False`
-| 페더러드 인증 조직 | 필수 작업. 9단계 중 4단계(SharePoint) 이전의 비활성 상태는 마이그레이션 중에 서비스에 영향을 미치게 됩니다.  |
-| 전역 Azure AD 끝점에 대한 신뢰 파티 트러스트 생성 | 고객은 전역 끝점에 대한 RPT(신뢰자 트러스트)를 수동으로 [만들어야](https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml) 합니다. 이 작업에서는 GUI를 통해 새 RPT를 추가한 다음 [Azure AD RPT](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator#:~:text=%20Azure%20AD%20RPT%20Claim%20Rules%20%201,Azure%20AD.%20This%20will%20be%20what...%20More%20) 클레임 규칙(AD FS 도움말에서)을 사용하여 클레임 규칙을 생성하고 RPT로 가져와서 수행됩니다. | 페더러드 인증 조직 | 필수 작업. 비활성 상태는 마이그레이션 중에 서비스에 영향을 미치게 됩니다. |
-|||||
-
 ## <a name="microsoft-azure"></a>Microsoft Azure
 
 도이치랜드 Microsoft 클라우드 인스턴스에서 Office 365 및 Microsoft Azure에 대해 동일한 Azure Active Directory ID 파티션을 사용하는 경우 Microsoft Azure 서비스의 고객 기반 마이그레이션을 준비하고 있는지 확인합니다.
-Office 365 테넌트가 마이그레이션 단계 3에 도달하기 전에 Microsoft Azure 서비스의 마이그레이션을 시작하지 말고 마이그레이션 8단계가 완료되기 전에 완료해야 합니다.
+
+> [!NOTE]
+> Office 365 테넌트가 마이그레이션 단계 3에 도달하기 전에 Microsoft Azure 서비스의 마이그레이션을 시작하지 말고 마이그레이션 8단계가 완료되기 전에 완료해야 합니다.
+
+Office 365 및 Azure 리소스(예: 네트워킹, 계산 및 저장소)를 사용하는 고객은 Office 365 서비스 인스턴스로 리소스 마이그레이션을 수행하게 됩니다. 이 마이그레이션은 고객의 책임입니다. 메시지 센터 게시물에 시작 신호가 표시됩니다. Office 365 서비스 환경에서 Azure AD 조직을 완료하기 전에 마이그레이션을 완료해야 합니다. Azure 마이그레이션의 경우 Azure 마이그레이션 플레이북, Azure Germany에 대한 마이그레이션 [지침 개요를 참조하세요.](https://docs.microsoft.com/azure/germany/germany-migration-main)
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|

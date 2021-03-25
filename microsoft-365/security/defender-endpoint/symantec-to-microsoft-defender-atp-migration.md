@@ -22,18 +22,18 @@ ms.topic: conceptual
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 6cab09547501da9b533c49b7096389e13dbf1f87
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 35f1ce4bccbf2229106ef4b8417a44fe7c37cde5
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060839"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51183708"
 ---
 # <a name="migrate-from-symantec-to-microsoft-defender-for-endpoint"></a>Symantec에서 끝점용 Microsoft Defender로 마이그레이션
 Symantec Endpoint Protection(Symantec)에서 [끝점용 Microsoft Defender(Endpoint용 Microsoft Defender)로](https://docs.microsoft.com/windows/security/threat-protection) 전환할 계획이면 올바른 장소에 있습니다. 이 문서를 가이드로 사용하세요.
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 :::image type="content" source="images/symantec-mde-migration.png" alt-text="Symantec에서 끝점용 Defender로 마이그레이션 개요":::

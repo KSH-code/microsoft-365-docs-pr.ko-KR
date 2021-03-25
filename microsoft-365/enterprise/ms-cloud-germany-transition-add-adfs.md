@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 도이치란드 Microsoft 클라우드에서 마이그레이션하기 위한 AD FS(Active Directory Federation Services) 마이그레이션 단계입니다.'
-ms.openlocfilehash: 146f476a43e46925d87763a800467bf52adc73e5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 12465acf5b4afe7e252586ddd076250628b57dd3
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918909"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165660"
 ---
 # <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 AD FS 마이그레이션 단계
 
@@ -59,11 +59,11 @@ AD FS 백업을 완료하고 테스트한 후 다음 단계를 수행하여 ADFS
 
 8. AD FS 2012의 경우: **Choose Issuance Authorization Rules에서** 모든 사용자가 이 트러디드 파티에 액세스할 수 있도록 허용을 선택한 후 다음을 **클릭합니다.** 
 
-8. AD FS 2016 및 AD FS 2019: 액세스 제어 정책 선택 페이지에서 적절한 액세스 제어 정책을 선택하고 다음 을 **클릭합니다.**  선택하지 않은 경우 신뢰 파티 트러스트가 **작동하지** 않습니다.
+9. AD FS 2016 및 AD FS 2019: 액세스 제어 정책 선택 페이지에서 적절한 액세스 제어 정책을 선택하고 다음 을 **클릭합니다.**  선택하지 않은 경우 신뢰 파티 트러스트가 **작동하지** 않습니다.
 
-9. **트러스트** 추가 **준비** 완료 페이지에서 다음을 클릭하여 마법사를 완료합니다.
+10. **트러스트** 추가 **준비** 완료 페이지에서 다음을 클릭하여 마법사를 완료합니다.
 
-10. 마친 **페이지에서** **닫기 를** 클릭합니다.
+11. 마친 **페이지에서** **닫기 를** 클릭합니다.
 
 마법사를 닫아 Office 365 전역 서비스에 대한 신뢰 파티 트러스트가 설정됩니다. 그러나 아직 구성되지 않은 Issuance Transform 규칙은 없습니다.
 
@@ -74,7 +74,19 @@ AD FS 백업을 완료하고 테스트한 후 다음 단계를 수행하여 ADFS
 
 1. AD  FS 도움말에서 클레임 생성 도움말을 [실행하고](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) 스크립트 오른쪽 위 모서리에 있는 복사 옵션을 사용하여 PowerShell 스크립트를 복사합니다. 
 
-2. AD FS 팜에서 PowerShell 스크립트를 실행하여 전역 신뢰 파티 트러스트 생성 방법에 대한 [AD FS](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) 도움말에 설명된 단계를 따릅니다.
+2. AD FS 팜에서 PowerShell 스크립트를 실행하여 전역 신뢰 파티 트러스트 생성 방법에 대한 [AD FS](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) 도움말에 설명된 단계를 따릅니다. 스크립트를 실행하기 전에 생성된 스크립트의 다음 코드 줄을 아래 설명과 같이 바꾸십시오.
+
+   ```powershell
+   # AD FS Help generated value
+   $claims = Get-AdfsRelyingPartyTrust -Identifier $(Get-RpIdentifier) | Select-Object IssuanceTransformRules;
+   # replace with
+   $claims = Get-AdfsRelyingPartyTrust -Identifier urn:federation:MicrosoftOnline | Select-Object IssuanceTransformRules;
+
+   # AD FS Help generated value
+   Set-AdfsRelyingPartyTrust -TargetIdentifier $(Get-RpIdentifier) -IssuanceTransformRules $RuleSet.ClaimRulesString;
+   # replace with
+   Set-AdfsRelyingPartyTrust -TargetIdentifier urn:federation:MicrosoftOnline -IssuanceTransformRules $RuleSet.ClaimRulesString;
+   ```
 
 3. 두 개의 Relying PartyTtrusts가 있는지 확인 도이치클란드 Microsoft 클라우드 및 Office 365 전역 서비스용 1개 검사에 다음 명령을 활용할 수 있습니다. 행 2개와 각 이름 및 식별자를 반환해야 합니다.
 
@@ -86,9 +98,7 @@ AD FS 백업을 완료하고 테스트한 후 다음 단계를 수행하여 ADFS
 
 5. 테넌트가 마이그레이션 중일 때 지원되는 다양한 마이그레이션 단계에서 AD FS 인증이 도이클란드 Microsoft 클라우드 및 Microsoft Global 클라우드와 함께 작동하고 있는지 정기적으로 확인해야 합니다.
 
-
 ## <a name="ad-fs-disaster-recovery-wid-database"></a>AD FS 재해 복구(WID 데이터베이스)
-
 
 재해 AD FS 신속 복원 도구에서 [AD FS](/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) 팜을 복원하려면 활용해야 합니다. 따라서 도구를 다운로드하고 마이그레이션을 시작하기 전에 백업을 만들어 안전하게 저장해야 합니다. 이 예제에서는 WID 데이터베이스에서 실행되는 팜을 백업하기 위해 다음 명령을 실행했습니다.
 
@@ -112,7 +122,6 @@ AD FS 백업을 완료하고 테스트한 후 다음 단계를 수행하여 ADFS
 
 4. 백업을 원하는 대상에 안전하게 저장합니다.
 
-
 ### <a name="restore-an-ad-fs-farm"></a>AD FS 팜 복원
 
 팜이 완전히 실패하여 이전 팜으로 돌아올 방법이 없는 경우 다음을 합니다. 
@@ -126,7 +135,6 @@ AD FS 백업을 완료하고 테스트한 후 다음 단계를 수행하여 ADFS
    ```
 
 3. 새 DNS 레코드 또는 부하 잔액을 새 AD FS 서버를 지점으로 합니다.
-
 
 ## <a name="more-information"></a>추가 정보
 

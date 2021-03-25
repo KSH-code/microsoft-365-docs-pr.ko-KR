@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 전환할 때의 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 5e1bf9257cfd4751333e2e01789bb7dbaf2685fa
-ms.sourcegitcommit: 30c3054004ddc9d6059c11d55577552aa2464810
+ms.openlocfilehash: 53a8c9470093db9d57d8dc18f4242d1a596c6efd
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "50939638"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165636"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향(일반)
 
@@ -36,7 +36,7 @@ ms.locfileid: "50939638"
 |단계|Duration|책임자|설명|
 |:--------|:--------|:--------|:--------|
 |Opt-In|시간|고객|조직을 마이그레이션에 옵트인합니다.|
-|사전 작업|일수|고객|마이그레이션을 위해 사용자, 작업소 및 네트워크를 준비하는 데 필요한 작업을 완료합니다.|
+|사전 작업|일|고객|마이그레이션을 위해 사용자, 작업소 및 네트워크를 준비하는 데 필요한 작업을 완료합니다.|
 |Azure AD(Azure Active Directory)|1~2일|Microsoft|Azure AD 조직을 전 세계로 마이그레이션합니다.|
 |Azure|주|고객|새 전 세계 Azure 구독을 만들고 Azure 서비스를 전환합니다.|
 |구독 & 라이선스 전환|1~2일|Microsoft|전 세계 구독을 구입하고, 도이치스크란드 Microsoft 클라우드 구독을 취소하고, 사용자 라이선스를 전환합니다.|
@@ -62,7 +62,7 @@ ms.locfileid: "50939638"
 
 ## <a name="before-the-migration-starts"></a>마이그레이션이 시작되기 전에
 
-모든 고객에게 적용하는 마이그레이션 준비 단계에 [익숙해야 합니다.](ms-cloud-germany-transition-add-pre-work.md#applies-to-everyone)
+모든 고객에게 적용되는 마이그레이션 준비 단계에 [익숙해야 합니다.](ms-cloud-germany-transition-add-pre-work.md)
 
 소유한 하나 또는 여러 DNS 네임스페이스에서 _msoid라는_ DNS CNAME을 설정한 경우 8단계가 끝날 때까지 CNAME을 제거해야 합니다. 8단계가 끝나기 전에 CNAME _msoid를_ 제거할 수 있습니다. [DNS에 대한 사전 작업 을 참조합니다.](ms-cloud-germany-transition-add-pre-work.md#dns)
 
@@ -111,7 +111,7 @@ Exchange Online 하이브리드를 사용하는 경우: Exchange Online 하이�
 
 마이그레이션 **단계 9(메시지** 센터 알림이 게시될 때)가 끝나면 Office 365 Worldwide 설정을 사용하여 HCW를 다시 실행하여 Office 365 전역 서비스를 설정해야 합니다.
 
-5단계에서 사용자 사진을 수정하려면 [Set-UserPhoto를 참조합니다.](ms-cloud-germany-transition-add-experience.md#exchange-online-before-phase-5)
+5단계에서 사용자 사진을 수정하려면 5단계에서 Exchange Online Set-UserPhoto [참조하세요.](ms-cloud-germany-transition-add-experience.md#exchange-online-set-userphoto-during-phase-5)
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
@@ -131,7 +131,7 @@ Exchange Online 하이브리드를 사용하는 경우: Exchange Online 하이�
 
 - 전환하려는 기존 Microsoft 클라우드 고객 또는 전환하는 고객의 경우 파일 > **Info**> 계정 추가를 사용하여 Outlook에 공유 사서함을 추가하면 일정 권한 보기가 실패할 수 있습니다(Outlook 클라이언트가 Rest API를 사용하려고 `https://outlook.office.de/api/v2.0/Me/Calendars` 시도). 일정 권한을 보기 위해 계정을 추가하려는 고객은 [Outlook에서](https://support.microsoft.com/office/user-experience-changes-for-sharing-a-calendar-in-outlook-5978620a-fe6c-422a-93b2-8f80e488fdec) 일정을 공유하기 위한 사용자 환경 변경에 설명된 레지스트리 키를 추가하여 이 작업이 성공하도록 할 수 있습니다. 이 레지스트리 키는 그룹 정책을 사용하여 조직 전체에 배포할 수 있습니다.
 
-- 마이그레이션 단계에서 PowerShell cmdlet **New-migrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들어 다음과 같습니다.
+- 마이그레이션 단계에서 PowerShell cmdlet **New-migrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예:
 
 ```powershell
 New-PSSession 
@@ -211,11 +211,11 @@ Dynamics 365를 사용 하는 고객은 조직의 Dynamics 조직을 독립적�
 
 "독일" 지역으로 전환하는 Office 365 테넌트는 테넌트 마이그레이션이 9단계에 도달한 후 모든 사용자가 Office 365에서 종료하고, 로그인한 후 모든 Office 데스크톱 응용 프로그램(Word, Excel, PowerPoint, Outlook 등)과 비즈니스용 OneDrive 클라이언트에 대해 다시 로그인해야 합니다. 로그인하면 Office 서비스가 전역 Azure AD 서비스에서 새 인증 토큰을 얻을 수 있습니다.
 
-모바일 장치 사전 작업을 [완료해야](ms-cloud-germany-transition-add-pre-work.md#mobile) 합니다.
+모바일 장치 사전 작업을 [완료해야](ms-cloud-germany-transition-add-pre-work.md#mobile-device-management) 합니다.
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
-| 클라이언트, Office 클라이언트가 컷오버하는 동안 Azure AD는 Office 365 서비스를 지점으로 하는 테넌트 범위를 마무리합니다. | 이 구성 변경을 통해 Office 클라이언트는 Office 365 서비스 끝점을 업데이트하고 이를 지점으로 할 수 있습니다. | <ul><li>사용자에게 모든 _Office_ 앱을 닫은 다음 다시 로그인(또는 클라이언트를 강제로 다시 시작하고 사용자가 로그인하도록 설정)하여 Office 클라이언트가 변경 내용을 선택할 수 있도록 합니다. </li><li>사용자가 컷오버 후  72시간 이내에 Office 앱을 다시 활성화하라는 Office 배너가 표시될 수 있습니다. </li><li>개인 컴퓨터의 모든 Office 응용 프로그램을 닫아야 합니다. 사용자는 로그인한 다음 다시 로그인해야 합니다. 노란색 정품 인증 표시줄에서 로그인하여 Office 365 서비스에 대해 다시 정품 인증합니다.</li><li>공유 컴퓨터는 개인 컴퓨터와 유사한 작업이 필요하며 특별한 절차가 필요하지 않습니다. </li><li>모바일 장치에서 사용자는 앱에서 로그인하고 닫은 다음 다시 로그인해야 합니다. </li></ul>|
+| 클라이언트, Office 클라이언트가 컷오버하는 동안 Azure AD는 Office 365 서비스를 지점으로 하는 테넌트 범위를 마무리합니다. | 이 구성 변경을 통해 Office 클라이언트는 Office 365 서비스 끝점을 업데이트하고 이를 지점으로 할 수 있습니다. | <ul><li>사용자에게 모든 _Office_ 앱을 닫은 다음 다시 로그인(또는 클라이언트를 강제로 다시 시작하고 사용자가 로그인하도록 설정)하여 Office 클라이언트가 변경 내용을 선택할 수 있도록 합니다. </li><li>사용자가 컷오버 후  72시간 이내에 Office 앱을 다시 활성화하라는 Office 배너가 표시될 수 있습니다. </li><li>개인 컴퓨터의 모든 Office 응용 프로그램을 닫아야 합니다. 사용자는 로그인한 다음 다시 로그인해야 합니다. 노란색 정품 인증 표시줄에서 로그인하여 Office 365 서비스에 대해 다시 정품 인증합니다.</li><li>공유 컴퓨터는 개인 컴퓨터와 유사한 작업이 필요하며 특별한 절차가 필요하지 않습니다. </li><li>모바일 장치에서 사용자는 앱에서 로그인하고 닫은 다음 다시 로그인해야 합니다.</li></ul>|
 ||||
 
 ## <a name="line-of-business-apps"></a>업무용 앱

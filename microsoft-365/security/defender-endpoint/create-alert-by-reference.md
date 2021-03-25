@@ -1,0 +1,120 @@
+---
+title: 이벤트 API에서 경고 만들기
+description: 경고 만들기 API를 사용하여 끝점용 Microsoft Defender의 이벤트 위에 새 경고를 만드는 방법을 학습합니다.
+keywords: api, 그래프 api, 지원되는 api, get, alert, information, id
+search.product: eADQiWindows 10XVcnh
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: macapara
+author: mjcaparas
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection: M365-security-compliance
+ms.topic: article
+ms.technology: mde
+ms.openlocfilehash: 9066bcdae549f7a6b1372714d567674eb03c1e51
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51167070"
+---
+# <a name="create-alert-api"></a>경고 API 만들기
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+**적용 대상:**
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+- 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+
+[!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
+
+[!include[Improve request performance](../../includes/improve-request-performance.md)]
+
+
+## <a name="api-description"></a>API 설명
+이벤트 의 [맨](alerts.md) 위에 새 **경고를 만듭니다.**
+<br>**경고를 생성하려면 Microsoft Defender for Endpoint** 이벤트가 필요합니다.
+<br>요청에서 이벤트의 매개 변수 3개(이벤트 **시간,** 컴퓨터 ID 및 **보고서 ID)를 제공해야 합니다.**  아래 예제를 참조하세요.
+<br>고급 헌팅 API 또는 포털에 있는 이벤트를 사용할 수 있습니다.
+<br>동일한 Title을 사용하여 동일한 디바이스에 열려 있는 경고가 기존에 있는 경우 새로 만든 경고가 해당 경고와 병합됩니다.
+<br>API를 통해 생성된 경고에 대한 자동 조사가 자동으로 시작됩니다.
+
+
+## <a name="limitations"></a>제한 사항
+1. 이 API에 대한 속도 제한은 분당 15개 호출입니다.
+
+
+## <a name="permissions"></a>사용 권한
+
+이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)
+
+사용 권한 유형 |   사용 권한  |   사용 권한 표시 이름
+:---|:---|:---
+응용 프로그램 |   Alerts.ReadWrite.All |  '모든 경고 읽기 및 쓰기'
+위임(직장 또는 학교 계정) | Alert.ReadWrite | '경고 읽기 및 쓰기'
+
+>[!Note]
+> 사용자 자격 증명을 사용하여 토큰을 얻을 때:
+>- 사용자에게 최소한 '경고 조사'와 같은 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).
+>- 사용자는 장치 그룹 설정에 따라 경고와 연결된 장치에 액세스할 수 있습니다(자세한 내용은 장치 그룹 만들기 및 [관리](machine-groups.md) 참조).
+
+## <a name="http-request"></a>HTTP 요청
+
+```
+POST https://api.securitycenter.microsoft.com/api/alerts/CreateAlertByReference
+```
+
+## <a name="request-headers"></a>요청 헤더
+
+이름 | 유형 | 설명
+:---|:---|:---
+권한 부여 | 문자열 | Bearer {token}. **필수입니다**.
+Content-Type | 문자열 | application/json. **필수입니다**.
+
+## <a name="request-body"></a>요청 본문
+
+요청 본문에 다음 값을 제공합니다(모두 필수).
+
+속성 | 유형 | 설명
+:---|:---|:---
+eventTime | DateTime(UTC) | 고급 헌팅에서 얻은 이벤트의 정확한 시간(문자열)입니다. 예: 필수 ```2018-08-03T16:45:21.7115183Z``` .
+reportId | 문자열 | 고급 헌팅에서 얻은 이벤트의 reportId입니다. **필수입니다**.
+machineId | 문자열 | 이벤트를 식별한 장치의 ID입니다. **필수입니다**.
+심각도 | 문자열 | 경고의 심각도입니다. 속성 값은 'Low', 'Medium' 및 'High'입니다. **필수입니다**.
+title | 문자열 | 경고의 제목입니다. **필수입니다**.
+설명 | 문자열 | 경고에 대한 설명입니다. **필수입니다**.
+recommendedAction| 문자열 | 경고를 분석할 때 보안 담당자가 권장하는 작업입니다. **필수입니다**.
+category| 문자열 | 경고 범주입니다. 속성 값은 "General", "CommandAndControl", "Collection", "CredentialAccess", "DefenseEvasion", "Discovery", "Exfiltration", "Exploit", "Execution", "InitialAccess", "LateralMovement", "Malware", "Persistence", "PrivilegeEscalation", "Ransomware", "SuspiciousActivity" **Required입니다.**
+
+## <a name="response"></a>응답
+
+성공하면 이 메서드는 200 OK를 [](alerts.md) 반환하고 응답 본문에 새 경고 개체를 반환합니다. 지정된 _속성(reportId,_ _eventTime_ 및 _machineId)이_ 있는 이벤트를 찾을 수 없는 경우 - 404 찾을 수 없습니다.
+
+## <a name="example"></a>예제
+
+**요청**
+
+다음은 요청의 예입니다.
+
+```http
+POST https://api.securitycenter.microsoft.com/api/alerts/CreateAlertByReference
+```
+
+```json
+{
+    "machineId": "1e5bc9d7e413ddd7902c2932e418702b84d0cc07",
+    "severity": "Low",
+    "title": "example",
+    "description": "example alert",
+    "recommendedAction": "nothing",
+    "eventTime": "2018-08-03T16:45:21.7115183Z",
+    "reportId": "20776",
+    "category": "Exploit"
+}
+```

@@ -22,12 +22,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 02/02/2021
-ms.openlocfilehash: c11d9cd1ce4c2ca49315ec62b51c23ef981555f4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b66640736e9dc3835919e39d482b2d38b0c9dcc7
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075364"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51183684"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>자동화된 조사의 세부 정보 및 결과
 
@@ -38,7 +38,7 @@ ms.locfileid: "51075364"
 
 ## <a name="new-unified-investigation-page"></a>(NEW!) 통합 조사 페이지
 
-조사 페이지가 최근에 장치, 전자 메일 및 공동 작업 콘텐츠에 대한 정보를 포함하기 위해 업데이트되었습니다. 새로운 통합 조사 페이지는 공통 언어를 정의하고 [끝점용 Microsoft Defender](microsoft-defender-advanced-threat-protection.md)  및 [Office 365용 Microsoft Defender에서](/microsoft-365/security/defender-365-security/office-365-atp)자동 조사를 위한 통합된 환경을 제공합니다. 
+조사 페이지가 최근에 장치, 전자 메일 및 공동 작업 콘텐츠에 대한 정보를 포함하기 위해 업데이트되었습니다. 새로운 통합 조사 페이지는 공통 언어를 정의하고 [끝점용 Microsoft Defender](microsoft-defender-endpoint.md)  및 [Office 365용 Microsoft Defender에서](/microsoft-365/security/defender-365-security/office-365-atp)자동 조사를 위한 통합된 환경을 제공합니다. 
 
 > [!TIP]
 > 변경에 대한 자세한 내용은 [(NEW!)를 참조하세요. 통합 조사 페이지.](/microsoft-365/security/mtp/mtp-autoir-results)

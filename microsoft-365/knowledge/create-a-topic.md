@@ -14,14 +14,14 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 6a182556c68a472145f9d4eac69c8915653a67df
-ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
+ms.openlocfilehash: c1f7b67bb49aff8d6656798d80636d9de5858877
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50994597"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165840"
 ---
-# <a name="create-a-new-topic"></a>새 항목 만들기 
+# <a name="create-a-new-topic-in-microsoft-viva-topics"></a>Microsoft Viva 항목에서 새 항목 만들기
 
 Viva 항목에서는 인덱싱을 통해 검색되지 않았거나 AI 기술에서 이를 주제로 설정할 충분한 증거를 찾지 못하면 새 항목을 만들 수 있습니다.
 

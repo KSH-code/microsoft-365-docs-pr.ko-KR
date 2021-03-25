@@ -1,0 +1,129 @@
+---
+title: 링에서 끝점용 Microsoft Defender 배포
+description: 링에서 끝점용 Microsoft Defender를 배포하는 방법 학습
+keywords: 배포, 링, 평가, 파일럿, 내부자 빠른, 내부자 저속, 설치, 온보드, 단계, 배포, 배포, 채택, 구성
+search.product: eADQiWindows 10XVcnh
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: macapara
+author: mjcaparas
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection:
+- M365-security-compliance
+- m365solution-endpointprotect
+- m365solution-overview
+ms.topic: article
+ms.technology: mde
+ms.openlocfilehash: 2d34b984436b3ed0537af2eebcd8475ec270cd8e
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165792"
+---
+# <a name="deploy-microsoft-defender-for-endpoint-in-rings"></a>링에서 끝점용 Microsoft Defender 배포
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+**적용 대상:**
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+>Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+
+링 기반 배포 방법을 사용하여 끝점에 대한 Microsoft Defender 배포를 완료할 수 있습니다. 
+
+배포 링은 다음과 같은 시나리오에서 적용할 수 있습니다.
+- [새 배포](#new-deployments)
+- [기존 배포](#existing-deployments)
+
+## <a name="new-deployments"></a>새 배포
+
+![배포 링의 이미지](images/deployment-rings.png)
+
+
+링 기반 접근 방식은 온보드할 끝점 집합을 식별하고 서비스를 더 큰 장치 집합에 배포하기 전에 특정 조건이 충족되는지 확인하는 방법입니다. 각 링에 대한 종료 조건을 정의하고 다음 링으로 이동하기 전에 해당 링이 충족되도록 할 수 있습니다.
+
+링 기반 배포를 채택하면 서비스를 배포하는 동안 발생할 수 있는 잠재적인 문제를 줄일 수 있습니다. 특정 수의 장치를 먼저 파일럿하여 잠재적인 문제를 식별하고 발생할 수 있는 잠재적인 위험을 완화할 수 있습니다. 
+
+
+표 1에서는 사용할 수 있는 배포 링의 예를 제공합니다. 
+
+**표 1**
+
+|**배포 링**|**설명**|
+|:-----|:-----|
+평가 | 링 1: 파일럿 테스트용 시스템 50개 식별 
+파일럿 | 링 2: 프로덕션 환경에서 다음 50-100개 끝점 식별 <br>  
+전체 배포 | 링 3: 더 큰 증분으로 나머지 환경에 서비스 롤아웃
+
+
+
+### <a name="exit-criteria"></a>종료 조건
+이러한 링에 대한 종료 조건의 예는 다음과 같습니다.
+- 장치 인벤토리 목록에 장치가 표시됩니다.
+- 알림이 대시보드에 표시
+- [검색 테스트 실행](run-detection-test.md)
+- [디바이스에 대한 시뮬레이션된 공격 실행](attack-simulations.md)
+
+### <a name="evaluate"></a>평가
+환경에 있는 소수의 테스트 컴퓨터를 식별하여 서비스에 온보드합니다. 이상적으로 이러한 컴퓨터는 끝점 50개 미만입니다. 
+
+
+### <a name="pilot"></a>파일럿
+Microsoft Defender ATP는 서비스에 온보딩할 수 있는 다양한 끝점을 지원합니다. 이 링에서 온보드할 여러 장치를 식별하고 정의한 종료 기준에 따라 다음 배포 링으로 진행하기로 결정합니다.
+
+다음 표에는 지원되는 끝점과 장치를 서비스에 온보드하는 데 사용할 수 있는 해당 도구가 표시됩니다. 
+
+| 끝점     | 배포 도구                       |
+|--------------|------------------------------------------|
+| **Windows**  |  [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <br> 참고: 프로덕션 환경에 10개 이상의 장치를 배포하려는 경우 그룹 정책 방법이나 아래에 나열된 다른 지원되는 도구를 대신 사용합니다.<br>  [그룹 정책](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI 스크립트](configure-endpoints-vdi.md)   |
+| **macOS**    | [로컬 스크립트](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [모바일 장치 관리](mac-install-with-other-mdm.md) |
+| **Linux Server** | [로컬 스크립트](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
+| **iOS**      | [앱 기반](ios-install.md)                                |
+| **Android**  | [Microsoft Endpoint Manager](android-intune.md)               | 
+
+
+
+
+### <a name="full-deployment"></a>전체 배포
+이 단계에서 배포 계획 자료를 [사용하여](deployment-strategy.md) 배포를 계획할 수 있습니다. 
+
+
+다음 자료를 사용하여 조직에 가장 적합한 Microsoft Defender ATP 아키텍처를 선택합니다.
+
+|**항목**|**설명**|
+|:-----|:-----|
+|[![Microsoft Defender ATP 배포 전략의 축소판 이미지](images/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) | 건축 자료는 다음 아키텍처의 배포를 계획하는 데 도움이 됩니다. <ul><li> 클라우드 네이티브 </li><li> 공동 관리 </li><li> 온-프레미스</li><li>평가 및 로컬 온보딩</li>
+
+
+
+
+## <a name="existing-deployments"></a>기존 배포
+
+### <a name="windows-endpoints"></a>Windows 끝점
+Windows 및/또는 Windows Server의 경우 **SUVP(보안** 업데이트 유효성 검사 프로그램)를 사용하여 미리 테스트할 여러 컴퓨터를 선택합니다(화요일 패치 전).
+
+자세한 내용은 다음을 참조하세요.
+- [보안 업데이트 유효성 검사 프로그램](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/what-is-the-security-update-validation-program/ba-p/275767)
+- [소프트웨어 업데이트 유효성 검사 프로그램 및 Microsoft 맬웨어 보호 센터 설치 - TwC 대화형 타임라인 4부](https://www.microsoft.com/security/blog/2012/03/28/software-update-validation-program-and-microsoft-malware-protection-center-establishment-twc-interactive-timeline-part-4/)
+
+
+### <a name="non-windows-endpoints"></a>비 Windows 끝점
+macOS 및 Linux에서는 몇 가지 시스템을 사용하며 "InsidersFast" 채널에서 실행할 수 있습니다.
+
+>[!NOTE]
+>빌드가 "프로덕션" 채널로 변경되기 전에 호환성, 성능 및 안정성 문제를 찾을 수 있도록 하나 이상의 보안 관리자와 개발자 한 명 이상입니다.
+
+채널 선택에 따라 장치에 제공되는 업데이트의 유형과 빈도가 결정됩니다. insiders-fast의 장치는 업데이트 및 새 기능을 수신하는 첫 번째 장치로, 그 다음에는 이후의 내부자 속도가 느려지며 마지막으로 prod가 됩니다.
+
+![내부자 링의 이미지](images/insider-rings.png)
+
+새 기능을 미리 보고 초기 피드백을 제공하도록 엔터프라이즈에서 내부자 속도가 빠르거나 느리게 사용하도록 일부 장치를 구성하는 것이 좋습니다.
+
+>[!WARNING]
+>초기 설치 후 채널을 전환하려면 제품을 다시 설치해야 합니다. 제품 채널을 전환하려면 기존 패키지를 제거하고 새 채널을 사용하도록 장치를 다시 구성하고 이 문서의 단계에 따라 새 위치에서 패키지를 설치합니다.
