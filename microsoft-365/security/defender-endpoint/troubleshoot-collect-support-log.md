@@ -16,50 +16,50 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 50e7bc6d84714411c89f014bb0018a3102617cb7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8b7fe8f0973cabfb5f5268be28ac606dfc4c6387
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074095"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51183720"
 ---
-# <a name="collect-support-logs-in-microsoft-defender-for-endpoint-using-live-response"></a><span data-ttu-id="699ff-104">라이브 응답을 사용하여 끝점용 Microsoft Defender에서 지원 로그 수집</span><span class="sxs-lookup"><span data-stu-id="699ff-104">Collect support logs in Microsoft Defender for Endpoint using live response</span></span> 
+# <a name="collect-support-logs-in-microsoft-defender-for-endpoint-using-live-response"></a><span data-ttu-id="1c654-104">라이브 응답을 사용하여 끝점용 Microsoft Defender에서 지원 로그 수집</span><span class="sxs-lookup"><span data-stu-id="1c654-104">Collect support logs in Microsoft Defender for Endpoint using live response</span></span> 
 
 
-<span data-ttu-id="699ff-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="699ff-105">**Applies to:**</span></span>
-- [<span data-ttu-id="699ff-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="699ff-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2146631)
-- [<span data-ttu-id="699ff-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="699ff-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="1c654-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="1c654-105">**Applies to:**</span></span>
+- [<span data-ttu-id="1c654-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="1c654-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="1c654-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="1c654-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="699ff-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="699ff-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="699ff-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="699ff-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
+> <span data-ttu-id="1c654-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="1c654-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="1c654-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="1c654-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
-<span data-ttu-id="699ff-110">지원에 문의할 때 끝점용 Microsoft Defender 클라이언트 분석기 도구의 출력 패키지를 제공해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="699ff-110">When contacting support, you may be asked to provide the output package of the Microsoft Defender for Endpoint Client Analyzer tool.</span></span>
+<span data-ttu-id="1c654-110">지원에 문의할 때 끝점용 Microsoft Defender 클라이언트 분석기 도구의 출력 패키지를 제공해야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1c654-110">When contacting support, you may be asked to provide the output package of the Microsoft Defender for Endpoint Client Analyzer tool.</span></span>
 
-<span data-ttu-id="699ff-111">이 항목에서는 Live Response를 통해 도구를 실행하는 방법에 대한 지침을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="699ff-111">This topic provides instructions on how to run the tool via Live Response.</span></span>
+<span data-ttu-id="1c654-111">이 항목에서는 Live Response를 통해 도구를 실행하는 방법에 대한 지침을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="1c654-111">This topic provides instructions on how to run the tool via Live Response.</span></span>
 
-1. <span data-ttu-id="699ff-112">적절한 스크립트 다운로드</span><span class="sxs-lookup"><span data-stu-id="699ff-112">Download the appropriate script</span></span>
-    * <span data-ttu-id="699ff-113">끝점용 Microsoft Defender 클라이언트 센서 로그만:LiveAnalyzer.ps1 [스크립트.](https://aka.ms/MDELiveAnalyzer)</span><span class="sxs-lookup"><span data-stu-id="699ff-113">Microsoft Defender for Endpoint client sensor logs only: [LiveAnalyzer.ps1 script](https://aka.ms/MDELiveAnalyzer).</span></span>
-      - <span data-ttu-id="699ff-114">결과 패키지 대략적인 크기: ~100Kb</span><span class="sxs-lookup"><span data-stu-id="699ff-114">Result package approximate size: ~100Kb</span></span> 
-    *  <span data-ttu-id="699ff-115">Microsoft Defender for Endpoint 클라이언트 센서 및 바이러스 백신 로그: [LiveAnalyzer+MDAV.ps1 스크립트입니다.](https://aka.ms/MDELiveAnalyzerAV)</span><span class="sxs-lookup"><span data-stu-id="699ff-115">Microsoft Defender for Endpoint client sensor and Antivirus logs: [LiveAnalyzer+MDAV.ps1 script](https://aka.ms/MDELiveAnalyzerAV).</span></span>
-       - <span data-ttu-id="699ff-116">결과 패키지 대략적인 크기: ~10Mb</span><span class="sxs-lookup"><span data-stu-id="699ff-116">Result package approximate size: ~10Mb</span></span> 
+1. <span data-ttu-id="1c654-112">적절한 스크립트 다운로드</span><span class="sxs-lookup"><span data-stu-id="1c654-112">Download the appropriate script</span></span>
+    * <span data-ttu-id="1c654-113">끝점용 Microsoft Defender 클라이언트 센서 로그만:LiveAnalyzer.ps1 [스크립트.](https://aka.ms/MDELiveAnalyzer)</span><span class="sxs-lookup"><span data-stu-id="1c654-113">Microsoft Defender for Endpoint client sensor logs only: [LiveAnalyzer.ps1 script](https://aka.ms/MDELiveAnalyzer).</span></span>
+      - <span data-ttu-id="1c654-114">결과 패키지 대략적인 크기: ~100Kb</span><span class="sxs-lookup"><span data-stu-id="1c654-114">Result package approximate size: ~100Kb</span></span> 
+    *  <span data-ttu-id="1c654-115">Microsoft Defender for Endpoint 클라이언트 센서 및 바이러스 백신 로그: [LiveAnalyzer+MDAV.ps1 스크립트입니다.](https://aka.ms/MDELiveAnalyzerAV)</span><span class="sxs-lookup"><span data-stu-id="1c654-115">Microsoft Defender for Endpoint client sensor and Antivirus logs: [LiveAnalyzer+MDAV.ps1 script](https://aka.ms/MDELiveAnalyzerAV).</span></span>
+       - <span data-ttu-id="1c654-116">결과 패키지 대략적인 크기: ~10Mb</span><span class="sxs-lookup"><span data-stu-id="1c654-116">Result package approximate size: ~10Mb</span></span> 
  
-2.  <span data-ttu-id="699ff-117">조사해야 [하는](live-response.md#initiate-a-live-response-session-on-a-device) 컴퓨터의 실시간 응답 세션을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="699ff-117">Initiate a [Live Response session](live-response.md#initiate-a-live-response-session-on-a-device) on the machine you need to investigate.</span></span>
+2.  <span data-ttu-id="1c654-117">조사해야 [하는](live-response.md#initiate-a-live-response-session-on-a-device) 컴퓨터의 실시간 응답 세션을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="1c654-117">Initiate a [Live Response session](live-response.md#initiate-a-live-response-session-on-a-device) on the machine you need to investigate.</span></span>
 
-3.  <span data-ttu-id="699ff-118">라이브러리에 **파일 업로드를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="699ff-118">Select **Upload file to library**.</span></span>
+3.  <span data-ttu-id="1c654-118">라이브러리에 **파일 업로드를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="1c654-118">Select **Upload file to library**.</span></span>
 
     ![업로드 파일의 이미지](images/upload-file.png)
 
-4. <span data-ttu-id="699ff-120">파일 **선택 을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="699ff-120">Select **Choose file**.</span></span>
+4. <span data-ttu-id="1c654-120">파일 **선택 을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="1c654-120">Select **Choose file**.</span></span>
 
     ![파일 선택 단추의 이미지1](images/choose-file.png)
 
-5. <span data-ttu-id="699ff-122">이름이 MDELiveAnalyzer.ps1 파일을 선택한 다음 확인을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="699ff-122">Select the downloaded file named MDELiveAnalyzer.ps1 and then click on **Confirm**</span></span>
+5. <span data-ttu-id="1c654-122">이름이 MDELiveAnalyzer.ps1 파일을 선택한 다음 확인을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="1c654-122">Select the downloaded file named MDELiveAnalyzer.ps1 and then click on **Confirm**</span></span>
 
 
    ![파일 선택 단추 2의 이미지](images/analyzer-file.png)
 
 
-6. <span data-ttu-id="699ff-124">LiveResponse 세션에서 여전히 아래 명령을 사용하여 분석기를 실행하고 결과 파일을 수집합니다.</span><span class="sxs-lookup"><span data-stu-id="699ff-124">While still in the LiveResponse session, use the commands below to run the analyzer and collect the result file:</span></span>
+6. <span data-ttu-id="1c654-124">LiveResponse 세션에서 여전히 아래 명령을 사용하여 분석기를 실행하고 결과 파일을 수집합니다.</span><span class="sxs-lookup"><span data-stu-id="1c654-124">While still in the LiveResponse session, use the commands below to run the analyzer and collect the result file:</span></span>
 
     ```console
     Run MDELiveAnalyzer.ps1
@@ -70,11 +70,11 @@ ms.locfileid: "51074095"
 
 
 >[!NOTE]
-> - <span data-ttu-id="699ff-126">MDEClientAnalyzer의 최신 미리 보기 버전은 에서 다운로드할 수 [https://aka.ms/Betamdeanalyzer](https://aka.ms/Betamdeanalyzer) 있습니다. .</span><span class="sxs-lookup"><span data-stu-id="699ff-126">The latest preview version of MDEClientAnalyzer can be downloaded here: [https://aka.ms/Betamdeanalyzer](https://aka.ms/Betamdeanalyzer).</span></span>
+> - <span data-ttu-id="1c654-126">MDEClientAnalyzer의 최신 미리 보기 버전은 에서 다운로드할 수 [https://aka.ms/Betamdeanalyzer](https://aka.ms/Betamdeanalyzer) 있습니다. .</span><span class="sxs-lookup"><span data-stu-id="1c654-126">The latest preview version of MDEClientAnalyzer can be downloaded here: [https://aka.ms/Betamdeanalyzer](https://aka.ms/Betamdeanalyzer).</span></span>
 > 
-> - <span data-ttu-id="699ff-127">LiveAnalyzer 스크립트는 다음에서 대상 컴퓨터의 문제 해결 패키지를 https://mdatpclientanalyzer.blob.core.windows.net 다운로드합니다.</span><span class="sxs-lookup"><span data-stu-id="699ff-127">The LiveAnalyzer script downloads the troubleshooting package on the destination machine from: https://mdatpclientanalyzer.blob.core.windows.net.</span></span>
+> - <span data-ttu-id="1c654-127">LiveAnalyzer 스크립트는 다음에서 대상 컴퓨터의 문제 해결 패키지를 https://mdatpclientanalyzer.blob.core.windows.net 다운로드합니다.</span><span class="sxs-lookup"><span data-stu-id="1c654-127">The LiveAnalyzer script downloads the troubleshooting package on the destination machine from: https://mdatpclientanalyzer.blob.core.windows.net.</span></span>
 > 
->   <span data-ttu-id="699ff-128">컴퓨터의 위 URL에 도달하도록 허용할 수 없는 경우 LiveAnalyzer 스크립트를 실행하기 전에 MDEClientAnalyzerPreview.zip 파일을 라이브러리에 업로드합니다.</span><span class="sxs-lookup"><span data-stu-id="699ff-128">If you cannot allow the machine to reach the above URL, then upload MDEClientAnalyzerPreview.zip file to the library before running the LiveAnalyzer script:</span></span>
+>   <span data-ttu-id="1c654-128">컴퓨터의 위 URL에 도달하도록 허용할 수 없는 경우 LiveAnalyzer 스크립트를 실행하기 전에 MDEClientAnalyzerPreview.zip 파일을 라이브러리에 업로드합니다.</span><span class="sxs-lookup"><span data-stu-id="1c654-128">If you cannot allow the machine to reach the above URL, then upload MDEClientAnalyzerPreview.zip file to the library before running the LiveAnalyzer script:</span></span>
 >
 >   ```console
 >   PutFile MDEClientAnalyzerPreview.zip -overwrite
@@ -82,4 +82,4 @@ ms.locfileid: "51074095"
 >   GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip" -auto
 >   ```
 > 
-> - <span data-ttu-id="699ff-129">컴퓨터의 끝점 클라우드 서비스용 Microsoft Defender와 통신하지 않는 경우 또는 끝점용 Microsoft Defender 포털에 예상대로 나타나지 않는 경우 컴퓨터의 데이터를 로컬로 수집하는 데 대한 자세한 내용은 끝점 서비스 [URL에 대한 Microsoft Defender에](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-atp-service-urls)대한 클라이언트 연결 확인을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="699ff-129">For more information on gathering data locally on a machine in case the machine isn't communicating with Microsoft Defender for Endpoint cloud services, or does not appear in Microsoft Defender for Endpoint portal as expected, see [Verify client connectivity to Microsoft Defender for Endpoint service URLs](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-atp-service-urls).</span></span>
+> - <span data-ttu-id="1c654-129">컴퓨터의 끝점 클라우드 서비스용 Microsoft Defender와 통신하지 않는 경우 또는 끝점용 Microsoft Defender 포털에 예상대로 나타나지 않는 경우 컴퓨터의 데이터를 로컬로 수집하는 데 대한 자세한 내용은 끝점 서비스 [URL에 대한 Microsoft Defender에](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-atp-service-urls)대한 클라이언트 연결 확인을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="1c654-129">For more information on gathering data locally on a machine in case the machine isn't communicating with Microsoft Defender for Endpoint cloud services, or does not appear in Microsoft Defender for Endpoint portal as expected, see [Verify client connectivity to Microsoft Defender for Endpoint service URLs](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-atp-service-urls).</span></span>
