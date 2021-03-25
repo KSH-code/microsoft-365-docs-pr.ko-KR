@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: 사용자는 사용 권한이 있는 공유 사서함으로 전송된 분리된 메시지를 보고 해당 메시지를 보는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9490a9d5b2b4191d6c039be2758e2e0ba0c981cd
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6e3bf4c84e7a762f7f54f42ff61f0fbdb9dc1edd
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206249"
+ms.locfileid: "51215507"
 ---
 # <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>공유 사서함에서 분리된 메시지 보기 및 릴리스
 
@@ -51,7 +51,9 @@ ms.locfileid: "51206249"
 
 - 현재 공유  사서함으로 전송된 고지된  메시지에 대한 세부 정보 플라이아웃에서 보낸 사람 차단 단추를 사용할 수 없습니다.
 
-- [Exchange Online PowerShell에서](/powershell/exchange/connect-to-exchange-online-powershell)공유 사서함에 대해 quarantined messages를 관리하려면 최종 사용자가 _RecipientAddress_ 매개 변수 값에 대해 공유 사서함 전자 메일 주소와 [함께 Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) cmdlet을 사용하여 메시지를 식별해야 합니다. 예를 들면 다음과 같습니다.
+- 공유 사서함에 대한 검지 작업과 관련하여 중첩된 보안 그룹을 사용하여 공유 사서함에 대한 액세스 권한을 부여하는 경우 중첩된 그룹의 수준은 두 개를 넘지하는 것이 좋습니다. 예를 들어 그룹 A는 그룹 C의 구성원인 그룹 B의 구성원입니다. 공유 사서함에 사용 권한을 할당하려면 그룹을 A에 추가한 다음 그룹 C를 공유 사서함에 할당하지 않습니다.  
+
+- [Exchange Online PowerShell에서](/powershell/exchange/connect-to-exchange-online-powershell)공유 사서함에 대해 quarantined messages를 관리하려면 최종 사용자가 _RecipientAddress_ 매개 변수 값에 대해 공유 사서함 전자 메일 주소와 [함께 Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) cmdlet을 사용하여 메시지를 식별해야 합니다. 예:
 
   ```powershell
   Get-QuarantinedMessage -RecipientAddress officeparty@contoso.com
