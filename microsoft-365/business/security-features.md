@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: PC, 휴대폰 및 태블릿에서 데이터를 보호하기 위해 Microsoft 365 Business Premium과 함께 제공된 보안 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: d641fc66e27f3c5e0a7c8609e4fa25fac93d8561
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f04a998c74128edac306167617e073c412fce2ea
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052257"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198414"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premium 보안 및 규정 준수 기능
 
@@ -63,7 +63,7 @@ Microsoft 365 Business Premium은 PC, 휴대폰 및 태블릿에서 데이터를
 
 Microsoft 365 Business Premium의 고급 기능을 사용하여 사이버 위협으로부터 비즈니스를 보호하고 중요한 정보를 보호할 수 있습니다.
   
-- **[Office 365용 Microsoft Defender](../security/defender-365-security/defender-for-office-365.md)**
+- **[Office 365용 Microsoft Defender](../security/office-365-security/defender-for-office-365.md)**
     
     Microsoft Defender for Office 365는 직원 또는 고객 정보를 손상하도록 설계된 정교한 피싱 및 랜섬웨어 공격을 방지하는 데 도움이 됩니다. 기능은 다음과 같습니다.
     

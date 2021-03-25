@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 0902dce0af3c101cbaf7ff526beb71e9f46a1bf4
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 434c318be404ffb04cac7a05664c8f001bb46507
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187520"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198864"
 ---
 # <a name="deploy-supported-services"></a>지원 서비스 배포
 
@@ -78,7 +78,7 @@ Microsoft 365 Defender의 완전한 이점을 얻기 위해 지원되는 모든 
 | 서비스 | 프로비저닝 지침 | 초기 구성 |
 | ------ | ------ | ------ |
 | 엔드포인트용 Microsoft Defender | [끝점용 Microsoft Defender 배포 가이드](../defender-endpoint/deployment-phases.md) | *프로비저닝 지침 참조* |
-|Office 365용 Microsoft Defender | *없음, Office 365로 프로비전* | [Office 365용 Microsoft Defender 정책 구성](/microsoft-365/security/defender-365-security/defender-for-office-365#configure-atp-policies) |
+|Office 365용 Microsoft Defender | *없음, Office 365로 프로비전* | [Office 365용 Microsoft Defender 정책 구성](/microsoft-365/security/office-365-security/defender-for-office-365#configure-atp-policies) |
 | ID용 Microsoft Defender | [빠른 시작: ID용 Microsoft Defender 인스턴스 만들기](/azure-advanced-threat-protection/install-atp-step1) | *프로비저닝 지침 참조* |
 | Microsoft Cloud App Security | *없음* | [빠른 시작: Microsoft Cloud App Security 시작](/cloud-app-security/getting-started-with-cloud-app-security) |
 
@@ -89,6 +89,6 @@ Microsoft 365 Defender의 완전한 이점을 얻기 위해 지원되는 모든 
 - [Microsoft 365 Defender 개요](microsoft-365-defender.md)
 - [Microsoft 365 Defender 켜기](m365d-enable.md)
 - [끝점용 Microsoft Defender 개요](../defender-endpoint/microsoft-defender-endpoint.md)
-- [Microsoft Defender for Office 365 개요](../defender-365-security/defender-for-office-365.md)
+- [Microsoft Defender for Office 365 개요](../office-365-security/defender-for-office-365.md)
 - [Microsoft Cloud App Security 개요](/cloud-app-security/what-is-cloud-app-security)
 - [Microsoft Defender for Identity 개요](/azure-advanced-threat-protection/what-is-atp)

@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-compliance
 localization_priority: Normal
 description: Microsoft 365에서 규정 준수를 빠르게 시작하는 데 도움이 되는 작업에 대해 설명합니다.
-ms.openlocfilehash: b8a6f98a38dcb6096287cbc2389648c0e7457e5c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 503e15c8b363dcd63c010d31384565f6e1a8af61
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052106"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197925"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Microsoft 365 규정 준수를 시작하기 위한 빠른 작업
 
@@ -34,7 +34,7 @@ Microsoft 365 규정 준수를 새로 시작하고 시작할 위치가 궁금한
 
 먼저 조직 내 사용자에게 규정 준수 권한을 할당하여 이러한 작업을 수행할 수 있도록 하고 권한이 없는 사용자가 업무 외의 영역에 액세스하지 못하도록 합니다. Microsoft 365에 포함된 규정 준수 솔루션을 구성하고 구현하기  전에 규정 준수 데이터 관리자 및 준수 관리자 관리자 역할에 적절한 인원을 할당해야 합니다.  또한 준수 관리자에서 데이터를 보기 위해 Azure Active Directory 전역 읽기 프로그램 역할에 사용자를 할당해야 합니다.
 
-사용 권한을 구성하고 관리자 역할에 사용자 할당을 위한 단계별 지침은 Security & Compliance Center의 사용 권한을 [참조하세요.](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md)
+사용 권한을 구성하고 관리자 역할에 사용자 할당을 위한 단계별 지침은 Security & Compliance Center의 사용 권한을 [참조하세요.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 
 ## <a name="task-2-know-your-state-of-compliance"></a>작업 2: 규정 준수 상태 알기
 
@@ -49,7 +49,7 @@ Microsoft 365 규정 준수를 새로 시작하고 시작할 위치가 궁금한
 >
 >Microsoft [365](../security/defender/microsoft-secure-score.md) 보안 센터에서 Microsoft 365 보안 점수를 확인하고 다음 문서에 설명된 작업을 완료합니다.
 >
-> - [보안 로드맵 - 처음 30일, 90일 및 그 이상에 대한 최상위 우선 순위](../security/defender-365-security/security-roadmap.md)
+> - [보안 로드맵 - 처음 30일, 90일 및 그 이상에 대한 최상위 우선 순위](../security/office-365-security/security-roadmap.md)
 > - [보안 팀이 집에서 작업할 수 있는 상위 12개 작업](../security/top-security-tasks-for-remote-work.md)
 
 ## <a name="task-3-enable-auditing-for-your-organization"></a>작업 3: 조직에 대한 감사를 사용하도록 설정

@@ -103,6 +103,8 @@
           href: view-bill.md
         - name: 새 라이선스 구입
           href: buy-licenses.md
+        - name: 기존 라이선스 제거
+          href: remove-existing-licenses.md
         - name: 결제 방법 업데이트
           href: update-payment.md
         - name: 사용자 암호 다시 설정

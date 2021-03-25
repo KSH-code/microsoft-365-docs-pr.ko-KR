@@ -3,7 +3,7 @@ title: Microsoft 365 보안 설명서
 summary: Microsoft 365 보안의 강력한 보안 솔루션 및 서비스에 대해 알아보고 공격 영역 전체에서 기업을 보다 효과적으로 보호할 수 있습니다.
 metadata:
   title: Microsoft 365 보안 설명서
-  description: Microsoft 365 보안의 강력한 보안 솔루션 및 서비스에 대해 알아보고 공격 영역 전체에서 기업을 보다 효과적으로 보호할 수 있습니다.
+  description: 엔드포인트용 Microsoft Defender에 대해 자세히 알아보고, 사이버 위협으로부터 엔드포인트를 보호하고, 보안 운영 팀에 위협을 교정할 수 있는 기능을 제공합니다.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -11,34 +11,34 @@ metadata:
   ms.collection: m365-security-compliance
   author: mjcaparas
   ms.author: macapara
-  ms.date: 09/13/2019
+  ms.date: 02/05/2021
   localization_priority: Priority
-  ms.openlocfilehash: 6a670287c98d185e4b9acfeb39715c5e1ddf177a
-  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+  ms.openlocfilehash: 7d8ccae1b9185beacef027e6e0c73db2a1fdd017
+  ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/19/2021
-  ms.locfileid: "50928979"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51052413"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
   - linkListType: overview
     links:
     - text: Microsoft 365 Defender란 무엇인가요?
-      url: mtp/microsoft-threat-protection.md
+      url: defender/microsoft-365-defender.md
     - text: Microsoft 365 보안 센터
-      url: mtp/overview-security-center.md
+      url: defender/overview-security-center.md
 - title: 무료 평가판으로 시작
   linkLists:
-  - linkListType: overview
+  - linkListType: get-started
     links:
     - text: Microsoft 365 Defender 계산
-      url: mtp/mtp-evaluation.md
+      url: defender/m365d-evaluation.md
     - text: Microsoft 365 Defender 파일럿 플레이북
-      url: mtp/mtp-pilot.md
+      url: defender/m365d-pilot.md
 - title: 원격 작업자 보안 유지
   linkLists:
-  - linkListType: get-started
+  - linkListType: how-to-guide
     links:
     - text: 원격 작업자 보안 유지
       url: /enterprise-mobility-security/remote-work/
@@ -55,10 +55,10 @@ landingContent:
   - linkListType: overview
     links:
     - text: Office 365용 Defender란 무엇인가요?
-      url: office-365-security/office-365-atp.md
+      url: defender-365-security/defender-for-office-365.md
     - text: Office 365용 Defender 서비스 설명
       url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-- title: 엔드포인트용 Defender
+- title: 엔드포인트용 Microsoft Defender
   linkLists:
   - linkListType: overview
     links:
@@ -87,7 +87,7 @@ landingContent:
   - linkListType: overview
     links:
     - text: 보안 점수
-      url: mtp/microsoft-secure-score.md
+      url: defender/microsoft-secure-score.md
 - title: Azure Sentinel
   linkLists:
   - linkListType: overview

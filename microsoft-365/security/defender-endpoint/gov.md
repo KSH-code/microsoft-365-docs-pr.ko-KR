@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 31928deddc2a504cc0b6c91af287e4977791c920
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1fd128a9b734606039438db1f6d9fbc36e93a3b9
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073908"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199017"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>미국 정부 고객을 위한 끝점용 Microsoft Defender
 
@@ -76,25 +76,25 @@ DoD(미리 보기) | https://securitycenter.microsoft.us
 OS 버전 | GCC | GCC 높음 | DoD(미리 보기)
 :---|:---|:---|:---
 Windows 10 버전 [20H2(KB4586853](https://support.microsoft.com/help/4586853)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
-Windows 10 버전 [2004(KB4586853](https://support.microsoft.com/help/4586853)사용) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Windows 10 버전 [1909(KB4586819](https://support.microsoft.com/help/4586819)사용) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Windows 10 버전 [1903(KB4586819](https://support.microsoft.com/help/4586819)사용) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Windows 10 버전 [1809(KB4586839)](https://support.microsoft.com/help/4586839) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Windows 10 버전 [1803(KB4598245](https://support.microsoft.com/help/4598245)사용) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Windows 10 버전 1709 | ![아니요](/security/defender-endpoint/images/svg/check-no)<br>참고: 지원되지 않습니다. | ![](/security/defender-endpoint/images/svg/check-yes) [예(KB4499147)](https://support.microsoft.com/help/4499147)<br>참고: [사용되지 않습니다.](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709)업그레이드하십시오. | ![아니요](/security/defender-endpoint/images/svg/check-no)<br>참고: 지원되지 않습니다.
-Windows 10 버전 1703 이전 버전 | ![아니요](/security/defender-endpoint/images/svg/check-no)<br>참고: 지원되지 않습니다. | ![아니요](/security/defender-endpoint/images/svg/check-no)<br>참고: 지원되지 않습니다. | ![아니요](/security/defender-endpoint/images/svg/check-no)<br>참고: 지원되지 않습니다.
-Windows Server [2019(KB4586839](https://support.microsoft.com/help/4586839)사용) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Windows Server 2016 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Windows Server 2012 R2 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Windows Server 2008 R2 SP1 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Windows 8.1 Enterprise | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Windows 8 Pro | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Windows 7 SP1 Enterprise | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Windows 7 SP1 Pro | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Linux | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
-macOS | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
-Android | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
-iOS | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
+Windows 10 버전 [2004(KB4586853](https://support.microsoft.com/help/4586853)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows 10 버전 [1909(KB4586819](https://support.microsoft.com/help/4586819)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows 10 버전 [1903(KB4586819](https://support.microsoft.com/help/4586819)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows 10 버전 [1809(KB4586839)](https://support.microsoft.com/help/4586839) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows 10 버전 [1803(KB4598245](https://support.microsoft.com/help/4598245)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows 10 버전 1709 | ![아니요](images/svg/check-no.svg)<br>참고: 지원되지 않습니다. | ![](images/svg/check-yes.svg) [예(KB4499147)](https://support.microsoft.com/help/4499147)<br>참고: [사용되지 않습니다.](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709)업그레이드하십시오. | ![아니요](images/svg/check-no.svg)<br>참고: 지원되지 않습니다.
+Windows 10 버전 1703 이전 버전 | ![아니요](images/svg/check-no.svg)<br>참고: 지원되지 않습니다. | ![아니요](images/svg/check-no.svg)<br>참고: 지원되지 않습니다. | ![아니요](images/svg/check-no.svg)<br>참고: 지원되지 않습니다.
+Windows Server [2019(KB4586839](https://support.microsoft.com/help/4586839)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows Server 2016 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows Server 2012 R2 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows Server 2008 R2 SP1 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows 8.1 Enterprise | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows 8 Pro | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows 7 SP1 Enterprise | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows 7 SP1 Pro | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Linux | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
+macOS | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
+Android | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
+iOS | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
 
 > [!NOTE]
 > 패치가 지정된 경우 올바른 환경으로 끝점에 대한 Defender를 구성하려면 장치 온보딩 전에 패치를 배포해야 합니다.
@@ -107,9 +107,9 @@ iOS | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 �
 
 OS 버전 | GCC | GCC 높음 | DoD(미리 보기)
 :---|:---|:---|:---
-Windows Server 2016 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Windows Server 2012 R2 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Windows Server 2008 R2 SP1 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
+Windows Server 2016 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows Server 2012 R2 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Windows Server 2008 R2 SP1 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 
 <br>
 
@@ -147,24 +147,24 @@ Endpoint용 Defender에는 상업용 제품과 완전한 패리티가 없습니�
 
 기능 이름 | GCC | GCC 높음 | DoD(미리 보기)
 :---|:---|:---|:---
-자동화된 조사 및 수정: 라이브 응답 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-자동화된 조사 및 수정: Office 365 경고에 대한 응답 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
-이메일 알림 | ![아니요](/security/defender-endpoint/images/svg/check-no) 배포 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 배포 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 배포 중
-평가 랩 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-관리 및 API: 장치 상태 및 규정 준수 보고서 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-관리 및 API: 타사 제품과의 통합 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
-관리 및 API: 스트리밍 API | ![예](/security/defender-endpoint/images/svg/check-yes) | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
-관리 및 API: 위협 방지 보고서 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-위협 & 취약성 관리 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-위협 분석 | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-웹 콘텐츠 필터링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
-통합: Azure Sentinel | ![예](/security/defender-endpoint/images/svg/check-yes) | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
-통합: Microsoft Cloud App Security | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
-통합: Microsoft 준수 관리자 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
-통합: Id용 Microsoft Defender | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
-통합: Office 365용 Microsoft Defender | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
-통합: Microsoft Endpoint DLP | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
-통합: Microsoft Intune | ![예](/security/defender-endpoint/images/svg/check-yes) | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
-통합: Microsoft Power Automate & Azure Logic Apps | ![예](/security/defender-endpoint/images/svg/check-yes) | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중 | ![아니요](/security/defender-endpoint/images/svg/check-no) 개발 중
-통합: 비즈니스용 Skype/Teams | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes) | ![예](/security/defender-endpoint/images/svg/check-yes)
-Microsoft 위협 전문가 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링 | ![아니요](/security/defender-endpoint/images/svg/check-no) 백로그 엔지니어링
+자동화된 조사 및 수정: 라이브 응답 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+자동화된 조사 및 수정: Office 365 경고에 대한 응답 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
+이메일 알림 | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중
+평가 랩 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+관리 및 API: 장치 상태 및 규정 준수 보고서 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+관리 및 API: 타사 제품과의 통합 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
+관리 및 API: 스트리밍 API | ![예](images/svg/check-yes.svg) | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
+관리 및 API: 위협 방지 보고서 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+위협 & 취약성 관리 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+위협 분석 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+웹 콘텐츠 필터링 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
+통합: Azure Sentinel | ![예](images/svg/check-yes.svg) | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
+통합: Microsoft Cloud App Security | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
+통합: Microsoft 준수 관리자 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
+통합: Id용 Microsoft Defender | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
+통합: Office 365용 Microsoft Defender | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
+통합: Microsoft Endpoint DLP | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
+통합: Microsoft Intune | ![예](images/svg/check-yes.svg) | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
+통합: Microsoft Power Automate & Azure Logic Apps | ![예](images/svg/check-yes.svg) | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
+통합: 비즈니스용 Skype/Teams | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+Microsoft 위협 전문가 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링

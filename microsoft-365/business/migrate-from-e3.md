@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 E3에서 Microsoft 365 Business Premium으로 비즈니스를 이동하는 방법을 학습합니다.
-ms.openlocfilehash: 3f9fd70b2d31b32027981e638de249d92e98ea08
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: cb70260201686cae02428c715ac98ffe2f88787f
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164536"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198100"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Office 365 E3에서 Microsoft 365 Business Premium으로 마이그레이션
 
@@ -122,7 +122,7 @@ Microsoft 365 Business Premium의 저장소 제한은 50GB로, Exchange Online �
 
 ### <a name="threat-protection"></a>위협 방지
 
-Microsoft 365 Business Premium으로 마이그레이션한 후 Office 365용 Defender가 있습니다. 개요는 [Microsoft Defender for Office 365를](../security/defender-365-security/defender-for-office-365.md) 참조하세요. 설정하는 내용은 [안전한](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)링크 [설정,](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)안전한 첨부 파일 설정 및 [Office 365용 Defender에서](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)피싱 방지 설정 을 참조하세요.
+Microsoft 365 Business Premium으로 마이그레이션한 후 Office 365용 Defender가 있습니다. 개요는 [Microsoft Defender for Office 365를](../security/office-365-security/defender-for-office-365.md) 참조하세요. 설정하는 내용은 [안전한](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)링크 [설정,](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)안전한 첨부 파일 설정 및 [Office 365용 Defender에서](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)피싱 방지 설정 을 참조하세요.
 
 ### <a name="sensitivity-labels"></a>민감도 레이블
 

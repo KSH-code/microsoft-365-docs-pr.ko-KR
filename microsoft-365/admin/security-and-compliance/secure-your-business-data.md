@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: '랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호합니다. '
-ms.openlocfilehash: 7affa7a2adaa166861c2932ebe32177335236114
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e45130d101c6e730fd2d487f5f8898c7cd268ab8
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050681"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197854"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>비즈니스용 Microsoft 365 계획을 보호하는 상위 10가지 방법
 
@@ -132,7 +132,7 @@ Microsoft 365 환경에는 맬웨어에 대한 보호가 포함되어 있지만 
 
 6. 저장을 **선택합니다.**
 
-자세한 내용은 [EOP의 맬웨어 방지 보호를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-365-security/anti-malware-protection)
+자세한 내용은 [EOP의 맬웨어 방지 보호를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-malware-protection)
 
 ## <a name="5-protect-against-ransomware"></a>5: 랜섬웨어로부터 보호
 <a name="ransomware"> </a>
@@ -254,7 +254,7 @@ Office 365용 Defender에서 피싱 방지 정책을 만들거나 [](https://sup
 
 4. 피싱 방지 페이지에서 **+ 만들기를 선택합니다.** 피싱 방지 정책을 정의하는 단계를 안내하는 마법사가 실행됩니다.
 
-5. 아래 차트에서 권장되는 정책의 이름, 설명 및 설정을 지정합니다. 자세한 [내용은 Microsoft Defender for Office 365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/set-up-anti-phishing-policies) 옵션의 피싱 방지 정책에 대한 자세한 정보를 참조하세요.
+5. 아래 차트에서 권장되는 정책의 이름, 설명 및 설정을 지정합니다. 자세한 [내용은 Microsoft Defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies) 옵션의 피싱 방지 정책에 대한 자세한 정보를 참조하세요.
 
 6. 설정을 검토한 후 이  정책 만들기 또는 **저장을** 적절하게 선택합니다.
 
@@ -270,7 +270,7 @@ Office 365용 Defender에서 피싱 방지 정책을 만들거나 [](https://sup
 |적용 대상|**받는 사람의 도메인이 다음과 같음** 을 선택합니다. **이러한 항목 모두** 아래에서 **선택** 을 선택합니다. **+ 추가** 를 선택합니다. 도메인 이름 옆의 확인란을 선택하고(예 contoso.com 목록에서 추가를 **선택합니다.** **완료** 를 선택합니다.|
 |
 
-자세한 내용은 [Office 365용 Defender에서](https://docs.microsoft.com/microsoft-365/security/defender-365-security/configure-atp-anti-phishing-policies)피싱 방지 정책 설정 을 참조하세요.
+자세한 내용은 [Office 365용 Defender에서](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies)피싱 방지 정책 설정 을 참조하세요.
 
 ## <a name="9-protect-against-malicious-attachments-and-files-with-safe-attachments"></a>9: 안전한 첨부 파일을 통해 악의적인 첨부 파일 및 파일로부터 보호
 <a name="atp"> </a>
@@ -302,7 +302,7 @@ Office 365용 Defender에서 피싱 방지 정책을 만들거나 [](https://sup
 |적용 대상|받는 사람 도메인은 입니다. . . 도메인을 선택합니다.|
 |
 
-자세한 내용은 [Office 365용 Defender에서](https://docs.microsoft.com/microsoft-365/security/defender-365-security/configure-atp-anti-phishing-policies)피싱 방지 정책 설정 을 참조하세요.
+자세한 내용은 [Office 365용 Defender에서](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies)피싱 방지 정책 설정 을 참조하세요.
 
 ## <a name="10-protect-against-phishing-attacks-with-safe-links"></a>10: 안전한 링크를 통해 피싱 공격으로부터 보호
 <a name="phishingatp"> </a>
@@ -349,4 +349,4 @@ Office 365용 Defender에서 피싱 방지 정책을 만들거나 [](https://sup
 |적용 대상|받는 사람 도메인은 입니다. . . 도메인을 선택합니다.|
 |
 
-자세한 내용은 [Office 365용 Microsoft Defender의 안전한 링크를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-365-security/atp-safe-links)
+자세한 내용은 [Office 365용 Microsoft Defender의 안전한 링크를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 25f1a177571862e92c502b584bbd51801141069a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8940d1dd370f804f8539bf4e753b1112d3c8d3bf
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076700"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198200"
 ---
 # <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 
@@ -58,8 +58,8 @@ ms.locfileid: "51076700"
 ## <a name="supported-event-types"></a>지원되는 이벤트 유형
 이 표에서는 다음 값으로 이벤트를 `ActionType` 캡처합니다.
 
-- **수동 수정** - 관리자가 사용자 사서함으로 배달된 후 전자 메일 메시지에 대한 작업을 수동으로 수행했습니다. 여기에는 위협 탐색기를 [통해](../defender-365-security/threat-explorer.md) 수동으로 수행한 작업 또는 자동화된 조사 및 대응(AIR) 작업의 [승인이 포함됩니다.](m365d-autoir-actions.md)
-- **피싱 ZAP** – 배달 후 피싱 전자 메일에 [대한 ZAP(제로](../defender-365-security/zero-hour-auto-purge.md) 아워 자동 제거)가 작업을 수행했습니다.
+- **수동 수정** - 관리자가 사용자 사서함으로 배달된 후 전자 메일 메시지에 대한 작업을 수동으로 수행했습니다. 여기에는 위협 탐색기를 [통해](../office-365-security/threat-explorer.md) 수동으로 수행한 작업 또는 자동화된 조사 및 대응(AIR) 작업의 [승인이 포함됩니다.](m365d-autoir-actions.md)
+- **피싱 ZAP** – 배달 후 피싱 전자 메일에 [대한 ZAP(제로](../office-365-security/zero-hour-auto-purge.md) 아워 자동 제거)가 작업을 수행했습니다.
 - **맬웨어 ZAP** - ZAP(제로 아워 자동 제거)는 배달 후 맬웨어가 포함된 전자 메일 메시지에 대해 작업을 수행했습니다.
 
 ## <a name="related-topics"></a>관련 항목

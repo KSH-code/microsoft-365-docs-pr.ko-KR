@@ -22,12 +22,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 8658b08f0d3948d6d23486ec885486e8bbfdf273
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 851fd05f0fec4b8d113e515783092eed0114db0f
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060720"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199116"
 ---
 # <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>자동화된 조사 및 응답 기능에서 가짓 긍정/부정 처리
 
@@ -48,7 +48,7 @@ ms.locfileid: "51060720"
 
 |누락되거나 잘못 검색된 항목 |서비스  |수행할 작업  |
 |---------|---------|---------|
-|- 전자 메일 메시지 <br/>- 전자 메일 첨부 파일 <br/>- 전자 메일 메시지의 URL<br/>- Office 파일의 URL      |[Office 365용 Microsoft Defender](/microsoft-365/security/defender-365-security/defender-for-office-365)        |[검색을 위해 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출](../defender-365-security/admin-submission.md)         |
+|- 전자 메일 메시지 <br/>- 전자 메일 첨부 파일 <br/>- 전자 메일 메시지의 URL<br/>- Office 파일의 URL      |[Office 365용 Microsoft Defender](/microsoft-365/security/office-365-security/defender-for-office-365)        |[검색을 위해 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출](../office-365-security/admin-submission.md)         |
 |디바이스의 파일 또는 앱    |[엔드포인트용 Microsoft Defender](/windows/security/threat-protection)         |[맬웨어 분석을 위해 Microsoft에 파일 제출](https://www.microsoft.com/wdsi/filesubmission)         |
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>가식이 재발하지 않도록 경고 조정

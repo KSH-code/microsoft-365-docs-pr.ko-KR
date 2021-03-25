@@ -22,12 +22,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 02/08/2021
-ms.openlocfilehash: 3d278c7fd06b2dd14bd9a8c0dcbe639d3c911828
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 05208dd8ba893d65db50430861ad5dd5ad9d34fb
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060719"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198972"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>자동화된 조사의 세부 정보 및 결과
 
@@ -42,7 +42,7 @@ Microsoft 365 Defender를 [](m365d-autoir.md) 통해 자동화된 조사가 실�
 
 ## <a name="new-unified-investigation-page"></a>(NEW!) 통합 조사 페이지
 
-조사 페이지가 최근에 장치, 전자 메일 및 공동 작업 콘텐츠에 대한 정보를 포함하기 위해 업데이트되었습니다. 새로운 통합 조사 페이지는 공통 언어를 정의하고 [끝점용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 및 [Office 365용 Microsoft Defender에서](../defender-365-security/defender-for-office-365.md)자동 조사를 위한 통합된 환경을 제공합니다. 통합 조사 페이지에 액세스하려면 노란색 배너의 링크를 선택합니다.
+조사 페이지가 최근에 장치, 전자 메일 및 공동 작업 콘텐츠에 대한 정보를 포함하기 위해 업데이트되었습니다. 새로운 통합 조사 페이지는 공통 언어를 정의하고 [끝점용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 및 [Office 365용 Microsoft Defender에서](../office-365-security/defender-for-office-365.md)자동 조사를 위한 통합된 환경을 제공합니다. 통합 조사 페이지에 액세스하려면 노란색 배너의 링크를 선택합니다.
 - Office 365 보안 및 준수 센터의 & 페이지( [https://protection.office.com](https://protection.office.com) )
 - Microsoft Defender 보안 센터의 모든 조사 페이지( [https://securitycenter.windows.com](https://securitycenter.windows.com) )
 - 개선된 Microsoft 365 보안 센터의 인시던트 또는 관리 센터 환경( [https://security.microsoft.com](https://security.microsoft.com) )

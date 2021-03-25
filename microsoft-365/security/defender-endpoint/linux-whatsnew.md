@@ -18,16 +18,22 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 43324b0f3a0d5d351d7164bb05415899bf7d181c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: dc3d775aced2ea3da42312cbf5a4d5e5af9fae50
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51070487"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198780"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-for-linux"></a>Linux용 끝점용 Microsoft Defender의 새로운
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+## <a name="1012364-30121021123640"></a>101.23.64 (30.121021.12364.0)
+
+- 전체 탑재 지점이 바이러스 백신 제외 목록에 추가되는 상황에 대한 성능 향상. 이 버전 이전에는 탑재 지점에서 시작된 파일 활동이 제품에 의해 계속 처리되었습니다. 이 버전부터 제외된 탑재 지점에 대한 파일 활동이 억제되고 제품 성능이 향상됩니다.
+- 마지막 명령줄 검사에 대한 정보를 볼 수 있는 새 옵션이 명령줄 도구에 추가되었습니다. 마지막 on-demand 검사에 대한 정보를 보기 위해 를 실행합니다. `mdatp health --details antivirus`
+- 버그 수정에 & 성능 향상
 
 ## <a name="1011853"></a>101.18.53
 

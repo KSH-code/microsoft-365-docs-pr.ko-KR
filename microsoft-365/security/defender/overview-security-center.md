@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 3b2e5d834caab9973006eda64e369a2a6aa17b5d
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 142bc305950f9322c90e0d207f255c14abbc6b8c
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163318"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197936"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>통합된 Microsoft 365 보안 센터 개요
 
@@ -36,15 +36,15 @@ ms.locfileid: "51163318"
 
 - [Microsoft 365 Defender](microsoft-365-defender.md)
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [Office 365용 Microsoft Defender](/microsoft-365/security/defender-365-security/defender-for-office-365)
+- [Office 365용 Microsoft Defender](/microsoft-365/security/office-365-security/defender-for-office-365)
 
-> Microsoft 365 Defender를 경험하고 싶나요? 랩 [환경에서 평가하거나](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) 프로덕션 [환경에서 파일럿](m365d-pilot.md?ocid=cx-evalpilot)프로젝트를 실행할 수 있습니다.
+> Microsoft 365 Defender를 경험해 보고 싶으신가요? [랩 환경에서 평가](m365d-evaluation.md?ocid=cx-docs-MTPtriallab)하거나 [프로덕션에서 파일럿 프로젝트를 실행](m365d-pilot.md?ocid=cx-evalpilot)할 수 있습니다.
 
 개선된 **Microsoft 365** 보안 센터( )는 중앙 포털에서 전자 메일, 공동 작업, ID 및 장치 위협에 대한 보호, 검색, 조사 및 [https://security.microsoft.com](https://security.microsoft.com) 응답을 결합합니다.    
 
 Microsoft 365 보안 센터는 Microsoft Defender 보안 센터 및 Office 365 보안 및 준수 센터와 같은 기존 Microsoft 보안 포털의 & 제공합니다. 보안 센터에서는 정보에 빠르게 액세스하고, 더 간단한 레이아웃을 사용하며, 관련 정보를 함께 모아 보다 쉽게 사용할 수 있도록 합니다. 이 센터에는 다음이 포함됩니다.
 
-- **[Office 365용 Microsoft Defender](/microsoft-365/security/defender-365-security/defender-for-office-365)** Microsoft Defender for Office 365는 조직이 전자 메일 및 Office 365 리소스를 보호하기 위한 예방, 검색, 조사 및 헌팅 기능 집합으로 엔터프라이즈를 보호하는 데 도움이 됩니다.
+- **[Office 365용 Microsoft Defender](/microsoft-365/security/office-365-security/defender-for-office-365)** Microsoft Defender for Office 365는 조직이 전자 메일 및 Office 365 리소스를 보호하기 위한 예방, 검색, 조사 및 헌팅 기능 집합으로 엔터프라이즈를 보호하는 데 도움이 됩니다.
 - **[끝점용 Microsoft Defender는](/microsoft-365/security/defender-endpoint/microsoft-defender-advanced-threat-protection)** 조직의 장치에 대한 예방 보호, 위반 후 감지, 자동화된 조사 및 응답을 제공합니다.
 - **[Microsoft 365 Defender는](microsoft-365-defender.md)** Microsoft 365 보안 포트폴리오를 활용하여 도메인 전체의 위협 데이터를 자동으로 분석하고 단일 대시보드에 대한 공격 그림을 작성하는 Microsoft의 XDR(확장 검색 및 응답) 솔루션의 일부입니다. 
 
@@ -103,7 +103,7 @@ Microsoft 365 보안 센터는 Office 365용 Microsoft Defender 및 Endpoint용 
 
 ![사용 권한 & 그룹, 역할 및 장치 & 끝점 역할을 보여 주는 역할 페이지입니다.](../../media/converged-roles-5.png)
 
- Microsoft 365 보안 센터에 액세스는 Azure Active Directory 전역 역할 또는 사용자 지정 역할을 사용하여 구성됩니다. 끝점용 Defender에 대한 자세한 내용은 Microsoft Defender 보안 센터에 대한 사용자 [액세스 할당을 참조합니다.](/microsoft-365/security/defender-endpoint/assign-portal-access) Office 365용 Defender에 대한 자세한 내용은 Microsoft 365 규정 준수 센터 및 [Microsoft 365](../defender-365-security/permissions-microsoft-365-compliance-security.md)보안 센터의 사용 권한을 참조합니다.
+ Microsoft 365 보안 센터에 액세스는 Azure Active Directory 전역 역할 또는 사용자 지정 역할을 사용하여 구성됩니다. 끝점용 Defender에 대한 자세한 내용은 Microsoft Defender 보안 센터에 대한 사용자 [액세스 할당을 참조합니다.](/microsoft-365/security/defender-endpoint/assign-portal-access) Office 365용 Defender에 대한 자세한 내용은 Microsoft 365 규정 준수 센터 및 [Microsoft 365](../office-365-security/permissions-microsoft-365-compliance-security.md)보안 센터의 사용 권한을 참조합니다.
 
 - [Microsoft 365 Defender에](m365d-permissions.md) 대한 액세스를 관리하는 방법에 대해 자세히 알아보시고
 - Microsoft 365 보안 센터에서 사용자 지정 역할을 만드는 방법에 대한 자세한 정보 [](custom-roles.md)
@@ -179,7 +179,7 @@ Microsoft 365 보안 센터의 기능을 계속 탐색합니다.
 - [장치, 전자 메일, 앱 및 ID에 대한 위협 검색](./advanced-hunting-query-emails-devices.md)
 - [사용자 지정 검색 규칙](./custom-detection-rules.md)
 - [전자 메일 및 공동 작업 경고](../../compliance/alert-policies.md#default-alert-policies)
-- [피싱 공격 시뮬레이션을](../defender-365-security/attack-simulation-training.md) 만들고 팀 교육을 위한 [페이로드 만들기](/microsoft-365/security/defender-365-security/attack-simulation-training-payloads)
+- [피싱 공격 시뮬레이션을](../office-365-security/attack-simulation-training.md) 만들고 팀 교육을 위한 [페이로드 만들기](/microsoft-365/security/office-365-security/attack-simulation-training-payloads)
  
 ### <a name="related-information"></a>관련 정보
 - [Microsoft 365 보안 센터](overview-security-center.md)

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 두 개의 테스트 계정만 사용하여 사용자 지정 도메인의 전자 메일 기능을 Microsoft 365 사서함으로 시험해 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e710218a2a5cb9821abb213eb2ebb0c92c9bdc42
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bdcf86474a7f2edb458075e884c20e56d231df6d
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050693"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197842"
 ---
 # <a name="pilot-microsoft-365-from-my-custom-domain"></a>사용자 지정 도메인에서 Microsoft 365 파일럿
 
@@ -115,7 +115,7 @@ Microsoft 365에서는 스팸 방지를 위해 EOP(Exchange Online Protection)�
 
 Microsoft 365 또는 Office 365에서 다음 사항을 완료했는지 확인합니다.
 
-1. 커넥터를 설정하려면 시작하기 전에 할당된 사용 권한이 있어야 합니다. 필요한 사용 권한을 확인하려면 [EOP 항목의 기능 사용 권한](https://docs.microsoft.com/microsoft-365/security/defender-365-security/feature-permissions-in-eop)에서 Microsoft 365 및 Office 365 커넥터 항목을 참조하세요.
+1. 커넥터를 설정하려면 시작하기 전에 할당된 사용 권한이 있어야 합니다. 필요한 사용 권한을 확인하려면 [EOP 항목의 기능 사용 권한](https://docs.microsoft.com/microsoft-365/security/office-365-security/feature-permissions-in-eop)에서 Microsoft 365 및 Office 365 커넥터 항목을 참조하세요.
 
 2. EOP 또는 Exchange Online이 전자 메일 서버에서 인터넷으로 전자 메일을 릴레이하도록 하려면 다음 작업 중 하나를 수행합니다.
 

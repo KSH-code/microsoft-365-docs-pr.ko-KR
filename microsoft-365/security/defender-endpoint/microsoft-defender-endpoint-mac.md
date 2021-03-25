@@ -2,7 +2,7 @@
 title: Mac용 Microsoft Defender ATP
 ms.reviewer: ''
 description: Mac용 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 학습합니다.
-keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamf, macos, 카탈로나, mojave, high sierra
+keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamf, macos, big sur, catalina, mojave
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6af8a6e0e23201f3c5861cb6a28b2bffa0f04ea4
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 34150088379445d66006c757b2c8ea607865bf4c
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186440"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198996"
 ---
 # <a name="microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender
 
@@ -82,7 +82,7 @@ macOS의 가장 최근 주요 릴리스 3개가 지원됩니다.
 > [!IMPORTANT]
 > MacOS 10.13(High Sierra)에 대한 지원은 2021년 2월 15일부터 중단됩니다.
 
-- 11(빅 수르), 10.15(카탈로나), 10.14(모자베), 10.13(높은 시에라)
+- 11(빅 수르), 10.15(카탈리나), 10.14(모자베)
 - 디스크 공간: 1GB
 
 MacOS의 베타 버전은 지원되지 않습니다.

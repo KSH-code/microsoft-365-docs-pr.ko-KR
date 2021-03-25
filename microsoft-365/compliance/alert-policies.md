@@ -19,12 +19,12 @@ ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 및 Microsoft 365의 보안 및 규정 준수 센터에서 경고 정책을 만들어 잠재적인 위협, 데이터 손실 및 권한 문제를 모니터링합니다.
-ms.openlocfilehash: acdda84ff23755a664bc599fa737e68098c797aa
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e927b3ac9e3a6ee3945269830536497390bdecd7
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052158"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198627"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>보안 및 준수 센터의 경고 정책
 
@@ -67,7 +67,7 @@ Microsoft 365 보안 및 규정 준수 센터의 경고 정책 및 경고 대시
 - **경고가** 추적하는 활동 - 활동을 추적하는 정책을 만들거나 경우에 따라 외부 사용자와 파일을 공유하거나 액세스 권한을 할당하거나 익명 링크를 만들어 파일을 공유하는 등의 몇 가지 관련 활동을 추적할 수 있습니다. 사용자가 정책에 정의된 활동을 수행하면 경고 임계값 설정에 따라 경고가 트리거됩니다.
 
     > [!NOTE]
-    > 추적할 수 있는 활동은 조직의 Office 365 Enterprise 또는 Office 365 Government 계획에 따라 달라 집니다. 일반적으로 맬웨어 캠페인 및 피싱 공격과 관련된 활동에는 [Office 365](../security/defender-365-security/defender-for-office-365.md) 계획 2 추가 기능 구독에 대한 E5/G5 구독 또는 E1/F1/G1 또는 E3/F3/G3 구독이 필요합니다.
+    > 추적할 수 있는 활동은 조직의 Office 365 Enterprise 또는 Office 365 Government 계획에 따라 달라 집니다. 일반적으로 맬웨어 캠페인 및 피싱 공격과 관련된 활동에는 [Office 365](../security/office-365-security/defender-for-office-365.md) 계획 2 추가 기능 구독에 대한 E5/G5 구독 또는 E1/F1/G1 또는 E3/F3/G3 구독이 필요합니다.
 
 - **활동 조건** - 대부분의 활동에서 경고를 트리거하기 위해 충족해야 하는 추가 조건을 정의할 수 있습니다. 일반적인 조건에는 IP 주소(사용자가 특정 IP 주소 또는 IP 주소 범위 내에서 컴퓨터에서 활동을 수행할 때 경고가 트리거될 수 있도록), 특정 사용자 또는 사용자가 해당 활동을 수행하는 경우 경고가 트리거될지 여부, 활동이 특정 파일 이름 또는 URL에 대해 수행될지 여부가 포함됩니다. 조직의 모든 사용자가 활동을 수행할 때 경고를 트리거하는 조건을 구성할 수도 있습니다. 사용 가능한 조건은 선택한 활동에 따라 달라집니다.
 
@@ -113,16 +113,16 @@ Microsoft는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적인 �
 
 | 기본 경고 정책 | 설명 | 범주 | 엔터프라이즈 구독 |
 |:-----|:-----|:-----|:-----|
-|**악의적인 URL 클릭이 감지되었습니다.**|조직의 안전한 링크로 보호된 [](../security/defender-365-security/safe-links.md) 사용자가 악의적인 링크를 클릭할 때 경고를 생성합니다. 이 이벤트는 OFFICE 365용 Microsoft Defender에서 URL 판정 변경 내용이 식별되거나 사용자가 조직의 비즈니스용 Microsoft 365 안전한 링크 정책에 따라 안전한 링크 페이지를 에워딩할 때 트리거됩니다. 이 경고 정책에는 **심각도 높은** 설정이 있습니다. Office 365 P2, E5, G5 고객용 Defender의 경우 이 경고는 [Office 365에서](../security/defender-365-security/office-365-air.md)자동으로 자동화된 조사 및 응답을 트리거합니다. 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 안전 링크 정책 [설정 을 참조하세요.](../security/defender-365-security/set-up-safe-links-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
-|**관리 제출 결과가 완료되었습니다.**|관리 제출이 제출된 엔터티의 다시 검색을 완료하면 경고를 생성합니다. [](../security/defender-365-security/admin-submission.md) 관리자 제출에서 다시 검색 결과가 렌더링될 때마다 경고가 트리거됩니다. 이러한 알림은 이전 제출의 [](https://protection.office.com/reportsubmission)결과를 검토하고, 사용자가 보고한 메시지를 제출하여 최신 정책 확인을 받아 결과를 다시 검사하고, 조직의 필터링 정책이 의도한 영향을 미치는지 확인하는 데 도움이 하도록 알리기 위한 것입니다. 이 정책의 **심각도는** 낮음 설정입니다.|위협 관리|E1/F1, E3/F3 또는 E5|
-|**관리자가 전자 메일에 대한 수동 조사를 트리거했습니다.**|관리자가 위협 탐색기에서 전자 메일에 대한 수동 조사를 트리거하면 경고를 생성합니다. 자세한 내용은 [예제: 보안 관리자가 위협 탐색기에서 조사를 트리거합니다.] ( https://docs.microsoft.com/microsoft-365/security/defender-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) 을 참조하세요. 이 경고는 조직에 조사가 시작된 것을 알리는 경고입니다. 경고는 경고를 트리거한 사람에 대한 정보를 제공하며 조사에 대한 링크를 포함합니다. 이 정책에는 **정보 심각도** 설정이 있습니다.|위협 관리| E5/G5 또는 Office 365 P2 추가 기능 구독용 Microsoft Defender| 
+|**악의적인 URL 클릭이 감지되었습니다.**|조직의 안전한 링크로 보호된 [](../security/office-365-security/safe-links.md) 사용자가 악의적인 링크를 클릭할 때 경고를 생성합니다. 이 이벤트는 OFFICE 365용 Microsoft Defender에서 URL 판정 변경 내용이 식별되거나 사용자가 조직의 비즈니스용 Microsoft 365 안전한 링크 정책에 따라 안전한 링크 페이지를 에워딩할 때 트리거됩니다. 이 경고 정책에는 **심각도 높은** 설정이 있습니다. Office 365 P2, E5, G5 고객용 Defender의 경우 이 경고는 [Office 365에서](../security/office-365-security/office-365-air.md)자동으로 자동화된 조사 및 응답을 트리거합니다. 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 안전 링크 정책 [설정 을 참조하세요.](../security/office-365-security/set-up-safe-links-policies.md)|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
+|**관리 제출 결과가 완료되었습니다.**|관리 제출이 제출된 엔터티의 다시 검색을 완료하면 경고를 생성합니다. [](../security/office-365-security/admin-submission.md) 관리자 제출에서 다시 검색 결과가 렌더링될 때마다 경고가 트리거됩니다. 이러한 알림은 이전 제출의 [](https://protection.office.com/reportsubmission)결과를 검토하고, 사용자가 보고한 메시지를 제출하여 최신 정책 확인을 받아 결과를 다시 검사하고, 조직의 필터링 정책이 의도한 영향을 미치는지 확인하는 데 도움이 하도록 알리기 위한 것입니다. 이 정책의 **심각도는** 낮음 설정입니다.|위협 관리|E1/F1, E3/F3 또는 E5|
+|**관리자가 전자 메일에 대한 수동 조사를 트리거했습니다.**|관리자가 위협 탐색기에서 전자 메일에 대한 수동 조사를 트리거하면 경고를 생성합니다. 자세한 내용은 [예제: 보안 관리자가 위협 탐색기에서 조사를 트리거합니다.] ( https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) 을 참조하세요. 이 경고는 조직에 조사가 시작된 것을 알리는 경고입니다. 경고는 경고를 트리거한 사람에 대한 정보를 제공하며 조사에 대한 링크를 포함합니다. 이 정책에는 **정보 심각도** 설정이 있습니다.|위협 관리| E5/G5 또는 Office 365 P2 추가 기능 구독용 Microsoft Defender| 
 |**전달/리디렉션 규칙 만들기**|조직의 누군가가 메시지를 다른 전자 메일 계정으로 전달하거나 리디렉션하는 사서함에 대한 받은 편지함 규칙을 만들 때 경고를 생성합니다. 이 정책은 웹용 Outlook(이전의 Outlook Web App) 또는 Exchange Online PowerShell을 사용하여 만든 받은 편지함 규칙만 추적합니다. 이 정책의 **심각도는** 낮음 설정입니다. 받은 편지함 규칙을 사용하여 웹용 Outlook에서 전자 메일을 전달하고 리디렉션하는 데 대한 자세한 내용은 [웹용 Outlook에서](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed)규칙을 사용하여 메시지를 다른 계정으로 자동으로 전달을 참조하세요.|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
 |**eDiscovery 검색 시작 또는 내보내기**|보안 및 준수 센터에서 콘텐츠 검색 도구를 사용하는 경우 경고를 생성합니다. 다음과 같은 콘텐츠 검색 활동이 수행되면 경고가 트리거됩니다. <br/><br/>* 콘텐츠 검색이 시작된 경우<br/>* 콘텐츠 검색 결과를 내보낼 수 있습니다.<br/>* 콘텐츠 검색 보고서 내보내기<br/><br/>eDiscovery 사례와 함께 이전 콘텐츠 검색 활동을 수행할 때도 경고가 트리거됩니다. 이 정책에는 **중간** 심각도 설정이 있습니다. 콘텐츠 검색 활동에 대한 자세한 내용은 감사 로그에서 [eDiscovery 활동 검색을 참조하세요.](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
 |**Exchange 관리자 권한 상승**|Exchange Online 조직에 관리 권한이 할당된 경우 경고를 생성합니다. 예를 들어 사용자가 Exchange Online의 조직 관리 역할 그룹에 추가될 때입니다. 이 정책의 **심각도는** 낮음 설정입니다.|사용 권한|E1/F1/G1, E3/F3/G3 또는 E5/G5|
-|**배달 후 맬웨어가 제거된 전자 메일 메시지**|맬웨어가 포함된 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/defender-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 [Office 365에서](../security/defender-365-security/office-365-air.md)자동화된 조사 및 응답을 자동으로 트리거합니다.|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Microsoft Defender|
-|**배달 후 제거된 피싱 URL이 포함된 전자 메일 메시지**|피싱이 포함된 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/defender-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 [Office 365에서](../security/defender-365-security/office-365-air.md)자동화된 조사 및 응답을 자동으로 트리거합니다.|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
-|**사용자가 맬웨어 또는 피싱으로 보고한 전자 메일**|조직의 사용자가 보고서 메시지 추가 기능을 사용하여 메시지를 피싱 전자 메일로 보고하면 경고를 생성합니다. 이 정책에는 **정보 심각도** 설정이 있습니다. 이 추가 기능의 자세한 내용은 보고서 메시지 추가 기능 [사용을 참조하세요.](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) Office 365 P2, E5, G5 고객용 Defender의 경우 이 경고는 [Office 365에서](../security/defender-365-security/office-365-air.md)자동으로 자동화된 조사 및 응답을 트리거합니다.|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
-|**전자 메일 보내기 제한 초과**|조직의 누군가가 아웃바운드 스팸 정책에서 허용하는 것보다 많은 메일을 보낸 경우 경고를 생성합니다. 이는 일반적으로 사용자가 너무 많은 전자 메일을 보내거나 계정이 손상될 수 있는 표시입니다. 이 정책에는 **중간** 심각도 설정이 있습니다. 이 경고 정책에 의해 경고가 생성되는 경우 사용자 계정이 손상되어 있는지 [여부를 검사하는 것이 좋습니다.](../security/defender-365-security/responding-to-a-compromised-email-account.md)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
+|**배달 후 맬웨어가 제거된 전자 메일 메시지**|맬웨어가 포함된 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 [Office 365에서](../security/office-365-security/office-365-air.md)자동화된 조사 및 응답을 자동으로 트리거합니다.|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Microsoft Defender|
+|**배달 후 제거된 피싱 URL이 포함된 전자 메일 메시지**|피싱이 포함된 메시지가 조직의 사서함으로 배달될 때 경고를 생성합니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](../security/office-365-security/zero-hour-auto-purge.md) 이 정책에는 **정보 심각도** 설정이 있으며 [Office 365에서](../security/office-365-security/office-365-air.md)자동화된 조사 및 응답을 자동으로 트리거합니다.|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
+|**사용자가 맬웨어 또는 피싱으로 보고한 전자 메일**|조직의 사용자가 보고서 메시지 추가 기능을 사용하여 메시지를 피싱 전자 메일로 보고하면 경고를 생성합니다. 이 정책에는 **정보 심각도** 설정이 있습니다. 이 추가 기능의 자세한 내용은 보고서 메시지 추가 기능 [사용을 참조하세요.](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) Office 365 P2, E5, G5 고객용 Defender의 경우 이 경고는 [Office 365에서](../security/office-365-security/office-365-air.md)자동으로 자동화된 조사 및 응답을 트리거합니다.|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
+|**전자 메일 보내기 제한 초과**|조직의 누군가가 아웃바운드 스팸 정책에서 허용하는 것보다 많은 메일을 보낸 경우 경고를 생성합니다. 이는 일반적으로 사용자가 너무 많은 전자 메일을 보내거나 계정이 손상될 수 있는 표시입니다. 이 정책에는 **중간** 심각도 설정이 있습니다. 이 경고 정책에 의해 경고가 생성되는 경우 사용자 계정이 손상되어 있는지 [여부를 검사하는 것이 좋습니다.](../security/office-365-security/responding-to-a-compromised-email-account.md)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
 |**잠재적인 피싱 시도로 인해 양식이 차단됩니다.**|조직의 누군가가 반복되는 피싱 시도 동작으로 인해 Microsoft Forms를 사용하여 양식을 공유하고 응답을 수집할 수 제한되면 경고를 생성합니다. 이 정책에는 **심각도 높은 설정이** 있습니다.|위협 관리|E1, E3/F3 또는 E5|
 |**피싱으로 플래그가 지정 및 확인된 양식**|조직 내에서 Microsoft Forms에서 만든 양식이 보고서 남용을 통해 잠재적인 피싱으로 식별되고 Microsoft에서 피싱으로 확인되면 경고를 생성합니다. 이 정책에는 **심각도 높은** 설정이 있습니다.|위협 관리|E1, E3/F3 또는 E5|
 |**메시지가 지연된 경우**|커넥터를 사용하여 Microsoft가 전자 메일 메시지를 사용자 조직 또는 파트너 서버로 배달할 수 없는 경우 경고를 생성합니다. 이 경우 메시지가 Office 365에서 대기됩니다. 이 경고는 2,000개 이상의 메시지가 1시간 이상 대기 중인 경우 트리거됩니다. 이 정책에는 **심각도 높은** 설정이 있습니다.|메일 흐름|E1/F1/G1, E3/F3/G3 또는 E5/G5|
@@ -132,11 +132,11 @@ Microsoft는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적인 �
 |**ZAP를 사용하지 않도록 설정되어 있기 때문에 맬웨어가 잠기지 않습니다.**| 피싱 메시지에 대한 자동 제거가 사용하지 않도록 설정되어 있기 때문에 Microsoft가 사서함에 맬웨어 메시지를 Zero-Hour 경고를 생성합니다. 이 정책에는 **정보 심각도** 설정이 있습니다. |위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
 |**사용자의 정크 메일 폴더를 사용할 수 없습니다.**|Microsoft에서 사용자의 정크 메일 폴더를 사용할 수 없다고 감지하면 경고를 생성하여 높은 신뢰도의 피싱 메시지를 사서함으로 배달할 수 있습니다. 이 정책에는 **정보 심각도** 설정이 있습니다.|위협 관리|E5/G5 또는 Office 365 P1 또는 P2 추가 기능 구독용 Defender|
 |**ETR을 통해 전달된 피싱**|Microsoft가 높은 신뢰도의 피싱 메시지를 사서함으로 배달할 수 있는 ETR(Exchange 전송 규칙)을 감지하면 경고를 생성합니다. 이 정책에는 **정보 심각도** 설정이 있습니다. Exchange 전송 규칙(메일 흐름 규칙)에 대한 자세한 내용은 Exchange Online의 메일 흐름 [규칙(전송 규칙)을 참조하세요.](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)|위협 관리|E5/G5 또는 Office 365 P1 또는 P2 추가 기능 구독용 Defender|
-|**IP 허용 정책으로 인해 배달된 피싱**|Microsoft가 높은 신뢰도의 피싱 메시지를 사서함으로 배달할 수 있는 IP 허용 정책을 감지하면 경고를 생성합니다. 이 정책에는 **정보 심각도** 설정이 있습니다. IP 허용 정책(연결 필터링)에 대한 자세한 내용은 [Configure the default connection filter policy - Office 365을 참조하십시오.](../security/defender-365-security/configure-the-connection-filter-policy.md)|위협 관리|E5/G5 또는 Office 365 P1 또는 P2 추가 기능 구독용 Defender|
+|**IP 허용 정책으로 인해 배달된 피싱**|Microsoft가 높은 신뢰도의 피싱 메시지를 사서함으로 배달할 수 있는 IP 허용 정책을 감지하면 경고를 생성합니다. 이 정책에는 **정보 심각도** 설정이 있습니다. IP 허용 정책(연결 필터링)에 대한 자세한 내용은 [Configure the default connection filter policy - Office 365을 참조하십시오.](../security/office-365-security/configure-the-connection-filter-policy.md)|위협 관리|E5/G5 또는 Office 365 P1 또는 P2 추가 기능 구독용 Defender|
 |**ZAP를 사용하지 않도록 설정되어 있기 때문에 피싱이 잠기지 않습니다.**| 피싱 메시지에 대한 자동 제거가 사용하지 않도록 설정되어 있기 때문에 Microsoft에서 사서함으로 높은 수준의 피싱 Zero-Hour 감지할 때 경고를 생성합니다. 이 정책에는 **정보 심각도** 설정이 있습니다.|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
 |**테넌트 또는** 사용자에 따라 전달된 피싱 <sup>1</sup>|Microsoft에서 사서함으로 피싱 메시지 배달이 허용된 관리자 또는 사용자 다시 정의를 감지하면 경고를 생성합니다. 다시 정의의 예로는 특정 보낸 사람 또는 도메인의 메시지를 허용하는 받은 편지함 또는 메일 흐름 규칙 또는 특정 보낸 사람 또는 도메인의 메시지를 허용하는 스팸 방지 정책이 있습니다. 이 정책에는 **심각도 높은** 설정이 있습니다.|위협 관리|E5/G5 또는 Office 365 P2 추가 기능 구독용 Defender|
-|**의심스러운 전자 메일 전달 활동**|조직의 누군가가 의심스러운 외부 계정으로 자동 전자 메일을 보내면 경고를 생성합니다. 이는 계정이 손상된 것일 수 있지만 사용자를 제한할 만큼 심각하지는 않은 동작에 대한 초기 경고입니다. 이 정책에는 **중간** 심각도 설정이 있습니다. 드물지만 이 정책에 의해 생성된 경고는 이상일 수 있습니다. 사용자 계정이 손상 된지 여부를 [확인 하는 것이 좋습니다.](../security/defender-365-security/responding-to-a-compromised-email-account.md)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
-|**의심스러운 전자 메일 전송 패턴이 감지되었습니다.**|조직의 누군가가 의심스러운 전자 메일을 보내고 전자 메일을 보내지 못하도록 제한될 위험이 있는 경우 경고를 생성합니다. 이는 계정이 손상되지만 사용자를 제한할 만큼 심각하지는 않다는 것을 나타낼 수 있는 동작에 대한 초기 경고입니다. 이 정책에는 **중간** 심각도 설정이 있습니다. 드물지만 이 정책에 의해 생성된 경고는 이상일 수 있습니다. 그러나 사용자 계정이 손상 된지 여부를 확인 하는 [것이 좋습니다.](../security/defender-365-security/responding-to-a-compromised-email-account.md)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5  |
+|**의심스러운 전자 메일 전달 활동**|조직의 누군가가 의심스러운 외부 계정으로 자동 전자 메일을 보내면 경고를 생성합니다. 이는 계정이 손상된 것일 수 있지만 사용자를 제한할 만큼 심각하지는 않은 동작에 대한 초기 경고입니다. 이 정책에는 **중간** 심각도 설정이 있습니다. 드물지만 이 정책에 의해 생성된 경고는 이상일 수 있습니다. 사용자 계정이 손상 된지 여부를 [확인 하는 것이 좋습니다.](../security/office-365-security/responding-to-a-compromised-email-account.md)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
+|**의심스러운 전자 메일 전송 패턴이 감지되었습니다.**|조직의 누군가가 의심스러운 전자 메일을 보내고 전자 메일을 보내지 못하도록 제한될 위험이 있는 경우 경고를 생성합니다. 이는 계정이 손상되지만 사용자를 제한할 만큼 심각하지는 않다는 것을 나타낼 수 있는 동작에 대한 초기 경고입니다. 이 정책에는 **중간** 심각도 설정이 있습니다. 드물지만 이 정책에 의해 생성된 경고는 이상일 수 있습니다. 그러나 사용자 계정이 손상 된지 여부를 확인 하는 [것이 좋습니다.](../security/office-365-security/responding-to-a-compromised-email-account.md)|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5  |
 |**전자 메일 보내기 제한 테넌트**|조직의 전자 메일 트래픽이 대부분 의심스러운 것으로 감지되고 Microsoft가 조직에서 전자 메일을 보내지 못하도록 제한한 경우 경고를 생성합니다. 잠재적으로 손상된 사용자 및 관리자 계정, 새 커넥터 또는 오픈 릴레이를 조사한 다음 Microsoft 지원에 문의하여 조직 차단을 해제합니다. 이 정책에는 **심각도 높은** 설정이 있습니다. 조직이 차단된 이유에 대한 자세한 내용은 Exchange Online에서 오류 코드 [5.7.7xx에](/Exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/fix-error-code-5-7-700-through-5-7-750)대한 전자 메일 배달 문제 수정을 참조하세요.|위협 관리|E1/F1/G1, E3/F3/G3 또는 E5/G5|
 |**비정상적인 외부 사용자 파일 활동**|조직 외부의 사용자가 SharePoint 또는 OneDrive의 파일에 대해 비정상적으로 많은 작업을 수행하면 경고를 생성합니다. 여기에는 파일 액세스, 파일 다운로드, 파일 삭제 등의 활동이 포함됩니다. 이 정책에는 **심각도 높은** 설정이 있습니다.|정보 거버넌스|E5/G5, Office 365 P2용 Microsoft Defender 또는 Microsoft 365 E5 추가 기능 구독|
 |**비정상적인 외부 파일 공유 볼륨**|SharePoint 또는 OneDrive의 비정상적으로 많은 수의 파일이 조직 외부의 사용자와 공유될 때 경고를 생성합니다. 이 정책에는 **중간** 심각도 설정이 있습니다.|정보 거버넌스|E5/G5, Office 365 P2용 Defender 또는 Microsoft 365 E5 추가 기능 구독|
@@ -148,7 +148,7 @@ Microsoft는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적인 �
 |||||
 
 > [!NOTE]
-> <sup>1</sup> 고객 피드백에 따라 이 기본 경고 정책을 일시적으로 제거했습니다. We're working to improve it, and will replace it with a new version in the near future. 그 때까지 다음 설정을 사용하여 이 기능을 대체하는 사용자 지정 경고 정책을 만들 수 있습니다.<br/>&nbsp; * 활동은 배달 시 감지된 피싱 전자 메일입니다.<br/>&nbsp; * Mail is not ZAP'd<br/>&nbsp; * 메일 방향이 인바운드입니다.<br/>&nbsp; * 메일 배달 상태 배달<br/>&nbsp; * 검색 기술은 악성 URL 보존, URL 검색, 고급 피싱 필터, 일반 피싱 필터, 도메인 가장, 사용자 가장 및 브랜드 가장입니다.<br/><br/>&nbsp;&nbsp;&nbsp;Office 365의 피싱 방지에 대한 자세한 내용은 피싱 방지 및 피싱 방지 정책 설정 을 [참조하세요.](../security/defender-365-security/set-up-anti-phishing-policies.md)<br/><br/><sup>2</sup> 이 경고 정책을 다시 생성하기 위해 이전 각주에 있는 지침을 따르지만 사용자 가장을 유일한 검색 기술로 선택하십시오.
+> <sup>1</sup> 고객 피드백에 따라 이 기본 경고 정책을 일시적으로 제거했습니다. We're working to improve it, and will replace it with a new version in the near future. 그 때까지 다음 설정을 사용하여 이 기능을 대체하는 사용자 지정 경고 정책을 만들 수 있습니다.<br/>&nbsp; * 활동은 배달 시 감지된 피싱 전자 메일입니다.<br/>&nbsp; * Mail is not ZAP'd<br/>&nbsp; * 메일 방향이 인바운드입니다.<br/>&nbsp; * 메일 배달 상태 배달<br/>&nbsp; * 검색 기술은 악성 URL 보존, URL 검색, 고급 피싱 필터, 일반 피싱 필터, 도메인 가장, 사용자 가장 및 브랜드 가장입니다.<br/><br/>&nbsp;&nbsp;&nbsp;Office 365의 피싱 방지에 대한 자세한 내용은 피싱 방지 및 피싱 방지 정책 설정 을 [참조하세요.](../security/office-365-security/set-up-anti-phishing-policies.md)<br/><br/><sup>2</sup> 이 경고 정책을 다시 생성하기 위해 이전 각주에 있는 지침을 따르지만 사용자 가장을 유일한 검색 기술로 선택하십시오.
 
 일부 기본 제공 정책에서 모니터링하는 비정상적인 활동은 이전에 설명한 경고 임계값 설정과 동일한 프로세스를 기반으로 합니다. Microsoft는 "일반적인" 활동에 대한 일반 빈도를 정의하는 기준 값을 수립합니다. 그런 다음 기본 제공 경고 정책에 의해 추적되는 활동의 빈도가 기준 값을 크게 초과하면 경고가 트리거됩니다.
 
@@ -172,7 +172,7 @@ Microsoft는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적인 �
 
 - **범주.** 이 필터를 사용하여 하나 이상의 경고 범주에서 경고를 표시합니다.
 
-- **태그.** 이 필터를 사용하여 하나 이상의 사용자 태그에서 경고를 표시합니다. 태그는 경고에 나타나는 태그가 지정한 사서함 또는 사용자를 기준으로 반영됩니다. 자세한 [내용은 Office 356 ATP의 사용자](../security/defender-365-security/user-tags.md) 태그를 참조합니다.
+- **태그.** 이 필터를 사용하여 하나 이상의 사용자 태그에서 경고를 표시합니다. 태그는 경고에 나타나는 태그가 지정한 사서함 또는 사용자를 기준으로 반영됩니다. 자세한 [내용은 Office 356 ATP의 사용자](../security/office-365-security/user-tags.md) 태그를 참조합니다.
 
 - **원본.** 이 필터를 사용하여 보안 및 준수 센터의 경고 정책에 의해 트리거된 경고 또는 Office 365 Cloud App Security 정책에 의해 트리거된 경고를 표시하거나 둘 다를 사용할 수 있습니다. Office 365 Cloud App Security 경고에 대한 자세한 내용은 Cloud App Security 경고 [보기를 참조하세요.](#viewing-cloud-app-security-alerts)
 

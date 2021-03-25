@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Microsoft Defender 바이러스 백신이 바이러스, 맬웨어 및 스파이웨어와 같은 소프트웨어 위협으로부터 Windows 장치를 보호하는 방법을 알아보십시오.
-ms.openlocfilehash: 5fe55817018eeae49e6e41c95d93006b6f05ece0
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7c5d000e2a8c30e17d1f890cef69fe88beed75bb
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052221"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198366"
 ---
 # <a name="threats-detected-by-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신에서 탐지된 위협
 
@@ -89,4 +89,4 @@ Microsoft Defender 바이러스 백신에서 위협이 감지되면 다음과 �
 [Windows 보안 앱에서 Microsoft Defender 바이러스](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus) 백신을 켜고 사용하는 방법(문서)\
 [그룹 정책을 사용하여 Microsoft Defender 바이러스](/mem/intune/user-help/turn-on-defender-windows#turn-on-windows-defender) 백신을 켜는 방법(문서)\
 [바이러스 백신 정의를 업데이트하는](/mem/intune/user-help/turn-on-defender-windows#update-your-antivirus-definitions) 방법(문서)\
-분석을 위해 맬웨어 및 맬웨어가 아닌 [맬웨어를 Microsoft에](/microsoft-365/security/defender-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis) 제출하는 방법(문서)
+분석을 위해 맬웨어 및 맬웨어가 아닌 [맬웨어를 Microsoft에](/microsoft-365/security/office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis) 제출하는 방법(문서)

@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Exchange Online 관리자는 조직의 전자 메일 및 사서함을 관리합니다. 예를 들어 사용자의 사서함에서 삭제된 항목을 복구합니다. '
-ms.openlocfilehash: 5b63f2b0a58fdce75e5d70e329b8a0d02fb94a1a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4dc1f435571650ae4a805198782c3c24a92024fb
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050973"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197652"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Exchange Online 관리자 역할
 
@@ -48,7 +48,7 @@ Microsoft 365 관리를 지원하기 [](assign-admin-roles.md) 위해 Exchange �
 
 - [사용자 그룹이](../email/create-a-shared-mailbox.md) 공통 전자 메일 주소에서 전자 메일을 모니터링하고 보낼 수 있도록 공유 사서함을 생성합니다.
 
-- [조직의 스팸 방지 보호 및](https://docs.microsoft.com/microsoft-365/security/defender-365-security/anti-spam-protection) 맬웨어 필터를 전자 메일로 보내기
+- [조직의 스팸 방지 보호 및](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection) 맬웨어 필터를 전자 메일로 보내기
 
 - Microsoft 365 그룹 관리
 

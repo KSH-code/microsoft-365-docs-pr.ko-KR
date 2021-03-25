@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 60de6ed5a53a5d778f041b1c609019d110d6b64b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e494bfe57c31c1d5044f72a8adb3e2548d531604
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076343"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199152"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>장치, 전자 메일, 앱 및 ID에 대한 위협 검색
 
@@ -104,7 +104,7 @@ DeviceInfo
 ## <a name="hunting-scenarios"></a>헌팅 시나리오
 
 ### <a name="list-logon-activities-of-users-that-received-emails-that-were-not-zapped-successfully"></a>잠기지 않은 전자 메일을 받은 사용자의 로그온 활동 나열
-[ZAP(제로](../defender-365-security/zero-hour-auto-purge.md) 아워 자동 제거)는 수신된 악성 전자 메일을 해결합니다. ZAP가 실패하면 결국 디바이스에서 악성 코드가 실행될 수 있으며 계정이 손상된 채로 남을 수 있습니다. 이 쿼리는 ZAP에서 성공적으로 주소가 제공되지 않은 전자 메일을 받는 사람이 수행한 로그온 활동을 검사합니다.
+[ZAP(제로](../office-365-security/zero-hour-auto-purge.md) 아워 자동 제거)는 수신된 악성 전자 메일을 해결합니다. ZAP가 실패하면 결국 디바이스에서 악성 코드가 실행될 수 있으며 계정이 손상된 채로 남을 수 있습니다. 이 쿼리는 ZAP에서 성공적으로 주소가 제공되지 않은 전자 메일을 받는 사람이 수행한 로그온 활동을 검사합니다.
 
 ```kusto
 EmailPostDeliveryEvents 

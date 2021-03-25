@@ -17,12 +17,12 @@ ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: 이 방문 페이지에서는 Office 365의 보안 및 규정 준수에 대한 링크 및 계획 정보를 제공합니다.
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 90f4083bdf38f4b1390ee31d0853ad65e3fe236f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3e5e0f5f13511e0890a69c48ab7738f2b1ebab60
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051710"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198061"
 ---
 # <a name="plan-for-security-amp-compliance"></a>보안 준수 &amp; 계획
 
@@ -46,7 +46,7 @@ Microsoft 365 데이터 및 서비스에 대한 액세스를 보호하는 것은
   
 - [Office 365에서 데이터 및 서비스에 대한 액세스 보호](protect-access-to-data-and-services.md)
     
-- [보안 전자 메일 정책 및 구성](../security/defender-365-security/secure-email-recommended-policies.md)
+- [보안 전자 메일 정책 및 구성](../security/office-365-security/secure-email-recommended-policies.md)
     
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [더 많은 언어](https://www.microsoft.com/download/details.aspx?id=55032)
   
@@ -62,15 +62,15 @@ Microsoft 365 데이터 및 서비스에 대한 액세스를 보호하는 것은
   
 - [보안 및 준수 &amp; 센터로 이동](./microsoft-365-compliance-center.md)
     
-- [보안 및 준수 &amp; 센터의 사용 권한](~/security/defender-365-security/protect-against-threats.md)
+- [보안 및 준수 &amp; 센터의 사용 권한](~/security/office-365-security/protect-against-threats.md)
     
-- [사용자에게 보안 및 준수 센터에 대한 &amp; 액세스 권한을 부여합니다.](~/security/defender-365-security/grant-access-to-the-security-and-compliance-center.md)
+- [사용자에게 보안 및 준수 센터에 대한 &amp; 액세스 권한을 부여합니다.](~/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
     
 ## <a name="step-6-use-end-to-end-security-scenarios-as-starting-points"></a>6단계: 종단별 보안 시나리오를 시작점으로 사용
 
 이러한 권장 구성을 엔터프라이즈 규모 또는 정교한 액세스 보안 시나리오의 시작 지점으로 활용하십시오.
   
-- [보안 전자 메일 정책 및 구성](../security/defender-365-security/secure-email-recommended-policies.md)
+- [보안 전자 메일 정책 및 구성](../security/office-365-security/secure-email-recommended-policies.md)
     
 - [Microsoft 클라우드의 Contoso](../enterprise/contoso-case-study.md)
     

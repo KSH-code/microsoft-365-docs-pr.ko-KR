@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 5b089159db56190a9774182c132c166714fc400e
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 965bacce0006f1435fc632ffbe0462f2f97dc858
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060895"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197793"
 ---
 >[!NOTE]
->미국 정부 고객인 경우 미국 정부 고객용 [끝점용 Microsoft Defender에](/microsoft-365/security/defender-endpoint/gov.md#api)나열된 URIS를 사용하시기 바랍니다.
+>미국 정부 고객인 경우 미국 정부 고객용 [끝점용 Microsoft Defender에](/microsoft-365/security/defender-endpoint/gov#api)나열된 URIS를 사용하시기 바랍니다.

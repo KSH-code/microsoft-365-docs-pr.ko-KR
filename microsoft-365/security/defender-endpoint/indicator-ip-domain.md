@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0196148c9dbf3ec769594d714524a3fd9e4d18fd
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: d468a77d2c1ab4f1b363e2e91b6e8507a5390d93
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185960"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198486"
 ---
 # <a name="create-indicators-for-ips-and-urlsdomains"></a>IPS 및 URL/도메인에 대한 표시기 만들기 
 
@@ -34,7 +34,8 @@ ms.locfileid: "51185960"
 
 
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
+> [!TIP]
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 
 Endpoint용 Defender는 Microsoft가 악성 IPS/URL로 Windows Defender Microsoft 브라우저용 SmartScreen 및 Microsoft가 아닌 다른 브라우저 또는 브라우저 외부에서 걸린 통화에 대한 네트워크 보호를 통해 차단할 수 있습니다.
@@ -57,8 +58,10 @@ IPS, URL 또는 도메인에 대한 표시기를 만들기 전에 다음의 선�
 
 > [!IMPORTANT]
 > 외부 IP만 표시기 목록에 추가할 수 있습니다. 내부 IP에 대한 표시기를 만들 수 없습니다.
-> 웹 보호 시나리오의 경우 Microsoft Edge의 기본 제공 기능을 사용하는 것이 좋습니다. Microsoft Edge는 [네트워크](network-protection.md) 보호를 활용하여 네트워크 트래픽을 검사하고 TCP, HTTP 및 HTTPS(TLS)에 대한 블록을 허용합니다. 다른 모든 프로세스에서 웹 보호 시나리오는 검사 및 적용을 위해 네트워크 보호를 활용합니다. <br>
-> 참고:
+> 웹 보호 시나리오의 경우 Microsoft Edge의 기본 제공 기능을 사용하는 것이 좋습니다. Microsoft Edge는 [네트워크](network-protection.md) 보호를 활용하여 네트워크 트래픽을 검사하고 TCP, HTTP 및 HTTPS(TLS)에 대한 블록을 허용합니다. 충돌하는 URL 표시기 정책이 있는 경우 더 긴 경로가 적용됩니다. 예를 들어 URL 표시기 정책이 URL 표시기 정책보다 `https:\\support.microsoft.com/en-us/office` `https:\\support.microsoft.com` 우선합니다.
+
+> [!NOTE]
+> 다른 모든 프로세스에서 웹 보호 시나리오는 검사 및 적용을 위해 네트워크 보호를 활용합니다. 
 > - 세 가지 프로토콜 모두에 대해 IP가 지원됩니다.
 > - 단일 IP 주소만 지원됩니다(CIDR 블록 또는 IP 범위 없음).
 > - 암호화된 URL(전체 경로)은 첫 번째 브라우저에서만 차단할 수 있습니다(Internet Explorer, Edge).
