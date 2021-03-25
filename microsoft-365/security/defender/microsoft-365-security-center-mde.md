@@ -18,12 +18,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: dbbe692b3339a316f924ae4858753bbb961dd70c
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b580c6f20ed3b242fc0bc239a49fe89ccc09d013
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165624"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199198"
 ---
 # <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 끝점용 Microsoft Defender
 
@@ -35,7 +35,7 @@ ms.locfileid: "51165624"
 
 - [Microsoft 365 Defender](microsoft-365-defender.md)
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [Office 365용 Microsoft Defender](/microsoft-365/security/defender-365-security/defender-for-office-365)
+- [Office 365용 Microsoft Defender](/microsoft-365/security/office-365-security/defender-for-office-365)
 
 개선된 [Microsoft 365](overview-security-center.md) 보안 센터는 전자 메일, 공동 작업, ID 및 장치 위협을 보호, 감지, 조사 및 대응하는 보안 [https://security.microsoft.com](https://security.microsoft.com) 기능을 결합합니다. 이 보안 센터는 Microsoft Defender 보안 센터 및 Office 365 보안 및 준수 센터를 포함하여 기존 Microsoft 보안 포털의 & 제공합니다.
 

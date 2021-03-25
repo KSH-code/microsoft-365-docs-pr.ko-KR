@@ -22,12 +22,12 @@ ms.custom: autoir
 ms.date: 01/29/2021
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: fa73756aa9f350793c00a7e4a960c215627b712f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c81f824a0faaca1c228aa650c003576cce210a67
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072751"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199210"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Microsoft 365 Defender의 수정 작업
 
@@ -45,7 +45,7 @@ Microsoft 365 Defender에서 자동화된 조사가 진행되는 동안 및 이�
 > 재구성 작업이 자동으로 수행될지 승인에만 수행될지는 자동화 수준과 같은 특정 설정에 따라 결정됩니다. 자세한 내용은 다음 문서를 참조합니다.
 > - [Microsoft 365 Defender에서 자동화된 조사 및 응답 기능 구성](m365d-configure-auto-investigation-response.md)
 > - [장치에서 위협을 수정하는 방법](../defender-endpoint/automated-investigations.md)
-> - [전자 메일 및 공동 작업 콘텐츠에 & 수정 작업](../defender-365-security/air-remediation-actions.md#threats-and-remediation-actions)
+> - [전자 메일 및 공동 작업 콘텐츠에 & 수정 작업](../office-365-security/air-remediation-actions.md#threats-and-remediation-actions)
 
 다음 표에는 Microsoft 365 Defender에서 현재 지원되는 수정 작업이 요약됩니다. 
 
@@ -76,7 +76,7 @@ Microsoft 365 Defender에서 자동화된 조사가 진행되는 동안 및 이�
 - 장치 고리 또는 파일 검지와 같은 수동 장치 작업
 - 수동 전자 메일 작업(예: 전자 메일 메시지 소프트 삭제) 
 - [장치 또는 전자](../defender-endpoint/advanced-hunting-overview.md) 메일에 대한 고급 헌팅 작업
-- [전자](../defender-365-security/threat-explorer.md) 메일을 정크 메일로 이동, 소프트 삭제 전자 메일 또는 하드 삭제 전자 메일과 같은 전자 메일 콘텐츠에 대한 탐색기 작업
+- [전자](../office-365-security/threat-explorer.md) 메일을 정크 메일로 이동, 소프트 삭제 전자 메일 또는 하드 삭제 전자 메일과 같은 전자 메일 콘텐츠에 대한 탐색기 작업
 - 파일 [삭제,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) 프로세스 중지, 예약된 작업 제거와 같은 수동 실시간 응답 작업
 - [Microsoft Defender for Endpoint API를](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis)사용하여 실시간 응답 작업(예: 장치 차단, 바이러스 백신 검사 실행, 파일에 대한 정보 수집) 
 

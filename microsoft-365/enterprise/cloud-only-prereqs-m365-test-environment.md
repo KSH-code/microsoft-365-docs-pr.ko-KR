@@ -14,20 +14,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 클라우드 전용 인증을 위한 필수 구성 요소를 사용하여 ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: 537718eb0efcffc296162a4458158efcbdad9986
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 927aa032e4181206b3a744da7076b696ac5cf4d4
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051547"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199552"
 ---
 # <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 클라우드 전용 ID 및 장치 액세스 필수 구성 요소
 
 *이 테스트 랩 가이드는 엔터프라이즈용 Microsoft 365 테스트 환경에만 사용할 수 있습니다.*
 
-[ID 및 장치 액세스 구성은](../security/defender-365-security/microsoft-365-policies-configurations.md) Azure AD(Azure Active Directory)와 통합된 모든 서비스에 대한 액세스를 보호하기 위한 권장 구성 및 조건부 액세스 정책 집합입니다.
+[ID 및 장치 액세스 구성은](../security/office-365-security/microsoft-365-policies-configurations.md) Azure AD(Azure Active Directory)와 통합된 모든 서비스에 대한 액세스를 보호하기 위한 권장 구성 및 조건부 액세스 정책 집합입니다.
 
-이 문서에서는 ID 및 장치 액세스를 위해 [클라우드 전용 필수 구성](../security/defender-365-security/identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 Microsoft 365 테스트 환경을 구성하는 방법에 대해 설명합니다.
+이 문서에서는 ID 및 장치 액세스를 위해 [클라우드 전용 필수 구성](../security/office-365-security/identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 Microsoft 365 테스트 환경을 구성하는 방법에 대해 설명합니다.
 
 이 테스트 환경의 8가지 주요 설정 단계는 다음과 같습니다.
 
@@ -109,11 +109,11 @@ Online 비즈니스용 Skype의 경우:
   Get-CsOAuthConfiguration
   ```
 
-그 결과 ID 및 장치 액세스에 [](../security/defender-365-security/identity-access-prerequisites.md#prerequisites) 대한 클라우드 전용 선행 조건 구성의 요구 사항을 충족하는 테스트 환경이 됩니다. 
+그 결과 ID 및 장치 액세스에 [](../security/office-365-security/identity-access-prerequisites.md#prerequisites) 대한 클라우드 전용 선행 조건 구성의 요구 사항을 충족하는 테스트 환경이 됩니다. 
 
 ## <a name="next-step"></a>다음 단계
 
-[일반 ID 및 장치 액세스 정책](../security/defender-365-security/identity-access-policies.md)을 사용하여 필수 구성 요소를 기반으로 구축되고 ID 및 장치를 보호하는 정책을 구성합니다.
+[일반 ID 및 장치 액세스 정책](../security/office-365-security/identity-access-policies.md)을 사용하여 필수 구성 요소를 기반으로 구축되고 ID 및 장치를 보호하는 정책을 구성합니다.
 
 ## <a name="see-also"></a>참고 항목
 

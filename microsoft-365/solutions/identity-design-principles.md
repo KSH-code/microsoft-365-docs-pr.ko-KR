@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 746ca59fd0e9eb0d93d93c00b6a279a9156cc524
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: da70bbfe5c4dfa4f9eda16adec709826de1247b7
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050741"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200020"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>ID 및 그 이상을 아우르는 설계자의 관점
 
@@ -135,7 +135,7 @@ Azure AD의 정책 엔진은 조건부 액세스 정책을 [사용하여 구현�
 - [Azure AD ID 보호](/azure/active-directory/identity-protection/) 
 - [ID용 Microsoft Defender](/azure-advanced-threat-protection/)
 - [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
-- [Office 365용 Microsoft Defender](../security/defender-365-security/defender-for-office-365.md?view=o365-worldwide)
+- [Office 365용 Microsoft Defender](../security/office-365-security/defender-for-office-365.md?view=o365-worldwide)
 - [Microsoft Cloud App](/cloud-app-security/) Security(MCAS)
 - [Microsoft 365 Defender](../security/defender/microsoft-365-defender.md?view=o365-worldwide)
 - [Microsoft Intune](/mem/intune/)
@@ -227,7 +227,7 @@ Azure [AD PIM을](/azure/active-directory/privileged-identity-management/) 몇 �
 
 ### <a name="security-and-compliance-center-scc"></a>SCC(보안 및 준수 센터)
 
-[Office 365 보안 &](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md) 준수 센터의 사용 권한은 Azure AD 역할과 별개인 "역할 그룹"의 모음입니다. 이러한 역할 그룹 중 일부는 Azure AD 역할(예: 보안 리더)과 이름이 같지만 구성원 자격이 다를 수 있기 때문에 혼란스러울 수 있습니다. Azure AD 역할을 사용하는 것이 좋습니다. 각 역할 그룹은 하나 이상의 "역할"(동일한 단어를 다시 사용하는 경우의 의미 참조)과 전자 메일 사용이 가능한 개체인 Azure AD의 구성원으로 구성됩니다. 또한 역할과 이름이 같은 역할 그룹을 만들 수 있습니다. 이 역할은 해당 역할을 포함하거나 포함하지 않을 수 있습니다(이러한 혼동을 피하기).
+[Office 365 보안 &](../security/office-365-security/permissions-in-the-security-and-compliance-center.md) 준수 센터의 사용 권한은 Azure AD 역할과 별개인 "역할 그룹"의 모음입니다. 이러한 역할 그룹 중 일부는 Azure AD 역할(예: 보안 리더)과 이름이 같지만 구성원 자격이 다를 수 있기 때문에 혼란스러울 수 있습니다. Azure AD 역할을 사용하는 것이 좋습니다. 각 역할 그룹은 하나 이상의 "역할"(동일한 단어를 다시 사용하는 경우의 의미 참조)과 전자 메일 사용이 가능한 개체인 Azure AD의 구성원으로 구성됩니다. 또한 역할과 이름이 같은 역할 그룹을 만들 수 있습니다. 이 역할은 해당 역할을 포함하거나 포함하지 않을 수 있습니다(이러한 혼동을 피하기).
 
 Exchange 역할 그룹 모델의 발전된 예입니다. 그러나 Exchange Online에는 자체 [역할 그룹 관리 인터페이스가](/exchange/permissions-exo) 있습니다. Exchange Online의 일부 역할 그룹은 Azure AD 또는 보안 & 준수 센터에서 잠기고 관리되지만 다른 역할 그룹은 이름이 같거나 유사할 수 있으며 Exchange Online에서 관리됩니다(혼란에 추가). Exchange 관리에 대한 범위가 필요하지 않으면 Exchange Online 사용자 인터페이스를 사용하지 않는 것이 좋습니다.
 

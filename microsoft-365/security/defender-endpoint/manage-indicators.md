@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d54ab8eaa1e17be82752c480c963d3a24af56389
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a04f3be1f13fb57cd76cda7115d014f2ba3aa8d6
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187580"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198836"
 ---
 # <a name="create-indicators"></a>표시기 만들기
 
@@ -33,13 +33,14 @@ ms.locfileid: "51187580"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
+> [!TIP]
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 IoC(손상 표시기) 일치는 모든 끝점 보호 솔루션에서 필수적인 기능입니다. SecOps는 이 기능을 통해 검색 및 차단(예방 및 응답)에 대한 표시기 목록을 설정할 수 있습니다.
 
 엔터티의 검색, 방지 및 제외를 정의하는 표시기를 만들 수 있습니다. 수행되는 작업과 작업을 적용할 기간 및 적용할 장치 그룹의 범위를 정의할 수 있습니다.
 
-현재 지원되는 원본은 Endpoint용 Defender의 클라우드 검색 엔진, 자동화된 조사 및 수정 엔진 및 끝점 방지 엔진(Microsoft Defender AV)입니다.
+현재 지원되는 원본은 Endpoint용 Defender의 클라우드 검색 엔진, 자동화된 조사 및 수정 엔진 및 끝점 방지 엔진(Microsoft Defender 바이러스 백신)입니다.
 
 **클라우드 검색 엔진**<br>
 Endpoint용 Defender의 클라우드 검색 엔진은 정기적으로 수집된 데이터를 검색하고 설정한 지표와 일치를 합니다. 일치하는 경우 IoC에 대해 지정한 설정에 따라 작업이 수행됩니다.
@@ -63,8 +64,8 @@ Endpoint용 Defender의 클라우드 검색 엔진은 정기적으로 수집된 
 - [인증서](indicator-certificates.md)
 
 
->[!NOTE]
->테넌트당 표시기는 15,000개로 제한됩니다.
+> [!NOTE]
+> 테넌트당 표시기는 15,000개로 제한됩니다. 파일 및 인증서 표시기는 Microsoft Defender 바이러스 백신에 정의된 제외를 [차단하지 않습니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) Microsoft Defender 바이러스 백신에서 지원되지 않는 표시기는 수동 모드입니다. 
 
 
 ## <a name="related-topics"></a>관련 항목

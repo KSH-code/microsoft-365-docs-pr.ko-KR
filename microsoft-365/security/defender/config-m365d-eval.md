@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 5ab4019751a26507fcc80007d3262f20f861d25c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8bb80e032fd2eb4c618b60f4ab46829d5cf11b6d
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071487"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199232"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>평가판 랩 또는 파일럿 환경에 맞게 Microsoft 365 Defender 기조 구성
 
@@ -96,7 +96,7 @@ Microsoft 365 Defender는 4개의 기조로 구성됩니다. 하나의 기둥이
  
 7. 그런 다음 안전한 링크 **정책을** 선택한 다음 연필 아이콘을 클릭하여 기본 정책을 편집합니다.
 
-8. 나머지 옵션이  선택되어 있는 동안 사용자가 안전한 링크를 클릭하는 경우 추적 안 하세요. 옵션이 선택되어 있는지 확인 합니다. 자세한 [내용은 안전한 링크](/microsoft-365/security/defender-365-security/recommended-settings-for-eop-and-office365) 설정을 참조하세요. **저장** 을 클릭합니다. 
+8. 나머지 옵션이  선택되어 있는 동안 사용자가 안전한 링크를 클릭하는 경우 추적 안 하세요. 옵션이 선택되어 있는지 확인 합니다. 자세한 [내용은 안전한 링크](/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365) 설정을 참조하세요. **저장** 을 클릭합니다. 
 
    ![이미지 of_Office 365 보안 & 준수 센터 페이지에서 사용자가 안전을 클릭하는 경우 추적 안 하도록 설정 옵션이 선택되어 있지 않습니다.](../../media/mtp-eval-38.png)
 

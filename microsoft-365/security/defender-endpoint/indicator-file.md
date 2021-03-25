@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d78f90e78a50d5902070f441a1d60693a5f531c8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 35a0b66a4cdc4cf39c15329eda2e0aafced79f34
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185722"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199612"
 ---
 # <a name="create-indicators-for-files"></a>파일에 대한 표시기 만들기
 
@@ -35,7 +35,8 @@ ms.locfileid: "51185722"
 
 
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
+> [!TIP]
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 잠재적인 악성 파일 또는 의심되는 맬웨어를 금지하여 조직에서 공격이 추가로 전파되는 것을 방지할 수 있습니다. 잠재적으로 악의적인 PE(이식 가능한 실행 파일) 파일을 알고 있는 경우 해당 파일을 차단할 수 있습니다. 이 작업을 수행하면 조직의 컴퓨터의 읽기, 작성 또는 실행이 차단됩니다.
 
@@ -52,13 +53,13 @@ ms.locfileid: "51185722"
 - 파일 차단을 시작하려면 먼저 설정에서 차단 또는 허용 [기능을 켜야  ](advanced-features.md) 합니다.
 - 이 기능은 의심되는 맬웨어(또는 악성 파일)가 웹에서 다운로드되지 않도록 디자인되었습니다. 현재 _.exe_ 및 _.dll_ 파일을 비롯한 PE(이식 가능한 실행 파일) 파일을 지원하고 있습니다. 적용 범위는 시간이 지날 때 연장됩니다.
 
->[!IMPORTANT]
->- 허용 또는 차단 작업 전에 파일의 분류가 디바이스 캐시에 있는 경우 파일에서 허용 또는 차단 기능을 할 수 없습니다. 
->- 신뢰할 수 있는 서명된 파일은 다르게 처리됩니다. 끝점용 Defender는 악성 파일을 처리하도록 최적화되어 있습니다. 경우에 따라 신뢰할 수 있는 서명된 파일을 차단하려고 시도하면 성능에 의미가 있을 수 있습니다.
+네트워크 공유에서 로컬 장치로 큰 파일을 복사하는 경우 특히 VPN 연결을 통해 성능에 영향을 줄 수 있습니다. 
 
- 
->[!NOTE]
->일반적으로 파일 블록은 몇 분 이내에 적용되지만 30분까지 걸릴 수 있습니다.
+> [!IMPORTANT]
+> - 허용 또는 차단 작업 전에 파일의 분류가 디바이스 캐시에 있는 경우 파일에서 허용 또는 차단 기능을 할 수 없습니다. 
+> - 신뢰할 수 있는 서명된 파일은 다르게 처리됩니다. 끝점용 Defender는 악성 파일을 처리하도록 최적화되어 있습니다. 경우에 따라 신뢰할 수 있는 서명된 파일을 차단하려고 시도하면 성능에 의미가 있을 수 있습니다.
+> - 일반적으로 파일 블록은 몇 분 이내에 적용되지만 30분까지 걸릴 수 있습니다.
+> - 충돌하는 파일 표시기 정책이 있는 경우 보다 안전한 정책의 적용 정책이 적용됩니다. 예를 들어 두 해시 유형이 동일한 파일을 정의하는 경우 SHA-256 파일 해시 표시기 정책이 MD5 파일 해시 표시기 정책보다 우선합니다.
 
 ### <a name="create-an-indicator-for-files-from-the-settings-page"></a>설정 페이지에서 파일에 대한 표시기 만들기
 

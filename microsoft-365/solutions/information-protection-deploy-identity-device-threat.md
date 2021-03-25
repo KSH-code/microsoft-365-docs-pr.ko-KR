@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft 365의 ID, 장치 및 위협 방지 서비스를 사용하여 개인 데이터 위반을 방지합니다.
-ms.openlocfilehash: 145b8a59f7eafb95adf71dc24613ee15ef1c2cca
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 5e08ef574e199769e572b3836b3323dc88fc4bbd
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052353"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199468"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>데이터 개인 정보 보호 규정에 ID, 장치 및 위협 방지 사용
 
@@ -70,7 +70,7 @@ Microsoft 365는 조직이 데이터 개인 정보 관련 규정 준수 규정�
 - 모바일 장치가 비활성에 잠겨야 합니다.
 - 모바일 장치에서 여러 로그인 실패 시 지워야 합니다.
 
-다음을 통해 위협으로부터 보호 범주에 Exchange Online Protection 및 [Office 365용 Microsoft Defender를](../security/defender-365-security/defender-for-office-365.md) 사용하세요. 
+다음을 통해 위협으로부터 보호 범주에 Exchange Online Protection 및 [Office 365용 Microsoft Defender를](../security/office-365-security/defender-for-office-365.md) 사용하세요. 
 
 - 보낸 사람 인증(SPF, DMARC 및 DKIM)을 사용하도록 설정
 - Office 365 피싱 방지 정책에 대한 Microsoft Defender를 설치합니다.
@@ -81,8 +81,8 @@ Microsoft 365는 조직이 데이터 개인 정보 관련 규정 준수 규정�
 
 ### <a name="references"></a>참조:
 
-- [일반 ID 및 장치 액세스 정책](../security/defender-365-security/identity-access-policies.md)
+- [일반 ID 및 장치 액세스 정책](../security/office-365-security/identity-access-policies.md)
 - [Office 365의 위협으로부터 보호](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58)
-- [안전한 첨부 파일](../security/defender-365-security/safe-attachments.md)
-- [안전한 링크](../security/defender-365-security/safe-links.md)
-- [안전한 문서](../security/defender-365-security/safe-docs.md)
+- [안전한 첨부 파일](../security/office-365-security/safe-attachments.md)
+- [안전한 링크](../security/office-365-security/safe-links.md)
+- [안전한 문서](../security/office-365-security/safe-docs.md)

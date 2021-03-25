@@ -22,12 +22,12 @@ ms.custom: autoir
 ms.date: 01/29/2021
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: c12937c016875c26a7212117e41aac4349cb540d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8ed6f1ccd6587d6c618974a123f0d5d42a44e753
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073940"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199636"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Microsoft 365 Defender의 자동화된 조사 및 대응
 
@@ -41,7 +41,7 @@ ms.locfileid: "51073940"
 이 문서에서는 AIR에 대한 개요를 제공하며 다음 단계 및 추가 리소스에 대한 링크를 제공합니다.
 
 > [!TIP]
-> Microsoft 365 Defender를 경험하고 싶나요? 랩 [환경에서 평가하거나](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) 프로덕션 [환경에서 파일럿](m365d-pilot.md?ocid=cx-evalpilot)프로젝트를 실행할 수 있습니다.
+> Microsoft 365 Defender를 경험해 보고 싶으신가요? [랩 환경에서 평가](m365d-evaluation.md?ocid=cx-docs-MTPtriallab)하거나 [프로덕션에서 파일럿 프로젝트를 실행](m365d-pilot.md?ocid=cx-evalpilot)할 수 있습니다.
 
 ## <a name="how-automated-investigation-and-self-healing-works"></a>자동화된 조사 및 자동 복구의 작동 방식
 
@@ -90,7 +90,7 @@ Microsoft 365 Defender에서 각 자동화된 조사는 다음 표에 요약된 
 |엔터티 |위협 보호 서비스  |
 |:---------|:---------|
 |장치(끝점이라고도 하지만 컴퓨터라고도 불리며)     |[엔드포인트용 Microsoft Defender](../defender-endpoint/automated-investigations.md)<br/>[ID용 Microsoft Defender](/azure-advanced-threat-protection/what-is-atp) |      
-|전자 메일 콘텐츠(파일 및 URL을 포함할 수 있는 전자 메일 메시지)     |[Office 365용 Microsoft Defender](../defender-365-security/defender-for-office-365.md)         |
+|전자 메일 콘텐츠(파일 및 URL을 포함할 수 있는 전자 메일 메시지)     |[Office 365용 Microsoft Defender](../office-365-security/defender-for-office-365.md)         |
 
 > [!NOTE]
 > 모든 경고가 자동화된 조사를 트리거하는 것은 아니며, 모든 조사가 자동화된 수정 작업을 수행하지는 않습니다. 조직에 대해 자동화된 조사 및 응답이 구성되는 방식에 따라 달라 하게 됩니다. [Microsoft 365 Defender에서](m365d-configure-auto-investigation-response.md)자동화된 조사 및 응답 기능 구성을 참조합니다.

@@ -17,12 +17,12 @@ ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
 ms.technology: m365d
-ms.openlocfilehash: 7a33fdf1436d88906257c8b603a5da579c2e3846
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: afdf4b4ec8824fa49843074880bcd6f4f1857cca
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076692"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200272"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 자동화된 조사 및 응답 기능 구성
 
@@ -46,7 +46,7 @@ Microsoft 365 Defender에는 보안 운영 팀에 많은 시간과 노력을 절
 |구독 요구 사항 |다음 구독 중 하나: <br/>- Microsoft 365 E5<br/>- Microsoft 365 A5<br/>- Microsoft 365 E5 보안<br/>- Microsoft 365 A5 보안<br/>- Office 365 E5 및 Enterprise Mobility + Security E5 및 Windows E5<p> [Microsoft 365 Defender 라이선스 요구 사항을 참조하세요.](./prerequisites.md#licensing-requirements)|
 |네트워크 요구 사항 |- [Id에 대한 Microsoft Defender 사용](/azure-advanced-threat-protection/what-is-atp)<br/>- [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) 구성<br/>- [Microsoft Defender for Identity 통합](/cloud-app-security/mdi-integration) |
 |Windows 컴퓨터 요구 사항 |- Windows 10, 버전 1709 이상이 설치됨([Windows 10 릴리스 정보](/windows/release-information/)참조) <br/>- 구성된 위협 방지 서비스는 다음과 같습니다.<br/>- [끝점용 Microsoft Defender](../defender-endpoint/configure-endpoints.md)<br/>- [Microsoft Defender 바이러스 백신](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) |
-|전자 메일 콘텐츠 및 Office 파일에 대한 보호 |[구성된 Office 365용 Microsoft Defender](/microsoft-365/security/defender-365-security/defender-for-office-365#configure-atp-policies) |
+|전자 메일 콘텐츠 및 Office 파일에 대한 보호 |[구성된 Office 365용 Microsoft Defender](/microsoft-365/security/office-365-security/defender-for-office-365#configure-atp-policies) |
 |사용 권한 | 자동화된 조사 및 응답 기능을 구성하려면 Azure Active Directory( ) 또는 Microsoft 365 관리 센터()에서 전역 관리자 또는 보안 관리자 역할이 [https://portal.azure.com](https://portal.azure.com) 할당되어 있어야 [https://admin.microsoft.com](https://admin.microsoft.com) 합니다.<p>보류 중인 작업의 검토, 승인 또는 거부와 같은 자동화된 조사 및 응답 기능과 함께 작업하는 데 필요한 사용 권한을 얻하려면 Action Center 작업에 필요한 사용 권한을 [참조하세요.](m365d-action-center.md#required-permissions-for-action-center-tasks) |
 
 ## <a name="review-or-change-the-automation-level-for-device-groups"></a>장치 그룹의 자동화 수준 검토 또는 변경
@@ -61,21 +61,21 @@ Microsoft 365 Defender에는 보안 운영 팀에 많은 시간과 노력을 절
 
 ## <a name="review-your-security-and-alert-policies-in-office-365"></a>Office 365에서 보안 및 경고 정책 검토
 
-Microsoft는 특정 위험을 [식별하는](../../compliance/alert-policies.md) 데 도움이 되는 기본 제공 경고 정책을 제공합니다. 이러한 위험에는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적인 외부 및 내부 위협, 정보 거버넌스 위험이 포함됩니다. 일부 경고는 [Office 365에서](../defender-365-security/office-365-air.md)자동화된 조사 및 응답을 트리거할 수 있습니다. [Office 365용 Microsoft Defender](/microsoft-365/security/defender-365-security/defender-for-office-365) 기능이 올바르게 구성되어 있는지 확인합니다.
+Microsoft는 특정 위험을 [식별하는](../../compliance/alert-policies.md) 데 도움이 되는 기본 제공 경고 정책을 제공합니다. 이러한 위험에는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적인 외부 및 내부 위협, 정보 거버넌스 위험이 포함됩니다. 일부 경고는 [Office 365에서](../office-365-security/office-365-air.md)자동화된 조사 및 응답을 트리거할 수 있습니다. [Office 365용 Microsoft Defender](/microsoft-365/security/office-365-security/defender-for-office-365) 기능이 올바르게 구성되어 있는지 확인합니다.
 
 특정 경고 및 보안 정책이 자동화된 조사를 트리거할 수 있기는 하지만 전자 메일 및 콘텐츠에 대한 수정 작업은 자동으로 수행되지 않습니다. 대신, 전자 메일 및 전자 메일 콘텐츠에 대한 모든 수정 작업은 알림 센터의 보안 운영 팀이 승인을 [기다립니다.](m365d-action-center.md)
 
-Office 365의 보안 설정은 전자 메일 및 콘텐츠를 보호하는 데 도움이 됩니다. 이러한 설정을 보거나 변경하려면 위협으로부터 보호의 [지침을 따르십시오.](../defender-365-security/protect-against-threats.md)
+Office 365의 보안 설정은 전자 메일 및 콘텐츠를 보호하는 데 도움이 됩니다. 이러한 설정을 보거나 변경하려면 위협으로부터 보호의 [지침을 따르십시오.](../office-365-security/protect-against-threats.md)
 
 1. Microsoft 365 보안 [https://security.microsoft.com](https://security.microsoft.com) 센터()에서 정책 위협   >  **보호로 이동 합니다.**
-2. 다음 정책을 모두 구성해야 합니다. 도움말 및 권장 사항을 얻었다면 [위협으로부터 보호를 참조하세요.](/microsoft-365/security/defender-365-security/protect-against-threats)
-   - [맬웨어 방지(Office 365)](../defender-365-security/protect-against-threats.md#part-1---anti-malware-protection)
-   - [Defender for Office 365의 피싱 방지)](../defender-365-security/protect-against-threats.md#part-2---anti-phishing-protection)
-   - [안전한 첨부 파일(Office 365)](../defender-365-security/protect-against-threats.md#safe-attachments-policies-in-microsoft-defender-for-office-365)
-   - [안전한 링크(Office 365)](../defender-365-security/protect-against-threats.md#safe-links-policies-in-microsoft-defender-for-office-365)
-   - [스팸 방지(Office 365)](../defender-365-security/protect-against-threats.md#part-3---anti-spam-protection)
-3. [SharePoint, OneDrive 및 Microsoft Teams용 Office 365용 Microsoft Defender가](../defender-365-security/protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on) 켜져 있는지 확인
-4. 전자 메일 [보호를 위한 제로 아워 자동](../defender-365-security/protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop) 제거가 적용된지 확인
+2. 다음 정책을 모두 구성해야 합니다. 도움말 및 권장 사항을 얻었다면 [위협으로부터 보호를 참조하세요.](/microsoft-365/security/office-365-security/protect-against-threats)
+   - [맬웨어 방지(Office 365)](../office-365-security/protect-against-threats.md#part-1---anti-malware-protection)
+   - [Defender for Office 365의 피싱 방지)](../office-365-security/protect-against-threats.md#part-2---anti-phishing-protection)
+   - [안전한 첨부 파일(Office 365)](../office-365-security/protect-against-threats.md#safe-attachments-policies-in-microsoft-defender-for-office-365)
+   - [안전한 링크(Office 365)](../office-365-security/protect-against-threats.md#safe-links-policies-in-microsoft-defender-for-office-365)
+   - [스팸 방지(Office 365)](../office-365-security/protect-against-threats.md#part-3---anti-spam-protection)
+3. [SharePoint, OneDrive 및 Microsoft Teams용 Office 365용 Microsoft Defender가](../office-365-security/protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on) 켜져 있는지 확인
+4. 전자 메일 [보호를 위한 제로 아워 자동](../office-365-security/protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop) 제거가 적용된지 확인
 5. 이 단계는 선택 사항입니다. Microsoft [365](../../compliance/alert-policies.md) 규정 준수 센터에서 Office 365 경고 정책을 검토합니다( [https://compliance.microsoft.com/compliancepolicies](https://compliance.microsoft.com/compliancepolicies) ). 위협 관리 범주에는 몇 가지 기본 경고 정책이 있습니다. 이러한 경고 중 일부는 자동화된 조사 및 응답을 트리거할 수 있습니다. 자세한 내용은 기본 경고 [정책 을 참조합니다.](../../compliance/alert-policies.md#default-alert-policies)
 
 ## <a name="make-sure-microsoft-365-defender-is-turned-on"></a>Microsoft 365 Defender가 켜져 있는지 확인

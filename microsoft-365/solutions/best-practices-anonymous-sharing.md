@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: 이 문서에서는 인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례를 알아봅니다.
-ms.openlocfilehash: af0cc59813c76e4ed6a3c0e50140e7fa26c91080
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: acc825a8fc445d224fbc91dd12dace2a5e1b25c8
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051069"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199528"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례
 
@@ -140,7 +140,7 @@ DLP 규칙을 만들려면 다음을 수행합니다.
 
 4. 필요에 따라 안전한 문서를 켠 다음 **저장** 을 클릭합니다.
 
-추가 지침은 [SharePoint, OneDrive 및 Microsoft Teams용 ATP](../security/defender-365-security/mdo-for-spo-odb-and-teams.md)의 경우 [SharePoint, OneDrive 및 Microsoft Teams용 ATP 설정](../security/defender-365-security/turn-on-mdo-for-spo-odb-and-teams.md)을 참조하시기 바랍니다.
+추가 지침은 [SharePoint, OneDrive 및 Microsoft Teams용 ATP](../security/office-365-security/mdo-for-spo-odb-and-teams.md)의 경우 [SharePoint, OneDrive 및 Microsoft Teams용 ATP 설정](../security/office-365-security/turn-on-mdo-for-spo-odb-and-teams.md)을 참조하시기 바랍니다.
 
 ## <a name="add-copyright-information-to-your-files"></a>파일에 저작권 정보 추가
 

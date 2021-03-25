@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자 사용자 권한 및 역할을 설정하고 작업의 자동화된 테스트를 구성합니다. 사용자 기록을 관리하고 대시보드 보기를 필터링합니다.
-ms.openlocfilehash: 08a62a12e5f412781595ba7d54c3b63a03ae19aa
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3b32ac5a82bbc726c5bf61859266e0561ca7f53c
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052136"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199221"
 ---
 # <a name="get-started-with-compliance-manager"></a>규정 준수 관리자 시작
 
@@ -72,7 +72,7 @@ Office 365 보안 및 준수 센터에서 권한을 설정하고 역할을 할�
 
 ##### <a name="more-about-the-office-365-security--compliance-center"></a>Office 365 보안 및 준수 & 대한 자세한 정보
 
-Office 365 보안 및 준수 센터의 사용 [권한에 & 자세히 알아보아야 합니다.](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md)
+Office 365 보안 및 준수 센터의 사용 [권한에 & 자세히 알아보아야 합니다.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 
 Office 365 보안 및 준수 센터에 액세스할 수 없는 경우 또는 Microsoft Service Trust Portal에서 준수 관리자의 클래식 버전에 액세스해야 하는 경우 서비스 보안 포털의 관리 설정을 통해 역할을 할당할 수 있습니다(지침[보기).](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users) 이러한 역할은 기능에서 더 제한적입니다.
 

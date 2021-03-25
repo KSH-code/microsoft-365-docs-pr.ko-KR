@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 02/01/2021
-ms.openlocfilehash: c91e5152fc7a64c8d26363383192d6b8d74611b8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: d958f2787b9d66e42a32b8858139f7d13e83ddef
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186764"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199600"
 ---
 # <a name="the-action-center"></a>알림 센터
 
@@ -61,7 +61,7 @@ ms.locfileid: "51186764"
 적절한 사용 권한 및 다음 구독 중 하나 이상이 있는 경우 통합 관리 센터를 사용할 수 있습니다.
 
 - [엔드포인트용 Defender](../defender-endpoint/microsoft-defender-endpoint.md)
-- [Office 365용 Defender](/microsoft-365/security/defender-365-security/defender-for-office-365)
+- [Office 365용 Defender](/microsoft-365/security/office-365-security/defender-for-office-365)
 - [Microsoft 365 Defender](microsoft-365-defender.md)
 
 > [!TIP]
@@ -113,11 +113,11 @@ ms.locfileid: "51186764"
 | 작업 원본 값 | 설명 |
 |:-----|:---|
 | **수동 장치 작업** | 디바이스에서 수행된 수동 작업입니다. [예로는 장치 고리 또는](../defender-endpoint/respond-machine-alerts.md#isolate-devices-from-the-network) 파일 검지가 [있습니다.](../defender-endpoint/respond-file-alerts.md#stop-and-quarantine-files) |
-| **수동 전자 메일 작업** | 전자 메일에 대한 수동 작업입니다. 예를 들어 전자 메일 메시지를 소프트 삭제하거나 전자 메일 [메시지를 수정합니다.](../defender-365-security/remediate-malicious-email-delivered-office-365.md) |
+| **수동 전자 메일 작업** | 전자 메일에 대한 수동 작업입니다. 예를 들어 전자 메일 메시지를 소프트 삭제하거나 전자 메일 [메시지를 수정합니다.](../office-365-security/remediate-malicious-email-delivered-office-365.md) |
 | **자동화된 장치 작업** | 파일 또는 프로세스와 같은 엔터티에 대한 자동화된 작업입니다. 자동화된 작업의 예로는 파일을 검지로 보내기, 프로세스 중지, 레지스트리 키 제거가 있습니다. [(Endpoint에 대한 Microsoft Defender의 수정 작업을 참조합니다.)](../defender-endpoint/manage-auto-investigation.md#remediation-actions) |
-| **자동화된 전자 메일 작업** | 전자 메일 메시지, 첨부 파일 또는 URL과 같은 전자 메일 콘텐츠에 대한 자동화된 작업입니다. 자동화된 작업의 예로는 전자 메일 메시지의 소프트 삭제, URL 차단 및 외부 메일 전달 해제가 있습니다. (Office [365용 Microsoft Defender의](../defender-365-security/air-remediation-actions.md)수정 작업을 참조합니다.) |
+| **자동화된 전자 메일 작업** | 전자 메일 메시지, 첨부 파일 또는 URL과 같은 전자 메일 콘텐츠에 대한 자동화된 작업입니다. 자동화된 작업의 예로는 전자 메일 메시지의 소프트 삭제, URL 차단 및 외부 메일 전달 해제가 있습니다. (Office [365용 Microsoft Defender의](../office-365-security/air-remediation-actions.md)수정 작업을 참조합니다.) |
 | **고급 헌팅 작업** | 고급 헌팅이 있는 장치 또는 전자 [메일에 대해 수행된 작업입니다.](./advanced-hunting-overview.md) |
-| **탐색기 동작** | 탐색기를 사용하여 전자 메일 콘텐츠에 대해 수행한 [작업입니다.](../defender-365-security/threat-explorer.md) |
+| **탐색기 동작** | 탐색기를 사용하여 전자 메일 콘텐츠에 대해 수행한 [작업입니다.](../office-365-security/threat-explorer.md) |
 | **수동 실시간 응답 작업** | 라이브 응답이 있는 [디바이스에서 수행된 작업입니다.](../defender-endpoint/live-response.md) 예를 들어 파일 삭제, 프로세스 중지 및 예약된 작업 제거가 있습니다. |
 | **라이브 응답 작업** | 끝점 API용 [Microsoft Defender를 사용하여 디바이스에서 수행한 작업입니다.](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis) 작업의 예로는 장치 차단, 바이러스 백신 검사 실행, 파일에 대한 정보 보기가 있습니다. |
 
@@ -128,7 +128,7 @@ ms.locfileid: "51186764"
 |수정 작업 |필요한 역할 및 사용 권한 할당 |
 |--|----|
 |끝점 수정을 위한 Microsoft Defender(장치) |Azure Active Directory([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 할당된 **보안 관리자** 역할<br/>--- 또는 ---<br/>**끝점용** Microsoft Defender에 할당된 활성 수정 작업 역할 <br/> <br/> 자세한 내용은 다음 리소스를 참조하세요. <br/>- [Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [역할 기반 액세스 제어에 대한 역할 만들기 및 관리(끝점용 Microsoft Defender)](../defender-endpoint/user-roles.md)  |
-|Microsoft Defender for Office 365 수정(Office 콘텐츠 및 전자 메일)  |Azure Active Directory([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 할당된 **보안 관리자** 역할<br/>--- 및 --- <br/>**보안 및 준수** 센터에 할당된 & 제거 역할( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**중요:** Office 365 보안 & 준수 센터()에서만 보안 관리자 역할이 할당된 경우, 관리 센터 또는 Microsoft  [https://protection.office.com](https://protection.office.com) 365 Defender 기능에 액세스할 수 없습니다. Azure Active  Directory 또는 Microsoft 365 관리 센터에서 보안 관리자 역할이 할당되어 있어야 합니다. <br/><br/>자세한 내용은 다음 리소스를 참조하세요. <br/>- [Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [보안 및 준수 센터의 & 권한](/microsoft-365/security/defender-365-security/permissions-in-the-security-and-compliance-center) |
+|Microsoft Defender for Office 365 수정(Office 콘텐츠 및 전자 메일)  |Azure Active Directory([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 할당된 **보안 관리자** 역할<br/>--- 및 --- <br/>**보안 및 준수** 센터에 할당된 & 제거 역할( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**중요:** Office 365 보안 & 준수 센터()에서만 보안 관리자 역할이 할당된 경우, 관리 센터 또는 Microsoft  [https://protection.office.com](https://protection.office.com) 365 Defender 기능에 액세스할 수 없습니다. Azure Active  Directory 또는 Microsoft 365 관리 센터에서 보안 관리자 역할이 할당되어 있어야 합니다. <br/><br/>자세한 내용은 다음 리소스를 참조하세요. <br/>- [Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [보안 및 준수 센터의 & 권한](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
 
 > [!TIP]
 > Azure Active Directory에서 **전역 관리자** 역할이 할당된 사용자는 알림 센터에서 대기 중인 모든 작업을 승인하거나 거부할 수 있습니다. 그러나 조직에서는 전역 관리자 역할이 할당된 사용자 수를 제한하는 것이 가장 좋은 **모범** 사례입니다. 앞의 관리 센터 권한 표에 나열된  보안 **관리자,** 활성 수정 작업 및 검색 및 제거 역할을 사용하는 것이 좋습니다.

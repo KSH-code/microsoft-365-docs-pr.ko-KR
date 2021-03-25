@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 41c97d122362ec1fa945fc012ab7a1da46a43b68
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: ed6f6b42570a908a1f4a83d46ef5b2de0c558692
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165588"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199744"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
@@ -141,7 +141,7 @@ Azure Advanced Threat Protection과의 통합을 통해 다른 Microsoft ID 보�
 > [!NOTE]
 > 이 기능을 사용하려면 적절한 라이선스가 필요합니다.
 
-Office 365 위협 인텔리전스에서 상황에 맞는 장치 통합을 받으하려면 보안 및 준수 대시보드에서 끝점에 대한 Defender 설정을 & 합니다. 자세한 내용은 위협 조사 및 [응답을 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-ti)
+Office 365 위협 인텔리전스에서 상황에 맞는 장치 통합을 받으하려면 보안 및 준수 대시보드에서 끝점에 대한 Defender 설정을 & 합니다. 자세한 내용은 위협 조사 및 [응답을 참조하세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti)
 
 ## <a name="microsoft-threat-experts"></a>Microsoft 위협 전문가
 
@@ -161,7 +161,7 @@ Microsoft Threat Expert 구성 요소 2개 중 대상 공격 알림은 일반 �
 
 이 설정을 켜면 신호를 Azure Information Protection으로 전달할 수 있습니다. 이 기능을 사용하면 데이터 소유자와 관리자가 온보더된 디바이스의 보호된 데이터와 장치 위험 등급을 쉽게 사용할 수 있습니다.
 
-## <a name="microsoft-secure-score"></a>Microsoft 보안 점수
+## <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
 끝점용 Microsoft Defender 신호를 Microsoft 365 보안 센터의 Microsoft 보안 점수로 전달합니다. 이 기능을 켜면 Microsoft 보안 점수가 장치의 보안 상태와 관련한 가시성을 확보할 수 있습니다. 전달된 데이터는 Microsoft 보안 점수 데이터와 동일한 위치에 저장되고 처리됩니다.
 

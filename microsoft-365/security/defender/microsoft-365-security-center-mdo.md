@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 6a40b80faef124a3a03e84a749b901a01791f6fb
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 85afc0dedd4fea9ea11c378ca35523d668acc84c
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165084"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199186"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 Office 365용 Microsoft Defender
 
@@ -33,7 +33,7 @@ ms.locfileid: "51165084"
 **적용 대상:**
 - [Microsoft 365 Defender](microsoft-365-defender.md)
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [Office 365용 Microsoft Defender](/microsoft-365/security/defender-365-security/defender-for-office-365)
+- [Office 365용 Microsoft Defender](/microsoft-365/security/office-365-security/defender-for-office-365)
 
 [https://security.microsoft.com](https://security.microsoft.com)의 개선된 [Microsoft 365 보안 센터](./overview-security-center.md)는 Microsoft Defender 보안 센터와 Office 365 보안 및 준수 센터 등의 기존 Microsoft 보안 포털의 보안 기능을 결합합니다. 이 개선된 센터는 보안 팀이 더 효과적이고 효율적으로 위협으로부터 조직을 보호하는 데 도움이 됩니다.
 
@@ -49,18 +49,18 @@ Office 365 보안 및 규정 준수 포털(protection.office.com)에 익숙한 �
 
 |**영역**  |**변경 설명**  |
 |---------|---------|
-| [전자 메일 엔터티 페이지](../defender-365-security/mdo-email-entity-page.md) | 이 페이지는 여러 페이지나 보기에 흩어진 전자 메일 정보를 **통합** 합니다. 위협과 추세 조사가 *중앙화* 됩니다. 헤더 정보 및 전자 메일 미리 보기는 같은 전자 메일 페이지에서 다른 유용한 전자 메일 관련 정보와 함께 액세스할 수 있습니다. 마찬가지로 악성 파일 첨부 파일 또는 URL에 대한 데토네이션 상태는 같은 페이지의 탭에서 찾을 수 있습니다. 전자 메일 엔터티 페이지를 통해 관리자와 보안 운영 팀이 전자 메일 위협과 해당 상태를 빠르게 파악한 다음 처리를 신속하게 결정할 수 있습니다.  |
-| [조사](../defender-365-security/office-365-air.md#changes-are-coming-soon-in-your-security-center) | [Office 365용 Defender](/microsoft-365/security/defender-365-security/defender-for-office-365) 및 [엔드포인트용 Defender](../defender-endpoint/automated-investigations.md)의 AIR 기능을 결합합니다. 이러한 업데이트 및 개선 사항을 통해 보안 운영 팀에서는 전자 메일, 공동 작업 콘텐츠, 사용자 계정 및 장치 전체에서 자동 조사 및 수정 작업에 대한 세부 정보를 한 장소에서 볼 수 있습니다.  | 
+| [전자 메일 엔터티 페이지](../office-365-security/mdo-email-entity-page.md) | 이 페이지는 여러 페이지나 보기에 흩어진 전자 메일 정보를 **통합** 합니다. 위협과 추세 조사가 *중앙화* 됩니다. 헤더 정보 및 전자 메일 미리 보기는 같은 전자 메일 페이지에서 다른 유용한 전자 메일 관련 정보와 함께 액세스할 수 있습니다. 마찬가지로 악성 파일 첨부 파일 또는 URL에 대한 데토네이션 상태는 같은 페이지의 탭에서 찾을 수 있습니다. 전자 메일 엔터티 페이지를 통해 관리자와 보안 운영 팀이 전자 메일 위협과 해당 상태를 빠르게 파악한 다음 처리를 신속하게 결정할 수 있습니다.  |
+| [조사](../office-365-security/office-365-air.md#changes-are-coming-soon-in-your-security-center) | [Office 365용 Defender](/microsoft-365/security/office-365-security/defender-for-office-365) 및 [엔드포인트용 Defender](../defender-endpoint/automated-investigations.md)의 AIR 기능을 결합합니다. 이러한 업데이트 및 개선 사항을 통해 보안 운영 팀에서는 전자 메일, 공동 작업 콘텐츠, 사용자 계정 및 장치 전체에서 자동 조사 및 수정 작업에 대한 세부 정보를 한 장소에서 볼 수 있습니다.  | 
 | [경고 보기](../../compliance/alert-policies.md) | 이제 Office 보안 및 규정 준수 센터의 **경고 보기** 플라이아웃 창에 Microsoft 365 보안 센터에 대한 링크가 포함됩니다. **경고 열기 페이지** 링크를 클릭하면 Microsoft 365 보안 센터가 열립니다. 경고 큐에서 Office 365 경고를 클릭하여 **경고보기** 페이지에 액세스할 수 있습니다. |
-| [공격 시뮬레이션 교육](../defender-365-security/attack-simulation-training-insights.md)   | 공격 시뮬레이션 교육을 사용하여 조직에서 현실적인 공격 시나리오를 실행합니다. 이렇게 시뮬레이션된 공격은 실제 공격이 조직에 영향을 미치기 전에 인력을 교육하는 데 도움이 될 수 있습니다. 공격 시뮬레이션 교육에는 추가 옵션, 향상된 보고서 및 향상된 교육 흐름이 포함되어 공격 시뮬레이션 및 교육 시나리오를 더 쉽게 전달하고 관리할 수 있도록 지원합니다.  |
+| [공격 시뮬레이션 교육](../office-365-security/attack-simulation-training-insights.md)   | 공격 시뮬레이션 교육을 사용하여 조직에서 현실적인 공격 시나리오를 실행합니다. 이렇게 시뮬레이션된 공격은 실제 공격이 조직에 영향을 미치기 전에 인력을 교육하는 데 도움이 될 수 있습니다. 공격 시뮬레이션 교육에는 추가 옵션, 향상된 보고서 및 향상된 교육 흐름이 포함되어 공격 시뮬레이션 및 교육 시나리오를 더 쉽게 전달하고 관리할 수 있도록 지원합니다.  |
 
 변경 내용이 없는 영역:
-- [탐색기](../defender-365-security/threat-explorer.md)
+- [탐색기](../office-365-security/threat-explorer.md)
 - [정책 및 규칙](../../compliance/alert-policies.md)
-- [캠페인](../defender-365-security/campaigns.md)
-- [제출](../defender-365-security/admin-submission.md)
+- [캠페인](../office-365-security/campaigns.md)
+- [제출](../office-365-security/admin-submission.md)
 - [검토](./m365d-action-center.md)
-- [위협 추적기](../defender-365-security/threat-trackers.md)
+- [위협 추적기](../office-365-security/threat-trackers.md)
 
 또한 이 문서 아래에 있는 **관련 정보** 섹션을 참조하세요.
 
@@ -135,7 +135,7 @@ Office 365 보안 및 규정 준수 포털(protection.office.com)에 익숙한 �
 ## <a name="advanced-hunting-example-for-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 고급 검색 예제
 고급 검색을 사용하여 전자 메일 위협 검색을 시작하고 싶으세요? 다음 방법을 사용해 보세요.
 
-[Office 365용 Microsoft Defender](/microsoft-365/security/defender-365-security/defender-for-office-365.md#getting-started) 문서의 [시작](/microsoft-365/security/defender-365-security/defender-for-office-365) 섹션에는 다음과 같은 논리적 초기 구성 덩어리가 있습니다.
+[Office 365용 Microsoft Defender](/microsoft-365/security/office-365-security/defender-for-office-365.md#getting-started) 문서의 [시작](/microsoft-365/security/office-365-security/defender-for-office-365) 섹션에는 다음과 같은 논리적 초기 구성 덩어리가 있습니다.
 
 1. 이름에 '방지'가 포함된 모든 항목 구성
 - 밸웨어 방지
@@ -147,7 +147,7 @@ Office 365 보안 및 규정 준수 포털(protection.office.com)에 익숙한 �
 3. 작업을 방어할 때 (예: SharePoint Online, OneDrive 및 Teams)
 4. ZAP로 보호
 
-[링크](../defender-365-security/protect-against-threats.md)를 통해 바로 시작하여 첫날에 구성을 시작하세요.
+[링크](../office-365-security/protect-against-threats.md)를 통해 바로 시작하여 첫날에 구성을 시작하세요.
 
 **시작** 의 마지막 단계는 ZAP라고도 하는 **제로 아워 자동 제거** 를 사용해 사용자를 보호하는 것입니다. 배달 후에 의심스러운 메일이나 악의적인 메일에 대한 제로 아워 자동 제거가 성공적이었는지 알아보는 것은 매우 중요할 수 있습니다.
 
@@ -182,4 +182,4 @@ LogonTime = Timestamp, AccountDisplayName, Application, Protocol, DeviceName, Lo
 - [전자 메일 및 공동 작업 경고](../../compliance/alert-policies.md#default-alert-policies)
 - [장치, 전자 메일, 앱 및 ID에 대한 위협 검색](./advanced-hunting-query-emails-devices.md)
 - [사용자 지정 검색 규칙](/microsoft-365/security/defender-endpoint/custom-detection-rules)
-- [피싱 공격 시뮬레이션 만들기](../defender-365-security/attack-simulation-training.md) 및 [직원교육을 위한 페이로드 만들기](../defender-365-security/attack-simulation-training-payloads.md)
+- [피싱 공격 시뮬레이션 만들기](../office-365-security/attack-simulation-training.md) 및 [직원교육을 위한 페이로드 만들기](../office-365-security/attack-simulation-training-payloads.md)

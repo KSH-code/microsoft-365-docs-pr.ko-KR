@@ -14,20 +14,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 통과 인증을 위한 필수 구성 요소를 사용하여 ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: 043a8999feb3941569119b5e52d94b0f6dd3533f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f257b85672a1a1b27f600d145b1f9f3296b21980
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051237"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199852"
 ---
 # <a name="identity-and-device-access-prerequisites-for-pass-through-authentication-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 통과 인증을 위한 ID 및 장치 액세스 필수 구성 요소
 
 *이 테스트 랩 가이드는 엔터프라이즈용 Microsoft 365 테스트 환경에만 사용할 수 있습니다.*
 
-[ID 및 장치 액세스 구성은](../security/defender-365-security/microsoft-365-policies-configurations.md) Azure AD(Azure Active Directory)와 통합된 엔터프라이즈용 Microsoft 365의 모든 서비스에 대한 액세스를 보호하기 위한 구성 및 조건부 액세스 정책 집합입니다.
+[ID 및 장치 액세스 구성은](../security/office-365-security/microsoft-365-policies-configurations.md) Azure AD(Azure Active Directory)와 통합된 엔터프라이즈용 Microsoft 365의 모든 서비스에 대한 액세스를 보호하기 위한 구성 및 조건부 액세스 정책 집합입니다.
 
-이 문서에서는 ID 및 장치 액세스에 대한 [통과 인증 필수 요건 구성](../security/defender-365-security/identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 Microsoft 365 테스트 환경을 구성하는 방법에 대해 설명합니다.
+이 문서에서는 ID 및 장치 액세스에 대한 [통과 인증 필수 요건 구성](../security/office-365-security/identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 Microsoft 365 테스트 환경을 구성하는 방법에 대해 설명합니다.
 
 이 테스트 환경을 설정하는 데는 10단계가 있습니다.
 
@@ -120,11 +120,11 @@ Online 비즈니스용 Skype의 경우:
   Get-CsOAuthConfiguration
   ```
 
-그 결과는 ID 및 장치 액세스에 대한 [통과 인증 필수 요건 구성](../security/defender-365-security/identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 테스트 환경입니다. 
+그 결과는 ID 및 장치 액세스에 대한 [통과 인증 필수 요건 구성](../security/office-365-security/identity-access-prerequisites.md#prerequisites)의 요구 사항을 충족하는 테스트 환경입니다. 
 
 ## <a name="next-step"></a>다음 단계
 
-[일반 ID 및 장치 액세스 정책](../security/defender-365-security/identity-access-policies.md)을 사용하여 필수 구성 요소를 기반으로 구축되고 ID 및 장치를 보호하는 정책을 구성합니다.
+[일반 ID 및 장치 액세스 정책](../security/office-365-security/identity-access-policies.md)을 사용하여 필수 구성 요소를 기반으로 구축되고 ID 및 장치를 보호하는 정책을 구성합니다.
 
 ## <a name="see-also"></a>참고 항목
 

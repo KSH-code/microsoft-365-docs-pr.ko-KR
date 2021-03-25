@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: a5ff570439dfecd287a5a5975358262af71d8025
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bd7c98f5888f8dc93a8aa341b186ea744d5b2882
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051021"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199936"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 방지 기능 구성
 
@@ -42,13 +42,13 @@ Microsoft는 모든 SaaS 응용 프로그램, 특히 Microsoft 365에 대한 액
 
 ![기준 보호 배포 프로세스](../media/deploy-threat-protection/deploy-threat-protection-identity-access-steps.png) 
 
-1. Azure AD ID 보호를 포함하여 [선행 구성](../security/defender-365-security/identity-access-prerequisites.md)
-2. [기준 보호를 위한](../security/defender-365-security/identity-access-policies.md) 공통 ID 및 장치 액세스 정책을 구성합니다.
-3. 게스트 [사용자,](../security/defender-365-security/identity-access-policies-guest-access.md) [Microsoft Teams,](../security/defender-365-security/teams-access-policies.md) [Exchange Online](../security/defender-365-security/secure-email-recommended-policies.md)및 SharePoint Online 및 [OneDrive에 대한 정책을 구성합니다.](../security/defender-365-security/sharepoint-file-access-policies.md)
+1. Azure AD ID 보호를 포함하여 [선행 구성](../security/office-365-security/identity-access-prerequisites.md)
+2. [기준 보호를 위한](../security/office-365-security/identity-access-policies.md) 공통 ID 및 장치 액세스 정책을 구성합니다.
+3. 게스트 [사용자,](../security/office-365-security/identity-access-policies-guest-access.md) [Microsoft Teams,](../security/office-365-security/teams-access-policies.md) [Exchange Online](../security/office-365-security/secure-email-recommended-policies.md)및 SharePoint Online 및 [OneDrive에 대한 정책을 구성합니다.](../security/office-365-security/sharepoint-file-access-policies.md)
 
 ### <a name="more-information-about-protecting-identities"></a>ID 보호에 대한 자세한 정보
 
-- [ID 및 장치 액세스 구성](../security/defender-365-security/microsoft-365-policies-configurations.md)
+- [ID 및 장치 액세스 구성](../security/office-365-security/microsoft-365-policies-configurations.md)
 - [Azure MFA에 대한 보안 지침](/azure/active-directory/authentication/multi-factor-authentication-security-best-practices)
 
 ## <a name="step-2-configure-microsoft-defender-for-identity"></a>2단계: ID에 맞게 Microsoft Defender 구성
@@ -96,11 +96,11 @@ Microsoft 365 Defender는 경고, 인시던트, 자동화된 조사 및 대응, 
 
 ## <a name="step-4-configure-microsoft-defender-for-office-365"></a>4단계: Office 365용 Microsoft Defender 구성
 
-[Microsoft Defender for Office 365는](../security/defender-365-security/defender-for-office-365.md) 전자 메일 메시지(첨부 파일 및 URL), Office 문서 및 공동 작업 도구의 악의적인 위협에 대해 조직을 보호합니다. 다음 표에는 Microsoft 365 E5에 포함된 Microsoft Defender for Office 365 기능이 나열되어 있습니다.
+[Microsoft Defender for Office 365는](../security/office-365-security/defender-for-office-365.md) 전자 메일 메시지(첨부 파일 및 URL), Office 문서 및 공동 작업 도구의 악의적인 위협에 대해 조직을 보호합니다. 다음 표에는 Microsoft 365 E5에 포함된 Microsoft Defender for Office 365 기능이 나열되어 있습니다.
 
 |구성, 보호 및 검색 기능|자동화, 조사, 수정 및 교육 기능|
 |---|---|
-|[안전한 첨부 파일](../security/defender-365-security/safe-attachments.md)<br/>[안전한 링크](../security/defender-365-security/safe-links.md)<br/>[안전한 문서](../security/defender-365-security/safe-docs.md)<br/>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](../security/defender-365-security/mdo-for-spo-odb-and-teams.md)<br/>[Office 365용 Defender 보호의 피싱 방지](../security/defender-365-security/set-up-anti-phishing-policies.md#Exclusive-settings-in-anti-phishing-policies-in Microsoft-Defender-for-Office-365)|[위협 트래커](../security/defender-365-security/threat-trackers.md)<br/>[위협 탐색기](../security/defender-365-security/threat-explorer.md)<br/>[자동화된 조사 및 응답](../security/defender-365-security/office-365-air.md)<br/>[공격 시뮬레이터](../security/defender-365-security/attack-simulator.md)|
+|[안전한 첨부 파일](../security/office-365-security/safe-attachments.md)<br/>[안전한 링크](../security/office-365-security/safe-links.md)<br/>[안전한 문서](../security/office-365-security/safe-docs.md)<br/>[SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](../security/office-365-security/mdo-for-spo-odb-and-teams.md)<br/>[Office 365용 Defender 보호의 피싱 방지](../security/office-365-security/set-up-anti-phishing-policies.md#Exclusive-settings-in-anti-phishing-policies-in Microsoft-Defender-for-Office-365)|[위협 트래커](../security/office-365-security/threat-trackers.md)<br/>[위협 탐색기](../security/office-365-security/threat-explorer.md)<br/>[자동화된 조사 및 응답](../security/office-365-security/office-365-air.md)<br/>[공격 시뮬레이터](../security/office-365-security/attack-simulator.md)|
 |
 
 Office 365용 Microsoft Defender를 사용하여 조직의 사용자들이 전자 메일 콘텐츠 및 Office 문서에 대한 위협 방지를 통해 보다 안전하게 통신하고 공동 작업을 할 수 있습니다.
@@ -109,14 +109,14 @@ Office 365용 Microsoft Defender를 사용하여 조직의 사용자들이 전�
 
 ![Office 365용 Microsoft Defender 배포 프로세스](../media/deploy-threat-protection/deploy-office365-atp-steps.png) 
 
-1. [Office 365 정책에 대한 Microsoft Defender를 설정하고 구성합니다.](../security/defender-365-security/protect-against-threats.md)
-2. [Office 365용 Microsoft Defender 보고서를 보고 사용 합니다.](../security/defender-365-security/view-reports-for-mdo.md)
-3. [위협 조사 및 응답 기능을 사용 합니다.](../security/defender-365-security/office-365-ti.md)
+1. [Office 365 정책에 대한 Microsoft Defender를 설정하고 구성합니다.](../security/office-365-security/protect-against-threats.md)
+2. [Office 365용 Microsoft Defender 보고서를 보고 사용 합니다.](../security/office-365-security/view-reports-for-mdo.md)
+3. [위협 조사 및 응답 기능을 사용 합니다.](../security/office-365-security/office-365-ti.md)
 
 ### <a name="more-information-about-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender에 대한 자세한 정보
 
-- [Microsoft Defender for Office 365 개요](../security/defender-365-security/defender-for-office-365.md)
-- [Office 365용 Microsoft Defender의 새로운](../security/defender-365-security/whats-new-in-defender-for-office-365.md)
+- [Microsoft Defender for Office 365 개요](../security/office-365-security/defender-for-office-365.md)
+- [Office 365용 Microsoft Defender의 새로운](../security/office-365-security/whats-new-in-defender-for-office-365.md)
 
 ## <a name="step-5-configure-microsoft-defender-for-endpoint"></a>5단계: 끝점용 Microsoft Defender 구성
 

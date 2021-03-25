@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cb2923c3f2cb3f27a864fdc3c5070107998823d5
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 94cb92974b0e73a1254fd024c39d9a6ee620aad3
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074884"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199540"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender용 Intune 기반 배포
 
@@ -137,7 +137,7 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 
 1. 장치 관리를 확인합니다.
 
-    ![장치 관리 스크린샷 확인](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-3-confirmdevicemgmt)
+    ![장치 관리 스크린샷 확인](./images/mdatp-3-confirmdevicemgmt.png)
 
     시스템 **기본 설정 열기** 를 선택하고 목록에서 **관리** 프로필을 찾은 다음 **승인... 을 선택합니다.** 관리 프로필이 확인된 **것으로 표시됩니다.**
 
@@ -160,9 +160,9 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 
 2. 프로필 이름을 선택하세요. **Platform=macOS를** **프로필 유형=확장으로 변경합니다.** **만들기** 를 선택합니다.
 
-3. 탭에서 `Basics` 이 새 프로필에 이름을 지정합니다.
+3. 기본 **탭에서** 이 새 프로필에 이름을 지정합니다.
 
-4. 탭에서 `Configuration settings` 섹션에 다음 항목을 `Allowed system extensions` 추가합니다.
+4. 구성 **설정 탭의** 허용되는 시스템 확장 섹션에 다음 **항목을 추가합니다.**
 
     번들 식별자         | 팀 식별자
     --------------------------|----------------
@@ -170,9 +170,9 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
     com.microsoft.wdav.netext | UBF8T346G9
 
     > [!div class="mx-imgBorder"]
-    > ![허용되는 팀 식별자 섹션을 포함하여 구성 설정 탭의 스크린샷](images/mac-system-extension-intune2.png)
+    > ![기본 탭의 구성 설정에 있는 확장 설정 스크린샷](images/mac-system-extension-intune2.png)
 
-5. 탭에서 이 프로필을 모든 사용자 및 모든 & `Assignments` **할당합니다.**
+5. 할당 **탭에서** 이 프로필을 모든 사용자 및 모든 & **할당합니다.**
 
 6. 이 구성 프로필을 검토하고 만들 수 있습니다.
 
@@ -186,7 +186,7 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 
 4. **확인** 을 선택합니다.
 
-    ![시스템 구성 프로필 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-6-systemconfigurationprofiles)
+    ![사용자 지정 구성 프로필에 대한 파일에서 구성 가져오기](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-6-systemconfigurationprofiles)
 
 5. 배정   >  **관리를 선택합니다.** 포함 **탭에서** 모든 사용자 및 모든 & **할당을 선택합니다.**
 
@@ -194,14 +194,14 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 
 7. 다른 프로필을 만들고 이름을 지정한 다음 intune/WindowsDefenderATPOnboarding.xml 업로드합니다.
 
-8. `fulldisk.mobileconfig` [GitHub 리포지토리에서](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) 다운로드하고 로 `tcc.xml` 저장합니다. 다른 프로필을 만들고 이름을 지정하고 이 파일을 해당 프로필에 업로드합니다.<a name="create-system-configuration-profiles-step-8" id = "create-system-configuration-profiles-step-8"></a>
+8. [GitHub](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) 리포지토리에서 **fulldisk.mobileconfig를** 다운로드하고 에서 으로 **tcc.xml.** 다른 프로필을 만들고 이름을 지정하고 이 파일을 해당 프로필에 업로드합니다.<a name="create-system-configuration-profiles-step-8" id = "create-system-configuration-profiles-step-8"></a>
 
    > [!CAUTION]
    > macOS 10.15(카탈로니아)에는 새로운 보안 및 개인 정보 보호 향상 기능이 포함되어 있습니다. 이 버전부터 응용 프로그램은 기본적으로 명시적 동의 없이 디스크의 특정 위치(예: 문서, 다운로드, 데스크톱 등)에 액세스할 수 없습니다. 이 동의가 없는 경우 끝점용 Microsoft Defender는 장치를 완전히 보호할 수 없습니다.
    >
    > 이 구성 프로필은 끝점용 Microsoft Defender에 대한 모든 디스크 액세스 권한을 부여합니다. Intune을 통해 이전에 Endpoint용 Microsoft Defender를 구성한 경우 이 구성 프로필을 사용하여 배포를 업데이트하는 것이 좋습니다.
 
-9. 끝점 검색 및 응답 기능의 일부로, Mac용 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다. GitHub 리포지토리에서 다운로드하고 이전 netext.xml 단계에 따라 `netfilter.mobileconfig` 배포합니다. [](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig) <a name = "create-system-configuration-profiles-step-9" id = "create-system-configuration-profiles-step-9"></a>
+9. 끝점 검색 및 응답 기능의 일부로, Mac용 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다. [GitHub](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig)리포지토리에서 **netfilter.mobileconfig를** 다운로드하여 netext.xml 저장하고 이전 섹션과 동일한 단계를 사용하여 배포합니다. <a name = "create-system-configuration-profiles-step-9" id = "create-system-configuration-profiles-step-9"></a>
 
 10. Mac용 끝점용 Microsoft Defender 및 Microsoft 자동 업데이트에서 macOS 10.15(카탈로니아)의 UI에 알림을 표시하도록 허용하려면 GitHub 리포지토리에서 다운로드하여 사용자 지정 페이로드로 `notif.mobileconfig` 가져와야 [](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) 합니다. <a name = "create-system-configuration-profiles-step-10" id = "create-system-configuration-profiles-step-10"></a>
 
@@ -210,7 +210,7 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니터링에 나열된 내용을 볼  >  **수 있습니다.**
 
 > [!div class="mx-imgBorder"]
-> ![kext의 스크린샷 - 장치 상태](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-7-devicestatusblade)
+> ![모니터의 장치 상태 보기](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-7-devicestatusblade.png)
 
 ## <a name="publish-application"></a>응용 프로그램 게시
 
@@ -222,7 +222,7 @@ Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니�
 
 4. **구성을** 선택하고 필요한 정보를 추가합니다.
 
-5. macOS **High Sierra 10.13을** 최소 OS로 사용
+5. macOS **High Sierra 10.14를** 최소 OS로 사용
 
 6. 앱 *버전 무시를* **예로 설정하세요.** 다른 설정은 임의의 값일 수 있습니다.
 
@@ -232,12 +232,12 @@ Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니�
     > Intune에서 업로드한 버전이 디바이스의 버전보다 낮을 경우 더 낮은 버전이 설치됩니다. 그러면 끝점용 Microsoft Defender가 다운그레이딩됩니다. 이로 인해 응용 프로그램이 작동하지 않는 것일 수 있습니다. 제품 업데이트 방법에 대한 자세한 내용은 [Mac용 Microsoft Defender용 업데이트](mac-updates.md) 배포를 참조하세요. 앱 버전 무시를 아니요로  설정하여 끝점용 Microsoft Defender를 배포한 경우 **를** 예로 **변경하세요.** 끝점용 Microsoft Defender를 클라이언트 장치에 설치할 수 없는 경우 끝점용 Microsoft Defender를 제거하고 업데이트된 정책을 적용합니다.
      
     > [!div class="mx-imgBorder"]
-    > ![앱 추가 대화 상자의 앱 정보 구성 옵션 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-8-intuneappinfo)
+    > ![앱 추가에서 앱 정보 표시](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-8-intuneappinfo)
 
 7. 확인을 **선택하고** **추가를 선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![샘플 개요 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-9-intunepkginfo)
+    > ![알림 창에 표시되는 장치 상태](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-9-intunepkginfo)
 
 8. 패키지를 업로드하는 데 몇 분 정도 걸릴 수 있습니다. 완료된 후 목록에서 패키지를 선택하고 **과제** 및 그룹 **추가 로 이동하세요.**
 

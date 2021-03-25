@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 25647e65f9d031a68b9133df68573eac56f8ff24
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7cf9d391533f52a3011698112d4e5be1495118c2
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072839"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200032"
 ---
 # <a name="supported-operating-systems-and-platforms---threat-and-vulnerability-management"></a>지원되는 운영 체제 및 플랫폼 - 위협 및 취약성 관리
 
@@ -52,7 +52,7 @@ Windows Server 2008 R2 | 운영 체제(OS) 취약성<br/>소프트웨어 제품 
 Windows Server 2012 R2 | 운영 체제(OS) 취약성<br/>소프트웨어 제품 취약성<br/>운영 체제(OS) 구성 평가<br/>보안 제어 구성 평가<br/>소프트웨어 제품 구성 평가
 Windows Server 2016 | 운영 체제(OS) 취약성<br/>소프트웨어 제품 취약성<br/>운영 체제(OS) 구성 평가<br/>보안 제어 구성 평가<br/>소프트웨어 제품 구성 평가
 Windows Server 2019 | 운영 체제(OS) 취약성<br/>소프트웨어 제품 취약성<br/>운영 체제(OS) 구성 평가<br/>보안 제어 구성 평가<br/>소프트웨어 제품 구성 평가
-macOS 10.13 "High Sierra" 이상 | 운영 체제(OS) 취약성<br/>소프트웨어 제품 취약성 
+macOS 10.14 "Mojave" 이상 | 운영 체제(OS) 취약성<br/>소프트웨어 제품 취약성 
 Linux | 지원되지 않습니다(계획된 경우).
 
 ## <a name="related-articles"></a>관련 문서

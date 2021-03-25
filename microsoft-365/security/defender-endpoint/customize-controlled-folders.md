@@ -12,19 +12,17 @@ author: denisebmsft
 ms.author: deniseb
 ms.reviewer: jcedola, dbodorin, vladiso, nixanm, anvascon
 manager: dansimp
-ms.date: 01/06/2021
+ms.date: 03/24/2021
 ms.technology: mde
-ms.openlocfilehash: 64f96544361a672881c590716adea80f40777c6e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.topic: how-to
+ms.openlocfilehash: 0962913df63e6837664cdb8ff79710d66e66977c
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163342"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199918"
 ---
 # <a name="customize-controlled-folder-access"></a>제어된 폴더 액세스 사용자 지정
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -120,7 +118,7 @@ Windows 보안 앱, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관
 
 4. 허용된 **앱 추가를 선택하고** 프롬프트에 따라 앱을 추가합니다.
 
-    ![허용된 앱 단추를 추가하는 방법의 스크린샷](/microsoft-365/security/defender-endpoint/images/cfa-allow-app)
+   :::image type="content" source="images/cfa-allow-app.png" alt-text="허용된 앱 단추 추가":::
 
 ### <a name="use-group-policy-to-allow-specific-apps"></a>그룹 정책을 사용하여 특정 앱 허용
 
@@ -149,7 +147,7 @@ Windows 보안 앱, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관
 
    계속 사용하여 목록에 앱을 `Add-MpPreference -ControlledFolderAccessAllowedApplications` 더 추가합니다. 이 cmdlet을 사용하여 추가된 앱은 Windows 보안 앱에 표시됩니다.
 
-![위의 cmdlet이 입력된 PowerShell 창의 스크린샷](/microsoft-365/security/defender-endpoint/images/cfa-allow-app-ps)
+   :::image type="content" source="images/cfa-allow-app-ps.png" alt-text="앱을 허용하는 PowerShell cmdlet":::
 
 > [!IMPORTANT]
 > 목록에 `Add-MpPreference` 앱을 추가하거나 추가하는 데 사용할 수 있습니다. `Set-MpPreference`cmdlet을 사용하여 기존 목록을 덮어 습니다.

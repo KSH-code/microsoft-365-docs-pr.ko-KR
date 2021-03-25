@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 17d55a434cc0499b9b24039f19ec7ed3c94310e8
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 6582e4e940dc9910e7d341c92b525379b924f35b
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060744"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199960"
 ---
 # <a name="custom-roles-in-role-based-access-control-for-microsoft-365-defender"></a>Microsoft 365 Defender에 대한 역할 기반 액세스 제어의 사용자 지정 역할
 
@@ -53,7 +53,7 @@ Microsoft 365 Defender에 액세스하는 데 사용할 수 있는 두 가지 �
 다음 각 보안 포털을 통해 사용자 지정 역할 및 사용 권한을 만들어 개별적으로 관리할 수 있습니다. 
 
 - 끝점용 Microsoft Defender – [끝점용 Microsoft Defender의 역할 편집](../defender-endpoint/user-roles.md)
-- Microsoft Defender for Office 365 – 보안 및 준수 [센터의 & 권한](../defender-365-security/permissions-in-the-security-and-compliance-center.md?preserve-view=true&view=o365-worldwide)
+- Microsoft Defender for Office 365 – 보안 및 준수 [센터의 & 권한](../office-365-security/permissions-in-the-security-and-compliance-center.md?preserve-view=true&view=o365-worldwide)
 - Microsoft Cloud App Security – [관리자 액세스 관리](/cloud-app-security/manage-admins)
 
 개별 포털을 통해 만든 각 사용자 지정 역할을 사용하면 관련 제품 포털의 데이터에 액세스할 수 있습니다. 예를 들어 끝점용 Microsoft Defender를 통해 만든 사용자 지정 역할은 끝점 데이터에 대한 Defender 액세스만 허용합니다.
