@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 기본 수준의 보호로 팀을 배포하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 678e9824682339afda32342e70848492b738ec6d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: cd5a88069b9947bd4dcb01f6ca76620bb8ed9a52
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052508"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200296"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>기본 보호 기능으로 팀 구성
 
@@ -31,15 +31,15 @@ ms.locfileid: "51052508"
 
 ## <a name="initial-protections"></a>초기 보호
 
-첫 번째 단계로 기본 ID 및 장치 액세스 정책을 구성하는 것이 좋습니다. 자세한 내용은 [팀 채팅, 그룹, 파일에 대한 정책 권장 사항](../security/defender-365-security/teams-access-policies.md)을 참조하세요.
+첫 번째 단계로 기본 ID 및 장치 액세스 정책을 구성하는 것이 좋습니다. 자세한 내용은 [팀 채팅, 그룹, 파일에 대한 정책 권장 사항](../security/office-365-security/teams-access-policies.md)을 참조하세요.
 
 또한 문서, 첨부 파일 및 링크의 맬웨어를 방지하기 위해 기본 Office 365용 Defender 기능을 설정하는 것이 좋습니다. 다음 표의 각 옵션을 설정하는 것이 좋습니다.
 
 |옵션|정보|
 |:------|:-----------|
-|SPO, OneDrive 및 Teams용 안전 첨부 파일|[안전 첨부 파일](../security/defender-365-security/safe-attachments.md)<br>[Office 365용 Defender - SharePoint, OneDrive 및 Microsoft Teams](../security/defender-365-security/mdo-for-spo-odb-and-teams.md)|
-|안전 문서|[Office 365용 Microsoft Defender의 안전 문서](../security/defender-365-security/safe-docs.md)|
-|Teams용 안전 링크|[Teams의 Office 365 안전한 링크](../security/defender-365-security/safe-links.md#safe-links-settings-for-microsoft-teamssafe-links-settings-for-microsoft-teams)<br>[안전 링크](../security/defender-365-security/safe-links.md)|
+|SPO, OneDrive 및 Teams용 안전 첨부 파일|[안전 첨부 파일](../security/office-365-security/safe-attachments.md)<br>[Office 365용 Defender - SharePoint, OneDrive 및 Microsoft Teams](../security/office-365-security/mdo-for-spo-odb-and-teams.md)|
+|안전 문서|[Office 365용 Microsoft Defender의 안전 문서](../security/office-365-security/safe-docs.md)|
+|Teams용 안전 링크|[Teams의 Office 365 안전한 링크](../security/office-365-security/safe-links.md#safe-links-settings-for-microsoft-teamssafe-links-settings-for-microsoft-teams)<br>[안전 링크](../security/office-365-security/safe-links.md)|
 
 ## <a name="teams-guest-sharing"></a>Teams 게스트 공유
 
