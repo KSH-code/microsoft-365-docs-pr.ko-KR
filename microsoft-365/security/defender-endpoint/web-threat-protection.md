@@ -16,42 +16,42 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3376308988213b84bc7badb96ebacdf706d1ca5f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7754fa586b24fdedaa9691b45f5da4654c882a5b
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071671"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185984"
 ---
-# <a name="protect-your-organization-against-web-threats"></a><span data-ttu-id="fcd84-104">웹 위협으로부터 조직 보호</span><span class="sxs-lookup"><span data-stu-id="fcd84-104">Protect your organization against web threats</span></span>
+# <a name="protect-your-organization-against-web-threats"></a><span data-ttu-id="e0a28-104">웹 위협으로부터 조직 보호</span><span class="sxs-lookup"><span data-stu-id="e0a28-104">Protect your organization against web threats</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="fcd84-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="fcd84-105">**Applies to:**</span></span>
-- [<span data-ttu-id="fcd84-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="fcd84-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2146631)
-- [<span data-ttu-id="fcd84-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="fcd84-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="e0a28-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="e0a28-105">**Applies to:**</span></span>
+- [<span data-ttu-id="e0a28-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="e0a28-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="e0a28-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="e0a28-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-><span data-ttu-id="fcd84-108">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="fcd84-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="fcd84-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="fcd84-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
+><span data-ttu-id="e0a28-108">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="e0a28-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="e0a28-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="e0a28-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
-<span data-ttu-id="fcd84-110">웹 위협 방지는 [](web-protection-overview.md) 끝점용 Defender의 웹 보호의 일부입니다.</span><span class="sxs-lookup"><span data-stu-id="fcd84-110">Web threat protection is part of [Web protection](web-protection-overview.md) in Defender for Endpoint.</span></span> <span data-ttu-id="fcd84-111">네트워크 [보호를 사용하여](network-protection.md) 웹 위협으로부터 장치를 보호합니다.</span><span class="sxs-lookup"><span data-stu-id="fcd84-111">It uses [network protection](network-protection.md) to secure your devices against web threats.</span></span> <span data-ttu-id="fcd84-112">웹 위협 방지는 Microsoft Edge 및 Chrome 및 Firefox와 같은 인기 있는 타사 브라우저와 통합하여 웹 프록시 없이 웹 위협을 중지하고 부재 중이나 사내에서 장치를 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fcd84-112">By integrating with Microsoft Edge and popular third-party browsers like Chrome and Firefox, web threat protection stops web threats without a web proxy and can protect devices while they are away or on premises.</span></span> <span data-ttu-id="fcd84-113">웹 위협 방지는 사용자 지정 표시기 목록에서 차단한 사이트뿐만 아니라 피싱 사이트, 맬웨어 벡터, 악용 사이트, 신뢰하지 못하거나 낮은 신뢰도의 사이트에 대한 액세스를 [중지합니다.](manage-indicators.md)</span><span class="sxs-lookup"><span data-stu-id="fcd84-113">Web threat protection stops access to phishing sites, malware vectors, exploit sites, untrusted or low-reputation sites, as well as sites that you have blocked in your [custom indicator list](manage-indicators.md).</span></span>
-
->[!Note]
-><span data-ttu-id="fcd84-114">장치가 새 고객 표시기를 받는 데 최대 1시간이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fcd84-114">It can take up to an hour for devices to receive new customer indicators.</span></span>
-
-## <a name="prerequisites"></a><span data-ttu-id="fcd84-115">필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="fcd84-115">Prerequisites</span></span>
-<span data-ttu-id="fcd84-116">웹 보호는 네트워크 보호를 사용하여 Microsoft Edge 및 타사 웹 브라우저에서 웹 검색 보안을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="fcd84-116">Web protection uses network protection to provide web browsing security on Microsoft Edge and third-party web browsers.</span></span>
-
-<span data-ttu-id="fcd84-117">디바이스에서 네트워크 보호를 켜는 경우:</span><span class="sxs-lookup"><span data-stu-id="fcd84-117">To turn on network protection on your devices:</span></span>
-- <span data-ttu-id="fcd84-118">Web & Network **Protection에서** 끝점용 Defender 보안 기준을 편집하여 네트워크 보호를 사용하도록 설정한 후 배포하거나 다시 배포합니다.</span><span class="sxs-lookup"><span data-stu-id="fcd84-118">Edit the Defender for Endpoint security baseline under **Web & Network Protection** to enable network protection before deploying or redeploying it.</span></span> [<span data-ttu-id="fcd84-119">엔드포인트 보안 기준에 대한 Defender 검토 및 할당에 대해 자세히 알아보시고</span><span class="sxs-lookup"><span data-stu-id="fcd84-119">Learn about reviewing and assigning the Defender for Endpoint security baseline</span></span>](configure-machines-security-baseline.md#review-and-assign-the-microsoft-defender-for-endpoint-security-baseline)
-- <span data-ttu-id="fcd84-120">Intune 장치 구성, SCCM, 그룹 정책 또는 MDM 솔루션을 사용하여 네트워크 보호를 켜십시오.</span><span class="sxs-lookup"><span data-stu-id="fcd84-120">Turn network protection on using Intune device configuration, SCCM, Group Policy, or your MDM solution.</span></span> [<span data-ttu-id="fcd84-121">네트워크 보호 사용에 대한 자세한 정보</span><span class="sxs-lookup"><span data-stu-id="fcd84-121">Read more about enabling network protection</span></span>](enable-network-protection.md)  
+<span data-ttu-id="e0a28-110">웹 위협 방지는 [](web-protection-overview.md) 끝점용 Defender의 웹 보호의 일부입니다.</span><span class="sxs-lookup"><span data-stu-id="e0a28-110">Web threat protection is part of [Web protection](web-protection-overview.md) in Defender for Endpoint.</span></span> <span data-ttu-id="e0a28-111">네트워크 [보호를 사용하여](network-protection.md) 웹 위협으로부터 장치를 보호합니다.</span><span class="sxs-lookup"><span data-stu-id="e0a28-111">It uses [network protection](network-protection.md) to secure your devices against web threats.</span></span> <span data-ttu-id="e0a28-112">웹 위협 방지는 Microsoft Edge 및 Chrome 및 Firefox와 같은 인기 있는 타사 브라우저와 통합하여 웹 프록시 없이 웹 위협을 중지하고 부재 중이나 사내에서 장치를 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e0a28-112">By integrating with Microsoft Edge and popular third-party browsers like Chrome and Firefox, web threat protection stops web threats without a web proxy and can protect devices while they are away or on premises.</span></span> <span data-ttu-id="e0a28-113">웹 위협 방지는 사용자 지정 표시기 목록에서 차단한 사이트뿐만 아니라 피싱 사이트, 맬웨어 벡터, 악용 사이트, 신뢰하지 못하거나 낮은 신뢰도의 사이트에 대한 액세스를 [중지합니다.](manage-indicators.md)</span><span class="sxs-lookup"><span data-stu-id="e0a28-113">Web threat protection stops access to phishing sites, malware vectors, exploit sites, untrusted or low-reputation sites, as well as sites that you have blocked in your [custom indicator list](manage-indicators.md).</span></span>
 
 >[!Note]
-><span data-ttu-id="fcd84-122">네트워크 보호를 감사 전용으로 설정하면 차단을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="fcd84-122">If you set network protection to **Audit only**, blocking will be unavailable.</span></span> <span data-ttu-id="fcd84-123">또한 Microsoft Edge에서만 악성 및 원치 않는 웹 사이트에 액세스하려는 시도를 감지하고 기록할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fcd84-123">Also, you will be able to detect and log attempts to access malicious and unwanted websites on Microsoft Edge only.</span></span>
+><span data-ttu-id="e0a28-114">장치가 새 고객 표시기를 받는 데 최대 1시간이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e0a28-114">It can take up to an hour for devices to receive new customer indicators.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="fcd84-124">관련 항목</span><span class="sxs-lookup"><span data-stu-id="fcd84-124">Related topics</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="e0a28-115">필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="e0a28-115">Prerequisites</span></span>
+<span data-ttu-id="e0a28-116">웹 보호는 네트워크 보호를 사용하여 Microsoft Edge 및 타사 웹 브라우저에서 웹 검색 보안을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="e0a28-116">Web protection uses network protection to provide web browsing security on Microsoft Edge and third-party web browsers.</span></span>
 
-- [<span data-ttu-id="fcd84-125">웹 보호 개요</span><span class="sxs-lookup"><span data-stu-id="fcd84-125">Web protection overview</span></span>](web-protection-overview.md)
-- [<span data-ttu-id="fcd84-126">웹 위협 방지</span><span class="sxs-lookup"><span data-stu-id="fcd84-126">Web threat protection</span></span>](web-threat-protection.md)
-- [<span data-ttu-id="fcd84-127">웹 보안 모니터링</span><span class="sxs-lookup"><span data-stu-id="fcd84-127">Monitor web security</span></span>](web-protection-monitoring.md)
-- [<span data-ttu-id="fcd84-128">웹 위협에 대응</span><span class="sxs-lookup"><span data-stu-id="fcd84-128">Respond to web threats</span></span>](web-protection-response.md)
-- [<span data-ttu-id="fcd84-129">네트워크 보호</span><span class="sxs-lookup"><span data-stu-id="fcd84-129">Network protection</span></span>](network-protection.md)
+<span data-ttu-id="e0a28-117">디바이스에서 네트워크 보호를 켜는 경우:</span><span class="sxs-lookup"><span data-stu-id="e0a28-117">To turn on network protection on your devices:</span></span>
+- <span data-ttu-id="e0a28-118">Web & Network **Protection에서** 끝점용 Defender 보안 기준을 편집하여 네트워크 보호를 사용하도록 설정한 후 배포하거나 다시 배포합니다.</span><span class="sxs-lookup"><span data-stu-id="e0a28-118">Edit the Defender for Endpoint security baseline under **Web & Network Protection** to enable network protection before deploying or redeploying it.</span></span> [<span data-ttu-id="e0a28-119">엔드포인트 보안 기준에 대한 Defender 검토 및 할당에 대해 자세히 알아보시고</span><span class="sxs-lookup"><span data-stu-id="e0a28-119">Learn about reviewing and assigning the Defender for Endpoint security baseline</span></span>](configure-machines-security-baseline.md#review-and-assign-the-microsoft-defender-for-endpoint-security-baseline)
+- <span data-ttu-id="e0a28-120">Intune 장치 구성, SCCM, 그룹 정책 또는 MDM 솔루션을 사용하여 네트워크 보호를 켜십시오.</span><span class="sxs-lookup"><span data-stu-id="e0a28-120">Turn network protection on using Intune device configuration, SCCM, Group Policy, or your MDM solution.</span></span> [<span data-ttu-id="e0a28-121">네트워크 보호 사용에 대한 자세한 정보</span><span class="sxs-lookup"><span data-stu-id="e0a28-121">Read more about enabling network protection</span></span>](enable-network-protection.md)  
+
+>[!Note]
+><span data-ttu-id="e0a28-122">네트워크 보호를 감사 전용으로 설정하면 차단을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="e0a28-122">If you set network protection to **Audit only**, blocking will be unavailable.</span></span> <span data-ttu-id="e0a28-123">또한 Microsoft Edge에서만 악성 및 원치 않는 웹 사이트에 액세스하려는 시도를 감지하고 기록할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e0a28-123">Also, you will be able to detect and log attempts to access malicious and unwanted websites on Microsoft Edge only.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="e0a28-124">관련 항목</span><span class="sxs-lookup"><span data-stu-id="e0a28-124">Related topics</span></span>
+
+- [<span data-ttu-id="e0a28-125">웹 보호 개요</span><span class="sxs-lookup"><span data-stu-id="e0a28-125">Web protection overview</span></span>](web-protection-overview.md)
+- [<span data-ttu-id="e0a28-126">웹 위협 방지</span><span class="sxs-lookup"><span data-stu-id="e0a28-126">Web threat protection</span></span>](web-threat-protection.md)
+- [<span data-ttu-id="e0a28-127">웹 보안 모니터링</span><span class="sxs-lookup"><span data-stu-id="e0a28-127">Monitor web security</span></span>](web-protection-monitoring.md)
+- [<span data-ttu-id="e0a28-128">웹 위협에 대응</span><span class="sxs-lookup"><span data-stu-id="e0a28-128">Respond to web threats</span></span>](web-protection-response.md)
+- [<span data-ttu-id="e0a28-129">네트워크 보호</span><span class="sxs-lookup"><span data-stu-id="e0a28-129">Network protection</span></span>](network-protection.md)

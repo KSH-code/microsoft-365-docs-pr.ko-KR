@@ -1,7 +1,7 @@
 # [엔드포인트용 Microsoft Defender](index.yml)
 
 ## [개요]()
-### [엔드포인트용 Microsoft Defender란 무엇인가요?](microsoft-defender-advanced-threat-protection.md)
+### [엔드포인트용 Microsoft Defender란 무엇인가요?](microsoft-defender-endpoint.md)
 ### [최소 요구 사항](minimum-requirements.md)
 ### [끝점용 Microsoft Defender의 새로운](whats-new-in-microsoft-defender-atp.md)
 ### [미리 보기 기능](preview.md)
