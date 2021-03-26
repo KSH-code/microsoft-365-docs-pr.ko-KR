@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: 끝점용 Microsoft Defender 설명서
-summary: 끝점용 Microsoft Defender는 예방 보호, 위반 후 감지, 자동화된 조사 및 대응을 제공합니다.
+title: 엔드포인트용 Microsoft Defender 설명서
+summary: 엔드포인트용 Microsoft Defender는 예방적 보호, 침해 후 감지, 자동화된 조사 및 대응을 제공합니다.
 metadata:
-  title: 끝점용 Microsoft Defender 설명서
-  description: 끝점용 Microsoft Defender에 대해 알아보고, 장치를 보호하고, 악의적인 활동을 감지하고, 위협을 수정하는 기본 제공 보안 기능을 최대화합니다. 필수 검색 결과에 표시되는 문서 설명입니다. < 160자
+  title: 엔드포인트용 Microsoft Defender 설명서
+  description: 엔드포인트용 Microsoft Defender에 대해 알아보고 기본 제공 보안 기능을 최대화하여 장치를 보호하고, 악의적인 활동을 감지하고, 위협을 해결합니다# 필수; 검색 결과에 표시되는 문서 설명입니다. < 160자
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: efa23f4c40021d95185203c22c8bba5009e15f2f
   ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ko-KR
   ms.lasthandoff: 03/24/2021
   ms.locfileid: "51185746"
@@ -28,17 +28,17 @@ landingContent:
       url: microsoft-defender-endpoint.md
   - linkListType: whats-new
     links:
-    - text: 끝점용 Microsoft Defender의 새로운
+    - text: 엔드포인트용 Microsoft Defender의 새로운 기능
       url: whats-new-in-microsoft-defender-atp.md
   - linkListType: video
     links:
     - text: 개요 비디오
       url: https://www.microsoft.com/videoplayer/embed/RE4vnC4?rel=0
-- title: 서비스 & 평가
+- title: 서비스 평가 및 배포
   linkLists:
   - linkListType: get-started
     links:
-    - text: 끝점에 대한 Microsoft Defender 평가
+    - text: 엔드포인트용 Microsoft Defender 평가
       url: evaluation-lab.md
     - text: 배포 계획
       url: deployment-strategy.md
@@ -46,7 +46,7 @@ landingContent:
     links:
     - text: 배포 가이드
       url: deployment-phases.md
-    - text: 지원되는 장치 온보드
+    - text: 온보딩 지원 장치
       url: onboard-configure.md
   - linkListType: how-to-guide
     links:
@@ -54,35 +54,35 @@ landingContent:
       url: migration-guides.md
   - linkListType: video
     links:
-    - text: 온보더링 비디오
+    - text: 온보딩 비디오
       url: https://www.microsoft.com/en-us/videoplayer/embed/RE4bGqr
 - title: 보안 작업
   linkLists:
   - linkListType: overview
     links:
-    - text: 끝점 감지 및 대응
+    - text: 엔드포인트 감지 및 응답
       url: overview-endpoint-detection-response.md
-    - text: 행동 차단 및 포함
+    - text: 행동 차단 및 제약
       url: behavioral-blocking-containment.md
-    - text: 자동화된 조사 및 대응(AIR)
+    - text: 자동화 된 조사 및 응답(AIR)
       url: automated-investigations.md
-    - text: 고급 헌팅
+    - text: 지능형 헌팅
       url: advanced-hunting-overview.md
     - text: Microsoft 위협 전문가
       url: microsoft-threat-experts.md
     - text: 위협 분석
       url: threat-analytics.md
-- title: 다른 플랫폼에서 끝점용 Microsoft Defender 사용
+- title: 다른 플랫폼에서 엔드포인트용 Microsoft Defender 사용
   linkLists:
   - linkListType: overview
     links:
-    - text: Mac용 끝점용 Microsoft Defender
+    - text: 엔드포인트용 Microsoft Defender(Mac용)
       url: microsoft-defender-endpoint-mac.md
-    - text: iOS용 끝점용 Microsoft Defender
+    - text: 엔드포인트용 Microsoft Defender(iOS용)
       url: microsoft-defender-endpoint-ios.md
-    - text: Linux용 끝점용 Microsoft Defender
+    - text: 엔드포인트용 Microsoft Defender(Linux)
       url: microsoft-defender-endpoint-linux.md
-    - text: Android용 끝점용 Microsoft Defender
+    - text: 엔드포인트용 Microsoft Defender(Android)
       url: microsoft-defender-endpoint-android.md
 - title: 참조
   linkLists:
@@ -96,7 +96,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: 위협 & 취약성 관리
+    - text: 위협 및 취약성 관리
       url: next-gen-threat-and-vuln-mgt.md
     - text: 공격 표면 감소
       url: overview-attack-surface-reduction.md
