@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Endpoint DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3b8ebdbb08a6a866cc84df2031e77378925eaa0e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4d1aa3b75ec0a0720f3d92c847bf7c6cde6d966f
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907008"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199277"
 ---
 # <a name="configure-device-proxy-and-internet-connection-settings-for-endpoint-dlp"></a>끝점 DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성합니다.
 
@@ -76,7 +76,7 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 > [!NOTE]
 > 이는 Windows 서비스를 포함하여 기본 프록시로 WinHTTP를 사용하는 모든 응용 프로그램에 영향을 미칩니다. - 토폴로지를 변경하는 노트북(예: 사무실에서 가정으로)은 netsh에서 오작동합니다. 레지스트리 기반 정적 프록시 구성을 사용합니다.
 
-1. 승격된 명령줄을 엽니다.
+1. 승격된 명령줄을 열기:
     1. **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
     1. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 2.  다음 명령을 입력하고 **Enter** 를 누릅니다.
@@ -96,7 +96,7 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 
 프록시 또는 방화벽이 기본적으로 모든 트래픽을 차단하고 특정 도메인만 통과하도록 허용하는 경우 다운로드 가능한 시트에 나열된 도메인을 허용된 도메인 목록에 추가합니다.
 
-이 [다운로드 가능한 스프레드시트](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-urls.xlsx)에는 네트워크가 연결할 수 있어야 하는 서비스 및 관련 URL이 나열됩니다. 이러한 URL에 대한 액세스를 거부하는 방화벽 또는 네트워크 필터링 규칙이 없는지 확인하거나 해당 URL에 대한 허용 규칙을 만들어야 할 수 있습니다.
+이 [다운로드 가능한 스프레드시트](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)에는 네트워크가 연결할 수 있어야 하는 서비스 및 관련 URL이 나열됩니다. 이러한 URL에 대한 액세스를 거부하는 방화벽 또는 네트워크 필터링 규칙이 없는지 확인하거나 해당 URL에 대한 허용 규칙을 만들어야 할 수 있습니다.
 
 프록시 또는 방화벽에 HTTPS 검색(SSL 검사)이 활성화된 경우 위의 표에 나열된 도메인을 HTTPS 검색에서 제외합니다.
 끝점 DLP가 시스템 컨텍스트에서 연결되므로 프록시 또는 방화벽이 익명 트래픽을 차단하는 경우 이전에 나열된 URL에서 익명 트래픽이 허용되는지 확인합니다.
@@ -107,7 +107,7 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 
 1. 끝점 DLP가 실행 중인 PC에 [MDATP 클라이언트 분석기 도구](https://aka.ms/mdatpanalyzer)을(를) 다운로드합니다.
 2. 장치에서 MDATPC Client Analyzer.zip의 내용을 추출합니다.
-3. 승격된 명령줄을 엽니다.
+3. 승격된 명령줄을 열기:
     1. **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
     1. **명령 프롬프트** 을(를) 마우스 오른쪽 버튼으로 클릭하고 **관리자**(으)로 실행을 선택합니다.
 4.  다음 명령을 입력하고 **Enter** 를 누릅니다.
@@ -143,7 +143,7 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 - [끝점 데이터 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md)
 - [끝점 데이터 손실 방지 사용](endpoint-dlp-using.md)
 - [데이터 손실 방지 개요](data-loss-prevention-policies.md)
-- [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
+- [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
 - [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)
 - [Windows 10 컴퓨터용 온보딩 도구 및 방법](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
