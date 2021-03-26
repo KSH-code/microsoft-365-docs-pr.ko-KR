@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: 이 문서에서는 Microsoft 클라우드에서 고객 데이터를 안전하게 유지하는 데 사용되는 다양한 형태의 암호화에 대한 개요를 읽어 읽습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a8e184fbe722de674db6f9bcc47e2ab5aa0723d1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4a351215b7773574d5932b936e30c5d5ca7aa116
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926225"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222283"
 ---
 # <a name="encryption-in-the-microsoft-cloud"></a>Microsoft 클라우드에서 암호화
 
@@ -57,7 +57,7 @@ Microsoft는 Windows 운영 체제의 새 릴리스를 통해 클라우드 서�
 - [Azure의 암호화](office-365-azure-encryption.md)
 - [암호화에 대한 BitLocker 및 분산 키 관리자(DKM)](office-365-bitlocker-and-distributed-key-manager-for-encryption.md)
 - [Office 365 서비스 암호화](office-365-service-encryption.md)
-- [비즈니스용 Skype, 비즈니스용 OneDrive, SharePoint Online 및 Exchange Online에 대한 Office 365 암호화](./n/compliance/assurance/assurance-encryption-for-microsoft-365-services)
+- [비즈니스용 Skype, 비즈니스용 OneDrive, SharePoint Online 및 Exchange Online에 대한 Office 365 암호화](https://docs.microsoft.com/compliance/assurance/assurance-encryption-for-microsoft-365-services) 
 - [전송 중인 데이터 암호화](/compliance/assurance/assurance-encryption-in-transit)
 - [고객 관리 암호화 기능](office-365-customer-managed-encryption-features.md)
 - [암호화 위험 및 보호](office-365-encryption-risks-and-protections.md)

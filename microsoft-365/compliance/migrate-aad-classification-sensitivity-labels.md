@@ -10,18 +10,18 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 description: 이 문서에서는 클래식 Azure Active Directory 분류 및 민감도 레이블에 대해 설명합니다.
-ms.openlocfilehash: 1be7e31ee4091e561f7eedb34b41958efc69a339
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 07bc09afb3e490961a8cc5a88857ec49dd962856
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926336"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51221753"
 ---
 # <a name="azure-active-directory-classification-and-sensitivity-labels-for-microsoft-365-groups"></a>Microsoft 365 그룹에 대한 Azure Active Directory 분류 및 민감도 레이블
 
 이 문서에서는 클래식 Azure Active Directory 분류 및 민감도 레이블에 대해 설명합니다.
 
-민감도 레이블은 이러한 [서비스에서 지원됩니다.](./sensitivity-labels-teams-groups-sites.md#support-for-the-sensitivity-labels)
+민감도 레이블은 이러한 [서비스에서 지원됩니다.](./sensitivity-labels-teams-groups-sites.md)
 
 민감도 레이블에 대한 자세한 내용은 민감도 레이블에 대한 [자세한 정보를 참조하세요.](sensitivity-labels.md)
 
