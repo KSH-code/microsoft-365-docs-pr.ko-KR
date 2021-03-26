@@ -452,7 +452,7 @@
         - name: 비즈니스용 Skype
           href: /SkypeForBusiness/skype-for-business-online
         - name: Microsoft Teams
-          href: //MicrosoftTeams/quality-of-experience-review-guide
+          href: 'https://docs.microsoft.com/microsoftteams/upgrade-monitor-quality'
         - name: Yammer
           href: 'https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe'
         - name: 성능 및 조정
@@ -477,7 +477,11 @@
             - name: 성능 문제 해결 계획
               href: performance-troubleshooting-plan.md
 - name: Windows 10
-  href: /windows/deployment/
+  items:
+    - name: 릴리스 상태 확인 방법
+      href: 'https://docs.microsoft.com/windows/deployment/update/check-release-health'
+    - name: 배포 및 업데이트
+      href: /windows/deployment/
 - name: 엔터프라이즈용 Microsoft 365 앱
   href: /deployoffice/deployment-guide-microsoft-365-apps
 - name: Surface 디바이스
