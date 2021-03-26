@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 관리 센터에서 중앙 집중식 배포에 대한 질문과 대답을 검토합니다.
-ms.openlocfilehash: 9f4841508701d4dd5878e99fcc51a436bc5824e2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 06e3b7973a209cdf40446c5a9511713d779373b8
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915473"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51221838"
 ---
 # <a name="centralized-deployment-faq"></a>중앙 집중식 배포 FAQ
 
@@ -72,7 +72,7 @@ ms.locfileid: "50915473"
 
 예. 관리자는 새 매니페스트 파일을 업로드하여 관리자가 배포한 LOB 추가 기능의 메타데이터 변경을 지원할 수 있습니다. 다음에 Office 응용 프로그램을 시작할 때 추가 기능을 업데이트합니다. 웹 응용 프로그램은 언제든지 변경될 수 있습니다.  
  
-자세한 내용은 업무 추가 [기능을 참조하세요.](./manage-addins-in-the-admin-center.md#more-about-office-add-ins-security)  
+자세한 내용은 업무 추가 [기능을 참조하세요.](./manage-addins-in-the-admin-center.md)  
 
 ## <a name="can-admins-turn-off-add-ins"></a>관리자가 추가 기능을 해제할 수 있나요?  
 

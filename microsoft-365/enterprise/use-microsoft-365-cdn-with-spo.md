@@ -21,12 +21,12 @@ search.appverid:
 - SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
 description: Office 365 CDN(콘텐츠 배달 네트워크)을 사용하여 SharePoint Online 자산의 배달 속도를 향상하는 방법을 알아보겠습니다.
-ms.openlocfilehash: 6b740fc1429613627e0597dc6ecf2e150c015989
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 17c80b8718ea46c9dfba9f803093974e8ce3e706
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924819"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222686"
 ---
 # <a name="use-the-office-365-content-delivery-network-cdn-with-sharepoint-online"></a>sharepoint Online을 활용해 Office 365 콘텐츠 배달 네트워크(CDN) 사용하기
 
@@ -389,7 +389,7 @@ Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder
 <a name="ExamplePrivateOriginSiteCollection"> </a>
 ### <a name="example-configure-a-private-origin-for-a-site-collection-for-sharepoint-online"></a>예: SharePoint Online의 사이트 모음에 대한 비공개 원본 구성
 
-**Add-SPOTenantCdnOrigin** cmdlet을 사용하여 사이트 모음을 비공개 원본으로 정의합니다. 예를 들어 다음과 같습니다.
+**Add-SPOTenantCdnOrigin** cmdlet을 사용하여 사이트 모음을 비공개 원본으로 정의합니다. 예:
 
 ``` powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
@@ -672,7 +672,7 @@ Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder
 <a name="ExamplePrivateOriginSiteCollectionPnPPosh"> </a>
 ### <a name="example-configure-a-private-origin-for-a-site-collection-for-sharepoint-online"></a>예: SharePoint Online의 사이트 모음에 대한 비공개 원본 구성
 
-**Add-PnPTenantCdnOrigin** cmdlet을 사용하여 사이트 모음을 비공개 원본으로 정의합니다. 예를 들어 다음과 같습니다.
+**Add-PnPTenantCdnOrigin** cmdlet을 사용하여 사이트 모음을 비공개 원본으로 정의합니다. 예:
 
 ``` powershell
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
@@ -888,7 +888,7 @@ CDN을 사용하도록 설정하고 원본 및 정책을 구성한 후 CDN 자�
 `https://<TenantHostName>.sharepoint.com/sites/site/CDN_origins/public/image.png`
 
 > [!NOTE]
-> 일반적으로 URL을 CDN의 자산으로 직접 하드코딩하면 안 됩니다. 그러나 필요한 경우 공개 출처의 자산에 대한 URL을 수동으로 구성할 수 있습니다. 자세한 내용은 공용 자산에 대한 [CDN URL 하드코드를 참조하세요.](use-microsoft-365-cdn-with-spo.md#hardcoding-cdn-urls-for-public-assets)
+> 일반적으로 URL을 CDN의 자산으로 직접 하드코딩하면 안 됩니다. 그러나 필요한 경우 공개 출처의 자산에 대한 URL을 수동으로 구성할 수 있습니다. 자세한 내용은 공용 자산에 대한 [CDN URL 하드코드를 참조하세요.](use-microsoft-365-cdn-with-spo.md)
 
 자산이 CDN에서 제공되고 있는지 확인하는 방법에 대한 자세한 내용은 [Office 365 CDN](use-microsoft-365-cdn-with-spo.md#CDNTroubleshooting) 문제 해결 섹션에서 [CDN에서](use-microsoft-365-cdn-with-spo.md#CDNConfirm) 자산이 제공되고 있는지 확인하는 방법을 참조하세요.
 
@@ -951,7 +951,7 @@ https://publiccdn.sharepointonline.com/contoso.sharepoint.com/sites/site/library
 
 Office 365 CDN에서 비공개 출처의 자산에 대한 액세스는 SharePoint Online에서 생성된 토큰에 의해 부여됩니다. 원본으로 지정된 폴더 또는 라이브러리에 대한 액세스 권한이 이미 있는 사용자에게는 사용 권한 수준에 따라 파일에 액세스할 수 있는 토큰이 자동으로 부여됩니다. 이러한 액세스 토큰은 생성 후 30~90분 동안 유효하여 토큰 재생 공격을 방지할 수 있습니다.
 
-액세스 토큰이 생성된 후 SharePoint Online은 두 개의 권한 부여  매개 변수(edge 권한 부여 토큰)와 _oat(원본_ 인증 토큰)을 포함하는 클라이언트에 사용자 지정 URI를 반환합니다. 각 토큰의 구조는 _에포치<_ 형식의 >__< 서명의 만료 >. 예를 들어 다음과 같습니다.
+액세스 토큰이 생성된 후 SharePoint Online은 두 개의 권한 부여  매개 변수(edge 권한 부여 토큰)와 _oat(원본_ 인증 토큰)을 포함하는 클라이언트에 사용자 지정 URI를 반환합니다. 각 토큰의 구조는 _에포치<_ 형식의 >__< 서명의 만료 >. 예:
 
 ``` html
 https://privatecdn.sharepointonline.com/contoso.sharepoint.com/sites/site1/library1/folder1/image1.jpg?eat=1486154359_cc59042c5c55c90b26a2775323c7c8112718431228fe84d568a3795a63912840&oat=1486154359_7d73c2e3ba4b7b1f97242332900616db0d4ffb04312

@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0db29490-2612-48bc-9b77-1862e7a41a8c
 description: Microsoft용 Google 도메인에서 도메인을 확인하고 전자 메일용 DNS 레코드를 설정하고, Lync 및 기타 서비스를 설정하는 법을 알아봅니다.
-ms.openlocfilehash: 9a1d0a8513f6071a3c9c686c10f6fd282f1a0e96
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 48e23c180533bab2a73e06dd4a45a9c4016680ae
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50910225"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51221958"
 ---
 # <a name="create-dns-records-at-google-domains-for-microsoft"></a>Microsoft용 Google 도메인에서 DNS 레코드 만들기
 
@@ -184,7 +184,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>전자 메일 스팸 방지에 유용한 SPF용 TXT 레코드 추가
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 필수 Microsoft 값을 현재 레코드에 추가하여 두 값 집합을 모두 포함하는 단일 SPF 레코드가 있도록 합니다. 예제가 필요하세요? [Microsoft에 대한 외부 Domain Name System 레코드](../../enterprise/external-domain-name-system-records.md#bkmk_spfrecords)를 참조하세요. To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.yml). 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 필수 Microsoft 값을 현재 레코드에 추가하여 두 값 집합을 모두 포함하는 단일 SPF 레코드가 있도록 합니다. 예제가 필요하세요? [Microsoft에 대한 외부 Domain Name System 레코드](../../enterprise/external-domain-name-system-records.md)를 참조하세요. To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.yml). 
   
 1. 시작하려면 [이 링크](https://domains.google.com/registrar)를 사용하여 Google Domains의 도메인 페이지로 이동합니다. 로그인하라는 메시지가 표시됩니다. 방법은 다음과 같습니다.
     

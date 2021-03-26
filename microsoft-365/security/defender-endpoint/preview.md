@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 370048586c5ddfa6fa9ea265e929608357adf5df
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 4aab7f12b250c1415ad65a9e706edf6b68050b2f
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186884"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222659"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>끝점 미리 보기 기능용 Microsoft Defender
 
@@ -40,9 +40,6 @@ ms.locfileid: "51186884"
 
 
 Endpoint용 Defender 서비스는 새로운 기능 향상 및 기능을 포함하기 위해 지속적으로 업데이트되고 있습니다.
-
-> [!TIP]
-> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-preview-abovefoldlink)
 
 Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 알아보고 미리 보기 환경을 켜서 예정된 기능을 처음 사용해 볼 수 있습니다.
 
@@ -68,15 +65,6 @@ Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 알�
 - [웹 콘텐츠 필터링](web-content-filtering.md) <br> 웹 콘텐츠 필터링은 끝점용 Microsoft Defender의 웹 보호 기능의 일부입니다. 이를 통해 조직은 해당 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제할 수 있습니다. 이러한 웹 사이트 중 상당수는 악의적이지 않은 경우 규정 준수 규정, 대역폭 사용량 또는 기타 문제로 문제가 될 수 있습니다.
 
 - [장치 상태 및 준수 보고서](machine-reports.md) <br/> 장치 상태 및 준수 보고서는 조직의 장치에 대한 높은 수준의 정보를 제공합니다.
-
-- [정보 보호](information-protection-in-windows-overview.md)<BR>
-정보 보호는 Microsoft 365 Enterprise 제품군의 중요한 부분으로, 작업 공간에서 생산성을 유지하면서 중요한 데이터를 안전하게 보호하는 지능형 보호 기능을 제공합니다. Microsoft Defender for Endpoint는 Microsoft Threat Protection에 원활하게 통합되어 Windows 장치에 대한 완전하고 포괄적인 DLP(데이터 손실 방지) 솔루션을 제공합니다.
-
-    >[!NOTE]
-    >Windows 10 버전 1809에서 부분적으로 사용할 수 있습니다.
-
-- [Windows Server 2019 온보드](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-version-1803-and-windows-server-2019) <BR> 끝점용 Microsoft Defender는 이제 Windows Server 2019에 대한 지원을 추가합니다. Windows 10 클라이언트 장치에 사용할 수 있는 동일한 방법으로 Windows Server 2019를 온보드할 수 있습니다.
-
 
 > [!TIP] 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-preview-belowfoldlink)  

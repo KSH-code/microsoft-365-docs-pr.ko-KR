@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자에 대해 강력한 암호 요구 사항을 설정하는 방법을 Windows PowerShell.
-ms.openlocfilehash: e2300e3c94de53cd04d0c1726538fdb8a86a1ccf
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: de2f47bb88fe4cb3d00e45698fe006035faa4e5c
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903539"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222076"
 ---
 # <a name="turn-off-strong-password-requirements-for-users"></a>사용자에 대한 강력한 암호 요구 사항 끄기
 
@@ -34,7 +34,7 @@ ms.locfileid: "50903539"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-이 문서는 비즈니스, 학교 또는 비영리용 암호 정책을 관리하는 사용자용입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정이란?](../admin-overview/admin-overview.md) 이러한 단계를 [수행하려면](about-admin-roles.md) 전역 관리자 또는 암호 관리자 되어야 합니다.
+이 문서는 비즈니스, 학교 또는 비영리용 암호 정책을 관리하는 사용자용입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정이란?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview) 이러한 단계를 [수행하려면](about-admin-roles.md) 전역 관리자 또는 암호 관리자 되어야 합니다.
 
 PowerShell을 사용하여 Microsoft 365에 연결해야 합니다.
 

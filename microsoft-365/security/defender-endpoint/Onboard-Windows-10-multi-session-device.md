@@ -16,20 +16,18 @@ ms.custom: nextgen
 ms.date: 09/10/2020
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 30e664aed74ed01944c67b139e6268fc3340ada4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bfd447120e171fed063b3224e3a47c2ef38f0f16
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51069860"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222614"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Windows Virtual Desktop에서 Windows 10 다중 세션 장치 온보드 
 6분 읽기 
 
 적용 대상: 
 - WVD(Windows Virtual Desktop)에서 실행되는 Windows 10 다중 세션 
-> [!IMPORTANT]
-> 끝점용 Microsoft Defender의 새로운 이름인 Endpoint용 Microsoft Defender를 환영합니다. 여기에서 이 업데이트와 및 기타 업데이트에 대해 자세히 알아보세요. 가까운 시일 내에 제품 및 문서에 이름을 업데이트할 예정입니다.
 
 > [!WARNING]
 > Windows Virtual Desktop 다중 세션 시나리오에 대한 끝점용 Microsoft Defender 지원은 현재 미리 보기로 제공되어 있으며 호스트/VM당 최대 25개 동시 세션이 제한됩니다. 그러나 Windows Virtual Desktop의 단일 세션 시나리오는 완전히 지원됩니다.
@@ -44,7 +42,7 @@ ms.locfileid: "51069860"
 > - 각 가상 데스크톱에 대한 단일 항목 
 > - 각 가상 데스크톱에 대한 여러 항목 
 
-Microsoft는 가상 데스크톱당 단일 항목으로 Windows Virtual Desktop을 온보드하는 것이 좋습니다. 이렇게 하면 Microsoft Defender 끝점 포털의 조사 환경이 컴퓨터 이름을 기반으로 한 디바이스의 컨텍스트에 있습니다. WVD 호스트를 자주 삭제하고 다시 배포하는 조직에서는 동일한 컴퓨터의 여러 개체가 끝점용 Microsoft Defender 포털에서 만들어지지 않도록 방지하기 때문에 이 방법을 사용하는 것이 가장 잦습니다. 이로 인해 인시던트 조사 시 혼동을 피할 수 있습니다. 테스트 또는 비휘발성 환경의 경우 다르게 선택할 수 있습니다. 
+Microsoft는 가상 데스크톱당 단일 항목으로 Windows Virtual Desktop을 온보드하는 것이 좋습니다. 이렇게 하면 Microsoft Defender 끝점 포털의 조사 환경이 컴퓨터 이름을 기반으로 한 디바이스의 컨텍스트에 있습니다. WVD 호스트를 자주 삭제하고 다시 배포하는 조직에서는 동일한 컴퓨터의 여러 개체가 끝점용 Microsoft Defender 포털에서 만들어질 수 없습니다. 이로 인해 인시던트 조사 시 혼동을 피할 수 있습니다. 테스트 또는 비휘발성 환경의 경우 다르게 선택할 수 있습니다. 
 
 WVD 골든 이미지에 끝점용 Microsoft Defender 온보딩 스크립트를 추가하는 것이 좋습니다. 이렇게 하면 이 온보딩 스크립트가 첫 번째 부팅 시 즉시 실행됩니다. 이 스크립트는 WVD 골든 이미지에서 프로비전된 모든 WVD 컴퓨터의 첫 번째 부팅 시 시작 스크립트로 실행됩니다. 그러나 수정하지 않고 갤러리 이미지 중 하나를 사용하는 경우 스크립트를 공유 위치에 두고 로컬 또는 도메인 그룹 정책에서 호출합니다. 
 

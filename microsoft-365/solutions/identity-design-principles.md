@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: da70bbfe5c4dfa4f9eda16adec709826de1247b7
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c94b387bbd73e2c4f9b3de243131ae023ddb4cb8
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200020"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222528"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>ID 및 그 이상을 아우르는 설계자의 관점
 
@@ -231,7 +231,7 @@ Azure [AD PIM을](/azure/active-directory/privileged-identity-management/) 몇 �
 
 Exchange 역할 그룹 모델의 발전된 예입니다. 그러나 Exchange Online에는 자체 [역할 그룹 관리 인터페이스가](/exchange/permissions-exo) 있습니다. Exchange Online의 일부 역할 그룹은 Azure AD 또는 보안 & 준수 센터에서 잠기고 관리되지만 다른 역할 그룹은 이름이 같거나 유사할 수 있으며 Exchange Online에서 관리됩니다(혼란에 추가). Exchange 관리에 대한 범위가 필요하지 않으면 Exchange Online 사용자 인터페이스를 사용하지 않는 것이 좋습니다.
 
-사용자 지정 역할은 만들 수 없습니다. 역할은 Microsoft에서 만든 서비스에 의해 정의되고 새 서비스가 도입되면 커질 것입니다. 개념상 Azure AD의 응용 프로그램에서 [정의한 역할과](/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps) 비슷합니다. 새 서비스를 사용하도록 설정한 경우 이러한 서비스에 대한 액세스 권한을 부여하거나 위임하기 위해 새 역할 그룹을 만들어야 하는 경우가 종종 있습니다(예: 내부자 위험 [관리).](../compliance/insider-risk-management-configure.md?view=o365-worldwide#step-1-required-enable-permissions-for-insider-risk-management)
+사용자 지정 역할은 만들 수 없습니다. 역할은 Microsoft에서 만든 서비스에 의해 정의되고 새 서비스가 도입되면 커질 것입니다. 개념상 Azure AD의 응용 프로그램에서 [정의한 역할과](/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps) 비슷합니다. 새 서비스를 사용하도록 설정한 경우 이러한 서비스에 대한 액세스 권한을 부여하거나 위임하기 위해 새 역할 그룹을 만들어야 하는 경우가 종종 있습니다(예: 내부자 위험 [관리).](../compliance/insider-risk-management-configure.md?view=o365-worldwide)
 
 또한 이러한 역할 그룹에는 직접 구성원 자격이 필요하며 Azure AD 그룹을 포함할 수 없습니다. 안타깝게도 현재 이러한 역할 그룹은 Azure AD PIM에서 지원되지 않습니다. Azure AD 역할과 마찬가지로 API 또는 Saviynt와 같은 파트너 거버넌스 제품을 통해 이러한 관리가 권장됩니다.
 

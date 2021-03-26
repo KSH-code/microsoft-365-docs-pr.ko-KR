@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터 - 이번 달에 추가된 기능에 대
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: b670c6a333485bc3a19ae14b8e7c71f08181cac5
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: 7b802556e051200bf39bc4bd9b97974d4d2d4c47
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215579"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222006"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운
 
@@ -37,7 +37,7 @@ ms.locfileid: "51215579"
 
 ::: moniker-end
 
-Microsoft는 [지속적으로 Microsoft 365](microsoft-365-admin-center-preview.md)관리 센터에 새로운 기능을 추가하고, 배운 문제를 해결하고, 사용자 의견을 기반으로 변경을 진행하고 있습니다. 아래에서 현재 사용할 수 있는 것을 확인하세요. 일부 기능은 고객에게 다른 속도로 롤아웃됩니다. 아직 기능이 없는 경우 대상 릴리스에 자신을 [추가해 보세요.](manage/release-options-in-office-365.md)
+Microsoft는 [지속적으로 Microsoft 365](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview)관리 센터에 새로운 기능을 추가하고, 배운 문제를 해결하고, 사용자 의견을 기반으로 변경을 진행하고 있습니다. 아래에서 현재 사용할 수 있는 것을 확인하세요. 일부 기능은 고객에게 다른 속도로 롤아웃됩니다. 아직 기능이 없는 경우 대상 릴리스에 자신을 [추가해 보세요.](manage/release-options-in-office-365.md)
 
 또한 다른 Microsoft 클라우드 서비스에서 새로운 것을 알고자 하는 경우:
 

@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva 항목의 사용자 역할에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 6d93046a96b60779c3cd3bd6c6aa600cb443118f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e91eda6807634ad27bf6c15c2dd0d1c9434ce299
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917359"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222770"
 ---
 # <a name="microsoft-viva-topics-roles"></a>Microsoft Viva 주제 역할 
 
@@ -49,7 +49,7 @@ Microsoft 365 환경에서 Viva 항목을 사용하는 경우 사용자는 다�
 항목을 만들고 편집하려면 사용자가 다음을 해야 합니다.
 
 -   Microsoft 365 관리자가 [Viva Topics](./set-up-topic-experiences.md#assign-licenses) 라이선스를 할당합니다.
--   항목을 만들고 편집할 수 있는 사용 [권한을 할당합니다.](./topic-experiences-user-permissions.md#change-who-has-permissions-to-do-tasks-on-the-topic-center) 이 작업은 Microsoft 365 관리 센터의 Viva 항목 설정 페이지에서 기술 관리자가 수행합니다.
+-   항목을 만들고 편집할 수 있는 사용 [권한을 할당합니다.](./topic-experiences-user-permissions.md) 이 작업은 Microsoft 365 관리 센터의 Viva 항목 설정 페이지에서 기술 관리자가 수행합니다.
 
 ## <a name="knowledge-managers"></a>지식 관리자
 
@@ -64,7 +64,7 @@ Microsoft 365 환경에서 Viva 항목을 사용하는 경우 사용자는 다�
 
 항목을 관리하려면 사용자가 다음을 해야 합니다.
 -   Microsoft 365 관리자가 [Viva Topics](./set-up-topic-experiences.md#assign-licenses) 라이선스를 할당합니다.
--   항목을 관리할 수 [있는 사용 권한을 할당합니다.](./topic-experiences-user-permissions.md#change-who-has-permissions-to-do-tasks-on-the-topic-center) 이 작업은 Microsoft 365 관리 센터의 Viva 항목 설정 페이지에서 기술 관리자가 수행합니다.
+-   항목을 관리할 수 [있는 사용 권한을 할당합니다.](./topic-experiences-user-permissions.md) 이 작업은 Microsoft 365 관리 센터의 Viva 항목 설정 페이지에서 기술 관리자가 수행합니다.
 
 비즈니스에 대한 전반적 지식이 있는 사용자는 지식 관리자 역할에 대한 좋은 후보가 될 수 있습니다. 이러한 사용자들은 주제가 유효한지 알 수 있을 뿐만 아니라 해당 항목과 관련된 회사 내의 사용자도 알고 있을 수 있습니다.
 

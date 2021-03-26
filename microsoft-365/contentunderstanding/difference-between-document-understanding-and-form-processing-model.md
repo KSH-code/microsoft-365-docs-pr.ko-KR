@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: 문서 이해 모델과 양식 처리 모델의 주요 차이를 설명합니다.
-ms.openlocfilehash: 9640b028e4b5a9cbd914b183e61de9b8a7ba00bc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f12cc46e1ffcbc610f50ba327e22ad46a2591521
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905793"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222272"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>문서 이해와 양식 처리 모델의 차이 
 
@@ -34,7 +34,7 @@ Microsoft SharePoint Syntex의 콘텐츠 이해를 통해 SharePoint 문서 라�
 두 모델은 일반적으로 동일한 목적으로 사용되지만, 아래에 나열된 주요 차이점은 사용할 수 있는 모델에 영향을 미칩니다.
 
 > [!NOTE]
-> 양식 처리 및 문서 이해 시나리오 예제에 대한 자세한 내용은 [SharePoint Syntex 채택: 시작 가이드](./adoption-getstarted.md#form-processing-scenario-example)를 참조하세요.
+> 양식 처리 및 문서 이해 시나리오 예제에 대한 자세한 내용은 [SharePoint Syntex 채택: 시작 가이드](./adoption-getstarted.md)를 참조하세요.
 
 
 ## <a name="structured-versus-unstructured-and-semi-structured-content"></a>구조화된 콘텐츠와 구조화되지 않은 콘텐츠 및 반구조화된 콘텐츠가 비교됩니다.

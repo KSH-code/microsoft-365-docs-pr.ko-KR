@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: 사용자 암호를 사용하여 만료되지 않는 개별 사용자 암호를 설정하는 Windows PowerShell.
-ms.openlocfilehash: 564ea3338fcb11d699d385a40c9594f34964edf7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c70fce1c3ea9cb1dea66982a27ddb24e2b2de255
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903643"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222067"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>개별 사용자 암호가 만료되지 않도록 설정
 
@@ -35,7 +35,7 @@ ms.locfileid: "50903643"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정의 새로운 기능](../admin-overview/admin-overview.md) 
+회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정의 새로운 기능](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview) 
 
 이러한 단계를 [수행하려면](about-admin-roles.md) 전역 관리자 또는 암호 관리자 되어야 합니다.
 

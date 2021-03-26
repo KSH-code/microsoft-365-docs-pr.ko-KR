@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0b9ce376736e5f00ee0f6a4f308d783e75052357
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 97a64c8537ff2a6f9948ed6ed056b8aa7379ce69
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163303"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222338"
 ---
 # <a name="pull-detections-to-your-siem-tools"></a>SIEM 도구로 검색 끌어오기
 
@@ -53,7 +53,7 @@ Splunk, RSA NetWitness 등의 다른 SIEM 솔루션은 새로운 경고 API를 �
 
 - [Endpoint용 Defender에서 SIEM 통합 사용](enable-siem-integration.md)
 - 지원되는 SIEM 도구를 구성합니다.
-     - [끝점 감지를 위해 Defender를 끌어오도록 HP ArcSight 구성](configure-arcsight.md)
+     - [엔드포인트 감지를 위해 Defender를 끌어오도록 마이크로 포커스 ArcSight 구성](configure-arcsight.md)
      - 끝점 검색을 위해 Defender를 끌어오도록 IBM QRadar 구성 자세한 내용은 [IBM 기술 센터를 참조하세요.](https://www.ibm.com/support/knowledgecenter/SS42VS_DSM/com.ibm.dsm.doc/c_dsm_guide_MS_Win_Defender_ATP_overview.html?cp=SS42VS_7.3.1)
 
 검색 API에 노출된 필드 목록에 대한 자세한 내용은 Endpoint 검색 [필드에 대한 Defender를 참조하세요.](api-portal-mapping.md)

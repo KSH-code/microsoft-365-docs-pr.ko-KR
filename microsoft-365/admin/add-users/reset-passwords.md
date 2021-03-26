@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 비즈니스용 Microsoft 365 구독에서 사용자의 암호를 다시 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 985b9fbae68f12c3f6a23fe8a3e1add4a86df716
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: da2f2b7aced29cd121f7d597af5a518462d2623d
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903703"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222054"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
@@ -40,7 +40,7 @@ ms.locfileid: "50903703"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정의 새로운 기능](../admin-overview/admin-overview.md)
+회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정의 새로운 기능](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview)
 
 이러한 단계를 [수행하려면](about-admin-roles.md) 전역 관리자 또는 암호 관리자 되어야 합니다.
 

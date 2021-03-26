@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 양식 처리 모델 알아보기
-ms.openlocfilehash: 84aeb7c4e3fc850e5e4c2336e576ff3bce3ecf4b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e3cf8298a2db9383e5b88dde737efc84e75c7f19
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928311"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222260"
 ---
 # <a name="form-processing-overview"></a>양식 처리 개요
 
@@ -30,7 +30,7 @@ AI 작성기 양식 처리를 사용하여 기계 학습 기술을 사용하여 
 조직은 종종 메일, 팩스, 전자 메일 등과 같은 다양한 출처로부터 다량의 송장을 받습니다. 이러한 문서를 수동으로 데이터베이스에 입력해 처리하기 위해서는 많은 시간이 소요됩니다. AI를 사용하여 문서에서 텍스트, 키/값 쌍 및 표를 추출하는 양식 처리 프로세스를 자동화합니다. 
 
 > [!NOTE]
-> 양식 처리 시나리오 예제에 대한 자세한 내용은 [SharePoint Syntex 채택: 시작 가이드](./adoption-getstarted.md#form-processing-scenario-example)를 참조하세요.
+> 양식 처리 시나리오 예제에 대한 자세한 내용은 [SharePoint Syntex 채택: 시작 가이드](./adoption-getstarted.md)를 참조하세요.
 
 예를 들어 문서 라이브러리에 업로드 되는 모든 구매 주문 문서를 식별하는 양식 처리 모델을 만들 수 있습니다. 각 구매 주문서에서 *PO 번호*, *날짜* 또는 *전체 비용* 과 같이 사용자에게 중요 한 특정 데이터를 추출하여 표시할 수 있습니다.
 
@@ -40,7 +40,7 @@ AI 작성기 양식 처리를 사용하여 기계 학습 기술을 사용하여 
 
 모델을 훈련하고 게시하면 모델은 [파워 자동화 흐름](/power-automate/getting-started)을 만듭니다. 파일이 SharePoint 문서 라이브러리에 업로드 되면 흐름이 실행되고 모델에서 식별된 데이터를 추출합니다. 추출 된 데이터가 모델의 문서 라이브러리 보기에서 열에 표시 됩니다.
 
-Office 365 관리자는 SharePoint 문서 라이브러리 [양식 처리 사용을 설정](./set-up-content-understanding.md#to-set-up-content-understanding)을 하여 사용자가 [양식 처리 모델 만들기](create-a-form-processing-model.md)를 할 수 있도록 해야 합니다. 설치 중 또는 관리 설정에서 설정 후에 사이트를 선택할 수 있습니다.
+Office 365 관리자는 SharePoint 문서 라이브러리 [양식 처리 사용을 설정](./set-up-content-understanding.md)을 하여 사용자가 [양식 처리 모델 만들기](create-a-form-processing-model.md)를 할 수 있도록 해야 합니다. 설치 중 또는 관리 설정에서 설정 후에 사이트를 선택할 수 있습니다.
 
 ### <a name="file-limitations"></a>파일 제한 사항
 

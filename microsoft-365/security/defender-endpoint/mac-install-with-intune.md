@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 94cb92974b0e73a1254fd024c39d9a6ee620aad3
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 08cb16f6ae6e259d1bc92e7d2bed96f093a435f0
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199540"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222516"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender용 Intune 기반 배포
 
@@ -136,8 +136,6 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 표준 회사 포털 설치 이외에는 Mac 장치에 대한 특별한 프로비저닝이 [필요하지 않습니다.](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos-cp)
 
 1. 장치 관리를 확인합니다.
-
-    ![장치 관리 스크린샷 확인](./images/mdatp-3-confirmdevicemgmt.png)
 
     시스템 **기본 설정 열기** 를 선택하고 목록에서 **관리** 프로필을 찾은 다음 **승인... 을 선택합니다.** 관리 프로필이 확인된 **것으로 표시됩니다.**
 

@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에서 추출기를 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8218d04d2f5cb4e8f8f67bdcd744b7f1a4a4d18a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e95df00c2601bccc5041f96c745048adc8dfc91f
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905815"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222794"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex에서 추출기 만들기
 
@@ -91,7 +91,7 @@ ms.locfileid: "50905815"
 
 ### <a name="use-the-explanation-library"></a>설명 라이브러리 사용하기
 
-날짜와 같은 항목에 대한 설명을 만들려면 수동으로 모든 변형을 입력하기보다는 [설명 라이브러리 사용하기](./explanation-types-overview.md#use-the-explanation-library)가 더 쉽습니다. 설명 라이브러리는 미리 작성된 구 및 패턴 설명 집합입니다. 라이브러리는 날짜, 전화 번호, 우편 번호 등과 같은 일반적인 구문 또는 패턴 목록의 모든 형식을 제공하고자 노력하고 있습니다. 
+날짜와 같은 항목에 대한 설명을 만들려면 수동으로 모든 변형을 입력하기보다는 [설명 라이브러리 사용하기](./explanation-types-overview.md)가 더 쉽습니다. 설명 라이브러리는 미리 작성된 구 및 패턴 설명 집합입니다. 라이브러리는 날짜, 전화 번호, 우편 번호 등과 같은 일반적인 구문 또는 패턴 목록의 모든 형식을 제공하고자 노력하고 있습니다. 
 
 *서비스 시작 날짜* 샘플의 경우 설명 라이브러리에서 미리 작성된 *날짜* 설명을 이용하는 것이 훨씬 효율적입니다.
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4e216f841c8728b1cabd98a931e7326f53344a74
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3edc7e52e93bc08d46536a520bf57735983f493b
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072716"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222626"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 인시던트 관리
 
@@ -82,4 +82,4 @@ ms.locfileid: "51072716"
 추가된 메모는 창에 바로 표시됩니다.
 
 ## <a name="add-incident-tags"></a>인시던트 태그 추가
-예를 들어 인시던트 그룹에 공통 특성을 플래그 지정하기 위해, 사용자 지정 태그를 인시던트에 추가할 수 있습니다. 나중에 특정 태그가 포함된 모든 인시던트의 인시던트 큐를 필터링할 수 있습니다.
+인시던트에 사용자 지정 태그를 추가할 수 있습니다. 예를 들어 인시던트 그룹에 공통적인 특성이 있는 플래그를 지정합니다. 나중에 특정 태그가 포함된 모든 인시던트의 인시던트 큐를 필터링할 수 있습니다.

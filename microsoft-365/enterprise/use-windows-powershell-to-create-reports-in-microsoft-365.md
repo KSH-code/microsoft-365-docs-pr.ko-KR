@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 1ea4d4ec-af89-496f-9678-701867f5a6fc
 description: '요약: Microsoft 365용 PowerShell을 사용하여 Microsoft 365 관리 센터에서 생성할 수 없는 보고서를 만들 수 있습니다.'
-ms.openlocfilehash: 12cba74d114ea03804741335bd34ece403926033
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: dc183ae8a315bf788befc85474d0647802ac91ee
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924699"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222782"
 ---
 # <a name="use-powershell-to-create-reports-for-microsoft-365"></a>PowerShell을 사용하여 Microsoft 365 보고서 만들기
 
@@ -33,7 +33,7 @@ Microsoft 365 관리 센터에서는 다양한 보고서를 사용할 수 있습
   
 - Microsoft 365용 PowerShell을 사용하여 보고 시작:
     
-  - [Microsoft 365 용 PowerShell을 사용해야 하는 이유](./why-you-need-to-use-microsoft-365-powershell.md#reveal)
+  - [Microsoft 365 용 PowerShell을 사용해야 하는 이유](./why-you-need-to-use-microsoft-365-powershell.md)
     
     
 - 사용자 계정 및 라이선스에 대한 보고서:

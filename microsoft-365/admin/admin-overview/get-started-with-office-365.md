@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
 description: 컴퓨터, 휴대폰 및 태블릿에서 Microsoft 365를 설정하고 사용하는 방법을 확인합니다.
-ms.openlocfilehash: 8df5170190a464c71030c938be61df591032c45c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 74821886832e699a90d9a54a9b8c7ce9a8cfab75
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906291"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222030"
 ---
 # <a name="get-started"></a>시작
 
@@ -60,7 +60,7 @@ ms.locfileid: "50906291"
   
 - [관리자를 위한 교육:](../index.yml)관리자를 위한 무료 온라인 수업 링크를 받을 수 있습니다.
     
-- [관리자 도움말:](./admin-overview.md)상위 작업, 관리 도구 시작 및 문제 해결에 대한 정보를 얻습니다.
+- [관리자 도움말:](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview)상위 작업, 관리 도구 시작 및 문제 해결에 대한 정보를 얻습니다.
     
 - [고객 지원에 문의 - 관리자 도움말:](../contact-support-for-business-products.md) 문의하거나 온라인 요청을 열거나 커뮤니티에서 도움을 요청하세요. 
     

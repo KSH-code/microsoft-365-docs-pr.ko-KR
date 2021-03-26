@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1fd128a9b734606039438db1f6d9fbc36e93a3b9
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 059ff9ca6f0c93c6adbac3b1d552cbedcf308759
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199017"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222710"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>미국 정부 고객을 위한 끝점용 Microsoft Defender
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
-미국 Azure Government 환경에서 구축된 미국 정부 고객을 위한 끝점용 Microsoft Defender는 Azure Commercial의 Endpoint용 Defender와 동일한 기본 기술을 사용 합니다.
+Azure US Government 환경에서 구축된 미국 정부 고객을 위한 끝점용 Microsoft Defender는 Azure Commercial의 Endpoint용 Defender와 동일한 기본 기술을 사용 합니다.
 
 이 제품은 GCC, GCC High 및 DoD 고객에게 제공되고 상업용 버전과 동일한 예방, 탐지, 조사 및 수정을 기반으로 합니다. 그러나 이 제공 기능에 대한 기능의 가용성에는 몇 가지 차이가 있습니다.
 
@@ -42,8 +42,8 @@ ms.locfileid: "51199017"
 GCC | GCC 높음 | DoD
 :---|:---|:---
 Windows 10 Enterprise E5 GCC | GCC High용 Windows 10 Enterprise E5 | DOD용 Windows 10 Enterprise E5
-| | GCC High용 Microsoft 365 E5 | 
-| | GCC High용 Microsoft 365 G5 보안 | 
+| | GCC High용 Microsoft 365 E5 | DOD용 Microsoft 365 G5
+| | GCC High용 Microsoft 365 G5 보안 | DOD용 Microsoft 365 G5 보안
 끝점용 Microsoft Defender - GCC | GCC High용 끝점용 Microsoft Defender | DOD용 끝점용 Microsoft Defender
 
 ### <a name="server-licensing"></a>서버 라이선스
@@ -51,9 +51,6 @@ GCC | GCC 높음 | DoD
 :---|:---|:---
 Endpoint Server GCC용 Microsoft Defender | GCC High용 끝점 서버용 Microsoft Defender | DOD용 끝점 서버용 Microsoft Defender
 서버용 Azure Defender | 서버용 Azure Defender - 정부 | 서버용 Azure Defender - 정부
-
-> [!NOTE]
-> DoD 라이선스는 DoD 일반 공급에서만 사용할 수 있습니다.
 
 <br>
 
@@ -64,7 +61,7 @@ Endpoint Server GCC용 Microsoft Defender | GCC High용 끝점 서버용 Microso
 :---|:---
 GCC | https://gcc.securitycenter.microsoft.us
 GCC 높음 | https://securitycenter.microsoft.us
-DoD(미리 보기) | https://securitycenter.microsoft.us
+DoD | https://securitycenter.microsoft.us
 
 <br>
 
@@ -73,7 +70,7 @@ DoD(미리 보기) | https://securitycenter.microsoft.us
 ### <a name="standalone-os-versions"></a>독립 실행형 OS 버전
 다음 OS 버전이 지원됩니다.
 
-OS 버전 | GCC | GCC 높음 | DoD(미리 보기)
+OS 버전 | GCC | GCC 높음 | DoD
 :---|:---|:---|:---
 Windows 10 버전 [20H2(KB4586853](https://support.microsoft.com/help/4586853)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows 10 버전 [2004(KB4586853](https://support.microsoft.com/help/4586853)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
@@ -91,8 +88,8 @@ Windows 8.1 Enterprise | ![예](images/svg/check-yes.svg) | ![예](images/svg/ch
 Windows 8 Pro | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows 7 SP1 Enterprise | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows 7 SP1 Pro | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
-Linux | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
-macOS | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
+Linux | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중
+macOS | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중
 Android | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
 iOS | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
 
@@ -105,7 +102,7 @@ iOS | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니
 ### <a name="os-versions-when-using-azure-defender-for-servers"></a>서버용 Azure Defender를 사용하는 경우 OS 버전
 다음 OS 버전은 [서버용 Azure Defender를 사용할 때 지원됩니다.](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
 
-OS 버전 | GCC | GCC 높음 | DoD(미리 보기)
+OS 버전 | GCC | GCC 높음 | DoD
 :---|:---|:---|:---
 Windows Server 2016 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows Server 2012 R2 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
@@ -125,14 +122,30 @@ Windows Server 2008 R2 SP1 | ![예](images/svg/check-yes.svg) | ![예](images/sv
 자세한 내용은 장치 프록시 및 인터넷 연결 설정 [구성을 참조하세요.](configure-proxy-internet.md)
 
 > [!NOTE]
-> 스프레드시트에는 상업용 URL도 포함되어 있습니다. "US Gov" 탭을 선택해야 합니다. <br> 필터링할 때 "US Gov"로 레이블이 붙은 레코드와 해당 지리 열에서 특정 클라우드를 찾아야 합니다.
+> 스프레드시트에는 상업용 URL도 포함되어 있습니다. "US Gov" 탭을 선택해야 합니다.
+> 
+> 필터링할 때 "US Gov"로 레이블이 붙은 레코드와 해당 지리 열에서 특정 클라우드를 찾아야 합니다.
+
+### <a name="service-backend-ip-ranges"></a>서비스 백end IP 범위
+
+네트워크 장치가 DNS 기반 규칙을 지원하지 않는 경우 대신 IP 범위를 사용합니다.
+
+미국 정부 고객을 위한 끝점용 Defender는 Azure US Government 환경에서 구축되어 다음 지역에 배포됩니다.
+
+- AzureCloud.usgovtexas
+- AzureCloud.usgovvirginia
+
+Azure IP 범위 및 서비스 태그 – 미국 정부 클라우드에서 [Azure IP 범위를 찾을 수 있습니다.](https://www.microsoft.com/download/details.aspx?id=57063)
+
+> [!NOTE]
+> 클라우드 기반 솔루션으로 IP 주소 범위는 변경될 수 있습니다. DNS 기반 규칙으로 이동하는 것이 좋습니다.
 
 <br>
 
 ## <a name="api"></a>API
 [API](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro)설명서에 나열된 공용 URIS 대신 다음 URIS를 사용해야 합니다.
 
-끝점 유형 | GCC | GCC High & DoD(미리 보기)
+끝점 유형 | GCC | GCC High & DoD
 :---|:---|:---
 로그인 | `https://login.microsoftonline.com` | `https://login.microsoftonline.us`
 Endpoint API용 Defender | `https://api-gcc.securitycenter.microsoft.us` | `https://api-gov.securitycenter.microsoft.us`
@@ -141,18 +154,18 @@ SIEM | `https://wdatp-alertexporter-us.gcc.securitycenter.windows.us` | `https:/
 <br>
 
 ## <a name="feature-parity-with-commercial"></a>상업용 기능 패리티
-Endpoint용 Defender에는 상업용 제품과 완전한 패리티가 없습니다. 당사의 목표는 모든 상업적 기능을 미국 정부 고객에게 제공하는 것이지만, 아직 사용할 수 없는 몇 가지 기능은 강조하고 싶을 것입니다.
+미국 정부 고객을 위한 Endpoint용 Defender는 상업용 제품과 완전한 패리티를 택하지 않습니다. 당사의 목표는 모든 상업적 기능을 미국 정부 고객에게 제공하는 것이지만, 아직 사용할 수 없는 몇 가지 기능은 강조하고 싶을 것입니다.
 
-2021년 2월 현재 알려진 차이입니다.
+2021년 3월 현재 알려진 공백입니다.
 
-기능 이름 | GCC | GCC 높음 | DoD(미리 보기)
+기능 이름 | GCC | GCC 높음 | DoD
 :---|:---|:---|:---
 자동화된 조사 및 수정: 라이브 응답 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 자동화된 조사 및 수정: Office 365 경고에 대한 응답 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
-이메일 알림 | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중
+이메일 알림 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 평가 랩 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 관리 및 API: 장치 상태 및 규정 준수 보고서 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
-관리 및 API: 타사 제품과의 통합 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
+관리 및 API: 타사 제품과의 통합 | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중
 관리 및 API: 스트리밍 API | ![예](images/svg/check-yes.svg) | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
 관리 및 API: 위협 방지 보고서 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 위협 & 취약성 관리 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)

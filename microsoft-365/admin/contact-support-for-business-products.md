@@ -22,12 +22,12 @@ search.appverid:
 description: 해당 국가 또는 지역 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하여 기술 및 청구 지원을 받습니다.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: aa843f0c81f38e53b525b6e56d7f3fa69696de79
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6e355a07584d45a85c363956d1bb4e45eae708be
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907041"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222042"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>비즈니스용 제품에 대한 고객 지원 센터 문의 방법 - 관리자 도움말
 
@@ -42,7 +42,7 @@ ms.locfileid: "50907041"
 
 온라인으로 서비스 요청을 시작하여 시간을 절약하세요. 해결 방법을 찾거나 기술 지원에 연결할 수 있도록 도와 드리겠습니다.
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다. 해당 페이지에 액세스 또는 해당 작업 수행에 대한 권한이 없습니다라는 메시지가 나타나는 경우, 관리자가 아닙니다. [내 비즈니스에서 관리자 권한을 가진 사용자를 알아보세요.](admin-overview/admin-overview.md#who-has-admin-permissions-in-my-business)
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다. 해당 페이지에 액세스 또는 해당 작업 수행에 대한 권한이 없습니다라는 메시지가 나타나는 경우, 관리자가 아닙니다. [내 비즈니스에서 관리자 권한을 가진 사용자를 알아보세요.](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview?#who-has-admin-permissions-in-my-business)
 
 2. **도움이 필요하신가요?** 버튼을 선택합니다.
 

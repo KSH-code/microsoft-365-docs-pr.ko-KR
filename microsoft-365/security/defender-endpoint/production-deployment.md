@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender ATP 배포 설정
-description: Microsoft Defender ATP 배포를 설정하는 방법을 설명합니다.
+title: 끝점 배포를 위한 Microsoft Defender 설정
+description: 끝점용 Microsoft Defender 배포를 설정하는 방법을 설명합니다.
 keywords: 배포, 설정, 라이선스 유효성 검사, 테넌트 구성, 네트워크 구성
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4af84c21977e4b90c8b6d9ec4c785339ff229e7d
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 8965594789c3c96c043e3cd1a8922d9ba996ef47
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186152"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222444"
 ---
 # <a name="set-up-microsoft-defender-for-endpoint-deployment"></a>끝점 배포를 위한 Microsoft Defender 설정
 
@@ -124,10 +124,7 @@ ms.locfileid: "51186152"
 
 -   WPAD(웹 프록시 자동 검색 프로토콜)
 
-네트워크 토폴로지에서 투명 프록시 또는 WPAD를 구현한 경우 특수 구성 설정이 필요하지 않습니다. 프록시의 끝점 URL 제외에 대한 Microsoft Defender에 대한 자세한 내용은 이 문서의 부록 섹션에서 URL 허용 목록 또는 [Microsoft Docs](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)를 참조하세요.
-
-> [!NOTE]
-> 허용해야 하는 URL의 자세한 목록은 이 문서를 [참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus)
+네트워크 토폴로지에서 투명 프록시 또는 WPAD를 구현한 경우 특수 구성 설정이 필요하지 않습니다. 프록시의 끝점 URL 제외에 대한 Microsoft Defender에 대한 자세한 [](production-deployment.md#proxy-service-urls) 내용은 URL 허용 목록 또는 장치 프록시 및 인터넷 연결 설정 구성에서 이 문서의 프록시 서비스 URL 섹션을 [참조하세요.](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server)
 
 **수동 정적 프록시 구성:**
 
@@ -207,24 +204,27 @@ v20이 포함된 URL은 Windows 10 버전 1803 이상 디바이스가 있는 경
 |![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지](images/mdatp-urls.png)<br/>  | 서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <br><br>[여기에서 스프레드시트를 다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
 
 
-###  <a name="microsoft-defender-for-endpoint-service-backend-ip-range"></a>끝점용 Microsoft Defender 서비스 백 엔드 IP 범위
+###  <a name="microsoft-defender-for-endpoint-service-backend-ip-ranges"></a>Microsoft Defender for Endpoint Service 백 엔드 IP 범위
 
-네트워크 장치가 이전 섹션에 나열된 URL을 지원하지 않는 경우 다음 정보를 사용할 수 있습니다.
+네트워크 장치가 DNS 기반 규칙을 지원하지 않는 경우 대신 IP 범위를 사용합니다.
 
-Endpoint용 Defender는 다음 지역에 배포된 Azure 클라우드를 통해 구축됩니다.
+Endpoint용 Defender는 Azure 클라우드에서 구축되어 다음 지역에 배포됩니다.
 
-- \+\<Region Name="uswestcentral">
-- \+\<Region Name="useast2">
-- \+\<Region Name="useast">
-- \+\<Region Name="europenorth">
-- \+\<Region Name="europewest">
-- \+\<Region Name="uksouth">
-- \+\<Region Name="ukwest">
+- AzureCloud.eastus
+- AzureCloud.eastus2
+- AzureCloud.westcentralus
+- AzureCloud.northeurope
+- AzureCloud.westeurope
+- AzureCloud.uksouth
+- AzureCloud.ukwest
 
-[Microsoft Azure Datacenter](https://www.microsoft.com/en-us/download/details.aspx?id=41653)IP 범위에서 Azure IP 범위를 찾을 수 있습니다.
+Azure IP 범위 및 서비스 태그 – 공용 클라우드에서 [Azure IP 범위를 찾을 수 있습니다.](https://www.microsoft.com/download/details.aspx?id=56519)
 
 > [!NOTE]
-> 클라우드 기반 솔루션으로 IP 주소 범위는 변경될 수 있습니다. DNS 확인할 수 있는 설정으로 이동하는 것이 좋습니다.
+> 클라우드 기반 솔루션으로 IP 주소 범위는 변경될 수 있습니다. DNS 기반 규칙으로 이동하는 것이 좋습니다.
+
+> [!NOTE]
+> 미국 정부 고객인 경우 미국 정부용 끝점용 Defender 페이지에서 해당 [섹션을 참조하세요.](gov.md#service-backend-ip-ranges)
 
 ## <a name="next-step"></a>다음 단계
 

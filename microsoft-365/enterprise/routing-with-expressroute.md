@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: e1da26c6-2d39-4379-af6f-4da213218408
 description: 이 문서에서는 Office 365에서 사용할 Azure ExpressRoute 라우팅 요구 사항, 회로 및 라우팅 도메인에 대해 설명합니다.
-ms.openlocfilehash: 1091ca5e1d48c9837f83e83d4c747c2cbcd523e3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9d3c381cfb6e24c1c87ef3dcfb83a9b93f991b93
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924931"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222410"
 ---
 # <a name="routing-with-expressroute-for-office-365"></a>Office 365용 ExpressRoute를 사용한 라우팅
 
@@ -41,7 +41,7 @@ Azure ExpressRoute를 사용하여 Office 365로의 라우팅 트래픽을 올�
 
 - ExpressRoute 회로와 고객 s-key 간에는 1:1 매핑이 있습니다.
 
-- 각 회로는 2개 독립 피어링 관계(Azure Private Peering 및 Microsoft 피어링)를 지원할 수 있습니다. Office 365에는 Microsoft 피어링이 필요합니다.
+- 각 회로는 두 개의 독립적인 피어링 관계(Azure Private 피어링 및 Microsoft 피어링)를 지원할 수 있습니다. Office 365에는 Microsoft 피어링이 필요합니다.
 
 - 각 회로에는 모든 피어링 관계에서 공유되는 고정 대역폭이 있습니다.
 
@@ -53,7 +53,7 @@ Azure ExpressRoute를 사용하여 Office 365로의 라우팅 트래픽을 올�
   
 ## <a name="ensuring-route-symmetry"></a>경로 대칭 보장
 
-Office 365 프런트 엔드 서버는 인터넷 및 ExpressRoute에서 모두 액세스할 수 있습니다. 이러한 서버는 둘 다 사용 가능한 경우 ExpressRoute 회로를 통해 다시 사내로 라우팅하는 것을 선호합니다. 이 때문에 네트워크의 트래픽이 인터넷 회로를 통해 라우팅하는 것을 선호하는 경우 경로 비대칭 경로가 될 수 있습니다. 비대칭 경로는 상태 패킷 검사를 수행하는 장치가 아웃바운드 패킷이 팔로우하는 아웃바운드 패킷과 다른 경로를 따르는 반환 트래픽을 차단할 수 있기 때문에 문제가 됩니다.
+Office 365 프런트 엔드 서버는 인터넷 및 ExpressRoute에서 모두 액세스할 수 있습니다. 이러한 서버는 둘 다 사용 가능한 경우 ExpressRoute 회로를 통해 다시 사내로 라우팅하는 것을 선호합니다. 이 때문에 네트워크의 트래픽이 인터넷 회로를 통해 라우팅하는 것을 선호하는 경우 경로 비대칭성 경로가 있습니다. 비대칭 경로는 상태 패킷 검사를 수행하는 장치가 아웃바운드 패킷이 팔로우하는 아웃바운드 패킷과 다른 경로를 따르는 반환 트래픽을 차단할 수 있기 때문에 문제가 됩니다.
   
 인터넷 또는 ExpressRoute를 통해 Office 365에 대한 연결을 시작하는지 여부에 관계없이 원본은 공개적으로 라우팅 가능한 주소가 되어야 합니다. 많은 고객이 Microsoft와 직접 피어링하는 경우 고객 간에 중복이 가능한 개인 주소를 가지는 것은 불가능합니다.
   
@@ -75,7 +75,7 @@ Office 365 프런트 엔드 서버는 인터넷 및 ExpressRoute에서 모두 �
 
 Microsoft가 이러한 양방향 트래픽 흐름을 위해 네트워크로 다시 라우팅하려면 BGP 경로를 Microsoft와 공유해야 합니다. ExpressRoute를 통해 Microsoft에 경로 prefix를 보급할 때 다음과 같은 모범 사례를 따라야 합니다.
 
-1) 공용 인터넷 및 ExpressRoute를 통해 동일한 공용 IP 주소 경로 선두를 보급하지 않습니다. ExpressRoute를 통해 Microsoft로의 IP BGP 경로 Prefix 광고는 인터넷에 보급되지 않는 범위에서만 광고를 하는 것이 좋습니다. 사용 가능한 IP 주소 공간으로 인해 이를 달성할 수 없는 경우 ExpressRoute를 통해 인터넷 회로보다 더 구체적인 범위를 보급해야 합니다.
+1) 공용 인터넷 및 ExpressRoute를 통해 동일한 공용 IP 주소 경로 선두를 보급하지 않습니다. ExpressRoute를 통해 Microsoft에 대한 IP BGP 경로 Prefix 광고는 인터넷에 보급되지 않은 범위에서만 광고를 표시하는 것이 좋습니다. 사용 가능한 IP 주소 공간으로 인해 이를 달성할 수 없는 경우 ExpressRoute를 통해 인터넷 회로보다 더 구체적인 범위를 보급해야 합니다.
 
 2) ExpressRoute 회로당 별도의 NAT IP 풀을 사용하며 인터넷 회로와 구분합니다.
 
@@ -95,7 +95,7 @@ Office 365 Video와 같은 다른 응용 프로그램은 Office 365 응용 프�
 
 Microsoft 피어링을 사용하여 사용할 수 있는 각 Office [365 기능은 Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) 끝점 문서에서 응용 프로그램 유형 및 FQDN별로 나열됩니다. 테이블에서 FQDN을 사용하는 이유는 고객이 PAC 파일 또는 기타 프록시 구성을 사용하여 트래픽을 관리할 수 있도록 허용하기 위해 PAC 파일과 같은 [Office 365](./managing-office-365-endpoints.md) 끝점 관리 가이드를 참조하세요.
   
-경우에 따라 하나 이상의 하위 FQDNS가 상위 수준 와일드카드 도메인과 다르게 보급되는 와일드카드 도메인을 사용했습니다. 일반적으로 와일드카드가 ExpressRoute 및 인터넷에 모두 보급되는 긴 서버 목록을 나타내고, 일부 대상 하위 집합은 인터넷에만 보급되거나 반대로 보급되는 경우 발생합니다. 차이점이 있는 위치를 이해하기 위해 아래 표를 참조하세요.
+경우에 따라 하나 이상의 하위 FQDNS가 상위 수준 와일드카드 도메인과 다르게 보급되는 와일드카드 도메인을 사용했습니다. 일반적으로 와일드카드가 ExpressRoute 및 인터넷에 모두 보급되는 긴 서버 목록을 나타내고 대상의 작은 하위 집합이 인터넷에만 보급되거나 반대로 표시될 때 발생합니다. 차이점이 있는 위치를 이해하기 위해 아래 표를 참조하세요.
   
 이 표에는 인터넷에만 보급되는 하위 FQDNS와 함께 인터넷 및 Azure ExpressRoute 둘 다에 보급되는 와일드카드 FQDNS가 표시됩니다.
 
@@ -112,7 +112,7 @@ Microsoft 피어링을 사용하여 사용할 수 있는 각 Office [365 기능�
 
 3. 이러한 두 항목 아래에 다른 네트워크 끝점 또는 규칙을 포함하여 프록시로 트래픽을 전송합니다.
 
-이 표에는 Azure ExpressRoute 및 인터넷 회로에 보급되는 하위 FQDNS와 함께 인터넷 회로에만 보급되는 와일드카드 도메인이 표시됩니다. 위의 PAC 파일의 경우 아래 표에 있는 열 2의 FQDNs는 참조되는 링크에서 ExpressRoute로 보급되는 것으로 표시되어 파일의 두 번째 항목 그룹에 포함됩니다.
+이 표에는 Azure ExpressRoute 및 인터넷 회로에 보급되는 하위 FQDNS와 함께 인터넷 회로에만 보급되는 와일드카드 도메인이 표시됩니다. 위의 PAC 파일의 경우 아래 표의 열 2에 있는 FQDNS가 참조되는 링크에서 ExpressRoute로 보급되는 것으로 표시되어 파일의 두 번째 항목 그룹에 포함됩니다.
 
 |**인터넷 회로에만 보급된 와일드카드 도메인**|**ExpressRoute 및 인터넷 회로에 보급되는 하위 FQDN**|
 |:-----|:-----|
@@ -130,7 +130,7 @@ Microsoft 피어링을 사용하여 사용할 수 있는 각 Office [365 기능�
 
 2. 네트워크 트래픽이 네트워크를 떠날 위치 Office 365 연결에 대한 네트워크 대기 시간은 성능에 영향을 미치기 때문에 최소화해야 합니다. 비즈니스용 Skype는 실시간 음성 및 비디오를 사용하기 때문에 특히 네트워크 대기 시간이 짧아질 수 있습니다.
 
-3. 네트워크 위치의 일부 또는 전체에서 ExpressRoute를 활용하려는 경우
+3. 네트워크 위치의 일부 또는 전체에서 ExpressRoute를 사용하려는 경우
 
 4. 선택한 네트워크 공급자가 ExpressRoute를 제공하는 위치
 
@@ -142,11 +142,11 @@ Microsoft 피어링을 사용하여 사용할 수 있는 각 Office [365 기능�
   
 Trey Research의 직원은 보안 부서에서 회사 네트워크와 ISP 사이에 있는 아웃바운드 proxies 쌍에서 명시적으로 허용하는 인터넷의 서비스 및 웹 사이트에만 연결할 수 있습니다.
   
-Trey Research는 Office 365용 Azure ExpressRoute를 사용하며 콘텐츠 배달 네트워크로 전송되는 트래픽과 같은 일부 트래픽이 Office 365용 ExpressRoute 연결을 통해 라우팅할 수 없는 것으로 인식합니다. 모든 트래픽은 기본적으로 프록시 장치로 이미 라우팅되기 때문에 이러한 요청은 이전과 계속 작동합니다. Trey Research는 Azure ExpressRoute 라우팅 요구 사항을 충족할 수 있는지 확인한 후 회로를 만들고, 라우팅을 구성하고, 새 ExpressRoute 회로를 가상 네트워크에 연결합니다. 기본 Azure ExpressRoute 구성이 적용된 후 Trey Research는 게시하는 #2 [PAC](./managing-office-365-endpoints.md#ID0EACAAA=2._Proxies) 파일을 사용하여 Office 365 연결을 위한 직접 ExpressRoute를 통해 고객 특정 데이터로 트래픽을 라우팅합니다.
+Trey Research는 Office 365용 Azure ExpressRoute를 사용하며 콘텐츠 배달 네트워크로 전송되는 트래픽과 같은 일부 트래픽이 Office 365용 ExpressRoute 연결을 통해 라우팅할 수 없는 것으로 인식합니다. 모든 트래픽은 기본적으로 프록시 장치로 이미 라우팅되기 때문에 이러한 요청은 이전과 계속 작동합니다. Trey Research는 Azure ExpressRoute 라우팅 요구 사항을 충족할 수 있는지 확인한 후 회로를 만들고, 라우팅을 구성하고, 새 ExpressRoute 회로를 가상 네트워크에 연결합니다. 기본 Azure ExpressRoute 구성이 적용된 후 Trey Research는 게시하는 #2 [PAC](./managing-office-365-endpoints.md)  파일을 사용하여 Office 365 연결에 대한 직접 ExpressRoute를 통해 고객별 데이터로 트래픽을 라우팅합니다.
   
 다음 다이어그램에 표시된 것 Trey Research는 라우팅 및 아웃바운드 프록시 구성 변경의 조합을 사용하여 인터넷을 통해 Office 365 트래픽 및 ExpressRoute를 통해 트래픽의 하위 집합을 라우팅하기 위한 요구 사항을 충족할 수 있습니다.
   
-1. 게시하는 [#2 PAC](./managing-office-365-endpoints.md#ID0EACAAA=2._Proxies) 파일을 사용하여 Office 365용 Azure ExpressRoute에 대한 별도의 인터넷 발신 지점을 통해 트래픽을 라우팅합니다.
+1. 게시하는 [#2 PAC](./managing-office-365-endpoints.md) 파일을 사용하여 Office 365용 Azure ExpressRoute에 대한 별도의 인터넷 발신 지점을 통해 트래픽을 라우팅합니다.
 
 2. 클라이언트는 Trey Research의 Proxies에 대한 기본 경로로 구성됩니다.
 
@@ -166,7 +166,7 @@ Exchange Online, SharePoint Online 및 비즈니스용 Skype Online의 최대 �
 
 [Windows 8에서](/archive/blogs/deploymentguys/windows-8-supporting-proxy-services-with-static-configurations-web-hosted-pac-files-and-domain-policy-configured-proxy) 프록시 설정을 배포 및 관리하고 [Office 365가](https://blogs.technet.com/b/onthewire/archive/2014/03/28/ensuring-your-office-365-network-connection-isn-t-throttled-by-your-proxy.aspx)프록시에 의해 스로틀되지 않는지 확인합니다.
   
-단일 ExpressRoute 회로를 사용할 경우 Trey Research에 대한 고가용성은 없습니다. ExpressRoute 연결을 서비스하는 Trey의 중복된 에지 디바이스 쌍에서 장애 조치(failover)할 추가 ExpressRoute 회로가 없습니다. 따라서 Trey Research는 인터넷으로 장애 조치(fail over)를 할 때 수동 재구성이 필요하고 경우에 따라 새 IP 주소가 필요하게 됩니다. Trey가 고가용성을 추가하려는 경우 가장 간단한 해결 방법은 각 위치에 대해 ExpressRoute 회로를 추가하고 활성/활성 방식으로 회로를 구성하는 것입니다.
+단일 ExpressRoute 회로를 사용할 경우 Trey Research에 대한 고가용성은 없습니다. ExpressRoute 연결을 서비스하는 Trey의 중복된 에지 디바이스 쌍에서 장애 조치(failover)할 추가 ExpressRoute 회로가 없습니다. 따라서 Trey Research는 인터넷으로 장애 조치(fail over)를 할 때 수동 재구성 및 경우에 따라 새 IP 주소를 필요로 하게 됩니다. Trey가 고가용성을 추가하려는 경우 가장 간단한 해결 방법은 각 위치에 대해 ExpressRoute 회로를 추가하고 활성/활성 방식으로 회로를 구성하는 것입니다.
   
 ## <a name="routing-expressroute-for-office-365-with-multiple-locations"></a>여러 위치로 Office 365용 ExpressRoute 라우팅
 
@@ -174,13 +174,13 @@ Exchange Online, SharePoint Online 및 비즈니스용 Skype Online의 최대 �
   
 여러 지역에서 여러 위치를 사용하는 고객을 위해 답변해야 하는 추가 질문은 다음과 같습니다.
   
-1. 모든 위치에 ExpressRoute 회로가 필요한가요? 비즈니스용 Skype Online을 사용 중이나 SharePoint Online 또는 Exchange Online의 대기 시간 민감도가 우려되는 경우 각 위치에서 중복된 쌍의 Active/Active ExpressRoute 회로가 권장됩니다. 자세한 내용은 비즈니스용 Skype 미디어 품질 및 네트워크 연결 가이드를 참조하세요.
+1. 모든 위치에 ExpressRoute 회로가 필요한가요? 비즈니스용 Skype Online을 사용 중이나 SharePoint Online 또는 Exchange Online의 대기 시간 민감도가 우려되는 경우 각 위치에서 중복된 쌍의 Active/Active ExpressRoute 회로를 사용하는 것이 좋습니다. 자세한 내용은 비즈니스용 Skype 미디어 품질 및 네트워크 연결 가이드를 참조하세요.
 
 2. ExpressRoute 회로를 특정 지역에서 사용할 수 없는 경우 Office 365로 예정된 트래픽을 어떻게 라우팅해야 하나요?
 
 3. 작은 위치가 많은 네트워크의 경우 트래픽을 통합하는 기본 방법은 무엇입니까?
 
-이러한 각 문제는 고유한 과제를 제공합니다. Microsoft에서 사용할 수 있는 옵션뿐만 아니라 자체 네트워크도 평가해야 합니다.
+이러한 각 문제는 고유한 과제를 제공하며, 사용자 고유의 네트워크와 Microsoft에서 사용할 수 있는 옵션을 평가해야 합니다.
 
 |**고려 사항**|**평가할 네트워크 구성 요소**|
 |:-----|:-----|
@@ -203,17 +203,17 @@ Humongous Insurance는 전 세계 사무실과 지리적으로 분산되어 있�
   
 Microsoft의 데이터 센터, 네트워크 및 응용 프로그램 아키텍처는 전 세계에 분산된 통신을 사용하며 가능한 가장 효율적인 방식으로 서비스를 제공하도록 디자인되었습니다. 이는 세계에서 가장 큰 네트워크 중 하나입니다. 필요 이상으로 고객 네트워크에 남아 있는 Office 365로 예정된 요청은 이 아키텍처를 활용할 수 없습니다.
   
-Humongous Insurance의 상황에서는 ExpressRoute를 통해 사용하려는 응용 프로그램에 따라 계속 진행해야 합니다. 예를 들어 비즈니스용 Skype Online 고객인 경우 또는 외부 비즈니스용 Skype Online 모임에 연결할 때 ExpressRoute 연결을 활용하기 위해 계획하는 경우 비즈니스용 Skype Online 미디어 품질 및 네트워크 연결 가이드에서 권장하는 디자인은 세 번째 위치에 대한 추가 ExpressRoute 회로를 프로비전하는 것입니다. 네트워킹 관점에서 보면 비용이 더 많이 들 수 있습니다. 그러나 Microsoft 데이터 센터로 전달하기 전에 대륙 간 요청을 라우팅하면 비즈니스용 Skype Online 모임 및 통신 중에 불량하거나 사용할 수 없는 환경이 발생할 수 있습니다.
+Humongous Insurance의 상황에서는 ExpressRoute를 통해 사용하려는 응용 프로그램에 따라 계속 진행해야 합니다. 예를 들어 비즈니스용 Skype Online 고객인 경우 또는 외부 비즈니스용 Skype Online 모임에 연결할 때 ExpressRoute 연결을 사용하겠지만 비즈니스용 Skype Online 미디어 품질 및 네트워크 연결 가이드에서 권장하는 디자인은 세 번째 위치에 대한 추가 ExpressRoute 회로를 프로비전하는 것입니다. 네트워킹 관점에서 보면 비용이 더 많이 들 수 있습니다. 그러나 Microsoft 데이터 센터로 전달하기 전에 대륙 간 요청을 라우팅하면 비즈니스용 Skype Online 모임 및 통신 중에 불량하거나 사용할 수 없는 환경이 발생할 수 있습니다.
   
-Humongous Insurance가 비즈니스용 Skype Online을 사용하지 않는 경우 또는 어떤 방식으로든 비즈니스용 Skype Online을 활용하지 않을 경우 ExpressRoute 연결을 사용하여 대륙으로 전송되는 Office 365 네트워크 트래픽을 다시 대륙으로 라우팅하는 것이 타당할 수 있습니다. 그러나 불필요한 대기 시간이나 TCP 정체가 발생할 수 있습니다. 두 경우 모두 인터넷으로 전송되는 트래픽을 로컬 사이트에서 라우팅하여 Office 365에서 활용하는 콘텐츠 배달 네트워크를 활용하는 것이 좋습니다.
+Humongous Insurance에서 비즈니스용 Skype Online을 사용하지 않는 경우 또는 어떤 방식으로든 비즈니스용 Skype Online을 사용하지 않을 경우 ExpressRoute 연결을 사용하여 대륙으로 전송되는 Office 365 네트워크 트래픽을 다시 대륙으로 라우팅하는 것이 타당할 수 있습니다. 그렇지만 불필요한 대기 시간이나 TCP 정체가 발생할 수 있습니다. 두 경우 모두 인터넷으로 전송되는 트래픽을 로컬 사이트에서 라우팅하여 Office 365에서 활용하는 콘텐츠 배달 네트워크를 활용하는 것이 좋습니다.
   
 ![ExpressRoute 다중 지리](../media/98fdd883-2c5a-4df7-844b-bd28cd0b9f50.png)
   
 Humongous Insurance에서 다중 지리 전략을 계획할 때 회로 크기, 회로 수, 장애 조치(failover) 등 여러 가지를 고려해야 합니다.
   
-여러 지역이 회로를 사용하려고 하는 단일 위치에서 ExpressRoute를 사용하는 Humongous Insurance는 원격 사무실에서 Office 365에 대한 연결이 가장 가까운 Office 365 데이터 센터로 전송되도록 하고 본사 위치가 수신하도록 하려고 합니다. 이를 위해 Humongous Insurance은 DNS 전달을 구현하여 본사 인터넷 시작점에 가장 가까운 Office 365 환경과 적절한 연결을 설정하는 데 필요한 왕복 및 DNS 검색 횟수를 줄입니다. 이렇게 하면 클라이언트가 로컬 프런트 엔드 서버를 확인하지 못하게 하여 사용자가 연결하는 프런트 엔드 서버가 Humongous Insurance가 Microsoft와 피어링하는 본사 근처가 되도록 합니다. 도메인 이름에 [조건부 전달자](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc794735(v=ws.10))할당을 학습할 수도 있습니다.
+여러 지역이 회로를 사용하려고 하는 단일 위치에서 ExpressRoute를 사용하는 Humongous Insurance는 원격 사무실에서 Office 365에 대한 연결이 가장 가까운 Office 365 데이터 센터로 전송되도록 하고 본사 위치가 수신하도록 하려고 합니다. 이를 위해 Humongous Insurance은 DNS 전달을 구현하여 본사 인터넷 시작점에 가장 가까운 Office 365 환경과 적절한 연결을 설정하는 데 필요한 왕복 및 DNS 검색 횟수를 줄입니다. 이렇게 하면 클라이언트가 로컬 프런트 엔드 서버를 확인하지 못하게 하여 사용자가 연결되는 Front-End 서버가 Humongous Insurance가 Microsoft와 함께 피어링하는 본사 근처에 위치할 수 있습니다. 도메인 이름에 [조건부 전달자](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc794735(v=ws.10))할당을 학습할 수도 있습니다.
   
-이 시나리오에서 원격 사무실의 트래픽은 북미의 Office 365 프런트 엔드 인프라를 해결하고 Office 365를 활용하여 Office 365 응용 프로그램의 아키텍처에 따라 백 엔드 서버에 연결합니다. 예를 들어 Exchange Online은 북미에서 연결을 종료하고 해당 프런트 엔드 서버는 테넌트가 있는 모든 곳에서 백 엔드 사서함 서버에 연결합니다. 모든 서비스에는 유니캐스트 및 모든캐스트 목적지로 구성된 널리 분산된 프런트 도어 서비스가 있습니다.
+이 시나리오에서 원격 사무실의 트래픽은 북미의 Office 365 프런트 엔드 인프라를 해결하고 Office 365를 사용하여 Office 365 응용 프로그램의 아키텍처에 따라 백 엔드 서버에 연결합니다. 예를 들어 Exchange Online은 북미에서 연결을 종료하고 해당 프런트 엔드 서버는 테넌트가 있는 모든 곳에서 백 엔드 사서함 서버에 연결합니다. 모든 서비스에는 유니캐스트 및 모든캐스트 목적지로 구성된 널리 분산된 프런트 도어 서비스가 있습니다.
   
 Humongous에 여러 대륙에 주요 사무실이 있는 경우 비즈니스용 Skype Online과 같은 중요한 응용 프로그램의 대기 시간을 줄이기 위해 지역당 최소 2개의 활성/활성 회로가 권장됩니다. 모든 사무실이 단일 대륙에 있는 경우 또는 실시간 공동 작업을 사용하지 않는 경우 통합 또는 분산된 시작 지점을 가지는 것은 고객별 결정입니다. 여러 회로를 사용할 수 있는 경우 단일 회로를 사용할 수 없게 될 경우 BGP 라우팅은 장애 조치(failover)를 보장합니다.
   
@@ -225,7 +225,7 @@ ExpressRoute를 통해 선택적 라우팅은 테스트, 일부 사용자에게 
   
 1. **경로 필터링/egregation** - BGP가 ExpressRoute를 통해 Office 365로 라우팅하여 서브넷 또는 라우터의 하위 집합으로 라우팅할 수 있도록 허용 이 경로는 고객 네트워크 세그먼트 또는 실제 사무실 위치별로 선택적으로 라우팅됩니다. 이는 Office 365용 ExpressRoute의 시차가 많은 롤아웃에 일반적이며 BGP 디바이스에서 구성됩니다.
 
-2. **PAC 파일/URL** - Office 365에서 특정 FQDNS에 대한 네트워크 트래픽을 특정 경로로 라우팅하도록 지시합니다. 이렇게 하여 PAC 파일 배포로 식별된 클라이언트 컴퓨터로 [선택적으로 라우팅합니다.](./managing-office-365-endpoints.md#ID0EACAAA=2._Proxies)
+2. **PAC 파일/URL** - Office 365에서 특정 FQDNS에 대한 네트워크 트래픽을 특정 경로로 라우팅하도록 지시합니다. 이렇게 하여 PAC 파일 배포로 식별된 클라이언트 컴퓨터로 [선택적으로 라우팅합니다.](./managing-office-365-endpoints.md)
 
 3. **경로 필터링**  -  [경로 필터는](/azure/expressroute/how-to-routefilter-portal) Microsoft 피어링을 통해 지원되는 서비스의 하위 집합을 사용할 수 있는 한 가지 방법입니다.
 
@@ -233,7 +233,7 @@ ExpressRoute를 통해 선택적 라우팅은 테스트, 일부 사용자에게 
 
 다음의 간단한 링크를 사용할 수 있습니다. [https://aka.ms/erorouting]()
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365 네트워크 연결 평가](assessing-network-connectivity.md) 
   
