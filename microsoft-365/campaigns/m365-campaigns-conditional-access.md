@@ -1,11 +1,11 @@
 ---
-title: 조건부 액세스 정책을 설정합니다.
+title: 보안 기본값 켜기
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: SKjerland
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -23,62 +23,65 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: MFA를 요구하고 비즈니스용 Microsoft 365에 대한 조건부 액세스 정책을 설정하는 방법을 알아보습니다.
-ms.openlocfilehash: dcb79ed060dd15fd288cdcfb9e3739a788f5fbc2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 보안 기본값이 미리 구성한 보안 설정을 제공하여 ID 관련 공격으로부터 조직을 보호하는 데 어떻게 도움이 될 수 있는지 확인합니다.
+ms.openlocfilehash: ea36ba45af26a767b08ee1e75931dca54dacea64
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912189"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398299"
 ---
-# <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a><span data-ttu-id="936ac-103">다단계 인증 필요 및 조건부 액세스 정책 설정</span><span class="sxs-lookup"><span data-stu-id="936ac-103">Require multi-factor authentication and set up conditional access policies</span></span>
+# <a name="turn-on-security-defaults"></a><span data-ttu-id="458ed-103">보안 기본값 켜기</span><span class="sxs-lookup"><span data-stu-id="458ed-103">Turn on security defaults</span></span>
 
-<span data-ttu-id="936ac-104">다단계 인증 및 조건부 액세스 정책을 사용하여 데이터에 대한 액세스를 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-104">You protect access to your data with multi-factor authentication and conditional access policies.</span></span> <span data-ttu-id="936ac-105">이러한 보안은 상당한 추가 보안을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-105">These add substantial additional security.</span></span> <span data-ttu-id="936ac-106">Microsoft는 모든 고객에게 권장되는 기준 조건부 액세스 정책 집합을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-106">Microsoft provides a set of baseline conditional access policies that are recommended for all customers.</span></span> <span data-ttu-id="936ac-107">기준 정책은 여러 일반적인 공격으로부터 조직을 보호하는 데 도움이 되는 미리 정의된 정책 집합입니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-107">Baseline policies are a set of predefined policies that help protect organizations against many common attacks.</span></span> <span data-ttu-id="936ac-108">이러한 일반적인 공격에는 암호 분무, 재생 및 피싱이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-108">These common attacks can include password spray, replay, and phishing.</span></span>
+<span data-ttu-id="458ed-104">보안 기본값은 Microsoft가 조직을 대신하여 관리하는 미리 구성한 보안 설정을 제공하여 ID 관련 공격으로부터 조직을 보호하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-104">Security defaults help protect your organization from identity-related attacks by providing preconfigured security settings that Microsoft manages on behalf of your organization.</span></span> <span data-ttu-id="458ed-105">이러한 설정에는 모든 관리자 및 사용자 계정에 대해 MFA(다단계 인증)를 사용하도록 설정하는 것이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-105">These settings include enabling multi-factor authentication (MFA) for all admins and user accounts.</span></span> <span data-ttu-id="458ed-106">대부분의 조직에서 보안 기본값은 좋은 수준의 추가 로그인 보안을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-106">For most organizations, security defaults offer a good level of additional sign-in security.</span></span>
 
-<span data-ttu-id="936ac-109">이러한 정책을 사용하려면 관리자와 사용자가 특정 조건에 따라 두 번째 인증 형식(다단계 인증 또는 MFA라고도 합니다.)을 입력해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-109">These policies require admins and users to enter a second form of authentication (called multi-factor authentication, or MFA) under certain conditions.</span></span> <span data-ttu-id="936ac-110">예를 들어 조직의 사용자가 다른 국가 또는 알 수 없는 장치에서 Microsoft 365에 로그인을 하도록 하는 경우 로그인은 위험한 것으로 간주될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-110">For example, if a user in your organization tries to sign in to Microsoft 365 from a different country or from an unknown device, the sign-in might be considered risky.</span></span> <span data-ttu-id="936ac-111">사용자는 지문 또는 코드와 같은 추가 형태의 인증을 제공해야 ID를 증명할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-111">The user must provide an extra form of authentication (such as a fingerprint or a code) to prove their identity.</span></span>
+<span data-ttu-id="458ed-107">보안 기본값 및 적용하는 정책에 대한 자세한 내용은 [보안 기본값이란?을 참조하세요.](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)</span><span class="sxs-lookup"><span data-stu-id="458ed-107">For more information about security defaults and the policies they enforce, see [What are security defaults?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)</span></span>
 
-<span data-ttu-id="936ac-112">현재 기준 정책에는 다음 정책이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-112">Currently, the baseline policies include the following policies:</span></span>
+<span data-ttu-id="458ed-108">2019년 10월 22일 이후에 구독을 만든 경우 보안 기본값이 자동으로 사용하도록 설정되어 있을 수 &mdash; 있습니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-108">If your subscription was created on or after October 22, 2019, security defaults might have been automatically enabled for you&mdash;you should check your settings to confirm.</span></span>
 
-- <span data-ttu-id="936ac-113">Microsoft 365 관리 센터에서 설정:</span><span class="sxs-lookup"><span data-stu-id="936ac-113">Set up in Microsoft 365 admin center:</span></span>
-  - <span data-ttu-id="936ac-114">**관리자에게 MFA** 필요: 전역 관리자를 포함하여 가장 권한이 부여된 관리자 역할에 대해 다단계 인증이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-114">**Require MFA for admins**: Requires multi-factor authentication for the most privileged administrator roles, including global administrator.</span></span>
-  - <span data-ttu-id="936ac-115">**최종 사용자 보호:** 로그인이 위험할 때만 사용자에 대해 다단계 인증이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-115">**End-user protection**: Requires multi-factor authentication for users only when a sign-in is risky.</span></span> 
-- <span data-ttu-id="936ac-116">Azure Active Directory 포털에서 설정:</span><span class="sxs-lookup"><span data-stu-id="936ac-116">Set up in Azure Active Directory portal:</span></span>
-  - <span data-ttu-id="936ac-117">**레거시 인증** 차단: 이전 클라이언트 앱과 일부 새 앱은 더 안전하고 새로운 인증 프로토콜을 사용하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-117">**Block legacy authentication**: Older client apps and some new apps don't use newer, more secure, authentication protocols.</span></span> <span data-ttu-id="936ac-118">이러한 이전 앱은 조건부 액세스 정책을 무시하고 환경에 무단으로 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-118">These older apps can bypass conditional access policies and gain unauthorized access to your environment.</span></span> <span data-ttu-id="936ac-119">이 정책은 조건부 액세스를 지원하지 않는 클라이언트의 액세스를 차단합니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-119">This policy blocks access from clients that don't support conditional access.</span></span> 
-  - <span data-ttu-id="936ac-120">**서비스 관리를 위한 MFA 필요:** Azure Portal(기준 정책을 구성하는 위치)을 비롯한 관리 도구에 액세스하려면 다단계 인증이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-120">**Require MFA for Service Management**: Requires multi-factor authentication for access to management tools, including Azure portal (where you configure baseline policies).</span></span>
+<span data-ttu-id="458ed-109">Azure AD(Azure Active Directory)에서 보안 기본값을 사용하도록 설정하거나 이미 활성화되어 있는지 확인하려면</span><span class="sxs-lookup"><span data-stu-id="458ed-109">To enable security defaults in your Azure Active Directory (Azure AD) or to check to see if they're already enabled:</span></span>
 
-<span data-ttu-id="936ac-121">이러한 모든 기준 정책을 사용하도록 설정하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-121">We recommend that you enable all of these baseline policies.</span></span> <span data-ttu-id="936ac-122">이러한 정책을 사용하도록 설정하면 관리자와 사용자에게 Azure AD 다단계 인증을 등록하라는 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-122">After these policies are enabled, admins and users will be prompted to register for Azure AD Multifactor Authentication.</span></span>
+1. <span data-ttu-id="458ed-110">전역 관리자 자격 증명으로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365</a> 관리 센터에 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-110">Sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a> with Global admin credentials.</span></span>
 
-<span data-ttu-id="936ac-123">이러한 정책에 대한 자세한 내용은 [기준 정책이란?을 참조하세요.](/azure/active-directory/conditional-access/concept-baseline-protection)</span><span class="sxs-lookup"><span data-stu-id="936ac-123">For more information about these policies, see [What are baseline policies](/azure/active-directory/conditional-access/concept-baseline-protection)?</span></span>
+2. <span data-ttu-id="458ed-111">왼쪽 창에서 모두  표시를 선택한 다음 관리 센터에서 **Azure Active Directory 를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="458ed-111">In the left pane, select **Show All,** and then under **Admin centers**, select **Azure Active Directory**.</span></span>
 
-## <a name="require-mfa"></a><span data-ttu-id="936ac-124">MFA 필요</span><span class="sxs-lookup"><span data-stu-id="936ac-124">Require MFA</span></span>
+3. <span data-ttu-id="458ed-112">**Azure Active Directory** 관리 센터의 왼쪽 창에서 Azure Active **Directory 를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="458ed-112">In the left pane of the **Azure Active Directory admin center,** select **Azure Active Directory**.</span></span>
 
-<span data-ttu-id="936ac-125">모든 사용자가 두 번째 형식의 ID로 로그인해야 하는 경우:</span><span class="sxs-lookup"><span data-stu-id="936ac-125">To require that all users sign in with a second form of ID:</span></span>
+4. <span data-ttu-id="458ed-113">대시보드의 왼쪽 메뉴에 있는 관리 **섹션에서** 속성을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="458ed-113">From the left menu of the Dashboard, in the **Manage** section, select **Properties**.</span></span>
 
-1. <span data-ttu-id="936ac-126">의 관리 센터로 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 이동하여 설치 를 **선택하세요.**</span><span class="sxs-lookup"><span data-stu-id="936ac-126">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> and choose **Setup**.</span></span>
+    :::image type="content" source="../media/m365-campaigns-conditional-access/azure-ad-properties.png" alt-text="속성 메뉴 항목의 위치를 보여 주며 Azure Active Directory 관리 센터의 스크린샷입니다.":::
 
-2. <span data-ttu-id="936ac-127">설치 페이지에서 **로그인을** 보다 안전한 카드로 **만들기에서 보기를** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-127">On the Setup page, choose **View** in the **Make sign-in more secure** card.</span></span>
+5. <span data-ttu-id="458ed-115">속성 페이지의 맨 **아래에서** **보안 기본값 관리를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="458ed-115">At the bottom of the **Properties** page, select **Manage Security defaults**.</span></span>
 
-    ![로그인을 더욱 안전한 카드로 만들어야 합니다.](../media/setupmfa.png)
-3. <span data-ttu-id="936ac-129">로그인을 보다 안전하게 만들기 페이지에서 시작 **을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="936ac-129">On the Make sign-in more secure page, choose **Get started**.</span></span>
-
-4. <span data-ttu-id="936ac-130">로그인 보안 강화 창에서 관리자에 대해 다단계  인증 필요 및 사용자가 다단계 인증을 등록하도록 요구 옆의 확인란을 선택하고 위험이 감지되면 액세스를 차단합니다. </span><span class="sxs-lookup"><span data-stu-id="936ac-130">On the Strengthen sign-in security pane, select the check boxes next to **Require multi-factor authentication for admins** and **Require users to register for multi-factor authentication and block access if risk is detected**.</span></span>
-    <span data-ttu-id="936ac-131">사용자 찾기 상자의 MFA 요구 사항에서 긴급 또는 "차단" 관리자 계정을 **제외해야** 합니다. [](m365-campaigns-protect-admin-accounts.md#create-an-emergency-admin-account)</span><span class="sxs-lookup"><span data-stu-id="936ac-131">Be sure to exclude the [emergency](m365-campaigns-protect-admin-accounts.md#create-an-emergency-admin-account) or "break-glass" admin account from the MFA requirement in the **Find users** box.</span></span>
-
-    ![Sing-in 보안 페이지를 강화합니다.](../media/requiremfa.png)
-
-5. <span data-ttu-id="936ac-133">페이지 **아래쪽에서** 정책 만들기를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-133">Choose **Create policy** on the bottom of the page.</span></span>
-
-## <a name="set-up-baseline-policies"></a><span data-ttu-id="936ac-134">기준 정책 설정</span><span class="sxs-lookup"><span data-stu-id="936ac-134">Set up baseline policies</span></span>
-
-1. <span data-ttu-id="936ac-135">[Azure Portal로 이동한](https://portal.azure.com)다음 **Azure Active Directory** 보안 조건부 액세스로 이동하여 새 정책을 \>  \>  **만드십시오.**</span><span class="sxs-lookup"><span data-stu-id="936ac-135">Go to the [Azure portal](https://portal.azure.com), and then navigate to **Azure Active Directory** \> **Security** \> **Conditional Access** to create a **new policy**.</span></span>
-
-<span data-ttu-id="936ac-136">각 정책에 대한 다음 특정 지침을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="936ac-136">See the following specific instructions for each policy:</span></span> <br>
-    - [<span data-ttu-id="936ac-137">관리자에게 MFA 필요</span><span class="sxs-lookup"><span data-stu-id="936ac-137">Require MFA for admins</span></span>](/azure/active-directory/conditional-access/howto-baseline-protect-administrators) <br>
-    - [<span data-ttu-id="936ac-138">사용자에 대해 MFA 요구</span><span class="sxs-lookup"><span data-stu-id="936ac-138">Require MFA for users</span></span>](/azure/active-directory/conditional-access/howto-baseline-protect-end-users) <br>
-    - [<span data-ttu-id="936ac-139">레거시 인증 차단</span><span class="sxs-lookup"><span data-stu-id="936ac-139">Block legacy authentication</span></span>](/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth) <br>
-    - [<span data-ttu-id="936ac-140">서비스 관리를 위해 MFA 필요</span><span class="sxs-lookup"><span data-stu-id="936ac-140">Require MFA for service management</span></span>](/azure/active-directory/conditional-access/howto-baseline-protect-azure)
+6. <span data-ttu-id="458ed-116">오른쪽 창에 보안 기본값 사용 **설정이** 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-116">In the right pane, you'll see the **Enable Security defaults** setting.</span></span> <span data-ttu-id="458ed-117">**예를** 선택하면 보안 기본값이 이미 사용하도록 설정되어 있으며 추가 작업이 필요하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-117">If **Yes** is selected, then security defaults are already enabled and no further action is required.</span></span> <span data-ttu-id="458ed-118">보안 기본값을 현재 사용하도록 설정하지  않은 경우 예를 선택하여 사용하도록 설정한 다음 **저장을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="458ed-118">If security defaults are not currently enabled, then select **Yes** to enable them, and then select **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="936ac-141">미리 보기 정책이 더 이상 존재하지 않는 경우 사용자는 자신의 정책을 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-141">Preview policies no longer exist and users will need to create their own policies.</span></span>
+> <span data-ttu-id="458ed-119">조건부 액세스 정책을 사용한 경우 보안 기본값을 사용하려면 먼저 정책을 해제해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-119">If you've been using Conditional Access policies, you'll need to turn them off before using security defaults.</span></span>
+>
+> <span data-ttu-id="458ed-120">보안 기본값 또는 조건부 액세스 정책을 사용할 수 있지만 두 정책을 동시에 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-120">You can use either security defaults or Conditional Access policies, but you can't use both at the same time.</span></span>
 
-<span data-ttu-id="936ac-142">승인된 클라이언트 앱을 요구하는 등의 추가 정책을 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="936ac-142">You can set up extra policies, such as requiring approved client apps.</span></span> <span data-ttu-id="936ac-143">자세한 내용은 조건부 액세스 [설명서를 참조하십시오.](/azure/active-directory/conditional-access/)</span><span class="sxs-lookup"><span data-stu-id="936ac-143">For more information, see the [Conditional Access documentation](/azure/active-directory/conditional-access/).</span></span>
+## <a name="consider-using-conditional-access"></a><span data-ttu-id="458ed-121">조건부 액세스 사용 고려</span><span class="sxs-lookup"><span data-stu-id="458ed-121">Consider using Conditional Access</span></span>
+
+<span data-ttu-id="458ed-122">조직에 복잡한 보안 요구 사항이 있는 경우 또는 보안 정책에 대해 좀 더 세부적인 제어가 필요한 경우 보안 기본값 대신 조건부 액세스를 사용하여 유사하거나 더 높은 보안 상태를 달성하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-122">If your organization has complex security requirements or you need more granular control over your security policies, then you should consider using Conditional Access instead of security defaults to achieve a similar or higher security posture.</span></span> 
+
+<span data-ttu-id="458ed-123">조건부 액세스를 사용하면 사용자가 응용 프로그램 또는 서비스에 대한 액세스 권한을 부여하기 전에 로그인 이벤트에 반응하는 정책을 만들고 정의하고 추가 작업을 요청할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-123">Conditional Access lets you create and define policies that react to sign-in events and request additional actions before a user is granted access to an application or service.</span></span> <span data-ttu-id="458ed-124">조건부 액세스 정책은 세분화되어 구체적일 수 있으며, 사용자가 언제 어디서나 생산성을 발휘할 수 있도록 하지만 조직을 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-124">Conditional Access policies can be granular and specific, empowering users to be productive wherever and whenever, but also protecting your organization.</span></span>
+
+<span data-ttu-id="458ed-125">모든 고객이 보안 기본값을 사용할 수 있습니다. 조건부 액세스에는 다음 계획 중 하나에 대한 라이선스가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-125">Security defaults are available to all customers, while Conditional Access requires a license for one of the following plans:</span></span>
+
+- <span data-ttu-id="458ed-126">Azure Active Directory Premium P1 또는 P2</span><span class="sxs-lookup"><span data-stu-id="458ed-126">Azure Active Directory Premium P1 or P2</span></span>
+- <span data-ttu-id="458ed-127">Microsoft 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="458ed-127">Microsoft 365 Business Premium</span></span>
+- <span data-ttu-id="458ed-128">Microsoft 365 E3 혹은 E5</span><span class="sxs-lookup"><span data-stu-id="458ed-128">Microsoft 365 E3 or E5</span></span>
+- <span data-ttu-id="458ed-129">Enterprise Mobility & Security E3 또는 E5</span><span class="sxs-lookup"><span data-stu-id="458ed-129">Enterprise Mobility & Security E3 or E5</span></span>
+
+<span data-ttu-id="458ed-130">조건부 액세스를 사용하여 기본적으로 보안이 설정된 정책과 동등한 정책을 구성하려는 경우 다음 단계별 가이드를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="458ed-130">If you want to use Conditional Access to configure policies equivalent to those enabled by security defaults, check out the following step-by-step guides:</span></span>
+
+- [<span data-ttu-id="458ed-131">관리자에게 MFA 요구</span><span class="sxs-lookup"><span data-stu-id="458ed-131">Require MFA for administrators</span></span>](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa)
+- [<span data-ttu-id="458ed-132">Azure 관리를 위한 MFA 요구</span><span class="sxs-lookup"><span data-stu-id="458ed-132">Require MFA for Azure management</span></span>](/azure/active-directory/conditional-access/howto-conditional-access-policy-azure-management)
+- [<span data-ttu-id="458ed-133">레거시 인증 차단</span><span class="sxs-lookup"><span data-stu-id="458ed-133">Block legacy authentication</span></span>](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
+- [<span data-ttu-id="458ed-134">모든 사용자에게 MFA 요구</span><span class="sxs-lookup"><span data-stu-id="458ed-134">Require MFA for all users</span></span>](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
+- <span data-ttu-id="458ed-135">[Azure AD MFA 등록](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy) 필요 - Azure Active Directory Premium P2의 일부인 Azure AD ID 보호가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-135">[Require Azure AD MFA registration](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy) - Requires Azure AD Identity Protection, which is part of Azure Active Directory Premium P2</span></span>
+
+<span data-ttu-id="458ed-136">조건부 액세스에 대한 자세한 내용은 [조건부 액세스란?을 참조하세요.](/azure/active-directory/conditional-access/overview)</span><span class="sxs-lookup"><span data-stu-id="458ed-136">To learn more about Conditional Access, see [What is Conditional Access?](/azure/active-directory/conditional-access/overview)</span></span> <span data-ttu-id="458ed-137">조건부 액세스 정책을 만드는 데 대한 자세한 내용은 [Create a Conditional Access policy를 참조하십시오.](/azure/active-directory/authentication/tutorial-enable-azure-mfa#create-a-conditional-access-policy)</span><span class="sxs-lookup"><span data-stu-id="458ed-137">For more information about creating Conditional Access policies, see [Create a Conditional Access policy](/azure/active-directory/authentication/tutorial-enable-azure-mfa#create-a-conditional-access-policy).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="458ed-138">조건부 액세스를 제공하지만 아직 조건부 액세스 정책을 만들지 않은 계획이나 라이선스가 있는 경우 보안 기본값을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-138">If you have a plan or license that provides Conditional Access but haven't yet created any Conditional Access policies, you're welcome to use security defaults.</span></span> <span data-ttu-id="458ed-139">그러나 조건부 액세스 정책을 사용하려면 먼저 보안 기본값을 해제해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="458ed-139">However, you'll need to turn off security defaults before you can use Conditional Access policies.</span></span>

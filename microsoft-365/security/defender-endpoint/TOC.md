@@ -33,7 +33,7 @@
 #### [2 단계: 설정](mcafee-to-microsoft-defender-setup.md)
 #### [3 단계: 온보딩](mcafee-to-microsoft-defender-onboard.md)
 ### [Symantec에서 엔드포인트용 Microsoft Defender로 전환]()
-#### [마이그레이션 개요](symantec-to-microsoft-defender-atp-migration.md)
+#### [마이그레이션 개요](symantec-to-microsoft-defender-endpoint-migration.md)
 #### [1 단계: 준비](symantec-to-microsoft-defender-atp-prepare.md)
 #### [2 단계: 설정](symantec-to-microsoft-defender-atp-setup.md)
 #### [3 단계: 온보딩](symantec-to-microsoft-defender-atp-onboard.md)
@@ -115,7 +115,7 @@
 ##### [제어된 폴더 액세스 사용](enable-controlled-folders.md)
 ##### [제어된 폴더 액세스 사용자 지정](customize-controlled-folders.md)
 
-### [Mac용 Microsoft Defender Advanced Threat Protection]()
+### [엔드포인트용 Microsoft Defender(Mac용)]()
 #### [엔드포인트용 Microsoft Defender(Mac용) 개요](microsoft-defender-endpoint-mac.md)
 #### [새로운 기능](mac-whatsnew.md)
 
@@ -378,6 +378,8 @@
 ##### [오프보딩 장치](offboard-machines.md)
 
 #### [Microsoft Defender 보안 센터 표준 시간대 설정 구성](time-settings.md)
+
+### [Endpoint용 Microsoft Defender에서 가양성/가음성 처리](defender-endpoint-false-positives-negatives.md)
 
 ### [다른 Microsoft 솔루션과 통합 구성]()
 #### [조건부 액세스 구성](configure-conditional-access.md)
