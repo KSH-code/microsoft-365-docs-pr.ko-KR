@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Office 365 전역 관리자가 암호화 포털의 콘텐츠와 함께 암호화된 전자 메일 메시지에 조직의 & 적용하는 방법을 알아보겠습니다.
-ms.openlocfilehash: 3c5dc089363a7dfe895e79f03e5a01cb57c2ad57
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2898e12ad00d11cd9eb2f3be5d817ef113607e79
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923508"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394716"
 ---
 # <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>비즈니스용 Microsoft 365 메시지 암호화 암호화 메시지에 조직의 브랜드 추가
 
@@ -121,14 +121,13 @@ Office 365 고급 메시지 암호화가 있는 경우 [New-OMEConfiguration](/p
 
    다음 표에는 암호화 사용자 지정 옵션 기본값이 설명되어 있습니다.
 
-   **암호화 환경의 이 기능을 기본 텍스트 및 이미지로 되돌리려면**|**다음 명령 사용**|
+   |암호화 환경의 이 기능을 기본 텍스트 및 이미지로 되돌리려면|다음 명령 사용|
    |:-----|:-----|
-   |암호화된 전자 메일 메시지와 함께 제공된 기본 텍스트  <br/> 암호화된 메시지를 보기 위한 지침 위에 표시되는 기본 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<empty string>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
+   |암호화된 전자 메일 메시지와 함께 제공된 기본 텍스트입니다.  암호화된 메시지를 보기 위한 지침 위에 표시되는 기본 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<empty string>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
    |암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" DisclaimerText "<empty string>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""`|
    |암호화된 메일 보기 포털 위쪽에 표시되는 텍스트|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<empty string>"` <br/> **기본값으로 되돌리기 예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""`|
    |로고|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <"$null">` <br/> **기본값으로 되돌리기 예제:** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
    |배경색|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "$null">` <br/> **기본값으로 되돌리기 예제:** <br/> `Set-OMEConfiguration -Identity "OME configuration" -BackgroundColor $null`|
-   |
 
 ## <a name="remove-a-custom-branding-template-advanced-message-encryption"></a>사용자 지정 브랜징 템플릿 제거(고급 메시지 암호화)
 

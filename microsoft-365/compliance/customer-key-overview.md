@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-compliance
 ms.custom: seo-marvel-apr2020
 description: 이 문서에서는 서비스 암호화가 Microsoft 365의 고객 키와 함께 작동하는 방식에 대해 배우게 됩니다.
-ms.openlocfilehash: 9ed4b523c77cf1fa80d23e8fbe5c93e938f222a2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 21291dc45cd634cd5b6a88c4e58972c17486724f
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916890"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394726"
 ---
 # <a name="service-encryption-with-customer-key"></a>고객 키를 사용한 서비스 암호화
 
@@ -37,7 +37,7 @@ Microsoft 365는 BitLocker 및 DKM(분산 키 관리자)을 통해 활성화된 
 
 ## <a name="customer-key-encrypts-data-at-rest-in-office-365"></a>고객 키는 Office 365에서 휴지의 데이터를 암호화합니다.
 
-제공한 키를 사용하여 고객 키는 다음을 암호화합니다.
+제공한 키를 사용하여 응용 프로그램 수준의 고객 키는 다음을 암호화합니다.
 
 - SharePoint Online, 비즈니스용 OneDrive 및 Teams 파일.
 - 비즈니스용 OneDrive에 업로드된 파일.

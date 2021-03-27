@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 고객 키를 설정한 후 AKV 키를 복원하고 사용 권한 및 데이터 암호화 정책을 관리하여 키 관리 방법을 배워야 합니다.
-ms.openlocfilehash: 8f55667254ce7f5cbd9d4de274623ca4a3c4aa9d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 284a8ff24fef2f7e8b807477c99e20aaf593552e
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909950"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394673"
 ---
 # <a name="manage-customer-key"></a>고객 키 관리
 
@@ -168,9 +168,11 @@ Get-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl>
 
   - **롤링:** 키 롤이 진행 중입니다. 지역 키가 롤링되는 경우 진행 상황을 모니터링할 수 있도록 키 롤 작업을 완료한 사이트의 비율에 대한 정보도 표시됩니다.
 
-## <a name="unassign-a-dep-from-a-mailbox"></a>사서함에서 DEP에 대한 위임
+## <a name="roll-back-from-customer-key-to-microsoft-managed-keys"></a>고객 키에서 Microsoft 관리 키로 롤백
 
-Set-mailbox PowerShell cmdlet을 사용하고 를 로 설정하여 사서함에서 DEP를 이(가) `DataEncryptionPolicy` `$NULL` 제거합니다. 이 cmdlet을 실행하면 현재 할당된 DEP 할당을 해제하고 기본 Microsoft 관리 키와 연결된 DEP를 사용하여 사서함을 다시 암호화합니다. Microsoft 관리 키에 사용되는 DEP의 배포를 unassign the unassign the로 할 수 없습니다. Microsoft 관리 키를 사용하지 않는 경우 사서함에 다른 DEP를 할당할 수 있습니다.
+테넌트 수준의 고객 키의 경우 고객 키에서 "오프보더"를 요청하여 Microsoft에 문의해야 합니다. 요청은 On Call Engineering 팀에서 처리합니다.
+
+응용 프로그램 수준에서 고객 키의 경우 Set-mailbox PowerShell cmdlet을 사용하여 사서함에서 DEP를 제거하고 를 로 설정하여 이 작업을 `DataEncryptionPolicy` `$NULL` 실행합니다. 이 cmdlet을 실행하면 현재 할당된 DEP 할당을 해제하고 기본 Microsoft 관리 키와 연결된 DEP를 사용하여 사서함을 다시 암호화합니다. Microsoft 관리 키에 사용되는 DEP의 배포를 unassign the unassign the로 할 수 없습니다. Microsoft 관리 키를 사용하지 않는 경우 사서함에 다른 고객 키 DEP를 할당할 수 있습니다.
 
 PowerShell cmdlet을 사용하여 사서함에서 DEP를 Set-Mailbox 다음 단계를 완료합니다.
 
@@ -184,7 +186,7 @@ PowerShell cmdlet을 사용하여 사서함에서 DEP를 Set-Mailbox 다음 단�
 
 ## <a name="revoke-your-keys-and-start-the-data-purge-path-process"></a>키를 해지하고 데이터 제거 경로 프로세스 시작
 
-가용성 키를 포함하여 모든 루트 키의 해지 제어 고객 키는 규정 요구 사항의 종료 계획 측면을 제어할 수 있도록 합니다. 데이터를 삭제하고 서비스를 종료하기 위해 키를 해지하기로 결정한 경우 데이터 삭제 프로세스가 완료되면 서비스에서 가용성 키를 삭제합니다.
+가용성 키를 포함하여 모든 루트 키의 해지 제어 고객 키는 규정 요구 사항의 종료 계획 측면을 제어할 수 있도록 합니다. 데이터를 삭제하고 서비스를 종료하기 위해 키를 해지하기로 결정한 경우 데이터 삭제 프로세스가 완료되면 서비스에서 가용성 키를 삭제합니다. 테넌트 수준 정책에 대한 데이터 제거는 수행할 수 없습니다.
 
 Microsoft 365는 데이터 제거 경로를 감사하고 유효성을 검사합니다. 자세한 내용은 Service Trust Portal에서 사용할 수 있는 SSAE 18 SOC 2 [보고서를 참조하세요.](https://servicetrust.microsoft.com/) 또한 다음 문서가 권장됩니다.
 
