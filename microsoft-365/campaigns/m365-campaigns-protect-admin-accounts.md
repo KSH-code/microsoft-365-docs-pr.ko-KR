@@ -2,10 +2,10 @@
 title: 관리자 계정 보호
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: SKjerland
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 관리자 계정을 설정하고 보호하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: ec5b971ba4f1fdc8834e10ddf90ff219f763f805
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0d687407fad1cec5da49dbc33ffeb84366f1c309
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912177"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398244"
 ---
 # <a name="protect-your-administrator-accounts"></a>관리자 계정 보호
 
@@ -36,13 +36,13 @@ ms.locfileid: "50912177"
 - 긴급에 대한 추가 관리자 계정을 설정하는 방법
 - 이러한 계정을 보호하는 방법
 
-Microsoft 365에 등록하고 정보를 입력하면 자동으로 전역 관리자가 됩니다. 전역 관리자는 Microsoft 관리 센터에서 사용자 계정 및 다른 모든 설정을 최종적으로 제어할 수 있지만 액세스 권한이 다양한 다양한 종류의 관리자 계정이 있습니다. 각 [관리자 역할 종류에](/office365/admin/add-users/about-admin-roles) 대한 다양한 액세스 수준에 대한 자세한 내용은 관리자 역할 정보를 참조하세요.
+Microsoft 365에 등록하고 정보를 입력하면 자동으로 전역 관리자가 됩니다. 전역 관리자는 Microsoft 관리 센터의 사용자 계정 및 다른 모든 설정을 최종적으로 제어할 수 있지만 액세스 권한이 다양한 다양한 종류의 관리자 계정이 있습니다. 각 [관리자 역할 종류에](/office365/admin/add-users/about-admin-roles) 대한 다양한 액세스 수준에 대한 자세한 내용은 관리자 역할 정보를 참조하세요.
 
 ## <a name="create-additional-admin-accounts"></a>추가 관리자 계정 만들기
 
 관리에만 관리자 계정을 사용하세요. 관리자는 Office 앱을 정기적으로 사용하기 위해 별도의 사용자 계정이 있으며, 필요한 경우 계정 및 장치를 관리하고 다른 관리자 기능에서 작업하는 동안 관리 계정만 사용해야 합니다. 또한 관리자 계정에서 Microsoft 365 라이선스를 제거하여 비용을 지불하지 않는 것이 좋습니다.
 
-하나 이상의 추가 전역 관리자 계정을 설정하여 관리자에게 신뢰할 수 있는 다른 직원에 대한 액세스 권한을 부여할 수 있습니다. 사용자 관리를 위한 별도의 관리자 계정을 만들 수도 있습니다(이 역할을 사용자 관리 **관리자라고도 합니다).** 자세한 내용은 관리자 역할 [정보를 참조하세요.](/office365/admin/add-users/about-admin-roles)
+하나 이상의 추가 전역 관리자 계정을 설정하여 다른 신뢰할 수 있는 직원에게 관리자 액세스 권한을 부여할 수 있습니다. 사용자 관리를 위한 별도의 관리자 계정을 만들 수도 있습니다(이 역할을 사용자 관리 **관리자라고도 합니다).** 자세한 내용은 관리자 역할 [정보를 참조하세요.](/office365/admin/add-users/about-admin-roles)
 
 추가 관리자 계정을 만들 수 있는 경우:
 
@@ -53,7 +53,7 @@ Microsoft 365에 등록하고 정보를 입력하면 자동으로 전역 관리�
  2. 활성 **사용자 페이지에서** 페이지  맨 위에 있는 사용자 추가를 선택하고  새 사용자 패널에서 이름 및 기타 정보를 입력합니다.
  3. 역할 **섹션을 확장하고** 전역 관리자를 **선택해** 이 사용자에게 전역 관리자 액세스 권한을 부여합니다. 사용자 지정 **관리자를 선택하고** 표시되는 역할을 선택할 수도 있습니다.
 
-    대체 전자 메일 주소 텍스트 **상자에** 대체 전자 메일을 입력합니다. 잠긴 경우 이 주소를 사용하여 암호 정보를 복구할 수 있습니다. 전역 관리자의 경우 이 주소로 청구서도 전송됩니다.
+    대체 전자 메일 주소 텍스트 **상자에** 대체 전자 메일을 입력합니다. 잠긴 경우 이 주소를 사용하여 암호 정보를 복구할 수 있습니다. 전역 관리자의 경우 청구서도 이 주소로 전송됩니다.
 
     ![관리자 역할 선택](../media/adminroles.png)
 
@@ -76,12 +76,11 @@ Microsoft 365에 등록하고 정보를 입력하면 자동으로 전역 관리�
 3. 역할 **섹션을 확장하고** 사용자(관리 액세스 **권한 없음)를 선택하십시오.**
 4. 제품 **라이선스 섹션에서** **Microsoft 365 Business의** 선택기 를 으로 **이동합니다.**
 
-## <a name="register-each-of-these-accounts-for-multi-factor-authentication"></a>다단계 인증을 위해 이러한 각 계정 등록
+## <a name="turn-on-security-defaults"></a>보안 기본값 켜기
 
-이러한 계정이 다단계 인증을 [사용하고 있는지 확인](m365-campaigns-multifactor-authenication.md)
+보안 기본값은 Microsoft가 조직을 대신하여 관리하는 미리 구성한 보안 설정을 제공하여 ID 관련 공격으로부터 조직을 보호하는 데 도움이 됩니다. 이러한 설정에는 모든 관리자 및 사용자 계정에 대해 MFA(다단계 인증)를 사용하도록 설정하는 것이 포함됩니다. 보안 기본값에 대한 자세한 내용을 보고 설정하는 방법에 대한 자세한 내용은 보안 기본값 [켜기 을 참조하세요.](m365-campaigns-conditional-access.md)
 
 ## <a name="additional-recommendations"></a>추가 권장 사항
 
-- 다단계 인증을 위해 관리자 계정도 설정해야 합니다. 이 작업을 하는 방법을 조건부 액세스 정책 구성 [에서 보여 입니다.](m365-campaigns-conditional-access.md)
 - 관리자 계정을 사용하려면 먼저 개인 전자 메일 계정을 포함하여 관련 없는 모든 브라우저 세션 및 앱을 닫습니다. 개인 또는 시그니치 브라우저 창에서 사용할 수도 있습니다.
 - 관리 작업을 완료한 후 브라우저 세션에서 로그인해야 합니다.

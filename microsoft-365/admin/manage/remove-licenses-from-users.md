@@ -5,42 +5,35 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_TOC
-- commerce
 ms.custom:
 - AdminSurgePortfolio
 - manage_licenses
+- okr_smb
+- commerce
 search.appverid:
 - MET150
 description: 사용자 계정에서 라이선스를 배정을 unassign하는 방법을 학습합니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 858daaf0069ecba3e6ff65ce957462764b45c22c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 550136c2cfa8d81a31e52a4313dc9c967a55d56e
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915197"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398196"
 ---
 # <a name="unassign-licenses-from-users"></a>사용자의 라이선스 할당 취소
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 활성 사용자 페이지 또는 라이선스 페이지에서 사용자로부터  라이선스를 **배포할 수** 있습니다. 사용하는 방법은 특정 사용자의 제품 라이선스를 지정을 해지할지 아니면 특정 제품의 사용자 라이선스를 지정을 해지할지 여부에 따라 결정됩니다.
 
-::: moniker-end
+> [!NOTE]
+> 관리자는 조직의 사용자가 구입한 셀프 서비스 구매 구독에 대한 라이선스를 할당하거나 할당 취소할 수 없습니다. 셀프 [서비스](../../commerce/subscriptions/manage-self-service-purchases-admins.md#take-over-a-self-service-purchase-subscription)구매 구독을 인계 받은 다음 라이선스를 할당하거나 할당 취소할 수 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -48,21 +41,31 @@ ms.locfileid: "50915197"
 - [Office 365 PowerShell로 사용자 계정에서 라이선스를 제거](../../enterprise/remove-licenses-from-user-accounts-with-microsoft-365-powershell.md)할 수 있습니다.
 - 라이선스가 [할당된](../add-users/delete-a-user.md) 사용자 계정을 삭제하여 다른 사용자가 라이선스를 사용할 수 있도록 할 수도 있습니다. 사용자 계정을 삭제하면 다른 사용자에게 라이선스를 즉시 할당할 수 있습니다.
 
-::: moniker range="o365-worldwide"
-
 ## <a name="use-the-licenses-page-to-unassign-licenses"></a>라이선스 페이지를 사용하여 라이선스를 배포합니다.
 
 라이선스 페이지를 **사용하여** 라이선스를 지정하지 않은 경우 특정 제품에 대한 라이선스를 최대 20명까지 지정하지 않습니다.
 
+::: moniker range="o365-worldwide"
+
 1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">라이선스</a> 페이지로 이동합니다.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">센터에서</a>청구 라이선스  > **페이지로** 이동합니다.
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">센터에서</a>청구 라이선스  > **페이지로** 이동합니다.
+
+::: moniker-end
+
 2. 라이선스를 해지할 제품을 선택합니다.
 3. 라이선스를 배포할 사용자를 선택합니다.
 4. 라이선스 **배포를 선택합니다.**
 5. 라이선스의 **Unassign(라이선스)** 상자에서 **Unassign (1)을 선택합니다.**
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
 
 ## <a name="use-the-active-users-page-to-unassign-licenses"></a>활성 사용자 페이지를 사용하여 라이선스의 배포를 허가합니다.
 
@@ -70,71 +73,52 @@ ms.locfileid: "50915197"
 
 ### <a name="unassign-licenses-from-one-user"></a>한 사용자의 라이선스에 대한 라이선스를 배포하지 않습니다.
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+::: moniker range="o365-worldwide"
+
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">센터에서</a>청구 활성 사용자  > **페이지로** 이동합니다.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">센터에서</a>청구 활성 사용자  > **페이지로** 이동합니다.
+
+::: moniker-end
+
 2. 라이선스를 배포할 사용자의 행을 선택합니다.
 3. 오른쪽 창에서 **라이선스 및 앱** 를 선택합니다.
 4. 라이선스 **섹션을 확장하고,** 라이선스를 취소할 라이선스의 확인란을 선택 취소한 다음 변경 **내용 저장을 선택합니다.**
 
+###  <a name="unassign-licenses-from-multiple-users"></a>여러 사용자의 라이선스를 배정하지 않습니다.
+
+::: moniker range="o365-worldwide"
+
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-## <a name="unassign-licenses-from-one-user"></a>한 사용자의 라이선스에 대한 라이선스를 배포하지 않습니다.
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
-2. 라이선스의 배포를 해지할 사용자를 선택해야 합니다.
-3. 오른쪽의 제품 라이선스 **행에서** 편집 을 **선택합니다.**
-4. 제품 **라이선스 창에서** 사용자에 대해 배포를  해제할 라이선스의 해제 위치로 토글합니다. 예를 들어 Office 365 Enterprise E3 라이선스를 해제하는 경우 해당 사용자에 대해 해당 라이선스 및 해당 라이선스에 따라 모든 서비스를 해당 라이선스에 대한 라이선스를 해제합니다.
-5. **제품 라이선스** 창의 아래쪽에서 **저장** \> **닫기** \> **닫기** 를 선택합니다.
+1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">센터에서</a>청구 활성 사용자  > **페이지로** 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-## <a name="unassign-licenses-from-one-user"></a>한 사용자의 라이선스에 대한 라이선스를 배포하지 않습니다.
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
-2. 라이선스의 배포를 해지할 사용자를 선택해야 합니다.
-3. 오른쪽의 제품 라이선스 **행에서** 편집 을 **선택합니다.**
-4. 제품 **라이선스 창에서** 사용자에 대해 배포를  해제할 라이선스의 해제 위치로 토글합니다. 예를 들어 Office 365 Enterprise E3 라이선스를 해제하는 경우 해당 사용자에 대해 해당 라이선스 및 해당 라이선스에 따라 모든 서비스를 해당 라이선스에 대한 라이선스를 해제합니다.
-5. **제품 라이선스** 창의 아래쪽에서 **저장** \> **닫기** \> **닫기** 를 선택합니다.
+1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">센터에서</a>청구 활성 사용자  > **페이지로** 이동합니다.
 
 ::: moniker-end
 
-::: moniker range="o365-worldwide"
-###  <a name="unassign-licenses-from-multiple-users"></a>여러 사용자의 라이선스를 배정하지 않습니다.
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 2. 라이선스를 배포할 사용자의 이름 옆에 있는 원을 선택합니다.
 3. 맨 위에 있는 **추가 옵션 (...)** 을 선택한 다음 **제품 라이선스 관리** 를 선택합니다.
 4. **제품 라이선스 관리** 창에서 **기존 제품 라이선스 할당 바꾸기** \> **다음** 을 선택합니다.
 5. 기존 제품 바꾸기 창의 아래쪽에서  선택한 사용자에서 모든 제품 라이선스 제거 확인란을 선택한 다음 **바꾸기 닫기를**  \> **선택합니다.**
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-##  <a name="unassign-licenses-from-multiple-users"></a>여러 사용자의 라이선스를 배정하지 않습니다.
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
-2. 모든 라이선스를 배포할 사용자의 이름 옆의 확인란을 선택합니다.
-3. **대량 작업** 창에서 **제품 라이선스 편집** 을 선택합니다.
-4. **기존 제품 바꾸기** 창에서 **기존 제품 라이선스 할당 바꾸기** \> **다음** 을 선택합니다.
-5. 기존 제품 바꾸기 창의 아래쪽에서  선택한 사용자에서 모든 제품 라이선스 제거 확인란을 선택한 다음 바꾸기   \> **닫기 닫기를** \> **선택합니다.**
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-##  <a name="unassign-licenses-from-multiple-users"></a>여러 사용자의 라이선스를 배정하지 않습니다.
-  
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
-2. 모든 라이선스를 배포할 사용자의 이름 옆의 확인란을 선택합니다.
-3. **대량 작업** 창에서 **제품 라이선스 편집** 을 선택합니다.
-4. **기존 제품 바꾸기** 창에서 **기존 제품 라이선스 할당 바꾸기** \> **다음** 을 선택합니다.
-5. 기존 제품 바꾸기 창의 아래쪽에서  선택한 사용자에서 모든 제품 라이선스 제거 확인란을 선택한 다음 바꾸기   \> **닫기 닫기를** \> **선택합니다.**
-
-::: moniker-end
 
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>라이선스를 제거하면 사용자의 데이터가 어떻게 하나요?
 

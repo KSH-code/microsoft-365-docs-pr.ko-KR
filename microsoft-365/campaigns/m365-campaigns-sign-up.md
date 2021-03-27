@@ -2,10 +2,10 @@
 title: 캠페인을 위한 Microsoft 365 등록
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: SKjerland
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인용 Microsoft 365에 대한 단계별 등록 전자 메일, 데이터 및 통신에 대한 사이버 보안 위협으로부터 캠페인을 보호합니다.
-ms.openlocfilehash: 454fe7190c12d1dc9ddf0434ba0dcee322ab7cef
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: deaf91850ae5dbd3ed2a4637e0eb157d29215992
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912165"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398220"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>캠페인을 위한 Microsoft 365 등록 
 

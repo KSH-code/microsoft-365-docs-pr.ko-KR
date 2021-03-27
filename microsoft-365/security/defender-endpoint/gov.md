@@ -1,5 +1,5 @@
 ---
-title: 미국 정부 고객을 위한 끝점용 Microsoft Defender
+title: 엔드포인트용 Microsoft Defender(미국 정부 고객용)
 description: 사용 가능한 미국 정부 고객 요구 사항 및 기능용 Microsoft Defender for Endpoint에 대해 자세히 알아보시고
 keywords: government, gcc, high, requirements, capabilities, defender, defender atp, mdatp, endpoint, dod
 search.product: eADQiWindows 10XVcnh
@@ -16,17 +16,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 089614fab57950af5f60181ce7ed2116046ad347
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 320913058f1d3cab36b3a279996443c2e4ef117f
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379373"
+ms.locfileid: "51382916"
 ---
-# <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>미국 정부 고객을 위한 끝점용 Microsoft Defender
+# <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>엔드포인트용 Microsoft Defender(미국 정부 고객용)
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 
 Azure US Government 환경에서 구축된 미국 정부 고객을 위한 끝점용 Microsoft Defender는 Azure Commercial의 Endpoint용 Defender와 동일한 기본 기술을 사용 합니다.
 
@@ -100,7 +100,7 @@ iOS | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니
 > Microsoft 모니터링 에이전트를 사용하여 Windows 10 또는 Windows Server 2019 이전 버전의 Windows 장치를 [온보드하려고 하나요?](configure-server-endpoints.md#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) 설치 마법사를 사용하는 경우 또는 명령줄 또는 스크립트를 사용하는 경우 "Azure [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) Cloud"에서 [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) "Azure US Government"를 선택해야 합니다. "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" 매개 변수를 1로 설정해야 합니다. [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)
 
 > [!NOTE]
-> You'll need version 101.25.72 and above for Linux, and version 101.25.69 and above for macOS. 미리 보기에 있는 동안 해당 버전은 "Insider Fast" 채널에서만 사용할 수 있습니다. 지침은 [Linux 소프트웨어](linux-install-manually.md#configure-the-linux-software-repository) 리포지토리 구성 또는 채널 이름 [설정(macOS)을](mac-updates.md#set-the-channel-name) 참조하세요.
+> You'll need version 101.25.72 and above for Linux, and version 101.25.69 and above for macOS. 미리 보기 중에 해당 버전은 "Insider Fast" 채널에서만 사용할 수 있습니다. 지침은 [Linux 소프트웨어](linux-install-manually.md#configure-the-linux-software-repository) 리포지토리 구성 또는 채널 이름 [설정(macOS)을](mac-updates.md#set-the-channel-name) 참조하세요.
 
 ### <a name="os-versions-when-using-azure-defender-for-servers"></a>서버용 Azure Defender를 사용하는 경우 OS 버전
 다음 OS 버전은 [서버용 Azure Defender를 사용할 때 지원됩니다.](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
@@ -168,12 +168,12 @@ SIEM | `https://wdatp-alertexporter-us.gcc.securitycenter.windows.us` | `https:/
 이메일 알림 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 평가 랩 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 관리 및 API: 장치 상태 및 규정 준수 보고서 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
-관리 및 API: 타사 제품과의 통합 | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중
+관리 및 API: 타사 제품과의 통합 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 관리 및 API: 스트리밍 API | ![예](images/svg/check-yes.svg) | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
 관리 및 API: 위협 방지 보고서 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 위협 및 취약성 관리 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 위협 분석 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
-웹 콘텐츠 필터링 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
+웹 컨텐츠 필터링 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
 통합: Azure Sentinel | ![예](images/svg/check-yes.svg) | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
 통합: Microsoft Cloud App Security | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
 통합: Microsoft 준수 관리자 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링

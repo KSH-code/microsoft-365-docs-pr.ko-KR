@@ -2,10 +2,10 @@
 title: Microsoft 365에 로그인
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: SKjerland
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Microsoft 365에 로그인합니다. 사이버 보안 위협으로부터 전자 메일, 데이터 및 통신에 대한 비즈니스, 관행 또는 캠페인을 보호합니다.
-ms.openlocfilehash: e115ec9fab8270f1b9dddcc33b2d20a5554e4f2e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: eff81da84853130da2f2dcc0aaaf2a9834477a85
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912153"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398177"
 ---
 # <a name="sign-in-to-microsoft-365"></a>Microsoft 365에 로그인
 
