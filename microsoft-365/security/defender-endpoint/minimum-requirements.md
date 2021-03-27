@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c6afa48fcee80c0b8fb7ed0563264932566b6321
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 6a8e1091490cb9f3fe1eedadec0b76a56ada936e
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185794"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379493"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 대한 최소 요구 사항
 
@@ -31,12 +31,10 @@ ms.locfileid: "51185794"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-minreqs-abovefoldlink)
 
 
 장치에 서비스를 온보드하기 위한 몇 가지 최소 요구 사항이 있습니다. 서비스에 장치를 온보드하기 위한 라이선스, 하드웨어 및 소프트웨어 요구 사항 및 기타 구성 설정에 대해 자세히 알아보습니다.
-
-> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-minreqs-abovefoldlink)
 
 > [!TIP]
 > - Endpoint용 Defender: Endpoint 기술 커뮤니티용 [Defender의 최신 향상에 대해 자세히 알아보습니다.](https://techcommunity.microsoft.com/t5/Windows-Defender-Advanced-Threat/ct-p/WindowsDefenderAdvanced)
@@ -80,7 +78,6 @@ Windows 10 상업용 버전 비교에 대한 자세한 비교 표는 비교 [PDF
 끝점용 Defender에 대한 액세스는 다음 브라우저를 지원하여 브라우저를 통해 수행됩니다.
 
 - Microsoft Edge
-- Internet Explorer 버전 11
 - Google Chrome
 
 > [!NOTE]
@@ -121,11 +118,12 @@ Windows 10 상업용 버전 비교에 대한 자세한 비교 표는 비교 [PDF
 
 ### <a name="other-supported-operating-systems"></a>기타 지원되는 운영 체제
 - Android
+- iOS
 - Linux
 - macOS
 
 > [!NOTE]
-> 통합을 위해 Endpoint용 Defender와 호환되는 정확한 Linux 배포 및 Android 및 macOS 버전을 알아야 합니다.
+> 통합을 위해 Endpoint용 Defender와 호환되는 Android, iOS 및 macOS의 Linux 배포 및 버전을 확인해야 합니다.
 
 
 
@@ -164,7 +162,7 @@ Windows 10 상업용 버전 비교에 대한 자세한 비교 표는 비교 [PDF
    ![diagtrack에 대한 sc 쿼리 명령의 결과](images/windefatp-sc-qc-diagtrack.png)
 
 
-서비스가 에 대해 로 설정되지 않은  경우 START_TYPE 자동으로 시작 **AUTO_START.**
+서비스가 에 로 설정되어 있지 않은  경우 START_TYPE 자동으로 시작 **AUTO_START.**
 
 
 **명령줄을 사용하여 Windows 10 진단 데이터 서비스가 자동으로 시작될 수 있도록 설정합니다.**
@@ -203,11 +201,11 @@ Endpoint용 Defender 에이전트는 Microsoft Defender 바이러스 백신이 �
 
 Microsoft Defender 바이러스 백신이 활성 맬웨어 방지인지 여부에 관계 없는 끝점 장치용 Defender에서 보안 인텔리전스 업데이트를 구성합니다. 자세한 내용은 Microsoft Defender 바이러스 백신 업데이트 관리 및 [기준 적용을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus)
 
-Microsoft Defender 바이러스 백신이 조직에서 활성 맬웨어 방지가 아니고 Endpoint 서비스용 Defender를 사용하는 경우 Microsoft Defender 바이러스 백신은 수동 모드로 전환됩니다.
+Microsoft Defender 바이러스 백신이 조직에서 활성 맬웨어 방지가 아니고 Endpoint 서비스용 Defender를 사용하는 경우 Microsoft Defender 바이러스 백신이 수동 모드로 전환됩니다.
 
 조직에서 그룹 정책 또는 기타 방법을 통해 Microsoft Defender 바이러스 백신을 해제한 경우 온보딩된 장치를 이 그룹 정책에서 제외해야 합니다.
 
-온보딩 서버가 Microsoft Defender 바이러스 백신이 서버에서 활성 맬웨어 방지가 아닌 경우 수동 모드로 전환하거나 제거하도록 Microsoft Defender 바이러스 백신을 구성해야 합니다. 구성은 서버 버전에 따라 다릅니다. 자세한 내용은 [Microsoft Defender 바이러스 백신 호환성을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus-compatibility.md)
+서버 온보딩 중일 때 Microsoft Defender 바이러스 백신이 서버에서 활성 맬웨어 방지가 아닌 경우 Microsoft Defender 바이러스 백신은 수동 모드로 전환하거나 제거하도록 구성해야 합니다. 구성은 서버 버전에 따라 다릅니다. 자세한 내용은 [Microsoft Defender 바이러스 백신 호환성을 참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus-compatibility.md)
 
 > [!NOTE]
 > 일반 그룹 정책은 변조 방지에 적용되지 않습니다. 변조 방지가 설정될 때 Microsoft Defender 바이러스 백신 설정에 대한 변경 내용은 무시됩니다.
@@ -216,7 +214,7 @@ Microsoft Defender 바이러스 백신이 조직에서 활성 맬웨어 방지�
 ## <a name="microsoft-defender-antivirus-early-launch-antimalware-elam-driver-is-enabled"></a>Microsoft Defender 바이러스 백신 ELAM(맬웨어 방지 조기 실행) 드라이버가 사용하도록 설정되어 있습니다.
 장치에서 Microsoft Defender 바이러스 백신을 기본 맬웨어 방지 제품으로 실행하는 경우 끝점용 Defender 에이전트가 성공적으로 온보딩됩니다.
 
-타사 맬웨어 방지 클라이언트를 실행하고 모바일 장치 관리 솔루션 또는 Microsoft Endpoint Manager(현재 분기)를 사용하는 경우 Microsoft Defender 바이러스 백신 ELAM 드라이버를 사용하도록 설정해야 합니다. 자세한 내용은 정책에서 Microsoft Defender 바이러스 백신이 사용하지 [않도록 설정되지 않은지 확인을 참조하세요.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
+타사 맬웨어 방지 클라이언트를 실행 중이고 모바일 장치 관리 솔루션 또는 Microsoft Endpoint Manager(현재 분기)를 사용하는 경우 Microsoft Defender 바이러스 백신 ELAM 드라이버를 사용하도록 설정해야 합니다. 자세한 내용은 정책에서 Microsoft Defender 바이러스 백신이 사용하지 [않도록 설정되지 않은지 확인을 참조하세요.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
 
 
 ## <a name="related-topics"></a>관련 항목

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e511c12240512af772b3552f63ad9ed98ff105af
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a9ca0af0c522205309ffdcbfd1ac28638bd197c7
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51070119"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382796"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -38,23 +38,24 @@ ms.locfileid: "51070119"
 이 함수는 쿼리에서 찾은 파일에 다음 데이터를 추가하는 고급 헌팅의 `FileProfile()` 향상 함수입니다. [](advanced-hunting-overview.md)
 
 | 열 | 데이터 형식 | 설명 |
-|------------|-------------|-------------|
-| SHA1 | 문자열 | 기록된 조치가 적용된 파일의 SHA-1 |
-| SHA256 | 문자열 | 기록된 작업이 적용된 파일의 SHA-256 |
-| MD5 | 문자열 | 기록된 작업이 적용된 파일의 MD5 해시입니다. |
-| FileSize | int | 파일 크기(bytes)입니다. |
-| GlobalPrevalence | int | Microsoft에서 전역적으로 관찰하는 엔터티의 인스턴스 수 |
-| GlobalFirstSeen | datetime | Microsoft에서 엔터티를 전역적으로 처음 관찰한 날짜 및 시간 |
-| GlobalLastSeen | datetime | Microsoft에서 엔터티를 마지막으로 관찰한 날짜 및 시간 |
-| 서명자 | 문자열 | 파일의 서명자에 대한 정보 |
-| 발급자 | 문자열 | 발급 CA(인증 기관)에 대한 정보 |
-| SignerHash | 문자열 | 서명자를 식별하는 고유 해시 값 |
-| IsCertificateValid | 부울 | 파일에 서명하는 데 사용된 인증서가 유효한지 여부 |
-| IsRootSignerMicrosoft | 부울 | 루트 인증서의 서명자인지 여부를 나타냅니다. |
-| IsExecutable | 부울 | 파일이 PE(Portable Executable) 파일인지 여부 |
-| ThreatName | 문자열 | 발견된 맬웨어 또는 기타 위협에 대한 검색 이름 |
-| 게시자 | 문자열 | 파일을 게시한 조직의 이름입니다. |
-| SoftwareName | 문자열 | 소프트웨어 제품의 이름 |
+|------------|---------------|-------------|
+| `SHA1` | 문자열 | 기록된 조치가 적용된 파일의 SHA-1 |
+| `SHA256` | 문자열 | 기록된 작업이 적용된 파일의 SHA-256 |
+| `MD5` | 문자열 | 기록된 작업이 적용된 파일의 MD5 해시입니다. |
+| `FileSize` | int | 파일 크기(bytes)입니다. |
+| `GlobalPrevalence` | int | Microsoft에서 전역적으로 관찰하는 엔터티의 인스턴스 수 |
+| `GlobalFirstSeen` | datetime | Microsoft에서 엔터티를 전역적으로 처음 관찰한 날짜 및 시간 |
+| `GlobalLastSeen` | datetime | Microsoft에서 엔터티를 마지막으로 관찰한 날짜 및 시간 |
+| `Signer` | 문자열 | 파일의 서명자에 대한 정보 |
+| `Issuer` | 문자열 | 발급 CA(인증 기관)에 대한 정보 |
+| `SignerHash` | 문자열 | 서명자를 식별하는 고유 해시 값 |
+| `IsCertificateValid` | 부울 | 파일에 서명하는 데 사용된 인증서가 유효한지 여부 |
+| `IsRootSignerMicrosoft` | 부울 | 루트 인증서의 서명자인지 여부를 나타냅니다. |
+| `SignatureState` | 문자열 | 파일 서명 상태: SignedValid - 파일이 유효한 서명으로 서명되었습니다. SignedInvalid - 파일이 서명되지만 인증서가 잘못되었거나 서명되지 않았습니다. 파일이 서명되지 않았고 알 수 없음 - 파일에 대한 정보를 검색할 수 없습니다.
+| `IsExecutable` | 부울 | 파일이 PE(Portable Executable) 파일인지 여부 |
+| `ThreatName` | 문자열 | 발견된 맬웨어 또는 기타 위협에 대한 검색 이름 |
+| `Publisher` | 문자열 | 파일을 게시한 조직의 이름입니다. |
+| `SoftwareName` | 문자열 | 소프트웨어 제품의 이름 |
 
 ## <a name="syntax"></a>구문
 

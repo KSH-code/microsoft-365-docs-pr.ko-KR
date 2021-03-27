@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: b9bb95f8220327e3be7cc2598f2f49fd868d1b89
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 129ed0340dc8324bfa8e68a9f5e1532f92262ac8
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071503"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382832"
 ---
 # <a name="deviceregistryevents"></a>DeviceRegistryEvents
 
@@ -65,6 +65,12 @@ ms.locfileid: "51071503"
 | `InitiatingProcessMD5` | 문자열 | 이벤트를 시작한 프로세스(이미지 파일)의 MD5 해시입니다. |
 | `InitiatingProcessFileName` | 문자열 | 이벤트를 시작한 프로세스의 이름입니다. |
 | `InitiatingProcessFileSize` | long | 이벤트를 담당하는 프로세스를 시작한 파일의 크기입니다. |
+| `InitiatingProcessVersionInfoCompanyName` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 회사 이름 |
+| `InitiatingProcessVersionInfoProductName` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 제품 이름 |
+|` InitiatingProcessVersionInfoProductVersion` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 제품 버전 |
+|` InitiatingProcessVersionInfoInternalFileName` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 내부 파일 이름 |
+| `InitiatingProcessVersionInfoOriginalFileName` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 원래 파일 이름입니다. |
+| `InitiatingProcessVersionInfoFileDescription` | 문자열 | 이벤트를 담당하는 프로세스(이미지 파일)의 버전 정보 설명 |
 | `InitiatingProcessId` | int | 이벤트를 시작한 프로세스의 PID(프로세스 ID)입니다. |
 | `InitiatingProcessCommandLine` | 문자열 | 이벤트를 시작한 프로세스를 실행하는 데 사용되는 명령줄 |
 | `InitiatingProcessCreationTime` | datetime | 이벤트를 시작한 프로세스가 시작된 날짜 및 시간 |

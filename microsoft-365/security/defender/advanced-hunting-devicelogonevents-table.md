@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: c1c9bac0fe29587bbc02c7974b83e2725a69c02b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e1d1284fa6132e37b31245bd45557e180d0135f2
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071559"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382676"
 ---
 # <a name="devicelogonevents"></a>DeviceLogonEvents
 
@@ -50,19 +50,18 @@ ms.locfileid: "51071559"
 | `DeviceId` | 문자열 | 서비스에서 시스템의 고유 식별자 |
 | `DeviceName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름) |
 | `ActionType` | 문자열 |이벤트를 트리거한 활동 유형 |
+| `LogonType` | 문자열 | 로그온 세션의 유형, 특히 다음과 같습니다.<br><br> - **대화형** - 사용자가 로컬 키보드 및 화면을 사용하여 컴퓨터와 물리적으로 상호 작용합니다.<br><br> - **RDP(원격 대화형) 로그널** - 사용자가 원격 데스크톱, 터미널 서비스, 원격 지원 또는 기타 RDP 클라이언트를 사용하여 원격으로 컴퓨터와 상호 작용합니다.<br><br> - **네트워크** - PsExec을 사용하여 컴퓨터 액세스 또는 컴퓨터의 공유 리소스(예: 프린터 및 공유 폴더)에 액세스할 때 시작된 세션<br><br> - **Batch** - 예약된 작업으로 시작된 세션<br><br> - **서비스** - 서비스가 시작할 때 시작된 세션<br> |
 | `AccountDomain` | 문자열 | 계정의 도메인 |
 | `AccountName` | 문자열 | 계정의 사용자 이름 |
 | `AccountSid` | 문자열 | 계정의 SID(보안 식별자)입니다. |
 | `Protocol` | 문자열 | 통신 중에 사용되는 프로토콜 |
 | `FailureReason` | 문자열 | 기록된 작업이 실패한 이유를 설명하는 정보 |
-| `LogonType` | 문자열 | 로그온 세션의 유형, 특히 다음과 같습니다.<br><br> - **대화형** - 사용자가 로컬 키보드 및 화면을 사용하여 컴퓨터와 물리적으로 상호 작용합니다.<br><br> - **RDP(원격 대화형) 로그널** - 사용자가 원격 데스크톱, 터미널 서비스, 원격 지원 또는 기타 RDP 클라이언트를 사용하여 원격으로 컴퓨터와 상호 작용합니다.<br><br> - **네트워크** - PsExec을 사용하여 컴퓨터 액세스 또는 컴퓨터의 공유 리소스(예: 프린터 및 공유 폴더)에 액세스할 때 시작된 세션<br><br> - **Batch** - 예약된 작업으로 시작된 세션<br><br> - **서비스** - 서비스가 시작할 때 시작된 세션<br> |
+| `IsLocalAdmin` | 부울 | 사용자가 컴퓨터의 로컬 관리자인지 여부를 나타내는 부울 표시기입니다. |
 | `LogonId` | 문자열 | 로그온 세션의 식별자입니다. 이 식별자는 다시 시작 사이에 동일한 컴퓨터만 고유합니다. |
 | `RemoteDeviceName` | 문자열 | 영향을 받는 컴퓨터의 원격 작업을 수행한 컴퓨터의 이름입니다. 보고되는 이벤트에 따라 이 이름은 FQDN(정식 도메인 이름), NetBIOS 이름 또는 도메인 정보가 없는 호스트 이름일 수 있습니다. |
 | `RemoteIP` | 문자열 | 연결된 IP 주소 |
 | `RemoteIPType` | 문자열 | Ip 주소 유형(예: Public, Private, Reserved, Loopback, Teredo, FourToSixMapping 및 Broadcast) |
 | `RemotePort` | int | 연결되고 있는 원격 장치의 TCP 포트 |
-| `AdditionalFields` | 문자열 | JSON 배열 형식의 이벤트에 대한 추가 정보 |
-| `InitiatingProcessFileSize` | long | 이벤트를 담당하는 프로세스를 시작한 파일의 크기입니다. |
 | `InitiatingProcessAccountDomain` | 문자열 | 이벤트를 담당하는 프로세스를 시작한 계정의 도메인입니다. |
 | `InitiatingProcessAccountName` | 문자열 | 이벤트를 담당하는 프로세스를 시작한 계정의 사용자 이름입니다. |
 | `InitiatingProcessAccountSid` | 문자열 | 이벤트를 담당하는 프로세스를 시작한 계정의 SID(보안 식별자)입니다. |
@@ -74,6 +73,13 @@ ms.locfileid: "51071559"
 | `InitiatingProcessSHA256` | 문자열 | 이벤트를 시작한 프로세스(이미지 파일)의 SHA-256입니다. 이 필드는 일반적으로 채워지지 않습니다. 사용 가능한 경우 SHA1 열을 사용 |
 | `InitiatingProcessMD5` | 문자열 | 이벤트를 시작한 프로세스(이미지 파일)의 MD5 해시입니다. |
 | `InitiatingProcessFileName` | 문자열 | 이벤트를 시작한 프로세스의 이름입니다. |
+| `InitiatingProcessFileSize` | long | 이벤트를 담당하는 프로세스를 시작한 파일의 크기입니다. |
+| `InitiatingProcessVersionInfoCompanyName` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 회사 이름 |
+| `InitiatingProcessVersionInfoProductName` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 제품 이름 |
+| `InitiatingProcessVersionInfoProductVersion` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 제품 버전 |
+| `InitiatingProcessVersionInfoInternalFileName` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 내부 파일 이름 |
+| `InitiatingProcessVersionInfoOriginalFileName` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 원래 파일 이름입니다. |
+| `InitiatingProcessVersionInfoFileDescription` | 문자열 | 이벤트를 담당하는 프로세스(이미지 파일)의 버전 정보 설명 |
 | `InitiatingProcessId` | int | 이벤트를 시작한 프로세스의 PID(프로세스 ID)입니다. |
 | `InitiatingProcessCommandLine` | 문자열 | 이벤트를 시작한 프로세스를 실행하는 데 사용되는 명령줄 |
 | `InitiatingProcessCreationTime` | datetime | 이벤트를 시작한 프로세스가 시작된 날짜 및 시간 |
@@ -83,7 +89,7 @@ ms.locfileid: "51071559"
 | `InitiatingProcessParentCreationTime` | datetime | 이벤트를 담당하는 프로세스의 부모가 시작된 날짜 및 시간입니다. |
 | `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유한 이벤트를 식별하려면 이 열을 DeviceName 및 Timestamp 열과 함께 사용해야 합니다. |
 | `AppGuardContainerId` | 문자열 | Application Guard에서 브라우저 활동을 격리하기 위해 사용하는 가상화된 컨테이너의 식별자 |
-| `IsLocalAdmin` | 부울 | 사용자가 컴퓨터의 로컬 관리자인지 여부를 나타내는 부울 표시기입니다. |
+| `AdditionalFields` | 문자열 | JSON 배열 형식의 이벤트에 대한 추가 정보 |
 
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 개요](advanced-hunting-overview.md)

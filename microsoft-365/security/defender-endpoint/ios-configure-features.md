@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 90e65c57321fa05a62bc94f4f56d92062d0826a1
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 18fbc13614753ae57856a124d76bbad682ab88e5
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186704"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379358"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-for-ios-features"></a>iOS 기능에 대한 끝점용 Microsoft Defender 구성
 
@@ -102,3 +102,9 @@ iOS용 Endpoint용 Defender를 사용하면 관리자가 iOS 장치에서도 사
 ## <a name="report-unsafe-site"></a>안전하지 않은 사이트 보고
 
 피싱 웹 사이트는 개인 또는 재무 정보를 얻기 위해 신뢰할 수 있는 웹 사이트를 가장합니다. 피싱 [](https://www.microsoft.com/wdsi/filesubmission/exploitguard/networkprotection) 사이트일 수 있는 웹 사이트를 보고하려는 경우 네트워크 보호에 대한 피드백 제공 페이지를 방문하세요.
+
+## <a name="battery-consumption-issues-on-ios-when-microsoft-defender-for-endpoint-is-installed"></a>끝점용 Microsoft Defender를 설치할 때 iOS의 배터리 사용 문제
+
+앱의 배터리 사용량은 CPU 및 네트워크 사용량을 비롯한 다양한 요인에 따라 Apple에서 계산합니다. 끝점용 Microsoft Defender는 백그라운드에서 로컬/루프백 VPN을 사용하여 악성 웹 사이트 또는 연결에 대한 웹 트래픽을 확인합니다. 모든 앱에서 네트워크 패킷이 이 검사를 통과하여 끝점용 Microsoft Defender의 배터리 사용이 부정확하게 계산됩니다. 이렇게 하면 사용자에게 거짓 인상을 줍니다. 끝점용 Microsoft Defender의 실제 배터리 사용은 장치의 배터리 설정 페이지에 표시된 것보다 적습니다. 이는 배터리 소비를 이해하기 위해 끝점용 Microsoft Defender 앱에서 수행한 테스트를 기반으로 합니다.
+
+또한 사용된 VPN은 로컬 VPN으로, 기존 VPN과 달리 네트워크 트래픽은 장치 외부로 전송되지 않습니다.

@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a04f3be1f13fb57cd76cda7115d014f2ba3aa8d6
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 670c6449c1121bc329b1dfb37cd1d9948c99a3f8
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198836"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379301"
 ---
 # <a name="create-indicators"></a>표시기 만들기
 
@@ -65,7 +65,7 @@ Endpoint용 Defender의 클라우드 검색 엔진은 정기적으로 수집된 
 
 
 > [!NOTE]
-> 테넌트당 표시기는 15,000개로 제한됩니다. 파일 및 인증서 표시기는 Microsoft Defender 바이러스 백신에 정의된 제외를 [차단하지 않습니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) Microsoft Defender 바이러스 백신에서 지원되지 않는 표시기는 수동 모드입니다. 
+> 테넌트당 표시기는 15,000개로 제한됩니다. 파일 및 인증서 표시기는 Microsoft Defender 바이러스 백신에 정의된 제외를 [차단하지 않습니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) 수동 모드인 경우 표시기가 Microsoft Defender 바이러스 백신에서 지원되지 않습니다. 
 
 
 ## <a name="related-topics"></a>관련 항목

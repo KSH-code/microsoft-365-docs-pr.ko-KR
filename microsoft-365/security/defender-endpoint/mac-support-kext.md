@@ -1,6 +1,6 @@
 ---
-title: Mac용 Microsoft Defender ATP에서 커널 확장 문제 해결
-description: Mac용 Microsoft Defender ATP에서 커널 확장 관련 문제를 해결합니다.
+title: Mac용 끝점용 Microsoft Defender의 커널 확장 문제 해결
+description: Mac용 끝점용 Microsoft Defender에서 커널 확장 관련 문제를 해결합니다.
 keywords: microsoft, defender, atp, mac, 커널, 확장
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bdd5c6309a19863339b00e846c1c2670fc4f261b
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 877cc619d3ba048cdf6ecc8149f073461d9eac8e
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187604"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379519"
 ---
 # <a name="troubleshoot-kernel-extension-issues-in-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender의 커널 확장 문제 해결
 
@@ -32,7 +32,7 @@ ms.locfileid: "51187604"
 
 **적용 대상:**
 
-- [Mac용 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md)
+- [엔드포인트용 Microsoft Defender(Mac용)](microsoft-defender-endpoint-mac.md)
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -44,7 +44,7 @@ macOS High Sierra(10.13)부터 macOS는 장치에서 실행이 허용되기 전�
 
 Mac용 끝점용 Microsoft Defender를 배포/설치하는 동안 커널 확장을 승인하지 않은 경우 응용 프로그램에 사용하도록 설정할지 묻는 배너가 표시됩니다.
 
-   ![RTP를 사용하지 않도록 설정한 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-32-main-app-fix)
+   ![RTP를 사용하지 않도록 설정한 스크린샷](images/mdatp-32-main-app-fix.png)
 
 를 실행할 수 ```mdatp health``` 있습니다. 실시간 보호를 사용할 수 있지만 사용할 수 없는 경우 보고합니다. 이는 커널 확장이 장치에서 실행이 승인되지 않았다는 것을 나타냅니다.
 
@@ -73,7 +73,7 @@ real_time_protection_available              : true
 
 이 프롬프트가 표시되지 않는 경우 30분 이상이 지났지만 커널 확장이 장치에서 실행이 승인되지 않은 것입니다.
 
-![메시지가 만료된 후 보안 및 개인 정보 보호 창 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-33-securityprivacysettings-noprompt)
+![메시지가 만료된 후 보안 및 개인 정보 보호 창 스크린샷](images/mdatp-33-securityprivacysettings-noprompt.png)
 
 이 경우 다음 단계를 수행하여 승인 흐름을 다시 트리거해야 합니다.
 

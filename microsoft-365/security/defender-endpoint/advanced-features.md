@@ -16,17 +16,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 059cfbf37c79ff9f99b5e46c8d4329c203aa9665
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: 684025441c8400775f469515df1bcd0423d6460b
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215536"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394749"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
@@ -63,6 +63,14 @@ ms.locfileid: "51215536"
 ## <a name="live-response-unsigned-script-execution"></a>라이브 응답 부호 없는 스크립트 실행
 
 이 기능을 사용하도록 설정하면 라이브 응답 세션에서 부호 없는 스크립트를 실행할 수 있습니다.
+
+
+## <a name="restrict-correlation-to-within-scoped-device-groups"></a>범위가 지정되는 장치 그룹 내에서 상관 관계 제한
+이 설정을 설정하면 경고는 범위가 지정한 장치 그룹에 따라 별도의 인시던트와 상호 관련됩니다. 기본적으로 인시던트 상관 관계는 전체 테넌트 범위에서 발생합니다.
+
+>[!NOTE]
+>이 설정을 변경하면 향후 경고 상관 관계에만 영향을 미치게 됩니다.
+
 
 ## <a name="autoresolve-remediated-alerts"></a>수정된 경고 자동 해결
 

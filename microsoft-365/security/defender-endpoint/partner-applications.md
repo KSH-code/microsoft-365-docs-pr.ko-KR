@@ -17,19 +17,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 79db436c2017c00e1b5d669797c5fb025f651a8a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 563dd2a5102ec66a1e953ae6ab30d56ea4f99036
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186236"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382941"
 ---
 # <a name="partner-applications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 파트너 응용 프로그램 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -98,6 +98,7 @@ Defender for Endpoint는 플랫폼의 감지, 조사 및 위협 인텔리전스 
 ![Aruba ClearPass 정책 관리자 로고 이미지](images/aruba-logo.png) | [Aruba ClearPass 정책 관리자](https://go.microsoft.com/fwlink/?linkid=2127544) | 네트워크에 대한 액세스를 허용하기 전에 끝점용 Defender가 각 끝점에 설치 및 업데이트되도록 합니다.
 ![네트워크 로고에 대한 파랑 16진수 이미지](images/bluehexagon-logo.png) | [네트워크용 파랑 16진수](https://go.microsoft.com/fwlink/?linkid=2104613) | Blue Hexagon은 업계 최초로 네트워크 위협 방지를 위한 실시간 딥러닝 플랫폼을 구축했습니다.
 ![CyberMDX 로고 이미지](images/cybermdx-logo.png) | [CyberMDX](https://go.microsoft.com/fwlink/?linkid=2135620) | 사이버 MDX는 포괄적인 의료 자산 가시성, 위협 방지 및 끝점 환경용 Defender에 다시 노출을 통합합니다.
+![HYAS Protect 로고 이미지](images/hyas-logo.png) | [HYAS 보호](https://go.microsoft.com/fwlink/?linkid=2156763) | HYAS Protect는 공격자 인프라에 대한 권한이 있는 지식을 활용하여 사이버 공격으로부터 끝점 끝점용 Microsoft Defender를 사전 보호합니다.
 ![NDR(Vectra Network Detection and Response) 로고 이미지](images/vectra-logo.png) |[Vectra 네트워크 검색 및 응답(NDR)](https://go.microsoft.com/fwlink/?linkid=866934)| Vectra는 실시간으로 사이버 & 감지하고 대응하기 위해 AI 보안 연구를 적용합니다.
 
 

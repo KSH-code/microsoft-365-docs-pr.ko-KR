@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 83a56a74ff949b23843417942923d2b4b810b4ee
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 1386809778edeb92521a8656e9ece78591a682a4
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185933"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382904"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender에 대한 개인 정보
 
@@ -156,6 +156,18 @@ IT 관리자인 경우 엔터프라이즈 수준에서 이러한 컨트롤을 �
 | 이유           | 업데이트된 파일을 제출한 경우 오류 메시지가 표시됩니다. |
 
 #### <a name="product-and-service-performance-data-events"></a>제품 및 서비스 성능 데이터 이벤트
+
+**예기치 않은 응용 프로그램 종료(크래시)**
+
+응용 프로그램이 예기치 않게 종료된 경우 시스템 정보 및 응용 프로그램의 상태를 수집합니다.
+
+다음 필드가 수집됩니다.
+
+| 필드                          | 설명 |
+| ------------------------------ | ----------- |
+| v1_crash_count                 | 클라이언트 컴퓨터의 V1 엔진 프로세스가 매시간 중단된 횟수  |
+| v2_crash_count                 | 클라이언트 컴퓨터의 V2 엔진 프로세스가 매시간 중단된 횟수  |
+| EDR_crash_count                | 클라이언트 컴퓨터의 EDR 프로세스가 매시간 중단된 횟수        |
 
 **커널 확장 통계**
 

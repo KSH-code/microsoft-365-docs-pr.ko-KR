@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/20/2020
 ms.technology: mde
-ms.openlocfilehash: fc4c15d2e391176ed0b4420c13fb865674da0361
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 48b1f1bf9506acc8491887fca49295d5e4ccbd69
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163590"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382712"
 ---
 # <a name="create-custom-detection-rules"></a>사용자 지정 검색 규칙 만들기
 
@@ -98,8 +98,8 @@ DeviceEvents
 - **3시간마다**-지난 6시간의 데이터를 확인하여 3시간마다 실행
 - **매시간**-매시간 실행, 지난 2시간의 데이터 확인
 
-> [!IMPORTANT]
-> 이미 사용자 지정 검색으로 예약된 쿼리를 변경하는 경우 즉시 실행되는 쿼리는 새 쿼리를 만들 때와 똑같은 30일의 조회 기간을 가집니다. 많은 수의 쿼리 및 선택한 빈도에 대한 기본 조회 기간보다 더 많은 시간 필터를 변경하면 고급 헌팅의 전체 할당량 소비에 영향을 미쳐 일별 할당량이 소진될 수 있습니다.
+규칙을 편집하면 설정한 빈도에 따라 예약된 다음 런타스에 적용된 변경 내용과 함께 규칙이 실행됩니다.
+
 
 > [!TIP]
 > 쿼리의 시간 필터를 조회 기간과 일치합니다. 콜백 기간 외의 결과는 무시됩니다.

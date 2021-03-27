@@ -1,6 +1,6 @@
 ---
-title: macOS용 Microsoft Defender ATP 수동 배포
-description: 명령줄에서 macOS용 Microsoft Defender ATP를 수동으로 설치합니다.
+title: MacOS용 끝점용 Microsoft Defender 수동 배포
+description: 명령줄에서 macOS용 끝점용 Microsoft Defender를 수동으로 설치합니다.
 keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamf, macos, 카탈로나, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b2629eb3d13e6eb908644dfcade46a7ac2768637
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 044a3d48dc350a5663a27ab3c16c2da7a5e3f3f1
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187448"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379471"
 ---
 # <a name="manual-deployment-for-microsoft-defender-for-endpoint-for-macos"></a>MacOS용 끝점용 Microsoft Defender 수동 배포
 
@@ -64,20 +64,20 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 
 1. Finder에서 다운로드한 wdav.pkg로 이동한 다음 을 열어 립니다.
 
-    ![앱 설치 스크린샷1](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-28-appinstall)
+    ![앱 설치 스크린샷1](images/mdatp-28-appinstall.png)
 
 2. 계속을 **선택하고** 사용 조건에 동의하고 메시지가 표시될 때 암호를 입력합니다.
 
-    ![앱 설치 스크린샷2](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-29-appinstalllogin)
+    ![앱 설치 스크린샷2](images/mdatp-29-appinstalllogin.png)
 
    > [!IMPORTANT]
    > Microsoft에서 드라이버를 설치할 수 있도록 허용하라는 메시지가 표시됩니다("시스템 확장 차단" 또는 "설치가 보류 중입니다." 또는 둘 다). 드라이버를 설치할 수 있어야 합니다.
 
-   ![앱 설치 스크린샷3](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-30-systemextension)
+   ![앱 설치 스크린샷3](images/mdatp-30-systemextension.png)
 
 3. 보안 **기본 설정 열기** 또는 보안 및 개인 > 시스템 기본 & **를 선택합니다.** 허용을 **선택합니다.**
 
-    ![보안 및 개인 정보 창 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-31-securityprivacysettings)
+    ![보안 및 개인 정보 창 스크린샷](images/mdatp-31-securityprivacysettings.png)
 
    설치가 진행됩니다.
 
@@ -139,7 +139,7 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 
 설치 후 오른쪽 위 모서리의 macOS 상태 표시줄에 Microsoft Defender 아이콘이 표시됩니다.
 
-   ![상태 표시줄의 Microsoft Defender 아이콘 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-icon-bar)
+   ![상태 표시줄의 Microsoft Defender 아이콘 스크린샷](images/mdatp-icon-bar.png)
    
 
 ## <a name="how-to-allow-full-disk-access"></a>전체 디스크 액세스를 허용하는 방법

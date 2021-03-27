@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 1c8a3f3ab91add9e057c4661677997e658f42386
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 9a3806d3e2bff66e04f4adb50217fc1c6f267364
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071548"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382606"
 ---
 # <a name="devicenetworkinfo"></a>DeviceNetworkInfo
 
@@ -46,7 +46,6 @@ ms.locfileid: "51071548"
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
 | `DeviceId` | 문자열 | 서비스에서 시스템의 고유 식별자 |
 | `DeviceName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름) |
-| `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유한 이벤트를 식별하려면 이 열을 DeviceName 및 Timestamp 열과 함께 사용해야 합니다. |
 | `NetworkAdapterName` | 문자열 | 네트워크 어댑터의 이름 |
 | `MacAddress` | 문자열 | 네트워크 어댑터의 MAC 주소 |
 | `NetworkAdapterType` | 문자열 | 네트워크 어댑터 유형입니다. 가능한 값은 이 [열거를 참조하세요.](/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2) |
@@ -58,6 +57,7 @@ ms.locfileid: "51071548"
 | `IPv6Dhcp` | 문자열 | DHCP 서버의 IPv6 주소 |
 | `DefaultGateways` | 문자열 | JSON 배열 형식의 기본 게이트웨이 주소 |
 | `IPAddresses` | 문자열 | 어댑터에 할당된 모든 IP 주소와 해당 서브넷 접두사 및 IP 주소 공간(예: 공용, 개인 또는 링크 로컬)을 포함하는 JSON 배열 |
+| `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유한 이벤트를 식별하려면 이 열을 DeviceName 및 Timestamp 열과 함께 사용해야 합니다. |
 
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 개요](advanced-hunting-overview.md)

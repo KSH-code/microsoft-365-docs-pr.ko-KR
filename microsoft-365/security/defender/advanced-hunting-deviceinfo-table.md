@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 46efb531331cf76472c67c769c96804d11fb9e4b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d56710f4933a8971230c78d7b3570f14b9bda335
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071564"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382628"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -55,10 +55,10 @@ ms.locfileid: "51071564"
 | `AadObjectId` | 문자열 | Azure AD에서 디바이스의 고유 식별자 |
 | `LoggedOnUsers` | 문자열 | 이벤트 당시 컴퓨터에 로그온한 모든 사용자 목록(JSON 배열 형식)입니다. |
 | `RegistryDeviceTag` | 문자열 | 레지스트리를 통해 추가된 컴퓨터 태그 |
-| `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유한 이벤트를 식별하려면 이 열을 DeviceName 및 Timestamp 열과 함께 사용해야 합니다. |
-|`AdditionalFields` | 문자열 | JSON 배열 형식의 이벤트에 대한 추가 정보 |
 | `OSVersion` | 문자열 | 컴퓨터에서 실행 중인 운영 체제 버전 |
 | `MachineGroup` | 문자열 | 컴퓨터의 컴퓨터 그룹입니다. 이 그룹은 역할 기반 액세스 제어에서 컴퓨터 액세스 확인에 사용됩니다. |
+| `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유한 이벤트를 식별하려면 이 열을 DeviceName 및 Timestamp 열과 함께 사용해야 합니다. |
+|`AdditionalFields` | 문자열 | JSON 배열 형식의 이벤트에 대한 추가 정보 |
 
 이 표에서는 장치의 주기적인 보고서 또는 신호인 하트비트 기반 장치 `DeviceInfo` 정보를 제공합니다. 15분마다 장치는 처럼 자주 변경되는 특성을 포함하는 부분 하트비트를 `LoggedOnUsers` 전송합니다. 하루 중 한 번 장치의 특성을 포함하는 전체 하트비트가 전송됩니다.
 

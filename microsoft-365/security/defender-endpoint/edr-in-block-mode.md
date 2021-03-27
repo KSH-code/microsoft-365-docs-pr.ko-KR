@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: b31e7aeb9178cb6021434319e55ddef927d7c263
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7bee6c99d2c1c5ad3cec8f2e317b729a0a4e1f8b
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165876"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379481"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>차단 모드의 끝점 검색 및 응답(EDR)
 
@@ -86,7 +86,7 @@ ms.locfileid: "51165876"
 > [!IMPORTANT]
 > 최상의 보호 값을 얻기 위해 정기적인 업데이트 및 필수 기능을 받도록 바이러스 백신 솔루션이 구성되어 있는지, 그리고 제외가 구성되어 [있는지 확인합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) 차단 모드의 EDR은 Microsoft Defender 바이러스 백신에 대해 정의된 제외를 존중합니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문 
+## <a name="frequently-asked-questions"></a>질문과 대답 
 
 ### <a name="do-i-need-to-turn-edr-in-block-mode-on-even-when-i-have-microsoft-defender-antivirus-running-on-devices"></a>장치에서 Microsoft Defender 바이러스 백신을 실행하고 있는 경우에도 차단 모드로 EDR을 켜야 하나요?
 
@@ -132,6 +132,9 @@ Microsoft Defender 바이러스 백신이 활성 모드 또는 수동 모드에�
 2. `sc query windefend`(을)를 입력합니다.
 
 3. 결과 목록의 **STATE** 행에서 서비스가 실행 중인지 선택합니다.
+
+### <a name="how-much-time-does-it-take-for-edr-in-block-mode-to-be-disabled"></a>차단 모드에서 EDR을 사용하지 않도록 설정하는 데 얼마나 걸릴까요?
+차단 모드에서 EDR을 사용하지 않도록 선택한 경우 시스템에서 이 기능을 사용하지 않도록 설정하는 데 최대 30분이 걸릴 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 

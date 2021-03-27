@@ -1,5 +1,5 @@
 ---
-title: Mac용 Microsoft Defender ATP에 대한 Intune 기반 배포
+title: Mac용 끝점용 Microsoft Defender용 Intune 기반 배포
 description: Microsoft Intune을 사용하여 Mac용 끝점용 Microsoft Defender를 설치합니다.
 keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamf, macos, 카탈로나, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 08cb16f6ae6e259d1bc92e7d2bed96f093a435f0
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: bd74f3a487de4febecb2086cb126c50b8432c342
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222516"
+ms.locfileid: "51379634"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender용 Intune 기반 배포
 
@@ -36,7 +36,7 @@ ms.locfileid: "51222516"
 
 **적용 대상:**
 
-- [Mac용 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md)
+- [엔드포인트용 Microsoft Defender(Mac용)](microsoft-defender-endpoint-mac.md)
 
 이 항목에서는 Intune을 통해 Mac용 끝점용 Microsoft Defender를 배포하는 방법을 설명합니다. 배포를 성공적으로 수행하려면 다음 단계를 모두 완료해야 합니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "51222516"
 | [끝점용 Microsoft Defender에 대한 전체 디스크 액세스 권한 부여](#create-system-configuration-profiles-step-8) | MDATP_tcc_Catalina_or_newer.xml | com.microsoft.wdav.tcc |
 | [네트워크 확장 정책](#create-system-configuration-profiles-step-9) | MDATP_NetExt.xml | 해당 없음 |
 | [MAU(Microsoft 자동 업데이트) 구성](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/mac-updates#intune) | MDATP_Microsoft_AutoUpdate.xml | com.microsoft.autoupdate2 |
-| [끝점 구성 설정용 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/mac-preferences#intune-profile-1)<br/><br/> **참고:** macOS용 타사 AV를 실행할 계획이면 로 `passiveMode` `true` 설정됩니다. | MDATP_WDAV_and_exclusion_settings_Preferences.xml | com.microsoft.wdav |
+| [끝점 구성 설정용 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/mac-preferences#intune-profile-1)<br/><br/> **참고:** macOS용 타사 AV를 실행하고자 하는 경우 로 `passiveMode` `true` 설정됩니다. | MDATP_WDAV_and_exclusion_settings_Preferences.xml | com.microsoft.wdav |
 | [끝점 및 MS 자동 업데이트(MAU) 알림에 대해 Microsoft Defender 구성](#create-system-configuration-profiles-step-10) | MDATP_MDAV_Tray_and_AutoUpdate2.mobileconfig | com.microsoft.autoupdate2 또는 com.microsoft.wdav.tray |
 
 ## <a name="download-installation-and-onboarding-packages"></a>설치 및 온보더링 패키지 다운로드
@@ -133,13 +133,15 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 
 ## <a name="client-device-setup"></a>클라이언트 장치 설정
 
-표준 회사 포털 설치 이외에는 Mac 장치에 대한 특별한 프로비저닝이 [필요하지 않습니다.](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos-cp)
+표준 회사 포털 설치 이상으로 Mac 장치에 대한 특별한 프로비저닝이 [필요하지 않습니다.](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos-cp)
 
 1. 장치 관리를 확인합니다.
 
+   ![장치 관리 스크린샷 확인](images/mdatp-3-confirmdevicemgmt.png)
+
     시스템 **기본 설정 열기** 를 선택하고 목록에서 **관리** 프로필을 찾은 다음 **승인... 을 선택합니다.** 관리 프로필이 확인된 **것으로 표시됩니다.**
 
-    ![관리 프로필 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-4-managementprofile)
+    ![관리 프로필 스크린샷](images/mdatp-4-managementprofile.png)
 
 2. **계속을** 선택하고 등록을 완료합니다.
 
@@ -148,7 +150,7 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 3. Intune에서 장치 모든  >  **장치 관리를** 열 수  >  **있습니다.** 여기에 나열된 장치 중 디바이스를 볼 수 있습니다.
 
    > [!div class="mx-imgBorder"]
-   > ![장치 추가 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-5-alldevices)
+   > ![장치 추가 스크린샷](images/mdatp-5-alldevices.png)
 
 ## <a name="approve-system-extensions"></a>시스템 확장 승인
 
@@ -184,7 +186,7 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 
 4. **확인** 을 선택합니다.
 
-    ![사용자 지정 구성 프로필에 대한 파일에서 구성 가져오기](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-6-systemconfigurationprofiles)
+    ![사용자 지정 구성 프로필에 대한 파일에서 구성 가져오기](images/mdatp-6-systemconfigurationprofiles.png)
 
 5. 배정   >  **관리를 선택합니다.** 포함 **탭에서** 모든 사용자 및 모든 & **할당을 선택합니다.**
 
@@ -208,7 +210,7 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니터링에 나열된 내용을 볼  >  **수 있습니다.**
 
 > [!div class="mx-imgBorder"]
-> ![모니터의 장치 상태 보기](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-7-devicestatusblade.png)
+> ![모니터의 장치 상태 보기](images/mdatp-7-devicestatusblade.png)
 
 ## <a name="publish-application"></a>응용 프로그램 게시
 
@@ -230,43 +232,43 @@ Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니�
     > Intune에서 업로드한 버전이 디바이스의 버전보다 낮을 경우 더 낮은 버전이 설치됩니다. 그러면 끝점용 Microsoft Defender가 다운그레이딩됩니다. 이로 인해 응용 프로그램이 작동하지 않는 것일 수 있습니다. 제품 업데이트 방법에 대한 자세한 내용은 [Mac용 Microsoft Defender용 업데이트](mac-updates.md) 배포를 참조하세요. 앱 버전 무시를 아니요로  설정하여 끝점용 Microsoft Defender를 배포한 경우 **를** 예로 **변경하세요.** 끝점용 Microsoft Defender를 클라이언트 장치에 설치할 수 없는 경우 끝점용 Microsoft Defender를 제거하고 업데이트된 정책을 적용합니다.
      
     > [!div class="mx-imgBorder"]
-    > ![앱 추가에서 앱 정보 표시](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-8-intuneappinfo)
+    > ![앱 추가에서 앱 정보 표시](images/mdatp-8-intuneappinfo.png)
 
 7. 확인을 **선택하고** **추가를 선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![알림 창에 표시되는 장치 상태](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-9-intunepkginfo)
+    > ![알림 창에 표시되는 장치 상태](images/mdatp-9-intunepkginfo.png)
 
 8. 패키지를 업로드하는 데 몇 분 정도 걸릴 수 있습니다. 완료된 후 목록에서 패키지를 선택하고 **과제** 및 그룹 **추가 로 이동하세요.**
 
     > [!div class="mx-imgBorder"]
-    > ![클라이언트 앱 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-10-clientapps)
+    > ![클라이언트 앱 스크린샷](images/mdatp-10-clientapps.png)
 
 9. 배정 **유형을 필수로** **변경합니다.**
 
 10. 포함된 **그룹을 선택합니다.** 모든 **디바이스에 이 앱을 필수로 만들기=예 를 선택합니다.** 그룹 **선택을 선택하여** 대상을 지정하려는 사용자가 포함된 그룹을 포함하고 추가합니다. 확인 **및** **저장을 선택합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Intune 할당 정보 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-11-assignments)
+    > ![Intune 할당 정보 스크린샷](images/mdatp-11-assignments.png)
 
 11. 시간이 지난 후 응용 프로그램이 등록된 모든 장치에 게시됩니다. 장치 모니터링 에 나열된  >  **장치** 설치 **상태 아래에서 볼 수 있습니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![Intune 장치 상태 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-12-deviceinstall)
+    > ![Intune 장치 상태 스크린샷](images/mdatp-12-deviceinstall.png)
 
 ## <a name="verify-client-device-state"></a>클라이언트 장치 상태 확인
 
 1. 구성 프로필을 장치에 배포한 후 Mac 장치에서 **시스템** 기본 설정  >   프로필을 여는 방법을 확인합니다.
 
-    ![시스템 기본 설정 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-13-systempreferences)<br/>
-    ![시스템 기본 설정 프로필 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-14-systempreferencesprofiles)
+    ![시스템 기본 설정 스크린샷](images/mdatp-13-systempreferences.png)<br/>
+    ![시스템 기본 설정 프로필 스크린샷](images/mdatp-14-systempreferencesprofiles.png)
 
-2. 다음 구성 프로필이 존재하고 설치되어 있는지 확인합니다. 관리 **프로필은** Intune 시스템 프로필입니다. _Wdav-config_ 및 _wdav-kext는_ Intune: 프로필 스크린샷에 추가된 시스템 구성 ![ 프로필입니다.](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-15-managementprofileconfig)
+2. 다음 구성 프로필이 존재하고 설치되어 있는지 확인합니다. 관리 **프로필은** Intune 시스템 프로필입니다. _Wdav-config_ 및 _wdav-kext는_ Intune: 프로필 스크린샷에 추가된 시스템 구성 ![ 프로필입니다.](images/mdatp-15-managementprofileconfig.png)
 
 3. 오른쪽 위에 Microsoft Defender 아이콘도 표시됩니다.
 
     > [!div class="mx-imgBorder"]
-    > ![상태 표시줄의 Microsoft Defender 아이콘 스크린샷](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-icon-bar)
+    > ![상태 표시줄의 Microsoft Defender 아이콘 스크린샷](images/mdatp-icon-bar.png)
 
 ## <a name="troubleshooting"></a>문제 해결
 

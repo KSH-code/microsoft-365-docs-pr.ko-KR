@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 9699b5e2bc2e33b94795b7c23bd3f34f0383a8cc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 12a35a9f80da6b401495fcae7c245436b35b991c
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060815"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382892"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>사용자 지정 검색 규칙 만들기 및 관리
 
@@ -116,12 +116,16 @@ DeviceEvents
 - **권장 작업**- 경고에 대한 응답으로 응답할 수 있는 추가 작업
 
 #### <a name="rule-frequency"></a>규칙 빈도
-새 규칙을 저장하거나 편집하면 규칙이 실행된 후 지난 30일 동안의 데이터와 일치하는지 검사합니다. 그런 다음 규칙은 고정된 간격으로 다시 실행되어 선택한 빈도에 따라 콜백 기간을 적용합니다.
+새 규칙을 저장하면 규칙이 실행된 후 지난 30일 동안의 데이터와 일치하는지 검사합니다. 그런 다음 규칙은 고정된 간격으로 다시 실행되어 선택한 빈도에 따라 콜백 기간을 적용합니다.
 
 - **24시간마다**-지난 30일간의 데이터를 확인하여 24시간마다 실행
 - **12시간마다**-지난 24시간의 데이터를 확인하여 12시간마다 실행
 - **3시간마다**-지난 6시간의 데이터를 확인하여 3시간마다 실행
 - **매시간**-매시간 실행, 지난 2시간의 데이터 확인
+
+규칙을 편집하면 설정한 빈도에 따라 예약된 다음 런타스에 적용된 변경 내용과 함께 규칙이 실행됩니다.
+
+
 
 >[!TIP]
 > 쿼리의 시간 필터를 조회 기간과 일치합니다. 콜백 기간 외의 결과는 무시됩니다.  

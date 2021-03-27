@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 247b8b8d8e18c8eecb09029581635ae907433f55
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: df96b57b9898dd973fab053918d763d1972bd50d
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076375"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382808"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>고급 헌팅에 대한 전문 교육을 받을 수 있습니다.
 
@@ -36,7 +36,6 @@ ms.locfileid: "51076375"
 - Microsoft 365 Defender
 
 새로운 보안 분석가와 경험 많은 위협 헌터를 위한 웹캐스트 시리즈인 사적 추적을 통해 고급 헌팅에 대한 지식을 빠르게 향상합니다. 시리즈는 복잡한 쿼리를 만드는 모든 방법을 기본으로 안내합니다. 기본 사항에 대한 첫 번째 비디오로 시작하거나 환경 수준에 맞는 고급 비디오로 이동하세요.
-
 
 | 제목 | 설명 | 감시 | 쿼리 | 
 |--|--|--|--|

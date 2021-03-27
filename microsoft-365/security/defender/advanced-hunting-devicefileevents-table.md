@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 10009edab33d04ca01da9459c394634d0622cf3d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 62989eca2fd00757ea02d03bf24a0049135d97b0
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071580"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382868"
 ---
 # <a name="devicefileevents"></a>DeviceFileEvents
 
@@ -63,11 +63,19 @@ ms.locfileid: "51071580"
 | `InitiatingProcessAccountName` | 문자열 | 이벤트를 담당하는 프로세스를 시작한 계정의 사용자 이름입니다. |
 | `InitiatingProcessAccountSid` | 문자열 | 이벤트를 담당하는 프로세스를 시작한 계정의 SID(보안 식별자)입니다. |
 | `InitiatingProcessAccountUpn` | 문자열 | 이벤트를 담당하는 프로세스를 시작한 계정의 UPN(사용자 계정 이름)입니다. |
+| `InitiatingProcessAccountObjectId` | 문자열 | 이벤트를 담당하는 프로세스를 시작한 사용자 계정의 Azure AD 개체 ID입니다. |
 | `InitiatingProcessMD5` | 문자열 | 이벤트를 시작한 프로세스(이미지 파일)의 MD5 해시입니다. |
 | `InitiatingProcessSHA1` | 문자열 | 이벤트를 시작한 프로세스(이미지 파일)의 SHA-1 |
 | `InitiatingProcessSHA256` | 문자열 | 이벤트를 시작한 프로세스(이미지 파일)의 SHA-256입니다. 일반적으로이 필드는 채워지지 않습니다. 가능한 경우 SHA1 열을 사용합니다. |
 | `InitiatingProcessFolderPath` | 문자열 | 이벤트를 시작한 프로세스(이미지 파일)가 포함된 폴더 |
 | `InitiatingProcessFileName` | 문자열 | 이벤트를 시작한 프로세스의 이름입니다. |
+| `InitiatingProcessFileSize` | long | 이벤트를 시작한 프로세스(이미지 파일) 크기 |
+| `InitiatingProcessVersionInfoCompanyName` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 회사 이름 |
+| `InitiatingProcessVersionInfoProductName` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 제품 이름 |
+|` InitiatingProcessVersionInfoProductVersion` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 제품 버전 |
+|` InitiatingProcessVersionInfoInternalFileName` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 내부 파일 이름 |
+| `InitiatingProcessVersionInfoOriginalFileName` | 문자열 | 이벤트를 담당하는 프로세스의 버전 정보(이미지 파일)의 원래 파일 이름입니다. |
+| `InitiatingProcessVersionInfoFileDescription` | 문자열 | 이벤트를 담당하는 프로세스(이미지 파일)의 버전 정보 설명 |
 | `InitiatingProcessId` | int | 이벤트를 시작한 프로세스의 PID(프로세스 ID)입니다. |
 | `InitiatingProcessCommandLine` | 문자열 | 이벤트를 시작한 프로세스를 실행하는 데 사용되는 명령줄 |
 | `InitiatingProcessCreationTime` | datetime | 이벤트를 시작한 프로세스가 시작된 날짜 및 시간 |
@@ -77,20 +85,19 @@ ms.locfileid: "51071580"
 | `InitiatingProcessParentFileName` | 문자열 | 이벤트를 담당하는 프로세스를 시작한 상위 프로세스의 이름입니다. |
 | `InitiatingProcessParentCreationTime` | datetime | 이벤트를 담당하는 프로세스의 부모가 시작된 날짜 및 시간입니다. |
 | `RequestProtocol` | 문자열 | 네트워크 프로토콜(해당하는 경우) 활동을 시작하는 데 사용됩니다. 알 수 없음, 로컬, SMB 또는 NFS |
-| `ShareName` | 문자열 | 파일이 포함된 공유 폴더의 이름입니다. |
 | `RequestSourceIP` | 문자열 | 활동을 시작한 원격 장치의 IPv4 또는 IPv6 주소 |
 | `RequestSourcePort` | 문자열 | 활동을 시작한 원격 장치의 원본 포트 |
 | `RequestAccountName` | 문자열 | 활동을 원격으로 시작하는 데 사용되는 계정의 사용자 이름입니다. |
 | `RequestAccountDomain` | 문자열 | 활동을 원격으로 시작하는 데 사용되는 계정의 도메인 |
 | `RequestAccountSid` | 문자열 | 원격으로 활동을 시작하는 데 사용되는 계정의 SID(보안 식별자)입니다. |
-| `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유한 이벤트를 식별하려면 이 열을 DeviceName 및 Timestamp 열과 함께 사용해야 합니다. |
-| `AppGuardContainerId` | 문자열 | Application Guard에서 브라우저 활동을 격리하기 위해 사용하는 가상화된 컨테이너의 식별자 |
-| `AdditionalFields` | 문자열 | 엔터티 또는 이벤트에 대한 추가 정보 |
+| `ShareName` | 문자열 | 파일이 포함된 공유 폴더의 이름입니다. |
 | `InitiatingProcessFileSize` | long | 이벤트를 담당하는 프로세스를 시작한 파일의 크기입니다. |
 | `SensitivityLabel` | 문자열 | 정보 보호를 위해 분류하기 위해 전자 메일, 파일 또는 기타 콘텐츠에 적용된 레이블 |
 | `SensitivitySubLabel` | 문자열 | 정보 보호를 위해 분류하기 위해 전자 메일, 파일 또는 기타 콘텐츠에 적용된 하위레이블 민감도 하위 레이블은 민감도 레이블 아래에 그룹화되지만 독립적으로 처리됩니다. |
 | `IsAzureInfoProtectionApplied` | 부울 | 파일이 Azure Information Protection에 의해 암호화되어 있는지 여부를 나타냅니다. |
-
+| `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유한 이벤트를 식별하려면 이 열을 DeviceName 및 Timestamp 열과 함께 사용해야 합니다. |
+| `AppGuardContainerId` | 문자열 | Application Guard에서 브라우저 활동을 격리하기 위해 사용하는 가상화된 컨테이너의 식별자 |
+| `AdditionalFields` | 문자열 | 엔터티 또는 이벤트에 대한 추가 정보 |
 >[!NOTE]
 > 파일 해시 정보는 사용 가능한 경우 항상 표시됩니다. 그러나 SHA1, SHA256 또는 MD5를 계산할 수 없는 몇 가지 이유가 있습니다. 예를 들어 파일이 원격 저장소에 위치하거나 다른 프로세스에 의해 잠기거나 압축되거나 가상으로 표시될 수 있습니다. 이러한 시나리오에서는 파일 해시 정보가 비어 있는 것으로 표시됩니다.
 

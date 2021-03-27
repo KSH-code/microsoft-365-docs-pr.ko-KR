@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: cf37fe2aeac193c6b45f55fd5f5c850470ba6da4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3d991bc5e78fc7b33e20df1f86471a0969b7345f
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071500"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382598"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
@@ -54,7 +54,7 @@ ms.locfileid: "51071500"
 | `IsCompliant` | 부울 | 구성 또는 정책이 올바르게 구성되어 있는지 여부 |
 | `IsApplicable` | 부울 | 구성 또는 정책이 장치에 적용되는지 여부를 나타냅니다. |
 | `Context` | 문자열 | 구성 또는 정책에 대한 추가 상황 정보 |
-| `IsExpectedUserImpactCompliant` | 부울 | 구성 또는 정책이 적용되는 경우 사용자에게 영향을 줄지 여부를 나타냅니다. |
+| `IsExpectedUserImpact` | 부울 | 구성 또는 정책이 적용되는 경우 사용자에게 영향을 줄지 여부를 나타냅니다. |
 
 ## <a name="related-topics"></a>관련 항목
 

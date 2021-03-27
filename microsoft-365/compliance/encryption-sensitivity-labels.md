@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 액세스 및 사용을 제한하여 데이터를 보호하는 암호화를 위한 민감도 레이블을 구성합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e8080a282ef734490214dc5f2b9e18a1946b314c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: f670a3cdefb7b6cd78d24a17fc2e6276274efff3
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185829"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222421"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한
 
@@ -232,7 +232,7 @@ ms.locfileid: "51185829"
 
 다음 옵션을 사용하여 사용자가 민감도 레이블을 콘텐츠에 수동으로 추가할 때 사용자가 권한을 할당하도록 허용할 수 있습니다.
 
-- Outlook의 경우 사용자는 선택된 수신자에 대해 [전달하지 않음](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) 옵션 또는 [암호화 전용](/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails)(현재 배포 중)에 해당하는 제한을 선택할 수 있습니다.
+- Outlook의 경우 사용자는 선택된 수신자에 대해 [전달하지 않음](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) 옵션 또는 [암호화 전용](/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails)에 해당하는 제한을 선택할 수 있습니다.
     
     전달하지 않음 옵션은 민감도 레이블을 지원하는 모든 전자 메일 클라이언트에서 지원됩니다. 그러나 민감도 레이블에 **암호화 전용** 옵션을 적용하는 것은 Azure Information Protection 통합 레이블 클라이언트가 아닌 기본 제공 레이블에서만 지원되는 최근 릴리스입니다. 이 기능을 지원하지 않는 전자 메일 클라이언트의 경우 레이블이 표시되지 않습니다.
     

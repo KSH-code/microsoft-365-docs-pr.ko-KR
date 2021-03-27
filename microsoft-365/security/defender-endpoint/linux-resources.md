@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7196053ffef3dffc3c737d0df26a5d12bdfe8a4c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: ab5400a197a1f0ac61c8b298a06165d217f44fd1
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187760"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394737"
 ---
 # <a name="resources"></a>리소스
 
@@ -32,7 +32,7 @@ ms.locfileid: "51187760"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -105,6 +105,7 @@ Linux용 끝점용 Defender를 제거하는 방법에는 여러 가지가 있습
 |Group                 |시나리오                                                |명령                                                                |
 |----------------------|--------------------------------------------------------|-----------------------------------------------------------------------|
 |구성         |실시간 보호 켜기/끄기                        |`mdatp config real-time-protection --value [enabled\|disabled]`        |
+|구성         |동작 모니터링 켜기/끄기                         |`mdatp config behavior-monitoring --value [enabled\|disabled]` 
 |구성         |클라우드 보호 켜기/끄기                            |`mdatp config cloud --value [enabled\|disabled]`                       |
 |구성         |제품 진단 켜기/끄기                         |`mdatp config cloud-diagnostic --value [enabled\|disabled]`            |
 |구성         |자동 샘플 제출 켜기/끄기                 |`mdatp config cloud-automatic-sample-submission [enabled\|disabled]`   |

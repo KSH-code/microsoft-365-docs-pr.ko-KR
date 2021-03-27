@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: bd92b44892b49a007316acb97296a44514db0578
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 5013d94277eeba7d1df100d2850cb950fe2e0742
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51069740"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379352"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점용 Microsoft Defender 서비스에 Windows 서버 온보딩
 
@@ -89,7 +89,10 @@ Windows 서버에 대한 Windows 보안 기준을 다운로드하고 사용하�
  - 또한 Windows Server 2008 R2 SP1의 경우 다음 요구 사항을 충족해야 합니다.
     - [2월](https://support.microsoft.com/help/4074598/windows-7-update-kb4074598) 월간 업데이트 롤업 설치
     - [.NET framework 4.5](https://www.microsoft.com/download/details.aspx?id=30653) 이상 또는 [KB3154518](https://support.microsoft.com/help/3154518/support-for-tls-system-default-versions-included-in-the-net-framework) 설치
-
+   
+   > [!NOTE]
+    > SCCM을 통해 Windows Server 2008 R2 SP1을 관리하는 경우 SCCM 클라이언트 에이전트는 .Net Framework 4.5.2를 설치합니다. 따라서 .NET Framework 4.5 이상을 설치할 필요가 없습니다.
+   
  - Windows Server 2008 R2 SP1 및 Windows Server 2012 R2: System Center Endpoint Protection 클라이언트를 구성하고 [업데이트합니다.](#configure-and-update-system-center-endpoint-protection-clients)
 
     > [!NOTE]

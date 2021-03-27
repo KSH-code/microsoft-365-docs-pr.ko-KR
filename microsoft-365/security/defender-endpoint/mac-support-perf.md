@@ -1,6 +1,6 @@
 ---
-title: Mac용 Microsoft Defender ATP의 성능 문제 해결
-description: Mac용 Microsoft Defender ATP의 성능 문제를 해결합니다.
+title: Mac용 끝점용 Microsoft Defender의 성능 문제 해결
+description: Mac용 끝점용 Microsoft Defender의 성능 문제를 해결합니다.
 keywords: microsoft, defender, atp, mac, 성능
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f6dd5681dfafd069a4c52f72e1dc1733584283a2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 87190d9e0bb62d42642374bd7c9f6f3acad3c80a
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185912"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379389"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender의 성능 문제 해결
 
@@ -32,7 +32,7 @@ ms.locfileid: "51185912"
 
 **적용 대상:**
 
-- [Mac용 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md)
+- [엔드포인트용 Microsoft Defender(Mac용)](microsoft-defender-endpoint-mac.md)
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -42,7 +42,7 @@ ms.locfileid: "51185912"
 
 RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터링하고 보호하는 Mac용 끝점용 Microsoft Defender의 기능입니다. 이 구성은 파일 및 프로세스 모니터링 및 기타추론으로 구성됩니다.
 
-실행 중인 응용 프로그램 및 장치 특성에 따라 Mac용 끝점용 Microsoft Defender를 실행하면 하위 성능을 경험할 수 있습니다. 특히 짧은 시간 동안 많은 리소스에 액세스하는 응용 프로그램 또는 시스템 프로세스는 Mac용 끝점용 Microsoft Defender의 성능 문제를 발생할 수 있습니다.
+실행 중인 응용 프로그램 및 장치 특성에 따라 Mac용 끝점용 Microsoft Defender를 실행하면 성능이 멀어질 수 있습니다. 특히 짧은 시간 동안 많은 리소스에 액세스하는 응용 프로그램 또는 시스템 프로세스는 Mac용 끝점용 Microsoft Defender의 성능 문제를 발생할 수 있습니다.
 
 다음 단계를 사용하여 이러한 문제를 해결하고 완화할 수 있습니다.
 
@@ -52,7 +52,7 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
 
     - 사용자 인터페이스에서 Mac용 끝점용 Microsoft Defender를 열고 설정 **관리로 이동합니다.**
 
-      ![실시간 보호 스크린샷 관리](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-36-rtp)
+      ![실시간 보호 스크린샷 관리](images/mdatp-36-rtp.png)
 
     - 터미널에서 보안을 위해 이 작업을 수행하려면 권한 상승이 필요합니다.
 

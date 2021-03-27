@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 059ff9ca6f0c93c6adbac3b1d552cbedcf308759
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 089614fab57950af5f60181ce7ed2116046ad347
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222710"
+ms.locfileid: "51379373"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>미국 정부 고객을 위한 끝점용 Microsoft Defender
 
@@ -52,7 +52,7 @@ GCC | GCC 높음 | DoD
 Endpoint Server GCC용 Microsoft Defender | GCC High용 끝점 서버용 Microsoft Defender | DOD용 끝점 서버용 Microsoft Defender
 서버용 Azure Defender | 서버용 Azure Defender - 정부 | 서버용 Azure Defender - 정부
 
-<br>
+<br />
 
 ## <a name="portal-urls"></a>포털 URL
 다음은 미국 정부 고객을 위한 Microsoft Defender for Endpoint 포털 URL입니다.
@@ -63,7 +63,7 @@ GCC | https://gcc.securitycenter.microsoft.us
 GCC 높음 | https://securitycenter.microsoft.us
 DoD | https://securitycenter.microsoft.us
 
-<br>
+<br />
 
 ## <a name="endpoint-versions"></a>끝점 버전
 
@@ -78,8 +78,8 @@ Windows 10 버전 [1909(KB4586819](https://support.microsoft.com/help/4586819)�
 Windows 10 버전 [1903(KB4586819](https://support.microsoft.com/help/4586819)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows 10 버전 [1809(KB4586839)](https://support.microsoft.com/help/4586839) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows 10 버전 [1803(KB4598245](https://support.microsoft.com/help/4598245)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
-Windows 10 버전 1709 | ![아니요](images/svg/check-no.svg)<br>참고: 지원되지 않습니다. | ![](images/svg/check-yes.svg) [예(KB4499147)](https://support.microsoft.com/help/4499147)<br>참고: [사용되지 않습니다.](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709)업그레이드하십시오. | ![아니요](images/svg/check-no.svg)<br>참고: 지원되지 않습니다.
-Windows 10 버전 1703 이전 버전 | ![아니요](images/svg/check-no.svg)<br>참고: 지원되지 않습니다. | ![아니요](images/svg/check-no.svg)<br>참고: 지원되지 않습니다. | ![아니요](images/svg/check-no.svg)<br>참고: 지원되지 않습니다.
+Windows 10 버전 1709 | ![아니요](images/svg/check-no.svg)<br />참고: 지원되지 않습니다. | ![](images/svg/check-yes.svg) [예(KB4499147)](https://support.microsoft.com/help/4499147)<br />참고: [사용되지 않습니다.](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709)업그레이드하십시오. | ![아니요](images/svg/check-no.svg)<br />참고: 지원되지 않습니다.
+Windows 10 버전 1703 이전 버전 | ![아니요](images/svg/check-no.svg)<br />참고: 지원되지 않습니다. | ![아니요](images/svg/check-no.svg)<br />참고: 지원되지 않습니다. | ![아니요](images/svg/check-no.svg)<br />참고: 지원되지 않습니다.
 Windows Server [2019(KB4586839](https://support.microsoft.com/help/4586839)사용) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows Server 2016 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows Server 2012 R2 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
@@ -88,8 +88,8 @@ Windows 8.1 Enterprise | ![예](images/svg/check-yes.svg) | ![예](images/svg/ch
 Windows 8 Pro | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows 7 SP1 Enterprise | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows 7 SP1 Pro | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
-Linux | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중
-macOS | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중
+Linux | ![예](images/svg/check-yes.svg) 미리 보기에서<br />아래 참고 사항 참조 | ![예](images/svg/check-yes.svg) 미리 보기에서<br />아래 참고 사항 참조 | ![예](images/svg/check-yes.svg) 미리 보기에서<br />아래 참고 사항 참조
+macOS | ![예](images/svg/check-yes.svg) 미리 보기에서<br />아래 참고 사항 참조 | ![예](images/svg/check-yes.svg) 미리 보기에서<br />아래 참고 사항 참조 | ![예](images/svg/check-yes.svg) 미리 보기에서<br />아래 참고 사항 참조
 Android | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
 iOS | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링
 
@@ -98,6 +98,9 @@ iOS | ![아니요](images/svg/check-no.svg) 백로그 엔지니어링 | ![아니
 
 > [!NOTE]
 > Microsoft 모니터링 에이전트를 사용하여 Windows 10 또는 Windows Server 2019 이전 버전의 Windows 장치를 [온보드하려고 하나요?](configure-server-endpoints.md#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) 설치 마법사를 사용하는 경우 또는 명령줄 또는 스크립트를 사용하는 경우 "Azure [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) Cloud"에서 [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) "Azure US Government"를 선택해야 합니다. "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" 매개 변수를 1로 설정해야 합니다. [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)
+
+> [!NOTE]
+> You'll need version 101.25.72 and above for Linux, and version 101.25.69 and above for macOS. 미리 보기에 있는 동안 해당 버전은 "Insider Fast" 채널에서만 사용할 수 있습니다. 지침은 [Linux 소프트웨어](linux-install-manually.md#configure-the-linux-software-repository) 리포지토리 구성 또는 채널 이름 [설정(macOS)을](mac-updates.md#set-the-channel-name) 참조하세요.
 
 ### <a name="os-versions-when-using-azure-defender-for-servers"></a>서버용 Azure Defender를 사용하는 경우 OS 버전
 다음 OS 버전은 [서버용 Azure Defender를 사용할 때 지원됩니다.](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
@@ -108,7 +111,7 @@ Windows Server 2016 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check
 Windows Server 2012 R2 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 Windows Server 2008 R2 SP1 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 
-<br>
+<br />
 
 ## <a name="required-connectivity-settings"></a>필수 연결 설정
 프록시 또는 방화벽이 기본적으로 모든 트래픽을 차단하고 특정 도메인만 통과하도록 허용하는 경우 다운로드 가능한 시트에 나열된 도메인을 허용된 도메인 목록에 추가합니다.
@@ -117,7 +120,7 @@ Windows Server 2008 R2 SP1 | ![예](images/svg/check-yes.svg) | ![예](images/sv
 
 도메인 목록의 스프레드시트 | 설명
 :-----|:-----
-![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지](images/mdatp-urls.png)<br/> | 서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <br><br>[여기에서 스프레드시트를 다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
+![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지](images/mdatp-urls.png)<br/> | 서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <br /><br />[여기에서 스프레드시트를 다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
 
 자세한 내용은 장치 프록시 및 인터넷 연결 설정 [구성을 참조하세요.](configure-proxy-internet.md)
 
@@ -140,10 +143,10 @@ Azure IP 범위 및 서비스 태그 – 미국 정부 클라우드에서 [Azure
 > [!NOTE]
 > 클라우드 기반 솔루션으로 IP 주소 범위는 변경될 수 있습니다. DNS 기반 규칙으로 이동하는 것이 좋습니다.
 
-<br>
+<br />
 
 ## <a name="api"></a>API
-[API](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro)설명서에 나열된 공용 URIS 대신 다음 URIS를 사용해야 합니다.
+[API](apis-intro.md)설명서에 나열된 공용 URIS 대신 다음 URIS를 사용해야 합니다.
 
 끝점 유형 | GCC | GCC High & DoD
 :---|:---|:---
@@ -151,7 +154,7 @@ Azure IP 범위 및 서비스 태그 – 미국 정부 클라우드에서 [Azure
 Endpoint API용 Defender | `https://api-gcc.securitycenter.microsoft.us` | `https://api-gov.securitycenter.microsoft.us`
 SIEM | `https://wdatp-alertexporter-us.gcc.securitycenter.windows.us` | `https://wdatp-alertexporter-us.securitycenter.windows.us`
 
-<br>
+<br />
 
 ## <a name="feature-parity-with-commercial"></a>상업용 기능 패리티
 미국 정부 고객을 위한 Endpoint용 Defender는 상업용 제품과 완전한 패리티를 택하지 않습니다. 당사의 목표는 모든 상업적 기능을 미국 정부 고객에게 제공하는 것이지만, 아직 사용할 수 없는 몇 가지 기능은 강조하고 싶을 것입니다.
@@ -168,7 +171,7 @@ SIEM | `https://wdatp-alertexporter-us.gcc.securitycenter.windows.us` | `https:/
 관리 및 API: 타사 제품과의 통합 | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중 | ![아니요](images/svg/check-no.svg) 배포 중
 관리 및 API: 스트리밍 API | ![예](images/svg/check-yes.svg) | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
 관리 및 API: 위협 방지 보고서 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
-위협 & 취약성 관리 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
+위협 및 취약성 관리 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 위협 분석 | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg) | ![예](images/svg/check-yes.svg)
 웹 콘텐츠 필터링 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중
 통합: Azure Sentinel | ![예](images/svg/check-yes.svg) | ![아니요](images/svg/check-no.svg) 개발 중 | ![아니요](images/svg/check-no.svg) 개발 중

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 556e408eb176a2c215252379d539ec82b67e85cc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 2d6904d47e58a7cf7a1b7fce5083da43c9a01a76
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076359"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382510"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -49,8 +49,8 @@ ms.locfileid: "51076359"
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
 | `ActionType` | 문자열 | 이벤트를 트리거한 활동의 유형입니다. 자세한 내용은 포털 내 [Schema 참조를](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) 참조합니다. |
-| `LogonType` | 문자열 | 로그온 세션의 유형, 특히 다음과 같습니다.<br><br> - **대화형** - 사용자가 로컬 키보드 및 화면을 사용하여 컴퓨터와 물리적으로 상호 작용합니다.<br><br> - **RDP(원격 대화형) 로그널** - 사용자가 원격 데스크톱, 터미널 서비스, 원격 지원 또는 기타 RDP 클라이언트를 사용하여 원격으로 컴퓨터와 상호 작용합니다.<br><br> - **네트워크** - PsExec을 사용하여 컴퓨터 액세스 또는 컴퓨터의 공유 리소스(예: 프린터 및 공유 폴더)에 액세스할 때 시작된 세션<br><br> - **Batch** - 예약된 작업으로 시작된 세션<br><br> - **서비스** - 서비스가 시작할 때 시작된 세션 |
 | `Application` | 문자열 | 기록된 작업을 수행한 응용 프로그램 |
+| `LogonType` | 문자열 | 로그온 세션의 유형, 특히 다음과 같습니다.<br><br> - **대화형** - 사용자가 로컬 키보드 및 화면을 사용하여 컴퓨터와 물리적으로 상호 작용합니다.<br><br> - **RDP(원격 대화형) 로그널** - 사용자가 원격 데스크톱, 터미널 서비스, 원격 지원 또는 기타 RDP 클라이언트를 사용하여 원격으로 컴퓨터와 상호 작용합니다.<br><br> - **네트워크** - PsExec을 사용하여 컴퓨터 액세스 또는 컴퓨터의 공유 리소스(예: 프린터 및 공유 폴더)에 액세스할 때 시작된 세션<br><br> - **Batch** - 예약된 작업으로 시작된 세션<br><br> - **서비스** - 서비스가 시작할 때 시작된 세션 |
 | `Protocol` | 문자열 | 사용된 네트워크 프로토콜 |
 | `FailureReason` | 문자열 | 기록된 작업이 실패한 이유를 설명하는 정보 |
 | `AccountName` | 문자열 | 계정의 사용자 이름 |
