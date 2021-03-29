@@ -382,6 +382,6 @@
     - name: Microsoft 365 보안
       href: ../index.yml
     - name: Microsoft 365 Defender
-      href: ../defender/index.yml
-    - name: 엔드포인트용 Microsoft Defender
+      href: ../index.yml
+    - name: 끝점용 Microsoft Defender
       href: ../defender-endpoint/index.yml

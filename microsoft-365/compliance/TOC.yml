@@ -697,6 +697,8 @@
               href: email-threading-in-advanced-ediscovery.md
             - name: 테마
               href: themes-in-advanced-ediscovery.md
+            - name: 예측 코딩 모듈(미리 보기)
+              href: predictive-coding-overview.md
             - name: 관련성 모듈을 사용하여 콘텐츠 분석
               href: using-relevance.md
             - name: 연결 모듈 사용 중지
