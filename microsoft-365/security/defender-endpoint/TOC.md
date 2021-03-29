@@ -140,7 +140,7 @@
 ###### [장치 제어 개요](mac-device-control-overview.md)
 ###### [JAMF 예제](mac-device-control-jamf.md)
 ###### [Intune 예제](mac-device-control-intune.md)
-##### [검색 예약](mac-schedule-scan-atp.md)
+##### [검색 예약](mac-schedule-scan.md)
 
 #### [문제 해결]()
 ##### [설치 문제 해결](mac-support-install.md)
@@ -354,7 +354,7 @@
 #### [일반]()
 ##### [데이터 저장소 위치 확인 및 데이터 보존 설정 업데이트](data-retention-settings.md)
 ##### [경고 알림 구성](configure-email-notifications.md)
-##### [고급 기능 구성](advanced-features.md
+##### [고급 기능 구성](advanced-features.md)
 
 #### [사용 권한]()
 ##### [기본 권한을 사용하여 포털에 액세스](basic-permissions.md)
@@ -587,5 +587,5 @@
 ##### [공격 표면 감소 규칙](troubleshoot-asr.md)
 
 # [Microsoft 365 보안](../index.yml)
-# [Microsoft 365 Defender](../defender/index.yml)
+# [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 # [Office 365용 Defender](../office-365-security/overview.md)
