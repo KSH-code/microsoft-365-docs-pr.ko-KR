@@ -3,7 +3,7 @@ title: 21Vianet에서 운영하는 Microsoft Office 365 URL 및 IP 주소 범위
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 08/28/2020
+ms.date: 03/29/2021
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -21,12 +21,12 @@ f1.keywords:
 - NOCSH
 description: 이 문서에는 중국의 21Vianet에서 운영하는 Office 365의 URL 및 IP 주소 범위가 나열됩니다.
 hideEdit: true
-ms.openlocfilehash: 3f3d42b7a87e1d0e6341d0b2ca6036f7e2387ce6
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ed9b6fdbef1ca121ccf53b635768ebdaab89763a
+ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920695"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418052"
 ---
 # <a name="urls-and-ip-address-ranges-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Microsoft Office 365 URL 및 IP 주소 범위
 
@@ -38,7 +38,7 @@ ms.locfileid: "50920695"
   
 |||
 |:-----|:-----|
-|**Last updated:** 08/28/2020 - ![ RSS ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/China?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**다운로드:** 모든 필수 및 선택 대상을 [JSON 형식](https://endpoints.office.com/endpoints/China?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) 목록에 다운로드합니다.  <br/> |
+|**Last updated:** 03/29/2021 - ![ RSS ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/China?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**다운로드:** 모든 필수 및 선택 대상을 [JSON 형식](https://endpoints.office.com/endpoints/China?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) 목록에 다운로드합니다.  <br/> |
 
 이 데이터를 사용하여 네트워크 연결을 관리하기 위한 권장 사항을 이해하려면 [Office 365 끝점 관리](managing-office-365-endpoints.md)에서 시작하세요. 끝점 데이터는 활성화되기 30일 전에 게시된 새 IP 주소와 URL을 사용하여 매월 초에 필요한 경우 업데이트됩니다. 이를 통해 새 연결이 필요하기 전에 아직 자동 업데이트를 사용하지 않는 고객이 프로세스를 완료할 수 있습니다. 지원 에스컬레이션, 보안 인시던트 또는 기타 즉각적인 운영 요구 사항을 해결해야 하는 경우 끝점은 해당 월 중에 업데이트될 수도 있습니다. 이 페이지에 아래에 표시된 데이터는 모두 REST 기반 웹 서비스에서 생성됩니다. 스크립트나 네트워크 장치를 사용하여 이 데이터에 액세스하는 경우 직접 [웹 서비스로](microsoft-365-ip-web-service.md) 이동해야 합니다.
 

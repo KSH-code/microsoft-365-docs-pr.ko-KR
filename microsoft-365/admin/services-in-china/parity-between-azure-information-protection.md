@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 description: 21Vianet에서 운영하는 Office 365용 AIP(Azure Information Protection)와 중국 고객의 AIP(Azure Information Protection)를 구성하는 방법을 자세히 설명합니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 77790249cbd544b2f11e9a16dd77bab297cac509
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bddba69ecc8b7b80d2b2c7c48d820ec22d293362
+ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914321"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418035"
 ---
 # <a name="azure-information-protection-support-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365에 대한 Azure Information Protection 지원
 
@@ -148,16 +148,24 @@ Windows의 AIP 앱은 Azure China에 대한 올바른 주권 클라우드를 표
 
 AIP-프레미스 스캐너를 설치하여 네트워크 및 콘텐츠 공유에서 중요한 데이터를 검색하고 조직의 정책에 구성된 분류 및 보호 레이블을 적용합니다.
 
-스캐너를 설치하고 콘텐츠 검색 작업을 관리할 때 상업용 제품에서 사용하는 Azure Portal 인터페이스 대신 다음 cmdlet을 사용합니다.<br><br>
+- [Set-AIPAuthentication](/powershell/module/azureinformationprotection/set-aipauthentication) 명령에 대해 Azure AD 응용 프로그램을  만들고 구성할 때  API 요청 창에는 **조직에서 Microsoft API** 탭 대신 탭을 사용하는 API가 표시됩니다. 조직에서 **사용하는 API를** 선택한 다음 **Azure 권한 관리 서비스를 선택합니다.**
 
-| Cmdlet | 설명 |
-|--|--|
-| [Add-AIPScannerRepository](/powershell/module/azureinformationprotection/add-aipscannerrepository) | 콘텐츠 검색 작업에서 새 리포지토리를 추가합니다. |
-| [Get-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/get-aipscannercontentscanjob) | 콘텐츠 검색 작업의 세부 정보를 얻습니다. |
-| [Get-AIPScannerRepository](/powershell/module/azureinformationprotection/get-aipscannerrepository) | 콘텐츠 검색 작업에서 정의된 리포지토리에 대한 세부 정보를 얻습니다. |
-| [Remove-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/remove-aipscannercontentscanjob) | 콘텐츠 검색 작업을 삭제합니다. |
-| [Remove-AIPScannerRepository](/powershell/module/azureinformationprotection/remove-aipscannerrepository) | 콘텐츠 검색 작업에서 리포지토리를 제거합니다. |
-| [Set-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/set-aipscannercontentscanjob) | 콘텐츠 검색 작업의 설정을 정의합니다. |
-| [Set-AIPScannerRepository](/powershell/module/azureinformationprotection/set-aipscannerrepository) | 콘텐츠 검색 작업의 기존 리포지토리에 대한 설정을 정의합니다. |
+- 스캐너를 설치하고 콘텐츠 검색 작업을 관리할 때 상업용 제품에서 사용하는 Azure Portal 인터페이스 대신 다음 cmdlet을 사용합니다.<br><br>
 
+    | Cmdlet | 설명 |
+    |--|--|
+    | [Add-AIPScannerRepository](/powershell/module/azureinformationprotection/add-aipscannerrepository) | 콘텐츠 검색 작업에서 새 리포지토리를 추가합니다. |
+    | [Get-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/get-aipscannercontentscanjob) | 콘텐츠 검색 작업의 세부 정보를 얻습니다. |
+    | [Get-AIPScannerRepository](/powershell/module/azureinformationprotection/get-aipscannerrepository) | 콘텐츠 검색 작업에서 정의된 리포지토리에 대한 세부 정보를 얻습니다. |
+    | [Remove-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/remove-aipscannercontentscanjob) | 콘텐츠 검색 작업을 삭제합니다. |
+    | [Remove-AIPScannerRepository](/powershell/module/azureinformationprotection/remove-aipscannerrepository) | 콘텐츠 검색 작업에서 리포지토리를 제거합니다. |
+    | [Set-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/set-aipscannercontentscanjob) | 콘텐츠 검색 작업의 설정을 정의합니다. |
+    | [Set-AIPScannerRepository](/powershell/module/azureinformationprotection/set-aipscannerrepository) | 콘텐츠 검색 작업의 기존 리포지토리에 대한 설정을 정의합니다. |
+    | | |
+
+> [!TIP]
+> 스캐너를 [설치할 때](/azure/information-protection/deploy-aip-scanner-configure-install#install-the-scanner) [Install-AIPScanner](/powershell/module/azureinformationprotection/install-aipscanner) 명령에서 동일한 클러스터 이름을 사용하여 여러 스캐너 노드를 동일한 클러스터에 연결합니다. 여러 스캐너 노드에 동일한 클러스터를 사용하면 여러 스캐너가 함께 작동하여 스캔을 수행할 수 있습니다.
+> 
+> [Get-AIPScannerConfiguration](/powershell/module/azureinformationprotection/get-aipscannerconfiguration) cmdlet을 사용하여 클러스터에 대한 세부 정보를 반환합니다.
+> 
 자세한 내용은 [Azure Information Protection](/azure/information-protection/deploy-aip-scanner) 통합 레이블 지정 스캐너란? 및 [PowerShell만](/azure/information-protection/deploy-aip-scanner-prereqs#use-powershell-with-a-disconnected-computer)사용하여 콘텐츠 검사 작업 관리를 참조하세요.

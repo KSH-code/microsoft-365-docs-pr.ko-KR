@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Microsoft 365 관리 센터의 네트워크 연결 개요(미리 보기)
-ms.openlocfilehash: 0bfcebff4ebbefdb77049119fef2402af1ca8f90
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2b80dd001bd2ee5d5725ea67c73aa34b4eb8816c
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926099"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408408"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Microsoft 365 관리 센터의 네트워크 연결(미리 보기)
 
@@ -149,6 +149,10 @@ Microsoft는 Microsoft 365 작업을 지원하는 여러 Office 데스크톱 및
 > [!div class="mx-imgBorder"]
 > ![위치별 세부 정보](../media/m365-mac-perf/m365-mac-perf-locations-plan-details-all.png)
 
+## <a name="sharing-network-assessment-data-with-microsoft"></a>Microsoft와 네트워크 평가 데이터 공유
+
+기본적으로 조직에 대한 네트워크 평가 및 네트워크 인사이트는 Microsoft 직원과 공유됩니다. 여기에는 직원의 개인 데이터가 아니라 사무실 위치의 관리 센터에 표시된 특정 네트워크 평가 메트릭 및 네트워크 정보만 포함됩니다. 또한 사무실 위치 이름이나 주소는 포함되어 있지 않습니다. 따라서 논의할 사무실의 지원 ID와 구정을 알려야 합니다. 이 기능을 해제하면 네트워크 연결에 대해 논의하고 있는 Microsoft 엔지니어가 이 정보를 볼 수 없습니다. 이 설정을 사용하도록 설정하면 사용하도록 설정한 다음 날부터 이후의 데이터만 공유됩니다.
+
 ## <a name="csv-import-for-lan-subnet-office-locations"></a>LAN 서브넷 사무실 위치용 CSV 가져오기
 
 LAN 서브넷 사무실 ID의 경우 각 위치를 미리 추가해야 합니다. 위치 탭에서 개별 사무실  위치를 추가하는 대신 CSV 파일에서 가져올 수 있습니다. 통화 품질 대시보드 또는 Active Directory 사이트 및 서비스 등의 저장한 다른 곳에서 이 데이터를 얻을 수 있습니다.
@@ -202,7 +206,7 @@ Microsoft 365 서비스 프런트 도어는 Office 클라이언트 및 서비스
 
 인터넷 나가기 위치는 네트워크 트래픽이 엔터프라이즈 네트워크를 종료하고 인터넷에 연결하는 위치입니다. 이 위치는 NAT(Network Address Translation) 장치가 있으며 일반적으로 ISP(인터넷 서비스 공급자)에 연결하는 위치로도 식별됩니다. 위치와 인터넷 시작 위치 간에 긴 거리가 표시될 경우 이는 중요한 WAN 백할ul을 나타낼 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 365 네트워크 인사이트(미리 보기)](office-365-network-mac-perf-insights.md)
 

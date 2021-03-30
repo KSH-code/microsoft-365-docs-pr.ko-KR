@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ed28d3b5b7bafaea2d72b7a8c45f66bf69033bc2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a8595bae216911350d3f18fcceef729ef020a424
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187796"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408168"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-for-linux"></a>Linux용 끝점에 대한 Microsoft Defender 기본 설정 설정
 
@@ -61,6 +61,7 @@ ms.locfileid: "51187796"
 | **키** | antivirusEngine |
 | **Data type** | 사전(중첩된 기본 설정) |
 | **Comments** | 사전 콘텐츠에 대한 설명은 다음 섹션을 참조하세요. |
+|||
 
 #### <a name="enable--disable-real-time-protection"></a>실시간 보호 사용/사용 안 하도록 설정
 
@@ -71,6 +72,7 @@ ms.locfileid: "51187796"
 | **키** | enableRealTimeProtection |
 | **Data type** | 부울 |
 | **사용 가능한 값:** | true(기본값) <br/> false |
+|||
 
 #### <a name="enable--disable-passive-mode"></a>수동 모드 사용/사용 안 하도록 설정
 
@@ -87,6 +89,7 @@ ms.locfileid: "51187796"
 | **Data type** | 부울 |
 | **사용 가능한 값:** | false(기본값) <br/> true |
 | **Comments** | Endpoint 버전 100.67.60 이상용 Defender에서 사용할 수 있습니다. |
+|||
 
 #### <a name="exclusion-merge-policy"></a>제외 병합 정책
 
@@ -98,6 +101,7 @@ ms.locfileid: "51187796"
 | **Data type** | String |
 | **사용 가능한 값:** | 병합(기본값) <br/> admin_only |
 | **Comments** | Defender for Endpoint 버전 100.83.73 이상에서 사용할 수 있습니다. |
+|||
 
 #### <a name="scan-exclusions"></a>제외 검사
 
@@ -108,6 +112,7 @@ ms.locfileid: "51187796"
 | **키** | 제외 |
 | **Data type** | 사전(중첩된 기본 설정) |
 | **Comments** | 사전 콘텐츠에 대한 설명은 다음 섹션을 참조하세요. |
+|||
 
 **제외 유형**
 
@@ -118,6 +123,7 @@ ms.locfileid: "51187796"
 | **키** | $type |
 | **Data type** | String |
 | **사용 가능한 값:** | excludedPath <br/> excludedFileExtension <br/> excludedFileName |
+|||
 
 **제외된 콘텐츠의 경로**
 
@@ -129,6 +135,7 @@ ms.locfileid: "51187796"
 | **Data type** | String |
 | **사용 가능한 값:** | 유효한 경로 |
 | **Comments** | 제외된 *$type* 적용 *가능* |
+|||
 
 **경로 유형(파일/디렉터리)**
 
@@ -140,6 +147,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **Data type** | 부울 |
 | **사용 가능한 값:** | false(기본값) <br/> true |
 | **Comments** | 제외된 *$type* 적용 *가능* |
+|||
 
 **검사에서 제외된 파일 확장명**
 
@@ -151,6 +159,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **Data type** | String |
 | **사용 가능한 값:** | 유효한 파일 확장명 |
 | **Comments** | 제외된  *$type FileExtension만 적용할 수 있습니다.* |
+|||
 
 **검사에서 제외된 프로세스**
 
@@ -162,6 +171,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **Data type** | String |
 | **사용 가능한 값:** | 모든 문자열 |
 | **Comments** | *excludedFileName이 $type만 적용할 수 있습니다.*  |
+|||
 
 #### <a name="allowed-threats"></a>허용되는 위협
 
@@ -171,6 +181,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 |:---|:---|
 | **키** | allowedThreats |
 | **Data type** | 문자열 배열 |
+|||
 
 #### <a name="disallowed-threat-actions"></a>위협 작업 수 없습니다.
 
@@ -182,6 +193,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **Data type** | 문자열 배열 |
 | **사용 가능한 값:** | allow (restricts users from allow threats) <br/> restore(사용자가 검지에서 위협을 복원하는 것을 제한함) |
 | **Comments** | Defender for Endpoint 버전 100.83.73 이상에서 사용할 수 있습니다. |
+|||
 
 #### <a name="threat-type-settings"></a>위협 유형 설정
 
@@ -192,6 +204,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **키** | threatTypeSettings |
 | **Data type** | 사전(중첩된 기본 설정) |
 | **Comments** | 사전 콘텐츠에 대한 설명은 다음 섹션을 참조하세요. |
+|||
 
 **위협 유형**
 
@@ -202,6 +215,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **키** | 키 |
 | **Data type** | String |
 | **사용 가능한 값:** | potentially_unwanted_application <br/> archive_bomb |
+|||
 
 **수행할 작업**
 
@@ -216,6 +230,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **키** | 값 |
 | **Data type** | String |
 | **사용 가능한 값:** | 감사(기본값) <br/> block <br/> off |
+|||
 
 #### <a name="threat-type-settings-merge-policy"></a>위협 유형 설정 병합 정책
 
@@ -227,6 +242,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **Data type** | String |
 | **사용 가능한 값:** | 병합(기본값) <br/> admin_only |
 | **Comments** | Defender for Endpoint 버전 100.83.73 이상에서 사용할 수 있습니다. |
+|||
 
 #### <a name="antivirus-scan-history-retention-in-days"></a>바이러스 백신 검사 기록 보존(일)
 
@@ -238,6 +254,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **Data type** | String |
 | **사용 가능한 값:** | 90(기본값) 허용되는 값은 1일에서 180일까지입니다. |
 | **Comments** | Endpoint 버전 101.04.76 이상용 Defender에서 사용할 수 있습니다. |
+|||
 
 #### <a name="maximum-number-of-items-in-the-antivirus-scan-history"></a>바이러스 백신 검사 기록의 최대 항목 수
 
@@ -249,6 +266,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **Data type** | String |
 | **사용 가능한 값:** | 10000(기본값) 허용되는 값은 5,000개 항목에서 15,000개 항목까지입니다. |
 | **Comments** | Endpoint 버전 101.04.76 이상용 Defender에서 사용할 수 있습니다. |
+|||
 
 ### <a name="cloud-delivered-protection-preferences"></a>클라우드 제공 보호 기본 설정
 
@@ -259,6 +277,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **키** | cloudService |
 | **Data type** | 사전(중첩된 기본 설정) |
 | **Comments** | 사전 콘텐츠에 대한 설명은 다음 섹션을 참조하세요. |
+|||
 
 #### <a name="enable--disable-cloud-delivered-protection"></a>클라우드 제공 보호 사용/사용 안 하도록 설정
 
@@ -269,6 +288,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **키** | 활성화됨 |
 | **Data type** | 부울 |
 | **사용 가능한 값:** | true(기본값) <br/> false |
+|||
 
 #### <a name="diagnostic-collection-level"></a>진단 수집 수준
 
@@ -279,6 +299,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **키** | diagnosticLevel |
 | **Data type** | String |
 | **사용 가능한 값:** | 선택 사항(기본값) <br/> 필수 |
+|||
 
 #### <a name="enable--disable-automatic-sample-submissions"></a>자동 샘플 제출 사용/사용 안 하도록 설정
 
@@ -293,6 +314,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **키** | automaticSampleSubmissionConsent |
 | **Data type** | String |
 | **사용 가능한 값:** | 없음 <br/> 안전(기본값) <br/> all |
+|||
 
 #### <a name="enable--disable-automatic-security-intelligence-updates"></a>자동 보안 인텔리전스 업데이트 사용/사용 안 하도록 설정
 
@@ -303,6 +325,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
 | **키** | automaticDefinitionUpdateEnabled |
 | **Data type** | 부울 |
 | **사용 가능한 값:** | true(기본값) <br/> false |
+|||
 
 ## <a name="recommended-configuration-profile"></a>권장 구성 프로필
 
@@ -339,6 +362,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
       "automaticDefinitionUpdateEnabled":true,
       "automaticSampleSubmissionConsent":"safe",
       "enabled":true
+      "proxy":"http://proxy.server:port/"
    }
 }
 ```
@@ -399,6 +423,7 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
       "diagnosticLevel":"optional",
       "automaticSampleSubmissionConsent":"safe",
       "automaticDefinitionUpdateEnabled":true
+      "proxy": "http://proxy.server:port/"
    }
 }
 ```
@@ -412,6 +437,17 @@ python -m json.tool mdatp_managed.json
 ```
 
 JSON이 잘 구성되면 위의 명령은 터미널에 다시 출력하고 의 종료 코드를 `0` 반환합니다. 그렇지 않으면 문제를 설명하는 오류가 표시되고 명령은 의 종료 코드를 `1` 반환합니다.
+
+## <a name="verifying-that-the-mdatp_managedjson-file-is-working-as-expected"></a>파일의 mdatp_managed.js올바르게 작동하고 있는지 확인
+/etc/opt/microsoft/mdatp/managed/mdatp_managed.js제대로 작동하고 있는지 확인하려면 다음 설정 옆에 "[관리]"가 표시됩니다.  
+- cloud_enabled
+- cloud_automatic_sample_submission_consent
+- passice_mode_enabled
+- real_time_protection_enabled
+- automatic_definition_update_enabled
+
+> [!NOTE]
+> 이 mdatp_managed.js적용하려면 wdavdaemon을 다시 시작할 필요는 없습니다.
 
 ## <a name="configuration-profile-deployment"></a>구성 프로필 배포
 

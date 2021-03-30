@@ -1,5 +1,5 @@
 ---
-title: 노출된 장치 헌트
+title: 노출된 장치 헌팅
 description: 보안 관리자, IT 관리자 및 SecOps가 공동 작업을 하는 데 위협 및 취약성 관리를 사용하는 방법에 대해 자세히 알아보습니다.
 keywords: mdatp-tvm 시나리오, mdatp, tvm, tvm 시나리오, 위협 & 취약성 노출 감소, 위협 및 취약성 감소, 보안 구성 향상, 장치에 대한 Microsoft 보안 점수 증가, 장치용 Microsoft 보안 점수 증가& 장치용 Microsoft 보안 점수, 장치에 대한 Microsoft 보안 점수, 노출 점수, 보안 제어
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9af7464d9cae06dc53abb019aa0b189d6e72e749
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 99e59005bc01a113567e64c921ddcdc1d66785d2
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060831"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408294"
 ---
 # <a name="hunt-for-exposed-devices---threat-and-vulnerability-management"></a>노출된 장치 헌트 - 위협 및 취약성 관리
 
@@ -43,13 +43,13 @@ ms.locfileid: "51060831"
 
 ### <a name="schema-tables"></a>스키마 표
 
-- [DeviceTvmSoftwareInventory](advanced-hunting-devicetvmsoftwareinventory-table.md) - 버전 정보 및 지원 종료 상태를 포함하여 장치에 설치된 소프트웨어 인벤토리
+- [DeviceTvmSoftwareInventory](advanced-hunting-devicetvmsoftwareinventory-table.md) - 버전 정보 및 지원 종료 상태를 포함하여 장치에 설치된 소프트웨어 인벤토리입니다.
 
-- [DeviceTvmSoftwareVulnerabilities](advanced-hunting-devicetvmsoftwarevulnerabilities-table.md) - 장치에서 발견되는 소프트웨어 취약성 및 각 취약점을 해결 하는 사용 가능한 보안 업데이트 목록
+- [DeviceTvmSoftwareVulnerabilities](advanced-hunting-devicetvmsoftwarevulnerabilities-table.md) - 장치에서 발견되는 소프트웨어 취약성 및 각 취약점을 해결 하는 사용 가능한 보안 업데이트 목록입니다.
 
-- [DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md) - 악용 코드를 공개적으로 사용할 수 있는지 여부를 포함하여 공개적으로 공개된 취약성의 기술 자료
+- [DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md) - 악용 코드를 공개적으로 사용할 수 있는지 여부를 포함하여 공개적으로 공개된 취약성의 기술 자료입니다.
 
-- [DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md) - 장치의 다양한 보안 구성 상태를 나타내는 위협 및 취약성 관리 평가 이벤트
+- [DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md) - 장치의 다양한 보안 구성 상태를 나타내는 위협 및 취약성 관리 평가 이벤트입니다.
 
 - [DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md) - 위협 및 취약성 관리에서 장치를 평가하는 데 & 다양한 보안 구성의 기술 자료 다양한 표준 및 벤치마크에 대한 매핑 포함
 
@@ -81,5 +81,5 @@ DeviceName=any(DeviceName) by DeviceId, AlertId
 - [보안 권장 사항](tvm-security-recommendation.md)
 - [API](next-gen-threat-and-vuln-mgt.md#apis)
 - [위협 및 취약성 관리 역할에 대한 데이터 액세스 구성](user-roles.md#create-roles-and-assign-the-role-to-an-azure-active-directory-group)
-- [고급 헌팅 개요](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
+- [지능형 헌팅 개요](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
 - [모든 고급 헌팅 테이블](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-schema-reference.md)

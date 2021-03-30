@@ -16,17 +16,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 684025441c8400775f469515df1bcd0423d6460b
-ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
+ms.openlocfilehash: bcb96ea29649bf3525b2ffcf6d5cbb5d299bacf3
+ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51394749"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418119"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
@@ -72,6 +72,9 @@ ms.locfileid: "51394749"
 >이 설정을 변경하면 향후 경고 상관 관계에만 영향을 미치게 됩니다.
 
 
+## <a name="enable-edr-in-block-mode"></a>차단 모드에서 EDR 사용
+차단 모드의 끝점 감지 및 응답(EDR)은 Microsoft Defender 바이러스 백신이 수동 모드에서 실행되는 경우에도 악성 아티팩트로부터 보호합니다. 차단 모드의 EDR은 디바이스에서 감지되는 악의적인 아티팩트 또는 동작을 차단합니다. 차단 모드의 EDR은 장면 뒤에서 작동하여 위반 후 감지된 악성 아티팩트를 수정합니다.
+
 ## <a name="autoresolve-remediated-alerts"></a>수정된 경고 자동 해결
 
 Windows 10 버전 1809 이상에서 만든 테넌트의 경우 자동화된 분석 결과 상태가 "위협 없음" 또는 "수정"인 경고를 해결하도록 기본적으로 자동화된 조사 및 수정 기능이 구성됩니다.  경고를 자동으로 해결하지 못하게 하려는 경우 기능을 수동으로 해제해야 합니다.
@@ -115,6 +118,14 @@ Windows 10 버전 1809 이상에서 만든 테넌트의 경우 자동화된 분�
 
 > [!NOTE]
 > 네트워크 보호는 끝점 데이터용 Defender에 대해 선택한 위치 밖에 있을 수 있는 위치에서 요청을 처리하는 신뢰도 서비스를 활용합니다.
+
+
+## <a name="tamper-protection"></a>변조 방지
+일부 종류의 사이버 공격 중에 악의적인 공격자는 컴퓨터의 바이러스 백신 보호와 같은 보안 기능을 사용하지 않도록 설정하려고 합니다. 악의적인 공격자들은 데이터에 더 쉽게 액세스하거나, 맬웨어를 설치하거나, 데이터, ID 및 장치를 악용하기 위해 보안 기능을 사용하지 않도록 설정하는 것을 좋아합니다.
+
+변조 방지는 기본적으로 Microsoft Defender 바이러스 백신을 잠그고 앱 및 방법을 통해 보안 설정이 변경되지 않도록 합니다.
+
+변조 방지 기능을 설정하여 보안 솔루션 및 해당 필수 기능에 대한 원치 않는 변경을 방지합니다.
 
 ## <a name="show-user-details"></a>사용자 세부 정보 표시
 
@@ -169,7 +180,7 @@ Microsoft Threat Expert 구성 요소 2개 중 대상 공격 알림은 일반 �
 
 이 설정을 켜면 신호를 Azure Information Protection으로 전달할 수 있습니다. 이 기능을 사용하면 데이터 소유자와 관리자가 온보더된 디바이스의 보호된 데이터와 장치 위험 등급을 쉽게 사용할 수 있습니다.
 
-## <a name="microsoft-secure-score"></a>Microsoft 보안 점수
+## <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
 끝점용 Microsoft Defender 신호를 Microsoft 365 보안 센터의 Microsoft 보안 점수로 전달합니다. 이 기능을 켜면 Microsoft 보안 점수가 장치의 보안 상태와 관련한 가시성을 확보할 수 있습니다. 전달된 데이터는 Microsoft 보안 점수 데이터와 동일한 위치에 저장되고 처리됩니다.
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 비즈니스 지원
+title: Microsoft 365용 비즈니스 도우미
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -15,19 +15,19 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Microsoft Business Assist 프로그램과 비즈니스용 Microsoft 365의 향상된 도움말 및 사용을 통해 조직에 도움을 줄 수 있는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: eb0309ae68bf4569d4cba8dd8501343304389e80
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+description: 비즈니스 지원 프로그램과 비즈니스용 Microsoft 365의 향상된 도움말 및 사용을 통해 조직에 도움을 줄 수 있는 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 4531c841b4856e22b364906c180aa336cb8fd04a
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034295"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408528"
 ---
-# <a name="business-assist-for-microsoft-365"></a>Microsoft 365 비즈니스 지원
+# <a name="business-assist-for-microsoft-365"></a>Microsoft 365용 비즈니스 도우미
 
 중소기업 전문가의 전문가의 조언을 통해 구독을 가장 잘 이용하세요.
 
-**Microsoft 365** 비즈니스 도우미는 특히 사용자가 5명 미만인 기업을 위해 디자인된 서비스로, 온보드에서 일상적인 사용까지 비즈니스 성장에 따라 비즈니스 성장에 따라 소규모 기업 전문가와 직원에게 일상적인 액세스를 제공합니다.
+**Microsoft 365** 비즈니스 지원은 사용자가 5명 미만인 기업을 위해 고안된 것으로, 온보드에서 일상적인 사용까지 비즈니스 성장에 따라 비즈니스 성장에 따라 사용자와 직원에게 일상적인 액세스를 제공합니다.
 
 ## <a name="business-assist-services"></a>비즈니스 지원 서비스
 
@@ -38,7 +38,7 @@ ms.locfileid: "51034295"
 | | | |
 
 > [!div class="nextstepaction"]
-> [지금 구입](https://go.microsoft.com/fwlink/p/?linkid=868433)
+> [지금 구입](https://go.microsoft.com/fwlink/p/?linkid=2158423)
 
 ## <a name="eligibility-for-business-assist"></a>비즈니스 지원 자격
 
@@ -58,4 +58,4 @@ ms.locfileid: "51034295"
 :::image type="content" source="../../media/projectgenie-purchase services.png" alt-text="Screeenshot: 서비스 구매 페이지의 추가 기능 섹션에서 비즈니스 지원 구매":::
 
 > [!div class="nextstepaction"]
-> [지금 구입](https://go.microsoft.com/fwlink/p/?linkid=868433)
+> [지금 구입](https://go.microsoft.com/fwlink/p/?linkid=2158423)

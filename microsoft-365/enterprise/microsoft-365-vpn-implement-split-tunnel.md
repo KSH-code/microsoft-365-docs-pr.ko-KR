@@ -17,12 +17,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Office 365 VPN 분할 터널링 구현 방법
-ms.openlocfilehash: 93adc70882e0c8ce9752cb471b13c301a4a59bd4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d676c4bdcb4c3938391b044f4cb2534991278af8
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051285"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408582"
 ---
 # <a name="implementing-vpn-split-tunneling-for-office-365"></a>Office 365 VPN 분할 터널링 구현
 
@@ -31,27 +31,27 @@ ms.locfileid: "51051285"
 >- 원격 사용자의 Office 365 연결성을 최적화하는 VPN 분할 터널링을 사용하는 방법에 대한 개요는 [개요: Office 365 VPN 분할 터널링](microsoft-365-vpn-split-tunnel.md)을 참조하세요.
 >- 중국 사용자를 위한 Office 365 월드와이드 테넌트 성능을 최적화하는 방법에 대한 자세한 내용은 [중국 사용자를 위한 Office 365 성능 최적화](microsoft-365-networking-china.md)를 참조하세요.
 
-몇 년 동안 기업은 VPN을 사용하여 사용자의 원격 환경을 지원하고 있습니다. 핵심 작업은 온-프레미스로 유지되었지만, 회사 네트워크의 데이터 센터를 통해 라우팅된 원격 클라이언트의 VPN은 원격 사용자가 회사 리소스에 액세스하는 기본 방법이었습니다. 이러한 연결을 보호하기 위해 기업은 VPN 경로를 따라 네트워크 보안 솔루션 계층을 구축합니다. 이는 내부 인프라를 보호하는 것은 물론, 트래픽을 VPN으로 다시 라우팅한 다음 온-프레미스 인터넷 경계로 라우팅하여 외부 웹 사이트의 모바일 브라우징을 보호하기 위해 수행되었습니다. VPN, 네트워크 경계 및 연결된 보안 인프라는 정의된 트래픽 볼륨에 대해 구축 및 확장되는 경우가 종종 있으며, 일반적으로 대부분의 연결은 회사 네트워크 내에서 시작되고 대부분의 연결은 내부 네트워크 경계 내에 있습니다.
+수년 동안 기업은 VPN을 사용하여 사용자에 대한 원격 환경을 지원해 왔습니다. 핵심 작업은 온-프레미스로 유지되었지만, 회사 네트워크의 데이터 센터를 통해 라우팅된 원격 클라이언트의 VPN은 원격 사용자가 회사 리소스에 액세스하는 기본 방법이었습니다. 이러한 연결을 보호하기 위해 기업은 VPN 경로를 따라 네트워크 보안 솔루션 계층을 구축합니다. 이 보안은 내부 인프라를 보호하고 트래픽을 VPN으로 다시 연결한 다음, 내부 프레미스 인터넷 경계를 통해 아웃하여 외부 웹 사이트의 모바일 검색을 보호하도록 구축되었습니다. VPN, 네트워크 경계 및 연결된 보안 인프라는 일반적으로 회사 네트워크 내에서 대부분의 연결이 시작되고 대부분의 연결은 내부 네트워크 경계 내에 유지되는 정의된 트래픽 볼륨에 대해 목적에 따라 구축되고 확장됩니다.
 
 상당 기간, 동시적 원격 사용자의 규모가 적당하고 VPN을 통과하는 트래픽 양이 적은 경우에는원격 사용자 장치의 모든 연결이 온-프레미스 네트워크로 라우팅되는 VPN 모델(**강제 터널링** 으로 알려짐)을 지속할 수 있었습니다.  일부 고객은 응용 프로그램이 회사 경계 내부에서 Office 365와 같은 공용 SaaS 클라우드로 이동한 후에도 VPN 강제 터널링을 계속 사용하였습니다.
 
-분산되고 성능에 민감한 클라우드 응용 프로그램에 연결하기 위해 강제 터널된 VPN을 사용하는 것은 최적의 선택은 아니지만, 일부 기업에서 보안 측면에서 현상을 유지하기 위해 이 방식의 부정적인 영향을 수용할 수 있었습니다. 이 시나리오의 예제 다이어그램은 다음과 같습니다.
+분산 및 성능에 민감한 클라우드 응용 프로그램에 연결하는 데 강제 터널링된 VPN을 사용하는 것은 가장 좋은 일이지만 일부 기업에서는 보안 관점에서 상태 할당을 유지하기 위해 이러한 부정적인 영향을 받아들일 수 있습니다. 이 시나리오의 예제 다이어그램은 다음과 같습니다.
 
 ![분할 터널 VPN 구성](../media/vpn-split-tunneling/enterprise-network-traditional.png)
 
-이 문제는 수년간 계속 커졌으며 많은 고객들이 네트워크 트래픽 패턴의 큰 변화를 보고했습니다. 이제는 프레미스에 유지된 트래픽이 외부 클라우드 끝점에 연결됩니다. 많은 Microsoft 고객이 이전에 네트워크 트래픽의 약 80%가 내부 원본(위의 다이어그램에서 점선으로 표시됨)에 대한 것이라고 보고했습니다. 2020년에 주요 작업을 클라우드로 이동시킴에 따라 이 수치가 현재 약20 % 이하로 떨어졌으며, 이러한 추세는 다른 기업에서는 드문 일이 아닙니다. 시간이 지나며 클라우드 마이그레이션이 진행됨에 따라 위의 모델은 점점 번거롭고 지속하기 어려워졌으며, 조직이 클라우드 우선 환경으로 진입하는 상황에서 조직의 민첩성에 방해가 되었습니다.
+이 문제는 수년 동안 증가하여 많은 고객이 네트워크 트래픽 패턴의 중요한 변화를 보고하고 있습니다. 이제는 프레미스에 유지된 트래픽이 외부 클라우드 끝점에 연결됩니다. 많은 Microsoft 고객이 이전에 네트워크 트래픽의 약 80%가 내부 원본(위의 다이어그램에서 점선으로 표시됨)에 대한 것이라고 보고했습니다. 2020년에 주요 작업을 클라우드로 이동시킴에 따라 이 수치가 현재 약20 % 이하로 떨어졌으며, 이러한 추세는 다른 기업에서는 드문 일이 아닙니다. 시간이 지나며 클라우드 마이그레이션이 진행됨에 따라 위의 모델은 점점 번거롭고 지속하기 어려워졌으며, 조직이 클라우드 우선 환경으로 진입하는 상황에서 조직의 민첩성에 방해가 되었습니다.
 
 이 위기는 전 세계 COVID-19 팬데믹으로 인해 즉시 해결해야 하는 사항으로 떠올랐습니다. 직원의 안전을 보장하기 위해 대규모의 재택 근무 생산성을 지원하기 위한 기업 IT에 전례없는 대한 수요가 발생했습니다. Microsoft Office 365는 고객이 이러한 요구를 충족할 수 있도록 잘 배치되어 있지만 집에서 작업하는 사용자의 동시성은 많은 Office 365 트래픽을 생성합니다. 강제 터널 VPN 및 사내 네트워크 경계를 통해 라우팅되는 경우 빠른 채도가 발생하고 VPN 인프라가 용량을 능가합니다. 이 새로운 현실에서 VPN을 사용하여 Office 365에 액세스하는 것은 더 이상 성능에 영향을 미치는 것이 아니라 Office 365뿐만 아니라 운영을 위해 VPN을 계속 사용해야 하는 중요한 비즈니스 운영에 영향을 미치는 하드 벽입니다.
 
-Microsoft는 자체 서비스 내에서 이러한 문제에 대한 효과적인 최신 솔루션을 제공하고 업계 모범 사례에 맞추기 위해 수년간 고객 및 더 다양한 업계와 긴밀히 협력하고 있습니다. Office 365 서비스의 [연결 원칙](./microsoft-365-network-connectivity-principles.md)은 조직이 원격 사용자의 연결에 대한 보안과 제어를 계속 유지할 수 있도록 하는 동시에 원격 사용자에게 효과적으로 작동하도록 설계되었습니다. 이러한 솔루션은 제한된 작업으로 매우 빠르게 구현할 수 있으며, 위에서 설명한 문제에 상당히 긍정적인 영향을 미칩니다.
+Microsoft는 자체 서비스 내에서 이러한 문제에 대한 효과적인 최신 솔루션을 제공하고 업계 모범 사례에 맞추기 위해 수년간 고객 및 더 다양한 업계와 긴밀히 협력하고 있습니다. Office 365 서비스의 [연결 원칙](./microsoft-365-network-connectivity-principles.md)은 조직이 원격 사용자의 연결에 대한 보안과 제어를 계속 유지할 수 있도록 하는 동시에 원격 사용자에게 효과적으로 작동하도록 설계되었습니다. 이러한 솔루션은 제한된 작업으로 빠르게 구현할 수 있습니다. 그러나 위에서 설명한 문제에 큰 긍정적인 영향을 미치게 됩니다.
 
-Microsoft에서 원격 작업자의 연결을 최적화에 권장하는 전략은 전통적인 접근 방식의 문제를 신속하게 완화하고 몇 가지 간단한 단계를 통해 높은 성능을 제공하는 데 초점을 맞춥니다. 다음 단계에서는 병목 현상이 있는 VPN 서버를 우회하는 정의된 소수의 끝점에 대해 레거시 VPN 접근 방식을 조정합니다. 동등하거나 우수한 보안 모델을 다양한 계층에 적용할 수 있으므로 회사 네트워크 송신에서 모든 트래픽을 보호할 필요가 없습니다. 대부분의 경우 이를 몇 시간 내에 효과적으로 실현할 수 있으며 요구 사항 및 시간이 허용되면 다른 작업으로 확장할 수 있습니다.
+Microsoft에서 원격 작업자의 연결을 최적화에 권장하는 전략은 전통적인 접근 방식의 문제를 신속하게 완화하고 몇 가지 간단한 단계를 통해 높은 성능을 제공하는 데 초점을 맞춥니다. 다음 단계에서는 병목 현상이 있는 VPN 서버를 우회하는 정의된 몇 가지 끝점에 대해 레거시 VPN 접근 방식을 조정합니다. 동등하거나 우수한 보안 모델을 다양한 계층에 적용할 수 있으므로 회사 네트워크 송신에서 모든 트래픽을 보호할 필요가 없습니다. 대부분의 경우 이를 몇 시간 내에 효과적으로 실현할 수 있으며 요구 사항 및 시간이 허용되면 다른 작업으로 확장할 수 있습니다.
 
 ## <a name="common-vpn-scenarios"></a>일반적인 VPN 시나리오
 
 아래 목록에는 엔터프라이즈 환경의 가장 일반적인 VPN 시나리오가 표시됩니다. 대부분의 고객은 일반적으로 모델 1(VPN 강제 터널)을 사용합니다. 이 섹션에서는 비교적 적은 노력으로도 달성할 수 있으며 네트워크 성능 및 사용자 경험에 큰 이점이 있는 모델 **2로** 빠르고 안전하게 전환하는 데 도움이 됩니다.
 
-| **모델** | **설명** |
+| 모델 | 설명 |
 | --- | --- |
 | [1. VPN 강제 터널](#1-vpn-forced-tunnel) | 트래픽의 100%가 VPN 터널(사내, 인터넷 및 모든 O365/M365 포함)으로 들어갑니다. |
 | [2. VPN 강제 터널(일부 예외 포함)](#2-vpn-forced-tunnel-with-a-small-number-of-trusted-exceptions) | VPN 터널이 기본적으로 사용되며 (VPN로의 기본 라우팅 포인트) 직접 전송하도록 허용된 가장 중요한 몇 가지 예외 시나리오가 있음 |
@@ -61,13 +61,13 @@ Microsoft에서 원격 작업자의 연결을 최적화에 권장하는 전략�
 
 ### <a name="1-vpn-forced-tunnel"></a>1. VPN 강제 터널
 
-대부분의 엔터프라이즈 고객에게 가장 일반적인 시작 시나리오입니다. 강제 VPN이 사용됩니다. 즉, 끝점이 회사 네트워크에 있는지와 관계없이 트래픽의 100%가 회사 네트워크로 연결됩니다. 그런 다음 Office 365 또는 인터넷 브라우징과 같은 외부 (인터넷) 바운드 트래픽은 프록시와 같은 온-프레미스 보안 장비에서 헤어핀됩니다. 이 모델은 사용자의 약 100%가 원격으로 작업하고 있는 현재 환경에서 VPN 인프라에 상당한 부하를 가하고 모든 기업 트래픽의 성능을 크게 저해하여 기업이 위기 상황에서 효율적으로 운영되기 어렵게 합니다.
+대부분의 엔터프라이즈 고객에게 가장 일반적인 시작 시나리오입니다. 강제 VPN이 사용됩니다. 즉, 끝점이 회사 네트워크에 있는지와 관계없이 트래픽의 100%가 회사 네트워크로 연결됩니다. Office 365 또는 인터넷 검색과 같은 모든 외부(인터넷) 바운드 트래픽은 내부 보안 장비(예: proxies)에서 헤어핀됩니다. 약 100%의 사용자가 원격으로 작업하는 현재 환경의 경우 이 모델은 VPN 인프라에 많은 부하를 주게 하므로 모든 회사 트래픽의 성능이 크게 희미해지기 때문에 기업은 위기 시 효율적으로 작동할 수 있습니다.
 
 ![VPN 강제 터널 모델 1](../media/vpn-split-tunneling/vpn-model-1.png)
 
 ### <a name="2-vpn-forced-tunnel-with-a-small-number-of-trusted-exceptions"></a>2. 소수의 신뢰할 수 있는 예외가 있는 VPN 강제 터널
 
-이 모델은 VPN 터널을 무시하고 Office 365 서비스로 직접 이동하기 위해 부하와 대기 시간이 매우 높은 소수의 제어 및 정의된 끝점을 허용하기 때문에 엔터프라이즈에서 훨씬 더 효율적입니다. 이렇게 하여 오프로드된 서비스의 성능이 크게 향상되고 VPN 인프라의 부하도 감소하므로 리소스에 대한 낮은경열로 작동해야 하는 요소가 계속 작동할 수 있습니다. 이 문서에서는 다양한 긍정적인 결과로 단순하고 정의된 작업을 매우 빠르게 수행할 수 있도록 지원하기 위해 이 모델에 집중합니다.
+이 모델은 VPN 터널을 무시하고 Office 365 서비스로 직접 이동하기 위해 부하와 대기 시간이 매우 높은 몇 가지 제어 및 정의된 끝점을 허용하기 때문에 엔터프라이즈에서 훨씬 더 효율적으로 작동할 수 있습니다. 이렇게 하여 오프로드된 서비스의 성능이 크게 향상되고 VPN 인프라의 부하도 감소하므로 리소스에 대한 낮은경열로 작동해야 하는 요소가 계속 작동할 수 있습니다. 이 문서에서는 다양한 긍정적인 결과로 단순하고 정의된 작업을 빠르게 수행할 수 있도록 지원하기 위해 이 모델에 집중합니다.
 
 ![분할 터널 VPN 모델 2](../media/vpn-split-tunneling/vpn-model-2.png)
 
@@ -91,7 +91,7 @@ Microsoft에서 원격 작업자의 연결을 최적화에 권장하는 전략�
 
 ## <a name="implement-vpn-split-tunneling"></a>VPN 분할 터널링 구현
 
-이 섹션에서는 VPN 클라이언트 아키텍처를 [일반적인 VPN 시나리오](#common-vpn-scenarios) 섹션의 _VPN 강제 터널_ 에서 _소수의 신뢰할 수 있는 예외가 있는 VPN 강제 터널_, [분할 터널 VPN 모델 2](#2-vpn-forced-tunnel-with-a-small-number-of-trusted-exceptions)까지 마이그레이션하는 데 필요한 몇 가지 간단한 단계가 나와 있습니다.
+이 섹션에서는 VPN 강제 터널에서 소수의 신뢰할 수 있는  예외가 있는 _VPN_ 강제 터널로 VPN 클라이언트 아키텍처를 마이그레이션하는 데 필요한 간단한 단계, 공통 [VPN](#common-vpn-scenarios)시나리오에서 [VPN](#2-vpn-forced-tunnel-with-a-small-number-of-trusted-exceptions) 분할 터널 #2 단계를 찾을 수 있습니다.
 
 다음 다이어그램은 권장 VPN 분할 터널 솔루션이 어떻게 진행되는지 보여줍니다.
 
@@ -99,7 +99,7 @@ Microsoft에서 원격 작업자의 연결을 최적화에 권장하는 전략�
 
 ### <a name="1-identify-the-endpoints-to-optimize"></a>1. 최적화할 끝점 식별
 
-Microsoft는 [Office 365 URL 및 IP 주소 범위](urls-and-ip-address-ranges.md) 항목에서 최적화해야 하는 주요 끝점을 명확하게 식별하고 이를 **최적화** 로 분류합니다. 현재 최적화해야 하는 URL과 20개의 IP 서브넷이 있습니다. 이 작은 끝점 그룹은 Teams 미디어와 같은 대기 시간에 민감한 끝점을 포함하여 Office 365 서비스에 대한 트래픽 양의 약 70% - 80%에 해당합니다. 기본적으로 이 트래픽은 특별히 주의해야 하는 트래픽으로, 기존 네트워크 경로 및 VPN 인프라에 엄청난 압력을 가할 트래픽입니다.
+Microsoft는 [Office 365 URL 및 IP 주소 범위](urls-and-ip-address-ranges.md) 항목에서 최적화해야 하는 주요 끝점을 명확하게 식별하고 이를 **최적화** 로 분류합니다. 현재 최적화해야 하는 URL과 20개의 IP 서브넷이 4개만 있습니다. 이 작은 끝점 그룹은 Teams 미디어와 같은 대기 시간에 민감한 끝점을 포함하여 Office 365 서비스에 대한 트래픽 양의 약 70% - 80%에 해당합니다. 기본적으로 이 트래픽은 특별히 주의해야 하는 트래픽으로, 기존 네트워크 경로 및 VPN 인프라에 엄청난 압력을 가할 트래픽입니다.
 
 이 범주의 URL의 특징은 다음과 같습니다.
 
@@ -120,7 +120,7 @@ Office 365 끝점과 이를 분류 및 관리 방법에 대한 자세한 내용�
 | --- | --- | --- |
 | <https://outlook.office365.com> | TCP 443 | 이는 Outlook이 Exchange Online 서버에 연결하는 데 사용하는 기본 URL 중 하나이며 대역폭 사용량 및 연결 수가 많습니다. 빠른 검색, 다른 사서함 일정, 약속 있음/없음 조회, 규칙 및 알림 관리, Exchange Online Archive, 보낼 편지함에서 보내는 전자 메일과 같은 온라인 기능을 사용하려면 네트워크 대기 시간이 짧아야 합니다. |
 | <https://outlook.office.com> | TCP 443 | 이 URL은 Outlook Online 웹 액세스에서 Exchange Online 서버에 연결하는 데 사용되며 네트워크 대기 시간에 민감합니다. SharePoint Online을 통한 대용량 파일 업로드 및 다운로드에는 연결이 특히 필요합니다. |
-| \<tenant\>https:// .sharepoint.com | TCP 443 | 이는 SharePoint Online의 기본 URL이며 대역폭 사용량이 높습니다. |
+| \<tenant\>https:// .sharepoint.com | TCP 443 | 이 URL은 SharePoint Online의 기본 URL로, 대역폭이 높습니다. |
 | https:// \<tenant\> -my.sharepoint.com | TCP 443 | 이는 비즈니스용 OneDrive의 기본 URL이며 비즈니스용 OneDrive 동기화 도구에서 대역폭 사용량 및 연결 수가 많을 수 있습니다. |
 | Teams 미디어 IP(URL 없음) | UDP 3478, 3479, 3480 및 3481 | 릴레이 검색 할당 및 실시간 트래픽(3478), 오디오(3479), 비디오(3480) 및 비디오 화면 공유(3481) 비즈니스용 Skype 및 Microsoft Teams 미디어 트래픽(통화, 모임 등)에 사용되는 끝점입니다. 대부분의 끝점은 Microsoft Teams 클라이언트에서 호출을 설정할 때 제공됩니다. (또한 서비스에 대해 나열된 필수 IP에 포함됩니다) 최적의 미디어 품질을 위해서는 UDP 프로토콜을 사용해야 합니다.   |
 
@@ -128,7 +128,7 @@ Office 365 끝점과 이를 분류 및 관리 방법에 대한 자세한 내용�
 
 #### <a name="optimize-ip-address-ranges"></a>IP 주소 범위 최적화
 
-이러한 끝점에 해당하는 IP 범위를 작성하는 시기는 다음과 같습니다. 구성을 적용할 때 이 예제, [Office 365 IP 및 URL 웹 서비스](microsoft-365-ip-web-service.md) 또는 [URL/IP 페이지](urls-and-ip-address-ranges.md)와 같은 [스크립트](https://github.com/microsoft/Office365NetworkTools/tree/master/Scripts/Display%20URL-IPs-Ports%20per%20Category)를 사용하여 업데이트를 확인하고 정기적으로 이 작업을 수행하는 데 필요한 정책을 설정할 것을 **권장** 합니다.
+이러한 끝점에 해당하는 IP 범위를 작성하는 시기는 다음과 같습니다. [Office 365 IP](microsoft-365-ip-web-service.md) 및 [](https://github.com/microsoft/Office365NetworkTools/tree/master/Scripts/Display%20URL-IPs-Ports%20per%20Category) URL 웹 서비스 또는 [URL/IP](urls-and-ip-address-ranges.md) 페이지와 같은 스크립트를 사용하여 구성을 적용할 때 업데이트를 확인하고 정기적으로 적용하는 정책을 설정하는 것이 좋습니다. 
 
 ```
 104.146.128.0/17
@@ -209,7 +209,7 @@ foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -Inter
 ```
 -->
 
-**최적화** IP에 대한 트래픽이 이 방식으로 라우팅되도록 VPN 클라이언트를 구성해야 합니다. 이를 통해 트래픽은 Office 365 서비스와 연결 끝점을 사용자에게 최대한 가깝게 제공하는 [Azure Front Door와](https://azure.microsoft.com/blog/azure-front-door-service-is-now-generally-available/) 같은 Office 365 Service Front Door와 같은 로컬 Microsoft 리소스를 활용할 수 있습니다. 따라서 전 세계 사용자에게 매우 뛰어난 성능을 제공할 수 있으며, 사용자가 직접 송신하는 데 시간이 거의 걸리지 않는 경우 [Microsoft의 세계적인 글로벌 네트워크](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)를 최대한 활용할 수 있습니다.
+**최적화** IP에 대한 트래픽이 이 방식으로 라우팅되도록 VPN 클라이언트를 구성해야 합니다. 이를 통해 트래픽은 Office 365 서비스와 연결 끝점을 사용자에게 최대한 가깝게 제공하는 [Azure Front Door와](https://azure.microsoft.com/blog/azure-front-door-service-is-now-generally-available/) 같은 Office 365 Service Front Door와 같은 로컬 Microsoft 리소스를 활용할 수 있습니다. 이를 통해 전 세계 어디서나 사용자에게 고성능 수준을 제공할 수 [있으며, 사용자의](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)직접 반출이 몇 밀리초 내에 있을 수 있는 Microsoft의 세계적 수준의 글로벌 네트워크를 모두 활용할 수 있습니다.
 
 ## <a name="configuring-and-securing-teams-media-traffic"></a>Teams 미디어 트래픽 구성 및 보안
 
@@ -221,7 +221,7 @@ Teams 미디어에 대한 필수 최적화 IP 서브넷이 경로 테이블에 �
 
 일부 VPN 클라이언트 소프트웨어는 URL을 기반으로 경로를 조작할 수 있습니다. 그러나 Teams 미디어 트래픽에는 연결된 URL이 없으므로 이 트래픽에 대한 경로 제어는 IP 서브넷을 사용하여 수행해야 합니다.
 
-특정 시나리오에서 Teams 클라이언트 구성과 관련이 없는 경우가 많지만, 미디어 트래픽은 올바른 경로를 사용하는 경우에도 계속 VPN 터널을 통과합니다. 이 시나리오가 발생하는 경우 방화벽 규칙을 사용하여 Teams IP 서브넷 또는 포트에서 VPN을 사용하지 못하도록 차단하면 됩니다.
+특정 시나리오에서 Teams 클라이언트 구성과 관련이 없는 경우가 많지만, 미디어 트래픽은 올바른 경로를 사용하는 경우에도 계속 VPN 터널을 통과합니다. 이 시나리오가 발생하는 경우 방화벽 규칙을 사용하여 Teams IP 서브넷 또는 포트가 VPN을 사용하지 차단하는 것으로 충분합니다.
 
 >[!IMPORTANT]
 >Teams 미디어 트래픽이 모든 VPN 시나리오에서 원하는 방법을 통해 라우팅되도록 보장하기 위해 사용자가 Microsoft Teams 클라이언트 버전 **1.3.00.13565** 이상을 실행하고 있도록 합니다. 이 버전에는 클라이언트가 사용 가능한 네트워크 경로를 검색하는 방식이 개선되었습니다.
@@ -238,7 +238,7 @@ Teams 미디어에 대한 필수 최적화 IP 서브넷이 경로 테이블에 �
 
 비즈니스용 Skype 온라인은 _TURN(NAT 주변의 릴레이를 사용한 트래버스)_ 을 통해 미디어 릴레이에 안전하게 액세스할 수 있도록 사용자 이름/암호를 생성합니다. 미디어 릴레이는 TLS 보안 SIP 채널을 통해 사용자 이름/암호를 교환합니다. VPN 터널을 사용하여 클라이언트를 회사 네트워크에 연결하는 경우에도 트래픽이 회사 네트워크를 떠나 서비스에 도달할 때 계속 SRTP 형식으로 흘러야 합니다.
 
-Teams가 음성 또는 _STUN(NAT의 세션 탐색 유틸리티)_ 증폭 공격과 같은 일반적인 보안 문제를 완화하는 방법에 대한 정보는 [이 문서](/openspecs/office_protocols/ms-ice2/69525351-8c68-4864-b8a6-04bfbc87785c)에 나와 있습니다.
+Teams에서 음성 또는 _STUN(SESSION Traversal Utilities for NAT)_ 강화 공격과 같은 일반적인 보안 우려를 완화하는 방법에 대한 정보는 구현자에 대한 [5.1](/openspecs/office_protocols/ms-ice2/69525351-8c68-4864-b8a6-04bfbc87785c)보안 고려 사항 에서 찾을 수 있습니다.
 
 원격 작업 시나리오에서 최신 보안 제어에 대한 자세한 내용은 [보안 전문가와 IT가 오늘날의 고유한 원격 작업 시나리오에서 최신 보안 제어를 달성할 수 있는 다른 방법(Microsoft 보안팀 블로그)](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)에서 알아볼 수 있습니다.
 
@@ -282,7 +282,7 @@ Microsoft 보안 팀은 보안 [](https://www.microsoft.com/security/blog/2020/0
 
 해답은 [테넌트 제한이라는 기능](/azure/active-directory/manage-apps/tenant-restrictions)입니다. 인증 트래픽은 용량이 크지 않고 대기 시간에 민감하지 않으므로 VPN 솔루션을 통해 기능이 적용되는 온-프레미스 프록시로 보낼 수 있습니다. 신뢰할 수 있는 테넌트의 허용 목록이 여기에 유지 관리됩니다. 클라이언트가 신뢰할 수 없는 테넌트에 대한 토큰을 얻습니다. 프록시는 단순히 요청을 거부합니다. 테넌트를 신뢰할 수 있는 경우 사용자에게 올바른 자격 증명과 권한이 있으면 토큰에 액세스할 수 있습니다.
 
-따라서 사용자가 위의 최적화 표시된 끝점에 TCP/UDP 연결을 하더라도 해당 테넌트에 액세스하기 위한 유효한 토큰이 없으면 로그인 및 데이터 액세스/이동할 수 없습니다.
+따라서 사용자가 위의 최적화 표시된 끝점에 TCP/UDP 연결을 만들 수 있는 경우에도 해당 테넌트에 액세스하기 위한 유효한 토큰이 없는 경우 로그인하고 데이터에 액세스/이동할 수 없습니다.
 
 ### <a name="does-this-model-allow-access-to-consumer-services-such-as-personal-onedrive-accounts"></a>이 모델은 개인 OneDrive 계정과 같은 소비자 서비스에 대한 액세스를 허용하나요?
 
@@ -304,15 +304,15 @@ Q1에 나와있는 테넌트 제한 기능 외에도 [조건부 액세스 정책
 
 ### <a name="how-do-i-protect-against-viruses-and-malware"></a>바이러스 및 맬웨어를 방지하려면 어떻게 해야 하나요?
 
-Office 365는 [이 문서에서 설명하는](/office365/Enterprise/office-365-malware-and-ransomware-protection) 서비스 자체의 다양한 계층에서 최적화 표시된 끝점에 대한 보호를 제공합니다. 앞서 말한 것 처럼 프로토콜/트래픽을 완전히 이해하지 못 할 수 있는 디바이스와 연계하여 시도하는 대신 서비스 자체에 이러한 보안 요소를 제공하는 것이 훨씬 더 효율적입니다. 기본적으로 SharePoint Online은 [파일](../security/defender-365-security/virus-detection-in-spo.md) 업로드에서 알려진 맬웨어를 자동으로 검색합니다.
+Office 365는 [이 문서에서 설명하는](/office365/Enterprise/office-365-malware-and-ransomware-protection) 서비스 자체의 다양한 계층에서 최적화 표시된 끝점에 대한 보호를 제공합니다. 앞서 말한 것 처럼 프로토콜/트래픽을 완전히 이해하지 못 할 수 있는 장치와 연계하여 이러한 보안 요소를 서비스 자체에 제공하는 것이 훨씬 더 효율적입니다. 기본적으로 SharePoint Online은 [파일](../security/office-365-security/virus-detection-in-spo.md) 업로드에서 알려진 맬웨어를 자동으로 검색합니다.
 
 위에 나열된 Exchange 끝점의 경우 [Exchange Online Protection](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) 및 Office [365용 Microsoft Defender는](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) 서비스에 트래픽 보안을 제공하는 훌륭한 작업을 합니다.
 
 ### <a name="can-i-send-more-than-just-the-optimize-traffic-direct"></a>직접 최적화 트래픽보다 더 많이 보낼 수 있나요?
 
-**최적화** 표시된 끝점이 낮은 수준의 작업을 최대한 활용할 수 있으므로 여기에 우선 순위를 부여해야 합니다. 그러나 원하는 경우 서비스가 작동하고 필요한 경우 사용할 수 있는 끝점에 대한 IP를 제공하려면 표시된 끝점 허용이 필요합니다.
+**최적화** 표시된 끝점이 낮은 수준의 작업을 최대한 활용할 수 있으므로 여기에 우선 순위를 부여해야 합니다. 그러나 원하는 경우 서비스가 작동하고 필요한 경우 사용할 수 있는 끝점에 대해 IP 주소를 제공하려면 표시된 끝점 허용이 필요합니다.
 
-일반 웹 검색을 위한 중앙 보안, 제어 및 회사 정책 응용 프로그램을 제공하는 보안 웹 게이트웨이라는 클라우드 기반 프록시/보안 솔루션을 제공하는 다양한 공급업체도 있습니다. 이러한 솔루션은 사용자에게 가까운 클라우드 기반 위치에서 안전한 인터넷 액세스를 제공하도록 하여 고가용성, 수행 가능, 프로비전된 경우 클라우드 우선 세계에서 잘 작동할 수 있습니다. 일반적인 브라우징 트래픽을 위한 VPN/기업 네트워크를 통한 헤어핀의 필요성이 사라지며 중앙 보안 제어가 계속 가능합니다.
+일반 웹 검색을 위한 중앙 보안, 제어  및 회사 정책 응용 프로그램을 제공하는 보안 웹 게이트웨이라는 클라우드 기반 프록시/보안 솔루션을 제공하는 다양한 공급업체도 있습니다. 이러한 솔루션은 사용자에게 가까운 클라우드 기반 위치에서 안전한 인터넷 액세스를 제공하도록 하여 고가용성, 수행 가능, 프로비전된 경우 클라우드 우선 세계에서 잘 작동할 수 있습니다. 일반적인 브라우징 트래픽을 위한 VPN/기업 네트워크를 통한 헤어핀의 필요성이 사라지며 중앙 보안 제어가 계속 가능합니다.
 
 그러나 Microsoft는 이러한 솔루션을 사용하더라도 최적화 표시된 Office 365 트래픽을 서비스로 직접 보내는 것을 권장합니다.
 
@@ -320,7 +320,7 @@ Azure Virtual Network에 대한 직접 액세스를 허용하는 방법에 대�
 
 ### <a name="why-is-port-80-required-is-traffic-sent-in-the-clear"></a>포트 80이 필요한 이유는 무엇인가요? 트래픽이 보안되지 않은 상태로 전송되나요?
 
-포트 80은 포트 443 세션으로의 리디렉션과 같은 용도로만 사용되며 고객 데이터는 포트 80을 통해 보내거나 액세스될 수 없습니다. [이 문서](../compliance/encryption.md)에서는 Office 365의 전송 중인 데이터와 미사용 데이터의 암호화에 대해 간략하게 설명하고, [이 문서](/microsoftteams/microsoft-teams-online-call-flows#types-of-traffic)에서는 SRTP를 사용하여 Teams 미디어 트래픽을 보호하는 방법에 대해 설명합니다.
+포트 80은 포트 443 세션으로의 리디렉션과 같은 용도로만 사용되며 고객 데이터는 포트 80을 통해 보내거나 액세스될 수 없습니다. [암호화는](../compliance/encryption.md) Office 365의 전송 중 및 미사용 데이터에 대한 암호화를 간략하게 설명하고, SRTP를 사용하여 Teams 미디어 트래픽을 보호하는 방법을 간략하게 설명하고 있습니다. [](/microsoftteams/microsoft-teams-online-call-flows#types-of-traffic)
 
 ### <a name="does-this-advice-apply-to-users-in-china-using-a-worldwide-instance-of-office-365"></a>이 권고는 Office 365 월드와이드 인스턴스를 사용하는 중국 사용자에게 적용되나요?
 
@@ -328,7 +328,7 @@ Azure Virtual Network에 대한 직접 액세스를 허용하는 방법에 대�
 
 ### <a name="does-split-tunnel-configuration-work-for-teams-running-in-a-browser"></a>분할 터널 구성은 브라우저에서 실행되는 Teams에 대해 작동하나요?
 
-**아니요**, 적용되지 않습니다. Microsoft Teams 클라이언트 버전 1.3.00.13565 이상에서만 작동합니다. 이 버전에는 클라이언트가 사용 가능한 네트워크 경로를 검색하는 방식이 개선되었습니다.
+예. Microsoft Teams용 클라이언트 다운로드에 나열된 지원되는 [브라우저를 통해 할 수 있습니다.](https://docs.microsoft.com/microsoftteams/get-clients#web-client)
 
 ## <a name="related-topics"></a>관련 항목
 

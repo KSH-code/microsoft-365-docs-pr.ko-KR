@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 84d85b723d4dcbdfc07a074c40241242c57bc390
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 08bb4c73cb9df429c4b07194f1c7615f44d745d8
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185590"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408340"
 ---
-# <a name="microsoft-defender-for-endpoint-for-linux"></a>Linux용 끝점용 Microsoft Defender
+# <a name="microsoft-defender-for-endpoint-for-linux"></a>엔드포인트용 Microsoft Defender(Linux)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -83,6 +83,11 @@ Linux용 끝점용 Microsoft Defender를 설치하고 구성하는 데 사용할
   > Linux용 끝점용 Defender를 다른 기반 보안 솔루션과 함께 실행하는 `fanotify` 것은 지원되지 않습니다. 운영 체제 중단을 포함하여 예측할 수 없는 결과가 발생할 수 있습니다.
 
 - 디스크 공간: 1GB
+- /opt/microsoft/mdatp/sbin/wdavdaemon에는 실행 권한이 필요합니다. 자세한 내용은 [Linux용 Microsoft Defender ATP](/microsoft-365/security/defender-endpoint/linux-support-install)설치 문제 해결에서 "디먼에 실행 권한이 있도록 확인"을 참조하세요.
+- 메모리: 1GB
+    > [!NOTE]
+    > /var에 디스크 공간이 있는지 확인하시기 바랍니다.
+
 - 이 솔루션은 현재 다음과 같은 파일 시스템 형식에 대한 실시간 보호 기능을 제공합니다.
 
   - `btrfs`

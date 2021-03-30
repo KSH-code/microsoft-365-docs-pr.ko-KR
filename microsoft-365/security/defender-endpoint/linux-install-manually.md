@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cf903bd1b09370dd7de2706b078778137ea029fb
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 98b568206d4263a574c8de653fe5345dd344ba43
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187820"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408550"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-linux-manually"></a>Linux용 끝점용 Microsoft Defender 수동 배포
 
@@ -87,7 +87,7 @@ Linux용 Endpoint용 Defender는 다음 채널(아래 *[채널]으로* 표시됨
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/[distro]/[version]/[channel].repo
     ```
 
-    예를 들어 CentOS 7을 실행 중일 때 프로비전 채널에서 Linux용 MDE를 배포할 *경우* 다음을 실행합니다.
+    예를 들어 CentOS 7을 실행 중일 때 프로비전 채널에서 Linux용 끝점용 Defender를 배포하려는 *경우:*
 
     ```bash
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/prod.repo
@@ -383,6 +383,27 @@ Options:
 ## <a name="operating-system-upgrades"></a>운영 체제 업그레이드
 
 운영 체제를 새 주 버전으로 업그레이드할 때 먼저 Linux용 Endpoint용 Defender를 제거하고 업그레이드를 설치한 다음 마지막으로 디바이스에서 Linux용 Endpoint용 Defender를 다시 구성해야 합니다.
+
+## <a name="how-to-migrate-from-insiders-fast-to-production-channel"></a>프로덕션 채널에서 Insiders-Fast 마이그레이션하는 방법
+
+1. macOS용 MDE의 "Insiders-Fast 채널" 버전을 제거합니다.
+
+    ``
+    sudo yum remove mdatp
+    ``
+
+1. Linux용 MDE 사용 안 Insiders-Fast 리포지타이  ``
+    sudo yum repolist
+    ``
+
+    > [!NOTE]
+    > 출력에 "packages-microsoft-com-fast-prod"가 표시해야 합니다.
+
+    ``
+    sudo yum-config-manager --disable packages-microsoft-com-fast-prod
+    ``
+1. "프로덕션 채널"을 사용하여 Linux용 MDE를 다시 배포합니다.
+
 
 ## <a name="uninstallation"></a>제거
 
