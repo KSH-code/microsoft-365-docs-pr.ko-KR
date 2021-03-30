@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: 새 메시지 보호 기능의 작동 방식에 대한 질문이 있나요? 여기에서 답변을 확인하세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ad0ef4f16e5b458da80227b93fab574e3ce8dde
-ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
+ms.openlocfilehash: 589a28690d1654576ace45edd482b8d67161d616
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51394686"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408593"
 ---
 # <a name="message-encryption-faq"></a>메시지 암호화 FAQ
 
@@ -118,7 +118,7 @@ Word, Excel 또는 PowerPoint 파일과 같은 파일 형식이 지원되는 경
   
 ## <a name="are-pdf-file-attachments-supported"></a>PDF 첨부 파일이 지원하나요?
 
-그 대답은 예입니다. PDF 암호화를 사용하면 보안 통신 또는 보안 공동 작업을 통해 중요한 PDF 문서를 보호할 수 있습니다. 전자 메일을 보낼 때 Office 365 서비스는 Outlook 클라이언트가 아닌 PDF 첨부 파일을 암호화합니다.
+그 대답은 예입니다. 사용하도록 설정한 경우 PDF 암호화를 사용하면 보안 통신 또는 보안 공동 작업을 통해 중요한 PDF 문서를 보호할 수 있습니다. 전자 메일을 보내면 Office 365 서비스가 PDF 첨부 파일을 암호화합니다. Outlook 클라이언트는 PDF 첨부 파일을 암호화하지 않습니다.
 
 웹용 Outlook, iOS용 Outlook 및 Android용 Outlook의 경우 더 이상 단계 없이 보내는 PC를 암호화할 수 있습니다. 이러한 클라이언트는 기본적으로 PDF 암호화를 지원합니다.
 

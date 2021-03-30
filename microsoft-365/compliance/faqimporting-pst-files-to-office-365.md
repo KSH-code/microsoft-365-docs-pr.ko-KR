@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: reference
+ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
@@ -17,17 +17,17 @@ search.appverid:
 ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
 ms.custom: seo-marvel-apr2020
 description: 이 문서에는 Office 365 가져오기 서비스를 사용하여 PST 파일을 Microsoft 365로 가져오는 데 대한 관리자의 질문과 대답이 포함되어 있습니다.
-ms.openlocfilehash: adcc84df7aed25f0d51c8fb6a1899bfa56453854
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d775e7cadb71e47cc916a064386971ecd3d08afc
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906792"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408637"
 ---
 # <a name="faq-about-importing-pst-files"></a>PST 파일 가져오기에 대한 FAQ
 
 **이 문서는 관리자를 위한 것입니다. PST 파일을 자신의 사서함으로 가져오시겠습니까? [Outlook .pst 파일에서](https://go.microsoft.com/fwlink/p/?LinkID=785075) 전자 메일, 연락처 및 일정 가져오기 참조**
-   
+
 다음은 Office 365 가져오기 서비스를 사용하여 PST 파일을 Microsoft 365 사서함으로 대량으로 가져오는 데 대한 몇 가지 질문과 대답입니다. PST 파일을 가져오는 방법에 대한 자세한 내용은 [Office 365로 PST](./importing-pst-files-to-office-365.md)파일 가져오기 개요를 참조하세요.
   
 ## <a name="using-network-upload-to-import-pst-files"></a>네트워크 업로드를 사용하여 PST 파일 가져오기
@@ -83,7 +83,7 @@ PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 
 
  **PST 파일을 가져올 때 메시지 크기가 제한되나요?**
   
-예. PST 파일이 150MB보다 큰 사서함을 포함한 경우 항목은 가져오기 프로세스 중에 건너뜁니다.
+예. PST 파일에 150MB보다 큰 사서함 항목이 포함되어 있는 경우 항목을 건너뜁니다. 가져오기 프로세스 중에 가져오지 않습니다. 150MB가 Exchange Online의 메시지 크기 제한이기 때문에 150MB보다 큰 항목은 가져오지 않습니다. 자세한 내용은 Exchange Online의 메시지 [제한을 참조하세요.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits)
   
  **PST 파일을 Microsoft 365 사서함으로 가져올 때 메시지를 보내거나 받은 시간, 받는 사람의 목록, 기타 속성 등 메시지 속성이 보존되나요?**
   
@@ -156,7 +156,7 @@ Office 365 가져오기 서비스에서는 2.5인치 SDD(Solid-State Drive) 또�
   
  **하드 드라이브가 Microsoft 데이터 센터에 도착하면 내 PST 파일을 Azure에 업로드하는 데 얼마나 걸리나요?**
   
-Microsoft 데이터 센터에서 하드 드라이브를 받은 후 PST 파일을 조직의 Azure Storage 영역에 업로드하는 데 영업일 7~10일이 소요됩니다. PST 파일은 `ingestiondata`라고 하는 Azure Blob 컨테이너에 업로드됩니다. 
+Microsoft 데이터 센터에서 하드 드라이브를 받은 후 PST 파일을 조직의 Azure Storage 영역에 업로드하는 데 영업일 7~10일이 소요됩니다. PST 파일은 `ingestiondata`라고 하는 Azure Blob 컨테이너에 업로드됩니다.
   
  **PST 파일을 사서함으로 가져오는 데 얼마나 걸리나요?**
   
@@ -178,12 +178,12 @@ PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유
   
  **PST 파일을 가져올 때 메시지 크기가 제한되나요?**
   
-예. PST 파일이 150MB보다 큰 사서함을 포함한 경우 항목은 가져오기 프로세스 중에 건너뜁니다.
+예. PST 파일에 150MB보다 큰 사서함 항목이 포함되어 있는 경우 항목을 건너뜁니다. 가져오기 프로세스 중에 가져오지 않습니다. 150MB가 Exchange Online의 메시지 크기 제한이기 때문에 150MB보다 큰 항목은 가져오지 않습니다. 자세한 내용은 Exchange Online의 메시지 [제한을 참조하세요.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits)
   
   **PST 가져오기 프로세스는 중복 전자 메일 항목을 어떻게 처리합니까?**
 
 PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 또는 대상 아카이브의 대상 폴더에 일치하는 항목이 있는 경우 PST 파일에서 사서함 또는 아카이브로 항목을 복사하지 않습니다. 동일한 PST 파일을 다시 가져오고 이전 가져오기 작업에서 지정한 폴더와 다른 대상 폴더(PST 가져오기 매핑 파일의 TargetRootFolder 속성을 사용하여)를 지정하면 PST 파일의 모든 항목을 다시 가져옵니다.
- 
+
  **PST 파일을 Microsoft 365 사서함으로 가져올 때 메시지를 보내거나 받은 시간, 받는 사람의 목록, 기타 속성 등 메시지 속성이 보존되나요?**
   
 예. 가져오기 프로세스 중에는 원본 메시지 메타데이터가 변경되지 않습니다.
@@ -224,6 +224,6 @@ PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 
   
 예.
   
- **하드 드라이브를 다른 국가로 하드 드라이브를 배송해야 하는 경우 내가 해야 할 일이 있나요?**
+ **If I have to ship my hard drive to another country, is there anything I need to do?**
   
-Microsoft에 배송하는 하드 드라이브가 국경을 통과해야 하는 경우도 있습니다. 이런 경우 하드 드라이브와 해당 하드 드라이브에 포함된 데이터를 해당 법규에 따라 가져오거나 내보내는 것은 고객의 책임입니다. 하드 드라이브를 배송하기 전에 드라이브 및 데이터를 지정된 Microsoft 데이터 센터로 합법적으로 배송할 수 있는지 고문 담당자와 확인하세요. 이렇게 하면 적시에 Microsoft로 도착할 수 있습니다.
+The hard drive that you ship to Microsoft might have to cross international borders. 그렇다면 해당 법률에 따라 하드 드라이브 및 해당 드라이브에 포함된 데이터를 가져오고/또는 내보낼 책임이 있습니다. Before shipping a hard drive, check with your advisors to verify that your drive and data can legally be shipped to the specified Microsoft data center. This will help to ensure that it reaches Microsoft in a timely manner.

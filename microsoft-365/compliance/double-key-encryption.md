@@ -12,12 +12,12 @@ ms.reviewer: esaggese
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 10b29220e49dcb5fda8b1f7d18e52e10513fc599
-ms.sourcegitcommit: 30c3054004ddc9d6059c11d55577552aa2464810
+ms.openlocfilehash: 746f1345b47694f4a4122edc5d89cc924441ea81
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "50939659"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408179"
 ---
 # <a name="double-key-encryption-for-microsoft-365"></a>Microsoft 365용 이중 키 암호화
 
@@ -242,6 +242,8 @@ DKE 테넌트 및 키 설정은 파일의appsettings.js **있습니다.**
      "https://sts.windows.net/9c99431e-b513-44be-a7d9-e7b500002d4b/"
    ]
    ```
+> [!NOTE]
+> 키 저장소에 대한 외부 B2B 액세스를 사용하도록 설정하려면 이러한 외부 테넌트도 유효한 발급자 목록의 일부로 포함해야 합니다.
 
 `JwtAudience`를 찾습니다. DKE 서비스가 실행될 컴퓨터의 호스트 `<yourhostname>` 이름으로 바 대체합니다. 예를 들어 다음과 같습니다.
 
@@ -500,7 +502,7 @@ DKE 서비스를 등록하는 경우:
 
 9. **암시적 부여에서** **ID 토큰** 확인란을 선택합니다.
 
-10. 변경 내용을 저장하려면 **저장** 을 선택합니다.
+10. **저장** 을 선택하여 변경 내용을 저장합니다.
 
 11. 왼쪽 창에서 **API** 노출을 선택한 다음 응용 프로그램 ID URI 옆에 있는 설정 을 **선택합니다.**
 

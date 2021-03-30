@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 이 문서에서는 서로 다른 버전의 Office 365 메시지 암호화 간의 차이점을 설명하는 데 도움이 되는 정보를 제공합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e75a709be6141c4bd1df4e63df677dd263c0777a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5c8b0852220b2144c4ab92ec9b692299c9d2c860
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927736"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408571"
 ---
 # <a name="compare-versions-of-ome"></a>OME 버전 비교
 
@@ -35,23 +35,11 @@ ms.locfileid: "50927736"
 
 ## <a name="overview-of-ad-rms-deprecation-in-exchange-online"></a>Exchange Online의 AD RMS 사용 고지 개요
 
-Exchange Online에는 전자 메일 메시지 및 첨부 파일에 대한 온라인 및 오프라인 보호를 제공하는 IRM(정보 권한 관리) 기능이 포함되어 있습니다. 기본적으로 Exchange Online은 Azure Azure Information Protection을 사용 합니다. 그러나 조직에서 Exchange Online IRM이 AD RMS(Active Directory Rights Management Service)를 사용하도록 구성한 것일 수 있습니다. Exchange Online의 AD RMS 지원은 사용 중지됩니다. 대신 Azure Information Protection은 AD RMS를 완전히 대체합니다.
+Exchange Online에는 전자 메일 메시지 및 첨부 파일에 대한 온라인 및 오프라인 보호를 제공하는 IRM(정보 권한 관리) 기능이 포함되어 있습니다. 기본적으로 Exchange Online은 Azure Information Protection을 사용 합니다. 그러나 조직에서 Exchange Online IRM이 AD RMS(Active Directory Rights Management Service)를 사용하도록 구성한 것일 수 있습니다. Exchange Online의 AD RMS 지원은 사용 중지됩니다. 대신 Azure Information Protection은 AD RMS를 완전히 대체합니다.
 
-시작하기 전에 조직에 대한 영향을 검토하고 평가합니다. 조직에서 이미 Azure Information Protection을 사용하여 Exchange Online에서 전자 메일을 암호화하는 경우 아무 것도 할 수 없습니다. Exchange 메일 흐름 규칙을 사용하여 전자 메일을 암호화하는 경우(예: Office 365 메시지 암호화 사용) 보안 전자 메일을 변경할 수 없습니다. 그렇지 않은 경우 Azure Information Protection으로 전환하여 AD RMS 사용 고지 준비를 해야 합니다.
+이 사용이 조직에 미치는 영향을 평가하려면 [How to migrate AD RMS to Azure RMS in Exchange Online을 참조하세요.](https://support.microsoft.com/help/5001237) 이 문서에서는 마이그레이션 옵션에 대한 권장 사항을 제공합니다.
 
-### <a name="prepare-for-ad-rms-deprecation"></a>AD RMS 사용 고지
-
-Azure Information Protection을 이미 설정했지만 사용하지 않는 경우 Exchange Online PowerShell을 사용하여 서비스를 사용하도록 설정하세요. 로컬 컴퓨터에서 조직의 전역 관리자 권한이 있는 직장 또는 학교 계정을 사용하여 조직 창에서 [Exchange Online PowerShell에](/powershell/exchange/connect-to-exchange-online-powershell) Windows PowerShell 합니다.
-
-Azure Information Protection을 사용하도록 설정하려면 다음 명령을 Set-IrmConfiguration cmdlet을 사용하세요.
-
-```powershell
-Set-IrmConfiguration -AzureRMSLicensingEnabled $true
-```
-
-조직에서 아직 Azure Information Protection을 설정하지 않은 경우 AD RMS에서 Azure Information Protection으로 마이그레이션해야 합니다. 자세한 내용은 [AD RMS에서 Azure Information Protection으로 마이그레이션을 참조하세요.](/azure/information-protection/migrate-from-ad-rms-to-azure-rms)
-
-## <a name="side-by-side-comparison-of-features-and-capabilities"></a>기능의 나란히 비교
+## <a name="side-by-side-comparison-of-ome-features-and-capabilities"></a>OME 기능의 나란히 비교
 
 |           **상황**           | **레거시 OME**    | **AD RMS의 IRM**        | **새로운 OME 기능** |
 |-----------------------------------|-------------------|-------------------|--------------------------|
