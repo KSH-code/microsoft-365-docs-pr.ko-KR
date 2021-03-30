@@ -57,7 +57,7 @@
     - name: Microsoft 365 관리 센터 개요
       items:
         - name: 관리 센터 개요
-          href: admin-overview/about-the-admin-center.md
+          href: ../business-video/admin-center-overview.md
         - name: 관리자 역할 정보
           href: add-users/about-admin-roles.md
         - name: 관리자 모바일 앱
