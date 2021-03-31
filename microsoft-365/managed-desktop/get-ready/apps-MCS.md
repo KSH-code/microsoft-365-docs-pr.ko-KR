@@ -1,20 +1,23 @@
 ---
 title: Microsoft 컨설팅 서비스 활용
 description: MCS와 함께 앱을 패키지로 구성하기 위한 준비 및 단계
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서, 앱, MCS, 패키징
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
+f1.keywords:
+- NOCSH
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 04b0c7905c83be2afa46abcfb2d4bb5cd9735e06
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: 1441ca3305a5f3e5a83ddd5e1547812f08d7d96b
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909229"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445699"
 ---
 # <a name="working-with-microsoft-consulting-services"></a>Microsoft 컨설팅 서비스 활용
 
@@ -31,7 +34,7 @@ MCS 앱 패키징을 사용하려면 **다음 요소를 제공해야 합니다.*
 **MCS는 다음 작업을 관리합니다.**
 
 - Microsoft Managed Desktop 환경에서 앱이 금지되거나 제한되어 있는지 확인
-- Windows 10과의 호환성을 보장하기 위해 앱의 설치, 시작 및 제거 테스트 MCS가 호환성 문제를 발견하면 수정을 위해 데스크톱 앱 [Assure](/fasttrack/win-10-desktop-app-assure) 프로그램으로 앱을 제공합니다.
+- Windows 10과의 호환성을 보장하기 위해 앱의 설치, 시작 및 제거 테스트 MCS가 호환성 문제를 발견하면 수정을 위해 [앱을 App Assure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure) 프로그램으로 제공합니다.
 - 앱을 사양에 패키징한 다음 Microsoft Intune을 사용하여 앱 배포를 테스트합니다.
 
 ## <a name="app-delivery-schedule"></a>앱 배달 일정

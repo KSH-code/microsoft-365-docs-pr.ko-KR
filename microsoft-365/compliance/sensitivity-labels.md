@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 6c1f8b404ddcda45d782a6517880955a6199025d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a540529c174cc12b0e037be4af4e08c29e3835ea
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919594"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408603"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -49,9 +49,9 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 민감도 레이블을 적용하려면 Microsoft 365 회사 또는 학교 계정으로 로그인해야 합니다.
 
 > [!NOTE]
-> 민감도 레이블은 미국 정부 테넌트(GCC 및 GCC-H)에 대해 새로 지원됩니다. 자세한 내용은 엔터프라이즈용 Microsoft 365 앱 [버전 2101: 1월 26일](/officeupdates/current-channel#version-2101-january-26) 릴리스 노트를 참조하세요.
+> 미국 정부 테넌트의 경우 민감도 레이블이 [이제 GCC 및 GCC High 환경](/officeupdates/current-channel#version-2101-january-26)에 지원되고 현재 DoD 환경에 배포됩니다.
 >
-> Azure Information Protection 통합 레이블 지정 클라이언트 및 스캐너는 [Azure Information Protection Premium 정부 서비스 설명](/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description)을 참조하세요.
+> 이 환경에 대해 Azure Information Protection 통합 레이블 지정 클라이언트 및 스캐너를 사용하는 경우 [Azure Information Protection Premium 정부 서비스 설명](/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description)을 참조하세요.
 
 민감도 레이블을 사용하여 다음을 수행할 수 있습니다.
   

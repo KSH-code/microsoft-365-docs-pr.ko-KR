@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 167db9b5da841528e95f167b3af6a840b6c71eb4
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: bf1e706562db06064409cb7cf11441d048ef8db6
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165564"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445289"
 ---
 # <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>비영구 가상 데스크톱 인프라(VDI) 장치 온보딩
 
@@ -48,8 +48,11 @@ VIS를 온보드할 때 관련 문제가 있을 수 있습니다. 이 시나리�
 
 VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시될 수 있습니다.
 
-- 각 디바이스에 대한 단일 항목입니다.  
-이 경우 세션을  만들 때(예: 무인 응답 파일 사용) 동일한 장치 이름을 구성해야 합니다.
+- 각 디바이스에 대한 단일 항목입니다.
+
+  > [!NOTE]
+  > 이 경우 세션을 만들 때(예: 무인 응답 파일 사용) 동일한 장치 이름을 구성해야 합니다. 
+
 - 각 디바이스에 대한 여러 항목( 각 세션에 대해 하나씩)
 
 다음 단계에서는 VDI 장치를 등록하는 단계를 안내하고 단일 항목과 여러 항목에 대한 단계를 강조합니다.
@@ -84,14 +87,15 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
    > [!NOTE]
    > 도메인 그룹 정책은 비영구적 VDI 장치를 온보드하는 데도 사용할 수 있습니다.
 
-4. 구현할 메서드에 따라 적절한 단계를 수행합니다. <br>
-   **각 장치에 대한 단일 항목의 경우**:<br>
+4. 구현할 메서드에 따라 적절한 단계를 수행합니다.
+
+   - 각 디바이스에 대한 단일 항목:
    
-   **PowerShell 스크립트 탭을** 선택한  다음 추가를 클릭합니다(Windows 탐색기는 앞서 온보딩 스크립트를 복사한 경로에서 직접 열립니다).를 클릭합니다. 온보딩 PowerShell 스크립트로 `Onboard-NonPersistentMachine.ps1` 이동합니다.
+     **PowerShell 스크립트 탭을** 선택한  다음 추가를 클릭합니다(Windows 탐색기는 앞서 온보딩 스크립트를 복사한 경로에서 직접 열립니다).를 클릭합니다. 온보딩 PowerShell 스크립트로 `Onboard-NonPersistentMachine.ps1` 이동합니다. 다른 파일은 자동으로 트리거되어 다른 파일을 지정할 필요가 없습니다.
    
-   **각 장치에 대한 여러 항목의 경우**:
+   - 각 장치에 대한 여러 항목의 경우:
    
-   스크립트 **탭을** 선택한 다음  추가를 클릭합니다(Windows 탐색기는 앞서 온보딩 스크립트를 복사한 경로에서 직접 열립니다).를 클릭합니다. 온보딩 bash 스크립트로 `WindowsDefenderATPOnboardingScript.cmd` 이동합니다.
+     스크립트 **탭을** 선택한 다음  추가를 클릭합니다(Windows 탐색기는 앞서 온보딩 스크립트를 복사한 경로에서 직접 열립니다).를 클릭합니다. 온보딩 bash 스크립트로 `WindowsDefenderATPOnboardingScript.cmd` 이동합니다.
 
 5. 솔루션을 테스트합니다.
 
@@ -103,8 +107,15 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
 
    1. 다른 사용자와 함께 장치에 로그온합니다.
       
-   1. **각 장치에 대한 단일** 항목: Microsoft Defender 보안 센터에서 하나의 항목만 확인합니다.<br>
-      **각 장치에 대한 여러 항목:** Microsoft Defender 보안 센터에서 여러 항목을 확인합니다.
+   1. 구현할 메서드에 따라 적절한 단계를 수행합니다.
+   
+      - 각 디바이스에 대한 단일 항목: 
+    
+        Microsoft Defender 보안 센터에서 하나의 항목만 확인 합니다.
+
+      - 각 장치에 대한 여러 항목의 경우: 
+       
+        Microsoft Defender 보안 센터에서 여러 항목을 검사합니다.
 
 6. 탐색 **창에서** 장치 목록을 클릭합니다.
 
@@ -118,14 +129,14 @@ VDI 장치는 Endpoint 포털용 Defender에 다음 중 하나와 같은 표시�
 
 1. 레지스트리 값을 다음으로 설정
 
-    ```reg
+    ```console
    [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection\DeviceTagging]
     "VDI"="NonPersistent"
     ```
 
     또는 명령줄 사용:
 
-    ```
+    ```console
     reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection\DeviceTagging" /v VDI /t REG_SZ /d "NonPersistent" /f
     ```
 

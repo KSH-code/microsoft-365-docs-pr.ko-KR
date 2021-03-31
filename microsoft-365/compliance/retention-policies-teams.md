@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 985131900a5e07188c0af641fb86f794d558f80b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cc17f89da743afce0d64b45f96493c050e61e343
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919784"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408363"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -43,33 +43,33 @@ ms.locfileid: "50919784"
 
 ## <a name="whats-included-for-retention-and-deletion"></a>보존 및 삭제에 포함된 항목
 
-Teams 보존 정책을 통해 다음의 Teams 항목(포함된 이미지, 표, 하이퍼텍스트 링크, 다른 Teams 메시지, 파일, [카드 콘텐츠](/microsoftteams/platform/task-modules-and-cards/what-are-cards)에 연결된 링크를 포함한 채팅 및 채널 메시지)을 보존하고 삭제할 수 있습니다. 채팅 메시지에는 채팅에 속한 모든 사람의 이름이 포함되어 있고, 채널 메시지에는 팀 이름과 메시지 제목이 포함되어 있습니다(제공되는 경우). 
+Teams 채팅 메시지 및 채널 메시지는 Teams 보존 정책을 사용하여 삭제될 수 있으며, 메시지의 텍스트 외에도 다음의 Teams 항목(포함된 이미지, 표, 하이퍼텍스트 링크, 다른 Teams 메시지 및 파일, [카드 콘텐츠](/microsoftteams/platform/task-modules-and-cards/what-are-cards)에 연결된 링크)을 규정 준수를 위해 보존할 수 있습니다. 채팅 메시지에는 채팅에 속한 모든 사람의 이름이 포함되어 있고, 채널 메시지에는 팀 이름과 메시지 제목이 포함되어 있습니다(제공되는 경우). 
 
 > [!NOTE]
 > 카드 콘텐츠 포함은 최근에 추가된 사항이며 이제 테넌트에 완전히 배포되었습니다. 자세한 내용은 [이제 Teams의 응용 프로그램을 통한 적응형 카드 콘텐츠에 대한 Microsoft 365 규정 준수 기능 제공](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869)을 참조하세요.
 
-현재 비공개 채널의 Teams 메시지는 보존 정책에 대해 지원되지 않습니다. Teams에 대한 보존 정책을 사용할 때 코드 조각, Teams 모바일 클라이언트에서 녹음된 목소리 메모, 미리 보기, 알림 이미지, 이모티콘 형태로 표현된 다른 사용자의 응답은 포함되지 않습니다.
+현재 비공개 채널의 Teams 메시지는 보존 정책에 대해 지원되지 않습니다. Teams에 대한 보존 정책을 사용할 때 코드 조각, Teams 모바일 클라이언트에서 녹음된 목소리 메모, 미리 보기, 알림 이미지, 이모티콘 형태로 표현된 다른 사용자의 응답은 보존되지 않습니다.
 
 Teams에서 사용하는 전자 메일 및 파일은 Teams의 보존 정책에 포함되지 않습니다. 이러한 항목은 자체 보존 정책이 있습니다.
 
 ## <a name="how-retention-works-with-microsoft-teams"></a>보존이 Microsoft Teams에서 작동하는 방식
 
-보존 정책을 사용하여 Teams의 채팅 및 채널 메시지를 보존하고 삭제할 수 있습니다. Exchange 사서함은 뒤에서 이러한 메시지를 저장하는 데 사용됩니다. Teams 채팅의 테이터는 채팅에 포함된 각 사용자의 사서함에 있는 숨겨진 폴더에 저장되고, 팀의 그룹 사서함에 있는 유사한 숨겨진 폴더는 Teams 채널 메시지에 사용됩니다.
+보존 정책을 사용하여 Teams의 채팅 및 채널 메시지를 보존하고, 해당 채팅 및 메시지를 삭제할 수 있습니다. Exchange 사서함은 이러한 메시지의 데이터를 저장하는 데 사용됩니다. Teams 채팅의 테이터는 채팅에 포함된 각 사용자의 사서함에 있는 숨겨진 폴더에 저장되고, 팀의 그룹 사서함에 있는 유사한 숨겨진 폴더는 Teams 채널 메시지에 사용됩니다.
 
 이러한 사서함은 RecipientTypeDetails 특성에 따라 나열됩니다.
 
-- **MailUser**: 이러한 사서함은 클라우드 기반 Teams 사용자를 위한 메시지를 저장합니다.
-- **UserMailbox**: 이러한 사서함은 [온-프레미스 Teams 사용자](search-cloud-based-mailboxes-for-on-premises-users.md)를 위한 메시지를 저장합니다.
-- **GroupMailbox**: 이러한 사서함은 Teams 채널의 메시지를 저장합니다.
+- **MailUser**: 이러한 사서함은 클라우드 기반 Teams 사용자를 위한 메시지 데이터를 저장합니다.
+- **UserMailbox**: 이러한 사서함은 [온-프레미스 Teams 사용자](search-cloud-based-mailboxes-for-on-premises-users.md)를 위한 메시지 데이터를 저장합니다.
+- **GroupMailbox**: 이러한 사서함은 Teams 채널의 메시지 데이터를 저장합니다.
 
 Teams 회의실에 사용되는 RoomMailbox와 같은 다른 사서함 유형은 Teams 보존 정책에 대해 지원되지 않습니다.
 
-Teams에서 역시 이 데이터를 저장하는 Azure 기반 채팅 서비스를 사용하고, 기본적으로 이 서비스에서는 데이터를 무제한적으로 저장한다는 사실을 이해하는 것이 중요합니다. 따라서 규정 준수를 이유로 Teams 메시지를 삭제해야 하는 경우 Exchange 사서함과 기본 Azure 기반 채팅 서비스 모두에서 이 데이터를 영구적으로 삭제할 수 있는 Teams에 대한 보존 정책을 사용하는 것이 좋습니다. 기본 아키텍처에 대한 자세한 내용은 [Microsoft Teams의 보안 및 규정 준수](/MicrosoftTeams/security-compliance-overview) 및 특히 [정보 보호 아키텍처](/MicrosoftTeams/security-compliance-overview#information-protection-architecture) 섹션을 참조하세요.
+Teams에서는 모든 메시지(채팅 및 채널 메시지)의 기본 저장소로 Azure 기반 채팅 서비스를 사용하며, 기본적으로 이 서비스는 데이터를 무기한으로 저장한다는 점에 유의해야 합니다. 따라서 규정 준수 이유로 Teams 메시지를 삭제해야 하는 경우, 메시지가 만들어진 시기에 따라 특정 기간 후에 메시지를 삭제할 수 있는 Teams용 보존 정책을 사용하는 것이 좋습니다. 그러면 메시지가 Exchange 사서함과 기본 Azure 기반 채팅 서비스 둘 다에서 영구적으로 삭제됩니다. 기본 아키텍처에 대한 자세한 내용은 [Microsoft Teams의 보안 및 규정 준수](/MicrosoftTeams/security-compliance-overview), 특히 [정보 보호 아키텍처](/MicrosoftTeams/security-compliance-overview#information-protection-architecture) 섹션을 참조하세요.
 
-Teams 채팅 및 채널 메시지가 사서함에 저장되어 있어도 이 Teams 데이터는 **Teams 채널 메시지** 및 **Teams 채팅** 위치에 대해 구성된 보존 정책에 의해서만 포함됩니다. Teams 채팅 및 채널 메시지는 Exchange 사용자 또는 그룹 사서함에 대해 구성된 보존 정책의 영향을 받지 않습니다.
+Teams 채팅 및 채널 메시지의 데이터가 사서함에 저장되어 있어도 이 데이터는 **Teams 채널 메시지** 및 **Teams 채팅** 위치에 대해 구성된 보존 정책에 의해서만 포함됩니다. Teams 채팅 및 채널 메시지는 Exchange 사용자 또는 그룹 사서함에 대해 구성된 보존 정책의 영향을 받지 않습니다.
 
 > [!NOTE]
-> Teams 데이터를 보존하는 활성 보존 정책에 사용자가 포함되어 있고 Teams 데이터를 보존하기 위해 이 정책에 포함된 사용자의 사서함을 삭제하면 사서함이 [비활성 사서함](inactive-mailboxes-in-office-365.md)로 변환됩니다. 사용자에 대한 이 Teams 데이터를 유지할 필요가 없는 경우 사서함을 삭제하기 전에 사용자 계정을 보존 정책에서 제외합니다.
+> Teams 메시지를 보존하는 활성 보존 정책에 사용자가 포함되어 있고 이 정책에 포함된 사용자의 사서함을 삭제하면, 사서함이 Teams 데이터를 보존하기 위해 [비활성 사서함](inactive-mailboxes-in-office-365.md)으로 변환됩니다. 사용자에 대한 이 Teams 데이터를 유지할 필요가 없는 경우 사서함을 삭제하기 전에 사용자 계정을 보존 정책에서 제외합니다.
 
 채팅 및 채널 메시지에 대한 보존 정책을 구성한 후에는, Exchange 서비스의 타이머 작업이 해당 Teams 메시지가 저장된 숨겨진 폴더의 항목을 주기적으로 평가합니다. 타이머 작업의 실행은 7일까지 걸립니다. 이러한 항목의 보존 기간이 만료되면, 해당 항목은 영구적으로 삭제되기 전에 모든 사용자 또는 그룹 사서함에서 "일시 삭제됨" 항목을 저장하는 또 다른 숨겨진 폴더인 SubstrateHolds 폴더로 이동됩니다.
 

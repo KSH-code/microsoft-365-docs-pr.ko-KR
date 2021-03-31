@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우 사전 작업입니다.'
-ms.openlocfilehash: d05b3fc06c4530a69c49962b0d2b793353033c99
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: fb352c17d9868cf5c42034e198be63b6e0543dbb
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165612"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445605"
 ---
 # <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 사전 작업
 
@@ -113,11 +113,14 @@ nslookup -querytype=CNMAE msoid.contoso.com
 ### <a name="exchange-online-hybrid-configuration"></a>Exchange Online 하이브리드 구성
 
 **다음에 적용됩니다.** Exchange 서버가 있는 활성 Exchange 하이브리드 구성을 사용하는 모든 고객<br>
-**적용된 경우:** 5단계가 시작되기 전의 모든 시간
+**적용된 경우:** 5단계가 시작되기 전의 시간
+
+Exchange Online의 하이브리드 배포 및 Exchange Server 하이브리드 구성 마법사(HCW)를 실행하여 하이브리드 설정을 유지 관리하고 설정하는 엔터프라이즈 고객. 독일 Microsoft 클라우드에서 Office 365 Germany 지역으로 전환할 때 관리자는 Exchange 마이그레이션(5단계)이 시작되기 전에 "Office 365 Germany" 모드에서 HCW의 최신 빌드를 다시 실행해야 합니다. 그런 다음 5단계가 완료된 후 "Office 365 Worldwide" 모드에서 HCW를 다시 실행하여 Office 365 Germany 지역 설정으로 사내 배포를 완료합니다.
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
-| 테넌트가 마이그레이션 단계 5에 들어가기 전에 언제든지 최신 버전의 HCW(하이브리드 구성 마법사)로 업데이트합니다. Office 365 테넌트 마이그레이션이 시작했다는 메시지 센터 알림을 받은 후 바로 이 활동을 시작할 수 있습니다(1단계).<br>Exchange 관리자는 이전 버전의 HCW를 제거한 다음 에서 최신 버전(17.0.5378.0 이상)을 설치 및 실행해야 [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) 합니다. |<ul><li>최신 버전의 HCW에는 도이치랜드 Microsoft 클라우드 인스턴스에서 Office 365 전역 서비스로 Exchange Online 마이그레이션을 지원하는 데 필요한 업데이트가 포함되어 있습니다.</li><li> 업데이트에는 송신 커넥터 및 수신 커넥터에 대한 사내 인증서 _설정에_ 대한 변경 _내용이 포함됩니다._</li><li>5단계 전에 HCW를 실행할 때 내 Office 365 조직 아래의 목록 상자에서 _Office 365 Exchange Online_ 아래의 HCW의 2nd 페이지에서 _"Office 365 Germany"를_ 선택합니다.</li><li>**참고:** 9단계 후 Office 365 테넌트 마이그레이션이 완료되면 HCW를 제거하고 다시 설치합니다. 이번에는 HCW의 2nd 페이지에서 "Office 365 Worldwide" 설정을 사용하여 Exchange Online 전역 서비스로 하이브리드 설정을 완료합니다.</li></ul>|5단계(Exchange 마이그레이션) 전에 HCW를 실행하지 못하면 서비스 또는 클라이언트 오류가 발생합니다. |
+| (사전 단계 5) - Office 365 Germany 설정을 사용하여 HCW 다시 실행 <br><br> <i>Office 365 테넌트 마이그레이션이 시작했다는 메시지 센터 알림을 받은 후 바로 이 활동을 시작할 수 있습니다(1단계).</i>| 5단계 이전의 HCW(17.0.5378.0 이상)를 설치하고 다시 실행하면 Microsoft 클라우드 도이클랜드 사용자와 Office 365 Germany 지역으로 마이그레이션된 사용자와 함께 메일을 보내고 받을 준비가 [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) 됩니다. <p><li> In the HCW, for the list box below **My Office 365 organization is hosted by**, select Office **365 Germany.** | 단계 5 [Exchange 마이그레이션]이 시작되기 전에 이 작업을 완료하지 못하면 메일에 대한 NDRS가 사내 Exchange 배포와 Office 365 간에 라우팅될 수 있습니다.  
+| (사후 단계 5) - Office 365 Worldwide 설정을 사용하여 HCW 다시 실행 <br><br> <i>Exchange 마이그레이션이 완료되었습니다는 메시지 센터 알림을 받은 후 이 활동을 시작할 수 있습니다(5단계).</i>| 5단계 이후부터 HCW를 설치하고 다시 실행하면 Office 365 전역에서만 하이브리드 구성에 대한 사내 구성이 다시 [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) 설정됩니다. <p><li> In the list box below **My Office 365 organization is hosted by**, select Office **365 Worldwide**. | 단계 9 [마이그레이션 완료]하기 전에 이 작업을 완료 하지 못하면 메일에 대한 NDRS가 프레미스 Exchange 배포와 Office 365 간에 라우팅될 수 있습니다.  
 | 인증을 위해 전역 STS(Security Token Service)를 설정하는 AuthServer 사내 설정 | 이렇게 하면 하이브리드 사내 환경을 대상으로 하는 마이그레이션 상태의 사용자로부터의 Exchange 가용성 요청에 대한 인증 요청이 인증되어 사내 서비스에 액세스할 수 있습니다. 마찬가지로, 이렇게 하면 사내에서 Office 365 전역 서비스 끝점으로의 요청 인증이 보장됩니다. | Azure AD 마이그레이션(2단계)이 완료되면 Office 365 전역 서비스에 대한 새 인증 서비스 끝점을 추가해야 합니다. Exchange PowerShell에서 이 명령을 사용하여 Azure Active Directory의 Azure Portal에 있는 조직의 테넌트 `<TenantID>` ID로 대체합니다.<br>`New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontrol.windows.net/<TenantId>/metadata/json/1`<br> 이 작업을 완료하지 못하면 도이치클라드 Microsoft 클라우드에서 Office 365 서비스로 마이그레이션된 사서함 사용자에게 하이브리드 사용 가능한 요청이 정보를 제공하지 못할 수 있습니다.  |
 ||||
 

@@ -16,12 +16,12 @@ ms.collection:
 description: Microsoft 365 E5 또는 Microsoft 365 E5 보안의 안전한 문서에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a1dc6c5dc54acd73b68fcd6241a270d2abdcc5c1
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 78ae99158e30046923d24897e7ab9b45adff31d0
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205673"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445399"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Microsoft 365 E5에서 안전한 문서
 
@@ -31,9 +31,9 @@ ms.locfileid: "51205673"
 - [Office 365용 Microsoft Defender 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-안전한 문서는 Microsoft 365 E5 또는 Microsoft 365 E5 보안의 기능으로, [끝점용 Microsoft Defender를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 보호된 보기에서 연 문서 및 파일을 [검사합니다.](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)
+안전한 문서는 끝점용 [Microsoft Defender를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 Office용 보호된 보기 또는 Application Guard에서 열 수 있는 문서 및 [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653) 파일을 검사하는 Microsoft 365 E5 또는 Microsoft 365 E5 보안의 [기능입니다.](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 안전한 문서는 *Microsoft 365 E5 또는 Microsoft 365 E5* *보안* 라이선스가 있는 사용자만 사용할 수 있습니다. 이러한 라이선스는 Microsoft Defender for Office 365 계획에 포함되어 있지 않습니다.
 
@@ -93,6 +93,12 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 ```
 
 구문과 매개 변수에 대한 자세한 내용은 [Set-AtpPolicyForO365를 참조하십시오.](/powershell/module/exchange/set-atppolicyforo365)
+
+### <a name="onboard-to-the-microsoft-defender-for-endpoint-service-to-enable-auditing-capabilities"></a>감사 기능을 사용하도록 설정하기 위해 끝점 서비스용 Microsoft Defender에 온보딩
+
+끝점용 Microsoft Defender를 배포하려면 다양한 배포 단계를 거치야 합니다. 온보드 후 보안 및 준수 센터에서 감사 기능을 & 수 있습니다.
+
+자세한 내용은 [끝점 서비스용 Microsoft Defender에 온보딩을 참조합니다.](/microsoft-365/security/defender-endpoint/onboarding) 추가 도움이 필요한 경우 끝점 온보딩 문제에 [대한 Microsoft Defender 문제 해결을 참조하시기 바랍니다.](/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)
 
 ### <a name="how-do-i-know-this-worked"></a>작동 여부는 어떻게 확인합니까?
 

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Azure Active Directory에 연결된 Windows 10 장치의 LOB(기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 액세스하는 방법을 알아봅니다.
-ms.openlocfilehash: b78509d72cbd9b3c121039c4965625bf5c21c7e0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1bca0beb3ccc78e670ad33ce446b9b3f7c372ba7
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913525"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445351"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Microsoft 365 Business Premium의 Azure AD 가입 장치에서의 사내 리소스 액세스
 
@@ -64,3 +64,7 @@ Azure AD에 연결된 Windows 장치가 이전에 도메인에 가입된 경우 
 - 사용자가 Active Directory 인증을 사용하는 응용 프로그램에 인증하지 않을 수 있습니다. 레거시 앱을 평가하고 가능한 경우 최신 인증을 사용하는 앱으로 업데이트하는 것이 좋습니다.
 
 - Active Directory 프린터 검색이 작동하지 않습니다. 모든 사용자에게 직접 프린터 경로를 제공하거나 유니버설 [인쇄를 사용할 수 있습니다.](/universal-print/)
+
+### <a name="related-articles"></a>관련 문서
+
+[Azure AD Connect의 선행 준비](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites)

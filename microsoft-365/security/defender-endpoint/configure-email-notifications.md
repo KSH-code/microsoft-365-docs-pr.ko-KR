@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d8b68e6b6dc42de5730aa634386406d4762b1fa2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 0d9e63c5d89b13b02dfcf116c1555c8db319d23f
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163686"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445367"
 ---
 # <a name="configure-alert-notifications-in-microsoft-defender-atp"></a>Microsoft Defender ATP에서 경고 알림 구성
 
@@ -51,9 +51,9 @@ RBAC(역할 기반 액세스 제어)를 사용하는 경우 받는 사람은 알
 장치 및 알림 심각도 및 알림 받는 사람에 대해 전자 메일 알림을 보내기 위한 규칙을 만들 수 있습니다.
 
 
-1. 탐색 창에서 설정 경고  >  **알림 을 선택합니다.**
+1. 탐색 창에서 설정 전자 **메일**  >  **알림 을 선택합니다.**
 
-2. 알림 **규칙 추가를 클릭합니다.**
+2. 항목 **추가 를 클릭합니다.**
 
 3. 일반 정보를 지정합니다.
     - **규칙 이름** - 알림 규칙의 이름을 지정합니다.

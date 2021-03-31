@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: overview
+ms.topic: article
 f1_keywords:
 - ms.o365.cc.IngestionHelp
 ms.service: O365-seccomp
@@ -20,12 +20,12 @@ ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 ms.custom:
 - seo-marvel-apr2020
 description: 보안 및 준수 센터에서 가져오기 서비스를 사용하여 전자 메일 데이터 (PST 파일)를 사용자 사서함에 대량으로 가져오는 방법에 대해 알아보세요.
-ms.openlocfilehash: 6d0bca6d76a0eccb9bc8181e73f2c36c51acaf77
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c645228598eb9cf0e6edca7104b8977e7eaf72f7
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911322"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408539"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files"></a>조직의 PST 파일을 가져오기 개요
 
@@ -66,7 +66,7 @@ ms.locfileid: "50911322"
     
 4. **PST 가져오기 작업 만들기** - 다음 단계는 보안 & 준수 센터의 **PST 파일 가져오기** 페이지에서 PST 가져오기 작업을 만들고 이전 단계에서 만든 PST 가져오기 매핑 파일을 제출하는 것입니다. 네트워크 업로드의 경우 (PST 파일이 Azure에 업로드 되었기 때문에) Microsoft 365는 PST 파일의 데이터를 분석한 다음 PST 가져오기 매핑 파일에 지정된 사서함으로 실제로 가져올 데이터를 제어하는 필터를 설정할 수 있는 기회를 제공합니다. 
     
-    드라이브 배송의 경우, 이 과정에서 몇 가지 추가사항이 발생합니다.
+    드라이브 배송의 경우, 이 과정에서 몇 가지 다른 상황이 발생합니다.
     
     - 하드 드라이브를 실제로 Microsoft 데이터 센터로 발송하세요 (가져오기 작업을 만들 때 Microsoft 데이터 센터의 주소가 표시됨).
     
@@ -178,7 +178,7 @@ PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 
  
  **PST 파일을 가져올 때 메시지 크기가 제한되나요?**
   
-예. PST 파일이 150MB보다 큰 사서함을 포함한 경우 항목은 가져오기 프로세스 중에 건너뜁니다.
+예. PST 파일이 150MB보다 큰 사서함을 포함한 경우 가져오기 프로세스 동안 항목을 가져오지 않고 건너뜁니다. 150MB보다 큰 항목은 Exchange Online의 메시지 크기 제한이 150MB이기 때문에 가져오지 않습니다. 자세한 내용은 [Exchange Online의 메시지 제한](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits)을 참조하세요.
   
  **PST 파일을 Microsoft 365 사서함으로 가져올 때 메시지를 보내거나 받은 시간, 받는 사람의 목록, 기타 속성 등 메시지 속성이 보존되나요?**
   
@@ -271,7 +271,7 @@ PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유
   
  **PST 파일을 가져올 때 메시지 크기가 제한되나요?**
   
-예. PST 파일이 150MB보다 큰 사서함을 포함한 경우 항목은 가져오기 프로세스 중에 건너뜁니다.
+예. PST 파일이 150MB보다 큰 사서함을 포함한 경우 가져오기 프로세스 동안 항목을 가져오지 않고 건너뜁니다. 150MB보다 큰 항목은 Exchange Online의 메시지 크기 제한이 150MB이기 때문에 가져오지 않습니다. 자세한 내용은 [Exchange Online의 메시지 제한](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits)을 참조하세요.
   
   **PST 가져오기 프로세스는 중복 전자 메일 항목을 어떻게 처리합니까?**
 
@@ -317,6 +317,6 @@ PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 
   
 예.
   
- **하드 드라이브를 다른 국가로 하드 드라이브를 배송해야 하는 경우 내가 해야 할 일이 있나요?**
+ **If I have to ship my hard drive to another country, is there anything I need to do?**
   
-Microsoft에 배송하는 하드 드라이브가 국경을 통과해야 하는 경우도 있습니다. 이런 경우 하드 드라이브와 해당 하드 드라이브에 포함된 데이터를 해당 법규에 따라 가져오거나 내보내는 것은 고객의 책임입니다. 하드 드라이브를 배송하기 전에 드라이브 및 데이터를 지정된 Microsoft 데이터 센터로 합법적으로 배송할 수 있는지 고문 담당자와 확인하세요. 이렇게 하면 적시에 Microsoft로 도착할 수 있습니다.
+The hard drive that you ship to Microsoft might have to cross international borders. 이 경우 귀하에게 하드 드라이브와 하드 드라이브에 포함된 데이터를 해당 법규에 따라 가져오거나 내보낼 책임이 있습니다. Before shipping a hard drive, check with your advisors to verify that your drive and data can legally be shipped to the specified Microsoft data center. This will help to ensure that it reaches Microsoft in a timely manner.

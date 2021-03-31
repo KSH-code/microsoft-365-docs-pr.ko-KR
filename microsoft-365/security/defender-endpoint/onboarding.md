@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 56645553c43289995012d53d7caf879874e65c8a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 56a62ca4ebbd140f507d1735c663924014ca4771
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186932"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445735"
 ---
 # <a name="onboard-to-the-microsoft-defender-for-endpoint-service"></a>끝점용 Microsoft Defender 서비스에 온보딩
 
@@ -40,7 +40,7 @@ ms.locfileid: "51186932"
 
 끝점용 Defender 배포는 3단계 프로세스입니다.
 
-| [![배포 단계 - 준비](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[1단계: 준비](prepare-deployment.md) | [![배포 단계 - 설정](images/phase-diagrams/setup.png)](production-deployment.md)<br>[2단계: 설치](production-deployment.md) | ![배포 단계 - 온보드](images/phase-diagrams/onboard.png)<br>3단계: 온보더 |
+| [![배포 단계 - 준비](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[1 단계: 준비](prepare-deployment.md) | [![배포 단계 - 설정](images/phase-diagrams/setup.png)](production-deployment.md)<br>[2 단계: 설정](production-deployment.md) | ![배포 단계 - 온보드](images/phase-diagrams/onboard.png)<br>3 단계: 온보딩 |
 | ----- | ----- | ----- |
 | | |*여기 있습니다!*|
 
@@ -86,8 +86,8 @@ ms.locfileid: "51186932"
 이 배포 가이드에서는 두 배포 도구를 사용하여 끝점을 온보드하고 기능을 구성하는 방법을 안내합니다.
 
 예제 배포의 도구는 다음과 같습니다.
-- [Microsoft Endpoint Configuration Manager를 사용한 온보더링](onboarding-endpoint-configuration-manager.md)
-- [Microsoft Endpoint Manager를 사용한 온보드](onboarding-endpoint-manager.md)
+- [Microsoft Endpoint Configuration Manager를 사용하여 온보딩](onboarding-endpoint-configuration-manager.md)
+- [Microsoft Endpoint Manager를 사용하여 온보딩](onboarding-endpoint-manager.md)
 
 위에서 언급한 배포 도구를 사용하여 끝점에 대해 다음 Defender 기능을 구성하는 방법을 안내합니다.
 - 끝점 검색 및 응답 구성
@@ -95,5 +95,6 @@ ms.locfileid: "51186932"
 - 공격 표면 감소 구성
 
 ## <a name="related-topics"></a>관련 항목
-- [Microsoft Endpoint Configuration Manager를 사용한 온보더링](onboarding-endpoint-configuration-manager.md)
-- [Microsoft Endpoint Manager를 사용한 온보드](onboarding-endpoint-manager.md)
+- [Microsoft Endpoint Configuration Manager를 사용하여 온보딩](onboarding-endpoint-configuration-manager.md)
+- [Microsoft Endpoint Manager를 사용하여 온보딩](onboarding-endpoint-manager.md)
+- [Microsoft 365 E5에서 안전한 문서](../office-365-security/safe-docs.md)

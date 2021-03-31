@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 구성 가능한 일치를 사용하도록 EDM 스키마를 수정하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e00466e4648ebe93f0658383515d1543f858e1b0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: dea641072983163c6fbbcc5888d5ee6ea91f6990
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919375"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408317"
 ---
 # <a name="modify-exact-data-match-schema-to-use-configurable-match"></a>구성 가능한 일치를 사용하도록 정확한 데이터 일치 스키마 수정
 
@@ -102,6 +102,9 @@ EDM이 구성 가능한 일치를 사용하도록 스키마를 업데이트하�
 - \,
 
 6. [보안 및 준수 센터 PowerShell](/powershell/exchange/connect-to-scc-powershell)의 연결 절차를 사용하여 보안 및 준수 센터에 연결
+
+> [!NOTE]
+> 조직에서 [테넌트 수준(공개 미리 보기)에서 Microsoft 365용 고객 키](customer-key-tenant-level.md#overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview)를 설정한 경우 정확한 데이터 일치는 암호화 기능을 자동으로 사용합니다.  상업용 클라우드의 E5 라이선스 테넌트에서만 사용할 수 있습니다.
 
 7. cmdlets를 한 번에 하나씩 실행하여 다음과 같이 스키마를 업데이트합니다.
 
