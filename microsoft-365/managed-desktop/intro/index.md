@@ -3,18 +3,19 @@ title: Microsoft Managed Desktop이 사용하기에 적합한가요?
 description: 서비스 지침과 다양한 사용자를 위한 기사 바로 가기
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
+audience: ITpro
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 07d3d50f012b2d93e9f7a75f47b0c35514b51350
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 73ce64bd83b475cc7cc0f78b6ac4a06683264144
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920623"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445557"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop이란 무엇인가요?
 
@@ -57,18 +58,21 @@ Microsoft Managed Desktop은 오늘 날 회사와 사람들이 직면하고 있�
 등록된 장치 및 사용중인 Microsoft 소프트웨어 관리에 대한 부담을 Microsoft Managed Desktop이 덜어줍니다.
 
 - **하드웨어**: IT 부서가 장치(및 드라이버)를 연구하고 검사 할 필요 없이 특정 장치는 Microsoft Managed Desktop에 의해 면밀히 검사 되어 엔터프라이즈 수준의 성능에 적합하고 서비스와 작동이 보장되는 큐레이팅 된 [장치 목록](../service-description/device-list.md)을 제공합니다. 장치를 직접(혹은 파트너와 함께) 구하거나 혹은 이미 보유한 장비가 승인된 목록에 있다면 재사용 할 수 있습니다. 등록된 장비는 쉽고 간편합니다. 배포되기 전 사용자의 고객의 경험에 맞도록 장치를 [사용자 지정](../working-with-managed-desktop/config-setting-overview.md) 할 수 있습니다.
+
 - **업데이트**: Microsoft Managed Desktop은 Windows 10 품질 및 기능 업데이트, 드라이버, 펌웨어, 바이러스 백신 정의 및 엔터프라이즈용 Microsoft 365 앱 업데이트 [배포 그룹](../service-description/updates.md)의 모든 것을 설정하고 관리합니다. 광범위한 검사 및 모든 업데이트 확인이 포함되어 등록된 장비가 항상 최신 상태를 유지하고 방해를 최소화 하여 상시 업무로 부터 IT 부서를 자유롭게 해줍니다.
-- **앱**: Microsoft 365 Enterprise의 일부로서 Microsoft는 몇 가지 주요 Microsoft 앱을 제공하고 관리 합니다. 비즈니스에 필요한 다른 앱도 있을 것입니다. 사용자의 IT 부서가 이 앱을 검사, 패키지 및 배포하는 대신 Microsoft가 배포를 도와주거나 필요시에는 [Desktop App Assure](/fasttrack/win-10-desktop-app-assure)로 지원 합니다. [Microsoft Managed Desktop 앱](../get-ready/apps.md)에 대해 더 알아보세요.
+
+- **앱**: Microsoft 365 Enterprise의 일부로서 Microsoft는 몇 가지 주요 Microsoft 앱을 제공하고 관리 합니다. 비즈니스에 필요한 다른 앱도 있을 것입니다. Microsoft는 IT 부서에서 이러한 앱을 테스트, 패키징 및 배포하는 대신 [FastTrack](https://www.microsoft.com/FastTrack) 프로그램을 통해 배포할 수 있도록 지원합니다. 또한 Microsoft의 [App Assure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assuree) 프로그램은 최신 버전의 제품으로 마이그레이션할 때 발생하는 모든 앱 호환성 문제를 수정하는 데 도움을 줄 수 있습니다. [Microsoft Managed Desktop 앱](../get-ready/apps.md)에 대해 더 알아보세요.
 
 
 ## <a name="device-monitoring"></a>장치 모니터링
 
 사용자의 장치를 모니터링 하고 Microsoft가 매월 분석하는 독특한 위협 데이터를 사용하는 전용 보안 운영 센터를 통해 사용자 장치의 보안을 유지관리 합니다. 이런 보안 기능은 나중에 추가되는 것이 아니라 기본 제공 됩니다.
 
-또한 장치 상태를 모니터링 하고 장치 성능에 대한 인사이트를 제공합니다. [Microsoft Managed Desktop에 대한 작업 및 모니터링](../service-description/operations-and-monitoring.md)에서 더 알아보기
+또한 장치 상태를 모니터링 하고 장치 성능에 대한 인사이트를 제공합니다. [Microsoft Managed Desktop에 대한 작업 및 모니터링](../service-description/operations-and-monitoring.md)에서 더 자세히 알아보세요.
 
 
 ## <a name="need-more-details"></a>자세한 정보가 필요하세요?
+
 소비자 이야기를 포함하여 Microsoft Managed Desktop 가치에 대한 자세한 내용은 [Microsoft Managed Desktop](https://aka.ms/mmd)을 참조하세요. 시작 하기 위한 더 많은 정보는 [로드맵](https://aka.ms/AA6jiam), [Forrester 총 경제 영향 사례 연구](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/forrester-tei-study.pdf), 다운로드 가능한 [1 페이지 요약](https://aka.ms/AA6ob3h)를 참조하세요. Microsoft Managed Desktop [블로그](https://aka.ms/AA6l2dd)에서 최신 뉴스를 볼 수 있습니다.
 
 Microsoft Managed Desktop이 조직에 적합한 경우 조직 등록을 준비하는 방법, 서비스를 시작하는 방법 그리고 사용자와 사용자의 고객이 필요시 손쉽게 도움을 받을 수 있는 방법 등을 포함하는 서비스에 대한 자세한 내용을 설명하는 추가 문서를 사용합니다. 가입할 준비가 되었다면 [로컬 계정 팀](https://pages.email.office.com/contactmmd/)에 문의하세요.

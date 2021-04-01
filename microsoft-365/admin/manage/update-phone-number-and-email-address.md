@@ -20,21 +20,15 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: 관리 센터에서 관리자 전화 번호 및 전자 메일 주소를 업데이트합니다. 관리자 암호를 다시 설정하려는 경우 이 정보가 필요합니다.
-ms.openlocfilehash: a5b1548ee6ac0fa6bac976758ea8f6753ea2853c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 39b68905c0d43608a0d0ce1d37167fd7d9aff8fb
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914993"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470920"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>관리자 전화 번호 및 전자 메일 주소 업데이트
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 이 문서에서는 관리자가 Microsoft 365에서 비즈니스 전화 및 전자 메일 주소를 변경하는 방법을 설명합니다.
   
 회사 이름 및 주소, 회사 전화 번호, 기술 담당자 정보 등과 같은 회사 프로필 정보를 변경하는 방법을 알아보려면 [조직 주소, 기술 담당자 전자 메일, 기타 정보 변경](change-address-contact-and-more.md)을 참조하세요.

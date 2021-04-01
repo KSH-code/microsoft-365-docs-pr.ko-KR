@@ -28,26 +28,14 @@
           href: ./office-365-security/sharepoint-file-access-policies.md
         - name: SaaS 앱에 권장되는 MCAS 정책
           href: ./office-365-security/mcas-saas-access-policies.md
-    - name: Microsoft 365 보안 센터
-      href: defender/overview-security-center.md
-    - name: Microsoft 보안 점수
-      items:
-        - name: 보안 점수 개요
-          href: defender/microsoft-secure-score.md
-        - name: 보안 상태 평가
-          href: defender/microsoft-secure-score-improvement-actions.md
-        - name: 점수 기록을 추적하고 목표를 달성
-          href: defender/microsoft-secure-score-history-metrics-trends.md
-        - name: 향후 계획
-          href: defender/microsoft-secure-score-whats-coming.md
-        - name: 새로운 기능
-          href: defender/microsoft-secure-score-whats-new.md
     - name: Microsoft 365 Defender
       items:
         - name: 개요
           items:
             - name: Microsoft 365 Defender란 무엇인가요?
               href: defender/microsoft-365-defender.md
+            - name: Microsoft 365 보안 센터
+              href: defender/overview-security-center.md
             - name: Microsoft 365 Defender의 새로운 기능
               href: defender/whats-new.md
             - name: Microsoft 365 보안 센터의 엔드포인트용 Defender
@@ -116,6 +104,18 @@
               href: defender/m365d-pilot.md
             - name: FAQ 사용 설정
               href: defender/m365d-enable-faq.md
+            - name: Microsoft 보안 점수
+              items:
+                - name: 보안 점수 개요
+                  href: defender/microsoft-secure-score.md
+                - name: 보안 상태 평가
+                  href: defender/microsoft-secure-score-improvement-actions.md
+                - name: 점수 기록을 추적하고 목표를 달성
+                  href: defender/microsoft-secure-score-history-metrics-trends.md
+                - name: 향후 계획
+                  href: defender/microsoft-secure-score-whats-coming.md
+                - name: 새로운 기능
+                  href: defender/microsoft-secure-score-whats-new.md
             - name: 위협 분석
               items:
                 - name: 위협 분석 개요

@@ -22,21 +22,14 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Microsoft 365 관리 센터에서 새 제품 및 기능 업데이트에 대한 릴리스 옵션을 설정하는 방법을 학습합니다.
-ms.openlocfilehash: e909cdf35ba9dd8282540783f7c362e5ae49212e
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: 6c5d505f0ece47b0a47df8b7ed1dc015afe93e82
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034082"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470574"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>표준 또는 대상 지정 릴리스 옵션 설정
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 > [!IMPORTANT]
 > 이 문서에 설명된 Microsoft 365 업데이트는 Microsoft 365, SharePoint Online 및 Exchange Online에 적용됩니다. 이러한 릴리스 옵션은 Microsoft 365에 대한 변경 내용을 릴리스하는 가장 좋은 방법인 대상이지만, 어떤 경우나 모든 업데이트에 대해 보장할 수는 없습니다. Microsoft 365 앱, 비즈니스용 Skype, Microsoft Teams 및 관련 서비스에는 적용되지 않습니다. Microsoft 365 앱의 릴리스 옵션에 대한 자세한 내용은 Microsoft 365 앱 업데이트 채널 [개요를 참조하세요.](/deployoffice/overview-update-channels)

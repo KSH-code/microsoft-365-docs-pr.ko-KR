@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우 사전 작업입니다.'
-ms.openlocfilehash: fb352c17d9868cf5c42034e198be63b6e0543dbb
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 9f5a38eae6d42f992879f97b8e8e1e8e6c4d56c3
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445605"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476352"
 ---
 # <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 사전 작업
 
@@ -102,12 +102,13 @@ nslookup -querytype=CNMAE msoid.contoso.com
 
 <!-- before phase 5 -->
 
-**적용 날짜:** 일정 및 가용성 주소 공간 공유를 사용하도록 설정한 Exchange Online 고객<br>
+**적용 사항:** Exchange Online 고객<br>
 **적용된 경우:** 9단계가 종료되기 전의 시간
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
-| Office 365 서비스로의 예정된 전환을 외부 파트너에게 알릴 수 있습니다. | 가용성 주소 공간 구성을 사용하면 Office 365와 사용 가능한/사용 가능한 정보를 공유할 수 있습니다. | 이 작업을 수행하지 못하면 이후 고객 마이그레이션 단계에서 서비스 또는 클라이언트 오류가 발생될 수 있습니다. |
+| Office 365 서비스로의 예정된 전환을 외부 파트너에게 알릴 수 있습니다. |  고객은 일정 및 가용성 주소 공간 구성 공유를 사용하도록 설정한 파트너에게 알려야 합니다(Office 365와 약속이 있는/약속이 있는 정보 공유 허용). Exchange Online 마이그레이션이 완료될 때 [Office 365 전](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) 세계 끝점을 사용하려면 가용성 구성을 전환해야 합니다. | 이 작업을 수행하지 못하면 이후 고객 마이그레이션 단계에서 서비스 또는 클라이언트 오류가 발생될 수 있습니다. |
+| 필요한 IMAP4/POP3/SMTP 클라이언트 변경 내용을 사용자에게 알릴 수 있습니다. | 클라이언트 프로토콜 IMAP4, POP3, SMTP에 대한 Microsoft 클라우드 끝점에 대한 장치 연결이 있는 사용자는 수동으로 클라이언트 장치를 업데이트하여 [Office 365 전](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide)세계 끝점으로 전환해야 합니다. | 이러한 프로토콜의 사용자에게 이러한 종속성에 대해 미리 전달하고 이 마이그레이션 중에 Outlook 모바일 또는 웹용 Outlook을 사용하기 위해 전환해야 합니다. 클라이언트 끝점을 업데이트하지 못하면 사용자 사서함이 마이그레이션될 때 도이클란드 Microsoft 클라우드에 대한 클라이언트 연결 오류가 발생합니다. |
 ||||
 
 ### <a name="exchange-online-hybrid-configuration"></a>Exchange Online 하이브리드 구성

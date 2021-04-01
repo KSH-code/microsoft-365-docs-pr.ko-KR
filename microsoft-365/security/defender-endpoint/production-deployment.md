@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8965594789c3c96c043e3cd1a8922d9ba996ef47
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 7abf1c9e4115c928ae581da3789270fd8ed036d3
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222444"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476313"
 ---
 # <a name="set-up-microsoft-defender-for-endpoint-deployment"></a>끝점 배포를 위한 Microsoft Defender 설정
 
@@ -32,14 +32,14 @@ ms.locfileid: "51222444"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 끝점용 Defender 배포는 3단계 프로세스입니다.
 
-| [![배포 단계 - 준비](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[1단계: 준비](prepare-deployment.md) | ![배포 단계 - 설정](images/phase-diagrams/setup.png)<br>2단계: 설치 | [![배포 단계 - 온보드](images/phase-diagrams/onboard.png)](onboarding.md)<br>[3단계: 온보더](onboarding.md) |
+| [![배포 단계 - 준비](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[1 단계: 준비](prepare-deployment.md) | ![배포 단계 - 설정](images/phase-diagrams/setup.png)<br>2 단계: 설정 | [![배포 단계 - 온보드](images/phase-diagrams/onboard.png)](onboarding.md)<br>[3 단계: 온보딩](onboarding.md) |
 | ----- | ----- | ----- |
 | | *여기 있습니다!*||
 
@@ -172,7 +172,7 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 > - 이는 Windows 서비스를 포함하여 기본 프록시로 WinHTTP를 사용하는 모든 응용 프로그램에 영향을 미칩니다.</br>
 > - 토폴로지(예: 사무실에서 집으로)를 변경하는 랩톱이 netsh로 오작동합니다. 레지스트리 기반 정적 프록시 구성을 사용합니다.
 
-1. 상승된 명령줄을 여는 경우:
+1. 승격된 명령줄을 열기:
 
     1. **시작**(으)로 이동하고 **cmd** 를 입력하십시오.
 

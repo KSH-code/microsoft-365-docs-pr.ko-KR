@@ -4,16 +4,20 @@ description: Microsoft Managed Desktop에 서비스로 포함된 항목을 간�
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+f1.keywords:
+- NOCSH
 ms.author: jaimeo
+ms.localizationpriority: normal
+ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c51ebdbcd2a8d6d13f5ba0009d470581e317a365
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: a107c6364e6766094724972e931606003e0c87f7
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920435"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445199"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Microsoft Managed Desktop 서비스 설명
 
@@ -23,7 +27,7 @@ Microsoft Managed Desktop은 사용자에게 최신 보안 환경을 제공하�
 - 장치 구성
 - Microsoft 모범 사례에 따라 Windows Hello, BitLocker, SecureBoot 및 가상화 기반 보안을 포함하여 사용자 및 장치를 안전하게 유지하는 기능
 - 장치 보안 모니터링 및 관리 서비스
-- [Desktop App Assure](/fasttrack/win-10-desktop-app-assure)를 통한 앱 호환성
+- [App Assure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure)를 통한 앱 호환성
 - Windows 10 및 엔터프라이즈용 Microsoft 365 앱 업데이트 관리
 - 장치 및 앱 사용에 대한 분석 데이터
 - 사용자를 위한 IT 지원
@@ -31,7 +35,7 @@ Microsoft Managed Desktop은 사용자에게 최신 보안 환경을 제공하�
 
 Microsoft Managed Desktop과 함께 제공되는 특정 서비스에 대한 자세한 내용은 이 섹션의 다른 문서를 참조하세요. Microsoft Managed Desktop을 사용하기로 이미 결정한 경우 [Microsoft Managed Desktop에서 등록 준비](../get-ready/index.md)의 문서에서 사용자에게 해당 서비스 참여를 위한 준비 단계를 제공합니다.
 
-- [Microsoft Managed Desktop 지원 지역 및 언어](regions-languages.md)에서는 서비스와 함께 지원되는 지역과 언어에 대해 설명합니다.
+- [지원 지역 및 언어](regions-languages.md)에서는 서비스로 지원되는 지역과 언어에 대해 설명합니다.
 - 사용자에게 최상의 환경을 제공하기 위해 특정 장치만 Microsoft Managed Desktop에서 지원됩니다. [프로그램 장치](device-list.md) 장치를 제공하든 파트너와 함께 작업하든 서비스와 함께 사용할 수 있는 정확한 장치 모델 및 구성을 지정합니다.
 - [장치 서비스](device-services.md) Microsoft에서 구독자에게 제공할 장치 관련 서비스를 지정합니다.
 - [장치 구성](device-policies.md) 서비스에서 등록된 장치에 적용할 기본 및 보안 관련 모바일 장치 관리 정책을 명확하게 합니다.

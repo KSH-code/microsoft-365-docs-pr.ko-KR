@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft Teams 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서의 작동 방식에 대해 자세히 알아보면 이 문서를 읽어보아야 합니다.
-ms.openlocfilehash: 3a7b228292952bdba3c950b8ab67501c40e99238
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 40c55ed486efc75619b514a60b707ac75554953b
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917924"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445666"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft Teams
 
@@ -31,7 +31,10 @@ Teams 채팅에서 DLP 보호를 지원하려면 E5가 필요합니다.
 
 ## <a name="overview-of-dlp-for-microsoft-teams"></a>Microsoft Teams용 DLP 개요
 
-최근에는 [](data-loss-prevention-policies.md) 비공개 채널 메시지를 포함하여 Microsoft Teams 채팅 및 채널 메시지를 포함하기 위해 DLP(데이터 손실 방지) **기능이 확장되어 있습니다.**
+최근에는 [](data-loss-prevention-policies.md) 비공개 채널 메시지를 포함하여 Microsoft Teams 채팅 및 채널 메시지를 포함하기 위해 DLP(데이터 손실 방지) **기능이 확장되어 있습니다.** 
+
+> [!IMPORTANT]
+> DLP는 현재 채팅 또는 채널 스레드의 실제 메시지에만 적용됩니다. 단기 메시지 미리 보기를 포함하며 사용자의 알림 설정에 따라 나타나는  활동 알림은 현재 Teams DLP에 포함되지 않습니다. 미리 보기에 표시되는 메시지 부분에 있는 모든 중요한 정보는 메시지 자체에 대해 중요한 DLP 정책을 적용하고 제거한 후에도 알림에 계속 표시됩니다.
 
 조직에 DLP가 있는 경우 이제 사용자가 Microsoft Teams 채널 또는 채팅 세션에서 중요한 정보를 공유하지 못하게 하는 정책을 정의할 수 있습니다. 다음은 이 보호가 작동하는 방식의 몇 가지 예입니다.
 
@@ -56,7 +59,8 @@ Teams 채팅에서 DLP 보호를 지원하려면 E5가 필요합니다.
 
 발신자가 Teams 채널에서 사회 보장 번호를 공유한 예제로 돌아가면 받는 사람이 본 예는 다음과 같습니다.
 
-![메시지가 차단됩니다.](../media/dlp-teams-blockedmessage-notification-to-user.png)
+> [!div class="mx-imgBorder"]
+> ![메시지가 차단됩니다.](../media/dlp-teams-blockedmessage-notification-to-user.png)
 
 **What's this?** 링크에는 [](data-loss-prevention-policies.md) 메시지가 차단된 이유를 설명하는 데 도움이 되는 DLP 정책에 대한 문서가 열립니다.
 
@@ -70,9 +74,15 @@ Teams 채팅에서 DLP 보호를 지원하려면 E5가 필요합니다.
 
 3. 정책을 선택하고 정책 설정 옆에 **있는** 편집 을 **선택합니다.**
 
-4. 새 규칙을 만들거나 정책에 대한 기존 규칙을 편집합니다.<br/>![정책에 대한 규칙 편집](../media/dlp-teams-editrule.png)<br/>
+4. 새 규칙을 만들거나 정책에 대한 기존 규칙을 편집합니다.
 
-5. 사용자 **알림 탭에서** 전자  메일 텍스트 사용자 지정 및/또는 정책 팁 텍스트 **옵션 사용자 지정을** 선택합니다.<br/>![사용자 알림 및 정책 팁 사용자 지정](../media/dlp-teams-editrule-usernotifications.png)<br/>  
+    > [!div class="mx-imgBorder"]
+    > ![정책에 대한 규칙 편집](../media/dlp-teams-editrule.png)
+
+5. 사용자 **알림 탭에서** 전자  메일 텍스트 사용자 지정 및/또는 정책 팁 텍스트 **옵션 사용자 지정을** 선택합니다.
+
+    > [!div class="mx-imgBorder"]
+    > ![사용자 알림 및 정책 팁 사용자 지정](../media/dlp-teams-editrule-usernotifications.png)<br/>  
 
 6. 전자 메일 알림 및/또는 정책 팁에 사용할 텍스트를 지정하고 저장 을 **선택하십시오.**
 
@@ -89,20 +99,25 @@ Teams 채팅에서 DLP 보호를 지원하려면 E5가 필요합니다.
 
 2. 데이터 **손실 방지 정책을** 선택  >  **합니다.**
 
-3. 정책을 선택하고 위치 에서 값을 **봐야 합니다.** Teams 채팅 및 **채널** 메시지가 표시되어 있는 경우 모두 설정되어 있습니다. 그렇지 않은 경우 편집 을 **클릭합니다.**<br/>![기존 정책의 위치](../media/dlp-teams-editexistingpolicy.png)<br/>
+3. 정책을 선택하고 위치 에서 값을 **봐야 합니다.** Teams 채팅 및 **채널** 메시지가 표시되어 있는 경우 모두 설정되어 있습니다. 그렇지 않은 경우 편집 을 **클릭합니다.**
 
-4. 상태 **열에서** Teams 채팅 및 채널 메시지에 **대한 정책을 켜야 합니다.**<br/>![Teams 채팅 및 채널용 DLP](../media/dlp-teams-addteamschatschannels.png)<br/>
+    > [!div class="mx-imgBorder"]
+    > ![기존 정책의 위치](../media/dlp-teams-editexistingpolicy.png)
+
+4. 상태 **열에서** Teams 채팅 및 채널 메시지에 **대한 정책을 켜야 합니다.**
+
+    > [!div class="mx-imgBorder"]
+    > ![Teams 채팅 및 채널용 DLP](../media/dlp-teams-addteamschatschannels.png)
 
 5. 위치 **선택 탭에서** 모든 계정의 기본 설정을 유지하거나 특정 위치를 선택하도록 **를 선택합니다.** 지정할 수 있는 사항은 다음과 같습니다.
+
     1. 포함하거나 제외할 최대 1,000개 개별 계정
     1. 포함하거나 제외할 메일 그룹 및 보안 그룹 **공개 미리 보기 기능입니다.**
     <!-- 1. the shared mailbox of a shared channel. **This is a public preview feature.**--> 
     
 6. 그런 후 **다음** 을 선택합니다.
 
-
-
-6. **저장** 을 클릭합니다.
+7. **저장** 을 클릭합니다.
 
 변경 내용이 데이터 센터를 통해 작동하고 사용자 계정과 동기화되는 데 약 1시간을 허용합니다.
 <!-- again, why user accounts? -->
@@ -115,26 +130,39 @@ Teams 채팅에서 DLP 보호를 지원하려면 E5가 필요합니다.
 
 2. 데이터 **손실 방지**  >  **정책**  >  **+ 정책 만들기 를 선택 합니다.**
 
-3. 템플릿 [을](data-loss-prevention-policies.md#dlp-policy-templates)선택하고 다음 을 **선택 합니다.**<br/>이 예제에서는 미국 개인 식별 정보 데이터 템플릿을 선택 합니다.<br/>![DLP 정책에 대한 개인 정보 템플릿](../media/dlp-teams-createnewpolicy-template.png)<br/>
+3. 템플릿 [을](data-loss-prevention-policies.md#dlp-policy-templates)선택하고 다음 을 **선택 합니다.**
+
+    이 예제에서는 미국 개인 식별 정보 데이터 템플릿을 선택 합니다.
+
+    > [!div class="mx-imgBorder"]
+    > ![DLP 정책에 대한 개인 정보 템플릿](../media/dlp-teams-createnewpolicy-template.png)<br/>
 
 4. 정책 **이름 지정 탭에서** 정책의 이름과 설명을 지정하고 다음 을 **선택합니다.**
 
 5. 위치 **선택 탭에서** 모든 계정의 기본 설정을 유지하거나 특정 위치를 선택하도록 **를 선택합니다.** 지정할 수 있는 사항은 다음과 같습니다.
+
     1. 포함하거나 제외할 최대 1,000개 개별 계정
     1. 포함하거나 제외할 메일 그룹 및 보안 그룹 **공개 미리 보기 기능입니다.**
     <!-- 1. the shared mailbox of a shared channel. **This is a public preview feature.**-->  
 
-![DLP 정책 위치](../media/dlp-teams-selectlocationsnewpolicy.png)
+    ![DLP 정책 위치](../media/dlp-teams-selectlocationsnewpolicy.png)
 
-> [!NOTE]
-> Teams에서 중요한 정보를 포함하는 문서가 부적절하게 공유되지 않는지 확인하려는 경우 Teams 채팅 및 채널 메시지와 함께 **SharePoint** 사이트 및 **OneDrive** 계정이 켜져 있는지 **확인하세요.**
-
+    > [!NOTE]
+    > Teams에서 중요한 정보를 포함하는 문서가 부적절하게 공유되지 않는지 확인하려는 경우 Teams 채팅 및 채널 메시지와 함께 **SharePoint** 사이트 및 **OneDrive** 계정이 켜져 있는지 **확인하세요.**
 
 6. 정책 **설정 탭의** 보호할 콘텐츠 형식 사용자 지정에서 **기본** 단순 설정을 유지하거나 고급 설정 사용을 선택한 후 다음 을 **선택합니다.** 고급 설정을 선택하는 경우 정책에 대한 규칙을 만들거나 편집할 수 있습니다. 이에 대한 도움말을 얻은 경우 간단한 설정과 고급 설정을 [참조하세요.](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings)
 
-7.  정책 **설정 탭의** 중요한 정보를 검색하는 경우 어떤 작업을 하고 **싶나요?** 아래에서 설정을 검토합니다. (다음은 기본 정책 팁 및 전자 메일 알림을 유지하거나 [사용자](use-notifications-and-policy-tips.md)지정할 수 있는 위치입니다.)<br/>![팁 및 알림이 있는 DLP 정책 설정](../media/dlp-teams-policysettings-tipsemails.png)<br/>설정 검토 또는 편집을 마치면 다음 을 **선택합니다.**
+7.  정책 **설정 탭의** 중요한 정보를 검색하는 경우 어떤 작업을 하고 **싶나요?** 아래에서 설정을 검토합니다. (다음은 기본 정책 팁 및 전자 메일 알림을 유지하거나 [사용자](use-notifications-and-policy-tips.md)지정할 수 있는 위치입니다.)
 
-8. 정책  설정 탭의 정책을 켜거나 먼저 테스트할지 여부에서 정책을 켜거나 먼저 테스트할지, 아니면 지금 해제된 후 다음 을 **선택합니다.** [](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode)<br/>![정책을 켜는지 여부 지정](../media/dlp-teams-policysettings-turnonnow.png)<br/>
+    > [!div class="mx-imgBorder"]
+    > ![팁 및 알림이 있는 DLP 정책 설정](../media/dlp-teams-policysettings-tipsemails.png)
+
+    설정 검토 또는 편집을 마치면 다음 을 **선택합니다.**
+
+8. 정책  설정 탭의 정책을 켜거나 먼저 테스트할지 여부에서 정책을 켜거나 먼저 테스트할지, 아니면 지금 해제된 후 다음 을 **선택합니다.** [](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode)
+
+    > [!div class="mx-imgBorder"]
+    > ![정책을 켜는지 여부 지정](../media/dlp-teams-policysettings-turnonnow.png)
 
 9. 설정 **검토 탭에서** 새 정책에 대한 설정을 검토합니다. 편집을 **선택해** 변경합니다. 완료되면 만들기 를 **선택 합니다.**
 
@@ -144,29 +172,41 @@ Teams 채팅에서 DLP 보호를 지원하려면 E5가 필요합니다.
 
 기본적으로 SharePoint 또는 Teams에서 외부 게스트가 중요한 정보를 포함하는 SharePoint 문서에 액세스할 수 없는 경우 다음을 선택합니다.
 
-- 기본적으로 새 파일을 중요한 것으로 표시하여 DLP가 문서를 검사하고 공유하기에 안전한 것으로 표시될 때까지 문서가 보호되도록 [할 수 있습니다.](/sharepoint/sensitive-by-default)
+- 기본적으로 새 파일을 중요한 파일로 표시하여 DLP가 문서를 검사하고 공유하기 안전한 것으로 표시할 때까지 문서가 [보호되도록 할 수 있습니다.](/sharepoint/sensitive-by-default)
+
 - 권장 DLP 정책 구조
+
     - **조건**
         - 콘텐츠에 다음 중요한 정보 유형이 포함되어 있습니다. [적용되는 모든 정보 선택]
+        
         - 콘텐츠가 Microsoft 365에서 조직 외부의 사용자와 공유됩니다.
-        <br/>![중요한 콘텐츠의 외부 공유를 감지하기 위한 DLP 조건](../media/dlp-teams-external-sharing/external-condition.png)<br/>
-
+        
+          > [!div class="mx-imgBorder"]
+          > ![중요한 콘텐츠의 외부 공유를 감지하기 위한 DLP 조건](../media/dlp-teams-external-sharing/external-condition.png)
 
     - **작업**
         - 외부 사용자에 대한 콘텐츠에 대한 액세스 제한
+        
         - 사용자에게 전자 메일 및 정책 팁 알림
-        - 관리자에게 문제 보고서 보내기    
-        <br/>![중요한 콘텐츠의 외부 공유를 차단하는 DLP 작업](../media/dlp-teams-external-sharing/external-action.png)<br/>
+        
+        - 관리자에게 문제 보고서 보내기
+        
+        > [!div class="mx-imgBorder"]
+        > ![중요한 콘텐츠의 외부 공유를 차단하는 DLP 작업](../media/dlp-teams-external-sharing/external-action.png)
 
 SharePoint에서 중요한 정보가 포함된 문서를 외부 게스트와 공유하려고 할 때 실행 중인 DLP 정책:
-<br/>![외부 공유 차단](../media/dlp-teams-external-sharing/external-sharing-blocked.png)<br/>
+
+> [!div class="mx-imgBorder"]
+> ![외부 공유 차단](../media/dlp-teams-external-sharing/external-sharing-blocked.png)
 
 
 게스트가 외부 차단을 통해 Teams에서 문서를 열려고 시도할 때 실행될 DLP 정책:
-<br/>![외부 액세스 차단](../media/dlp-teams-external-sharing/external-access-blocked.png)<br/>
+
+> [!div class="mx-imgBorder"]
+> ![외부 액세스 차단](../media/dlp-teams-external-sharing/external-access-blocked.png)
 
 ## <a name="related-articles"></a>관련 문서
 
-[DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
+[DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 
 [DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시](use-notifications-and-policy-tips.md)

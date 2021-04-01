@@ -25,22 +25,15 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: '다음 검사 목록에 따라 Microsoft 365에서 직원을 제거하고 데이터를 보호합니다. '
-ms.openlocfilehash: 2372056cd6bee2387842c74dc2a35d71b88fae9e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d67ac65f4f3e6600b942b4f7d56826da35735b5c
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904399"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470872"
 ---
 # <a name="remove-or-delete-a-former-employee"></a>이전 직원 제거 또는 삭제
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
-  
 ## <a name="sign-out-now"></a>지금 로그아웃!
 
 ::: moniker range="o365-worldwide"

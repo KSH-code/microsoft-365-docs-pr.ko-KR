@@ -14,20 +14,21 @@ ms.author: v-maave
 ms.reviewer: ''
 manager: dansimp
 ms.custom: asr
+ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7685bd70d85ecebe759ade762b78ee2c3639cea8
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 71c3f89b721039753709d65daa135cad74a81711
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51069836"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476469"
 ---
 # <a name="attack-surface-reduction-frequently-asked-questions-faq"></a>공격 표면 감소 자주 묻는 질문(FAQ)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -37,7 +38,7 @@ ASR은 원래 Windows 10 버전 1709에서 Microsoft Defender 바이러스 백�
 
 ## <a name="do-i-need-to-have-an-enterprise-license-to-run-asr-rules"></a>ASR 규칙을 실행하려면 엔터프라이즈 라이선스가 필요한가요?
 
-전체 ASR 규칙 및 기능 집합은 Windows 10용 엔터프라이즈 라이선스가 있는 경우만 지원됩니다. 엔터프라이즈 라이선스 없이 제한된 수의 규칙이 작동할 수 있습니다. Microsoft 365 Business가 있는 경우 Microsoft Defender 바이러스 백신을 기본 보안 솔루션으로 설정하고 PowerShell을 통해 규칙을 사용하도록 설정하십시오. 그러나 엔터프라이즈 라이선스가 없는 ASR 사용은 공식적으로 지원되지 않고 ASR의 전체 기능을 사용할 수 없습니다.
+전체 ASR 규칙 및 기능 집합은 Windows 10용 엔터프라이즈 라이선스가 있는 경우만 지원됩니다. 엔터프라이즈 라이선스 없이 제한된 수의 규칙이 작동할 수 있습니다. Microsoft 365 Business가 있는 경우 Microsoft Defender 바이러스 백신을 기본 보안 솔루션으로 설정하고 PowerShell을 통해 규칙을 사용하도록 설정하십시오. 엔터프라이즈 라이선스 없이 ASR을 사용하는 것은 공식적으로 지원되지 않고 ASR의 모든 기능을 사용할 수 없습니다.
 
 Windows 라이선스에 대한 자세한 내용은 Windows 10 라이선스를 참조하고 Windows [10용](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) 볼륨 라이선스 [가이드를 참조하세요.](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf)
 
@@ -49,11 +50,56 @@ Windows 라이선스에 대한 자세한 내용은 Windows 10 라이선스를 �
 
 E3에서 지원되는 모든 규칙은 E5에서도 지원됩니다.
 
-E5에는 끝점용 Defender와의 통합도 강화되었습니다. E5를 사용하면 [끝점용 Defender를](https://docs.microsoft.com/microsoft-365/security/defender/monitor-devices?view=o365-worldwide&preserve-view=true#monitor-and-manage-asr-rule-deployment-and-detections) 사용하여 실시간으로 경고에 대한 분석을 모니터링하고 검토하고, 규칙 제외를 미세 조정하고, ASR 규칙을 구성하고, 이벤트 보고서 목록을 볼 수 있습니다.
+E5는 끝점용 Defender와의 통합을 강화합니다. E5를 사용하면 실시간으로 경고를 보고, 규칙 제외를 미세 조정하고, ASR 규칙을 구성하고, 이벤트 보고서 목록을 볼 수 있습니다.
 
 ## <a name="what-are-the-currently-supported-asr-rules"></a>현재 지원되는 ASR 규칙은 무엇입니까?
-
 ASR은 현재 아래의 모든 규칙을 지원하고 있습니다.
+
+## <a name="what-rules-to-enable-all-or-can-i-turn-on-individual-rules"></a>어떤 규칙을 사용하도록 설정해야 하나요? 모두 또는 개별 규칙을 켜도 하나요?
+환경에 가장 적합한 기능을 알아내기 위해 감사 모드에서 ASR 규칙을 사용하도록 [설정하는 것이 좋습니다.](audit-windows-defender.md) 이 방법을 사용하면 조직에 미칠 수 있는 영향을 확인할 수 있습니다. 예를 들어 업무용 응용 프로그램을 들 수 있습니다.
+
+## <a name="how-do-asr-rules-exclusions-work"></a>ASR 규칙 제외는 어떻게 작동하나요?
+ASR 규칙의 경우 제외를 하나 추가하면 모든 ASR 규칙에 영향을 미치게 됩니다.
+다음 두 가지 특정 규칙은 제외를 지원하지 않습니다.
+
+|규칙 이름|GUID|파일 & 제외|
+|:--|:--|:--|
+|JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단|D3E037E1-3EB8-44C8-A917-57927947596D|지원되지 않음|
+|WMI 이벤트 구독을 통한 지속성 차단|e6db77e5-3df2-4cf1-b95a-636979351e5b|지원되지 않음|
+
+ASR 규칙 제외는 와일드카드, 경로 및 환경 변수를 지원합니다. ASR 규칙에서 와일드카드를 사용하는 방법에 대한 자세한 내용은 파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사를 [참조하세요.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus)
+
+ASR 규칙 제외(와일드카드 및 env 포함)에 대한 다음 항목을 알고 있어야 합니다. 변수:
+
+- ASR 규칙 제외는 Defender AV 제외와는 독립적입니다.
+- 와일드카드를 사용하여 드라이브 문자를 정의할 수 없습니다.
+- 여러 폴더를 제외하려는 경우 경로에서 \의 여러 인스턴스를 사용하여 여러 중첩된 폴더를 \* 나타냅니다(예: c:\Folder \* \* \Test).
+- Microsoft Endpoint Configuration *Manager는* 와일드카드(* 또는 ?)를 지원하지 않습니다.
+- 임의의 문자(자동화된 파일 생성)가 포함된 파일을 제외하려는 경우 '?' 기호(예: C:\Folder\fileversion?)를 사용할 수 있습니다. docx)
+- 그룹 정책의 ASR 제외는 따옴표를 지원하지 않습니다. 엔진은 긴 경로, 공백 등을 기본적으로 처리하기 때문에 따옴표를 사용할 필요가 없습니다.
+- ASR 규칙은 NT AUTHORITY\SYSTEM 계정으로 실행되어 환경 변수가 컴퓨터 변수로 제한됩니다.
+
+
+
+## <a name="how-do-i-know-what-i-need-to-exclude"></a>제외해야 하는 대상을 어떻게 알 수 있나요?
+ASR 규칙마다 보호 흐름이 다릅니다. 구성하는 ASR 규칙이 어떤 것을 방지할지와 실제 실행 흐름이 어떻게 이동하는지 항상 생각해 보아야 합니다.
+
+예: LSASS(Local Security Authority Subsystem) 프로세스에서 직접 읽은 **Windows** 로컬 보안 기관 하위 체제에서 자격 증명 도용을 차단하면 회사 자격 증명이 노출될 수 때문에 보안상 위험할 수 있습니다.
+
+이 규칙은 트러버설이 없는 프로세스가 LSASS 메모리에 직접 액세스할 수 없습니다. 프로세스가 OpenProcess() 함수를 사용하여 LSASS에 액세스하는 경우 액세스 권한이 PROCESS_VM_READ 규칙은 해당 액세스 권한을 특별히 차단합니다.
+
+:::image type="content" source="images/asrfaq1.png" alt-text="LSASS를 도용하는 자격 증명 차단":::
+
+위의 예에서 액세스 권한이 차단된 프로세스에 대한 예외를 만들어야 하는 경우 전체 경로와 함께 파일 이름을 추가하면 차단되지 않습니다. 그리고 LSASS 프로세스 메모리에 액세스할 수 있도록 허용된 후에 파일 이름을 추가합니다. 값이 0이면 ASR 규칙이 이 파일/프로세스를 무시하고 이를 차단/감사하지 않습니다.
+
+:::image type="content" source="images/asrfaq2.png" alt-text="파일 asr 제외":::
+
+## <a name="what-are-the-rules-microsoft-recommends-enabling"></a>Microsoft에서 사용하도록 설정하는 데 권장하는 규칙은 무엇입니까?
+
+가능한 모든 규칙을 사용하도록 설정하는 것이 좋습니다. 그러나 규칙을 사용하도록 설정하지 않는 경우도 있습니다. 예를 들어 Microsoft Endpoint Configuration Manager(또는 System Center Configuration Manager - SCCM)를 사용하여 끝점을 관리하는 경우 PSExec 및 WMI 명령 규칙에서 시작된 프로세스 만들기 차단을 사용하도록 설정하지 않는 것이 좋습니다.
+
+공용 설명서에서 사용할 수 있는 각 규칙 관련 정보 및/또는 경고를 읽어보는 [것이 좋습니다.](/microsoft-365/security/defender-endpoint/attack-surface-reduction.md)
+Office, 자격 증명, 스크립트, 전자 메일 등 여러 보호 기조에 걸쳐 있습니다. WMI 이벤트 구독을 통한 지속성 차단을 제외한 모든 ASR 규칙은 Windows 1709 이상에서 지원됩니다.
 
 * [전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단](attack-surface-reduction.md#block-executable-content-from-email-client-and-webmail)
 * [모든 Office 응용 프로그램에서 하위 프로세스를 만들지 차단](attack-surface-reduction.md#block-all-office-applications-from-creating-child-processes)

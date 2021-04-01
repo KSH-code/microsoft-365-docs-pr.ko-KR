@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5013d94277eeba7d1df100d2850cb950fe2e0742
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 1757160b37500e97586fbb6dfb16d81303bc54e4
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379352"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476484"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점용 Microsoft Defender 서비스에 Windows 서버 온보딩
 
@@ -204,7 +204,7 @@ Windows Server 지원은 서버 활동, 커널 및 메모리 공격 감지 범�
 - 자동 온보딩 - Azure 보안 센터에 온보딩된 Windows Server에서 Endpoint용 Defender 센서가 자동으로 활성화됩니다. Azure 보안 센터 온보더링에 대한 자세한 내용은 보안 강화를 위해 [Azure Security Center Standard에 온보링을 참조하세요.](https://docs.microsoft.com/azure/security-center/security-center-onboarding)
 
     > [!NOTE]
-    > 자동화된 온보더링은 Windows Server 2008 R2 SP1, Windows Server 2012 R2 및 Windows Server 2016에만 적용할 수 있습니다.
+    > Windows [Server 2019 및 WVD(Windows Virtual Desktop)를](https://docs.microsoft.com/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)지원하기 위해 서버용 Azure Defender와 끝점용 Microsoft Defender 간의 통합이 확장됩니다.
 
 - Azure 보안 센터에서 모니터링하는 Windows 서버는 Endpoint용 Defender에서 사용할 수도 있습니다. Azure 보안 센터는 끝점 테넌트용 Defender에 원활하게 연결하여 클라이언트와 서버 전체에서 단일 보기를 제공합니다.  또한 Azure 보안 센터 콘솔에서 끝점용 Defender 경고를 사용할 수 있습니다.
 - 서버 조사 - Azure 보안 센터 고객은 Microsoft Defender 보안 센터에 액세스하여 자세한 조사를 수행하여 잠재적인 위반 범위를 밝히는 데 사용할 수 있습니다.
@@ -283,8 +283,8 @@ Windows 서버를 오프보드하기 위해 다음 방법 중 하나를 사용�
 <br>
 
 ## <a name="related-topics"></a>관련 항목
-- [Windows 10 장치 온보드](configure-endpoints.md)
-- [비 Windows 장치 온보드](configure-endpoints-non-windows.md)
+- [그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)
+- [Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)
 - [프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)
 - [새로 온보딩된 Endpoint 디바이스용 Defender에서 검색 테스트 실행](run-detection-test.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

@@ -21,21 +21,14 @@ search.appverid:
 ms.assetid: 89502322-bfbb-43d6-9207-4030f8ce26e0
 ROBOTS: NOINDEX
 description: '조직 외부의 사용자와 사이트 및 파일을 공유하는 방법을 학습합니다. '
-ms.openlocfilehash: 585034580fd18d9584b4df3d0bec7026cf207f50
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 95698a36fe56d2c0d1a842425541e8aa7627d7dd
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915040"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470932"
 ---
 # <a name="share-sites-and-files-with-guest-users"></a>게스트 사용자와 사이트 및 파일 공유
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 조직 외부의 사용자와 공동 작업을 위해 외부에서 전체 사이트 또는 특정 파일을 공유할 수 있습니다. 공유 설정으로 바로 이동하려면 사용하려는 시나리오를 선택합니다.
 

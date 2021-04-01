@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7c0e8adde9b1ed66e401348d998ae5c1ad8a7442
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b83e6682ce0c11d076e0bbef60fdef365c9be564
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166008"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471104"
 ---
 # <a name="verify-data-storage-location-and-update-data-retention-settings-for-microsoft-defender-for-endpoint"></a>데이터 저장소 위치 확인 및 끝점용 Microsoft Defender에 대한 데이터 보존 설정 업데이트
 
@@ -45,6 +45,8 @@ ms.locfileid: "51166008"
 설정 데이터 보존으로 이동하여 데이터 위치를 확인할  >  **수 있습니다.**
 
 ## <a name="update-data-retention-settings"></a>데이터 보존 설정 업데이트
+
+데이터 보존 설정을 업데이트할 수 있습니다. 기본적으로 보존 기간은 180일입니다. 
 
 1. 탐색 창에서 설정 데이터 **보존**  >  **을 선택합니다.**
 

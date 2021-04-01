@@ -21,17 +21,14 @@ search.appverid:
 ms.assetid: c80a315a-af87-4996-94b9-fd2194f58a93
 description: 중국의 21Vianet에서 운영하는 Office 365에서 결제를 한 후 Fapiao 요청을 21Vianet Fapiao 관리 시스템에 제출하는 방법을 학습합니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 681d2d79c510c773d7597c62811256458e3d166d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d9f75dfd00bb547e9d2e0f53826e5bc50926de39
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914477"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470956"
 ---
 # <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365용 Fapiao 신청
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
 
 Fapiao 요청을 결제 후 약 3일 후에 21Vianet Fapiao 관리 시스템에 제출할 수 있습니다. Fapiao 요청을 제출하면 2일 후에 처리됩니다.
   

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 핵심 eDiscovery 사례와 연결된 보류를 만들어 조사와 관련이 있을 수 있는 콘텐츠를 보존할 수 있습니다.
-ms.openlocfilehash: ca87b1b2ad35949de01622771b1ae78c5b3038e9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c84d0be5a4a659ff9b64af14052bcf4033e2ed24
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908342"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470479"
 ---
 # <a name="create-an-ediscovery-hold"></a>eDiscovery 보존 만들기
 
@@ -146,7 +146,7 @@ Teams 채널의 모임 및 통화에 대한 요약 정보는 모임 또는 통�
 
 ### <a name="preserve-content-in-private-channels"></a>비공개 채널에서 콘텐츠 보존
 
-2020년 2월부터 비공개 채널의 콘텐츠를 보존하는 기능을 설정했습니다. 비공개 채널 채팅은 채팅 참가자의 사서함에 저장되어 있기 때문에 eDiscovery 보류에 사용자 사서함을 배치하면 비공개 채널 채팅이 보존됩니다. 또한 사용자 사서함이 2020년 2월 이전에 eDiscovery 보류에 추가된 경우 이제 보류는 해당 사서함에 저장된 비공개 채널 메시지에 자동으로 적용됩니다. 비공개 채널에서 공유되는 파일 보존도 지원됩니다.
+2020년 2월부터는 비공개 채널의 콘텐츠를 보존하는 기능을 설정했습니다. 비공개 채널 채팅은 채팅 참가자의 사서함에 저장되어 있기 때문에 eDiscovery 보류에 사용자 사서함을 배치하면 비공개 채널 채팅이 보존됩니다. 또한 사용자 사서함이 2020년 2월 이전에 eDiscovery 보류에 추가된 경우 이제 보류는 해당 사서함에 저장된 비공개 채널 메시지에 자동으로 적용됩니다. 비공개 채널에서 공유되는 파일 보존도 지원됩니다.
 
 ### <a name="preserve-wiki-content"></a>위키 콘텐츠 보존
 
@@ -219,7 +219,7 @@ Teams 및 Office 365 그룹을 eDiscovery 보류에 둘 다 배치할 때 다음
 
 다음 표에는 eDiscovery 사례 및 케이스 보류에 대한 제한이 나열됩니다.
 
-  | 제한 설명 | 제한 |
+  | 제한 설명 | 제한 유형 |
   |:-----|:-----|
   |조직의 최대 사례 수입니다.  <br/> |제한 없음  <br/> |
   |조직의 최대 eDiscovery 보류 수입니다.  <br/> |10,000  <br/> |

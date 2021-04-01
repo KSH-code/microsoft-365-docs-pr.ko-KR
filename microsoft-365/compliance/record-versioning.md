@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에서 레코드 관리 솔루션을 구현하는 데 도움이 되는 레코드에 대해 알아봅니다.
-ms.openlocfilehash: 52ca56436686faac1d414dac47e2e9e16c36fa90
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 5c828f06f2ce9e2bd18869f897f1f372c1a62f21
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408561"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471127"
 ---
 # <a name="use-record-versioning-to-update-records-stored-in-sharepoint-or-onedrive"></a>레코드 버전을 사용하여 SharePoint 또는 OneDrive에 저장된 레코드를 업데이트합니다.
 
@@ -45,7 +45,7 @@ ms.locfileid: "51408561"
 
   - **모든 버전을 포함하는 에버그린 문서를 유지합니다.** 기본적으로 각 SharePoint 및 OneDrive 문서는 항목 메뉴에서 사용할 수 있는 버전 기록을 포함합니다. 이 버전 기록에서 사용자는 어떤 버전이 레코드인지 쉽게 알 수 있고 그러한 문서들을 확인할 수 있습니다.
 
-> [!NOTE]
+> [!TIP]
 > 삭제 작업이 있는 보존 레이블로 레코드 버전 관리를 사용하는 경우, 보존 설정 **보존 기간 시작 기준:** 을 **항목에 레블이 지정된 때** 로 설정하는 것이 좋습니다. 이 레이블 설정으로 각 새 레코드 버전에 대해 보존 기간의 시작이 다시 설정되어 이전 버전이 최신 버전보다 먼저 삭제됩니다.
 
 레코드 버전 관리는 레코드로 항목을 표시하는 보존 레이블이 있는 모든 문서에 대해 자동으로 제공될 수 있습니다. 사용자가 세부 정보 창을 통해 문서 속성을 확인하는 경우 문서 속성의 **레코드 상태** 를 **잠금 상태** 에서 **잠금 해제 상태** 로 전환할 수 있습니다. 이 작업으로 자료 보존 라이브러리의 보존 폴더에서 레코드를 만들고 레코드는 보존 기간의 나머지 기간 동안 저장됩니다. 

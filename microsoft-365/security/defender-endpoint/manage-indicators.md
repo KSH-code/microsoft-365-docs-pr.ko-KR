@@ -1,5 +1,5 @@
 ---
-title: 표시기 만들기
+title: 지표 만들기
 ms.reviewer: ''
 description: 엔터티의 검색, 방지 및 제외를 정의하는 파일 해시, IP 주소, URL 또는 도메인에 대한 표시기를 만들 수 있습니다.
 keywords: 관리, 허용, 차단, 차단, 클린, 악성, 파일 해시, ip 주소, URL, 도메인
@@ -17,14 +17,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 670c6449c1121bc329b1dfb37cd1d9948c99a3f8
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 481051b74c1be88ba78bbd44e4fc0c174ed0bdad
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379301"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470896"
 ---
-# <a name="create-indicators"></a>표시기 만들기
+# <a name="create-indicators"></a>지표 만들기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -50,6 +50,9 @@ Endpoint용 Defender의 클라우드 검색 엔진은 정기적으로 수집된 
 
 **자동화된 조사 및 수정 엔진**<BR>
 자동화된 조사 및 수정은 동일하게 행동합니다. 표시기가 "허용"으로 설정된 경우 자동화된 조사 및 수정은 해당 지표에 대한 "나쁜" 판정을 무시합니다. "차단"으로 설정된 경우 자동화된 조사 및 수정은 이를 "불량"으로 취급합니다.
+
+> [!NOTE]
+> EnableFileHashComputation 설정은 파일 검색 중에 인증 및 파일 IoC에 대한 파일 해시를 계산합니다. 신뢰할 수 있는 응용 프로그램에 속하는 해시 및 인증의 IoC 적용을 지원합니다. 이 설정은 파일 허용 또는 차단 설정과 함께 동시 사용 및 사용하지 않도록 설정됩니다. EnableFileHashComputation은 그룹 정책을 통해 수동으로 사용하도록 설정되어 있으며 기본적으로 사용하지 않도록 설정됩니다.
 
 
 현재 지원되는 작업은 다음입니다.

@@ -23,21 +23,14 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: '앱 시작커에 사용자 지정 타일을 추가하여 전자 메일, 문서, 앱, SharePoint 사이트, 외부 사이트 및 기타 리소스에 대한 빠른 링크를 만들 수 있습니다. '
-ms.openlocfilehash: cc4edbfadc5c9555e04d04de8f7368dd86aa9974
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b6ae4deed1566492574e30cf8cb66a750c9858c8
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915437"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470634"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>앱 시작 관리자에 사용자 지정 타일 추가
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 Microsoft 365에서는 앱 시작커를 사용하여 전자 메일, 일정, 문서 및 앱에 쉽고 빠르게 액세스 할 수 있습니다([자세한 내용은).](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a) SharePoint 스토어 또는 Azure AD에서 추가하는 사용자 지정 앱뿐만 [](https://support.microsoft.com/office/dd98e50e-d3db-4ecb-9bb7-82b189822d43) 아니라 Microsoft 365에서 다운로드하는 [앱입니다.](/previous-versions/office/office-365-api/)
   
