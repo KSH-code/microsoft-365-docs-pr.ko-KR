@@ -379,8 +379,6 @@
               href: move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
             - name: 독립 실행형 EOP에서 역할 그룹 관리
               href: manage-admin-role-group-permissions-in-eop.md
-    - name: Microsoft 365 보안
-      href: ../index.yml
     - name: Microsoft 365 Defender
       href: ../index.yml
     - name: 끝점용 Microsoft Defender

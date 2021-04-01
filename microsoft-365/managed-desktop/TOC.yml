@@ -15,7 +15,7 @@
     - name: Microsoft Managed Desktop 서비스 설명
       href: service-description/index.md
       items:
-        - name: 지원되는 국가 및 언어
+        - name: 지원되는 지역
           href: service-description/regions-languages.md
         - name: 제품 수명 주기
           href: service-description/device-lifecycle.md
@@ -96,6 +96,8 @@
           href: get-started/company-portal.md
         - name: 엔터프라이즈 상태 로밍 사용
           href: get-started/enterprise-state-roaming.md
+        - name: 사용자 환경 현지화
+          href: get-started/localization.md
         - name: 디바이스 설정
           href: get-started/set-up-devices.md
           items:

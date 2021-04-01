@@ -16,8 +16,14 @@
       href: create-a-content-center.md
     - name: 분류자 만들기
       href: create-a-classifier.md
+    - name: 모델 복제
+      href: duplicate-a-model.md
+    - name: 모델 이름 변경
+      href: rename-a-model.md
     - name: 추출기 만들기
       href: create-an-extractor.md
+    - name: 추출기 이름 변경
+      href: rename-an-extractor.md
     - name: 설명 유형
       href: explanation-types-overview.md
     - name: 모델 적용

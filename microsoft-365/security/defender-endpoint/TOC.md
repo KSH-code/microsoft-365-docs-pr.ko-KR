@@ -390,6 +390,7 @@
 ## 참고자료
 ### [관리 및 API]()
 #### [관리 및 API 개요](management-apis.md)
+#### [API 릴리스 정보](api-release-notes.md)
 #### [엔드포인트용 Microsoft Defender API]() 
 ##### [시작]()
 ###### [엔드포인트용 Microsoft Defender API 라이선스 및 사용 약관](api-terms-of-use.md)
@@ -586,6 +587,5 @@
 ##### [네트워크 보호](troubleshoot-np.md)
 ##### [공격 표면 감소 규칙](troubleshoot-asr.md)
 
-# [Microsoft 365 보안](../index.yml)
-# [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+# [Microsoft 365 Defender](../index.yml)
 # [Office 365용 Defender](../office-365-security/overview.md)
