@@ -95,7 +95,7 @@
         - name: 기본적으로 보호
           href: secure-by-default.md
         - name: Office 365용 Defender에서 피싱 방지 정책 구성
-          href: configure-atp-anti-phishing-policies.md
+          href: configure-mdo-anti-phishing-policies.md
         - name: 맬웨어 방지 정책 구성
           href: configure-anti-malware-policies.md
         - name: 스팸 방지 정책 구성
