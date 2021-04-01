@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 11/30/2016
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
 ms.custom: seo-marvel-apr2020
 description: 검색을 실행하기 전에 콘텐츠 검색에 대한 키워드 쿼리에서 오류 및 오타를 검색하는 방법을 알아보겠습니다.
-ms.openlocfilehash: 296f30f5332165017f5c7ccebc35c0663041718d
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 939ac3d227f176a0b74138107ced5dd5b7142bcd
+ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470452"
+ms.locfileid: "51488215"
 ---
 # <a name="check-your-content-search-query-for-errors"></a>오류에 대한 콘텐츠 검색 쿼리 확인
   

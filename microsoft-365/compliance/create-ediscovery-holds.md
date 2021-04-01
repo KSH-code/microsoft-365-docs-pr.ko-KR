@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 핵심 eDiscovery 사례와 연결된 보류를 만들어 조사와 관련이 있을 수 있는 콘텐츠를 보존할 수 있습니다.
-ms.openlocfilehash: c84d0be5a4a659ff9b64af14052bcf4033e2ed24
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 1026de3b5357c3417a00a69b4ae6890e8036c091
+ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470479"
+ms.locfileid: "51488247"
 ---
 # <a name="create-an-ediscovery-hold"></a>eDiscovery 보존 만들기
 
@@ -131,8 +131,8 @@ Microsoft Teams 채널의 일부인 대화는 Microsoft 팀과 연결된 사서�
 
 또는 Teams의 채팅 목록에 있는 *대화(1:1* 채팅 또는 *1:N* 그룹 채팅)는 채팅에 참여하는 사용자의 사서함에 저장됩니다. 사용자가 채팅 대화에서 공유하는 파일은 파일을 공유하는 사용자의 OneDrive 계정에 저장됩니다. 따라서 채팅 목록의 대화 및 파일을 보존하려면 eDiscovery 보류에 개별 사용자 사서함 및 OneDrive 계정을 추가해야 합니다. 팀 사서함과 사이트를 보류하는 것 외에도 Microsoft 팀 구성원의 사서함을 보류하는 것이 좋습니다.
 
-> [!IMPORTANT]
-> 클라우드 기반 조직에서는 사서함이 eDiscovery 보류 중일 때 채팅 대화를 유지하려면 Teams에서 채팅 목록에 참여하는 사용자에게 Exchange Online 사서함이 있어야 합니다. 채팅 목록의 일부인 대화는 채팅 참가자의 클라우드 기반 사서함에 저장되어 있기 때문에입니다. 채팅 참가자에 Exchange Online 사서함이 없는 경우 해당 채팅 대화를 보존할 수 없습니다. 예를 들어 Exchange 하이브리드 배포에서, 사내 사서함이 있는 사용자는 Teams의 채팅 목록에 있는 대화에 참가할 수 있습니다. 그러나 이 경우 이러한 사용자에게 보류할 수 있는 클라우드 기반 사서함이 있기 때문에 이러한 대화의 콘텐츠를 보존할 수 없습니다.
+> [!NOTE]
+> 조직에 Exchange 하이브리드 배포가 있는 경우(또는 조직이 Office 365와의 사내 Exchange 조직을 동기화) Microsoft Teams를 사용하도록 설정한 경우, 사내 사용자는 Teams 채팅 응용 프로그램을 사용하여 1:1 채팅 및 1:N 그룹 채팅에 참가할 수 있습니다. 이러한 대화는 사내 사용자와 연결된 클라우드 기반 저장소에 저장됩니다. eDiscovery 보류를 설정한 경우 클라우드 기반 저장소의 Teams 채팅 콘텐츠가 보존됩니다. 자세한 내용은 [온-프레미스 사용자의 Teams 채팅 데이터 검색](search-cloud-based-mailboxes-for-on-premises-users.md)을 참조하세요.
 
 Teams 콘텐츠를 보존하는 데 대한 자세한 내용은 Microsoft Teams 사용자 또는 팀을 법적 보존으로 설정 [을 참조하세요.](/MicrosoftTeams/legal-hold)
 
