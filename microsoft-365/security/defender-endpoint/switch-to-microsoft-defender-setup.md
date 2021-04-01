@@ -21,20 +21,20 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: fb6edf33b02671396fa4d078770d5b502e59d087
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 6f2104e38bd55806e0873166b07a31aff46e9c24
+ms.sourcegitcommit: 847b0920016ae20c82a0501bda6019cd940482df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185518"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51484759"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Endpoint용 Microsoft Defender로 전환 - 2단계: 설치
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-|[![1단계: 준비](images/phase-diagrams/prepare.png)](switch-to-microsoft-defender-prepare.md)<br/>[1단계: 준비](switch-to-microsoft-defender-prepare.md) |![2단계: 설정](images/phase-diagrams/setup.png)<br/>2단계: 설정 |[![3단계: 온보더 3](images/phase-diagrams/onboard.png)](switch-to-microsoft-defender-onboard.md)<br/>[3단계: 온보더](switch-to-microsoft-defender-onboard.md) |
+|[![1 단계: 준비](images/phase-diagrams/prepare.png)](switch-to-microsoft-defender-prepare.md)<br/>[1 단계: 준비](switch-to-microsoft-defender-prepare.md) |![2 단계: 설정](images/phase-diagrams/setup.png)<br/>2 단계: 설정 |[![3단계: 온보더 3](images/phase-diagrams/onboard.png)](switch-to-microsoft-defender-onboard.md)<br/>[3 단계: 온보딩](switch-to-microsoft-defender-onboard.md) |
 |--|--|--|
 ||*여기 있습니다!* | |
 
@@ -128,7 +128,7 @@ Microsoft Defender 바이러스 백신을 사용하도록 설정하려면 Intune
 |---------|---------|
 |[Intune](https://docs.microsoft.com/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/>**참고:** Intune은 이제 Microsoft 끝점 관리자입니다. |1. Microsoft [Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) 관리 센터로 이동하여 로그인합니다.<br/>2. **장치 구성**  >  **프로필을 선택한** 다음 구성할 프로필 유형을 선택합니다. 아직 장치 제한 프로필 유형을  만들지 않았거나 새 장치 제한 프로필 유형을 만들 경우 [Microsoft Intune에서](https://docs.microsoft.com/intune/device-restrictions-configure)장치 제한 설정 구성을 참조하세요.<br/>3. 속성을 **선택하고** 구성 설정 **편집을 선택합니다.**<br/>4. **Microsoft Defender 바이러스 백신을 확장합니다.** <br/>5. 클라우드 제공 **보호를 사용하도록 설정**<br/>6. 샘플 제출 전에 사용자에게 확인 **드롭다운에서** 자동으로 모든 샘플 **보내기 를 선택합니다.**<br/>7. 잠재적으로 원치 않는 응용 **프로그램 검색 드롭다운에서** 사용 또는 **감사를** **선택합니다.**<br/>8. **검토 + 저장을 선택한** 다음 저장을 **선택합니다.**<br/>**팁:** 설정을 만들고 구성하는 방법을 포함하여 Intune 장치 프로필에 대한 자세한 내용은 [Microsoft Intune 장치 프로필이란?을 참조하세요.](https://docs.microsoft.com/intune/device-profiles)|
 |Windows의 제어판     |다음 지침을 따르세요. [Microsoft Defender 바이러스 백신 켜기.](https://docs.microsoft.com/mem/intune/user-help/turn-on-defender-windows) <br/>**참고:** 일부  Windows Windows Defender *Microsoft Defender 바이러스* 백신 대신 바이러스 백신이 표시될 수 있습니다.        |
-|[고급 그룹 정책 관리](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/) <br/>또는<br/>[그룹 정책 관리 콘솔](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)  |1. 로 이동 `Computer configuration > Administrative templates > Windows components > Microsoft Defender Antivirus` <br/>2. Microsoft Defender 바이러스 백신 끄기라는 **정책을 찾아 봐야 합니다.**<br/>3. 정책 **설정 편집 을 선택하고** 정책이 사용하지 않도록 설정되어 있는지 확인 합니다. 이를 통해 Microsoft Defender 바이러스 백신을 사용할 수 있습니다. <br/>**참고:** 일부  Windows Windows Defender *Microsoft Defender 바이러스* 백신 대신 바이러스 백신이 표시될 수 있습니다. |
+|[고급 그룹 정책 관리](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/) <br/>또는<br/>[그룹 정책 관리 콘솔](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)  |1. 컴퓨터 **구성** 관리  >  **템플릿**  >  **Windows 구성 요소**  >  **Microsoft Defender 바이러스 백신으로 이동하십시오.** <br/>2. Microsoft Defender 바이러스 백신 끄기라는 **정책을 찾아 봐야 합니다.**<br/>3. 정책 **설정 편집 을 선택하고** 정책이 사용하지 않도록 설정되어 있는지 확인 합니다. 이를 통해 Microsoft Defender 바이러스 백신을 사용할 수 있습니다. <br/>**참고:** 일부  Windows Windows Defender *Microsoft Defender 바이러스* 백신 대신 바이러스 백신이 표시될 수 있습니다. |
 
 ### <a name="confirm-that-microsoft-defender-antivirus-is-in-passive-mode"></a>Microsoft Defender 바이러스 백신이 수동 모드에 있는지 확인
 
@@ -182,7 +182,7 @@ Microsoft Defender 바이러스 백신을 최신 상태로 유지하는 데 관�
 |--|--|
 |[Intune](https://docs.microsoft.com/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/>**참고:** Intune은 이제 Microsoft 끝점 관리자입니다. |1. Microsoft [Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) 관리 센터로 이동하여 로그인합니다.<br/>2. **장치 구성** 프로필을 선택한 다음 구성할  >  프로필을 선택합니다.<br/>3. **관리에서** 속성을 **선택합니다.** <br/>4. 구성 **설정: 편집 을 선택합니다.**<br/>5. **Microsoft Defender 바이러스** 백신을 확장한 다음 Microsoft Defender 바이러스 백신 **제외를 확장합니다.**<br/>6. Microsoft Defender 바이러스 백신 검사에서 제외할 파일 및 폴더, 확장명 및 프로세스를 지정합니다. 참조는 [Microsoft Defender 바이러스 백신 제외를 참조합니다.](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus-exclusions)<br/>7. **검토 + 저장 을 선택한** 다음 저장 을 **선택 합니다.**  |
 |[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/mem/configmgr/) |1. [Configuration Manager 콘솔을](https://docs.microsoft.com/mem/configmgr/core/servers/manage/admin-console)사용하여 **자산** 및 준수  >  **끝점 보호** 맬웨어 방지 정책으로 이동한 다음 수정할 정책을  >  선택합니다. <br/>2. Microsoft Defender 바이러스 백신 검사에서 제외할 파일 및 폴더, 확장명 및 프로세스에 대한 제외 설정을 지정합니다. |
-|[그룹 정책 개체](https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-objects) | 1. 그룹 정책 관리 컴퓨터에서 [](https://technet.microsoft.com/library/cc731212.aspx)그룹 정책 관리 콘솔을 열고 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.**<br/>2. 그룹 정책 관리 **편집기에서** 컴퓨터 구성으로 **이동하여** 관리 템플릿 **을 클릭합니다.**<br/>3. Microsoft Defender 바이러스 백신 > Windows 구성 > **확장합니다.**<br/>**참고:** 일부  Windows Windows Defender *Microsoft Defender 바이러스* 백신 대신 바이러스 백신이 표시될 수 있습니다.<br/>4. 경로 제외  설정을 두 번 클릭하고 제외를 추가합니다.<br/>- 옵션을 사용으로 **설정합니다.**<br/>- 옵션 **섹션에서** **표시...를 클릭합니다.**<br/>- 값 이름 열 아래에 각 폴더를 자체 **줄에 지정합니다.**<br/>- 파일을 지정하는 경우 드라이브 문자, 폴더 경로, 파일 이름 및 확장명을 포함하여 파일의 정식 경로를 입력해야 합니다. 값 **열에 0을** **입력합니다.**<br/>5. 확인을 **클릭합니다.**<br/>6. 확장 제외  설정을 두 번 클릭하고 제외를 추가합니다.<br/>- 옵션을 사용으로 **설정합니다.**<br/>- 옵션 **섹션에서** **표시...를 클릭합니다.**<br/>- 값 이름 열 아래에 각 파일 확장명을 자체 **줄에 입력합니다.**  값 **열에 0을** **입력합니다.**<br/>7. **확인을 클릭합니다.** |
+|[그룹 정책 개체](https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-objects) | 1. 그룹 정책 관리 컴퓨터에서 [](https://technet.microsoft.com/library/cc731212.aspx)그룹 정책 관리 콘솔을 열고 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.**<br/>2. 그룹 정책 관리 **편집기에서** 컴퓨터 구성으로 **이동하여** 관리 템플릿 **을 클릭합니다.**<br/>3. **Windows** 구성 요소 Microsoft Defender 바이러스 백신 제외로  >    >  **트리를 확장합니다.**<br/>**참고:** 일부  Windows Windows Defender *Microsoft Defender 바이러스* 백신 대신 바이러스 백신이 표시될 수 있습니다.<br/>4. 경로 제외  설정을 두 번 클릭하고 제외를 추가합니다.<br/>- 옵션을 사용으로 **설정합니다.**<br/>- 옵션 **섹션에서** **표시...를 클릭합니다.**<br/>- 값 이름 열 아래에 각 폴더를 자체 **줄에 지정합니다.**<br/>- 파일을 지정하는 경우 드라이브 문자, 폴더 경로, 파일 이름 및 확장명을 포함하여 파일의 정식 경로를 입력해야 합니다. 값 **열에 0을** **입력합니다.**<br/>5. 확인을 **클릭합니다.**<br/>6. 확장 제외  설정을 두 번 클릭하고 제외를 추가합니다.<br/>- 옵션을 사용으로 **설정합니다.**<br/>- 옵션 **섹션에서** **표시...를 클릭합니다.**<br/>- 값 이름 열 아래에 각 파일 확장명을 자체 **줄에 입력합니다.**  값 **열에 0을** **입력합니다.**<br/>7. **확인을 클릭합니다.** |
 |로컬 그룹 정책 개체 |1. 끝점 또는 디바이스에서 로컬 그룹 정책 편집기를 열 수 있습니다. <br/>2. 컴퓨터 **구성** 관리  >  **템플릿**  >  **Windows 구성 요소**  >  **Microsoft Defender 바이러스** 백신  >  **제외로 이동** <br/>**참고:** 일부  Windows Windows Defender *Microsoft Defender 바이러스* 백신 대신 바이러스 백신이 표시될 수 있습니다.<br/>3. 경로 및 프로세스 제외를 지정합니다. |
 |레지스트리 키 |1. 다음 레지스트리 키를 내보낼 수 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\exclusions` 있습니다. .<br/>2. 레지스트리 키를 가져올 수 있습니다. 다음은 이와 관련된 두 가지 예입니다.<br/>- 로컬 경로: `regedit.exe /s c:\temp\ MDAV_Exclusion.reg` <br/>- 네트워크 공유: `regedit.exe /s \\FileServer\ShareName\MDAV_Exclusion.reg` |
 

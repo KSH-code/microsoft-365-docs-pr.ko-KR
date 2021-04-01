@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva Topics 개요입니다.
-ms.openlocfilehash: 68a88e74a674a7bbc290ae0e8f88bfbe0277d910
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4598c47b07287789a7a194914232799de5ca7b85
+ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917383"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51488160"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Microsoft Viva Topics 개요 
 
@@ -99,7 +99,7 @@ Microsoft 365 환경에서 Viva Topics를 사용하는 경우 사용자는 다�
 
 ## <a name="admin-controls"></a>관리자 컨트롤
 
-Microsoft 365 관리 센터의 관리자 컨트롤을 사용하여 지식 네트워크를 관리할 수 있습니다. 관리자 컨트롤을 통해 Microsoft 365 전역 또는 SharePoint 관리자가 다음을 할 수 있습니다.
+Microsoft 365 관리 센터의 관리자 컨트롤을 사용하여 Viva 항목을 관리할 수 있습니다. 관리자 컨트롤을 통해 Microsoft 365 전역 또는 SharePoint 관리자가 다음을 할 수 있습니다.
 
 - SharePoint 최신 페이지 또는 SharePoint 검색 결과에서 주제를 볼 수 있는 조직의 사용자를 제어합니다.
 - 주제를 식별하기 위해 크롤링할 SharePoint 사이트를 제어합니다.

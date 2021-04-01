@@ -1,5 +1,5 @@
 ---
-title: Windows Virtual Desktop에서 Windows 10 다중 세션 장치 온보드
+title: Windows Virtual Desktop에서 Windows 10 다중 세션 장치 온보딩
 description: 이 문서에서 Windows Virtual Desktop에서 Windows 10 다중 세션 장치 온보드에 대해 자세히 읽어 주세요.
 keywords: Windows Virtual Desktop, WVD, microsoft defender, endpoint, onboard
 search.product: eADQiWindows 10XVcnh
@@ -13,24 +13,20 @@ ms.topic: article
 author: dansimp
 ms.author: dansimp
 ms.custom: nextgen
-ms.date: 09/10/2020
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: bfd447120e171fed063b3224e3a47c2ef38f0f16
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 3f925fdc514c5e53b50f748d991f54d20fb49bd0
+ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222614"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51488148"
 ---
-# <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Windows Virtual Desktop에서 Windows 10 다중 세션 장치 온보드 
+# <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Windows Virtual Desktop에서 Windows 10 다중 세션 장치 온보딩 
 6분 읽기 
 
 적용 대상: 
 - WVD(Windows Virtual Desktop)에서 실행되는 Windows 10 다중 세션 
-
-> [!WARNING]
-> Windows Virtual Desktop 다중 세션 시나리오에 대한 끝점용 Microsoft Defender 지원은 현재 미리 보기로 제공되어 있으며 호스트/VM당 최대 25개 동시 세션이 제한됩니다. 그러나 Windows Virtual Desktop의 단일 세션 시나리오는 완전히 지원됩니다.
 
 끝점용 Microsoft Defender는 VDI 및 Windows Virtual Desktop 세션 모두 모니터링을 지원합니다. 조직의 요구에 따라 VDI 또는 Windows Virtual Desktop 세션을 구현하여 직원이 관리되지 않는 디바이스, 원격 위치 또는 유사한 시나리오에서 회사 데이터 및 앱에 액세스하는 데 도움이 될 수 있습니다. 끝점용 Microsoft Defender를 사용하여 이러한 가상 컴퓨터를 모니터링하여 이상한 활동을 모니터링할 수 있습니다.
 

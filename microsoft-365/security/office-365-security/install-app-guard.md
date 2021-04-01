@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 description: 하드웨어 기반의 최신 고리형을 다운로드합니다. 악용 또는 악의적인 링크와 같은 현재 및 새로운 공격이 직원 생산성과 엔터프라이즈 보안을 방해하지 않도록 방지합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c066805bc21a941673fd1157dc87bd95bcd2c711
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: d0fa6ad884c6b21457c8359cf82e32e4b8c100ba
+ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205027"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51488314"
 ---
 # <a name="application-guard-for-office-for-admins"></a>관리자용 Office용 Application Guard
 
@@ -40,10 +40,11 @@ Microsoft Defender Application Guard for Office(Office용 Application Guard)는 
 ### <a name="minimum-software-requirements"></a>최소 소프트웨어 요구 사항
 
 * **Windows 10:** Windows 10 Enterprise 버전, 클라이언트 빌드 버전 2004(20H1) 빌드 19041 이상
-* **Office**: Office 현재 채널 빌드 버전 2011 16.0.13530.10000 이상. 32비트 및 64비트 버전의 Office가 모두 지원됩니다.
+* **Office**: Office 현재 채널 및 월별 엔터프라이즈 채널, 빌드 버전 2011 16.0.13530.10000 이상. 32비트 및 64비트 버전의 Office가 모두 지원됩니다.
 * **업데이트 패키지:** Windows 10 월별 누적 보안 업데이트 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756)
 
-자세한 시스템 요구 사항은 [Microsoft Defender Application Guard의 시스템 요구 사항을 참조하세요.](/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard) Office 업데이트 채널에 대한 자세한 내용은 Microsoft 365 업데이트 채널 [개요를 참조하세요.](/deployoffice/overview-update-channels)
+자세한 시스템 요구 사항은 [Microsoft Defender Application Guard의 시스템 요구 사항을 참조하세요.](/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard) 또한 가상화 기술을 사용하도록 설정하는 방법에 대한 컴퓨터 제조업체 가이드를 참조하세요.
+Office 업데이트 채널에 대한 자세한 내용은 Microsoft 365 업데이트 채널 [개요를 참조하세요.](/deployoffice/overview-update-channels)
 
 ### <a name="licensing-requirements"></a>라이선스 요구 사항
 
@@ -76,6 +77,9 @@ Microsoft Defender Application Guard for Office(Office용 Application Guard)는 
 4. 시스템을 다시 시작합니다.
 
 ### <a name="set-diagnostics--feedback-to-send-full-data"></a>진단 & 피드백을 설정하여 전체 데이터 보내기
+
+> [!NOTE]
+> 이 요구 사항이 필요하지는 않습니다. 그러나 선택적 진단 데이터를 구성하면 보고된 문제를 진단하는 데 도움이 됩니다.
 
 이 단계를 통해 문제를 식별하고 해결하는 데 필요한 데이터가 Microsoft에 도달하는지 확인할 수 있습니다. Windows 장치에서 진단을 사용하도록 설정하려면 다음 단계를 따르세요.
 
@@ -115,7 +119,9 @@ Office용 Application Guard를 사용하도록 설정되어 있는지 확인하�
 
 ## <a name="configure-application-guard-for-office"></a>Office용 Application Guard 구성
 
-Office에서는 Office용 Application Guard의 기능을 구성할 수 있도록 다음 정책을 지원합니다. 이러한 정책은 그룹 정책 또는 Office 클라우드 정책 서비스를 통해 구성할 수 있습니다.
+Office에서는 Office용 Application Guard의 기능을 구성할 수 있도록 다음 정책을 지원합니다. 이러한 정책은 그룹 정책 또는 Office 클라우드 정책 서비스를 통해 [구성할 수 있습니다.](/DeployOffice/overview-office-cloud-policy-service)
+User Configuration  **\\ Administrative Templates Microsoft Office \\ 2016 Security Settings Trust Center Application \\ Guard에서 \\ \\** 그룹 정책 설정을 검토하여 관리자가 설정한 구성을 참조하세요.
+
 
 > [!NOTE]
 > 이러한 정책을 구성하면 Office용 Application Guard에서 연 파일에 대해 일부 기능을 사용하지 않도록 설정할 수 있습니다.
@@ -183,13 +189,15 @@ Office 문서를 Application Guard에서 열 때 문제가 발생하는 경우 O
 
 Office용 Application Guard는 격리된 환경에서 발생하는 악의적인 활동에 대한 모니터링 및 경고를 제공하기 위해 끝점용 Microsoft Defender와 통합되었습니다.
 
+[Microsoft E365 E5의](/microsoft-365/security/office-365-security/safe-docs) 안전한 문서는 끝점용 Microsoft Defender를 사용하여 Office용 Application Guard에서 연 문서를 검사하는 기능입니다. 추가 보호 계층을 위해 사용자는 검사 결과가 결정될 때까지 Office용 Application Guard를 떠날 수 없습니다.
+
 끝점용 Microsoft Defender는 엔터프라이즈 네트워크가 고급 위협을 방지, 감지, 조사 및 대응하는 데 도움이 하도록 설계된 보안 플랫폼입니다. 이 플랫폼에 대한 자세한 내용은 [끝점용 Microsoft Defender를 참조합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp) 이 플랫폼에 장치 온보딩에 대한 자세한 내용은 [끝점 서비스용 Microsoft Defender에](/windows/security/threat-protection/microsoft-defender-atp/onboard-configure)장치 온보딩을 참조합니다.
 
 끝점용 Defender와 함께 작동하도록 Office 365용 Microsoft Defender를 구성할 수 있습니다. 자세한 내용은 Office [365용 Defender와 끝점용 Microsoft Defender 통합을 참조하세요.](integrate-office-365-ti-with-mde.md)
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 
-* Office용 Application Guard는 신뢰할 수 있는 회사 리소스, 인트라넷, 사용자의 ID 및 컴퓨터의 임의 파일에 액세스할 수 없는 신뢰할 수 없는 문서를 격리하는 제한된 모드입니다. 따라서 사용자가 디스크에 로컬 파일에서 그림을 삽입하는 등 액세스에 종속된 기능에 액세스하면 액세스가 실패하고 다음 예제와 같은 프롬프트가 생성됩니다. 신뢰할 수 없는 문서가 신뢰할 수 있는 리소스에 액세스할 수 있도록 설정하려면 사용자가 문서에서 Application Guard 보호를 제거해야 합니다.
+* Office용 Application Guard는 신뢰할 수 있는 회사 리소스, 인트라넷, 사용자의 ID 및 컴퓨터의 임의 파일에 액세스할 수 없는 신뢰할 수 없는 문서를 격리하는 보호 모드입니다. 따라서 사용자가 디스크에 로컬 파일에서 그림을 삽입하는 등 액세스에 종속된 기능에 액세스하면 액세스가 실패하고 다음 예제와 같은 프롬프트가 생성됩니다. 신뢰할 수 없는 문서가 신뢰할 수 있는 리소스에 액세스할 수 있도록 설정하려면 사용자가 문서에서 Application Guard 보호를 제거해야 합니다.
 
   ![안전한 유지를 위해 이 기능을 사용할 수 없는 경우를 설명하는 대화 상자](../../media/ag10-limitations.png)
 
@@ -227,4 +235,5 @@ Application Guard는 가상화된 컨테이너를 사용하여 시스템에서 �
 
 * 웹 링크(또는 )를 선택하면 `http` `https` 브라우저가 열립니다.
 * 현재 Application Guard를 사용하여 연 Office 문서의 RTF(서식 있는 텍스트) 콘텐츠 또는 이미지를 붙여 넣는 것은 지원되지 않습니다.
-* .NET을 업데이트하면 Application Guard에서 파일이 열리지 않습니다. 이 해결로 사용자는 이 오류가 발생하면 장치를 다시 시작할 수 있습니다. 자세한 내용은 Application Guard 또는 Windows 샌드박스를 열 때 오류 [Windows Defender 수신을 통해 자세히 알아보실 수 있습니다.](https://support.microsoft.com/help/4575917/receiving-an-error-message-when-attempting-to-open-windows-defender-ap)
+* 지원되지 않는 파일 형식 보호 정책의 기본 설정은 IRM(정보 권한 관리), CSV 또는 HTML의 지원되지 않는 지원되지 않는 파일 형식 열기 차단입니다.
+* .NET을 업데이트하면 Application Guard에서 파일이 열리지 못할 수 있습니다. 이 해결로 사용자는 이 오류가 발생하면 장치를 다시 시작할 수 있습니다. 자세한 내용은 Application Guard 또는 Windows 샌드박스를 열 때 오류 [Windows Defender 수신을 통해 자세히 알아보실 수 있습니다.](https://support.microsoft.com/help/4575917/receiving-an-error-message-when-attempting-to-open-windows-defender-ap)

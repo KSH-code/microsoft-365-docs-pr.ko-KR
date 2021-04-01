@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드)에서 Office 365 서비스 독일 신규 데이터 센터 지역으로의 마이그레이션 이해 '
-ms.openlocfilehash: 18df7c43e21fb186dee56dabc29a67654f0f6882
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7e170967e1670433a7d28753430f0cb15818039b
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923771"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476640"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드에서 새 독일 데이터 센터 지역의 Office 365 서비스로 마이그레이션
 
@@ -63,9 +63,9 @@ Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 
 
 ## <a name="how-is-the-migration-organized"></a>마이그레이션은 어떻게 구성하나요?
 
-이 그림에서는 새 독일 데이터 센터로의 9단계 마이그레이션 단계를 보여 주었다.
+이 그림에서는 새로운 독일 데이터 센터로의 10개 마이그레이션 단계를 보여 주었다.
 
-![새 독일 데이터 센터로의 9단계 마이그레이션](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
+![새 독일 데이터 센터로의 10단계 마이그레이션](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
 
 마이그레이션에 옵트인(opt [in)할 때 이러한 단계가 시작됩니다.](./ms-cloud-germany-migration-opt-in.md) 대부분의 마이그레이션 단계는 최소한의 고객 상호 작용이 필요하며 백 엔드 서비스 작업으로 실행되고 한 단계 후에 실행됩니다. 추가 고객 주도 작업의 시작 및 전체 마이그레이션 상태는 마이그레이션 프로세스 중에 Microsoft 365 관리 센터의 메시지 센터를 통해 전달됩니다. 작업의 예로는 고객 관리 DNS 업데이트, Exchange 하이브리드 고객을 위한 하이브리드 설정 재구성 또는 Azure 마이그레이션이 있습니다.
 
@@ -93,6 +93,8 @@ Office 365 비디오가 2021년 3월 1일에 사용 중지됩니다. Office 365 
 - Dynamics 완료
 - Power BI 완료
 - 최종 서비스 컷오버 완료
+
+Azure AD를 전 세계 서비스로 최종 전환한 후 모든 클라이언트와 응용 프로그램이 올바른 끝점을 사용하기 위해 완전히 전환될 것으로 예상됩니다. 최종 컷오버 이후 30일간의 기간이 있습니다. 여기서 도이치란드 Microsoft 클라우드 서비스에서 Azure AD 토큰을 계속 얻을 수 있습니다. 30일 기간이 만료되면 클라이언트와 응용 프로그램은 더 이상 도이치랜드 Microsoft 클라우드의 Azure AD 끝점에 액세스할 수 없습니다. 이 시점부터 응용 프로그램 또는 사용자 액세스가 실패합니다. 이 시간 창이 닫히기 전에 모든 사용자 및 응용 프로그램이 올바른 끝점으로 마이그레이션되도록 해야 합니다. 
 
 ## <a name="moving-to-the-new-german-datacenter-regions"></a>새 독일 데이터 센터 지역으로 이동
 

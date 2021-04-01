@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 전환할 때의 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 53a8c9470093db9d57d8dc18f4242d1a596c6efd
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: ca24fff5e8b18128c55288352e65aa3cecfe3d81
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165636"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476616"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향(일반)
 
-독일 Microsoft 클라우드(MCD)에서 Microsoft Office 365 전역 서비스의 "독일" 지역으로의 테넌트 마이그레이션은 단계 집합 및 각 워크로드에 대해 구성된 작업으로 실행됩니다. 이 그림에서는 새 독일 데이터 센터로의 9단계 마이그레이션 단계를 보여 주었다.
+독일 Microsoft 클라우드(MCD)에서 Microsoft Office 365 전역 서비스의 "독일" 지역으로의 테넌트 마이그레이션은 단계 집합 및 각 워크로드에 대해 구성된 작업으로 실행됩니다. 이 그림에서는 새로운 독일 데이터 센터로의 10개 마이그레이션 단계를 보여 주었다.
 
-![새 독일 데이터 센터로의 9단계 마이그레이션](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
+![새 독일 데이터 센터로의 10단계 마이그레이션](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
 
 조직의 전체 크기 및 복잡도에 따라 마이그레이션 프로세스가 몇 주 동안 완료됩니다. 마이그레이션이 진행 중일 때 사용자와 관리자는 이 설명서에 자세히 설명된 변경 사항과 함께 서비스를 계속 사용할 수 있습니다. 그래픽 및 테이블은 마이그레이션 중의 단계와 단계를 정의합니다.
 
@@ -47,6 +47,8 @@ ms.locfileid: "51165636"
 |Power BI & Dynamics 365|15일 이상|Microsoft|Power BI 및 Dynamics 365 콘텐츠를 마이그레이션합니다.|
 |Azure AD 마무리|1~2일|Microsoft|전 세계 테넌트 컷오버를 완료합니다.|
 |Clean-Up|1~2일|고객|AD FS(Active Directory Federation Services) 신뢰 파티 트러스트, Azure AD Connect 및 Office 클라이언트 다시 시작과 같은 Microsoft 클라우드에 대한 레거시 연결을 정리합니다.|
+|끝점 사용 안|30일|Microsoft|Azure AD가 마무리된 후 30일이 지난 후 Microsoft 클라우드 도이치랜드 Azure AD 서비스는 전환된 조직의 끝점 액세스를 중지합니다. 인증과 같은 끝점 요청은 도이치랜드 Microsoft 클라우드 서비스에 대해 이 시점부터 실패합니다. |
+
 
 단계 및 해당 작업을 수행하면 중요한 데이터 및 환경이 Office 365 전역 서비스로 마이그레이션됩니다. 테넌트가 마이그레이션 큐에 추가되고 나면 각 작업이 백end 서비스에서 실행되는 단계 집합으로 완료됩니다. 일부 워크로드에는 관리자(또는 사용자)가 작업을 요구하거나 마이그레이션이 실행되고 마이그레이션이 구성되는 방법에서 설명하는 단계의 사용에 영향을 줄 [수 있습니다.](ms-cloud-germany-transition.md#how-is-the-migration-organized)
 
@@ -118,6 +120,7 @@ Exchange Online 하이브리드를 사용하는 경우: Exchange Online 하이�
 |온보드 또는 오프보더 사서함 이동을 중지하거나 삭제합니다. 즉, Exchange 온-프레미스와 Exchange Online 간에 사서함을 이동하지 않습니다.  | 이렇게 하면 사서함 이동 요청이 오류와 함께 실패하지 않습니다. | 이렇게 하지 못하면 서비스 또는 Office 클라이언트가 실패할 수 있습니다. |
 | Exchange Online 사서함은 도이치클란드 Microsoft 클라우드에서 Office 365 전역 서비스로 이동됩니다.| Exchange Online 구성은 전환 조직에 새로운 이동 독일어 지역을 추가합니다. Office 365 전역 서비스 지역이 기본값으로 설정되어 내부 부하 분산 서비스가 Office 365 서비스의 적절한 기본 지역으로 사서함을 재배포할 수 있습니다. 이 전환에서 어느 쪽에 있는 사용자(MCD 또는 전역 서비스)는 동일한 조직에 있으며 두 URL 끝점을 모두 사용할 수 있습니다. |<ul><li>레거시 MCD URL(outlook.office.de)에서 새 Office 365 서비스 URL()로 사용자 및 서비스를 `https://outlook.office365.com` 전환합니다.</li><li>사용자는 마이그레이션 중에 레거시 MCD URL을 통해 서비스에 계속 액세스할 수 있습니다. 그러나 마이그레이션이 완료될 때 레거시 URL 사용을 중지해야 합니다.</li><li>사용자는 Office Online 기능(일정, 메일, 사용자)에 대한 전 세계 Office 포털 사용으로 전환해야 합니다. Office 365 서비스로 마이그레이션되지 않은 서비스에 대한 탐색은 마이그레이션될 때까지 작동하지 않습니다. </li><li>마이그레이션 Outlook Web App 동안 공용 폴더 환경을 제공하지 않습니다. </li></ul>|
 | AutoDiscover에 대한 사용자 지정 DNS 설정 업데이트| 현재 도이치클란드 Microsoft 클라우드를 지점하는 자동 검사에 대한 고객 관리 DNS 설정을 업데이트하여 Exchange Online 단계(5단계)의 완료 시 Office 365 Global 끝점을 참조해야 합니다. <br> CNAME이 autodiscover-outlook.office.de 기존 DNS 항목을 업데이트하여 해당 항목을 autodiscover.outlook.com. |  자동 검색을 통한 가용성 요청 및 서비스 검색 호출은 Office 365 서비스를 직접 연결합니다. 이러한 DNS 업데이트를 수행하지 않는 고객은 마이그레이션이 완료될 때 자동검출 서비스 문제가 있을 수 있습니다. |
+| 사용자는 POP3, IMAP4, SMTP 클라이언트 구성을 업데이트해야 합니다. | 클라이언트 프로토콜 POP3, IMAP4, SMTP에 대한 Microsoft 클라우드 끝점에 대한 장치 연결이 있는 사용자는 사서함을 Office [365](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) Germany 지역으로 마이그레이션하는 데 동시 Office 365 전 세계 끝점으로 전환하기 위해 클라이언트 장치를 수동으로 업데이트해야 합니다. <br> smtp.office365.com : SMTP(TCP:587), outlook.office365.com : IMAP4(TCP:993), POP3(TCP:995)| 이러한 프로토콜의 사용자는 사서함이 전환되는 동안 Outlook 모바일 또는 웹용 Outlook을 사용하기 위해 전환하고 클라이언트 장치의 IMAP4, POP3, SMTP 설정을 완료 시 새 끝점으로 업데이트해야 합니다. 클라이언트 끝점을 업데이트하지 못하면 사용자 사서함이 마이그레이션될 때 도이클란드 Microsoft 클라우드에 대한 클라이언트 연결 오류가 발생합니다. |
 ||||
 
 추가 고려 사항:
@@ -131,7 +134,7 @@ Exchange Online 하이브리드를 사용하는 경우: Exchange Online 하이�
 
 - 전환하려는 기존 Microsoft 클라우드 고객 또는 전환하는 고객의 경우 파일 > **Info**> 계정 추가를 사용하여 Outlook에 공유 사서함을 추가하면 일정 권한 보기가 실패할 수 있습니다(Outlook 클라이언트가 Rest API를 사용하려고 `https://outlook.office.de/api/v2.0/Me/Calendars` 시도). 일정 권한을 보기 위해 계정을 추가하려는 고객은 [Outlook에서](https://support.microsoft.com/office/user-experience-changes-for-sharing-a-calendar-in-outlook-5978620a-fe6c-422a-93b2-8f80e488fdec) 일정을 공유하기 위한 사용자 환경 변경에 설명된 레지스트리 키를 추가하여 이 작업이 성공하도록 할 수 있습니다. 이 레지스트리 키는 그룹 정책을 사용하여 조직 전체에 배포할 수 있습니다.
 
-- 마이그레이션 단계에서 PowerShell cmdlet **New-migrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예:
+- 마이그레이션 단계에서 PowerShell cmdlet **New-migrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들어 다음과 같은 가치를 제공해야 합니다.
 
 ```powershell
 New-PSSession 
@@ -204,6 +207,18 @@ Dynamics 365를 사용 하는 고객은 조직의 Dynamics 조직을 독립적�
 ||||
 
 \*\* (i) Microsoft Power BI를 사용 하는 고객은 제공된 마이그레이션 프로세스에 정의된 이 마이그레이션 시나리오에서 조치를 취해야 합니다. (ii) 고객이 조치를 취하지 못하면 Microsoft가 마이그레이션을 완료할 수 없습니다. (iii) 고객의 비활성으로 인해 Microsoft가 마이그레이션을 완료할 수 없는 경우 고객의 구독은 2021년 10월 29일에 만료됩니다.
+
+## <a name="azure-ad-finalization-phase-9-10"></a>Azure AD 마무리(9, 10단계)
+
+**다음에 적용됩니다.** 모든 고객
+
+Office 365 테넌트가 마이그레이션의 최종 단계를 완료하면 [Azure AD 완료(9단계)] 모든 서비스가 전 세계로 전환됩니다. 응용 프로그램이나 사용자는 도이치랜드 Microsoft 클라우드 끝점에 대해 테넌트의 리소스에 액세스하지 말아야 합니다. 완료가 완료되고 30일 후에 자동으로 Microsoft 클라우드 도이치랜드 Azure AD 서비스가 전환된 테넌트에 대한 끝점 액세스를 중지합니다. 인증과 같은 끝점 요청은 도이치랜드 Microsoft 클라우드 서비스에 대해 이 시점부터 실패합니다. 
+
+| Step(s) | 설명 | 영향 |
+|:-------|:-------|:-------|
+| 사용자 끝점 업데이트 | 모든 사용자가 적절한 Microsoft 전 세계 끝점을 사용하여 서비스에 액세스하도록 보장 |마이그레이션이 완료된 후 30일이 지난 후 Microsoft 클라우드 도이클랜드 끝점은 요청의 존중을 중지합니다. 클라이언트 또는 응용 프로그램 트래픽이 실패합니다.  |
+| Azure AD 응용 프로그램 끝점 업데이트 | 응용 프로그램의 인증, Azure AD(Azure Active Directory) 그래프 및 MS Graph 끝점을 Microsoft Worldwide 서비스의 끝점으로 업데이트해야 합니다. | 마이그레이션이 완료된 후 30일이 지난 후 Microsoft 클라우드 도이클랜드 끝점은 요청의 존중을 중지합니다. 클라이언트 또는 응용 프로그램 트래픽이 실패합니다. |
+||||
 
 ## <a name="office-apps"></a>Office 앱
 

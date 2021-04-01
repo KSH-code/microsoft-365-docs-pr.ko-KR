@@ -1,5 +1,5 @@
 ---
-title: 웹 콘텐츠 필터링
+title: 웹 컨텐츠 필터링
 description: Microsoft Defender ATP의 웹 콘텐츠 필터링을 사용하여 해당 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제합니다.
 keywords: 웹 보호, 웹 위협 방지, 웹 검색, 모니터링, 보고서, 카드, 도메인 목록, 보안, 피싱, 맬웨어, 악용, 웹 사이트, 네트워크 보호, Edge, Internet Explorer, Chrome, Firefox, 웹 브라우저
 search.product: eADQiWindows 10XVcnh
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a8ab1ba1f0dc1bb629e438380b7b77e1ed221f08
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 16f0d96b75ec7035ca133f75a83df1f284ee5c4b
+ms.sourcegitcommit: 847b0920016ae20c82a0501bda6019cd940482df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186032"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51484747"
 ---
-# <a name="web-content-filtering"></a>웹 콘텐츠 필터링
+# <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
@@ -60,7 +60,7 @@ ms.locfileid: "51186032"
 
 이 기능을 사용해 보기 전에 다음 요구 사항이 있는지 확인합니다.
 
-- Windows 10 Enterprise E5 라이선스 또는 Microsoft 365 E3 + Microsoft 365 E5 보안 추가 기능
+- Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Microsoft 365 E5 Security 추가 기능 또는 끝점 독립 실행형용 Microsoft Defender 라이선스. 
 - Microsoft Defender 보안 센터 포털에 액세스
 - 최신 MoCAMP 업데이트를 통해 Windows 10 1주년 업데이트(버전 1607) 이상을 실행하는 장치.
 
@@ -159,6 +159,8 @@ Microsoft Defender for Endpoint 데이터 처리 설정의 일부로 사용하�
 - 장치의 OS 구성이 Server(Systeminfo > OS 구성)인 > Microsoft Edge만 지원됩니다. 네트워크 보호는 지원되는 제3자 브라우저에서 트래픽을 보호하는 서버 장치의 검사 모드에서만 지원됩니다.
 
 - 미지정 장치에는 보고서에 잘못된 데이터가 표시됩니다. Report details > Device groups pivot, you may see a row with a blank Device Group field. 이 그룹에는 지정한 그룹에 들어가기 전에 지정되지 않은 장치가 포함되어 있습니다. 이 행에 대한 보고서에 장치 또는 액세스 수가 정확한 수를 포함하지 않을 수 있습니다.
+
+- 웹 콘텐츠 필터링 보고서는 현재 상위 5,000개 레코드를 표시하는 것으로 제한됩니다. 예를 들어 '도메인' 보고서에는 해당되는 경우 지정한 필터 쿼리에 대해 상위 5,000개 도메인만 표시됩니다. 
 
 ## <a name="related-topics"></a>관련 항목
 
