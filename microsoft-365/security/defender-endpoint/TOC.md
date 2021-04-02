@@ -145,6 +145,7 @@
 #### [문제 해결]()
 ##### [설치 문제 해결](mac-support-install.md)
 ##### [성능 문제 해결](mac-support-perf.md)
+##### [클라우드 연결 문제 해결](troubleshoot-cloud-connect-mdemac.md)
 ##### [커널 확장 문제 해결](mac-support-kext.md)
 ##### [라이선스 문제 해결](mac-support-license.md)
 
@@ -586,6 +587,7 @@
 #### [공격 표면 축소 문제 해결]()
 ##### [네트워크 보호](troubleshoot-np.md)
 ##### [공격 표면 감소 규칙](troubleshoot-asr.md)
+##### [공격 표면 감소 규칙으로 마이그레이션](migrating-asr-rules.md)
 
 # [Microsoft 365 Defender](../index.yml)
 # [Office 365용 Defender](../office-365-security/overview.md)

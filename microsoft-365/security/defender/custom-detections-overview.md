@@ -10,20 +10,20 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 4a4b601b5f8b9a21d7e7260fcadf9fecd0e37c5b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 589a15aa456a96a5eef8042d922d338f056a882d
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060799"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498839"
 ---
 # <a name="custom-detections-overview"></a>사용자 지정 검색 개요
 
@@ -43,5 +43,5 @@ ms.locfileid: "51060799"
 
 ## <a name="see-also"></a>참고 항목
 - [사용자 지정 검색 규칙 만들기 및 관리](custom-detection-rules.md)
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [끝점용 Microsoft Defender에서 고급 헌팅 쿼리 마이그레이션](advanced-hunting-migrate-from-mde.md)

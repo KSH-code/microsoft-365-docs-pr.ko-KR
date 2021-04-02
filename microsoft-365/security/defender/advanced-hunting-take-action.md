@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 4c90441bb7a492ac38c5fcb560d9246b3a0005b0
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ee35bcc29ef8a283b6b04cb34ab97705d5dd15f4
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072764"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498232"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>고급 헌팅 쿼리 결과에 대한 작업 수행
 
@@ -80,8 +80,8 @@ ms.locfileid: "51072764"
 각 작업은 각각 동작 센터 [](m365d-action-center.md) 기록( 또는 )의 security.microsoft.com/action-center/history  >   기록됩니다.[](https://security.microsoft.com/action-center/history) 작업 센터로 이동하여 각 작업의 상태를 검사합니다.
  
 ## <a name="related-topics"></a>관련 항목
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
-- [쿼리 결과 작업](advanced-hunting-query-results.md)
-- [스키마의 이해](advanced-hunting-schema-tables.md)
+- [쿼리 결과로 작업](advanced-hunting-query-results.md)
+- [스키마에 대한 이해](advanced-hunting-schema-tables.md)
 - [Action Center 개요](m365d-action-center.md)

@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 127ebc8c0eaba433710bc272a2cf602e7c9a9730
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8a9279d1dd2a6465553b576609bb81cdf4e03fa0
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075983"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499536"
 ---
 # <a name="advanced-hunting-service-limits"></a>고급 헌팅 서비스 제한
 
@@ -34,7 +34,7 @@ ms.locfileid: "51075983"
 
 서비스 성능이 뛰어난 응답성을 유지하기 위해 고급 헌팅은 사용자 지정 검색 규칙에 따라 수동으로 실행되는 쿼리에 대한 다양한 [제한을 설정합니다.](custom-detection-rules.md) 이러한 제한을 이해하기 위해 다음 표를 참조합니다.
 
-| 제한 | Size | 새로 고침 주기 | 설명 |
+| 제한 유형 | Size | 새로 고침 주기 | 설명 |
 |--|--|--|--|
 | 데이터 범위 | 30일 | 모든 쿼리 | 각 쿼리는 최대 30일 동안의 데이터를 조회할 수 있습니다. |
 | 결과 집합 | 행 10,000개 | 모든 쿼리 | 각 쿼리는 최대 10,000개 레코드를 반환할 수 있습니다. |
@@ -50,5 +50,5 @@ ms.locfileid: "51075983"
 
 - [고급 헌팅 모범 사례](advanced-hunting-best-practices.md)
 - [고급 헌팅 오류 처리](advanced-hunting-errors.md)
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [사용자 지정 검색 규칙](custom-detection-rules.md)

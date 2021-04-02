@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: eaa0068fe52119bfd9dc2381b253b259cb8df907
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1fc4635b71e68bb56fa7ec54c9c7b1263b83446b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51070124"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498240"
 ---
 # <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>올바른 설정을 사용하여 고급 헌팅 범위 확장
 
@@ -54,5 +54,5 @@ Active Directory를 사내에서 실행하는 경우 도메인 컨트롤러에 I
 | 도메인 컨트롤러 | ID를 위해 Microsoft Defender로 전송되는 사내 Active Directory의 데이터, 계정 세부 정보, 로그온 활동 및 Active Directory 쿼리와 같은 ID 관련 정보 보강 | [IdentityInfo,](advanced-hunting-identityinfo-table.md) [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)및 [IdentityQueryEvents를](advanced-hunting-identityqueryevents-table.md) 비롯한 여러 테이블  | - [Id용 Microsoft Defender 센서 설치](/azure-advanced-threat-protection/install-atp-step4)<br>- [관련 Windows 이벤트 켜기](/azure-advanced-threat-protection/configure-event-collection) |
 
 ## <a name="related-topics"></a>관련 항목
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)

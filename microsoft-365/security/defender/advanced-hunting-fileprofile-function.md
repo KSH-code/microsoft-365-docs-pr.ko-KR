@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: a9ca0af0c522205309ffdcbfd1ac28638bd197c7
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: ea4f22b70e607b42155342dde1ac16b1ad640981
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382796"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498459"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -72,7 +72,7 @@ invoke FileProfile(x,y)
 >[!TIP]
 > 향상 함수는 사용할 수 있는 경우만 추가 정보를 보여 주게 됩니다. 정보의 가용성은 다양한 요소에 따라 다릅니다. 쿼리에서 FileProfile()을 사용하거나 사용자 지정 검색을 만들 때 이를 고려해야 합니다. 최상의 결과를 얻기 위해 FileProfile() 함수를 SHA1과 함께 사용하는 것이 좋습니다.
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 ### <a name="project-only-the-sha1-column-and-enrich-it"></a>SHA1 열만 프로젝트하고 강화
 
@@ -95,7 +95,7 @@ DeviceFileEvents
 ```
 
 ## <a name="related-topics"></a>관련 항목
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
-- [스키마의 이해](advanced-hunting-schema-tables.md)
+- [스키마에 대한 이해](advanced-hunting-schema-tables.md)
 - [더 많은 쿼리 예제 보기](advanced-hunting-shared-queries.md)

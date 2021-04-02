@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9788594eaab29aba54c634e79c7aa00d6148aacd
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 78a532167e4256e3453803f1a0b4a9e4875771cf
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075468"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499420"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>고급 헌팅에서 공유 쿼리 사용
 
@@ -70,9 +70,9 @@ Microsoft 보안 연구원은 [GitHub의 지정된 공용 저장소](https://git
 >또한 Microsoft 보안 연구원들은 최신 위협과 관련 된 활동과 지표를 찾는 데 사용할 수 있는 고급 검색 쿼리를 제공합니다. 이러한 쿼리는 Microsoft Defender 보안 센터의 [위협 분석](threat-analytics.md) 보고서의 일부로 제공됩니다.
 
 ## <a name="related-topics"></a>관련 항목
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
-- [쿼리 결과 작업](advanced-hunting-query-results.md)
+- [쿼리 결과로 작업](advanced-hunting-query-results.md)
 - [스키마의 이해](advanced-hunting-schema-reference.md)
 - [쿼리 모범 사례 적용](advanced-hunting-best-practices.md)
 - [사용자 지정 검색 개요](overview-custom-detections.md)

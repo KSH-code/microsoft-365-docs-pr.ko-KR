@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 2f283008e90dbe5dadc0e1e04db589d89a15a8b8
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 97f2174f74e7866f75b901cd1609341548a1a7c5
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076372"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498212"
 ---
 # <a name="hunt-for-ransomware"></a>랜섬웨어 찾기
 
@@ -246,9 +246,9 @@ ScDisable = iff(make_set(ScDisableUse) contains "1", 1, 0), TotalEvidenceCount =
 ```
 
 ## <a name="related-topics"></a>관련 항목
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
-- [쿼리 결과 작업](advanced-hunting-query-results.md)
+- [쿼리 결과로 작업](advanced-hunting-query-results.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
 - [스키마의 이해](advanced-hunting-schema-tables.md)
 - [쿼리 모범 사례 적용](advanced-hunting-best-practices.md)

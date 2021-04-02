@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1559d8dca6b6909f22473c5a8f4d25d4bac501d1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: be01d5908e4c79f642cdbbddd75115f6ebc2c713
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51070292"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499610"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-for-macos-policies-in-jamf-pro"></a>Jamf Pro에서 macOS용 끝점용 Microsoft Defender 정책 설정
 
@@ -349,60 +349,51 @@ ms.locfileid: "51070292"
 
 이러한 단계는 macOS 10.15(카탈로니아) 이상에서 적용할 수 있습니다.
 
-1. `notif.mobileconfig` [GitHub 리포지토리에서 다운로드](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig)
+1. Jamf Pro 대시보드에서 **컴퓨터,** 구성 **프로필을 선택합니다.**
 
-2. 으로 `MDATP_MDAV_notification_settings.plist` 저장합니다.
-
-3. Jamf Pro 대시보드에서 일반 을 **선택합니다.** 
-       
-4. 다음 세부 정보를 입력합니다.
-
-    **일반** 
+2. 새로 **추가를** 클릭하고 옵션에 대해 다음 세부 정보를 **입력합니다.**
     
-    - 이름: MDATP MDAV 알림 설정
-    - 설명: macOS 10.15(카탈로니아) 이상
-    - 범주: 없음(기본값)
-    - 배포 방법: 자동으로 설치(기본값)
-    - 수준: 컴퓨터 수준(기본값)
+    - Tab **일반**: 
+        - **이름:** MDATP MDAV 알림 설정
+        - **설명:** macOS 10.15(카탈로니아) 이상
+        - **범주:** *없음(기본값)*
+        - **배포 방법:** 자동으로 *설치(기본값)*
+        - **수준:** 컴퓨터 *수준(기본값)*
 
-    ![구성 설정의 이미지 mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
+        ![구성 설정의 이미지 mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
 
+    - 탭 **알림,** **추가를 클릭하고** 다음 값을 입력합니다.
+        - **번들 ID**: `com.microsoft.wdav.tray`
+        - **중요 경고:** 사용 안 **하게를 클릭합니다.**
+        - **알림:** 사용 **클릭**
+        - **배너 경고 유형:** 포함 **및** 임시 *선택(기본값)* 
+        - **잠금 화면의 알림:** **숨기기 클릭**
+        - **알림 센터의 알림:** 표시 **클릭**
+        - **배지 앱 아이콘:** 표시 **클릭**
 
-5. 파일 **업로드(PLIST 파일)를 선택합니다.**
+        ![구성 설정의 이미지 mdatpmdav 알림 트레이](images/7f9138053dbcbf928e5182ee7b295ebe.png)
 
-    ![구성 설정 업로드 plistfile의 이미지](images/7f9138053dbcbf928e5182ee7b295ebe.png)
- 
+    - 탭 **알림**, **한** 번 더 추가를 클릭하고 아래로 스크롤하여 새 **알림 설정**
+        - **번들 ID**: `com.microsoft.autoupdate2`
+        - 나머지 설정은 위의 값과 동일한 값으로 구성합니다.
 
-6. Choose **File**  >  **MDATP_MDAV_Notification_Settings.plist 를 선택합니다.**
+        ![구성 설정의 이미지 mdatpmdav 알림 mau](images/4bac6ce277aedfb4a674f2d9fcb2599a.png)
 
+        이제 알림 구성이 있는 '테이블'이 두 개 있습니다. 하나는 번들 **ID인 com.microsoft.wdav.tray,** 다른 하나는 **com.microsoft.autoupdate2입니다.** 요구 사항에 따라 경고 설정을 구성할 수 있는 동안 번들 ID는 앞에서 설명한 그대로 동일해야 합니다. **또한 알림의** 경우 Include 스위치가 **켜기(On)되어야 합니다.** 
 
-    ![구성 설정의 이미지 mdatpmdav notsettings](images/4bac6ce277aedfb4a674f2d9fcb2599a.png)
-
-
-    ![구성 설정의 이미지 mdatpmdav notifsettings](images/20e33b98eb54447881dc6c89e58b890f.png)
-
-7. 업로드   >  **열기 를 선택합니다.**
-
-    ![구성 설정 upl img의 이미지](images/7697c33b9fd376ae5a8023d01f9d3857.png)
-
-
-    ![구성 설정 업 이미지 이미지](images/2bda9244ec25d1526811da4ea91b1c86.png)
-
-8. 범위 **탭을** 선택한 다음 추가를 **선택합니다.**
+3. 범위 **탭을** 선택한 다음 추가를 **선택합니다.**
 
     ![구성 설정 범위 추가 이미지](images/441aa2ecd36abadcdd8aed03556080b5.png)
 
+4. **Contoso의 컴퓨터 그룹을 선택합니다.** 
 
-9. **Contoso의 컴퓨터 그룹을 선택합니다.** 
-
-10. **추가를** 선택한 다음 **저장을 선택합니다.**
+5. **추가를** 선택한 다음 **저장을 선택합니다.**
     
     ![구성 설정 contoso 컴퓨터 grp 저장 이미지](images/09a275e321268e5e3ac0c0865d3e2db5.png)
-
     
     ![구성 설정 추가 저장 이미지](images/4d2d1d4ee13d3f840f425924c3df0d51.png)
 
-11. **완료** 를 선택합니다. 새 구성 **프로필이 표시됩니다.**
+6. **완료** 를 선택합니다. 새 구성 **프로필이 표시됩니다.**
     ![구성 설정 완료 img의 이미지](images/633ad26b8bf24ec683c98b2feb884bdf.png)
 
 ## <a name="step-5-configure-microsoft-autoupdate-mau"></a>5단계: MAU(Microsoft 자동 업데이트) 구성
@@ -578,8 +569,12 @@ ms.locfileid: "51070292"
     
     ![구성 설정 donimg2의 이미지](images/6c8b406ee224335a8c65d06953dc756e.png)
 
+또는 Jamf Pro를 사용하여 사용자 지정 구성 프로필 배포에 설명된 바와 같이 [fulldisk.mobileconfig를](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) 다운로드하여 JAMF 구성 프로필에 [업로드할 수 있습니다| 방법 2: Jamf Pro에 구성 프로필 업로드.](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro)
 
 ## <a name="step-7-approve-kernel-extension-for-microsoft-defender-for-endpoint"></a>7단계: 끝점용 Microsoft Defender에 대한 커널 확장 승인
+
+> [!CAUTION]
+> Apple 실리콘(M1) 장치는 KEXT를 지원하지 않습니다. 이러한 장치에서는 KEXT 정책으로 구성된 구성 프로필을 설치하지 못합니다.
 
 1. 구성 **프로필에서**+ **새로 고치기 를 선택합니다.**
 
@@ -629,6 +624,7 @@ ms.locfileid: "51070292"
 
     ![doneimag 구성 설정의 이미지](images/1c9bd3f68db20b80193dac18f33c22d0.png)
 
+또는 Jamf Pro를 사용하여 사용자 지정 구성 프로필 배포에 설명된 바와 같이 [kext.mobileconfig를](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/kext.mobileconfig) 다운로드하여 JAMF 구성 프로필에 [업로드할 수 있습니다| 방법 2: Jamf Pro에 구성 프로필 업로드.](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro)
 
 ## <a name="step-8-approve-system-extensions-for-microsoft-defender-for-endpoint"></a>8단계: 끝점용 Microsoft Defender의 시스템 확장 승인
 
@@ -687,57 +683,53 @@ ms.locfileid: "51070292"
 
 끝점 검색 및 응답 기능의 일부로, Mac용 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
 
->[!NOTE]
->JAMF에는 콘텐츠 필터링 정책에 대한 기본 제공 지원이 없습니다. 이는 Mac용 끝점용 Microsoft Defender가 장치에 설치하는 네트워크 확장을 사용하도록 설정하기 위한 전제입니다. 또한 JAMF는 배포되는 정책의 콘텐츠를 변경하는 경우도 있습니다.
->따라서 다음 단계에서는 구성 프로필에 서명하는 작업을 수행합니다.
+이러한 단계는 macOS 10.15(카탈로니아) 이상에서 적용할 수 있습니다.
 
-1. `netfilter.mobileconfig` [GitHub 리포지토리에서](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig) 장치로 다운로드하여 다른 장치로 저장`com.microsoft.network-extension.mobileconfig`
+1. Jamf Pro 대시보드에서 **컴퓨터,** 구성 **프로필을 선택합니다.**
 
-2. 이 페이지의 지침에 [따라](https://www.jamf.com/jamf-nation/articles/649/creating-a-signing-certificate-using-jamf-pro-s-built-in-certificate-authority) JAMF의 기본 제공 인증 기관을 사용하여 서명 인증서 만들기
+2. 새로 **추가를** 클릭하고 옵션에 대해 다음 세부 정보를 **입력합니다.**
 
-3. 인증서를 만들어 장치에 설치한 후 macOS 장치에서 터미널에서 다음 명령을 실행합니다.
+    - Tab **일반**: 
+        - **이름:** Microsoft Defender ATP 네트워크 확장
+        - **설명:** macOS 10.15(카탈로니아) 이상
+        - **범주:** *없음(기본값)*
+        - **배포 방법:** 자동으로 *설치(기본값)*
+        - **수준:** 컴퓨터 *수준(기본값)*
 
-   ```bash
-   $ security cms -S -N "<certificate name>" -i com.microsoft.network-extension.mobileconfig -o com.microsoft.network-extension.signed.mobileconfig
-   ```
+    - 탭 **콘텐츠 필터**:
+        - **필터 이름:** Microsoft Defender ATP 콘텐츠 필터
+        - **식별자**: `com.microsoft.wdav`
+        - 서비스 **주소,** **조직,** **사용자 이름,** **암호,** **인증서** 비워 두기(포함이 *선택되지* 않았습니다.
+        - **필터 순서:** 검사기
+        - **소켓 필터**: `com.microsoft.wdav.netext`
+        - **소켓 필터 지정된 요구 사항**: `identifier "com.microsoft.wdav.netext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`
+        - 네트워크 **필터 필드를 비워** 두십시오(**포함이** *선택되어 있지* 않습니다.
 
-   ![서명된 구성 만들기 명령이 있는 터미널 창](images/netext-create-profile.png)
+        **식별자,** **소켓 필터** 및 **소켓 필터** 지정된 요구 사항의 정확한 값은 위에 지정된 값입니다.
 
-4. JAMF 포털에서 구성 프로필로 **이동하여** 업로드 **단추를** 클릭합니다. 
+        ![구성 설정의 이미지 mdatpmdav](images/netext-create-profile.png)
 
-   ![업로드 창의 이미지](images/netext-upload-file.png)
-
-5. 파일 **선택을 선택하고** `microsoft.network-extension.signed.mobileconfig` 을 선택합니다.
-
-   ![업로드 창의 이미지 netext choose file](images/netext-choose-file.png)
-
-6. 업로드를 **선택합니다.**
-
-   ![업로드 창 netext 업로드 파일의 이미지2](images/netext-upload-file2.png)
-
-7. 파일을 업로드한 후 이 프로필 만들기를 마무리하기 위해 새 페이지로 리디렉션됩니다.
-
-   ![새 구성 프로필 netext 프로필 페이지의 이미지](images/netext-profile-page.png)
-
-8. 범위 **탭을** 선택합니다.
+3. 범위 **탭을** 선택합니다.
 
    ![구성 설정 sco 탭의 이미지](images/0df36fc308ba569db204ee32db3fb40a.png)
 
-9. **+ 추가** 를 선택합니다.
+4. **+ 추가** 를 선택합니다.
 
-10. 컴퓨터 **그룹 >** 그룹  > **Contoso의 컴퓨터** 그룹을 선택합니다.
+5. 컴퓨터 **그룹 >** 그룹  > **Contoso의 컴퓨터** 그룹을 선택합니다.
 
-11. **+ 추가** 를 선택합니다.
+6. **+ 추가** 를 선택합니다.
 
     ![구성 설정 adim 이미지](images/0dde8a4c41110dbc398c485433a81359.png)
 
-12. **저장** 을 선택합니다.
+7. **저장** 을 선택합니다.
 
     ![구성 설정 savimg netextscop 이미지](images/netext-scope.png)
 
-13. **완료** 를 선택합니다.
+8. **완료** 를 선택합니다.
 
     ![구성 설정 netextfinal의 이미지](images/netext-final.png)
+
+또는 Jamf Pro를 사용하여 사용자 지정 구성 프로필 배포에 설명된 바와 같이 [netfilter.mobileconfig를](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/netfilter.mobileconfig) 다운로드하여 JAMF 구성 프로필에 [업로드할 수 있습니다| 방법 2: Jamf Pro에 구성 프로필 업로드.](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro)
 
 ## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-for-mac"></a>10단계: Mac용 끝점에 대한 Microsoft Defender 검사 예약
 [Mac용 끝점에 대한 Microsoft Defender 검사 예약에 대한 지침을 따릅니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)

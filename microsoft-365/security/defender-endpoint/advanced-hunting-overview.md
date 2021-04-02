@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f3dac57961308cc10bdb53a01745e6659bfaaded
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4883a4f04f06774d02aa0d942edc841867eb36b6
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075975"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499515"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>고급 헌팅을 통해 위협을 사전 대응
 
@@ -54,7 +54,7 @@ ms.locfileid: "51075975"
 | 학습 목표 | 설명 | 리소스 |
 |--|--|--|
 | **언어 학습** | 고급 헌팅은 [Kusto](https://docs.microsoft.com/azure/kusto/query/)쿼리 언어를 기반으로 하여 동일한 구문과 연산자를 지원합니다. 첫 번째 쿼리를 실행하여 쿼리 언어 학습을 시작합니다. | [쿼리 언어 개요](advanced-hunting-query-language.md) |
-| **쿼리 결과 사용 방법 학습** | 결과를 보거나 내보낼 수 있는 차트 및 다양한 방법에 대해 자세히 알아보습니다. 보다 풍부한 정보를 얻을 수 있도록 쿼리를 빠르게 조정하고 드릴다운하는 방법을 살펴보아야 합니다. | [쿼리 결과 작업](advanced-hunting-query-results.md) |
+| **쿼리 결과 사용 방법 학습** | 결과를 보거나 내보낼 수 있는 차트 및 다양한 방법에 대해 자세히 알아보습니다. 보다 풍부한 정보를 얻을 수 있도록 쿼리를 빠르게 조정하고 드릴다운하는 방법을 살펴보아야 합니다. | [쿼리 결과로 작업](advanced-hunting-query-results.md) |
 | **스키마의 이해** | 스키마와 해당 열에 있는 테이블에 대한 이해를 높이세요. 쿼리를 구성할 때 데이터를 검색할 위치를 학습합니다. | [스키마 참조](advanced-hunting-schema-reference.md) |
 | **미리 정의된 쿼리 사용** | 다양한 위협 헌팅 시나리오를 다루는 미리 정의된 쿼리 모음을 탐색합니다. | [공유 쿼리](advanced-hunting-shared-queries.md) |
 | **쿼리 최적화 및 오류 처리** | 효율적이고 오류가 없는 쿼리를 만드는 방법을 이해합니다. | - [쿼리 모범 사례](advanced-hunting-best-practices.md)<br>- [오류 처리](advanced-hunting-errors.md) |
@@ -77,7 +77,7 @@ ms.locfileid: "51075975"
 ## <a name="related-topics"></a>관련 항목
 
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
-- [쿼리 결과 작업](advanced-hunting-query-results.md)
+- [쿼리 결과로 작업](advanced-hunting-query-results.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
 - [스키마의 이해](advanced-hunting-schema-reference.md)
 - [쿼리 모범 사례 적용](advanced-hunting-best-practices.md)

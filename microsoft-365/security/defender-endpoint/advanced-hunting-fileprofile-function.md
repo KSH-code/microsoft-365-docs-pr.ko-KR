@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/20/2020
 ms.technology: mde
-ms.openlocfilehash: 668b3fe503268c46e4a1313f0c4cfb8a6a3dd602
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 6c828418d27db24cbd6e87f040486b3abc45e6c6
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076007"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499549"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -61,7 +61,7 @@ invoke FileProfile(x,y)
 - **x** — 사용할 파일 ID 열: `SHA1` , 또는 ; `SHA256` `InitiatingProcessSHA1` `InitiatingProcessSHA256` 함수가 `SHA1` 선택하지 않은 경우 사용
 - **y** - 보강할 레코드 수로 제한, 1-1000; 함수가 100을 사용하는 경우
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 ### <a name="project-only-the-sha1-column-and-enrich-it"></a>SHA1 열만 프로젝트하고 강화
 
@@ -85,6 +85,6 @@ DeviceFileEvents
 
 ## <a name="related-topics"></a>관련 항목
 
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [스키마의 이해](advanced-hunting-schema-reference.md)

@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/20/2020
 ms.technology: mde
-ms.openlocfilehash: 08ab7ff5bac917a027e4380a46ab1cb2cf0a1312
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 5dcc41302d797b4084c36d020908ba59131c90d4
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072436"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499280"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -57,7 +57,7 @@ AssignedIPAddresses(x, y)
 - **x**- `DeviceId` `DeviceName` 또는 디바이스를 식별하는 값
 - **y**- (datetime) 특정 시간에서 가장 최근에 할당된 IP 주소를 구하도록 `Timestamp` 함수에 지시하는 값입니다. 지정하지 않으면 함수는 최신 IP 주소를 반환합니다.
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 ### <a name="get-the-list-of-ip-addresses-used-by-a-device-24-hours-ago"></a>24시간 전 디바이스에서 사용하는 IP 주소 목록 표시
 
@@ -83,6 +83,6 @@ AssignedIPAddresses(DeviceName, Date)
 
 ## <a name="related-topics"></a>관련 항목
 
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [스키마의 이해](advanced-hunting-schema-reference.md)

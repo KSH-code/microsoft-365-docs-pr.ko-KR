@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 059f960bae8a5a00f678bb6f52ef217b4f8ed7d6
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 4c04ce3479ac995e59c3bdfa9a2bdcca87eca17b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185996"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499926"
 ---
 # <a name="web-protection"></a>웹 보호
 
@@ -47,7 +47,7 @@ ms.locfileid: "51185996"
 - 경고 및 포괄적인 URL 프로필 및 이러한 URL에 액세스하는 장치를 통한 웹 관련 위협 활동에 대한 조사 기능
 - 악성 및 원치 않는 웹 사이트에 대한 일반적인 액세스 추세를 추적하는 전체 보안 기능 집합
 
-## <a name="web-content-filtering"></a>웹 콘텐츠 필터링
+## <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
 웹 콘텐츠 필터링을 구성하는 카드는 범주별 웹 **활동,** 웹 콘텐츠 필터링 요약 및 웹 활동 요약 **입니다.** 
 
@@ -61,4 +61,4 @@ ms.locfileid: "51185996"
 항목 | 설명
 :---|:---
 [웹 위협 방지](web-threat-protection.md) | 차단한 사이트뿐만 아니라 피싱 사이트, 맬웨어 벡터, 악용 사이트, 신뢰하지 못하거나 낮은 신뢰도의 사이트에 대한 액세스를 중지합니다.
-[웹 콘텐츠 필터링](web-content-filtering.md) | 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제합니다.
+[웹 컨텐츠 필터링](web-content-filtering.md) | 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제합니다.

@@ -9,20 +9,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 599eab29628d11d67843f89a0eb59bb4db1e66ad
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 2ebc826e21246381d3220855f7e8cb01741f12e9
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185458"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499383"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics"></a>위협 분석의 분석 보고서 이해
 
@@ -51,7 +51,7 @@ _위협 분석 보고서의 분석가 보고서 섹션_
 | MITRE ATT&CK 기술 관찰 | 관찰된 기술이 [MITRE ATT](https://attack.mitre.org/) 및 CK 공격&매핑되는 방법 | 
 | [완화](#apply-additional-mitigations) | 위협의 영향을 중지하거나 줄이는 데 도움이 될 수 있는 권장 사항입니다. 이 섹션에는 위협 분석 보고서의 일부로 동적으로 추적되지 않는 완화 기능도 포함되어 있습니다. |
 | [검색 세부 정보](#understand-how-each-threat-can-be-detected) | 위협과 관련된 활동 또는 구성 요소를 표면화할 수 있는 Microsoft 보안 솔루션에서 제공하는 특정 및 일반 감지. | 
-| [고급 헌팅](#find-subtle-threat-artifacts-using-advanced-hunting) | [고급 헌팅은 가능한](advanced-hunting-overview.md) 위협 활동을 사전 식별하기 위한 쿼리입니다. 대부분의 쿼리는 검색을 보완하기 위해 제공됩니다. 특히 악의적인 것으로 동적으로 평가할 수 없는 잠재적으로 악의적인 구성 요소 또는 동작을 찾기 위한 쿼리가 제공됩니다. | 
+| [지능형 헌팅](#find-subtle-threat-artifacts-using-advanced-hunting) | [고급 헌팅은 가능한](advanced-hunting-overview.md) 위협 활동을 사전 식별하기 위한 쿼리입니다. 대부분의 쿼리는 검색을 보완하기 위해 제공됩니다. 특히 악의적인 것으로 동적으로 평가할 수 없는 잠재적으로 악의적인 구성 요소 또는 동작을 찾기 위한 쿼리가 제공됩니다. | 
 | 참조 | 보고서를 작성하는 동안 분석가가 참조하는 Microsoft 및 타사 발행물 위협 분석 콘텐츠는 Microsoft 연구원이 유효성을 검사한 데이터를 기반으로 합니다. 공개적으로 사용 가능한 타사 원본의 정보는 명확하게 식별됩니다. | 
 | 로그 변경 | 보고서가 게시된 시간 및 보고서가 크게 변경된 시간입니다. |
 

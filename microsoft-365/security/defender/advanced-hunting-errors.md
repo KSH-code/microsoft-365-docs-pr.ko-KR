@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e2c10474db5cbfc63e098ac1c2107dd6c29500e9
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 83f2603b00062633ce61a3a8f364e33cbc5b029d
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074804"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499736"
 ---
 # <a name="handle-advanced-hunting-errors"></a>고급 헌팅 오류 처리
 
@@ -47,5 +47,5 @@ ms.locfileid: "51074804"
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 모범 사례](advanced-hunting-best-practices.md)
 - [할당량 및 사용량 매개 변수](advanced-hunting-limits.md)
-- [스키마의 이해](advanced-hunting-schema-tables.md)
+- [스키마에 대한 이해](advanced-hunting-schema-tables.md)
 - [Kusto 쿼리 언어 개요](/azure/data-explorer/kusto/query/)

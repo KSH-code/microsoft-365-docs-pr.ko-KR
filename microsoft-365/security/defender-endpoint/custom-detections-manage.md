@@ -9,20 +9,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f6a7fc4d4141b19f9c5129eea9b89943d07695b2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b36521ada55fa3d60538beb981d487b153e7b1f9
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165780"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498752"
 ---
 # <a name="view-and-manage-custom-detection-rules"></a>사용자 지정 검색 규칙 보기 및 관리
 
@@ -74,5 +74,5 @@ ms.locfileid: "51165780"
 ## <a name="related-topics"></a>관련 항목
 - [사용자 지정 검색 개요](overview-custom-detections.md)
 - [검색 규칙 만들기](custom-detection-rules.md)
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [경고 보기 및 구성](alerts-queue.md)

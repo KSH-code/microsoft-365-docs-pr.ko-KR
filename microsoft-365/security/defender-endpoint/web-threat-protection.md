@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7754fa586b24fdedaa9691b45f5da4654c882a5b
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: aeeea02ca1ef2d37623e9ab434b162237c2f4946
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185984"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499904"
 ---
 # <a name="protect-your-organization-against-web-threats"></a>웹 위협으로부터 조직 보호
 
@@ -36,7 +36,7 @@ ms.locfileid: "51185984"
 웹 위협 방지는 [](web-protection-overview.md) 끝점용 Defender의 웹 보호의 일부입니다. 네트워크 [보호를 사용하여](network-protection.md) 웹 위협으로부터 장치를 보호합니다. 웹 위협 방지는 Microsoft Edge 및 Chrome 및 Firefox와 같은 인기 있는 타사 브라우저와 통합하여 웹 프록시 없이 웹 위협을 중지하고 부재 중이나 사내에서 장치를 보호할 수 있습니다. 웹 위협 방지는 사용자 지정 표시기 목록에서 차단한 사이트뿐만 아니라 피싱 사이트, 맬웨어 벡터, 악용 사이트, 신뢰하지 못하거나 낮은 신뢰도의 사이트에 대한 액세스를 [중지합니다.](manage-indicators.md)
 
 >[!Note]
->장치가 새 고객 표시기를 받는 데 최대 1시간이 걸릴 수 있습니다.
+>디바이스에서 새 사용자 지정 표시기를 받는 데 최대 1시간이 걸릴 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 웹 보호는 네트워크 보호를 사용하여 Microsoft Edge 및 타사 웹 브라우저에서 웹 검색 보안을 제공합니다.

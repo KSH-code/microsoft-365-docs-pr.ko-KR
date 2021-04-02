@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자 사용자 권한 및 역할을 설정하고 작업의 자동화된 테스트를 구성합니다. 사용자 기록을 관리하고 대시보드 보기를 필터링합니다.
-ms.openlocfilehash: 3b32ac5a82bbc726c5bf61859266e0561ca7f53c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4558f6b2a75f1635c7984b386f217efa148b22af
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199221"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499029"
 ---
 # <a name="get-started-with-compliance-manager"></a>규정 준수 관리자 시작
 
@@ -91,7 +91,7 @@ Office 365 또는 Microsoft 365 구독이 없는 Azure AD ID가 있는 사용자
 | :------------- | :-------------: | :------------: |
 | **데이터를 읽지만 편집하지는 않습니다.**| 준수 관리자의 독자  | Azure AD Global Reader, 보안 판독기 | 
 | **데이터 편집**| 준수 관리자 기여 | 준수 관리자 | 
-| **테스트 결과 편집**| 준수 관리자 평가 | 준수 관리자 | 
+| **테스트 결과 편집**| 준수 관리자의 평가자 | 준수 관리자 | 
 | **평가 및 템플릿 및 테넌트 데이터 관리**| 준수 관리자 관리 | 준수 관리자, 준수 데이터 관리자, 보안 관리자  | 
 | **사용자 할당**| 전역 관리자 | 전역 관리자 | 
 

@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 62989eca2fd00757ea02d03bf24a0049135d97b0
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: 6528d25b385a2b4eafc408cbfb6609372a6688de
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382868"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498590"
 ---
 # <a name="devicefileevents"></a>DeviceFileEvents
 
@@ -102,7 +102,7 @@ ms.locfileid: "51382868"
 > 파일 해시 정보는 사용 가능한 경우 항상 표시됩니다. 그러나 SHA1, SHA256 또는 MD5를 계산할 수 없는 몇 가지 이유가 있습니다. 예를 들어 파일이 원격 저장소에 위치하거나 다른 프로세스에 의해 잠기거나 압축되거나 가상으로 표시될 수 있습니다. 이러한 시나리오에서는 파일 해시 정보가 비어 있는 것으로 표시됩니다.
 
 ## <a name="related-topics"></a>관련 항목
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [공유 쿼리 사용](advanced-hunting-shared-queries.md)
 - [장치, 전자 메일, 앱 및 ID를 검색합니다.](advanced-hunting-query-emails-devices.md)

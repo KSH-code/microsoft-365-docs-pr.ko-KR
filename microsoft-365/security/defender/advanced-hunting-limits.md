@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 19606b06ff1a1369614bab533a949bc383c90ad3
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ca79abfa95feb65f98ec32ae8dbc0093e34d58e6
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072772"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498426"
 ---
 # <a name="advanced-hunting-quotas-and-usage-parameters"></a>고급 헌팅 할당량 및 사용 매개 변수
 
@@ -53,5 +53,5 @@ ms.locfileid: "51072772"
 
 - [고급 헌팅 모범 사례](advanced-hunting-best-practices.md)
 - [고급 헌팅 오류 처리](advanced-hunting-errors.md)
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [사용자 지정 검색 개요](custom-detections-overview.md)

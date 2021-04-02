@@ -14,12 +14,12 @@ ms.author: ellevin
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 1deec767c6af777b23ab5a91c9e719f690e0c048
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: bf4fa88b3fbbf5d977d54a78c480129665049b23
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165144"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499400"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용
 
@@ -137,7 +137,7 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
 
 2. 그룹 **정책 관리 편집기에서** 컴퓨터 **구성으로 이동하여** 관리 **템플릿을 선택합니다.**
 
-3. **Windows** 구성 요소 Microsoft Defender 바이러스 백신 Windows Defender 공격 표면 감소까지  >    >    >  **트리를 확장합니다.**
+3. **Windows** 구성 요소 Microsoft Defender 바이러스 백신 Microsoft Defender Exploit Guard 공격 표면 감소까지  >    >    >  **트리를 확장합니다.**
 
 4. 공격 **표면 축소 규칙 구성을 선택하고** 사용 을 **선택합니다.** 그런 다음 옵션 섹션에서 각 규칙에 대한 개별 상태를 설정할 수 있습니다.
 

@@ -9,20 +9,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f25189ac6550d9c3349e08f7e7ac685d4b8031fc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 93aa685f12e0241758bf86d3aa956717db052e5f
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071772"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499933"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-incidents-queue"></a>끝점 인시던트에 대한 Microsoft Defender 큐 보기 및 구성
 
@@ -87,5 +87,5 @@ ms.locfileid: "51071772"
 ## <a name="see-also"></a>참고 항목
 - [인시던트 큐](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
 - [인시던트 관리](manage-incidents.md)
-- [사고 조사](investigate-incidents.md)
+- [인시던트 조사](investigate-incidents.md)
 

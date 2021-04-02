@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 보안 & 준수 센터의 제출 포털을 사용하여 의심스러운 전자 메일, 피싱 메일, 스팸 및 기타 유해한 메시지, URL 및 파일을 검색을 위해 Microsoft에 제출하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3dd566de3ba4b4281b19c423b8623f081c378bca
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6f1294335be5a82ef7219ef9096d84d840271c5b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206736"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499327"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
@@ -122,9 +122,9 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
    ![첨부 파일 제출 예제](../../media/submission-file-flyout.PNG)
 
-## <a name="view-admin-submissions"></a>관리자 제출 보기
+## <a name="view-items-submitted-for-analysis"></a>분석을 위해 제출된 항목 보기
 
-보안 & 준수 센터에서 위협 관리  제출로 이동하여 관리 제출 탭에 있는지 확인한 다음 \> 새 제출 **을 클릭합니다.** 
+보안 & 준수 센터에서 위협 관리  제출로 이동하여 분석을 위해 제출된 탭에 \> 있는지 확인 
 
 페이지 위쪽에서 시작 날짜, 종료 날짜를 입력할 수 있으며(기본적으로) 상자에 값을 입력하고 새로 고침 단추 를 클릭하여 제출 **ID(모든** 제출에 할당된 GUID 값)를 필터링할 수 ![ ](../../media/scc-quarantine-refresh.png) 있습니다. Update
 
@@ -254,6 +254,9 @@ URL **탭을** 클릭합니다.
 페이지 위쪽에서 시작 날짜, 종료 날짜를 입력할 수 있으며 상자에 값을 입력하고 새로 고침 단추 를 클릭하여 **제출로** ![ 필터링할 수 ](../../media/scc-quarantine-refresh.png) 있습니다. Update
 
 결과를 내보내려면 페이지 **위쪽에서** 내보내기 를 클릭하고 차트 데이터 또는 **테이블을** **선택합니다.** 나타나는 대화 상자에서 .csv 파일을 저장합니다.
+
+> [!NOTE]
+> 조직이 사용자 지정 사서함으로만 보내도록 구성된 경우 보고된 메시지는 다시 검색을 위해 전송되지 않습니다. 사용자 보고 메시지 포털의 결과는 항상 비어 있습니다.
 
 ## <a name="undo-user-submissions"></a>사용자 제출 취소
 

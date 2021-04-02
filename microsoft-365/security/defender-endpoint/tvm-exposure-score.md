@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cc7abd678d6f2d317d02c4ed2b8028e7e270b055
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 34c3122b017b14605fdbb3358f31f73e26361a4d
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076487"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500123"
 ---
 # <a name="exposure-score---threat-and-vulnerability-management"></a>노출 점수 - 위협 및 취약성 관리
 
@@ -64,6 +64,6 @@ ms.locfileid: "51076487"
 ## <a name="related-topics"></a>관련 항목
 
 - [위협 및 취약성 관리 개요](next-gen-threat-and-vuln-mgt.md)
-- [장치용 Microsoft 보안 점수](tvm-microsoft-secure-score-devices.md)
+- [장치용 Microsoft Secure Score](tvm-microsoft-secure-score-devices.md)
 - [보안 권장 사항](tvm-security-recommendation.md)
 - [이벤트 타임라인](threat-and-vuln-mgt-event-timeline.md)

@@ -1,5 +1,5 @@
 ---
-title: 장치용 Microsoft 보안 점수
+title: 장치용 Microsoft Secure Score
 description: 장치에 대한 점수는 응용 프로그램, 운영 체제, 네트워크, 계정 및 보안 제어 전반에 걸쳐 디바이스의 총 보안 구성 상태를 보여줍니다.
 keywords: Microsoft Secure Score for Devices, mdatp Microsoft Secure Score for Devices, secure score, configuration score, threat and vulnerability management, security controls, improvement opportunities, security configuration score over time, security posture, baseline
 search.product: eADQiWindows 10XVcnh
@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d9ccd4f7dcc8b1546772a756aaf850dadfc87905
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: fcf33b309045b9ca763b0d3cabc44fb13505ee0b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071788"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500050"
 ---
-# <a name="microsoft-secure-score-for-devices"></a>장치용 Microsoft 보안 점수
+# <a name="microsoft-secure-score-for-devices"></a>장치용 Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/22/2020
 ms.technology: mde
-ms.openlocfilehash: c22e4b754f9d28156c3d26c567581572e59d718d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 66ecdc8fbcde04d78f2deede5f4e296a7f051ef0
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072428"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499166"
 ---
 # <a name="devicealertevents"></a>DeviceAlertEvents
 
@@ -57,6 +57,6 @@ ms.locfileid: "51072428"
 | `Table` | 문자열 | 이벤트에 대한 세부 정보를 포함하는 표 |
 
 ## <a name="related-topics"></a>관련 항목
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
 - [스키마의 이해](advanced-hunting-schema-reference.md)

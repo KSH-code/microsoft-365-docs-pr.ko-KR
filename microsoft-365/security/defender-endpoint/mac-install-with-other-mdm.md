@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e3a20f0a356a32eddc05b3792c0c04c23197a7b0
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 5fa811b2419d107e91b301d5c9bad691fc016b5b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185698"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498962"
 ---
 # <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender에 대해 다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포
 
@@ -43,7 +43,7 @@ ms.locfileid: "51185698"
 ## <a name="approach"></a>방법
 
 > [!CAUTION]
-> 현재 Microsoft는 Mac용 끝점용 Microsoft Defender의 배포 및 관리를 위해 Intune 및 JAMF만 지원하고 있습니다. Microsoft는 아래 제공된 정보에 대해 표현적 또는 암시적 보증을하지 않습니다.
+> 현재 Microsoft는 Mac용 끝점용 Microsoft Defender의 배포 및 관리를 위해 Intune 및 JAMF만 공식적으로 지원하고 있습니다. Microsoft는 아래 제공된 정보에 대해 표현적 또는 암시적 보증을하지 않습니다.
 
 조직에서 공식적으로 지원되지 않는 MDM(모바일 장치 관리) 솔루션을 사용하는 경우 Mac용 끝점용 Microsoft Defender를 배포하거나 실행할 수 없는 것은 아닙니다.
 
@@ -85,6 +85,10 @@ MDM은 이 파일을 사용하여 클라이언트 장치의 **/Library/Managed P
 
 KEXT 또는 커널 확장 정책을 설정합니다. 팀 식별자 **UBF8T346G9를** 사용하여 Microsoft에서 제공하는 커널 확장을 허용합니다.
 
+> [!CAUTION]
+> 작업 환경이 Apple 실리콘(M1) 장치로 구성된 경우 이러한 컴퓨터는 KEXT 정책을 사용하여 구성 프로필을 수신하지 않습니다.
+> Apple은 이러한 컴퓨터의 KEXT를 지원하지 않습니다. 이러한 프로필의 배포는 M1 컴퓨터에서 실패합니다.
+
 ### <a name="system-extension-policy"></a>시스템 확장 정책
 
 시스템 확장 정책을 설정합니다. 팀 식별자 **UBF8T346G9를** 사용하여 다음 번들 식별자를 승인합니다.
@@ -96,7 +100,7 @@ KEXT 또는 커널 확장 정책을 설정합니다. 팀 식별자 **UBF8T346G9�
 
 다음 구성 요소에 대한 전체 디스크 액세스 권한을 부여합니다.
 
-- 엔드포인트용 Microsoft Defender
+- 끝점용 Microsoft Defender
     - 식별자: `com.microsoft.wdav`
     - 식별자 유형: 번들 ID
     - 코드 요구 사항: `identifier "com.microsoft.wdav" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`

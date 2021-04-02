@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: overview
 ms.technology: mde
-ms.openlocfilehash: d1402d8486725559335a5edc5ee13c78a0125932
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 0c3c5ebbcd4483cae159fe9b46a6f4c376443be3
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186428"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499063"
 ---
 # <a name="threat-and-vulnerability-management"></a>위협 및 취약점 관리
 
@@ -98,13 +98,13 @@ ms.locfileid: "51186428"
 
 관련 API에 대한 자세한 내용은 다음 문서를 참조합니다.
 
-- [끝점 API에 지원되는 Microsoft Defender](exposed-apis-list.md)
+- [지원되는 엔드포인트용 Microsoft Defender API](exposed-apis-list.md) 
 - [컴퓨터 API](machine.md)
 - [권장 API](vulnerability.md)
 - [점수 API](score.md)
 - [소프트웨어 API](software.md)
 - [취약성 API](vulnerability.md)
-- [컴퓨터 및 소프트웨어의 취약성 목록](get-all-vulnerabilities-by-machines.md)
+- [컴퓨터 및 소프트웨어별 취약성 목록](get-all-vulnerabilities-by-machines.md)
 
 ## <a name="see-also"></a>참고 항목
 

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하기 위해 템플릿을 사용 및 관리하는 방법을 이해합니다. 서식 있는 Excel 파일을 사용하여 서식 파일을 만들고 수정합니다.
-ms.openlocfilehash: 2d95aa4172d80a81e8c635edb01ab56579513c53
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ac5fe5f0a62c3b20021a9829499d8cec9339f72a
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922788"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499026"
 ---
 # <a name="working-with-assessment-templates-in-compliance-manager"></a>준수 관리자에서 평가 템플릿 작업
 
@@ -38,17 +38,17 @@ ms.locfileid: "50922788"
 
 #### <a name="included-and-premium-templates"></a>포함 및 고급 서식 파일
 
-사용할 수 있는 템플릿은 조직의 라이선스 계약(라이선스 세부 정보 보기)을[기반으로 합니다.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) 템플릿에는 포함 및 프리미엄의 두 가지 범주가 있습니다.
+사용할 수 있는 템플릿은 조직의 라이선스 계약(라이선스 세부 정보 보기)을[기반으로 합니다.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager) 템플릿에는 포함 및 프리미엄의 두 가지 범주가 있습니다.
 
 1. **포함된 서식** 파일은 조직의 라이선스 계약의 일부로 사용할 수 있습니다.
-2. **프리미엄 템플릿을** 구매하여 평가를 만들어야 합니다. 구매한 후 템플릿에서 필요한 수만큼 평가를 만들 수 있습니다.
+2. **프리미엄 템플릿을** 구매하여 평가를 만들어야 합니다. 구매한 후 템플릿에서 필요한 수만큼 평가를 만들 수 있습니다. [프리미엄 템플릿을 구입하는 방법에 대해 자세히 알아보습니다.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
 
 #### <a name="active-and-inactive-templates"></a>활성 및 비활성 템플릿
 
 템플릿은 활성화 상태를 활성 또는 비활성으로 표시합니다.
 
 - 템플릿에서 **평가를** 만들면 템플릿이 활성으로 간주됩니다.
-- 조직에서 **평가를** 위한 프레임워크로 템플릿을 사용하지 않는 경우 템플릿은 비활성으로 간주됩니다.
+- 조직에서 **평가에** 템플릿을 사용하지 않는 경우 템플릿이 비활성으로 간주됩니다.
 
 프리미엄 템플릿을 구매하고 해당 템플릿에서 평가를 만들면 해당 템플릿은 1년 동안 활성화됩니다. 갱신을 취소하지 않으면 구매가 자동으로 갱신됩니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "50922788"
 
 카운터에 5/2가 표시되면 이는 조직이 제한을 초과하고 사용 중이 있는 프리미엄 템플릿 3개를 구입해야 하다는 것을 나타냅니다.
 
-자세한 [내용은 준수 관리자 라이선스](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) 지침을 참조하세요.
+자세한 [내용은 준수 관리자 라이선스](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager) 지침을 참조하세요.
 
 ## <a name="viewing-and-managing-templates-from-the-assessment-templates-page"></a>평가 템플릿 페이지에서 템플릿 보기 및 관리
 
