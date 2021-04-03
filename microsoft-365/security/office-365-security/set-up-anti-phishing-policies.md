@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection) 및 Office 365용 Microsoft Defender에서 사용할 수 있는 피싱 방지 정책에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 64defeaa1e8cf4a08610742571a01ea527163d14
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 44472d49936f400ee16227f3f29141738ad28daa
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205625"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51571023"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
@@ -93,7 +93,7 @@ Microsoft Defender for Office 365의 피싱 방지 정책은 Office 365용 Defen
 
 ## <a name="spoof-settings"></a>스푸핑 설정
 
-스푸핑은 전자 메일 메시지의 보낸 사람 주소(전자 메일 클라이언트에 표시하는 보낸 사람 주소)가 전자 메일 원본의 도메인과 일치하지 않는 경우입니다. 스푸핑에 대한 자세한 내용은 [Microsoft 365의](anti-spoofing-protection.md)스푸핑 방지 보호 기능을 참조하세요.
+스푸핑은 전자 메일 메시지의 보낸 사람 주소(전자 메일 클라이언트에 표시된 보낸 사람 주소)가 전자 메일 원본의 도메인과 일치하지 않는 경우입니다. 스푸핑에 대한 자세한 내용은 [Microsoft 365의](anti-spoofing-protection.md)스푸핑 방지 보호 기능을 참조하세요.
 
 다음 스푸핑 설정은 EOP의 피싱 방지 정책 및 Office 365용 Microsoft Defender에서 사용할 수 있습니다.
 

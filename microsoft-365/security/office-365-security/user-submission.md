@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4d3f2640752f2dae152ef4be8b9ac2d2996c802a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: d86c79f0f0ab74d1dfbb88e7803f4ee4d691ea73
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206057"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51501176"
 ---
 # <a name="user-submissions-policy"></a>사용자 제출 정책
 
@@ -119,6 +119,9 @@ Exchange Online 사서함이 있는 Microsoft 365 조직에서는 사용자가 �
 
         > [!NOTE]
         > 미국 정부 조직(GCC, GCC-H 및 DoD)은 사용자 지정 **사서함만 구성할 수 있습니다.** 다른 두 옵션은 사용하지 않도록 설정됩니다.
+
+        > [!NOTE]
+        > 조직이 사용자 지정 사서함으로만 보내도록 구성된 경우 보고된 메시지는 다시 검색을 위해 전송되지 않습니다. 사용자 보고 메시지 포털의 결과는 항상 비어 있습니다.
 
       완료되면 확인 을 **클릭합니다.**
 

@@ -9,12 +9,13 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: f6b1e257fd767fa112fddb41d773065b8002a2a3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: 6df23e0d7e3ea0ecd7ebacd96f00cb47b9e0aa84
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909193"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574598"
 ---
 #  <a name="prepare-on-premises-resources-access-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비
 
@@ -77,3 +78,14 @@ Azure [](/azure/active-directory/devices/azureadjoin-plan#understand-considerati
 클라우드 전용 환경에서는 프린터를 자동으로 검색할 수 없는 반면, 디바이스가 사내 도메인 컨트롤러에 액세스할 수 있는 한 사용자는 프린터 경로 또는 프린터 큐 경로를 사용하여 사내 프린터를 사용할 수 있습니다.
 
 <!--add fuller material on printers when available-->
+## <a name="steps-to-get-ready"></a>준비 단계
+
+1. Microsoft Managed Desktop의 선행 [준비를 검토합니다.](prerequisites.md)
+2. 준비 [평가 도구를 사용합니다.](readiness-assessment-tool.md)
+3. [게스트 계정에 대한 필수 구성 요소](guest-accounts.md)
+4. [Microsoft Managed Desktop의 네트워크 구성](network.md)
+5. [Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](certs-wifi-lan.md)
+6. [Microsoft Managed Desktop에](authentication.md) 대한 프레미스 리소스 액세스 준비(이 문서)
+7. [Microsoft Managed Desktop의 앱](apps.md)
+8. [Microsoft Managed Desktop의 매핑된 드라이브 준비](mapped-drives.md)
+9. [Microsoft Managed Desktop의 인쇄 리소스 준비](printing.md)

@@ -1,5 +1,5 @@
 ---
-title: 노출 점수 얻기
+title: 노출 점수 가져오기
 description: 조직 노출 점수를 검색합니다.
 keywords: api, 그래프 api, 지원되는 api, get, 노출 점수, 조직 노출 점수
 search.product: eADQiWindows 10XVcnh
@@ -7,22 +7,22 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e7037e49a7f750597af15cfb16e1552aeb98859a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: c6b3f965c7abb1cb9208f0bfa157c1fd8aa3f891
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166861"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500706"
 ---
-# <a name="get-exposure-score"></a>노출 점수 얻기
+# <a name="get-exposure-score"></a>노출 점수 가져오기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

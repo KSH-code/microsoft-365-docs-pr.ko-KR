@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 64c8a13ba9e8110d761245315969b9e1882b3448
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b27ef34d465832bdf0eee3841385d64158553a6c
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075511"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500195"
 ---
 # <a name="handle-advanced-hunting-errors"></a>고급 헌팅 오류 처리
 
@@ -48,5 +48,5 @@ ms.locfileid: "51075511"
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 모범 사례](advanced-hunting-best-practices.md)
 - [서비스 제한](advanced-hunting-limits.md)
-- [스키마의 이해](advanced-hunting-schema-reference.md)
+- [스키마에 대한 이해](advanced-hunting-schema-reference.md)
 - [Kusto 쿼리 언어 개요](https://docs.microsoft.com/azure/data-explorer/kusto/query/)

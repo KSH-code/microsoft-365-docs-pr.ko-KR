@@ -7,8 +7,8 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -21,26 +21,26 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 98f335a38b2e4f581d4b08def39353e53e1bafd4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 19b83fe7dd733bb8a0668039d4df2b692a398ad4
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072647"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570466"
 ---
-# <a name="microsoft-secure-score"></a>Microsoft 보안 점수
+# <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft 보안 점수는 조직의 보안 자세를 측정한 것으로, 수치가 높을수록 개선 작업이 더 많이 수행되었음을 나타내고 있습니다. Microsoft https://security.microsoft.com/securescore [365](overview-security-center.md)보안 센터 에서 찾을 수 있습니다.
+Microsoft Secure Score는 조직의 보안 태세에 대한 평가 점수로, 점수가 높을수록 더 많은 개선 작업이 수행되었다는 뜻입니다. Microsoft https://security.microsoft.com/securescore [365](overview-security-center.md)보안 센터 에서 찾을 수 있습니다.
 
-보안 점수 권장 사항을 따라 조직을 위협으로부터 보호할 수 있습니다. Microsoft 365 보안 센터의 중앙 집중식 대시보드에서 조직은 Microsoft 365 ID, 앱 및 장치의 보안을 모니터링하고 작업할 수 있습니다.
+Secure Score 권장 사항을 따르면 조직을 위협으로부터 지킬 수 있습니다. Microsoft 365 보안 센터의 중앙 집중식 대시보드에서 조직은 Microsoft 365 ID, 앱 및 장치의 보안을 모니터링하고 작업할 수 있습니다.
 
-보안 점수는 조직에 도움이 됩니다.  
+Secure Score는 조직에 다음과 같은 도움을 제공합니다.  
 
-* 조직의 보안 상태의 현재 상태를 보고합니다.
-* 검색 가능성, 가시성, 지침 및 제어 기능을 제공하여 보안의 보안을 개선합니다.  
-* 벤치마크와 비교하여 KPIS(핵심 성과 지표)를 설정합니다.
+* 조직 보안 태세의 현 상태를 보고합니다.
+* 검색 가능성과 표시 여부, 안내, 컨트롤을 제공함으로써 보안 태세를 개선합니다.  
+* 벤치마크와 비교 및 KPI(핵심 성과 지표)를 수립합니다.
 
 조직은 메트릭 및 추세의 강력한 시각화, 다른 Microsoft 제품과의 통합, 유사한 조직과의 점수 비교 등의 강력한 시각화에 액세스할 수 있습니다. 또한 타사 솔루션에서 권장 작업을 해결한 경우 점수가 반영될 수 있습니다.
 
@@ -56,7 +56,7 @@ Microsoft 보안 점수는 조직의 보안 자세를 측정한 것으로, 수�
 
 일부 개선 작업은 완전히 완료될 때만 포인트를 제공 합니다. 일부는 일부 장치 또는 사용자에 대해 완료된 경우 부분 지점을 제공합니다. 개선 작업 중 하나를 제정할 수 없는 경우 위험 또는 남은 위험을 수락할 수 있습니다.
 
-지원되는 Microsoft 제품 중 하나에 대한 라이선스가 있는 경우 해당 제품에 대한 권장 사항이 표시 됩니다. 라이선스 버전, 구독 또는 계획에 관계없이 제품에 대해 가능한 전체 개선된 기능 집합이 표시되어 있습니다. 이렇게 하면 보안 모범 사례를 이해하고 점수를 향상시킬 수 있습니다. 보안 점수로 표현되는 절대 보안 설정은 조직이 특정 제품에 대해 소유하는 라이선스에 상관없이 동일하게 유지 됩니다. 보안은 사용 가능성과 균형을 유지해야 하며, 모든 권장이 사용자 환경에 대해 작동할 수 있는 것은 아니라는 사실에 유의하십시오.
+지원되는 Microsoft 제품 중 하나에 대한 라이선스가 있는 경우 해당 제품에 대한 권장 사항이 표시 됩니다. 라이선스 버전, 구독 또는 계획에 관계없이 제품에 대해 가능한 전체 개선된 기능 집합이 표시되어 있습니다. 이렇게 하면 보안 모범 사례를 이해하고 점수를 향상시킬 수 있습니다. 보안 점수로 표현되는 절대 보안 설정은 조직이 특정 제품에 대해 소유하는 라이선스에 상관없이 동일하게 유지 됩니다. 보안은 항상 사용 편의성과 균형을 유지해야 하며, 환경에 대한 권장 사항은 일부에 적용되지 않습니다.
 
 점수는 시각화 및 개선 작업 페이지에 제공된 정보를 반영하여 실시간으로 업데이트됩니다. 또한 보안 점수는 각 작업에서 달성한 점수에 대한 시스템 데이터를 수신하기 위해 매일 동기화됩니다.
 

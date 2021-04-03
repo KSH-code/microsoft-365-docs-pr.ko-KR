@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자에서 평가를 작성하여 조직에 중요한 규정 및 인증의 요구 사항을 충족할 수 있도록 합니다.
-ms.openlocfilehash: ff2aa41b91f3cb019dbed542c422d61c79c4ecb5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b8051a036f2ffda2f3a2840880318466a2ec71af
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908598"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500639"
 ---
 # <a name="build-and-manage-assessments-in-compliance-manager"></a>준수 관리자에서 평가 빌드 및 관리
 
@@ -53,7 +53,7 @@ ms.locfileid: "50908598"
 3. [사용자 지정 평가를 직접 작성합니다.](#create-your-own-custom-assessment)
 
 > [!NOTE]
-> 전역 관리자 또는 준수 관리자 관리 역할을 보유한 사용자만 평가를 만들고 수정할 수 있습니다. 역할 및 사용 [권한에 대해 자세히 알아보시고 을(를) 자세히 알아보아야 합니다.](compliance-manager-setup.md#set-user-permissions-and-assign-roles)
+> 전역 관리자, 준수 관리자 관리 또는 준수 관리자 평가자 역할을 보유한 사용자만 평가를 만들고 수정할 수 있습니다. 역할 및 사용 [권한에 대해 자세히 알아보시고 을(를) 자세히 알아보아야 합니다.](compliance-manager-setup.md#set-user-permissions-and-assign-roles)
 
 **미리 구축된 평가 사용**
 

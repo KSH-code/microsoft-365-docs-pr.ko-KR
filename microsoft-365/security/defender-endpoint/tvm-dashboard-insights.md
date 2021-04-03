@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 594d4b5790f95abed966163e448d332467f35b51
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 35dd300d828bfa48ad753d7c65f36b2555cf4f60
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076791"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500170"
 ---
 # <a name="dashboard-insights---threat-and-vulnerability-management"></a>대시보드 인사이트 - 위협 및 취약성 관리
 
@@ -66,7 +66,7 @@ Microsoft Defender 보안 센터의 위협 및 취약성 관리 기능을 사용
 :---|:---
 **선택한 장치 그룹(#/#)**   | 대시보드 및 카드에 표시하려는 위협 및 취약성 관리 데이터를 장치 그룹으로 필터링합니다. 필터에서 선택한 사항은 위협 및 취약성 관리 페이지 전체에 적용됩니다.
 [**노출 점수**](tvm-exposure-score.md)   | 위협 및 취약성에 대한 조직의 현재 장치 노출 상태를 확인합니다. 조직의 노출 점수에 영향을 주는 요인으로는 디바이스에서 발견된 약점, 장치가 위반될 가능성, 조직에 대한 장치 값, 장치에서 검색된 관련 경고 등 여러 가지 요인이 있습니다. 목표는 조직의 노출 점수를 낮출 수 있도록 보다 안전하게 하는 것입니다. 점수를 줄이기 위해 보안 권장 사항에 나열된 관련 보안 구성 문제를 수정해야 합니다.
-[**장치용 Microsoft 보안 점수**](tvm-microsoft-secure-score-devices.md) | 조직의 운영 체제, 응용 프로그램, 네트워크, 계정 및 보안 제어에 대한 보안 자세를 참조합니다. 목표는 관련 보안 구성 문제를 수정하여 디바이스에 대한 점수를 높이는 것입니다. 막대를 선택하면 보안 권장 **페이지로 이동됩니다.**
+[**장치용 Microsoft Secure Score**](tvm-microsoft-secure-score-devices.md) | 조직의 운영 체제, 응용 프로그램, 네트워크, 계정 및 보안 제어에 대한 보안 자세를 참조합니다. 목표는 관련 보안 구성 문제를 수정하여 디바이스에 대한 점수를 높이는 것입니다. 막대를 선택하면 보안 권장 **페이지로 이동됩니다.**
 **디바이스 노출 분포** | 노출 수준에 따라 노출되는 장치 수를 참조합니다. 도넛형 차트에서 섹션을 선택하여 장치 목록  페이지로 이동하여 영향을 받는 장치 이름, 노출 수준, 위험 수준 및 도메인, 운영 체제 플랫폼, 상태, 마지막으로 확인된 경우 및 태그와 같은 기타 세부 정보를 확인합니다.
 **주요 보안 권장 사항** | 조직의 위험 노출 및 필요한 긴급도에 따라 정렬 및 우선 순위가 지정되는 정렬된 보안 권장 사항을 참조하세요. **목록의** 나머지 보안 권장 사항을 표시하려면 자세한 정보 표시를 선택합니다. 예외가 **있는** 권장 사항 목록에 대해 예외 표시를 선택합니다.
 **취약한 상위 소프트웨어** | 네트워크 장치에 설치된 취약한 소프트웨어의 스택 순위 목록과 조직의 노출 점수에 어떤 영향을 미치는지 실시간으로 조직의 소프트웨어 인벤토리를 확인합니다. 자세한 내용은 항목을 선택하거나 **소프트웨어** 인벤토리 페이지에서 나머지 취약한 소프트웨어 목록을 확인하려면 자세히 **표시를** 선택합니다.
@@ -80,7 +80,7 @@ Microsoft Defender 보안 센터의 위협 및 취약성 관리 기능을 사용
 
 - [위협 및 취약성 관리 개요](next-gen-threat-and-vuln-mgt.md)
 - [노출 점수](tvm-exposure-score.md)
-- [장치용 Microsoft 보안 점수](tvm-microsoft-secure-score-devices.md)
+- [장치용 Microsoft Secure Score](tvm-microsoft-secure-score-devices.md)
 - [보안 권장 사항](tvm-security-recommendation.md)
 - [소프트웨어 인벤토리](tvm-software-inventory.md)
 - [이벤트 타임라인](threat-and-vuln-mgt-event-timeline.md)

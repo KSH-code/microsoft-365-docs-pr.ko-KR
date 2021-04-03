@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: c0575b5eaf5a4683f86d4a48dd1076fa2c423acf
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c0a29f93b9ea926beaeecb840ba108da04a89ebb
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076351"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51501141"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 고급 헌팅 쿼리 마이그레이션
 
@@ -37,7 +37,7 @@ ms.locfileid: "51076351"
 
 끝점용 Microsoft Defender에서 고급 헌팅 워크플로를 이동하여 더 광범위한 데이터 집합을 사용하여 위협을 사전 예방적으로 헌팅합니다. Microsoft 365 Defender에서는 다음을 비롯한 다른 Microsoft 365 보안 솔루션의 데이터에 액세스할 수 있습니다.
 
-- 엔드포인트용 Microsoft Defender
+- 끝점용 Microsoft Defender
 - Office 365용 Microsoft Defender
 - Microsoft Cloud App Security
 - ID용 Microsoft Defender
@@ -180,6 +180,6 @@ AlertInfo
 
 ## <a name="see-also"></a>참고 항목
 - [Microsoft 365 Defender 켜기](advanced-hunting-query-language.md)
-- [고급 헌팅 개요](advanced-hunting-overview.md)
-- [스키마의 이해](advanced-hunting-schema-tables.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
+- [스키마에 대한 이해](advanced-hunting-schema-tables.md)
 - [끝점용 Microsoft Defender의 고급 헌팅](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)

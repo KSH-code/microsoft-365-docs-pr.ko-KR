@@ -7,20 +7,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 72dacca8529b54b082590d911f03aaa86bfe9097
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1c287a72318cfb2e6e4e3860ac90a90e561040fe
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200164"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500951"
 ---
 # <a name="score-resource-type"></a>점수 리소스 유형
 
@@ -44,8 +44,8 @@ ms.locfileid: "51200164"
 
 메서드 |반환 형식 |설명
 :---|:---|:---
-[노출 점수 얻기](get-exposure-score.md) | [점수](score.md) | 조직 노출 점수를 얻습니다.
-[장치 보안 점수 얻기](get-device-secure-score.md) | [점수](score.md) | 조직 장치 보안 점수를 얻습니다.
+[노출 점수 가져오기](get-exposure-score.md) | [점수](score.md) | 조직 노출 점수를 얻습니다.
+[장치 보안 점수 가져오기](get-device-secure-score.md) | [점수](score.md) | 조직 장치 보안 점수를 얻습니다.
 [장치 그룹당 노출 점수 나열](get-machine-group-exposure-score.md)| [점수](score.md) | 장치 그룹당 점수를 나열합니다.
 
 ## <a name="properties"></a>속성

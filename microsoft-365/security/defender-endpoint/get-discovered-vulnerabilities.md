@@ -1,5 +1,5 @@
 ---
-title: 발견된 취약성 확인
+title: 발견된 취약성 가져오기
 description: 특정 장치 ID와 관련된 검색된 취약성 컬렉션을 검색합니다.
 keywords: api, 그래프 api, 지원되는 api, 다운로드, 목록, 파일, 정보, 발견된 취약성, 위협 & 취약성 관리 api, mdatp tvm api
 search.product: eADQiWindows 10XVcnh
@@ -7,27 +7,27 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 08fa910c8d4c7130fdb3ed564a97cdbd2f31d233
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 73b8fe5140ff635791e7d42358024bb7fb4ee926
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166873"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570330"
 ---
-# <a name="get-discovered-vulnerabilities"></a>발견된 취약성 확인
+# <a name="get-discovered-vulnerabilities"></a>발견된 취약성 가져오기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 

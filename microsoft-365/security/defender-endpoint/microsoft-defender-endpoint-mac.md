@@ -1,8 +1,8 @@
 ---
-title: Mac용 Microsoft Defender ATP
+title: 엔드포인트용 Microsoft Defender(Mac용)
 ms.reviewer: ''
 description: Mac용 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 학습합니다.
-keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamf, macos, big sur, catalina, mojave
+keywords: Microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamf, macos, big sur, catalina, mojave, mde for mac
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34150088379445d66006c757b2c8ea607865bf4c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 22d35a42eb7fb7eadbba686c292729772951c05c
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198996"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500683"
 ---
-# <a name="microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender
+# <a name="microsoft-defender-for-endpoint-for-mac"></a>엔드포인트용 Microsoft Defender(Mac용)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -39,11 +39,11 @@ ms.locfileid: "51198996"
 이 항목에서는 Mac용 끝점용 Defender를 설치, 구성, 업데이트 및 사용하는 방법을 설명합니다.
 
 > [!CAUTION]
-> Mac용 끝점용 Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 부작용이 발생할 수 있습니다. 사용자 환경에서 Microsoft가 아닌 엔드포인트 보호가 절대적인 요구 사항이면 수동 모드에서 실행될 Mac용 MDATP 바이러스 백신 기능을 구성한 후에도 Mac EDR용 MDATP 기능을 안전하게 활용할 [수 있습니다.](mac-preferences.md#enable--disable-passive-mode)
+> Mac용 끝점용 Microsoft Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 부작용이 발생할 수 있습니다. 사용자 환경에서 비 Microsoft 끝점 보호가 절대적인 요구 사항이면 수동 모드에서 실행될 바이러스 백신 기능을 구성한 후에도 Mac EDR용 Endpoint용 Defender 기능을 안전하게 활용할 [수 있습니다.](mac-preferences.md#enable--disable-passive-mode)
 
 ## <a name="whats-new-in-the-latest-release"></a>최신 릴리스의 새로운 소식
 
-[끝점용 Microsoft Defender의 새로운](whats-new-in-microsoft-defender-atp.md)
+[엔드포인트용 Microsoft Defender의 새로운 기능](whats-new-in-microsoft-defender-atp.md)
 
 [Mac용 끝점용 Microsoft Defender의 새로운](mac-whatsnew.md)
 

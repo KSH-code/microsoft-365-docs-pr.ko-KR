@@ -1,5 +1,5 @@
 ---
-title: 공격 표면 축소 이벤트 보기
+title: 공격 표면 감소 이벤트 보기
 description: 사용자 지정 보기를 가져와 공격 표면 축소 이벤트를 볼 수 있습니다.
 keywords: 이벤트 보기, exploit guard, 감사, 검토, 이벤트
 search.product: eADQiWindows 10XVcnh
@@ -8,24 +8,24 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: de605a667284c1218a3efe6e388d99b26b42e333
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 0a2ec16685ede2e625528fc3944943923bba3fc9
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076615"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569746"
 ---
-# <a name="view-attack-surface-reduction-events"></a>공격 표면 축소 이벤트 보기
+# <a name="view-attack-surface-reduction-events"></a>공격 표면 감소 이벤트 보기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
@@ -147,32 +147,32 @@ Windows 이벤트 뷰어에서 다음 이벤트에 액세스할 수 있습니다
 
 기능 | 공급자/원본 | 이벤트 ID | 설명
 :-|:-|:-:|:-
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 1 | ACG 감사
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 2  | ACG 적용
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 3  | 하위 프로세스 감사 허용 안 하도록 허용
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 4  | 하위 프로세스 블록 허용 안 하도록 허용
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 5  | 낮은 무결성 이미지 감사 차단
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 6  | 낮은 무결성 이미지 블록 차단
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 7  | 원격 이미지 감사 차단
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 8  | 원격 이미지 차단 차단
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 9  | win32k 시스템 호출 감사를 사용하지 않도록 설정
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 10   | win32k 시스템 호출 차단 사용 안
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 11  | 코드 무결성 보호 감사
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 12  | 코드 무결성 보호 블록
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 13 | EAF 감사
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 14  | EAF 적용
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 15  | EAF+ 감사
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 16  | EAF+ 적용
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 17  | IAF 감사
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 18  | IAF 적용
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 19 | ROP StackPivot 감사
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 20 | ROP StackPivot 적용
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) |  21 | ROP CallerCheck 감사
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 22 | ROP CallerCheck 적용
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 23 | ROP SimExec 감사
-Exploit Protection | Security-Mitigations(커널 모드/사용자 모드) | 24 | ROP SimExec 적용
-Exploit Protection | WER-Diagnostics | 5  | CFG 블록
-Exploit Protection | Win32K(작동) | 260 | 트러설이 없는 글꼴
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 1 | ACG 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 2 | ACG 적용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 3 | 하위 프로세스 감사 허용 안 하도록 허용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 4  | 하위 프로세스 블록 허용 안 하도록 허용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 5  | 낮은 무결성 이미지 감사 차단
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 6  | 낮은 무결성 이미지 블록 차단
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 7  | 원격 이미지 감사 차단
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 8  | 원격 이미지 차단 차단
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 9  | win32k 시스템 호출 감사를 사용하지 않도록 설정
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 10   | win32k 시스템 호출 차단 사용 안
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 11  | 코드 무결성 보호 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 12  | 코드 무결성 보호 블록
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 13 | EAF 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 14  | EAF 적용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 15  | EAF+ 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 16  | EAF+ 적용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 17  | IAF 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 18  | IAF 적용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 19 | ROP StackPivot 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 20 | ROP StackPivot 적용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) |  21 | ROP CallerCheck 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 22 | ROP CallerCheck 적용
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 23 | ROP SimExec 감사
+악용 방지 | Security-Mitigations(커널 모드/사용자 모드) | 24 | ROP SimExec 적용
+악용 방지 | WER-Diagnostics | 5  | CFG 블록
+악용 방지 | Win32K(작동) | 260 | 트러설이 없는 글꼴
 네트워크 보호 | Windows Defender(작동) | 5007 | 설정이 변경될 때의 이벤트
 네트워크 보호 | Windows Defender(작동) | 1125 | 감사 모드에서 네트워크 보호가 발생하면 이벤트
 네트워크 보호 | Windows Defender(작동) | 1126 | 차단 모드에서 네트워크 보호가 발생하면 이벤트

@@ -4,8 +4,8 @@ description: 평가 모드의 Office 365용 Defender는 맬웨어와 같은 판�
 keywords: Office 365, Office 365용 Microsoft Defender 평가, Office 365 평가, office 365, Microsoft Defender, ATP 평가
 f1.keywords:
 - NOCSH
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2e97e510cbc3188f8cc6117c5d7bd1e1d23897eb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 0b6166d22930119949faf99334416b85fdb64da0
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205901"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500265"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender 평가
 

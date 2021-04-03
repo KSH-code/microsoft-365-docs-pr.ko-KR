@@ -9,12 +9,13 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: ea0990e5f30aa45ec48bb2e6a7c957c187c74ebb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: d970ac1a28c62703f648e4fbf6f66e2f825a6188
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922947"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574622"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 앱
 
@@ -75,3 +76,16 @@ Microsoft는 포함된 엔터프라이즈용 Microsoft 365 앱의 배포, 업데
 ## <a name="deploying-apps"></a>앱 배포
 
 앱을 패키지로 다운로드하는 데 사용하는 모든 방법을 완료하면 [Microsoft Managed Desktop](../get-started/deploy-apps.md)디바이스에 앱 배포의 단계를 따를 수 있습니다.
+
+
+## <a name="steps-to-get-ready"></a>준비 단계
+
+1. Microsoft Managed Desktop의 선행 [준비를 검토합니다.](prerequisites.md)
+2. 준비 [평가 도구를 사용합니다.](readiness-assessment-tool.md)
+3. [게스트 계정에 대한 필수 구성 요소](guest-accounts.md)
+4. [Microsoft Managed Desktop의 네트워크 구성](network.md)
+5. [Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](certs-wifi-lan.md)
+6. [Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](authentication.md)
+7. [Microsoft Managed Desktop의](apps.md) 앱(이 문서)
+8. [Microsoft Managed Desktop의 매핑된 드라이브 준비](mapped-drives.md)
+9. [Microsoft Managed Desktop의 인쇄 리소스 준비](printing.md)

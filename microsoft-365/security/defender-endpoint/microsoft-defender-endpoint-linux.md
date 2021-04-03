@@ -1,5 +1,5 @@
 ---
-title: Linux용 Microsoft Defender ATP
+title: 엔드포인트용 Microsoft Defender(Linux)
 ms.reviewer: ''
 description: Linux용 Microsoft Defender ATP를 설치하고 사용하는 방법에 대해 설명
 keywords: microsoft, defender, atp, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 08bb4c73cb9df429c4b07194f1c7615f44d745d8
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: cc2f5be700395f6d88c05481d74501f4d9d92b76
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408340"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500671"
 ---
 # <a name="microsoft-defender-for-endpoint-for-linux"></a>엔드포인트용 Microsoft Defender(Linux)
 
@@ -39,7 +39,7 @@ ms.locfileid: "51408340"
 이 항목에서는 Linux용 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 설명합니다.
 
 > [!CAUTION]
-> Linux용 Endpoint용 Microsoft Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 시스템 오류가 발생할 수 있습니다.
+> Linux용 Endpoint용 Microsoft Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 부작용이 발생할 수 있습니다. 사용자 환경에서 Microsoft가 아닌 엔드포인트 보호가 절대적인 요구 사항이면 수동 모드에서 실행될 바이러스 백신 기능을 구성한 후에도 Linux EDR 기능에 대한 Endpoint용 Defender를 안전하게 활용할 [수 있습니다.](linux-preferences.md#enable--disable-passive-mode)
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-for-linux"></a>Linux용 끝점용 Microsoft Defender를 설치하는 방법
 
@@ -110,8 +110,8 @@ Linux용 끝점용 Microsoft Defender를 설치하고 구성하는 데 사용할
 서비스를 사용하도록 설정한 후 네트워크 또는 방화벽에서 해당 서비스 및 끝점 간의 아웃바운드 연결을 허용하도록 구성해야 할 수 있습니다.
 
 - 감사 프레임워크( `auditd` )를 사용하도록 설정해야 합니다.
-  >[!NOTE]
-  > 추가된 규칙에 의해 캡처된 시스템 이벤트는 감사 로그에 추가하며 호스트 감사 및 업스트림 컬렉션에 영향을 `audit.logs` 줄 수 있습니다. Linux용 Endopoint용 Microsoft Defender에서 추가한 이벤트는 키로 태그가 `mdatp` 지정됩니다.
+  > [!NOTE]
+  > 추가된 규칙에 의해 캡처된 시스템 이벤트는 (s)에 추가될 것이고 호스트 감사 및 업스트림 컬렉션에 영향을 `/etc/audit/rules.d/` `audit.log` 줄 수 있습니다. Linux용 끝점용 Microsoft Defender에서 추가한 이벤트는 키로 태그가 `mdatp` 지정됩니다.
 
 ### <a name="network-connections"></a>네트워크 연결
 

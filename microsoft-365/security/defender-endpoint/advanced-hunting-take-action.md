@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/20/2020
 ms.technology: mde
-ms.openlocfilehash: 79d720a8b996f826548b79834e5d5c2048e28c2b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d1dbe226cef5e94b36fcd6c35b839118b200f85e
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075452"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500530"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>고급 헌팅 쿼리 결과에 대한 작업 수행
 
@@ -80,9 +80,9 @@ ms.locfileid: "51075452"
  
 ## <a name="related-topics"></a>관련 항목
 
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)
-- [스키마의 이해](advanced-hunting-schema-reference.md)
-- [쿼리 결과 작업](advanced-hunting-query-results.md)
+- [스키마에 대한 이해](advanced-hunting-schema-reference.md)
+- [쿼리 결과로 작업](advanced-hunting-query-results.md)
 - [쿼리 모범 사례 적용](advanced-hunting-best-practices.md)
 - [사용자 지정 검색 개요](overview-custom-detections.md)

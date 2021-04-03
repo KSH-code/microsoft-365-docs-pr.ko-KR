@@ -9,24 +9,24 @@ ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: dda0e58e587add2693f8448dd0833ce17706786c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7ce652d58be2d9ff28d82c088d5471a7bffdf6dc
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075391"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570975"
 ---
 # <a name="test-how-microsoft-defender-for-endpoint-features-work-in-audit-mode"></a>감사 모드에서 끝점용 Microsoft Defender 기능이 어떻게 작동 하는지 테스트
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -50,7 +50,7 @@ ms.locfileid: "51075391"
 | 감사는 모든 이벤트에 적용됩니다. | [제어된 폴더 액세스 사용](enable-controlled-folders.md) | [제어된 폴더 액세스 이벤트](evaluate-controlled-folder-access.md#review-controlled-folder-access-events-in-windows-event-viewer)
 | 감사는 개별 규칙에 적용됩니다. | [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md) | [공격 표면 감소 규칙 이벤트](evaluate-attack-surface-reduction.md#review-attack-surface-reduction-events-in-windows-event-viewer)
 | 감사는 모든 이벤트에 적용됩니다. | [네트워크 보호 사용](enable-network-protection.md) | [네트워크 보호 이벤트](evaluate-network-protection.md#review-network-protection-events-in-windows-event-viewer)
-| 감사는 개별 완화에 적용됩니다. | [Exploit Protection 사용](enable-exploit-protection.md) | [Exploit Protection 이벤트](exploit-protection.md#review-exploit-protection-events-in-windows-event-viewer)
+| 감사는 개별 완화에 적용됩니다. | [악용 방지 사용](enable-exploit-protection.md) | [Exploit Protection 이벤트](exploit-protection.md#review-exploit-protection-events-in-windows-event-viewer)
 
 ## <a name="related-topics"></a>관련 항목
 
