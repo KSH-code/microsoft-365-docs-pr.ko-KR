@@ -2,8 +2,8 @@
 title: Windows 10 PC에서 앱 보호 설정 유효성 검사
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: 비즈니스용 Microsoft 365 앱 보호 설정이 사용자의 Windows 10 디바이스에 적용된 것을 확인하는 방법을 확인합니다.
-ms.openlocfilehash: ff99b3a4fce49aebdb5c72f51e46678a7821e186
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: fcb463fd98f692f7d4802689e0c03fe4e3e648a1
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912417"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579845"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Windows 10 PC에서 장치 보호 설정 유효성 검사
 
@@ -59,7 +59,7 @@ ms.locfileid: "50912417"
     
     ![바이러스 및 위협 방지 설정은 회색으로 표시됩니다.](../media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [비즈니스용 Microsoft 365 설명서 및 리소스](./index.yml)
   

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 보다 안전한 사용자 인증 및 권한 부여를 Exchange Server HMA(하이브리드 최신 인증)를 사용하도록 하이브리드 하이브리드 인증을 구성하는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 46646f35d3b41821424269f66721fbf829d339f7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9393b457c219fb03ae2e8a35c3f795c324919f27
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928205"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579725"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>하이브리드 최신 인증을 사용하도록 Exchange Server 온-프레미스를 구성하는 방법
 
@@ -50,7 +50,7 @@ HMA를 켜는 것은 다음을 의미합니다.
 
 1. 비즈니스용  Skype와 Exchange 모두에 공통적인 선행 조인이 많기 때문에 하이브리드 최신 인증 개요 및 이 선행 준비는 비즈니스용 Skype 및 [Exchange](hybrid-modern-auth-overview.md)서버 에서 사용할 수 있습니다. 이 문서의 단계를 시작하기 전에 이 작업을 수행합니다.
 
-1. Azure AD에서 **SPNS(서비스 사용자 이름)로** 사내 웹 서비스 URL 추가
+1. Azure AD에서 **SPNS(서비스 사용자 이름)로** 사내 웹 서비스 URL 추가 EXCH가 여러 테넌트와 하이브리드에 있는 경우 이러한 사내 웹 서비스 URL을 EXCH와 하이브리드에 있는 모든 테넌트의 Azure AD에 SPNS로 추가해야 합니다. 
 
 1. 모든 가상 Director가 HMA에 대해 사용하도록 설정되어 있는지 확인합니다.
 
@@ -58,7 +58,9 @@ HMA를 켜는 것은 다음을 의미합니다.
 
 1. EXCH에서 HMA를 사용하도록 설정
 
- **참고** Office 버전이 MA를 지원하나요? [Office 2013 및 Office 2016](modern-auth-for-office-2013-and-2016.md)클라이언트 앱에 대해 최신 인증이 작동하는 방법을 참조하세요.
+> [!NOTE]
+> Office 버전이 MA를 지원하나요? [Office 2013 및 Office 2016](modern-auth-for-office-2013-and-2016.md)클라이언트 앱에 대해 최신 인증이 작동하는 방법을 참조하세요.
+
 
 ## <a name="make-sure-you-meet-all-the-prerequisites"></a>모든 선행 요구 사항을 충족하는지 확인
 
@@ -79,11 +81,12 @@ Get-AutodiscoverVirtualDirectory | FL server,*url*
 Get-OutlookAnywhere | FL server,*url*
 ```
 
-연결할 수 있는 URL 클라이언트가 AAD에 HTTPS 서비스 사용자 이름으로 나열되어 있는지 확인
+연결할 수 있는 URL 클라이언트가 AAD에 HTTPS 서비스 사용자 이름으로 나열되어 있는지 확인 EXCH가 여러 테넌트와 하이브리드에 있는 경우 이러한 HTTPS SPNS는 EXCH와 하이브리드에 있는 모든 테넌트의 AAD에 추가되어야 합니다. 
 
 1. 먼저 다음 지침을 사용하여 [AAD에 연결합니다.](connect-to-microsoft-365-powershell.md)
 
-   **참고** 아래 명령을 사용하려면 이 페이지의 _Connect-MsolService_ 옵션을 사용해야 합니다.
+    > [!NOTE]
+    > 아래 명령을 사용하려면 이 페이지의 _Connect-MsolService_ 옵션을 사용해야 합니다.
 
 2. Exchange 관련 URL의 경우 다음 명령을 입력합니다.
 
@@ -140,6 +143,9 @@ Get-AuthServer | where {$_.Name -eq "EvoSts"}
 
 출력에 이름 EvoSts의 AuthServer가 표시되어 '사용' 상태가 True가 됩니다. 이 설정이 없는 경우 최신 버전의 하이브리드 구성 마법사를 다운로드하여 실행해야 합니다.
 
+> [!NOTE]
+> EXCH가 여러 테넌트와 함께 하이브리드에 있는 경우 출력에 EXCH와 하이브리드의 각 테넌트에 대한 Name EvoSts - {GUID}의 AuthServer가 하나 표시되어야 합니다. 이러한 모든 AuthServer 개체에 대해 'Enabled' 상태가 True가 됩니다. 
+
  **중요** 환경에서 Exchange 2010을 실행하는 경우 EvoSTS 인증 공급자가 만들어지지 않습니다.
 
 ## <a name="enable-hma"></a>HMA 사용
@@ -151,23 +157,35 @@ Set-AuthServer -Identity EvoSTS -IsDefaultAuthorizationEndpoint $true
 Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 ```
 
+EXCH 버전이 Exchange 2016(CU18 이상) 또는 Exchange 2019(CU7 이상)이고 하이브리드가 2020년 9월 이후에 다운로드된 HCW를 사용하여 구성된 경우 Exchange 관리 셸의 On-premises에서 다음 명령을 실행합니다.
+
+```powershell
+Set-AuthServer -Identity "EvoSTS - {GUID}" -Domain "Tenant Domain" -IsDefaultAuthorizationEndpoint $true
+Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
+```
+
+> [!NOTE]
+> EXCH가 여러 테넌트와 하이브리드에 있는 경우 각 테넌트에 해당하는 도메인을 사용하여 EXCH에 여러 AuthServer 개체가 있습니다.   이러한 AuthServer 개체 중 하나에 대해 **IsDefaultAuthorizationEndpoint** 플래그를 **true(IsDefaultAuthorizationEndpoint** cmdlet 사용)로 설정해야 합니다. 모든 Authserver 개체에 대해 이 플래그를 true로 설정할 수 없습니다. 이러한 AuthServer 개체의 **IsDefaultAuthorizationEndpoint** 플래그 중 하나를 true로 설정한 경우에도 HMA가 사용하도록 설정됩니다.
+
 ## <a name="verify"></a>확인
 
 HMA를 사용하도록 설정하면 클라이언트의 다음 로그인에서 새 인증 흐름을 사용하게 됩니다. HMA를 켜면 클라이언트에 대한 재인식이 트리거되지 않습니다. 클라이언트는 인증 토큰 및/또는 보유한 인증의 수명을 기반으로 다시 인증합니다.
 
 또한 Outlook 클라이언트(Windows 알림 트레이에서도)의 아이콘을 마우스 오른쪽 단추로 클릭하고 '연결 상태'를 클릭하는 동시에 Ctrl 키를 눌러야 합니다. OAuth에 사용되는 bearer 토큰을 나타내는 'Bearer'의 'Authn' 유형에 대해 클라이언트의 SMTP 주소를 \* 찾아야 합니다.
 
- **참고** HMA를 통해 비즈니스용 Skype를 구성해야 하나요? 지원되는 토폴로지 목록과 [](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)구성 방법을 보여 주는 문서 2개가 [필요합니다.](configure-skype-for-business-for-hybrid-modern-authentication.md)
+> [!NOTE]
+> HMA를 통해 비즈니스용 Skype를 구성해야 하나요? 지원되는 토폴로지 목록과 [](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)구성 방법을 보여 주는 문서 2개가 [필요합니다.](configure-skype-for-business-for-hybrid-modern-authentication.md)
+
 
 ## <a name="using-hybrid-modern-authentication-with-outlook-for-ios-and-android"></a>Android 및 iOS용 Outlook에서 하이브리드 최신 인증 사용
 
-TCP 443에서 Exchange 서버를 사용하는 사내 고객인 경우 다음 IP 범위에 대한 트래픽 처리를 무시합니다.
+TCP 443에서 Exchange 서버를 사용하는 사내 고객인 경우 다음 IP 주소 범위에 대한 트래픽 처리를 무시합니다.
 
-```text
+```
 52.125.128.0/20
 52.127.96.0/23
 ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365 전용/ITAR에서 vNext로의 전환을 위한 최신 인증 구성 요구 사항](/exchange/troubleshoot/modern-authentication/modern-authentication-configuration)

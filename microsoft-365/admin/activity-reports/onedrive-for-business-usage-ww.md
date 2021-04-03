@@ -2,8 +2,8 @@
 title: 관리 센터의 Microsoft 365 보고서 - 비즈니스용 OneDrive 사용 현황
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: '비즈니스용 OneDrive 사용 현황 보고서를 통해 조직 전체에서 사용되는 총 파일 및 저장소 수를 알 수 있습니다. '
-ms.openlocfilehash: 3855c7d06d202ee4d0590fcf5b8ca758d8120133
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 54a3b1e041ee6155b5ce89d6cd5bc73233d1f69b
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649809"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579545"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-usage"></a>관리 센터의 Microsoft 365 보고서 - 비즈니스용 OneDrive 사용 현황
 
@@ -35,18 +35,18 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 예를 들어 대시보드의 OneDrive 카드에서는 비즈니스용 OneDrive에서 가져오는 값(예: 총 파일 수 및 조직 전체를 통해 사용되는 저장소)을 대략적으로 볼 수 있습니다. 그런 다음 하위 수준을 표시하여 활성 OneDrive 계정의 추세, 사용자가 상호 작용 중인 파일 수 외에도 사용되는 저장소를 파악할 수 있습니다. 사용자의 OneDrive에 대한 세부 정보도 제공합니다.
   
 > [!NOTE]
-> Microsoft 365의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 또는 Exchange, SharePoint, Teams 서비스, Teams 커뮤니케이션 또는 비즈니스용 Skype 관리자인 경우 보고서를 볼 수 있어야 합니다.  
+> Microsoft 365의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 또는 Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자인 경우 보고서를 볼 수 있어야 합니다.  
  
 ## <a name="how-do-i-get-to-the-onedrive-activity-report"></a>OneDrive 활동 보고서에 액세스하려면 어떻게 하나요?
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요. 
-2. 대시보드 홈페이지에서 OneDrive  카드에서 더 보기 단추를 클릭합니다.
+2. 대시보드 홈 페이지 OneDrive  카드에서 더 보기 단추를 클릭합니다.
   
 ## <a name="interpret-the-onedrive-usage-report"></a>OneDrive 사용 현황 보고서 해석
 
 사용 탭을 선택하여 OneDrive 보고서에서 사용 현황을 볼 **수** 있습니다.<br/>![Microsoft 365 보고서 - Microsoft OneDrive 사용 현황 보고서.](../../media/3cdaf2fb-1817-479b-a0e1-2afa228690cf.png)
 
-열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![OneDrive 사용 보고서 - 열 선택](../../media/9ee80f25-cfe3-411d-8e31-08f1507d18c1.png)
+열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![OneDrive 사용 현황 보고서 - 열 선택](../../media/9ee80f25-cfe3-411d-8e31-08f1507d18c1.png)
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 파일로 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
   

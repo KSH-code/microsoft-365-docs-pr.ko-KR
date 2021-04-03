@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7887f26cb8ca7e0e769249a10f008308149aaa42
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: c076a64b1e35978f09999b288b6849580df24972
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186692"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579701"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-ios"></a>iOS용 끝점용 Microsoft Defender 배포
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -58,7 +58,7 @@ Intune 회사 포털을 통해 iOS용 끝점용 Defender를 배포합니다.
     > [!div class="mx-imgBorder"]
     > ![Microsoft Endpoint Manager 관리 센터의 이미지1](images/ios-deploy-1.png)
 
-1. 앱 추가 페이지에서 앱  스토어 검색을 클릭하고 검색 표시줄에 **Microsoft Defender ATP를** 입력합니다. 검색 결과 섹션에서 *Microsoft Defender ATP를 클릭하고* 선택을 **클릭합니다.**
+1. 앱 추가 페이지에서 앱  스토어 검색을 클릭하고 검색 표시줄에 **Microsoft Defender 끝점을** 입력합니다. 검색 결과 섹션에서 *Microsoft Defender 끝점을 클릭하고* 선택을 **클릭합니다.**
 
 1. **최소 운영 체제로 iOS 11.0을** 선택합니다. 앱에 대한 나머지 정보를 검토하고 다음을 **클릭합니다.**
 

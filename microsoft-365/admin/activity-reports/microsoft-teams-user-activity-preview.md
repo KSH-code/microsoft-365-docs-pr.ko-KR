@@ -1,7 +1,7 @@
 ---
 title: 관리 센터의 Microsoft 365 보고서 - Microsoft Teams 사용자 활동
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft Teams 사용자 활동 보고서를 얻고 조직의 Teams 활동에 대한 인사이트를 얻는 방법을 학습합니다.
-ms.openlocfilehash: 41403bcda1d1485798ac5eefe8f3386a314aea1b
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: a4f8cd995d1559da3846fbb38cc5a9441358da72
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406185"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579617"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>관리 센터의 Microsoft 365 보고서 - Microsoft Teams 사용자 활동
 

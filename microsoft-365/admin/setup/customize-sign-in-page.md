@@ -2,8 +2,8 @@
 title: 로그인 페이지에 회사 브랜드 추가
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
 description: Azure Active Directory를 사용하여 Microsoft 365 로그인 페이지를 사용자 지정합니다. 로그인 페이지에 그림, 로고 및 텍스트를 추가할 수 있습니다.
-ms.openlocfilehash: 1bd9a60c9c3bbe839652785deb2eb52d5b385673
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9947d57e4bf35ef0a3409db58f2c663959c2dd49
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914165"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579125"
 ---
 # <a name="add-your-company-branding-to-the-sign-in-page"></a>로그인 페이지에 회사 브랜드 추가
 

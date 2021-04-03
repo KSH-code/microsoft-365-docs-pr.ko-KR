@@ -21,21 +21,14 @@ ms.custom:
 search.appverid:
 - MET150
 description: 비즈니스 구독에 대한 청구되는 기간을 변경하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: ae3e3b4d0231fc5992215d243e141fb643d13626
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a7d2f60e25611025e5b06d4e78555d59c486626d
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911893"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579797"
 ---
 # <a name="change-your-billing-frequency"></a>청구 주기 변경
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 구독을 구입할 때 월별 또는 연간 청구를 선택합니다. 구독에 대한 청구되는 기간을 변경하려면 다음 단계를 수행합니다.
 

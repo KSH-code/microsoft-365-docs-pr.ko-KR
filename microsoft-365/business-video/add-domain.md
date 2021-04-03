@@ -2,8 +2,8 @@
 title: 도메인 추가
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: pebaum
+author: pebaum
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 구독에 다른 도메인을 추가하는 방법을 배워야 합니다.
-ms.openlocfilehash: fef3dc06f270b79cc7f9e729b39727c9116b923d
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 8899cb9667ffa080746ca9173b61897f9c5db399
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423086"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579004"
 ---
 # <a name="add-another-domain"></a>다른 도메인 추가
 

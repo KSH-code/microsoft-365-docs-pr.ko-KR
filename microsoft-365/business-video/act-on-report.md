@@ -2,8 +2,8 @@
 title: 사용 현황 보고서 검토
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용 현황 보고서의 정보를 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: 579d47515f57dfc3211a6e76a6d791999f6b5efc
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 1c499b62f14aeec392d15939c8e6d70c9bad7ced
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423192"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579016"
 ---
 # <a name="review-usage-reports-in-microsoft-365"></a>Microsoft 365의 사용 현황 보고서 검토
 

@@ -1,9 +1,9 @@
 ---
-title: 관리 센터의 Microsoft 365 보고서 - Yammer 보고서
+title: 관리 센터의 Microsoft 365 보고서 - Yammer 활동 보고서
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,27 +19,27 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c7c9f938-5b8e-4d52-b1a2-c7c32cb2312a
-description: Yammer 활동 보고서를 보고 메시지를 게시하거나 읽거나 읽거나 게시하는 데 Yammer 사용자 수에 대해 자세히 알아 세요.
-ms.openlocfilehash: 2bf02c0599f999b0eebb52d119096567bb09508b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Yammer 활동 보고서를 보고 메시지를 게시하거나 Yammer 읽기를 사용하는 사용자 수에 대해 자세히 알아 두세요.
+ms.openlocfilehash: 5ebf180189b2785070c269ef15b6a6c6c9f7f61a
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387468"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579485"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---yammer-activity-report"></a>관리 센터의 Microsoft 365 보고서 - Yammer 보고서
+# <a name="microsoft-365-reports-in-the-admin-center---yammer-activity-report"></a>관리 센터의 Microsoft 365 보고서 - Yammer 활동 보고서
 
-Microsoft 365 관리자는 **보고서** 대시보드에 조직 내의 제품 사용 현황에 대한 데이터가 표시됩니다. 관리 [센터에서 활동 보고서를 체크 아웃합니다.](activity-reports.md) **Yammer 활동 보고서** 를 사용하면 메시지를 게시하거나 좋아요를 클릭하거나 읽는 데 Yammer를 사용하는 고유한 사용자 수와 조직 전체에서 생성된 활동의 크기를 확인하여 조직의 Yammer 사용 수준을 이해할 수 있습니다. 
+Microsoft 365 관리자는  보고서 대시보드에 조직 내의 제품 사용 현황에 대한 데이터가 표시됩니다. 관리 [센터에서 활동 보고서를 체크 아웃합니다.](activity-reports.md) **Yammer 활동 보고서** 를 사용하면 메시지를 게시하거나 좋아요를 클릭하거나 읽는 데 Yammer를 사용하는 고유한 사용자 수와 조직 전체에서 생성된 활동의 크기를 확인하여 조직의 Yammer 사용 수준을 이해할 수 있습니다. 
   
 > [!NOTE]
-> Microsoft 365의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 또는 Exchange, SharePoint, Teams 서비스, Teams 커뮤니케이션 또는 비즈니스용 Skype 관리자인 경우 보고서를 볼 수 있어야 합니다. 
+> Microsoft 365의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 또는 Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자인 경우 보고서를 볼 수 있어야 합니다. 
  
 ## <a name="how-to-get-to-the-yammer-activity-report"></a>Yammer 활동 보고서에 액세스하는 방법
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요.
 
     
-2. 보고서 **선택** 드롭다운에서 활동 **Yammer** \> **선택합니다.**
+2. 보고서 **선택 드롭다운에서** 활동 **Yammer** \> **선택합니다.**
   
 ## <a name="interpret-the-yammer-activity-report"></a>Yammer 활동 보고서 해석
 
@@ -55,19 +55,19 @@ Microsoft 365 관리자는 **보고서** 대시보드에 조직 내의 제품 �
     
 - **활동** 차트를 통해 조직에서 수행되는 Yammer 활동이 어느 정도인지 추세를 파악할 수 있습니다. 게시하거나 읽거나 좋아요를 클릭한 메시지를 구분하여 파악할 수 있습니다. 
     
-    ![Yammer 보고서의 활동 보기](../../media/76983516-2c5f-43a1-a5e3-c414e9f17638.JPG)
+    ![Yammer 활동 보기](../../media/76983516-2c5f-43a1-a5e3-c414e9f17638.JPG)
   
   - **활동** 차트에서 Y축은 메시지를 게시하거나 읽거나 좋아요를 클릭한 활동의 수입니다. 
     
 - **사용자** 차트를 통해 Yammer 활동을 생성 중인 고유한 사용자 수의 추세를 파악할 수 있습니다. 사용자가 게시하거나 읽거나 좋아요를 클릭한 Yammer 메시지의 추세를 볼 수 있습니다. 
     
-    ![사용자가 Yammer 보고서에서 볼 수 있습니다.](../../media/b1098162-7b79-430f-bfe4-9d3957d56885.JPG)
+    ![사용자가 Yammer 활동 보고서에서 볼 수 있습니다.](../../media/b1098162-7b79-430f-bfe4-9d3957d56885.JPG)
   
   - **사용자** 활동 차트에서 Y축은 사용자가 게시하거나 읽거나 좋아요를 클릭한 Yammer 메시지입니다. 
     
   - 두 차트의 X축은 모두 이 특정 보고서에 대해 선택된 날짜 범위입니다.
     
-- 범례에서 항목을 선택하여 차트에 표시하는 계열을 필터링할 수 있습니다. 예를 들어 활동  차트에서 게시된  **정보,**  읽기 또는'를 선택하여 각각에 관련된 정보만 볼 수 있습니다. 
+- 범례에서 항목을 선택하여 차트에 있는 계열을 필터링할 수 있습니다. 예를 들어 활동  차트에서 게시된  **정보,**  읽기 또는 '좋아'를 선택하여 각각에 관련된 정보만 볼 수 있습니다. 
     
     ![게시, 읽기 및 좋아하는 옵션](../../media/8b832afc-415c-409b-816f-cb02b7a71e69.png)
   
@@ -77,13 +77,13 @@ Microsoft 365 관리자는 **보고서** 대시보드에 조직 내의 제품 �
     
     메뉴를 사용하여 데이터를 필터링하고 정렬할 수 있습니다.
     
-    ![보고서에 대한 Yammer 옵션](../../media/9d32240c-f1ff-400b-9c4e-a21b48651530.JPG)
+    ![보고서의 메뉴 Yammer 옵션](../../media/9d32240c-f1ff-400b-9c4e-a21b48651530.JPG)
   
     열도 추가하고 제거할 수 있습니다. 사용 가능한 열은 다음과 같습니다.
     
   - **사용자 이름** 은 사용자의 전자 메일 주소입니다. 실제 전자 메일 주소를 표시하거나 이 필드를 익명으로 만들 수 있습니다. 
     
-    이 표에는 Microsoft 365 계정을 Yammer 로그인한 사용자 또는 Single Sign-On을 사용하여 네트워크에 로그인한 사용자가 표시됩니다.
+    이 표에는 Microsoft 365 계정을 사용하여 Yammer 로그인한 사용자 또는 Single Sign-On을 사용하여 네트워크에 로그인한 사용자가 표시됩니다.
     
   - **표시 이름** 은 사용자의 전체 이름입니다. 실제 전자 메일 주소를 표시하거나 이 필드를 익명으로 만들 수 있습니다. 
     
@@ -113,6 +113,6 @@ Microsoft 365 관리자는 **보고서** 대시보드에 조직 내의 제품 �
     
 - **외부 네트워크 데이터가 없음** 외부 네트워크 데이터는 이 보고서에 포함되지 않습니다. 
     
-- **정품 인증된 네트워크** 이러한 보고서는 Microsoft 365 구독에 Yammer 네트워크의 데이터를 보여 주며, 이 차트는 Microsoft 365를 사용하는지 또는 로그인하는 데 사용하는지와는 무관하게 Yammer 네트워크에 로그인한 모든 사용자의 사용 현황을 Yammer 집계합니다. 
+- **정품 인증된 네트워크** 이러한 보고서에는 Microsoft 365 구독에 Yammer 네트워크의 데이터가 표시되어 있습니다. 이 차트는 Microsoft 365를 사용하는지 또는 로그인하는 데 Yammer 여부와는 무관하게 Yammer 로그인한 모든 사용자의 사용 현황을 Yammer 집계합니다. 
     
 

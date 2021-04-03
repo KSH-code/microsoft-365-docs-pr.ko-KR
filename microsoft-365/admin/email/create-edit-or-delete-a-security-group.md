@@ -2,8 +2,8 @@
 title: Microsoft 365 관리 센터에서 보안 그룹 만들기, 편집 또는 삭제
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: 보안 그룹을 만들거나 편집하거나 삭제하는 방법을 학습합니다.
-ms.openlocfilehash: 4ea97683e47f7f0ef8f196db32df8e22f9b1a0b9
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 03e391727f9a61b1fc8e819e92d5a119017c38e0
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470980"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579341"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 보안 그룹 만들기, 편집 또는 삭제
 

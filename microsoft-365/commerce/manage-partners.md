@@ -15,21 +15,14 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Microsoft 인증 솔루션 공급자(파트너)와 협력하여 조직 또는 학교용 제품 및 서비스를 구매하고 관리하는 방법을 알아보십시오.
-ms.openlocfilehash: 3297b2322983eabb793116a450a618b3a62a5a9c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a0c70f229ff11132beccf118f4158ab2880a8aa6
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911401"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579737"
 ---
 # <a name="manage-partner-relationships"></a>파트너 관계 관리
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 Microsoft 인증 솔루션 공급자(파트너)와 협력하여 조직 또는 학교용 제품 및 서비스를 구매하고 관리할 수 있습니다. 설정과 관련된 몇 가지 단계가 있습니다.
 

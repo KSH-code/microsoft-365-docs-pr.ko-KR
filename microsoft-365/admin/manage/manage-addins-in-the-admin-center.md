@@ -2,8 +2,8 @@
 title: 관리 센터에서 추가 기능 관리
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 중앙 집중식 추가 기능을 사용하여 조직의 사용자 및 그룹에 추가 기능을 배포하는 방법을 학습합니다.
-ms.openlocfilehash: 836dfa7a0c1b6cf1550e5c139bc0ca36be8f5424
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 8503ed7ea2e088a8e17b52e619ee999aa05f497a
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470944"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579293"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 관리
 

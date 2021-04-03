@@ -2,8 +2,8 @@
 title: 구독 관리자 파트너 추가, 변경, 삭제
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Microsoft 365 구매 시 구독 고문 파트너를 레코드 파트너로 추가하거나, 파트너를 변경하거나, 구독에서 파트너를 삭제하는 방법을 학습합니다.
-ms.openlocfilehash: 9734ee5f23af24ec701b8ae1fbd448d6bedb63fb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 913b0e14e1bc08cfd4037775aa4b72b7280c704c
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914933"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579233"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>구독 관리자 파트너 추가, 변경, 삭제
 

@@ -19,21 +19,14 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: 750420b6fac8fff16130710ef96a9ceb6345a87a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: be89c2d355202dd8ca8698ac735cbb384bb8ef06
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911833"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579773"
 ---
 # <a name="how-to-pay-for-your-subscription-with-a-billing-profile"></a>청구 프로필을 사용하여 구독 비용을 결제하는 방법
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 구독을 구매할 때 청구 프로필을 사용하여 결제합니다. 청구 프로필은 특정 결제 방법에 연결되어 있으며 신용 카드 또는 직불 카드 또는 송장일 수 있지만 은행 계좌는 사용할 수 없습니다.
 

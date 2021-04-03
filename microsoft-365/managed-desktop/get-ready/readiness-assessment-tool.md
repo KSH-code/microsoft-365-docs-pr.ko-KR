@@ -9,12 +9,13 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0311450386f3b7c9f950276340901daacc06b2a8
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+audience: Admin
+ms.openlocfilehash: caf9274284548a179e088131930ae832c098b521
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453942"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579401"
 ---
 # <a name="readiness-assessment-tools"></a>준비 평가 도구
 
@@ -89,3 +90,15 @@ Microsoft Managed Desktop에 등록할 때 최대한 원활한 환경을 위해 
 ## <a name="after-enrollment"></a>등록 후
 
 Microsoft Managed Desktop에 등록을 완료한 후 돌아가서 특정 Intune 및 Azure AD 설정을 조정해야 합니다. 자세한 내용은 등록 후 [설정 조정을 참조하세요.](../get-started/conditional-access.md)
+
+## <a name="steps-to-get-ready"></a>준비 단계
+
+1. [Microsoft Managed Desktop의 선행 준비를 검토합니다.](prerequisites.md)
+2. 준비 [평가 도구 사용.](readiness-assessment-tool.md) (이 문서)
+3. [게스트 계정에 대한 필수 구성 요소](guest-accounts.md)
+4. [Microsoft Managed Desktop의 네트워크 구성](network.md)
+5. [Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](certs-wifi-lan.md)
+6. [Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](authentication.md)
+7. [Microsoft Managed Desktop의 앱](apps.md)
+8. [Microsoft Managed Desktop의 매핑된 드라이브 준비](mapped-drives.md)
+9. [Microsoft Managed Desktop의 인쇄 리소스 준비](printing.md)

@@ -2,8 +2,8 @@
 title: 관리 센터의 Microsoft 365 보고서 - SharePoint 활동
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,30 +21,30 @@ search.appverid:
 - MET150
 - MOE150
 description: SharePoint 활동 사용 현황 보고서를 통해 모든 SharePoint 사용자의 활동, 공유되는 파일 수 및 저장소 사용률을 알 수 있습니다.
-ms.openlocfilehash: 1d4b288fed9e15139c92bc7e43795393d03ba2fb
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 71cea1e4b5875c0c00dd6dc6cb564e01b84cfb77
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649830"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579521"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-activity"></a>관리 센터의 Microsoft 365 보고서 - SharePoint 활동
 
-Microsoft 365 관리자는 **보고서** 대시보드에 조직의 다양한 제품에 대한 활동 개요가 표시됩니다. 각 제품의 고유한 활동에 대한 자세한 정보를 확인할 수 있습니다. [Microsoft 365](activity-reports.md)관리 센터에서 활동 보고서를 체크 아웃합니다.
+Microsoft 365 관리자는 보고서  대시보드에 조직의 다양한 제품에 대한 활동 개요가 표시됩니다. 각 제품의 고유한 활동에 대한 자세한 정보를 확인할 수 있습니다. [Microsoft 365](activity-reports.md)관리 센터에서 활동 보고서를 확인 합니다.
   
 예를 들어 파일과의 상호 작용을 확인하여 SharePoint를 사용하도록 라이선스가 부여된 모든 사용자의 활동을 파악할 수 있습니다. 또한 공유된 파일 수를 확인하여 진행 중인 공동 작업의 수준을 파악하는 데도 도움이 됩니다.
   
 > [!NOTE]
-> Microsoft 365의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 또는 Exchange, SharePoint, Teams 서비스, Teams 커뮤니케이션 또는 비즈니스용 Skype 관리자인 경우 보고서를 볼 수 있어야 합니다. 
+> Microsoft 365의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 또는 Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자인 경우 보고서를 볼 수 있어야 합니다. 
  
 ## <a name="how-do-i-get-to-the-to-the-sharepoint-activity-report"></a>SharePoint 활동 보고서에 어떻게 액세스하나요?
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요. 
-2. 대시보드 홈페이지에서 SharePoint 카드의  더 보기 단추를 클릭합니다.
+2. 대시보드 홈페이지에서 SharePoint 카드의 더 **보기** 단추를 클릭합니다.
   
 ## <a name="interpret-the-sharepoint-activity-report"></a>SharePoint 활동 보고서 해석
 
-활동 탭을 선택하여 SharePoint 보고서에서 활동을 **볼 수** 있습니다.<br/>![Microsoft 365 보고서 - Microsoft SharePoint 활동 보고서.](../../media/5a0a96f-0e4f-4fb9-8baa-3262275b3d1f.png)
+활동 탭을 선택하여 SharePoint 보고서에서 활동을 볼 **수** 있습니다.<br/>![Microsoft 365 보고서 - Microsoft SharePoint 활동 보고서.](../../media/5a0a96f-0e4f-4fb9-8baa-3262275b3d1f.png)
 
 열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![SharePoint 활동 보고서 - 열 선택](../../media/3c396cd1-9701-4712-8eaa-eb7bba702aa8.png)
 
@@ -58,9 +58,9 @@ Microsoft 365 관리자는 **보고서** 대시보드에 조직의 다양한 제
 |보거나 편집한 파일  <br/> |사용자가 업로드, 다운로드, 수정 또는 본 파일 수입니다.   <br/> |
 |동기화된 파일  <br/> |사용자의 로컬 장치에서 SharePoint 사이트로 동기화된 파일 수입니다. <br/> |
 |내부적으로 공유되는 파일  <br/> | 조직 내의 사용자 또는 그룹 내의 사용자(외부 사용자를 포함할 수 있는 사용자)와 공유된 파일의 수입니다.  <br/> |
-|외부적으로 공유되는 파일  <br/> |조직 외부의 사용자와 공유된 파일 수입니다. <br/>|
+|외부에서 공유되는 파일  <br/> |조직 외부의 사용자와 공유된 파일 수입니다. <br/>|
 |방문한 페이지  <br/> |사용자가 고유한 페이지를 방문한 경우 <br/>|
-|삭제됨  <br/> | 이는 사용자의 라이선스가 제거되었다는 것입니다.  <br/>  **참고:** 삭제된 사용자의 활동은 선택한 기간 동안 사용이 허가된 경우 보고서에 계속 표시됩니다. 삭제된 열을 통해 사용자가 더 이상 활성이 아니지만 보고서의 데이터에 기여함을 알 수 있습니다.  <br/> |
+|삭제됨  <br/> | 이는 사용자의 라이선스가 제거되었다는 것입니다.  <br/>  **참고:** 선택한 기간 동안 사용이 허가된 경우 삭제된 사용자에 대한 활동은 보고서에 계속 표시됩니다. 삭제된 열을 통해 사용자가 더 이상 활성이 아니지만 보고서의 데이터에 기여함을 알 수 있습니다.  <br/> |
 |삭제된 날짜  <br/> |사용자의 라이선스가 제거된 날짜입니다. <br/>|
 |할당된 제품  <br/> |사용자에게 라이선스가 부여된 Microsoft 365 제품입니다.|
 |||

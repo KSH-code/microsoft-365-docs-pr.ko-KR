@@ -2,8 +2,8 @@
 title: 비즈니스용 Microsoft 365 계획을 보호하는 상위 10가지 방법
 f1.keywords:
 - CSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: '랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호합니다. '
-ms.openlocfilehash: e45130d101c6e730fd2d487f5f8898c7cd268ab8
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 77213ab7f63b87ba985e6e4ca43119acc2345e2d
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197854"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579149"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>비즈니스용 Microsoft 365 계획을 보호하는 상위 10가지 방법
 
@@ -45,8 +45,8 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 ||작업 |Microsoft 365 Business Standard|Microsoft 365 Business Premium|
 |---|---|---|---|
 |1|[다단계 인증 설정](secure-your-business-data.md#setup)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|2 |[사용자 교육](secure-your-business-data.md#train)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|3 |[전용 관리자 계정 사용](secure-your-business-data.md#admin)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|2|[사용자 교육](secure-your-business-data.md#train)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|3|[전용 관리자 계정 사용](secure-your-business-data.md#admin)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |4 |[메일의 맬웨어에 대한 보호 수준 높이기](secure-your-business-data.md#malware)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |5 |[랜섬웨어로부터 보호](secure-your-business-data.md#ransomware)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6 |[전자 메일에 대한 자동 전달 중지](secure-your-business-data.md#forwarding)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -207,7 +207,7 @@ Microsoft 365 환경에는 맬웨어에 대한 보호가 포함되어 있지만 
 ## <a name="7-use-office-message-encryption"></a>7: Office 메시지 암호화 사용
 <a name="encryption"> </a>
 
-Office 메시지 암호화는 Microsoft 365에 포함되어 있습니다. 이미 설정되어 있습니다. Office 메시지 암호화를 사용하여 조직은 조직 내부 및 외부 사용자 간에 암호화된 전자 메일 메시지를 보내고 받을 수 있습니다. Office 365 메시지 암호화는 Outlook.com, Yahoo!, Gmail 및 기타 전자 메일 서비스에서 작동합니다. 전자 메일 메시지 암호화를 사용하면 받는 사람만 메시지 콘텐츠를 볼 수 있습니다.
+Office 메시지 암호화는 Microsoft 365에 포함되어 있습니다. 이미 설정되어 있습니다. Office 메시지 암호화를 사용하여 조직은 조직 내부 및 외부 사용자 간에 암호화된 전자 메일 메시지를 보내고 받을 수 있습니다. Office 365 메시지 암호화는 Outlook.com, Yahoo!, Gmail 및 기타 전자 메일 서비스와 연동됩니다. 전자 메일 메시지 암호화를 사용하면 받는 사람만 메시지 콘텐츠를 볼 수 있습니다.
 
 Office 메시지 암호화는 메일을 보낼 때 다음과 같은 두 가지 보호 옵션을 제공합니다.
 

@@ -2,8 +2,8 @@
 title: 관리 센터의 Microsoft 365 보고서 - Yammer 사용 현황 보고서
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Yammer 장치 사용 현황 보고서를 통해 사용자가 어떤 장치를 사용하고 Yammer.
-ms.openlocfilehash: fae76e9ef769248217140c059004efc7ad330928
-ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.openlocfilehash: 01749c21dd0f8355556718ee9179244fb250c97a
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48779388"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579473"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-device-usage-report"></a>관리 센터의 Microsoft 365 보고서 - Yammer 사용 현황 보고서
 
@@ -35,7 +35,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 Yammer 장치 사용 현황 보고서는 사용자가 Yammer를 사용하는 장치에 대한 정보를 제공합니다. 장치 유형별로 일일 사용자 수 및 장치 유형별로 사용자 수를 볼 수 있습니다. 선택한 기간에 대해 이 두 정보를 모두 볼 수 있습니다. 사용자당 세부 정보도 볼 수 있습니다.
   
 > [!NOTE]
-> Microsoft 365의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 또는 Exchange, SharePoint, Teams 서비스, Teams 커뮤니케이션 또는 비즈니스용 Skype 관리자인 경우 보고서를 볼 수 있어야 합니다.  
+> Microsoft 365의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 또는 Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자인 경우 보고서를 볼 수 있어야 합니다.  
  
 ## <a name="how-do-i-get-to-the-yammer-device-usage-report"></a>Yammer 장치 사용 현황 보고서에 액세스하려면 어떻게 하나요?
 
@@ -44,24 +44,24 @@ Yammer 장치 사용 현황 보고서는 사용자가 Yammer를 사용하는 장
   
 ## <a name="interpret-the-yammer-device-usage-report"></a>장치 Yammer 보고서 해석
 
-장치 사용 탭을 선택하여 OneDrive 보고서에서 사용 현황을 **볼 수** 있습니다.<br/>![Microsoft 365 보고서 - Microsoft Yammer 사용 현황 보고서입니다.](../../media/e21af4c0-0ad2-4485-8ab1-2f82d7dfa90e.png)
+장치 사용 탭을 선택하여 OneDrive 보고서에서 사용 **현황을** 볼 수 있습니다.<br/>![Microsoft 365 보고서 - Microsoft Yammer 사용 현황 보고서입니다.](../../media/e21af4c0-0ad2-4485-8ab1-2f82d7dfa90e.png)
 
-열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Yammer 사용 보고서 - 열 선택](../../media/fc1fc8db-e197-4878-85c7-7ba0d67b9379.png)
+열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Yammer 사용 현황 보고서 - 열 선택](../../media/fc1fc8db-e197-4878-85c7-7ba0d67b9379.png)
 
 내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 파일로 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
   
 |항목|설명|
 |:-----|:-----|
 |**메트릭**|**정의**|
-|사용자 이름  <br/> |사용자의 전자 메일 주소입니다. 실제 전자 메일 주소를 표시하거나 이 필드를 익명으로 만들 수 있습니다. 이 표에는 Microsoft 365 계정을 Yammer 로그인한 사용자 또는 Single Sign-On을 사용하여 네트워크에 로그인한 사용자가 표시됩니다. <br/> |
+|사용자 이름  <br/> |사용자의 전자 메일 주소입니다. 실제 전자 메일 주소를 표시하거나 이 필드를 익명으로 만들 수 있습니다. 이 표에는 Microsoft 365 계정을 사용하여 Yammer 로그인한 사용자 또는 Single Sign-On을 사용하여 네트워크에 로그인한 사용자가 표시됩니다. <br/> |
 |표시 이름  <br/> |사용자의 전체 이름입니다. 실제 전자 메일 주소를 표시하거나 이 필드를 익명으로 만들 수 있습니다.  <br/> |
-|사용자 상태  <br/> |활성, 삭제된 값 또는 Suspended의 세 가지 값 중 하나입니다. 이러한 보고서에서는 활성, 일시 중지 및 삭제된 사용자의 데이터를 표시합니다. 보류 중인 사용자는 메시지를 게시하거나 읽거나 좋아요를 클릭할 수 없으므로 보류 중인 사용자는 반영하지 않습니다.   <br/> |
-|상태 변경 날짜(UTC)  <br/> |2016년 12월 1일에서 사용자의 상태가 변경된 Yammer.  <br/> |
-|마지막 활동 날짜(UTC)  <br/> |사용자가 활동 활동에 참여한 마지막 날짜(UTC)Yammer 합니다.  <br/> |
+|사용자 상태  <br/> |Active, Deleted 또는 Suspended 값 중 하나 이러한 보고서에서는 활성, 일시 중지 및 삭제된 사용자의 데이터를 표시합니다. 보류 중인 사용자는 메시지를 게시하거나 읽거나 좋아요를 클릭할 수 없으므로 보류 중인 사용자는 반영하지 않습니다.   <br/> |
+|상태 변경 날짜(UTC)  <br/> |2016년 8월 1일에서 사용자의 상태가 변경된 Yammer.  <br/> |
+|마지막 활동 날짜(UTC)  <br/> |사용자가 Yammer 활동에 참가한 마지막 날짜(UTC)  <br/> |
 |웹  <br/> |사용자가 웹에서 응용 Yammer 나타냅니다.  <br/> |
 |Windows Phone  <br/> | 사용자가 Windows 휴대폰에서 Yammer 사용하는지 나타냅니다.  <br/> |
 |Android 휴대폰  <br/> |사용자가 Android 휴대폰에서 Yammer 사용하는지 나타냅니다. <br/>|
-|iphone <br/> | 사용자가 iPhone에서 Yammer 사용하는지 나타냅니다.  <br/> |
+|iphone <br/> | 사용자가 iPhone에서 Yammer 경우를 나타냅니다.  <br/> |
 |ipad  <br/> |사용자가 iPad에서 Yammer 사용하는지 나타냅니다. <br/>|
-|기타  <br/> |사용자가 이전에 나열되지 않은 Yammer 디바이스에서 이 장치를 사용했는지 나타냅니다. <br/>|
+|기타  <br/> |사용자가 이전에 나열되지 않은 다른 Yammer 장치를 사용한 경우를 나타냅니다. <br/>|
 |||
