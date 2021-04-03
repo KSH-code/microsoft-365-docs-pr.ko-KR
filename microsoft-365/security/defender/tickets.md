@@ -7,8 +7,8 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -20,19 +20,19 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: b52b97bf33b2164a82906bec53bed361885facd5
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f9ac4632259d26045c70551ea7ea4a8a4a7e8e85
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076639"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569874"
 ---
-# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a><span data-ttu-id="73030-104">ServiceNow 티켓을 Microsoft 365 보안 센터 및 규정 준수 센터에 통합</span><span class="sxs-lookup"><span data-stu-id="73030-104">Integrate ServiceNow tickets into the Microsoft 365 security center and compliance center</span></span>
+# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a><span data-ttu-id="9aeba-104">ServiceNow 티켓을 Microsoft 365 보안 센터 및 규정 준수 센터에 통합</span><span class="sxs-lookup"><span data-stu-id="9aeba-104">Integrate ServiceNow tickets into the Microsoft 365 security center and compliance center</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 >[!CAUTION]
-><span data-ttu-id="73030-105">**ServiceNow 커넥터의 미리 보기 기간이 끝났습니다.**</span><span class="sxs-lookup"><span data-stu-id="73030-105">**The preview period for the ServiceNow connector has ended**</span></span><br>
-><span data-ttu-id="73030-106">이 기능은 더 이상 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="73030-106">This capability is no longer available.</span></span> <span data-ttu-id="73030-107">다음 단계를 결정하는 동안 피드백을 보내주시고 지원을 계속해 주셔서 감사합니다.</span><span class="sxs-lookup"><span data-stu-id="73030-107">Thank you for your feedback and continued support while we determine next steps.</span></span>
+><span data-ttu-id="9aeba-105">**ServiceNow 커넥터의 미리 보기 기간이 끝났습니다.**</span><span class="sxs-lookup"><span data-stu-id="9aeba-105">**The preview period for the ServiceNow connector has ended**</span></span><br>
+><span data-ttu-id="9aeba-106">이 기능은 더 이상 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9aeba-106">This capability is no longer available.</span></span> <span data-ttu-id="9aeba-107">다음 단계를 결정하는 동안 피드백을 보내주시고 지원을 계속해 주셔서 감사합니다.</span><span class="sxs-lookup"><span data-stu-id="9aeba-107">Thank you for your feedback and continued support while we determine next steps.</span></span>
 
-<span data-ttu-id="73030-108">ServiceNow는 기업이 엔터프라이즈 운영을 위한 디지털 워크플로를 관리하는 데 도움이 되는 인기 있는 클라우드 컴퓨팅 플랫폼입니다.</span><span class="sxs-lookup"><span data-stu-id="73030-108">ServiceNow is a popular cloud computing platform that helps companies manage digital workflows for enterprise operations.</span></span> <span data-ttu-id="73030-109">현재 플랫폼에는 IT 워크플로, 직원 워크플로 및 고객 워크플로가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="73030-109">Their Now platform has IT workflows, employee workflows, and customer workflows.</span></span>
+<span data-ttu-id="9aeba-108">ServiceNow는 기업이 엔터프라이즈 운영을 위한 디지털 워크플로를 관리하는 데 도움이 되는 인기 있는 클라우드 컴퓨팅 플랫폼입니다.</span><span class="sxs-lookup"><span data-stu-id="9aeba-108">ServiceNow is a popular cloud computing platform that helps companies manage digital workflows for enterprise operations.</span></span> <span data-ttu-id="9aeba-109">현재 플랫폼에는 IT 워크플로, 직원 워크플로 및 고객 워크플로가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9aeba-109">Their Now platform has IT workflows, employee workflows, and customer workflows.</span></span>
