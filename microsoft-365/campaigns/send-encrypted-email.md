@@ -2,8 +2,8 @@
 title: 암호화된 전자 메일 보내기
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 ms.date: 9/20/2018
 ms.audience: Admin
@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Outlook을 사용하여 암호화된 전자 메일을 보내는 방법을 배워야 합니다.
-ms.openlocfilehash: af34d632ead2ae1e6ed81845c56b95b95af1dc51
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 209734bd52d1d97278d5632f035723758fe2e016
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911985"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576976"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>중요한 전자 메일을 암호화하거나 레이블을 지정합니다.
 

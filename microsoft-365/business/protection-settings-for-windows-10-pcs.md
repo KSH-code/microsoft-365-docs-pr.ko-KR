@@ -2,8 +2,8 @@
 title: Windows 10 PC에 대한 장치 보호 설정 편집 또는 만들기
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Windows 10 장치를 보호하기 위해 비즈니스용 Microsoft 365에서 사용할 수 있는 설정에 대해 자세히 알아보습니다.
-ms.openlocfilehash: db310731ef996500de61535b5b9f99e240ec75ff
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: acfb27b2e4592d4ed1e446a63c9495ae07d916de
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912805"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578230"
 ---
 # <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>Windows 10 PC에 대한 장치 보호 설정 편집 또는 만들기
 

@@ -2,8 +2,8 @@
 title: 비즈니스 외부에서 파일을 쉽게 공유할 수 있습니다.
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 외부에서 비즈니스 파일을 쉽게 공유하는 방법을 배워야 합니다.
-ms.openlocfilehash: cde983fee8b4dbf2d03ff8b2fac77bdf20ee2eda
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 469e4b16277b048a539767f6fc9fd54d2ea2e6cf
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421862"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578630"
 ---
 # <a name="easily-share-files-externally"></a>외부에서 손쉽게 파일 공유
 

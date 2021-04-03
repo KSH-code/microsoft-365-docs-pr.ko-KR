@@ -14,26 +14,18 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Microsoft 365 관리 센터에서 타사 앱을 활성화하고 관리하는 방법을 학습합니다.
-ms.openlocfilehash: f560b23871fc6d6ecb319a5704453f2400cb9982
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 974ce99b55dcb078286d7f6dba35166e51ce62a7
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911413"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576916"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>조직의 타사 앱 구독 관리
 
 새 Microsoft 365 관리 센터에서 타사 앱에 대한 라이선스 및 청구를 관리할 수 있습니다. 업데이트된 기능에는 향상된 구독 관리, 청구 정보에 대한 액세스 향상, 청구 관리 유연성 향상이 포함됩니다. 구독 관리는 Microsoft의 업데이트된 상거래 플랫폼을 기반으로 합니다. 이는 고객이 직접 구매하는 소프트웨어 as-a-service 앱 또는 타사 공급자의 앱에 적용됩니다.
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
-
 미리 보기 모드가 켜져 있는 Microsoft 365 관리 센터에서 타사 앱에 대한 라이선스 및 청구를 관리할 수 있습니다. 업데이트된 기능에는 향상된 구독 관리, 청구 정보에 대한 액세스 향상, 청구 관리 유연성 향상이 포함됩니다. 구독 관리는 Microsoft의 업데이트된 상거래 플랫폼을 기반으로 합니다. 이는 고객이 직접 구매하는 소프트웨어 as-a-service 앱 또는 타사 공급자의 앱에 적용됩니다.
-
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>서비스로 소프트웨어 앱을 다운로드하는 방법
 
@@ -107,7 +99,7 @@ ms.locfileid: "50911413"
 
 ## <a name="manage-payment-methods"></a>결제 방법 관리
 
-As-a-Service 앱에는 각각 청구 프로필이 할당되어 있습니다. 청구 프로필을 사용하면 송장에 포함된 제품과 송장 결제 방법을 사용자 지정할 수 있습니다. 주요 관련자는 다음과 같습니다.
+As-a-Service 앱에는 각각 청구 프로필이 할당되어 있습니다. 청구 프로필을 사용하면 송장에 포함된 제품과 송장 결제 방법을 사용자 지정할 수 있습니다. 다음이 포함됩니다.
 
 - **결제 방법** - 신용 카드 또는 수표/송금
 - **연락처 정보** - 청구 주소 및 연락처 이름

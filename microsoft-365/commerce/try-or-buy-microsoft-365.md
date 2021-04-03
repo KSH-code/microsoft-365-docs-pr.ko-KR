@@ -19,21 +19,14 @@ search.appverid:
 - MET150
 description: 무료 평가판을 얻거나 비즈니스용 Microsoft 365 구독을 구입하는 방법을 배워야 합니다.
 ms.date: 08/07/2020
-ms.openlocfilehash: 05ac30ae25f4748751eee04c34d049b07d5b7511
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9daa7022007aa3c71dc7291f592d3b166a2c45a5
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198440"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576904"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>비즈니스용 Microsoft 365 구독 시도 또는 구입
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../admin/microsoft-365-admin-center-preview.md?view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 비즈니스용 Microsoft 365는 Microsoft가 IT를 대신하는 동안 클라우드에서 조직을 실행할 수 있는 구독 서비스입니다. Microsoft는 장치를 관리하고, 실제 위협으로부터 보호하며, 조직에 최신 비즈니스 소프트웨어를 제공합니다. Microsoft 365 Business Standard, Microsoft 365 Business Premium 또는 비즈니스용 Microsoft 365 앱의 무료 평가판 구독에 등록하고 30일 동안 사용해 볼 수 있습니다.
 
@@ -110,6 +103,21 @@ Microsoft 365 관리 센터를 통해 구독을 추가하면 새 구독이 기�
 
 > [!NOTE]
 > 평가판 구독이 만료된 후 90일 유예 기간이 종료되기 전에 사용자를 무료 평가판 구독에서 새 구독으로 이동해야 합니다. 이렇게 하면 데이터, 계정 및 구성이 유지됩니다. 그렇지 않으면 해당 정보가 삭제됩니다.
+
+::: moniker range="o365-21vianet"
+## <a name="payment-options"></a>결제 옵션
+
+구독 요금은 다음을 통해 결제할 수 있습니다.
+
+- 송장
+
+- Alipay 또는 China UnionPay를 사용한 온라인 결제
+
+지급 증명은 Fapiaos 형태로 제공됩니다. Fapiao 요청을 결제한 후 약 3일이 지난 후 [Fapiao](https://go.microsoft.com/fwlink/p/?LinkId=395314) 시스템에 제출할 수 있습니다. 자세한 내용은 [21Vianet에서 운영하는 Office 365용 Fapiao에 적용을 참조하세요.](../admin/services-in-china/apply-for-a-fapiao.md)
+
+> [!NOTE]
+>  국제 신용 카드는 사용할 수 없습니다.
+::: moniker-end
 
 ## <a name="next-steps"></a>다음 단계
 

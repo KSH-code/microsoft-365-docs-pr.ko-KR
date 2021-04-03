@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직에서 위험 평가를 간소화하고 자동화하는 데 도움이 되는 Microsoft 준수 관리자에 대한 질문과 대답을 찾아보는 것이 도움이 됩니다.
-ms.openlocfilehash: a6ce93a39e242d5edf4806ad974296c8c007561e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: efa9de8506c088ceae64de26d32efe8553d0b574
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922832"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570397"
 ---
 # <a name="compliance-manager-frequently-asked-questions"></a>준수 관리자에게 자주 묻는 질문
 
@@ -73,7 +73,7 @@ Service Trust Portal에서 준수 관리자를 사용한 경우 이제 조직의
 
 ## <a name="are-there-licensing-requirements-for-using-compliance-manager"></a>준수 관리자를 사용하기 위한 라이선스 요구 사항이 있나요?
 
-예. 준수 관리자의 GA 릴리스에는 새로운 라이선스 조건이 포함되어 있습니다. Office 365 및 Microsoft 365 라이선스가 있는 모든 조직과 GCC(미국 정부 커뮤니티) 보통 및 GCC High 고객이 있는 모든 조직은 준수 관리자에 액세스할 수 있습니다. 그러나 조직에서 사용할 수 있는 평가와 평가 템플릿을 관리하는 방법은 사용권 계약에 따라 달라 습니다. 자세한 내용은 보안 및 규정 준수에 대한 [Microsoft 365](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) 라이선싱 지침을 참조하세요.
+예. 준수 관리자의 GA 릴리스에는 새로운 라이선스 조건이 포함되어 있습니다. Office 365 및 Microsoft 365 라이선스가 있는 모든 조직 및 GCC(미국 정부 커뮤니티) 보통, GCC High 및 DoD(국방부) 고객은 준수 관리자에 액세스할 수 있습니다. 그러나 조직에서 사용할 수 있는 평가와 평가 템플릿을 관리하는 방법은 사용권 계약에 따라 달라 습니다. 자세한 내용은 보안 및 규정 준수에 대한 [Microsoft 365](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) 라이선싱 지침을 참조하세요.
 
 ## <a name="if-i-have-a-high-score-does-it-mean-im-fully-compliant"></a>최고 점수가 있는 경우 완벽하게 준수하고 있나요?
 

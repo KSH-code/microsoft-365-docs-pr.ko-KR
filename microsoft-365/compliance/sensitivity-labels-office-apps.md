@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 72b5422de2ee4b01e3209ec78ea0c10f1285d682
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: 5a82eba3801509ed2e8ffb46ab32045466204fab
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034197"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498822"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -119,7 +119,7 @@ Office 기본 제공 레이블 지정 클라이언트를 사용하려면 나열�
 
 ### <a name="office-built-in-labeling-client-and-the-azure-information-protection-client"></a>Office 기본 제공 레이블 지정 클라이언트 및 Azure Information Protection 클라이언트
 
-사용자가 Azure Information Protection 클라이언트([통합 레이블 지정 클라이언트](/azure/information-protection/rms-client/aip-clientv2) 또는 [클래식 클라이언트](/azure/information-protection/rms-client/aip-client)) 중 하나를 설치한 경우 기본적으로 Office 앱에서 기본 제공 레이블 지정 클라이언트는 해제됩니다. 
+사용자가 [Azure Information Protection 클라이언트를 설치](/azure/information-protection/rms-client/aip-clientv2)한 경우 기본적으로 Office 앱에서 기본 제공 레이블 지정 클라이언트가 해제됩니다. 
 
 Office 앱용 Azure Information Protection 클라이언트 대신 기본 제공 레이블 지정을 사용하려면 [Office 2013 및 Office 2016 프로그램의 그룹 정책 설정으로 인해 로드된 추가 기능 없음](https://support.microsoft.com/help/2733070/no-add-ins-loaded-due-to-group-policy-settings-for-office-2013-and-off)에 설명된 것처럼 **관리되는 추가 기능 목록** 그룹 정책 설정을 사용하는 것이 좋습니다.
 

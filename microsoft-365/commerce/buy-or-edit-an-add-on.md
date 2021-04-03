@@ -19,21 +19,14 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - Commerce
-ms.openlocfilehash: ea9cdb6edf3aaac1575b1d2b14790bd28876ee26
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b470fb727ed55ba066cd0371e2e707c72b50ae99
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911649"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576928"
 ---
 # <a name="buy-or-manage-add-ons"></a>추가 기능 구입 또는 관리
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 많은 비즈니스용 Microsoft 365 요금제에는 구독에 대해 구입할 수 있는 추가 기능도 있습니다. 추가 기능은 구독 환경을 개선하기 위한 추가 기능을 제공합니다.
 

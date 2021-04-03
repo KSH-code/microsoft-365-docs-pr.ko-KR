@@ -2,8 +2,8 @@
 title: 장치 상태
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
-description: 비즈니스용 Microsoft 365의 관리 홈의 장치 작업 목록에서 다양한 장치 상태 관련 정보를 제공합니다.
-ms.openlocfilehash: 64138e2b6ae73c067709cde1912a96615d08ebf1
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: 비즈니스용 Microsoft 365의 관리 홈의 장치 작업 목록에서 다양한 장치 상태 관련 정보를 확인합니다.
+ms.openlocfilehash: e6f1b428413d094e0a1ce3afb026528074038736
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44471182"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578470"
 ---
 # <a name="device-states"></a>장치 상태
 
@@ -52,7 +52,7 @@ ms.locfileid: "44471182"
 |초기화 진행 중  <br/> |초기화가 실행되었습니다.  <br/> |
 |초기화 실패  <br/> |초기화할 수 없습니다.  <br/> |
 |지우기 취소  <br/> |초기화가 취소되었습니다.  <br/> |
-|비정상  <br/> |작업이 보류 중(또는 진행 중)이지만 장치가 30일 이상 체크 인되지 않습니다.  <br/> |
+|비정상  <br/> |작업이 보류 중(또는 진행 중)이지만 장치가 30일 이상 체크 인되지 않은 경우  <br/> |
 |삭제 보류 중  <br/> |삭제 작업이 보류 중입니다.  <br/> |
 |검색됨  <br/> |Microsoft 365 Business Premium에서 장치를 검색했습니다.  <br/> |
    

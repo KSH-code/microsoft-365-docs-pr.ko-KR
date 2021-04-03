@@ -18,13 +18,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블 구현을 시작할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: a6b04bcce7d0fe505173a807fbc2d4105831419c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블을 배포할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
+ms.openlocfilehash: d685b050d32ea7bf482a39ad8d72abe3ee74567d
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051890"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499680"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -32,9 +32,7 @@ ms.locfileid: "51051890"
 
 민감도 레이블이 무엇인지와 조직의 데이터를 보호하는 데 도움이 되는 방법에 대한 자세한 내용은 [민감도 레이블에 대한 자세한 정보](sensitivity-labels.md)를 참조하세요.
 
-[Azure Information Protection](/azure/information-protection/what-is-information-protection)을 사용하는 경우 레이블을 통합 레이블 플랫폼으로 마이그레이션해야 하는지 여부와 사용할 클라이언트 레이블 클라이언트를 결정합니다.
-- [내 테넌트가 통합 레이블 플랫폼에 있는지 어떻게 확인할 수 있나요?](/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)
-- [Windows 레이블 지정 솔루션 선택](/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution)
+[Azure Information Protection](/azure/information-protection/what-is-information-protection)이 있고 Azure Portal에서 관리되는 Azure Information Protection 레이블을 계속 사용하는 경우 이러한 레이블을 [통합 레이블 지정 플랫폼](/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)으로 마이그레이션해야 합니다. Windows 컴퓨터의 경우 게시된 민감도 레이블에 [사용할 레이블 지정 클라이언트를 선택](/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers)할 수 있습니다.
 
 민감도 레이블을 사용하여 조직의 데이터를 보호하기 시작할 준비가 되면 다음을 수행합니다.
 
@@ -64,7 +62,7 @@ ms.locfileid: "51051890"
 
 기본 역할을 사용하는 대신 새 역할 그룹을 만들고 **민감도 레이블 관리자** 또는 **조직 구성** 역할을 이 그룹에 추가할 수 있습니다. 읽기 전용 역할의 경우 **민감도 레이블 리더** 를 사용하세요. 
 
-기본 역할에 사용자를 추가하거나 고유의 역할 그룹을 만드는 방법에 대한 지침은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+기본 역할에 사용자를 추가하거나 고유의 역할 그룹을 만드는 방법에 대한 지침은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
 
 이러한 사용 권한은 민감도 레이블과 해당 레이블 정책을 만들고 구성하는 데만 필요합니다. 앱이나 서비스에서 레이블을 적용하는 것은 필요하지 않습니다. 민감도 레이블과 관련된 특정 구성에 대해 추가 사용 권한이 필요한 경우 해당 사용 권한은 해당하는 문서 지침에 나열되어 있습니다.
 

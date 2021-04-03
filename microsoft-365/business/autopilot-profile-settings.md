@@ -2,8 +2,8 @@
 title: AutoPilot 프로필 설정 정보
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -30,12 +30,12 @@ search.appverid:
 - MOE150
 ms.assetid: 99bfbf81-e719-4630-9b0f-c187edfa1f8a
 description: AutoPilot 프로필을 사용하면 Windows가 사용자 장치에 설치되는 방법을 제어할 수 있습니다. 프로필에는 Cortana 설치 건너뛰기 같은 기본 및 선택적 설정이 포함되어 있습니다.
-ms.openlocfilehash: be10e0e1c8c96ce05aab8526d2010313662ed5f2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 86f8718131f0a0b93e18e65e39e02e7d65aded1a
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913381"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578510"
 ---
 # <a name="about-autopilot-profile-settings"></a>AutoPilot 프로필 설정 정보
 

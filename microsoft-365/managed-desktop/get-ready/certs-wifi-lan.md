@@ -1,6 +1,6 @@
 ---
 title: Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비
-description: certs/wifi/lan
+description: 인증서 요구 사항 및 Wi-Fi 연결
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -11,12 +11,13 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 9f4490711c1ea051afe9d8efb081a2f7a141f8ba
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: a59add6f6821824f189703b3dedd35fda313ec31
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909121"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574586"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비  
  
@@ -86,3 +87,14 @@ LAN 프로필을 내보낼 때 다음 단계를 수행하여 Microsoft Managed D
 4. 각 회사 VPN에 대한 프로필을 생성합니다(Intune을 사용하여 VPN 연결을 추가하려면 [Windows 10 및 Windows Holographic](/intune/vpn-settings-windows-10)장치 설정을 참조).
 5. Microsoft Managed Desktop Admin 포털을 사용하여 "인증서 배포" 또는 "Wi-Fi 프로필 배포"라는 지원 요청을 Microsoft Managed Desktop IT Operations에 제출하여 구성 프로필을 검토하고 "최신 작업 공간 장치 - 테스트"에 배포합니다. Microsoft Managed Desktop IT Operations를 사용하면 관리 포털의 지원 요청을 통해 요청이 완료된 경우를 알 수 있습니다. 
  
+## <a name="steps-to-get-ready"></a>준비 단계
+
+1. Microsoft Managed Desktop의 선행 [준비를 검토합니다.](prerequisites.md)
+2. 준비 [평가 도구를 사용합니다.](readiness-assessment-tool.md)
+3. [게스트 계정에 대한 필수 구성 요소](guest-accounts.md)
+4. [Microsoft Managed Desktop의 네트워크 구성](network.md)
+5. [Microsoft Managed Desktop용](certs-wifi-lan.md) 인증서 및 네트워크 프로필 준비(이 문서)
+6. [Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](authentication.md)
+7. [Microsoft Managed Desktop의 앱](apps.md)
+8. [Microsoft Managed Desktop의 매핑된 드라이브 준비](mapped-drives.md)
+9. [Microsoft Managed Desktop의 인쇄 리소스 준비](printing.md) 

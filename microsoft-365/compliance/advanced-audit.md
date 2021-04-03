@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: 0a77a5c54ce328a3966a952fc8fef08553f42462
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 88308d173df79f55f38aba4b70d4b561667941bf
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923488"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574657"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
@@ -153,7 +153,7 @@ SearchQueryInitiatedSharePoint 감사 레코드를 검색하려면 준수 센터
 또한 Exchange Online PowerShell에서 [Search-UnifiedAuditLog -Operations SearchQueryInitiatedExchange](/powershell/module/exchange/search-unifiedauditlog)를 실행할 수도 있습니다.
 
 > [!NOTE]
-> Exchange Online PowerShell에서 다음 명령을 실행하여 SearchQueryInitiatedExchange 이벤트(지정된 E5 사용자가 수행한)가 감사 로그 검색 결과에 포함되도록 합니다.`Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`<br/><br/>
+> Exchange Online PowerShell에서 다음 명령을 실행하여 SearchQueryInitiatedSharePoint 이벤트(지정된 E5 사용자가 수행한)가 감사 로그 검색 결과에 포함되도록 합니다.`Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`<br/><br/>
 다중 지역 환경에서는 사용자의 사서함이 위치한 곳의 포리스트에서 **사서함 설정** 명령을 실행해야 합니다. 사용자의 사서함 위치를 식별하기 위해 다음 명령을 실행합니다. `Get-Mailbox <user identity> | FL MailboxLocations`.
 이전에 사용자의 사서함이 위치한 곳의 포리스트와 다른 포리스트에서 `Set-Mailbox -AuditOwner @{Add="SearchQueryInitiated"}` 명령이 실행된 경우 사용자의 사서함에서 SearchQueryInititated 값을 제거( `Set-Mailbox -AuditOwner @{Remove="SearchQueryInitiated"}`를 실행)한 다음 사용자의 사서함이 위치한 곳의 포리스트의 사용자 사서함에 추가해야 합니다.
 

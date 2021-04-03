@@ -20,21 +20,14 @@ ms.custom:
 search.appverid:
 - MET150
 description: 청구 프로필에서 송장을 지원하는 방법을 알아보세요.
-ms.openlocfilehash: 2f56b9a3edbbbe14927df64bed8b699a68826c9e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7f4c0aed1bccd0e5df5b09e15e6201933e937993
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911869"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576952"
 ---
 # <a name="understand-billing-profiles"></a>청구 프로필 이해하기
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 Microsoft에서 제품 및 서비스를 구입하는 상용 고객의 경우 청구 프로필을 통해 송장에 포함된 항목과 송장 결제 방법을 사용자 지정할 수 있습니다.
 

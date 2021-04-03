@@ -1,5 +1,5 @@
 ---
-title: Microsoft 준수 관리자
+title: Microsoft 규정 준수 관리자
 f1.keywords:
 - NOCSH
 ms.author: chvukosw
@@ -17,20 +17,20 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 조직에서 위험 평가를 간소화하고 자동화하는 데 도움을 주며 위험을 해결하기 위한 권장 조치를 제안합니다.
-ms.openlocfilehash: 80d955f3d321ef8f82fe3654e4d7d08572ec72cc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f938bb6b82ee7e24dd58b66597f0af7a3a00a9a2
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922732"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570455"
 ---
-# <a name="microsoft-compliance-manager"></a>Microsoft 준수 관리자
+# <a name="microsoft-compliance-manager"></a>Microsoft 규정 준수 관리자
 
 **이 문서의 예는** 준수 관리자가 무엇일지, 규정 준수를 간소화하고 위험을 줄이는 방법 및 주요 구성 요소에 대해 자세히 알아보습니다.
 
 ## <a name="whats-new-the-ga-release-of-compliance-manager"></a>새로운 사항: 준수 관리자의 GA 릴리스
 
-규정 준수 관리자는 이제 [Microsoft 365](microsoft-365-compliance-center.md)규정 준수 센터 내에서 종합적인 준수 관리 솔루션으로 GA(규정 준수 관리자)를 사용할 수 있습니다. 이 릴리스를 통해 준수 관리자는 Microsoft Service Trust Portal에서 이전 위치의 전환을 완료합니다. 준수 관리자는 이제 미국 GCC(정부 커뮤니티) 보통 및 GCC High 고객에게도 제공됩니다.
+규정 준수 관리자는 이제 [Microsoft 365](microsoft-365-compliance-center.md)규정 준수 센터 내에서 종합적인 준수 관리 솔루션으로 GA(규정 준수 관리자)를 사용할 수 있습니다. 이 릴리스를 통해 준수 관리자는 Microsoft Service Trust Portal에서 이전 위치의 전환을 완료합니다. 준수 관리자는 GCC(미국 정부 커뮤니티) Moderate, GCC High 및 DoD(국방부) 고객에게도 제공됩니다.
 
 준수 점수의 공개 미리 보기로 시작된 기능은 향상된 준수 관리 기능과 더 쉽게 사용할 수 있는 중앙 집중식 도구로 발전했습니다.  GA 릴리스는 규정 준수 활동을 확장하는 데 도움이 하도록 미리 구축된 평가의 더 큰 컬렉션을 제공합니다.
 
@@ -67,7 +67,7 @@ ms.locfileid: "50922732"
 
 준수 관리자는 Microsoft 365 데이터 보호 기준에 따라 초기 점수를 제공합니다. 이 기준은 데이터 보호 및 일반 데이터 거버넌스에 대한 주요 규정 및 표준을 포함하는 제어 집합입니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [준수 점수의 계산 방법을 이해합니다.](compliance-score-calculation.md)
 
@@ -87,7 +87,7 @@ ms.locfileid: "50922732"
 2. **컨트롤**: 고객 관리 컨트롤이라고도 하는 이러한 컨트롤은 조직에서 구현 및 관리되는 컨트롤입니다.
 3. **공유 컨트롤**: 조직과 Microsoft가 구현에 대한 책임을 공유하는 컨트롤입니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [컨트롤의 진행률을 모니터링합니다.](compliance-manager-assessments.md#monitor-assessment-progress-and-controls)
 
@@ -97,9 +97,9 @@ ms.locfileid: "50922732"
 
 평가는 특정 규정, 표준 또는 정책의 컨트롤 그룹화입니다. 평가 내에서 작업을 완료하면 표준, 규정 또는 법률의 요구 사항을 충족하는 데 도움이 됩니다. 예를 들어, 해당 내의 모든 작업을 완료하면 MICROSOFT 365 설정을 ISO 27001 요구 사항에 따라 가져오는 데 도움이 된다고 평가할 수 있습니다.
 
-평가에는 여러 구성 요소가 있습니다.
+평가에는 몇 가지 구성 요소가 있습니다.
 
-- **범위 내 서비스**: 평가에 적용할 수 있는 특정 Microsoft 서비스 집합
+- **범위 내 서비스**: 평가에 적용할 수 있는 Microsoft 서비스의 특정
 - **Microsoft 관리 컨트롤**: Microsoft가 사용자 대신 구현하는 Microsoft 클라우드 서비스에 대한 컨트롤
 - **컨트롤**: 고객 관리 컨트롤이라고도 하는 이러한 컨트롤은 조직에서 구현 및 관리되는 컨트롤입니다.
 - **공유 컨트롤**: 조직과 Microsoft가 구현에 대한 책임을 공유하는 컨트롤입니다.
@@ -107,15 +107,15 @@ ms.locfileid: "50922732"
 
 평가를 만들 때 평가를 그룹에 할당합니다. 조직에 가장 논리적인 방식으로 그룹을 구성할 수 있습니다. 예를 들어 감사 연도, 지역, 솔루션, 조직 내의 팀 또는 다른 방법으로 평가를 그룹화할 수 있습니다. 그룹을 만든 후 준수 [](compliance-manager-setup.md#filtering-your-dashboard-view) 관리자 대시보드를 필터링하여 하나 이상의 그룹으로 점수를 볼 수 있습니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [준수 관리자에서 평가를 빌드하고 관리합니다.](compliance-manager-assessments.md)
 
 ### <a name="templates"></a>템플릿
 
-준수 관리자는 평가를 빠르게 만드는 데 도움이 되는 템플릿을 제공합니다. 이러한 템플릿을 수정하여 요구에 최적화된 평가를 만들 수 있습니다. 자체 컨트롤 및 작업을 사용하여 템플릿을 만들어 사용자 지정 평가를 빌드할 수도 있습니다. 예를 들어 템플릿이 내부 비즈니스 프로세스 제어를 지원하거나 150개 이상의 미리 작성된 평가 템플릿 중 하나에 적용되지 않는 지역별 데이터 보호 표준을 사용할 수 있습니다.
+준수 관리자는 평가를 빠르게 만드는 데 도움이 되는 템플릿을 제공합니다. 이러한 템플릿을 수정하여 요구에 최적화된 평가를 만들 수 있습니다. 자체 컨트롤 및 작업을 사용하여 템플릿을 만들어 사용자 지정 평가를 빌드할 수도 있습니다. 예를 들어 템플릿이 내부 비즈니스 프로세스 제어를 다루거나 325개 이상의 미리 작성된 평가 템플릿 중 하나에 적용되지 않는 지역별 데이터 보호 표준을 적용해야 할 수 있습니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [준수 관리자에서 제공하는 평가 템플릿 목록을 를 시청하세요.](compliance-manager-templates-list.md)
 
@@ -125,7 +125,7 @@ ms.locfileid: "50922732"
 
 개선 작업은 규정 준수 활동을 중앙 집중화하는 데 도움이 됩니다. 각 개선 작업은 데이터 보호 규정 및 표준을 준수하는 데 도움이 되는 권장 지침을 제공합니다. 개선 작업을 조직의 사용자에게 할당하여 구현 및 테스트 작업을 수행할 수 있습니다. 개선 작업 내에 문서, 메모 및 상태 업데이트를 기록할 수 있습니다.
 
-##### <a name="learn-more"></a>자세한 정보
+##### <a name="learn-more"></a>자세히 알아보기
 
 [개선 작업을 사용하여 준수 워크플로를 관리합니다.](compliance-manager-improvement-actions.md)
 

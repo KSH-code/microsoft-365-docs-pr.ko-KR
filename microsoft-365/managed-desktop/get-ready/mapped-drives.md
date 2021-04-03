@@ -1,6 +1,6 @@
 ---
 title: Microsoft Managed Desktop의 매핑된 드라이브 준비
-description: 확인해야 하는 중요한 단계
+description: 사용자가 매핑된 드라이브의 데이터에 액세스할 수 있도록 하는 중요한 단계
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,13 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: cd45d6155fc0e01f6a285f6182aa051281d160e0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: f770f5083fe9193660b03e7971b09a127f2dae16
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922911"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574562"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 매핑된 드라이브 준비
 
@@ -36,7 +37,7 @@ ms.locfileid: "50922911"
 - 이러한 파일 공유 위치에 액세스해야 하는 사용자 그룹 
 - 할당해야 하는 특정 드라이브 문자(필요한 경우)
 
-예를 들어 다음과 같습니다.
+예를 들면 다음과 같습니다.
 
 | 드라이브 문자 | UNC 경로 | 사용자 그룹 |
 |--------------|----------|------------|
@@ -52,4 +53,16 @@ ms.locfileid: "50922911"
 2. "매핑된 드라이브 배포"라는 지원 요청을 제출하고 필요한 모든 파일 공유 세부 정보를 제공합니다.  
 3. Microsoft Managed Desktop IT Operations는 요청이 완료되면 지원 요청 업데이트를 사용하여 이를 권고합니다. 처음에 이 구성은 테스트 배포 그룹의 장치에만 배포됩니다.  
 4. Microsoft Managed Desktop IT Operations에서 배포한 구성이 예상과 같은지 테스트하고 확인해야 합니다. 테스트를 완료한 후 Microsoft Managed Desktop IT Operations에 알리기 위해 동일한 지원 요청의 세부 정보에서 토론 탭을 사용하여 회신합니다.  
-5. 그런 다음 Microsoft Managed Desktop IT Operations 팀에서 구성을 다른 배포 그룹에 배포합니다.
+5. 그런 다음 Microsoft Managed Desktop IT Operations 팀에서 구성을 다른 배포 그룹에 배포합니다. 
+
+## <a name="steps-to-get-ready"></a>준비 단계
+
+1. Microsoft Managed Desktop의 선행 [준비를 검토합니다.](prerequisites.md)
+2. [준비 평가 도구를 사용합니다.](readiness-assessment-tool.md)
+3. [게스트 계정에 대한 필수 구성 요소](guest-accounts.md)
+4. [Microsoft Managed Desktop의 네트워크 구성](network.md)
+5. [Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](certs-wifi-lan.md)
+6. [Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](authentication.md)
+7. [Microsoft Managed Desktop의 앱](apps.md)
+8. [Microsoft Managed Desktop용 매핑된](mapped-drives.md) 드라이브 준비(이 문서)
+9. [Microsoft Managed Desktop의 인쇄 리소스 준비](printing.md)

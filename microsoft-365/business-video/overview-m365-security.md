@@ -2,8 +2,8 @@
 title: Microsoft 365 Business Premium 보안 개요
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 Microsoft 365에 포함된 보안 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: e21dc1a9f27f9b5896ace2f09ebb936b8189fdd3
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 5274d54fb39cfbeee8ce9abd7fb738543aaacc53
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422330"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578738"
 ---
 # <a name="overview-of-security"></a>보안 개요
 
@@ -34,7 +34,7 @@ ms.locfileid: "50422330"
 
 Microsoft 365 Business Premium은 위협 방지, 데이터 보호 및 장치 관리 기능을 제공하여 온라인 위협 및 무단 액세스로부터 회사를 보호하고 휴대폰, 태블릿 및 컴퓨터에서 회사 데이터를 보호하고 관리하는 데 도움이 됩니다.
 
-|![위협 방지](../media/m365-business-security-threat-protection.png)<br/>[위협 방지](#threat-protection)|![클라이언트와 공동 작업](../media/m365-business-security-data-protection.png) <br/>[데이터 보호](#data-protection) | ![디바이스 관리](../media/m365-business-security-device-management.png) <br/>[디바이스 관리](#device-management) |
+|![위협 방지](../media/m365-business-security-threat-protection.png)<br/>[위협 방지](#threat-protection)|![클라이언트와 공동 작업](../media/m365-business-security-data-protection.png) <br/>[데이터 보호](#data-protection) | ![장치 관리](../media/m365-business-security-device-management.png) <br/>[장치 관리](#device-management) |
 |--|--|--|
 
 ## <a name="threat-protection"></a>위협 방지

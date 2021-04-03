@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자 사용자 권한 및 역할을 설정하고 작업의 자동화된 테스트를 구성합니다. 사용자 기록을 관리하고 대시보드 보기를 필터링합니다.
-ms.openlocfilehash: 4558f6b2a75f1635c7984b386f217efa148b22af
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 8877a9a1e65a624708646c17a2517647c8a72f6a
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499029"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570560"
 ---
 # <a name="get-started-with-compliance-manager"></a>규정 준수 관리자 시작
 
@@ -30,7 +30,7 @@ ms.locfileid: "51499029"
 
 ## <a name="who-can-access-compliance-manager"></a>준수 관리자에 액세스할 수 있는 사용자
 
-준수 관리자는 Office 365 및 Microsoft 365 라이선스가 있는 조직과 미국 GCC(Government Community Cloud) 보통 및 GCC High 고객에게 제공됩니다. 평가 가용성 및 관리 기능은 사용권 계약에 따라 달라집니다.  [서비스 설명 세부 정보 보기.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+준수 관리자는 Office 365 및 Microsoft 365 라이선스가 있는 조직과 미국 GCC(정부 커뮤니티 클라우드) 보통, GCC High 및 DoD(국방부) 고객에게 제공됩니다. 평가 가용성 및 관리 기능은 사용권 계약에 따라 달라집니다.  [서비스 설명 세부 정보 보기.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -52,7 +52,7 @@ ms.locfileid: "51499029"
 조직에 대한 전역 관리자 역할을 보유하는 사용자는 준수 관리자에 대한 사용자 권한을 설정할 수 있습니다. 사용 권한은 Office 365 보안 및 준수 & Azure AD(Active Directory)에서 설정할 수 있습니다.
 
 > [!NOTE]
-> GCC(미국 정부 커뮤니티) 높은 환경의 고객은 Azure AD에서 준수 관리자에 대한 사용자 권한 및 역할만 설정할 수 있습니다. Azure AD 지침 및 역할 유형 정의는 아래를 참조하세요.
+> GCC(미국 정부 커뮤니티) 높은 및 DoD(국방부) 환경의 고객은 Azure AD에서 준수 관리자에 대한 사용자 권한 및 역할만 설정할 수 있습니다. Azure AD 지침 및 역할 유형 정의는 아래를 참조하세요.
 
 Office 365 보안 및 준수 센터에서 권한을 설정하고 역할을 할당하려면 & 단계를 따르세요.
 
@@ -100,7 +100,7 @@ Office 365 또는 Microsoft 365 구독이 없는 Azure AD ID가 있는 사용자
 Microsoft 365 규정 준수 센터의 준수 관리자 설정을 사용하여 개선 작업의 자동 테스트를 활성화 및 비활성화할 수 있습니다. 또한 이 설정을 사용하면 개선 작업과 관련된 사용자 데이터를 관리할 수 있습니다(개선 작업을 다른 사용자에게 다시 재배치하는 기능 포함).  전역 관리자 또는 준수 관리자 관리자 역할이 있는 사용자만 준수 관리자 설정에 액세스할 수 있습니다.
 
 > [!NOTE]
-> GCC High 환경에서는 자동화된 테스트 기능을 사용할 수 없습니다. 이러한 환경에서는 보안 점수가 제공되지 않습니다. GCC High 고객은 개선 작업을 수동으로 구현하고 테스트해야 합니다.
+> 이러한 환경에서는 보안 점수가 제공되지 않는 GCC High 및 DoD 환경에서는 자동화된 테스트 기능을 사용할 수 없습니다. GCC High 및 DoD 고객은 개선 작업을 수동으로 구현하고 테스트해야 합니다.
 
 ### <a name="set-up-automated-testing"></a>자동화된 테스트 설정
 

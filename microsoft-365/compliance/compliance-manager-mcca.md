@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 구성 분석기를 사용하여 Microsoft 준수 관리자를 사용하여 빠르게 시작하고 실행하는 방법을 이해합니다.
-ms.openlocfilehash: a77f38dcc0c0215e539c868e47135f5d7194f4b6
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2b91ac274d7270f5be9530742cf711a3918b287d
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906040"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570377"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>준수 관리자용 Microsoft 준수 구성 분석기(미리 보기)
 
@@ -33,7 +33,7 @@ MCCA를 사용하면 규정 준수 관리의 개선 작업을 현재 Microsoft 3
 
 MCCA를 이해하기 위한 추가 리소스는 [GitHub의 README 지침을 방문하는 것입니다.](https://github.com/OfficeDev/MCCA#overview) 이 페이지에서는 선행 구성에 대한 자세한 정보를 제공하며 전체 설치 지침을 제공합니다. 이 페이지에 액세스하려면 GitHub 계정이 필요하지 않습니다.
 
-**가용성:** MCCA는 Office 365 및 Microsoft 365 라이선스와 GCC(미국 정부 커뮤니티) 보통 및 GCC High 고객을 통해 모든 조직에서 사용할 수 있으며 DOD 고객에게 서비스를 확장할 계획입니다.
+**가용성:** MCCA는 Office 365 및 Microsoft 365 라이선스가 있는 모든 조직과 GCC(미국 정부 커뮤니티) 보통, GCC High 및 DoD(국방부) 고객이 사용할 수 있습니다.
 
 ## <a name="install-mcca-and-run-a-report"></a>MCCA 설치 및 보고서 실행
 
@@ -102,8 +102,8 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
   | 입력 |  국가 또는 지역 | 
   | :------------- | :------------: |
   | 1 | 아시아 태평양 |
-  | 2  | 오스트레일리아 |
-  | 3  | 캐나다 |
+  | 2 | 오스트레일리아 |
+  | 3 | 캐나다 |
   | 4  | 유럽(프랑스 제외) /중동/아프리카 |
   | 5  | 프랑스 |
   | 6  | 인도 |
@@ -113,7 +113,7 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
   | 10   | 남미 |
   | 11  | 남아프리카 공화국 |
   | 12  | 스위스 |
-  | 13  | 아랍에미리트 |
+  | 13 | 아랍에미리트 |
   | 14  | 영국 |
 
 

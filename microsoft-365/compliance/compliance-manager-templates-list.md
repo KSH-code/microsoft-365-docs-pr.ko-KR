@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 국가, 지역 및 산업 규정, 표준 및 법률에 부합하는 평가를 구축하기 위한 템플릿을 제공합니다.
-ms.openlocfilehash: b83ad63de34217ac7c469dc784ca85644f6a5e3d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8cdeb6da09a42ad0331690b843ab4f039a5c2bf6
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922822"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570570"
 ---
 # <a name="compliance-manager-templates-list"></a>준수 관리자 서식 파일 목록
 
@@ -60,7 +60,7 @@ ms.locfileid: "50922822"
 - NIST 800-53 Rev.4
 
 > [!NOTE]
-> GCC(미국 정부 커뮤니티) 보통 및 GCC High 고객의 경우 위에 나열된 템플릿 외에도 CMMC(Cybersecurity Maturity Model Certification) 수준 1~5개 템플릿이 포함됩니다.
+> GCC(미국 정부 커뮤니티) 보통, GCC High 및 DoD(국방부) 고객의 경우: 위에 나열된 템플릿 외에도 CMMC(Cybersecurity Maturity Model Certification) 수준 1~5개 템플릿이 포함됩니다.
 
 ## <a name="premium-templates"></a>고급 템플릿
 

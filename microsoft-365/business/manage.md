@@ -2,8 +2,8 @@
 title: 비즈니스용 Microsoft 365 관리
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: hub-page
@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
 description: 비즈니스용 Microsoft 365 관리 작업, 모바일 장치, Windows 10 PC 및 다양한 작업을 관리하는 방법을 설명합니다.
-ms.openlocfilehash: d4136298a1305f12602e0ce258a440dd72e8cd64
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0ad2326bdcc785c0d8d1a52dee74187cdc1668e7
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913177"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578370"
 ---
 # <a name="manage-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 관리
 

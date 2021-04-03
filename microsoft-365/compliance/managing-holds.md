@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: ''
 description: 고급 eDiscovery 사례에 대한 관련 콘텐츠를 보존하기 위해 보유자 및 해당 데이터 원본에 보류를 설정하는 방법을 학습합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 07edcb2707d1dffecfa5a2aac6c4340ac6cbe53f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 70390a933de788a6b1190e42b5087b85a175b9a2
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926376"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570592"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Advanced eDiscovery에서 보류 관리
 
@@ -76,8 +76,6 @@ Advanced eDiscovery 사례에 대해 보유하지 않은 보류를 만들 수 �
       > 사용자,  그룹 또는 팀 선택을 클릭하여 보류할 사서함을 지정하면 표시되는 사서함 선택이 비어 있습니다. 이것은 성능을 향상시키기 위한 것입니다. 이 목록에 사용자 추가를 위해 검색 상자에 이름(최소 3자)을 입력합니다.
 
    1. **SharePoint 사이트** - 사이트  **선택을** 클릭한 다음 사이트 선택을 다시 클릭하여 보류할 SharePoint 및 비즈니스용 OneDrive 사이트를 지정합니다. 보류할 각 사이트의 URL을 입력합니다. Microsoft 365 그룹 또는 Microsoft 팀에 대한 SharePoint 사이트의 URL을 추가할 수도 있습니다. 를 **클릭한** 다음 완료를 **클릭합니다.**
-    
-      Microsoft 365 그룹 및 Microsoft Teams를 보류하는 방법에 대한 팁은 **FAQ** 섹션을 참조하세요.
 
       > [!NOTE]
       > 사용자의 OneDrive 계정의 URL에는 UPN(사용자 계정 이름)이 포함됩니다(예: `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). 드물게 개인의 UPN이 변경되는 경우 OneDrive URL도 새 UPN을 통합하기 위해 변경됩니다. 사용자의 OneDrive 계정이 비 보유의 일부인 경우 해당 UPN이 변경된 경우 보류를 업데이트하고 새 OneDrive URL을 지정해야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](/onedrive/upn-changes)을 참조하세요.
@@ -118,7 +116,7 @@ Advanced eDiscovery 사례에 대해 보유하지 않은 보류를 만들 수 �
 
 ## <a name="place-a-hold-on-microsoft-teams-and-office-365-groups"></a>Microsoft Teams 및 Office 365 그룹을 보류
 
-Microsoft Teams는 Office 365 그룹을 통해 구축됩니다. 따라서 Advanced eDiscovery에서 보류하는 것은 매우 유사합니다. 
+Microsoft Teams는 Office 365 그룹을 통해 구축됩니다. 따라서 Advanced eDiscovery에서 보류하는 것은 매우 유사합니다.
 
 - **추가 Microsoft 365 그룹 또는 Microsoft Teams 사이트를 관리인에게 매핑하는 방법 Microsoft 365 그룹 및 Microsoft Teams에 비보류를 배치하는 것은 어떻게 하나요?** Microsoft Teams는 Microsoft 365 그룹을 통해 구축됩니다. 따라서 eDiscovery 사례에서 보류하는 것은 매우 유사합니다. Microsoft 365 그룹 및 Microsoft Teams를 보류할 때 다음에 유의합니다.
   - Microsoft 365 그룹 및 Microsoft Teams에 있는 콘텐츠를 보류하기 위해 그룹 또는 팀과 연결된 사서함 및 SharePoint 사이트를 지정해야 합니다.

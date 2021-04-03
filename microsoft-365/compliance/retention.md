@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: dbb294cdb865fb01f931e2e9c3bc4f6afb3f1e09
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 42fe70d1360f45deb6f98f41c0ffec97de7e00a9
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471037"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498347"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -259,7 +259,7 @@ Office 365 보안 및 규정 준수 센터에는 **정보 거버넌스** > **대
 |항목을 레코드로 선언| 아니요 | 예 |
 |레이블이 지정되거나 이벤트를 기반으로 보존 기간 시작 | 아니요 | 예 |
 |처리 검토 | 아니요| 예 |
-|최대 7년 동안 처리 증명 | 아니요 |예, 항목이 레코드로 선언되는 경우|
+|최대 7년 동안 처리 증명 | 아니요 |예, 처리 검토를 사용하거나 항목이 레코드로 표시된 경우|
 |감사 관리 활동| 예 | 예|
 |보존될 항목 식별: <br /> - 콘텐츠 검색 <br /> - 데이터 분류 페이지, 콘텐츠 탐색기, 활동 탐색기 | <br /> 아니요 <br /> 아니요 | <br /> 예 <br /> 예|
 

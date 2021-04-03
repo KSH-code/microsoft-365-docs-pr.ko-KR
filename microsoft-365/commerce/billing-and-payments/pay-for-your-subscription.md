@@ -21,21 +21,14 @@ ms.custom:
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: 44cb7b09c76ee5e49d2f556df104e55150212f30
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 582ecb0f9b46d877c30aa29334b30b9209c93993
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911785"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576940"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>구독 결제 방법
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 신용 카드, 직불 카드 또는 은행 계좌를 사용하여 구독을 결제할 수 있습니다. 수표 또는 EFT(전자식 자금 이체)를 사용하여 송장을 결제할 수 있는 경우도 있습니다. 청구 프로필이 있는 경우 옵션이 약간 다릅니다. 자세한 내용은 [청구 프로필로 구독 결제 방법](pay-for-subscription-billing-profile.md)을 참조하세요. 계정에 청구 프로필이 있는지 잘 알지 못하는 경우 [청구 프로필 이해하기](manage-billing-profiles.md)를 참조하세요.
 

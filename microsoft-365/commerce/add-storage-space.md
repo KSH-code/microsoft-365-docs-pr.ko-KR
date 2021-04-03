@@ -23,21 +23,14 @@ search.appverid:
 - MET150
 description: Microsoft 365 구독에서 파일 저장소를 추가하고 줄이는 방법을 학습하세요. 추가 파일 저장소를 사용하면 SharePoint Online 및 OneDrive에 더 많은 콘텐츠를 저장할 수 있습니다.
 ms.date: ''
-ms.openlocfilehash: b170924f40d517cb6bbdf8635ad3e163eadc8643
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d65677b9c078026343410b53acd48932258cb4b1
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911929"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576964"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>구독에 대한 저장소 공간 추가
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 SharePoint Online 사이트 모음의 저장소 공간이 부족해지면 해당 플랜에 자격이 있는 경우 구독에 저장소를 추가할 수 있습니다. 사용 가능한 추가 기능 목록에 **Office 365 추가** 파일 저장소가 없는 경우 요금제가 자격이 없는 것입니다. 자세한 내용은 내 계획에 [적합한가요?를 참조하세요.](#is-my-plan-eligible-for-office-365-extra-file-storage)
 
@@ -111,5 +104,5 @@ Office 365 추가 파일 저장소는 다음 구독에서 사용할 수 있습�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사이트 저장 용량 제한](ttps://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) 관리(문서)\
+[사이트 저장 용량 제한](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) 관리(문서)\
 [OneDrive](/onedrive/set-default-storage-space)사용자의 기본 저장소 공간 설정(문서)

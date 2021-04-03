@@ -2,8 +2,8 @@
 title: Microsoft 365 Business Premium 개요
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 ms.date: 9/20/2018
 audience: Admin
@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Office 생산성 앱과 사이버 위협으로부터 비즈니스를 보호하는 고급 보호 기능을 포함하는 구독 서비스인 Microsoft 365 Business Premium에 대해 알아봅니다.
-ms.openlocfilehash: aa6e313f0f3db1c3401836c3e1737c219fcf6c3a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d6b0ded25e0478f85e73b807789463e4d55b1bb0
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913005"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578350"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 개요
 

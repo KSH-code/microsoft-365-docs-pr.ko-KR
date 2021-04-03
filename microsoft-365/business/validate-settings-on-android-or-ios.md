@@ -2,8 +2,8 @@
 title: Android 또는 iOS 장치에서 앱 보호 설정 유효성 검사
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: f3433b6b-02f7-447f-9d62-306bf03638b0
 description: Android 또는 iOS 장치에서 Microsoft 365 Business Premium 앱 보호 설정의 유효성을 검사하는 방법을 확인합니다.
-ms.openlocfilehash: d4b8ec3ff3a15c25133b20d437249611530977a5
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: a0a4a6e6cff59f66a506929e97c99d361472a68b
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403373"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578070"
 ---
 # <a name="validate-app-protection-settings-on-android-or-ios-devices"></a>Android 또는 iOS 장치에서 앱 보호 설정 유효성 검사
 
@@ -42,9 +42,9 @@ ms.locfileid: "44403373"
   
 먼저 정책이 유효성을 검사할 앱에 적용해야 합니다.
   
-1. Microsoft 365 Business Premium 관리 [센터에서](https://portal.office.com)정책 편집  \> **정책으로 이동하세요.**
+1. Microsoft 365 Business Premium 관리 [센터에서](https://portal.office.com)정책 **편집** \> **정책으로 이동하세요.**
     
-2. 설치 시 만든 설정에 **대한 Android용** 응용 프로그램 정책 또는 만든 다른 정책을 선택하고 Outlook에 대해 적용 여부를 확인합니다. 
+2. 설치 시 만든 설정에 **대해 Android용** 응용 프로그램 정책 또는 만든 다른 정책을 선택하고 Outlook에 대해 적용된지 확인합니다. 
     
     ![Shows all the apps for which this policy protects files.](../media/b3be3ddd-f683-4073-8d7a-9c639a636a2c.png)
   
@@ -52,7 +52,7 @@ ms.locfileid: "44403373"
 
 **정책 편집** 창에서 **Office 문서 액세스 제어** 옆의 **편집** 을 선택하고 **사용자가 모바일 장치에서 Office 파일에 액세스하는 방법 관리** 를 확장한 다음 **Office 앱 액세스에 PIN 또는 지문 필요** 가 **켜기** 로 설정되어 있는지 확인합니다.
   
-![Office 앱에 액세스하려면 PIN 또는 지문 필요를 설정해야 합니다.](../media/f37eb5b2-7e26-49fb-9bd6-d955d196bacf.png)
+![Office 앱에 액세스하려면 PIN 또는 지문 필요를 설정으로 설정해야 합니다.](../media/f37eb5b2-7e26-49fb-9bd6-d955d196bacf.png)
   
 1. 사용자의 Android 장치에서 Outlook을 열고 사용자의 Microsoft 365 Business Premium 자격 증명으로 로그인합니다.
     
@@ -62,11 +62,11 @@ ms.locfileid: "44403373"
   
 ### <a name="validate-reset-pin-after-number-of-failed-attempts"></a>시도가 몇 번 실패한 후 PIN 다시 설정 유효성 검사
 
-정책  편집 창에서 Office  문서 액세스 제어 옆에 있는 편집을 선택하고, 사용자가 모바일 장치에서 **Office** 파일에 액세스하는 방법을 확장하고, 시도하지 못한 횟수가 몇 번이 지난 **후 PIN을** 다시 설정하는 방법을 일부 숫자로 설정해야 합니다. 기본적으로 5입니다. 
+정책 **편집** 창에서 Office  **문서** 액세스 제어 옆에 있는 편집을 선택하고 사용자가 모바일 장치에서 **Office** 파일에 액세스하는 방법 관리를 확장하고 실패한 시도 횟수가 일부 수로 설정되어 있는지 **확인한** 후 PIN 다시 설정을 합니다. 기본적으로 5입니다. 
   
 1. 사용자의 Android 장치에서 Outlook을 열고 사용자의 Microsoft 365 Business Premium 자격 증명으로 로그인합니다.
     
-2. 정책에 지정된 횟수만큼 잘못된 PIN을 입력합니다. PIN을 다시 설정하기 위해 **PIN** 시도 제한에 도달했다는 메시지가 표시될 것입니다. 
+2. 정책에 지정된 횟수만큼 잘못된 PIN을 입력합니다. PIN 시도 제한에 도달하여 **PIN을** 다시 설정하라는 메시지가 표시될 수 있습니다. 
     
     ![After too many incorrect PIN attempts, you need to reset your PIN.](../media/fca6fcb4-bb5c-477f-af5e-5dc937e8b835.png)
   
@@ -84,7 +84,7 @@ ms.locfileid: "44403373"
     
     ![Tap the down arrow next to an attachment to try to save it.](../media/b22573bb-91ce-455f-84fa-8feb2846b117.png)
   
-    화면 **아래쪽에 디바이스에** 저장할 수 없는 경우를 볼 수 있습니다. 
+    화면 아래쪽에 **디바이스에** 저장할 수 없습니다.가 표시됩니다. 
     
     ![Warning text that indicates cannot save a file locally to an Android.](../media/52ca3f3d-7ed0-4a52-9621-4872da6ea9c5.png)
   
@@ -93,7 +93,7 @@ ms.locfileid: "44403373"
   
 ### <a name="validate-require-user-to-sign-in-again-if-office-apps-have-been-idle-for-a-specified-time"></a>Office 앱이 지정된 시간 동안 유휴 상태인 경우 사용자 다시 로그인 필요 유효성 검사
 
-정책  편집 창에서 Office  문서 액세스 제어 옆에 있는 편집을 선택하고, 사용자가 모바일 장치에서 **Office** 파일에 액세스하는 방법을 확장하고, **Office** 앱이 몇 분 동안 유휴되어 있는 후에 사용자가 다시 로그인해야 합니다. 기본적으로 30분입니다. 
+정책  편집 창에서 Office  **문서** 액세스 제어 옆에 있는 편집을 선택하고, 사용자가 모바일 장치에서 **Office** 파일에 액세스하는 방법 관리를 확장하고, **Office** 앱이 유휴로 설정된 후 사용자가 다시 로그인해야 하는지 몇 분으로 설정해야 합니다. 기본적으로 30분입니다. 
   
 1. 사용자의 Android 장치에서 Outlook을 열고 사용자의 Microsoft 365 Business Premium 자격 증명으로 로그인하고 요청된 경우 PIN을 입력합니다.
     
@@ -109,7 +109,7 @@ ms.locfileid: "44403373"
   
 1. 사용자의 Android 장치에서 Outlook을 열고 사용자의 Microsoft 365 Business Premium 자격 증명으로 로그인하고 요청된 경우 PIN을 입력합니다.
     
-2. 몇 개의 이미지 첨부 파일이 포함된 전자 메일을 여는 경우
+2. 몇 개의 이미지 파일 첨부 파일이 포함된 전자 메일을 니다.
     
 3. 첨부 파일 정보 옆의 아래쪽 화살표 아이콘을 탭하여 파일을 저장합니다.
     
@@ -131,9 +131,9 @@ ms.locfileid: "44403373"
   
 먼저 정책이 유효성을 검사할 앱에 적용해야 합니다.
   
-1. Microsoft 365 Business Premium 관리 [센터에서](https://portal.office.com)정책 편집  \> **정책으로 이동하세요.**
+1. Microsoft 365 Business Premium 관리 [센터에서](https://portal.office.com)정책 **편집** \> **정책으로 이동하세요.**
     
-2. 설치 **시 만든 설정에 대한 iOS용** 응용 프로그램 정책 또는 만든 다른 정책을 선택하고 Outlook에 대해 적용 여부를 확인합니다. 
+2. 설치 시 만든 설정에 **대한 iOS용** 응용 프로그램 정책 또는 만든 다른 정책을 선택하고 Outlook에 대해 적용된지 확인합니다. 
     
     ![Shows all the apps for which this policy protects files.](../media/842441b8-e7b1-4b86-9edd-d94d1f77b6f4.png)
   
@@ -141,7 +141,7 @@ ms.locfileid: "44403373"
 
 **정책 편집** 창에서 **Office 문서 액세스 제어** 옆의 **편집** 을 선택하고 **사용자가 모바일 장치에서 Office 파일에 액세스하는 방법 관리** 를 확장한 다음 **Office 앱 액세스에 PIN 또는 지문 필요** 가 **켜기** 로 설정되어 있는지 확인합니다.
   
-![Office 앱에 액세스하려면 PIN 또는 지문 필요를 설정해야 합니다.](../media/f37eb5b2-7e26-49fb-9bd6-d955d196bacf.png)
+![Office 앱에 액세스하려면 PIN 또는 지문 필요를 설정으로 설정해야 합니다.](../media/f37eb5b2-7e26-49fb-9bd6-d955d196bacf.png)
   
 1. 사용자의 iOS 장치에서 Outlook을 열고 사용자의 Microsoft 365 Business Premium 자격 증명으로 로그인합니다.
     
@@ -151,11 +151,11 @@ ms.locfileid: "44403373"
   
 ### <a name="validate-reset-pin-after-number-of-failed-attempts"></a>시도가 몇 번 실패한 후 PIN 다시 설정 유효성 검사
 
-정책  편집 창에서 Office  문서 액세스 제어 옆에 있는 편집을 선택하고, 사용자가 모바일 장치에서 **Office** 파일에 액세스하는 방법을 확장하고, 시도하지 못한 횟수가 몇 번이 지난 **후 PIN을** 다시 설정하는 방법을 일부 숫자로 설정해야 합니다. 기본적으로 5입니다. 
+정책 **편집** 창에서 Office  **문서** 액세스 제어 옆에 있는 편집을 선택하고 사용자가 모바일 장치에서 **Office** 파일에 액세스하는 방법 관리를 확장하고 실패한 시도 횟수가 일부 수로 설정되어 있는지 **확인한** 후 PIN 다시 설정을 합니다. 기본적으로 5입니다. 
   
 1. 사용자의 iOS 장치에서 Outlook을 열고 사용자의 Microsoft 365 Business Premium 자격 증명으로 로그인합니다.
     
-2. 정책에 지정된 횟수만큼 잘못된 PIN을 입력합니다. PIN을 다시 설정하기 위해 **PIN** 시도 제한에 도달했다는 메시지가 표시될 것입니다. 
+2. 정책에 지정된 횟수만큼 잘못된 PIN을 입력합니다. PIN 시도 제한에 도달하여 **PIN을** 다시 설정하라는 메시지가 표시될 수 있습니다. 
     
     ![After too many incorrect PIN attempts, you need to reset your PIN.](../media/fab5c089-a4a5-4e8d-8c95-b8eed1dfa262.png)
   
@@ -179,7 +179,7 @@ ms.locfileid: "44403373"
     
 ### <a name="validate-require-user-to-sign-in-again-if-office-apps-have-been-idle-for-a-specified-time"></a>Office 앱이 지정된 시간 동안 유휴 상태인 경우 사용자 다시 로그인 필요 유효성 검사
 
-정책  편집 창에서 Office  문서 액세스 제어 옆에 있는 편집을 선택하고, 사용자가 모바일 장치에서 **Office** 파일에 액세스하는 방법을 확장하고, **Office** 앱이 몇 분 동안 유휴되어 있는 후에 사용자가 다시 로그인해야 합니다. 기본적으로 30분입니다. 
+정책  편집 창에서 Office  **문서** 액세스 제어 옆에 있는 편집을 선택하고, 사용자가 모바일 장치에서 **Office** 파일에 액세스하는 방법 관리를 확장하고, **Office** 앱이 유휴로 설정된 후 사용자가 다시 로그인해야 하는지 몇 분으로 설정해야 합니다. 기본적으로 30분입니다. 
   
 1. 사용자의 iOS 장치에서 Outlook을 열고 사용자의 Microsoft 365 Business Premium 자격 증명으로 로그인하고 요청된 경우 PIN을 입력합니다.
     
@@ -195,7 +195,7 @@ ms.locfileid: "44403373"
   
 1. 사용자의 iOS 장치에서 Outlook을 열고 사용자의 Microsoft 365 Business Premium 자격 증명으로 로그인하고 요청된 경우 PIN을 입력합니다.
     
-2. 몇 개의 이미지 첨부 파일이 포함된 전자 메일을 여는 경우
+2. 몇 개의 이미지 파일 첨부 파일이 포함된 전자 메일을 니다.
     
 3. 첨부 파일을 탭한 다음 파일 아래에서 **저장** 옵션을 탭합니다. 
     
