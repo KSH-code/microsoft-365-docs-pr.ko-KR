@@ -2,8 +2,8 @@
 title: Microsoft 365 Business Premium이란 무엇인가요?
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,30 +20,30 @@ search.appverid:
 description: Microsoft 365 Business Premium 기능에 대해 알아보세요.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: b92e3790e83c5da62d65e6c98bf448d33862df54
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f4c41e86f3a98c2af076a58e311aa14be79704e9
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913541"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580333"
 ---
-# <a name="microsoft-365-business-premium"></a><span data-ttu-id="4e097-103">Microsoft 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="4e097-103">Microsoft 365 Business Premium</span></span>
+# <a name="microsoft-365-business-premium"></a><span data-ttu-id="e5dff-103">Microsoft 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="e5dff-103">Microsoft 365 Business Premium</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA?autoplay=false]
 
 
-<span data-ttu-id="4e097-104">Microsoft 365 Business Premium은 Microsoft에서 사용자를 위해 장치를 관리하고, 실제 위협으로부터 보호하고, 조직에 최신 비즈니스 소프트웨어를 제공하며 IT 관련 업무를 처리하면서 사용자가 클라우드에서 조직을 운영할 수 있도록 해주는 구독 서비스입니다.</span><span class="sxs-lookup"><span data-stu-id="4e097-104">Microsoft 365 Business Premium is a subscription service that lets you run your organization in the cloud while Microsoft takes care of the IT for you, managing devices, protecting against real-world threats, and providing your organization with the latest in business software.</span></span>
+<span data-ttu-id="e5dff-104">Microsoft 365 Business Premium은 Microsoft에서 사용자를 위해 장치를 관리하고, 실제 위협으로부터 보호하고, 조직에 최신 비즈니스 소프트웨어를 제공하며 IT 관련 업무를 처리하면서 사용자가 클라우드에서 조직을 운영할 수 있도록 해주는 구독 서비스입니다.</span><span class="sxs-lookup"><span data-stu-id="e5dff-104">Microsoft 365 Business Premium is a subscription service that lets you run your organization in the cloud while Microsoft takes care of the IT for you, managing devices, protecting against real-world threats, and providing your organization with the latest in business software.</span></span>
 
-<span data-ttu-id="4e097-105">Microsoft 365 Business Premium에 가입하면 Microsoft 365 Business Standard와 함께 제공되는 모든 동일한 생산성 도구와 다음 보안 기능을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e097-105">When you sign up for Microsoft 365 Business Premium, you get all the same productivity tools you get with Microsoft 365 Business Standard, and the following security features:</span></span>
+<span data-ttu-id="e5dff-105">Microsoft 365 Business Premium에 가입하면 Microsoft 365 Business Standard와 함께 제공되는 모든 동일한 생산성 도구와 다음 보안 기능을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e5dff-105">When you sign up for Microsoft 365 Business Premium, you get all the same productivity tools you get with Microsoft 365 Business Standard, and the following security features:</span></span>
 
-<span data-ttu-id="4e097-106">**데이터 보호**</span><span class="sxs-lookup"><span data-stu-id="4e097-106">**Safeguard your data**</span></span>
+<span data-ttu-id="e5dff-106">**데이터 보호**</span><span class="sxs-lookup"><span data-stu-id="e5dff-106">**Safeguard your data**</span></span>
 
 
-|<span data-ttu-id="4e097-107">기능</span><span class="sxs-lookup"><span data-stu-id="4e097-107">Feature</span></span>|<span data-ttu-id="4e097-108">설명</span><span class="sxs-lookup"><span data-stu-id="4e097-108">Description</span></span>|
+|<span data-ttu-id="e5dff-107">기능</span><span class="sxs-lookup"><span data-stu-id="e5dff-107">Feature</span></span>|<span data-ttu-id="e5dff-108">설명</span><span class="sxs-lookup"><span data-stu-id="e5dff-108">Description</span></span>|
 | --- | --- |
-| <span data-ttu-id="4e097-109">위협으로부터 보호</span><span class="sxs-lookup"><span data-stu-id="4e097-109">Protect against threats</span></span> | <span data-ttu-id="4e097-110">Microsoft 365 Business Premium을 통해 고급 위협 방지, 안전한 첨부 파일 및 안전한 링크 보호 기능을 통해 위협으로부터 사용자를 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e097-110">Microsoft 365 Business Premium helps protect you against threats with Advanced Threat Protection, safe attachment and safe links protection.</span></span> |
-| <span data-ttu-id="4e097-111">비즈니스 데이터 보안</span><span class="sxs-lookup"><span data-stu-id="4e097-111">Secure business data</span></span> | <span data-ttu-id="4e097-112">개인 데이터는 PIN 액세스 및 제한된 복사 및 저장을 통해 개인 장치에서 보호됩니다.</span><span class="sxs-lookup"><span data-stu-id="4e097-112">Your personal data is protected on personal devices with PIN access, and restricted copy and saving.</span></span> <span data-ttu-id="4e097-113">또한 정보 보호 기능을 추가하여 권한이 부여된 사용자만 중요한 정보에 액세스할 수 있도록 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e097-113">You can also add information protection to make sure that only authorized people can access sensitive information.</span></span> |
-| <span data-ttu-id="4e097-114">장치 보안</span><span class="sxs-lookup"><span data-stu-id="4e097-114">Secure your devices</span></span> | <span data-ttu-id="4e097-115">복사 및 붙여넣기와 같은 모바일 액세스를 제한하여 장치에서 작업 파일을 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e097-115">You can protect your work files on devices by restricting mobile access, such as copy and paste.</span></span> <span data-ttu-id="4e097-116">또한 장치를 분실하거나 도난당한 경우에 등록된 모바일 장치에서 비즈니스 데이터를 선택적으로 지울 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e097-116">You can also selectively wipe business data from enrolled mobile devices if they are lost or stolen.</span></span> |
-| <span data-ttu-id="4e097-117">추가 보안 기능</span><span class="sxs-lookup"><span data-stu-id="4e097-117">Additional security features</span></span> | <span data-ttu-id="4e097-118">Microsoft 365 Business Premium의 고급 기능을 사용하여 사이버 위협으로부터 비즈니스를 보호하고 중요한 정보를 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e097-118">Advanced features in Microsoft 365 Business Premium are available to help you protect your business against cyber-threats and safeguard sensitive information.</span></span> <span data-ttu-id="4e097-119">이러한 기능에는 Office 365 Advanced Threat Protection, DLP(데이터 손실 방지 정책), Exchange Online archiving, Azure Information Protection 및 Intune이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="4e097-119">The capabilities include Office 365 Advanced Threat Protection, Data loss prevention policies (DLP), Exchange Online archiving, Azure Information Protection, and Intune.</span></span> |
+| <span data-ttu-id="e5dff-109">위협으로부터 보호</span><span class="sxs-lookup"><span data-stu-id="e5dff-109">Protect against threats</span></span> | <span data-ttu-id="e5dff-110">Microsoft 365 Business Premium을 통해 고급 위협 방지, 안전한 첨부 파일 및 안전한 링크 보호 기능을 통해 위협으로부터 사용자를 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e5dff-110">Microsoft 365 Business Premium helps protect you against threats with Advanced Threat Protection, safe attachment and safe links protection.</span></span> |
+| <span data-ttu-id="e5dff-111">비즈니스 데이터 보안</span><span class="sxs-lookup"><span data-stu-id="e5dff-111">Secure business data</span></span> | <span data-ttu-id="e5dff-112">개인 데이터는 PIN 액세스 및 제한된 복사 및 저장을 통해 개인 장치에서 보호됩니다.</span><span class="sxs-lookup"><span data-stu-id="e5dff-112">Your personal data is protected on personal devices with PIN access, and restricted copy and saving.</span></span> <span data-ttu-id="e5dff-113">또한 정보 보호 기능을 추가하여 권한이 부여된 사용자만 중요한 정보에 액세스할 수 있도록 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e5dff-113">You can also add information protection to make sure that only authorized people can access sensitive information.</span></span> |
+| <span data-ttu-id="e5dff-114">장치 보안</span><span class="sxs-lookup"><span data-stu-id="e5dff-114">Secure your devices</span></span> | <span data-ttu-id="e5dff-115">복사 및 붙여넣기와 같은 모바일 액세스를 제한하여 장치에서 작업 파일을 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e5dff-115">You can protect your work files on devices by restricting mobile access, such as copy and paste.</span></span> <span data-ttu-id="e5dff-116">또한 장치를 분실하거나 도난당한 경우에 등록된 모바일 장치에서 비즈니스 데이터를 선택적으로 지울 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e5dff-116">You can also selectively wipe business data from enrolled mobile devices if they are lost or stolen.</span></span> |
+| <span data-ttu-id="e5dff-117">추가 보안 기능</span><span class="sxs-lookup"><span data-stu-id="e5dff-117">Additional security features</span></span> | <span data-ttu-id="e5dff-118">Microsoft 365 Business Premium의 고급 기능을 사용하여 사이버 위협으로부터 비즈니스를 보호하고 중요한 정보를 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e5dff-118">Advanced features in Microsoft 365 Business Premium are available to help you protect your business against cyber-threats and safeguard sensitive information.</span></span> <span data-ttu-id="e5dff-119">이러한 기능에는 Office 365 Advanced Threat Protection, DLP(데이터 손실 방지 정책), Exchange Online archiving, Azure Information Protection 및 Intune이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="e5dff-119">The capabilities include Office 365 Advanced Threat Protection, Data loss prevention policies (DLP), Exchange Online archiving, Azure Information Protection, and Intune.</span></span> |
 
-<span data-ttu-id="4e097-120">자세한 세부 내용은 [Microsoft 365 Business 콘텐츠](../business/index.yml)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="4e097-120">For full details, see [Microsoft 365 Business content](../business/index.yml).</span></span>
+<span data-ttu-id="e5dff-120">자세한 세부 내용은 [Microsoft 365 Business 콘텐츠](../business/index.yml)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="e5dff-120">For full details, see [Microsoft 365 Business content](../business/index.yml).</span></span>

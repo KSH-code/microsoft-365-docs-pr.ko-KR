@@ -2,8 +2,8 @@
 title: Windows 10 장치 보안
 f1.keywords:
 - CSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -27,28 +27,28 @@ search.appverid:
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
 description: Windows 10 장치가 직장 또는 학교 계정에 로그인할 때 받을 기본 장치 정책의 설정을 구성하는 방법을 자세히 알아보습니다.
-ms.openlocfilehash: 85383b1e1d2f2af3fd49d4a0c56c5d99586d607d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 86db1c152f9f6ac1fe6093b4a55a74b69fbd8b0f
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912613"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579977"
 ---
-# <a name="secure-windows-10-devices"></a><span data-ttu-id="c7749-103">Windows 10 장치 보안</span><span class="sxs-lookup"><span data-stu-id="c7749-103">Secure Windows 10 devices</span></span>
+# <a name="secure-windows-10-devices"></a><span data-ttu-id="a4a72-103">Windows 10 장치 보안</span><span class="sxs-lookup"><span data-stu-id="a4a72-103">Secure Windows 10 devices</span></span>
 
-<span data-ttu-id="c7749-104">이 문서는 Microsoft 365 Business Premium에 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="c7749-104">This article applies to Microsoft 365 Business Premium.</span></span>
+<span data-ttu-id="a4a72-104">이 문서는 Microsoft 365 Business Premium에 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4a72-104">This article applies to Microsoft 365 Business Premium.</span></span>
 
-<span data-ttu-id="c7749-105">여기서 구성하는 설정은 Windows 10의 기본 장치 정책에 해당합니다.</span><span class="sxs-lookup"><span data-stu-id="c7749-105">The settings that you configure here are part of the default device policy for Windows 10.</span></span> <span data-ttu-id="c7749-106">모바일 장치 및 PC를 포함하여 Windows 10 장치를 연결한 모든 사용자는 직장 계정으로 로그인하여 이러한 설정을 자동으로 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c7749-106">All users who connect a Windows 10 device, including mobile devices and PCs, by signing in with their work account will automatically receive these settings.</span></span> <span data-ttu-id="c7749-107">설치 중에 기본 정책을 수락하고 특정 사용자 그룹을 대상으로 하는 정책은 나중에 추가하는 것이 권장됩니다.</span><span class="sxs-lookup"><span data-stu-id="c7749-107">We recommend that you accept the default policy during setup and add policies later that target specific groups of users.</span></span>
+<span data-ttu-id="a4a72-105">여기서 구성하는 설정은 Windows 10의 기본 장치 정책에 해당합니다.</span><span class="sxs-lookup"><span data-stu-id="a4a72-105">The settings that you configure here are part of the default device policy for Windows 10.</span></span> <span data-ttu-id="a4a72-106">모바일 장치 및 PC를 포함하여 Windows 10 장치를 연결한 모든 사용자는 직장 계정으로 로그인하여 이러한 설정을 자동으로 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4a72-106">All users who connect a Windows 10 device, including mobile devices and PCs, by signing in with their work account will automatically receive these settings.</span></span> <span data-ttu-id="a4a72-107">설치 중에 기본 정책을 수락하고 특정 사용자 그룹을 대상으로 하는 정책은 나중에 추가하는 것이 권장됩니다.</span><span class="sxs-lookup"><span data-stu-id="a4a72-107">We recommend that you accept the default policy during setup and add policies later that target specific groups of users.</span></span>
   
-## <a name="settings-to-secure-windows-10-devices"></a><span data-ttu-id="c7749-108">Windows 10 장치의 보안 설정</span><span class="sxs-lookup"><span data-stu-id="c7749-108">Settings to secure Windows 10 devices</span></span>
+## <a name="settings-to-secure-windows-10-devices"></a><span data-ttu-id="a4a72-108">Windows 10 장치의 보안 설정</span><span class="sxs-lookup"><span data-stu-id="a4a72-108">Settings to secure Windows 10 devices</span></span>
 
-<span data-ttu-id="c7749-p102">모든 설정은 기본적으로 **켜짐** 으로 되어 있습니다. 다음과 같은 설정을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7749-p102">By default all settings are **On**. The following settings are available:</span></span>
+<span data-ttu-id="a4a72-p102">모든 설정은 기본적으로 **켜짐** 으로 되어 있습니다. 다음과 같은 설정을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4a72-p102">By default all settings are **On**. The following settings are available:</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c7749-111">설정</span><span class="sxs-lookup"><span data-stu-id="c7749-111">Setting</span></span>  <br/> |<span data-ttu-id="c7749-112">설명</span><span class="sxs-lookup"><span data-stu-id="c7749-112">Description</span></span>  <br/> |
-|<span data-ttu-id="c7749-113">Windows Defender Antivirus를 사용하여 바이러스 및 기타 위협으로부터 PC를 보호하도록 지원</span><span class="sxs-lookup"><span data-stu-id="c7749-113">Help protect PCs from viruses and other threats using Windows Defender Antivirus</span></span>  <br/> |<span data-ttu-id="c7749-114">인터넷에 연결하여 발생할 수 있는 위험으로부터 PC를 보호하기 위해 Windows Defender Antivirus가 켜져 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c7749-114">Requires that Windows Defender Antivirus is turned on to protect PCs from the dangers of being connected to the internet.</span></span>  <br/> |
-|<span data-ttu-id="c7749-115">Microsoft Edge에서 웹 기반 위협으로부터 PC를 보호하도록 지원</span><span class="sxs-lookup"><span data-stu-id="c7749-115">Help protect PCs from web-based threats in Microsoft Edge</span></span>  <br/> |<span data-ttu-id="c7749-116">Edge에서 사용자를 악성 사이트와 다운로드로부터 보호하는 설정을 켭니다.</span><span class="sxs-lookup"><span data-stu-id="c7749-116">Turns on settings in Edge that help protect users from malicious sites and downloads.</span></span>  <br/> |
-|<span data-ttu-id="c7749-117">BitLocker를 사용하여 PC의 파일 및 폴더를 무단 액세스로부터 보호</span><span class="sxs-lookup"><span data-stu-id="c7749-117">Help protect files and folders on PCs from unauthorized access with BitLocker</span></span>  <br/> |<span data-ttu-id="c7749-118">Bitlocker는 컴퓨터 하드 드라이브를 암호화하여 데이터를 보호하고, 컴퓨터가 분실되거나 도난당한 경우 데이터 노출을 방지합니다.</span><span class="sxs-lookup"><span data-stu-id="c7749-118">Bitlocker protects data by encrypting the computer hard drives and protect against data exposure if a computer is lost or stolen.</span></span> <span data-ttu-id="c7749-119">자세한 내용은 [Bitlocker FAQ 를 참조하세요.](/windows/security/information-protection/bitlocker/bitlocker-frequently-asked-questions)</span><span class="sxs-lookup"><span data-stu-id="c7749-119">For more information, see [Bitlocker FAQ](/windows/security/information-protection/bitlocker/bitlocker-frequently-asked-questions).</span></span>  <br/> |
-|<span data-ttu-id="c7749-120">이 시간 동안 유휴 상태일 때 장치 화면 끄기</span><span class="sxs-lookup"><span data-stu-id="c7749-120">Turn off device screen when idle for this amount of time</span></span>  <br/> |<span data-ttu-id="c7749-p104">사용자가 유휴 상태일 때 회사 데이터가 안전하게 보호되도록 합니다. 사용자가 커피숍과 같은 공공장소에서 작업하다가 잠시 자리를 비우거나 다른 곳에 주의를 기울인 순간 장치가 타인들의 시선에 노출될 수 있습니다. 이 설정은 사용자가 얼마 동안 유휴 상태이면 화면이 꺼지는지 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="c7749-p104">Makes sure that company data is protected if a user is idle. A user may be working in a public location, like a coffee shop, and step away or be distracted for just a moment, leaving their device vulnerable to random glances. This setting lets you control how long the user can be idle before the screen shuts off.</span></span>  <br/> |
+|<span data-ttu-id="a4a72-111">설정</span><span class="sxs-lookup"><span data-stu-id="a4a72-111">Setting</span></span>  <br/> |<span data-ttu-id="a4a72-112">설명</span><span class="sxs-lookup"><span data-stu-id="a4a72-112">Description</span></span>  <br/> |
+|<span data-ttu-id="a4a72-113">Windows Defender Antivirus를 사용하여 바이러스 및 기타 위협으로부터 PC를 보호하도록 지원</span><span class="sxs-lookup"><span data-stu-id="a4a72-113">Help protect PCs from viruses and other threats using Windows Defender Antivirus</span></span>  <br/> |<span data-ttu-id="a4a72-114">인터넷에 연결하여 발생할 수 있는 위험으로부터 PC를 보호하기 위해 Windows Defender Antivirus가 켜져 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a4a72-114">Requires that Windows Defender Antivirus is turned on to protect PCs from the dangers of being connected to the internet.</span></span>  <br/> |
+|<span data-ttu-id="a4a72-115">Microsoft Edge에서 웹 기반 위협으로부터 PC를 보호하도록 지원</span><span class="sxs-lookup"><span data-stu-id="a4a72-115">Help protect PCs from web-based threats in Microsoft Edge</span></span>  <br/> |<span data-ttu-id="a4a72-116">Edge에서 사용자를 악성 사이트와 다운로드로부터 보호하는 설정을 켭니다.</span><span class="sxs-lookup"><span data-stu-id="a4a72-116">Turns on settings in Edge that help protect users from malicious sites and downloads.</span></span>  <br/> |
+|<span data-ttu-id="a4a72-117">BitLocker를 사용하여 PC의 파일 및 폴더를 무단 액세스로부터 보호</span><span class="sxs-lookup"><span data-stu-id="a4a72-117">Help protect files and folders on PCs from unauthorized access with BitLocker</span></span>  <br/> |<span data-ttu-id="a4a72-118">Bitlocker는 컴퓨터 하드 드라이브를 암호화하여 데이터를 보호하고, 컴퓨터가 분실되거나 도난당한 경우 데이터 노출을 방지합니다.</span><span class="sxs-lookup"><span data-stu-id="a4a72-118">Bitlocker protects data by encrypting the computer hard drives and protect against data exposure if a computer is lost or stolen.</span></span> <span data-ttu-id="a4a72-119">자세한 내용은 [Bitlocker FAQ 를 참조하세요.](/windows/security/information-protection/bitlocker/bitlocker-frequently-asked-questions)</span><span class="sxs-lookup"><span data-stu-id="a4a72-119">For more information, see [Bitlocker FAQ](/windows/security/information-protection/bitlocker/bitlocker-frequently-asked-questions).</span></span>  <br/> |
+|<span data-ttu-id="a4a72-120">이 시간 동안 유휴 상태일 때 장치 화면 끄기</span><span class="sxs-lookup"><span data-stu-id="a4a72-120">Turn off device screen when idle for this amount of time</span></span>  <br/> |<span data-ttu-id="a4a72-p104">사용자가 유휴 상태일 때 회사 데이터가 안전하게 보호되도록 합니다. 사용자가 커피숍과 같은 공공장소에서 작업하다가 잠시 자리를 비우거나 다른 곳에 주의를 기울인 순간 장치가 타인들의 시선에 노출될 수 있습니다. 이 설정은 사용자가 얼마 동안 유휴 상태이면 화면이 꺼지는지 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="a4a72-p104">Makes sure that company data is protected if a user is idle. A user may be working in a public location, like a coffee shop, and step away or be distracted for just a moment, leaving their device vulnerable to random glances. This setting lets you control how long the user can be idle before the screen shuts off.</span></span>  <br/> |
 |
