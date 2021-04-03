@@ -710,6 +710,8 @@
               href: download-documents-from-review-set.md
             - name: 검토 집합에서 문서 내보내기
               href: export-documents-from-review-set.md
+            - name: Azure Storage 계정으로 문서 내보내기
+              href: download-export-jobs.md
         - name: 작업 관리
           href: managing-jobs-ediscovery20.md
         - name: 사례 설정 구성
