@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Microsoft 365 관리 센터의 네트워크 연결 개요(미리 보기)
-ms.openlocfilehash: 2b80dd001bd2ee5d5725ea67c73aa34b4eb8816c
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: dd97a6d5cc9662f01854e1432660784358bce7b8
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408408"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581133"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Microsoft 365 관리 센터의 네트워크 연결(미리 보기)
 
@@ -205,6 +205,10 @@ Microsoft 365 서비스 프런트 도어는 Office 클라이언트 및 서비스
 ### <a name="what-is-an-internet-egress-location"></a>인터넷을 통해 이동하는 위치란?
 
 인터넷 나가기 위치는 네트워크 트래픽이 엔터프라이즈 네트워크를 종료하고 인터넷에 연결하는 위치입니다. 이 위치는 NAT(Network Address Translation) 장치가 있으며 일반적으로 ISP(인터넷 서비스 공급자)에 연결하는 위치로도 식별됩니다. 위치와 인터넷 시작 위치 간에 긴 거리가 표시될 경우 이는 중요한 WAN 백할ul을 나타낼 수 있습니다.
+
+### <a name="what-license-is-needed-for-this-capability"></a>이 기능에 필요한 라이선스는 무엇입니까?
+
+Microsoft 365 관리 센터에 대한 액세스를 제공하는 라이선스가 필요합니다.
 
 ## <a name="related-topics"></a>관련 항목
 

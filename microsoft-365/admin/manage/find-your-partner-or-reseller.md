@@ -2,8 +2,8 @@
 title: 파트너 또는 대리점 찾기
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,19 +22,19 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
-description: '새 Microsoft 365 파트너를 찾거나 과거에 함께 일한 파트너에 대한 연락처 정보를 얻는 방법을 알아보는 방법을 배워야 합니다. '
-ms.openlocfilehash: fad16990df7783908f59a6e3dd59cb0a1a13572e
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: '새 Microsoft 365 파트너를 찾거나 과거에 함께 작업한 파트너에 대한 연락처 정보를 얻는 방법을 알아보는 방법을 배워야 합니다. '
+ms.openlocfilehash: 189eda83f3eca957e6f9fa720e2f6ccdd07db171
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780112"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580945"
 ---
 # <a name="find-your-partner-or-reseller"></a>파트너 또는 대리점 찾기
 
 관리자는 파트너와 협력하여 Microsoft Open 볼륨 라이선스 프로그램을 통해 Microsoft 365 구독을 구매, 활성화 및 갱신할 수 있습니다. 
   
- **오픈 볼륨 라이선스가 필요한지 잘 모르겠나요?** [Microsoft Open 프로그램 개요를 확인해 하세요.](https://go.microsoft.com/fwlink/p/?LinkId=613298)
+ **오픈 볼륨 라이선스가 필요한지 잘 모르겠나요?** [Microsoft Open 프로그램 개요를 참조하세요.](https://go.microsoft.com/fwlink/p/?LinkId=613298)
   
 ## <a name="find-a-new-partner-or-reseller"></a>새 파트너 또는 대리점 찾기
 
@@ -47,7 +47,7 @@ ms.locfileid: "44780112"
 ## <a name="find-contact-information-for-a-partner-youve-worked-with-in-the-past"></a>과거에 거래한 적 있는 파트너의 연락처 정보 찾기
 
 > [!NOTE]
-> 경우에 따라 과거에 함께 일한 파트너를 위한 Microsoft 365 관리 센터에서 정보를 찾을 수 있습니다. 이 정보는 최신 상태가 아닐 수 있습니다. 조직에서 구매를 담당하는 사람이나 부서에 문의하여 연락할 파트너를 알아보는 것이 좋습니다. 
+> 경우에 따라 과거에 함께 작업한 파트너를 위한 Microsoft 365 관리 센터에서 정보를 찾을 수 있습니다. 이 정보는 최신 상태가 아닐 수 있습니다. 조직에서 구매를 담당하는 사람이나 부서에 문의하여 연락할 파트너를 알아보는 것이 좋습니다. 
   
 ## <a name="get-partner-info-in-the-admin-center"></a>관리 센터에서 파트너 정보 보기
 

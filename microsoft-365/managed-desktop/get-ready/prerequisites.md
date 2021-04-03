@@ -9,12 +9,13 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 5b5fb7185bb696bb6daae0a67a209cf3f7e77655
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: fcfddadf13e000156fa5431cc30bc72f4f3537e2
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924567"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581049"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 필수 구성 요소
 
@@ -55,3 +56,15 @@ Microsoft Managed Desktop을 사용하려면 특정 라이선스 옵션이 필�
 
 > [!TIP]
 > Microsoft 계정 관리자를 사용하면 현재 라이선스 및 서비스 계획을 검토하고 중복을 방지하면서 필요한 추가 라이선스 또는 서비스 계획을 얻을 수 있는 가장 효율적인 경로를 찾을 수 있습니다.
+
+## <a name="steps-to-get-ready"></a>준비 단계
+
+1. Microsoft Managed Desktop의 선행 [준비를 검토합니다.](prerequisites.md) (이 문서)
+2. 준비 [평가 도구를 사용합니다.](readiness-assessment-tool.md)
+3. [게스트 계정에 대한 필수 구성 요소](guest-accounts.md)
+4. [Microsoft Managed Desktop의 네트워크 구성](network.md)
+5. [Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](certs-wifi-lan.md)
+6. [Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](authentication.md)
+7. [Microsoft Managed Desktop의 앱](apps.md)
+8. [Microsoft Managed Desktop의 매핑된 드라이브 준비](mapped-drives.md)
+9. [Microsoft Managed Desktop의 인쇄 리소스 준비](printing.md)

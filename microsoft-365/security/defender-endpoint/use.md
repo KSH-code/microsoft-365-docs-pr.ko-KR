@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b490159d12bebdb95b6f168671393f8939da33be
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ee6fd4bd8d60f828bb474fc80cb987f4f94edcbe
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076711"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581097"
 ---
 # <a name="overview-of-microsoft-defender-security-center"></a>Microsoft Defender 보안 센터 개요
 
@@ -29,7 +29,7 @@ ms.locfileid: "51076711"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -46,7 +46,7 @@ Microsoft Defender 보안 센터는 끝점용 Microsoft Defender 기능에 액�
 ## <a name="microsoft-defender-for-endpoint-interactive-guide"></a>끝점용 Microsoft Defender 대화형 가이드
 이 대화형 가이드에서는 끝점용 Microsoft Defender를 통해 조직에 대한 위협을 조사하는 방법을 배우게 됩니다. 끝점용 Microsoft Defender가 어떻게 의심스러운 활동을 식별하고, 조직에 대한 위험을 조사하고, 위협을 수정하는 데 도움이 되는 방법을 확인할 수 있습니다.
 
-> [!VIDEO https://aka.ms/MSDE-IG]
+[대화형 가이드 확인](https://aka.ms/MSDE-IG)
 
 ### <a name="in-this-section"></a>이 섹션의 내용
 

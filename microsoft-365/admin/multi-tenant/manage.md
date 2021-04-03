@@ -2,8 +2,8 @@
 title: 여러 테넌트 관리
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 테넌트 전환기 사용 방법과 다중 테넌트 보기에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0b73665159fbc6ce2d1aa99ba1518dc257d88ec8
-ms.sourcegitcommit: 7d4aa58ae9fc893825b6e648fa3f072c3ac59628
+ms.openlocfilehash: 21b51a5e0c79496bf73e60c04aea68def3cf8ad6
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "49790141"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580885"
 ---
 # <a name="multi-tenant-management"></a>다중 테넌트 관리
 
@@ -32,7 +32,7 @@ ms.locfileid: "49790141"
 
 - 관리하는 테넌트 간에 빠르게 이동할 수 있습니다.
 - 여러 테넌트에서 서비스 상태, 제품 및 청구를 평가합니다.
-- 모든  테넌트 페이지에서 모든 테넌트의 서비스 상태, 열려 있는 서비스 요청, 제품 및 청구 및 해당 테넌트의 사용자 수를 빠르게 볼 수 있습니다.
+- 모든  테넌트 페이지에서 모든 테넌트의 서비스 상태, 열려 있는 서비스 요청, 제품 및 청구, 해당 테넌트의 사용자 수를 빠르게 볼 수 있습니다.
 
 
 ## <a name="move-between-tenants"></a>테넌트 간 이동
@@ -41,13 +41,13 @@ ms.locfileid: "49790141"
 
     :::image type="content" source="../../media/macorgswitcher.png" alt-text="다중 테넌트 전환기.":::
 
-- **테넌트 전환기에서** 관리하는 테넌트 간에 빠르게 이동할 수 있습니다.
+- **테넌트 전환기 에서** 관리하는 테넌트 간에 빠르게 이동할 수 있습니다.
 
     :::image type="content" source="../../media/yourtenantslist.png" alt-text="검색 기능이 있는 테넌트 목록":::
 
 ## <a name="view-all-tenants-page"></a>모든 테넌트 보기 페이지
 
-1. Microsoft 365 관리 센터의 왼쪽 nav에서 모든 **테넌트 선택**
+1. Microsoft 365 관리 센터의 왼쪽 nav에서 모든 **테넌트 를 선택합니다.**
 - 모든 **테넌트 페이지에서** 다음을 할 수 있습니다.
   - 서비스 상태 평가
   - 라이선스 사용 검토
@@ -55,21 +55,21 @@ ms.locfileid: "49790141"
   - 가장 자주 방문하는 테넌트도 목록 맨 위에 고정할 수 있습니다.
 
 
-테넌트가 즐겨찾기로 표시된 경우 상태 세부 정보를 즉시 볼 수 있도록 테넌트가 자동으로 확장됩니다.
+테넌트가 즐겨찾기로 표시된 경우 상태 세부 정보를 즉시 볼 수 있도록 자동으로 확장됩니다.
 
-## <a name="view-service-health-for-all-accounts"></a>모든 계정의 서비스 상태 보기
+## <a name="view-service-health-for-all-accounts"></a>모든 계정에 대한 서비스 상태 보기
 
-서비스 상태 보기에는 테넌트에 영향을 주는 인시던트 또는 권고가 표시됩니다. 관리되는 테넌트의 수가 영향을 받는지 알 수 있습니다.
+서비스 상태 보기에는 인시던트 또는 권고가 테넌트에 영향을 주는지가 표시됩니다. 관리되는 테넌트의 수가 영향을 받는지 알 수 있습니다.
 
-1. Microsoft 365 관리 센터의 다중 테넌트 보기에서 **서비스 상태 선택**
-2. 서비스  상태 페이지 집계 보기에서 총 인시던트 수, 관리되는 테넌트에 영향을 주는 총 권고 수 및 활성 인시던트가 있는 서비스 수를 볼 수 있습니다. 인시던트 및 권고의 영향을 받는 테넌트의 수를 볼 수도 있습니다.
+1. Microsoft 365 관리 센터의 다중 테넌트 보기에서 서비스 상태 **를 선택합니다.**
+2. 서비스 상태 **페이지** 집계 보기에서 총 인시던트 수, 관리되는 테넌트에 영향을 주는 총 권고 수 및 활성 인시던트가 있는 서비스 수를 볼 수 있습니다. 인시던트 및 권고의 영향을 받는 테넌트의 수를 볼 수도 있습니다.
     
     - 필터 옵션을 사용하여 문제 유형 또는 서비스별로 문제를 볼 수 있습니다.
 
     - 모든 서비스 또는 **모든** 문제 탭에서 문제를 **검토할** 수 있습니다.
 
-    :::image type="content" source="../../media/multitenant-servicehealth.png" alt-text="다중 테넌트 서비스 상태 페이지입니다.":::
-1. 개요 탭에서 **모든** 서비스  또는 모든 문제 탭에서 인시던트에 대한 자세한 정보를 **얻습니다.** 영향을 **받는 테넌트 탭을** 선택하여 영향을 받는 테넌트 목록을 얻습니다.
+    :::image type="content" source="../../media/multitenant-servicehealth.png" alt-text="다중 테넌트 서비스 상태 페이지.":::
+1. 개요 탭에서  인시던트에 대한 자세한 정보를 확인하려면 모든 서비스 또는 모든 문제 탭에서 인시던트 **선택**  영향을 **받는 테넌트 탭을** 선택하여 영향을 받는 테넌트 목록을 얻습니다.
 
     :::image type="content" source="../../media/tenantsaffected.png" alt-text="서비스 상태 문제의 영향을 받는 테넌트 목록입니다.":::
 
@@ -79,5 +79,5 @@ ms.locfileid: "49790141"
 
 모든 테넌트 페이지에서 모든 테넌트에 대한 Microsoft 365 관리 **센터로 돌아올 수** 있습니다.
 
-1. 모든 **테넌트** 페이지에서 관리 센터를 볼 테넌트 이름을 선택합니다.
+1. 모든 **테넌트 페이지에서** 관리 센터를 볼 테넌트 이름을 선택합니다.
 2. 해당 테넌트의 관리 센터로 연결됩니다.

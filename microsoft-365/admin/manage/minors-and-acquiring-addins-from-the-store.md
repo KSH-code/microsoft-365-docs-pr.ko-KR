@@ -2,8 +2,8 @@
 title: 스토어에서 미성년자 및 추가 기능 다운로드
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 미성년자 개인 데이터를 규정하는 GDPR(일반 데이터 보호 규정) 규정에 대해 자세히 알아보습니다.
-ms.openlocfilehash: c49ea719bc85166cc8082200eb833273b0ab5835
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e7f53a5a6b64f29f5029f0080fef44439c926edb
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915257"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580921"
 ---
 # <a name="minors-and-acquiring-add-ins-from-the-store"></a>스토어에서 미성년자 및 추가 기능 다운로드
 

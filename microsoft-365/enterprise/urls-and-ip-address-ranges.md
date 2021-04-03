@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
 description: '요약: Office 365를 사용하려면 인터넷에 연결되어 있어야 합니다. 아래의 끝점은 Government 커뮤니티 클라우드(GCC)를 포함하여 Office 365 요금제를 사용하는 고객에 연결할 수 있어야 합니다.'
 hideEdit: true
-ms.openlocfilehash: 1c0a2a486bf6964edc9b94fd670c96ade161cacd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b4b256e9138f89cd9d44182a08dd22050b17f7c2
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925271"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581109"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 및 IP 주소 범위
 
@@ -66,6 +66,7 @@ Office 365를 사용하려면 인터넷에 연결되어 있어야 합니다. 아
 >
 
 ## <a name="related-topics"></a>관련 주제
+[Office 365 IP 주소 및 URL 웹 서비스에 포함되지 않은 추가 엔드포인트](https://docs.microsoft.com/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls?view=o365-worldwide)
 
 [Office 365 끝점 관리](managing-office-365-endpoints.md)
 

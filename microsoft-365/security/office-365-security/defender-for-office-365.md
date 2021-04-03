@@ -21,12 +21,12 @@ ms.custom:
 description: Office 365용 Microsoft Defender에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ec60fc7063bdd4a2656385ed86098d6ae2b4abc0
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: dad2722a1f9e99fad53c83348d049fa9a60f8b62
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205956"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580993"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender
 
@@ -52,7 +52,7 @@ Office 365용 Microsoft Defender는 전자 메일 메시지, 링크 (URL) 및 �
 ## <a name="interactive-guide-to-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender에 대한 대화형 가이드
 이 대화형 가이드에서는 Office 365용 Microsoft Defender를 사용하여 조직을 보호하는 방법에 대해 알아봅니다. Office 365용 Defender를 통해 보호 정책을 정의하고, 조직에 대한 위협을 분석하고, 공격에 대응하는 방법을 알아봅니다.
 
-> [!VIDEO https://aka.ms/MSDO-IG]
+[대화형 가이드 확인](https://aka.ms/MSDO-IG)
 
 ## <a name="getting-started"></a>시작
 
@@ -97,6 +97,8 @@ Office 365용 Microsoft Defender가 처음이거나 *사용하면서* 배우기 
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Office 365용 Microsoft Defender 정책 구성
 
 Office 365용 Microsoft Defender를 사용하여 조직의 보안팀은 보안 및 준수 센터에서 정책을 정의하여 보호를 구성할 수 있습니다.(<https://protection.office.com> \> **위협 관리** \> **정책** 으로 이동하세요.)
+
+[이 비디오](https://www.youtube.com/watch?v=vivvTmWJ_3c)를 시청하여 자세히 확인하세요. 
 
 > [!TIP]
 > 정의할 정책의 빠른 목록을 보려면 [위협으로부터 보호](protect-against-threats.md)를 참조하세요.

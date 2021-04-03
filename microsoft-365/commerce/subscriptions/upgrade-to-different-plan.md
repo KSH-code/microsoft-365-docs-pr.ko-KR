@@ -20,21 +20,14 @@ ms.custom:
 search.appverid:
 - MET150
 description: 다른 계획으로 업그레이드하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 5f853dcd0d247a6422489cbe5d0287765bfd72a6
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 79ca18df28505c457e085dbd73c2fbd04eff53ca
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164452"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580981"
 ---
 # <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 비즈니스가 변경되거나 추가 기능이 필요한 경우 계획을 업그레이드할 수 있습니다. 이 작업을 수행하는 가장 쉬운 방법은 관리 센터에서 **업그레이드** 탭을 사용하는 것입니다. 그러나 업그레이드 **탭을** 사용하는 것은 모든 상황에서 지원되지 않습니다. 경우에 따라 계획을 수동으로 변경할 수 있습니다.
 

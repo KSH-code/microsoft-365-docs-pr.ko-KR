@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 8bb80e032fd2eb4c618b60f4ab46829d5cf11b6d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9b192a029704d1354867b169efdf0d489345030e
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199232"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580969"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>평가판 랩 또는 파일럿 환경에 맞게 Microsoft 365 Defender 기조 구성
 
@@ -39,7 +39,7 @@ ms.locfileid: "51199232"
 
 Microsoft 365 Defender 평가판 랩 또는 파일럿 환경을 만들고 배포하는 과정은 다음 3단계 프로세스입니다.
 
-|[![1단계: 준비](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[1단계: 준비](prepare-m365d-eval.md) |[![2단계: 설정](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[2단계: 설정](setup-m365deval.md) |![3단계: 온보더](../../media/phase-diagrams/onboard.png)<br/>3단계: 온보더 | [![파일럿으로 돌아가기](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[파일럿 플레이북으로 돌아가기](m365d-pilot.md) |
+|[![1 단계: 준비](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[1 단계: 준비](prepare-m365d-eval.md) |[![2 단계: 설정](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[2 단계: 설정](setup-m365deval.md) |![3 단계: 온보딩](../../media/phase-diagrams/onboard.png)<br/>3 단계: 온보딩 | [![파일럿으로 돌아가기](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[파일럿 플레이북으로 돌아가기](m365d-pilot.md) |
 |--|--|--|--|
 || |*여기 있습니다!* | |
 
@@ -285,8 +285,7 @@ Microsoft [365 보안 센터로 이동](https://security.microsoft.com/homepage)
 
 축하합니다! 방금 Microsoft 365 Defender 평가판 랩 또는 파일럿 환경을 만들게 되었습니다! 이제 Microsoft 365 Defender 사용자 인터페이스에 익숙해지세요! 다음 Microsoft 365 Defender 대화형 가이드에서 학습할 수 있는 내용을 알아보고 매일 수행되는 보안 작업 작업에 각 대시보드를 사용하는 방법을 알 수 있습니다.
 
-
->[!VIDEO https://aka.ms/MTP-Interactive-Guide]
+[대화형 가이드 확인](https://aka.ms/MTP-Interactive-Guide)
 
 다음으로, 공격을 시뮬레이트하고 제품 간 기능이 끝점에 대한 파일 없는 공격을 감지하고, 경고를 만들고, 자동으로 대응하는 방법을 볼 수 있습니다.
 
