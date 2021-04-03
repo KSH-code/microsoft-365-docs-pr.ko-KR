@@ -2,8 +2,8 @@
 title: 사용자의 이름 또는 전자 메일 주소 변경
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자의 이름 또는 전자 메일 주소를 변경하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f45f0bb2f2243a6105f6b5f3de89dd4693acbe17
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 6c08110e8725645f2e1d0deffcadd9f34354e1f9
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422954"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580681"
 ---
 # <a name="change-a-users-name-or-email-address"></a>사용자의 이름 또는 전자 메일 주소 변경
 

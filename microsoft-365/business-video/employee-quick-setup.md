@@ -2,8 +2,8 @@
 title: 직원 빠른 설정 가이드
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 직원이 Microsoft 365 Business Premium을 사용하여 다운로드하는 Office 앱을 설정하는 방법을 배우는 데 도움을 줄 수 있습니다.
-ms.openlocfilehash: c336e12e05a0bb2f0967c7e7591913cbb2ce6742
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 72b05435de13ef0d020be74f619a140e188f79d8
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422762"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580621"
 ---
 # <a name="employee-quick-setup"></a>직원 빠른 설정
 

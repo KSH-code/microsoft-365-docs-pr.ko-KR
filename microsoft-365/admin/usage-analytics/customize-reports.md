@@ -2,8 +2,8 @@
 title: Microsoft 365 사용 현황 분석에서 보고서 사용자 지정
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: 브라우저 및 Power BI Desktop에서 보고서를 사용자 지정하는 방법을 학습합니다.
-ms.openlocfilehash: d36e07a19b0ebda0d154b11723630e38b746eb8d
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 0ef2364c82318dfea93e8df4e64d53a66caa8d74
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471092"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580777"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석에서 보고서 사용자 지정
 

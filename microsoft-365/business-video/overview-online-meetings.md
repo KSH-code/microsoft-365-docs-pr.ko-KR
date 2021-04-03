@@ -2,8 +2,8 @@
 title: 온라인 모임 개요
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: twerner
+author: twernermsft
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스를 위한 온라인 모임을 호스팅하는 방법을 알아보하세요.
-ms.openlocfilehash: 85163990d65126cc3d9d6c11627e63aa975b2924
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: dffdf847962962b2f2e9daf70dae210abbb7614b
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913613"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580513"
 ---
 # <a name="host-online-meetings-for-your-business"></a>비즈니스를 위한 온라인 모임 호스트
 

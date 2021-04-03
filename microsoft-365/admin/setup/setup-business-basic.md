@@ -2,8 +2,8 @@
 title: Microsoft 365 Business Basic 설정
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Microsoft 365 Business Basic 구독을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: 65637accde5ed8ad81a8d68c60edb8bdf5184621
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 409d2fd4698452a1694d39c4ca3cc7f378d355e8
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914045"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580789"
 ---
 # <a name="set-up-microsoft-365-business-basic"></a>Microsoft 365 Business Basic 설정
 

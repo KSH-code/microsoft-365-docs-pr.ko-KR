@@ -2,8 +2,8 @@
 title: 사용자 암호 다시 설정
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 Microsoft 365에서 사용자 암호를 다시 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 897ee87149c779d3de6d2175993d17e88dfc270f
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 42832bd48f637589687b75c4995ae58154b62226
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422270"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580489"
 ---
 # <a name="reset-passwords-for-your-users"></a>사용자의 암호 다시 설정
 

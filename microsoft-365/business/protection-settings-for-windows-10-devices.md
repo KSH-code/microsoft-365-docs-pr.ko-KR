@@ -2,8 +2,8 @@
 title: Windows 10 장치에 대한 응용 프로그램 보호 설정 편집 또는 설정
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -29,12 +29,12 @@ search.appverid:
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: 앱 관리 정책을 만들거나 편집하고 사용자의 개인 Windows 10 장치에서 작업 파일을 보호하는 방법을 학습합니다.
-ms.openlocfilehash: 64c6aa620171a373cd7564c7de3abbf4a4546c4e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: aa270c563e6bdce6fd48f8713d7db3ce23921925
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912825"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580017"
 ---
 # <a name="set-or-edit-application-protection-settings-for-windows-10-devices"></a>Windows 10 장치에 대한 응용 프로그램 보호 설정 또는 편집
 

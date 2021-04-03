@@ -2,8 +2,8 @@
 title: 관리자 모바일 앱 다운로드
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 휴대폰에 Microsoft 365 관리 모바일 앱을 설치하는 방법을 배워야 합니다.
-ms.openlocfilehash: 43c2c2905dec978a520e2bf2d4b9b2aa7318b7a7
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 0367123e9bd74ab79c17b38eb49cc31fc6fba8e4
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423014"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580705"
 ---
 # <a name="install-the-microsoft-365-admin-mobile-app-on-your-phone"></a>휴대폰에 Microsoft 365 관리 모바일 앱 설치
 

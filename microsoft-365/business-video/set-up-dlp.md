@@ -2,8 +2,8 @@
 title: 데이터 손실 방지
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 데이터 손실 방지 정책 설정 관리 방법을 배워야 합니다.
-ms.openlocfilehash: 54cd508ef0b0cfcf8b71dc86a4903f77a5354c36
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 04dbbcfd39186b8161fb497b72ddb070fbfb7471
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422066"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580441"
 ---
 # <a name="prevent-data-loss-with-dlp"></a>DLP로 데이터 손실 방지
 

@@ -2,8 +2,8 @@
 title: Microsoft 365 Business Premium의 보호 기능을 Intune 설정에 매핑하는 방법
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 ms.date: 8/13/2018
 audience: Admin
@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Microsoft 365 Business Premium의 보호 기능이 Intune 설정에 매핑하는 방법을 확인합니다. 구독은 Intune 설정을 수정할 수 있는 라이선스를 제공합니다.
-ms.openlocfilehash: 5e8a7aa570b0f56324a483fb2cdb77c19f3b2379
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9a6dcf014e009389e49860fa96486c264c22f501
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913025"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580117"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-premium-map-to-intune-settings"></a>Microsoft 365 Business Premium의 보호 기능을 Intune 설정에 매핑하는 방법
 

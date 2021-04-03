@@ -2,8 +2,8 @@
 title: Microsoft 365 Business Premium 설정
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: 도메인 및 사용자 추가, 보안 정책 설정 등을 포함하여 Microsoft 365 Business Premium의 설정 단계를 검색합니다.
-ms.openlocfilehash: a06fb48ef5e1386a5c7b4df08500125f37943df6
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c8e2ca94f4947d4f9c69915d2fef410a6075bfed
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198445"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579917"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>설치 마법사에서 Microsoft 365 Business Premium 설정
 

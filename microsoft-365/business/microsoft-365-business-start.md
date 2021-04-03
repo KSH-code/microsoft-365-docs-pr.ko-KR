@@ -2,8 +2,8 @@
 title: 비즈니스용 Microsoft 365 시작
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 비즈니스용 Microsoft 365, 비즈니스용 Microsoft 365를 설정하는 방법 및 사용자의 장치와 PC를 비즈니스용 Microsoft 365에서 보호하도록 준비하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9430dc7aa637be3fdb833150b83e96caacc82170
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 83bd2ff87683c1ad810d20658ba20f3229408968
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912965"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580097"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 시작
 

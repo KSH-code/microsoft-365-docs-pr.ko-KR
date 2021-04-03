@@ -2,8 +2,8 @@
 title: 비즈니스용 OneDrive로 파일 이동
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -23,17 +23,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
-description: 몇 가지 쉬운 단계에 따라 개인 작업 파일 및 중요한 회사 파일을 비즈니스용 OneDrive로 이동하는 방법을 알아보십시오.
-ms.openlocfilehash: 561c9dee1080a50dea695f136df10be8e5d52959
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: 몇 가지 간단한 단계로 개인 작업 파일 및 중요한 회사 파일을 비즈니스용 OneDrive로 이동하는 방법을 알아보십시오.
+ms.openlocfilehash: d6bcf2b41f1052c521fda50557aac4bf6a3800fa
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785915"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580077"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>비즈니스용 OneDrive로 파일 이동
 
-비즈니스용 OneDrive로 파일을 이동하는 방법과 관련한 짧은 비디오를 시청합니다.<br><br>
+비즈니스용 OneDrive로 파일 이동에 대한 짧은 비디오를 시청합니다.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
@@ -44,7 +44,7 @@ ms.locfileid: "44785915"
 
 컴퓨터에 개인 파일이 많이 저장되어 있는 경우 우선 해당 파일을 비즈니스용 OneDrive로 이동해야 합니다.
   
-1. Go to portal.office.com and sign in with the user's Microsoft 365 for business credentials.
+1. 이동하여 portal.office.com 비즈니스용 Microsoft 365 자격 증명으로 로그인합니다.
 
 2. 앱 시작 관리자 ![The app launcher icon in Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) 를 클릭하고 OneDrive로 이동합니다. 
     

@@ -2,8 +2,8 @@
 title: Microsoft 365로 전자 메일 및 연락처 마이그레이션
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -28,12 +28,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: Gmail 또는 다른 전자 메일 공급자에서 연락처, 일정 및 전자 메일을 가져와 Microsoft 365로 마이그레이션하는 방법을 학습합니다.
-ms.openlocfilehash: 91c8177322e8ebc1e1530675d92d60e96cc73adb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 752138d3194379529d78a299b36aa177a832d55b
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914105"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580813"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>Microsoft 365로 전자 메일 및 연락처 마이그레이션
 

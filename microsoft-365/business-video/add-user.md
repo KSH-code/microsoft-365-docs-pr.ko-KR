@@ -2,8 +2,8 @@
 title: 비즈니스용 Microsoft 365에 사용자 추가
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스용 Microsoft 365에서 사용자를 추가하는 방법을 배워야 합니다.
-ms.openlocfilehash: 8f3b0076b04066e4d67f00b92c04cd364e40e05d
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: d1167241a7b4c6012663f900973cb2fdbb7792bb
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423074"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580717"
 ---
 # <a name="add-a-new-user"></a>새 사용자 추가
 
