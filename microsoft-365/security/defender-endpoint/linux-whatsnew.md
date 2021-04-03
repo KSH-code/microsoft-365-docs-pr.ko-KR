@@ -18,59 +18,63 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dc3d775aced2ea3da42312cbf5a4d5e5af9fae50
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 02a446f47ce4292b214c868e773802c53f7e3353
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198780"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581005"
 ---
-# <a name="whats-new-in-microsoft-defender-for-endpoint-for-linux"></a><span data-ttu-id="8d69a-104">Linux용 끝점용 Microsoft Defender의 새로운</span><span class="sxs-lookup"><span data-stu-id="8d69a-104">What's new in Microsoft Defender for Endpoint for Linux</span></span>
+# <a name="whats-new-in-microsoft-defender-for-endpoint-for-linux"></a><span data-ttu-id="1c0a2-104">Linux용 끝점용 Microsoft Defender의 새로운</span><span class="sxs-lookup"><span data-stu-id="1c0a2-104">What's new in Microsoft Defender for Endpoint for Linux</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-## <a name="1012364-30121021123640"></a><span data-ttu-id="8d69a-105">101.23.64 (30.121021.12364.0)</span><span class="sxs-lookup"><span data-stu-id="8d69a-105">101.23.64 (30.121021.12364.0)</span></span>
+## <a name="1012563-30121022125630"></a><span data-ttu-id="1c0a2-105">101.25.63 (30.121022.12563.0)</span><span class="sxs-lookup"><span data-stu-id="1c0a2-105">101.25.63 (30.121022.12563.0)</span></span>
 
-- <span data-ttu-id="8d69a-106">전체 탑재 지점이 바이러스 백신 제외 목록에 추가되는 상황에 대한 성능 향상.</span><span class="sxs-lookup"><span data-stu-id="8d69a-106">Performance improvement for the situation where an entire mount point is added to the antivirus exclusion list.</span></span> <span data-ttu-id="8d69a-107">이 버전 이전에는 탑재 지점에서 시작된 파일 활동이 제품에 의해 계속 처리되었습니다.</span><span class="sxs-lookup"><span data-stu-id="8d69a-107">Prior to this version, file activity originating from the mount point was still processed by the product.</span></span> <span data-ttu-id="8d69a-108">이 버전부터 제외된 탑재 지점에 대한 파일 활동이 억제되고 제품 성능이 향상됩니다.</span><span class="sxs-lookup"><span data-stu-id="8d69a-108">Starting with this version, file activity for excluded mount points is suppressed, leading to better product performance</span></span>
-- <span data-ttu-id="8d69a-109">마지막 명령줄 검사에 대한 정보를 볼 수 있는 새 옵션이 명령줄 도구에 추가되었습니다.</span><span class="sxs-lookup"><span data-stu-id="8d69a-109">Added a new option to the command-line tool to view information about the last on-demand scan.</span></span> <span data-ttu-id="8d69a-110">마지막 on-demand 검사에 대한 정보를 보기 위해 를 실행합니다. `mdatp health --details antivirus`</span><span class="sxs-lookup"><span data-stu-id="8d69a-110">To view information about the last on-demand scan, run `mdatp health --details antivirus`</span></span>
-- <span data-ttu-id="8d69a-111">버그 수정에 & 성능 향상</span><span class="sxs-lookup"><span data-stu-id="8d69a-111">Other performance improvements & bug fixes</span></span>
+- <span data-ttu-id="1c0a2-106">버그 수정을 & 성능 개선</span><span class="sxs-lookup"><span data-stu-id="1c0a2-106">Performance improvements & bug fixes</span></span>
 
-## <a name="1011853"></a><span data-ttu-id="8d69a-112">101.18.53</span><span class="sxs-lookup"><span data-stu-id="8d69a-112">101.18.53</span></span>
+## <a name="1012364-30121021123640"></a><span data-ttu-id="1c0a2-107">101.23.64 (30.121021.12364.0)</span><span class="sxs-lookup"><span data-stu-id="1c0a2-107">101.23.64 (30.121021.12364.0)</span></span>
 
-- <span data-ttu-id="8d69a-113">Linux용 EDR은 이제 일반적으로 [사용할 수 있습니다.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/edr-for-linux-is-now-is-generally-available/ba-p/2048539)</span><span class="sxs-lookup"><span data-stu-id="8d69a-113">EDR for Linux is now [generally available](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/edr-for-linux-is-now-is-generally-available/ba-p/2048539)</span></span>
-- <span data-ttu-id="8d69a-114">사용자 지정 검사 중에 AV 제외를 무시하는 새 명령줄 스위치()가 `--ignore-exclusions` 추가되었습니다. `mdatp scan custom`</span><span class="sxs-lookup"><span data-stu-id="8d69a-114">Added a new command-line switch (`--ignore-exclusions`) to ignore AV exclusions during custom scans (`mdatp scan custom`)</span></span>
-- <span data-ttu-id="8d69a-115">진단 로그를 다른 디렉터리에 저장할 수 있도록 하는 새 매개 변수()로 `mdatp diagnostic create` `--path [directory]` 확장</span><span class="sxs-lookup"><span data-stu-id="8d69a-115">Extended `mdatp diagnostic create` with a new parameter (`--path [directory]`) that allows the diagnostic logs to be saved to a different directory</span></span>
-- <span data-ttu-id="8d69a-116">버그 수정을 & 성능 개선</span><span class="sxs-lookup"><span data-stu-id="8d69a-116">Performance improvements & bug fixes</span></span>
+- <span data-ttu-id="1c0a2-108">전체 탑재 지점이 바이러스 백신 제외 목록에 추가되는 상황에 대한 성능 향상.</span><span class="sxs-lookup"><span data-stu-id="1c0a2-108">Performance improvement for the situation where an entire mount point is added to the antivirus exclusion list.</span></span> <span data-ttu-id="1c0a2-109">이 버전 이전에는 탑재 지점에서 시작된 파일 활동이 제품에 의해 계속 처리되었습니다.</span><span class="sxs-lookup"><span data-stu-id="1c0a2-109">Prior to this version, file activity originating from the mount point was still processed by the product.</span></span> <span data-ttu-id="1c0a2-110">이 버전부터 제외된 탑재 지점에 대한 파일 활동이 억제되고 제품 성능이 향상됩니다.</span><span class="sxs-lookup"><span data-stu-id="1c0a2-110">Starting with this version, file activity for excluded mount points is suppressed, leading to better product performance</span></span>
+- <span data-ttu-id="1c0a2-111">마지막 명령줄 검사에 대한 정보를 볼 수 있는 새 옵션이 명령줄 도구에 추가되었습니다.</span><span class="sxs-lookup"><span data-stu-id="1c0a2-111">Added a new option to the command-line tool to view information about the last on-demand scan.</span></span> <span data-ttu-id="1c0a2-112">마지막 on-demand 검사에 대한 정보를 보기 위해 를 실행합니다. `mdatp health --details antivirus`</span><span class="sxs-lookup"><span data-stu-id="1c0a2-112">To view information about the last on-demand scan, run `mdatp health --details antivirus`</span></span>
+- <span data-ttu-id="1c0a2-113">버그 수정에 & 성능 향상</span><span class="sxs-lookup"><span data-stu-id="1c0a2-113">Other performance improvements & bug fixes</span></span>
 
-## <a name="1011299"></a><span data-ttu-id="8d69a-117">101.12.99</span><span class="sxs-lookup"><span data-stu-id="8d69a-117">101.12.99</span></span>
+## <a name="1011853"></a><span data-ttu-id="1c0a2-114">101.18.53</span><span class="sxs-lookup"><span data-stu-id="1c0a2-114">101.18.53</span></span>
 
-- <span data-ttu-id="8d69a-118">버그 수정을 & 성능 개선</span><span class="sxs-lookup"><span data-stu-id="8d69a-118">Performance improvements & bug fixes</span></span>
+- <span data-ttu-id="1c0a2-115">Linux용 EDR은 이제 일반적으로 [사용할 수 있습니다.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/edr-for-linux-is-now-is-generally-available/ba-p/2048539)</span><span class="sxs-lookup"><span data-stu-id="1c0a2-115">EDR for Linux is now [generally available](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/edr-for-linux-is-now-is-generally-available/ba-p/2048539)</span></span>
+- <span data-ttu-id="1c0a2-116">사용자 지정 검사 중에 AV 제외를 무시하는 새 명령줄 스위치()가 `--ignore-exclusions` 추가되었습니다. `mdatp scan custom`</span><span class="sxs-lookup"><span data-stu-id="1c0a2-116">Added a new command-line switch (`--ignore-exclusions`) to ignore AV exclusions during custom scans (`mdatp scan custom`)</span></span>
+- <span data-ttu-id="1c0a2-117">진단 로그를 다른 디렉터리에 저장할 수 있도록 하는 새 매개 변수()로 `mdatp diagnostic create` `--path [directory]` 확장</span><span class="sxs-lookup"><span data-stu-id="1c0a2-117">Extended `mdatp diagnostic create` with a new parameter (`--path [directory]`) that allows the diagnostic logs to be saved to a different directory</span></span>
+- <span data-ttu-id="1c0a2-118">버그 수정을 & 성능 개선</span><span class="sxs-lookup"><span data-stu-id="1c0a2-118">Performance improvements & bug fixes</span></span>
 
-## <a name="1010476"></a><span data-ttu-id="8d69a-119">101.04.76</span><span class="sxs-lookup"><span data-stu-id="8d69a-119">101.04.76</span></span>
+## <a name="1011299"></a><span data-ttu-id="1c0a2-119">101.12.99</span><span class="sxs-lookup"><span data-stu-id="1c0a2-119">101.12.99</span></span>
 
-- <span data-ttu-id="8d69a-120">버그 수정</span><span class="sxs-lookup"><span data-stu-id="8d69a-120">Bug fixes</span></span>
+- <span data-ttu-id="1c0a2-120">버그 수정을 & 성능 개선</span><span class="sxs-lookup"><span data-stu-id="1c0a2-120">Performance improvements & bug fixes</span></span>
 
-## <a name="1010348"></a><span data-ttu-id="8d69a-121">101.03.48</span><span class="sxs-lookup"><span data-stu-id="8d69a-121">101.03.48</span></span>
+## <a name="1010476"></a><span data-ttu-id="1c0a2-121">101.04.76</span><span class="sxs-lookup"><span data-stu-id="1c0a2-121">101.04.76</span></span>
 
-- <span data-ttu-id="8d69a-122">버그 수정</span><span class="sxs-lookup"><span data-stu-id="8d69a-122">Bug fixes</span></span>
+- <span data-ttu-id="1c0a2-122">버그 수정</span><span class="sxs-lookup"><span data-stu-id="1c0a2-122">Bug fixes</span></span>
 
-## <a name="1010255"></a><span data-ttu-id="8d69a-123">101.02.55</span><span class="sxs-lookup"><span data-stu-id="8d69a-123">101.02.55</span></span>
+## <a name="1010348"></a><span data-ttu-id="1c0a2-123">101.03.48</span><span class="sxs-lookup"><span data-stu-id="1c0a2-123">101.03.48</span></span>
 
-- <span data-ttu-id="8d69a-124">제품이 때때로 재부팅/업그레이드 후 시작되지 않는 문제를 해결했습니다.</span><span class="sxs-lookup"><span data-stu-id="8d69a-124">Fixed an issue where the product sometimes does not start following a reboot / upgrade</span></span>
-- <span data-ttu-id="8d69a-125">제품 업그레이드에서 프록시 설정이 유지되지 않는 문제를 해결했습니다.</span><span class="sxs-lookup"><span data-stu-id="8d69a-125">Fixed an issue where proxy settings are not persisted across product upgrades</span></span>
+- <span data-ttu-id="1c0a2-124">버그 수정</span><span class="sxs-lookup"><span data-stu-id="1c0a2-124">Bug fixes</span></span>
 
-## <a name="1010075"></a><span data-ttu-id="8d69a-126">101.00.75</span><span class="sxs-lookup"><span data-stu-id="8d69a-126">101.00.75</span></span>
+## <a name="1010255"></a><span data-ttu-id="1c0a2-125">101.02.55</span><span class="sxs-lookup"><span data-stu-id="1c0a2-125">101.02.55</span></span>
 
-- <span data-ttu-id="8d69a-127">, , , , , , , , , , 및 파일 시스템 유형에 대한 `ecryptfs` `fuse` `fuseblk` `jfs` `nfs` `overlay` `ramfs` `reiserfs` `udf` 지원이 추가되었습니다. `vfat`</span><span class="sxs-lookup"><span data-stu-id="8d69a-127">Added support for the following file system types: `ecryptfs`, `fuse`, `fuseblk`, `jfs`, `nfs`, `overlay`, `ramfs`, `reiserfs`, `udf`, and `vfat`</span></span>
-- <span data-ttu-id="8d69a-128">명령줄 도구에 대한 새 [구문입니다.](linux-resources.md#configure-from-the-command-line)</span><span class="sxs-lookup"><span data-stu-id="8d69a-128">New syntax for the [command-line tool](linux-resources.md#configure-from-the-command-line).</span></span>
-- <span data-ttu-id="8d69a-129">버그 수정을 & 성능 개선</span><span class="sxs-lookup"><span data-stu-id="8d69a-129">Performance improvements & bug fixes</span></span>
+- <span data-ttu-id="1c0a2-126">제품이 때때로 재부팅/업그레이드 후 시작되지 않는 문제를 해결했습니다.</span><span class="sxs-lookup"><span data-stu-id="1c0a2-126">Fixed an issue where the product sometimes does not start following a reboot / upgrade</span></span>
+- <span data-ttu-id="1c0a2-127">제품 업그레이드에서 프록시 설정이 유지되지 않는 문제를 해결했습니다.</span><span class="sxs-lookup"><span data-stu-id="1c0a2-127">Fixed an issue where proxy settings are not persisted across product upgrades</span></span>
 
-## <a name="1009070"></a><span data-ttu-id="8d69a-130">100.90.70</span><span class="sxs-lookup"><span data-stu-id="8d69a-130">100.90.70</span></span>
+## <a name="1010075"></a><span data-ttu-id="1c0a2-128">101.00.75</span><span class="sxs-lookup"><span data-stu-id="1c0a2-128">101.00.75</span></span>
+
+- <span data-ttu-id="1c0a2-129">, , , , , , , , , , 및 파일 시스템 유형에 대한 `ecryptfs` `fuse` `fuseblk` `jfs` `nfs` `overlay` `ramfs` `reiserfs` `udf` 지원이 추가되었습니다. `vfat`</span><span class="sxs-lookup"><span data-stu-id="1c0a2-129">Added support for the following file system types: `ecryptfs`, `fuse`, `fuseblk`, `jfs`, `nfs`, `overlay`, `ramfs`, `reiserfs`, `udf`, and `vfat`</span></span>
+- <span data-ttu-id="1c0a2-130">명령줄 도구에 대한 새 [구문입니다.](linux-resources.md#configure-from-the-command-line)</span><span class="sxs-lookup"><span data-stu-id="1c0a2-130">New syntax for the [command-line tool](linux-resources.md#configure-from-the-command-line).</span></span>
+- <span data-ttu-id="1c0a2-131">버그 수정을 & 성능 개선</span><span class="sxs-lookup"><span data-stu-id="1c0a2-131">Performance improvements & bug fixes</span></span>
+
+## <a name="1009070"></a><span data-ttu-id="1c0a2-132">100.90.70</span><span class="sxs-lookup"><span data-stu-id="1c0a2-132">100.90.70</span></span>
 
 > [!WARNING]
-> <span data-ttu-id="8d69a-131">설치된 패키지를 100.90.70 이전 제품 버전에서 업그레이드하는 경우 Red Hat 기반 및 SLES 배포에서 업데이트가 실패할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8d69a-131">When upgrading the installed package from a product version earlier than 100.90.70, the update may fail on Red Hat-based and SLES distributions.</span></span> <span data-ttu-id="8d69a-132">이는 파일 경로가 대대적인 변경된 것이기 때문에입니다.</span><span class="sxs-lookup"><span data-stu-id="8d69a-132">This is because of a major change in a file path.</span></span> <span data-ttu-id="8d69a-133">임시 솔루션은 이전 패키지를 제거한 다음 새 패키지를 설치하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="8d69a-133">A temporary solution is to remove the older package, and then install the newer one.</span></span> <span data-ttu-id="8d69a-134">이 문제는 최신 버전에 존재하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="8d69a-134">This issue does not exist in newer versions.</span></span>
+> <span data-ttu-id="1c0a2-133">설치된 패키지를 100.90.70 이전 제품 버전에서 업그레이드하는 경우 Red Hat 기반 및 SLES 배포에서 업데이트가 실패할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="1c0a2-133">When upgrading the installed package from a product version earlier than 100.90.70, the update may fail on Red Hat-based and SLES distributions.</span></span> <span data-ttu-id="1c0a2-134">이는 파일 경로가 대대적인 변경된 것이기 때문에입니다.</span><span class="sxs-lookup"><span data-stu-id="1c0a2-134">This is because of a major change in a file path.</span></span> <span data-ttu-id="1c0a2-135">임시 솔루션은 이전 패키지를 제거한 다음 새 패키지를 설치하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="1c0a2-135">A temporary solution is to remove the older package, and then install the newer one.</span></span> <span data-ttu-id="1c0a2-136">이 문제는 최신 버전에 존재하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="1c0a2-136">This issue does not exist in newer versions.</span></span>
 
-- <span data-ttu-id="8d69a-135">바이러스 [백신 제외에서 와일드카드 지원](linux-exclusions.md#supported-exclusion-types)</span><span class="sxs-lookup"><span data-stu-id="8d69a-135">Antivirus [exclusions now support wildcards](linux-exclusions.md#supported-exclusion-types)</span></span>
-- <span data-ttu-id="8d69a-136">명령줄 도구를 [통해](linux-support-perf.md) 성능 문제를 해결하는 `mdatp` 기능을 추가했습니다.</span><span class="sxs-lookup"><span data-stu-id="8d69a-136">Added the ability to [troubleshoot performance issues](linux-support-perf.md) through the `mdatp` command-line tool</span></span>
-- <span data-ttu-id="8d69a-137">패키지 설치를 보다 강력하게 만들기 위한 개선된 기능</span><span class="sxs-lookup"><span data-stu-id="8d69a-137">Improvements to make the package installation more robust</span></span>
-- <span data-ttu-id="8d69a-138">버그 수정을 & 성능 개선</span><span class="sxs-lookup"><span data-stu-id="8d69a-138">Performance improvements & bug fixes</span></span>
+- <span data-ttu-id="1c0a2-137">바이러스 [백신 제외에서 와일드카드 지원](linux-exclusions.md#supported-exclusion-types)</span><span class="sxs-lookup"><span data-stu-id="1c0a2-137">Antivirus [exclusions now support wildcards](linux-exclusions.md#supported-exclusion-types)</span></span>
+- <span data-ttu-id="1c0a2-138">명령줄 도구를 [통해](linux-support-perf.md) 성능 문제를 해결하는 `mdatp` 기능을 추가했습니다.</span><span class="sxs-lookup"><span data-stu-id="1c0a2-138">Added the ability to [troubleshoot performance issues](linux-support-perf.md) through the `mdatp` command-line tool</span></span>
+- <span data-ttu-id="1c0a2-139">패키지 설치를 보다 강력하게 만들기 위한 개선된 기능</span><span class="sxs-lookup"><span data-stu-id="1c0a2-139">Improvements to make the package installation more robust</span></span>
+- <span data-ttu-id="1c0a2-140">버그 수정을 & 성능 개선</span><span class="sxs-lookup"><span data-stu-id="1c0a2-140">Performance improvements & bug fixes</span></span>
