@@ -1,6 +1,6 @@
 ---
-title: 동작 차단 및 포함
-description: Microsoft Defender ATP의 동작 차단 및 포함 기능에 대해 자세히 알아보기
+title: 동작 차단 및 제약
+description: 끝점용 Microsoft Defender의 동작 차단 및 포함 기능에 대해 자세히 알아보기
 keywords: Microsoft Defender ATP, 차단 모드의 EDR, 수동 모드 차단
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
@@ -19,19 +19,19 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: dcad3b7233f2efd444d41c15916eaae195634c8c
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7cea65292c427cb953e2e8e3ca866c89f83128b1
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166236"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587170"
 ---
-# <a name="behavioral-blocking-and-containment"></a>동작 차단 및 포함
+# <a name="behavioral-blocking-and-containment"></a>동작 차단 및 제약
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -42,7 +42,7 @@ ms.locfileid: "51166236"
 
 동작 차단 및 포함 기능은 위협이 실행을 시작한 경우에도 동작 및 처리 트리에 따라 위협을 식별하고 중지하는 데 도움이 될 수 있습니다. 엔드포인트 구성 요소 및 기능에 대한 차세대 보호, EDR 및 Defender는 동작 차단 및 포함 기능에서 함께 작동됩니다. 
 
-:::image type="content" source="images/mdatp-next-gen-EDR-behavblockcontain.png" alt-text="동작 차단 및 포함":::
+:::image type="content" source="images/mdatp-next-gen-EDR-behavblockcontain.png" alt-text="동작 차단 및 제약":::
 
 동작 차단 및 포함 기능은 끝점용 Defender의 여러 구성 요소 및 기능과 함께 작동하여 공격을 즉시 중지하고 공격이 진행되지 않도록 합니다.
 

@@ -1,7 +1,7 @@
 ---
-title: Microsoft Intune을 통해 Android용 Microsoft Defender ATP 배포
-description: Microsoft Intune을 사용하여 Android용 Microsoft Defender ATP를 배포하는 방법에 대해 설명
-keywords: microsoft, defender, atp, android, 설치, 배포, 제거,
+title: Microsoft Intune으로 엔드포인트용 Microsoft Defender(Android용) 배포
+description: Microsoft Intune을 사용하여 Android용 끝점용 Microsoft Defender를 배포하는 방법에 대해 설명
+keywords: microsoft, defender, atp, mde, android, 설치, 배포, 제거,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -15,22 +15,21 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e557f60346b2f68354df621b6e4812eac775d812
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: fdfc6e63945e15ce2d1f1a293c377f641eeb9bc4
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165672"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587698"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-android-with-microsoft-intune"></a>Microsoft Intune을 통해 Android용 끝점용 Microsoft Defender 배포 
+# <a name="deploy-microsoft-defender-for-endpoint-for-android-with-microsoft-intune"></a>Microsoft Intune으로 엔드포인트용 Microsoft Defender(Android용) 배포 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -261,5 +260,5 @@ Endpoint용 Defender는 Intune을 통해 관리되는 장치에 대한 장치 �
 
 
 ## <a name="related-topics"></a>관련 항목
-- [Android용 끝점용 Microsoft Defender 개요](microsoft-defender-endpoint-android.md)
-- [Android용 끝점 기능에 대한 Microsoft Defender 구성](android-configure.md)
+- [엔드포인트용 Microsoft Defender(Android용) 개요](microsoft-defender-endpoint-android.md)
+- [엔드포인트용 Microsoft Defender(Android용) 기능 구성](android-configure.md)

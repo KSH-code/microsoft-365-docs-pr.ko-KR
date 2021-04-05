@@ -13,16 +13,38 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 9176bfbbd015243266ba1c8cbad9d04787f6a6cc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5e57f21690372b16c86a65fcfe4d00cb5c907391
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909253"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587530"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 
 이 문서에는 Microsoft Managed Desktop 설명서의 신규 문서와 [업데이트된 문서가 나열되어 있습니다.](index.yml) "업데이트된" 문서에는 오타, 스타일 또는 서식 문제의 수정과 같은 부적인 수정이 추가되거나 수정되었습니다. [항상 GitHub의](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)리포지토리를 방문하여 특정 커밋 기록(변경 내용 세부 정보 포함)을 볼 수 있습니다.
+
+## <a name="march-2021"></a>2021년 3월
+신규 또는 변경된 문서 | 설명
+--- | ---
+[Microsoft Managed Desktop의 관리자 지원](working-with-managed-desktop/admin-support.md) | 업데이트된 문서
+[Autopilot 및 등록 상태 페이지의 첫 실행 환경](get-started/esp-first-run.md) | 업데이트된 문서
+[Windows 10 위치 서비스](get-started/device-location.md) | 새 문서
+[장치 이미지](service-description/device-images.md) | 새 문서
+[Microsoft Managed Desktop 지원 지역](service-description/regions-languages.md) | 업데이트된 문서
+[사용자 환경 현지화](get-started/localization.md) | 새 문서
+
+## <a name="february-2021"></a>2021년 2월
+신규 또는 변경된 문서 | 설명
+--- | ---
+[관리 포털 액세스](get-started/access-admin-portal.md) | 업데이트된 문서
+[Microsoft Managed Desktop 기술](intro/technologies.md) | 업데이트된 문서
+[장치 요구 사항](service-description/device-requirements.md) | 업데이트된 문서
+[준비 평가 도구에서 발견한 문제 해결](get-ready/readiness-assessment-fix.md) | 업데이트된 문서
+[Microsoft OneDrive](get-started/onedrive.md) | 새 문서
+[규정 준수](intro/compliance.md) | 업데이트되었습니다.
+[Microsoft Office 365 ProPlus](get-started/m365-apps.md) | 업데이트된 문서
+[준비 평가 도구](get-ready/readiness-assessment-tool.md) | 업데이트된 문서
 
 ## <a name="january-2021"></a>2021년 1월
 신규 또는 변경된 문서 | 설명

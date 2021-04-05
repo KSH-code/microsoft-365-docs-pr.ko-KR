@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 그룹 만료 정책에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 65a746751cd523a5dadce3eca573e6a9bfce0166
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: fdef06918ec2c35547c084e5f431aa7bef8d6a8c
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052305"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587626"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Microsoft 365 그룹 만료 정책
 
@@ -63,7 +63,7 @@ Microsoft 365 그룹 및 Microsoft Teams의 사용이 증가하면 관리자와 
 
 그룹에 소유자가 없는 경우 만료 전자 메일은 지정된 관리자에게 전송됩니다.
 
-모든 그룹에 대해 정책을 설정하고 선택한 그룹만 설정하거나 없음을 선택하여 완전히 해제할 **수 있습니다.** 현재 다른 그룹에 대해 다른 정책을 사용할 수 없습니다.
+모든 그룹에 대한 정책을 설정하고 선택한 그룹(최대 500개)만 설정하거나 없음을 선택하여 완전히 해제할 **수 있습니다.** 현재 다른 그룹에 대해 다른 정책을 사용할 수 없습니다.
 
 ![Azure Active Directory의 그룹 만료 설정 스크린샷](../media/azure-groups-expiration-settings.png)
 

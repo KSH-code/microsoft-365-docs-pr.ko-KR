@@ -1,7 +1,7 @@
 ---
 title: 차단 모드에서 끝점 검색 및 응답
 description: 차단 모드에서 끝점 검색 및 응답에 대해 자세히 알아보기
-keywords: Microsoft Defender ATP, 차단 모드의 EDR, 수동 모드 차단
+keywords: Microsoft Defender ATP, mde, 차단 모드의 EDR, 수동 모드 차단
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 author: denisebmsft
@@ -20,19 +20,19 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 7bee6c99d2c1c5ad3cec8f2e317b729a0a4e1f8b
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: e492d57d8a7e10a1fff57980408ed8234bbeead0
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379481"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587206"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>차단 모드의 끝점 검색 및 응답(EDR)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -86,7 +86,7 @@ ms.locfileid: "51379481"
 > [!IMPORTANT]
 > 최상의 보호 값을 얻기 위해 정기적인 업데이트 및 필수 기능을 받도록 바이러스 백신 솔루션이 구성되어 있는지, 그리고 제외가 구성되어 [있는지 확인합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) 차단 모드의 EDR은 Microsoft Defender 바이러스 백신에 대해 정의된 제외를 존중합니다.
 
-## <a name="frequently-asked-questions"></a>질문과 대답 
+## <a name="frequently-asked-questions"></a>자주 묻는 질문 
 
 ### <a name="do-i-need-to-turn-edr-in-block-mode-on-even-when-i-have-microsoft-defender-antivirus-running-on-devices"></a>장치에서 Microsoft Defender 바이러스 백신을 실행하고 있는 경우에도 차단 모드로 EDR을 켜야 하나요?
 
@@ -139,6 +139,6 @@ Microsoft Defender 바이러스 백신이 활성 모드 또는 수동 모드에�
 ## <a name="see-also"></a>참고 항목
 
 - [기술 커뮤니티 블로그: 차단 모드에서 EDR 소개: 추적에서 공격 중지](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/introducing-edr-in-block-mode-stopping-attacks-in-their-tracks/ba-p/1596617)
-- [동작 차단 및 포함](behavioral-blocking-containment.md)
+- [동작 차단 및 제약](behavioral-blocking-containment.md)
 - [함께 사용: Microsoft Defender 바이러스 백신 및 끝점용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/why-use-microsoft-antivirus)
 

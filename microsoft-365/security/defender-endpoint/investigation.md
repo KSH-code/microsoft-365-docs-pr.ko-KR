@@ -1,6 +1,6 @@
 ---
 title: 조사 리소스 유형
-description: Microsoft Defender ATP 조사 엔터티.
+description: 끝점 조사 엔터티용 Microsoft Defender.
 keywords: api, 그래프 api, 지원되는 api, get, 경고, 조사
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -17,19 +17,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 36adf0fa5c0de79fe0616f1216118a98ba2005a4
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 3872976717a5b472ab8d471db7eff9975dbc2258
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187353"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587686"
 ---
 # <a name="investigation-resource-type"></a>조사 리소스 유형
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 

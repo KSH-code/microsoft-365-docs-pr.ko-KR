@@ -15,15 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 484869535c466435ab997f32bf858dd1ad52c841
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: f5e9c237f53351df0249f0a12d08b8ba61572f7e
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187496"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587086"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-for-linux"></a>Linux용 끝점용 Microsoft Defender 제외 구성 및 유효성 검사
 
@@ -31,7 +30,7 @@ ms.locfileid: "51187496"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -52,7 +51,7 @@ Linux 검사용 끝점용 Defender에서 특정 파일, 폴더, 프로세스 및
 
 다음 표에는 Linux용 끝점용 Defender에서 지원하는 제외 유형이 표시됩니다.
 
-제외 | 정의 | 예
+제외 | 정의 | 예제
 ---|---|---
 파일 확장명 | 디바이스의 아무 곳이나 확장명을 사용하여 모든 파일 | `.test`
 파일 | 전체 경로로 식별된 특정 파일 | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`

@@ -15,15 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 40e6099349ff6c62c5e0b6c35fd9940cb9200f05
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a6f2e2057ca78cb0e1114ed86829cd931dc1cd2b
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187772"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587554"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications-with-microsoft-defender-for-endpoint-for-linux"></a>Linux용 끝점용 Microsoft Defender를 통해 잠재적으로 원치 않는 응용 프로그램 검색 및 차단
 
@@ -31,7 +30,7 @@ ms.locfileid: "51187772"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -42,7 +41,7 @@ Linux용 Endpoint용 Defender의 PUA(사용자 가능성이 원치 않는 응용
 
 이러한 응용 프로그램은 네트워크가 맬웨어에 감염될 위험을 높이고, 맬웨어 감염을 식별하기 더 어렵게 할 수 있으며, 응용 프로그램을 정리하는 데 IT 리소스를 낭비할 수 있습니다.
 
-## <a name="how-it-works"></a>작업 방법
+## <a name="how-it-works"></a>작동 방식
 
 Linux용 끝점용 Defender는 PUA 파일을 검색하고 보고할 수 있습니다. 차단 모드에서 구성하면 PUA 파일이 검지로 이동됩니다.
 

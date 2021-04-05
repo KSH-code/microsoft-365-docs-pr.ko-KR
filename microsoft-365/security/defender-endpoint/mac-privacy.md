@@ -15,22 +15,21 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1386809778edeb92521a8656e9ece78591a682a4
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: d1d4aa871438e10aed86ddd436757072fb6b5cc4
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382904"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587506"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender에 대한 개인 정보
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 

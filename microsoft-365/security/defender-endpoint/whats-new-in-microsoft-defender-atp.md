@@ -15,22 +15,21 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ea6beba2d17b72f100703d26dd4106d0537c6fa6
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a72b742d8f4a69d2e38cf4fa234ba5b7e2961ac6
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071663"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587614"
 ---
-# <a name="whats-new-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 새로운
+# <a name="whats-new-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 새로운 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink)
@@ -53,22 +52,22 @@ ms.locfileid: "51071663"
 - [Windows Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/) <br> 끝점용 Microsoft Defender는 이제 Windows Virtual Desktop에 대한 지원을 추가합니다.
 
 ## <a name="december-2020"></a>2020년 12월
-- [iOS용 끝점용 Microsoft Defender](microsoft-defender-endpoint-ios.md) <br> 끝점용 Microsoft Defender는 이제 iOS에 대한 지원을 추가합니다. iOS용 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법에 대해 자세히 알아보습니다.
+- [엔드포인트용 Microsoft Defender(iOS용)](microsoft-defender-endpoint-ios.md) <br> 끝점용 Microsoft Defender는 이제 iOS에 대한 지원을 추가합니다. iOS용 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법에 대해 자세히 알아보습니다.
 
 ## <a name="september-2020"></a>2020년 9월
-- [Android용 끝점용 Microsoft Defender](microsoft-defender-endpoint-android.md) <br> 끝점용 Microsoft Defender는 이제 Android에 대한 지원을 추가합니다. Android용 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 학습합니다.
+- [엔드포인트용 Microsoft Defender(Android용)](microsoft-defender-endpoint-android.md) <br> 끝점용 Microsoft Defender는 이제 Android에 대한 지원을 추가합니다. Android용 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 학습합니다.
 - [위협 및 취약성 관리 macOS 지원](tvm-supported-os.md)<br> macOS용 위협 및 취약성 관리는 이제 공개 미리 보기에 있으며, macOS 장치의 취약점을 지속적으로 감지하여 위험에 집중하여 수정에 우선 순위를 지정하는 데 도움을 줄 것입니다. 자세한 내용은 [이 Microsoft 기술 커뮤니티 블로그 게시물 을 참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/microsoft-defender-for-endpoint-adds-depth-and-breadth-to-threat/ba-p/1695824)
 
 
 ## <a name="august-2020"></a>2020년 8월
-- [Android용 끝점용 Microsoft Defender](microsoft-defender-endpoint-android.md) <br> 끝점용 Microsoft Defender는 이제 Android에 대한 지원을 추가합니다. Android용 끝점용 Microsoft Defender를 설치, 구성 및 사용하는 방법을 학습합니다.
+- [엔드포인트용 Microsoft Defender(Android용)](microsoft-defender-endpoint-android.md) <br> 끝점용 Microsoft Defender는 이제 Android에 대한 지원을 추가합니다. Android용 끝점용 Microsoft Defender를 설치, 구성 및 사용하는 방법을 학습합니다.
 
 
 ## <a name="july-2020"></a>2020년 7월
-- [인증서에 대한 표시기 만들기](manage-indicators.md) <br> 인증서를 허용하거나 차단하는 표시기를 생성합니다. 
+- [인증서에 대한 지표 만들기](manage-indicators.md) <br> 인증서를 허용하거나 차단하는 표시기를 생성합니다. 
 
 ## <a name="june-2020"></a>2020년 6월
-- [Linux용 끝점용 Microsoft Defender](microsoft-defender-endpoint-linux.md) <br> 이제 끝점용 Microsoft Defender에서 Linux에 대한 지원을 추가합니다. Linux용 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 알아보습니다.
+- [엔드포인트용 Microsoft Defender(Linux용)](microsoft-defender-endpoint-linux.md) <br> 이제 끝점용 Microsoft Defender에서 Linux에 대한 지원을 추가합니다. Linux용 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 알아보습니다.
 
 - [평가 랩의 공격 시뮬레이터](evaluation-lab.md#threat-simulator-scenarios) <br> 끝점용 Microsoft Defender는 다양한 위협 시뮬레이션 플랫폼과 파트너가 되어 포털 내에서 바로 플랫폼의 기능을 테스트할 수 있는 편리한 액세스 권한을 제공합니다.
 
@@ -79,7 +78,7 @@ ms.locfileid: "51071663"
 
 ## <a name="november-december-2019"></a>November-December 2019
 
-- [Mac용 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md) <BR> Mac용 끝점용 Microsoft Defender는 Mac 장치에 차세대 보호 기능을 제공합니다. 이제 통합된 끝점 보안 플랫폼의 핵심 구성 요소를 끝점 감지 및 응답을 포함하여 Mac 장치에서 사용할 [수 있습니다.](microsoft-defender-endpoint-mac.md)
+- [엔드포인트용 Microsoft Defender(Mac용)](microsoft-defender-endpoint-mac.md) <BR> Mac용 끝점용 Microsoft Defender는 Mac 장치에 차세대 보호 기능을 제공합니다. 이제 통합된 끝점 보안 플랫폼의 핵심 구성 요소를 끝점 감지 및 응답을 포함하여 Mac 장치에서 사용할 [수 있습니다.](microsoft-defender-endpoint-mac.md)
  
 - [위협 & 관리 응용 프로그램 및 응용 프로그램 버전 종료 정보](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation) <BR>수명이 종료된 응용 프로그램 및 응용 프로그램 버전은 더 이상 지원되지 않는다는 것을 인식하고 제거 또는 바꾸기 작업을 취할 수 있도록 태그가 지정되거나 레이블이 지정됩니다. 이렇게 하면 패치가 없는 응용 프로그램으로 인한 다양한 취약점 노출과 관련된 위험을 완화하는 데 도움이 됩니다.
 
@@ -134,14 +133,14 @@ ms.locfileid: "51071663"
 ## <a name="april-2019"></a>2019년 4월
 - [Microsoft 위협 전문가 대상 공격 알림 기능](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-threat-experts#targeted-attack-notification) <BR> Microsoft 위협 전문가의 대상 공격 알림 경고는 조직에 맞게 조정된 것으로, 신속하게 전달될 수 있는 많은 정보를 제공하여 타임라인, 위반 범위 및 침입 방법을 포함하여 네트워크의 중요한 위협에 관심을 집중시킵니다.
 
-- [끝점 API용 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro) <BR> 끝점용 Microsoft Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API를 통해 워크플로를 자동화하고 끝점용 Microsoft Defender 기능을 기반으로 혁신할 수 있습니다. 
+- [엔드포인트용 Microsoft Defender API](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro)  <BR> 끝점용 Microsoft Defender는 프로그래밍 API 집합을 통해 많은 데이터와 작업을 노출합니다. 이러한 API를 통해 워크플로를 자동화하고 끝점용 Microsoft Defender 기능을 기반으로 혁신할 수 있습니다. 
 
 
 
 ## <a name="february-2019"></a>2019년 2월
 - [인시던트](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/incidents-queue) <BR> 인시던트는 모든 관련 경고 및 관련 엔터티를 모아 더 광범위한 공격 스토리를 설명하는 Microsoft Defender for Endpoint의 새로운 엔터티로, 분석가에게 복잡한 위협의 제거에 대한 더 나은 관점을 제공합니다. 
 
-- [이전 버전의 Windows 온보드](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/onboard-downlevel-windows-defender-advanced-threat-protection)<BR> 끝점용 Microsoft Defender 센서로 센서 데이터를 보낼 수 있도록 지원되는 버전의 Windows 장치를 온보딩합니다.
+- [이전 버전의 Windows 온보딩](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/onboard-downlevel-windows-defender-advanced-threat-protection)<BR> 끝점용 Microsoft Defender 센서로 센서 데이터를 보낼 수 있도록 지원되는 버전의 Windows 장치를 온보딩합니다.
 
 
 ## <a name="october-2018"></a>2018년 10월
@@ -174,7 +173,7 @@ Threat Analytics는 새로운 위협 및 발생이 식별되는 즉시 끝점 �
 
   
 ## <a name="march-2018"></a>2018년 3월
-- [고급 헌팅](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/advanced-hunting-windows-defender-advanced-threat-protection) <BR>
+- [지능형 헌팅](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/advanced-hunting-windows-defender-advanced-threat-protection) <BR>
 끝점용 Microsoft Defender의 고급 헌팅을 사용하여 데이터를 쿼리합니다.
 
 - [공격 표면 감소 규칙](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>
@@ -198,7 +197,7 @@ Threat Analytics는 새로운 위협 및 발생이 식별되는 즉시 끝점 �
 - [제어된 폴더 액세스](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-controlled-folders-exploit-guard)<BR>
 이제 제어된 폴더 액세스를 사용하여 디스크 섹터에 쓸 수 없는 프로세스를 차단할 수 있습니다.
 
-- [비 Windows 장치 온보드](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-endpoints-non-windows-windows-defender-advanced-threat-protection)<BR>
+- [Windows가 아닌 장치 온보딩](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-endpoints-non-windows-windows-defender-advanced-threat-protection)<BR>
     끝점용 Microsoft Defender는 Windows가 아닌 플랫폼뿐만 아니라 Windows에 대한 중앙 집중식 보안 작업 환경을 제공합니다. Microsoft Defender 보안 센터에서 지원되는 다양한 OS(운영 체제)에서 경고를 보고 조직의 네트워크를 보다 잘 보호할 수 있습니다.
 
 - [역할 기반 액세스 컨트롤(RBAC)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/rbac-windows-defender-advanced-threat-protection)<BR>

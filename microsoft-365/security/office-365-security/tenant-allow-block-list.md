@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 보안 포털의 테넌트 허용/차단 목록에서 허용 및 차단을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 55116ddac8fa25b63e50b7fba73f668855e2858d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 103ddc9aa0858f9203582ac07a655fd7f5506cf3
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206439"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587590"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>테넌트 허용/차단 목록 관리
 
@@ -33,9 +33,6 @@ ms.locfileid: "51206439"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
->
-> 이 문서에 설명된 기능은 미리 보기에 있으며 변경될 수 있으며 일부 조직에서는 사용할 수 없습니다.
->
 > 현재는 **테넌트** 허용/차단 목록에서 허용된 항목을 구성할 수 없습니다.
 
 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서는 EOP 필터링 판정에 동의하지 않을 수 있습니다. 예를 들어 양호한 메시지는 나쁜 메시지(가음성)로 표시되거나 잘못된 메시지가 통과(거짓 부정)로 표시될 수 있습니다.
@@ -176,7 +173,7 @@ URL 항목의 구문에 대한 자세한 내용은 이 문서 부분의 [테넌�
 
    - **선택 사항:** 항목에 대한 설명 텍스트를 입력합니다.
 
-5. 작업을 마친 후 **저장** 을 클릭합니다.
+5. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
 ## <a name="use-the-security--compliance-center-to-remove-block-entries-from-the-tenant-allowblock-list"></a>보안 및 & 센터를 사용하여 테넌트 허용/차단 목록에서 차단 항목 제거
 

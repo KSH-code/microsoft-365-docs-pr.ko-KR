@@ -1,6 +1,6 @@
 ---
 title: 클라이언트 동작 차단
-description: 클라이언트 동작 차단은 Microsoft Defender ATP의 동작 차단 및 포함 기능의 일부입니다.
+description: 클라이언트 동작 차단은 끝점용 Microsoft Defender의 동작 차단 및 포함 기능의 일부입니다.
 keywords: 동작 차단, 신속한 보호, 클라이언트 동작, Microsoft Defender ATP
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
@@ -19,19 +19,19 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: c37a1180f9def51daa4229418b05abe7cf787aa3
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 9fcff96b2583c6ef6bec05429ec50a71f3872e43
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165264"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587110"
 ---
 # <a name="client-behavioral-blocking"></a>클라이언트 동작 차단
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -93,9 +93,9 @@ ms.locfileid: "51165264"
 
 ## <a name="related-articles"></a>관련 문서
 
-- [동작 차단 및 포함](behavioral-blocking-containment.md)
+- [동작 차단 및 제약](behavioral-blocking-containment.md)
 
-- [피드백 루프 차단](feedback-loop-blocking.md)
+- [피드백-루프 차단](feedback-loop-blocking.md)
 
 - [(블로그) 동작 차단 및 포함: 광학을 보호로 변환](https://www.microsoft.com/security/blog/2020/03/09/behavioral-blocking-and-containment-transforming-optics-into-protection/)
 
