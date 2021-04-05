@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: a540529c174cc12b0e037be4af4e08c29e3835ea
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 467960f2faf6c6262083ff238ee3b085e0e99129
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408603"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499670"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -229,20 +229,7 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
 ## <a name="sensitivity-labels-and-azure-information-protection"></a>민감도 레이블 및 Azure Information Protection
 
-Azure Information Protection으로 레이블을 배포한 경우 민감도 레이블 사용을 시작하기 전에 다음 섹션을 참조하십시오.
-
-### <a name="azure-information-protection-labels"></a>Azure Information Protection 레이블
-
-> [!NOTE]
-> Azure 포털의 Azure Information Protection 레이블에 대한 레이블 관리는 **2021년 3월 31일** 부로 더 이상 사용되지 않습니다. 공식 [사용 중단 통지](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179)에서 자세히 알아봅니다.
-
-테넌트가 아직 [통합 레이블 지정 플랫폼](/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)에 있지 않기 때문에 Azure Information Protection 레이블을 사용하는 경우, 통합 레이블 지정을 활성화할 때까지 민감도 레이블을 만들지 않을 것을 권장합니다. 이 시나리오에서 Azure Portal에 표시되는 레이블은 민감도 레이블이 아니라 Azure Information Protection 레이블입니다. 이 레이블은 Windows 컴퓨터의 Azure Information Protection 클라이언트(클래식)에서 사용할 수 있지만 macOS, iOS 또는 Android를 실행하는 장치에서는 사용할 수 없습니다. 이 문제를 해결하려면 민감도 레이블에 [이 레이블을 마이그레이션](/azure/information-protection/configure-policy-migrate-labels)합니다. 
-
-두 레이블 집합에 의해 적용된 메타 데이터는 호환되므로 마이그레이션이 완료될 때 문서와 전자 메일의 레이블을 다시 지정할 필요가 없습니다.
-
-### <a name="azure-information-protection-clients"></a>Azure Information Protection 클라이언트
-
-Windows 컴퓨터에서 엔터프라이즈용 Microsoft 365 앱에 민감도 레이블을 사용하는 경우 Azure Information Protection 클라이언트를 사용하거나 Office에 기본 제공되는 레이블을 사용하도록 선택할 수 있습니다.
+Windows 컴퓨터에서 Microsoft 365 앱에서 민감도 레이블을 사용하는 경우 Office 앱에 내장된 레이블 또는 Azure Information Protection 클라이언트를 사용할 수 있습니다.
 
 기본적으로 Azure Information Protection 클라이언트가 설치되면 이러한 앱에서 기본 제공 레이블이 해제되어 있습니다. 기본 동작을 변경하는 방법을 포함하여 자세한 내용은 [Office 기본 제공 레이블 지정 클라이언트 및 Azure Information Protection 클라이언트](sensitivity-labels-office-apps.md#office-built-in-labeling-client-and-the-azure-information-protection-client)를 참조하십시오.
 
@@ -258,21 +245,16 @@ Office 앱에서 기본 제공 레이블을 사용하는 경우에도 다음 사
 
 Azure Information Protection을 처음 접하거나 레이블을 최근에 마이그레이션한 기존 Azure Information Protection 고객인 경우 Azure Information Protection 설명서에서 "[indows 레이블 지정 솔루션 선택](/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution)을 참조하세요.
 
-## <a name="sensitivity-labels-and-microsoft-cloud-app-security"></a>민감도 레이블과 Microsoft Cloud App Security
+### <a name="azure-information-protection-labels"></a>Azure Information Protection 레이블
 
-CAS(Cloud App Security)를 사용하여 SalesForce, Box 또는 Dropbox 등의 타사 서비스 및 앱에 있는 콘텐츠를 탐색, 분류, 레이블 지정 및 보호할 수 있습니다. 
+> [!NOTE]
+> Azure Portal의 Azure Information Protection 레이블에 대한 레이블 관리는 **2021년 3월 31일** 부로 더 이상 사용되지 않습니다. 공식 [사용 중단 통지](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179)에서 자세히 알아봅니다.
 
-Cloud App Security는 Azure Information Protection 레이블과 민감도 레이블 모두에서 작동합니다.
-
-- 레이블 지정 관리 센터에서 한 명 이상의 사용자에게 하나 이상의 민감도 레이블을 [게시](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy)한 경우: 민감도 레이블이 사용됩니다.
-
-- 레이블 관리 센터에서 민감도 레이블을 게시하지 않은 경우: Azure Information Protection 레이블이 사용됩니다.
-
-이러한 레이블을 통해 Cloud App Security를 사용하는 방법에 대한 자세한 내용은 [Azure Information Protection 통합](/cloud-app-security/azip-integration)을 참조하세요.
+테넌트가 아직 [통합 레이블 지정 플랫폼](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)에 있지 않은 경우 먼저 통합 레이블을 활성화해야 민감도 레이블을 사용할 수 있습니다. 자세한 내용은 [Azure Information Protection 레이블을 통합 민감도 레이블로 마이그레이션하는 방법](/azure/information-protection/configure-policy-migrate-labels)을 참조하세요. 
 
 ## <a name="sensitivity-labels-and-the-microsoft-information-protection-sdk"></a>민감도 레이블 및 Microsoft 정보 보호 SDK
 
-민감도 레이블은 문서의 메타데이터에 일반 텍스트로 저장되므로 타사 앱 및 서비스는 레이블 배치를 보완하기 위해 이 레이블 지정 메타데이터를 읽고 쓸 수 있습니다. 또한 소프트웨어 개발자는 [Microsoft Information Protection SDK](/information-protection/develop/overview#microsoft-information-protection-sdk)를 사용하여 여러 플랫폼에서 레이블 및 암호화 기능을 완벽하게 지원할 수 있습니다. 자세한 내용은 [기술 커뮤니티 블로그의 일반 가용성 공지사항](https://techcommunity.microsoft.com/t5/Microsoft-Information-Protection/Microsoft-Information-Protection-SDK-Now-Generally-Available/ba-p/263144)을 참조하세요. 
+민감도 레이블은 문서의 메타데이터에 저장되므로 타사 앱 및 서비스는 레이블 배치를 보완하기 위해 이 레이블 지정 메타데이터를 읽고 쓸 수 있습니다. 또한 소프트웨어 개발자는 [Microsoft Information Protection SDK](/information-protection/develop/overview#microsoft-information-protection-sdk)를 사용하여 여러 플랫폼에서 레이블 및 암호화 기능을 완벽하게 지원할 수 있습니다. 자세한 내용은 [기술 커뮤니티 블로그의 일반 가용성 공지사항](https://techcommunity.microsoft.com/t5/Microsoft-Information-Protection/Microsoft-Information-Protection-SDK-Now-Generally-Available/ba-p/263144)을 참조하세요. 
 
 [Microsoft 정보 보호와 통합된 파트너 솔루션](https://techcommunity.microsoft.com/t5/Azure-Information-Protection/Microsoft-Information-Protection-showcases-integrated-partner/ba-p/262657)에 대해 알아볼 수도 있습니다.
 
