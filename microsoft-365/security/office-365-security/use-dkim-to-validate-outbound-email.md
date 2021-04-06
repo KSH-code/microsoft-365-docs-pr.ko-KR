@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 10/8/2019
+ms.date: 04/05/2021
 audience: ITPro
 ms.topic: article
 localization_priority: Priority
@@ -20,12 +20,12 @@ ms.custom:
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: df380c739724ed285401af4af451b610129c382c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 5b5122984969113ec0c0533952ea3bf18bff5e5c
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206117"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592111"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -60,11 +60,11 @@ Microsoft 365는 초기 'onmicrosoft.com' 도메인에 대해 DKIM을 자동으�
 
 - [악의적인 스푸핑을 방지하기 위해 DKIM이 SPF 단독보다 더욱 효율적인 방식인 이유](use-dkim-to-validate-outbound-email.md#HowDKIMWorks)
 
-- [수동으로 1024 비트 키를 2048 비트 DKIM 암호화 키로 업그레이드](use-dkim-to-validate-outbound-email.md#1024to2048DKIM)
+- [수동으로 1024 비트 키를 2048 비트 DKIM 암호화 키로 업그레이드하는 단계](use-dkim-to-validate-outbound-email.md#1024to2048DKIM)
 
 - [DKIM을 수동으로 설정하는 데 필요한 단계](use-dkim-to-validate-outbound-email.md#SetUpDKIMO365)
 
-- [두 개 이상의 사용자 지정 도메인에 대해 DKIM을 구성](use-dkim-to-validate-outbound-email.md#DKIMMultiDomain)
+- [두 개 이상의 사용자 지정 도메인에 대해 DKIM을 구성하는 단계](use-dkim-to-validate-outbound-email.md#DKIMMultiDomain)
 
 - [사용자 지정 도메인에 대해 DKIM 서명 정책을 사용 하지 않도록 설정](use-dkim-to-validate-outbound-email.md#DisableDKIMSigningPolicy)
 
@@ -85,7 +85,7 @@ SPF는 메시지 봉투에 정보를 추가하지만 DKIM은 실제로 메시지
 
 핵심: DKIM은 개인 키를 사용하여 암호화 된 서명을 메시지 머리글에 삽입합니다. 서명 도메인 또는 아웃 바운드 도메인이 머리글의 **d =** 필드 값으로 삽입됩니다. 확인 도메인 또는 수신자 도메인은 **d =** 필드를 사용하여 DNS에서 공개 키를 조회하고 메시지를 인증합니다. 메시지를 확인하면 DKIM 검사가 통과됩니다.
 
-## <a name="manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>수동으로 1024 비트 키를 2048 비트 DKIM 암호화 키로 업그레이드
+## <a name="steps-to-manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>수동으로 1024 비트 키를 2048 비트 DKIM 암호화 키로 업그레이드하는 단계
 <a name="1024to2048DKIM"> </a>
 
 1024 및 2048 비트가 모두 DKIM 키에 대한 지원 을 받게되므로 다음의 지침은 [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)에서 1024 비트 키를 2048로 업그레이드하는 방법을 설명할 것입니다. 다음은 두 가지 사용 사례에 대한 단계입니다. 구성에 가장 적합한 한 사례를 선택하세요.
@@ -192,7 +192,7 @@ TTL:                3600
 > 두 번째 레코드를 만드는 것도 중요하지만, 생성 시 선택 도구 중 하나만 사용할 수 있습니다. 본질적으로, 두 번째 선택기는 아직 생성되지 않은 주소를 가리킬 수 있습니다. 키 회전이 원활하게 진행되므로 두 번째 CNAME 레코드를 만드는 것을 당사는 계속 권장했습니다.
 
 
-### <a name="enable-dkim-signing-for-your-custom-domain"></a>사용자 지정 도메인에 DKIM 서명 사용
+### <a name="steps-to-enable-dkim-signing-for-your-custom-domain"></a>사용자 지정 도메인에 대해 DKIM 서명을 사용하도록 설정하는 단계
 <a name="EnableDKIMinO365"> </a>
 
 CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 사용할 수 있습니다. Microsoft 365 관리 센터 또는 PowerShell을 사용하여 이 작업을 수행할 수 있습니다.
@@ -201,13 +201,13 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 
 1. 회사 또는 학교 계정으로 [Microsoft 365에 로그인](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)합니다.
 
-2. 왼쪽 위에서 앱 시작 관리자 아이콘을 선택하고 **관리자** 를 선택합니다.
+2. 사용하는 포털에 따라 [protection.office.com](https://protection.office.com) 또는 [security.microsoft.com](https://security.microsoft.com)으로 이동하고 아래 경로를 따르세요.
 
-3. 왼쪽 아래 탐색에서 **관리자** 를 확장하고 **Exchange** 를 선택합니다.
+|protection.office.com  |security.microsoft.com  |
+|---------|---------|
+| 위협 관리 > 정책 > 추가 정책 > DKIM     | 전자 메일 및 공동 작업 > 정책 및 규칙 > 위협 정책 > 추가 정책 > DKIM        | 
 
-4. **보호**\>**dkim** 으로 이동합니다.
-
-5. DKIM을 활성화 할 도메인을 선택한 다음 **DKIM 서명을 사용하여 이 도메인의 메시지 서명** 에 대해 **활성화** 를 선택합니다. 각 사용자 지정 도메인에 대해 이 단계를 반복합니다.
+3. DKIM을 활성화 할 도메인을 선택한 다음 **DKIM 서명을 사용하여 이 도메인의 메시지 서명** 에 대해 **활성화** 를 선택합니다. 각 사용자 지정 도메인에 대해 이 단계를 반복합니다.
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>PowerShell을 사용하여 사용자 지정 도메인에 DKIM 서명 사용
 
