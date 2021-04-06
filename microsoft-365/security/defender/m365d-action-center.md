@@ -20,13 +20,12 @@ ms.collection:
 ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 02/01/2021
-ms.openlocfilehash: d958f2787b9d66e42a32b8858139f7d13e83ddef
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: edf809c5fbc257e1dacafeed931da1a2d1471f4a
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199600"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592087"
 ---
 # <a name="the-action-center"></a>알림 센터
 
@@ -96,7 +95,7 @@ ms.locfileid: "51199600"
 
 - 조사 패키지 수집 
 - 장치 격리(이 작업은 실행을 실행하지 않습니다.) 
-- 컴퓨터 오프보드 
+- 컴퓨터 오프보딩 
 - 릴리스 코드 실행 
 - 릴리스 
 - 요청 샘플 

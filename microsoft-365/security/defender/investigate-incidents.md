@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f6b085f200d3b0c71bb3608f8e5ba9ed85632676
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: a6c7e7e920d18d9d8bf29d71d317008ea0c37bbf
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500335"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592099"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 인시던트 조사
 
@@ -85,6 +85,10 @@ Microsoft 365 Defender는 장치, 사용자 및 사서함 전체의 모든 관�
 ![인시던트의 컴퓨터 탭 이미지](../../media/incident-machines.png)
 
 시간 표시 막대 탭을 선택하면 컴퓨터 시간 표시 막대를 스크롤하여 컴퓨터에서 관찰된 경고와 함께 시간 순서 대로 관찰된 모든 이벤트와 동작을 볼 수 있습니다.
+
+> [!TIP]
+> 디바이스 페이지에서는 필요한 경우 검색을 할 수 있습니다. Microsoft 365 보안 센터에서 장치 **인벤토리 를 선택하세요.** 경고가 있는 장치를 선택한 다음 바이러스 백신 검색을 실행합니다. 바이러스 백신 검사와 같은 작업은 추적되어 장치 인벤토리 **페이지에** 표시됩니다. 자세한 내용은 [장치에서 Microsoft Defender 바이러스 백신 검사 실행을 참조합니다.](/microsoft-365/security/defender-endpoint/respond-machine-alerts#run-microsoft-defender-antivirus-scan-on-devices)
+
 
 ## <a name="users"></a>사용자
 

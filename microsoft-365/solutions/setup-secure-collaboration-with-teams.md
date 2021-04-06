@@ -16,18 +16,16 @@ ms.custom:
 - seo-marvel-jun2020
 f1.keywords: NOCSH
 description: Teams에서 보안 콘텐츠 공동 작업을 설정하여 민감도에 따라 데이터를 보호하는 방법을 알아보겠습니다.
-ms.openlocfilehash: 88cb3557f1c150a9c9fd68ba362fcc9c424aa73a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 804307b3035f0d2246dc0ac541cce2d63506c351
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906471"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591913"
 ---
-# <a name="set-up-secure-collaboration-with-microsoft-365"></a>Microsoft 365를 사용하여 안전한 공동 작업 설정
+# <a name="set-up-secure-collaboration-with-microsoft-365-and-microsoft-teams"></a>Microsoft 365 및 Microsoft Teams와의 안전한 공동 작업 설정
 
 과부하를 방지하면서 올바른 사용자와 정보를 쉽게 공유할 수 있는 것은 조직의 성공에 핵심입니다. 여기에는 중요한 데이터를 액세스 권한이 있는 사용자와만 안전하게 공유할 수 있습니다. 프로젝트에 따라 조직 외부의 사용자와 중요한 데이터를 공유하는 것이 포함됩니다.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxMmL?autoplay=false]
 
 이 공동 작업 솔루션 지침에는 다음 두 가지 구성 요소가 포함되어 있습니다.
 - 각 프로젝트에 대해 올바른 수준의 보호를 통해 Microsoft Teams 배포
@@ -36,6 +34,8 @@ ms.locfileid: "50906471"
 ![적절한 보호를 사용하여 Teams를 배포하고 적절한 보안 설정을 사용하여 외부 공유 구성](..\media\solutions-architecture-center\secure-collaboration-overview.png)
 
 다용도 및 사용이 간편한 콘텐츠 공동 작업 도구를 사용할 수 없는 경우 사용자는 문서를 전자 메일로 보내 공동 작업을 하는 경우가 종종 있습니다. 이는 공동 작업의 지우고 오류가 발생할 수 있는 방법일 수 있으며 부적절한 정보 공유의 위험을 증가할 수 있습니다. 정보 공유가 너무 어렵다는 것을 발견하면 IT에서 관리하지 않는 소비자 제품을 사용하게 되찾을 수 있습니다. 이로인하면 위험이 훨씬 커질 수 있습니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxMmL?autoplay=false]
 
 Microsoft 365를 사용하면 다음에 도움이 되는 다양한 구성으로 Teams를 배포할 수 있습니다.
 

@@ -19,17 +19,17 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: '
-ms.openlocfilehash: 190b020ac683bcb97317a281c520b7f1ac92c721
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7b99238b588363203f7aac07b3fb056d7a37e19f
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50910921"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592075"
 ---
-# <a name="how-to-opt-in-for-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드)에서 Office 365 서비스 독일 신규 데이터 센터 지역으로 마이그레이션하도록 옵트인하는 방법
+# <a name="how-to-opt-in-for-new-migration-from-microsoft-cloud-germany-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로의 새 마이그레이션에 옵트인(opt in)하는 방법
 
->[!Note]
->이 문서는 독일 Microsoft 클라우드(독일 Microsoft 클라우드) 고객에게만 적용됩니다.
+> [!NOTE]
+> 이 문서는 독일 Microsoft 클라우드(독일 Microsoft 클라우드) 고객에게만 적용됩니다.
 >
 
 ## <a name="how-to-request-migration"></a>마이그레이션을 요청하는 방법

@@ -19,15 +19,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.custom: autoir
-ms.date: 01/29/2021
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 8ed6f1ccd6587d6c618974a123f0d5d42a44e753
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: be0423b0af8251347420d9e970dcfe10db0bb72b
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199636"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591926"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Microsoft 365 Defender의 자동화된 조사 및 대응
 
@@ -89,11 +88,16 @@ Microsoft 365 Defender에서 각 자동화된 조사는 다음 표에 요약된 
 
 |엔터티 |위협 보호 서비스  |
 |:---------|:---------|
-|장치(끝점이라고도 하지만 컴퓨터라고도 불리며)     |[엔드포인트용 Microsoft Defender](../defender-endpoint/automated-investigations.md)<br/>[ID용 Microsoft Defender](/azure-advanced-threat-protection/what-is-atp) |      
+|장치(끝점이라고도 하지만 컴퓨터라고도 불리며)     |[엔드포인트용 Microsoft Defender](../defender-endpoint/automated-investigations.md) <br/>[ID용 Microsoft Defender](/azure-advanced-threat-protection/what-is-atp) |      
 |전자 메일 콘텐츠(파일 및 URL을 포함할 수 있는 전자 메일 메시지)     |[Office 365용 Microsoft Defender](../office-365-security/defender-for-office-365.md)         |
 
 > [!NOTE]
 > 모든 경고가 자동화된 조사를 트리거하는 것은 아니며, 모든 조사가 자동화된 수정 작업을 수행하지는 않습니다. 조직에 대해 자동화된 조사 및 응답이 구성되는 방식에 따라 달라 하게 됩니다. [Microsoft 365 Defender에서](m365d-configure-auto-investigation-response.md)자동화된 조사 및 응답 기능 구성을 참조합니다.
+
+## <a name="viewing-a-list-of-investigations"></a>조사 목록 보기
+
+조사를 보기 위해 인시던트 **페이지로** 이동합니다. 인시던트 를 선택한 다음 조사 **탭을** 선택합니다. 자세한 내용은 [자동화된 조사의 세부](m365d-autoir-results.md)정보 및 결과를 참조합니다.
+
 
 ## <a name="next-steps"></a>다음 단계
 

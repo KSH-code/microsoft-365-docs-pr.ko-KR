@@ -1,6 +1,6 @@
 ---
 title: 자동화된 조사의 세부 정보 및 결과
-description: '자동화 조사가 진행 되는 동한 혹은 진행 완료된 후 주요 사항 및 결과를 확인할 수 있습니다. '
+description: Microsoft 365 Defender에서 자동화된 조사 결과 및 주요 결과 보기
 keywords: 자동화, 조사, 결과, 분속, 세부정보, 재구성, 오토에어
 search.appverid: met150
 ms.prod: m365-security
@@ -21,13 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 02/08/2021
-ms.openlocfilehash: 05208dd8ba893d65db50430861ad5dd5ad9d34fb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ca023ea49a8d92123467be640a097a72233d3198
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198972"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592123"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>자동화된 조사의 세부 정보 및 결과
 
@@ -61,8 +60,11 @@ Microsoft 365 Defender를 [](m365d-autoir.md) 통해 자동화된 조사가 실�
 > 작업을 [승인,](m365d-action-center.md#required-permissions-for-action-center-tasks) 거부 또는 취소하려면 특정 권한이 있어야 합니다.
 
 1. [https://security.microsoft.com](https://security.microsoft.com)으로 이동하여 로그인합니다. 
+
 2. 탐색 창에서 **작업 센터** 를 선택합니다. 
+
 3. **보류 중인** 또는 **기록** 탭에서 항목을 선택 합니다. 플라이아웃 창이 열립니다.
+
 4. 플라이아웃 창의 정보를 검토한 후 다음 단계 중 하나를 수행합니다.
    - 조사에 대한 자세한 내용을 **확인하려면** 조사 페이지 열기 를 선택합니다.
    - **승인을** 선택하여 보류 중인 작업을 초기화합니다.
@@ -76,9 +78,13 @@ Microsoft 365 Defender를 [](m365d-autoir.md) 통해 자동화된 조사가 실�
 ![사건 세부 정보](../../media/mtp-incidentdetails-tabs.png)
 
 1. [https://security.microsoft.com](https://security.microsoft.com)으로 이동하여 로그인합니다. 
+
 2. 탐색 창에서 인시던트 및 **인시던트**&  >  **를 선택 합니다.** 
+
 3. 목록에서 항목을 선택한 다음 문제 페이지 **열기 를 선택합니다.**
+
 4. 조사 **탭을** 선택한 다음 목록에서 조사를 선택합니다. 플라이아웃 창이 열립니다.
+
 5. 조사 **페이지 열기 를 선택합니다.** 
 
 ## <a name="investigation-details"></a>조사 세부정보

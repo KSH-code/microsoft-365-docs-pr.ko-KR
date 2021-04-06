@@ -1,5 +1,5 @@
 ---
-title: 도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 사전 작업
+title: 도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 마이그레이션 전 활동
 ms.author: andyber
 author: andybergen
 manager: laurawi
@@ -18,28 +18,32 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우 사전 작업입니다.'
-ms.openlocfilehash: 9f5a38eae6d42f992879f97b8e8e1e8e6c4d56c3
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: e04246626088d9fca653c98246fd4a5b81bc1d30
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476352"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591877"
 ---
-# <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션을 위한 사전 작업
+# <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 마이그레이션 전 활동
 
-다음 링크를 사용하여 조직과 관련된 사전 작업 단계로 연결합니다.
+다음 링크를 사용하여 조직과 관련된 마이그레이션 전 단계로 이동하세요.
 
-- **도이클란드** Microsoft 클라우드에서 Office 365를 사용하는 모든 고객의 경우 다음 [단계를 수행합니다.](#general-tenant-migration-considerations)
-- DNS **변경의 경우** 이 [단계를 합니다.](#dns)
-- Active **Directory Federation Services를** 사내에서 사용하는 경우 다음 [단계를 수행합니다.](#active-directory-federation-services-ad-fs)
-- **SharePoint Online을 사용 중이면** [을(를) 이 단계를 합니다.](#sharepoint-online)
-- Exchange Online 또는 **Exchange** **하이브리드를** 사용 하는 경우 이 [단계를 합니다.](#exchange-online)
-- If you're using **Skype for Business Online**, do this [step](#skype-for-business-online)
-- 타사 MDM(모바일 장치 관리) 솔루션을 사용하는 경우 이 [단계를 합니다.](#mobile-device-management)
-- Office 365와 통합된 타사 서비스 또는 **LOB(LOB)** 앱을 사용하는 경우 이 [단계를 실행합니다.](#line-of-business-apps) 
-- **Dynamics 365도** 사용하는 경우 이 [단계를 진행합니다.](#dynamics365)
-- Power BI도 사용 **중이면** 이 [단계를 합니다.](#power-bi)
-- Office 365 구독에서 **Azure** 서비스도 사용하는 경우 이 [단계를 진행합니다.](#microsoft-azure)
+사용 중이면
+
+- **도이치랜드 Microsoft 클라우드의 Office 365** 에서 다음 [단계를 수행합니다.](#general-tenant-migration-considerations)
+- **사용자 지정 도메인** 에서 [이 단계를 합니다.](#dns-entries-for-custom-domains)
+
+- **SharePoint Online** 에서 [이 단계를 합니다.](#sharepoint-online)
+- **Exchange Online** 또는 **Exchange 하이브리드** 에서 이 [단계를 합니다.](#exchange-online)
+- **비즈니스용 Skype Online** 에서 [이 단계를 진행합니다.](#skype-for-business-online)
+- **Dynamics 365** 에서 [이 단계를 진행합니다.](#dynamics365)
+- **Power BI**, 이 [단계를 합니다.](#power-bi)
+
+- Azure AD Connect용 **Active Directory Federation Services에서** 다음 [단계를 수행합니다.](#active-directory-federation-services-ad-fs)
+-  Office 365와 통합된 타사 서비스 또는 **LOB(LOB)** 앱은 이 [단계를 실행합니다.](#line-of-business-apps)
+- 타사 MDM(모바일 장치 관리) 솔루션이 이 [단계를 합니다.](#mobile-device-management)
+- **Office** 365 구독이 있는 Azure 서비스 에서 이 [단계를 진행합니다.](#microsoft-azure)
 
 ## <a name="general-tenant-migration-considerations"></a>일반적인 테넌트 마이그레이션 고려 사항
 
@@ -59,7 +63,7 @@ ms.locfileid: "51476352"
 | 마이그레이션 중 [](https://docs.microsoft.com/microsoft-365/compliance/retention) 콘텐츠를 무단으로 삭제하는 것을 방지하는 조직 전체 보존 정책을 만들 수 있습니다.  |<ul><li>마이그레이션 중에 최종 사용자가 콘텐츠를 부수적으로 삭제하지 않도록 조직 전체 보존 정책을 사용하도록 설정할 수 있습니다. </li><li>보존은 필요하지는 않습니다. 마이그레이션 중에 언제든지 배치되는 보류는 예상대로 작동해야 하기 때문에 보존 정책을 보유하는 것은 백업 안전 메커니즘입니다. 동시에 일부 고객, 특히 보존이 우려되는 고객은 보존 정책을 사용할 수 없습니다.</li></ul>| 보존 정책 및 보존 레이블에 대해 자세히 설명에 [설명된 보존 정책을 적용합니다.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) 서비스 또는 클라이언트 소프트웨어의 오류는 9단계 중 4단계 전에 수행되지 않은 경우 발생할 수 있습니다. </li></ul>|
 |||||
 
-## <a name="dns"></a>DNS
+## <a name="dns-entries-for-custom-domains"></a>사용자 지정 도메인에 대한 DNS 항목
 
 <!-- before phase 9 -->
 
@@ -72,7 +76,7 @@ ms.locfileid: "51476352"
 DNS 네임스페이스에 CNAME이 설정되어 있는지 확인하려면 아래 단계를  수행하고 contoso.com 도메인 이름으로 대체합니다.
 
 ```console
-nslookup -querytype=CNMAE msoid.contoso.com
+nslookup -querytype=CNAME msoid.contoso.com
 ```
 
 명령줄에서 DNS 레코드를 반환하는 경우 도메인에서 _msoid_ CNAME을 제거합니다.

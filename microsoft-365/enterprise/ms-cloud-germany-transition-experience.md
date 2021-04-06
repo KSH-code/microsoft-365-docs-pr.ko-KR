@@ -1,5 +1,5 @@
 ---
-title: 새로운 독일 데이터 센터 지역의 Office 365 서비스로 마이그레이션하기 위해 변경된 변경된 정보
+title: 새 독일 데이터 센터 지역의 Office 365 서비스로 마이그레이션한 후 변경되는 것
 ms.author: andyber
 author: andybergen
 manager: laurawi
@@ -19,23 +19,23 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새로운 독일 데이터 센터 지역의 Office 365 서비스로 전환하기 위해 변경된 내용을 이해합니다.'
-ms.openlocfilehash: cadad596011bbcde02b61f01e949c93a5a62a1c3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 74ad9a662d3ea7a68ef1f82961864eb4468f6098
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923829"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591783"
 ---
-# <a name="what-has-changed-for-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>새로운 독일 데이터 센터 지역의 Office 365 서비스로 마이그레이션하기 위해 변경된 변경된 정보
+# <a name="what-will-change-after-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>새 독일 데이터 센터 지역의 Office 365 서비스로 마이그레이션한 후 변경되는 것
 
 테넌트 마이그레이션은 관리자와 사용자에게 최소한의 영향을 미치기 위해 고안된 것입니다. 하지만, 각 작업과 관련하여 다음 사항에 유의 하세요.  다음 섹션을 검토하여 워크로드에 대한 마이그레이션 환경을 보다 잘 이해하세요.
 
 다음은 독일 신규 독일 데이터 센터 지역의 Microsoft 클라우드와 Office 365 서비스 간의 주요 차이점입니다.
 
-| 범주 | 도이치클란드 Microsoft 클라우드(도이클란드 Microsoft 클라우드) | 신규 독일 데이터 센터 지역에서의 Office 365 서비스 |
+| Category | 독일 Microsoft 클라우드(도이칠란드 Microsoft 클라우드) | 신규 독일 데이터 센터 지역에서의 Office 365 서비스 |
 |:-------|:-----|:-------|
 | 하나의 Office 365 테넌트만으로도 구독 가능한 Microsoft 365 서비스 | 서비스 15개 | 29개 서비스 <br><br> 자세한 내용은 서로 다른 [Office 365](ms-cloud-germany-transition.md#serv-avail)클라우드 서비스 제품 간의 서비스 가용성이란?을 참조하세요. |
-| 새로운 기능 | 새로운 기능은 제공하지 않습니다.  | Office 365 서비스와 일관된 새로운 기능을 사용할 수 있습니다. |
+| 새로운 기능 | 새로운 기능은 사용할 수 없습니다. | Office 365 서비스와 일관된 새로운 기능을 사용할 수 있습니다. |
 | 데이터 트러스티 | 예 | 아니요 |
 | 글로벌 365 테넌트와 협업  | 아니요 | 예 |
 | 고객 데이터 보존 | 고객 데이터는 독일 데이터 센터 내에만 저장됩니다. | Microsoft는 다음과 같은 고객 데이터를 독일 내에서만 저장합니다. <ul><li> Exchange Online 사서함 콘텐츠(전자 메일 본문, 일정 항목 및 전자 메일 첨부 파일 콘텐츠) </li><li> SharePoint Online 사이트 콘텐츠 및 해당 사이트에 저장된 파일 및 비즈니스용 OneDrive에 업로드된 파일 </li></ul> |
@@ -79,6 +79,8 @@ ms.locfileid: "50923829"
 ## <a name="office-services"></a>Office Services
 
 전환 전과 전환 중에 Office Online `office.de` 서비스에 액세스할 수 있습니다. 사용자의 사서함이 Office 365 서비스로 전환되면 사용자는 Office 365 서비스 URL 사용을 시작해야 합니다. 이후 워크로드가 Office 365 서비스로 마이그레이션되면 office 365 포털에서 office.com 인터페이스가 작동하기 시작됩니다.
+
+Office에서 가장 최근에 사용한(MRU) 서비스는 마이그레이션이 아니라 도이클란드 Microsoft 클라우드에서 Office 365 전역 서비스로의 전환입니다. Office 365 전역 서비스 쪽의 MRU 링크만 포털에서 마이그레이션한 Office.com 표시됩니다. 도이치랜드 Microsoft 클라우드의 MRU 링크는 Office 365 전역 서비스의 MRU 링크로 표시되지 않습니다. Office 365 전역 서비스에서 테넌트 마이그레이션이 9단계에 도달한 후에만 MRU 링크에 액세스할 수 있습니다.
 
 ## <a name="exchange-online-protection"></a>Exchange Online Protection
 

@@ -20,14 +20,13 @@ ms.collection:
 ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 01/29/2021
 ms.technology: m365d
-ms.openlocfilehash: d78bf3689020b5a24863e5a0f1ec817af50178ad
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7106f5d2e740d2b4cacbcaeb0b9391095bbeb356
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073943"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592027"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>관리 센터에서 작업 보기 및 관리
 
@@ -52,8 +51,11 @@ Microsoft 365 Defender의 위협 방지 기능은 특정 수정 작업을 수행
 ![조치 승인 또는 거부](../../media/air-actioncenter-itemselected.png)
 
 1. [https://security.microsoft.com](https://security.microsoft.com)으로 이동하여 로그인합니다. 
+
 2. 탐색 창에서 **알림 센터** 를 선택합니다. 
+
 3. 알림 센터의 **보류 중인** 탭의 목록에서 항목을 선택합니다. 플라이아웃 창이 열립니다.
+
 4. 플라이아웃 창의 정보를 검토한 후 다음 단계 중 하나를 수행합니다.
    - 조사에 대한 자세한 내용을 **확인하려면** 조사 페이지 열기 를 선택합니다.
    - **승인을** 선택하여 보류 중인 작업을 초기화합니다.
@@ -71,19 +73,25 @@ Microsoft 365 Defender의 위협 방지 기능은 특정 수정 작업을 수행
 ### <a name="undo-one-remediation-action"></a>한 가지 수정 작업 실행 취소
 
 1. Go to the Action center ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) and sign in.
+
 2. 사용 **기록 탭에서** 실행 취소할 작업을 선택합니다.
+
 3. 화면 오른쪽 창에서 **취소를 선택합니다.**
 
 ### <a name="undo-multiple-remediation-actions"></a>여러 수정 작업 취소
 
 1. Go to the Action Center ( https://security.microsoft.com/action-center) and sign in.
+
 2. 사용 **기록 탭에서** 취소할 작업을 선택합니다. 동일한 작업 유형이 있는 항목을 선택해야 합니다. 플라이아웃 창이 열립니다.
+
 3. 플라이아웃 창에서 **취소를 선택합니다.**
 
 ### <a name="to-remove-a-file-from-quarantine-across-multiple-devices"></a>여러 장치에서 파일을 검지에서 제거하려면 
 
 1. Go to the Action center ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) and sign in.
+
 2. 사용 기록 **탭에서** 작업 유형이 **Quarantine** file인 파일을 선택합니다.
+
 3. 화면 오른쪽 창에서 이 파일의 X **추가** 인스턴스에 적용을 선택한 다음 실행 **취소를 선택합니다.**
 
 ## <a name="next-steps"></a>다음 단계

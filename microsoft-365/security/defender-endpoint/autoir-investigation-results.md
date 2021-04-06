@@ -1,5 +1,5 @@
 ---
-title: 자동화된 조사의 세부 정보 및 결과
+title: 자동화 조사 세부정보 및 결과 보기
 description: '자동화 조사가 진행 되는 동한 혹은 진행 완료된 후 주요 사항 및 결과를 확인할 수 있습니다. '
 keywords: 자동화, 조사, 결과, 분속, 세부정보, 재구성, 오토에어
 search.appverid: met150
@@ -21,15 +21,14 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 02/02/2021
-ms.openlocfilehash: 57a515fec2baabba7146959a43737771ef5c8cfe
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8ecf39090d368427c103c7ec78e22bc13f7c339f
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197772"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591771"
 ---
-# <a name="details-and-results-of-an-automated-investigation"></a>자동화된 조사의 세부 정보 및 결과
+# <a name="view-the-details-and-results-of-an-automated-investigation"></a>자동화 조사 세부정보 및 결과 보기
 
 **적용 대상:**
 - 엔드포인트용 Microsoft Defender
