@@ -19,12 +19,12 @@ ms.custom:
 description: Office 365에서 사용자 지정 도메인과 함께 SPF(Sender Policy Framework)를 사용할 수 있도록 DNS(도메인 이름 서비스) 레코드를 업데이트하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1aff62792be86b9c77430777c23edc655fe3bb9b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 0a2c400e77c83fa61e276dee1d870835d466b5af
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205257"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599550"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>스푸핑을 방지할 수 있도록 SPF 설정
 
@@ -137,6 +137,6 @@ SPF는 사용자를 대신하여 메일을 보낼 수 있는 메일 서버를 �
 
  SPF는 스푸핑 차단을 돕지만 SPF가 방어할 수 없는 스푸핑 기술이 있습니다. 이 같은 기술로부터 방어하려면 SPF를 설정한 후에 Office 365용 DKIM 및 DMARC를 구성해야 합니다.
 
-[DKIM](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide) 전자 메일 인증의 목표는 전자 메일 내용이 위조되지 않았다는 것을 증명하는 것입니다.
+[DKIM](use-dkim-to-validate-outbound-email.md) 전자 메일 인증의 목표는 전자 메일 내용이 위조되지 않았다는 것을 증명하는 것입니다.
 
-[DMARC](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-dmarc-to-validate-email?view=o365-worldwide) 전자 메일 인증의 목표는 SPF 및 DKIM 정보가 보낸 주소와 일치하도록 하는 것입니다.
+[DMARC](use-dmarc-to-validate-email.md) 전자 메일 인증의 목표는 SPF 및 DKIM 정보가 보낸 주소와 일치하도록 하는 것입니다.

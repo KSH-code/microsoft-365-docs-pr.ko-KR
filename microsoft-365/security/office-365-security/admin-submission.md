@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 보안 & 준수 센터의 제출 포털을 사용하여 의심스러운 전자 메일, 피싱 메일, 스팸 및 기타 유해한 메시지, URL 및 파일을 검색을 위해 Microsoft에 제출하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 96a5469b1093c71997747b2c4c3b49bc1964f72b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: e0975d5b6c2d29c94a30f7bbc703221b80217761
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51581073"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599878"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
@@ -78,7 +78,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
    - **파일**: 파일 **선택을 클릭합니다.** 대화 상자가 열리면 .eml 또는 .msg 파일을 찾아 선택한 다음 열기 를 **클릭합니다.**
 
    > [!NOTE]
-   > Office 365 계획 1 또는 계획 2에 대한 Defender를 가진 관리자는 30일 이전의 메시지를 제출할 수 있습니다. 다른 관리자는 7일만 돌아갈 수 있습니다.
+   > Office 365 고객용 Defender에 대해 30일 이전의 메시지를 전송하는 능력이 일시적으로 중단되었습니다. 관리자는 7일만 돌아갈 수 있습니다.
 
 2. 받는 **사람 섹션에서** 정책 검사를 실행할 받는 사람을 한명 이상 지정합니다. 정책 검사는 사용자 또는 조직 정책으로 인해 전자 메일이 검사를 무시한지 여부를 판단합니다.
 

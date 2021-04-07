@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: 관리자는 Office 365용 Microsoft Defender의 평가판 모드에 대해 배울 수 있습니다.
-ms.openlocfilehash: c2c1e44741a8604ce60586a85a28d32851285403
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1a86a73dbdb8f2549fb5dc03ece56497c5ff0b1e
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206739"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599798"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Office 365용 Microsoft Defender 평가판
 
@@ -98,7 +98,7 @@ Office 365용 Defender는 포괄적인 기능을 제공하면 조직이 엔터�
 - [위협 탐색기 및 실시간 검색](threat-explorer.md)
 - [Defender for Office 365의 실시간 보고서](view-reports-for-mdo.md)
 - [위협 추적기 - 신규 및 주목할 만한 요소](threat-trackers.md)
-- Microsoft [365 Defender와의 통합](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-threat-protection)
+- Microsoft [365 Defender와의 통합](../defender/microsoft-365-defender.md)
 
 ### <a name="response-and-remediation"></a>대응 및 수정
 

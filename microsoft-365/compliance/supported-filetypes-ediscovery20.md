@@ -14,18 +14,18 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft 365 Advanced eDiscovery에서 지원되는 파일 형식 목록(Advanced eDiscovery의 OCR 기능에서 지원하는 이미지 파일 형식 포함)
+description: Advanced eDiscovery의 OCR 기능에서 지원하는 이미지 파일 형식을 포함하여 Microsoft 365 Advanced eDiscovery에서 지원되는 파일 형식 목록입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a552e6cf0d32e77c2a21bc959ae313e6fc53d4eb
-ms.sourcegitcommit: 9f5b136b96b3af4db4cc6f5b1f35130ae60d6b12
+ms.openlocfilehash: 719a0474d45825114cf4ea3fbd19082bb8df7622
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47817131"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599833"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>Advanced eDiscovery에서 지원되는 파일 형식
 
-Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합니다. 지원 파일 형식은 이 문서의 다음 표에 설명되어 있습니다. 이 목록은 마무리되지 않은 것으로, 유효성 검사 테스트를 계속할 때 새 파일 형식을 추가할 것입니다. 다음 표에서는 텍스트 추출(이미지 파일에 대한 광학 문자 인식 또는 OCR 텍스트 추출)에 대해 파일 형식이 지원되는지, 기본 뷰어에서 볼 수 있으며, Advanced eDiscovery의 Annotate 뷰어에서도 지원될지 나타냅니다.
+Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합니다. 지원 파일 형식에 대한 설명은 이 문서의 다음 표에 설명되어 있습니다. 이 목록은 마무리되지 않은 것으로, 유효성 검사 테스트를 계속할 때 새 파일 형식을 추가할 것입니다. 다음 표는 기본 뷰어에서 볼 수 있는 텍스트 추출(및 이미지 파일에 대한 광학 문자 인식 또는 OCR 텍스트 추출)에 대해 파일 형식이 지원되는지와 Advanced eDiscovery의 주석 뷰어에서 지원되는지 나타냅니다.
 
 ## <a name="archive--container"></a>보관/컨테이너
 
@@ -39,7 +39,7 @@ Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합�
 
 ## <a name="audio--video"></a>오디오/비디오
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 | application/mp4 | 예 | 예 | 아니요 | 예 | 아니요 | .f4v; .m4a; .m4v; .mp4; .mp4v; .mpeg; .mpeg4 |
 |audio/mpeg | 예 | 예 | 아니요 | 예 | 아니요 | .mpeg |
@@ -51,14 +51,14 @@ Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합�
 
 ## <a name="database"></a>Database
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/x-msaccess | 예 | 예 | 예 | 아니요 | 아니요 | .mdb |
 ||||||||
 
 ## <a name="email"></a>전자 메일
 
-|Mime 형식 |파일 식별 |메타데이터 추출 |텍스트 추출 |기본 뷰어 |뷰어 주석 추가 | 가능한 확장 |
+|Mime 형식 |파일 식별 |메타데이터 추출 |텍스트 추출 |기본 뷰어 |뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/vnd.ms-outlook | 예 | 예 | 예 | 예 | 예 | .msg |
 |message/rfc822 | 예 | 예 | 예 | 예 | 예 | .eml |
@@ -75,7 +75,7 @@ Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합�
 
 ## <a name="html"></a>HTML
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/xhtml+xml | 예 | 예 | 예 | 예 | 예 | .xhtml |
 |application/xml | 예 | 예 | 예 | 예 | 예 | .xml |
@@ -84,7 +84,7 @@ Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합�
 
 ## <a name="image"></a>이미지
 
-|Mime 형식 |파일 식별 |메타데이터 추출 |OCR 텍스트 추출 |기본 뷰어 |뷰어 주석 추가 |가능한 확장 |
+|Mime 형식 |파일 식별 |메타데이터 추출 |OCR 텍스트 추출 |기본 뷰어 |뷰어에 주석 추가 |가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |image/bmp | 예 | 예 | 예 | 예 | 예 | .bmp |
 |image/emf | 예 | 예 | 예 | 예 | 예 | .emf |
@@ -99,7 +99,7 @@ Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합�
 
 ## <a name="microsoft-excel"></a>Microsoft Excel
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/vnd.ms-excel | 예 | 예 | 예 | 예 | 예 | .dat; .xls |
 |application/vnd.ms-excel.sheet.binary.macroenabled.12 | 예 | 예 | 예 | 예 | 아니요 | .xlsb |
@@ -111,14 +111,14 @@ Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합�
 
 ## <a name="microsoft-onenote"></a>Microsoft OneNote
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
-|application/onenote | 예 | 예 | 예 | 예 | 아니요 | .one |
+|application/onenote | 예 | 예 | 예 | 아니요 | 아니요 | .one |
 ||||||||
 
 ## <a name="microsoft-powerpoint"></a>Microsoft PowerPoint
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/vnd.ms-powerpoint | 예 | 예 | 예 | 예 | 예 | .pot; .pps; .ppt |
 |application/vnd.openxmlformats-officedocument.presentationml.presentation | 예 | 예 | 예 | 예 | 예 | .pptx |
@@ -128,21 +128,21 @@ Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합�
 
 ## <a name="microsoft-project"></a>Microsoft Project
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/vnd.ms-project | 예 | 예 | 예 | 아니요 | 예 | .mpp |
 ||||||||
 
 ## <a name="microsoft-publisher"></a>Microsoft Publisher
 
-|Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+|Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/x-mspublisher | 예 | 예 | 예 | 예 | 예 | .pub |
 ||||||||
 
 ## <a name="microsoft-visio"></a>Microsoft Visio
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/vnd.ms-visio.drawing | 예 | 예 | 예 | 예 | 아니요 |  |
 |application/vnd.visio | 예 | 예 | 예 | 예 | 예 | .vsd |
@@ -150,7 +150,7 @@ Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합�
 
 ## <a name="microsoft-word"></a>Microsoft Word
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/msword | 예 | 예 | 예 | 예 | 예 | .dat; .doc |
 | application/rtf | 예 | 예 | 예 | 예 | 예 | .doc; .rtf |
@@ -162,7 +162,7 @@ Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합�
 
 ## <a name="microsoft-works"></a>Microsoft Works
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/vnd.ms-works-ss | 예 | 예 | 아니요 | 아니요 | 아니요 | .wps |
 |application/vnd.ms-works-wp | 예 | 예 | 아니요 | 아니요 | 아니요 | .wps |
@@ -170,14 +170,14 @@ Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합�
 
 ## <a name="open-document-format"></a>문서 형식 열기
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/vnd.oasis.opendocument.text | 예 | 예 | 예 | 예 | 예 | .odt |
 ||||||||
 
 ## <a name="other"></a>기타
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/json | 예 | 예 | 예 | 예 | 예 | 해당 없음 |
 |application/vnd.ms-graph | 예 | 예 | 아니요 | 아니요 | 아니요 |  |
@@ -187,7 +187,7 @@ Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합�
 
 ## <a name="plain-text"></a>일반 텍스트
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |text/csv | 예 | 예 | 예 | 예 | 예 | .csv |
 |text/plain | 예 | 예 | 예 | 예 | 예 | .con; .css; .csv; .dat; .pl; .txt |
@@ -195,14 +195,14 @@ Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합�
 
 ## <a name="portable-document-format"></a>PDF(Portable Document Format)
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/pdf | 예 | 예 | 예 | 예 | 예 | .pdf |
 ||||||||
 
-## <a name="word-perfect"></a>완벽한 단어
+## <a name="word-perfect"></a>단어가 완벽
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/vnd.wordperfect; version=5.0 | 예 | 예 | 예 | 아니요 | 아니요 | .wpd |
 |application/vnd.wordperfect; version=5.1 | 예 | 예 | 예 | 아니요 | 아니요 | .wpd |
@@ -211,7 +211,7 @@ Advanced eDiscovery는 다양한 수준에서 많은 파일 형식을 지원합�
 
 ## <a name="word-pro"></a>Word Pro
 
-| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어 주석 추가 | 가능한 확장 |
+| Mime 형식 | 파일 식별 | 메타데이터 추출 | 텍스트 추출 | 기본 뷰어 | 뷰어에 주석 추가 | 가능한 확장 |
 |:------| :------| :------| :------| :------| :------| :------|
 |application/vnd.lotus-wordpro | 예 | 예 | 아니요 | 아니요 | 아니요 | .lwp |
 ||||||||

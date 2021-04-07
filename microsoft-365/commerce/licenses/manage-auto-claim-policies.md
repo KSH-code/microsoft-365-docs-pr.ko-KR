@@ -18,12 +18,12 @@ ms.custom:
 - commerce
 search.appverid:
 - MET150
-ms.openlocfilehash: bf3f79e425b3f7cd86f1a5ab95a337ef5127e345
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 001b612820bb13873ec18733d68828837fcecd78
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911474"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599454"
 ---
 # <a name="manage-auto-claim-policies"></a>자동 클레임 정책 관리
 
@@ -43,7 +43,7 @@ ms.locfileid: "50911474"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-자동 클레임 정책을 만들고 관리하려면 전역 관리자 되어야 합니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
+자동 클레임 정책을 만들고 관리하려면 전역, 사용자 또는 라이선스 관리자 되어야 합니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
 ## <a name="turn-the-auto-claim-policy-feature-on-or-off"></a>자동 클레임 정책 기능 켜기 또는 끄기
 
@@ -55,6 +55,8 @@ ms.locfileid: "50911474"
 2. 페이지 가운데에서 설정 **켜기 단추를** 선택합니다.
 
 ### <a name="turn-off-auto-claim-policies"></a>자동 클레임 정책 끄기
+
+전역 관리자만 자동 클레임 정책 설정을 해제할 수 있습니다.
 
 1. 관리 센터에서 설정 구성  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">설정 페이지로 이동합니다.</a>
 2. 표 아래쪽에서 사용자 소유 앱 및 **서비스를 선택합니다.**

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 보다 안전한 사용자 인증 및 권한 부여를 Exchange Server HMA(하이브리드 최신 인증)를 사용하도록 하이브리드 하이브리드 인증을 구성하는 방법을 학습합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9393b457c219fb03ae2e8a35c3f795c324919f27
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: e0a0e521f4ac81a8aa113b2e945045d31f2c1952
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579725"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599502"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>하이브리드 최신 인증을 사용하도록 Exchange Server 온-프레미스를 구성하는 방법
 
@@ -65,6 +65,9 @@ HMA를 켜는 것은 다음을 의미합니다.
 ## <a name="make-sure-you-meet-all-the-prerequisites"></a>모든 선행 요구 사항을 충족하는지 확인
 
 비즈니스용 Skype와 Exchange 둘 다에 공통적인 선행 조인이 많기 때문에 하이브리드 최신 인증 개요 및 하이브리드 비즈니스용 Skype 및 [Exchange](hybrid-modern-auth-overview.md)서버에서 이를 사용하기 위한 선행 준비를 검토하세요. 이  *문서의*  단계를 시작하기 전에 이 작업을 수행합니다.
+
+> [!NOTE]
+> Outlook Web App 및 Exchange 제어판은 하이브리드 최신 인증에서 작동하지 않습니다.
 
 ## <a name="add-on-premises-web-service-urls-as-spns-in-azure-ad"></a>Azure AD에서 SPNS로 사내 웹 서비스 URL 추가
 
@@ -185,6 +188,8 @@ TCP 443에서 Exchange 서버를 사용하는 사내 고객인 경우 다음 IP 
 52.125.128.0/20
 52.127.96.0/23
 ```
+
+iOS 및 Android용 Outlook 앱은 Microsoft 서비스를 사용하여 일상 생활과 작업을 찾고, 계획하고, 우선 순위를 정하는 데 도움을 주어 모바일 장치에서 Microsoft 365 또는 Office 365를 경험하는 가장 좋은 방법으로 디자인됩니다. 자세한 내용은 iOS 및 [Android용 Outlook에서](https://docs.microsoft.com/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth?view=exchserver-2019)하이브리드 최신 인증 사용을 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
 

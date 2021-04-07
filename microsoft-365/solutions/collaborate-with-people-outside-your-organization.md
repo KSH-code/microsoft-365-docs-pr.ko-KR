@@ -18,12 +18,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 조직 외부의 사용자와 공동 작업을 위해 Teams, OneDrive 및 SharePoint와 같은 Microsoft 365 앱을 구성하는 방법을 학습합니다.
-ms.openlocfilehash: 359e72c12c43ca1ea984f93d87ab4868e6d1eb66
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 85aa77982fa15adb62bd587856546d2828edb942
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916397"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599822"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>조직 외부 사용자와 공동 작업
 
@@ -33,6 +33,8 @@ Microsoft 365의 외부 공유 기능을 통해 조직의 사용자가 디렉터
 
 - **공유 사용** - 조직에 원하는 공유 수준을 허용하도록 Azure Active Directory, Teams, Microsoft 365 그룹 및 SharePoint에서 공유 컨트롤을 구성합니다.
 - **추가 보안** 사용 - 조직 외부의 사용자가 인증을 하도록 기본 공유 기능을 구성할 수 있는 반면, Microsoft 365는 외부에서 공유하는 동안 데이터를 보호하고 거버넌스 정책을 유지 관리하는 데 도움이 되는 다양한 추가 보안 및 규정 준수 기능을 제공합니다.
+
+[Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams) 및 Microsoft Teams와의 안전한 공동 작업 설정에서 전체 Microsoft 365 공동 작업 지침과 외부 공유가 어떻게 연결되어 있는지 배워야 합니다.
 
 ## <a name="enable-sharing"></a>공유 사용
 
@@ -60,7 +62,7 @@ Microsoft 365에서 사용할 수 있는 게스트 공유 설정에 대한 포�
 
 Microsoft 365의 공유 기능 중 일부가 거버넌스 정책과 충돌하는 경우 [Microsoft 365에서](microsoft-365-limit-sharing.md) 공유 제한을 참조하여 공유 제한 옵션에 대해 자세히 알아보하세요.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 365의 파일 공동 작업 진행](/sharepoint/intro-to-file-collaboration)
 

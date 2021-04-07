@@ -16,22 +16,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c1526190116c55ba6916b690583f224ee1e86fd8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 5869e8406158eb6d6b2f48b3083cb9011bb3951d
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186164"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604348"
 ---
 # <a name="configure-microsoft-defender-security-center-settings"></a>Microsoft Defender 보안 센터 설정 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-prefsettings-abovefoldlink)
 
@@ -45,4 +43,5 @@ ms.locfileid: "51186164"
 사용 권한 | RBAC 및 장치 그룹을 사용하여 포털 액세스를 관리합니다.
 API | 위협 인텔리전스 및 SIEM 통합을 사용하도록 설정
 규칙 | 제거 규칙 및 자동화 설정을 구성합니다.
-장치 관리 | 장치를 온보드 및 오프보드합니다.
+디바이스 관리 | 장치를 온보드 및 오프보드합니다.
+네트워크 평가 | 정기적으로 검사하여 장치 인벤토리에 추가할 장치를 선택하십시오.

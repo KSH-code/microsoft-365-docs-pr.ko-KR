@@ -15,12 +15,12 @@ ms.custom:
 description: 독립 실행형 EOP(Exchange Online Protection) 조직의 관리자는 EAC(Exchange 관리 센터) 및 독립 실행형 EOP(Exchange Online Protection) PowerShell에서 메일 그룹 및 메일 사용이 가능한 보안 그룹을 만들고 수정하고 제거하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3b97e3fac0840753edada964252875a6e3a4fa04
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b9d83f2fb59ee8f8d2d3035045ed438d5ba45851
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205057"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599572"
 ---
 # <a name="manage-groups-in-eop"></a>EOP에서 그룹 관리
 
@@ -43,7 +43,7 @@ Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protect
 
 EAC(Exchange 관리 센터) 및 독립 실행형 EOP PowerShell에서 그룹을 관리할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - Exchange 관리 센터를 열하려면 독립 실행형 [EOP의 Exchange 관리 센터를 참조하세요.](exchange-admin-center-in-exchange-online-protection-eop.md)
 
@@ -102,7 +102,7 @@ EAC(Exchange 관리 센터) 및 독립 실행형 EOP PowerShell에서 그룹을 
 
 3. 메일 그룹 속성 페이지가 열리면 다음 탭 중 하나를 클릭하여 속성을 보거나 변경합니다.
 
-   작업을 마친 후 **저장** 을 클릭합니다.
+   작업을 마쳤으면 **저장** 을 클릭합니다.
 
 #### <a name="general"></a>일반 사항
 
@@ -216,7 +216,7 @@ $CurrentMemberNames += "Tyson Fawcett"
 Update-EOPDistributionGroupMember -Identity "Security Team" -Members $CurrentMemberNames
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [Set-EOPDistributionGroup](https://docs.microsoft.com/powershell/module/exchange/set-eopdistributiongroup) 및 [Update-EOPDistributionGroupMember를 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/update-eopdistributiongroupmember)
+구문과 매개 변수에 대한 자세한 내용은 [Set-EOPDistributionGroup](/powershell/module/exchange/set-eopdistributiongroup) 및 [Update-EOPDistributionGroupMember를 참조하십시오.](/powershell/module/exchange/update-eopdistributiongroupmember)
 
 ### <a name="remove-a-group-using-remote-windows-powershell"></a>원격 제어를 사용하여 그룹 Windows PowerShell
 
@@ -226,7 +226,7 @@ Update-EOPDistributionGroupMember -Identity "Security Team" -Members $CurrentMem
 Remove-EOPDistributionGroup -Identity "IT Administrators"
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [Remove-EOPDistributionGroup을 참조하십시오.](https://docs.microsoft.com/powershell/module/exchange/remove-eopdistributiongroup)
+구문과 매개 변수에 대한 자세한 내용은 [Remove-EOPDistributionGroup을 참조하십시오.](/powershell/module/exchange/remove-eopdistributiongroup)
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 

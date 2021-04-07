@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: 시작
+    - name: 시작하기
       items:
         - name: 재택 근무 지원을 위한 주요 작업
           href: top-security-tasks-for-remote-work.md
@@ -332,6 +332,8 @@
                           href: defender/api-update-incidents.md
     - name: Microsoft 365 보안
       href: ./office-365-security/overview.md
+    - name: Office 365용 Microsoft Defender의 단계별 위협 방지
+      href: ./office-365-security/protection-stack-microsoft-defender-for-office365.md
       items:
         - name: 개요
           items:

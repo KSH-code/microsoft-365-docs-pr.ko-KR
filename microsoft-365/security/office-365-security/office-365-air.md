@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1460deef11a87044530c54c8b10637284829a0cd
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6dfa22b2afb33c318eae8937888b5b75a1742938
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206679"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599468"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 자동화된 조사 및 대응(AIR)
 
@@ -81,11 +81,9 @@ Microsoft Defender for Office 365에서는 수정 작업이 자동으로 수행�
 - [맬웨어 방지 정책](protect-against-threats.md#part-1---anti-malware-protection)
 - [피싱 방지 보호](protect-against-threats.md#part-2---anti-phishing-protection)
 - [스팸 방지 보호](protect-against-threats.md#part-3---anti-spam-protection)
-- [피싱 방지 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-2---anti-phishing-protection)
-- [스팸 방지 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-3---anti-spam-protection)
-- [안전한 링크 및 안전한 첨부 파일](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
-- [SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-5---verify-atp-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
-- [전자 메일에 대한 제로 아워 자동 제거](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#zero-hour-auto-purge-for-email-in-eop)
+- [안전한 링크 및 안전한 첨부 파일](protect-against-threats.md#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
+- [SharePoint, OneDrive 및 Microsoft Teams용 안전한 첨부 파일](protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
+- [전자 메일에 대한 제로 아워 자동 제거](protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop)
 
 또한 조직의 경고 [](../../compliance/alert-policies.md)정책, 특히 위협 관리 범주의 기본 정책을 [검토해야 합니다.](../../compliance/alert-policies.md#default-alert-policies)
 
@@ -94,7 +92,7 @@ Microsoft Defender for Office 365에서는 수정 작업이 자동으로 수행�
 Microsoft 365는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적인 외부 및 내부 위협 및 정보 거버넌스 위험을 식별하는 데 도움이 되는 다양한 기본 제공 경고 정책을 제공합니다. 일부 기본 경고 [정책은](../../compliance/alert-policies.md#default-alert-policies) 자동화된 조사를 트리거할 수 있습니다. 다음 표에서는 자동화된 조사를 트리거하는 경고, Microsoft 365 보안 센터의 심각도 및 경고 생성 방법에 대해 설명하고 있습니다.
 
 |경고|심각도|경고 생성 방법|
-|:---|:---|:---|
+|---|---|---|
 |악의적인 URL 클릭이 감지되었습니다.|**High**|이 경고는 다음과 같은 경우 생성됩니다. <ul><li>조직에서 안전한 [링크로](safe-links.md) 보호되는 사용자가 악의적인 링크를 클릭</li><li>Url에 대한 판정 변경 내용은 Office 365용 Microsoft Defender로 식별됩니다.</li><li>사용자는 조직의 안전 링크 정책에 따라 안전한 링크 경고 [페이지를 무시합니다.](set-up-safe-links-policies.md)</li></ul> <p> 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 안전 링크 정책 [설정 을 참조하세요.](set-up-safe-links-policies.md)|
 |사용자가 전자 메일 메시지를 맬웨어 또는 피싱으로 보고|**정보**|이 경고는 조직의 사용자가 보고서 메시지 추가 기능 또는 [](enable-the-report-message-add-in.md) 피싱 보고 추가 기능을 사용하여 메시지를 피싱 전자 메일로 보고할 [때 생성됩니다.](enable-the-report-phish-add-in.md)|
 |배달 후 맬웨어가 포함된 전자 메일 메시지 제거|**정보**|이 경고는 맬웨어가 포함된 전자 메일 메시지가 조직의 사서함으로 배달될 때 생성됩니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](zero-hour-auto-purge.md)|
@@ -122,7 +120,6 @@ Microsoft 365는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적�
 - 보안 관리자(전역 관리자 포함)
 - 조직의 보안 운영 팀(보안 독자 및 검색 및 제거 **역할이 있는** 사용자 포함)
 - 최종 사용자
-
 
 ## <a name="changes-are-coming-soon-in-your-security-center"></a>보안 센터에서 곧 변경될 예정입니다.
 
@@ -152,9 +149,9 @@ Office 365용 Microsoft Defender에서 AIR 기능을 이미 사용하고 있는 
 |**엔터티 탭**|엔터티 **탭에는** 전체 요약 보기와 엔터티 유형별로 필터링하는 기능을 포함하는 탭 탭 스타일이 있습니다. 이제 **엔터티 탭에**  탐색기에서 열기 옵션 외에 이동 헌팅 **옵션이 포함되어** 있습니다. 이제 위협 탐색기 [](threat-explorer.md) 또는 [](../defender-endpoint/advanced-hunting-overview.md) 고급 헌팅을 사용하여 엔터티와 위협을 찾고 결과를 필터링할 수 있습니다.|
 |**작업** 탭|업데이트된 **작업** 탭에는  보류 중인 작업 탭과 작업 기록 **탭이 포함됩니다.** 보류 중인 작업을 선택할 때 열 수 있는 쪽 창에서 작업을 승인(또는 거부)할 수 있습니다.|
 |**증거 탭**|새 증거 **탭에는** 작업과 관련된 주요 엔터티 찾은 것이 표시됩니다. 보류 중인 작업을 선택할 때 여는 쪽 창에서 각 증거 조각과 관련된 작업을 승인(또는 거부)할 수 있습니다.|
-|**작업 센터**|업데이트된 **알림 센터(** )는 전자 메일, 장치 및 ID에서 보류 중인 작업과 완료된 작업을 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 함께 제공합니다. 자세한 내용은 작업 센터를 참조합니다. (자세한 내용은 동작 [센터를 참조합니다.)](https://docs.microsoft.com/microsoft-365/security/defender/mtp-action-center)
-|**인시던트** 페이지|**인시던트** 페이지는 이제 여러 조사를 함께 연결하여 조사에 대한 더 나은 통합된 보기를 제공합니다. [(인시던트에 대한 자세한 내용은 을(를)](https://docs.microsoft.com/microsoft-365/security/defender/incidents-overview)
-
+|**작업 센터**|업데이트된 **알림 센터(** )는 전자 메일, 장치 및 ID에서 보류 중인 작업과 완료된 작업을 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 함께 제공합니다. 자세한 내용은 작업 센터를 참조합니다. (자세한 내용은 동작 [센터를 참조합니다.)](../defender/m365d-action-center.md)|
+|**인시던트** 페이지|**인시던트** 페이지는 이제 여러 조사를 함께 연결하여 조사에 대한 더 나은 통합된 보기를 제공합니다. [(인시던트에 대한 자세한 내용은 을(를)](../defender/incidents-overview.md)|
+|
 
 ## <a name="next-steps"></a>다음 단계
 

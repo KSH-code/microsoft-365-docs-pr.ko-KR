@@ -12,12 +12,12 @@ ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: 독립 실행형 EOP(Exchange Online Protection)에 대한 모범 사례 권장 사항을 따라 성공을 설정하고 일반적인 구성 오류를 방지합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: dfd0b7290bdcded887ef6b81d5b0d4acbdd6cddb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 94586d409d6d8b53ba68c22b6b4f62d2b72266db
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205092"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599478"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>독립 실행형 EOP 구성 모범 사례
 
@@ -60,7 +60,7 @@ ms.locfileid: "51205092"
 |[사서함에 대한 IMAP 연결](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|사용 안 함|사용 안 함||
 |[사서함에 대한 POP 연결](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|사용 안 함|사용 안 함||
 |인증된 SMTP 전송|사용 안 함|사용 안 함|전자 메일을 생성하고 보내는 POP3 및 IMAP4 클라이언트와 응용 프로그램 및 장치에는 인증된 클라이언트 SMTP 전송(클라이언트 SMTP 전송 또는 SMTP AUTH라고도 알려지기)이 필요합니다. <p> SMTP AUTH를 전역적으로 또는 선택적으로 사용 또는 사용하지 않도록 설정하는 방법에 대한 지침은 [Exchange Online에서 인증된](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)클라이언트 SMTP 전송 사용 또는 사용 안 하도록 설정을 참조하세요.|
-|사서함에 대한 EWS 연결|사용 안 함|사용 안 함|Outlook에서는 약속이 있는/약속이 있는 경우, 부재 중 설정 및 일정 공유에 Exchange 웹 서비스를 사용합니다. 전역적으로 EWS를 사용하지 않도록 설정할 수 없는 경우 다음 옵션이 있습니다. <ul><li>클라이언트가 [최신](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) 인증(최신 인증)을 지원하는 경우 인증 정책을 사용하여 EWS에서 기본 인증을 사용하지 못하도록 합니다.</li><li>클라이언트 [액세스 규칙을 사용하여](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) EWS를 특정 사용자 또는 원본 IP 주소로 제한합니다.</li><li>전역적으로 또는 사용자별 특정 응용 프로그램에 대한 EWS 액세스를 제어합니다. 자세한 내용은 [Exchange에서 EWS에 대한 액세스 제어를 참조하세요.](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)</li></ul> <p> 보고서 [메시지 추가](enable-the-report-message-add-in.md) 기능 [](enable-the-report-phish-add-in.md) 및 피싱 보고 추가 기능에서는 지원되는 환경에서 기본적으로 REST를 사용하지만 REST를 사용할 수 없는 경우 EWS로 변경됩니다. REST를 사용하는 지원되는 환경은 다음입니다.<ul><li>Exchange Online</li><li>Exchange 2019 또는 Exchange 2016</li><li>Microsoft 365 구독 또는 일회성 구매 Outlook 2019의 현재 Windows용 Outlook</li><li>Microsoft 365 구독 또는 일회용 구매 Outlook for Mac 2016 이상에서 Mac용 현재 Outlook을 사용할 수 있습니다.</li><li>iOS 및 Android용 Outlook</li><li>웹용 Outlook</li></ul>|
+|사서함에 대한 EWS 연결|사용 안 함|사용 안 함|Outlook에서는 약속이 있는/약속이 있는 경우, 부재 중 설정 및 일정 공유에 Exchange 웹 서비스를 사용합니다. 전역적으로 EWS를 사용하지 않도록 설정할 수 없는 경우 다음 옵션이 있습니다. <ul><li>클라이언트가 [최신](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) 인증(최신 인증)을 지원하는 경우 인증 정책을 사용하여 EWS에서 기본 인증을 사용하지 못하도록 합니다.</li><li>클라이언트 [액세스 규칙을 사용하여](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) EWS를 특정 사용자 또는 원본 IP 주소로 제한합니다.</li><li>전역적으로 또는 사용자별 특정 응용 프로그램에 대한 EWS 액세스를 제어합니다. 자세한 내용은 [Exchange에서 EWS에 대한 액세스 제어를 참조하세요.](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)</li></ul> <p> 보고서 [메시지 추가](enable-the-report-message-add-in.md) 기능 [](enable-the-report-phish-add-in.md) 및 피싱 보고 추가 기능에서는 지원되는 환경에서 기본적으로 REST를 사용하지만 REST를 사용할 수 없는 경우 EWS로 변경됩니다. REST를 사용하는 지원되는 환경은 다음입니다.<ul><li>Exchange Online</li><li>Exchange 2019 또는 Exchange 2016</li><li>Microsoft 365 구독 또는 일회성 구매 Outlook 2019의 현재 Windows용 Outlook</li><li>Microsoft 365 구독 또는 일회용 구매 Outlook for Mac 2016 이상에서 Mac용 현재 Outlook을 사용할 수 있습니다.</li><li>iOS 및 Android용 Outlook</li><li>웹용 Outlook</li></ul>|
 |[PowerShell 연결](/powershell/exchange/disable-access-to-exchange-online-powershell)|사용 안 함|사용 안 함|사서함 사용자 또는 메일 [사용자(Get-User](/powershell/module/exchange/get-user) cmdlet에서 반환된 사용자 개체)에 사용할 수 있습니다.|
 |[스푸핑 인텔리전스를](learn-about-spoof-intelligence.md) 사용하여 허용 목록에 보낸 사람 추가|예|예||
 |[DBEB(디렉터리 기반 Edge 차단)](/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|사용|사용|도메인 유형 = 권한 있는 도메인|

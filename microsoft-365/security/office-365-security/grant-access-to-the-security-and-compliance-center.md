@@ -20,12 +20,12 @@ description: 사용자는 보안 또는 규정 준수 기능을 관리하기 전
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 16dbbe81d1131821dfdbf75caff5b5121f8cc45b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 7cd36ac0dec20851a423acd58e5ad7d38cb65d93
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206306"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599926"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여
 
@@ -40,7 +40,7 @@ ms.locfileid: "51206306"
 
 보안 및 준수 센터에서 사용자에게 부여할 수 있는 다양한 사용 권한에 대한 자세한 내용은 & 규정 준수 센터의 사용 권한을 [& 참조하십시오.](permissions-in-the-security-and-compliance-center.md)
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 이 문서의 단계를 완료하려면 Security & Compliance Center에서 전역 관리자 또는 OrganizationManagement 역할 그룹의 구성원일 수 있습니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "51206306"
 
 4. 역할 그룹에 추가할 모든 사용자를 선택한 경우 **추가를 \>** 클릭한 다음 확인 을 **클릭합니다.**
 
-5. 작업을 마친 후 **저장** 을 클릭합니다.
+5. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
 ## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>보안 & 준수 센터 PowerShell을 사용하여 다른 사용자에게 보안 및 준수 센터에 & 권한을 부여합니다.
 
@@ -80,7 +80,7 @@ ms.locfileid: "51206306"
    Add-RoleGroupMember -Identity "Organization Management" -Member MatildaS
    ```
 
-구문과 매개 변수 문제에 대한 자세한 내용은 [Add-RoleGroupMember를 참조합니다.](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember)
+구문과 매개 변수 문제에 대한 자세한 내용은 [Add-RoleGroupMember를 참조합니다.](/powershell/module/exchange/add-rolegroupmember)
 
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 

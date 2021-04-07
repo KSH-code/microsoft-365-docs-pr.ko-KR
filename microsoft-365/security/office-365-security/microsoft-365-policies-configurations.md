@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: cb3c6bf6e19088be2771747af12932fa4e80431a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9d7170ff261a53ba5755134973a912221363b3c8
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206939"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599810"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -43,14 +43,13 @@ ID 및 장치 액세스 설정 및 정책은 기준 보호, 중요한 보호, �
 이러한 기능 및 권장 사항:
 
 - Microsoft 365 E3 및 Microsoft 365 E5에서 지원됩니다.
-- [Azure AD의](/azure/active-directory/fundamentals/identity-secure-score)ID 점수뿐만 아니라 [Microsoft 보안](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score) 점수에 맞춰지며 조직의 이러한 점수가 증가합니다.
+- [Azure AD의](/azure/active-directory/fundamentals/identity-secure-score)ID 점수뿐만 아니라 [Microsoft 보안](../defender/microsoft-secure-score.md) 점수에 맞춰지며 조직의 이러한 점수가 증가합니다.
 - ID 인프라를 보호하는 [5단계를 구현하는 데 도움이 됩니다.](/azure/security/azure-ad-secure-steps)
 
 조직에 고유한 환경 요구 사항이나 복잡한 사항이 있는 경우 이러한 권장 사항을 시작점으로 사용하세요. 그러나 대부분의 조직에서는 이러한 권장 사항을 정해진 경우 구현할 수 있습니다.
 
 엔터프라이즈용 Microsoft 365의 ID 및 장치 액세스 구성에 대한 간략한 개요를 확인하려면 이 비디오를 시청하세요.
-<br>
-<br>
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxEDQ]
 
 > [!NOTE]

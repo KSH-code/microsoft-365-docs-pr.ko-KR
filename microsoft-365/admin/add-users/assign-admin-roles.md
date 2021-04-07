@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: 사용자가 관리 센터에서 특정 작업을 수행할 수 있도록 비즈니스의 사용자 또는 여러 사용자에게 관리자 역할을 할당하는 방법을 설명합니다.
-ms.openlocfilehash: cfc4a7e106ca343435777aba1d0b9836f90a6f44
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5c40199823c93968be97302efc8e2d404f3cfed1
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904507"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604336"
 ---
 # <a name="assign-admin-roles"></a>관리자 역할 할당
 
@@ -59,7 +59,7 @@ Microsoft 비즈니스 구독을 구입한 사람인 경우 전역 관리자입�
 
 ### <a name="assign-admin-roles-to-users-using-roles"></a>역할을 사용하여 사용자에게 관리자 역할 할당
 
-1. 관리 센터에서 역할  역할로 이동하여 조직에 사용할 수 있는 모든 관리자 >  역할을 하세요.
+1. 관리 센터에서 **역할로 이동하세요.** Azure **AD 또는** **Intune** 탭을 선택하면 조직에서 사용할 수 있는 관리자 역할을 볼 수 있습니다.
 2. 사용자를 할당할 관리자 역할을 선택합니다.
 3. 할당된 **관리자 추가** > **를 선택합니다.**
 4. 사용자의 표시 이름  또는 사용자 이름을 입력한 다음 제안 목록에서 사용자를 선택합니다.
@@ -70,7 +70,7 @@ Microsoft 비즈니스 구독을 구입한 사람인 경우 전역 관리자입�
 
 1. 관리 센터에서 사용자 활성 **사용자** > [페이지로](https://go.microsoft.com/fwlink/p/?linkid=834822) 이동합니다.
 
-2. 활성 **사용자 페이지에서** 관리자 역할을 변경할 사용자를 선택합니다. 플라이아웃 창에서 역할 옆의 **역할** **관리를 선택합니다.**
+2. 활성 **사용자 페이지에서** 관리자 역할을 변경할 사용자를 선택합니다. 플라이아웃 창의 역할에서 **역할** **관리를 선택합니다.**
 
 3. 사용자에게 할당할 관리자 역할을 선택합니다. 원하는 역할이 없는 경우 목록 맨 아래에서 **모두** 표시를 선택합니다.
 

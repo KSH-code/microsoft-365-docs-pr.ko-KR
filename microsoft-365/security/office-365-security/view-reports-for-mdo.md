@@ -20,12 +20,12 @@ description: 보안 및 준수 센터에서 Office 365용 Microsoft Defender에 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 28978dbca3f9e4039b4f8c21c49a2963802afa54
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 0b3e1ddf48ccd74b36c594d232c6761b921dee8c
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205601"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599902"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>보안 및 준수 센터의 보고서 대시보드에서 Office 365용 & 보기
 
@@ -282,8 +282,8 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 - **URL 클릭 보호 작업:** 조직의 사용자가 클릭한 URL 클릭 수와 클릭 결과를 보여줍니다.
 
   - **차단(사용자가** URL로 이동하지 차단)
-  - **차단 및 클릭**
-  - **검사 중 클릭한 기간**
+  - **차단 및 클릭(사용자가** URL로 계속 이동하도록 선택)
+  - **검사 중 클릭(검사가** 완료되기 전에 사용자가 링크를 클릭한 경우)
 
   클릭은 사용자가 차단 페이지를 통해 악성 웹 사이트로 이동했다는 것을 나타냅니다(관리자는 안전한 링크 정책에서 클릭을 사용하지 않도록 설정할 수 있습니다).
 
@@ -350,7 +350,7 @@ Office 365 조직용 Microsoft Defender(예: Microsoft 365 E5 구독 또는 Offi
 - **조직 관리**
 - **보안 관리자**
 - **보안 읽기**
-- **전역 읽기**
+- **전역 읽기 권한자**
 
 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 

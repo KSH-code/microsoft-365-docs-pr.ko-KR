@@ -17,12 +17,12 @@ ms.collection:
 description: Microsoft 365 데이터 센터에서 배달 풀을 사용하여 전자 메일 서버의 신뢰도 보호 방법에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 461b5f9aa0407c5115ab84a075c793139a8b4305
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ac3469150ef5cf5c1040fcddf7f0bc95e7a18805
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205397"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599914"
 ---
 # <a name="outbound-delivery-pools"></a>아웃바운드 배달 풀
 
@@ -42,7 +42,7 @@ Microsoft 365 데이터 센터의 전자 메일 서버가 일시적으로 스팸
 
 고위험 배달 풀은 "낮은 품질" 메시지(예: 스팸 및 후방 스캐터)를 보내는 데만 사용되는 아웃바운드 전자 메일에 대한 별도의 IP [주소 풀입니다.](backscatter-messages-and-eop.md) 높은 위험 배달 풀을 사용하면 아웃바운드 전자 메일의 일반 IP 주소 풀에서 스팸을 보내지 못하게 할 수 있습니다. 아웃바운드 전자 메일의 일반 IP 주소 풀은 "고품질" 메시지를 보내는 신뢰도 유지 관리로, 이러한 IP 주소가 IP 차단 목록에 표시될 가능성을 줄입니다.
 
-고위험 배달 풀의 IP 주소가 IP 차단 목록에 배치될 가능성은 매우 높지만 이는 디자인에 따라 지정됩니다. 많은 전자 메일 조직이 고위험 배달 풀의 메시지를 수락하지 못하기 때문에 의도한 받는 사람에게 배달이 보장되지 않습니다.
+고위험 배달 풀의 IP 주소가 IP 차단 목록에 배치될 가능성은 매우 높지만 이는 설계에 따라 지정됩니다. 많은 전자 메일 조직이 고위험 배달 풀의 메시지를 수락하지 못하기 때문에 의도한 받는 사람에게 배달이 보장되지 않습니다.
 
 자세한 내용은 아웃바운드 스팸 [제어를 참조하세요.](outbound-spam-controls.md)
 
@@ -61,9 +61,3 @@ NDRS의 급증에 대한 가능한 원인은 다음과 같습니다.
 - Rogue 전자 메일 서버.
 
 이러한 모든 문제로 인해 서비스에서 처리되는 NDRS 수가 갑자기 증가할 수 있습니다. 대부분의 경우 이러한 NDRS는 다른 전자 메일 서버 및 서비스(후방 스캐터라고도 하는)에 스팸인 _[것으로 나타납니다.](backscatter-messages-and-eop.md)_
-
-## <a name="relay-pool"></a>릴레이 풀
-
-Microsoft 365에서 전달되거나 릴레이되는 메시지는 특수 릴레이 풀을 사용하여 전송됩니다. 최종 대상은 Microsoft 365를 실제 보낸 사람으로 고려하지 않습니다. Microsoft 365에서 전자 메일을 자동 전달하거나 릴레이하는 합법적인 잘못된 시나리오가 있기 때문에 이 트래픽을 격리하는 것이 중요합니다. 위험이 높은 배달 풀과 마찬가지로 별도의 IP 주소 풀이 릴레이된 메일에 사용됩니다. 이 주소 풀은 자주 변경될 수 있는 게시되지 않습니다.
-
-Microsoft 365는 전달된 메시지를 배달할 수 있도록 원래 보낸 사람이 합법적인지 확인해야 합니다. 이를 위해 전자 메일 인증(SPF, DKIM 및 DMARC)은 메시지가 전송된 경우 전달해야 합니다. 보낸 사람 인증을 할 수 있는 경우 Sender Rewriting을 사용하여 수신자가 전달된 메시지가 신뢰할 수 있는 원본의 메시지인지 알 수 있도록 합니다. 보내는 도메인이 [SRS(Sender Rewriting Scheme)에서](/office365/troubleshoot/antispam/sender-rewriting-scheme)인증을 통과하도록 하는 데 도움이 되는 작업 및 작동 방식에 대해 자세히 읽을 수 있습니다.

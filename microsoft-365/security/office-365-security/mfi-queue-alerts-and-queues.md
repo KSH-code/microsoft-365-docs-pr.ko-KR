@@ -12,12 +12,12 @@ ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: 관리자는 보안 및 준수 센터의 메일 흐름 대시보드에서 큐 위젯을 사용하여 아웃바운드 커넥터를 통해 해당 & 또는 파트너 조직으로의 실패한 메일 흐름을 모니터링하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 14cadd0e8611fbbc65c3bdc9849beebf3a3eb34d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 65452b0ad7c31673c910ba48c9c6709995e563ce
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206946"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599986"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>보안 및 준수 센터의 & 큐
 
@@ -87,7 +87,7 @@ Microsoft 365는 24시간 동안 계속 배달을 다시 시도합니다. 24시�
 - **대상 서버**
 - **마지막 IP 주소**
 - **마지막 오류**
-- **해결 방법:** 일반적인 문제 및 해결 방법을 사용할 수 있습니다. 지금 수정 **링크를** 사용할 수 있는 경우 해당 링크를 클릭하여 문제를 해결합니다. 그렇지 않은 경우 사용 가능한 모든 링크를 클릭하여 오류 및 가능한 해결 방법과 관련한 자세한 정보를 제공합니다.
+- **해결 방법:** 일반적인 문제 및 해결 방법을 사용할 수 있습니다. 지금 **수정 링크를** 사용할 수 있는 경우 해당 링크를 클릭하여 문제를 해결합니다. 그렇지 않은 경우 사용 가능한 모든 링크를 클릭하여 오류 및 가능한 해결 방법과 관련한 자세한 정보를 제공합니다.
 
 ![메일 흐름 대시보드에서 큐 정보를 클릭한 후의 세부 정보](../../media/mfi-queues-details.png)
 

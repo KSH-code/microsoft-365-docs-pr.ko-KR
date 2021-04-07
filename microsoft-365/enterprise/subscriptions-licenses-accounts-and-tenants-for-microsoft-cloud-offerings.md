@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - Ent_Architecture
 description: Microsoft의 클라우드 제품에서 조직, 구독, 라이선스, 사용자 계정 및 테넌트의 관계를 이해합니다.
-ms.openlocfilehash: eaf1c2399b5d44ea8d6000042b3258d0e8b5a7de
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 34e920e6b5a48adaffcc31150090e96f9c8d8b0e
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909517"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604324"
 ---
 # <a name="subscriptions-licenses-accounts-and-tenants-for-microsofts-cloud-offerings"></a>Microsoft 클라우드 제품용 구독, 라이선스, 계정 및 테넌트
 
@@ -88,7 +88,7 @@ Azure IaaS 기반 가상 머신의 경우 가상 머신 이미지에 설치되�
   
 ### <a name="tenants"></a>테넌트
 
-SaaS 클라우드 제공품의 경우 테넌트는 클라우드 서비스를 제공하는 서버가 있는 지역 위치입니다. 예를 들어, Contoso Corporation은 유럽 지역을 선택하여 파리 본사에 있는 15,000명의 작업자를 위해 Microsoft 365, EMS 및 Dynamics 365 테넌트를 호스트했습니다.
+SaaS 클라우드 제공품의 경우 테넌트는 클라우드 서비스를 제공하는 서버가 있는 지역 위치입니다. 예를 들어, Contoso Corporation은 유럽 지역을 선택하여 파리 본사에 있는 15,000명의 작업자를 위해 Microsoft 365, EMS 및 Dynamics 365 구독을 호스트했습니다.
   
 Azure IaaS에 호스트된 Azure PaaS 서비스 및 가상 머신 기반 워크로드는 전 세계의 모든 Azure 데이터 센터에서 테넌시를 둘 수 있습니다. Azure PaaS 앱 또는 서비스를 만들 때는 위치로 사용되고, IaaS 워크로드의 요소로도 알려진 Azure 데이터 센터를 지정할 수 있습니다.
   

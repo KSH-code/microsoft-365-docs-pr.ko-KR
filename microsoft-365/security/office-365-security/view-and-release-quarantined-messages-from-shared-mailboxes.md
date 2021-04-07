@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: 사용자는 사용 권한이 있는 공유 사서함으로 전송된 분리된 메시지를 보고 해당 메시지를 보는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6e3bf4c84e7a762f7f54f42ff61f0fbdb9dc1edd
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: cb915ad6ad6e6130d8704339559f4c370cef3a20
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215507"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599514"
 ---
 # <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>공유 사서함에서 분리된 메시지 보기 및 릴리스
 
@@ -35,7 +35,7 @@ ms.locfileid: "51215507"
 
 이제 사용자가 공유 사서함으로 전송된 고지된 메시지를 관리하기 위해 더 이상 automapping이 필요하지 않습니다. 작동하기만 합니다. 공유 사서함에 전송된 서로 다른 두 가지 방법으로는 서로 다른 두 가지 방법으로 메시지에 액세스할 수 있습니다.
 
-- 관리자가 스팸 [](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-your-spam-filter-policies) 방지 정책에서 최종 사용자 스팸 알림을 사용하도록 설정한 경우 공유 사서함의 최종 사용자 스팸 알림에  액세스할 수 있는 모든 사용자는 알림의 검토 단추를 클릭하여 보안 및 준수 센터에서 & 있습니다. 이 방법을 사용하면 사용자가 공유 사서함으로 전송된 분리된 메시지만 관리할 수 있습니다. 사용자는 이 컨텍스트에서 자체적으로 메시지를 관리할 수 없습니다.
+- 관리자가 스팸 [](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)방지 정책에서 최종 사용자 스팸 알림을 사용하도록 설정한 경우 공유 사서함의 최종 사용자 스팸 알림에  액세스할 수 있는 사용자는 알림의 검토 단추를 클릭하여 보안 및 준수 센터에서 & 수 있습니다. 이 방법을 사용하면 사용자가 공유 사서함으로 전송된 분리된 메시지만 관리할 수 있습니다. 사용자는 이 컨텍스트에서 자체적으로 메시지를 관리할 수 없습니다.
 
 - 사용자는 보안 및 준수 센터에서 & [수 있습니다.](find-and-release-quarantined-messages-as-a-user.md) 기본적으로 사용자에게 전송된 메시지만 표시됩니다. 그러나 정렬 결과(메시지  ID 단추 기본적으로 메시지 **ID** 단추)를 받는 사람 전자 메일 주소로 변경하고 **공유** 사서함 전자 메일 주소를 입력한 다음 새로 고침을 클릭하여 공유 사서함으로 전송된 고지된 메시지를 볼 수 있습니다. 
 
@@ -53,7 +53,7 @@ ms.locfileid: "51215507"
 
 - 공유 사서함에 대한 검지 작업과 관련하여 중첩된 보안 그룹을 사용하여 공유 사서함에 대한 액세스 권한을 부여하는 경우 중첩된 그룹의 수준은 두 개를 넘지하는 것이 좋습니다. 예를 들어 그룹 A는 그룹 C의 구성원인 그룹 B의 구성원입니다. 공유 사서함에 사용 권한을 할당하려면 그룹을 A에 추가한 다음 그룹 C를 공유 사서함에 할당하지 않습니다.  
 
-- [Exchange Online PowerShell에서](/powershell/exchange/connect-to-exchange-online-powershell)공유 사서함에 대해 quarantined messages를 관리하려면 최종 사용자가 _RecipientAddress_ 매개 변수 값에 대해 공유 사서함 전자 메일 주소와 [함께 Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) cmdlet을 사용하여 메시지를 식별해야 합니다. 예:
+- [Exchange Online PowerShell에서](/powershell/exchange/connect-to-exchange-online-powershell)공유 사서함에 대해 quarantined messages를 관리하려면 최종 사용자가 _RecipientAddress_ 매개 변수 값에 대해 공유 사서함 전자 메일 주소와 [함께 Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) cmdlet을 사용하여 메시지를 식별해야 합니다. 예시:
 
   ```powershell
   Get-QuarantinedMessage -RecipientAddress officeparty@contoso.com

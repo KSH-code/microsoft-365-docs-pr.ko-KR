@@ -1,12 +1,13 @@
 ---
 title: Microsoft 365에서 위협 방지 기능을 구성하는 단계
-description: Microsoft 365 E5에 위협 방지 서비스 및 기능을 배포하는 방법을 학습합니다.
+description: 이 문서를 위협 방지 솔루션을 구현하기 위한 가이드로 사용하세요. Microsoft 365 E5에 위협 방지 서비스 및 기능을 배포하는 방법을 학습합니다.
+keywords: 보안, 설정, 구성, Microsoft 365 E5, 고급 위협 방지
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.audience: ITPro
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.prod: m365-security
 ms.technology: m365d
 localization_priority: Normal
@@ -16,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: bd7c98f5888f8dc93a8aa341b186ea744d5b2882
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 925c62e1c6201c54fcf09d0dd98b06906d9e057f
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199936"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599866"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 방지 기능 구성
 
@@ -30,7 +31,7 @@ ms.locfileid: "51199936"
 
 ## <a name="step-1-set-up-multi-factor-authentication-and-conditional-access-policies"></a>1단계: 다단계 인증 및 조건부 액세스 정책 설정
 
-[MFA(다단계](/azure/active-directory/authentication/concept-mfa-howitworks) 인증)를 사용하려면 사용자가 전화 통화 또는 인증자 앱을 사용하여 ID를 확인해야 합니다. [조건부 액세스 정책은](/azure/active-directory/conditional-access/overview) 사용자가 Microsoft 365의 앱 및 데이터에 액세스하기 위해 충족해야 하는 특정 요구 사항을 정의합니다. MFA 및 조건부 액세스 정책은 함께 작동하여 조직을 보호합니다. 예를 들어 MFA를 사용할 수 없는 계정을 사용하여 모바일 장치에서 로그인을 시도하고 조건부 액세스 정책에 MFA가 적용되어야 하는 경우 해당 사용자는 로그인할 수 없습니다.  
+[MFA(다단계](/azure/active-directory/authentication/concept-mfa-howitworks) 인증)를 사용하려면 사용자가 전화 통화 또는 인증자 앱을 사용하여 ID를 확인해야 합니다. [조건부 액세스 정책은](/azure/active-directory/conditional-access/overview) 사용자가 Microsoft 365의 앱 및 데이터에 액세스하기 위해 충족해야 하는 특정 요구 사항을 정의합니다. MFA 및 조건부 액세스 정책은 함께 작동하여 조직을 보호합니다. 예를 들어 누군가 MFA를 사용할 수 없는 계정을 사용하여 모바일 장치에서 로그인을 시도하고 조건부 액세스 정책에 MFA가 적용되어야 하는 경우 해당 사용자는 로그인할 수 없습니다.  
 
 Microsoft는 모든 SaaS 응용 프로그램, 특히 Microsoft 365에 대한 액세스를 보호하기 위한 특정 조건부 액세스 및 관련 정책 집합을 테스트하고 권장하고 있습니다. 정책은 기준, 중요 및 높은 규제 보호에 권장됩니다. 먼저 기준 보호에 대한 정책을 구현합니다. 
 
@@ -53,7 +54,7 @@ Microsoft는 모든 SaaS 응용 프로그램, 특히 Microsoft 365에 대한 액
 
 ## <a name="step-2-configure-microsoft-defender-for-identity"></a>2단계: ID에 맞게 Microsoft Defender 구성
 
-[Id에 대한 Microsoft Defender는](/azure-advanced-threat-protection/what-is-atp) 조직에 지시된 고급 위협, ID 손상 및 악의적인 내부자 작업을 식별, 감지 및 조사하기 위해 AD DS(Active Directory 도메인 서비스) 신호와 함께 작동하는 클라우드 기반 보안 솔루션입니다.
+[Id에 대한 Microsoft Defender는](/defender-for-identity/what-is) 조직에 지시된 고급 위협, ID 손상 및 악의적인 내부자 작업을 식별, 감지 및 조사하기 위해 AD DS(Active Directory 도메인 서비스) 신호와 함께 작동하는 클라우드 기반 보안 솔루션입니다.
 
 Microsoft Defender for Identity를 사용하면 하이브리드 환경에서 고급 공격을 감지하는 데 어려움을 겪는 보안 운영(SecOps) 분석가 및 보안 전문가가 사용할 수 있습니다.
 - 학습 기반 분석을 사용하여 사용자, 엔터티 동작 및 활동을 모니터링합니다.
@@ -71,7 +72,7 @@ Microsoft Defender for Identity를 사용하면 하이브리드 환경에서 고
 
 ### <a name="more-information-about-microsoft-defender-for-identity"></a>Id용 Microsoft Defender에 대한 자세한 정보
 
-- [ID용 Microsoft Defender란?](/azure-advanced-threat-protection/what-is-atp)
+- [Microsoft Defender for Identity란?](/azure-advanced-threat-protection/what-is-atp)
 - [비디오: ID용 Microsoft Defender 소개](https://www.youtube.com/watch?reload=9&v=EGY2m8yU_KE)
 - [Microsoft Defender for Identity 배포](/azure-advanced-threat-protection/what-is-atp#whats-next)
 
@@ -79,7 +80,7 @@ Microsoft Defender for Identity를 사용하면 하이브리드 환경에서 고
 
 [Microsoft 365 Defender는](../security/defender/microsoft-365-defender.md) 신호를 결합하고 기능을 단일 솔루션으로 오케스트레이션합니다. 통합된 Microsoft 365 Defender 솔루션을 사용하여 보안 전문가는 이러한 각 제품이 수신하는 위협 신호를 통합하고 위협의 전체 범위와 영향을 확인할 수 있습니다. 환경이 환경에 들어오고 있는 방법, 영향을 받는 방법 및 현재 조직에 미치는 영향 Microsoft 365 Defender는 공격을 방지하거나 중지하고 영향을 받는 사서함, 끝점 및 사용자 ID를 자체적으로 고치기 위한 자동 조치를 취합니다.
 
-Microsoft 365 Defender는 경고, 인시던트, 자동화된 조사 및 대응, 고급 헌팅(ID용 Microsoft Defender, Office 365용 Microsoft Defender, 끝점용 Microsoft Defender 및 Microsoft Cloud App Security)을 단일 유리 환경 창으로 통합합니다. Office 365용 Defender 서비스를 하나 이상 구성한 후 Microsoft 365 Defender를 켜야 합니다. 새로운 기능은 계속해서 Microsoft 365 Defender에 추가됩니다. 미리 보기 기능을 받기 위해 옵트인(opt in)을 고려합니다.
+Microsoft 365 Defender는 경고, 인시던트, 자동화된 조사 및 대응, 고급 헌팅(ID용 Microsoft Defender, Office 365용 Microsoft Defender, 끝점용 Microsoft Defender 및 Microsoft Cloud App Security)을 단일 유리 환경 창으로 통합합니다. 새로운 기능은 계속해서 Microsoft 365 Defender에 추가됩니다. 미리 보기 기능을 받기 위해 옵트인(opt in)을 고려합니다.
 
 ### <a name="to-set-up-microsoft-365-defender"></a>Microsoft 365 Defender를 설정
 

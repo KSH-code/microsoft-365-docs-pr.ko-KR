@@ -19,12 +19,12 @@ description: 보안 및 준수 센터의 탐색기 및 실시간 검색을 사�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1c5935115d7496aca22c3941f34983cddebe7b46
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 7c601169d76fe92ac3038ccb25c5c50aa390f714
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570987"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599890"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -113,7 +113,7 @@ ms.locfileid: "51570987"
 > [!div class="mx-imgBorder"]
 > ![URL 태그](../../media/tags-urls.png)
 > 
-자세한 내용은 이 비디오를 [시청합니다.](https://www.youtube.com/watch?v=UoVzN0lYbfY&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=4) 
+[이 비디오](https://www.youtube.com/watch?v=UoVzN0lYbfY&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=4)를 시청하여 자세히 확인하세요. 
 
 ## <a name="improvements-to-the-threat-hunting-experience-upcoming"></a>위협 헌팅 환경 개선(예정)
 
@@ -206,7 +206,7 @@ ms.locfileid: "51570987"
 
 - URL 플라이아웃의 클릭 섹션에 전체 클릭된 URL(URL의 일부인 쿼리 매개 변수 포함)을 표시하세요.  현재 URL 도메인 및 경로는 제목 표시줄에 표시됩니다. 전체 URL을 표시하기 위해 해당 정보를 확장하고 있습니다.
 
-- URL  *필터(URL과* URL 도메인 및 URL 도메인 및 *경로)* 픽스: 업데이트는 URL/클릭 결과를 포함하는 메시지 검색에 영향을 미치게 됩니다. 프로토콜에 기반하지 않은 검색에 대한 지원을 사용하도록 설정하여 를 사용하지 않고 URL을 검색할 수 `http` 있습니다. 기본적으로 URL 검색은 다른 값을 명시적으로 지정하지 않는 한 http에 매핑됩니다. 예를 들면 다음과 같습니다.
+- URL  *필터(URL과* URL 도메인 및 URL 도메인 및 *경로)* 픽스: 업데이트는 URL/클릭 결과를 포함하는 메시지 검색에 영향을 미치게 됩니다. 프로토콜에 기반하지 않은 검색에 대한 지원을 사용하도록 설정하여 를 사용하지 않고 URL을 검색할 수 `http` 있습니다. 기본적으로 URL 검색은 다른 값을 명시적으로 지정하지 않는 한 http에 매핑됩니다. 예시:
 
    -  URL, URL 도메인 및 URL 도메인 및 경로 필터 필드의 사전 사전을 사용하여 `http://` 검색합니다.    검색에 동일한 결과가 표시해야 합니다.
 
@@ -520,7 +520,7 @@ Microsoft 365 기술을 통해 정렬된 전자 메일에서 맬웨어가 검색
 - [SharePoint Online, OneDrive 및 Microsoft Teams에서 검색된 악성 파일 보기](./mdo-for-spo-odb-and-teams.md)
 - [위협 탐색기(및 실시간 검색)에서 보기에 대한 개요를 얻습니다.](threat-explorer-views.md)
 - [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
-- [Microsoft Threat Protection의 자동화된 조사 및 대응](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir)
+- [Microsoft Threat Protection의 자동화된 조사 및 대응](../defender/m365d-autoir.md)
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
