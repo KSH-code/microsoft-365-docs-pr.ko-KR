@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365에 위협 방지 기능 배포
-description: Microsoft 365 E5의 위협 방지 서비스 및 보안에 대한 개요를 참조하세요.
+description: Microsoft 365 E5의 위협 방지 서비스 및 보안 기능에 대한 개요를 얻습니다. Microsoft 365 E5를 통해 사용자 계정, 장치, 전자 메일 콘텐츠 등 보호합니다.
 keywords: 위협 방지, 보안, E5, 사이버 공격, 맬웨어, M365, 솔루션
 ms.author: deniseb
 author: denisebmsft
@@ -17,16 +17,20 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 922e7b7ea8bceced7085af49485b3479a671d5cd
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 806c97a55b3cbe46d597566425cf71476586ecee
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599962"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604381"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365-e5"></a>Microsoft 365 E5에 위협 방지 기능 배포
 
-[맬웨어](/windows/security/threat-protection/intelligence/understanding-malware)및 정교한 사이버 공격(예: 파일 없는 위협)은 일반적으로 발생합니다. [](/windows/security/threat-protection/intelligence/fileless-threats) 기업은 효과적인 IT 보안 기능으로 자신과 고객을 보호해야 합니다. 사이버 공격은 신뢰 상실에서 재무적 위험, 비즈니스를 위협하는 다운타임 등 조직에 중요한 문제를 일으킬 수 있습니다. 위협으로부터 보호하는 것은 중요하지만 조직의 시간, 작업 및 리소스에 집중할 위치를 결정하기 어려울 수 있습니다. 
+이 솔루션은 Microsoft 365 E5의 강력한 위협 방지 기능을 설명합니다. 이 솔루션을 읽고 포함된 기능, 작동 방식 및 조직에서 이러한 기능을 배포하는 방법을 간략하게 살펴 읽습니다.
+
+## <a name="why-protecting-against-threats-is-important"></a>위협으로부터 보호하는 것이 중요한 이유 
+
+[맬웨어](/windows/security/threat-protection/intelligence/understanding-malware)및 정교한 사이버 공격(예: 파일 없는 위협)은 일반적으로 발생합니다. [](/windows/security/threat-protection/intelligence/fileless-threats) 기업은 효과적인 IT 보안 기능으로 자신과 고객을 보호해야 합니다. 사이버 공격은 신뢰 상실에서 재무적 위험, 비즈니스를 위협하는 다운타임 등 조직에 중요한 문제를 일으킬 수 있습니다. 위협으로부터 보호하는 것은 중요하지만 조직의 시간, 작업 및 리소스에 집중할 위치를 결정하기 어려울 수 있습니다. Microsoft 365 E5는 도움이 될 수 있습니다. 
 
 Microsoft 보안 솔루션은 제품 및 서비스에 기본 제공되어 있습니다. 자동화 및 기계 학습 기능은 보안 팀의 부하를 줄여 올바른 항목이 해결될 수 있도록 합니다. 또한 Microsoft 보안 솔루션의 강점은 지능형 보안 그래프에서 매일 수조 가지 신호를 [처리합니다.](/graph/security-concept-overview) Microsoft 365 보안 솔루션에는 전자 메일, 데이터, 장치 및 ID 전반의 신호를 모아 조직에 대한 고급 위협 그림을 그릴 수 있는 솔루션인 [Microsoft 365 Defender가](../security/defender/microsoft-365-defender.md)포함되어 있습니다.
 
@@ -45,11 +49,13 @@ Microsoft 365 E5에서는 위협 방지 기능이 기본적으로 통합되어 �
 
 Microsoft 365 Defender는 신호와 데이터를 [통합된 Microsoft 365 보안 센터로 통합합니다.](/microsoft-365/security/defender/overview-security-center) 
 
-![Microsoft 365 Defender 대시보드의 개념 그림](../media/deploy-threat-protection/deploy-threat-protection-across-m365-mtp.png)
+> [!div class="mx-imgBorder"]
+> ![Microsoft 365 Defender 대시보드의 개념 그림](../media/deploy-threat-protection/deploy-threat-protection-across-m365-mtp.png)
 
 다음 그림에서는 이러한 개별 기능을 배포하는 데 권장되는 경로를 설명하고 있습니다. 
 
-![M365 위협 방지 신호](../media/deploy-threat-protection/deploy-threat-protection-across-m365.png)
+> [!div class="mx-imgBorder"]
+> ![M365 위협 방지 신호](../media/deploy-threat-protection/deploy-threat-protection-across-m365.png)
 
 |솔루션/기능  |설명  |
 |---------|---------|
@@ -62,29 +68,27 @@ Microsoft 365 Defender는 신호와 데이터를 [통합된 Microsoft 365 보안
 > [!TIP]
 > 보안 팀이 여러 개 있는 조직에서는 이러한 기능을 동시에 구현할 수 있습니다. 
 
-## <a name="deploy-your-threat-protection-solution"></a>위협 방지 솔루션 배포
+## <a name="plan-to-deploy-your-threat-protection-solution"></a>위협 방지 솔루션 배포 계획
 
- 다음 다이어그램은 위협 방지 기능을 배포하기 위한 높은 수준의 프로세스를 보여 제공합니다. 
+다음 다이어그램은 위협 방지 기능을 배포하기 위한 높은 수준의 프로세스를 보여 제공합니다. 
 
 ![위협 방지 기능 배포 프로세스](../media/deploy-threat-protection/deploy-threat-protection-across-m365-grid.png)
 
-조직에서 최상의 보호를 사용할 수 있도록 다음 단계를 포함하는 프로세스로 보안 솔루션을 설정하고 배포합니다.
+조직에서 최상의 보호를 보장할 수 있도록 다음 단계가 포함된 프로세스를 사용하여 보안 솔루션을 설정하고 배포합니다.
 
-1. [다단계 인증 및 조건부 액세스 정책 설정](deploy-threat-protection-configure.md#step-1-set-up-multi-factor-authentication-and-conditional-access-policies)
-2. [ID에 맞게 Microsoft Defender 구성](deploy-threat-protection-configure.md#step-2-configure-microsoft-defender-for-identity)
-3. [Microsoft 365 Defender 켜기](deploy-threat-protection-configure.md#step-3-turn-on-microsoft-365-defender)
-4. [Office 365용 Defender 구성](deploy-threat-protection-configure.md#step-4-configure-microsoft-defender-for-office-365)
-5. [끝점에 맞게 Microsoft Defender 구성](deploy-threat-protection-configure.md#step-5-configure-microsoft-defender-for-endpoint)
-6. [Microsoft Cloud App Security 구성](deploy-threat-protection-configure.md#step-6-configure-microsoft-cloud-app-security)
-7. [상태 모니터링 및 작업 수행](deploy-threat-protection-configure.md#step-7-monitor-status-and-take-actions)
-8. [사용자 교육](deploy-threat-protection-configure.md#step-8-train-users)
+1. [다단계 인증 및 조건부 액세스 정책을 설정합니다.](deploy-threat-protection-configure.md#step-1-set-up-multi-factor-authentication-and-conditional-access-policies)
+2. [Id에 대해 Microsoft Defender를 구성합니다.](deploy-threat-protection-configure.md#step-2-configure-microsoft-defender-for-identity)
+3. [Microsoft 365 Defender를 켜기.](deploy-threat-protection-configure.md#step-3-turn-on-microsoft-365-defender)
+4. [Office 365용 Defender를 구성합니다.](deploy-threat-protection-configure.md#step-4-configure-microsoft-defender-for-office-365)
+5. [끝점에 대해 Microsoft Defender를 구성합니다.](deploy-threat-protection-configure.md#step-5-configure-microsoft-defender-for-endpoint)
+6. [Microsoft Cloud App Security를 구성합니다.](deploy-threat-protection-configure.md#step-6-configure-microsoft-cloud-app-security)
+7. [상태를 모니터링하고 작업을 수행합니다.](deploy-threat-protection-configure.md#step-7-monitor-status-and-take-actions)
+8. [사용자를 교육합니다.](deploy-threat-protection-configure.md#step-8-train-users)
 
 위협 방지 기능을 병렬로 구성할 수 있으므로 여러 네트워크 보안 팀이 서로 다른 서비스를 담당하는 경우 조직의 보호 기능을 동시에 구성할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 
+Microsoft [365에서 위협 방지 기능 구성으로 진행합니다.](deploy-threat-protection-configure.md)
 
-![위협 방지 기능 배포 프로세스](../media/deploy-threat-protection/deploy-threat-protection-across-m365-grid.png)
-
-Microsoft [365에서](deploy-threat-protection-configure.md) 위협 방지 기능 구성 진행
 

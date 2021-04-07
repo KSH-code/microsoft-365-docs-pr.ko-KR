@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a82eba3801509ed2e8ffb46ab32045466204fab
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 3aa5c8065b882dff670d6b829141955bf615d933
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498822"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599843"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -85,18 +85,20 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 |[레이블을 변경하기 위한 사유 요구](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[사용자 지정 도움말 페이지에 도움말 링크 제공](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[콘텐츠 표시](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
-|[변수가 있는 동적 표시](#dynamic-markings-with-variables)                                              | 검토 중                     | 검토 중                 | 검토 중         | 검토 중           | 검토 중               |
+|[변수가 있는 동적 표시](#dynamic-markings-with-variables) <sup>1</sup>                                              | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[지금 권한 할당](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[사용자가 권한을 할당하도록 허용: <br /> - 전달하지 않음](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[사용자가 권한을 할당하도록 허용: <br /> - 암호화 전용](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | 검토 중 | 검토 중  | 검토 중 | 배포 중 |
-|[사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구](#require-users-to-apply-a-label-to-their-email-and-documents)   | 배포 중: 2101+                        | 16.43+ <sup>\*</sup>                    | 검토 중            | 검토 중                | 예                |
+|[사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구](#require-users-to-apply-a-label-to-their-email-and-documents)   | 배포 중: 2101+                        | 16.43+ <sup>2</sup>                    | 검토 중            | 검토 중                | 예                |
 |[레이블 관련 사용자 활동 감사](data-classification-activity-explorer.md) | 2011+ | 검토 중 | 검토 중           | 검토 중               | 검토 중 |
-|[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>\*</sup>                    | 검토 중           | 검토 중               | 예 |
+|[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>2</sup>                    | 검토 중           | 검토 중               | 예 |
 |
 
 **각주:**
 
-<sup>\*</sup>[새로운 Mac용 Outlook 필요](https://support.microsoft.com/office/the-new-outlook-for-mac-6283be54-e74d-434e-babb-b70cefc77439)
+<sup>1</sup> 현재는 [Item.Label 및 If.App 변수](#dynamic-markings-with-variables)만 지원됩니다.
+<br />
+<sup>2</sup>[새로운 Mac용 Outlook 필요](https://support.microsoft.com/office/the-new-outlook-for-mac-6283be54-e74d-434e-babb-b70cefc77439)
 
 
 ## <a name="office-built-in-labeling-client-and-other-labeling-solutions"></a>Office 기본 제공 레이블 지정 클라이언트 및 기타 레이블 솔루션
@@ -293,18 +295,18 @@ Office 앱 외부에 민감도 레이블을 적용하는 시나리오에는 다�
 > [!IMPORTANT]
 > 현재 일부 플랫폼의 일부 앱이 머리글, 바닥글 및 워터마크에 대해 지정할 수 있는 동적 콘텐츠 표시를 지원하는 것은 아닙니다. 이 기능을 지원하지 않는 앱의 경우 변수를 해결하는 대신 레이블 구성에 지정된 원래 텍스트로 표시를 적용합니다.
 > 
-> Azure Information Protection 통합 레이블 지정 클라이언트는 동적 표시를 지원합니다. Office에 내장된 레이블 지정에 대해서는 이 페이지의 [기능](#support-for-sensitivity-label-capabilities-in-apps) 섹션에 있는 테이블을 참조하세요.
+> Azure Information Protection 통합 레이블 지정 클라이언트는 동적 표시 및 나열된 모든 변수를 지원합니다. Office에 포함된 레이블 지정에 대해서는 이 페이지의 [기능](#support-for-sensitivity-label-capabilities-in-apps) 섹션에 있는 표에서 최소 버전을 확인한 후 다음 표를 참조하여 지원되는 변수를 식별하세요.
 
 콘텐츠 표시에 대한 민감도 레이블을 구성할 때 머리말, 바닥글 또는 워터마크에 대해 텍스트 문자열의 다음 변수를 사용할 수 있습니다.
 
 | 변수 | 설명 | 레이블이 적용될 때의 예 |
 | -------- | ----------- | ------- |
-| `${Item.Label}` | 적용된 레이블의 레이블 표시 이름| **일반**|
-| `${Item.Name}` | 레이블 지정되는 콘텐츠의 파일 이름 또는 전자 메일 제목 | **Sales.docx** |
-| `${Item.Location}` | 레이블이 지정된 문서의 경로 및 파일 이름 또는 레이블이 지정된 전자 메일에 대한 전자 메일 제목 | **\\\Sales\2020\Q3\Report.docx**|
-| `${User.Name}` | 레이블을 적용하는 사용자의 표시 이름| **Richard Simone** |
-| `${User.PrincipalName}` | 레이블을 적용하는 사용자의 UPN(Azure AD 사용자 이름) | **rsimone\@contoso.com** |
-| `${Event.DateTime}` | 레이블을 적용하는 사용자의 로컬 표준 시간대에서 콘텐츠 레이블 지정 날짜 및 시간 | **8/10/2020 1:30 PM** |
+| `${Item.Label}` | 적용된 레이블의 레이블 표시 이름 <br /><br> 기본 제공 레이블 지정: Word, Excel, PowerPoint 및 Outlook에서 지원 | **일반**|
+| `${Item.Name}` | 레이블 지정되는 콘텐츠의 파일 이름 또는 전자 메일 제목 <br /><br> 기본 제공 레이블 지정: Word, Excel, PowerPoint에서 지원 | **Sales.docx** |
+| `${Item.Location}` | 레이블이 지정된 문서의 경로 및 파일 이름 또는 레이블이 지정된 전자 메일에 대한 전자 메일 제목 <br /><br> 기본 제공 레이블 지정: Word, Excel, PowerPoint에서 지원 | **\\\Sales\2020\Q3\Report.docx**|
+| `${User.Name}` | 레이블을 적용하는 사용자의 표시 이름 <br /><br> 기본 제공 레이블 지정: Word, Excel, PowerPoint에서 지원 | **Richard Simone** |
+| `${User.PrincipalName}` | 레이블을 적용하는 사용자의 UPN(Azure AD 사용자 이름) <br /><br> 기본 제공 레이블 지정: Word, Excel, PowerPoint에서 지원  | **rsimone\@contoso.com** |
+| `${Event.DateTime}` | 레이블을 적용하는 사용자의 로컬 표준 시간대에서 콘텐츠 레이블 지정 날짜 및 시간 <br /><br> 기본 제공 레이블 지정: Word, Excel, PowerPoint에서 지원  | **8/10/2020 1:30 PM** |
 
 > [!NOTE]
 > 이러한 변수의 구문은 대소문자를 구분합니다.
@@ -312,9 +314,6 @@ Office 앱 외부에 민감도 레이블을 적용하는 시나리오에는 다�
 #### <a name="setting-different-visual-markings-for-word-excel-powerpoint-and-outlook"></a>Word, Excel, PowerPoint 및 Outlook에 대한 다양한 시각적 표시 설정
 
 추가 변수로 "If"를 사용하여 Office 응용 프로그램 유형별로 시각적 표시를 구성할 수 있습니다.텍스트 문자열의 앱" 변수 문을 사용하고 **Word**, **Excel**, **PowerPoint** 또는 **Outlook** 값을 사용하여 응용 프로그램 유형을 식별합니다. 또한 동일한 If.App 문에서 둘 이상의 값을 지정하려면 이 값을 약어로 지정할 수도 있습니다.
-
-> [!NOTE]
-> 현재 Azure Information Protection 통합 레이블 지정 클라이언트에서만 지원되지만, 완전성을 위해 Outlook에 대한 지침이 포함되어 있습니다.
 
 다음 구문을 사용합니다.
 
