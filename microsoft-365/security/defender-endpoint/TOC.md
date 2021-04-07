@@ -115,6 +115,8 @@
 ##### [제어된 폴더 액세스 사용](enable-controlled-folders.md)
 ##### [제어된 폴더 액세스 사용자 지정](customize-controlled-folders.md)
 
+### [네트워크 장치](network-devices.md)
+
 ### [엔드포인트용 Microsoft Defender(Mac용)]()
 #### [엔드포인트용 Microsoft Defender(Mac용) 개요](microsoft-defender-endpoint-mac.md)
 #### [새로운 기능](mac-whatsnew.md)
