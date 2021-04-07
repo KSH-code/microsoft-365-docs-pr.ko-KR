@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 Exchange Online의 웹용 Outlook(Outlook Web App)에서 정크 메일이 아닌 기본 제공 정크 및 피싱 전자 메일 보고 옵션에 대해 알아보고 사용자에 대해 이러한 보고 옵션을 사용하지 않도록 설정하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 77a1233b85ad213091ac84ac6f7e8eb93d9145af
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 933387dd32a6c1ca1e27ee11e4a9384615e8fdec
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205728"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615215"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-exchange-online"></a>Exchange Online에서 웹에서 Outlook에서 정크 및 피싱 전자 메일 보고
 
@@ -33,9 +33,11 @@ ms.locfileid: "51205728"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Exchange Online에 사서함이 있는 Microsoft 365 조직에서는 웹용 Outlook(이전의 Outlook Web App)의 기본 제공 보고 옵션을 사용하여 가음성(스팸으로 표시된 양호한 전자 메일), 거짓 부정(잘못된 전자 메일 허용) 및 피싱 메시지를 EOP(Exchange Online Protection)에 제출할 수 있습니다.
+Exchange Online 또는 하이브리드 최신 인증을 사용하는 사서함이 있는 Microsoft [](../../enterprise/hybrid-modern-auth-overview.md)365 조직에서는 가음성(스팸으로 표시된 양호한 전자 메일), 거짓 부정(잘못된 전자 메일 허용) 및 피싱 메시지를 EOP(Exchange Online Protection)에 제출할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+
+- 최상의 사용자 제출 환경을 위해 보고서 메시지 및 피싱 보고 추가 기능을 사용하는 것이 좋습니다. 자세한 [내용은 보고서 메시지](./enable-the-report-message-add-in.md) 추가 기능 사용 및 [피싱](./enable-the-report-phish-add-in.md) 보고서 추가 기능 사용을 참조하세요.
 
 - Exchange Online 사서함이 있는 조직의 관리자인 경우 보안 및 준수 센터에서 제출 포털을 & 좋습니다. 자세한 내용은 관리 제출을 사용하여 의심되는 스팸, 피싱, URL 및 파일을 Microsoft에 제출을 [참조하세요.](admin-submission.md)
 
@@ -45,47 +47,11 @@ Exchange Online에 사서함이 있는 Microsoft 365 조직에서는 웹용 Outl
 
 - Microsoft에 메시지를 보고하는 데 대한 자세한 내용은 Microsoft에 메시지 및 [파일 보고를 참조하세요.](report-junk-email-messages-to-microsoft.md)
 
-## <a name="report-spam-and-phishing-messages-in-outlook-on-the-web"></a>웹에서 Outlook에서 스팸 및 피싱 메시지 보고
-
-1. 받은 편지함 또는 정크 메일을 제외한 다른 전자 메일 폴더에 있는 메시지의 경우 다음 방법 중 하나를 사용하여 스팸 및 피싱 메시지를 보고합니다.
-
-   - 메시지를 선택하고 도구 모음에서 **정크를** 클릭한  다음 정크 또는 피싱 **을 선택합니다.**
-
-     ![리본에서 정크 메일 또는 피싱 메일 보고](../../media/owa-report-junk.png)
-
-   - 하나 이상의 메시지를 선택하고 마우스 오른쪽 단추로 클릭한 다음 정크 메일로 **표시를 선택합니다.**
-
-2. 나타나는 대화 상자에서 보고서를 **클릭합니다.** 마음이 바뀌면 **보고 안 를 클릭합니다.**
-
-   |정크|피싱|
-   |:---:|:---:|
-   |![정크로 보고 대화 상자](../../media/owa-report-as-junk-dialog.png)|![피싱으로 보고 대화 상자](../../media/owa-report-as-phishing-dialog.png)|
-
-3. 선택한 메시지가 분석을 위해 Microsoft로 전송됩니다. 메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.
-
-## <a name="report-non-spam-and-phishing-messages-from-the-junk-email-folder-in-outlook-on-the-web"></a>웹용 Outlook의 정크 메일 폴더에서 스팸이 아닌 메시지 및 피싱 메시지 보고
-
-1. 정크 메일 폴더에서 다음 방법 중 하나를 사용하여 스팸 가긍성 또는 피싱 메시지를 보고합니다.
-
-   - 메시지를 선택하고 도구 **모음에서** 정크 아님을 클릭한 다음 정크 **메일** 아님 또는 **피싱 을 선택합니다.**
-
-     ![리본에서 정크 메일이 아니거나 피싱 메일 아님 보고](../../media/owa-report-not-junk.png)
-
-   - 하나 이상의 메시지를 선택하고 마우스 오른쪽 단추로 클릭한 다음 정크 메일 아님으로 **표시를 선택합니다.**
-
-2. 나타나는 대화 상자에서 정보를 읽고 보고서를 **클릭합니다.** 마음이 바뀌면 **보고 안 를 클릭합니다.**
-
-   |정크 아님|피싱|
-   |:---:|:---:|
-   |![정크 아님으로 보고 대화 상자](../../media/owa-report-as-not-junk-dialog.png)|![피싱으로 보고 대화 상자](../../media/owa-report-as-phishing-dialog.png)|
-
-3. 선택한 메시지가 분석을 위해 Microsoft로 전송됩니다. 메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.
-
 ## <a name="disable-or-enable-junk-email-reporting-in-outlook-on-the-web"></a>웹용 Outlook에서 정크 메일 보고 사용 또는 사용 안 하도록 설정
 
 기본적으로 사용자는 웹용 Outlook에서 분석을 위해 스팸 가짓 긍정, 거짓 부정 및 피싱 메시지를 Microsoft에 보고할 수 있습니다. 관리자는 Exchange Online PowerShell에서 웹에서 Outlook 사서함 정책을 구성하여 사용자가 Microsoft에 스팸 가긍성 및 스팸 거짓 부정을 보고하지 못하도록 할 수 있습니다. 사용자가 Microsoft에 피싱 메시지를 보고하는 기능을 사용하지 않도록 설정할 수 없습니다.
 
-### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 

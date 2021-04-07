@@ -20,12 +20,12 @@ ms.custom:
 description: 사용자에게 전달되었어야 하는 EOP(Exchange Online Protection)에 격리된 메시지를 보고 관리하는 방법에 대해 알아볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cc904132bc12f068571cfd86d9f5eb629d7f53f2
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: e9a9da170dc0d3effba495c29672fb8f6bb02031
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215519"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599938"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>EOP에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기
 
@@ -156,7 +156,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 - **격리에서 제거하기**: 표시되는 경고에서 **예** 를 클릭하면 메시지가 즉시 삭제됩니다.
 
-- **보낸 사람 차단**: 이 설정은 보낸 사람이 귀하에게 메시지를 보낼 수 없게 합니다.
+- **보낸 사람 차단**: 보낸 사람이 귀하에게 메시지를 보낼 수 없게 합니다.
 
 작업을 마쳤으면 **닫기** 를 클릭합니다.
 

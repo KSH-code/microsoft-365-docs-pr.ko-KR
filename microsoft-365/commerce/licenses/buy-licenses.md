@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -20,21 +20,14 @@ search.appverid:
 - MET150
 description: 비즈니스용 Microsoft 365 구독에 대한 라이선스를 더 구입하거나 라이선스 수를 줄이는 방법을 알아보하세요.
 ms.date: ''
-ms.openlocfilehash: 904444790a7984ebce4f549c77bfd22e8f459c9c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d4d0b73fb33d27f82a02b4ae0c6ecb009eb9d38d
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911545"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615138"
 ---
 # <a name="buy-or-remove-licenses"></a>라이선스 구입 또는 제거
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 다음 단계를 사용하여 추가 라이선스를 구입하거나 구독에 대한 라이선스 수를 줄일 수 있습니다.
 
@@ -60,29 +53,24 @@ ms.locfileid: "50911545"
 
 ::: moniker range="o365-worldwide"
 
-1. Microsoft 365 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지로 이동합니다.
-2. 제품 **탭에서** 라이선스를 구입하거나 제거할 구독을 찾아야 합니다. 추가 **작업(세** 점)을 선택한 다음 라이선스 **구입 을 선택합니다.** [라이선스 구입 또는 라이선스 제거 단추가 없는 경우 어떻게 하나요?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
-3. 라이선스 수를 줄이면 라이선스 구입 창 위쪽에서 라이선스 **제거를 선택합니다.** 
-4. 라이선스를 구입하거나 제거하려면  총 라이선스  수량 상자에 이 구독에 대해 원하는 총 라이선스 수를 입력합니다. 예를 들어 라이선스가 100개가 있으며 5개 이상 추가하려는 경우 105를 입력합니다. 이 중 5개만 제거하려면 95를 입력합니다.
-5. **저장** 을 선택합니다.
-
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
-2. 구독 **페이지에서** 라이선스를 구입하거나 제거할 구독을 선택한 다음 라이선스 **추가/제거를 선택합니다.** [라이선스 구입 또는 라이선스 제거 단추가 없는 경우 어떻게 하나요?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
-3. 총 **라이선스 수 상자에** 이 구독에 대해 원하는 총 라이선스 수를 입력한 다음 제출 **닫기 를** \> **선택합니다.** 예를 들어 라이선스가 100개가 있으며 5개 이상 추가하려는 경우 105를 입력합니다. 5개의 라이선스를 제거하려면 95를 입력합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
-2. 구독 **페이지에서** 라이선스를 구입하거나 제거할 구독을 선택한 다음 라이선스 **추가/제거를 선택합니다.** [라이선스 구입 또는 라이선스 제거 단추가 없는 경우 어떻게 하나요?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
-3. 총 **라이선스 수 상자에** 이 구독에 대해 원하는 총 라이선스 수를 입력한 다음 제출 **닫기 를** \> **선택합니다.** 예를 들어 100개의 라이선스가 있는데 5개를 더 추가해야 하는 경우 105를 입력합니다. 5개 제거하려면 95를 입력합니다.
-
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
+
+2. 제품 **탭에서** 라이선스를 구입하거나 제거할 구독을 찾아야 합니다. 추가 **작업(세** 점)을 선택한 다음 라이선스 **구입 을 선택합니다.** [라이선스 구입 또는 라이선스 제거 단추가 없는 경우 어떻게 하나요?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
+3. 라이선스 수를 줄이면 라이선스 구입 창 위쪽에서 라이선스 **제거를 선택합니다.** 
+4. 라이선스를 구입하거나 제거하려면  총 라이선스  수량 상자에 이 구독에 대해 원하는 총 라이선스 수를 입력합니다. 예를 들어 라이선스가 100개가 있으며 5개 이상 추가하려는 경우 105를 입력합니다. 이 중 5개만 제거하려면 95를 입력합니다.
+5. **저장** 을 선택합니다.
 
 > [!NOTE]
 > 모든 라이선스가 현재 사용자에게 할당되어 있는 경우 구독의 라이선스 수를 줄일 수 없습니다. 라이선스 수를 줄이면 [](../../admin/manage/remove-licenses-from-users.md)먼저 사용자로부터 하나 이상의 라이선스를 취소한 다음 구독에서 라이선스를 제거합니다.

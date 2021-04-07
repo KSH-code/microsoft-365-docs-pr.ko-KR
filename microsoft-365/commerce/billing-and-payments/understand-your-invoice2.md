@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: 비즈니스용 Microsoft 365의 청구서 또는 송장에 있는 요금, 청구, 지불 정보를 해석하는 방법과 구매 주문 번호를 변경하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 99b52928d458e7883919ee46aaafaa7a66278447
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 56f1ba3e7cc328593873aaf06ddfe6dc82fc1a17
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911689"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615378"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>비즈니스용 Microsoft 365의 청구서 또는 송장 이해
 
@@ -106,36 +106,24 @@ ms.locfileid: "50911689"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
-
-2. **표** 보기 모드에 있는 경우, **카드** 를 선택하여 보기를 전환합니다.
-
-3. 변경하려는 구독을 찾습니다.
-
-4. **청구** 섹션의 **송장** 옆에 있는 **편집** 을 선택합니다.
-
-5. **결제 세부 정보 편집** 창의 맨 아래에 PO 번호를 입력한 다음 **저장** 을 선택합니다.
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
-
-2. 변경할 구독을 선택하고 **결제 방법** 섹션에서 **결제 세부 정보 변경** 을 선택합니다.
-
-3. **결제 세부 정보 변경** 창의 맨 아래에 PO 번호를 입력한 다음 **제출** 을 선택합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
-
-2. 변경할 구독을 선택하고 **결제 방법** 섹션에서 **결제 세부 정보 변경** 을 선택합니다.
-
-3. **결제 세부 정보 변경** 창의 맨 아래에 PO 번호를 입력한 다음 **제출** 을 선택합니다.
-
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
+
+1. **제품** 탭에서 변경할 구독을 선택합니다.
+
+1. 구독 세부 정보 페이지의 구독 및 결제 **설정 섹션에서** 송장 **편집을 선택합니다.** 
+
+1. 음성으로 결제에  대한 세부 정보 편집 창의 아래쪽에 PO 번호를 입력한 다음 저장을 **선택합니다.**
 
 ## <a name="related-articles"></a>관련 문서
 

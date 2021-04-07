@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 847dd2d090fb26c5558d4a3496a79cf4829881fb
-ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
+ms.openlocfilehash: 81a1a4ce2e99caaca1025c6ddbbdfdc7ab7c449d
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/07/2021
-ms.locfileid: "51604396"
+ms.locfileid: "51615510"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 방지 기능 구성
 
@@ -128,11 +128,8 @@ Office 365용 Microsoft Defender를 사용하여 조직의 사용자들이 전�
 ![끝점용 Microsoft Defender 배포 프로세스](../media/deploy-threat-protection/deploy-mdatp-steps.png) 
 
 1. [끝점용 Microsoft Defender에 대한 환경을 준비합니다.](../security/defender-endpoint/deployment-phases.md)
-
 2. [끝점용 Microsoft Defender를 배포합니다.](../security/defender-endpoint/production-deployment.md)
-
 3. [끝점용 Microsoft Defender 서비스에 온보딩합니다.](../security/defender-endpoint/onboarding.md)
-
 4. [최상위 보안 관리 작업을 완료합니다.](../security/defender-endpoint/tvm-security-recommendation.md)
 
 ### <a name="more-information-about-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 대한 자세한 정보
@@ -149,11 +146,8 @@ Office 365용 Microsoft Defender를 사용하여 조직의 사용자들이 전�
 ![Microsoft Cloud App Security 배포 프로세스](../media/deploy-threat-protection/deploy-mcas-steps.png) 
 
 1. [포털 및 기타 기본 요구 사항을 설치합니다.](/cloud-app-security/general-setup)
-
 2. [클라우드 검색을 설정하고](/cloud-app-security/set-up-cloud-discovery) [앱을 연결합니다.](/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)
-
 3. 추천 앱에 대한 조건부 액세스 [앱 컨트롤을 배포합니다.](/cloud-app-security/proxy-deployment-aad)
-
 4. [조사 도구 및 대시보드를 사용합니다.](/cloud-app-security/investigate)
 
 ### <a name="more-information-about-microsoft-cloud-app-security"></a>Microsoft Cloud App Security에 대한 자세한 정보

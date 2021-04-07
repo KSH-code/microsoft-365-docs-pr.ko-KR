@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: 9d7170ff261a53ba5755134973a912221363b3c8
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 104ef919d356642985e7b34d16650c27a8141e86
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599810"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615102"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -201,7 +201,7 @@ Azure AD 통합 앱에 대한 ID 및 장치 액세스 구성을 구성하고 롤
 1. 선행 구성 ID 기능 및 설정을 구성합니다.
 2. 공용 ID를 구성하고 조건부 액세스 정책에 액세스합니다.
 3. 게스트 및 외부 사용자에 대한 조건부 액세스 정책을 구성합니다.
-4. Microsoft Teams, Exchange Online 및 SharePoint와 같은 Microsoft 365 클라우드 앱에 대한 조건부 액세스 정책을 구성합니다.
+4. Microsoft Teams, Exchange Online, SharePoint- 및 Microsoft Cloud App Security 정책과 같은 Microsoft 365 클라우드 앱에 대한 조건부 액세스 정책을 구성합니다.
 
 ID 및 장치 액세스를 구성한 후 [Azure AD](/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2) 기능 배포 가이드에서 고려할 추가 기능의 단계적 검사 목록과 액세스 보호, 모니터링 및 감사를 위한 Azure AD [ID](/azure/active-directory/governance/) 거버넌스를 참조하세요.
 

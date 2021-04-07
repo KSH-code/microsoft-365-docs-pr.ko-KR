@@ -18,16 +18,22 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 02a446f47ce4292b214c868e773802c53f7e3353
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 7a55d254c20506913d0995bffc941a67bb34a38e
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51581005"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615438"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-for-linux"></a>Linux용 끝점용 Microsoft Defender의 새로운
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+## <a name="1012572-30121022125630"></a>101.25.72 (30.121022.12563.0)
+
+- Linux용 끝점용 Microsoft Defender는 이제 미국 정부 고객을 위해 미리 보기에서 사용할 수 있습니다. 자세한 내용은 미국 정부 고객용 [끝점용 Microsoft Defender를 참조하세요.](gov.md)
+- FUSE 파일 시스템과 함께 시스템에서 Linux용 끝점용 Microsoft Defender의 사용이 OS 중단으로 이어지는 문제를 해결했습니다.
+- 기타 버그 & 개선
 
 ## <a name="1012563-30121022125630"></a>101.25.63 (30.121022.12563.0)
 

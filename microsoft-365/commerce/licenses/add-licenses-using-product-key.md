@@ -1,5 +1,5 @@
 ---
-title: 제품 키를 사용하여 유료 구독에 라이선스 추가 또는 확장
+title: 제품 키를 사용하여 유료 구독에 라이선스 추가 또는 연장
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,17 +21,17 @@ search.appverid:
 - MET150
 ms.assetid: 4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53
 ROBOTS: NOINDEX
-description: 제품 키로 라이선스를 추가하거나 구독을 확장하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 583014c98207f98abc55248159aafd371c96b6c0
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+description: 제품 키를 통해 라이선스를 추가하거나 구독을 확장하는 방법을 자세히 알아보습니다.
+ms.openlocfilehash: 15fac17df66b0c23e3188eff9acc2d8f617ca226
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545787"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615151"
 ---
-# <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>제품 키를 사용하여 유료 구독에 라이선스 추가 또는 확장
+# <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>제품 키를 사용하여 유료 구독에 라이선스 추가 또는 연장
 
-선불 라이선스는 25자 영문 코드로 발급됩니다. 필요한 라이선스를 구입한 후 구독에 추가할 수 있습니다. 제품 키를 사용하여 구독의 만료 날짜를 연장할 수도 있습니다.
+선불 라이선스는 25자 영문 코드로 발급됩니다. 필요한 라이선스를 구입한 후 구독에 라이선스를 추가할 수 있습니다. 제품 키를 사용하여 구독 만료 날짜를 연장할 수도 있습니다.
 
 > [!NOTE]
 > 새 제품 키를 구입하지 않는 경우 언제든지 구독에 신용 카드 또는 은행 계좌를 추가하여 추가 라이선스 비용을 지불하거나 구독 만료 날짜를 연장할 수 있습니다. 자세한 내용은 구독 [갱신을 참조하세요.](../subscriptions/renew-your-subscription.md)
@@ -41,106 +41,52 @@ ms.locfileid: "47545787"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
-2. 제품 **탭에서** 라이선스를 추가할 구독을 선택합니다.
-3. 구독 세부 정보 페이지의 **라이선스 섹션에서** 라이선스 **추가를 선택합니다.**
-4. In the **Add more licenses pane,** select **Use a new and unused product key,** then select **Next.**
-5. 제품 키를 입력하고 다음을 **선택합니다.**
-    > [!NOTE]
-    > 제품 키가 두 개 이상 있는 경우 **다른 제품 키 추가** 를 선택하여 입력할 수 있습니다.
-6. 주문 세부 정보를 검토한 다음 교환을 **선택합니다.**
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
-
-2. 라이선스를 추가할 구독을 찾아야 합니다. 더 많은 **작업 드롭다운** 목록을 선택한 다음 갱신 또는 토큰이 있는 **라이선스 추가를 선택합니다.**
-
-3. 사용자 라이선스 **갱신** 또는 추가 페이지에서 새 제품 키와 사용되지 않는 제품 키 사용을 선택하고 **다음을** **선택합니다.**
-
-4. 제품 키를 입력하고 다음을 **선택합니다.**
-
-    > [!NOTE]
-    > 제품 키가 두 개 이상 있는 경우 **다른 제품 키 추가** 를 선택하여 입력할 수 있습니다.
-
-5. 구독에 사용자를 추가하려면 선택하고 다음을 **선택합니다.**
-
-6. 주문 세부 정보를 검토한 다음 교환을 **선택합니다.**
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 청구 제품  서비스 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">& 이동합니다.</a>  
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
+::: moniker-end
 
-2. 라이선스를 추가할 구독을 찾아야 합니다. 더 많은 **작업 드롭다운** 목록을 선택한 다음 갱신 또는 토큰이 있는 **라이선스 추가를 선택합니다.**
-
-3. 사용자 라이선스 **갱신** 또는 추가 페이지에서 새 제품 키와 사용되지 않는 제품 키 사용을 선택하고 **다음을** **선택합니다.**
-
-4. 제품 키를 입력하고 다음을 **선택합니다.**
-
+2. 제품 **탭에서** 라이선스를 추가할 구독을 선택합니다.
+3. 구독 세부 정보 페이지의 라이선스 **섹션에서** 라이선스 **추가를 선택합니다.**
+4. In the **Add more licenses pane**, select **Use a new and unused product key**, then select **Next**.
+5. 제품 키를 입력하고 다음 을 **선택합니다.**
     > [!NOTE]
     > 제품 키가 두 개 이상 있는 경우 **다른 제품 키 추가** 를 선택하여 입력할 수 있습니다.
-
-5. 구독에 사용자를 추가하려면 선택하고 다음을 **선택합니다.**
-
-6. 주문 세부 정보를 검토한 다음 교환을 **선택합니다.**
-
-::: moniker-end
+6. 주문 세부 정보를 검토한 다음 사용 을 **선택합니다.**
   
 ## <a name="extend-the-expiration-date-of-your-subscription"></a>구독 만료 날짜 연장
 
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
-2. 제품 **탭에서** 확장할 구독을 선택합니다.
-3. 구독 세부 정보 페이지의 구독 및 **결제** 설정 섹션에서 종료 날짜 **연장을 선택합니다.**
-4. 사용자 **라이선스 갱신 또는** 추가 페이지에서 새 제품 키와 사용되지 않는 제품 키 사용을 선택하고 **다음을** **선택합니다.**
-5. 제품 키를 입력하고 다음을 **선택합니다.**
-    > [!NOTE]
-    > 제품 키가 두 개 이상 있는 경우 **다른 제품 키 추가** 를 선택하여 입력할 수 있습니다.
-6. 주문 세부 정보를 검토한 다음 교환을 **선택합니다.**
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
-
-2. 확장할 구독을 찾아야 합니다. 더 많은 **작업 드롭다운** 목록을 선택한 다음 갱신을 선택하거나 토큰이 있는 **라이선스를 추가합니다.**
-
-3. 사용자 라이선스 **갱신** 또는 추가 페이지에서 새 제품 키와 사용되지 않는 제품 키 사용을 선택하고 **다음을** **선택합니다.**
-
-4. 제품 키를 입력하고 다음을 **선택합니다.**
-
-    > [!NOTE]
-    > 제품 키가 두 개 이상 있는 경우 **다른 제품 키 추가** 를 선택하여 입력할 수 있습니다.
-
-5. 구독 만료 날짜를 연장하려면 다음을 **선택합니다.**
-
-6. 주문 세부 정보를 검토한 다음 교환을 **선택합니다.**
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
+::: moniker-end
 
-2. 확장할 구독을 찾아야 합니다. 더 많은 **작업 드롭다운** 목록을 선택한 다음 갱신을 선택하거나 토큰이 있는 **라이선스를 추가합니다.**
-
-3. 사용자 라이선스 **갱신** 또는 추가 페이지에서 새 제품 키와 사용되지 않는 제품 키 사용을 선택하고 **다음을** **선택합니다.**
-
-4. 제품 키를 입력하고 다음을 **선택합니다.**
-
+2. 제품 **탭에서** 확장할 구독을 선택합니다.
+3. 구독 세부 정보 페이지의 구독 및 결제 설정 **섹션에서** 종료 날짜 **연장을 선택합니다.**
+4. 사용자 **라이선스 갱신** 또는 추가 페이지에서 새 제품 키와 사용되지 않은 제품 키 사용을 선택하고 다음 을 **선택합니다.**
+5. 제품 키를 입력하고 다음 을 **선택합니다.**
     > [!NOTE]
     > 제품 키가 두 개 이상 있는 경우 **다른 제품 키 추가** 를 선택하여 입력할 수 있습니다.
-
-5. 구독 만료 날짜를 연장하려면 다음을 **선택합니다.**
-
-6. 주문 세부 정보를 검토한 다음 교환을 **선택합니다.**
-
-::: moniker-end
+6. 주문 세부 정보를 검토한 다음 사용 을 **선택합니다.**
 
 ## <a name="related-articles"></a>관련 문서
 

@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4883a4f04f06774d02aa0d942edc841867eb36b6
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 9e5f29874ae42f2b82906a5ac0d2e615009d499f
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499515"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615486"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>고급 헌팅을 통해 위협을 사전 대응
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-advancedhunting-abovefoldlink)
 
@@ -43,7 +43,8 @@ ms.locfileid: "51499515"
 동일한 위협 헌팅 쿼리를 사용하여 사용자 지정 탐지 규칙을 만들 수 있습니다. 이러한 규칙은 자동으로 실행되어 의심되는 위반 활동, 잘못 구성된 컴퓨터 및 기타 결과를 확인하고 이에 대응합니다.
 
 >[!TIP]
->[Microsoft Threat Protection의](https://docs.microsoft.com/microsoft-365/security/defender/advanced-hunting-overview) 고급 헌팅을 사용하여 끝점용 Defender, Office 365용 Microsoft Defender, Microsoft Cloud App Security 및 ID용 Microsoft Defender의 데이터를 사용하여 위협을 헌팅합니다. [Microsoft 365 Defender 켜기](https://docs.microsoft.com/microsoft-365/security/defender/mtp-enable)
+>[Microsoft 365 Defender의](/microsoft-365/security/defender/advanced-hunting-overview) 고급 헌팅을 사용하여 Endpoint용 Defender, Office 365용 Microsoft Defender, Microsoft Cloud App Security 및 ID에 대한 Microsoft Defender의 데이터를 사용하여 위협을 헌팅합니다. [Microsoft 365 Defender를 켜기.](/microsoft-365/security/defender/m365d-enable)<br><br>
+Endpoint용 Microsoft Defender에서 Microsoft Defender에서 Microsoft 365 Defender로 고급 헌팅 워크플로를 이동하는 방법에 대한 자세한 내용은 [Endpoint용 Microsoft Defender에서](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)고급 헌팅 쿼리 마이그레이션에서 자세히 알아보하세요.
 
 ## <a name="get-started-with-advanced-hunting"></a>고급 헌팅 시작
 

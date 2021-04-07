@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 16d78cf014e775ecb98a59d90b5734836eb3cbf2
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: 5cd1f64d006b5462634dd47df9083e1a89db0e8c
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476628"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615222"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender의 새로운
 
@@ -38,8 +38,10 @@ ms.locfileid: "51476628"
 > [!IMPORTANT]
 > macOS 11(Big Sur)에서는 끝점용 Microsoft Defender에 추가 구성 프로필이 필요합니다. 이전 버전의 macOS에서 업그레이드하는 기존 고객인 경우 이 페이지에 나열된 추가 구성 프로필을 [배포해야 합니다.](mac-sysext-policies.md)
 
-> [!IMPORTANT]
-> MacOS 10.13(High Sierra)에 대한 지원이 2021년 2월 15일부터 중단됩니다.
+## <a name="1012569-20121022125690"></a>101.25.69 (20.121022.12569.0)
+
+- Mac용 끝점용 Microsoft Defender는 이제 미국 정부 고객을 위해 미리 보기에서 사용할 수 있습니다. 자세한 내용은 미국 정부 고객용 [끝점용 Microsoft Defender를 참조하세요.](gov.md)
+- 성능 향상(특히 XCode 시뮬레이터 앱이 사용되는 상황용)은 & 수정합니다.
 
 ## <a name="1012364-20121021123640"></a>101.23.64 (20.121021.12364.0)
 
