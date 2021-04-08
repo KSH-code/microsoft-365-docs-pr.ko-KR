@@ -18,28 +18,56 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 보안 및 준수 센터에서 키워드 사전을 만드는 기본 단계에 대해 알아봅니다.
-ms.openlocfilehash: ff96eda71857b4b0f802462da96e4f4abbaf05f4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b70deed531204f2ffe85253bd9ae2073dad291ec
+ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908392"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51632194"
 ---
 # <a name="create-a-keyword-dictionary"></a>키워드 사전 만들기
 
 DLP(데이터 손실 방지)는 중요한 항목을 식별, 모니터링 및 보호할 수 있습니다. 중요한 항목을 식별하려면 키워드를 찾아야 하는 경우가 있으며, 특히 의료 관련 통신과 같은 일반 컨텐츠 또는 부적절하거나 명시적인 언어를 식별해야 합니다. 중요한 정보 유형에서 키워드 목록을 만들 수 있지만 키워드 목록은 크기가 제한되어 있으며, 키워드 목록을 만들거나 편집하려면 XML을 수정해야 합니다. 키워드 사전은 키워드 관리를 보다 간단하고 훨씬 더 큰 규모로 제공하여 사전에서 최대 1MB의 용어(사후 압축)를 지원하고 모든 언어를 지원합니다. 테넌트 제한도 압축 후에 1MB가 됩니다. 1MB의 사후 압축 제한은 테넌트 전체에서 결합된 모든 사전에 1백만 문자에 가까운 문자가 있을 수 있음을 의미합니다.
-  
-> [!NOTE]
-> 테넌트당 만들 수 있는 중요한 정보 유형을 기반으로 하는 키워드 사전은 50개로 제한됩니다.
 
-> [!NOTE]
-> Microsoft 365 Information Protection은 이제 다음에 대해 미리보기 더블 바이트 문자 집합 언어를 지원합니다.
-> - 중국어(간체)
-> - 중국어(번체)
-> - 한국어
-> - 일본어
->
->이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다. 자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.
+## <a name="keyword-dictionary-limits"></a>키워드 사전 제한
+
+테넌트당 만들 수 있는 중요한 정보 유형을 기반으로 하는 키워드 사전은 50개로 제한됩니다. 테넌트에 있는 키워드 사전의 수를 확인하려면 테넌트에 대해 이 PowerShell 스크립트를 실행할 수 있습니다.
+
+```powershell
+$rawFile = $env:TEMP + "\rule.xml"
+
+$kd = Get-DlpKeywordDictionary
+$ruleCollections = Get-DlpSensitiveInformationTypeRulePackage
+Set-Content -path $rawFile -Encoding Byte -Value $ruleCollections.SerializedClassificationRuleCollection
+$UnicodeEncoding = New-Object System.Text.UnicodeEncoding
+$FileContent = [System.IO.File]::ReadAllText((Resolve-Path $rawFile), $unicodeEncoding)
+
+if($kd.Count -gt 0)
+{
+$count = 0
+$entities = $FileContent -split "Entity id"
+for($j=1;$j -lt $entities.Count;$j++)
+{
+for($i=0;$i -lt $kd.Count;$i++)
+{
+$Matches = Select-String -InputObject $entities[$j] -Pattern $kd[$i].Identity -AllMatches
+$count = $Matches.Matches.Count + $count
+if($Matches.Matches.Count -gt 0) {break}
+}
+}
+
+Write-Output "Total Keyword Dictionary SIT:"
+$count
+}
+else
+{
+$Matches = Select-String -InputObject $FileContent -Pattern $kd.Identity -AllMatches
+Write-Output "Total Keyword Dictionary SIT:"
+$Matches.Matches.Count
+}
+
+Remove-Item $rawFile
+```
 
 ## <a name="basic-steps-to-creating-a-keyword-dictionary"></a>키워드 사전을 만드는 기본 단계
 
@@ -237,3 +265,12 @@ Get-DlpKeywordDictionary -Name "Diseases"
       </Resource>
     </LocalizedStrings>
 ```
+
+> [!NOTE]
+> Microsoft 365 Information Protection은 다음에 대해 미리 보기 더블 바이트 문자 집합 언어를 지원합니다.
+> - 중국어(간체)
+> - 중국어(번체)
+> - 한국어
+> - 일본어
+>
+>이 지원은 중요한 정보 유형에 대해 사용할 수 있습니다. 자세한 정보는 [더블 바이트 문자 집합 릴리스 정보(미리 보기)에 대한 정보 보호 지원](mip-dbcs-relnotes.md)을 참조하세요.

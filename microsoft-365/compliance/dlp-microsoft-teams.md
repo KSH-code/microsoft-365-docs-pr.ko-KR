@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft Teams 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서의 작동 방식에 대해 자세히 알아보면 이 문서를 읽어보아야 합니다.
-ms.openlocfilehash: 40c55ed486efc75619b514a60b707ac75554953b
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: bd6fa1c04a57f64997d5646374007641afa0f958
+ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445666"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51632240"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft Teams
 
@@ -34,7 +34,7 @@ Teams 채팅에서 DLP 보호를 지원하려면 E5가 필요합니다.
 최근에는 [](data-loss-prevention-policies.md) 비공개 채널 메시지를 포함하여 Microsoft Teams 채팅 및 채널 메시지를 포함하기 위해 DLP(데이터 손실 방지) **기능이 확장되어 있습니다.** 
 
 > [!IMPORTANT]
-> DLP는 현재 채팅 또는 채널 스레드의 실제 메시지에만 적용됩니다. 단기 메시지 미리 보기를 포함하며 사용자의 알림 설정에 따라 나타나는  활동 알림은 현재 Teams DLP에 포함되지 않습니다. 미리 보기에 표시되는 메시지 부분에 있는 모든 중요한 정보는 메시지 자체에 대해 중요한 DLP 정책을 적용하고 제거한 후에도 알림에 계속 표시됩니다.
+> DLP는 현재 채팅 또는 채널 스레드의 실제 메시지에만 적용됩니다. 단기 메시지 미리 보기를 포함하며 사용자의 알림 설정에 따라 나타나는  활동 알림은 현재 Teams DLP에 포함되지 않습니다. 미리 보기에 표시되는 메시지 부분에 있는 모든 중요한 정보는 DLP 정책이 적용되고 메시지 자체를 제거한 후에도 알림에 계속 표시됩니다.
 
 조직에 DLP가 있는 경우 이제 사용자가 Microsoft Teams 채널 또는 채팅 세션에서 중요한 정보를 공유하지 못하게 하는 정책을 정의할 수 있습니다. 다음은 이 보호가 작동하는 방식의 몇 가지 예입니다.
 

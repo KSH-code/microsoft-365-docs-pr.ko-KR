@@ -20,12 +20,12 @@ ms.collection:
 description: 관리자는 Microsoft 365 조직에서 보안 설정을 높이고 우선 순위 계정에 대한 보고서, 경고 및 조사를 사용하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9bb2586c11a22286bde5be01f1e9b3e5e0d981ac
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 73be3832b2391b6f47e4c796daf76c884a17dcdd
+ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206546"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51632224"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>Microsoft 365의 우선 순위 계정에 대한 보안 권장 사항
 
@@ -47,6 +47,9 @@ Microsoft 365 및 Office 365용 Microsoft Defender에는 우선 순위 계정에
 |[경고, 보고서 및 검색에서 우선 순위 계정 모니터링](#monitor-priority-accounts-in-alerts-reports-and-detections)|||![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |[사용자 교육](#train-users)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |
+
+> [!NOTE]
+> 권한 있는 계정(관리자 계정)의 보안에 대한 자세한 내용은 이 [항목을 참조하세요.](/azure/architecture/framework/security/critical-impact-accounts) 
 
 ## <a name="increase-sign-in-security-for-priority-accounts"></a>우선 순위 계정에 대한 로그인 보안 강화
 

@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for Office 365 계획 2에서 사용자 태그를 사용하여 특정 사용자 그룹을 식별하는 방법을 배울 수 있습니다. 태그 필터링은 Microsoft Defender for Office 365의 경고, 보고서 및 조사에서 사용할 수 있으며, 태그가 지정된 사용자를 빠르게 식별할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6f98dcfe3e8c44e852134e7a12def4ff78c1bcdd
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4c439dcb91831475bc10da4a01d0fa29e7aae359
+ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206259"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51632205"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 사용자 태그
 
@@ -34,6 +34,9 @@ ms.locfileid: "51206259"
 - **사용자 지정 태그:** 이러한 사용자 태그를 직접 만들 수 있습니다.
 
 조직에 Office 365 계획 2용 Defender가 있는 경우(구독 또는 추가 기능으로 포함) 우선 순위 계정 태그를 사용하는 것 외에도 사용자 지정 사용자 태그를 만들 수 있습니다.
+
+> [!NOTE]
+> 현재 사서함 사용자에게만 사용자 태그를 적용할 수 있습니다.
 
 사용자에게 시스템 태그 또는 사용자 지정 태그를 적용한 후 경고, 보고서 및 조사에서 이러한 태그를 필터로 사용할 수 있습니다.
 
@@ -64,6 +67,8 @@ ms.locfileid: "51206259"
   - 사용자 태그 관리는 태그 판독기 및 **태그** 관리자 **역할에 의해** 제어됩니다.
 
 - Microsoft 365 관리 센터에서 우선 순위 계정을 관리하고 모니터링할 수도 있습니다. 자세한 내용은 우선 순위 [계정 관리 및 모니터링을 참조하세요.](../../admin/setup/priority-accounts.md)
+
+- 권한 있는 계정(관리자 계정)의 보안에 대한 자세한 내용은 이 [항목을 참조하세요.](/azure/architecture/framework/security/critical-impact-accounts) 
 
 ## <a name="use-the-security--compliance-center-to-create-user-tags"></a>보안 및 준수 & 사용하여 사용자 태그 만들기
 
