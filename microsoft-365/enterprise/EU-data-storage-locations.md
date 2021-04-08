@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 유럽 연합 내에서 Microsoft 365 고객 데이터가 저장되는 위치 확인
-ms.openlocfilehash: 28bfa7c18aff485e084e4d77bb2a36f0f5b7e95f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 19df44a702d842d4171d867946fb818d3f36fd80
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905683"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615234"
 ---
 # <a name="data-locations-for-the-european-union"></a>유럽 연합의 데이터 위치
 
@@ -92,7 +92,7 @@ Microsoft는 여러 계층의 보안 및 암호화 프로토콜을 사용하여 
 
 기본적으로 Microsoft 관리 키는 고객 데이터를 보호합니다. 모든 물리적 미디어에 유지되는 데이터는 FIPS 140-2 규격 암호화 프로토콜을 사용하여 항상 암호화됩니다. 데이터 보호를 강화하려면 CMK(고객 관리 키), [이중 암호화](../compliance/double-key-encryption.md) 및/또는 HSM(하드웨어 보안 모듈)를 사용할 수도 있습니다.
 
-또한 데이터 센터 간에 이동하는 모든 데이터 트래픽은 IEEE 802.1 AE MAC 보안 표준을 사용하여 보호되므로 물리적인 "중간자"(man-in-the-middle) 공격을 방지합니다.
+게다가 Microsoft는 데이터가 클라우드 서비스와 고객 사이를 오갈 때 기본적으로 [TLS(전송 계층 보안)](https://wikipedia.org/wiki/Transport_Layer_Security) 프로토콜을 사용하여 데이터를 암호화합니다. Microsoft 서비스는 Microsoft 365 서비스에 연결하는 클라이언트 시스템과 TLS 연결을 협상합니다. 
 
 데이터 센터에 대한 물리적인 무단 액세스를 방지하려면 연중 무휴 24시간 비디오 모니터링, 숙련된 보안 담당자 및 프로세스, 스마트 카드 또는 생체 인식 다단계 액세스 제어를 포함하는 엄격한 운영 제어 및 프로세스를 사용합니다. 수명이 다되면 데이터 디스크는 파쇄 및 파괴됩니다. 저장소에 사용되는 디스크 드라이브에 하드웨어 오류가 발생하거나 수명이 다되면 안전하게 삭제되고 파괴됩니다. 드라이브의 데이터는 어떤 방법으로도 복구할 수 없도록 완전히 덮어쓰게 됩니다. 이러한 장치를 폐기할 때는 NIST SP 800-88 R1, 미디어 삭제에 대한 지침을 사용하여 파쇄되고 파괴됩니다. 파기 기록은 Microsoft 감사 및 준수 프로세스의 일부로써 보관되고 검토됩니다. 모든 Microsoft 365 서비스는 승인된 미디어 저장소 및 폐기 관리 서비스를 활용합니다.
 

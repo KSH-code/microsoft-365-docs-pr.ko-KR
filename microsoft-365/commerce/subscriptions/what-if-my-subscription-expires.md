@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Microsoft 365 비즈니스 에디션 구독이 만료되거나, 비활성화되거나, 사용자가 취소하는 경우 사용자의 데이터가 어떻게 처리되는지 알아봅니다.
-ms.openlocfilehash: 7560e715a9b1951915866f96c8df3bd1f884a475
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ee83e237d17dc2de60b08b8d4dbdc46c98fc8251
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921819"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615402"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?
 
@@ -55,7 +55,7 @@ ms.locfileid: "50921819"
 
 ## <a name="what-happens-if-i-cancel-a-subscription"></a>구독을 취소할 경우 어떻게 되나요?
 
-기간 종료 날짜 전에 구독을 취소하면 구독은 만료 상태를 건너뛰고 사용 안 함 상태로 이동하며, 대부분의 국가와 지역에서는 대부분의 구독에 대해 90일 동안 지속됩니다. 취소하기 전에 [데이터를 백업](back-up-data-before-switching-plans.md)하는 것이 좋습니다. 하지만 관리자로서 사용 안 함 상태에서도 조직의 데이터에 액세스하고 백업할 수 있습니다. 남겨진 모든 고객 데이터는 90일 후에 삭제될 수 있으며, 취소 후 180일 내에 삭제됩니다.
+기간 종료 날짜 전에 구독을 취소하면 구독은 만료 단계를 건너뛰고 사용 안 함 단계로 이동하며, 이 단계는 대부분 국가와 지역에서 대부분 구독에 대해 90일간 지속됩니다. 구독 취소 전 [데이터를 백업](back-up-data-before-switching-plans.md)하는 걸 권장하지만, 관리자는 사용 안 함 단계에 있는 동안 여전히 조직의 백업 데이터에 액세스할 수 있습니다. 남겨진 모든 고객 데이터는 90일 후에 삭제될 수 있으며, 취소 후 180일 내에 삭제됩니다.
   
 구독을 취소할 경우 관리자와 사용자에 대해 예상되는 결과는 다음과 같습니다.
   
@@ -66,15 +66,13 @@ ms.locfileid: "50921819"
 취소하는 방법에 대한 자세한 내용은 [구독 취소](cancel-your-subscription.md)를 참조하세요.
   
 > [!IMPORTANT]
-> 정규 비활성 기간이 경과되기 전에 구독 데이터를 삭제하고 싶다면 [계정 사용 중지](../close-your-account.md)를 할 수 있습니다.
+> 일반적인 사용 안 함 단계가 끝나기 전에 구독 데이터를 삭제하고 싶다면 [계정 사용 중지](../close-your-account.md)를 할 수 있습니다.
   
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>구독이 곧 만료되는 경우 선택할 수 있는 옵션은 무엇인가요?
 
 구독이 활성 상태인 동안 사용자 및 최종 사용자는 전자 메일 및 비즈니스용 OneDrive, Office 응용 프로그램과 같은 서비스의 데이터에 정상적으로 액세스할 수 있습니다. 관리자로서 구독의 만료 날짜가 다가오면 전자 메일과 관리 센터를 통해 일련의 알림을 받게 됩니다.
   
 구독이 실제로 만료 날짜에 이르기 전에 다음 몇 가지 옵션 중에서 선택할 수 있습니다.
-
-::: moniker range="o365-worldwide"
   
 - **구독에 대해 되풀이 청구를 사용하도록 설정합니다**.
 
@@ -92,148 +90,58 @@ ms.locfileid: "50921819"
 
   - 파트너와 협력 관계에 있는 Open 볼륨 라이선스 고객의 경우, 아무런 조치도 취하지 않으면 구독이 만료됩니다.
 
-  - Microsoft Office 365 Small Business Premium 고객이며 Office 365를 선불로 구입하고 제품 키로 인증한 경우, 아무런 조치도 취하지 않으면 구독이 만료됩니다.
+  - 구독을 선불로 구입하고 제품 키로 정품 인증한 Microsoft 365 Business Standard 고객의 경우 아무 조치를 취하지 않으면 구독이 만료됩니다.
 
 - **구독 만료 전에 취소.** 자세한 내용은 [구독 취소](cancel-your-subscription.md)를 참조하세요.
-  
-::: moniker-end
-
-::: moniker range="o365-germany"
-  
-- **구독에 대한 되풀이 청구를 관리합니다.**
-
-  - **되풀이 청구** 가 이미 설정되어 있는 경우, 아무 작업도 할 필요가 없습니다. 사용자의 구독은 자동으로 청구되고, 현재 결제 빈도에 따라 추가 년 또는 월에 대해 요금이 청구됩니다. 어떤 이유에서든 **되풀이 청구** 를 해제한 경우에는 언제든지 [되풀이 청구를 다시 설정](renew-your-subscription.md)할 수 있습니다.
-
-  - 선불 카드를 사용하여 비즈니스용 Microsoft 365 앱을 구매한 경우, 구독에 대해 [되풀이 청구를 설정](renew-your-subscription.md)할 수 있습니다.
-
-  - 선불, 일년 구독을 보유한 오픈 볼륨 라이선싱 고객의 경우, 파트너에 문의하여 새 제품 키를 구매합니다. [볼륨 라이선싱 서비스 센터](https://go.microsoft.com/fwlink/p/?LinkID=282016)에서 키를 정품 인증하는 지침을 전자 메일을 통해 받게 됩니다. 새 파트너 또는 이전에 협조한 파트너를 찾는 방법에 대한 자세한 내용은 [파트너 또는 대리점 찾기](../../admin/manage/find-your-partner-or-reseller.md)를 참조하세요.
-
-  - 비즈니스용 Microsoft 365 앱을 보유한 경우 [구독 갱신](renew-your-subscription.md)을 참조하세요.
-
-- **구독 만료.**
-
-  - 신용 카드 또는 송장으로 결제하는 경우 구독을 계속하지 않으려면 [되풀이 청구를 끄세요](renew-your-subscription.md). 구독은 만료 날짜에 종료되며 관련된 모든 전자 메일 알림을 무시할 수 있습니다.
-
-  - 파트너와 협력 관계에 있는 Open 볼륨 라이선스 고객의 경우, 아무런 조치도 취하지 않으면 구독이 만료됩니다.
-
-  - Microsoft Office 365 Small Business Premium 고객이며 Office 365를 선불로 구입하고 제품 키로 인증한 경우, 아무런 조치도 취하지 않으면 구독이 만료됩니다.
-
-- **구독 만료 전에 취소.** 자세한 내용은 [구독 취소](cancel-your-subscription.md)를 참조하세요.
-  
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-  
-- **구독 갱신.** **되풀이 청구** 가 이미 설정되어 있는 경우, 아무 작업도 할 필요가 없습니다. 사용자의 구독은 자동으로 청구되고, 현재 결제 빈도에 따라 추가 년 또는 월에 대해 요금이 청구됩니다. 어떤 이유에서든 **되풀이 청구** 를 해제한 경우에는 언제든지 [되풀이 청구를 다시 설정](renew-your-subscription.md)할 수 있습니다.
-
-- **구독 만료.** 신용 카드 또는 송장으로 결제하는 경우 구독을 계속하지 않으려면 [되풀이 청구를 끄세요](renew-your-subscription.md). 구독은 만료 날짜에 종료되며 관련된 모든 전자 메일 알림을 무시할 수 있습니다.
-
-- **구독 만료 전에 취소.** 자세한 내용은 [구독 취소](cancel-your-subscription.md)를 참조하세요.
-
-::: moniker-end
 
 ## <a name="what-happens-after-my-subscription-expires"></a>구독이 만료된 후에 어떤 변화가 있나요?
+
 구독이 만료되도록 그대로 두면, 최종적으로 삭제되기 전까지 여러 상태를 거치게 됩니다. 관리자로서 이 시간 동안에 다시 활성화하여 서비스를 계속 이용하거나 구독을 더 이상 사용하지 않으려는 경우 데이터를 백업할 수 있습니다.
   
 각 상태에서 구독에 대해 예상되는 결과는 다음과 같습니다.
   
 ### <a name="state-expired"></a>상태: 만료됨
-  
-::: moniker range="o365-worldwide"
 
- **예상되는 결과:** 대부분의 국가와 지역에서 [Microsoft Open](https://go.microsoft.com/fwlink/p/?LinkID=613298)을 통해 구입한 구독을 비롯하여 대부분의 구독에 대해 만료 상태가 30일 동안 지속됩니다. Microsoft Open을 제외한 볼륨 라이선스 제품의 경우 만료 상태가 90일 동안 지속됩니다.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
- **예상되는 결과:** 대부분의 국가와 지역에서 [Microsoft Open](https://go.microsoft.com/fwlink/p/?LinkID=613298)을 통해 구입한 구독을 비롯하여 대부분의 구독에 대해 만료 상태가 30일 동안 지속됩니다. Microsoft Open을 제외한 볼륨 라이선스 제품의 경우 만료 상태가 90일 동안 지속됩니다.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
- **예상되는 결과:** 만료 상태는 대부분의 국가와 지역에서 대부분의 구독에 대해 30일 동안 지속됩니다.
-
-::: moniker-end
+ **예상 결과:** 대부분의 국가와 지역에서 [Microsoft Open](https://go.microsoft.com/fwlink/p/?LinkID=613298)을 통해 구입한 구독을 비롯하여 대부분 구독의 경우 만료 단계가 30일 동안 지속됩니다. Microsoft Open을 제외한 볼륨 라이선싱 제품의 경우 만료 단계가 90일 동안 지속됩니다.
 
 이 상태에서는 사용자가 Microsoft 365 포털, Office 응용 프로그램, 전자 메일 및 SharePoint Online과 같은 서비스에 정상적으로 액세스할 수 있습니다.
   
 사용자는 관리자로서 여전히 관리 센터에 액세스할 수 있습니다. 걱정하지 마세요. 전역 또는 청구 관리자는 [구독을 다시 활성화](reactivate-your-subscription.md)하고 Microsoft 365를 계속 사용할 수 있습니다. 다시 활성화하지 않을 경우 [데이터를 백업](back-up-data-before-switching-plans.md)하세요.
   
 ### <a name="state-disabled"></a>상태: 사용 안 함
-  
-::: moniker range="o365-worldwide"
 
- **예상되는 결과:** 만료 상태에서 구독을 다시 활성화하지 않으면 사용 안 함 상태로 전환됩니다. 대부분의 국가와 지역에서 대부분의 구독에 대해 사용 안 함 상태는 90일 동안 지속됩니다. 볼륨 라이선스 제품에 대한 사용 안 함 상태는 30일 동안 지속됩니다.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
- **예상되는 결과:** 만료 상태에서 구독을 다시 활성화하지 않으면 사용 안 함 상태로 전환됩니다. 대부분의 국가와 지역에서 대부분의 구독에 대해 사용 안 함 상태는 90일 동안 지속됩니다. 볼륨 라이선스 제품에 대한 사용 안 함 상태는 30일 동안 지속됩니다.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
- **예상되는 결과:** 만료 상태에서 구독을 다시 활성화하지 않으면 사용 안 함 상태로 전환됩니다. 대부분의 국가와 지역에서 대부분의 구독에 대해 사용 안 함 상태는 90일 동안 지속됩니다.
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
+ **예상 결과:** 만료 단계에 있는 동안 구독을 다시 활성화하지 않으면 사용 안 함 단계로 전환됩니다. 대부분 국가와 지역에서 대부분 구독의 사용 안 함 단계는 90일 동안 지속됩니다. 볼륨 라이선싱 제품의 사용 안 함 단계는 30일 동안 지속됩니다.
 
 이 상태에서는 액세스 권한이 크게 줄어듭니다. 사용자는 전자 메일 또는 SharePoint Online과 같은 서비스에 로그인하거나 액세스할 수 없습니다. Office 응용 프로그램은 읽기 전용의 기능 제한 모드로 전환되며 [사용 허가되지 않은 제품 알림](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)이 표시됩니다. 여전히 로그인하여 관리 센터에 액세스할 수 있지만 사용자에게 라이선스를 할당할 수 없습니다. 팀 사이트의 모든 사용자 데이터, 전자 메일 및 파일을 포함한 고객 데이터는 사용자 및 다른 관리자만 사용할 수 있습니다.
-
-::: moniker-end
 
 전역 또는 청구 관리자의 경우 [구독을 다시 활성화](reactivate-your-subscription.md)하고 모든 고객 데이터가 그대로 유지된 상태에서 Microsoft 365를 계속 사용할 수 있습니다. 다시 활성화하지 않을 경우 [데이터를 백업](back-up-data-before-switching-plans.md)하세요.
 
 ### <a name="state-deleted"></a>상태: 삭제됨
   
- **예상되는 결과:** 유예 또는 사용 안 함 상태에서 구독을 다시 활성화하지 않으면 구독이 삭제됩니다.
+ **예상 결과:** 만료 또는 사용 안 함 스테이지에 있는 동안 구독을 다시 활성화하지 않으면 구독이 삭제됩니다.
   
 관리자 및 사용자는 구독과 함께 제공된 서비스 또는 Office 응용 프로그램에 더 이상 액세스할 수 없습니다. 사용자 데이터에서 문서 및 전자 메일에 이르기까지 모든 고객 데이터는 영구적으로 삭제되며 복구할 수 없습니다.
   
 이 시점에는 구독을 다시 활성화할 수 없습니다. 하지만 전역 또는 청구 관리자의 경우 관리 센터에 액세스하여 다른 구독을 관리하거나 비즈니스 요구에 따라 새 구독을 구입할 수는 있습니다.
   
 > [!NOTE]
-> 삭제된 동일한 유형의 새 구독을 추가해도 삭제된 구독에 연결된 데이터가 복원되지 않습니다.
-
-
-> [!NOTE]
-> CSP 라이선스가 일시 중단된 경우 30일의 유예 기간이 주어지며 서비스가 즉시 사용 중지됩니다. 새 라이선스를 추가하여 테넌트가 다시 활성화되지 않으면 90일 후에 데이터가 삭제됩니다.
+> - 삭제된 동일한 유형의 새 구독을 추가해도 삭제된 구독에 연결된 데이터가 복원되지 않습니다.
+> - CSP 라이선스가 일시 중단된 경우 30일간의 만료 단계가 주어지며 서비스가 즉시 사용 중지됩니다. 새 라이선스를 추가하여 테넌트가 다시 활성화되지 않으면 90일 후에 데이터가 삭제됩니다.
 
 ### <a name="what-happens-when-my-trial-ends"></a>평가판이 종료되면 어떻게 되나요?
 
 평가판이 종료되면 Microsoft 365를 계속 무료로 사용할 수 없습니다. 다음과 같은 몇 가지 옵션이 있습니다. 
 
-::: moniker range="o365-worldwide"
-
-- **Microsoft 365를 구입하세요.** 평가판이 만료되면 Microsoft 365를 구매할 수 있도록 30일(대부분의 국가 및 지역에서 사용하는 거의 모든 평가판에 해당)의 유예 기간이 주어집니다. 평가판을 유료 구독으로 전환하는 방법에 대한 자세한 내용은 [비즈니스용 Microsoft 365 평가판 구입](../try-or-buy-microsoft-365.md)을 참조하세요.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-- **Microsoft 365를 구입하세요.** 평가판이 만료되면 Microsoft 365를 구매할 수 있도록 30일(대부분의 국가 및 지역에서 사용하는 거의 모든 평가판에 해당)의 유예 기간이 주어집니다. 평가판을 유료 구독으로 전환하는 방법에 대한 자세한 내용은 [비즈니스용 Microsoft 365 평가판 구입](../try-or-buy-microsoft-365.md)을 참조하세요.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-- **Microsoft Office 365를 구입하세요.** 평가판이 만료되면 Microsoft Office 365를 구매할 수 있도록 30일(대부분의 국가 및 지역에서 사용하는 거의 모든 평가판에 해당)의 유예 기간이 주어집니다. 평가판을 유료 구독으로 전환하는 방법에 대한 자세한 내용은 [21Vianet에서 운영하는 Microsoft Office 365에 대한 구독 구입 또는 체험](../../admin/services-in-china/buy-or-try-subscriptions.md)을 참조하세요.
-
-::: moniker-end
+- **Microsoft 365를 구입하세요.** 평가판이 만료되면 Microsoft 365를 구입할 수 있도록 다음 30일(대부분 국가 및 지역에서 사용하는 거의 모든 평가판에 해당)간 만료 단계가 주어집니다. 평가판을 유료 구독으로 전환하는 방법에 대한 자세한 내용은 [무료 평가판에서 구독 구입](../try-or-buy-microsoft-365.md#buy-a-subscription-from-your-free-trial)을 참조하세요.
 
 - **평가판을 연장하세요.** Microsoft 365을 평가하는 데 시간이 더 필요하신가요? 경우에 따라 [평가판을 연장](../extend-your-trial.md)할 수도 있습니다.
 
-- **평가판을 취소하거나 만료될 때까지 그대로 두세요.** Microsoft 365를 구입하지 않기로 결정하면 평가판이 만료될 때까지 그대로 두거나 [이를 취소](cancel-your-subscription.md)할 수 있습니다. 보관하고자 하는 데이터를 백업하세요. 30일의 유예 기간이 지난 후 평가판 계정 정보와 데이터가 영구적으로 지워지게 됩니다.
+- **평가판을 취소하거나 만료될 때까지 그대로 두세요.** Microsoft 365를 구입하지 않기로 결정하면 평가판이 만료될 때까지 그대로 두거나 [이를 취소](cancel-your-subscription.md)할 수 있습니다. 보관하고자 하는 데이터를 백업하세요. 30일간의 만료 단계가 끝나고 나면 곧 평가판 계정 정보와 데이터가 영구적으로 지워집니다.
 
 > [!NOTE]
 > 이 페이지의 정보에는 [Microsoft 정책 고지 사항 및 변경 고지 사항](https://go.microsoft.com/fwlink/p/?LinkId=613651)이 적용됩니다. 정기적으로 이 사이트로 돌아가 변경 사항을 검토하세요.
 
-## <a name="related-content"></a>관련 콘텐츠 
+## <a name="related-content"></a>관련 콘텐츠
 
 [구독 취소](./cancel-your-subscription.md)(문서)\
 [비즈니스용 Microsoft 365 갱신](./renew-your-subscription.md)(문서)\

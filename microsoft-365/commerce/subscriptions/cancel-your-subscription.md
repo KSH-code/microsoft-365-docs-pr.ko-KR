@@ -20,21 +20,14 @@ search.appverid:
 - MET150
 description: 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소하는 방법에 대해 알아보세요.
 ms.date: ''
-ms.openlocfilehash: 7a2de2a261baeb4e64e12742810635f352217933
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0d37a2459c89bf5931af26a91ed14e2898c1c8c4
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916879"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615390"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> 관리 센터가 변경되고 있습니다. 사용자의 환경이 여기에 설명된 세부 정보와 맞지 않는 경우에는 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet)를 참조하세요.
-
-::: moniker-end
 
 *자격:* : 사용자에게 할당한 라이선스가 25개 미만인 경우 Microsoft 365 관리 센터에서 비즈니스용 Microsoft 365 평가판 또는 유료 온라인 구독을 취소할 수 있습니다. 사용자에게 할당된 라이선스가 25개 이상인 경우 25개 미만으로 줄이거나 [지원팀에 문의하여 구독을 취소하세요](../../admin/contact-support-for-business-products.md).
 
@@ -53,46 +46,26 @@ ms.locfileid: "50916879"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 제품</a> 페이지로 이동한 다음 **제품** 탭을 선택합니다.
-2. 취소하려는 구독을 찾습니다. **추가 작업**(점 3개)을 선택한 다음 **구독 취소** 를 선택합니다.
-3. **구독 취소** 창에서 취소 이유를 선택합니다. 원하는 경우, 피드백을 제공하세요.
-4. **저장** 을 선택합니다.
-
-이제 구독이 **사용 안 함** 상태로 표시되며, 삭제할 때까지 기능이 제한됩니다. 유료 비즈니스용 Microsoft 365 구독을 취소할 경우 나타나는 결과에 대한 자세한 내용은 [내 Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md)를 참조하세요.
-
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
-
-2. **구독** 페이지에서 구독을 선택합니다.
-
-3. **추가 작업** 메뉴에서 **구독 취소** 를 선택합니다.
-
-    ![추가 작업 메뉴를 닫습니다.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
-
-4. 중요 날짜를 검토하고 취소하는 이유에 대한 의견을 제공한 다음 **구독 취소** 를 선택합니다.
-
-    이제 구독이 **사용 안 함** 상태로 표시되며, 삭제할 때까지 기능이 제한됩니다. 유료 비즈니스용 Microsoft 365 구독을 취소할 경우 나타나는 결과에 대한 자세한 내용은 [내 Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md)를 참조하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
-
-2. **구독** 페이지에서 구독을 선택합니다.
-
-3. **추가 작업** 메뉴에서 **구독 취소** 를 선택합니다.
-
-    ![추가 작업 메뉴를 닫습니다.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
-
-4. 중요 날짜를 검토하고 취소하는 이유에 대한 의견을 제공한 다음 **구독 취소** 를 선택합니다.
-
-    이제 구독이 **사용 안 함** 상태로 표시되며, 삭제할 때까지 기능이 제한됩니다. 유료 비즈니스용 Microsoft 365 구독을 취소할 경우 나타나는 결과에 대한 자세한 내용은 [내 Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md)를 참조하세요.
-
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
+
+2. **상품** 탭을 선택합니다.
+3. 취소하려는 구독을 찾습니다. **추가 작업**(점 3개)을 선택한 다음 **구독 취소** 를 선택합니다.
+4. **구독 취소** 창에서 취소 이유를 선택합니다. 원하는 경우, 피드백을 제공하세요.
+5. **저장** 을 선택합니다.
+
+이제 구독이 **사용 안 함** 상태로 표시되며, 삭제할 때까지 기능이 제한됩니다. 유료 비즈니스용 Microsoft 365 구독 취소 결과에 대한 자세한 내용은 [비즈니스용 Microsoft 365 구독이 종료되면 내 데이터와 액세스 권한은 어떻게 되나요?](what-if-my-subscription-expires.md)를 참조하세요.
 
 ## <a name="what-happens-when-you-cancel-a-subscription"></a>구독을 취소하면 어떻게 되나요?
 
