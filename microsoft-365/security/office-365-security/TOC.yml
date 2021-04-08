@@ -6,6 +6,8 @@
       items:
         - name: Office 365용 Defender
           href: defender-for-office-365.md
+        - name: Office 365용 Microsoft Defender의 단계별 위협 방지
+          href: protection-stack-microsoft-defender-for-office365.md
         - name: Office 365용 Defender 계산
           href: office-365-evaluation.md
         - name: Office 365용 Defender의 새로운 기능
