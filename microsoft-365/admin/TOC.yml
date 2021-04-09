@@ -263,6 +263,8 @@
           href: manage/manage-microsoft-rewards.md
         - name: 메시지 센터 메시지 관리
           href: manage/manage-messages.md
+        - name: 조직에 대한 Microsoft 피드백 관리
+          href: /admin/manage/manage-feedback-ms-org.md
         - name: 릴리스 옵션 설정
           href: manage/release-options-in-office-365.md
         - name: 새 기능 표시 또는 숨기기

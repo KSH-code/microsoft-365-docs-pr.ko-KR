@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자가 Microsoft 제품에 대해 Microsoft에 보낼 수 있는 피드백을 관리합니다.
-ms.openlocfilehash: 9c6ed46b21a5ee697c4c512c09defd66e6b961c9
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: c92adec1689d6f0c46b03ae4f46c567f054b6457
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644864"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650019"
 ---
 # <a name="manage-microsoft-feedback-for-your-organization"></a>조직에 대한 Microsoft 피드백 관리
 
@@ -32,7 +32,7 @@ Microsoft 365 조직의 관리자는 Microsoft 365 응용 프로그램을 사용
 
 피드백 유형 및 Microsoft에서 사용자 피드백을 사용하는 방법에 대한 자세한 내용은 [조직에 대한 Microsoft 피드백에 대해 자세히 보기를 참조합니다.](../misc/feedback-user-control.md)
 
-아래 표에는 아래 피드백 정책 표에 표시된 피드백 정책에 현재 연결된 앱 및 서비스가 나와 있습니다.
+아래 표에는 아래 피드백 정책 표에 표시된 피드백 정책에 현재 연결된 앱 및 서비스가 나와 있습니다. 스크린샷 예제는 아래 표를 참조하세요.
 
 |**앱 & 서비스**|**제품 내 피드백** <br> |**제품 내 설문 조사** <br> |**메타데이터 컬렉션** <br> |**고객 참여** <br> |
 |:-----|:-----|:-----|:-----|:-----|
@@ -51,15 +51,7 @@ Microsoft 365 조직의 관리자는 Microsoft 365 응용 프로그램을 사용
 |**Visio**|예|예|예|예|
 |**Yammer**|예|예|예|예|
 
-다음은 제품 피드백의 몇 가지 예입니다.
-
-**제품 내 피드백**
-
-:::image type="content" source="../../media/feedback-in-product-help.png" alt-text="스크린샷: 제품 내 도움말 예제":::
-
-**제품 내 설문 조사**
-
-:::image type="content" source="../../media/feedback-in-product-survey.png" alt-text="스크린샷: Microsoft 앱 제품 내 설문 조사 예제":::
+[제품 내 설문 조사 및 피드백의 몇 가지 예는 여기를 참조하세요.](https://docs.microsoft.com/microsoft-365/admin/misc/feedback-user-control?view=o365-worldwide#in-product-surveys)
 
 **메타데이터 컬렉션**
 

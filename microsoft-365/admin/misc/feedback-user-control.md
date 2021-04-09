@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 사용자가 Microsoft 제품에 대해 Microsoft에 보낼 수 있는 피드백에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0a6c895eacd7a1cf8077141c6a848236a53818e7
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 29fe6b7f43b3c888c3848daeb6ab4c2152a9c44c
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644848"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650072"
 ---
 # <a name="learn-about-microsoft-feedback-for-your-organization"></a>조직에 대한 Microsoft 피드백에 대해 자세히 알아보시고
 
@@ -49,9 +49,9 @@ ms.locfileid: "51644848"
 
 또한 사용자는 시스템 시작 설문 조사 프롬프트를 통해 자신의 경험을 평가하고 경험에 대한 추가 정보를 제공할 수 있습니다. 이러한 프롬프트는 Microsoft 365 제품 내에서 수시로 발생합니다. 메시지가 표시될 때 사용자는 피드백을 제공할지 선택할 수 있습니다. 설문 조사 프롬프트는 일반적으로 앱 오른쪽 아래에 표시됩니다. 사용자가 피드백을 제공하거나, 프롬프트를 해지하거나, 프롬프트가 자체적으로 사라지게 하도록 설정하면 해당 사용자는 설문 조사를 한 번 더 볼 수 없습니다. 또한 Microsoft는 거버넌스 프로세스를 활용하여 이러한 시스템이 시작한 설문 조사의 수를 제한합니다.  거버넌스의 의도는 사용자가 설문 조사 프롬프트 수에 부담을 주지 않도록 하는 것입니다.
 
-:::image type="content" source="../../media/feedback-outlook-example.png" alt-text="Screenshot: Example of in-product feedback for Outlook":::
-:::image type="content" source="../../media/how-likely-recommend.png" alt-text="Screenshot: How likely you to recommend Microsoft 365 survey":::
-:::image type="content" source="../../media/feedback-in-product1.png" alt-text="스크린샷: 제품 내 피드백 페이지의 예":::
+:::image type="content" source="../../media/feedback-love.png" alt-text="스크린샷: 제품 내 피드백 요청의 예":::
+
+:::image type="content" source="../../media/feedback-excel.png" alt-text="스크린샷: 제품 내 피드백 요청의 예":::
 
 ## <a name="what-kind-of-feedback-is-best"></a>어떤 피드백이 가장 적합한가요?
 
@@ -90,3 +90,7 @@ Microsoft는 피드백을 사용하여 Microsoft 제품을 개선합니다. 질�
 Microsoft 거버넌스 규칙에 따라 받은 피드백이 저장 및 처리되고 승인된 용도에만 액세스할 수 있는지를 확인 합니다.
 
 사용하기 쉬운 도구를 사용하여 개인 정보를 제어할 수 있으며 선택을 명확히 합니다. We're transparent about how we collect and use data, so you can make informed decisions about what you want to share. 당사는 강력한 보안 및 암호화를 통해 저희가 사용하는 데이터를 보호합니다. 당사는 현지 개인 정보 보호법을 준수하고 인권으로 개인 정보를 법적으로 보호하기 위해 투고합니다. 귀하의 전자 메일, 채팅, 파일 또는 기타 개인 콘텐츠를 사용하여 광고를 대상으로 지정하지 않습니다. 데이터를 수집할 때 데이터를 사용하여 환경을 개선합니다. 여기에서 개인 정보 보호에 대한 Microsoft의 접근 방식에 대해 [자세히 알아보십시오.](https://privacy.microsoft.com/) 개인 정보 개요에 [대해 자세히 알아보하세요.](/compliance/assurance/assurance-privacy)
+
+## <a name="how-can-i-see-my-users-feedback"></a>사용자 의견을 어떻게 볼 수 있나요?
+
+곧 Microsoft 제품에서 수집하는 피드백 데이터를 다시 공유할 예정입니다. Microsoft는 조직의 피드백 데이터를 보고 삭제하고 내보낼 수 있는 Microsoft 365 관리 센터에서 새로운 환경을 개발하고 있습니다. 이렇게 하면 Microsoft 365 제품에 대한 사용자 경험에 대한 직접적인 투명성과 유용한 인사이트를 얻을 수 있습니다.

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Microsoft 365 그룹을 만들 수 있는 사용자를 제어하는 방법을 학습합니다.
-ms.openlocfilehash: 9c3edf335ce09f04e9b0b538e69fa607a9c34044
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 092ff821911ef0af2b7867e1b870b68b1b6355b3
+ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929159"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656988"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Microsoft 365 그룹을 만들 수 있는 사용자 관리
 
@@ -43,7 +43,7 @@ ms.locfileid: "50929159"
 - Power BI(클래식)
 - 웹용 프로젝트/로드맵
 
-이 문서의 단계에서는 특정 역할의 구성원이 그룹을 만들 수 없습니다. Office 365 전역 관리자는 Microsoft 365 관리 센터, Planner, Teams, Exchange 및 SharePoint Online과 같은 모든 수단을 통해 그룹을 만들 수 있습니다. 다른 역할은 아래에 나열된 제한된 수단을 통해 그룹을 만들 수 있습니다.
+이 문서의 단계에서는 특정 역할의 구성원이 그룹을 만들 수 없습니다. Office 365 전역 관리자는 Microsoft 365 관리 센터, Planner, Exchange 및 SharePoint Online을 통해 그룹을 만들 수 있습니다. 다른 역할은 아래에 나열된 제한된 수단을 통해 그룹을 만들 수 있습니다.
 
 - Exchange 관리자: Exchange 관리 센터, Azure AD
 - 파트너 계층 1 지원: Microsoft 365 관리 센터, Exchange 관리 센터, Azure AD
@@ -166,7 +166,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 > [!NOTE]
 > 그룹의 구성원이 그룹을 만들 수 없는 경우 해당 OWA 사서함 정책을 통해 차단되지 [않는지 검사합니다.](/powershell/module/exchange/set-owamailboxpolicy)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 

@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 3aa964f8e213d64f583738d8957899c1b7b5146c
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 3532fd461fff02fac54e96e0a1a1e69c39c16907
+ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501097"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51657022"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 고급 헌팅을 통해 위협을 사전 대응
 
@@ -54,6 +54,17 @@ ms.locfileid: "51501097"
 - ID용 Microsoft Defender
 
 고급 헌팅을 사용하 고 [Microsoft 365 Defender 를 켜야 합니다.](m365d-enable.md)
+
+### <a name="before-you-begin"></a>시작하기 전에
+
+Microsoft Defender에 액세스하려면 다음 권한 수준 중 하나가 필요합니다.
+
+- 모든 액세스(읽기 및 쓰기)
+- 읽기 전용 액세스
+
+**모든 액세스:** 모든 권한이 있는 사용자는 쿼리를 저장, 수정 및 공유할 수 있습니다. 모든 액세스 권한을 할당하려면 사용자를 Azure Active Directory(AAD)의 "보안 관리자" 또는 "전역 관리자" 기본 제공 역할에 추가해야 합니다.
+
+**읽기 전용 액세스:** 읽기 전용 액세스 권한이 있는 사용자는 로그인하여 모든 경고 및 관련 정보를 볼 수 있습니다. 쿼리를 저장, 수정 또는 공유할 수 없습니다. 읽기 전용 액세스 권한을 할당하려면 사용자를 AAD의 "보안 읽기 권한자" 기본 제공 역할에 추가해야 합니다.
 
 ## <a name="get-started-with-advanced-hunting"></a>고급 헌팅 시작
 

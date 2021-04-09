@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 06b52e937dd0260a50883c45c36389a6a955ad0e
-ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
+ms.openlocfilehash: d0ae82c2e284235d96531c04dc2240063d4e4183
+ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51604535"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51657044"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>네트워크 장치 검색 및 취약성 관리
 
@@ -46,7 +46,7 @@ ms.locfileid: "51604535"
 
 지정된 끝점 디바이스용 Microsoft Defender가 각 네트워크 세그먼트에서 미리 구성한 네트워크 장치에 대해 정기적으로 인증된 스캔을 수행하는 데 사용됩니다. 검색된 끝점의 위협 및 취약성 관리 기능에 대한 Defender는 검색된 스위치, 라우터, WLAN 컨트롤러, 방화벽 및 VPN 게이트웨이를 보호하는 통합 워크플로를 제공합니다.  
 
-네트워크 장치가 검색 및 분류되면 보안 관리자는 최신 보안 권장 사항을 받고 조직 전체에 배포된 네트워크 장치에 대해 최근에 발견된 취약점을 검토할 수 있습니다.
+네트워크 장치가 검색 및 분류되면 보안 관리자는 최신 보안 권장 사항을 받고 조직 전체에 배포된 네트워크 장치에서 최근에 발견된 취약점을 검토할 수 있습니다.
 
 ## <a name="approach"></a>방법
 
@@ -95,9 +95,9 @@ ms.locfileid: "51604535"
     - login.windows.net  
     - *.securitycenter.windows.com
     - login.microsoftonline.com
-    - *.blob.core.windows.net/networkscannerstable/*
+    - *.blob.core.windows.net/networkscannerstable/ *
 
-    참고: 이러한 URL은 허용되는 데이터 수집의 끝점에 대해 문서화된 Defender 목록에 지정되지 않습니다.
+    참고: 허용되는 데이터 수집의 끝점에 대해 문서화한 끝점용 Defender 목록에 일부 URL이 지정되지는 않습니다.
 
 ## <a name="permissions"></a>사용 권한
 
