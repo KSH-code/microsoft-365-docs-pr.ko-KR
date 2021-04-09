@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 687077b1c9ff2449d9994875419a97cf0c503c2f
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 86bc6ef03438b637f62cf0e2a46e418dbea7a3c1
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51581085"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650281"
 ---
 # <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
@@ -92,7 +92,11 @@ Microsoft 365 Defender 제품 간 기능은 다음과 같습니다.
 - **제품** 간 위협 헌팅 - 보안 팀은 다양한 보호 제품에서 수집한 원시 데이터에 대해 자체 사용자 지정 쿼리를 만들어 고유한 조직 지식을 활용하여 손상 징후를 찾을 수 있습니다. Microsoft 365 Defender는 끝점 및 Office 365용 Microsoft Defender 데이터에서 30일 동안의 기록 원시 신호 및 경고 데이터에 대한 쿼리 기반 액세스를 제공합니다. 
 
 
-## <a name="get-started"></a>시작
+## <a name="get-started"></a>시작하기
 의 Microsoft 365 보안 센터에서 서비스를 사용하도록 설정하려면 먼저 Microsoft 365 Defender 라이선스 요구 [사항을 security.microsoft.com.](https://security.microsoft.com) 자세한 내용은 다음을 참조하십시오.
 - [라이선스 요구 사항](prerequisites.md#licensing-requirements)
 - [Microsoft 365 Defender 켜기](m365d-enable.md)
+
+
+## <a name="see-also"></a>참고 항목
+- [Microsoft 365 E5에 위협 방지 기능 배포](https://docs.microsoft.com/microsoft-365/solutions/deploy-threat-protection)

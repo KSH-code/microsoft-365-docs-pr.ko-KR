@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365에 위협 방지 기능 배포
 description: Microsoft 365 E5의 위협 방지 서비스 및 보안 기능에 대한 개요를 얻습니다. Microsoft 365 E5를 통해 사용자 계정, 장치, 전자 메일 콘텐츠 등 보호합니다.
-keywords: 위협 방지, 보안, E5, 사이버 공격, 맬웨어, M365, 솔루션
+keywords: advanced threat protection, security, microsoft 365 E5, solution, protect devices, defender
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 806c97a55b3cbe46d597566425cf71476586ecee
-ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
+ms.openlocfilehash: ea28e9c244b6b8faaeb9b1f3685d57169605cbb9
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51604381"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650317"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365-e5"></a>Microsoft 365 E5에 위협 방지 기능 배포
 
@@ -62,7 +62,7 @@ Microsoft 365 Defender는 신호와 데이터를 [통합된 Microsoft 365 보안
 |다단계 인증 및 조건부 액세스     |손상된 ID 및 장치로부터 보호합니다. 기본이기 때문에 이 보호로 시작해야 합니다. 이 지침에서 권장되는 구성에는 Azure AD ID 보호가 선행 구성으로 포함됩니다.     |
 |ID용 Microsoft Defender     |  AD DS(Active Directory 도메인 서비스) 신호를 활용하여 조직에 대한 고급 위협, 손상된 ID 및 악의적인 내부자 작업을 식별, 감지 및 조사하는 클라우드 기반 보안 솔루션입니다. 다음으로 Microsoft Defender for Identity에 중점을 두는 이유는, 이 인프라가 사용자의 사내 및 클라우드 인프라를 보호하고, 종속성이나 선행 요구가 없는 것이고, 즉각적인 보안 이점을 제공할 수 있기 때문에 그 다음에 집중합니다. | 
 |Office 365용 Microsoft Defender     | 전자 메일 메시지, 링크(URL) 및 공동 작업 도구로 위협되는 악의적인 위협에 대해 조직을 보호합니다. 맬웨어, 피싱, 스푸핑 및 기타 공격 유형에 대한 보호. 변경 제어, 현재 시스템에서 설정을 마이그레이션하는 등 배포하는 데 시간이 오래 걸릴 수 있기 때문에 Office 365용 Microsoft Defender를 구성하는 것이 좋습니다. <p>**참고:** 모든 Office 365 구독(Exchange Online Protection)에 포함된 위협 방지 기능을 구성해야 합니다.       |
-|엔드포인트용 Microsoft Defender    | 고급 위협을 방지, 감지, 조사 및 대응하는 데 도움이 되는 끝점 보호 플랫폼입니다.  Endpoint용 Defender를 배포하는 데 시간이 걸릴 수 있지만 구성은 다른 기능과 병렬로 수행될 수 있습니다.   |
+|끝점용 Microsoft Defender    | 고급 위협을 방지, 감지, 조사 및 대응하는 데 도움이 되는 끝점 보호 플랫폼입니다.  Endpoint용 Defender를 배포하는 데 시간이 걸릴 수 있지만 구성은 다른 기능과 병렬로 수행될 수 있습니다.   |
 |Microsoft Cloud App Security     |   검색, 조사 및 거버넌스를 위한 클라우드 액세스 보안 브로커입니다. Microsoft Cloud App Security를 초기에 사용하도록 설정하여 데이터 및 인사이트 수집을 시작할 수 있습니다. SaaS 앱에 정보 및 기타 대상이 지정된 보호를 구현하는 데는 계획이 수반될 수 있으며 시간이 더 걸릴 수 있습니다.       | 
 
 > [!TIP]

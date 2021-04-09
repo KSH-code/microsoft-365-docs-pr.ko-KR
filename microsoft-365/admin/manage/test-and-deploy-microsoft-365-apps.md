@@ -14,12 +14,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365 관리 센터의 통합 앱 포털에서 조직의 사용자 및 그룹에 대한 Microsoft 및 Microsoft 파트너 앱을 찾고 테스트하고 배포합니다.
-ms.openlocfilehash: f806d48e0ed582b1b5c1ee262058ce987125bd99
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+ms.openlocfilehash: da67cbe5f8b6e5f2da42e1f4b57a55d7d4a768fb
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488292"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644479"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-by-partners-in-the-integrated-apps-portal"></a>통합 앱 포털에서 파트너가 Microsoft 365 앱 테스트 및 배포
 
@@ -29,7 +29,7 @@ Microsoft 365 관리 센터에서는 단일 위치에서 단일 스토어 앱, �
 
 파트너가 이러한 앱을 만드는 방법에 대한 자세한 내용은 상업용 마켓플레이스에 대한 SaaS 제안을 [계획하는 방법을 참조하세요.](https://go.microsoft.com/fwlink/?linkid=2158277)
 
-통합 앱 포털은 전역 관리자만 액세스할 수 있으며 WorldWide 고객만 사용할 수 있습니다. 이 기능은 주권 및 정부 클라우드에서는 사용할 수 없습니다.
+통합 앱 포털은 전역 관리자만 액세스할 수 있으며 전 세계 고객만 사용할 수 있습니다. 이 기능은 주권 및 정부 클라우드에서는 사용할 수 없습니다.
 
 통합 앱 포털에는 조직에 배포된 파트너의 단일 앱 및 Microsoft 365 앱이 포함된 앱 목록이 표시됩니다. 웹 앱, SPFx 앱, Office 추가 기능 및 Teams 앱만 나열됩니다. 웹앱의 경우 2가지 종류의 앱을 볼 수 있습니다.
 

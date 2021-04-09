@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b529b1c7fa5c4f9f81cb6bfbb5f1a6bd7823a9ad
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 97d1d50e2557cbb760248738b1f096614873958f
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587602"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644707"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>장치 프록시 및 인터넷 연결 설정 구성
 
@@ -57,6 +57,13 @@ WinHTTP 구성 설정은 WinINet(Windows Internet) 인터넷 검색 프록시 �
 ## <a name="configure-the-proxy-server-manually-using-a-registry-based-static-proxy"></a>레지스트리 기반 정적 프록시를 사용하여 프록시 서버를 수동으로 구성합니다.
 
 컴퓨터가 인터넷에 연결할 수 없는 경우 Endpoint 센서용 Defender만 진단 데이터를 보고하고 Endpoint 서비스용 Defender와 통신할 수 있도록 레지스트리 기반 정적 프록시를 구성합니다.
+
+> [!NOTE]
+> - Windows 10 또는 Windows Server 2019에서 이 옵션을 사용하는 경우 다음 빌드 및 누적 업데이트 롤업을 사용하는 것이 좋습니다.</br>
+> Windows 10 버전 1909 - https://support.microsoft.com/kb/4601380</br>
+> Windows 10 버전 2004 - https://support.microsoft.com/kb/4601382</br>
+> Windows 10 버전 20H2 - https://support.microsoft.com/kb/4601382</br>
+> 이러한 업데이트는 CnC(명령 및 제어) 채널의 연결 및 안정성을 향상시킵니다.</br>
 
 정적 프록시는 GP(그룹 정책)를 통해 구성할 수 있습니다. 그룹 정책은 다음에서 확인할 수 있습니다.
 

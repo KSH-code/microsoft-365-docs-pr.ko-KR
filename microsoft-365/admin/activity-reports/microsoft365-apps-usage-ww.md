@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Microsoft 365 관리 센터의 Microsoft 365 보고서 대시보드를 사용하여 사용 현황용 Microsoft 365 앱을 다운로드하는 방법을 학습합니다.
-ms.openlocfilehash: 88ef5e1291c35bbac050609e26e2ac5adef9d981
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 5b45e7994126018701c409d4fbfc6f1172924773
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579593"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644270"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-apps-usage"></a>관리 센터의 Microsoft 365 보고서 - Microsoft 365 앱 사용 현황
 
@@ -33,7 +33,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 
 
  > [!NOTE]
- > Microsoft 365의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 또는 Exchange, SharePoint 또는 비즈니스용 Skype 관리자인 경우 보고서를 볼 수 있어야 합니다.
+ > Microsoft 365의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 또는 Exchange, SharePoint 또는 비즈니스용 Skype 관리자인 경우 보고서를 볼 수 있어야 합니다. 공유 컴퓨터 활성화는 이 보고서에서 지원되지 않습니다.
 
 ## <a name="how-to-get-to-the-microsoft-365-apps-usage-report"></a>Microsoft 365 앱 사용 현황 보고서에 액세스하는 방법
 
@@ -44,7 +44,8 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 
 사용자 및 플랫폼 차트를 확인하여 사용자의 Microsoft 365  앱 활동을 볼 **수** 있습니다.
 
-![Microsoft 365 앱 사용 현황 보고서](../../media/0bcf67e6-a6e4-4109-a215-369f9f20ad84.png)
+> [!div class="mx-imgBorder"]
+> ![Microsoft 365 앱 사용 현황 보고서](../../media/0bcf67e6-a6e4-4109-a215-369f9f20ad84.png)
 
 |항목|설명|
  |:-----|:-----|

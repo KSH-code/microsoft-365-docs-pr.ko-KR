@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Microsoft Defender for Office 365 E5 및 ATP P1 및 ATP P2 고객은 이제 전자 메일 엔터티 페이지가 있는 각 전자 메일을 360도로 볼 수 있습니다.
-ms.openlocfilehash: 6d2777113e7e9f9ce760dab3b83252eceab520ff
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 7797e9f5965f43b856c2c34df1f99fddf72d5df5
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599490"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650341"
 ---
 # <a name="the-email-entity-page"></a>전자 메일 엔터티 페이지
 
@@ -119,7 +119,7 @@ Office 365(또는 MDO) E5용 Microsoft Defender 및 MDO P1 및 P2의 관리자�
   - 사서함에서 정크 메일 규칙을 사용하도록 설정하면 EOP(Exchange Online Protection)에서 몇 가지 조건에 따라 메시지를 정크로 이동할 수 있습니다. 이 이동은 스팸 필터링 판정 작업 정크 메일 폴더로 메시지 이동 또는 사서함의 수신 차단된 보낸 사람 목록에 기반할 수 있습니다. 정크 메일 규칙을 설정하지 않도록 설정하면 사서함의 수신-보낸 사람  목록에 따라 정크 메일 폴더로 메시지를 배달할 수 없습니다.
   - 사서함에서 정크 메일  규칙을 사용하지 않도록 설정하면 EOP에서 스팸 필터링 판정 동작에 따라 메시지를 정크 메일 폴더로 이동하거나 사서함의 수신 확인 목록 모음으로 메시지를 이동할 수 없습니다. 
 
-- *BCL(대량* 준수 수준) : 메시지의 BCL(대량 불만 수준)입니다. BCL이 높을수록 대량 메일 메시지가 불만을 생성할 가능성이 높음(전자 메일이 스팸일 가능성이 높은 경우의 자연스러운 결과)을 나타냅니다.
+- *BCL(대량* 불만 수준) : 메시지의 BCL(대량 불만 수준)입니다. BCL이 높을수록 대량 메일 메시지가 불만을 생성할 가능성이 높음(전자 메일이 스팸일 가능성이 높은 경우의 자연스러운 결과)을 나타냅니다.
 
 - *SCL(스팸 지수)*: 메시지의 SCL(스팸 지수) 값이 높을수록 메시지가 스팸일 가능성이 더 높습니다.
 

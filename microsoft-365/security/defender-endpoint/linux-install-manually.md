@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 91dda662b12893fb010e8bb46541a87ea4a8cd27
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: c695eb0d786e73da5adb95bbca5c1747243d6203
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587674"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644743"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-linux-manually"></a>Linux용 끝점용 Microsoft Defender 수동 배포
 
@@ -385,7 +385,7 @@ Options:
 
 ## <a name="how-to-migrate-from-insiders-fast-to-production-channel"></a>프로덕션 채널에서 Insiders-Fast 마이그레이션하는 방법
 
-1. macOS용 MDE의 "Insiders-Fast 채널" 버전을 제거합니다.
+1. Linux용 MDE의 "Insiders-Fast 채널" 버전을 제거합니다.
 
     ``
     sudo yum remove mdatp

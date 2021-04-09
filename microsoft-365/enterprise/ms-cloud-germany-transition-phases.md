@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 전환할 때의 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 0cf1358b4170b69d3506062c336a1cf67a2da2de
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: e3ed1d76a755ce6326ac6ae53b990136a10b564a
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51591735"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644719"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
@@ -128,7 +128,7 @@ SharePoint 2013 워크플로를 계속 사용하는 경우 SharePoint Online 마
 
 **다음에 적용됩니다.** Exchange Online을 사용하는 모든 고객
 
-Exchange Online 하이브리드를 사용하는 경우: Exchange Online 하이브리드 관리자는 이 전환의 일부로  **HCW(하이브리드** 구성 마법사)를 여러 번 실행해야 합니다. 마이그레이션 [5단계가](ms-cloud-germany-transition-add-pre-work.md#exchange-online-hybrid-configuration) 시작되기 전에 Exchange 사전 작업 **적용** Exchange Online 하이브리드 고객은 Office 365 전역 서비스로의 마이그레이션을 위해 "Office 365 Germany" 모드에서 최신 버전의 Exchange HCW(하이브리드 구성 마법사)를 실행해야 합니다.
+Exchange Online 하이브리드를 사용하는 경우: Exchange Online 하이브리드 관리자는 이 전환의 일부로  **HCW(하이브리드** 구성 마법사)를 여러 번 실행해야 합니다. 마이그레이션 [5단계가](ms-cloud-germany-transition-add-pre-work.md#exchange-online-hybrid-customers) 시작되기 전에 Exchange 사전 작업 **적용** Exchange Online 하이브리드 고객은 Office 365 전역 서비스로의 마이그레이션을 위해 "Office 365 Germany" 모드에서 최신 버전의 Exchange HCW(하이브리드 구성 마법사)를 실행해야 합니다.
 
 마이그레이션 **단계 9(메시지** 센터 알림이 게시될 때)가 끝나면 Office 365 Worldwide 설정을 사용하여 HCW를 다시 실행하여 Office 365 전역 서비스를 설정해야 합니다.
 
@@ -145,7 +145,7 @@ Exchange Online 하이브리드를 사용하는 경우: Exchange Online 하이�
 ### <a name="exchange-online-powershell"></a>Exchange Online PowerShell
 **다음에 적용됩니다.** Exchange Online PowerShell을 사용하는 Exchange Online 관리자
 
-마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들어 다음과 같은 가치를 제공해야 합니다.
+마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들어 다음과 같습니다.
 
 ```powershell
 New-PSSession 

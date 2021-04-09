@@ -20,12 +20,12 @@ description: 관리자는 Microsoft 365의 위협 방지에 대해 알아보고 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 189325dab37a548c717cd554ecd1d37c19ae57ea
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 2df88df9f1f0e2c14c0adcf0d5772189a1276e9d
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205793"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650233"
 ---
 # <a name="protect-against-threats"></a>위협으로부터 보호
 
@@ -59,8 +59,8 @@ ms.locfileid: "51205793"
 |피싱 방지 보호 기능|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |스팸 방지 보호 기능|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |제로 아워 자동 제거(전자 메일용)|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
-|전자 메일 및 Office 문서의 악의적인 URL 및 파일 보호(안전한 링크 및 안전한 첨부 파일)|[Office 365용 Microsoft Defender](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
-|SharePoint, OneDrive 및 Microsoft Teams 워크로드에 대한 안전한 첨부 파일 켜기|[Office 365용 Defender ](turn-on-mdo-for-spo-odb-and-teams.md)|
+|전자 메일 및 Office 문서의 악의적인 URL 및 파일로부터 보호(안전한 링크 및 안전한 첨부 파일)|[Office 365용 Microsoft Defender](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|SharePoint, OneDrive 및 Microsoft Teams 워크로드에 대한 안전한 첨부 파일 켜기|[Office 365용 Defender](turn-on-mdo-for-spo-odb-and-teams.md)|
 |고급 피싱 방지 보호 기능|[Office 365용 Defender](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>역할 및 사용 권한
@@ -188,7 +188,7 @@ Office 365 정책에 대한 Defender를 구성하려면 보안 및 준수 센터
    - 사용자가 안전한 링크를 **클릭하는** 경우 추적하지 않습니다. 사용자 클릭을 추적하려면 이 설정을 해제합니다. ![ 토글 끄기. ](../../media/scc-toggle-off.png)
    - **사용자가 원래 URL에 대한 안전한** 링크를 클릭할 수 없습니다. 이 설정이 켜져 있는지 확인합니다. ![ 토글합니다. ](../../media/scc-toggle-on.png)
 
-   작업을 마친 후 **저장** 을 클릭합니다.
+   작업을 마쳤으면 **저장** 을 클릭합니다.
 
 2. 기본 안전한 링크 페이지에서 만들기를 **클릭합니다.**
 

@@ -16,17 +16,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: bcb96ea29649bf3525b2ffcf6d5cbb5d299bacf3
-ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
+ms.openlocfilehash: 3ad31e385ed1a3c32a261286b91912c7b2562f87
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51418119"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650293"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
@@ -64,6 +64,11 @@ ms.locfileid: "51418119"
 
 이 기능을 사용하도록 설정하면 라이브 응답 세션에서 부호 없는 스크립트를 실행할 수 있습니다.
 
+## <a name="always-remediate-pua"></a>항상 PUA 재구성
+PUA(잠재적으로 원치 않는 응용 프로그램)는 컴퓨터의 실행 속도가 느려지거나 예기치 않은 광고를 표시하거나, 최악의 경우 예기치 않게 또는 원치 않는 다른 소프트웨어를 설치할 수 있는 소프트웨어 범주입니다. 
+
+장치에 PUA 보호가 구성되어 있지 않은 경우에도 잠재적으로 원치 않는 응용 프로그램(PUA)이 테넌트의 모든 디바이스에서 수정될 수 있도록 이 기능을 켜야 합니다. 이렇게 하면 사용자가 장치에 원치 않는 응용 프로그램을 설치하지 못하도록 보호할 수 있습니다. 끄면 장치 구성에 따라 수정이 달라집니다. 
+
 
 ## <a name="restrict-correlation-to-within-scoped-device-groups"></a>범위가 지정되는 장치 그룹 내에서 상관 관계 제한
 이 설정을 설정하면 경고는 범위가 지정한 장치 그룹에 따라 별도의 인시던트와 상호 관련됩니다. 기본적으로 인시던트 상관 관계는 전체 테넌트 범위에서 발생합니다.
@@ -71,9 +76,9 @@ ms.locfileid: "51418119"
 >[!NOTE]
 >이 설정을 변경하면 향후 경고 상관 관계에만 영향을 미치게 됩니다.
 
-
 ## <a name="enable-edr-in-block-mode"></a>차단 모드에서 EDR 사용
 차단 모드의 끝점 감지 및 응답(EDR)은 Microsoft Defender 바이러스 백신이 수동 모드에서 실행되는 경우에도 악성 아티팩트로부터 보호합니다. 차단 모드의 EDR은 디바이스에서 감지되는 악의적인 아티팩트 또는 동작을 차단합니다. 차단 모드의 EDR은 장면 뒤에서 작동하여 위반 후 감지된 악성 아티팩트를 수정합니다.
+
 
 ## <a name="autoresolve-remediated-alerts"></a>수정된 경고 자동 해결
 
@@ -119,13 +124,13 @@ Windows 10 버전 1809 이상에서 만든 테넌트의 경우 자동화된 분�
 > [!NOTE]
 > 네트워크 보호는 끝점 데이터용 Defender에 대해 선택한 위치 밖에 있을 수 있는 위치에서 요청을 처리하는 신뢰도 서비스를 활용합니다.
 
-
 ## <a name="tamper-protection"></a>변조 방지
 일부 종류의 사이버 공격 중에 악의적인 공격자는 컴퓨터의 바이러스 백신 보호와 같은 보안 기능을 사용하지 않도록 설정하려고 합니다. 악의적인 공격자들은 데이터에 더 쉽게 액세스하거나, 맬웨어를 설치하거나, 데이터, ID 및 장치를 악용하기 위해 보안 기능을 사용하지 않도록 설정하는 것을 좋아합니다.
 
 변조 방지는 기본적으로 Microsoft Defender 바이러스 백신을 잠그고 앱 및 방법을 통해 보안 설정이 변경되지 않도록 합니다.
 
 변조 방지 기능을 설정하여 보안 솔루션 및 해당 필수 기능에 대한 원치 않는 변경을 방지합니다.
+
 
 ## <a name="show-user-details"></a>사용자 세부 정보 표시
 
@@ -137,6 +142,7 @@ Azure Active Directory에 저장된 사용자 세부 정보를 볼 수 있도록
 
 자세한 내용은 사용자 계정 [조사를 참조하세요.](investigate-user.md)
 
+
 ## <a name="skype-for-business-integration"></a>비즈니스용 Skype 통합
 
 비즈니스용 Skype 통합을 사용하도록 설정하면 비즈니스용 Skype, 전자 메일 또는 전화를 사용하여 사용자와 통신할 수 있습니다. 이는 사용자와 통신하고 위험을 완화해야 하는 경우 도움이 될 수 있습니다.
@@ -144,7 +150,7 @@ Azure Active Directory에 저장된 사용자 세부 정보를 볼 수 있도록
 > [!NOTE]
 > 장치가 네트워크에서 격리되는 경우 Outlook 및 Skype 통신을 사용하도록 선택할 수 있는 팝업이 있습니다. 그러면 네트워크에서 연결이 끊어진 동안 사용자에게 통신할 수 있습니다. 이 설정은 장치가 고리 모드에 있는 경우 Skype 및 Outlook 통신에 적용됩니다.
 
-## <a name="azure-advanced-threat-protection-integration"></a>Azure Advanced Threat Protection 통합
+## <a name="microsoft-defender-for-identity-integration"></a>Microsoft Defender for Identity 통합
 
 Azure Advanced Threat Protection과의 통합을 통해 다른 Microsoft ID 보안 제품으로 직접 피벗할 수 있습니다. Azure Advanced Threat Protection은 손상된 계정 및 관련 리소스에 대한 추가 정보를 사용하여 조사를 강화합니다. 이 기능을 사용하도록 설정하면 식별 시점에서 네트워크를 통해 피벗하여 장치 기반 조사 기능을 향상할 수 있습니다.
 
@@ -162,13 +168,12 @@ Azure Advanced Threat Protection과의 통합을 통해 다른 Microsoft ID 보�
 
 Office 365 위협 인텔리전스에서 상황에 맞는 장치 통합을 받으하려면 보안 및 준수 대시보드에서 끝점에 대한 Defender 설정을 & 합니다. 자세한 내용은 위협 조사 및 [응답을 참조하세요.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti)
 
-## <a name="microsoft-threat-experts"></a>Microsoft 위협 전문가
+## <a name="microsoft-threat-experts---targeted-attack-notifications"></a>Microsoft 위협 전문가 - 대상 공격 알림
 
 Microsoft Threat Expert 구성 요소 2개 중 대상 공격 알림은 일반 공급 중입니다. 전문가 요구 시 기능은 여전히 미리 보기 상태입니다. 미리 보기를 신청하고 응용 프로그램이 승인된 경우 전문가 요구 시 기능만 사용할 수 있습니다. Endpoint 포털의 경고 대시보드에 대한 Defender를 통해 Microsoft 위협 전문가로부터 대상 공격 알림을 받을 수 있으며, 구성하는 경우 전자 메일을 통해 받을 수 있습니다.
 
 > [!NOTE]
 > Endpoint용 Defender의 Microsoft Threat Experts 기능은 Enterprise Mobility + Security에 대한 E5 [라이선스로 사용할 수 있습니다.](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
-
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 
 이 설정을 사용하도록 설정하면 끝점용 Defender 신호가 Microsoft Cloud App Security로 전달되어 클라우드 응용 프로그램 사용 현황에 대한 더 깊은 가시성을 제공합니다. 전달된 데이터는 Cloud App Security 데이터와 동일한 위치에 저장 및 처리됩니다.
@@ -176,13 +181,10 @@ Microsoft Threat Expert 구성 요소 2개 중 대상 공격 알림은 일반 �
 > [!NOTE]
 > 이 기능은 Windows 10 버전 1709(OS 빌드 16299.1085 및 [KB4493441](https://support.microsoft.com/help/4493441)), Windows 10을 실행하는 장치에서 [Enterprise Mobility + Security에](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) 대한 E5 라이선스로 사용할 수 있습니다. 버전 1803(OS 빌드 17134.704( [KB4493464),](https://support.microsoft.com/help/4493464)Windows 10, 버전 1809(OS 빌드 17763.379 및 [KB4489899)](https://support.microsoft.com/help/4489899)이상 Windows 10 버전.
 
-## <a name="azure-information-protection"></a>Azure Information Protection
-
-이 설정을 켜면 신호를 Azure Information Protection으로 전달할 수 있습니다. 이 기능을 사용하면 데이터 소유자와 관리자가 온보더된 디바이스의 보호된 데이터와 장치 위험 등급을 쉽게 사용할 수 있습니다.
-
-## <a name="microsoft-secure-score"></a>Microsoft Secure Score
+## <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
 끝점용 Microsoft Defender 신호를 Microsoft 365 보안 센터의 Microsoft 보안 점수로 전달합니다. 이 기능을 켜면 Microsoft 보안 점수가 장치의 보안 상태와 관련한 가시성을 확보할 수 있습니다. 전달된 데이터는 Microsoft 보안 점수 데이터와 동일한 위치에 저장되고 처리됩니다.
+
 
 ### <a name="enable-the-microsoft-defender-for-endpoint-integration-from-the-microsoft-defender-for-identity-portal"></a>Microsoft Defender for Identity 포털에서 끝점에 대한 Microsoft Defender 통합 사용
 
@@ -196,6 +198,17 @@ Id에 대한 Microsoft Defender에서 상황에 맞는 장치 통합을 받으�
 
 두 포털에서 통합 단계를 완료한 후 장치 세부 정보 또는 사용자 세부 정보 페이지에서 관련 알림을 볼 수 있습니다.
 
+## <a name="web-content-filtering"></a>웹 컨텐츠 필터링
+원치 않는 콘텐츠가 포함된 웹 사이트에 대한 액세스를 차단하고 모든 도메인에서 웹 활동을 추적합니다. 차단할 웹 콘텐츠 범주를 지정하려는 경우 웹 콘텐츠 필터링 [정책을 만들어야 합니다.](https://security.microsoft.com/preferences2/web_content_filtering_policy) 끝점용 Microsoft Defender 보안 기준을 배포할 때 네트워크 보호가 차단 [모드로 설정되도록 합니다.](https://devicemanagement.microsoft.com/#blade/Microsoft_Intune_Workflows/SecurityBaselineSummaryMenu/overview/templateType/2)
+
+
+## <a name="share-endpoint-alerts-with-microsoft-compliance-center"></a>Microsoft 준수 센터와 끝점 경고 공유
+끝점 보안 경고 및 해당 평가 상태를 Microsoft 규정 준수 센터에 전달하여 경고를 통해 내부자 위험 관리 정책을 향상하고 내부 위험을 발생시키는 위험을 해결한 후 손상을 일으킬 수 있습니다. 전달된 데이터는 처리되고 Office 365 데이터와 동일한 위치에 저장됩니다.
+
+내부자 위험 [](/microsoft-365/compliance/insider-risk-management-settings#indicators) 관리 설정에서 보안 정책 위반 표시기를 구성한 후 끝점용 Defender 경고는 해당 사용자의 내부자 위험 관리와 공유됩니다.
+
+
+
 ## <a name="microsoft-intune-connection"></a>Microsoft Intune 연결
 
 끝점용 Defender를 [Microsoft Intune과](https://docs.microsoft.com/intune/what-is-intune) 통합하여 장치 위험 기반 조건부 액세스를 사용하도록 [설정할 수 있습니다.](https://docs.microsoft.com/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune) 이 [기능을 켜면](configure-conditional-access.md)끝점 장치 정보에 대한 Defender를 Intune과 공유하여 정책 적용을 강화할 수 있습니다.
@@ -207,6 +220,7 @@ Id에 대한 Microsoft Defender에서 상황에 맞는 장치 통합을 받으�
 
 - Enterprise Mobility + Security E3 및 Windows E5(또는 Microsoft 365 Enterprise E5)에 대한 사용이 허가된 테넌트
 - Intune에서 관리하는 Windows 10 장치 [Azure AD에](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join/)가입된 활성 Microsoft Intune 환경.
+
 
 ### <a name="conditional-access-policy"></a>조건부 액세스 정책
 
@@ -221,11 +235,8 @@ Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 알�
 
 예정된 기능에 액세스할 수 있습니다. 기능은 일반적으로 사용 가능하기 전에 전반적인 환경을 개선하는 데 도움이 되기 위해 피드백을 제공할 수 있습니다.
 
-## <a name="share-endpoint-alerts-with-microsoft-compliance-center"></a>Microsoft 준수 센터와 끝점 경고 공유
 
-끝점 보안 경고 및 해당 평가 상태를 Microsoft 규정 준수 센터에 전달하여 경고를 통해 내부자 위험 관리 정책을 향상하고 내부 위험을 발생시키는 위험을 해결한 후 손상을 일으킬 수 있습니다. 전달된 데이터는 처리되고 Office 365 데이터와 동일한 위치에 저장됩니다.
 
-내부자 위험 [](/microsoft-365/compliance/insider-risk-management-settings#indicators) 관리 설정에서 보안 정책 위반 표시기를 구성한 후 끝점용 Defender 경고는 해당 사용자의 내부자 위험 관리와 공유됩니다.
 
 ## <a name="related-topics"></a>관련 항목
 

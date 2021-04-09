@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 228a8813bcfff052c7f861dcd2962a94cb58c0fb
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: e19c64c01c892a8a5f47f5892882feab1242f897
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165972"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644491"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>끝점 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -94,6 +94,9 @@ Microsoft Azure Government 데이터 센터에 배포된 서비스에 대한 데
 
 **계약 종료 또는 만료 시**<br>
 라이선스가 유예 기간 또는 일시 중단 모드에 있는 동안에는 데이터가 보관된 후 사용할 수 있습니다. 이 기간이 끝나면 계약 종료 또는 만료일로부터 180일이 지워지기 전까지 해당 데이터가 Microsoft 시스템에서 지워지기 때문에 데이터를 읽을 수 없습니다.
+
+**고급 헌팅 데이터**<br>
+고급 헌팅은 최대 30일간의 원시 데이터를 탐색할 수 있는 쿼리 기반의 위협 헌팅 도구입니다.
 
 
 ## <a name="can-microsoft-help-us-maintain-regulatory-compliance"></a>Microsoft가 규정 준수를 유지 관리하는 데 도움을 줄 수 있나요?

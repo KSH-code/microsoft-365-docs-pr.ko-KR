@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365에서 위협 방지 기능을 구성하는 단계
 description: 이 문서를 위협 방지 솔루션을 구현하기 위한 가이드로 사용하세요. Microsoft 365 E5에 위협 방지 서비스 및 기능을 배포합니다.
-keywords: 보안, 설정, 구성, Microsoft 365 E5, 고급 위협 방지
+keywords: 보안 솔루션, 설정, 구성, Microsoft 365 E5, 고급 위협 방지, defender
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 81a1a4ce2e99caaca1025c6ddbbdfdc7ab7c449d
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: a0c728e5f273752792f851c72df2dfe243116221
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615510"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650221"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 방지 기능 구성
 

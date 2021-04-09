@@ -17,19 +17,19 @@ ms.custom: asr
 ms.technology: mde
 ms.date: 03/08/2021
 ms.topic: how-to
-ms.openlocfilehash: be98bf810d00b6e39ba9d2674604a9fd2128a8cc
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 2ef3fbeec65be512dfe07f1d533df4d8e9b31532
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198659"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644503"
 ---
 # <a name="protect-your-network"></a>네트워크 보호
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -90,6 +90,16 @@ Windows 이벤트 로그를 검토하여 네트워크 보호가 악성 IP 또는
 | 5007 | 설정이 변경될 때의 이벤트 |
 | 1125 | 감사 모드에서 네트워크 보호가 발생 하는 경우 이벤트 |
 | 1126 | 차단 모드에서 네트워크 보호가 발생하면 이벤트 |
+
+## <a name="network-protection-troubleshooting"></a>네트워크 보호 문제 해결
+
+네트워크 보호가 실행되는 환경으로 인해 Microsoft는 운영 체제 프록시 설정을 검색하지 못할 수 있습니다. 경우에 따라 네트워크 보호 클라이언트가 클라우드 서비스에 연결하지 못할 수 있습니다. 연결 문제를 해결하려면 E5 라이선스가 있는 고객은 다음 Defender 레지스트리 키 중 하나를 구성해야 합니다.
+
+```console
+reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP address: Port>" /f
+reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC url>" /f
+
+```
 
 ## <a name="related-articles"></a>관련 문서
 

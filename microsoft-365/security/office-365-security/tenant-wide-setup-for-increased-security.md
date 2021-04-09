@@ -20,12 +20,12 @@ ms.custom:
 description: 이 항목에서는 Microsoft 365 환경의 보안에 영향을 주는 테넌트 전체 설정에 대한 권장 구성을 진행합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 64715b026c3dcb029bea4d75697bf687559c168c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: efcc468dc9b6a41af79ecf2f22a6ad58a410e08f
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206426"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650329"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>보안 강화를 위해 Microsoft 365 테넌트 구성
 
@@ -53,7 +53,7 @@ Microsoft 365 보안 센터에는 환경을 보호하는 기능이 포함되어 
 |**피싱 방지**|예|사용자 지정 도메인이 있는 경우 CEO와 같은 가장 중요한 사용자의 전자 메일 계정을 보호하고 도메인을 보호하도록 기본 피싱 방지 정책을 구성합니다. <p> [Office 365에서](set-up-anti-phishing-policies.md) 피싱 방지 정책을 검토하고 [EOP에서](configure-anti-phishing-policies-eop.md) 피싱 방지 정책 구성 또는 [Office 365용 Microsoft Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책 구성을 참조합니다.|
 |**맬웨어 방지 엔진**|예| 기본 정책을 편집합니다. <ul><li>일반 첨부 파일 형식 필터: 을 선택합니다.</li></ul> <p> 사용자 지정 맬웨어 필터 정책을 만들어 조직의 지정된 사용자, 그룹 또는 도메인에 적용할 수도 있습니다. <p> 추가 정보: <ul><li>[맬웨어 방지 보호 기능](anti-malware-protection.md)</li><li>[맬웨어 방지 정책 구성](configure-anti-malware-policies.md)</li></ul>|
 |**Office 365용 Microsoft Defender의 안전한 첨부 파일**|아니요|안전한 첨부 파일에 대한 기본 페이지에서 전역 설정을 클릭하고 **이** 설정을 켜십시오. <ul><li>**SharePoint, OneDrive 및 Microsoft Teams에 대해 Office 365용 Defender 켜기**</li></ul> <p> 다음 설정을 사용하여 안전한 첨부 파일 정책을 만들 수 있습니다. <ul><li> **차단:** 알 **수 없는 맬웨어** 응답으로 차단을 선택합니다.</li><li>**리디렉션 사용:** 이 확인란을 확인하고 관리자 또는 계정과 같은 전자 메일 주소를 입력합니다.</li><li>**첨부 파일에 대한 맬웨어** 검색이 시간 외 또는 오류가 발생하는 경우 위의 선택을 적용합니다. 이 확인란을 선택합니다.</li><li>**_적용 대상:_* **받는 사람 도메인이 도메인을** \> 선택합니다.</li></ul> <p> 추가 정보: [SharePoint, OneDrive 및 Microsoft Teams의](mdo-for-spo-odb-and-teams.md) 안전한 첨부 파일 및 안전한 첨부 파일 [정책 설정](set-up-safe-attachments-policies.md)|
-|**Office 365용 Microsoft Defender의 안전한 링크**|예|안전한 링크의 기본 페이지에서 전역 설정을 **클릭합니다.** <ul><li>**안전한 링크 사용: Office 365 응용 프로그램:** 이 설정이 켜져 있는지 확인</li><li>**사용자가 안전한 링크를 클릭하는** 경우 추적하지 않습니다. 사용자 클릭을 추적하려면 이 설정을 끄면 됩니다.</li></ul> <p> 다음 설정을 사용하여 안전한 링크 정책을 만들 수 있습니다. <ul><li>**메시지에서 알 수 없는 악의적인 URL에** 대한 작업 선택: 이 설정 **으로** 확인</li><li>**Microsoft Teams 내에서** 알 수 없는 URL 또는 잠재적으로 악의적인 URL에 대한 작업을 선택합니다. 이 설정이 으로 설정 않았는지 **확인**</li><li>**파일을 지정하는** 의심스러운 링크 및 링크에 대한 실시간 URL 검사를 적용합니다. 이 확인란을 선택합니다.</li><li>**메시지를 배달하기** 전에 URL 검색이 완료될 때까지 기다렸다가 : 이 확인란을 선택합니다.</li><li>**조직 내에서 전송된 전자 메일 메시지에** 안전한 링크 적용: 이 확인란을 선택합니다.</li><li>**사용자가 원래 URL을 클릭할** 수 있도록 허용 안 함: 이 확인란을 선택합니다.</li><li>**적용 대상:** **받는 사람 도메인이 도메인을** \> 선택합니다.</li></ul> <p> 추가 정보: [안전한 링크 정책 설정](set-up-safe-links-policies.md).|
+|**Office 365용 Microsoft Defender의 안전한 링크**|예|안전한 링크의 기본 페이지에서 전역 설정을 **클릭합니다.** <ul><li>**안전한 링크 사용: Office 365 응용 프로그램:** 이 설정이 켜져 있는지 확인</li><li>**사용자가 안전한 링크를 클릭하는** 경우 추적하지 않습니다. 사용자 클릭을 추적하려면 이 설정을 끄면 됩니다.</li></ul> <p> 다음 설정을 사용하여 안전한 링크 정책을 만들 수 있습니다. <ul><li>**메시지에서 알 수 없는 악의적인 URL에** 대한 작업 선택: 이 설정 **으로** 확인</li><li>**Microsoft Teams 내에서** 알 수 없는 URL 또는 잠재적으로 악의적인 URL에 대한 작업을 선택합니다. 이 설정이 으로 설정 않았는지 **확인**</li><li>**파일을 지정하는** 의심스러운 링크 및 링크에 대한 실시간 URL 검사를 적용합니다. 이 확인란을 선택합니다.</li><li>**메시지를 배달하기** 전에 URL 검색이 완료될 때까지 기다렸다가 : 이 확인란을 선택합니다.</li><li>**조직 내에서 전송된 전자 메일** 메시지에 안전한 링크 적용: 이 확인란을 선택합니다.</li><li>**사용자가 원래 URL을 클릭할** 수 있도록 허용 안 함: 이 확인란을 선택합니다.</li><li>**적용 대상:** **받는 사람 도메인이 도메인을** \> 선택합니다.</li></ul> <p> 추가 정보: [안전한 링크 정책 설정](set-up-safe-links-policies.md).|
 |**스팸 방지(메일 필터링)**|예| 감시할 사항: <ul><li>스팸이 너무 많기 - 사용자 지정 설정을 선택하고 기본 스팸 필터 정책을 편집합니다.</li><li>스푸핑 인텔리전스 - 도메인을 스푸핑하는 보낸 사람 검토 이러한 보낸 사람 차단 또는 허용</li></ul> <p> 추가 정보: [Microsoft 365 전자 메일](anti-spam-protection.md)스팸 방지 보호 .|
 |***전자 메일 인증***|예|전자 메일 인증은 DNS(Domain Name System)를 사용하여 전자 메일을 보낸 사람에 대한 확인 가능한 정보를 전자 메일 메시지에 추가합니다. Microsoft 365는 기본 도메인(onmicrosoft.com)에 대해 전자 메일 인증을 설정하지만 Microsoft 365 관리자는 사용자 지정 도메인에 대해 전자 메일 인증을 사용할 수도 있습니다. 세 가지 인증 방법이 사용됩니다. <ul><li>보낸 사람 정책 프레임워크(또는 SPF)</li><ul><li>설치에 대한 자세한 내용은 [스푸핑을 방지하기 위해 Microsoft 365에서 SPF 설정을 참조합니다.](set-up-spf-in-office-365-to-help-prevent-spoofing.md)</li></ul> <li>DomainKeys 식별 메일(DKIM)</li><ul><li>DKIM을 사용하여 사용자 지정 도메인에서 보낸 [아웃바운드 전자 메일의 유효성 검사를 참조하세요.](use-dkim-to-validate-outbound-email.md)</li><li>DKIM을 구성한 후 보안 센터에서 사용하도록 설정합니다.</li></ul><li>도메인 기반 메시지 인증, 보고 및 적합성(DMARC)</li><ul><li>DMARC 설치의 경우 [DMARC를 사용하여 Microsoft 365에서 전자 메일의 유효성을 검사합니다.](use-dmarc-to-validate-email.md)</li></ul></ul>|
 |

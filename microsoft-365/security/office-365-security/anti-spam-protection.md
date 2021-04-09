@@ -21,12 +21,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)에서 스팸을 방지하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5f19330d7af9c4a6601baa9562766eb5a6e7052a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: eaff771d6fa0490819ec076b5a9a43ac843cf207
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206866"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650269"
 ---
 # <a name="anti-spam-protection-in-eop"></a>EOP의 스팸 방지 보호 기능
 
@@ -91,7 +91,7 @@ EOP의 스팸 방지 설정은 다음 기술로 구성됩니다.
 
   - **DMARC:** 도메인 기반 메시지 인증, 보고 및 적합성은 대상 전자 메일 시스템에서 SPF 또는 DKIM 확인에 실패한 메시지에 대해 할 작업을 결정하고 전자 메일 파트너에게 다른 수준의 신뢰를 제공합니다. 자세한 내용은 [DMARC를 사용하여 Microsoft 365에서](use-dmarc-to-validate-email.md)전자 메일 유효성 검사를 참조하세요.
 
-- **대량 전자** 메일 설정 확인: 스팸 방지 정책에서 구성하는 BCL(대량 규격 수준) 임계값에 따라 대량 전자 메일(회색 메일)이 스팸으로 표시되어 있는지 여부가 결정됩니다.  기본적으로 설정되어 있는 _MarkAsSpamBulkMail의_ PowerShell 전용 설정도 결과에 영향을 미치게 됩니다. 자세한 내용은 [Microsoft 365에서 스팸 방지 정책 구성을 참조하세요.](configure-your-spam-filter-policies.md)
+- **대량 전자** 메일 설정 확인: 스팸 방지 정책에서 구성하는 BCL(대량 불만 수준) 임계값에 따라 대량 전자 메일(회색 메일)이 스팸으로 표시되어 있는지 여부가 결정됩니다.  기본적으로 설정되어 있는 _MarkAsSpamBulkMail의_ PowerShell 전용 설정도 결과에 영향을 미치게 됩니다. 자세한 내용은 [Microsoft 365에서 스팸 방지 정책 구성을 참조하세요.](configure-your-spam-filter-policies.md)
 
 ### <a name="prevent-the-delivery-of-spam-to-the-inbox"></a>받은 편지함으로 스팸 배달 방지
 

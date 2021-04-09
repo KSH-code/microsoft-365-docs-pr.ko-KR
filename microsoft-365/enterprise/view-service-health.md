@@ -26,12 +26,12 @@ search.appverid:
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: 지원 서비스에 문의하기 전에 Microsoft 365 서비스의 상태를 확인하여 활성 서비스 중단이 있는지 확인할 수 있습니다.
-ms.openlocfilehash: 30b677a80e5a08d75534a91aa04d735443660f18
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: e0ab4eaa1f7a96168839a4abef2f0f254a21d0ad
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215483"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644635"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>Microsoft 365 서비스 상태 확인 방법
 
@@ -47,7 +47,7 @@ ms.locfileid: "51215483"
 1. 의 Microsoft 365 관리 센터로 이동하고 관리자 [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339) 계정으로 로그인합니다.
 
     > [!NOTE]
-    > 전역 관리자 또는 서비스 관리자 역할이 할당된 사용자는 서비스 상태를 볼 수 있습니다. Exchange, SharePoint 및 비즈니스용 Skype 관리자가 서비스 상태를 볼 수 있도록 하려면 이러한 관리자에게도 서비스 관리자 역할을 할당해야 합니다. 서비스 상태 볼 수 있는 역할에 대한 자세한 내용은 관리자 역할 [정보를 참조하세요.](../admin/add-users/about-admin-roles.md?preserve-view=true&view=o365-worldwide#commonly-used-microsoft-365-admin-center-roles)
+    > 전역 관리자 또는 서비스 지원 관리자 역할이 할당된 사용자는 서비스 상태 볼 수 있습니다. Exchange, SharePoint 및 비즈니스용 Skype 관리자가 서비스 상태를 볼 수 있도록 하려면 이러한 관리자에게도 서비스 관리자 역할을 할당해야 합니다. 서비스 상태 볼 수 있는 역할에 대한 자세한 내용은 관리자 역할 [정보를 참조하세요.](../admin/add-users/about-admin-roles.md?preserve-view=true&view=o365-worldwide#commonly-used-microsoft-365-admin-center-roles)
   
 2. 새 관리 센터를 사용하지 않는 경우  홈 페이지에서  오른쪽 위에 있는 새 관리 센터 시도 토글을 선택합니다.
 

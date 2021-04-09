@@ -18,12 +18,12 @@ description: 365에서 부적격 동의 권한 부여 공격을 인식하고 수
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4a9b3ff11acb32a4b3038cc18922f8e22fda0b4c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 7869419677ba1d5d6b480b7f0dea7f67880af0c7
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205944"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644683"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>위조 동의 권한 부여 감지 및 수정
 
@@ -86,7 +86,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 [Azure Active Directory 포털](https://portal.azure.com/)를 사용하여 개별 사용자에게 사용 권한을 부여한 응용 프로그램을 찾을 수 있습니다.
 
-1. 관리 권한으로 Azure Portal에 로그인합니다.
+1. 관리자 권한으로 Azure Portal에 로그인합니다.
 
 2. Azure Active Directory 블레이드를 선택합니다.
 
@@ -128,7 +128,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 5. 이 PowerShell 명령을 실행합니다.
 
    ```powershell
-   Get-AzureADPSPermissions.ps1 | Export-csv -Path "Permissions.csv" -NoTypeInformation
+   .\Get-AzureADPSPermissions.ps1 | Export-csv -Path "Permissions.csv" -NoTypeInformation
    ```
 
 스크립트가 Permissions.csv라는 파일 하나를 생성합니다. 다음 단계를 수행하여 불법 응용 프로그램 권한 부여를 찾습니다.

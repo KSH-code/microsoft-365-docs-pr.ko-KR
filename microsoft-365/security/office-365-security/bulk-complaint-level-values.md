@@ -14,15 +14,15 @@ search.appverid:
 ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
-description: 관리자는 EOP(Exchange Online Protection)에서 사용되는 BCL(대량 준수 수준) 값에 대해 배울 수 있습니다.
+description: 관리자는 EOP(Exchange Online Protection)에서 사용되는 BCL(대량 불만 수준) 값에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3d85dca6e18ebdad4d8f2a5c5f6c5b613c23b47d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 08924a7db0a5c4588ed70bc41e4caf46afb35b53
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205082"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650257"
 ---
 # <a name="bulk-complaint-level-bcl-in-eop"></a>EOP의 BCL(대량 불만 수준)
 
@@ -33,7 +33,7 @@ ms.locfileid: "51205082"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 EOP는 대량 메일러의 인바운드 메시지에 BCL(대량 호환 수준)을 할당합니다. BCL은 X-헤더의 메시지에 추가된 후 메시지를 스팸으로 식별하는 데 사용되는 [SCL(스팸](spam-confidence-levels.md) 지수)과 유사합니다. BCL이 높을수록 대량 메시지가 불만을 생성할 가능성이 높기 때문에 스팸일 가능성이 더 높을 수 있습니다. Microsoft는 내부 및 타사 소스를 모두 사용하여 대량 메일을 식별하고 적절한 BCL을 파악합니다.
+Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 EOP는 대량 메일러의 인바운드 메시지에 BCL(대량 불만 수준)을 할당합니다. BCL은 X-헤더의 메시지에 추가된 후 메시지를 스팸으로 식별하는 데 사용되는 [SCL(스팸](spam-confidence-levels.md) 지수)과 유사합니다. BCL이 높을수록 대량 메시지가 불만을 생성할 가능성이 높기 때문에 스팸일 가능성이 더 높을 수 있습니다. Microsoft는 내부 및 타사 소스를 모두 사용하여 대량 메일을 식별하고 적절한 BCL을 파악합니다.
 
 대량 메일은 보내는 패턴, 콘텐츠 생성 및 받는 사람 취득 관행에 따라 다릅니다. 양호한 대량 메일러는 구독자에게 관련 콘텐츠가 있는 원하는 메시지를 전송합니다. 이러한 메시지는 받는 사람으로부터 몇 가지 불만을 생성합니다. 다른 대량 메일러는 스팸과 매우 많고 받는 사람으로부터 많은 불만을 생성하는 원치 않는 메시지를 보냅니다. 대량 메일러의 메시지는 대량 메일 또는 회색 메일로 알려져 있습니다.
 
