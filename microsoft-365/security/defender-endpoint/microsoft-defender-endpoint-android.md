@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 32c42691b3a2b43f9740da26084bf45af0ee80f5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 8311cb703bc5232e1421d19892fec9cdbc94b052
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687784"
+ms.locfileid: "51698199"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Android의 끝점용 Microsoft Defender
 
@@ -36,10 +36,10 @@ ms.locfileid: "51687784"
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-이 항목에서는 Android용 끝점용 Defender를 설치, 구성, 업데이트 및 사용하는 방법을 설명합니다.
+이 항목에서는 Android에서 끝점용 Defender를 설치, 구성, 업데이트 및 사용하는 방법을 설명합니다.
 
 > [!CAUTION]
-> Android용 Endpoint용 Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 시스템 오류가 발생할 수 있습니다.
+> Android에서 Endpoint용 Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 시스템 오류가 발생할 수 있습니다.
 
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-android"></a>Android에 끝점용 Microsoft Defender를 설치하는 방법

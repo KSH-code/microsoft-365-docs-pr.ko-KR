@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 18bde560543fd1344a64cf1edd64f02f12831c25
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 8dfaf1dbf2c3742cc97060c7f9e811c83d0cb023
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689104"
+ms.locfileid: "51698223"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender의 성능 문제 해결
 
@@ -149,7 +149,7 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
         125  CrashPlanService 164
       ```
 
-      Mac용 끝점용 Defender의 성능을 개선하려면 검색된 총 파일 행에서 가장 높은 수의 끝점을 찾고 제외를 추가합니다. 자세한 내용은 [Linux용 끝점용 Defender에](linux-exclusions.md)대한 제외 구성 및 유효성 검사를 참조하세요.
+      Mac에서 끝점용 Defender의 성능을 향상하려면 검색된 총 파일 행에서 가장 높은 수의 끝점을 찾고 제외를 추가합니다. 자세한 내용은 [Linux에서 끝점용 Defender에](linux-exclusions.md)대한 제외 구성 및 유효성 검사를 참조하세요.
 
       > [!NOTE]
       > 응용 프로그램은 통계를 메모리에 저장하고 시작된 후 실시간 보호를 사용하도록 설정한 이후에만 파일 활동을 추적합니다. 실시간 보호가 해제된 이전 또는 기간 동안 시작된 프로세스는 계산되지 않습니다. 또한 검사가 트리거된 이벤트만 계산됩니다.

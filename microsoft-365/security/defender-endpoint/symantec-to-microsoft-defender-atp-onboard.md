@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 1d332f6b0d6338d18c5a85dcf737f968f00f275f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b42a33d975e1368ad25d4a7102ef44bf8b9824a8
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689524"
+ms.locfileid: "51698283"
 ---
 # <a name="migrate-from-symantec---phase-3-onboard-to-microsoft-defender-for-endpoint"></a>Symantec에서 마이그레이션 - 3단계: 끝점용 Microsoft Defender로 온보딩
 
@@ -89,7 +89,7 @@ ms.locfileid: "51689524"
    - [Symantec Endpoint Protection 제거](https://knowledge.broadcom.com/external/article/156148/uninstall-symantec-endpoint-protection.html)
    - Windows 장치: [Windows에서 Endpoint Protection 14 클라이언트 수동 제거](https://knowledge.broadcom.com/external/article?articleId=170040)
    - macOS 컴퓨터: [RemoveSymantecMacFiles를 사용하여 Mac용 Symantec 소프트웨어 제거](https://knowledge.broadcom.com/external/article?articleId=151387)
-   - Linux 장치: [Linux용 Endpoint Protection에 대한 질문과 대답](https://knowledge.broadcom.com/external/article?articleId=162054)
+   - Linux 장치: [Linux의 끝점 보호에 대한 질문과 대답](https://knowledge.broadcom.com/external/article?articleId=162054)
 
 ## <a name="make-sure-microsoft-defender-for-endpoint-is-in-active-mode"></a>끝점용 Microsoft Defender가 활성 모드에 있는지 확인
 

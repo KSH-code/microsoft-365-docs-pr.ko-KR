@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6bf9691f390173ec86dcadd19707c980aa66336f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 1f20a81f5205c5734387214822fa87ac5cf9a09c
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687772"
+ms.locfileid: "51698211"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Microsoft Defender
 
@@ -39,7 +39,7 @@ ms.locfileid: "51687772"
 **iOS의 끝점용 Microsoft Defender는** 웹 사이트, 전자 메일 및 앱의 피싱 및 안전하지 않은 네트워크 연결로부터 보호합니다. 모든 경고는 Microsoft Defender 보안 센터의 단일 창을 통해 사용할 수 있습니다. 이 포털은 보안 팀에서 다른 플랫폼과 함께 iOS 장치에 대한 위협을 중앙 집중식으로 볼 수 있습니다.
 
 > [!CAUTION]
-> iOS용 Endpoint용 Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 시스템 오류가 발생할 수 있습니다.
+> iOS에서 Endpoint용 Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 시스템 오류가 발생할 수 있습니다.
 
 ## <a name="pre-requisites"></a>필수 구성 요소
 
@@ -58,7 +58,7 @@ ms.locfileid: "51687772"
 - Microsoft Defender 보안 센터 포털에 액세스합니다.
 
     > [!NOTE]
-    > Microsoft Intune은 iOS에서 끝점용 Microsoft Defender를 배포하는 데 지원되는 유일한 MDM(모바일 장치 관리) 솔루션입니다. 현재 등록된 장치만 Intune에서 iOS 관련 장치 준수 정책에 대한 끝점용 Defender를 적용하는 데 지원됩니다.
+    > Microsoft Intune은 iOS에서 끝점용 Microsoft Defender를 배포하는 데 지원되는 유일한 MDM(모바일 장치 관리) 솔루션입니다. 현재 등록된 장치만 Intune에서 iOS 관련 장치 준수 정책에 끝점용 Defender를 적용하는 데 지원됩니다.
 
 - Microsoft [Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431)관리 센터에 액세스하여 조직의 등록된 사용자 그룹에 앱을 배포합니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "51687772"
 - [장치가 Intune 회사 포털 앱에 등록됩니다.](https://apps.apple.com/us/app/intune-company-portal/id719171358)
 
 > [!NOTE]
-> **이제 Apple App Store에서 iOS용 Microsoft Defender ATP(Microsoft Defender for [Endpoint)를 사용할 수 있습니다.](https://aka.ms/mdatpiosappstore)**
+> **iOS의 Microsoft Defender ATP(Microsoft Defender for Endpoint)는 [이제 Apple App Store에서 사용할 수 있습니다.](https://aka.ms/mdatpiosappstore)**
 
 ## <a name="installation-instructions"></a>설치 지침
 

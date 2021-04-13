@@ -11,24 +11,24 @@ localization_priority: Normal
 audience: ITPro
 author: denisebmsft
 ms.author: deniseb
-ms.reviewer: sugamar, jcedola
+ms.reviewer: oogunrinde, sugamar, jcedola
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: d88da04e91875e24b13478b17d6a1e3862e1062e
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8790d959dc41e3edea684c66e556a2ec67f85ae1
+ms.sourcegitcommit: 0fe5989b7ee2f7ae0181f2781e31db7f58689441
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197664"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697530"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -80,7 +80,7 @@ Microsoft Defender 바이러스 백신은 활성 모드에서 실시간 보호�
 
 ### <a name="cases-where-warn-mode-is-not-supported"></a>경고 모드가 지원되지 않는 경우
 
-다음 공격 표면 감소 규칙에 대해 경고 모드가 지원되지 않습니다.
+경고 모드는 Microsoft 끝점 관리자에서 구성할 때 세 가지 공격 표면 감소 규칙에 대해 지원되지 않습니다. (그룹 정책을 사용하여 공격 표면 축소 규칙을 구성하는 경우 경고 모드가 지원됩니다.) Microsoft Endpoint Manager에서 경고 모드를 구성할 때 경고 모드를 지원하지 않는 세 가지 규칙은 다음과 같습니다.
 
 - [JavaScript 또는 VBScript에서 다운로드한](#block-javascript-or-vbscript-from-launching-downloaded-executable-content) 실행 콘텐츠(GUID)를 시작하지 차단 `d3e037e1-3eb8-44c8-a917-57927947596d`
 - [WMI 이벤트 구독(GUID)을 통한](#block-persistence-through-wmi-event-subscription) 지속성 `e6db77e5-3df2-4cf1-b95a-636979351e5b` 차단

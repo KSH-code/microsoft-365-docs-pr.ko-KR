@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3ad31e385ed1a3c32a261286b91912c7b2562f87
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: c5e6edb40254ab905ef5ef3ddef9bf8bf54fc54b
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650293"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51698271"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
@@ -228,6 +228,10 @@ Intune 통합을 사용하도록 설정하면 Intune에서 클래식 CA(조건�
 
 > [!NOTE]
 > Intune에서 만든 클래식 CA 정책은 [](https://docs.microsoft.com/azure/active-directory/conditional-access/overview/)끝점을 구성하는 데 사용되는 최신 조건부 액세스 정책과는 별개입니다.
+
+
+## <a name="device-discovery"></a>장치 검색
+추가 어플라이언스 또는 번거로운 프로세스 변경 없이도 회사 네트워크에 연결된 관리되지 않는 장치를 찾을 수 있습니다. 온보드 장치를 사용하여 네트워크에서 관리되지 않는 장치를 찾고 취약성 및 위험을 평가할 수 있습니다. 자세한 내용은 장치 [검색을 참조하세요.](device-discovery.md)
 
 ## <a name="preview-features"></a>미리 보기 기능
 
