@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 37d31fe93a849871e7da92fff521b6a75beac531
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 71ebe48fdbb8f9995ef2f3429cb8a824ed76f244
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187640"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689644"
 ---
-# <a name="resources-for-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender 리소스
+# <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 리소스
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -80,7 +80,7 @@ ms.locfileid: "51187640"
 
 ## <a name="uninstalling"></a>Uninstalling
 
-Mac용 끝점용 Microsoft Defender를 제거하는 방법에는 여러 가지가 있습니다. JAMF에서는 중앙에서 관리되는 제거를 사용할 수 있는 반면 Microsoft Intune에서는 아직 사용할 수 없습니다.
+macOS에서 끝점용 Microsoft Defender를 제거하는 방법에는 여러 가지가 있습니다. JAMF에서는 중앙에서 관리되는 제거를 사용할 수 있는 반면 Microsoft Intune에서는 아직 사용할 수 없습니다.
 
 ### <a name="interactive-uninstallation"></a>대화형 제거
 
@@ -143,7 +143,7 @@ zsh에서 자동completion을 사용하도록 설정하려면
    echo "autoload -Uz compinit && compinit" >> ~/.zshrc
    ```
 
-- 다음 명령을 실행하여 Mac용 끝점용 Microsoft Defender에 대해 자동Completion을 사용하도록 설정하고 터미널 세션을 다시 시작합니다.
+- MacOS의 끝점용 Microsoft Defender에 대해 자동Completion을 사용하도록 설정하려면 다음 명령을 실행하고 터미널 세션을 다시 시작합니다.
 
    ```zsh
    sudo mkdir -p /usr/local/share/zsh/site-functions

@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d1d4aa871438e10aed86ddd436757072fb6b5cc4
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 93715f761beded95cfaa91b4747a2e4b5a3c61c1
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587506"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689680"
 ---
-# <a name="privacy-for-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender에 대한 개인 정보
+# <a name="privacy-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender 개인 정보
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,13 +35,13 @@ ms.locfileid: "51587506"
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
-Microsoft는 Mac용 끝점용 Microsoft Defender를 사용할 때 데이터를 수집하고 사용하는 방법에 대해 선택해야 하는 정보와 컨트롤을 사용자에게 제공하기 위해 최선을 다하고 있습니다.
+Microsoft는 macOS에서 끝점용 Microsoft Defender를 사용할 때 데이터를 수집하고 사용하는 방법에 대해 선택해야 하는 정보와 컨트롤을 사용자에게 제공하기 위해 최선을 다하고 있습니다.
 
 이 항목에서는 제품 내에서 사용할 수 있는 개인 정보 컨트롤, 정책 설정으로 이러한 컨트롤을 관리하는 방법 및 수집된 데이터 이벤트에 대한 세부 정보를 제공합니다.
 
-## <a name="overview-of-privacy-controls-in-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender의 개인 정보 컨트롤 개요
+## <a name="overview-of-privacy-controls-in-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점에 대한 Microsoft Defender의 개인 정보 컨트롤 개요
 
-이 섹션에서는 Mac용 끝점용 Microsoft Defender에서 수집한 다양한 유형의 데이터에 대한 개인 정보 컨트롤에 대해 설명합니다.
+이 섹션에서는 macOS의 끝점용 Microsoft Defender에서 수집한 다양한 유형의 데이터에 대한 개인 정보 컨트롤에 대해 설명합니다.
 
 ### <a name="diagnostic-data"></a>진단 데이터
 
@@ -73,7 +73,7 @@ Microsoft는 Mac용 끝점용 Microsoft Defender를 사용할 때 데이터를 �
 
 IT 관리자인 경우 엔터프라이즈 수준에서 이러한 컨트롤을 구성할 수 있습니다. 
 
-이전 섹션에서 설명한 다양한 유형의 데이터에 대한 개인 정보 컨트롤은 [Mac용 끝점용 Microsoft Defender에](mac-preferences.md)대한 기본 설정 설정에 자세히 설명되어 있습니다.
+이전 섹션에서 설명한 다양한 유형의 데이터에 대한 개인 정보 컨트롤은 [MacOS의 끝점용 Microsoft Defender에](mac-preferences.md)대한 기본 설정 설정에 자세히 설명되어 있습니다.
 
 새 정책 설정과 함께, 조직에서 정책 설정을 보다 광범위하게 구현하기 전에 구성한 설정이 원하는 영향을 미치도록 제한되고 제어되는 환경에서 신중하게 테스트해야 합니다.
 
@@ -94,7 +94,7 @@ IT 관리자인 경우 엔터프라이즈 수준에서 이러한 컨트롤을 �
 | org_id                  | 장치가 속한 엔터프라이즈와 연결된 고유 식별자입니다. Microsoft에서 문제가 선택한 엔터프라이즈 집합에 영향을 미치는지 여부와 영향을 미치는 엔터프라이즈 수를 식별할 수 있도록 합니다. |
 | hostname                | 로컬 장치 이름(DNS 접미사 불포기). Microsoft에서 문제가 선택된 설치 집합에 영향을 미치는지 여부와 영향을 미치는 사용자 수를 식별할 수 있도록 합니다. |
 | product_guid            | 제품의 고유 식별자입니다. Microsoft에서 제품의 다양한 특징에 영향을 미치는 문제를 차별화할 수 있습니다. |
-| app_version             | Mac용 끝점용 Microsoft Defender 응용 프로그램의 버전입니다. Microsoft에서 문제를 표시하는 제품 버전을 식별하여 제품의 우선 순위를 올바르게 지정할 수 있도록 허용합니다.|
+| app_version             | macOS 응용 프로그램의 끝점용 Microsoft Defender 버전입니다. Microsoft에서 문제를 표시하는 제품 버전을 식별하여 제품의 우선 순위를 올바르게 지정할 수 있도록 허용합니다.|
 | sig_version             | 보안 인텔리전스 데이터베이스의 버전입니다. Microsoft에서 문제를 표시하는 보안 인텔리전스 버전을 식별하여 우선 순위를 올바르게 지정할 수 있도록 할 수 있습니다. |
 | supported_compressions  | 응용 프로그램에서 지원하는 압축 알고리즘 목록(예: `['gzip']` ). Microsoft에서 응용 프로그램과 통신할 때 사용할 수 있는 압축 유형을 이해할 수 있습니다. |
 | release_ring            | 디바이스가 연결된 링(예: Insider Fast, Insider Slow, Production)입니다. Microsoft에서 문제의 우선 순위를 올바르게 지정할 수 있도록 문제가 발생될 수 있는 릴리스 링을 식별할 수 있습니다. |
@@ -174,7 +174,7 @@ IT 관리자인 경우 엔터프라이즈 수준에서 이러한 컨트롤을 �
 
 | 필드            | 설명 |
 | ---------------- | ----------- |
-| 버전          | Mac용 끝점용 Microsoft Defender 버전입니다. |
+| 버전          | macOS의 끝점용 Microsoft Defender 버전입니다. |
 | instance_id      | 커널 확장 시작 시 생성된 고유 식별자입니다. |
 | trace_level      | 커널 확장의 추적 수준입니다. |
 | subsystem        | 실시간 보호에 사용되는 밑이 있는 하위입니다. |
@@ -189,8 +189,8 @@ IT 관리자인 경우 엔터프라이즈 수준에서 이러한 컨트롤을 �
 진단 로그는 피드백 제출 기능의 일부로 사용자의 동의로만 수집됩니다. 다음 파일은 지원 로그의 일부로 수집됩니다.
 
 - */Library/Logs/Microsoft/mdatp/ 아래에 있는 모든 파일*
-- *Mac용 끝점용 Microsoft Defender에서 만들어 사용하는 /Library/Application Support/Microsoft/Defender/에서* 파일 하위 집합
-- Mac용 끝점용 Microsoft Defender에서 사용하는 */Library/Managed Preferences* 아래에 있는 파일의 하위 집합
+- *MacOS의 끝점용 Microsoft Defender에서 만들어 사용하는 /Library/Application Support/Microsoft/Defender/에서* 파일 하위 집합
+- macOS의 끝점용 Microsoft Defender에서 사용하는 */Library/Managed Preferences* 아래에 있는 파일의 하위 집합
 - /Library/Logs/Microsoft/autoupdate.log
 - $HOME/Library/Preferences/com.microsoft.autoupdate2.plist
 

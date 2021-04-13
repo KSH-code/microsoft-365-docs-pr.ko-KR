@@ -22,12 +22,12 @@ localization_priority: Priority
 description: 관리자는 스푸핑된 보낸 사람 및 도메인의 피싱 공격을 완화하는 데 도움이 되며 EOP(Exchange Online Protection)에서 사용할 수 있는 스푸핑 방지 기능에 대해 알아볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 746b00c7fbf1a90f8bda56c1ba031777f6dee409
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 54b94e2d2cc0395ce7a9785887c253df3addf7fa
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408614"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688780"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>EOP의 스푸핑 방지 보호 기능
 
@@ -122,7 +122,8 @@ Microsoft는 서로 다른 두 가지 유형의 스푸핑 메일을 구분합니
 
   - SFTY는 메일의 보안 수준을 말합니다. 9는 피싱, .22는 도메인 간 스푸핑을 나타냅니다.
 
-스푸핑과 관련된 범주 및 복합 인증(compauth) 값에 대한 자세한 내용은 [Microsoft 365의 스팸 방지 메시지 머리글](anti-spam-message-headers.md)을 참조하세요.
+> [!NOTE]
+> ***compauth=fail reason=###** _과 같은 메시지를 받았으며 복합 인증(compauth) 및 스푸핑 관련 값에 대해 알아야 한다면, [_Microsoft 365*의 스팸 방지 메시지 헤더](anti-spam-message-headers.md)를 참조하세요. 또는 [*이유*](anti-spam-message-headers.md) 코드로 직접 이동하세요.
 
 DMARC에 대한 자세한 내용은 [Microsoft 365의 DMARC를 사용한 전자 메일 유효성 검사](use-dmarc-to-validate-email.md)를 참조하세요.
 

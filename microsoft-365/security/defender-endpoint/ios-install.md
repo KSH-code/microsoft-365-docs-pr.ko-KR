@@ -18,14 +18,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c94c6839c17b3bbb432cef12fe58723d0cc2ecff
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 6cfd2953e752ed9c96f7f16a3ec7ea1fd8862ab2
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587242"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689740"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-ios"></a>iOS용 끝점용 Microsoft Defender 배포
+# <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>iOS에서 끝점용 Microsoft Defender 배포
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -91,7 +91,7 @@ Intune 회사 포털을 통해 iOS용 끝점용 Defender를 배포합니다.
 
 ## <a name="configure-microsoft-defender-for-endpoint-for-supervised-mode"></a>감독 모드에 대한 끝점에 대한 Microsoft Defender 구성
 
-iOS용 끝점용 Microsoft Defender 앱에는 이러한 유형의 장치에서 플랫폼에서 제공하는 증가된 관리 기능이 제공된 경우 감독되는 iOS/iPadOS 디바이스에 대한 특수한 기능이 있습니다. 이러한 기능을 활용하려면 끝점용 Defender 앱에서 장치가 감독 모드에 있는지 알아야 합니다.
+iOS 앱의 끝점용 Microsoft Defender는 이러한 유형의 장치에서 플랫폼에서 제공하는 증가된 관리 기능을 감안할 때 감독되는 iOS/iPadOS 디바이스에서 특수한 기능을 제공합니다. 이러한 기능을 활용하려면 끝점용 Defender 앱에서 장치가 감독 모드에 있는지 알아야 합니다.
 
 ### <a name="configure-supervised-mode-via-intune"></a>Intune을 통해 감독 모드 구성
 

@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender ATP 온보딩 문제 해결
-description: 장치 온보딩 중에 또는 Microsoft Defender ATP 서비스에 발생할 수 있는 문제를 해결합니다.
+title: 끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결
+description: 장치 온보딩 중에 또는 끝점용 Microsoft Defender 서비스에 발생할 수 있는 문제를 해결합니다.
 keywords: 온보더링, 온보더링 문제, 이벤트 뷰어, 데이터 수집 및 미리 보기 빌드, 센서 데이터 및 진단 문제 해결
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 3b2c944cd7fc9d629b47947db9d6e8856729e0d7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4599741f501e9b55bc73e0eb8def9208bc988957
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074063"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689668"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결
 
@@ -30,7 +30,7 @@ ms.locfileid: "51074063"
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 - Windows Server 2012 R2
 - Windows Server 2016
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
@@ -306,7 +306,7 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
 
 다음을 확인해야 할 수도 있습니다.
 
-- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예시:
+- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예를 들어 다음과 같습니다.
 
     ![Endpoint Service용 Microsoft Defender를 실행하는 프로세스 보기의 이미지](images/atp-task-manager.png)
 
@@ -455,6 +455,6 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
 
 ## <a name="related-topics"></a>관련 항목
 
-- [끝점용 Microsoft Defender 문제 해결](troubleshoot-mdatp.md)
+- [엔드포인트용 Microsoft Defender 문제 해결](troubleshoot-mdatp.md)
 - [장치 온보드](onboard-configure.md)
 - [장치 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)

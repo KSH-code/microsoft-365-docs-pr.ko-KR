@@ -18,12 +18,12 @@ description: 관리자는 Exchange Online Protection(EOP)에서 메시지에 추
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 04b98ad6b1ca136429395dfd1636b43bbbc6878a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 469f28acb40017f3d431e3545c81877126f50c18
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206879"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688456"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Microsoft 365의 스팸 방지 메시지 헤더
 
@@ -74,7 +74,7 @@ ms.locfileid: "51206879"
 |`LANG`|국가 코드로 지정된 메시지 작성 언어입니다(예를 들어 ru_RU는 러시아어입니다).|
 |`PTR:[ReverseDNS]`|원본 IP 주소의 PTR 레코드 (역 DNS 조회라고도 함).|
 |`SCL`|메시지의 SCL(스팸 지수)입니다. 값이 높을수록 메시지가 스팸일 가능성이 더 높습니다. 자세한 내용은 [SCL(스팸 지수)](spam-confidence-levels.md)을 참조하세요.|
-|`SFTY`|메시지가 피싱 메일로 확인되었으므로 다음 값 중 하나로 표시됩니다. <ul><li>9.1: 기본값. 메시지에는 피싱 URL, 기타 피싱 콘텐츠 또는 온사이트 Exchange에서 피싱으로 표시된 일부 또는 전체가 포함됩니다.</li><li>[9.11: 조직 내 또는 자체 스푸핑](anti-spoofing-protection.md#different-types-of-spoofing) 조직 내 스푸핑에 대한 안전 정보가 메시지에 추가됩니다.</li><li>9.19: 도메인 가장. 보내는 도메인이 [보호된 도메인을 사용자 도용](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)하려고 시도하고 있습니다. 도메인 가장에 대한 안전 팁이 메시지에 추가됩니다(사용 가능한 경우).</li><li>9.20: 사용자 가장. 발신 사용자가 수신자 조직의 사용자 또는 Office 365용 Microsoft Defender의 피싱 방지 정책에 지정된 보호된 사용자를 가장하려고 합니다. 사용자 가장에 대한 안전 팁이 메시지에 추가됩니다(사용 가능한 경우).</li><li>9.21: [교차 도메인 스푸핑](anti-spoofing-protection.md#different-types-of-spoofing)입니다. 메시지가 스푸핑 방지 확인에 실패했습니다. 보낸 사람 헤더에 있는 보낸 사람의 전자 메일 도메인은 인증되지 않으며 외부 도메인입니다. [ 복합 인증](#authentication-results-message-header-fields)과(와) 함께 사용됩니다.</li><li>9.22: 9.21과 동일하며, 다른 사항은 사용자에게 재정의된 [수신 허용 - 보낸 사람]이 있다는 점입니다.</li><li>9.23: 9.22와 동일하며, 다른 사항은 조직에 재정의된 허용된 보낸 사람 또는 도메인이 있다는 점입니다.</li><li>9.24: 9.23과 동일하며, 다른 사항은 사용자에게 재정의된 Exchange 메일 흐름 규칙(전송 규칙이라고도 함)이 있다는 점입니다.</li></ul>|
+|`SFTY`|메시지가 피싱 메일로 확인되었으므로 다음 값 중 하나로 표시됩니다. <ul><li>9.19: 도메인 가장. 보내는 도메인이 [보호된 도메인을 사용자 도용](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)하려고 시도하고 있습니다. 도메인 가장에 대한 안전 팁이 메시지에 추가됩니다(사용 가능한 경우).</li><li>9.20: 사용자 가장. 발신 사용자가 수신자 조직의 사용자 또는 Office 365용 Microsoft Defender의 [피싱 방지 정책에 지정된 보호된 사용자](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)를 가장하려고 합니다. 사용자 가장에 대한 안전 팁이 메시지에 추가됩니다(사용 가능한 경우).</li></ul>|
 |`SFV:BLK`|사용자의 차단된 보낸 사람 목록에 있는 주소에서 보낸 메시지이므로 필터링을 건너뛰고 메시지를 차단했습니다. <p> 관리자가 사용자의 차단된 보낸 사람 목록을 관리하는 방법에 대한 자세한 내용은 [Exchange Online 사서함](configure-junk-email-settings-on-exo-mailboxes.md)에서 정크 전자 메일 설정 구성을 참조하시기 바랍니다.|
 |`SFV:NSPM`|스팸 필터링은 메시지를 비스팸으로 표시했으며 메시지가 원하는 수신자에게 전송되었습니다.|
 |`SFV:SFE`|필터를 건너뛰고 사용자의 안전 보낸 사람 목록에 있는 주소에서 보낸 메시지이므로 이 메시지가 허용되었습니다. <p> 관리자가 사용자의 안전한 보낸 사람 목록을 관리하는 방법에 대한 자세한 내용은 [Exchange Online 사서함](configure-junk-email-settings-on-exo-mailboxes.md)에서 정크 전자 메일 설정 구성을 참조하시기 바랍니다.|

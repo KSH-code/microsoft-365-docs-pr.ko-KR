@@ -18,36 +18,36 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5fa811b2419d107e91b301d5c9bad691fc016b5b
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 58e3b14dcb80db961f01b92f038ce4d32da7e2e8
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498962"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689708"
 ---
-# <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender에 대해 다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포
+# <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender에 대해 다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
  
 ## <a name="prerequisites-and-system-requirements"></a>선행 조건 및 시스템 요구 사항
 
-시작하기 전에 Mac용 [끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md) 주 페이지를 참조하여 현재 소프트웨어 버전에 대한 선행 조건 및 시스템 요구 사항에 대한 설명을 참조하세요.
+시작하기 전에 [MacOS의 주 Microsoft Defender for Endpoint](microsoft-defender-endpoint-mac.md) 페이지에서 현재 소프트웨어 버전에 대한 선행 조건 및 시스템 요구 사항에 대한 설명을 참조하세요.
 
 ## <a name="approach"></a>방법
 
 > [!CAUTION]
-> 현재 Microsoft는 Mac용 끝점용 Microsoft Defender의 배포 및 관리를 위해 Intune 및 JAMF만 공식적으로 지원하고 있습니다. Microsoft는 아래 제공된 정보에 대해 표현적 또는 암시적 보증을하지 않습니다.
+> 현재 Microsoft는 MacOS에서 끝점용 Microsoft Defender의 배포 및 관리를 위해 Intune 및 JAMF만 공식적으로 지원하고 있습니다. Microsoft는 아래 제공된 정보에 대해 표현적 또는 암시적 보증을하지 않습니다.
 
-조직에서 공식적으로 지원되지 않는 MDM(모바일 장치 관리) 솔루션을 사용하는 경우 Mac용 끝점용 Microsoft Defender를 배포하거나 실행할 수 없는 것은 아닙니다.
+조직에서 공식적으로 지원되지 않는 MDM(모바일 장치 관리) 솔루션을 사용하는 경우 macOS에서 끝점용 Microsoft Defender를 배포하거나 실행할 수 없습니다.
 
-Mac용 끝점용 Microsoft Defender는 공급업체별 기능에 의존하지 않습니다. 이 기능은 다음 기능을 지원하는 모든 MDM 솔루션에서 사용할 수 있습니다.
+MacOS의 끝점용 Microsoft Defender는 공급업체별 기능에 의존하지 않습니다. 이 기능은 다음 기능을 지원하는 모든 MDM 솔루션에서 사용할 수 있습니다.
 
 - 관리되는 장치에 macOS .pkg를 배포합니다.
 - 관리되는 장치에 macOS 시스템 구성 프로필을 배포합니다.
@@ -72,7 +72,7 @@ Microsoft Defender [](mac-install-with-jamf.md)보안 센터에서 다운로드�
 
 ### <a name="license-settings"></a>라이선스 설정
 
-시스템 [구성 프로필을 설정합니다.](mac-install-with-jamf.md) Mac용 끝점용 Microsoft Defender는 macOS의 일부가 아니기에 MDM 솔루션에서 "사용자 지정 설정 프로필"처럼 호출할 수 있습니다.
+시스템 [구성 프로필을 설정합니다.](mac-install-with-jamf.md) MacOS의 끝점용 Microsoft Defender는 macOS의 일부가 아니기에 MDM 솔루션에서 "사용자 지정 설정 프로필"처럼 호출할 수 있습니다.
 
 Microsoft Defender 보안 센터에서 다운로드한 등록 패키지에서 추출할 수 있는 속성 목록 jamf/WindowsDefenderATPOnboarding.plist를 [사용하세요.](mac-install-with-jamf.md)
 시스템에서 임의의 속성 목록을 XML 형식으로 지원할 수 있습니다. jamf/WindowsDefenderATPOnboarding.plist 파일을 현재 있는 것으로 업로드할 수 있습니다.
@@ -112,7 +112,7 @@ KEXT 또는 커널 확장 정책을 설정합니다. 팀 식별자 **UBF8T346G9�
 
 ### <a name="network-extension-policy"></a>네트워크 확장 정책
 
-끝점 검색 및 응답 기능의 일부로, Mac용 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
+끝점 감지 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
 
 - 필터 유형: 플러그 인
 - 플러그 인 번들 식별자: `com.microsoft.wdav`
