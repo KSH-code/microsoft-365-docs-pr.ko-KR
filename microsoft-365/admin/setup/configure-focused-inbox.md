@@ -20,16 +20,18 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: '조직의 모든 사용자나 특정 사용자에 대해 중요 받은 편지함을 구성하는 방법을 알아봅니다. '
-ms.openlocfilehash: 7059fbb886669af99c1471789cbbc623dc9719b8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 62a38f911e4e1b878af6489f096f17644e070978
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914285"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644515"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>조직의 모든 사용자에 대해 중요 받은 편지함 구성
 
-  회사의 모든 사용자에 대해 전자 메일 작동 방법을 구성해야 하는 경우 이 문서를 참조하세요. 이 문서에서는 해당 비즈니스에 맞게 이러한 구성을 사용자 지정하거나 끄는 방법을 설명하고 [자주하는 질문](#faq-for-focused-inbox)에 대답합니다.  <br/> 자신의 중요 받은 편지함을 끄려면 [중요 받은 편지함 끄기](https://support.microsoft.com/office/f714d94d-9e63-4217-9ccb-6cb2986aa1b2)를 참조하세요.  
+회사의 모든 사용자에 대해 전자 메일 작동 방법을 구성해야 하는 경우 이 문서를 참조하세요. 이 문서에서는 해당 비즈니스에 맞게 이러한 구성을 사용자 지정하거나 끄는 방법을 설명하고 [자주하는 질문](#faq-for-focused-inbox)에 대답합니다.
+
+자신의 중요 받은 편지함을 끄려면 [중요 받은 편지함 끄기](https://support.microsoft.com/office/f714d94d-9e63-4217-9ccb-6cb2986aa1b2)를 참조하세요.  
 
 사용자가 예를 들어 HR 또는 급여로부터 비즈니스 관련 전자 메일 메시지를 받을 수 있도록 하려면 이러한 메시지가 중요 보기로 오도록 중요 받은 편지함을 구성할 수 있습니다. 사서함에서 중요 받은 편지함이 조직의 사용자에게 표시되도록 할 것인지를 제어할 수도 있습니다.
   
@@ -37,7 +39,7 @@ ms.locfileid: "50914285"
 
 PowerShell을 사용하여 조직의 모든 사용자에 대해 중요 받은 편지함을 켜거나 끕니다. 이 작업을 Microsoft 365 관리 센터에서 수행하고 싶으세요? 저희 엔지니어링 팀에 알려 주세요. **[여기에서 투표하세요!](https://go.microsoft.com/fwlink/?linkid=862489)**
   
- **중요 받은 편지함을 끄는 방법**
+**중요 받은 편지함을 끄는 방법**
   
 다음 PowerShell 예제는 조직의 중요 받은 편지함을 **끕니다**. 하지만 이렇게 해도 사용자의 기능 사용 가능성은 차단되지 않습니다. 사용자가 원하는 경우 각 클라이언트에서 중요 받은 편지함을 다시 사용하도록 설정할 수 있습니다. 
   
@@ -48,9 +50,9 @@ PowerShell을 사용하여 조직의 모든 사용자에 대해 중요 받은 �
 3. 
             **Get-OrganizationConfig** cmdlet을 실행합니다. 
 
- ``` PowerShell
-Get-OrganizationConfig
- ```
+    ```powershell
+    Get-OrganizationConfig
+    ```
 
 4. **FocusedInboxOn** 을 찾아 현재 설정을 확인합니다. 
 
@@ -58,20 +60,20 @@ Get-OrganizationConfig
   
 5. 다음 cmdlet을 실행하여 중요 받은 편지함을 끕니다.
 
- ``` PowerShell
- Set-OrganizationConfig -FocusedInboxOn $false
- ```
+    ```powershell
+    Set-OrganizationConfig -FocusedInboxOn $false
+    ```
 
 6. **Get-OrganizationConfig** cmdlet을 다시 실행하면 FocusedInboxOn이 $false로 설정되며, 이는 중요 받은 편지함이 꺼졌음을 의미합니다. 
 
- **중요 받은 편지함을 켜는 방법:**
+**중요 받은 편지함을 켜는 방법:**
   
 - 위의 5단계에서 다음 cmdlet을 실행하여 중요 받은 편지함을 켭니다.
 
- ``` PowerShell
- Set-OrganizationConfig -FocusedInboxOn $true
- ```
-
+  ```powershell
+  Set-OrganizationConfig -FocusedInboxOn $true
+  ```
+    
 ## <a name="what-do-users-see-after-i-turn-on-focused-inbox"></a>중요 받은 편지함을 켜면 사용자에게 어떻게 표시되나요? 
 
 Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표시됩니다. Outlook을 다시 시작하면 Outlook 사용자 인터페이스에 새 중요 받은 편지함을 사용하기 위한 옵션을 제공하는 팁이 표시됩니다.
@@ -86,7 +88,7 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
   
 ## <a name="turn-focused-inbox-on-or-off-for-specific-users"></a>특정 사용자에 대해 중요 받은 편지함 켜기 또는 끄기
 
-이 예제에서는 Contoso 조직의 Tim Matthews에 대해 중요 받은 편지함을 **끕니다**. 하지만 이렇게 해도 Tim Matthews의 기능 사용 가능성은 차단되지 않습니다. Tim Matthews가 원하는 경우 각 클라이언트에서 중요 받은 편지함을 다시 사용하도록 설정할 수 있습니다. 
+이 예제에서는 Contoso 조직의 Tim Matthews에 대해 중요 받은 편지함을 **끕니다**. 하지만 이렇게 해도 Tim Matthews의 기능 사용 가능성은 차단되지 않습니다. 원한다면 각 클라이언트에 대한 중요 받은 편지함을 다시 사용하도록 설정할 수도 있습니다. 
   
 1. [원격 PowerShell을 사용하여 Exchange Online에 연결](/powershell/exchange/connect-to-exchange-online-powershell)
 
@@ -94,25 +96,25 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 
 3. **Get-FocusedInbox** cmdlet을 실행합니다. 예를 들면 다음과 같습니다. 
 
- ``` PowerShell
- Get-FocusedInbox -Identity <tim@contoso.com>
- ```
+    ```powershell
+    Get-FocusedInbox -Identity <tim@contoso.com>
+    ```
 
 4. FocusedInboxOn을 찾아 현재 설정을 확인합니다.
 
     ![중요 받은 편지함 상태에서의 PowerShell 응답.](../../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
   
-5. 다음 cmdlet을 실행하여 중요 받은 편지함을 끕니다.
+5. 다음 cmdlet를 실행하여 중요 받은 편지함을 끕니다.
 
- ``` PowerShell
- Set-FocusedInbox -Identity <tim@contoso.com> -FocusedInboxOn $false
- ```
+    ```powershell
+    Set-FocusedInbox -Identity <tim@contoso.com> -FocusedInboxOn $false
+    ```
 
-6. 또는 다음 cmdlet을 실행하여 중요 받은 편지함을 켭니다.
+    또는 다음 cmdlet을 실행하여 중요 받은 편지함을 켭니다.
 
- ``` PowerShell
- Set-FocusedInbox -Identity <tim@contoso.com> -FocusedInboxOn $true
- ```
+    ```powershell
+    Set-FocusedInbox -Identity <tim@contoso.com> -FocusedInboxOn $true
+    ```
 
 ## <a name="use-the-ui-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>UI를 사용하여 전자 메일 메시지를 모든 사용자의 중요 보기로 보내도록 전송 규칙을 만듭니다.
 
@@ -126,8 +128,8 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 
     ![focusedinbox 급여](../../media/focusedinbox-transport-rule.PNG)
 
-> [!NOTE]
-> 이 예제에서 메시지 헤더 값 텍스트는 **X-MS-Exchange-Organization-BypassFocusedInbox** 입니다.
+    > [!NOTE]
+    > 이 예제에서 메시지 헤더 값 텍스트는 **X-MS-Exchange-Organization-BypassFocusedInbox** 입니다.
   
 ## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>PowerShell을 사용하여 전자 메일 메시지를 모든 사용자의 중요 보기로 보내도록 전송 규칙을 만듭니다.
 
@@ -137,9 +139,9 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 
 3. 예를 들어 다음 명령을 실행하여 "급여 부서"의 모든 메시지가 중요 받은 편지함으로 배달되도록 할 수 있습니다.
 
- ``` PowerShell
- New-TransportRule -Name <name_of_the_rule> -From "Payroll Department" -SetHeaderName "X-MS-Exchange-Organization-BypassFocusedInbox" -SetHeaderValue "true"
- ```
+    ```powershell
+    New-TransportRule -Name <name_of_the_rule> -From "Payroll Department" -SetHeaderName "X-MS-Exchange-Organization-BypassFocusedInbox" -SetHeaderValue "true"
+    ```
 
 > [!IMPORTANT]
 > 이 예제에서 "X-MS-Exchange-Organization-BypassFocusedInbox" 및 "true" 모두 대소문자를 구분합니다.
@@ -148,6 +150,10 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
 전자 메일 메시지 헤더를 확인하여 중요 받은 편지함 전송 규칙 바이패스로 인해 받은 편지함으로 전자 메일 메시지가 도착하는지 확인할 수 있습니다. 중요 받은 편지함 전송 규칙이 적용된 조직의 사서함에서 전자 메일 메시지를 선택합니다. 메시지에 스탬프 처리된 헤더를 확인하고 **X-MS-Exchange-Organization-BypassFocusedInbox: true** 헤더를 확인해야 합니다. 이는 바이패스가 작동 중임을 의미합니다. 헤더 정보를 찾는 방법에 대한 정보는 [전자 메일 메시지에 대한 인터넷 헤더 정보 확인](https://go.microsoft.com/fwlink/p/?LinkId=822530) 문서를 참조하세요.
+
+### <a name="what-will-the-user-see"></a>사용자에게는 어떻게 표시되나요?
+
+메일 흐름 규칙이 제대로 설정됐다면 재정의 알림이 표시됩니다. 웹용 Outlook의 경우 “항상 기타 받은 편지함으로 이동”이 사용하지 않게 설정되고 도구 설명이 표시됩니다. 데스크톱 Outlook 클라이언트의 경우 “항상 기타 받은 편지함으로 이동” 선택이 허용되며 대화 팝업 메시지가 표시됩니다.
 
 ## <a name="turn-onoff-clutter"></a>낮은 우선 순위 메일 켜기/끄기
 
@@ -202,3 +208,4 @@ Outlook은 최신 타임스탬프가 있는 cmdlet을 선택하여 환경 표시
 ### <a name="can-i-run-a-script-to-see-who-has-turned-on-focused-inbox"></a>스크립트를 실행하여 중요 받은 편지함을 설정한 사용자를 확인할 수 있나요?
 
 아니요. 불가능하도록 설계되어 있습니다. 중요 받은 편지함 사용 설정은 클라이언트 쪽 설정이므로 cmdlet에서는 사용자의 사서함을 클라이언트 환경에 사용할 수 있는지만 알려 줄 수 있습니다. 동시에 어떤 클라이언트에서는 사용하도록 설정하고 어떤 클라이언트에서는 사용하지 않도록 설정할 수 있습니다. 예를 들어 Outlook 앱과 Outlook Mobile에서는 사용하지만 웹용 Outlook에서는 사용하지 않도록 설정할 수 있습니다.
+

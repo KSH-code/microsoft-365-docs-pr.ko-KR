@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소하는 방법에 대해 알아보세요.
 ms.date: ''
-ms.openlocfilehash: 0d37a2459c89bf5931af26a91ed14e2898c1c8c4
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 2163462ae206871d66155331096337c29d6a87c2
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615390"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644647"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -47,6 +47,15 @@ ms.locfileid: "51615390"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
+2. 취소하려는 구독을 찾습니다. **추가 작업**(점 3개)을 선택한 다음 **구독 취소** 를 선택합니다.
+3. **구독 취소** 창에서 취소 이유를 선택합니다. 원하는 경우, 피드백을 제공하세요.
+4. **저장** 을 선택합니다.
+
+이제 구독이 **사용 안 함** 상태로 표시되며, 삭제할 때까지 기능이 제한됩니다. 유료 비즈니스용 Microsoft 365 구독을 취소할 경우 나타나는 결과에 대한 자세한 내용은 [내 Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md)를 참조하세요.
+
+> [!NOTE]
+> 구독을 명시적으로 삭제할 경우 만료와 사용 안 함 단계를 건너 뛰고 OneDrive를 포함한 SharePoint 온라인 데이터와 콘텐츠가 즉시 삭제됩니다.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"

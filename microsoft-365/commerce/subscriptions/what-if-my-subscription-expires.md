@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Microsoft 365 비즈니스 에디션 구독이 만료되거나, 비활성화되거나, 사용자가 취소하는 경우 사용자의 데이터가 어떻게 처리되는지 알아봅니다.
-ms.openlocfilehash: ee83e237d17dc2de60b08b8d4dbdc46c98fc8251
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 8f853000ebd20ab8f6625df9f773bbb182bdb7fd
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615402"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644659"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?
 
@@ -68,6 +68,9 @@ ms.locfileid: "51615402"
 > [!IMPORTANT]
 > 일반적인 사용 안 함 단계가 끝나기 전에 구독 데이터를 삭제하고 싶다면 [계정 사용 중지](../close-your-account.md)를 할 수 있습니다.
   
+> [!NOTE]
+> 구독을 명시적으로 삭제할 경우 만료와 사용 안 함 단계를 건너 뛰고 OneDrive를 포함한 SharePoint 온라인 데이터와 콘텐츠가 즉시 삭제됩니다.
+
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>구독이 곧 만료되는 경우 선택할 수 있는 옵션은 무엇인가요?
 
 구독이 활성 상태인 동안 사용자 및 최종 사용자는 전자 메일 및 비즈니스용 OneDrive, Office 응용 프로그램과 같은 서비스의 데이터에 정상적으로 액세스할 수 있습니다. 관리자로서 구독의 만료 날짜가 다가오면 전자 메일과 관리 센터를 통해 일련의 알림을 받게 됩니다.
