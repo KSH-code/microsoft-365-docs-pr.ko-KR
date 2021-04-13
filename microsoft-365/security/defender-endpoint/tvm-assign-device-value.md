@@ -1,7 +1,7 @@
 ---
 title: 장치 값 할당 - 위협 및 취약성 관리
 description: 자산 우선 순위를 차별화하는 데 도움이 될 수 있도록 장치에 낮은 값, 보통 또는 높은 값을 할당하는 방법을 배워야 합니다.
-keywords: Microsoft Defender atp 장치 값, 위협 및 취약성 관리 장치 값, 높은 가치의 장치, 장치 값 노출 점수
+keywords: 끝점 장치 값, 위협 및 취약성 관리 장치 값, 고가치 장치, 장치 값 노출 점수에 대한 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3cecee8b80f179f67cb48f62e1d9238a51825bfd
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 1f5d90190418f84795bdd899ea0e48ac25831a96
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500211"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689392"
 ---
 # <a name="assign-device-value---threat-and-vulnerability-management"></a>장치 값 할당 - 위협 및 취약성 관리
 
@@ -31,7 +31,7 @@ ms.locfileid: "51500211"
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 - [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 

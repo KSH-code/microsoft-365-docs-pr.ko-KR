@@ -1,7 +1,7 @@
 ---
 title: 위협 및 취약성 관리의 소프트웨어 인벤토리
-description: Microsoft Defender ATP의 위협 및 취약성 관리를 위한 소프트웨어 인벤토리 페이지에는 소프트웨어에서 감지된 약점 및 취약성의 수가 표시됩니다.
-keywords: 위협 및 취약성 관리, Microsoft Defender atp, Microsoft Defender atp 소프트웨어 인벤토리, mdatp 위협 & 취약점 관리, mdatp 위협 & 취약점 관리 소프트웨어 인벤토리, mdatp tvm 소프트웨어 인벤토리, tvm 소프트웨어 인벤토리
+description: Endpoint의 위협 및 취약점 관리용 Microsoft Defender의 소프트웨어 인벤토리 페이지에는 소프트웨어에서 감지된 약점 및 취약성의 수가 표시됩니다.
+keywords: 위협 및 취약성 관리, 끝점용 Microsoft Defender, 끝점 소프트웨어 인벤토리용 Microsoft Defender, mdatp 위협 & 취약점 관리, mdatp 위협 & 취약성 관리 소프트웨어 인벤토리, mdatp tvm 소프트웨어 인벤토리, tvm 소프트웨어 인벤토리
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 02d7810ef27b495e69fd6d8ca72baf40df13ee93
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: a4ceb7cc4d39dbddbb4cd325491c16f4503bfc52
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500446"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689380"
 ---
 # <a name="software-inventory---threat-and-vulnerability-management"></a>소프트웨어 인벤토리 - 위협 및 취약성 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 - [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 

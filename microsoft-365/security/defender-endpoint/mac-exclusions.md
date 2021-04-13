@@ -18,20 +18,20 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fb0cffb9716b2d0940e816dc69217486fd51a21d
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: b1282543a68ce4cb5c322423656d33c5db12b97b
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379334"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688588"
 ---
-# <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender 제외 구성 및 유효성 검사
+# <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점에 대한 Microsoft Defender 제외 구성 및 유효성 검사
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -52,7 +52,7 @@ Mac용 끝점 검사용 Defender에서 특정 파일, 폴더, 프로세스 및 �
 
 다음 표에는 Mac용 끝점용 Defender에서 지원하는 제외 유형이 표시됩니다.
 
-제외 | 정의 | 예
+제외 | 정의 | 예제
 ---|---|---
 파일 확장명 | 컴퓨터의 아무 곳이나 확장명을 통해 모든 파일 | `.test`
 파일 | 전체 경로로 식별된 특정 파일 | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`

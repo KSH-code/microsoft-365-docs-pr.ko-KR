@@ -18,29 +18,29 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 99f507ad381ee21ba91753716439180fafe37c24
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3321c1bd181b89c53e2618fc20fa7f733a20cfc1
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074343"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689056"
 ---
-# <a name="deploy-updates-for-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender 업데이트 배포
+# <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender 업데이트 배포
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
 
-- [Mac용 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md)
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [MacOS의 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 Microsoft는 성능, 보안을 개선하고 새로운 기능을 제공하기 위해 소프트웨어 업데이트를 정기적으로 게시합니다.
 
-Mac용 끝점용 Microsoft Defender를 업데이트하기 위해 MAU(Microsoft 자동 업데이트)라는 프로그램이 사용됩니다. 기본적으로 MAU는 매일 업데이트를 자동으로 확인하지만 매주, 월별 또는 수동으로 변경할 수 있습니다.
+MacOS에서 끝점에 대한 Microsoft Defender를 업데이트하기 위해 MAU(Microsoft 자동 업데이트)라는 프로그램이 사용됩니다. 기본적으로 MAU는 매일 업데이트를 자동으로 확인하지만 매주, 월별 또는 수동으로 변경할 수 있습니다.
 
 ![MAU 스크린샷](images/MDATP-34-MAU.png)
 
@@ -50,7 +50,7 @@ Mac용 끝점용 Microsoft Defender를 업데이트하기 위해 MAU(Microsoft �
 
 MAU에는 업데이트가 적용되는 경우를 보다 정확하게 제어할 수 있도록 IT 관리자를 위해 설계된 *msupdate라는* 명령줄 도구가 포함되어 있습니다. 이 도구를 사용하는 방법에 대한 지침은 [msupdate를 사용하여 Mac용 Office 업데이트에서 찾을 수 있습니다.](https://docs.microsoft.com/deployoffice/mac/update-office-for-mac-using-msupdate)
 
-MAU에서 Mac용 끝점용 Microsoft Defender의 응용 프로그램 식별자는 *WDAV00입니다.* Mac용 끝점용 Microsoft Defender의 최신 업데이트를 다운로드하고 설치하려면 터미널 창에서 다음 명령을 실행합니다.
+MAU에서 macOS의 끝점용 Microsoft Defender에 대한 응용 프로그램 식별자는 *WDAV00입니다.* macOS의 끝점용 Microsoft Defender에 대한 최신 업데이트를 다운로드하고 설치하려면 터미널 창에서 다음 명령을 실행합니다.
 
 ```
 ./msupdate --install --apps wdav00
@@ -76,7 +76,7 @@ MAU에서 Mac용 끝점용 Microsoft Defender의 응용 프로그램 식별자�
 >[!TIP]
 >새 기능을 미리 보고 초기 피드백을 제공하기 위해서는 엔터프라이즈의 일부 장치를 또는 로 구성하는 것이 `Beta` `Preview` 좋습니다.
 
-|||
+|섹션|값|
 |:--|:--|
 | **도메인** | com.microsoft.autoupdate2 |
 | **키** | ChannelName |
@@ -85,7 +85,7 @@ MAU에서 Mac용 끝점용 Microsoft Defender의 응용 프로그램 식별자�
 |||
 
 >[!WARNING]
->이 설정은 Microsoft 자동 업데이트를 통해 업데이트되는 모든 응용 프로그램의 채널을 변경합니다. Mac용 끝점용 Microsoft Defender에 대한 채널만 변경하기 위해 원하는 채널로 교체한 후 다음 명령을 `[channel-name]` 실행합니다.
+>이 설정은 Microsoft 자동 업데이트를 통해 업데이트되는 모든 응용 프로그램의 채널을 변경합니다. macOS의 끝점용 Microsoft Defender에 대한 채널만 변경하기 위해 원하는 채널로 바꿔서 다음 명령을 `[channel-name]` 실행합니다.
 > ```bash
 > defaults write com.microsoft.autoupdate2 Applications -dict-add "/Applications/Microsoft Defender ATP.app" " { 'Application ID' = 'WDAV00' ; 'App Domain' = 'com.microsoft.wdav' ; LCID = 1033 ; ChannelName = '[channel-name]' ; }"
 > ```
@@ -94,63 +94,63 @@ MAU에서 Mac용 끝점용 Microsoft Defender의 응용 프로그램 식별자�
 
 MAU가 업데이트를 검색하는 자주 변경합니다.
 
-|||
+|섹션|값|
 |:--|:--|
 | **도메인** | com.microsoft.autoupdate2 |
 | **키** | UpdateCheckFrequency |
 | **Data type** | 정수 |
 | **기본값**. | 720(분) |
 | **설명** | 이 값은 분으로 설정됩니다. |
-|||
+
 
 ### <a name="change-how-mau-interacts-with-updates"></a>MAU가 업데이트와 상호 작용하는 방식 변경
 
 MAU에서 업데이트를 검색하는 방법을 변경합니다.
 
-|||
+|섹션|값|
 |:--|:--|
 | **도메인** | com.microsoft.autoupdate2 |
 | **키** | HowToCheck |
 | **Data type** | String |
 | **사용 가능한 값:** | 수동 <br/> AutomaticCheck <br/> AutomaticDownload |
 | **설명** |  AutomaticDownload는 다운로드를 수행하고 가능한 경우 자동으로 설치합니다. |
-|||
+
 
 ### <a name="change-whether-the-check-for-updates-button-is-enabled"></a>"업데이트 확인" 단추를 사용할 수 있는지 여부 변경
 
 로컬 사용자가 Microsoft 자동 업데이트 사용자 인터페이스에서 "업데이트 확인" 옵션을 클릭할 수 있는지 여부를 변경합니다.
 
-|||
+|섹션|값|
 |:--|:--|
 | **도메인** | com.microsoft.autoupdate2 |
 | **키** | EnableCheckForUpdatesButton |
 | **Data type** | 부울 |
 | **사용 가능한 값:** | True(기본값) <br/> False |
-|||
+
 
 ### <a name="disable-insider-checkbox"></a>내부자 사용 안함 확인란
 
 true로 설정하여 "Office Insider Program에 참여..."로 설정 사용자에게 확인란을 사용할 수 없음/회색으로 나타났습니다.
 
-|||
+|섹션|값|
 |:--|:--|
 | **도메인** | com.microsoft.autoupdate2 |
 | **키** | DisableInsiderCheckbox |
 | **Data type** | 부울 |
 | **사용 가능한 값:** | False(기본값) <br/> True |
-|||
+
 
 ### <a name="limit-the-telemetry-that-is-sent-from-mau"></a>MAU에서 전송된 원격 분석 제한
 
 false로 설정하여 최소 하트비트 데이터, 응용 프로그램 사용 현황 및 환경 세부 정보를 보내지 않습니다.
 
-|||
+|섹션|값|
 |:--|:--|
 | **도메인** | com.microsoft.autoupdate2 |
 | **키** | SendAllTelemetryEnabled |
 | **Data type** | 부울 |
 | **사용 가능한 값:** | True(기본값) <br/> False |
-|||
+
 
 ## <a name="example-configuration-profile"></a>구성 프로필 예제
 

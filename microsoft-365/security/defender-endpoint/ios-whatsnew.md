@@ -1,6 +1,6 @@
 ---
-title: iOS용 끝점용 Microsoft Defender의 새로운
-description: iOS용 끝점용 Microsoft Defender의 이전 버전에 대한 주요 변경 내용에 대해 자세히 알아보습니다.
+title: iOS의 끝점용 Microsoft Defender의 새로운
+description: iOS의 끝점용 Microsoft Defender 이전 버전에 대한 주요 변경 내용에 대해 자세히 알아보습니다.
 keywords: microsoft, defender, atp, mac, installation, macos, whatsnew
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1ef486dd369ed35d7c42e342a264ca88c64c02e6
-ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
+ms.openlocfilehash: 632cb054bb12ab52fe41f8fc974beca05631c1b6
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51632229"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688912"
 ---
-# <a name="whats-new-in-microsoft-defender-for-endpoint-for-ios"></a>iOS용 끝점용 Microsoft Defender의 새로운
+# <a name="whats-new-in-microsoft-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Microsoft Defender의 새로운
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

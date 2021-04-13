@@ -1,6 +1,6 @@
 ---
 title: macOS용 장치 제어
-description: USB 장치와 같은 이동식 저장소의 위협을 줄이기 위해 Mac용 끝점용 Microsoft Defender를 구성하는 방법을 알아보십시오.
+description: MAC에서 끝점용 Microsoft Defender를 구성하여 USB 장치와 같은 이동식 저장소의 위협을 줄이는 방법을 알아보십시오.
 keywords: microsoft, defender, atp, mac, 장치, 제어, usb, 이동식, 미디어
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 098eb30764870e69c5b1b6c2cec3cf8e5cb11691
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 696bc45f7bb66313cc9353e252d76c2e9fd73259
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186572"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688684"
 ---
 # <a name="device-control-for-macos"></a>macOS용 장치 제어
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -52,7 +52,7 @@ macOS용 장치 제어에는 다음과 같은 전제가 있습니다.
 >   ```bash
 >   mdatp health --field real_time_protection_subsystem 
 >   ```
-> - 디바이스가 (이전에는 ) Microsoft 자동 업데이트 `Beta` `InsiderFast` 채널에 있어야 합니다. 자세한 내용은 Mac용 [끝점용 Microsoft Defender 업데이트 배포를 참조하세요.](mac-updates.md)
+> - 디바이스가 (이전에는 ) Microsoft 자동 업데이트 `Beta` `InsiderFast` 채널에 있어야 합니다. 자세한 내용은 Mac에서 [끝점용 Microsoft Defender 업데이트 배포를 참조하세요.](mac-updates.md)
 > 
 >   다음 명령을 사용하여 업데이트 채널을 확인할 수 있습니다. 
 > 
@@ -66,7 +66,7 @@ macOS용 장치 제어에는 다음과 같은 전제가 있습니다.
 >    defaults write com.microsoft.autoupdate2 ChannelName -string Beta
 >    ```
 >
->    또는 관리되는 환경(JAMF 또는 Intune)에 있는 경우 원격으로 업데이트 채널을 구성할 수 있습니다. 자세한 내용은 Mac용 [끝점용 Microsoft Defender 업데이트 배포를 참조하세요.](mac-updates.md) 
+>    또는 관리되는 환경(JAMF 또는 Intune)에 있는 경우 원격으로 업데이트 채널을 구성할 수 있습니다. 자세한 내용은 Mac에서 [끝점용 Microsoft Defender 업데이트 배포를 참조하세요.](mac-updates.md) 
 
 ## <a name="device-control-policy"></a>장치 제어 정책
 
@@ -76,7 +76,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 
 구성 프로필 내에서 장치 제어 정책은 다음 섹션에 정의되어 있습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | deviceControl |
@@ -96,7 +96,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 
 최종 사용자가 이 알림을 클릭하면 웹 페이지가 기본 브라우저에서 열립니다. 최종 사용자가 알림을 클릭할 때 열 수 있는 URL을 구성할 수 있습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | navigationTarget |
@@ -110,7 +110,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 > [!NOTE]
 > 이동식 미디어 유형은 현재 지원됩니다. USB 저장 장치 정책에 포함될 수 있습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | removableMediaPolicy |
@@ -143,7 +143,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 - `audit` - 이 적용 수준에서 장치에 대한 액세스가 제한되면 사용자에게 알림이 표시되지만 디바이스를 계속 사용할 수 있습니다. 이 적용 수준은 정책의 효과를 평가하는 데 유용할 수 있습니다.
 - `block` - 이 적용 수준에서는 사용자가 장치에서 수행할 수 있는 작업이 정책에 정의된 작업으로 제한됩니다. 또한 사용자에게 알림이 표시됩니다. 
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | enforcementLevel |
@@ -168,7 +168,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 > [!NOTE]
 > 이 `execute` 사용 권한은 Mach-O 이진의 실행만 참조합니다. 스크립트 또는 다른 유형의 페이로드 실행은 포함하지 않습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | 사용 권한 |
@@ -183,7 +183,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 
 사전에는 하나 이상의 항목이 포함되고 각 항목이 공급업체 `vendors` ID로 식별됩니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | 공급업체 |
@@ -191,7 +191,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 
 각 공급업체에 대해 해당 공급업체의 장치에 대해 원하는 사용 권한 수준을 지정할 수 있습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | 사용 권한 |
@@ -200,7 +200,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 
 또한 필요한 경우 해당 공급업체에 속하는 제품 집합을 보다 세부적인 사용 권한이 정의되어 있는 제품 집합을 지정할 수 있습니다. 사전에는 하나 이상의 항목이 포함되고 각 항목이 제품 `products` ID로 식별됩니다. 
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | products |
@@ -208,7 +208,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 
 각 제품에 대해 해당 제품에 대해 원하는 사용 권한 수준을 지정할 수 있습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | 사용 권한 |
@@ -219,7 +219,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 
 사전에는 하나 이상의 항목이 포함되고 각 항목이 일련 번호로 `serialNumbers` 식별됩니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | serialNumbers |
@@ -227,7 +227,7 @@ macOS용 장치 제어를 구성하려면 조직 내에 적용하려는 제한�
 
 각 일련 번호에 대해 원하는 사용 권한 수준을 지정할 수 있습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | 사용 권한 |
@@ -336,7 +336,7 @@ DeviceEvents
 
 ## <a name="device-control-policy-deployment"></a>장치 제어 정책 배포
 
-[Mac용 Microsoft Defender에](mac-preferences.md)대한 기본 설정 설정에 설명된 바와 같이 장치 제어 정책은 다른 제품 설정 옆에 포함되어야 합니다.
+[MacOS의 끝점용 Microsoft Defender에](mac-preferences.md)대한 기본 설정 설정에 설명된 바와 같이 장치 제어 정책은 다른 제품 설정 옆에 포함되어야 합니다.
 
 이 프로필은 구성 프로필 배포 에 나열된 지침을 [사용하여 배포할 수 있습니다.](mac-preferences.md#configuration-profile-deployment)
 

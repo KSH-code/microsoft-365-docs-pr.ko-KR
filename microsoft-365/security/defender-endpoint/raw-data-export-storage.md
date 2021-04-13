@@ -1,6 +1,6 @@
 ---
 title: Microsoft Defender for Endpoint 이벤트를 저장소 계정으로 스트리밍
-description: 고급 헌팅 이벤트를 저장소 계정으로 스트리밍하도록 Microsoft Defender ATP를 구성하는 방법에 대해 자세히 알아보습니다.
+description: 고급 헌팅 이벤트를 저장소 계정으로 스트리밍하도록 끝점용 Microsoft Defender를 구성하는 방법을 학습합니다.
 keywords: 원시 데이터 내보내기, 스트리밍 API, API, 이벤트 허브, Azure 저장소, 저장소 계정, 고급 헌팅, 원시 데이터 공유
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9f1eb79bbf617afad58b7e4d70e1f40e422f9046
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 19fe0c9c3dc6f2e4226a4aa9a6cd983bc95bae3a
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071887"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688792"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-storage-account"></a>고급 헌팅 이벤트를 저장소 계정으로 스트리밍하도록 끝점에 대한 Microsoft Defender 구성
 
@@ -29,7 +29,7 @@ ms.locfileid: "51071887"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
 

@@ -1,6 +1,6 @@
 ---
-title: Linux용 끝점용 Microsoft Defender의 새로운
-description: Linux용 Microsoft Defender ATP에 대한 주요 변경 사항 목록입니다.
+title: Linux의 끝점용 Microsoft Defender의 새로운
+description: Linux의 Microsoft Defender ATP에 대한 주요 변경 내용 목록입니다.
 keywords: microsoft, defender, atp, linux, whatsnew, release
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,21 +18,21 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7a55d254c20506913d0995bffc941a67bb34a38e
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 2866cd0c9ee9b40aa9c08c4ff7dce64f745d3d03
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615438"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688636"
 ---
-# <a name="whats-new-in-microsoft-defender-for-endpoint-for-linux"></a>Linux용 끝점용 Microsoft Defender의 새로운
+# <a name="whats-new-in-microsoft-defender-for-endpoint-on-linux"></a>Linux의 끝점용 Microsoft Defender의 새로운
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 ## <a name="1012572-30121022125630"></a>101.25.72 (30.121022.12563.0)
 
-- Linux용 끝점용 Microsoft Defender는 이제 미국 정부 고객을 위해 미리 보기에서 사용할 수 있습니다. 자세한 내용은 미국 정부 고객용 [끝점용 Microsoft Defender를 참조하세요.](gov.md)
-- FUSE 파일 시스템과 함께 시스템에서 Linux용 끝점용 Microsoft Defender의 사용이 OS 중단으로 이어지는 문제를 해결했습니다.
+- Linux의 끝점용 Microsoft Defender는 이제 미국 정부 고객을 위해 미리 보기에서 사용할 수 있습니다. 자세한 내용은 미국 정부 고객용 [끝점용 Microsoft Defender를 참조하세요.](gov.md)
+- FUSE 파일 시스템과 함께 Linux에서 Endpoint용 Microsoft Defender를 OS 중단으로 이어지는 문제를 해결했습니다.
 - 기타 버그 & 개선
 
 ## <a name="1012563-30121022125630"></a>101.25.63 (30.121022.12563.0)

@@ -15,14 +15,13 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.date: 03/08/2021
 ms.topic: how-to
-ms.openlocfilehash: 2ef3fbeec65be512dfe07f1d533df4d8e9b31532
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: ae7dbea7d476e8a8f6198378e1d1bb29e24c37a2
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644503"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688348"
 ---
 # <a name="protect-your-network"></a>네트워크 보호
 
@@ -36,14 +35,16 @@ ms.locfileid: "51644503"
 
 네트워크 보호는 인터넷 기반 이벤트에서 장치의 공격 표면을 줄이는 데 도움이 됩니다. 이를 통해 직원이 응용 프로그램을 사용하여 인터넷에서 피싱 사기, 악용 및 기타 악성 콘텐츠를 호스팅할 수 있는 위험한 도메인에 액세스할 수 없습니다. 네트워크 보호는 Microsoft [Defender SmartScreen의](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview) 범위를 확장하여 신뢰도가 낮은 원본(도메인 또는 호스트 이름 기반)에 연결하려고 하는 모든 아웃바운드 HTTP 트래픽을 차단합니다.
 
-네트워크 보호는 Windows 10 버전 1709부터 Windows에서 지원됩니다. 
+네트워크 보호는 Windows 10 버전 1709부터 Windows에서 지원됩니다. 네트워크 보호는 아직 다른 운영 체제에서 지원되지 않지만 Chromium을 기반으로 하는 새로운 Microsoft Edge를 사용하여 웹 보호가 지원됩니다. 자세한 내용은 웹 [보호를 참조합니다.](web-protection-overview.md)
+
+네트워크 보호는 웹 보호의 [보호를](web-protection-overview.md) 운영 체제 수준으로 확장합니다. 이 기능은 지원되는 다른 브라우저 및 비 브라우저 응용 프로그램에 Edge의 웹 보호 기능을 제공합니다. 또한 네트워크 보호는 끝점 감지 및 응답과 함께 사용될 경우 IOC(손상 표시기)를 표시하고 [차단합니다.](overview-endpoint-detection-response.md) 예를 들어 네트워크 보호는 사용자 지정 [표시기 에서 작동합니다.](manage-indicators.md)
 
 네트워크 보호를 사용하도록 설정하는 방법에 대한 자세한 내용은 네트워크 보호 사용 [을 참조하세요.](enable-network-protection.md) 그룹 정책, PowerShell 또는 MDM CSP를 사용하여 네트워크에서 네트워크 보호를 사용하도록 설정하고 관리할 수 있습니다.
 
 > [!TIP]
 > 네트워크 보호가 작동하는 방법을 demo.wd.microsoft.com Microsoft [Defender](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) ATP 테스트그라운드 사이트를 참조하세요.
 
-네트워크 보호는 Exploit Protection 이벤트에 대한 자세한 보고를 제공하며 경고 조사 시나리오의 일부로 차단하는 [끝점용 Microsoft Defender와](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-advanced-threat-protection) [가장 잘 작동합니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/investigate-alerts)
+네트워크 보호는 Exploit Protection 이벤트에 대한 자세한 보고를 제공하며 경고 조사 시나리오의 일부로 차단하는 [끝점용 Microsoft Defender와](microsoft-defender-endpoint.md) [가장 잘 작동합니다.](investigate-alerts.md)
 
 네트워크 보호가 연결을 차단하면 알림 센터에서 알림이 표시됩니다. 보안 운영 팀은 조직의 [세부](customize-attack-surface-reduction.md#customize-the-notification) 정보 및 연락처 정보로 알림을 사용자 지정할 수 있습니다. 또한 모니터링할 특정 기술에 맞게 개별 공격 표면 감소 규칙을 사용하도록 설정하고 사용자 정의할 수 있습니다.
 
@@ -55,18 +56,18 @@ ms.locfileid: "51644503"
 
 | Windows 버전 | Microsoft Defender 바이러스 백신 |
 |:---|:---|
-| Windows 10 버전 1709 이상 <p>Windows Server 1803 이상 | [Microsoft Defender 바이러스 백신 실시간 보호](https://docs.microsoft.com/windows/security/threat-protection/configure-real-time-protection-microsoft-defender-antivirus.md) 및 클라우드 [제공](https://docs.microsoft.com/windows/security/threat-protection/enable-cloud-protection-microsoft-defender-antivirus.md) 보호를 사용하도록 설정해야 합니다. |
+| Windows 10 버전 1709 이상 <p>Windows Server 1803 이상 | [Microsoft Defender 바이러스 백신 실시간 보호](configure-real-time-protection-microsoft-defender-antivirus.md) 및 클라우드 [제공](enable-cloud-protection-microsoft-defender-antivirus.md) 보호를 사용하도록 설정해야 합니다. |
 
 서비스를 사용하도록 설정한 후 서비스와 장치(끝점이라고도 하는) 간의 연결을 허용하도록 네트워크 또는 방화벽을 구성해야 할 수 있습니다.  
 
-- .smartscreen.microsoft.com
-- .smartscreen-prod.microsoft.com
+- `.smartscreen.microsoft.com`
+- `.smartscreen-prod.microsoft.com`
 
 ## <a name="review-network-protection-events-in-the-microsoft-defender-for-endpoint-security-center"></a>Microsoft Defender for Endpoint 보안 센터에서 네트워크 보호 이벤트 검토
 
-끝점용 Microsoft Defender는 이벤트에 대한 자세한 보고를 제공하며 경고 조사 시나리오의 일부로 [차단합니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/investigate-alerts)
+끝점용 Microsoft Defender는 이벤트에 대한 자세한 보고를 제공하며 경고 조사 시나리오의 일부로 [차단합니다.](investigate-alerts.md)
 
-고급 헌팅을 사용하여 Microsoft Defender에서 끝점 데이터를 [쿼리할 수 있습니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-windows-defender-advanced-threat-protection) 감사 모드를 사용하는 [](audit-windows-defender.md)경우 고급 헌팅을 사용하여 네트워크 보호 설정이 사용하도록 설정된 경우 환경에 어떤 영향을 주는지 볼 수 있습니다.
+고급 헌팅을 사용하여 Microsoft Defender에서 끝점 데이터를 [쿼리할 수 있습니다.](advanced-hunting-overview.md) 감사 모드를 사용하는 [](audit-windows-defender.md)경우 고급 헌팅을 사용하여 네트워크 보호 설정이 사용하도록 설정된 경우 환경에 어떤 영향을 주는지 볼 수 있습니다.
 
 다음은 예제 쿼리입니다.
 
@@ -90,6 +91,28 @@ Windows 이벤트 로그를 검토하여 네트워크 보호가 악성 IP 또는
 | 5007 | 설정이 변경될 때의 이벤트 |
 | 1125 | 감사 모드에서 네트워크 보호가 발생 하는 경우 이벤트 |
 | 1126 | 차단 모드에서 네트워크 보호가 발생하면 이벤트 |
+
+## <a name="considerations-for-windows-virtual-desktop-running-windows-10-enterprise-multi-session"></a>Windows 10 Enterprise 다중 세션을 실행하는 Windows 가상 데스크톱에 대한 고려 사항
+
+Windows 10 Enterprise의 다중 사용자 특성으로 인해 다음에 유의해야 합니다.
+
+1. 네트워크 보호는 장치 전체 기능으로, 특정 사용자 세션을 대상으로 할 수 없습니다.
+
+2. 웹 콘텐츠 필터링 정책도 장치 전체에 적용됩니다.
+
+3. 사용자 그룹을 구분해야 하는 경우 별도의 Windows Virtual Desktop 호스트 풀 및 할당을 만드는 것이 좋습니다.
+
+4. 감사 모드에서 네트워크 보호를 테스트하여 롤아웃하기 전에 해당 동작을 평가합니다. 
+
+5. 사용자 수 또는 다중 사용자 세션 수가 많은 경우 배포의 크기 조정을 고려합니다.
+
+### <a name="alternative-option-for-network-protection"></a>네트워크 보호를 위한 대체 옵션
+
+Azure의 Windows Virtual Desktop에서 사용되는 Windows 10 Enterprise Multi-Session 1909 이상의 경우 다음 방법을 사용하여 Microsoft Edge에 대한 네트워크 보호를 사용할 수 있습니다.
+
+1. 네트워크 [보호 켜기 및](enable-network-protection.md) 지침에 따라 정책을 적용합니다.
+
+2. 다음 PowerShell 명령을 실행합니다. `Set-MpPreference -AllowNetworkProtectionOnWinServer 1`
 
 ## <a name="network-protection-troubleshooting"></a>네트워크 보호 문제 해결
 

@@ -1,5 +1,5 @@
 ---
-title: 라이브 응답 명령 예제
+title: 실시간 대응 명령 예제
 description: 끝점용 Microsoft Defender에 대한 기본 또는 고급 라이브 응답 명령을 실행하고 사용 방법에 대한 예제를 참조합니다.
 keywords: 예, 명령, cli, 원격, 셸, 연결, 라이브, 응답, 실시간, 명령, 스크립트, 수정, 헌트, 내보내기, 로그, 놓기, 다운로드, 파일
 search.product: eADQiWindows 10XVcnh
@@ -16,20 +16,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0e00464b5d5dcf348fcc76a3f093ac8bac373627
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: f08f20753a1f0926abbbce01fe97f20ef1c07f2c
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187712"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689092"
 ---
-# <a name="live-response-command-examples"></a>라이브 응답 명령 예제
+# <a name="live-response-command-examples"></a>실시간 대응 명령 예제
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -198,7 +198,11 @@ run script.ps1
 # Run PowerShell script from the library with arguments
 run get-process-by-name.ps1 -parameters "-processName Registry"
 ```
-
+>[!NOTE]
+>
+> '**run**' 또는 '**getfile**'과 같은 장기 실행 명령의 경우 명령 끝에 ' 기호를 사용하여 백그라운드에서 해당 작업을 수행할 **&** 수 있습니다.
+> 이렇게 하면 **'fg'** 기본 명령을 사용하여 컴퓨터 조사를 계속하고 백그라운드 명령으로 [돌아갈 수 있습니다.](live-response.md#basic-commands)
+>
 ## <a name="scheduledtask"></a>scheduledtask
 
 ```

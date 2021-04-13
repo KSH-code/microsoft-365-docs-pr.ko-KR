@@ -11,15 +11,16 @@ localization_priority: Normal
 audience: ITPro
 author: dansimp
 ms.author: dansimp
-ms.reviewer: ''
+ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 84947057abbd456dee5cbf5d0c6fea37f679d9ad
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.topic: how-to
+ms.openlocfilehash: e6f3d6da2424b2b3b6b7c1f2c9973e4046d6e27f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570951"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689177"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용
 
@@ -29,7 +30,8 @@ ms.locfileid: "51570951"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> [!TIP]
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨어가 장치 및 네트워크를 손상하기 위해 자주 남용되는 작업을 방지하는 데 도움이 됩니다. 다음 Windows 버전 및 버전을 실행하는 장치에 대해 ASR 규칙을 설정할 수 있습니다.
 - Windows 10 Pro 버전 [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 이상
@@ -37,11 +39,15 @@ ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨
 - Windows Server, [버전 1803(반기 채널)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 
-각 ASR 규칙에는 다음 세 가지 설정 중 하나가 포함되어 있습니다.
+각 ASR 규칙에는 다음 네 가지 설정 중 하나가 포함되어 있습니다.
 
-- 구성되지 않은 경우: ASR 규칙을 사용하지 않도록 설정
-- 차단: ASR 규칙 사용
-- 감사: ASR 규칙이 사용하도록 설정된 경우 조직에 미치는 영향 평가
+- **구성되지 않은 경우:** ASR 규칙을 사용하지 않도록 설정
+- **차단:** ASR 규칙 사용
+- **감사:** ASR 규칙이 사용하도록 설정된 경우 조직에 미치는 영향 평가
+- **경고:** ASR 규칙을 사용하도록 설정하지만 최종 사용자가 차단을 무시하도록 합니다.
+
+> [!IMPORTANT]
+> 현재 MEM(Microsoft Endpoint Manager)에서 ASR 규칙을 구성할 때 세 가지 ASR 규칙에 대해 경고 모드가 지원되지 않습니다. 자세한 내용은 경고 모드가 지원되지 [않는 경우를 참조합니다.](attack-surface-reduction.md#cases-where-warn-mode-is-not-supported)
 
 Windows E5 라이선스(또는 유사한 라이선스 SKU)와 함께 ASR 규칙을 사용하여 [끝점용 Microsoft Defender(Endpoint용 Defender)에서](https://docs.microsoft.com/windows/security/threat-protection) 사용할 수 있는 고급 모니터링 및 보고 기능을 활용하는 것이 좋습니다. 그러나 고급 모니터링 및 보고 기능에 액세스할 수 없는 Windows Professional 또는 E3와 같은 다른 라이선스의 경우 ASR 규칙이 트리거될 때 각 끝점에서 생성되는 이벤트(예: 이벤트 전달)를 통해 자체 모니터링 및 보고 도구를 개발할 수 있습니다.
 
@@ -97,11 +103,12 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
 
 `Value: 75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84=2|3B576869-A4EC-4529-8536-B80A7769E899=1|D4F940AB-401B-4EfC-AADC-AD5F3C50688A=2|D3E037E1-3EB8-44C8-A917-57927947596D=1|5BEB7EFE-FD9A-4556-801D-275E5FFC04CC=0|BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550=1`
 
-감사 모드에서 사용, 사용 안 하도록 설정 또는 사용 하도록 설정 하는 값은:
+감사 모드에서 사용(차단), 사용 안 하도록 설정, 경고 또는 사용 하도록 설정할 값은:
 
-- Disable = 0
-- 차단(ASR 규칙 사용) = 1
-- 감사 = 2
+- 0: 사용 안 하게(ASR 규칙 사용 안 하게)
+- 1: 차단(ASR 규칙 사용)
+- 2: 감사(ASR 규칙이 사용하도록 설정된 경우 조직에 어떤 영향을 미치는지 평가)
+- 6: 경고(ASR 규칙을 사용하도록 설정하지만 최종 사용자가 차단을 무시하도록 허용)
 
 [./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductiononlyexclusions) CSP(구성 서비스 공급자)를 사용하여 제외를 추가합니다.
 
@@ -143,11 +150,12 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
 
      **표시...를** 선택하고 값 이름 열에 규칙 ID를 입력하고 다음과 같이 값 열에 선택한 상태를 입력합니다.
 
-   - Disable = 0
-   - 차단(ASR 규칙 사용) = 1
-   - 감사 = 2
+   - 0: 사용 안 하게(ASR 규칙 사용 안 하게)
+   - 1: 차단(ASR 규칙 사용)
+   - 2: 감사(ASR 규칙이 사용하도록 설정된 경우 조직에 어떤 영향을 미치는지 평가)
+   - 6: 경고(ASR 규칙을 사용하도록 설정하지만 최종 사용자가 차단을 무시하도록 허용)
 
-   ![빈 공격 표면 축소 규칙 ID 및 값 1을 보여 주는 그룹 정책 설정](/microsoft-365/security/defender-endpoint/images/asr-rules-gp)
+   :::image type="content" source="images/asr-rules-gp.png" alt-text="그룹 정책의 ASR 규칙":::
 
 5. ASR 규칙에서 파일 및 폴더를  제외하려면 공격 표면 축소 규칙에서 파일 및 경로 제외 설정을 선택하고 옵션을 사용으로 **설정합니다.** 표시를 **선택하고** 값 이름 열에 각 파일 또는 **폴더를 입력합니다.** 각 항목의 값 **열에** **0을** 입력합니다.
 
@@ -173,6 +181,12 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
     Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReductionRules_Actions AuditMode
     ```
 
+    경고 모드에서 ASR 규칙을 사용하도록 설정하려면 다음 cmdlet을 사용 합니다.
+
+    ```PowerShell
+    Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReductionRules_Actions Warn
+    ```
+
     ASR 규칙을 끄기 위해 다음 cmdlet을 사용 합니다.
 
     ```PowerShell
@@ -191,7 +205,7 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
     PowerShell 동사로 기존 목록에 새 규칙을 `Add-MpPreference` 추가할 수도 있습니다.
 
     > [!WARNING]
-    > `Set-MpPreference` 는 항상 기존 규칙 집합을 덮어 덮어 들이게 됩니다. 기존 집합에 추가하려는 경우 대신 를 `Add-MpPreference` 사용합니다.
+    > `Set-MpPreference` 는 항상 기존 규칙 집합을 덮어 덮어 들이게 됩니다. 기존 집합에 추가하려는 경우 대신 `Add-MpPreference` 사용합니다.
     > 를 사용하여 규칙 및 규칙의 현재 상태 목록을 얻을 수 `Get-MpPreference` 있습니다.
 
 3. ASR 규칙에서 파일 및 폴더를 제외하려면 다음 cmdlet을 사용 합니다.

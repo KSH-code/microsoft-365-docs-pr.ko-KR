@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP 위협 분석을 사용하여 새로운 위협 추적 및 대응
+title: Endpoint 위협 분석을 위한 Microsoft Defender를 사용하여 새로운 위협 추적 및 대응
 ms.reviewer: ''
 description: 새로운 위협 및 공격 기술과 이를 중지하는 방법에 대해 자세히 알아보십시오. 조직에 미치는 영향을 평가하고 조직 탄력성 평가
 keywords: 위협 분석, 위험 평가, OS 완화, 마이크로코드 완화, 완화 상태
@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 853a862556825e714bb06e51839f9c026e0cc0e0
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 61b6b0c19730045468c77e5f24bf18470aa5dbd5
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501195"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688264"
 ---
 # <a name="track-and-respond-to-emerging-threats-with-threat-analytics"></a>위협 분석을 사용하여 새로운 위협 추적 및 대응 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)

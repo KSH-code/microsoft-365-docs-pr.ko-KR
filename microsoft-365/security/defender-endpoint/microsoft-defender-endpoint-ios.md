@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7d4bc095a9fbc0b9cd166d3133ed291a2c8c01da
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 6bf9691f390173ec86dcadd19707c980aa66336f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615426"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687772"
 ---
-# <a name="microsoft-defender-for-endpoint-for-ios"></a>엔드포인트용 Microsoft Defender(iOS용)
+# <a name="microsoft-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,7 +36,7 @@ ms.locfileid: "51615426"
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-**iOS용 끝점용 Microsoft Defender는** 웹 사이트, 전자 메일 및 앱의 피싱 및 안전하지 않은 네트워크 연결로부터 보호합니다. 모든 경고는 Microsoft Defender 보안 센터의 단일 창을 통해 사용할 수 있습니다. 이 포털은 보안 팀에서 다른 플랫폼과 함께 iOS 장치에 대한 위협을 중앙 집중식으로 볼 수 있습니다.
+**iOS의 끝점용 Microsoft Defender는** 웹 사이트, 전자 메일 및 앱의 피싱 및 안전하지 않은 네트워크 연결로부터 보호합니다. 모든 경고는 Microsoft Defender 보안 센터의 단일 창을 통해 사용할 수 있습니다. 이 포털은 보안 팀에서 다른 플랫폼과 함께 iOS 장치에 대한 위협을 중앙 집중식으로 볼 수 있습니다.
 
 > [!CAUTION]
 > iOS용 Endpoint용 Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 시스템 오류가 발생할 수 있습니다.
@@ -58,7 +58,7 @@ ms.locfileid: "51615426"
 - Microsoft Defender 보안 센터 포털에 액세스합니다.
 
     > [!NOTE]
-    > Microsoft Intune은 iOS용 끝점용 Microsoft Defender를 배포할 수 있는 유일한 MDM(모바일 장치 관리) 솔루션입니다. 현재 등록된 장치만 Intune에서 iOS 관련 장치 준수 정책에 대한 끝점용 Defender를 적용하는 데 지원됩니다.
+    > Microsoft Intune은 iOS에서 끝점용 Microsoft Defender를 배포하는 데 지원되는 유일한 MDM(모바일 장치 관리) 솔루션입니다. 현재 등록된 장치만 Intune에서 iOS 관련 장치 준수 정책에 대한 끝점용 Defender를 적용하는 데 지원됩니다.
 
 - Microsoft [Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431)관리 센터에 액세스하여 조직의 등록된 사용자 그룹에 앱을 배포합니다.
 
@@ -73,16 +73,16 @@ ms.locfileid: "51615426"
 
 ## <a name="installation-instructions"></a>설치 지침
 
-iOS용 끝점용 Microsoft Defender 배포는 Microsoft Intune(MDM)을 통해 배포할 수 있으며 감독되는 디바이스와 관리되지 않는 디바이스가 모두 지원됩니다.
-자세한 내용은 [Deploy Microsoft Defender for Endpoint for iOS를 참조하세요.](ios-install.md)
+iOS에서 끝점용 Microsoft Defender 배포는 Microsoft Intune(MDM)을 통해 배포할 수 있으며 감독되는 디바이스와 관리되지 않는 디바이스가 모두 지원됩니다.
+자세한 내용은 [iOS에서 끝점용 Microsoft Defender 배포를 참조하세요.](ios-install.md)
 
 ## <a name="resources"></a>리소스
 
-- [iOS용 끝점용 Microsoft Defender의](ios-whatsnew.md) 새로운 소식 또는 블로그를 방문하여 예정된 릴리스에 대한 정보를 [계속 확인하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/iOS)
+- iOS 또는 블로그의 [끝점용 Microsoft Defender의 새로운](ios-whatsnew.md) 소식을 방문하여 예정된 릴리스에 대한 정보를 계속 [확인하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/iOS)
 
 - 앱 내 피드백 시스템 또는 [SecOps](https://securitycenter.microsoft.com) 포털을 통해 피드백 제공
 
 ## <a name="next-steps"></a>다음 단계
 
-- [iOS용 끝점용 Microsoft Defender 배포](ios-install.md)
+- [iOS에서 끝점용 Microsoft Defender 배포](ios-install.md)
 - [iOS 기능에 대한 끝점용 Microsoft Defender 구성](ios-configure-features.md)

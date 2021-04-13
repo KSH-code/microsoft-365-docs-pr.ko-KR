@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0d9e63c5d89b13b02dfcf116c1555c8db319d23f
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: d5a19464b9d5d1b9659d7bfae2d853f7a640a00b
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445367"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687892"
 ---
-# <a name="configure-alert-notifications-in-microsoft-defender-atp"></a>Microsoft Defender ATP에서 경고 알림 구성
+# <a name="configure-alert-notifications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 경고 알림 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-emailconfig-abovefoldlink)
@@ -38,7 +38,7 @@ ms.locfileid: "51445367"
 > [!NOTE]
 > '보안 설정 관리' 권한이 있는 사용자만 전자 메일 알림을 구성할 수 있습니다. 기본 사용 권한 관리를 사용하도록 선택한 경우 보안 관리자 또는 전역 관리자 역할이 있는 사용자는 전자 메일 알림을 구성할 수 있습니다.
 
-알림을 트리거하는 경고 심각도 수준을 설정할 수 있습니다. 전자 메일 알림의 받는 사람을 추가하거나 제거할 수도 있습니다. 새 받는 사람은 추가된 후 발생하는 경고에 대한 알림을 받을 수 있습니다. 경고에 대한 자세한 내용은 경고 큐 보기 및 [구성을 참조하세요.](alerts-queue.md)
+알림을 트리거하는 경고 심각도 수준을 설정할 수 있습니다. 전자 메일 알림의 받는 사람을 추가하거나 제거할 수도 있습니다. 새 받는 사람은 추가된 후 트리거된 경고에 대한 알림을 받을 수 있습니다. 경고에 대한 자세한 내용은 경고 큐 보기 및 [구성을 참조하세요.](alerts-queue.md)
 
 RBAC(역할 기반 액세스 제어)를 사용하는 경우 받는 사람은 알림 규칙에 구성된 장치 그룹을 기반으로 하는 알림만 받게 됩니다.
 적절한 권한이 있는 사용자는 장치 그룹 관리 범위로 제한되는 알림만 만들거나 편집하거나 삭제할 수 있습니다.
@@ -71,7 +71,7 @@ RBAC(역할 기반 액세스 제어)를 사용하는 경우 받는 사람은 알
     
 5. 받는 사람의 전자 메일 주소를 입력한 다음 받는 사람 **추가를 클릭합니다.** 여러 전자 메일 주소를 추가할 수 있습니다.
 
-6. 테스트 전자 메일 보내기 를 선택하여 전자 메일 받는 사람이 전자 메일 알림을 받을 **수 있는지 확인**
+6. 테스트 전자 메일 보내기 를 선택하여 전자 메일 받는 사람이 전자 메일 알림을 **받을 수 있는지 확인**
 
 7. 알림 **규칙 저장을 클릭합니다.**
 

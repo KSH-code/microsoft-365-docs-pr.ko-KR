@@ -1,7 +1,6 @@
 ---
 title: 직접 기존의 장치 등록
 description: Microsoft Managed Desktop에서 관리할 수 있도록 이미 사용 중일 수 있는 다시 사용 장치 등록
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
@@ -12,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 1703e4ed4ea0f3306edf6fdf07ab9c97a9266d4f
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: f2b3e109493331a4b63d669501525a48cb996809
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445569"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689224"
 ---
 # <a name="register-existing-devices-yourself"></a>직접 기존의 장치 등록
 
@@ -150,9 +149,11 @@ Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformatio
 다음 단계를 따릅니다:
 
 1. 파일 **업로드에서** 이전에 만든 CSV 파일의 경로를 제공합니다.
+2. 드롭다운 [메뉴에서](../service-description/profiles.md) 장치 프로필을 선택합니다.
+3. 장치 **등록을 선택합니다.** 시스템은 등록 보류 중으로 표시된 장치 블레이드의 장치 목록에 **장치를 추가합니다.** 등록에는 일반적으로 10분 미만이 걸리며, 등록에 성공하면 장치가 준비된 사용자로 표시되어 사용자가 사용을 시작할 때까지 기다립니다. 
 
-1. 장치 **등록을 선택합니다.** 시스템은 등록 보류 중으로 표시된 장치 블레이드의 장치 목록에 **장치를 추가합니다.** 등록에는 일반적으로 10분 미만이 걸리며, 등록에 성공하면 장치가 준비된 사용자로 표시되어 사용자가 사용을 시작할 때까지 기다립니다. 
-
+> [!NOTE]
+> 장치의 AAD(Azure Active Directory) 그룹 구성원을 수동으로 변경하면 해당 장치 프로필에 대해 그룹에 자동으로 다시 재배치되고 충돌하는 그룹에서 제거됩니다.
 
 기본 페이지에서 장치 등록 진행률을 모니터링할 수 있습니다. 보고된 가능한 상태는 다음과 같습니다.
 

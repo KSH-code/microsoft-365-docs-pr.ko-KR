@@ -19,17 +19,17 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 6becdd995d70c0b8193e8df097c9256dc38c72a2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 0e89977c10de04d8c3331733cd1432525ac3196d
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185900"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689068"
 ---
-# <a name="microsoft-defender-for-endpoint-for-mac---system-extensions-public-preview"></a>Mac용 끝점용 Microsoft Defender - 시스템 확장 공개 미리 보기)
+# <a name="microsoft-defender-for-endpoint-on-macos---system-extensions-public-preview"></a>MacOS의 끝점용 Microsoft Defender - 시스템 확장 공개 미리 보기)
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -150,7 +150,7 @@ $ mdatp health --field real_time_protection_subsystem
 
    EICAR 및 EDR DIY 시나리오에 대한 컴퓨터 페이지의 포털에 두 개의 경고가 떠오르는지 확인하십시오.
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 - Q: 실행 시 여전히 `kernel_extension` 표시하는 이유는 `mdatp health --field real_time_protection_subsystem` 무엇입니까?
 

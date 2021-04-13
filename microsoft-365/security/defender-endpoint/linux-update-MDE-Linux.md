@@ -16,16 +16,16 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b4c2e4d80628dab40de9e99abb27237176b9f171
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a967333a58f74938ea70e32e0c48d2decb597e98
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51070503"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688804"
 ---
-# <a name="schedule-an-update-of-the-microsoft-defender-for-endpoint-linux"></a>끝점용 Microsoft Defender 업데이트 예약(Linux)
+# <a name="schedule-an-update-of-the-microsoft-defender-for-endpoint-linux"></a>엔드포인트용 Microsoft Defender(Linux) 업데이트 예약
 
-Linux용 끝점용 Microsoft Defender에서 업데이트를 실행하기 위해 Linux용 [끝점용 Microsoft Defender 업데이트 배포를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-updates)
+Linux의 끝점용 Microsoft Defender에서 업데이트를 실행하기 위해 Linux에서 [끝점용 Microsoft Defender 업데이트 배포를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-updates)
 
 Linux(및 Unix)에는 예약된 작업을 실행할 수 있는 **크로ntab(작업** 스케줄러와 유사)라는 도구가 있습니다.
 

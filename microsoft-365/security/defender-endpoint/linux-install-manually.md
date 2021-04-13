@@ -1,5 +1,5 @@
 ---
-title: Linux용 끝점용 Microsoft Defender 수동 배포
+title: Linux에서 수동으로 끝점용 Microsoft Defender 배포
 ms.reviewer: ''
 description: 명령줄에서 수동으로 Linux용 Microsoft Defender ATP를 배포하는 방법을 설명합니다.
 keywords: microsoft, defender, atp, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
@@ -18,14 +18,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c695eb0d786e73da5adb95bbca5c1747243d6203
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 78ea8b106253098791d71ef9ff788b7cf1df4ec7
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644743"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688408"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-linux-manually"></a>Linux용 끝점용 Microsoft Defender 수동 배포
+# <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,9 +36,9 @@ ms.locfileid: "51644743"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-이 문서에서는 Linux용 끝점용 Microsoft Defender를 수동으로 배포하는 방법을 설명하고 있습니다. 배포를 성공적으로 수행하려면 다음 작업을 모두 완료해야 합니다.
+이 문서에서는 Linux에서 수동으로 끝점용 Microsoft Defender를 배포하는 방법을 설명합니다. 배포를 성공적으로 수행하려면 다음 작업을 모두 완료해야 합니다.
 
-- [Linux용 끝점용 Microsoft Defender 수동 배포](#deploy-microsoft-defender-for-endpoint-for-linux-manually)
+- [Linux에서 수동으로 끝점용 Microsoft Defender 배포](#deploy-microsoft-defender-for-endpoint-on-linux-manually)
   - [선행 조건 및 시스템 요구 사항](#prerequisites-and-system-requirements)
   - [Linux 소프트웨어 리포지토리 구성](#configure-the-linux-software-repository)
     - [RHEL 및 변형(CentOS 및 Oracle Linux)](#rhel-and-variants-centos-and-oracle-linux)
@@ -54,7 +54,7 @@ ms.locfileid: "51644743"
 
 ## <a name="prerequisites-and-system-requirements"></a>선행 조건 및 시스템 요구 사항
 
-시작하기 전에 현재 소프트웨어 버전에 대한 선행 조건 및 시스템 요구 사항에 대한 설명은 [Linux용 끝점용 Microsoft Defender를](microsoft-defender-endpoint-linux.md) 참조하세요.
+시작하기 전에 현재 소프트웨어 버전에 대한 선행 조건 및 시스템 요구 사항에 대한 설명은 [Linux의 끝점용 Microsoft Defender를](microsoft-defender-endpoint-linux.md) 참조하세요.
 
 ## <a name="configure-the-linux-software-repository"></a>Linux 소프트웨어 리포지토리 구성
 

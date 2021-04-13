@@ -17,19 +17,19 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 64a19e9dd3d373c8092553ca9d60c711bfb500bc
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 7d9dd82d8c1beee77ea1f95b11a12bcddf01115f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186416"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688336"
 ---
-# <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>비 Windows 플랫폼용 끝점용 Microsoft Defender
+# <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>엔드포인트용 Microsoft Defender(Windows가 아닌 플랫폼)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -71,7 +71,7 @@ iOS의 끝점용 Microsoft Defender는 iOS 11.0 이상을 실행하는 장치에
 
 고객은 Microsoft 365 A5/E5 또는 Microsoft 365 보안의 일부로 독립 실행형 Microsoft Defender for Endpoint 라이선스를 통해 macOS의 끝점용 Microsoft Defender를 얻을 수 있습니다.
 
-Android 및 iOS용 끝점용 Microsoft Defender의 최근 발표된 기능은 적격 라이선스 사용자에 대한 5개의 적격 디바이스의 일부로 위에서 언급한 혜택에 포함되어 있습니다.
+최근에 발표된 Android 및 iOS용 끝점용 Microsoft Defender 기능은 적격 라이선스 사용자에 대한 5개의 적격 디바이스의 일부로 위에서 언급한 혜택에 포함되어 있습니다.
 
 Linux의 끝점용 Defender는 상업 및 교육 고객에게 모두 사용할 수 있는 Endpoint Server SKU용 Defender를 통해 사용할 수 있습니다.
 

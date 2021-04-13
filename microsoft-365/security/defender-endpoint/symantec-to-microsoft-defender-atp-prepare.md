@@ -21,20 +21,20 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 87da8a558e1295f793600aae2fdd836667374052
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: 4cf22ff668859757d3a3ccf21d81751f526b97f7
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218727"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687640"
 ---
 # <a name="migrate-from-symantec---phase-1-prepare-for-your-migration"></a>Symantec에서 마이그레이션 - 1단계: 마이그레이션 준비
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-|![1단계: 준비](images/phase-diagrams/prepare.png)<br/>1단계: 준비 |[![2단계: 설정](images/phase-diagrams/setup.png)](symantec-to-microsoft-defender-atp-setup.md)<br/>[2단계: 설정](symantec-to-microsoft-defender-atp-setup.md) |[![3단계: 온보더](images/phase-diagrams/onboard.png)](symantec-to-microsoft-defender-atp-onboard.md)<br/>[3단계: 온보더](symantec-to-microsoft-defender-atp-onboard.md) |
+|![1 단계: 준비](images/phase-diagrams/prepare.png)<br/>1 단계: 준비 |[![2 단계: 설정](images/phase-diagrams/setup.png)](symantec-to-microsoft-defender-atp-setup.md)<br/>[2 단계: 설정](symantec-to-microsoft-defender-atp-setup.md) |[![3 단계: 온보딩](images/phase-diagrams/onboard.png)](symantec-to-microsoft-defender-atp-onboard.md)<br/>[3 단계: 온보딩](symantec-to-microsoft-defender-atp-onboard.md) |
 |--|--|--|
 |*여기 있습니다!*| | |
 
@@ -69,7 +69,7 @@ Microsoft Defender 보안 센터에 대한 사용 권한은 기본 사용 권한
 1. 보안 관리자 및 보안 운영자에 대한 역할 및 사용 권한을 계획합니다. 역할 [기반 액세스 제어를 참조합니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/prepare-deployment#role-based-access-control)
 2. RBAC를 설정하고 구성합니다. 특히 조직에서 Windows 10, macOS, iOS 및 Android 장치의 조합을 사용하는 경우 [Intune을](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) 사용하여 RBAC를 구성하는 것이 좋습니다. [Intune을 사용하여 RBAC 설정을 참조합니다.](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control)<br/>
    조직에서 Intune 외의 방법이 필요한 경우 다음 옵션 중 하나를 선택합니다.
-    - [구성 관리자](https://docs.microsoft.com/mem/configmgr/core/servers/deploy/configure/configure-role-based-administration)
+    - [Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/servers/deploy/configure/configure-role-based-administration)
     - [고급 그룹 정책 관리](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm)
     - [Windows Admin Center](https://docs.microsoft.com/windows-server/manage/windows-admin-center/overview)
 3. Microsoft Defender 보안 센터에 대한 액세스 권한을 부여합니다. (도움이 필요하세요? [RBAC를 사용하여 포털 액세스 관리를 참조합니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/rbac)
@@ -82,10 +82,10 @@ Microsoft Defender 보안 센터에 대한 사용 권한은 기본 사용 권한
 |:----|:----|:---|
 |[끝점 검색 및](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) 응답(EDR) |- [Windows 10](https://docs.microsoft.com/windows/release-health/release-information/) <br/>- [Windows Server 2019](https://docs.microsoft.com/windows/release-health/status-windows-10-1809-and-windows-server-2019)<br/>- [Windows Server 1803 이상](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803)  |[컴퓨터 프록시 및 인터넷 연결 설정 구성](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet) |
 |EDR |- [Windows Server 2016](https://docs.microsoft.com/windows/release-health/status-windows-10-1607-and-windows-server-2016) <br/>- [Windows Server 2012 R2](https://docs.microsoft.com/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/>- [Windows Server 2008 R2 SP1](https://docs.microsoft.com/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<br/>- [Windows 8.1](https://docs.microsoft.com/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/>- [Windows 7 SP1](https://docs.microsoft.com/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |[프록시 및 인터넷 연결 설정 구성](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-downlevel#configure-proxy-and-internet-connectivity-settings) |
-|EDR  |macOS: <br/>- 10.15(카탈로나)<br/>- 10.14(Mojave) <br/>- 10.13(High Sierra)  |[Mac용 끝점용 Microsoft Defender: 네트워크 연결](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-mac#network-connections) |
+|EDR  |macOS: <br/>- 10.15(카탈로나)<br/>- 10.14(Mojave) <br/>- 10.13(High Sierra)  |[MacOS의 끝점용 Microsoft Defender: 네트워크 연결](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-mac#network-connections) |
 |[Microsoft Defender 바이러스 백신](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) |- [Windows 10](https://docs.microsoft.com/windows/release-health/release-information/) <br/>- [Windows Server 2019](https://docs.microsoft.com/windows/release-health/status-windows-10-1809-and-windows-server-2019)<br/>- [Windows Server 1803 이상](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) <br/>- [Windows Server 2016](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-2016) |[Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus)<br/> |
 |바이러스 검사 |macOS: <br/>- 10.15(카탈로나)<br/>- 10.14(Mojave) <br/>- 10.13(High Sierra) |[Mac용 끝점용 Microsoft -Defender: 네트워크 연결](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-mac#network-connections) |
-|바이러스 검사 |Linux: <br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS 이상<br/>- SLES 12+<br/>- 데비안 9+<br/>- Oracle Linux 7.2 |[Linux용 끝점용 Microsoft Defender: 네트워크 연결](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-linux#network-connections)  |
+|바이러스 검사 |Linux: <br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS 이상<br/>- SLES 12+<br/>- 데비안 9+<br/>- Oracle Linux 7.2 |[Linux의 끝점용 Microsoft Defender: 네트워크 연결](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-linux#network-connections)  |
 
 ## <a name="next-step"></a>다음 단계
 

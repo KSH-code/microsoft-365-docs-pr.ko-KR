@@ -1,6 +1,6 @@
 ---
-title: Microsoft Intune으로 엔드포인트용 Microsoft Defender(Android용) 배포
-description: Microsoft Intune을 사용하여 Android용 끝점용 Microsoft Defender를 배포하는 방법에 대해 설명
+title: Microsoft Intune을 통해 Android에서 끝점용 Microsoft Defender 배포
+description: Microsoft Intune을 사용하여 Android에서 끝점용 Microsoft Defender를 배포하는 방법을 설명
 keywords: microsoft, defender, atp, mde, android, 설치, 배포, 제거,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fdfc6e63945e15ce2d1f1a293c377f641eeb9bc4
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 350345acbaadcdd6bc8ef901f03c419a7f8decff
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587698"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687724"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-android-with-microsoft-intune"></a>Microsoft Intune으로 엔드포인트용 Microsoft Defender(Android용) 배포 
+# <a name="deploy-microsoft-defender-for-endpoint-on-android-with-microsoft-intune"></a>Microsoft Intune을 통해 Android에서 끝점용 Microsoft Defender 배포 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -104,7 +104,7 @@ Intune에서 지원하는 등록 옵션에 대한 자세한 내용은 [등록 �
 
 **현재 회사 프로필이 있는 개인 소유 장치 및 회사 소유의 완전히 관리되는 사용자 장치 등록은 배포에 지원됩니다.**
 
-## <a name="add-microsoft-defender-for-endpoint-for-android-as-a-managed-google-play-app"></a>Android용 끝점용 Microsoft Defender를 관리되는 Google Play 앱으로 추가
+## <a name="add-microsoft-defender-for-endpoint-on-android-as-a-managed-google-play-app"></a>Android에서 끝점용 Microsoft Defender를 관리되는 Google Play 앱으로 추가
 
 아래 단계에 따라 관리되는 Google Play에 끝점용 Microsoft Defender 앱을 추가합니다.
 
@@ -240,7 +240,7 @@ Endpoint용 Defender는 Intune을 통해 관리되는 장치에 대한 장치 �
 
 ## <a name="complete-onboarding-and-check-status"></a>온보더링 완료 및 상태 확인
 
-1. 장치 설치 상태를 클릭하여 Android용 끝점용 Microsoft Defender의 설치 **상태를 확인합니다.** 디바이스가 여기에 표시되는지 확인합니다.
+1. 장치 설치 상태를 클릭하여 Android에서 끝점용 Microsoft Defender의 설치 **상태를 확인합니다.** 디바이스가 여기에 표시되는지 확인합니다.
 
     > [!div class="mx-imgBorder"]
     > ![장치 설치 상태의 이미지](images/900c0197aa59f9b7abd762ab2b32e80c.png)
@@ -260,5 +260,5 @@ Endpoint용 Defender는 Intune을 통해 관리되는 장치에 대한 장치 �
 
 
 ## <a name="related-topics"></a>관련 항목
-- [엔드포인트용 Microsoft Defender(Android용) 개요](microsoft-defender-endpoint-android.md)
-- [엔드포인트용 Microsoft Defender(Android용) 기능 구성](android-configure.md)
+- [Android의 끝점용 Microsoft Defender 개요](microsoft-defender-endpoint-android.md)
+- [Android 기능에서 끝점에 대한 Microsoft Defender 구성](android-configure.md)

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP의 웹 위협에 대응
+title: 끝점용 Microsoft Defender의 웹 위협에 대응
 description: 악성 및 원치 않는 웹 사이트와 관련된 경고에 응답합니다. 웹 위협 방지가 최종 사용자에게 웹 브라우저 및 Windows 알림을 통해 알리는 방법 이해
 keywords: 웹 보호, 웹 위협 방지, 웹 검색, 경고, 응답, 보안, 피싱, 맬웨어, 악용, 웹 사이트, 네트워크 보호, Edge, Internet Explorer, Chrome, Firefox, 웹 브라우저, 알림, 최종 사용자, Windows 알림, 차단 페이지,
 search.product: eADQiWindows 10XVcnh
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b0e6bb0d71c14bf7742f8d6508fbb95b76b10a34
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 110b379863b4c6e23c947c56faf831e136231237
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498363"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688480"
 ---
 # <a name="respond-to-web-threats"></a>웹 위협에 대응
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)

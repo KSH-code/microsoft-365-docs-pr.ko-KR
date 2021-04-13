@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: be01d5908e4c79f642cdbbddd75115f6ebc2c713
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 9b00d81d3d51c343565ec4eb743181baa2750b01
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499610"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687736"
 ---
-# <a name="set-up-the-microsoft-defender-for-endpoint-for-macos-policies-in-jamf-pro"></a>Jamf Pro에서 macOS용 끝점용 Microsoft Defender 정책 설정
+# <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Jamf Pro에서 macOS 정책에 대한 끝점용 Microsoft Defender 설정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -56,9 +56,9 @@ ms.locfileid: "51499610"
 
 9. [네트워크 확장 구성](#step-9-configure-network-extension)
 
-10. [Mac용 끝점에 대한 Microsoft Defender 검사 예약](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
+10. [MacOS의 끝점에 대한 Microsoft Defender 검사 예약](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
 
-11. [MacOS용 끝점용 Microsoft Defender 배포](#step-11-deploy-microsoft-defender-for-endpoint-for-macos)
+11. [macOS에서 끝점용 Microsoft Defender 배포](#step-11-deploy-microsoft-defender-for-endpoint-on-macos)
 
 
 ## <a name="step-1-get-the-microsoft-defender-for-endpoint-onboarding-package"></a>1단계: 끝점용 Microsoft Defender 온보딩 패키지 다운로드
@@ -360,7 +360,7 @@ ms.locfileid: "51499610"
         - **배포 방법:** 자동으로 *설치(기본값)*
         - **수준:** 컴퓨터 *수준(기본값)*
 
-        ![구성 설정의 이미지 mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
+        ![구성 프로필 설정의 이미지 mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
 
     - 탭 **알림,** **추가를 클릭하고** 다음 값을 입력합니다.
         - **번들 ID**: `com.microsoft.wdav.tray`
@@ -681,7 +681,7 @@ ms.locfileid: "51499610"
 
 ## <a name="step-9-configure-network-extension"></a>9단계: 네트워크 확장 구성
 
-끝점 검색 및 응답 기능의 일부로, Mac용 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
+끝점 감지 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
 
 이러한 단계는 macOS 10.15(카탈로니아) 이상에서 적용할 수 있습니다.
 
@@ -707,7 +707,7 @@ ms.locfileid: "51499610"
 
         **식별자,** **소켓 필터** 및 **소켓 필터** 지정된 요구 사항의 정확한 값은 위에 지정된 값입니다.
 
-        ![구성 설정의 이미지 mdatpmdav](images/netext-create-profile.png)
+        ![구성 설정 mdatpmdav의 이미지](images/netext-create-profile.png)
 
 3. 범위 **탭을** 선택합니다.
 
@@ -731,10 +731,10 @@ ms.locfileid: "51499610"
 
 또는 Jamf Pro를 사용하여 사용자 지정 구성 프로필 배포에 설명된 바와 같이 [netfilter.mobileconfig를](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/netfilter.mobileconfig) 다운로드하여 JAMF 구성 프로필에 [업로드할 수 있습니다| 방법 2: Jamf Pro에 구성 프로필 업로드.](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro)
 
-## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-for-mac"></a>10단계: Mac용 끝점에 대한 Microsoft Defender 검사 예약
-[Mac용 끝점에 대한 Microsoft Defender 검사 예약에 대한 지침을 따릅니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
+## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a>10단계: MacOS의 끝점에 대한 Microsoft Defender 검사 예약
+[MacOS의 끝점에 대한 Microsoft Defender 검사 예약에 대한 지침을 따릅니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
 
-## <a name="step-11-deploy-microsoft-defender-for-endpoint-for-macos"></a>11단계: macOS용 끝점용 Microsoft Defender 배포
+## <a name="step-11-deploy-microsoft-defender-for-endpoint-on-macos"></a>11단계: macOS에서 끝점용 Microsoft Defender 배포
 
 1. 을 저장한 위치로 `wdav.pkg` 이동합니다.
 

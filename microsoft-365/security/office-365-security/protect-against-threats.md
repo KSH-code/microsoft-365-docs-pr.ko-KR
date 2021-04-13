@@ -20,12 +20,12 @@ description: 관리자는 Microsoft 365의 위협 방지에 대해 알아보고 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2df88df9f1f0e2c14c0adcf0d5772189a1276e9d
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: b55391247bf7d21c68c67e29f93bac1b7088b035
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650233"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687090"
 ---
 # <a name="protect-against-threats"></a>위협으로부터 보호
 
@@ -60,8 +60,8 @@ ms.locfileid: "51650233"
 |스팸 방지 보호 기능|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |제로 아워 자동 제거(전자 메일용)|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |전자 메일 및 Office 문서의 악의적인 URL 및 파일로부터 보호(안전한 링크 및 안전한 첨부 파일)|[Office 365용 Microsoft Defender](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
-|SharePoint, OneDrive 및 Microsoft Teams 워크로드에 대한 안전한 첨부 파일 켜기|[Office 365용 Defender](turn-on-mdo-for-spo-odb-and-teams.md)|
-|고급 피싱 방지 보호 기능|[Office 365용 Defender](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|SharePoint, OneDrive 및 Microsoft Teams 워크로드에 대한 안전한 첨부 파일 켜기|[Office 365용 Microsoft Defender](turn-on-mdo-for-spo-odb-and-teams.md)|
+|고급 피싱 방지 보호 기능|[Office 365용 Microsoft Defender](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>역할 및 사용 권한
 

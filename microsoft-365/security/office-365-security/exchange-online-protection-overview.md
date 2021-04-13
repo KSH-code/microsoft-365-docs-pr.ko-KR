@@ -15,12 +15,12 @@ ms.custom:
 description: EOP(Exchange Online Protection)를 통해 독립 실행형 및 하이브리드 환경에서의 전자 메일 조직을 보호하는 방법에 대해 자세히 알아보십시오.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3df7b376d559535e168bfa21d2a8770b19569c4f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b699c0d6353d725b8d03cf4cf556a3e2ac798041
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206779"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687056"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
@@ -70,6 +70,9 @@ EOP가 받는 전자 메일을 처리하는 방법을 확인하면 EOP의 작동
 - **Exchange Enterprise CAL with Services:** Exchange Enterprise CAL with Services 라이선스를 추가로 구입한 사내 Exchange 조직이 있는 경우 EOP는 포함된 서비스의 일부입니다.
 
 모든 EOP 구독 계획의 요구 사항, 중요한 제한 및 기능 가용성에 대한 자세한 내용은 Exchange Online Protection 서비스 [설명 을 참조하세요.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
+
+> [!NOTE]
+> **Office 365 E3 구독이 있는 경우 EOP가 포함됩니다.** 구독에서 EOP 보안 기능을 설정하는 단계 및 Office 365용 Microsoft Defender 구독이 추가된 보안에 대한 정보를 확인하려면 [위협으로부터 보호를 참조하세요.](protect-against-threats.md) 설치에 대한 EOP 기능에 대한 권장 [](best-practices-for-configuring-eop.md) 설정은 EOP 설정이 구체적으로 호출되는 권장 문서에서 찾을 수 있습니다.
 
 ## <a name="setting-up-eop-for-on-premises-email-organizations"></a>전자 메일 조직에 대해 EOP 설정
 

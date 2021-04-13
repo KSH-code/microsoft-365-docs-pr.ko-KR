@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP의 위협 방지 보고서
+title: Endpoint용 Microsoft Defender의 위협 방지 보고서
 description: 위협 방지 보고서를 사용하여 경고 감지, 범주 및 심각도 추적
 keywords: 경고 검색, 원본, 범주별 경고, 경고 심각도, 경고 분류, 결정
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4ecd2df31e1e03da5134d3d4180dcba75d3cee26
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: d32ab04f4acda60f65316719a4607c6c9bbd6447
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51183840"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688984"
 ---
 # <a name="threat-protection-report-in-microsoft-defender-for-endpoint"></a>Endpoint용 Microsoft Defender의 위협 방지 보고서
 
@@ -29,7 +29,7 @@ ms.locfileid: "51183840"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -44,7 +44,7 @@ ms.locfileid: "51183840"
 섹션 | 설명 
 :---|:---
 1 | 경고 추세
-2  | 경고 요약
+2 | 경고 요약
 
 ## <a name="alert-trends"></a>경고 추세
 기본적으로 경고 추세는 마지막 전체 일에 끝나는 30일 기간의 경고 정보를 표시합니다. 조직에서 발생하는 추세에 대한 더 나은 관점을 얻기 위해 표시된 기간을 조정하여 보고 기간을 미세 조정할 수 있습니다. 기간을 조정하려면 드롭다운 옵션에서 시간 범위를 선택합니다.

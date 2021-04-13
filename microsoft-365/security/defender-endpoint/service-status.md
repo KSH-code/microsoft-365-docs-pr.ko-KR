@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender ATP 서비스 상태 확인
-description: Microsoft Defender ATP 서비스 상태 확인, 서비스에 문제가 발생하는지 확인하고 해결된 이전 문제를 검토합니다.
+title: Microsoft Defender에서 끝점 서비스 상태 확인
+description: Microsoft Defender에서 끝점 서비스 상태 확인, 서비스에 문제가 발생하는지 확인하고 해결된 이전 문제를 검토합니다.
 keywords: 대시보드, 서비스, 문제, 서비스 상태, 현재 상태, 상태 기록, 영향 요약, 예비 근본 원인, 해결, 해결 시간, 예상 해결 시간
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 45782fcce51e15adf61757d836d313d229558571
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1b4545daace5df1a1a9c6e827f7d8f1b522a690c
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072916"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687628"
 ---
 # <a name="check-the-microsoft-defender-for-endpoint-service-health"></a>Microsoft Defender에서 끝점 서비스 상태 확인
 
@@ -29,7 +29,7 @@ ms.locfileid: "51072916"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 
 
 

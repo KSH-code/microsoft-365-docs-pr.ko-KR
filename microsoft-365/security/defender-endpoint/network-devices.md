@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d0ae82c2e284235d96531c04dc2240063d4e4183
-ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
+ms.openlocfilehash: 43ade52e18ffc8e5db890cb0776090e9b32419e2
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51657044"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687676"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>네트워크 장치 검색 및 취약성 관리
 
@@ -97,7 +97,7 @@ ms.locfileid: "51657044"
     - login.microsoftonline.com
     - *.blob.core.windows.net/networkscannerstable/ *
 
-    참고: 허용되는 데이터 수집의 끝점에 대해 문서화한 끝점용 Defender 목록에 일부 URL이 지정되지는 않습니다.
+    참고: 모든 URL이 허용된 데이터 수집의 끝점용 Defender 문서화 목록에 지정되지는 않습니다.
 
 ## <a name="permissions"></a>사용 권한
 

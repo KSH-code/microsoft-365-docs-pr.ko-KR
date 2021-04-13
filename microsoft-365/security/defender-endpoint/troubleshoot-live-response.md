@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender ATP 라이브 응답 문제 해결
-description: Microsoft Defender ATP에서 라이브 응답을 사용할 때 발생할 수 있는 문제 해결
+title: Endpoint 라이브 응답 문제에 대한 Microsoft Defender 문제 해결
+description: 끝점용 Microsoft Defender에서 라이브 응답을 사용할 때 발생할 수 있는 문제 해결
 keywords: 라이브 응답, 라이브, 응답, 잠긴, 파일 문제 해결
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 62525548be777a3187cea5ed4be622ac9d42079b
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 2601001687fc22da98ca3cd81010237d12705ea4
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51183824"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687414"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-live-response-issues"></a>Endpoint 라이브 응답 문제에 대한 Microsoft Defender 문제 해결
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 

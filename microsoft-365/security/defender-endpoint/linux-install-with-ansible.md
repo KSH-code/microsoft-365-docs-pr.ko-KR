@@ -18,14 +18,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0a4dd551da8fcb38559360307a878edde3b3a1ba
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 48c34f2a8fb65cb0fc8ecbb616b9d041f61ae044
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587638"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688132"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-linux-with-ansible"></a>Ansible을 통해 Linux용 끝점용 Microsoft Defender 배포
+# <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-ansible"></a>Ansible을 통해 Linux에서 끝점용 Microsoft Defender 배포
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -174,7 +174,7 @@ Microsoft Defender 보안 센터에서 온보딩 패키지를 다운로드합니
       baseurl: https://packages.microsoft.com/[distro]/[version]/[channel]/
       gpgcheck: yes
       enabled: Yes
-  when: ansible_os_family == "RedHat"
+    when: ansible_os_family == "RedHat"
   ```
 
 - Ansible 설치를 만들고 YAML 파일을 제거합니다.
@@ -189,7 +189,8 @@ Microsoft Defender 보안 센터에서 온보딩 패키지를 다운로드합니
           tasks:
             - include: ../roles/onboarding_setup.yml
             - include: ../roles/add_apt_repo.yml
-            - apt:
+            - name: Install MDATP
+              apt:
                 name: mdatp
                 state: latest
                 update_cache: yes
@@ -200,36 +201,39 @@ Microsoft Defender 보안 센터에서 온보딩 패키지를 다운로드합니
         ```
         ```Output
         - hosts: servers
-        tasks:
-            - apt:
+          tasks:
+            - name: Uninstall MDATP
+              apt:
                 name: mdatp
                 state: absent
         ```
 
-    - yum 기반 배포의 경우 다음 YAML 파일을 사용 합니다.
+    - dnf 기반 배포의 경우 다음 YAML 파일을 사용 합니다.
 
         ```bash
-        cat install_mdatp_yum.yml
+        cat install_mdatp_dnf.yml
         ```
         ```Output
         - hosts: servers
           tasks:
             - include: ../roles/onboarding_setup.yml
             - include: ../roles/add_yum_repo.yml
-            - yum:
-              name: mdatp
-              state: latest
-              enablerepo: packages-microsoft-com-prod-[channel]
+            - name: Install MDATP
+              dnf:
+                name: mdatp
+                state: latest
+                enablerepo: packages-microsoft-com-prod-[channel]
         ```
 
         ```bash
-        cat uninstall_mdatp_yum.yml
+        cat uninstall_mdatp_dnf.yml
         ```
         ```Output
         - hosts: servers
-        tasks:
-            - yum:
-               name: mdatp
+          tasks:
+            - name: Uninstall MDATP
+              dnf:
+                name: mdatp
                 state: absent
         ```
 
@@ -271,10 +275,10 @@ Microsoft Defender 보안 센터에서 온보딩 패키지를 다운로드합니
 
 ## <a name="references"></a>참조
 
-- [YUM 리포지토리 추가 또는 제거](https://docs.ansible.com/ansible/2.3/yum_repository_module.html)
+- [YUM 리포지토리 추가 또는 제거](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/yum_repository_module.html)
 
-- [yum 패키지 관리자를 사용하여 패키지 관리](https://docs.ansible.com/ansible/latest/modules/yum_module.html)
+- [dnf 패키지 관리자를 사용하여 패키지 관리](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/dnf_module.html)
 
-- [APT 리포지토리 추가 및 제거](https://docs.ansible.com/ansible/latest/modules/apt_repository_module.html)
+- [APT 리포지토리 추가 및 제거](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_repository_module.html)
 
-- [apt-packages 관리](https://docs.ansible.com/ansible/latest/modules/apt_module.html)
+- [apt-packages 관리](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html)

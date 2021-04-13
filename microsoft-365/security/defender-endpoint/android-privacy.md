@@ -16,17 +16,17 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: abb22b2e733d1e40bd4f2733ef2d25767c69ccf7
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: d38d7a54aa860049e1968e5b92c801107bea0514
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163330"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687964"
 ---
-#  <a name="microsoft-defender-for-endpoint-for-android---privacy-information"></a>Android용 끝점용 Microsoft Defender - 개인 정보 정보
+#  <a name="microsoft-defender-for-endpoint-on-android---privacy-information"></a>Android의 끝점용 Microsoft Defender - 개인 정보 정보
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 

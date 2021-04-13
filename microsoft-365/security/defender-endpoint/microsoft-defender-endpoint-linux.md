@@ -1,5 +1,5 @@
 ---
-title: 엔드포인트용 Microsoft Defender(Linux)
+title: Linux의 끝점용 Microsoft Defender
 ms.reviewer: ''
 description: Linux용 Microsoft Defender ATP를 설치하고 사용하는 방법에 대해 설명
 keywords: microsoft, defender, atp, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
@@ -19,29 +19,29 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cc2f5be700395f6d88c05481d74501f4d9d92b76
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0fea9d4dd46be2a77ea27728787a43b5273f92f5
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500671"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687760"
 ---
-# <a name="microsoft-defender-for-endpoint-for-linux"></a>엔드포인트용 Microsoft Defender(Linux)
+# <a name="microsoft-defender-for-endpoint-on-linux"></a>Linux의 끝점용 Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-이 항목에서는 Linux용 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 설명합니다.
+이 항목에서는 Linux에서 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 설명합니다.
 
 > [!CAUTION]
-> Linux용 Endpoint용 Microsoft Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 부작용이 발생할 수 있습니다. 사용자 환경에서 Microsoft가 아닌 엔드포인트 보호가 절대적인 요구 사항이면 수동 모드에서 실행될 바이러스 백신 기능을 구성한 후에도 Linux EDR 기능에 대한 Endpoint용 Defender를 안전하게 활용할 [수 있습니다.](linux-preferences.md#enable--disable-passive-mode)
+> Linux에서 끝점용 Microsoft Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 부작용이 발생할 수 있습니다. 사용자 환경에서 Microsoft가 아닌 엔드포인트 보호가 절대적인 요구 사항이면 수동 모드에서 실행될 바이러스 백신 기능을 구성한 후에도 Linux EDR 기능에 대한 Endpoint용 Defender를 안전하게 활용할 [수 있습니다.](linux-preferences.md#enable--disable-passive-mode)
 
-## <a name="how-to-install-microsoft-defender-for-endpoint-for-linux"></a>Linux용 끝점용 Microsoft Defender를 설치하는 방법
+## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender를 설치하는 방법
 
 ### <a name="prerequisites"></a>필수 구성 요소
 
@@ -52,19 +52,19 @@ ms.locfileid: "51500671"
 
 ### <a name="installation-instructions"></a>설치 지침
 
-Linux용 끝점용 Microsoft Defender를 설치하고 구성하는 데 사용할 수 있는 몇 가지 방법 및 배포 도구가 있습니다.
+Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용할 수 있는 몇 가지 방법 및 배포 도구가 있습니다.
 
 일반적으로 다음 단계를 수행해야 합니다.
 
 - Endpoint용 Microsoft Defender 구독이 있으며 끝점 포털용 [Microsoft Defender에](microsoft-defender-security-center.md)액세스할 수 있도록 합니다.
-- 다음 배포 방법 중 하나를 사용하여 Linux용 끝점용 Microsoft Defender를 배포합니다.
+- 다음 배포 방법 중 하나를 사용하여 Linux에서 끝점용 Microsoft Defender를 배포합니다.
   - 명령줄 도구:
     - [수동 배포](linux-install-manually.md)
   - 타사 관리 도구:
     - [Puppet 구성 관리 도구를 사용하여 배포](linux-install-with-puppet.md)
     - [Ansible 구성 관리 도구를 사용하여 배포](linux-install-with-ansible.md)
 
-설치 오류가 발생하면 [Linux용 끝점용 Microsoft Defender의](linux-support-install.md)설치 실패 문제 해결을 참조하세요.
+설치 오류가 발생하면 [Linux의 끝점용 Microsoft Defender에서](linux-support-install.md)설치 실패 문제 해결을 참조하세요.
 
 ### <a name="system-requirements"></a>시스템 요구 사항
 
@@ -111,7 +111,7 @@ Linux용 끝점용 Microsoft Defender를 설치하고 구성하는 데 사용할
 
 - 감사 프레임워크( `auditd` )를 사용하도록 설정해야 합니다.
   > [!NOTE]
-  > 추가된 규칙에 의해 캡처된 시스템 이벤트는 (s)에 추가될 것이고 호스트 감사 및 업스트림 컬렉션에 영향을 `/etc/audit/rules.d/` `audit.log` 줄 수 있습니다. Linux용 끝점용 Microsoft Defender에서 추가한 이벤트는 키로 태그가 `mdatp` 지정됩니다.
+  > 추가된 규칙에 의해 캡처된 시스템 이벤트는 (s)에 추가될 것이고 호스트 감사 및 업스트림 컬렉션에 영향을 `/etc/audit/rules.d/` `audit.log` 줄 수 있습니다. Linux의 끝점용 Microsoft Defender에서 추가한 이벤트는 키로 태그가 `mdatp` 지정됩니다.
 
 ### <a name="network-connections"></a>네트워크 연결
 
@@ -133,17 +133,17 @@ Endpoint용 Defender는 다음 검색 방법을 사용하여 프록시 서버를
 > [!WARNING]
 > PAC, WPAD 및 인증된 proxies는 지원되지 않습니다. 정적 프록시 또는 투명 프록시만 사용 중이지 않도록 합니다.
 >
-> 보안상의 이유로 SSL 검사 및 가로채기 Proxies도 지원되지 않습니다. SSL 검사 및 프록시 서버에 대한 예외를 구성하여 Linux용 끝점용 Defender의 데이터를 가로채지 않고 관련 URL로 직접 전달합니다. 전역 저장소에 가로채기 인증서를 추가하면 가로채는 것을 허용하지 않습니다.
+> 보안상의 이유로 SSL 검사 및 가로채기 Proxies도 지원되지 않습니다. SSL 검사 및 프록시 서버에 대한 예외를 구성하여 Linux 끝점용 Defender의 데이터를 가로채지 않고 관련 URL로 직접 전달합니다. 전역 저장소에 가로채기 인증서를 추가하면 가로채는 것을 허용하지 않습니다.
 
-문제 해결 단계는 [Linux용 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결을 참조하세요.](linux-support-connectivity.md)
+문제 해결 단계는 [Linux에서 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결을 참조하세요.](linux-support-connectivity.md)
 
-## <a name="how-to-update-microsoft-defender-for-endpoint-for-linux"></a>Linux용 끝점용 Microsoft Defender를 업데이트하는 방법
+## <a name="how-to-update-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender를 업데이트하는 방법
 
-Microsoft는 성능, 보안을 개선하고 새로운 기능을 제공하기 위해 소프트웨어 업데이트를 정기적으로 게시합니다. Linux용 끝점용 Microsoft Defender를 업데이트하기 위해 [Linux용 끝점용 Microsoft Defender 업데이트 배포를 참조하세요.](linux-updates.md)
+Microsoft는 성능, 보안을 개선하고 새로운 기능을 제공하기 위해 소프트웨어 업데이트를 정기적으로 게시합니다. Linux에서 끝점용 Microsoft Defender를 업데이트하기 위해 Linux에서 [끝점용 Microsoft Defender 업데이트 배포를 참조하세요.](linux-updates.md)
 
-## <a name="how-to-configure-microsoft-defender-for-endpoint-for-linux"></a>Linux용 끝점에 대해 Microsoft Defender를 구성하는 방법
+## <a name="how-to-configure-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점에 대해 Microsoft Defender를 구성하는 방법
 
-엔터프라이즈 환경에서 제품을 구성하는 방법에 대한 지침은 [Linux용 끝점용 Microsoft Defender](linux-preferences.md)기본 설정 에서 사용할 수 있습니다.
+엔터프라이즈 환경에서 제품을 구성하는 방법에 대한 지침은 [Linux의 끝점용 Microsoft Defender](linux-preferences.md)기본 설정에서 사용할 수 있습니다.
 
 ## <a name="resources"></a>리소스
 

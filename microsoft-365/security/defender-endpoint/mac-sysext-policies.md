@@ -19,26 +19,26 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: a4c92d27d45208634f99f9bfb2f756cfc5792fac
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: db24bea3bddc682eceda8e6ea3fe2749b6b2778f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186656"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689128"
 ---
 # <a name="new-configuration-profiles-for-macos-catalina-and-newer-versions-of-macos"></a>macOS 카탈로니아 및 최신 버전의 macOS용 새 구성 프로필
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-MacOS의 발전에 맞춰 커널 확장 대신 시스템 확장을 활용하는 Mac용 끝점용 Microsoft Defender 업데이트를 준비하고 있습니다. 이 업데이트는 macOS 카탈로니아어(10.15.4) 및 최신 버전의 macOS에만 적용할 수 있습니다.
+macOS의 발전에 맞춰 커널 확장 대신 시스템 확장을 활용하는 macOS 업데이트에서 끝점용 Microsoft Defender를 준비하고 있습니다. 이 업데이트는 macOS 카탈로니아어(10.15.4) 및 최신 버전의 macOS에만 적용할 수 있습니다.
 
-JAMF, Intune 또는 다른 MDM 솔루션을 통해 관리되는 환경에서 Mac용 끝점용 Microsoft Defender를 배포한 경우 새 구성 프로필을 배포해야 합니다. 이러한 단계를 수행하지 못하면 사용자가 이러한 새 구성 요소를 실행하라는 승인 메시지가 사용자에게 표시될 수 있습니다.
+관리되는 환경(JAMF, Intune 또는 다른 MDM 솔루션을 통해)에서 macOS에 끝점용 Microsoft Defender를 배포한 경우 새 구성 프로필을 배포해야 합니다. 이러한 단계를 수행하지 못하면 사용자가 이러한 새 구성 요소를 실행하라는 승인 메시지가 사용자에게 표시될 수 있습니다.
 
 ## <a name="jamf"></a>JAMF
 
@@ -69,10 +69,10 @@ JAMF, Intune 또는 다른 MDM 솔루션을 통해 관리되는 환경에서 Mac
 
 ### <a name="network-extension-policy"></a>네트워크 확장 정책
 
-끝점 검색 및 응답 기능의 일부로, Mac용 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
+끝점 감지 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.
 
 >[!NOTE]
->JAMF에는 콘텐츠 필터링 정책에 대한 기본 제공 지원이 없습니다. 이는 Mac용 끝점용 Microsoft Defender가 장치에 설치하는 네트워크 확장을 사용하도록 설정하기 위한 전제입니다. 또한 JAMF는 배포되는 정책의 콘텐츠를 변경하는 경우도 있습니다.
+>JAMF에는 콘텐츠 필터링 정책에 대한 기본 제공 지원이 없습니다. 이는 macOS의 끝점용 Microsoft Defender가 장치에 설치하는 네트워크 확장을 사용하도록 설정하기 위한 전제입니다. 또한 JAMF는 배포되는 정책의 콘텐츠를 변경하는 경우도 있습니다.
 >따라서 다음 단계에서는 구성 프로필에 서명하는 작업을 수행합니다.
 
 1. 텍스트 편집기를 사용하여 장치에 다음 `com.microsoft.network-extension.mobileconfig` 콘텐츠를 저장합니다.

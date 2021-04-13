@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP에서 디바이스에 대응 조치 수행
+title: 끝점용 Microsoft Defender의 장치에서 응답 작업 수행
 description: 디바이스를 고지하고, 조사 패키지를 수집하고, 태그를 관리하고, av 검색을 실행하고, 앱 실행을 제한하는 등의 장치에 대한 대응 조치를 취합니다.
 keywords: 응답, 격리, 장치 격리, 조사 패키지 수집, 알림 센터, 제한, 태그 관리, av 검사, 앱 제한
 search.product: eADQiWindows 10XVcnh
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f918d1673ef8a83c54f365dd06406c33bcc4d983
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f538bd33ad2f595aa9b3dafa8a13a5682161b52f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060970"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688324"
 ---
-# <a name="take-response-actions-on-a-device"></a>디바이스에서 응답 작업 수행
+# <a name="take-response-actions-on-a-device"></a>장치에 대해 대응 조치 실행
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-respondmachine-abovefoldlink) 
 
@@ -193,7 +193,7 @@ Windows 10 버전 1709 이상에서는 네트워크 고리 수준을 추가로 �
 자세한 [내용은 Microsoft Threat Expert를](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) 참조합니다.
 
 
-## <a name="check-activity-details-in-action-center"></a>작업 센터에서 활동 세부 정보 확인
+## <a name="check-activity-details-in-action-center"></a>알림 센터에서 활동 세부 정보 확인
 
 관리 **센터는** 장치 또는 파일에서 수행된 작업에 대한 정보를 제공합니다. 다음 세부 정보를 볼 수 있습니다.
 
@@ -207,5 +207,5 @@ Windows 10 버전 1709 이상에서는 네트워크 고리 수준을 추가로 �
 ![정보가 있는 센터 이미지](images/action-center-details.png)
 
 ## <a name="related-topic"></a>관련 항목
-- [파일에 대한 응답 작업 수행](respond-file-alerts.md)
+- [파일에 대해 대응 조치 실행](respond-file-alerts.md)
 - [부정확성 보고](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation#report-inaccuracy)

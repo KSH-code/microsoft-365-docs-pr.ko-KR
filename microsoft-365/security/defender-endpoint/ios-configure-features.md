@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8f74d4799bcb02051cddd09b80ed6ab50258302b
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 0e351f6500d5076e724653d0fde1940592dd1ae5
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587230"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687488"
 ---
-# <a name="configure-microsoft-defender-for-endpoint-for-ios-features"></a>iOS 기능에 대한 끝점용 Microsoft Defender 구성
+# <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>iOS 기능에 대한 끝점용 Microsoft Defender 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "51587230"
 > iOS용 끝점용 Defender는 웹 보호 기능을 제공하기 위해 VPN을 사용하게 됩니다. 이는 일반 VPN이 아니며 장치 외부에서 트래픽을 취하지 않는 로컬/자체 루프 VPN입니다.
 
 ## <a name="conditional-access-with-defender-for-endpoint-for-ios"></a>iOS용 끝점용 Defender를 통해 조건부 액세스  
-Microsoft Intune 및 Azure Active Directory와 함께 iOS용 끝점용 Microsoft Defender를 사용하면 장치 위험 수준에 따라 장치 준수 및 조건부 액세스 정책을 시행할 수 있습니다. Endpoint용 Defender는 Intune을 통해 이 기능을 활용하기 위해 배포할 수 있는 MTD(Mobile Threat Defense) 솔루션입니다.
+Microsoft Intune 및 Azure Active Directory와 함께 iOS의 끝점용 Microsoft Defender를 사용하면 장치 위험 수준에 따라 장치 준수 및 조건부 액세스 정책을 시행할 수 있습니다. Endpoint용 Defender는 Intune을 통해 이 기능을 활용하기 위해 배포할 수 있는 MTD(Mobile Threat Defense) 솔루션입니다.
 
 iOS용 끝점용 Defender를 통해 조건부 액세스를 설정하는 방법에 대한 자세한 내용은 Endpoint 및 [Intune용 Defender를 참조하세요.](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection)
 
@@ -68,7 +68,7 @@ Apple iOS는 동시에 활성화하기 위해 여러 장치 전체의 VPN을 지
 무단으로 보호된 iOS 장치에서 회사 데이터에 액세스하지 못하도록 보호하기 위해 Intune에서 다음 규정 준수 정책을 설정하는 것이 좋습니다.
 
 > [!NOTE]
-> 현재 Microsoft Defender for Endpoint for iOS에서는 탈옥 시나리오에 대한 보호 기능을 제공하지 않습니다. 무단으로 보호된 장치에서 사용하는 경우 회사 전자 메일 ID 및 회사 프로필 사진(사용 가능한 경우)과 같이 응용 프로그램에서 사용하는 특정 시나리오 데이터를 로컬로 노출할 수 있습니다.
+> 현재 Microsoft Defender for Endpoint on iOS에서는 탈옥 시나리오에 대한 보호 기능을 제공하지 않습니다. 무단으로 보호된 장치에서 사용하는 경우 회사 전자 메일 ID 및 회사 프로필 사진(사용 가능한 경우)과 같이 응용 프로그램에서 사용하는 특정 시나리오 데이터를 로컬로 노출할 수 있습니다.
 
 다음 단계에 따라 무단으로 보호된 장치에 대한 규정 준수 정책을 만들 수 있습니다.
 

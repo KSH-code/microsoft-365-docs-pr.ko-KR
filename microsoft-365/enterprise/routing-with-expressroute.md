@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: e1da26c6-2d39-4379-af6f-4da213218408
 description: 이 문서에서는 Office 365에서 사용할 Azure ExpressRoute 라우팅 요구 사항, 회로 및 라우팅 도메인에 대해 설명합니다.
-ms.openlocfilehash: 9d3c381cfb6e24c1c87ef3dcfb83a9b93f991b93
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: b455ed7e53b3018babb1abd58919a077fb9d0685
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222410"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687172"
 ---
 # <a name="routing-with-expressroute-for-office-365"></a>Office 365용 ExpressRoute를 사용한 라우팅
 
@@ -106,7 +106,7 @@ Microsoft 피어링을 사용하여 사용할 수 있는 각 Office [365 기능�
 
 일반적으로 PAC 파일은 보급된 끝점을 ExpressRoute로 직접 전송하고 다른 모든 네트워크 요청을 프록시로 보내기 위한 것입니다. 이와 같이 PAC 파일을 구성하는 경우 PAC 파일을 다음 순서로 작성합니다.
   
-1. 위의 표의 열 2에 있는 하위 FQDNS를 PAC 파일 맨 위에 포함하여 프록시로 트래픽을 전송합니다. [Office 365](./managing-expressroute-for-connectivity.md)끝점 관리에 대한 문서에서 사용할 수 있는 샘플 PAC 파일을 구축했습니다.
+1. 위의 표의 열 2에 있는 하위 FQDNS를 PAC 파일 맨 위에 포함하여 프록시로 트래픽을 전송합니다. [Office 365](./managing-office-365-endpoints.md)끝점 관리에 대한 문서에서 사용할 수 있는 샘플 PAC 파일을 구축했습니다.
 
 2. 첫 번째 섹션 아래의 이 문서에서 ExpressRoute로 보급된 모든 FQDNs를 포함하여 트래픽을 ExpressRoute 회로로 직접 전송합니다. [](./urls-and-ip-address-ranges.md)
 

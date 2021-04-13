@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1b203a29083aaa4a1f86abcd7e2c7b24bd63f186
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 330406b3540becafb0ffac8cbbc36437a2e57f60
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445747"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688840"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 대한 최소 요구 사항
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-minreqs-abovefoldlink)
@@ -49,7 +49,7 @@ ms.locfileid: "51445747"
 - Microsoft 365 A5(M365 A5)
 - Microsoft 365 E5 Security
 - Microsoft 365 A5 보안
-- 엔드포인트용 Microsoft Defender
+- 끝점용 Microsoft Defender
 
 > [!NOTE]
 > 적격 라이선스 사용자는 최대 5개의 동시 장치에서 끝점용 Microsoft Defender를 사용할 수 있습니다.
@@ -64,7 +64,7 @@ ms.locfileid: "51445747"
 > [!NOTE]
 > 고객은 다음 사용자 라이선스 중 하나 이상에 대해 최소 50개 이상의 라이선스를 합한 경우 서버용 끝점용 Microsoft Defender에 대한 서버 라이선스(대상 서버당 OSE(운영 체제 환경))를 취득할 수 있습니다.
 >
-> * 엔드포인트용 Microsoft Defender
+> * 끝점용 Microsoft Defender
 > * Windows E5/A5
 > * Microsoft 365 E5/A5
 > * Microsoft 365 E5/A5 보안
@@ -118,10 +118,10 @@ Windows 10 상업용 버전 비교에 대한 자세한 비교 표는 비교 [PDF
 
 
 ### <a name="other-supported-operating-systems"></a>기타 지원되는 운영 체제
-- Android
-- iOS
-- Linux
-- macOS
+- [Android](microsoft-defender-endpoint-android.md)
+- [iOS](microsoft-defender-endpoint-ios.md)
+- [Linux](microsoft-defender-endpoint-linux.md)
+- [macOS](microsoft-defender-endpoint-mac.md)
 
 > [!NOTE]
 > 통합을 위해 Endpoint용 Defender와 호환되는 Android, iOS 및 macOS의 Linux 배포 및 버전을 확인해야 합니다.

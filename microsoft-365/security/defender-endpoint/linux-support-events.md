@@ -18,20 +18,20 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e489d5bece292065ad2e82a7eb9011747733b4f6
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 5981cb75b4c835390e27d902b5950e3c68305200
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073743"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687457"
 ---
-# <a name="troubleshoot-missing-events-or-alerts-issues-for-microsoft-defender-for-endpoint-for-linux"></a>Linux용 끝점용 Microsoft Defender에 대한 누락된 이벤트 또는 경고 문제 해결
+# <a name="troubleshoot-missing-events-or-alerts-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender에 대한 누락된 이벤트 또는 경고 문제 해결
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
 
-- [Linux용 끝점용 Microsoft Defender](microsoft-defender-endpoint-linux.md)
+- [Linux의 끝점용 Microsoft Defender](microsoft-defender-endpoint-linux.md)
 
 이 문서에서는 보안 센터 포털에서 누락된 이벤트 또는 알림을 완화하는 몇 가지 일반적인 [단계를](https://securitycenter.windows.com/) 제공합니다.
 

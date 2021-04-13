@@ -1,6 +1,6 @@
 ---
 title: 전자 메일 보호의 순서 및 우선 순위
-keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, ATP, Microsoft Defender ATP, Office 365 ATP, Azure ATP
+keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, ATP, 끝점용 Microsoft Defender, Office 365 ATP, Azure ATP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)의 보호 적용 순서와 보호 정책의 우선 순위 값이 적용되는 정책을 결정하는 방법에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b2a72420340993c027ec99820dcd3edddab1a304
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3419cba5781e7ab1042f7312c721069d88fb8767
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205367"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687652"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>전자 메일 보호의 순서 및 우선 순위
 
@@ -46,8 +46,8 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
   |우선 순위|전자 메일 보호|범주|관리할 위치|
   |---|---|---|---|
   |1|맬웨어|CAT:MALW|[EOP에서 맬웨어 방지 정책 구성](configure-anti-malware-policies.md)|
-  |2 |피싱|CAT:PHSH|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
-  |3 |높은 정확도 스팸|CAT:HSPM|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
+  |2|피싱|CAT:PHSH|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
+  |3|높은 정확도 스팸|CAT:HSPM|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
   |4 |스푸핑|CAT:SPOOF|[EOP에서 스푸핑 인텔리전스 구성](learn-about-spoof-intelligence.md)|
   |5<sup>\*</sup>|사용자 가장(보호된 사용자)|UIMP|[Microsoft Defender for Office 365에서 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)|
   |6<sup>\*</sup>|도메인 가장(보호된 도메인)|DIMP|[Microsoft Defender for Office 365에서 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)|
@@ -68,7 +68,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
   |정책 이름|우선 순위|사용자 가장|스푸핑 방지|
   |---|---|---|---|
   |정책 A|1|켜짐|해제|
-  |정책 B|2 |해제|켜짐|
+  |정책 B|2|해제|켜짐|
   |
 
 1. 스푸핑의 우선 순위가 사용자 가장(5)보다 높기 때문에 메시지가 스푸핑으로 표시되어 처리됩니다.

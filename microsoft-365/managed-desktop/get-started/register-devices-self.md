@@ -1,7 +1,6 @@
 ---
 title: 직접 새 장치 등록
 description: Microsoft Managed Desktop에서 관리할 수 있도록 직접 장치 등록
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
@@ -12,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 3aff3bdc1260e9aa2a23760020aeabd71d6b28fd
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 4de1d173a26005d32fb07117d93ee78582b77d54
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445581"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689212"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 
@@ -91,8 +90,11 @@ PowerShell 갤러리 [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgaller
 다음 단계를 따릅니다:
 
 1. 파일 **업로드에서** 이전에 만든 CSV 파일의 경로를 제공합니다.
+2. 드롭다운 [메뉴에서](../service-description/profiles.md) 장치 프로필을 선택합니다.
 3. 장치 **등록을 선택합니다.** 시스템은 등록 보류 중으로 표시된 장치의 디바이스 목록에 **장치를 추가합니다.** 등록에는 일반적으로 10분 미만이 걸리며, 등록에 성공하면 장치가 준비된 사용자로 표시되어 사용자가 사용을 시작할 때까지 기다립니다. 
 
+> [!NOTE]
+> 장치의 AAD(Azure Active Directory) 그룹 구성원을 수동으로 변경하면 해당 장치 프로필에 대해 그룹에 자동으로 다시 재배치되고 충돌하는 그룹에서 제거됩니다.
 
 기본 페이지에서 장치 등록 진행률을 모니터링할 수 있습니다. 보고된 가능한 상태는 다음과 같습니다.
 
@@ -119,6 +121,11 @@ PowerShell 갤러리 [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgaller
 디바이스가 Microsoft Managed Desktop 파트너 공급업체에서 제공된 경우 이미지가 정확해야 합니다.
 
 원하는 경우 직접 이미지를 적용할 수도 있습니다. 시작하기 위해 함께 작업하는 Microsoft 담당자에게 연락하여 이미지 적용 위치와 단계를 제공합니다.
+
+### <a name="autopilot-group-tag"></a>Autopilot 그룹 태그
+
+관리 포털을 사용하여 장치를 등록하면 Autopilot **그룹** 태그에 Microsoft365Managed_Autopilot 할당됩니다.
+이 서비스는 매일 모든 Microsoft Managed Desktop 장치를 모니터링하고 그룹 태그를 아직 없는 장치에 할당합니다.
 
 ### <a name="deliver-the-device"></a>디바이스 전달
 

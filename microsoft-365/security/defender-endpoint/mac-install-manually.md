@@ -1,6 +1,6 @@
 ---
-title: MacOS용 끝점용 Microsoft Defender 수동 배포
-description: 명령줄에서 macOS용 끝점용 Microsoft Defender를 수동으로 설치합니다.
+title: macOS의 끝점용 Microsoft Defender 수동 배포
+description: 명령줄에서 수동으로 macOS에 끝점용 Microsoft Defender를 설치합니다.
 keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamf, macos, 카탈로나, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a9e75441a8c4a336e8c657d27330c118fcac4788
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: 0e8faf95df6691828558175412a1de8aa844d93f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476320"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688600"
 ---
-# <a name="manual-deployment-for-microsoft-defender-for-endpoint-for-macos"></a>MacOS용 끝점용 Microsoft Defender 수동 배포
+# <a name="manual-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 수동 배포
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "51476320"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-이 항목에서는 MacOS용 끝점용 Microsoft Defender를 수동으로 배포하는 방법을 설명합니다. 배포를 성공적으로 수행하려면 다음 단계를 모두 완료해야 합니다.
+이 항목에서는 macOS에서 수동으로 끝점용 Microsoft Defender를 배포하는 방법을 설명합니다. 배포를 성공적으로 수행하려면 다음 단계를 모두 완료해야 합니다.
 - [설치 및 온보더링 패키지 다운로드](#download-installation-and-onboarding-packages)
 - [응용 프로그램 설치(macOS 10.15 및 이전 버전)](#application-installation-macos-1015-and-older-versions)
 - [응용 프로그램 설치(macOS 11 이상 버전)](#application-installation-macos-11-and-newer-versions)
@@ -43,7 +43,7 @@ ms.locfileid: "51476320"
 
 ## <a name="prerequisites-and-system-requirements"></a>선행 조건 및 시스템 요구 사항
 
-시작하기 전에 [MacOS용 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md) 주 페이지를 참조하여 현재 소프트웨어 버전에 대한 선행 조건 및 시스템 요구 사항에 대한 설명을 참조하세요.
+시작하기 전에 [MacOS의 주 Microsoft Defender for Endpoint](microsoft-defender-endpoint-mac.md) 페이지에서 현재 소프트웨어 버전에 대한 선행 조건 및 시스템 요구 사항에 대한 설명을 참조하세요.
 
 ## <a name="download-installation-and-onboarding-packages"></a>설치 및 온보더링 패키지 다운로드
 
@@ -105,9 +105,9 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 
     ![시스템 확장 보안 기본 설정1](images/big-sur-install-3.png)
 
-5. Mac용 끝점용 Microsoft Defender와 함께 & 배포된 모든 시스템 확장에 대해 3단계를 반복합니다.
+5. Mac의 끝점용 Microsoft Defender와 함께 배포된 모든 시스템 확장에 대해 & 4단계를 반복합니다.
 
-6. 끝점 검색 및 응답 기능의 일부로, Mac용 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 네트워크 트래픽을 필터링할 수 있는 끝점에 대한 Microsoft Defender 사용 권한을 부여하라는 메시지가 표시될 때 허용을 **선택합니다.**
+6. 끝점 감지 및 응답 기능의 일부로 Mac의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다. 네트워크 트래픽을 필터링할 수 있는 끝점에 대한 Microsoft Defender 사용 권한을 부여하라는 메시지가 표시될 때 허용을 **선택합니다.**
 
     ![시스템 확장 보안 기본 설정2](images/big-sur-install-4.png)
 
@@ -117,7 +117,7 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 
 ## <a name="client-configuration"></a>클라이언트 구성
 
-1. macOS용 끝점용 Microsoft Defender를 MicrosoftDefenderATPOnboardingMacOs.py 디바이스에 wdav.pkg 및 파일을 복사합니다.
+1. macOS에서 끝점용 Microsoft Defender를 MicrosoftDefenderATPOnboardingMacOs.py 디바이스에 wdav.pkg 및 파일을 복사합니다.
 
     클라이언트 장치가 클라이언트 장치와 연결되지 org_id. org_id *특성이* 비어 있습니다.
 

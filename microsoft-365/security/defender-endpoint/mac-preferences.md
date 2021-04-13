@@ -18,28 +18,28 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 578830d44a9a69c3ccafd78ceaf59ddfe100e43f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 951c51c767ba09ebc6056481b4fac45da09c5671
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076932"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688552"
 ---
-# <a name="set-preferences-for-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender에 대한 기본 설정 설정
+# <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점에 대한 Microsoft Defender 기본 설정 설정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
 
-- [Mac용 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md)
+- [MacOS의 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md)
 
 >[!IMPORTANT]
->이 문서에는 엔터프라이즈 조직에서 Mac용 끝점용 Microsoft Defender에 대한 기본 설정을 설정하는 방법에 대한 지침이 포함되어 있습니다. 명령줄 인터페이스를 사용하여 Mac용 끝점에 대한 Microsoft Defender를 구성하기 위해 리소스 를 [참조합니다.](mac-resources.md#configuring-from-the-command-line)
+>이 문서에는 엔터프라이즈 조직의 macOS에서 끝점용 Microsoft Defender에 대한 기본 설정을 설정하는 방법에 대한 지침이 포함되어 있습니다. 명령줄 인터페이스를 사용하여 macOS에서 끝점에 대한 Microsoft Defender를 구성하는 데 필요한 리소스는 리소스를 [참조합니다.](mac-resources.md#configuring-from-the-command-line)
 
 ## <a name="summary"></a>요약
 
-엔터프라이즈 조직에서 Mac용 끝점용 Microsoft Defender는 여러 관리 도구 중 하나를 사용하여 배포되는 구성 프로필을 통해 관리할 수 있습니다. 보안 운영 팀에서 관리하는 기본 설정이 디바이스에서 로컬로 설정된 기본 설정보다 우선합니다. 구성 프로필을 통해 설정된 기본 설정을 변경하려면 에스컬레이터된 권한이 필요하며 관리 권한이 없는 사용자는 사용할 수 없습니다.
+엔터프라이즈 조직에서 macOS의 끝점용 Microsoft Defender는 여러 관리 도구 중 하나를 사용하여 배포되는 구성 프로필을 통해 관리할 수 있습니다. 보안 운영 팀에서 관리하는 기본 설정이 디바이스에서 로컬로 설정된 기본 설정보다 우선합니다. 구성 프로필을 통해 설정된 기본 설정을 변경하려면 에스컬레이터된 권한이 필요하며 관리 권한이 없는 사용자는 사용할 수 없습니다.
 
 이 문서에서는 구성 프로필의 구조에 대해 설명하고 시작하는 데 사용할 수 있는 권장 프로필을 포함하며 프로필을 배포하는 방법에 대한 지침을 제공합니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "51076932"
 
 구성 *프로필의 antivirusEngine* 섹션은 끝점용 Microsoft Defender의 바이러스 백신 구성 요소의 기본 설정을 관리하는 데 사용됩니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | antivirusEngine |
@@ -67,7 +67,7 @@ ms.locfileid: "51076932"
 
 파일에 액세스할 때 검색하는 실시간 보호를 사용할지 여부를 지정합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | enableRealTimeProtection |
@@ -83,7 +83,7 @@ ms.locfileid: "51076932"
 - 보안 인텔리전스 업데이트가 켜져 있습니다.
 - 상태 메뉴 아이콘이 숨겨져 있습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | passiveMode |
@@ -95,7 +95,7 @@ ms.locfileid: "51076932"
 
 제외에 대한 병합 정책을 지정합니다. 이는 관리자 정의 및 사용자 정의 제외( ) 또는 관리자 정의 제외()의 조합일 `merge` 수 `admin_only` 있습니다. 이 설정을 사용하여 로컬 사용자가 자신의 제외를 정의하지 못하도록 제한할 수 있습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | exclusionsMergePolicy |
@@ -107,7 +107,7 @@ ms.locfileid: "51076932"
 
 검사에서 제외된 엔터티를 지정합니다. 제외는 전체 경로, 확장명 또는 파일 이름으로 지정할 수 있습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | 제외 |
@@ -118,7 +118,7 @@ ms.locfileid: "51076932"
 
 검색에서 제외된 콘텐츠를 유형별로 지정합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | $type |
@@ -129,7 +129,7 @@ ms.locfileid: "51076932"
 
 전체 파일 경로에서 검사에서 제외된 콘텐츠를 지정합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | path |
@@ -141,7 +141,7 @@ ms.locfileid: "51076932"
 
 경로 *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다. 
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | isDirectory |
@@ -153,7 +153,7 @@ ms.locfileid: "51076932"
 
 파일 확장명에 의해 검색되지 않을 콘텐츠를 지정합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | extension |
@@ -165,7 +165,7 @@ ms.locfileid: "51076932"
 
 모든 파일 활동이 검사에서 제외되는 프로세스를 지정합니다. 프로세스는 이름(예: ) 또는 전체 경로(예: )로 지정할 `cat` 수 `/bin/cat` 있습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | name |
@@ -177,7 +177,7 @@ ms.locfileid: "51076932"
 
 Mac용 끝점용 Defender에 의해 차단되지 않는 이름으로 위협을 지정합니다. 이러한 위협은 실행될 수 있습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | allowedThreats |
@@ -187,7 +187,7 @@ Mac용 끝점용 Defender에 의해 차단되지 않는 이름으로 위협을 �
 
 위협이 감지될 때 장치의 로컬 사용자가 수행할 수 있는 작업을 제한합니다. 이 목록에 포함된 작업은 사용자 인터페이스에 표시되지 않습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | disallowedThreatActions |
@@ -197,9 +197,9 @@ Mac용 끝점용 Defender에 의해 차단되지 않는 이름으로 위협을 �
 
 #### <a name="threat-type-settings"></a>위협 유형 설정
 
-Mac용 끝점용 Microsoft Defender에서 특정 위협 유형을 처리하는 방법을 지정합니다.
+macOS의 끝점에 대한 Microsoft Defender에서 특정 위협 유형을 처리하는 방법을 지정합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | threatTypeSettings |
@@ -210,7 +210,7 @@ Mac용 끝점용 Microsoft Defender에서 특정 위협 유형을 처리하는 �
 
 위협 유형을 지정합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | 키 |
@@ -225,7 +225,7 @@ Mac용 끝점용 Microsoft Defender에서 특정 위협 유형을 처리하는 �
 - **차단:** 장치가 이러한 유형의 위협으로부터 보호되고 사용자 인터페이스 및 보안 콘솔에 알림을 제공합니다.
 - **Off:** 장치가 이러한 유형의 위협으로부터 보호되지는 않습니다. 아무것도 기록되지 않습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | 값 |
@@ -236,7 +236,7 @@ Mac용 끝점용 Microsoft Defender에서 특정 위협 유형을 처리하는 �
 
 위협 유형 설정에 대한 병합 정책을 지정합니다. 이는 관리자 정의 및 사용자 정의 설정( ) 또는 관리자 정의 설정()의 `merge` 조합일 수 `admin_only` 있습니다. 이 설정을 사용하여 로컬 사용자가 서로 다른 위협 유형에 대한 자체 설정을 정의하지 못하도록 제한할 수 있습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | threatTypeSettingsMergePolicy |
@@ -248,7 +248,7 @@ Mac용 끝점용 Microsoft Defender에서 특정 위협 유형을 처리하는 �
 
 장치의 검사 기록에 결과가 보존되는 일 수를 지정합니다. 이전 검사 결과가 기록에서 제거됩니다. 디스크에서 제거된 오래된 고지된 파일입니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | scanResultsRetentionDays |
@@ -260,7 +260,7 @@ Mac용 끝점용 Microsoft Defender에서 특정 위협 유형을 처리하는 �
 
 검사 기록에 유지할 최대 항목 수를 지정합니다. 항목에는 과거에 수행된 모든 요구 시 검사와 모든 바이러스 백신 검색이 포함됩니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | scanHistoryMaximumItems |
@@ -270,9 +270,9 @@ Mac용 끝점용 Microsoft Defender에서 특정 위협 유형을 처리하는 �
 
 ### <a name="cloud-delivered-protection-preferences"></a>클라우드 제공 보호 기본 설정
 
-Mac용 끝점용 Microsoft Defender의 클라우드 기반 보호 기능을 구성합니다.
+MacOS의 끝점에 대한 Microsoft Defender의 클라우드 기반 보호 기능을 구성합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | cloudService |
@@ -283,7 +283,7 @@ Mac용 끝점용 Microsoft Defender의 클라우드 기반 보호 기능을 구�
 
 디바이스에서 클라우드 제공 보호를 사용할지 여부를 지정합니다. 서비스의 보안을 개선하기 위해 이 기능을 켜져 있는 것이 좋습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | 활성화됨 |
@@ -294,7 +294,7 @@ Mac용 끝점용 Microsoft Defender의 클라우드 기반 보호 기능을 구�
 
 진단 데이터는 끝점용 Microsoft Defender를 안전하고 최신으로 유지하며, 문제를 감지, 진단 및 해결하며, 제품을 개선하는 데 사용됩니다. 이 설정은 끝점용 Microsoft Defender에서 Microsoft로 전송하는 진단 수준을 결정합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | diagnosticLevel |
@@ -305,7 +305,7 @@ Mac용 끝점용 Microsoft Defender의 클라우드 기반 보호 기능을 구�
 
 의심스러운 샘플(위협이 포함될 가능성이 높음)을 Microsoft로 보낼지 여부를 결정합니다. 전송된 파일에 개인 정보가 포함될 가능성이 있는 경우 메시지가 표시됩니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | automaticSampleSubmission |
@@ -316,7 +316,7 @@ Mac용 끝점용 Microsoft Defender의 클라우드 기반 보호 기능을 구�
 
 보안 인텔리전스 업데이트가 자동으로 설치될지 여부를 확인합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **키** | automaticDefinitionUpdateEnabled |
 | **Data type** | 부울 |
@@ -324,9 +324,9 @@ Mac용 끝점용 Microsoft Defender의 클라우드 기반 보호 기능을 구�
 
 ### <a name="user-interface-preferences"></a>사용자 인터페이스 기본 설정
 
-Mac용 끝점용 Microsoft Defender의 사용자 인터페이스에 대한 기본 설정을 관리합니다.
+macOS에서 끝점용 Microsoft Defender의 사용자 인터페이스에 대한 기본 설정을 관리합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | userInterface |
@@ -337,7 +337,7 @@ Mac용 끝점용 Microsoft Defender의 사용자 인터페이스에 대한 기�
 
 화면의 오른쪽 위 모서리에 상태 메뉴 아이콘을 표시하거나 숨길지 여부를 지정합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | hideStatusMenuIcon |
@@ -348,7 +348,7 @@ Mac용 끝점용 Microsoft Defender의 사용자 인터페이스에 대한 기�
 
 사용자가 로 진행하여 Microsoft에 피드백을 제출할 수 있는지 여부를 `Help`  >  `Send Feedback` 지정합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | userInitiatedFeedback |
@@ -358,9 +358,9 @@ Mac용 끝점용 Microsoft Defender의 사용자 인터페이스에 대한 기�
 
 ### <a name="endpoint-detection-and-response-preferences"></a>끝점 검색 및 응답 기본 설정
 
-Mac용 끝점용 Microsoft Defender의 끝점 검색 및 응답(EDR) 구성 요소의 기본 설정을 관리합니다.
+macOS의 끝점에 대한 Microsoft Defender의 끝점 검색 및 응답(EDR) 구성 요소의 기본 설정을 관리합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | edr |
@@ -373,7 +373,7 @@ Mac용 끝점용 Microsoft Defender의 끝점 검색 및 응답(EDR) 구성 요�
 
 - GROUP 태그는 지정된 값으로 디바이스에 태그를 지정합니다. 태그는 장치 페이지 아래에 있는 포털에 반영되어 디바이스 필터링 및 그룹화에 사용할 수 있습니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | tags |
@@ -384,7 +384,7 @@ Mac용 끝점용 Microsoft Defender의 끝점 검색 및 응답(EDR) 구성 요�
 
 태그 유형을 지정합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | 키 |
@@ -395,7 +395,7 @@ Mac용 끝점용 Microsoft Defender의 끝점 검색 및 응답(EDR) 구성 요�
 
 태그 값을 지정합니다.
 
-|||
+|섹션|값|
 |:---|:---|
 | **도메인** | `com.microsoft.wdav` |
 | **키** | 값 |
@@ -542,7 +542,7 @@ Mac용 끝점용 Microsoft Defender의 끝점 검색 및 응답(EDR) 구성 요�
 
 ## <a name="full-configuration-profile-example"></a>전체 구성 프로필 예제
 
-다음 템플릿은 이 문서에 설명된 모든 설정에 대한 항목을 포함하며 Mac용 끝점용 Microsoft Defender를 더 많이 제어하려는 고급 시나리오에 사용할 수 있습니다.
+다음 템플릿은 이 문서에 설명된 모든 설정에 대한 항목을 포함하며 macOS에서 끝점용 Microsoft Defender를 더 많이 제어하려는 고급 시나리오에 사용할 수 있습니다.
 
 ### <a name="property-list-for-jamf-configuration-profile"></a>JAMF 구성 프로필의 속성 목록
 

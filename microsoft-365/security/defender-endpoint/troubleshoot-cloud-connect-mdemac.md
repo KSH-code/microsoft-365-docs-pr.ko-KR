@@ -1,6 +1,6 @@
 ---
-title: Mac용 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결
-description: 이 항목에서는 Mac용 끝점용 Microsoft Defender의 클라우드 연결 문제를 해결하는 방법을 설명합니다.
+title: MacOS의 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결
+description: 이 항목에서는 macOS의 끝점용 Microsoft Defender에 대한 클라우드 연결 문제를 해결하는 방법을 설명합니다.
 keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamf, macos, 카탈로나, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e522495fa86b5a71faa9f25cc863c29cc5d124c0
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: a8871274cabae0762cecc2ff513afe93c2d4811f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476716"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688504"
 ---
-# <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결
+# <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "51476716"
 
 **플랫폼** macOS
 
-이 항목에서는 Mac용 끝점용 Microsoft Defender에 대한 클라우드 연결 문제를 해결하는 방법을 설명합니다.
+이 항목에서는 macOS의 끝점용 Microsoft Defender에 대한 클라우드 연결 문제를 해결하는 방법을 설명합니다.
 
 ## <a name="run-the-connectivity-test"></a>연결 테스트 실행
 Mac용 끝점용 Defender가 현재 네트워크 설정을 사용하여 클라우드와 통신할 수 있는지 테스트하려면 명령줄에서 연결 테스트를 실행합니다.
@@ -72,7 +72,7 @@ Testing connection with https://v20.events.data.microsoft.com/ping ... [OK]
 프록시 또는 방화벽에서 익명 트래픽을 차단하는 경우 이전에 나열된 URL에서 익명 트래픽이 허용되어 있는지 확인
 
 > [!WARNING]
-> 인증된 proxies는 지원되지 않습니다. PAC, WPAD 또는 정적 프록시만 사용 중이지 않습니다. 보안상의 이유로 SSL 검사 및 가로채기 Proxies도 지원되지 않습니다. Mac용 끝점용 Microsoft Defender의 데이터를 가로채지 않고 관련 URL로 직접 전달하도록 SSL 검사 및 프록시 서버에 대한 예외를 구성합니다. 전역 저장소에 가로채기 인증서를 추가하면 가로채는 것을 허용하지 않습니다.
+> 인증된 proxies는 지원되지 않습니다. PAC, WPAD 또는 정적 프록시만 사용 중이지 않습니다. 보안상의 이유로 SSL 검사 및 가로채기 Proxies도 지원되지 않습니다. MacOS용 끝점용 Microsoft Defender의 데이터를 가로채지 않고 관련 URL로 직접 전달하도록 SSL 검사 및 프록시 서버에 대한 예외를 구성합니다. 전역 저장소에 가로채기 인증서를 추가하면 가로채는 것을 허용하지 않습니다.
 연결이 차단되지 않는지 테스트하기 위해: Mac용 Microsoft Edge 또는 Safari와 같은 브라우저에서 열기 및 https://x.cp.wd.microsoft.com/api/report https://cdn.x.cp.wd.microsoft.com/ping 를 실행합니다.
 
 터미널에서 선택적으로 다음 명령을 실행합니다.

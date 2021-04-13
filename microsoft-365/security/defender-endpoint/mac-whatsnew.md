@@ -1,6 +1,6 @@
 ---
-title: Mac용 끝점용 Microsoft Defender의 새로운
-description: Mac용 끝점용 Microsoft Defender의 이전 버전에 대한 주요 변경 내용에 대해 자세히 알아보습니다.
+title: Mac의 끝점용 Microsoft Defender의 새로운
+description: Mac의 끝점용 Microsoft Defender 이전 버전에 대한 주요 변경 내용에 대해 자세히 알아보습니다.
 keywords: microsoft, defender, atp, mac, installation, macos, whatsnew
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5cd1f64d006b5462634dd47df9083e1a89db0e8c
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 67bbc987dc339c0e1f0354e07d6d2db8c39ec8b9
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615222"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689044"
 ---
-# <a name="whats-new-in-microsoft-defender-for-endpoint-for-mac"></a>Mac용 끝점용 Microsoft Defender의 새로운
+# <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender의 새로운
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "51615222"
 
 ## <a name="1012569-20121022125690"></a>101.25.69 (20.121022.12569.0)
 
-- Mac용 끝점용 Microsoft Defender는 이제 미국 정부 고객을 위해 미리 보기에서 사용할 수 있습니다. 자세한 내용은 미국 정부 고객용 [끝점용 Microsoft Defender를 참조하세요.](gov.md)
+- MacOS의 끝점용 Microsoft Defender는 이제 미국 정부 고객을 위해 미리 보기에서 사용할 수 있습니다. 자세한 내용은 미국 정부 고객용 [끝점용 Microsoft Defender를 참조하세요.](gov.md)
 - 성능 향상(특히 XCode 시뮬레이터 앱이 사용되는 상황용)은 & 수정합니다.
 
 ## <a name="1012364-20121021123640"></a>101.23.64 (20.121021.12364.0)
@@ -61,7 +61,7 @@ ms.locfileid: "51615222"
 > [!NOTE]
 > 이 릴리스에서는 이전 명령줄 도구 구문이 사용되지 않습니다. 새 구문에 대한 자세한 내용은 Resources 을 [참조하십시오.](mac-resources.md#configuring-from-the-command-line)
 
-- 네트워크 확장을 사용하지 않도록 설정하는 새 명령줄 스위치가 `mdatp system-extension network-filter disable` 추가되었습니다. . 이 명령은 Mac용 끝점용 Microsoft Defender와 관련이 있을 수 있는 네트워킹 문제를 해결하는 데 유용할 수 있습니다.
+- 네트워크 확장을 사용하지 않도록 설정하는 새 명령줄 스위치가 `mdatp system-extension network-filter disable` 추가되었습니다. . 이 명령은 Mac의 끝점용 Microsoft Defender와 관련이 있을 수 있는 네트워킹 문제를 해결하는 데 유용할 수 있습니다.
 - 버그 수정을 & 성능 개선
 
 ## <a name="1011921-20120101119210"></a>101.19.21 (20.120101.11921.0)
@@ -94,7 +94,7 @@ ms.locfileid: "51615222"
 
 - 이 제품 버전은 macOS Big Sur 11 베타 9에서 유효성이 검사되었습니다.
 
-- 이제 명령줄 도구의 새 구문이 `mdatp` 기본 구문이 됩니다. 새 구문에 대한 자세한 내용은 [Mac용 끝점용 Microsoft Defender 리소스를 참조하세요.](mac-resources.md#configuring-from-the-command-line)
+- 이제 명령줄 도구의 새 구문이 `mdatp` 기본 구문이 됩니다. 새 구문에 대한 자세한 내용은 [MacOS의 끝점용 Microsoft Defender 리소스를 참조하세요.](mac-resources.md#configuring-from-the-command-line)
 
   > [!NOTE]
   > 이전 명령줄 도구 구문은 **2021년 1월 1일** 제품에서 제거됩니다.
@@ -159,7 +159,7 @@ ms.locfileid: "51615222"
 
 ## <a name="1009027"></a>100.90.27
 
-- 이제 시스템 [전체 업데이트](mac-updates.md#set-the-channel-name) 채널과 다른 Mac용 끝점용 Microsoft Defender에 대한 업데이트 채널을 설정할 수 있습니다.
+- 이제 시스템 [](mac-updates.md#set-the-channel-name) 전체 업데이트 채널과 다른 macOS의 끝점용 Microsoft Defender에 대한 업데이트 채널을 설정할 수 있습니다.
 - 새 제품 아이콘
 - 기타 사용자 환경 개선
 - 버그 수정
@@ -196,7 +196,7 @@ ms.locfileid: "51615222"
 
 ## <a name="1007942"></a>100.79.42
 
-- Mac용 끝점용 Microsoft Defender가 때때로 시간 컴퓨터로 떨어졌다는 문제를 해결했습니다.
+- Mac의 끝점용 Microsoft Defender가 때때로 시간 컴퓨터로 떨어졌다는 문제를 해결했습니다.
 - 백end 서비스와의 연결을 테스트하기 위한 명령줄 유틸리티에 새 스위치가 추가되었습니다.
   ```bash
   mdatp connectivity test

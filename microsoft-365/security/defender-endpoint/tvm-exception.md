@@ -1,7 +1,7 @@
 ---
 title: 보안 권장 사항에 대한 예외 만들기 및 보기 - 위협 및 취약성 관리
 description: 위협 및 취약성 관리에서 보안 권장 사항에 대한 예외를 만들고 모니터링합니다.
-keywords: microsoft defender atp tvm 수정, mdatp tvm, 위협 및 취약성 관리, 위협 & 취약성 관리, 위협 & 취약점 관리 수정, tvm 수정 intune, tvm 수정 sccm
+keywords: 끝점 tvm 수정, mdatp tvm, 위협 및 취약성 관리, 위협 & 취약성 관리, 위협 & 취약점 관리 수정, tvm 수정 intune, tvm 수정 sccm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 13ac09b1ad918ed945edec6167fd57ea02b616ea
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 4f37300a742ab8cac32e95863cb706f1fd5f5d66
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500192"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689416"
 ---
 # <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a>보안 권장 사항에 대한 예외 만들기 및 보기 - 위협 및 취약성 관리
 
@@ -31,7 +31,7 @@ ms.locfileid: "51500192"
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 - [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -84,7 +84,7 @@ ms.locfileid: "51500192"
 
 ### <a name="global-exceptions"></a>전역 예외
 
-전역 관리자 권한(Microsoft Defender ATP 관리자)이 있는 경우 전역 예외를 만들고 취소할 수 있습니다. 이 설정은 조직의 **모든** 현재 및 향후 장치 그룹에 영향을 주며, 유사한 권한이 있는 사용자만 변경할 수 있습니다. 권장 상태는 "활성"에서 "전체 예외"로 변경됩니다.
+전역 관리자 권한이 있는 경우 전역 예외를 만들고 취소할 수 있습니다. 이 설정은 조직의 **모든** 현재 및 향후 장치 그룹에 영향을 주며, 유사한 권한이 있는 사용자만 변경할 수 있습니다. 권장 상태는 "활성"에서 "전체 예외"로 변경됩니다.
 
 ![전역 예외 옵션 표시](images/tvm-exception-global.png)
 

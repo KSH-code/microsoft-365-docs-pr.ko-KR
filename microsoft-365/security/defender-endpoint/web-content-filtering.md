@@ -1,6 +1,6 @@
 ---
 title: 웹 컨텐츠 필터링
-description: Microsoft Defender ATP의 웹 콘텐츠 필터링을 사용하여 해당 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제합니다.
+description: 끝점용 Microsoft Defender의 웹 콘텐츠 필터링을 사용하여 해당 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제합니다.
 keywords: 웹 보호, 웹 위협 방지, 웹 검색, 모니터링, 보고서, 카드, 도메인 목록, 보안, 피싱, 맬웨어, 악용, 웹 사이트, 네트워크 보호, Edge, Internet Explorer, Chrome, Firefox, 웹 브라우저
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c5f44b4ab8354330ec9701261e8fb0dcc2e9fe52
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: c9a069deded237c5ded6bcd9f6c6a77f644e65a2
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499970"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689344"
 ---
 # <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]

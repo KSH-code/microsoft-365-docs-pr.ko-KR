@@ -1,6 +1,6 @@
 ---
 title: 웹 보호
-description: Microsoft Defender ATP의 웹 보호와 조직을 보호하는 방법에 대해 자세히 알아보기
+description: 끝점용 Microsoft Defender의 웹 보호와 조직을 보호하는 방법에 대해 자세히 알아보기
 keywords: 웹 보호, 웹 위협 방지, 웹 검색, 보안, 피싱, 맬웨어, 악용, 웹 사이트, 네트워크 보호, Edge, Internet Explorer, Chrome, Firefox, 웹 브라우저, 악성 웹 사이트
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4c04ce3479ac995e59c3bdfa9a2bdcca87eca17b
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: a985719663ec23d41ce4da57aea9aa5e0cf7674c
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499926"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688972"
 ---
 # <a name="web-protection"></a>웹 보호
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
