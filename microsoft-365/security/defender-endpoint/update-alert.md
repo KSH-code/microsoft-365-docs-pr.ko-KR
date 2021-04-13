@@ -1,6 +1,6 @@
 ---
 title: 경고 엔터티 API 업데이트
-description: 이 API를 사용하여 Microsoft Defender ATP 경고를 업데이트하는 방법을 학습합니다. 상태, 결정, 분류 및 assignedTo 속성을 업데이트할 수 있습니다.
+description: 이 API를 사용하여 끝점용 Microsoft Defender 경고를 업데이트하는 방법을 학습합니다. 상태, 결정, 분류 및 assignedTo 속성을 업데이트할 수 있습니다.
 keywords: api, 그래프 api, 지원되는 api, get, alert, information, id
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,87 +15,87 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7dd3ab3da34efa6cb954db2a596d7a1e48efedf1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 94be185bd30cd36f456a66d5ae30a4361abc0c48
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199312"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688252"
 ---
-# <a name="update-alert"></a><span data-ttu-id="7d5ed-105">업데이트 경고</span><span class="sxs-lookup"><span data-stu-id="7d5ed-105">Update alert</span></span>
+# <a name="update-alert"></a><span data-ttu-id="63374-105">업데이트 경고</span><span class="sxs-lookup"><span data-stu-id="63374-105">Update alert</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="7d5ed-106">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="7d5ed-106">**Applies to:**</span></span>
-- [<span data-ttu-id="7d5ed-107">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="7d5ed-107">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [<span data-ttu-id="7d5ed-108">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="7d5ed-108">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="63374-106">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="63374-106">**Applies to:**</span></span>
+- <span data-ttu-id="63374-107">[엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) </span><span class="sxs-lookup"><span data-stu-id="63374-107">[Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
+- [<span data-ttu-id="63374-108">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="63374-108">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="7d5ed-109">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="7d5ed-109">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="7d5ed-110">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-110">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="63374-109">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="63374-109">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="63374-110">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="63374-110">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 
-## <a name="api-description"></a><span data-ttu-id="7d5ed-111">API 설명</span><span class="sxs-lookup"><span data-stu-id="7d5ed-111">API description</span></span>
-<span data-ttu-id="7d5ed-112">기존 Alert의 속성을 [업데이트합니다.](alerts.md)</span><span class="sxs-lookup"><span data-stu-id="7d5ed-112">Updates properties of existing [Alert](alerts.md).</span></span>
-<br><span data-ttu-id="7d5ed-113">설명 **제출은** 속성을 업데이트하거나 업데이트하지 않고 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-113">Submission of **comment** is available with or without updating properties.</span></span>
-<br><span data-ttu-id="7d5ed-114">업데이트할 수 있는 속성은 ```status``` ```determination``` , 및 ```classification``` ```assignedTo``` 입니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-114">Updatable properties are: ```status```, ```determination```, ```classification``` and ```assignedTo```.</span></span>
+## <a name="api-description"></a><span data-ttu-id="63374-111">API 설명</span><span class="sxs-lookup"><span data-stu-id="63374-111">API description</span></span>
+<span data-ttu-id="63374-112">기존 Alert의 속성을 [업데이트합니다.](alerts.md)</span><span class="sxs-lookup"><span data-stu-id="63374-112">Updates properties of existing [Alert](alerts.md).</span></span>
+<br><span data-ttu-id="63374-113">설명 **제출은** 속성을 업데이트하거나 업데이트하지 않고 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="63374-113">Submission of **comment** is available with or without updating properties.</span></span>
+<br><span data-ttu-id="63374-114">업데이트할 수 있는 속성은 ```status``` ```determination``` , 및 ```classification``` ```assignedTo``` 입니다.</span><span class="sxs-lookup"><span data-stu-id="63374-114">Updatable properties are: ```status```, ```determination```, ```classification``` and ```assignedTo```.</span></span>
 
 
-## <a name="limitations"></a><span data-ttu-id="7d5ed-115">제한 사항</span><span class="sxs-lookup"><span data-stu-id="7d5ed-115">Limitations</span></span>
-1. <span data-ttu-id="7d5ed-116">API에서 사용할 수 있는 경고를 업데이트할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-116">You can update alerts that available in the API.</span></span> <span data-ttu-id="7d5ed-117">자세한 [내용은 목록 경고를](get-alerts.md) 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-117">See [List Alerts](get-alerts.md) for more information.</span></span>
-2. <span data-ttu-id="7d5ed-118">이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-118">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
+## <a name="limitations"></a><span data-ttu-id="63374-115">제한 사항</span><span class="sxs-lookup"><span data-stu-id="63374-115">Limitations</span></span>
+1. <span data-ttu-id="63374-116">API에서 사용할 수 있는 경고를 업데이트할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="63374-116">You can update alerts that available in the API.</span></span> <span data-ttu-id="63374-117">자세한 [내용은 목록 경고를](get-alerts.md) 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="63374-117">See [List Alerts](get-alerts.md) for more information.</span></span>
+2. <span data-ttu-id="63374-118">이 API에 대한 속도 제한은 분당 100통 및 시간당 1500통입니다.</span><span class="sxs-lookup"><span data-stu-id="63374-118">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
 
 
-## <a name="permissions"></a><span data-ttu-id="7d5ed-119">사용 권한</span><span class="sxs-lookup"><span data-stu-id="7d5ed-119">Permissions</span></span>
-<span data-ttu-id="7d5ed-120">이 API를 호출하려면 다음 권한 중 하나가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-120">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="7d5ed-121">사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="7d5ed-121">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md)</span></span>
+## <a name="permissions"></a><span data-ttu-id="63374-119">사용 권한</span><span class="sxs-lookup"><span data-stu-id="63374-119">Permissions</span></span>
+<span data-ttu-id="63374-120">이 API를 호출하려면 다음 권한 중 하나가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="63374-120">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="63374-121">사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [끝점 API에 Microsoft Defender 사용을 참조합니다.](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="63374-121">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md)</span></span>
 
-<span data-ttu-id="7d5ed-122">사용 권한 유형</span><span class="sxs-lookup"><span data-stu-id="7d5ed-122">Permission type</span></span> |   <span data-ttu-id="7d5ed-123">사용 권한</span><span class="sxs-lookup"><span data-stu-id="7d5ed-123">Permission</span></span>  |   <span data-ttu-id="7d5ed-124">사용 권한 표시 이름</span><span class="sxs-lookup"><span data-stu-id="7d5ed-124">Permission display name</span></span>
+<span data-ttu-id="63374-122">사용 권한 유형</span><span class="sxs-lookup"><span data-stu-id="63374-122">Permission type</span></span> |   <span data-ttu-id="63374-123">사용 권한</span><span class="sxs-lookup"><span data-stu-id="63374-123">Permission</span></span>  |   <span data-ttu-id="63374-124">사용 권한 표시 이름</span><span class="sxs-lookup"><span data-stu-id="63374-124">Permission display name</span></span>
 :---|:---|:---
-<span data-ttu-id="7d5ed-125">응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="7d5ed-125">Application</span></span> |   <span data-ttu-id="7d5ed-126">Alerts.ReadWrite.All</span><span class="sxs-lookup"><span data-stu-id="7d5ed-126">Alerts.ReadWrite.All</span></span> |  <span data-ttu-id="7d5ed-127">'모든 경고 읽기 및 쓰기'</span><span class="sxs-lookup"><span data-stu-id="7d5ed-127">'Read and write all alerts'</span></span>
-<span data-ttu-id="7d5ed-128">위임(직장 또는 학교 계정)</span><span class="sxs-lookup"><span data-stu-id="7d5ed-128">Delegated (work or school account)</span></span> | <span data-ttu-id="7d5ed-129">Alert.ReadWrite</span><span class="sxs-lookup"><span data-stu-id="7d5ed-129">Alert.ReadWrite</span></span> | <span data-ttu-id="7d5ed-130">'경고 읽기 및 쓰기'</span><span class="sxs-lookup"><span data-stu-id="7d5ed-130">'Read and write alerts'</span></span>
+<span data-ttu-id="63374-125">응용 프로그램</span><span class="sxs-lookup"><span data-stu-id="63374-125">Application</span></span> |   <span data-ttu-id="63374-126">Alerts.ReadWrite.All</span><span class="sxs-lookup"><span data-stu-id="63374-126">Alerts.ReadWrite.All</span></span> |  <span data-ttu-id="63374-127">'모든 경고 읽기 및 쓰기'</span><span class="sxs-lookup"><span data-stu-id="63374-127">'Read and write all alerts'</span></span>
+<span data-ttu-id="63374-128">위임(직장 또는 학교 계정)</span><span class="sxs-lookup"><span data-stu-id="63374-128">Delegated (work or school account)</span></span> | <span data-ttu-id="63374-129">Alert.ReadWrite</span><span class="sxs-lookup"><span data-stu-id="63374-129">Alert.ReadWrite</span></span> | <span data-ttu-id="63374-130">'경고 읽기 및 쓰기'</span><span class="sxs-lookup"><span data-stu-id="63374-130">'Read and write alerts'</span></span>
 
 >[!Note]
-> <span data-ttu-id="7d5ed-131">사용자 자격 증명을 사용하여 토큰을 얻을 때:</span><span class="sxs-lookup"><span data-stu-id="7d5ed-131">When obtaining a token using user credentials:</span></span>
->- <span data-ttu-id="7d5ed-132">사용자에게 최소한 '경고 조사'와 같은 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).</span><span class="sxs-lookup"><span data-stu-id="7d5ed-132">The user needs to have at least the following role permission: 'Alerts investigation' (See [Create and manage roles](user-roles.md) for more information)</span></span>
->- <span data-ttu-id="7d5ed-133">사용자는 장치 그룹 설정에 따라 경고와 연결된 장치에 액세스할 수 있습니다(자세한 내용은 장치 그룹 만들기 및 [관리](machine-groups.md) 참조).</span><span class="sxs-lookup"><span data-stu-id="7d5ed-133">The user needs to have access to the device associated with the alert, based on device group settings (See [Create and manage device groups](machine-groups.md) for more information)</span></span>
+> <span data-ttu-id="63374-131">사용자 자격 증명을 사용하여 토큰을 얻을 때:</span><span class="sxs-lookup"><span data-stu-id="63374-131">When obtaining a token using user credentials:</span></span>
+>- <span data-ttu-id="63374-132">사용자에게 최소한 '경고 조사'와 같은 역할 권한이 필요합니다(자세한 내용은 역할 [만들기](user-roles.md) 및 관리 참조).</span><span class="sxs-lookup"><span data-stu-id="63374-132">The user needs to have at least the following role permission: 'Alerts investigation' (See [Create and manage roles](user-roles.md) for more information)</span></span>
+>- <span data-ttu-id="63374-133">사용자는 장치 그룹 설정에 따라 경고와 연결된 장치에 액세스할 수 있습니다(자세한 내용은 장치 그룹 만들기 및 [관리](machine-groups.md) 참조).</span><span class="sxs-lookup"><span data-stu-id="63374-133">The user needs to have access to the device associated with the alert, based on device group settings (See [Create and manage device groups](machine-groups.md) for more information)</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="7d5ed-134">HTTP 요청</span><span class="sxs-lookup"><span data-stu-id="7d5ed-134">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="63374-134">HTTP 요청</span><span class="sxs-lookup"><span data-stu-id="63374-134">HTTP request</span></span>
 ```
 PATCH /api/alerts/{id}
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="7d5ed-135">요청 헤더</span><span class="sxs-lookup"><span data-stu-id="7d5ed-135">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="63374-135">요청 헤더</span><span class="sxs-lookup"><span data-stu-id="63374-135">Request headers</span></span>
 
-<span data-ttu-id="7d5ed-136">이름</span><span class="sxs-lookup"><span data-stu-id="7d5ed-136">Name</span></span> | <span data-ttu-id="7d5ed-137">유형</span><span class="sxs-lookup"><span data-stu-id="7d5ed-137">Type</span></span> | <span data-ttu-id="7d5ed-138">설명</span><span class="sxs-lookup"><span data-stu-id="7d5ed-138">Description</span></span>
+<span data-ttu-id="63374-136">이름</span><span class="sxs-lookup"><span data-stu-id="63374-136">Name</span></span> | <span data-ttu-id="63374-137">유형</span><span class="sxs-lookup"><span data-stu-id="63374-137">Type</span></span> | <span data-ttu-id="63374-138">설명</span><span class="sxs-lookup"><span data-stu-id="63374-138">Description</span></span>
 :---|:---|:---
-<span data-ttu-id="7d5ed-139">권한 부여</span><span class="sxs-lookup"><span data-stu-id="7d5ed-139">Authorization</span></span> | <span data-ttu-id="7d5ed-140">문자열</span><span class="sxs-lookup"><span data-stu-id="7d5ed-140">String</span></span> | <span data-ttu-id="7d5ed-141">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-141">Bearer {token}.</span></span> <span data-ttu-id="7d5ed-142">**필수입니다**.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-142">**Required**.</span></span>
-<span data-ttu-id="7d5ed-143">Content-Type</span><span class="sxs-lookup"><span data-stu-id="7d5ed-143">Content-Type</span></span> | <span data-ttu-id="7d5ed-144">문자열</span><span class="sxs-lookup"><span data-stu-id="7d5ed-144">String</span></span> | <span data-ttu-id="7d5ed-145">application/json.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-145">application/json.</span></span> <span data-ttu-id="7d5ed-146">**필수입니다**.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-146">**Required**.</span></span>
+<span data-ttu-id="63374-139">권한 부여</span><span class="sxs-lookup"><span data-stu-id="63374-139">Authorization</span></span> | <span data-ttu-id="63374-140">문자열</span><span class="sxs-lookup"><span data-stu-id="63374-140">String</span></span> | <span data-ttu-id="63374-141">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="63374-141">Bearer {token}.</span></span> <span data-ttu-id="63374-142">**필수입니다**.</span><span class="sxs-lookup"><span data-stu-id="63374-142">**Required**.</span></span>
+<span data-ttu-id="63374-143">Content-Type</span><span class="sxs-lookup"><span data-stu-id="63374-143">Content-Type</span></span> | <span data-ttu-id="63374-144">문자열</span><span class="sxs-lookup"><span data-stu-id="63374-144">String</span></span> | <span data-ttu-id="63374-145">application/json.</span><span class="sxs-lookup"><span data-stu-id="63374-145">application/json.</span></span> <span data-ttu-id="63374-146">**필수입니다**.</span><span class="sxs-lookup"><span data-stu-id="63374-146">**Required**.</span></span>
 
 
-## <a name="request-body"></a><span data-ttu-id="7d5ed-147">요청 본문</span><span class="sxs-lookup"><span data-stu-id="7d5ed-147">Request body</span></span>
-<span data-ttu-id="7d5ed-148">요청 본문에서 업데이트해야 하는 관련 필드의 값을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-148">In the request body, supply the values for the relevant fields that should be updated.</span></span>
-<br><span data-ttu-id="7d5ed-149">요청 본문에 포함되지 않은 기존 속성은 이전 값을 유지 관리하거나 다른 속성 값의 변경 내용에 따라 다시 계산됩니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-149">Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values.</span></span> 
-<br><span data-ttu-id="7d5ed-150">최상의 성능을 위해 변경되지 않은 기존 값은 포함하지 말아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-150">For best performance you shouldn't include existing values that haven't change.</span></span>
+## <a name="request-body"></a><span data-ttu-id="63374-147">요청 본문</span><span class="sxs-lookup"><span data-stu-id="63374-147">Request body</span></span>
+<span data-ttu-id="63374-148">요청 본문에서 업데이트해야 하는 관련 필드의 값을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="63374-148">In the request body, supply the values for the relevant fields that should be updated.</span></span>
+<br><span data-ttu-id="63374-149">요청 본문에 포함되지 않은 기존 속성은 이전 값을 유지 관리하거나 다른 속성 값의 변경 내용에 따라 다시 계산됩니다.</span><span class="sxs-lookup"><span data-stu-id="63374-149">Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values.</span></span> 
+<br><span data-ttu-id="63374-150">최상의 성능을 위해 변경되지 않은 기존 값은 포함하지 말아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="63374-150">For best performance you shouldn't include existing values that haven't change.</span></span>
 
-<span data-ttu-id="7d5ed-151">속성</span><span class="sxs-lookup"><span data-stu-id="7d5ed-151">Property</span></span> | <span data-ttu-id="7d5ed-152">유형</span><span class="sxs-lookup"><span data-stu-id="7d5ed-152">Type</span></span> | <span data-ttu-id="7d5ed-153">설명</span><span class="sxs-lookup"><span data-stu-id="7d5ed-153">Description</span></span>
+<span data-ttu-id="63374-151">속성</span><span class="sxs-lookup"><span data-stu-id="63374-151">Property</span></span> | <span data-ttu-id="63374-152">유형</span><span class="sxs-lookup"><span data-stu-id="63374-152">Type</span></span> | <span data-ttu-id="63374-153">설명</span><span class="sxs-lookup"><span data-stu-id="63374-153">Description</span></span>
 :---|:---|:---
-<span data-ttu-id="7d5ed-154">status</span><span class="sxs-lookup"><span data-stu-id="7d5ed-154">status</span></span> | <span data-ttu-id="7d5ed-155">문자열</span><span class="sxs-lookup"><span data-stu-id="7d5ed-155">String</span></span> | <span data-ttu-id="7d5ed-156">경고의 현재 상태를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-156">Specifies the current status of the alert.</span></span> <span data-ttu-id="7d5ed-157">속성 값은 'New', 'InProgress' 및 'Resolved'입니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-157">The property values are: 'New', 'InProgress' and 'Resolved'.</span></span>
-<span data-ttu-id="7d5ed-158">assignedTo</span><span class="sxs-lookup"><span data-stu-id="7d5ed-158">assignedTo</span></span> | <span data-ttu-id="7d5ed-159">문자열</span><span class="sxs-lookup"><span data-stu-id="7d5ed-159">String</span></span> | <span data-ttu-id="7d5ed-160">경고의 소유자</span><span class="sxs-lookup"><span data-stu-id="7d5ed-160">Owner of the alert</span></span>
-<span data-ttu-id="7d5ed-161">classification</span><span class="sxs-lookup"><span data-stu-id="7d5ed-161">classification</span></span> | <span data-ttu-id="7d5ed-162">문자열</span><span class="sxs-lookup"><span data-stu-id="7d5ed-162">String</span></span> | <span data-ttu-id="7d5ed-163">경고의 사양을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-163">Specifies the specification of the alert.</span></span> <span data-ttu-id="7d5ed-164">속성 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-164">The property values are: 'Unknown', 'FalsePositive', 'TruePositive'.</span></span> 
-<span data-ttu-id="7d5ed-165">determination</span><span class="sxs-lookup"><span data-stu-id="7d5ed-165">determination</span></span> | <span data-ttu-id="7d5ed-166">문자열</span><span class="sxs-lookup"><span data-stu-id="7d5ed-166">String</span></span> | <span data-ttu-id="7d5ed-167">경고 결정</span><span class="sxs-lookup"><span data-stu-id="7d5ed-167">Specifies the determination of the alert.</span></span> <span data-ttu-id="7d5ed-168">속성 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-168">The property values are: 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'</span></span>
-<span data-ttu-id="7d5ed-169">comment</span><span class="sxs-lookup"><span data-stu-id="7d5ed-169">comment</span></span> | <span data-ttu-id="7d5ed-170">문자열</span><span class="sxs-lookup"><span data-stu-id="7d5ed-170">String</span></span> | <span data-ttu-id="7d5ed-171">경고에 추가할 설명입니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-171">Comment to be added to the alert.</span></span>
+<span data-ttu-id="63374-154">status</span><span class="sxs-lookup"><span data-stu-id="63374-154">status</span></span> | <span data-ttu-id="63374-155">문자열</span><span class="sxs-lookup"><span data-stu-id="63374-155">String</span></span> | <span data-ttu-id="63374-156">경고의 현재 상태를 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="63374-156">Specifies the current status of the alert.</span></span> <span data-ttu-id="63374-157">속성 값은 'New', 'InProgress' 및 'Resolved'입니다.</span><span class="sxs-lookup"><span data-stu-id="63374-157">The property values are: 'New', 'InProgress' and 'Resolved'.</span></span>
+<span data-ttu-id="63374-158">assignedTo</span><span class="sxs-lookup"><span data-stu-id="63374-158">assignedTo</span></span> | <span data-ttu-id="63374-159">문자열</span><span class="sxs-lookup"><span data-stu-id="63374-159">String</span></span> | <span data-ttu-id="63374-160">경고의 소유자</span><span class="sxs-lookup"><span data-stu-id="63374-160">Owner of the alert</span></span>
+<span data-ttu-id="63374-161">classification</span><span class="sxs-lookup"><span data-stu-id="63374-161">classification</span></span> | <span data-ttu-id="63374-162">문자열</span><span class="sxs-lookup"><span data-stu-id="63374-162">String</span></span> | <span data-ttu-id="63374-163">경고의 사양을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="63374-163">Specifies the specification of the alert.</span></span> <span data-ttu-id="63374-164">속성 값은 '알 수 없음', 'FalsePositive', 'TruePositive'입니다.</span><span class="sxs-lookup"><span data-stu-id="63374-164">The property values are: 'Unknown', 'FalsePositive', 'TruePositive'.</span></span> 
+<span data-ttu-id="63374-165">determination</span><span class="sxs-lookup"><span data-stu-id="63374-165">determination</span></span> | <span data-ttu-id="63374-166">문자열</span><span class="sxs-lookup"><span data-stu-id="63374-166">String</span></span> | <span data-ttu-id="63374-167">경고 결정</span><span class="sxs-lookup"><span data-stu-id="63374-167">Specifies the determination of the alert.</span></span> <span data-ttu-id="63374-168">속성 값은 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'입니다.</span><span class="sxs-lookup"><span data-stu-id="63374-168">The property values are: 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'</span></span>
+<span data-ttu-id="63374-169">comment</span><span class="sxs-lookup"><span data-stu-id="63374-169">comment</span></span> | <span data-ttu-id="63374-170">문자열</span><span class="sxs-lookup"><span data-stu-id="63374-170">String</span></span> | <span data-ttu-id="63374-171">경고에 추가할 설명입니다.</span><span class="sxs-lookup"><span data-stu-id="63374-171">Comment to be added to the alert.</span></span>
 
-## <a name="response"></a><span data-ttu-id="7d5ed-172">응답</span><span class="sxs-lookup"><span data-stu-id="7d5ed-172">Response</span></span>
-<span data-ttu-id="7d5ed-173">성공하면 이 메서드는 200 OK를 [](alerts.md) 반환하고 업데이트된 속성을 사용하여 응답 본문의 경고 엔터티를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-173">If successful, this method returns 200 OK, and the [alert](alerts.md) entity in the response body with the updated properties.</span></span> <span data-ttu-id="7d5ed-174">지정된 ID가 있는 알림을 찾을 수 없는 경우 - 404 찾을 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-174">If alert with the specified id was not found - 404 Not Found.</span></span>
+## <a name="response"></a><span data-ttu-id="63374-172">응답</span><span class="sxs-lookup"><span data-stu-id="63374-172">Response</span></span>
+<span data-ttu-id="63374-173">성공하면 이 메서드는 200 OK를 [](alerts.md) 반환하고 업데이트된 속성을 사용하여 응답 본문의 경고 엔터티를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="63374-173">If successful, this method returns 200 OK, and the [alert](alerts.md) entity in the response body with the updated properties.</span></span> <span data-ttu-id="63374-174">지정된 ID가 있는 알림을 찾을 수 없는 경우 - 404 찾을 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="63374-174">If alert with the specified id was not found - 404 Not Found.</span></span>
 
 
-## <a name="example"></a><span data-ttu-id="7d5ed-175">예제</span><span class="sxs-lookup"><span data-stu-id="7d5ed-175">Example</span></span>
+## <a name="example"></a><span data-ttu-id="63374-175">예제</span><span class="sxs-lookup"><span data-stu-id="63374-175">Example</span></span>
 
-<span data-ttu-id="7d5ed-176">**요청**</span><span class="sxs-lookup"><span data-stu-id="7d5ed-176">**Request**</span></span>
+<span data-ttu-id="63374-176">**요청**</span><span class="sxs-lookup"><span data-stu-id="63374-176">**Request**</span></span>
 
-<span data-ttu-id="7d5ed-177">다음은 요청의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="7d5ed-177">Here is an example of the request.</span></span>
+<span data-ttu-id="63374-177">다음은 요청의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="63374-177">Here is an example of the request.</span></span>
 
 ```http
 PATCH https://api.securitycenter.microsoft.com/api/alerts/121688558380765161_2136280442

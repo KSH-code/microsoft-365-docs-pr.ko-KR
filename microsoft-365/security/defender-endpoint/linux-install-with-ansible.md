@@ -18,44 +18,44 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0a4dd551da8fcb38559360307a878edde3b3a1ba
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 48c34f2a8fb65cb0fc8ecbb616b9d041f61ae044
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587638"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688132"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-linux-with-ansible"></a><span data-ttu-id="2808f-104">Ansible을 통해 Linux용 끝점용 Microsoft Defender 배포</span><span class="sxs-lookup"><span data-stu-id="2808f-104">Deploy Microsoft Defender for Endpoint for Linux with Ansible</span></span>
+# <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-ansible"></a><span data-ttu-id="43a50-104">Ansible을 통해 Linux에서 끝점용 Microsoft Defender 배포</span><span class="sxs-lookup"><span data-stu-id="43a50-104">Deploy Microsoft Defender for Endpoint on Linux with Ansible</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="2808f-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="2808f-105">**Applies to:**</span></span>
-- <span data-ttu-id="2808f-106">[엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) </span><span class="sxs-lookup"><span data-stu-id="2808f-106">[Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)</span></span>
-- [<span data-ttu-id="2808f-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="2808f-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="43a50-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="43a50-105">**Applies to:**</span></span>
+- <span data-ttu-id="43a50-106">[엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) </span><span class="sxs-lookup"><span data-stu-id="43a50-106">[Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)</span></span>
+- [<span data-ttu-id="43a50-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="43a50-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="2808f-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="2808f-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="2808f-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> <span data-ttu-id="43a50-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="43a50-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="43a50-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-<span data-ttu-id="2808f-110">이 문서에서는 Ansible을 사용하여 Linux용 Endpoint용 Defender를 배포하는 방법을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-110">This article describes how to deploy Defender for Endpoint for Linux using Ansible.</span></span> <span data-ttu-id="2808f-111">배포를 성공적으로 수행하려면 다음 작업을 모두 완료해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-111">A successful deployment requires the completion of all of the following tasks:</span></span>
+<span data-ttu-id="43a50-110">이 문서에서는 Ansible을 사용하여 Linux용 Endpoint용 Defender를 배포하는 방법을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-110">This article describes how to deploy Defender for Endpoint for Linux using Ansible.</span></span> <span data-ttu-id="43a50-111">배포를 성공적으로 수행하려면 다음 작업을 모두 완료해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-111">A successful deployment requires the completion of all of the following tasks:</span></span>
 
-- [<span data-ttu-id="2808f-112">온보더링 패키지 다운로드</span><span class="sxs-lookup"><span data-stu-id="2808f-112">Download the onboarding package</span></span>](#download-the-onboarding-package)
-- [<span data-ttu-id="2808f-113">Ansible YAML 파일 만들기</span><span class="sxs-lookup"><span data-stu-id="2808f-113">Create Ansible YAML files</span></span>](#create-ansible-yaml-files)
-- [<span data-ttu-id="2808f-114">배포</span><span class="sxs-lookup"><span data-stu-id="2808f-114">Deployment</span></span>](#deployment)
-- [<span data-ttu-id="2808f-115">참조</span><span class="sxs-lookup"><span data-stu-id="2808f-115">References</span></span>](#references)
+- [<span data-ttu-id="43a50-112">온보더링 패키지 다운로드</span><span class="sxs-lookup"><span data-stu-id="43a50-112">Download the onboarding package</span></span>](#download-the-onboarding-package)
+- [<span data-ttu-id="43a50-113">Ansible YAML 파일 만들기</span><span class="sxs-lookup"><span data-stu-id="43a50-113">Create Ansible YAML files</span></span>](#create-ansible-yaml-files)
+- [<span data-ttu-id="43a50-114">배포</span><span class="sxs-lookup"><span data-stu-id="43a50-114">Deployment</span></span>](#deployment)
+- [<span data-ttu-id="43a50-115">참조</span><span class="sxs-lookup"><span data-stu-id="43a50-115">References</span></span>](#references)
 
-## <a name="prerequisites-and-system-requirements"></a><span data-ttu-id="2808f-116">선행 조건 및 시스템 요구 사항</span><span class="sxs-lookup"><span data-stu-id="2808f-116">Prerequisites and system requirements</span></span>
+## <a name="prerequisites-and-system-requirements"></a><span data-ttu-id="43a50-116">선행 조건 및 시스템 요구 사항</span><span class="sxs-lookup"><span data-stu-id="43a50-116">Prerequisites and system requirements</span></span>
 
-<span data-ttu-id="2808f-117">시작하기 전에 Linux용 끝점용 주 [Defender](microsoft-defender-endpoint-linux.md) 페이지에서 현재 소프트웨어 버전에 대한 선행 조건 및 시스템 요구 사항에 대한 설명을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="2808f-117">Before you get started, see [the main Defender for Endpoint for Linux page](microsoft-defender-endpoint-linux.md) for a description of prerequisites and system requirements for the current software version.</span></span>
+<span data-ttu-id="43a50-117">시작하기 전에 Linux용 끝점용 주 [Defender](microsoft-defender-endpoint-linux.md) 페이지에서 현재 소프트웨어 버전에 대한 선행 조건 및 시스템 요구 사항에 대한 설명을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="43a50-117">Before you get started, see [the main Defender for Endpoint for Linux page](microsoft-defender-endpoint-linux.md) for a description of prerequisites and system requirements for the current software version.</span></span>
 
-<span data-ttu-id="2808f-118">또한 Ansible 배포의 경우 Ansible 관리 작업에 익숙하고, Ansible을 구성하고, 플레이북 및 작업을 배포하는 방법을 알아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-118">In addition, for Ansible deployment, you need to be familiar with Ansible administration tasks, have Ansible configured, and know how to deploy playbooks and tasks.</span></span> <span data-ttu-id="2808f-119">Ansible에는 동일한 작업을 완료하는 여러 가지 방법이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-119">Ansible has many ways to complete the same task.</span></span> <span data-ttu-id="2808f-120">이러한 지침에서는 패키지 배포에 도움이 되는 *apt* 및 *unarchive와* 같은 지원되는 Ansible 모듈의 가용성을 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-120">These instructions assume availability of supported Ansible modules, such as *apt* and *unarchive* to help deploy the package.</span></span> <span data-ttu-id="2808f-121">조직에서 다른 워크플로를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-121">Your organization might use a different workflow.</span></span> <span data-ttu-id="2808f-122">자세한 내용은 [Ansible 설명서를](https://docs.ansible.com/) 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="2808f-122">Refer to the [Ansible documentation](https://docs.ansible.com/) for details.</span></span>
+<span data-ttu-id="43a50-118">또한 Ansible 배포의 경우 Ansible 관리 작업에 익숙하고, Ansible을 구성하고, 플레이북 및 작업을 배포하는 방법을 알아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-118">In addition, for Ansible deployment, you need to be familiar with Ansible administration tasks, have Ansible configured, and know how to deploy playbooks and tasks.</span></span> <span data-ttu-id="43a50-119">Ansible에는 동일한 작업을 완료하는 여러 가지 방법이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-119">Ansible has many ways to complete the same task.</span></span> <span data-ttu-id="43a50-120">이러한 지침에서는 패키지 배포에 도움이 되는 *apt* 및 *unarchive와* 같은 지원되는 Ansible 모듈의 가용성을 가정합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-120">These instructions assume availability of supported Ansible modules, such as *apt* and *unarchive* to help deploy the package.</span></span> <span data-ttu-id="43a50-121">조직에서 다른 워크플로를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-121">Your organization might use a different workflow.</span></span> <span data-ttu-id="43a50-122">자세한 내용은 [Ansible 설명서를](https://docs.ansible.com/) 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="43a50-122">Refer to the [Ansible documentation](https://docs.ansible.com/) for details.</span></span>
 
-- <span data-ttu-id="2808f-123">Ansible needs to be installed on least one computer (we will call it the primary computer).</span><span class="sxs-lookup"><span data-stu-id="2808f-123">Ansible needs to be installed on at least one computer (we will call it the primary computer).</span></span>
-- <span data-ttu-id="2808f-124">기본 컴퓨터와 모든 클라이언트 간의 관리자 계정에 대해 SSH를 구성해야 합니다. 공개 키 인증을 사용하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-124">SSH must be configured for an administrator account between the primary computer and all clients, and it is recommended be configured with public key authentication.</span></span>
-- <span data-ttu-id="2808f-125">모든 클라이언트에 다음 소프트웨어를 설치해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-125">The following software must be installed on all clients:</span></span>
-  - <span data-ttu-id="2808f-126">curl</span><span class="sxs-lookup"><span data-stu-id="2808f-126">curl</span></span>
-  - <span data-ttu-id="2808f-127">python-apt</span><span class="sxs-lookup"><span data-stu-id="2808f-127">python-apt</span></span>
+- <span data-ttu-id="43a50-123">Ansible needs to be installed on least one computer (we will call it the primary computer).</span><span class="sxs-lookup"><span data-stu-id="43a50-123">Ansible needs to be installed on at least one computer (we will call it the primary computer).</span></span>
+- <span data-ttu-id="43a50-124">기본 컴퓨터와 모든 클라이언트 간의 관리자 계정에 대해 SSH를 구성해야 합니다. 공개 키 인증을 사용하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-124">SSH must be configured for an administrator account between the primary computer and all clients, and it is recommended be configured with public key authentication.</span></span>
+- <span data-ttu-id="43a50-125">모든 클라이언트에 다음 소프트웨어를 설치해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-125">The following software must be installed on all clients:</span></span>
+  - <span data-ttu-id="43a50-126">curl</span><span class="sxs-lookup"><span data-stu-id="43a50-126">curl</span></span>
+  - <span data-ttu-id="43a50-127">python-apt</span><span class="sxs-lookup"><span data-stu-id="43a50-127">python-apt</span></span>
 
-- <span data-ttu-id="2808f-128">모든 호스트는 또는 관련 파일에 다음 형식으로 `/etc/ansible/hosts` 나열되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-128">All hosts must be listed in the following format in the `/etc/ansible/hosts` or relevant file:</span></span>
+- <span data-ttu-id="43a50-128">모든 호스트는 또는 관련 파일에 다음 형식으로 `/etc/ansible/hosts` 나열되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-128">All hosts must be listed in the following format in the `/etc/ansible/hosts` or relevant file:</span></span>
 
     ```bash
     [servers]
@@ -63,23 +63,23 @@ ms.locfileid: "51587638"
     host2 ansible_ssh_host=51.143.50.51
     ```
 
-- <span data-ttu-id="2808f-129">Ping 테스트:</span><span class="sxs-lookup"><span data-stu-id="2808f-129">Ping test:</span></span>
+- <span data-ttu-id="43a50-129">Ping 테스트:</span><span class="sxs-lookup"><span data-stu-id="43a50-129">Ping test:</span></span>
 
     ```bash
     ansible -m ping all
     ```
 
-## <a name="download-the-onboarding-package"></a><span data-ttu-id="2808f-130">온보더링 패키지 다운로드</span><span class="sxs-lookup"><span data-stu-id="2808f-130">Download the onboarding package</span></span>
+## <a name="download-the-onboarding-package"></a><span data-ttu-id="43a50-130">온보더링 패키지 다운로드</span><span class="sxs-lookup"><span data-stu-id="43a50-130">Download the onboarding package</span></span>
 
-<span data-ttu-id="2808f-131">Microsoft Defender 보안 센터에서 온보딩 패키지를 다운로드합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-131">Download the onboarding package from Microsoft Defender Security Center:</span></span>
+<span data-ttu-id="43a50-131">Microsoft Defender 보안 센터에서 온보딩 패키지를 다운로드합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-131">Download the onboarding package from Microsoft Defender Security Center:</span></span>
 
-1. <span data-ttu-id="2808f-132">Microsoft Defender 보안 센터에서 설정 > 장치 관리 > **로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="2808f-132">In Microsoft Defender Security Center, go to **Settings > Device Management > Onboarding**.</span></span>
-2. <span data-ttu-id="2808f-133">첫 번째 드롭다운 메뉴에서 **운영 체제로 Linux Server를** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-133">In the first drop-down menu, select **Linux Server** as the operating system.</span></span> <span data-ttu-id="2808f-134">두 번째 드롭다운 메뉴에서 배포 **방법으로** 기본 Linux 구성 관리 도구를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-134">In the second drop-down menu, select **Your preferred Linux configuration management tool** as the deployment method.</span></span>
-3. <span data-ttu-id="2808f-135">**온보더링 패키지 다운로드를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="2808f-135">Select **Download onboarding package**.</span></span> <span data-ttu-id="2808f-136">파일을 다른 파일로 WindowsDefenderATPOnboardingPackage.zip.</span><span class="sxs-lookup"><span data-stu-id="2808f-136">Save the file as WindowsDefenderATPOnboardingPackage.zip.</span></span>
+1. <span data-ttu-id="43a50-132">Microsoft Defender 보안 센터에서 설정 > 장치 관리 > **로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="43a50-132">In Microsoft Defender Security Center, go to **Settings > Device Management > Onboarding**.</span></span>
+2. <span data-ttu-id="43a50-133">첫 번째 드롭다운 메뉴에서 **운영 체제로 Linux Server를** 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-133">In the first drop-down menu, select **Linux Server** as the operating system.</span></span> <span data-ttu-id="43a50-134">두 번째 드롭다운 메뉴에서 배포 **방법으로** 기본 Linux 구성 관리 도구를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-134">In the second drop-down menu, select **Your preferred Linux configuration management tool** as the deployment method.</span></span>
+3. <span data-ttu-id="43a50-135">**온보더링 패키지 다운로드를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="43a50-135">Select **Download onboarding package**.</span></span> <span data-ttu-id="43a50-136">파일을 다른 파일로 WindowsDefenderATPOnboardingPackage.zip.</span><span class="sxs-lookup"><span data-stu-id="43a50-136">Save the file as WindowsDefenderATPOnboardingPackage.zip.</span></span>
 
     ![Microsoft Defender 보안 센터 스크린샷](images/atp-portal-onboarding-linux-2.png)
 
-4. <span data-ttu-id="2808f-138">명령 프롬프트에서 파일이 있는지 확인</span><span class="sxs-lookup"><span data-stu-id="2808f-138">From a command prompt, verify that you have the file.</span></span> <span data-ttu-id="2808f-139">보관함의 내용을 추출합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-139">Extract the contents of the archive:</span></span>
+4. <span data-ttu-id="43a50-138">명령 프롬프트에서 파일이 있는지 확인</span><span class="sxs-lookup"><span data-stu-id="43a50-138">From a command prompt, verify that you have the file.</span></span> <span data-ttu-id="43a50-139">보관함의 내용을 추출합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-139">Extract the contents of the archive:</span></span>
 
     ```bash
     ls -l
@@ -96,11 +96,11 @@ ms.locfileid: "51587638"
     inflating: mdatp_onboard.json
     ```
 
-## <a name="create-ansible-yaml-files"></a><span data-ttu-id="2808f-140">Ansible YAML 파일 만들기</span><span class="sxs-lookup"><span data-stu-id="2808f-140">Create Ansible YAML files</span></span>
+## <a name="create-ansible-yaml-files"></a><span data-ttu-id="43a50-140">Ansible YAML 파일 만들기</span><span class="sxs-lookup"><span data-stu-id="43a50-140">Create Ansible YAML files</span></span>
 
-<span data-ttu-id="2808f-141">재생 문서 또는 작업에 기여하는 하위 작업 또는 역할 파일을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-141">Create a subtask or role files that contribute to an playbook or task.</span></span>
+<span data-ttu-id="43a50-141">재생 문서 또는 작업에 기여하는 하위 작업 또는 역할 파일을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-141">Create a subtask or role files that contribute to an playbook or task.</span></span>
 
-- <span data-ttu-id="2808f-142">온보더링 작업 만들기: `onboarding_setup.yml`</span><span class="sxs-lookup"><span data-stu-id="2808f-142">Create the onboarding task, `onboarding_setup.yml`:</span></span>
+- <span data-ttu-id="43a50-142">온보더링 작업 만들기: `onboarding_setup.yml`</span><span class="sxs-lookup"><span data-stu-id="43a50-142">Create the onboarding task, `onboarding_setup.yml`:</span></span>
 
     ```bash
     - name: Create MDATP directories
@@ -127,23 +127,23 @@ ms.locfileid: "51587638"
       when: not mdatp_onboard.stat.exists
     ```
 
-- <span data-ttu-id="2808f-143">Endpoint 리포지토리 및 키에 대한 Defender를 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-143">Add the Defender for Endpoint repository and key.</span></span>
+- <span data-ttu-id="43a50-143">Endpoint 리포지토리 및 키에 대한 Defender를 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-143">Add the Defender for Endpoint repository and key.</span></span>
 
-    <span data-ttu-id="2808f-144">Linux용 Endpoint용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 중 하나에서 배포할 수 있습니다. *insiders-fast,* *insiders-slow* 또는 *prod*. 이러한 각 채널은 Linux 소프트웨어 리포지토리에 해당합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-144">Defender for Endpoint for Linux can be deployed from one of the following channels (denoted below as *[channel]*): *insiders-fast*, *insiders-slow*, or *prod*. Each of these channels corresponds to a Linux software repository.</span></span>
+    <span data-ttu-id="43a50-144">Linux용 Endpoint용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 중 하나에서 배포할 수 있습니다. *insiders-fast,* *insiders-slow* 또는 *prod*. 이러한 각 채널은 Linux 소프트웨어 리포지토리에 해당합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-144">Defender for Endpoint for Linux can be deployed from one of the following channels (denoted below as *[channel]*): *insiders-fast*, *insiders-slow*, or *prod*. Each of these channels corresponds to a Linux software repository.</span></span>
 
-    <span data-ttu-id="2808f-145">채널 선택에 따라 장치에 제공되는 업데이트의 유형과 빈도가 결정됩니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-145">The choice of the channel determines the type and frequency of updates that are offered to your device.</span></span> <span data-ttu-id="2808f-146">*insiders-fast의* 장치는 업데이트 및 새 기능을 수신하는 첫 번째  장치로, 그 다음에는 이후의 내부자 속도가 느려지며 마지막으로 *prod가 됩니다.*</span><span class="sxs-lookup"><span data-stu-id="2808f-146">Devices in *insiders-fast* are the first ones to receive updates and new features, followed later by *insiders-slow* and lastly by *prod*.</span></span>
+    <span data-ttu-id="43a50-145">채널 선택에 따라 장치에 제공되는 업데이트의 유형과 빈도가 결정됩니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-145">The choice of the channel determines the type and frequency of updates that are offered to your device.</span></span> <span data-ttu-id="43a50-146">*insiders-fast의* 장치는 업데이트 및 새 기능을 수신하는 첫 번째  장치로, 그 다음에는 이후의 내부자 속도가 느려지며 마지막으로 *prod가 됩니다.*</span><span class="sxs-lookup"><span data-stu-id="43a50-146">Devices in *insiders-fast* are the first ones to receive updates and new features, followed later by *insiders-slow* and lastly by *prod*.</span></span>
 
-    <span data-ttu-id="2808f-147">새 기능을 미리 보고 초기 피드백을 제공하도록 엔터프라이즈의 일부 장치는 *insiders-fast* 또는 *insiders-slow를* 사용하도록 구성하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-147">In order to preview new features and provide early feedback, it is recommended that you configure some devices in your enterprise to use either *insiders-fast* or *insiders-slow*.</span></span>
+    <span data-ttu-id="43a50-147">새 기능을 미리 보고 초기 피드백을 제공하도록 엔터프라이즈의 일부 장치는 *insiders-fast* 또는 *insiders-slow를* 사용하도록 구성하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-147">In order to preview new features and provide early feedback, it is recommended that you configure some devices in your enterprise to use either *insiders-fast* or *insiders-slow*.</span></span>
 
     > [!WARNING]
-    > <span data-ttu-id="2808f-148">초기 설치 후 채널을 전환하려면 제품을 다시 설치해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-148">Switching the channel after the initial installation requires the product to be reinstalled.</span></span> <span data-ttu-id="2808f-149">제품 채널을 전환하려면 기존 패키지를 제거하고 새 채널을 사용하도록 장치를 다시 구성하고 이 문서의 단계에 따라 새 위치에서 패키지를 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-149">To switch the product channel: uninstall the existing package, re-configure your device to use the new channel, and follow the steps in this document to install the package from the new location.</span></span>
+    > <span data-ttu-id="43a50-148">초기 설치 후 채널을 전환하려면 제품을 다시 설치해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-148">Switching the channel after the initial installation requires the product to be reinstalled.</span></span> <span data-ttu-id="43a50-149">제품 채널을 전환하려면 기존 패키지를 제거하고 새 채널을 사용하도록 장치를 다시 구성하고 이 문서의 단계에 따라 새 위치에서 패키지를 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-149">To switch the product channel: uninstall the existing package, re-configure your device to use the new channel, and follow the steps in this document to install the package from the new location.</span></span>
 
-    <span data-ttu-id="2808f-150">배포 및 버전을 확인하고 에서 가장 가까운 항목을 `https://packages.microsoft.com/config/` 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-150">Note your distribution and version and identify the closest entry for it under `https://packages.microsoft.com/config/`.</span></span>
+    <span data-ttu-id="43a50-150">배포 및 버전을 확인하고 에서 가장 가까운 항목을 `https://packages.microsoft.com/config/` 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-150">Note your distribution and version and identify the closest entry for it under `https://packages.microsoft.com/config/`.</span></span>
 
-    <span data-ttu-id="2808f-151">다음 명령에서 *[distro]* 및 *[version]을* 식별한 정보로 바 대체합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-151">In the following commands, replace *[distro]* and *[version]* with the information you've identified.</span></span>
+    <span data-ttu-id="43a50-151">다음 명령에서 *[distro]* 및 *[version]을* 식별한 정보로 바 대체합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-151">In the following commands, replace *[distro]* and *[version]* with the information you've identified.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="2808f-152">Oracle Linux의 경우 *[distro]를* "rhel"으로 바하십시오.</span><span class="sxs-lookup"><span data-stu-id="2808f-152">In case of Oracle Linux, replace *[distro]* with “rhel”.</span></span>
+    > <span data-ttu-id="43a50-152">Oracle Linux의 경우 *[distro]를* "rhel"으로 바하십시오.</span><span class="sxs-lookup"><span data-stu-id="43a50-152">In case of Oracle Linux, replace *[distro]* with “rhel”.</span></span>
 
   ```bash
   - name: Add Microsoft APT key
@@ -174,12 +174,12 @@ ms.locfileid: "51587638"
       baseurl: https://packages.microsoft.com/[distro]/[version]/[channel]/
       gpgcheck: yes
       enabled: Yes
-  when: ansible_os_family == "RedHat"
+    when: ansible_os_family == "RedHat"
   ```
 
-- <span data-ttu-id="2808f-153">Ansible 설치를 만들고 YAML 파일을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-153">Create the Ansible install and uninstall YAML files.</span></span>
+- <span data-ttu-id="43a50-153">Ansible 설치를 만들고 YAML 파일을 제거합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-153">Create the Ansible install and uninstall YAML files.</span></span>
 
-    - <span data-ttu-id="2808f-154">apt 기반 배포의 경우 다음 YAML 파일을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-154">For apt-based distributions use the following YAML file:</span></span>
+    - <span data-ttu-id="43a50-154">apt 기반 배포의 경우 다음 YAML 파일을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-154">For apt-based distributions use the following YAML file:</span></span>
 
         ```bash
         cat install_mdatp.yml
@@ -189,7 +189,8 @@ ms.locfileid: "51587638"
           tasks:
             - include: ../roles/onboarding_setup.yml
             - include: ../roles/add_apt_repo.yml
-            - apt:
+            - name: Install MDATP
+              apt:
                 name: mdatp
                 state: latest
                 update_cache: yes
@@ -200,53 +201,56 @@ ms.locfileid: "51587638"
         ```
         ```Output
         - hosts: servers
-        tasks:
-            - apt:
+          tasks:
+            - name: Uninstall MDATP
+              apt:
                 name: mdatp
                 state: absent
         ```
 
-    - <span data-ttu-id="2808f-155">yum 기반 배포의 경우 다음 YAML 파일을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-155">For yum-based distributions use the following YAML file:</span></span>
+    - <span data-ttu-id="43a50-155">dnf 기반 배포의 경우 다음 YAML 파일을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-155">For dnf-based distributions use the following YAML file:</span></span>
 
         ```bash
-        cat install_mdatp_yum.yml
+        cat install_mdatp_dnf.yml
         ```
         ```Output
         - hosts: servers
           tasks:
             - include: ../roles/onboarding_setup.yml
             - include: ../roles/add_yum_repo.yml
-            - yum:
-              name: mdatp
-              state: latest
-              enablerepo: packages-microsoft-com-prod-[channel]
+            - name: Install MDATP
+              dnf:
+                name: mdatp
+                state: latest
+                enablerepo: packages-microsoft-com-prod-[channel]
         ```
 
         ```bash
-        cat uninstall_mdatp_yum.yml
+        cat uninstall_mdatp_dnf.yml
         ```
         ```Output
         - hosts: servers
-        tasks:
-            - yum:
-               name: mdatp
+          tasks:
+            - name: Uninstall MDATP
+              dnf:
+                name: mdatp
                 state: absent
         ```
 
-## <a name="deployment"></a><span data-ttu-id="2808f-156">배포</span><span class="sxs-lookup"><span data-stu-id="2808f-156">Deployment</span></span>
+## <a name="deployment"></a><span data-ttu-id="43a50-156">배포</span><span class="sxs-lookup"><span data-stu-id="43a50-156">Deployment</span></span>
 
-<span data-ttu-id="2808f-157">이제 작업 파일을 또는 관련 `/etc/ansible/playbooks/` 디렉터리에서 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-157">Now run the tasks files under `/etc/ansible/playbooks/` or relevant directory.</span></span>
+<span data-ttu-id="43a50-157">이제 작업 파일을 또는 관련 `/etc/ansible/playbooks/` 디렉터리에서 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-157">Now run the tasks files under `/etc/ansible/playbooks/` or relevant directory.</span></span>
 
-- <span data-ttu-id="2808f-158">설치:</span><span class="sxs-lookup"><span data-stu-id="2808f-158">Installation:</span></span>
+- <span data-ttu-id="43a50-158">설치:</span><span class="sxs-lookup"><span data-stu-id="43a50-158">Installation:</span></span>
 
     ```bash
     ansible-playbook /etc/ansible/playbooks/install_mdatp.yml -i /etc/ansible/hosts
     ```
 
 > [!IMPORTANT]
-> <span data-ttu-id="2808f-159">제품이 처음 시작되면 최신 맬웨어 방지 정의를 다운로드합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-159">When the product starts for the first time, it downloads the latest antimalware definitions.</span></span> <span data-ttu-id="2808f-160">인터넷 연결에 따라 이 시간이 몇 분 정도 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-160">Depending on your Internet connection, this can take up to a few minutes.</span></span>
+> <span data-ttu-id="43a50-159">제품이 처음 시작되면 최신 맬웨어 방지 정의를 다운로드합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-159">When the product starts for the first time, it downloads the latest antimalware definitions.</span></span> <span data-ttu-id="43a50-160">인터넷 연결에 따라 이 시간이 몇 분 정도 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-160">Depending on your Internet connection, this can take up to a few minutes.</span></span>
 
-- <span data-ttu-id="2808f-161">유효성 검사/구성:</span><span class="sxs-lookup"><span data-stu-id="2808f-161">Validation/configuration:</span></span>
+- <span data-ttu-id="43a50-161">유효성 검사/구성:</span><span class="sxs-lookup"><span data-stu-id="43a50-161">Validation/configuration:</span></span>
 
     ```bash
     ansible -m shell -a 'mdatp connectivity test' all
@@ -255,26 +259,26 @@ ms.locfileid: "51587638"
     ansible -m shell -a 'mdatp health' all
     ```
 
-- <span data-ttu-id="2808f-162">제거:</span><span class="sxs-lookup"><span data-stu-id="2808f-162">Uninstallation:</span></span>
+- <span data-ttu-id="43a50-162">제거:</span><span class="sxs-lookup"><span data-stu-id="43a50-162">Uninstallation:</span></span>
 
     ```bash
     ansible-playbook /etc/ansible/playbooks/uninstall_mdatp.yml -i /etc/ansible/hosts
     ```
 
-## <a name="log-installation-issues"></a><span data-ttu-id="2808f-163">로그 설치 문제</span><span class="sxs-lookup"><span data-stu-id="2808f-163">Log installation issues</span></span>
+## <a name="log-installation-issues"></a><span data-ttu-id="43a50-163">로그 설치 문제</span><span class="sxs-lookup"><span data-stu-id="43a50-163">Log installation issues</span></span>
 
-<span data-ttu-id="2808f-164">오류가 [발생할 때](linux-resources.md#log-installation-issues) 설치 관리자에서 자동으로 생성된 로그를 찾는 방법에 대한 자세한 내용은 설치 문제 로그를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="2808f-164">See [Log installation issues](linux-resources.md#log-installation-issues) for more information on how to find the automatically generated log that is created by the installer when an error occurs.</span></span>
+<span data-ttu-id="43a50-164">오류가 [발생할 때](linux-resources.md#log-installation-issues) 설치 관리자에서 자동으로 생성된 로그를 찾는 방법에 대한 자세한 내용은 설치 문제 로그를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="43a50-164">See [Log installation issues](linux-resources.md#log-installation-issues) for more information on how to find the automatically generated log that is created by the installer when an error occurs.</span></span>
 
-## <a name="operating-system-upgrades"></a><span data-ttu-id="2808f-165">운영 체제 업그레이드</span><span class="sxs-lookup"><span data-stu-id="2808f-165">Operating system upgrades</span></span>
+## <a name="operating-system-upgrades"></a><span data-ttu-id="43a50-165">운영 체제 업그레이드</span><span class="sxs-lookup"><span data-stu-id="43a50-165">Operating system upgrades</span></span>
 
-<span data-ttu-id="2808f-166">운영 체제를 새 주 버전으로 업그레이드할 때 먼저 Linux용 Endpoint용 Defender를 제거하고 업그레이드를 설치한 다음 마지막으로 디바이스에서 Linux용 Endpoint용 Defender를 다시 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2808f-166">When upgrading your operating system to a new major version, you must first uninstall Defender for Endpoint for Linux, install the upgrade, and finally reconfigure Defender for Endpoint for Linux on your device.</span></span>
+<span data-ttu-id="43a50-166">운영 체제를 새 주 버전으로 업그레이드할 때 먼저 Linux용 Endpoint용 Defender를 제거하고 업그레이드를 설치한 다음 마지막으로 디바이스에서 Linux용 Endpoint용 Defender를 다시 구성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="43a50-166">When upgrading your operating system to a new major version, you must first uninstall Defender for Endpoint for Linux, install the upgrade, and finally reconfigure Defender for Endpoint for Linux on your device.</span></span>
 
-## <a name="references"></a><span data-ttu-id="2808f-167">참조</span><span class="sxs-lookup"><span data-stu-id="2808f-167">References</span></span>
+## <a name="references"></a><span data-ttu-id="43a50-167">참조</span><span class="sxs-lookup"><span data-stu-id="43a50-167">References</span></span>
 
-- [<span data-ttu-id="2808f-168">YUM 리포지토리 추가 또는 제거</span><span class="sxs-lookup"><span data-stu-id="2808f-168">Add or remove YUM repositories</span></span>](https://docs.ansible.com/ansible/2.3/yum_repository_module.html)
+- [<span data-ttu-id="43a50-168">YUM 리포지토리 추가 또는 제거</span><span class="sxs-lookup"><span data-stu-id="43a50-168">Add or remove YUM repositories</span></span>](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/yum_repository_module.html)
 
-- [<span data-ttu-id="2808f-169">yum 패키지 관리자를 사용하여 패키지 관리</span><span class="sxs-lookup"><span data-stu-id="2808f-169">Manage packages with the yum package manager</span></span>](https://docs.ansible.com/ansible/latest/modules/yum_module.html)
+- [<span data-ttu-id="43a50-169">dnf 패키지 관리자를 사용하여 패키지 관리</span><span class="sxs-lookup"><span data-stu-id="43a50-169">Manage packages with the dnf package manager</span></span>](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/dnf_module.html)
 
-- [<span data-ttu-id="2808f-170">APT 리포지토리 추가 및 제거</span><span class="sxs-lookup"><span data-stu-id="2808f-170">Add and remove APT repositories</span></span>](https://docs.ansible.com/ansible/latest/modules/apt_repository_module.html)
+- [<span data-ttu-id="43a50-170">APT 리포지토리 추가 및 제거</span><span class="sxs-lookup"><span data-stu-id="43a50-170">Add and remove APT repositories</span></span>](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_repository_module.html)
 
-- [<span data-ttu-id="2808f-171">apt-packages 관리</span><span class="sxs-lookup"><span data-stu-id="2808f-171">Manage apt-packages</span></span>](https://docs.ansible.com/ansible/latest/modules/apt_module.html)
+- [<span data-ttu-id="43a50-171">apt-packages 관리</span><span class="sxs-lookup"><span data-stu-id="43a50-171">Manage apt-packages</span></span>](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html)

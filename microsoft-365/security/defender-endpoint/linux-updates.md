@@ -19,47 +19,47 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ad37427e8134c574690c3b3553d7fb9b8507593c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 2e4ea4942446317aef90288da9fb181935503fa9
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187724"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687469"
 ---
-# <a name="deploy-updates-for-microsoft-defender-for-endpoint-for-linux"></a><span data-ttu-id="b2b56-104">Linux용 끝점용 Microsoft Defender 업데이트 배포</span><span class="sxs-lookup"><span data-stu-id="b2b56-104">Deploy updates for Microsoft Defender for Endpoint for Linux</span></span>
+# <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a><span data-ttu-id="6da3f-104">Linux에서 끝점용 Microsoft Defender 업데이트 배포</span><span class="sxs-lookup"><span data-stu-id="6da3f-104">Deploy updates for Microsoft Defender for Endpoint on Linux</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="b2b56-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="b2b56-105">**Applies to:**</span></span>
-- [<span data-ttu-id="b2b56-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="b2b56-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="b2b56-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="b2b56-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="6da3f-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="6da3f-105">**Applies to:**</span></span>
+- <span data-ttu-id="6da3f-106">[엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) </span><span class="sxs-lookup"><span data-stu-id="6da3f-106">[Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/p/?linkid=2154037)</span></span>
+- [<span data-ttu-id="6da3f-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="6da3f-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="b2b56-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="b2b56-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="b2b56-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="b2b56-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> <span data-ttu-id="6da3f-108">Endpoint용 Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="6da3f-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="6da3f-109">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="6da3f-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-<span data-ttu-id="b2b56-110">Microsoft는 성능, 보안을 개선하고 새로운 기능을 제공하기 위해 소프트웨어 업데이트를 정기적으로 게시합니다.</span><span class="sxs-lookup"><span data-stu-id="b2b56-110">Microsoft regularly publishes software updates to improve performance, security, and to deliver new features.</span></span>
+<span data-ttu-id="6da3f-110">Microsoft는 성능, 보안을 개선하고 새로운 기능을 제공하기 위해 소프트웨어 업데이트를 정기적으로 게시합니다.</span><span class="sxs-lookup"><span data-stu-id="6da3f-110">Microsoft regularly publishes software updates to improve performance, security, and to deliver new features.</span></span>
 
 > [!WARNING]
-> <span data-ttu-id="b2b56-111">Linux용 끝점용 Defender의 각 버전에는 만료 날짜가 있습니다. 그 이후에는 더 이상 디바이스를 보호하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="b2b56-111">Each version of Defender for Endpoint for Linux has an expiration date, after which it will no longer continue to protect your device.</span></span> <span data-ttu-id="b2b56-112">이 날짜 이전에 제품을 업데이트해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b2b56-112">You must update the product prior to this date.</span></span> <span data-ttu-id="b2b56-113">만료 날짜를 확인하기 위해 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="b2b56-113">To check the expiration date, run the following command:</span></span>
+> <span data-ttu-id="6da3f-111">Linux용 끝점용 Defender의 각 버전에는 만료 날짜가 있습니다. 그 이후에는 더 이상 디바이스를 보호하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="6da3f-111">Each version of Defender for Endpoint for Linux has an expiration date, after which it will no longer continue to protect your device.</span></span> <span data-ttu-id="6da3f-112">이 날짜 이전에 제품을 업데이트해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6da3f-112">You must update the product prior to this date.</span></span> <span data-ttu-id="6da3f-113">만료 날짜를 확인하기 위해 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="6da3f-113">To check the expiration date, run the following command:</span></span>
 > ```bash
 > mdatp health --field product_expiration
 > ```
 
-<span data-ttu-id="b2b56-114">Linux용 끝점용 Defender를 수동으로 업데이트하려면 다음 명령 중 하나를 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="b2b56-114">To update Defender for Endpoint for Linux manually, execute one of the following commands:</span></span>
+<span data-ttu-id="6da3f-114">Linux용 끝점용 Defender를 수동으로 업데이트하려면 다음 명령 중 하나를 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="6da3f-114">To update Defender for Endpoint for Linux manually, execute one of the following commands:</span></span>
 
-## <a name="rhel-and-variants-centos-and-oracle-linux"></a><span data-ttu-id="b2b56-115">RHEL 및 변형(CentOS 및 Oracle Linux)</span><span class="sxs-lookup"><span data-stu-id="b2b56-115">RHEL and variants (CentOS and Oracle Linux)</span></span>
+## <a name="rhel-and-variants-centos-and-oracle-linux"></a><span data-ttu-id="6da3f-115">RHEL 및 변형(CentOS 및 Oracle Linux)</span><span class="sxs-lookup"><span data-stu-id="6da3f-115">RHEL and variants (CentOS and Oracle Linux)</span></span>
 
 ```bash
 sudo yum update mdatp
 ```
 
-## <a name="sles-and-variants"></a><span data-ttu-id="b2b56-116">SLES 및 변형</span><span class="sxs-lookup"><span data-stu-id="b2b56-116">SLES and variants</span></span>
+## <a name="sles-and-variants"></a><span data-ttu-id="6da3f-116">SLES 및 변형</span><span class="sxs-lookup"><span data-stu-id="6da3f-116">SLES and variants</span></span>
 
 ```bash
 sudo zypper update mdatp
 ```
 
-## <a name="ubuntu-and-debian-systems"></a><span data-ttu-id="b2b56-117">Ubuntu 및 데비안 시스템</span><span class="sxs-lookup"><span data-stu-id="b2b56-117">Ubuntu and Debian systems</span></span>
+## <a name="ubuntu-and-debian-systems"></a><span data-ttu-id="6da3f-117">Ubuntu 및 데비안 시스템</span><span class="sxs-lookup"><span data-stu-id="6da3f-117">Ubuntu and Debian systems</span></span>
 
 ```bash
 sudo apt-get install --only-upgrade mdatp

@@ -1,7 +1,7 @@
 ---
 title: 장치 값 할당 - 위협 및 취약성 관리
 description: 자산 우선 순위를 차별화하는 데 도움이 될 수 있도록 장치에 낮은 값, 보통 또는 높은 값을 할당하는 방법을 배워야 합니다.
-keywords: Microsoft Defender atp 장치 값, 위협 및 취약성 관리 장치 값, 높은 가치의 장치, 장치 값 노출 점수
+keywords: 끝점 장치 값, 위협 및 취약성 관리 장치 값, 고가치 장치, 장치 값 노출 점수에 대한 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,66 +18,66 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3cecee8b80f179f67cb48f62e1d9238a51825bfd
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 1f5d90190418f84795bdd899ea0e48ac25831a96
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500211"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689392"
 ---
-# <a name="assign-device-value---threat-and-vulnerability-management"></a><span data-ttu-id="dc734-104">장치 값 할당 - 위협 및 취약성 관리</span><span class="sxs-lookup"><span data-stu-id="dc734-104">Assign device value - threat and vulnerability management</span></span>
+# <a name="assign-device-value---threat-and-vulnerability-management"></a><span data-ttu-id="ffbe9-104">장치 값 할당 - 위협 및 취약성 관리</span><span class="sxs-lookup"><span data-stu-id="ffbe9-104">Assign device value - threat and vulnerability management</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="dc734-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="dc734-105">**Applies to:**</span></span>
+<span data-ttu-id="ffbe9-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="ffbe9-105">**Applies to:**</span></span>
 
-- [<span data-ttu-id="dc734-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="dc734-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [<span data-ttu-id="dc734-107">위협 및 취약점 관리</span><span class="sxs-lookup"><span data-stu-id="dc734-107">Threat and vulnerability management</span></span>](next-gen-threat-and-vuln-mgt.md)
-- [<span data-ttu-id="dc734-108">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="dc734-108">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+- <span data-ttu-id="ffbe9-106">[엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) </span><span class="sxs-lookup"><span data-stu-id="ffbe9-106">[Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
+- [<span data-ttu-id="ffbe9-107">위협 및 취약점 관리</span><span class="sxs-lookup"><span data-stu-id="ffbe9-107">Threat and vulnerability management</span></span>](next-gen-threat-and-vuln-mgt.md)
+- [<span data-ttu-id="ffbe9-108">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="ffbe9-108">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="dc734-109">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="dc734-109">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="dc734-110">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="dc734-110">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+> <span data-ttu-id="ffbe9-109">끝점용 Microsoft Defender를 경험하고 싶나요?</span><span class="sxs-lookup"><span data-stu-id="ffbe9-109">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="ffbe9-110">무료 평가판에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="ffbe9-110">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-<span data-ttu-id="dc734-111">디바이스의 값을 정의하면 자산 우선 순위를 차별화하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dc734-111">Defining a device’s value helps you differentiate between asset priorities.</span></span> <span data-ttu-id="dc734-112">장치 값은 개별 자산의 위험 위험을 위협 및 취약성 관리 노출 점수 계산에 통합하는 데 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="dc734-112">The device value is used to incorporate the risk appetite of an individual asset into the threat and vulnerability management exposure score calculation.</span></span> <span data-ttu-id="dc734-113">"높은 값"으로 할당된 장치는 더 많은 가중치를 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dc734-113">Devices assigned as “high value” will receive more weight.</span></span>
+<span data-ttu-id="ffbe9-111">디바이스의 값을 정의하면 자산 우선 순위를 차별화하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ffbe9-111">Defining a device’s value helps you differentiate between asset priorities.</span></span> <span data-ttu-id="ffbe9-112">장치 값은 개별 자산의 위험 위험을 위협 및 취약성 관리 노출 점수 계산에 통합하는 데 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="ffbe9-112">The device value is used to incorporate the risk appetite of an individual asset into the threat and vulnerability management exposure score calculation.</span></span> <span data-ttu-id="ffbe9-113">"높은 값"으로 할당된 장치는 더 많은 가중치를 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ffbe9-113">Devices assigned as “high value” will receive more weight.</span></span>
 
-<span data-ttu-id="dc734-114">설정 장치 값 [API 를 사용할 수 있습니다.](set-device-value.md)</span><span class="sxs-lookup"><span data-stu-id="dc734-114">You can also use the [set device value API](set-device-value.md).</span></span>
+<span data-ttu-id="ffbe9-114">설정 장치 값 [API 를 사용할 수 있습니다.](set-device-value.md)</span><span class="sxs-lookup"><span data-stu-id="ffbe9-114">You can also use the [set device value API](set-device-value.md).</span></span>
 
-<span data-ttu-id="dc734-115">디바이스 값 옵션:</span><span class="sxs-lookup"><span data-stu-id="dc734-115">Device value options:</span></span>
+<span data-ttu-id="ffbe9-115">디바이스 값 옵션:</span><span class="sxs-lookup"><span data-stu-id="ffbe9-115">Device value options:</span></span>
 
-- <span data-ttu-id="dc734-116">낮음</span><span class="sxs-lookup"><span data-stu-id="dc734-116">Low</span></span>
-- <span data-ttu-id="dc734-117">보통(기본값)</span><span class="sxs-lookup"><span data-stu-id="dc734-117">Normal (Default)</span></span>
-- <span data-ttu-id="dc734-118">높음</span><span class="sxs-lookup"><span data-stu-id="dc734-118">High</span></span>
+- <span data-ttu-id="ffbe9-116">낮음</span><span class="sxs-lookup"><span data-stu-id="ffbe9-116">Low</span></span>
+- <span data-ttu-id="ffbe9-117">보통(기본값)</span><span class="sxs-lookup"><span data-stu-id="ffbe9-117">Normal (Default)</span></span>
+- <span data-ttu-id="ffbe9-118">높음</span><span class="sxs-lookup"><span data-stu-id="ffbe9-118">High</span></span>
 
-<span data-ttu-id="dc734-119">높은 값을 할당해야 하는 장치의 예:</span><span class="sxs-lookup"><span data-stu-id="dc734-119">Examples of devices that should be assigned a high value:</span></span>
+<span data-ttu-id="ffbe9-119">높은 값을 할당해야 하는 장치의 예:</span><span class="sxs-lookup"><span data-stu-id="ffbe9-119">Examples of devices that should be assigned a high value:</span></span>
 
-- <span data-ttu-id="dc734-120">도메인 컨트롤러, Active Directory</span><span class="sxs-lookup"><span data-stu-id="dc734-120">Domain controllers, Active Directory</span></span>
-- <span data-ttu-id="dc734-121">인터넷 연결 장치</span><span class="sxs-lookup"><span data-stu-id="dc734-121">Internet facing devices</span></span>
-- <span data-ttu-id="dc734-122">VIP 장치</span><span class="sxs-lookup"><span data-stu-id="dc734-122">VIP devices</span></span>
-- <span data-ttu-id="dc734-123">내부/외부 프로덕션 서비스를 호스팅하는 장치</span><span class="sxs-lookup"><span data-stu-id="dc734-123">Devices hosting internal/external production services</span></span>
+- <span data-ttu-id="ffbe9-120">도메인 컨트롤러, Active Directory</span><span class="sxs-lookup"><span data-stu-id="ffbe9-120">Domain controllers, Active Directory</span></span>
+- <span data-ttu-id="ffbe9-121">인터넷 연결 장치</span><span class="sxs-lookup"><span data-stu-id="ffbe9-121">Internet facing devices</span></span>
+- <span data-ttu-id="ffbe9-122">VIP 장치</span><span class="sxs-lookup"><span data-stu-id="ffbe9-122">VIP devices</span></span>
+- <span data-ttu-id="ffbe9-123">내부/외부 프로덕션 서비스를 호스팅하는 장치</span><span class="sxs-lookup"><span data-stu-id="ffbe9-123">Devices hosting internal/external production services</span></span>
 
-## <a name="choose-device-value"></a><span data-ttu-id="dc734-124">장치 값 선택</span><span class="sxs-lookup"><span data-stu-id="dc734-124">Choose device value</span></span>
+## <a name="choose-device-value"></a><span data-ttu-id="ffbe9-124">장치 값 선택</span><span class="sxs-lookup"><span data-stu-id="ffbe9-124">Choose device value</span></span>
 
-1. <span data-ttu-id="dc734-125">장치 페이지로 이동하는 것이 장치 인벤토리에서 가장 쉬운 장소입니다.</span><span class="sxs-lookup"><span data-stu-id="dc734-125">Navigate to any device page, the easiest place is from the device inventory.</span></span>
+1. <span data-ttu-id="ffbe9-125">장치 페이지로 이동하는 것이 장치 인벤토리에서 가장 쉬운 장소입니다.</span><span class="sxs-lookup"><span data-stu-id="ffbe9-125">Navigate to any device page, the easiest place is from the device inventory.</span></span>
 
-2. <span data-ttu-id="dc734-126">페이지 **위쪽의** 작업 표시줄 옆에 있는 세 점에서 장치 값을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="dc734-126">Select **Device value** from three dots next to the actions bar at the top of the page.</span></span>
+2. <span data-ttu-id="ffbe9-126">페이지 **위쪽의** 작업 표시줄 옆에 있는 세 점에서 장치 값을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="ffbe9-126">Select **Device value** from three dots next to the actions bar at the top of the page.</span></span>
 
     ![장치 값 드롭다운의 예입니다.](images/tvm-device-value-dropdown.png)
 
-3. <span data-ttu-id="dc734-128">플라이아웃은 현재 디바이스 값 및 의미와 함께 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="dc734-128">A flyout will appear with the current device value and what it means.</span></span> <span data-ttu-id="dc734-129">디바이스의 값을 검토하고 장치에 가장 적합한 값을 선택하세요.</span><span class="sxs-lookup"><span data-stu-id="dc734-129">Review the value of the device and choose the one that best fits your device.</span></span>
-<span data-ttu-id="dc734-130">![장치 값 플라이아웃의 예입니다.](images/tvm-device-value-flyout.png)</span><span class="sxs-lookup"><span data-stu-id="dc734-130">![Example of the device value flyout.](images/tvm-device-value-flyout.png)</span></span>
+3. <span data-ttu-id="ffbe9-128">플라이아웃은 현재 디바이스 값 및 의미와 함께 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="ffbe9-128">A flyout will appear with the current device value and what it means.</span></span> <span data-ttu-id="ffbe9-129">디바이스의 값을 검토하고 장치에 가장 적합한 값을 선택하세요.</span><span class="sxs-lookup"><span data-stu-id="ffbe9-129">Review the value of the device and choose the one that best fits your device.</span></span>
+<span data-ttu-id="ffbe9-130">![장치 값 플라이아웃의 예입니다.](images/tvm-device-value-flyout.png)</span><span class="sxs-lookup"><span data-stu-id="ffbe9-130">![Example of the device value flyout.](images/tvm-device-value-flyout.png)</span></span>
 
-## <a name="how-device-value-impacts-your-exposure-score"></a><span data-ttu-id="dc734-131">디바이스 값이 노출 점수에 미치는 영향</span><span class="sxs-lookup"><span data-stu-id="dc734-131">How device value impacts your exposure score</span></span>
+## <a name="how-device-value-impacts-your-exposure-score"></a><span data-ttu-id="ffbe9-131">디바이스 값이 노출 점수에 미치는 영향</span><span class="sxs-lookup"><span data-stu-id="ffbe9-131">How device value impacts your exposure score</span></span>
 
-<span data-ttu-id="dc734-132">노출 점수는 모든 디바이스에서 가중 평균입니다.</span><span class="sxs-lookup"><span data-stu-id="dc734-132">The exposure score is a weighted average across all devices.</span></span> <span data-ttu-id="dc734-133">장치 그룹이 있는 경우 장치 그룹으로 점수를 필터링할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dc734-133">If you have device groups, you can also filter the score by device group.</span></span>
+<span data-ttu-id="ffbe9-132">노출 점수는 모든 디바이스에서 가중 평균입니다.</span><span class="sxs-lookup"><span data-stu-id="ffbe9-132">The exposure score is a weighted average across all devices.</span></span> <span data-ttu-id="ffbe9-133">장치 그룹이 있는 경우 장치 그룹으로 점수를 필터링할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ffbe9-133">If you have device groups, you can also filter the score by device group.</span></span>
 
-- <span data-ttu-id="dc734-134">일반 디바이스의 가중치 1</span><span class="sxs-lookup"><span data-stu-id="dc734-134">Normal devices have a weight of 1</span></span>
-- <span data-ttu-id="dc734-135">낮은 값 디바이스의 가중치가 0.75입니다.</span><span class="sxs-lookup"><span data-stu-id="dc734-135">Low value devices have a weight of 0.75</span></span>
-- <span data-ttu-id="dc734-136">값이 높은 디바이스는 NumberOfAssets /10의 가중치를 가중치로 가중치가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dc734-136">High value devices have a weight of NumberOfAssets / 10.</span></span>
-    - <span data-ttu-id="dc734-137">디바이스가 100개인 경우 각 고가치 디바이스의 가중치가 10(100/10)입니다.</span><span class="sxs-lookup"><span data-stu-id="dc734-137">If you have 100 devices, each high value device will have a weight of 10 (100/10)</span></span>
+- <span data-ttu-id="ffbe9-134">일반 디바이스의 가중치 1</span><span class="sxs-lookup"><span data-stu-id="ffbe9-134">Normal devices have a weight of 1</span></span>
+- <span data-ttu-id="ffbe9-135">낮은 값 디바이스의 가중치가 0.75입니다.</span><span class="sxs-lookup"><span data-stu-id="ffbe9-135">Low value devices have a weight of 0.75</span></span>
+- <span data-ttu-id="ffbe9-136">값이 높은 디바이스는 NumberOfAssets /10의 가중치를 가중치로 가중치가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ffbe9-136">High value devices have a weight of NumberOfAssets / 10.</span></span>
+    - <span data-ttu-id="ffbe9-137">디바이스가 100개인 경우 각 고가치 디바이스의 가중치가 10(100/10)입니다.</span><span class="sxs-lookup"><span data-stu-id="ffbe9-137">If you have 100 devices, each high value device will have a weight of 10 (100/10)</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="dc734-138">관련 항목</span><span class="sxs-lookup"><span data-stu-id="dc734-138">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ffbe9-138">관련 항목</span><span class="sxs-lookup"><span data-stu-id="ffbe9-138">Related topics</span></span>
 
-- [<span data-ttu-id="dc734-139">위협 및 취약성 관리 개요</span><span class="sxs-lookup"><span data-stu-id="dc734-139">Threat and vulnerability management overview</span></span>](next-gen-threat-and-vuln-mgt.md)
-- [<span data-ttu-id="dc734-140">노출 점수</span><span class="sxs-lookup"><span data-stu-id="dc734-140">Exposure Score</span></span>](tvm-exposure-score.md)
-- [<span data-ttu-id="dc734-141">API</span><span class="sxs-lookup"><span data-stu-id="dc734-141">APIs</span></span>](next-gen-threat-and-vuln-mgt.md#apis)
+- [<span data-ttu-id="ffbe9-139">위협 및 취약성 관리 개요</span><span class="sxs-lookup"><span data-stu-id="ffbe9-139">Threat and vulnerability management overview</span></span>](next-gen-threat-and-vuln-mgt.md)
+- [<span data-ttu-id="ffbe9-140">노출 점수</span><span class="sxs-lookup"><span data-stu-id="ffbe9-140">Exposure Score</span></span>](tvm-exposure-score.md)
+- [<span data-ttu-id="ffbe9-141">API</span><span class="sxs-lookup"><span data-stu-id="ffbe9-141">APIs</span></span>](next-gen-threat-and-vuln-mgt.md#apis)
