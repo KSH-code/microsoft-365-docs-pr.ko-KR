@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Microsoft 365 보안 설명서
-summary: Microsoft 365 보안의 강력한 보안 솔루션 및 서비스에 대해 알아보고 공격 영역 전체에서 기업을 보다 효과적으로 보호할 수 있습니다.
+title: Microsoft Defender for Office 365 설명서
+summary: 전자 메일 및 공동 작업 도구를 더 잘 보호하기 위해 Office 365용 Defender의 강력한 보안 솔루션에 대해 자세히 알아보십시오.
 metadata:
-  title: Microsoft 365 보안 설명서
-  description: Microsoft 365 보안의 강력한 보안 솔루션 및 서비스에 대해 알아보고 공격 영역 전체에서 기업을 보다 효과적으로 보호할 수 있습니다.
+  title: Microsoft Defender for Office 365 보안 설명서
+  description: 전자 메일 및 공동 작업 도구를 더 잘 보호하기 위해 Office 365용 Defender의 강력한 보안 솔루션에 대해 자세히 알아보십시오.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -11,74 +11,118 @@ metadata:
   ms.collection: m365-security-compliance
   author: mjcaparas
   ms.author: macapara
-  ms.date: 09/13/2019
+  ms.date: 04/13/2021
   localization_priority: Priority
-  ms.openlocfilehash: 82fe9cabd7fc5ff3c9b9be1b11db66eb0bea7dde
-  ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+  ms.openlocfilehash: a646d52b903a1ab16d2f552b456793492462c44b
+  ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/25/2021
-  ms.locfileid: "51205032"
+  ms.lasthandoff: 04/14/2021
+  ms.locfileid: "51760263"
 landingContent:
-- title: Microsoft 365 Defender
+- title: Exchange Online Protection용 Office 365 & Defender
   linkLists:
   - linkListType: overview
     links:
-    - text: Microsoft 365 Defender란 무엇인가요?
-      url: ../defender/microsoft-365-defender.md
-    - text: Microsoft 365 보안 센터
-      url: ../defender/overview-security-center.md
-- title: 무료 평가판으로 시작
-  linkLists:
-  - linkListType: overview
-    links:
-    - text: Microsoft 365 Defender 계산
-      url: ../defender/m365d-evaluation.md
-    - text: Microsoft 365 Defender 파일럿 플레이북
-      url: ../defender/m365d-pilot.md
-- title: 원격 작업자 보안 유지
+    - text: Office 365 보안 개요
+      url: overview.md
+    - text: EOP 및 Office 365용 Defender에서 미리 설정된 보안 정책으로 설정
+      url: preset-security-policies.md
+- title: Office 365용 Defender 시작
   linkLists:
   - linkListType: get-started
     links:
-    - text: 원격 작업자 보안 유지
-      url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
-- title: ID용 Microsoft Defender
+    - text: 위협으로부터 보호
+      url: protect-against-threats.md
+    - text: EOP 및 Office 365용 Microsoft Defender에서 보안 정책 미리 설정
+      url: preset-security-policies.md
+    - text: Office 365용 Microsoft Defender의 새로운
+      url: whats-new-in-defender-for-office-365.md
+- title: Office 365용 Defender 계산
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Office 365용 Defender 계산
+      url: office-365-evaluation.md
+    - text: Exchange Online Protection으로 전환
+      url: switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
+- title: 전자 메일 인증 보호 설정
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 스푸핑을 방지할 수 있도록 SPF 설정
+      url: set-up-spf-in-office-365-to-help-prevent-spoofing.md
+    - text: DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
+      url: use-dkim-to-validate-outbound-email.md
+    - text: DMARC를 사용하여 전자 메일의 유효성 검사
+      url: use-dmarc-to-validate-email.md
+- title: Exchange Online Protection 설정
   linkLists:
   - linkListType: overview
     links:
-    - text: ID용 Microsoft Defender란?
-      url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
-    - text: ID 아키텍처용 Microsoft Defender
-      url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
-- title: Office 365용 Defender
+    - text: Exchange Online Protection 개요
+      url: exchange-online-protection-overview.md
+    - text: 설정에 대한 EOP 및 Office 365용 Microsoft Defender 보안에 대한 권장 설정
+      url: recommended-settings-for-eop-and-office365.md
+- title: 방지
   linkLists:
   - linkListType: overview
     links:
-    - text: Office 365용 Defender란 무엇인가요?
-      url: defender-for-office-365.md
-    - text: Office 365용 Defender 서비스 설명
-      url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-- title: 엔드포인트용 Defender
+    - text: 보안 강화를 위해 Microsoft 365 테넌트 구성
+      url: tenant-wide-setup-for-increased-security.md
+    - text: EOP의 구성 분석기 및 Office 365용 Defender
+      url: configuration-analyzer-for-security-policies.md
+    - text: 공격 시뮬레이션 교육 활용
+      url: attack-simulation-training-insights.md
+- title: 감지
   linkLists:
   - linkListType: overview
     links:
-    - text: 엔드포인트용 Microsoft Defender란 무엇인가요?
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
-    - text: 기능 개요
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
-- title: Azure Defender
+    - text: 독립형 EOP 메일 흐름 규칙(전송 규칙)
+      url: mail-flow-rules-transport-rules-0.md
+    - text: 위협 추적기
+      url: threat-trackers.md
+    - text: 보안 및 준수 센터의 똑똑한 보고서 및 분석
+      url: reports-and-insights-in-security-and-compliance.md
+- title: 조사
   linkLists:
   - linkListType: overview
     links:
-    - text: Azure Defender란 무엇인가요?
-      url: https://docs.microsoft.com/azure/security-center/security-center-intro
-    - text: 지원되는 기능
-      url: https://docs.microsoft.com/azure/security-center/security-center-services
-- title: Microsoft Cloud App Security
+    - text: 위협 탐색기 및 실시간 검색의 보기
+      url: threat-explorer-views.md
+    - text: Microsoft Defender for Office 365의 캠페인 보기
+      url: campaigns.md
+    - text: Office 365에서 배달된 악성 전자 메일 조사
+      url: investigate-malicious-email-that-was-delivered.md
+    - text: Office 365용 Defender 보고서 보기
+      url: view-reports-for-mdo.md
+- title: EOP에서 조사
   linkLists:
   - linkListType: overview
     links:
-    - text: Microsoft Cloud App Security란 무엇인가요?
-      url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
-    - text: Microsoft Cloud App Security 시작
-      url: https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security
+    - text: EOP의 보고 및 메시지 추적
+      url: reporting-and-message-trace-in-exchange-online-protection.md
+    - text: 독립 실행형 EOP에서 관리자 감사 로그 보기
+      url: view-the-admin-audit-log-eop.md
+- title: 응답
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Office 365에서 배달된 악성 전자 메일 수정
+      url: remediate-malicious-email-delivered-office-365.md
+    - text: 손상된 전자 메일 계정에 응답
+      url: responding-to-a-compromised-email-account.md
+    - text: Outlook 규칙 및 사용자 지정 양식 주입 공격 수정
+      url: detect-and-remediate-outlook-rules-forms-attack.md
+    - text: 가짓 긍정/거짓 부정 제출
+      url: admin-submission.md
+- title: 자동화
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Office 365용 Defender에서 자동화된 조사 및 대응(AIR)이 작동하는 방식
+      url: automated-investigation-response-office.md
+    - text: Office 365용 Defender에서 AIR 시작
+      url: office-365-air.md
+    - text: AIR을 통해 손상된 사용자 계정 해결
+      url: address-compromised-users-quickly.md

@@ -22,107 +22,127 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: a6c7e7e920d18d9d8bf29d71d317008ea0c37bbf
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: 5fe594dca935b7377a385b487f1464c3f0a91151
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51592099"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760329"
 ---
-# <a name="investigate-incidents-in-microsoft-365-defender"></a><span data-ttu-id="11b07-104">Microsoft 365 Defender에서 인시던트 조사</span><span class="sxs-lookup"><span data-stu-id="11b07-104">Investigate incidents in Microsoft 365 Defender</span></span>
+# <a name="investigate-incidents-in-microsoft-365-defender"></a><span data-ttu-id="0477a-104">Microsoft 365 Defender에서 인시던트 조사</span><span class="sxs-lookup"><span data-stu-id="0477a-104">Investigate incidents in Microsoft 365 Defender</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="11b07-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="11b07-105">**Applies to:**</span></span>
+<span data-ttu-id="0477a-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="0477a-105">**Applies to:**</span></span>
 
-- <span data-ttu-id="11b07-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="11b07-106">Microsoft 365 Defender</span></span>
+- <span data-ttu-id="0477a-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="0477a-106">Microsoft 365 Defender</span></span>
 
-<span data-ttu-id="11b07-107">Microsoft 365 Defender는 장치, 사용자 및 사서함 전체의 모든 관련 경고, 자산, 조사 및 증거를 집계하여 공격의 전체 너비를 포괄적으로 살펴 봐야 합니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-107">Microsoft 365 Defender aggregates all related alerts, assets, investigations and evidence from across your devices, users, and mailboxes to give you a comprehensive look into the entire breadth of an attack.</span></span>
+<span data-ttu-id="0477a-107">Microsoft 365 Defender는 장치, 사용자 및 사서함에 대한 모든 관련 경고, 자산, 조사 및 증거를 인시던트에 집계하여 공격의 전체 너비를 포괄적으로 살펴 봐야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-107">Microsoft 365 Defender aggregates all related alerts, assets, investigations and evidence from across your devices, users, and mailboxes into an incident to give you a comprehensive look into the entire breadth of an attack.</span></span>
 
-<span data-ttu-id="11b07-108">네트워크에 영향을 미치는 알림을 조사하고, 해당 내용이 무엇인지 이해하고, 인시던트와 관련된 증거를 수집하여 효과적인 수정 계획을 세울 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-108">Investigate the alerts that affect your network, understand what they mean, and collate evidence associated with the incidents so that you can devise an effective remediation plan.</span></span>
+<span data-ttu-id="0477a-108">인시던트 내에서 네트워크에 영향을 주는 경고를 조사하고, 경고의 의미를 이해하고, 효과적인 수정 계획을 수립할 수 있도록 증거를 수집합니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-108">Within an incident, you investigate the alerts that affect your network, understand what they mean, and collate the evidence so that you can devise an effective remediation plan.</span></span>
 
-## <a name="investigate-an-incident"></a><span data-ttu-id="11b07-109">인시던트 조사</span><span class="sxs-lookup"><span data-stu-id="11b07-109">Investigate an incident</span></span>
+## <a name="initial-investigation"></a><span data-ttu-id="0477a-109">초기 조사</span><span class="sxs-lookup"><span data-stu-id="0477a-109">Initial investigation</span></span>
 
-1. <span data-ttu-id="11b07-110">인시던트 대기열에서 인시던트를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-110">Select an incident from the incident queue.</span></span> <BR> <span data-ttu-id="11b07-111">사이드 패널이 열리며 상태, 심각도, 범주 및 영향을 주는 엔터티와 같은 중요한 정보를 미리 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-111">A side panel opens and gives a preview of important information such as status, severity, categories, and the impacted entities.</span></span>
+<span data-ttu-id="0477a-110">세부 정보를 살펴보기 전에 인시던트의 속성과 요약을 살펴보아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-110">Before diving into the details, take a look at the properties and summary of the incident.</span></span>
 
-    ![인시던트 사이드 패널의 이미지](../../media/incident-side-panel.png)
+<span data-ttu-id="0477a-111">확인 표시 열에서 인시던트부터 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-111">You can start by selecting the incident from the check mark column.</span></span> <span data-ttu-id="0477a-112">다음은 예입니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-112">Here's an example.</span></span>
 
-2. <span data-ttu-id="11b07-113">**인시던트 페이지 열기** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-113">Select **Open incident page**.</span></span> <BR> <span data-ttu-id="11b07-114">그러면 인시던트 세부 정보, 설명 및 작업, 탭(개요, 경고, 장치, 사용자, 조사, 증거)을 찾을 수 있는 인시던트 페이지가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-114">This opens the incident page where you'll find more information incident details, comments, and actions, tabs (overview, alerts, devices, users, investigations, evidence).</span></span>
+:::image type="content" source="../../media/investigate-incidents/incidents-ss-incident-select.png" alt-text="확인 표시 열에서 인시던트 선택 예제":::
 
-3. <span data-ttu-id="11b07-115">인시던트에 관련된 알림, 장치, 사용자, 기타 엔터티를 검토합니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-115">Review the alerts, devices, users, other entities involved in the incident.</span></span>
+<span data-ttu-id="0477a-114">이렇게 하는 경우 인시던트에 대한 주요 정보(예: 심각도, 할당된 사용자 및 인시던트에 대한 [MITRE &trade; ATT](https://attack.mitre.org/)&CK 범주)가 있는 요약 창이 열립니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-114">When you do, a summary pane opens with key information about the incident, such as severity, who it is assigned to, and the [MITRE ATT&CK&trade;](https://attack.mitre.org/) categories for the incident.</span></span> <span data-ttu-id="0477a-115">다음은 예입니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-115">Here's an example.</span></span>
 
-## <a name="incident-overview"></a><span data-ttu-id="11b07-116">인시던트 개요</span><span class="sxs-lookup"><span data-stu-id="11b07-116">Incident overview</span></span>
+:::image type="content" source="../../media/investigate-incidents/incidents-ss-incident-side-panel.png" alt-text="인시던트에 대한 요약 창의 예":::
 
-<span data-ttu-id="11b07-117">개요 페이지에서는 인시던트에 대한 주요 정보를 볼 수 있는 스냅숏을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-117">The overview page gives you a snapshot glance into the top things to notice about the incident.</span></span>
+<span data-ttu-id="0477a-117">여기에서 문제 페이지 **열기 를 선택할 수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="0477a-117">From here, you can select **Open incident page**.</span></span> <span data-ttu-id="0477a-118">그러면 경고, 장치, 사용자, 조사 및 증거에 대한 추가 요약 정보와 탭을 찾을 수 있는 인시던트의 기본 페이지가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-118">This opens the main page for the incident where you'll find more summary information and tabs for alerts, devices, users, investigations, and evidence.</span></span>
 
-![인시던트 개요 페이지의 이미지](../../media/incidents-overview.png)
+<span data-ttu-id="0477a-119">인시던트 큐에서 인시던트 이름을 선택하여 인시던트의 기본 페이지를 열 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-119">You can also open the main page for an incident by selecting the incident name from the incident queue.</span></span>
 
-<span data-ttu-id="11b07-119">공격 범주는 킬체인에 대해 공격이 진행된 상황을 시각적 및 숫자로 볼 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-119">The attack categories give you a visual and numeric view of how advanced the attack has progressed against the kill chain.</span></span> <span data-ttu-id="11b07-120">다른 Microsoft 보안 제품과 함께 Microsoft 365 Defender는 [MITRE ATT 및 &trade; CK](https://attack.mitre.org/)&정렬됩니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-120">As with other Microsoft security products, Microsoft 365 Defender is aligned to the [MITRE ATT&CK&trade;](https://attack.mitre.org/) framework.</span></span>
+## <a name="summary"></a><span data-ttu-id="0477a-120">요약</span><span class="sxs-lookup"><span data-stu-id="0477a-120">Summary</span></span>
 
-<span data-ttu-id="11b07-121">범위 섹션에서는 이 인시던트의 일부인 영향을 받는 상위 자산 목록을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-121">The scope section gives you a list of top impacted assets that are part of this incident.</span></span> <span data-ttu-id="11b07-122">위험 수준, 조사 우선 순위 및 자산에 대한 태그 지정과 같은 해당 자산에 관한 특정 정보가 있는 경우 이 섹션에도 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-122">If there is specific information regarding this asset, such as risk level, investigation priority as well as any tagging on the assets this will also surface in this section.</span></span>
+<span data-ttu-id="0477a-121">요약 **페이지에서는** 인시던트에 대해 가장 많이 알 수 있는 스냅숏을 한눈에 알 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-121">The **Summary** page gives you a snapshot glance at the top things to notice about the incident.</span></span>
 
-<span data-ttu-id="11b07-123">알림 시간 표시 막대는 알림이 발생한 시간 순서와 해당 인시던트에 대해 이러한 알림이 발생한 이유에 대한 미리 보기를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-123">The alerts timeline provides a sneak peek into the chronological order in which the alerts occurred, as well as the reasons that these alerts linked to this incident.</span></span>
+:::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="Microsoft 365 보안 센터의 인시던트에 대한 요약 페이지 예":::
 
-<span data-ttu-id="11b07-124">그리고 마지막인 증거 섹션에는 인시던트에 얼마나 많은 아티팩트가 포함되었는지와 치료 상태에 대한 요약 정보가 제공되므로 사용자 측에서 어떤 조치가 필요한지 즉시 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-124">And last - the evidence section provides a summary of how many different artifacts were included in the incident and their remediation status, so you can immediately identify if any action is needed on your end.</span></span>
+<span data-ttu-id="0477a-123">공격 범주는 킬체인에 대해 공격이 진행된 상황을 시각적 및 숫자로 볼 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-123">The attack categories give you a visual and numeric view of how advanced the attack has progressed against the kill chain.</span></span> <span data-ttu-id="0477a-124">다른 Microsoft 보안 제품과 함께 Microsoft 365 Defender는 [MITRE ATT 및 &trade; CK](https://attack.mitre.org/)&정렬됩니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-124">As with other Microsoft security products, Microsoft 365 Defender is aligned to the [MITRE ATT&CK&trade;](https://attack.mitre.org/) framework.</span></span>
 
-<span data-ttu-id="11b07-125">이 개요는 사용자가 알아야 할 인시던트의 주요 특징에 대한 통찰력을 제공함으로써 인시던트의 초기 분류를 도울 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-125">This overview can assist in the initial triage of the incident by providing insight to the top characteristics of the incident that you should be aware of.</span></span>
+<span data-ttu-id="0477a-125">범위 섹션에서는 이 인시던트의 일부인 영향을 받는 상위 자산 목록을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-125">The scope section gives you a list of top impacted assets that are part of this incident.</span></span> <span data-ttu-id="0477a-126">위험 수준, 조사 우선 순위 및 자산에 대한 태그 지정과 같은 해당 자산에 관한 특정 정보가 있는 경우 이 섹션에도 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-126">If there is specific information regarding this asset, such as risk level, investigation priority as well as any tagging on the assets this will also surface in this section.</span></span>
 
-## <a name="alerts"></a><span data-ttu-id="11b07-126">알림</span><span class="sxs-lookup"><span data-stu-id="11b07-126">Alerts</span></span>
+<span data-ttu-id="0477a-127">경고 타임라인은 경고가 발생한 시간 순서와 이러한 경고가 이 인시던트와 연결되는 이유에 대해 살피는 기능을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-127">The alerts timeline provides a sneak peek into the chronological order in which the alerts occurred, as well as the reasons that these alerts are linked to this incident.</span></span>
 
-<span data-ttu-id="11b07-127">인시던트와 관련된 모든 경고 및 심각도, 경고에 관련된 엔터티, 경고의 원본(ID에 대한 Microsoft Defender, 끝점용 Microsoft Defender, Office 365용 Microsoft Defender) 및 이러한 경고가 함께 연결된 이유와 같은 기타 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-127">You can view all the alerts related to the incident and other information about them such as severity, entities that were involved in the alert, the source of the alerts (Microsoft Defender for Identity, Microsoft Defender for Endpoint, Microsoft Defender for Office 365) and the reason they were linked together.</span></span>
+<span data-ttu-id="0477a-128">그리고 마지막인 증거 섹션에는 인시던트에 얼마나 많은 아티팩트가 포함되었는지와 치료 상태에 대한 요약 정보가 제공되므로 사용자 측에서 어떤 조치가 필요한지 즉시 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-128">And last - the evidence section provides a summary of how many different artifacts were included in the incident and their remediation status, so you can immediately identify if any action is needed on your end.</span></span>
 
-![인시던트 알림 페이지 이미지](../../media/incident-alerts.png)
+<span data-ttu-id="0477a-129">이 개요는 파악해야 하는 인시던트의 주요 특징에 대한 정보를 제공하여 인시던트의 초기 조사를 지원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-129">This overview can assist in the initial triage of the incident by providing insight into the top characteristics of the incident that you should be aware of.</span></span>
 
-<span data-ttu-id="11b07-129">기본적으로 알림은 시간을 기준으로 순서대로 정렬되며, 이를 통해 시간에 따라 처음부터 공격이 진행된 방식을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-129">By default, the alerts are ordered chronologically, to allow you to first view how the attack played out over time.</span></span> <span data-ttu-id="11b07-130">각 경고를 클릭하면 해당 경고에 대한 심층 조사를 실시할 수 있는 관련 경고 페이지로 이동됩니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-130">Clicking on each alert will lead you to the relevant alert page where you can conduct an in-depth investigation of that alert.</span></span> <span data-ttu-id="11b07-131">경고 조사에서 경고 페이지 및 통합 경고 큐를 사용하는 [방법에 대해 자세히 알아보기](investigate-alerts.md)</span><span class="sxs-lookup"><span data-stu-id="11b07-131">Learn how to use alert pages and the unified alert queue in [Investigate alerts](investigate-alerts.md)</span></span>
+## <a name="alerts"></a><span data-ttu-id="0477a-130">경고</span><span class="sxs-lookup"><span data-stu-id="0477a-130">Alerts</span></span>
 
-## <a name="devices"></a><span data-ttu-id="11b07-132">장치</span><span class="sxs-lookup"><span data-stu-id="11b07-132">Devices</span></span>
+<span data-ttu-id="0477a-131">경고 **탭에서** 인시던트와 관련된 경고 및 경고에 대한 기타 정보(예: )에 대한 경고 큐를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-131">On the **Alert** tab, you can view the alert queue for alerts related to the incident and other information about them such as:</span></span>
 
-<span data-ttu-id="11b07-133">장치 탭에는 인시던트와 관련된 알림이 표시되는 모든 장치가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-133">The devices tab lists all the devices where alerts related to the incident are seen.</span></span>
+- <span data-ttu-id="0477a-132">심각도.</span><span class="sxs-lookup"><span data-stu-id="0477a-132">Severity.</span></span>
+- <span data-ttu-id="0477a-133">경고에 관련된 엔터티입니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-133">The entities that were involved in the alert.</span></span>
+- <span data-ttu-id="0477a-134">경고의 원본(ID용 Microsoft Defender, Endpoint용 Microsoft Defender, Office 365용 Microsoft Defender).</span><span class="sxs-lookup"><span data-stu-id="0477a-134">The source of the alerts (Microsoft Defender for Identity, Microsoft Defender for Endpoint, Microsoft Defender for Office 365).</span></span>
+- <span data-ttu-id="0477a-135">함께 연결된 이유입니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-135">The reason they were linked together.</span></span>
 
-<span data-ttu-id="11b07-134">공격이 수행된 컴퓨터의 이름을 클릭하면 컴퓨터 페이지로 이동하여 해당 컴퓨터에서 트리거된 알림 및 관련 이벤트를 쉽게 조사할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-134">Clicking the name of the machine where the attack was conducted navigates you to its Machine page where you can see alerts that were triggered on it and related events provided to ease investigation.</span></span>
+<span data-ttu-id="0477a-136">다음은 예입니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-136">Here's an example.</span></span>
 
-![인시던트의 컴퓨터 탭 이미지](../../media/incident-machines.png)
+:::image type="content" source="../../media/investigate-incidents/incident-alerts.png" alt-text="인시던트에 대한 경고 페이지 예":::
 
-<span data-ttu-id="11b07-136">시간 표시 막대 탭을 선택하면 컴퓨터 시간 표시 막대를 스크롤하여 컴퓨터에서 관찰된 경고와 함께 시간 순서 대로 관찰된 모든 이벤트와 동작을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-136">Selecting the Timeline tab enables you to scroll through the machine timeline and view all events and behaviors observed on the machine in chronological order, interspersed with the alerts raised.</span></span>
+<span data-ttu-id="0477a-138">기본적으로 경고는 시간이 지날 때 인시던트가 어떻게 재생되는지 볼 수 있도록 시간 순서대로 지정됩니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-138">By default, the alerts are ordered chronologically to allow you to see how the incident played out over time.</span></span> <span data-ttu-id="0477a-139">각 경고를 선택하면 경고의 기본 페이지로 이동하여 해당 경고에 대한 심층 조사를 실시할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-139">Selecting each alert takes you to the alert's main page where you can conduct an in-depth investigation of that alert.</span></span> 
+
+<span data-ttu-id="0477a-140">경고 조사에서 경고 큐 및 경고 페이지를 사용하는 [방법 학습](investigate-alerts.md)</span><span class="sxs-lookup"><span data-stu-id="0477a-140">Learn how to use the alert queue and alert pages in [Investigate alerts](investigate-alerts.md)</span></span>
+
+## <a name="devices"></a><span data-ttu-id="0477a-141">디바이스</span><span class="sxs-lookup"><span data-stu-id="0477a-141">Devices</span></span>
+
+<span data-ttu-id="0477a-142">장치 **탭에는** 인시던트와 관련된 모든 장치가 나열됩니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-142">The **Devices** tab lists all the devices related to the incident.</span></span> <span data-ttu-id="0477a-143">다음은 예입니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-143">Here's an example.</span></span>
+
+:::image type="content" source="../../media/investigate-incidents/incident-devices.png" alt-text="인시던트에 대한 장치 페이지의 예":::
+
+<span data-ttu-id="0477a-145">장치의 확인 표시를 선택하여 장치, 디렉터리 데이터, 활성 경고 및 로그온한 사용자의 세부 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-145">You can select the check mark for a device to see details of the device, directory data, active alerts, and logged on users.</span></span> <span data-ttu-id="0477a-146">Microsoft Defender for Endpoints 장치 인벤토리에서 장치 세부 정보를 확인하려면 장치의 이름을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-146">Select the name of the device to see device details in the Microsoft Defender for Endpoints device inventory.</span></span>
+
+:::image type="content" source="../../media/investigate-incidents/incident-devices-details.png" alt-text="끝점용 Microsoft Defender의 장치 페이지 예":::
+
+<span data-ttu-id="0477a-148">디바이스 페이지에서 모든 경고, 타임라인 및 보안 권장 사항과 같은 장치에 대한 추가 정보를 수집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-148">From the device page, you can gather additional information about the device, such as all of its alerts, a timeline, and security recommendations.</span></span> <span data-ttu-id="0477a-149">예를 들어 시간  표시 막대 탭에서 컴퓨터 타임라인을 스크롤하여 컴퓨터에서 관찰된 모든 이벤트와 동작을 시간 순서대로 볼 수 있으며, 경고가 발생했습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-149">For example, from the **Timeline** tab, you can scroll through the machine timeline and view all events and behaviors observed on the machine in chronological order, interspersed with the alerts raised.</span></span>
 
 > [!TIP]
-> <span data-ttu-id="11b07-137">디바이스 페이지에서는 필요한 경우 검색을 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-137">You can do on-demand scans on a device page.</span></span> <span data-ttu-id="11b07-138">Microsoft 365 보안 센터에서 장치 **인벤토리 를 선택하세요.**</span><span class="sxs-lookup"><span data-stu-id="11b07-138">In the Microsoft 365 security center, choose **Device inventory**.</span></span> <span data-ttu-id="11b07-139">경고가 있는 장치를 선택한 다음 바이러스 백신 검색을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-139">Select a device that has alerts, and then run an antivirus scan.</span></span> <span data-ttu-id="11b07-140">바이러스 백신 검사와 같은 작업은 추적되어 장치 인벤토리 **페이지에** 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-140">Actions, such as antivirus scans, are tracked and are visible on the **Device inventory** page.</span></span> <span data-ttu-id="11b07-141">자세한 내용은 [장치에서 Microsoft Defender 바이러스 백신 검사 실행을 참조합니다.](/microsoft-365/security/defender-endpoint/respond-machine-alerts#run-microsoft-defender-antivirus-scan-on-devices)</span><span class="sxs-lookup"><span data-stu-id="11b07-141">To learn more, see [Run Microsoft Defender Antivirus scan on devices](/microsoft-365/security/defender-endpoint/respond-machine-alerts#run-microsoft-defender-antivirus-scan-on-devices).</span></span>
+> <span data-ttu-id="0477a-150">디바이스 페이지에서는 필요한 경우 검색을 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-150">You can do on-demand scans on a device page.</span></span> <span data-ttu-id="0477a-151">Microsoft 365 보안 센터에서 장치 인벤토리의 **> 선택하세요.**</span><span class="sxs-lookup"><span data-stu-id="0477a-151">In the Microsoft 365 security center, choose **Endpoints > Device inventory**.</span></span> <span data-ttu-id="0477a-152">경고가 있는 장치를 선택한 다음 바이러스 백신 검색을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-152">Select a device that has alerts, and then run an antivirus scan.</span></span> <span data-ttu-id="0477a-153">바이러스 백신 검사와 같은 작업은 추적되어 장치 인벤토리 **페이지에** 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-153">Actions, such as antivirus scans, are tracked and are visible on the **Device inventory** page.</span></span> <span data-ttu-id="0477a-154">자세한 내용은 [장치에서 Microsoft Defender 바이러스 백신 검사 실행을 참조합니다.](/microsoft-365/security/defender-endpoint/respond-machine-alerts#run-microsoft-defender-antivirus-scan-on-devices)</span><span class="sxs-lookup"><span data-stu-id="0477a-154">To learn more, see [Run Microsoft Defender Antivirus scan on devices](/microsoft-365/security/defender-endpoint/respond-machine-alerts#run-microsoft-defender-antivirus-scan-on-devices).</span></span>
 
+## <a name="users"></a><span data-ttu-id="0477a-155">사용자</span><span class="sxs-lookup"><span data-stu-id="0477a-155">Users</span></span>
 
-## <a name="users"></a><span data-ttu-id="11b07-142">사용자</span><span class="sxs-lookup"><span data-stu-id="11b07-142">Users</span></span>
+<span data-ttu-id="0477a-156">사용자 **탭에는** 인시던트의 일부로 식별되거나 인시던트와 관련된 것으로 식별된 모든 사용자가 나열됩니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-156">The **Users** tab lists all the users that have been identified to be part of or related to the incident.</span></span> <span data-ttu-id="0477a-157">다음은 예입니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-157">Here's an example.</span></span>
 
-<span data-ttu-id="11b07-143">주어진 인시던트의 일부로 식별되거나 이와 관련된 사용자를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="11b07-143">See users that have been identified to be part of, or related to a given incident.</span></span>
+:::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="인시던트에 대한 사용자 페이지의 예":::
 
-<span data-ttu-id="11b07-144">사용자 이름을 클릭하면 추가 조사를 수행할 수 있는 사용자의 클라우드 앱 보안 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-144">Clicking the username navigates you to the user's Cloud App Security page where further investigation can be conducted.</span></span>
+<span data-ttu-id="0477a-159">사용자의 확인 표시를 선택하여 사용자 계정 위협, 노출 및 연락처 정보에 대한 세부 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-159">You can select the check mark for a user to see details of the user account threat, exposure, and contact information.</span></span> <span data-ttu-id="0477a-160">사용자 이름을 선택하여 추가 사용자 계정 세부 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-160">Select the user name to see additional user account details.</span></span>
 
-![인시던트의 사용자 탭 이미지](../../media/incident-users.png)
+## <a name="mailboxes"></a><span data-ttu-id="0477a-161">사서함</span><span class="sxs-lookup"><span data-stu-id="0477a-161">Mailboxes</span></span>
 
-## <a name="mailboxes"></a><span data-ttu-id="11b07-146">사서함</span><span class="sxs-lookup"><span data-stu-id="11b07-146">Mailboxes</span></span>
+<span data-ttu-id="0477a-162">사서함 **탭에는** 인시던트의 일부로 식별되거나 인시던트와 관련이 있는 것으로 확인된 모든 사서함이 나열됩니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-162">The **Mailboxes** tab lists all the mailboxes that have been identified to be part of or related to the incident.</span></span> <span data-ttu-id="0477a-163">다음은 예입니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-163">Here's an example.</span></span>
 
-<span data-ttu-id="11b07-147">인시던트의 일부로 식별되거나 이와 관련된 사서함을 조사하세요.</span><span class="sxs-lookup"><span data-stu-id="11b07-147">Investigate mailboxes that's been identified to be part of, or related to an incident.</span></span> <span data-ttu-id="11b07-148">추가 조사 작업을 수행하려면 메일 관련 알림을 선택하면 수정 작업을 수행할 수 있는 Office 365용 Microsoft Defender가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-148">To do further investigative work, selecting the mail-related alert will open Microsoft Defender for Office 365 where you can take remediation actions.</span></span>
+:::image type="content" source="../../media/investigate-incidents/incident-mailboxes.png" alt-text="인시던트에 대한 사서함 페이지의 예":::
 
-![인시던트의 사서함 탭 이미지](../../media/incident-mailboxes.png)
+<span data-ttu-id="0477a-165">사서함의 확인 표시를 선택하여 활성 경고 목록을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-165">You can select the check mark for a mailbox to see a list of active alerts.</span></span> <span data-ttu-id="0477a-166">Microsoft Defender for Office 365의 탐색기 페이지에서 사서함 이름을 선택하여 추가 사서함 세부 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-166">Select the mailbox name to see additional mailbox details on the Explorer page for Microsoft Defender for Office 365.</span></span>
 
-## <a name="investigations"></a><span data-ttu-id="11b07-150">조사</span><span class="sxs-lookup"><span data-stu-id="11b07-150">Investigations</span></span>
+## <a name="investigations"></a><span data-ttu-id="0477a-167">조사</span><span class="sxs-lookup"><span data-stu-id="0477a-167">Investigations</span></span>
 
-<span data-ttu-id="11b07-151">조사를 **선택하여** 이 인시던트의 경고에 의해 트리거된 모든 자동화된 조사를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-151">Select **Investigations** to see all the automated investigations triggered by alerts in this incident.</span></span> <span data-ttu-id="11b07-152">조사는 끝점용 Microsoft Defender 및 Office 365용 Defender에서 자동화된 조사를 실행하도록 구성한 방법에 따라 수정 작업을 수행하거나 분석가의 작업 승인을 기다릴 것입니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-152">The investigations will perform remediation actions or wait for analyst approval of actions, depending on how you configured your automated investigations to run in Microsoft Defender for Endpoint and Defender for Office 365.</span></span>
+<span data-ttu-id="0477a-168">조사 **탭에는** 이 인시던트의 경고에 의해 트리거된 모든 자동화된 조사가 나열됩니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-168">The **Investigations** tab lists all the automated investigations triggered by alerts in this incident.</span></span> <span data-ttu-id="0477a-169">조사는 끝점용 Microsoft Defender 및 Office 365용 Defender에서 자동화된 조사를 실행하도록 구성한 방법에 따라 수정 작업을 수행하거나 분석가의 작업 승인을 기다릴 것입니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-169">The investigations will perform remediation actions or wait for analyst approval of actions, depending on how you configured your automated investigations to run in Microsoft Defender for Endpoint and Defender for Office 365.</span></span>
 
-![인시던트의 조사 탭 이미지](../../media/incident-investigations.png)
+:::image type="content" source="../../media/investigate-incidents/incident-investigations.png" alt-text="인시던트에 대한 조사 페이지의 예":::
 
-<span data-ttu-id="11b07-154">조사를 선택하여 조사 세부 사항 페이지로 이동하고 조사 및 수정 상태에 대한 전체 정보를 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="11b07-154">Select an investigation to navigate to the Investigation details page to get full information on the investigation and remediation status.</span></span> <span data-ttu-id="11b07-155">조사의 일부로 승인 보류 중인 작업이 있는 경우 보류 중인 작업 탭에 표시됩니다. 인시던트 수정의 일부로 조치를 취합니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-155">If there are any actions pending for approval as part of the investigation, they will appear in the Pending actions tab. Take action as part of incident remediation.</span></span>
+<span data-ttu-id="0477a-171">조사를 선택하여 조사 세부 사항 페이지로 이동하고 조사 및 수정 상태에 대한 전체 정보를 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="0477a-171">Select an investigation to navigate to the Investigation details page to get full information on the investigation and remediation status.</span></span> <span data-ttu-id="0477a-172">조사의 일부로 승인 보류 중인 작업이 있는 경우 보류 중인 작업 탭에 표시됩니다. 인시던트 수정의 일부로 조치를 취합니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-172">If there are any actions pending for approval as part of the investigation, they will appear in the Pending actions tab. Take action as part of incident remediation.</span></span>
 
-## <a name="evidence"></a><span data-ttu-id="11b07-156">증거</span><span class="sxs-lookup"><span data-stu-id="11b07-156">Evidence</span></span>
+## <a name="evidence-and-response"></a><span data-ttu-id="0477a-173">증거 및 응답</span><span class="sxs-lookup"><span data-stu-id="0477a-173">Evidence and Response</span></span>
 
-<span data-ttu-id="11b07-157">Microsoft 365 Defender는 경고에서 모든 인시던트 지원 이벤트 및 의심스러운 엔터티를 자동으로 조사하여 중요한 파일, 프로세스, 서비스, 전자 메일 등에 대한 자동 대응 및 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-157">Microsoft 365 Defender automatically investigates all the incidents' supported events and suspicious entities in the alerts, providing you with autoresponse and information about the important files, processes, services, emails, and more.</span></span> <span data-ttu-id="11b07-158">이를 통해 인시던트의 잠재적 위협을 신속하게 탐지하고 차단할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-158">This helps quickly detect and block potential threats in the incident.</span></span>
+<span data-ttu-id="0477a-174">증거 **및 응답 탭에는** 인시던트의 경고에서 지원되는 모든 이벤트와 의심스러운 엔터티가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-174">The **Evidence and Response** tab shows all the supported events and suspicious entities in the alerts in the incident.</span></span> <span data-ttu-id="0477a-175">다음은 예입니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-175">Here's an example.</span></span>
 
-![인시던트의 증거 탭 이미지](../../media/incident-evidence.png)
+:::image type="content" source="../../media/investigate-incidents/incident-evidence.png" alt-text="인시던트에 대한 증거 및 응답 페이지의 예":::
 
-<span data-ttu-id="11b07-160">분석된 각 엔터티에는 수정 상태뿐만 아니라 결과 (악성적임, 의심스러움, 깨끗함)가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-160">Each of the analyzed entities will be marked with a verdict (Malicious, Suspicious, Clean) as well as a remediation status.</span></span> <span data-ttu-id="11b07-161">이를 통해 전체 인시던트의 수정 상태를 파악하고 추가적인 치료를 위한 다음 단계를 확인하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="11b07-161">This assists you in understanding the remediation status of the entire incident and what are the next steps that can be taken to further remediate.</span></span>
+<span data-ttu-id="0477a-177">Microsoft 365 Defender는 경고에서 모든 인시던트 지원 이벤트 및 의심스러운 엔터티를 자동으로 조사하여 중요한 전자 메일, 파일, 프로세스, 서비스, IP 주소에 대한 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-177">Microsoft 365 Defender automatically investigates all the incidents' supported events and suspicious entities in the alerts, providing you with information about the important emails, files, processes, services, IP Addresses, and more.</span></span> <span data-ttu-id="0477a-178">이렇게 하면 인시던트의 잠재적인 위협을 빠르게 감지하고 차단할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-178">This helps you quickly detect and block potential threats in the incident.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="11b07-162">관련 항목</span><span class="sxs-lookup"><span data-stu-id="11b07-162">Related topics</span></span>
+<span data-ttu-id="0477a-179">분석된 각 엔터티는 판정(악성, 의심스러운, 정리)과 수정 상태로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-179">Each of the analyzed entities is marked with a verdict (Malicious, Suspicious, Clean) and a remediation status.</span></span> <span data-ttu-id="0477a-180">이렇게 하면 전체 인시던트의 수정 상태와 다음 단계를 이해하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0477a-180">This helps you understand the remediation status of the entire incident and what next steps can be taken.</span></span>
 
-- [<span data-ttu-id="11b07-163">인시던트 개요</span><span class="sxs-lookup"><span data-stu-id="11b07-163">Incidents overview</span></span>](incidents-overview.md)
-- [<span data-ttu-id="11b07-164">인시던트 우선 순위 지정</span><span class="sxs-lookup"><span data-stu-id="11b07-164">Prioritize incidents</span></span>](incident-queue.md)
-- [<span data-ttu-id="11b07-165">인시던트 관리</span><span class="sxs-lookup"><span data-stu-id="11b07-165">Manage incidents</span></span>](manage-incidents.md)
+## <a name="related-topics"></a><span data-ttu-id="0477a-181">관련 항목</span><span class="sxs-lookup"><span data-stu-id="0477a-181">Related topics</span></span>
+
+- [<span data-ttu-id="0477a-182">인시던트 개요</span><span class="sxs-lookup"><span data-stu-id="0477a-182">Incidents overview</span></span>](incidents-overview.md)
+- [<span data-ttu-id="0477a-183">인시던트 우선 순위 지정</span><span class="sxs-lookup"><span data-stu-id="0477a-183">Prioritize incidents</span></span>](incident-queue.md)
+- [<span data-ttu-id="0477a-184">인시던트 관리</span><span class="sxs-lookup"><span data-stu-id="0477a-184">Manage incidents</span></span>](manage-incidents.md)
 
