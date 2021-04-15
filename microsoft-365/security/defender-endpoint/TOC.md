@@ -9,7 +9,7 @@
 ### [Microsoft Defender 보안 센터 개요](use.md)
 ### [포털 개요](portal-overview.md)
 ### [엔드포인트용 Microsoft Defender(미국 정부 고객용)](gov.md)
-### [엔드포인트용 Microsoft Defender(Windows가 아닌 플랫폼)](non-windows.md)
+### [Microsoft Defender for Endpoint(Windows가 아닌 플랫폼)](non-windows.md)
 
 ## [기능 평가](evaluation-lab.md)
 
@@ -85,6 +85,65 @@
 ##### [공격 표면 감소 규칙 사용자 지정](customize-attack-surface-reduction.md)
 ##### [공격 표면 감소 이벤트 보기](event-views.md)
 
+### 차세대 보호
+#### [Microsoft Defender 바이러스 백신 개요](microsoft-defender-antivirus-in-windows-10.md)
+#### [Windows Server의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-on-windows-server.md)
+#### [함께 활용: Microsoft Defender 바이러스 백신 및 Microsoft Defender for Endpoint](why-use-microsoft-defender-antivirus.md)
+#### [함께 활용: Microsoft Defender 바이러스 백신 및 Office 365](office-365-microsoft-defender-antivirus.md)
+#### [클라우드 제공 보호 및 Microsoft Defender 바이러스 백신](cloud-protection-microsoft-defender-antivirus.md)
+#### [Microsoft Defender 바이러스 백신 평가](evaluate-microsoft-defender-antivirus.md)
+#### [Microsoft Defender 바이러스 백신 기능 구성](configure-microsoft-defender-antivirus-features.md)
+##### [클라우드 제공 보호 켜기](enable-cloud-protection-microsoft-defender-antivirus.md)
+##### [클라우드 제공 보호 수준 지정](specify-cloud-protection-level-microsoft-defender-antivirus.md)
+##### [Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사](configure-network-connections-microsoft-defender-antivirus.md)
+##### [무단 보호를 사용하여 보안 설정 보호](prevent-changes-to-security-settings-with-tamper-protection.md)
+##### [즉각적 차단 켜기](configure-block-at-first-sight-microsoft-defender-antivirus.md)
+##### [클라우드 차단 제한 시간 구성](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md)
+##### [동작, 추론 및 실시간 보호 구성](configure-protection-features-microsoft-defender-antivirus.md)
+##### [잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)
+##### [그룹 정책에서 Microsoft Defender 바이러스 백신 항상 보호 설정 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md)
+##### [Microsoft Defender 바이러스 백신 검색에 대한 수정 구성](configure-remediation-microsoft-defender-antivirus.md)
+##### [예약된 빠른 또는 전체 Microsoft Defender 바이러스 백신 검사 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
+##### [Microsoft Defender 바이러스 백신에서 제한된 주기적 검사 사용](limited-periodic-scanning-microsoft-defender-antivirus.md)
+#### [다른 보안 제품과의 호환성](microsoft-defender-antivirus-compatibility.md)
+
+#### [바이러스 백신 및 맬웨어 방지 업데이트 다운로드](manage-updates-baselines-microsoft-defender-antivirus.md)
+##### [Microsoft Defender 바이러스 백신 보호 업데이트의 출처 관리](manage-protection-updates-microsoft-defender-antivirus.md)
+##### [보호 업데이트를 다운로드하여 적용해야 하는 경우에 대한 예약 관리](manage-protection-update-schedule-microsoft-defender-antivirus.md)
+##### [Microsoft Defender 바이러스 백신 업데이트 및 만료된 엔드포인트에 대한 검사 관리](manage-outdated-endpoints-microsoft-defender-antivirus.md)
+##### [이벤트 기반 강제 업데이트 관리](manage-event-based-updates-microsoft-defender-antivirus.md)
+##### [모바일 장치 및 VM(가상 머신)에 대한 업데이트 관리](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
+
+#### [조직에 대해 Microsoft Defender 바이러스 백신 관리](configuration-management-reference-microsoft-defender-antivirus.md)
+##### [Microsoft Endpoint Manager를 사용하여 Microsoft Defender 바이러스 백신 관리](use-intune-config-manager-microsoft-defender-antivirus.md)
+##### [그룹 정책 설정을 사용하여 Microsoft Defender 바이러스 백신 관리](use-group-policy-microsoft-defender-antivirus.md)
+##### [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 관리](use-powershell-cmdlets-microsoft-defender-antivirus.md)
+##### [WMI(Windows Management Instrumentation)를 사용하여 Microsoft Defender 바이러스 백신 관리](use-wmi-microsoft-defender-antivirus.md)
+##### [mpcmdrun.exe 도구를 사용하여 Microsoft Defender 바이러스 백신 관리](command-line-arguments-microsoft-defender-antivirus.md)
+
+#### [Microsoft Defender 바이러스 백신 배포 및 보고](deploy-manage-report-microsoft-defender-antivirus.md)
+##### [Microsoft Defender 바이러스 백신 배포 및 사용](deploy-microsoft-defender-antivirus.md)
+##### [VDI(가상 데스크톱 인프라) 환경에서 Microsoft Defender 바이러스 백신의 배포 가이드](deployment-vdi-microsoft-defender-antivirus.md)
+##### [Microsoft Defender 바이러스 백신에 대한 보고](report-monitor-microsoft-defender-antivirus.md)
+
+#### [검사 및 수정](review-scan-results-microsoft-defender-antivirus.md)
+##### [요청 기반 Microsoft Defender 바이러스 백신 검사 구성 및 실행](run-scan-microsoft-defender-antivirus.md)
+##### [Microsoft Defender 오프라인 검사의 결과 실행 및 검토](microsoft-defender-offline.md)
+##### [Microsoft Defender 바이러스 백신 검사 옵션 구성](configure-advanced-scan-types-microsoft-defender-antivirus.md)
+##### [Microsoft Defender 바이러스 백신에서 격리된 파일 복원](restore-quarantined-files-microsoft-defender-antivirus.md)
+
+#### [Microsoft Defender 바이러스 백신 제외](configure-exclusions-microsoft-defender-antivirus.md)
+##### [파일 확장명 및 폴더 위치에 기반하여 제외](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
+##### [프로세스에서 연 파일에 대한 제외](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
+##### [Windows Server에 대한 제외](configure-server-exclusions-microsoft-defender-antivirus.md)
+##### [제외 정의 시 피해야 하는 일반적인 실수](common-exclusion-mistakes-microsoft-defender-antivirus.md)
+
+#### Windows Defender 바이러스 백신 문제 해결
+##### [업데이트 규정 준수에서 Microsoft Defender 바이러스 백신 보고 문제 해결](troubleshoot-reporting.md)
+##### [이벤트 로그 및 오류 코드를 검토하여 Microsoft Defender 바이러스 백신 문제 해결](troubleshoot-microsoft-defender-antivirus.md)
+##### [타사 솔루션에서 마이그레이션하는 동안 Microsoft Defender 바이러스 백신 문제 해결](troubleshoot-microsoft-defender-antivirus-when-migrating.md)
+
+
 #### [하드웨어 기반 격리]()
 ##### [Windows 10의 하드웨어 기반 격리](overview-hardware-based-isolation.md)
 
@@ -115,16 +174,23 @@
 ##### [제어된 폴더 액세스 사용](enable-controlled-folders.md)
 ##### [제어된 폴더 액세스 사용자 지정](customize-controlled-folders.md)
 
+
+### [장치 검색]()
+#### [장치 검색 개요](device-discovery.md)
+#### [장치 검색 구성](configure-device-discovery.md)
+#### [장치 검색 FAQ](device-discovery-faq.md)
+
+
 ### [네트워크 장치](network-devices.md)
 
-### [엔드포인트용 Microsoft Defender(Mac용)]()
-#### [엔드포인트용 Microsoft Defender(Mac용) 개요](microsoft-defender-endpoint-mac.md)
+### [Microsoft Defender for Endpoint(macOS용)]()
+#### [macOS의 Microsoft Defender for Endpoint 개요](microsoft-defender-endpoint-mac.md)
 #### [새로운 기능](mac-whatsnew.md)
 
 #### [배포]()
 ##### [Microsoft Intune 기반 배포](mac-install-with-intune.md)
 ##### [JAMF Pro 기반 배포]()
-###### [Jamf Pro를 사용하여 엔드포인트용 Microsoft Defender(macOS용) 배포](mac-install-with-jamf.md)
+###### [Jamf Pro를 사용하여 Microsoft Defender for Endpoint(macOS용) 배포](mac-install-with-jamf.md)
 ###### [Jamf Pro에 로그인](mac-install-jamfpro-login.md)
 ###### [장치 그룹 설정](mac-jamfpro-device-groups.md)
 ###### [정책 설정](mac-jamfpro-policies.md)
@@ -154,19 +220,19 @@
 #### [개인 정보](mac-privacy.md)
 #### [리소스](mac-resources.md)
 
-### [엔드포인트용 Microsoft Defender(iOS용)]()
-#### [엔드포인트용 Microsoft Defender(iOS용) 개요](microsoft-defender-endpoint-ios.md)
+### [Microsoft Defender for Endpoint(iOS용)]()
+#### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-ios.md)
 
 #### [배포]()
-##### [Intune을 통해 엔드포인트용 Microsoft Defender(iOS용) 배포](ios-install.md)
+##### [Intune을 통해 Microsoft Defender for Endpoint(iOS용) 배포](ios-install.md)
 
 #### [구성]()
 ##### [iOS 기능 구성](ios-configure-features.md)
 #### [개인 정보](ios-privacy.md)
 
 
-### [엔드포인트용 Microsoft Defender(Linux용)]()
-#### [엔드포인트용 Microsoft Defender(Linux용) 개요](microsoft-defender-endpoint-linux.md)
+### [Microsoft Defender for Endpoint(Linux용)]()
+#### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-linux.md)
 #### [새로운 기능](linux-whatsnew.md)
 #### [배포]()
 ##### [수동 배포](linux-install-manually.md)
@@ -180,7 +246,7 @@
 ##### [정적 프록시 구성](linux-static-proxy-configuration.md)
 ##### [기본 설정](linux-preferences.md)
 ##### [잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](linux-pua.md)
-##### [엔드포인트용 Microsoft Defender(Linux용) 검색 예약](linux-schedule-scan-atp.md)
+##### [Microsoft Defender for Endpoint(Linux용) 검사 예약](linux-schedule-scan-atp.md)
 ##### [엔드포인트용 Microsoft Defender(Linux) 업데이트 예약](linux-update-MDE-Linux.md)
 
 #### [문제 해결]()
@@ -192,17 +258,17 @@
 #### [개인 정보](linux-privacy.md)
 #### [리소스](linux-resources.md)
 
-### [엔드포인트용 Microsoft Defender(Android용)]()
-#### [엔드포인트용 Microsoft Defender(Android용) 개요](microsoft-defender-endpoint-android.md)
+### [Microsoft Defender for Endpoint(Android용)]()
+#### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-android.md)
 
 #### [배포]()
-##### [Microsoft Intune으로 엔드포인트용 Microsoft Defender(Android용) 배포](android-intune.md)
+##### [Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포](android-intune.md)
 
 #### [구성]()
-##### [엔드포인트용 Microsoft Defender(Android용) 기능 구성](android-configure.md)
+##### [Microsoft Defender for Endpoint(Android용) 기능 구성](android-configure.md)
 
 #### [개인 정보]()
-##### [엔드포인트용 Microsoft Defender(Android용) - 개인 정보](android-privacy.md)
+##### [Microsoft Defender for Endpoint(Android용) - 개인 정보](android-privacy.md)
 
 #### [문제 해결]()
 ##### [문제 해결](android-support-signin.md)
