@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,48 +14,48 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: de9c7e845188f47ab5b8e1f9d97871ea36340d19
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 7f3fa1ca854a75025f850c85637cd3e08678bdbc
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691469"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764834"
 ---
-# <a name="evaluate-microsoft-defender-antivirus"></a><span data-ttu-id="56806-104">Microsoft Defender 바이러스 백신 평가</span><span class="sxs-lookup"><span data-stu-id="56806-104">Evaluate Microsoft Defender Antivirus</span></span>
+# <a name="evaluate-microsoft-defender-antivirus"></a><span data-ttu-id="a00e0-104">Microsoft Defender 바이러스 백신 평가</span><span class="sxs-lookup"><span data-stu-id="a00e0-104">Evaluate Microsoft Defender Antivirus</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="56806-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="56806-105">**Applies to:**</span></span>
+<span data-ttu-id="a00e0-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="a00e0-105">**Applies to:**</span></span>
 
-- <span data-ttu-id="56806-106">[엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) </span><span class="sxs-lookup"><span data-stu-id="56806-106">[Microsoft Defender for Endpoint](/microsoft-365/security/defender-endpoint/)</span></span>
+- <span data-ttu-id="a00e0-106">[엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) </span><span class="sxs-lookup"><span data-stu-id="a00e0-106">[Microsoft Defender for Endpoint](/microsoft-365/security/defender-endpoint/)</span></span>
 
-<span data-ttu-id="56806-107">이 가이드를 사용하여 Microsoft Defender 바이러스 백신이 바이러스, 맬웨어 및 잠재적으로 원치 않는 응용 프로그램으로부터 보호하는 방법을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56806-107">Use this guide to determine how well Microsoft Defender Antivirus protects you from viruses, malware, and potentially unwanted applications.</span></span>
+<span data-ttu-id="a00e0-107">이 가이드를 사용하여 Microsoft Defender 바이러스 백신이 바이러스, 맬웨어 및 잠재적으로 원치 않는 응용 프로그램으로부터 보호하는 방법을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a00e0-107">Use this guide to determine how well Microsoft Defender Antivirus protects you from viruses, malware, and potentially unwanted applications.</span></span>
 
 >[!TIP]
-><span data-ttu-id="56806-108">Microsoft Defender for [Endpoint](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) 데모 웹 사이트를 방문하여 demo.wd.microsoft.com 작동을 확인하고 작동 방법을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56806-108">You can also visit the Microsoft Defender for Endpoint demo website at [demo.wd.microsoft.com](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) to confirm the following features are working and see how they work:</span></span>
->- <span data-ttu-id="56806-109">클라우드 제공 보호</span><span class="sxs-lookup"><span data-stu-id="56806-109">Cloud-delivered protection</span></span>
->- <span data-ttu-id="56806-110">빠른 학습(신속한 차단 포함)</span><span class="sxs-lookup"><span data-stu-id="56806-110">Fast learning (including Block at first sight)</span></span>
->- <span data-ttu-id="56806-111">잠재적으로 원치 않는 응용 프로그램 차단</span><span class="sxs-lookup"><span data-stu-id="56806-111">Potentially unwanted application blocking</span></span>
+><span data-ttu-id="a00e0-108">Microsoft Defender for [Endpoint](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) 데모 웹 사이트를 방문하여 demo.wd.microsoft.com 작동을 확인하고 작동 방법을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a00e0-108">You can also visit the Microsoft Defender for Endpoint demo website at [demo.wd.microsoft.com](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) to confirm the following features are working and see how they work:</span></span>
+>- <span data-ttu-id="a00e0-109">클라우드 제공 보호</span><span class="sxs-lookup"><span data-stu-id="a00e0-109">Cloud-delivered protection</span></span>
+>- <span data-ttu-id="a00e0-110">빠른 학습(신속한 차단 포함)</span><span class="sxs-lookup"><span data-stu-id="a00e0-110">Fast learning (including Block at first sight)</span></span>
+>- <span data-ttu-id="a00e0-111">잠재적으로 원치 않는 응용 프로그램 차단</span><span class="sxs-lookup"><span data-stu-id="a00e0-111">Potentially unwanted application blocking</span></span>
 
-<span data-ttu-id="56806-112">또한 중소기업과 대기업 둘 다에서 사용할 수 있는 Microsoft Defender 바이러스 백신의 중요한 차세대 보호 기능과 네트워크에서 맬웨어 감지 및 보호를 강화하는 방법에 대해 설명하고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56806-112">It explains the important next-generation protection features of Microsoft Defender Antivirus available for both small and large enterprises, and how they increase malware detection and protection across your network.</span></span>
+<span data-ttu-id="a00e0-112">또한 중소기업과 대기업 둘 다에서 사용할 수 있는 Microsoft Defender 바이러스 백신의 중요한 차세대 보호 기능과 네트워크에서 맬웨어 감지 및 보호를 강화하는 방법에 대해 설명하고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a00e0-112">It explains the important next-generation protection features of Microsoft Defender Antivirus available for both small and large enterprises, and how they increase malware detection and protection across your network.</span></span>
 
-<span data-ttu-id="56806-113">각 설정을 독립적으로 구성 및 평가하도록 선택하거나 한 번씩 모두 평가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56806-113">You can choose to configure and evaluate each setting independently, or all at once.</span></span> <span data-ttu-id="56806-114">일반적인 평가 시나리오에 따라 유사한 설정을 그룹화하고 PowerShell을 사용하여 설정을 사용하도록 설정하기 위한 지침을 포함합니다.</span><span class="sxs-lookup"><span data-stu-id="56806-114">We have grouped similar settings based upon typical evaluation scenarios, and include instructions for using PowerShell to enable the settings.</span></span>
+<span data-ttu-id="a00e0-113">각 설정을 독립적으로 구성 및 평가하도록 선택하거나 한 번씩 모두 평가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a00e0-113">You can choose to configure and evaluate each setting independently, or all at once.</span></span> <span data-ttu-id="a00e0-114">일반적인 평가 시나리오에 따라 유사한 설정을 그룹화하고 PowerShell을 사용하여 설정을 사용하도록 설정하기 위한 지침을 포함합니다.</span><span class="sxs-lookup"><span data-stu-id="a00e0-114">We have grouped similar settings based upon typical evaluation scenarios, and include instructions for using PowerShell to enable the settings.</span></span>
 
-<span data-ttu-id="56806-115">이 가이드는 오프라인에서 볼 수 있도록 PDF 형식으로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="56806-115">The guide is available in PDF format for offline viewing:</span></span>
+<span data-ttu-id="a00e0-115">이 가이드는 오프라인에서 볼 수 있도록 PDF 형식으로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="a00e0-115">The guide is available in PDF format for offline viewing:</span></span>
 
-- [<span data-ttu-id="56806-116">PDF 형식으로 가이드 다운로드</span><span class="sxs-lookup"><span data-stu-id="56806-116">Download the guide in PDF format</span></span>](https://www.microsoft.com/download/details.aspx?id=54795)
+- [<span data-ttu-id="a00e0-116">PDF 형식으로 가이드 다운로드</span><span class="sxs-lookup"><span data-stu-id="a00e0-116">Download the guide in PDF format</span></span>](https://www.microsoft.com/download/details.aspx?id=54795)
 
-<span data-ttu-id="56806-117">가이드에 설명된 모든 설정을 자동으로 사용하도록 설정하는 PowerShell을 다운로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56806-117">You can also download a PowerShell that will enable all the settings described in the guide automatically.</span></span> <span data-ttu-id="56806-118">위의 PDF 다운로드와 함께 또는 PowerShell 갤러리에서 개별적으로 스크립트를 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56806-118">You can obtain the script alongside the PDF download above, or individually from PowerShell Gallery:</span></span>
+<span data-ttu-id="a00e0-117">가이드에 설명된 모든 설정을 자동으로 사용하도록 설정하는 PowerShell을 다운로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a00e0-117">You can also download a PowerShell that will enable all the settings described in the guide automatically.</span></span> <span data-ttu-id="a00e0-118">위의 PDF 다운로드와 함께 또는 PowerShell 갤러리에서 개별적으로 스크립트를 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a00e0-118">You can obtain the script alongside the PDF download above, or individually from PowerShell Gallery:</span></span>
 
-- [<span data-ttu-id="56806-119">PowerShell 스크립트를 다운로드하여 설정 자동 구성</span><span class="sxs-lookup"><span data-stu-id="56806-119">Download the PowerShell script to automatically configure the settings</span></span>](https://www.powershellgallery.com/packages/WindowsDefender_InternalEvaluationSettings)
+- [<span data-ttu-id="a00e0-119">PowerShell 스크립트를 다운로드하여 설정 자동 구성</span><span class="sxs-lookup"><span data-stu-id="a00e0-119">Download the PowerShell script to automatically configure the settings</span></span>](https://www.powershellgallery.com/packages/WindowsDefender_InternalEvaluationSettings)
 
 > [!IMPORTANT]
-> <span data-ttu-id="56806-120">이 가이드는 현재 Microsoft Defender 바이러스 백신의 단일 컴퓨터 평가를 위한 것입니다.</span><span class="sxs-lookup"><span data-stu-id="56806-120">The guide is currently intended for single-machine evaluation of Microsoft Defender Antivirus.</span></span> <span data-ttu-id="56806-121">이 가이드의 모든 설정을 사용하도록 설정하는 것은 실제 배포에 적합하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56806-121">Enabling all of the settings in this guide may not be suitable for real-world deployment.</span></span>
+> <span data-ttu-id="a00e0-120">이 가이드는 현재 Microsoft Defender 바이러스 백신의 단일 컴퓨터 평가를 위한 것입니다.</span><span class="sxs-lookup"><span data-stu-id="a00e0-120">The guide is currently intended for single-machine evaluation of Microsoft Defender Antivirus.</span></span> <span data-ttu-id="a00e0-121">이 가이드의 모든 설정을 사용하도록 설정하는 것은 실제 배포에 적합하지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a00e0-121">Enabling all of the settings in this guide may not be suitable for real-world deployment.</span></span>
 >
-> <span data-ttu-id="56806-122">네트워크에서 Microsoft Defender 바이러스 백신의 실제 배포 및 모니터링에 대한 최신 권장 사항은 Microsoft Defender 바이러스 백신 [배포를 참조하세요.](deploy-manage-report-microsoft-defender-antivirus.md)</span><span class="sxs-lookup"><span data-stu-id="56806-122">For the latest recommendations for real-world deployment and monitoring of Microsoft Defender Antivirus across a network, see [Deploy Microsoft Defender Antivirus](deploy-manage-report-microsoft-defender-antivirus.md).</span></span>
+> <span data-ttu-id="a00e0-122">네트워크에서 Microsoft Defender 바이러스 백신의 실제 배포 및 모니터링에 대한 최신 권장 사항은 Microsoft Defender 바이러스 백신 [배포를 참조하세요.](deploy-manage-report-microsoft-defender-antivirus.md)</span><span class="sxs-lookup"><span data-stu-id="a00e0-122">For the latest recommendations for real-world deployment and monitoring of Microsoft Defender Antivirus across a network, see [Deploy Microsoft Defender Antivirus](deploy-manage-report-microsoft-defender-antivirus.md).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="56806-123">관련 항목</span><span class="sxs-lookup"><span data-stu-id="56806-123">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="a00e0-123">관련 항목</span><span class="sxs-lookup"><span data-stu-id="a00e0-123">Related topics</span></span>
 
-- [<span data-ttu-id="56806-124">Windows 10의 Microsoft Defender 바이러스 백신</span><span class="sxs-lookup"><span data-stu-id="56806-124">Microsoft Defender Antivirus in Windows 10</span></span>](microsoft-defender-antivirus-in-windows-10.md)
-- [<span data-ttu-id="56806-125">Microsoft Defender 바이러스 백신 배포</span><span class="sxs-lookup"><span data-stu-id="56806-125">Deploy Microsoft Defender Antivirus</span></span>](deploy-manage-report-microsoft-defender-antivirus.md)
+- [<span data-ttu-id="a00e0-124">Windows 10의 Microsoft Defender 바이러스 백신</span><span class="sxs-lookup"><span data-stu-id="a00e0-124">Microsoft Defender Antivirus in Windows 10</span></span>](microsoft-defender-antivirus-in-windows-10.md)
+- [<span data-ttu-id="a00e0-125">Microsoft Defender 바이러스 백신 배포</span><span class="sxs-lookup"><span data-stu-id="a00e0-125">Deploy Microsoft Defender Antivirus</span></span>](deploy-manage-report-microsoft-defender-antivirus.md)
