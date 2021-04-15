@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 6ad61d583815f669affe989d7519ba0ade6fe08d
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 0ef80e2aaccbf25a79083c2f95ea7399e30ea651
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760089"
+ms.locfileid: "51764320"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Windows Virtual Desktop에서 Windows 10 다중 세션 장치 온보딩 
 6분 읽기 
@@ -76,62 +76,75 @@ WVD 호스트 컴퓨터는 여러 가지 방법으로 온보드합니다.
 
 1. GPMC(그룹 정책 관리 콘솔)를 열고 구성할 GPO(그룹 정책 개체)를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.**
 
-1. 그룹 정책 관리 편집기에서 컴퓨터 **구성** 기본 설정 \>  \> **제어판 설정으로 이동합니다.** 
+2. 그룹 정책 관리 편집기에서 컴퓨터 **구성** 기본 설정 \>  \> **제어판 설정으로 이동합니다.** 
 
-1. 예약된 **작업을 마우스 오른쪽** 단추로 클릭하고 새로 **고침을** 클릭한 다음 직접 **실행** 작업(Windows 7 이상)을 클릭합니다. 
+3. 예약된 **작업을 마우스 오른쪽** 단추로 클릭하고 새로 **고침을** 클릭한 다음 직접 **실행** 작업(Windows 7 이상)을 클릭합니다. 
 
-1. 작업 창이 열리면 일반 **탭으로** 이동됩니다. 보안 **옵션에서** 사용자 또는 **그룹 변경을 클릭하고** SYSTEM을 입력합니다. 이름 **확인을 클릭한** 다음 확인을 클릭합니다. 작업이 실행될 사용자 계정으로 NT AUTHORITY\SYSTEM이 표시됩니다. 
+4. 작업 창이 열리면 일반 **탭으로** 이동됩니다. 보안 **옵션에서** 사용자 또는 **그룹 변경을 클릭하고** SYSTEM을 입력합니다. 이름 **확인을 클릭한** 다음 확인을 클릭합니다. 작업이 실행될 사용자 계정으로 NT AUTHORITY\SYSTEM이 표시됩니다. 
 
-1. 사용자가 **로그온되어** 있는지 여부에 따라  실행을 선택하고 가장 높은 권한으로 실행 확인란을 선택합니다. 
+5. 사용자가 **로그온되어** 있는지 여부에 따라  실행을 선택하고 가장 높은 권한으로 실행 확인란을 선택합니다. 
 
-1. 작업 **탭으로** 이동하여 새로 고기를 **클릭합니다.** 작업 **필드에서 프로그램** 시작이 선택되어 있도록 합니다. 다음을 입력합니다. 
+6. 작업 **탭으로** 이동하여 새로 고기를 **클릭합니다.** 작업 **필드에서 프로그램** 시작이 선택되어 있도록 합니다. 다음을 입력합니다. 
 
-    > Action = "프로그램 시작" <br>
-    > Program/Script = C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe <br>
-    > 인수 추가(선택 사항) = -ExecutionPolicy Bypass -command "& \\Path\To\Onboard-NonPersistentMachine.ps1"
+   `Action = "Start a program"`
 
-1. 확인을 **클릭하고** 열려 있는 GPMC 창을 닫습니다.
+   `Program/Script = C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe`
+
+   `Add Arguments (optional) = -ExecutionPolicy Bypass -command "& \\Path\To\Onboard-NonPersistentMachine.ps1"`
+
+   그런 다음 **확인을 선택하고** 열려 있는 GPMC 창을 닫습니다.
 
 #### <a name="scenario-3-onboarding-using-management-tools"></a>*시나리오 3: 관리 도구를 사용한 온보드*
 
 관리 도구를 사용하여 컴퓨터를 관리하려면 Microsoft Endpoint Configuration Manager를 사용하여 장치를 온보드할 수 있습니다.
 
-자세한 내용은 Configuration Manager를 사용하여 [Windows 10 장치 온보드를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm) 
+자세한 내용은 Configuration Manager를 사용하여 [Windows 10 장치 온보드를 참조하세요.](configure-endpoints-sccm.md)
 
 > [!WARNING]
-> 공격 표면 감소 [](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction)규칙을 사용하려면["PSExec](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction#block-process-creations-originating-from-psexec-and-wmi-commands)및 WMI 명령에서 시작된 프로세스 만들기 차단" 규칙은 Microsoft Endpoint Configuration Manager를 통한 관리와 비호환적이기 때문에 구성 관리자 클라이언트가 올바르게 작동하기 위해 사용하는 WMI 명령을 차단하기 때문에 사용되지 않습니다. 
+> 공격 표면 감소 [](attack-surface-reduction.md)규칙을 사용하려면["PSExec](attack-surface-reduction.md#block-process-creations-originating-from-psexec-and-wmi-commands)및 WMI 명령에서 시작된 프로세스 만들기 차단" 규칙은 Microsoft Endpoint Configuration Manager를 통한 관리와 비호환적이기 때문에 사용되지 않습니다. 이 규칙은 Configuration Manager 클라이언트가 올바르게 작동하기 위해 사용하는 WMI 명령을 차단합니다. 
 
 > [!TIP]
-> 장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 [실행을 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/run-detection-test) 
+> 장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 [실행을 참조하세요.](run-detection-test.md) 
 
 #### <a name="tagging-your-machines-when-building-your-golden-image"></a>골든 이미지를 구축할 때 컴퓨터 태그 지정 
 
-온보더링의 일부로 Microsoft 보안 센터에서 WVD 컴퓨터를 보다 쉽게 차별화할 수 있도록 컴퓨터 태그를 설정하는 것을 고려할 수 있습니다. 자세한 내용은 레지스트리 키 값을 설정하여 장치 태그 [추가를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-tags#add-device-tags-by-setting-a-registry-key-value) 
+온보더링의 일부로 Microsoft 보안 센터에서 WVD 컴퓨터를 보다 쉽게 차별화할 수 있도록 컴퓨터 태그를 설정하는 것을 고려할 수 있습니다. 자세한 내용은 레지스트리 키 값을 설정하여 장치 태그 [추가를 참조하세요.](machine-tags.md#add-device-tags-by-setting-a-registry-key-value) 
 
 #### <a name="other-recommended-configuration-settings"></a>기타 권장 구성 설정 
 
-골든 이미지를 구축할 때 초기 보호 설정도 구성할 수 있습니다. 자세한 내용은 기타 권장 구성 [설정을 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-gp#other-recommended-configuration-settings) 
+골든 이미지를 구축할 때 초기 보호 설정도 구성할 수 있습니다. 자세한 내용은 기타 권장 구성 [설정을 참조하세요.](configure-endpoints-gp.md#other-recommended-configuration-settings) 
 
 또한 FSlogix 사용자 프로필을 사용하는 경우 다음 파일을 항상 보호에서 제외하는 것이 좋습니다. 
 
 **파일 제외:** 
 
-> %ProgramFiles%\FSLogix\Apps\frxdrv.sys <br>
-> %ProgramFiles%\FSLogix\Apps\frxdrvvt.sys <br>
-> %ProgramFiles%\FSLogix\Apps\frxccd.sys <br>
-> %TEMP% \* . VHD <br>
-> %TEMP% \* . VHDX <br>
-> %Windir%\TEMP \* . VHD <br>
-> %Windir%\TEMP \* . VHDX <br>
-> \\storageaccount.file.core.windows.net\공유 \* \* . VHD <br>
-> \\storageaccount.file.core.windows.net\공유 \* \* . VHDX <br>
+`%ProgramFiles%\FSLogix\Apps\frxdrv.sys`
+
+`%ProgramFiles%\FSLogix\Apps\frxdrvvt.sys`
+
+`%ProgramFiles%\FSLogix\Apps\frxccd.sys`
+
+`%TEMP%\*.VHD`
+
+`%TEMP%\*.VHDX`
+
+`%Windir%\TEMP\*.VHD`
+
+`%Windir%\TEMP\*.VHDX`
+
+`\\storageaccount.file.core.windows.net\share\*\*.VHD`
+
+`\\storageaccount.file.core.windows.net\share\*\*.VHDX`
 
 **프로세스 제외:**
 
-> %ProgramFiles%\FSLogix\Apps\frxccd.exe <br>
-> %ProgramFiles%\FSLogix\Apps\frxccds.exe <br>
-> %ProgramFiles%\FSLogix\Apps\frxsvc.exe <br>
+`%ProgramFiles%\FSLogix\Apps\frxccd.exe`
+
+`%ProgramFiles%\FSLogix\Apps\frxccds.exe`
+
+`%ProgramFiles%\FSLogix\Apps\frxsvc.exe`
 
 #### <a name="licensing-requirements"></a>라이선스 요구 사항 
 
-Windows 10 다중 세션은 클라이언트 OS입니다. 끝점용 Microsoft Defender의 라이선스 요구 사항은 라이선스 요구 [사항 에서 찾을 수 있습니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
+라이선스에 대한 참고 사항: Windows 10 Enterprise 다중 세션을 사용하는 경우 요구 사항에 따라 모든 사용자가 끝점용 Microsoft Defender(사용자당), Windows Enterprise E5, Microsoft 365 보안 또는 Microsoft 365 E5를 통해 라이선스를 취득하도록 선택하거나 Azure Defender를 통해 VM을 라이선스가 부여하도록 선택할 수 있습니다.
+끝점용 Microsoft Defender의 라이선스 요구 사항은 라이선스 요구 [사항 에서 찾을 수 있습니다.](minimum-requirements.md#licensing-requirements)

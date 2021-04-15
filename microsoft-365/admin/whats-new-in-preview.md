@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터 - 이번 달에 추가된 기능에 대
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 7b802556e051200bf39bc4bd9b97974d4d2d4c47
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 0c17c6840d73c5b0a2714c6c6a832c154e2a9640
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222006"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768724"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운
 
@@ -50,6 +50,27 @@ Microsoft는 [지속적으로 Microsoft 365](https://docs.microsoft.com/microsof
 - [Office 업데이트](/OfficeUpdates/)
 - [Windows 릴리스 상태 확인 방법](https://docs.microsoft.com/windows/deployment/update/check-release-health)
 
+## <a name="april-2021"></a>2021년 4월
+
+### <a name="admin-mobile-app"></a>관리자 모바일 앱
+
+### <a name="manage-licenses-and-bills-from-the-admin-mobile-app"></a>관리 모바일 앱에서 라이선스 및 청구서 관리
+
+- 이제 구독에 대해 사용 가능한 라이선스 및 할당된 라이선스를 모두 볼 수 있습니다. 사용자에게 라이선스를 할당하거나 할당을 할당하지 않은 다음 라이선스를 추가하거나 제거할 수도 있습니다.
+- 이제 앱에서 자세한 송장을 볼 수 있습니다.
+- 이러한 업데이트는 [Android](https://go.microsoft.com/fwlink/p/?linkid=2159786) 및 [iOS](https://go.microsoft.com/fwlink/p/?linkid=2159787) 장치에서 모두 사용할 수 있습니다.
+
+:::image type="content" source="../media/assign-license-mobile-app2.png" alt-text="Screenshot: Admin mobile app assign license page":::
+:::image type="content" source="../media/license-screen-mobile-app2.png" alt-text="Screenshot: Admin mobile app screen with users and their licenses":::
+:::image type="content" source="../media/invoice-summary-mobile-app.png" alt-text="스크린샷: 관리자 모바일 앱 송장 요약 페이지":::
+
+### <a name="updated-message-center-feed-in-the-admin-mobile-app"></a>관리 모바일 앱에서 업데이트된 메시지 센터 피드
+
+- 이제 메시지 센터 피드의 보다 유연한 읽기 환경을 사용할 수 있습니다. 이제 서비스 또는 태그에 따라 메시지를 필터링하고 메시지를 즐겨찾기로 표시하는 기능을 사용할 수 있습니다. 메시지를 읽음, 읽지 않은 또는 보관된 메시지로 표시하는 대량 작업도 추가되었습니다.
+- 이러한 업데이트는 [Android](https://go.microsoft.com/fwlink/p/?linkid=2159786) 및 [iOS](https://go.microsoft.com/fwlink/p/?linkid=2159787) 장치에서 모두 사용할 수 있습니다.
+
+:::image type="content" source="../media/mc-feed-mobile-app.png" alt-text="스크린샷: 관리자 모바일 앱 메시지 센터 피드 페이지":::
+
 ## <a name="ignite-2021-march"></a>Ignite 2021(3월)
 
 Microsoft Ignite에 오신 것을 환영합니다. Microsoft [Ignite 2021](https://myignite.microsoft.com/sessions)세션 중 일부에 참석할 수 있을 것입니다. 다음은 Ignite에서 이야기한 몇 가지입니다.
@@ -66,7 +87,7 @@ Microsoft Ignite에 오신 것을 환영합니다. Microsoft [Ignite 2021](https
 
 ### <a name="whats-new-features"></a>새로운 기능
 
-Office 앱에서 사용자를 위한 "새로운 기능" 기능을 보는 방법을 개선했습니다. 이제 사용자가 볼 수 있는 Whats의 새 창에서 다양한 콘텐츠를 볼 수 있습니다. 사용자에게 기능에 대해 알기 전에 기능에 대해 자세히 알아 볼 수도 있습니다. For more info, check out [Manage which Office‎ features appear in What's New](manage/show-hide-new-features.md).
+Office 앱에서 사용자를 위한 "새로운 기능" 기능을 보는 방법을 개선했습니다. 이제 사용자가 볼 수 있는 Whats의 새 창에서 다양한 콘텐츠를 볼 수 있습니다. 사용자에게 기능에 대해 알기 전에 기능에 대해 자세히 알아 볼 수도 있습니다. 자세한 내용은 새로운 기능에 나타나는 Office 기능 [관리를 참조하세요.](manage/show-hide-new-features.md)
 
 :::image type="content" source="../media/power-bi-whats-new2.png" alt-text="Screenshot: Office apps what's new page showing improvements to Power BI":::
 
@@ -206,7 +227,7 @@ Microsoft에서 Ignite의 시기로 이동하고 있으므로 세션 중에 많�
 
 ### <a name="keeping-up-with-office-whats-new-management"></a>Office 새로운 관리 유지
 
-몇 달 전에 사용자의 Office 앱에 표시하는 새로운 기능을 관리할 수 있는 [설정이 추가되었습니다.](#office-whats-new-management) 이번 달에는 조직의 사용자에게 표시하려는 새로운 메시지를 추적하고 빠르게  행동하는 데 도움이 되는 새 홈페이지 카드를 출시했습니다.
+몇 달 전에 사용자의 Office 앱에 표시하는 새로운 메시지를 관리할 수 있는 설정이 추가되었습니다. 이번 달에는 조직의 사용자에게 표시하려는 새로운 메시지를 추적하고 빠르게  행동하는 데 도움이 되는 새 홈페이지 카드를 출시했습니다.
 
 ### <a name="docs-training-and-videos-june"></a>Docs, training, and videos(6월)
 
@@ -398,46 +419,3 @@ Teams 사용 현황에서 업틱크를 사용하면 일부조제된 대시보드
 - **Microsoft 365** 비디오 시리즈의 새로운 기능: 이번 달에는 앱에서 바로 도움말 창, 앱의 최신 보안 및 규정 준수 업데이트 등 최종 사용자에게 특정 기능을 표시하거나 숨길 수 있는 Office "새로운 기능" 관리 기능인 SharePoint Online에 대한 사용자 지정 검색 기능에 Yammer. 다음은 최신 에피소드입니다. [Microsoft 365의](https://go.microsoft.com/fwlink/p/?linkid=2118096) 새로운 소식
 
 - **문서 이동:** Office 365 관리 웹 문서를 Microsoft 365 콘텐츠와 결합하여 새 URL을 확인한 것일 수 있습니다. 예를 들어 이 문서는 docs.microsoft.com/Office365/Admin/whats-new-in-preview 에서 호스팅했지만 이제 URL은 **docs.microsoft.com/microsoft-365/admin/whats-new-in-preview.**  책갈피를 설정한 경우 링크를 업데이트해야 합니다. 그러나 콘텐츠 링크는 새 콘텐츠 리포지타입으로 리디렉션됩니다.
-
-## <a name="january-2020---happy-new-year"></a>2020년 1월 - 새해를 기다렸다
-
-> [!NOTE]
-> YouTube에 [Microsoft 365의](https://go.microsoft.com/fwlink/p/?linkid=2118096) 새로운 비디오 시리즈가 있는 것을 알고 있나요? 사용자에게 롤아웃한 최신 기능이 강조 표시됩니다. 매월 비디오, 교육 및 docs 섹션에서 최신 에피소드에 [연결하기 시작할 것입니다.](#videos-training-and-docs) <br> <br> 다음은 최신 에피소드입니다. [Microsoft 365의](https://go.microsoft.com/fwlink/p/?linkid=2118096) 새로운 소식
-
-### <a name="dark-mode"></a>어두운 모드
-
-어두운 모드를 처음 출시할 때 홈 페이지에서만 사용할 수 있습니다. 어두운 모드는 이제 미리 보기가 지원되지 않습니다. 관리 센터의 대부분의 페이지에서 대상이 지정한 릴리스에 있습니다.
-
-1. 먼저 대상 지정 릴리스: 설정 설정 조직  프로필 릴리스 \>  \>  \> **기본 설정으로 이동을 켜야 합니다.**
-1. 그런 다음 어두운 모드를 켜기  위해 홈 페이지로 이동한 다음 어두운 모드 **단추를** 선택합니다. 검색 필드와 이  문서의 새로운 링크 **옆에** 있습니다.
-1. 어두운 모드를 사용할 수 있는 페이지의 경우 단추는 페이지 맨  위에 있는 새 관리 센터 토글 옆에 있습니다.
-
-### <a name="office-whats-new-management"></a>Office 새로운 관리
-
-관리자는 Microsoft가 Office 앱의 사용자에게 "새로운 기능을"전달하는 방법을 제어하기를 원하며 이제 해당 컨트롤을 사용할 수 있습니다. Go to **Settings** \> **Office What's New management Preview**. 기능을 선택하여 세부 정보를 확인한 다음 사용자에게  특정 "새로운 기능" 메시지가 표시되지 못하게 하려는 경우 사용자 숨기기 단추를 선택할 수 있습니다. 예를 들어 조직에서 조직의 모든 사용자가 해당 기능을 교육할 때까지 사용자에게 기능에 대해 알릴 수 있도록 대기하고 있을 수 있습니다.
-
-![화면 캡처 기능의 세부 정보 창이 열리면 새로운 기능 미리 보기를 볼 수 있습니다.](../media/whatsnew-officemgmt-preview.png)
-
-이 기능은 11월에 미리 보기를 위해 처음 릴리스 했지만 알아야 할 몇 가지 기능 업데이트가 있습니다. [Office What's New management preview updates now available](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-what-s-new-management-preview/ba-p/1020438)
-
-### <a name="partners"></a>파트너
-
-Howdy, Partners! (스스로 도움을 줄 수 없는 경우) 이번 달에 업데이트가 진행되었습니다. 파트너가 관리 센터의 청구 계정 섹션에서 CSP 고객에게 MCA(Microsoft 고객 계약)에 동의할 수 있는 옵션을 제공 할 수 있는 새로운 기능이 있습니다.  이 새로운 환경의 경우:
-
-1. 고객은 파트너 관계 및 MCA를 수락하는 링크가 있는 초대 메일을 받게 됩니다.
-2. 고객이 로그인한 후 관리 센터에서 바로 MCA 및 파트너 권한을 보고 수락할 수 있습니다.
-
-### <a name="resource-mailboxes"></a>리소스 사서함
-
-리소스 사서함 목록이 새 스타일로 업데이트되었습니다. Microsoft 365 관리 센터에서 **리소스실** 및 장비 \> **& 로 이동하세요.**
-
-### <a name="videos-training-and-docs-january"></a>비디오, 교육 및 docs(1월)
-
-1월에 출시된 소규모 기업 관리자 교육을 확인해보아야 합니다.
-
-- [비즈니스 웹 사이트 만들기](https://support.microsoft.com/office/3325d50e-d131-403c-a278-7f3296fe33a9)
-- [질문과 답변 찾기](https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988)
-- [도움말 및 지원 받기](https://support.microsoft.com/office/18948a4c-3eb1-4b30-b1bc-a4cc29eb7655)
-- [사용자 삭제](https://support.microsoft.com/office/6bcdad7b-732a-4260-997a-8c176bc3d9d6)
-- [Microsoft 구독 선택](https://support.microsoft.com/office/b9f7c78e-430f-4117-89ec-2eeb1dced2ca)
-- [비즈니스용 Microsoft 365 보안 개요](https://support.microsoft.com/office/3274b159-a825-46d7-9421-7d6e209389d1)

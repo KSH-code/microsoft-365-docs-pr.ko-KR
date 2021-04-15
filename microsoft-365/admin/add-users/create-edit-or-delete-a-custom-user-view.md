@@ -25,7 +25,7 @@ ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755575"
+ms.locfileid: "51759933"
 ---
 # <a name="create-edit-or-delete-a-custom-user-view"></a>사용자 지정 사용자 보기 만들기, 편집 또는 삭제
 

@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6dfa22b2afb33c318eae8937888b5b75a1742938
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 9850506771f53b125c08b1df2149ee024191d823
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599468"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768869"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 자동화된 조사 및 대응(AIR)
 
@@ -123,7 +123,7 @@ Microsoft 365는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적�
 
 ## <a name="changes-are-coming-soon-in-your-security-center"></a>보안 센터에서 곧 변경될 예정입니다.
 
-Office 365용 Microsoft Defender에서 AIR 기능을 이미 사용하고 있는 경우 개선된 [Microsoft 365](../defender/overview-security-center.md)보안 센터의 일부 변경 내용을 보게 될 것입니다. 
+Office 365용 Microsoft Defender에서 AIR 기능을 이미 사용하고 있는 경우 개선된 [Microsoft 365](../defender/overview-security-center.md)보안 센터의 일부 변경 내용을 보게 될 것입니다.
 
 :::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="통합된 동작 센터":::
 

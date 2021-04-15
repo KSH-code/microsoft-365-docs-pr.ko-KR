@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,12 +14,12 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: d78728ae6b79914e5e9bac46e000d633793ae991
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: f7e8d6428360e5fe45a377f3ed6611a76f0a7911
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691601"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765818"
 ---
 # <a name="review-event-logs-and-error-codes-to-troubleshoot-issues-with-microsoft-defender-antivirus"></a>이벤트 로그 및 오류 코드를 검토하여 Microsoft Defender 바이러스 백신 관련 문제 해결
 
@@ -360,7 +360,7 @@ Microsoft Defender 바이러스 백신은 Windows 이벤트 로그에 이벤트 
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -432,7 +432,7 @@ Microsoft Defender 바이러스 백신은 맬웨어 또는 사용자 원치 않�
 <dt> 심각도: &lt; 심각도, &gt; 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -484,7 +484,7 @@ Microsoft Defender 바이러스 백신에서 맬웨어 또는 사용자 원치 �
 <dt> 심각도: &lt; 심각도, &gt; 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -538,7 +538,7 @@ Microsoft Defender 바이러스 백신이 항목을 검지에서 복원했습니
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -580,7 +580,7 @@ Microsoft Defender 바이러스 백신에서 항목을 검지에서 복원하는
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -624,7 +624,7 @@ Microsoft Defender 바이러스 백신에서 항목을 삭제했습니다.<br/>�
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -667,7 +667,7 @@ Microsoft Defender 바이러스 백신에서 항목을 삭제하는 중 오류�
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -773,7 +773,7 @@ Microsoft Defender 바이러스 백신에서 의심스러운 동작을 감지했
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -848,7 +848,7 @@ Microsoft Defender 바이러스 백신에서 맬웨어 또는 사용자 원치 �
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -927,7 +927,7 @@ Microsoft Defender 바이러스 백신은 맬웨어 또는 사용자 원치 않�
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -1049,7 +1049,7 @@ Microsoft Defender 바이러스 백신에서 맬웨어 또는 사용자 원치 �
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>
@@ -1141,7 +1141,7 @@ Microsoft Defender 바이러스 백신에서 맬웨어 또는 사용자 원치 �
 <dt> 심각도: &lt; &gt; 심각도, 예:<ul>
 <li>낮음</li>
 <li>보통</li>
-<li>높음</li>
+<li>High</li>
 <li>심각</li>
 </ul>
 </dt>

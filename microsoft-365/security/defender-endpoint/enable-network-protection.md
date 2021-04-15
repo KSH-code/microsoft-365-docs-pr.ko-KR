@@ -13,12 +13,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: a513013c4b5f41cf95b876648882cb56ba818b32
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 5c7a2d943ec1813623065e70330b914a3911d1eb
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570999"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51769001"
 ---
 # <a name="turn-on-network-protection"></a>네트워크 보호 설정 켜기
 
@@ -28,20 +28,24 @@ ms.locfileid: "51570999"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> [!TIP]
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 [네트워크 보호는](network-protection.md) 직원이 응용 프로그램을 사용하여 인터넷에서 피싱 사기, 악용 및 기타 악성 콘텐츠를 호스팅할 수 있는 위험한 도메인에 액세스하지 못하게 하는 데 도움이 됩니다. 테스트 [환경에서 네트워크](evaluate-network-protection.md) 보호를 감사하여 사용하도록 설정하기 전에 차단되는 앱을 볼 수 있습니다.
 
-[네트워크 필터링 구성 옵션에 대해 자세히 알아보시다](https://docs.microsoft.com/mem/intune/protect/endpoint-protection-windows-10#network-filtering)
+[네트워크 필터링 구성 옵션에 대해 자세히 알아보시다](/mem/intune/protect/endpoint-protection-windows-10#network-filtering)
 
 ## <a name="check-if-network-protection-is-enabled"></a>네트워크 보호를 사용하도록 설정되어 있는지 확인
 
 레지스트리 편집기를 사용하여 로컬 장치에서 네트워크 보호가 활성화되어 있는지 확인합니다.
 
 1. 작업 **표시줄에서 시작** 단추를 선택하고 **regedit를** 입력하여 레지스트리 편집기 열기
-1. 사이드 **HKEY_LOCAL_MACHINE** 선택
-1. 중첩된 메뉴를 탐색하여   >    >  **Exploit** Guard 네트워크  >    >    >   보호를 Windows Defender Windows Defender Windows Defender 정책
-1. **EnableNetworkProtection을** 선택하여 장치의 현재 네트워크 보호 상태를 확인합니다.
+
+2. 사이드 **HKEY_LOCAL_MACHINE** 선택
+
+3. 중첩된 메뉴를 탐색하여   >    >  **Exploit** Guard 네트워크  >    >    >   보호를 Windows Defender Windows Defender Windows Defender 정책
+
+4. **EnableNetworkProtection을** 선택하여 장치의 현재 네트워크 보호 상태를 확인합니다.
 
     * 0 또는 **끄기**
     * 1 또는 
@@ -83,9 +87,9 @@ ms.locfileid: "51570999"
 
 1. Microsoft Endpoint Manager 관리 센터에 로그인합니다.https://endpoint.microsoft.com)
 
-2. 끝점 보호 구성 프로필 [만들기 또는 편집](https://docs.microsoft.com/mem/intune/protect/endpoint-protection-configure)
+2. 끝점 보호 구성 프로필 [만들기 또는 편집](/mem/intune/protect/endpoint-protection-configure)
 
-3. 프로필 흐름의 "구성 설정"에서 **Microsoft Defender Exploit Guard** 네트워크 필터링 네트워크 보호 사용 또는  >    >    >   **감사로 이동합니다.**
+3. 프로필 **흐름의** 구성 설정에서 **Microsoft Defender Exploit Guard** 네트워크 필터링 네트워크 보호 사용 또는  >    >    >   **감사로 이동합니다.**
 
 ### <a name="group-policy"></a>그룹 정책
 
@@ -116,7 +120,7 @@ ms.locfileid: "51570999"
 
 1. 시작을 **선택하고** **regedit를** 입력하여 **레지스트리 편집기를 열 수 있습니다.**
 
-2. 사이트 **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\Network Protection**
+2. 사이트 **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\EnableNetworkProtection**
 
 3. **EnableNetworkProtection을 선택하고** 값을 확인 합니다.
    * 0=해제

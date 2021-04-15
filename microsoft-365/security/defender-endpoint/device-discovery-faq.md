@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.author: macapara
 author: mjcaparas
-ms.localizationpriority: medium
+localization_priority: normal
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 7165d943fd39e298894531f1dabdec408144898d
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: b3fef3479fa2d36806e6657b31f5152c54b9251f
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698470"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765002"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>장치 검색에 자주 묻는 질문
 
@@ -70,7 +70,7 @@ ms.locfileid: "51698470"
  장치 검색에서는 수동 방법을 사용하여 네트워크에서 장치를 검색할 때 회사 네트워크의 온보드 장치와 통신하는 모든 장치를 검색하여 인벤토리에 나열할 수 있습니다. 장치를 활성 프로비전에서만 제외할 수 있습니다.
 
 ## <a name="how-frequent-is-the-active-probing"></a>활성 프로비전은 얼마나 자주 하나요?
- 장치 특성의 변경이 관찰될 때 디바이스가 적극적으로 프로브됩니다. 또한 기존 정보가 최신 상태인지 일주일에 한 번씩 확인합니다.
+ 장치 특성의 변경이 관찰될 때(1~3주마다) 기존 정보가 최신 상태인지 확인하려면 디바이스가 적극적으로 프로브됩니다.
 
 ## <a name="my-security-tool-raised-alert-on-unicastscannerps1-or-port-scanning-activity-initiated-by-it-what-should-i-do"></a>보안 도구에서 시작된 UnicastScanner.ps1 포트 검색 활동에 대해 경고가 발생했습니다. 어떻게 해야 합니까?
  활성 프로비전 스크립트는 Microsoft에서 서명하며 안전합니다. 제외 목록에 다음 경로를 추가할 수 있습니다. `C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\*.ps`

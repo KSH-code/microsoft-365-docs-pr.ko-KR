@@ -27,7 +27,7 @@ ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755621"
+ms.locfileid: "51759411"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 

@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)의 보호 적용 순서와 보호 정책의 우선 순위 값이 적용되는 정책을 결정하는 방법에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3419cba5781e7ab1042f7312c721069d88fb8767
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b36e66f095ff81f551a55d2dc2af0693f8b3455a
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687652"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51769013"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>전자 메일 보호의 순서 및 우선 순위
 
@@ -41,6 +41,8 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 - 전자 메일 보호 유형의 **우선 순위:** 이 순서는 구성할 수 없습니다. 다음 표에 설명되어 있습니다.
 
+  <br>
+
   ****
 
   |우선 순위|전자 메일 보호|범주|관리할 위치|
@@ -57,19 +59,21 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
   <sup>\*</sup> 이러한 기능은 Microsoft Defender for Office 365의 피싱 방지 정책에서만 사용할 수 있습니다.
 
-- **정책 우선** 순위: 각 보호 유형(스팸 방지, 맬웨어 방지, 피싱 방지 등)에 대해 모든 사용자에게 적용되는 기본 정책이 있지만 특정 사용자에게 적용되는 사용자 지정 정책을 만들 수 있습니다. 각 사용자 지정 정책에는 정책이 적용되는 순서를 결정하는 우선 순위 값이 있습니다. 기본 정책은 항상 마지막에 적용됩니다.
+- **정책 우선** 순위: 각 정책 유형(스팸 방지, 맬웨어 방지, 피싱 방지 등)에 대해 모든 사용자에게 적용되는 기본 정책이 있지만 특정 사용자에게 적용되는 사용자 지정 정책을 만들 수 있습니다. 각 사용자 지정 정책에는 정책이 적용되는 순서를 결정하는 우선 순위 값이 있습니다. 기본 정책은 항상 마지막에 적용됩니다.
 
   사용자가 동일한 유형의 여러 정책에 정의되어 있는 경우 우선 순위가 가장 높은 정책만 적용됩니다. 해당 유형의 나머지 정책은 사용자에 대해 평가되지 않습니다(기본 정책 포함).
 
 예를 들어 동일한 사용자에게 적용되는 Microsoft Defender for Office 365의 다음과 같은 피싱 방지 정책과 사용자 가장 및 스푸핑으로 식별된 메시지를 고려합니다. 
 
-  ****
+<br>
 
-  |정책 이름|우선 순위|사용자 가장|스푸핑 방지|
-  |---|---|---|---|
-  |정책 A|1|켜짐|해제|
-  |정책 B|2|해제|켜짐|
-  |
+****
+
+|정책 이름|우선 순위|사용자 가장|스푸핑 방지|
+|---|---|---|---|
+|정책 A|1|켜짐|해제|
+|정책 B|2|해제|켜짐|
+|
 
 1. 스푸핑의 우선 순위가 사용자 가장(5)보다 높기 때문에 메시지가 스푸핑으로 표시되어 처리됩니다.
 2. 정책 A는 정책 B보다 우선 순위가 높기 때문에 사용자에게 적용됩니다.

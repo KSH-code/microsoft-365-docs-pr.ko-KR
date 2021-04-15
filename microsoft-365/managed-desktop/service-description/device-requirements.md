@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 18422f74d87bbadf014de24849235ce5c25bd614
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: baaebd185389e7ac1f2173aed092141067a5629f
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920471"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768893"
 ---
 # <a name="device-requirements"></a>장치 요구 사항
 
@@ -46,7 +46,7 @@ Microsoft Managed Desktop에 등록하려면 장치가 이러한 요구 사항�
 디바이스에 다음 소프트웨어가 사전 설치되어야 합니다.
 
 - Windows 10 Enterprise, Pro 또는 Pro Workstation Edition
-- 64비트 버전의 Microsoft Office 실행 
+- 64비트 버전의 엔터프라이즈용 Microsoft 365 앱 
 - 적용 가능한 모든 장치 드라이버
 
 
@@ -57,7 +57,7 @@ Microsoft Managed Desktop에 등록하려면 장치가 이러한 요구 사항�
 - UEFI 보안 부팅에 사용 
 - 신뢰할 수 있는 플랫폼 모듈 2.0 
 - 가상화 기반 보안 지원 
-- 하이퍼바이서로 보호되는 코드 무결성 지원 
+- [BIOS에서](/windows-hardware/drivers/bringup/device-guard-and-credential-guard) 지원하는 하이퍼바이서로 보호된 코드 무결성
 
 이러한 기능 및 서비스에서 사용하는 기술과 관련된 기술에 대한 자세한 내용은 [Microsoft Managed Desktop 기술을 참조합니다.](../intro/technologies.md)
 
@@ -72,12 +72,13 @@ Microsoft Managed Desktop에 등록하려면 장치가 이러한 요구 사항�
 
 디바이스가 2020년 7월 1일 이후에 만들어진 경우 [Windows Hello를](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)지원하려면 IR 카메라, 지문 판독기 또는 둘 다가 필요합니다.
 
-## <a name="recommended-requirements"></a>권장 요구 사항
+## <a name="recommended-features"></a>권장 기능
 
-절대적인 요구 사항은 아니며 다음과 같은 기능이 있는 장치를 선택하는 경우 사용자가 훨씬 더 나은 환경을 경험할 수 있습니다.
+이러한 기능이 있는 장치를 선택하는 경우 사용자는 훨씬 더 나은 환경을 경험할 수 있습니다.
 
 - Intel vPro-platform 프로세서 또는 AMD Ryzen Pro 프로세서
 - 용량이 256GB 이상인 SSD 유형의 부팅 드라이브
+- 16GB 이상의 내부 장치 메모리(RAM)
 - 최신 대기에 대한 지원
 - 디바이스가 보안 코어 PC 유형입니다.
 - 커널 DMA 보호 지원

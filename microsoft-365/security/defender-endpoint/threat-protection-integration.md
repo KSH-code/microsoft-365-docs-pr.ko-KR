@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 287ad9adeccd527b756bdd5304d3c89fc1b2d789
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7d12afd27288655f4f5a82eeed24686f27171a7a
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076492"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765398"
 ---
 # <a name="microsoft-defender-for-endpoint-and-other-microsoft-solutions"></a>끝점용 Microsoft Defender 및 기타 Microsoft 솔루션
 
@@ -29,7 +29,7 @@ ms.locfileid: "51076492"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -45,7 +45,7 @@ ms.locfileid: "51076492"
 끝점용 Microsoft Defender 커넥터를 사용하면 끝점용 Microsoft Defender의 경고를 Azure Sentinel로 스트리밍할 수 있습니다. 이를 통해 조직 전체의 보안 이벤트를 보다 포괄적으로 분석하고 효과적이고 즉각적인 응답을 위해 플레이북을 빌드할 수 있습니다.
 
 ### <a name="azure-information-protection"></a>Azure Information Protection
-데이터 검색 및 데이터 보호를 통해 작업 공간에서 생산성을 유지하면서 중요한 데이터를 안전하게 보호합니다.
+Endpoint DLP 기능이 끝점 디바이스에 저장된 중요한 데이터에 대한 향상된 검색 및 보호 솔루션을 통합하여 솔루션 간의 가시성과 통합을 용이하게 하도록 지원하기 때문에 최근에 Azure Information Protection 통합이 더 이상 사용되지 않습니다. 이 사실은 다음 블로그에서 [발표했습니다.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/protecting-sensitive-information-on-devices/ba-p/2143555) 고객이 끝점 DLP를 사용하여 이동하는 것이 좋습니다.
 
 ### <a name="conditional-access"></a>조건부 액세스
 끝점용 Microsoft Defender의 동적 장치 위험 점수는 조건부 액세스 평가에 통합되어 보안 장치만 리소스에 액세스할 수 있도록 합니다. 

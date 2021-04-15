@@ -16,20 +16,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 726a85969dab715a1b6244f14d1bf0259cf301e8
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 4c44e2c73eabcb89c178235bc3ce6738d2322dfa
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163378"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768989"
 ---
-# <a name="contact-microsoft-defender-for-endpoint-support"></a>끝점 지원에 대해 Microsoft Defender에 문의
+# <a name="contact-microsoft-defender-for-endpoint-support"></a>엔드포인트용 Microsoft Defender 지원 문의
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
@@ -79,8 +79,8 @@ Endpoint용 Defender는 최신의 고급 지원 환경을 제공하기 위해 �
 
 Endpoint 지원에 대한 Defender에 문의하여 지원 티켓을 여는 방법을 자세히 알아보습니다. 
 
-
-
+> [!Note]
+> Microsoft와의 지원 계약이 있는 경우 위젯에 프리미어 태그가 표시됩니다. 그렇지 않은 경우 Microsoft 계정 관리자에게 문의하세요.
 
 ### <a name="contact-support"></a>지원 센터 문의
 이 옵션은 헤드셋처럼 보이는 아이콘을 클릭하여 사용할 수 있습니다. 그러면 다음 페이지를 통해 지원 사례를 제출합니다.

@@ -28,9 +28,9 @@ ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755645"
+ms.locfileid: "51759885"
 ---
-# <a name="get-started"></a>시작
+# <a name="get-started"></a>시작하기
 
 조직에서 최근에 Microsoft 365를 사용하게 되어 전자 메일 읽기, 문서 공유 등에서 시작할 수 있도록 이 기능을 사용해야 합니다. 컴퓨터, 휴대폰 및 태블릿에서 Microsoft 365를 설정하고 사용하는 방법을 확인합니다.
 

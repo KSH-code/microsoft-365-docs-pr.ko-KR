@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: ae7dbea7d476e8a8f6198378e1d1bb29e24c37a2
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 95c87330eec3cb557e5fea96148d626b7e0ee4b3
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688348"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768917"
 ---
 # <a name="protect-your-network"></a>네트워크 보호
 
@@ -35,7 +35,7 @@ ms.locfileid: "51688348"
 
 네트워크 보호는 인터넷 기반 이벤트에서 장치의 공격 표면을 줄이는 데 도움이 됩니다. 이를 통해 직원이 응용 프로그램을 사용하여 인터넷에서 피싱 사기, 악용 및 기타 악성 콘텐츠를 호스팅할 수 있는 위험한 도메인에 액세스할 수 없습니다. 네트워크 보호는 Microsoft [Defender SmartScreen의](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview) 범위를 확장하여 신뢰도가 낮은 원본(도메인 또는 호스트 이름 기반)에 연결하려고 하는 모든 아웃바운드 HTTP 트래픽을 차단합니다.
 
-네트워크 보호는 Windows 10 버전 1709부터 Windows에서 지원됩니다. 네트워크 보호는 아직 다른 운영 체제에서 지원되지 않지만 Chromium을 기반으로 하는 새로운 Microsoft Edge를 사용하여 웹 보호가 지원됩니다. 자세한 내용은 웹 [보호를 참조합니다.](web-protection-overview.md)
+네트워크 보호는 Windows 10 버전 1709부터 Windows에서 지원됩니다. 네트워크 보호는 아직 다른 운영 체제에서 지원되지 않지만 Chromium을 기반으로 하는 새 Microsoft Edge를 사용하여 웹 보호가 지원됩니다. 자세한 내용은 웹 [보호를 참조합니다.](web-protection-overview.md)
 
 네트워크 보호는 웹 보호의 [보호를](web-protection-overview.md) 운영 체제 수준으로 확장합니다. 이 기능은 지원되는 다른 브라우저 및 비 브라우저 응용 프로그램에 Edge의 웹 보호 기능을 제공합니다. 또한 네트워크 보호는 끝점 감지 및 응답과 함께 사용될 경우 IOC(손상 표시기)를 표시하고 [차단합니다.](overview-endpoint-detection-response.md) 예를 들어 네트워크 보호는 사용자 지정 [표시기 에서 작동합니다.](manage-indicators.md)
 
