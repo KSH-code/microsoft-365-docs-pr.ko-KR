@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9b00d81d3d51c343565ec4eb743181baa2750b01
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 79f5837ae6bae6e6a9d952d90605f4cf7b31262e
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687736"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765134"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Jamf Pro에서 macOS 정책에 대한 끝점용 Microsoft Defender 설정
 
@@ -32,7 +32,7 @@ ms.locfileid: "51687736"
 
 **적용 대상:**
 
-- [Mac용 끝점용 Defender](microsoft-defender-endpoint-mac.md)
+- [Mac의 끝점용 Defender](microsoft-defender-endpoint-mac.md)
 
 이 페이지에서는 Jamf Pro에서 macOS 정책을 설정하는 데 필요한 단계를 안내합니다.
 
@@ -731,8 +731,10 @@ ms.locfileid: "51687736"
 
 또는 Jamf Pro를 사용하여 사용자 지정 구성 프로필 배포에 설명된 바와 같이 [netfilter.mobileconfig를](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/netfilter.mobileconfig) 다운로드하여 JAMF 구성 프로필에 [업로드할 수 있습니다| 방법 2: Jamf Pro에 구성 프로필 업로드.](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro)
 
+
 ## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a>10단계: MacOS의 끝점에 대한 Microsoft Defender 검사 예약
 [MacOS의 끝점에 대한 Microsoft Defender 검사 예약에 대한 지침을 따릅니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
+
 
 ## <a name="step-11-deploy-microsoft-defender-for-endpoint-on-macos"></a>11단계: macOS에서 끝점용 Microsoft Defender 배포
 

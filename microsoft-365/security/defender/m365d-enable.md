@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 18564b2a5a47b2cf4a8bbd94a3e3a315c8f269ec
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: bf8fdb2a8a42ef7b70b744cbbb5663e6afe51989
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200260"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764386"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender 켜기
 
@@ -77,7 +77,7 @@ Microsoft 365 보안 센터에서 도움이 **필요하세요?를** 선택하여
 - [고급 헌팅](advanced-hunting-overview.md) 기능
 - 위협 분석
 
-![Microsoft 365 Defender가 있는 Microsoft 365 보안 센터 탐색 창의 이미지는 인시던트 관리 및 ](../../media/mtp-enable/mtp-on.png)
+![Microsoft 365 Defender가 있는 Microsoft 365 보안 센터 탐색 창의 이미지는 인시던트 관리 및 ](../../media/overview-incident.png)
  *기타 Microsoft 365 Defender* 기능을 사용하여 Microsoft 365 보안 센터 기능을 제공합니다.
 
 ### <a name="getting-microsoft-defender-for-identity-data"></a>ID 데이터에 대한 Microsoft Defender 다운로드 

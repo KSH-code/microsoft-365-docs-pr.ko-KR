@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 58e3b14dcb80db961f01b92f038ce4d32da7e2e8
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 3343eb433a6ae5c708651abf298bd4f061817543
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689708"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764136"
 ---
 # <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender에 대해 다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포
 
@@ -40,9 +40,11 @@ ms.locfileid: "51689708"
 
 시작하기 전에 [MacOS의 주 Microsoft Defender for Endpoint](microsoft-defender-endpoint-mac.md) 페이지에서 현재 소프트웨어 버전에 대한 선행 조건 및 시스템 요구 사항에 대한 설명을 참조하세요.
 
+
 ## <a name="approach"></a>방법
 
 > [!CAUTION]
+
 > 현재 Microsoft는 MacOS에서 끝점용 Microsoft Defender의 배포 및 관리를 위해 Intune 및 JAMF만 공식적으로 지원하고 있습니다. Microsoft는 아래 제공된 정보에 대해 표현적 또는 암시적 보증을하지 않습니다.
 
 조직에서 공식적으로 지원되지 않는 MDM(모바일 장치 관리) 솔루션을 사용하는 경우 macOS에서 끝점용 Microsoft Defender를 배포하거나 실행할 수 없습니다.
@@ -72,7 +74,9 @@ Microsoft Defender [](mac-install-with-jamf.md)보안 센터에서 다운로드�
 
 ### <a name="license-settings"></a>라이선스 설정
 
-시스템 [구성 프로필을 설정합니다.](mac-install-with-jamf.md) MacOS의 끝점용 Microsoft Defender는 macOS의 일부가 아니기에 MDM 솔루션에서 "사용자 지정 설정 프로필"처럼 호출할 수 있습니다.
+시스템 [구성 프로필을 설정합니다.](mac-install-with-jamf.md) 
+
+MacOS의 끝점용 Microsoft Defender는 macOS의 일부가 아니기에 MDM 솔루션에서 "사용자 지정 설정 프로필"처럼 호출할 수 있습니다.
 
 Microsoft Defender 보안 센터에서 다운로드한 등록 패키지에서 추출할 수 있는 속성 목록 jamf/WindowsDefenderATPOnboarding.plist를 [사용하세요.](mac-install-with-jamf.md)
 시스템에서 임의의 속성 목록을 XML 형식으로 지원할 수 있습니다. jamf/WindowsDefenderATPOnboarding.plist 파일을 현재 있는 것으로 업로드할 수 있습니다.

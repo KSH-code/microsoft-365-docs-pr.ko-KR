@@ -1,24 +1,26 @@
 ---
-title: Microsoft Defender AV 검사에 대한 제외 설정
+title: Microsoft Defender 바이러스 백신 검사에 대한 제외 설정
 description: 파일(지정된 프로세스에서 수정한 파일 포함) 및 폴더를 Microsoft Defender AV에서 검사하지 못하게 제외할 수 있습니다. PowerShell을 사용하여 제외의 유효성을 검사합니다.
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.reviewer: ''
+ms.reviewer: ksarens
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 47db9b4451a885c92ca4fda0f87f0150415d3338
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.audience: ITPro
+ms.topic: how-to
+ms.openlocfilehash: 08f7f9d4a6e9e70d3ef071f30712b2ae53f4ea52
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691505"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764666"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-antivirus-scans"></a>Microsoft Defender 바이러스 백신 검사에 대한 제외 구성 및 유효성 검사
 
@@ -40,7 +42,8 @@ Microsoft Defender 바이러스 백신 검사에서 특정 파일, 폴더, 프�
 - 프로세스에서 연 파일에 대한 제외를 [구성하고 유효성을 검사합니다.](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md) 이렇게 하면 특정 프로세스에서 연 검사에서 파일을 제외할 수 있습니다.
 
 ## <a name="recommendations-for-defining-exclusions"></a>제외를 정의하기 위한 권장 사항
-
+[!IMPORTANT]
+Microsoft Defender 바이러스 백신에는 알려진 운영 체제 동작 및 일반적인 관리 파일(예: 엔터프라이즈 관리, 데이터베이스 관리 및 기타 엔터프라이즈 시나리오 및 상황에 사용되는 파일)을 기반으로 하는 많은 자동 제외가 포함되어 있습니다.  
 제외를 정의할 경우 Microsoft Defender 바이러스 백신에서 제공하는 보호가 낮아질 수 있습니다. 제외 구현과 관련된 위험을 항상 평가해야 합니다. 또한 악의적이지 않다고 확신하는 파일만 제외해야 합니다.
 
 다음은 제외를 정의할 때 유의해야 하는 권장 사항 목록입니다.  

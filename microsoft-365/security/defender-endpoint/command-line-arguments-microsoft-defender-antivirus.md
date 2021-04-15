@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,12 +14,12 @@ ms.reviewer: ksarens
 manager: dansimp
 ms.date: 03/19/2021
 ms.technology: mde
-ms.openlocfilehash: 2b20227ac27b90d142d263dfa4522aa41319b9d5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 1b357f7c1e02211f3949383a380666cb7444f814
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691083"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764630"
 ---
 # <a name="configure-and-manage-microsoft-defender-antivirus-with-the-mpcmdrunexe-command-line-tool"></a>명령줄 도구를 사용하여 Microsoft Defender 바이러스 mpcmdrun.exe 구성 및 관리
 
@@ -49,7 +49,7 @@ MpCmdRun.exe -Scan -ScanType 2
 
 | 명령  | 설명   |
 |:----|:----|
-| `-?`**또는**`-h`   | 이 도구에 사용할 수 있는 모든 옵션 표시 |
+| `-?` **또는** `-h`   | 이 도구에 사용할 수 있는 모든 옵션 표시 |
 | `-Scan [-ScanType [0\|1\|2\|3]] [-File <path> [-DisableRemediation] [-BootSectorScan] [-CpuThrottling]] [-Timeout <days>] [-Cancel]` | 악성 소프트웨어를 검사합니다. **ScanType의** 값은 **구성에 따라 기본값 0,** **-1** 빠른 검사, **-2** 전체 검사, **-3** 파일 및 디렉터리 사용자 지정 검사입니다.  CpuThrottling은 정책에서 구성된 CPU 스로틀을 적용합니다. |
 | `-Trace [-Grouping #] [-Level #]` | 진단 추적 시작 |
 | `-GetFiles [-SupportLogLocation <path>]` | 지원 정보를 수집합니다. '진단[데이터 수집'](collect-diagnostic-data.md)참조  |

@@ -18,14 +18,15 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7486bde0886506a5966a95cdb0b85fc009858801
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: dbb4e3a558256f19594ab0aa4efbd2c9eed6b7f8
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689752"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764218"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender용 Intune 기반 배포
+
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -50,9 +51,10 @@ ms.locfileid: "51689752"
 
 시작하기 전에 [MacOS의 주 Microsoft Defender for Endpoint](microsoft-defender-endpoint-mac.md) 페이지에서 현재 소프트웨어 버전에 대한 선행 조건 및 시스템 요구 사항에 대한 설명을 참조하세요.
 
+
 ## <a name="overview"></a>개요
 
-다음 표에는 Intune을 통해 Mac용 끝점용 Microsoft Defender를 배포하고 관리하는 데 필요한 단계가 요약됩니다. 자세한 단계는 아래에서 사용할 수 있습니다.
+다음 표에는 Intune을 통해 Mac에서 끝점용 Microsoft Defender를 배포하고 관리하는 데 필요한 단계가 요약됩니다. 자세한 단계는 아래에서 사용할 수 있습니다.
 
 | 단계 | 예제 파일 이름 | BundleIdentifier |
 |-|-|-|
