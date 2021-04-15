@@ -7,7 +7,7 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.date: 02/02/2021
+ms.date: 04/07/2021
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -19,18 +19,16 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 142bc305950f9322c90e0d207f255c14abbc6b8c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: d89e5dc29bfe7f980d40a9a5b139884750a966bc
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197936"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760017"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>통합된 Microsoft 365 보안 센터 개요
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
-
-[!INCLUDE [Prerelease](../includes/prerelease.md)]
 
 **적용 대상:**
 
@@ -57,39 +55,39 @@ Office 365 보안 및 준수 센터 또는 Microsoft Defender 보안 센터에�
 
 Office 365 보안 및 준수 센터(protection.office.com) 및 Microsoft Defender 보안 센터(securitycenter.microsoft.com)에서 사용하는 모든 보안 콘텐츠는 *이제 Microsoft 365* 보안 센터 에서 찾을 수 있습니다.
 
-Microsoft 365 보안 센터는 보안 팀이 여러 워크로드의 신호를 통합된 단일 통합 환경으로 통합하여 공격을 조사하고 대응할 수 있도록 합니다.
+Microsoft 365 보안 센터는 보안 팀이 다양한 워크로드의 신호를 다음에 대한 통합 환경 집합으로 가져와 공격을 조사하고 대응하는 데 도움을 줄 수 있습니다.
 
 - 인시던트 & 경고
 - 헌팅
 - 알림 센터 
 - 위협 분석
 
-Microsoft 365 보안 센터는 Office 365용 Microsoft Defender 및 Endpoint용 Microsoft Defender를 병합할 때 *단합,* 명확성 및 공통 목표를 강조합니다. 병합은 아래에 나열된 우선 순위를 기반으로 하여 각 보안 제품군이 조합에 가져온 기능을 만족하지 않고도 이행됩니다.
+Microsoft 365 보안 센터는 Office 365용 Microsoft Defender 및 Endpoint용 Microsoft Defender를 병합할 때 *단합,* 명확성 및 공통 목표를 강조합니다. 병합은 아래에 나열된 우선 순위를 기반으로 하여 각 보안 제품군이 다음과 같은 조합으로 가져온 기능을 만족하지 않고도 이행됩니다.
 
-- 공통 구성 요소
+- 일반적인 구성 요소
 - 일반적인 용어
 - 일반 엔터티
 - 다른 워크로드와의 기능 패리티
 
 ## <a name="unified-investigations"></a>통합 조사
 
-보안 센터를 간소화하면 Microsoft 365 조직 전체에서 인시던트 조사를 위한 단일 창이 생성됩니다. 기본 예로는  Microsoft 365 보안 센터의 빠른 실행에 대한 인시던트 노드가 있습니다.
+보안 센터를 수렴하면 Microsoft 365에서 보안 인시던트 조사를 위한 단일 장소가 생성됩니다. 기본 **예로는** Microsoft **365** & 빠른 실행에 대한 인시던트 및 인시던트 알림이 있습니다.
 
-:::image type="content" source="../../media/converged-incidents-2.png.png" alt-text="MDO의 인시던트 페이지입니다.":::
+:::image type="content" source="../../media/converged-incidents-2.png.png" alt-text="Microsoft 365 보안 센터의 인시던트 페이지":::
 
-예를 들어 심각도 높은 인시던트  이름을 두 번 클릭하면 수렴 센터의 이점을 보여줄 수 있는 페이지로 이동됩니다.
+인시던트 이름을 선택하면 보안 센터 수렴의 가치를 보여주는 페이지가 표시됩니다.
 
-![여러 끝점에서 권한 에스컬레이터가 관련된 다단계 인시던트입니다. 16개가 영향을 미치는 장치와 9명에게 영향을 주었다는 표시가 있습니다.](../../media/converged-incident-info-3.png)
+:::image type="content" source="../../media/converged-incident-info-3.png" alt-text="Microsoft 365 보안 센터의 인시던트에 대한 요약 페이지 예":::
 
-> [!TIP]
-> 수렴형 사용자  탭은 문의를 시작하는 데 좋은 장소입니다. 이 단일 페이지에는 수렴된 워크로드(이를 활용하는 경우 끝점용 Microsoft Defender, ID용 Microsoft Defender 및 MCAS)의 사용자와, 그리고 다양한 원본(예: On-premises Active Directory, Azure Active Directory, 동기화, 로컬 및 타사 사용자)이 표시됩니다. 새 사용자 환경 [에 대해 자세히 알아보하세요.](investigate-users.md)
+<!--
+![Example of the Summary page for an incident in the Microsoft 365 security center](../../media/converged-incident-info-3.png)
+--> 
 
-인시던트 정보에는 영향을 받는 사서함 외에 사용자/ID 관련 및 위험에 노출된 장치가 표시됩니다. 또한 모든 조사 **정보** 및 수집된 증거와 **관련이 있습니다.** 이렇게 하면 관리자 및 보안 운영 팀이 위험에 노출된 한 경고에서 영향을 받는 사용자 및 사서함으로 쉽게 피벗할 수 있습니다. 이 페이지의  맨 위에 있는 인시던트 탭을 보고 이 단일 위치에서 사용할 수 있는 다른 주요 보안 피벗이 있습니다.
+인시던트 페이지 위쪽에는 요약, **경고,** 장치,  **사용자,** 사서함, 조사 및 증거  탭이 표시됩니다.   자세한 내용을 확인하려면 이 탭을 선택합니다. 예를 들어  사용자 탭에는 수렴형 작업(끝점용 Microsoft Defender, ID용 Microsoft Defender 및 Microsoft Cloud App Security) 및 다양한 원본(예: AD DS(Active Directory 도메인 서비스), Azure AD(Azure Active Directory) 및 타사 ID 공급자)의 사용자에 대한 정보가 표시됩니다. 자세한 내용은 사용자 [조사를 참조하세요.](investigate-users.md)
 
-> [!IMPORTANT]
-> 특정 인시던트에 대한 페이지 위쪽에는 요약, **경고,** 장치, **사용자,** 사서함, 조사 및  증거 탭이 표시됩니다.   
+시간을 내어 환경의 인시던트 검토, 이러한 탭으로 드릴다운, 다양한 종류의 위협에 대해 인시던트에 제공된 정보에 액세스하는 방법을 파악하는 방법을 연습하세요.
 
-조사를 **선택하면** 진행 중인 분석 그래픽이 있는 페이지가 열리며 수정을 위해 상태(예: 승인 보류 중)가 나열됩니다. 사용자 환경에서 특정 인시던트 선택, 이러한 탭으로 드릴다운 및 다양한 종류의 위협에 대한 프로필을 작성하는 방법을 알아보세요. 친숙한 은 나중에 조사를 하는 것이 도움이 됩니다.
+자세한 내용은 [Microsoft 365 보안 센터의 인시던트 를 참조하세요.](incidents-overview.md)
 
 ## <a name="improved-processes"></a>향상된 프로세스
 

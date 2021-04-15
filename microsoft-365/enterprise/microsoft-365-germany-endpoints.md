@@ -20,18 +20,22 @@ search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
 description: 이 문서에서는 독일의 Office 365를 사용하는 고객이 도달할 수 있는 끝점을 찾을 수 있습니다.
 hideEdit: true
-ms.openlocfilehash: 8d3e8bfe2a52027b412aff87e063f2458ca47f74
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0d96300e77c67ac05ea18ab23d63c01d4f840dfb
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923993"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759897"
 ---
 # <a name="office-365-germany-endpoints"></a>Office 365 Germany 끝점
 
  *적용 사항: Office 365 관리자*
 
 Office 365를 사용하려면 인터넷에 연결해야 합니다. 아래 끝점은 **Office 365 Germany** 요금제만 사용하는 고객에게 도달할 수 있습니다.
+
+> [!NOTE]
+> 독일의 새 Microsoft 365 데이터 센터 지역으로 전환하는 고객의 경우 끝점이 변경됩니다.
+> 자세한 내용은 독일 Microsoft 클라우드에서 새 독일 데이터 센터 지역의 [Office 365 서비스로 마이그레이션을 참조하세요.](ms-cloud-germany-transition.md)
   
  **Office 365 끝점:** [전 세계(GCC 포함)](urls-and-ip-address-ranges.md)  | [21vianet에서 운영하는 Microsoft Office 365](urls-and-ip-address-ranges-21vianet.md)  | *Microsoft Office 365 Germany*  |  [Office 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) | [Office 365 U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md)  |
   

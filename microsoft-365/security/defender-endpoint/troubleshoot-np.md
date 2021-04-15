@@ -11,26 +11,26 @@ localization_priority: Normal
 audience: ITPro
 author: dansimp
 ms.author: dansimp
-ms.date: 01/26/2021
-ms.reviewer: ''
+ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 34bebddcf052a643529f1d2b8a8a869a0ffe4a91
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.topic: how-to
+ms.openlocfilehash: 9efc42441c2cb30f35abf658071088f7f7bbaf00
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51183825"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760101"
 ---
 # <a name="troubleshoot-network-protection"></a>네트워크 보호 문제 해결
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
+> [!TIP]
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
@@ -103,9 +103,29 @@ ms.locfileid: "51183825"
    mpcmdrun -getfiles
    ```
 
-3. 기본적으로 C:\ProgramData\Microsoft\Windows 2013에 Defender\Support\MpSupportFiles.cab. 파일을 제출 양식에 첨부합니다.
+3. 파일을 제출 양식에 첨부합니다. 기본적으로 진단 로그는 에 `C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab` 저장됩니다. 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="resolve-connectivity-issues-with-network-protection-for-e5-customers"></a>네트워크 보호 관련 연결 문제 해결(E5 고객용)
+
+네트워크 보호가 실행되는 환경으로 인해 Microsoft는 운영 체제 프록시 설정을 볼 수 없습니다. 경우에 따라 네트워크 보호 클라이언트가 클라우드 서비스에 연결하지 못할 수 있습니다. 네트워크 보호와의 연결 문제를 해결하려면 네트워크 보호에서 프록시 구성을 인식하도록 다음 레지스트리 키 중 하나를 구성합니다.
+
+```powershell
+reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP address: Port>" /f
+```
+
+---OR---
+
+
+```powershell
+reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC url>" /f
+```
+
+PowerShell, Microsoft Endpoint Manager 또는 그룹 정책을 사용하여 레지스트리 키를 구성할 수 있습니다. 다음은 도움이 되는 몇 가지 리소스입니다.
+- [레지스트리 키 작업](/powershell/scripting/samples/working-with-registry-keys)
+- [Endpoint Protection에 대한 사용자 지정 클라이언트 설정 구성](/mem/configmgr/protect/deploy-use/endpoint-protection-configure-client)
+- [그룹 정책 설정을 사용하여 끝점 보호 관리](/mem/configmgr/protect/deploy-use/endpoint-protection-group-policies)
+
+## <a name="see-also"></a>참고 항목
 
 - [네트워크 보호](network-protection.md)
 - [네트워크 보호 평가](evaluate-network-protection.md)

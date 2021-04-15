@@ -16,21 +16,22 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1831d8927e761827f9bbcee84551433b68e3c6cc
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 77b843f9526d8b100845403bc8d2df4bf3259471
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165540"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760215"
 ---
 # <a name="onboarding-tools-and-methods-for-windows-10-devices"></a>Windows 10 장치용 온보딩 도구 및 방법
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 - [Microsoft 365 끝점 DLP(데이터 손실 방지)](/microsoft-365/compliance/endpoint-dlp-learn-about)
+- [Microsoft 365 내부자 위험 관리](/microsoft-365/compliance/insider-risk-management)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
@@ -50,7 +51,7 @@ ms.locfileid: "51165540"
 [Microsoft Endpoint Configuration Manager를 사용하여 Windows 장치 온보드](configure-endpoints-sccm.md) | Microsoft Endpoint Manager(현재 분기) 버전 1606 또는 Microsoft Endpoint Manager(현재 분기) 버전 1602 또는 이전 버전을 사용하여 디바이스에 구성 패키지를 배포할 수 있습니다.
 [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md) | 모바일 장치 관리 도구 또는 Microsoft Intune을 사용하여 디바이스에 구성 패키지를 배포합니다.
 [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](configure-endpoints-script.md) | 로컬 스크립트를 사용하여 끝점에서 구성 패키지를 배포하는 방법을 학습합니다.
-[비영구 가상 데스크톱 인프라(VDI) 장치 온보딩](configure-endpoints-vdi.md) | 구성 패키지를 사용하여 VDI 디바이스를 구성하는 방법을 학습합니다.
+[비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md) | 구성 패키지를 사용하여 VDI 디바이스를 구성하는 방법을 학습합니다.
 
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpoints-belowfoldlink)

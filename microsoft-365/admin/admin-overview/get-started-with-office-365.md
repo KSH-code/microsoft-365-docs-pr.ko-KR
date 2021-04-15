@@ -23,23 +23,16 @@ search.appverid:
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
 description: 컴퓨터, 휴대폰 및 태블릿에서 Microsoft 365를 설정하고 사용하는 방법을 확인합니다.
-ms.openlocfilehash: 74821886832e699a90d9a54a9b8c7ce9a8cfab75
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 0bc2478375cdec231a00bade933680cb69578126
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222030"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755645"
 ---
 # <a name="get-started"></a>시작
 
 조직에서 최근에 Microsoft 365를 사용하게 되어 전자 메일 읽기, 문서 공유 등에서 시작할 수 있도록 이 기능을 사용해야 합니다. 컴퓨터, 휴대폰 및 태블릿에서 Microsoft 365를 설정하고 사용하는 방법을 확인합니다.
-  
-::: moniker range="o365-worldwide"
-
-****
-
-
-::: moniker-end
 
 ## <a name="training-resources-for-your-users"></a>사용자를 위한 교육 리소스
 

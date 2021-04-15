@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a8871274cabae0762cecc2ff513afe93c2d4811f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: fbe9d0006a2f1779e1bad60dc283a5a40429dbdd
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688504"
+ms.locfileid: "51750019"
 ---
 # <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결
 
@@ -38,7 +38,7 @@ ms.locfileid: "51688504"
 이 항목에서는 macOS의 끝점용 Microsoft Defender에 대한 클라우드 연결 문제를 해결하는 방법을 설명합니다.
 
 ## <a name="run-the-connectivity-test"></a>연결 테스트 실행
-Mac용 끝점용 Defender가 현재 네트워크 설정을 사용하여 클라우드와 통신할 수 있는지 테스트하려면 명령줄에서 연결 테스트를 실행합니다.
+Mac의 끝점용 Defender가 현재 네트워크 설정을 사용하여 클라우드와 통신할 수 있는지 테스트하려면 명령줄에서 연결 테스트를 실행합니다.
 
 ```Bash
 mdatp connectivity test

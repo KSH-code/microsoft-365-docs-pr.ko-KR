@@ -16,24 +16,20 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Microsoft 365 고객 데이터가 전 세계에 저장되는 위치를 확인
-ms.openlocfilehash: a93f83e7efafa06aa65675342471c26f1b197864
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4c55010508f2b5bde1641b9b7552e4acb95a12d3
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920791"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760239"
 ---
-<!--
-Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
--->
-
 # <a name="where-your-microsoft-365-customer-data-is-stored"></a>Microsoft 365 고객 데이터가 저장되는 위치
 
 아래 표는 미사용 고객 데이터가 모든 Microsoft 전역 클라우드 위치에서 Microsoft 365 서비스에 대해 저장되는 위치를 보여 줍니다. 청구지 주소의 국가 위치를 확장하여 각 서비스에 대한 고객 데이터가 저장되는 위치를 확인합니다.
 
 비즈니스가 유럽 연합에 있는 경우, [유럽 연합의 데이터 위치](EU-data-storage-locations.md)에서 자세한 내용을 참조하세요. 
 
-고객은 **설정 | 조직 설정 | 조직 프로필 | 데이터 위치** 의 Microsoft 365 관리 센터에서 테넌트별 데이터 위치 정보를 확인해야 합니다.
+고객은 **설정 | 조직 설정 | 조직 프로필 | 데이터 위치** 의 Microsoft 365 관리 센터에서 테넌트별 데이터 위치 정보를 확인해야 합니다. 새 [지리적 위치로 이동하하기를 요청한](request-your-data-move.md) 경우 전환 중에 일부 데이터가 이전 지리적 위치에 일시적으로 저장되어 있을 수 있는 경우에도 Microsoft 365 관리 센터의 데이터 위치 정보에는 새 지역만 표시될 수 있습니다. 
 
 새 Microsoft 365 테넌트는 해당 테넌트의 첫 번째 구독과 연결된 거래 국가를 기준으로 기본 지역이 설정됩니다.
 

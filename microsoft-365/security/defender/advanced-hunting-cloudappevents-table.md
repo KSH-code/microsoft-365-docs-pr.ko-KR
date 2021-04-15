@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 2aa592e70bce7bb469f851bedc542ee58cac0037
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 83b9eec37648ba48aa8e6931e836e8a5e22458c8
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498671"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51760029"
 ---
 # <a name="cloudappevents"></a>CloudAppEvents
 
@@ -37,7 +37,7 @@ ms.locfileid: "51498671"
 
 
 
-고급 헌팅 계획의 표에는 Microsoft Cloud App Security( 특히 `CloudAppEvents` Dropbox, Exchange Online, OneDrive, Microsoft Teams 및 SharePoint)에서 다루는 다양한 클라우드 앱 및 서비스의 활동에 대한 정보가 포함되어 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
+고급 헌팅 계획의 표에는 Microsoft Cloud App Security에서 다루는 다양한 클라우드 앱 및 서비스의 활동에 대한 `CloudAppEvents` 정보가 포함되어 있습니다. [](advanced-hunting-overview.md) 전체 목록을 위해 를 다루는 [앱 및 서비스로 이동하세요.](#apps-and-services-covered) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다. 
 
 >[!IMPORTANT]
 >이 표에는 표에서 사용할 수 있는 정보가 `AppFileEvents` 포함되어 있습니다. 2021년 3월 7일 이후 클라우드 서비스에서 파일 관련 활동을 찾은 사용자는 대신 이 표를 사용해야 `CloudAppEvents` 합니다. <br><br>테이블을 계속 사용하는 쿼리 및 사용자 지정 검색 규칙을 검색하고 테이블을 사용하여 `AppFileEvents` 편집해야 `CloudAppEvents` 합니다. 영향을 받는 쿼리를 변환하는 방법에 대한 자세한 지침은 [Microsoft 365 Defender](https://techcommunity.microsoft.com/t5/microsoft-365-defender/hunt-across-cloud-app-activities-with-microsoft-365-defender/ba-p/1893857)고급 헌팅을 사용하여 클라우드 앱 활동에서 헌트에서 찾을 수 있습니다.
@@ -71,6 +71,19 @@ ms.locfileid: "51498671"
 | `RawEventData` | 문자열 | 원본 응용 프로그램 또는 서비스의 원시 이벤트 정보(JSON 형식) |
 | `AdditionalFields` | 문자열 | 엔터티 또는 이벤트에 대한 추가 정보 |
 
+## <a name="apps-and-services-covered"></a>적용된 앱 및 서비스
+
+- Dropbox
+- Dynamics 365
+- Exchange Online
+- Microsoft Teams
+- 비즈니스용 OneDrive
+- Power Automate
+- Power BI
+- SharePoint Online
+- 비즈니스용 Skype
+- Office 365
+- Yammer 
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)

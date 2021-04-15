@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Microsoft 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 9b58c6fa51fbca5d78680b4b13cbbc2129d9c393
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3133e468ef99114b1c89e16fbd0f4b5170af30d0
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903727"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755587"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -42,7 +42,6 @@ ms.locfileid: "50903727"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요.
-
 
 ::: moniker-end
 
@@ -143,66 +142,26 @@ ms.locfileid: "50903727"
 - [Skype for Business Online conference participant activity](/SkypeForBusiness/skype-for-business-online-reporting/conference-participant-activity-report)(비즈니스용 Skype Online 전화 회의 참가자 활동)
   
 - [Skype for Business Online peer-to-peer activity](/SkypeForBusiness/skype-for-business-online-reporting/peer-to-peer-activity-report)(비즈니스용 Skype Online 피어 투 피어 활동)
-  
-::: moniker range="o365-worldwide"
 
 - [Yammer 활동](yammer-activity-report-ww.md)
 
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 - [미국 정부 기관용 Yammer 활동](yammer-activity-report.md)
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
 
 - [Yammer 장치 사용 현황](yammer-device-usage-report-ww.md)
 
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 - [미국 정부 기관용 Yammer 장치](yammer-device-usage-report.md)
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
 
 - [Yammer 그룹 활동 보고서](yammer-groups-activity-report-ww.md)
 
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 - [미국 정부 기관용 Yammer 그룹 활동 보고서](yammer-groups-activity-report.md)
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
 
 - [Microsoft Teams 사용자 활동](microsoft-teams-user-activity-preview.md)
 
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 - [미국 정부 기관용 Microsoft Teams 사용자 활동](microsoft-teams-user-activity.md)
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
 
 - [Microsoft Teams 장치 사용 현황](microsoft-teams-device-usage-preview.md)
 
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 - [미국 정부 기관용 Microsoft Teams 장치](microsoft-teams-device-usage.md)
-
-::: moniker-end
 
 ## <a name="how-to-view-licensing-information"></a>라이선스 정보를 보는 방법
 

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: 직원이 조직을 떠날 때 직원의 파일 및 전자 메일을 보존하는 방법을 배워야 합니다.
-ms.openlocfilehash: 38cc44bbe602f3c8c38ca54391d0967fbafbfcf7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 17911e4a4551bba07d2c2ad034941bba737dcc1d
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906315"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755609"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>액세스 권한 받기 및 이전 사용자 데이터 백업
 
@@ -44,8 +44,22 @@ ms.locfileid: "50906315"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
-    
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+
+::: moniker-end
+
 2. 사용자를 선택합니다.
 
 3. 오른쪽 창에서 **OneDrive 를 선택합니다.** 파일에 **액세스하려면 아래에서** **파일에 대한 링크 만들기 를 선택합니다.**
@@ -56,69 +70,27 @@ ms.locfileid: "50906315"
 > 한에 최대 500MB의 파일 및 폴더를 이동하거나 복사할 수 있습니다.<br/>
 > 버전 기록이 있는 문서를 이동하거나 복사하면 최신 버전만 이동됩니다.  
 
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
-
-2. 사용자를 선택합니다.
-
-3. 오른쪽 창에서 **OneDrive** 설정 을 확장하고 **Access** 옆의 파일에 **액세스 를 선택합니다.**
-
-4. 파일 위치를 열 링크를 선택합니다. 파일을 컴퓨터에 다운로드하거나 이동  또는 복사를 선택하여 파일을 자신의 OneDrive 또는 공유 라이브러리로 이동하거나 복사합니다.  
-
-> [!NOTE]
-> 한에 최대 500MB의 파일 및 폴더를 이동하거나 복사할 수 있습니다.<br/>
-> 버전 기록이 있는 문서를 이동하거나 복사하면 최신 버전만 이동됩니다.  
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
-
-2. 사용자를 선택합니다.
-
-3. 오른쪽 창에서 **OneDrive** 설정 을 확장하고 **Access** 옆의 파일에 **액세스 를 선택합니다.**
-
-4. 파일 위치를 열 링크를 선택합니다. 파일을 컴퓨터에 다운로드하거나 이동  또는 복사를 선택하여 파일을 자신의 OneDrive 또는 공유 라이브러리로 이동하거나 복사합니다.   
-
-> [!NOTE]
-> 한에 최대 500MB의 파일 및 폴더를 이동하거나 복사할 수 있습니다.<br/>
-> 버전 기록이 있는 문서를 이동하거나 복사하면 최신 버전만 이동됩니다.  
-
-::: moniker-end
-    
-
-
 ## <a name="revoke-admin-access-to-a-users-onedrive"></a>사용자의 OneDrive에 대한 관리자 액세스 해지
 
 전역 관리자는 사용자 OneDrive의 콘텐츠에 대한 액세스 권한을 직접 부여할 수 있지만 더 이상 필요하지 않을 때 액세스를 제거할 수 있습니다. 
 
-::: moniker range="o365-worldwide"
+ ::: moniker range="o365-worldwide"
 
-1. 전역 관리자 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">또는</a> SharePoint 관리자로 관리 센터에 로그인합니다. 
-
-    관리 센터에 액세스할 수 있는 권한이 없다고 메시지가 표시된 경우 조직에 관리자 권한이 없습니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 전역 관리자 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">또는</a> SharePoint 관리자로 관리 센터에 로그인합니다.
-
-    관리 센터에 액세스할 수 있는 권한이 없다고 메시지가 표시된 경우 조직에 관리자 권한이 없습니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a> 의 관리 센터로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 전역 관리자 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">또는</a> SharePoint 관리자로 관리 센터에 로그인합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a> 의 관리 센터로 이동합니다.
 
-    관리 센터에 액세스할 수 있는 권한이 없다고 메시지가 표시된 경우 조직에 관리자 권한이 없습니다.
-
-::: moniker-end
+::: moniker-end 
 
 2. 왼쪽 창에서 관리 **센터** \> **SharePoint 를 선택합니다.** (관리 센터의 목록을 보려면 **모두 표시** 를 선택해야 할 수도 있습니다.)
 

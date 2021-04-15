@@ -10,16 +10,18 @@ ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 03/31/2021
+ms.date: 04/13/2021
 ms.reviewer: ksarens, jtoole, pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 6c411507b834bd7f09f4688bda11e3ece9f6d7c8
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+audience: ITPro
+ms.topic: how-to
+ms.openlocfilehash: b8122807b8e26a848781f9f66f8e13032345f3fd
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691298"
+ms.locfileid: "51749917"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>그룹 정책 설정을 사용하여 Microsoft Defender 바이러스 백신 구성 및 관리
 
@@ -87,9 +89,9 @@ ms.locfileid: "51691298"
 | 수정 | 재구성 완료를 위해 예약된 전체 검사 실행 시간을 지정합니다. | [예약된 Microsoft Defender 바이러스 백신 검사 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | 보고 | 향상된 알림 끄기 | [끝점에 나타나는 알림 구성](configure-notifications-microsoft-defender-antivirus.md)
 | 루트 | Microsoft Defender 바이러스 백신 끄기 | 사용되지 않습니다(설치된 타사  바이러스 백신 앱이 올바르게 작동하도록 이 설정을 구성되지 않도록 설정해야 합니다.
-| 루트 | 프록시 서버를 무시할 주소 정의 | 더 이상 관련이 없음 |
-| 루트 | 네트워크에 연결하기 위한 프록시 자동 구성(.pac) 정의 | 더 이상 관련이 없음 |
-| 루트 | 네트워크에 연결하기 위한 프록시 서버 정의 | 더 이상 관련이 없음 |
+| 루트 | 프록시 서버를 무시할 주소 정의 | 사용되지 않음 |
+| 루트 | 네트워크에 연결하기 위한 프록시 자동 구성(.pac) 정의 | 사용되지 않음 |
+| 루트 | 네트워크에 연결하기 위한 프록시 서버 정의 | 사용되지 않음 |
 | 루트 | 목록에 대한 로컬 관리자 병합 동작 구성 | [사용자가 정책 설정을 로컬로 수정하지 못하도록 차단 또는 허용](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | 루트 | 맬웨어 방지 서비스가 정상 우선 순위로 시작하도록 허용 | [Microsoft Defender 바이러스 백신 검사 수정 구성](configure-remediation-microsoft-defender-antivirus.md) |
 | 루트 | 맬웨어 방지 서비스가 항상 실행되는 상태로 유지하도록 허용 | [Microsoft Defender 바이러스 백신 검사 수정 구성](configure-remediation-microsoft-defender-antivirus.md) |

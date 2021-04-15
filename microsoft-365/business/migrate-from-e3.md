@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 E3에서 Microsoft 365 Business Premium으로 비즈니스를 이동하는 방법을 학습합니다.
-ms.openlocfilehash: ffb82fa40f05383260ac1b97ed0bdf5f2f30c1df
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: f2b7962918186f4a1063c5a66596135c2972ec71
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578330"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51750003"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Office 365 E3에서 Microsoft 365 Business Premium으로 마이그레이션
 
@@ -49,7 +49,7 @@ Microsoft 365 Business Premium에는 동급 최고의 클라우드 기반 생산
 | 비즈니스용 OneDrive    | 사용자당 1 TB 저장소 제한    | 무제한 | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | ![Office 365 E3에 포함](../media/check-mark.png) | 
 | StaffHub    | ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | ![Office 365 E3에 포함](../media/check-mark.png) | 
-| Outlook Customer Manager    | ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | | 
+| MileIQ    | ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | | 
 | **위협 방지**        | | | 
 | Office 365용 Defender 플랜 1 | ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    | 포함되지 않지만 에 추가할 수 있습니다. | 
 | **ID 관리**        | | | 
@@ -60,7 +60,7 @@ Microsoft 365 Business Premium에는 동급 최고의 클라우드 기반 생산
 | Win 7/8.1 Pro 라이선스에서 Windows 10 Pro로 업그레이드 권한|     ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)    || 
 | **정보 보호**        | | |
 |Office 365 데이터 손실 방지|    ![Microsoft 365 Business Premium에 포함](../media/check-mark.png)|![Office 365 E3에 포함](../media/check-mark.png)|
-|Azure Information Protection 계획 1, Bitlocker 적용|![Microsoft 365 Business Premium에 포함](../media/check-mark.png)||
+|Azure Information Protection 계획 1, BitLocker 적용|![Microsoft 365 Business Premium에 포함](../media/check-mark.png)||
 |Azure Information Protection 계획 1, 민감도 레이블|![Microsoft 365 Business Premium에 포함](../media/check-mark.png)||
 |**CAL(클라이언트 액세스 라이선스)**|||
 |Enterprise CAL Suite(Exchange, SharePoint, Skype)||![Office 365 E3에 포함](../media/check-mark.png)|

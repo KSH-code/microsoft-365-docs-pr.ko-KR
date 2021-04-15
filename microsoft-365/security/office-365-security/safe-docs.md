@@ -16,19 +16,18 @@ ms.collection:
 description: Microsoft 365 E5 또는 Microsoft 365 E5 보안의 안전한 문서에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 78ae99158e30046923d24897e7ab9b45adff31d0
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 1186c7856d0b979c483cf6dd1c0a010ab582e2ce
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445399"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644755"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Microsoft 365 E5에서 안전한 문서
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **적용 대상**
-- [Office 365용 Microsoft Defender 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 안전한 문서는 끝점용 [Microsoft Defender를](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 사용하여 Office용 보호된 보기 또는 Application Guard에서 열 수 있는 문서 및 [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653) 파일을 검사하는 Microsoft 365 E5 또는 Microsoft 365 E5 보안의 [기능입니다.](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)
@@ -71,7 +70,7 @@ ms.locfileid: "51445399"
 
    - **안전한 문서에서** 파일을 악성으로 식별하는 경우에도 사용자가 보호된 보기를 클릭할 수 있도록 허용 : 이 옵션을 해제한 후(토글을 왼쪽으로 유지: 토글 해제) 하는 것이 ![ 좋습니다. ](../../media/scc-toggle-off.png)
 
-   작업을 마친 후 **저장** 을 클릭합니다.
+   작업을 마쳤으면 **저장** 을 클릭합니다.
 
    ![안전한 첨부 파일 페이지에서 전역 설정을 선택한 후의 안전한 문서 설정입니다.](../../media/safe-docs.png)
 

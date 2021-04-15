@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 989574a860bea798c48e077f5633c31eb857e85e
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 601a8674327c424592c65014793599dc19b2bcd3
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500943"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51759435"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 경고 조사
 
@@ -35,8 +35,6 @@ ms.locfileid: "51500943"
 
 **적용 대상:**
 - Microsoft 365 Defender
-
-[!INCLUDE [Prerelease](../includes/prerelease.md)]
 
 경고는 모든 인시던트의 기반이 며 사용자 환경에서 악의적 또는 의심스러운 이벤트가 발생하는 것을 나타냅니다. 경고는 일반적으로 더 광범위한 공격의 일부로, 인시던트에 대한 단서를 제공합니다.
 

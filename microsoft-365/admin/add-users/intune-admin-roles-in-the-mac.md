@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
-ms.openlocfilehash: 7f733dab02ab3ff33131be96a96451d7d1c14f55
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 60a1f21e65df007e78077d8c3bb22161313c1073
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904411"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755729"
 ---
 # <a name="intune-admin-roles-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 Intune 관리자 역할
 
@@ -31,11 +31,7 @@ Microsoft 365 관리 센터를 통해 일부 Microsoft Intune 역할을 관리�
 
 Microsoft 365 관리 센터에서 역할을 할당하는 방법에 대한 자세한 내용은 [관리자 역할 할당하기](assign-admin-roles.md)를 참조하세요.
 
-::: moniker range="o365-worldwide"
-
 Microsoft 365 관리 센터에서 **역할** 로 이동한 다음 아무 역할이나 선택하여 세부 정보 창을 열 수 있습니다. **사용 권한** 탭을 선택하여 해당 역할에 할당된 관리자가 수행할 수 있는 작업에 대한 자세한 목록을 볼 수 있습니다. 역할에 사용자를 추가하려면 **할당된** 또는 **할당된 관리자** 탭을 선택합니다.
-
-::: moniker-end
 
 ## <a name="microsoft-intune-roles-available-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 이용 가능한 Microsoft Intune 역할
 

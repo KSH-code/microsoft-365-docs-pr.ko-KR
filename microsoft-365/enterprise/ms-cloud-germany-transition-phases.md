@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 전환할 때의 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: e3ed1d76a755ce6326ac6ae53b990136a10b564a
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: cd83d2abcc061562047aeb384856cc9ab04dcad3
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644719"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760041"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
@@ -82,6 +82,20 @@ AD FS(Active Directory Federation Services)를 사용하는 경우 2단계가 �
 ## <a name="phase-2-azure-ad-migration"></a>2단계: Azure AD 마이그레이션
 이 단계에서는 Azure Active Directory가 새 데이터 센터 지역으로 마이그레이션된 후 활성화됩니다. 이전 Azure AD 끝점은 계속 사용할 수 있습니다.
 
+### <a name="exchange-online-hybrid---modify-authserver-on-premises"></a>Exchange Online 하이브리드 - AuthServer온-프레미스 수정
+**다음에 적용됩니다.** Exchange 서버가 있는 활성 Exchange 하이브리드 구성을 사용하는 모든 고객
+
+**적용된 경우:** 2단계가 종료된 후
+
+Azure AD 마이그레이션이 완료된 후 AuthServer 사내에서 인증을 위해 전역 STS(Security Token Service)를 설정해야 합니다.
+이렇게 하면 하이브리드 사내 환경을 대상으로 하는 마이그레이션 상태의 사용자로부터의 Exchange 가용성 요청에 대한 인증 요청이 인증되어 사내 서비스에 액세스할 수 있습니다. 마찬가지로, 이렇게 하면 사내에서 Office 365 전역 서비스 끝점으로의 요청 인증이 보장됩니다. Azure AD 마이그레이션(2단계)이 완료되면 Office 365 전역 서비스에 대한 새 인증 서비스 끝점을 추가해야 합니다. Exchange PowerShell에서 이 명령을 사용하여 Azure Active Directory의 Azure Portal에 있는 조직의 테넌트 `<TenantID>` ID로 대체합니다.
+
+```powershell
+New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontrol.windows.net/<TenantID>/metadata/json/1
+```
+
+이 작업을 완료하지 못하면 도이치클라드 Microsoft 클라우드에서 Office 365 서비스로 마이그레이션된 사서함 사용자에게 하이브리드 사용 가능한 요청이 정보를 제공하지 못할 수 있습니다.
+
 ## <a name="phase-3-subscription-transfer"></a>3단계: 구독 이전
 
 **적용 사항:** 도이치클라일랜드(MCD)에서 호스트된 Office 365 테넌트가 있는 모든 고객
@@ -117,35 +131,41 @@ SharePoint 2013 워크플로를 계속 사용하는 경우 SharePoint Online 마
 추가 고려 사항:
 
 - 조직에서 SharePoint 2010 워크플로를 계속 사용하는 경우 2021년 12월 31일 이후에는 더 이상 작동하지 않습니다. SharePoint 2013 워크플로는 2020년 11월 1일부터 시작되는 새 테넌트에 대해 기본적으로 꺼져 있습니다. SharePoint Online 서비스로의 마이그레이션이 완료된 후 Power Automate 또는 기타 지원되는 솔루션으로 이동하는 것이 좋습니다.
-
+ 
 - SharePoint Online 인스턴스가 아직 마이그레이션되지 않은 Microsoft 클라우드 도이클랜드 고객은 SharePoint Online PowerShell 모듈/Microsoft.SharePointOnline.CSOM 버전 16.0.20616.12000 이하를 유지해야 합니다. 그렇지 않으면 PowerShell 또는 클라이언트 쪽 개체 모델을 통해 SharePoint Online에 대한 연결이 실패합니다.
+
+- 이 단계에서는 SharePoint URL 뒤에 있는 IP 주소가 변경됩니다. Office 365 전역 서비스로 전환하고 나면 보존된 테넌트 URL(예: 및 )의 주소가 전 세계 Microsoft 365 URL 및 IP 주소 범위(SharePoint Online 및 비즈니스용 `contoso.sharepoint.de` `contoso-my.sharepoint.de` [OneDrive)로 변경됩니다.](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#sharepoint-online-and-onedrive-for-business)
 
 
 > [!NOTE]
-> eDiscovery를 사용하는 경우 [eDiscovery](ms-cloud-germany-transition-add-experience.md)마이그레이션 환경을 알고 있어야 합니다.
+> eDiscovery를 사용하는 경우 [eDiscovery](ms-cloud-germany-transition-add-scc.md)마이그레이션 환경을 알고 있어야 합니다.
 
 ## <a name="phase-5-exchange-online"></a>5단계: Exchange Online 
+5단계부터 Exchange Online 사서함이 도이치란드 Microsoft 클라우드에서 Office 365 전역 서비스로 이동됩니다.
 
-**다음에 적용됩니다.** Exchange Online을 사용하는 모든 고객
+Office 365 전역 서비스 지역이 기본값으로 설정되어 내부 부하 분산 서비스가 Office 365 서비스의 적절한 기본 지역으로 사서함을 재배포할 수 있습니다. 이 전환에서 어느 쪽에 있는 사용자(MCD 또는 전역 서비스)는 동일한 조직에 있으며 두 URL 끝점을 모두 사용할 수 있습니다.
 
-Exchange Online 하이브리드를 사용하는 경우: Exchange Online 하이브리드 관리자는 이 전환의 일부로  **HCW(하이브리드** 구성 마법사)를 여러 번 실행해야 합니다. 마이그레이션 [5단계가](ms-cloud-germany-transition-add-pre-work.md#exchange-online-hybrid-customers) 시작되기 전에 Exchange 사전 작업 **적용** Exchange Online 하이브리드 고객은 Office 365 전역 서비스로의 마이그레이션을 위해 "Office 365 Germany" 모드에서 최신 버전의 Exchange HCW(하이브리드 구성 마법사)를 실행해야 합니다.
+새 지역 "독일"이 조직 설정에 추가됩니다. Exchange Online 구성은 전환 조직에 새로운 이동 독일어 지역을 추가합니다.
 
-마이그레이션 **단계 9(메시지** 센터 알림이 게시될 때)가 끝나면 Office 365 Worldwide 설정을 사용하여 HCW를 다시 실행하여 Office 365 전역 서비스를 설정해야 합니다.
+- 레거시 MCD URL()에서 새 `https://outlook.office.de` Office 365 서비스 URL()로 사용자 및 서비스를 전환합니다. `https://outlook.office365.com`
+-  새 독일 데이터 센터 지역에 대한 Exchange Online 서비스(Outlook Web Access 및 Exchange 관리 센터)는 이 단계에서 사용할 수 있으며 이전부터 사용할 수 없습니다.
+- 사용자는 마이그레이션 중에 레거시 MCD URL을 통해 서비스에 계속 액세스할 수 있습니다. 그러나 마이그레이션이 완료될 때 레거시 URL 사용을 중지해야 합니다.
+- 사용자는 Office Online 기능(일정, 메일, 사용자)에 대한 전 세계 Office 포털 사용으로 전환해야 합니다. Office 365 서비스로 마이그레이션되지 않은 서비스에 대한 탐색은 마이그레이션될 때까지 작동하지 않습니다.
+- 마이그레이션 Outlook Web App 동안 공용 폴더 환경을 제공하지 않습니다.
 
-5단계에서 사용자 사진을 수정하려면 5단계에서 Exchange Online Set-UserPhoto [참조하세요.](#exchange-online-powershell)
+5단계에서 사용자 사진을 수정하려면 5단계 동안 [Exchange Online PowerShell - Set-UserPhoto 참조하세요.](#exchange-online-powershell)
 
-| Step(s) | 설명 | 영향 |
-|:-------|:-------|:-------|
-|**관리자:** 사서함 이동 중지|온보드 또는 오프보더 사서함 이동을 중지하거나 삭제합니다. 즉, Exchange 온-프레미스와 Exchange Online 간에 사서함을 이동하지 않습니다.  | 이렇게 하면 사서함 이동 요청이 오류와 함께 실패하지 않습니다. 이렇게 하지 못하면 서비스 또는 Office 클라이언트가 실패할 수 있습니다. |
-| 새 지역 "독일"이 조직 설정에 추가됩니다. | Exchange Online 구성은 전환 조직에 새로운 이동 독일어 지역을 추가합니다. | |
-| Exchange Online 사서함은 도이치클란드 Microsoft 클라우드에서 Office 365 전역 서비스로 이동됩니다.| Office 365 전역 서비스 지역이 기본값으로 설정되어 내부 부하 분산 서비스가 Office 365 서비스의 적절한 기본 지역으로 사서함을 재배포할 수 있습니다. 이 전환에서 어느 쪽에 있는 사용자(MCD 또는 전역 서비스)는 동일한 조직에 있으며 두 URL 끝점을 모두 사용할 수 있습니다. |<ul><li>레거시 MCD URL(outlook.office.de)에서 새 Office 365 서비스 URL()로 사용자 및 서비스를 `https://outlook.office365.com` 전환합니다.</li><li>사용자는 마이그레이션 중에 레거시 MCD URL을 통해 서비스에 계속 액세스할 수 있습니다. 그러나 마이그레이션이 완료될 때 레거시 URL 사용을 중지해야 합니다.</li><li>사용자는 Office Online 기능(일정, 메일, 사용자)에 대한 전 세계 Office 포털 사용으로 전환해야 합니다. Office 365 서비스로 마이그레이션되지 않은 서비스에 대한 탐색은 마이그레이션될 때까지 작동하지 않습니다. </li><li>마이그레이션 Outlook Web App 동안 공용 폴더 환경을 제공하지 않습니다. </li></ul>|
-| **관리자:** 자동검사에 대한 사용자 지정 DNS 설정 업데이트| 현재 도이치클란드 Microsoft 클라우드를 지점하는 자동 검사에 대한 고객 관리 DNS 설정을 업데이트하여 Exchange Online 단계(5단계)의 완료 시 Office 365 Global 끝점을 참조해야 합니다. <br> CNAME이 autodiscover-outlook.office.de 기존 DNS 항목을 업데이트하여 해당 항목을 autodiscover.outlook.com. |  자동 검색을 통한 가용성 요청 및 서비스 검색 호출은 Office 365 서비스를 직접 연결합니다. 이러한 DNS 업데이트를 수행하지 않는 고객은 마이그레이션이 완료될 때 자동검출 서비스 문제가 있을 수 있습니다. |
-||||
+### <a name="dns-record-for-autodiscover-in-exchange-online"></a>Exchange Online의 자동iscover에 대한 DNS 레코드
+**다음에 적용됩니다.** 사용자 지정 도메인에서 Exchange Online을 사용하는 고객
+
+현재 도이치클란드 Microsoft 클라우드를 지점하는 자동 검사에 대한 고객 관리 DNS 설정을 업데이트하여 Exchange Online 단계(5단계)의 완료 시 Office 365 Global 끝점을 참조해야 합니다. <br> CNAME이 을(를) autodiscover-outlook.office.de 있는 기존 DNS 항목은 을(를) **autodiscover.outlook.com.**
+
+마이그레이션 단계 **9가** 완료될 때 이러한 DNS 업데이트를 수행하지 않는 고객은 마이그레이션이 완료될 때 서비스 문제가 있을 수 있습니다.
 
 ### <a name="exchange-online-powershell"></a>Exchange Online PowerShell
 **다음에 적용됩니다.** Exchange Online PowerShell을 사용하는 Exchange Online 관리자
 
-마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들어 다음과 같습니다.
+마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들면 다음과 같습니다.
 
 ```powershell
 New-PSSession 
@@ -169,8 +189,8 @@ PowerShell cmdlet **Set-UserPhoto를** 사용하여 사용자 사서함이 마�
 - `myaccount.microsoft.com` will only work after the tenant cutover in phase 9. Links will produce "something went wrong" error messages until that time.
 -->
 - 다른 Outlook Web App 공유 사서함에 액세스하는 사용자(예: MCD 환경의 사용자가 전역 환경의 공유 사서함에 액세스)에는 두 번째 인증 메시지가 표시됩니다. 사용자는 먼저 에서 사서함을 인증하고 액세스한 다음 에 있는 공유 `outlook.office.de` 사서함을 열 수 있어야 `outlook.office365.com` 합니다. 다른 서비스에서 호스팅되는 공유 리소스에 액세스할 때 두 번째 인증을 해야 합니다.
-
 - 전환하려는 기존 Microsoft 클라우드 고객 또는 전환하는 고객의 경우 파일 > **Info**> 계정 추가를 사용하여 Outlook에 공유 사서함을 추가하면 일정 권한 보기가 실패할 수 있습니다(Outlook 클라이언트가 Rest API를 사용하려고 `https://outlook.office.de/api/v2.0/Me/Calendars` 시도). 일정 권한을 보기 위해 계정을 추가하려는 고객은 [Outlook에서](https://support.microsoft.com/office/user-experience-changes-for-sharing-a-calendar-in-outlook-5978620a-fe6c-422a-93b2-8f80e488fdec) 일정을 공유하기 위한 사용자 환경 변경에 설명된 레지스트리 키를 추가하여 이 작업이 성공하도록 할 수 있습니다. 이 레지스트리 키는 그룹 정책을 사용하여 조직 전체에 배포할 수 있습니다.
+- [Exchange Online의](ms-cloud-germany-transition-add-pre-work.md#exchange-online)마이그레이션 전 단계에 설명된 바와 같이 Exchange 사서함이 새 독일 데이터 센터 지역으로 이동된 후 장치에 대해 레거시 프로토콜(POP3/IMAP4/SMTP)을 사용하는 모든 사용자가 클라이언트의 끝점을 변경할 준비가 되도록 합니다.
 
 마이그레이션의 조직과 Exchange Online 리소스가 마이그레이션된 후 조직의 차이점에 대한 자세한 내용은 새 독일 데이터 센터 지역의 [Office 365](ms-cloud-germany-transition-experience.md)서비스로 마이그레이션하는 동안 고객 환경의 정보를 검토하세요.
 
@@ -185,6 +205,19 @@ PowerShell cmdlet **Set-UserPhoto를** 사용하여 사용자 사서함이 마�
 |:-------|:-------|:-------|
 | Exchange Online 라우팅 마이그레이션 및 기록 메시지 세부 정보 | Exchange Online을 사용하면 외부 호스트에서 Office 365로 라우팅할 수 있습니다. 외부 MX 레코드는 EOP 서비스로 라우팅하기 위해 전환됩니다. 테넌트 구성 및 기록 세부 정보가 마이그레이션됩니다. |<ul><li>Microsoft에서 관리하는 DNS 항목은 Office 365 Germany EOP에서 Office 365 서비스로 업데이트됩니다.</li><li>고객은 EOP 이중 쓰기가 EOP 마이그레이션을 위해 30일 동안 기다려야 합니다. 그렇지 않으면 데이터 손실이 있을 수 있습니다.</li></ul>|
 ||||
+
+### <a name="exchange-online-hybrid-deployments"></a>Exchange Online 하이브리드 배포
+**다음에 적용됩니다.** Exchange 서버가 있는 활성 Exchange 하이브리드 구성을 사용하는 모든 고객
+
+마이그레이션 5단계가 시작되기 전에 [Exchange](ms-cloud-germany-transition-add-pre-work.md#exchange-online-hybrid-customers) 사전 작업 **적용이 완료된지 확인** Exchange Online 하이브리드 고객은 Office 365 전역 서비스로의 마이그레이션을 위해 "Office 365 Germany" 모드에서 최신 버전의 Exchange HCW(하이브리드 구성 마법사)를 실행해야 합니다.
+
+**관리자 작업:**
+- 마이그레이션 단계 6이 시작되고 마이그레이션 단계 9(메시지 센터 알림이 게시될 때)가 완료될 때 Office 365 Worldwide 설정을 사용하여 HCW를 다시 실행하여 Office 365 전역 서비스를 설정해야 합니다. 9단계 [마이그레이션 완료]를 수행하기 전에 이 작업을 완료하지 못하면 메일에 대한 NDRS가 On-premises Exchange 배포와 Office 365 간에 라우팅될 수 있습니다.
+- 온보드 또는 오프보더 사서함 이동을 중지하거나 삭제합니다. 즉, Exchange 온-프레미스와 Exchange Online 간에 사서함을 이동하지 않습니다.  이렇게 하면 사서함 이동 요청이 오류와 함께 실패하지 않습니다. 이렇게 하지 못하면 서비스 또는 Office 클라이언트가 실패할 수 있습니다.
+- 추가 Send-Connectors HCW에서 만든 커넥터 외에 만들어지며 Exchange Online을 대상으로 하는 추가 업데이트는 HCW 실행이 실행된 직후에 업데이트해야 합니다. 그렇지 않으면 작동이 중지됩니다. 이러한 송신 커넥터에 대해 TLS 도메인을 업데이트해야 합니다. <br> TLS 도메인을 업데이트하려면 사용자 환경의 다음 PowerShell 명령을 Exchange Server 합니다.
+```powershell
+Set-SendConnector -Identity <SendConnectorName> -TlsDomain "mail.protection.outlook.com"
+```
 
 ## <a name="phase-7-skype-for-business-online"></a>7단계: 비즈니스용 Skype Online
 
@@ -236,6 +269,27 @@ Dynamics 365를 사용 하는 고객은 조직의 Dynamics 조직을 독립적�
 
 \*\* (i) Microsoft Power BI를 사용 하는 고객은 제공된 마이그레이션 프로세스에 정의된 이 마이그레이션 시나리오에서 조치를 취해야 합니다. (ii) 고객이 조치를 취하지 못하면 Microsoft가 마이그레이션을 완료할 수 없습니다. (iii) 고객의 비활성으로 인해 Microsoft가 마이그레이션을 완료할 수 없는 경우 고객의 구독은 2021년 10월 29일에 만료됩니다.
 
+## <a name="phase-9-office-apps"></a>9단계: Office 앱
+
+**다음에 적용됩니다.** Office 데스크톱 응용 프로그램을 사용하는 모든 고객(Word, Excel, PowerPoint, Outlook, ...)
+
+"독일" 지역으로 전환하는 Office 365 테넌트는 테넌트 마이그레이션이 9단계에 도달한 후 모든 사용자가 Office 365에서 종료하고, 로그인한 후 모든 Office 데스크톱 응용 프로그램(Word, Excel, PowerPoint, Outlook 등)과 비즈니스용 OneDrive 클라이언트에 대해 다시 로그인해야 합니다. 로그인하면 Office 서비스가 전역 Azure AD 서비스에서 새 인증 토큰을 얻을 수 있습니다.
+
+가장 최근의 Office 응용 프로그램을 사용하여 최상의 사용자 환경을 보장할 수 있습니다. 엔터프라이즈에서는 월별 엔터프라이즈 채널 사용을 고려해야 합니다.
+
+모바일 장치 사전 작업을 [완료해야](ms-cloud-germany-transition-add-pre-work.md#mobile-device-management) 합니다.
+
+| Step(s) | 설명 | 영향 |
+|:-------|:-------|:-------|
+| 클라이언트, Office 클라이언트가 컷오버하는 동안 Azure AD는 Office 365 서비스를 지점으로 하는 테넌트 범위를 마무리합니다. | 이 구성 변경을 통해 Office 클라이언트는 Office 365 서비스 끝점을 업데이트하고 이를 지점으로 할 수 있습니다. | <ul><li>사용자에게 모든 _Office_ 앱을 닫은 다음 다시 로그인(또는 클라이언트를 강제로 다시 시작하고 사용자가 로그인하도록 설정)하여 Office 클라이언트가 변경 내용을 선택할 수 있도록 합니다. </li><li>사용자가 컷오버 후  72시간 이내에 Office 앱을 다시 활성화하라는 Office 배너가 표시될 수 있습니다. </li><li>개인 컴퓨터의 모든 Office 응용 프로그램을 닫아야 합니다. 사용자는 로그인한 다음 다시 로그인해야 합니다. 노란색 정품 인증 표시줄에서 로그인하여 Office 365 서비스에 대해 다시 정품 인증합니다.</li><li>공유 컴퓨터는 개인 컴퓨터와 유사한 작업이 필요하며 특별한 절차가 필요하지 않습니다. </li><li>모바일 장치에서 사용자는 앱에서 로그인하고 닫은 다음 다시 로그인해야 합니다.</li></ul>|
+||||
+
+## <a name="phase-9-line-of-business-apps"></a>9단계: 업무 앱
+
+**다음에 적용됩니다.** Office 365에 연결된 업무용 앱을 사용하는 모든 고객
+
+업무용 앱이 있는 경우 업무용 앱에 대한 사전 작업을 [완료해야](ms-cloud-germany-transition-add-pre-work.md#line-of-business-apps) 합니다.
+
 ## <a name="phase-9--10-azure-ad-finalization"></a>9단계 &: Azure AD 마무리
 
 **다음에 적용됩니다.** 모든 고객
@@ -247,23 +301,6 @@ Office 365 테넌트가 마이그레이션의 최종 단계를 완료하면 [Azu
 | 사용자 끝점 업데이트 | 모든 사용자가 적절한 Microsoft 전 세계 끝점을 사용하여 서비스에 액세스하도록 보장 |마이그레이션이 완료된 후 30일이 지난 후 Microsoft 클라우드 도이클랜드 끝점은 요청의 존중을 중지합니다. 클라이언트 또는 응용 프로그램 트래픽이 실패합니다.  |
 | Azure AD 응용 프로그램 끝점 업데이트 | 응용 프로그램의 인증, Azure AD(Azure Active Directory) 그래프 및 MS Graph 끝점을 Microsoft Worldwide 서비스의 끝점으로 업데이트해야 합니다. | 마이그레이션이 완료된 후 30일이 지난 후 Microsoft 클라우드 도이클랜드 끝점은 요청의 존중을 중지합니다. 클라이언트 또는 응용 프로그램 트래픽이 실패합니다. |
 ||||
-
-## <a name="office-apps"></a>Office 앱
-
-**다음에 적용됩니다.** Office 데스크톱 응용 프로그램을 사용하는 모든 고객(Word, Excel, PowerPoint, Outlook, ...)
-
-"독일" 지역으로 전환하는 Office 365 테넌트는 테넌트 마이그레이션이 9단계에 도달한 후 모든 사용자가 Office 365에서 종료하고, 로그인한 후 모든 Office 데스크톱 응용 프로그램(Word, Excel, PowerPoint, Outlook 등)과 비즈니스용 OneDrive 클라이언트에 대해 다시 로그인해야 합니다. 로그인하면 Office 서비스가 전역 Azure AD 서비스에서 새 인증 토큰을 얻을 수 있습니다.
-
-모바일 장치 사전 작업을 [완료해야](ms-cloud-germany-transition-add-pre-work.md#mobile-device-management) 합니다.
-
-| Step(s) | 설명 | 영향 |
-|:-------|:-------|:-------|
-| 클라이언트, Office 클라이언트가 컷오버하는 동안 Azure AD는 Office 365 서비스를 지점으로 하는 테넌트 범위를 마무리합니다. | 이 구성 변경을 통해 Office 클라이언트는 Office 365 서비스 끝점을 업데이트하고 이를 지점으로 할 수 있습니다. | <ul><li>사용자에게 모든 _Office_ 앱을 닫은 다음 다시 로그인(또는 클라이언트를 강제로 다시 시작하고 사용자가 로그인하도록 설정)하여 Office 클라이언트가 변경 내용을 선택할 수 있도록 합니다. </li><li>사용자가 컷오버 후  72시간 이내에 Office 앱을 다시 활성화하라는 Office 배너가 표시될 수 있습니다. </li><li>개인 컴퓨터의 모든 Office 응용 프로그램을 닫아야 합니다. 사용자는 로그인한 다음 다시 로그인해야 합니다. 노란색 정품 인증 표시줄에서 로그인하여 Office 365 서비스에 대해 다시 정품 인증합니다.</li><li>공유 컴퓨터는 개인 컴퓨터와 유사한 작업이 필요하며 특별한 절차가 필요하지 않습니다. </li><li>모바일 장치에서 사용자는 앱에서 로그인하고 닫은 다음 다시 로그인해야 합니다.</li></ul>|
-||||
-
-## <a name="phase-9-line-of-business-apps"></a>9단계: 업무 앱
-
-업무용 앱이 있는 경우 업무용 앱에 대한 사전 작업을 [완료해야](ms-cloud-germany-transition-add-pre-work.md#line-of-business-apps) 합니다.
 
 ## <a name="post-migration"></a>마이그레이션 후
 

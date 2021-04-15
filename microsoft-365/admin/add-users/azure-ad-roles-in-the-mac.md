@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: Microsoft 365 관리 센터의 Azure 관리자 역할을 관리합니다.
-ms.openlocfilehash: b07174763384150a7ae8cda6709f5d0ec5cb40ec
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 72835a0f9fdf9a15fc3ffa07c0fab6ca6f0260cb
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904495"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759945"
 ---
 # <a name="azure-active-directory-roles-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 Azure Active Directory 역할
 
@@ -29,15 +29,11 @@ Microsoft 365 관리 센터를 통해 30개 이상의 Azure AD 역할을 관리�
 
 관리자 역할이 할당된 사용자는 Microsoft 365 관리 센터 또는 Azure 포털에서 역할을 할당하거나 Windows PowerShell용 Azure AD 모듈을 사용하든지와 관계 없이 조직에 가입한 클라우드 서비스에 동일한 수준의 액세스 권한을 갖습니다. 
 
-::: moniker range="o365-worldwide"
-
 Microsoft 365 관리 센터에서 **역할** 로 이동한 다음 아무 역할이나 선택하여 세부 정보 창을 열 수 있습니다. **사용 권한** 탭을 선택하여 해당 역할에 할당된 관리자가 수행할 수 있는 작업에 대한 자세한 목록을 볼 수 있습니다. 역할에 사용자를 추가하려면 **할당된** 또는 **할당된 관리자** 탭을 선택합니다. Microsoft 365 관리 센터에서 역할을 할당하는 방법에 대한 자세한 내용은 [관리자 역할 할당하기](assign-admin-roles.md)를 참조하세요.
-
-::: moniker-end
 
 ## <a name="all-azure-ad-roles"></a>모든 Azure AD 역할
 
-여기에 Microsoft 365 관리 센터에서 이용 가능한 모든 관리자 역할에 대한 목록이 나와 있습니다. Microsoft 365 관리자 역할에 대한 자세한 역할 설명을 찾고 있나요? [관리자 역할 소개](./about-admin-roles.md?view=o365-worldwide)를 확인하세요.
+여기에 Microsoft 365 관리 센터에서 이용 가능한 모든 관리자 역할에 대한 목록이 나와 있습니다. Microsoft 365 관리자 역할에 대한 자세한 역할 설명을 찾고 있나요? [관리자 역할 소개](./about-admin-roles.md)를 확인하세요.
 
 |관리자 역할     |설명  |
 |---------|---------|

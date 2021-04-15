@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 3f925fdc514c5e53b50f748d991f54d20fb49bd0
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+ms.openlocfilehash: 6ad61d583815f669affe989d7519ba0ade6fe08d
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488148"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760089"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Windows Virtual Desktop에서 Windows 10 다중 세션 장치 온보딩 
 6분 읽기 
@@ -54,7 +54,7 @@ WVD 호스트 컴퓨터는 여러 가지 방법으로 온보드합니다.
 #### <a name="scenario-1-using-local-group-policy"></a>*시나리오 1: 로컬 그룹 정책 사용*
 이 시나리오에서는 스크립트를 골든 이미지에 배치하고 로컬 그룹 정책을 사용하여 부팅 프로세스 초기에 실행해야 합니다.
 
-비영구적 가상 데스크톱 인프라 VDI 디바이스 [온보드의 지침을 사용하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-vdi#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1)
+비영구적 가상 데스크톱 인프라 VDI 디바이스 [온보드의 지침을 사용하세요.](configure-endpoints-vdi.md#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1)
 
 각 디바이스에 대한 단일 항목에 대한 지침을 따릅니다.
 
@@ -62,32 +62,41 @@ WVD 호스트 컴퓨터는 여러 가지 방법으로 온보드합니다.
 이 시나리오에서는 중앙에 있는 스크립트를 사용하고 도메인 기반 그룹 정책을 사용하여 스크립트를 실행합니다. 또한 골든 이미지에 스크립트를 추가하고 동일한 방식으로 실행할 수도 있습니다.
 
 **WindowsDefenderATPOnboardingPackage.zip 보안 센터에서 Windows Defender 다운로드**
+
 1. VDI 구성 패키지 .zip 파일(WindowsDefenderATPOnboardingPackage.zip) 열기  
-    - Microsoft Defender 보안 센터 탐색 창에서 설정   >  **온보딩 을 선택합니다.** 
-    - 운영 체제로 Windows 10을 선택합니다. 
-    - 배포 **방법 필드에서** 비영구 끝점에 대한 VDI 온보딩 스크립트를 선택합니다. 
-    - 패키지 **다운로드를 클릭하고** .zip 파일을 저장합니다. 
+
+    1. Microsoft Defender 보안 센터 탐색 창에서 설정   >  **온보딩 을 선택합니다.** 
+    1. 운영 체제로 Windows 10을 선택합니다. 
+    1. 배포 **방법 필드에서** 비영구 끝점에 대한 VDI 온보딩 스크립트를 선택합니다. 
+    1. 패키지 **다운로드를 클릭하고** .zip 파일을 저장합니다. 
+
 2. .zip 파일의 내용을 장치에서 액세스할 수 있는 공유 읽기 전용 위치에 추출합니다. **OptionalParamsPolicy라는** 폴더와 **WindowsDefenderATPOnboardingScript.cmd** 및 **Onboard-NonPersistentMachine.ps1.**
 
 **그룹 정책 관리 콘솔을 사용하여 가상 컴퓨터 시작 시 스크립트 실행**
+
 1. GPMC(그룹 정책 관리 콘솔)를 열고 구성할 GPO(그룹 정책 개체)를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.**
+
 1. 그룹 정책 관리 편집기에서 컴퓨터 **구성** 기본 설정 \>  \> **제어판 설정으로 이동합니다.** 
+
 1. 예약된 **작업을 마우스 오른쪽** 단추로 클릭하고 새로 **고침을** 클릭한 다음 직접 **실행** 작업(Windows 7 이상)을 클릭합니다. 
+
 1. 작업 창이 열리면 일반 **탭으로** 이동됩니다. 보안 **옵션에서** 사용자 또는 **그룹 변경을 클릭하고** SYSTEM을 입력합니다. 이름 **확인을 클릭한** 다음 확인을 클릭합니다. 작업이 실행될 사용자 계정으로 NT AUTHORITY\SYSTEM이 표시됩니다. 
+
 1. 사용자가 **로그온되어** 있는지 여부에 따라  실행을 선택하고 가장 높은 권한으로 실행 확인란을 선택합니다. 
+
 1. 작업 **탭으로** 이동하여 새로 고기를 **클릭합니다.** 작업 **필드에서 프로그램** 시작이 선택되어 있도록 합니다. 다음을 입력합니다. 
 
-> Action = "프로그램 시작" <br>
-> Program/Script = C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe <br>
-> 인수 추가(선택 사항) = -ExecutionPolicy Bypass -command "& \\Path\To\Onboard-NonPersistentMachine.ps1"
+    > Action = "프로그램 시작" <br>
+    > Program/Script = C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe <br>
+    > 인수 추가(선택 사항) = -ExecutionPolicy Bypass -command "& \\Path\To\Onboard-NonPersistentMachine.ps1"
 
-확인을 **클릭하고** 열려 있는 GPMC 창을 닫습니다.
+1. 확인을 **클릭하고** 열려 있는 GPMC 창을 닫습니다.
 
 #### <a name="scenario-3-onboarding-using-management-tools"></a>*시나리오 3: 관리 도구를 사용한 온보드*
 
 관리 도구를 사용하여 컴퓨터를 관리하려면 Microsoft Endpoint Configuration Manager를 사용하여 장치를 온보드할 수 있습니다.
 
-자세한 내용은 Configuration [Manager를 사용하여 Windows 10 장치 온보드를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm) 
+자세한 내용은 Configuration Manager를 사용하여 [Windows 10 장치 온보드를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm) 
 
 > [!WARNING]
 > 공격 표면 감소 [](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction)규칙을 사용하려면["PSExec](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction#block-process-creations-originating-from-psexec-and-wmi-commands)및 WMI 명령에서 시작된 프로세스 만들기 차단" 규칙은 Microsoft Endpoint Configuration Manager를 통한 관리와 비호환적이기 때문에 구성 관리자 클라이언트가 올바르게 작동하기 위해 사용하는 WMI 명령을 차단하기 때문에 사용되지 않습니다. 

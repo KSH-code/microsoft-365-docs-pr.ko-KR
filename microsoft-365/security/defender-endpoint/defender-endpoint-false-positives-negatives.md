@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: ddd10e6164a8fae5d0d3d60c04ca854ef9771dba
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: f2615cf5ec49c9df27472f04c367f30511e9c0cc
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688744"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759873"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Endpoint용 Microsoft Defender에서 가양성/가음성 처리
 
@@ -125,9 +125,11 @@ ms.locfileid: "51688744"
 바이러스 백신 검사 시작 또는 조사 패키지 수집과 같은 기타 작업은 수동 또는 [라이브 응답을 통해 수행됩니다.](live-response.md) Live Response를 통해 수행된 작업은 다시 수행할 수 없습니다.
 
 알림을 검토한 후 다음 단계는 수정 작업을 [검토하는 것입니다.](manage-auto-investigation.md) 가짓 긍정으로 인해 작업이 수행된 경우 대부분의 종류의 수정 작업을 취소할 수 있습니다. 특히 다음을 할 수 있습니다.
-- [한 번의 작업 실행 취소](#undo-an-action)
-- [한 번씩 여러 작업을 취소합니다.](#undo-multiple-actions-at-one-time) 및 
-- 여러 장치에서 파일을 [검지에서 제거합니다.](#remove-a-file-from-quarantine-across-multiple-devices) 
+
+- [작업 센터에서 고지된 파일 복원](#restore-a-quarantined-file-from-the-action-center)
+- [한 번씩 여러 작업 취소](#undo-multiple-actions-at-one-time)
+- 여러 장치에서 파일을 [검지에서 제거합니다.](#remove-a-file-from-quarantine-across-multiple-devices)  및 
+- [격리로부터 파일 복원](#restore-file-from-quarantine)
 
 가짓 긍정의 결과로 수행된 작업의 검토 및 취소가 완료되면 계속 검토하거나 [제외를 정의합니다.](#part-3-review-or-define-exclusions)
 
@@ -139,7 +141,7 @@ ms.locfileid: "51688744"
 
 3. 항목을 선택하여 수행된 수정 조치에 대한 자세한 정보를 볼 수 있습니다.
 
-### <a name="undo-an-action"></a>작업 실행 취소
+### <a name="restore-a-quarantined-file-from-the-action-center"></a>작업 센터에서 고지된 파일 복원
 
 1. Go to the Action center ( [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) ) and sign in.
 
@@ -164,7 +166,33 @@ ms.locfileid: "51688744"
 
 2. 사용 기록 **탭에서** 작업 유형이 **Quarantine** file인 파일을 선택합니다.
 
+3. 화면 오른쪽 창에서 이 파일의 X **추가** 인스턴스에 적용을 선택한 다음 실행 **취소를 선택합니다.**
+
+### <a name="restore-file-from-quarantine"></a>격리로부터 파일 복원
+
+조사 후에 파일이 정리된 것으로 판단되면 파일을 롤백하고 검지에서 제거할 수 있습니다. 파일이 중단된 각 디바이스에서 다음 명령을 실행합니다.
+
+1. 디바이스에서 상승된 명령줄 프롬프트를 니다.
+
+   1. **시작**(으)로 이동하고 _cmd_ 를 입력하십시오.
+
+   1. 명령 **프롬프트를 마우스 오른쪽 단추로 클릭하고** **관리자 권한으로 실행을 선택합니다.**
+
+2. 다음 명령을 입력하고 **Enter를 누를 수 있습니다.**
+
+    ```console
+    "ProgramFiles%\Windows Defender\MpCmdRun.exe" –Restore –Name EUS:Win32/CustomEnterpriseBlock –All
+    ```
+
+    > [!NOTE]
+    > 일부 시나리오에서는 **ThreatName이** 로 표시될 수 `EUS:Win32/
+CustomEnterpriseBlock!cl` 있습니다. Endpoint용 Defender는 지난 30일 동안 이 장치에서 차단된 모든 사용자 지정 차단 파일을 복원합니다.
+
+    > [!IMPORTANT]
+    > 잠재적인 네트워크 위협으로 고지된 파일은 복구할 수 없습니다. 사용자가 파일을 검지 후에 복원하려고 시도하면 해당 파일에 액세스할 수 없습니다. 시스템에 파일에 액세스하기 위한 네트워크 자격 증명이 더 이상 필요하기 때문일 수 있습니다. 일반적으로 시스템 또는 공유 폴더에 일시적으로 로그온하고 액세스 토큰이 만료된 결과입니다.
+
 3. 화면 오른쪽 창에서 이 파일의 X **추가** 인스턴스에 적용을 선택한 다음 실행 **취소를 선택합니다.** 
+
 
 ## <a name="part-3-review-or-define-exclusions"></a>3부: 제외 검토 또는 정의
 

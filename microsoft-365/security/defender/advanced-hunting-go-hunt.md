@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 392db06aa517e3e970f85ccc971c3a6a6bc6e548
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0f09f74a1cefad5a9b6b438752ebe57e583397c7
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498283"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759981"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>이동 헌트로 엔터티 또는 이벤트 정보를 빠르게 헌팅
 
@@ -39,7 +39,7 @@ ms.locfileid: "51498283"
 
 이동 *헌트* 작업은 이벤트 또는 엔터티 세부 정보가 표시될 때마다 보안 센터의 다양한 섹션에서 사용할 수 있습니다. 예를 들어 다음 섹션에서 *이동 헌트* 기능을 사용할 수 있습니다.
 
-- [인시던트 페이지에서](investigate-incidents.md#incident-overview)인시던트와 관련된 사용자, 장치 및 기타 여러 엔터티에 대한 세부 정보를 검토할 수 있습니다. 엔터티를 선택하면 해당 엔터티에 대해 수행할 수 있는 다양한 작업뿐만 아니라 추가 정보도 얻을 수 있습니다. 아래 예에서는 사서함에 대한 세부 정보와 사서함에 대한 자세한 정보를 헌팅할 수 있는 옵션을 표시하는 사서함이 선택되어 있습니다.
+- [인시던트 페이지에서](investigate-incidents.md#summary)인시던트와 관련된 사용자, 장치 및 기타 여러 엔터티에 대한 세부 정보를 검토할 수 있습니다. 엔터티를 선택하면 해당 엔터티에 대해 수행할 수 있는 다양한 작업뿐만 아니라 추가 정보도 얻을 수 있습니다. 아래 예에서는 사서함에 대한 세부 정보와 사서함에 대한 자세한 정보를 헌팅할 수 있는 옵션을 표시하는 사서함이 선택되어 있습니다.
 
     ![이동 헌트 옵션이 있는 사서함 세부 정보를 보여주는 이미지](../../media/mtp-ah/go-hunt-email.png)
 

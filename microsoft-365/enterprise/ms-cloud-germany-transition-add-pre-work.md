@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우 사전 작업입니다.'
-ms.openlocfilehash: 3172c76288a8b9957f106f17e6cd34ccaf024067
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: ce7aad932482d7a9d1681957c06b85ab22a82149
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644731"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760395"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 마이그레이션 전 활동
 
@@ -67,7 +67,7 @@ ms.locfileid: "51644731"
 
 <!-- before phase 9 -->
 
-**적용 사항:** 자체 DNS 도메인에서 사용자 지정 _msoid_ CNAME을 설정한 고객
+**적용 사항:** 자체 DNS 도메인 또는 Exchange Online에 대해 도메인을 사용하여 사용자 지정 _msoid_ CNAME을 설정한 고객
 
 구성된 경우 _msoid_ CNAME은 Office 데스크톱 클라이언트(Microsoft 365 앱, Office 365 ProPlus, Office 2019, 2016, ...)를 사용하는 고객에게만 영향을 미치게 됩니다.
 
@@ -80,6 +80,9 @@ nslookup -querytype=CNAME msoid.contoso.com
 ```
 
 명령줄에서 DNS 레코드를 반환하는 경우 도메인에서 _msoid_ CNAME을 제거합니다.
+
+> [!NOTE]
+> Exchange Online에 대해 사용자 지정 도메인을 사용하는 경우 DNS 호스팅 공급자에 대한 액세스 권한이 필요합니다. DNS 설정에 액세스하고 편집할 수 있는지, 마이그레이션 중에 DNS 레코드를 수정할 수 있는지 확인합니다.
 
 ## <a name="active-directory-federation-services-ad-fs"></a>AD FS(Active Directory Federation Services)
 
@@ -111,8 +114,8 @@ nslookup -querytype=CNAME msoid.contoso.com
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
-| Office 365 서비스로의 예정된 전환을 외부 파트너에게 알릴 수 있습니다. |  고객은 일정 및 가용성 주소 공간 구성 공유를 사용하도록 설정한 파트너에게 알려야 합니다(Office 365와 약속이 있는/약속이 있는 정보 공유 허용). Exchange Online 마이그레이션이 완료될 때 [Office 365 전](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) 세계 끝점을 사용하려면 가용성 구성을 전환해야 합니다. | 이 작업을 수행하지 못하면 이후 고객 마이그레이션 단계에서 서비스 또는 클라이언트 오류가 발생될 수 있습니다. |
-| 필요한 IMAP4/POP3/SMTP 클라이언트 변경 내용을 사용자에게 알릴 수 있습니다. | 클라이언트 프로토콜 IMAP4, POP3, SMTP에 대한 Microsoft 클라우드 끝점에 대한 장치 연결이 있는 사용자는 수동으로 클라이언트 장치를 업데이트하여 [Office 365 전](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide)세계 끝점으로 전환해야 합니다. | 이러한 프로토콜의 사용자에게 이러한 종속성에 대해 미리 전달하고 이 마이그레이션 중에 Outlook 모바일 또는 웹용 Outlook을 사용하기 위해 전환해야 합니다. 클라이언트 끝점을 업데이트하지 못하면 사용자 사서함이 마이그레이션될 때 도이클란드 Microsoft 클라우드에 대한 클라이언트 연결 오류가 발생합니다. |
+| Office 365 서비스로의 예정된 전환을 외부 파트너에게 알릴 수 있습니다. |  고객은 일정 및 가용성 주소 공간 구성 공유를 사용하도록 설정한 파트너에게 알려야 합니다(Office 365와 약속이 있는/약속이 있는 정보 공유 허용). Exchange Online 마이그레이션이 완료될 때 [Office 365 전](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) 세계 끝점을 사용하려면 가용성 구성을 전환해야 합니다. | 이 작업을 수행하지 못하면 이후 고객 마이그레이션 단계에서 서비스 또는 클라이언트 오류가 발생될 수 있습니다. |
+| 필요한 IMAP4/POP3/SMTP 클라이언트 변경 내용을 사용자에게 알릴 수 있습니다. | 클라이언트 프로토콜 IMAP4, POP3, SMTP에 대한 Microsoft 클라우드 끝점에 대한 장치 연결이 있는 사용자는 클라이언트 장치를 수동으로 업데이트하여 Exchange Online 서버 이름으로 전환해야 [합니다.](/exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/pop3-and-imap4#settings-users-use-to-set-up-pop3-or-imap4-access-to-their-exchange-online-mailboxes) | 이러한 프로토콜의 사용자에게 이러한 종속성에 대해 미리 전달하고 이 마이그레이션 중에 Outlook 모바일 또는 웹용 Outlook을 사용하기 위해 전환해야 합니다. 클라이언트 끝점을 업데이트하지 못하면 사용자 사서함이 마이그레이션될 때 도이클란드 Microsoft 클라우드에 대한 클라이언트 연결 오류가 발생합니다. |
 ||||
 
 ### <a name="exchange-online-hybrid-customers"></a>Exchange Online 하이브리드 고객
@@ -120,14 +123,13 @@ nslookup -querytype=CNAME msoid.contoso.com
 **다음에 적용됩니다.** Exchange 서버가 있는 활성 Exchange 하이브리드 구성을 사용하는 모든 고객<br>
 **적용된 경우:** 5단계가 시작되기 전의 시간
 
-Exchange Online의 하이브리드 배포와 하이브리드 배포가 있는 엔터프라이즈 Exchange Server HCW(하이브리드 구성 마법사) 및 AAD Connect를 실행하여 하이브리드 설정을 유지 관리하고 설정할 수 있습니다. 독일 Microsoft 클라우드에서 Office 365 Germany 지역으로 전환할 때 관리자는 Exchange 마이그레이션(5단계)이 시작되기 전에 "Office 365 Germany" 모드에서 HCW의 최신 빌드를 다시 실행해야 합니다. 그런 다음 5단계가 완료된 후 "Office 365 Worldwide" 모드에서 HCW를 다시 실행하여 Office 365 Germany 지역 설정으로 사내 배포를 완료합니다. 디렉터리 특성은 AAD Connect를 통해 Office 365와 Azure AD 간에 동기화됩니다. 
+Exchange Online의 하이브리드 배포와 하이브리드 배포가 있는 엔터프라이즈 Exchange Server HCW(하이브리드 구성 마법사) 및 AAD Connect를 실행하여 하이브리드 설정을 유지 관리하고 설정할 수 있습니다. Exchange Online 하이브리드 관리자는 이 전환의 일부로  **HCW(하이브리드** 구성 마법사)를 여러 번 실행해야 합니다. 독일 Microsoft 클라우드에서 Office 365 Germany 지역으로 전환할 때 관리자는 Exchange 마이그레이션(5단계)이 시작되기 전에 "Office 365 Germany" 모드에서 HCW의 최신 빌드를 다시 실행해야 합니다. 그런 다음 5단계가 완료된 후 "Office 365 Worldwide" 모드에서 HCW를 다시 실행하여 Office 365 Germany 지역 설정으로 사내 배포를 완료합니다. 5단계에서 HCW 실행을 실행하면 안 되고 5단계가 완료될 때까지 HCW를 실행해야 합니다.
+디렉터리 특성은 AAD Connect를 통해 Office 365와 Azure AD 간에 동기화됩니다. 
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
-| (5단계 전) - Office 365 Germany 설정을 사용하여 HCW 다시 실행 <br><br> <i>Office 365 테넌트 마이그레이션이 시작했다는 메시지 센터 알림을 받은 후 바로 이 활동을 시작할 수 있습니다(1단계).</i>| 5단계 이전의 HCW(17.0.5378.0 이상)를 설치하고 다시 실행하면 Microsoft 클라우드 도이클랜드 사용자와 Office 365 Germany 지역으로 마이그레이션된 사용자와 함께 메일을 보내고 받을 준비가 [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) 됩니다. <p><li> In the HCW, for the list box below **My Office 365 organization is hosted by**, select Office **365 Germany.** | 5단계[Exchange 마이그레이션]이 시작되기 전에 이 작업을 완료하지 못하면 메일에 대한 NDRS가 해당 프레미스 Exchange 배포와 Office 365 간에 라우팅될 수 있습니다.  
-| (5단계 후) - Office 365 Worldwide 설정을 사용하여 HCW 다시 실행 <br><br> <i>Exchange 마이그레이션이 완료되었습니다는 메시지 센터 알림을 받은 후 이 활동을 시작할 수 있습니다(5단계).</i>| 5단계 이후에 HCW를 설치하고 다시 실행하면 Office 365 전역에서만 하이브리드 구성에 대한 사내 구성이 다시 [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) 설정됩니다. <p><li> In the list box below **My Office 365 organization is hosted by**, select Office **365 Worldwide**. | 9단계 [마이그레이션 완료] 전에 이 작업을 완료하지 못하면 메일에 대한 NDRS가 사내 Exchange 배포와 Office 365 간에 라우팅될 수 있습니다.  
-| 인증을 위해 전역 STS(Security Token Service)를 설정하는 AuthServer 사내 설정 | 이렇게 하면 하이브리드 사내 환경을 대상으로 하는 마이그레이션 상태의 사용자로부터의 Exchange 가용성 요청에 대한 인증 요청이 인증되어 사내 서비스에 액세스할 수 있습니다. 마찬가지로, 이렇게 하면 사내에서 Office 365 전역 서비스 끝점으로의 요청 인증이 보장됩니다. | Azure AD 마이그레이션(2단계)이 완료되면 Office 365 전역 서비스에 대한 새 인증 서비스 끝점을 추가해야 합니다. Exchange PowerShell에서 이 명령을 사용하여 Azure Active Directory의 Azure Portal에 있는 조직의 테넌트 `<TenantID>` ID로 대체합니다.<br>`New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontrol.windows.net/<TenantId>/metadata/json/1`<br> 이 작업을 완료하지 못하면 도이치클라드 Microsoft 클라우드에서 Office 365 서비스로 마이그레이션된 사서함 사용자에게 하이브리드 사용 가능한 요청이 정보를 제공하지 못할 수 있습니다.  |
-| (5단계 전) - 공유 사서함 설정 보존 | 일부 하이브리드 고객은 Exchange Online 명령을 사용하여 클라우드 사용자 사서함을 '공유' 사서함으로 변환했습니다. 이 클라우드 사서함 구성은 사서함 및 로컬 Exchange Online 디렉터리에 기록됩니다. 그러나 AAD Connect를 통해 고객의 Active Directory에 다시 동기화되지는 않습니다. 그 결과 RemoteRecipientType 및 RemoteDisplayType 값의 Active Directory 표현과 사서함을 공유로 정의하는 Exchange Online 간의 불일치가 있습니다. <br><br> 고객은 , 또는 를 사용하여 모든 공유 사서함이 제대로 프로비전되었는지 `New-RemoteMailbox -Shared` `Enable-RemoteMailbox -Shared` `Set-RemoteMailbox -Shared` 확인합니다.  하이브리드 환경에서 사용자 사서함을 변환하는 방법에 대한 자세한 내용은 이 [참조를 참조합니다.](https://docs.microsoft.com/microsoft-365/admin/email/convert-user-mailbox-to-shared-mailbox?view=o365-worldwide)| 5단계 [Exchange Online 마이그레이션] 전에 이 작업을 완료하지 못하면 공유 사서함에 대한 NDRS가 사용이 가능해지며, 이로 인해 사용이 허용되지 않은 사서함으로 다시 변환하고 영향을 받는 사서함에 대한 공유 액세스가 손실될 수 있습니다. [Exchange 하이브리드](https://docs.microsoft.com/exchange/troubleshoot/user-and-shared-mailboxes/shared-mailboxes-unexpectedly-converted-to-user-mailboxes) 배포에서 디렉터리 동기화를 실행하면 공유 사서함이 예기치 않게 사용자 사서함으로 변환됩니다. Exchange Online 마이그레이션이 완료되기 전에 이 문제를 해결하지 못하게 되는 영향을 간략하게 설명합니다.  
+| Office 365 Germany 설정을 사용하여 HCW 다시 실행 <br><br> <i>Office 365 테넌트 마이그레이션이 시작했다는 메시지 센터 알림을 받은 후 바로 이 활동을 시작할 수 있습니다(1단계).</i>| 5단계 이전의 HCW(17.0.5378.0 이상)를 설치하고 다시 실행하면 Microsoft 클라우드 도이클랜드 사용자와 Office 365 Germany 지역으로 마이그레이션된 사용자와 함께 메일을 보내고 받을 준비가 [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) 됩니다. <p><li> In the HCW, for the list box below **My Office 365 organization is hosted by**, select Office **365 Germany.** | 5단계[Exchange 마이그레이션]이 시작되기 전에 이 작업을 완료하지 못하면 메일에 대한 NDRS가 해당 프레미스 Exchange 배포와 Office 365 간에 라우팅될 수 있습니다.  
+| 공유 사서함 설정 보존 | 일부 하이브리드 고객은 Exchange Online 명령을 사용하여 클라우드 사용자 사서함을 '공유' 사서함으로 변환했습니다. 이 클라우드 사서함 구성은 사서함 및 로컬 Exchange Online 디렉터리에 기록됩니다. 그러나 AAD Connect를 통해 고객의 Active Directory에 다시 동기화되지는 않습니다. 그 결과 RemoteRecipientType 및 RemoteDisplayType 값의 Active Directory 표현과 사서함을 공유로 정의하는 Exchange Online 간의 불일치가 있습니다. <br><br> 고객은 , 또는 를 사용하여 모든 공유 사서함이 제대로 프로비전되었는지 `New-RemoteMailbox -Shared` `Enable-RemoteMailbox -Shared` `Set-RemoteMailbox -Shared` 확인합니다.  하이브리드 환경에서 사용자 사서함을 변환하는 방법에 대한 자세한 내용은 이 [참조를 참조합니다.](/microsoft-365/admin/email/convert-user-mailbox-to-shared-mailbox?view=o365-worldwide)| 5단계 [Exchange Online 마이그레이션] 전에 이 작업을 완료하지 못하면 공유 사서함에 대한 NDRS가 사용이 가능해지며, 이로 인해 사용이 허용되지 않은 사서함으로 다시 변환하고 영향을 받는 사서함에 대한 공유 액세스가 손실될 수 있습니다. [Exchange 하이브리드](/exchange/troubleshoot/user-and-shared-mailboxes/shared-mailboxes-unexpectedly-converted-to-user-mailboxes) 배포에서 디렉터리 동기화를 실행하면 공유 사서함이 예기치 않게 사용자 사서함으로 변환됩니다. Exchange Online 마이그레이션이 완료되기 전에 이 문제를 해결하지 못하게 되는 영향을 간략하게 설명합니다.  
 ||||
 
 ## <a name="skype-for-business-online"></a>비즈니스용 Skype Online

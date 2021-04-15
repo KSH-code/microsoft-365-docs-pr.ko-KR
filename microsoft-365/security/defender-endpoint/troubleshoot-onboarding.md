@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 4599741f501e9b55bc73e0eb8def9208bc988957
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 193e7e634ecf8407816db10c820edcd241b94b12
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689668"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755801"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결
 
@@ -292,8 +292,9 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
     ![Microsoft Defender 바이러스 백신의 레지스트리 키 이미지](images/atp-disableantispyware-regkey.png)
 
    > [!NOTE]
-   > 또한 사용자 지정 및 wdfilter.sys wdboot.sys 기본값인 "0"으로 설정해야 합니다.
+   > 모든 Windows Defender 서비스(wdboot, wdfilter, wdnisdrv, wdnissvc 및 windefend)는 기본 상태입니다. 이러한 서비스의 시작을 변경하는 것은 지원되지 않는 것이고 강제로 시스템을 다시 그만 두게 될 수 있습니다.
    >
+   > WdBoot 및 WdFilter의 기본 구성 예제:
    > - `<Key Path="SYSTEM\CurrentControlSet\Services\WdBoot"><KeyValue Value="0" ValueKind="DWord" Name="Start"/></Key>`
    > - `<Key Path="SYSTEM\CurrentControlSet\Services\WdFilter"><KeyValue Value="0" ValueKind="DWord" Name="Start"/></Key>`
 
@@ -306,7 +307,7 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
 
 다음을 확인해야 할 수도 있습니다.
 
-- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예를 들어 다음과 같습니다.
+- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예시:
 
     ![Endpoint Service용 Microsoft Defender를 실행하는 프로세스 보기의 이미지](images/atp-task-manager.png)
 

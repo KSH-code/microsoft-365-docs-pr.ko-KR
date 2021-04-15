@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 784e73467efc114f05ebdfca9bc4034e2d75f6c6
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 235df8c84077311444c597b120a19477cfd0986a
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185710"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760419"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>라이브 응답을 사용하여 디바이스에서 엔터티 조사
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -144,11 +144,13 @@ ms.locfileid: "51185710"
 |`connections` | 모든 활성 연결을 보여 주며, |
 |`dir` | 디렉터리의 파일 및 하위 디렉터리 목록을 보여줍니다. |
 |`download <file_path> &` | 백그라운드에서 파일을 다운로드합니다. |
-drivers |  장치에 설치된 모든 드라이버를 보여줍니다. |
-|`fg <command ID>` | 파일 다운로드를 포그라운드로 반환합니다. |
+|`drivers` |  장치에 설치된 모든 드라이버를 보여줍니다. |
+|`fg <command ID>` | 지정한 작업을 포그라운드의 포그라운드에 두어 현재 작업으로 지정합니다. <br> 참고: fg는 PID가 아니라 작업에서 사용할 수 있는 "명령 ID"를 취합니다. |
 |`fileinfo` | 파일에 대한 정보를 얻습니다. |
 |`findfile` | 디바이스에서 지정한 이름으로 파일을 찾습니다. |
+|`getfile <file_path>` | 파일을 다운로드합니다. |
 |`help` | 라이브 응답 명령에 대한 도움말 정보를 제공합니다. |
+|`jobs` | 현재 실행 중인 작업, ID 및 상태를 보여줍니다. |
 |`persistence` | 디바이스에서 알려진 모든 지속성 메서드를 보여 주며, |
 |`processes` | 디바이스에서 실행 중인 모든 프로세스를 보여 줍니다. |
 |`registry` | 레지스트리 값을 나타냅니다. |
@@ -162,7 +164,6 @@ drivers |  장치에 설치된 모든 드라이버를 보여줍니다. |
 | 명령 | 설명 |
 |---|---|
 | `analyze` | 다양한 판별 엔진을 통해 엔터티를 분석하여 판정에 도달합니다. |
-| `getfile` | 장치에서 파일을 다운로드합니다. <br> 참고: 이 명령에는 선행 명령이 있습니다. 명령을 함께 사용하여 자동으로 선행 명령을 실행할 `-auto` `getfile` 수 있습니다. |
 | `run` | 장치의 라이브러리에서 PowerShell 스크립트를 실행합니다. |
 | `library` | 라이브 응답 라이브러리에 업로드된 파일을 나열합니다. |
 | `putfile` | 라이브러리에서 장치로 파일을 넣습니다. 파일은 작업 폴더에 저장되고 장치가 기본적으로 다시 시작될 때 삭제됩니다. |
@@ -303,10 +304,9 @@ processes > output.txt
 
 ## <a name="limitations"></a>제한 사항
 
-- 라이브 응답 세션은 한에 10개 라이브 응답 세션으로 제한됩니다.
-- 대규모 명령 실행은 지원되지 않습니다.
-- 라이브 응답 세션 비활성 시간 제한 값은 5분입니다. 
-- 사용자는 한 번만 세션을 시작할 수 있습니다.
+- 라이브 응답 세션은 한 때 25개 라이브 응답 세션으로 제한됩니다.
+- 라이브 응답 세션 비활성 시간 제한 값은 30분입니다. 
+- 사용자는 최대 10개까지 동시 세션을 시작할 수 있습니다.
 - 디바이스는 한 번의 세션에만 있을 수 있습니다.
 - 다음 파일 크기 제한이 적용됩니다.
    - `getfile` 제한: 3GB
@@ -314,4 +314,4 @@ processes > output.txt
    - `library` 제한: 250MB
 
 ## <a name="related-article"></a>관련 문서
-- [라이브 응답 명령 예제](live-response-command-examples.md)
+- [실시간 대응 명령 예제](live-response-command-examples.md)

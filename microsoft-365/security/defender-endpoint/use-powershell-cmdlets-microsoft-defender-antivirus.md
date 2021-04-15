@@ -15,12 +15,14 @@ ms.date: 07/23/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 912136a7229ec55b7f1644aebc946f63acb68040
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+audience: ITPro
+ms.topic: how-to
+ms.openlocfilehash: 0fd1e6b2eec1be722af58e0753e158c050b56c6b
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51691286"
+ms.locfileid: "51749881"
 ---
 # <a name="use-powershell-cmdlets-to-configure-and-manage-microsoft-defender-antivirus"></a>PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 구성 및 관리
 
@@ -67,4 +69,4 @@ Get-Help <cmdlet> -Online
 
 - [관리 및 구성 도구에 대한 참조 항목](configuration-management-reference-microsoft-defender-antivirus.md)
 - [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
-- [Microsoft Defender 바이러스 백신 Cmdlet](/powershell/module/defender/?view=win10-ps)
+- [Microsoft Defender 바이러스 백신 Cmdlet](/powershell/module/defender)
