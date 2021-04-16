@@ -140,6 +140,7 @@
 
 #### Windows Defender 바이러스 백신 문제 해결
 ##### [업데이트 규정 준수에서 Microsoft Defender 바이러스 백신 보고 문제 해결](troubleshoot-reporting.md)
+##### [성능 문제 해결](troubleshoot-performance-issues.md)
 ##### [이벤트 로그 및 오류 코드를 검토하여 Microsoft Defender 바이러스 백신 문제 해결](troubleshoot-microsoft-defender-antivirus.md)
 ##### [타사 솔루션에서 마이그레이션하는 동안 Microsoft Defender 바이러스 백신 문제 해결](troubleshoot-microsoft-defender-antivirus-when-migrating.md)
 
@@ -249,6 +250,7 @@
 ##### [잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](linux-pua.md)
 ##### [Microsoft Defender for Endpoint(Linux용) 검사 예약](linux-schedule-scan-atp.md)
 ##### [엔드포인트용 Microsoft Defender(Linux) 업데이트 예약](linux-update-MDE-Linux.md)
+##### [Chef를 통해 Microsoft Defender for Endpoint(Linux용) 배포](linux-deploy-defender-for-endpoint-with-chef.md)
 
 #### [문제 해결]()
 ##### [설치 문제 해결](linux-support-install.md)
