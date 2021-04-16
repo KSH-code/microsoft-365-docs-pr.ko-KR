@@ -1,9 +1,11 @@
 - name: Microsoft 365 보안
-  href: overview.md
+  href: index.yml
   expanded: true
   items:
     - name: 개요
       items:
+        - name: Office 365 보안 개요
+          href: overview.md
         - name: Office 365용 Defender
           href: defender-for-office-365.md
         - name: Office 365용 Microsoft Defender의 단계별 위협 방지
@@ -385,3 +387,5 @@
       href: ../index.yml
     - name: 끝점용 Microsoft Defender
       href: ../defender-endpoint/index.yml
+    - name: ID용 Microsoft Defender
+      href: 'https://docs.microsoft.com/defender-for-identity/'

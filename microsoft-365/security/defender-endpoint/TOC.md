@@ -222,6 +222,7 @@
 
 ### [Microsoft Defender for Endpoint(iOS용)]()
 #### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-ios.md)
+#### [새로운 기능](ios-whatsnew.md)
 
 #### [배포]()
 ##### [Intune을 통해 Microsoft Defender for Endpoint(iOS용) 배포](ios-install.md)
@@ -631,4 +632,5 @@
 ##### [공격 표면 감소 규칙으로 마이그레이션](migrating-asr-rules.md)
 
 # [Microsoft 365 Defender](../index.yml)
-# [Office 365용 Defender](../office-365-security/overview.md)
+# [Office 365용 Defender](../office-365-security/index.yml)
+# [ID용 Defender](https://docs.microsoft.com/defender-for-identity/)

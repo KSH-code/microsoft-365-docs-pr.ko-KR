@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Microsoft 365 보안 설명서
-summary: Microsoft 365 보안의 강력한 보안 솔루션 및 서비스에 대해 알아보고 공격 영역 전체에서 기업을 보다 효과적으로 보호할 수 있습니다.
+summary: Microsoft 365 보안 센터는 엔터프라이즈를 보호하기 위한 향상된 기능으로 하나의 포괄적인 관리 콘솔에 여러 보안 기술을 통합합니다.
 metadata:
   title: Microsoft 365 보안 설명서
   description: 엔드포인트용 Microsoft Defender에 대해 자세히 알아보고, 사이버 위협으로부터 엔드포인트를 보호하고, 보안 운영 팀에 위협을 교정할 수 있는 기능을 제공합니다.
@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 02/05/2021
   localization_priority: Priority
-  ms.openlocfilehash: c7ec3e0bb970d74d9e33c3d74eb0cd18aaf8d16c
-  ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+  ms.openlocfilehash: a8d2e2c5ec41436bba7f013304daa8f259db9444
+  ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/25/2021
-  ms.locfileid: "51200356"
+  ms.lasthandoff: 04/15/2021
+  ms.locfileid: "51768557"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
