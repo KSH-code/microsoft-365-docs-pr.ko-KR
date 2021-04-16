@@ -23,12 +23,12 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: 조직의 사용자를 위한 최신 Microsoft Office Office 클라이언트로 업그레이드하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 14be8d63b2acb3e4838640dc399595c0ba3f97f5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3d2d5e54506d06662c6c2feef0d142f1e195163f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913997"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860574"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>비즈니스용 Microsoft 365 사용자를 최신 Office 클라이언트로 업그레이드
 
@@ -91,7 +91,7 @@ Office를 포함하는 구독으로 전환합니다. 다른 [비즈니스용 Mic
 
 **옵션 2: Office의 개별 구입, 일회성 구매 또는 볼륨 라이선스를 통해 Office 구입**
 
- - Office의 개인 일회성 구매를 구입합니다. [Office Home &amp; Business](https://products.office.com/home-and-business) 또는 Office Professional [참조](https://products.office.com/professional)
+ - Office의 개인 일회성 구매를 구입합니다. [Office Home &amp; Business](https://www.microsoft.com/microsoft-365/buy/compare-all-microsoft-365-products-b) 또는 Office Professional [참조](https://www.microsoft.com/microsoft-365/p/office-professional-2019/CFQ7TTC0K7C5/)
 
      또는
 

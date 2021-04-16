@@ -1,7 +1,7 @@
 ---
-title: iOS의 Microsoft Defender ATP
+title: Microsoft Defender for Endpoint(iOS용)
 ms.reviewer: ''
-description: iOS용 Microsoft Defender ATP를 설치하고 사용하는 방법을 설명
+description: iOS용 끝점용 Microsoft Defender를 설치하고 사용하는 방법을 설명
 keywords: microsoft, defender, atp, ios, 개요, 설치, 배포, 제거, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bc28c40443a6cae2815ad97126073df4579c494c
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: a04d939d5c25341f07090ac896cfb80b43ab1a1c
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768785"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861386"
 ---
-# <a name="microsoft-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Microsoft Defender
+# <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender for Endpoint(iOS용)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)

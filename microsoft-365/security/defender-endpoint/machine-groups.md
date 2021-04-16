@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP에서 장치 그룹 만들기 및 관리
+title: 끝점용 Microsoft Defender에서 장치 그룹 만들기 및 관리
 description: 그룹에 적용되는 규칙을 준수하여 장치 그룹을 만들고 자동화된 수정 수준을 설정
 keywords: 장치 그룹, 그룹, 수정, 수준, 규칙, aad 그룹, 역할, 할당, 순위
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: dfc7c04bbde2b7061c92f5a25115b75a2f5b47b5
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: acd24e5c87a74bbb32835ec170a121c5c0b6bb33
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074340"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860306"
 ---
 # <a name="create-and-manage-device-groups"></a>장치 그룹 만들기 및 관리
 
@@ -94,5 +94,5 @@ RBAC(역할 기반 액세스)의 컨텍스트에서 장치 그룹을 만들어 �
 ## <a name="related-topics"></a>관련 항목
 
 - [역할 기반 액세스 제어를 사용하여 포털 액세스 관리](rbac.md)
-- [디바이스 태그 만들기 및 관리](machine-tags.md)
+- [장치 태그 만들기 및 관리](machine-tags.md)
 - [Graph API를 사용하여 테넌트 장치 그룹 목록 표시](https://docs.microsoft.com/graph/api/device-list-memberof)

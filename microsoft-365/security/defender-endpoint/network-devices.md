@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 43ade52e18ffc8e5db890cb0776090e9b32419e2
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: da15519211599bfc248c20c36cfab456c1661caa
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687676"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862070"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>네트워크 장치 검색 및 취약성 관리
 
@@ -31,7 +31,7 @@ ms.locfileid: "51687676"
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -41,6 +41,9 @@ ms.locfileid: "51687676"
 > 자세한 내용은 끝점 미리 보기 [기능용 Microsoft Defender를 참조하세요.](preview.md)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+
+> [!NOTE]  
+> 네트워크 [장치](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/network-device-discovery-and-vulnerability-assessments/ba-p/2267548) 검색 및 취약점 평가 블로그 \( 04-13-2021에 게시된 블로그는 \) 끝점용 Defender의  새로운 네트워크 장치 검색 기능에 대한 정보를 제공합니다. 이 문서에서는 네트워크 장치  검색이 해결하도록 디자인된 과제에 대해 간략하게 설명하고 이러한 새로운 기능을 사용하여 시작하는 방법에 대한 자세한 정보를 제공합니다.
 
 네트워크 검색 기능은 Microsoft  365 보안 센터 및 Microsoft Defender 보안 센터 콘솔의 장치 인벤토리 섹션에서 사용할 수 있습니다.  
 
@@ -97,7 +100,8 @@ ms.locfileid: "51687676"
     - login.microsoftonline.com
     - *.blob.core.windows.net/networkscannerstable/ *
 
-    참고: 모든 URL이 허용된 데이터 수집의 끝점용 Defender 문서화 목록에 지정되지는 않습니다.
+    > [!NOTE]
+    > 모든 URL이 허용된 데이터 수집의 끝점용 Defender 문서화 목록에 지정되지는 않습니다.
 
 ## <a name="permissions"></a>사용 권한
 
@@ -105,12 +109,13 @@ ms.locfileid: "51687676"
 
 ## <a name="install-the-network-scanner"></a>네트워크 스캐너 설치
 
-1. Microsoft **365 보안** 설정  >    >  **끝점**  >  **평가 작업('네트워크** 평가' 아래)으로 이동합니다.
+1. Microsoft **365 보안** 설정  >    >  **끝점**  >  **평가 작업(네트워크** 평가 **아래)으로 이동합니다.**
     1. Microsoft Defender 보안 센터에서 설정 > 작업 페이지로 이동합니다.
 
 2. 네트워크 스캐너를 다운로드하여 지정된 Endpoint 평가 장치에 설치합니다.
 
-![스캐너 단추 다운로드](images/assessment-jobs-download-scanner.png)
+    > [!div class="mx-imgBorder"]
+    > ![스캐너 단추 다운로드](images/assessment-jobs-download-scanner.png)
 
 ## <a name="network-scanner-installation--registration"></a>네트워크 스캐너 설치 & 등록
 
@@ -119,7 +124,9 @@ ms.locfileid: "51687676"
 네트워크 스캐너 등록 프로세스를 완료합니다.
 
 1. 명령줄에 나타나는 URL을 복사하고 따르고 제공된 설치 코드를 사용하여 등록 프로세스를 완료합니다.
-    - 참고: URL을 복사할 수 있게 명령 프롬프트 설정을 변경해야 할 수 있습니다.
+
+    > [!NOTE]
+    > URL을 복사할 수 있게 명령 프롬프트 설정을 변경해야 할 수 있습니다.
 
 2. 코드를 입력하고 "보안 센터에서 보안 설정 관리"라는 끝점용 Defender 권한이 있는 Microsoft 계정을 사용하여 로그인합니다.
 
@@ -131,13 +138,17 @@ ms.locfileid: "51687676"
 
 네트워크 장치 인벤토리에서 장치 중복을 방지하려면 각 IP 주소가 여러 평가 장치에서 한 번만 구성되어 있는지 확인합니다.
 
-![네트워크 평가 작업 단추 추가](images/assessment-jobs-add.png)
+> [!div class="mx-imgBorder"]
+> ![네트워크 평가 작업 단추 추가](images/assessment-jobs-add.png)
 
 네트워크 평가 작업 단계 추가:
 
-1. 네트워크 스캐너가 설치된 '평가 작업' 이름 및 '평가 장치'를 선택하십시오. 이 장치는 주기적인 인증된 스캔을 수행하게 됩니다. 
+1. 네트워크 스캐너가 설치된 '평가 작업' 이름 및 '평가 장치'를 선택하십시오. 이 장치는 주기적인 인증된 스캔을 수행하게 됩니다.
+
 2. 검사할 대상 네트워크 장치의 IP 주소(또는 이러한 장치가 배포된 서브넷)를 추가합니다. 
+
 3. 대상 네트워크 장치의 필수 SNMP 자격 증명을 추가합니다. 
+
 4. 새로 구성된 네트워크 평가 작업을 저장하여 주기적인 네트워크 검색을 시작할 수 있습니다. 
 
 ### <a name="scan-and-add-network-devices"></a>네트워크 장치 검색 및 추가
@@ -157,13 +168,14 @@ ms.locfileid: "51687676"
 
 새로 검색된 장치는 장치 인벤토리 페이지의 새 **네트워크** 장치 **탭에** 표시됩니다. 장치가 업데이트될 때까지 평가 작업을 추가한 후 최대 2시간이 걸릴 수 있습니다.
 
-![장치 인벤토리의 네트워크 장치 섹션](images/assessment-jobs-device-inventory.png)
+> [!div class="mx-imgBorder"]
+> ![장치 인벤토리의 네트워크 장치 섹션](images/assessment-jobs-device-inventory.png)
 
 ## <a name="troubleshooting"></a>문제 해결
 
 ### <a name="network-scanner-installation-has-failed"></a>네트워크 스캐너 설치 실패
 
-필요한 URL이 방화벽 설정의 허용 도메인에 추가되는지 확인합니다. 또한 장치 프록시 및 인터넷 연결 설정 구성에 설명된 바와 같이 프록시 [설정이 구성되어 있는지 확인합니다.](configure-proxy-internet.md)
+필요한 URL이 방화벽 설정의 허용 도메인에 추가되는지 확인합니다. 또한 프록시 설정이 장치 프록시 및 인터넷 연결 설정 구성에 설명된 [바와 같이 구성되어 있는지 확인합니다.](configure-proxy-internet.md)
 
 ### <a name="the-microsoftcomdevicelogin-web-page-did-not-show-up"></a>Microsoft.com/devicelogin 웹 페이지가 표시되지 않습니다.
 

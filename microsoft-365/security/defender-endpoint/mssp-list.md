@@ -1,6 +1,6 @@
 ---
-title: 지원되는 관리되는 보안 서비스 공급자
-description: Microsoft Defender ATP와 통합되는 MSSP 목록을 참조하세요.
+title: 관리되는 보안 서비스 공급자 지원
+description: 끝점용 Microsoft Defender와 통합되는 MSSP 목록을 참조하세요.
 keywords: 관리되는 보안 서비스 공급자, mssp, 구성, 통합
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 16b238a1d38e1aad70a4286d4ce8ecae1aae9a21
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 71db42f4bd651f4e9d4236e1f4d794aeb99dfa9f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186608"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862154"
 ---
-# <a name="supported-managed-security-service-providers"></a>지원되는 관리되는 보안 서비스 공급자
+# <a name="supported-managed-security-service-providers"></a>관리되는 보안 서비스 공급자 지원
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)

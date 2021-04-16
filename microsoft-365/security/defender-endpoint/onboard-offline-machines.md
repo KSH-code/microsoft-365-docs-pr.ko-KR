@@ -1,7 +1,7 @@
 ---
 title: 끝점용 Microsoft Defender에 인터넷 액세스 없이 장치 온보딩
 ms.reviewer: ''
-description: Microsoft Defender ATP 센서로 센서 데이터를 보낼 수 있도록 인터넷에 연결하지 않고 장치 온보딩
+description: 끝점용 Microsoft Defender 센서로 센서 데이터를 보낼 수 있도록 인터넷에 연결하지 않고 장치 온보딩
 keywords: 온보드, 서버, vm, 온-프레미스, oms 게이트웨이, 로그 분석, Azure 로그 분석, mma
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b31705a4e6dc8cdd480c8b43c2154a2d6ddacddd
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: fb5a9a4d35af2d400cdff1e417727e662738514e
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186944"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861350"
 ---
 # <a name="onboard-devices-without-internet-access-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 인터넷 액세스 없이 장치 온보딩
 
@@ -48,7 +48,7 @@ ms.locfileid: "51186944"
 > - 오프라인으로 CTL을 업데이트하는 데 대한 자세한 내용은 CTL 파일을 다운로드하도록 파일 또는 웹 서버 [구성을 참조하세요.](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn265983(v=ws.11)#configure-a-file-or-web-server-to-download-the-ctl-files)
 
 온보더링 방법에 대한 자세한 내용은 다음 문서를 참조하세요.
-- [이전 버전의 Windows 온보드](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-downlevel)
+- [이전 버전의 Windows 온보딩](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-downlevel)
 - [끝점용 Microsoft Defender 서비스에 서버 온보딩](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-2008-r2-sp1--windows-server-2012-r2-and-windows-server-2016)
 - [장치 프록시 및 인터넷 연결 설정 구성](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet#configure-the-proxy-server-manually-using-a-registry-based-static-proxy)
 

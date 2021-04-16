@@ -1,6 +1,6 @@
 ---
 title: MSSP(관리되는 보안 서비스 공급자) 파트너 관계 기회
-description: Microsoft Defender ATP가 MSSP(관리되는 보안 서비스 공급자)와 통합되는 방식 이해
+description: 끝점용 Microsoft Defender가 MSSP(관리되는 보안 서비스 공급자)와 통합되는 방식 이해
 keywords: mssp, 통합, 관리, 보안, 서비스, 공급자
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a3f357553e259075b3a47d6866faee06c98036a8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 790abaad5506a77b70cb8d772e83289d8dbd791f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186584"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860788"
 ---
 # <a name="managed-security-service-provider-partnership-opportunities"></a>관리되는 보안 서비스 공급자 파트너 관계 기회
 
@@ -49,7 +49,7 @@ Endpoint용 Defender는 이 시나리오에 대한 파트너 관계 기회를 �
 
 
 ## <a name="related-topic"></a>관련 항목
-- [관리되는 보안 서비스 공급자 통합 구성](configure-mssp-support.md)
+- [관리형 보안 서비스 공급자 통합 구성](configure-mssp-support.md)
 
 
 

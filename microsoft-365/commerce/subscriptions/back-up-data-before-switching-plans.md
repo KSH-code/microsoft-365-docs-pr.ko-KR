@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
 description: Microsoft 365 계획을 변경하기 전에 Outlook, oneDrive, Yammer 및 SharePoint 콘텐츠를 백업합니다.
-ms.openlocfilehash: d29d4e739a9328a63a491696ba26bee5b1947f0a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ecfd17d779cbb39ff786b192f72621bc94677776
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924063"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860526"
 ---
 # <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>비즈니스용 Microsoft 365 요금제 전환 전에 데이터 백업
 
@@ -66,6 +66,6 @@ https://<orgDomain>/_layouts/15/start.aspx#/SitePages/Home.aspx
 
 여기서  _\<orgDomain\>_ 은 조직의 URL입니다.
   
-예를 들어 조직의 도메인이 contoso.onmicrosoft.com 팀 사이트의 직접 URL은 https://contoso.onmicrosoft.com/_layouts/15/start.aspx#/SitePages/Home.aspx 입니다.
+예를 들어 조직의 도메인이 contoso.onmicrosoft.com 팀 사이트의 직접 URL은 `https://contoso.onmicrosoft.com/_layouts/15/start.aspx#/SitePages/Home.aspx` 입니다.
   
 물론 사용자는 SharePoint 팀 사이트에서 로컬 컴퓨터 또는 다른 위치로 SharePoint Online 문서를 다운로드할 수도 있습니다.

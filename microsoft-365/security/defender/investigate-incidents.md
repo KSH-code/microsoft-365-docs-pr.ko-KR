@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5fe594dca935b7377a385b487f1464c3f0a91151
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 99acc25c3949b758dab990a9c2e9104b9158accd
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760329"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861878"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 인시던트 조사
 
@@ -38,7 +38,7 @@ ms.locfileid: "51760329"
 
 - Microsoft 365 Defender
 
-Microsoft 365 Defender는 장치, 사용자 및 사서함에 대한 모든 관련 경고, 자산, 조사 및 증거를 인시던트에 집계하여 공격의 전체 너비를 포괄적으로 살펴 봐야 합니다.
+Microsoft 365 Defender는 장치, 사용자 및 사서함에 있는 모든 관련 경고, 자산, 조사 및 증거를 인시던트에 집계하여 공격의 전체 너비를 포괄적으로 살펴 봐야 합니다.
 
 인시던트 내에서 네트워크에 영향을 주는 경고를 조사하고, 경고의 의미를 이해하고, 효과적인 수정 계획을 수립할 수 있도록 증거를 수집합니다.
 
@@ -50,7 +50,7 @@ Microsoft 365 Defender는 장치, 사용자 및 사서함에 대한 모든 관�
 
 :::image type="content" source="../../media/investigate-incidents/incidents-ss-incident-select.png" alt-text="확인 표시 열에서 인시던트 선택 예제":::
 
-이렇게 하는 경우 인시던트에 대한 주요 정보(예: 심각도, 할당된 사용자 및 인시던트에 대한 [MITRE &trade; ATT](https://attack.mitre.org/)&CK 범주)가 있는 요약 창이 열립니다. 다음은 예입니다.
+이렇게 하는 경우 인시던트에 대한 주요 정보(예: 심각도, 할당된 사용자) 및 [MITRE ATT가 &trade; ](https://attack.mitre.org/) 인시던트에 대한 CK 범주를&창이 열립니다. 다음은 예입니다.
 
 :::image type="content" source="../../media/investigate-incidents/incidents-ss-incident-side-panel.png" alt-text="인시던트에 대한 요약 창의 예":::
 
@@ -70,7 +70,7 @@ Microsoft 365 Defender는 장치, 사용자 및 사서함에 대한 모든 관�
 
 경고 타임라인은 경고가 발생한 시간 순서와 이러한 경고가 이 인시던트와 연결되는 이유에 대해 살피는 기능을 제공합니다.
 
-그리고 마지막인 증거 섹션에는 인시던트에 얼마나 많은 아티팩트가 포함되었는지와 치료 상태에 대한 요약 정보가 제공되므로 사용자 측에서 어떤 조치가 필요한지 즉시 확인할 수 있습니다.
+마지막 - 증거 섹션에서는 인시던트에 포함된 다양한 아티팩트 수와 수정 상태에 대한 요약을 제공 하여 사용자가 조치가 필요한지 즉시 확인할 수 있습니다.
 
 이 개요는 파악해야 하는 인시던트의 주요 특징에 대한 정보를 제공하여 인시던트의 초기 조사를 지원할 수 있습니다.
 

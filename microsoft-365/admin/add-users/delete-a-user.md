@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: 사용자 계정을 삭제하는 방법을 배워야 합니다. 사용자의 전자 메일 및 OneDrive 콘텐츠로 할 작업을 결정하십시오. 또한 제품 라이선스를 유지할지 아니면 비용 지불을 중지할지 여부를 결정하십시오.
-ms.openlocfilehash: 0069577b83c318fa57eaceddccc93b5832e634e0
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: d40f70534499b08073278ffc2bed2b098ae1c4da
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759921"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860740"
 ---
 # <a name="delete-a-user-from-your-organization"></a>조직에서 사용자 삭제
   
@@ -54,7 +54,7 @@ ms.locfileid: "51759921"
 |전자 메일  <br/> | 삭제된 사용자의 전자 메일에 다른 사용자에게 액세스 권한을 부여하면 삭제된 사용자의 사서함이 공유 사서함으로 변환됩니다. 그러면 새 사서함 소유자가 사서함에 액세스하여 새 전자 메일을 모니터링할 수 있습니다. 다음 옵션도 있습니다.  <br/>  <br/>표시 이름 변경 - 활성 사용자 목록에서 공유 사서함을 쉽게 식별할 수 있도록 표시 이름을 변경하는 **것이** 좋습니다.  <br/>  자동 회신 설정 - 이미 정중한 자동 회신을 작성했습니다. 조직 내 사용자와 조직 외부의 사용자에 대해 다른 자동 응답을 보낼 수 있습니다.  <br/> <br/> 별칭 정리 - 별칭은 사용자를 위한 추가 전자 메일 주소입니다. 일부 조직에서는 사용하지 않습니다. 따라서 사용하지 않는 조직이 없는 경우 여기에서 다른 작업을 할 필요가 없습니다. 사용자에게 별칭이 있는 경우 해당 전자 메일 주소를 다시 사용할 수 있도록 별칭을 제거하는 것이 좋습니다. 그렇지 않으면 삭제된 사서함의 보존 기간이 지나야 해당 전자 메일 주소를 다시 사용할 수 있습니다. 기본적으로 삭제된 사서함은 30일 동안 복구할 수 있습니다. 자세한 내용은 Exchange Online에서 사용자 사서함 삭제 또는 [복원을 참조하세요.](/exchange/recipients-in-exchange-online/delete-or-restore-mailboxes#delete-a-user-mailbox) <br/> |
 |Active Directory  <br/> |비즈니스에서 Azure AD와 동기화되는 **Active Directory를** 사용하는 경우 Active Directory에서 사용자 계정을 삭제해야 합니다. Office 365를 통해서는 이렇게 할 수 없습니다. 자세한 내용은 사용자 계정 [삭제를 참조하세요.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))  <br/> |
 
-### <a name="get-started"></a>시작하기
+### <a name="get-started"></a>시작
 
 안내된 환경은 사용자를 삭제하는 단계를 안내하기 때문에 시작하는 방법에는 다음이 있습니다.
 
@@ -155,7 +155,7 @@ ms.locfileid: "51759921"
 
 ## <a name="delete-many-users-at-the-same-time"></a>동시에 여러 사용자 삭제
 
-[Remove-MsolUser](https://go.microsoft.com/fwlink/p/?linkid=842230) PowerShell cmdlet을 참조합니다.
+[Remove-MsolUser](https://docs.microsoft.com/powershell/module/msonline/remove-msoluser) PowerShell cmdlet을 참조합니다.
 
 ## <a name="fix-issues-with-deleting-a-user"></a>사용자 삭제와 관련된 문제 해결
 

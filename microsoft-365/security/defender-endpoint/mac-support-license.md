@@ -1,6 +1,6 @@
 ---
-title: Mac용 Microsoft Defender ATP의 라이선스 문제 해결
-description: Mac용 Microsoft Defender ATP에서 라이선스 문제를 해결합니다.
+title: Mac용 끝점용 Microsoft Defender의 라이선스 문제 해결
+description: Mac용 끝점용 Microsoft Defender의 라이선스 문제를 해결합니다.
 keywords: microsoft, defender, atp, mac, 성능
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 69dd85394837bb7f37e7d277110c8a5dbf7b6506
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 3fb351d9ce8e9beef812e6aaa7d463161a6af8df
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689116"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862190"
 ---
 # <a name="troubleshoot-license-issues-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender의 라이선스 문제 해결
 
@@ -32,8 +32,8 @@ ms.locfileid: "51689116"
 
 **적용 대상:**
 
-- [MacOS의 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md)
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [Microsoft Defender for Endpoint(macOS용)](microsoft-defender-endpoint-mac.md)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)

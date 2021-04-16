@@ -1,6 +1,6 @@
 ---
-title: Jamf Pro에서 macOS용 Microsoft Defender ATP 정책 설정
-description: Jamf Pro에서 macOS용 Microsoft Defender ATP를 설정하는 방법을 배우기
+title: Jamf Pro에서 macOS용 끝점용 Microsoft Defender 정책 설정
+description: Jamf Pro에서 macOS용 Microsoft Defender 끝점을 설정하는 방법에 대해 자세히 알아보기
 keywords: 정책, Microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 79f5837ae6bae6e6a9d952d90605f4cf7b31262e
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 1a00d1c0863db7f4f5f853312f202b5e985b1512
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765134"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862274"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Jamf Pro에서 macOS 정책에 대한 끝점용 Microsoft Defender 설정
 
@@ -360,7 +360,7 @@ ms.locfileid: "51765134"
         - **배포 방법:** 자동으로 *설치(기본값)*
         - **수준:** 컴퓨터 *수준(기본값)*
 
-        ![구성 프로필 설정의 이미지 mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
+        ![새 macOS 구성 프로필 화면의 이미지](images/c9820a5ff84aaf21635c04a23a97ca93.png)
 
     - 탭 **알림,** **추가를 클릭하고** 다음 값을 입력합니다.
         - **번들 ID**: `com.microsoft.wdav.tray`

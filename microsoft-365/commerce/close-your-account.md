@@ -17,12 +17,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Microsoft에서 계정을 닫는 방법을 알아보하세요.
-ms.openlocfilehash: 0ee0a649a9adb93ecdbb1cd9dbedbc04dfb46ba0
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 44428654946d31ad249bfd3e7a3609da3e3634a6
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579749"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860550"
 ---
 # <a name="close-your-account"></a>계정 사용 중지 
 
@@ -42,7 +42,7 @@ Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩�
 
 사용자를 삭제하려면 사용자 관리 관리자: 하나 이상의 사용자 <a href="/office365/admin/add-users/delete-a-user?view=o365-worldwide#user-management-admin-delete-one-or-more-users-from-office-365">삭제를 참조하세요.</a>
 
-<a href="https://go.microsoft.com/fwlink/?linkid=842230">Remove-MsolUser</a> PowerShell cmdlet을 사용하여 사용자를 대량으로 삭제할 수도 있습니다.
+<a href="https://docs.microsoft.com/powershell/module/msonline/remove-msoluser">Remove-MsolUser</a> PowerShell cmdlet을 사용하여 사용자를 대량으로 삭제할 수도 있습니다.
 
 조직에서 Microsoft Azure AD(Azure Active Directory)와 동기화하는 Active Directory를 사용하는 경우 대신 Active Directory에서 사용자 계정을 삭제합니다. 자세한 내용은 Azure Active Directory에서 사용자 대량 <a href="/azure/active-directory/users-groups-roles/users-bulk-delete">삭제를 참조하세요.</a>
 

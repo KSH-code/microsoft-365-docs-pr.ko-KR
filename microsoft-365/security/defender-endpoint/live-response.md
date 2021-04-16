@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP에서 라이브 응답을 사용하여 장치의 엔터티 조사
+title: 끝점용 Microsoft Defender에서 라이브 응답을 사용하여 장치의 엔터티 조사
 description: 보안 원격 셸 연결을 사용하여 장치에 액세스하여 조사 작업을 수행하고 실시간으로 디바이스에서 즉각적인 응답 작업을 수행할 수 있습니다.
 keywords: 원격, 셸, 연결, 라이브, 응답, 실시간, 명령, 스크립트, 재구성, 헌트, 내보내기, 로그, 놓기, 다운로드, 파일,
 search.product: eADQiWindows 10XVcnh
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 235df8c84077311444c597b120a19477cfd0986a
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 4898081103faa27c19d3a09ffba1b59670833dd8
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760419"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860800"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>라이브 응답을 사용하여 디바이스에서 엔터티 조사
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 

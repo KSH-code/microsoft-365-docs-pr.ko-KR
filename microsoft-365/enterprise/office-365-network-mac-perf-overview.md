@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Microsoft 365 관리 센터의 네트워크 연결 개요(미리 보기)
-ms.openlocfilehash: cc01f2a22f6f8c89d0ae8fcd8b53498790930d3e
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 99c05c18f3825680824854f86e469ab4aa8bbcba
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768629"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860866"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Microsoft 365 관리 센터의 네트워크 연결(미리 보기)
 
@@ -63,7 +63,7 @@ Windows 위치 서비스는 컴퓨터의 동의를 얻어야 합니다. 지도 �
 
 이 옵션의 경우 Windows 위치 서비스 및 Wi-Fi 필요하지 않습니다. Windows용 OneDrive 버전은 최신 버전으로 위치의 하나 이상의 컴퓨터에 설치되어 있어야 합니다.
 
-또한 위치 페이지에서 위치를 추가하거나  CSV 파일에서 위치를 가져와야 합니다. 추가된 위치에는 office LAN 서브넷 정보가 포함되어야 합니다.
+또한 위치 페이지에서 위치를 **추가하거나** CSV 파일에서 위치를 가져와야 합니다. 추가된 위치에는 office LAN 서브넷 정보가 포함되어야 합니다.
 
 이 옵션을 사용하면 도시 내에 여러 사무실을 정의할 수 있습니다.
 
@@ -97,7 +97,7 @@ Windows 위치 서비스는 컴퓨터의 동의를 얻어야 합니다. 지도 �
 
 ## <a name="how-we-can-solve-these-challenges"></a>이러한 문제를 해결하는 방법
 
-엔터프라이즈는 Office 365 연결 원칙에 따라 [Microsoft 365](./microsoft-365-network-connectivity-principles.md) 관리 센터 네트워크 연결 기능을 사용하여 일반 사용자 환경을 개선하고 환경을 보호할 수 있습니다. 대부분의 경우 이러한 일반적인 원칙에 따라 최종 사용자 대기 시간, 서비스 안정성 및 Microsoft 365의 전반적인 성능에 큰 영향을 줍니다.
+엔터프라이즈는 Office 365 연결 원칙에 따라 [Microsoft 365](./microsoft-365-network-connectivity-principles.md) 관리 센터 네트워크 연결 기능을 사용하여 일반 사용자 환경을 개선하고 환경을 보호할 수 있습니다. 대부분의 경우 이러한 일반적인 원칙에 따라 최종 사용자 대기 시간, 서비스 안정성 및 Microsoft 365의 전반적인 성능에 큰 영향을 미치게 됩니다.
 
 Microsoft는 경우에 따라 대기업 고객을 위한 Microsoft 365의 네트워크 성능 문제를 조사해야 하며, 이러한 문제로 인해 고객의 네트워크 경계 인프라와 관련된 근본 원인이 자주 있습니다. 고객 네트워크 경계 문제의 일반적인 근본 원인이 발견되는 경우 이를 식별하는 간단한 테스트 측정을 식별하기 위해 노력합니다. 특정 문제를 식별하는 측정 임계값이 있는 테스트는 모든 위치에서 동일한 측정을 테스트하고 이 근본 원인이 있는지 여부를 알려 관리자와 네트워크 인사이트로 공유할 수 있기 때문에 매우 소중합니다.
 
@@ -121,6 +121,14 @@ Microsoft는 Microsoft 365 작업을 지원하는 여러 Office 데스크톱 및
 
 > [!div class="mx-imgBorder"]
 > ![네트워크 인사이트 위치](../media/m365-mac-perf/m365-mac-perf-locations.png)
+
+## <a name="remote-worker-assessment-and-user-connection-metrics"></a>원격 작업자 평가 및 사용자 연결 메트릭
+
+네트워크 트래픽 로그를 원격 또는 출장 사용자로 분류하고 개요 창의 사용자 연결 메트릭 섹션에 해당 백분율을 표시합니다. 원격 사용자가 있는 도시의 경우 해당 위치의 페이지를 열면 위치별 원격 네트워크 평가 점수를 찾을 수 있습니다. 위치 목록에는 사무실 위치와 원격 작업자 도시가 모두 있으며 필터링 및 정렬할 수 있습니다. Exchange, SharePoint 및 Teams에 대한 포인트 분석과 함께 원격 작업자 평가 점수를 제공합니다.
+
+홈 사용자 네트워킹 인사이트는 도시 수준에서 집계 및 보고하며 최소 5명의 원격 직원이 있는 도시로 제한됩니다. 당사는 집에서 일하는 개별 직원을 식별하지 않습니다.
+
+위치는 자동으로 지점 또는 원격으로 분류됩니다. 그러나 100% 분류를 보장하기 위해 모든 Onsite egress IP 주소를 수동으로 입력할 수 있습니다. 이 경로를 이동하기로 결정한 경우 모든 나가는 IP 주소를 추가한 후 위치 설정 플라이아웃에서 수동으로 모든 출장 **IP** 주소 입력 확인란을 선택해야 합니다. 이 경우, 사용자가 Onsite로 표시한 IP 주소의 모든 네트워크 트래픽 로그가 항상 사무실로 분류되어 다른 모든 IP 주소는 원격으로 분류됩니다.
 
 ## <a name="specific-office-location-network-performance-summary-and-insights"></a>특정 사무실 위치 네트워크 성능 요약 및 인사이트
 

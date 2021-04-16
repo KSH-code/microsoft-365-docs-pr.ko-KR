@@ -1,7 +1,7 @@
 ---
 title: 공격 표면 감소 개요
 ms.reviewer: ''
-description: Microsoft Defender ATP의 공격 표면 축소 기능에 대해 자세히 알아보십시오.
+description: 끝점용 Microsoft Defender의 공격 표면 축소 기능에 대해 자세히 알아보십시오.
 keywords: asr, 공격 표면 감소, Microsoft Defender atp, 끝점용 Microsoft Defender, Microsoft Defender, 바이러스 백신, av, windows defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.custom: asr
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e4e10ba82ec344449b003c0a9cc9d27d99047005
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: dbc794338442f9ed54a7227e702de1039b5ea71c
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186248"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861758"
 ---
 # <a name="overview-of-attack-surface-reduction"></a>공격 표면 감소 개요
 
@@ -45,9 +45,9 @@ ms.locfileid: "51186248"
 문서 | 설명
 -|-
 [공격 표면 감소](./attack-surface-reduction.md) | 맬웨어를 중지하는 데 도움이 되는 지능형 규칙을 사용하여 응용 프로그램에서 취약성(공격 표면)을 줄입니다. (Microsoft Defender 바이러스 백신이 필요합니다.)
-[하드웨어 기반의 고리](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview.md) | 시스템의 시작 및 실행 중일 때 시스템의 무결성을 보호하고 유지 관리합니다. 로컬 및 원격 인증을 통해 시스템 무결성의 유효성을 검사합니다. 또한 Microsoft Edge에 대한 컨테이너를 사용하여 악성 웹 사이트를 보호할 수 있습니다.
+[하드웨어 기반 격리](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview.md) | 시스템의 시작 및 실행 중일 때 시스템의 무결성을 보호하고 유지 관리합니다. 로컬 및 원격 인증을 통해 시스템 무결성의 유효성을 검사합니다. 또한 Microsoft Edge에 대한 컨테이너를 사용하여 악성 웹 사이트를 보호할 수 있습니다.
 [응용 프로그램 제어](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control.md) | 응용 프로그램을 실행하려면 응용 프로그램이 신뢰를 획득해야 하게 응용 프로그램 제어를 사용할 수 있습니다.
-[Exploit Protection](./exploit-protection.md) | 조직에서 사용하는 운영 체제 및 앱이 악용되지 못하게 보호합니다. Exploit Protection은 타사 바이러스 백신 솔루션에서도 작동합니다.
+[악용 방지](./exploit-protection.md) | 조직에서 사용하는 운영 체제 및 앱이 악용되지 못하게 보호합니다. Exploit Protection은 타사 바이러스 백신 솔루션에서도 작동합니다.
 [네트워크 보호](./network-protection.md) | 조직의 장치에서 네트워크 트래픽 및 연결로 보호를 확장합니다. (Microsoft Defender 바이러스 백신 필요)
 [웹 보호](./web-protection-overview.md) | 웹 위협에 대해 장치를 보호하고 원치 않는 콘텐츠를 규제하는 데 도움이 됩니다.
 [제어된 폴더 액세스](./controlled-folders.md) | 악의적 또는 의심스러운 앱(파일 암호화 랜섬웨어 맬웨어 포함)이 주요 시스템 폴더의 파일을 변경하지 못하게 방지하는 데 도움이 됩니다(Microsoft Defender 바이러스 백신 필요).

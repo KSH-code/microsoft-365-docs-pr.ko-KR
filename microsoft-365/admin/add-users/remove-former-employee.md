@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: '다음 검사 목록에 따라 Microsoft 365에서 직원을 제거하고 데이터를 보호합니다. '
-ms.openlocfilehash: d67ac65f4f3e6600b942b4f7d56826da35735b5c
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 50355a20e0d0e8ff782deebd9be65fdabf875bb2
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470872"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860776"
 ---
 # <a name="remove-or-delete-a-former-employee"></a>이전 직원 제거 또는 삭제
 
@@ -344,7 +344,7 @@ Office 365에서 사용자 라이선스를 제거하면 사용자와 연결된 P
   
 Active Directory에서 사용자 계정을 삭제 및 복원하는 방법에 대한 자세한 내용은 사용자 계정 [삭제를 참조하세요.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))
   
-Azure Active Directory를 사용하는 경우 [Remove-MsolUser](https://go.microsoft.com/fwlink/?linkid=842230) PowerShell cmdlet을 참조하세요.
+Azure Active Directory를 사용하는 경우 [Remove-MsolUser](https://docs.microsoft.com/powershell/module/msonline/remove-msoluser) PowerShell cmdlet을 참조하세요.
   
 ## <a name="what-you-need-to-know-about-terminating-an-employees-email-session"></a>직원의 전자 메일 세션 종료에 대해 알아야 할 사항
 

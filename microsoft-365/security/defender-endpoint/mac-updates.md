@@ -1,6 +1,6 @@
 ---
-title: Mac용 Microsoft Defender ATP에 대한 업데이트 배포
-description: 엔터프라이즈 환경에서 Mac용 Microsoft Defender ATP에 대한 업데이트를 제어합니다.
+title: Mac용 끝점용 Microsoft Defender 업데이트 배포
+description: 엔터프라이즈 환경에서 Mac용 끝점용 Microsoft Defender에 대한 업데이트를 제어합니다.
 keywords: microsoft, defender, atp, mac, 업데이트, 배포
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3321c1bd181b89c53e2618fc20fa7f733a20cfc1
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9d373594771efe4eb647c007db3a26efe83e330e
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689056"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860318"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender 업데이트 배포
 
@@ -32,8 +32,8 @@ ms.locfileid: "51689056"
 
 **적용 대상:**
 
-- [MacOS의 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md)
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [Microsoft Defender for Endpoint(macOS용)](microsoft-defender-endpoint-mac.md)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -78,7 +78,7 @@ MAU에서 macOS의 끝점용 Microsoft Defender에 대한 응용 프로그램 �
 
 |섹션|값|
 |:--|:--|
-| **도메인** | com.microsoft.autoupdate2 |
+| **도메인** | `com.microsoft.autoupdate2` |
 | **키** | ChannelName |
 | **Data type** | String |
 | **사용 가능한 값:** | Beta <br/> Preview <br/> Current |
@@ -96,7 +96,7 @@ MAU가 업데이트를 검색하는 자주 변경합니다.
 
 |섹션|값|
 |:--|:--|
-| **도메인** | com.microsoft.autoupdate2 |
+| **도메인** | `com.microsoft.autoupdate2` |
 | **키** | UpdateCheckFrequency |
 | **Data type** | 정수 |
 | **기본값**. | 720(분) |
@@ -109,7 +109,7 @@ MAU에서 업데이트를 검색하는 방법을 변경합니다.
 
 |섹션|값|
 |:--|:--|
-| **도메인** | com.microsoft.autoupdate2 |
+| **도메인** | `com.microsoft.autoupdate2` |
 | **키** | HowToCheck |
 | **Data type** | String |
 | **사용 가능한 값:** | 수동 <br/> AutomaticCheck <br/> AutomaticDownload |
@@ -122,7 +122,7 @@ MAU에서 업데이트를 검색하는 방법을 변경합니다.
 
 |섹션|값|
 |:--|:--|
-| **도메인** | com.microsoft.autoupdate2 |
+| **도메인** | `com.microsoft.autoupdate2` |
 | **키** | EnableCheckForUpdatesButton |
 | **Data type** | 부울 |
 | **사용 가능한 값:** | True(기본값) <br/> False |
@@ -134,7 +134,7 @@ true로 설정하여 "Office Insider Program에 참여..."로 설정 사용자�
 
 |섹션|값|
 |:--|:--|
-| **도메인** | com.microsoft.autoupdate2 |
+| **도메인** | `com.microsoft.autoupdate2` |
 | **키** | DisableInsiderCheckbox |
 | **Data type** | 부울 |
 | **사용 가능한 값:** | False(기본값) <br/> True |
@@ -146,7 +146,7 @@ false로 설정하여 최소 하트비트 데이터, 응용 프로그램 사용 
 
 |섹션|값|
 |:--|:--|
-| **도메인** | com.microsoft.autoupdate2 |
+| **도메인** | `com.microsoft.autoupdate2` |
 | **키** | SendAllTelemetryEnabled |
 | **Data type** | 부울 |
 | **사용 가능한 값:** | True(기본값) <br/> False |

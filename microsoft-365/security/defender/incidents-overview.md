@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5b2baa2041a8cffcea212eb449d40b9a9cbfc22a
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: e1e028f7b58df07eccf945b3a79012b4ea12366d
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759512"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861626"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender의 인시던트
 
@@ -51,7 +51,7 @@ Microsoft 365 서비스 및 앱은 의심스러운 또는 악의적인 이벤트
 Microsoft 365 Defender의 인시던트에 대한 간략한 개요(4분)를 시청하세요.
 
 <br>
-<br>
+
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bzwz?]
 
 관련 경고를 인시던트로 그룹화하면 공격을 포괄적으로 볼 수 있습니다. 예를 들어 다음을 볼 수 있습니다.

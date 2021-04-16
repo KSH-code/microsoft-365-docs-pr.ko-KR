@@ -1,6 +1,6 @@
 ---
-title: Mac용 Microsoft Defender ATP - 시스템 확장(미리 보기)
-description: 이 문서에는 Mac용 Microsoft Defender ATP의 시스템 확장 기능을 시도하기 위한 지침이 포함되어 있습니다. 이 기능은 현재 공개 미리 보기로 제공됩니다.
+title: Mac용 끝점용 Microsoft Defender - 시스템 확장(미리 보기)
+description: 이 문서에는 Mac용 끝점용 Microsoft Defender의 시스템 확장 기능을 시도하기 위한 지침이 포함되어 있습니다. 이 기능은 현재 공개 미리 보기로 제공됩니다.
 keywords: microsoft, defender, atp, mac, 커널, 시스템, 확장, 카탈로니아
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,17 +19,17 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 0e89977c10de04d8c3331733cd1432525ac3196d
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 0b593aa0046a28e558523c2f3ebc7da9976f62d3
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689068"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860330"
 ---
 # <a name="microsoft-defender-for-endpoint-on-macos---system-extensions-public-preview"></a>MacOS의 끝점용 Microsoft Defender - 시스템 확장 공개 미리 보기)
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -62,7 +62,7 @@ MacOS의 진화에 맞춰 커널 확장 대신 시스템 확장을 활용하는 
   defaults write com.microsoft.autoupdate2 ChannelName -string Beta
   ```
 
-  또는 관리되는 환경(JAMF 또는 Intune)에 있는 경우 원격으로 업데이트 채널을 구성할 수 있습니다. 자세한 내용은 Mac용 [Microsoft Defender ATP 업데이트 배포: 채널 이름 설정 을 참조하세요.](mac-updates.md#set-the-channel-name)
+  또는 관리되는 환경(JAMF 또는 Intune)에 있는 경우 원격으로 업데이트 채널을 구성할 수 있습니다. 자세한 내용은 Mac용 [끝점용 Microsoft Defender 업데이트 배포: 채널 이름 설정 을 참조하세요.](mac-updates.md#set-the-channel-name)
 
 ## <a name="deployment-steps"></a>배포 단계
 

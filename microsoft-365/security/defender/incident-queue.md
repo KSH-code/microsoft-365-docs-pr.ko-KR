@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 12207d69b0a1565caf762a265c1a0d32158ca291
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 8acd8d85826d7bda399c03cc60f2806af954c6c3
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759847"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861606"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 인시던트 우선 순위 지정
 
@@ -44,9 +44,9 @@ Microsoft 365 Defender는 상관 관계 분석을 적용하고 관련 경고 및
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="인시던트 큐의 예":::
 
-기본적으로 Microsoft 365 보안 센터의 큐에는 지난 6개월 동안의 인시던트가 표시됩니다. 가장 최근 인시던트는 목록 맨 위에 있으므로 먼저 볼 수 있습니다.
+기본적으로 Microsoft 365 보안 센터의 인시던트 큐에는 지난 6개월 동안의 인시던트가 표시됩니다. 가장 최근 인시던트는 목록 맨 위에 있으므로 먼저 볼 수 있습니다.
 
-인시던트 큐에는 인시던트 또는 영향을 주는 엔터티의 다양한 특성을 표시하는 사용자 지정 가능한 열이 있습니다(열 선택 선택). 이를 통해 분석에 대한 인시던트 우선 순위에 대한 정보를 통해 의사 결정을 내리는 데 도움이 됩니다.
+인시던트 큐에는 인시던트 또는 영향을 주는 엔터티의 다양한 특성을 표시하는 사용자 지정 가능한 열이 있습니다(열 선택 선택). 이를 통해 분석을 위한 인시던트 우선 순위에 대한 정보를 통해 의사 결정을 내리는 데 도움이 됩니다.
 
 추가 가시성을 위해 자동 인시던트 명명은 영향을 받는 끝점 수, 영향을 받는 사용자, 검색 원본 또는 범주와 같은 경고 특성에 따라 인시던트 이름을 생성합니다. 이렇게 하면 인시던트의 범위를 빠르게 이해할 수 있습니다.
 
@@ -108,7 +108,7 @@ Microsoft 365 Defender는 상관 관계 분석을 적용하고 관련 경고 및
 
 - 공격의 유형과 그 영향에 대해 이해합니다.
 - 보안 커뮤니티에서 보안 공격 추세를 조사합니다.
-- 인시던트 해결에 사용한 워크플로를 회수하고 필요한 경우 표준 워크플로 및 plalbook을 업데이트합니다.
+- 인시던트 해결에 사용한 워크플로를 회수하고 필요한 경우 표준 워크플로 및 플레이북을 업데이트합니다.
 
 다음은 기본 프로세스에 대한 요약입니다.
 

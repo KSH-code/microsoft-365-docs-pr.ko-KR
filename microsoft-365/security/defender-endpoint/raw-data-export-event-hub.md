@@ -1,6 +1,6 @@
 ---
 title: Azure 이벤트 허브로 끝점용 Microsoft Defender 이벤트 스트림
-description: 고급 헌팅 이벤트를 이벤트 허브로 스트리밍하도록 Microsoft Defender ATP를 구성하는 방법을 학습합니다.
+description: 고급 헌팅 이벤트를 이벤트 허브로 스트리밍하도록 끝점용 Microsoft Defender를 구성하는 방법을 학습합니다.
 keywords: 원시 데이터 내보내기, 스트리밍 API, API, Azure 이벤트 허브, Azure 저장소, 저장소 계정, 고급 헌팅, 원시 데이터 공유
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 231ba79e1d66eee263b6c1a4335f0a7b54eeb75d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: df305c9fcc7fb9249f2387567600adb899f8c49a
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071908"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861050"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-azure-event-hubs"></a>Azure 이벤트 허브에 고급 헌팅 이벤트를 스트리밍하도록 끝점에 대한 Microsoft Defender 구성
 

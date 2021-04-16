@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP 장치 목록 보기 및 구성
+title: 끝점 장치용 Microsoft Defender 목록 보기 및 구성
 description: 조사를 향상하기 위해 목록을 정렬, 필터링 및 내보내기와 같은 장치 목록에서 사용할 수 있는 사용 가능한 기능에 대해 자세히 알아보습니다.
 keywords: 정렬, 필터, 내보내기, csv, 장치 이름, 도메인, 마지막으로 본, 내부 IP, 상태, 활성 경고, 활성 맬웨어 감지, 위협 범주, 경고 검토, 네트워크, 연결, 맬웨어, 유형, 암호 도용자, 랜섬웨어, 악용, 위협, 일반 맬웨어, 원치 않는 소프트웨어
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9068983b5f61305b1f3da4d076e99e71974e8df4
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a031a35929f319e87a9ad1a9ca48d6bf95a3ef72
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185674"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861578"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-devices-list"></a>끝점 장치용 Microsoft Defender 목록 보기 및 구성
 

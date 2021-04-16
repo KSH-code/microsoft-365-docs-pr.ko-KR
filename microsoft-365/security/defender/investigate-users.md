@@ -19,12 +19,12 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 6535493efb844f1413c569a28ebf36ddb05c167d
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: 68fc924ee14932ebdf92ef76306ba00e352b6030
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51760203"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861276"
 ---
 # <a name="investigate-users-in-microsoft-365-security-center"></a>Microsoft 365 보안 센터에서 사용자 조사
 
@@ -34,16 +34,44 @@ ms.locfileid: "51760203"
 
 - Microsoft 365 Defender
 
-조사 과정에서 사용자가 손상된 것일 수 있습니다.
+인시던트 조사의 일부에는 사용자 계정이 포함됩니다. 사용자 탭에서 인시던트  및 인시던트 & 인시던트에 대한 사용자 >*>* **합니다.**  
 
-Microsoft 365 보안 센터 사용자 페이지는 끝점용 Microsoft Defender, ID용 Microsoft Defender 및 Microsoft Cloud App Security의 정보를 결합합니다(사용중인 라이선스에 따라 다름). 이 페이지는 사용자 및 잠재적인 인시던트 조사를 위한 이상적인 시작 장소입니다.
-![사용자 페이지](../../media/m3d-userpage.png)
+:::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="인시던트에 대한 사용자 페이지의 예":::
 
-이 페이지에는 사용자의 보안 위험과 관련한 정보가 표시됩니다. 여기에는 위험을 평가하는 데 도움이 되는 점수, 사용자의 전반적인 위험에 기여한 최근 이벤트 및 경고가 포함됩니다.
+인시던트에 대한 사용자 계정을 빠르게 요약하려면 사용자 계정 이름 옆의 확인 표시를 선택합니다. 다음은 예입니다.
 
-Microsoft 365 보안 센터의 여러 영역에서 이 페이지에 액세스할 수 있습니다. 사용자 탭의 특정 인시던트에서 이 페이지에 액세스할 **수** 있습니다. 일부 경고에는 영향을 받는 특정 자산으로 사용자를 포함할 수 있습니다. 사용자를 검색할 수도 있습니다.  
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="Microsoft 365 보안 센터의 인시던트에 대한 사용자 계정 요약 창의 예":::
 
-이 Cloud App Security 자습서에서 사용자 및 잠재적인 위험을 조사하는 [방법에 대해 자세히 알아보십시오.](/cloud-app-security/tutorial-ueba#:~:text=To%20identify%20who%20your%20riskiest,user%20page%20to%20investigate%20them)
+여기에서 사용자 페이지로  이동을 선택하여 사용자 계정의 세부 정보를 볼 수 있습니다. 다음은 예입니다.
+
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-details.png" alt-text="Microsoft 365 보안 센터의 인시던트에 대한 사용자 계정 페이지의 예":::
+
+사용자 페이지의 목록에서 사용자 계정의 이름을 선택하여 이 페이지를 볼 **수** 있습니다.
+
+Microsoft 365 보안 센터 사용자 페이지는 끝점용 Microsoft Defender, ID용 Microsoft Defender 및 Microsoft Cloud App Security의 정보를 결합합니다(사용중인 라이선스에 따라 다름). 
+
+이 페이지에는 사용자 계정의 보안 위험과 관련한 정보가 표시됩니다. 여기에는 위험 및 최근 이벤트를 평가하는 데 도움이 되는 점수와 사용자의 전반적인 위험에 기여한 경고가 포함됩니다.
+
+이 페이지에서는 다음 추가 작업을 수행할 수 있습니다. 
+
+- 사용자 계정을 손상된 것으로 표시
+- 사용자에게 다시 로그인하도록 요구
+- 사용자 계정 일시 중단
+- Azure AD(Azure Active Directory) 사용자 계정 설정 참조
+- 사용자 계정이 소유한 파일 보기
+- 이 사용자와 공유된 파일을 볼 수 있습니다. 
+
+다음은 예입니다.
+
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-details-actions.png" alt-text="Microsoft 365 보안 센터에서 인시던트에 대한 사용자 계정의 작업 예":::
+
+
+<!--
+You can access this page from multiple areas in the Microsoft 365 security center. You can access this page from a specific incident in the **Users** tab. Some alerts might include users as a specific affected asset. You can also search for users.  
+
+Learn more about how to investigate users and potential risk [in this Cloud App Security tutorial](/cloud-app-security/tutorial-ueba#:~:text=To%20identify%20who%20your%20riskiest,user%20page%20to%20investigate%20them).
+
+--> 
 
 ## <a name="related-topics"></a>관련 항목
 

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 중소기업에서 Microsoft Teams를 사용하는 방법을 배워야 합니다.
-ms.openlocfilehash: 592d5eda985239f79ce42291af840ff7762a903c
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: b77ad43722764895a4f89c623d4af9403aa25e5b
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034286"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860562"
 ---
 # <a name="get-started-with-microsoft-teams-in-your-small-business"></a>중소기업에서 Microsoft Teams 시작
 
@@ -47,7 +47,7 @@ ms.locfileid: "51034286"
 
 ## <a name="1-get-ready"></a>1. 준비 
 
-시작하기가 쉽습니다. Microsoft 365 구독이 이미 있는 경우 모든 사용자가 Microsoft Teams를 포함하는 라이선스를 포함해야 합니다. 회사에 아직 Microsoft Teams가 없는 경우 비즈니스에 적합한 [Microsoft Teams를](https://aka.ms/TeamsBusinessBasic) 찾아 등록할 수 있습니다.
+시작하기가 쉽습니다. Microsoft 365 구독이 이미 있는 경우 모든 사용자가 Microsoft Teams를 포함하는 라이선스를 포함해야 합니다. 회사에 아직 Microsoft Teams가 없는 경우 비즈니스에 적합한 [Microsoft Teams를](https://www.microsoft.com/microsoft-teams/teams-for-work) 찾아 등록할 수 있습니다.
 
 ### <a name="get-microsoft-teams-ready-for-your-customers"></a>고객을 위한 Microsoft Teams 준비
 
@@ -133,4 +133,4 @@ Microsoft Teams의 기능에 대해 더 깊이 있는 설명...
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[원격 작업을 통해 중소기업의](https://docs.microsoft.com/microsoft-365/admin/misc/empower-your-small-business-with-remote-work.md) 역량 강화(문서)
+[원격 작업을 통해 중소기업의](https://docs.microsoft.com/microsoft-365/admin/misc/empower-your-small-business-with-remote-work) 역량 강화(문서)

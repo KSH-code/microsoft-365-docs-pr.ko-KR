@@ -1,7 +1,7 @@
 ---
-title: Linux의 끝점용 Microsoft Defender
+title: Microsoft Defender for Endpoint(Linux용)
 ms.reviewer: ''
-description: Linux용 Microsoft Defender ATP를 설치하고 사용하는 방법에 대해 설명
+description: Linux용 끝점용 Microsoft Defender를 설치하고 사용하는 방법을 설명 합니다.
 keywords: microsoft, defender, atp, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0fea9d4dd46be2a77ea27728787a43b5273f92f5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: f67dd28902e8b45a5401b60c027faa89d7467cd8
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687760"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861398"
 ---
-# <a name="microsoft-defender-for-endpoint-on-linux"></a>Linux의 끝점용 Microsoft Defender
+# <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender for Endpoint(Linux용)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -83,7 +83,7 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
   > Linux용 끝점용 Defender를 다른 기반 보안 솔루션과 함께 실행하는 `fanotify` 것은 지원되지 않습니다. 운영 체제 중단을 포함하여 예측할 수 없는 결과가 발생할 수 있습니다.
 
 - 디스크 공간: 1GB
-- /opt/microsoft/mdatp/sbin/wdavdaemon에는 실행 권한이 필요합니다. 자세한 내용은 [Linux용 Microsoft Defender ATP](/microsoft-365/security/defender-endpoint/linux-support-install)설치 문제 해결에서 "디먼에 실행 권한이 있도록 확인"을 참조하세요.
+- /opt/microsoft/mdatp/sbin/wdavdaemon에는 실행 권한이 필요합니다. 자세한 내용은 [Linux용 끝점용 Microsoft Defender의](/microsoft-365/security/defender-endpoint/linux-support-install)설치 문제 해결에서 "디먼이 실행 가능한 권한을 가지는지 확인"을 참조하세요.
 - 메모리: 1GB
     > [!NOTE]
     > /var에 디스크 공간이 있는지 확인하시기 바랍니다.

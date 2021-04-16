@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Microsoft 365 관리 센터에서 타사 앱을 활성화하고 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 974ce99b55dcb078286d7f6dba35166e51ce62a7
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 457545282801829ca34de0318dd9eb7791866214
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576916"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860538"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>조직의 타사 앱 구독 관리
 
@@ -31,7 +31,7 @@ ms.locfileid: "51576916"
 
 타사 앱을 구입하는 방법에는 몇 가지가 있습니다.
 
-- **직접 구매** – 고객은 Azure [Marketplace](https://azuremarketplace.microsoft.com/marketplace/)또는 [AppSource에서](https://www.appsource.com/)직접 구독을 구매할 수 있습니다.
+- **직접 구매** – 고객은 Azure [Marketplace](https://azuremarketplace.microsoft.com/marketplace/)또는 [AppSource에서](https://appsource.microsoft.com/)직접 구독을 구매할 수 있습니다.
 - **파트너 구매** – 파트너 센터를 통해 파트너와 협력하여 구독을 구매합니다.
 - **Microsoft 제안** – 타사 앱을 포함하는 Microsoft Sales의 제안에 응답합니다.
 

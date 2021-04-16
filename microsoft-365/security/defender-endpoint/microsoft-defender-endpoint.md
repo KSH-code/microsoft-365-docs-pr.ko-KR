@@ -1,7 +1,7 @@
 ---
-title: 엔드포인트용 Microsoft Defender
+title: 끝점용 Microsoft Defender
 description: 끝점용 Microsoft Defender는 고급 영구 위협을 방어하는 데 도움이 되는 엔터프라이즈 끝점 보안 플랫폼입니다.
-keywords: 끝점용 Microsoft Defender 소개, Microsoft Defender Advanced Threat Protection 소개, Microsoft Defender ATP 소개, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 컴퓨터 동작 센서, 클라우드 보안, 분석, 위협 인텔리전스, 공격 표면 감소, 차세대 보호, 자동화된 조사 및 수정, Microsoft 위협 전문가, 보안 점수, 고급 헌팅, Microsoft 위협 방지, 사이버 위협 헌팅
+keywords: 끝점용 Microsoft Defender 소개, Microsoft Defender Advanced Threat Protection 소개, 끝점용 Microsoft Defender 소개, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 컴퓨터 동작 센서, 클라우드 보안, 분석, 위협 인텔리전스, 공격 표면 감소, 차세대 보호, 자동화된 조사 및 수정, Microsoft 위협 전문가, 보안 점수, 고급 헌팅, Microsoft 위협 방지, 사이버 위협 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8c5d02a4d76ae7e031ad9f3af0db282cc4cb45ed
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: adc7d780c1af73d8cb4fe229720ac2ed74f90251
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187318"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861830"
 ---
-# <a name="microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender
+# <a name="microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -94,7 +94,7 @@ Endpoint용 Defender는 Windows 10에 기본 제공되는 다음과 같은 기�
 
 <a name="edr"></a>
 
-**[끝점 감지 및 대응](overview-endpoint-detection-response.md)**<br>
+**[엔드포인트 검색 및 대응](overview-endpoint-detection-response.md)**<br>
 끝점 감지 및 대응 기능은 처음 두 보안 기조를 지난 고급 위협을 감지, 조사 및 대응하기 위해 사용됩니다. [고급 헌팅은](advanced-hunting-overview.md) 위반을 사전 예방적으로 찾고 사용자 지정 검색을 만들 수 있는 쿼리 기반 위협 헌팅 도구를 제공합니다.
 
 <a name="ai"></a>
@@ -104,7 +104,7 @@ Endpoint용 Defender는 Windows 10에 기본 제공되는 다음과 같은 기�
 
 <a name="ss"></a>
 
-**[장치용 Microsoft 보안 점수](tvm-microsoft-secure-score-devices.md)**<br>
+**[장치용 Microsoft Secure Score](tvm-microsoft-secure-score-devices.md)**<br>
 
 Endpoint용 Defender에는 엔터프라이즈 네트워크의 보안 상태를 동적으로 평가하고 보호되지 않는 시스템을 식별하고 조직의 전반적인 보안을 향상시키는 권장 조치를 취하는 데 도움이 되는 장치에 대한 Microsoft 보안 점수가 포함되어 있습니다.
 

@@ -1,6 +1,6 @@
 ---
-title: Jamf Pro에 macOS 장치용 Microsoft Defender ATP 등록
-description: Jamf Pro에 macOS 장치용 Microsoft Defender ATP 등록
+title: MacOS 디바이스용 끝점용 Microsoft Defender를 Jamf Pro에 등록
+description: MacOS 디바이스용 끝점용 Microsoft Defender를 Jamf Pro에 등록
 keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamfpro, macos, 카탈로나, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ea71875dedf7e8706c9022420abd63bc5eb20c69
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: e832493159649cb6721320da53c25f57855baa4f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689728"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861650"
 ---
 # <a name="enroll-microsoft-defender-for-endpoint-on-macos-devices-into-jamf-pro"></a>MacOS 디바이스에서 Endpoint용 Microsoft Defender를 Jamf Pro에 등록 
 
@@ -31,7 +31,7 @@ ms.locfileid: "51689728"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)

@@ -1,7 +1,7 @@
 ---
 title: 관리 및 API 개요
 ms.reviewer: ''
-description: Microsoft Defender ATP의 관리 도구 및 API 범주에 대해 자세히 알아보시고
+description: 끝점용 Microsoft Defender의 관리 도구 및 API 범주에 대해 자세히 알아보시고
 keywords: 등록, api, siem, rbac, 액세스, 포털, 통합, 조사, 응답, 엔터티, 엔터티, 사용자 컨텍스트, 응용 프로그램 컨텍스트, 스트리밍
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 94cfe1cc053be896c137e0c0b9ee02ea53dd2717
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 9e54fb5f2105f0a77c4b63e8d880135005c17168
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187556"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862094"
 ---
 # <a name="overview-of-management-and-apis"></a>관리 및 API 개요 
 

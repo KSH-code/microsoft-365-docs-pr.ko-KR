@@ -1,6 +1,6 @@
 ---
-title: Mac용 Microsoft Defender ATP 리소스
-description: Mac용 Microsoft Defender ATP에 대한 리소스(제거 방법, 진단 로그, CLI 명령 및 제품에 대한 알려진 문제 수집)
+title: Mac용 끝점용 Microsoft Defender 리소스
+description: Mac용 끝점용 Microsoft Defender에 대한 리소스(제거 방법, 진단 로그 수집 방법, CLI 명령 및 제품에서 알려진 문제 포함)
 keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamf, macos, 카탈로나, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 71ebe48fdbb8f9995ef2f3429cb8a824ed76f244
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 98e123ac4775096c968bc831965a562481c848b6
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689644"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862178"
 ---
 # <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 리소스
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -84,7 +84,7 @@ macOS에서 끝점용 Microsoft Defender를 제거하는 방법에는 여러 가
 
 ### <a name="interactive-uninstallation"></a>대화형 제거
 
-- Open **Finder > Applications**. **Microsoft Defender ATP > 휴지통으로 이동을 마우스 오른쪽 단추로 클릭합니다.**
+- Open **Finder > Applications**. **Endpoint용 Microsoft Defender를 마우스 오른쪽 단추로 > 휴지통으로 이동을 클릭합니다.**
 
 ### <a name="from-the-command-line"></a>명령줄에서
 

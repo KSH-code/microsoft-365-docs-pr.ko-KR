@@ -1,6 +1,6 @@
 ---
-title: Mac용 Microsoft Defender ATP를 위한 다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포
-description: 다른 관리 솔루션에 Mac용 Microsoft Defender ATP를 설치합니다.
+title: Mac용 끝점용 Microsoft Defender에 대해 다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포
+description: 다른 관리 솔루션에 Mac용 끝점용 Microsoft Defender를 설치합니다.
 keywords: microsoft, defender, atp, mac, 설치, 배포, macos, 카탈로니아, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3343eb433a6ae5c708651abf298bd4f061817543
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: e929c17ada761a334700f6e66d2921483686834b
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764136"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861566"
 ---
 # <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender에 대해 다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포
 
@@ -31,7 +31,7 @@ ms.locfileid: "51764136"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)

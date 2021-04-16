@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP 파트너 기회 및 시나리오
+title: 끝점 파트너 기회 및 시나리오용 Microsoft Defender
 ms.reviewer: ''
-description: 개방형 프레임워크 및 다양한 API 집합을 토폴로지에서 기존 보안 서비스를 확장하여 Microsoft Defender ATP와의 확장 및 통합을 구축하는 방법에 대해 자세히 알아보습니다.
+description: 개방형 프레임워크 및 다양한 API 집합을 토폴로지에서 기존 보안 서비스를 확장하여 끝점용 Microsoft Defender와의 확장 및 통합을 구축하는 방법을 알아보습니다.
 keywords: API, 파트너, 확장, 개방형 프레임워크, api, 확장, 통합, 감지, 관리, 응답, 취약성, 인텔리전스
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1db82afa06fd0b6b3d7228aaf3020c5496ed69e7
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: be2f33514a568f290a3fc5cf0adc62db72243a6f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186896"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861112"
 ---
 # <a name="microsoft-defender-for-endpoint-partner-opportunities-and-scenarios"></a>끝점 파트너 기회 및 시나리오용 Microsoft Defender
 

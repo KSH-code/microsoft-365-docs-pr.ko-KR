@@ -15,12 +15,12 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: Microsoft 365를 사용하여 비즈니스를 위한 원격 작업의 최신 방법 정보, 팁, 리소스 및 지침을 찾아보세요.
-ms.openlocfilehash: eac86583a1e72b70399024354f9adc7ad24e1047
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: 3ef8bb3527e6be258eda8d745d841e8bd81cdd6c
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034285"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860586"
 ---
 # <a name="empower-your-small-business-with-remote-work"></a>원격 작업을 통해 중소기업의 역량 강화
 
@@ -87,7 +87,7 @@ Microsoft 365 Business용 기술 설명서 허브가 새로운 보안 원격 작
 
 ## <a name="need-to-ask-a-question"></a>질문해야 하나요? 
 
-Teams 포럼 [또는](https://answers.microsoft.com/msteams/forum) [Office Admins 포럼에 문의하세요.](https://answers.microsoft.com/msoffice/forum/msoffice_o365Admin)
+Teams 포럼 [또는](https://answers.microsoft.com/msteams/forum) [Office Admins 포럼에 문의하세요.](https://answers.microsoft.com)
 
 > [!NOTE]
 > 이 문서 및 비디오의 대부분의 작업은 Microsoft 365 Business Basic(이전의 Office 365 Business Essentials)을 구독하여 수행할 수 있지만 일부는 프리미엄 구독이 필요합니다. 

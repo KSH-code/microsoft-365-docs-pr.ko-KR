@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP의 파트너 응용 프로그램
+title: 끝점용 Microsoft Defender의 파트너 응용 프로그램
 ms.reviewer: ''
 description: 지원되는 파트너 응용 프로그램을 보고 플랫폼의 감지, 조사 및 위협 인텔리전스 기능을 향상
 keywords: 파트너, 응용 프로그램, 타사, 연결, sentinelone, lookout, bitdefender, corrata, morphisec, paloalto, ziften, 더 나은 모바일
@@ -17,19 +17,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 563dd2a5102ec66a1e953ae6ab30d56ea4f99036
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: 60a2eca25090f60414e91eacfed090bc86a4cf93
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382941"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862214"
 ---
 # <a name="partner-applications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 파트너 응용 프로그램 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 

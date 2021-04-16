@@ -1,6 +1,6 @@
 ---
-title: Mac용 Microsoft Defender ATP에 대한 기본 설정 설정
-description: 엔터프라이즈 조직에서 Mac용 Microsoft Defender ATP를 구성합니다.
+title: Mac용 끝점용 Microsoft Defender에 대한 기본 설정 설정
+description: 엔터프라이즈 조직에서 Mac용 끝점에 대한 Microsoft Defender를 구성합니다.
 keywords: microsoft, defender, atp, mac, 관리, 기본 설정, 엔터프라이즈, intune, jamf, macos, 카탈로니아, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 951c51c767ba09ebc6056481b4fac45da09c5671
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d2bea469031e2c5932e859fbad7d442ebe4d34ed
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688552"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860926"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점에 대한 Microsoft Defender 기본 설정 설정
 
@@ -32,7 +32,7 @@ ms.locfileid: "51688552"
 
 **적용 대상:**
 
-- [MacOS의 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender for Endpoint(macOS용)](microsoft-defender-endpoint-mac.md)
 
 >[!IMPORTANT]
 >이 문서에는 엔터프라이즈 조직의 macOS에서 끝점용 Microsoft Defender에 대한 기본 설정을 설정하는 방법에 대한 지침이 포함되어 있습니다. 명령줄 인터페이스를 사용하여 macOS에서 끝점에 대한 Microsoft Defender를 구성하는 데 필요한 리소스는 리소스를 [참조합니다.](mac-resources.md#configuring-from-the-command-line)

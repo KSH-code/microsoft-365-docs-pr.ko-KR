@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP 인시던트 관리
+title: 끝점 인시던트에 대한 Microsoft Defender 관리
 description: 인시던트 할당, 상태 업데이트 또는 분류 설정으로 인시던트 관리
 keywords: 인시던트, 관리, 할당, 상태, 분류, 참 경고, 거짓 경고
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b8b5e806d09f08a12c090a1055f2c165f25b7ea1
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: abb538972b48f8790286c0a546eecdd69fc83fb5
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185816"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862142"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-incidents"></a>끝점 인시던트에 대한 Microsoft Defender 관리
 
@@ -83,4 +83,4 @@ ms.locfileid: "51185816"
 ## <a name="related-topics"></a>관련 항목
 - [인시던트 큐](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
 - [인시던트 큐 보기 및 구성](view-incidents-queue.md)
-- [사고 조사](investigate-incidents.md)
+- [인시던트 조사](investigate-incidents.md)

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP의 장치 상태 및 규정 준수 보고서
+title: 끝점용 Microsoft Defender의 장치 상태 및 규정 준수 보고서
 description: 장치 상태 및 준수 보고서를 사용하여 장치 상태 검색, 바이러스 백신 상태, OS 플랫폼 및 Windows 10 버전 추적
 keywords: 상태, 바이러스 백신, os 플랫폼, Windows 10 버전, 버전, 상태, 규정 준수, 상태
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5229ba068672035c2dce3afee1919f9c2d7f9e44
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 35100a4b8bdaee23c427816450e948ced9ed3191
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186452"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860294"
 ---
 # <a name="device-health-and-compliance-report-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 장치 상태 및 규정 준수 보고서
 
@@ -42,7 +42,7 @@ ms.locfileid: "51186452"
 섹션 | 설명
 :---|:---
 1 | 디바이스 추세
-2  | 장치 요약(현재 일)
+2 | 장치 요약(현재 일)
  
  
 ## <a name="device-trends"></a>디바이스 추세 

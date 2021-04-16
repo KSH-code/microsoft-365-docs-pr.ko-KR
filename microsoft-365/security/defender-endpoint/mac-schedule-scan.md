@@ -1,6 +1,6 @@
 ---
 title: macOS용 MDATP를 통해 스캔을 예약하는 방법
-description: 조직의 자산을 보다 잘 보호하기 위해 macOS에서 Microsoft Defender ATP에 대한 자동 검사 시간을 예약하는 방법을 학습합니다.
+description: 조직의 자산을 보다 잘 보호하기 위해 macOS에서 끝점용 Microsoft Defender에 대한 자동 검사 시간을 예약하는 방법을 배워야 합니다.
 keywords: microsoft, defender, atp, mac, 검사, 바이러스 백신
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ecfae62bdc092a0b2544bf6f6a76dad1e86b8ab4
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 71576c777f58aa193f2a73db7edea832d29a97c6
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689596"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860934"
 ---
 # <a name="schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점에 대한 Microsoft Defender 검사 예약
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)

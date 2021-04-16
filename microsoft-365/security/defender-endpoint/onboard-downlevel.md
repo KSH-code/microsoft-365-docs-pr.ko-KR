@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender ATP에서 이전 버전의 Windows 온보딩
-description: 센서 데이터를 Microsoft Defender ATP 센서로 보낼 수 있도록 지원되는 이전 버전의 Windows 장치 온보딩
+title: 끝점용 Microsoft Defender에서 이전 버전의 Windows 온보딩
+description: 센서 데이터를 끝점용 Microsoft Defender 센서로 보낼 수 있도록 지원되는 이전 버전의 Windows 장치 온보딩
 keywords: 온보드, windows, 7, 81, oms, sp1, enterprise, pro, down level
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b180e7555bb3339324d3b99956d8f8ad73dc13c3
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 945645e0f20f316c094f746adb6ba193f6806f86
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186392"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861362"
 ---
-# <a name="onboard-previous-versions-of-windows"></a>이전 버전의 Windows 온보드
+# <a name="onboard-previous-versions-of-windows"></a>이전 버전의 Windows 온보딩
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
