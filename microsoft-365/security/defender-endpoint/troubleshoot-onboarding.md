@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 193e7e634ecf8407816db10c820edcd241b94b12
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 4f3b2b54370e3481699a540dd8fd2acc30be7514
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760167"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768881"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결
 
@@ -302,8 +302,8 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
 
 서버를 등록하는 동안 문제가 발생하는 경우 다음 확인 단계를 수행하여 가능한 문제를 해결합니다.
 
-- [서비스에 센서 데이터를 보고하도록 MMA(Microsoft 모니터링 에이전트)가 설치되어 구성되어 있는지 확인](configure-server-endpoints.md#server-mma)
-- [서버 프록시 및 인터넷 연결 설정이 올바르게 구성되었는지 확인](configure-server-endpoints.md#server-proxy)
+- [서비스에 센서 데이터를 보고하도록 MMA(Microsoft 모니터링 에이전트)가 설치되어 구성되어 있는지 확인](configure-server-endpoints.md)
+- [서버 프록시 및 인터넷 연결 설정이 올바르게 구성되었는지 확인](configure-server-endpoints.md)
 
 다음을 확인해야 할 수도 있습니다.
 
