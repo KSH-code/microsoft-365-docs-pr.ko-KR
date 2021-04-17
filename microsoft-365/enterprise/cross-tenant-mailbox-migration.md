@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: f24f519ec3bb12622d74c1d02fbc0bb017aa2b24
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: d52a0ca4a2dc9b799a32f70962416ffe190e16db
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476412"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876190"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>테넌트 간 사서함 마이그레이션(미리 보기)
 
@@ -435,6 +435,10 @@ T2Tbatch-testforignitedemo Syncing ExchangeRemoteMove 1
 **이동 후 원본에서 원격Mailboxes를 업데이트해야 하나요?**
 
 예, 원본 테넌트 사서함이 대상 테넌트로 이동할 때 원본의 targetAddress(RemoteRoutingAddress/ExternalEmailAddress)를 업데이트해야 합니다.  메일 라우팅은 다른 targetAddresses를 사용하는 여러 메일 사용자에 대한 추천을 따를 수 있는 반면, 메일 사용자에 대한 사용 중/사용 중은 사서함 사용자의 위치를 대상으로 지정해야 합니다. 무료/사용 중 검색은 여러 리디렉션을 추격하지 않습니다. 
+
+**Teams 모임이 테넌트 간 마이그레이션하나요?**  
+
+모임이 이동하나 항목이 크로스 테넌트로 마이그레이션될 때 Teams 모임 URL이 업데이트되지 않습니다. URL은 대상 테넌트에서 유효하지 않습니다. Teams 모임을 제거하고 다시 만드세요.
 
 **Teams 채팅 폴더 콘텐츠가 테넌트 간 마이그레이션하나요?**  
 

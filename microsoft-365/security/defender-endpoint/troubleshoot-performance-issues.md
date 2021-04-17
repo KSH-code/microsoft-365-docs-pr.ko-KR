@@ -16,12 +16,12 @@ ms.date: 04/14/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 560eeb1e1099576f9f4babf02cc38eb842094fd1
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 5175d630dd5d80b62451b3a1eafc4c2f6350ac32
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862488"
+ms.locfileid: "51876340"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>실시간 보호와 관련된 성능 문제 해결
 
@@ -60,7 +60,7 @@ ms.locfileid: "51862488"
 
 | 필드 이름 | 설명 |
 |---|---|
-|ProcessImageName   | 프로세스 이미지 이름 |
+|ProcessImageName | 프로세스 이미지 이름 |
 | TotalTime | 이 프로세스에서 액세스한 파일 검색에 소요된 누적 기간(밀리초)입니다. |
 |Count | 이 프로세스에서 액세스하는 검사된 파일 수 |
 |MaxTime |  이 프로세스에서 액세스하는 파일의 가장 긴 단일 검색 기간(밀리초)입니다. |
@@ -69,13 +69,13 @@ ms.locfileid: "51862488"
 
 성능에 큰 영향을 미치는 경우 [Configure and validate exclusions for Microsoft Defender Antivirus scans의](collect-diagnostic-data.md)단계에 따라 경로/프로세스 제외에 프로세스를 추가해 세요.
 
-이전 단계로 문제가 해결되지 않는 경우 다음 섹션의 [](#capture-process-logs-using-process-monitor) 프로세스 모니터 또는 [Windows Performance Recorder를](#capture-performance-logs-using-windows-performance-recorder) 통해 추가 정보를 수집할 수 있습니다. 
+이전 단계로 문제가 해결되지 않는 경우 다음 섹션의 [](#capture-process-logs-using-process-monitor) 프로세스 모니터 또는 [Windows Performance Recorder를](#capture-performance-logs-using-windows-performance-recorder) 통해 추가 정보를 수집할 수 있습니다.
      
 ## <a name="capture-process-logs-using-process-monitor"></a>프로세스 모니터를 사용하여 프로세스 로그 캡처
 
-프로세스 모니터(ProcMon)는 실시간 프로세스를 표시하는 고급 모니터링 도구입니다. 이 기능을 사용하여 발생하는 성능 문제를 캡처할 수 있습니다. 
+프로세스 모니터(ProcMon)는 실시간 프로세스를 표시하는 고급 모니터링 도구입니다. 이 기능을 사용하여 발생하는 성능 문제를 캡처할 수 있습니다.
 
-1. 프로세스 [모니터 v3.60을](/sysinternals/downloads/procmon) 같은 폴더로 다운로드합니다. `C:\temp` 
+1. 프로세스 [모니터 v3.60을](/sysinternals/downloads/procmon) 같은 폴더로 다운로드합니다. `C:\temp`
 
 2. 웹의 파일 표시를 제거하려면
     1. 마우스 오른쪽 **단추로ProcessMonitor.zip** 속성을 **선택합니다.**
@@ -188,7 +188,9 @@ WPR UI를 사용하여 성능 로그 캡처의 단계에 따라 WPR 사용자 �
 6. 프로필 **추가...를** 선택하고 파일의 경로를 `WD.wprp` 탐색합니다.
 
 7. 그런 다음 사용자 지정 측정 아래에  끝점 *분석용 Microsoft Defender라는* 새 프로필 집합이 표시됩니다.
+
     ![파일 내](images/wpr-infile.png)
+
     >[!WARNING]
     >Windows Server에 64GB 이상의 RAM이 있는 경우 대신 사용자 지정 측정을 `Microsoft Defender for Endpoint analysis for large servers` `Microsoft Defender for Endpoint analysis` 사용하세요. 그렇지 않으면 시스템에서 많은 양의 비페이지 풀 메모리 또는 버퍼를 사용할 수 있으며, 이로 인해 시스템 비보안이 발생할 수 있습니다. 자원 분석을 확장하여 추가할 **프로필을 선택할 수 있습니다.** 이 사용자 지정 프로필은 자세한 성능 분석에 필요한 컨텍스트를 제공합니다.
  
@@ -227,8 +229,8 @@ WPR UI를 사용하여 성능 로그 캡처의 단계에 따라 WPR 사용자 �
 
     ![세부 정보 채우기](images/wpr-12.png)
 
-    1. 파일 **이름:** 추적 파일을 저장할 위치를 결정하려면 선택합니다. 기본적으로 에 1.is `%user%\Documents\WPR Files\` 저장됩니다. 
-    1. **저장** 을 선택합니다. 
+    1. 파일 **이름:** 추적 파일을 저장할 위치를 결정하려면 선택합니다. 기본적으로 에 1.is `%user%\Documents\WPR Files\` 저장됩니다.
+    1. **저장** 을 선택합니다.
 
 14. 추적이 병합되는 동안 기다릴 수 있습니다.
 
