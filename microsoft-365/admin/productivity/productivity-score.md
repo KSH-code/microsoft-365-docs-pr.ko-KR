@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 생산성 점수 개요.
-ms.openlocfilehash: d818bd766f76f3df6c67a740d6ad1994a2be66de
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0eac22eadd099ebe4c7efbdf1198f6dc576dc080
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914585"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876134"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft 생산성 점수 
 
@@ -155,3 +155,11 @@ Microsoft는 개인의 프라이버시를 보호하기 위해 노력하고 있�
 ## <a name="we-want-to-hear-from-you"></a>의견을 보내 주세요.
 
 생산성 점수와 개선할 수 있는 방법에 대한 아이디어를 공유하세요. 제품 내에서 **피드백** 섹션을 사용하거나 prodscorefeedback@microsoft.com의 Productivity Score 팀에 문의합니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[보고서를 이용하여 Microsoft 365 활동 모니터링](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)(문서)
+
+[Microsoft 365 사용 현황 분석 사용](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/enable-usage-analytics)(문서)
+
+[Microsoft 365 관리 센터 개요](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview)(동영상)
