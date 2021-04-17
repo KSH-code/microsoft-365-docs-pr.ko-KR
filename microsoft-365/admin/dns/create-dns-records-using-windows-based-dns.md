@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Microsoft용 Windows 기반 DNS에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 9e5e42f847e740571944ea3db205282ec9a7a0e6
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: fd7c56b6db9fe5f5dbb0637ad5abcb40a64bef8f
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916049"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876352"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Windows 기반 DNS를 사용하여 Microsoft용 DNS 레코드 만들기
 
@@ -205,3 +205,11 @@ Microsoft에서 도메인을 확인 합니다.
   
 > [!NOTE]
 >  일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Micrsoft 365에서](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host) 다른 호스트로 도메인 전송(문서)
+
+[사용자 지정 도메인에서 Microsoft 365 파일럿(문서)](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain)
+
+[도메인 FAQ(문서)](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)

@@ -18,12 +18,12 @@ description: 관리자는 EOP(Exchange Online Protection)의 고급 배달 정�
 ms.technology: mdo
 ms.prod: m365-security
 ROBOTS: NOINDEX
-ms.openlocfilehash: 09e07d8406b470fd3dac25944d013b997f2f90c1
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 9d737472be5da2af0a0a36beb4b7914b8bfe3a10
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760438"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876068"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>사용자에 대한 타사 피싱 시뮬레이션 및 필터되지 않은 메시지의 SecOps 사서함 배달 구성
 
@@ -35,7 +35,7 @@ ms.locfileid: "51760438"
 > [!NOTE]
 > 이 문서에서 설명하는 기능은 미리 보기에 있으며, 모든 사람이 사용할 수 있으며 변경될 수 있습니다.
 
-기본적으로 조직의 보안을 [](secure-by-default.md)유지하려는 경우 EOP(Exchange Online Protection)는 맬웨어 또는 높은 신뢰도 피싱 결과를 발생하게 하는 메시지에 대해 수신 허용 목록 또는 필터링 우회를 허용하지 않습니다. 그러나 필터되지 않은 메시지를 배달해야 하는 특정 시나리오가 있습니다. 예를 들면 다음과 같습니다.
+기본적으로 조직의 [](secure-by-default.md)보안을 유지하기 위해 EOP(Exchange Online Protection)는 맬웨어 또는 높은 신뢰도 피싱 결과를 발생하게 하는 메시지에 대해 수신 허용 목록 또는 필터링 우회를 허용하지 않습니다. 그러나 필터되지 않은 메시지를 배달해야 하는 특정 시나리오가 있습니다. 예시:
 
 - **타사 피싱 시뮬레이션:** 시뮬레이션된 공격은 실제 공격이 조직에 영향을 미치기 전에 취약한 사용자를 식별하는 데 도움이 될 수 있습니다.
 - **SecOps(보안 작업)** 사서함: 보안 팀에서 필터되지 않은 메시지를 수집 및 분석하는 데 사용하는 전용 사서함(좋음과 불량 모두)입니다.
@@ -98,7 +98,7 @@ Microsoft 365의 _고급_ 배달 정책을 사용하여 이러한  특정 시나
 
 3. **SecOps** 사서함 플라이아웃이 열리면 SecOps 사서함으로 지정하려는 기존 Exchange Online 사서함의 전자 메일 주소를 입력합니다. 메일 그룹은 허용되지 않습니다.
 
-4. 작업을 마쳤으면 **저장** 을 클릭합니다.
+4. 작업을 마친 후 **저장** 을 클릭합니다.
 
 구성한 SecOps 사서함 항목이 **SecOps** 사서함 탭에 표시됩니다. 변경하려면 탭에서 **편집을** 클릭합니다.
 
@@ -106,8 +106,8 @@ Microsoft 365의 _고급_ 배달 정책을 사용하여 이러한  특정 시나
 
 고급 배달 정책이 도움이 될 수 있는 두 가지 시나리오 외에도 필터링을 무시해야 하는 다른 시나리오가 있습니다.
 
-- **타사 필터:** 도메인의 MX 레코드가 Office 365를 지정하지 않는 경우(메시지가 다른 곳에서 [](secure-by-default.md) 먼저 라우팅) 기본적으로 보안을 사용할 수 없습니다.
+- **타사** 필터: 도메인의 MX 레코드가  Office 365를 지정하지 않는 경우(메시지가 다른 곳에서 [](secure-by-default.md) 먼저 라우팅) 기본적으로 보안을 사용할 *수 없습니다.*
 
   타사 필터링을 통해 이미 평가된 메시지에 대해 Microsoft 필터링을 무시하기 위해 메일 흐름 규칙(전송 규칙)을 사용(메일 흐름 규칙을 사용하여 메시지에서 [SCL](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)설정)을 참조합니다.
 
-- **검토 중의** 가양성: 관리자 제출을 통해 Microsoft에서 여전히 분석하고 [](admin-submission.md) 있는 특정 메시지를 일시적으로 허용하여 Microsoft에 잘못 잘못된 것으로 잘못 표시된 알려진 좋은 메시지(가양성)를 보고할 수 있습니다. 모든 재지정과 함께 이러한 허용은 임시로 지정하는 것이 좋습니다.
+- **검토 중의** 가양성: 관리자 제출을 통해 Microsoft에서 여전히 분석하고 [](admin-submission.md) 있는 특정 메시지를 일시적으로 허용하여 Microsoft에 잘못 잘못된 것으로 잘못 표시된 알려진 좋은 메시지(가양성)를 보고할 수 있습니다. 모든 오버라이드와 함께 이러한 **** 허용을 일시적으로 만들어 두는 것이 좋습니다.

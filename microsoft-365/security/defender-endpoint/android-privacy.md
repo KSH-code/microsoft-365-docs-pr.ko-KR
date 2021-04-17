@@ -16,23 +16,25 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d38d7a54aa860049e1968e5b92c801107bea0514
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 79f8882e21f23e75d85813cde03260ef17adf246
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687964"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876112"
 ---
-#  <a name="microsoft-defender-for-endpoint-on-android---privacy-information"></a>Android의 끝점용 Microsoft Defender - 개인 정보 정보
+#  <a name="microsoft-defender-for-endpoint-on-android---privacy-information"></a>Microsoft Defender for Endpoint(Android용) - 개인 정보
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
-Android용 Endpoint용 Defender는 구성된 Android 장치에서 정보를 수집하고 Endpoint용 Defender가 있는 동일한 테넌트에 저장합니다.
+Android용 Endpoint용 Defender는 구성된 Android 장치에서 정보를 수집하고 Endpoint용 Defender가 있는 동일한 테넌트에 저장합니다. 이 정보는 iOS용 Endpoint용 Defender를 안전하고 최신으로 유지하며 예상대로 수행하고 서비스를 지원하기 위해 수집됩니다.
+
+데이터 저장소에 대한 자세한 내용은 끝점 데이터 저장소 및 개인 정보 보호를 위한 [Microsoft Defender를 참조하세요.](data-storage-privacy.md)
 
 Android용 Endpoint용 Defender를 예상대로 안전하게 최신으로 유지하고 서비스를 지원하기 위해 수집된 정보입니다.
 
@@ -42,7 +44,7 @@ Android용 Endpoint용 Defender를 예상대로 안전하게 최신으로 유지
 
 ### <a name="app-information"></a>앱 정보
 
-다음을 포함하여 장치의 ANDROID 응용 프로그램 패키지(APK)에 대한 정보
+디바이스의  악성 Android 응용 프로그램 패키지(APK)에 대한 정보 포함
 
 -  원본 설치
 -  APK의 저장소 위치(파일 경로)
@@ -50,7 +52,7 @@ Android용 Endpoint용 Defender를 예상대로 안전하게 최신으로 유지
 
 ### <a name="web-page--network-information"></a>웹 페이지/네트워크 정보
 
-- 전체 URL(지원되는 브라우저) 클릭 시
+- 악의적인 연결 또는 웹 페이지가 검색된 웹 사이트의 전체 URL입니다.
 - 연결 정보
 - 프로토콜 유형(예: HTTP, HTTPS 등)
 
@@ -73,6 +75,9 @@ Android용 Endpoint용 Defender를 예상대로 안전하게 최신으로 유지
     -   사용자 계정 이름 - 사용자의 전자 메일 ID
 
 ### <a name="product-and-service-usage-data"></a>제품 및 서비스 사용 현황 데이터
+
+다음 정보는 장치에 설치된 끝점용 Microsoft Defender 앱에만 수집됩니다. 
+
 -   이름, 버전 및 앱 업그레이드 상태를 포함한 앱 패키지 정보
 
 -   앱에서 수행되는 작업
