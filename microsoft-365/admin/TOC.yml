@@ -201,7 +201,7 @@
           href: misc/pilot-microsoft-365-from-my-custom-domain.md
         - name: 도메인 FAQ
           href: setup/domains-faq.yml
-        - name: 호스트별 지침
+        - name: DNS 지침
           items:
             - name: DNS 호스트에서 이름 서버 변경
               href: get-help-with-domains/change-nameservers-at-any-domain-registrar.md
