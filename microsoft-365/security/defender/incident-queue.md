@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: cd571414512ce876e730199b21bf755e4c4b733f
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 3b381749108d4a75024d9a546c0d3f1631c948ed
+ms.sourcegitcommit: 76f3c75413cc960289489d0ca29efadb8a9a5b31
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876202"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51887260"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 인시던트 우선 순위 지정
 
@@ -102,7 +102,7 @@ Microsoft 365 Defender는 상관 관계 분석을 적용하고 관련 경고 및
 
    - 포함: 테넌트에 대한 추가 영향을 줄입니다.
    - 지우기: 보안 위협 제거.
-   - 복구: 테넌트 리소스를 공격 전에 있는 상태로 복원합니다.
+   - 복구: 테넌트 리소스를 인시던트 이전 상태로 복원합니다.
 
 3. 인시던트가 해결된 후 다음을 위해 시간을 내어 다음을 합니다.
 
