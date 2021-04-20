@@ -23,6 +23,8 @@
           href: service-description/device-requirements.md
         - name: 장치 이미지
           href: service-description/device-images.md
+        - name: 디바이스 이름
+          href: service-description/device-names.md
         - name: 프로그램 장치
           href: service-description/device-list.md
           items:
@@ -83,6 +85,8 @@
           href: get-ready/mapped-drives.md
         - name: 인쇄 리소스 준비
           href: get-ready/printing.md
+        - name: 주소 장치 이름
+          href: get-ready/address-device-names.md
     - name: Microsoft Managed Desktop 시작
       href: get-started/index.md
       items:
@@ -157,6 +161,8 @@
           href: working-with-managed-desktop/work-with-app-control.md
         - name: 장치 프로필 변경
           href: working-with-managed-desktop/change-device-profile.md
+        - name: 장치 제거
+          href: working-with-managed-desktop/remove-devices.md
         - name: 구성 가능한 설정
           href: working-with-managed-desktop/config-setting-overview.md
           items:
