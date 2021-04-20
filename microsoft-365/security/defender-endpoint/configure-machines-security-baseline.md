@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP 보안 기준 준수 강화
-description: Microsoft Defender ATP 보안 기준은 Microsoft Defender ATP 보안 컨트롤을 설정하여 최적의 보호를 제공합니다.
-keywords: Intune 관리, MDATP, WDATP, Microsoft Defender, Advanced Threat Protection ASR, 보안 기준
+title: 엔드포인트 보안 기준에 대한 Microsoft Defender 준수 강화
+description: 끝점용 Microsoft Defender 보안 기준은 최적의 보호를 제공하도록 보안 제어를 설정합니다.
+keywords: Intune 관리, MDATP, WDATP, MDE, 끝점용 Microsoft Defender, Advanced Threat Protection ASR, 보안 기준
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 74073441ad7be89e0af278ff1e371133251b5ea7
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 19a2276955b253a23ee1552a3f1d4d0345dfe247
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163402"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893544"
 ---
 # <a name="increase-compliance-to-the-microsoft-defender-for-endpoint-security-baseline"></a>엔드포인트 보안 기준에 대한 Microsoft Defender 준수 강화
 
@@ -41,11 +41,11 @@ ms.locfileid: "51163402"
 - [Intune 관리에 장치 등록](configure-machines.md#enroll-devices-to-intune-management)
 - [필요한 사용 권한이 있는지 확인](configure-machines.md#obtain-required-permissions)
 
-## <a name="compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines"></a>Microsoft Defender ATP 및 Windows Intune 보안 기준 비교
+## <a name="compare-the-microsoft-defender-for-endpoint-and-the-windows-intune-security-baselines"></a>끝점용 Microsoft Defender 및 Windows Intune 보안 기준 비교
 Windows Intune 보안 기준은 브라우저 설정, PowerShell 설정, Microsoft Defender 바이러스 백신과 같은 일부 보안 기능에 대한 설정을 포함하여 Windows를 실행하는 장치를 안전하게 구성하는 데 필요한 포괄적인 권장 설정 집합을 제공합니다. 반면 끝점용 Defender 기준은 끝점 검색 및 응답(EDR)에 대한 설정과 Windows Intune 보안 기준에 있는 설정을 포함하여 끝점 스택에 대한 Defender의 모든 보안 컨트롤을 최적화하는 설정을 제공합니다. 각 기준에 대한 자세한 내용은 다음을 참조하세요.
 
 - [Intune에 대한 Windows 보안 기준 설정](https://docs.microsoft.com/intune/security-baseline-settings-windows)
-- [Intune에 대한 Microsoft Defender ATP 기준 설정](https://docs.microsoft.com/intune/security-baseline-settings-defender-atp)
+- [Intune에 대한 끝점 기준 설정에 대한 Microsoft Defender](https://docs.microsoft.com/intune/security-baseline-settings-defender-atp)
 
 끝점용 Defender에 온보딩된 장치는 초기에 Windows를 보호하기 위한 Windows Intune 보안 기준과 끝점 보안 컨트롤에 대한 Defender를 최적으로 구성하기 위해 위에 계층화된 끝점용 보안 기준의 두 기준을 모두 배포하는 것이 가장 이상적입니다. 위험 및 위협에 대한 최신 데이터를 사용하여 기준이 발전함에 따라 충돌을 최소화하기 위해 항상 출시되는 즉시 모든 제품에 최신 버전의 기준을 적용합니다.
 
@@ -107,6 +107,6 @@ Windows Intune 보안 기준은 브라우저 설정, PowerShell 설정, Microsof
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
 
 ## <a name="related-topics"></a>관련 항목
-- [장치가 올바르게 구성되었는지 확인](configure-machines.md)
+- [장치가 올바르게 구성되어 있는지 확인](configure-machines.md)
 - [끝점용 Microsoft Defender에 장치 온보딩](configure-machines-onboarding.md)
 - [ASR 규칙 배포 및 검색 최적화](configure-machines-asr.md)

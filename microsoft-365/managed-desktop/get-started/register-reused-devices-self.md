@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: f2b3e109493331a4b63d669501525a48cb996809
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 21b0062a337dbeb3c7dec8b715971dbbc4917db1
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689224"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893278"
 ---
 # <a name="register-existing-devices-yourself"></a>직접 기존의 장치 등록
 
@@ -136,7 +136,7 @@ Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformatio
 해시 데이터가 하나의 CSV 파일에 병합되어 이제 장치를 [등록할 수 있습니다.](#register-devices-by-using-the-admin-portal)
 
 
-#### <a name="register-devices-by-using-the-admin-portal"></a>관리 포털을 사용하여 장치 등록
+## <a name="register-devices-by-using-the-admin-portal"></a>관리 포털을 사용하여 장치 등록
 
 [Microsoft 끝점 관리자의](https://endpoint.microsoft.com/) **왼쪽** 탐색 창에서 장치를 선택합니다. 메뉴의 Microsoft Managed Desktop 섹션을 찾아 장치를 **선택합니다.** Microsoft Managed Desktop Devices 작업 영역에서 **+** 장치 등록을 선택합니다. 이 경우 새 장치를 등록하기 위해 플라이인이 열립니다.
 
@@ -146,7 +146,7 @@ Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformatio
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
-다음 단계를 따릅니다:
+다음 단계를 따릅니다.
 
 1. 파일 **업로드에서** 이전에 만든 CSV 파일의 경로를 제공합니다.
 2. 드롭다운 [메뉴에서](../service-description/profiles.md) 장치 프로필을 선택합니다.
@@ -165,7 +165,7 @@ Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformatio
 | 활성 | 장치가 사용자에게 전달되고 테넌트에 등록되어 있습니다. 이는 또한 장치가 정기적으로 사용 중이기도 합니다. |
 | 비활성 | 장치가 사용자에게 전달되고 테넌트에 등록되어 있습니다. 그러나 최근(지난 7일)에는 장치를 사용한 것이 없습니다.  | 
 
-#### <a name="troubleshooting-device-registration"></a>장치 등록 문제 해결
+### <a name="troubleshooting-device-registration"></a>장치 등록 문제 해결
 
 | 오류 메시지 | 세부 정보 |
 |---------------|-------------|
@@ -175,13 +175,13 @@ Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformatio
 | 다른 조직에서 클레임한 장치 | 이 디바이스는 다른 조직에서 이미 클레임했습니다. 장치 공급업체에 문의하십시오. |
 | 예기치 않은 오류 | 요청을 자동으로 처리하지 못했습니다. 고객 지원에 문의하여 요청 ID를 제공합니다. <requestId> |
 
-### <a name="check-the-image"></a>이미지 확인
+## <a name="check-the-image"></a>이미지 확인
 
 디바이스가 Microsoft Managed Desktop 파트너 공급업체에서 제공된 경우 이미지가 정확해야 합니다.
 
 원하는 경우 직접 이미지를 적용할 수도 있습니다. 시작하기 위해 함께 작업하는 Microsoft 담당자에게 연락하여 이미지 적용 위치와 단계를 제공합니다.
 
-### <a name="deliver-the-device"></a>디바이스 전달
+## <a name="deliver-the-device"></a>디바이스 전달
 
 > [!IMPORTANT]
 > 사용자에게 장치를 제공하려면 먼저 해당 사용자에게 적절한 라이선스를 획득하고 [적용해야](../get-ready/prerequisites.md) 합니다.

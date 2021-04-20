@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP의 연결된 응용 프로그램
+title: 끝점용 Microsoft Defender의 연결된 응용 프로그램
 ms.reviewer: ''
-description: 표준 OAuth 2.0 프로토콜을 사용하여 Microsoft Defender ATP API와 함께 사용할 토큰을 인증하고 제공하는 연결된 파트너 응용 프로그램을 볼 수 있습니다.
+description: 표준 OAuth 2.0 프로토콜을 사용하여 Microsoft Defender for Endpoint API와 함께 사용할 토큰을 인증하고 제공하는 연결된 파트너 응용 프로그램을 볼 수 있습니다.
 keywords: 파트너, 응용 프로그램, 타사, 연결, sentinelone, lookout, bitdefender, corrata, morphisec, paloalto, ziften, 더 나은 모바일
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 294d6cfa5f8bf6b883c37e527cb492e8d65fc94c
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 26c531c0544f92d664bfa0f1a21e4f33a0765d24
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163602"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893500"
 ---
 # <a name="connected-applications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 연결된 응용 프로그램
 

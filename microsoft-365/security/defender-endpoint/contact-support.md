@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender ATP 지원에 문의
-description: Microsoft Defender ATP 지원에 문의하는 방법 학습
+title: 엔드포인트용 Microsoft Defender 지원 문의
+description: 끝점 지원에 대해 Microsoft Defender에 문의하는 방법 학습
 keywords: 지원, 문의, 프리미어 지원, 솔루션, 문제, 사례
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4c44e2c73eabcb89c178235bc3ce6738d2322dfa
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: eaf26c566b54b21e63af5ecbfe3603f2b1389208
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768989"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892844"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support"></a>엔드포인트용 Microsoft Defender 지원 문의
 
@@ -29,7 +29,7 @@ ms.locfileid: "51768989"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)

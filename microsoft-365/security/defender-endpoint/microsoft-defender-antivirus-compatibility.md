@@ -14,12 +14,12 @@ ms.custom: nextgen
 ms.reviewer: tewchen, pahuijbr, shwjha
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 131b9970572b1034ba5c9907a001f0497d450339
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 8e179135f12ad6f4ea765eaf975a40534446b51f
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765446"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893392"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Microsoft Defender 바이러스 백신 호환성
 
@@ -27,7 +27,7 @@ ms.locfileid: "51765446"
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 ## <a name="overview"></a>개요
 
@@ -60,7 +60,7 @@ Microsoft Defender 바이러스 백신은 자동으로 사용하도록 설정되
 
 Windows Server, 버전 1803 이상 또는 Windows Server 2019를 사용하는 경우 다음 레지스트리 키를 설정하여 Microsoft Defender 바이러스 백신을 수동 모드로 설정할 수 있습니다.
 - 경로: `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`
-- 이름: `ForcePassiveMode`
+- 이름: `ForceDefenderPassiveMode`
 - 유형: `REG_DWORD`
 - 값: `1`
 

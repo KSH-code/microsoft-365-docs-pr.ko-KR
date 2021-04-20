@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 11/06/2020
 ms.technology: mde
-ms.openlocfilehash: a24dc4ef23d32b19de9d2871b7d87aae90d05828
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3a26951a796d72237f992e520e1b793654e467e3
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073735"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893404"
 ---
 # <a name="fix-unhealthy-sensors-in-microsoft-defender-for-endpoint"></a>Endpoint용 Microsoft Defender에서 불안정한 센서 수정
 
@@ -68,7 +68,7 @@ ms.locfileid: "51073735"
 - [디바이스가 인터넷에 연결되어 있는지 확인](troubleshoot-onboarding.md#troubleshoot-onboarding-issues-on-the-device)</br>
   Window Defender ATP 센서를 사용하려면 Microsoft Windows HTTP(WinHTTP)가 센서 데이터를 보고하고 끝점용 Microsoft Defender 서비스와 통신해야 합니다.
 
-- [끝점 서비스 URL용 Microsoft Defender에 대한 클라이언트 연결 확인](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-atp-service-urls)</br>
+- [끝점 서비스 URL용 Microsoft Defender에 대한 클라이언트 연결 확인](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)</br>
   프록시 구성이 성공적으로 완료되어 WinHTTP가 사용자 환경의 프록시 서버를 검색하고 통신할 수 있는지, 프록시 서버에서 끝점 서비스 URL에 대한 Microsoft Defender에 대한 트래픽을 허용하는지 확인
 
 수정 작업을 수행한 경우 장치 상태가 여전히 잘못 구성된 경우 지원 [티켓 을 를 열 수 있습니다.](https://go.microsoft.com/fwlink/?LinkID=761093&clcid=0x409)
@@ -80,7 +80,7 @@ ms.locfileid: "51073735"
 - [디바이스가 인터넷에 연결되어 있는지 확인](troubleshoot-onboarding.md#troubleshoot-onboarding-issues-on-the-device)</br>
   Window Defender ATP 센서를 사용하려면 Microsoft Windows HTTP(WinHTTP)가 센서 데이터를 보고하고 끝점용 Microsoft Defender 서비스와 통신해야 합니다.
 
-- [끝점 서비스 URL용 Microsoft Defender에 대한 클라이언트 연결 확인](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-atp-service-urls)</br>
+- [끝점 서비스 URL용 Microsoft Defender에 대한 클라이언트 연결 확인](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)</br>
   프록시 구성이 성공적으로 완료되어 WinHTTP가 사용자 환경의 프록시 서버를 검색하고 통신할 수 있는지, 프록시 서버에서 끝점 서비스 URL에 대한 Microsoft Defender에 대한 트래픽을 허용하는지 확인
 
 - [진단 데이터 서비스를 사용하도록 설정되어 있는지 확인](troubleshoot-onboarding.md#ensure-the-diagnostics-service-is-enabled)</br>

@@ -1,6 +1,6 @@
 ---
 title: 끝점용 Microsoft Defender 서비스에 비 Windows 장치 온보딩
-description: 센서 데이터를 Microsoft Defender ATP 서비스로 보낼 수 있도록 비 Windows 장치를 구성합니다.
+description: 끝점용 Microsoft Defender 서비스로 센서 데이터를 보낼 수 있도록 비 Windows 장치를 구성합니다.
 keywords: 비 Windows 장치, macos, linux, 장치 관리, Windows ATP 장치 구성, 끝점 장치에 대한 Microsoft Defender 구성
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 71f230f557792d75659dc4dbfc5911811514d5ea
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: c78779cd4a8a329864b6ac7e0debfc30ca0b3a56
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687880"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893592"
 ---
 # <a name="onboard-non-windows-devices"></a>Windows가 아닌 장치 온보딩
 
@@ -29,7 +29,7 @@ ms.locfileid: "51687880"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 **플랫폼**
@@ -48,7 +48,7 @@ Endpoint용 Defender는 Windows가 아닌 플랫폼뿐만 아니라 Windows에 �
 비 Windows 장치를 온보드하려면 다음 단계를 따라야 합니다.
 1. 기본 온보더링 방법을 선택합니다.
 
-   - macOS 장치의 경우 Microsoft Defender ATP 또는 타사 솔루션을 통해 온보딩할 수 있습니다. 자세한 내용은 [Mac용 끝점용 Microsoft Defender를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
+   - macOS 장치의 경우 끝점용 Microsoft Defender를 통해 또는 타사 솔루션을 통해 온보딩할 수 있습니다. 자세한 내용은 [Mac용 끝점용 Microsoft Defender를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac)
 
    - 다른 비 Windows 장치의 경우 타사 통합을 통해 비 Windows 장치 **온보드를 선택하십시오.**   
     1. 탐색 창에서 상호 교환 파트너 **를**  >  **선택합니다.** 타사 솔루션이 나열되어 있는지 확인

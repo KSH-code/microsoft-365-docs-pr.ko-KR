@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 02/07/2020
 ms.technology: mde
-ms.openlocfilehash: b477f302855cb5d4b00e0502bcfa9aa3aeb6b5c2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 3550bec28945ab888efbe2ca46f12ca7f96aab4a
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165576"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892866"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>구성 관리자를 사용하여 Windows 10 장치 온보딩
 
@@ -223,7 +223,7 @@ R2 구성 관리자를 System Center 2012 모니터링은 다음 두 부분으�
 
     ![오류 없는 성공적인 배포를 보여주는 Configuration Manager](images/sccm-deployment.png)
 
-### <a name="check-that-the-devices-are-compliant-with-the-microsoft-defender-atp-service"></a>장치가 Microsoft Defender ATP 서비스를 준수하는지 확인
+### <a name="check-that-the-devices-are-compliant-with-the-microsoft-defender-for-endpoint-service"></a>장치가 끝점용 Microsoft Defender 서비스를 준수하는지 확인
 
 R2 Configuration Manager에서 구성 항목에 대한 준수 규칙을 System Center 2012 배포를 모니터링할 수 있습니다.
 
@@ -243,6 +243,6 @@ Value: "1"
 - [그룹 정책을 사용하여 Windows 10 장치 온보드](configure-endpoints-gp.md)
 - [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md)
 - [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](configure-endpoints-script.md)
-- [비영구 가상 데스크톱 인프라(VDI) 장치 온보딩](configure-endpoints-vdi.md)
-- [새로 온보딩된 Microsoft Defender ATP 장치에서 검색 테스트 실행](run-detection-test.md)
+- [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
+- [새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행](run-detection-test.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

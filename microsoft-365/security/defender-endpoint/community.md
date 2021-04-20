@@ -1,6 +1,6 @@
 ---
-title: 끝점용 Microsoft Defender 커뮤니티 센터에 액세스
-description: Microsoft Defender ATP 커뮤니티 센터에 액세스하여 환경을 공유하고, 참여하고, 제품에 대해 학습합니다.
+title: 엔드포인트용 Microsoft Defender 커뮤니티에 액세스
+description: Microsoft Defender for Endpoint 커뮤니티 센터에 액세스하여 환경을 공유하고, 참여하고, 제품에 대해 학습합니다.
 keywords: 커뮤니티, 커뮤니티 센터, 기술 커뮤니티, 대화, 공지
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 71dc2a004f188eac34258afb2200cfd4e67f47ab
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: ef1076fb5b8bfc38090374671998460190faaba9
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165240"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893428"
 ---
-# <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>끝점용 Microsoft Defender 커뮤니티 센터에 액세스
+# <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>엔드포인트용 Microsoft Defender 커뮤니티에 액세스
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

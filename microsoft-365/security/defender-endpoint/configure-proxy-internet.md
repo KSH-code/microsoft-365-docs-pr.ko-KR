@@ -1,6 +1,6 @@
 ---
 title: 장치 프록시 및 인터넷 연결 설정 구성
-description: 클라우드 서비스와 통신할 수 있도록 Microsoft Defender ATP 프록시 및 인터넷 설정을 구성합니다.
+description: 클라우드 서비스와 통신할 수 있도록 끝점 프록시 및 인터넷 설정에 대한 Microsoft Defender를 구성합니다.
 keywords: 구성, 프록시, 인터넷, 인터넷 연결, 설정, 프록시 설정, netsh, winhttp, 프록시 서버
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,19 +17,19 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 97d1d50e2557cbb760248738b1f096614873958f
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: ebfff7721bc61012811a66146079ac9758889594
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644707"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893604"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>장치 프록시 및 인터넷 연결 설정 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-configureendpointsscript-abovefoldlink)
@@ -178,7 +178,7 @@ netsh winhttp reset proxy
 > [!NOTE]
 > AsC(Azure 보안 센터)를 통한 온보드의 경우 여러 작업 영역이 사용될 수 있습니다. 각 작업 영역의 온보드된 TestCloudConnection.exe 위의 절차에 따라 작업 영역 간에 *.blob.core.windows.net URL이 변경되어 있는지 확인해야 합니다.
 
-## <a name="verify-client-connectivity-to-microsoft-defender-atp-service-urls"></a>Microsoft Defender ATP 서비스 URL에 대한 클라이언트 연결 확인
+## <a name="verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls"></a>끝점 서비스 URL용 Microsoft Defender에 대한 클라이언트 연결 확인
 
 프록시 구성이 성공적으로 완료되었는지 확인합니다. WinHTTP는 사용자 환경의 프록시 서버를 통해 검색할 수 있으며 프록시 서버가 엔드포인트용 Defender 서비스 URL에 대한 트래픽을 허용하는지 여부를 확인할 수 있습니다.
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: '비즈니스용 Microsoft 365 계정과 연결된 전자 메일 별칭이라는 전자 메일 주소를 두 개 이상 사용할 수 있는 방법에 대해 자세히 알아보습니다. '
-ms.openlocfilehash: a44271cdbf52136e61702697a960cc3cbcd8119d
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 4003dcfca29a722ccdf9b86cca5aa1141fbdb367
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471004"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892808"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>사용자의 다른 전자 메일 별칭 추가
   
@@ -75,7 +75,7 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 사용자가 계
     이제 사용자에게 기본 주소와 별칭이 있습니다. 예를 들어 Eliza Hoffman의 기본 주소인 Eliza@NodPublishers.com 및 별칭인 Sales@NodPublishers.com 메일은 모두 지민의 받은 편지함으로 이동됩니다.
     
   
-7. **사용자가 답장하면 *From*  주소가 기본 전자 메일 별칭이 됩니다.** 예를 들어 메시지가 전자 메일로 전송된 Sales@NodPublishers.com 지민의 받은 편지함으로 도착하는 경우를 예로 들어 보겠습니다. 지민이 메시지에 회신하면 Sales@NodPublishers.com이 아니라 기본 전자 메일 주소가 보낸 사람으로 표시됩니다. 
+7. **사용자가 답장할 때 *From* 주소는 Outlook 클라이언트에 따라 달라 하게 됩니다. 웹용 Outlook에서는 전자 메일을 받은 별칭을 사용하게 됩니다(이를 ping-pong 원칙). Outlook 데스크톱에서는 기본 전자 메일 별칭을 사용하게 됩니다.** 예를 들어 메시지가 전자 메일로 전송된 Sales@NodPublishers.com 지민의 받은 편지함으로 도착하는 경우를 예로 들어 보겠습니다. Eliza가 Outlook 데스크톱을 사용하여 메시지에 응답하면 기본 전자 메일 주소가 Eliza@NodPublishers.com 아닌 Sales@NodPublishers.com.
     
 ::: moniker-end
 
@@ -106,7 +106,7 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 사용자가 계
     이제 사용자에게 기본 주소와 별칭이 있습니다. 예를 들어 Eliza Hoffman의 기본 주소인 Eliza@NodPublishers.com 및 별칭인 Sales@NodPublishers.com 메일은 모두 지민의 받은 편지함으로 이동됩니다.
     
   
-7. **사용자가 답장하면 *From*  주소가 기본 전자 메일 별칭이 됩니다.** 예를 들어 메시지가 전자 메일로 전송된 Sales@NodPublishers.com 지민의 받은 편지함으로 도착하는 경우를 예로 들어 보겠습니다. 지민이 메시지에 회신하면 Sales@NodPublishers.com이 아니라 기본 전자 메일 주소가 보낸 사람으로 표시됩니다. 
+7. **사용자가 답장할 때 *From* 주소는 Outlook 클라이언트에 따라 달라 하게 됩니다. 웹용 Outlook에서는 전자 메일을 받은 별칭을 사용하게 됩니다(이를 ping-pong 원칙). Outlook 데스크톱에서는 기본 전자 메일 별칭을 사용하게 됩니다.** 예를 들어 메시지가 전자 메일로 전송된 Sales@NodPublishers.com 지민의 받은 편지함으로 도착하는 경우를 예로 들어 보겠습니다. Eliza가 Outlook 데스크톱을 사용하여 메시지에 응답하면 기본 전자 메일 주소가 Eliza@NodPublishers.com 아닌 Sales@NodPublishers.com.
 
 ::: moniker-end
 
@@ -137,7 +137,7 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 사용자가 계
     이제 사용자에게 기본 주소와 별칭이 있습니다. 예를 들어 Eliza Hoffman의 기본 주소인 Eliza@NodPublishers.com 및 별칭인 Sales@NodPublishers.com 메일은 모두 지민의 받은 편지함으로 이동됩니다.
     
   
-7. **사용자가 답장하면 *From*  주소가 기본 전자 메일 별칭이 됩니다.** 예를 들어 메시지가 전자 메일로 전송된 Sales@NodPublishers.com 지민의 받은 편지함으로 도착하는 경우를 예로 들어 보겠습니다. 지민이 메시지에 회신하면 Sales@NodPublishers.com이 아니라 기본 전자 메일 주소가 보낸 사람으로 표시됩니다. 
+7. **사용자가 답장할 때 *From* 주소는 Outlook 클라이언트에 따라 달라 하게 됩니다. 웹용 Outlook에서는 전자 메일을 받은 별칭을 사용하게 됩니다(이를 ping-pong 원칙). Outlook 데스크톱에서는 기본 전자 메일 별칭을 사용하게 됩니다.** 예를 들어 메시지가 전자 메일로 전송된 Sales@NodPublishers.com 지민의 받은 편지함으로 도착하는 경우를 예로 들어 보겠습니다. Eliza가 Outlook 데스크톱을 사용하여 메시지에 응답하면 기본 전자 메일 주소가 Eliza@NodPublishers.com 아닌 Sales@NodPublishers.com.
 
 ::: moniker-end
 
@@ -151,6 +151,10 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 사용자가 계
 
 
 GoDaddy 또는 다른 파트너로부터 구독을 구입한 경우 새 별칭을 기본으로 설정하려면 GoDaddy/파트너 관리 콘솔로 이동해야 합니다.
+
+## <a name="sending-email-from-the-proxy-address-easily"></a>프록시 주소에서 전자 메일 쉽게 보내기
+
+새로운 기능은 2021년 4월에 출시된 기능으로, 사용자가 웹용 Outlook을 사용할 때 별칭에서 쉽게 보낼 수 있습니다. 이 기능이 테넌트 관리자가 cmdlet을 사용하는 테넌트에 롤아웃하면 테넌시 내의 사용자는 각 항목이 Outlook 설정의 별칭에 해당하는 확인란 목록에 액세스할 `Set-OrganizationConfig -SendFromAliasEnabled $true` 수 있습니다. 별칭을 선택하면 작성 양식의 From 드롭다운에 별칭이 표시됩니다.
   
 ## <a name="related-articles"></a>관련 문서
 

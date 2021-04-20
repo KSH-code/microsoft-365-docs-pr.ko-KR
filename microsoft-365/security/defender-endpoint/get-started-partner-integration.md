@@ -1,7 +1,7 @@
 ---
-title: 끝점 파트너를 위한 Microsoft Defender 되기
+title: 엔드포인트용 Microsoft Defender 파트너 자격
 ms.reviewer: ''
-description: 솔루션을 Microsoft Defender ATP와 통합하고 파트너가 하기 위한 단계 및 요구 사항에 대해 자세히 알아보십시오.
+description: 끝점용 Microsoft Defender와 솔루션을 통합하고 파트너가 하기 위한 단계 및 요구 사항에 대해 자세히 알아보십시오.
 keywords: 파트너, 통합, 솔루션 유효성 검사, 인증, 요구 사항, 구성원, misa, 응용 프로그램 포털
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: ea7ebe1656c0173395df158b8f934ab388bea4ba
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 35ba1fe85fa9b62770142636d46303b37534b976
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072220"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893320"
 ---
-# <a name="become-a-microsoft-defender-for-endpoint-partner"></a>끝점 파트너를 위한 Microsoft Defender 되기
+# <a name="become-a-microsoft-defender-for-endpoint-partner"></a>엔드포인트용 Microsoft Defender 파트너 자격
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -58,7 +58,7 @@ Microsoft Defender for Endpoint 팀이 통합을 검토하고 승인하면 Micro
 5.  다중 테넌트 Azure AD 접근 방법을 사용하는 경우 응용 프로그램의 사용을 추적하려면 Azure AD 응용 프로그램 이름이 필요합니다.
 6. Endpoint User-Agent Api 또는 Graph Security API에 대한 Microsoft Defender에 대한 각 API 호출에 User-Agent 필드를 포함합니다. 이는 통계 목적, 문제 해결 및 파트너 인식에 사용됩니다. 또한 이 단계는 MISA(Microsoft Intelligent Security Association)의 멤버 자격에 대한 요구 사항입니다.
 
-    다음 단계를 따릅니다:
+    다음 단계를 따릅니다.
     
     - 각 HTTP User-Agent 헤더의 User-Agent 필드를 아래 형식으로 설정하십시오.
 

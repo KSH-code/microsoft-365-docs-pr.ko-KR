@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP에서 조건부 액세스 구성
+title: 끝점용 Microsoft Defender에서 조건부 액세스 구성
 description: 조건부 액세스를 구현하기 위해 Intune, Microsoft Defender 보안 센터 및 Azure에서 해야 하는 단계에 대해 자세히 알아보십시오.
 keywords: 조건부 액세스, 조건부, 액세스, 장치 위험, 위험 수준, 통합, intune 통합
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0185d7875ac149909ef088d041383a1cf36a8a3a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 482f86d4a0a181b72a0a33eeb1a857dce0664584
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165864"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893652"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 조건부 액세스 구성
 

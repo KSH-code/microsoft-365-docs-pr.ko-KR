@@ -1,6 +1,6 @@
 ---
 title: 목록 컴퓨터 API
-description: 목록 컴퓨터 API를 사용하여 Microsoft Defender ATP 클라우드와 통신한 컴퓨터 컬렉션을 검색하는 방법을 배워보세요.
+description: 목록 컴퓨터 API를 사용하여 끝점 클라우드용 Microsoft Defender와 통신한 컴퓨터 컬렉션을 검색하는 방법을 배워보세요.
 keywords: api, 그래프 api, 지원되는 api, get, 장치
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 23997cf4997ccfea8ee89a9b9ec5cc991dfa1ed0
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 01e36427116ad7bd845901e7da7f5aa152bd44f9
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200380"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893356"
 ---
 # <a name="list-machines-api"></a>목록 컴퓨터 API
 
@@ -80,7 +80,7 @@ GET https://api.securitycenter.microsoft.com/api/machines
 성공 및 컴퓨터 존재 - 본문에 컴퓨터 [](machine.md) 엔터티 목록이 있는 200 OK. 최신 컴퓨터를 찾을 수 없는 경우 - 404 찾을 수 없습니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

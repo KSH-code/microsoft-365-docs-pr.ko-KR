@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.custom: asr
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dbc794338442f9ed54a7227e702de1039b5ea71c
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 60efae91e4b65c5977bd2aebf111d9174d7c1042
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861758"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893556"
 ---
 # <a name="overview-of-attack-surface-reduction"></a>공격 표면 감소 개요
 
@@ -45,11 +45,11 @@ ms.locfileid: "51861758"
 문서 | 설명
 -|-
 [공격 표면 감소](./attack-surface-reduction.md) | 맬웨어를 중지하는 데 도움이 되는 지능형 규칙을 사용하여 응용 프로그램에서 취약성(공격 표면)을 줄입니다. (Microsoft Defender 바이러스 백신이 필요합니다.)
-[하드웨어 기반 격리](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview.md) | 시스템의 시작 및 실행 중일 때 시스템의 무결성을 보호하고 유지 관리합니다. 로컬 및 원격 인증을 통해 시스템 무결성의 유효성을 검사합니다. 또한 Microsoft Edge에 대한 컨테이너를 사용하여 악성 웹 사이트를 보호할 수 있습니다.
-[응용 프로그램 제어](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control.md) | 응용 프로그램을 실행하려면 응용 프로그램이 신뢰를 획득해야 하게 응용 프로그램 제어를 사용할 수 있습니다.
+[하드웨어 기반 격리](/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview) | 시스템의 시작 및 실행 중일 때 시스템의 무결성을 보호하고 유지 관리합니다. 로컬 및 원격 인증을 통해 시스템 무결성의 유효성을 검사합니다. 또한 Microsoft Edge에 대한 컨테이너를 사용하여 악성 웹 사이트를 보호할 수 있습니다.
+[응용 프로그램 제어](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control) | 응용 프로그램을 실행하려면 응용 프로그램이 신뢰를 획득해야 하게 응용 프로그램 제어를 사용할 수 있습니다.
 [악용 방지](./exploit-protection.md) | 조직에서 사용하는 운영 체제 및 앱이 악용되지 못하게 보호합니다. Exploit Protection은 타사 바이러스 백신 솔루션에서도 작동합니다.
 [네트워크 보호](./network-protection.md) | 조직의 장치에서 네트워크 트래픽 및 연결로 보호를 확장합니다. (Microsoft Defender 바이러스 백신 필요)
 [웹 보호](./web-protection-overview.md) | 웹 위협에 대해 장치를 보호하고 원치 않는 콘텐츠를 규제하는 데 도움이 됩니다.
 [제어된 폴더 액세스](./controlled-folders.md) | 악의적 또는 의심스러운 앱(파일 암호화 랜섬웨어 맬웨어 포함)이 주요 시스템 폴더의 파일을 변경하지 못하게 방지하는 데 도움이 됩니다(Microsoft Defender 바이러스 백신 필요).
-[네트워크 방화벽](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security.md) | 양측 네트워크 트래픽 필터링을 사용하여 권한이 없는 트래픽이 조직의 장치에서 유입되는 것을 방지합니다.
+[네트워크 방화벽](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security) | 양측 네트워크 트래픽 필터링을 사용하여 권한이 없는 트래픽이 조직의 장치에서 유입되는 것을 방지합니다.
 [공격 표면 감소 FAQ](./attack-surface-reduction-faq.md) | 공격 표면 감소 규칙, 라이선싱에 대한 질문과 대답

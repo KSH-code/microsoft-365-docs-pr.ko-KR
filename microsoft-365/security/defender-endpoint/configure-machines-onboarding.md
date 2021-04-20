@@ -1,6 +1,6 @@
 ---
-title: Microsoft Defender ATP에 장치 온보딩
-description: Intune 관리 장치의 온보딩을 Microsoft Defender ATP로 추적하고 온보딩 비율을 높입니다.
+title: 끝점용 Microsoft Defender에 장치 온보딩
+description: 끝점용 Microsoft Defender에 Intune 관리 장치의 온보딩을 추적하고 온보딩 비율을 높입니다.
 keywords: 온보드, Intune 관리, MDATP, WDATP, Microsoft Defender, Windows Defender, 고급 위협 방지, 구성 관리
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6145acd5e8e2743ff42dce3cf01af0128e8ca225
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 5e20c424f15561c8b6f0544b80aca6e30c56409d
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166092"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893332"
 ---
 # <a name="get-devices-onboarded-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 장치 온보딩
 
@@ -74,6 +74,6 @@ Endpoint용 Defender는 Windows [10](onboard-configure.md)장치를 온보딩하
 >Microsoft Defender ATP를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
 
 ## <a name="related-topics"></a>관련 항목
-- [장치가 올바르게 구성되었는지 확인](configure-machines.md)
+- [장치가 올바르게 구성되어 있는지 확인](configure-machines.md)
 - [엔드포인트 보안 기준에 대한 Defender 준수 강화](configure-machines-security-baseline.md)
 - [ASR 규칙 배포 및 검색 최적화](configure-machines-asr.md)

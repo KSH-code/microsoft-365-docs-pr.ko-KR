@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ead616b7af3df05f4c0c5755ad779f0251555734
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 2382281fbb975daa18ec21aabaf5acf8d3fbfb2f
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074583"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893440"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>끝점용 Microsoft Defender 평가 랩
 
@@ -74,10 +74,10 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 ![메뉴의 평가 랩 이미지](images/evaluation-lab-menu.png)
 
 >[!NOTE]
->- 각 환경은 제한된 테스트 장치 집합으로 프로비전됩니다.
 >- 선택한 환경 구조의 유형에 따라 정품 인증일로부터 지정된 시간 동안 디바이스를 사용할 수 있습니다.
->- 프로비전된 장치를 사용한 경우 새 장치가 제공되지 않습니다. 삭제된 장치는 사용 가능한 테스트 장치 수를 새로 고치지 않습니다.
->- 제한된 리소스가 제공된 경우 장치를 신중하게 사용하는 것이 가장 쉽습니다.
+>- 각 환경은 제한된 테스트 장치 집합으로 프로비전됩니다. 프로비전된 장치를 사용한 경우 새 장치가 제공되지 않습니다. 삭제된 장치는 사용 가능한 테스트 장치 수를 새로 고치지 않습니다.
+>- 리소스를 사용한 경우 더 이상 랩을 사용할 수 없습니다. 다시 설정하거나 새로 고치지 않습니다.
+>- 리소스를 신중하게 사용하는 것이 입니다. 랩 리소스는 제한됩니다. 다시 설정하거나 새로 고치지 않습니다. 
 
 이미 랩이 있나요? 새 위협 시뮬레이터를 사용하도록 설정하고 활성 장치를 설정해야 합니다.
 
@@ -125,7 +125,7 @@ RBAC(역할 기반 액세스 제어)를 사용하도록 설정하고 하나 이�
 - [공격 표면 감소](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)
 - [차단 시 차단](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
 - [제어된 폴더 액세스](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/controlled-folders-exploit-guard)
-- [Exploit Protection](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-exploit-protection)
+- [악용 방지](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-exploit-protection)
 - [네트워크 보호](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard)
 - [잠재적으로 원치 않는 응용 프로그램 검색](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
 - [클라우드 제공 보호](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)

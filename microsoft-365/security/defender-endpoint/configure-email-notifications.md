@@ -1,7 +1,7 @@
 ---
 title: 끝점용 Microsoft Defender에서 경고 알림 구성
 description: 끝점용 Microsoft Defender를 사용하여 심각도 및 기타 기준에 따라 보안 경고에 대한 전자 메일 알림 설정을 구성할 수 있습니다.
-keywords: 전자 메일 알림, 경고 알림 구성, Microsoft Defender atp 알림, Microsoft Defender atp 경고, Windows 10 Enterprise, Windows 10 Education
+keywords: 전자 메일 알림, 경고 알림 구성, 끝점용 Microsoft Defender, 끝점 알림용 Microsoft Defender, 끝점 경고용 Microsoft Defender, Windows 10 Enterprise, Windows 10 Education
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d5a19464b9d5d1b9659d7bfae2d853f7a640a00b
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b629d6a90931026ce28ce241e74d490ce67c6962
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687892"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893631"
 ---
 # <a name="configure-alert-notifications-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 경고 알림 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-emailconfig-abovefoldlink)
@@ -69,7 +69,7 @@ RBAC(역할 기반 액세스 제어)를 사용하는 경우 받는 사람은 알
 
 4. **다음** 을 클릭합니다.
     
-5. 받는 사람의 전자 메일 주소를 입력한 다음 받는 사람 **추가를 클릭합니다.** 여러 전자 메일 주소를 추가할 수 있습니다.
+5. 받는 사람의 전자 메일 주소를 입력한 다음 받는 사람 **추가를 클릭합니다.** 이메일 주소를 여러 개 추가할 수 있습니다.
 
 6. 테스트 전자 메일 보내기 를 선택하여 전자 메일 받는 사람이 전자 메일 알림을 **받을 수 있는지 확인**
 

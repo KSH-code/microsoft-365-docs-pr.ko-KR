@@ -1,6 +1,6 @@
 ---
 title: Windows 10 장치용 온보딩 도구 및 방법
-description: 센서 데이터를 Microsoft Defender ATP 센서로 보낼 수 있도록 Windows 10 디바이스 온보딩
+description: 센서 데이터를 끝점용 Microsoft Defender 센서로 보낼 수 있도록 Windows 10 디바이스 온보딩
 keywords: Windows 10 장치 온보딩, 그룹 정책, 끝점 구성 관리자, 모바일 장치 관리, 로컬 스크립트, gp, sccm, mdm, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 77b843f9526d8b100845403bc8d2df4bf3259471
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: f1ef2670a1ca749e0a2f1ebc96300d4eca043bf8
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760215"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892832"
 ---
 # <a name="onboarding-tools-and-methods-for-windows-10-devices"></a>Windows 10 장치용 온보딩 도구 및 방법
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 - [Microsoft 365 끝점 DLP(데이터 손실 방지)](/microsoft-365/compliance/endpoint-dlp-learn-about)
 - [Microsoft 365 내부자 위험 관리](/microsoft-365/compliance/insider-risk-management)

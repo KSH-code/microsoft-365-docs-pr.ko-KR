@@ -1,5 +1,5 @@
 ---
-title: 그룹 정책을 통해 Windows 10 장치를 Microsoft Defender ATP에 온보딩
+title: 그룹 정책을 통해 끝점용 Microsoft Defender에 Windows 10 장치 온보딩
 description: 그룹 정책을 사용하여 Windows 10 장치에 구성 패키지를 배포하여 서비스에 온보드합니다.
 keywords: 그룹 정책을 사용하여 장치 구성, 장치 관리, Windows ATP 장치 구성, 끝점 장치용 Microsoft Defender 온보딩, 그룹 정책
 search.product: eADQiWindows 10XVcnh
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: fc4b17ef96e85d3bacd4e83c2de3f4bb7fbfa5c3
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b839cf204e8ab042e0c88a8f8c48df79770e7b4f
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166176"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893637"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>그룹 정책을 사용하여 Windows 10 장치 온보드 
 
@@ -31,7 +31,7 @@ ms.locfileid: "51166176"
 **적용 대상:**
 
 - 그룹 정책
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpointsgp-abovefoldlink)
@@ -42,7 +42,7 @@ ms.locfileid: "51166176"
 > 
 > Windows Server 2019의 경우 그룹 정책 기본 설정에서 만드는 XML 파일의 NT AUTHORITY\Well-Known-System-Account를 NT AUTHORITY\SYSTEM으로 교체해야 할 수 있습니다.
 
-## <a name="onboard-devices-using-group-policy"></a>그룹 정책을 사용하여 장치 온보드
+## <a name="onboard-devices-using-group-policy"></a>그룹 정책을 사용하여 장치 온보딩
 
 [![다양한 배포 경로를 보여 주며 PDF 이미지](images/onboard-gp.png)](images/onboard-gp.png#lightbox)
 
@@ -242,6 +242,6 @@ Microsoft MAPS에 가입 | 사용, 고급 지도
 - [Microsoft Endpoint Configuration Manager를 사용하여 Windows 10 장치 온보드](configure-endpoints-sccm.md)
 - [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md)
 - [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](configure-endpoints-script.md)
-- [비영구 가상 데스크톱 인프라(VDI) 장치 온보딩](configure-endpoints-vdi.md)
+- [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
 - [새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 실행](run-detection-test.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 4f3b2b54370e3481699a540dd8fd2acc30be7514
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 84caa39b44a4e0706b1fe4a103d8a8a14c52daed
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768881"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892978"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결
 
@@ -30,7 +30,7 @@ ms.locfileid: "51768881"
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - Windows Server 2012 R2
 - Windows Server 2016
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
@@ -255,7 +255,7 @@ Window Defender ATP 센서를 사용하려면 Microsoft Windows HTTP(WinHTTP)가
 
 WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 응용 프로그램과는 독립적이며 특정 환경에서 사용할 수 있는 프록시 서버를 검색할 수 있어야 합니다.
 
-센서가 서비스에 연결되도록 보장하기 위해 끝점 서비스 [URL에 대한 Microsoft Defender에](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-atp-service-urls) 대한 클라이언트 연결 확인 항목에 설명된 단계를 따르세요.
+센서가 서비스에 연결되도록 보장하기 위해 끝점 서비스 [URL에 대한 Microsoft Defender에](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls) 대한 클라이언트 연결 확인 항목에 설명된 단계를 따르세요.
 
 확인에 실패하고 사용자 환경이 프록시를 사용하여 인터넷에 연결하는 경우 프록시 및 인터넷 연결 설정 구성 항목에 설명된 단계를 [따릅니다.](configure-proxy-internet.md)
 
@@ -307,7 +307,7 @@ WinHTTP는 인터넷 검색 프록시 설정 및 기타 사용자 컨텍스트 �
 
 다음을 확인해야 할 수도 있습니다.
 
-- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예를 들면 다음과 같습니다.
+- 작업 관리자의 프로세스 탭에서 실행되는 끝점  서비스에 대한 Microsoft Defender가 **있는지 확인** 예제:
 
     ![Endpoint Service용 Microsoft Defender를 실행하는 프로세스 보기의 이미지](images/atp-task-manager.png)
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Microsoft Bookings에 대한 질문과 대답
-ms.openlocfilehash: d357ae83d7fe6fdd9f3d0bff724b037e82a3f5d0
-ms.sourcegitcommit: 1df94f04f138ccf1a2356d26174335c44de7052b
+ms.openlocfilehash: 5338d710fa58ff9eba88b068f4fb412cecb83ae1
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50999532"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892920"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Microsoft Bookings 질문과 대답
 
@@ -118,7 +118,7 @@ Bookings는 다양한 산업에서 엔터프라이즈 및 중소기업 고객에
 
 ### <a name="how-do-i-get-microsoft-bookings"></a>Microsoft Bookings를 다운로드하는 방법
 
-예약은 iOS 및 Android 도우미 앱과 함께 Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 및 E5 라이선스가 있는 고객을 위해 Microsoft 365에서 사용할 수 있습니다. 예약은 독립 실행형 앱으로 사용할 수 없습니다. Outlook Web App Outlook에 데이터를 저장하기 때문에 Bookings를 사용하려면 웹용 Outlook 또는 웹용 Outlook을 사용하도록 설정해야 합니다.
+예약은 Office 365 A3, A5, E3 및 E5를 사용하며 Microsoft 365 Business Standard, Microsoft 365 Business Premium, A3, A5, E3 및 E5를 사용 하는 고객에게 제공됩니다. iOS 및 Android 도우미 앱에서 Bookings를 사용할 수 있습니다. 예약은 독립 실행형 앱으로 사용할 수 없습니다. Outlook Web App Outlook에 데이터를 저장하기 때문에 Bookings를 사용하려면 웹용 Outlook 또는 웹용 Outlook을 사용하도록 설정해야 합니다.
 
 Bookings 라이선스는 일정 만들기 및 관리를 포함하여 제품에 모든 기능을 제공합니다. 또한 사용자가 관리자 또는 뷰어 역할의 직원으로 추가될 때 사용자가 기존 일정을 보고 편집할 수 있습니다.
 

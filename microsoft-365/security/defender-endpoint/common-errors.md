@@ -1,6 +1,6 @@
 ---
-title: 일반적인 Microsoft Defender ATP API 오류
-description: 설명이 있는 일반적인 Microsoft Defender ATP API 오류 목록입니다.
+title: 끝점 API 오류에 대한 일반적인 Microsoft Defender
+description: 설명이 있는 일반적인 끝점 API 오류에 대한 Microsoft Defender 목록입니다.
 keywords: api, mdatp api, 오류, 문제 해결
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ddbbe07bc477ae3a5016feb795b5bad5ed82a30a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4fc2aeb6ee5a95f7eb121abdcf4431dc6d34cd49
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072415"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893464"
 ---
 # <a name="common-rest-api-error-codes"></a>일반적인 REST API 오류 코드
 
@@ -69,7 +69,7 @@ TooManyRequests | 요청 수가 너무 많음(429) | 응답은 요청 수 또는
 <br>이 매개 변수의 속성 이름은 "target"입니다.
 <br>오류에 대해 문의할 때 이 ID를 첨부하면 문제의 근본 원인을 찾는 데 도움이 됩니다.
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 ```json
 {

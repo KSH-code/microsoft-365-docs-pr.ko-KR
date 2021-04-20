@@ -1,7 +1,7 @@
 ---
 title: 끝점 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender
 description: 끝점용 Microsoft Defender가 수집하는 개인 정보 및 데이터를 처리하는 방법에 대해 자세히 알아보습니다.
-keywords: Endpoint용 Microsoft Defender, Microsoft Defender ATP, 데이터 저장소 및 개인 정보, 저장소, 개인 정보, 라이선싱, 지리적 위치, 데이터 보존, 데이터
+keywords: 끝점용 Microsoft Defender, 끝점용 Microsoft Defender, 데이터 저장소 및 개인 정보, 저장소, 개인 정보, 라이선싱, 지리적 위치, 데이터 보존, 데이터
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e19c64c01c892a8a5f47f5892882feab1242f897
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 2b191c4a24ce170d23fc3d9e43293cc7bbe59e80
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644491"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892820"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>끝점 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
