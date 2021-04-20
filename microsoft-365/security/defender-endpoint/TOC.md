@@ -175,6 +175,9 @@
 ##### [제어된 폴더 액세스 사용](enable-controlled-folders.md)
 ##### [제어된 폴더 액세스 사용자 지정](customize-controlled-folders.md)
 
+#### [장치 제어]()
+##### [장치 제어 보고서](device-control-report.md)
+##### [USB 장치 제어](control-usb-devices-using-intune.md)
 
 ### [장치 검색]()
 #### [장치 검색 개요](device-discovery.md)
