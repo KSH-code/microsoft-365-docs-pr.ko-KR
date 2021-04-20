@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 964b7ee01277f396760543c45de8e6207df6bfcb
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8c5173da14e1b1ae1820f00e79feb966ba7f15f6
+ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071484"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899343"
 ---
 # <a name="provide-feedback-on-microsoft-365-defender"></a>Microsoft 365 Defender에 대한 피드백 제공
 
@@ -36,6 +36,11 @@ ms.locfileid: "51071484"
 - Microsoft 365 Defender
 
 사용자 의견은 고급 공격으로부터 환경을 보호하는 데 도움이 됩니다. 피드백을 제공하여 사용자 환경, 노출 수 및 요청을 공유합니다.
+
+피드백을 제공하는 것이 얼마나 쉬운지 확인을 위해 이 비디오를 시청해 봐야 합니다.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4LWeP]
+
 
 1. 포털의 모든 부분에서 피드백 **보내기 를 선택합니다.** 
 

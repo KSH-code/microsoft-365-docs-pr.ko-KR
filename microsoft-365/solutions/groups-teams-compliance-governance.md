@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Microsoft 365 그룹, Teams 및 SharePoint 공동 작업의 규정 준수 옵션에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 88083d88b274e750e0fc6f1907268c996312163c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5006f0cf9f7eb174082d4fc2508bf112864fcba3
+ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920895"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899355"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Microsoft 365 그룹, Teams 및 SharePoint 공동 작업을 위한 규정 준수 옵션
 
@@ -28,7 +28,7 @@ Microsoft 365는 사용자가 공동 작업을 할 때 규정 준수를 유지�
 
 다음 표에서는 Microsoft 365에서 사용할 수 있는 준수 컨트롤에 대한 빠른 참조를 제공합니다. 추가 정보는 다음 섹션에서 제공됩니다.
 
-|범주|설명|참조|
+|범주|설명|참고자료|
 |:-------|:----------|:--------|
 |정보 보존|||
 ||그룹 메일 및 SharePoint 콘텐츠 보존|[SharePoint 및 OneDrive의 보존 정책에 대해 자세히 알아보기](../compliance/retention-policies-sharepoint.md)|
@@ -60,7 +60,7 @@ Teams에 대한 보존 정책은 채팅 및 채널 메시지를 보존합니다.
 
 - [Microsoft Teams의 보존 정책](/microsoftteams/retention-policies)
 
-단일 보존 정책을 설정하여 Microsoft 365 그룹, Teams 채팅 및 Teams 채널 메시지에 적용할 수 있습니다. 
+Teams 채팅 및 Teams 채널 메시지에 적용하기 위해 단일 보존 정책을 설정할 수 있습니다. 
 
 추가 리소스:
 
@@ -113,7 +113,7 @@ Teams의 DLP는 중요한 정보가 포함된 메시지를 삭제하여 Teams �
 
 - [SharePoint에서 정보 장벽 사용](/sharepoint/information-barriers)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
