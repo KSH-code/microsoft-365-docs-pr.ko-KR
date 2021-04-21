@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 4187cc69acba30ae5cbcad093d91ec291b42bca5
-  ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+  ms.openlocfilehash: 1085b54a4b879a316b57cad89e138a73c871370e
+  ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/26/2021
-  ms.locfileid: "51382498"
+  ms.lasthandoff: 04/20/2021
+  ms.locfileid: "51904179"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
@@ -26,8 +26,64 @@ landingContent:
     links:
     - text: Microsoft 365 Defender란 무엇인가요?
       url: ../defender/microsoft-365-defender.md
-    - text: Microsoft 365 보안 센터
-      url: ../defender/overview-security-center.md
+  - linkListType: whats-new
+    links:
+    - text: 새로운 iMicrosoft 365 Defender
+      url: ../defender/whats-new.md
+  - linkListType: video
+    links:
+    - text: 개요 비디오
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE4Bzww
+- title: 기능 평가
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: 평가판 랩 만들기
+      url: m365d-evaluation.md
+    - text: 프로덕션에서 파일럿 프로젝트 실행
+      url: m365d-pilot.md
+- title: 시작
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Microsoft 365 Defender 시작
+      url: get-started.md
+  - linkListType: deploy
+    links:
+    - text: Microsoft 365 Defender 켜기
+      url: m365d-enable.md
+    - text: 지원 서비스 배포
+      url: deploy-supported-services.md
+- title: ID용 Microsoft Defender
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: ID용 Microsoft Defender란?
+      url: /azure-advanced-threat-protection/what-is-atp
+    - text: ID 아키텍처용 Microsoft Defender
+      url: /azure-advanced-threat-protection/atp-architecture
+- title: Office 365용 Microsoft Defender
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Office 365용 Defender란 무엇인가요?
+      url: /office-365-security/defender-for-office-365
+    - text: Office 365용 Defender 서비스 설명
+      url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
+    - text: Microsoft 365 Defender의 Office 365용 Defender
+      url: /defender/microsoft-365-security-center-mdo
+    - text: Microsoft 365 Defender에서 Office 365용 Defender 리디렉션
+      url: /defender/microsoft-365-security-mdo-redirection
+- title: 엔드포인트용 Microsoft Defender
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 엔드포인트용 Microsoft Defender란 무엇인가요?
+      url: /defender-endpoint/microsoft-defender-endpoint
+    - text: Microsoft 365 Defender의 끝점용 Defender
+      url: /defender/microsoft-365-security-cente
+    - text: Microsoft 365 Defender에서 끝점에 대한 Defender 리디렉션
+      url: /defender/microsoft-365-security-mde-redirection
 - title: Microsoft 365 보안 센터
   linkLists:
   - linkListType: overview
@@ -38,13 +94,29 @@ landingContent:
       url: microsoft-365-security-center-mde.md
     - text: Microsoft 365 보안 센터의 Office 365용 Microsoft Defender
       url: ../defender/microsoft-365-security-center-mdo.md
+- title: Microsoft Cloud App Security
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Microsoft Cloud App Security란 무엇인가요?
+      url: /cloud-app-security/what-is-cloud-app-security
+    - text: Microsoft Cloud App Security 시작
+      url: /cloud-app-security/getting-started-with-cloud-app-security
 - title: 인시던트 및 경고 관리
   linkLists:
   - linkListType: overview
     links:
     - text: 인시던트 조사
       url: investigate-incidents.md
+    - text: 새로운 위협 추적 및 대응
+      url: threat-analytics.md
     - text: 자동화된 조사 및 응답
       url: m365d-autoir.md
     - text: 위협에 대한 헌팅
       url: advanced-hunting-overview.md
+- title: 참조
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Microsoft 365 Defender API(미리 보기)
+      url: api-overview.md
