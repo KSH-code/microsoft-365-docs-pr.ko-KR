@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 362222e4737b1a8dd6b8a0a284bf3bfb1903c288
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: aa699aae24b1e6383f5a2afbe7fce31e0f53805c
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861453"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903931"
 ---
-# <a name="deploy-defender-for-endpoint-on-linux-with-chef"></a>Linux에서 Endpoint용 Defender 배포(인피니트)
+# <a name="deploy-defender-for-endpoint-on-linux-with-chef"></a>Chef를 통해 Microsoft Defender for Endpoint(Linux용) 배포
 
 시작하기 전에 다음을 수행해야 합니다:
 
@@ -110,7 +110,7 @@ end
 
 경로 이름을 온보더링 파일의 위치로 업데이트해야 합니다.
 지우기 작업에서 배포를 테스트하기 위해 를 ``sudo chef-client -z -o mdatp`` 실행합니다.
-배포 후 Linux용 Microsoft Defender ATP 기본 설정 - Windows 보안 설정에 따라 구성 파일을 만들어 서버에 [배포하는 것이 | Microsoft Docs.](/windows/security/threat-protection/microsoft-defender-atp/linux-preferences)  
+배포 후  [Linux의 끝점용 Microsoft Defender에](/linux-preferences.md)대한 기본 설정 설정에 따라 구성 파일을 만들어 서버에 배포하는 것을 고려해야 합니다.  
 구성 파일을 만들어 테스트한 후 이 파일을 온보더링 패키지를 배치한 준비 문서/mdatp/files 폴더에 배치할 수 있습니다.  그런 다음 mdatp/recipies 폴더에 settings_mdatp.rb 파일을 만들고 다음 텍스트를 추가할 수 있습니다.
 
 ```powershell

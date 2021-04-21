@@ -1,7 +1,7 @@
 ---
-title: iOS용 Microsoft Defender ATP용 앱 기반 배포
+title: iOS의 끝점용 Microsoft Defender용 앱 기반 배포
 ms.reviewer: ''
-description: 앱을 사용하여 iOS용 Microsoft Defender ATP를 배포하는 방법에 대해 설명
+description: 앱을 사용하여 iOS에서 끝점용 Microsoft Defender를 배포하는 방법을 설명
 keywords: microsoft, defender, atp, ios, 앱, 설치, 배포, 제거, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,19 +18,19 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6cfd2953e752ed9c96f7f16a3ec7ea1fd8862ab2
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 4ddaf8759fa0f2ffb4ed3eb3bb940426dfb3da2c
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689740"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904061"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>iOS에서 끝점용 Microsoft Defender 배포
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -44,7 +44,7 @@ ms.locfileid: "51689740"
 - 사용자에 대해 iOS 등록이 완료되도록 합니다. iOS용 Endpoint용 Defender를 사용하려면 사용자에게 끝점용 Defender 라이선스가 할당되어 있습니다. 라이선스를 [할당하는](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) 방법에 대한 지침은 사용자에게 라이선스 할당을 참조하세요.
 
 > [!NOTE]
-> 이제 Apple App Store에서 iOS용 Microsoft Defender ATP(Microsoft Defender for Endpoint)를 [사용할 수 있습니다.](https://aka.ms/mdatpiosappstore)
+> 이제 Apple App Store에서 iOS의 끝점용 Microsoft [Defender를 사용할 수 있습니다.](https://aka.ms/mdatpiosappstore)
 
 ## <a name="deployment-steps"></a>배포 단계
 

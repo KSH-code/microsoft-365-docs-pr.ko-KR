@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 일정을 만드는 방법을 배워야 합니다.
-ms.openlocfilehash: 8877cce7234890dca5cd83a74c69b93d3b1dcd04
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 684122bcbccd7e8a419cc98eb0d0028c6218141a
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580393"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903697"
 ---
 # <a name="create-a-shared-calendar"></a>공유 일정 만들기
 
@@ -40,3 +40,7 @@ ms.locfileid: "51580393"
 1. 이름을 입력하거나 목록에서 이름을 선택하여 공유 일정에 사용자를 추가한 다음 확인 을 **선택합니다.**
 1. 이제 추가한 사용자에 대한 일정 및 일정을 볼 수 있습니다.
 1. 그룹의 가용성을 확인 하 고 일 **보기를** 선택 합니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Outlook에서 일정](https://support.microsoft.com/office/manage-your-calendar-and-contacts-in-outlook-631a182a-21e0-4e41-8fa2-0d83e55da02d) 및 연락처 관리(문서) [전자 메일 공동](https://docs.microsoft.com/microsoft-365/admin/email/email-collaboration) 작업(문서) Microsoft [365](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview) 관리 센터 개요(문서)

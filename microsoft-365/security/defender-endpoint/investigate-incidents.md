@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP에서 인시던트 조사
+title: 끝점용 Microsoft Defender에서 인시던트 조사
 description: 관련 경고를 보고, 인시던트 관리하고, 인시던트 조사에 도움이 되는 경고 메타데이터를 참조
 keywords: 조사, 인시던트, 경고, 메타데이터, 위험, 검색 원본, 영향을 받는 장치, 패턴, 상관 관계
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5a74da55d733d690cb218c78b87b67d6eba6b9d2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 1d8f4452273047684a30db3b18d1281f40f46378
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186056"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903301"
 ---
 # <a name="investigate-incidents-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 인시던트 조사
 

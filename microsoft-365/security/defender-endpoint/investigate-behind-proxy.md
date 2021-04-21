@@ -1,6 +1,6 @@
 ---
 title: 전달 프록시 뒤에 발생하는 연결 이벤트 조사
-description: 프록시 대신 실제 대상을 표시하는 Microsoft Defender ATP의 네트워크 보호를 통해 고급 HTTP 수준 모니터링을 사용하는 방법을 알아보십시오.
+description: 프록시 대신 실제 대상을 표시하는 끝점용 Microsoft Defender의 네트워크 보호를 통해 고급 HTTP 수준 모니터링을 사용하는 방법을 알아보십시오.
 keywords: 프록시, 네트워크 보호, 전달 프록시, 네트워크 이벤트, 감사, 차단, 도메인 이름, 도메인
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,19 +17,19 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 28d8a113ed77e9624bd914571b1af4a7ece2aa5c
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 47be07759a72a080a3687ed3bb50cef9d0a959b7
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587566"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904049"
 ---
 # <a name="investigate-connection-events-that-occur-behind-forward-proxies"></a>전달 프록시 뒤에 발생하는 연결 이벤트 조사
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatemachines-abovefoldlink)

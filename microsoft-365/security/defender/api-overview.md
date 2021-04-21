@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 14553f3891fd81a672b62fa0575f6c253fbb0224
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 496ad5695d9cd491817bad5daf3c76a02addefd1
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060808"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904191"
 ---
 # <a name="overview-of--microsoft-365-defender-apis"></a>Microsoft 365 Defender API 개요
 
@@ -47,6 +47,11 @@ Microsoft 365 Defender API를 사용하여 공유 인시던트 및 고급 헌팅
 - **[제품](api-advanced-hunting.md)** 간 위협 헌팅 - 여러 보호 제품에서 수집된 원시 데이터를 분산하기 위해 사용자 지정 쿼리를 만들어 보안 팀의 조직 지식을 활용하여 손상 징후를 찾습니다.
 
 이러한 Microsoft 365 Defender 관련 API와 함께 다른 각 보안 제품은 고유한 기능을 활용하는 데 도움이 되는 추가 [API를](api-articles.md) 노출합니다.
+
+
+> [!NOTE]
+> 통합 포털로 전환하면 끝점 API용 Microsoft Defender를 기반으로 하는 PowerBi 대시보드에 영향을 주지 않습니다. 대화형 포털 전환에 관계없이 기존 API를 계속 사용할 수 있습니다.
+
 
 ## <a name="learn-more"></a>자세히 알아보기
 

@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: d89e5dc29bfe7f980d40a9a5b139884750a966bc
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 2e1553b231692d184146897ddc05e11930ed1bf0
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760017"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903977"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>통합된 Microsoft 365 보안 센터 개요
 
@@ -149,6 +149,9 @@ Microsoft 365 보안 센터에는 Microsoft 보안 블로그, YouTube의 Microso
 > 제품(현재  Microsoft 365 Defender, 끝점용 Microsoft Defender 및 Office 365용 Microsoft Defender) 중 선택할 수 있는 Microsoft 365 보안 센터 학습 허브 위쪽에 유용한 필터가 있습니다. 각 섹션의 학습 리소스 수가 나열되어 있으며, 이는 학습하는 사람이 교육 및 학습을 위해 얼마나 많은 리소스를 준비해야 하는지 추적하는 데 도움이 될 수 있습니다.
 >
 > 제품 필터, 현재 항목, 리소스 유형(비디오에서 웨비나까지), 보안 영역, 보안 역할 및 제품 기능에 대한 익숙하거나 경험 수준이 나열됩니다.
+
+> [!TIP]
+> Microsoft Learn 에는 다른 많은 학습 [기회가 있습니다.](https://docs.microsoft.com/e/learn/) [Ms-500T02-A: Microsoft 365 위협](https://docs.microsoft.com/learn/certifications/courses/ms-500t02)방지 구현과 같은 인증 교육을 찾을 수 있습니다.
 
 ## <a name="send-us-your-feedback"></a>피드백 보내기
 

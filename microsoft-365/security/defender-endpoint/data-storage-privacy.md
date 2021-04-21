@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2b191c4a24ce170d23fc3d9e43293cc7bbe59e80
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: dfdfcdcfb8d76f95e3b866f5f95af7efd94ed59e
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892820"
+ms.locfileid: "51904131"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>끝점 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender
 
@@ -90,7 +90,7 @@ Microsoft Azure Government 데이터 센터에 배포된 서비스에 대한 데
 
 ## <a name="how-long-will-microsoft-store-my-data-what-is-microsofts-data-retention-policy"></a>Microsoft에서 내 데이터를 얼마나 오래 저장하나요? Microsoft의 데이터 보존 정책이란?
 **At service onboarding**<br>
-데이터에 대한 데이터 보존 정책을 선택할 수 있습니다. 이렇게 하면 끝점용 Window Defender에서 데이터를 저장할 기간이 결정됩니다. 회사의 규정 준수 요구를 충족하기 위해 1개월에서 6개월까지 유연하게 선택할 수 있습니다.
+기본적으로 데이터는 180일 동안 보존됩니다. 그러나 데이터에 대한 데이터 보존 정책을 지정할 수 있습니다. 이렇게 하면 끝점용 Window Defender에서 데이터를 저장할 기간이 결정됩니다. 회사의 규정 준수 요구를 충족하기 위해 1개월에서 6개월까지 유연하게 선택할 수 있습니다.
 
 **계약 종료 또는 만료 시**<br>
 라이선스가 유예 기간 또는 일시 중단 모드에 있는 동안에는 데이터가 보관된 후 사용할 수 있습니다. 이 기간이 끝나면 계약 종료 또는 만료일로부터 180일이 지워지기 전까지 해당 데이터가 Microsoft 시스템에서 지워지기 때문에 데이터를 읽을 수 없습니다.

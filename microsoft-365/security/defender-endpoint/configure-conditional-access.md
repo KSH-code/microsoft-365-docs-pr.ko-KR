@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 482f86d4a0a181b72a0a33eeb1a857dce0664584
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: e68a8c35fb1028fa8e60cf52a8e8bb411a534b19
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893652"
+ms.locfileid: "51903781"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 조건부 액세스 구성
 
@@ -98,7 +98,7 @@ Microsoft Defender 보안 센터, Intune 포털 및 Azure AD 포털에서 수행
 
 ### <a name="step-4-assign-the-policy"></a>4단계: 정책 할당
 1. Azure [Portal에서](https://portal.azure.com)모든 **서비스를** 선택하고 **Intune을** 필터링하고 **Microsoft Intune 을 선택합니다.**
-2. 장치 **준수 정책을>** Microsoft  >   Defender ATP 규정 준수 정책을 선택합니다.
+2. 장치 **준수 정책을>** Microsoft  >   Defender 준수 정책을 선택합니다.
 3. **과제** 를 선택합니다.
 4. Azure AD 그룹을 포함하거나 제외하여 정책을 할당합니다.
 5. 그룹에 정책을 배포하려면 저장 을 **선택합니다.** 정책이 대상으로 하는 사용자 장치는 규정 준수로 평가됩니다.
@@ -114,6 +114,6 @@ Microsoft Defender 보안 센터, Intune 포털 및 Azure AD 포털에서 수행
 
 6. 정책 **사용 을** 선택한 다음 **만들기를 선택하여** 변경 내용을 저장합니다.
 
-자세한 내용은 Intune에서 조건부 액세스로 [Microsoft Defender ATP 사용 을 참조하세요.](https://docs.microsoft.com/intune/advanced-threat-protection)
+자세한 내용은 Intune에서 조건부 액세스를 통해 [끝점에 대한 Microsoft Defender 준수 적용을 참조하세요.](https://docs.microsoft.com/intune/advanced-threat-protection)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-conditionalaccess-belowfoldlink)

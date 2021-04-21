@@ -1,7 +1,7 @@
 ---
-title: Linux용 Microsoft Defender ATP 리소스
+title: Linux 리소스의 끝점용 Microsoft Defender
 ms.reviewer: ''
-description: Linux용 Microsoft Defender ATP에 대한 리소스( 제거 방법, 진단 로그 수집 방법, CLI 명령 및 제품에 대한 알려진 문제 포함)에 대해 설명
+description: Linux의 끝점용 Microsoft Defender에 대한 리소스( 제거 방법, 진단 로그 수집 방법, CLI 명령 및 제품에 대한 알려진 문제 포함)에 대해 설명
 keywords: microsoft, defender, atp, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a4f2324bc47bdee38e1cdeed1e21b5f9063e9a5c
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: de2602bdc94507d27236b939553a6567b2587f36
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587067"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903145"
 ---
 # <a name="resources"></a>리소스
 
@@ -31,7 +31,7 @@ ms.locfileid: "51587067"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)

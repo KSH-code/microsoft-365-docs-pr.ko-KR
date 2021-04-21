@@ -1,6 +1,6 @@
 ---
-title: Linux용 Microsoft Defender ATP에 대한 누락된 이벤트 또는 경고 문제 해결
-description: Linux용 Microsoft Defender ATP에서 누락된 이벤트 또는 경고 문제를 해결합니다.
+title: Linux에서 끝점용 Microsoft Defender에 대한 누락된 이벤트 또는 경고 문제 해결
+description: Linux의 끝점용 Microsoft Defender에서 누락된 이벤트 또는 경고 문제를 해결합니다.
 keywords: microsoft, defender, atp, linux, 이벤트
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5981cb75b4c835390e27d902b5950e3c68305200
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 40d394a4fc7349789dea9bd96ccdaf71067ab39e
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687457"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904001"
 ---
 # <a name="troubleshoot-missing-events-or-alerts-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender에 대한 누락된 이벤트 또는 경고 문제 해결
 
@@ -31,7 +31,7 @@ ms.locfileid: "51687457"
 
 **적용 대상:**
 
-- [Linux의 끝점용 Microsoft Defender](microsoft-defender-endpoint-linux.md)
+- [Microsoft Defender for Endpoint(Linux용)](microsoft-defender-endpoint-linux.md)
 
 이 문서에서는 보안 센터 포털에서 누락된 이벤트 또는 알림을 완화하는 몇 가지 일반적인 [단계를](https://securitycenter.windows.com/) 제공합니다.
 

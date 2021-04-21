@@ -1,7 +1,7 @@
 ---
-title: Linux용 Microsoft Defender ATP의 클라우드 연결 문제 해결
+title: Linux에서 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결
 ms.reviewer: ''
-description: Linux용 Microsoft Defender ATP의 클라우드 연결 문제 해결
+description: Linux에서 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결
 keywords: Microsoft, defender, atp, linux, 클라우드, 연결, 통신
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,19 +18,19 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d698eb78f354d624d9ab115a8ecd2e0862e607e3
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 985e4c39c60600da892c010b6ee26e9c98bb0611
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688864"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903169"
 ---
 # <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)

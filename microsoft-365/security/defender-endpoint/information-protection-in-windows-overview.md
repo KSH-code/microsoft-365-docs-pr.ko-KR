@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 733f86ed48b9cc7a68fb0cd346c7b15fdcc3ce65
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 803c0af0c495eedfd26023d4e71d98df6a1b1b64
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187508"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904025"
 ---
 # <a name="information-protection-in-windows-overview"></a>Windows의 정보 보호 개요
 
@@ -41,7 +41,7 @@ ms.locfileid: "51187508"
 
 
 >[!TIP]
-> [Microsoft Defender ATP가 Microsoft Information Protection과](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)통합되어 Windows 장치에서 중요한 데이터를 검색, 보호 및 모니터링하는 방법에 대한 블로그 게시물을 읽어 읽습니다.
+> Microsoft Defender for Endpoint(이전의 Microsoft Defender ATP)가 Microsoft Information Protection과 통합되어 Windows 장치에서 중요한 데이터를 검색, 보호 및 모니터링하는 방법에 대한 블로그 게시물을 [읽어 읽습니다.](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)
 
 Endpoint용 Defender는 다음 방법을 적용하여 데이터를 검색, 분류 및 보호합니다.
 
@@ -57,7 +57,7 @@ Endpoint용 Defender는 민감도 레이블이 있는 파일과 중요한 정보
 
 Office 365 DLP(데이터 손실 방지) 구현의 중요한 정보 유형은 다음 두 가지 범주로 분류됩니다.
 
-- 기본
+- 기본값
 - 사용자 지정
 
 기본 중요한 정보 유형에는 은행 계좌 번호, 주민 번호 또는 국가 번호와 같은 정보가 포함됩니다. 자세한 내용은 중요한 정보 [유형이 를 찾아보는 것을 참조하세요.](https://docs.microsoft.com/office365/securitycompliance/what-the-sensitive-information-types-look-for)
@@ -100,7 +100,7 @@ InformationProtectionLogs_CL
 | where Workload_s == "Windows Defender"
 ```
 
-**필수 구성 요소:**
+**선행 준비 사항:**
 
 - 고객은 Azure Information Protection 구독이 있어야 합니다.
 - Microsoft Defender 보안 센터에서 Azure Information Protection 통합을 사용하도록 설정:

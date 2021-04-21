@@ -1,6 +1,6 @@
 ---
 title: iOS 기능에 대한 끝점용 Microsoft Defender 구성
-description: iOS 기능용 Microsoft Defender ATP를 배포하는 방법에 대해 설명
+description: iOS 기능에 끝점용 Microsoft Defender를 배포하는 방법을 설명
 keywords: microsoft, defender, atp, ios, 구성, 기능, ios
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,19 +17,19 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0e351f6500d5076e724653d0fde1940592dd1ae5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: f5f7345f92b3ac76aa647a9caed63e5684be9c30
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687488"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903313"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>iOS 기능에 대한 끝점용 Microsoft Defender 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -49,7 +49,7 @@ iOS용 끝점용 Defender를 통해 조건부 액세스를 설정하는 방법�
 기본적으로 사용하도록 설정되어 있는 동안 VPN을 사용하지 않도록 설정해야 하는 경우도 있습니다. 예를 들어 VPN을 구성할 때 작동하지 않는 일부 앱을 실행하려는 경우를 예로 들 수 있습니다. 이러한 경우 아래 단계에 따라 디바이스의 앱에서 VPN을 사용하지 않도록 선택할 수 있습니다.
 
 1. iOS 장치에서 설정 앱을  열고 일반을 클릭하거나 **탭한** 다음 VPN 을 **탭합니다.**
-1. Microsoft Defender ATP의 "i" 단추를 클릭하거나 탭합니다.
+1. 끝점용 Microsoft Defender의 "i" 단추를 클릭하거나 탭합니다.
 1. VPN을 사용하지 않도록 설정하기 **위해 연결 필요를** 해제합니다.
 
     > [!div class="mx-imgBorder"]

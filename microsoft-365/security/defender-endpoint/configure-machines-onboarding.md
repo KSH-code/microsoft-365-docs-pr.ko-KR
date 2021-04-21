@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5e20c424f15561c8b6f0544b80aca6e30c56409d
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 09ca9fb466efd7764f7459a4754cfb30c8100bdb
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893332"
+ms.locfileid: "51904143"
 ---
 # <a name="get-devices-onboarded-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 장치 온보딩
 
@@ -55,8 +55,8 @@ Endpoint용 Defender는 Windows [10](onboard-configure.md)장치를 온보딩하
 
 **온보더링 카드에서** 더 많은 디바이스 온보더를 **선택하여** Intune에서 프로필을 만들고 할당합니다. 이 링크를 통해 Intune의 장치 준수 페이지로 이동하여 온보더링 상태를 비슷한 개요로 제공합니다.
 
-![Intune 장치 관리의 Microsoft Defender ATP 장치 준수 페이지](images/secconmgmt_onboarding_1deviceconfprofile.png)<br>
-   *Intune 장치 관리의 Microsoft Defender ATP 장치 준수 페이지*
+![Intune 장치 관리의 끝점 장치 준수 페이지용 Microsoft Defender](images/secconmgmt_onboarding_1deviceconfprofile.png)<br>
+   *Intune 장치 관리의 끝점 장치 준수 페이지용 Microsoft Defender*
 
 >[!TIP]
 >또는 [Microsoft Defender](https://portal.azure.com/) ATP의 모든 서비스 및 **Intune**> 장치 준수 > Microsoft Azure Portal에서 끝점 온보딩 준수를 위한 Defender > 있습니다.

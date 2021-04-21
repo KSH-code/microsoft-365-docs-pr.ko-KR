@@ -1,6 +1,6 @@
 ---
-title: Linux용 끝점용 Microsoft Defender의 성능 문제 해결
-description: Linux용 Microsoft Defender 끝점의 성능 문제를 해결합니다.
+title: Linux에서 끝점용 Microsoft Defender의 성능 문제 해결
+description: Linux의 Microsoft Defender 끝점에서 성능 문제를 해결합니다.
 keywords: microsoft, defender, atp, linux, 성능
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cb43fd383606ab26ba2688ad5704bb7653e82a7f
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 5aaa95ef8202f3d0957113d8f20a39e4d3840227
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860342"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903989"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender의 성능 문제 해결
 
@@ -145,6 +145,6 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
     >[!NOTE]
     > 응용 프로그램은 통계를 메모리에 저장하고 시작된 후 실시간 보호를 사용하도록 설정한 이후에만 파일 활동을 추적합니다. 실시간 보호가 해제된 이전 또는 기간 동안 시작된 프로세스는 계산되지 않습니다. 또한 검사가 트리거된 이벤트만 계산됩니다.
 
-5. 성능 문제에 기여하는 프로세스 또는 디스크 위치에 대한 제외를 사용하여 Linux용 Microsoft Defender ATP를 구성하고 실시간 보호를 다시 활성화합니다.
+5. 성능 문제에 기여하는 프로세스 또는 디스크 위치에 대한 제외를 사용하여 Linux에서 Microsoft Defender 끝점을 구성하고 실시간 보호를 다시 활성화합니다.
 
-    자세한 내용은 [Linux용 Microsoft Defender ATP에](linux-exclusions.md)대한 제외 구성 및 유효성 검사를 참조하세요.
+    자세한 내용은 [Linux용 끝점용 Microsoft Defender에](linux-exclusions.md)대한 제외 구성 및 유효성 검사를 참조하세요.

@@ -1,7 +1,7 @@
 ---
-title: Linux 정적 프록시 검색용 Microsoft Defender ATP
+title: Linux 정적 프록시 검색의 끝점용 Microsoft Defender
 ms.reviewer: ''
-description: 정적 프록시 검색을 위해 Microsoft Defender ATP를 구성하는 방법을 설명 합니다.
+description: 정적 프록시 검색을 위해 Linux에서 끝점용 Microsoft Defender를 구성하는 방법을 설명 합니다.
 keywords: microsoft, defender, atp, linux, 설치, 프록시
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 93d654773fc73903cbe0c5de289dcfdf9fd34f9f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: e59727b6bb5fca58595764fc003009891546d8f6
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687856"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903849"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-linux-for-static-proxy-discovery"></a>정적 프록시 검색을 위해 Linux에서 끝점에 대한 Microsoft Defender 구성
 
@@ -31,12 +31,12 @@ ms.locfileid: "51687856"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-Microsoft Defender ATP는 환경 변수를 사용하여 프록시 서버를 ```HTTPS_PROXY``` 검색할 수 있습니다. 이 설정은 설치  시와 제품이 설치된 후에 모두 구성해야 합니다.
+Microsoft Defender for Endpoint는 환경 변수를 사용하여 프록시 서버를 ```HTTPS_PROXY``` 검색할 수 있습니다. 이 설정은 설치  시와 제품이 설치된 후에 모두 구성해야 합니다.
 
 ## <a name="installation-time-configuration"></a>설치 시간 구성
 

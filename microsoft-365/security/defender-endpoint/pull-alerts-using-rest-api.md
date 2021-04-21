@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a7d13da6abfb2cd6c829b6fd04fdf94de8cd20b8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 06028f64a3340aeeef52269bc8a1e739d18e6db7
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186872"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903121"
 ---
 # <a name="pull-microsoft-defender-for-endpoint-detections-using-siem-rest-api"></a>SIEM REST API를 사용하여 끝점 검색을 위한 Microsoft Defender 끌어오기
 
@@ -125,7 +125,7 @@ sinceTimeUtc | DateTime | 필드에 따라 바운드 경고가 검색된 하위 
 untilTimeUtc | DateTime | 바운드 경고가 검색된 상위 시간을 정의합니다. <br> 시간 범위는 `sinceTimeUtc` 다음을 수시로 `untilTimeUtc` 합니다. <br><br> **참고:** 지정하지 않으면 기본값은 현재 시간입니다.
 ago | 문자열 | 경고를 끌어오는 시간 범위는 다음과 `(current_time - ago)` `current_time` 같습니다. <br><br> 값은 **ISO 8601** 기간 형식에 따라 설정해야 합니다. <br> 예: 지난 10분 동안 수신된 경고를 `ago=PT10M` 끌어오는 예제입니다.
 limit | int | 검색할 알림 수를 정의합니다. 가장 최근 알림은 정의된 수에 따라 검색됩니다.<br><br> **참고:** 지정하지 않으면 시간 범위에서 사용할 수 있는 모든 경고가 검색됩니다.
-machinegroups | 문자열 | 경고를 끌어오기 위해 장치 그룹을 지정합니다. <br><br> **참고:** 지정하지 않으면 모든 장치 그룹의 경고가 검색됩니다. <br><br> 예제: <br><br> ```https://wdatp-alertexporter-eu.securitycenter.windows.com/api/Alerts/?machinegroups=UKMachines&machinegroups=FranceMachines```
+machinegroups | 문자열 | 경고를 끌어오기 위해 장치 그룹을 지정합니다. <br><br> **참고:** 지정하지 않으면 모든 장치 그룹의 경고가 검색됩니다. <br><br> 예제: <br><br> ```https://wdatp-alertexporter-eu.securitycenter.windows.com/api/alerts/?machinegroups=UKMachines&machinegroups=FranceMachines```
 DeviceCreatedMachineTags | 문자열 | 레지스트리의 단일 장치 태그입니다.
 CloudCreatedMachineTags | 문자열 | Microsoft Defender 보안 센터에서 만든 장치 태그입니다.
 

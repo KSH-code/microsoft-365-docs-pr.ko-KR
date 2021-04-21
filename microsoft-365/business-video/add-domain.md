@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 구독에 다른 도메인을 추가하는 방법을 배워야 합니다.
-ms.openlocfilehash: 8899cb9667ffa080746ca9173b61897f9c5db399
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: a641005913f7dfd866366f0f8065019dd5c17fe8
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579004"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903745"
 ---
 # <a name="add-another-domain"></a>다른 도메인 추가
 
@@ -53,3 +53,7 @@ ms.locfileid: "51579004"
 1. 사용자 이름을 입력한 다음 드롭다운 목록에서 새 도메인을 선택합니다.
 1. 변경 **내용 저장을** 선택한 다음 창을 닫습니다.
 1. 새 도메인에서 전자 메일을 수신해야 하는 각 사용자에 대해 이 단계를 반복합니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Microsoft 365에](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) 도메인 추가(문서) 도메인을 연결하기 위해 [DNS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) 레코드 추가(문서) 도메인 등록 기관에서 이름 서버를 변경하여 모든 도메인 등록 기관에서 [Microsoft 365를](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar) 설정(문서) [도메인 FAQ(문서)](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 자동 전달 전자 메일을 중지하는 방법을 배워야 합니다.
-ms.openlocfilehash: b6715cfdf8622521d977e0746cb9a340a8f70a5c
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: f8bd599c7c8bca8d4789188acbcd3574b7473dcb
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578606"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903685"
 ---
 # <a name="stop-email-auto-forward"></a>전자 메일 자동 전달 중지
 
@@ -47,3 +47,7 @@ ms.locfileid: "51578606"
 1. 아래쪽으로 스크롤하고 저장 을 **선택합니다.**
 
     규칙이 만들어지며 해커는 더 이상 메시지를 자동 전달할 수 없습니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[사용자에](https://docs.microsoft.com/microsoft-365/admin/email/add-another-email-alias-for-a-user) 대한 다른 전자 메일 별칭 추가(문서) [Microsoft 365에서](https://docs.microsoft.com/microsoft-365/admin/email/configure-email-forwarding) 전자 메일 전달 구성(문서) 비즈니스용 [Office 365](https://docs.microsoft.com/exchange/troubleshoot/email-delivery/email-delivery-issues) 관리자로 전자 메일 배달 문제 찾기 및 해결(문서)

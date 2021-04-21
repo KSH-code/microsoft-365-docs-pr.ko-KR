@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP에서 센서의 상태 확인
+title: 끝점용 Microsoft Defender에서 센서의 상태 확인
 description: 장치의 센서 상태 확인을 통해 잘못 구성되거나, 비활성 상태인 경우 또는 센서 데이터를 보고하지 않는지 확인할 수 있습니다.
 keywords: 센서, 센서 상태, 잘못 구성된, 비활성, 센서 데이터 없음, 센서 데이터, 통신 장애, 통신
 search.product: eADQiWindows 10XVcnh
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 21313463519383f4bf052465a0d907d2df293ec8
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 0361b7956339670d006c9f050274e07d4e979bca
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165276"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904167"
 ---
 # <a name="check-sensor-health-state-in-microsoft-defender-for-endpoint"></a>끝점에 대한 Microsoft Defender의 센서 상태 확인
 

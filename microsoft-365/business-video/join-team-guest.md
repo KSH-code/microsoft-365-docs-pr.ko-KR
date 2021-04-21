@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft Teams에서 게스트로 팀에 참여하는 방법을 배워야 합니다.
-ms.openlocfilehash: 9e60882907021c11d906ce9cd778a0f1eef32beb
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 0260365e8a064dd96cda75c9becf9f82bc6871a3
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578858"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903721"
 ---
 # <a name="join-a-team-as-a-guest"></a>팀에 게스트로 참여
 
@@ -48,3 +48,7 @@ ms.locfileid: "51578858"
 
 1. Microsoft Teams 앱을 열고  **예를**  선택하면 초대된 팀으로 전환할 수 있습니다.  이제 Teams에서 프로젝트에 대한 공동 작업을 할 수 있습니다.
 2. 회사 팀으로 다시 전환하려면 조직 드롭다운에서  **해당**  팀을 선택합니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Teams의 게스트](https://docs.microsoft.com/microsoftteams/guest-experience) 환경(문서) [조직의 Microsoft Teams](https://docs.microsoft.com/microsoftteams/enable-features-office-365) 설정 관리(문서) 게스트 액세스 및 외부 액세스를 사용하여 조직 외부의 사용자와 공동 작업(문서) [](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)
