@@ -457,6 +457,7 @@
 ####### [경고 목록](get-alerts.md)
 ####### [경고 만들기](create-alert-by-reference.md)
 ####### [경고 업데이트](update-alert.md)
+####### [일괄 업데이트 알림](batch-update-alerts.md)
 ####### [ID별 경고 정보 가져오기](get-alert-info-by-id.md)
 ####### [경고 관련 도메인 정보 가져오기](get-alert-related-domain-info.md)
 ####### [경고 관련 파일 정보 가져오기](get-alert-related-files-info.md)
@@ -501,6 +502,7 @@
 
 ###### [지표]()
 ####### [지표 방법 및 속성](ti-indicator.md)
+####### [표시기 가져오기](import-ti-indicators.md)
 ####### [지표 제출](post-ti-indicator.md)
 ####### [지표 목록](get-ti-indicators-collection.md)
 ####### [지표 삭제](delete-ti-indicator-by-id.md)
