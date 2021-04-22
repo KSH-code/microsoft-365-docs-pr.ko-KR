@@ -1,7 +1,7 @@
 ---
 title: macOS의 끝점용 Microsoft Defender 수동 배포
 description: 명령줄에서 수동으로 macOS에 끝점용 Microsoft Defender를 설치합니다.
-keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamf, macos, 카탈로나, mojave, high sierra
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0e8faf95df6691828558175412a1de8aa844d93f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d8458f1bacc6577d83878a94c24e649371d90038
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688600"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935332"
 ---
 # <a name="manual-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 수동 배포
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
@@ -164,7 +164,7 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
         curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
         ```
 
-    1. 파일은 Mac용 끝점에 대한 Defender에 의해 에 의해 고지된 것입니다. 다음 명령을 사용하여 검색된 모든 위협을 나열합니다.
+    1. 파일이 Mac의 끝점에 대한 Defender에 의해서만 검사된 것입니다. 다음 명령을 사용하여 검색된 모든 위협을 나열합니다.
 
         ```bash
         mdatp threat list
@@ -207,7 +207,7 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 
     시스템에 다음 메시지가 표시됩니다.
 
-    > Microsoft Defender ATP - macOS EDR DIY 테스트 파일<br/>
+    > 끝점용 Microsoft Defender - macOS EDR DIY 테스트 파일<br/>
     > 해당 경고는 MDATP 포털에서 사용할 수 있습니다.
 
 11. **열기** 를 클릭합니다. 
@@ -228,4 +228,4 @@ Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운�
 
 ## <a name="uninstallation"></a>제거
 
-클라이언트 [장치에서](mac-resources.md#uninstalling) macOS용 끝점용 Microsoft Defender를 제거하는 방법에 대한 자세한 내용은 제거를 참조합니다.
+클라이언트 [장치에서](mac-resources.md#uninstalling) macOS에서 끝점용 Microsoft Defender를 제거하는 방법에 대한 자세한 내용은 제거를 참조합니다.

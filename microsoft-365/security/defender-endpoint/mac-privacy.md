@@ -1,7 +1,7 @@
 ---
-title: Mac용 끝점용 Microsoft Defender에 대한 개인 정보
-description: 개인 정보 제어, Mac용 끝점용 Microsoft Defender에서 수집된 진단 데이터에 대한 개인 정보 및 정보에 영향을 미치는 정책 설정을 구성하는 방법.
-keywords: Microsoft, defender, atp, mac, 개인 정보, 진단
+title: Mac의 끝점용 Microsoft Defender 개인 정보
+description: 개인 정보 제어, Mac의 끝점용 Microsoft Defender에서 수집된 진단 데이터에 대한 개인 정보 및 정보에 영향을 미치는 정책 설정을 구성하는 방법.
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 개인 정보, 진단
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 26ae83dc8a8b3bb7d686e3674437a12999b5146f
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: b2897766570c6ef8979a7944a687ba024e55b3ce
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862238"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934552"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender 개인 정보
 

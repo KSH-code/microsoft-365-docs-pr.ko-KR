@@ -2,7 +2,7 @@
 title: iOS의 끝점용 Microsoft Defender용 앱 기반 배포
 ms.reviewer: ''
 description: 앱을 사용하여 iOS에서 끝점용 Microsoft Defender를 배포하는 방법을 설명
-keywords: microsoft, defender, atp, ios, 앱, 설치, 배포, 제거, intune
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, ios, 앱, 설치, 배포, 제거, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4ddaf8759fa0f2ffb4ed3eb3bb940426dfb3da2c
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 62eefbd17b826aa2cfb541c04ba206d0f58f9bbf
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904061"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935056"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>iOS에서 끝점용 Microsoft Defender 배포
 
@@ -35,20 +35,20 @@ ms.locfileid: "51904061"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-이 항목에서는 Intune 회사 포털 등록 장치에 iOS용 Endpoint용 Defender를 배포하는 방법을 설명합니다. Intune 장치 등록에 대한 자세한 내용은 [Intune에서 iOS/iPadOS 장치 등록을 참조하세요.](https://docs.microsoft.com/mem/intune/enrollment/ios-enroll)
+이 항목에서는 Intune 회사 포털 등록 장치에서 iOS에 Endpoint용 Defender를 배포하는 방법을 설명합니다. Intune 장치 등록에 대한 자세한 내용은 [Intune에서 iOS/iPadOS 장치 등록을 참조하세요.](https://docs.microsoft.com/mem/intune/enrollment/ios-enroll)
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
 - Microsoft Endpoint Manager 관리 센터에 액세스할 [수 있도록 합니다.](https://go.microsoft.com/fwlink/?linkid=2109431)
 
-- 사용자에 대해 iOS 등록이 완료되도록 합니다. iOS용 Endpoint용 Defender를 사용하려면 사용자에게 끝점용 Defender 라이선스가 할당되어 있습니다. 라이선스를 [할당하는](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) 방법에 대한 지침은 사용자에게 라이선스 할당을 참조하세요.
+- 사용자에 대해 iOS 등록이 완료되도록 합니다. iOS에서 끝점용 Defender를 사용하려면 사용자가 끝점용 Defender 라이선스를 할당해야 합니다. 라이선스를 [할당하는](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) 방법에 대한 지침은 사용자에게 라이선스 할당을 참조하세요.
 
 > [!NOTE]
 > 이제 Apple App Store에서 iOS의 끝점용 Microsoft [Defender를 사용할 수 있습니다.](https://aka.ms/mdatpiosappstore)
 
 ## <a name="deployment-steps"></a>배포 단계
 
-Intune 회사 포털을 통해 iOS용 끝점용 Defender를 배포합니다.
+Intune 회사 포털을 통해 iOS에서 끝점용 Defender를 배포합니다.
 
 ### <a name="add-ios-store-app"></a>iOS 스토어 앱 추가
 
@@ -61,7 +61,7 @@ Intune 회사 포털을 통해 iOS용 끝점용 Defender를 배포합니다.
 
 1. **최소 운영 체제로 iOS 11.0을** 선택합니다. 앱에 대한 나머지 정보를 검토하고 다음을 **클릭합니다.**
 
-1. 배정 *섹션에서* 필수 섹션으로 **이동하여** 그룹 **추가 를 선택합니다.** 그런 다음 iOS 앱용 끝점에 대해 Defender를 대상으로 할 사용자 그룹을 선택할 수 있습니다. 선택을 **클릭한** 후 다음 을 **클릭합니다.**
+1. 배정 *섹션에서* 필수 섹션으로 **이동하여** 그룹 **추가 를 선택합니다.** 그런 다음 iOS 앱에서 끝점용 Defender를 대상으로 할 사용자 그룹을 선택할 수 있습니다. 선택을 **클릭한** 후 다음 을 **클릭합니다.**
 
     > [!NOTE]
     > 선택한 사용자 그룹은 Intune에 등록된 사용자로 구성됩니다.
@@ -78,11 +78,11 @@ Intune 회사 포털을 통해 iOS용 끝점용 Defender를 배포합니다.
 
 ## <a name="complete-onboarding-and-check-status"></a>온보더링 완료 및 상태 확인
 
-1. iOS용 끝점용 Defender가 장치에 설치되면 앱 아이콘이 표시됩니다.
+1. iOS의 끝점용 Defender가 장치에 설치되면 앱 아이콘이 표시됩니다.
 
     ![자동으로 생성된 스마트폰 설명의 스크린샷](images/41627a709700c324849bf7e13510c516.png)
 
-2. 끝점용 Defender 앱 아이콘을 탭하고 화면의 지침에 따라 온보딩 단계를 완료합니다. 세부 정보에는 최종 사용자가 iOS용 끝점용 Defender에 필요한 iOS 권한을 수락하는 것이 포함됩니다.
+2. 끝점용 Defender 앱 아이콘을 탭하고 화면의 지침에 따라 온보딩 단계를 완료합니다. 세부 정보에는 iOS의 끝점에 대한 Defender에서 요구하는 iOS 사용 권한의 최종 사용자 수락이 포함됩니다.
 
 3. 온보딩에 성공하면 장치가 Microsoft Defender 보안 센터의 장치 목록에 표시될 것입니다.
 
@@ -144,4 +144,4 @@ Intune을 사용하면 앱 구성 정책을 통해 iOS용 Defender 앱을 구성
 
 ## <a name="next-steps"></a>다음 단계
 
-[iOS 기능에 대한 끝점에 대한 Defender 구성](ios-configure-features.md)
+[iOS 기능에서 끝점에 대한 Defender 구성](ios-configure-features.md)

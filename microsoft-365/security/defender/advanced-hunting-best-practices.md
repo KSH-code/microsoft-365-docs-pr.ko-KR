@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender의 고급 헌팅 쿼리 모범 사례
 description: 고급 헌팅을 사용하여 빠르고 효율적이며 오류가 없는 위협 헌팅 쿼리를 생성하는 방법을 학습합니다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema, kusto, 시간 제한 방지, 명령줄, 프로세스 ID, 최적화, 모범 사례, 구문 분석, 가입, 요약
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema, kusto, 시간 제한 방지, 명령줄, 프로세스 ID, 최적화, 모범 사례, 구문 분석, 참가, 요약
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e0744a01fc599b66f371b01194579f4845ed19fb
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 7db7607d3ed9d6f1b215fb842d5b6dd2415a770a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498725"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934900"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>고급 헌팅 쿼리 모범 사례
 

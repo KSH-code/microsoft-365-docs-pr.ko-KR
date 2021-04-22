@@ -1,7 +1,7 @@
 ---
-title: 설치된 소프트웨어 다운로드
+title: 설치된 소프트웨어 가져오기
 description: 특정 장치 ID와 관련된 설치된 소프트웨어 컬렉션을 검색합니다.
-keywords: api, 그래프 api, 지원되는 api, 다운로드, 목록, 파일, 정보, 소프트웨어 인벤토리, 장치당 설치된 소프트웨어, 위협 & 취약성 관리 api, mdatp tvm api
+keywords: api, 그래프 api, 지원되는 api, 다운로드, 목록, 파일, 정보, 소프트웨어 인벤토리, 장치당 설치된 소프트웨어, 위협 & 취약성 관리 api, 끝점 tvm api용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6164020ef05561563fe0434bd2edac8c7b3e689a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: ebd689fd53dd804f857c6bec7a412c27988835d0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166811"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935116"
 ---
-# <a name="get-installed-software"></a>설치된 소프트웨어 다운로드
+# <a name="get-installed-software"></a>설치된 소프트웨어 가져오기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -67,7 +67,7 @@ GET /api/machines/{machineId}/software
 성공하면 이 메서드는 본문에 설치된 소프트웨어 정보를 사용하여 200 OK를 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

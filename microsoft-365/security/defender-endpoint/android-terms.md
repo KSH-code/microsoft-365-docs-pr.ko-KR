@@ -1,8 +1,8 @@
 ---
-title: Android 응용 프로그램용 Microsoft Defender ATP 사용 조건
+title: Android 응용 프로그램용 끝점용 Microsoft Defender 사용 조건
 ms.reviewer: ''
-description: Android용 Microsoft Defender ATP 사용 조건에 대해 설명
-keywords: Microsoft, defender, atp, android,license, terms, application, use, installation, service, feedback, scope,
+description: Android의 끝점용 Microsoft Defender 사용 조건에 대해 설명
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, android, 라이선스, 용어, 응용 프로그램, 사용, 설치, 서비스, 피드백, 범위,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,19 +18,19 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 hideEdit: true
 ms.technology: mde
-ms.openlocfilehash: 2bcc8c1f977a6060ac94dc3a634f075a5c1ee041
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d73ddb3a8defb7697a995c2593d6a240a59c9cfe
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687952"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934624"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android-application-license-terms"></a>Android 응용 프로그램 사용 조건의 끝점용 Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
@@ -105,7 +105,7 @@ ms.locfileid: "51687952"
 
     2.  각 응용 프로그램 저장소 공급자와 해당 자회사는 본 약관의 제3자 수혜자입니다. 본 약관에 동의하면 응용 프로그램 저장소 공급자는 혜택 또는 권한을 부여하는 본 약관의 조항을 직접 적용하고 이에 따라 사용할 수 있는 권한을 가합니다.
 
-9.  **상표 고지.** Microsoft, Microsoft Defender ATP, MDATP 및 Microsoft 365는 미국 및/또는 기타 국가에서 Microsoft Corporation의 등록 또는 일반 법률 상표입니다.
+9.  **상표 고지.** Microsoft, Endpoint용 Microsoft Defender 및 Microsoft 365는 미국 및/또는 기타 국가에서 Microsoft Corporation의 등록 또는 일반 법률 상표입니다.
 
 10. **ENTIRE AGREEMENT.** 본 계약 및 사용하는 보충 서비스, 업데이트, 인터넷 기반 서비스 및 지원 서비스에 대한 약관은 응용 프로그램 및 지원 서비스에 대한 전체 계약입니다.
 

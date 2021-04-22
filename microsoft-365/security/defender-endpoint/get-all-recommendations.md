@@ -1,7 +1,7 @@
 ---
-title: 모든 권장 사항 나열
+title: 모든 권장 사항 목록
 description: 조직에 영향을 주는 모든 보안 권장 사항 목록을 검색합니다.
-keywords: api, 그래프 api, 지원되는 api, get, 보안 권장 사항, mdatp tvm api, 위협 및 취약성 관리, 위협 및 취약성 관리 api
+keywords: api, 그래프 api, 지원되는 api, 다운로드, 보안 권장 사항, Endpoint tvm api용 Microsoft Defender, 위협 및 취약성 관리, 위협 및 취약성 관리 api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5fb68572ee1b154be1db5eb5a092013a1c1a257e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 0cb0a1f8a42b419db960e5097667c335bf7f7877
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166914"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935020"
 ---
-# <a name="list-all-recommendations"></a>모든 권장 사항 나열
+# <a name="list-all-recommendations"></a>모든 권장 사항 목록
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -68,7 +68,7 @@ GET /api/recommendations
 성공하면 이 메서드는 본문의 보안 권장 사항 목록과 함께 200 OK를 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

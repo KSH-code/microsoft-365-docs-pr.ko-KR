@@ -1,5 +1,5 @@
 ---
-title: Power BI에 대한 Microsoft Defender ATP API 연결
+title: Power BI에 대한 끝점 API용 Microsoft Defender 연결
 ms.reviewer: ''
 description: 끝점 API용 Microsoft Defender 위에 POWER BI(비즈니스 인텔리전스) 보고서를 만들 수 있습니다.
 keywords: api, 지원되는 api, Power BI, 보고서
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 696782ca03e5494c3fc5ca08943d1079c5d78f8a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7c99267d75c89b3484d207cd763131e4bcc91527
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51167034"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935044"
 ---
 # <a name="create-custom-reports-using-power-bi"></a>Power BI를 사용하여 사용자 지정 보고서 만들기
 
@@ -141,7 +141,7 @@ ms.locfileid: "51167034"
 자세한 내용은 Power BI 보고서 서식 [파일을 참조하세요.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
 
 ## <a name="sample-reports"></a>예제 보고서
-Microsoft Defender ATP Power BI 보고서 샘플을 보세요. 자세한 내용은 코드 샘플 [찾아보기를 참조하세요.](https://docs.microsoft.com/samples/browse/?products=mdatp)
+끝점 Power BI용 Microsoft Defender 보고서 샘플을 보세요. 자세한 내용은 코드 샘플 [찾아보기를 참조하세요.](https://docs.microsoft.com/samples/browse/?products=mdatp)
 
 
 ## <a name="related-topic"></a>관련 항목

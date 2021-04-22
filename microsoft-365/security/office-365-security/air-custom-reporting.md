@@ -1,6 +1,6 @@
 ---
 title: 자동화된 조사 및 응답이 있는 사용자 지정 보고 솔루션
-keywords: SIEM, API, AIR, autoIR, ATP, 자동화된 조사, 통합, 사용자 지정 보고서
+keywords: SIEM, API, AIR, autoIR, Endpoint용 Microsoft Defender, 자동화된 조사, 통합, 사용자 지정 보고서
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -21,12 +21,12 @@ ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 82f3b38e5b6e31313c94f5ac389e883f6b076540
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4a7ccc0f07691c5183b9cb7a6e5b3f512f35f76b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206719"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935404"
 ---
 # <a name="custom-or-third-party-reporting-solutions-for-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender에 대한 사용자 지정 또는 타사 보고 솔루션
 

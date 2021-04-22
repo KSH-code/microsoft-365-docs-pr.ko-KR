@@ -1,7 +1,7 @@
 ---
-title: 보안 권장 사항
+title: 보안 권장 사항 가져오기
 description: 지정한 장치 ID와 관련된 보안 권장 사항 컬렉션을 검색합니다.
-keywords: api, 그래프 api, 지원되는 api, 다운로드, 목록, 파일, 정보, 장치당 보안 권장, 위협 & 취약성 관리 api, mdatp tvm api
+keywords: api, 그래프 api, 지원되는 api, get, 목록, 파일, 정보, 장치당 보안 권장, 위협 & 취약성 관리 api, 끝점 tvm api용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,14 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6c65926985c7c8a194ab87c44c3fc269488c463c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bc209687d51b3e05bfcfd6028042ba5912b877f6
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199772"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935308"
 ---
-# <a name="get-security-recommendations"></a>보안 권장 사항
+# <a name="get-security-recommendations"></a>보안 권장 사항 가져오기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -64,7 +64,7 @@ GET /api/machines/{machineId}/recommendations
 성공하면 이 메서드는 본문의 보안 권장 사항을 사용하여 200 OK를 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

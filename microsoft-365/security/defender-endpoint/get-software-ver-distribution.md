@@ -1,7 +1,7 @@
 ---
 title: 소프트웨어 버전 배포 목록
 description: 조직의 소프트웨어 버전 배포 목록을 검색합니다.
-keywords: api, 그래프 api, 지원되는 api, get, 소프트웨어 버전 배포, mdatp tvm api
+keywords: api, 그래프 api, 지원되는 api, 다운로드, 소프트웨어 버전 배포, 끝점 tvm api용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 88f446ddd87768817099c1a206bab17aa8be5b7b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e47a97477500491f634e3f5134a32241bd68985b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198580"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935296"
 ---
 # <a name="list-software-version-distribution"></a>소프트웨어 버전 배포 목록 
 
@@ -63,7 +63,7 @@ GET /api/Software/{Id}/distributions
 성공하면 이 메서드는 본문에 소프트웨어 배포 데이터 목록이 있는 200 OK를 반환합니다. 
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

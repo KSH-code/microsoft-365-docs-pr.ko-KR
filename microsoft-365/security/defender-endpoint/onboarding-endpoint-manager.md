@@ -1,7 +1,7 @@
 ---
-title: Microsoft Endpoint Manager를 사용한 온보드
+title: Microsoft Endpoint Manager를 사용하여 온보딩
 description: Microsoft Endpoint Manager를 사용하여 끝점용 Microsoft Defender에 온보딩하는 방법 학습
-keywords: 온보링, 구성, 배포, 배포, 끝점 관리자, mdatp, advanced threat protection, 컬렉션 만들기, 끝점 감지 응답, 차세대 보호, 공격 표면 감소, Microsoft 끝점 관리자
+keywords: 온보딩, 구성, 배포, 배포, 끝점 관리자, Endpoint용 Microsoft Defender, 컬렉션 만들기, 끝점 감지 응답, 차세대 보호, 공격 표면 감소, Microsoft 끝점 관리자
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -18,14 +18,14 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9edcceca2f6cc7c2377eb388d7394a23dfbae99d
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: e744262cfd63383e69abf02be9fbf91d2d229db2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186260"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935260"
 ---
-# <a name="onboarding-using-microsoft-endpoint-manager"></a>Microsoft Endpoint Manager를 사용한 온보드
+# <a name="onboarding-using-microsoft-endpoint-manager"></a>Microsoft Endpoint Manager를 사용하여 온보딩
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -123,14 +123,14 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
 
 첫 번째는 끝점용 Defender에 온보딩할 사용자 또는 장치 그룹을 선택하는 구성 정책입니다.
 
-- [끝점 감지 및 대응](#endpoint-detection-and-response) 
+- [엔드포인트 검색 및 대응](#endpoint-detection-and-response) 
 
 그런 다음 여러 가지 유형의 끝점 보안 정책을 계속 만들게 됩니다.
 
 - [차세대 보호](#next-generation-protection)
 - [공격 표면 감소](#attack-surface-reduction--attack-surface-reduction-rules)
 
-### <a name="endpoint-detection-and-response"></a>끝점 감지 및 대응
+### <a name="endpoint-detection-and-response"></a>엔드포인트 감지 및 응답
 
 1.  MEM 포털을 열 수 있습니다.
 
@@ -355,7 +355,7 @@ Microsoft Endpoint Manager에 대한 자세한 내용은 다음 리소스를 참
     > [!div class="mx-imgBorder"]
     > [![Microsoft Endpoint Manager 포털의 이미지37 ](images/42acc69d0128ed09804010bdbdf0a43c.png)](images/42acc69d0128ed09804010bdbdf0a43c.png#lightbox)
 
-### <a name="endpoint-detection-and-response"></a>끝점 감지 및 대응
+### <a name="endpoint-detection-and-response"></a>엔드포인트 감지 및 응답
 
 
 1.  구성을 적용하기 전에 Endpoint Protection용 Defender 서비스를 시작하지 말아야 합니다.

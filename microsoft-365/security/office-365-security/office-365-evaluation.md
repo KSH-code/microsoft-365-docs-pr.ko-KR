@@ -1,7 +1,7 @@
 ---
 title: Office 365용 Microsoft Defender 평가
 description: 평가 모드의 Office 365용 Defender는 맬웨어와 같은 판정을 기록하지만 메시지에 대해 행동하지 않는 Office 365 전자 메일 정책에 대한 Defender를 만듭니다.
-keywords: Office 365, Office 365용 Microsoft Defender 평가, Office 365 평가, office 365, Microsoft Defender, ATP 평가
+keywords: Office 365, Office 365용 Microsoft Defender 평가, office 365 평가, office 365, Microsoft Defender, 끝점용 Microsoft Defender 평가
 f1.keywords:
 - NOCSH
 ms.author: dansimp
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5862361dbd3a220e4b37400dbb6515af91eaa959
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 86433ef505cd1b9afca100dc731f1885e22c8401
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768809"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935140"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender 평가
 

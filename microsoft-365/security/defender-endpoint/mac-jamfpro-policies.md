@@ -1,7 +1,7 @@
 ---
-title: Jamf Pro에서 macOS용 끝점용 Microsoft Defender 정책 설정
-description: Jamf Pro에서 macOS용 Microsoft Defender 끝점을 설정하는 방법에 대해 자세히 알아보기
-keywords: 정책, Microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamfpro, macos, catalina, mojave, high sierra
+title: Jamf Pro에서 macOS 정책에 대한 끝점용 Microsoft Defender 설정
+description: Jamf Pro에서 macOS 정책에 대한 끝점용 Microsoft Defender를 설정하는 방법을 배우기
+keywords: 정책, microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamfpro, macos, 카탈리나, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1a00d1c0863db7f4f5f853312f202b5e985b1512
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 84d0b37632dc23615a37bbbd73c17fe509dedae5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862274"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934684"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Jamf Pro에서 macOS 정책에 대한 끝점용 Microsoft Defender 설정
 
@@ -772,7 +772,7 @@ ms.locfileid: "51862274"
 
 7. **열기** 를 선택합니다. 표시 **이름을** Microsoft Defender Advanced Threat Protection 및 **Microsoft Defender 바이러스 백신으로 설정**
 
-    **매니페스트 파일은** 필요하지 않습니다. Microsoft Defender Advanced Threat Protection은 매니페스트 파일 없이 작동합니다.
+    **매니페스트 파일은** 필요하지 않습니다. 끝점용 Microsoft Defender는 매니페스트 파일 없이 작동합니다.
     
     **옵션 탭**<br> 기본값을 유지 합니다.
 

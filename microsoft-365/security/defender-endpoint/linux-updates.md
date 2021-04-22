@@ -1,8 +1,8 @@
 ---
-title: Linux용 끝점용 Microsoft Defender 업데이트 배포
+title: Linux에서 끝점용 Microsoft Defender 업데이트 배포
 ms.reviewer: ''
-description: 엔터프라이즈 환경에서 Linux용 끝점용 Microsoft Defender 업데이트를 배포하는 방법에 대해 설명
-keywords: microsoft, defender, atp, linux, 업데이트, 배포
+description: 엔터프라이즈 환경에서 Linux에서 끝점용 Microsoft Defender 업데이트를 배포하는 방법에 대해 설명
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, linux, 업데이트, 배포
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 77b428e359596e73e08dc04f15190ecf68db29be
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 9cb0c7375b538f502cf6165f13c68fd4b2fdcc64
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861150"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934756"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender 업데이트 배포
 
@@ -40,12 +40,12 @@ ms.locfileid: "51861150"
 Microsoft는 성능, 보안을 개선하고 새로운 기능을 제공하기 위해 소프트웨어 업데이트를 정기적으로 게시합니다.
 
 > [!WARNING]
-> Linux용 끝점용 Defender의 각 버전에는 만료 날짜가 있습니다. 그 이후에는 더 이상 디바이스를 보호하지 않습니다. 이 날짜 이전에 제품을 업데이트해야 합니다. 만료 날짜를 확인하기 위해 다음 명령을 실행합니다.
+> Linux의 각 Endpoint용 Defender 버전에는 만료 날짜가 있습니다. 그 이후에는 더 이상 디바이스를 보호하지 않습니다. 이 날짜 이전에 제품을 업데이트해야 합니다. 만료 날짜를 확인하기 위해 다음 명령을 실행합니다.
 > ```bash
 > mdatp health --field product_expiration
 > ```
 
-Linux용 끝점용 Defender를 수동으로 업데이트하려면 다음 명령 중 하나를 실행합니다.
+Linux에서 Endpoint용 Defender를 수동으로 업데이트하려면 다음 명령 중 하나를 실행합니다.
 
 ## <a name="rhel-and-variants-centos-and-oracle-linux"></a>RHEL 및 변형(CentOS 및 Oracle Linux)
 

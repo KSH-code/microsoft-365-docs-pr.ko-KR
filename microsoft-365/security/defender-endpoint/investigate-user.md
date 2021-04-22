@@ -1,7 +1,7 @@
 ---
 title: 끝점용 Microsoft Defender에서 사용자 계정 조사
 description: 조사하는 동안 사용자 계정에서 잠재적으로 손상된 자격 증명을 조사하거나 관련 사용자 계정을 피벗합니다.
-keywords: 조사, 계정, 사용자, 사용자 엔터티, 경고, Microsoft Defender atp
+keywords: 조사, 계정, 사용자, 사용자 엔터티, 경고, 끝점용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,19 +19,19 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 672867d107d005004201caab7d6497ceb048ac97
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: e98142e4076c5e695f16eb06c062bc69d3d7dd55
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587710"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935068"
 ---
 # <a name="investigate-a-user-account-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 사용자 계정 조사
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -51,7 +51,7 @@ ms.locfileid: "51587710"
 
 사용자 계정 엔터티를 조사하면 다음이 표시됩니다.
 
-- 사용자 계정 세부 정보, Azure ATP(Advanced Threat Protection) 경고 및 로그온 장치, 역할, 로그온 유형 및 기타 세부 정보
+- 사용자 계정 세부 정보, ID에 대한 Microsoft Defender 경고 및 로그온 장치, 역할, 로그온 유형 및 기타 세부 정보
 - 인시던트 및 사용자 장치 개요
 - 이 사용자와 관련된 알림
 - 조직에서 관찰된(로그온한 장치)
@@ -60,10 +60,10 @@ ms.locfileid: "51587710"
 
 ### <a name="user-details"></a>사용자 세부 정보
 
-왼쪽의 사용자 세부 정보 창에서는 관련된 공개 인시던트, 활성 경고, SAM 이름, SID, Azure ATP 경고, 사용자가 로그온한 장치 수, 사용자가 처음 및 마지막으로 본 때, 역할 및 로그온 유형과 같은 사용자에 대한 정보를 제공합니다.  사용하도록 설정한 통합 기능에 따라 다른 세부 정보가 표시됩니다. 예를 들어 비즈니스용 Skype 통합을 사용하도록 설정하면 포털에서 사용자에게 연락할 수 있습니다. **Azure ATP 경고** 섹션에는 Azure ATP 기능을 사용하도록 설정한 경우 Azure ATP 페이지로 이동하는 링크가 포함되어 있으며 사용자와 관련된 알림이 있습니다. Azure ATP 페이지에서 경고에 대한 자세한 정보를 제공합니다.
+왼쪽의 사용자 세부 정보 창에서는 관련된 공개 인시던트, 활성 경고, SAM 이름, SID, ID 알림용 Microsoft Defender 경고, 사용자가 로그온한 장치 수, 사용자가 처음 및 마지막으로 본 때, 역할 및 로그온 유형과 같은 사용자에 대한 정보를 제공합니다.  사용하도록 설정한 통합 기능에 따라 다른 세부 정보가 표시됩니다. 예를 들어 비즈니스용 Skype 통합을 사용하도록 설정하면 포털에서 사용자에게 연락할 수 있습니다. **Azure ATP 경고** 섹션에는 Id에 대한 Microsoft Defender 기능을 사용하도록 설정한 경우 Id에 대한 Microsoft Defender 페이지로 이동하는 링크가 포함되어 있으며 사용자와 관련된 알림이 있습니다. Microsoft Defender for Identity 페이지에서 경고에 대한 자세한 정보를 제공합니다.
 
 >[!NOTE]
->이 기능을 사용하려면 Azure ATP 및 Endpoint용 Defender에서 통합을 사용하도록 설정해야 합니다. Endpoint용 Defender에서 고급 기능에서 이 기능을 사용하도록 설정할 수 있습니다. 고급 기능을 사용하도록 설정하는 방법에 대한 자세한 내용은 고급 기능 [켜기 를 참조하세요.](advanced-features.md)
+>이 기능을 사용하려면 ID용 Microsoft Defender 및 Endpoint용 Defender에서 통합을 사용하도록 설정해야 합니다. Endpoint용 Defender에서 고급 기능에서 이 기능을 사용하도록 설정할 수 있습니다. 고급 기능을 사용하도록 설정하는 방법에 대한 자세한 내용은 고급 기능 [켜기 를 참조하세요.](advanced-features.md)
 
 조직에서 개요, 경고 및 관찰된 탭은 사용자 계정에 대한 다양한 특성을 표시하는 서로 다른 탭입니다.
 

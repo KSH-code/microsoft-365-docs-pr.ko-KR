@@ -1,7 +1,7 @@
 ---
 title: 끝점 API 오류에 대한 일반적인 Microsoft Defender
 description: 설명이 있는 일반적인 끝점 API 오류에 대한 Microsoft Defender 목록입니다.
-keywords: api, mdatp api, 오류, 문제 해결
+keywords: API, 끝점 API용 Microsoft Defender, 오류, 문제 해결
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4fc2aeb6ee5a95f7eb121abdcf4431dc6d34cd49
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 54ae77c28523d3be6092e1567424d2d87a5f2927
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893464"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934792"
 ---
 # <a name="common-rest-api-error-codes"></a>일반적인 REST API 오류 코드
 

@@ -1,7 +1,7 @@
 ---
 title: 구성 관리자를 사용하여 Windows 10 장치 온보딩
 description: Configuration Manager를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보드합니다.
-keywords: sccm을 사용하여 장치 온보딩, 장치 관리, Windows ATP 장치 구성, 끝점 장치용 Microsoft Defender 구성
+keywords: sccm을 사용하여 장치 온보딩, 장치 관리, 끝점 장치용 Microsoft Defender 구성
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 02/07/2020
 ms.technology: mde
-ms.openlocfilehash: 3550bec28945ab888efbe2ca46f12ca7f96aab4a
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: e919f697048840b0eb7bffd34914328fe233f823
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892866"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935164"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>구성 관리자를 사용하여 Windows 10 장치 온보딩
 

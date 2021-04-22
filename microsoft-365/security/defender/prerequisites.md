@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender 선행 준비
 description: Microsoft 365 Defender의 라이선스, 하드웨어 및 소프트웨어 요구 사항 및 기타 구성 설정에 대해 자세히 알아보시다.
-keywords: 요구 사항, 선행 조건, 하드웨어, 소프트웨어, 브라우저, MTP, M365, 라이선스, E5, A5, EMS, 구매
+keywords: 요구 사항, 선행 조건, 하드웨어, 소프트웨어, 브라우저, Microsoft 365 Defender, M365, 라이선스, E5, A5, EMS, 구매
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f9904ecb5b9ab0a0f634903a5dc0ee3049d06b38
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 930a3de078d6d003241bb6fcd5df71bc9f301962
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074783"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935608"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Microsoft 365 Defender 선행 준비
 

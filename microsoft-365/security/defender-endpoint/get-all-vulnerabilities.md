@@ -1,7 +1,7 @@
 ---
 title: 모든 취약성 확인
 description: 조직에 영향을 주는 모든 취약점 목록을 검색합니다.
-keywords: api, 그래프 api, 지원되는 api, get, 취약성 정보, mdatp tvm api
+keywords: api, 그래프 api, 지원되는 api, get, 취약성 정보, Endpoint tvm api용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c97b70b682351e5ad9d92435068b97622032f769
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: bfce003f586c5bfa32d65c834bb244ac13f6cf31
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166897"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935092"
 ---
 # <a name="list-vulnerabilities"></a>취약성 목록
 
@@ -67,7 +67,7 @@ GET /api/vulnerabilities
 성공하면 이 메서드는 본문의 취약점 목록과 함께 200 OK를 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

@@ -1,8 +1,8 @@
 ---
-title: Android의 끝점용 Microsoft Defender
+title: Microsoft Defender for Endpoint(Android용)
 ms.reviewer: ''
 description: Android에서 끝점용 Microsoft Defender를 설치하고 사용하는 방법을 설명
-keywords: microsoft, defender, atp, android, 설치, 배포, 제거, intune
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, android, 설치, 배포, 제거, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,19 +19,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8a78fc7e07f89c2e13a698ee526403989f26dd65
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 35a43aa7bfcd9ed8c83d10c2ec44a974b03bca72
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768845"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935572"
 ---
-# <a name="microsoft-defender-for-endpoint-on-android"></a>Android의 끝점용 Microsoft Defender
+# <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender for Endpoint(Android용)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -62,7 +62,7 @@ ms.locfileid: "51768845"
     -   Microsoft Defender 보안 센터 포털에 액세스합니다.
 
         > [!NOTE]
-        > Microsoft Intune은 Android에서 끝점용 Microsoft Defender를 배포할 수 있는 유일한 MDM(모바일 장치 관리) 솔루션입니다. 현재 등록된 장치만 Intune에서 Android용 끝점용 Defender 관련 장치 준수 정책을 적용하는 데 지원됩니다. 
+        > Microsoft Intune은 Android에서 끝점용 Microsoft Defender를 배포할 수 있는 유일한 MDM(모바일 장치 관리) 솔루션입니다. 현재 등록된 장치만 Intune에서 Android 관련 장치 준수 정책에 끝점용 Defender를 적용하는 데 지원됩니다. 
 
     -   [Microsoft Endpoint Manager 관리 센터 에](https://go.microsoft.com/fwlink/?linkid=2109431)액세스하여 조직의 등록된 사용자 그룹에 앱을 배포합니다.
 
@@ -90,6 +90,6 @@ Android 기능에서 끝점용 Microsoft Defender를 구성하는 방법에 대�
 
 
 ## <a name="related-topics"></a>관련 항목
-- [Microsoft Intune을 통해 Android에서 끝점용 Microsoft Defender 배포](android-intune.md)
-- [Android 기능에서 끝점에 대한 Microsoft Defender 구성](android-configure.md)
+- [Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포](android-intune.md)
+- [Microsoft Defender for Endpoint(Android용) 기능 구성](android-configure.md)
 

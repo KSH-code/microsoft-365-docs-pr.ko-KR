@@ -1,7 +1,7 @@
 ---
 title: 끝점 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender
 description: 끝점용 Microsoft Defender가 수집하는 개인 정보 및 데이터를 처리하는 방법에 대해 자세히 알아보습니다.
-keywords: 끝점용 Microsoft Defender, 끝점용 Microsoft Defender, 데이터 저장소 및 개인 정보, 저장소, 개인 정보, 라이선싱, 지리적 위치, 데이터 보존, 데이터
+keywords: 끝점용 Microsoft Defender, 데이터 저장소 및 개인 정보, 저장, 개인 정보, 라이선싱, 지리적 위치, 데이터 보존, 데이터
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dfdfcdcfb8d76f95e3b866f5f95af7efd94ed59e
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 2279045093ebfac4a7eb4544a3e0c137c08c9c0c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904131"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935392"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>끝점 데이터 저장소 및 개인 정보 보호를 위한 Microsoft Defender
 

@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅을 통해 랜섬웨어 찾기
 description: 고급 헌팅을 사용하여 랜섬웨어의 영향을 받을 수 있는 장치를 찾습니다.
-keywords: 고급 헌팅, 랜섬웨어, 위협 헌팅, 사이버 위협 헌팅, 검색, 쿼리, 원격 분석, Microsoft 365, Microsoft 위협 방지, Microsoft 365 Defender
+keywords: 고급 헌팅, 랜섬웨어, 위협 헌팅, 사이버 위협 헌팅, 검색, 쿼리, 원격 분석, Microsoft 365, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 97f2174f74e7866f75b901cd1609341548a1a7c5
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: b6d88f5383cef052ac1b0871b4f0556ba3ba160e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498212"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934816"
 ---
 # <a name="hunt-for-ransomware"></a>랜섬웨어 찾기
 

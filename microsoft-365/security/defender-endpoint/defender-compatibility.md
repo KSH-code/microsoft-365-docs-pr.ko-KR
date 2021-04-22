@@ -1,7 +1,7 @@
 ---
 title: Endpoint용 Defender와의 Microsoft Defender 바이러스 백신 호환성
 description: Microsoft Defender for Windows Defender 작동하는 방법과 타사 맬웨어 방지 클라이언트를 사용할 때 해당 기능이 작동하는 방법에 대해 자세히 알아보습니다.
-keywords: windows defender 호환성, defender, Microsoft Defender atp, 끝점용 defender, 바이러스 백신, mde
+keywords: windows defender 호환성, defender, Endpoint용 Microsoft Defender, 끝점용 Defender, 바이러스 백신, mde
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 63dca2694dae5dee924c9a0a02a660003907c42b
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: a8dca4a80385fabcdc64a5584474214d05be4a6c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165961"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935380"
 ---
 # <a name="microsoft-defender-antivirus-compatibility-with-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender와의 Microsoft Defender 바이러스 백신 호환성
 

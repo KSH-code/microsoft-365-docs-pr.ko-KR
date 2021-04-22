@@ -1,8 +1,8 @@
 ---
-title: 끝점 API용 Microsoft Defender 액세스
+title: 엔드포인트용 Microsoft Defender API에 액세스
 ms.reviewer: ''
-description: API를 사용하여 Microsoft Defender ATP 기능을 기반으로 워크플로를 자동화하고 혁신하는 방법을 배우기
-keywords: api, api, wdatp, open api, microsoft defender atp api, 공개 api, 지원되는 api, 알림, 장치, 사용자, 도메인, ip, 파일, 고급 헌팅, 쿼리
+description: API를 사용하여 워크플로를 자동화하고 끝점용 Microsoft Defender 기능을 기반으로 혁신하는 방법을 배우기
+keywords: api, api, 끝점용 Microsoft Defender, 개방형 api, 끝점용 Microsoft Defender api, 공개 api, 지원되는 api, 경고, 장치, 사용자, 도메인, ip, 파일, 고급 헌팅, 쿼리
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 70a8ba9d3ff864ca58c856714b00f0e8feba933a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 87dce8ff4fde505eb8d4e458c8d9fb56556f4d78
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164768"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935109"
 ---
-# <a name="access-the-microsoft-defender-for-endpoint-apis"></a>끝점 API용 Microsoft Defender 액세스 
+# <a name="access-the-microsoft-defender-for-endpoint-apis"></a>엔드포인트용 Microsoft Defender API에 액세스 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -61,7 +61,7 @@ Endpoint용 Defender는 프로그래밍 API 집합을 통해 많은 데이터와
   2. 원하는 사용 권한을 응용 프로그램에 할당합니다(예: '경고 읽기', '컴퓨터 격리'). 
   3. 이 응용 프로그램에 대한 키를 생성합니다.
   4. 응용 프로그램을 키와 함께 사용하여 토큰을 얻습니다.
-  5. 토큰을 사용하여 Microsoft Defender ATP API 액세스
+  5. 토큰을 사용하여 끝점 API용 Microsoft Defender에 액세스
 
      자세한 내용은 응용 프로그램 [컨텍스트를 통해 액세스 를 참조하세요.](exposed-apis-create-app-webapp.md)
 
@@ -74,7 +74,7 @@ Endpoint용 Defender는 프로그래밍 API 집합을 통해 많은 데이터와
   1. AAD 네이티브 응용 프로그램을 만들 수 있습니다.
   2. 원하는 사용 권한을 응용 프로그램에 할당합니다(예: '경고 읽기', '컴퓨터 격리' 등). 
   3. 사용자 자격 증명과 함께 응용 프로그램을 사용하여 토큰을 얻습니다.
-  4. 토큰을 사용하여 Microsoft Defender ATP API 액세스
+  4. 토큰을 사용하여 끝점 API용 Microsoft Defender에 액세스
 
      자세한 내용은 [사용자 컨텍스트를 통해 액세스 를 참조하세요.](exposed-apis-create-app-nativeapp.md)
 

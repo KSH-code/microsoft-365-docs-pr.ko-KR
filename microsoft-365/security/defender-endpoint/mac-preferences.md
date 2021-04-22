@@ -1,7 +1,7 @@
 ---
-title: Mac용 끝점용 Microsoft Defender에 대한 기본 설정 설정
-description: 엔터프라이즈 조직에서 Mac용 끝점에 대한 Microsoft Defender를 구성합니다.
-keywords: microsoft, defender, atp, mac, 관리, 기본 설정, 엔터프라이즈, intune, jamf, macos, 카탈로니아, mojave, high sierra
+title: Mac의 끝점에 대한 Microsoft Defender 기본 설정 설정
+description: 엔터프라이즈 조직에서 Mac의 끝점에 대해 MMicrosoft Defender를 구성합니다.
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 관리, 기본 설정, 엔터프라이즈, intune, jamf, macos, 카탈로나, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d2bea469031e2c5932e859fbad7d442ebe4d34ed
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: f13734392e4975738a0d60d38e618595b5175667
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860926"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934564"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점에 대한 Microsoft Defender 기본 설정 설정
 
@@ -175,7 +175,7 @@ ms.locfileid: "51860926"
 
 #### <a name="allowed-threats"></a>허용되는 위협
 
-Mac용 끝점용 Defender에 의해 차단되지 않는 이름으로 위협을 지정합니다. 이러한 위협은 실행될 수 있습니다.
+Mac의 끝점에 대한 Defender에 의해 차단되지 않는 이름으로 위협을 지정합니다. 이러한 위협은 실행될 수 있습니다.
 
 |섹션|값|
 |:---|:---|

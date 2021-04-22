@@ -1,7 +1,7 @@
 ---
 title: 공격 표면 감소 규칙 문제 해결
 description: 끝점용 Microsoft Defender의 공격 표면 축소 규칙 문제를 해결하기 위한 리소스 및 샘플 코드입니다.
-keywords: 문제 해결, 오류, 수정, windows defender eg, asr, 규칙, hips, 문제 해결, 감사, 제외, 가극적, 손상된, 차단, 끝점용 Microsoft Defender, Microsoft Defender Advanced Threat Protection
+keywords: 문제 해결, 오류, 수정, windows defender eg, asr, 규칙, hips, 문제 해결, 감사, 제외, 가극적, 손상, 차단, 끝점용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 ms.prod: m365-security
@@ -17,12 +17,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: d483c098f221e2d4d2e61a10393154b8f5d1498d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9ff00c706b0fb336c178e227b1cb33eff9e9ebbc
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198744"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935224"
 ---
 # <a name="troubleshoot-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 문제 해결
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 설정
 description: Microsoft 365 보안 센터에 액세스한 다음 Microsoft 365 Defender 평가판 랩 환경 설정
-keywords: Microsoft Threat Protection 평가판 설정, Microsoft Threat Protection 파일럿 설정, Microsoft Threat Protection, Microsoft Threat Protection 평가 랩 설정 시도
+keywords: Microsoft 365 Defender 평가판 설정, Microsoft 365 Defender 파일럿 설정, Microsoft 365 Defender, Microsoft 365 Defender 평가 랩 설정 체험
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 976f6a1ec010348e8a281c251064acdd7a26748b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ae81f6be0a83d5d0141f0f0c8c89f8f2207cc56c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074775"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935428"
 ---
 # <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a>Microsoft 365 Defender 평가판 랩 환경 설정 
 
@@ -37,7 +37,7 @@ ms.locfileid: "51074775"
 
 Microsoft 365 Defender 평가판 랩 또는 파일럿 환경을 만들고 배포하는 과정은 다음 3단계 프로세스입니다.
 
-|[![1단계: 준비](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[1단계: 준비](prepare-m365d-eval.md) |![2단계: 설정](../../media/phase-diagrams/setup.png)<br/>2단계: 설정 |[![3단계: 온보더](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[3단계: 온보더](config-m365d-eval.md) | [![파일럿으로 돌아가기](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[파일럿 플레이북으로 돌아가기](m365d-pilot.md) |
+|[![1 단계: 준비](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[1 단계: 준비](prepare-m365d-eval.md) |![2 단계: 설정](../../media/phase-diagrams/setup.png)<br/>2 단계: 설정 |[![3 단계: 온보딩](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[3 단계: 온보딩](config-m365d-eval.md) | [![파일럿으로 돌아가기](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[파일럿 플레이북으로 돌아가기](m365d-pilot.md) |
 |--|--|--|--|
 ||*여기 있습니다!*  | | |
 

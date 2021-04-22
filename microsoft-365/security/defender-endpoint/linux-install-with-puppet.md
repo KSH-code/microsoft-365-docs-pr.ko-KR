@@ -2,7 +2,7 @@
 title: Puppet을 통해 Linux에서 끝점용 Microsoft Defender 배포
 ms.reviewer: ''
 description: Puppet을 사용하여 Linux에서 끝점용 Microsoft Defender를 배포하는 방법에 대해 설명
-keywords: microsoft, defender, atp, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 413f8113d2f782c0a57d648a6db8178f2e522270
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: d54732134e91b87b2639634c365556beda5312b0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903885"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934576"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-puppet"></a>Puppet을 통해 Linux에서 끝점용 Microsoft Defender 배포
 
@@ -36,7 +36,7 @@ ms.locfileid: "51903885"
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-이 문서에서는 Puppet을 사용하여 Linux용 Endpoint용 Defender를 배포하는 방법을 설명합니다. 배포를 성공적으로 수행하려면 다음 작업을 모두 완료해야 합니다.
+이 문서에서는 Puppet을 사용하여 Linux에서 Endpoint용 Defender를 배포하는 방법을 설명합니다. 배포를 성공적으로 수행하려면 다음 작업을 모두 완료해야 합니다.
 
 - [온보더링 패키지 다운로드](#download-the-onboarding-package)
 - [Puppet 매니페스트 만들기](#create-a-puppet-manifest)
@@ -45,7 +45,7 @@ ms.locfileid: "51903885"
 
 ## <a name="prerequisites-and-system-requirements"></a>선행 조건 및 시스템 요구 사항
 
- 현재 소프트웨어 버전에 대한 선행 조건 및 시스템 요구 사항에 대한 설명은 [Linux용 끝점용 주 Defender 페이지를 참조하세요.](microsoft-defender-endpoint-linux.md)
+ 현재 소프트웨어 버전에 대한 선행 조건 및 시스템 요구 사항에 대한 설명은 Linux의 끝점에 대한 기본 [Defender 페이지를 참조하세요.](microsoft-defender-endpoint-linux.md)
 
 또한 Puppet 배포의 경우 Puppet 관리 작업에 익숙하고, Puppet을 구성하고, 패키지를 배포하는 방법을 알아야 합니다. Puppet에는 동일한 작업을 여러 가지 방법으로 완료할 수 있습니다. 이러한 지침에서는 패키지 배포에 도움이 되는 *apt와* 같은 지원되는 Puppet 모듈의 가용성을 가정합니다. 조직에서 다른 워크플로를 사용할 수 있습니다. 자세한 내용은 [Puppet 설명서를](https://puppet.com/docs) 참조하십시오.
 
@@ -79,7 +79,7 @@ Microsoft Defender 보안 센터에서 온보딩 패키지를 다운로드합니
 
 ## <a name="create-a-puppet-manifest"></a>Puppet 매니페스트 만들기
 
-Puppet 서버에서 관리하는 장치에 Linux용 Defender for Endpoint를 배포하기 위한 Puppet 매니페스트를 만들어야 합니다. 이 예제에서는 puppetlabs에서 사용할 수 있는 *apt* 및 *yumrepo* 모듈을 사용하며, 모듈이 Puppet 서버에 설치되어 있는 것으로 가정합니다.
+Puppet 서버에서 관리하는 장치에 Linux의 Endpoint용 Defender를 배포하기 위한 Puppet 매니페스트를 만들어야 합니다. 이 예제에서는 puppetlabs에서 사용할 수 있는 *apt* 및 *yumrepo* 모듈을 사용하며, 모듈이 Puppet 서버에 설치되어 있는 것으로 가정합니다.
 
 Puppet 설치의 *모듈 install_mdatp/파일* 및 install_mdatp/매니페스트에 대한 폴더를 만들 수 있습니다.  이 폴더는 일반적으로 Puppet 서버의 */etc/puppetlabs/code/environments/production/modules에* 있습니다. 위에서 mdatp_onboard.js파일 폴더에 install_mdatp *파일을 복사합니다.* *init.pp 만들기* 배포 지침이 포함된 파일:
 
@@ -103,7 +103,7 @@ install_mdatp
 
 ### <a name="contents-of-install_mdatpmanifestsinitpp"></a>의 내용 `install_mdatp/manifests/init.pp`
 
-Linux용 Endpoint용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 중 하나에서 배포할 수 있습니다. *insiders-fast,* *insiders-slow* 또는 *prod*. 이러한 각 채널은 Linux 소프트웨어 리포지토리에 해당합니다.
+Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 중 하나에서 배포할 수 있습니다. *insiders-fast,* *insiders-slow* 또는 *prod*. 이러한 각 채널은 Linux 소프트웨어 리포지토리에 해당합니다.
 
 채널 선택에 따라 장치에 제공되는 업데이트의 유형과 빈도가 결정됩니다. *insiders-fast의* 장치는 업데이트 및 새 기능을 수신하는 첫 번째  장치로, 그 다음에는 이후의 내부자 속도가 느려지며 마지막으로 *prod가 됩니다.*
 
@@ -238,7 +238,7 @@ mdatp health --field healthy
 
 ## <a name="operating-system-upgrades"></a>운영 체제 업그레이드
 
-운영 체제를 새 주 버전으로 업그레이드할 때 먼저 Linux용 Endpoint용 Defender를 제거하고 업그레이드를 설치한 다음 마지막으로 디바이스에서 Linux용 Endpoint용 Defender를 다시 구성해야 합니다.
+운영 체제를 새 주 버전으로 업그레이드할 때 먼저 Linux에서 Endpoint용 Defender를 제거하고 업그레이드를 설치한 다음, 디바이스에서 Linux용 Endpoint용 Defender를 다시 구성해야 합니다.
 
 ## <a name="uninstallation"></a>제거
 

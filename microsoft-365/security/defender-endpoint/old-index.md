@@ -1,7 +1,7 @@
 ---
 title: 위협 방지(Windows 10)
 description: 엔드포인트용 Microsoft Defender는 예방적 보호, 침해 후 감지, 자동화된 조사 및 대응을 위한 통합 플랫폼입니다.
-keywords: 위협 방지, Microsoft Defender Advanced Threat Protection, 공격 표면 감소, 차세대 보호, 끝점 감지 및 대응, 자동화된 조사 및 대응, Microsoft 위협 전문가, 장치용 Microsoft 보안 점수, 고급 헌팅, 사이버 위협 헌팅, 웹 위협 방지
+keywords: 위협 방지, 끝점용 Microsoft Defender, 공격 표면 감소, 차세대 보호, 끝점 감지 및 대응, 자동화된 조사 및 대응, Microsoft 위협 전문가, 장치용 Microsoft 보안 점수, 고급 헌팅, 사이버 위협 헌팅, 웹 위협 방지
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 4206519d62feb82bbc297659e01b0cc3902b83dc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3098c2786874650ad14d226beacd5ec760decef0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51061161"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934936"
 ---
 # <a name="threat-protection"></a>위협 방지
 [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-advanced-threat-protection)는 예방적 보호, 침해 후 감지, 자동화된 조사 및 대응을 위한 통합 플랫폼입니다. Endpoint용 Defender는 사이버 위협으로부터 끝점을 보호하고, 고급 공격 및 데이터 위반을 감지하고, 보안 인시던트를 자동화하며, 보안 입장을 개선합니다.
@@ -27,7 +27,7 @@ ms.locfileid: "51061161"
 > [!TIP]
 > 사용자가 클라우드 서비스 및 사내 응용 프로그램에 쉽게 액세스할 수 있도록 지원하고 모든 장치에 대한 최신 관리 기능을 사용할 수 있습니다. 자세한 내용은 원격 인력 [보호를 참조하세요.](https://docs.microsoft.com/enterprise-mobility-security/remote-work/) 
 
-<center><h2>끝점용 Microsoft Defender</center></h2>
+<center><h2>엔드포인트용 Microsoft Defender</center></h2>
 <table>
 <tr>
 <td><a href="#tvm"><center><img src="images/TVM_icon.png" alt="threat and vulnerability icon"> <br><b>위협 & 취약성 관리</b></center></a></td>
@@ -52,7 +52,7 @@ ms.locfileid: "51061161"
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4obJq]
 
-**[위협 & 취약성 관리](next-gen-threat-and-vuln-mgt.md)**<br>
+**[위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)**<br>
 이 기본 제공 기능은 게임이 변화하는 위험 기반 접근 방식을 사용하여 끝점 취약성 및 잘못 구성을 검색, 우선 순위 지정 및 수정합니다.
 
 - [위협 & 관리 개요](next-gen-threat-and-vuln-mgt.md)
@@ -68,8 +68,8 @@ ms.locfileid: "51061161"
 
 - [하드웨어 기반의 고리](overview-hardware-based-isolation.md)
 - [응용 프로그램 제어](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
-- [디바이스 컨트롤](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
-- [Exploit Protection](exploit-protection.md)
+- [장치 제어](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
+- [악용 방지](exploit-protection.md)
 - [네트워크 보호,](network-protection.md) [웹 보호](web-protection-overview.md)
 - [제어된 폴더 액세스](controlled-folders.md)
 - [네트워크 방화벽](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security)
@@ -88,7 +88,7 @@ ms.locfileid: "51061161"
 
 <a name="edr"></a>
 
-**[끝점 감지 및 대응](overview-endpoint-detection-response.md)**<br>
+**[엔드포인트 검색 및 대응](overview-endpoint-detection-response.md)**<br>
 끝점 감지 및 대응 기능은 침입 시도 및 활성 위반을 감지, 조사 및 대응하기 위해 사용됩니다. 고급 헌팅을 사용하면 위반을 사전 예방적으로 찾고 사용자 지정 검색을 만들 수 있는 쿼리 기반 위협 헌팅 도구가 있습니다.
 
 - [경고](alerts-queue.md)
@@ -97,7 +97,7 @@ ms.locfileid: "51061161"
 - [포렌식 컬렉션](respond-machine-alerts.md#collect-investigation-package-from-devices)
 - [위협 인텔리전스](threat-indicator-concepts.md)
 - [고급 검색 및 분석 서비스](respond-file-alerts.md#deep-analysis)
-- [고급 헌팅](advanced-hunting-overview.md)
+- [지능형 헌팅](advanced-hunting-overview.md)
     - [사용자 지정 검색](overview-custom-detections.md)
 
 <a name="ai"></a>
@@ -106,8 +106,8 @@ ms.locfileid: "51061161"
 Microsoft Defender for Endpoint는 고급 공격에 빠르게 대응할 뿐만 아니라 대규모로 경고 볼륨을 분당 줄이는 데 도움이 되는 자동 조사 및 수정 기능을 제공합니다.
 
 - [자동화된 조사 및 수정](automated-investigations.md)
-- [자동화 조사 세부정보 및 결과 보기](auto-investigation-action-center.md)
-- [수정 작업 보기 및 승인](manage-auto-investigation.md)
+- [자동화된 조사의 세부 정보 및 결과 보기](auto-investigation-action-center.md)
+- [수정 조치 보기 및 승인](manage-auto-investigation.md)
 
 <a name="mte"></a>
 

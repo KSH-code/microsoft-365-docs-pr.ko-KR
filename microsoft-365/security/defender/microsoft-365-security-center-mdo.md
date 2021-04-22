@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 보안 센터의 Office 365용 Microsoft Defender
 description: Office 365 보안 및 규정 준수 센터에서 Microsoft 365 보안 센터로의 변경에 대해 자세히 알아보겠습니다.
-keywords: Microsoft 365 보안, Microsoft 365 보안 센터 시작하기, OATP, MDATP, MDO, MDE, 단일 창 방식, 새로운 보안 포털, 새로운 Defender 보안 포털
+keywords: Microsoft 365 보안, Microsoft 365 보안 센터 시작, Office 365용 Microsoft Defender, 끝점용 Microsoft Defender, MDO, MDE, 단일 창, 새 보안 포털, 새 Defender 보안 포털
 ms.date: 02/02/2021
 ms.author: tracyp
 author: msfttracyp
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 0c4a849bf3f91d4803adcb45c13b59d76afda388
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: 980a384d3c4fd44a368f35d6f885ea0c8288376a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51760191"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935416"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 Office 365용 Microsoft Defender
 

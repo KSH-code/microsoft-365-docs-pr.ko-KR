@@ -1,6 +1,6 @@
 ---
 title: 공격 표면 감소 자주 묻는 질문(FAQ)
-description: Microsoft Defender ATP의 공격 표면 축소 규칙에 대한 질문과 대답을 찾아보십시오.
+description: Endpoint의 공격 표면 감소 규칙에 대한 Microsoft Defender에 대한 질문과 대답을 찾아보십시오.
 keywords: 공격 표면 감소 규칙, asr, hips, 호스트 침입 방지 시스템, 보호 규칙, 악용 방지, 악용, 감염 방지, 끝점용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
@@ -16,19 +16,19 @@ manager: dansimp
 ms.custom: asr
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 71c3f89b721039753709d65daa135cad74a81711
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: cf41dda4ff61137d6b60b2fc735227f15418477e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476469"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935596"
 ---
 # <a name="attack-surface-reduction-frequently-asked-questions-faq"></a>공격 표면 감소 자주 묻는 질문(FAQ)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 11/06/2020
 ms.technology: mde
-ms.openlocfilehash: 3a26951a796d72237f992e520e1b793654e467e3
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: c4cdc80170b49a111f476d2d17222c41e2b5c55f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893404"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935368"
 ---
 # <a name="fix-unhealthy-sensors-in-microsoft-defender-for-endpoint"></a>Endpoint용 Microsoft Defender에서 불안정한 센서 수정
 
@@ -66,7 +66,7 @@ ms.locfileid: "51893404"
 다음 제안된 작업은 통신 장애가 있는 잘못 구성된 장치와 관련된 문제를 해결하는 데 도움이 될 수 있습니다.
 
 - [디바이스가 인터넷에 연결되어 있는지 확인](troubleshoot-onboarding.md#troubleshoot-onboarding-issues-on-the-device)</br>
-  Window Defender ATP 센서를 사용하려면 Microsoft Windows HTTP(WinHTTP)가 센서 데이터를 보고하고 끝점용 Microsoft Defender 서비스와 통신해야 합니다.
+  엔드포인트용 Microsoft Defender 센서를 사용하려면 센서 데이터를 보고하고 엔드포인트용 Microsoft Defender 서비스와 통신하기 위해 WinHTTP(Microsoft Windows HTTP)가 필요합니다.
 
 - [끝점 서비스 URL용 Microsoft Defender에 대한 클라이언트 연결 확인](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)</br>
   프록시 구성이 성공적으로 완료되어 WinHTTP가 사용자 환경의 프록시 서버를 검색하고 통신할 수 있는지, 프록시 서버에서 끝점 서비스 URL에 대한 Microsoft Defender에 대한 트래픽을 허용하는지 확인
@@ -78,7 +78,7 @@ ms.locfileid: "51893404"
 다음 작업을 수행하여 '센서 데이터 없음' 상태의 잘못 구성된 장치와 관련된 알려진 문제를 해결합니다.
 
 - [디바이스가 인터넷에 연결되어 있는지 확인](troubleshoot-onboarding.md#troubleshoot-onboarding-issues-on-the-device)</br>
-  Window Defender ATP 센서를 사용하려면 Microsoft Windows HTTP(WinHTTP)가 센서 데이터를 보고하고 끝점용 Microsoft Defender 서비스와 통신해야 합니다.
+  엔드포인트용 Microsoft Defender 센서를 사용하려면 센서 데이터를 보고하고 엔드포인트용 Microsoft Defender 서비스와 통신하기 위해 WinHTTP(Microsoft Windows HTTP)가 필요합니다.
 
 - [끝점 서비스 URL용 Microsoft Defender에 대한 클라이언트 연결 확인](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)</br>
   프록시 구성이 성공적으로 완료되어 WinHTTP가 사용자 환경의 프록시 서버를 검색하고 통신할 수 있는지, 프록시 서버에서 끝점 서비스 URL에 대한 Microsoft Defender에 대한 트래픽을 허용하는지 확인

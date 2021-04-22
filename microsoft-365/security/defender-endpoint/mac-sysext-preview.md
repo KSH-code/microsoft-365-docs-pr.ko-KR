@@ -1,7 +1,7 @@
 ---
-title: Mac용 끝점용 Microsoft Defender - 시스템 확장(미리 보기)
-description: 이 문서에는 Mac용 끝점용 Microsoft Defender의 시스템 확장 기능을 시도하기 위한 지침이 포함되어 있습니다. 이 기능은 현재 공개 미리 보기로 제공됩니다.
-keywords: microsoft, defender, atp, mac, 커널, 시스템, 확장, 카탈로니아
+title: Mac의 끝점용 Microsoft Defender - 시스템 확장(미리 보기)
+description: 이 문서에는 Mac에서 끝점용 Microsoft Defender의 시스템 확장 기능을 시도하기 위한 지침이 포함되어 있습니다. 이 기능은 현재 공개 미리 보기로 제공됩니다.
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 커널, 시스템, 확장, 카탈로니아
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 0b593aa0046a28e558523c2f3ebc7da9976f62d3
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: cc148bcc0b2623eaaa8d31ef50708174264fa3b2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860330"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934948"
 ---
 # <a name="microsoft-defender-for-endpoint-on-macos---system-extensions-public-preview"></a>MacOS의 끝점용 Microsoft Defender - 시스템 확장 공개 미리 보기)
 
@@ -62,7 +62,7 @@ MacOS의 진화에 맞춰 커널 확장 대신 시스템 확장을 활용하는 
   defaults write com.microsoft.autoupdate2 ChannelName -string Beta
   ```
 
-  또는 관리되는 환경(JAMF 또는 Intune)에 있는 경우 원격으로 업데이트 채널을 구성할 수 있습니다. 자세한 내용은 Mac용 [끝점용 Microsoft Defender 업데이트 배포: 채널 이름 설정 을 참조하세요.](mac-updates.md#set-the-channel-name)
+  또는 관리되는 환경(JAMF 또는 Intune)에 있는 경우 원격으로 업데이트 채널을 구성할 수 있습니다. 자세한 내용은 Mac에서 [끝점용 Microsoft Defender 업데이트 배포: 채널 이름 설정 을 참조하세요.](mac-updates.md#set-the-channel-name)
 
 ## <a name="deployment-steps"></a>배포 단계
 
@@ -74,7 +74,7 @@ MacOS의 진화에 맞춰 커널 확장 대신 시스템 확장을 활용하는 
 
 1. 모든 배포 선행 요구가 충족된 후 장치를 다시 시작하여 시스템 확장 승인 및 정품 인증 프로세스를 시작합니다.
 
-   Endpoint 시스템 확장에 대한 Defender를 승인하라는 시스템 메시지가 일련의 표시될 수 있습니다. MacOS는  Mac용 Endpoint용 Defender가 장치에 설치하는 각 확장에 대해 명시적 승인이 필요하기 때문에 시리즈의 모든 프롬프트를 승인해야 합니다.
+   Endpoint 시스템 확장에 대한 Defender를 승인하라는 시스템 메시지가 일련의 표시될 수 있습니다. MacOS는  Mac의 끝점용 Defender가 장치에 설치하는 각 확장에 대해 명시적 승인이 필요하기 때문에 시리즈의 모든 프롬프트를 승인해야 합니다.
    
    각 승인에 대해 **보안** 기본 설정  열기 를 선택한 다음 시스템 확장 실행 허용을 선택합니다.
 

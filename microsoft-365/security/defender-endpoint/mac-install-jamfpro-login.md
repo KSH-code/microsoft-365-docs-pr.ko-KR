@@ -1,7 +1,7 @@
 ---
 title: Jamf Pro에 로그인
 description: Jamf Pro에 로그인
-keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamfpro, macos, 카탈로나, mojave, high sierra
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a868c8608f3db556fa7ff4c98f769d82980ac86b
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 19988a2810a5cca05b102ad50124e3b36d7b6cad
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187683"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935584"
 ---
 # <a name="log-in-to-jamf-pro"></a>Jamf Pro에 로그인
 

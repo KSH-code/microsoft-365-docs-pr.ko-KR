@@ -1,7 +1,7 @@
 ---
 title: 끝점용 Microsoft Defender 업데이트를 예약하는 방법(Linux)
 description: 조직의 자산을 보다 잘 보호하기 위해 끝점용 Microsoft Defender(Linux)의 업데이트를 예약하는 방법을 배워야 합니다.
-keywords: microsoft, defender, atp, linux, 검사, 바이러스 백신, 끝점용 Microsoft Defender(linux)
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, linux, 검사, 바이러스 백신, 끝점용 Microsoft Defender(linux)
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a967333a58f74938ea70e32e0c48d2decb597e98
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 22ff42cb399b3d07c0ebd8ec4f947352eb6f44aa
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688804"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934768"
 ---
 # <a name="schedule-an-update-of-the-microsoft-defender-for-endpoint-linux"></a>엔드포인트용 Microsoft Defender(Linux) 업데이트 예약
 
