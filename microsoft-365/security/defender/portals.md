@@ -1,7 +1,7 @@
 ---
 title: Microsoft 보안 포털 및 관리 센터
 description: Microsoft 365 보안과 관련된 다양한 서비스를 관리하기 위한 올바른 Microsoft 관리 센터 또는 포털 찾기
-keywords: 보안, 포털, Microsoft 365, M365, 보안 센터, 관리 센터, URL, 링크, MTP, Microsoft Defender ATP, Microsoft Defender 보안 센터, Azure ATP, Office 365 ATP, MCAS, WDSI, SCC, Intune, MDM, MEM, ASC, OATP, AATP, Cloud App Security, Azure AD, 보안 & 준수 센터
+keywords: 보안, 포털, Microsoft 365, M365, 보안 센터, 관리 센터, URL, 링크, Microsoft 365 Defender, 끝점용 Microsoft Defender, Microsoft Defender 보안 센터, ID용 Microsoft Defender, Office 365용 Microsoft Defender, MCAS, WDSI, SCC, Intune, MDM, MEM, ASC, Cloud App Security , Azure AD, 보안 & 규정 준수 센터
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 66e1bfa8007a972a1963745857a25e1e255634b6
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c304d8badd9bde11ad0f483b482628503569dc26
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200188"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51931938"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Microsoft 보안 포털 및 관리 센터
 

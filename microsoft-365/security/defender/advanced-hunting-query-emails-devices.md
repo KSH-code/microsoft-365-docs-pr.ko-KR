@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅을 사용하여 장치, 전자 메일, 앱 및 ID 전반에 걸쳐 위협을 찾기
 description: 장치, 전자 메일, 앱 및 ID를 다루는 일반적인 헌팅 시나리오 및 샘플 쿼리를 연구합니다.
-keywords: 고급 헌팅, Office365 데이터, Windows 장치, Office365 전자 메일 정규화, 전자 메일, 앱, ID, 위협 헌팅, 사이버 위협 헌팅, 검색, 쿼리, 원격 분석, Microsoft 365, Microsoft Threat Protection
+keywords: 고급 헌팅, Office365 데이터, Windows 장치, Office365 전자 메일 정규화, 전자 메일, 앱, ID, 위협 헌팅, 사이버 위협 헌팅, 검색, 쿼리, 원격 분석, Microsoft 365, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0fb8bb54e6a893fb434fe453c70ed38b8e8ccb30
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 8a811d60af281bb534776736e77c3eb54ab6a760
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499324"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932968"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>장치, 전자 메일, 앱 및 ID에 대한 위협 검색
 

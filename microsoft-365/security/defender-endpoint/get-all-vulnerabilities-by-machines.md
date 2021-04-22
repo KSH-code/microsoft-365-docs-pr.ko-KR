@@ -1,7 +1,7 @@
 ---
 title: 컴퓨터 및 소프트웨어로 모든 취약성 확인
 description: Machine and Software로 조직에 영향을 주는 모든 취약점 목록을 검색합니다.
-keywords: api, 그래프 api, 지원되는 api, get, 취약성 정보, mdatp tvm api
+keywords: api, 그래프 api, 지원되는 api, get, 취약성 정보, Endpoint tvm api용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f7d67948e3b3e7a1a878386a397d2f4a6e8e998e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 229c1f9e77a0cb85744155e82934b48dd63052b2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166902"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933412"
 ---
-# <a name="list-vulnerabilities-by-machine-and-software"></a>컴퓨터 및 소프트웨어의 취약성 목록
+# <a name="list-vulnerabilities-by-machine-and-software"></a>컴퓨터 및 소프트웨어별 취약성 목록
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -72,7 +72,7 @@ GET /api/vulnerabilities/machinesVulnerabilities
 성공하면 이 메서드는 본문의 취약점 목록과 함께 200 OK를 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

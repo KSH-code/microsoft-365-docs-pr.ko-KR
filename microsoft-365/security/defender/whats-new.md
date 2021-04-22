@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender의 새로운 기능
 description: Microsoft 365 Defender의 새로운 기능을 나열합니다.
-keywords: Microsoft 위협 방지, ga, 일반적으로 사용 가능, 기능, 사용 가능, 새로운 기능의 새로운 기능
+keywords: Microsoft 365 Defender, ga, 일반적으로 사용 가능한 기능, 사용 가능, 새로운 기능의 새로운 기능
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,18 +18,18 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: e75cfe445f62860f8bdb1480fcf9029daa8ac6ea
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 9f4cc36172b0ac598b2719bee8ce56bf0f8a1b84
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076279"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933388"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Microsoft 365 Defender의 새로운 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-> Microsoft 365 Defender를 경험하고 싶나요? 랩 [환경에서 평가하거나](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) 프로덕션 [환경에서 파일럿](m365d-pilot.md?ocid=cx-evalpilot)프로젝트를 실행할 수 있습니다.
+> Microsoft 365 Defender를 경험해 보고 싶으신가요? [랩 환경에서 평가](m365d-evaluation.md?ocid=cx-docs-MTPtriallab)하거나 [프로덕션에서 파일럿 프로젝트를 실행](m365d-pilot.md?ocid=cx-evalpilot)할 수 있습니다.
 >
 
 다음 기능은 Microsoft 365 Defender의 최신 릴리스에서 일반적으로 사용할 수 있습니다(GA).
@@ -68,5 +68,5 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 
 ## <a name="march-2019"></a>2019년 3월
 - 고급 헌팅 <br> 전자 메일 및 데이터, 장치 및 ID에 영향을 주는 위협을 사전 대응적으로 찾을 수 있는 다양한 헌팅 기능에 대한 방문 페이지입니다.
-- [Microsoft 보안 점수](microsoft-secure-score.md) <br> 조직의 보안 자세 측정값으로, 수치가 높을수록 개선 작업이 더 많이 수행됩니다. 보안 점수 권장 사항을 따라 조직을 위협으로부터 보호할 수 있습니다. 
+- [Microsoft Secure Score](microsoft-secure-score.md) <br> 조직의 보안 자세 측정값으로, 수치가 높을수록 개선 작업이 더 많이 수행됩니다. 보안 점수 권장 사항을 따르면 조직을 위협으로부터 지킬 수 있습니다. 
 - [보고서](overview-security-center.md) <br>  보안 분석가와 관리자가 매일 작업의 일부로 추적하는 다양한 영역을 다루는 카드 호스트를 제공합니다.

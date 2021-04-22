@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender를 켜는 경우 자주 묻는 질문과 대답
 description: Microsoft 365 Defender 사용과 관련된 라이선스, 사용 권한, 초기 설정 및 기타 제품 및 서비스에 대한 가장 일반적으로 묻는 질문에 대한 답변을 얻습니다.
-keywords: 자주 묻는 질문, FAQ, GCC, 시작, MTP, Microsoft Threat Protection, M365, 보안, 데이터 위치, 필요한 사용 권한, 라이선스 자격, 설정 페이지
+keywords: 질문과 대답, FAQ, GCC, 시작, Microsoft 365 Defender, Microsoft 365 Defender, M365, 보안, 데이터 위치, 필수 사용 권한, 라이선스 자격, 설정 페이지
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 7482bf614e7cb3ffad6596f3c5d8bc554d46d912
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 55c1a3807fe8e28ca12f4f638c1ab2ca717523ed
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076687"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933436"
 ---
 # <a name="frequently-asked-questions-when-turning-on-microsoft-365-defender"></a>Microsoft 365 Defender를 켜는 경우 자주 묻는 질문과 대답
 

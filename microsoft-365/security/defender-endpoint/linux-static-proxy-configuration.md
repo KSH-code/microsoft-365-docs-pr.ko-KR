@@ -2,7 +2,7 @@
 title: Linux 정적 프록시 검색의 끝점용 Microsoft Defender
 ms.reviewer: ''
 description: 정적 프록시 검색을 위해 Linux에서 끝점용 Microsoft Defender를 구성하는 방법을 설명 합니다.
-keywords: microsoft, defender, atp, linux, 설치, 프록시
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 프록시
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e59727b6bb5fca58595764fc003009891546d8f6
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: c5dc14c71c344bf508cda8d39f892d740781ac87
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903849"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933124"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-linux-for-static-proxy-discovery"></a>정적 프록시 검색을 위해 Linux에서 끝점에 대한 Microsoft Defender 구성
 

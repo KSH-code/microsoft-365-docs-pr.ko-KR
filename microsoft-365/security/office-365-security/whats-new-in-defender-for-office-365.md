@@ -1,7 +1,7 @@
 ---
 title: Office 365용 Microsoft Defender의 새로운
 description: Microsoft Defender for Office 365의 최신 릴리스에서 사용할 수 있는 새로운 기능에 대해 자세히 알아보습니다.
-keywords: Office 365 atp, ga, 일반적으로 사용 가능한 기능, 사용 가능, 새로운 기능의 새로운 기능
+keywords: Office 365용 Microsoft Defender의 새로운 기능, ga, 일반적으로 사용 가능, 기능, 사용 가능, 새로운 기능
 search.appverid: met150
 ms.sitesec: library
 ms.pagetype: security
@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7dd691b0d018db2b7afb3b88a2c1f9f7f8a39a33
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 4bb1450790883deec295f554ddf9614c0f01fe2d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569782"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930486"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 새로운
 
@@ -38,7 +38,7 @@ ms.locfileid: "51569782"
 
 이 문서에는 Office 365용 Microsoft Defender의 최신 릴리스의 새로운 기능이 나열됩니다. 현재 미리 보기에 있는 기능은 (미리 **보기)로 표시됩니다.**
 
-자세한 내용은 이 비디오를 [시청합니다.](https://www.youtube.com/watch?v=Tdz6KfruDGo&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=3)
+[이 비디오](https://www.youtube.com/watch?v=Tdz6KfruDGo&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=3)를 시청하여 자세히 확인하세요.
 > [!TIP]
 > 아직 Office 365용 Microsoft Defender가 없는가요? [영업 담당자에게 평가판을 시작해 을(를) 시작해 을(를) 평가](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 

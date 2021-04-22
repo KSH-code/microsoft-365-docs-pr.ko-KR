@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호합니다.
-ms.openlocfilehash: 9d24381b5947049c506b19553a2ab3d77b95d7c8
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 109ba05b21ce9c1355be73dbdfb000d6eb8c4e4d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200320"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930474"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>보안 팀이 집에서 작업할 수 있는 상위 12개 작업
 
@@ -43,8 +43,8 @@ Microsoft의 비즈니스 계획 중 하나를 사용하는 중소 규모 조직
 |단계|작업 |모든 Office 365 Enterprise 계획|Microsoft 365 E3|Microsoft 365 E5|
 |---|---|---|---|---|
 |1|[Azure AD MFA(다단계 인증) 사용](#1-enable-azure-ad-multi-factor-authentication-mfa)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|2 |[위협으로부터 보호](#2-protect-against-threats)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|3 |[Office 365용 Microsoft Defender 구성](#3-configure-microsoft-defender-for-office-365)|||![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|2|[위협으로부터 보호](#2-protect-against-threats)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|3|[Office 365용 Microsoft Defender 구성](#3-configure-microsoft-defender-for-office-365)|||![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |4 |[ID에 맞게 Microsoft Defender 구성](#4-configure-microsoft-defender-for-identity)|||![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |5 |[Microsoft 365 Defender 켜기](#5-turn-on-microsoft-365-defender)|||![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6 |[휴대폰 및 태블릿에 대한 Intune 모바일 앱 보호 구성](#6-configure-intune-mobile-app-protection-for-phones-and-tablets)||![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|![포함](../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -108,7 +108,7 @@ Office 365용 Microsoft Defender:
 
 Exchange Online 관리자 및 SharePoint Online 관리자와 함께 작업하여 이러한 워크로드에 대해 Office 365용 Defender를 구성해야 합니다.
 
-- [SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](office-365-security/mdo-for-spo-odb-and-teams.md)
+- [SharePoint, OneDrive 및 Microsoft Teams용 끝점용 Microsoft Defender](office-365-security/mdo-for-spo-odb-and-teams.md)
 
 ## <a name="4-configure-microsoft-defender-for-identity"></a>4: ID에 맞게 Microsoft Defender 구성
 

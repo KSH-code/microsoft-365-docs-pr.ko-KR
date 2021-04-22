@@ -1,7 +1,7 @@
 ---
 title: McAfee에서 끝점용 Microsoft Defender로 마이그레이션
 description: McAfee에서 끝점용 Microsoft Defender로 전환합니다. 개요는 이 문서를 읽어 읽습니다.
-keywords: 마이그레이션, Windows Defender Advanced Threat Protection, atp, edr
+keywords: migration, Microsoft Defender for Endpoint, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -22,12 +22,12 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: f46fb354537b61630172d3d735ce6b24f25ab39a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3d26e2c134f5f9794f7acd41e49c27bd9f331153
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198837"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932646"
 ---
 # <a name="migrate-from-mcafee-to-microsoft-defender-for-endpoint"></a>McAfee에서 끝점용 Microsoft Defender로 마이그레이션
 
@@ -60,12 +60,12 @@ McAfee에서 끝점용 Microsoft Defender로 전환하는 경우 준비, 설치 
 
 | 기능/기능 | 설명 |
 |---|---|
-| [위협 & 취약성 관리](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) | 위협 & 관리 기능은 끝점(예: 장치)에서 약점을 식별, 평가 및 수정하는 데 도움이 됩니다. |
+| [위협 및 취약성 관리](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) | 위협 & 관리 기능은 끝점(예: 장치)에서 약점을 식별, 평가 및 수정하는 데 도움이 됩니다. |
 | [공격 표면 감소](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction) | 공격 표면 감소 규칙은 사이버 위협 및 공격으로부터 조직의 장치 및 응용 프로그램을 보호하는 데 도움이 됩니다. |
 | [차세대 보호](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) | 차세대 보호에는 위협과 맬웨어를 차단하는 데 도움이 되는 Microsoft Defender 바이러스 백신이 포함되어 있습니다. |
-| [끝점 감지 및 대응](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) | 끝점 감지 및 응답 기능은 침입 시도 및 활성 위반을 감지, 조사 및 대응합니다.  |
-| [고급 헌팅](advanced-hunting-overview.md) | 고급 헌팅 기능을 통해 보안 운영 팀은 알려진 위협 또는 잠재적인 위협의 지표와 엔터티를 찾을 수 있습니다. |
-| [동작 차단 및 포함](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/behavioral-blocking-containment) | 동작 차단 및 포함 기능은 위협이 실행을 시작한 경우에도 동작 및 처리 트리를 기반으로 위협을 식별하고 중지하는 데 도움이 됩니다. |
+| [엔드포인트 검색 및 대응](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) | 끝점 감지 및 응답 기능은 침입 시도 및 활성 위반을 감지, 조사 및 대응합니다.  |
+| [지능형 헌팅](advanced-hunting-overview.md) | 고급 헌팅 기능을 통해 보안 운영 팀은 알려진 위협 또는 잠재적인 위협의 지표와 엔터티를 찾을 수 있습니다. |
+| [동작 차단 및 제약](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/behavioral-blocking-containment) | 동작 차단 및 포함 기능은 위협이 실행을 시작한 경우에도 동작 및 처리 트리를 기반으로 위협을 식별하고 중지하는 데 도움이 됩니다. |
 | [자동화된 조사 및 수정](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/automated-investigations) | 자동화된 조사 및 대응 기능은 경고를 검사하고 위반을 해결하기 위해 즉시 수정 조치를 취합니다. |
 | [위협 헌팅 서비스(Microsoft](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-threat-experts) 위협 전문가) | 위협 헌팅 서비스는 보안 운영 팀에 전문가 수준의 모니터링 및 분석을 제공하고 중요한 위협이 누락되지 않도록 합니다. |
 

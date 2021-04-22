@@ -2,7 +2,7 @@
 title: Linux 리소스의 끝점용 Microsoft Defender
 ms.reviewer: ''
 description: Linux의 끝점용 Microsoft Defender에 대한 리소스( 제거 방법, 진단 로그 수집 방법, CLI 명령 및 제품에 대한 알려진 문제 포함)에 대해 설명
-keywords: microsoft, defender, atp, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: de2602bdc94507d27236b939553a6567b2587f36
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 176ee89c8d60a1515855296e2565f0649f908a33
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903145"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933328"
 ---
 # <a name="resources"></a>리소스
 
@@ -81,7 +81,7 @@ ms.locfileid: "51903145"
 
 ## <a name="uninstall"></a>Uninstall
 
-Linux용 끝점용 Defender를 제거하는 방법에는 여러 가지가 있습니다. Puppet과 같은 구성 도구를 사용하는 경우 구성 도구에 대한 패키지 제거 지침을 따릅니다.
+Linux에서 끝점용 Defender를 제거하는 방법에는 여러 가지가 있습니다. Puppet과 같은 구성 도구를 사용하는 경우 구성 도구에 대한 패키지 제거 지침을 따릅니다.
 
 ### <a name="manual-uninstallation"></a>수동 제거
 

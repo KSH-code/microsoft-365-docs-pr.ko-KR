@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender 계산
 description: Microsoft 365 Defender 평가판 랩 또는 파일럿 환경을 설정하여 조직의 장치, ID, 데이터 및 응용 프로그램을 보호하도록 설계된 보안 솔루션을 시험해 보거나 경험해 보십시오.
-keywords: Microsoft 위협 방지 평가판, Microsoft Threat Protection 평가, Microsoft Threat Protection 평가, Microsoft Threat Protection 평가 랩, Microsoft Threat Protection 파일럿, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
+keywords: Microsoft 365 Defender 평가, Microsoft 365 Defender 평가, Microsoft 365 Defender 평가, Microsoft 365 Defender 평가 랩, Microsoft 365 Defender 파일럿, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2ea829e0e2697facd2522dbf16ced7d620662eee
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1c260588b80d8325567b74148a7a62586cfbc707
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076655"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933172"
 ---
 # <a name="create-a-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Microsoft 365 Defender 평가판 랩 또는 파일럿 환경 만들기 
 
@@ -63,8 +63,8 @@ Microsoft 365 Defender 평가판 랩 환경을 만드는 세 가지 단계가 �
 
 |단계 | 설명 | 
 |:-------|:-----|
-|[1단계: 준비](prepare-m365d-eval.md)| 평가판 랩 또는 파일럿 환경에서 Microsoft 365 Defender를 배포할 때 고려해야 할 사항에 대해 자세히 알아보습니다. <br><br>- 이해 관계자 및 사인오프 <br> - 환경 고려 사항 <br>- Access <br>- Azure Active Directory 설정 <br> - 구성 순서
-|[2단계: 설치](setup-m365deval.md)|  초기 단계에 따라 Microsoft 365 보안 센터에 액세스하여 Microsoft 365 Defender 평가판 랩 또는 파일럿 환경을 설정하세요. 다음을 안내합니다.<br><br>- Microsoft 365 E5 평가판 등록 <br>  - 도메인 구성<br>- Microsoft 365 E5 라이선스 할당<br>- 포털에서 설정 마법사 완료|
+|[1 단계: 준비](prepare-m365d-eval.md)| 평가판 랩 또는 파일럿 환경에서 Microsoft 365 Defender를 배포할 때 고려해야 할 사항에 대해 자세히 알아보습니다. <br><br>- 이해 관계자 및 사인오프 <br> - 환경 고려 사항 <br>- Access <br>- Azure Active Directory 설정 <br> - 구성 순서
+|[2 단계: 설정](setup-m365deval.md)|  초기 단계에 따라 Microsoft 365 보안 센터에 액세스하여 Microsoft 365 Defender 평가판 랩 또는 파일럿 환경을 설정하세요. 다음을 안내합니다.<br><br>- Microsoft 365 E5 평가판 등록 <br>  - 도메인 구성<br>- Microsoft 365 E5 라이선스 할당<br>- 포털에서 설정 마법사 완료|
 |[3단계: 온보드 & 구성](config-m365d-eval.md) | 각 Microsoft 365 Defender 원창을 구성하고 끝점을 온보딩합니다. 다음을 안내합니다.<br><br>- Office 365용 Microsoft Defender 구성<br>- Microsoft Cloud App Security 구성<br>- ID에 맞게 Microsoft Defender 구성<br>- 끝점에 대한 Microsoft Defender 구성
 
 

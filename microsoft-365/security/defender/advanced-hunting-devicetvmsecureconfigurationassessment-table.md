@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스키마의 DeviceTvmSecureConfigurationAssessment 표
 description: 고급 헌팅 계획의 DeviceTvmSecureConfigurationAssessment 표에서 보안 평가 이벤트에 대해 자세히 알아보습니다. 이러한 위협 & 취약성 관리 이벤트는 장치 정보와 보안 구성 세부 정보, 영향 및 규정 준수 정보를 제공합니다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, description, threat & vulnerability management, TVM, device management, security configuration, DeviceTvmSecureConfigurationAssessment
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마마 참조, kusto, 표, 열, 데이터 형식, 설명, 위협 & 취약성 관리, TVM, 장치 관리, 보안 구성, DeviceTvmSecureConfigurationAssessment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 1c4b71139a0fba84928c3f604e3c770d140d9e2b
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: e128eabc43c73949b5c747e51f3b59ac8b9a0ac5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499739"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933028"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 

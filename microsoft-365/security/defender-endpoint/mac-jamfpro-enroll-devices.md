@@ -1,7 +1,7 @@
 ---
-title: MacOS 디바이스용 끝점용 Microsoft Defender를 Jamf Pro에 등록
-description: MacOS 디바이스용 끝점용 Microsoft Defender를 Jamf Pro에 등록
-keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamfpro, macos, 카탈로나, mojave, high sierra
+title: MacOS 디바이스에서 Endpoint용 Microsoft Defender를 Jamf Pro에 등록
+description: MacOS 디바이스에서 Endpoint용 Microsoft Defender를 Jamf Pro에 등록
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e832493159649cb6721320da53c25f57855baa4f
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 0fa0db3ba85ff003d91b43d06c709ab66c37ce02
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861650"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933100"
 ---
 # <a name="enroll-microsoft-defender-for-endpoint-on-macos-devices-into-jamf-pro"></a>MacOS 디바이스에서 Endpoint용 Microsoft Defender를 Jamf Pro에 등록 
 

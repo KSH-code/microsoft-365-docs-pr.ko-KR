@@ -1,7 +1,7 @@
 ---
-title: MacOS의 끝점용 Microsoft Defender용 Intune 기반 배포
-description: Microsoft Intune을 사용하여 macOS에 끝점용 Microsoft Defender를 설치합니다.
-keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamf, macos, 카탈로나, mojave, high sierra
+title: Mac의 끝점용 Microsoft Defender에 대한 Intune 기반 배포
+description: Microsoft Intune을 사용하여 Mac에서 끝점용 Microsoft Defender를 설치합니다.
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dbb4e3a558256f19594ab0aa4efbd2c9eed6b7f8
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: c98ce17b7b71f2d05aeffe66dbb1e08f9046f463
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764218"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933148"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender용 Intune 기반 배포
 
@@ -37,7 +37,7 @@ ms.locfileid: "51764218"
 
 **적용 대상:**
 
-- [MacOS의 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender for Endpoint(macOS용)](microsoft-defender-endpoint-mac.md)
 
 이 항목에서는 Intune을 통해 macOS에서 끝점용 Microsoft Defender를 배포하는 방법을 설명합니다. 배포를 성공적으로 수행하려면 다음 단계를 모두 완료해야 합니다.
 

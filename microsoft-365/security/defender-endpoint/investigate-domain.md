@@ -1,7 +1,7 @@
 ---
 title: 끝점 도메인에 대한 Microsoft Defender 조사
 description: 조사 옵션을 사용하여 장치와 서버가 악성 도메인과 통신하고 있는지 볼 수 있습니다.
-keywords: 도메인 조사, 도메인, 악성 도메인, Microsoft Defender atp, 경고, URL
+keywords: 도메인 조사, 도메인, 악성 도메인, 끝점에 대한 Microsoft Defender, 경고, URL
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 3d4520c805332bac41746a39bb8b668dbfb1a570
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 7826229ba67384137c033745a5b85e557fc9c4a7
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587494"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933472"
 ---
 # <a name="investigate-a-domain-associated-with-a-microsoft-defender-for-endpoint-alert"></a>끝점 경고에 대한 Microsoft Defender와 연결된 도메인 조사
 
@@ -31,7 +31,7 @@ ms.locfileid: "51587494"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatedomain-abovefoldlink) 

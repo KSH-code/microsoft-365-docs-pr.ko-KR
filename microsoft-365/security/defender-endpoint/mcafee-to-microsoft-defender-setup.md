@@ -1,7 +1,7 @@
 ---
 title: McAfee에서 끝점용 Microsoft Defender로 - 설정
 description: McAfee에서 끝점용 Microsoft Defender로 마이그레이션하기 위한 2단계 설치입니다.
-keywords: 마이그레이션, Windows Defender Advanced Threat Protection, atp, edr
+keywords: migration, Microsoft Defender for Endpoint, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -22,12 +22,12 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: be39d64743979fe903193a388ce491523819f299
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 36dc50aa66df932703e50a5d2c57afb42871e5b1
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185614"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933088"
 ---
 # <a name="migrate-from-mcafee---phase-2-set-up-microsoft-defender-for-endpoint"></a>McAfee에서 마이그레이션 - 2단계: 끝점용 Microsoft Defender 설정
 
@@ -35,7 +35,7 @@ ms.locfileid: "51185614"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-|[![1단계: 준비](images/phase-diagrams/prepare.png)](mcafee-to-microsoft-defender-prepare.md)<br/>[1단계: 준비](mcafee-to-microsoft-defender-prepare.md) |![2단계: 설정](images/phase-diagrams/setup.png)<br/>2단계: 설정 |[![3단계: 온보더](images/phase-diagrams/onboard.png)](mcafee-to-microsoft-defender-onboard.md)<br/>[3단계: 온보더](mcafee-to-microsoft-defender-onboard.md) |
+|[![1 단계: 준비](images/phase-diagrams/prepare.png)](mcafee-to-microsoft-defender-prepare.md)<br/>[1 단계: 준비](mcafee-to-microsoft-defender-prepare.md) |![2 단계: 설정](images/phase-diagrams/setup.png)<br/>2 단계: 설정 |[![3 단계: 온보딩](images/phase-diagrams/onboard.png)](mcafee-to-microsoft-defender-onboard.md)<br/>[3 단계: 온보딩](mcafee-to-microsoft-defender-onboard.md) |
 |--|--|--|
 ||*여기 있습니다!* | |
 
@@ -113,7 +113,7 @@ Windows Server 2016을 사용하고 있으며 Microsoft Defender 바이러스 �
 `mpcmdrun -wdenable`
 
 > [!TIP]
-> 아직 해결되지 않았습니까? [Windows Server 2016 및 2019의 Microsoft Defender 바이러스 백신을 참조합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-on-windows-server-2016)
+> 여전히 도움이 필요하세요? [Windows Server 2016 및 2019의 Microsoft Defender 바이러스 백신을 참조합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-on-windows-server-2016)
 
 ### <a name="set-microsoft-defender-antivirus-to-passive-mode-on-windows-server"></a>Windows Server에서 Microsoft Defender 바이러스 백신을 수동 모드로 설정
 

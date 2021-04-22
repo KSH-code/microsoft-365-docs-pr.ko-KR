@@ -1,7 +1,7 @@
 ---
 title: 엔드포인트용 Microsoft Defender의 새로운 기능
 description: Windows 10 및 Windows Server의 보안 기능뿐만 아니라 최신 버전의 Microsoft Defender for Endpoint에서 일반적으로 사용할 수 있는 기능(GA)을 참조합니다.
-keywords: 끝점, ga, 일반적으로 사용 가능한 기능, 사용 가능한, 새로운 Microsoft Defender의 새로운 기능
+keywords: Endpoint용 Microsoft Defender의 새로운 기능, ga, 일반적으로 사용 가능, 기능, 사용 가능, 새로운 기능
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,19 +17,19 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c9f4c0689739224b00c9c14db1482d54faab3512
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: abb20fe79077eda5c50c9aa36829e0dd45e756b8
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688240"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932622"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender의 새로운 기능
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink)
@@ -52,22 +52,22 @@ ms.locfileid: "51688240"
 - [Windows Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/) <br> 끝점용 Microsoft Defender는 이제 Windows Virtual Desktop에 대한 지원을 추가합니다.
 
 ## <a name="december-2020"></a>2020년 12월
-- [iOS의 끝점용 Microsoft Defender](microsoft-defender-endpoint-ios.md) <br> 끝점용 Microsoft Defender는 이제 iOS에 대한 지원을 추가합니다. iOS에서 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 학습합니다.
+- [Microsoft Defender for Endpoint(iOS용)](microsoft-defender-endpoint-ios.md) <br> 끝점용 Microsoft Defender는 이제 iOS에 대한 지원을 추가합니다. iOS에서 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 학습합니다.
 
 ## <a name="september-2020"></a>2020년 9월
-- [Android의 끝점용 Microsoft Defender](microsoft-defender-endpoint-android.md) <br> 끝점용 Microsoft Defender는 이제 Android에 대한 지원을 추가합니다. Android에서 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 학습합니다.
+- [Microsoft Defender for Endpoint(Android용)](microsoft-defender-endpoint-android.md) <br> 끝점용 Microsoft Defender는 이제 Android에 대한 지원을 추가합니다. Android에서 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 학습합니다.
 - [위협 및 취약성 관리 macOS 지원](tvm-supported-os.md)<br> macOS용 위협 및 취약성 관리는 이제 공개 미리 보기에 있으며, macOS 장치의 취약점을 지속적으로 감지하여 위험에 집중하여 수정에 우선 순위를 지정하는 데 도움을 줄 것입니다. 자세한 내용은 [이 Microsoft 기술 커뮤니티 블로그 게시물 을 참조하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/microsoft-defender-for-endpoint-adds-depth-and-breadth-to-threat/ba-p/1695824)
 
 
 ## <a name="august-2020"></a>2020년 8월
-- [Android의 끝점용 Microsoft Defender](microsoft-defender-endpoint-android.md) <br> 끝점용 Microsoft Defender는 이제 Android에 대한 지원을 추가합니다. Android에서 끝점용 Microsoft Defender를 설치, 구성 및 사용하는 방법을 학습합니다.
+- [Microsoft Defender for Endpoint(Android용)](microsoft-defender-endpoint-android.md) <br> 끝점용 Microsoft Defender는 이제 Android에 대한 지원을 추가합니다. Android에서 끝점용 Microsoft Defender를 설치, 구성 및 사용하는 방법을 학습합니다.
 
 
 ## <a name="july-2020"></a>2020년 7월
 - [인증서에 대한 지표 만들기](manage-indicators.md) <br> 인증서를 허용하거나 차단하는 표시기를 생성합니다. 
 
 ## <a name="june-2020"></a>2020년 6월
-- [Linux의 끝점용 Microsoft Defender](microsoft-defender-endpoint-linux.md) <br> 이제 끝점용 Microsoft Defender에서 Linux에 대한 지원을 추가합니다. Linux에서 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 학습합니다.
+- [Microsoft Defender for Endpoint(Linux용)](microsoft-defender-endpoint-linux.md) <br> 이제 끝점용 Microsoft Defender에서 Linux에 대한 지원을 추가합니다. Linux에서 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 학습합니다.
 
 - [평가 랩의 공격 시뮬레이터](evaluation-lab.md#threat-simulator-scenarios) <br> 끝점용 Microsoft Defender는 다양한 위협 시뮬레이션 플랫폼과 파트너가 되어 포털 내에서 바로 플랫폼의 기능을 테스트할 수 있는 편리한 액세스 권한을 제공합니다.
 
@@ -78,7 +78,7 @@ ms.locfileid: "51688240"
 
 ## <a name="november-december-2019"></a>November-December 2019
 
-- [MacOS의 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md) <BR> MacOS의 끝점용 Microsoft Defender는 Mac 장치에 차세대 보호 기능을 제공합니다. 이제 통합된 끝점 보안 플랫폼의 핵심 구성 요소를 끝점 감지 및 응답을 포함하여 Mac 장치에서 사용할 [수 있습니다.](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender for Endpoint(macOS용)](microsoft-defender-endpoint-mac.md) <BR> MacOS의 끝점용 Microsoft Defender는 Mac 장치에 차세대 보호 기능을 제공합니다. 이제 통합된 끝점 보안 플랫폼의 핵심 구성 요소를 끝점 감지 및 응답을 포함하여 Mac 장치에서 사용할 [수 있습니다.](microsoft-defender-endpoint-mac.md)
  
 - [위협 & 관리 응용 프로그램 및 응용 프로그램 버전 종료 정보](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation) <BR>수명이 종료된 응용 프로그램 및 응용 프로그램 버전은 더 이상 지원되지 않는다는 것을 인식하고 제거 또는 바꾸기 작업을 취할 수 있도록 태그가 지정되거나 레이블이 지정됩니다. 이렇게 하면 패치가 없는 응용 프로그램으로 인한 다양한 취약점 노출과 관련된 위험을 완화하는 데 도움이 됩니다.
 
@@ -150,7 +150,7 @@ ms.locfileid: "51688240"
 
 - [사용자 지정 검색](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-custom-detections)<BR>사용자 지정 검색을 사용하면 의심스러우거나 새로운 위협과 같은 모든 종류의 동작을 모니터링하는 사용자 지정 쿼리를 만들 수 있습니다. 사용자 지정 검색 규칙을 만들어 고급 헌팅 기능을 활용하면 됩니다. 
 
-- [Azure 보안 센터와의 통합](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-server-endpoints-windows-defender-advanced-threat-protection#integration-with-azure-security-center)<BR> 끝점용 Microsoft Defender는 Azure 보안 센터와 통합하여 포괄적인 서버 보호 솔루션을 제공합니다. 이 통합을 통해 Azure 보안 센터는 끝점용 Microsoft Defender의 기능을 활용하여 Windows Server에 대한 향상된 위협 감지를 제공할 수 있습니다.
+- [AAzure Defender와의 통합](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-server-endpoints-windows-defender-advanced-threat-protection#integration-with-azure-security-center)<BR> 끝점용 Microsoft Defender는 Azure Defender와 통합하여 포괄적인 서버 보호 솔루션을 제공합니다. 이 통합을 통해 Azure Defender는 끝점용 Microsoft Defender의 기능을 활용하여 Windows Server에 대한 향상된 위협 감지를 제공할 수 있습니다.
 
 - [MSSP(관리되는 보안 서비스 공급자) 지원](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/mssp-support-windows-defender-advanced-threat-protection)<BR> 끝점용 Microsoft Defender는 MSSP 통합을 제공하여 이 시나리오에 대한 지원을 추가합니다. 통합을 통해 MSSP는 MSSP 고객의 Microsoft Defender 보안 센터 포털에 액세스하고, 전자 메일 알림을 받고, SIEM(보안 정보 및 이벤트 관리) 도구를 통해 경고를 페치하는 작업을 수행할 수 있습니다.
 

@@ -1,7 +1,7 @@
 ---
 title: 파일럿 Microsoft 365 Defender 프로젝트 계획
 description: 이해 관계자와 함께 파일럿 Microsoft 365 Defender 프로젝트를 계획하여 기대치를 관리하고 성공적인 결과를 보장합니다.
-keywords: Microsoft 위협 방지 파일럿, 파일럿 Microsoft Threat Protection 프로젝트 계획, 프로덕션에서 Microsoft Threat Protection 평가, Microsoft Threat Protection 파일럿 프로젝트, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
+keywords: Microsoft 365 Defender 파일럿, 파일럿 Microsoft 365 Defender 프로젝트 계획, 프로덕션에서 Microsoft 365 Defender 평가, Microsoft 365 Defender 파일럿 프로젝트, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: aee508414b2388b04ab362eedb1f894a4c3d54fd
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 98f0c91a51cc2b73cc26e6fb53143a417a7a147e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071476"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932550"
 ---
 # <a name="planning-your-pilot-microsoft-365-defender-project"></a>파일럿 Microsoft 365 Defender 프로젝트 계획 
 
@@ -50,7 +50,7 @@ ms.locfileid: "51071476"
 >최적의 결과를 얻기 위해 가능한 한 파일럿 지침을 따르세요.
 
 
-## <a name="scope"></a>Scope
+## <a name="scope"></a>범위
 
 파일럿 범위는 환경 및 허용되는 테스트 방법에 따라 테스트의 범위가 결정됩니다. 다음은 고려해야 할 몇 가지 범위 예제입니다.
 - 끝점, 서버, 도메인 컨트롤러를 포함하는 개발 또는 테스트 환경
@@ -63,7 +63,7 @@ ms.locfileid: "51071476"
 
 ## <a name="use-cases"></a>사용 사례
 
-사용 사례는 테스트할 도구가 의도한 사용자가 사용하는 방법에 대한 설명을 표현합니다. 이러한 스토리는 SOC 분석가와 같은 특정 개인의 시점에서 사용자 스토리로 공식화될 수 있습니다. 예시:
+사용 사례는 테스트할 도구가 의도한 사용자가 사용하는 방법에 대한 설명을 표현합니다. 이러한 스토리는 SOC 분석가와 같은 특정 개인의 시점에서 사용자 스토리로 공식화될 수 있습니다. 예를 들면 다음과 같습니다.
 - SOC 분석가인 경우 네트워크의 장치, 사용자 및 사서함에서 경고 및 이벤트를 보고, 상관 관계하고, 평가하고 관리해야 합니다. [인시던트 관리]
 - SOC 분석가인 경우 네트워크에서 악의적인 이벤트를 자동으로 조사하고 대응하는 도구와 프로세스가 있어야 합니다. [Auto IR]
 - SOC 분석가인 I must search data from my environment to find known and potential threats, and suspicious activities. [고급 헌팅]

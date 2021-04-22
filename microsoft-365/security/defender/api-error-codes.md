@@ -1,7 +1,7 @@
 ---
 title: 일반적인 Microsoft 365 Defender REST API 오류 코드
 description: 일반적인 Microsoft 365 Defender REST API 오류 코드에 대해 자세히 알아보시고
-keywords: api, 오류, 코드, 일반적인 오류, mtp, api 오류 코드
+keywords: api, 오류, 코드, 일반적인 오류, Microsoft 365 Defender, api 오류 코드
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: ab564ddb0263b501b6aca979f2148dfb5cf92758
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e621b79d37a2c3a22394bd51e0493334eff461c7
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076695"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932884"
 ---
 # <a name="common-microsoft-365-defender-rest-api-error-codes"></a>일반적인 Microsoft 365 Defender REST API 오류 코드
 
@@ -33,7 +33,7 @@ ms.locfileid: "51076695"
 
 **적용 대상:**
 
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
@@ -64,7 +64,7 @@ NotFound | 찾을 수 없습니다(404) | 일반 찾을 수 없는 오류 메시
 ResourceNotFound | 찾을 수 없습니다(404) | 리소스를 \<the requested resource\> 찾을 수 없습니다.
 InternalServerError | 내부 서버 오류(500) | *참고: 오류 메시지가 없음, 작업을 다시 시도하거나 해결되지 않은 경우 Microsoft에 문의*
 
-## <a name="examples"></a>예
+## <a name="examples"></a>예제
 
 ```json
 {

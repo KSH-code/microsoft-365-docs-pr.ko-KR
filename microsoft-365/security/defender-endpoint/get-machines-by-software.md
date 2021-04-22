@@ -1,7 +1,7 @@
 ---
 title: 소프트웨어로 장치 나열
 description: 이 소프트웨어가 설치된 장치 목록을 검색합니다.
-keywords: api, 그래프 api, 지원되는 api, get, 목록 장치, 장치 목록, 소프트웨어로 장치 목록, mdatp tvm api
+keywords: api, 그래프 api, 지원되는 api, get, 목록 장치, 장치 목록, 소프트웨어로 장치 목록, 끝점 tvm api용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 78cccee6380f0c403aab21eac4f07b64b8f8d510
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ff0bb9a6f17b8d4dc6432292ec98743d3eaf952c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200392"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929100"
 ---
 # <a name="list-devices-by-software"></a>소프트웨어로 장치 나열
 
@@ -63,7 +63,7 @@ GET /api/Software/{Id}/machineReferences
 성공하면 이 메서드는 200 OK와 소프트웨어가 본문에 설치된 장치 목록을 반환합니다. 
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

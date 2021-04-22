@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365에서 자동화된 조사 결과 보기
-keywords: AIR, autoIR, ATP, 자동화, 조사, 수정, 작업
+keywords: AIR, autoIR, Endpoint용 Microsoft Defender, 자동화, 조사, 수정, 작업
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -19,12 +19,12 @@ description: Microsoft 365에서 자동화된 조사를 진행하는 동안 및 
 ms.date: 01/29/2021
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8bf18a9fb80805581a1439b3965a664fd0868248
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ebdd25e9bddf53682f747fff7477d49dd1c94755
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205529"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933496"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Microsoft 365에서 자동화된 조사의 세부 정보 및 결과
 

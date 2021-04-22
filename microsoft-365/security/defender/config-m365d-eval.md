@@ -1,7 +1,7 @@
 ---
 title: 평가판 랩 또는 파일럿 환경에 대한 Microsoft 365 Defender 기조 구성
 description: 평가판 랩 또는 파일럿 환경에 대해 Microsoft Defender for Office 365, ID용 Microsoft Defender, Microsoft Cloud App Security 및 끝점용 Microsoft Defender와 같은 Microsoft 365 Defender 기조를 구성합니다.
-keywords: Microsoft Threat Protection 평가판 구성, Microsoft Threat Protection 평가판 구성, Microsoft Threat Protection 파일럿 프로젝트 구성, Microsoft Threat Protection 기조 구성, Microsoft Threat Protection 기조
+keywords: Microsoft 365 Defender 평가판 구성, Microsoft 365 Defender 평가판 구성, Microsoft 365 Defender 파일럿 프로젝트 구성, Microsoft 365 Defender 기조 구성, Microsoft 365 Defender 기조
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 9b192a029704d1354867b169efdf0d489345030e
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 05bdc9cbb678a3d6c1cee726fc4d8c2e45d2d360
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580969"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933508"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>평가판 랩 또는 파일럿 환경에 맞게 Microsoft 365 Defender 기조 구성
 
@@ -162,9 +162,6 @@ Microsoft 365 Defender는 4개의 기조로 구성됩니다. 하나의 기둥이
 11. Id [설정에 대한 Microsoft Defender 섹션에서](https://go.microsoft.com/fwlink/?linkid=2040449) **끝점용 Microsoft Defender **를 선택한 다음 토글을 켜십시오. **저장** 을 클릭합니다. 
 
     ![끝점 of_the Microsoft Defender 토글을 켜야 하는 ID용 Microsoft Defender 설정 페이지의 이미지](../../media/mtp-eval-52.png)
-
-> [!NOTE]
-> Windows Defender ATP는 끝점용 Microsoft Defender로 다시 브랜드가 업데이트되어 있습니다. 일관성을 위해 모든 포털에서 변경 내용을 변경하는 것이 롤아웃되고 있습니다.
 
 
 ## <a name="configure-microsoft-cloud-app-security"></a>Microsoft Cloud App Security 구성

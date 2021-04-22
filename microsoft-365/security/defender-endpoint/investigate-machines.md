@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 154ecd66399b031ef2e60eef16227bb9bc2f8785
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: c1e572910ad311daba18a8b0f5eeb546ffe36956
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587722"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929112"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Microsoft Defender for Endpoint Devices 목록에서 장치 조사
 
@@ -31,7 +31,7 @@ ms.locfileid: "51587722"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatemachines-abovefoldlink)
@@ -172,12 +172,12 @@ ms.locfileid: "51587722"
 
 ### <a name="active-alerts"></a>활성 경고
 
-**Azure Advanced Threat Protection** 카드는 Azure ATP 기능을 사용하도록 설정한 경우 장치 및 해당 위험 수준과 관련된 경고에 대한 개략적인 개요를 표시합니다. 자세한 내용은 "경고" 드릴다운에서 사용할 수 있습니다.
+**Azure Advanced Threat Protection** 카드는 ID에 대한 Microsoft Defender 기능을 활성화한 경우 활성 경고가 있는 경우 장치 및 해당 위험 수준과 관련된 경고에 대한 간략한 개요를 표시합니다. 자세한 내용은 "경고" 드릴다운에서 사용할 수 있습니다.
 
 ![활성 경고 카드의 이미지](images/risk-level-small.png)
 
 >[!NOTE]
->이 기능을 사용하려면 Azure ATP 및 Endpoint용 Defender에서 통합을 사용하도록 설정해야 합니다. Endpoint용 Defender에서 고급 기능에서 이 기능을 사용하도록 설정할 수 있습니다. 고급 기능을 사용하도록 설정하는 방법에 대한 자세한 내용은 고급 기능 [켜기 를 참조하세요.](advanced-features.md)
+>이 기능을 사용하려면 ID용 Microsoft Defender 및 Endpoint용 Defender에서 통합을 사용하도록 설정해야 합니다. Endpoint용 Defender에서 고급 기능에서 이 기능을 사용하도록 설정할 수 있습니다. 고급 기능을 사용하도록 설정하는 방법에 대한 자세한 내용은 고급 기능 [켜기 를 참조하세요.](advanced-features.md)
 
 ### <a name="logged-on-users"></a>로그온한 사용자
 

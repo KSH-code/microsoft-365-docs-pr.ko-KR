@@ -2,7 +2,7 @@
 title: Linux에서 수동으로 끝점용 Microsoft Defender 배포
 ms.reviewer: ''
 description: 명령줄에서 수동으로 Linux에 끝점용 Microsoft Defender를 배포하는 방법을 설명 합니다.
-keywords: microsoft, defender, atp, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2beb46c62de2e9720d1626e0e1e5ce806a6d7e19
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 0374c1a44a4d942ea631d97f51fa48df15d3ec13
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903919"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929088"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
@@ -58,7 +58,7 @@ ms.locfileid: "51903919"
 
 ## <a name="configure-the-linux-software-repository"></a>Linux 소프트웨어 리포지토리 구성
 
-Linux용 Endpoint용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 중 하나에서 배포할 수 있습니다. *insiders-fast,* *insiders-slow* 또는 *prod*. 이러한 각 채널은 Linux 소프트웨어 리포지토리에 해당합니다. 이러한 리포지토리 중 하나를 사용하기 위해 디바이스를 구성하는 지침은 다음과 같습니다.
+Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 중 하나에서 배포할 수 있습니다. *insiders-fast,* *insiders-slow* 또는 *prod*. 이러한 각 채널은 Linux 소프트웨어 리포지토리에 해당합니다. 이러한 리포지토리 중 하나를 사용하기 위해 디바이스를 구성하는 지침은 다음과 같습니다.
 
 채널 선택에 따라 장치에 제공되는 업데이트의 유형과 빈도가 결정됩니다. *insiders-fast의* 장치는 업데이트 및 새 기능을 수신하는 첫 번째  장치로, 그 다음에는 이후의 내부자 속도가 느려지며 마지막으로 *prod가 됩니다.*
 
@@ -86,7 +86,7 @@ Linux용 Endpoint용 Defender는 다음 채널(아래 *[채널]으로* 표시됨
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/[distro]/[version]/[channel].repo
     ```
 
-    예를 들어 CentOS 7을 실행 중일 때 프로비전 채널에서 Linux용 끝점용 Defender를 배포하려는 *경우:*
+    예를 들어 CentOS 7을 실행하고 있으며 프로비전 채널에서 Linux에 Endpoint용 Defender를 배포하려는 *경우:*
 
     ```bash
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/prod.repo
@@ -328,7 +328,7 @@ Microsoft Defender 보안 센터에서 온보딩 패키지를 다운로드합니
     > ```bash
     > mdatp health --field definitions_status
     > ```
-    > 초기 설치를 완료한 후 프록시를 구성해야 할 수도 있습니다. 정적 프록시 검색에 대한 [Linux용 끝점에 대한 Defender 구성: 설치 후 구성을 참조합니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration)
+    > 초기 설치를 완료한 후 프록시를 구성해야 할 수도 있습니다. 정적 프록시 검색에 대한 [Linux의 끝점에 대한 Defender 구성: 설치 후 구성을 참조합니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration)
 
 5. 검색 테스트를 실행하여 장치가 제대로 온보드 및 서비스에 보고되었는지 확인합니다. 새로 온보드된 디바이스에서 다음 단계를 수행합니다.
 
@@ -344,7 +344,7 @@ Microsoft Defender 보안 센터에서 온보딩 패키지를 다운로드합니
         curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
         ```
 
-    - 파일은 Linux용 끝점에 대한 Defender에 의해서만 검사된 것입니다. 다음 명령을 사용하여 검색된 모든 위협을 나열합니다.
+    - 파일은 Linux의 끝점에 대한 Defender에 의해 고지된 것입니다. 다음 명령을 사용하여 검색된 모든 위협을 나열합니다.
 
         ```bash
         mdatp threat list
@@ -381,7 +381,7 @@ Options:
 
 ## <a name="operating-system-upgrades"></a>운영 체제 업그레이드
 
-운영 체제를 새 주 버전으로 업그레이드할 때 먼저 Linux용 Endpoint용 Defender를 제거하고 업그레이드를 설치한 다음 마지막으로 디바이스에서 Linux용 Endpoint용 Defender를 다시 구성해야 합니다.
+운영 체제를 새 주 버전으로 업그레이드할 때 먼저 Linux에서 Endpoint용 Defender를 제거하고 업그레이드를 설치한 다음, 디바이스에서 Linux용 Endpoint용 Defender를 다시 구성해야 합니다.
 
 ## <a name="how-to-migrate-from-insiders-fast-to-production-channel"></a>프로덕션 채널에서 Insiders-Fast 마이그레이션하는 방법
 
@@ -406,4 +406,4 @@ Options:
 
 ## <a name="uninstallation"></a>제거
 
-클라이언트 [장치에서](linux-resources.md#uninstall) Linux용 Endpoint용 Defender를 제거하는 방법에 대한 자세한 내용은 제거를 참조합니다.
+클라이언트 [장치에서](linux-resources.md#uninstall) Linux에서 Endpoint용 Defender를 제거하는 방법에 대한 자세한 내용은 제거를 참조합니다.

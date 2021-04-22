@@ -1,7 +1,7 @@
 ---
-title: Jamf Pro를 통해 macOS용 끝점용 Microsoft Defender 배포
-description: Jamf Pro를 통해 macOS용 끝점용 Microsoft Defender 배포
-keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamfpro, macos, 카탈로나, mojave, high sierra
+title: Jamf Pro를 통해 macOS에서 끝점용 Microsoft Defender 배포
+description: Jamf Pro를 통해 macOS에서 끝점용 Microsoft Defender 배포
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e49a56b138e792f06229345d19a5867c9f6438af
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: d102635a284ec5c802e352f097d1632e2f20e166
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862262"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929064"
 ---
 # <a name="deploying-microsoft-defender-for-endpoint-on-macos-with-jamf-pro"></a>Jamf Pro를 통해 macOS에서 끝점용 Microsoft Defender 배포
 

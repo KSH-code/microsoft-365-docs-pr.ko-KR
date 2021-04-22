@@ -1,7 +1,7 @@
 ---
 title: 끝점용 Microsoft Defender 평가 랩
 description: 끝점용 Microsoft Defender 기능에 대해 알아보고, 공격 시뮬레이션을 실행하고, 위협을 방지, 감지 및 수정하는 방법을 알아보십시오.
-keywords: mdatp 평가, 평가, 랩, 시뮬레이션, windows 10, windows server 2019, 평가 랩
+keywords: 끝점에 대한 Microsoft Defender 평가, 평가, 랩, 시뮬레이션, windows 10, windows server 2019, 평가 랩
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2382281fbb975daa18ec21aabaf5acf8d3fbfb2f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: ed2165c0102170256f50964180a550d8eccbce8c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893440"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932790"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>끝점용 Microsoft Defender 평가 랩
 

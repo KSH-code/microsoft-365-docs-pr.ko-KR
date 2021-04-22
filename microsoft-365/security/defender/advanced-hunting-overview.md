@@ -1,7 +1,7 @@
 ---
 title: 개요 - 고급 헌팅
 description: Microsoft 365의 고급 검색 쿼리와 이를 사용하여 네트워크의 위협과 약점을 사전에 찾는 방법에 대해 알아보세요.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 사용자 지정 감지, schema, kusto, microsoft 365, Microsoft Threat Protection
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 사용자 지정 감지, schema, kusto
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 3532fd461fff02fac54e96e0a1a1e69c39c16907
-ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
+ms.openlocfilehash: df48ec921dee7d8f3b441ed3f68ed148c5c6c857
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51657022"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932980"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 고급 헌팅을 통해 위협을 사전 대응
 
@@ -48,7 +48,7 @@ ms.locfileid: "51657022"
 
 이 기능은 [끝점용 Microsoft Defender의 고급 헌팅과 유사합니다.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) Microsoft 365 보안 센터에서 사용할 수 있는 이 기능은 다음에서 더 광범위한 데이터 집합을 검사하는 쿼리를 지원합니다.
 
-- 끝점용 Microsoft Defender
+- 엔드포인트용 Microsoft Defender
 - Office 365용 Microsoft Defender
 - Microsoft Cloud App Security
 - ID용 Microsoft Defender

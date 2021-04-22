@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP의 API 탐색기
+title: 끝점용 Microsoft Defender의 API 탐색기
 ms.reviewer: ''
 description: API 탐색기를 사용하여 API 쿼리를 생성하고, 테스트하고, 사용 가능한 모든 API에 대한 요청을 전송합니다.
 keywords: api, 탐색기, 보내기, 요청, get, post,
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0cfe5227d5d1cdb1f1f4eaea2c859937d7e75264
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b8d0d991e46464bae3b4d21d6218b9b3b2d2b4cb
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51073100"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930116"
 ---
 # <a name="api-explorer"></a>API 탐색기
 

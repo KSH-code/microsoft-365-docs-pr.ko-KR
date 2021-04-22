@@ -1,7 +1,7 @@
 ---
-title: 소프트웨어의 취약성 목록
+title: 소프트웨어별 취약성 목록
 description: 설치된 소프트웨어의 취약성 목록을 검색합니다.
-keywords: api, 그래프 api, 지원되는 api, get, 취약성 목록, mdatp tvm api
+keywords: api, 그래프 api, 지원되는 api, get, 취약성 목록, Endpoint tvm api용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8f05c1a67c845e7f88cbcb3ee88cf7a664d5a4bf
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: c28417d9782d14d890e771ed401f8ee5d3c26bc0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51167209"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932766"
 ---
-# <a name="list-vulnerabilities-by-software"></a>소프트웨어의 취약성 목록
+# <a name="list-vulnerabilities-by-software"></a>소프트웨어별 취약성 목록
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -67,7 +67,7 @@ GET /api/Software/{Id}/vulnerabilities
 성공하면 이 메서드는 지정된 소프트웨어에 의해 노출된 취약점 목록과 함께 200 OK를 반환합니다. 
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

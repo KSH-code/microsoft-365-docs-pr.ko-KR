@@ -16,12 +16,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 비즈니스 지원 프로그램과 비즈니스용 Microsoft 365의 향상된 도움말 및 사용을 통해 조직에 도움을 줄 수 있는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 4531c841b4856e22b364906c180aa336cb8fd04a
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 767146cbbb68ff2e6632a7cae74a8b232834b01b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408528"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929036"
 ---
 # <a name="business-assist-for-microsoft-365"></a>Microsoft 365용 비즈니스 도우미
 
@@ -55,7 +55,7 @@ ms.locfileid: "51408528"
 
 2. Microsoft  **365용 Small Business Assist에서 세부** 정보를 선택하고 구매를 완료합니다.
 
-:::image type="content" source="../../media/projectgenie-purchase services.png" alt-text="Screeenshot: 서비스 구매 페이지의 추가 기능 섹션에서 비즈니스 지원 구매":::
+:::image type="content" source="../../media/business-assist-april.png" alt-text="Screeenshot: 서비스 구매 페이지의 추가 기능 섹션에서 비즈니스 지원 구매":::
 
 > [!div class="nextstepaction"]
 > [지금 구입](https://go.microsoft.com/fwlink/p/?linkid=2158423)

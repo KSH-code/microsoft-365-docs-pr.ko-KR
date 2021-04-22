@@ -1,7 +1,7 @@
 ---
 title: 끝점용 Microsoft Defender에서 고급 헌팅 쿼리 마이그레이션
 description: Microsoft 365 Defender에서 사용할 수 있도록 끝점 쿼리에 대한 Microsoft Defender를 조정하는 방법을 배우기
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, microsoft defender atp, mdatp, 검색, 쿼리, 원격 분석, 사용자 지정 검색, schema, kusto, microsoft 365, 매핑
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 끝점용 Microsoft Defender, 검색, 쿼리, 원격 분석, 사용자 지정 검색, schema, kusto, 매핑
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: c0a29f93b9ea926beaeecb840ba108da04a89ebb
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 5513c4b4fd8c5e24f9ada989113abc8a10e6a864
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501141"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933448"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에서 고급 헌팅 쿼리 마이그레이션
 
@@ -37,7 +37,7 @@ ms.locfileid: "51501141"
 
 끝점용 Microsoft Defender에서 고급 헌팅 워크플로를 이동하여 더 광범위한 데이터 집합을 사용하여 위협을 사전 예방적으로 헌팅합니다. Microsoft 365 Defender에서는 다음을 비롯한 다른 Microsoft 365 보안 솔루션의 데이터에 액세스할 수 있습니다.
 
-- 끝점용 Microsoft Defender
+- 엔드포인트용 Microsoft Defender
 - Office 365용 Microsoft Defender
 - Microsoft Cloud App Security
 - ID용 Microsoft Defender

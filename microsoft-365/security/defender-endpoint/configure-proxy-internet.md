@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ebfff7721bc61012811a66146079ac9758889594
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: a3885a462265368bc42c758ee5a8fd1c673ec08c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893604"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932802"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>장치 프록시 및 인터넷 연결 설정 구성
 
@@ -176,7 +176,7 @@ netsh winhttp reset proxy
 *.blob.core.windows.net URL 끝점을 테스트 결과의 "방화벽 규칙: *.blob.core.windows.net" 섹션에 표시된 URL로 바꿀 수 있습니다. 
 
 > [!NOTE]
-> AsC(Azure 보안 센터)를 통한 온보드의 경우 여러 작업 영역이 사용될 수 있습니다. 각 작업 영역의 온보드된 TestCloudConnection.exe 위의 절차에 따라 작업 영역 간에 *.blob.core.windows.net URL이 변경되어 있는지 확인해야 합니다.
+> Azure Defender를 통한 온보딩의 경우 여러 작업 영역이 사용될 수 있습니다. 각 작업 영역의 온보드된 TestCloudConnection.exe 위의 절차에 따라 작업 영역 간에 *.blob.core.windows.net URL이 변경되어 있는지 확인해야 합니다.
 
 ## <a name="verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls"></a>끝점 서비스 URL용 Microsoft Defender에 대한 클라이언트 연결 확인
 

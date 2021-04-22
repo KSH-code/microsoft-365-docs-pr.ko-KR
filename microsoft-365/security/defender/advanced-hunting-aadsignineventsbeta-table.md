@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스위마의 AADSignInEventsBeta 테이블
 description: 고급 헌팅 스마의 Azure Active Directory 로그인 이벤트 테이블과 관련된 정보에 대해 자세히 알아보십시오.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 데이터 형식, kusto, 표, 열, 데이터 형식, 설명, 파일, IP 주소, 장치, 컴퓨터, 사용자, 계정, ID, AAD
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마 참조, kusto, 표, 열, 데이터 형식, 설명, 파일, IP 주소, 장치, 컴퓨터, 사용자, 계정, ID, AAD
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7b595496c28710bfa25fc88653425242770bf57f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 93735ee3bf8d9b95ab320c2bc158d6ebfe27186c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51071655"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932610"
 ---
 # <a name="aadsignineventsbeta"></a>AADSignInEventsBeta
 
@@ -35,7 +35,7 @@ ms.locfileid: "51071655"
 
 >[!IMPORTANT]
 > 이 표는 현재 베타 상태이며 AAD(Azure Active Directory) 로그인 이벤트를 검색할 수 있도록 단기적으로 `AADSignInEventsBeta` 제공됩니다. 결국 모든 로그인 Schema 정보를 테이블로 `IdentityLogonEvents` 이동하게 됩니다.<br><br>
-> Azure 보안 센터의 통합된 끝점용 Microsoft Defender 솔루션을 통해 Microsoft 365 Defender에 액세스할 수 있지만 Office용 Microsoft Defender, ID용 Microsoft Defender 또는 Microsoft Cloud App Security에 대한 라이선스가 없는 고객은 이 스마마를 볼 수 없습니다. 
+> Azure Defender의 통합된 끝점용 Microsoft Defender 솔루션을 통해 Microsoft 365 Defender에 액세스할 수 있지만 Office용 Microsoft Defender, ID용 Microsoft Defender 또는 Microsoft Cloud App Security에 대한 라이선스가 없는 고객은 이 스마마를 볼 수 없습니다. 
 
  
 
@@ -101,7 +101,7 @@ ms.locfileid: "51071655"
 ## <a name="related-articles"></a>관련 문서
 
 -   [AADSpnSignInEventsBeta](./advanced-hunting-aadspnsignineventsbeta-table.md)
--   [고급 헌팅 개요](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
+-   [지능형 헌팅 개요](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
 -   [쿼리 언어 배우기](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-query-language)
 -   [스키마의 이해](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-schema-reference)
 

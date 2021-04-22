@@ -1,7 +1,7 @@
 ---
 title: 위협 및 취약성 관리의 이벤트 타임라인
 description: 이벤트 타임라인은 조직에 위험이 도입되는 방식과 위험을 줄이기 위해 어떤 완화가 발생 하는지 해석하는 데 도움이 되는 위험 뉴스 피드입니다.
-keywords: 이벤트 타임라인, mdatp 이벤트 타임라인, mdatp tvm 이벤트 타임라인, 위협 및 취약성 관리, 끝점용 Microsoft Defender
+keywords: 이벤트 타임라인, Endpoint 이벤트 타임라인용 Microsoft Defender, Endpoint tvm 이벤트 타임라인용 Microsoft Defender, 위협 및 취약성 관리, 끝점용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 90a124f9b0bf9ef775141e359224fde566c61c8d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 64362598ff4b0512eb110917071e6d32abb8ede9
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501206"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933484"
 ---
 # <a name="event-timeline---threat-and-vulnerability-management"></a>이벤트 타임라인 - 위협 및 취약성 관리
 

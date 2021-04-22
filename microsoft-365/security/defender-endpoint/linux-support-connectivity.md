@@ -2,7 +2,7 @@
 title: Linux에서 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결
 ms.reviewer: ''
 description: Linux에서 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결
-keywords: Microsoft, defender, atp, linux, 클라우드, 연결, 통신
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, linux, 클라우드, 연결, 통신
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 985e4c39c60600da892c010b6ee26e9c98bb0611
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 0345d7f88d147abb750e66a5e61f516abf38d553
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903169"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933112"
 ---
 # <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender에 대한 클라우드 연결 문제 해결
 
@@ -37,7 +37,7 @@ ms.locfileid: "51903169"
 
 ## <a name="run-the-connectivity-test"></a>연결 테스트 실행
 
-Linux용 끝점용 Defender가 현재 네트워크 설정을 사용하여 클라우드와 통신할 수 있는지 테스트하려면 명령줄에서 연결 테스트를 실행합니다.
+Linux의 끝점용 Defender가 현재 네트워크 설정을 사용하여 클라우드와 통신할 수 있는지 테스트하려면 명령줄에서 연결 테스트를 실행합니다.
 
 ```bash
 mdatp connectivity test
@@ -86,7 +86,7 @@ OK https://cdn.x.cp.wd.microsoft.com/ping
 > [!WARNING]
 > PAC, WPAD 및 인증된 proxies는 지원되지 않습니다. 정적 프록시 또는 투명 프록시만 사용 중이지 않도록 합니다.
 >
-> 보안상의 이유로 SSL 검사 및 가로채기 Proxies도 지원되지 않습니다. SSL 검사 및 프록시 서버에 대한 예외를 구성하여 Linux용 끝점용 Defender의 데이터를 가로채지 않고 관련 URL로 직접 전달합니다. 전역 저장소에 가로채기 인증서를 추가하면 가로채는 것을 허용하지 않습니다.
+> 보안상의 이유로 SSL 검사 및 가로채기 Proxies도 지원되지 않습니다. SSL 검사 및 프록시 서버에 대한 예외를 구성하여 Linux 끝점용 Defender의 데이터를 가로채지 않고 관련 URL로 직접 전달합니다. 전역 저장소에 가로채기 인증서를 추가하면 가로채는 것을 허용하지 않습니다.
 
 정적 프록시가 필요한 경우 프록시 주소 및 포트에 해당하는 위의 명령에 proxy 매개 `proxy_address:port` 변수를 추가합니다.
 
@@ -107,7 +107,7 @@ curl -x http://proxy_address:port -w ' %{url_effective}\n' 'https://x.cp.wd.micr
 
 또한 을 바꾸기 위해 올바른 정적 프록시 주소를 채워야 `address:port` 합니다.
 
-이 파일이 올바른 경우 터미널에서 다음 명령을 실행하여 Linux용 Endpoint용 Defender를 다시 로드하고 설정을 전파합니다.
+이 파일이 올바른 경우 터미널에서 다음 명령을 실행하여 Linux의 끝점용 Defender를 다시 로드하고 설정을 전파합니다.
 
 ```bash
 sudo systemctl daemon-reload; sudo systemctl restart mdatp

@@ -1,7 +1,7 @@
 ---
 title: 마이그레이션 후 끝점에 대한 Microsoft Defender 관리
 description: 끝점용 Microsoft Defender로 전환한 후 다음 단계는 위협 방지 기능을 관리하는 것입니다.
-keywords: 마이그레이션 후, 관리, 운영, 유지 관리, 사용률, Windows Defender Advanced Threat Protection, atp, edr
+keywords: 마이그레이션 후, 관리, 운영, 유지 관리, 사용률, 끝점용 Microsoft Defender, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: conceptual
 ms.date: 01/26/2021
 ms.reviewer: chventou
-ms.openlocfilehash: 54302f38f0fd63560ecd1c5545efa4621c6b9bbd
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: eedd13030fd6a649985dc7280dc256e4ab35089a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185864"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933196"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-post-migration"></a>끝점용 Microsoft Defender 관리, 마이그레이션 후
 
@@ -52,4 +52,4 @@ ms.locfileid: "51185864"
 
 ## <a name="see-also"></a>참고 항목
 
-- [끝점용 Microsoft Defender에서 가짓 긍정/음수 해결](defender-endpoint-false-positives-negatives.md)
+- [Endpoint용 Microsoft Defender에서 가양성/가음성 처리](defender-endpoint-false-positives-negatives.md)

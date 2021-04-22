@@ -1,7 +1,7 @@
 ---
 title: ASR 규칙 배포 및 검색 최적화
 description: 일반적인 맬웨어 악용을 식별하고 방지하기 위해 ASR(공격 표면 축소) 규칙을 최적화합니다.
-keywords: 온보드, Intune 관리, MDATP, WDATP, Microsoft Defender, Windows Defender, 고급 위협 방지, 공격 표면 감소, ASR, 보안 기준
+keywords: 온보드, Intune 관리, 끝점용 Microsoft Defender, Microsoft Defender, Windows Defender, 공격 표면 감소, ASR, 보안 기준
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a5ce39bb3ff0bf3eea4ac4e89c554de43499b15f
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 91295135c833c6b403078bdfd517c7b84ec7d630
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165480"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932850"
 ---
 # <a name="optimize-asr-rule-deployment-and-detections"></a>ASR 규칙 배포 및 검색 최적화
 
@@ -56,6 +56,6 @@ Microsoft 365 보안 센터의 ASR 규칙 배포에 대한 자세한 내용은 A
 
 **관련 항목**
 
-* [장치가 올바르게 구성되었는지 확인](configure-machines.md)
+* [장치가 올바르게 구성되어 있는지 확인](configure-machines.md)
 * [끝점용 Microsoft Defender에 장치 온보딩](configure-machines-onboarding.md)
 * [끝점 보안 기준에 대한 Microsoft Defender 준수 모니터링](configure-machines-security-baseline.md)

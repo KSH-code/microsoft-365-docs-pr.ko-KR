@@ -1,7 +1,7 @@
 ---
 title: macOS 카탈로니아 및 최신 버전의 macOS용 새 구성 프로필
 description: 이 항목에서는 macOS 카탈로니아 및 최신 버전의 macOS에서 커널 확장을 대체하는 시스템 확장을 사용하려면 적용해야 하는 변경 내용에 대해 설명합니다.
-keywords: microsoft, defender, atp, mac, 커널, 시스템, 확장, 카탈로니아
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 커널, 시스템, 확장, 카탈로니아
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,19 +19,19 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: db24bea3bddc682eceda8e6ea3fe2749b6b2778f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 28a332cec68521741bdda62aeecd25440552344a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689128"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932742"
 ---
 # <a name="new-configuration-profiles-for-macos-catalina-and-newer-versions-of-macos"></a>macOS 카탈로니아 및 최신 버전의 macOS용 새 구성 프로필
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)

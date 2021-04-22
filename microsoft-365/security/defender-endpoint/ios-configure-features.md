@@ -1,7 +1,7 @@
 ---
 title: iOS 기능에 대한 끝점용 Microsoft Defender 구성
 description: iOS 기능에 끝점용 Microsoft Defender를 배포하는 방법을 설명
-keywords: microsoft, defender, atp, ios, 구성, 기능, ios
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, ios, 구성, 기능, ios
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f5f7345f92b3ac76aa647a9caed63e5684be9c30
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 834ce13917237dd822bdfbb7b88967dcac4bc0f8
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903313"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929016"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>iOS 기능에 대한 끝점용 Microsoft Defender 구성
 
@@ -35,16 +35,16 @@ ms.locfileid: "51903313"
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 > [!NOTE]
-> iOS용 끝점용 Defender는 웹 보호 기능을 제공하기 위해 VPN을 사용하게 됩니다. 이는 일반 VPN이 아니며 장치 외부에서 트래픽을 취하지 않는 로컬/자체 루프 VPN입니다.
+> iOS의 끝점용 Defender는 VPN을 사용하여 웹 보호 기능을 제공합니다. 이는 일반 VPN이 아니며 장치 외부에서 트래픽을 취하지 않는 로컬/자체 루프 VPN입니다.
 
-## <a name="conditional-access-with-defender-for-endpoint-for-ios"></a>iOS용 끝점용 Defender를 통해 조건부 액세스  
+## <a name="conditional-access-with-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Defender를 통해 조건부 액세스  
 Microsoft Intune 및 Azure Active Directory와 함께 iOS의 끝점용 Microsoft Defender를 사용하면 장치 위험 수준에 따라 장치 준수 및 조건부 액세스 정책을 시행할 수 있습니다. Endpoint용 Defender는 Intune을 통해 이 기능을 활용하기 위해 배포할 수 있는 MTD(Mobile Threat Defense) 솔루션입니다.
 
-iOS용 끝점용 Defender를 통해 조건부 액세스를 설정하는 방법에 대한 자세한 내용은 Endpoint 및 [Intune용 Defender를 참조하세요.](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection)
+iOS에서 끝점용 Defender를 통해 조건부 액세스를 설정하는 방법에 대한 자세한 내용은 Endpoint 및 [Intune용 Defender를 참조하세요.](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection)
 
 ## <a name="web-protection-and-vpn"></a>웹 보호 및 VPN
 
-기본적으로 iOS용 Endpoint용 Defender에는 웹 보호 기능이 포함 및 사용됩니다. [웹 보호는](web-protection-overview.md) 웹 위협으로부터 장치를 보호하고 피싱 공격으로부터 사용자를 보호하는 데 도움이 됩니다. iOS용 끝점용 Defender는 VPN을 사용하여 이 보호를 제공합니다. 이는 로컬 VPN으로, 기존 VPN과 달리 네트워크 트래픽은 장치 외부로 전송되지 않습니다.
+기본적으로 iOS의 Endpoint용 Defender에는 웹 보호 기능이 포함 및 사용됩니다. [웹 보호는](web-protection-overview.md) 웹 위협으로부터 장치를 보호하고 피싱 공격으로부터 사용자를 보호하는 데 도움이 됩니다. iOS의 끝점용 Defender는 VPN을 사용하여 이 보호를 제공합니다. 이는 로컬 VPN으로, 기존 VPN과 달리 네트워크 트래픽은 장치 외부로 전송되지 않습니다.
 
 기본적으로 사용하도록 설정되어 있는 동안 VPN을 사용하지 않도록 설정해야 하는 경우도 있습니다. 예를 들어 VPN을 구성할 때 작동하지 않는 일부 앱을 실행하려는 경우를 예로 들 수 있습니다. 이러한 경우 아래 단계에 따라 디바이스의 앱에서 VPN을 사용하지 않도록 선택할 수 있습니다.
 
@@ -93,10 +93,10 @@ Apple iOS는 동시에 활성화하기 위해 여러 장치 전체의 VPN을 지
 
 ## <a name="configure-custom-indicators"></a>사용자 지정 표시기 구성
 
-iOS용 Endpoint용 Defender를 사용하면 관리자가 iOS 장치에서도 사용자 지정 표시기를 구성할 수 있습니다. 사용자 지정 표시기를 구성하는 방법에 대한 자세한 내용은 [지표 관리를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-indicators)
+iOS의 끝점용 Defender를 사용하면 관리자가 iOS 장치에서도 사용자 지정 표시기를 구성할 수 있습니다. 사용자 지정 표시기를 구성하는 방법에 대한 자세한 내용은 [지표 관리를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-indicators)
 
 > [!NOTE]
-> iOS용 Endpoint용 Defender는 IP 주소 및 URL/도메인에 대한 사용자 지정 표시기만 만들 수 있습니다.
+> iOS의 끝점용 Defender는 IP 주소 및 URL/도메인에 대한 사용자 지정 표시기만 만들 수 있습니다.
 
 ## <a name="report-unsafe-site"></a>안전하지 않은 사이트 보고
 

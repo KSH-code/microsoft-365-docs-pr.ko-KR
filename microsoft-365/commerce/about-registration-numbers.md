@@ -19,12 +19,12 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: a9625b391260d27610bb304b0ae3788b541b7709
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9f6489425a924c15d1a5cddb8c9a7d3d7812e5f0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912011"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930236"
 ---
 # <a name="about-registration-numbers-and-under-review-notifications"></a>등록 번호 및 검토 알림
 
@@ -36,7 +36,7 @@ ms.locfileid: "50912011"
 
 등록 번호가 필수인 국가의 경우 텍스트 상자 위에 있는 레이블은 필요한 번호 유형을 나타냅니다.
 
-예를 들어 다음 스크린샷에서 레이블은 CNPJ 등록 번호가 필요를 나타냅니다.
+예를 들어 다음 스크린샷에서 레이블은 CNPJ(브라질) 등록 번호가 필요하다는 표시를 나타냅니다.
 
 :::image type="content" source="../media/macregnum-cnpj-screenshot-400.png" alt-text="C N P J 번호의 등록 번호 필드 스크린샷.":::
 

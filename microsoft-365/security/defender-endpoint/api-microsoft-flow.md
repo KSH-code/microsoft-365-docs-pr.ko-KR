@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP Flow 커넥터
+title: 끝점 흐름 커넥터용 Microsoft Defender
 ms.reviewer: ''
-description: Microsoft Defender ATP Flow 커넥터를 사용하여 보안을 자동화하고 테넌트에서 새 경고가 발생할 때 트리거되는 흐름을 만들 수 있습니다.
+description: Microsoft Defender for Endpoint Flow 커넥터를 사용하여 보안을 자동화하고 테넌트에서 새 경고가 발생할 때 트리거되는 흐름을 만들 수 있습니다.
 keywords: flow, 지원되는 api, api, Microsoft 흐름, 쿼리, 자동화
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6fd210ddfb8e3ab6e4f1f4ffc0635c8b813e3a07
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 33a7c7b1907ac761dfdde43a70bfb8f515235150
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163390"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929302"
 ---
 # <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate(이전의 Microsoft Flow) 및 Azure Functions
 

@@ -1,7 +1,7 @@
 ---
 title: 동작 차단 및 제약
 description: 끝점용 Microsoft Defender의 동작 차단 및 포함 기능에 대해 자세히 알아보기
-keywords: Microsoft Defender ATP, 차단 모드의 EDR, 수동 모드 차단
+keywords: 끝점용 Microsoft Defender, 차단 모드의 EDR, 수동 모드 차단
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 author: denisebmsft
@@ -19,19 +19,19 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 7cea65292c427cb953e2e8e3ca866c89f83128b1
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: fdaa4d7cbc24ae2ebe28d0856b413f4982fe6b01
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587170"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929052"
 ---
 # <a name="behavioral-blocking-and-containment"></a>동작 차단 및 제약
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)

@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender 서비스 문제 해결
 description: 알려진 Microsoft 365 Defender 문제에 대한 해결 방법 찾기
-keywords: Microsoft 위협 방지 문제 해결, 문제 해결, Azure ATP, 문제, 추가 기능, 설정 페이지
+keywords: Microsoft 365 Defender 문제 해결, 문제 해결, ID에 대한 Microsoft Defender, 문제, 추가 기능, 설정 페이지
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: a2cd27bf7bf8b1c4931b9d768f3a6b5e5f2a0d93
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: 0c933edfe80275dbfa60464ff862a7609b269332
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51592039"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933400"
 ---
 # <a name="troubleshoot-microsoft-365-defender-service-issues"></a>Microsoft 365 Defender 서비스 문제 해결
 

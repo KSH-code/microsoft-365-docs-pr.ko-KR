@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목을 설정하는 방법 학습
-ms.openlocfilehash: 629008e083d71e09632b05e21eaefb011d7d9ce2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 19395cf3a9ecc991f08f375425803cb81a2a1d35
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929447"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930224"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Microsoft Viva 항목 설정
 
@@ -36,6 +36,27 @@ Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 [Viva](
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Li0E]  
 
 <br>
+
+## <a name="assign-licenses"></a>라이선스 할당
+
+항목을 사용할 사용자에 대한 라이선스를 할당해야 합니다. 라이선스가 있는 사용자만 주요 항목, 항목 카드, 항목 페이지 및 항목 센터를 비롯한 항목에 대한 정보를 볼 수 있습니다. 
+
+라이선스를 할당하려면 다음을 수행합니다.
+
+1. Microsoft 365 관리 센터의 **사용자** 아래에서 **활성 사용자** 를 클릭합니다.
+
+2. 라이선스를 부여할 사용자를 선택하고 라이선스 및 **앱을 클릭합니다.**
+
+3. **라이선스에서** **Viva 항목을 선택합니다.**
+
+4. 앱에서 **그래프** 커넥터 **검색(Viva 항목)** 및 **Viva 항목을** 둘 다 선택해야 합니다.
+
+   > [!div class="mx-imgBorder"]
+   > ![Microsoft 365 관리 센터의 Microsoft Viva 항목 라이선스](../media/topic-experiences-licenses.png)
+
+5. **변경 내용 저장** 을 클릭합니다.
+
+라이선스가 할당된 후 사용자가 항목에 액세스하는 데 최대 1시간이 걸릴 수 있습니다.
 
 ## <a name="set-up-topics"></a>주제 설정
 
@@ -58,7 +79,7 @@ Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 [Viva](
 
     ![항목을 찾는 방법 선택](../media/ksetup1.png) 
    
-5. 이름 **항목 제외 섹션에서** 항목 검색에서 제외하려는 항목의 이름을 추가할 수 있습니다. 이 설정을 사용하여 중요한 정보가 항목으로 포함되지 않도록 합니다. 옵션은 다음과 같습니다.
+5. 이름 **항목 제외 섹션에서** 항목 검색에서 제외하려는 항목의 이름을 추가할 수 있습니다. 이 설정을 사용하여 중요한 정보가 항목으로 포함되지 않도록 합니다. 다음과 같은 옵션이 있습니다.
     - **항목을 제외하지 않습니다.** 
     - **이름으로 항목 제외**
 
@@ -124,25 +145,6 @@ Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 [Viva](
     ![적용된 설정](../media/ksetup7.png)    
 
 처음 항목 검색을 사용하도록 설정한 경우 제안된 모든 항목을 항목 관리 보기에 표시하는 데 최대 2주가 걸릴 수 있습니다. 콘텐츠에 대한 새 콘텐츠 또는 업데이트가 진행될 때 항목 검색이 계속됩니다. Viva 항목에서 새 정보를 평가할 때 조직에서 제안된 항목 수가 변동되는 것은 일반적입니다.
-
-## <a name="assign-licenses"></a>라이선스 할당
-
-항목 환경을 구성한 후 항목을 사용할 사용자에 대한 라이선스를 할당해야 합니다. 라이선스가 있는 사용자만 주요 항목, 항목 카드, 항목 페이지 및 항목 센터를 비롯한 항목에 대한 정보를 볼 수 있습니다. 
-
-라이선스를 할당하려면 다음을 수행합니다.
-
-1. Microsoft 365 관리 센터의 **사용자** 아래에서 **활성 사용자** 를 클릭합니다.
-
-2. 라이선스를 부여할 사용자를 선택하고 라이선스 및 **앱을 클릭합니다.**
-
-3. **라이선스에서** **Viva 항목을 선택합니다.**
-
-4. 앱에서 **그래프** 커넥터 **검색(Viva 항목)** 및 **Viva 항목을** 둘 다 선택해야 합니다.
-
-   > [!div class="mx-imgBorder"]
-   > ![Microsoft 365 관리 센터의 Microsoft Viva 항목 라이선스](../media/topic-experiences-licenses.png)
-
-5. **변경 내용 저장** 을 클릭합니다.
 
 ## <a name="manage-topic-experiences"></a>항목 환경 관리
 

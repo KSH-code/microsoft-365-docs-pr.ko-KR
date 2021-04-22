@@ -1,7 +1,7 @@
 ---
 title: 파일럿 Microsoft 365 Defender 프로젝트 결과 요약
 description: 성적표를 완성하고, 보고서 결과를 분석하고, 앞으로 이동하는 방법을 결정하여 파일럿 Microsoft 365 Defender 프로젝트를 완료합니다.
-keywords: Microsoft 위협 방지 파일럿, 파일럿 Microsoft 위협 방지 프로젝트, 프로덕션에서 Microsoft 위협 방지 평가 후의 작업, Microsoft Threat Protection 파일럿에서 배포로 전환, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
+keywords: Microsoft 365 Defender 파일럿, Microsoft 365 Defender 프로젝트 파일럿 후 다음으로 할 작업 결정, 프로덕션에서 Microsoft 365 Defender 평가 후의 작업, Microsoft 365 Defender 파일럿에서 배포로 전환, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2553e88992b7eca906b4697edee4cdf632929444
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 64cdb37b64780a651b2689e68e21c5a385df5ba9
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076647"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932872"
 ---
 # <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Microsoft 365 Defender 파일럿 닫기 및 요약  
 

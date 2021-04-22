@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 803c0af0c495eedfd26023d4e71d98df6a1b1b64
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 65c5161f110e95008f2dc56aa3a2d17266ac1cb1
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904025"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933352"
 ---
 # <a name="information-protection-in-windows-overview"></a>Windows의 정보 보호 개요
 
@@ -41,7 +41,7 @@ ms.locfileid: "51904025"
 
 
 >[!TIP]
-> Microsoft Defender for Endpoint(이전의 Microsoft Defender ATP)가 Microsoft Information Protection과 통합되어 Windows 장치에서 중요한 데이터를 검색, 보호 및 모니터링하는 방법에 대한 블로그 게시물을 [읽어 읽습니다.](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)
+> Microsoft Defender for Endpoint가 Microsoft Information Protection과 통합되어 Windows 장치에서 중요한 데이터를 검색, 보호 및 모니터링하는 방법에 대한 [블로그 게시물을 읽어 읽습니다.](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)
 
 Endpoint용 Defender는 다음 방법을 적용하여 데이터를 검색, 분류 및 보호합니다.
 

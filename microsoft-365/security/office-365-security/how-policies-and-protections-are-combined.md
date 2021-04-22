@@ -1,6 +1,6 @@
 ---
 title: 전자 메일 보호의 순서 및 우선 순위
-keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, ATP, 끝점용 Microsoft Defender, Office 365 ATP, Azure ATP
+keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, ID용 Microsoft Defender
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,12 +17,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)의 보호 적용 순서와 보호 정책의 우선 순위 값이 적용되는 정책을 결정하는 방법에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b36e66f095ff81f551a55d2dc2af0693f8b3455a
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 8cd2809fa69064c2058516f459eeba60683c91b9
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51769013"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930380"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>전자 메일 보호의 순서 및 우선 순위
 

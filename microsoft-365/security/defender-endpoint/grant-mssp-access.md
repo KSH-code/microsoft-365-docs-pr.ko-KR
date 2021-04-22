@@ -1,6 +1,6 @@
 ---
 title: MSSP(관리되는 보안 서비스 공급자)에 대한 액세스 권한 부여
-description: Microsoft Defender ATP와 MSSP 통합을 구성하는 데 필요한 단계 수행
+description: 끝점용 Microsoft Defender와 MSSP 통합을 구성하는 데 필요한 단계 수행
 keywords: 관리되는 보안 서비스 공급자, mssp, 구성, 통합
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1bb7bc3565bbb7c05f165c5649f3672ff33bb18b
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 320355f838db5dbb1540350e95e4cc0645acd805
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165456"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932754"
 ---
 # <a name="grant-managed-security-service-provider-mssp-access-preview"></a>MSSP(관리되는 보안 서비스 공급자) 액세스 권한 부여(미리 보기)
 
@@ -135,7 +135,7 @@ ms.locfileid: "51165456"
     이때 분석가 액세스가 프로비전되고 각 분석가가 고객의 Microsoft Defender 보안 센터에 액세스할 수 있습니다. `https://securitycenter.Microsoft.com/?tid=<CustomerTenantId>`
 
 ## <a name="related-topics"></a>관련 항목
-- [MSSP 고객 포털 액세스](access-mssp-portal.md)
+- [MSSP 고객 포털에 액세스](access-mssp-portal.md)
 - [경고 알림 구성](configure-mssp-notifications.md)
 - [고객 테넌트에서 경고 페치](fetch-alerts-mssp.md)
 

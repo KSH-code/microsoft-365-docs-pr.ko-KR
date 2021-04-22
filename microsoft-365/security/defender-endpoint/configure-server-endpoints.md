@@ -1,7 +1,7 @@
 ---
 title: 끝점용 Microsoft Defender 서비스에 Windows 서버 온보딩
 description: 센서 데이터를 끝점용 Microsoft Defender 센서로 보낼 수 있도록 Windows 서버를 온보딩합니다.
-keywords: 온보딩 서버, 서버, 2012r2, 2016, 2019, 서버 온보딩, 장치 관리, Windows ATP 서버 구성, 끝점 서버용 Microsoft Defender 온보딩, 끝점 서버용 Microsoft Defender 온보딩
+keywords: 온보딩 서버, 서버, 2012r2, 2016, 2019, 서버 온보딩, 장치 관리, 끝점 서버용 Microsoft Defender 구성, 끝점 서버용 Microsoft Defender 온보딩, 끝점 서버용 Microsoft Defender 온보딩
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f2660f19d4b6b0d5f8e2dbf48843002a2bfb7f1d
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 4eea2931196c192620812c1609c506e1fb99093d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51769103"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932956"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점용 Microsoft Defender 서비스에 Windows 서버 온보딩
 
@@ -55,7 +55,7 @@ Windows 서버에 대한 Windows 보안 기준을 다운로드하고 사용하�
 제공된 옵션을 사용하여 온보더링 단계를 완료한 후 [System Center Endpoint Protection](#configure-and-update-system-center-endpoint-protection-clients)클라이언트를 구성하고 업데이트해야 합니다.
 
 > [!NOTE]
-> Microsoft 모니터링 에이전트(옵션 1)를 통해 Windows 서버를 온보딩하거나 Microsoft Endpoint Manager(옵션 3)를 통해 Windows 서버를 등록하려면 노드당 엔드포인트 독립 실행형 서버 라이선스에 대한 Defender가 필요합니다. 또는 Azure 보안 센터(옵션 2)를 통해 Windows 서버를 등록하려면 노드당 Azure Defender for Servers 라이선스가 필요합니다(옵션 2). Azure 보안 센터에서 사용할 수 있는 지원되는 기능을 [참조하세요.](https://docs.microsoft.com/azure/security-center/security-center-services)
+> Microsoft 모니터링 에이전트(옵션 1)를 통해 Windows 서버를 온보딩하거나 Microsoft Endpoint Manager(옵션 3)를 통해 Windows 서버를 등록하려면 노드당 엔드포인트 독립 실행형 서버 라이선스에 대한 Defender가 필요합니다. 또는 Azure 보안 센터(옵션 2)를 통해 Windows 서버를 등록하려면 노드당 Azure Defender for Servers 라이선스가 필요합니다(옵션 2). [Azure Defender에서](https://docs.microsoft.com/azure/security-center/security-center-services)사용할 수 있는 지원되는 기능을 참조하세요.
 
 ### <a name="option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma"></a>옵션 1: MMA(Microsoft 모니터링 에이전트)를 설치 및 구성하여 온보더링
 
@@ -127,13 +127,13 @@ Windows Server 2008 R2 SP1 및 Windows Server 2012 R2: System Center Endpoint Pr
 
 3. **Azure 보안 센터에서 서버 온보더를 클릭합니다.**
 
-4. Azure 보안 센터를 사용하여 [끝점용 Microsoft Defender의](https://docs.microsoft.com/azure/security-center/security-center-wdatp) 온보딩 지침을 따르고 Azure ARC를 사용하는 경우 끝점 통합을 위해 [Microsoft Defender](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enabling-the-microsoft-defender-for-endpoint-integration)통합 사용의 온보딩 지침을 따릅니다.
+4. [Azure Defender를 사용하여 끝점용 Microsoft Defender의](https://docs.microsoft.com/azure/security-center/security-center-wdatp) 온보딩 지침을 따르고 Azure ARC를 사용하는 경우 끝점 통합을 위해 [Microsoft Defender](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enabling-the-microsoft-defender-for-endpoint-integration)통합 사용의 온보딩 지침을 따릅니다.
 
 온보더링 단계를 완료한 후 System Center Endpoint Protection 클라이언트를 구성하고 [업데이트해야 합니다.](#configure-and-update-system-center-endpoint-protection-clients)
 
 > [!NOTE]
 >
-> - 서버용 Azure Defender(이전 Azure Security Center Standard Edition)를 통한 온보딩이 예상대로 작동하려면 서버에 적절한 작업 영역과 MMA(Microsoft 모니터링 에이전트) 설정 내에 구성된 키가 있어야 합니다.
+> - 서버용 Azure Defender를 통한 온보딩이 예상대로 작동하려면 서버에 적절한 작업 영역과 키가 MMA(Microsoft 모니터링 에이전트) 설정 내에 구성되어 있어야 합니다.
 > - 구성되면 적절한 클라우드 관리 팩이 컴퓨터로 배포되어 센서 프로세스(MsSenseS.exe)가 배포 및 시작됩니다.
 > - 이 설정은 서버가 OMS 게이트웨이 서버를 프록시로 사용하도록 구성된 경우도 필요합니다.
 
@@ -188,26 +188,25 @@ Windows Server 지원은 서버 활동, 커널 및 메모리 공격 감지 범�
 
     그룹 정책을 사용하여 Windows 서버에서 Microsoft Defender 바이러스 백신을 구성하고 관리하는 방법에 대한 자세한 내용은 그룹 정책 설정을 사용하여 Microsoft Defender 바이러스 백신 구성 및 관리를 [참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)
 
-## <a name="integration-with-azure-security-center"></a>Azure 보안 센터와의 통합
+## <a name="integration-with-azure-defender"></a>Azure Defender와 통합
 
-끝점용 Defender는 Azure 보안 센터와 통합하여 포괄적인 Windows 서버 보호 솔루션을 제공할 수 있습니다. 이 통합을 통해 Azure 보안 센터는 끝점용 Defender의 기능을 사용하여 Windows Server에 대한 향상된 위협 감지를 제공할 수 있습니다.
+Endpoint용 Defender는 Azure Defender와 통합하여 포괄적인 Windows 서버 보호 솔루션을 제공할 수 있습니다. 이 통합을 통해 Azure Defender는 끝점용 Defender의 기능을 사용하여 Windows Server에 대한 향상된 위협 감지를 제공할 수 있습니다.
 
 이 통합에는 다음과 같은 기능이 포함됩니다.
 
-- 자동 온보딩 - Azure 보안 센터에 온보딩된 Windows Server에서 Endpoint용 Defender 센서가 자동으로 활성화됩니다. Azure 보안 센터 온보더링에 대한 자세한 내용은 보안 강화를 위해 [Azure Security Center Standard에 온보링을 참조하세요.](https://docs.microsoft.com/azure/security-center/security-center-onboarding)
+- 자동 온보딩 - Azure Defender에 온보딩된 Windows Server에서 Endpoint용 Defender 센서가 자동으로 활성화됩니다. Azure Defender 온보딩에 대한 자세한 내용은 강화된 보안을 위해 [Azure Defender Standard에 온보딩을 참조하세요.](https://docs.microsoft.com/azure/security-center/security-center-onboarding)
 
     > [!NOTE]
     > Windows [Server 2019 및 WVD(Windows Virtual Desktop)를](https://docs.microsoft.com/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)지원하기 위해 서버용 Azure Defender와 끝점용 Microsoft Defender 간의 통합이 확장됩니다.
 
-- Azure 보안 센터에서 모니터링하는 Windows 서버는 Endpoint용 Defender에서 사용할 수도 있습니다. Azure 보안 센터는 끝점 테넌트용 Defender에 원활하게 연결하여 클라이언트와 서버 전체에서 단일 보기를 제공합니다.  또한 Azure 보안 센터 콘솔에서 끝점용 Defender 경고를 사용할 수 있습니다.
-- 서버 조사 - Azure 보안 센터 고객은 Microsoft Defender 보안 센터에 액세스하여 자세한 조사를 수행하여 잠재적인 위반 범위를 밝히는 데 사용할 수 있습니다.
+- Azure Defender에서 모니터링하는 Windows 서버는 Endpoint용 Defender에서도 사용할 수 있습니다. Azure Defender는 끝점 테넌트용 Defender에 원활하게 연결하여 클라이언트와 서버 전체에서 단일 보기를 제공합니다.  또한 Azure Defender 콘솔에서 끝점용 Defender 경고를 사용할 수 있습니다.
+- 서버 조사 - Azure Defender 고객은 Microsoft Defender 보안 센터에 액세스하여 자세한 조사를 수행하여 잠재적인 위반 범위를 밝히는 데 사용할 수 있습니다.
 
 > [!IMPORTANT]
->
-> - Azure 보안 센터를 사용하여 서버를 모니터링하면 끝점 테넌트에 대한 Defender가 자동으로 만들어집니다(미국 사용자의 경우 유럽 및 영국 사용자용 EU).
+> - Azure Defender를 사용하여 서버를 모니터링하면 끝점 테넌트에 대한 Defender가 자동으로 만들어집니다(미국 사용자의 경우 유럽 및 영국 사용자용 EU).<br>
 Endpoint용 Defender에서 수집한 데이터는 프로비전 중에 식별된 테넌트의 지리적 위치에 저장됩니다.
-> - Azure 보안 센터를 사용하기 전에 Endpoint용 Defender를 사용하는 경우 나중에 Azure 보안 센터와 통합하는 경우에도 테넌트 생성 시 지정한 위치에 데이터가 저장됩니다.
-> - 일단 구성되면 데이터가 저장되는 위치를 변경할 수 없습니다. 데이터를 다른 위치로 이동해야 하는 경우 Microsoft 지원에 문의하여 테넌트를 다시 설정해야 합니다.
+> - Azure Defender를 사용하기 전에 Endpoint용 Defender를 사용하는 경우 나중에 Azure Defender와 통합하는 경우에도 테넌트를 만들 때 지정한 위치에 데이터가 저장됩니다.
+> - 일단 구성되면 데이터가 저장되는 위치를 변경할 수 없습니다. 데이터를 다른 위치로 이동해야 하는 경우 Microsoft 지원에 문의하여 테넌트를 다시 설정해야 합니다. <br>
 Office 365 GCC 고객의 경우 이 통합을 활용하는 서버 끝점 모니터링이 사용하지 않도록 설정되어 있습니다.
 
 ## <a name="configure-and-update-system-center-endpoint-protection-clients"></a>System Center Endpoint Protection 클라이언트 구성 및 업데이트

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender 보안 센터 표준 시간대 설정
 description: 여기에 포함된 정보를 사용하여 Microsoft Defender 보안 센터 표준 시간대 설정을 구성하고 라이선스 정보를 볼 수 있습니다.
-keywords: 설정, Microsoft Defender, 사이버 보안 위협 인텔리전스, 고급 위협 방지, 표준 시간대, utc, 현지 시간, 라이선스
+keywords: 설정, Microsoft Defender, 사이버 보안 위협 인텔리전스, 끝점용 Microsoft Defender, 표준 시간대, utc, 현지 시간, 라이선스
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e395420b92c29977f1c802d1c10683492c1aba10
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: df55a1b0e92c24b5f52032330ef95bf19aeb8cb3
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470468"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932634"
 ---
 # <a name="microsoft-defender-security-center-time-zone-settings"></a>Microsoft Defender 보안 센터 표준 시간대 설정
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender 고급 헌팅 API
 description: Microsoft 365 Defender의 고급 헌팅 API를 사용하여 고급 헌팅 쿼리를 실행하는 방법 학습
-keywords: 고급 헌팅, API, api, MTP, M365 Defender, Microsoft 365 Defender
+keywords: 고급 헌팅, API, api, M365 Defender, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 482801bb47429ae370e06cfcbcf26bacfb8b2a92
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c988a609a329c8f7f8988314e56aae942beebac5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51074799"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932896"
 ---
 # <a name="microsoft-365-defender-advanced-hunting-api"></a>Microsoft 365 Defender 고급 헌팅 API
 
@@ -33,7 +33,7 @@ ms.locfileid: "51074799"
 
 **적용 대상:**
 
-- Microsoft 위협 방지
+- Microsoft 365 Defender
 
 > [!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.
@@ -101,7 +101,7 @@ Query | 텍스트 | 실행할 쿼리입니다. **참고: 필수**
 2. Schema - 응답의 schema, 각 열에 Name-Type 쌍의 목록입니다.
 3. 결과 - 고급 헌팅 이벤트 목록입니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 다음 예제에서는 사용자가 아래 쿼리를 보내고 , 및 가 포함된 API 응답 개체를 `Stats` `Schema` `Results` 수신합니다.
 
@@ -183,4 +183,4 @@ Query | 텍스트 | 실행할 쿼리입니다. **참고: 필수**
 - [Microsoft 365 Defender API 액세스](api-access.md)
 - [API 제한 및 라이선싱에 대해 자세히 알아보기](api-terms.md)
 - [오류 코드 이해](api-error-codes.md)
-- [고급 헌팅 개요](advanced-hunting-overview.md)
+- [지능형 헌팅 개요](advanced-hunting-overview.md)

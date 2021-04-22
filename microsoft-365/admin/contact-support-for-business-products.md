@@ -10,7 +10,6 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
-- M365-subscription-management
 - Adm_O365
 - Adm_TOC
 ms.custom:
@@ -22,12 +21,12 @@ search.appverid:
 description: 해당 국가 또는 지역 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하여 기술 및 청구 지원을 받습니다.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 6e355a07584d45a85c363956d1bb4e45eae708be
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 7e9f324bca8614e8e5b644c529802030778509b5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222042"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929076"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>비즈니스용 제품에 대한 고객 지원 센터 문의 방법 - 관리자 도움말
 

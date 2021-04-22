@@ -1,7 +1,7 @@
 ---
-title: 장치가 올바르게 구성되었는지 확인
+title: 장치가 올바르게 구성되어 있는지 확인
 description: 장치를 적절히 구성하여 위협에 대한 전반적인 탄력성을 높이고 공격을 감지하고 대응할 수 있는 기능을 향상시킵니다.
-keywords: 온보드, Intune 관리, MDATP, WDATP, Microsoft Defender, Windows Defender, 고급 위협 방지, 공격 표면 감소, ASR, 보안 기준
+keywords: 온보드, Intune 관리, 끝점용 Microsoft Defender, Microsoft Defender, Windows Defender, 공격 표면 감소, ASR, 보안 기준
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e7b00ceafc2761f42c316f434a27acf7c551e7cf
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 3fd58ee17b2cb86c0bcc858b9b0fd57c12ac501e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163366"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932814"
 ---
-# <a name="ensure-your-devices-are-configured-properly"></a>장치가 올바르게 구성되었는지 확인
+# <a name="ensure-your-devices-are-configured-properly"></a>장치가 올바르게 구성되어 있는지 확인
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

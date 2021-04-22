@@ -1,7 +1,7 @@
 ---
 title: 끝점용 Microsoft Defender에 장치 온보딩
 description: 끝점용 Microsoft Defender에 Intune 관리 장치의 온보딩을 추적하고 온보딩 비율을 높입니다.
-keywords: 온보드, Intune 관리, MDATP, WDATP, Microsoft Defender, Windows Defender, 고급 위협 방지, 구성 관리
+keywords: 온보드, Intune 관리, 끝점용 Microsoft Defender, Microsoft Defender, Windows Defender, 구성 관리
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 09ca9fb466efd7764f7459a4754cfb30c8100bdb
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: e0d5a13b0c33516209bd2d18361a1de6ab9245c2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904143"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932944"
 ---
 # <a name="get-devices-onboarded-to-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 장치 온보딩
 
@@ -71,7 +71,7 @@ Endpoint용 Defender는 Windows [10](onboard-configure.md)장치를 온보딩하
 
 자세한 내용은 Intune 장치 구성 프로필을 사용하여 끝점용 Defender에 장치를 온보딩하는 [방법을 읽어보아야 합니다.](https://docs.microsoft.com/intune/advanced-threat-protection#onboard-devices-by-using-a-configuration-profile)
 
->Microsoft Defender ATP를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
+>끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
 
 ## <a name="related-topics"></a>관련 항목
 - [장치가 올바르게 구성되어 있는지 확인](configure-machines.md)

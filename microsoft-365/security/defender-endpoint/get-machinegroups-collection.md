@@ -1,6 +1,6 @@
 ---
 title: RBAC 컴퓨터 그룹 컬렉션 수집 API 사용
-description: KB 컬렉션 다운로드 API를 사용하여 Microsoft Defender Advanced Threat Protection에서 RBAC 장치 그룹 컬렉션을 검색하는 방법을 학습합니다.
+description: KB 컬렉션 다운로드 API를 사용하여 끝점용 Microsoft Defender에서 RBAC 장치 그룹 컬렉션을 검색하는 방법을 확인합니다.
 keywords: api, 그래프 api, 지원되는 api, get, RBAC, 그룹
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 10/07/2018
-ms.openlocfilehash: 54a0edb47204fe6e48666f0927d05121af95e00a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 18566025d79f02281c1d2c1509dd98f1e57879c2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51167022"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932778"
 ---
 # <a name="get-kb-collection-api"></a>KB 컬렉션 API 사용
 
@@ -60,7 +60,7 @@ GET /testwdatppreview/machinegroups
 ## <a name="response"></a>응답
 성공적이면 - 200 OK.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

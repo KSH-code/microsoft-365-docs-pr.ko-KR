@@ -1,7 +1,7 @@
 ---
 title: 제로 데이 취약성 완화 - 위협 및 취약성 관리
 description: 위협 및 취약성 관리를 통해 환경에서 제로 데이 취약성을 찾아 완화하는 방법을 학습합니다.
-keywords: mdatp tvm 제로 데이 취약성, tvm, 위협 & 취약성 관리, 제로 데이, 0일, 0일 취약성 완화, 취약한 CVE
+keywords: Endpoint tvm 제로 데이 취약성, tvm, 위협 & 취약성 관리, 제로 데이, 0일, 0일 취약성 완화, 취약한 CVE
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 941e4989dcb91ff9240131f5980d0e1eced2b21d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: be508e646a67f01887814a0e72170e438ee86212
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501232"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933064"
 ---
 # <a name="mitigate-zero-day-vulnerabilities---threat-and-vulnerability-management"></a>제로 데이 취약성 완화 - 위협 및 취약성 관리
 

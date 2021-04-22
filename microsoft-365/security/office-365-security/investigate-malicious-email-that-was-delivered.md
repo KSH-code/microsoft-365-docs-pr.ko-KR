@@ -1,6 +1,6 @@
 ---
 title: Office 365에서 배달된 악성 전자 메일 조사, 악성 전자 메일 찾기 및 조사
-keywords: TIMailData-Inline, 보안 인시던트, 인시던트, ATP PowerShell, 전자 메일 맬웨어, 손상된 사용자, 전자 메일 피싱, 전자 메일 맬웨어, 전자 메일 헤더 읽기, 헤더 읽기, 전자 메일 헤더 열기, 특수 작업
+keywords: TIMailData-Inline, 보안 인시던트, 인시던트, Endpoint PowerShell용 Microsoft Defender, 전자 메일 맬웨어, 손상된 사용자, 전자 메일 피싱, 전자 메일 맬웨어, 전자 메일 헤더 읽기, 헤더 읽기, 전자 메일 헤더 열기,특수 작업
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -20,12 +20,12 @@ description: 위협 조사 및 대응 기능을 사용하여 악성 전자 메�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2781850eacf8b0fcf4909406aca335f1bbeb0753
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 02e396cac060f2b8431b2b70e89c18950596d9c2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205472"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933376"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 배달된 악성 전자 메일 조사
 

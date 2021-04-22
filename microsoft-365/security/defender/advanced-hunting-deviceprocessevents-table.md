@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스위마의 DeviceProcessEvents 테이블
 description: 고급 헌팅 스위마의 DeviceProcessEventstable에서 생성되는 프로세스에 대해 자세히 알아보시고
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, processcreationevents, DeviceProcessEvents, process id, command line, DeviceProcessEvents
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, column, data type, processcreationevents, DeviceProcessEvents, process id, command line, DeviceProcessEvents
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d3a7943d5d04178587b95b4c0b4266b3e8cf54bb
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 88c0692e776146b54ff559dd51b7ca48d10c6be3
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501163"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933040"
 ---
 # <a name="deviceprocessevents"></a>DeviceProcessEvents
 
