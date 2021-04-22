@@ -475,6 +475,7 @@
 ####### [보안 권장 사항 가져오기](get-security-recommendations.md)
 ####### [컴퓨터 태그 추가 또는 제거](add-or-remove-machine-tags.md)
 ####### [IP별 컴퓨터 찾기](find-machines-by-ip.md)
+####### [태그별 컴퓨터 찾기](find-machines-by-tag.md)
 ####### [누락된 KB 가져오기](get-missing-kbs-machine.md)
 ####### [장치 값 설정](set-device-value.md)
 

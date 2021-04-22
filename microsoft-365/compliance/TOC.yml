@@ -138,6 +138,8 @@
           href: data-classification-content-explorer.md
         - name: 활동 탐색기로 시작
           href: data-classification-activity-explorer.md
+        - name: 활동 탐색기에서 보고된 작업의 레이블 지정
+          href: data-classification-activity-explorer-available-events.md
         - name: 데이터 분류 릴리스 정보
           href: data-classification-pub-preview-relnotes.md
     - name: 민감도 레이블
