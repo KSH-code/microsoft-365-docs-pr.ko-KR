@@ -28,12 +28,12 @@ ms.custom:
 - AdminSurgePortfolio
 description: Microsoft 365 관리 센터에서 송장 또는 청구서를 찾으십시오. 청구서 복사본을 저장하고 인쇄할 수도 있습니다.
 ms.date: 07/31/2020
-ms.openlocfilehash: 395c9773d4bc67ed466d7b3f8d568cecedddfd36
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b117071fa708ad9d425d578833d8b0ad85537151
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911650"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939489"
 ---
 # <a name="view-your-bill-or-invoice"></a>청구서 또는 송장 보기
 
@@ -55,6 +55,22 @@ ms.locfileid: "50911650"
 2. **송장** 탭의 드롭 다운 목록에서 날짜 범위를 선택한 다음 보려는 순서를 선택하십시오.
 3. 요약 페이지에서는 인보이스의 모든 품목에 대한 품목, 수량, 가격, 할인 및 총액을 확인할 수 있습니다.
 4. 송장의 PDF 복사본을 인쇄하거나 저장하려면 **다운로드 PDF** 를 선택합니다.
+
+::: moniker region="o365-21vianet"
+
+## <a name="request-a-fapiao"></a>Fapiao 요청
+
+결제한 후 3일이 지나면 [Fapiao 관리 시스템](https://go.microsoft.com/fwlink/p/?linkid=837465)에서 Fapiao 요청을 제출할 수 있습니다.
+
+1. <a href=”https://go.microsoft.com/fwlink/p/?linkid=850627” target=”_blank”>관리 센터</a>에서 **청구** > **청구 및 결제** 페이지로 이동합니다.
+
+2. 원하는 청구서를 찾은 다음, **Fapiao 받기** 를 선택합니다.
+
+> [!NOTE]
+
+> [Fapiao 관리 시스템](https://go.microsoft.com/fwlink/p/?linkid=837465)에 액세스하려면 등록된 계정이 필요합니다. 계정을 설정하지 않은 경우, [21 Vianet에서 운영하는 Office 365용 Fapiao 신청](../../admin/services-in-china/apply-for-a-fapiao.md)을 참조하세요.
+
+::: moniker-end
 
 ## <a name="receive-a-copy-of-your-billing-statement-in-email"></a>전자 메일로 청구서 사본 받기
 
