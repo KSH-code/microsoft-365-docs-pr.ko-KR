@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 보안 센터에서 Microsoft 365 Defender 켜기
 description: Microsoft 365 Defender를 사용하도록 설정하고 보안 인시던트 및 대응 통합을 시작하는 방법을 학습합니다.
-keywords: 시작, MTP 사용, Microsoft Threat Protection, M365, 보안, 데이터 위치, 필요한 사용 권한, 라이선스 자격, 설정 페이지
+keywords: 시작, Microsoft 365 Defender, Microsoft 365 Defender, M365, 보안, 데이터 위치, 필수 사용 권한, 라이선스 자격, 설정 페이지
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: bf8fdb2a8a42ef7b70b744cbbb5663e6afe51989
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 2d69ae70b137c9e5378958721f7f9958e57c0306
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764386"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935644"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Microsoft 365 Defender 켜기
 
@@ -91,7 +91,7 @@ Microsoft 지원 직원은 테넌트에서 서비스 및 관련 리소스를 프
 
 ## <a name="related-topics"></a>관련 항목
 
-- [자주 묻는 질문과 대답](m365d-enable-faq.md)
+- [자주 묻는 질문](m365d-enable-faq.md)
 - [라이선스 요구 사항 및 기타 필수 구성 요소](prerequisites.md)
 - [지원 서비스 배포](deploy-supported-services.md)
 - [Microsoft 365 Defender 개요](microsoft-365-defender.md)

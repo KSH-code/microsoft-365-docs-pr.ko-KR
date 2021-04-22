@@ -1,7 +1,7 @@
 ---
 title: 네트워크 보호 문제 해결
 description: 끝점용 Microsoft Defender의 네트워크 보호 문제를 해결하기 위한 리소스 및 샘플 코드입니다.
-keywords: 문제 해결, 오류, 수정, windows defender eg, asr, 규칙, hips, 문제 해결, 감사, 제외, 가극적, 손상된, 차단, 끝점용 Microsoft Defender, Microsoft Defender Advanced Threat Protection
+keywords: 문제 해결, 오류, 수정, windows defender eg, asr, 규칙, hips, 문제 해결, 감사, 제외, 가극적, 손상, 차단, 끝점용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
@@ -15,19 +15,19 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 9efc42441c2cb30f35abf658071088f7f7bbaf00
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: f77ce94fda63a9e7e8a9484a67a22eeec136d619
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760101"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935884"
 ---
 # <a name="troubleshoot-network-protection"></a>네트워크 보호 문제 해결
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!TIP]

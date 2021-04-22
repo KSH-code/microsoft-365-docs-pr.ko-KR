@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender에서 인시던트 조사
+title: Microsoft 365 Defender에서 인시던트 분석
 description: 장치, 사용자 및 사서함과 관련된 인시던트를 분석합니다.
-keywords: 인시던트, 컴퓨터, 장치, 사용자, ID, 메일, 전자 메일, 사서함, 조사, 그래프, 증거
+keywords: 인시던트, 인시던트, 분석, 응답, 컴퓨터, 장치, 사용자, ID, 메일, 전자 메일, 사서함, 조사, 그래프, 증거
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,17 +22,16 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 99acc25c3949b758dab990a9c2e9104b9158accd
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 22d3bba03745cee330f89b67061e6c6b13e78aed
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861878"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939745"
 ---
-# <a name="investigate-incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 인시던트 조사
+# <a name="analyze-incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 인시던트 분석
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
-
 
 **적용 대상:**
 
@@ -40,9 +39,9 @@ ms.locfileid: "51861878"
 
 Microsoft 365 Defender는 장치, 사용자 및 사서함에 있는 모든 관련 경고, 자산, 조사 및 증거를 인시던트에 집계하여 공격의 전체 너비를 포괄적으로 살펴 봐야 합니다.
 
-인시던트 내에서 네트워크에 영향을 주는 경고를 조사하고, 경고의 의미를 이해하고, 효과적인 수정 계획을 수립할 수 있도록 증거를 수집합니다.
+인시던트 내에서 네트워크에 영향을 주는 경고를 분석하고, 경고의 의미를 이해하고, 효과적인 수정 계획을 고안할 수 있도록 증거를 수집합니다.
 
-## <a name="initial-investigation"></a>초기 조사
+## <a name="initial-analysis"></a>초기 분석
 
 세부 정보를 살펴보기 전에 인시던트의 속성과 요약을 살펴보아야 합니다.
 
@@ -87,9 +86,9 @@ Microsoft 365 Defender는 장치, 사용자 및 사서함에 있는 모든 관�
 
 :::image type="content" source="../../media/investigate-incidents/incident-alerts.png" alt-text="인시던트에 대한 경고 페이지 예":::
 
-기본적으로 경고는 시간이 지날 때 인시던트가 어떻게 재생되는지 볼 수 있도록 시간 순서대로 지정됩니다. 각 경고를 선택하면 경고의 기본 페이지로 이동하여 해당 경고에 대한 심층 조사를 실시할 수 있습니다. 
+기본적으로 경고는 시간이 지날 때 인시던트가 어떻게 재생되는지 볼 수 있도록 시간 순서대로 지정됩니다. 각 경고를 선택하면 경고의 기본 페이지로 이동하여 해당 경고에 대한 심층 분석을 진행할 수 있습니다. 
 
-경고 조사에서 경고 큐 및 경고 페이지를 사용하는 [방법 학습](investigate-alerts.md)
+경고 분석에서 경고 큐 및 경고 페이지를 사용하는 [방법 학습](investigate-alerts.md)
 
 ## <a name="devices"></a>디바이스
 

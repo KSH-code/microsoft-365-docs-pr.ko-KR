@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender에서 인시던트 알림 다운로드
+title: Microsoft 365 Defender에서 전자 메일로 인시던트 알림 다운로드
 description: Microsoft 365 Defender에서 인시던트에 대한 전자 메일 알림을 받을 수 있는 규칙을 만드는 방법을 배우기
-keywords: 인시던트, 전자 메일, 전자 메일 알림, 구성, 사용자, 사서함, 전자 메일, 인시던트
+keywords: 인시던트, 전자 메일, 전자 메일 알림, 구성, 사용자, 사서함, 전자 메일, 인시던트, 분석, 응답
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 72a1f8fe71efcfa7f4f73671611576a454b508e6
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 7ba21e08f72760654993335764df00e78abc87b2
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861320"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939721"
 ---
 # <a name="get-incident-notifications-by-email"></a>전자 메일로 인시던트 알림 확인
 
@@ -43,7 +43,7 @@ Microsoft 365 Defender를 설정하여 새 인시던트 또는 기존 인시던�
 - 장치 그룹.
 - 인시던트당 첫 번째 업데이트에만 해당합니다.
 
-전자 메일 알림에는 인시던트 이름, 심각도, 범주 등 인시던트에 대한 중요한 세부 정보가 포함되어 있습니다. 인시던트로 바로 이동하여 조사를 바로 시작할 수도 있습니다. 자세한 내용은 인시던트 [조사를 참조하세요.](investigate-incidents.md)
+전자 메일 알림에는 인시던트 이름, 심각도, 범주 등 인시던트에 대한 중요한 세부 정보가 포함되어 있습니다. 인시던트로 바로 이동하여 분석을 바로 시작할 수도 있습니다. 자세한 내용은 인시던트 [분석 을 참조하세요.](investigate-incidents.md)
 
 전자 메일 알림에서 받는 사람을 추가하거나 제거할 수 있습니다. 새 받는 사람은 인시던트가 추가된 후 인시던트에 대한 알림을 받을 수 있습니다. 
 
@@ -77,4 +77,4 @@ Microsoft 365 Defender를 설정하여 새 인시던트 또는 기존 인시던�
 ## <a name="see-also"></a>참고 항목
 - [인시던트 개요](incidents-overview.md)
 - [인시던트 우선 순위 지정](incident-queue.md)
-- [인시던트 조사](investigate-incidents.md)
+- [인시던트 분석](investigate-incidents.md)

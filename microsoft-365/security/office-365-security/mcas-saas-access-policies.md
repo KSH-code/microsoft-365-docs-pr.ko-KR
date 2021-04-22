@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 61509c88ea2289509abd5ec7b6c0dcd54395d5f0
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 414d6ae0586078551c737e45763ea665d5eec4e6
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599974"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939557"
 ---
 # <a name="recommended-microsoft-cloud-app-security-policies-for-saas-apps"></a>SaaS 앱에 대한 권장 Microsoft Cloud App Security 정책
 Microsoft Cloud App Security는 Azure AD 조건부 액세스 정책을 토대하여 다운로드, 업로드, 복사 및 붙여넣기, 인쇄 차단과 같은 SaaS 앱을 사용하여 세부적인 작업을 실시간으로 모니터링하고 제어할 수 있도록 합니다. 이 기능은 관리되지 않는 장치나 게스트 사용자가 회사 리소스에 액세스하는 경우와 같이 내재된 위험을 수반하는 세션에 보안을 추가합니다.

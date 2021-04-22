@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 보안 포털의 장치 프로필
 description: 조직에서 장치에 대한 위험 및 노출 수준을 확인합니다. 과거 및 현재 위협을 분석하고 최신 업데이트로 장치를 보호합니다.
-keywords: 보안, 맬웨어, Microsoft 365, M365, Microsoft Threat Protection, MTP, 보안 센터, Microsoft Defender ATP, Office 365 ATP, Azure ATP, 장치 페이지, 장치 프로필, 컴퓨터 페이지, 컴퓨터 프로필
+keywords: 보안, 맬웨어, Microsoft 365, M365, Microsoft 365 Defender, 보안 센터, 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, ID용 Microsoft Defender, 장치 페이지, 장치 프로필, 컴퓨터 페이지, 컴퓨터 프로필
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -13,12 +13,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: c51c002d263452142a1bcf6fc5603d6ec4ef4cf7
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8e2788fd9163a27b41bd3788facf5fc9623b0543
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197972"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935668"
 ---
 # <a name="device-profile-page"></a>디바이스 프로필 페이지
 

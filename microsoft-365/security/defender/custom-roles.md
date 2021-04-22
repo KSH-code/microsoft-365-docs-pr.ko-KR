@@ -1,7 +1,7 @@
 ---
 title: 역할 기반 액세스 제어에 대한 사용자 지정 역할
 description: Microsoft 365 보안 센터에서 사용자 지정 역할을 관리하는 방법 학습
-keywords: 액세스, 사용 권한, MTP, Microsoft Threat Protection, M365, 보안, MCAS, MDATP, Cloud App Security, Microsoft Defender Advanced Threat Protection, 범위, 범위 지정, RBAC, 역할 기반 액세스, 사용자 지정 역할 기반 액세스, 역할 기반 권한, MDO의 RBAC, 역할, 역할 및 권한, 권한 상속, 세분화 권한
+keywords: 액세스, 사용 권한, Microsoft 365 Defender, M365, 보안, MCAS, Cloud App Security, Microsoft Defender for Endpoint, 범위, 범위 지정, RBAC, 역할 기반 액세스, 사용자 지정 역할 기반 액세스, MDO의 역할 기반 auth, RBAC, 역할, 역할 및 역할roups, 사용 권한 상속, 세분화 권한
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 6582e4e940dc9910e7d341c92b525379b924f35b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9dfa9f113c0a7d57360c2da6105cbfa07fcf6a99
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199960"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935692"
 ---
 # <a name="custom-roles-in-role-based-access-control-for-microsoft-365-defender"></a>Microsoft 365 Defender에 대한 역할 기반 액세스 제어의 사용자 지정 역할
 

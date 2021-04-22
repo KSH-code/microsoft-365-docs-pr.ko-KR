@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 보안 센터에서 사용자 조사
-description: Microsoft 365 보안 센터에서 사용자 조사
-keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터링, 보고서, ID, 데이터, 장치, 앱
+title: Microsoft 365 보안 센터에서 사용자 분석
+description: Microsoft 365 보안 센터에서 사용자 분석
+keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터링, 보고서, ID, 데이터, 장치, 앱, 인시던트, 분석, 응답
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -19,14 +19,14 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 68fc924ee14932ebdf92ef76306ba00e352b6030
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 1fb5a4eee41384ef1afc9b46e5bf538344718fe9
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861276"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939733"
 ---
-# <a name="investigate-users-in-microsoft-365-security-center"></a>Microsoft 365 보안 센터에서 사용자 조사
+# <a name="analyze-users-in-microsoft-365-security-center"></a>Microsoft 365 보안 센터에서 사용자 분석
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "51861276"
 
 - Microsoft 365 Defender
 
-인시던트 조사의 일부에는 사용자 계정이 포함됩니다. 사용자 탭에서 인시던트  및 인시던트 & 인시던트에 대한 사용자 >*>* **합니다.**  
+인시던트 분석의 일부로 사용자 계정을 포함할 수 있습니다. 사용자 탭에서 인시던트  및 인시던트 & 인시던트에 대한 사용자 >*>* **합니다.**  
 
 :::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="인시던트에 대한 사용자 페이지의 예":::
 

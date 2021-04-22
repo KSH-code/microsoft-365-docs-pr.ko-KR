@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender의 인시던트
-description: 여러 장치, 사용자 및 사서함에 표시되는 인시던트를 조사합니다.
-keywords: 인시던트, 경고, 조사, 상관 관계, 공격, 컴퓨터, 장치, 사용자, IDs, ID, 사서함, 전자 메일, 365, microsoft, m365
+description: Microsoft 365 보안 센터에서 장치, 사용자 및 사서함에 걸쳐 볼 수 있는 인시던트 조사
+keywords: 인시던트, 경고, 조사, 분석, 대응, 상관 관계, 공격, 컴퓨터, 장치, 사용자, ID, ID, 사서함, 전자 메일, 365, Microsoft, m365
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e1e028f7b58df07eccf945b3a79012b4ea12366d
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 890e64367c49c24c8c70e2cbda9869a5d0797219
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861626"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939591"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender의 인시던트
 
@@ -104,10 +104,69 @@ Microsoft 365 보안 센터(&)의 > 인시던트 및 인시던트 경고에서 �
 
 :::image type="content" source="../../media/incidents-overview/incidents-security-center.png" alt-text="Microsoft 365 보안 센터에서 인시던트와 인시던트의 데이터와 인시던트의 관계":::
 
-## <a name="next-step"></a>다음 단계
+## <a name="example-incident-response-workflow-for-microsoft-365-defender"></a>Microsoft 365 Defender의 인시던트 대응 워크플로 예
+
+다음은 Microsoft 365 보안 센터를 사용하여 Microsoft 365의 인시던트에 응답하기 위한 예제 워크플로입니다.
+
+:::image type="content" source="../../media/incidents-overview/incidents-example-workflow.png" alt-text="Microsoft 365에 대한 인시던트 대응 워크플로의 예":::
+
+지속적인 기준에 따라 인시던트 큐에서 분석 및 해결을 위해 우선 순위가 가장 높은 인시던트를 식별하고 대응을 준비합니다. 이 조합은
+
+- [인시던트](incident-queue.md) 큐 필터링 및 정렬을 통해 우선 순위가 가장 높은 인시던트 결정
+- [직위를](manage-incidents.md) 수정하고, 분석가에게 할당하고, 태그와 설명을 추가하여 인시던트 관리
+
+1. 각 인시던트에 대해 공격 [및 경고 분석을 시작합니다.](investigate-incidents.md)
+
+   a. 인시던트의 요약을 보고 인시던트의 범위 및 심각도와 영향을  받는 엔터티(요약 탭)를 이해합니다.
+
+   b. 경고의 출처, 범위 및 심각도(경고 탭)를  이해하기 위해 경고 분석을 시작하십시오.
+
+   c. 필요한 경우 영향을 받는 장치, 사용자 및 사서함(장치, 사용자 및 사서함 탭)에 대한 **정보를** 수집합니다. 
+
+   d. Microsoft 365 Defender가 일부 경고(조사 탭)를 자동으로 해결한 **방법을** 참조합니다.
+   
+   e. 필요한 경우 인시던트에 대한 데이터 집합의 정보를 사용하여 자세한 정보(증거 및 응답 **탭)를 사용합니다.**
+
+2. 분석 후 또는 분석 중에 보안 위협의 공격 및 제거에 대한 추가 영향을 줄이기 위한 포함 문제를 해결합니다.
+
+3. 테넌트 리소스를 인시던트 이전 상태로 복원하여 공격으로부터 복구합니다.
+
+4. [인시던트](manage-incidents.md#resolve-incident) 문제를 해결하고 인시던트 사후 학습을 통해 다음을 할 수 있습니다.
+
+   - 공격의 유형과 그 영향에 대해 이해합니다.
+   - [위협](threat-analytics.md) 분석 및 보안 커뮤니티에서 공격을 조사하여 보안 공격 추세를 조사합니다.
+   - 인시던트 해결에 사용한 워크플로를 회수하고 필요한 경우 표준 워크플로, 프로세스, 정책 및 플레이북을 업데이트합니다.
+   - 보안 구성의 변경이 필요한지 여부를 결정하고 구현합니다.
+
+## <a name="example-security-operations-for-microsoft-365-defender"></a>Microsoft 365 Defender에 대한 보안 작업 예
+
+다음은 Microsoft 365 Defender에 대한 보안 작업의 예입니다.
+
+:::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="Micosoft 365 Defender의 보안 작업 예":::
+
+일별 작업에는 다음이 포함됩니다.
+
+- [인시던트](manage-incidents.md) 관리
+- 자동화된 조사 및 [대응(AIR)](m365d-action-center.md) 작업 검토
+- 최신 위협 [분석 검토](threat-analytics.md)
+- [인시던트에](investigate-incidents.md) 응답
+
+월별 작업에는 다음이 포함됩니다.
+
+- AIR [설정 검토](m365d-configure-auto-investigation-response.md)
+- 보안 [점수 및](microsoft-secure-score-improvement-actions.md) 위협 요소 [& 관리 검토](../defender-endpoint/next-gen-threat-and-vuln-mgt.md)
+- IT 보안 관리 체인에 보고
+
+분기별 작업에는 CISO(최고 정보 보안 책임자)에게 보안 결과를 보고하고 브리핑할 수 있습니다.
+
+연간 작업에는 직원, 시스템 및 프로세스를 테스트하기 위한 주요 인시던트 또는 위반 연습 수행이 포함됩니다. 
+
+매일, 월별, 분기별 및 연간 작업을 사용하여 프로세스, 정책 및 보안 구성을 업데이트하거나 구체화할 수 있습니다.
+
+## <a name="next-steps"></a>다음 단계
 
 인시던트  페이지의 인시던트 큐에 최근 인시던트가 나열됩니다. 여기에서 다음을 할 수 있습니다.
 
 - 심각도 및 기타 [](incident-queue.md) 요인에 따라 우선 순위를 지정해야 하는 사고를 참조합니다. 
-- [인시던트에 대한](investigate-incidents.md) 조사를 수행합니다.
-- [인시던트](manage-incidents.md)관리 를 관리합니다. 여기에는 인시던트 이름 변경, 할당, 분류 및 인시던트 관리 워크플로에 대한 태그 추가가 포함됩니다.
+- [인시던트](manage-incidents.md)관리 워크플로의 이름 변경, 할당, 분류 및 태그 및 설명 추가를 포함하는 인시던트 관리
+- [인시던트 분석을](investigate-incidents.md) 수행 합니다.

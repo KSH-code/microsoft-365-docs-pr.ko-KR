@@ -1,7 +1,7 @@
 ---
 title: 테스트 Microsoft 365 Defender 경고 생성
 description: 테스트 경고 생성을 통해 Microsoft 365 Defender 랩 환경의 작동 방식 시도
-keywords: Microsoft 위협 방지 시뮬레이션, Microsoft Threat Protection 시도, Microsoft Threat Protection에서 테스트 경고 생성, Microsoft Threat Protection 평가 랩에서 경고 테스트
+keywords: Microsoft 365 Defender 시뮬레이션, Microsoft 365 Defender를 사용해 보시고, Microsoft 365 Defender에서 테스트 경고 생성, Microsoft 365 Defender 평가 랩에서 경고 테스트
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: eae17a2cec3aa4da036ef1de52c3cd637701b929
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ebe01570b8b425b45acdcb11cc7df47d2d62e547
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060728"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935656"
 ---
 # <a name="generate-a-test-alert-in-your-microsoft-365-defender-evaluation-lab"></a>Microsoft 365 Defender 평가 랩에서 테스트 경고 생성  
 

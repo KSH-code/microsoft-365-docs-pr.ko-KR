@@ -1,7 +1,7 @@
 ---
 title: 지원되는 Microsoft 365 Defender API
 description: 지원되는 Microsoft 365 Defender API
-keywords: MTP, API, api
+keywords: Microsoft 365 Defender, API, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b2239b960106d756cbd29504af05af77a553067d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f2c66dca326589807f5712c5548c177a0d08ade0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060807"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935728"
 ---
 # <a name="supported-microsoft-365-defender-apis"></a>지원되는 Microsoft 365 Defender API 
 
@@ -59,6 +59,6 @@ ms.locfileid: "51060807"
 ## <a name="related-articles"></a>관련 문서
 
 - [Microsoft 365 Defender API 개요](api-overview.md)
-- [Microsoft Threat Protection API 액세스](api-access.md)
+- [Microsoft 365 Defender API 액세스](api-access.md)
 - [API 제한 및 라이선싱에 대해 자세히 알아보기](api-terms.md)
 - [오류 코드 이해](api-error-codes.md)

@@ -20,19 +20,16 @@ ms.custom:
 search.appverid:
 - MET150
 description: 다른 계획으로 업그레이드하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 79ca18df28505c457e085dbd73c2fbd04eff53ca
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: c8d71e6ab79bfea35334f2c034dbc13f60397227
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580981"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939175"
 ---
 # <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드
 
 비즈니스가 변경되거나 추가 기능이 필요한 경우 계획을 업그레이드할 수 있습니다. 이 작업을 수행하는 가장 쉬운 방법은 관리 센터에서 **업그레이드** 탭을 사용하는 것입니다. 그러나 업그레이드 **탭을** 사용하는 것은 모든 상황에서 지원되지 않습니다. 경우에 따라 계획을 수동으로 변경할 수 있습니다.
-
-> [!NOTE]
-> 이 문서는 새 관리 센터에 적용됩니다. 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다. 이전 관리 센터에 대한 문서를 시청하려면 다른 비즈니스용 [Microsoft 365 요금제로 전환을 참조하세요.](switch-to-a-different-plan.md)
 
 ## <a name="use-the-upgrade-tab"></a>업그레이드 탭 사용
 

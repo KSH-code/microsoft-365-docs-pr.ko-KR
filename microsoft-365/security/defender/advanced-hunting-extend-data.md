@@ -1,7 +1,7 @@
 ---
 title: 올바른 설정을 사용하여 고급 헌팅 범위 확장
 description: Windows 장치 및 기타 설정의 감사 설정을 확인하여 고급 헌팅에서 가장 포괄적인 데이터를 얻을 수 있도록 합니다.
-keywords: 고급 헌팅, 인시던트, 피벗, 엔터티, 감사 설정, 사용자 계정 관리, 보안 그룹 관리, 위협 헌팅, 사이버 위협 헌팅, 검색, 쿼리, 원격 분석, Microsoft 365, Microsoft Threat Protection
+keywords: 고급 헌팅, 인시던트, 피벗, 엔터티, 감사 설정, 사용자 계정 관리, 보안 그룹 관리, 위협 헌팅, 사이버 위협 헌팅, 검색, 쿼리, 원격 분석, Microsoft 365, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 1fc4635b71e68bb56fa7ec54c9c7b1263b83446b
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 40cec28bf88445df13f78e672c4289d440b2b848
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498240"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935860"
 ---
 # <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>올바른 설정을 사용하여 고급 헌팅 범위 확장
 
@@ -55,4 +55,4 @@ Active Directory를 사내에서 실행하는 경우 도메인 컨트롤러에 I
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)
-- [스키마의 이해](advanced-hunting-schema-tables.md)
+- [스키마에 대한 이해](advanced-hunting-schema-tables.md)

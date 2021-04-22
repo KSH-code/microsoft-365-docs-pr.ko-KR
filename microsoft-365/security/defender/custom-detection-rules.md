@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender에서 사용자 지정 검색 규칙 만들기 및 관리
 description: 고급 헌팅 쿼리를 기반으로 사용자 지정 검색 규칙을 만들고 관리하는 방법을 배우기
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 사용자 지정 감지, 규칙, schema, kusto, microsoft 365, Microsoft Threat Protection, RBAC, 사용 권한, Microsoft Defender ATP
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, Microsoft 365, m365, 검색, 쿼리, 원격 분석, 사용자 지정 감지, 규칙, schema, kusto, RBAC, 사용 권한, 끝점용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: bfc8724f8dc27aa2475c293e7370488b2ea392b8
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: bcb31b904f8e6156d644864f03143e9fc37ae34b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903757"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935716"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>사용자 지정 검색 규칙 만들기 및 관리
 

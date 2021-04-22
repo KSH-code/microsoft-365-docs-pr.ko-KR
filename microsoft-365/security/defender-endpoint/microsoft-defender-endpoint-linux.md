@@ -1,8 +1,8 @@
 ---
 title: Microsoft Defender for Endpoint(Linux용)
 ms.reviewer: ''
-description: Linux용 끝점용 Microsoft Defender를 설치하고 사용하는 방법을 설명 합니다.
-keywords: microsoft, defender, atp, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+description: Linux에서 끝점용 Microsoft Defender를 설치하고 사용하는 방법을 설명 합니다.
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, linux, 설치, 배포, 제거, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f67dd28902e8b45a5401b60c027faa89d7467cd8
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 34274e260da2e8acc8088fcff6d324b6b31fc2ef
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861398"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935944"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender for Endpoint(Linux용)
 
@@ -39,7 +39,7 @@ ms.locfileid: "51861398"
 이 항목에서는 Linux에서 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 설명합니다.
 
 > [!CAUTION]
-> Linux에서 끝점용 Microsoft Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 부작용이 발생할 수 있습니다. 사용자 환경에서 Microsoft가 아닌 엔드포인트 보호가 절대적인 요구 사항이면 수동 모드에서 실행될 바이러스 백신 기능을 구성한 후에도 Linux EDR 기능에 대한 Endpoint용 Defender를 안전하게 활용할 [수 있습니다.](linux-preferences.md#enable--disable-passive-mode)
+> Linux에서 끝점용 Microsoft Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 부작용이 발생할 수 있습니다. 사용자 환경에서 비 Microsoft 끝점 보호가 절대적인 요구 사항이면 수동 모드에서 실행될 바이러스 백신 기능을 구성한 후에도 Linux EDR 기능의 Endpoint용 Defender를 안전하게 활용할 [수 있습니다.](linux-preferences.md#enable--disable-passive-mode)
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender를 설치하는 방법
 
@@ -80,10 +80,10 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
 - 최소 커널 버전 3.10.0-327
 - 커널 `fanotify` 옵션을 사용하도록 설정해야 합니다.
   > [!CAUTION]
-  > Linux용 끝점용 Defender를 다른 기반 보안 솔루션과 함께 실행하는 `fanotify` 것은 지원되지 않습니다. 운영 체제 중단을 포함하여 예측할 수 없는 결과가 발생할 수 있습니다.
+  > Linux에서 끝점용 Defender를 다른 기반 보안 솔루션과 나란히 실행하는 것은 `fanotify` 지원되지 않습니다. 운영 체제 중단을 포함하여 예측할 수 없는 결과가 발생할 수 있습니다.
 
 - 디스크 공간: 1GB
-- /opt/microsoft/mdatp/sbin/wdavdaemon에는 실행 권한이 필요합니다. 자세한 내용은 [Linux용 끝점용 Microsoft Defender의](/microsoft-365/security/defender-endpoint/linux-support-install)설치 문제 해결에서 "디먼이 실행 가능한 권한을 가지는지 확인"을 참조하세요.
+- /opt/microsoft/mdatp/sbin/wdavdaemon에는 실행 권한이 필요합니다. 자세한 내용은 Linux의 끝점용 Microsoft Defender 설치 문제 해결에서 "디먼이 실행 가능한 권한을 가지는지 [확인"을 참조하세요.](/microsoft-365/security/defender-endpoint/linux-support-install)
 - 메모리: 1GB
     > [!NOTE]
     > /var에 디스크 공간이 있는지 확인하시기 바랍니다.

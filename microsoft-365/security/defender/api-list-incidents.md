@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4488a552475121adc4a439106bc0bf0d97cb509a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7fb0de4f8dc67331e7acca59e70d061fe7c19493
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51070079"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935740"
 ---
 # <a name="list-incidents-api-in-microsoft-365-defender"></a>Microsoft 365 Defender의 인시던트 목록 API
 
@@ -142,7 +142,7 @@ mitreTechniques | [MITRE ATT 및 CK 2013](https://attack.mitre.org/)프레임워
 
 필드 이름 | 설명 | 예제 값
 -|-|-
-DeviceId | Microsoft Defender ATP에 지정된 장치 ID입니다. | 24c222b0b60fe148eeece49ac83910cc6a7ef491
+DeviceId | 끝점용 Microsoft Defender에 지정된 장치 ID입니다. | 24c222b0b60fe148eeece49ac83910cc6a7ef491
 aadDeviceId |  Azure Active Directory에 지정된 장치 [ID입니다.](/azure/active-directory/fundamentals/active-directory-whatis) 도메인에 가입된 디바이스에서만 사용할 수 있습니다. | null
 deviceDnsName | 장치의 정식 도메인 이름입니다. | user5cx.middleeast.corp.contoso.com
 osPlatform | 디바이스가 실행 중인 OS 플랫폼입니다.| WindowsServer2016
@@ -150,7 +150,7 @@ osBuild | 디바이스가 실행 중인 OS의 빌드 버전입니다. | 14393
 rbacGroupName | 장치와 [연결된](/azure/role-based-access-control/overview) RBAC(역할 기반 액세스 제어) 그룹입니다. | WDATP-Ring0
 firstSeen | 장치를 처음 본 시간입니다. | 2020-02-06T14:16:01.9330135Z
 healthStatus | 장치의 상태입니다. | 활성
-riskScore | 장치에 대한 위험 점수입니다. | 높음
+riskScore | 장치에 대한 위험 점수입니다. | High
 엔터티 | 특정 경고의 일부로 식별되거나 이와 관련된 모든 엔터티입니다. | \[\] (아래 엔터티 필드에 대한 세부 정보 참조)
 
 ### <a name="entity-format"></a>엔터티 형식
@@ -189,7 +189,7 @@ registryValueType | entityType이 레지스트리인 *경우 사용할 수 있�
 registryValue | entityType이 레지스트리인 *경우 사용할 수 있습니다.* | 31-00-00-00
 deviceId | 엔터티와 관련된 장치의 ID(있는 경우)입니다. | 986e5df8b73dacd43c8917d17e523e76b13c75cd
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

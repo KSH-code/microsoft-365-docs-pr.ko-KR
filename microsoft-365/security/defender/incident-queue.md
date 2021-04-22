@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender에서 인시던트 우선 순위 지정
 description: Microsoft 365 Defender의 인시던트 큐에서 인시던트 필터링 방법 학습
-keywords: 사고, 큐, 개요, 장치, 식별, 사용자, 사서함, 전자 메일, 사고
+keywords: 인시던트, 큐, 개요, 장치, ID, 사용자, 사서함, 전자 메일, 인시던트, 분석, 응답
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 3b381749108d4a75024d9a546c0d3f1631c948ed
-ms.sourcegitcommit: 76f3c75413cc960289489d0ca29efadb8a9a5b31
+ms.openlocfilehash: c3efff1e7ebb3a5e868ede018512d12cf38e38fc
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51887260"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939709"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 인시던트 우선 순위 지정
 
@@ -81,45 +81,11 @@ Microsoft 365 Defender는 상관 관계 분석을 적용하고 관련 경고 및
 | 상태 | 상태에 따라 표시 되는 사고의 목록을 제한하여 활성 또는 해결 완료 된 사고를 확인할 수 있습니다. |
 |||
 
-## <a name="incident-response-workflow"></a>인시던트 대응 워크플로
-
-다음은 인시던트에 응답하기 위한 일반적인 워크플로입니다.
-
-1. 조사 및 해결을 위해 우선 순위가 가장 높은 인시던트 식별 및 세분화
-2. 우선 순위가 높은 각 인시던트에 대해 조사를 [시작합니다.](investigate-incidents.md)
-
-   a. 인시던트의 요약을 보고 인시던트의 범위 및 심각도와 영향을  받는 엔터티(요약 탭)를 이해합니다.
-
-   b. 경고를 보고 시작하여 경고의 출처, 범위 및 **심각도(경고** 탭)를 이해합니다.
-
-   c. 필요한 경우 영향을 받는 장치, 사용자 및 사서함(장치, 사용자 및 사서함 탭)에 대한 **정보를** 수집합니다. 
-
-   d. Microsoft 365 Defender가 일부 경고(조사 탭)를 자동으로 해결한 **방법을** 참조합니다.
-   
-   e. 필요한 경우 인시던트에 대한 데이터 집합의 정보를 사용하여 자세한 정보(증거 및 응답 **탭)를 사용합니다.**
-
-   조사할 때 다음을 염려해야 합니다.
-
-   - 포함: 테넌트에 대한 추가 영향을 줄입니다.
-   - 지우기: 보안 위협 제거.
-   - 복구: 테넌트 리소스를 인시던트 이전 상태로 복원합니다.
-
-3. 인시던트가 해결된 후 다음을 위해 시간을 내어 다음을 합니다.
-
-   - 공격의 유형과 그 영향에 대해 이해합니다.
-   - 보안 커뮤니티에서 보안 공격 추세를 조사합니다.
-   - 인시던트 해결에 사용한 워크플로를 회수하고 필요한 경우 표준 워크플로 및 플레이북을 업데이트합니다.
-   - 보안 설정의 변경이 필요한지 여부를 결정하고 구현 단계를 수행합니다.
-
-다음은 기본 프로세스에 대한 요약입니다.
-
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-process.png" alt-text="인시던트 조사를 위한 기본 프로세스":::
-
 ## <a name="next-step"></a>다음 단계
 
-우선 순위가 가장 높은 인시던트가 필요한 사고를 확인한 후 해당 인시던트 를 선택하고 조사를 [시작합니다.](investigate-incidents.md)
+우선 순위가 가장 높은 인시던트가 필요한 사고를 확인한 후 해당 인시던트 를 선택하고 분석을 [시작합니다.](investigate-incidents.md)
 
 ## <a name="see-also"></a>참고 항목
-- [사고 개요](incidents-overview.md)
-- [사고 조사](investigate-incidents.md)
+- [인시던트 개요](incidents-overview.md)
+- [인시던트 분석](investigate-incidents.md)
 - [인시던트 관리](manage-incidents.md)

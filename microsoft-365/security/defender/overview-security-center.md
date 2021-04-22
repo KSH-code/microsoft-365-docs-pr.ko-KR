@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 보안 센터 개요
+title: MDO, MDE, MDI 및 MCAS를 결합하는 Microsoft 365 보안 센터 개요
 description: Microsoft 365 보안 센터의 이점으로, Microsoft Defender for Office 365(MDO) 및 끝점용 Microsoft Defender(MDE)를 ID용 Microsoft Defender(MDI) 및 MICROSOFT Cloud App Security(MCAS)와 결합합니다. 이 문서에서는 관리자를 위한 Microsoft 365 보안 센터에 대한 개요를 제공합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터링, 보고서, ID, 데이터, 장치, 앱
 ms.prod: m365-security
@@ -7,7 +7,7 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.date: 04/07/2021
+ms.date: 04/21/2021
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 2e1553b231692d184146897ddc05e11930ed1bf0
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: f3920942925efbe334df84370c61fbe6a98ad49f
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903977"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939267"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>통합된 Microsoft 365 보안 센터 개요
 
@@ -68,6 +68,9 @@ Microsoft 365 보안 센터는 Office 365용 Microsoft Defender 및 Endpoint용 
 - 일반적인 용어
 - 일반 엔터티
 - 다른 워크로드와의 기능 패리티
+
+> [!NOTE]
+> 고객이 마이그레이션 단계를 수행하거나 새 라이선스를 구입할 필요 없이 통합 Microsoft 365 보안 센터에 액세스할 수 있습니다. 예를 들어 이 새 포털은 Office 365 계획 1 및 계획 2용 Microsoft Defender와 같은 E3 구독이 있는 관리자가 액세스할 수 있습니다. 그러나 Exchange Online Protection 또는 MDO 계획 1 고객에게는 구독 라이선스가 지원하는 보안 기능만 볼 수 있습니다. 새 센터의 목표는 보안을 중앙 집중화하는 데 있습니다.
 
 ## <a name="unified-investigations"></a>통합 조사
 

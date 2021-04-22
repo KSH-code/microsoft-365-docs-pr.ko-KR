@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스마 참조
 description: 위협 헌팅 쿼리를 실행할 수 있는 데이터를 이해하기 위해 고급 헌팅 스마의 표에 대해 자세히 알아보습니다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, 끝점용 Microsoft Defender, 검색, 쿼리, 원격 분석, schema reference, kusto, table, data
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, mdatp, microsoft defender atp, 끝점용 Microsoft Defender, wdatp 검색, 쿼리, 원격 분석, schema reference, kusto, table, data
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/14/2020
 ms.technology: mde
-ms.openlocfilehash: b35cc32f776083b58bc6467be43508a805d92d9c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: fa111197dfd68cfcca40ce8a39befe20b97d1be8
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934348"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939639"
 ---
 # <a name="understand-the-advanced-hunting-schema-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender의 고급 헌팅 스마 이해
 

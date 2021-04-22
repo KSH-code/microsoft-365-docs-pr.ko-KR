@@ -1,7 +1,7 @@
 ---
 title: McAfee에서 끝점용 Microsoft Defender로 - 온보드
 description: McAfee에서 끝점용 Microsoft Defender로 마이그레이션하는 3단계인 온보딩입니다.
-keywords: 마이그레이션, Windows Defender Advanced Threat Protection, atp, edr
+keywords: migration, Microsoft Defender for Endpoint, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -22,12 +22,12 @@ ms.custom: migrationguides
 ms.topic: article
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: c30a552b4a2abcea9ceff4968c2a9e7e32ff2450
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 973491ffd5f29cef4a6dd652676cad538182f009
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862082"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935956"
 ---
 # <a name="migrate-from-mcafee---phase-3-onboard-to-microsoft-defender-for-endpoint"></a>McAfee에서 마이그레이션 - 3단계: 끝점용 Microsoft Defender로 온보딩
 
@@ -40,7 +40,7 @@ ms.locfileid: "51862082"
 |--|--|--|
 || |*여기 있습니다!* |
 
-**[McAfee 끝점 보안(McAfee)에서 Microsoft Defender Advanced Threat Protection(끝점용 Microsoft Defender)로](mcafee-to-microsoft-defender-migration.md#the-migration-process)마이그레이션의 3단계를 시작 합니다.** 이 마이그레이션 단계에는 다음 단계가 포함됩니다.
+**[McAfee 끝점 보안(McAfee)에서 끝점용 Microsoft Defender로](mcafee-to-microsoft-defender-migration.md#the-migration-process)마이그레이션의 3단계를 시작 합니다.** 이 마이그레이션 단계에는 다음 단계가 포함됩니다.
 
 1. [끝점용 Microsoft Defender에 장치를 온보딩합니다.](#onboard-devices-to-microsoft-defender-for-endpoint)
 2. [검색 테스트를 실행합니다.](#run-a-detection-test)
@@ -66,7 +66,7 @@ ms.locfileid: "51862082"
 |Windows 10     |- [그룹 정책](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-gp)<br/>- [Configuration Manager](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm)<br/>- [모바일 장치 관리(Intune)](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-mdm)<br/>- [로컬 스크립트](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-script) <br/><br/>**참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.         |
 |- Windows 8.1 Enterprise <br/>- Windows 8.1 Pro <br/>- Windows 7 SP1 Enterprise <br/>- Windows 7 SP1 Pro     | [Microsoft 모니터링 에이전트](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-downlevel#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-atp)<br/><br/>**참고:** Microsoft 모니터링 에이전트는 이제 Azure Log Analytics 에이전트입니다. 자세한 내용은 Log Analytics 에이전트 [개요를 참조하세요.](https://docs.microsoft.com/azure/azure-monitor/platform/log-analytics-agent)        |
 |- Windows Server 2019 이상 <br/>- Windows Server 2019 Core Edition <br/>- Windows Server 버전 1803 이상 |- [로컬 스크립트](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-script) <br/>- [그룹 정책](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-gp) <br/>- [Configuration Manager](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm) <br/>- [System Center Configuration Manager](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm#onboard-windows-10-devices-using-earlier-versions-of-system-center-configuration-manager) <br/>- [비영구 장치에 대한 VDI 온보딩 스크립트](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-vdi) <br/><br/>**참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.    |
-|- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Microsoft Defender 보안 센터](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#option-1-onboard-servers-through-microsoft-defender-security-center)<br/>- [Azure 보안 센터](https://docs.microsoft.com/azure/security-center/security-center-wdatp) |
+|- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Microsoft Defender 보안 센터](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#option-1-onboard-servers-through-microsoft-defender-security-center)<br/>- [Azure Defender](https://docs.microsoft.com/azure/security-center/security-center-wdatp) |
 |macOS<br/>- 10.15(카탈로나)<br/>- 10.14(Mojave)<br/>- 10.13(High Sierra)<br/><br/>iOS<br/><br/>Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS 이상<br/>- SLES 12+<br/>- 데비안 9+<br/>- Oracle Linux 7.2 |[Windows가 아닌 장치 온보딩](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-non-windows)  |
 
 ## <a name="run-a-detection-test"></a>검색 테스트 실행
@@ -77,8 +77,8 @@ ms.locfileid: "51862082"
 |운영 체제  |지침  |
 |---------|---------|
 |- Windows 10 <br/>- Windows Server 2019 <br/>- Windows Server, 버전 1803 <br/>- Windows Server 2016 <br/>- Windows Server 2012 R2     |검색 [테스트 실행을 참조합니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/run-detection-test) <br/><br/>끝점용 Microsoft Defender 데모 시나리오 사이트( )를 방문하고 하나 이상의 [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) 시나리오를 시도해 봤습니다. 예를 들어 클라우드 제공 보호 **데모 시나리오를 시도해** 보겠습니다.         |
-|macOS<br/>- 10.15(카탈로나)<br/>- 10.14(Mojave)<br/>- 10.13(High Sierra)     |에서 DIY 앱을 다운로드하여 [https://aka.ms/mdatpmacosdiy](https://aka.ms/mdatpmacosdiy) 사용하세요. <br/><br/>자세한 내용은 [Mac용 끝점용 Microsoft Defender를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-mac)        |
-|Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS 이상<br/>- SLES 12+<br/>- 데비안 9+<br/>- Oracle Linux 7.2 |1. 다음 명령을 실행하고 **1의 결과를 찾아야 합니다.** <br/>`mdatp health --field real_time_protection_enabled`. <br/><br/>2. 터미널 창을 열고 다음 명령을 실행합니다. <br/>`curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt`. <br/><br/>3. 다음 명령을 실행하여 감지된 위협을 나열합니다. <br/>`mdatp threat list`. <br/><br/>자세한 내용은 [Linux용 끝점용 Microsoft Defender를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-linux) |
+|macOS<br/>- 10.15(카탈로나)<br/>- 10.14(Mojave)<br/>- 10.13(High Sierra)     |에서 DIY 앱을 다운로드하여 [https://aka.ms/mdatpmacosdiy](https://aka.ms/mdatpmacosdiy) 사용하세요. <br/><br/>자세한 내용은 [Mac의 끝점용 Microsoft Defender를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-mac)        |
+|Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS 이상<br/>- SLES 12+<br/>- 데비안 9+<br/>- Oracle Linux 7.2 |1. 다음 명령을 실행하고 **1의 결과를 찾아야 합니다.** <br/>`mdatp health --field real_time_protection_enabled`. <br/><br/>2. 터미널 창을 열고 다음 명령을 실행합니다. <br/>`curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt`. <br/><br/>3. 다음 명령을 실행하여 감지된 위협을 나열합니다. <br/>`mdatp threat list`. <br/><br/>자세한 내용은 [Linux의 끝점용 Microsoft Defender를 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-linux) |
 
 ## <a name="uninstall-mcafee"></a>McAfee 제거
 
@@ -103,4 +103,4 @@ McAfee를 제거한 후 다음 단계는 Microsoft Defender 바이러스 백신 
 **축하합니다!** [McAfee에서 끝점용 Microsoft Defender로](mcafee-to-microsoft-defender-migration.md#the-migration-process)마이그레이션을 완료했습니다! 
 
 - Microsoft Defender [보안 센터()의](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/security-operations-dashboard) 보안 작업 대시보드를 [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) 방문하세요. 
-- [Microsoft Defender Advanced Threat Protection 관리, 마이그레이션 후.](manage-atp-post-migration.md)
+- [마이그레이션 후 끝점에 대한 Microsoft Defender를 관리합니다.](manage-atp-post-migration.md)

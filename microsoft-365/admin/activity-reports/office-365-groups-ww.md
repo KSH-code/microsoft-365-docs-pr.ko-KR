@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Microsoft 365 그룹 보고서를 다운로드하여 그룹 및 이들의 활동에 대해 알 수 있습니다.
-ms.openlocfilehash: fd3aa664b5a40bb5fffe0ed23e07ba6f1a5907c2
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 9426f7a35dea6c0f4a34e78dd8b2c214a0619bdd
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579569"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939233"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>관리 센터의 Microsoft 365 보고서 - Microsoft 365 그룹
 
@@ -66,3 +66,8 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 |구성원  <br/> |그룹의 구성원 수입니다.  <br/> |
 |외부 구성원 |그룹의 외부 사용자 수입니다.|
 |||
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[관리 센터의 Microsoft 365](activity-reports.md) 보고서(문서) & 보안 및 준수 [센터의 보고서(문서)](../../compliance/reports-in-security-and-compliance.md) 관리 센터의 [Microsoft 365 보고서 - 활성](../../admin/activity-reports/active-users-ww.md) 사용자(문서)
+

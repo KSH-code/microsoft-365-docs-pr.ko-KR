@@ -1,7 +1,7 @@
 ---
 title: Symantec에서 끝점용 Microsoft Defender로 - 1단계, 준비
 description: 이것은 Symantec에서 끝점용 Microsoft Defender로 마이그레이션하는 1단계, 준비입니다.
-keywords: 마이그레이션, Windows Defender Advanced Threat Protection, atp, edr
+keywords: migration, Microsoft Defender for Endpoint, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,17 +21,17 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 8c8f91448415bc1e9490706ee23bd8cae7f51a63
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: 03bc323958ffbf027a25290bb61bc82307d937a8
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698247"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935908"
 ---
 # <a name="migrate-from-symantec---phase-1-prepare-for-your-migration"></a>Symantec에서 마이그레이션 - 1단계: 마이그레이션 준비
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 |![1 단계: 준비](images/phase-diagrams/prepare.png)<br/>1 단계: 준비 |[![2 단계: 설정](images/phase-diagrams/setup.png)](symantec-to-microsoft-defender-atp-setup.md)<br/>[2 단계: 설정](symantec-to-microsoft-defender-atp-setup.md) |[![3 단계: 온보딩](images/phase-diagrams/onboard.png)](symantec-to-microsoft-defender-atp-onboard.md)<br/>[3 단계: 온보딩](symantec-to-microsoft-defender-atp-onboard.md) |

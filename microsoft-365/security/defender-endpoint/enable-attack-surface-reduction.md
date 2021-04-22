@@ -15,19 +15,19 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: e6f3d6da2424b2b3b6b7c1f2c9973e4046d6e27f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 7aeda679d5ce350ef64a2758359390adc4a280f0
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689177"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939245"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!TIP]
@@ -38,6 +38,15 @@ ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨
 - Windows 10 Enterprise 버전 [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows Server, [버전 1803(반기 채널)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+
+**요구 사항** 다음 Windows 버전 및 버전을 실행하는 장치에 대해 공격 표면 감소 규칙을 설정할 수 있습니다.
+
+- Windows 10 Pro 버전 1709 이상
+- Windows 10 Enterprise 버전 1709 이상
+- Windows Server, 버전 1803(반기 채널) 이상
+- Windows Server 2019
+
+공격 표면 감소 규칙에는 Windows E5 라이선스가 필요하지 않습니다. 그러나 Windows E5가 있는 경우 고급 관리 기능을 사용할 수 있습니다. Windows E5에서만 사용할 수 있는 이러한 기능에는 끝점용 Defender에서 사용할 수 있는 모니터링, 분석 및 워크플로와 Microsoft 365 보안 센터의 보고 및 구성 기능이 포함됩니다. 이러한 고급 기능은 Windows Professional 또는 Windows E3 라이선스에서 사용할 수 없습니다. 그러나 해당 라이선스가 있는 경우 이벤트 뷰어 및 Microsoft Defender 바이러스 백신 로그를 사용하여 공격 표면 축소 규칙 이벤트를 검토할 수 있습니다.
 
 각 ASR 규칙에는 다음 네 가지 설정 중 하나가 포함되어 있습니다.
 
@@ -108,7 +117,7 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
 - 0: 사용 안 하게(ASR 규칙 사용 안 하게)
 - 1: 차단(ASR 규칙 사용)
 - 2: 감사(ASR 규칙이 사용하도록 설정된 경우 조직에 어떤 영향을 미치는지 평가)
-- 6: 경고(ASR 규칙을 사용하도록 설정하지만 최종 사용자가 차단을 무시하도록 허용)
+- 6: 경고(ASR 규칙을 사용하도록 설정하지만 최종 사용자가 차단을 무시하도록 허용). 이제 경고 모드를 대부분의 ASR 규칙에 사용할 수 있습니다.
 
 [./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductiononlyexclusions) CSP(구성 서비스 공급자)를 사용하여 제외를 추가합니다.
 
@@ -159,8 +168,8 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
 
 5. ASR 규칙에서 파일 및 폴더를  제외하려면 공격 표면 축소 규칙에서 파일 및 경로 제외 설정을 선택하고 옵션을 사용으로 **설정합니다.** 표시를 **선택하고** 값 이름 열에 각 파일 또는 **폴더를 입력합니다.** 각 항목의 값 **열에** **0을** 입력합니다.
 
-> [!WARNING]
-> 값 이름 열이나 값 열에 대해  지원되지 않는 따옴표를 사용하지 **않습니다.**
+   > [!WARNING]
+   > 값 이름 열이나 값 열에 대해  지원되지 않는 따옴표를 사용하지 **않습니다.**
 
 ## <a name="powershell"></a>PowerShell
 

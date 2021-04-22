@@ -1,7 +1,7 @@
 ---
 title: 끝점용 Microsoft Defender의 고급 헌팅 개요
 description: 끝점용 Microsoft Defender의 위협 헌팅 기능을 사용하여 네트워크에서 위협과 약점을 찾는 쿼리를 작성합니다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, 끝점용 Microsoft Defender, 검색, 쿼리, 원격 분석, 사용자 지정 감지, schema, kusto, 표준 시간대, UTC
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, mdatp, Microsoft Defender atp, 끝점용 Microsoft Defender, wdatp, 검색, 쿼리, 원격 분석, 사용자 지정 감지, schema, kusto, 표준 시간대, UTC
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 114c0192f77411016fcb13ec2b912f4440ffa6e0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 906ae4bdebcc46e210fa9c5dcb5387c880fdbb38
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934360"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939663"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>고급 헌팅을 통해 위협을 사전 대응
 

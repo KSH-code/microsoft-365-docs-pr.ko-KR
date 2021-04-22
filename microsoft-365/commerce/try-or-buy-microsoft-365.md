@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: 무료 평가판을 얻거나 비즈니스용 Microsoft 365 구독을 구입하는 방법을 배워야 합니다.
 ms.date: 08/07/2020
-ms.openlocfilehash: 9daa7022007aa3c71dc7291f592d3b166a2c45a5
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 505ce060b9b40d72a54adbfffbcb2b3cf47a66e6
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576904"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939187"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>비즈니스용 Microsoft 365 구독 시도 또는 구입
 
@@ -32,6 +32,16 @@ ms.locfileid: "51576904"
 
 > [!NOTE]
 > 무료 평가판에 등록할 때 신용 카드를 사용해야 합니다. 무료 평가판 기간이 끝나면 평가판 구독이 유료 구독으로 자동 변환됩니다. 평가 기간이 끝날 때까지 신용 카드가 청구되지 않습니다.
+
+
+::: moniker region="o365-21vianet"
+
+> [!IMPORTANT]
+> **중국의 21Vianet에서 운영하는 Office 365의** 결제 옵션 국제 신용 카드는 사용할 수 없습니다. 구독 요금은 다음을 통해 결제할 수 있습니다.
+> - 송장
+> - Alipay 또는 China UnionPay 결제 증명을 사용한 온라인 결제는 Fapiaos 형태로 제공됩니다. Fapiao 요청을 결제한 후 약 3일이 지난 후 [Fapiao](https://go.microsoft.com/fwlink/p/?LinkId=395314) 시스템에 제출할 수 있습니다. 자세한 내용은 [21Vianet에서 운영하는 Office 365용 Fapiao에 적용을 참조하세요.](../admin/services-in-china/apply-for-a-fapiao.md)
+
+::: moniker-end
 
 ## <a name="before-you-begin"></a>시작하기 전에
 

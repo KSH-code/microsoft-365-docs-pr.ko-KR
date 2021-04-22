@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender에서 지원하는 서비스 배포
 description: Microsoft 365 Defender에서 통합할 수 있는 Microsoft 보안 서비스, 라이선스 요구 사항 및 배포 절차에 대해 자세히 알아보시고
-keywords: 배포, 라이선스, 지원되는 서비스, 프로비전, 구성 Microsoft Threat Protection, M365, 라이선스 자격, Microsoft Defender ATP, MDATP, Office 365 ATP, Azure ATP, Microsoft Cloud App Security, MCAS, 고급 위협 방지, E5, A5, EMS
+keywords: 배포, 라이선스, 지원되는 서비스, 프로비전, 구성 Microsoft 365 Defender, M365, 라이선스 자격, 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, ID용 Microsoft Defender, Microsoft Cloud App Security, MCAS, E5, A5, EMS
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 434c318be404ffb04cac7a05664c8f001bb46507
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4e1b36423974e46a485727f7e1f158dc6163d834
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198864"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935680"
 ---
 # <a name="deploy-supported-services"></a>지원 서비스 배포
 

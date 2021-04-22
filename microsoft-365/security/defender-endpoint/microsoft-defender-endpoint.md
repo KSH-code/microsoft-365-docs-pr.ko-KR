@@ -1,7 +1,7 @@
 ---
-title: 끝점용 Microsoft Defender
+title: 엔드포인트용 Microsoft Defender
 description: 끝점용 Microsoft Defender는 고급 영구 위협을 방어하는 데 도움이 되는 엔터프라이즈 끝점 보안 플랫폼입니다.
-keywords: 끝점용 Microsoft Defender 소개, Microsoft Defender Advanced Threat Protection 소개, 끝점용 Microsoft Defender 소개, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 컴퓨터 동작 센서, 클라우드 보안, 분석, 위협 인텔리전스, 공격 표면 감소, 차세대 보호, 자동화된 조사 및 수정, Microsoft 위협 전문가, 보안 점수, 고급 헌팅, Microsoft 위협 방지, 사이버 위협 헌팅
+keywords: 끝점용 Microsoft Defender 소개, 끝점용 Microsoft Defender 소개, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 컴퓨터 동작 센서, 클라우드 보안, 분석, 위협 인텔리전스, 공격 표면 감소, 차세대 보호, 자동화된 조사 및 수정, Microsoft 위협 전문가, 보안 점수, 고급 헌팅, Microsoft 365 Defender, 사이버 위협 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: adc7d780c1af73d8cb4fe229720ac2ed74f90251
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 57d4506e32db5defe29f2d0e59f72bd4c1998310
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861830"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935932"
 ---
-# <a name="microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender
+# <a name="microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -49,7 +49,7 @@ Endpoint용 Defender는 Windows 10에 기본 제공되는 다음과 같은 기�
 
 -   **위협** 인텔리전스: Microsoft 헌터, 보안 팀에서 생성하고 파트너가 제공하는 위협 인텔리전스를 통해 위협 인텔리전스를 통해 엔드포인트용 Defender가 공격자 도구, 기술 및 절차를 식별하고 수집된 센서 데이터에서 관찰될 때 경고를 생성할 수 있습니다.
 
-<center><h2>끝점용 Microsoft Defender</center></h2>
+<center><h2>엔드포인트용 Microsoft Defender</center></h2>
 <table>
 <tr>
 <td><a href="#tvm"><center><img src="images/TVM_icon.png" alt="Threat & Vulnerability Management"> <br><b>위협 & 취약성 관리</b></center></a></td>
@@ -64,7 +64,7 @@ Endpoint용 Defender는 Windows 10에 기본 제공되는 다음과 같은 기�
 <a href="#apis"><center><b>중앙 집중식 구성 및 관리, API</a></b></center></td>
 </tr>
 <tr>
-<td colspan="7"><a href="#mtp"><center><b>Microsoft 위협 방지</a></center></b></td>
+<td colspan="7"><a href="#mtp"><center><b>Microsoft 365 Defender</a></center></b></td>
 </tr>
 </table>
 <br>
@@ -126,7 +126,7 @@ Endpoint용 Microsoft Defender for Endpoint의 새로운 관리되는 위협 헌
 
 **[Microsoft 솔루션과의 통합](threat-protection-integration.md)** <br>
 Endpoint용 Defender는 다음을 비롯한 다양한 Microsoft 솔루션과 직접 통합됩니다.
-- Azure Security Center
+- Azure Defender
 - Azure Sentinel
 - Intune
 - Microsoft Cloud App Security

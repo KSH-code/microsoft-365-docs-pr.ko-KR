@@ -1,7 +1,7 @@
 ---
 title: 이동 헌트가 있는 엔터티에 대한 관련 정보 보기
 description: 이동 헌트 도구를 사용하여 고급 헌팅을 사용하여 엔터티 또는 이벤트에 대한 관련 정보를 빠르게 쿼리하는 방법을 학습합니다.
-keywords: 고급 헌팅, 인시던트, 피벗, 엔터티, 헌팅, 관련 이벤트, 위협 헌팅, 사이버 위협 헌팅, 검색, 쿼리, 원격 분석, Microsoft 365, Microsoft Threat Protection
+keywords: 고급 헌팅, 인시던트, 피벗, 엔터티, 헌팅, 관련 이벤트, 위협 헌팅, 사이버 위협 헌팅, 검색, 쿼리, 원격 분석, Microsoft 365, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0f09f74a1cefad5a9b6b438752ebe57e583397c7
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 51d33ea9a372b5bfe017f4c3544e0d6413d53001
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759981"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935836"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>이동 헌트로 엔터티 또는 이벤트 정보를 빠르게 헌팅
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender 고급 헌팅 스위마의 이름 변경 사항
 description: 고급 헌팅 스위마의 변경 테이블 및 열 이름 변경 추적 및 검토
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 위협 방지, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 데이터, 명명 변경, 이름 변경, 이름 변경, Microsoft Threat Protection
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마 참조, kusto, 표, 데이터, 명명 변경, 이름 변경
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ab6bdefb457fb31df98d829ee801b72f4c8ae70a
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 22d26dac6b7ee502d6934349d22b1d40532f575f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499697"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935776"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>고급 헌팅 스마 - 이름 변경
 
@@ -67,7 +67,7 @@ ms.locfileid: "51499697"
 | `DetectionSource` | AutomatedInvestigation |자동화된 조사 | Rebranding |
 | `DetectionSource` | ThreatExperts | Microsoft 위협 전문가 | Rebranding |
 | `DetectionSource` | 제3자 TI | 제3자 센서 | Rebranding |
-| `ServiceSource` | Microsoft Defender ATP| 끝점용 Microsoft Defender | Rebranding |
+| `ServiceSource` | Microsoft Defender ATP| 엔드포인트용 Microsoft Defender | Rebranding |
 |`ServiceSource` |Microsoft Threat Protection   | Microsoft 365 Defender | Rebranding |
 | `ServiceSource` | Office 365 ATP  |Office 365용 Microsoft Defender | Rebranding |
 | `ServiceSource` |Azure ATP    |ID용 Microsoft Defender | Rebranding |
@@ -106,4 +106,4 @@ ms.locfileid: "51499697"
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)
-- [스키마의 이해](advanced-hunting-schema-tables.md)
+- [스키마에 대한 이해](advanced-hunting-schema-tables.md)

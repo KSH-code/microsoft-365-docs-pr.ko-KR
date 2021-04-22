@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender에서 경고 조사
-description: 여러 장치, 사용자 및 사서함에 걸쳐 경고를 조사합니다.
-keywords: 인시던트, 경고, 조사, 상관 관계, 공격, 컴퓨터, 장치, 사용자, IDs, ID, 사서함, 전자 메일, 365, microsoft, m365
+title: Microsoft 365 Defender의 경고 분석
+description: 여러 장치, 사용자 및 사서함에 걸쳐 경고를 분석합니다.
+keywords: 인시던트, 경고, 조사, 분석, 대응, 상관 관계, 공격, 컴퓨터, 장치, 사용자, ID, ID, 사서함, 전자 메일, 365, Microsoft, m365
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 77b30e8a8eee70470115bcd61f081863fa5a41ee
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 18b4df6a2dbb22235d6781f1430f7a75e319fbcf
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862009"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939545"
 ---
-# <a name="investigate-alerts-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 경고 조사
+# <a name="analyze-alerts-in-microsoft-365-defender"></a>Microsoft 365 Defender의 경고 분석
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "51862009"
 
 경고는 모든 인시던트의 기반이 며 사용자 환경에서 악의적 또는 의심스러운 이벤트가 발생하는 것을 나타냅니다. 경고는 일반적으로 더 광범위한 공격의 일부로, 인시던트에 대한 단서를 제공합니다.
 
-Microsoft 365 Defender에서 관련 경고는 인시던트 를 형성하기 위해 함께 [집계됩니다.](incidents-overview.md) 인시던트는 항상 공격의 광범위한 컨텍스트를 제공하겠지만, 심층 분석이 필요한 경우 경고 조사가 중요할 수 있습니다. 
+Microsoft 365 Defender에서 관련 경고는 인시던트 를 형성하기 위해 함께 [집계됩니다.](incidents-overview.md) 인시던트는 항상 공격의 광범위한 컨텍스트를 제공하겠지만, 심층 분석이 필요한 경우 경고를 분석하는 것이 중요할 수 있습니다. 
 
 경고 **큐에는** 현재 경고 집합이 표시됩니다. Microsoft 365 보안  센터(&)의 빠른 실행에 대한 경고 > 인시던트 및 경고 큐로[security.microsoft.com.](https://security.microsoft.com)
 
@@ -134,12 +134,12 @@ Endpoint용 Microsoft Defender, Office 365용 Microsoft Defender 및 Microsoft 3
 
 ## <a name="resolve-an-alert"></a>경고 해결
 
-경고 조사를 마치면 경고를 해결할 수 있습니다.  경고 관리 창으로 이동하여 경고 상태를 **해결된** 것으로 표시하고 **False** 경고 또는 True 경고로 **분류합니다.** 실제 경고의 경우 결정 필드에 경고의 위협 유형을 **지정합니다.**
+경고 분석이 완료되고 해결할 수 있는 경우 경고에  대한 경고 관리 창으로 이동하여 경고 상태를 **해결된** 것으로 표시하고 **False** 경고 또는 True 경고로 **분류합니다.** 실제 경고의 경우 결정 필드에 경고의 위협 유형을 **지정합니다.**
 
 경고를 분류하고 결정 방법을 지정하면 Microsoft 365 Defender를 조정하여 보다 실제 경고와 거짓 경고를 줄입니다.
 
 ## <a name="see-also"></a>참고 항목
 
-- [사고 개요](incidents-overview.md)
-- [사고 조사](investigate-incidents.md)
+- [인시던트 개요](incidents-overview.md)
 - [인시던트 관리](manage-incidents.md)
+- [인시던트 분석](investigate-incidents.md)

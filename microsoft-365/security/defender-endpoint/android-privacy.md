@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 415a1f555e1a33c103894221086b783aa754cf32
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1aaae2970cfb2f6da82507eefa87c8d0e2227661
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51930140"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939627"
 ---
 #  <a name="microsoft-defender-for-endpoint-on-android---privacy-information"></a>Microsoft Defender for Endpoint(Android용) - 개인 정보
 
@@ -70,7 +70,7 @@ Android용 Endpoint용 Defender를 예상대로 안전하게 최신으로 유지
 
     -   Azure 테넌트 ID - Azure Active Directory 내에서 조직을 식별하는 GUID
 
-    -   Microsoft Defender ATP org ID - 장치가 속한 엔터프라이즈와 연결된 고유 식별자입니다. Microsoft에서 문제가 선택한 엔터프라이즈 집합에 영향을 미치는지 여부와 영향을 미치는 엔터프라이즈 수를 식별할 수 있도록 허용 
+    -   Microsoft Defender for Endpoint org ID - 장치가 속한 엔터프라이즈와 연결된 고유 식별자. Microsoft에서 문제가 선택한 엔터프라이즈 집합에 영향을 미치는지 여부와 영향을 미치는 엔터프라이즈 수를 식별할 수 있도록 허용 
 
     -   사용자 계정 이름 - 사용자의 전자 메일 ID
 

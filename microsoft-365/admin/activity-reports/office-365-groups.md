@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Microsoft 365 그룹 보고서를 다운로드하여 그룹 및 이들의 활동에 대해 알 수 있습니다.
-ms.openlocfilehash: 9ab034531099b5572c42eb3a48ec28d99487ac99
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: d123e3beb55ba6e636084fabe995f4dd0ff56707
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579557"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939141"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>관리 센터의 Microsoft 365 보고서 - Microsoft 365 그룹
 
@@ -60,4 +60,5 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 |10,  <br/> |열 제목 **옆에** 있는 추가 작업 단추 모바일 OWA 추가 작업을 선택하거나 탭하여 보고서에서 열을 ![ ](../../media/80044eef-2368-4c7e-8d31-7155b029e0cf.png) 추가하거나 제거합니다.  <br/> ![그룹 보고서 - 열 선택](../../media/d7fb95d6-2a2e-4144-b80d-581223e48043.png)|
 |11,  <br/> |내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 파일로 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다.  <br/> |
 |||
-   
+
+

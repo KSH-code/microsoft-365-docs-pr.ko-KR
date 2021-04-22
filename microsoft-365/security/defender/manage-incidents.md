@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender에서 인시던트 관리
 description: 상태, 인시던트, 경고, 연관된 경고, 할당, 업데이트, 상태, 관리, 분류, microsoft, 365, m365를
-keywords: 할당하고 업데이트하는 방법을 알아봅니다.인시던트, 인시던트, 경고, 연관 되는 경고, 할당, 업데이트, 상태, 관리, 분류, microsoft, 365, m365
+keywords: 인시던트, 인시던트, 분석, 대응, 경고, 상관 관계 경고, 할당, 업데이트, 상태, 관리, 분류, Microsoft, 365, m365
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: da5a2190a53dfe7f8dd0cc3cf7b410af92ca4ec5
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 5f66189979f401430353f4c15978a85276b48840
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861734"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939757"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 인시던트 관리
 
@@ -61,7 +61,7 @@ Microsoft 365 보안 센터(&)의 > 인시던트 및 인시던트 경고에서 �
 - 인시던트 큐에 있는 인시던트의 속성 창입니다.
 - **인시던트의** 요약 페이지입니다.
 
-조사하는 동안 경고를 한 인시던트에서 다른 인시던트로 이동하는  경우 경고 탭에서 이를 통해 모든 관련 경고가 포함된 더 크거나 작은 인시던트가 생성될 수 있습니다.
+분석하는 동안 한 인시던트에서 다른 인시던트로 경고를 이동하는  경우 경고 탭에서 알림을 이동하여 모든 관련 알림을 포함하는 더 크거나 작은 인시던트가 생성될 수도 있습니다.
 
 ## <a name="edit-the-incident-name"></a>인시던트 이름 편집
 
@@ -102,4 +102,4 @@ Microsoft 365 Defender는 영향을 받는 끝점 수, 영향을 받는 사용�
 
 - [인시던트 개요](incidents-overview.md)
 - [인시던트 우선 순위 지정](incident-queue.md)
-- [인시던트 조사](investigate-incidents.md)
+- [인시던트 분석](investigate-incidents.md)

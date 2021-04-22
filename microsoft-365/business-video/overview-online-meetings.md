@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스를 위한 온라인 모임을 호스팅하는 방법을 알아보하세요.
-ms.openlocfilehash: dffdf847962962b2f2e9daf70dae210abbb7614b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 893a03b064b6f73711b69a61c90cd40023241c48
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580513"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939521"
 ---
 # <a name="host-online-meetings-for-your-business"></a>비즈니스를 위한 온라인 모임 호스트
 
@@ -35,9 +35,9 @@ ms.locfileid: "51580513"
 
 클라이언트, 고객 또는 파트너와 프로젝트에서 긴밀하게 공동 작업을 [](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7) 하는 경우 클라이언트를 위한 팀을 만들면 쉽게 모임에 초대하고 대화를 나누고 파일을 공유하고 프로젝트를 추적할 수 있습니다.
 
-인포그래픽을 다운로드하여 Microsoft Teams를 통해 온라인 모임에 참가하거나 호스팅하는 방법에 대한 간략한 개요를 확인할 수 있습니다.
+Microsoft Teams를 통해 온라인 모임에 참가하거나 호스팅하는 방법에 대한 간략한 개요를 확인하려면 인포그래픽을 다운로드하세요.
 
-인포그래픽을 다운로드하여 Microsoft Teams를 통해 온라인 모임에 참가하거나 호스팅하는 방법에 대한 간략한 개요를 확인할 수 있습니다. [PDF](https://go.microsoft.com/fwlink/?linkid=2078712)  |  [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515)
+[PDF](https://go.microsoft.com/fwlink/?linkid=2078712)  |  [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515)
 
 ## <a name="1-schedule-a-meeting"></a>1. 모임 예약
 
