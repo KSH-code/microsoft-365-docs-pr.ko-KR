@@ -1,7 +1,7 @@
 ---
 title: Intune을 사용하여 끝점용 Microsoft Defender 관리
 description: Intune을 사용하여 끝점용 Microsoft Defender를 관리하는 방법 학습
-keywords: 마이그레이션 후, 관리, 운영, 유지 관리, 사용률, intune, windows defender Advanced Threat Protection, atp, edr
+keywords: 마이그레이션 후, 관리, 운영, 유지 관리, 사용률, intune, Endpoint용 Microsoft Defender, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: 01936eb323060190f2e785df04c3d317f7999d08
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: d8396c352e593f9922b11e23119f7d9718eaf752
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185888"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934228"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-intune"></a>Intune을 사용하여 끝점용 Microsoft Defender 관리
 

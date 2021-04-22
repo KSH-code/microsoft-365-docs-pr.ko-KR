@@ -1,7 +1,7 @@
 ---
 title: Linux에서 끝점용 Microsoft Defender 제외 구성 및 유효성 검사
 description: Linux에서 끝점용 Microsoft Defender 제외를 제공하고 유효성을 검사합니다. 파일, 폴더 및 프로세스에 대해 제외를 설정할 수 있습니다.
-keywords: microsoft, defender, atp, linux, 제외, 검사, 바이러스 백신
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, linux, 제외, 검사, 바이러스 백신
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 56fe152532b77f7f04c9edd52998fea83493adfe
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 8e861055067a55630da458e87b7376a607dc69c4
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903943"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934300"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender 제외 구성 및 유효성 검사
 
@@ -38,18 +38,18 @@ ms.locfileid: "51903943"
 이 문서에서는 요구 시 검사에 적용되는 제외를 정의하는 방법과 실시간 보호 및 모니터링에 대한 정보를 제공합니다.
 
 > [!IMPORTANT]
-> 이 문서에 설명된 제외는 끝점 감지 및 응답(EDR)을 포함하여 Linux용 끝점용 다른 Defender 기능에는 적용되지 않습니다. 이 문서에 설명된 방법을 사용하여 제외하는 파일은 여전히 EDR 경고 및 기타 검색을 트리거할 수 있습니다.
+> 이 문서에 설명된 제외는 끝점 검색 및 응답(EDR)을 포함하여 Linux 기능의 다른 Defender for Endpoint에 적용되지 않습니다. 이 문서에 설명된 방법을 사용하여 제외하는 파일은 여전히 EDR 경고 및 기타 검색을 트리거할 수 있습니다.
 
-Linux 검사용 끝점용 Defender에서 특정 파일, 폴더, 프로세스 및 프로세스 열기 파일을 제외할 수 있습니다.
+Linux 검사에서 Endpoint용 Defender에서 특정 파일, 폴더, 프로세스 및 프로세스 열기 파일을 제외할 수 있습니다.
 
-제외는 조직에서 고유하거나 사용자 지정된 파일 또는 소프트웨어에서 잘못된 검색을 방지하는 데 유용할 수 있습니다. 또한 Linux용 끝점용 Defender로 인한 성능 문제를 완화하는 데 유용할 수 있습니다.
+제외는 조직에서 고유하거나 사용자 지정된 파일 또는 소프트웨어에서 잘못된 검색을 방지하는 데 유용할 수 있습니다. Linux의 끝점용 Defender로 인한 성능 문제를 완화하는 데에도 유용할 수 있습니다.
 
 > [!WARNING]
-> 제외를 정의할 경우 Linux용 끝점에 대한 Defender에서 제공하는 보호가 낮아질 수 있습니다. 제외 구현과 관련된 위험을 항상 평가해야 합니다. 또한 악의적이지 않다고 확신하는 파일만 제외해야 합니다.
+> 제외를 정의할 경우 Linux의 끝점에 대한 Defender에서 제공하는 보호가 낮아질 수 있습니다. 제외 구현과 관련된 위험을 항상 평가해야 합니다. 또한 악의적이지 않다고 확신하는 파일만 제외해야 합니다.
 
 ## <a name="supported-exclusion-types"></a>지원되는 제외 유형
 
-다음 표에는 Linux용 끝점용 Defender에서 지원하는 제외 유형이 표시됩니다.
+다음 표에는 Linux의 Endpoint용 Defender에서 지원하는 제외 유형이 표시됩니다.
 
 제외 | 정의 | 예제
 ---|---|---
@@ -72,7 +72,7 @@ Linux 검사용 끝점용 Defender에서 특정 파일, 폴더, 프로세스 및
 
 ### <a name="from-the-management-console"></a>관리 콘솔에서
 
-Puppet, Ansible 또는 다른 관리 콘솔에서 제외를 구성하는 방법에 대한 자세한 내용은 [Linux용 끝점에 대한 Defender](linux-preferences.md)기본 설정 설정을 참조하세요.
+Puppet, Ansible 또는 다른 관리 콘솔에서 제외를 구성하는 방법에 대한 자세한 내용은 [Linux에서 끝점용 Defender에](linux-preferences.md)대한 기본 설정 설정을 참조하세요.
 
 ### <a name="from-the-command-line"></a>명령줄에서
 
@@ -152,7 +152,7 @@ mdatp exclusion
 curl -o test.txt https://www.eicar.org/download/eicar.com.txt
 ```
 
-Linux용 Endpoint용 Defender에서 맬웨어를 보고하면 규칙이 작동하지 않습니다. 맬웨어에 대한 보고서가 없는 경우 다운로드한 파일이 있는 경우 제외가 작동하고 있습니다. 파일을 열어 [EICAR](http://2016.eicar.org/86-0-Intended-use.html)테스트 파일 웹 사이트에 설명된 내용과 동일한지 확인할 수 있습니다.
+Linux의 끝점용 Defender가 맬웨어를 보고하면 규칙이 작동하지 않습니다. 맬웨어에 대한 보고서가 없는 경우 다운로드한 파일이 있는 경우 제외가 작동하고 있습니다. 파일을 열어 [EICAR](http://2016.eicar.org/86-0-Intended-use.html)테스트 파일 웹 사이트에 설명된 내용과 동일한지 확인할 수 있습니다.
 
 인터넷에 액세스할 수 없는 경우 자체 EICAR 테스트 파일을 만들 수 있습니다. 다음 Bash 명령을 사용하여 새 텍스트 파일에 EICAR 문자열을 작성합니다.
 

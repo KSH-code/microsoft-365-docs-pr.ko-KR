@@ -1,7 +1,7 @@
 ---
 title: PowerShell, WMI 및 2016을 사용하여 끝점에 대한 Microsoft Defender MPCmdRun.exe
 description: PowerShell, WMI 및 PowerShell을 사용하여 끝점용 Microsoft Defender를 관리하는 방법을 MPCmdRun.exe
-keywords: 마이그레이션 후, 관리, 운영, 유지 관리, 사용률, PowerShell, WMI, MPCmdRun.exe, windows defender Advanced Threat Protection, atp, edr
+keywords: 마이그레이션 후, 관리, 운영, 유지 관리, 사용률, PowerShell, WMI, MPCmdRun.exe, 끝점용 Microsoft Defender, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: 5f0e94360cfaa0c66aedec400e81adc85f4f5450
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 98b192551a351b58709185022cf311174052592b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185876"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934468"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-powershell-wmi-and-mpcmdrunexe"></a>PowerShell, WMI 및 PowerShell을 사용하여 끝점에 대한 Microsoft Defender를 MPCmdRun.exe
 
@@ -55,7 +55,7 @@ PowerShell을 사용하여 Microsoft Defender 바이러스 백신, 악용 방지
 |작업   |자세한 정보를 알아볼 수 있는 리소스  |
 |---------|---------|
 |**Microsoft Defender 바이러스 백신 관리** <br/><br/>*맬웨어 방지 보호 상태를 보고, 바이러스 백신 검사에 대한 기본 & 업데이트를 구성하고, 바이러스 백신 보호를 다른 변경합니다.*    |[PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 구성 및 관리](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-powershell-cmdlets-microsoft-defender-antivirus)  <br/><br/>[PowerShell cmdlet을 사용하여 클라우드 제공 보호 사용](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus#use-powershell-cmdlets-to-enable-cloud-delivered-protection)       |
-|**조직의 장치에** 대한 위협을 완화하도록 exploit Protection 구성<br/><br/> *처음에는 감사 모드에서 Exploit Protection을 [사용하는](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/evaluate-exploit-protection#powershell) 것이 좋습니다. 이렇게 하면 악용 방지가 조직에서 사용하는 앱에 어떤 영향을 주는지 알 수 있습니다.*     | [Exploit Protection 사용자 지정](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/customize-exploit-protection)<br/><br/>[악용 방지를 위한 PowerShell cmdlet](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/customize-exploit-protection#powershell-reference)        |
+|**조직의 장치에** 대한 위협을 완화하도록 exploit Protection 구성<br/><br/> *처음에는 감사 모드에서 Exploit Protection을 [사용하는](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/evaluate-exploit-protection#powershell) 것이 좋습니다. 이렇게 하면 악용 방지가 조직에서 사용하는 앱에 어떤 영향을 주는지 알 수 있습니다.*     | [악용 방지 사용자 지정](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/customize-exploit-protection)<br/><br/>[악용 방지를 위한 PowerShell cmdlet](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/customize-exploit-protection#powershell-reference)        |
 |**PowerShell을 사용하여 공격** 표면 감소 규칙 구성 <br/><br/>*PowerShell을 사용하여 공격 표면 감소 규칙에서 파일 및 폴더를 제외할 수 있습니다.* |[공격 표면 감소 규칙 사용자 지정: PowerShell을 사용하여 폴더에서 파일 & 제외](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/customize-attack-surface-reduction#use-powershell-to-exclude-files-and-folders)<br/><br/>또한 PowerShell을 사용하여 공격 표면 감소 규칙을 설정하는 데 사용할 수 있는 [António Vasconcelo의](https://github.com/anvascon/MDATP_PoSh_Scripts/tree/master/ASR%20GUI)그래픽 사용자 인터페이스 도구를 참조하세요. |
 |**PowerShell을 사용하여** 네트워크 보호 사용 <br/><br/>*PowerShell을 사용하여 네트워크 보호를 사용하도록 설정할 수 있습니다.* |[PowerShell을 통해 네트워크 보호 켜기](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/enable-network-protection#powershell) |
 |**랜섬웨어로부터 보호하도록** 제어된 폴더 액세스 구성 <br/><br/>*[제어된 폴더 액세스를](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/controlled-folders) 랜섬웨어 방지 보호라고도 합니다.* |[PowerShell을 사용하여 제어된 폴더 액세스 사용](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/enable-controlled-folders#powershell) |

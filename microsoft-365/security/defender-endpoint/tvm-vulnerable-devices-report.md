@@ -1,7 +1,7 @@
 ---
 title: 취약한 장치 보고서 - 위협 및 취약성 관리
 description: 취약한 장치 추세 및 현재 통계를 보여주는 보고서입니다. 목표는 장치 노출의 숨과 범위를 이해하는 데 있습니다.
-keywords: mdatp-tvm 취약성 장치, mdatp, tvm, 위협 & 노출 감소, 위협 및 취약성 감소, 보안 구성 모니터링
+keywords: Endpoint-tvm 취약 디바이스용 Microsoft Defender, 끝점용 Microsoft Defender, tvm, 위협 & 노출 감소, 위협 및 취약성 감소, 보안 구성 모니터링
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f481ddca897594bd73de9b5f4762903f23fb24c6
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 4b2b581d570bd0924970a845c66a599495ff9829
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500467"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933712"
 ---
 # <a name="vulnerable-devices-report---threat-and-vulnerability-management"></a>취약한 장치 보고서 - 위협 및 취약성 관리
 

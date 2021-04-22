@@ -1,7 +1,7 @@
 ---
 title: MacOS의 끝점용 Microsoft Defender에서 커널 확장 문제 해결
 description: MacOS의 끝점용 Microsoft Defender에서 커널 확장 관련 문제를 해결합니다.
-keywords: microsoft, defender, atp, mac, 커널, 확장
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 커널, 확장
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 32a4819f7a607c69b4dbf45b3284b2f4ea66ffc4
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9dc3ee17d79972b5d36c5fff58fbe4cc486027bd
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689656"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934276"
 ---
 # <a name="troubleshoot-kernel-extension-issues-in-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender에서 커널 확장 문제 해결
 
@@ -32,7 +32,7 @@ ms.locfileid: "51689656"
 
 **적용 대상:**
 
-- [MacOS의 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender for Endpoint(macOS용)](microsoft-defender-endpoint-mac.md)
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 

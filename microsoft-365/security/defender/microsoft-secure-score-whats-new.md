@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 5a868904a43e17952368e097c0b0e963252d5bed
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: b3f86dfbc1ae89eff61c680737061b01998a527b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570366"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933868"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Microsoft 보안 점수의 새로운
 
@@ -50,7 +50,7 @@ Microsoft Teams 고객은 보안 점수의 새로운 개선 작업으로 "익명
 
 ## <a name="december-2020"></a>2020년 12월
 
-### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>끝점용 Microsoft Defender(이전의 Microsoft Defender ATP)에 대한 6개의 계정 관련 개선 작업이 추가되었습니다.
+### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 대한 6개의 계정 관련 개선 작업이 추가되었습니다.
 
 - '최소 암호 길이'를 '14자 이상'으로 설정
 - '암호 기록 적용'을 '24개 이상의 암호'로 설정
@@ -65,7 +65,7 @@ Microsoft Teams 고객은 보안 점수의 새로운 개선 작업으로 "익명
 
 Share > **ServiceNow로** 진행하여 보안 점수를 통해 ServiceNow 티켓을 만드는 기능을 더 이상 사용할 수 없습니다. 다음 단계를 결정하는 동안 피드백을 보내주시고 지원을 계속해 주셔서 감사합니다.
 
-### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>끝점용 Microsoft Defender(이전의 Microsoft Defender ATP)에 대한 세 가지 서비스 관련 개선 작업이 추가되었습니다.
+### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에 대한 세 가지 서비스 관련 개선 작업이 추가되었습니다.
 
 - Windows 서비스에 대한 인용되지 않은 서비스 경로 수정
 - 서비스 실행 경로를 일반적인 보호된 위치로 변경

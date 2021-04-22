@@ -1,7 +1,7 @@
 ---
 title: 로컬 스크립트를 사용하여 Windows 10 장치 온보딩
 description: 로컬 스크립트를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보딩합니다.
-keywords: 로컬 스크립트를 사용하여 장치 구성, 장치 관리, Windows ATP 장치 구성, 끝점 장치용 Microsoft Defender 구성
+keywords: 로컬 스크립트를 사용하여 장치 구성, 장치 관리, 끝점 장치용 Microsoft Defender 구성
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 77473df9cc3e0e98efac8eaacd0a51b551bc3258
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 056268ed093d371d39a6136dd0b272c12ab6f9d7
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51075903"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933916"
 ---
 # <a name="onboard-windows-10-devices-using-a-local-script"></a>로컬 스크립트를 사용하여 Windows 10 장치 온보딩
 
@@ -150,6 +150,6 @@ Value: 0 or 1
 - [그룹 정책을 사용하여 Windows 10 장치 온보드](configure-endpoints-gp.md)
 - [Microsoft Endpoint Configuration Manager를 사용하여 Windows 10 장치 온보드](configure-endpoints-sccm.md)
 - [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](configure-endpoints-mdm.md)
-- [비영구 가상 데스크톱 인프라(VDI) 장치 온보딩](configure-endpoints-vdi.md)
+- [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
 - [새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행](run-detection-test.md)
 - [끝점 온보딩 문제에 대한 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

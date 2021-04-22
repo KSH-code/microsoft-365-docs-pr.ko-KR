@@ -1,6 +1,6 @@
 ---
 title: 컴퓨터 오프보드 API
-description: API를 사용하여 WDATP(Advanced Threat Protection)에서 Windows Defender 방법을 학습합니다.
+description: API를 사용하여 끝점용 Microsoft Defender의 디바이스 등록을 해제하는 방법을 학습합니다.
 keywords: api, 그래프 api, 지원되는 api, 조사 패키지 수집
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0b3fa5a5daba1aa09eef0f733c7439848ce66a2c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 03a1ef11224021703a6f33f82fa2c4f135a317a7
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187345"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934180"
 ---
 # <a name="offboard-machine-api"></a>컴퓨터 오프보드 API
 
@@ -88,7 +88,7 @@ Comment |   String |    작업과 연결되는 설명입니다. **필수입니�
 성공하면 이 메서드는 응답 본문에 201 - 생성된 응답 코드 및 [컴퓨터](machineaction.md) 작업을 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

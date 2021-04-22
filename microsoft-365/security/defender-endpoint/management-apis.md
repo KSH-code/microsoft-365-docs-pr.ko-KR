@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9e54fb5f2105f0a77c4b63e8d880135005c17168
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: a57cebd2cb7d35f968ed9ddfa4d9215eac2182d6
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862094"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934461"
 ---
 # <a name="overview-of-management-and-apis"></a>관리 및 API 개요 
 
@@ -41,7 +41,7 @@ Endpoint용 Defender는 고객이 플랫폼을 쉽게 채택할 수 있도록 �
 
 ## <a name="endpoint-onboarding-and-portal-access"></a>끝점 온보드 및 포털 액세스 
 
-장치 온보드가 Microsoft Endpoint Manager 및 클라이언트 장치용 Microsoft Intune과 서버 장치용 Azure 보안 센터에 완전히 통합되어 구성, 배포 및 모니터링에 대한 완전한 종단 간 환경을 제공합니다. 또한 Endpoint용 Microsoft Defender는 그룹 정책 및 장치 관리에 사용되는 기타 타사 도구를 지원합니다.
+장치 온보딩은 Microsoft Endpoint Manager 및 클라이언트 장치용 Microsoft Intune과 서버 장치용 Azure Defender에 완전히 통합되어 구성, 배포 및 모니터링에 대한 완전한 종단 간 환경을 제공합니다. 또한 Endpoint용 Microsoft Defender는 그룹 정책 및 장치 관리에 사용되는 기타 타사 도구를 지원합니다.
 
 끝점용 Defender는 포털에 액세스할 수 있는 사용자가 RBAC(역할 기반 액세스 제어)의 유연성을 통해 보고 할 수 있는 작업을 세분화하여 제어할 수 있도록 합니다. RBAC 모델은 모든 보안 팀 구조를 지원합니다.
 - 전역으로 분산된 조직 및 보안 팀

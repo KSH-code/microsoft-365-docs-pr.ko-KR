@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP API 라이선스 및 사용 약관
+title: Endpoint용 Microsoft Defender API 라이선스 및 사용 약관
 description: Microsoft Defender API에 대한 사용권 및 사용 약관에 대한 설명
 keywords: 사용권, 사용 약관, api, 법적, 고지, 행동 강령
 search.product: eADQiWindows 10XVcnh
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3b8842214301d4933432f376c872f8da7322a63e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: f737f5a9aeb9bc45e0cf40c3be0cfdde2bde3779
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164792"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933616"
 ---
 # <a name="microsoft-defender-for-endpoint-api-license-and-terms-of-use"></a>Endpoint용 Microsoft Defender API 라이선스 및 사용 약관
 

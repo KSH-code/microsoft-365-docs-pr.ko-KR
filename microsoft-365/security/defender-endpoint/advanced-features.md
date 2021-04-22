@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9c77cb19731e55976058ce2f628baf4026639949
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 34ca51c066eddb65f2df0cf8a5d85732bd84a9c0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903793"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934372"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
@@ -151,7 +151,7 @@ Azure Active Directory에 저장된 사용자 세부 정보를 볼 수 있도록
 
 ## <a name="microsoft-defender-for-identity-integration"></a>Microsoft Defender for Identity 통합
 
-Azure Advanced Threat Protection과의 통합을 통해 다른 Microsoft ID 보안 제품으로 직접 피벗할 수 있습니다. Azure Advanced Threat Protection은 손상된 계정 및 관련 리소스에 대한 추가 정보를 사용하여 조사를 강화합니다. 이 기능을 사용하도록 설정하면 식별 시점에서 네트워크를 통해 피벗하여 장치 기반 조사 기능을 향상할 수 있습니다.
+Id에 대한 Microsoft Defender와의 통합을 통해 다른 Microsoft Id 보안 제품으로 직접 피벗할 수 있습니다. Microsoft Defender for Identity는 손상된 계정 및 관련 리소스로 의심되는 추가 정보로 조사를 보강합니다. 이 기능을 사용하도록 설정하면 식별 시점에서 네트워크를 통해 피벗하여 장치 기반 조사 기능을 향상할 수 있습니다.
 
 > [!NOTE]
 > 이 기능을 사용하려면 적절한 라이선스가 필요합니다.
@@ -160,7 +160,7 @@ Azure Advanced Threat Protection과의 통합을 통해 다른 Microsoft ID 보�
 
 이 기능은 활성 Office 365 E5 또는 위협 인텔리전스 추가 기능이 있는 경우만 사용할 수 있습니다. 자세한 내용은 Office 365 Enterprise E5 제품 페이지를 참조하세요.
 
-이 기능을 켜면 Office 365 Advanced Threat Protection의 데이터를 Microsoft Defender 보안 센터에 통합하여 Office 365 사서함 및 Windows 장치에서 포괄적인 보안 조사를 실시할 수 있습니다.
+이 기능을 켜면 Office 365용 Microsoft Defender의 데이터를 Microsoft Defender 보안 센터에 통합하여 Office 365 사서함 및 Windows 장치에서 포괄적인 보안 조사를 실시할 수 있습니다.
 
 > [!NOTE]
 > 이 기능을 사용하려면 적절한 라이선스가 필요합니다.

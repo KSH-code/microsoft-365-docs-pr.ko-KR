@@ -1,7 +1,7 @@
 ---
 title: 위협 및 취약성 관리를 통해 취약성 수정
 description: 보안 권장 사항을 통해 발견된 보안 약점을 수정하고 필요한 경우 위협 및 취약성 관리에서 예외를 만듭니다.
-keywords: 끝점 tvm 수정, mdatp tvm, 위협 및 취약성 관리, 위협 & 취약성 관리, 위협 & 취약점 관리 수정, tvm 수정 intune, tvm 수정 sccm
+keywords: Microsoft Defender for Endpoint tvmmediation, Microsoft Defender for Endpoint tvm, threat and vulnerability management, threat & vulnerability management, threat & vulnerability management remediation, tvm remediation intune, tvm remediation sccm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: be24528c2337c5d2616eb1bf69906f60ae7b4375
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 56b6c809e31285bbfae47a5fdcc0446890919e8b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689368"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934072"
 ---
 # <a name="remediate-vulnerabilities-with-threat-and-vulnerability-management"></a>위협 및 취약성 관리를 통해 취약성 수정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 

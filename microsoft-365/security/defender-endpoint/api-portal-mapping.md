@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP 검색 API 필드
+title: 끝점 검색 API 필드에 대한 Microsoft Defender
 description: 검색 API 필드가 Microsoft Defender 보안 센터의 값에 매핑하는 방법 이해
 keywords: 검색, 검색 필드, 필드, api, 필드, 검색 끌어오기, rest api, 요청, 응답
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e304d731409c4cd0fac722d492b3fab5ed28fd35
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: d6d2ad9abe88d0099b58dd2df486120082bb22c1
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164884"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933640"
 ---
 # <a name="microsoft-defender-for-endpoint-detections-api-fields"></a>끝점 검색 API 필드에 대한 Microsoft Defender
 
@@ -52,8 +52,8 @@ ArcSight 필드 열에는 끝점용 Defender 필드와 ArcSight의 기본 제공
 > | 포털 레이블   | SIEM 필드 이름           | ArcSight 필드      | 예제 값                                                                      | 설명                                                                                                                                                                    |
 > |------------------|---------------------------|---------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 > | 1                | AlertTitle                | name                | Microsoft Defender AV에서 'Mikatz' 높은 심각도 맬웨어 검색 | 모든 검색에 사용할 수 있는 값입니다.                                                                                                                                               |
-> | 2                 | 심각도                  | deviceSeverity      | 높음                                                                             | 모든 검색에 사용할 수 있는 값입니다.                                                                                                                                               |
-> | 3                 | 범주                  | deviceEventCategory | 맬웨어                                                               | 모든 검색에 사용할 수 있는 값입니다.                                                                                                                                               |
+> | 2                | 심각도                  | deviceSeverity      | High                                                                             | 모든 검색에 사용할 수 있는 값입니다.                                                                                                                                               |
+> | 3                | 범주                  | deviceEventCategory | 맬웨어                                                               | 모든 검색에 사용할 수 있는 값입니다.                                                                                                                                               |
 > | 4                 | 검색 원본                    | sourceServiceName   | 바이러스 검사                                                                 | 끝점용 Microsoft Defender 바이러스 백신 또는 Defender. 모든 검색에 사용할 수 있는 값입니다.                                                                                         |
 > | 5                 | MachineName               | sourceHostName      | desktop-4a5ngd6                                                                           | 모든 검색에 사용할 수 있는 값입니다.                                                                                                                                               |
 > | 6                 | FileName                  | fileName            | Robocopy.exe                                                                       | 파일 또는 프로세스와 관련된 검색에 사용할 수 있습니다.                                                                                                                      |

@@ -1,6 +1,6 @@
 ---
 title: Microsoft Defender for Office 365에서 수정 작업 검토 및 관리
-keywords: AIR, autoIR, ATP, 자동화된, 조사, 대응, 수정, 위협, 고급, 위협, 보호
+keywords: AIR, autoIR, Endpoint용 Microsoft Defender, 자동화, 조사, 대응, 수정, 위협, 고급, 위협, 보호
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -19,12 +19,12 @@ description: Microsoft Defender for Office 365 계획 2의 자동화된 조사 �
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 01/29/2021
-ms.openlocfilehash: 61e9df45419cc73dae27b86dad47e1938183593d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ce6cfd920845f5a85dbc7d7d48cfefdd6209ec3a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205147"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933652"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>Office 365에서 수정 작업 검토 및 관리
 

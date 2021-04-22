@@ -1,7 +1,7 @@
 ---
-title: Mac용 끝점용 Microsoft Defender에 대해 다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포
-description: 다른 관리 솔루션에 Mac용 끝점용 Microsoft Defender를 설치합니다.
-keywords: microsoft, defender, atp, mac, 설치, 배포, macos, 카탈로니아, mojave, high sierra
+title: Mac의 끝점용 Microsoft Defender에 대해 다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포
+description: 다른 관리 솔루션에 Mac에 끝점용 Microsoft Defender를 설치합니다.
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, macos, 카탈로니아, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e929c17ada761a334700f6e66d2921483686834b
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ca779fc4cc8c40adb25a0e95a9450f59954dc605
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861566"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933796"
 ---
 # <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender에 대해 다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포
 
@@ -104,7 +104,7 @@ KEXT 또는 커널 확장 정책을 설정합니다. 팀 식별자 **UBF8T346G9�
 
 다음 구성 요소에 대한 전체 디스크 액세스 권한을 부여합니다.
 
-- 끝점용 Microsoft Defender
+- 엔드포인트용 Microsoft Defender
     - 식별자: `com.microsoft.wdav`
     - 식별자 유형: 번들 ID
     - 코드 요구 사항: `identifier "com.microsoft.wdav" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`

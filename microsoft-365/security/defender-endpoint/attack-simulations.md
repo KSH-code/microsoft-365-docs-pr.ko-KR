@@ -1,7 +1,7 @@
 ---
-title: 시뮬레이션된 공격을 통해 Microsoft Defender ATP 경험
-description: 제공된 공격 시나리오 시뮬레이션을 실행하여 Microsoft Defender ATP가 위반을 감지, 조사 및 대응하는 방법을 경험합니다.
-keywords: wdatp, 테스트, 시나리오, 공격, 시뮬레이션, 시뮬레이션, diy, 끝점용 Microsoft Defender
+title: 시뮬레이트된 공격을 통해 끝점에 대한 Microsoft Defender 경험
+description: 제공된 공격 시나리오 시뮬레이션을 실행하여 Microsoft Defender for Endpoint가 위반을 감지, 조사 및 대응하는 방법을 경험합니다.
+keywords: test, scenario, attack, simulation, simulationd, diy, Microsoft Defender for Endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 11/20/2018
 ms.technology: mde
-ms.openlocfilehash: b3fb862ac6e845ed4a3f5b72bae902f00c125b53
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 6ecbf98c81b1f68e42f39269809592fb446e6036
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498298"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934384"
 ---
 # <a name="experience-microsoft-defender-for-endpoint-through-simulated-attacks"></a>시뮬레이트된 공격을 통해 끝점에 대한 Microsoft Defender 경험 
 
@@ -36,7 +36,7 @@ ms.locfileid: "51498298"
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-attacksimulations-abovefoldlink)
 
 >[!TIP]
->- Microsoft Defender ATP의 최신 향상된 기능: [끝점용 Defender의 새로운 기능에 대해 자세히 알아보세요.](https://cloudblogs.microsoft.com/microsoftsecure/2018/11/15/whats-new-in-windows-defender-atp/)
+>- 끝점용 Microsoft Defender의 최신 향상된 기능: [엔드포인트용 Defender의](https://cloudblogs.microsoft.com/microsoftsecure/2018/11/15/whats-new-in-windows-defender-atp/)새로운 기능.
 >- Endpoint용 Defender는 최근 MITRE 평가에서 업계를 선도하는 광학 및 감지 기능을 보여 주었다. 읽기: [MITRE ATT의 인사이트&CK 기반 평가.](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)
 
 서비스에 여러 장치를 온보딩하기 전에 Endpoint용 Defender를 경험할 수 있습니다. 이를 위해 몇 가지 테스트 장치에서 제어된 공격 시뮬레이션을 실행할 수 있습니다. 시뮬레이션된 공격을 실행한 후 Endpoint용 Defender가 악의적인 활동을 어떻게 표면화하는지 검토하고 이를 통해 효율적인 대응을 가능하게 하는 방법을 탐색할 수 있습니다.

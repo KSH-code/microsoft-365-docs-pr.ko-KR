@@ -1,7 +1,7 @@
 ---
-title: Mac용 끝점용 Microsoft Defender 리소스
-description: Mac용 끝점용 Microsoft Defender에 대한 리소스(제거 방법, 진단 로그 수집 방법, CLI 명령 및 제품에서 알려진 문제 포함)
-keywords: microsoft, defender, atp, mac, 설치, 배포, 제거, intune, jamf, macos, 카탈로나, mojave, high sierra
+title: Mac의 끝점용 Microsoft Defender 리소스
+description: Mac의 끝점용 Microsoft Defender 리소스(제거 방법, 진단 로그 수집 방법, CLI 명령 및 제품에서 알려진 문제 포함)
+keywords: microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 98e123ac4775096c968bc831965a562481c848b6
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 34feeec0f8c34748678862b9aa7b20f84087eb5e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862178"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934528"
 ---
 # <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 리소스
 

@@ -1,7 +1,7 @@
 ---
 title: 파일럿 Microsoft 365 Defender 프로젝트 실행
 description: 프로덕션에서 파일럿 Microsoft 365 Defender 프로젝트를 실행하여 Microsoft 365 Defender의 이점과 채택을 효과적으로 결정할 수 있습니다.
-keywords: Microsoft 위협 방지 파일럿, 파일럿 Microsoft Threat Protection 프로젝트 실행, 프로덕션에서 Microsoft Threat Protection 평가, Microsoft Threat Protection 파일럿 프로젝트, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
+keywords: Microsoft 365 Defender 파일럿, 파일럿 Microsoft 365 Defender 프로젝트 실행, 프로덕션에서 Microsoft 365 Defender 평가, Microsoft 365 Defender 파일럿 프로젝트, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 1dd310d962cbce2b339cf09d5be6317c227d3f13
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b1616b39597a90ff8e8f7b4c92f29f75c62fea18
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076287"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934432"
 ---
 # <a name="run-your-pilot-microsoft-365-defender-project"></a>파일럿 Microsoft 365 Defender 프로젝트 실행 
 
@@ -50,9 +50,9 @@ ms.locfileid: "51076287"
 이 가이드에서는 Microsoft 365 Defender에 대한 개요와 파일럿 프로젝트를 설정하는 방법에 대한 단계별 지침을 제공합니다. 
 
 Microsoft 365 Defender는 엔드포인트, ID, 전자 메일 및 응용 프로그램에서 기본적으로 보호, 탐지, 예방, 조사 및 대응을 조정하여 정교한 공격으로부터 통합된 보호를 제공하는 통합 사전 및 사후 침해 엔터프라이즈 방어 제품군입니다. 이를 위해 다음 기능을 단일 보안 솔루션으로 결합하고 오케스트레이션합니다.
-  - 끝점용 Microsoft Defender, Microsoft Defender Advanced Threat Protection의 새 이름(끝점)
-  - Office 365 ATP의 새 이름인 Office 365용 Microsoft Defender(전자 메일) 
-  - Azure ATP의 새 이름인 Id용 Microsoft Defender(ID) 
+  - 끝점용 Microsoft Defender(끝점)
+  - Microsoft Defender for Office 365(전자 메일) 
+  - Microsoft Defender for Identity(ID) 
   - Microsoft Cloud App Security(앱)
 
 ![사용자용 of_Microsoft 365 Defender 솔루션, 끝점용 Microsoft Defender for Endpoint, 클라우드 앱용, Microsoft Cloud App Security 및 데이터용 Microsoft Defender for Office 365용 Microsoft Defender 솔루션](../../media/mtp/m365pillars.png)

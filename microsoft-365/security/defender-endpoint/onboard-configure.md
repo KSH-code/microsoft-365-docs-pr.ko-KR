@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender for Endpoint 서비스에 장치 온보딩
 description: Windows 10 장치, 서버, 비 Windows 장치를 온보드하고 검색 테스트를 실행하는 방법을 배워야 합니다.
-keywords: 온보딩, 끝점 온보딩을 위한 Microsoft Defender, windows atp 온보딩, sccm, 그룹 정책, mdm, 로컬 스크립트, 검색 테스트
+keywords: 온보딩, 끝점 온보딩용 Microsoft Defender, sccm, 그룹 정책, mdm, 로컬 스크립트, 검색 테스트
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4aa3e30f34e7d9dc362cc0bbb277aaee5834b4fe
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 05cc5770df5bb05687bb8be69ad89a7abd6875ed
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861378"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933556"
 ---
 # <a name="onboard-devices-to-the-microsoft-defender-for-endpoint-service"></a>Microsoft Defender for Endpoint 서비스에 장치 온보딩
 

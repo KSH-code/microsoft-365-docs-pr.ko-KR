@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender 공격 시뮬레이션 실행
 description: Microsoft 365 Defender 파일럿 프로젝트에 대한 공격 시뮬레이션을 실행하여 공격 시뮬레이션이 어떻게 진행되고 신속하게 수정하는지 볼 수 있습니다.
-keywords: Microsoft 위협 방지 파일럿 공격 시뮬레이션, Microsoft 위협 방지 파일럿 공격 시뮬레이션 실행, Microsoft Threat Protection 파일럿 프로젝트, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
+keywords: Microsoft 365 Defender 파일럿 공격 시뮬레이션을 실행하고, Microsoft 365 Defender 파일럿 공격 시뮬레이션을 실행하고, Microsoft 365 Defender, Microsoft 365 Defender 파일럿 프로젝트, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: bb6472fdd52cdab0ab649fbb76b1ff6a683d6c80
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 767a7ea4c4c7604d1d4b227f08e4ca32c62737c5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076292"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934480"
 ---
 # <a name="run-your-microsoft-365-defender-attack-simulations"></a>Microsoft 365 Defender 공격 시뮬레이션 실행
 

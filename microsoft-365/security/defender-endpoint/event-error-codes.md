@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 05/21/2018
 ms.technology: mde
-ms.openlocfilehash: 1b8454107b6a2737f1236a066c3a24a2b9c776cb
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: a8b7268e89470a85a34015967b69abb1818fe64f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222658"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933844"
 ---
 # <a name="review-events-and-errors-using-event-viewer"></a>이벤트 뷰어를 사용하여 이벤트 및 오류 검토
 
@@ -31,7 +31,7 @@ ms.locfileid: "51222658"
 
 **적용 대상:**
 - 이벤트 뷰어
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
@@ -68,13 +68,13 @@ ms.locfileid: "51222658"
 <td>정상 작동 알림 필요한 작업이 없습니다.</td>
 </tr>
 <tr>
-<td>2 </td>
+<td>2</td>
 <td>끝점용 Microsoft Defender 서비스 종료.</td>
 <td>디바이스가 종료되거나 오프보더될 때 발생합니다.</td>
 <td>정상 작동 알림 필요한 작업이 없습니다.</td>
 </tr>
 <tr>
-<td>3 </td>
+<td>3</td>
 <td>끝점용 Microsoft Defender 서비스를 시작하지 못했습니다. 오류 코드: <code>variable</code> .</td>
 <td>서비스가 시작되지 않습니다.</td>
 <td>다른 메시지를 검토하여 가능한 원인 및 문제 해결 단계를 파악합니다.</td>
@@ -301,13 +301,13 @@ ms.locfileid: "51222658"
 </tr>
 <tr>
 <td>42</td>
-<td>끝점용 Microsoft Defender WDATP 구성 요소가 작업을 수행하지 못했습니다. 구성 요소: %1, 작업: %2, 예외 유형: %3, 예외 메시지: %4</td>
+<td>끝점용 Microsoft Defender 구성 요소가 작업을 수행하지 못했습니다. 구성 요소: %1, 작업: %2, 예외 유형: %3, 예외 메시지: %4</td>
 <td>내부 오류입니다. 서비스를 시작하지 못했습니다.</td>
 <td>이 오류가 계속되면 지원에 문의합니다.</td>
 </tr>
 <tr>
 <td>43</td>
-<td>끝점용 Microsoft Defender WDATP 구성 요소가 작업을 수행하지 못했습니다. 구성 요소: %1, 작업: %2, 예외 유형: %3, 예외 오류: %4, 예외 메시지: %5</td>
+<td>끝점용 Microsoft Defender 구성 요소가 작업을 수행하지 못했습니다. 구성 요소: %1, 작업: %2, 예외 유형: %3, 예외 오류: %4, 예외 메시지: %5</td>
 <td>내부 오류입니다. 서비스를 시작하지 못했습니다.</td>
 <td>이 오류가 계속되면 지원에 문의합니다.</td>
 </tr>
@@ -482,13 +482,13 @@ ms.locfileid: "51222658"
 </tr>
 <tr>
    <td>81</td>
-   <td>Advanced Threat Protection ETW Windows Defender 만들지 못했습니다. 오류 코드: %1</td>
+   <td>Endpoint ETW autologger용 Microsoft Defender를 만들지 못했습니다. 오류 코드: %1</td>
    <td>ETW 세션을 만들지 못했습니다.</td>
    <td>장치를 다시부팅합니다. 이 오류가 계속되면 지원에 문의합니다.</td>
 </tr>
 <tr>
    <td>82</td>
-   <td>Advanced Threat Protection ETW Windows Defender 제거하지 못했습니다. 오류 코드: %1</td>
+   <td>Endpoint ETW autologger용 Microsoft Defender를 제거하지 못했습니다. 오류 코드: %1</td>
    <td>ETW 세션을 삭제하지 못했습니다.</td>
    <td>고객 지원에 문의합니다.</td>
 </tr>
@@ -500,7 +500,7 @@ ms.locfileid: "51222658"
 </tr>
 <tr>
    <td>85</td>
-   <td>Advanced Threat Protection Windows Defender 트리거하지 못했습니다. 오류 코드: %1</td>
+   <td>끝점 실행을 위해 Microsoft Defender를 트리거하지 못했습니다. 오류 코드: %1</td>
    <td>센스IR 실행을 실행하지 못했습니다.</td>
    <td>장치를 다시부팅합니다. 이 오류가 계속되면 지원에 문의합니다.</td>
 </tr>
@@ -554,19 +554,19 @@ ms.locfileid: "51222658"
 </tr>
 <tr>
    <td>94</td>
-   <td>Windows Defender Advanced Threat Protection 실행이 시작된 경우</td>
+   <td>끝점용 Microsoft Defender 실행이 시작된 경우</td>
    <td>SenseCE 실행이 시작된 경우</td>
    <td>정상 작동 알림 필요한 작업이 없습니다.</td>
 </tr>
 <tr>
    <td>95</td>
-   <td>Windows Defender Advanced Threat Protection 실행이 종료된 경우</td>
+   <td>끝점용 Microsoft Defender 실행이 종료된 경우</td>
    <td>SenseCE 실행이 끝났습니다.</td>
    <td>정상 작동 알림 필요한 작업이 없습니다.</td>
 </tr>
 <tr>
    <td>96</td>
-   <td>Windows Defender Init가 호출했습니다. 결과 코드: %2</td>
+   <td>끝점용 Microsoft Defender Init이 호출됩니다. 결과 코드: %2</td>
    <td>SenseCE 실행을 MCE 초기화라고 합니다.</td>
    <td>정상 작동 알림 필요한 작업이 없습니다.</td>
 </tr>
@@ -590,19 +590,19 @@ ms.locfileid: "51222658"
 </tr>
 <tr>
    <td>100</td>
-   <td>Windows Defender Advanced Threat Protection 실행을 시작하지 못했습니다. 오류 코드: %1</td>
+   <td>끝점용 Microsoft Defender 실행을 시작하지 못했습니다. 오류 코드: %1</td>
    <td>SenseCE 실행을 시작하지 못했습니다.</td>
    <td>장치를 다시부팅합니다. 이 오류가 계속되면 지원에 문의합니다.</td>
 </tr>
 <tr>
    <td>102</td>
-   <td>Windows Defender Advanced Threat Protection 네트워크 검색 및 응답 실행이 시작된 경우</td>
+   <td>끝점 네트워크 검색 및 응답 실행용 Microsoft Defender가 시작</td>
    <td>SenseNdr 실행이 시작된 경우</td>
    <td>정상 작동 알림 필요한 작업이 없습니다.</td>
 </tr>
 <tr>
    <td>103</td>
-   <td>Windows Defender 네트워크 검색 및 응답 실행이 종료된 경우</td>
+   <td>끝점 네트워크 검색 및 응답 실행용 Microsoft Defender가 종료된 경우</td>
    <td>SenseNdr 실행이 종료된 경우</td>
    <td>정상 작동 알림 필요한 작업이 없습니다.</td>
 </tr>
@@ -612,6 +612,6 @@ ms.locfileid: "51222658"
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-eventerrorcodes-belowfoldlink)
 
 ## <a name="related-topics"></a>관련 항목
-- [Windows 10 장치 온보드](configure-endpoints.md)
+- [그룹 정책을 통한 Windows 10 장치 온보딩](configure-endpoints.md)
 - [장치 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)
-- [끝점용 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)
+- [엔드포인트용 Microsoft Defender 문제 해결](troubleshoot-onboarding.md)

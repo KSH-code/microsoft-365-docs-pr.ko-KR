@@ -1,6 +1,6 @@
 ---
-title: 지원되는 Microsoft Defender Advanced Threat Protection 응답 API
-description: 특정 응답 관련 Microsoft Defender Advanced Threat Protection API 호출에 대해 자세히 알아보습니다.
+title: 끝점 응답 API에 대해 지원되는 Microsoft Defender
+description: 특정 응답 관련 Microsoft Defender for Endpoint API 호출에 대해 자세히 알아보습니다.
 keywords: 응답 api, 그래프 api, 지원되는 api, 배우, 알림, 장치, 사용자, 도메인, ip, 파일
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: a290c431f6d81b23896ddf77e7c7a47de378de22
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 36ed1f624fda7ae413ffbbf807925cf00e0a23ca
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185554"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933772"
 ---
 # <a name="supported-microsoft-defender-for-endpoint-query-apis"></a>끝점 쿼리 API에 대해 지원되는 Microsoft Defender 
 
@@ -44,7 +44,7 @@ ms.locfileid: "51185554"
 코드 실행 제한 | 악성 프로세스를 중지하여 공격을 포함하기 위해 이 API를 실행합니다. 또한 장치를 잠그고 잠재적인 악성 프로그램이 실행되지 않도록 할 수도 있습니다.
 코드 실행 제한 안 | 손상된 장치가 수정된 것이 확인된 후 응용 프로그램 제한 정책을 되돌리기 위해 이 정책을 실행합니다.
 바이러스 백신 검사 실행 | 바이러스 백신 검색을 원격으로 시작하여 손상된 장치에 있을 수 있는 맬웨어를 식별하고 수정합니다.
-파일 중지 및 검지 |  이 호출을 실행하여 실행 중인 프로세스를 중지하고, 파일을 검지하고, 레지스트리 키와 같은 지속성도 삭제합니다.
+파일을 중지하고 격리 |  이 호출을 실행하여 실행 중인 프로세스를 중지하고, 파일을 검지하고, 레지스트리 키와 같은 지속성도 삭제합니다.
 요청 샘플 | 특정 장치에서 파일의 샘플을 요청하려면 이 호출을 실행합니다. 파일은 장치에서 수집되고 보안 저장소에 업로드됩니다.
 파일 차단 | 잠재적으로 악의적인 파일 또는 의심되는 맬웨어를 금지하여 조직에서 공격이 추가로 전파되지 않도록 방지하려면 이 API를 실행합니다. 
 파일 차단 해제 | Microsoft Defender 바이러스 백신을 사용하여 조직에서 파일 실행을 허용합니다.

@@ -1,7 +1,7 @@
 ---
 title: 위협 및 취약성 관리의 노출 점수
 description: 위협 및 취약성 관리 노출 점수는 조직이 사이버 보안 위협에 얼마나 취약한지 반영합니다.
-keywords: 노출 점수, mdatp 노출 점수, mdatp tvm 노출 점수, 조직 노출 점수, tvm 조직 노출 점수, 위협 및 취약성 관리, 끝점용 Microsoft Defender
+keywords: 노출 점수, 끝점 노출 점수용 Microsoft Defender, Endpoint tvm 노출 점수용 Microsoft Defender, 조직 노출 점수, tvm 조직 노출 점수, 위협 및 취약성 관리, 끝점용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34c3122b017b14605fdbb3358f31f73e26361a4d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: fcea240fe1dc0ce97a2800391320b04c39c84336
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500123"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934108"
 ---
 # <a name="exposure-score---threat-and-vulnerability-management"></a>노출 점수 - 위협 및 취약성 관리
 

@@ -1,7 +1,7 @@
 ---
 title: 위협 및 취약점 관리
 description: 이 새로운 기능은 게임이 변화하는 위험 기반 접근 방식을 사용하여 끝점 취약성 및 잘못 구성을 검색, 우선 순위 지정 및 수정합니다.
-keywords: 위협 & 관리, 위협 및 취약성 관리, MDATP TVM, MDATP-TVM, 취약점 관리, 취약점 평가, 위협 및 취약점 검사, 보안 구성 평가, 끝점용 Microsoft Defender, Microsoft Defender atp, 끝점 취약성, 차세대
+keywords: 위협 & 관리, 위협 및 취약성 관리, Endpoint TVM용 Microsoft Defender, Endpoint-TVM용 Microsoft Defender, 취약점 관리, 취약점 평가, 위협 및 취약점 검사, 보안 구성 평가, 끝점용 Microsoft Defender, 끝점 취약성, 차세대
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: overview
 ms.technology: mde
-ms.openlocfilehash: e9c575aa8968b8cab2c5d91b9fe0b1cb46b292d3
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 474b8f032d32668eaea3a477da013c2b8e74019b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860764"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934168"
 ---
 # <a name="threat-and-vulnerability-management"></a>위협 및 취약점 관리
 

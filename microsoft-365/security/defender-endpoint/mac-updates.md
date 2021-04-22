@@ -1,7 +1,7 @@
 ---
-title: Mac용 끝점용 Microsoft Defender 업데이트 배포
-description: 엔터프라이즈 환경에서 Mac용 끝점용 Microsoft Defender에 대한 업데이트를 제어합니다.
-keywords: microsoft, defender, atp, mac, 업데이트, 배포
+title: Mac에서 끝점용 Microsoft Defender 업데이트 배포
+description: 엔터프라이즈 환경에서 Mac의 끝점용 Microsoft Defender에 대한 업데이트를 제어합니다.
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 업데이트, 배포
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9d373594771efe4eb647c007db3a26efe83e330e
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 886195de38856306d69932446eae34212fe4bb0d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860318"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934504"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender 업데이트 배포
 
@@ -33,7 +33,7 @@ ms.locfileid: "51860318"
 **적용 대상:**
 
 - [Microsoft Defender for Endpoint(macOS용)](microsoft-defender-endpoint-mac.md)
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)

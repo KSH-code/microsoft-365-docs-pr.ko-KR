@@ -1,7 +1,7 @@
 ---
-title: Microsoft Endpoint Configuration Manager를 사용한 온보더링
+title: Microsoft Endpoint Configuration Manager를 사용하여 온보딩
 description: Microsoft Endpoint Configuration Manager를 사용하여 끝점용 Microsoft Defender에 온보딩하는 방법 학습
-keywords: 온보링, 구성, 배포, 배포, 끝점 구성 관리자, mdatp, 고급 위협 방지, 수집 만들기, 끝점 감지 응답, 차세대 보호, 공격 표면 감소, Microsoft 끝점 구성 관리자
+keywords: 온보딩, 구성, 배포, 배포, 끝점 구성 관리자, Endpoint용 Microsoft Defender, 컬렉션 만들기, 끝점 감지 응답, 차세대 보호, 공격 표면 감소, Microsoft 끝점 구성 관리자
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -18,14 +18,14 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 31c946ccad84aca3b2fc86c95655cea9e66e182f
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 84273ce3e060eb86ee246a5cc6a8cae3cba743b5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186404"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934492"
 ---
-# <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용한 온보더링
+# <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager를 사용하여 온보딩
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -117,12 +117,12 @@ Microsoft Endpoint Configuration Manager 콘솔 내에서 온보더링 프로세
 ## <a name="step-2-configure-microsoft-defender-for-endpoint-capabilities"></a>2단계: 끝점용 Microsoft Defender 기능 구성 
 이 섹션에서는 Windows 장치에서 Microsoft Endpoint Configuration Manager를 사용하여 다음 기능을 구성하는 방법을 안내합니다.
 
-- [**끝점 감지 및 대응**](#endpoint-detection-and-response)
+- [**엔드포인트 검색 및 대응**](#endpoint-detection-and-response)
 - [**차세대 보호**](#next-generation-protection)
 - [**공격 표면 감소**](#attack-surface-reduction)
 
 
-### <a name="endpoint-detection-and-response"></a>끝점 감지 및 대응
+### <a name="endpoint-detection-and-response"></a>엔드포인트 감지 및 응답
 #### <a name="windows-10"></a>Windows 10
 Microsoft Defender 보안 센터 내에서 System Center Configuration Manager에서 정책을 만들고 이 정책을 Windows 10 장치에 배포하는 데 사용할 수 있는 '.onboarding' 정책을 다운로드할 수 있습니다.
 
@@ -389,4 +389,4 @@ Endpoint용 Defender의 공격 표면 감소 기조에는 Exploit Guard에서 �
 이제 감사 모드에서 제어된 폴더 액세스를 구성했습니다.
 
 ## <a name="related-topic"></a>관련 항목
-- [Microsoft Endpoint Manager를 사용한 온보드](onboarding-endpoint-manager.md)
+- [Microsoft Endpoint Manager를 사용하여 온보딩](onboarding-endpoint-manager.md)

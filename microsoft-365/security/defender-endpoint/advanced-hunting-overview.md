@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP의 고급 헌팅 개요
-description: Microsoft Defender ATP의 위협 헌팅 기능을 사용하여 네트워크에서 위협과 약점을 찾는 쿼리를 작성합니다.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, mdatp, microsoft defender atp, wdatp, 검색, 쿼리, 원격 분석, 사용자 지정 검색, schema, kusto, 표준 시간대, UTC
+title: 끝점용 Microsoft Defender의 고급 헌팅 개요
+description: 끝점용 Microsoft Defender의 위협 헌팅 기능을 사용하여 네트워크에서 위협과 약점을 찾는 쿼리를 작성합니다.
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, 끝점용 Microsoft Defender, 검색, 쿼리, 원격 분석, 사용자 지정 감지, schema, kusto, 표준 시간대, UTC
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9e5f29874ae42f2b82906a5ac0d2e615009d499f
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 114c0192f77411016fcb13ec2b912f4440ffa6e0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615486"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934360"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>고급 헌팅을 통해 위협을 사전 대응
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 
 >Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-advancedhunting-abovefoldlink)
 

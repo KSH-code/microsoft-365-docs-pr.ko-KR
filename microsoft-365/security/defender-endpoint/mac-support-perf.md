@@ -1,7 +1,7 @@
 ---
 title: macOS에서 끝점용 Microsoft Defender의 성능 문제 해결
 description: MacOS의 끝점용 Microsoft Defender에서 성능 문제를 해결합니다.
-keywords: microsoft, defender, atp, mac, 성능
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, mac, 성능
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8dfaf1dbf2c3742cc97060c7f9e811c83d0cb023
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: 623717e7b1a3149dbccf07d32200820a7f9083cb
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698223"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934252"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender의 성능 문제 해결
 
@@ -32,7 +32,7 @@ ms.locfileid: "51698223"
 
 **적용 대상:**
 
-- [MacOS의 끝점용 Microsoft Defender](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender for Endpoint(macOS용)](microsoft-defender-endpoint-mac.md)
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -66,7 +66,7 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
 
 2. 찾기를 열고 응용 **프로그램**  >  **유틸리티로 이동합니다.** 작업 **모니터를** 열고 시스템에서 리소스를 사용하는 응용 프로그램을 분석합니다. 일반적인 예로는 소프트웨어 업데이트 프로그램 및 컴파일러가 있습니다.
 
-1. 가장 많은 검색을 트리거하는 응용 프로그램을 찾기 위해 Mac용 끝점용 Defender에서 수집한 실시간 통계를 사용할 수 있습니다.
+1. 가장 많은 검색을 트리거하는 응용 프로그램을 찾으기 위해 Mac의 Endpoint용 Defender에서 수집한 실시간 통계를 사용할 수 있습니다.
 
       > [!NOTE]
       > 이 기능은 버전 100.90.70 이상에서 사용할 수 있습니다.

@@ -1,7 +1,7 @@
 ---
 title: 대시보드 인사이트 - 위협 및 취약성 관리
 description: 위협 및 취약점 관리 대시보드는 SecOps 및 보안 관리자가 사이버 보안 위협을 해결하고 조직의 보안 탄력성을 구축하는 데 도움이 될 수 있습니다.
-keywords: mdatp-tvm, mdatp-tvm 대시보드, 위협 & 취약성 관리, 위협 및 취약성 관리, 위험 기반 위협 & 취약점 관리, 보안 구성, 장치용 Microsoft 보안 점수, 노출 점수
+keywords: Endpoint-tvm용 Microsoft Defender, Endpoint-tvm 대시보드용 Microsoft Defender, 위협 & 취약성 관리, 위협 및 취약성 관리, 위험 기반 위협 & 취약성 관리, 보안 구성, 장치에 대한 Microsoft 보안 점수, 노출 점수
 search.appverid: met150
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 35dd300d828bfa48ad753d7c65f36b2555cf4f60
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 82b6123a99eb406918708c6bf23b870ef3bc3d79
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500170"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934144"
 ---
 # <a name="dashboard-insights---threat-and-vulnerability-management"></a>대시보드 인사이트 - 위협 및 취약성 관리
 

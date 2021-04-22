@@ -1,7 +1,7 @@
 ---
 title: 노출된 장치 헌팅
 description: 보안 관리자, IT 관리자 및 SecOps가 공동 작업을 하는 데 위협 및 취약성 관리를 사용하는 방법에 대해 자세히 알아보습니다.
-keywords: mdatp-tvm 시나리오, mdatp, tvm, tvm 시나리오, 위협 & 취약성 노출 감소, 위협 및 취약성 감소, 보안 구성 향상, 장치에 대한 Microsoft 보안 점수 증가, 장치용 Microsoft 보안 점수 증가& 장치용 Microsoft 보안 점수, 장치에 대한 Microsoft 보안 점수, 노출 점수, 보안 제어
+keywords: Endpoint-tvm 시나리오용 Microsoft Defender, 끝점용 Microsoft Defender, tvm, tvm 시나리오, 위협 & 취약성 노출 감소, 위협 및 취약성 감소, 보안 구성 향상, 장치용 Microsoft 보안 점수 증가, 장치용 Microsoft 보안 점수& 장치용 Microsoft 보안 점수, 노출 점수, 보안 제어
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b8e3a80e73d9847837ae0a1542e7d16ee8ae0f29
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: a9a8ebcc89c3009cd93fbb42f2a74bbb9ffcc31b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500087"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934096"
 ---
 # <a name="hunt-for-exposed-devices---threat-and-vulnerability-management"></a>노출된 장치 헌트 - 위협 및 취약성 관리
 

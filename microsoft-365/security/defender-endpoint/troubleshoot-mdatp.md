@@ -1,7 +1,7 @@
 ---
-title: 끝점 서비스 문제에 대한 Microsoft Defender 문제 해결
+title: 엔드포인트용 Microsoft Defender 서비스 문제 해결
 description: 서비스에 액세스하려고 할 때 서버 오류와 같은 알려진 문제에 대한 해결 방법과 해결 방법을 찾아야 합니다.
-keywords: 끝점에 대한 Microsoft Defender 문제 해결, Windows ATP 문제 해결, 서버 오류, 액세스 거부, 잘못된 자격 증명, 데이터 없음, 대시보드 포털, 허용, 이벤트 뷰어
+keywords: 끝점에 대한 Microsoft Defender 문제 해결, 서버 오류, 액세스 거부, 잘못된 자격 증명, 데이터 없음, 대시보드 포털, 허용, 이벤트 뷰어
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 112f682836da37ddfb51c103282518ff74563727
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 81f1b4154de25f6186679adc5b1f24f78f302415
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186020"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933760"
 ---
 # <a name="troubleshoot-service-issues"></a>서비스 문제 해결
 
@@ -80,7 +80,7 @@ Microsoft Defender [for](event-error-codes.md) Endpoint 서비스에서 보고�
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-troubleshoot-belowfoldlink)
 
 ## <a name="microsoft-defender-for-endpoint-tenant-was-automatically-created-in-europe"></a>Microsoft Defender for Endpoint 테넌트가 유럽에서 자동으로 생성되었습니다.
-Azure 보안 센터를 사용하여 서버를 모니터링하면 끝점 테넌트용 Microsoft Defender가 자동으로 만들어집니다. 끝점용 Microsoft Defender 데이터는 기본적으로 유럽에 저장됩니다.
+Azure Defender를 사용하여 서버를 모니터링하면 끝점 테넌트용 Microsoft Defender가 자동으로 만들어집니다. 끝점용 Microsoft Defender 데이터는 기본적으로 유럽에 저장됩니다.
 
 
 

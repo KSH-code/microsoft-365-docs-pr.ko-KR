@@ -2,7 +2,7 @@
 title: 개인 정보 보호 정보 - iOS의 끝점용 Microsoft Defender
 ms.reviewer: ''
 description: iOS의 끝점용 Microsoft Defender에 대한 개인 정보 보호 정보 설명
-keywords: microsoft, defender, atp, ios, 정책, 개요
+keywords: Microsoft, defender, Endpoint용 Microsoft Defender, ios, 정책, 개요
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,31 +18,31 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f5598df8a9e3493a1c4922f672468dd54e84c31e
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 15c22a6f6b581ff68488db6628f7647d49487652
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688204"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934288"
 ---
 # <a name="privacy-information---microsoft-defender-for-endpoint-on-ios"></a>개인 정보 보호 정보 - iOS의 끝점용 Microsoft Defender
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 > [!NOTE]
-> iOS용 끝점용 Defender는 VPN을 사용하여 웹 보호 기능을 제공합니다. 이는 일반 VPN이 아니며 장치 외부에서 트래픽을 취하지 않는 로컬 또는 자체 루프 VPN입니다. **Microsoft 또는 조직은 사용자의 검색 활동을 볼 수 없습니다.**
+> iOS의 끝점용 Defender는 VPN을 사용하여 웹 보호 기능을 제공합니다. 이는 일반 VPN이 아니며 장치 외부에서 트래픽을 취하지 않는 로컬 또는 자체 루프 VPN입니다. **Microsoft 또는 조직은 사용자의 검색 활동을 볼 수 없습니다.**
 
-iOS용 Endpoint용 Defender는 구성된 iOS 장치에서 정보를 수집하고 해당 정보를 끝점용 Defender가 있는 동일한 테넌트에 저장합니다. 이 정보는 iOS용 Endpoint용 Defender를 안전하고 최신으로 유지하며 예상대로 수행하고 서비스를 지원하기 위해 수집됩니다.
+iOS의 Endpoint용 Defender는 구성된 iOS 장치에서 정보를 수집하고 Endpoint용 Defender가 있는 동일한 테넌트에 저장합니다. 이 정보는 iOS에서 끝점에 대한 Defender를 안전하고 최신으로 유지하며 예상대로 수행하고 서비스를 지원하기 위해 수집됩니다.
 
 데이터 저장소에 대한 자세한 내용은 끝점 데이터 저장소 및 개인 정보 보호를 위한 [Microsoft Defender를 참조하세요.](data-storage-privacy.md)
 
 ## <a name="required-data"></a>필수 데이터 
 
-필수 데이터는 iOS용 Endpoint용 Defender가 예상대로 작동하게 하는 데 필요한 데이터로 구성됩니다. 이 데이터는 서비스 운영에 필수적으로 사용하며 최종 사용자, 조직, 장치 및 앱과 관련된 데이터를 포함할 수 있습니다. 
+필수 데이터는 iOS의 끝점에 대한 Defender가 예상대로 작동하게 하는 데 필요한 데이터로 구성됩니다. 이 데이터는 서비스 운영에 필수적으로 사용하며 최종 사용자, 조직, 장치 및 앱과 관련된 데이터를 포함할 수 있습니다. 
 
 수집되는 데이터 형식 목록은 다음과 같습니다. 
 

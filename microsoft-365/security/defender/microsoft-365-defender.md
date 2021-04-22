@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender
 description: Microsoft 365 Defender는 장치, ID, 데이터 및 응용 프로그램을 보호하도록 설계된 조정된 위협 방지 솔루션입니다.
-keywords: Microsoft 위협 방지, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅 소개
+keywords: MMicrosoft 365 Defender 소개, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, ID, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화된 조사 및 수정, 고급 헌팅
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 86bc6ef03438b637f62cf0e2a46e418dbea7a3c1
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: 32defdf459ec65ba0fd268a5a7c84851e9014efa
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650281"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934048"
 ---
 # <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
@@ -92,7 +92,7 @@ Microsoft 365 Defender 제품 간 기능은 다음과 같습니다.
 - **제품** 간 위협 헌팅 - 보안 팀은 다양한 보호 제품에서 수집한 원시 데이터에 대해 자체 사용자 지정 쿼리를 만들어 고유한 조직 지식을 활용하여 손상 징후를 찾을 수 있습니다. Microsoft 365 Defender는 끝점 및 Office 365용 Microsoft Defender 데이터에서 30일 동안의 기록 원시 신호 및 경고 데이터에 대한 쿼리 기반 액세스를 제공합니다. 
 
 
-## <a name="get-started"></a>시작하기
+## <a name="get-started"></a>시작
 의 Microsoft 365 보안 센터에서 서비스를 사용하도록 설정하려면 먼저 Microsoft 365 Defender 라이선스 요구 [사항을 security.microsoft.com.](https://security.microsoft.com) 자세한 내용은 다음을 참조하십시오.
 - [라이선스 요구 사항](prerequisites.md#licensing-requirements)
 - [Microsoft 365 Defender 켜기](m365d-enable.md)

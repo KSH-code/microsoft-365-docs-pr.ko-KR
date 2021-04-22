@@ -1,7 +1,7 @@
 ---
 title: 그룹 정책 개체를 사용하여 끝점용 Microsoft Defender 관리
 description: 그룹 정책 개체를 사용하여 끝점용 Microsoft Defender를 관리하는 방법 학습
-keywords: 마이그레이션 후, 관리, 운영, 유지 관리, 사용률, PowerShell, windows defender Advanced Threat Protection, atp, edr
+keywords: 마이그레이션 후, 관리, 운영, 유지 관리, 사용률, PowerShell, 끝점용 Microsoft Defender, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: 6d10bd932d9414f1460076d3fe7ca8dbed8041a6
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 1b8f2e7c7435f2161f7261722795b35ca848ec2f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185662"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934240"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-group-policy-objects"></a>그룹 정책 개체를 사용하여 끝점용 Microsoft Defender 관리
 
@@ -52,7 +52,7 @@ Azure Active Directory 도메인 서비스의 그룹 정책 개체를 사용하�
 |**사용자 및 컴퓨터 개체에 대한 설정 관리** <br/><br/>*기본 제공 그룹 정책 개체를 사용자 지정하거나 조직의 요구 사항에 맞게 사용자 지정 그룹 정책 개체 및 조직 구성 단위를 만들 수 있습니다.*     |[Azure Active Directory 도메인 서비스 관리 도메인에서 그룹 정책 관리](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy)   |
 |**Microsoft Defender 바이러스 백신 구성** <br/><br/>*조직 & 정책 설정, 제외, 수정 및 예약된 검사(끝점이라고도 하는 검사)를 비롯한 바이러스 백신 기능을 구성합니다.*   |[그룹 정책 설정을 사용하여 Microsoft Defender 바이러스 백신 구성 및 관리](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus) <br/><br/>[그룹 정책을 사용하여 클라우드 제공 보호 사용](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus#use-group-policy-to-enable-cloud-delivered-protection)      |
 |**조직의 공격 표면 감소 규칙 관리** <br/><br/>*폴더에 있는 파일을 제외하거나 사용자 & 알림에 사용자 지정 텍스트를 추가하여 공격 표면 감소 규칙을 사용자 지정합니다.* |[그룹 정책 개체를 사용하여 공격 표면 감소 규칙 사용자 지정](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/customize-attack-surface-reduction#use-group-policy-to-exclude-files-and-folders) |
-|**Exploit Protection 설정 관리**<br/><br/>*Exploit Protection 설정을 사용자 지정하고 구성 파일을 가져온 다음 그룹 정책을 사용하여 해당 구성 파일을 배포할 수 있습니다.*  |[Exploit Protection 설정 사용자 지정](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/customize-exploit-protection) <br/><br/>[Exploit Protection 구성 가져오기, 내보내기 및 배포](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/import-export-exploit-protection-emet-xml)<br/><br/>[그룹 정책을 사용하여 구성 배포](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/import-export-exploit-protection-emet-xml#use-group-policy-to-distribute-the-configuration)  |
+|**Exploit Protection 설정 관리**<br/><br/>*Exploit Protection 설정을 사용자 지정하고 구성 파일을 가져온 다음 그룹 정책을 사용하여 해당 구성 파일을 배포할 수 있습니다.*  |[Exploit Protection 설정 사용자 지정](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/customize-exploit-protection) <br/><br/>[악용 보호 구성 가져오기, 내보내기 및 배포하기](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/import-export-exploit-protection-emet-xml)<br/><br/>[그룹 정책을 사용하여 구성 배포](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/import-export-exploit-protection-emet-xml#use-group-policy-to-distribute-the-configuration)  |
 |**직원이 인터넷에서** 악성 콘텐츠를 사용하는 앱을 사용하지 못하도록 네트워크 보호를 사용하도록 설정 <br/><br/>*테스트 환경에서 [네트워크](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/evaluate-network-protection) 보호를 위해 먼저 감사 모드를 사용하여 롤아웃하기 전에 차단되는 앱을 보는 것이 좋습니다.* |[그룹 정책을 사용하여 네트워크 보호 켜기](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/enable-network-protection#group-policy)  |
 |**랜섬웨어로부터 보호하도록** 제어된 폴더 액세스 구성 <br/><br/>*[제어된 폴더 액세스를](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/controlled-folders) 랜섬웨어 방지 보호라고도 합니다.*  |[그룹 정책을 사용하여 제어된 폴더 액세스 사용](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/enable-controlled-folders#group-policy) |
 |**Microsoft Defender SmartScreen을 구성하여** 인터넷의 악성 사이트 및 파일로부터 보호합니다.  |[그룹 정책을 사용하여 Microsoft Defender SmartScreen 그룹 정책 및 MDM(모바일 장치 관리) 설정 구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-available-settings#group-policy-settings)  |

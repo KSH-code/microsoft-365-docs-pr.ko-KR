@@ -1,7 +1,7 @@
 ---
-title: ID로 소프트웨어 다운로드
+title: ID별 소프트웨어 가져오기
 description: 장치 그룹당 노출 점수 목록을 검색합니다.
-keywords: api, 그래프 api, 지원되는 api, get, software, mdatp tvm api
+keywords: api, 그래프 api, 지원되는 api, get, software, Endpoint tvm api용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,14 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 57d6ccd2c5387d478b75cfb6fb32a5b1052e491c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 31203e83570dbeb2404c9f1578301b5d6c18223c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198592"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934312"
 ---
-# <a name="get-software-by-id"></a>ID로 소프트웨어 다운로드
+# <a name="get-software-by-id"></a>ID별 소프트웨어 가져오기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -63,7 +63,7 @@ GET /api/Software/{Id}
 성공하면 이 메서드는 본문에 지정된 소프트웨어 데이터를 사용하여 200 OK를 반환합니다. 
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

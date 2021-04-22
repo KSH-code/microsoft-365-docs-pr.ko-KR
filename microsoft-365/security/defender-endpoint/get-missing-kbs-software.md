@@ -1,7 +1,7 @@
 ---
 title: 소프트웨어 ID로 누락된 KB 다운로드
 description: 소프트웨어 ID로 누락된 보안 업데이트 검색
-keywords: api, 그래프 api, 지원되는 api, get, 목록, 파일, 정보, 소프트웨어 ID, 위협 & 취약성 관리 api, mdatp tvm api
+keywords: api, 그래프 api, 지원되는 api, get, 목록, 파일, 정보, 소프트웨어 ID, 위협 & 취약성 관리 api, 끝점 tvm api용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: e5d84a3eadab85713779dd70848bc11d27484dcc
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 25ac8ce2c9fb17b2576f86dae1da984865b19018
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499387"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933892"
 ---
 # <a name="get-missing-kbs-by-software-id"></a>소프트웨어 ID로 누락된 KB 다운로드
 
@@ -64,7 +64,7 @@ GET /api/Software/{Id}/getmissingkbs
 
 성공하면 이 메서드는 지정된 소프트웨어에 본문에 kb 데이터가 누락된 200 OK를 반환합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 ### <a name="request"></a>요청
 

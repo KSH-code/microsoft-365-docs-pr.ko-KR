@@ -1,7 +1,7 @@
 ---
-title: 목록 소프트웨어
+title: 소프트웨어 목록
 description: 소프트웨어 인벤토리 목록을 검색합니다.
-keywords: api, 그래프 api, 지원되는 api, get, 목록, 파일, 정보, 소프트웨어 인벤토리, 위협 & 취약성 관리 api, mdatp tvm api
+keywords: api, 그래프 api, 지원되는 api, 다운로드, 목록, 파일, 정보, 소프트웨어 인벤토리, 위협 & 취약성 관리 api, 끝점 tvm api용 Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 867fb57f61bd98b7c0afabd20b27e68d6bf45ef7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 6522b546dfde7447a03b3c417be93d288e261908
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198568"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934012"
 ---
 # <a name="list-software-inventory-api"></a>소프트웨어 인벤토리 목록 API
 
@@ -62,7 +62,7 @@ GET /api/Software
 성공하면 이 메서드는 본문에 소프트웨어 인벤토리가 있는 200 OK를 반환합니다.
 
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 

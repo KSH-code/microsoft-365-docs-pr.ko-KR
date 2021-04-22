@@ -1,7 +1,7 @@
 ---
 title: 비영구 가상 데스크톱 인프라(VDI) 장치 온보딩
-description: 끝점용 Microsoft Defender 서비스에 온보딩할 수 있도록 VDI(가상 데스크톱 인프라) 장치에 구성 패키지를 배포합니다.
-keywords: VDI(가상 데스크톱 인프라) 장치 구성, vdi, 장치 관리, Windows ATP 끝점 구성, 끝점용 Microsoft Defender 구성
+description: 끝점 서비스용 Microsoft Defender에 온보딩할 수 있도록 VDI(가상 데스크톱 인프라) 장치에 구성 패키지를 배포합니다.
+keywords: VDI(가상 데스크톱 인프라) 장치 구성, vdi, 장치 관리, 끝점용 Microsoft Defender 구성, 끝점
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 1e970be7967e221c29017be804a98770a778654f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 3872be343e51c4e28f946192256932b048a23791
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892796"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933904"
 ---
 # <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>비영구 가상 데스크톱 인프라(VDI) 장치 온보딩
 

@@ -1,7 +1,7 @@
 ---
 title: 그룹 정책을 통해 끝점용 Microsoft Defender에 Windows 10 장치 온보딩
 description: 그룹 정책을 사용하여 Windows 10 장치에 구성 패키지를 배포하여 서비스에 온보드합니다.
-keywords: 그룹 정책을 사용하여 장치 구성, 장치 관리, Windows ATP 장치 구성, 끝점 장치용 Microsoft Defender 온보딩, 그룹 정책
+keywords: 그룹 정책, 장치 관리를 사용하여 장치 구성, 끝점 장치용 Microsoft Defender 구성, 끝점 장치용 Microsoft Defender 온보딩, 그룹 정책
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: b839cf204e8ab042e0c88a8f8c48df79770e7b4f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: b8f56c8f2ba92073ea7ae9464f199d9c900b932f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893637"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933964"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>그룹 정책을 사용하여 Windows 10 장치 온보드 
 

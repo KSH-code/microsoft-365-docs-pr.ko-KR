@@ -1,7 +1,7 @@
 ---
 title: 위협 및 취약성 관리의 보안 권장 사항
 description: 위협 및 취약성 관리에서 위협에 의해 우선 순위가 지정될 수 있는 보안 권장 사항, 위반 가능성 및 가치를 얻습니다.
-keywords: 위협 및 취약성 관리, mdatp tvm 보안 권장, 사이버 보안 권장, 실행 가능한 보안 권장
+keywords: 위협 및 취약성 관리, 끝점 tvm 보안 권장, 사이버 보안 권장, 실행 가능한 보안 권장
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 97d496271c1ef7185419f7d39956da0429f070aa
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: af22bac911339de9c2e02df24a77c1889a33d43a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500485"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933736"
 ---
 # <a name="security-recommendations---threat-and-vulnerability-management"></a>보안 권장 사항 - 위협 및 취약성 관리
 
