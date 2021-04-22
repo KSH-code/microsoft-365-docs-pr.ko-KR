@@ -2,7 +2,7 @@
 title: Microsoft 365 보안 센터의 Office 365용 Microsoft Defender
 description: Office 365 보안 및 규정 준수 센터에서 Microsoft 365 보안 센터로의 변경에 대해 자세히 알아보겠습니다.
 keywords: Microsoft 365 보안, Microsoft 365 보안 센터 시작, Office 365용 Microsoft Defender, 끝점용 Microsoft Defender, MDO, MDE, 단일 창, 새 보안 포털, 새 Defender 보안 포털
-ms.date: 02/02/2021
+ms.date: 02/21/2021
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 980a384d3c4fd44a368f35d6f885ea0c8288376a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b5decd562509d134899b85b380791087a913cd58
+ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935416"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51943068"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 Office 365용 Microsoft Defender
 
@@ -64,6 +64,9 @@ Office 365 보안 및 규정 준수 포털(protection.office.com)에 익숙한 �
 
 > [!IMPORTANT]
 > Microsoft 365 보안 포털(https://security.microsoft.com)에서 https://securitycenter.windows.com 및 https://protection.office.com보안 기능을 결합합니다. 그러나 표시되는 내용은 구독에 따라 다를 수 있습니다. 예를 들어 독립 실행형 구독으로 Office 365용 Microsoft Defender 플랜 1 또는 2만 있는 경우 엔드포인트용 보안과 관련된 기능이 표시되지 않으며 Office용 Defender 플랜 1 고객에게는 위협 분석과 같은 항목이 표시되지 않습니다.
+
+> [!TIP]
+>  EOP는 Office 365용 Defender의 핵심 요소인 모든 EOP(Exchange Online Protection) 기능이 Microsoft 365 보안 센터에 포함됩니다.
 
 ## <a name="microsoft-365-security-center-home-page"></a>Microsoft 365 보안 센터 홈페이지
 

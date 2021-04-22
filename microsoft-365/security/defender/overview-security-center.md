@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: f3920942925efbe334df84370c61fbe6a98ad49f
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: f9bb0690cf48c4cc694c0d563ba7d4203953358a
+ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939267"
+ms.locfileid: "51943056"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>통합된 Microsoft 365 보안 센터 개요
 
@@ -50,6 +50,9 @@ Office 365 보안 및 준수 센터 또는 Microsoft Defender 보안 센터에�
 
 - [Microsoft 365 보안 센터의 Office 365용 Defender](microsoft-365-security-center-mdo.md)
 - [Microsoft 365 보안 센터의 엔드포인트용 Defender](microsoft-365-security-center-mde.md)
+
+> [!NOTE]
+> Microsoft 365 보안 포털은 기존 역할 기반 액세스를 사용 및 적용하며, 각 보안 모델을 통합 포털로 이동합니다. 수렴형 각 워크로드(예: MDO 또는 MDE)에는 자체 역할 기반 액세스 권한이 있습니다. 제품에 이미 있는 역할은 자동으로 Microsoft 365 보안 포털로 수렴됩니다. 그러나 MCAS에 대한 역할 및 사용 권한은 MCAS에서 계속 처리됩니다.
 
 ## <a name="what-to-expect"></a>예상할 일
 

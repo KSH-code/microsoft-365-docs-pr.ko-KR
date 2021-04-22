@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrisda
 author: chrisda
 manager: dansimp
-ms.date: ''
+ms.date: 04/21/2021
 audience: ITPro
 ms.topic: how-to
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for Office 365 계획 2에서 사용자 태그를 사용하여 특정 사용자 그룹을 식별하는 방법을 배울 수 있습니다. 태그 필터링은 Microsoft Defender for Office 365의 경고, 보고서 및 조사에서 사용할 수 있으며, 태그가 지정된 사용자를 빠르게 식별할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4c439dcb91831475bc10da4a01d0fa29e7aae359
-ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
+ms.openlocfilehash: 2c1dc426bae77cd35b567bf166032855327a8ffe
+ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51632205"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51943014"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 사용자 태그
 
@@ -49,6 +49,9 @@ ms.locfileid: "51632205"
 이 문서에서는 보안 및 준수 센터에서 사용자 태그를 & 설명합니다. 보안 및 준수 센터에는 사용자 태그를 & cmdlet이 없습니다.
 
 사용자 태그가 영향력이 큰 사용자 계정을 보호하는 데 도움이 되는 전략의 일부인 방법을 자세한 내용은 [Microsoft 365의](security-recommendations-for-priority-accounts.md)우선 순위 계정에 대한 보안 권장 사항을 참조하세요.
+
+> [!NOTE]
+> 통합 Microsoft 365 보안 센터를 사용하는 경우 에서 태그를 설정할 수 https://security.microsoft.com/userTags 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 

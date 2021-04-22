@@ -10,6 +10,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
+ms.date: 04/21/2021
 audience: ITPro
 ms.topic: article
 search.appverid:
@@ -18,12 +19,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: c8e38e3f22b48b58ea7fb1a4a6f000c80c170675
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: bad31160bb27c79f672ddd28a5fced3bf8c2ee1b
+ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934408"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51943044"
 ---
 # <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 끝점용 Microsoft Defender
 
@@ -85,6 +86,9 @@ Microsoft 365 보안 센터의 끝점용 Microsoft Defender는 Microsoft Defende
 
 > [!NOTE]
 > **자동 조사 및 수정은** 이제 인시던트의 일부입니다. 인시던트 및 조사 탭에서 **자동화된 조사 및 수정 이벤트를 > 있습니다.**
+
+> [!TIP]
+> 디바이스 검색은 끝점 및 검색에서 > 수행됩니다.
 
 ### <a name="access-and-reporting"></a>액세스 및 보고
 
