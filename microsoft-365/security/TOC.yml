@@ -129,15 +129,15 @@
                   href: defender/incidents-overview.md
                 - name: 인시던트 우선 순위 지정
                   href: defender/incident-queue.md
-                - name: 인시던트 조사
+                - name: 인시던트 관리
+                  href: defender/manage-incidents.md
+                - name: 사고 대응
                   items:
-                    - name: 인시던트 조사
+                    - name: 인시던트 분석
                       href: defender/investigate-incidents.md
-                    - name: 인시던트 관리
-                      href: defender/manage-incidents.md
-                    - name: 경고 조사
+                    - name: 알림 분석
                       href: defender/investigate-alerts.md
-                    - name: Microsoft 365 보안 센터에서 사용자 조사
+                    - name: 사용자 분석
                       href: defender/investigate-users.md
                 - name: 이메일 알림
                   href: defender/get-incident-notifications.md
