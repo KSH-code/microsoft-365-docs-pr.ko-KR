@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 51d33ea9a372b5bfe017f4c3544e0d6413d53001
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: a78f37d8c1fed1063095e25f19136f0362f17db7
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935836"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952659"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>이동 헌트로 엔터티 또는 이벤트 정보를 빠르게 헌팅
 
@@ -34,6 +34,7 @@ ms.locfileid: "51935836"
 
 **적용 대상:**
 - Microsoft 365 Defender
+- 끝점용 Microsoft Defender
 
 이동 *헌트 작업을* 사용하면 강력한 쿼리 기반 고급 헌팅 기능을 사용하여 이벤트 및 다양한 엔터티 유형을 신속하게 조사할 [수](advanced-hunting-overview.md) 있습니다. 이 작업은 고급 헌팅 쿼리를 자동으로 실행하여 선택한 이벤트 또는 엔터티에 대한 관련 정보를 검색합니다.
 
@@ -106,6 +107,9 @@ Timestamp between ((selectedTimestamp - 1h) .. (selectedTimestamp + 1h))
 쿼리를 수정하여 보다 관련성 높은 결과를 얻을 수 있습니다.
 - [결과를 차트로 보기](advanced-hunting-query-results.md#view-query-results-as-a-table-or-chart)
 - [사용자 지정 검색 규칙 만들기](custom-detection-rules.md)
+
+>[!NOTE]
+>이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Microsoft 365 Defender를 켜서](m365d-enable.md) 더 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 Microsoft Defender의 고급 헌팅 쿼리 마이그레이션의 단계에 따라 끝점용 [Microsoft Defender에서 Microsoft](advanced-hunting-migrate-from-mde.md)365 Defender로 고급 헌팅 워크플로를 이동할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)

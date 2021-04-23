@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7db7607d3ed9d6f1b215fb842d5b6dd2415a770a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: abc6b561c2fca8106397b1656432628c983e2ece
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934900"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952695"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>고급 헌팅 쿼리 모범 사례
 
@@ -263,6 +263,9 @@ SHA256,ThreatTypes,DetectionMethods
 | IPv6 주소 | [parse_ipv6()](/azure/data-explorer/kusto/query/parse-ipv6function)  | IPv4 또는 IPv6 주소를 정형 IPv6로 변환합니다. IPv6 주소를 비교하기 위해 [ipv6_compare() 를 사용합니다.](/azure/data-explorer/kusto/query/ipv6-comparefunction) |
 
 지원되는 모든 구문 분석 함수에 대한 자세한 내용은 [Kusto 문자열 함수 를 읽어 보아야 합니다.](/azure/data-explorer/kusto/query/scalarfunctions#string-functions) 
+
+>[!NOTE]
+>이 문서의 일부 테이블은 끝점용 Microsoft Defender에서 사용할 수 없습니다. [Microsoft 365 Defender를 켜서](m365d-enable.md) 더 많은 데이터 원본을 사용하여 위협을 헌팅합니다. Endpoint용 Microsoft Defender에서 Microsoft Defender의 고급 헌팅 쿼리 마이그레이션의 단계에 따라 끝점용 [Microsoft Defender에서 Microsoft](advanced-hunting-migrate-from-mde.md)365 Defender로 고급 헌팅 워크플로를 이동할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [Kusto 쿼리 언어 설명서](/azure/data-explorer/kusto/query/)

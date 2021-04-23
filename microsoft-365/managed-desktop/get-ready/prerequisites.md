@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: fcfddadf13e000156fa5431cc30bc72f4f3537e2
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: e4469d8abcfa8308c64e2efa7f7dc4f0156e5718
+ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51581049"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51957530"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 필수 구성 요소
 
@@ -27,7 +27,7 @@ ms.locfileid: "51581049"
 
 영역 | 선행 세부 정보
 --- | ---
-라이선싱 |Microsoft Managed Desktop에는 사용자에게 할당된 끝점용 Microsoft Defender(또는 이에 상응하는 라이선스)가 있는 Microsoft 365 E3 라이선스가 필요합니다. 테넌트에서 Azure Active Directory Premium 2용 라이선스 두 개를 사용할 수 있어야 하지만 사용자는 이 라이선스가 필요하지 않습니다. <br>특정 서비스 계획에 대한 자세한 내용은 이 항목의 [라이선스에](#more-about-licenses) 대한 자세한 내용을 참조하세요.<br>사용 가능한 라이선스에 대한 자세한 내용은 [Microsoft 365 라이선스를 참조하세요.](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)
+라이선싱 |Microsoft Managed Desktop에는 사용자에게 할당된 끝점용 Microsoft Defender(또는 이에 상응하는 라이선스)가 있는 Microsoft 365 E3 라이선스가 필요합니다.<br>특정 서비스 계획에 대한 자세한 내용은 이 항목의 [라이선스에](#more-about-licenses) 대한 자세한 내용을 참조하세요.<br>사용 가능한 라이선스에 대한 자세한 내용은 [Microsoft 365 라이선스를 참조하세요.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
 연결 |  모든 Microsoft Managed Desktop 장치에는 회사 네트워크의 다양한 Microsoft 서비스 끝점에 연결해야 합니다.<br><br>필수 IP 및 URL의 전체 목록은 네트워크 구성 [을 참조하세요.](../get-ready/network.md) 
 Azure Active Directory |    Azure AD(Azure Active Directory)는 모든 사용자 계정에 대한 권한 원본이거나, 지원되는 최신 버전의 Azure AD Connect를 사용하여 사용자 계정을 사내 Active Directory에서 동기화해야 합니다.<br><br>[Microsoft Managed Desktop](/azure/active-directory/devices/enterprise-state-roaming-overview) 사용자에 대해 엔터프라이즈 상태 로밍을 사용하도록 설정해야 합니다.<br><br>자세한 내용은 [Azure AD Connect를 참조하세요.](/azure/active-directory/hybrid/whatis-azure-ad-connect)<br><br>지원되는 Azure AD Connect 버전에 대한 자세한 내용은 [Azure AD Connect:Version 릴리스 기록을 참조하세요.](/azure/active-directory/hybrid/reference-connect-version-history)
 인증 |    Azure AD가 사용자 계정에 대한 기본 인증의 원본이 아닌 경우 Azure AD Connect에서 다음 중 하나를 구성해야 합니다.<br>- 암호 해시 동기화<br>- 통과 인증<br>- Azure AD 통합 요구 사항을 충족하도록 구성된 외부 ID 공급자(Windows Server ADFS 및 비 Microsoft IDP 포함) 자세한 내용은 [지침을](https://www.microsoft.com/download/details.aspx?id=56843) 참조하세요. <br><br>Azure AD Connect를 사용하여 인증 옵션을 설정할 때 암호 쓰기 저장도 권장됩니다. 자세한 내용은 암호 쓰기 [저장 을 참조하세요.](/azure/active-directory/authentication/howto-sspr-writeback) <br><br>외부 ID 공급자가 구현된 경우 솔루션의 유효성을 검사해야 합니다.<br>- Azure AD 통합 요구 사항 충족<br>- Microsoft Managed Desktop 장치 준수 정책을 구성할 수 있는 Azure AD 조건부 액세스를 지원<br>- Microsoft Managed Desktop의 일부로 필요한 Microsoft 365 서비스 또는 기능을 장치 등록 및 사용할 수 있습니다. <br><br>Azure AD의 인증 옵션에 대한 자세한 내용은 Azure AD Connect 사용자 로그인 [옵션을 참조하세요.](/azure/active-directory/connect/active-directory-aadconnect-user-signin)

@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a3885a462265368bc42c758ee5a8fd1c673ec08c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c8f25b924109823951c331fe744b548d372eaf11
+ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932802"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51957620"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>장치 프록시 및 인터넷 연결 설정 구성
 
@@ -60,6 +60,7 @@ WinHTTP 구성 설정은 WinINet(Windows Internet) 인터넷 검색 프록시 �
 
 > [!NOTE]
 > - Windows 10 또는 Windows Server 2019에서 이 옵션을 사용하는 경우 다음 빌드 및 누적 업데이트 롤업을 사용하는 것이 좋습니다.</br>
+> Windows 10 버전 1809 또는 Windows Server 2019 - https://support.microsoft.com/kb/5001384 <br>
 > Windows 10 버전 1909 - https://support.microsoft.com/kb/4601380</br>
 > Windows 10 버전 2004 - https://support.microsoft.com/kb/4601382</br>
 > Windows 10 버전 20H2 - https://support.microsoft.com/kb/4601382</br>

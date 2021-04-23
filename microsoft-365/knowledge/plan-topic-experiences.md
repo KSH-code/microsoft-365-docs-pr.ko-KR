@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목 계획 방법 학습
-ms.openlocfilehash: 19baf8bdcfdd1fe38d64e3c2f259ace1ceab5a4b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d64e4b341fe96d7aa3636f58bffe3dd8f388838e
+ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925979"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51957542"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva 항목 계획
 
@@ -70,6 +70,9 @@ Site name,URL
 ## <a name="user-permissions"></a>사용자 권한
 
 사용자가 지정하는 사용자 권한에 따라 조직의 사용자가 항목과 상호 작용하는 사용자와 사용자가 할 수 있는 작업을 결정할 수 있습니다.
+
+> [!Note] 
+> 현재 Viva Topics는 게스트(외부) 사용자에 대한 라이선스 또는 사용자 권한 제공을 지원하지 않습니다. 
 
 *항목 관리*
 

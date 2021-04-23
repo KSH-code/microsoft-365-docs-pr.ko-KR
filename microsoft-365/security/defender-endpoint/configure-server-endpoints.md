@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4eea2931196c192620812c1609c506e1fb99093d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 17aca5fb388aef26504902ee63b22410420c8827
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932956"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952491"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>끝점용 Microsoft Defender 서비스에 Windows 서버 온보딩
 
@@ -194,7 +194,7 @@ Endpoint용 Defender는 Azure Defender와 통합하여 포괄적인 Windows 서�
 
 이 통합에는 다음과 같은 기능이 포함됩니다.
 
-- 자동 온보딩 - Azure Defender에 온보딩된 Windows Server에서 Endpoint용 Defender 센서가 자동으로 활성화됩니다. Azure Defender 온보딩에 대한 자세한 내용은 강화된 보안을 위해 [Azure Defender Standard에 온보딩을 참조하세요.](https://docs.microsoft.com/azure/security-center/security-center-onboarding)
+- 자동 온보딩 - Azure Defender에 온보딩된 Windows Server에서 Endpoint용 Defender 센서가 자동으로 활성화됩니다. Azure Defender 온보딩에 대한 자세한 내용은 [통합된 끝점용 Microsoft Defender 라이선스 사용을 참조하세요.](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
 
     > [!NOTE]
     > Windows [Server 2019 및 WVD(Windows Virtual Desktop)를](https://docs.microsoft.com/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)지원하기 위해 서버용 Azure Defender와 끝점용 Microsoft Defender 간의 통합이 확장됩니다.
@@ -338,7 +338,8 @@ OPINSIGHTS_WORKSPACE_KEY=<your workspace key>== AcceptEndUserLicenseAgreement=1"
 
 :::image type="content" source="images/startupprops.png" alt-text="속성 시작":::
 
-여기에서 실행할 파일의 이름은 c:\windows\MMA\DeployMMA.cmd 서버가 시작 프로세스의 일부로 다시 시작되면 고객 환경 및 진단 원격 분석 KB에 대한 업데이트를 설치한 다음 MMAAgent를 설치하고 작업 영역 ID와 키를 설정하고 서버가 온보드됩니다.
+여기서 실행할 파일의 이름은 c:\windows\MMA\DeployMMA.cmd입니다.
+시작 프로세스의 일부로 서버를 다시 시작하면 고객 환경 및 진단 원격 분석 KB에 대한 업데이트가 설치된 다음 MMA 에이전트를 설치하고 작업 영역 ID 및 키를 설정하면 서버가 온보드됩니다.
 
 모든 서버를 다시  시작하지 않을 경우 즉시 작업을 사용하여 deployMMA.cmd를 실행할 수도 있습니다.
 이 단계는 두 단계로 수행될 수 있습니다. **먼저** GPO에서 파일 및 폴더 만들기 - GPO가 적용되고 모든 서버에 설치 파일이 있도록 시스템 시간을 제공합니다. 그런 다음 직접 작업을 추가합니다. 이렇게 하면 다시 재부팅하지 않고도 동일한 결과를 얻을 수 있습니다.

@@ -20,16 +20,21 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d8d165f39c45bd235800dc951d50934b47dd7ff5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 32d50103c6476a89f24568edeea75a206e37e227
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935452"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952683"
 ---
 # <a name="handle-advanced-hunting-errors"></a>고급 헌팅 오류 처리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
+
+**적용 대상:**
+- Microsoft 365 Defender
+- 끝점용 Microsoft Defender
 
 
 고급 헌팅은 구문 실수를 알리는 오류를 표시하고 쿼리가 미리 정의된 할당량 및 사용 매개 변수에 적중될 때마다 를 [나타냅니다.](advanced-hunting-limits.md) 오류를 해결하거나 방지하는 방법에 대한 팁은 아래 표를 참조하세요.
@@ -43,6 +48,8 @@ ms.locfileid: "51935452"
 | 결과 크기 제한 초과  | 쿼리에 대한 결과 집합의 집계 크기가 최대 크기를 초과했습니다. 이 오류는 결과 집합이 너무 커서 10,000 레코드 제한에서 잘라 내어 허용되는 크기로 줄일 수 없는 경우 발생할 수 있습니다. 콘텐츠가 세분화될 수 있는 여러 열이 있는 결과는 이 오류의 영향을 더 많이 하게 됩니다. | [쿼리 최적화](advanced-hunting-best-practices.md) | `Result size limit exceeded. Use "summarize" to aggregate results, "project" to drop uninteresting columns, or "take" to truncate results.` |
 | 과도한 리소스 소비 | 쿼리에서 과도한 양의 리소스를 사용하며 완료가 중지되었습니다. 경우에 따라 고급 헌팅은 최적화되지 않은 특정 연산자를 식별합니다. | [쿼리 최적화](advanced-hunting-best-practices.md) | -`Query stopped due to excessive resource consumption.`<br>-`Query stopped. Adjust use of the <operator name> operator to avoid excessive resource consumption.` |
 | 알 수 없는 오류 | 알 수 없는 이유로 인해 쿼리가 실패했습니다. | 쿼리를 다시 실행하십시오. 쿼리에서 알 수 없는 오류가 계속 반환될 경우 포털을 통해 Microsoft에 문의합니다. | `An unexpected error occurred during query execution. Please try again in a few minutes.`
+
+
 
 ## <a name="related-topics"></a>관련 항목
 - [고급 헌팅 모범 사례](advanced-hunting-best-practices.md)

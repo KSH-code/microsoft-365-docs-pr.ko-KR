@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: bf635ed03cb0d99d54fc94b622bf244447b32a80
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 748b3534ef1f6ca5736667fc3910bb9fa96d23ff
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935704"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952539"
 ---
 # <a name="custom-detections-overview"></a>사용자 지정 검색 개요
 
@@ -32,6 +32,7 @@ ms.locfileid: "51935704"
 
 **적용 대상:**
 - Microsoft 365 Defender
+- 끝점용 Microsoft Defender
 
 사용자 지정 검색을 사용하면 위반 활동 및 잘못 구성된 끝점을 포함하여 다양한 이벤트 및 시스템 상태의 사전 대응을 모니터링하고 대응할 수 있습니다. 이 작업은 경고 및 응답 작업을 자동으로 트리거하는 사용자 지정 가능한 검색 규칙에 의해 가능합니다.
 

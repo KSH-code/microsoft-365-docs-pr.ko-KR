@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 7ade29259a5552bc9bbaac4b143842c69d05f917
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4b7315cbb8704b691ce4f3d6b96958f18248b478
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205352"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952635"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 
@@ -55,18 +55,18 @@ ms.locfileid: "51205352"
 
 이러한 작업을 수행할 시간을 줄 수 있는 경우 이 표에 나열된 순서대로 기준 정책을 구현하는 것이 좋습니다. 그러나 중요하고 높은 규제 수준 보호 수준에 대한 MFA 정책은 어떤 경우든 구현할 수 있습니다.
 
-|보호 수준|정책|추가 정보|
-|---|---|---|
-|**기준**|[로그인 위험이 중간 또는 높음인 경우 MFA *필요*](#require-mfa-based-on-sign-in-risk)||
-||[최신 인증을 지원하지 않는 클라이언트 차단](#block-clients-that-dont-support-multi-factor)|최신 인증을 사용하지 않는 클라이언트는 조건부 액세스 정책을 무시할 수 있으므로 이러한 정책을 차단하는 것이 중요합니다.|
-||[위험이 높은 사용자는 암호를 변경해야 함](#high-risk-users-must-change-password)|계정에 대해 높은 위험 활동이 감지된 경우 사용자가 로그인할 때 암호를 강제로 변경합니다.|
-||[앱 데이터 보호 정책 적용](#apply-app-data-protection-policies)|플랫폼당 하나의 Intune 앱 보호 정책(Windows, iOS/iPadOS, Android)입니다.|
-||[승인된 앱 및 앱 보호 필요](#require-approved-apps-and-app-protection)|iOS, iPadOS 또는 Android를 사용하여 휴대폰 및 태블릿에 대해 모바일 앱 보호를 적용합니다.|
-||[장치 준수 정책 정의](#define-device-compliance-policies)|각 플랫폼에 대한 하나의 정책입니다.|
-||[호환 PC 필요](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Windows 또는 MacOS를 사용하여 PC의 Intune 관리를 적용합니다.|
-|**중요**|[로그인 위험이 낮음, 보통 또는 높음인 경우 MFA *필요*](#require-mfa-based-on-sign-in-risk)||
-||[호환 PC 및 *모바일* 장치 필요](#require-compliant-pcs-and-mobile-devices)|PC(Windows 또는 MacOS) 및 휴대폰 또는 태블릿(iOS, iPadOS 또는 Android)에 대해 Intune 관리를 적용합니다.|
-|**매우 엄격한 규제**|[*항상* MFA 필요](#require-mfa-based-on-sign-in-risk)|
+|보호 수준|정책|추가 정보|라이선싱|
+|---|---|---|---|
+|**기준**|[로그인 위험이 중간 또는 높음인 경우 MFA *필요*](#require-mfa-based-on-sign-in-risk)||Microsoft 365 E5 또는 Microsoft 365 E3와 E5 보안 추가 기능|
+||[최신 인증을 지원하지 않는 클라이언트 차단](#block-clients-that-dont-support-multi-factor)|최신 인증을 사용하지 않는 클라이언트는 조건부 액세스 정책을 무시할 수 있으므로 이러한 정책을 차단하는 것이 중요합니다.|Microsoft 365 E3 혹은 E5|
+||[위험이 높은 사용자는 암호를 변경해야 함](#high-risk-users-must-change-password)|계정에 대해 높은 위험 활동이 감지된 경우 사용자가 로그인할 때 암호를 강제로 변경합니다.|Microsoft 365 E5 또는 Microsoft 365 E3와 E5 보안 추가 기능|
+||[APP(응용 프로그램 보호 정책) 데이터 보호 적용](#apply-app-data-protection-policies)|플랫폼당 하나의 Intune 앱 보호 정책(Windows, iOS/iPadOS, Android)입니다.|Microsoft 365 E3 혹은 E5|
+||[승인된 앱 및 앱 보호 필요](#require-approved-apps-and-app-protection)|iOS, iPadOS 또는 Android를 사용하여 휴대폰 및 태블릿에 대해 모바일 앱 보호를 적용합니다.|Microsoft 365 E3 혹은 E5|
+||[장치 준수 정책 정의](#define-device-compliance-policies)|각 플랫폼에 대한 하나의 정책입니다.|Microsoft 365 E3 혹은 E5|
+||[호환 PC 필요](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Windows 또는 MacOS를 사용하여 PC의 Intune 관리를 적용합니다.|Microsoft 365 E3 혹은 E5|
+|**중요**|[로그인 위험이 낮음, 보통 또는 높음인 경우 MFA *필요*](#require-mfa-based-on-sign-in-risk)||Microsoft 365 E5 또는 Microsoft 365 E3와 E5 보안 추가 기능|
+||[호환 PC 및 *모바일* 장치 필요](#require-compliant-pcs-and-mobile-devices)|PC(Windows 또는 MacOS) 및 휴대폰 또는 태블릿(iOS, iPadOS 또는 Android)에 대해 Intune 관리를 적용합니다.|Microsoft 365 E3 혹은 E5|
+|**매우 엄격한 규제**|[*항상* MFA 필요](#assigning-policies-to-groups-and-users)||Microsoft 365 E3 혹은 E5|
 |
 
 ## <a name="assigning-policies-to-groups-and-users"></a>그룹 및 사용자에게 정책 할당
@@ -95,11 +95,11 @@ ms.locfileid: "51205352"
 
 이러한 권장 사항의 일부로 만들어진 모든 Azure AD 그룹은 Microsoft 365 그룹으로 만들어야 합니다. 이는 Microsoft Teams 및 SharePoint에서 문서를 보안할 때 민감도 레이블을 배포하는 데 중요합니다.
 
-![Microsoft 365 그룹을 만들기 위한 화면 캡처](../../media/microsoft-365-policies-configurations/identity-device-AAD-groups.png)
+![Microsoft 365 그룹 만들기의 예](../../media/microsoft-365-policies-configurations/identity-device-AAD-groups.png)
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>로그인 위험에 따라 MFA 필요
 
-사용을 요구하기 전에 사용자가 MFA에 등록하도록 해야 합니다. Microsoft 365 E5, Id가 & Threat Protection 추가 기능, EMS E5가 있는 Office 365 또는 개별 Azure AD Premium P2 라이선스가 있는 Microsoft 365 E3가 있는 경우 Azure AD ID 보호와 함께 MFA 등록 정책을 사용하여 사용자가 MFA를 등록할 수 있도록 할 수 있습니다. 선행 [작업으로는](identity-access-prerequisites.md) 모든 사용자를 MFA에 등록하는 것이 포함됩니다.
+사용을 요구하기 전에 사용자가 MFA에 등록하도록 해야 합니다. Microsoft 365 E5, E5 보안 추가 기능을 사용하는 Microsoft 365 E3, EMS E5가 있는 Office 365 또는 개별 Azure AD Premium P2 라이선스가 있는 경우 Azure AD ID 보호와 함께 MFA 등록 정책을 사용하여 사용자가 MFA에 등록해야 할 수 있습니다. 선행 [작업으로는](identity-access-prerequisites.md) 모든 사용자를 MFA에 등록하는 것이 포함됩니다.
 
 사용자가 등록된 후 새 조건부 액세스 정책을 사용하여 로그인하기 위해 MFA를 요구할 수 있습니다.
 
@@ -197,7 +197,7 @@ Exchange Online의 경우 인증 정책을 [](/exchange/clients-and-mobile-in-ex
 
 |유형|속성|값|작업|
 |---|---|---|---|
-|Access|**액세스 허용**||선택|
+|액세스|**액세스 허용**||선택|
 |||**암호 변경 필요**|수표|
 |
 
@@ -211,7 +211,7 @@ Exchange Online의 경우 인증 정책을 [](/exchange/clients-and-mobile-in-ex
 
 ## <a name="apply-app-data-protection-policies"></a>APP 데이터 보호 정책 적용
 
-APP(앱 보호 정책)은 허용되는 앱과 조직의 데이터에 대해 수행할 수 있는 작업을 정의합니다. APP에서 사용할 수 있는 선택을 통해 조직은 특정 요구에 맞게 보호를 조정할 수 있습니다. 일부 경우에는 전체 시나리오를 구현하는 데 필요한 정책 설정이 명확하지 않을 수 있습니다. 조직에서 모바일 클라이언트 끝점 강화에 우선 순위를 지정하는 데 도움을 주기 위해 Microsoft는 iOS 및 Android 모바일 앱 관리를 위한 APP 데이터 보호 프레임워크에 대한 체계를 도입했습니다.
+APP는 허용되는 앱과 조직의 데이터에 대해 수행할 수 있는 작업을 정의합니다. APP에서 사용할 수 있는 선택을 통해 조직은 특정 요구에 맞게 보호를 조정할 수 있습니다. 일부 경우에는 전체 시나리오를 구현하는 데 필요한 정책 설정이 명확하지 않을 수 있습니다. 조직에서 모바일 클라이언트 끝점 강화에 우선 순위를 지정하는 데 도움을 주기 위해 Microsoft는 iOS 및 Android 모바일 앱 관리를 위한 APP 데이터 보호 프레임워크에 대한 체계를 도입했습니다.
 
 APP 데이터 보호 프레임워크는 세 가지 고유한 구성 수준으로 구성되고 각 수준은 이전 수준으로 구성됩니다.
 
@@ -331,12 +331,12 @@ Windows **상태 >** 서비스 평가 규칙에 대한 자세한 내용은 다�
 
 |유형|속성|값|작업|
 |---|---|---|---|
-|끝점 규칙용 Microsoft Defender|장치가 컴퓨터 위험 점수에 또는 그 미만이 되거나,|보통|선택|
+|Microsoft Endpoint Manager 관리 센터의 끝점용 Microsoft Defender 규칙|[장치가 컴퓨터 위험 점수에 또는 그 미만이 되거나,](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection-configure#create-and-assign-compliance-policy-to-set-device-risk-level)|보통|선택|
 |
 
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>호환 PC 필요(호환되지 않는 휴대폰 및 태블릿)
 
-호환 PC를 요구하는 정책을 추가하기 전에 관리를 위한 장치를 Intune에 등록해야 합니다. 디바이스가 의도한 사용자를 소유하고 있는지 확인하려면 Intune에 장치를 등록하기 전에 다단계 인증을 사용하는 것이 좋습니다.
+호환 PC를 요구하는 정책을 추가하기 전에 Intune에서 관리를 위해 장치를 등록해야 합니다. 디바이스가 의도한 사용자를 소유하고 있는지 확인하려면 Intune에 장치를 등록하기 전에 다단계 인증을 사용하는 것이 좋습니다.
 
 규격 PC를 요구하려면:
 

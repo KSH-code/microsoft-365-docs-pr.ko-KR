@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Power BI에서 Microsoft 365 사용 현황 분석 템플릿 앱을 사용하여 테넌트에 대한 데이터 수집을 시작하는 방법을 알아보십시오.
-ms.openlocfilehash: 7c92fb643f9be6b5f1474f08df659c4f488a9a41
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: d9cadcc8258478fd1d5dbc0d9ae6bf4e814a8435
+ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579065"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51957518"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
@@ -53,11 +53,11 @@ Power BI가 아직 없는 경우 [Power BI Pro에 등록할 수 있습니다.](h
   
 자세한 [내용은 관리자 역할](../add-users/about-admin-roles.md) 정보를 참조하세요. 
   
-1. 관리 센터에서 **보고서** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">사용 현황</a> 페이지를 참조하세요. 
+1. 관리 센터에서 설정 구성 **설정** 서비스 \>  \> **탭으로 이동합니다.** 
     
-2. 사용 **페이지에서** **Microsoft 365** 사용 현황 분석 카드를 찾고 시작 **을 선택합니다.**
+2. 서비스 **탭에서** 보고서를 **선택합니다.**
     
-3. 보고서 패널이 열리면 **Power BI에 대한 Microsoft 365** 사용 현황 분석을 사용할 수 있도록 설정 을 **저장으로** \> **설정하십시오.** 
+3. 보고서 패널이 열리면 **Power BI에 대한 Microsoft 365** 사용 현황 분석에서 보고서 데이터를 사용할 수 있도록 설정 **을 저장 중으로** \> **설정하십시오.** 
   
 데이터 수집 프로세스는 테넌트의 크기에 따라 2~48시간 만에 완료됩니다. 데이터 수집이 완료되면 **Power BI로** 이동 단추가 활성화됩니다(더 이상 회색 아 없음). 
     

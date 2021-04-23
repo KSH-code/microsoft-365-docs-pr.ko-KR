@@ -2,7 +2,7 @@
 title: 업계 테스트에서 최고 점수 기록 - Microsoft 365 Defender
 ms.reviewer: ''
 description: Microsoft 365 Defender의 최신 점수 및 분석을 확인하세요. 이 프로그램은 지속적으로 독립 테스트(AV-TEST, AV Comparatives, SE Labs, MITRE ATT&CK)에서 높은 점수를 획득하고 있습니다. 최신 점수 및 분석을 확인하세요.
-keywords: Microsoft Defender 바이러스 백신, Windows Defender 바이러스 백신, AV 리뷰, 바이러스 백신 테스트, AV 테스트, 최신 AV 점수, 탐지 점수, 보안 제품 테스트, 보안 업계 테스트, 산업 바이러스 백신 테스트, 최고의 바이러스 백신, AV 테스트, AV 비교, SE 실험실, MITER ATT & CK, 엔드포인트 보호 플랫폼, EPP, 엔드포인트 감지 및 응답, EDR, Windows 10, Microsoft Defender 바이러스 백신, WDAV, MDATP, Microsoft Threat Protection, 보안, 맬웨어, av, 바이러스 백신, 점수, 점수, 차세대 보호, 순위, 성공
+keywords: Microsoft Defender 바이러스 백신, Windows Defender 바이러스 백신, AV 리뷰, 바이러스 백신 테스트, AV 테스트, 최신 AV 점수, 탐지 점수, 보안 제품 테스트, 보안 업계 테스트, 산업 바이러스 백신 테스트, 최고의 바이러스 백신, AV 테스트, AV 비교, SE 실험실, MITER ATT & CK, 엔드포인트 보호 플랫폼, EPP, 엔드포인트 감지 및 응답, EDR, Windows 10, Microsoft Defender 바이러스 백신, WDAV, 엔드포인트용 Microsoft Defender, Microsoft 365 Defender, 보안, 맬웨어, AV, 바이러스 백신, 점수, 점수 책정, 차세대 보호, 순위, 성공
 ms.prod: m365-security
 ms.mktglfcycl: secure
 ms.sitesec: library
@@ -15,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 1f649af2ca6089d1366cc6e080a430a6a00fc300
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: a49fb83f9186541094910ec8842a09b5121ffb5b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569866"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934396"
 ---
 # <a name="top-scoring-in-industry-tests"></a>업계 테스트에서 최고 점수 기록
 

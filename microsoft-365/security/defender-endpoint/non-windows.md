@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: dce9a3d41d8a9d7c260cda8a930867da8c2ae8ac
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: a4714ad9a4388654cbf865ed54afe260a67d724f
+ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862250"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51957506"
 ---
 # <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>엔드포인트용 Microsoft Defender(Windows가 아닌 플랫폼)
 
@@ -45,25 +45,25 @@ Microsoft는 Windows 및 Windows Server를 넘어 macOS, Linux, Android 및 곧 
 
 MacOS의 끝점용 Microsoft Defender는 세 가지 최신 릴리스 버전의 macOS에 대한 바이러스 백신 및 끝점 감지 및 응답(EDR) 기능을 제공합니다. 고객은 Microsoft Endpoint Manager 및 Jamf를 통해 솔루션을 배포하고 관리할 수 있습니다. macOS의 Microsoft Office 응용 프로그램과 마찬가지로 Microsoft 자동 업데이트는 Mac 업데이트에서 끝점용 Microsoft Defender를 관리하는 데 사용됩니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/macOS)
 
-시작하는 방법에 대한 자세한 내용은 macOS 설명서의 Endpoint용 Defender를 [참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-mac)
+시작하는 방법에 대한 자세한 내용은 macOS 설명서의 Endpoint용 Defender를 [참조하세요.](microsoft-defender-endpoint-mac.md)
 
 ## <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender for Endpoint(Linux용)
 
 Linux의 끝점용 Microsoft Defender는 Linux 서버에 대한 예방용(AV) 기능을 제공합니다. 여기에는 에이전트를 구성 및 관리하고, 검색을 시작하고, 위협을 관리하는 전체 명령줄 환경이 포함됩니다. 가장 일반적인 여섯 가지 Linux 서버 배포인 RHEL 7.2+, CentOS Linux 7.2+, Ubuntu 16 LTS 이상 LTS, SLES 12+, 데비안 9+, Oracle Linux 7.2의 최신 버전을 지원하고 있습니다. Linux의 끝점용 Microsoft Defender는 Puppet, Ansible 또는 기존 Linux 구성 관리 도구를 사용하여 배포 및 구성할 수 있습니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Linux)
 
-시작하는 방법에 대한 자세한 내용은 Linux 설명서의 Microsoft Defender for Endpoint를 [참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-linux)
+시작하는 방법에 대한 자세한 내용은 Linux 설명서의 Microsoft Defender for Endpoint를 [참조하세요.](microsoft-defender-endpoint-linux.md)
 
 ## <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender for Endpoint(Android용)
 
 Android의 끝점용 Microsoft Defender는 Android 6.0 이상을 실행하는 장치에 대한 모바일 위협 방어 솔루션입니다. Android Enterprise(작업 프로필) 및 장치 관리자 모드가 모두 지원됩니다. Android에서는 피싱 방지, 안전하지 않은 연결 차단 및 사용자 지정 표시기 설정을 포함하는 웹 보호 기능을 제공합니다. 이 솔루션은 맬웨어 및 잠재적으로 원치 않는 응용 프로그램(PUA)을 검색하고 Microsoft Endpoint Manager 및 조건부 액세스와의 통합을 통해 추가적인 위반 방지 기능을 제공합니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/Android)
 
-시작하는 방법에 대한 자세한 내용은 Android의 끝점용 Microsoft Defender 설명서를 [참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-android)
+시작하는 방법에 대한 자세한 내용은 Android의 끝점용 Microsoft Defender 설명서를 [참조하세요.](microsoft-defender-endpoint-android.md)
 
 ## <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender for Endpoint(iOS용)
 
 iOS의 끝점용 Microsoft Defender는 iOS 11.0 이상을 실행하는 장치에 대한 모바일 위협 방어 솔루션입니다. 감독된 디바이스와 관리되지 않는 장치가 모두 지원됩니다. iOS에서는 피싱 방지, 안전하지 않은 연결 차단 및 사용자 지정 표시기 설정이 포함된 웹 보호 기능을 제공합니다. 주요 기능 및 이점에 대한 자세한 내용은 공지 사항을 [읽어 하세요.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/bg-p/MicrosoftDefenderATPBlog/label-name/iOS) 
 
-시작 방법에 대한 자세한 내용은 iOS 설명서의 Microsoft Defender for Endpoint를 [참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-ios)
+시작 방법에 대한 자세한 내용은 iOS 설명서의 Microsoft Defender for Endpoint를 [참조하세요.](microsoft-defender-endpoint-ios.md)
 
 ## <a name="licensing-requirements"></a>라이선스 요구 사항 
 
