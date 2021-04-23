@@ -18,30 +18,31 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: bf635ed03cb0d99d54fc94b622bf244447b32a80
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 748b3534ef1f6ca5736667fc3910bb9fa96d23ff
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935704"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952539"
 ---
-# <a name="custom-detections-overview"></a><span data-ttu-id="d5fa5-104">사용자 지정 검색 개요</span><span class="sxs-lookup"><span data-stu-id="d5fa5-104">Custom detections overview</span></span>
+# <a name="custom-detections-overview"></a><span data-ttu-id="19a60-104">사용자 지정 검색 개요</span><span class="sxs-lookup"><span data-stu-id="19a60-104">Custom detections overview</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="d5fa5-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="d5fa5-105">**Applies to:**</span></span>
-- <span data-ttu-id="d5fa5-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="d5fa5-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="19a60-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="19a60-105">**Applies to:**</span></span>
+- <span data-ttu-id="19a60-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="19a60-106">Microsoft 365 Defender</span></span>
+- <span data-ttu-id="19a60-107">끝점용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="19a60-107">Microsoft Defender for Endpoint</span></span>
 
-<span data-ttu-id="d5fa5-107">사용자 지정 검색을 사용하면 위반 활동 및 잘못 구성된 끝점을 포함하여 다양한 이벤트 및 시스템 상태의 사전 대응을 모니터링하고 대응할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d5fa5-107">With custom detections, you can proactively monitor for and respond to various events and system states, including suspected breach activity and misconfigured endpoints.</span></span> <span data-ttu-id="d5fa5-108">이 작업은 경고 및 응답 작업을 자동으로 트리거하는 사용자 지정 가능한 검색 규칙에 의해 가능합니다.</span><span class="sxs-lookup"><span data-stu-id="d5fa5-108">This is made possible by customizable detection rules that automatically trigger alerts as well as response actions.</span></span>
+<span data-ttu-id="19a60-108">사용자 지정 검색을 사용하면 위반 활동 및 잘못 구성된 끝점을 포함하여 다양한 이벤트 및 시스템 상태의 사전 대응을 모니터링하고 대응할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="19a60-108">With custom detections, you can proactively monitor for and respond to various events and system states, including suspected breach activity and misconfigured endpoints.</span></span> <span data-ttu-id="19a60-109">이 작업은 경고 및 응답 작업을 자동으로 트리거하는 사용자 지정 가능한 검색 규칙에 의해 가능합니다.</span><span class="sxs-lookup"><span data-stu-id="19a60-109">This is made possible by customizable detection rules that automatically trigger alerts as well as response actions.</span></span>
 
-<span data-ttu-id="d5fa5-109">사용자 지정 검색은 고급 헌팅과 함께 작동하며, 네트워크의 광범위한 이벤트 및 시스템 정보 집합을 다루는 강력하고 유연한 쿼리 언어를 제공합니다. [](advanced-hunting-overview.md)</span><span class="sxs-lookup"><span data-stu-id="d5fa5-109">Custom detections work with [advanced hunting](advanced-hunting-overview.md), which provides a powerful, flexible query language that covers a broad set of event and system information from your network.</span></span> <span data-ttu-id="d5fa5-110">이러한 경고를 정기적으로 실행하여 일치하는 경우 경고를 생성하고 응답 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d5fa5-110">You can set them to run at regular intervals, generating alerts and taking response actions whenever there are matches.</span></span>
+<span data-ttu-id="19a60-110">사용자 지정 검색은 고급 헌팅과 함께 작동하며, 네트워크의 광범위한 이벤트 및 시스템 정보 집합을 다루는 강력하고 유연한 쿼리 언어를 제공합니다. [](advanced-hunting-overview.md)</span><span class="sxs-lookup"><span data-stu-id="19a60-110">Custom detections work with [advanced hunting](advanced-hunting-overview.md), which provides a powerful, flexible query language that covers a broad set of event and system information from your network.</span></span> <span data-ttu-id="19a60-111">이러한 경고를 정기적으로 실행하여 일치하는 경우 경고를 생성하고 응답 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="19a60-111">You can set them to run at regular intervals, generating alerts and taking response actions whenever there are matches.</span></span>
 
-<span data-ttu-id="d5fa5-111">사용자 지정 검색을 통해:</span><span class="sxs-lookup"><span data-stu-id="d5fa5-111">Custom detections provide:</span></span>
-- <span data-ttu-id="d5fa5-112">고급 헌팅 쿼리로 구축된 규칙 기반 검색에 대한 알림</span><span class="sxs-lookup"><span data-stu-id="d5fa5-112">Alerts for rule-based detections built from advanced hunting queries</span></span>
-- <span data-ttu-id="d5fa5-113">자동 응답 작업</span><span class="sxs-lookup"><span data-stu-id="d5fa5-113">Automatic response actions</span></span>
+<span data-ttu-id="19a60-112">사용자 지정 검색을 통해:</span><span class="sxs-lookup"><span data-stu-id="19a60-112">Custom detections provide:</span></span>
+- <span data-ttu-id="19a60-113">고급 헌팅 쿼리로 구축된 규칙 기반 검색에 대한 알림</span><span class="sxs-lookup"><span data-stu-id="19a60-113">Alerts for rule-based detections built from advanced hunting queries</span></span>
+- <span data-ttu-id="19a60-114">자동 응답 작업</span><span class="sxs-lookup"><span data-stu-id="19a60-114">Automatic response actions</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d5fa5-114">참고 항목</span><span class="sxs-lookup"><span data-stu-id="d5fa5-114">See also</span></span>
-- [<span data-ttu-id="d5fa5-115">사용자 지정 검색 규칙 만들기 및 관리</span><span class="sxs-lookup"><span data-stu-id="d5fa5-115">Create and manage custom detection rules</span></span>](custom-detection-rules.md)
-- [<span data-ttu-id="d5fa5-116">지능형 헌팅 개요</span><span class="sxs-lookup"><span data-stu-id="d5fa5-116">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="d5fa5-117">끝점용 Microsoft Defender에서 고급 헌팅 쿼리 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="d5fa5-117">Migrate advanced hunting queries from Microsoft Defender for Endpoint</span></span>](advanced-hunting-migrate-from-mde.md)
+## <a name="see-also"></a><span data-ttu-id="19a60-115">참고 항목</span><span class="sxs-lookup"><span data-stu-id="19a60-115">See also</span></span>
+- [<span data-ttu-id="19a60-116">사용자 지정 검색 규칙 만들기 및 관리</span><span class="sxs-lookup"><span data-stu-id="19a60-116">Create and manage custom detection rules</span></span>](custom-detection-rules.md)
+- [<span data-ttu-id="19a60-117">지능형 헌팅 개요</span><span class="sxs-lookup"><span data-stu-id="19a60-117">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="19a60-118">끝점용 Microsoft Defender에서 고급 헌팅 쿼리 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="19a60-118">Migrate advanced hunting queries from Microsoft Defender for Endpoint</span></span>](advanced-hunting-migrate-from-mde.md)
