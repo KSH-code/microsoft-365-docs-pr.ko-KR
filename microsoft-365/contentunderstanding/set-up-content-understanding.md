@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Project Cortex에서 콘텐츠 이해 설정
-ms.openlocfilehash: cc6fbfbfc130cc6e64b5d7c30e0a9db5f39036ac
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 2f9fd4e035152a127f9f1c254f4c489a6ca4c976
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051570"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994709"
 ---
 # <a name="set-up-sharepoint-syntex"></a>SharePoint Syntex 설정
 
@@ -59,7 +59,9 @@ SharePoint Syntex를 사용하려면 조직에 SharePoint Syntex 구독이 있�
 
 [AI Builder 계산기](https://powerapps.microsoft.com/ai-builder-calculator)을(를) 사용하여 사용자에게 적합한 AI Builder 용량을 추정할 수 있습니다.
 
-[파워 플랫폼 관리 센터](https://admin.powerplatform.microsoft.com/resources/capacity)로 이동하여 크레딧 및 사용량을 확인합니다.
+사용자 지정 Power Platform 환경을 사용하려면 [해당 환경에 크레딧을 할당](/power-platform/admin/capacity-add-on)해야 합니다.
+
+[Power Platform 관리 센터](https://admin.powerplatform.microsoft.com/resources/capacity)로 이동하여 크레딧 및 사용량을 확인합니다.
 
 ## <a name="to-set-up-sharepoint-syntex"></a>SharePoint Syntex를 설정하려면 다음을 수행합니다.
 
@@ -80,11 +82,21 @@ SharePoint Syntex를 사용하려면 조직에 SharePoint Syntex 구독이 있�
       - **사이트에서 SharePoint 라이브러리를 사용하지 않으려면** SharePoint 라이브러리가 없습니다(설치 후 이 라이브러리를 변경할 수 있습니다).
 
    > [!div class="mx-imgBorder"]
-   > ![양식 처리 구성](../media/content-understanding/admin-configforms.png)
+   > ![양식 처리 사이트 옵션 구성](../media/content-understanding/admin-configforms.png)
 
    > [!Note]
    > 사이트가 포함된 후 사이트를 제거해도 해당 사이트의 라이브러리에 적용된 기존 모델이나 문서 이해 모델을 라이브러리에 적용하는 기능에는 영향을 미치지 않습니다. 
     
+    여러 Power Platform 환경을 구성한 경우 양식 처리에 사용할 환경을 선택할 수 있습니다. (환경이 하나뿐인 경우 이 옵션이 나타나지 않습니다.)
+
+    ![양식 처리 Power Platform 옵션 구성](../media/content-understanding/setup-power-platform-env.png)
+
+    **Power Platform 환경** 의 경우 다음을 선택할 수 있습니다.
+    - **기본 환경 설정을 사용하여** 기본 Power Platform 환경을 사용합니다.
+    - **사용자 지정 환경을 사용하여** 사용자 지정 환경을 사용합니다. 목록에서 사용할 환경을 선택합니다. 이 환경에서 *Project Cortex용 AI 작성기* 앱을 설치하고 AI 작성기 크레딧을 할당해야 양식 처리 모델을 만들 수 있습니다.
+
+    **다음** 을 클릭합니다.
+
 5. **콘텐츠 센터 생성** 페이지에서 사용자가 문서 이해 모델을 생성하고 관리할 수 있는 SharePoint 콘텐츠 센터 사이트를 생성할 수 있습니다.
 
     1. **사이트 이름** 에 대해 콘텐츠 센터 사이트에 지정할 이름을 입력합니다.
@@ -126,3 +138,5 @@ SharePoint Syntex를 구성한 후에는 SharePoint Syntex 기능을 사용할 �
 [양식 처리 모델](/ai-builder/form-processing-model-overview)을(를) 검토합니다.
 
 [단계별 절차는 다음과 같습니다. 문서 이해 모델(비디오)](https://www.youtube.com/watch?v=DymSHObD-bg)을(를) 작성하는 방법
+
+[Power Platform 관리 센터에서 환경 만들기 및 관리](/power-platform/admin/create-environment)
