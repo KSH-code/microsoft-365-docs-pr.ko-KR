@@ -19,12 +19,12 @@ description: 전자 메일 맨 위에 보안 팁을 추가하여 EOP 및 Office 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a1820cab63abbbac09aa60a9c1684f3672882451
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 659a83c73b4fef9097aa317332c9951d53b09a33
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205661"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994988"
 ---
 # <a name="safety-tips-in-email-messages"></a>전자 메일 메시지의 안전 팁
 
@@ -55,6 +55,6 @@ EOP(Exchange Online Protection) 및 Microsoft 365는 스팸, 피싱 및 맬웨�
 
 ## <a name="working-with-safety-tips"></a>안전 팁 작업
 
-보안 팁은 모든 메시지가 수신되지는 않는 경우에도 항상 웹용 Outlook에서 사용하도록 설정됩니다. 관리자는 Outlook과 같은 다른 전자 메일 클라이언트에 대한 보안 팁을 해제할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+관리자는 스팸 방지 정책에서 보안 팁을 설정하거나 해제할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 EOP에서 메시지를 분류한 방식에 동의하지 않는 경우(즉, 메시지가 스팸이 아니거나 스팸으로 표시되어 있는 경우) 분석을 위해 Microsoft에 메시지를 제출하여 환경을 개선할 수 있습니다. 자세한 내용은 Microsoft에 메시지 및 [파일 보고를 참조하세요.](report-junk-email-messages-to-microsoft.md) 보안 팁의 피드백 링크를 클릭하여 Microsoft에 직접 의견을 제출하여 개선할 수 있습니다.

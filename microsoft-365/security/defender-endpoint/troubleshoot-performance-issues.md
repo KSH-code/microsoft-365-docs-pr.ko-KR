@@ -16,12 +16,12 @@ ms.date: 04/14/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 5175d630dd5d80b62451b3a1eafc4c2f6350ac32
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 71c2391361c645d26cdaddff0bff86796da50391
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876340"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995084"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>실시간 보호와 관련된 성능 문제 해결
 
@@ -33,7 +33,7 @@ ms.locfileid: "51876340"
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
  
-시스템에 끝점용 Microsoft Defender의 실시간 보호 서비스와 관련된 높은 CPU 사용량 또는 성능 문제가 있는 경우 Microsoft 지원에 티켓을 제출할 수 있습니다. [Microsoft Defender AV](/collect-diagnostic-data.md)진단 데이터 수집의 단계를 따릅니다.
+시스템에 끝점용 Microsoft Defender의 실시간 보호 서비스와 관련된 높은 CPU 사용량 또는 성능 문제가 있는 경우 Microsoft 지원에 티켓을 제출할 수 있습니다. [Microsoft Defender 바이러스](collect-diagnostic-data.md)백신 진단 데이터 수집의 단계를 따릅니다.
 
 관리자는 이러한 문제를 직접 해결할 수도 있습니다. 
 
@@ -132,7 +132,6 @@ ms.locfileid: "51876340"
  
     >[!TIP] 
     >문제가 완전히 재현될 때까지 기다렸다가 추적이 시작될 때 타임스탬프를 기록합니다.
-    
 
 10. 높은 CPU 사용량 조건에서 2-4분의 프로세스 활동이 있는 경우 돋보기 아이콘을 선택하여 캡처를 중지합니다.
 
@@ -250,7 +249,7 @@ WPR UI를 사용하여 성능 로그 캡처의 단계에 따라 WPR 사용자 �
 
 1. 성능 추적을 위해 끝점 분석 프로필에 대한 **[Microsoft Defender를](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp)** 다운로드하여 같은 로컬 디렉터리에 있는 파일에 `WD.wprp` 대한 성능 추적을 다운로드합니다. `C:\traces`
 
-3. 시작 메뉴  아이콘을 마우스 오른쪽 단추로 클릭하고 **Windows Powershell(관리자)** 또는 **명령** 프롬프트(관리자)를 선택하여 관리자 명령 프롬프트 창을 열 수 있습니다.
+3. 시작 메뉴  아이콘을 마우스 **오른쪽 단추로 클릭하고 Windows PowerShell(관리자)** 또는 명령 프롬프트(관리자)를 선택하여 관리자 명령 프롬프트 창을 열 수 있습니다. 
 
 4. 사용자 계정 컨트롤 대화 상자가 나타나면 예를 **선택합니다.**
 
@@ -280,5 +279,5 @@ WPR UI를 사용하여 성능 로그 캡처의 단계에 따라 WPR 사용자 �
 
 ## <a name="see-also"></a>참고 항목
 
-- [Microsoft Defender AV 진단 데이터 수집](collect-diagnostic-data.md)
+- [Microsoft Defender 바이러스 백신 진단 데이터 수집](collect-diagnostic-data.md)
 - [Microsoft Defender 바이러스 백신 검사에 대한 제외 구성 및 유효성 검사](configure-exclusions-microsoft-defender-antivirus.md)

@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안은 모바일 장치를 보호하고 관리하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: 468f06edf16eb6ea00fd4d26c716bc145474dd25
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 60de4e3f36427a69ecf0bf52e5dfd34f089991f3
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904279"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994976"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>기본 이동성 및 보안 기능
 
@@ -47,11 +47,9 @@ ms.locfileid: "50904279"
 
 <sup>1</sup> Windows 8.1 RT 장치에 대한 액세스 제어는 Exchange ActiveSync.
 
-<sup>2</sup> Windows 8.1 RT 장치에 대한 액세스 제어는 Exchange ActiveSync.
-Windows 10에 대한 액세스 제어를 사용하려면 Azure AD Premium을 포함하는 구독이 필요하며 디바이스를 Azure Active Directory에 가입해야 합니다.
+<sup>2</sup> Windows 10에 대한 액세스 제어를 사용하려면 Azure AD Premium을 포함하는 구독이 필요하며 디바이스를 Azure Active Directory에 가입해야 합니다.
 
-<sup>3</sup> Windows 8.1 RT 장치에 대한 액세스 제어는 Exchange ActiveSync.
-2020년 6월 이후의 Android 버전은 Samsung Knox 장치를 제외한 암호 설정을 관리할 수 없습니다.
+<sup>3</sup> 2020년 6월 이후의 Android 버전은 Samsung Knox 장치를 제외한 암호 설정을 관리할 수 없습니다.
 
 >[!NOTE]
 >이전 OS 버전에 이미 등록된 장치는 예고 없이 기능이 변경될 수 있습니다.
@@ -240,7 +238,7 @@ PowerShell cmdlet을 사용하여 이러한 추가 정책 설정을 설정할 �
 
 자세한 내용은 Basic Mobility and Security에서 모바일 장치 [지우기를 참조하세요.](wipe-mobile-device.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 365의 기본 모바일 및 보안 개요](overview.md)
 

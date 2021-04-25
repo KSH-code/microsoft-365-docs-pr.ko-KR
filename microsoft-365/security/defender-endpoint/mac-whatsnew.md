@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: edbabf83c7bf1ac8dbe1ca9451ad191b45a862ac
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: a1e07ac2e2e544605f04e9090177004db64d2f04
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932730"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995000"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender의 새로운
 
@@ -38,10 +38,14 @@ ms.locfileid: "51932730"
 > [!IMPORTANT]
 > macOS 11(Big Sur)에서는 끝점용 Microsoft Defender에 추가 구성 프로필이 필요합니다. 이전 버전의 macOS에서 업그레이드하는 기존 고객인 경우 이 페이지에 나열된 추가 구성 프로필을 [배포해야 합니다.](mac-sysext-policies.md)
 
+## <a name="1012750-20121022127500"></a>101.27.50 (20.121022.12750.0)
+
+- MacOS 카탈로나 및 이전 버전의 Apple 인증서 만료를 수용하기 위해 수정합니다. 이 수정은 위협 요소 &(취약성 관리) 기능을 복원합니다.
+
 ## <a name="1012569-20121022125690"></a>101.25.69 (20.121022.12569.0)
 
 - MacOS의 끝점용 Microsoft Defender는 이제 미국 정부 고객을 위해 미리 보기에서 사용할 수 있습니다. 자세한 내용은 미국 정부 고객용 [끝점용 Microsoft Defender를 참조하세요.](gov.md)
-- 성능 향상(특히 XCode 시뮬레이터 앱이 사용되는 상황용)은 & 수정합니다.
+- 성능 향상(특히 XCode 시뮬레이터 앱이 사용되는 상황용)은 버그 & 수정합니다.
 
 ## <a name="1012364-20121021123640"></a>101.23.64 (20.121021.12364.0)
 

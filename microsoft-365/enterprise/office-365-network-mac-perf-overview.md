@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Microsoft 365 관리 센터의 네트워크 연결 개요(미리 보기)
-ms.openlocfilehash: 99c05c18f3825680824854f86e469ab4aa8bbcba
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: c3ce053ecc859d3ac0cf53b0a132a7032ce6a87a
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860866"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994680"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Microsoft 365 관리 센터의 네트워크 연결(미리 보기)
 
@@ -152,7 +152,9 @@ Microsoft는 Microsoft 365 작업을 지원하는 여러 Office 데스크톱 및
 
 같은 도시에 있는 고객 간의 비교는 모든 고객이 네트워크 서비스 공급자, 통신 인프라 및 가까운 Microsoft 네트워크 지점에 동등하게 액세스할 수 있는 기대치를 기반으로 합니다.
 
-사무실 위치 페이지의 세부 정보 탭에는 인사이트, 권장 사항 및 네트워크 평가를 제공하는 데 사용된 특정 측정 결과가 표시됩니다. 이는 네트워크 엔지니어가 해당 환경의 제약 조건이나 특정 사항에 대한 권장 사항 및 요소의 유효성을 검사할 수 있도록 제공됩니다.
+새 위치를 추가하거나 위치 플라이아웃에서 기존 위치를 편집할 때 위치 이름을 사용자 지정할 수 있습니다. 이렇게 하면 위치 이름을 원하는 대로 사용자 지정할 수 있습니다. 또한 위치 플라이아웃에서 직접 LAN 서브넷을 추가할 때 선택할 수 있는 소프트 일치 LAN 서브넷의 드롭다운 목록이 표시됩니다. 특정 사무실의 IP 주소에 대한 회로 이름도 추가하고 편집할 수 있습니다.
+
+사무실 위치 페이지의 세부 정보 탭에는 인사이트, 권장 사항 및 네트워크 평가를 제공하는 데 사용된 특정 측정 결과가 표시됩니다. 이는 네트워크 엔지니어가 해당 환경의 제약 조건이나 특정 사항에 대한 권장 사항 및 요소의 유효성을 검사할 수 있도록 제공됩니다. 또한 해당 사무실 위치 및 해당 시의 원격 작업자에서 수집된 샘플에 대한 예상 사용자 수를 찾을 수 있습니다.
 
 > [!div class="mx-imgBorder"]
 > ![위치별 세부 정보](../media/m365-mac-perf/m365-mac-perf-locations-plan-details-all.png)

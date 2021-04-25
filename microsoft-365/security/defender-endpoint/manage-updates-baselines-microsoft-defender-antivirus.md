@@ -8,24 +8,26 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: normal
+audience: ITPro
+ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: b70cf96cde7d4dff8e2a4db6ce2469090dba7eb1
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: ae17aa6e2cb0cefd460ef0db0730570af8c84bb8
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765614"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995036"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Microsoft Defender 바이러스 백신 업데이트 관리 및 기준 적용
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 - Microsoft Defender 바이러스 백신
 
 Microsoft Defender 바이러스 백신을 최신 상태로 유지하는 데 관련된 두 가지 유형의 업데이트가 있습니다.
@@ -34,7 +36,8 @@ Microsoft Defender 바이러스 백신을 최신 상태로 유지하는 데 관�
 - 제품 업데이트
 
 > [!IMPORTANT]
-> Microsoft Defender 바이러스 백신을 최신 상태로 유지하는 것은 장치에 새로운 맬웨어 및 공격 기술로부터 보호하는 데 필요한 최신 기술 및 기능을 유지하는 데 중요합니다.  
+> Microsoft Defender 바이러스 백신을 최신 상태로 유지하는 것은 장치에 새로운 맬웨어 및 공격 기술로부터 보호하는 데 필요한 최신 기술 및 기능을 유지하는 데 중요합니다.
+> 
 > Microsoft Defender 바이러스 백신이 수동 모드로 실행 중인 경우에도 바이러스 백신 [보호를 업데이트해야 합니다.](./microsoft-defender-antivirus-compatibility.md)
 > 
 > 최신 엔진, 플랫폼 및 서명 날짜를 확인한 후 Microsoft Defender 바이러스 백신 및 기타 Microsoft 맬웨어 방지에 대한 보안 인텔리전스 [업데이트를 방문하세요.](https://www.microsoft.com/en-us/wdsi/defenderupdates)
@@ -147,7 +150,7 @@ Microsoft Defender 바이러스 백신은 월별 업데이트(KB4052623)(플랫�
 &ensp;릴리스: **2020년 12월 3일**  
 &ensp;플랫폼: **4.18.2011.6**  
 &ensp;엔진: **1.1.17700.4**  
-&ensp;지원 단계: **보안 및 중요 업데이트**
+&ensp;지원 단계: **기술 업그레이드 지원(전용)**
     
 ### <a name="whats-new"></a>새로운 기능
 
@@ -163,7 +166,7 @@ Microsoft Defender 바이러스 백신은 월별 업데이트(KB4052623)(플랫�
 &ensp;릴리스: **2020년 10월 29일**  
 &ensp;플랫폼: **4.18.2010.7**  
 &ensp;엔진: **1.1.17600.5**  
-&ensp;지원 단계: **보안 및 중요 업데이트**
+&ensp;지원 단계: **기술 업그레이드 지원(전용)**
     
 ### <a name="whats-new"></a>새로운 기능
 
@@ -566,4 +569,4 @@ Windows 10 릴리스 정보는 [Windows 수명 주기 팩트 시트 를 참조�
 |[보호 업데이트를 다운로드하고 적용해야 하는 경우 관리](manage-protection-update-schedule-microsoft-defender-antivirus.md) | 보호 업데이트를 다운로드해야 하는 경우를 예약할 수 있습니다. |
 |[최신이 지난 끝점에 대한 업데이트 관리](manage-outdated-endpoints-microsoft-defender-antivirus.md) | 끝점에서 업데이트 또는 예약된 검사가 누락된 경우 다음에 사용자가 로그인할 때 강제로 업데이트를 실행하거나 검색할 수 있습니다. |
 |[이벤트 기반 강제 업데이트 관리](manage-event-based-updates-microsoft-defender-antivirus.md) | 시작 시 또는 특정 클라우드 제공 보호 이벤트 후에 보호 업데이트를 다운로드할 수 있습니다. |
-|[모바일 장치 및 VM(가상 컴퓨터)에 대한 업데이트 관리](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)| 모바일 장치 및 가상 머신에 특히 유용한 배터리 전원에서 업데이트가 발생해야 하는지 여부와 같은 설정을 지정할 수 있습니다. |
+|[모바일 장치 및 VM(가상 머신)에 대한 업데이트 관리](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)| 모바일 장치 및 가상 머신에 특히 유용한 배터리 전원에서 업데이트가 발생해야 하는지 여부와 같은 설정을 지정할 수 있습니다. |

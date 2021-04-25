@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 34ca51c066eddb65f2df0cf8a5d85732bd84a9c0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 15909684d07bac46fd42163cee545bc4752b61d4
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934372"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995012"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>끝점용 Defender의 고급 기능 구성
 
@@ -127,6 +127,8 @@ Windows 10 버전 1809 이상에서 만든 테넌트의 경우 자동화된 분�
 일부 종류의 사이버 공격 중에 악의적인 공격자는 컴퓨터의 바이러스 백신 보호와 같은 보안 기능을 사용하지 않도록 설정하려고 합니다. 악의적인 공격자들은 데이터에 더 쉽게 액세스하거나, 맬웨어를 설치하거나, 데이터, ID 및 장치를 악용하기 위해 보안 기능을 사용하지 않도록 설정하는 것을 좋아합니다.
 
 변조 방지는 기본적으로 Microsoft Defender 바이러스 백신을 잠그고 앱 및 방법을 통해 보안 설정이 변경되지 않도록 합니다.
+
+조직에서 Microsoft Defender 바이러스 백신을 사용하며 클라우드 기반 보호를 사용하는 경우 이 기능을 사용할 수 있습니다. 자세한 내용은 클라우드 제공 보호를 통해 Microsoft Defender 바이러스 백신에 [차세대 기술 사용을 참조하세요.](cloud-protection-microsoft-defender-antivirus.md)
 
 변조 방지 기능을 설정하여 보안 솔루션 및 해당 필수 기능에 대한 원치 않는 변경을 방지합니다.
 
