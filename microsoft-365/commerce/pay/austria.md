@@ -12,12 +12,12 @@ ms.collection: Adm_Commerce_Pay
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f973737f3be59a9206b207e58605784da617fc81
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 6b405536aaa86df5ca6f7f959bd5e9b1cf942ca4
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50549607"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024160"
 ---
 # <a name="payment-information-for-austria"></a>오스트리아의 결제 정보
 
@@ -43,3 +43,5 @@ SWIFT 코드: CITIIE2X\
 IBAN 코드: IE81CITI99005170000124\
 계정 번호: 70000124\
 계정 이름: MICROSOFT
+
+현지 Microsoft 자회사에서 발급한 송장은 표준 세율의 VAT/판매세/GST로 발급된 것으로, VAT/판매세/GST 목적에 대한 국내 서비스 공급으로 표시됩니다.

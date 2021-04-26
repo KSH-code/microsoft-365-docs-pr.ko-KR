@@ -12,12 +12,12 @@ ms.collection: Adm_Commerce_Pay
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 583bd8ad67fa78ae09fde69813506606ca9806b7
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 8087535472e0affe4d7f7526b4c05aabe44ad2ac
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50549619"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024172"
 ---
 # <a name="payment-information-for-australia"></a>오스트레일리아의 결제 정보
 
@@ -42,3 +42,5 @@ SWIFT 코드: CITIAU2X\
 BSB 코드: 248053\
 계정 번호: 100001074\
 계정 이름: MICROSOFT
+
+현지 Microsoft 자회사에서 발급한 송장은 표준 세율의 VAT/판매세/GST로 발급된 것으로, VAT/판매세/GST 목적에 대한 국내 서비스 공급으로 표시됩니다.

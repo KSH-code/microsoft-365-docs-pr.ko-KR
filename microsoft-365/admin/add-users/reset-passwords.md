@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 비즈니스용 Microsoft 365 구독에서 사용자의 암호를 다시 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: da2f2b7aced29cd121f7d597af5a518462d2623d
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 24fc6581837f71659a2ecc0359c6967e3969d868
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222054"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023980"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
@@ -50,7 +50,7 @@ ms.locfileid: "51222054"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FVVP]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
   
 ## <a name="steps-reset-a-business-password-for-a-user"></a>단계: 사용자의 비즈니스 암호 다시 설정
 
@@ -150,4 +150,4 @@ Microsoft MVP인 Vasil Michev의 유용한 블로그 게시물을 확인하세�
 
 [이전 직원 제거](remove-former-employee.md)
 
-[Microsoft 365 Business 교육 비디오](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business 교육 비디오](../../business-video/index.yml)

@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 제공 기본 이동성 및 보안을 사용하여 등록된 장치에서 정보를 제거합니다.
-ms.openlocfilehash: ddf13ef6627d70128064e2d8bd185203244b12e4
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 7830a0f4ef609f6465c171ecab2c9e3c48198424
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819811"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023860"
 ---
 # <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 모바일 장치 지우기
 
@@ -45,7 +45,7 @@ Microsoft 365의 기본 제공 Basic Mobility and Security를 사용하여 조�
 
 ## <a name="wipe-a-mobile-device"></a>모바일 장치 지우기
 
-1.  [Microsoft 365 관리 센터로 이동하세요.](https://support.microsoft.com/office/758befc4-0888-4009-9f14-0d147402fd23)
+1.  [Microsoft 365 관리 센터로 이동하세요.](../../admin/admin-overview/about-the-admin-center.md)
 
 2. 검색 필드에 모바일 장치 관리를 입력하고 결과 목록에서 **모바일** 장치 관리를 선택합니다.
 
@@ -89,6 +89,6 @@ Microsoft 365의 기본 제공 Basic Mobility and Security를 사용하여 조�
 >[!NOTE]
 >회사 포털 앱은 iOS용 앱 스토어 및 Android 디바이스용 Play 스토어에서 사용할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [기본 이동성 및 보안 설정](set-up.md)

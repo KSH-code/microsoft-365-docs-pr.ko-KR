@@ -1,5 +1,5 @@
 ---
-title: 사용자 환경 지역화
+title: 사용자 환경 현지화
 description: 사용자를 위해 디바이스를 지역화하는 방법
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
@@ -12,14 +12,14 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 20456ce837be60b707569ae07d4fb00b695b3a98
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 354f61284bbd95c1c7ca4cd50459a1644a89d090
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445984"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023264"
 ---
-# <a name="localize-the-user-experience"></a>사용자 환경 지역화
+# <a name="localize-the-user-experience"></a>사용자 환경 현지화
 
 Microsoft Managed Desktop 장치 사용자는 설치 프로세스("첫 실행 경험") 또는 그 이후에 원하는 언어를 선택할 수 있습니다.
 
@@ -62,43 +62,43 @@ Microsoft Managed Desktop 장치 사용자는 설치 프로세스("첫 실행 �
 
 Microsoft Managed [Desktop에서](../service-description/device-images.md#universal-image) 제공하는 유니버설 이미지에는 다음 언어와 Windows 10용이 포함되어 있습니다.
 
+- 아랍어
+- 불가리아어
+- Chinese Simplified
+- Chinese Traditional
+- 크로아티아어
+- 체코어
+- 덴마크어  
+- 네덜란드어  
 - 영어(미국, GB, AU, CA, IN)
-- 스페인어(스페인, 멕시코)
-- 일본어
+- 에스토니아어
+- 핀란드어 
 - 프랑스어(프랑스, 캐나다)
 - 독일어
-- 포르투갈어(브라질)
-- 이탈리아어
-- Chinese Simplified
-- 네덜란드어  
-- 스웨덴어
-- 덴마크어  
-- 핀란드어 
-- 러시아어 
-- 노르웨이어(복말)
-- 한국어
-- Chinese Traditional
-- 폴란드어
-- 터키어
-- 아랍어
-- 히브리어
-- 포르투갈어(포르투갈)
-- 체코어
-- 헝가리어
-- 태국어
-- 인도네시아어
 - 그리스어
-- 슬로바키아어
-- 베트남어
-- 슬로베니아어
-- 크로아티아어
-- 루마니아어
-- 리투아니아어
-- 불가리아어
-- 세르비아어(라틴 문자 알파벳)
+- 히브리어
+- 헝가리어
+- 인도네시아어
+- 이탈리아어
+- 일본어
+- 한국어
 - 라트비아어
+- 리투아니아어
+- 노르웨이어(복말)
+- 폴란드어
+- 포르투갈어(브라질)
+- 포르투갈어(포르투갈)
+- 루마니아어
+- 러시아어 
+- 세르비아어(라틴 문자 알파벳)
+- 슬로바키아어
+- 슬로베니아어
+- 스페인어(스페인, 멕시코)
+- 스웨덴어
+- 태국어
+- 터키어
 - 우크라이나어
-- 에스토니아어
+- 베트남어
 
 엔터프라이즈용 Microsoft 365 앱은 약간 다른 목록을 지원할 수 있습니다.
 

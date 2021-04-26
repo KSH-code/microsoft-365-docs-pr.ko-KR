@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안에 대한 질문과 대답
-ms.openlocfilehash: a538c0b3f9fa6a4bf1861734fc9dea94030760a3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 14e12678ec210325f63914594fb6debcf7abb880
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906267"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023896"
 ---
 # <a name="basic-mobility-and-security-frequently-asked-questions-faq"></a>기본 이동성 및 보안 FAQ(질문과 대답)
 
@@ -51,7 +51,7 @@ ms.locfileid: "50906267"
 
 ## <a name="im-trying-to-set-up-basic-mobility-and-security-but-it-seems-stuck-the-microsoft-365-service-health-has-been-showing-provisioning-for-a-while-what-can-i-do"></a>기본 이동성 및 보안을 설정하려고 했지만 정체된 것 같은데요. Microsoft 365 서비스 상태는 한 동안 "프로비저닝"을 표시하고 있습니다. 어떻게 해야 하나요?
 
-서비스를 준비하는 데 시간이 걸릴 수 있습니다. 프로비전이 완료되면 기본 모바일 및 보안 페이지가 표시됩니다. If you've waited 24 hours and the status is still provisioning, please contact Support and we'll help help out what the issue is. 지원 옵션에 대한 자세한 내용은 [여전히 도움이 필요하세요? 을 참조하세요.](https://support.microsoft.com/office/frequently-asked-questions-about-basic-mobility-and-security-3871f99c-c9db-4a23-86f9-902c1b02f58d#bkmk_needhelp)
+서비스를 준비하는 데 시간이 걸릴 수 있습니다. 프로비전이 완료되면 기본 모바일 및 보안 페이지가 표시됩니다. If you've waited 24 hours and the status is still provisioning, please contact Support and we'll help help out what the issue is.
 
 ## <a name="what-can-i-do-if-device-enrollment-fails"></a>장치 등록에 실패하면 어떻게 해야 하나요?
 
@@ -73,7 +73,7 @@ ms.locfileid: "50906267"
 
 ## <a name="how-do-policies-work-for-basic-mobility-and-security-how-do-i-set-them-up-disable-them"></a>기본 이동성 및 보안에 대한 정책은 어떻게 작동하나요? 설정 방법 사용하지 않도록 설정하세요?
 
-기본 모바일 및 보안에 대한 초기 설정을 완료한 후 정책을 만들어 보안 및 준수 센터의 사용자 & 적용합니다. 정책을 사용하려면 정책 사용자가 기본 이동성 및 보안에 장치를 등록해야 장치를 사용하여 Microsoft 365 데이터에 액세스할 수 있습니다. 설정하는 정책에 따라 모바일 장치의 설정(예: 암호를 다시 설정해야 하는 방법 또는 데이터 암호화가 필요한지 여부)이 결정됩니다. 자세한 내용은 [기본](create-device-security-policies.md)모바일 및 보안 및 Microsoft 365 규정 준수 센터에서 장치 보안   정책 [만들기를 참조하세요.](https://support.microsoft.com/office/7e696a40-b86b-4a20-afcc-559218b7b1b8)
+기본 모바일 및 보안에 대한 초기 설정을 완료한 후 정책을 만들어 보안 및 준수 센터의 사용자 & 적용합니다. 정책을 사용하려면 정책 사용자가 기본 이동성 및 보안에 장치를 등록해야 장치를 사용하여 Microsoft 365 데이터에 액세스할 수 있습니다. 설정하는 정책에 따라 모바일 장치의 설정(예: 암호를 다시 설정해야 하는 방법 또는 데이터 암호화가 필요한지 여부)이 결정됩니다. 자세한 내용은 [기본](create-device-security-policies.md)모바일 및 보안 및 Microsoft 365 규정 준수 센터에서 장치 보안   정책 [만들기를 참조하세요.](../../compliance/microsoft-365-compliance-center.md)
 
 장치 정책을 만들고 배포하는 단계별 지침은 [Create device security policies in Basic Mobility and Security를 참조하십시오.](create-device-security-policies.md)
 

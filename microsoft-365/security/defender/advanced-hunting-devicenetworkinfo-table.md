@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e6bfb781b3454025c5ce0f43899180c91761a56d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 11a6fd00524e3dd7ad456f68da6f493d74deee69
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932562"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023193"
 ---
 # <a name="devicenetworkinfo"></a>DeviceNetworkInfo
 
@@ -34,6 +34,7 @@ ms.locfileid: "51932562"
 
 **적용 대상:**
 - Microsoft 365 Defender
+- 끝점용 Microsoft Defender
 
 
 
@@ -48,8 +49,8 @@ ms.locfileid: "51932562"
 | `DeviceName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름) |
 | `NetworkAdapterName` | 문자열 | 네트워크 어댑터의 이름 |
 | `MacAddress` | 문자열 | 네트워크 어댑터의 MAC 주소 |
-| `NetworkAdapterType` | 문자열 | 네트워크 어댑터 유형입니다. 가능한 값은 이 [열거를 참조하세요.](/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2) |
-| `NetworkAdapterStatus` | 문자열 | 네트워크 어댑터의 작동 상태입니다. 가능한 값은 이 [열거를 참조하세요.](/dotnet/api/system.net.networkinformation.operationalstatus?view=netframework-4.7.2) |
+| `NetworkAdapterType` | 문자열 | 네트워크 어댑터 유형입니다. 가능한 값은 이 [열거를 참조하세요.](/dotnet/api/system.net.networkinformation.networkinterfacetype) |
+| `NetworkAdapterStatus` | 문자열 | 네트워크 어댑터의 작동 상태입니다. 가능한 값은 이 [열거를 참조하세요.](/dotnet/api/system.net.networkinformation.operationalstatus) |
 | `TunnelType` | 문자열 | 터널링 프로토콜( 인터페이스가 이 용도로 사용되는 경우(예: 6to4, Teredo, ISATAP, PPTP, SSTP 및 SSH) |
 | `ConnectedNetworks` | 문자열 | 어댑터가 연결된 네트워크입니다. 각 JSON 배열에는 네트워크 이름, 범주(공용, 개인 또는 도메인), 설명 및 인터넷에 공개적으로 연결되어 있는지를 나타내는 플래그가 포함되어 있습니다. |
 | `DnsAddresses` | 문자열 | JSON 배열 형식의 DNS 서버 주소 |

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: 요금제 또는 회사 이름을 변경하거나 여러 구독을 하나의 계정으로 결합할 때 두 개의 Microsoft 365 계정 간에 데이터를 수동으로 전송하는 방법을 찾아야 합니다.
-ms.openlocfilehash: 9916da50f4589f949d35466ca6aa8f1d79cc40ea
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b240ffbbdbfb6ed7d20a9ead9b1ee90a3af4570d
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915509"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023836"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>두 계정 간에 수동으로 데이터 전송
 
@@ -91,11 +91,11 @@ SharePoint Online 환경에서 파일 공유 또는 로컬 컴퓨터에 문서 �
   
 - 이전 사이트를 서식 파일로 저장하고 서식 파일을 새 사이트로 가져올 수 있습니다.
 
-- 문서를 전송하려면 먼저 새 사이트에서 계층 구조를 수동으로 다시 만드면 됩니다. 그런 다음 두 SharePoint 팀 사이트를 동시에 열고, Windows 탐색기를 사용하여 두 문서 라이브러리를 열고, 문서를 복사하여 붙여넣을 수 있습니다. 비디오: 탐색기에서 열기를 사용하여 라이브러리 파일 복사 [또는 이동을 참조합니다.](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790)
+- 문서를 전송하려면 먼저 새 사이트에서 계층 구조를 수동으로 다시 만드면 됩니다. 그런 다음 두 SharePoint 팀 사이트를 동시에 열고, Windows 탐색기를 사용하여 두 문서 라이브러리를 열고, 문서를 복사하여 붙여넣을 수 있습니다. 비디오: 탐색기에서 열기를 사용하여 라이브러리 파일 복사 [또는 이동을 참조합니다.](../../business-video/store-files.md)
 
 - 목록 데이터를 전송하기 위해 목록 서식 파일 을 [저장하고](https://support.microsoft.com/office/c3884ad1-bc49-44b8-b3d6-3bc6a01eb393)저장된 서식 파일을 사용하여 새 사이트에서 목록을 다시 만듭니다.
 
-- SharePoint Online 환경(비즈니스용 OneDrive 또는 팀 사이트)에서 파일 공유 또는 로컬 컴퓨터에 문서 라이브러리 또는 목록 콘텐츠를 저장하려면 SharePoint Online 콘텐츠의 수동 마이그레이션에 대한 [정보를 참조하세요.](https://support.microsoft.com/kb/2783484)
+- SharePoint Online 환경(비즈니스용 OneDrive 또는 팀 사이트)에서 파일 공유 또는 로컬 컴퓨터에 문서 라이브러리 또는 목록 콘텐츠를 저장하려면 SharePoint Online 콘텐츠의 수동 마이그레이션에 대한 [정보를 참조하세요.](/sharepoint/troubleshoot/migration-tool/content-manual-migration)
 
 ## <a name="transfer-users-data-between-subscriptions"></a>구독 간에 사용자 데이터 전송
 

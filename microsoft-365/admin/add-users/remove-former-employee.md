@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: '다음 검사 목록에 따라 Microsoft 365에서 직원을 제거하고 데이터를 보호합니다. '
-ms.openlocfilehash: 50355a20e0d0e8ff782deebd9be65fdabf875bb2
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ec2dd37a38c2509c2aa6a904326b74c8d3b8d7fb
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860776"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024004"
 ---
 # <a name="remove-or-delete-a-former-employee"></a>이전 직원 제거 또는 삭제
 
@@ -42,7 +42,7 @@ ms.locfileid: "51860776"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 직원이 로그인하지 못하게 방지:
 

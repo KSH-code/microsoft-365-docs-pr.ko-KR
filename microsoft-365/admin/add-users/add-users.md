@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: 사용자를 추가하고 동시에 Microsoft 365에 라이선스를 할당하는 방법을 알아보세요.
 ms.date: 07/01/2020
-ms.openlocfilehash: a7c5fcf1a129a1d434b6e641688ce4c5d234817d
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 97b7118f4052d4ab4e0ffe8ecec96f32e4042108
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760005"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024016"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>사용자 추가 및 동시에 라이선스 할당
 
@@ -85,7 +85,7 @@ ms.locfileid: "51760005"
 
 ## <a name="next-steps"></a>다음 단계
 
-사용자를 추가한 후 Microsoft에서 전자 메일 알림을 수신합니다. 전자 메일에는 사용자가 Microsoft 365에 로그인할 수 있도록 해당 사용자의 사용자 ID와 암호가 포함됩니다. 새 암호를 알려 주기 위한 일반 프로세스를 사용합니다. [직원 빠른 시작 가이드](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f)를 새 사용자와 공유하여 [PC 또는 Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)에서 Office 앱을 다운로드하고 설치하는 방법, [모바일 장치에서 Office 앱 및 전자 메일을 설정](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)하는 방법 등을 설정하세요.
+사용자를 추가한 후 Microsoft에서 전자 메일 알림을 수신합니다. 전자 메일에는 사용자가 Microsoft 365에 로그인할 수 있도록 해당 사용자의 사용자 ID와 암호가 포함됩니다. 새 암호를 알려 주기 위한 일반 프로세스를 사용합니다. [직원 빠른 시작 가이드](../../business-video/employee-quick-setup.md)를 새 사용자와 공유하여 [PC 또는 Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)에서 Office 앱을 다운로드하고 설치하는 방법, [모바일 장치에서 Office 앱 및 전자 메일을 설정](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)하는 방법 등을 설정하세요.
 
 ## <a name="related-content"></a>관련 콘텐츠
 

@@ -12,12 +12,12 @@ ms.collection: Adm_Commerce_Pay
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b241e1261c35c95c15aeca325807993074477e7f
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: bfe86d639b3532fabd56957262160255db994098
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50551515"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024088"
 ---
 # <a name="payment-information-for-denmark"></a>덴마크의 결제 정보
 
@@ -35,10 +35,12 @@ IBAN 코드: GB19CITI18500812207613\
 계정 번호: 12207613\
 계정 이름: MICROSOFT
 
-2021년 3월 1일부터 **Microsoft Danmark ApS에서** 청구한 송장이 있는 경우 다음 은행 정보를 사용하세요.
+2021년 3월 1일부터 **Microsoft Denmark ApS에서** 청구한 송장이 있는 경우 다음 은행 정보를 사용하세요.
 
 은행: Citibank Europe plc\
 SWIFT 코드: CITIIE2X\
 IBAN 코드: IE27CITI99005170000126\
 계정 번호: 70000126\
 계정 이름: MICROSOFT
+
+현지 Microsoft 자회사에서 발급한 송장은 표준 세율의 VAT/판매세/GST로 발급된 것으로, VAT/판매세/GST 목적에 대한 국내 서비스 공급으로 표시됩니다.

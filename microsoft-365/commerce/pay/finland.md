@@ -12,12 +12,12 @@ ms.collection: Adm_Commerce_Pay
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 86d1ac6f816fae667e64ac4806db40d6e8e002ca
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 87c0b1aace9d1d3950fef1f8375b4668aeaaef21
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50551287"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024076"
 ---
 # <a name="payment-information-for-finland"></a>핀란드의 결제 정보
 
@@ -42,3 +42,5 @@ SWIFT 코드: CITIIE2X\
 IBAN 코드: IE97CITI99005170000127\
 계정 번호: 70000127\
 계정 이름: MICROSOFT
+
+현지 Microsoft 자회사에서 발급한 송장은 표준 세율의 VAT/판매세/GST로 발급된 것으로, VAT/판매세/GST 목적에 대한 국내 서비스 공급으로 표시됩니다.

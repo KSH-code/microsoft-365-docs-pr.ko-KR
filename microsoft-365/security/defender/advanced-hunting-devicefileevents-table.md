@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 40663a06e380377ccfa33dcb41a69c42e729704d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1b716a37aa39dffc8dc541335f42265ae47fe989
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935512"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023008"
 ---
 # <a name="devicefileevents"></a>DeviceFileEvents
 
@@ -34,6 +34,7 @@ ms.locfileid: "51935512"
 
 **적용 대상:**
 - Microsoft 365 Defender
+- 끝점용 Microsoft Defender
 
 고급 `DeviceFileEvents` 헌팅 [체계의](advanced-hunting-overview.md) 표에는 파일 만들기, 수정 및 기타 파일 시스템 이벤트에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 

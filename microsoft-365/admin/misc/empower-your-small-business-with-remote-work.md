@@ -1,5 +1,5 @@
 ---
-title: 원격 작업을 통해 중소기업의 역량 강화
+title: 원격 작업을 통해 소기업의 역량 강화
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -15,14 +15,14 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: Microsoft 365를 사용하여 비즈니스를 위한 원격 작업의 최신 방법 정보, 팁, 리소스 및 지침을 찾아보세요.
-ms.openlocfilehash: 3ef8bb3527e6be258eda8d745d841e8bd81cdd6c
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 5bdff59f3d07c59951c6da87d7b28432fb7c5878
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860586"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023740"
 ---
-# <a name="empower-your-small-business-with-remote-work"></a>원격 작업을 통해 중소기업의 역량 강화
+# <a name="empower-your-small-business-with-remote-work"></a>원격 작업을 통해 소기업의 역량 강화
 
 기업은 사람들이 원격으로 작업하고 고객과 가상으로 연결해야 하는 필요성이 증가하는 데 적응할 때 이 사이트는 Microsoft 365를 사용하여 비즈니스를 위한 원격 작업 관련 최신 방법 정보, 팁, 리소스 및 지침으로 업데이트됩니다.
 
@@ -37,9 +37,9 @@ ms.locfileid: "51860586"
 
 COVID-19(Novel Coronavirus) 발생에 비하면 많은 비즈니스 소유자가 완전히 원격 작업 직원을 찾게 됩니다. 다음은 원격 작업으로의 전환을 안전하고 안전하고 생산적으로 만들기 위해 할 수 있는 작업입니다.
 
-자세한 내용은 [중소기업에서 Microsoft Teams 시작을 참조하세요.](https://support.microsoft.com/office/get-started-with-microsoft-teams-in-your-small-business-184f1aba-2f91-43f0-86e1-9fae607e24f6)
+자세한 내용은 [중소기업에서 Microsoft Teams 시작을 참조하세요.](../../business-video/get-started-teams-small-business.md)
 
-이미 구독이 있지만 설정해야 하나요? [Microsoft 365 Small Business 교육을 참조합니다.](https://support.microsoft.com/office/set-up-your-small-business-6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+이미 구독이 있지만 설정해야 하나요? [Microsoft 365 Small Business 교육을 참조합니다.](../../business-video/index.yml)
 
 ## <a name="connect-with-employees-and-customers"></a>직원 및 고객과 연결
 
@@ -49,19 +49,19 @@ COVID-19(Novel Coronavirus) 발생에 비하면 많은 비즈니스 소유자가
 
 Microsoft Teams를 통해 직원, 고객 또는 파트너와 오디오, 비디오 및 웹 모임을 호스팅합니다.
 
-자세한 내용은 [호스트 온라인](https://support.microsoft.com/topic/host-online-meetings-for-your-business-d5101f5c-30e3-4097-bb10-6d2fdeb9cf53) 모임 및 직원 및 고객과 [채팅을 참조하세요.](https://support.microsoft.com/office/chat-with-employees-and-customers-65748808-a403-462c-a6e1-b169e5bc6c92)
+자세한 내용은 [호스트 온라인](../../business-video/start-and-pin-chats.md) 모임 및 직원 및 고객과 [채팅을 참조하세요.](https://support.microsoft.com/office/chat-with-employees-and-customers-65748808-a403-462c-a6e1-b169e5bc6c92)
 
 ### <a name="store-and-share-files"></a>파일 저장 및 공유
 
 비즈니스 문서를 클라우드에 저장하고 내부 및 외부적으로 안전하게 공유합니다.
 
-자세한 내용은 이 비즈니스 [파일](https://support.microsoft.com/topic/share-your-business-files-overview-6725104a-6df7-4778-99c4-c06217dffecc) 공유 개요 및 파일 업로드 및 [공유를 참조하세요.](https://support.microsoft.com/office/upload-and-share-files-57b669db-678e-424e-b0a0-15d19215cb12)
+자세한 내용은 이 비즈니스 [파일](../../business-video/overview-file-sharing.md) 공유 개요 및 파일 업로드 및 [공유를 참조하세요.](https://support.microsoft.com/office/upload-and-share-files-57b669db-678e-424e-b0a0-15d19215cb12)
 
 ### <a name="collaborate-with-customers"></a>고객과 공동 작업
 
 직원과 고객을 팀에 초대하여 직접 협력하여 모든 작업을 한 장소에서 공동으로 작업할 수 있습니다.
 
-자세한 내용은 [팀](https://support.microsoft.com/office/create-a-team-with-guests-11fbb083-52ee-434d-8c6e-63711fdafac7) 만들기 및 게스트 액세스 [사용 을 참조하세요.](https://docs.microsoft.com/MicrosoftTeams/guest-joins)
+자세한 내용은 [팀](../../business-video/team-with-guests.md) 만들기 및 게스트 액세스 [사용 을 참조하세요.](/MicrosoftTeams/guest-access)
 
 ## <a name="manage-and-secure-your-business-to-run-remotely"></a>원격으로 실행하기 위한 비즈니스 관리 및 보안
 
@@ -71,13 +71,13 @@ Microsoft Teams를 통해 직원, 고객 또는 파트너와 오디오, 비디�
 
 다단계 인증을 사용하여 데이터 및 장치를 보호합니다.
 
-자세한 내용은 다단계 인증 [켜기 을 참조하세요.](https://support.microsoft.com/office/secure-employee-accounts-with-mfa-in-microsoft-365-business-e12187b8-216a-4490-9e3b-df34a06fb787)
+자세한 내용은 다단계 인증 [켜기 을 참조하세요.](../../business-video/turn-on-mfa.md)
 
 ### <a name="secure-your-devices"></a>장치 보안
 
 PC 및 휴대폰을 원격으로 관리하고 보호하고 최신으로 보호합니다. Microsoft 365 Business가 필요합니다.
 
-자세한 내용은 장치 [관리를 참조하세요.](https://support.microsoft.com/office/manage-policies-for-windows-10-pcs-5b5aec9e-e267-463a-bc39-54753375e579)
+자세한 내용은 장치 [관리를 참조하세요.](../../business-video/secure-win-10-pro-devices.md)
 
 ### <a name="more-for-admins-and-partners"></a>관리자 및 파트너에 대한 추가
 

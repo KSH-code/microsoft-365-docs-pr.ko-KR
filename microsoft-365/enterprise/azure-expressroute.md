@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 6d2534a2-c19c-4a99-be5e-33a0cee5d3bd
 description: Office 365에서 Azure ExpressRoute를 사용하는 방법을 알아보고 이를 사용하여 배포하는 경우 네트워크 구현 프로젝트를 계획합니다.
-ms.openlocfilehash: 9af9a2981c9220784725284aa602cf2de66721e5
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: d4c14d97cff2952f5f7052a8aa2940f05d644737
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408374"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023728"
 ---
 # <a name="azure-expressroute-for-office-365"></a>Office 365용 Azure Express 경로
 
@@ -39,7 +39,7 @@ Office 365에서 Azure ExpressRoute를 사용하는 방법 및 Office 365에서 
 > 끝점용 Microsoft Defender는 Azure Express 경로에서 지원되지 않습니다.
 
 > [!NOTE]
-> Office 365용 ExpressRoute를 사용하려면 Microsoft 권한 부여가 필요합니다. Microsoft는 고객의 규정 요구 사항에 따라 직접 연결을 요구할 때 모든 고객 요청을 검토하고 Office 365 사용에 대한 ExpressRoute를 승인합니다. 이러한 요구 사항이 있는 경우 Microsoft 검토를 시작하려면 [Office 365용 ExpressRoute](https://aka.ms/O365ERReview) 요청 양식에 직접 연결이 필요하다는 의미로 해석되는 규정에 대한 텍스트 발췌 및 웹 링크를 제공하세요. Office 365에 대한 경로 필터를 만들려고 하는 권한이 없는 구독에 오류 메시지가 [표시됩니다.](https://support.microsoft.com/kb/3181709)
+> Office 365용 ExpressRoute를 사용하려면 Microsoft 권한 부여가 필요합니다. Microsoft는 고객의 규정 요구 사항에 따라 직접 연결을 요구할 때 모든 고객 요청을 검토하고 Office 365 사용에 대한 ExpressRoute를 승인합니다. 이러한 요구 사항이 있는 경우 Microsoft 계정 담당자에게 문의하여 Microsoft 검토를 시작하세요. Office 365에 대한 경로 필터를 만들려고 하는 권한이 없는 구독에 오류 메시지가 [표시됩니다.](https://support.microsoft.com/kb/3181709)
 
 이제 선택한 Office 365 네트워크 트래픽에 대해 Office 365에 직접 네트워크 연결을 추가할 수 있습니다. Azure ExpressRoute는 직접 연결, 예측 가능한 성능을 제공하며 Microsoft 네트워킹 구성 요소에 대해 99.95%의 UPTIME SLA를 제공합니다. Azure ExpressRoute를 통해 지원되지 않는 서비스에 대한 인터넷 연결이 계속 필요합니다.
 

@@ -22,12 +22,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 사용자에게 라이선스를 할당하는 방법을 알아봅니다.
-ms.openlocfilehash: 3622be180ae622d5d08066cc03773a8175fe9342
-ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
+ms.openlocfilehash: 9fa8981949215c4cf7779a21ff7089d7534e1ef0
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51398166"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023752"
 ---
 # <a name="assign-licenses-to-users"></a>사용자에게 라이선스 할당
 
@@ -174,7 +174,7 @@ Azure Active Directory 관리 센터에서 게스트 사용자를 조직과 공�
 
 ## <a name="next-steps"></a>다음 단계
 
-사용자가 아직 Office 앱을 설치하지 않은 경우 [직원 빠른 시작 가이드](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f)를 사용자와 공유하여 [PC 또는 Mac에서 Microsoft 365 또는 Office 2019를 다운로드하고 설치하는 방법](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) 및 [모바일 장치에서 Office 앱 및 전자 메일을 설정하는 방법](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)과 같은 항목을 설정할 수 있습니다.
+사용자가 아직 Office 앱을 설치하지 않은 경우 [직원 빠른 시작 가이드](../../business-video/employee-quick-setup.md)를 사용자와 공유하여 [PC 또는 Mac에서 Microsoft 365 또는 Office 2019를 다운로드하고 설치하는 방법](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) 및 [모바일 장치에서 Office 앱 및 전자 메일을 설정하는 방법](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)과 같은 항목을 설정할 수 있습니다.
 
 ## <a name="related-content"></a>관련 콘텐츠
 

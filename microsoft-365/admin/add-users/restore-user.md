@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: 삭제된 사용자 계정 및 모든 관련 데이터를 복원하는 방법을 학습합니다.
-ms.openlocfilehash: 75e664c68dec13b857e4bd308d49e5b58d5edfc8
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 4893f7468a8ab5919dd3be1cce233917323f2076
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471016"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023968"
 ---
 # <a name="restore-a-user"></a>사용자 복원
    
@@ -38,7 +38,7 @@ ms.locfileid: "51471016"
   
 - 계정에 할당할 수 있는 라이선스가 있는지 확인
     
-- 회사에서 Active Directory를 사용할 경우, 사용자 계정 복원에 대한 자세한 내용은 [How to troubleshoot deleted user accounts in Office 365](https://support.microsoft.com/kb/2619308)(Office 365에서 삭제된 사용자 계정 문제를 해결하는 방법)를 참조하세요. 
+- 회사에서 Active Directory를 사용할 경우, 사용자 계정 복원에 대한 자세한 내용은 [How to troubleshoot deleted user accounts in Office 365](/office365/troubleshoot/active-directory/restore-deleted-user-accounts.md)(Office 365에서 삭제된 사용자 계정 문제를 해결하는 방법)를 참조하세요. 
     
 ## <a name="restore-one-or-more-user-accounts"></a>하나 이상의 사용자 계정 복원
 

@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터 - 이번 달에 추가된 기능에 대
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 0c17c6840d73c5b0a2714c6c6a832c154e2a9640
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 90f75b0c1ea38833325c51399108551286f55e92
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768724"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024196"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운
 
@@ -231,7 +231,7 @@ Microsoft에서 Ignite의 시기로 이동하고 있으므로 세션 중에 많�
 
 ### <a name="docs-training-and-videos-june"></a>Docs, training, and videos(6월)
 
-- [Teams 시작](https://support.microsoft.com/office/184f1aba-2f91-43f0-86e1-9fae607e24f6)
+- [Teams 시작](../business-video/get-started-teams-small-business.md)
 
 ## <a name="may-2020"></a>2020년 5월
 
@@ -333,19 +333,19 @@ Teams의 사용이 늘어나면 관리에 도움이 되는 몇 가지 기능이 
 
 #### <a name="for-your-users"></a>사용자의 경우
 
-- [모임 예약](https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a)
+- [모임 예약](../business-video/schedule-guest-meeting.md)
 - [Teams 모임에 참가](https://support.microsoft.com/office/078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [조직 전체 팀 만들기](https://support.microsoft.com/office/037bb27a-bcc9-48fe-8d72-44d9482420a3)
-- [게스트와 팀 만들기](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7)
-- [팀을 게스트로 참여](https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [그룹 전자 메일 주소 만들기](https://support.microsoft.com/office/ded875f9-a9de-437f-b559-2ae4f235bb2b)
+- [조직 전체 팀 만들기](../business-video/org-wide-team.md)
+- [게스트와 팀 만들기](../business-video/team-with-guests.md)
+- [팀을 게스트로 참여](../business-video/join-team-guest.md)
+- [그룹 전자 메일 주소 만들기](../business-video/group-email.md)
 
 #### <a name="for-admins-and-business-owners"></a>관리자 및 비즈니스 소유자
 
-- [원격 작업을 통해 중소기업의 역량 강화](https://support.microsoft.com/office/9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
-- [원격 중소기업 실행](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [Microsoft Business Basic에 등록](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [2 요소 로그인 설정](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [원격 작업을 통해 소기업의 역량 강화](https://support.microsoft.com/office/9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
+- [원격 중소기업 실행](../business-video/sign-up.md)
+- [Microsoft Business Basic에 등록](../business-video/sign-up.md)
+- [2 요소 로그인 설정](../business-video/sign-up.md)
 
 ## <a name="march-2020"></a>2020년 3월
 

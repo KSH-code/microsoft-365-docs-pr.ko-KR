@@ -27,12 +27,12 @@ search.appverid:
 ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
 description: 'Office 365 등록 프로세스를 진행하기 전에 알아야 할 것을 이해합니다. '
-ms.openlocfilehash: 93d3f58db24e4233e8d7b2929fd2471707614097
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f2a4f555540b801441644af28435170f82229909
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904375"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023920"
 ---
 # <a name="how-to-sign-up---admin-help"></a>등록 방법 - 관리자 도움말
 
@@ -70,7 +70,7 @@ ms.locfileid: "50904375"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 요금제 선택에 도움이 필요하세요? 영업 컨설턴트가 질문에 답변해 드립니다. 모든 제품 [비교로 이동하여](https://products.office.com/compare-all-microsoft-office-products?tab=2) 페이지 왼쪽에 나열된 연락처 지원 옵션 중 하나를 선택합니다.
   
@@ -135,6 +135,6 @@ ms.locfileid: "50904375"
     > [!IMPORTANT]
     >  등록할 때 조직에 가장 적합한 결제 방법을 선택해야 합니다. 결제 옵션을 변경하려면 결제 지원에 문의합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 Business 교육 비디오](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[비즈니스용 Microsoft 365 교육](../../business-video/index.yml) 비디오(링크)

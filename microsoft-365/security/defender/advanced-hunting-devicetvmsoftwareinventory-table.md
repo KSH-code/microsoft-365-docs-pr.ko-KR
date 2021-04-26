@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: c83217df5427b72eeeb4276ad95d160dc6765c75
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 5f82684ebb10b72ff83a6789c010f5ec9fa099e7
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934852"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024232"
 ---
 # <a name="devicetvmsoftwareinventory"></a>DeviceTvmSoftwareInventory
 
@@ -34,6 +34,7 @@ ms.locfileid: "51934852"
 
 **적용 대상:**
 - Microsoft 365 Defender
+- 끝점용 Microsoft Defender
 
 >[!IMPORTANT]
 > 일부 정보는 상용으로 출시되기 전에 실질적으로 수정될 수 있는 사전 릴리스된 제품과 관련이 있습니다. Microsoft는 여기에서 제공하는 정보와 관련하여 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.

@@ -19,15 +19,14 @@ description: 보안 및 준수 센터의 탐색기 및 실시간 검색을 사�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0dcda063fc544c88157cff21b8a28f7a84a6a6fb
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c6bea6cb60579263515d21e159c4032fe4281cad
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934708"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024184"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
-
 
 **적용 대상**
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
@@ -35,6 +34,9 @@ ms.locfileid: "51934708"
 
 조직에 [Office 365용 Microsoft Defender가](defender-for-office-365.md)있으며 [](#required-licenses-and-permissions)필요한 권한이 있는 경우 **탐색기** 또는 실시간 검색(이전의 실시간 *보고서)이* 있습니다. [새로운](#new-features-in-threat-explorer-and-real-time-detections)기능 확인  보안 & 준수 센터에서 위협 관리로 이동한 다음 **탐색기**  또는 실시간 검색 **을 선택 합니다.**
 
+<br>
+
+****
 
 |Microsoft Defender for Office 365 요금제 2를 사용하면 다음을 볼 수 있습니다.|Microsoft Defender for Office 365 요금제 1을 사용하면 다음을 볼 수 있습니다.|
 |---|---|
@@ -55,8 +57,9 @@ ms.locfileid: "51934708"
 ## <a name="improvements-to-threat-hunting-experience"></a>위협 헌팅 환경 개선
 
 ### <a name="introduction-of-alert-id-for-mdo-alerts-within-explorerreal-time-detections-preview"></a>탐색기/실시간 감지 내 MDO 경고에 대한 경고 ID 소개(미리 보기)
+
 현재 경고에서 위협 탐색기로 이동하면 탐색기 내에서 필터링된 보기가 열리며 경고 정책 ID로 필터링된 보기가 표시됩니다(경고 정책의 고유 식별자인 정책 ID).
-위협 탐색기 및 실시간 검색에 경고 ID(아래 경고 ID의 예 참조)를 도입하여 특정 경고 및 전자 메일 수와 관련된 메시지를 볼 수 있도록 이러한 통합을 더욱 관련성이 강화하고 있습니다. 또한 메시지가 경고의 일부이면 해당 메시지에서 특정 경고로 이동할 수 있습니다.  
+위협 탐색기 및 실시간 검색에 경고 ID(아래 경고 ID의 예 참조)를 도입하여 특정 경고 및 전자 메일 수와 관련된 메시지를 볼 수 있도록 이러한 통합을 더욱 관련성이 강화하고 있습니다. 또한 메시지가 경고의 일부이면 해당 메시지에서 특정 경고로 이동할 수 있습니다.
 
 개별 경고를 볼 때 URL 내에서 경고 ID를 사용할 수 있습니다. 의 `https://protection.office.com/viewalerts?id=372c9b5b-a6c3-5847-fa00-08d8abb04ef1` 예입니다.
 
@@ -66,11 +69,13 @@ ms.locfileid: "51934708"
 > [!div class="mx-imgBorder"]
 > ![경고 ID 세부 정보 플라이아웃](../../media/AlertID-DetailsFlyout.png)
 
- 
-### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days-preview"></a>평가판 테넌트에 대한 탐색기(및 실시간 검색) 데이터 보존 및 검색 제한 확장(미리 보기)  
-이 변경의 일부로 Office P1 및 P2 평가판 테넌트용 Defender에 대한 위협 탐색기/실시간 검색에서 30일(이전 7일보다 증가)에 걸쳐 전자 메일 데이터를 검색하고 필터링할 수 있습니다. 이는 이미 30일 데이터 보존 및 검색 기능이 있는 P1 및 P2/E5 고객의 프로덕션 테넌트에는 영향을 끼치지 않습니다. 
+### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days-preview"></a>평가판 테넌트에 대한 탐색기(및 실시간 검색) 데이터 보존 및 검색 제한 확장(미리 보기)
 
-### <a name="updated-limits-for-export-of-records-for-threat-explorer-preview"></a>위협 탐색기 레코드 내보내기 제한 업데이트(미리 보기) 
+이 변경의 일부로 Office P1 및 P2 평가판 테넌트용 Defender에 대한 위협 탐색기/실시간 검색에서 30일(이전 7일보다 증가)에 걸쳐 전자 메일 데이터를 검색하고 필터링할 수 있습니다.
+이는 이미 30일 데이터 보존 및 검색 기능이 있는 P1 및 P2/E5 고객의 프로덕션 테넌트에는 영향을 끼치지 않습니다.
+
+### <a name="updated-limits-for-export-of-records-for-threat-explorer-preview"></a>위협 탐색기 레코드 내보내기 제한 업데이트(미리 보기)
+
 이 업데이트의 일부로 위협 탐색기에서 내보낼 수 있는 전자 메일 레코드의 행 수가 9990개에서 200,000개 레코드로 늘어났습니다. 현재 내보낼 수 있는 열 집합은 동일하게 유지되지만 행 수는 현재 제한에서 증가합니다.
 
 ### <a name="tags-in-threat-explorer"></a>위협 탐색기에서 태그
@@ -99,6 +104,7 @@ ms.locfileid: "51934708"
 > ![필터 태그 아미기](../../media/tags-filter-not.png)
 
 #### <a name="email-detail-flyout"></a>전자 메일 세부 정보 플라이아웃
+
 보낸 사람 및 받는 사람에 대한 개별 태그를 확인하려면 제목을 선택하여 메시지 세부 정보 플라이아웃을 열 수 있습니다. 전자 **메일에** 보낸 사람 및 받는 사람 태그가 있는 경우 요약 탭에 별도로 표시됩니다.
 보낸 사람 및 받는 사람에 대한 개별 태그에 대한 정보도 내보낼 CSV 데이터로 확장되어 두 개의 개별 열에서 이러한 세부 정보를 볼 수 있습니다.
 
@@ -107,13 +113,12 @@ ms.locfileid: "51934708"
 
 태그 정보는 URL 클릭 플라이아웃에도 표시됩니다. 이 보기를 보려면 피싱 또는 모든 전자 메일 보기로 이동한 다음 **URL** 또는 **URL 클릭 탭으로** 이동하세요. 해당 클릭과 연결된 태그를 포함하여 해당 URL의 클릭에 대한 추가 세부 정보를 보려면 개별 URL 플라이아웃을 선택합니다.
 
-
 ### <a name="updated-timeline-view"></a>업데이트된 시간 표시 막대 보기
 
 > [!div class="mx-imgBorder"]
 > ![URL 태그](../../media/tags-urls.png)
-> 
-[이 비디오](https://www.youtube.com/watch?v=UoVzN0lYbfY&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=4)를 시청하여 자세히 확인하세요. 
+>
+[이 비디오](https://www.youtube.com/watch?v=UoVzN0lYbfY&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=4)를 시청하여 자세히 확인하세요.
 
 ## <a name="improvements-to-the-threat-hunting-experience-upcoming"></a>위협 헌팅 환경 개선(예정)
 
@@ -174,6 +179,7 @@ ms.locfileid: "51934708"
 *추가 작업은* 전자 메일을 배달한 후에 적용되었습니다. 여기에는 *ZAP,*  수동 수정(관리자가 수행한 작업(예: 소프트 *삭제),*  동적 배달 및 다시 처리(소수로 좋은 것으로 감지된 전자 메일의 경우)가 포함됩니다.
 
 > [!NOTE]
+>
 > - 보류 중인 변경 내용의 일부로 현재 배달 작업 필터에 표시되어 있는 "ZAP에서 제거됨" 값이 제거됩니다. 추가 작업을 통해 ZAP 시도가 있는 모든 전자 메일을 검색할 **수 있습니다.**
 >
 > - 검색 기술 및 추가  작업(특히  ZAP 시나리오의 경우)에 대한 새 필드와 값이 있습니다. 기존 저장된 쿼리 및 추적된 쿼리를 평가하여 새 값으로 작동할 수 있도록 해야 합니다.
@@ -206,13 +212,10 @@ ms.locfileid: "51934708"
 
 - URL 플라이아웃의 클릭 섹션에 전체 클릭된 URL(URL의 일부인 쿼리 매개 변수 포함)을 표시하세요.  현재 URL 도메인 및 경로는 제목 표시줄에 표시됩니다. 전체 URL을 표시하기 위해 해당 정보를 확장하고 있습니다.
 
-- URL  *필터(URL과* URL 도메인 및 URL 도메인 및 *경로)* 픽스: 업데이트는 URL/클릭 결과를 포함하는 메시지 검색에 영향을 미치게 됩니다. 프로토콜에 기반하지 않은 검색에 대한 지원을 사용하도록 설정하여 를 사용하지 않고 URL을 검색할 수 `http` 있습니다. 기본적으로 URL 검색은 다른 값을 명시적으로 지정하지 않는 한 http에 매핑됩니다. 예를 들면 다음과 같습니다.
-
-   -  URL, URL 도메인 및 URL 도메인 및 경로 필터 필드의 사전 사전을 사용하여 `http://` 검색합니다.    검색에 동일한 결과가 표시해야 합니다.
-
-   -  `https://`URL에서 prefix를 **검색합니다.** 값을 지정하지 않으면 `http://` prefix가 가정됩니다.
-
-   - `/`은 URL 경로, **URL** 도메인, **URL** 도메인 및 경로 필드의 시작과 끝에서 **무시됩니다.** `/` URL 필드의 끝에 있는 **은** 무시됩니다.
+- URL  *필터(URL과* URL 도메인 및 URL 도메인 및 *경로)* 픽스: 업데이트는 URL/클릭 결과를 포함하는 메시지 검색에 영향을 미치게 됩니다. 프로토콜에 기반하지 않은 검색에 대한 지원을 사용하도록 설정하여 를 사용하지 않고 URL을 검색할 수 `http` 있습니다. 기본적으로 URL 검색은 다른 값을 명시적으로 지정하지 않는 한 http에 매핑됩니다. 예:
+  - URL, URL 도메인 및 URL 도메인 및 경로 필터 필드의 사전 사전을 사용하여 `http://` 검색합니다.    검색에 동일한 결과가 표시해야 합니다.
+  - `https://`URL에서 prefix를 **검색합니다.** 값을 지정하지 않으면 `http://` prefix가 가정됩니다.
+  - `/`은 URL 경로, **URL** 도메인, **URL** 도메인 및 경로 필드의 시작과 끝에서 **무시됩니다.** `/` URL 필드의 끝에 있는 **은** 무시됩니다.
 
 ### <a name="phish-confidence-level"></a>피싱 신뢰 수준
 
@@ -290,16 +293,16 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 
 > [!IMPORTANT]
 > ETR 검색 및 이름 가용성은 사용자에게 할당된 특정 역할에 따라 달라집니다. ETR 이름을 보고 검색하려면 다음 역할/권한 중 하나를 설정해야 합니다. 이러한 역할이 할당되지 않은 경우 전송 규칙의 이름을 보거나 ETR 이름을 사용하여 메시지를 검색할 수 없습니다. 그러나 전자 메일 세부 정보에서 ETR 레이블 및 GUID 정보를 볼 수 있습니다. 전자 메일 그리드, 전자 메일 플라이아웃, 필터 및 내보내기의 기타 레코드 보기 환경은 영향을 받지 않습니다.
-> 
+>
 > - EXO 전용 - 데이터 손실 방지: 모두
 > - EXO 전용 - O365SupportViewConfig: 모두
 > - Microsoft Azure Active Directory 또는 EXO - 보안 관리자: 모두
 > - AAD 또는 EXO - 보안 판독기: 모두
 > - EXO 전용 - 전송 규칙: 모두
 > - EXO 전용 - View-Only 구성: 모두
-> 
+>
 > 전자 메일 그리드, 세부 정보 플라이아웃 및 내보내는 CSV 내에서 ETRS에는 아래 표시된 이름/GUID가 표시됩니다.
-> 
+>
 > > [!div class="mx-imgBorder"]
 > > ![Exchange 전송 규칙](../../media/ETR_Details.png)
 
@@ -315,7 +318,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 ## <a name="new-features-in-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색의 새로운 기능
 
 - [가장된 사용자 및 도메인으로 전송된 피싱 전자 메일 보기](#view-phishing-emails-sent-to-impersonated-users-and-domains)
--  [전자 메일 헤더 미리 보기 및 전자 메일 본문 다운로드](#preview-email-header-and-download-email-body)
+- [전자 메일 헤더 미리 보기 및 전자 메일 본문 다운로드](#preview-email-header-and-download-email-body)
 - [전자 메일 타임라인](#email-timeline)
 - [URL 내보내기 클릭 데이터](#export-url-click-data)
 
@@ -339,7 +342,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 
 4. 전자 메일 탭 > 탭에서 메시지 제목을 선택하여 가장된 도메인/검색된 위치와 같은 추가 가장 정보를 볼 수 있습니다.
 
-    **또는** 
+    **또는**
 
     가장된 **사용자를 선택하고** 텍스트 상자에 보호된 사용자의 전자 메일 주소를 입력합니다.
 
@@ -351,7 +354,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
     :::image type="content" source="../../media/threat-ex-views-impersonated-user-image.png" alt-text="위협 탐색기에서는 검색 위치 및 검색된 위협(여기서 사용자의 피싱 가장)을 표시하는 보호된 사용자에 대한 세부 정보 창을 자세히 제공합니다.":::
 
 > [!NOTE]
-> 3단계 또는 5단계에서 검색 기술을  선택하고 가장 도메인  또는 가장 사용자를 각각 선택하는 경우 사용자 또는 도메인에 대한 전자 메일 탭 세부 정보 탭의 정보와 검색된 위치는 피싱 방지 정책 페이지에 나열된 사용자 또는 도메인과 관련된 메시지에만   >   표시됩니다.   
+> 3단계 또는 5단계에서 검색 기술을  선택하고 가장 도메인  또는 가장 사용자를 각각 선택하는 경우 사용자 또는 도메인에 대한 전자 메일 탭 세부 정보 탭의 정보와 검색된 위치는 피싱 방지 정책 페이지에 나열된 사용자 또는 도메인과 관련된 메시지에만   >   표시됩니다.  
 
 ### <a name="preview-email-header-and-download-email-body"></a>전자 메일 헤더 미리 보기 및 전자 메일 본문 다운로드
 
@@ -366,16 +369,26 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 
 *배달 작업은* 기존 정책 또는 검색으로 인해 전자 메일에서 수행된 작업입니다. 전자 메일에 대해 가능한 작업은 다음과 같습니다.
 
+<br>
+
+****
+
 |배달|정크|차단됨|바꾸기|
 |---|---|---|---|
 |전자 메일이 사용자의 받은 편지함 또는 폴더로 배달된 경우 사용자가 액세스할 수 있습니다.|전자 메일이 사용자의 정크 또는 삭제된 폴더로 전송되고 사용자가 액세스할 수 있습니다.|분리되거나 실패했거나 삭제된 전자 메일입니다. 이러한 메일은 사용자가 사용할 수 없습니다.|전자 메일에 첨부 파일이 악성 상태인 .txt 파일로 대체된 악의적인 첨부 파일이 있습니다.|
+|
 
 다음은 사용자가 볼 수 있는 것 및 볼 수 없는 것입니다.
+
+<br>
+
+****
 
 |최종 사용자가 액세스할 수 있습니다.|최종 사용자가 사용할 수 없습니다.|
 |---|---|
 |배달|차단됨|
 |정크|바꾸기|
+|
 
 **배달 위치는** 배달 후 실행된 정책 및 검색의 결과를 보여줍니다. 배달 작업 **_에 연결됩니다._** 다음은 가능한 값입니다.
 

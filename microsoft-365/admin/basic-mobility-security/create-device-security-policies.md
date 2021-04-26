@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안을 사용하여 조직 정보를 보호하는 장치 정책을 만들 수 있습니다.
-ms.openlocfilehash: f31930f1a753259622520e50da8c255e7cd410e5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5abd27f963208140a53cfd885152301992830b5e
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904291"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023908"
 ---
 # <a name="create-device-security-policies-in-basic-mobility-and-security"></a>기본 모바일 및 보안에서 장치 보안 정책 만들기
 
@@ -36,7 +36,7 @@ ms.locfileid: "50904291"
 
 - 기본 모바일 및 보안에서 지원하는 장치, 모바일 장치 앱 및 보안 설정에 대해 자세히 알아보습니다. [Basic Mobility and Security의 기능을 참조합니다.](capabilities.md)
 - Microsoft 365에 대한 액세스 차단 대상에서 제외할 수 있는 사용자에 대해 정책을 배포할 Microsoft 365 사용자가 포함된 보안 그룹을 만들 수 있습니다. 조직에 새 정책을 배포하기 전에 소수의 사용자에게 배포하여 정책을 테스트하는 것이 좋습니다. 자신을 포함하거나 정책을 테스트할 수 있는 소수의 Microsoft 365 사용자를 포함하는 보안 그룹을 만들고 사용할 수 있습니다. 보안 그룹에 대한 자세한 내용은 보안 그룹 [만들기, 편집 또는 삭제를 참조합니다.](../email/create-edit-or-delete-a-security-group.md)
-- Microsoft 365에서 기본 이동성 및 보안 정책을 만들고 배포하려면 Microsoft 365 전역 관리자로 설정해야 합니다. 자세한 내용은 보안 및 준수 [센터의 & 참조하세요.](https://support.microsoft.com/office/d10608af-7934-490a-818e-e68f17d0e9c1)
+- Microsoft 365에서 기본 이동성 및 보안 정책을 만들고 배포하려면 Microsoft 365 전역 관리자로 설정해야 합니다. 자세한 내용은 보안 및 준수 [센터의 & 참조하세요.](../../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 - 정책을 배포하기 전에 조직에 기본 모바일 및 보안에서 장치 등록이 미칠 수 있는 영향을 알 수 있습니다. 정책을 설정하는 방법에 따라 등록된 장치에 설치된 응용 프로그램, 사진 및 개인 정보를 포함하여 준수하지 않는 장치가 Microsoft 365 및 데이터에 액세스하지 차단할 수 있으며 데이터를 삭제할 수 있습니다.
 
 >[!NOTE]
@@ -48,7 +48,7 @@ ms.locfileid: "50904291"
 
 1. 브라우저에서 를 [https://protection.office.com/devicev2](https://protection.office.com/devicev2) 입력합니다.
 
-2. 정책 **만들기 를 선택합니다.**
+2. **정책 만들기** 를 선택합니다.
 
    :::image type="content" source="../../media/basic-mobility-security/bms-4-policy.png" alt-text="기본 모바일 및 보안 정책 설정":::
 
@@ -85,7 +85,7 @@ ms.locfileid: "50904291"
 
 ## <a name="step-4-block-email-access-for-unsupported-devices"></a>4단계: 지원되지 않는 장치에 대한 전자 메일 액세스 차단
 
-조직 정보를 보호할 수 있도록 기본 Mobility and Security에서 지원되지 않는 모바일 장치의 Microsoft 365 전자 메일에 대한 앱 액세스를 차단해야 합니다. 지원되는 장치 목록은 지원되는 장치를 [참조하세요.](https://support.microsoft.com/office/capabilities-of-basic-mobility-and-security-a1da44e5-7475-4992-be91-9ccec25905b0#bkmk_supporteddevices)
+조직 정보를 보호할 수 있도록 기본 Mobility and Security에서 지원되지 않는 모바일 장치의 Microsoft 365 전자 메일에 대한 앱 액세스를 차단해야 합니다. 지원되는 장치 목록은 지원되는 장치를 [참조하세요.](../../admin/basic-mobility-security/capabilities.md)
 
 **앱 액세스를 차단하는 경우:**
 
@@ -148,7 +148,7 @@ ms.locfileid: "50904291"
 
 장치를 완전히 지우거나 장치에서 조직 정보를 선택적으로 지울 수도 있습니다. 자세한 내용은 기본 모바일 및 보안에서 모바일 장치 [지우기를 참조하세요.](wipe-mobile-device.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [기본 모바일 및 보안 개요](overview.md)
 

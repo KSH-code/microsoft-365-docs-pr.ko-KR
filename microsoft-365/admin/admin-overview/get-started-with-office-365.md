@@ -23,22 +23,22 @@ search.appverid:
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
 description: 컴퓨터, 휴대폰 및 태블릿에서 Microsoft 365를 설정하고 사용하는 방법을 확인합니다.
-ms.openlocfilehash: 0bc2478375cdec231a00bade933680cb69578126
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 9b1dc7d42cf532e3f18af74df5d3d87b712fb4d4
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759885"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023932"
 ---
-# <a name="get-started"></a>시작하기
+# <a name="get-started"></a>시작
 
 조직에서 최근에 Microsoft 365를 사용하게 되어 전자 메일 읽기, 문서 공유 등에서 시작할 수 있도록 이 기능을 사용해야 합니다. 컴퓨터, 휴대폰 및 태블릿에서 Microsoft 365를 설정하고 사용하는 방법을 확인합니다.
 
 ## <a name="training-resources-for-your-users"></a>사용자를 위한 교육 리소스
 
 
-- [직원 빠른 시작](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f)
-    
+- [직원 빠른 시작](../../business-video/employee-quick-setup.md)
+
 - [Office 교육 센터](https://support.microsoft.com/office/b8f02f81-ec85-4493-a39b-4c48e6bc4bfb)
     
 - [로그인할 위치](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)

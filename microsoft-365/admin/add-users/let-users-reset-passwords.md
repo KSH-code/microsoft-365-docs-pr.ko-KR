@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: 셀프 서비스 암호 재설정 도구를 사용하여 암호를 다시 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f43c409e98aa98e942bd7c7cbb15302422df241d
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 0842430eda8c96647dd12d0da6d0c9e0481346dc
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222126"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023764"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
@@ -52,7 +52,7 @@ Microsoft 365 관리자는 사용자가 셀프 서비스 [](https://go.microsoft
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 ## <a name="steps-let-people-reset-their-own-passwords"></a>단계: 사용자가 암호를 직접 재설정할 수 있도록 합니다.
 
@@ -94,4 +94,4 @@ Microsoft 365 관리자는 사용자가 셀프 서비스 [](https://go.microsoft
 
 [개별 사용자 암호가 만료되지 않도록 설정](set-password-to-never-expire.md)
 
-[Microsoft 365 Business 교육 비디오](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business 교육 비디오](../../business-video/index.yml)

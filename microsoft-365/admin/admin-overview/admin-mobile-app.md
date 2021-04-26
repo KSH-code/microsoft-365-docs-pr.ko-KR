@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 관리 앱을 다운로드하고 휴대폰 또는 태블릿에서 온라인 조직을 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: eba3783e3673efe84bdb823da2a14e06c06c5fbe
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+ms.openlocfilehash: 20a44501db43b8cba7f31bcfded039b00f3ab341
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826126"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023944"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Microsoft 365 관리 모바일 앱
 
@@ -61,7 +61,7 @@ ms.locfileid: "50826126"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/05c1d439-9ec2-415f-9178-250f64dec64c]
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 다음은 질문과 대답입니다.
   
@@ -116,6 +116,6 @@ ms.locfileid: "50826126"
 
 전자 [feedback365@microsoft.com](mailto:feedback365@microsoft.com) 문제를 보고할 수 있습니다. 또는 이 문서 아래쪽에 피드백을 제공하면 됩니다.
   
-## <a name="see-also"></a>참고 항목
+## <a name="related-content"></a>관련 콘텐츠 
 
-[Microsoft 365 Business 교육 비디오](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[비즈니스용 Microsoft 365 교육](../../business-video/index.yml) 비디오(링크)

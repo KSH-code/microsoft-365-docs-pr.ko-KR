@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: 관리 센터를 사용하여 클라우드에서의 조직 설정, 사용자 관리, 구독 관리를 수행합니다. 관리자 권한으로 계정에 로그인하여 시작하세요.
-ms.openlocfilehash: ef606565d7cad94bc0c7ff81630ef6c2fe8a6fc4
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 8dcd806318bad4aed37aa8cccce4bf90c32e824c
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222090"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023956"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 정보
 
@@ -43,7 +43,7 @@ ms.locfileid: "51222090"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfvDL]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 ## <a name="how-to-get-to-the-admin-center"></a>관리 센터에 액세스하는 방법
 
@@ -99,6 +99,6 @@ ms.locfileid: "51222090"
 
 - [Microsoft 365 그룹 관리](../create-groups/manage-groups.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 Business 교육 비디오](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[비즈니스용 Microsoft 365 교육](../../business-video/index.yml) 비디오(링크)

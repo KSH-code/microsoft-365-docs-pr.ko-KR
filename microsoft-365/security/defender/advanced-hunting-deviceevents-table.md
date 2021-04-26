@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: fc28159f9f83354868142584740e2cb7810724b9
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 63a2d41714329918192caccd384587a4e4f04112
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933688"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023204"
 ---
 # <a name="deviceevents"></a>DeviceEvents
 
@@ -33,6 +33,7 @@ ms.locfileid: "51933688"
 
 **적용 대상:**
 - Microsoft 365 Defender
+- 끝점용 Microsoft Defender
 
 고급 헌팅 계획의 기타 장치 이벤트 또는 표에는 보안 제어에 의해 트리거되는 이벤트(예: Windows Defender 바이러스 백신 및 악용 방지)에 대한 정보가 포함되어 `DeviceEvents` 있습니다. [](advanced-hunting-overview.md) 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
