@@ -243,6 +243,8 @@
 ##### [수동 배포](linux-install-manually.md)
 ##### [Puppet 기반 배포](linux-install-with-puppet.md)
 ##### [Ansible 기반 배포](linux-install-with-ansible.md)
+##### [Chef를 통해 Microsoft Defender for Endpoint(Linux용) 배포](linux-deploy-defender-for-endpoint-with-chef.md)
+
 
 #### [업데이트](linux-updates.md)
 
@@ -253,7 +255,6 @@
 ##### [잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](linux-pua.md)
 ##### [Microsoft Defender for Endpoint(Linux용) 검사 예약](linux-schedule-scan-atp.md)
 ##### [엔드포인트용 Microsoft Defender(Linux) 업데이트 예약](linux-update-MDE-Linux.md)
-##### [Chef를 통해 Microsoft Defender for Endpoint(Linux용) 배포](linux-deploy-defender-for-endpoint-with-chef.md)
 
 #### [문제 해결]()
 ##### [설치 문제 해결](linux-support-install.md)
