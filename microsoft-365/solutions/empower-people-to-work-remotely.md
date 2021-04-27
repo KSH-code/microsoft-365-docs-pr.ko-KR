@@ -4,7 +4,7 @@ author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
 ms.author: josephd
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: 원격 작업자의 생산성을 극대화하고 서버, 데이터 및 클라우드에 대한 보안 액세스를 유지하려면 Microsoft 365의 모든 기능을 사용하도록 설정했는지 확인합니다.
-ms.openlocfilehash: aa72ba0c47acdd507bf86a082c9b4c2a87e3f1ef
-ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
+ms.openlocfilehash: e811b0ea40c38d3c8de0dfdc17a24ce0d7aabe2f
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055522"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52029125"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
 

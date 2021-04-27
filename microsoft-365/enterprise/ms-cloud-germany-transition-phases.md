@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 전환할 때의 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 8e3e6fb228445823481b52d27e5a7b6c623349e2
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 5764b5cedf17487320fbfd05885120de86da3a84
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995024"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52029065"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
@@ -226,7 +226,7 @@ Set-SendConnector -Identity <SendConnectorName> -TlsDomain "mail.protection.outl
 - 연락처 및 모임이 Microsoft Teams로 마이그레이션됩니다.
 - 사용자는 고객 DNS 항목이 완료될 때까지 서비스가 Office 365 서비스로 전환되는 동안 비즈니스용 Skype에 로그인할 수 없습니다.
 - 연락처 및 기존 모임은 계속해서 비즈니스용 Skype 모임으로 기능합니다.
-- 9단계가 완료된 후 Microsoft Teams의 웹 브라우저 버전이 작동하지 않습니다.
+- Microsoft Teams의 웹 브라우저 버전은 9단계가 완료될 때까지 작동하지 않습니다.
 
 마이그레이션 9단계가 완료된 후 PowerShell을 사용하여 비즈니스용 Skype Online에 연결해야 하는 경우 다음 PowerShell 코드를 사용하여 연결합니다.
 

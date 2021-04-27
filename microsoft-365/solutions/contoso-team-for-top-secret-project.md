@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
-manager: laurawi
+manager: dansimp
 ms.date: 08/14/2020
 audience: ITPro
 ms.topic: overview
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
 description: '요약: Contoso가 비밀 프로젝트를 위해 보안이 강화된 팀을 사용하여 새 제품 및 서비스 제품군을 개발하는 방법을 설명하는 방법을 설명하는 문서입니다.'
-ms.openlocfilehash: d5ab2808251ff6a53f8975ea868431691d3301e2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 751bf3972d148219a6cc341067c0bf34cd581447
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051009"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52029019"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Contoso Corporation의 최상위 프로젝트를 위한 격리된 팀
 
@@ -40,7 +40,7 @@ Contoso IT 직원은 Project 2X에 대한 보안이 강화된 팀과 이러한 �
 
 ## <a name="step-1-created-a-private-team"></a>1단계: 비공개 팀 생성
 
-먼저, 팀의 기본 SharePoint 사이트에 대한 액세스를 보호하기 위해 Contoso IT 관리자는 권장 SharePoint 액세스 정책을 [구성했습니다.](../security/defender-365-security/sharepoint-file-access-policies.md)
+먼저, 팀의 기본 SharePoint 사이트에 대한 액세스를 보호하기 위해 Contoso IT 관리자는 권장 SharePoint 액세스 정책을 [구성했습니다.](../security/office-365-security/sharepoint-file-access-policies.md)
 
 다음으로 Contoso IT 관리자가 Project 2X라는 새 비공개 팀을 만든 다음 Project 2X 직원의 사용자 계정을 구성원으로 추가했습니다. 또한 Project 2X 팀 소유자만 비공개 채널을 만들 수 있도록 팀을 구성했습니다.
 
@@ -64,7 +64,7 @@ Project 2X SharePoint 사이트의 문서 섹션에 있는 파일은 다음을 �
 
 ## <a name="step-3-configured-the-underlying-sharepoint-site"></a>3단계: 기본 SharePoint 사이트 구성
 
-먼저, 팀의 기본 SharePoint 사이트에 대한 액세스를 보호하기 위해 Contoso IT 관리자는 권장 SharePoint 액세스 정책을 [구성했습니다.](../security/defender-365-security/sharepoint-file-access-policies.md)
+먼저, 팀의 기본 SharePoint 사이트에 대한 액세스를 보호하기 위해 Contoso IT 관리자는 권장 SharePoint 액세스 정책을 [구성했습니다.](../security/office-365-security/sharepoint-file-access-policies.md)
 
 다음으로 사이트에 대한 추가 사용 권한 설정을 구성했습니다.
 
