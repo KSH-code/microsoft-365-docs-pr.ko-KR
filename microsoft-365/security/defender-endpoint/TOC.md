@@ -49,7 +49,163 @@
 #### [그룹 정책 개체](manage-atp-post-migration-group-policy-objects.md)
 #### [PowerShell, WMI 및 MPCmdRun.exe](manage-atp-post-migration-other-tools.md)
 
-## [보안 관리]()
+
+## [장치 구성 및 온보드]()
+### [Windows 및 Windows Server의 엔드포인트용 Microsoft Defender]()
+#### [엔드포인트용 Microsoft Defender에 장치 온보딩](onboard-configure.md)
+#### [이전 버전의 Windows 온보딩](onboard-downlevel.md)
+#### [그룹 정책을 통한 Windows 10 장치 온보딩]()
+##### [온보딩 도구 및 방법](configure-endpoints.md)
+##### [그룹 정책을 사용하여 장치 온보딩](configure-endpoints-gp.md)
+##### [Microsoft Endpoint Configuration Manager를 사용하여 장치 온보딩](configure-endpoints-sccm.md)
+##### [모바일 장치 관리 도구를 사용하여 장치 온보딩](configure-endpoints-mdm.md)
+##### [로컬 스크립트를 사용하여 장치 온보딩](configure-endpoints-script.md)
+##### [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
+##### [Windows Virtual Desktop에서 Windows 10 다중 세션 장치 온보딩](Onboard-Windows-10-multi-session-device.md)
+#### [Windows 서버 온보딩](configure-server-endpoints.md)
+
+#### [인터넷 액세스 없이 장치 온보딩](onboard-offline-machines.md)
+#### [새로 온보딩된 장치에서 검색 테스트 실행](run-detection-test.md)
+#### [장치에서 시뮬레이션된 공격 실행](attack-simulations.md)
+#### [프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)
+#### [온보딩 또는 오프보딩 알림 규칙 만들기](onboarding-notification.md)
+
+### [다른 운영 체제의 엔드포인트용 Microsoft Defender]()
+#### [Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)
+
+#### [Microsoft Defender for Endpoint(macOS용)]()
+##### [macOS의 Microsoft Defender for Endpoint 개요](microsoft-defender-endpoint-mac.md)
+##### [새로운 기능](mac-whatsnew.md)
+ 
+##### [배포]()
+###### [Microsoft Intune 기반 배포](mac-install-with-intune.md)
+###### [JAMF Pro 기반 배포]()
+####### [Jamf Pro를 사용하여 Microsoft Defender for Endpoint(macOS용) 배포](mac-install-with-jamf.md)
+####### [Jamf Pro에 로그인](mac-install-jamfpro-login.md)
+####### [장치 그룹 설정](mac-jamfpro-device-groups.md)
+####### [정책 설정](mac-jamfpro-policies.md)
+####### [장치 등록](mac-jamfpro-enroll-devices.md)
+ 
+###### [다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포](mac-install-with-other-mdm.md)
+###### [수동 배포](mac-install-manually.md)
+##### [업데이트](mac-updates.md)
+ 
+##### [구성]()
+###### [제외 구성 및 유효성 검사](mac-exclusions.md)
+###### [기본 설정](mac-preferences.md)
+###### [잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](mac-pua.md)
+###### [장치 제어]()
+####### [장치 제어 개요](mac-device-control-overview.md)
+####### [JAMF 예제](mac-device-control-jamf.md)
+####### [Intune 예제](mac-device-control-intune.md)
+###### [검색 예약](mac-schedule-scan.md)
+ 
+##### [문제 해결]()
+###### [설치 문제 해결](mac-support-install.md)
+###### [성능 문제 해결](mac-support-perf.md)
+###### [클라우드 연결 문제 해결](troubleshoot-cloud-connect-mdemac.md)
+###### [커널 확장 문제 해결](mac-support-kext.md)
+###### [라이선스 문제 해결](mac-support-license.md)
+ 
+##### [개인 정보](mac-privacy.md)
+##### [리소스](mac-resources.md)
+
+
+#### [Microsoft Defender for Endpoint(iOS용)]()
+##### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-ios.md)
+##### [새로운 기능](ios-whatsnew.md)
+ 
+##### [배포]()
+###### [Intune을 통해 Microsoft Defender for Endpoint(iOS용) 배포](ios-install.md)
+ 
+##### [구성]()
+###### [iOS 기능 구성](ios-configure-features.md)
+##### [개인 정보](ios-privacy.md)
+ 
+ 
+#### [Microsoft Defender for Endpoint(Linux용)]()
+##### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-linux.md)
+##### [새로운 기능](linux-whatsnew.md)
+##### [배포]()
+###### [수동 배포](linux-install-manually.md)
+###### [Puppet 기반 배포](linux-install-with-puppet.md)
+###### [Ansible 기반 배포](linux-install-with-ansible.md)
+ 
+##### [업데이트](linux-updates.md)
+ 
+##### [구성]()
+###### [제외 구성 및 유효성 검사](linux-exclusions.md)
+###### [정적 프록시 구성](linux-static-proxy-configuration.md)
+###### [기본 설정](linux-preferences.md)
+###### [잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](linux-pua.md)
+###### [Microsoft Defender for Endpoint(Linux용) 검사 예약](linux-schedule-scan-atp.md)
+###### [엔드포인트용 Microsoft Defender(Linux) 업데이트 예약](linux-update-MDE-Linux.md)
+###### [Chef를 통해 Microsoft Defender for Endpoint(Linux용) 배포](linux-deploy-defender-for-endpoint-with-chef.md)
+ 
+##### [문제 해결]()
+###### [설치 문제 해결](linux-support-install.md)
+###### [클라우드 연결 문제 해결](linux-support-connectivity.md)
+###### [성능 문제 해결](linux-support-perf.md)
+###### [누락된 이벤트 문제 해결](linux-support-events.md)
+ 
+##### [개인 정보](linux-privacy.md)
+##### [리소스](linux-resources.md)
+ 
+#### [Microsoft Defender for Endpoint(Android용)]()
+##### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-android.md)
+ 
+##### [배포]()
+###### [Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포](android-intune.md)
+ 
+##### [구성]()
+###### [Microsoft Defender for Endpoint(Android용) 기능 구성](android-configure.md)
+ 
+##### [개인 정보]()
+###### [Microsoft Defender for Endpoint(Android용) - 개인 정보](android-privacy.md)
+ 
+##### [문제 해결]()
+###### [문제 해결](android-support-signin.md)
+
+### [온보딩 문제 해결]()
+#### [온보딩 중 문제 해결](troubleshoot-onboarding.md)
+#### [구독 및 포털 액세스 문제 해결](troubleshoot-onboarding-error-messages.md)
+
+
+
+
+### [포털 설정 구성]()
+#### [기본 설정](preferences-setup.md)
+#### [일반]()
+##### [데이터 저장소 위치 확인 및 데이터 보존 설정 업데이트](data-retention-settings.md)
+##### [경고 알림 구성](configure-email-notifications.md)
+##### [고급 기능 구성](advanced-features.md)
+
+#### [사용 권한]()
+##### [기본 권한을 사용하여 포털에 액세스](basic-permissions.md)
+##### [RBAC를 사용하여 포털 액세스 관리](rbac.md)
+###### [역할 만들기 및 관리](user-roles.md)
+###### [장치 그룹 만들기 및 관리](machine-groups.md)
+###### [장치 태그 만들기 및 관리](machine-tags.md)
+
+#### [규칙]()
+##### [제거 규칙 관리](manage-suppression-rules.md)
+##### [지표 만들기](manage-indicators.md)
+###### [파일에 대한 지표 만들기](indicator-file.md)
+###### [IP 및 URL/도메인에 대한 지표 만들기](indicator-ip-domain.md)
+###### [인증서에 대한 지표 만들기](indicator-certificates.md)
+###### [지표 관리](indicator-manage.md)
+##### [자동화 파일 업로드 관리](manage-automation-file-uploads.md)
+##### [자동화 폴더 제외 관리](manage-automation-folder-exclusions.md)
+
+#### [장치 관리]()
+##### [온보딩 장치](onboard-configure.md)
+##### [오프보딩 장치](offboard-machines.md)
+##### [장치가 올바르게 구성되어 있는지 확인](configure-machines.md)
+##### [장치 온보딩 모니터링 및 늘리기](configure-machines-onboarding.md)
+
+#### [Microsoft Defender 보안 센터 표준 시간대 설정 구성](time-settings.md)
+
+## [위협 탐지 및 끝점 보호]()
 ### [위협 및 취약성 관리]()
 #### [개요](next-gen-threat-and-vuln-mgt.md)
 #### [시작]()
@@ -73,6 +229,13 @@
 ##### [취약한 장치 보고서](tvm-vulnerable-devices-report.md)
 ##### [노출된 장치 헌팅](tvm-hunt-exposed-devices.md)
 
+### [장치 검색]()
+#### [장치 검색 개요](device-discovery.md)
+#### [장치 검색 구성](configure-device-discovery.md)
+#### [장치 검색 FAQ](device-discovery-faq.md)
+
+### [네트워크 장치](network-devices.md)
+
 ### [공격 표면 감소]()
 #### [공격 표면 감소 개요](overview-attack-surface-reduction.md)
 #### [공격 표면 감소 규칙 평가](evaluate-attack-surface-reduction.md)
@@ -84,6 +247,8 @@
 ##### [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
 ##### [공격 표면 감소 규칙 사용자 지정](customize-attack-surface-reduction.md)
 ##### [공격 표면 감소 이벤트 보기](event-views.md)
+
+#### [감사 모드 사용](audit-windows-defender.md)
 
 ### 차세대 보호
 #### [Microsoft Defender 바이러스 백신 개요](microsoft-defender-antivirus-in-windows-10.md)
@@ -179,112 +344,21 @@
 ##### [장치 제어 보고서](device-control-report.md)
 ##### [USB 장치 제어](control-usb-devices-using-intune.md)
 
-### [장치 검색]()
-#### [장치 검색 개요](device-discovery.md)
-#### [장치 검색 구성](configure-device-discovery.md)
-#### [장치 검색 FAQ](device-discovery-faq.md)
+#### [동작 차단 및 제약]()
+##### [동작 차단 및 제약](behavioral-blocking-containment.md)
+##### [클라이언트 동작 차단](client-behavioral-blocking.md)
+##### [피드백-루프 차단](feedback-loop-blocking.md)
 
 
-### [네트워크 장치](network-devices.md)
-
-### [Microsoft Defender for Endpoint(macOS용)]()
-#### [macOS의 Microsoft Defender for Endpoint 개요](microsoft-defender-endpoint-mac.md)
-#### [새로운 기능](mac-whatsnew.md)
-
-#### [배포]()
-##### [Microsoft Intune 기반 배포](mac-install-with-intune.md)
-##### [JAMF Pro 기반 배포]()
-###### [Jamf Pro를 사용하여 Microsoft Defender for Endpoint(macOS용) 배포](mac-install-with-jamf.md)
-###### [Jamf Pro에 로그인](mac-install-jamfpro-login.md)
-###### [장치 그룹 설정](mac-jamfpro-device-groups.md)
-###### [정책 설정](mac-jamfpro-policies.md)
-###### [장치 등록](mac-jamfpro-enroll-devices.md)
-
-##### [다른 MDM(모바일 장치 관리) 시스템을 사용하여 배포](mac-install-with-other-mdm.md)
-##### [수동 배포](mac-install-manually.md)
-#### [업데이트](mac-updates.md)
-
-#### [구성]()
-##### [제외 구성 및 유효성 검사](mac-exclusions.md)
-##### [기본 설정](mac-preferences.md)
-##### [잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](mac-pua.md)
-##### [장치 제어]()
-###### [장치 제어 개요](mac-device-control-overview.md)
-###### [JAMF 예제](mac-device-control-jamf.md)
-###### [Intune 예제](mac-device-control-intune.md)
-##### [검색 예약](mac-schedule-scan.md)
-
-#### [문제 해결]()
-##### [설치 문제 해결](mac-support-install.md)
-##### [성능 문제 해결](mac-support-perf.md)
-##### [클라우드 연결 문제 해결](troubleshoot-cloud-connect-mdemac.md)
-##### [커널 확장 문제 해결](mac-support-kext.md)
-##### [라이선스 문제 해결](mac-support-license.md)
-
-#### [개인 정보](mac-privacy.md)
-#### [리소스](mac-resources.md)
-
-### [Microsoft Defender for Endpoint(iOS용)]()
-#### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-ios.md)
-#### [새로운 기능](ios-whatsnew.md)
-
-#### [배포]()
-##### [Intune을 통해 Microsoft Defender for Endpoint(iOS용) 배포](ios-install.md)
-
-#### [구성]()
-##### [iOS 기능 구성](ios-configure-features.md)
-#### [개인 정보](ios-privacy.md)
+### [Endpoint용 Microsoft Defender에서 가양성/가음성 처리](defender-endpoint-false-positives-negatives.md)
 
 
-### [Microsoft Defender for Endpoint(Linux용)]()
-#### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-linux.md)
-#### [새로운 기능](linux-whatsnew.md)
-#### [배포]()
-##### [수동 배포](linux-install-manually.md)
-##### [Puppet 기반 배포](linux-install-with-puppet.md)
-##### [Ansible 기반 배포](linux-install-with-ansible.md)
-##### [Chef를 통해 Microsoft Defender for Endpoint(Linux용) 배포](linux-deploy-defender-for-endpoint-with-chef.md)
+### [장치 구성 관리]()
 
+#### [보안 기준에 대한 규정 준수 강화](configure-machines-security-baseline.md)
+#### [공격 표면 감소 규칙 및 검색 최적화](configure-machines-asr.md)
 
-#### [업데이트](linux-updates.md)
-
-#### [구성]()
-##### [제외 구성 및 유효성 검사](linux-exclusions.md)
-##### [정적 프록시 구성](linux-static-proxy-configuration.md)
-##### [기본 설정](linux-preferences.md)
-##### [잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](linux-pua.md)
-##### [Microsoft Defender for Endpoint(Linux용) 검사 예약](linux-schedule-scan-atp.md)
-##### [엔드포인트용 Microsoft Defender(Linux) 업데이트 예약](linux-update-MDE-Linux.md)
-
-#### [문제 해결]()
-##### [설치 문제 해결](linux-support-install.md)
-##### [클라우드 연결 문제 해결](linux-support-connectivity.md)
-##### [성능 문제 해결](linux-support-perf.md)
-##### [누락된 이벤트 문제 해결](linux-support-events.md)
-
-#### [개인 정보](linux-privacy.md)
-#### [리소스](linux-resources.md)
-
-### [Microsoft Defender for Endpoint(Android용)]()
-#### [Microsoft Defender for Endpoint(iOS용) 개요](microsoft-defender-endpoint-android.md)
-
-#### [배포]()
-##### [Microsoft Intune으로 Microsoft Defender for Endpoint(Android용) 배포](android-intune.md)
-
-#### [구성]()
-##### [Microsoft Defender for Endpoint(Android용) 기능 구성](android-configure.md)
-
-#### [개인 정보]()
-##### [Microsoft Defender for Endpoint(Android용) - 개인 정보](android-privacy.md)
-
-#### [문제 해결]()
-##### [문제 해결](android-support-signin.md)
-
-
-### [Microsoft 위협 전문가 기능 구성 및 관리](configure-microsoft-threat-experts.md)
-
-## [보안 운영]()
-
+## [위협 탐지 및 응답]()
 ### [엔드포인트 검색 및 대응]()
 #### [엔드포인트 검색 및 대응 개요](overview-endpoint-detection-response.md)
 #### [보안 운영 대시보드](security-operations-dashboard.md)
@@ -347,96 +421,31 @@
 ##### [위협 방지 보고서](threat-protection-reports.md)
 #### [컴퓨터 상태 및 규정 준수 보고서](machine-reports.md)
 
-### [동작 차단 및 제약]()
-#### [동작 차단 및 제약](behavioral-blocking-containment.md)
-#### [클라이언트 동작 차단](client-behavioral-blocking.md)
-#### [피드백-루프 차단](feedback-loop-blocking.md)
-#### [차단 모드의 EDR](edr-in-block-mode.md)
+### [지능형 헌팅]()
+#### [지능형 헌팅 개요](advanced-hunting-overview.md)
+#### [스키마에 대한 이해](advanced-hunting-schema-reference.md)
+#### [DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)
+
+### [위협 분석 개요](threat-analytics.md)
+#### [분석 보고서 읽기](threat-analytics-analyst-reports.md)
+
+### [차단 모드의 EDR](edr-in-block-mode.md)
 
 ### [자동화된 조사 및 대응(AIR)]()
 #### [AIR 개요](automated-investigations.md)
 #### [AIR의 자동화 수준](automation-levels.md)
 #### [AIR 기능 구성](configure-automated-investigations-remediation.md)
 
-### [지능형 헌팅]()
-#### [지능형 헌팅 개요](advanced-hunting-overview.md)
-#### [스키마에 대한 이해](advanced-hunting-schema-reference.md)
-#### [DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)
+### [Microsoft 위협 전문가]()
+#### [Microsoft 위협 전문가 개요](microsoft-threat-experts.md)
+#### [Microsoft 위협 전문가 기능 구성 및 관리](configure-microsoft-threat-experts.md)
 
-### [Microsoft 위협 전문가](microsoft-threat-experts.md)
 
-### [위협 분석 개요](threat-analytics.md)
-#### [분석 보고서 읽기](threat-analytics-analyst-reports.md)
 
-## [사용 방법]()
-### [서비스에 장치 온보딩]()
-#### [엔드포인트용 Microsoft Defender에 장치 온보딩](onboard-configure.md)
-#### [이전 버전의 Windows 온보딩](onboard-downlevel.md)
-#### [그룹 정책을 통한 Windows 10 장치 온보딩]()
-##### [온보딩 도구 및 방법](configure-endpoints.md)
-##### [그룹 정책을 사용하여 장치 온보딩](configure-endpoints-gp.md)
-##### [Microsoft Endpoint Configuration Manager를 사용하여 장치 온보딩](configure-endpoints-sccm.md)
-##### [모바일 장치 관리 도구를 사용하여 장치 온보딩](configure-endpoints-mdm.md)
-##### [로컬 스크립트를 사용하여 장치 온보딩](configure-endpoints-script.md)
-##### [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](configure-endpoints-vdi.md)
-##### [Windows Virtual Desktop에서 Windows 10 다중 세션 장치 온보딩](Onboard-Windows-10-multi-session-device.md)
-#### [Windows 서버 온보딩](configure-server-endpoints.md)
-#### [Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)
-#### [인터넷 액세스 없이 장치 온보딩](onboard-offline-machines.md)
-#### [새로 온보딩된 장치에서 검색 테스트 실행](run-detection-test.md)
-#### [장치에서 시뮬레이션된 공격 실행](attack-simulations.md)
-#### [프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md)
-#### [온보딩 또는 오프보딩 알림 규칙 만들기](onboarding-notification.md)
- 
-#### [온보딩 문제 해결]()
-##### [온보딩 중 문제 해결](troubleshoot-onboarding.md)
-##### [구독 및 포털 액세스 문제 해결](troubleshoot-onboarding-error-messages.md)
-
-### [장치 구성 관리]()
-#### [장치가 올바르게 구성되어 있는지 확인](configure-machines.md)
-#### [장치 온보딩 모니터링 및 늘리기](configure-machines-onboarding.md)
-#### [보안 기준에 대한 규정 준수 강화](configure-machines-security-baseline.md)
-#### [공격 표면 감소 규칙 및 검색 최적화](configure-machines-asr.md)
-
-### [포털 설정 구성]()
-#### [기본 설정](preferences-setup.md)
-#### [일반]()
-##### [데이터 저장소 위치 확인 및 데이터 보존 설정 업데이트](data-retention-settings.md)
-##### [경고 알림 구성](configure-email-notifications.md)
-##### [고급 기능 구성](advanced-features.md)
-
-#### [사용 권한]()
-##### [기본 권한을 사용하여 포털에 액세스](basic-permissions.md)
-##### [RBAC를 사용하여 포털 액세스 관리](rbac.md)
-###### [역할 만들기 및 관리](user-roles.md)
-###### [장치 그룹 만들기 및 관리](machine-groups.md)
-###### [장치 태그 만들기 및 관리](machine-tags.md)
-
-#### [규칙]()
-##### [제거 규칙 관리](manage-suppression-rules.md)
-##### [지표 만들기](manage-indicators.md)
-###### [파일에 대한 지표 만들기](indicator-file.md)
-###### [IP 및 URL/도메인에 대한 지표 만들기](indicator-ip-domain.md)
-###### [인증서에 대한 지표 만들기](indicator-certificates.md)
-###### [지표 관리](indicator-manage.md)
-##### [자동화 파일 업로드 관리](manage-automation-file-uploads.md)
-##### [자동화 폴더 제외 관리](manage-automation-folder-exclusions.md)
-
-#### [장치 관리]()
-##### [온보딩 장치](onboard-configure.md)
-##### [오프보딩 장치](offboard-machines.md)
-
-#### [Microsoft Defender 보안 센터 표준 시간대 설정 구성](time-settings.md)
-
-### [Endpoint용 Microsoft Defender에서 가양성/가음성 처리](defender-endpoint-false-positives-negatives.md)
-
+## 참조
 ### [다른 Microsoft 솔루션과 통합 구성]()
 #### [조건부 액세스 구성](configure-conditional-access.md)
 #### [Microsoft Cloud App Security 통합 구성](microsoft-cloud-app-security-config.md)
-
-### [감사 모드 사용](audit-windows-defender.md)
-
-## 참고자료
 ### [관리 및 API]()
 #### [관리 및 API 개요](management-apis.md)
 #### [API 릴리스 정보](api-release-notes.md)
