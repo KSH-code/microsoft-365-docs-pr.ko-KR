@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Microsoft 365 고객 데이터가 전 세계에 저장되는 위치를 확인
-ms.openlocfilehash: 4c55010508f2b5bde1641b9b7552e4acb95a12d3
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: b3a3978bc166f9c302fe9c28b016d56742acd9de
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760239"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52028959"
 ---
 # <a name="where-your-microsoft-365-customer-data-is-stored"></a>Microsoft 365 고객 데이터가 저장되는 위치
 
@@ -813,7 +813,7 @@ Microsoft는 명시된 Geo 외부에 미사용 Intune 고객 데이터를 저장
 | Workplace Analytics | 미국 |
 </p></details>
 
-## <a name="bosnia"></a>보스니아
+## <a name="bosnia-and-herzegovina"></a>보스니아 헤르체고비나
 <details><summary>클릭하여 확장</summary><p>
 
 | 서비스 | 위치 |
