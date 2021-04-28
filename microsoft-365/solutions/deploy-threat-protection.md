@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365에 위협 방지 기능 배포
 description: Microsoft 365 E5의 위협 방지 서비스 및 보안 기능에 대한 개요를 얻습니다. Microsoft 365 E5를 통해 사용자 계정, 장치, 전자 메일 콘텐츠 등 보호합니다.
-keywords: advanced threat protection, security, microsoft 365 E5, solution, protect devices, defender
+keywords: 솔루션, 설정, 고급 위협 방지, atp, 보안, Microsoft 365 E5, 장치 보호, defender, m365
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -17,16 +17,16 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 0edc3847d6b832f254c6f289355570a3a044b1f4
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 04e9ed3d108fa68bdfbf3b34de618d904e3f2cba
+ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061040"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52065100"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365-e5"></a>Microsoft 365 E5에 위협 방지 기능 배포
 
-이 솔루션은 Microsoft 365 E5의 강력한 위협 방지 기능과 이러한 기능이 중요한 이유를 설명합니다. 이 솔루션을 읽고 Microsoft 365 E5에 포함된 기능, 위협 방지 기능이 작동되는 방식 및 조직에서 위협 방지를 설정 및 구성하는 방법에 대한 개요를 확인할 수 있습니다.
+이 솔루션은 Microsoft 365 E5의 강력한 위협 방지 기능을 설명하고 위협 방지가 중요한 이유를 설명합니다. 이 문서를 읽고 Microsoft 365 E5의 위협 방지에 대한 개요와 조직의 설정 및 구성에 접근하는 방법을 살펴 읽습니다.
 
 ## <a name="why-threat-protection-is-important"></a>위협 방지가 중요한 이유 
 
@@ -60,7 +60,7 @@ Microsoft 365 Defender는 신호와 데이터를 [통합된 Microsoft 365 보안
 |솔루션/기능  |설명  |
 |---------|---------|
 |다단계 인증 및 조건부 액세스     |손상된 ID 및 장치로부터 보호합니다. 기본이기 때문에 이 보호로 시작해야 합니다. 이 지침에서 권장되는 구성에는 Azure AD ID 보호가 선행 구성으로 포함됩니다.     |
-|ID용 Microsoft Defender     |  AD DS(Active Directory 도메인 서비스) 신호를 활용하여 조직에 대한 고급 위협, 손상된 ID 및 악의적인 내부자 작업을 식별, 감지 및 조사하는 클라우드 기반 보안 솔루션입니다. 다음으로 Microsoft Defender for Identity에 중점을 두는 이유는, 이 인프라가 사용자의 사내 및 클라우드 인프라를 보호하고, 종속성이나 선행 요구가 없는 것이고, 즉각적인 보안 이점을 제공할 수 있기 때문에 그 다음에 집중합니다. | 
+|ID용 Microsoft Defender     |  AD DS(Active Directory 도메인 서비스) 신호를 사용하여 조직에 대한 고급 위협, 손상된 ID 및 악의적인 내부자 작업을 식별, 감지 및 조사하는 클라우드 기반 보안 솔루션입니다. 다음으로 Microsoft Defender for Identity에 중점을 두는 이유는, 이 인프라가 사용자의 사내 및 클라우드 인프라를 보호하고, 종속성이나 선행 요구가 없는 것이고, 즉각적인 보안 이점을 제공할 수 있기 때문에 그 다음에 집중합니다. | 
 |Office 365용 Microsoft Defender     | 전자 메일 메시지, 링크(URL) 및 공동 작업 도구로 위협되는 악의적인 위협에 대해 조직을 보호합니다. 맬웨어, 피싱, 스푸핑 및 기타 공격 유형에 대한 보호. 변경 제어, 현재 시스템에서 설정을 마이그레이션하는 등 배포하는 데 시간이 오래 걸릴 수 있기 때문에 Office 365용 Microsoft Defender를 구성하는 것이 좋습니다. <p>**참고:** 모든 Office 365 구독(Exchange Online Protection)에 포함된 위협 방지 기능을 구성해야 합니다.       |
 |엔드포인트용 Microsoft Defender    | 고급 위협을 방지, 감지, 조사 및 대응하는 데 도움이 되는 끝점 보호 플랫폼입니다.  Endpoint용 Defender를 배포하는 데 시간이 걸릴 수 있지만 구성은 다른 기능과 병렬로 수행될 수 있습니다.   |
 |Microsoft Cloud App Security     |   검색, 조사 및 거버넌스를 위한 클라우드 액세스 보안 브로커입니다. Microsoft Cloud App Security를 초기에 사용하도록 설정하여 데이터 및 인사이트 수집을 시작할 수 있습니다. SaaS 앱에 정보 및 기타 대상이 지정된 보호를 구현하는 데는 계획이 수반될 수 있으며 시간이 더 걸릴 수 있습니다.       | 
@@ -74,7 +74,7 @@ Microsoft 365 Defender는 신호와 데이터를 [통합된 Microsoft 365 보안
 
 ![위협 방지 기능 배포 프로세스](../media/deploy-threat-protection/deploy-threat-protection-across-m365-grid.png)
 
-조직에서 최상의 보호를 보장할 수 있도록 다음 단계가 포함된 프로세스를 사용하여 보안 솔루션을 설정하고 배포합니다.
+조직에서 최상의 보호를 사용할 수 있도록 다음 단계를 포함하는 프로세스로 보안 솔루션을 설정하고 배포합니다.
 
 1. [다단계 인증 및 조건부 액세스 정책을 설정합니다.](deploy-threat-protection-configure.md#step-1-set-up-multi-factor-authentication-and-conditional-access-policies)
 2. [Id에 대해 Microsoft Defender를 구성합니다.](deploy-threat-protection-configure.md#step-2-configure-microsoft-defender-for-identity)
@@ -89,6 +89,6 @@ Microsoft 365 Defender는 신호와 데이터를 [통합된 Microsoft 365 보안
 
 ## <a name="next-step"></a>다음 단계
 
-Microsoft [365에서 위협 방지 기능 구성으로 진행합니다.](deploy-threat-protection-configure.md)
+Microsoft [365에서 위협 방지 기능 구성을 계속합니다.](deploy-threat-protection-configure.md)
 
 

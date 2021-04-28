@@ -1,5 +1,5 @@
 ---
-title: 변조 방지를 사용하여 보안 설정 보호
+title: 무단 보호를 사용하여 보안 설정 보호
 ms.reviewer: shwjha, hayhov
 manager: dansimp
 description: 변조 방지를 사용하여 악성 앱이 중요한 보안 설정을 변경하지 못하게 합니다.
@@ -15,21 +15,21 @@ author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 84864965d7a18902a01307c1dcf373fa7c0534e8
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: ff98b78d113a67ad6bd816753c691e8afe71dd77
+ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765578"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52065076"
 ---
-# <a name="protect-security-settings-with-tamper-protection"></a>변조 방지를 사용하여 보안 설정 보호
+# <a name="protect-security-settings-with-tamper-protection"></a>무단 보호를 사용하여 보안 설정 보호
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 변조 보호는 다음 Windows 버전 중 하나를 실행하는 장치에 사용할 수 있습니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "51765578"
 - 클라우드 제공 보호를 사용 안 하게
 - 보안 인텔리전스 업데이트 제거
 
-### <a name="how-it-works"></a>작동 방식
+### <a name="how-it-works"></a>작동 방법
 
 변조 보호는 기본적으로 Microsoft Defender 바이러스 백신을 잠그고 다음과 같은 앱 및 방법을 통해 보안 설정이 변경되지 않도록 합니다.
 
@@ -60,6 +60,8 @@ ms.locfileid: "51765578"
 - 그룹 정책을 통해 보안 설정 편집 또는 제거
 
 변조 방지는 보안 설정을 볼 수 있도록 방지하지 않습니다. 또한 변조 방지는 타사 바이러스 백신 앱이 Windows 보안 앱에 등록되는 방식에 영향을 주지 않습니다. 조직에서 Windows 10 Enterprise E5를 사용하는 경우 개별 사용자는 변조 방지 설정을 변경할 수 없습니다. 이러한 경우 변조 보호는 보안 팀에서 관리합니다.
+
+
 
 ### <a name="what-do-you-want-to-do"></a>무슨 작업을 하고 싶으십니까?
 
@@ -73,6 +75,19 @@ ms.locfileid: "51765578"
 | 보안 권장 사항 검토 | [보안 권장 사항 검토](#review-your-security-recommendations) |
 | FAQ(질문과 대답) 목록 검토 | [FAQ 찾아보기](#view-information-about-tampering-attempts) |
 
+변조 방지를 사용하도록 설정하는 데 사용하는 방법 또는 관리 도구에 따라 MAPS(클라우드 제공 보호)에 종속될 수 있습니다. 
+
+다음 표에서는 메서드, 도구 및 종속성에 대해 자세히 제공합니다.
+
+
+
+|     변조 방지를 사용하도록 설정하는 방법                                         |     MAPS에 대한 종속성(클라우드 제공 보호)    |
+|------------------------------------------------------------------------------|--------------------------------------------------------|
+|     Microsoft Intune                                                         |     아니요                                                 |
+| Microsoft Endpoint Configuration Manager + 테넌트 연결                     |     아니요                                                 |
+|     Microsoft Defender for Endpoint 포털(securitycenter.microsoft.com)    |     예                                                |
+|     Microsoft 365 Defender 포털(security.microsoft.com)                   |     예                                                |
+
 ## <a name="manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center"></a>Microsoft Defender 보안 센터를 사용하여 조직의 변조 보호 관리
 
 Microsoft Defender 보안 센터( )를 사용하여 테넌트에 대해 변조 보호를 설정하거나 해제할 수 [https://securitycenter.windows.com](https://securitycenter.windows.com) 있습니다. 다음은 유의해야 할 몇 가지 사항입니다.
@@ -84,6 +99,9 @@ Microsoft Defender 보안 센터( )를 사용하여 테넌트에 대해 변조 �
 - Microsoft Defender 보안 센터에서 변조 보호를 관리하는 경우 이 설정은 테넌트 전체에 적용되고 Windows 10, Windows Server 2016 또는 Windows Server 2019를 실행하는 모든 장치에 영향을 미치게 됩니다. 변조 방지를 미세 조정하려면(예: 일부 장치에 대해 변조 보호를 설정하고 다른 장치에는 사용하지 않는 경우) 테넌트 연결과 함께 [Intune](#manage-tamper-protection-for-your-organization-using-intune) 또는 [Configuration Manager를 사용 합니다.](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
 
 - 하이브리드 환경이 있는 경우 Intune에 구성된 변조 보호 설정이 Microsoft Defender 보안 센터에 구성된 설정보다 우선합니다. 
+
+
+
 
 ### <a name="requirements-for-managing-tamper-protection-in-the-microsoft-defender-security-center"></a>Microsoft Defender 보안 센터에서 변조 보호를 관리하기 위한 요구 사항
 
@@ -225,7 +243,7 @@ Windows 보안 앱에 표시하는 내용은 다음과 같습니다.
 
 위협 및 취약성 & 자세한 내용은 Microsoft Defender 보안 센터의 위협 & 취약성 관리를 [참조합니다.](/microsoft-365/security/defender-endpoint/tvm-dashboard-insights#threat--vulnerability-management-in-microsoft-defender-security-center)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="to-which-windows-os-versions-is-configuring-tamper-protection-is-applicable"></a>변조 방지를 구성하는 Windows OS 버전은 어느 것인가요?
 
@@ -297,4 +315,4 @@ Intune 또는 Microsoft Endpoint Manager에서 변조 보호 구성은 전체 �
 
 [끝점용 Microsoft Defender 개요 보기](/microsoft-365/security/defender-endpoint)
 
-[함께 사용: Microsoft Defender 바이러스 백신 및 끝점용 Microsoft Defender](why-use-microsoft-defender-antivirus.md)
+[함께 활용: Microsoft Defender 바이러스 백신 및 Microsoft Defender for Endpoint](why-use-microsoft-defender-antivirus.md)
