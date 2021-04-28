@@ -362,7 +362,7 @@
         - name: PST 파일을 가져올 때 데이터 필터링
           href: filter-data-when-importing-pst-files.md
         - name: PST 파일 가져오기에 대한 FAQ
-          href: faqimporting-pst-files-to-office-365.md
+          href: faqimporting-pst-files-to-office-365.yml
     - name: 타사 데이터 보관
       items:
         - name: 타사 데이터 보관 개요
