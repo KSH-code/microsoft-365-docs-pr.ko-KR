@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
 ms.author: josephd
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Microsoft 365 보안 및 규정 준수 서비스를 사용하여 원격 작업자를 위한 애플리케이션, 데이터 및 장치를 보호할 수 있습니다.
-ms.openlocfilehash: 8248fdbaa96a651ad9ff4548ce0867bd7c2988eb
-ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
+ms.openlocfilehash: eb558b276b5e8fe828f62930eb977cc87ce3134f
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055496"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52029113"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>3단계: 원격 작업자를 위한 보안 및 규정 준수 구현
 
