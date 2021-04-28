@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: ea28e9c244b6b8faaeb9b1f3685d57169605cbb9
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: 0edc3847d6b832f254c6f289355570a3a044b1f4
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650317"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061040"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365-e5"></a>Microsoft 365 E5에 위협 방지 기능 배포
 
-이 솔루션은 Microsoft 365 E5의 강력한 위협 방지 기능을 설명합니다. 이 솔루션을 읽고 포함된 기능, 작동 방식 및 조직에서 이러한 기능을 배포하는 방법을 간략하게 살펴 읽습니다.
+이 솔루션은 Microsoft 365 E5의 강력한 위협 방지 기능과 이러한 기능이 중요한 이유를 설명합니다. 이 솔루션을 읽고 Microsoft 365 E5에 포함된 기능, 위협 방지 기능이 작동되는 방식 및 조직에서 위협 방지를 설정 및 구성하는 방법에 대한 개요를 확인할 수 있습니다.
 
-## <a name="why-protecting-against-threats-is-important"></a>위협으로부터 보호하는 것이 중요한 이유 
+## <a name="why-threat-protection-is-important"></a>위협 방지가 중요한 이유 
 
 [맬웨어](/windows/security/threat-protection/intelligence/understanding-malware)및 정교한 사이버 공격(예: 파일 없는 위협)은 일반적으로 발생합니다. [](/windows/security/threat-protection/intelligence/fileless-threats) 기업은 효과적인 IT 보안 기능으로 자신과 고객을 보호해야 합니다. 사이버 공격은 신뢰 상실에서 재무적 위험, 비즈니스를 위협하는 다운타임 등 조직에 중요한 문제를 일으킬 수 있습니다. 위협으로부터 보호하는 것은 중요하지만 조직의 시간, 작업 및 리소스에 집중할 위치를 결정하기 어려울 수 있습니다. Microsoft 365 E5는 도움이 될 수 있습니다. 
 
@@ -62,7 +62,7 @@ Microsoft 365 Defender는 신호와 데이터를 [통합된 Microsoft 365 보안
 |다단계 인증 및 조건부 액세스     |손상된 ID 및 장치로부터 보호합니다. 기본이기 때문에 이 보호로 시작해야 합니다. 이 지침에서 권장되는 구성에는 Azure AD ID 보호가 선행 구성으로 포함됩니다.     |
 |ID용 Microsoft Defender     |  AD DS(Active Directory 도메인 서비스) 신호를 활용하여 조직에 대한 고급 위협, 손상된 ID 및 악의적인 내부자 작업을 식별, 감지 및 조사하는 클라우드 기반 보안 솔루션입니다. 다음으로 Microsoft Defender for Identity에 중점을 두는 이유는, 이 인프라가 사용자의 사내 및 클라우드 인프라를 보호하고, 종속성이나 선행 요구가 없는 것이고, 즉각적인 보안 이점을 제공할 수 있기 때문에 그 다음에 집중합니다. | 
 |Office 365용 Microsoft Defender     | 전자 메일 메시지, 링크(URL) 및 공동 작업 도구로 위협되는 악의적인 위협에 대해 조직을 보호합니다. 맬웨어, 피싱, 스푸핑 및 기타 공격 유형에 대한 보호. 변경 제어, 현재 시스템에서 설정을 마이그레이션하는 등 배포하는 데 시간이 오래 걸릴 수 있기 때문에 Office 365용 Microsoft Defender를 구성하는 것이 좋습니다. <p>**참고:** 모든 Office 365 구독(Exchange Online Protection)에 포함된 위협 방지 기능을 구성해야 합니다.       |
-|끝점용 Microsoft Defender    | 고급 위협을 방지, 감지, 조사 및 대응하는 데 도움이 되는 끝점 보호 플랫폼입니다.  Endpoint용 Defender를 배포하는 데 시간이 걸릴 수 있지만 구성은 다른 기능과 병렬로 수행될 수 있습니다.   |
+|엔드포인트용 Microsoft Defender    | 고급 위협을 방지, 감지, 조사 및 대응하는 데 도움이 되는 끝점 보호 플랫폼입니다.  Endpoint용 Defender를 배포하는 데 시간이 걸릴 수 있지만 구성은 다른 기능과 병렬로 수행될 수 있습니다.   |
 |Microsoft Cloud App Security     |   검색, 조사 및 거버넌스를 위한 클라우드 액세스 보안 브로커입니다. Microsoft Cloud App Security를 초기에 사용하도록 설정하여 데이터 및 인사이트 수집을 시작할 수 있습니다. SaaS 앱에 정보 및 기타 대상이 지정된 보호를 구현하는 데는 계획이 수반될 수 있으며 시간이 더 걸릴 수 있습니다.       | 
 
 > [!TIP]

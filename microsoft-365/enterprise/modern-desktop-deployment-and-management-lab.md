@@ -2,10 +2,10 @@
 title: Windows 및 Office 배포 랩 키트
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: greglin
+author: greg-lindsay
 manager: laurawi
-ms.date: 08/10/2020
+ms.date: 04/26/2021
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: efbcec6417b082311d3f094b0251702d8e0dbeac
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: c0cf3ce239ed91261bd6e53cf317a7053168509a
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028667"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52060876"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
@@ -104,23 +104,15 @@ Windows 및 Office 배포 랩 키트는 Windows 10 Enterprise 및 엔터프라�
 ## <a name="additional-guidance"></a>추가 안내
 
   - [Microsoft Mechanics의 데스크톱 배포 시리즈 비디오](https://www.aka.ms/watchhowtoshift)
-
   - [Microsoft Endpoint Configuration Manager OS 배포](/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
-
   - [Windows 10 배포 계획](/windows/deployment/planning/index)
-
   - [Microsoft 365 앱 배포 가이드](/deployoffice/deployment-guide-microsoft-365-apps)
-
   - [Intune 시작](/intune/get-started-evaluation)
 
 ## <a name="related-resources"></a>관련 리소스
 
   - [Microsoft 365 소개](https://www.microsoft.com/microsoft-365/default.aspx)
-
   - [비즈니스용 Office 365](https://products.office.com/business/office)
-
   - [Introducing Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
-
   - [Windows 10 엔터프라이즈 에디션](https://www.microsoft.com/WindowsForBusiness/windows-for-enterprise)
-
   - [Windows 10 중소기업용 에디션](https://www.microsoft.com/WindowsForBusiness/windows-for-small-business)

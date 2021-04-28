@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 전환할 때의 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: 5764b5cedf17487320fbfd05885120de86da3a84
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: 481447fa291354b3377648089cff193a2ad6fc2a
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029065"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061088"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
 독일 Microsoft 클라우드(MCD)에서 Microsoft Office 365 전역 서비스의 "독일" 지역으로의 테넌트 마이그레이션은 단계 집합 및 각 워크로드에 대해 구성된 작업으로 실행됩니다. 이 그림에서는 새로운 독일 데이터 센터로의 10개 마이그레이션 단계를 보여 주었다.
 
-![새 독일 데이터 센터로의 10단계 마이그레이션](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
+[새 독일 데이터 센터로의 ![ 10단계 마이그레이션 ](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)](../media/ms-cloud-germany-migration-opt-in/migration-organization.png#lightbox)
 
 조직의 전체 크기 및 복잡도에 따라 마이그레이션 프로세스가 몇 주 동안 완료됩니다. 마이그레이션이 진행 중일 때 사용자와 관리자는 이 설명서에 자세히 설명된 변경 사항과 함께 서비스를 계속 사용할 수 있습니다. 그래픽 및 테이블은 마이그레이션 중의 단계와 단계를 정의합니다.
 
@@ -125,7 +125,7 @@ SharePoint 2013 워크플로를 계속 사용하는 경우 SharePoint Online 마
 |:-------|:-----|:-------|
 | SharePoint 및 OneDrive가 전환됩니다. | 이 단계에서 SharePoint Online 및 비즈니스용 OneDrive는 도이치란드 Microsoft 클라우드에서 Office 365 전역 서비스로 마이그레이션됩니다.<br><ul><li>기존 Microsoft 클라우드 네덜란드 URL(예: )이 `contoso.sharepoint.de` 보존됩니다.</li><li>기존 사이트는 보존됩니다.</li><li>도이치랜드 Microsoft 클라우드 또는 Office 365 전역 서비스 인스턴스에서 STS(Security Token Service)에서 발급한 클라이언트 쪽 인증 토큰은 전환 중에 유효합니다.</li></ul>|<ul><li>콘텐츠는 마이그레이션 중에 잠시 동안 읽기 전용으로 설정됩니다. 이 시간 동안 SharePoint에서 "콘텐츠를 편집할 수 없습니다." 배너가 예상됩니다.</li><li>검색 인덱스는 보존되지 않습니다. 다시 생성하는 데 최대 10일이 걸릴 수 있습니다.</li><li>SharePoint Online 및 비즈니스용 OneDrive 콘텐츠는 마이그레이션 중에 두 가지 짧은 기간 동안 읽기 전용으로 설정됩니다. 이 시간 동안 사용자에게 "콘텐츠를 편집할 수 없습니다." 배너가 잠시 표시됩니다.</li><li>SharePoint Online 마이그레이션이 완료된 후 인덱스를 다시 생성하는 동안 SharePoint Online 및 비즈니스용 OneDrive 콘텐츠에 대한 검색 결과를 사용할 수 없게 될 수 있습니다. 이 기간 동안 검색 쿼리는 전체 결과를 반환하지 않을 수 있습니다. SharePoint Online 뉴스와 같은 검색 인덱스에 종속된 기능은 다시 인덱싱하는 동안 영향을 받을 수 있습니다.</li><li>마이그레이션 중에 SharePoint 2013 워크플로가 중단되어 마이그레이션 후에 다시 게시해야 합니다.</li></ul>
 |**SPO 관리자:** SharePoint 2013 워크플로 다시 게시| SharePoint Online 관리자는 마이그레이션 후 SharePoint 2013 워크플로를 다시 게시합니다.|SharePoint 2013 워크플로를 사용할 수 있습니다.
-|**PowerShell 사용자:** 새 모듈로 업데이트| SharePoint Online Powershell 모듈의 모든 사용자는 SharePoint Online 마이그레이션이 완료된 후 모듈/Microsoft.SharePointOnline.CSOM을 버전 16.0.20717.12000 이상으로 업데이트해야 합니다. 완료는 메시지 센터에서 전달됩니다.| PowerShell 또는 클라이언트 쪽 개체 모델을 통한 SharePoint Online은 더 이상 실패하지 않습니다.
+|**PowerShell 사용자:** 새 모듈로 업데이트| SharePoint Online PowerShell 모듈의 모든 사용자는 SharePoint Online 마이그레이션이 완료된 후 모듈/Microsoft.SharePointOnline.CSOM을 버전 16.0.20717.12000 이상으로 업데이트해야 합니다. 완료는 메시지 센터에서 전달됩니다.| PowerShell 또는 클라이언트 쪽 개체 모델을 통한 SharePoint Online은 더 이상 실패하지 않습니다.
 ||||
 
 추가 고려 사항:
