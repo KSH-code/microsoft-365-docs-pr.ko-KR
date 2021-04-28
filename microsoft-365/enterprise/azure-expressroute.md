@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 6d2534a2-c19c-4a99-be5e-33a0cee5d3bd
 description: Office 365에서 Azure ExpressRoute를 사용하는 방법을 알아보고 이를 사용하여 배포하는 경우 네트워크 구현 프로젝트를 계획합니다.
-ms.openlocfilehash: d4c14d97cff2952f5f7052a8aa2940f05d644737
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 8047cdaa1325df487709660b558420609afffd42
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023728"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073952"
 ---
 # <a name="azure-expressroute-for-office-365"></a>Office 365용 Azure Express 경로
 
@@ -39,9 +39,7 @@ Office 365에서 Azure ExpressRoute를 사용하는 방법 및 Office 365에서 
 > 끝점용 Microsoft Defender는 Azure Express 경로에서 지원되지 않습니다.
 
 > [!NOTE]
-> Office 365용 ExpressRoute를 사용하려면 Microsoft 권한 부여가 필요합니다. Microsoft는 고객의 규정 요구 사항에 따라 직접 연결을 요구할 때 모든 고객 요청을 검토하고 Office 365 사용에 대한 ExpressRoute를 승인합니다. 이러한 요구 사항이 있는 경우 Microsoft 계정 담당자에게 문의하여 Microsoft 검토를 시작하세요. Office 365에 대한 경로 필터를 만들려고 하는 권한이 없는 구독에 오류 메시지가 [표시됩니다.](https://support.microsoft.com/kb/3181709)
-
-이제 선택한 Office 365 네트워크 트래픽에 대해 Office 365에 직접 네트워크 연결을 추가할 수 있습니다. Azure ExpressRoute는 직접 연결, 예측 가능한 성능을 제공하며 Microsoft 네트워킹 구성 요소에 대해 99.95%의 UPTIME SLA를 제공합니다. Azure ExpressRoute를 통해 지원되지 않는 서비스에 대한 인터넷 연결이 계속 필요합니다.
+> 대부분의 상황에서 서비스에 대한 최상의 연결 모델을 제공하지 못하기 때문에 Microsoft 365용 ExpressRoute는 권장하지 않습니다. 따라서 Microsoft 365에 대해 이 연결 모델을 사용하려면 Microsoft 권한 부여가 필요합니다. Microsoft는 필요한 드문 시나리오에서만 모든 고객 요청을 검토하고 Microsoft 365용 ExpressRoute에 권한을 승인합니다. 자세한 내용은 [Microsoft 365용 ExpressRoute](https://aka.ms/erguide) 가이드를 읽고 생산성, 네트워크 및 보안 팀이 있는 문서에 대한 포괄적인 검토를 따라 Microsoft 계정 팀과 함께 필요한 경우 예외를 제출하세요. Office 365에 대한 경로 필터를 만들려고 하는 권한이 없는 구독에 오류 메시지가 [표시됩니다.](https://support.microsoft.com/kb/3181709)
 
 ## <a name="planning-azure-expressroute-for-office-365"></a>Office 365용 Azure ExpressRoute 계획
 
@@ -64,7 +62,7 @@ Office 365, Windows 업데이트 및 TechNet과 같은 모든 Microsoft 응용 �
 
 다음 표에는 ExpressRoute를 통해 지원되는 Office 365 서비스가 나열됩니다. Office [365 끝점](./urls-and-ip-address-ranges.md) 문서를 검토하여 이러한 응용 프로그램에 대한 네트워크 요청에 대해 인터넷에 연결해야 하는지 이해하세요.
 
-|**포함된 응용 프로그램**|
+| 포함된 응용 프로그램 |
 |:-----|
 |Exchange Online<sup>1</sup> <br/> Exchange Online Protection<sup>1</sup> <br/> Delve<sup>1</sup> <br/> |
 |비즈니스용 Skype Online<sup>1</sup> <br/> Microsoft Teams <sup>1</sup> <br/> |

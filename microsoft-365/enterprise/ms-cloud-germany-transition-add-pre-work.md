@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 경우 사전 작업입니다.'
-ms.openlocfilehash: ce7aad932482d7a9d1681957c06b85ab22a82149
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 9c3aff56f5d85cd1b98747ef5b747720af74fe02
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760395"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073940"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 마이그레이션 전 활동
 
@@ -33,7 +33,7 @@ ms.locfileid: "51760395"
 
 - **도이치랜드 Microsoft 클라우드의 Office 365** 에서 다음 [단계를 수행합니다.](#general-tenant-migration-considerations)
 - **사용자 지정 도메인** 에서 [이 단계를 합니다.](#dns-entries-for-custom-domains)
-
+- **Office 앱**, 이 [단계를 고려하세요.](#office-apps)
 - **SharePoint Online** 에서 [이 단계를 합니다.](#sharepoint-online)
 - **Exchange Online** 또는 **Exchange 하이브리드** 에서 이 [단계를 합니다.](#exchange-online)
 - **비즈니스용 Skype Online** 에서 [이 단계를 진행합니다.](#skype-for-business-online)
@@ -83,6 +83,19 @@ nslookup -querytype=CNAME msoid.contoso.com
 
 > [!NOTE]
 > Exchange Online에 대해 사용자 지정 도메인을 사용하는 경우 DNS 호스팅 공급자에 대한 액세스 권한이 필요합니다. DNS 설정에 액세스하고 편집할 수 있는지, 마이그레이션 중에 DNS 레코드를 수정할 수 있는지 확인합니다.
+
+## <a name="office-apps"></a>Office 앱
+
+**적용 방법:** Office 앱을 사용하는 고객, 특히 Windows 클라이언트에서 <br>
+**적용된 경우:** 9단계가 시작되기 전의 모든 시간
+
+"독일" 지역으로 전환하는 Office 365 테넌트는 테넌트 마이그레이션이 9단계에 도달한 후 모든 사용자가 Office 365에서 종료하고, 로그인한 후 모든 Office 데스크톱 응용 프로그램(Word, Excel, PowerPoint, Outlook 등)과 비즈니스용 OneDrive 클라이언트에 대해 다시 로그인해야 합니다. 로그인하면 Office 서비스가 전역 Azure AD 서비스에서 새 인증 토큰을 얻을 수 있습니다.
+
+이는 모든 클라이언트에 필요합니다. 원활한 마이그레이션 환경을 보장하기 위해 영향을 받는 모든 사용자에게 이 예정된 활동에 대해 미리 알리고 지시하는 것이 좋습니다.
+
+관리되는 Windows 클라이언트를 사용하는 고객은 [OCCT(Office 클라이언트](https://github.com/microsoft/OCCT)컷오버 도구)를 사용하여 Windows 컴퓨터를 준비할 수 있습니다. OCCT는 테넌트가 마이그레이션의 9단계에 도달할 때까지 Windows 클라이언트에서 주기적으로 실행하도록 디자인되었습니다. 9단계에 도달하면 OCCT는 사용자 조작 없이 자동으로 필요한 모든 변경 작업을 수행하게 됩니다.
+
+9단계 전에 OCCT를 Windows 클라이언트에 배포할 수 있습니다. OCCT에서 마이그레이션 환경을 지원해야 하는 경우 최대한 빨리 배포를 시작하여 최대 클라이언트 수를 설치하는 것이 좋습니다.
 
 ## <a name="active-directory-federation-services-ad-fs"></a>AD FS(Active Directory Federation Services)
 
