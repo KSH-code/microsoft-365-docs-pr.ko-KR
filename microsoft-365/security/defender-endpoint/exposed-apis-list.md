@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ab3d3aa9a13b71f65d3d4335646e32a7e4270242
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 656aa26d80db73bfc52511f9dd94e58e771f3ac6
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061052"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073832"
 ---
 # <a name="supported-microsoft-defender-for-endpoint-apis"></a>지원되는 엔드포인트용 Microsoft Defender API
 
@@ -69,7 +69,6 @@ API 호출을 실행할 수 있는 지원되는 개별 엔터티 및 HTTP 요청
 [컴퓨터 방법 및 속성](machine.md) | 장치 검색, ID로 장치 검색, 로그온한 사용자에 대한 정보, 태그 편집 등의 API \- 호출을 실행합니다.
 [컴퓨터 작업 방법 및 속성](machineaction.md) | ISOLATION, 바이러스 백신 검사 실행 등의 API \- 호출을 실행합니다.
 [권장 방법 및 속성](recommendation.md) | ID로 추천 등의 API \- 호출을 실행합니다.
-[재구성 활동 방법 및 속성](get-remediation-methods-properties.md) | 모든 재구성 작업을 시작하고, 노출된 장치 수정 작업을 시작하고, ID로 하나의 재구성 작업을 수행하는 등의 API \- 호출을 실행합니다.
 [점수 방법 및 속성](score.md) | 노출 점수 얻기 또는 장치 보안 점수 얻기 등의 API \- 호출을 실행합니다.
 [소프트웨어 방법 및 속성](software.md) | 소프트웨어의 목록 \- 취약점과 같은 API 호출을 실행합니다.
 [사용자 방법](user.md) | 사용자 관련 알림 및 사용자 관련 장치와 같은 API \- 호출을 실행합니다.

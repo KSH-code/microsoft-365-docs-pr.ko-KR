@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5093bf64614f30c7daa145484453d7c9000ef2c7
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 7bae413028a0add7e5288e52bc3184e30f319c46
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52060888"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073842"
 ---
 # <a name="microsoft-defender-for-endpoint-api-release-notes"></a>끝점용 Microsoft Defender API 릴리스 정보
 
@@ -37,12 +37,7 @@ ms.locfileid: "52060888"
 > https://docs.microsoft.com/api/search/rss?search=%22Release+notes+for+updates+made+to+the+Microsoft+Defender+for+Endpoint+set+of+APIs%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Windows+10%27%29
 > ```
 
-
 ## <a name="release-notes---newest-to-oldest"></a>릴리스 정보 - 가장 오래된 정보
-
-### <a name="23042021"></a>23.04.2021
-
-- 새로운 API 추가: [재구성 활동 메서드 및 속성](get-remediation-methods-properties.md).
 
 ### <a name="10022021"></a>10.02.2021
 

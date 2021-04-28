@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: df48ec921dee7d8f3b441ed3f68ed148c5c6c857
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f43d3bf9575f00649a2b5015a8be16351bebd11b
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932980"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073964"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 고급 헌팅을 통해 위협을 사전 대응
 
@@ -40,7 +40,7 @@ ms.locfileid: "51932980"
 >
 
 고급 헌팅은 최대 30일간의 원시 데이터를 탐색할 수 있는 쿼리 기반의 위협 헌팅 도구입니다. 네트워크에서 이벤트를 사전 검사하여 위협 표시기 및 엔터티를 찾을 수 있습니다. 데이터에 대한 유연한 액세스를 통해 알려진 위협과 잠재적 위협 모두에 대한 제약이 없는 헌팅을 할 수 있습니다.
-<p></p>
+<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bp7O]
 
@@ -55,17 +55,6 @@ ms.locfileid: "51932980"
 
 고급 헌팅을 사용하 고 [Microsoft 365 Defender 를 켜야 합니다.](m365d-enable.md)
 
-### <a name="before-you-begin"></a>시작하기 전에
-
-Microsoft Defender에 액세스하려면 다음 권한 수준 중 하나가 필요합니다.
-
-- 모든 액세스(읽기 및 쓰기)
-- 읽기 전용 액세스
-
-**모든 액세스:** 모든 권한이 있는 사용자는 쿼리를 저장, 수정 및 공유할 수 있습니다. 모든 액세스 권한을 할당하려면 사용자를 Azure Active Directory(AAD)의 "보안 관리자" 또는 "전역 관리자" 기본 제공 역할에 추가해야 합니다.
-
-**읽기 전용 액세스:** 읽기 전용 액세스 권한이 있는 사용자는 로그인하여 모든 경고 및 관련 정보를 볼 수 있습니다. 쿼리를 저장, 수정 또는 공유할 수 없습니다. 읽기 전용 액세스 권한을 할당하려면 사용자를 AAD의 "보안 읽기 권한자" 기본 제공 역할에 추가해야 합니다.
-
 ## <a name="get-started-with-advanced-hunting"></a>고급 헌팅 시작
 
 고급 헌팅을 빠르게 시작하기 위해 몇 가지 단계를 진행하는 것이 좋습니다.
@@ -73,14 +62,17 @@ Microsoft Defender에 액세스하려면 다음 권한 수준 중 하나가 필�
 | 학습 목표 | 설명 | 리소스 |
 |--|--|--|
 | **언어 학습** | 고급 헌팅은 [Kusto](/azure/kusto/query/)쿼리 언어를 기반으로 하여 동일한 구문과 연산자를 지원합니다. 첫 번째 쿼리를 실행하여 쿼리 언어 학습을 시작합니다. | [쿼리 언어 개요](advanced-hunting-query-language.md) |
-| **쿼리 결과 사용 방법 학습** | 결과를 보거나 내보낼 수 있는 차트 및 다양한 방법에 대해 자세히 알아보습니다. 쿼리를 빠르게 조정하고, 드릴다운하여 더 풍부한 정보를 얻고, 응답 작업을 수행할 수 있는 방법을 살펴보고, | - [쿼리 결과 작업](advanced-hunting-query-results.md)<br>- [쿼리 결과에 대한 작업 수행](advanced-hunting-take-action.md) |
-| **스키마의 이해** | 스키마와 해당 열에 있는 테이블에 대한 이해를 높이세요. 쿼리를 구성할 때 데이터를 검색할 위치를 학습합니다. | - [Schema reference](advanced-hunting-schema-tables.md)<br>- [끝점용 Microsoft Defender에서 전환](advanced-hunting-migrate-from-mde.md) |
-| **전문가 팁 및 예제 보기** | Microsoft 전문가의 가이드를 통해 무료로 교육합니다. 다양한 위협 헌팅 시나리오를 다루는 미리 정의된 쿼리 모음을 탐색합니다. | - [전문가 교육을 받을 수 있습니다.](advanced-hunting-expert-training.md)<br>- [공유 쿼리 사용](advanced-hunting-shared-queries.md)<br>- [이동 헌트](advanced-hunting-go-hunt.md)<br>- [장치, 전자 메일, 앱 및 ID에서 위협을 찾기](advanced-hunting-query-emails-devices.md) |
-| **쿼리 최적화 및 오류 처리** | 효율적이고 오류가 없는 쿼리를 만드는 방법을 이해합니다. | - [쿼리 모범 사례](advanced-hunting-best-practices.md)<br>- [오류 처리](advanced-hunting-errors.md) |
-| **사용자 지정 검색 규칙 만들기** | 고급 헌팅 쿼리를 사용하여 경고를 트리거하고 응답 작업을 자동으로 수행할 수 있는 방법을 이해합니다. | - [사용자 지정 검색 개요](custom-detections-overview.md)<br>- [사용자 지정 검색 규칙](custom-detection-rules.md) |
+| **쿼리 결과 사용 방법 학습** | 결과를 보거나 내보낼 수 있는 차트 및 다양한 방법에 대해 자세히 알아보습니다. 쿼리를 빠르게 조정하고, 드릴다운하여 더 풍부한 정보를 얻고, 응답 작업을 수행할 수 있는 방법을 살펴보고, | - [쿼리 결과 작업](advanced-hunting-query-results.md)<br /> - [쿼리 결과에 대한 작업 수행](advanced-hunting-take-action.md) |
+| **스키마의 이해** | 스키마와 해당 열에 있는 테이블에 대한 이해를 높이세요. 쿼리를 구성할 때 데이터를 검색할 위치를 학습합니다. | - [Schema reference](advanced-hunting-schema-tables.md) <br />- [끝점용 Microsoft Defender에서 전환](advanced-hunting-migrate-from-mde.md) |
+| **전문가 팁 및 예제 보기** | Microsoft 전문가의 가이드를 통해 무료로 교육합니다. 다양한 위협 헌팅 시나리오를 다루는 미리 정의된 쿼리 모음을 탐색합니다. | - [전문가 교육을 받을 수 있습니다.](advanced-hunting-expert-training.md) <br />- [공유 쿼리 사용](advanced-hunting-shared-queries.md) <br />- [이동 헌트](advanced-hunting-go-hunt.md) <br />- [장치, 전자 메일, 앱 및 ID에서 위협을 찾기](advanced-hunting-query-emails-devices.md) |
+| **쿼리 최적화 및 오류 처리** | 효율적이고 오류가 없는 쿼리를 만드는 방법을 이해합니다. | - [쿼리 모범 사례](advanced-hunting-best-practices.md)<br />- [오류 처리](advanced-hunting-errors.md) |
+| **사용자 지정 검색 규칙 만들기** | 고급 헌팅 쿼리를 사용하여 경고를 트리거하고 응답 작업을 자동으로 수행할 수 있는 방법을 이해합니다. | - [사용자 지정 검색 개요](custom-detections-overview.md) <br />- [사용자 지정 검색 규칙](custom-detection-rules.md) |
 
 ## <a name="get-access"></a>액세스 액세스
-고급 헌팅 또는 [기타 Microsoft 365 Defender](microsoft-365-defender.md) 기능을 사용하려면 Azure Active Directory에서 적절한 역할이 필요합니다. 또한 끝점 데이터에 대한 액세스는 끝점용 Microsoft Defender의 RBAC(역할 기반 액세스 제어) 설정에 따라 결정됩니다. [Microsoft 365 Defender에 대한 액세스 관리에 대한 읽기](m365d-permissions.md)
+고급 헌팅 또는 [기타 Microsoft 365 Defender](microsoft-365-defender.md) 기능을 사용하려면 Azure Active Directory에서 적절한 역할이 필요합니다. 고급 헌팅에 필요한 역할 및 사용 [권한에 대해 읽어 읽습니다.](custom-roles.md)
+
+또한 끝점 데이터에 대한 액세스는 끝점용 Microsoft Defender의 RBAC(역할 기반 액세스 제어) 설정에 따라 결정됩니다. [Microsoft 365 Defender에 대한 액세스 관리에 대해 읽어 읽습니다.](m365d-permissions.md)
+
 
 ## <a name="data-freshness-and-update-frequency"></a>데이터 최신성 및 업데이트 빈도
 고급 헌팅 데이터는 서로 다른 두 가지 유형으로 분류할 수 있습니다.
