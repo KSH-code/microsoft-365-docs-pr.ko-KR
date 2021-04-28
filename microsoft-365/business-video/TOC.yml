@@ -127,6 +127,8 @@
           href: act-on-report.md
         - name: 다른 도메인 추가
           href: add-domain.md
+        - name: 새 비즈니스 전자 메일 주소 설정
+          href: set-up-a-new-business-email-address.md
     - name: 장치 관리
       items:
         - name: Windows 10 Pro 장치 보안
