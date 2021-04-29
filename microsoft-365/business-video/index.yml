@@ -13,72 +13,66 @@ metadata:
   ms.date: 12/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 0c9ba8560c2ee64b8e0da4d14afe869006bd6ed8
-  ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
-  ms.translationtype: MT
-  ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/02/2021
-  ms.locfileid: "51580573"
 productDirectory:
   items:
-  - title: 시작
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    summary: 비즈니스용 Microsoft 365로의 이동을 계획합니다.
-    url: what-is-microsoft-365.md
-  - title: 비즈니스용 Microsoft 365 설정
-    imageSrc: https://docs.microsoft.com/office/media/icons/add-to-cloud-blue.svg
-    summary: 도메인 추가, 사용자 추가, 보안 정책 설정...
-    url: sign-up.md
-  - title: 컴퓨터 설정
-    imageSrc: https://docs.microsoft.com/office/media/icons/device-desktop-download-blue.svg
-    summary: Office 설치, 전자 메일 설정, 파일 마이그레이션...
-    url: upgrade.md
-  - title: 모바일 장치 설정
-    imageSrc: https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg
-    summary: 모바일 장치에 Office 앱을 설치합니다.
-    url: work-from-anywhere.md
-  - title: 다른 사람과 공동 작업
-    imageSrc: https://docs.microsoft.com/office/media/icons/collaborate-blue.svg
-    summary: Teams에서 직원 및 고객과 함께 작업합니다.
-    url: collab-outlook-teams.md
-  - title: 파일 저장 및 공유
-    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg
-    summary: 파일을 안전하게 저장하고 어디에서나 액세스할 수 있습니다.
-    url: overview-file-sharing.md
-  - title: Business Voice 설정
-    imageSrc: https://docs.microsoft.com/office/media/icons/call-phone-blue.svg
-    summary: 전화 서비스 및 회의를 설치합니다.
-    url: business-voice.md
-  - title: 비즈니스 앱 설정
-    imageSrc: https://docs.microsoft.com/office/media/icons/task-list-planning-blue.svg
-    summary: 예약, 목록, 작업...을 설정하고 자세히 알아보십시오.
-    url: overview-bookings.md
-  - title: 구독 관리
-    imageSrc: https://docs.microsoft.com/office/media/icons/settings.svg
-    summary: 사용자 관리, 암호 재설정, 청구서 보기...
-    url: what-is-admin.md
-  - title: 장치 관리
-    imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-blue.svg
-    summary: 개인 및 작업 장치에 대한 정책을 설정합니다.
-    url: secure-win-10-pro-devices.md
-  - title: 비즈니스 보호
-    imageSrc: https://docs.microsoft.com/office/media/icons/security-blue.svg
-    summary: 보안 및 규정 준수 기능을 설치합니다.
-    url: overview-m365-security.md
-  - title: 지원 받기
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-blue.svg
-    summary: 비즈니스용 Microsoft 365에 대한 도움말을 얻습니다.
-    url: find-help-answers.md
+    - title: 시작하기
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
+      summary: 비즈니스용 Microsoft 365로의 이동을 계획합니다.
+      url: what-is-microsoft-365.md
+    - title: 비즈니스용 Microsoft 365 설정
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/add-to-cloud-blue.svg'
+      summary: '도메인 추가, 사용자 추가, 보안 정책 설정...'
+      url: sign-up.md
+    - title: 컴퓨터 설정
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/device-desktop-download-blue.svg'
+      summary: 'Office 설치, 전자 메일 설정, 파일 마이그레이션...'
+      url: upgrade.md
+    - title: 모바일 장치 설정
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg'
+      summary: 모바일 장치에 Office 앱을 설치합니다.
+      url: work-from-anywhere.md
+    - title: 다른 사람과 공동 작업
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/collaborate-blue.svg'
+      summary: Teams에서 직원 및 고객과 함께 작업합니다.
+      url: collab-outlook-teams.md
+    - title: 파일 저장 및 공유
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg'
+      summary: 파일을 안전하게 저장하고 어디에서나 액세스할 수 있습니다.
+      url: overview-file-sharing.md
+    - title: Business Voice 설정
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/call-phone-blue.svg'
+      summary: 전화 서비스 및 회의를 설치합니다.
+      url: business-voice.md
+    - title: 비즈니스 앱 설정
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/task-list-planning-blue.svg'
+      summary: '예약, 목록, 작업...을 설정하고 자세히 알아보십시오.'
+      url: overview-bookings.md
+    - title: 구독 관리
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/settings.svg'
+      summary: '사용자 관리, 암호 재설정, 청구서 보기...'
+      url: what-is-admin.md
+    - title: 장치 관리
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-blue.svg'
+      summary: 개인 및 작업 장치에 대한 정책을 설정합니다.
+      url: secure-win-10-pro-devices.md
+    - title: 비즈니스 보호
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/security-blue.svg'
+      summary: 보안 및 규정 준수 기능을 설치합니다.
+      url: overview-m365-security.md
+    - title: 지원 받기
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-blue.svg'
+      summary: 비즈니스용 Microsoft 365에 대한 도움말을 얻습니다.
+      url: find-help-answers.md
 additionalContent:
   sections:
-  - title: 자세히 알아보기
-    items:
-    - title: Office에 대해 자세히 알아보기
-      summary: Word, Excel, PowerPoint 및 기타 Office 앱을 사용하는 방법을 배워야 합니다.
-      url: https://support.microsoft.com/training
-    - title: Google Workspace에서 전환
-      summary: 비즈니스용 Microsoft 365로 전환하는 방법을 찾아보아야 합니다.
-      url: moveto-microsoft-365/move-from-google-workspace-overview.md
-    - title: 추가 관리자 리소스 찾기
-      summary: Microsoft 365 관리 센터 도움말 사이트로 이동하세요.
-      url: ../admin/index.yml
+    - title: 자세히 알아보기
+      items:
+        - title: Office에 대해 자세히 알아보기
+          summary: 'Word, Excel, PowerPoint 및 기타 Office 앱을 사용하는 방법을 배워야 합니다.'
+          url: 'https://support.microsoft.com/training'
+        - title: ITPros 교육을 받을 수 있습니다.
+          summary: 중소기업을 위한 학습 경로를 완료합니다.
+          url: 'https://docs.microsoft.com/learn/m365/'
+        - title: 추가 관리자 리소스 찾기
+          summary: Microsoft 365 관리 센터 도움말 사이트로 이동하세요.
+          url: ../admin/index.yml
