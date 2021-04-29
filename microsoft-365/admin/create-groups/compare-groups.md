@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: 사용할 수 있는 그룹 유형에 대해 알아봅니다.
-ms.openlocfilehash: 8565b567706a70bb014fab42b23e9c55fb0efc45
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7b67fa5e7dc661163ce6c2c8933ebdafd0a5940d
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908749"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023848"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
@@ -83,8 +83,8 @@ Microsoft 365 그룹은 iOS용 Outlook 및 Android용 Outlook과 같은 모바�
 
 현재 공유 사서함은 Microsoft 365 그룹으로 마이그레이션할 수 없습니다. 원하는 사항이 있나요? 의견을 보내주세요. **[여기에서 투표하세요](https://go.microsoft.com/fwlink/?linkid=871518)**.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 그룹에 대해 자세히 알아보세요.](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Microsoft 365 그룹에 대한 자세한 정보](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)(기사)
 
-[Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
+[Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)(기사)

@@ -28,12 +28,12 @@ ms.custom:
 - AdminSurgePortfolio
 description: Microsoft 365 관리 센터에서 송장 또는 청구서를 찾으십시오. 청구서 복사본을 저장하고 인쇄할 수도 있습니다.
 ms.date: 07/31/2020
-ms.openlocfilehash: b117071fa708ad9d425d578833d8b0ad85537151
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: d391d99f5d5870d964fc4c420a105f25032e3640
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939489"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52060970"
 ---
 # <a name="view-your-bill-or-invoice"></a>청구서 또는 송장 보기
 
@@ -62,7 +62,7 @@ ms.locfileid: "51939489"
 
 결제한 후 3일이 지나면 [Fapiao 관리 시스템](https://go.microsoft.com/fwlink/p/?linkid=837465)에서 Fapiao 요청을 제출할 수 있습니다.
 
-1. <a href=”https://go.microsoft.com/fwlink/p/?linkid=850627” target=”_blank”>관리 센터</a>에서 **청구** > **청구 및 결제** 페이지로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **청구** > **청구서 및 결제** 페이지로 이동하세요.
 
 2. 원하는 청구서를 찾은 다음, **Fapiao 받기** 를 선택합니다.
 

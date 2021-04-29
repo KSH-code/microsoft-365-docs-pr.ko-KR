@@ -118,8 +118,6 @@
           href: create-a-keyword-dictionary.md
         - name: 문서 지문
           href: document-fingerprinting.md
-        - name: 중요한 정보에 대한 DLP 기능
-          href: what-the-dlp-functions-look-for.md
     - name: 교육 가능한 분류자
       items:
         - name: 학습 가능한 분류자에 대한 자세한 정보
