@@ -204,18 +204,10 @@
           href: ../../compliance/alert-policies.md
         - name: 보안 및 준수 센터의 똑똑한 보고서 및 분석
           href: reports-and-insights-in-security-and-compliance.md
-        - name: 보고서 메시지 추가 기능을 사용하도록 설정
-          href: enable-the-report-message-add-in.md
-        - name: 보고서 피싱 추가 기능을 사용하도록 설정
-          href: enable-the-report-phish-add-in.md
-        - name: 정크 전자 메일 보고 추가 기능 설치 및 사용
-          href: junk-email-reporting-add-in-for-microsoft-outlook.md
+        - name: Outlook에서 가양성 및 가음성 보고
+          href: report-false-positives-and-false-negatives.md
         - name: 독립형 EOP 메일 흐름 규칙(전송 규칙)
           href: mail-flow-rules-transport-rules-0.md
-        - name: 웹용 Outlook에서 정크 전자 메일 및 피싱 보고
-          href: report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
-        - name: iOS 및 Android용 Outlook에서 정크 전자 메일 및 피싱 보고
-          href: report-junk-email-and-phishing-scams-in-outlook-for-ios-and-android.md
         - name: 독립 실행형 EOP에서 관리자 역할 그룹 보고서 실행
           href: run-an-administrator-role-group-report-in-eop-eop.md
     - name: 조사
