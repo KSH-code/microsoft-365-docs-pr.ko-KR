@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ffddfcb36b2b31e490dc4e65aee05304733e34a5
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 14a57e67655f6a9a9b57b77abf2fb7f27f0e264e
+ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50548779"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "52086504"
 ---
 # <a name="contact-support-for-bangladesh"></a>방글라데시 지원에 문의
 
@@ -28,7 +28,7 @@ ms.locfileid: "50548779"
 
 전화 걸기 후 다음을 입력합니다.
 
-877 857 3235
++1877 857 3235
 
 ## <a name="hours"></a>시간
 ### <a name="billing-support"></a>청구 지원:
