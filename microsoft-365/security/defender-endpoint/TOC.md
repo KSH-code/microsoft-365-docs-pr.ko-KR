@@ -647,6 +647,6 @@
 ##### [공격 표면 감소 규칙](troubleshoot-asr.md)
 ##### [공격 표면 감소 규칙으로 마이그레이션](migrating-asr-rules.md)
 
-# [Microsoft 365 Defender](../index.yml)
+# [Microsoft 365 Defender](../defender/index.yml)
 # [Office 365용 Defender](../office-365-security/index.yml)
 # [ID용 Defender](https://docs.microsoft.com/defender-for-identity/)
