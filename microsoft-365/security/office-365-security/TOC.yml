@@ -376,7 +376,7 @@
             - name: 독립 실행형 EOP에서 역할 그룹 관리
               href: manage-admin-role-group-permissions-in-eop.md
     - name: Microsoft 365 Defender
-      href: ../index.yml
+      href: ../defender/index.yml
     - name: 끝점용 Microsoft Defender
       href: ../defender-endpoint/index.yml
     - name: ID용 Microsoft Defender

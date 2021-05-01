@@ -100,6 +100,24 @@
                   href: investigate-alerts.md
                 - name: 사용자 분석
                   href: investigate-users.md
+                - name: 첫 번째 인시던트에 응답
+                  items:
+                    - name: 소개
+                      href: first-incident-overview.md
+                    - name: 준비
+                      href: first-incident-prepare.md
+                    - name: 1단계. Triage and analyze
+                      href: first-incident-analyze.md
+                    - name: 2단계. 수정
+                      href: first-incident-remediate.md
+                    - name: 3단계. 검토
+                      href: first-incident-post.md
+                    - name: 추가 인시던트 예
+                      items:
+                        - name: 피싱 전자 메일
+                          href: first-incident-path-phishing.md
+                        - name: ID
+                          href: first-incident-path-identity.md
             - name: 이메일 알림
               href: get-incident-notifications.md
         - name: 자동화된 조사 및 응답

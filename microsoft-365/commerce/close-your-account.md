@@ -10,77 +10,83 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- commerce
+- M365-subscription-management
+- Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - fwlink 2133922 to Delete subscription heading
+- commerce_subscription
+- PPM_jmueller
+ms.reviewer: jkinma
 search.appverid:
 - MET150
 description: Microsoft에서 계정을 닫는 방법을 알아보하세요.
-ms.openlocfilehash: 44428654946d31ad249bfd3e7a3609da3e3634a6
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.date: 04/02/2021
+ms.openlocfilehash: 4fa1366186f0a37d3319208224628332d958a0ea
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860550"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107475"
 ---
-# <a name="close-your-account"></a><span data-ttu-id="03cf3-103">계정 사용 중지 </span><span class="sxs-lookup"><span data-stu-id="03cf3-103">Close your account</span></span>
+# <a name="close-your-account"></a><span data-ttu-id="ca353-103">계정 사용 중지 </span><span class="sxs-lookup"><span data-stu-id="ca353-103">Close your account</span></span>
 
-<span data-ttu-id="03cf3-104">Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-104">When you close your account with Microsoft, all information related to your account is deleted.</span></span> <span data-ttu-id="03cf3-105">이 정보에는 구독, 라이선스, 지불 방법, 사용자 및 사용자 데이터가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-105">This information includes subscriptions, licenses, payment methods, users, and user data.</span></span>
+<span data-ttu-id="ca353-104">Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-104">When you close your account with Microsoft, all information related to your account is deleted.</span></span> <span data-ttu-id="ca353-105">이 정보에는 구독, 라이선스, 지불 방법, 사용자 및 사용자 데이터가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-105">This information includes subscriptions, licenses, payment methods, users, and user data.</span></span>
 
-## <a name="before-you-begin"></a><span data-ttu-id="03cf3-106">시작하기 전에</span><span class="sxs-lookup"><span data-stu-id="03cf3-106">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="ca353-106">시작하기 전에</span><span class="sxs-lookup"><span data-stu-id="ca353-106">Before you begin</span></span>
 
-<span data-ttu-id="03cf3-107">이 프로세스를 시작하기 전에 보존하려는 데이터를 백업하세요.</span><span class="sxs-lookup"><span data-stu-id="03cf3-107">Before you start this process, make sure to back up any data that you want to preserve.</span></span>
+<span data-ttu-id="ca353-107">이 프로세스를 시작하기 전에 보존하려는 데이터를 백업하세요.</span><span class="sxs-lookup"><span data-stu-id="ca353-107">Before you start this process, make sure to back up any data that you want to preserve.</span></span>
 
-<span data-ttu-id="03cf3-108">이 문서의 작업을 수행하려면 전역 관리자 또는 청구 관리자여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-108">You must be a Global or Billing admin to do the tasks in this article.</span></span> <span data-ttu-id="03cf3-109">자세한 내용은 [관리자 역할 정보](../admin/add-users/about-admin-roles.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="03cf3-109">For more information, see [About admin roles](../admin/add-users/about-admin-roles.md).</span></span>
+<span data-ttu-id="ca353-108">이 문서의 작업을 수행하려면 전역 관리자 또는 청구 관리자여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-108">You must be a Global or Billing admin to do the tasks in this article.</span></span> <span data-ttu-id="ca353-109">자세한 내용은 [관리자 역할 정보](../admin/add-users/about-admin-roles.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="ca353-109">For more information, see [About admin roles](../admin/add-users/about-admin-roles.md).</span></span>
 
-## <a name="step-1-delete-users"></a><span data-ttu-id="03cf3-110">1단계: 사용자 삭제</span><span class="sxs-lookup"><span data-stu-id="03cf3-110">Step 1: Delete users</span></span>
+## <a name="step-1-delete-users"></a><span data-ttu-id="ca353-110">1단계: 사용자 삭제</span><span class="sxs-lookup"><span data-stu-id="ca353-110">Step 1: Delete users</span></span>
 
-<span data-ttu-id="03cf3-111">전역 관리자 한 명을 제외한 모든 사용자를 삭제합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-111">Delete all users except for one global administrator.</span></span> <span data-ttu-id="03cf3-112">전역 관리자가 계정을 닫는 단계를 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-112">The global administrator completes the steps to close the account.</span></span> <span data-ttu-id="03cf3-113">이 프로세스가 끝나면 디렉터리를 삭제하려면 먼저 다른 모든 사용자를 삭제해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-113">Before you can delete the directory at the end of this process, you must delete all other users.</span></span>
+<span data-ttu-id="ca353-111">전역 관리자 한 명을 제외한 모든 사용자를 삭제합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-111">Delete all users except for one global administrator.</span></span> <span data-ttu-id="ca353-112">전역 관리자가 계정을 닫는 단계를 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-112">The global administrator completes the steps to close the account.</span></span> <span data-ttu-id="ca353-113">이 프로세스가 끝나면 디렉터리를 삭제하려면 먼저 다른 모든 사용자를 삭제해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-113">Before you can delete the directory at the end of this process, you must delete all other users.</span></span>
 
-<span data-ttu-id="03cf3-114">사용자가 사내에서 동기화되는 경우 먼저 동기화를 해제한 다음 Azure Portal 또는 Azure PowerShell cmdlet을 사용하여 클라우드 디렉터리의 사용자를 삭제합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-114">If users are synchronized from on-premises, first turn off sync, then delete the users in the cloud directory by using the Azure portal or Azure PowerShell cmdlets.</span></span>
+<span data-ttu-id="ca353-114">사용자가 오프-프레미스에서 동기화되는 경우 먼저 동기화를 해제한 다음 Azure Portal 또는 Azure PowerShell cmdlet을 사용하여 클라우드 디렉터리의 사용자를 삭제합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-114">If users are synchronized from on-premises, first turn off sync, then delete the users in the cloud directory by using the Azure portal or Azure PowerShell cmdlets.</span></span>
 
-<span data-ttu-id="03cf3-115">사용자를 삭제하려면 사용자 관리 관리자: 하나 이상의 사용자 <a href="/office365/admin/add-users/delete-a-user?view=o365-worldwide#user-management-admin-delete-one-or-more-users-from-office-365">삭제를 참조하세요.</a></span><span class="sxs-lookup"><span data-stu-id="03cf3-115">To delete users, see <a href="/office365/admin/add-users/delete-a-user?view=o365-worldwide#user-management-admin-delete-one-or-more-users-from-office-365">User management admin: Delete one or more users</a>.</span></span>
+<span data-ttu-id="ca353-115">사용자를 삭제하려면 사용자 관리 관리자: 하나 이상의 사용자 [삭제를 참조하세요.](../admin/add-users/delete-a-user.md#user-management-admin-delete-one-or-more-users-from-office-365)</span><span class="sxs-lookup"><span data-stu-id="ca353-115">To delete users, see [User management admin: Delete one or more users](../admin/add-users/delete-a-user.md#user-management-admin-delete-one-or-more-users-from-office-365).</span></span>
 
-<span data-ttu-id="03cf3-116"><a href="https://docs.microsoft.com/powershell/module/msonline/remove-msoluser">Remove-MsolUser</a> PowerShell cmdlet을 사용하여 사용자를 대량으로 삭제할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-116">You can also use the <a href="https://docs.microsoft.com/powershell/module/msonline/remove-msoluser">Remove-MsolUser</a> PowerShell cmdlet to delete users in bulk.</span></span>
+<span data-ttu-id="ca353-116">[Remove-MsolUser](/powershell/module/msonline/remove-msoluser) PowerShell cmdlet을 사용하여 사용자를 대량으로 삭제할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-116">You can also use the [Remove-MsolUser](/powershell/module/msonline/remove-msoluser) PowerShell cmdlet to delete users in bulk.</span></span>
 
-<span data-ttu-id="03cf3-117">조직에서 Microsoft Azure AD(Azure Active Directory)와 동기화하는 Active Directory를 사용하는 경우 대신 Active Directory에서 사용자 계정을 삭제합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-117">If your organization uses Active Directory that synchronizes with Microsoft Azure Active Directory (Azure AD), delete the user account from Active Directory, instead.</span></span> <span data-ttu-id="03cf3-118">자세한 내용은 Azure Active Directory에서 사용자 대량 <a href="/azure/active-directory/users-groups-roles/users-bulk-delete">삭제를 참조하세요.</a></span><span class="sxs-lookup"><span data-stu-id="03cf3-118">For instructions, see <a href="/azure/active-directory/users-groups-roles/users-bulk-delete">Bulk delete users in Azure Active Directory</a>.</span></span>
+<span data-ttu-id="ca353-117">조직에서 Azure AD(Active Directory)와 동기화되는 Active Directory를 Microsoft Azure Active Directory Active Directory에서 사용자 계정을 삭제합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-117">If your organization uses Active Directory that synchronizes with Microsoft Azure Active Directory (Azure AD), delete the user account from Active Directory, instead.</span></span> <span data-ttu-id="ca353-118">자세한 내용은 [에서 사용자 일괄 삭제를 Azure Active Directory.](/azure/active-directory/users-groups-roles/users-bulk-delete)</span><span class="sxs-lookup"><span data-stu-id="ca353-118">For instructions, see [Bulk delete users in Azure Active Directory](/azure/active-directory/users-groups-roles/users-bulk-delete).</span></span>
 
-## <a name="step-2-cancel-all-active-subscriptions"></a><span data-ttu-id="03cf3-119">2단계: 활성 구독 모두 취소</span><span class="sxs-lookup"><span data-stu-id="03cf3-119">Step 2: Cancel all active subscriptions</span></span>
+## <a name="step-2-cancel-all-active-subscriptions"></a><span data-ttu-id="ca353-119">2단계: 활성 구독 모두 취소</span><span class="sxs-lookup"><span data-stu-id="ca353-119">Step 2: Cancel all active subscriptions</span></span>
 
-1. <span data-ttu-id="03cf3-120">관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-120">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
-2. <span data-ttu-id="03cf3-121">제품 **탭에서** 활성 구독을 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-121">On the **Products** tab, find an active subscription.</span></span> <span data-ttu-id="03cf3-122">**추가 작업**(점 3개)을 선택한 다음 **구독 취소** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-122">Select **More actions** (three dots), then select **Cancel subscription**.</span></span>
-3. <span data-ttu-id="03cf3-123">**구독 취소** 창에서 취소 이유를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-123">In the **Cancel subscription** pane, choose a reason why you're canceling.</span></span> <span data-ttu-id="03cf3-124">원하는 경우, 피드백을 제공하세요.</span><span class="sxs-lookup"><span data-stu-id="03cf3-124">Optionally, provide any feedback.</span></span>
-4. <span data-ttu-id="03cf3-125">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-125">Select **Save**.</span></span>
-5. <span data-ttu-id="03cf3-126">활성 구독을 모두 취소하려면 1~4단계를 반복합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-126">Repeat steps 1 through 4 to cancel all active subscriptions.</span></span>
+1. <span data-ttu-id="ca353-120">관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-120">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
+2. <span data-ttu-id="ca353-121">제품 **탭에서** 활성 구독을 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-121">On the **Products** tab, find an active subscription.</span></span> <span data-ttu-id="ca353-122">**추가 작업**(점 3개)을 선택한 다음 **구독 취소** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-122">Select **More actions** (three dots), then select **Cancel subscription**.</span></span>
+3. <span data-ttu-id="ca353-123">**구독 취소** 창에서 취소 이유를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-123">In the **Cancel subscription** pane, choose a reason why you're canceling.</span></span> <span data-ttu-id="ca353-124">원하는 경우, 피드백을 제공하세요.</span><span class="sxs-lookup"><span data-stu-id="ca353-124">Optionally, provide any feedback.</span></span>
+4. <span data-ttu-id="ca353-125">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-125">Select **Save**.</span></span>
+5. <span data-ttu-id="ca353-126">활성 구독을 모두 취소하려면 1~4단계를 반복합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-126">Repeat steps 1 through 4 to cancel all active subscriptions.</span></span>
 
-## <a name="step-3-delete-all-disabled-subscriptions"></a><span data-ttu-id="03cf3-127">3단계: 사용하지 않도록 설정한 모든 구독 삭제</span><span class="sxs-lookup"><span data-stu-id="03cf3-127">Step 3: Delete all disabled subscriptions</span></span>
+## <a name="step-3-delete-all-disabled-subscriptions"></a><span data-ttu-id="ca353-127">3단계: 사용하지 않도록 설정한 모든 구독 삭제</span><span class="sxs-lookup"><span data-stu-id="ca353-127">Step 3: Delete all disabled subscriptions</span></span>
 
-1. <span data-ttu-id="03cf3-128">관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-128">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
-2. <span data-ttu-id="03cf3-129">제품 **탭에서** 비활성화된 구독을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-129">On the **Products** tab, select a disabled subscription.</span></span>
-3. <span data-ttu-id="03cf3-130">구독 세부 정보 페이지의 구독 및 결제 설정 **섹션에서** 구독 **삭제를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="03cf3-130">On the subscription details page, in the **Subscription and payment settings** section, select **Delete subscription**.</span></span>
-4. <span data-ttu-id="03cf3-131">구독 **삭제 창에서** 구독 **삭제를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="03cf3-131">In the **Delete subscription** pane, select **Delete subscription**.</span></span>
-5. <span data-ttu-id="03cf3-132">구독 **삭제 대화** 상자에서 예를 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="03cf3-132">In the **Delete subscription** dialog box, select **Yes**.</span></span>
-6. <span data-ttu-id="03cf3-133">사용하지 않도록 설정한 각 구독에 대해 모든 구독이 삭제될 때까지 3-5단계를 반복합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-133">For each disabled subscription, repeat steps 3 through 5 until all subscriptions are deleted.</span></span>
+1. <span data-ttu-id="ca353-128">관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-128">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
+2. <span data-ttu-id="ca353-129">제품 **탭에서** 비활성화된 구독을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-129">On the **Products** tab, select a disabled subscription.</span></span>
+3. <span data-ttu-id="ca353-130">구독 세부 정보 페이지의 구독 및 결제 설정 **섹션에서** 구독 **삭제를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="ca353-130">On the subscription details page, in the **Subscription and payment settings** section, select **Delete subscription**.</span></span>
+4. <span data-ttu-id="ca353-131">구독 **삭제 창에서** 구독 **삭제를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="ca353-131">In the **Delete subscription** pane, select **Delete subscription**.</span></span>
+5. <span data-ttu-id="ca353-132">구독 **삭제 대화** 상자에서 예를 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="ca353-132">In the **Delete subscription** dialog box, select **Yes**.</span></span>
+6. <span data-ttu-id="ca353-133">사용하지 않도록 설정한 각 구독에 대해 모든 구독이 삭제될 때까지 3-5단계를 반복합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-133">For each disabled subscription, repeat steps 3 through 5 until all subscriptions are deleted.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="03cf3-134">사용하지 않도록 설정한 구독을 즉시 삭제할 수 없는 경우 고객 <a href="/microsoft-365/Admin/contact-support-for-business-products" target="_blank">지원에 문의하세요.</a></span><span class="sxs-lookup"><span data-stu-id="03cf3-134">If you're unable to immediately delete a disabled subscription, <a href="/microsoft-365/Admin/contact-support-for-business-products" target="_blank">contact support</a></span></span>
+> <span data-ttu-id="ca353-134">사용하지 않도록 설정한 구독을 즉시 삭제할 수 없는 경우 고객 [지원에 문의하세요.](../admin/contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="ca353-134">If you're unable to immediately delete a disabled subscription, [contact support](../admin/contact-support-for-business-products.md).</span></span>
 
-## <a name="step-4-disable-multi-factor-authentication"></a><span data-ttu-id="03cf3-135">4단계: 다단계 인증 사용 안 하도록 설정</span><span class="sxs-lookup"><span data-stu-id="03cf3-135">Step 4: Disable multi-factor authentication</span></span>
+## <a name="step-4-disable-multi-factor-authentication"></a><span data-ttu-id="ca353-135">4단계: 다단계 인증 사용 안 하도록 설정</span><span class="sxs-lookup"><span data-stu-id="ca353-135">Step 4: Disable multi-factor authentication</span></span>
 
-1. <span data-ttu-id="03cf3-136">전역 관리자 계정으로 관리 센터에 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-136">Sign in to the admin center with a Global administrator account.</span></span> <span data-ttu-id="03cf3-137">역할이 있는지 확인하려면 [조직에서 관리자 역할 확인을 참조하세요.](../admin/add-users/assign-admin-roles.md#check-admin-roles-in-your-organization)</span><span class="sxs-lookup"><span data-stu-id="03cf3-137">To verify what roles you have, see [Check admin roles in your organization](../admin/add-users/assign-admin-roles.md#check-admin-roles-in-your-organization).</span></span>
-2. <span data-ttu-id="03cf3-138">사용자 활성 **사용자**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">페이지로</a> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-138">Go to the **Users** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
-3. <span data-ttu-id="03cf3-139">다단계 **인증 을 선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="03cf3-139">Choose **Multi-factor authentication**.</span></span>
-4. <span data-ttu-id="03cf3-140">다단계 인증 페이지에서 현재 사용 중인 전역 관리자 계정을 제외한 모든 계정을 사용하지 않도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-140">On the multi-factor authentication page, disable all accounts except for the global admin account that you're currently using.</span></span>
+1. <span data-ttu-id="ca353-136">전역 관리자 계정으로 관리 센터에 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-136">Sign in to the admin center with a Global administrator account.</span></span> <span data-ttu-id="ca353-137">역할이 있는지 확인하려면 [조직에서 관리자 역할 확인을 참조하세요.](../admin/add-users/assign-admin-roles.md#check-admin-roles-in-your-organization)</span><span class="sxs-lookup"><span data-stu-id="ca353-137">To verify what roles you have, see [Check admin roles in your organization](../admin/add-users/assign-admin-roles.md#check-admin-roles-in-your-organization).</span></span>
+2. <span data-ttu-id="ca353-138">사용자 활성 **사용자**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">페이지로</a> 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-138">Go to the **Users** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
+3. <span data-ttu-id="ca353-139">다단계 **인증 을 선택 합니다.**</span><span class="sxs-lookup"><span data-stu-id="ca353-139">Choose **Multi-factor authentication**.</span></span>
+4. <span data-ttu-id="ca353-140">다단계 인증 페이지에서 현재 사용 중인 전역 관리자 계정을 제외한 모든 계정을 사용하지 않도록 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-140">On the multi-factor authentication page, disable all accounts except for the global admin account that you're currently using.</span></span>
 
-<span data-ttu-id="03cf3-141">PowerShell을 사용하여 여러 사용자에 대해 <a href="/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell">다단계 인증을</a>사용하지 않도록 설정할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-141">You can also <a href="/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell">use PowerShell to disable multi-factor authentication for multiple users</a>.</span></span>
+<span data-ttu-id="ca353-141">PowerShell을 사용하여 여러 사용자에 대해 [다단계 인증을](/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell)사용하지 않도록 설정할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-141">You can also [use PowerShell to disable multi-factor authentication for multiple users](/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell).</span></span>
 
-## <a name="step-5-delete-the-directory-in-azure-active-directory"></a><span data-ttu-id="03cf3-142">5단계: Azure Active Directory에서 디렉터리 삭제</span><span class="sxs-lookup"><span data-stu-id="03cf3-142">Step 5: Delete the directory in Azure Active Directory</span></span>
 
-1. <span data-ttu-id="03cf3-143">전역 관리자 계정으로 <a href="https://aad.portal.azure.com/" target="_blank">Azure AD</a> 관리 센터에 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-143">Sign in to the <a href="https://aad.portal.azure.com/" target="_blank">Azure AD admin center</a> with a Global administrator account.</span></span>
-2. <span data-ttu-id="03cf3-144">**Azure Active Directory** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-144">Select **Azure Active Directory**.</span></span>
-3. <span data-ttu-id="03cf3-145">삭제할 조직으로 전환합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-145">Switch to the organization that you want to delete.</span></span>
-4. <span data-ttu-id="03cf3-146">**테넌트 삭제를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="03cf3-146">Select **Delete tenant**.</span></span>
-5. <span data-ttu-id="03cf3-147">조직에서 하나 이상의 검사에 실패하면 검사를 통과하는 방법에 대한 추가 정보 링크가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-147">If your organization fails one or more checks, you see a link to more information on how to pass the checks.</span></span> <span data-ttu-id="03cf3-148">모든 검사를 통과한 후 삭제를 **선택하여** 프로세스를 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-148">After you pass all checks, select **Delete** to complete the process.</span></span>
+## <a name="step-5-delete-the-directory-in-azure-active-directory"></a><span data-ttu-id="ca353-142">5단계: 2단계에서 디렉터리 Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="ca353-142">Step 5: Delete the directory in Azure Active Directory</span></span>
 
-<span data-ttu-id="03cf3-149">이 마지막 단계를 완료하면 Microsoft 계정이 닫히고 삭제됩니다.</span><span class="sxs-lookup"><span data-stu-id="03cf3-149">After you complete this final step, your account with Microsoft is closed and deleted.</span></span>
+1. <span data-ttu-id="ca353-143">전역 관리자 계정으로 <a href="https://aad.portal.azure.com/" target="_blank">Azure AD</a> 관리 센터에 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-143">Sign in to the <a href="https://aad.portal.azure.com/" target="_blank">Azure AD admin center</a> with a Global administrator account.</span></span>
+2. <span data-ttu-id="ca353-144">**Azure Active Directory** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-144">Select **Azure Active Directory**.</span></span>
+3. <span data-ttu-id="ca353-145">삭제할 조직으로 전환합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-145">Switch to the organization that you want to delete.</span></span>
+4. <span data-ttu-id="ca353-146">**테넌트 삭제를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="ca353-146">Select **Delete tenant**.</span></span>
+5. <span data-ttu-id="ca353-147">조직에서 하나 이상의 검사에 실패하면 검사를 통과하는 방법에 대한 추가 정보 링크가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-147">If your organization fails one or more checks, you see a link to more information on how to pass the checks.</span></span> <span data-ttu-id="ca353-148">모든 검사를 통과한 후 삭제를 **선택하여** 프로세스를 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-148">After you pass all checks, select **Delete** to complete the process.</span></span>
+
+<span data-ttu-id="ca353-149">이 마지막 단계를 완료하면 Microsoft 계정이 닫히고 삭제됩니다.</span><span class="sxs-lookup"><span data-stu-id="ca353-149">After you complete this final step, your account with Microsoft is closed and deleted.</span></span>
