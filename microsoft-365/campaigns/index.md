@@ -24,13 +24,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: 소규모 기업, 일정 및 정치 캠페인을 포함한 소규모 기업을 위한 Microsoft 365 지침입니다.
-ms.openlocfilehash: 0f7b441a4280ba9eaaf5f1f673d1ccf43a0a5350
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+description: 소규모 기업, 일정 및 정치 캠페인을 포함한 소규모 기업을 위한 Microsoft 365 보안 및 공동 작업 권장 사항입니다.
+ms.openlocfilehash: 621ebe483683f68ccb9332f9c8b2802bd9b98867
+ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044718"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52100786"
 ---
 <a name="microsoft-365-for-smaller-businesses-and-campaigns"></a>소규모 기업 및 캠페인을 위한 Microsoft 365
 ===========================
