@@ -1,5 +1,5 @@
 ---
-title: 21Vianet에서 운영하는 Office 365용 Fapiao 신청
+title: 21Vianet에서 운영하는 Office 365 Fapiao에 신청
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -12,23 +12,25 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_NonTOC
-- commerce
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- commerce_billing
+- PPM_jmueller
+ms.reviewer: jkinma
 search.appverid:
 - MET150
 - GEA150
-ms.assetid: c80a315a-af87-4996-94b9-fd2194f58a93
-description: 중국의 21Vianet에서 운영하는 Office 365에서 결제를 한 후 Fapiao 요청을 21Vianet Fapiao 관리 시스템에 제출하는 방법을 학습합니다.
+description: 중국의 21Vianet에서 운영하는 21Vianet에서 운영하는 Office 365 후 Fapiao 요청을 21Vianet Fapiao 관리 시스템에 제출하는 방법을 알아보습니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: d9f75dfd00bb547e9d2e0f53826e5bc50926de39
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.date: 03/30/2021
+ms.openlocfilehash: 1f2dec1ca224b7f8c6c22d5d9d0d2a0cac8630ea
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470956"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107463"
 ---
-# <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365용 Fapiao 신청
+# <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365 Fapiao에 신청
 
 Fapiao 요청을 결제 후 약 3일 후에 21Vianet Fapiao 관리 시스템에 제출할 수 있습니다. Fapiao 요청을 제출하면 2일 후에 처리됩니다.
   
@@ -38,18 +40,18 @@ Fapiao 요청을 결제 후 약 3일 후에 21Vianet Fapiao 관리 시스템에 
 
 Fapiao에 적용하는 방법에는 두 가지가 있습니다.
   
-1. 21Vianet에서 운영하는 Office 365 웹 사이트에서 결제한 후 주문 번호와 Fapiao 관리 시스템에 대한 링크가 포함된 주문 확인 전자 메일을 받게 됩니다. 전자 메일의 링크를 사용하여 <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao 정보</a>관리 시스템에서 계정을 만들 수 있습니다.
+1. 21Vianet 웹 사이트에서 Office 365 결제한 후 주문 번호가 포함된 주문 확인 전자 메일과 Fapiao 관리 시스템에 대한 링크를 받게 됩니다. 전자 메일의 링크를 사용하여 <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao 정보</a>관리 시스템에서 계정을 만들 수 있습니다.
 
     또는
 
 2. 관리 센터에서 Fapiao를 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">신청할 수 있습니다.</a>
 
-    ![Microsoft 365 관리 센터의 청구서 페이지](../../media/a6e3b953-abd4-46aa-a910-08c517915a21.png)
+    ![청구서 관리 센터의 Microsoft 365 페이지입니다.](../../media/a6e3b953-abd4-46aa-a910-08c517915a21.png)
   
 ## <a name="step-2-register-with-the-21vianet-fapiao-management-system"></a>2단계: 21Vianet Fapiao 관리 시스템에 등록
 
 > [!NOTE]
-> Office 365 계정과 동일한 전자 메일 이름과 암호를 사용할 수도 있으며, 다른 방법을 사용할 수도 있습니다.
+> 사용자 계정과 동일한 전자 메일 이름과 암호를 Office 365 다른 방법을 사용할 수 있습니다.
   
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao 정보 관리 시스템으로 이동하세요.</a>
 

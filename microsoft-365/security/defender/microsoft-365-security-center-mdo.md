@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 보안 센터의 Office 365용 Microsoft Defender
 description: Office 365 보안 및 규정 준수 센터에서 Microsoft 365 보안 센터로의 변경에 대해 자세히 알아보겠습니다.
-keywords: Microsoft 365 보안, Microsoft 365 보안 센터 시작, Office 365용 Microsoft Defender, 끝점용 Microsoft Defender, MDO, MDE, 단일 창, 새 보안 포털, 새 Defender 보안 포털
+keywords: Microsoft 365 보안, Microsoft 365 보안 센터 시작, Office 365용 Microsoft Defender, 끝점용 Microsoft Defender, MDO, MDE, 단일 창, 새 보안 포털, 새로운 Defender 보안 포털
 ms.date: 02/21/2021
 ms.author: tracyp
 author: msfttracyp
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: b5decd562509d134899b85b380791087a913cd58
-ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
+ms.openlocfilehash: a0ab671f879119c1ab490bcb726f08224e59bfdd
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51943068"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114415"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 Office 365용 Microsoft Defender
 
@@ -66,7 +66,7 @@ Office 365 보안 및 규정 준수 포털(protection.office.com)에 익숙한 �
 > Microsoft 365 보안 포털(https://security.microsoft.com)에서 https://securitycenter.windows.com 및 https://protection.office.com보안 기능을 결합합니다. 그러나 표시되는 내용은 구독에 따라 다를 수 있습니다. 예를 들어 독립 실행형 구독으로 Office 365용 Microsoft Defender 플랜 1 또는 2만 있는 경우 엔드포인트용 보안과 관련된 기능이 표시되지 않으며 Office용 Defender 플랜 1 고객에게는 위협 분석과 같은 항목이 표시되지 않습니다.
 
 > [!TIP]
->  EOP는 Office 365용 Defender의 핵심 요소인 모든 EOP(Exchange Online Protection) 기능이 Microsoft 365 보안 센터에 포함됩니다.
+>  EOP는 Exchange Online Protection Defender의 핵심 요소이기 때문에 모든 EOP(Microsoft 365) 기능이 Office 365.
 
 ## <a name="microsoft-365-security-center-home-page"></a>Microsoft 365 보안 센터 홈페이지
 
@@ -74,7 +74,7 @@ Office 365 보안 및 규정 준수 포털(protection.office.com)에 익숙한 �
 
 - 보안 점수 등급
 - 위험에 노출된 사용자 및 장치 수
-- 활성 인시던트 목록
+- 활성 인시던트 큐
 - 권한이 있는 OAuth 앱 목록
 - 장치 상태 데이터
 - Microsoft 보안 인텔리전스 Twitter 피드의 트윗

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 기본 수준의 보호로 팀을 배포하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 728a41bd521ed32c57c981be576e46eaee344099
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: db1a58fd06a62240cbcfcc74f83ba6196f33df80
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222746"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114297"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>기본 보호 기능으로 팀 구성
 
@@ -96,7 +96,7 @@ Microsoft 365에서는 콘텐츠를 보호하기 위한 추가 방법을 제공�
 
 - 게스트들이 [사용 약관](/azure/active-directory/conditional-access/terms-of-use)에서 동의하도록 합니다.
 - 게스트 사용자에 대한 [세션 시간 초과 정책](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)을 구성합니다.
-- [중요한 정보 유형](../compliance/sensitive-information-type-learn-about.md)을 만들고 [데이터 손실 방지](../compliance/data-loss-prevention-policies.md)를 사용하여 중요한 정보에 액세스하는 방법에 대한 정책을 설정합니다.
+- [중요한 정보 유형](../compliance/sensitive-information-type-learn-about.md)을 만들고 [데이터 손실 방지](../compliance/dlp-learn-about-dlp.md)를 사용하여 중요한 정보에 액세스하는 방법에 대한 정책을 설정합니다.
 
 ## <a name="see-also"></a>참고 항목
 

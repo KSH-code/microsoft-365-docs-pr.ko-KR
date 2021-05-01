@@ -12,18 +12,21 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- commerce
-- Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- commerce_subscriptions
+- PPM_jmueller
+ms.reviewer: jkinma
 search.appverid:
 - MET150
 description: 조직의 무료 셀프 서비스 등록 구독을 관리하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 5910ed5d65f93a4dab15c681610d4d59d0427fb0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.date: 03/17/2021
+ms.openlocfilehash: 64648151d7761bd8bb0d2301d59fb093de98b127
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920171"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107619"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>셀프 서비스 등록 구독 관리
 
@@ -38,7 +41,7 @@ ms.locfileid: "50920171"
 
 ## <a name="how-are-these-subscriptions-different-from-self-service-purchase-subscriptions"></a>이러한 구독은 셀프 서비스 구매 구독과 어떻게 다른가요?
 
-셀프 서비스 등록 구독은 무료이며 셀프 서비스 구매 구독보다 더 큰 제품 목록에서 사용할 수 있습니다. 사용자가 셀프 서비스 구매 구독에 등록하면 해당 구독 비용을 지불해야 합니다. 셀프 서비스 구매 구독은 Power Platform 제품(Power BI, Power Apps 및 Power Automate), Project 및 Visio에서만 사용할 수 있습니다. 자세한 내용은 셀프 서비스 [구매 FAQ 를 참조하세요.](self-service-purchase-faq.md)
+셀프 서비스 등록 구독은 무료이며 셀프 서비스 구매 구독보다 더 큰 제품 목록에서 사용할 수 있습니다. 사용자가 셀프 서비스 구매 구독에 등록하면 해당 구독 비용을 지불해야 합니다. 셀프 서비스 구매 구독은 Power Platform 제품(Power BI, Power Apps 및 Power Automate), Project 및 Visio 사용할 수 Visio. 자세한 내용은 셀프 서비스 [구매 FAQ 를 참조하세요.](self-service-purchase-faq.md)
 
 ## <a name="block-users-from-signing-up"></a>사용자의 등록 차단
 
@@ -57,4 +60,4 @@ ms.locfileid: "50920171"
 
 ## <a name="i-have-a-self-service-sign-up-subscription-that-blocks-directory-deletion"></a>디렉터리를 지우는 셀프 서비스 등록 구독이 있습니다.
 
-개별 사용자가 등록할 수 있는 셀프 서비스 등록 제품도 Azure AD 디렉터리에서 인증을 위해 게스트 사용자를 만들 수 있습니다. 데이터 손실을 방지하기 위해 이러한 셀프 서비스 제품은 디렉터리에서 완전히 삭제될 때까지 디렉터리 삭제를 차단합니다. Azure AD 관리자만 삭제할 수 있습니다. 자세한 내용은 [Azure Active Directory에서 디렉터리 삭제를 참조하세요.](/azure/active-directory/users-groups-roles/directory-delete-howto)
+개별 사용자가 등록할 수 있는 셀프 서비스 등록 제품도 Azure AD 디렉터리에서 인증을 위해 게스트 사용자를 만들 수 있습니다. 데이터 손실을 방지하기 위해 이러한 셀프 서비스 제품은 디렉터리에서 완전히 삭제될 때까지 디렉터리 삭제를 차단합니다. Azure AD 관리자만 삭제할 수 있습니다. 자세한 내용은 [Delete a directory in Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-delete-howto)

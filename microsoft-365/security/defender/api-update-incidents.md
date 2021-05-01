@@ -1,6 +1,6 @@
 ---
 title: 인시던트 업데이트 API
-description: Microsoft 365 Defender API를 사용하여 인시던트 업데이트 방법 학습
+description: Defender API를 사용하여 인시던트 업데이트 Microsoft 365 방법 학습
 keywords: update, api, incident
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 549f9bf2b9dc2ea5d1c734a809ad10a168c8123e
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d6872a7a4b1b2d2c131066076af02a65b4ef6d8a
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51060800"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107607"
 ---
 # <a name="update-incidents-api"></a>인시던트 업데이트 API
 
@@ -51,7 +51,7 @@ ms.locfileid: "51060800"
 
 ## <a name="permissions"></a>사용 권한
 
-이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 권한을 선택하는 방법을 포함하여 자세한 내용은 [Microsoft 365 Defender API 액세스를 참조합니다.](api-access.md)
+이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 권한을 선택하는 방법을 포함하여 자세한 내용은 [Access the Microsoft 365 Defender API 를 참조합니다.](api-access.md)
 
 사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
 -|-|-
@@ -80,17 +80,17 @@ Content-Type | 문자열 | application/json. **필수입니다**.
 
 속성 | 유형 | 설명
 -|-|-
-status | Enum | 경고의 현재 상태를 지정합니다. 가능한 값은 ```Active``` , ```Resolved``` , 및 ```Redirected``` 입니다.
+status | Enum | 인시던트의 현재 상태를 지정합니다. 가능한 값은 ```Active``` , ```Resolved``` , 및 ```Redirected``` 입니다.
 assignedTo | 문자열 | 인시던트의 소유자입니다.
-classification | Enum | 경고 사양입니다. 가능한 값은 ```Unknown``` , ```FalsePositive``` , ```TruePositive``` 입니다.
-determination | Enum | 경고 결정 가능한 값은 ```NotAvailable``` , ```Apt``` ```Malware``` , , , , ```SecurityPersonnel``` ```SecurityTesting``` , ```UnwantedSoftware``` ```Other``` 입니다.
+classification | Enum | 인시던트 사양입니다. 가능한 값은 ```Unknown``` , ```FalsePositive``` , ```TruePositive``` 입니다.
+determination | Enum | 인시던트 결정 가능한 값은 ```NotAvailable``` , ```Apt``` ```Malware``` , , , , ```SecurityPersonnel``` ```SecurityTesting``` , ```UnwantedSoftware``` ```Other``` 입니다.
 tags | 문자열 목록 | 인시던트 태그 목록입니다.
 
 ## <a name="response"></a>응답
 
 성공하면 이 메서드는 `200 OK` 를 반환합니다. 응답 본문에는 업데이트된 속성이 있는 인시던트 엔터티가 포함되어 있습니다. 지정한 ID가 있는 인시던트가 발견되지 않으면 메서드는 를 `404 Not Found` 반환합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예시
 
 **요청**
 
@@ -114,7 +114,7 @@ tags | 문자열 목록 | 인시던트 태그 목록입니다.
 
 ## <a name="related-articles"></a>관련 문서
 
-- [Microsoft 365 Defender API 액세스](api-access.md)
+- [Microsoft 365 Defender API에 액세스](api-access.md)
 - [API 제한 및 라이선싱에 대해 자세히 알아보기](api-terms.md)
 - [오류 코드 이해](api-error-codes.md)
 - [인시던트 API](api-incident.md)

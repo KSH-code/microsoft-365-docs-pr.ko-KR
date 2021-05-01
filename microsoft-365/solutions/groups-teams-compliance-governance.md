@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 그룹, Teams 및 SharePoint 공동 작업을 위한 규정 준수 옵션
+title: Microsoft 365, Teams 및 SharePoint 준수 옵션
 ms.reviewer: ''
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,31 +14,31 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-description: Microsoft 365 그룹, Teams 및 SharePoint 공동 작업의 규정 준수 옵션에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 5006f0cf9f7eb174082d4fc2508bf112864fcba3
-ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
+description: 사용자 그룹, Microsoft 365 및 Teams 준수 옵션에 대해 SharePoint 대해 자세히 알아보습니다.
+ms.openlocfilehash: 92b668c5cbf5d105ccd1373a6ef8550400e4539f
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899355"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114031"
 ---
-# <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Microsoft 365 그룹, Teams 및 SharePoint 공동 작업을 위한 규정 준수 옵션
+# <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Microsoft 365, Teams 및 SharePoint 준수 옵션
 
-Microsoft 365는 사용자가 공동 작업을 할 때 규정 준수를 유지하기 위한 전체 도구 모음을 제공합니다. 이러한 옵션을 검토하고 비즈니스 요구, 데이터의 민감도 및 사용자가 공동 작업해야 하는 사용자의 범위에 매핑되는 방법을 고려합니다.
+Microsoft 365 사용자는 공동 작업을 할 때 규정 준수를 유지하기 위한 전체 도구 모음을 제공합니다. 이러한 옵션을 검토하고 비즈니스 요구, 데이터의 민감도 및 사용자가 공동 작업해야 하는 사용자의 범위에 매핑되는 방법을 고려합니다.
 
-다음 표에서는 Microsoft 365에서 사용할 수 있는 준수 컨트롤에 대한 빠른 참조를 제공합니다. 추가 정보는 다음 섹션에서 제공됩니다.
+다음 표에서는 이 문서에서 사용할 수 있는 준수 컨트롤에 대한 빠른 참조를 Microsoft 365. 추가 정보는 다음 섹션에서 제공됩니다.
 
-|범주|설명|참고자료|
+|범주|설명|참조|
 |:-------|:----------|:--------|
 |정보 보존|||
-||그룹 메일 및 SharePoint 콘텐츠 보존|[SharePoint 및 OneDrive의 보존 정책에 대해 자세히 알아보기](../compliance/retention-policies-sharepoint.md)|
+||그룹 메일 및 SharePoint 보존|[SharePoint 및 OneDrive의 보존 정책에 대해 자세히 알아보기](../compliance/retention-policies-sharepoint.md)|
 ||채팅 및 메시지 보존|[Microsoft Teams의 보존 정책에 대해 자세히 알아보기](../compliance/retention-policies-teams.md)|
 |정보 분류|||
 ||그룹 및 팀 분류|[민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기](../compliance/sensitivity-labels-teams-groups-sites.md)|
 ||중요한 콘텐츠 자동 분류|[민감도 레이블을 콘텐츠에 자동으로 적용](../compliance/apply-sensitivity-label-automatically.md)|
-||중요한 콘텐츠 암호화|[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](../compliance/encryption-sensitivity-labels.md)|
+||중요한 콘텐츠 암호화|[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠에 대한 액세스 제한](../compliance/encryption-sensitivity-labels.md)|
 |정보 보호|||
-||중요한 정보 손실 방지|[데이터 손실 방지 개요](../compliance/data-loss-prevention-policies.md)|
+||중요한 정보 손실 방지|[데이터 손실 방지에 대한 자세한 정보](../compliance/dlp-learn-about-dlp.md)|
 ||채팅에서 중요한 정보를 보호합니다.|[데이터 손실 방지 및 Microsoft Teams](../compliance/dlp-microsoft-teams.md)|
 ||조직의 중요한 정보 정의|[사용자 지정 중요한 정보 유형](../compliance/sensitive-information-type-learn-about.md)|
 |사용자 분할|||
@@ -48,11 +48,11 @@ Microsoft 365는 사용자가 공동 작업을 할 때 규정 준수를 유지�
 
 보존 정책은 파일, 메시지 및 메일을 포함하여 그룹 및 팀의 공동 작업에 사용되는 항목을 보존하거나 삭제할 수 있습니다. 정책을 보존 및 삭제, 보존만 또는 삭제만 하여 설정할 수 있습니다. 보존 정책이 적용하는 정보는 그룹 또는 팀이 만료되거나 다른 삭제될 경우 보호됩니다.
 
-Microsoft 365 그룹에 대한 보존 정책을 구성하면 그룹 사서함과 연결된 SharePoint 사이트 및 파일에 대해 다를 수 있습니다.
+Microsoft 365 그룹에 대한 보존 정책을 구성하면 그룹 사서함 및 연결된 SharePoint 파일에 대해 다를 수 있습니다.
 
 - [SharePoint 및 OneDrive의 보존 정책에 대해 자세히 알아보기](../compliance/retention-policies-sharepoint.md)
 
-Teams에 대한 보존 정책은 채팅 및 채널 메시지를 보존합니다. 채팅 및 채널 메시지는 Exchange 사서함에 저장되는 동안 Exchange 보존 정책의 영향을 받지 않습니다. Teams 채팅 및 Teams 채널 메시지에 적용하려면 보존 정책을 설정해야 합니다. 
+채팅 및 채널 Teams 보존 정책 채팅 및 채널 메시지는 Exchange 보존 정책의 영향을 받지 Exchange 않습니다. 채팅 및 채널 메시지에 적용할 보존 Teams 설정해야 Teams 합니다. 
 
 사용자 계정이 삭제된 경우에도 사용자 채팅은 무기한 유지됩니다. 이 데이터를 무기한 보존하지 않는 경우 보존 정책을 사용하여 지정된 시간 후에 사용자 채팅을 삭제하거나 사용자 삭제 프로세스에 이 삭제를 포함하세요.
 
@@ -60,13 +60,13 @@ Teams에 대한 보존 정책은 채팅 및 채널 메시지를 보존합니다.
 
 - [Microsoft Teams의 보존 정책](/microsoftteams/retention-policies)
 
-Teams 채팅 및 Teams 채널 메시지에 적용하기 위해 단일 보존 정책을 설정할 수 있습니다. 
+단일 보존 정책을 설정하여 채팅 및 Teams 메시지에 적용할 Teams 있습니다. 
 
 추가 리소스:
 
 - [보존 정책에 대한 자세한 정보](../compliance/retention.md)
 
-- Exchange의 보존 태그 [및 보존](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies) 정책
+- [보존 태그 및](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies) 보존 정책 Exchange
 
 ## <a name="information-classification"></a>정보 분류
 
@@ -74,13 +74,13 @@ Teams 채팅 및 Teams 채널 메시지에 적용하기 위해 단일 보존 정
 
 - [민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기](../compliance/sensitivity-labels-teams-groups-sites.md)
 
-중요한 정보 유형 또는 학습 가능한 분류자와 패턴 일치 검색을 포함하여 지정한 기준에 따라 파일 및 전자 메일에 민감도 레이블을 자동으로 적용하도록 Microsoft 365를 구성할 수 있습니다.
+중요한 Microsoft 365 분류자와 패턴 일치를 검색하는 등 지정한 기준에 따라 파일 및 전자 메일에 민감도 레이블을 자동으로 적용하도록 구성할 수 있습니다.
 
 - [민감도 레이블을 콘텐츠에 자동으로 적용](../compliance/apply-sensitivity-label-automatically.md)
 
 민감도 레이블을 사용하여 파일을 암호화할 수 있으며, 사용 권한이 있는 레이블만 암호를 해독하고 읽을 수 있습니다.
 
-- [민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](../compliance/encryption-sensitivity-labels.md)
+- [민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠에 대한 액세스 제한](../compliance/encryption-sensitivity-labels.md)
 
 - [보안 격리를 사용하여 팀 구성하기](./secure-teams-security-isolation.md)
 
@@ -91,11 +91,11 @@ Teams 채팅 및 Teams 채널 메시지에 적용하기 위해 단일 보존 정
 
 ## <a name="information-protection"></a>정보 보호
 
-DLP 정책은 SharePoint, Exchange 및 Teams에서 중요한 정보를 실수로 공유하는 것을 방지할 수 있습니다. 규칙 집합에 따라 수행할 작업(예: 액세스 차단)을 지정하는 정책을 만들 수 있습니다.
+DLP 정책은 사용자, 사용자 및 사용자 SharePoint 중요한 정보를 실수로 Exchange 방지할 수 Teams. 규칙 집합에 따라 수행할 작업(예: 액세스 차단)을 지정하는 정책을 만들 수 있습니다.
 
-- [데이터 손실 방지 개요](../compliance/data-loss-prevention-policies.md)
+- [데이터 손실 방지에 대한 자세한 정보](../compliance/dlp-learn-about-dlp.md)
 
-Teams의 DLP는 중요한 정보가 포함된 메시지를 삭제하여 Teams 채팅 및 채널 메시지의 중요한 정보를 보호하는 데 도움이 될 수 있습니다.
+DLP는 Teams 포함된 메시지를 삭제하여 Teams 및 채널 메시지의 중요한 정보를 보호하는 데 도움이 될 수 있습니다.
 
 - [데이터 손실 방지 및 Microsoft Teams](../compliance/dlp-microsoft-teams.md)
 
@@ -111,7 +111,7 @@ Teams의 DLP는 중요한 정보가 포함된 메시지를 삭제하여 Teams �
 
 - [Microsoft Teams의 정보 장벽](/microsoftteams/information-barriers-in-teams)
 
-- [SharePoint에서 정보 장벽 사용](/sharepoint/information-barriers)
+- [사용자와 정보 장벽 SharePoint](/sharepoint/information-barriers)
 
 ## <a name="related-topics"></a>관련 항목
 
@@ -119,6 +119,6 @@ Teams의 DLP는 중요한 정보가 포함된 메시지를 삭제하여 Teams �
 
 [공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 
-[Exchange Online에 대한 보안 및 규정 준수](/exchange/security-and-compliance/security-and-compliance)
+[보안 및 규정 Exchange Online](/exchange/security-and-compliance/security-and-compliance)
 
 [정보를 보호](../compliance/information-protection.md)

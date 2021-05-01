@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: 암호 공격으로부터 조직을 더 안전하게 보호하는 방법과 일반적인 암호를 금지하고 위험 기반 다단계 인증을 사용해야 하는 이유를 알아봅니다.
-ms.openlocfilehash: ca9a88b0bb154416837254d785cf9cfee8876ae6
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d3f86a6e85ab2f8e469a57ea98a661e4cc453673
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914729"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073868"
 ---
 # <a name="password-policy-recommendations"></a>권장 암호 정책
 
@@ -34,7 +34,15 @@ ms.locfileid: "50914729"
   
 조직의 Microsoft 365 암호 만료 주기를 확인하려면 [Microsoft 365 암호 만료 정책 설정](../manage/set-password-expiration-policy.md)을 참조하세요.
 
-Microsoft 365 암호에 대한 자세한 내용은[관련 문서](#related-articles)를 참조 하세요.
+Microsoft 365 암호에 대한 자세한 내용은 다음을 참조 하세요.
+
+[암호 다시 설정](../add-users/reset-passwords.md) (문서)
+
+[개별 사용자 암호를 만료 기한 없음으로 설정](../add-users/set-password-to-never-expire.md) (문서)
+
+[사용자가 암호를 직접 재설정할 수 있도록 허용](../add-users/let-users-reset-passwords.md) (문서)
+
+[사용자 암호 다시 전송 - 관리자 도움말](../add-users/resend-user-password.md) (문서)
   
 ## <a name="understanding-password-recommendations"></a>암호 권장 사항 이해
 
@@ -134,12 +142,12 @@ Microsoft 365 암호에 대한 자세한 내용은[관련 문서](#related-artic
 
 - [2015년 최악의 비밀번호](https://go.microsoft.com/fwlink/p/?linkid=861020)
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[암호 초기화](../add-users/reset-passwords.md)
+[암호 다시 설정](../add-users/reset-passwords.md) (문서)
 
-[개별 사용자 암호가 만료되지 않도록 설정](../add-users/set-password-to-never-expire.md)
+[개별 사용자의 암호를 만료 기한 없음으로 설정](../add-users/set-password-to-never-expire.md) (문서)
 
-[사용자가 암호를 직접 재설정할 수 있도록 허용](../add-users/let-users-reset-passwords.md)
+[사용자가 암호를 직접 재설정할 수 있도록 허용](../add-users/let-users-reset-passwords.md) (문서)
 
-[사용자 암호 다시 보내기 - 관리자 도움말](../add-users/resend-user-password.md)
+[사용자 암호 다시 전송 - 관리자 도움말](../add-users/resend-user-password.md) (문서)

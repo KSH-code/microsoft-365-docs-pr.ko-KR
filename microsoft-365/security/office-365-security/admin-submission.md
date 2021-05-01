@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 보안 & 준수 센터의 제출 포털을 사용하여 의심스러운 전자 메일, 피싱 메일, 스팸 및 기타 유해한 메시지, URL 및 파일을 검색을 위해 Microsoft에 제출하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e0975d5b6c2d29c94a30f7bbc703221b80217761
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: d0b91808aa9008f467f66b8200f2c05a120fbcd9
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599878"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107233"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
@@ -35,7 +35,7 @@ ms.locfileid: "51599878"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 
 
-Exchange Online에 사서함이 있는 Microsoft 365 조직에서 관리자는 보안 및 준수 센터의 제출 포털을 & 전자 메일 메시지, URL 및 첨부 파일을 검색을 위해 Microsoft에 제출할 수 있습니다.
+Microsoft 365 사서함이 있는 Exchange Online 조직에서 관리자는 보안 & 준수 센터의 제출 포털을 사용하여 검색을 위해 전자 메일 메시지, URL 및 첨부 파일을 Microsoft에 제출할 수 있습니다.
 
 전자 메일 메시지를 제출하면 다음이 표시됩니다.
 
@@ -57,7 +57,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
   - **보안** 및 **준수** 센터의 [조직 관리 & 보안 읽기](permissions-in-the-security-and-compliance-center.md)
 
-  -  [Exchange Online의 조직 관리.](/Exchange/permissions-exo/permissions-exo#role-groups)
+  - **에서 조직** [Exchange Online.](/Exchange/permissions-exo/permissions-exo#role-groups)
 
     이 역할 그룹의 구성원 자격은 [](#view-user-submissions-to-the-custom-mailbox) 이 문서의 부분에서 설명하는 사용자 지정 사서함에 대한 사용자 전송 보기에 필요합니다.
 
@@ -73,12 +73,12 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 1. 개체 **유형 섹션에서** 전자 메일을 **선택합니다.** 제출 **형식 섹션에서** 다음 옵션 중 하나를 사용하세요.
 
-   - 네트워크 메시지 **ID:** 메시지의 **X-MS-Exchange-Organization-Network-Message-Id** 헤더 또는 분리된 메시지의 **X-MS-Office365-Filtering-Correlation-Id** 헤더에서 사용할 수 있는 GUID 값입니다.
+   - 네트워크 메시지 **ID:** 이 값은 메시지의 **X-MS-Exchange-Organization-Network-Message-Id** 헤더 또는 **X-MS-Office365-Filtering-Correlation-Id** 헤더에서 사용할 수 있는 GUID 값입니다.
 
    - **파일**: 파일 **선택을 클릭합니다.** 대화 상자가 열리면 .eml 또는 .msg 파일을 찾아 선택한 다음 열기 를 **클릭합니다.**
 
    > [!NOTE]
-   > Office 365 고객용 Defender에 대해 30일 이전의 메시지를 전송하는 능력이 일시적으로 중단되었습니다. 관리자는 7일만 돌아갈 수 있습니다.
+   > 30일이 지난 메시지를 전송하는 능력은 모든 고객에 대해 Defender에 대해 Office 365 일시적으로 중단되었습니다. 관리자는 7일만 돌아갈 수 있습니다.
 
 2. 받는 **사람 섹션에서** 정책 검사를 실행할 받는 사람을 한명 이상 지정합니다. 정책 검사는 사용자 또는 조직 정책으로 인해 전자 메일이 검사를 무시한지 여부를 판단합니다.
 
@@ -90,7 +90,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 4. 완료되면 제출 **단추를** 클릭합니다.
 
-   ![URL 제출 예제](../../media/submission-flyout-email.PNG)
+   ![새 URL 제출 예제](../../media/submission-flyout-email.PNG)
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>의심되는 URL을 Microsoft로 보내기
 
@@ -104,7 +104,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 3. 완료되면 제출 **단추를** 클릭합니다.
 
-   ![전자 메일 제출 예제](../../media/submission-url-flyout.png)
+   ![새 전자 메일 제출 예제](../../media/submission-url-flyout.png)
 
 ### <a name="submit-a-suspected-file-to-microsoft"></a>의심되는 파일을 Microsoft에 제출
 
@@ -120,7 +120,7 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 
 4. 완료되면 제출 **단추를** 클릭합니다.
 
-   ![첨부 파일 제출 예제](../../media/submission-file-flyout.PNG)
+   ![새 첨부 파일 제출 예제](../../media/submission-file-flyout.PNG)
 
 ## <a name="view-items-submitted-for-analysis"></a>분석을 위해 제출된 항목 보기
 
@@ -136,9 +136,9 @@ Microsoft에 전자 메일 메시지, URL 및 첨부 파일을 제출하는 다�
 - **제출 유형**
 - **상태**
 
-![관리자 제출에 대한 필터 옵션](../../media/admin-submission-email-filter-options.png)
+![관리자 제출에 대한 새 필터 옵션](../../media/admin-submission-email-filter-options.png)
 
-결과를 내보내려면 페이지 **위쪽에서** 내보내기 를 클릭하고 차트 데이터 또는 **테이블을** **선택합니다.** 나타나는 대화 상자에서 .csv 파일을 저장합니다.
+결과를 내보내려면 페이지 **위쪽에서** 내보내기 를 클릭하고 차트 데이터 또는 **테이블을** **선택합니다.** 나타나는 대화 상자에서 파일 .csv 저장합니다.
 
 그래프 아래에는 전자 메일(기본값), URL 및 첨부 파일 3개의 **탭이** **있습니다.** 
 
@@ -203,7 +203,7 @@ URL **탭을** 클릭합니다.
 
 ## <a name="view-user-submissions-to-microsoft"></a>Microsoft에 대한 사용자 제출 보기
 
-보고서 메시지 추가 [기능,](enable-the-report-message-add-in.md)피싱 보고 [](enable-the-report-phish-add-in.md)추가 기능 또는 사용자가 웹용 [Outlook에서](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)기본 제공 보고를 사용하는 경우 사용자 제출 탭에서 보고하는 사용자를 볼 수 **있습니다.**
+보고서 메시지 추가 [기능,](enable-the-report-message-add-in.md)피싱 보고 [](enable-the-report-phish-add-in.md)추가 기능을 배포한 경우 또는 사용자가 웹의 Outlook 기본 제공 보고를 사용하는 경우 [사용자](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)제출 탭에서 보고하는 사용자를 볼 수 **있습니다.**
 
 1. 보안 및 & 센터에서 위협 관리 **제출으로** \> **이동합니다.**
 
@@ -230,9 +230,9 @@ URL **탭을** 클릭합니다.
 - **제출 유형**
 - **보낸 사람 IP**
 
-![사용자 제출에 대한 필터 옵션](../../media/user-submissions-filter-options.png)
+![사용자 제출에 대한 새 필터 옵션](../../media/user-submissions-filter-options.png)
 
-결과를 내보내려면 페이지 **위쪽에서** 내보내기 를 클릭하고 차트 데이터 또는 **테이블을** **선택합니다.** 나타나는 대화 상자에서 .csv 파일을 저장합니다.
+결과를 내보내려면 페이지 **위쪽에서** 내보내기 를 클릭하고 차트 데이터 또는 **테이블을** **선택합니다.** 나타나는 대화 상자에서 파일 .csv 저장합니다.
 
 ## <a name="view-user-submissions-to-the-custom-mailbox"></a>사용자 지정 사서함에 대한 사용자 제출 보기
 
@@ -253,7 +253,7 @@ URL **탭을** 클릭합니다.
 
 페이지 위쪽에서 시작 날짜, 종료 날짜를 입력할 수 있으며 상자에 값을 입력하고 새로 고침 단추 를 클릭하여 **제출로** ![ 필터링할 수 ](../../media/scc-quarantine-refresh.png) 있습니다. Update
 
-결과를 내보내려면 페이지 **위쪽에서** 내보내기 를 클릭하고 차트 데이터 또는 **테이블을** **선택합니다.** 나타나는 대화 상자에서 .csv 파일을 저장합니다.
+결과를 내보내려면 페이지 **위쪽에서** 내보내기 를 클릭하고 차트 데이터 또는 **테이블을** **선택합니다.** 나타나는 대화 상자에서 파일 .csv 저장합니다.
 
 > [!NOTE]
 > 조직이 사용자 지정 사서함으로만 보내도록 구성된 경우 보고된 메시지는 다시 검색을 위해 전송되지 않습니다. 사용자 보고 메시지 포털의 결과는 항상 비어 있습니다.
@@ -266,11 +266,11 @@ URL **탭을** 클릭합니다.
 
 Microsoft로 메시지를 보내지 않고 사용자가 보고한 메시지를 가로채도록 사용자 지정 사서함을 구성한 경우 분석을 위해 특정 메시지를 찾아 Microsoft로 보낼 수 있습니다. 그러면 사용자 제출이 관리자 제출로 효과적으로 이동됩니다.
 
-사용자 **지정 사서함 탭의** 목록에서 메시지를 선택하고  작업 단추를 클릭한 후 다음 중 하나를 선택합니다.
+사용자가 **보고한 메시지** 탭의 목록에서 메시지를 선택하고  작업 단추를 클릭한 후 다음 중 하나를 선택합니다.
 
 - **정리 보고**
 - **피싱 보고**
 - **맬웨어 보고**
 - **스팸 보고**
 
-![동작 단추의 옵션](../../media/user-submission-custom-mailbox-action-button.png)
+![동작 단추의 새 옵션](../../media/user-submission-custom-mailbox-action-button.png)

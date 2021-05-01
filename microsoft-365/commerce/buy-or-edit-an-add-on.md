@@ -14,21 +14,24 @@ ms.collection:
 - Adm_O365
 search.appverid:
 - MET150
-description: 비즈니스용 Microsoft 365 구독을 위한 추가 기능을 구입하고 관리하는 방법을 알아보하세요.
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-- Commerce
-ms.openlocfilehash: b470fb727ed55ba066cd0371e2e707c72b50ae99
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+- commerce_purchase
+- PPM_jmueller
+ms.reviewer: jkinma
+description: 비즈니스용 구독에 대한 추가 기능을 구입하고 관리하는 Microsoft 365 방법을 알아보하세요.
+ms.date: 04/02/2021
+ms.openlocfilehash: c0b5a76f8690c64723782640738ac3817bc64714
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576928"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107439"
 ---
 # <a name="buy-or-manage-add-ons"></a>추가 기능 구입 또는 관리
 
-많은 비즈니스용 Microsoft 365 요금제에는 구독에 대해 구입할 수 있는 추가 기능도 있습니다. 추가 기능은 구독 환경을 개선하기 위한 추가 기능을 제공합니다.
+대부분의 Microsoft 365 요금제에는 구독에 대해 구입할 수 있는 추가 기능도 있습니다. 추가 기능은 구독 환경을 개선하기 위한 추가 기능을 제공합니다.
 
 추가 기능에는 다음 두 가지 유형이 있습니다.
 

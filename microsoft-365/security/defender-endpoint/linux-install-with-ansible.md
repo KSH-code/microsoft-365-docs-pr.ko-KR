@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 15ee02d90e81c48bf5ec718e669bf8f88f6424ff
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 12ff9834e2853c1745c20847f869bc2cba4e082e
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934780"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114273"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-ansible"></a>Ansible을 통해 Linux에서 끝점용 Microsoft Defender 배포
 
@@ -49,13 +49,13 @@ ms.locfileid: "51934780"
 
 또한 Ansible 배포의 경우 Ansible 관리 작업에 익숙하고, Ansible을 구성하고, 플레이북 및 작업을 배포하는 방법을 알아야 합니다. Ansible에는 동일한 작업을 완료하는 여러 가지 방법이 있습니다. 이러한 지침에서는 패키지 배포에 도움이 되는 *apt* 및 *unarchive와* 같은 지원되는 Ansible 모듈의 가용성을 가정합니다. 조직에서 다른 워크플로를 사용할 수 있습니다. 자세한 내용은 [Ansible 설명서를](https://docs.ansible.com/) 참조하십시오.
 
-- Ansible needs to be installed on least one computer (we will call it the primary computer).
-- 기본 컴퓨터와 모든 클라이언트 간의 관리자 계정에 대해 SSH를 구성해야 합니다. 공개 키 인증을 사용하는 것이 좋습니다.
-- 모든 클라이언트에 다음 소프트웨어를 설치해야 합니다.
+- Ansible은 하나 이상의 컴퓨터에 설치해야 합니다(Ansible은 이 컨트롤 노드를 호출합니다).
+- 제어 노드와 모든 관리 노드(끝점에 Defender를 설치할 장치) 사이의 관리자 계정에 대해 SSH를 구성해야 합니다. 공개 키 인증을 사용하여 구성하는 것이 좋습니다.
+- 모든 관리 노드에 다음 소프트웨어를 설치해야 합니다.
   - curl
   - python-apt
 
-- 모든 호스트는 또는 관련 파일에 다음 형식으로 `/etc/ansible/hosts` 나열되어야 합니다.
+- 모든 관리되는 노드는 해당 또는 관련 파일에 다음 형식으로 `/etc/ansible/hosts` 나열되어야 합니다.
 
     ```bash
     [servers]
@@ -71,9 +71,9 @@ ms.locfileid: "51934780"
 
 ## <a name="download-the-onboarding-package"></a>온보더링 패키지 다운로드
 
-Microsoft Defender 보안 센터에서 온보딩 패키지를 다운로드합니다.
+다음 사이트에서 온보더링 패키지를 Microsoft Defender 보안 센터.
 
-1. Microsoft Defender 보안 센터에서 설정 > 장치 관리 > **로 이동합니다.**
+1. 다음 Microsoft Defender 보안 센터 **온보드 설정 > 장치** 관리 > 로 이동하세요.
 2. 첫 번째 드롭다운 메뉴에서 **운영 체제로 Linux Server를** 선택합니다. 두 번째 드롭다운 메뉴에서 배포 **방법으로** 기본 Linux 구성 관리 도구를 선택합니다.
 3. **온보더링 패키지 다운로드를 선택합니다.** 파일을 다른 파일로 WindowsDefenderATPOnboardingPackage.zip.
 
