@@ -12,20 +12,21 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
-- commerce
+- commerce_subscriptions
+- PPM_jmueller
+ms.reviewer: jkinma
 search.appverid:
 - MET150
 description: 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소하는 방법에 대해 알아보세요.
-ms.date: ''
-ms.openlocfilehash: 2163462ae206871d66155331096337c29d6a87c2
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.date: 04/08/2021
+ms.openlocfilehash: f052a08cfe0e7582690864556cfc3039d6caf99c
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644647"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107005"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -103,7 +104,7 @@ ms.locfileid: "51644647"
 
 사용자 지정 도메인을 설정한 경우 도메인이 Microsoft 365 서비스에서 작동하도록 DNS 레코드를 추가했습니다. 도메인을 제거하기 전에 DNS 호스트에서 도메인 MX 레코드와 같은 DNS 레코드를 업데이트해야 합니다.
 
-예를 들어 DNS 호스트에서 MX 레코드를 변경합니다. 도메인으로 전송된 전자 메일은 Microsoft 주소로 전송되지 않고 새 전자 메일 공급자로 대신 전송됩니다. MX 레코드는 도메인에 대한 전자 메일이 전송되는 위치를 결정합니다.
+예를 들어 도메인으로 전송된 전자 메일이 Microsoft 주소로 들어오는 대신 새 전자 메일 공급자로 나가도록 DNS 호스트에서 MX 레코드를 변경합니다. MX 레코드는 도메인에 대한 전자 메일이 전송되는 위치를 결정합니다.
 
 - NS(이름 서버) 레코드가 [Office 365 이름 서버를 가리키는 경우](../../admin/setup/add-domain.md) NS 레코드를 변경하여 새 DNS 호스트를 가리킬 때까지 MX 레코드 변경 내용이 적용되지 않습니다(2단계 참조).
 
@@ -121,7 +122,7 @@ NS 레코드를 변경하려면 [도메인 제거](../../admin/get-help-with-dom
 
 ### <a name="save-your-data"></a>데이터 저장
 
-취소가 적용되면 사용자는 자신의 데이터에 액세스할 수 없습니다. 구독을 취소하기 전에 사용자에게 비즈니스용 OneDrive 또는 SharePoint Online 파일을 다른 위치에 저장하도록 합니다. 남겨진 모든 고객 데이터는 30일 후에 삭제될 수 있으며, 취소 후 180일 내에 삭제됩니다.
+취소가 적용되면 사용자는 데이터에 액세스할 수 없게 됩니다. 제품을 취소하기 전에 비즈니스용 OneDrive 또는 SharePoint 온라인 파일을 다른 위치에 저장하세요. 사용자가 남긴 고객 데이터는 30일 후에 삭제될 수 있으며, 취소 후 180일 이내에 삭제됩니다.
 
 - 전자 메일, 연락처, 작업 및 일정 정보를 다른 계정으로 이동하려면 [전자 메일, 연락처, 일정을 Outlook .pst 파일로 내보내기 또는 백업](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx)을 참조하세요.
 

@@ -12,46 +12,65 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365_Setup
-- Adm_O365_TOC
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-- manage_licenses
 search.appverid:
 - MET150
 description: 사용자를 추가하고 동시에 Microsoft 365에 라이선스를 할당하는 방법을 알아보세요.
 ms.date: 07/01/2020
-ms.openlocfilehash: 97b7118f4052d4ab4e0ffe8ecec96f32e4042108
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 6a1361d9cfebd2b305a71248fcbb461d0a68a052
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52024016"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107089"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>사용자 추가 및 동시에 라이선스 할당
 
-각 팀의 사용자는 [비즈니스용 Microsoft 365](https://www.microsoft.com/microsoft-365/business)에 로그인하여 액세스하기 위해 사용자 계정이 필요합니다. 사용자 계정을 추가하는 가장 쉬운 방법은 Microsoft 365 관리 센터에서 계정을 한 번에 하나씩 추가하는 것입니다. 이 단계를 진행하고 나면 사용자가 Microsoft 365 라이선스, 로그인 자격 증명 및 Microsoft 365 사서함을 갖게 됩니다.
+팀의 각 구성원은 먼저 사용자 계정이 있어야 [Microsoft 365 비즈니스](https://www.microsoft.com/microsoft-365/business) 에디션에 로그인하고 액세스할 수 있습니다. 사용자 계정을 추가하는 가장 쉬운 방법은 Microsoft 365 관리 센터에서 한 번에 한 명씩 사용자를 추가하는 것입니다. 이 단계를 수행하면 팀 구성원은 Microsoft 365 라이선스, 로그인 자격 증명 및 Microsoft 365 사서함을 갖게 됩니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
 사용자를 추가하고 라이선스를 할당하려면 전역, 라이선스 또는 사용자 관리자여야 합니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
-## <a name="watch-add-users-in-the-admin-center"></a>시청: 관리 센터에서 사용자 추가
+## <a name="add-a-user-in-the-admin-simplified-view"></a>관리자 간소화된 보기에 사용자 추가
+
+관리 센터에 이 페이지가 표시되는 경우, **관리자 간소화된 보기** 에 있는 것입니다. 아래 단계에 따라 사용자를 추가합니다.
+
+:::image type="content" source="../../media/vsb-add-user-view.png" alt-text="스크린샷: 간소화된 관리 센터 보기":::
+
+1. <https://admin.microsoft.com>의 관리 센터로 이동합니다.
+2. **다른 사용자를 위한 계정 만들기** 를 선택합니다.
+3. **사용자 계정 추가** 페이지에서 로그인하는 데 사용할 성과 이름, 표시 이름, 사용자 이름을 입력합니다.
+4. **최대 5개 전자 메일 주소** 텍스트 상자에 사용자의 전자 메일 주소를 추가합니다. 이렇게 하면 새 사용자가 Microsoft 365 서비스에 로그인하는 데 필요한 정보를 얻게 됩니다.
+5. 이 정보를 저장하려면 **사용자 추가** 및 **로그인 정보 다운로드** 를 선택합니다.
+
+## <a name="watch-add-users-in-the-dashboard-view"></a>보기: 대시보드 보기에서 사용자 추가
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfN?autoplay=false]
 
 > [!NOTE]
 > 비디오에 사용된 단계는 사용자를 추가하기 위한 다른 시작점을 보여주지만, 나머지 단계는 다음 절차와 동일합니다.
 
-## <a name="add-users-one-at-a-time"></a>사용자를 한 번에 한 명씩 추가
+## <a name="add-users-one-at-a-time-in-the-dashboard-view"></a>대시보드 보기에서 한 번씩 사용자 추가
 
  ::: moniker range="o365-worldwide"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
+:::image type="content" source="../../media/classic-admin-center.png" alt-text="스크린샷: 관리 센터 대시보드 보기":::
 
-::: moniker-end
+1. <https://admin.microsoft.com>의 관리 센터로 이동합니다.
+2. **사용자** > **활성 사용자** 로 이동한 후, **사용자 추가** 를 선택합니다.
+3. **기본 설정** 창에서 사용자 정보를 입력하고 **다음** 을 택합니다.
+    - **이름** 이름과 성, 표시 이름 및 사용자 이름을 입력합니다.
+    - **도메인** 사용자 계정의 도메인을 선택합니다. 예를 들어 사용자의 사용자 이름이 Jakob이고 도메인이 contoso.com인 경우 jakob@contoso.com을 사용하여 로그인합니다.
+    - **암호 설정** 자동으로 생성되는 암호를 사용하거나 사용자에 대해 강력한 암호를 만들지 여부를 선택합니다.
+    - 사용자는 90일 후에 암호를 변경해야 합니다. 또는 **사용자가 처음 로그인할 때 암호를 변경하도록 요구** 할 수도 있습니다.
+    - 사용자가 추가될 때 암호를 전자 메일로 보낼지 여부를 선택하세요.
+4. **제품 라이선스 할당** 창에서 사용자의 위치와 적절한 라이선스를 선택합니다. 사용 가능한 라이선스가 없어도 사용자를 추가하고 추가 라이선스를 구입할 수 있습니다. **앱** 을 확장하고 앱을 선택하거나 선택을 선택 해제 사용자에게 라이선스가 있는 앱을 제한합니다. **다음** 을 선택합니다.
+5. **선택적 설정** 창에서 **역할** 을 확장하여 이 사용자를 관리자로 만듭니다. **프로필 정보** 를 확장하여 사용자에 대한 추가 정보를 추가합니다.
+6. **다음** 을 선택하고 새 사용자의 설정을 검토하고 원하는 대로 변경한 다음 **추가 완료**, **닫기** 를 차례로 선택합니다.
 
-::: moniker range="o365-germany"
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>의 관리 센터로 이동합니다.
 
@@ -66,7 +85,7 @@ ms.locfileid: "52024016"
 2. **사용자**  >  **활성 사용자** 로 이동한 후, **사용자 추가** 를 선택합니다.
 3. **기본 설정** 창에서 사용자 정보를 입력하고 **다음** 을 택합니다.
     - **이름** 이름과 성, 표시 이름 및 사용자 이름을 입력합니다.
-    - **도메인** 계정의 도메인을 선택하세요. 예를 들어 사용자의 사용자 이름이 Jakob이고 도메인이 contoso.com인 경우 jakob@contoso.com을 사용하여 로그인합니다.
+    - **도메인** 사용자 계정의 도메인을 선택합니다. 예를 들어 사용자의 사용자 이름이 Jakob이고 도메인이 contoso.com인 경우 jakob@contoso.com을 사용하여 로그인합니다.
     - **암호 설정** 자동으로 생성되는 암호를 사용하거나 사용자에 대해 강력한 암호를 만들지 여부를 선택합니다.
     - 사용자는 90일 후에 암호를 변경해야 합니다. 또는 **사용자가 처음 로그인할 때 암호를 변경하도록 요구** 할 수도 있습니다.
     - 사용자가 추가될 때 암호를 전자 메일로 보낼지 여부를 선택하세요.

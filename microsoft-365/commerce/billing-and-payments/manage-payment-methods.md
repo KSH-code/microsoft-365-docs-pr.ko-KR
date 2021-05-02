@@ -12,22 +12,23 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - TopSMBIssues
 - okr_SMB
 - AdminSurgePortfolio
-- commerce
+- commerce_billing
+- PPM_jmueller
+ms.reviewer: jamitche
 search.appverid:
 - MET150
 description: Microsoft 365 관리 센터에서 결제 방법을 관리하는 방법을 알아보세요.
-ms.date: ''
-ms.openlocfilehash: 1d28d082c0a7c123aadaa2230930326139fdcb8e
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.date: 04/02/2021
+ms.openlocfilehash: 4b35b7b8e874915e5f9c792686ff0e368292c802
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579785"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107042"
 ---
 # <a name="manage-payment-methods"></a>결제 방법 관리
 
