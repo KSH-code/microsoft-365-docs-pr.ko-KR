@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Microsoft 365에서 안전한 게스트 공유 환경을 만드는 데 사용할 수 있는 옵션에 대해 알아보고, 공동 작업을 위한 게스트 액세스를 제공합니다.
-ms.openlocfilehash: 0eb999d48bc0976d7c2bb32ff1bdba8d63409d81
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a04ee4a96b5e9124ca94a4ece16c32ccc6b072d1
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918469"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114309"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>보안 게스트 공유 환경 만들기
 
@@ -72,7 +72,7 @@ ms.locfileid: "50918469"
 
 일부의 경우에는 게스트는 조직의 비공개 계약 또는 다른 법적 계약에 서명을 하지 않은 경우가 있습니다. 게스트에게 공유된 파일에 액세스하기 전에 사용 약관이 동의하도록 요구할 수 있습니다. 처음 공유 파일 또는 사이트에 액세스하려고 시도할 때 사용 약관이 표시될 수 있습니다.
 
-사용 약관을 만들려면 먼저 Word 또는 다른 작성 프로그램에서 문서를 만든 후에 .pdf 파일로 저장해야 합니다. 그런 다음 이 파일을 Azure AD에 업로드할 수 있습니다.
+사용 약관을 만들려면 먼저 Word 또는 다른 작성 프로그램에서 문서를 만든 후에 .pdf 파일로 저장해야 합니다. 그러면 이 파일을 Azure AD에 업로드할 수 있습니다.
 
 Azure AD 사용 약관을 만들려면
 
@@ -256,7 +256,7 @@ SharePoint 관리 센터의 이 설정은 Azure AD에 지원 조건부 액세스
 
 ## <a name="create-a-dlp-policy-to-remove-guest-access-to-highly-sensitive-files"></a>매우 중요한 파일에 대한 게스트 액세스 권한을 제거할 DLP 정책 만들기
 
-[DLP(데이터 손실 방지)](../compliance/data-loss-prevention-policies.md)를 사용하여 중요한 콘텐츠의 원치 않는 게스트와의 공유를 방지할 수 있습니다. 데이터 손실 방지는 파일의 민감도 레이블에 따라 조치를 취하고 게스트 액세스를 제거할 수 있습니다.
+[DLP(데이터 손실 방지)](../compliance/dlp-learn-about-dlp.md)를 사용하여 중요한 콘텐츠의 원치 않는 게스트와의 공유를 방지할 수 있습니다. 데이터 손실 방지는 파일의 민감도 레이블에 따라 조치를 취하고 게스트 액세스를 제거할 수 있습니다.
 
 DLP 규칙을 만들려면 다음을 수행합니다.
 

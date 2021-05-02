@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: 보안을 위한 고유한 민감도 레이블이 있는 팀을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 7c9b770c712d2468369482ba3a6256e57f621f74
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4d305e952d48d42afffe91466121c67621aa9d85
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51042689"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52113405"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>보안 격리를 사용하여 팀 구성하기
 
@@ -60,8 +60,8 @@ Contoso Corporation이 극비 프로젝트에 보안 팀을 사용한 방법을 
 ## <a name="initial-protections"></a>초기 보호
 
 팀과 기본 SharePoint 사이트에 대한 액세스를 보호하려면 다음과 같은 모범 사례를 검토하세요.
-- [ID 및 장치 액세스 정책](../security/defender-365-security/identity-access-policies.md)
-- [SharePoint Online 액세스 정책](../security/defender-365-security/sharepoint-file-access-policies.md)
+- [ID 및 장치 액세스 정책](../security/office-365-security/identity-access-policies.md)
+- [SharePoint Online 액세스 정책](../security/office-365-security/sharepoint-file-access-policies.md)
 - [기준 보호를 사용하여 팀 배치하기](configure-teams-baseline-protection.md)
 
 ## <a name="guest-sharing"></a>게스트 공유
@@ -111,7 +111,7 @@ Contoso Corporation이 극비 프로젝트에 보안 팀을 사용한 방법을 
 1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)를 엽니다.
 2. **솔루션** 에서 **정보 보호** 를 클릭합니다.
 3. **레이블 만들기** 를 클릭합니다.
-4. 레이블에 이름을 지정합니다. 함께 사용할 팀의 이름을 따라 이름을 짓는 것을 권장합니다.
+4. 레이블 이름을 지정하세요. 함께 사용할 팀의 이름을 따라 이름을 짓는 것을 권장합니다.
 5. 표시 이름과 설명을 추가하고 **다음** 을 클릭합니다.
 6. **이 레이블에 대한 범위 정의 페이지** 에서 **파일 및 전자 메일** 과 **그룹 및 사이트** 를 선택하고 **다음** 을 클릭합니다.
 7. **파일 및 전자 메일에 대한 보호 설정 선택** 페이지에서 **파일 및 전자 메일 암호화** 를 선택하고 **다음** 을 클릭합니다.
@@ -231,7 +231,7 @@ Microsoft 365에서는 콘텐츠를 보호하기 위한 추가 방법을 제공�
 
 - 게스트 사용자가 [사용 약관](/azure/active-directory/conditional-access/terms-of-use)에 동의하도록 합니다.
 - 게스트 사용자에 대한 [세션 시간 초과 정책](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)을 구성합니다.
-- [중요한 정보 유형](../compliance/sensitive-information-type-learn-about.md)을 만들고 [데이터 손실 방지](../compliance/data-loss-prevention-policies.md)를 사용하여 중요한 정보에 액세스하는 방법에 대한 정책을 설정합니다.
+- [중요한 정보 유형](../compliance/sensitive-information-type-learn-about.md)을 만들고 [데이터 손실 방지](../compliance/dlp-learn-about-dlp.md)를 사용하여 중요한 정보에 액세스하는 방법에 대한 정책을 설정합니다.
 - [Azure Active Directory 액세스](/azure/active-directory/governance/access-reviews-overview) 검토를 사용하여 팀 액세스 및 구성원을 주기적으로 검토합니다.
 
 ## <a name="drive-user-adoption-for-team-members"></a>팀 구성원을 위한 사용자 채택 유도하기

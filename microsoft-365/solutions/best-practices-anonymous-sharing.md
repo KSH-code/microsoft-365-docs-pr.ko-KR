@@ -17,18 +17,18 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: 이 문서에서는 인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례를 알아봅니다.
-ms.openlocfilehash: acc825a8fc445d224fbc91dd12dace2a5e1b25c8
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1e696611d37cd1b57f881457025464dccea54496
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199528"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114321"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례
 
 인증되지 않은 공유(*모든 사용자* 링크)는 다양한 상황에서 편리하며 유용합니다. *모든 사용자* 링크는 가장 간편하게 공유하는 방법입니다. 사용자가 인증 없이 링크를 열 수 있으며 다른 사용자에게 무료로 전달할 수 있습니다.
 
-일반적으로 조직의 모든 콘텐츠가 인증되지 않은 공유에 적합하지는 않습니다. 이 문서에서는 사용자가 파일 및 폴더의 인증되지 않은 공유를 할 수 있지만, 조직의 콘텐츠를 보호하는 데 도움이 되는 보호 기능도 포함된 환경을 만들 수 있는 옵션을 다룹니다.
+일반적으로 조직의 일부 콘텐츠가 인증되지 않은 공유에 적합한 것은 아닙니다. 이 문서에서는 사용자가 파일 및 폴더의 인증되지 않은 공유를 할 수 있지만, 조직의 콘텐츠를 보호하는 데 도움이 되는 보호 기능도 포함된 환경을 만들 수 있는 옵션을 다룹니다.
 
 > [!NOTE]
 > 인증되지 않은 공유가 작동하려면 조직 및 사용자가 사용할 개별 사이트 또는 팀에 대해 이 기능을 사용하도록 설정해야 합니다. 활성화하려는 시나리오를 보려면 [조직 외부 사용자와 공동 작업](collaborate-with-people-outside-your-organization.md)을 참조하세요.
@@ -103,7 +103,7 @@ ms.locfileid: "51199528"
 
 ## <a name="prevent-unauthenticated-sharing-of-sensitive-content"></a>중요한 콘텐츠의 인증되지 않은 공유 방지
 
-[DLP(데이터 손실 방지)](../compliance/data-loss-prevention-policies.md)를 사용하여 중요한 콘텐츠의 인증되지 않은 게스트와의 공유를 방지할 수 있습니다. 데이터 손실 방지는 파일 자체의 파일 민감도 레이블, 보존 레이블 또는 중요한 정보를 기반으로 하는 조치를 취할 수 있습니다.
+[DLP(데이터 손실 방지)](../compliance/dlp-learn-about-dlp.md)를 사용하여 중요한 콘텐츠의 인증되지 않은 게스트와의 공유를 방지할 수 있습니다. 데이터 손실 방지는 파일 자체의 파일 민감도 레이블, 보존 레이블 또는 중요한 정보를 기반으로 하는 조치를 취할 수 있습니다.
 
 DLP 규칙을 만들려면 다음을 수행합니다.
 1. Microsoft 365 준수 관리 센터에서 [데이터 손실 방지 페이지](https://compliance.microsoft.com/datalossprevention)로 이동합니다.
