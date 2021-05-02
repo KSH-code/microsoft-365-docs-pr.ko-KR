@@ -235,8 +235,8 @@
       items:
         - name: DLP 정보
           items:
-            - name: DLP 정보
-              href: data-loss-prevention-policies.md
+            - name: 데이터 손실 방지에 대해 알아보기
+              href: dlp-learn-about-dlp.md
             - name: 끝점 데이터 손실 방지에 대한 자세한 정보
               href: endpoint-dlp-learn-about.md
             - name: Microsoft Teams의 기본 데이터 손실 방지 정책에 대한 자세한 정보(미리 보기)

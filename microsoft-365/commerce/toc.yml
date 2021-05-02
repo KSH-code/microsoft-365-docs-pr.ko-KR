@@ -40,6 +40,8 @@
       href: ../admin/manage/remove-licenses-from-users.md
     - name: 다른 구독으로 사용자 이동
       href: subscriptions/move-users-different-subscription.md
+    - name: 타사 앱 라이선스 관리
+      href: licenses/manage-third-party-app-licenses.md
     - name: 자동 클레임 정책 관리
       href: licenses/manage-auto-claim-policies.md
     - name: 구독 및 라이선스 이해
