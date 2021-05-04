@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
-ms.openlocfilehash: 19ad68d3c32046754e366919e8c4e66336945624
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: b39dd09012e7cde6c19ea88a0915154da84c712a
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080727"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114218"
 ---
 # <a name="get-started-with-content-explorer"></a>콘텐츠 탐색기 시작하기
 
@@ -82,7 +82,7 @@ ms.locfileid: "50080727"
 
 ### <a name="sensitive-information-types"></a>중요한 정보 유형
 
-[DLP 정책](data-loss-prevention-policies.md)은 **중요한 정보 유형** 으로 정의되어 있는 중요한 정보를 보호하는 데 도움을 줄 수 있습니다. Microsoft 365는 사용자가 사용할 수 있는 많은 지역에서 [흔한 중요한 정보 유형에 대한 정의](sensitive-information-type-entity-definitions.md)를 포함합니다. 예를 들면 신용 카드 번호, 은행 계좌 번호, 국가 ID 번호 그리고 Windows Live ID 서비스 번호 등이 있습니다.
+[DLP 정책](dlp-learn-about-dlp.md)은 **중요한 정보 유형** 으로 정의되어 있는 중요한 정보를 보호하는 데 도움을 줄 수 있습니다. Microsoft 365는 사용자가 사용할 수 있는 많은 지역에서 [흔한 중요한 정보 유형에 대한 정의](sensitive-information-type-entity-definitions.md)를 포함합니다. 예를 들면 신용 카드 번호, 은행 계좌 번호, 국가 ID 번호 그리고 Windows Live ID 서비스 번호 등이 있습니다.
 
 > [!NOTE]
 > 현재 콘텐츠 탐색기에서는 Exchange Online의 중요한 정보 유형을 검사하지 않습니다.
@@ -145,4 +145,4 @@ Exchange 폴더나 SharePoint 또는 OneDrive 사이트와 같은 위치로 드�
 - [민감도 레이블에 대해 알아보기](sensitivity-labels.md)
 - [보존 정책 및 보존 레이블에 대해 알아보기](retention.md)
 - [중요한 정보 유형 엔터티 정의.md](sensitive-information-type-entity-definitions.md)
-- [데이터 손실 방지의 개요](data-loss-prevention-policies.md)
+- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)

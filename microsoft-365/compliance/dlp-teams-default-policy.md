@@ -14,21 +14,21 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: Microsoft Teams의 기본 데이터 손실 방지 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 3992daf9431dbd87ed5e947a1e5a2b0acd20edce
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+description: 2013의 기본 데이터 손실 방지 정책에 대해 Microsoft Teams
+ms.openlocfilehash: 0663c370373708009346d4f858729e17436f0f62
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826249"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114146"
 ---
 # <a name="learn-about-the-default-data-loss-prevention-policy-in-microsoft-teams-preview"></a>Microsoft Teams의 기본 데이터 손실 방지 정책에 대한 자세한 정보(미리 보기)
 
-[DLP(데이터](data-loss-prevention-policies.md) 손실 방지) 기능은 비공개 채널 메시지를 포함하여 Microsoft Teams 채팅 및 채널 메시지를 포함하기 위해 확장되어 있습니다. 이 릴리스의 일부로 규정 준수 센터에 처음 고객을 위한 기본 DLP 정책을 만들 수 있습니다.
+[개인 채널 메시지를](dlp-learn-about-dlp.md) 포함하여 Microsoft Teams 및 채널 메시지를 포함하기 위해 데이터 손실 방지 기능이 확장되어 있습니다. 이 릴리스의 일부로 규정 준수 센터에 처음 고객을 위한 기본 DLP 정책을 만들 수 있습니다.
 
 ## <a name="applies-to"></a>적용 대상
 
-하나 이상의 라이선스가 부여된 테넌트 및 활성 Teams 사용자가 있는 모든 테넌트
+하나 이상의 라이선스가 부여된 테넌트 및 활성 사용자 Teams
  
 - ME5, 
 - MA5, 

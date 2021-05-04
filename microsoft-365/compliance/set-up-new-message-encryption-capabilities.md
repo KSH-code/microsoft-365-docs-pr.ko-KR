@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: 조직 내부나 조직 외부의 사람과 보호된 전자 메일을 사용하여 통신할 수 있게 하는 새 Office 365 메시지 암호화 기능에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1519748c4bd535e0a3ea1cc3ee653e2c81e807bd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cf37826c3e1e349947ab83fe211f9406a765e5ea
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919394"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876307"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>새 메시지 암호화 기능 설정하기
 
@@ -44,7 +44,7 @@ ms.locfileid: "50919394"
 
 자세한 내용은 다음을 참조하세요.
 
-- 현재의 구독에 Azure Information Protection이 포함되었는지 여부를 확인하려면 [새 OME 기능을 사용하기 위해서는 어떤 구독이 필요한가요?](ome-faq.md#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities)를 참조하세요.
+- 현재의 구독에 Azure Information Protection이 포함되었는지 여부를 확인하려면 [새 OME 기능을 사용하기 위해서는 어떤 구독이 필요한가요?](ome-faq.yml#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities-)를 참조하세요.
 - 적절한 구독을 구입하기 위해서는 [Azure Information Protection](https://azure.microsoft.com/services/information-protection/)에서 자세한 내용을 참조하세요.  
 
 ### <a name="manually-activating-azure-rights-management"></a>Azure AD Rights Management 수동 활성화
@@ -112,7 +112,7 @@ Azure RMS를 비활성화로 설정한 경우나, 어떤 이유에서 자동으�
 
 ## <a name="next-steps-define-mail-flow-rules-to-use-new-ome-capabilities"></a>다음 단계: 새 OME 기능을 사용하기 위한 메일 흐름 규칙 정의
 
-조직에서 전자 메일을 암호화하기 위한 사전 구성 메일 흐름 규칙이 있는 경우에는 새 OME 기능을 사용할 수 있도록 기존 규칙을 업데이트해야 합니다. 새 배포의 경우에는 새 메일 흐름 규칙을 만들어야 합니다.
+조직에서 전자 메일을 암호화하기 위한 사전 구성 메일 흐름 규칙이 있는 경우에는 새 OME 기능을 사용할 수 있도록 기존 규칙을 업데이트해야 합니다. 새 배포의 경우 새 메일 흐름 규칙을 만들어야 합니다.
 
 >[!IMPORTANT]
 >기존의 메일 흐름 규칙을 업데이트하지 않으면 사용자는 계속해서 새 OME 환경이 아닌 이전의 HTML 첨부 파일 형식의 암호화된 메일을 받게 됩니다.

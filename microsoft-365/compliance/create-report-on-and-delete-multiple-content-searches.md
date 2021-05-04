@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
-description: Office 365의 보안 및 준수 센터에서 PowerShell 스크립트를 통해 검색을 만들고 보고서 실행과 같은 콘텐츠 & 자동화하는 방법을 설명합니다.
+description: 검색을 만들고 PowerShell 스크립트를 통해 보고서 실행과 같은 콘텐츠 검색 작업을 자동화하는 방법을 & 준수 센터에서 Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 615c6b59ea484a4a0cd5248ce5083e7ee7d817ad
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6155a0bf411cc83fd58291efe7797e7f68370708
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908312"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994965"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>여러 콘텐츠 검색 만들기, 보고하기 및 삭제
 
@@ -34,7 +34,7 @@ ms.locfileid: "50908312"
 
 - 이 항목에 설명된 스크립트를 실행하기 위해 Security & Compliance Center에서 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다.
 
-- 1단계의 CSV 파일에 추가할 수 있는 조직의 비즈니스용 OneDrive 사이트의 URL 목록을 수집하는 경우 조직의 모든 [OneDrive](/onedrive/list-onedrive-urls)위치 목록 만들기를 참조하세요.
+- 1단계의 CSV 파일에 추가할 수 있는 조직의 비즈니스용 OneDrive 사이트의 URL 목록을 수집하는 경우 조직의 모든 OneDrive 위치 목록 만들기를 [참조하세요.](/onedrive/list-onedrive-urls)
 
 - 이 항목에서 만든 모든 파일을 동일한 폴더에 저장해야 합니다. 이를 통해 스크립트를 더 쉽게 실행할 수 있습니다.
 
@@ -44,9 +44,9 @@ ms.locfileid: "50908312"
 
 ## <a name="step-1-create-a-csv-file-that-contains-information-about-the-searches-you-want-to-run"></a>1단계: 실행할 검색에 대한 정보가 포함된 CSV 파일 만들기
 
-이 단계에서 만드는 CSV(콤보 구분 값) 파일에는 검색할 각 사용자에 대한 행이 포함되어 있습니다. 사용자의 Exchange Online 사서함(사용 가능한 경우 보관 사서함 포함) 및 비즈니스용 OneDrive 사이트를 검색할 수 있습니다. 또는 사서함 또는 비즈니스용 OneDrive 사이트만 검색할 수 있습니다. SharePoint Online 조직의 모든 사이트를 검색할 수도 있습니다. 3단계에서 실행한 스크립트는 CSV 파일의 각 행에 대해 별도의 검색을 생성합니다.
+이 단계에서 만드는 CSV(콤보 구분 값) 파일에는 검색할 각 사용자에 대한 행이 포함되어 있습니다. 사용자의 Exchange Online 사서함(사용 가능한 경우 보관 사서함 포함) 및 해당 사용자의 비즈니스용 OneDrive 검색할 수 있습니다. 또는 사서함 또는 사이트만 검색할 비즈니스용 OneDrive 있습니다. 또한 온라인 조직의 모든 사이트를 SharePoint 있습니다. 3단계에서 실행한 스크립트는 CSV 파일의 각 행에 대해 별도의 검색을 생성합니다.
 
-1. 메모장에서 다음 텍스트를 복사하여 .txt 파일에 붙여 넣습니다. 이 파일을 로컬 컴퓨터의 폴더에 저장합니다. 다른 스크립트도 이 폴더에 저장합니다.
+1. 메모장에서 다음 텍스트를 복사하여 .txt 붙여넣습니다. 이 파일을 로컬 컴퓨터의 폴더에 저장합니다. 다른 스크립트도 이 폴더에 저장합니다.
 
    ```text
    ExchangeLocation,SharePointLocation,ContentMatchQuery,StartDate,EndDate
@@ -60,20 +60,20 @@ ms.locfileid: "50908312"
 
    파일의 첫 번째 행 또는 헤더 행에는 **New-ComplianceSearch** cmdlet(3단계의 스크립트에서)에서 새 콘텐츠 검색을 만드는 데 사용할 매개 변수가 나열됩니다. 각 매개 변수 이름은 쉼표로 구분됩니다. 머리줄 행에 공백이 없는지 확인 머리줄 행 아래에 있는 각 행은 각 검색에 대한 매개 변수 값을 나타냅니다. CSV 파일의 자리 holder 데이터를 실제 데이터로 바꾸어야 합니다.
 
-2. Excel에서 .txt 파일을 연 다음 다음 표의 정보를 사용하여 각 검색에 대한 정보와 함께 파일을 편집합니다.
+2. .txt 파일을 Excel 다음 표의 정보를 사용하여 각 검색에 대한 정보가 들어 있는 파일을 편집합니다.
 
    ****
 
    |매개 변수|설명|
    |---|---|
    |`ExchangeLocation`|사용자 사서함의 SMTP 주소입니다.|
-   |`SharePointLocation`|사용자의 비즈니스용 OneDrive 사이트의 URL 또는 조직의 모든 사이트의 URL입니다. 비즈니스용 OneDrive 사이트의 URL에 대해 다음 형식을 ` https://<your organization>-my.sharepoint.com/personal/<user alias>_<your organization>_onmicrosoft_com ` 사용합니다. . 예:  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft_com`.|
+   |`SharePointLocation`|조직의 모든 사이트의 비즈니스용 OneDrive 사이트의 URL 또는 사용자의 사이트 URL입니다. 사이트 URL의 비즈니스용 OneDrive 형식을 ` https://<your organization>-my.sharepoint.com/personal/<user alias>_<your organization>_onmicrosoft_com ` 사용합니다. . 예:  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft_com`.|
    |`ContentMatchQuery`|검색에 대한 검색 쿼리입니다. 검색 쿼리를 만드는 데 대한 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건을 참조하세요.](keyword-queries-and-search-conditions.md)|
-   |`StartDate`|전자 메일의 경우 받는 사람이 메시지를 받거나 보낸 날짜입니다. SharePoint 또는 비즈니스용 OneDrive 사이트의 문서의 경우 문서를 마지막으로 수정한 날짜 또는 이후의 날짜입니다.|
-   |`EndDate`|전자 메일의 경우 사용자가 보낸 메시지를 보낸 날짜 또는 이전 날짜입니다. SharePoint 또는 비즈니스용 OneDrive 사이트의 문서의 경우 문서를 마지막으로 수정한 날짜 또는 그 이전 날짜입니다.|
+   |`StartDate`|전자 메일의 경우 받는 사람이 메시지를 받거나 보낸 날짜입니다. 사이트 또는 SharePoint 비즈니스용 OneDrive 문서의 경우 문서를 마지막으로 수정한 날짜 또는 이후의 날짜입니다.|
+   |`EndDate`|전자 메일의 경우 사용자가 보낸 메시지를 보낸 날짜 또는 이전 날짜입니다. 사이트 또는 SharePoint 비즈니스용 OneDrive 문서의 경우 문서를 마지막으로 수정한 날짜 또는 이전 날짜입니다.|
    |
 
-3. Excel 파일을 CSV 파일로 로컬 컴퓨터의 폴더에 저장합니다. 3단계에서 만든 스크립트는 이 CSV 파일의 정보를 사용하여 검색을 생성합니다.
+3. 로컬 Excel 폴더에 CSV 파일로 저장합니다. 3단계에서 만든 스크립트는 이 CSV 파일의 정보를 사용하여 검색을 생성합니다.
 
 ## <a name="step-2-connect-to-security--compliance-center-powershell"></a>2단계: 보안 및 준수 센터 PowerShell에 연결
 
@@ -85,11 +85,11 @@ ms.locfileid: "50908312"
 
 - **검색 그룹 ID** - 이 이름은 CSV 파일에서 만든 검색을 쉽게 구성할 수 있는 방법을 제공합니다. 만들어진 각 검색의 이름은 검색 그룹 ID를 사용하여 이름이 지정된 다음 검색 이름에 숫자가 추가됩니다. 예를 들어 검색 그룹 ID에 **ContosoCase를** 입력하면 검색 이름이 ContosoCase_1 **,** ContosoCase_2 **,** ContosoCase_3 이름이 지정됩니다.  입력하는 이름은 대소문자 구분됩니다. 4단계 및 5단계에서 검색 그룹 ID를 사용하는 경우 검색 그룹 ID를 만들 때와 동일한 사례를 사용해야 합니다.
 
-- **CSV 파일** - 1단계에서 만든 CSV 파일의 이름입니다. 전체 파일 이름 사용을 포함해야 합니다. .csv 파일 확장명을 포함하십시오. 예를 들면  `ContosoCase.csv` 입니다.
+- **CSV 파일** - 1단계에서 만든 CSV 파일의 이름입니다. 전체 파일 이름을 사용 하 고 파일 확장명을 포함 .csv 합니다. 예를 들면  `ContosoCase.csv` 입니다.
 
 스크립트를 실행하려면
 
-1. 파일 이름 접미사 .ps1을 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장합니다. 예를 들면 `CreateSearches.ps1` 입니다. 다른 파일을 저장한 폴더에 파일을 저장합니다.
+1. 파일 이름 접미사로 Windows PowerShell 스크립트 파일에 다음 텍스트를 .ps1. 예를 들면 `CreateSearches.ps1` 입니다. 다른 파일을 저장한 폴더에 파일을 저장합니다.
 
    ```Powershell
    # Get the Search Group ID and the location of the CSV input file
@@ -101,24 +101,24 @@ ms.locfileid: "50908312"
    import-csv $csvFile |
      ForEach-Object{
 
-     $searchName = $searchGroup +'_' + $searchCounter
-     $search = Get-ComplianceSearch $searchName -EA SilentlyContinue
-     if ($search)
-     {
-        Write-Error "The Search Group ID conflicts with existing searches.  Please choose a search group name and restart the script."
-        return
-     }
-     $searchCounter++
+    $searchName = $searchGroup +'_' + $searchCounter
+    $search = Get-ComplianceSearch $searchName -EA SilentlyContinue
+    if ($search)
+    {
+       Write-Error "The Search Group ID conflicts with existing searches.  Please choose a search group name and restart the script."
+       return
+    }
+    $searchCounter++
    }
 
    $searchCounter = 1
    import-csv $csvFile |
      ForEach-Object{
 
-     # Create the query
-     $query = $_.ContentMatchQuery
-     if(($_.StartDate -or $_.EndDate))
-     {
+    # Create the query
+    $query = $_.ContentMatchQuery
+    if(($_.StartDate -or $_.EndDate))
+    {
           # Add the appropriate date restrictions.  NOTE: Using the Date condition property here because it works across Exchange, SharePoint, and OneDrive for Business.
           # For Exchange, the Date condition property maps to the Sent and Received dates; for SharePoint and OneDrive for Business, it maps to Created and Modified dates.
           if($query)
@@ -139,7 +139,7 @@ ms.locfileid: "50908312"
               $query += "Date <= " + $_.EndDate
           }
           $query += ")"
-     }
+    }
 
      # -ExchangeLocation can't be set to an empty string, set to null if there's no location.
      $exchangeLocation = $null
@@ -148,21 +148,21 @@ ms.locfileid: "50908312"
            $exchangeLocation = $_.ExchangeLocation
      }
 
-     # Create and run the search
-     $searchName = $searchGroup +'_' + $searchCounter
-     Write-Host "Creating and running search: " $searchName -NoNewline
-     $search = New-ComplianceSearch -Name $searchName -ExchangeLocation $exchangeLocation -SharePointLocation $_.SharePointLocation -ContentMatchQuery $query
+    # Create and run the search
+    $searchName = $searchGroup +'_' + $searchCounter
+    Write-Host "Creating and running search: " $searchName -NoNewline
+    $search = New-ComplianceSearch -Name $searchName -ExchangeLocation $exchangeLocation -SharePointLocation $_.SharePointLocation -ContentMatchQuery $query
 
-     # Start and wait for each search to complete
-     Start-ComplianceSearch $search.Name
-     while ((Get-ComplianceSearch $search.Name).Status -ne "Completed")
-     {
-        Write-Host " ." -NoNewline
-        Start-Sleep -s 3
-     }
-     Write-Host ""
+    # Start and wait for each search to complete
+    Start-ComplianceSearch $search.Name
+    while ((Get-ComplianceSearch $search.Name).Status -ne "Completed")
+    {
+       Write-Host " ." -NoNewline
+       Start-Sleep -s 3
+    }
+    Write-Host ""
 
-     $searchCounter++
+    $searchCounter++
    }
    ```
 
@@ -174,7 +174,7 @@ ms.locfileid: "50908312"
 
 3. 검색 **그룹 ID** 프롬프트에서 검색 그룹 이름을 입력한 다음 **Enter를 누르고 ;** 예를 들면  `ContosoCase` 입니다. 이 이름은 대소문자 구분이기 때문에 후속 단계에서 동일한 방식으로 입력해야 합니다.
 
-4. 원본 **CSV** 파일 프롬프트에 .csv 파일 확장명을 포함하여 CSV 파일의 이름을 입력합니다. 예를 들면  `ContosoCase.csv` 입니다.
+4. 원본 **CSV** 파일 프롬프트에 파일 확장명을 포함하여 CSV 파일의 .csv 입력합니다. 예를 들면  `ContosoCase.csv` 입니다.
 
 5. Enter를 **눌러** 스크립트를 계속 실행합니다.
 
@@ -186,7 +186,7 @@ ms.locfileid: "50908312"
 
 검색을 만든 후 다음 단계는 3단계에서 만든 각 검색의 검색 적중 수에 대한 간단한 보고서를 표시하는 스크립트를 실행하는 것입니다. 또한 보고서에는 각 검색에 대한 결과 크기와 총 적중 수 및 모든 검색의 총 크기가 포함됩니다. 보고 스크립트를 실행하면 보고서를 CSV 파일에 저장하려는 경우 검색 그룹 ID와 CSV 파일 이름을 입력하라는 메시지가 표시됩니다.
 
-1. 파일 이름 접미사 .ps1을 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장합니다. 예를 들면 `SearchReport.ps1` 입니다. 다른 파일을 저장한 폴더에 파일을 저장합니다.
+1. 파일 이름 접미사로 Windows PowerShell 스크립트 파일에 다음 텍스트를 .ps1. 예를 들면 `SearchReport.ps1` 입니다. 다른 파일을 저장한 폴더에 파일을 저장합니다.
 
    ```Powershell
    $searchGroup = Read-Host 'Search Group ID'
@@ -249,7 +249,7 @@ ms.locfileid: "50908312"
 
 3. 검색 **그룹 ID** 프롬프트에서 검색 그룹 이름을 입력한 다음 **Enter를 누르고 ;** 예를 들면  `ContosoCase` 입니다. 이 이름은 대소문자 구분이기 때문에 3단계에서 스크립트를 실행한 때와 동일한 방식으로 입력해야 합니다.
 
-4. 보고서를 **CSV** 파일에 저장하기 위해 파일 경로에서 보고서를 CSV 파일에 저장하려는 경우 전체 파일 이름 경로(.csv 파일 확장명 포함)의 파일 이름을 CSV 파일에 입력합니다. .csv 파일 확장명을 포함하여 CSV 파일의 이름입니다. 예를 들어 현재 디렉터리에 저장하거나 입력하여 다른 폴더에 저장할  `ContosoCaseReport.csv`  `C:\Users\admin\OneDrive for Business\ContosoCase\ContosoCaseReport.csv` 수 있습니다. 프롬프트를 비워 두면 보고서를 표시하지만 파일에 저장할 수 없습니다.
+4. 보고서를 **CSV** 파일에 저장하기 위한 파일 경로(보고서를 표시하기만 하려는 경우 비워 두기) 프롬프트에서 보고서를 CSV 파일에 저장하려는 경우 전체 파일 이름 경로(.csv 파일 확장명 포함)를 입력합니다. 파일 확장명을 포함하여 CSV .csv 이름입니다. 예를 들어 현재 디렉터리에 저장하거나 입력하여 다른 폴더에 저장할  `ContosoCaseReport.csv`  `C:\Users\admin\OneDrive for Business\ContosoCase\ContosoCaseReport.csv` 수 있습니다. 프롬프트를 비워 두면 보고서를 표시하지만 파일에 저장할 수 없습니다.
 
 5. **Enter** 키를 누릅니다.
 
@@ -264,7 +264,7 @@ ms.locfileid: "50908312"
 
 많은 검색을 만들 수 있기 때문에 이 마지막 스크립트를 사용하면 3단계에서 만든 검색을 빠르게 삭제할 수 있습니다. 다른 스크립트와 마찬가지로 이 스크립트는 검색 그룹 ID를 묻는 메시지도 제공합니다. 이 스크립트를 실행하면 검색 이름에 검색 그룹 ID가 있는 모든 검색이 삭제됩니다.
 
-1. 파일 이름 접미사 .ps1을 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장합니다. 예를 들면 `DeleteSearches.ps1` 입니다. 다른 파일을 저장한 폴더에 파일을 저장합니다.
+1. 파일 이름 접미사로 Windows PowerShell 스크립트 파일에 다음 텍스트를 .ps1. 예를 들면 `DeleteSearches.ps1` 입니다. 다른 파일을 저장한 폴더에 파일을 저장합니다.
 
    ```Powershell
    # Delete all searches in a search group

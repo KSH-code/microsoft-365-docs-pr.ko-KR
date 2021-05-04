@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들고 자동 게시하여 레이블을 자동으로 적용하여 필요한 항목을 보존하고 필요하지 않은 항목을 삭제할 수 있습니다.
-ms.openlocfilehash: 6b7e8f91706a9d12135069f0a6753c76eaff1fb4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 12e909964422d0c15312c1794ce3d9aacc2a1da8
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920021"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107640"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>보존 레이블 자동 적용하여 콘텐츠를 보존 또는 삭제하기
 
@@ -44,7 +44,7 @@ ms.locfileid: "50920021"
 콘텐츠에 중요한 정보, 키워드나 검색 가능한 속성 또는 [학습 가능한 분류자](classifier-get-started-with.md) 일치 항목이 포함된 경우 보존 레이블을 콘텐츠에 자동으로 적용할 수 있습니다.
 
 > [!TIP]
-> 이제 미리 보기에서 검색 가능한 속성을 사용하여 [Teams 모임 녹음/녹화](#microsoft-teams-meeting-recordings)을 식별합니다.
+> 최근에 릴리스된, 검색 가능한 속성을 사용하여 [Teams 모임 녹음/녹화](#microsoft-teams-meeting-recordings)을 식별합니다.
 
 다음 조건에 따라 보존 레이블을 자동으로 적용하는 프로세스:
 
@@ -134,11 +134,11 @@ ms.locfileid: "50920021"
 
 중요한 정보에 대한 자동 적용 보존 레이블 정책을 만들면 DLP(데이터 손실 방지) 정책을 만들 때 같은 정책 템플릿 목록이 표시됩니다. 각 템플릿은 특정 중요한 정보 유형을 찾도록 미리 구성되어 있습니다. 예를 들어 여기에 나와 있는 서식 파일은 미국 ITIN, SSN 및 여권 번호를 **개인 정보** 범주와 **미국 PII (개인 식별 정보) 데이터 서식 파일** 에서 검색합니다.
 
-![중요한 정보 유형을 갖는 정책 템플릿](../media/dafd87d4-c7bb-439a-ac7b-193c018f98a5.png)
+![중요한 정보 유형을 갖는 정책 템플릿](../media/sensitive-info-configuration.png)
 
-중요한 정보 유형에 대한 자세한 내용은 [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)를 참조하세요.
+중요한 정보 유형에 대한 자세한 내용은 [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)를 참조하세요. 현재 이 시나리오에서는 [정확한 데이터 일치](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md) 및 [문서 지문](document-fingerprinting.md)이 지원되지 않습니다.
 
-정책 템플릿을 선택한 후 중요한 정보 유형을 추가하거나 제거할 수 있으며 인스턴스 수 및 일치 정확도를 변경할 수 있습니다. 다음에 표시된 예제 스크린샷에서는 다음 경우에만 보존 레이블이 자동 적용됩니다.
+정책 템플릿을 선택한 후 모든 유형의 중요한 정보를 추가하거나 제거할 수 있으며 인스턴스 수와 일치 정확도를 변경할 수 있습니다. 다음에 표시된 스크린샷 예제에서 보존 라벨은 다음과 같은 경우에만 자동으로 적용됩니다.
   
 - 탐지된 중요한 정보 유형은 일치 정확도(또는 신뢰 수준)가 75 이상입니다. 많은 중요한 정보 유형은 여러 패턴으로 정의됩니다. 여기서 일치 정확도가 더 높은 패턴은 증거(예: 키워드, 날짜 또는 주소)가 더 많이 발견되어야 하지만, 일치 정확도가 더 낮은 패턴에는 증거가 덜 필요합니다. **최소** 일치 정확도가 더 낮을수록 콘텐츠가 조건과 일치하기가 더 쉬워집니다.
 
@@ -228,7 +228,7 @@ ACP OR (Attorney Client Privilege*) OR (AC Privilege)
 ##### <a name="microsoft-teams-meeting-recordings"></a>Microsoft Teams 모임 녹음/녹화
 
 > [!NOTE]
-> Teams 모임 녹음/녹화를 유지하고 삭제하는 기능은 미리 보기로 제공되며 기록이 OneDrive 또는 SharePoint에 저장되기 전에는 작동하지 않습니다. 자세한 정보는 [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용](/MicrosoftTeams/tmr-meeting-recording-change)을 참조하세요.
+> Teams 모임 녹음/녹화를 유지하고 삭제하는 기능은 기록이 OneDrive 또는 SharePoint에 저장되기 전에는 작동하지 않습니다. 자세한 정보는 [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용](/MicrosoftTeams/tmr-meeting-recording-change)을 참조하세요.
 
 사용자의 OneDrive 계정 또는 SharePoint에 저장된 Microsoft Teams 모임 녹음/녹화를 식별하려면 **키워드 쿼리 편집기** 에 대해 다음을 지정합니다.
 
@@ -236,7 +236,7 @@ ACP OR (Attorney Client Privilege*) OR (AC Privilege)
 ProgID:Media AND ProgID:Meeting
 ```
 
-대부분의 경우 모임 녹음/녹화는 OneDrive에 저장되지만,  채널 모임의 경우에는 SharePoint에 저장됩니다.
+대부분의 경우 모임 녹음/녹화는 OneDrive에 저장되지만, 채널 모임의 경우에는 SharePoint에 저장됩니다.
 
 
 #### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>학습 가능한 분류자를 사용하여 콘텐츠에 레이블 자동 적용
@@ -285,7 +285,7 @@ ProgID:Media AND ProgID:Meeting
 
 ### <a name="deleting-retention-labels"></a>보존 레이블 제거
 
-이벤트 기반 보존을 위해 구성되지 않은 보존 레이블 정책에 현재 포함되지 않은 보존 레이블을 삭제하거나 항목을 규정 레코드로 표시할 수 있습니다. 항목을 레코드로 표시하는 보존 레이블을 삭제하는 기능은 현재 미리 보기에서 배포 중입니다.
+이벤트 기반 보존을 위해 구성되지 않은 보존 레이블 정책에 현재 포함되지 않은 보존 레이블을 삭제하거나 항목을 규정 레코드로 표시할 수 있습니다.
 
 삭제할 수 있는 보존 레이블의 경우, 항목에 적용된 경우 삭제가 실패하고 레이블링된 항목을 식별하기 위한 내용 탐색기에 대한 링크가 표시됩니다.
 

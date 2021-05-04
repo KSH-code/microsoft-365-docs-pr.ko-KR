@@ -16,15 +16,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Office 365 eDiscovery에서 일반적인 문제를 해결하기 위해 취할 수 있는 기본 문제 해결 단계에 대해 자세히 알아보십시오.
+description: eDiscovery에서 일반적인 문제를 해결하기 위해 취할 수 있는 기본 문제 Office 365 대해 자세히 알아보십시오.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a867ed2e55c73fe4bbd890273d78cf57f4bfbd2c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3d3d0830ac677ea812a0d09793de8214245d6b2a
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926548"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52060993"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결
 
@@ -38,7 +38,7 @@ ms.locfileid: "50926548"
 
 사용자 ID가 같은 중복 사용자 또는 메일 목록을 검사합니다.
 
-1. 보안 및 [준수 & PowerShell에 연결합니다.](/powershell/exchange/connect-to-scc-powershell)
+1. 커넥트 보안 및 [& 센터 PowerShell에 대한 정보를 제공합니다.](/powershell/exchange/connect-to-scc-powershell)
 
 2. 다음 명령을 실행하여 사용자 이름의 모든 인스턴스를 검색합니다.
 
@@ -66,7 +66,7 @@ eDiscovery 또는 콘텐츠 검색을 통해 다음 오류가 발생할 수 있�
 
 이 오류가 발생하는 경우 검색에 실패한 위치를 확인한 다음 실패한 위치에서만 검색을 다시 하는 것이 좋습니다.
 
-1. 보안 센터 [& PowerShell에](/powershell/exchange/connect-to-scc-powershell) 연결한 후 다음 명령을 실행합니다.
+1. 커넥트 보안 & [PowerShell에](/powershell/exchange/connect-to-scc-powershell) 대한 정보를 보고 다음 명령을 실행합니다.
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
@@ -82,7 +82,7 @@ eDiscovery 또는 콘텐츠 검색을 통해 다음 오류가 발생할 수 있�
 
 SharePoint Online 및 비즈니스용 OneDiscovery 위치를 포함하는 eDiscovery 검색을 실행하는 경우 파일이 사이트에 있는 경우 오류가 발생할 `File Not Found` 수 있습니다. 이 오류는 내보내기 경고에 추가되거나 errors.csv 건너뜁 items.csv. 사이트에서 파일을 찾을 수 없는 경우나 인덱스가 최신이 아니면 이러한 문제가 발생할 수 있습니다. 다음은 실제 오류 텍스트입니다(강조 표시 추가).
 
-> 28.06.2019 10:02:19_FailedToExportItem_Failed 다운로드할 수 있습니다. 추가 진단 정보: Microsoft.Office.Compliance.EDiscovery.ExportWorker.Exceptions.ContentDownloadTemporaryFailure: 문서 유형의 콘텐츠 6ea52149-91cd-4965-b5bb-82ca6a3ec9be에서 다운로드하지 못했습니다. 상관 관계 ID: 3bd84722-937b-4c23-b61b-08d6fba9ec32. ServerErrorCode: -2147024894 ---> Microsoft.SharePoint.Client.ServerException: ***파일을 찾을 수 없습니다.*** Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)(Microsoft.SharePoint.Client.ClientRequest.ProcessResponse() --- End of inner exception stack trace ---
+> 28.06.2019 10:02:19_FailedToExportItem_Failed 다운로드할 수 있습니다. 추가 진단 정보: Microsoft. Office. Compliance.EDiscovery.ExportWorker.Exceptions.ContentDownloadTemporaryFailure: Document 형식의 콘텐츠 6ea52149-91cd-4965-b5bb-82ca6a3ec9be에서 다운로드하지 못했습니다. 상관 관계 ID: 3bd84722-937b-4c23-b61b-08d6fba9ec32. ServerErrorCode: Microsoft에서 -2147024894 --->. SharePoint. Client.ServerException: ***파일을 찾을 수 없습니다.*** Microsoft. SharePoint. Microsoft의 Client.ClientRequest.ProcessResponseStream(Stream responseStream) SharePoint. Client.ClientRequest.ProcessResponse() --- 내부 예외 스택 추적 종료 ---
 
 ### <a name="resolution"></a>해결 방법
 
@@ -96,9 +96,9 @@ eDiscovery 검색은 오류와 함께 `recipient not found` 실패합니다. 이
 
 ### <a name="resolution"></a>해결 방법
 
-1. Exchange [Online PowerShell에 연결합니다.](/powershell/exchange/connect-to-exchange-online-powershell)
+1. 커넥트 [PowerShell을 Exchange Online 합니다.](/powershell/exchange/connect-to-exchange-online-powershell)
 
-2. 다음 명령을 실행하여 사용자가 Exchange Online Protection에 동기화된지 확인할 수 있습니다.
+2. 다음 명령을 실행하여 사용자가 동기화된 Exchange Online Protection.
 
    ```powershell
    Get-Recipient <userId> | FL
@@ -112,7 +112,7 @@ eDiscovery 검색은 오류와 함께 `recipient not found` 실패합니다. 이
 
 ### <a name="resolution"></a>해결 방법
 
-1. 보안 센터 [& PowerShell에](/powershell/exchange/connect-to-scc-powershell) 연결한 후 다음 명령을 실행합니다.
+1. 커넥트 보안 & [PowerShell에](/powershell/exchange/connect-to-scc-powershell) 대한 정보를 보고 다음 명령을 실행합니다.
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
@@ -142,7 +142,7 @@ eDiscovery 검색을 실행하는 경우 "내부 서버 오류(500)가 발생했
 
 1. 더 작은 검색으로 검색을 중단하고 검색을 다시 실행합니다.  더 작은 날짜 범위를 사용해 보거나 검색되는 위치 수를 제한합니다.
 
-2. 보안 센터 [& PowerShell에](/powershell/exchange/connect-to-scc-powershell) 연결한 후 다음 명령을 실행합니다.
+2. 커넥트 보안 & [PowerShell에](/powershell/exchange/connect-to-scc-powershell) 대한 정보를 보고 다음 명령을 실행합니다.
 
    ```powershell Set-CaseHoldPolicy <policyname> -RetryDistribution
    Get-ComplianceSearch <searchname> | FL
@@ -162,7 +162,7 @@ eDiscovery 사례 보류 정책 동기화 배포 오류입니다. 오류는 다�
 
 ### <a name="resolution"></a>해결 방법
 
-1. 보안 및 [& 센터 PowerShell에](/powershell/exchange/connect-to-scc-powershell) 연결한 다음 eDiscovery 사례 보류에 대해 다음 명령을 실행합니다.
+1. 커넥트 보안 & [센터 PowerShell을](/powershell/exchange/connect-to-scc-powershell) 사용하여 eDiscovery 사례 보류에 대해 다음 명령을 실행합니다.
 
    ```powershell
    Get-CaseHoldPolicy <policyname> - DistributionDetail | FL
@@ -196,7 +196,7 @@ eDiscovery 사례 보류 정책 동기화 배포 오류입니다. 오류는 다�
 
 ## <a name="error-the-condition-specified-using-http-conditional-headers-is-not-met"></a>오류: "HTTP 조건부 헤더를 사용하여 지정한 조건이 충족되지 않았습니다."
 
-eDiscovery 내보내기 도구를 사용하여 검색 결과를 다운로드할 때 다음과 같은 오류가 발생할 수 있습니다. 이는 일반적으로 Azure Storage 위치에서 발생하는 일시적인 `System.Net.WebException: The remote server returned an error: (412) The condition specified using HTTP conditional header(s) is not met.` 오류입니다.
+eDiscovery 내보내기 도구를 사용하여 검색 결과를 다운로드할 때 다음과 같은 오류가 발생할 수 있습니다. 이 오류는 일반적으로 Azure Storage `System.Net.WebException: The remote server returned an error: (412) The condition specified using HTTP conditional header(s) is not met.` 오류입니다.
 
 ### <a name="resolution"></a>해결 방법
 
@@ -212,12 +212,14 @@ eDiscovery 내보내기 도구를 사용하여 검색 결과를 다운로드할 
 
 1. 다른 클라이언트/컴퓨터로 다운로드해 하세요.
 
-2. 로컬 드라이브에 다운로드해야 합니다.
+2. [Remove-ComplianceSearch][/powershell/module/exchange/remove-compliancesearch] cmdlet을 사용하여 더 이상 필요 없는 이전 검색을 제거합니다.
 
-3. 바이러스 스캐너가 실행되고 있지 않은지 확인
+3. 로컬 드라이브에 다운로드해야 합니다.
 
-4. 다른 내보내기에서 동일한 폴더나 상위 폴더로 다운로드하지 않는지 확인합니다.
+4. 바이러스 스캐너가 실행되고 있지 않은지 확인
 
-5. 이전 단계가 작동하지 않는 경우 압축 및 중복 제거를 사용하지 않도록 설정하십시오.
+5. 다른 내보내기에서 동일한 폴더나 상위 폴더로 다운로드하지 않는지 확인합니다.
 
-6. 이 문제가 작동하는 경우 로컬 바이러스 스캐너 또는 디스크 문제 때문인 것입니다.
+6. 이전 단계가 작동하지 않는 경우 압축 및 중복 제거를 사용하지 않도록 설정하십시오.
+
+7. 이 문제가 작동하는 경우 로컬 바이러스 스캐너 또는 디스크 문제 때문인 것입니다.

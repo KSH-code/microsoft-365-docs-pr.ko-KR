@@ -17,33 +17,22 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 feedback_system: None
-description: 보안 및 준수 센터의 DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 80가지 중요한 정보 &amp; 유형이 포함되어 있습니다. 이 문서에서는 이러한 모든 중요한 정보 유형을 나열하고 DLP 정책이 각 유형을 검색할 때 검색하는 정보를 보여 제공합니다.
-ms.openlocfilehash: 341ded0c4c7f6ff31074d17624c029e7f6187480
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+recommendations: false
+description: 보안 및 준수 센터의 DLP(데이터 손실 방지)에는 DLP 정책에 사용할 준비가 된 200가지가 넘는 중요한 정보 &amp; 유형이 포함되어 있습니다. 이 문서에서는 이러한 모든 중요한 정보 유형을 나열하고 DLP 정책이 각 유형을 검색할 때 검색하는 정보를 보여 제공합니다.
+ms.openlocfilehash: 0f3de14466cf9d2ebf5550eaec002bd4dea6e435
+ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919714"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "52086731"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>중요한 정보 유형 엔터티 정의
 
-준수 센터의 DLP(데이터 손실 방지)에는 DLP 정책에 사용할 준비가 된 많은 중요한 정보 유형이 포함되어 있습니다. 이 문서에서는 이러한 모든 중요한 정보 유형을 나열하고 DLP 정책이 각 유형을 검색할 때 검색하는 정보를 보여 제공합니다. 중요한 정보 유형은 정규식이나 함수로 식별될 수 있는 패턴으로 정의됩니다. 키워드 및 체크 수표와 같은 증분 증거를 사용하여 중요한 정보 유형을 식별할 수 있습니다. 이러한 평가 프로세스에서 신뢰 수준 및 근접성도 사용됩니다.
-
-중요한 정보 유형에는 다음 구독 중 하나가 필요합니다.
-- Microsoft 365 E3
-- Microsoft 365 E5
-
-중요한 정보 유형이 사용됩니다.
-
-- [데이터 손실 방지 정책](data-loss-prevention-policies.md) 
-- [민감도 레이블](sensitivity-labels.md)
-- [보존 레이블](retention.md)
-- [커뮤니케이션 규정 준수](communication-compliance.md)
-- [자동 레이블 지정 정책](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
+준수 센터의 DLP(데이터 손실 방지)에는 DLP 정책에 사용할 준비가 된 많은 중요한 정보 유형이 포함되어 있습니다. 이 문서에서는 이러한 모든 중요한 정보 유형을 나열하고 DLP 정책이 각 유형을 검색할 때 검색하는 정보를 보여 제공합니다. 중요한 정보 유형에 대한 자세한 내용은 중요한 정보 [유형을 참조하세요.](sensitive-information-type-learn-about.md)
 
 ## <a name="aba-routing-number"></a>ABA 라우팅 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 서식이 지정되거나 서식 없는 패턴일 수 있는 9자리 숫자
 
@@ -58,9 +47,9 @@ ms.locfileid: "50919714"
 
 무형: 0, 1, 2, 3, 6, 7 또는 8로 시작하는 9자리 연속 자릿수 
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -108,7 +97,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="argentina-national-identity-dni-number"></a>아르헨티나 국가 ID(DNI) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 8자리 숫자(또는 기간이 없는 경우)
 
@@ -121,9 +110,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 선택적 기간
 - 3자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -155,9 +144,92 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - registro nacional de las personas 
 - rnp 
    
+## <a name="argentina-unique-tax-identification-key-cuitcuil"></a>아르헨티나 고유 세금 식별 키(CUIT/CUIL)
+
+### <a name="format"></a>포맷
+
+대시가 있는 11자리 숫자
+
+### <a name="pattern"></a>패턴
+
+대시가 있는 11자리 숫자:
+- 20, 23, 24, 27, 30, 33 또는 34의 두 자리 숫자
+- 하이픈(-)
+- 8자리 숫자
+- 하이픈(-)
+- 검사 숫자 1개
+
+### <a name="checksum"></a>체크섬
+
+네.
+
+### <a name="definition"></a>정의
+
+DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있습니다.
+- 이 `Func_Argentina_Unique_Tax_Key` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+- 시작 `Keyword_Argentina_Unique_Tax_Key` 키워드가 발견됩니다.
+
+DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 이내의 근접성으로 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+- 이 `Func_Argentina_Unique_Tax_Key` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다.
+
+```xml
+    <!-- Argentina Unique Tax Identification Key (CUIT/CUIL) -->
+      <Entity id="98da3da1-9199-4571-b7c4-b6522980b507" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_Argentina_Unique_Tax_Key" />
+          <Match idRef="Keyword_Argentina_Unique_Tax_Key" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_Argentina_Unique_Tax_Key" />
+        </Pattern>
+      </Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="keyword_argentina_unique_tax_key"></a>Keyword_Argentina_Unique_Tax_Key
+
+- Clave Unica de Identificacion Tributaria
+- CUIT
+- 고유한 랩 식별 코드 
+- Clave Única de Identificación Tributaria
+- 고유한 실무 식별 코드
+- CUIL
+- 고유 세금 식별 키
+- 고유 랩 식별 키
+- 랩 식별의 고유 키
+- 고유 작업 식별 코드
+- 고유 작업 ID 코드
+- 고유한 작업 식별 키
+- 작업 ID의 고유 키
+- 세금 식별의 고유 코드
+- 세금 식별의 고유 키
+- 고유 근로 식별 코드
+- 고유한 근로자 식별 규약
+- 고유 근로 식별 키
+- 근로 식별의 고유 키
+- tax ID
+- taxID #
+- taxId
+- 일자 수
+- tax number
+- tax no
+- tax #
+- tax #
+- taxpayer ID
+- taxpayer number
+- taxpayer no
+- taxpayer #
+- taxpayer #
+- tax identity
+- tax identification
+- Número de Identificación Fiscal
+- número de contribuyente
+   
+   
 ## <a name="australia-bank-account-number"></a>호주 은행 계좌 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 은행 주 분기 번호가 있는 경우 또는 없는 6-10자리 숫자
 
@@ -170,9 +242,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 하이픈 
 - 3자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -228,7 +300,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - Microsoft 클라우드 앱 보안
 
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 선택적 디지타이터가 있는 11자리 숫자
 
@@ -244,9 +316,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 하이픈 또는 공백
 - 3자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -289,7 +361,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 9자리 숫자(디지타이터)입니다.
 
@@ -304,9 +376,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 3자리 숫자
 
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -343,7 +415,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="australia-drivers-license-number"></a>호주 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 9개의 문자 및 숫자
 
@@ -364,9 +436,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 - 9자리 숫자 또는 문자(대소문자 구분 안 )
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -494,7 +566,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="australia-medical-account-number"></a>오스트레일리아 의료 계좌 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 10-11자리 숫자
 
@@ -506,9 +578,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 10번째 숫자는 문제 숫자입니다.
 - 11번째 숫자(선택 사항)는 개인 번호입니다.
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -545,7 +617,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
    
 ## <a name="australia-passport-number"></a>호주 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자와 7자리 숫자
 
@@ -553,9 +625,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 문자(대소문자 구분 안 ) 다음에 7자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -616,7 +688,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="australia-tax-file-number"></a>오스트레일리아 세금 파일 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 8-9자리 숫자
 
@@ -629,9 +701,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 공백 
 - 마지막 숫자가 검사 숫자인 2-3자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -666,7 +738,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="austria-drivers-license-number"></a>오스트리아 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 8자리 숫자
   
@@ -674,9 +746,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 8자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -838,7 +910,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자, 숫자 및 특수 문자의 24자 조합
   
@@ -850,7 +922,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
     
 - 두 글자(대/소문자 구분 안 ), 숫자, 백슬래시, 슬래시, 더하기 기호 또는 등호
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
 해당 사항 없음
   
@@ -881,7 +953,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="austria-passport-number"></a>오스트리아 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자 1개, 선택적 공백 및 7자리 숫자
   
@@ -893,7 +965,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 하나의 공백(선택 사항)
 - 7자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
 해당 없음
   
@@ -964,7 +1036,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="austria-social-security-number"></a>오스트리아 사회 보장 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 지정된 형식의 10자리 숫자
   
@@ -976,9 +1048,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 검사 숫자 1개
 - 생년월일(DDMMYY)에 해당하는 6자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -1036,7 +1108,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="austria-tax-identification-number"></a>오스트리아 세금 ID 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 선택적 하이픈 및 슬래시가 있는 9자리 숫자
   
@@ -1050,9 +1122,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 슬래시(선택 사항)
 - 4자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -1109,7 +1181,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 11자 영문 패턴
 
@@ -1128,9 +1200,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 선택적 공간
 - 1-2자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -1176,7 +1248,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="azure-documentdb-auth-key"></a>Azure DocumentDB auth 키
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자열 "DocumentDb" 다음에 아래 패턴에 설명된 문자와 문자열입니다.
 
@@ -1188,9 +1260,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 대문자 86자, 숫자, 슬래시(/) 또는 더하기 기호(+)의 조합
 - 등호 2개(=)
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1228,7 +1300,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-iaas-database-connection-string-and-azure-sql-connection-string"></a>Azure IAAS 데이터베이스 연결 문자열 및 Azure SQL 연결 문자열
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자열 "Server", "server", "data source" 다음에 문자열 "cloudapp.azure"를 포함하여 아래 패턴에 설명된 문자와 문자열이 추가됩니다.<!--no-hyperlink-->com" 또는 "cloudapp.azure.<!--no-hyperlink-->net" 또는 "database.windows.<!--no-hyperlink-->net", 문자열 "Password" 또는 "password" 또는 "pwd".
 
@@ -1248,9 +1320,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 세미콜론(;), 인용 부호(") 또는 아포스트로피(')가 아닌 하나 이상의 문자
 - 세미코론(;), 인용 부호(") 또는 아포스트로피(')
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1288,7 +1360,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-iot-connection-string"></a>Azure IoT 연결 문자열
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자열 "HostName" 다음에 아래 패턴에 설명된 문자와 문자열(문자열 "azure-devices")입니다.<!--no-hyperlink-->net" 및 "SharedAccessKey".
 
@@ -1308,9 +1380,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 대문자, 숫자, 슬래시(/) 또는 더하기 기호(+)의 조합
 - 등호(=)
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1348,7 +1420,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-publish-setting-password"></a>Azure 게시 설정 암호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자열 "userpwd=" 다음에 영문 문자열이 오게 됩니다.
 
@@ -1358,9 +1430,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 소문자 60자 또는 숫자 조합
 - 인용 부호(")
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1399,7 +1471,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-redis-cache-connection-string"></a>Azure Redis 캐시 연결 문자열
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자열 "redis.cache.windows.<!--no-hyperlink-->net" 다음에 문자열 "password" 또는 "pwd"를 포함하여 아래 패턴에 설명된 문자와 문자열이 표시됩니다.
 
@@ -1414,9 +1486,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 대문자, 숫자, 슬래시(/) 또는 더하기 기호(+)가 있는 43자 조합
 - 등호(=)
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1454,7 +1526,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-sas"></a>Azure SAS
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자열 "sig" 다음에 아래 패턴에 설명된 문자와 문자열입니다.
 
@@ -1468,9 +1540,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 문자열 "%3d"
 - 대문자, 숫자 또는 백분율 기호(%)가 아닌 문자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1488,7 +1560,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-service-bus-connection-string"></a>Azure 서비스 버스 연결 문자열
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자열 "Servicebus.windows"를 포함하여 아래 패턴에 설명된 문자와 문자열이 이어지며 문자열 "EndPoint"가 그 다음에 오게 됩니다.<!--no-hyperlink-->net" 및 "SharedAccesKey".
 
@@ -1508,9 +1580,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 대문자, 숫자, 슬래시(/) 또는 더하기 기호(+)가 있는 43자 조합
 - 등호(=)
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1548,7 +1620,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-storage-account-key"></a>Azure 저장소 계정 키
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자열 "DefaultEndpointsProtocol"에 문자열 "AccountKey"를 포함하여 아래 패턴에 설명된 문자와 문자열이 이어지며
 
@@ -1566,9 +1638,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 대문자, 숫자, 슬래시(/) 또는 더하기 기호(+)가 있는 86자 조합
 - 등호 2개(=)
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1614,7 +1686,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="azure-storage-account-key-generic"></a>Azure Storage 계정 키(일반)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 아래 패턴에 설명된 86개 이하 또는 대문자, 자릿수, 슬래시(/) 또는 더하기 기호(+)의 조합입니다.
 
@@ -1624,9 +1696,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 대문자, 숫자, 슬래시(/) 또는 더하기 기호(+)가 있는 86자 조합
 - 등호 2개(=)
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -1643,7 +1715,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 ```
 ## <a name="belgium-drivers-license-number"></a>벨기에 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 10자리 숫자
   
@@ -1651,9 +1723,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 10자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -1815,7 +1887,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="belgium-national-number"></a>벨기에 국가 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 11자리 숫자와 선택적분자
 
@@ -1828,9 +1900,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 점, 대시, 공백의 선택적 delimiter 
 - 검사 숫자 2개
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -1919,7 +1991,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="belgium-passport-number"></a>벨기에 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 2개의 문자와 공백이나 따로 6자리 숫자(공백 또는 따로 문자 없음)
   
@@ -1927,7 +1999,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 2개의 문자와 6자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
 해당 없음
   
@@ -2009,7 +2081,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 12자 영문 패턴
 
@@ -2027,9 +2099,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 4자리 숫자
 
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 
 ### <a name="definition"></a>정의
@@ -2071,7 +2143,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="brazil-cpf-number"></a>브라질 CPF 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 서식이 있거나 서식이 없을 수 있는 검사 숫자를 포함하는 11자리 숫자
 
@@ -2089,9 +2161,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 비형성:
 - 마지막 2자리 숫자가 검사 숫자인 11자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -2134,7 +2206,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="brazil-legal-entity-number-cnpj"></a>브라질 법인 번호(CNPJ)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 등록 번호, 지점 번호, 검사 숫자 및 구분 기호를 포함하는 14자리 숫자
 
@@ -2152,9 +2224,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 하이픈 
 - 검사 숫자인 2자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -2207,7 +2279,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="brazil-national-identification-card-rg"></a>브라질 국가 ID 카드(RG)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 Registro Geral(이전 형식): 9자리 숫자
 
@@ -2229,9 +2301,9 @@ Registro de Identidade(RIC)(새 형식):
 - 하이픈 
 - 검사 숫자인 1자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -2267,7 +2339,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="bulgaria-drivers-license-number"></a>불가리아 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 9자리 숫자
   
@@ -2275,9 +2347,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 9자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -2438,7 +2510,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 10자리 숫자
   
@@ -2451,9 +2523,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 성별에 해당하는 1자리 숫자: 남성의 10진수와 여성의 홀수 숫자
 - 검사 숫자 1개
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -2531,7 +2603,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="bulgaria-passport-number"></a>불가리아 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 9자리 숫자
   
@@ -2539,9 +2611,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 9자리 숫자 
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -2605,7 +2677,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="canada-bank-account-number"></a>캐나다 은행 계좌 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 7자리 또는 12자리 숫자
 
@@ -2620,9 +2692,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 0 "0" 
 - 8자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -2679,7 +2751,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
    
 ## <a name="canada-drivers-license-number"></a>캐나다 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 지역마다 다름
 
@@ -2687,9 +2759,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 앨버타, 브리티시 콜롬비아, 매니토바, 뉴브런즈윅, 뉴펀들랜드/래브라도, 노바스코샤, 온타리오, 프린스에드워드아일랜드, 퀘벡 및 서스캐처원을 포함하는 다양한 패턴
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -2897,7 +2969,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="canada-health-service-number"></a>캐나다 보건 서비스 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
  10자리 숫자
 
@@ -2905,9 +2977,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 10자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -2944,7 +3016,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
       
 ## <a name="canada-passport-number"></a>캐나다 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 대문자 2자, 6자리 숫자
 
@@ -2952,9 +3024,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 대문자 2자, 6자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -3012,7 +3084,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="canada-personal-health-identification-number-phin"></a>캐나다 PHIN(개인 건강 식별 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 9자리 숫자
 
@@ -3020,9 +3092,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 9자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -3083,7 +3155,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="canada-social-insurance-number"></a>캐나다 사회 보험 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 선택적 하이픈 또는 공백이 있는 9자리 숫자
 
@@ -3098,9 +3170,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 무형: 9자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -3167,7 +3239,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="chile-identity-card-number"></a>칠레 ID 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 7-8자리 숫자와 검사 숫자 또는 문자를 더한 값
 
@@ -3182,9 +3254,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 대시 
 - 검사 숫자인 1자리 숫자 또는 문자(대소문자 구분 안 )입니다.
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -3252,7 +3324,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="china-resident-identity-card-prc-number"></a>중국 거주자 ID 카드(PRC) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 18자리 숫자
 
@@ -3264,9 +3336,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 주문 코드인 3자리 숫자 
 - 검사 숫자인 1자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -3310,7 +3382,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="credit-card-number"></a>신용 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 서식이 지정되거나 서식 없는(dddddd)될 수 있으며 Luhn 테스트를 통과해야 하는 14-16자리 숫자입니다.
 
@@ -3318,7 +3390,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 Visa, MasterCard, Discover Card, JCB, American Express, 기프트 카드 및 다이너 카드를 비롯한 전 세계 모든 주요 브랜드의 카드를 감지하는 복잡하고 강력한 패턴입니다.
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
 있음(Luhn 체크섬)
 
@@ -3392,9 +3464,12 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - codigo de seguranca
 - codigo de segurança
 - código de seguranca
-- cód. segurança
+- 
+cód. segurança
 - cod. seguranca
+
 - cod. segurança
+
 - cód. seguranca
 - cód segurança
 - cod seguranca
@@ -3574,7 +3649,8 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - no do cartão
 - no do cartao
 - 아니요. do cartão
-- 아니요. do cartao
+- no. do cartao
+
 - クレジットカード番号
 - クレジットカードナンバー
 - クレジットカード＃
@@ -3608,7 +3684,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="croatia-drivers-license-number"></a>크로아티아 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 8자리 숫자
   
@@ -3616,9 +3692,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 8자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -3773,7 +3849,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 ## <a name="croatia-identity-card-number"></a>크로아티아 ID 카드 번호
 이 중요한 정보 유형 엔터티는 EU 국가 식별 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 9자리 숫자
 
@@ -3781,9 +3857,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 9자리 연속 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -3837,7 +3913,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="croatia-passport-number"></a>크로아티아 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 9자리 숫자
   
@@ -3845,9 +3921,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 9자리 숫자 
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -3906,7 +3982,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="croatia-personal-identification-oib-number"></a>크로아티아 개인 식별(OIB) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 11자리 숫자
 
@@ -3916,9 +3992,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 10자리 숫자 
 - 마지막 숫자는 검사 숫자입니다.
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -3979,7 +4055,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="cyprus-drivers-license-number"></a>키프로스 드라이버 라이선스 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 12자리 숫자
   
@@ -3987,9 +4063,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 12자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -4148,7 +4224,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 10자리 숫자
   
@@ -4156,7 +4232,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 10자리 숫자 
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
 해당 없음
   
@@ -4190,7 +4266,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="cyprus-passport-number"></a>키프로스 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 1개 문자와 공백이나 따로 6-8자리 숫자(공백 또는 따로 문자 없음)
   
@@ -4198,9 +4274,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 1개의 문자와 6-8자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -4280,7 +4356,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 지정된 패턴의 8자리 숫자와 한 문자
   
@@ -4292,7 +4368,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 7자리 숫자
 - 한 문자(대소문자 구분 안 )
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
 해당 없음
   
@@ -4351,7 +4427,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="czech-drivers-license-number"></a>체코 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 2개의 문자와 6자리 숫자
   
@@ -4364,9 +4440,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 공백(선택 사항)
 - 6자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -4520,7 +4596,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="czech-passport-number"></a>체코 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 디지타이터가 없는 8자리 숫자
   
@@ -4528,9 +4604,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 공백이나 디지타이터가 없는 8자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -4598,7 +4674,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="czech-personal-identity-number"></a>체코 개인 ID 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 선택적 슬래시(이전 형식)가 있는 9자리 숫자(선택적 슬래시(새 형식)가 있는 10자리 숫자
 
@@ -4614,9 +4690,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 슬래시 
 - 마지막 숫자가 검사 숫자인 4자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -4698,7 +4774,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="denmark-drivers-license-number"></a>덴마크 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 8자리 숫자
   
@@ -4706,9 +4782,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 8자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -4860,7 +4936,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="denmark-passport-number"></a>덴마크 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 9자리 숫자
   
@@ -4868,9 +4944,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 9자리 숫자 
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -4937,7 +5013,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="denmark-personal-identification-number"></a>덴마크 개인 식별 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 하이픈을 포함하는 10자리 숫자
 
@@ -4948,9 +5024,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 하이픈 
 - 마지막 숫자가 검사 숫자인 4자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -5054,7 +5130,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="drug-enforcement-agency-dea-number"></a>DEA(마약 집행 기구) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 2개의 문자와 7자리 숫자
 
@@ -5065,9 +5141,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 한 문자(대/소문자 구분 안 )는 등록 기관의 성 또는 숫자 '9'의 첫 번째 문자입니다.
 - 7자리 숫자( 마지막 숫자는 검사 숫자)
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -5112,7 +5188,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="estonia-drivers-license-number"></a>에스토니아 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 2개의 문자와 6자리 숫자
   
@@ -5123,9 +5199,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 문자 "ET"(대소문자를 구분하지 않습니다.) 
 - 6자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -5285,7 +5361,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 11자리 숫자
   
@@ -5298,9 +5374,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 같은 날짜에 태어나는 사람을 구분하는 일련 번호에 해당하는 3자리 숫자
 - 검사 숫자 1개
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -5366,7 +5442,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="estonia-passport-number"></a>에스토니아 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 따로 7자리 숫자를 입력하고 공백이나 따로 문자를 1개씩 입력합니다.
   
@@ -5374,9 +5450,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 한 문자와 7자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -5440,7 +5516,7 @@ eesti kodaniku passi number passinumbrid document number document no dokumendi n
 
 ## <a name="eu-debit-card-number"></a>유럽 직불 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 16자리 숫자
 
@@ -5448,9 +5524,9 @@ eesti kodaniku passi number passinumbrid document number document no dokumendi n
 
 복잡하고 강력한 패턴
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -5606,11 +5682,15 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - no de tarjeta 
 - no do cartao 
 - no do cartão 
-- 아니요. de tarjeta 
-- 아니요. do cartao 
-- 아니요. do cartão 
+- no. de tarjeta
+ 
+- no. do cartao
+ 
+- no. do cartão
+ 
 - nr carta 
-- nr. carta 
+- nr. carta
+ 
 - numeri di scheda 
 - numero carta 
 - numero de cartao 
@@ -5629,7 +5709,8 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - nº de tarjeta 
 - nº do cartao 
 - nº do cartão 
-- nº. do cartão 
+- nº. do cartão
+ 
 - número de cartao 
 - número de cartão 
 - número de tarjeta 
@@ -5681,10 +5762,14 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - cod seguranca 
 - cod segurança 
 - cod sicurezza 
-- cod. seg 
-- cod. seguranca 
-- cod. segurança 
-- cod. sicurezza 
+- cod. seg
+ 
+- cod. seguranca
+ 
+- cod. segurança
+ 
+- cod. sicurezza
+ 
 - codice di sicurezza 
 - codice di verifica 
 - codigo 
@@ -5701,8 +5786,10 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - cvv2 
 - cód seguranca 
 - cód segurança 
-- cód. seguranca 
-- cód. segurança 
+- cód. seguranca
+ 
+- cód. segurança
+ 
 - código 
 - código de seguranca 
 - código de segurança 
@@ -5714,8 +5801,10 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - kreditkartenprufnummer 
 - kreditkartenprüfnummer 
 - kwestieaantal 
-- 아니요. dell'edizione 
-- 아니요. di sicurezza 
+- no. dell'edizione
+ 
+- no. di sicurezza
+ 
 - numero de securite 
 - numero de verificacao 
 - numero dell'edizione 
@@ -5944,7 +6033,7 @@ EU 사회 보장 번호 또는 이와 동등한 식별에 있는 이러한 엔�
 
 ## <a name="finland-drivers-license-number"></a>핀란드 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 하이픈을 포함하는 10자리 숫자
   
@@ -5957,9 +6046,9 @@ EU 사회 보장 번호 또는 이와 동등한 식별에 있는 이러한 엔�
 - 3자리 숫자 
 - 숫자 또는 문자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -6125,7 +6214,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 20자리 숫자
 
@@ -6137,9 +6226,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 공백 또는 하이픈
 - 10자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -6179,7 +6268,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="finland-national-id"></a>핀란드 국가 ID
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 6자리 숫자와 세 번째 숫자와 검사 숫자를 나타내는 문자
 
@@ -6191,9 +6280,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 3자리 개인식별번호 
 - 검사 숫자인 숫자 또는 문자(대소문자 미지정)
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -6274,7 +6363,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 이 중요한 정보 유형 엔터티는 EU Passport 번호 중요한 정보 유형에서 사용할 수 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 9개의 문자 및 숫자 조합
 
 ### <a name="pattern"></a>패턴
@@ -6282,9 +6371,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 2개 문자(대소문자 구분 안 ) 
 - 7자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -6354,7 +6443,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 이 중요한 정보 유형 엔터티는 EU 운전 면허 번호 중요한 정보 유형에서 사용할 수 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 12자리 숫자
 
@@ -6362,9 +6451,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 비슷한 패턴(예: 프랑스 전화 번호)을 무시하기 위한 유효성 검사 기능을 포함하는 12자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -6520,7 +6609,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 21자리 숫자
 
@@ -6535,9 +6624,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 숫자
 
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -6565,7 +6654,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="france-national-id-card-cni"></a>프랑스 국가 ID 카드(CNI)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 12자리 숫자
 
@@ -6573,9 +6662,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 12자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -6613,7 +6702,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 ## <a name="france-passport-number"></a>프랑스 여권 번호
 이 중요한 정보 유형 엔터티는 EU 여권 번호 중요한 정보 유형에서 사용할 수 있습니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 9자리 숫자 및 문자
 
@@ -6624,9 +6713,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 2개 문자(대소문자 구분 안 ) 
 - 5자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -6704,7 +6793,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="france-social-security-number-insee"></a>프랑스 사회 보장 번호(INSEE)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 15자리 숫자
 
@@ -6715,9 +6804,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 또는
 - 15자리 연속 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -6759,14 +6848,16 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - national id
 - national identification
 - no d'identité
-- 아니요. d'identité
+- 
+no. d'identité
 - numéro d'assurance
 - numéro d'identité
 - numero d'identite
 - numéro de sécu
 - numéro de sécurité sociale
 - no d'identite
-- 아니요. d'identite
+- 
+no. d'identite
 - ssn
 - ssn #
 - sécurité sociale
@@ -6780,7 +6871,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="france-tax-identification-number"></a>프랑스 세금 식별 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 13자리 숫자
   
@@ -6800,9 +6891,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 검사 숫자 3개 
 
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -6862,7 +6953,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 영문자 13자 패턴
 
@@ -6880,9 +6971,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 공백, 점, 하이픈 또는 콤보
 - 3자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -6925,7 +7016,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 이 중요한 정보 유형 엔터티는 EU 운전 면허 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 11자리 숫자와 문자 조합
 
@@ -6938,9 +7029,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 숫자 
 - 숫자 또는 문자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -7113,7 +7204,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="germany-identity-card-number"></a>독일 ID 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 2010년 11월 1일: 9개의 문자 및 숫자
 
@@ -7128,9 +7219,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 1987년 4월 1일부터 2010년 10월 31일까지:
 - 10자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -7171,7 +7262,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 이 중요한 정보 유형 엔터티는 EU Passport 번호 중요한 정보 유형에 포함되어 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 10자리 숫자 또는 문자
 
@@ -7183,9 +7274,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 이 집합의 5자리 숫자 또는 문자(C, -H, J-N, P, R, T, V-Z) 
 - 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -7249,7 +7340,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="germany-tax-identification-number"></a>독일 세금 ID 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 11자리 숫자
   
@@ -7266,9 +7357,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 2자리 숫자
 - 검사 숫자 1개
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -7329,7 +7420,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 영문자 11자 패턴
 
@@ -7346,9 +7437,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 공백 또는 콤보
 - 3자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -7388,7 +7479,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 이 중요한 정보 유형 엔터티는 EU 운전 면허 번호 중요한 정보 유형에 포함되어 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 9자리 숫자
   
@@ -7396,9 +7487,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 9자리 숫자 
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -7553,7 +7644,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="greece-national-id-card"></a>그리스 국가 ID 카드
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 7-8자리 문자 및 숫자와 대시의 조합
 
@@ -7569,9 +7660,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 대시 1개 
 - 6자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -7611,7 +7702,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="greece-passport-number"></a>그리스 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자 2개와 공백이나 따로 7자리 숫자(공백이나 따로 문자 없음)
   
@@ -7619,9 +7710,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 2개 문자와 7자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -7688,7 +7779,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 11자리 숫자
   
@@ -7698,9 +7789,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 4자리 숫자
 - 검사 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -7746,7 +7837,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 9자리 숫자
   
@@ -7754,7 +7845,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 9자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
 해당 사항 없음
   
@@ -7809,7 +7900,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="hong-kong-identity-card-hkid-number"></a>HKID(홍콩 ID 카드) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 8-9자리 문자 및 숫자와 마지막 문자를 선택적 괄호로 묶어서 조합
 
@@ -7820,9 +7911,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 6자리 숫자 
 - 검사 숫자에 해당하고 선택적으로 괄호로 묶는 마지막 문자(임의 숫자 또는 문자 A)
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -7893,7 +7984,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
    
 ## <a name="hungary-drivers-license-number"></a>헝가리 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 2개의 문자와 6자리 숫자
   
@@ -7904,9 +7995,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 2개 문자(대소문자 구분 안 ) 
 - 6자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -8066,7 +8157,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 11자리 숫자
   
@@ -8079,9 +8170,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 일련 번호에 해당하는 3자리 숫자
 - 검사 숫자 1개
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -8126,7 +8217,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="hungary-passport-number"></a>헝가리 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 2개의 문자와 공백이나 따로 7자리 숫자(공백이나 따로 문자 없음)
   
@@ -8134,9 +8225,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 2개의 문자와 6-7자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -8201,7 +8292,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="hungary-social-security-number-taj"></a>헝가리 TAJ(사회 보장 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 9자리 숫자
   
@@ -8209,9 +8300,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 9자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -8268,7 +8359,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 디지타이터가 없는 10자리 숫자
   
@@ -8280,9 +8371,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 8자리 숫자
 - 검사 숫자 1개
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -8349,7 +8440,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 영문자 10자 패턴
 
@@ -8361,9 +8452,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 공간
 - 8자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -8408,7 +8499,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="india-permanent-account-number-pan"></a>인도 PAN(영구 계정 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 10자리 문자 또는 숫자
 
@@ -8421,9 +8512,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 4자리 숫자 
 - 알파벳 검사 숫자인 문자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -8459,7 +8550,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
    
 ## <a name="india-unique-identification-aadhaar-number"></a>인도 고유 ID(Aadhaar) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 선택적 공백 또는 대시를 포함하는 12자리 숫자
 
@@ -8473,9 +8564,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 선택적 공백 또는 대시  
 - 검사 숫자인 마지막 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -8513,7 +8604,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="indonesia-identity-card-ktp-number"></a>인도네시아 ID 카드(KTP) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 선택적으로 마침표를 포함하는 16자리 숫자
 
@@ -8529,9 +8620,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 마침표(옵션)  
 - 4자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -8559,7 +8650,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
    
 ## <a name="international-banking-account-number-iban"></a>IBAN(국제 은행 계좌 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 국가 코드(2문자) 및 검사 숫자(2자리) 및 bban 번호(최대 30자)
 
@@ -8576,9 +8667,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk, sm, tn, tr, vg
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -8602,7 +8693,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
    
 ## <a name="international-classification-of-diseases-icd-10-cm"></a>국제질병 분류(ICD-10-CM)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 사전
 
@@ -8610,9 +8701,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 키워드
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -8644,7 +8735,7 @@ ICD-Dictionary_icd_10_codes 국제질병 [분류, 10번째 수정, ICD-10-CM(예
 
 ## <a name="international-classification-of-diseases-icd-9-cm"></a>국제적인 병 분류(ICD-9-CM)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 사전
 
@@ -8652,9 +8743,9 @@ ICD-Dictionary_icd_10_codes 국제질병 [분류, 10번째 수정, ICD-10-CM(예
 
 키워드
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -8685,7 +8776,7 @@ ICD-Dictionary_icd_9_codes 국제질병 [분류, 9번째 수정, ICD-9-CM(예방
 
 ## <a name="ip-address"></a>IP 주소
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 #### <a name="ipv4"></a>IPv4:
 IPv4 주소의 서식 있는(기간) 및 서식 없는 버전(기간 없음)을 계정으로 표시하는 복잡한 패턴
@@ -8695,9 +8786,9 @@ IPv4 주소의 서식 있는(기간) 및 서식 없는 버전(기간 없음)을 
 
 ### <a name="pattern"></a>패턴
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -8749,7 +8840,7 @@ IPv6의 경우 DLP 정책은 300자 이내의 근접성으로 이러한 유형�
 
 ## <a name="ireland-drivers-license-number"></a>아일랜드 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 6자리 숫자와 문자 4자
   
@@ -8760,9 +8851,9 @@ IPv6의 경우 DLP 정책은 300자 이내의 근접성으로 이러한 유형�
 - 6자리 숫자
 - 4개의 문자(대소문자 구분 안 )
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -8915,7 +9006,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="ireland-passport-number"></a>아일랜드 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 공백이 없는 7자리 숫자 2개
   
@@ -8926,9 +9017,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 2자리 숫자 또는 문자(대소문자 구분 안 )
 - 7자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -8998,7 +9089,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="ireland-personal-public-service-pps-number"></a>아일랜드 PPS(개인 공용 서비스) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 이전 형식(2012년 12월 31일까지):
 - 7자리 숫자와 1-2자리 문자 
@@ -9017,9 +9108,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 알파벳 검사 숫자인 문자(대소문자 구분 안 )입니다. 
 - A-I 범위의 선택적 문자 또는 "W"입니다.
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -9095,7 +9186,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="israel-bank-account-number"></a>이스라엘 은행 계좌 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 13자리 숫자
 
@@ -9111,9 +9202,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 비형성:
 - 13자리 연속 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -9144,7 +9235,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="israel-national-identification-number"></a>이스라엘 국가 ID 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 9자리 숫자
 
@@ -9152,9 +9243,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 9자리 연속 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -9201,7 +9292,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 이 중요한 정보 유형 엔터티는 EU 운전 면허 번호 중요한 정보 유형에 포함되어 있으며 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 10자리 문자 및 숫자 조합
 
@@ -9213,9 +9304,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 7자리 숫자
 - 한 문자(대소문자 구분 안 )
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -9376,7 +9467,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 지정된 패턴의 문자 및 숫자 조합 16자
   
@@ -9391,9 +9482,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 사람이 태어나는 지역 번호에 해당하는 4자리 숫자(국가 전체 코드가 외국 국가에 사용)
 - 패리티 숫자 1개
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -9457,7 +9548,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="italy-passport-number"></a>이탈리아 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 공백이 없는 7자리 숫자와 문자 2자 또는 숫자
   
@@ -9468,7 +9559,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 2자리 숫자 또는 문자(대소문자 구분 안 )
 - 7자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
 해당 없음
   
@@ -9546,7 +9637,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 선택적 소수점 문자가 있는 13자 영문자 패턴
 
@@ -9559,9 +9650,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 공백, 점, 하이픈 또는 콤보
 - 11자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -9598,7 +9689,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="japan-bank-account-number"></a>일본 은행 계좌 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 7 또는 8자리 숫자
 
@@ -9611,9 +9702,9 @@ bank account number:
 - 공백 또는 대시(선택 사항) 
 - 3자리 숫자
 
-체크 um
+체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -9701,7 +9792,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="japan-drivers-license-number"></a>일본 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 12자리 숫자
 
@@ -9709,9 +9800,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 12자리 연속 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -9778,7 +9869,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 13자리 숫자
 
@@ -9789,9 +9880,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 1자리에서 9자리까지의 1자리 숫자
 - 12자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -9839,7 +9930,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 12자리 숫자
 
@@ -9853,9 +9944,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 공백, 점 또는 하이픈
 - 4자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -9897,7 +9988,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
    
 ## <a name="japan-passport-number"></a>일본 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 2개의 문자와 7자리 숫자
 
@@ -9905,9 +9996,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 2개의 문자(대소문자 구분 안 ), 7자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -9947,7 +10038,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="japan-residence-card-number"></a>일본 거주 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자 및 숫자 12개
 
@@ -9958,9 +10049,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 8자리 숫자 
 - 2개 문자(대소문자 구분 안 )
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -9991,7 +10082,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="japan-resident-registration-number"></a>일본 거주 등록 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 11자리 숫자
 
@@ -9999,9 +10090,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 11자리 연속 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -10037,7 +10128,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="japan-social-insurance-number-sin"></a>일본 SIN(사회 보험 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 7-12자리 숫자
 
@@ -10049,9 +10140,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 6자리 숫자 OR
 - 7-12자리 연속 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -10103,7 +10194,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="latvia-drivers-license-number"></a>라트비아 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 3개의 문자와 6자리 숫자
   
@@ -10114,9 +10205,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 3개의 문자(대소문자 구분 안 ) 
 - 6자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -10269,7 +10360,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="latvia-personal-code"></a>라트비아 개인 코드
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 11자리 숫자 및 하이픈(선택 사항)
   
@@ -10291,9 +10382,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 두 자리 숫자 "32"
 - 9자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -10400,7 +10491,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="latvia-passport-number"></a>라트비아 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 공백이 없는 7자리 숫자와 문자 2자 또는 숫자
   
@@ -10411,9 +10502,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 2자리 숫자 또는 문자(대소문자 구분 안 )
 - 7자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -10482,7 +10573,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="lithuania-drivers-license-number"></a>리투아니아 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 8자리 숫자
   
@@ -10490,9 +10581,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 8자리 숫자 
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -10651,7 +10742,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 11자리 숫자
   
@@ -10664,9 +10755,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 생년월일 일련 번호에 해당하는 세 자리 숫자
 - 검사 숫자 1개
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -10733,7 +10824,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="lithuania-passport-number"></a>리투아니아 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 공백이 없는 8자리 숫자 또는 문자
   
@@ -10741,7 +10832,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 8자리 숫자 또는 문자(대소문자 구분 안 )
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
 해당 없음
   
@@ -10809,7 +10900,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="luxemburg-drivers-license-number"></a>룩세르버그 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 6자리 숫자
   
@@ -10817,9 +10908,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 6자리 숫자 
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -10977,7 +11068,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 디지타이터가 없는 13자리 숫자
   
@@ -10988,7 +11079,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 11자리 숫자 
 - 검사 숫자 2개
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
 예
   
@@ -11046,7 +11137,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="luxemburg-passport-number"></a>룩세르버그 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 공백이 없는 8자리 숫자 또는 문자
   
@@ -11054,9 +11145,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 8자리 숫자 또는 문자(대소문자 구분 안 )
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -11133,7 +11224,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="luxemburg-national-identification-number-non-natural-persons"></a>룩룩부르크 국가 ID 번호(자연인이 아닌 사람)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 11자리 숫자
   
@@ -11150,9 +11241,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 2자리 숫자
 - 검사 숫자 1개
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -11225,7 +11316,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="malaysia-identification-card-number"></a>말레이시아 ID 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 선택적으로 하이픈을 포함하는 12자리 숫자
 
@@ -11239,9 +11330,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 3개의 임의 숫자 
 - 1자리 성별 코드
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -11291,7 +11382,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="malta-drivers-license-number"></a>몰타 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 지정된 패턴의 2자 및 6자리 숫자 조합
   
@@ -11305,9 +11396,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 공백(선택 사항)
 - 3자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -11466,7 +11557,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 7자리 숫자와 한 문자
   
@@ -11477,7 +11568,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 7자리 숫자 
 - "M, G, A, P, L, H, B, Z"(대소문자 미정)
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
 해당 사항 없음
   
@@ -11525,7 +11616,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="malta-passport-number"></a>몰타 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 디지타이터가 없는 7자리 숫자
   
@@ -11533,9 +11624,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 7자리 숫자 
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -11598,7 +11689,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="malta-tax-identification-number"></a>몰타 세금 식별 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 몰타어 국가:
 - 지정된 패턴의 7자리 숫자와 한 문자
@@ -11617,7 +11708,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 - 9자리 숫자 
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
 해당 사항 없음
   
@@ -11685,9 +11776,135 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 고유 ID 번호
 - uniqueidentityno #
 
+
+## <a name="medicare-beneficiary-identifier-mbi-card"></a>Medicare Beneficiary Identifier(MBI) 카드
+
+### <a name="format"></a>포맷
+
+영문자 11자 패턴
+  
+### <a name="pattern"></a>패턴
+
+- 1에서 9 사이의 1자리 숫자
+- S, L, O, I, B, Z를 제외한 한 문자
+- S, L, O, I, B, Z를 제외한 한 자리 숫자 또는 문자
+- 1자리 숫자
+- 선택적 하이픈
+- S, L, O, I, B, Z를 제외한 한 문자
+- S, L, O, I, B, Z를 제외한 한 자리 숫자 또는 문자
+- 1자리 숫자
+- 선택적 하이픈
+- S, L, O, I, B, Z를 제외한 두 글자
+- 2자리 숫자
+    
+### <a name="checksum"></a>체크섬
+
+아니요.
+  
+### <a name="definition"></a>정의
+
+DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있습니다.
+- `Regex_mbi_card`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
+- 시작  `Keyword_mbi_card` 키워드가 발견됩니다. 
+    
+DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 이내의 근접성으로 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+- `Regex_mbi_card`정규식이 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
+    
+```xml
+    <!-- Medicare Beneficiary Identifier (MBI) card -->
+      <Entity id="f753a286-f5cc-47e6-a592-4be25fd02591" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Regex_mbi_card" />
+          <Match idRef="Keyword_mbi_card" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Regex_mbi_card" />
+        </Pattern>
+      </Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="keyword_mbi_card"></a>Keyword_mbi_card
+
+- mbi
+- mbi #
+- medicare beneficiary #
+- medicare 수급자 식별자
+- medicare beneficiary no
+- medicare beneficiary number
+- medicare beneficiary #
+
+
+## <a name="mexico-unique-population-registry-code-curp"></a>멕시코 고유의 인구 레지스트리 코드(CURP)
+
+### <a name="format"></a>포맷
+
+영문자 18자 패턴
+  
+### <a name="pattern"></a>패턴
+
+- 4개의 문자(대소문자 미지정)
+- 유효한 날짜를 나타내는 6자리 숫자
+- 문자 - H/h 또는 M/m
+- 유효한 멕시코 상태 코드를 나타내는 두 글자
+- 3개의 문자
+- 한 문자 또는 숫자
+- 1자리 숫자
+    
+### <a name="checksum"></a>체크섬
+
+아니요.
+  
+### <a name="definition"></a>정의
+
+DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정보를 검색할 수 있습니다.
+- 이  `Func_mexico_population_registry_code` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
+- 시작  `Keyword_mexico_population_registry_code` 키워드가 발견됩니다. 
+    
+DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 이내의 근접성으로 검색될 수 있다는 신뢰를 중간 정도 신뢰합니다.
+- 이  `Func_mexico_population_registry_code` 함수는 해당 패턴과 일치하는 콘텐츠를 검색합니다. 
+    
+```xml
+    <!-- Mexico Unique Population Registry Code (CURP) -->
+      <Entity id="e905ad4d-5a74-406d-bf36-b1efca798af4" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_mexico_population_registry_code" />
+          <Match idRef="Keyword_mexico_population_registry_code" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_mexico_population_registry_code" />
+        </Pattern>
+      </Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="keyword_mexico_population_registry_code"></a>Keyword_mexico_population_registry_code
+
+- Clave Única de Registro de Población
+- Clave Unica de Registro de Poblacion
+- 고유 인구 레지스트리 코드 
+- 고유 인구 코드
+- CURP
+- 개인 ID
+- 고유 ID
+- personalid
+- personalidnumber
+- uniqueidkey
+- uniqueidnumber
+- clave única
+- 클래브 유니카
+- clave personal Identidad
+- personal Identidad Clave
+- ClaveÚnica
+- claveunica
+- clavepersonalIdentidad
+
+
 ## <a name="netherlands-citizens-service-bsn-number"></a>네덜란드 시민 서비스(BSN) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 선택적 공백을 포함하는 8 또는 9자리 숫자
 
@@ -11700,9 +11917,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 공백(선택 사항) 
 - 2-3자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -11749,7 +11966,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="netherlands-drivers-license-number"></a>네덜란드 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 10자리 숫자
   
@@ -11757,9 +11974,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 10자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -11916,7 +12133,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="netherlands-passport-number"></a>네덜란드 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 디지타이터가 없는 9개의 문자 또는 숫자
   
@@ -11924,7 +12141,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 9개의 문자 또는 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
 해당 없음
   
@@ -11990,7 +12207,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 디지타이터가 없는 9자리 숫자
   
@@ -11998,9 +12215,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 9자리 숫자 
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -12073,7 +12290,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 영문자 14자 패턴
 
@@ -12089,9 +12306,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - B 또는 b
 - 2자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12135,7 +12352,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 선택적 디지타이터가 있는 14자리에서 16자리 패턴으로
 
@@ -12152,9 +12369,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 2-3자리 숫자
 - 옵션 하이픈 또는 공백
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12197,7 +12414,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 영문자 8자 패턴
 
@@ -12208,9 +12425,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 두 글자 
 - 6자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12312,7 +12529,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 선택적 디지타이터가 있는 8 또는 9자리 숫자
 
@@ -12326,9 +12543,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 선택적 공백 또는 하이픈
 - 3자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12366,7 +12583,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="new-zealand-ministry-of-health-number"></a>뉴질랜드 보건부 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 3개의 문자, 공백(선택 사항) 및 4자리 숫자
 
@@ -12376,9 +12593,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 공백(선택 사항) 
 - 4자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12429,7 +12646,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 9자리 숫자
 
@@ -12443,9 +12660,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 하이픈
 - 3자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12483,7 +12700,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
    
 ## <a name="norway-identification-number"></a>노르웨이 ID 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 11자리 숫자
 
@@ -12494,9 +12711,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 3자리 개별 번호 
 - 검사 숫자 2개
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12536,7 +12753,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="philippines-unified-multi-purpose-identification-number"></a>필리핀 통합 다목적 ID 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 하이픈으로 구분된 12자리 숫자
 
@@ -12549,9 +12766,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 하이픈 
 - 1자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -12580,7 +12797,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="poland-drivers-license-number"></a>폴란드 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 슬래시 2개가 포함된 14자리 숫자
   
@@ -12594,9 +12811,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 슬래시
 - 7자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -12748,7 +12965,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="poland-identity-card"></a>폴란드 ID 카드
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 3개의 문자와 6자리 숫자
 
@@ -12756,9 +12973,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 3개의 문자(대소문자 구분 안 ), 6자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12789,10 +13006,11 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - Dowód Tożsamości
 - dow. os.
 
+
    
 ## <a name="poland-national-id-pesel"></a>폴란드 국가 ID(PESEL)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 11자리 숫자
 
@@ -12802,9 +13020,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 4자리 숫자
 - 검사 숫자 1개
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12848,7 +13066,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 ## <a name="poland-passport-number"></a>폴란드 여권 번호
 이 중요한 정보 유형 엔터티는 EU 여권 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 2개의 문자와 7자리 숫자
 
@@ -12856,9 +13074,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 2개의 문자(대소문자 구분 안 ), 7자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -12941,7 +13159,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 9자리 또는 14자리 숫자
 
@@ -12954,9 +13172,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 하이픈
 - 5자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -13007,7 +13225,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 디지타이터가 없는 11자리 숫자
   
@@ -13015,9 +13233,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 11자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -13071,7 +13289,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="portugal-citizen-card-number"></a>포르투갈 시민 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 8자리 숫자
 
@@ -13079,9 +13297,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 8자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -13124,7 +13342,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="portugal-drivers-license-number"></a>포르투갈 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 두 개의 패턴 - 문자 2개와 특수 문자가 있는 5-8자리 숫자
   
@@ -13145,9 +13363,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 1자리 숫자
 
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -13307,7 +13525,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="portugal-passport-number"></a>포르투갈 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 따로 6자리 숫자를 입력하고 공백이나 따로 문자를 1개씩 입력합니다.
   
@@ -13318,9 +13536,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 한 문자(대소문자 구분 안 )
 - 6자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -13393,7 +13611,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="portugal-tax-identification-number"></a>포르투갈 세금 ID 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 선택적 공백이 있는 9자리 숫자
   
@@ -13405,9 +13623,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 공백
 - 3자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -13461,7 +13679,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="romania-drivers-license-number"></a>루마니아 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자 1개와 숫자 8자
   
@@ -13471,9 +13689,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 한 문자(대소문자 구분 안 되거나 숫자) 
 - 8자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -13635,7 +13853,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 13자리 숫자
   
@@ -13646,9 +13864,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 01-52 또는 99일 수 있는 2자리 숫자
 - 4자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -13727,7 +13945,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="romania-passport-number"></a>루마니아 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 8 또는 9자리 숫자
   
@@ -13735,9 +13953,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 8자리 또는 9자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -13807,7 +14025,7 @@ numărul pașaportului numarul pasaportului numerele pașaportului Pașaport nr
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 10자리 숫자
 
@@ -13821,9 +14039,9 @@ numărul pașaportului numarul pasaportului numerele pașaportului Pașaport nr
 - 선택적 공백
 - 6자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -13869,7 +14087,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 9자리 숫자
 
@@ -13881,9 +14099,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 공백 또는 하이픈
 - 7자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -13923,7 +14141,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="saudi-arabia-national-id"></a>사우디 아라비아 국가 ID
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 10자리 숫자
 
@@ -13931,9 +14149,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 10자리 연속 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -13965,7 +14183,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="singapore-national-registration-identity-card-nric-number"></a>싱가포르 NRIC(국가 등록 ID 카드) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 9개의 문자 및 숫자
 
@@ -13976,9 +14194,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 7자리 숫자 
 - 사전순 검사 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -14019,7 +14237,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="slovakia-drivers-license-number"></a>슬로바키아 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 한 문자와 7자리 숫자
   
@@ -14030,9 +14248,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 한 문자(대소문자 구분 안 되거나 숫자)
 - 7자리 숫자 
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -14192,7 +14410,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 선택적 백 슬래시를 포함하는 9자리 또는 10자리 숫자
   
@@ -14203,9 +14421,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 3자리 숫자
 - 선택적 검사 숫자 1개
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -14281,7 +14499,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="slovakia-passport-number"></a>슬로바키아 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 공백이 없는 7자리 숫자
   
@@ -14289,9 +14507,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 1자리 숫자 또는 문자(대소문자 구분 안 ), 7자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -14359,7 +14577,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="slovenia-drivers-license-number"></a>스로베니아 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 9자리 숫자
   
@@ -14367,9 +14585,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 9자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -14530,7 +14748,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 디지타이터가 없는 13자리 숫자
   
@@ -14543,9 +14761,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 같은 날에 출생한 사람의 성별 및 일련 번호 조합에 해당하는 3자리 숫자(남성 000-499, 여성의 경우 500-999)
 - 검사 숫자 1개
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -14601,7 +14819,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="slovenia-passport-number"></a>솔로베니아 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 따로 7자리 숫자를 입력할 때 공백이나 공백이 없는 문자 2개
   
@@ -14613,9 +14831,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 대문자 1개
 - 7자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -14690,7 +14908,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 디지타이터가 없는 8자리 숫자
   
@@ -14700,9 +14918,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 6자리 숫자
 - 검사 숫자 1개
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -14755,7 +14973,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="south-africa-identification-number"></a>남아프리카 공화국 ID 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백을 포함할 수 있는 13자리 숫자
 
@@ -14768,9 +14986,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 숫자 "8" 또는 "9" 
 - 체크 um 숫자인 1자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -14799,7 +15017,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
    
 ## <a name="south-korea-resident-registration-number"></a>대한민국 거주자 등록 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 하이픈을 포함하는 13자리 숫자
 
@@ -14813,9 +15031,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 앞의 숫자가 동일한 사람들을 차별화하는 데 사용되는 한 자리 숫자 
 - 검사 숫자입니다.
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -14853,7 +15071,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="spain-drivers-license-number"></a>스페인 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 8자리 숫자와 한 문자
   
@@ -14864,9 +15082,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 8자리 숫자 
 - 1자리 숫자 또는 문자(대소문자 구분 안 )
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -15050,7 +15268,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 8자리 숫자와 한 문자
   
@@ -15062,9 +15280,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 공백 또는 하이픈
 - 검사 문자 1개(대소문자 구분 안 )
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -15124,7 +15342,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="spain-passport-number"></a>스페인 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백이나 디지타이터가 없는 문자와 숫자의 8자 또는 9자 조합
   
@@ -15136,7 +15354,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 1자리 숫자 또는 문자(선택 사항)
 - 6자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
 해당 사항 없음
   
@@ -15214,7 +15432,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 ## <a name="spain-social-security-number-ssn"></a>스페인 SSN(사회 보장 번호)
 
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 11-12자리 숫자
 
@@ -15227,9 +15445,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 슬래시(선택 사항) 
 - 2자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -15274,7 +15492,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 지정된 패턴에서 7-8자리 숫자와 1-2자리 문자
   
@@ -15309,9 +15527,9 @@ Foreigners without a Foreigner's Identification Number
 - 7자리 숫자
 - 대문자 1개(대소문자 구분) 
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -15378,7 +15596,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="sql-server-connection-string"></a>SQL Server 연결 문자열
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 문자열 "User Id", "User ID", "uid" 또는 "UserId" 다음에 아래 패턴에 설명된 문자와 문자열입니다.
 
@@ -15392,9 +15610,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 세미코론(;), 슬래시(/) 또는 인용 부호(")가 아닌 7-128자 조합
 - 세미코론(;) 또는 인용 부호(")
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -15454,7 +15672,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="sweden-drivers-license-number"></a>스웨덴 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 하이픈을 포함하는 10자리 숫자
   
@@ -15466,9 +15684,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 하이픈
 - 4자리 숫자
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -15629,7 +15847,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="sweden-national-id"></a>스웨덴 국가 ID
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 10 또는 12자리 숫자와 선택적 구분 기호
 
@@ -15641,9 +15859,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - delimiter of "-" or "+" (optional)
 - 4자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -15693,7 +15911,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="sweden-passport-number"></a>스웨덴 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 8자리 숫자
 
@@ -15701,9 +15919,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 8자리 연속 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -15792,7 +16010,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 지정된 패턴의 10자리 숫자 및 기호
   
@@ -15807,9 +16025,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   - 9번째 위치의 숫자는 성별을 남성에 대해 홀수로 나타내거나 여성의 경우 조차도 나타냅니다.
 - 검사 숫자 1개
     
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
   
 ### <a name="definition"></a>정의
 
@@ -15868,7 +16086,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="swift-code"></a>SWIFT 코드
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 4개의 문자와 5-31개의 문자 또는 숫자
 
@@ -15881,9 +16099,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 공백 
 - 1~3자리 숫자(BBAN의 나머지)
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -15947,7 +16165,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 13자리 숫자
 
@@ -15963,9 +16181,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 선택적 점
 - 2자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -16015,7 +16233,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="taiwan-national-identification-number"></a>대만 국가 ID 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 1개의 문자(영어) 및 9자리 숫자
 
@@ -16026,9 +16244,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 숫자 "1" 또는 "2" 
 - 8자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -16075,7 +16293,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="taiwan-passport-number"></a>대만 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 - 생체 인식 여권 번호: 9자리 숫자
 - 생체 인식이 아닌 여권 번호: 9자리 숫자
@@ -16088,9 +16306,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 생체 인식이 아닌 여권 번호:
 - 9자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -16123,7 +16341,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="taiwan-resident-certificate-arctarc-number"></a>대만 거주 인증서(ARC/TARC) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 10개의 문자 및 숫자
 
@@ -16133,9 +16351,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 2개 문자(대소문자 구분 안 ) 
 - 8자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -16171,7 +16389,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="thai-population-identification-code"></a>태국어 인구 ID 코드
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 13자리 숫자
 
@@ -16181,9 +16399,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 첫 번째 숫자가 0 또는 9가 아닌 경우 
 - 12자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -16211,7 +16429,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 #### <a name="keyword_thai_citizen_id"></a>Keyword_thai_citizen_Id
 
-- ID Number
+- ID 번호
 - Identification Number
 - บัตรประชาชน
 - รหัสบัตรประชาชน
@@ -16220,7 +16438,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
   
 ## <a name="turkish-national-identification-number"></a>터키어 국가 ID 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 11자리 숫자
 
@@ -16228,9 +16446,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 11자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -16265,7 +16483,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="uk-drivers-license-number"></a>영국 driver's license number
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 지정된 형식의 18개 문자 및 숫자 조합
 
@@ -16278,9 +16496,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 대소문자 2개(대소문자 구분 안 되거나 문자 대신 숫자 "9")를 입력합니다. 
 - 5자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -16432,7 +16650,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
    
 ## <a name="uk-electoral-roll-number"></a>영국 선택 롤 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 2개의 문자와 1-4자리 숫자
 
@@ -16440,9 +16658,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 2개의 문자(대소문자 구분 안 ), 1-4개 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -16474,7 +16692,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
    
 ## <a name="uk-national-health-service-number"></a>영국 national health service number
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백으로 구분된 10-17자리 숫자
 
@@ -16487,9 +16705,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 공백 
 - 4자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-예
+네.
 
 ### <a name="definition"></a>정의
 
@@ -16542,7 +16760,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 ## <a name="uk-national-insurance-number-nino"></a>영국 national insurance number (NINO)
 이 중요한 정보 유형 엔터티는 EU 국가 식별 번호 중요한 정보 유형에 포함됩니다. 독립 실행형 중요한 정보 유형 엔터티로 사용할 수 있습니다.
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 또는 대시로 구분된 7자 또는 9자
 
@@ -16566,9 +16784,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - 공백 또는 대시
 - 'A', 'B', 'C' 또는 'D'
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -16625,7 +16843,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 공백 및 디지타이터가 없는 10자리 숫자
  
@@ -16634,9 +16852,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 10자리 숫자
   
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
   
 ### <a name="definition"></a>정의
 
@@ -16678,7 +16896,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="us-bank-account-number"></a>미국 은행 계좌 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 6-17자리 숫자
 
@@ -16686,9 +16904,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 6-17자리 연속 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -16740,7 +16958,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 ## <a name="us-drivers-license-number"></a>미국 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 주마다 다릅니다.
 
@@ -16750,9 +16968,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - ddd ddd ddd와 같은 9자리 숫자가 일치합니다.
 - dddddd와 같은 9자리 숫자는 일치하지 않습니다.
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -16892,7 +17110,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="us-individual-taxpayer-identification-number-itin"></a>미국 ITIN(개인 납세자 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 "9"로 시작하고 "7" 또는 "8"을 네 번째 숫자로 포함하는 9자리 숫자이며 선택적으로 공백 또는 대시로 서식이 지정됩니다.
 
@@ -16913,9 +17131,9 @@ unformatted:
 - "7" 또는 "8" 
 - 5자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -16970,7 +17188,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 ## <a name="us-social-security-number-ssn"></a>미국 SSN(사회 보장 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 서식이 지정되거나 서식 없는 패턴일 수 있는 9자리 숫자
 
@@ -16985,9 +17203,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 - Func_randomized_formatted_ssn 공백(ddd-dd-dddd OR ddd d)으로 서식이 지정된 2011년 후 SSNS를 검색합니다.
 - Func_randomized_unformatted_ssn 9자리 연속 숫자로폼이 없는 2011년 후 SSNS를 검색합니다(dddddddd).
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 
 ### <a name="definition"></a>정의
@@ -17050,7 +17268,7 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
    
 ## <a name="us--uk-passport-number"></a>미국/영국 passport number
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 9자리 숫자
 
@@ -17058,9 +17276,9 @@ DLP 정책은 300자 이내의 근접성으로 이러한 유형의 중요한 정
 
 9자리 연속 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -17123,7 +17341,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 9자리 숫자
 
@@ -17131,9 +17349,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 9자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -17171,7 +17389,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 레코드 관리
 - Microsoft 클라우드 앱 보안
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 8자 영문 패턴
 
@@ -17181,9 +17399,9 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - 2개의 문자 또는 숫자
 - 6자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 

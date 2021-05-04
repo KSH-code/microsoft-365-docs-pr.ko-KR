@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 규정 준수 확장을 준비하고 배포합니다.
-ms.openlocfilehash: c6f56c65de6428374d912545db38337d34720c94
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 6ae44a86d415161cd3d7adf40671f02d93fb83c6
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838351"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52113866"
 ---
 # <a name="get-started-with-microsoft-compliance-extension-preview"></a>Microsoft 규정 준수 확장 시작(미리 보기)
 
@@ -35,7 +35,7 @@ ms.locfileid: "50838351"
 Microsoft 규정 준수 확장을 사용하려면 장치가 엔드포인트 DLP에 온보드되어야 합니다. DLP 또는 엔드포인트 DLP를 처음 사용하는 경우 이 문서를 검토합니다.
 
 - [Microsoft 규정 준수 확장에 대해 알아보기](dlp-chrome-learn-about.md)
-- [데이터 손실 방지 개요](data-loss-prevention-policies.md)
+- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
 - [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [서식 파일에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)
 - [끝점 데이터 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md)
@@ -274,8 +274,8 @@ Microsoft Endpoint Manager를 사용하지 않으려면 그룹 정책을 사용�
 
 - [끝점 데이터 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md)
 - [끝점 데이터 손실 방지 사용](endpoint-dlp-using.md)
-- [데이터 손실 방지 개요](data-loss-prevention-policies.md)
-- [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
+- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
+- [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
 - [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)
 - [Windows 10 컴퓨터용 온보딩 도구 및 방법](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)

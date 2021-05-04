@@ -19,16 +19,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 규정 준수 확장을 통해 파일 활동 및 보호 작업을 Google Chrome 브라우저로 확장
-ms.openlocfilehash: 38609b6920478085a28c7ec510bc5c9c4229543d
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+ms.openlocfilehash: c8a5795b3be8b393fd3a934504449bf6db0c2f01
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826258"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52113384"
 ---
 # <a name="learn-about-the-microsoft-compliance-extension-preview"></a>Microsoft 규정 준수 확장(미리 보기)에 대해 알아보기
 
-[끝점 데이터 손실 방지](endpoint-dlp-learn-about.md)(끝점 DLP)는 [Microsoft 365 데이터 손실 방지(DLP)](data-loss-prevention-policies.md)의 활동 모니터링 및 보호 기능을 Windows 10 장치의 중요한 항목으로 확장합니다. 장치가 Microsoft 365 규정 준수 솔루션에 등록된 경우 사용자가 중요한 항목으로 수행하는 작업에 대한 정보는 [활동 탐색기](data-classification-activity-explorer.md)에서 확인할 수 있으며 해당 항목에 대한 보호 작업은 [DLP 정책](create-test-tune-dlp-policy.md)을 통해 적용할 수 있습니다.
+[끝점 데이터 손실 방지](endpoint-dlp-learn-about.md)(끝점 DLP)는 [Microsoft 365 데이터 손실 방지(DLP)](dlp-learn-about-dlp.md)의 활동 모니터링 및 보호 기능을 Windows 10 장치의 중요한 항목으로 확장합니다. 장치가 Microsoft 365 규정 준수 솔루션에 등록된 경우 사용자가 중요한 항목으로 수행하는 작업에 대한 정보는 [활동 탐색기](data-classification-activity-explorer.md)에서 확인할 수 있으며 해당 항목에 대한 보호 작업은 [DLP 정책](create-test-tune-dlp-policy.md)을 통해 적용할 수 있습니다.
 
 Windows 10 장치에 Microsoft 규정 준수 확장을 설치하면 조직에서는 사용자가 Google Chrome을 사용하여 클라우드 서비스에 중요한 항목에 액세스하거나 업로드하려고 할 때 이를 모니터링하고 DLP를 통해 보호 작업을 적용할 수 있습니다.  
 
@@ -60,8 +60,8 @@ Microsoft 규정 준수 확장을 사용하여 Windows 10을 실행하는 장치
 - [Microsoft 365 끝점 데이터 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md)
 - [Microsoft 끝점 데이터 손실 방지(미리 보기) 시작하기](endpoint-dlp-getting-started.md)
 - [Microsoft 끝점 데이터 손실 방지(미리 보기) 사용하기](endpoint-dlp-using.md)
-- [데이터 손실 방지 개요](data-loss-prevention-policies.md)
-- [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
+- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
+- [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
 - [엔드포인트용 Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)
 - [내부자 위험 관리](insider-risk-management.md)

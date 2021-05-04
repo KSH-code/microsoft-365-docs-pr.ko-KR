@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 구성 가능한 일치를 사용하도록 EDM 스키마를 수정하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dea641072983163c6fbbcc5888d5ee6ea91f6990
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 7d470b986d4a94206935efb832deec7171f8e404
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408317"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114196"
 ---
 # <a name="modify-exact-data-match-schema-to-use-configurable-match"></a>구성 가능한 일치를 사용하도록 정확한 데이터 일치 스키마 수정
 
@@ -133,6 +133,6 @@ EDM이 구성 가능한 일치를 사용하도록 스키마를 업데이트하�
 - [분류에 기반한 정확한 데이터 일치를 사용한 사용자 지정 중요한 정보 유형 만들기](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
 - [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
 - [사용자 지정 중요한 정보 유형](./sensitive-information-type-learn-about.md)
-- [DLP 정책 개요](data-loss-prevention-policies.md)
+- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
 - [Microsoft Cloud App Security](/cloud-app-security)
 - [New-DlpEdmSchema](/powershell/module/exchange/new-dlpedmschema)

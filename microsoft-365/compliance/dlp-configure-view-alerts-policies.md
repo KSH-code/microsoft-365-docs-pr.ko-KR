@@ -1,5 +1,5 @@
 ---
-title: DLP 정책에 대한 경고 구성 및 보기(미리 보기)
+title: 데이터 손실 방지 정책에 대한 경고 구성 및 보기
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,23 +19,25 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: DLP 정책에 대한 경고를 정의하고 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 0594cee5208049aef16dee6fa03954faae2a1cdd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 데이터 손실 방지 정책에 대한 경고를 정의하고 관리하는 방법을 학습합니다.
+ms.openlocfilehash: ee04f6080edcde86dc39c7f4aa43130223fee8bf
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917864"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51750040"
 ---
-# <a name="configure-and-view-alerts-for-dlp-polices-preview"></a>DLP 경찰에 대한 경고 구성 및 보기(미리 보기)
+# <a name="configure-and-view-alerts-for-data-loss-prevention-polices"></a>데이터 손실 방지에 대한 경고 구성 및 보기
 
-이 문서에서는 DLP(데이터 손실 방지) 정책에 연결된 다양한 경고 정책을 정의하는 방법을 보여줍니다. [Microsoft 365](https://compliance.microsoft.com/) 규정 준수 센터에서 새 DLP 경고 관리 대시보드를 사용하여 DLP 정책 위반에 대한 경고, 이벤트 및 관련 메타데이터를 보는 방법을 볼 수 있습니다.
+DLP(데이터 손실 방지) 경찰은 중요한 항목의 의도치 않은 공유를 방지하기 위해 보호 조치를 취할 수 있습니다. 중요한 항목에 대해 작업을 수행하면 DLP에 대한 알림을 구성하여 알림을 알 수 있습니다. 이 문서에서는 DLP(데이터 손실 방지) 정책에 연결된 다양한 경고 정책을 정의하는 방법을 보여줍니다. Microsoft 365 준수 센터에서 새 DLP 경고 관리 대시보드를 사용하여 DLP 정책 위반에 대한 [경고,](https://compliance.microsoft.com/) 이벤트 및 관련 메타데이터를 보는 방법을 볼 수 있습니다.
+
+<!-- LEFT OFF HERE-->
 
 ## <a name="features"></a>기능
 
-이 미리 보기에는 다음과 같은 기능이 있습니다.
+이 기능의 일부로는 다음과 같은 기능이 있습니다.
 
--   **DLP 경고 관리** 대시보드: [Microsoft 365](https://compliance.microsoft.com/)규정 준수 센터에서 이 대시보드에는 다음 워크로드에 적용된 DLP 정책에 대한 경고가 표시됩니다.
+-   **DLP 경고** 관리 대시보드: Microsoft 365 준수 센터에서 이 대시보드에는 다음 워크로드에 적용된 DLP 정책에 대한 경고가 표시됩니다. [](https://compliance.microsoft.com/)
 
     -   Exchange
     -   SharePoint
@@ -54,9 +56,9 @@ ms.locfileid: "50917864"
 
 ### <a name="licensing-for-the-dlp-alert-management-dashboard"></a>DLP 경고 관리 대시보드에 대한 라이선스
 
-Office 365 DLP에 적합한 모든 테넌트는 새 DLP 경고 관리 대시보드에 액세스할 수 있습니다. 시작을 위해 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive에 대한 Office 365 DLP를 사용할 수 있습니다. Office 365 DLP의 라이선스 요구 사항에 대한 자세한 내용은 사용자에게 서비스 혜택을 받을 수 있는 권한을 제공하는 라이선스를 [참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16)
+DLP의 모든 적합한 Office 365 새 DLP 경고 관리 대시보드에 액세스할 수 있습니다. 시작을 위해 Office 365, SharePoint Online 및 Exchange Online DLP를 비즈니스용 OneDrive. Office 365 DLP의 라이선스 요구 사항에 대한 자세한 내용은 사용자에게 서비스를 혜택을 제공할 수 있는 권한을 제공하는 라이선스를 [참조하세요.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16)
 
-[끝점 DLP](./endpoint-dlp-learn-about.md?view=o365-worldwide) 공개 미리 보기에 참여하거나 [Teams DLP를](./dlp-microsoft-teams.md?view=o365-worldwide) 사용할 자격이 있는 고객은 DLP 경고 관리 대시보드에서 끝점 DLP 정책 경고 및 Teams DLP 정책 경고를 볼 수 있습니다.
+Teams DLP를 사용할 수 있는 끝점 [DLP를](endpoint-dlp-learn-about.md) 사용하는 고객에게는 끝점 DLP 정책 경고 및 [DLP](dlp-microsoft-teams.md) Teams 관리 대시보드에서 DLP 정책 경고가 표시됩니다.
 
 ### <a name="licensing-for-alert-configuration-options"></a>경고 구성 옵션에 대한 라이선싱
 
@@ -66,7 +68,7 @@ Office 365 DLP에 적합한 모든 테넌트는 새 DLP 경고 관리 대시보�
     -   E1, F1 또는 G1 구독 또는 다음 기능 중 하나를 포함하는 E3 또는 G3 구독
         -   Office 365 Advanced Threat Protection Plan 2
         -   Microsoft 365 E5 Compliance
-        -   Microsoft 365 eDiscovery 및 추가 기능 라이선스 감사
+        -   Microsoft 365 및 추가 기능 라이선스 감사
 
 ### <a name="roles"></a>역할
 
@@ -99,7 +101,7 @@ DLP 경고 관리 대시보드에 액세스하려면 경고 관리 역할 및 �
 
 DLP 경고 관리 대시보드에서 작업하는 경우:
 
-1.  Microsoft [365 규정 준수 센터에서](https://www.compliance.microsoft.com)데이터 손실 **방지로 이동하십시오.**
+1.  Microsoft 365 [센터에서](https://www.compliance.microsoft.com)데이터 손실 **방지로 이동하십시오.**
 
 2.  경고 **탭을 선택하여** DLP 경고 대시보드를 볼 수 있습니다.
 
@@ -126,7 +128,7 @@ DLP 경고 관리 대시보드에서 작업하는 경우:
     |                   | 전자 메일 제목                 | DLP 정책을 위반한 전자 메일의 제목                          | Exchange 이벤트                          |
     |                   | 전자 메일 첨부 파일             | DLP 정책을 위반한 전자 메일의 첨부 파일 이름         | Exchange 이벤트                          |
     |                   | 사이트 소유자                    | 사이트 소유자의 이름                                                     | SharePoint 및 OneDrive 이벤트           |
-    |                   | 사이트 URL                      | SharePoint 또는 OneDrive 사이트의 전체 URL                                | SharePoint 및 OneDrive 이벤트           |
+    |                   | 사이트 URL                      | 사이트 또는 SharePoint 사이트의 OneDrive URL입니다.                                | SharePoint 및 OneDrive 이벤트           |
     |                   | 파일을 만들었음                  | 파일 만들기 시간                                                      | SharePoint 및 OneDrive 이벤트           |
     |                   | 마지막으로 수정한 파일            | 파일을 마지막으로 수정한 시간                                  | SharePoint 및 OneDrive 이벤트           |
     |                   | 파일 크기                     | 파일 크기                                                           | SharePoint 및 OneDrive 이벤트           |

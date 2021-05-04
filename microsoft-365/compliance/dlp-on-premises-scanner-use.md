@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 사용 방법을 배워서 미사용 데이터를 스캔하고 온-프레미스 파일 공유와 온-프레미스 SharePoint 폴더와 문서 라이브러리에 대한 보호 조치를 시행하세요.
-ms.openlocfilehash: c46b67ca392732616329bad138166c892cd06640
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0abe36af5588c1828da106779a144b6e7f37d6a8
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917824"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114156"
 ---
 # <a name="use-the-microsoft-365-data-loss-prevention-on-premises-scanner-preview"></a>Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 사용(미리 보기)
 
@@ -32,7 +32,7 @@ DLP 온-프레미스 기능과 해당 기능이 DLP 정책에 나오는 방법�
 
 > [!IMPORTANT]
 > 이 DLP 온-프레미스 시나리오는 DLP 정책을 만들고 조정하는 공식 절차가 아닙니다. 일반적으로 DLP 정책을 사용해야 하는 경우 다음 항목을 참조하세요.
->- [데이터 손실 방지의 개요](data-loss-prevention-policies.md)
+>- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
 >- [기본 DLP 정책을 사용하여 시작](get-started-with-the-default-dlp-policy.md)
 >- [템플릿에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)
 >- [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
@@ -80,6 +80,6 @@ DLP 규칙을 스캔된 파일에 적용하려면, 적용이 DLP의 AIP와 정�
 
 - [DLP 온-프레미스 스캐너에 대한 자세한 정보(미리 보기)](dlp-on-premises-scanner-learn.md)
 - [DLP 온-프레미스 스캐너 시작하기(미리 보기)](dlp-on-premises-scanner-get-started.md)
-- [데이터 손실 방지 개요](data-loss-prevention-policies.md)
-- [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
+- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
+- [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)

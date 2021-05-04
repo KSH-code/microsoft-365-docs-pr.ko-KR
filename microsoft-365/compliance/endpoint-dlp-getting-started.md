@@ -19,16 +19,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: 98f4355e06ef2724ef4eb5f8d4db3dca017678c2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0410d4d09354ca716c83a63da9c1fdd22eda8551
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926426"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114116"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>엔드포인트 데이터 손실 방지 시작하기
 
-Microsoft Endpoint 데이터 손실 방지(Endpoint DLP)는 Microsoft 365 서비스에서 중요 한 항목을 검색하고 보호하는 데 사용할 수 있는 Microsoft 365의 DLP(데이터 손실 방지) 제품군의 일부입니다. 모든 Microsoft의 DLP 제공에 대한 자세한 내용은 [데이터 손실 방지 개요](data-loss-prevention-policies.md)를 참조하세요. 끝점 DLP에 대해 자세히 알아보려면 [끝점 데이터 손실 방지](endpoint-dlp-learn-about.md)를 참조하세요.
+Microsoft Endpoint 데이터 손실 방지(Endpoint DLP)는 Microsoft 365 서비스에서 중요 한 항목을 검색하고 보호하는 데 사용할 수 있는 Microsoft 365의 DLP(데이터 손실 방지) 제품군의 일부입니다. 모든 Microsoft DLP 제공에 대한 자세한 내용은 [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)를 참조하세요. 끝점 DLP에 대해 자세히 알아보려면 [끝점 데이터 손실 방지](endpoint-dlp-learn-about.md)를 참조하세요.
 
 Microsoft Endpoint DLP를 사용하면 Windows 10 장치를 모니터링하고 중요한 항목이 사용되고 공유되는 때를 탐지할 수 있습니다. 이를 통해 중요한 항목이 올바르게 사용되며 보호하고 위험을 초래할 수 있는 위험한 행동을 방지하는 데 필요한 가시성과 제어 기능을 제공합니다.
 
@@ -209,8 +209,8 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
 
 - [끝점 데이터 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md)
 - [끝점 데이터 손실 방지 사용](endpoint-dlp-using.md)
-- [데이터 손실 방지 개요](data-loss-prevention-policies.md)
-- [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
+- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
+- [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
 - [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)
 - [Windows 10 컴퓨터용 온보딩 도구 및 방법](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)

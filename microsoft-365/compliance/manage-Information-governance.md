@@ -6,20 +6,21 @@ ms.author: cabailey
 author: cabailey
 manager: laurawi
 audience: Admin
-ms.topic: hub-page
+ms.topic: overview
 ms.service: O365-seccomp
 ms.collection: m365-security-compliance
 localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
+recommendations: false
 description: Microsoft 정보 거버넌스 기능을 구현하여 규정 준수 또는 규제 요구 사항에 대한 데이터를 관리합니다.
-ms.openlocfilehash: 8a104775cd9bfc75af5b5af9840274f5f84509f0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6a0db63f218db72dbda9afc510cb5ef5f5e13eaa
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903494"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107706"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Microsoft 365의 Microsoft 정보 거버넌스
 

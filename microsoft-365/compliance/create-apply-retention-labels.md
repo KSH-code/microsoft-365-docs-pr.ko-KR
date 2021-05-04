@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들어서 게시한 후에 필요한 항목은 보존하고 필요하지 않은 항목은 삭제하도록 앱에 적용하기 위한 지침입니다.
-ms.openlocfilehash: c327081109fe9d7c4d85d4cf8f01a9e5466432d1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7c13158d9ce2857c01cad60c77b6f27bce6d3b6b
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908422"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107650"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>보존 레이블을 만들고 앱에 적용
 
@@ -294,7 +294,7 @@ Some settings can't be changed after the label or policy is created and saved, w
 
 ### Deleting retention labels
 
-You can delete retention labels that aren't currently included in any retention label policies, that aren't configured for event-based retention, or mark items as regulatory records. The ability to delete retention labels that mark items as records is currently rolling out in preview.
+You can delete retention labels that aren't currently included in any retention label policies, that aren't configured for event-based retention, or mark items as regulatory records.
 
 For retention labels that you can delete, if they have been applied to items, the deletion fails and you see a link to content explorer to identify the labeled items.
 

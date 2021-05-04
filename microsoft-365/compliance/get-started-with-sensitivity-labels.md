@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블을 배포할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: d685b050d32ea7bf482a39ad8d72abe3ee74567d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 08ecf97e3cb45896390c3dac9074c54a2b0bbe96
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499680"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994775"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -56,7 +56,7 @@ ms.locfileid: "51499680"
 
 ## <a name="permissions-required-to-create-and-manage-sensitivity-labels"></a>민감도 레이블을 만들고 관리하는 데 필요한 사용 권한
 
-민감도 레이블을 생성할 규정 준수 팀의 구성원은 Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 보안 및 규정 준수 센터에 대한 사용 권한이 필요합니다. 
+민감도 레이블을 만드는 규정 준수 팀 구성원은 Microsoft 365 규정 준수 센터 또는 이전 보안 및 준수 센터에 대한 사용 권한이 필요합니다. 
 
 기본적으로 테넌트에 대한 전역 관리자는 이러한 관리 센터에 액세스할 수 있으며, 규정 준수 관리자와 기타 사용자에게 테넌트 관리자의 모든 사용 권한을 부여하지 않고도 액세스 권한을 부여할 수 있습니다. 이러한 위임된 제한적 관리 액세스 권한을 부여하려면 사용자를 **규정 준수 데이터 관리자**, **규정 준수 관리자** 또는 **보안 관리자** 역할 그룹에 추가합니다. 
 

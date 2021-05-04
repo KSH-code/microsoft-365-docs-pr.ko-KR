@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 42fe70d1360f45deb6f98f41c0ffec97de7e00a9
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 2c63f668cd4ccbad55a883aaf2b245c4936e25eb
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498347"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860957"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -263,7 +263,7 @@ Office 365 보안 및 규정 준수 센터에는 **정보 거버넌스** > **대
 |감사 관리 활동| 예 | 예|
 |보존될 항목 식별: <br /> - 콘텐츠 검색 <br /> - 데이터 분류 페이지, 콘텐츠 탐색기, 활동 탐색기 | <br /> 아니요 <br /> 아니요 | <br /> 예 <br /> 예|
 
-보존 정책과 보존 레이블을 모두 보완 보존 방법으로 사용할 수 있습니다. 예제:
+보존 정책과 보존 레이블을 모두 보완 보존 방법으로 사용할 수 있습니다. 예를 들면 다음과 같습니다.
 
 1. 콘텐츠를 마지막으로 수정한 후 5년이 지나면 콘텐츠를 자동으로 삭제하는 보존 정책을 만들고 구성하여, 모든 OneDrive 계정에 정책을 적용합니다.
 

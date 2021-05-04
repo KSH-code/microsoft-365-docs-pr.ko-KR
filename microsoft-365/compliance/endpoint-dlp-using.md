@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: DLP(데이터 손실 방지) 정책을 구성하여 Microsoft 365 끝점 데이터 손실 방지(EPDLP) 위치를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 91e8a25c2a15e82cd7f286d1110b1c87bedf31d5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1b918346467f9878582dfb301f48e530bfb400f8
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926436"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114096"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>끝점 데이터 손실 방지 사용
 
@@ -122,7 +122,8 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 
 > [!IMPORTANT]
 > 이러한 끝점 DLP 시나리오는 DLP 정책을 만들고 조정하는 공식 절차가 아닙니다. 일반적으로 DLP 정책을 사용해야 하는 경우 다음 항목을 참조하세요.
->- [데이터 손실 방지의 개요](data-loss-prevention-policies.md)
+
+>- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
 >- [기본 DLP 정책을 사용하여 시작](get-started-with-the-default-dlp-policy.md)
 >- [템플릿에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)
 >- [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
@@ -216,8 +217,8 @@ DLP 정책 팁 알림에서 사용자가 비즈니스 타당성 옵션과 상호
 
 - [끝점 데이터 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md)
 - [끝점 데이터 손실 방지 시작](endpoint-dlp-getting-started.md)
-- [데이터 손실 방지 개요](data-loss-prevention-policies.md)
-- [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
+- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
+- [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
 - [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)
 - [Windows 10 컴퓨터용 온보딩 도구 및 방법](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)

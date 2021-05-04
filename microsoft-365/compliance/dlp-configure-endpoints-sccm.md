@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configuration Manager를 사용하여 장치에 구성 패키지를 배포하여 서비스에 온보드합니다.
-ms.openlocfilehash: a84222d7654c6fb9ccab4275273e9e9c2c189790
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ac05581ce33e94859dbd67848197878595d5ed0f
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918004"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893299"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>구성 관리자를 사용하여 Windows 10 장치 온보딩
 
@@ -28,27 +28,27 @@ ms.locfileid: "50918004"
 - [Microsoft 365 끝점 DLP(데이터 손실 방지)](./endpoint-dlp-learn-about.md)
 - System Center 2012 R2 Configuration Manager
 
-### <a name="onboard-devices-using-system-center-configuration-manager"></a>System Center Configuration Manager를 사용하여 장치 온보드
+### <a name="onboard-devices-using-system-center-configuration-manager"></a>장치를 사용하여 온보드 System Center Configuration Manager
 
-1. 서비스 온보더링 마법사에서 ** 다운로드한 Configuration Manager 구성 패키지 .zip 파일(DeviceComplianceOnboardingPackage.zip)을 열 수 있습니다. Microsoft 준수 센터에서 [패키지를 다운로드할 수 있습니다.](https://compliance.microsoft.com/)
+1. 서비스 온보더링 마법사에서 ** 다운로드한 .zip(DeviceComplianceOnboardingPackage.zip)를 구성 관리자 구성 패키지 패키지를 열 수 있습니다. Microsoft 준수 센터에서 [패키지를 다운로드할 수 있습니다.](https://compliance.microsoft.com/)
 
-2. 탐색 창에서 설정 **장치**  >  **온보드**  >  **온보더링 을 선택합니다.**
+2. 탐색 창에서 장치 **온보 설정**  >  **를**  >  **선택합니다.**
 
-3. 배포 **방법 필드에서** **Microsoft Endpoint Configuration Manager 2012/2012 R2/1511/1602 를 선택합니다.**
+3. 배포 **방법 필드에서** **2012/Microsoft Endpoint Configuration Manager R2/1511/1602를 선택합니다.**
  
-4. 패키지 **다운로드 를** 선택하고 .zip 파일을 저장합니다.
+4. 패키지 **다운로드를** 선택하고 파일 .zip 저장합니다.
 
-5. 패키지를 배포할 네트워크 관리자가 액세스할 수 있는 공유 읽기 전용 위치에 .zip 파일의 내용을 추출합니다. *DeviceComplianceOnboardingScript.cmd라는 파일이 필요합니다.*
+5. 패키지를 배포할 네트워크 관리자가 액세스할 수 있는 .zip 공유 읽기 전용 위치로 파일 파일의 내용을 추출합니다. *DeviceComplianceOnboardingScript.cmd라는 파일이 필요합니다.*
 
-6. R2 Configuration Manager의 패키지 및 프로그램 문서에 [System Center 2012 패키지를 배포합니다.](/previous-versions/system-center/system-center-2012-R2/gg699369(v=technet.10))
+6. System Center [R2 Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg699369(v=technet.10)) 문서의 단계에 따라 패키지를 배포합니다.
 
 7. 패키지를 배포할 미리 정의한 장치 컬렉션을 선택하십시오.
 
 > [!NOTE]
-> Microsoft 365 엔드포인트 데이터 손실 방지는 [OOBE(첫](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) 번째 경험) 단계 동안 온보더링을 지원하지 않습니다. 사용자가 Windows 설치 또는 업그레이드를 실행한 후 OOBE를 완료해야 합니다.
+> Microsoft 365 끝점 데이터 손실 방지는 [OOBE(첫](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) 번째 경험) 단계 동안의 온보더링을 지원하지 않습니다. 설치 또는 업그레이드를 실행한 후 사용자가 OOBE를 Windows 합니다.
 
 >[!TIP]
-> 장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 [온보딩된 Microsoft Defender ATP](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)장치에서 검색 테스트 실행을 참조하세요.
+> 장치를 온보드한 후 검색 테스트를 실행하여 장치가 서비스에 제대로 온보드되었는지 확인할 수 있습니다. 자세한 내용은 새로 온보딩된 끝점 디바이스용 Microsoft Defender에서 검색 테스트 [실행을 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
 >
 > Configuration Manager 응용 프로그램에 검색 규칙을 만들어 장치가 지속적으로 온보더된지 확인할 수 있습니다. 응용 프로그램은 패키지 및 프로그램과 다른 유형의 개체입니다.
 > 장치가 아직 온보드되지 않은 경우(보류 중인 OOBE 완료 또는 다른 이유로 인해) 규칙에서 상태 변경이 감지될 때까지 Configuration Manager가 디바이스를 다시 시도합니다.
@@ -59,7 +59,7 @@ ms.locfileid: "50918004"
 
 ### <a name="configure-sample-collection-settings"></a>샘플 수집 설정 구성
 
-각 디바이스에 대해 Microsoft Defender 보안 센터를 통해 요청이 있을 때 장치에서 샘플을 수집할 수 있는지 여부를 설명하는 구성 값을 설정하여 심층 분석을 위해 파일을 제출할 수 있습니다.
+각 디바이스에 대해 심층 분석을 위해 파일을 제출하기 위해 요청을 할 때 장치에서 샘플을 수집할 수 있는지 여부를 Microsoft Defender 보안 센터 구성 값을 설정할 수 있습니다.
 
 >[!NOTE]
 >이러한 구성 설정은 일반적으로 Configuration Manager를 통해 수행됩니다. 
@@ -83,7 +83,7 @@ Value: 0 or 1
 
 레지스트리 키가 없는 경우의 기본값은 1입니다.
 
-System Center Configuration Manager 규정 준수에 대한 자세한 내용은 System Center 2012 R2 Configuration Manager의 규정 준수 설정 [소개를 참조하세요.](/previous-versions/system-center/system-center-2012-R2/gg682139(v=technet.10))
+규정 준수에 System Center Configuration Manager 대한 자세한 내용은 [System Center 2012 R2 Configuration Manager의](/previous-versions/system-center/system-center-2012-R2/gg682139(v=technet.10))규정 준수 설정 소개를 참조하세요.
 
 
 ## <a name="other-recommended-configuration-settings"></a>기타 권장 구성 설정
@@ -134,25 +134,25 @@ Endpoint Configuration Manager 버전 2002 이상을 사용하는 경우 서버 
 > [!NOTE]
 > 온보드 및 오프보더 정책을 동일한 장치에 동시에 배포하면 안 됩니다. 그렇지 않으면 예측할 수 없는 충돌이 발생할 수 있습니다.
 
-### <a name="offboard-devices-using-microsoft-endpoint-configuration-manager-current-branch"></a>Microsoft Endpoint Configuration Manager 현재 분기를 사용하여 디바이스 오프보드
+### <a name="offboard-devices-using-microsoft-endpoint-configuration-manager-current-branch"></a>현재 분기를 사용하여 Microsoft Endpoint Configuration Manager 오프보드
 
-Microsoft Endpoint Configuration Manager 현재 분기를 사용하는 경우 오프보링 구성 파일 [만들기를 참조합니다.](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#create-an-offboarding-configuration-file)
+현재 분기를 Microsoft Endpoint Configuration Manager 경우 [오프보링 구성 파일 만들기를 참조합니다.](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#create-an-offboarding-configuration-file)
 
-### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>R2 Configuration Manager를 사용하여 System Center 2012 오프보드
+### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>System Center 2012 R2 Configuration Manager를 사용하여 장치 오프보드
 
 1. Microsoft 준수 센터에서 오프보더 [패키지를 다운로드합니다.](https://compliance.microsoft.com/)
 
-2. 탐색 창에서 설정 **장치**  >   **온보더링 오프보링** >  **을 선택합니다.**
+2. 탐색 창에서 장치 **온보 설정** 해제를  >    >  **선택합니다.**
 
-3. 운영 체제로 Windows 10을 선택합니다.
+3. 운영 Windows 10 로 실행을 선택합니다.
 
-4. 배포 **방법 필드에서** **Microsoft Endpoint Configuration Manager 2012/2012 R2/1511/1602 를 선택합니다.**
+4. 배포 **방법 필드에서** **2012/Microsoft Endpoint Configuration Manager R2/1511/1602를 선택합니다.**
     
-5. 패키지 **다운로드 를** 선택하고 .zip 파일을 저장합니다.
+5. 패키지 **다운로드를** 선택하고 파일 .zip 저장합니다.
 
-6. 패키지를 배포할 네트워크 관리자가 액세스할 수 있는 공유 읽기 전용 위치에 .zip 파일의 내용을 추출합니다. 이름이 *DeviceComplianceOffboardingScript_valid_until_YYYY-MM-DD.cmd 입니다.*
+6. 패키지를 배포할 네트워크 관리자가 액세스할 수 있는 .zip 공유 읽기 전용 위치로 파일 파일의 내용을 추출합니다. 이름이 *DeviceComplianceOffboardingScript_valid_until_YYYY-MM-DD.cmd 입니다.*
 
-7. R2 Configuration Manager의 패키지 및 프로그램 문서에 [System Center 2012 패키지를 배포합니다.](/previous-versions/system-center/system-center-2012-R2/gg699369(v=technet.10))
+7. System Center [R2 Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg699369(v=technet.10)) 문서의 단계에 따라 패키지를 배포합니다.
 
 8. 패키지를 배포할 미리 정의한 장치 컬렉션을 선택하십시오.
 
@@ -162,9 +162,9 @@ Microsoft Endpoint Configuration Manager 현재 분기를 사용하는 경우 �
 
 ## <a name="monitor-device-configuration"></a>장치 구성 모니터링
 
-Microsoft Endpoint Configuration Manager 현재 분기를 사용하는 경우 Configuration Manager 콘솔에서 기본 제공 Microsoft Defender ATP 대시보드를 사용하세요. 자세한 내용은 [Microsoft Defender Advanced Threat Protection - 모니터링을 참조하세요.](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor)
+현재 분기를 Microsoft Endpoint Configuration Manager Configuration Manager 콘솔에서 기본 제공 Microsoft Defender for Endpoint 대시보드를 사용하세요. 자세한 내용은 Microsoft Defender Advanced Threat Protection [- 모니터링을 참조하세요.](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor)
 
-R2 구성 관리자를 System Center 2012 모니터링은 다음 두 부분으로 구성됩니다.
+2012 R2 System Center 사용하는 경우 모니터링은 다음 두 부분으로 구성됩니다.
 
 1. 구성 패키지가 올바르게 배포되어 네트워크의 디바이스에서 실행 중(또는 성공적으로 실행) 확인
 
@@ -180,13 +180,13 @@ R2 구성 관리자를 System Center 2012 모니터링은 다음 두 부분으�
 
 4. 완료 통계 및 콘텐츠 **상태의** 상태 **표시기를 검토합니다.**
 
-    배포에 실패한 **경우(오류,** 요구 사항이 충족되지 않은 장치 **또는** 실패 상태인 **장치)** 장치 문제를 해결해야 할 수 있습니다. 자세한 내용은 Microsoft [Defender Advanced Threat Protection 온보딩 문제 해결을 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+    배포에 실패한 **경우(오류,** 요구 사항이 충족되지 않은 장치 **또는** 실패 상태인 **장치)** 장치 문제를 해결해야 할 수 있습니다. 자세한 내용은 온보더링 문제 [Microsoft Defender Advanced Threat Protection 해결을 참조하세요.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
 
     ![오류 없는 성공적인 배포를 보여주는 Configuration Manager](../media/sccm-deployment.png)
 
-### <a name="check-that-the-devices-are-compliant-with-the-microsoft-365-endpoint-data-loss-prevention-service"></a>장치가 Microsoft 365 엔드포인트 데이터 손실 방지 서비스를 준수하는지 확인
+### <a name="check-that-the-devices-are-compliant-with-the-microsoft-365-endpoint-data-loss-prevention-service"></a>장치가 끝점 데이터 손실 방지 Microsoft 365 준수하는지 확인
 
-R2 Configuration Manager에서 구성 항목에 대한 준수 규칙을 System Center 2012 배포를 모니터링할 수 있습니다.
+System Center 2012 R2 Configuration Manager에서 구성 항목에 대한 준수 규칙을 설정하여 배포를 모니터링할 수 있습니다.
 
 > [!NOTE]
 > 이 절차 및 레지스트리 항목은 Endpoint DLP 및 Advanced Threat Protection에 적용됩니다.
@@ -199,12 +199,12 @@ Path: “HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status”
 Name: “OnboardingState”
 Value: “1”
 ```
-자세한 내용은 R2 Configuration Manager의 규정 준수 System Center 2012 [소개를 참조하세요.](/previous-versions/system-center/system-center-2012-R2/gg682139(v=technet.10))
+자세한 내용은 [System Center 2012 R2 Configuration Manager의](/previous-versions/system-center/system-center-2012-R2/gg682139(v=technet.10))규정 준수 설정 소개를 참조하세요.
 
-## <a name="related-topics"></a>관련 주제
-- [그룹 정책을 사용하여 Windows 10 장치 온보드](dlp-configure-endpoints-gp.md)
+## <a name="related-topics"></a>관련 항목
+- [그룹 정책을 Windows 10 장치 온보드](dlp-configure-endpoints-gp.md)
 - [모바일 장치 관리 도구를 사용하여 Windows 10 장치 온보딩](dlp-configure-endpoints-mdm.md)
 - [로컬 스크립트를 사용하여 Windows 10 장치 온보딩](dlp-configure-endpoints-script.md)
-- [비영구 가상 데스크톱 인프라(VDI) 장치 온보딩](dlp-configure-endpoints-vdi.md)
-- [새로 온보딩된 Microsoft Defender ATP 장치에서 검색 테스트 실행](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
-- [Microsoft Defender Advanced Threat Protection 온보딩 문제 해결](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+- [비영구 VDI(가상 데스크톱 인프라) 장치 온보딩](dlp-configure-endpoints-vdi.md)
+- [새로 온보딩된 엔드포인트 디바이스용 Microsoft Defender에서 검색 테스트 실행](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
+- [온보 Microsoft Defender Advanced Threat Protection 문제 해결](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)

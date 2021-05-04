@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Endpoint DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4d1aa3b75ec0a0720f3d92c847bf7c6cde6d966f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 5da9161f2f59ef8a40ca8a7d302dc7de578dba39
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199277"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114126"
 ---
 # <a name="configure-device-proxy-and-internet-connection-settings-for-endpoint-dlp"></a>끝점 DLP에 대한 장치 프록시 및 인터넷 연결 설정을 구성합니다.
 
@@ -142,7 +142,7 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 
 - [끝점 데이터 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md)
 - [끝점 데이터 손실 방지 사용](endpoint-dlp-using.md)
-- [데이터 손실 방지 개요](data-loss-prevention-policies.md)
+- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)
 - [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
 - [엔드포인트용 Microsoft Defender](/windows/security/threat-protection/)
