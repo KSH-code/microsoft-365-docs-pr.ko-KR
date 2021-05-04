@@ -17,117 +17,117 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 만들어서 게시한 후에 필요한 항목은 보존하고 필요하지 않은 항목은 삭제하도록 앱에 적용하기 위한 지침입니다.
-ms.openlocfilehash: c327081109fe9d7c4d85d4cf8f01a9e5466432d1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7c13158d9ce2857c01cad60c77b6f27bce6d3b6b
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908422"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107650"
 ---
-# <a name="create-retention-labels-and-apply-them-in-apps"></a><span data-ttu-id="edd4c-103">보존 레이블을 만들고 앱에 적용</span><span class="sxs-lookup"><span data-stu-id="edd4c-103">Create retention labels and apply them in apps</span></span>
+# <a name="create-retention-labels-and-apply-them-in-apps"></a><span data-ttu-id="d0a32-103">보존 레이블을 만들고 앱에 적용</span><span class="sxs-lookup"><span data-stu-id="d0a32-103">Create retention labels and apply them in apps</span></span>
 
-><span data-ttu-id="edd4c-104">*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*</span><span class="sxs-lookup"><span data-stu-id="edd4c-104">*[Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*</span></span>
+><span data-ttu-id="d0a32-104">*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*</span><span class="sxs-lookup"><span data-stu-id="d0a32-104">*[Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="edd4c-105">이 시나리오는 [규제 기록](records-management.md#records)을 포함하여 모든 보존 레이블 구성에 대해 지원됩니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-105">This scenario is supported for all retention label configurations, including [regulatory records](records-management.md#records).</span></span>
+> <span data-ttu-id="d0a32-105">이 시나리오는 [규제 기록](records-management.md#records)을 포함하여 모든 보존 레이블 구성에 대해 지원됩니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-105">This scenario is supported for all retention label configurations, including [regulatory records](records-management.md#records).</span></span>
 
-<span data-ttu-id="edd4c-106">다음 정보를 사용하여 [보존 레이블](retention.md)을 만들어서 게시한 다음 문서 및 전자 메일에 적용하는 데 도움을 받습니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-106">Use the following information to help you create and publish [retention labels](retention.md), and then apply them to documents and emails.</span></span>
+<span data-ttu-id="d0a32-106">다음 정보를 사용하여 [보존 레이블](retention.md)을 만들어서 게시한 다음 문서 및 전자 메일에 적용하는 데 도움을 받습니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-106">Use the following information to help you create and publish [retention labels](retention.md), and then apply them to documents and emails.</span></span>
 
-<span data-ttu-id="edd4c-107">보존 레이블은 항목 수준(문서 또는 전자 메일)에서 필요한 항목은 보존하고 필요하지 않은 항목은 삭제할 수 있게 해줍니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-107">Retention labels help you retain what you need and delete what you don't at the item level (document or email).</span></span> <span data-ttu-id="edd4c-108">또한 Microsoft 365 데이터에 대한 [레코드 관리](records-management.md) 솔루션의 일부로 항목을 레코드로 선언하는 데에도 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-108">They are also used to declare an item as a record as part of a [records management](records-management.md) solution for your Microsoft 365 data.</span></span>
+<span data-ttu-id="d0a32-107">보존 레이블은 항목 수준(문서 또는 전자 메일)에서 필요한 항목은 보존하고 필요하지 않은 항목은 삭제할 수 있게 해줍니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-107">Retention labels help you retain what you need and delete what you don't at the item level (document or email).</span></span> <span data-ttu-id="d0a32-108">또한 Microsoft 365 데이터에 대한 [레코드 관리](records-management.md) 솔루션의 일부로 항목을 레코드로 선언하는 데에도 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-108">They are also used to declare an item as a record as part of a [records management](records-management.md) solution for your Microsoft 365 data.</span></span>
 
-<span data-ttu-id="edd4c-109">콘텐츠를 분류할 수 있도록 조직의 사용자에게 보존 레이블을 제공하는 작업은 2단계 프로세스입니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-109">Making retention labels available to people in your organization so that they can classify content is a two-step process:</span></span> 
+<span data-ttu-id="d0a32-109">콘텐츠를 분류할 수 있도록 조직의 사용자에게 보존 레이블을 제공하는 작업은 2단계 프로세스입니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-109">Making retention labels available to people in your organization so that they can classify content is a two-step process:</span></span> 
 
-1. <span data-ttu-id="edd4c-110">보존 레이블을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-110">Create the retention labels.</span></span>
+1. <span data-ttu-id="d0a32-110">보존 레이블을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-110">Create the retention labels.</span></span>
 
-2. <span data-ttu-id="edd4c-111">보존 레이블 정책을 사용하여 보존 레이블을 게시합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-111">Publish the retention labels by using a retention label policy.</span></span>
+2. <span data-ttu-id="d0a32-111">보존 레이블 정책을 사용하여 보존 레이블을 게시합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-111">Publish the retention labels by using a retention label policy.</span></span>
   
 ![레이블의 역할 및 작업 다이어그램](../media/4082bc7d-c04c-4b9a-8a26-7f12565d3311.png)
 
-<span data-ttu-id="edd4c-113">두 가지 관리 단계를 수행하려면 다음 지침을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-113">Use the following instructions for the two admin steps.</span></span>
+<span data-ttu-id="d0a32-113">두 가지 관리 단계를 수행하려면 다음 지침을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-113">Use the following instructions for the two admin steps.</span></span>
 
-## <a name="before-you-begin"></a><span data-ttu-id="edd4c-114">시작하기 전에</span><span class="sxs-lookup"><span data-stu-id="edd4c-114">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="d0a32-114">시작하기 전에</span><span class="sxs-lookup"><span data-stu-id="d0a32-114">Before you begin</span></span>
 
-<span data-ttu-id="edd4c-115">조직의 전역 관리자는 보존 레이블과 해당 정책을 만들고 편집할 수 있는 모든 권한을 가지고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-115">The global admin for your organization has full permissions to create and edit retention labels and their policies.</span></span> <span data-ttu-id="edd4c-116">전역 관리자로 로그인하지 않은 경우 [보존 정책 및 보존 레이블을 만들고 관리하는 데 필요한 권한](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="edd4c-116">If you aren't signing in as a global admin, see [Permissions required to create and manage retention policies and retention labels](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels).</span></span>
+<span data-ttu-id="d0a32-115">조직의 전역 관리자는 보존 레이블과 해당 정책을 만들고 편집할 수 있는 모든 권한을 가지고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-115">The global admin for your organization has full permissions to create and edit retention labels and their policies.</span></span> <span data-ttu-id="d0a32-116">전역 관리자로 로그인하지 않은 경우 [보존 정책 및 보존 레이블을 만들고 관리하는 데 필요한 권한](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="d0a32-116">If you aren't signing in as a global admin, see [Permissions required to create and manage retention policies and retention labels](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels).</span></span>
 
-## <a name="how-to-create-and-publish-retention-labels"></a><span data-ttu-id="edd4c-117">보존 레이블을 만들고 게시하는 방법</span><span class="sxs-lookup"><span data-stu-id="edd4c-117">How to create and publish retention labels</span></span>
+## <a name="how-to-create-and-publish-retention-labels"></a><span data-ttu-id="d0a32-117">보존 레이블을 만들고 게시하는 방법</span><span class="sxs-lookup"><span data-stu-id="d0a32-117">How to create and publish retention labels</span></span>
 
-<span data-ttu-id="edd4c-118">먼저 보존 레이블을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-118">First, create your retention labels.</span></span> <span data-ttu-id="edd4c-119">그런 다음 레이블을 앱에 적용할 수 있게 되는 레이블 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-119">Then create a label policy to make the labels available to apply in apps.</span></span>
+<span data-ttu-id="d0a32-118">먼저 보존 레이블을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-118">First, create your retention labels.</span></span> <span data-ttu-id="d0a32-119">그런 다음 레이블을 앱에 적용할 수 있게 되는 레이블 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-119">Then create a label policy to make the labels available to apply in apps.</span></span>
 
-<span data-ttu-id="edd4c-120">보존 레이블을 만들고 구성하는 위치는 레코드 관리를 사용 중인지 여부에 따라 달라집니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-120">Where you create and configure your retention labels depend on whether you're using records management or not.</span></span> <span data-ttu-id="edd4c-121">두 시나리오 모두에 대한 지침이 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-121">Instructions are provided for both scenarios.</span></span>
+<span data-ttu-id="d0a32-120">보존 레이블을 만들고 구성하는 위치는 레코드 관리를 사용 중인지 여부에 따라 달라집니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-120">Where you create and configure your retention labels depend on whether you're using records management or not.</span></span> <span data-ttu-id="d0a32-121">두 시나리오 모두에 대한 지침이 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-121">Instructions are provided for both scenarios.</span></span>
 
-### <a name="step-1-create-retention-labels"></a><span data-ttu-id="edd4c-122">1단계: 보존 레이블 만들기</span><span class="sxs-lookup"><span data-stu-id="edd4c-122">Step 1: Create retention labels</span></span>
+### <a name="step-1-create-retention-labels"></a><span data-ttu-id="d0a32-122">1단계: 보존 레이블 만들기</span><span class="sxs-lookup"><span data-stu-id="d0a32-122">Step 1: Create retention labels</span></span>
 
-1. <span data-ttu-id="edd4c-123">[Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 다음의 위치 중 한 곳으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-123">In the [Microsoft 365 compliance center](https://compliance.microsoft.com/), navigate to one of the following locations:</span></span>
+1. <span data-ttu-id="d0a32-123">[Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 다음의 위치 중 한 곳으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-123">In the [Microsoft 365 compliance center](https://compliance.microsoft.com/), navigate to one of the following locations:</span></span>
     
-    - <span data-ttu-id="edd4c-124">레코드 관리를 사용하는 경우:</span><span class="sxs-lookup"><span data-stu-id="edd4c-124">If you are using records management:</span></span>
-        - <span data-ttu-id="edd4c-125">**솔루션** > **레코드 관리** > **파일 계획** 탭 > **+ 레이블 만들기** > **보존 레이블**</span><span class="sxs-lookup"><span data-stu-id="edd4c-125">**Solutions** > **Records management** > **File plan** tab > **+ Create a label** > **Retention label**</span></span>
+    - <span data-ttu-id="d0a32-124">레코드 관리를 사용하는 경우:</span><span class="sxs-lookup"><span data-stu-id="d0a32-124">If you are using records management:</span></span>
+        - <span data-ttu-id="d0a32-125">**솔루션** > **레코드 관리** > **파일 계획** 탭 > **+ 레이블 만들기** > **보존 레이블**</span><span class="sxs-lookup"><span data-stu-id="d0a32-125">**Solutions** > **Records management** > **File plan** tab > **+ Create a label** > **Retention label**</span></span>
         
-    - <span data-ttu-id="edd4c-126">레코드 관리를 사용하지 않는 경우:</span><span class="sxs-lookup"><span data-stu-id="edd4c-126">If you are not using records management:</span></span>
-       - <span data-ttu-id="edd4c-127">**솔루션** > **정보 관리** > **레이블** tab > + **레이블 만들기**</span><span class="sxs-lookup"><span data-stu-id="edd4c-127">**Solutions** > **Information governance** > **Labels** tab > + **Create a label**</span></span>
+    - <span data-ttu-id="d0a32-126">레코드 관리를 사용하지 않는 경우:</span><span class="sxs-lookup"><span data-stu-id="d0a32-126">If you are not using records management:</span></span>
+       - <span data-ttu-id="d0a32-127">**솔루션** > **정보 관리** > **레이블** tab > + **레이블 만들기**</span><span class="sxs-lookup"><span data-stu-id="d0a32-127">**Solutions** > **Information governance** > **Labels** tab > + **Create a label**</span></span>
     
-    <span data-ttu-id="edd4c-128">바로 옵션이 표시되지 않나요?</span><span class="sxs-lookup"><span data-stu-id="edd4c-128">Don't immediately see your option?</span></span> <span data-ttu-id="edd4c-129">먼저 **모두 표시** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-129">First select **Show all**.</span></span> 
+    <span data-ttu-id="d0a32-128">바로 옵션이 표시되지 않나요?</span><span class="sxs-lookup"><span data-stu-id="d0a32-128">Don't immediately see your option?</span></span> <span data-ttu-id="d0a32-129">먼저 **모두 표시** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-129">First select **Show all**.</span></span> 
 
-2. <span data-ttu-id="edd4c-130">마법사의 지시를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-130">Follow the prompts in the wizard.</span></span> <span data-ttu-id="edd4c-131">레코드 관리를 사용하는 경우:</span><span class="sxs-lookup"><span data-stu-id="edd4c-131">If you are using records management:</span></span>
+2. <span data-ttu-id="d0a32-130">마법사의 지시를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-130">Follow the prompts in the wizard.</span></span> <span data-ttu-id="d0a32-131">레코드 관리를 사용하는 경우:</span><span class="sxs-lookup"><span data-stu-id="d0a32-131">If you are using records management:</span></span>
     
-    - <span data-ttu-id="edd4c-132">파일 계획 설명자에 대한 자세한 내용은 [파일 계획을 사용하여 보존 레이블 관리의 개요](file-plan-manager.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="edd4c-132">For information about the file plan descriptors, see [Use file plan to manage retention labels](file-plan-manager.md).</span></span>
+    - <span data-ttu-id="d0a32-132">파일 계획 설명자에 대한 자세한 내용은 [파일 계획을 사용하여 보존 레이블 관리의 개요](file-plan-manager.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="d0a32-132">For information about the file plan descriptors, see [Use file plan to manage retention labels](file-plan-manager.md).</span></span>
     
-    - <span data-ttu-id="edd4c-133">보존 레이블을 사용하여 레코드를 선언하려면 **항목을 레코드로 표시** 를 선택하거나 **항목을 규제 레코드로 표시** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-133">To use the retention label to declare records, select **Mark items as records**, or **Mark items as regulatory records**.</span></span> <span data-ttu-id="edd4c-134">자세한 정보는 [레코드를 선언하도록 보존 레이블 구성하기](declare-records.md#configuring-retention-labels-to-declare-records)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="edd4c-134">For more information, see [Configuring retention labels to declare records](declare-records.md#configuring-retention-labels-to-declare-records).</span></span>
+    - <span data-ttu-id="d0a32-133">보존 레이블을 사용하여 레코드를 선언하려면 **항목을 레코드로 표시** 를 선택하거나 **항목을 규제 레코드로 표시** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-133">To use the retention label to declare records, select **Mark items as records**, or **Mark items as regulatory records**.</span></span> <span data-ttu-id="d0a32-134">자세한 정보는 [레코드를 선언하도록 보존 레이블 구성하기](declare-records.md#configuring-retention-labels-to-declare-records)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="d0a32-134">For more information, see [Configuring retention labels to declare records](declare-records.md#configuring-retention-labels-to-declare-records).</span></span>
 
-3. <span data-ttu-id="edd4c-135">레이블을 만든 후에는 레이블을 게시하는 옵션이 표시되고, 레이블을 자동으로 적용하거나, 단지 레이블을 저장합니다. **지금 레이블을 저장** 하고, 그 후 **완료** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-135">After you have created the label and you see the options to publish the label, auto-apply the label, or just save the label: Select **Just save the label for now**, and then select **Done**.</span></span>
+3. <span data-ttu-id="d0a32-135">레이블을 만든 후에는 레이블을 게시하는 옵션이 표시되고, 레이블을 자동으로 적용하거나, 단지 레이블을 저장합니다. **지금 레이블을 저장** 하고, 그 후 **완료** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-135">After you have created the label and you see the options to publish the label, auto-apply the label, or just save the label: Select **Just save the label for now**, and then select **Done**.</span></span>
 
-4. <span data-ttu-id="edd4c-136">이 단계를 반복하여 레이블을 더 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-136">Repeat these steps to create more labels.</span></span>
+4. <span data-ttu-id="d0a32-136">이 단계를 반복하여 레이블을 더 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-136">Repeat these steps to create more labels.</span></span>
 
-<span data-ttu-id="edd4c-137">기존 레이블을 편집하려면 레이블을 선택한 후 **레이블 편집** 옵션을 선택하여 레이블 설명과 [적격 설정](#updating-retention-labels-and-their-policies)을 변경하는 데 사용하는 편집 보유 마법사를 2단계에서 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-137">To edit an existing label, select it, and then select the **Edit label** option to start the Edit retention wizard that lets you change the label descriptions and any [eligible settings](#updating-retention-labels-and-their-policies) from step 2.</span></span>
+<span data-ttu-id="d0a32-137">기존 레이블을 편집하려면 레이블을 선택한 후 **레이블 편집** 옵션을 선택하여 레이블 설명과 [적격 설정](#updating-retention-labels-and-their-policies)을 변경하는 데 사용하는 편집 보유 마법사를 2단계에서 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-137">To edit an existing label, select it, and then select the **Edit label** option to start the Edit retention wizard that lets you change the label descriptions and any [eligible settings](#updating-retention-labels-and-their-policies) from step 2.</span></span>
 
-### <a name="step-2-publish-retention-labels"></a><span data-ttu-id="edd4c-138">2단계: 보존 레이블 게시</span><span class="sxs-lookup"><span data-stu-id="edd4c-138">Step 2: Publish retention labels</span></span>
+### <a name="step-2-publish-retention-labels"></a><span data-ttu-id="d0a32-138">2단계: 보존 레이블 게시</span><span class="sxs-lookup"><span data-stu-id="d0a32-138">Step 2: Publish retention labels</span></span>
 
-<span data-ttu-id="edd4c-139">SharePoint 및 Outlook과 같은 앱에서 사용자가 적용할 수 있도록 보존 레이블을 게시합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-139">Publish retention labels so that they can be applied by users in apps, such as SharePoint and Outlook.</span></span>
+<span data-ttu-id="d0a32-139">SharePoint 및 Outlook과 같은 앱에서 사용자가 적용할 수 있도록 보존 레이블을 게시합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-139">Publish retention labels so that they can be applied by users in apps, such as SharePoint and Outlook.</span></span>
 
-1. <span data-ttu-id="edd4c-140">[Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 다음의 위치 중 한 곳으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-140">In the [Microsoft 365 compliance center](https://compliance.microsoft.com/), navigate to one of the following locations:</span></span>
+1. <span data-ttu-id="d0a32-140">[Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 다음의 위치 중 한 곳으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-140">In the [Microsoft 365 compliance center](https://compliance.microsoft.com/), navigate to one of the following locations:</span></span>
     
-    - <span data-ttu-id="edd4c-141">레코드 관리를 사용하는 경우:</span><span class="sxs-lookup"><span data-stu-id="edd4c-141">If you are using records management:</span></span>
-        - <span data-ttu-id="edd4c-142">**솔루션** > **레코드 관리** > > **레이블 정책** 탭 > **레이블 게시**</span><span class="sxs-lookup"><span data-stu-id="edd4c-142">**Solutions** > **Records management** > > **Label policies** tab > **Publish labels**</span></span>
+    - <span data-ttu-id="d0a32-141">레코드 관리를 사용하는 경우:</span><span class="sxs-lookup"><span data-stu-id="d0a32-141">If you are using records management:</span></span>
+        - <span data-ttu-id="d0a32-142">**솔루션** > **레코드 관리** > > **레이블 정책** 탭 > **레이블 게시**</span><span class="sxs-lookup"><span data-stu-id="d0a32-142">**Solutions** > **Records management** > > **Label policies** tab > **Publish labels**</span></span>
     
-    - <span data-ttu-id="edd4c-143">레코드 관리를 사용하지 않는 경우:</span><span class="sxs-lookup"><span data-stu-id="edd4c-143">If you are not using records management:</span></span>
-        - <span data-ttu-id="edd4c-144">**솔루션** > **정보 관리** > **레이블 정책** 탭 > **레이블 게시**</span><span class="sxs-lookup"><span data-stu-id="edd4c-144">**Solutions** > **Information governance** > **Label policies** tab > **Publish labels**</span></span>
+    - <span data-ttu-id="d0a32-143">레코드 관리를 사용하지 않는 경우:</span><span class="sxs-lookup"><span data-stu-id="d0a32-143">If you are not using records management:</span></span>
+        - <span data-ttu-id="d0a32-144">**솔루션** > **정보 관리** > **레이블 정책** 탭 > **레이블 게시**</span><span class="sxs-lookup"><span data-stu-id="d0a32-144">**Solutions** > **Information governance** > **Label policies** tab > **Publish labels**</span></span>
     
-    <span data-ttu-id="edd4c-145">바로 옵션이 표시되지 않나요?</span><span class="sxs-lookup"><span data-stu-id="edd4c-145">Don't immediately see your option?</span></span> <span data-ttu-id="edd4c-146">먼저 **모두 표시** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-146">First select **Show all**.</span></span> 
+    <span data-ttu-id="d0a32-145">바로 옵션이 표시되지 않나요?</span><span class="sxs-lookup"><span data-stu-id="d0a32-145">Don't immediately see your option?</span></span> <span data-ttu-id="d0a32-146">먼저 **모두 표시** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-146">First select **Show all**.</span></span> 
 
-2. <span data-ttu-id="edd4c-147">마법사의 지시를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-147">Follow the prompts in the wizard.</span></span>
+2. <span data-ttu-id="d0a32-147">마법사의 지시를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-147">Follow the prompts in the wizard.</span></span>
     
-    <span data-ttu-id="edd4c-148">보존 레이블이 지원하는 위치에 대한 자세한 내용은 [보존 레이블과 위치](retention.md#retention-label-policies-and-locations)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="edd4c-148">For information about the locations supported by retention labels, see [Retention labels and locations](retention.md#retention-label-policies-and-locations).</span></span> 
+    <span data-ttu-id="d0a32-148">보존 레이블이 지원하는 위치에 대한 자세한 내용은 [보존 레이블과 위치](retention.md#retention-label-policies-and-locations)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="d0a32-148">For information about the locations supported by retention labels, see [Retention labels and locations](retention.md#retention-label-policies-and-locations).</span></span> 
 
-<span data-ttu-id="edd4c-149">기존 보존 레이블 정책(정책 유형은 **게시**)을 편집 하려면, 이를 선택하고 그 후 **편집** 옵션을 선택하여 보존 정책 편집을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-149">To edit an existing retention label policy (the policy type is **Publish**), select it, and then select the **Edit** option to start the Edit retention policy.</span></span> <span data-ttu-id="edd4c-150">이 마법사를 사용하여 정책 설명과 2단계에서 [적격 설정](#updating-retention-labels-and-their-policies)을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-150">This wizard lets you change the policy description and any [eligible settings](#updating-retention-labels-and-their-policies) from step 2.</span></span>
+<span data-ttu-id="d0a32-149">기존 보존 레이블 정책(정책 유형은 **게시**)을 편집 하려면, 이를 선택하고 그 후 **편집** 옵션을 선택하여 보존 정책 편집을 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-149">To edit an existing retention label policy (the policy type is **Publish**), select it, and then select the **Edit** option to start the Edit retention policy.</span></span> <span data-ttu-id="d0a32-150">이 마법사를 사용하여 정책 설명과 2단계에서 [적격 설정](#updating-retention-labels-and-their-policies)을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-150">This wizard lets you change the policy description and any [eligible settings](#updating-retention-labels-and-their-policies) from step 2.</span></span>
 
 
-## <a name="when-retention-labels-become-available-to-apply"></a><span data-ttu-id="edd4c-151">보존 레이블을 적용할 수 있게 되면</span><span class="sxs-lookup"><span data-stu-id="edd4c-151">When retention labels become available to apply</span></span>
+## <a name="when-retention-labels-become-available-to-apply"></a><span data-ttu-id="d0a32-151">보존 레이블을 적용할 수 있게 되면</span><span class="sxs-lookup"><span data-stu-id="d0a32-151">When retention labels become available to apply</span></span>
 
-<span data-ttu-id="edd4c-152">SharePoint 또는 OneDrive에 보존 레이블을 게시하면 일반적으로 1일 이내에 최종 사용자가 선택하도록 레이블이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-152">If you publish retention labels to SharePoint or OneDrive, those labels  typically appear for end users to select within one day.</span></span> <span data-ttu-id="edd4c-153">그러나 최대 7일까지 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-153">However, allow up to seven days.</span></span> 
+<span data-ttu-id="d0a32-152">SharePoint 또는 OneDrive에 보존 레이블을 게시하면 일반적으로 1일 이내에 최종 사용자가 선택하도록 레이블이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-152">If you publish retention labels to SharePoint or OneDrive, those labels  typically appear for end users to select within one day.</span></span> <span data-ttu-id="d0a32-153">그러나 최대 7일까지 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-153">However, allow up to seven days.</span></span> 
 
-<span data-ttu-id="edd4c-154">보존 레이블을 Exchange에 게시하는 경우 해당 보존 레이블이 최종 사용자에게 표시되기까지 최대 7일이 걸릴 수 있으며 사서함에 10MB 이상의 데이터를 저장할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-154">If you publish retention labels to Exchange, it can take up to seven days for those retention labels to appear for end users, and the mailbox must contain at least 10 MB of data.</span></span>
+<span data-ttu-id="d0a32-154">보존 레이블을 Exchange에 게시하는 경우 해당 보존 레이블이 최종 사용자에게 표시되기까지 최대 7일이 걸릴 수 있으며 사서함에 10MB 이상의 데이터를 저장할 수 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-154">If you publish retention labels to Exchange, it can take up to seven days for those retention labels to appear for end users, and the mailbox must contain at least 10 MB of data.</span></span>
 
-<span data-ttu-id="edd4c-155">예제:</span><span class="sxs-lookup"><span data-stu-id="edd4c-155">For example:</span></span>
+<span data-ttu-id="d0a32-155">예제:</span><span class="sxs-lookup"><span data-stu-id="d0a32-155">For example:</span></span>
   
 ![수동 레이블이 적용되는 경우를 나타내는 다이어그램](../media/b19f3a10-f625-45bf-9a53-dd14df02ae7c.png)
   
 
-<span data-ttu-id="edd4c-157">7일 후에 레이블이 표시되지 않는 경우, 준수 센터의 **레이블 정책** 페이지에서 레이블 정책을 선택하여 그 **상태** 를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-157">If the labels don't appear after seven days, check the **Status** of the label policy by selecting it from the **Label policies** page in the compliance center.</span></span> <span data-ttu-id="edd4c-158">**꺼짐(오류)** 의 상태가 표시되고 위치에 대한 세부 정보에 정책을 배포하거나(SharePoint의 경우) 혹은 정책 재배포를 시도하는 데(OneDrive의 경우) 예상보다 시간이 오래 걸리고 있다는 메시지가 표시되는 경우, [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) PowerShell 명령을 실행하여 정책 배포를 다시 시도하세요.</span><span class="sxs-lookup"><span data-stu-id="edd4c-158">If you see the status of **Off (Error)** and in the details for the locations see a message that it's taking longer than expected to deploy the policy (for SharePoint) or to try redeploying the policy (for OneDrive), try running [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy), a PowerShell command, to retry the policy distribution:</span></span>
+<span data-ttu-id="d0a32-157">7일 후에 레이블이 표시되지 않는 경우, 준수 센터의 **레이블 정책** 페이지에서 레이블 정책을 선택하여 그 **상태** 를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-157">If the labels don't appear after seven days, check the **Status** of the label policy by selecting it from the **Label policies** page in the compliance center.</span></span> <span data-ttu-id="d0a32-158">**꺼짐(오류)** 의 상태가 표시되고 위치에 대한 세부 정보에 정책을 배포하거나(SharePoint의 경우) 혹은 정책 재배포를 시도하는 데(OneDrive의 경우) 예상보다 시간이 오래 걸리고 있다는 메시지가 표시되는 경우, [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) PowerShell 명령을 실행하여 정책 배포를 다시 시도하세요.</span><span class="sxs-lookup"><span data-stu-id="d0a32-158">If you see the status of **Off (Error)** and in the details for the locations see a message that it's taking longer than expected to deploy the policy (for SharePoint) or to try redeploying the policy (for OneDrive), try running [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy), a PowerShell command, to retry the policy distribution:</span></span>
 
-1. [<span data-ttu-id="edd4c-159">보안 및 준수 센터 PowerShell에 연결</span><span class="sxs-lookup"><span data-stu-id="edd4c-159">Connect to Security & Compliance Center PowerShell</span></span>](/powershell/exchange/connect-to-scc-powershell)
+1. [<span data-ttu-id="d0a32-159">보안 및 준수 센터 PowerShell에 연결</span><span class="sxs-lookup"><span data-stu-id="d0a32-159">Connect to Security & Compliance Center PowerShell</span></span>](/powershell/exchange/connect-to-scc-powershell)
 
-2. <span data-ttu-id="edd4c-160">다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-160">Run the following command:</span></span>
+2. <span data-ttu-id="d0a32-160">다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-160">Run the following command:</span></span>
     
     ``` PowerShell
     Set-RetentionCompliancePolicy -Identity <policy name> -RetryDistribution
    ```
 
-### <a name="how-to-check-on-the-status-of-retention-labels-published-to-exchange"></a><span data-ttu-id="edd4c-161">Exchange에 게시된 보존 레이블의 상태를 확인하는 방법</span><span class="sxs-lookup"><span data-stu-id="edd4c-161">How to check on the status of retention labels published to Exchange</span></span>
+### <a name="how-to-check-on-the-status-of-retention-labels-published-to-exchange"></a><span data-ttu-id="d0a32-161">Exchange에 게시된 보존 레이블의 상태를 확인하는 방법</span><span class="sxs-lookup"><span data-stu-id="d0a32-161">How to check on the status of retention labels published to Exchange</span></span>
 
-<span data-ttu-id="edd4c-162">Exchange Online에서 보존 레이블은 7일마다 실행되는 프로세스를 통해 최종 사용자에게 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-162">In Exchange Online, retention labels are made available to end users by a process that runs every seven days.</span></span> <span data-ttu-id="edd4c-163">PowerShell을 사용하여 이 프로세스가 마지막으로 실행된 시간을 확인할 수 있고 따라서 이 프로세스가 다시 실행될 시간을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-163">By using PowerShell, you can see when this process last ran and therefore identify when it will run again.</span></span>
+<span data-ttu-id="d0a32-162">Exchange Online에서 보존 레이블은 7일마다 실행되는 프로세스를 통해 최종 사용자에게 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-162">In Exchange Online, retention labels are made available to end users by a process that runs every seven days.</span></span> <span data-ttu-id="d0a32-163">PowerShell을 사용하여 이 프로세스가 마지막으로 실행된 시간을 확인할 수 있고 따라서 이 프로세스가 다시 실행될 시간을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-163">By using PowerShell, you can see when this process last ran and therefore identify when it will run again.</span></span>
   
-1. <span data-ttu-id="edd4c-164">[Exchange Online PowerShell에 연결합니다](/powershell/exchange/connect-to-exchange-online-powershell).</span><span class="sxs-lookup"><span data-stu-id="edd4c-164">[Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).</span></span>
+1. <span data-ttu-id="d0a32-164">[Exchange Online PowerShell에 연결합니다](/powershell/exchange/connect-to-exchange-online-powershell).</span><span class="sxs-lookup"><span data-stu-id="d0a32-164">[Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).</span></span>
     
-2. <span data-ttu-id="edd4c-165">다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="edd4c-165">Run these commands.</span></span>
+2. <span data-ttu-id="d0a32-165">다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="d0a32-165">Run these commands.</span></span>
     
    ```powershell
    $logProps = Export-MailboxDiagnosticLogs <user> -ExtendedProperties
@@ -294,7 +294,7 @@ Some settings can't be changed after the label or policy is created and saved, w
 
 ### Deleting retention labels
 
-You can delete retention labels that aren't currently included in any retention label policies, that aren't configured for event-based retention, or mark items as regulatory records. The ability to delete retention labels that mark items as records is currently rolling out in preview.
+You can delete retention labels that aren't currently included in any retention label policies, that aren't configured for event-based retention, or mark items as regulatory records.
 
 For retention labels that you can delete, if they have been applied to items, the deletion fails and you see a link to content explorer to identify the labeled items.
 
