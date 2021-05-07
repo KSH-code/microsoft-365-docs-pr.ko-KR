@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: 사용자 그룹, Microsoft 365 및 Teams 준수 옵션에 대해 SharePoint 대해 자세히 알아보습니다.
-ms.openlocfilehash: 92b668c5cbf5d105ccd1373a6ef8550400e4539f
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: a9a94f0c1886ac5b60292f5f4d4b9b9d6d84380c
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114031"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241679"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Microsoft 365, Teams 및 SharePoint 준수 옵션
 
@@ -36,13 +36,15 @@ Microsoft 365 사용자는 공동 작업을 할 때 규정 준수를 유지하�
 |정보 분류|||
 ||그룹 및 팀 분류|[민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기](../compliance/sensitivity-labels-teams-groups-sites.md)|
 ||중요한 콘텐츠 자동 분류|[민감도 레이블을 콘텐츠에 자동으로 적용](../compliance/apply-sensitivity-label-automatically.md)|
-||중요한 콘텐츠 암호화|[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠에 대한 액세스 제한](../compliance/encryption-sensitivity-labels.md)|
+||중요한 콘텐츠 암호화|[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](../compliance/encryption-sensitivity-labels.md)|
 |정보 보호|||
-||중요한 정보 손실 방지|[데이터 손실 방지에 대한 자세한 정보](../compliance/dlp-learn-about-dlp.md)|
+||중요한 정보 손실 방지|[데이터 손실 방지에 대해 자세한 알아보기](../compliance/dlp-learn-about-dlp.md)|
 ||채팅에서 중요한 정보를 보호합니다.|[데이터 손실 방지 및 Microsoft Teams](../compliance/dlp-microsoft-teams.md)|
 ||조직의 중요한 정보 정의|[사용자 지정 중요한 정보 유형](../compliance/sensitive-information-type-learn-about.md)|
 |사용자 분할|||
 ||사용자 세그먼트 간 통신 제한|[정보 장벽](../compliance/information-barriers.md)|
+|데이터 보존|||
+||특정 지리적 위치에 데이터 저장|[Microsoft 365 Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo)|
 
 ## <a name="information-retention"></a>정보 보존
 
@@ -80,7 +82,7 @@ Microsoft 365 그룹에 대한 보존 정책을 구성하면 그룹 사서함 �
 
 민감도 레이블을 사용하여 파일을 암호화할 수 있으며, 사용 권한이 있는 레이블만 암호를 해독하고 읽을 수 있습니다.
 
-- [민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠에 대한 액세스 제한](../compliance/encryption-sensitivity-labels.md)
+- [민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](../compliance/encryption-sensitivity-labels.md)
 
 - [보안 격리를 사용하여 팀 구성하기](./secure-teams-security-isolation.md)
 
@@ -93,7 +95,7 @@ Microsoft 365 그룹에 대한 보존 정책을 구성하면 그룹 사서함 �
 
 DLP 정책은 사용자, 사용자 및 사용자 SharePoint 중요한 정보를 실수로 Exchange 방지할 수 Teams. 규칙 집합에 따라 수행할 작업(예: 액세스 차단)을 지정하는 정책을 만들 수 있습니다.
 
-- [데이터 손실 방지에 대한 자세한 정보](../compliance/dlp-learn-about-dlp.md)
+- [데이터 손실 방지에 대해 자세한 알아보기](../compliance/dlp-learn-about-dlp.md)
 
 DLP는 Teams 포함된 메시지를 삭제하여 Teams 및 채널 메시지의 중요한 정보를 보호하는 데 도움이 될 수 있습니다.
 
@@ -112,6 +114,14 @@ DLP는 Teams 포함된 메시지를 삭제하여 Teams 및 채널 메시지의 �
 - [Microsoft Teams의 정보 장벽](/microsoftteams/information-barriers-in-teams)
 
 - [사용자와 정보 장벽 SharePoint](/sharepoint/information-barriers)
+
+## <a name="data-residency"></a>데이터 보존
+
+Multi-Microsoft 365 사용하여 데이터 상주 요구 사항을 충족하기 위해 선택한 지리적 위치에 미사용 데이터를 프로비전하고 저장할 수 있습니다. Multi-Geo 환경에서 Microsoft 365 테넌트는 중앙 위치(Microsoft 365 구독이 원래 프로비전된 위치)와 데이터를 저장할 수 있는 하나 이상의 위성 위치로 구성됩니다.
+
+- [Microsoft 365 Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo)
+
+- [Microsoft 365 Business를 위한 계획](/microsoft-365/enterprise/plan-for-multi-geo)
 
 ## <a name="related-topics"></a>관련 항목
 

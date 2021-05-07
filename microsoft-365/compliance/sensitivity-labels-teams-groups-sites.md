@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: 501df9b167e917d79957d8b156597af67e6240af
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4914a5911ffb493eded46631d7682c1e48cf1426
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919584"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860877"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -51,7 +51,7 @@ ms.locfileid: "50919584"
 
 ![Word 데스크톱 앱에 표시되는 민감도 레이블](../media/sensitivity-label-word.png)
 
-컨테이너에서 민감도 레이블을 사용하도록 설정하고 구성한 후 사용자는 Microsoft Teams 사이트, Microsoft 365 그룹 및 SharePoint 사이트에 대한 민감도 레이블을 추가로 보고 적용할 수 있습니다. 예를 들어 SharePoint에서 새 팀 사이트를 만드는 경우 다음과 같습니다.
+컨테이너에서 민감도 레이블을 활성화하고 구성한 후 사용자는 Microsoft Teams 사이트, Microsoft 365 그룹 및 SharePoint 사이트에 대한 민감도 레이블을 추가로 확인하고 적용할 수 있습니다.
 
 ![SharePoint에서 팀 사이트를 만들 때의 민감도 레이블](../media/sensitivity-labels-new-team-site.png)
 
@@ -144,13 +144,13 @@ SharePoint 설정은 레이블 구성과 독립적으로 구성할 수 있기 �
 
 또한 변경 내용에 **외부 사용자 액세스** 설정이 포함된 경우:
 
-- 새 설정은 새 사용자에게는 적용되지만 기존 사용자에게는 적용되지 않습니다. 예를 들어, 이전에 이 설정을 선택했고 그 결과 게스트 사용자가 사이트에 액세스한 경우 이 설정을 레이블 구성에서 지운 후에도 해당 게스트 사용자는 계속해서 사이트에 액세스할 수 있습니다.
+- 새로운 설정은 기존 사용자가 아닌 새로운 사용자에게만 적용됩니다. 예를 들어, 이전에 이 설정을 선택했고 그 결과 게스트 사용자가 사이트에 액세스한 경우 이 설정을 레이블 구성에서 지운 후에도 해당 게스트 사용자는 계속해서 사이트에 액세스할 수 있습니다.
 
 - 그룹 속성 hiddenMembership 및 roleEnabled에 대한 개인 정보 설정은 업데이트되지 않습니다.
 
 ### <a name="deleting-published-labels-that-are-configured-for-sites-and-groups"></a>사이트 및 그룹에 대해 구성된 게시된 레이블 삭제하기
 
-사이트 및 그룹 설정을 사용하도록 설정된 민감도 레이블을 삭제하고 해당 레이블이 하나 이상의 레이블 정책에 포함된 경우, 이 작업으로 새 팀, 그룹 및 사이트 만들기 오류가 발생할 수 있습니다. 이러한 상황을 방지하려면 다음의 지침을 사용 하세요.
+사이트 및 그룹 설정을 사용하도록 설정된 민감도 레이블을 삭제하고 해당 레이블이 하나 이상의 레이블 정책에 포함된 경우, 이 작업으로 새 팀, 그룹 및 사이트 만들기 오류가 발생할 수 있습니다. 이러한 상황을 피하려면 다음 지침을 따르세요.
 
 1. 레이블이 포함된 모든 레이블 정책에서 민감도 레이블을 제거합니다.
 
@@ -233,19 +233,19 @@ SharePoint Online 관리 셸의 버전 16.0.19418.12000 이상을 보유하고 �
    $Id = [GUID]("e48058ea-98e8-4940-8db0-ba1310fd955e")
    ```
 
-4. URL에서 공통 식별 문자열을 포함하는 여러 사이트를 식별하는 새 변수를 만듭니다. 예제:
+4. URL에서 공통 식별 문자열을 포함하는 여러 사이트를 식별하는 새 변수를 만듭니다. 예를 들면 다음과 같습니다.
 
    ```powershell
    $sites = Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like 'documents"
    ```
 
-5. 다음 명령을 실행하여 이러한 사이트에 레이블을 적용합니다. 예제 사용:
+5. 다음 명령을 실행하여 이러한 사이트에 레이블을 적용합니다. 예제를 보겠습니다.
 
    ```powershell
    $sites | ForEach-Object {Set-SPOTenant $_.url -SensitivityLabel $Id}
    ```
 
-다른 사이트에 다른 레이블을 적용하려면 각 사이트에 대해 `Set-SPOSite -Identity <URL> -SensitivityLabel "<labelguid>"` 명령을 반복합니다.
+이 일련의 명령을 사용하면 테넌트 전체에 동일한 민감도 레이블을 사용하여 여러 사이트에 레이블을 지정합니다. 따라서 사이트 구성당 설정된 Set-SPOSite cmdlet이 아니라 Set-SPOTenant cmdlet을 사용하는 것입니다. 그러나 각 사이트에 대해 다음 명령을 반복하여 특정 사이트에 다른 레이블을 적용해야 하는 경우 Set-SPOSite cmdlet을 사용합니다.`Set-SPOSite -Identity <URL> -SensitivityLabel "<labelguid>"`
 
 ## <a name="view-and-manage-sensitivity-labels-in-the-sharepoint-admin-center"></a>SharePoint 관리 센터에서 민감도 레이블을 보고 관리하기
 
@@ -317,7 +317,7 @@ SharePoint에 이전 그룹 분류를 사용하는 방법에 대한 예제는 [S
 
 그런 다음 다음을 수행합니다.
 
-1. 이름 매핑과 함께 PowerShell을 사용하여 민감도 레이블을 기존 Microsoft 365 그룹 및 SharePoint 사이트에 적용합니다. 지침은 다음 섹션을 참조하세요.
+1. 이름 매핑과 함께 PowerShell을 사용하여 민감도 레이블을 기존 Microsoft 365 그룹 및 SharePoint 사이트에 적용합니다. 다음 섹션의 지침을 참조하세요.
 
 2. 기존 그룹과 사이트에서 이전 분류를 제거합니다.
 
@@ -347,7 +347,7 @@ SharePoint에 이전 그룹 분류를 사용하는 방법에 대한 예제는 [S
    $Groups= Get-UnifiedGroup | Where {$_.classification -eq "General"}
    ```
 
-6. 각 그룹에 새 민감도 레이블 GUID를 추가합니다. 예시:
+6. 각 그룹에 새 민감도 레이블 GUID를 추가합니다. 예를 들면 다음과 같습니다.
 
     ```PowerShell
     foreach ($g in $groups)

@@ -1,5 +1,5 @@
 ---
-title: 관리 센터의 Microsoft 365 보고서 - Dynamics 365 고객 음성 활동
+title: Microsoft 365 관리 센터의 보고서 - Dynamics 365 고객 음성 활동
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -14,28 +14,27 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 ms.custom: AdminSurgePortfolio
-ROBOTS: NOINDEX, NOFOLLOW
 search.appverid:
 - BCS160
 - MST160
 - MET150
 - MOE150
-description: Microsoft 365 관리 센터의 Microsoft 365 보고서 대시보드를 사용하여 Microsoft Dynamics 365 고객 음성 활동 보고서를 다운로드하는 방법을 학습합니다.
-ms.openlocfilehash: 1647379216d5021ab3fa6b55f1c5f32f57cdac91
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Microsoft 365 관리 센터의 보고서 대시보드를 사용하여 Microsoft Dynamics 365 고객 Microsoft 365 보고서를 다운로드하는 방법을 학습합니다.
+ms.openlocfilehash: 7975db1f3681ab0823e222f017f6addb514dafd7
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579665"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52242063"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---dynamics-365-customer-voice-activity"></a>관리 센터의 Microsoft 365 보고서 - Dynamics 365 고객 음성 활동
+# <a name="microsoft-365-reports-in-the-admin-center---dynamics-365-customer-voice-activity"></a>Microsoft 365 관리 센터의 보고서 - Dynamics 365 고객 음성 활동
 
 Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
   
-예를 들어 Dynamics 365 Customer Voice와의 상호 작용을 보고 Microsoft Dynamics 365 Customer Voice를 사용하기 위해 라이선스가 부여된 모든 사용자의 활동을 이해할 수 있습니다. 또한 만든 Pro 설문 조사 및 사용자가 응답한 Pro 설문 조사 수를 보고 진행되는 공동 작업 수준을 이해하는 데도 도움이 됩니다. 
+예를 들어 Dynamics 365 Customer Voice와의 상호 작용을 보고 Microsoft Dynamics 365 Customer Voice를 사용하기 위해 라이선스가 부여된 모든 사용자의 활동을 이해할 수 있습니다. 또한 사용자가 응답한 설문 조사를 Pro 수를 보고 Pro 진행되는 공동 작업 수준을 파악하는 데 도움이 됩니다. 
   
 > [!NOTE]
-> Microsoft 365의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 또는 Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자인 경우 보고서를 볼 수 있어야 합니다.  
+> 보고서를 표시하려면 Microsoft 365, Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 비즈니스용 Skype 있어야 합니다.  
  
 ## <a name="how-to-get-to-the-dynamics-365-customer-voice-activity-report"></a>Dynamics 365 고객 음성 활동 보고서에 도착하는 방법
 
@@ -48,7 +47,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 
 열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Dynamics 365 고객 음성 활동 보고서 - 열 선택](../../media/5ab66f4b-32eb-4c9b-9683-1157ae9e2c0a.png)
 
-내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 파일로 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
+내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
   
 |항목|설명|
 |:-----|:-----|

@@ -9,42 +9,42 @@ audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-description: 포함된 내용, 솔루션 카탈로그를 다운로드하는 방법 및 다음 단계를 포함하여 Microsoft 365 솔루션 카탈로그에 대해 알아보세요.
+description: 포함된 Microsoft 365, 솔루션 카탈로그를 다운로드하는 방법 및 다음 단계를 포함하여 솔루션 카탈로그에 대해 알아보세요.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: ea184b406c721601c76829c02496b2d9201eb1d1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 22110290f3d025a3e4c30b460a2381757fd481ca
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926346"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114426"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Microsoft 365 솔루션 카탈로그
 
-Microsoft 365에서 규정 준수 작업을 빠르게 시작하는 방법을 찾고 있나요? [Microsoft 365](https://compliance.microsoft.com/solutioncatalog) 솔루션 카탈로그를 확인하여 규정 준수 및 위험 관리 솔루션을 검색하고, 학습하고, 빠르게 시작할 수 있습니다.
+규정 준수 작업을 빠르게 시작할 수 있는 방법을 찾고 Microsoft 365? 규정 준수 [Microsoft 365](https://compliance.microsoft.com/solutioncatalog) 솔루션 카탈로그를 확인하여 규정 준수 및 위험 관리 솔루션을 검색하고, 학습하고, 빠르게 시작할 수 있습니다.
 
-Microsoft 365의 규정 준수 솔루션은 종단 내 준수 시나리오를 관리하는 데 사용할 수 있는 통합된 기능 모음입니다. 솔루션의 기능 및 도구에는 정책, 경고, 보고서의 조합이 포함되어 있을 수 있습니다.
+규정 준수 Microsoft 365 준수 시나리오를 관리하는 데 사용할 수 있는 통합 기능 모음입니다. 솔루션의 기능 및 도구에는 정책, 경고, 보고서 등 다양한 기능 조합이 포함되어 있을 수 있습니다.
 
-이 문서를 읽고 Microsoft 365 규정 준수 센터의 새 솔루션 [카탈로그,](#how-do-i-get-this)카탈로그를 다운로드하는 [방법,](#frequently-asked-questions)자주 묻는 질문 및 다음 단계에 대해 [알아보세요.](#next-steps)
+이 문서를 읽고 Microsoft 365 규정 준수 센터의 새 솔루션 [카탈로그,](#how-do-i-get-this)카탈로그를 다운로드하는 [](#frequently-asked-questions)방법, 자주 묻는 질문 및 다음 단계에 대해 [알아보세요.](#next-steps)
 
 ## <a name="catalog-organization"></a>카탈로그 조직
 
-솔루션 카탈로그는 Microsoft 365 구독에서 사용할 수 있는 각 준수 솔루션에 대한 정보 카드를 포함하는 섹션으로 구성됩니다. 각 섹션에는 준수 영역별로 그룹화된 솔루션용 카드가 포함되어 있습니다.
+솔루션 카탈로그는 사용자 구독에서 사용할 수 있는 각 준수 솔루션에 대한 정보 카드가 포함된 Microsoft 365 구성됩니다. 각 섹션에는 준수 영역별로 그룹화된 솔루션용 카드가 포함되어 있습니다.
 
-![Microsoft 365 솔루션 카탈로그 홈 페이지](../media/m365-solution-catalog-home.png)
+![Microsoft 365 카탈로그 홈 페이지](../media/m365-solution-catalog-home.png)
 
-솔루션 **카드에** 대한 보기를 선택하면 규정 준수 솔루션 및 시작 방법에 대한 자세한 정보가 표시됩니다. 이 정보에는 개요, 사전 구성 요구 사항, 학습 리소스, 카드를 탐색 창에 고정할 수 있는 컨트롤 및 솔루션을 링크, 전자 메일 또는 Microsoft Teams 메시지로 공유할 수 있는 옵션이 포함됩니다.
+솔루션 **카드에** 대한 보기를 선택하면 규정 준수 솔루션 및 시작 방법에 대한 자세한 정보가 표시됩니다. 이 정보에는 개요, 사전 구성 요구 사항, 학습 리소스, 카드를 탐색 창에 고정할 수 있는 컨트롤 및 솔루션을 링크, 전자 메일 또는 메시지로 공유하는 Microsoft Teams 포함됩니다.
 
-![Microsoft 365 통신 준수 솔루션](../media/m365-solution-catalog-communication-compliance.png)
+![Microsoft 365 커뮤니케이션 규정 준수 솔루션](../media/m365-solution-catalog-communication-compliance.png)
 
 ## <a name="information-protection--governance-section"></a>정보 보호 & 관리 섹션
 
-정보 **보호** & 섹션에서는 Microsoft 365 규정 준수 솔루션을 사용하여 조직의 데이터를 보호하고 관리하는 방법을 한 눈에 볼 수 있습니다.
+정보 **보호 &** 섹션에서는 조직의 데이터를 보호하고 관리하기 위해 Microsoft 365 솔루션을 사용하는 방법을 한 눈에 볼 수 있습니다.
 
-![Microsoft 365 솔루션 카탈로그 정보 보호 및 거버넌스 섹션](../media/m365-solution-catalog-information-protection-governance.png)
+![Microsoft 365 카탈로그 정보 보호 및 거버넌스 섹션](../media/m365-solution-catalog-information-protection-governance.png)
 
 여기에서 다음 솔루션에 대한 카드를 볼 수 있습니다.
 
-- [데이터 손실 방지:](data-loss-prevention-policies.md)조직, 클라우드 및 장치에서 사용 및 공유되는 중요한 콘텐츠를 감지하고 실수로 데이터가 손실되는 것을 방지하는 데 도움이 됩니다.
+- [데이터 손실 방지:](dlp-learn-about-dlp.md)조직, 클라우드 및 장치에서 사용 및 공유되는 중요한 콘텐츠를 감지하고 실수로 데이터가 손실되는 것을 방지하는 데 도움이 됩니다.
 - [정보](manage-information-governance.md)거버넌스: 솔루션으로 콘텐츠 수명 주기를 관리하여 비즈니스에 중요한 데이터를 가져오고 저장하고 분류하여 필요한 데이터를 보관하고 필요하지 않은 데이터를 삭제할 수 있습니다.
 - [정보 보호:](information-protection.md)조직 전체의 수명 주기 동안 중요하고 업무에 중요한 콘텐츠를 검색, 분류 및 보호합니다.
 - [레코드 관리:](records-management.md)지능형 분류를 사용하여 조직의 규정, 법률 및 업무상 중요한 레코드에 대한 보존 일정을 자동화하고 간소화합니다.
@@ -64,7 +64,7 @@ Microsoft 365의 규정 준수 솔루션은 종단 내 준수 시나리오를 �
 
 **홈페이지의** 검색 & 응답 섹션에서는 조직에서 관련 데이터와 관련된 규정 준수 문제를 빠르게 찾고, 조사하고, 대응하는 방법을 한 눈에 볼 수 있습니다.
 
-![Microsoft 365 솔루션 카탈로그 검색 및 응답 섹션](../media/m365-solution-catalog-discovery-response.png)
+![Microsoft 365 카탈로그 검색 및 응답 섹션](../media/m365-solution-catalog-discovery-response.png)
 
 여기에서 다음 솔루션에 대한 카드를 볼 수 있습니다.
 
@@ -76,19 +76,19 @@ Microsoft 365의 규정 준수 솔루션은 종단 내 준수 시나리오를 �
 
 ## <a name="how-do-i-get-this"></a>이 작업을 어떻게 하나요?
 
-Microsoft 365 솔루션 카탈로그를 방문하기 위해 으로 이동하여 전역 관리자, 규정 준수 관리자 또는 규정 준수 [https://compliance.microsoft.com](https://compliance.microsoft.com) 데이터 관리자로 로그인합니다. 화면 **왼쪽의** 탐색 창에서 카탈로그를 선택하여 카탈로그 홈 페이지를 열 수 있습니다.
+Microsoft 365 카탈로그를 방문하여 전역 관리자, 준수 관리자 또는 규정 준수 데이터 관리자로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 로그인합니다. 화면 **왼쪽의** 탐색 창에서 카탈로그를 선택하여 카탈로그 홈 페이지를 열 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
-**Microsoft 365 솔루션 카탈로그가 없는 이유는 무엇입니까?**
+**솔루션 카탈로그가 Microsoft 365 없는 이유는 무엇입니까?**
 
 먼저 적절한 라이선스 및 사용 권한이 있는지 확인 합니다. 그런 다음 에서 전역 관리자, 준수 관리자 또는 준수 데이터 [https://compliance.microsoft.com](https://compliance.microsoft.com) 관리자로 로그인합니다.
 
-**솔루션 카탈로그 페이지에 나열된 일부 규정 준수 기능은 Microsoft 365 규정 준수 센터에서 사용할 수 없습니다. 뭐 할까요?**
+**솔루션 카탈로그 페이지에 나열된 일부 규정 준수 기능은 조직 규정 준수 센터에서 사용할 Microsoft 365 없습니다. 뭐 할까요?**
 
-Microsoft는 항상 Microsoft 365 규정 준수 센터 및 솔루션 카탈로그에 새 기능을 추가하기 위해 작업하고 있습니다. 탐색 영역의 특정 솔루션을 찾을 수 없는 경우 구독에서 솔루션을 사용할 수 있을 때 해당 솔루션에 액세스할 수 있습니다.
+We're always working to add new functionality to the Microsoft 365 and the solution catalog. 탐색 영역의 특정 솔루션을 찾을 수 없는 경우 구독에서 솔루션을 사용할 수 있을 때 해당 솔루션에 액세스할 수 있습니다.
 
-기존 규정 준수 솔루션을 찾고 있으며 아직 Microsoft 365 규정 준수 센터에서 사용할 수 없는 경우 로 진행하여 기존 보안 및 준수 센터의 솔루션에 항상 액세스할 &amp; 수 [https://protection.office.com](https://protection.office.com) 있습니다. 또는 Microsoft 365  규정 준수 센터의 왼쪽 탐색 창에서 더 많은 리소스 탭을 클릭하고 Office 365 보안 및 규정 준수 센터 카드를 선택할 수 있습니다.  
+기존 규정 준수 솔루션을 찾고 있으며 아직 Microsoft 365 규정 준수 센터에서 사용할 수 없는 경우 로 진행하여 기존 보안 및 준수 센터의 솔루션에 항상 액세스할 &amp; 수 [https://protection.office.com](https://protection.office.com) 있습니다. 또는 규정 준수 센터의  왼쪽 탐색 창에서 더 많은 리소스 탭을 클릭하고 Microsoft 365 및 준수 센터 Office 365 선택할 수 있습니다.  
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -98,8 +98,8 @@ Microsoft는 항상 Microsoft 365 규정 준수 센터 및 솔루션 카탈로�
 
 - **커뮤니케이션 준수 정책에** 대해 알아보고 만들어 회사 행동 규범 위반을 신속하게 식별하고 수정합니다. 커뮤니케이션 [규정 준수를 참조합니다.](communication-compliance.md)
 
-- **Microsoft Information Protection**, Microsoft 365 솔루션이 거주하거나 이동하는 모든 곳에서 중요한 정보를 검색, 분류 및 보호하는 방법을 알아보십시오.
-    - **Microsoft Cloud App Security에** 대해 잘 아는 후 설정하세요. 빠른 [시작: Microsoft Cloud App Security 시작을 참조하세요.](/cloud-app-security/getting-started-with-cloud-app-security)
+- **Microsoft Information Protection에서는** 솔루션 솔루션이 Microsoft 365 장소에서 중요한 정보를 검색, 분류 및 보호하는 방법에 대해 알아보십시오.
+    - **에 대해** 잘 아는 후 를 Microsoft Cloud App Security. 빠른 [시작: 시작을](/cloud-app-security/getting-started-with-cloud-app-security)Microsoft Cloud App Security.
     - **분류자 를 시작 합니다.** 콘텐츠를 분류한 다음 적절히 보호하고 처리할 수 있도록 레이블을 지정하는 것이 정보 보호 분야를 위한 시작점입니다. 학습 [가능한 분류자에 대한 자세한 정보(미리 보기)를 참조합니다.](classifier-learn-about.md)
 
-- **Microsoft 365 솔루션** 카탈로그를 자주 방문하여 규정 준수 요구를 충족하는 데 도움이 되는 새 솔루션을 검토해야 합니다. 에서 [https://compliance.microsoft.com](https://compliance.microsoft.com) 로그인한 다음 왼쪽 탐색 창에서 **카탈로그를** 선택합니다.
+- **종종 Microsoft 365 솔루션** 카탈로그를 방문하여 규정 준수 요구를 충족하는 데 도움이 되는 새로운 솔루션을 검토해야 합니다. 에서 [https://compliance.microsoft.com](https://compliance.microsoft.com) 로그인한 다음 왼쪽 탐색 창에서 **카탈로그를** 선택합니다.

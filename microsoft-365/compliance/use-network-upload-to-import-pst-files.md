@@ -19,19 +19,19 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: '관리자: 네트워크 업로드를 사용하여 Microsoft 365의 사용자 사서함으로 여러 PST 파일을 대량으로 가져오는 방법에 대해 알아봅니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd747840827a5d8f37bbb9f6b4c4656b80df8b26
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: cf7f471a4323c4c03f232e93d2f00b930e53aefe
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034187"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114344"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>네트워크 업로드를 사용하여 조직의 PST 파일을 Microsoft 365로 가져오기
 
 > [!NOTE]
 > 이 문서는 관리자를 위해 작성되었습니다. PST 파일을 사서함으로 가져오려고 하나요? [Outlook .pst 파일에서 전자 메일, 연락처 및 일정 가져오기](https://go.microsoft.com/fwlink/p/?LinkID=785075)를 참조하세요.
   
-다음은 네트워크 업로드를 사용하여 여러 PST 파일을 Microsoft 365 사서함에 대량으로 가져오는 데 필요한 단계별 지침입니다. 네트워크 업로드를 사용하여 PST 파일을 Microsoft 365 사서함으로 대량으로 가져오기에 대한 질문과 대답은 [네트워크 업로드를 사용하여 PST 파일 가져오기에 대한 FAQ](faqimporting-pst-files-to-office-365.md#using-network-upload-to-import-pst-files)를 참조하세요.
+다음은 네트워크 업로드를 사용하여 여러 PST 파일을 Microsoft 365 사서함에 대량으로 가져오는 데 필요한 단계별 지침입니다. 네트워크 업로드를 사용하여 PST 파일을 Microsoft 365 사서함으로 대량으로 가져오기에 대한 질문과 대답은 [네트워크 업로드를 사용하여 PST 파일 가져오기에 대한 FAQ](./faqimporting-pst-files-to-office-365.yml#using-network-upload-to-import-pst-files)를 참조하세요.
   
 [1단계 : SAS URL을 복사하고 AzCopy를 설치](#step-1-copy-the-sas-url-and-install-azcopy)
 
@@ -53,14 +53,14 @@ Microsoft 365 사서함으로 PST 파일을 가져오려면 1단계를 한 번�
 
     또한 보안 및 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족되어야 합니다.
 
-  - Exchange Online에서 메일 받는 사람 역할을 할당받아야 합니다. 기본적으로 이 역할은 조직 관리 및 받는 사람 관리 역할 그룹에 할당됩니다.
+  - Exchange Online에서 전자 메일 받는 사람 역할을 할당받아야 합니다. 이 역할은 조직 관리 및 받는 사람 관리 역할 그룹에 기본값으로 할당됩니다.
 
     또는
 
   - 조직의 전역 관리자여야 합니다.
 
   > [!TIP]
-    > Exchange Online에서 PST 파일을 가져오기 위한 새로운 역할 그룹을 만드는 것이 좋습니다. PST 파일을 가져오는 데 필요한 최소 수준의 권한만 할당하려면 새 역할 그룹에 사서함 가져오기/내보내기 역할 및 메일 받는 사람 역할을 할당하고 구성원을 추가합니다.
+    > Exchange Online에 PST 파일을 가져오기 위한 새 역할 그룹을 만들어보겠습니다. PST 파일을 가져오는 데 필요한 최소 수준의 권한을 얻기 위해 새 역할 그룹에 사서함 가져오기 내보내기 및 메일 받는 사람 역할을 할당한 다음 구성원을 추가합니다.
   
 - PST 파일을 Microsoft 365로 가져오는 데 지원되는 유일한 방법은 이 항목에 설명된 대로 AzCopy 도구를 사용하는 것입니다. Azure 저장소 탐색기를 사용하여 PST 파일을 Azure 저장소 영역에 직접 업로드할 수 없습니다.
 
@@ -167,7 +167,7 @@ Microsoft 365 사서함으로 PST 파일을 가져오려면 1단계를 한 번�
 
 ## <a name="optional-step-3-view-a-list-of-the-pst-files-uploaded-to-office-365"></a>(선택 사항) 3단계: Office 365로 업로드된 PST 파일 목록 보기
 
-선택 사항 단계로, Microsoft Azure 저장소 탐색기(무료 오픈 소스 도구)를 설치한 후 사용하여 Azure Blob에 업로드한 PST 파일 목록을 확인할 수 있습니다. 이 작업을 수행하는 다음 두 가지 이유가 있습니다.
+선택 사항인 단계로, Microsoft Azure Storage Explorer(공개된 무료 오픈 소스 도구)를 설치하고 실행하여 Azure Blob에 업로드한 PST 파일 목록을 확인할 수 있습니다. 이 작업을 수행하는 두 가지 이유는 다음과 같습니다.
   
 - 조직의 공유 폴더 또는 파일 서버의 PST 파일이 Azure blob에 성공적으로 업로드되었는지 확인합니다.
 
@@ -198,7 +198,7 @@ Azure 저장소 탐색기를 설치하고 Azure 저장소 영역에 연결하려
   
 ## <a name="step-4-create-the-pst-import-mapping-file"></a>4단계: PST 가져오기 매핑 파일 만들기
 
-PST 파일을 조직의 Azure Storage 위치에 업로드한 후에는 PST 파일을 가져올 사용자 사서함을 지정하는 쉼표로 구분된 값(CSV) 파일을 만들어야 합니다. PST 가져오기 작업을 만드는 다음 단계에서 이 CSV 파일을 제출합니다.
+PST 파일을 조직의 Azure Storage 위치에 업로드한 후의 다음 단계는 가져온 PST 파일이 위치할 사용자 사서함을 지정하는 CSV(쉼표로 구분된 값) 파일을 만드는 것입니다. PST 가져오기 작업을 만드는 다음 단계에서 이 CSV 파일을 제출합니다.
   
 1. [PST 가져오기 매핑 파일의 사본을 다운로드](https://go.microsoft.com/fwlink/p/?LinkId=544717).
 
@@ -231,7 +231,7 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후에는 PST 파�
     | `FilePath` <br/> |2단계에서 PST 파일을 업로드한 Azure 저장소 위치에 폴더 위치를 지정합니다.  <br/> 2단계의 `/Dest:` 매개 변수에서 SAS URL에 선택적 하위 폴더 이름을 포함하지 않은 경우 CSV 파일에서 이 매개 변수를 비워 둡니다. 하위 폴더 이름을 포함한 경우 이 매개 변수에 이름을 지정합니다(두 번째 예제 참조). 이 매개 변수의 값은 대/소문자를 구분합니다.  <br/> 어느 쪽이든 `FilePath` 매개 변수 값에 "ingestiondata"를 포함하지 *마세요*.  <br/><br/> **중요:** 2단계의 `/Dest:` 매개 변수에서 SAS URL에 선택적 하위 폴더 이름을 포함한 경우에는 파일 경로 이름의 대/소문자가 사용자의 경우와 동일해야 합니다. 예를 들어 2단계에서 `PSTFiles`로 하위 폴더 이름을 사용한 다음 CSV 파일의 `FilePath` 매개 변수에서 `pstfiles`를 사용한 경우에는 PST 파일 가져오기가 실패하게 됩니다. 두 가지 경우 모두 같은 대/소문자를 사용해야 합니다.  <br/> |(공백으로 둠)  <br/> 또는  <br/>  `PSTFiles` <br/> |
     | `Name` <br/> |사용자 사서함으로 가져올 PST 파일의 이름을 지정합니다. 이 매개 변수의 값은 대/소문자를 구분합니다. 가져오기 작업의 매핑 파일의 각 PST 파일의 파일 이름은 고유해야 합니다. <br/> <br/>**중요:** CSV 파일의 PST 파일 이름의 대/소문자는 2단계에서 Azure 저장소 위치에 업로드 된 PST 파일과 동일해야 합니다. 예를 들어 CSV 파일의 `Name` 매개 변수에서 `annb.pst`을(를) 사용하지만 실제 PST 파일의 이름은 `AnnB.pst`인 경우 해당 PST 파일의 가져오기가 실패합니다. CSV 파일의 PST 이름은 실제 PST 파일과 동일한 대/소문자를 사용해야 합니다.  <br/> | `annb.pst` <br/> |
     | `Mailbox` <br/> |PST 파일을 가져올 사서함의 전자 메일 주소를 지정합니다. PST 가져오기 서비스는 공용 폴더에 PST 파일 가져오기를 지원하지 않으므로 공용 폴더를 지정할 수 없습니다.  <br/> PST 파일을 비활성 사서함으로 가져오려면 이 매개 변수의 사서함 GUID를 지정해야 합니다. 이 GUID를 얻으려면 Exchange Online에서 다음 PowerShell 명령을 실행합니다. `Get-Mailbox <identity of inactive mailbox> -InactiveMailboxOnly | FL Guid` <br/> <br/>**참고:** 경우에 따라 동일한 전자 메일 주소에 여러 사서함이 있을 수 있습니다. 이 경우 한 사서함은 활성 사서함이고 다른 사서함은 일시 삭제된 (또는 비활성) 상태일 수 있습니다. 이러한 상황에서는 PST 파일을 가져올 사서함을 고유하게 식별하기 위해 사서함 GUID를 지정해야 합니다. 활성 사서함에 대한 GUID를 얻으려면 다음 PowerShell 명령을 실행합니다. `Get-Mailbox <identity of active mailbox> | FL Guid` 일시 삭제된 (또는 비활성) 사서함에 대한 GUID를 얻으려면 이 명령을 실행합니다. `Get-Mailbox <identity of soft-deleted or inactive mailbox> -SoftDeletedMailbox | FL Guid`  <br/> | `annb@contoso.onmicrosoft.com` <br/> 또는  <br/>  `2d7a87fe-d6a2-40cc-8aff-1ebea80d4ae7` <br/> |
-    | `IsArchive` <br/> | PST 파일을 사용자의 보관 사서함으로 가져올 것인지 여부를 지정합니다. 다음 두 가지 옵션이 있습니다.  <br/><br/>**FALSE:**  PST 파일을 사용자의 기본 사서함으로 가져옵니다.  <br/> **TRUE:**  PST 파일을 사용자의 보관 사서함으로 가져옵니다. [사용자의 보관 사서함이 활성화](enable-archive-mailboxes.md)되어 있다고 가정합니다. <br/><br/>사용자의 보관 사서함이 활성화되지 않은 상태에서 이 매개 변수를 `TRUE`로 설정하면 해당 사용자의 가져오기가 실패합니다. (보관 사서함이 활성화되지 않은 상태에서 매개 변수를 `TRUE`로 설정하여) 한 사용자의 가져오기가 실패하더라도 다른 사용자의 가져오기 작업에는 영향을 주지 않습니다.  <br/>  매개 변수를 공란으로 두면 PST 파일을 사용자의 기본 사서함으로 가져옵니다.  <br/> <br/>**참고:** 기본 사서함이 온-프레미스에 존재하는 사용자에 대해 PST 파일을 클라우드 기반 보관 사서함으로 가져오려면 이 매개 변수를 `TRUE`로 설정하고 `Mailbox` 매개 변수에 대해 사용자의 온-프레미스 사서함의 전자 메일 주소를 지정합니다.  <br/> | `FALSE` <br/> 또는  <br/>  `TRUE` <br/> |
+    | `IsArchive` <br/> | PST 파일을 사용자의 보관 사서함으로 가져올 것인지 여부를 지정합니다. 다음 두 가지 옵션이 있습니다.<br/><br/>**FALSE:**  PST 파일을 사용자의 기본 사서함으로 가져옵니다.  <br/> **TRUE:**  PST 파일을 사용자의 보관 사서함으로 가져옵니다. [사용자의 보관 사서함이 활성화](enable-archive-mailboxes.md)되어 있다고 가정합니다. <br/><br/>사용자의 보관 사서함이 활성화되지 않은 상태에서 이 매개 변수를 `TRUE`로 설정하면 해당 사용자의 가져오기가 실패합니다. (보관 사서함이 활성화되지 않은 상태에서 매개 변수를 `TRUE`로 설정하여) 한 사용자의 가져오기가 실패하더라도 다른 사용자의 가져오기 작업에는 영향을 주지 않습니다.  <br/>  매개 변수를 공란으로 두면 PST 파일을 사용자의 기본 사서함으로 가져옵니다.  <br/> <br/>**참고:** 기본 사서함이 온-프레미스에 존재하는 사용자에 대해 PST 파일을 클라우드 기반 보관 사서함으로 가져오려면 이 매개 변수를 `TRUE`로 설정하고 `Mailbox` 매개 변수에 대해 사용자의 온-프레미스 사서함의 전자 메일 주소를 지정합니다.  <br/> | `FALSE` <br/> 또는  <br/>  `TRUE` <br/> |
     | `TargetRootFolder` <br/> | PST 파일을 가져올 사서함 폴더를 지정합니다.  <br/> <br/> 이 매개 변수를 공란으로 두면 PST 파일은 사서함의 루트 수준(받은 편지함 폴더 및 기타 기본 사서함 폴더와 같은 수준)에 있는 **가져온 파일** 이라는 새 폴더로 가져오게 됩니다.  <br/> <br/> `/`를 지정하는 경우 PST 파일의 폴더 및 항목을 대상 사서함 또는 보관 파일에서 폴더 구조의 맨 위로 가져옵니다. 대상 사서함에 폴더가 있는 경우 (예: 받은 편지함, 보낸 편지함, 받은 편지함, 지운 편지함 등 기본 폴더) PST에서 해당 폴더의 항목이 대상 사서함의 기존 폴더에 병합됩니다. 예를 들어 PST 파일에 받은 편지함 폴더가 있는 경우 해당 폴더의 항목을 대상 사서함의 받은 편지함 폴더로 가져오게 됩니다. 대상 사서함에 대한 폴더 구조에 폴더가 없으면 새 폴더를 만들 수 있습니다.  <br/><br/>  `/<foldername>`을 지정하는 경우 PST 파일의 항목 및 폴더를 *\<foldername\>* 이라는 폴더로 가져오게 됩니다. 예를 들어 `/ImportedPst`을 사용하는 경우 항목을 **importedPst** 라는 폴더로 가져오게 됩니다. 이 폴더는 받은 편지함 폴더와 같은 수준의 사용자 사서함에 있습니다.  <br/><br/> **팁:** PST 파일을 가져올 가장 적합한 폴더 위치를 결정할 수 있도록 몇 가지 테스트 배치를 실행하면서 이 매개 변수를 실험해볼 수 있습니다.   <br/> |(공백으로 둠)  <br/> 또는  <br/>  `/` <br/> 또는  <br/>  `/ImportedPst` <br/> |
     | `ContentCodePage` <br/> |이 선택적 매개 변수는 ANSI 파일 형식으로 PST 파일을 가져오는 데 사용할 코드 페이지의 숫자 값을 지정합니다. 이 매개 변수는 중국어, 일본어 및 한국어 (CJK) 조직에서 PST 파일을 가져오는 데 사용됩니다. 이러한 언어는 일반적으로 문자 인코딩에 2 바이트 문자 세트 (DBCS)를 사용하기 때문입니다. 사서함 폴더 이름으로 DBCS를 사용하는 언어의 PST 파일을 가져오는 데 이 매개 변수를 사용하지 않으면, 가져온 후에 폴더 이름이 왜곡되는 경우가 많습니다.  <br/><br/> 이 매개 변수를 사용하는 데 지원되는 값의 목록은 [코드 페이지 식별자](/windows/win32/intl/code-page-identifiers)를 참조하세요.  <br/> <br/>**참고:** 앞서 설명한 것처럼 이것은 선택적 매개 변수이며 CSV 파일에 포함하지 않아도 됩니다. 또는 포함하고 하나 이상의 행에 대해 값을 비워둘 수 있습니다.  <br/> |(공백으로 둠)  <br/> 또는  <br/>  `932` (ANSI/OEM 일본어에 대한 코드 페이지 식별자)  <br/> |
     | `SPFileContainer` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
@@ -322,7 +322,7 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후에는 PST 파�
 
   - 이러한 데이터는 클라우드에 저장되므로 모든 장치에서 사용할 수 있습니다.
 
-  - 가져온 PST 파일의 데이터에 Microsoft 365 규정 준수 기능을 적용하여 조직의 규정 준수 요구 사항을 해결하는 데 도움이 됩니다. 여기에는 다음이 포함됩니다.
+  - 이는 가져온 PST 파일의 데이터에 Microsoft 365 규정 준수 기능을 적용하여 조직의 규정 준수 요구 사항을 해결하는 데 도움이 됩니다. 여기에는 다음이 포함됩니다.
 
   - [보관 사서함](enable-archive-mailboxes.md) 및 [자동 확장 보관](enable-unlimited-archiving.md)을 사용하면 사용자에게 가져온 데이터를 저장할 수 있는 추가적인 사서함 저장 공간이 제공됩니다.
 
@@ -336,7 +336,7 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후에는 PST 파�
 
   - 데이터를 [비활성 사서함](create-and-manage-inactive-mailboxes.md)으로 가져와 규정 준수를 위해 데이터를 보관합니다. 
 
-  - [데이터 손실 방지 정책](data-loss-prevention-policies.md)을 사용하여 중요한 데이터가 조직 외부로 유출되는 것을 방지합니다.
+  - [데이터 손실 방지 정책](dlp-learn-about-dlp.md)을 사용하여 중요한 데이터가 조직 외부로 유출되는 것을 방지합니다.
   
 - 다음은 1단계에서 획득한 SAS (공유 액세스 서명) URL의 예입니다. 이 예에서는 PST 파일을 업로드하기 위해 AzCopy.exe 도구에서 실행하는 명령 구문도 포함되어 있습니다. 암호 또는 기타 보안 관련 정보를 보호하는 것처럼 주의해서 SAS URL을 보호해야 합니다.
 

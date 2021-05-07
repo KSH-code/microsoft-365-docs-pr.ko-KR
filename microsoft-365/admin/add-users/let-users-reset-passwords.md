@@ -25,24 +25,24 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: 셀프 서비스 암호 재설정 도구를 사용하여 암호를 다시 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 0842430eda8c96647dd12d0da6d0c9e0481346dc
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: d24e826287f69f867fdaf9a5c8b424dbad4e0ebb
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023764"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241835"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
-Microsoft 365 관리자는 사용자가 셀프 서비스 [](https://go.microsoft.com/fwlink/p/?LinkId=522677) 암호 재설정 도구를 사용할 수 있도록 하여 암호를 다시 설정하지는 않습니다. 관리자의 업무를 덜 수 있습니다!
+관리자는 Microsoft 365 셀프 서비스 암호 재설정 도구를 [](https://go.microsoft.com/fwlink/p/?LinkId=522677) 사용할 수 있도록 하여 암호를 다시 설정할 수 있습니다. 관리자의 업무를 덜 수 있습니다!
   
 ## <a name="before-you-begin"></a>시작하기 전에
   
-- Microsoft 365 비즈니스,  교육 또는 비영리 유료 요금제로 클라우드 사용자에 대한 셀프 서비스 암호 재설정을 무료로 받을 수 있습니다. Microsoft 365 평가판에서는 작동하지 않습니다.
+- 클라우드 사용자에 대해 비즈니스,  교육 또는 비영리 Microsoft 365 셀프 서비스 암호 재설정을 무료로 받을 수 있습니다. 평가판에서는 작동하지 Microsoft 365 않습니다.
 
 - Azure를 사용합니다. 이러한 단계를 수행할 때 자동으로 Azure의 이 기능을 **무료** 로 이용할 수 있습니다. 다른 Azure 기능을 사용하지 않으면 셀프 서비스 암호 재설정을 사용하는 비용이 부과되지 않습니다.
 
-- **If you're using an on-premises Active Directory**, the above two points don't apply. 대신 이를 설정할 수 있지만 Azure AD Premium에 대한 유료 **구독이 필요합니다.**
+- **If you're using an on-premises Active Directory**, the above two points don't apply. 대신 이를 설정할 수 있지만 Azure AD 에 대한 유료 구독이 **Premium.**
 
 회사, 학교 또는 비영리용 암호 만료 정책을 설정하는 사용자를 위한 문서입니다. 이 단계를 완료하려면 Microsoft 365 관리자 계정으로 로그인해야 합니다. [관리자 계정이란?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview)
 
@@ -57,24 +57,8 @@ Microsoft 365 관리자는 사용자가 셀프 서비스 [](https://go.microsoft
 ## <a name="steps-let-people-reset-their-own-passwords"></a>단계: 사용자가 암호를 직접 재설정할 수 있도록 합니다.
 
 다음 단계에서는 비즈니스의 모든 사용자에 대해 셀프 서비스 암호 재설정을 켭니다.
-  
-::: moniker range="o365-worldwide"
 
-1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">센터에서</a>설정 구성 **설정** > **페이지로 이동합니다.**
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">센터에서</a>설정 보안 개인 정보  \> **페이지로 &amp;** 이동합니다.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">센터에서</a>설정 설정 **보안** 개인 정보 \>  \> **페이지로 &amp;** 이동합니다.
-
-::: moniker-end
+1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">센터에서</a>관리 설정   >  **페이지로** 이동합니다.
 
 2. At the top of the **Org settings** page, select the **Security & Privacy** tab.
   

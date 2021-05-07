@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: SharePoint 및 OneDrive의 레이블이 지정되고 암호화된 문서에 대해 데스크톱 앱에서 공동 작성 및 자동 저장을 사용할 수 있도록 설정하세요.
-ms.openlocfilehash: 34c674dc5fb9be9cb5572ce1f14e11a0f8ab14ae
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: a35e9fe818d697667ecf002a232d84f90cf53a61
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034227"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764367"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>민감도 레이블로 암호화된 파일에 공동 작성 사용
 
@@ -60,7 +60,7 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
 
 - 사양 열기: [2.6.3 LabelInfo와 사용자 지정 문서 속성의 대비](/openspecs/office_file_formats/ms-offcrypto/13939de6-c833-44ab-b213-e0088bf02341)
 
-조직 내에 이전 위치에 레이블 지정 메타데이터를 읽거나 쓰는 앱, 서비스, 스크립트 또는 도구가 있다면, 이러한 변경 때문에 이 설정을 사용하지 마세요. 그렇게 한다면, 예를 들어 다음과 같은 결과가 나타납니다.
+조직 내에 이전 위치에 레이블 지정 메타데이터를 읽거나 쓰는 앱, 서비스, 스크립트 또는 도구가 있다면, 이러한 변경 때문에 이 설정을 사용하지 마세요. 그럴 경우 다음과 같은 결과가 나타날 수 있습니다.
 
 - 레이블을 지정한 문서가 사용자에게 레이블이 없는 것으로 표시됨
 
@@ -104,7 +104,7 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
     - **Microsoft Information Protection SDK를 사용하는 앱 및 서비스:** 
         - 1.7 최소 버전 
 
-이 기능을 사용하면, Microsoft 365 서비스가 자동으로 새 레이블 지정 메타데이터를 지원합니다. 예:
+이 기능을 사용하면 Microsoft 365 서비스가 자동으로 새 레이블 지정 메타데이터를 지원합니다. 다음은 그 예시입니다.
 
 - [자동 레이블 지정 정책](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)
 - [민감도 레이블을 조건으로 사용하는 DLP 정책](dlp-sensitivity-label-as-condition.md)
@@ -140,7 +140,7 @@ Office 데스크톱 앱에 공동 작성을 지원하는 설정을 하기 전, �
 ## <a name="how-to-enable-co-authoring-for-files-with-sensitivity-labels"></a>민감도 레이블이 있는 파일에 공동 작성을 사용하는 방법
 
 > [!CAUTION]
-> 이 설정을 켜는 것은 단방향 작업입니다. 기능이 미리 보기에 있는 동안에는 비프로덕션 환경에서만 해당 기능을 테스트하고, 이 페이지에서 설명하는 메타데이터 변경 내용, 필수 구성 요소, 제한 사항 및 알려진 문제를 읽고 이해한 후에만 실시합니다.
+> 이 설정은 한 번 켜고 나면 다시 끌 수 없습니다. 기능이 미리 보기에 있는 동안에는 비프로덕션 환경에서만 해당 기능을 테스트하고, 이 페이지에서 설명하는 메타데이터 변경 내용, 필수 구성 요소, 제한 사항 및 알려진 문제를 읽고 이해한 후에만 설정을 변경해 주세요.
 
 Microsoft 365 규정 준수 센터에서 이 설정에 액세스하려면, 미리 보기 중에 특정 URL을 사용해야 합니다.
 
@@ -179,6 +179,6 @@ Microsoft 365 규정 준수 센터에서 이 설정에 액세스하려면, 미�
 
 - 설정이 가능한 동안에 사용한 Office 문서의 새 메타데이터 형식 및 위치는 원래의 형식 및 위치로 복사되지 않습니다. 결과적으로, 암호화되지 않은 Word, Excel 및 PowerPoint 파일의 이 레이블 지정 정보가 손실됩니다.
 
-- 공동 작성 및 자동 저장은 테넌트에서 더 이상 작동하지 않습니다.
+- 레이블이 지정되고 암호화된 문서에 대한 공동 작성 및 자동 저장이 더는 지원되지 않습니다.
 
 - 민감도 레이블은 OneDrive 및 SharePoint의 Office 파일에 사용 가능한 상태로 유지됩니다.

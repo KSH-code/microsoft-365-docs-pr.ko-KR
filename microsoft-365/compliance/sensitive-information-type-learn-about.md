@@ -16,16 +16,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 12a4e8873cb7212bfa7dde12bba9e98528cd859a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 01dd5feab17c68eed1da9d66c4310c50e90032c6
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919674"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114228"
 ---
 # <a name="learn-about-sensitive-information-types"></a>중요한 정보 유형에 대해 자세히 알아보기
 
-조직에서 제어하는 중요한 항목을 식별하고 분류하는 것은 정보 보호 분야 의 [첫 번째 단계입니다.](./information-protection.md)  Microsoft 365는 항목을 분류할 수 있도록 다음 세 가지 방법으로 항목을 식별합니다.
+조직에서 제어하는 중요한 항목을 식별하고 분류하는 것은 정보 보호 분야 의 [첫 번째 단계입니다.](./information-protection.md)  Microsoft 365 분류할 수 있도록 항목을 식별하는 세 가지 방법을 사용할 수 있습니다.
 
 - 사용자가 수동으로
 - 중요한 정보 유형과 같은 자동화된 패턴 인식
@@ -35,9 +35,10 @@ ms.locfileid: "50919674"
 
 ## <a name="sensitive-information-types-are-used-in"></a>중요한 정보 유형이 사용
 
-- [데이터 손실 방지 정책](data-loss-prevention-policies.md) 
+- [데이터 손실 방지 정책](dlp-learn-about-dlp.md) 
 - [민감도 레이블](sensitivity-labels.md)
 - [보존 레이블](retention.md)
+- [내부자 위험 관리](insider-risk-management.md)
 - [커뮤니케이션 규정 준수](communication-compliance.md)
 - [자동 레이블 지정 정책](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
 
@@ -65,7 +66,7 @@ ms.locfileid: "50919674"
 
 ## <a name="argentina-national-identity-dni-number"></a>아르헨티나 국가 ID(DNI) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>포맷
 
 마침표로 구분된 8자리 숫자
 
@@ -78,9 +79,9 @@ ms.locfileid: "50919674"
 - 기간
 - 3자리 숫자
 
-### <a name="checksum"></a>체크 um
+### <a name="checksum"></a>체크섬
 
-아니요
+아니요.
 
 ### <a name="definition"></a>정의
 
@@ -143,7 +144,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 
 
 > [!NOTE]
-> Microsoft 365 서비스에 대한 데이터 손실 방지, Microsoft 365 서비스에 대한 Microsoft Information Protection, 통신 규정 준수, 정보 거버넌스 및 레코드 관리 내에서 향상된 신뢰 수준을 즉시 사용할 수 있습니다.
+> 향상된 신뢰 수준은 Microsoft 365 서비스에 대한 데이터 손실 방지, Microsoft 365 서비스에 대한 Microsoft Information Protection, 커뮤니케이션 규정 준수, 정보 거버넌스 및 레코드 관리 내에서 즉시 사용할 수 있습니다.
 
 > Microsoft 365 Information Protection은 이제 다음에 대해 미리보기 더블 바이트 문자 집합 언어를 지원합니다.
 > - 중국어(간체)

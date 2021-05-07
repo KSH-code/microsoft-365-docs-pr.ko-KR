@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: '비즈니스용 계정과 연결된 전자 메일 별칭이라는 전자 메일 주소를 두 개 이상 사용할 Microsoft 365 방법을 알아보습니다. '
-ms.openlocfilehash: 00e1c55edfcfa9937ab6a18b4bf268adb858b775
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: fd5fe2906335c8c2d1f41ac7643b7312138e15f5
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107125"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241691"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>사용자의 다른 전자 메일 별칭 추가
   
@@ -44,12 +44,8 @@ ms.locfileid: "52107125"
 > 여러 사용자가 단일 전자 메일 주소(info@NodPublishers.com 또는 전자 메일 주소로 전송된 전자 메일을 sales@NodPublishers.com 사서함을 만들 수 있습니다. 자세한 내용은 공유 사서함 [만들기를 참조합니다.](create-a-shared-mailbox.md)
   
 ## <a name="add-email-aliases-to-a-user"></a>사용자에게 전자 메일 별칭 추가
-<a name="AddEmailPreview"> </a>
 
 이렇게하려면 관리자 [권한이](../add-users/about-admin-roles.md) 있어야 합니다. 
-
-  
-::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
@@ -77,73 +73,7 @@ ms.locfileid: "52107125"
   
 7. **사용자가 답장할 때 *From* 주소는 사용자의 클라이언트에 Outlook 않습니다. Outlook 웹에서 전자 메일이 수신된 별칭을 사용하게 됩니다(이를 ping-pong 원칙으로 지칭). Outlook 데스크톱에서 기본 전자 메일 별칭을 사용할 것입니다.** 예를 들어 메시지가 전자 메일로 전송된 Sales@NodPublishers.com 지민의 받은 편지함으로 도착하는 경우를 예로 들어 보겠습니다. Eliza가 Outlook 데스크톱을 사용하여 메시지에 응답하면 기본 전자 메일 주소가 Eliza@NodPublishers.com 아닌 Sales@NodPublishers.com.
     
-::: moniker-end
-
-::: moniker range="o365-germany"
-    
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
-    
-    
-2. **활성 사용자** 페이지에서 편집할 사용자 이름을 선택합니다.
-
-3. 사용자 **이름/ 전자 메일 별칭 옆에 있는 편집** 을 **선택합니다.**
-
-    > [!Important] 
-    > "매개 변수 이름 **'EmailAddresses와** 일치하는 매개 변수를 찾을 수 없습니다.'라는 오류 메시지가 표시될 경우 테넌트 또는 최근에 사용자 지정 도메인을 추가한 경우 사용자 지정 도메인 설정을 완료하는 데 시간이 더 오래 드는 것입니다. 설정 프로세스를 완료하는 데 최대 4시간이 걸릴 수 있습니다. 설정 프로세스가 완료될 때까지 기다린 후 다시 시도하세요. 문제가 계속되는 경우 고객 지원에 문의하면 전체 동기화를 수행해 드립니다.
-
-4. 별칭 아래에 **있는** 텍스트 상자에 새 전자 메일 별칭의 첫 번째 부분을 입력합니다. Microsoft 365에 고유 도메인을 추가한 경우 드롭다운 목록을 사용하여 새 전자 메일의 도메인을 선택할 수 있습니다. 그런 다음 **추가** 를 선택합니다.
-
-    > [!IMPORTANT]
-    > GoDaddy 또는 다른 파트너로부터 구독을 구입한 경우 새 별칭을 기본으로 설정하려면 GoDaddy/파트너 관리 콘솔로 이동해야 합니다. 
-  
-    > [!TIP]
-    > 전자 메일 별칭은 드롭다운 목록의 도메인으로 끝나야 합니다. 목록에 다른 도메인 이름을 추가하려면 [Add a domain to Microsoft 365.](../setup/add-domain.md) 
-
-5. 작업을 마치면 **저장** 을 선택합니다.
-
-6. 새 별칭이 전체적으로 채워지기까지 24시간 Microsoft 365. 
-    
-    이제 사용자에게 기본 주소와 별칭이 있습니다. 예를 들어 Eliza Hoffman의 기본 주소인 Eliza@NodPublishers.com 및 별칭인 Sales@NodPublishers.com 메일은 모두 지민의 받은 편지함으로 이동됩니다.
-    
-  
-7. **사용자가 답장할 때 *From* 주소는 사용자의 클라이언트에 Outlook 않습니다. Outlook 웹에서 전자 메일이 수신된 별칭을 사용하게 됩니다(이를 ping-pong 원칙으로 지칭). Outlook 데스크톱에서 기본 전자 메일 별칭을 사용할 것입니다.** 예를 들어 메시지가 전자 메일로 전송된 Sales@NodPublishers.com 지민의 받은 편지함으로 도착하는 경우를 예로 들어 보겠습니다. Eliza가 Outlook 데스크톱을 사용하여 메시지에 응답하면 기본 전자 메일 주소가 Eliza@NodPublishers.com 아닌 Sales@NodPublishers.com.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
-
-    
-2. **활성 사용자** 페이지에서 편집할 사용자 이름을 선택합니다.
-
-3. 사용자 **이름/ 전자 메일 별칭 옆에 있는 편집** 을 **선택합니다.**
-
-    > [!Important] 
-    > "매개 변수 이름 **'EmailAddresses와** 일치하는 매개 변수를 찾을 수 없습니다.'라는 오류 메시지가 표시될 경우 테넌트 또는 최근에 사용자 지정 도메인을 추가한 경우 사용자 지정 도메인 설정을 완료하는 데 시간이 더 오래 드는 것입니다. 설정 프로세스를 완료하는 데 최대 4시간이 걸릴 수 있습니다. 설정 프로세스가 완료될 때까지 기다린 후 다시 시도하세요. 문제가 계속되는 경우 고객 지원에 문의하면 전체 동기화를 수행해 드립니다.
-
-4. 별칭 아래에 **있는** 텍스트 상자에 새 전자 메일 별칭의 첫 번째 부분을 입력합니다. Microsoft 365에 고유 도메인을 추가한 경우 드롭다운 목록을 사용하여 새 전자 메일의 도메인을 선택할 수 있습니다. 그런 다음 **추가** 를 선택합니다.
-
-    > [!IMPORTANT]
-    > GoDaddy 또는 다른 파트너로부터 구독을 구입한 경우 새 별칭을 기본으로 설정하려면 GoDaddy/파트너 관리 콘솔로 이동해야 합니다. 
-  
-    > [!TIP]
-    > 전자 메일 별칭은 드롭다운 목록의 도메인으로 끝나야 합니다. 목록에 다른 도메인 이름을 추가하려면 [Add a domain to Microsoft 365.](../setup/add-domain.md) 
-
-5. 작업을 마치면 **저장** 을 선택합니다.
-
-6. 새 별칭이 전체적으로 채워지기까지 24시간 Microsoft 365. 
-    
-    이제 사용자에게 기본 주소와 별칭이 있습니다. 예를 들어 Eliza Hoffman의 기본 주소인 Eliza@NodPublishers.com 및 별칭인 Sales@NodPublishers.com 메일은 모두 지민의 받은 편지함으로 이동됩니다.
-    
-  
-7. **사용자가 답장할 때 *From* 주소는 사용자의 클라이언트에 Outlook 않습니다. Outlook 웹에서 전자 메일이 수신된 별칭을 사용하게 됩니다(이를 ping-pong 원칙으로 지칭). Outlook 데스크톱에서 기본 전자 메일 별칭을 사용할 것입니다.** 예를 들어 메시지가 전자 메일로 전송된 Sales@NodPublishers.com 지민의 받은 편지함으로 도착하는 경우를 예로 들어 보겠습니다. Eliza가 Outlook 데스크톱을 사용하여 메시지에 응답하면 기본 전자 메일 주소가 Eliza@NodPublishers.com 아닌 Sales@NodPublishers.com.
-
-::: moniker-end
-
-
 ## <a name="did-you-get-a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>"매개 변수 이름 EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다."가 있나요?
-
 
 "매개 변수 이름 **EmailAddresses와** 일치하는 매개 변수를 찾을 수 없습니다." 오류 메시지가 표시될 경우 테넌트 또는 최근에 사용자 지정 도메인을 추가한 경우 사용자 지정 도메인 설정이 완료됩니다. 설정 프로세스를 완료하는 데 최대 4시간이 걸릴 수 있습니다. 설정 프로세스가 완료될 때까지 기다린 후 다시 시도하세요. 문제가 계속되는 경우 고객 지원에 문의하면 전체 동기화를 수행해 드립니다.
   

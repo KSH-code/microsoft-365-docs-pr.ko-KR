@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: d645d185524d111af4eafed4b5fba06483525a85
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 23320d962b52e1a443d459cb6b57d444fca91592
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920078"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939312"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -52,14 +52,14 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
 
 - **콘텐츠가 이미 저장되었거나(SharePoint 또는 OneDrive) 전자 메일로 전송(Exchange Online에서 처리됨)된 경우 서비스쪽 레이블 지정**: 자동 레이블 지정 정책을 사용합니다. 
     
-    또한 유휴 데이터(SharePoint 및 OneDrive의 문서) 및 전송 중인 데이터(Exchange에서 보내거나 받은 전자 메일)에 대한 자동 레이블 지정이라고 부르는 경우도 있습니다. Exchange의 경우 유휴 전자 메일(사서함)은 포함되지 않습니다.
+    이 메서드는 미사용 데이터(SharePoint 및 OneDrive의 문서) 및 전송 중인 데이터(Exchange에서 보내거나 받은 전자 메일)에 대한 자동 레이블 지정이라고 불리기도 합니다. Exchange의 경우에는 미사용 전자 메일(사서함)을 포함하지 않습니다.
     
     이 레이블 지정은 응용 프로그램이 아닌 서비스에서 적용되므로 사용자에게 어떤 버전의 앱이 있는지 걱정할 필요가 없습니다. 따라서 이 기능은 조직 전체에서 즉시 사용할 수 있으며 대규모로 레이블을 지정하는 데 적합합니다. 자동 레이블 지정 정책은 사용자가 레이블 지정 프로세스와 상호 작용하지 않기 때문에 권장되는 레이블 지정을 지원하지 않습니다. 대신 관리자가 시뮬레이션 모드에서 정책을 실행하여 실제로 레이블을 적용하기 전에 콘텐츠의 올바른 레이블을 확인합니다.
     
     구성 지침은 이 페이지에서 [SharePoint, OneDrive 및 Exchange에 대한 자동 레이블 지정 정책을 구성하는 방법](#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)을 참조하세요.
     
     SharePoint 및 OneDrive에 대한 자동 레이블 지정에만 해당:
-    - Word, PowerPoint 및 Excel용 Office 파일이 지원됩니다. Open XML 형식(예: .docx 및 .xlsx)은 지원되지만, Microsoft Office 97~2003 형식(예: .doc 및 .xls)은 지원되지 않습니다.
+    - Word, PowerPoint, Excel Office 파일은 지원됩니다. Open XML 형식(예: .docx, .xlsx)은 지원되지만, Microsoft Office 97~2003 형식(예: .doc, .xls)은 지원되지 않습니다.
         - 이러한 파일은 자동 레이블 지정 정책이 작성되기 전이나 만들어진 후에 유휴 상태로 자동 레이블링될 수 있습니다. 파일이 열려 있는 세션(파일이 열려 있는 경우)의 일부인 경우 자동 레이블을 지정할 수 없습니다.
     - 테넌트에서 하루 최대 25,000개의 자동 레이블 지정 파일 수.
     - 최대 10개의 사이트 (SharePoint 또는 OneDrive)를 대상으로 하는 테넌트당 최대 10개의 자동 레이블 정책.
@@ -67,11 +67,13 @@ Microsoft 365에서 콘텐츠에 민감도 레이블을 자동으로 적용하�
     - 레이블이 암호화를 적용하는 경우 [권한 관리 발행자 및 권한 관리 소유자](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)는 파일을 마지막으로 수정한 계정입니다.
 
     Exchange 자동 레이블 지정에만 해당:
-    - Office 앱을 사용하여 수동 레이블 지정 또는 자동 레이블 기능과 달리 Office 첨부 파일 (Word, Excel 및 PowerPoint 파일) 및 PDF 첨부 파일도 자동 레이블 지정 정책에서 지정한 조건에 대해 검사합니다. 일치하는 항목이 있는 경우 전자 메일에 레이블이 표시되지만 첨부 파일에는 표시되지 않습니다.
+    - Office 앱을 사용하는 수동 레이블 지정 또는 자동 레이블 기능과는 달리, Office 첨부 파일(Word, Excel, PowerPoint 파일)과 PDF 첨부 파일에도 자동 레이블 지정 정책에서 지정한 조건에 대한 검사가 실시됩니다. 일치하는 경우 전자 메일에는 레이블이 지정되지만 첨부 파일에는 지정되지 않습니다.
         - Office 파일의 경우, Open XML 형식(예: .docx 및 .xlsx)은 지원되지만, Microsoft Office 97~2003 형식(예: .doc 및 .xls)은 지원되지 않습니다.
     - IRM 암호화를 적용하는 Exchange 메일 흐름 규칙 또는 DLP(데이터 손실 방지) 정책이 있는 경우: 이러한 규칙 또는 정책과 자동 레이블 지정 정책으로 콘텐츠를 식별하면 레이블이 적용됩니다. 해당 레이블이 암호화를 적용하면 Exchange 메일 흐름 규칙 또는 DLP 정책의 IRM 설정이 무시됩니다. 그러나 해당 레이블에 암호화가 적용되지 않으면 레이블과 더불어 메일 흐름 규칙 또는 DLP 정책의 IRM 설정이 적용됩니다.
     - 레이블이 없는 IRM 암호화를 포함하는 전자 메일은 자동 레이블 지정을 사용하여 일치하는 항목이 있는 경우 모든 암호화 설정이 있는 레이블로 대체됩니다.
-    - 자동 레이블 지정 조건과 일치하는 경우 받는 전자 메일에 레이블이 지정됩니다. 그러나 레이블이 암호화로 구성되면 암호화가 적용되지 않습니다.
+    - 자동 레이블 지정 조건과 일치하는 경우 수신 전자 메일에 레이블이 지정됩니다.
+        - [암호화](encryption-sensitivity-labels.md)를 위해 레이블을 구성하는 경우 해당 암호화는 적용되지 않습니다.
+        - [동적 표시](sensitivity-labels-office-apps.md#dynamic-markings-with-variables)를 적용하기 위해 레이블을 구성하는 경우, 결과에 조직 외부 사용자의 이름이 표시될 수 있다는 사실을 명심하세요.
     - 레이블이 암호화를 적용하는 경우 [권한 관리 발행자 및 권한 관리 소유자](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)는 전자 메일을 보낸 사람입니다.
     
 
@@ -118,7 +120,7 @@ Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection
 
 ![Office 앱에서 자동 레이블 지정에 대한 레이블 조건](../media/sensitivity-labels-conditions.png)
 
-이 민감도 레이블이 자동으로 적용되면 사용자는 Office 앱에서 알림을 보게 됩니다. 예시:
+이 민감도 레이블이 자동으로 적용되면 사용자는 Office 앱에서 알림을 보게 됩니다. 다음은 그 예시입니다.
 
 ![문서에 레이블이 자동 적용되었다는 알림](../media/sensitivity-labels-msg-doc-was-auto-labeled.PNG)
 
@@ -128,7 +130,7 @@ Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection
 
 ![Office 앱에서 자동 레이블 지정을 위한 중요한 정보 유형](../media/sensitivity-labels-sensitive-info-types.png)
 
-DLP 정책을 구성할 때와 마찬가지로 인스턴스 수와 정확성을 변경하여 조건을 구체화할 수 있습니다. 예:
+DLP 정책을 구성할 때와 마찬가지로 인스턴스 수와 일치 정확성을 변경하여 조건을 구체화할 수 있습니다. 다음은 그 예시입니다.
 
 ![일치 정확도 및 인스턴스 수 옵션](../media/sensitivity-labels-instance-count-match-accuracy.png)
 
@@ -164,21 +166,21 @@ DLP 정책을 구성할 때와 마찬가지로 인스턴스 수와 정확성을 
 
 ### <a name="recommend-that-the-user-applies-a-sensitivity-label"></a>사용자가 민감도 레이블을 적용하는 것이 좋습니다.
 
-원하는 경우 사용자에게 레이블을 적용할 것을 권장할 수 있습니다. 이 옵션을 사용하면 사용자가 분류 및 관련 보호를 수락하거나, 레이블이 콘텐츠에 적합하지 않은 경우에는 권장 사항을 취소할 수 있습니다.
+원한다면 사용자에게 레이블을 적용하도록 권장할 수 있습니다. 이 옵션을 사용하면 사용자가 분류와 모든 관련 보호를 수락할 수 있으며, 사용자 콘텐츠에 레이블이 적합하지 않다면 권장 사항을 무시할 수 있습니다.
 
-![사용자에게 민감도 레이블 권장 옵션](../media/Sensitivity-labels-Recommended-label-option.png)
+![사용자에게 민감도 레이블을 권장하기 위한 옵션](../media/Sensitivity-labels-Recommended-label-option.png)
 
-다음은 사용자 지정 정책 팁을 사용하여 레이블을 권장 작업으로 적용하도록 조건을 구성할 때 Azure Information Protection 통합 레이블 지정 클라이언트에서 표시되는 프롬프트의 예입니다. 정책 팁에 표시될 텍스트를 선택할 수 있습니다.
+다음은 사용자 지정 정책 팁을 사용하여 레이블을 권장 작업으로 적용하도록 조건을 구성할 때 Azure Information Protection 통합 레이블 지정 클라이언트에서 표시되는 메시지의 예입니다. 정책 팁에 표시될 텍스트를 선택할 수 있습니다.
 
 ![권장된 레이블을 적용하라는 메시지 표시](../media/Sensitivity-label-Prompt-for-required-label.png)
 
 ### <a name="when-automatic-or-recommended-labels-are-applied"></a>자동 또는 권장 레이블이 적용되는 경우
 
-Office 앱에서 구현되는 자동 및 권장되는 레이블 지정은 Office에 기본 제공되는 레이블을 사용할지 또는 Azure Information Protection 통합 레이블 지정 클라이언트를 사용하는지에 따라 다릅니다. 그러나 두 경우 모두에 다음이 적용됩니다.
+Office 앱의 자동 및 권장 레이블 지정 구현은 Office 기본 제공 레이블을 사용할지, Azure Information Protection 통합 레이블 지정 클라이언트를 사용할지에 따라 달라집니다. 하지만 다음은 두 경우에 모두 해당합니다.
 
-- 이전에 수동으로 레이블을 지정했거나, 이전에 더 높은 민감도로 레이블이 자동으로 지정된 문서 및 전자 메일에는 자동 레이블 지정을 사용할 수 없습니다. 문서 또는 전자 메일에는 단일 보존 레이블 외에 단일 민감도 레이블만 적용할 수 있습니다.
+- 이전에 수동으로 레이블이 지정되었거나, 더 높은 수준의 민감성으로 자동으로 레이블이 지정된 적이 있는 문서나 전자 메일에 대해서는 자동 레이블 지정을 사용할 수 없습니다. 문서나 전자 메일에는 하나의 보존 레이블과 하나의 민감도 레이블만 적용할 수 있다는 사실을 기억하세요.
 
-- 이전에 더 높은 민감도로 레이블이 지정된 문서 또는 전자 메일에는 권장 레이블 지정을 사용할 수 없습니다. 콘텐츠에 더 높은 민감도로 레이블이 지정되면 사용자에게 권장 사항 및 정책 팁이 포함된 프롬프트가 표시되지 않습니다.
+- 이전에 더 높은 민감성으로 레이블이 지정된 적이 있는 문서나 전자 메일에 대해서는 권장 레이블 지정을 사용할 수 없습니다. 콘텐츠가 이미 더 높은 민감도로 레이블 지정되었다면 사용자에게는 권장 사항과 정책 팁이 담긴 메시지가 표시되지 않습니다.
 
 기본 제공 레이블 지정과 관련된 내용:
 
@@ -204,7 +206,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 
 - 시뮬레이션 모드:
     - Microsoft 365에 대한 감사가 설정되어 있어야 합니다. 감사를 설정해야 하거나 감사가 이미 설정되어 있는지 확실하지 않은 경우에는 [감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md)를 참조하세요.
-    - 원본 보기에서 파일 내용을 보려면 **콘텐츠 탐색기 콘텐츠 뷰어** 역할을 보유하고 있어야 합니다. 전역 관리자에게는 기본적으로 해당 역할이 없습니다. 이 권한이 없는 경우 **일치하는 항목** 탭에서 항목을 선택할 때 미리 보기 창이 표시되지 않습니다.
+    - 원본 보기에서 파일 또는 전자 메일 콘텐츠를 보려면 **콘텐츠 탐색기 콘텐츠 뷰어** 역할을 보유하고 있어야 합니다. 전역 관리자에게는 기본적으로 해당 역할이 없습니다. 이 권한이 없는 경우 **일치하는 항목** 탭에서 항목을 선택할 때 미리 보기 창이 표시되지 않습니다.
 
 - SharePoint 및 OneDrive에서 파일에 자동 레이블을 지정하려면 다음을 수행합니다.
     - [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블을 사용하도록 설정](sensitivity-labels-sharepoint-onedrive-files.md)합니다.

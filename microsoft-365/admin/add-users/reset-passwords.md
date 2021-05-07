@@ -26,17 +26,17 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
-description: 비즈니스용 Microsoft 365 구독에서 사용자의 암호를 다시 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 24fc6581837f71659a2ecc0359c6967e3969d868
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+description: 비즈니스용 구독의 사용자 암호를 다시 Microsoft 365 방법을 학습합니다.
+ms.openlocfilehash: fa368c7f44d4df847cf007568853c11970e7adc1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023980"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241703"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
-이 문서에서는 비즈니스용 Microsoft 365 구독이 있는 경우 자신 및 사용자를 위해 암호를 다시 설정하는 방법을 설명합니다.
+이 문서에서는 비즈니스용 구독에 대한 구독이 있는 경우 사용자 및 사용자에 대한 암호를 Microsoft 365 방법을 설명합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -54,23 +54,7 @@ ms.locfileid: "52023980"
   
 ## <a name="steps-reset-a-business-password-for-a-user"></a>단계: 사용자의 비즈니스 암호 다시 설정
 
-::: moniker range="o365-worldwide"
-
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
-
-::: moniker-end
 
 2. 활성 **사용자 페이지에서** 사용자를 선택한 다음 암호 다시 설정을 **선택합니다.**
 
@@ -84,7 +68,7 @@ ms.locfileid: "52023980"
 
 ## <a name="reset-my-admin-password"></a>내 관리자 암호 다시 설정
 
-예를 들어 암호가 브라우저에 저장되어 있기 때문에 암호를 잊어버렸다가 Microsoft 365에 로그인할 수 있는 경우 다음 단계를 사용합니다.
+암호를 잊어버렸다가 브라우저에 다음과 같은 Microsoft 365 로그인할 수 있는 경우 다음 단계를 사용합니다.
 
 1. Select your name (icon) in upper right corner > **My Account**  >  **Personal Info**.
 
@@ -132,7 +116,7 @@ PowerShell을 사용하세요! Eyal Doron이 작성한 게시물을 확인하세
 
 Microsoft MVP인 Vasil Michev의 유용한 블로그 게시물을 확인하세요. [Force password change for all users in Office 365](https://go.microsoft.com/fwlink/?linkid=853693)(Office 365에서 모든 사용자가 암호를 변경하게 만들기)
   
-## <a name="i-dont-have-a-microsoft-365-for-business-subscription"></a>비즈니스용 Microsoft 365 구독이 없습니다.
+## <a name="i-dont-have-a-microsoft-365-for-business-subscription"></a>비즈니스용 구독이 Microsoft 365 없습니다.
 
 [Office에서 사용하는 계정에 대한 사용자 이름 또는 암호를 잊었습니다.](https://support.microsoft.com/office/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp) 문서를 참조하세요.
   

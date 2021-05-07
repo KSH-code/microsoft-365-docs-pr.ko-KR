@@ -1,7 +1,7 @@
 ---
-title: 한 가지 수정 활동의 노출된 장치 나열
+title: 한 번의 수정 작업이 있는 노출된 장치 목록
 description: 지정된 수정 작업에 대해 노출된 장치에 대한 정보를 반환합니다.
-keywords: api, 수정, 수정 api, get, 수정 작업,
+keywords: api, 수정, 수정 api, get, 수정 작업, 노출된 장치 수정
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 097d8d784ca7c02fce1fc0e9fc51bdc272951f4a
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 92b5a93e86a20f36469d2b5cb606a8ddc2e97077
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061197"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52241715"
 ---
-# <a name="list-exposed-devices-of-one-remediation-activity"></a>한 가지 수정 활동의 노출된 장치 나열
+# <a name="list-exposed-devices-of-one-remediation-activity"></a>한 번의 수정 작업이 있는 노출된 장치 목록
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -49,7 +49,16 @@ ms.locfileid: "52061197"
 
 **URL:** GET: /api/remediationTasks/ \{ id \} /machineReferences
 
-**속성** 세부 정보
+## <a name="permissions"></a>권한
+
+이 API를 호출하려면 다음 권한 중 하나가 필요합니다. 사용 권한을 선택하는 방법을 포함하여 자세한 내용은 [Use Microsoft Defender for Endpoint API for details을 참조합니다.](apis-intro.md)
+
+사용 권한 유형 | 사용 권한 | 사용 권한 표시 이름
+:---|:---|:---
+응용 프로그램 | RemediationTask.Read.All | \'위협 및 취약성 관리 취약성 정보 읽기\'
+위임(직장 또는 학교 계정) | RemediationTask.Read.Read | \'위협 및 취약성 관리 취약성 정보 읽기\'
+
+## <a name="properties-details"></a>속성 세부 정보
 
 속성(id) | 데이터 형식 | 설명 | 예제
 :---|:---|:---|:---
@@ -58,15 +67,15 @@ computerDnsName | 문자열 | 장치 이름 | PC-SRV2012R2Foo.UserNameVldNet.loc
 osPlatform | 문자열 | 장치 운영 체제 | WindowsServer2012R2
 rbacGroupName | 문자열 | 이 장치가 연결된 장치 그룹의 이름입니다. | 서버
 
-## <a name="example"></a>예시
+## <a name="example"></a>예제
 
-**요청** 예제
+### <a name="request-example"></a>요청 예제
 
 ```http
 GET https://api-luna.securitycenter.windows.com/api/remediationtasks/03942ef5-aecb-4c6e-b555-d6a97013844c/machinereferences
 ```
 
-**응답** 예제
+### <a name="response-example"></a>응답 예제
 
 ```json
 {
@@ -108,10 +117,10 @@ GET https://api-luna.securitycenter.windows.com/api/remediationtasks/03942ef5-ae
 
 - [수정 방법 및 속성](get-remediation-methods-properties.md)
 
-- [ID로 하나의 재구성 활동 얻기](get-remediation-one-activity.md)
+- [ID로 수정 작업 1개 가져오기](get-remediation-one-activity.md)
 
-- [모든 재구성 활동 나열](get-remediation-all-activities.md)
+- [모든 수정 작업 나열s](get-remediation-all-activities.md)
 
-- [위험 기반 위협 & 관리](next-gen-threat-and-vuln-mgt.md)
+- [위험 기반 위협 & 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 
 - [조직의 취약성](tvm-weaknesses.md)

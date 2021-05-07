@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 사용자가 전자 메일과 문서, 대화를 사용하여 생성하는 콘텐츠를 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 63670b157a66bad963f02355cbed2bdd95690081
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2b2ce9670e9f297c89ed70e1b37c17aa59b80844
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908292"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687274"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -83,6 +83,15 @@ Microsoft 365에서의 보존 정책과 보존 레이블 작동 방식에 대한
 5. 마법사를 완료하여 설정을 저장합니다.
 
 Teams 보존 정책에 대한 자세한 내용은 Teams 설명서에서 [Microsoft Teams의 보존 정책](/microsoftteams/retention-policies)을 참조하세요.
+
+#### <a name="known-configuration-issues"></a>알려진 구성 문제
+
+- 항목을 마지막으로 수정한 경우 보존 기간을 시작하는 옵션을 선택할 수 있어도 항상 **항목을 만든 시간** 이 사용됩니다. 편집된 메시지의 경우 원본 메시지의 복사본이 원래 타임스탬프와 함께 저장되어 미리 편집된 메시지를 만들 때를 식별하고, 사후 편집된 메시지에 새로운 타임스탬프가 있습니다.
+
+- **Teams 채널 메시지** 위치에 **팀 선택** 을 선택하면 팀이 아닌 Microsoft 365 그룹이 표시될 수 있습니다. 이 그룹을 선택하지 마세요.
+
+- **Teams 채팅을 위한 사용자 선택** 위치를 선택하면 게스트 및 비 사서함이 사용자가 표시될 수 있습니다. 보존 정책은 이러한 사용자를 위해 설계되지 않았으므로 선택하지 마세요.
+
 
 #### <a name="additional-retention-policy-needed-to-support-teams"></a>Teams 지원에 필요한 추가 보존 정책
 
@@ -194,9 +203,16 @@ SharePoint 사이트 또는 OneDrive 계정의 위치를 지정하는 경우, �
 
 ### <a name="configuration-information-for-microsoft-365-groups"></a>Microsoft 365 그룹에 대한 구성 정보
 
-Microsoft 365 그룹(이전의 Office 365 그룹)의 콘텐츠를 보존하거나 삭제하려면 **Microsoft 365 그룹** 위치를 사용합니다. Microsoft 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 **Exchange 전자 메일** 위치를 포함하는 보존 정책이 Microsoft 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다. 또한 **Exchange 전자 메일** 위치에서 처음에 포함하거나 제외할 그룹 사서함을 지정할 수 있지만 보존 정책을 저장하려고 하면 "RemoteGroupMailbox"가 Exchange 위치에 대해 올바른 선택이 아니라는 오류가 발생합니다.
+Microsoft 365 그룹(이전의 Office 365 그룹)의 콘텐츠를 보존하거나 삭제하려면 **Microsoft 365 그룹** 위치를 사용합니다. Microsoft 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 **Exchange 전자 메일** 위치를 포함하는 보존 정책이 Microsoft 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다. **Exchange 전자 메일** 위치에서 처음에 포함하거나 제외할 그룹 사서함을 지정할 수 있지만 보존 정책을 저장하려고 하면 "RemoteGroupMailbox"가 Exchange 위치에 대해 올바른 선택이 아니라는 오류가 발생합니다.
 
-Microsoft 365 그룹에 적용되는 보존 정책에는 그룹 사서함 및 SharePoint Teams 사이트가 포함됩니다. SharePoint Teams 사이트에 저장된 파일은 이 위치에 포함되지만 Teams 대화 또는 Teams 채널 메시지가 고유한 보존 정책 위치를 가지지 않습니다.
+Microsoft 365 그룹에 적용되는 보존 정책에는 그룹 사서함 및 SharePoint Teams 사이트가 기본값으로 포함됩니다. SharePoint Teams 사이트에 저장된 파일은 이 위치에 포함되지만 Teams 대화 또는 Teams 채널 메시지가 고유한 보존 정책 위치를 가지지 않습니다.
+
+보존 정책을 Microsoft 365 사서함에만 적용되거나 연결된 SharePoint 팀 사이트에만 적용하기 위해 기본값을 변경하려면 [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy) PowerShell cmdlet을 *Applications* 매개 변수와 함께 사용합니다.
+
+- 그룹과 연결된 Microsoft 365 사서함의 경우`Group:Exchange`
+- 그룹과 연결된 SharePoint 사이트의 경우 `Group:SharePoint`
+
+선택한 Microsoft 365 그룹이 사서함과 SharePoint 사이트의 기본값으로 돌아가기 위해 `Group:Exchange,SharePoint`를 지정하세요.
 
 ### <a name="configuration-information-for-skype-for-business"></a>비즈니스용 Skype에 대한 구성 정보
 
@@ -256,7 +272,7 @@ Outlook 폴더인 **대화 내용** 은 Skype 아카이빙은 관계가 없는 �
 
 보존 정책이 전체 위치의 조합에 적용되는 경우, 정책에 포함할 수 있는 수혜자, 사이트, 계정, 그룹 등의 수에 제한이 없습니다.
 
-예를 들어, 정책에 모든 Exchange 전자 메일과 모든 SharePoint 사이트가 모두 포함된다면, 개수와 상관없이 모든 사이트와 수혜자가 포함될 것 또한 Exchange의 경우 정책이 적용된 후 만들어진 모든 새 사서함은 자동으로 정책을 상속합니다.
+예를 들어 정책에 모든 Exchange 전자 메일과 모든 SharePoint 사이트가 포함된 경우 개수에 상관없이 모든 사이트와 수신자가 포함됩니다. 또한 Exchange의 경우 정책이 적용된 후 생성된 새 편지함이 정책을 자동으로 상속합니다.
 
 ### <a name="a-policy-with-specific-inclusions-or-exclusions"></a>특정 포함 또는 제외가 적용된 정책
 

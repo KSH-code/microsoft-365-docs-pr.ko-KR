@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 액세스 및 사용을 제한하여 데이터를 보호하는 암호화를 위한 민감도 레이블을 구성합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f670a3cdefb7b6cd78d24a17fc2e6276274efff3
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 6163e48e3e80b76506d970b77d6cd66f7a050d51
+ms.sourcegitcommit: 8c89bc1d106b4716b07a1977d57e4d9ef98aecb3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222421"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "52079261"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한
 
@@ -45,7 +45,7 @@ ms.locfileid: "51222421"
 - 어떤 사용자에게 해당 레이블이 있는 콘텐츠에 어떤 권한을 부여할 것인지 정확하게 결정하도록 **지금 권한을 할당** 합니다.
 - 사용자가 콘텐츠에 레이블을 적용하는 경우 **사용자가 권한을 할당하도록** 허용할 수 있습니다. 이렇게 하면 조직의 사용자가 공동 작업과 작업 수행을 유연하게 할 수 있습니다.
 
-암호화 설정은 Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 보안 및 규정 준수 센터에서 [민감도 레이블 만들기](create-sensitivity-labels.md)를 할 때 사용할 수 있습니다.
+암호화 설정은 Microsoft 365 규정 준수 센터에서 [민감도 레이블을 만들](create-sensitivity-labels.md) 때 사용할 수 있습니다. 이전 포털인 보안 및 준수 센터를 사용할 수도 있습니다.
 
 ## <a name="understand-how-the-encryption-works"></a>암호화 작동 방식 이해
 
@@ -123,7 +123,7 @@ ms.locfileid: "51222421"
 
 ## <a name="assign-permissions-now"></a>지금 권한 할당
 
-다음 옵션을 사용하여 이 레이블이 적용되는 전자 메일 또는 문서에 액세스할 수 있는 사용자를 제어합니다. 다음을 수행할 수 있습니다.
+다음 옵션을 사용하여 이 레이블이 적용되는 전자 메일 또는 문서에 액세스할 수 있는 사용자를 제어합니다. 다음은 수행 가능한 작업입니다.
 
 - 특정 날짜 또는 레이블을 지정한 후 특정 일수가 지나면 **레이블을 지정한 콘텐츠에 대한 액세스가 만료** 되도록 합니다. 이 기간 이후 사용자는 레이블을 지정한 항목을 열 수 없습니다. 날짜를 지정하는 경우 표준 시간대의 해당 날짜 자정에 적용됩니다. 일부 전자 메일 클라이언트의 경우 캐싱 메커니즘으로 인해 만료 기능이 적용되지 않을 수 있으며 만료 날짜가 지난 전자 메일이 표시될 수 있습니다.
 
@@ -135,11 +135,11 @@ ms.locfileid: "51222421"
 
 ### <a name="rights-management-use-license-for-offline-access"></a>오프라인 액세스에 대한 권한 관리 사용 라이선스
 
-사용자가 Azure 권한 관리 서비스의 암호화로 보호된 문서 또는 전자 메일을 열면 해당 콘텐츠에 대한 Azure 권한 관리 사용 라이선스가 사용자에게 부여됩니다. 이 사용 라이선스는 문서 또는 전자 메일에 대한 사용자의 사용 권한 및 콘텐츠를 암호화하는 데 사용된 암호화 키를 포함하는 인증서입니다. 사용 라이센스는 만료 날짜(설정된 경우)와 사용 라이선스 유효 기간도 포함합니다.
+사용자가 Microsoft Azure AD Rights Management 서비스에서 암호화로 보호되는 문서 또는 전자 메일을 열면 사용자에게 해당 콘텐츠에 대한 Microsoft Azure AD Rights Management 사용 라이선스가 부여됩니다. 이 사용 라이선스는 문서 또는 전자 메일에 대한 사용자의 사용 권한 및 콘텐츠를 암호화하는 데 사용된 암호화 키가 포함된 인증서입니다. 사용 라이선스에는 만료 날짜가 설정된 경우 만료 날짜와 사용 라이선스 유효 기간이 포함되어 있습니다.
 
 만료 날짜가 설정된 경우 테넌트에 대한 기본 사용 라이선스의 유효 기간은 30일입니다. 사용 라이센스 동안 콘텐츠에 대해 다시 인증받지 않습니다. 이 프로세스를 통해 인터넷에 연결하지 않고도 보호된 문서 또는 전자 메일을 계속 열 수 있습니다. 사용 라이선스 유효 기간이 만료되면 다음에 사용자가 보호된 문서 또는 전자 메일에 액세스할 때 다시 인증받아야 합니다.
 
-재인증 외에도 정책 및 사용자 그룹 구성원 자격이 다시 평가됩니다. 즉, 사용자가 마지막으로 콘텐츠에 액세스한 시점에서 암호화 설정이나 그룹 구성원에 변경된 사항이 있는 경우 사용자에게 동일한 문서 또는 전자 메일에 대해 다른 액세스 결과를 제공할 수 있습니다.
+재인증 외에도 암호화 설정 및 사용자 그룹 멤버십이 다시 평가됩니다. 즉, 사용자가 마지막으로 콘텐츠에 액세스한 시점에서 암호화 설정이나 그룹 멤버십에 변경 사항이 있는 경우 사용자가 동일한 문서 또는 전자 메일에 대해 다른 액세스 결과를 경험할 수 있습니다.
 
 기본값 30일 설정을 변경하는 방법을 알아보려면 [권한 관리 사용 라이선스](/azure/information-protection/configure-usage-rights#rights-management-use-license)를 참조하세요.
 
@@ -206,7 +206,7 @@ ms.locfileid: "51222421"
 
 #### <a name="rights-management-issuer-user-applying-the-sensitivity-label-always-has-full-control"></a>권한 관리 발급자(민감도 레이블을 적용한 사용자)는 항상 모든 권한을 갖습니다
 
-민감도 레이블의 암호화는 Azure Information Protection의 Azure 권한 관리 서비스를 사용합니다. 사용자가 암호화를 사용하여 문서 또는 전자 메일을 보호하기 위해 중요도 레이블을 적용하면 해당 사용자는 해당 내용에 대한 권한 관리 발급자가 됩니다.
+민감도 레이블의 암호화는 Azure Information Protection의 Microsoft Azure AD Rights Management 서비스를 사용합니다. 사용자가 암호화를 사용하여 문서 또는 전자 메일을 보호하기 위해 중요도 레이블을 적용하면 해당 사용자는 해당 콘텐츠에 대한 권한 관리 발급자가 됩니다.
 
 권한 관리 발급자는 문서 또는 전자 메일에 대한 모든 권한을 항상 부여받으며, 또한 다음과 같은 권한을 갖습니다.
 
@@ -228,7 +228,7 @@ ms.locfileid: "51222421"
 ## <a name="let-users-assign-permissions"></a>사용자가 권한을 할당하도록 허용
 
 > [!IMPORTANT]
-> 일부 레이블 지정 클라이언트는 사용자가 자신의 사용 권한을 할당할 수 있는 일부 옵션을 지원하지 않습니다. 자세한 내용은 이 섹션을 참조하세요.
+> 모든 레이블 지정 클라이언트가 사용자가 본인의 사용 권한을 할당할 수 있는 모든 옵션을 지원하지는 않습니다. 이 섹션에서 자세히 알아보세요.
 
 다음 옵션을 사용하여 사용자가 민감도 레이블을 콘텐츠에 수동으로 추가할 때 사용자가 권한을 할당하도록 허용할 수 있습니다.
 
@@ -236,7 +236,7 @@ ms.locfileid: "51222421"
     
     전달하지 않음 옵션은 민감도 레이블을 지원하는 모든 전자 메일 클라이언트에서 지원됩니다. 그러나 민감도 레이블에 **암호화 전용** 옵션을 적용하는 것은 Azure Information Protection 통합 레이블 클라이언트가 아닌 기본 제공 레이블에서만 지원되는 최근 릴리스입니다. 이 기능을 지원하지 않는 전자 메일 클라이언트의 경우 레이블이 표시되지 않습니다.
     
-    기본 제공 레이블 지정을 사용하는 Outlook 앱이 민감도 레이블과 함께 암호화 전용 옵션을 적용을 지원하는지 확인하려면 [Outlook 기능 표](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-outlook)와 **사용자가 권한을 할당하도록 허용: - 암호화 전용** 행을 사용합니다.
+    민감도 레이블로 암호화 전용 옵션 적용을 지원하기 위해 기본 제공 레이블 지정을 사용하는 Outlook 앱의 최소 버전을 확인하려면 [Outlook 기능 표](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-outlook)와 **사용자가 권한을 할당하도록 허용: - 암호화 전용** 행을 사용하세요.
 
 - Word, PowerPoint 및 Excel의 경우 사용자에게 특정 사용자, 그룹 또는 조직에 대한 고유 권한을 선택하라는 메시지가 표시됩니다.
 
@@ -265,7 +265,7 @@ Outlook에서, 사용자가 메시지에 권한을 할당하도록 허용하는 
 
 ![Outlook의 메시지에 적용된 민감도 레이블](../media/sensitivity-label-outlook-protection-applied.png)
 
-이러한 옵션 중 하나를 전자 메일에 적용하면, 전자 메일이 암호화되고 받는 사람을 인증해야 합니다. 그런 다음 받는 사람은 자동으로 제한된 사용 권한을 받습니다.
+이러한 옵션 중 하나를 전자 메일에 적용하면 전자 메일이 암호화되고 받는 사람은 인증을 거쳐야 합니다. 인증을 완료하면 받는 사람에게 자동으로 제한된 사용 권한이 부여됩니다.
 
 - **전달하지 않음**: 받는 사람이 전자 메일을 전달하거나, 인쇄하거나, 복사할 수 없습니다. 예를 들어, Outlook 클라이언트에서 전달 단추를 사용할 수 없고, 다른 이름으로 저장 및 인쇄 메뉴 옵션도 사용할 수 없으며, 받는 사람, 참조 또는 숨은 참조 상자에서 받는 사람을 추가하거나 변경할 수 없습니다.
     
@@ -406,7 +406,7 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 - 문서가 [SharePoint에서 체크아웃](https://support.microsoft.com/office/check-out-check-in-or-discard-changes-to-files-in-a-library-7e2c12a9-a874-4393-9511-1378a700f6de)될 때 Office 앱을 사용하여 암호화를 적용하는 레이블이 추가된 다음 사용자가 체크아웃을 무시해도 문서는 레이블과 암호화된 상태로 유지됩니다.
 
-- 암호화된 파일에 대한 다음 작업은 Office 앱(Windows, Mac, Android 및 iOS)에서 지원되지 않으며 사용자에게 문제가 있다는 오류 메시지가 표시됩니다. 그러나 SharePoint 기능을 대안으로 사용할 수 있습니다.
+- 암호화된 파일에 대한 다음 작업은 Office 앱(Windows, Mac, Android 및 iOS)에서 지원되지 않으며 사용자에게 문제가 있다는 오류 메시지가 표시됩니다. 하지만 SharePoint 기능을 대신 사용할 수 있습니다.
 
   - 이전 버전의 사본 보기, 복원 및 저장. 대안으로, 사용자는 [목록 또는 라이브러리에 대한 버전 관리를 활성화하고 구성할 때](https://support.office.com/article/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) 웹에서 Office를 사용하여 이러한 작업을 수행할 수 있습니다.
   - 파일 이름 또는 위치 변경. 대안으로, 사용자는 SharePoint에서 [문서 라이브러리에서 파일, 폴더 또는 링크 이름 바꾸기](https://support.microsoft.com/office/rename-a-file-folder-or-link-in-a-document-library-bc493c1a-921f-4bc1-a7f6-985ce11bb185)를 할 수 있습니다.
@@ -424,7 +424,7 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 - Azure Information Protection에 대한 Exchange 구성
     
-    사용자가 Outlook에서 전자 메일을 암호화하기 위해 레이블을 적용하기 전에 Azure Information Protection을 위해 Exchange를 구성할 필요는 없습니다. 그러나 Exchange에 Azure Information Protection을 구성하기 전에는 Exchange에서 Azure 권한 관리 보호 사용의 모든 기능을 이용할 수 없습니다.
+    사용자가 전자 메일을 암호화하기 위해 Outlook에서 레이블을 적용하기 전에 Azure Information Protection용으로 Exchange를 구성하지 않아도 됩니다. 그러나 Microsoft Azure Information Protection용으로 Exchange를 구성하기 전까지는 Exchange에서 Microsoft Azure AD Rights Management 보호를 사용하는 모든 기능을 온전히 사용할 수 없습니다.
     
     예를 들어 사용자는 휴대폰 또는 웹에서의 Outlook으로 암호화된 전자 메일을 볼 수 없으며 검색 시 암호화된 전자 메일이 인덱싱되지 않으며 권한 관리 보호를 위한 Exchange Online DLP를 구성할 수 없습니다. 
     

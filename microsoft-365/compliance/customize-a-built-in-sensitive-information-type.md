@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 조직의 요구 사항에 맞는 규칙을 사용할 수 있도록 해주는 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 79d79a220e0cd8de0755f6cdac99cf7cceb2997f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7b24313c54fdf49876c58d1809cbb29159f4508f
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922662"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114262"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>기본 제공 중요한 정보 유형 사용자 지정
 
@@ -232,7 +232,7 @@ XML에서 신용 카드 번호 규칙 정의를 찾았으므로 요구에 맞게
 |함수|XML 파일은 컴파일된 코드의 함수에 해당하는 `Func_credit_card`를 참조합니다. 함수는 복잡한 regex를 실행하는 데 사용되며 체크섬이 기본 제공 규칙과 일치하는지 확인합니다. 이러한 작업이 코드에서 진행되므로 일부 변수는 XML 파일에 나타나지 않습니다.|
 |IdMatch|이는 패턴과 일치하는 ID(예: 신용 카드 번호)입니다.|
 |키워드 목록|XML 파일은 엔터티에 대한 `patternsProximity` 내에서 일치하는지 확인하는 키워드 목록에 해당하는 `keyword_cc_verification` 및 `keyword_cc_name`도 참조합니다.|
-|패턴|패턴에는 중요한 유형에서 무엇을 조회하는지가 목록으로 포함됩니다. 여기에는 체크섬 확인과 같은 작업을 수행하는 키워드, regex 및 내부 함수를 포함합니다. 중요한 정보 유형에는 고유한 신뢰도를 갖는 여러 개의 패턴이 있을 수 있습니다. 이 기능은 증빙 정보가 발견되면 높은 신뢰도를 반환하고 증빙 정보가 거의 혹은 전혀 발견되지 않으면 낮은 신뢰도를 반환하는 중요한 정보 유형을 만들 때 유용합니다.|
+|패턴|패턴은 중요한 유형이 검색할 항목 목록을 포함합니다. 여기에는 키워드, regex 및 내부 함수(체크섬 확인 등의 작업 수행)가 포함됩니다. 중요한 정보 유형에는 고유한 신뢰도를 갖는 여러 패턴이 있을 수 있습니다. 증빙이 발견되면 높은 신뢰도를 반환하고, 증빙이 거의 없거나 전혀 없으면 낮은 신뢰도를 반환하는 중요한 정보 유형을 만들면 유용합니다.|
 |패턴 confidenceLevel|DLP 엔진이 일치 항목을 발견한 신뢰도입니다. 이 수준의 신뢰도는 패턴 요구 사항이 충족될 경우 패턴의 일치와 연관됩니다. 이는 Exchange 메일 흐름 규칙(전송 규칙이라고도 함)을 사용할 때 고려해야 할 신뢰도 측정값입니다.|
 |patternsProximity|신용 카드 번호 패턴처럼 보이는 항목이 있는 경우 `patternsProximity`는 증빙을 찾게 되는 해당 번호 주변의 근접 범위를 나타냅니다.|
 |recommendedConfidence|이 규칙에 대해 권장되는 신뢰도입니다. 권장 신뢰도는 엔터티 및 선호도에 적용됩니다. 엔터티의 경우 이 값은 패턴의 `confidenceLevel`에 대해 평가되지 않으며, 적용하려는 신뢰도를 선택하는 데 도움이 되는 권장 사항일 뿐입니다. 선호도의 경우 메일 흐름 규칙 작업이 호출되려면 패턴의 `confidenceLevel`이 `recommendedConfidence` 값보다 커야 합니다. `recommendedConfidence`는 작업을 호출하는 메일 흐름 규칙에서 사용되는 기본 신뢰도입니다. 원할 경우 대신 패턴의 신뢰도를 기준으로 호출할 메일 흐름 규칙을 수동으로 변경할 수 있습니다.|
@@ -240,7 +240,5 @@ XML에서 신용 카드 번호 규칙 정의를 찾았으므로 요구에 맞게
 ## <a name="for-more-information"></a>자세한 내용
 
 - [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
-    
 - [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)
-    
-- [데이터 손실 방지 정책 개요](data-loss-prevention-policies.md)
+- [데이터 손실 방지에 대해 알아보기](dlp-learn-about-dlp.md)

@@ -1,17 +1,17 @@
 ---
-title: 데이터 손실 방지 개요
+title: 데이터 손실 방지 참조
 f1.keywords:
 - CSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 07/12/2019
+ms.date: ''
 audience: ITPro
 ms.topic: conceptual
 f1_keywords:
 - ms.o365.cc.DLPLandingPage
 ms.service: O365-seccomp
-localization_priority: Priority
+localization_priority: low
 ms.collection:
 - M365-security-compliance
 - SPO_Content
@@ -21,59 +21,68 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: Office 365에서 조직의 중요한 정보를 자동으로 식별하고 모니터링하고 보호하는 방법을 알아봅니다.
-ms.openlocfilehash: 737e556972ca8ab0f82e1c4fe9e8602f09e91fc8
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
-ms.translationtype: HT
+description: 데이터 손실 방지 참조 자료
+ms.openlocfilehash: a94dde0bba3fdfc869746f51687ed7709a96639a
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445432"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114404"
 ---
-# <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
+# <a name="data-loss-prevention-reference"></a>데이터 손실 방지 참조
+ 
+> [!IMPORTANT]
+> 이 참조 항목은 더 이상 DLP(데이터 손실 방지) 정보의 기본 Microsoft 365 않습니다. DLP 콘텐츠 집합이 업데이트 및 재구성 중입니다. 이 문서에서 다루는 항목은 업데이트된 새로운 문서로 이동될 것입니다. DLP에 대한 자세한 내용은 데이터 손실 [방지에 대한 자세한 정보를 참조하세요.](dlp-learn-about-dlp.md)
+
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
 <!-- move this note to a more appropriate place, no topic should start with a note -->
 > [!NOTE]
 > 데이터 손실 방지 기능은 최근 Office 365 Advanced Compliance 라이선스 사용자에 대한 Microsoft Teams 채팅 및 채널 메시지에 추가되었으며, 이는 독립 실행형 옵션으로 제공되며 Office 365 E5 및 Microsoft 365 E5 규정 준수에 포함되어 있습니다. 라이선스 요구 사항에 대한 자세한 내용은 [Microsoft 365 테넌트 수준 서비스 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance)을 참고하십시오.
 
-비즈니스 표준 및 산업 규정을 준수하려면 조직은 중요한 정보를 보호하고 부주의한 정보 공개를 방지해야 합니다. 중요한 정보에는 금융 데이터나 신용 카드 번호, 주민 등록 번호, 의료 기록과 같은 PII(개인 식별 정보)가 있습니다. Office 365 보안 &amp; 준수 센터의 DLP(데이터 손실 방지) 정책을 사용하여 Office 365 전체의 중요한 정보를 식별하고, 모니터링하고, 자동으로 보호할 수 있습니다.
+
+
+<!-- MOVED TO LEARN ABOUT To comply with business standards and industry regulations, organizations must protect sensitive information and prevent its inadvertent disclosure. Sensitive information can include financial data or personally identifiable information (PII) such as credit card numbers, social security numbers, or health records. With a data loss prevention (DLP) policy in the Office 365 Security &amp; Compliance Center, you can identify, monitor, and automatically protect sensitive information across Office 365.
   
-DLP 정책을 사용하여 다음과 같은 작업을 수행할 수 있습니다:
+With a DLP policy, you can:
   
-- **Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams와 같은 다양한 위치에서 중요한 정보를 식별합니다.**
+- **Identify sensitive information across many locations, such as Exchange Online, SharePoint Online, OneDrive for Business, and Microsoft Teams.**
     
-    예를 들어 비즈니스용 OneDrive 사이트에 저장되어 있는 신용 카드 번호가 포함된 모든 문서를 식별하거나 특정 사용자의 OneDrive 사이트를 모니터링할 수 있습니다.
+    For example, you can identify any document containing a credit card number that's stored in any OneDrive for Business site, or you can monitor just the OneDrive sites of specific people.
     
-- **중요한 정보의 우발적인 공유를 방지합니다.** 
+- **Prevent the accidental sharing of sensitive information**. 
     
-    예를 들어, 조직 외부의 사용자와 공유된 상태 레코드를 포함한 모든 문서 및 전자메일을 식별할 수 있습니다. 그 후에 자동으로 문서의 액세스를 차단하거나 전자메일이 발송되는 것을 차단할 수 있습니다.
+    For example, you can identify any document or email containing a health record that's shared with people outside your organization, and then automatically block access to that document or block the email from being sent.
     
-- **데스크톱 버전의 Excel, PowerPoint 및 Word에서 중요한 정보를 모니터링하고 보호합니다.**
+- **Monitor and protect sensitive information in the desktop versions of Excel, PowerPoint, and Word.**
     
-    Exchange Online, SharePoint Online 및 비즈니스용 OneDrive에서와 마찬가지로 해당 Office 데스크톱 프로그램에는 중요한 정보를 식별하고 DLP 정책을 적용하기 위해 동일한 기능이 제공되어 있습니다. DLP는 사용자가 해당 Office 프로그램에서 콘텐츠를 공유하는 경우 지속적인 모니터링을 제공합니다.
+    Just like in Exchange Online, SharePoint Online, and OneDrive for Business, these Office desktop programs include the same capabilities to identify sensitive information and apply DLP policies. DLP provides continuous monitoring when people share content in these Office programs.
     
-- **사용자가 자신의 작업흐름을 중단하지 않고 규정 준수 상태를 유지하도록 하는 방법을 안내합니다.**
+- **Help users learn how to stay compliant without interrupting their workflow.**
     
-    사용자에게 DLP 정책에 대해 교육하고 자신의 작업을 중단하지 않고 규정 준수 상태를 유지하도록 할 수 있습니다. 예를 들어 사용자가 중요한 정보를 포함하는 문서를 공유하려고 하면 DLP 정책은 전자 메일 알림을 보내고, 업무 정당성이 있을 경우 이 정책을 재정의할 수 있는 문서 라이브러리의 컨텍스트에서 정책 팁을 표시합니다. 웹 상의 Outlook, Outlook, Excel, PowerPoint 및 Word에도 동일한 정책 팁이 나타납니다.
+    You can educate your users about DLP policies and help them remain compliant without blocking their work. For example, if a user tries to share a document containing sensitive information, a DLP policy can both send them an email notification and show them a policy tip in the context of the document library that allows them to override the policy if they have a business justification. The same policy tips also appear in Outlook on the web, Outlook, Excel, PowerPoint, and Word.
     
-- **조직의 DLP 정책과 일치하는 내용을 표시하는 DLP 알림 및 보고서를 확인합니다.**
+- **View DLP alerts and reports showing content that matches your organization’s DLP policies.**
     
-    DLP 정책에 관련된 알림 및 메타 데이터를 확인하려면 [DLP 알림 관리 대시보드](dlp-configure-view-alerts-policies.md)를 사용할 수 있습니다. 조직의 DLP 정책 준수 방식을 평가하는 정책 일치 보고서를 볼 수도 있습니다. DLP 정책에서 사용자가 정책 팁을 재정의하고 가양성을 보고하도록 허용하는 경우, 사용자가 보고한 항목을 볼 수도 있습니다.
-    
+    To view alerts and metadata related to your DLP policies you can use the [DLP Alerts Management Dashboard](dlp-configure-view-alerts-policies.md). You can also view policy match reports to assess how your organization is complying with a DLP policy. If a DLP policy allows users to override a policy tip and report a false positive, you can also view what users have reported
+
+-->    
+## <a name="create-and-manage-dlp-policies"></a>DLP 정책 만들기 및 관리
+
 Microsoft 365 준수 센터의 데이터 손실 방지 페이지에서 DLP 정책을 생성하고 관리할 수 있습니다.
   
 ![Office 365 보안 &amp; 준수 센터의 데이터 손실 방지 페이지](../media/943fd01c-d7aa-43a9-846d-0561321a405e.png)
   
-## <a name="what-a-dlp-policy-contains"></a>DLP 정책에 포함된 내용
+<!-- MOVED TO LEARN ABOUT ## What a DLP policy contains
 
-DLP 정책에는 다음과 같은 몇 가지 기본적인 사항이 포함됩니다.
+A DLP policy contains a few basic things:
   
-- 콘텐츠를 보호할 위치: Microsoft Teams 채팅 및 채널 메시지 뿐만 아니라 Exchange Online, SharePoint Online 및 비즈니스 용 OneDrive 사이트와 같은 **위치**. 
+- Where to protect the content: **locations** such as Exchange Online, SharePoint Online, and OneDrive for Business sites, as well as Microsoft Teams chat and channel messages. 
     
-- 다음으로 구성된 **규칙** 을 적용하여 콘텐츠를 보호하는 시기 및 방법: 
+- When and how to protect the content by enforcing **rules** comprised of: 
     
-  - **조건** 규칙을 적용하기 전에 내용이 일치해야 합니다. 예를 들어, 조직 외부의 사용자와 공유된 주민 등록 번호를 포함하는 콘텐츠만 찾도록 규칙을 구성할 수 있습니다. 
+  - **Conditions** the content must match before the rule is enforced. For example, a rule might be configured to look only for content containing Social Security numbers that's been shared with people outside your organization. 
     
-  - 조건에 일치하는 콘텐츠가 발견된 경우 규칙이 자동으로 수행하려는 **작업** 예를 들어 규칙을 문서에 대한 액세스를 차단하도록 구성할 수 있고 사용자와 규정 준수 책임자에게 전자 메일 알림을 보낼 수 있습니다. 
+  - **Actions** that you want the rule to take automatically when content matching the conditions is found. For example, a rule might be configured to block access to a document and send both the user and compliance officer an email notification. -->
     
 규칙을 사용하여 특정 보호 요구 사항을 충족한 다음, DLP 정책을 사용하여 특정 규정을 준수하는 데 필요한 모든 규칙과 같은 일반적인 보호 요구 사항을 그룹화할 수 있습니다.
   
@@ -81,20 +90,20 @@ DLP 정책에는 다음과 같은 몇 가지 기본적인 사항이 포함됩니
   
 ![위치 및 규칙을 포함한 DLP 정책을 보여주는 다이어그램](../media/c006860c-2d00-42cb-aaa4-5b5638d139f7.png)
   
-### <a name="locations"></a>위치
+<!-- MOVED TO LEARN ABOUT ### Locations
 
-DLP 정책은 Microsoft 365 위치에서 중요한 항목에 적용되며 이 표에서 보다 세부적인 범위가 될 수 있습니다.
+DLP policies are applied to sensitive items across Microsoft 365 locations and can be further scoped as detailed in this table.
 
 
-|위치 | 포함/제외 기준|
+|Location | Include/exclude by|
 |---------|---------|
-|Exchange 전자 메일| 메일 그룹|
-|SharePoint 사이트 |사이트 |
-|OneDrive 계정 |계정 |
-|Teams 채팅 및 채널 메시지 |계정 |
-|Windows 10 장치 |사용자 또는 그룹 |
-|Microsoft Cloud App Security |인스턴스 |
-
+|Exchange email| distribution groups|
+|SharePoint sites |sites |
+|OneDrive accounts |accounts |
+|Teams chat and channel messages |accounts |
+|Windows 10 devices |user or group |
+|Microsoft Cloud App Security |instance |
+ -->
 
 Exchange에서 특정 메일 그룹을 포함하도록 선택하는 경우 DLP 정책은 해당 그룹의 구성원으로만 제한됩니다. 마찬가지로 메일 그룹을 제외하면 해당 메일 그룹의 모든 구성원이 정책 평가에서 제외됩니다. 메일 그룹의 구성원, 동적 메일 그룹, 보안 그룹에 대한 정책의 범위를 선택할 수 있습니다. DLP 정책에는 50개 이하의 이러한 포함 및 제외가 포함될 수 있습니다.
 
@@ -496,8 +505,7 @@ DLP는 심도 깊은 콘텐츠 분석(단순 텍스트 검색 아님)을 사용�
 
 SharePoint Online 사이트 및 비즈니스용 OneDrive 사이트 전체에 걸쳐 문서는 지속적으로 변경됩니다. 즉 계속해서 생성되고, 편집되고, 공유됩니다. 즉, 문서는 언제든지 DLP 정책과 충돌을 일으키거나 정책을 준수할 수 있습니다. 예를 들어 한 사람이 자신의 팀 사이트에 중요한 정보를 포함하지 않는 문서를 업로드할 수 있습니다. 하지만 후에 다른 사람이 같은 문서를 편집하고 중요한 정보를 추가할 수 있습니다.
   
-이러한 이유로 DLP 정책은 백그라운드에서 문서의 정책 일치 여부를 자주 확인합니다. 이러한 검사를 비동기 정책 평가로 간주할 수 있습니다.
-<!-- what is the frequency? looks like it is tied to the search crawl schedule -->
+이러한 이유로 DLP 정책은 백그라운드에서 문서의 정책 일치 여부를 자주 확인합니다. 이러한 검사를 비동기 정책 평가로 간주할 수 있습니다.<!-- what is the frequency? looks like it is tied to the search crawl schedule -->
   
 #### <a name="how-it-works"></a>작업 방법
  
@@ -510,7 +518,7 @@ SharePoint Online 사이트 및 비즈니스용 OneDrive 사이트 전체에 걸
 DLP는 인덱스를 지정할 수 있는 모든 콘텐츠를 평가합니다. 기본적으로 크롤링되는 파일 형식에 대한 자세한 내용은 [SharePoint Server의 크롤링되는 기본 파일 이름의 확장명 및 구문 분석되는 파일 형식](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)을 참고하십시오.
 
 > [!NOTE]
-> 최소 하나 이상의 DLP 정책이 새로운 항목을 찾을 때까지 SharePoint에서 신규 파일 외부 공유는 기본적으로 차단될수 있습니다. 자세한 내용은 [신규 파일을 기본으로 민감하게 설정하기](/sharepoint/sensitive-by-default)를 참고하세요. 
+> DLP 정책이 문서를 분석하기 전에 문서를 공유하지 못하게 하기 위해 콘텐츠가 인덱싱될 때까지 SharePoint 파일의 공유를 차단할 수 있습니다. 자세한 내용은 [신규 파일을 기본으로 민감하게 설정하기](/sharepoint/sensitive-by-default)를 참고하세요. 
   
 ### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Exchange, Outlook 및 웹 상 Outlook의 정책 평가
 

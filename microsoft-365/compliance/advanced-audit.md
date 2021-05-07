@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: 88308d173df79f55f38aba4b70d4b561667941bf
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 4df9cda05d4b5febbc5b7beb505365e449accf04
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574657"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892909"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
@@ -41,7 +41,7 @@ Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-com
 10년간 감사 로그를 보존하는 기능 또한 해제하고 있습니다. 감사 로그의 10년 보존은 장기 실행 조사를 지원하고 규제, 법률 및 내부 의무에 대응하는 데 도움이 됩니다.
 
 > [!NOTE]
-> 10년간의 감사 로그 보존은 추가적인 추가 기능 라이선스를 필요로 합니다. 이 새 라이선스는 2021년 초에 사용할 수 있습니다. 자세한 내용은 이 문서의 [고급 감사에 대한 FAQ](#faqs-for-advanced-audit) 섹션을 참조하십시오.
+> 10년간의 감사 로그 보존은 추가적인 추가 기능 라이선스를 필요로 합니다. 자세한 내용은 이 문서의 [고급 감사에 대한 FAQ](#faqs-for-advanced-audit) 섹션을 참조하십시오.
 
 ### <a name="audit-log-retention-policies"></a>로그 보존 정책 감사
 
@@ -63,9 +63,12 @@ Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-com
 
 - [보내기](#send)
 
-- [SearchQueryInitiatedExchange](#searchqueryinitiatedexchange)
+- [SearchQueryInitiatedExchange](#searchqueryinitiatedexchange)<sup>*</sup>
 
-- [SearchQueryInitiatedSharePoint](#searchqueryinitiatedsharepoint)
+- [SearchQueryInitiatedSharePoint](#searchqueryinitiatedsharepoint)<sup>*</sup>
+
+> [!NOTE]
+> <sup>*</sup> 현재 이 이벤트는 Office 365 및 Microsoft 365 Government 환경에서 사용할 수 없습니다. 여기에는 GCC, GCC High 및 DoD 환경이 포함됩니다.
 
 ### <a name="mailitemsaccessed"></a>MailItemsAccessed
 
@@ -197,13 +200,9 @@ MailItemsAccessed 및 전송과 같은 중요한 이벤트를 기록하는 기�
 
 적정 라이선스가 할당된 적격 고객 및 사용자에 게는 중요한 감사 이벤트에 대한 액세스 권한을 얻는 데 취할 조치가 없습니다.
 
-**새 10년 감사 로그 보존 추가 항목 라이선스를 언제 사용할 수 있나요?**
+**이 기능이 일반에 공개되었지만 필요한 추가 기능 라이선스를 사용하기 전에 10년 감사 로그 보존 정책을 만든 경우 조직의 감사 로그 데이터는 어떻게 되나요?**
 
-E5 구독이 있는 고객은 새로운 10년 감사 로그 보존 추가 기능을 구매할 수 있습니다.
-
-**이 기능이 일반에 공개되었지만 2021년 2월에 필요한 추가 기능 라이선스를 사용하기 전에 10년 감사 로그 보존 정책을 만든 경우 조직의 감사 로그 데이터는 어떻게 되나요?**
-
-사용자가 일반적인 가용성 이후 만든 10년 감사 로그 보존 정책으로 감사된 모든 감사 로그 데이터는 10년 동안 보존됩니다. 10년 감사 로그 보존 추가 항목 라이선스를 2021년 초에 사용할 수 있는 경우, 감사 데이터가 기존 10년 감사 보존 정책에 의해 보존되고 있는 사용자에 대해 추가 항목 라이선스를 구매해야 합니다.
+사용자가 일반 가용성이 통용되도록 기능을 출시한 작년 2020년 4분기 이후에 만든 10년 감사 로그 보존 정책으로 감사된 모든 감사 로그 데이터는 10년 동안 보존됩니다. 여기에는 구매용으로 필수 추가 기능 라이선스를 릴리스하기 전에 만든 10년 감사 로그 보존 정책이 포함됩니다. 그러나 이제 10년 감사 로그 보존 추가 기능 라이선스를 구매할 수 있기 때문에 감사 데이터가 10년 감사 보존 정책이 적용된 사용자에 대해 해당 추가 기능 라이선스를 구입하여 할당해야 합니다.
 
 **고급 감사의 새 이벤트는 Office 365 관리 작업 API에서 사용할 수 있나요?**
 

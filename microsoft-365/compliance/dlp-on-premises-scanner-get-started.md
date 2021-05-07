@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 설정
-ms.openlocfilehash: 7e190a1d6e902af3406f7e8f317efe80e825e7f2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 242956a3c6469756481fb823340e715a210562af
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917834"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114176"
 ---
 # <a name="get-started-with-the-data-loss-prevention-on-premises-scanner-preview"></a>데이터 손실 방지 온-프레미스 스캐너로 시작하기(미리 보기)
 
@@ -55,7 +55,7 @@ DLP 온-프레미스 스캐너의 데이터는 [활동 탐색기](data-classific
 
 ### <a name="dlp-on-premises-scanner-prerequisites"></a>DLP 온-프레미스 스캐너에 대한 필수 구성 요소
 
-- Azure Information Protection(AIP) 스캐너는 DLP 정책 일치 및 정책 적용을 구현합니다. 스캐너가 AIP 클라이언트의 일부로 설치되어 있으므로 설치에 있어서 AIP, AIP 클라이언트 및 AIP 통합 레이블 지정 스캐너의 모든 필수 구성 요소를 충족해야 합니다.
+- Azure Information Protection (AIP) 스캐너는 DLP 정책 일치 및 정책 적용을 구현합니다. 스캐너는 AIP 클라이언트의 일부로 설치되어 사용자의 설치가 AIP, AIP 클라이언트 및 AIP 통합 레이블 스캐너의 모든 필수 구성 요소를 갖춰야 합니다.
 - AIP 클라이언트 및 스캐너를 배포합니다. [AIP 통합 레이블 지정 클라이언트 설치](/azure/information-protection/rms-client/install-unifiedlabelingclient-app) 및 []에 대한 자세한 내용은 [Azure Information Protection 통합 레이블 지정 스캐너 구성 및 설치](/azure/information-protection/deploy-aip-scanner-configure-install)를 참조하세요.
 - 모든 검색 규칙이 중요한 정보 유형만을 기반으로 할지라도 테넌트에 하나 이상의 레이블 및 정책이 게시되어야 합니다.
 
@@ -66,7 +66,7 @@ DLP 온-프레미스 스캐너의 데이터는 [활동 탐색기](data-classific
     1. 네트워크 검색 작업 구성은 선택적 단계입니다. 이를 건너뛰고 콘텐츠 스캔 작업에서 스캔할 특정 리포지토리를 정의할 수 있습니다.
     2. 콘텐츠 스캔 작업을 만들고 DLP 엔진으로 평가해야 하는 파일을 호스트하는 리포지토리를 지정해야 합니다.
     3. 만든 콘텐츠 스캔 작업의 DLP 규칙을 사용하도록 설정하고, DLP 적용 단계로 직접 진행하지 않는 이상 옵션을 **끄기** 로 **적용** 하도록 설정합니다.
-3. 콘텐츠 스캔 작업이 올바른 클러스터에 할당되어 있는지 확인합니다. 여전히 콘텐츠 스캔 작업을 만들지 않았을 경우 새 스캔 작업을 만들고 공개 미리 보기 버전을 실행하는 스캐너 노드가 포함된 클러스터에 이를 할당합니다.
+3. 콘텐츠 스캔 작업이 올바른 클러스터에 할당되어 있는지 확인합니다. 아직 콘텐츠 스캔 작업을 만들지 않았을 경우 새 스캔 작업을 만들고 공개 미리 보기 버전을 실행하는 스캐너 노드가 포함된 클러스터에 이를 할당합니다.
 
 4. [Azure Portal 내 Azure Information Protection 확장](https://portal.azure.com/#blade/Microsoft_Azure_InformationProtection/DataClassGroupEditBlade/scannerProfilesBlade)에 연결하고 스캔을 수행하는 콘텐츠 스캔 작업으로 리포지토리를 추가합니다.
 
@@ -127,7 +127,7 @@ DLP 온-프레미스 스캐너의 데이터는 [활동 탐색기](data-classific
 
 - [DLP 온-프레미스 스캐너에 대한 자세한 정보(미리 보기)](dlp-on-premises-scanner-learn.md)
 - [DLP 온-프레미스 스캐너 사용하기(미리 보기)](dlp-on-premises-scanner-use.md)
-- [데이터 손실 방지 개요](data-loss-prevention-policies.md)
-- [DLP 정책 생성, 테스트 및 조정](create-test-tune-dlp-policy.md)
+- [데이터 손실 방지에 대한 자세한 정보](dlp-learn-about-dlp.md)
+- [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 - [활동 탐색기 시작하기](data-classification-activity-explorer.md)
 - [Microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)

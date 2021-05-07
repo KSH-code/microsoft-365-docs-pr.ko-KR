@@ -7,7 +7,7 @@ author: cabailey
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: hub-page
+ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
@@ -16,13 +16,14 @@ search.appverid:
 ms.collection:
 - m365solution-mip
 - m365initiative-compliance
+recommendations: false
 description: MIP(Microsoft Information Protection)를 구현하여 중요한 정보를 어디에서나 보호할 수 있습니다.
-ms.openlocfilehash: e8487bf443592fa45b887929f947b701406dba55
-ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
+ms.openlocfilehash: 36e8e917349edd5523677112818cd39514710583
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51394696"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114364"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft 365의 Microsoft Information Protection
 
@@ -48,7 +49,7 @@ MIP 기능은 Microsoft 365 규정 준수에 포함되어 있으며, [데이터 
  
 |기능|어떤 문제를 해결하나요?|시작|
 |:------|:------------|:--------------------|
-|[중요한 정보 유형](sensitive-information-type-learn-about.md)| 기본 제공 식이나 사용자 지정 정규식 또는 함수를 사용하여 중요한 데이터를 식별합니다. 증거에는 키워드, 신뢰 수준 및 근접성이 포함됩니다.| [기본으로 제공되는 중요한 정보 유형 사용자 지정](customize-a-built-in-sensitive-information-type.md)|
+|[중요한 정보 유형](sensitive-information-type-learn-about.md)| 키워드, 신뢰 수준 및 근접성을 포함하는 확증적 증거와 함께 기본 제공 또는 사용자 정의 정규식 또는 함수를 사용하여 중요한 데이터를 식별합니다.| [기본으로 제공되는 중요한 정보 유형 사용자 지정](customize-a-built-in-sensitive-information-type.md)|
 |[학습 가능한 분류자](classifier-learn-about.md)| 항목(패턴 일치)에서 요소를 식별하는 대신 관심이 있는 데이터의 예제를 사용하여 중요한 데이터를 식별합니다. 기본 제공 분류자를 사용하거나 본인의 콘텐츠로 분류자를 학습시킬 수 있습니다.| [학습 가능한 분류자로 시작](classifier-get-started-with.md) |
 |[데이터 분류](data-classification-overview.md) | 민감도 레이블, 보존 레이블이 있거나 또는 분류된 조직의 항목의 그래픽 식별입니다. 이 정보를 사용하여 사용자가 이러한 항목에 대해 취하는 작업에 대한 통찰력을 얻을 수도 있습니다. | [콘텐츠 탐색기로 시작](data-classification-content-explorer.md)<br /><br /> [활동 탐색기 시작하기](data-classification-activity-explorer.md) |
 
@@ -77,8 +78,19 @@ MIP 기능은 Microsoft 365 규정 준수에 포함되어 있으며, [데이터 
 
 |기능|어떤 문제를 해결하나요?|시작|
 |:------|:------------|:---------------------|
-|[DLP(데이터 손실 방지)](data-loss-prevention-policies.md)| 중요한 항목의 의도하지 않은 공유를 방지하는 데 도움이 됩니다. | [기본 DLP 정책을 사용하여 시작](get-started-with-the-default-dlp-policy.md)|
+|[데이터 손실 방지에 대한 자세한 정보](dlp-learn-about-dlp.md)| 중요한 항목의 의도하지 않은 공유를 방지하는 데 도움이 됩니다. | [기본 DLP 정책을 사용하여 시작](get-started-with-the-default-dlp-policy.md)|
 |[끝점 데이터 손실 방지에 대한 자세한 정보](endpoint-dlp-learn-about.md)| DLP 기능을 Windows 10 컴퓨터에서 사용 및 공유되는 항목으로 확장합니다. | [끝점 데이터 손실 방지 시작](endpoint-dlp-getting-started.md)|
 |[Microsoft 규정 준수 확장(미리 보기)에 대해 알아보기](dlp-chrome-learn-about.md) | Chrome 브라우저로 DLP 기능 확장 | [Microsoft 규정 준수 확장 시작(미리 보기)](dlp-chrome-get-started.md)|
 |[Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 알아보기(미리 보기)](dlp-on-premises-scanner-learn.md)|파일 활동과 해당 파일에 대한 보호 작업 모니터링을 온-프레미스 파일 공유와 SharePoint 폴더 및 문서 라이브러리로 확대시킵니다.|[Microsoft 365 데이터 손실 방지 온-프레미스 스캐너로 시작하기(미리 보기)](dlp-on-premises-scanner-get-started.md)|
 |[Microsoft Teams 대화 및 채널 메시지에서 중요한 정보를 보호합니다](dlp-microsoft-teams.md) | Teams 채팅 및 채널 메시지로 일부 DLP 기능 확장 | [Microsoft Teams의 기본 데이터 손실 방지 정책에 대한 자세한 정보(미리 보기)](dlp-teams-default-policy.md)| 
+
+
+## <a name="additional-resources"></a>추가 리소스
+
+여러 조직에서는 데이터 개인 정보 보호 규정을 준수하기 위해 이러한 정보 보호 기능을 사용하고 있습니다. Microsoft는 안전한 액세스, 위협 방지, 정보 보호, 데이터 거버넌스를 비롯한 Microsoft 365 전반에서 기능을 계획하고 구현하기 위한 종단 간 프로세스를 안내하는 워크플로를 설계했습니다. 자세한 내용은 [Microsoft 365를 사용하여 데이터 개인 정보 보호 규정을 위한 정보 보호를 구현합니다](../solutions/information-protection-deploy.md)(aka.ms/m365dataprivacy)를 참조하세요. 
+
+또한 정보 보호 기능을 구현하기 위한 통합 전략을 계획할 수 있도록 *Microsoft 365 정보 보호 및 규정 준수 기능* 일러스트레이션 집합을 다운로드하세요.  사용자는 개인적으로 이 일러스트레이션을 사용할 수 있습니다.
+
+| 항목 | 설명 |
+|:-----|:------------|
+|[![모델 포스터: Microsoft 365 정보 보호 및 규정 준수 기능](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> [PDF로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> 일본어: [PDF로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf)  \| [Visio로 다운로드](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) <br/> 업데이트 날짜: 2020년 10월|포함 항목: <ul><li>  Microsoft 정보 보호 및 데이터 손실 방지</li><li>보존 정책 및 보존 레이블 </li><li>정보 장벽</li><li>커뮤니케이션 규정 준수</li><li>내부자 위험 관리</li><li>타사 데이터 수집</li>|
