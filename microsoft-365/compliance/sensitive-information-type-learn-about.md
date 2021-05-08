@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 01dd5feab17c68eed1da9d66c4310c50e90032c6
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 7d23230ebe4321f355128d1f3268e967a35a0a89
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114228"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245651"
 ---
 # <a name="learn-about-sensitive-information-types"></a>중요한 정보 유형에 대해 자세히 알아보기
 
@@ -81,7 +81,7 @@ ms.locfileid: "52114228"
 
 ### <a name="checksum"></a>체크섬
 
-아니요.
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -158,5 +158,7 @@ DLP 정책은 다음의 경우 이러한 유형의 중요한 정보가 300자 �
 - [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
 - [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)
 - [PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)
+
+중요한 정보 유형을 사용하여 데이터 개인 정보 보호 규정을 준수하는 방법에 대한 자세한 내용은 [Deploy information protection for data privacy regulations with Microsoft 365](../solutions/information-protection-deploy.md) (aka.ms/m365dataprivacy)를 참조하십시오.
 
 <!-- fwlink for this topic https://go.microsoft.com/fwlink/?linkid=2135644-->

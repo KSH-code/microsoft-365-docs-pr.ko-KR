@@ -26,21 +26,21 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: 등록에서 도메인 및 사용자 추가, 보안 정책 설정 등 Microsoft 365 Business Premium의 설정 단계를 자세히 알아보십시오.
-ms.openlocfilehash: 749acbfdbde92ad97b09dc720c85dd850b76c9cf
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 등록, Microsoft 365 Business Premium 도메인 및 사용자 추가, 보안 정책 설정에 대한 설정 단계에 대해 자세히 알아보십시오.
+ms.openlocfilehash: 008a5c51698589667acc0d01649f67dab33b4c58
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579937"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245067"
 ---
 # <a name="overview-of-setup"></a>설정 개요
 
-Microsoft 365 Business Premium 설정에 대한 짧은 비디오를 시청합니다.<br><br>
+설치에 대한 짧은 Microsoft 365 Business Premium 시청합니다.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
 
 대부분의 설치 단계는 안내 설치에서 수행될 수 있지만 다른 옵션도 나열되어 있습니다.
 
@@ -50,7 +50,7 @@ Microsoft 365 Business Premium 설정에 대한 짧은 비디오를 시청합니
 
    - **사용자를 추가합니다.** 다음 세 가지 방법으로 사용자를 추가할 수 있습니다.
         - 안내 [설치에서 을(를) 설치합니다.](set-up.md#add-users-in-the-wizard)
-        - 디렉터리 동기화를 사용하여 [Azure AD Connect를](../enterprise/set-up-directory-synchronization.md) 사용하여 사용자를 추가합니다(프레미스 Active Directory가 있는 경우).
+        - 디렉터리 동기화를 사용하여 [Azure AD](../enterprise/set-up-directory-synchronization.md) 커넥트 디렉터리가 있는 경우 사용자를 추가합니다.
         - 나중에 관리 [센터에서 사용자를](../admin/add-users/add-users.md) 추가할 수도 있습니다.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>2단계: 보안 정책 설정 및 장치 구성 
 
@@ -61,38 +61,38 @@ Microsoft 365 Business Premium 설정에 대한 짧은 비디오를 시청합니
   설치 마법사의 보안 설정 외에도 다음 설정을 추가하여 보안을 강화할 수 있습니다.
 
 - **전자 메일 맬웨어 보호**
-- **Defender for Office 365의 피싱 방지**
+- **Defender for Office 365**
 - **Exchange Online Archiving**
 - **Azure Information Protection(계획1)**
 
 시작을 위해 위협 [](increase-threat-protection.md) 방지 강화 및 준수 [기능 설정 을 참조합니다.](set-up-compliance.md)
 
-모범 보안 사례에 대한 로드맵을 확인하여 [Microsoft 365 Business Premium을](/office365/admin/security-and-compliance/secure-your-business-data) 보호하는 상위 10가지 방법도 참조합니다.
+모범 보안 모범 사례에 대한 로드맵을 Microsoft 365 Business Premium [10가지](/office365/admin/security-and-compliance/secure-your-business-data) 방법도 참조합니다.
 
-## <a name="step-3-set-up-and-manage-windows-10-devices"></a>3단계: Windows 10 장치 설정 및 관리
+## <a name="step-3-set-up-and-manage-windows-10-devices"></a>3단계: 장치 설정 Windows 10 관리
 
-안내 설치를 완료한 후 조직의 모든 Windows 10 컴퓨터를 보호할 수 있습니다.
+안내 설치를 완료한 후 조직의 모든 Windows 10 보호할 수 있습니다.
   
-- Windows 10 Pro는 Microsoft 365 Business Premium의 선행 필요합니다. 그러나 Windows 7 Pro, Windows 8 Pro 또는 Windows 8.1 Pro가 있는 경우 구독을 통해 [Windows 10 Pro로](./upgrade-to-windows-pro-creators-update.md)업그레이드할 수 있습니다. [](pre-requisites-for-data-protection.md)
-- 보안 Windows [10 PC의](secure-win-10-pcs.md) 단계에 따라 Windows 10 장치에 대한 정책을 설정할 수 있습니다.
+- Windows 10 Pro 는 Microsoft 365 Business Premium [](pre-requisites-for-data-protection.md) Windows 대한 선행 Microsoft 365 Business Premium, Pro, Windows 8 Pro 또는 Windows 8.1 Pro 7개가 있는 경우 구독에서 [Windows 10 Pro.](./upgrade-to-windows-pro-creators-update.md)
+- PC의 보안 [Windows 10](secure-win-10-pcs.md) 단계에 따라 장치용 정책을 Windows 10.
 
-Windows 10 장치를 Azure AD에 가입하면 Windows 10 컴퓨터에 대해 설정한 정책이 해당 장치에 적용됩니다. 자세한 내용은 Microsoft 365 사용자를 위한 Windows 장치 [설정 을 참조하세요.](set-up-windows-devices.md)
+Azure AD에 Windows 10 장치를 가입하면 Windows 10 정책이 적용됩니다. 자세한 내용은 [Set up Windows devices for Microsoft 365 참조하세요.](set-up-windows-devices.md)
 
-## <a name="step-4-install-microsoft-365-apps-for-business"></a>4단계: 비즈니스용 Microsoft 365 앱 설치
-- 설치 마법사를 사용하여 Windows 장치에 Office를 자동으로 설치할 [수 있습니다.](set-up.md#deploy-office-365-client-apps)
-- 사용자가 [Windows 및 디바이스용 Office](/office365/admin/setup/install-applications) 앱을 설치할 수 있도록 합니다.
+## <a name="step-4-install-microsoft-365-apps-for-business"></a>4단계: 설치 비즈니스용 Microsoft 365 앱
+- 설치 마법사를 사용하여 Office 디바이스에 Windows 수 [있습니다.](set-up.md#deploy-office-365-client-apps)
+- 사용자가 앱 [및 Office 앱을](/office365/admin/setup/install-applications) Windows 수 있습니다.
      
 ## <a name="advanced"></a>고급
 - **Autopilot을 사용하여 새 장치 설정**
             
-     [Windows Autopilot을](add-autopilot-devices-and-profile.md) 사용하여 사용자를 위해 새 **Windows** 10 장치를 자동으로 미리 구성할 [](https://www.microsoft.com/solution-providers/search) 수 있지만 이 작업을 할 수 있는 파트너를 추가하는 것이 더 쉬워집니다. [Microsoft](https://go.microsoft.com/fwlink/?linkid=874598)Store로 이동하여 클라우드 기술 전문가에게 구매한 새 디바이스를 설정할 수 있습니다.
+     [Autopilot을](add-autopilot-devices-and-profile.md) Windows 사용자를 위해 새 Windows 10  장치를 자동으로 미리 구성할 수 있지만 이 작업을 할 [](https://www.microsoft.com/solution-providers/search) 수 있는 파트너를 추가하는 것이 더 쉬워집니다. 또한 으로 [이동하여](https://go.microsoft.com/fwlink/?linkid=874598)Microsoft Store 클라우드 기술 전문가에게 구매한 새 디바이스를 설정할 수 있습니다.
 
 - **온-프레미스 리소스 액세스**
 
-     - 조직에서 Windows Server Active Directory를 사용하는 경우 Microsoft 365 Business Premium을 설정하여 Windows 10 장치를 보호하는 동시에 로컬 인증이 필요한 사내 리소스에 대한 액세스는 유지 관리합니다. 도메인에 가입된 [Windows 10 장치를 Microsoft 365 Business Premium에서](manage-windows-devices.md) 관리하도록 설정의 단계에 따라 이 설정을 수행합니다. 이 방법이 기본 설정 방법으로, 이 상태의 장치를 하이브리드 Azure AD 가입 장치라고 합니다.
+     - 조직에서 Windows Server Active Directory Windows 사용하는 경우 로컬 인증이 필요한 Windows 10 리소스에 대한 액세스는 유지 관리하면서 Microsoft 365 Business Premium 장치를 보호하도록 Windows 10 설정할 수 있습니다. 도메인에 가입된 Windows 10 장치를 관리하도록 설정의 단계를 Microsoft 365 Business Premium 설정하세요. [](manage-windows-devices.md) 이 방법이 기본 설정 방법으로, 이 상태의 장치를 하이브리드 Azure AD 가입 장치라고 합니다.
 
-    - 비즈니스에 일부 사내 리소스(예: 파일 공유 및 프린터)가 포함된 로컬 Active Directory가 있는 경우 [Microsoft 365 Business Premium의 Azure AD](access-resources.md)가입 장치에서의 On-premises resources에 액세스의 단계에 따라 Azure AD 가입 장치에 이러한 리소스에 대한 액세스 권한을 부여할 수 있습니다.
+    - 비즈니스에 일부 사내 리소스(예: 파일 공유 및 프린터)가 포함된 로컬 Active Directory가 있는 경우 다음 단계를 수행하여 Azure AD 가입 장치에 이러한 리소스에 대한 액세스 권한을 부여할 수 있습니다. 액세스의 [Azure AD](access-resources.md)가입 장치에서는 Microsoft 365 Business Premium.
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 Business 교육 비디오](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 교육용 비디오(링크](../business-video/index.yml) 페이지)

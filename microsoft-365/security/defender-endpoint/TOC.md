@@ -539,6 +539,12 @@
 ####### [권장 사항별 컴퓨터 목록](get-recommendation-machines.md)
 ####### [권장 사항별 취약성 목록](get-recommendation-vulnerabilities.md)
 
+###### [수정 작업]()
+####### [수정 작업 방법 및 속성](get-remediation-methods-properties.md)
+####### [ID로 수정 작업 1개 가져오기](get-remediation-one-activity.md)
+####### [모든 수정 작업 나열s](get-remediation-all-activities.md)
+####### [한 번의 수정 작업이 있는 노출된 장치 목록](get-remediation-exposed-devices-activities.md)
+
 ###### [점수]()
 ####### [점수 방법 및 속성](score.md)
 ####### [컴퓨터 그룹별 노출 점수 목록](get-machine-group-exposure-score.md)

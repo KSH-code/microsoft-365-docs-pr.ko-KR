@@ -1,6 +1,6 @@
 ---
 title: Microsoft Managed Desktop 장치
-description: 이 문서에는 Microsoft Managed Desktop에 대해 승인된 장치의 사양이 나열되어 있습니다.
+description: 이 문서에서는 인증된 디바이스에 대한 사양을 Microsoft Managed Desktop.
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -8,30 +8,35 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 59609da65701112ced43b73b67650881bc81be8a
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: 636d32f47c4fd9fdd5c0409a4ebbc2d9e79a166d
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218667"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245939"
 ---
-# <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
+# <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치
 
-Microsoft Managed Desktop은 서비스에 포함될 장치를 정기적으로 평가합니다. 이 문서에는 현재 지원되는 특정 장치가 나열됩니다. 장치 요구 사항에 대한 일반적인 설명은 장치 요구 [사항을 참조하세요.](device-requirements.md)
+> [!NOTE]
+> Microsoft Managed Desktop 장치 모델이 더 이상 이 목록에서 사용할 필요는 없습니다. 2021년 5월 3일부로 승인된 제조업체의 모든 장치는 게시된 하드웨어 및 소프트웨어 요구 사항을 충족해야 합니다. 이 목록에서 장치를 계속 사용할 수 있습니다. 비즈니스용 디바이스 쇼핑 사이트에서 Microsoft Managed Desktop [권장되는 Windows 10 Pro 있습니다.](https://www.microsoft.com/windowsforbusiness/view-all-devices) 해당 사이트에서 필터로 필터링 영역의  기능을  확장한 다음 을 선택하여 권장 장치를 **Microsoft Managed Desktop.** 서비스에 특정 장치 모델을 처음 등록할 계획이면 언제든지 예제를 테스트하여 원하는 사용자 환경을 제공할 수 있도록 해야 합니다. 자세한 내용은 새 장치 [유효성 검사를 참조하세요.](../get-started/validate-device.md)
 
-Microsoft Managed Desktop에 대한 자세한 내용은 Microsoft Managed Desktop 설명서 및 [리소스를 참조하세요.](../index.yml) 
+Microsoft Managed Desktop 서비스에 포함될 장치를 정기적으로 평가합니다. 이 문서에는 현재 지원되는 특정 장치가 나열됩니다. 장치 요구 사항에 대한 일반적인 설명은 장치 요구 [사항을 참조하세요.](device-requirements.md)
+
+자세한 내용은 Microsoft Managed Desktop 및 리소스를 [Microsoft Managed Desktop 참조하세요.](../index.yml) 
+
+[새 디바이스 선택 및 유효성 검사](../get-started/validate-device.md)
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
-Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나일 수 있으며 RAM, 프로세서 패밀리 및 디스크 공간에 대한 나열된 사양을 충족하거나 초과해야 합니다. 
+디바이스에 등록하려면 Microsoft Managed Desktop 중 하나일 수 있으며 RAM, 프로세서 패밀리 및 디스크 공간에 대한 나열된 사양을 충족하거나 초과해야 합니다. 
 
-여기에 있는 장치에 대한 링크는 참조 전용입니다. 디바이스를 주문하려면 상업용 채널 연락처와 함께 올바른 구성을 선택해야 합니다. 이 표에서  보관 날짜는 이러한 모델이 더 짧은 Microsoft Managed Desktop 서비스 기간이 적용될 날짜입니다. 이 날짜 이후에 온보드된 이러한 장치는 Microsoft Managed Desktop에서 3년의 전체 지원 기간을 받지 못합니다. 보관된 장치는 Microsoft [Managed Desktop 보관 장치에도 나열됩니다.](archived-device-list.md) *사용 중지 날짜는* Microsoft Managed Desktop에서 이 모델을 더 이상 지원하지 않는 날짜입니다. 이 날짜에 이 모델의 등록된 모든 장치가 등록된 경우와 상관없이 Microsoft Managed Desktop에서 제거됩니다.
+여기에 있는 장치에 대한 링크는 참조 전용입니다. 디바이스를 주문하려면 상업용 채널 연락처와 함께 올바른 구성을 선택해야 합니다. 이 표에서  보관 날짜는 이러한 모델의 서비스 수명이 더 짧게 Microsoft Managed Desktop 날짜입니다. 이 날짜 이후에 온보드된 이러한 장치는 해당 장치에서 3년 동안의 전체 지원 기간을 Microsoft Managed Desktop. 보관된 장치는 보관된 Microsoft Managed Desktop [나열됩니다.](archived-device-list.md) *사용 중지 날짜는* 이 모델이 더 이상 지원되지 Microsoft Managed Desktop 날짜입니다. 이 날짜에 이 모델의 등록된 모든 디바이스가 등록된 Microsoft Managed Desktop 상관없이 해당 장치에서 제거됩니다.
 
 >[!NOTE]
 >디바이스를 이 테이블에 추가할 수 있지만 보관 또는 사용 중지 날짜에 영향을 주는 변경 내용에 대해 90일 알림이 제공될 것입니다. 가장 최근에 추가된 장치는 로 **\*** 표시됩니다.
 
 
-## <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop Devices
+## <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치
 
 ### <a name="dell"></a>Dell
 
@@ -69,20 +74,20 @@ Microsoft Managed Desktop에 등록하려면 장치가 다음 모델 중 하나�
 |----------|----------------|---------------------------|----------------|--------------------|
 | [Surface Book 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab) | 256GB/Intel i5/8GB RAM | 없음 | 2022년 5월 21일 | 2027년 5월 21일 |
 | [Surface Go 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab) | 128GB/Intel Core M3/8GB RAM | 없음 | 2022년 5월 21일 | 2027년 5월 21일 |
-| [Surface 노트북 이동](https://www.microsoft.com/surface/business/surface-laptop-go) | 128GB/Intel i5/8GB RAM | 없음 | 2022년 10월 12일 | 2025년 10월 12일 |
-| [Surface 노트북 3](https://www.microsoft.com/surface/business/surface-laptop-3) | 128GB/Intel i5/8GB RAM | 없음 | 2021년 10월 22일 | 2024년 10월 22일 |
+| [Surface Laptop 이동](https://www.microsoft.com/surface/business/surface-laptop-go) | 128GB/Intel i5/8GB RAM | 없음 | 2022년 10월 12일 | 2025년 10월 12일 |
+| [Surface Laptop 3](https://www.microsoft.com/surface/business/surface-laptop-3) | 128GB/Intel i5/8GB RAM | 없음 | 2021년 10월 22일 | 2024년 10월 22일 |
 | [Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7) | 128GB/Intel i5/8GB RAM | 없음 | 2021년 10월 22일 | 2024년 10월 22일 |
 | **\*[Surface Pro 7+](https://www.microsoft.com/p/surface-pro-7-for-business/8p43n3k93409?activetab=pivot%3aoverviewtab)** | 128GB/Intel i5/8GB RAM | 없음 | 2022년 1월 15일 | 2025년 1월 15일 |
 
 또한 장치는 다음 기준을 충족해야 합니다.     
 
-- 특정 SKU가 장치 요구 사항에 나열되어 있는 경우 주문 시 해당 SKU를 사용하는지 확인합니다. 이렇게 하면 장치가 Microsoft Managed Desktop 소프트웨어 요구 사항을 준수합니다. 
-- Windows 첫 실행 환경을 완료하지 않은 경우
-- 장치 등록 기능을 사용하여 Microsoft Managed [Desktop에 등록](../get-started/register-devices-self.md)
+- 특정 SKU가 장치 요구 사항에 나열되어 있는 경우 주문 시 해당 SKU를 사용하는지 확인합니다. 이렇게 하면 장치가 소프트웨어 요구 사항을 Microsoft Managed Desktop 보장합니다. 
+- 첫 실행 Windows 완료하지 않은 경우
+- 장치 등록 기능을 사용하여 Microsoft Managed Desktop [등록](../get-started/register-devices-self.md)
 
 >[!NOTE]
 >프로세서가 2.0GHz 이상인 장치는 이러한 활동에 참여하는 사용자에게 훨씬 더 나은 환경을 제공합니다.
->- Teams와 비디오 회의 사용. 자세한 [내용은 Microsoft Teams의 하드웨어](/microsoftteams/hardware-requirements-for-the-teams-app) 요구 사항을 참조하세요.
+>- 비디오 회의와 함께 Teams. 자세한 [내용은 하드웨어 요구 Microsoft Teams](/microsoftteams/hardware-requirements-for-the-teams-app) 참조하세요.
 >-  여러 워크로드에 하나의 디바이스 사용
 >- 여러 모니터 사용.
 

@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Defender의 수정 작업
-description: Microsoft 365 Defender에서 자동화된 조사를 따르는 수정 작업의 개요를 얻습니다.
+title: Defender의 Microsoft 365 조치
+description: Defender에서 자동화된 조사를 따르는 수정 Microsoft 365 개요를 얻습니다.
 keywords: 자동화된, 조사, 경고, 트리거, 작업, 수정
 search.appverid: met150
 ms.prod: m365-security
@@ -9,8 +9,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,14 +21,14 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 41d8b91cbc905da982f8a344392398635f8d3632
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: 31162944f4728f2c84efbe2cd5eafbd0c70e00f6
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51591855"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245855"
 ---
-# <a name="remediation-actions-in-microsoft-365-defender"></a>Microsoft 365 Defender의 수정 작업
+# <a name="remediation-actions-in-microsoft-365-defender"></a>Defender의 Microsoft 365 조치
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -38,15 +38,15 @@ ms.locfileid: "51591855"
 
 ## <a name="remediation-actions"></a>수정 작업
 
-Microsoft 365 Defender에서 자동화된 조사가 진행되는 동안 및 이후에 악의적 또는 의심스러운 항목에 대한 수정 작업이 식별됩니다. 일부 종류의 수정 작업은 끝점이라고도 하는 장치에서 수행됩니다. 기타 수정 작업은 전자 메일 콘텐츠에 대해 수행됩니다. 재구성 작업을 수행, 승인 또는 거부한 후에 자동화된 조사가 완료됩니다.
+Microsoft 365 자동화된 조사가 진행되는 동안 및 이후에 악의적 또는 의심스러운 항목에 대해 수정 작업이 식별됩니다. 일부 종류의 수정 작업은 끝점이라고도 하는 장치에서 수행됩니다. 기타 수정 작업은 전자 메일 콘텐츠에 대해 수행됩니다. 재구성 작업을 수행, 승인 또는 거부한 후에 자동화된 조사가 완료됩니다.
 
 > [!IMPORTANT]
 > 재구성 작업이 자동으로 수행될지 승인에만 수행될지는 자동화 수준과 같은 특정 설정에 따라 결정됩니다. 자세한 내용은 다음 문서를 참조합니다.
-> - [Microsoft 365 Defender에서 자동화된 조사 및 응답 기능 구성](m365d-configure-auto-investigation-response.md)
+> - [Defender에서 자동화된 조사 및 대응 Microsoft 365 구성](m365d-configure-auto-investigation-response.md)
 > - [장치에서 위협을 수정하는 방법](../defender-endpoint/automated-investigations.md)
 > - [전자 메일 및 공동 작업 콘텐츠에 & 수정 작업](../office-365-security/air-remediation-actions.md#threats-and-remediation-actions)
 
-다음 표에는 Microsoft 365 Defender에서 현재 지원되는 수정 작업이 요약됩니다. 
+다음 표에는 현재 Defender에서 지원되는 수정 Microsoft 365 요약되어 있습니다. 
 
 |장치(끝점) 수정 작업  |전자 메일 수정 작업  |
 |:---------|:---------|

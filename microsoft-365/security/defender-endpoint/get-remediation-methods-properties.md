@@ -1,7 +1,7 @@
 ---
-title: 재구성 활동 방법 및 속성
-description: API 응답에는 테넌트에서 & 위협 요소 관리 수정 활동이 포함되어 있습니다. 모든 재구성 활동, 수정 활동 하나만 또는 선택한 수정 작업에 대해 노출된 장치에 대한 정보를 요청할 수 있습니다.
-keywords: api, 수정, 수정 api, get, 수정 작업,
+title: 수정 작업 방법 및 속성
+description: API 응답에는 테넌트에서 & 취약성 관리 수정 활동에 대한 위협이 포함되어 있습니다. 모든 재구성 활동, 수정 활동 하나만 또는 선택한 수정 작업에 대해 노출된 장치에 대한 정보를 요청할 수 있습니다.
+keywords: api, 수정, 수정 api, get, 수정 작업, 수정 방법, 수정 속성,
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f720d638ec469523a1d567dee9c01fa0974b0090
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 4c0ecd89c45ec2c91dc37f0c9cd0bfb868c0474e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061155"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245543"
 ---
-# <a name="remediation-activity-methods-and-properties"></a>재구성 활동 방법 및 속성
+# <a name="remediation-activity-methods-and-properties"></a>수정 작업 방법 및 속성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -39,19 +39,19 @@ ms.locfileid: "52061155"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-API 응답에는 [테넌트에서 &](next-gen-threat-and-vuln-mgt.md)위협 요소 관리 수정   활동이 포함되어 있습니다.  
+API 응답에는 [테넌트에서 & 취약성 관리](next-gen-threat-and-vuln-mgt.md)위협 요소 수정   활동이 포함되어 있습니다.  
 
 ## <a name="methods"></a>메서드
 
 메서드 | 데이터 형식 | 설명
 :---|:---|:---
-[모든 재구성 활동 나열](get-remediation-all-activities.md) | 조사 컬렉션 | 모든 수정 활동에 대한 정보를 반환합니다.
-[한 가지 수정 활동의 노출된 장치 나열](get-remediation-exposed-devices-activities.md) | 조사 엔터티 | 지정된 수정 활동에 대해 노출된 장치에 대한 정보를 반환합니다.
-[ID로 하나의 재구성 활동 얻기](get-remediation-one-activity.md) | 조사 엔터티 | 지정한 수정 활동에 대한 정보를 반환합니다.
+[모든 수정 작업 나열s](get-remediation-all-activities.md) | 조사 컬렉션 | 모든 수정 활동에 대한 정보를 반환합니다.
+[한 번의 수정 작업이 있는 노출된 장치 목록](get-remediation-exposed-devices-activities.md) | 조사 엔터티 | 지정된 수정 활동에 대해 노출된 장치에 대한 정보를 반환합니다.
+[ID로 수정 작업 1개 가져오기](get-remediation-one-activity.md) | 조사 엔터티 | 지정한 수정 활동에 대한 정보를 반환합니다.
 
 재구성 활동에 [대해 자세히 알아보시다.](tvm-remediation.md)
 
-## <a name="properties"></a>속성
+## <a name="properties"></a>특성
 
 속성 ID | 데이터 형식 | 설명
 :---|:---|:---
@@ -86,12 +86,12 @@ vendorId | 문자열 | 관련 공급업체 이름
 
 ## <a name="see-also"></a>참고 항목
 
-- [ID로 하나의 재구성 활동 얻기](get-remediation-one-activity.md)
+- [ID로 수정 작업 1개 가져오기](get-remediation-one-activity.md)
 
-- [모든 재구성 활동 나열](get-remediation-all-activities.md)
+- [모든 수정 작업 나열s](get-remediation-all-activities.md)
 
-- [한 가지 수정 활동의 노출된 장치 나열](get-remediation-exposed-devices-activities.md)
+- [한 번의 수정 작업이 있는 노출된 장치 목록](get-remediation-exposed-devices-activities.md)
 
-- [위험 기반 위협 & 관리](next-gen-threat-and-vuln-mgt.md)
+- [위험 기반 위협 & 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 
 - [조직의 취약성](tvm-weaknesses.md)

@@ -20,12 +20,12 @@ ms.custom:
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5b5122984969113ec0c0533952ea3bf18bff5e5c
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: 1fc811fb513935645fa596c5a9d2e3e552b50324
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51592111"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245363"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -36,25 +36,7 @@ ms.locfileid: "51592111"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
- **요약:** 이 문서에서는 대상 전자 메일 시스템에서 사용자 지정 도메인에서 보낸 메시지를 신뢰하는지 확인하기 위해 Office 365에서 DomainKeys 식별 메일 (DKIM)을 사용하는 방법을 설명합니다.
-
-SPF 및 DMARC와 함께 DKIM을 사용하여 spoofer로 하여금 사용자의 도메인에서 오는 것처럼 보이는 메시지를 보내지 못하도록 해야 합니다. DKIM을 사용하면 보내는 전자 메일 메시지의 머리글에 디지털 서명을 첨부할 수 있습니다. 복잡해 보이지만 실제로는 그렇지 않습니다. DKIM을 구성할 때 암호화 인증을 사용하여 전자 메일 메시지에 해당 이름을 연결하거나 서명할 수 있는 권한을 도메인에 부여합니다. 사용자의 도메인으로부터 전자 메일을 수신하는 전자 메일 시스템에서는 이 디지털 서명을 사용하여 수신하는 전자 메일이 합법적인지 확인할 수 있습니다.
-
-기본적으로 개인 키를 사용하여 사용자의 도메인의 보내는 전자 메일에서 머리글을 암호화 합니다. 사용자의 DNS 레코드에 공개 키를 게시하면 수신하는 서버에서 이를 이용하여 서명을 디코딩하는 데 사용할 수 있습니다. 공개 키를 사용하여 메시지가 실제로 사용자로부터 온 것이고 도메인을 *스푸핑한* 사람에게서 온 것이 아닌지 확인합니다.
-
-Microsoft 365는 초기 'onmicrosoft.com' 도메인에 대해 DKIM을 자동으로 설정합니다. 즉, 초기 도메인 이름(예: litware.onmicrosoft.com)의 DKIM을 설정하기 위한 작업을 수행하지 않아도 됩니다. 도메인에 대한 자세한 내용은 [도메인 FAQ](../../admin/setup/domains-faq.yml#why-do-i-have-an--onmicrosoft-com--domain)를 참조하세요.
-
-사용자 지정 도메인의 DKIM에 대해서 아무 것도 수행하지 않도록 선택할 수 있습니다. 사용자 지정 도메인에 DKIM을 설정하지 않으면 Microsoft 365는 개인 및 공개 키 쌍을 만들고 DKIM 서명을 사용하도록 설정 한 다음 사용자 지정 도메인에 대한 Microsoft 365 기본 정책을 구성합니다. 대부분의 Microsoft 365 고객에게는 이 기능으로 충분하지만 다음과 같은 경우에는 사용자 지정 도메인에 대해 DKIM을 수동으로 구성해야 합니다.
-
-- Microsoft 365에 두 개 이상의 사용자 지정 도메인이 있는 경우
-
-- DMARC 또한 설정하려는 경우 (권장됨)
-
-- 개인 키를 제어하려는 경우
-
-- CNAME 레코드를 사용자 지정하려는 경우
-
-- 타사 대량 메일 프로그램을 사용하는 경우와 같이 타사 도메인에서 시작되는 전자 메일에 대해 DKIM 키를 설정하려는 경우
+ 이 문서에서는 대상 전자 메일 시스템이 사용자 지정 도메인에서 아웃바운드된 메시지를 신뢰하도록 Microsoft 365에서 DKIM(DomainKeys Identified Mail)을 사용하는 단계를 나열합니다.
 
 이 문서의 내용
 
@@ -62,7 +44,7 @@ Microsoft 365는 초기 'onmicrosoft.com' 도메인에 대해 DKIM을 자동으�
 
 - [수동으로 1024 비트 키를 2048 비트 DKIM 암호화 키로 업그레이드하는 단계](use-dkim-to-validate-outbound-email.md#1024to2048DKIM)
 
-- [DKIM을 수동으로 설정하는 데 필요한 단계](use-dkim-to-validate-outbound-email.md#SetUpDKIMO365)
+- [DKIM을 수동으로 설정하는 단계](use-dkim-to-validate-outbound-email.md#SetUpDKIMO365)
 
 - [두 개 이상의 사용자 지정 도메인에 대해 DKIM을 구성하는 단계](use-dkim-to-validate-outbound-email.md#DKIMMultiDomain)
 
@@ -74,19 +56,49 @@ Microsoft 365는 초기 'onmicrosoft.com' 도메인에 대해 DKIM을 자동으�
 
 - [다음 단계: Microsoft 365에 대한 DKIM을 설정한 후](use-dkim-to-validate-outbound-email.md#DKIMNextSteps)
 
+> [!NOTE]
+> Microsoft 365는 초기 'onmicrosoft.com' 도메인에 대해 DKIM을 자동으로 설정합니다. 즉, 초기 도메인 이름(예: litware.onmicrosoft.com)의 DKIM을 설정하기 위한 작업을 수행하지 않아도 됩니다. 도메인에 대한 자세한 내용은 [도메인 FAQ](../../admin/setup/domains-faq.yml#why-do-i-have-an--onmicrosoft-com--domain)를 참조하세요.
+
+DKIM은 스푸핑이 도메인에서 발송된 것 같은 메시지를 보내지 못하도록 도와주는 SPF, DKIM 및 DMARC(인증 방법) 중 하나입니다.
+
+DKIM을 사용하면 보내는 전자 메일 메시지의 머리글에 디지털 서명을 첨부할 수 있습니다. DKIM을 구성할 때 암호화 인증을 사용하여 전자 메일 메시지에 해당 이름을 연결하거나 서명할 수 있는 권한을 도메인에 부여합니다. 도메인에서 전자 메일을 받는 전자 메일 시스템은 이 디지털 서명을 사용하여 받는 전자 메일이 합법적인지 여부를 확인할 수 있습니다.
+
+기본적으로 비공개 키는 도메인의 발송된 전자 메일에 있는 머리글을 암호화합니다. 공개 키는 도메인의 DNS 레코드에 게시됩니다. 받는 서버에서 해당 키를 사용하여 서명을 디코딩할 수 있습니다. DKIM 확인을 통해 수신 서버는 수신 서버가 메일의 수신 여부를 확인할 수 있으며, 메일은 사용자의 도메인을 *스푸핑* 하는 사람이 아닙니다.
+
+> [!TIP]
+>사용자 지정 도메인의 DKIM에 대해 아무런 조치도 하지 않을지 선택할 수 있습니다. 사용자 지정 도메인에 DKIM을 설정하지 않으면 Microsoft 365는 개인 및 공개 키 쌍을 만들고 DKIM 서명을 사용하도록 설정 한 다음 사용자 지정 도메인에 대한 Microsoft 365 기본 정책을 구성합니다.
+
+ Microsoft-365의 기본 제공 DKIM 구성은 대부분의 고객에게 충분하지만 다음과 같은 경우에는 사용자 지정 도메인에 대해 DKIM을 수동으로 구성해야 합니다.
+
+- Microsoft 365에 두 개 이상의 사용자 지정 도메인이 있는 경우
+
+- DMARC 또한 설정하려는 경우(**권장됨**)
+
+- 개인 키를 제어하려는 경우
+
+- CNAME 레코드를 사용자 지정하려는 경우
+
+- 타사 대량 메일 프로그램을 사용하는 경우와 같이 타사 도메인에서 시작되는 전자 메일에 대해 DKIM 키를 설정하려는 경우
+
+
 ## <a name="how-dkim-works-better-than-spf-alone-to-prevent-malicious-spoofing"></a>악의적인 스푸핑을 방지하기 위해 DKIM이 SPF 단독보다 더욱 효율적인 방식인 이유
 <a name="HowDKIMWorks"> </a>
 
-SPF는 메시지 봉투에 정보를 추가하지만 DKIM은 실제로 메시지 머리글 내에서 서명을 암호화 합니다. 메시지를 전달할 때 메시지의 봉투 일부가 전달 서버에서 제거될 수 있습니다. 디지털 서명은 전자 메일 머리글의 일부이기 때문에 전자 메일 메시지와 함께 유지되므로 DKIM은 다음 예제와 같이 메시지가 전달된 경우에도 작동합니다.
+SPF는 메시지 봉투에 정보를 추가하지만 DKIM은 메시지 머리글 내에서 서명을 *암호화* 합니다. 메시지를 전달할 때 메시지의 봉투 일부가 전달 서버에서 제거될 수 있습니다. 디지털 서명은 전자 메일 머리글의 일부이기 때문에 전자 메일 메시지와 함께 유지되므로 DKIM은 다음 예제와 같이 메시지가 전달된 경우에도 작동합니다.
 
 ![SPF 확인이 실패하는 경우 DKIM 인증을 제공하는 전달된 메시지를 보여주는 다이어그램](../../media/28f93b4c-97e7-4309-acc4-fd0d2e0e3377.jpg)
 
-이 예제에서 도메인에 대한 SPF TXT 레코드만 게시한 경우 받는 사람의 메일 서버에서 전자 메일을 스팸으로 표시하고 가양성 결과를 생성할 수 있습니다. 이 시나리오에 DKIM을 추가하면 가양성 스팸 보고를 줄일 수가 있습니다. DKIM은 IP 주소뿐만 아니라 인증을 위해 공개 키 암호화를 사용하기 때문에 DKIM은 SPF보다 훨씬 강력한 인증 형식으로 간주됩니다. 배포시 SPF 및 DKIM과 DMARC를 모두 사용하는 것이 좋습니다.
+이 예제에서 도메인에 대한 SPF TXT 레코드만 게시한 경우 받는 사람의 메일 서버에서 전자 메일을 스팸으로 표시하고 가양성 결과를 생성할 수 있습니다. **이 시나리오에 DKIM을 추가하면 *가양성* 스팸 보고를 줄일 수가 있습니다.** DKIM은 IP 주소뿐만 아니라 인증을 위해 공개 키 암호화를 사용하기 때문에 DKIM은 SPF보다 훨씬 강력한 인증 형식으로 간주됩니다. 배포시 SPF 및 DKIM과 DMARC를 모두 사용하는 것이 좋습니다.
 
-핵심: DKIM은 개인 키를 사용하여 암호화 된 서명을 메시지 머리글에 삽입합니다. 서명 도메인 또는 아웃 바운드 도메인이 머리글의 **d =** 필드 값으로 삽입됩니다. 확인 도메인 또는 수신자 도메인은 **d =** 필드를 사용하여 DNS에서 공개 키를 조회하고 메시지를 인증합니다. 메시지를 확인하면 DKIM 검사가 통과됩니다.
+> [!TIP]
+> DKIM은 개인 키를 사용하여 암호화 된 서명을 메시지 머리글에 삽입합니다. 서명 도메인 또는 아웃 바운드 도메인이 머리글의 **d =** 필드 값으로 삽입됩니다. 확인 도메인 또는 수신자 도메인은 **d =** 필드를 사용하여 DNS에서 공개 키를 조회하고 메시지를 인증합니다. 메시지를 확인하면 DKIM 검사가 통과됩니다.
+
 
 ## <a name="steps-to-manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>수동으로 1024 비트 키를 2048 비트 DKIM 암호화 키로 업그레이드하는 단계
 <a name="1024to2048DKIM"> </a>
+
+> [!NOTE]
+> Microsoft 365는 *onmicrosoft.com* 도메인에 대해 DKIM을 자동으로 설정합니다. 초기 도메인 이름(예: litware.*onmicrosoft.com*)에 DKIM을 사용하는 데 필요한 단계는 없습니다. 도메인에 대한 자세한 내용은 [도메인 FAQ](../../admin/setup/domains-faq.yml#why-do-i-have-an--onmicrosoft-com--domain)를 참조하세요.
 
 1024 및 2048 비트가 모두 DKIM 키에 대한 지원 을 받게되므로 다음의 지침은 [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)에서 1024 비트 키를 2048로 업그레이드하는 방법을 설명할 것입니다. 다음은 두 가지 사용 사례에 대한 단계입니다. 구성에 가장 적합한 한 사례를 선택하세요.
 
@@ -117,7 +129,7 @@ Get-DkimSigningConfig -Identity <Domain for which the configuration was set> | F
 
 구문 및 매개 변수에 대한 자세한 정보는 다음 문서를 참조하세요.[Rotate-DkimSigningConfig](/powershell/module/exchange/rotate-dkimsigningconfig), [New-DkimSigningConfig](/powershell/module/exchange/new-dkimsigningconfig) 및 [Get-DkimSigningConfig](/powershell/module/exchange/get-dkimsigningconfig)
 
-## <a name="steps-you-need-to-do-to-manually-set-up-dkim"></a>DKIM을 수동으로 설정하는 데 필요한 단계
+## <a name="steps-to-manually-set-up-dkim"></a>DKIM을 수동으로 설정하는 단계
 <a name="SetUpDKIMO365"> </a>
 
 DKIM을 구성하려면 다음 단계를 수행합니다.
@@ -164,7 +176,7 @@ TTL:                3600
 
 - _domainGUID_ 는 mail.protection.outlook.com 이전에 표시되는 사용자 정의 도메인에 대한 사용자 정의된 MX 레코드의 _domainGUID_ 와 동일합니다. 예를 들어 도메인 contoso.com에 대한 다음 MX 레코드에서 _domainGUID_ 는 contoso-com입니다.
 
-  > @contoso.com.  3600  IN  MX   5 contoso-com.mail.protection.outlook.com
+  > contoso.com.  3600  IN  MX   5 contoso-com.mail.protection.outlook.com
 
 - _initialdomain_ 은 Microsoft 365에 등록할 때 사용한 도메인입니다. 초기 도메인은 항상 onmicrosoft.com으로 끝납니다. 초기 도메인을 확인하는 방법에 대한 자세한 내용은 [도메인 FAQ](../../admin/setup/domains-faq.yml#why-do-i-have-an--onmicrosoft-com--domain)를 참조하세요.
 
@@ -241,7 +253,7 @@ CNAME 레코드를 DNS에 게시하면 Microsoft 365를 통해 DKIM 서명을 �
 
 - 메시지를 열고 머리글을 확인합니다. 메시지 머리글 보기에 대한 지침은 메시징 클라이언트에 따라 다릅니다. Outlook에서 메시지 머리글을 보는 방법은 [Outlook에서 인터넷 메시지 머리글 보기](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c)를 참조하세요.
 
-  DKIM 서명 메시지에는 CNAME 항목을 게시할 때 정의한 호스트 이름과 도메인이 포함됩니다. 메시지가 다음 예제와 같이 표시됩니다. 
+  DKIM 서명 메시지에는 CNAME 항목을 게시할 때 정의한 호스트 이름과 도메인이 포함됩니다. 메시지는 다음 예제와 같이 표시됩니다.
 
   ```console
     From: Example User <example@contoso.com>

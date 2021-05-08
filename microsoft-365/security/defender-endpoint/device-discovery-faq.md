@@ -20,19 +20,19 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: b3fef3479fa2d36806e6657b31f5152c54b9251f
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 1c61e69b5c8d414ab229fa8bf64eb657a6e40304
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765002"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245963"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>장치 검색에 자주 묻는 질문
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
@@ -49,13 +49,17 @@ ms.locfileid: "51765002"
  이 모드 끝점에서 끝점용 Microsoft Defender에 온보딩된 끝점은 네트워크에서 관찰된 장치를 적극적으로 프로브하여 수집된 데이터를 보강할 수 있습니다(네트워크 트래픽의 미미한 양). 이 모드는 신뢰할 수 있고 뛰어난 장치 인벤토리를 구축하는 데 매우 권장됩니다. 이 모드를 사용하지 않도록 선택하고 기본 검색 모드를 선택하면 네트워크에서 관리되지 않는 끝점만 볼 수 있습니다.
 
 ## <a name="can-i-control-which-devices-perform-standard-discovery"></a>표준 검색을 수행하는 장치를 제어할 수 있나요?
- 표준 검색을 수행하는 데 사용되는 장치 목록을 사용자 지정할 수 있습니다. 이 기능을 지원하는 모든 온보드 디바이스(현재 Windows 10 장치만 해당)에서 Standard 검색을 사용하도록 설정하거나 장치 태그를 지정하여 장치의 하위 집합 또는 하위 집합을 선택할 수 있습니다. 이 경우 다른 모든 장치는 기본 검색만 실행하도록 구성됩니다. 구성은 장치 검색 설정 페이지에서 사용할 수 있습니다.
+ 표준 검색을 수행하는 데 사용되는 장치 목록을 사용자 지정할 수 있습니다. 이 기능을 지원하는 모든 온보드 디바이스에서 Standard 검색을 사용하도록 설정하거나(현재 Windows 10 장치만 해당) 장치 태그를 지정하여 장치의 하위 집합 또는 하위 집합을 선택할 수 있습니다. 이 경우 다른 모든 장치는 기본 검색만 실행하도록 구성됩니다. 구성은 장치 검색 설정 페이지에서 사용할 수 있습니다.
+
+## <a name="can-i-exclude-unmanaged-devices-from-the-device-inventory-list"></a>관리되지 않는 장치를 장치 인벤토리 목록에서 제외할 수 있나요?
+예, 장치 인벤토리 목록에서 관리되지 않는 장치를 제외하는 필터를 적용할 수 있습니다. API 쿼리의 등록 상태 열을 사용하여 관리되지 않는 장치를 필터링할 수도 있습니다. 
+
 
 ## <a name="which-onboarded-devices-can-perform-discovery"></a>검색을 수행할 수 있는 온보드 장치는 무엇입니까?
  Windows 10 버전 1809 이상에서 실행되는 온보드 장치는 검색을 수행할 수 있습니다.
 
 ## <a name="what-happens-if-my-onboarded-devices-is-connected-to-my-home-network-or-to-public-access-point"></a>온보드 장치가 홈 네트워크 또는 공용 액세스 지점에 연결되어 있는 경우 어떻게 하나요?
- 검색 엔진은 회사 네트워크에서 수신되는 네트워크 이벤트와 회사 네트워크 외부에서 수신되는 네트워크 이벤트를 구분합니다. 모든 테넌트 클라이언트에서 네트워크 식별자를 상호 연결하면 개인 네트워크와 회사 네트워크에서 받은 이벤트 간에 이벤트가 차별화됩니다. 개인 네트워크 장치는 인벤토리에 나열되지 않을 뿐만 아니라 적극적으로 프로브되지 않습니다.
+ 검색 엔진은 회사 네트워크에서 수신되는 네트워크 이벤트와 회사 네트워크 외부에서 수신되는 네트워크 이벤트를 구분합니다. 모든 테넌트 클라이언트에서 네트워크 식별자를 상호 연결하면 개인 네트워크와 회사 네트워크에서 받은 이벤트 간에 이벤트가 차별화됩니다. 예를 들어 네트워크 보고서에 있는 대부분의 장치가 동일한 네트워크 이름에 연결되어 기본 게이트웨이와 DHCP 서버 주소가 동일한 경우 이 네트워크가 회사 네트워크일 수 있는 것으로 가정할 수 있습니다. 개인 네트워크 장치는 인벤토리에 나열되지 않을 뿐만 아니라 적극적으로 프로브되지 않습니다.
 
 ## <a name="what-protocols-are-you-capturing-and-analyzing"></a>어떤 프로토콜을 캡처하고 분석하나요?
  기본적으로 Windows 10 버전 1809 이상에서 실행되는 모든 온보드 장치는 ARP, CDP, DHCP, DHCPv6, IP(헤더), LLDP, LLMNR, mDNS, MNDP, NBNS, SSDP, TCP(헤더), UDP(헤더), WSD 프로토콜을 캡처하고 분석합니다.

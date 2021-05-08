@@ -19,12 +19,12 @@ description: 보안 및 준수 센터의 탐색기 및 실시간 검색을 사�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c6bea6cb60579263515d21e159c4032fe4281cad
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 810b5c99aa239f295fd930c1d13a6a817012b18b
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52024184"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245567"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -32,7 +32,7 @@ ms.locfileid: "52024184"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-조직에 [Office 365용 Microsoft Defender가](defender-for-office-365.md)있으며 [](#required-licenses-and-permissions)필요한 권한이 있는 경우 **탐색기** 또는 실시간 검색(이전의 실시간 *보고서)이* 있습니다. [새로운](#new-features-in-threat-explorer-and-real-time-detections)기능 확인  보안 & 준수 센터에서 위협 관리로 이동한 다음 **탐색기**  또는 실시간 검색 **을 선택 합니다.**
+조직에 Office 365 [Microsoft Defender가](defender-for-office-365.md)있으며 필요한 권한이 [](#required-licenses-and-permissions)있는 경우 **탐색기** 또는 실시간 검색(이전의 실시간  보고서) 중 [](#new-features-in-threat-explorer-and-real-time-detections)하나를 사용할 수 있습니다. 새로운 기능 확인  보안 & 준수 센터에서 위협 관리로 이동한 다음 **탐색기**  또는 실시간 검색 **을 선택 합니다.**
 
 <br>
 
@@ -49,9 +49,9 @@ ms.locfileid: "52024184"
 
 이 보고서를 사용하여 다음을 할 수 있습니다.
 
-- [Microsoft 365 보안 기능에서 검색된 맬웨어 보기](#see-malware-detected-in-email-by-technology)
+- [보안 기능에서 검색된 맬웨어 Microsoft 365 참조](#see-malware-detected-in-email-by-technology)
 - [피싱 URL 보기 및 판정 데이터 클릭](#view-phishing-url-and-click-verdict-data)
-- [탐색기 보기에서](#start-automated-investigation-and-response) 자동화된 조사 및 응답 프로세스 시작(Defender for Office 365 계획 2만 해당)
+- [탐색기 보기에서](#start-automated-investigation-and-response) 자동화된 조사 및 응답 프로세스 시작(Office 365 계획 2에만 해당)
 - [악성 전자 메일 조사 등](#more-ways-to-use-explorer-and-real-time-detections)
 
 ## <a name="improvements-to-threat-hunting-experience"></a>위협 헌팅 환경 개선
@@ -71,7 +71,7 @@ ms.locfileid: "52024184"
 
 ### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days-preview"></a>평가판 테넌트에 대한 탐색기(및 실시간 검색) 데이터 보존 및 검색 제한 확장(미리 보기)
 
-이 변경의 일부로 Office P1 및 P2 평가판 테넌트용 Defender에 대한 위협 탐색기/실시간 검색에서 30일(이전 7일보다 증가)에 걸쳐 전자 메일 데이터를 검색하고 필터링할 수 있습니다.
+이러한 변경의 일부로, Office P1 및 P2 평가판 테넌트에 대한 위협 탐색기/실시간 검색에서 30일(이전 7일보다 증가)에 걸쳐 전자 메일 데이터를 검색하고 필터링할 수 있습니다.
 이는 이미 30일 데이터 보존 및 검색 기능이 있는 P1 및 P2/E5 고객의 프로덕션 테넌트에는 영향을 끼치지 않습니다.
 
 ### <a name="updated-limits-for-export-of-records-for-threat-explorer-preview"></a>위협 탐색기 레코드 내보내기 제한 업데이트(미리 보기)
@@ -83,7 +83,7 @@ ms.locfileid: "52024184"
 > [!NOTE]
 > 사용자 태그 기능은 *미리* 보기에 있으며, 모든 사용자가 사용할 수 있으며 변경될 수 있습니다. 릴리스 일정에 대한 자세한 내용은 Microsoft 365 로드맵을 참조하십시오.
 
-사용자 태그는 Office 365용 Microsoft Defender의 특정 사용자 그룹을 식별합니다. 라이선스 및 구성을 비롯한 태그에 대한 자세한 내용은 사용자 태그 [를 참조하세요.](user-tags.md)
+사용자 태그는 Microsoft Defender에서 특정 사용자 그룹을 식별하여 Office 365. 라이선스 및 구성을 비롯한 태그에 대한 자세한 내용은 사용자 태그 [를 참조하세요.](user-tags.md)
 
 위협 탐색기에서 다음 환경의 사용자 태그에 대한 정보를 볼 수 있습니다.
 
@@ -179,10 +179,7 @@ ms.locfileid: "52024184"
 *추가 작업은* 전자 메일을 배달한 후에 적용되었습니다. 여기에는 *ZAP,*  수동 수정(관리자가 수행한 작업(예: 소프트 *삭제),*  동적 배달 및 다시 처리(소수로 좋은 것으로 감지된 전자 메일의 경우)가 포함됩니다.
 
 > [!NOTE]
->
-> - 보류 중인 변경 내용의 일부로 현재 배달 작업 필터에 표시되어 있는 "ZAP에서 제거됨" 값이 제거됩니다. 추가 작업을 통해 ZAP 시도가 있는 모든 전자 메일을 검색할 **수 있습니다.**
->
-> - 검색 기술 및 추가  작업(특히  ZAP 시나리오의 경우)에 대한 새 필드와 값이 있습니다. 기존 저장된 쿼리 및 추적된 쿼리를 평가하여 새 값으로 작동할 수 있도록 해야 합니다.
+> 보류 중인 변경 내용의 일부로 현재 배달 작업 필터에 표시되어 있는 "ZAP에서 제거됨" 값이 제거됩니다. 추가 작업을 통해 ZAP 시도가 있는 모든 전자 메일을 검색할 **수 있습니다.**
 
 > [!div class="mx-imgBorder"]
 > ![탐색기에서 추가 작업](../../media/Additional_Actions.png)
@@ -195,7 +192,7 @@ ms.locfileid: "52024184"
 
 - 사용자 정책에 의해 차단: 사용자는 메일 상자 수준에서 도메인 또는 보낸 사람 차단 정책을 만듭니다.
 
-- 조직 정책에서 허용: 조직의 보안 팀은 조직의 사용자에 대해 보낸 사람 및 도메인을 허용하도록 정책 또는 Exchange 메일 흐름 규칙(전송 규칙)을 설정합니다. 사용자 집합 또는 전체 조직에 사용할 수 있습니다.
+- 조직 정책에서 허용: 조직의 보안 팀은 조직의 Exchange 사용자에 대해 보낸 사람 및 도메인을 허용하도록 정책 또는 메일 흐름 규칙(전송 규칙)을 설정합니다. 사용자 집합 또는 전체 조직에 사용할 수 있습니다.
 
 - 조직 정책에 의해 차단: 조직의 보안 팀은 조직의 사용자에 대한 보낸 사람, 도메인, 메시지 언어 또는 원본 IPS를 차단하는 정책 또는 메일 흐름 규칙을 설정합니다. 이 설정은 사용자 집합 또는 전체 조직에 적용할 수 있습니다.
 
@@ -212,7 +209,7 @@ ms.locfileid: "52024184"
 
 - URL 플라이아웃의 클릭 섹션에 전체 클릭된 URL(URL의 일부인 쿼리 매개 변수 포함)을 표시하세요.  현재 URL 도메인 및 경로는 제목 표시줄에 표시됩니다. 전체 URL을 표시하기 위해 해당 정보를 확장하고 있습니다.
 
-- URL  *필터(URL과* URL 도메인 및 URL 도메인 및 *경로)* 픽스: 업데이트는 URL/클릭 결과를 포함하는 메시지 검색에 영향을 미치게 됩니다. 프로토콜에 기반하지 않은 검색에 대한 지원을 사용하도록 설정하여 를 사용하지 않고 URL을 검색할 수 `http` 있습니다. 기본적으로 URL 검색은 다른 값을 명시적으로 지정하지 않는 한 http에 매핑됩니다. 예:
+- URL  *필터(URL과* URL 도메인 및 URL 도메인 및 *경로)* 픽스: 업데이트는 URL/클릭 결과를 포함하는 메시지 검색에 영향을 미치게 됩니다. 프로토콜에 기반하지 않은 검색에 대한 지원을 사용하도록 설정하여 를 사용하지 않고 URL을 검색할 수 `http` 있습니다. 기본적으로 URL 검색은 다른 값을 명시적으로 지정하지 않는 한 http에 매핑됩니다. 예를 들어,
   - URL, URL 도메인 및 URL 도메인 및 경로 필터 필드의 사전 사전을 사용하여 `http://` 검색합니다.    검색에 동일한 결과가 표시해야 합니다.
   - `https://`URL에서 prefix를 **검색합니다.** 값을 지정하지 않으면 `http://` prefix가 가정됩니다.
   - `/`은 URL 경로, **URL** 도메인, **URL** 도메인 및 경로 필드의 시작과 끝에서 **무시됩니다.** `/` URL 필드의 끝에 있는 **은** 무시됩니다.
@@ -287,7 +284,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 
 ### <a name="exchange-transport-rules"></a>Exchange 전송 규칙
 
-데이터 강화의 일부로 메시지에 적용된 다양한 ETR(Exchange 전송 규칙)을 모두 볼 수 있습니다. 이 정보는 전자 메일 그리드 보기에서 사용할 수 있습니다. 표시하려면 표에서 **열** 옵션을 선택한 다음 열 옵션에서 **Exchange 전송 규칙** 추가를 선택합니다. 또한 전자 메일의 **세부** 정보 플라이아웃에 표시됩니다.
+데이터 강화의 일부로 메시지에 적용된 ETR(Exchange 전송 규칙)을 모두 볼 수 있습니다. 이 정보는 전자 메일 그리드 보기에서 사용할 수 있습니다. 표시하려면 표에서 **열** 옵션을 선택한 다음 열 **옵션에서** Exchange 규칙 추가를 선택합니다. 또한 전자 메일의 **세부** 정보 플라이아웃에 표시됩니다.
 
 메시지에 적용된 전송 규칙의 이름과 GUID를 모두 볼 수 있습니다. 전송 규칙의 이름을 사용하여 메시지를 검색할 수 있습니다. 이는 부분 검색도 할 수 있는 "포함" 검색입니다.
 
@@ -308,7 +305,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 
 ### <a name="inbound-connectors"></a>인바운드 커넥터
 
-커넥터는 Microsoft 365 또는 Office 365 조직과 전자 메일이 흐르는 방법을 사용자 지정하는 지침 모음입니다. 보안 제한 또는 제어를 적용할 수 있습니다. 위협 탐색기 내에서 이제 전자 메일과 관련된 커넥터를 보고 커넥터 이름을 사용하여 전자 메일을 검색할 수 있습니다.
+커넥터는 조직 또는 조직에서 전자 메일이 전송되는 방법을 사용자 지정하는 Microsoft 365 Office 365 모음입니다. 보안 제한 또는 제어를 적용할 수 있습니다. 위협 탐색기 내에서 이제 전자 메일과 관련된 커넥터를 보고 커넥터 이름을 사용하여 전자 메일을 검색할 수 있습니다.
 
 커넥터 검색은 본질적으로 "포함"입니다. 즉, 부분 키워드 검색도 작동해야 합니다. 주 그리드 보기, 세부 정보 플라이아웃 및 내보낼 CSV 내에서 커넥터는 다음과 같이 이름/GUID 형식으로 표시됩니다.
 
@@ -375,7 +372,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 
 |배달|정크|차단됨|바꾸기|
 |---|---|---|---|
-|전자 메일이 사용자의 받은 편지함 또는 폴더로 배달된 경우 사용자가 액세스할 수 있습니다.|전자 메일이 사용자의 정크 또는 삭제된 폴더로 전송되고 사용자가 액세스할 수 있습니다.|분리되거나 실패했거나 삭제된 전자 메일입니다. 이러한 메일은 사용자가 사용할 수 없습니다.|전자 메일에 첨부 파일이 악성 상태인 .txt 파일로 대체된 악의적인 첨부 파일이 있습니다.|
+|전자 메일이 사용자의 받은 편지함 또는 폴더로 배달된 경우 사용자가 액세스할 수 있습니다.|전자 메일이 사용자의 정크 또는 삭제된 폴더로 전송되고 사용자가 액세스할 수 있습니다.|분리되거나 실패했거나 삭제된 전자 메일입니다. 이러한 메일은 사용자가 사용할 수 없습니다.|전자 메일에 악의적인 첨부 파일이 .txt 첨부 파일이 악의적이었다고 밝혔습니다.|
 |
 
 다음은 사용자가 볼 수 있는 것 및 볼 수 없는 것입니다.
@@ -404,15 +401,15 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 
 전자 **메일 타임라인은** 관리자를 위한 헌팅 환경을 개선하는 새로운 탐색기 기능입니다. 이벤트를 이해하기 위해 여러 위치를 검사하는 데 소요되는 시간을 줄입니다. 전자 메일이 도착할 때 여러 이벤트가 발생하거나 그에 근접하면 타임라인 보기에 해당 이벤트가 표시됩니다. 전자 메일 배달 후 발생 하는 일부 이벤트는 특수 작업 **열에 캡처** 됩니다. 관리자는 타임라인의 정보를 메일 배달 후 수행된 특수 작업과 결합하여 정책이 작동되는 방식, 메일이 마지막으로 라우팅된 위치 및 경우에 따라 최종 평가가 어떤지 파악할 수 있습니다.
 
-자세한 내용은 [Office 365에서](investigate-malicious-email-that-was-delivered.md)배달된 악성 전자 메일 조사 및 수정을 참조하세요.
+자세한 내용은 에서 배달된 악성 전자 메일 조사 및 [Office 365.](investigate-malicious-email-that-was-delivered.md)
 
 ### <a name="export-url-click-data"></a>URL 내보내기 클릭 데이터
 
-이제 URL 클릭에 대한 보고서를 Microsoft Excel로 내보내 네트워크 메시지 **ID를** 보고 결과 를 클릭하여 URL 클릭 트래픽의 원래 위치를 설명할 수 있습니다. 작동 방식은 다음과 같습니다. Office 365 빠른 실행 표시줄의 위협 관리에서 다음 체인을 따르세요.
+이제 URL 클릭에 대한 보고서를 내보낼 수 Microsoft Excel 메시지  **ID를** 보고 결과 를 클릭하여 URL 클릭 트래픽이 시작된 위치를 설명할 수 있습니다. 작동 방식은 다음과 같습니다. 빠른 실행 Office 365 위협 관리에서 다음 체인을 따르세요.
 
 **탐색기** \> **피싱 보기** \> **클릭 수** \> **상위 URL 또는** **URL 위쪽 클릭은** 모든 레코드를 선택하여 URL 플라이아웃을 \> 열 수 있습니다.
 
-목록에서 URL을 선택하면 플라이아웃 패널에  새 내보내기 단추가 표시됩니다. 이 단추를 사용하여 데이터를 Excel 스프레드시트로 이동하여 보다 쉽게 보고할 수 있습니다.
+목록에서 URL을 선택하면 플라이아웃 패널에  새 내보내기 단추가 표시됩니다. 이 단추를 사용하여 보다 쉽게 보고할 수 있도록 Excel 스프레드시트로 데이터를 이동할 수 있습니다.
 
 실시간 검색 보고서에서 동일한 위치로 이동하기 위해 이 경로를 따르는 것이 좋습니다.
 
@@ -426,7 +423,7 @@ ZAP URL 신호는 일반적으로 전자 메일이 피싱으로 식별되고 배
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>기술로 전자 메일에서 검색된 맬웨어 보기
 
-Microsoft 365 기술을 통해 정렬된 전자 메일에서 맬웨어가 검색되는 것을 확인하려는 경우를 가정해 봐야 합니다. 이렇게하려면 Email > [Explorer의](threat-explorer-views.md#email--malware) 맬웨어 보기(또는 실시간 검색)를 사용합니다.
+전자 메일에서 검색된 맬웨어가 기술별로 정렬된 것으로 Microsoft 365 가정해 봐야 합니다. 이렇게하려면 Email > [Explorer의](threat-explorer-views.md#email--malware) 맬웨어 보기(또는 실시간 검색)를 사용합니다.
 
 1. In the Security & Compliance Center ( <https://protection.office.com> ), choose Threat **management** \> **Explorer** (or **Real-time detections**). (이 예제에서는 Explorer를 사용합니다.)
 
@@ -516,12 +513,12 @@ Microsoft 365 기술을 통해 정렬된 전자 메일에서 맬웨어가 검색
    > [!div class="mx-imgBorder"]
    > ![사용자가 보고한 피싱](../../media/EmailUserReportedReportType.png)
 
-이 보고서는 조직의 사람들이 피싱 시도로 보고한 전자 메일 메시지에 대한 데이터를 표시하기 위해 새로 고쳐서 표시됩니다. 이 정보를 사용하여 추가 분석을 수행하고, 필요한 경우 [Office 365용 Microsoft Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책을 조정할 수 있습니다.
+이 보고서는 조직의 사람들이 피싱 시도로 보고한 전자 메일 메시지에 대한 데이터를 표시하기 위해 새로 고쳐서 표시됩니다. 이 정보를 사용하여 추가 분석을 수행하고 필요한 경우 [Microsoft Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책을 조정할 수 Office 365.
 
 ## <a name="start-automated-investigation-and-response"></a>자동화된 조사 및 대응 시작
 
 > [!NOTE]
-> 자동화된 조사 및 응답 기능은 *Office 365 계획 2 및 Office 365 E5용 Microsoft Defender에서* 사용할 수 *있습니다.*
+> 자동화된 조사 및 대응 기능은 *Microsoft Defender for Office 365 Plan 2* 및 Office 365 *E5에서 사용할 수 있습니다.*
 
 [자동화된 조사 및 대응은](automated-investigation-response-office.md) 사이버 공격을 조사하고 완화하는 데 소요된 보안 운영 팀의 시간과 노력을 절약할 수 있습니다. 보안 플레이북을 트리거할 수 있는 경고를 구성하는 것 외에도 탐색기 보기에서 자동화된 조사 및 응답 프로세스를 시작할 수 있습니다. 자세한 내용은 예제: 보안 관리자가 Explorer에서 [조사를 트리거합니다.를 참조합니다.](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)
 
@@ -530,18 +527,18 @@ Microsoft 365 기술을 통해 정렬된 전자 메일에서 맬웨어가 검색
 이 문서에 설명된 시나리오 외에도 탐색기(또는 실시간 검색)에서 더 많은 보고 옵션을 사용할 수 있습니다. 다음 문서를 참조합니다.
 
 - [배달된 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)
-- [SharePoint Online, OneDrive 및 Microsoft Teams에서 검색된 악성 파일 보기](./mdo-for-spo-odb-and-teams.md)
+- [SharePoint Online, OneDrive 및 파일에서 검색된 악성 Microsoft Teams](./mdo-for-spo-odb-and-teams.md)
 - [위협 탐색기(및 실시간 검색)에서 보기에 대한 개요를 얻습니다.](threat-explorer-views.md)
 - [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report)
-- [Microsoft 365 Defender의 자동화된 조사 및 대응](../defender/m365d-autoir.md)
+- [Defender의 자동화된 조사 Microsoft 365 대응](../defender/m365d-autoir.md)
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
-탐색기 또는 실시간 검색을 사용하려면 [Office 365용 Microsoft Defender가](defender-for-office-365.md) 있어야 합니다.
+탐색기 또는 실시간 Office 365 사용하려면 [Microsoft Defender가](defender-for-office-365.md) 있어야 합니다.
 
-- Explorer는 Office 365 계획 2용 Defender에 포함되어 있습니다.
-- 실시간 검색 보고서는 Defender for Office 365 계획 1에 포함되어 있습니다.
-- Office 365용 Defender에서 보호해야 하는 모든 사용자에 대한 라이선스를 할당할 계획입니다. 탐색기 및 실시간 검색은 사용이 허가된 사용자에 대한 검색 데이터를 보여 주며,
+- Explorer는 Plan 2용 Defender에 Office 365 포함되어 있습니다.
+- 실시간 검색 보고서는 Plan 1의 Defender에 Office 365 포함되어 있습니다.
+- Defender에서 보호해야 하는 모든 사용자에 대해 라이선스를 할당할 Office 365. 탐색기 및 실시간 검색은 사용이 허가된 사용자에 대한 검색 데이터를 보여 주며,
 
 탐색기 또는 실시간 검색을 보고 사용하려면 보안 관리자 또는 보안 읽기 권한자에 부여된 권한과 같은 적절한 권한이 있어야 합니다.
 
@@ -551,7 +548,7 @@ Microsoft 365 기술을 통해 정렬된 전자 메일에서 맬웨어가 검색
   - 보안 관리자(Azure Active Directory 관리 센터에서 할당할 수 있습니다. <https://aad.portal.azure.com> )
   - 보안 읽기 권한자
 
-- Exchange Online의 경우 Exchange 관리 센터( ) 또는 Exchange Online <https://admin.protection.outlook.com/ecp/> [PowerShell에서](/powershell/exchange/exchange-online-powershell)다음 역할 중 하나를 할당해야 합니다.
+- Exchange Online 경우 Exchange 관리 센터( ) 또는 <https://admin.protection.outlook.com/ecp/> [PowerShell에서](/powershell/exchange/exchange-online-powershell)다음 Exchange Online 할당해야 합니다.
 
   - 조직 관리
   - 보기 전용 조직 관리
@@ -565,10 +562,10 @@ Microsoft 365 기술을 통해 정렬된 전자 메일에서 맬웨어가 검색
 
 ## <a name="differences-between-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색 간의 차이점
 
-- 실시간 *검색 보고서는* Defender for Office 365 계획 1에서 사용할 수 있습니다. *위협 탐색기는* Defender for Office 365 계획 2에서 사용할 수 있습니다.
+- 실시간 *검색 보고서는* Defender for Office 365 있습니다. *위협 탐색기는* Defender for Office 365 있습니다.
 - 실시간 검색 보고서를 사용하면 검색을 실시간으로 볼 수 있습니다. 위협 탐색기에서도 이 기능을 하지만 주어진 공격에 대한 추가 세부 정보도 제공합니다.
 - 모든 *전자 메일* 보기는 위협 탐색기에서 사용할 수 있지만 실시간 검색 보고서에서는 사용할 수 없습니다.
-- 위협 탐색기에는 더 많은 필터링 기능과 사용 가능한 작업이 포함되어 있습니다. 자세한 내용은 [Office 365용 Microsoft Defender 서비스 설명: Office 365 계획용 Defender의 기능 가용성을 참조하세요.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)
+- 위협 탐색기에는 더 많은 필터링 기능과 사용 가능한 작업이 포함되어 있습니다. 자세한 내용은 [Microsoft Defender for Office 365 Service Description: Feature availability across Defender for Office 365 참조하세요.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)
 
 ## <a name="other-articles"></a>기타 문서
 

@@ -21,18 +21,18 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Microsoft 365의 레코드 관리를 사용하여 보존 일정을 파일 플랜에 적용하여 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: ac8e9bf2ac9ac47518788cd19a197818c13078a1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 853303dcaffcbacfcf805b8617b836254cf31ad8
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051690"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245435"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Microsoft 365의 레코드 관리하기에 대해 알아보기
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
-모든 유형의 조직에는 레코드 관리 솔루션이 있어야 회사 데이터에서 규정, 법률 및 비즈니스에 중요한 레코드를 관리할 수 있습니다. Microsoft 365의 레코드 관리는 조직이 법적인 의무를 관리하는 데 도움이 되고, 규정 준수를 입증하는 기능을 제공하며, 비즈니스 목적에 대해 더 이상 보존할 필요가 없거나, 더 이상 가치가 없거나, 사용하지 않는 항목을 정기적으로 처리하여 효율성을 높입니다.
+모든 유형의 조직에는 회사 데이터 전체의 규정, 법률 및 비즈니스에 중요한 레코드를 관리하기 위한 레코드 관리 솔루션이 필요합니다. Microsoft 365의 레코드 관리는 조직이 법적인 의무를 관리하는 데 도움이 되고, 규정 준수를 입증하는 기능을 제공하며, 비즈니스 목적에 대해 더 이상 보존할 필요가 없거나, 더 이상 가치가 없거나, 사용하지 않는 항목을 정기적으로 처리하여 효율성을 높입니다.
 
 Microsoft 365에서 다음 기능을 사용하여 레코드 관리 솔루션을 지원합니다.
 
@@ -48,7 +48,7 @@ Microsoft 365에서 다음 기능을 사용하여 레코드 관리 솔루션을 
 
 - [내보내기 옵션](disposition.md#filter-and-export-the-views)으로 **모든 처리된 항목에 대한 정보를 내보냅니다**.
 
-- 조직 레코드 관리자 기능의 **특정 권한을 설정** 하여 [올바른 액세스 권한을 보유](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md)합니다.
+- 조직 레코드 관리자 기능의 **특정 권한을 설정** 하여 [올바른 액세스 권한을 보유](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)합니다.
 
 해당 기능을 사용하면 조직의 보존 일정 및 요구 사항을 보존, 레코드 선언 및 처리를 관리하여 콘텐츠의 전체 라이프 사이클을 지원하는 레코드 관리 솔루션에 통합할 수 있습니다.
 
@@ -111,6 +111,4 @@ Microsoft 365에서 다음 기능을 사용하여 레코드 관리 솔루션을 
 
 ## <a name="configuration-guidance"></a>구성 지침
 
-[레코드 관리 시작](get-started-with-records-management.md)을 참조하세요.
-
-콘텐츠를 레코드로 표시하려면 [보존 레이블을 사용하여 레코드 삭제](declare-records.md)를 참조합니다.
+[레코드 관리 시작](get-started-with-records-management.md)을 참조하세요. 이 문서에는 레코드 관리 시나리오에 대한 구독, 사용 권한 및 종단 내 구성 지침에 대한 정보가 들어 있습니다.

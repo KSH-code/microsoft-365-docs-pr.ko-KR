@@ -6,19 +6,20 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
+ms.topic: article
 localization_priority: Normal
 audience: ITPro
 author: dansimp
 ms.author: dansimp
-ms.reviewer: ''
+ms.reviewer: dansimp
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 07573fd92643ce5fdf3e9140031bf5f15ae8f7aa
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 73b23427ff401f2a37c399131d6aa01330ff9de5
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570342"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245303"
 ---
 # <a name="evaluate-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 평가
 
@@ -26,16 +27,19 @@ ms.locfileid: "51570342"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037) 
+
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
-공격 표면 감소 규칙은 일반적으로 맬웨어가 장치 또는 네트워크를 손상시킬 때 사용하는 작업을 방지하는 데 도움이 됩니다. 다음 Windows 버전 및 버전을 실행하는 장치에 대해 공격 표면 감소 규칙을 설정합니다.
+공격 표면 감소 규칙은 일반적으로 맬웨어가 장치 또는 네트워크를 손상시킬 때 사용하는 작업을 방지하는 데 도움이 됩니다. 공격 표면 감소 규칙은 맬웨어 및 랜섬웨어에 사용되는 많은 일반적인 진입점을 닫는 데 도움이 됩니다. 
+
+다음 버전 및 버전의 디바이스를 실행하는 장치에 대해 공격 표면 감소 규칙을 Windows.
 
 - Windows 10 Pro 버전 [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows 10 Enterprise 버전 [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 이상
-- Windows Server, [버전 1803(반기 채널)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) 이상
+- Windows 서버, [버전 1803(반기 채널)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 
 감사 모드를 사용하도록 설정하여 조직에서 기능을 직접 테스트하여 공격 표면 감소 규칙을 평가하는 방법을 알아보십시오.
@@ -66,7 +70,7 @@ Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReduct
 
 그룹 정책, Intune 또는 MDM(모바일 장치 관리) CSP(구성 서비스 공급자)를 사용하여 설정을 구성하고 배포할 수도 있습니다. 자세한 내용은 주 공격 표면 [감소 규칙 문서에서 자세히](attack-surface-reduction.md) 알아보십시오.
 
-## <a name="review-attack-surface-reduction-events-in-windows-event-viewer"></a>Windows 이벤트 뷰어에서 공격 표면 축소 이벤트 검토
+## <a name="review-attack-surface-reduction-events-in-windows-event-viewer"></a>이벤트 뷰어에서 공격 Windows 검토
 
 차단된 앱을 검토하려면 Microsoft-Windows-Windows Defender/작동 로그에서 이벤트 뷰어를 열고 이벤트 ID 1121을 필터링합니다. 다음 표에는 모든 네트워크 보호 이벤트가 나열됩니다.
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 817ed5e33505f691b11970e3da4c956afa7dc76c
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ea37ad4302eedf7d43e3ad03e94357a146c2216c
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861062"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245579"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>끝점 미리 보기 기능용 Microsoft Defender
 
@@ -44,7 +44,7 @@ Endpoint용 Defender 서비스는 새로운 기능 향상 및 기능을 포함�
 Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 알아보고 미리 보기 환경을 켜서 예정된 기능을 처음 사용해 볼 수 있습니다.
 
 >[!TIP]
->다음 URL을 복사하여 피드 읽기 페이지에 붙여 넣는 방법을 통해 이 페이지가 업데이트될 때 알림을 받을 수 있습니다. `https://docs.microsoft.com/api/search/rss?search=%22Microsoft+Defender+ATP+preview+features%22&locale=en-us`
+>다음 URL을 복사하여 피드 읽기 페이지에 붙여 넣는 방법을 통해 이 페이지가 업데이트될 때 알림을 받을 수 있습니다. `https://docs.microsoft.com/api/search/rss?search=%22In+the+navigation+pane%2C+select+Settings+%3E+Advanced+features+%3E+Preview+features.%22&locale=en-us&facet=`
 
 일반적으로 사용할 수 있는 새로운 기능에 대한 자세한 내용은 [Endpoint용 Defender의](whats-new-in-microsoft-defender-atp.md)새로운 기능을 참조하세요.
 
@@ -54,7 +54,7 @@ Endpoint용 Defender 미리 보기 릴리스의 새로운 기능에 대해 알�
 
 미리 보기 환경을 설정하여 최초로 예정된 기능을 사용해보세요.
 
-1. 탐색 창에서 설정 고급 **기능**  >  미리 **보기**  >  **기능을 선택합니다.**
+1. 탐색 창에서 고급 **기능** 설정  >  **미리 보기 기능을**  >  **선택합니다.**
 
 2. 설정 및 해제  간에 설정을 **전환하고** 기본 설정 **저장을 선택합니다.**
 

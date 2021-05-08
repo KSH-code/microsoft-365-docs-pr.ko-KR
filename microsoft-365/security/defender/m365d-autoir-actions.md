@@ -9,8 +9,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 7106f5d2e740d2b4cacbcaeb0b9391095bbeb356
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: e3e842f812c5675334cc25fa35544165129db2b4
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51592027"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245891"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>관리 센터에서 작업 보기 및 관리
 
@@ -36,13 +36,13 @@ ms.locfileid: "51592027"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender의 위협 방지 기능은 특정 수정 작업을 수행할 수 있습니다. 다음은 몇 가지 예입니다.
+Defender의 위협 방지 Microsoft 365 특정 수정 작업이 수행될 수 있습니다. 다음은 몇 가지 예입니다.
 - [자동화된 조사를](m365d-autoir.md) 수행하면 자동으로 수행되거나 승인 대기하는 수정 작업이 수행될 수 있습니다.
 - 바이러스 백신, 맬웨어 방지 및 기타 위협 방지 기능은 파일, URL 또는 프로세스를 차단하거나 아티팩트를 검역에 보내는 등의 수정 작업을 수행할 수 있습니다.
 - 보안 운영 팀은 고급 헌팅 중이나 경고 [](advanced-hunting-overview.md) 또는 인시던트 [](investigate-alerts.md) 조사 중과 같은 수동으로 수정 작업을 수행할 [수 있습니다.](investigate-incidents.md)
 
 > [!NOTE]
-> 수정 작업을 승인하거나 거부하려면 [적절한 사용 권한](m365d-action-center.md#required-permissions-for-action-center-tasks)이 있어야 합니다. 자세한 내용은 [Microsoft 365 Defender의](m365d-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)자동화된 조사 및 응답에 대한 사전 준비를 참조하세요.
+> 수정 작업을 승인하거나 거부하려면 [적절한 사용 권한](m365d-action-center.md#required-permissions-for-action-center-tasks)이 있어야 합니다. 자세한 내용은 Defender에서 자동화된 조사 및 대응을 위한 Microsoft 365 [참조하세요.](m365d-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)
 
 ## <a name="review-pending-actions-in-the-action-center"></a>작업 센터에서 보류 중인 작업 검토
 

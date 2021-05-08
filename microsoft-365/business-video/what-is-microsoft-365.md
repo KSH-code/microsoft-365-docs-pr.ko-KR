@@ -20,12 +20,12 @@ search.appverid:
 description: Microsoft 365 Business Premium 기능에 대해 알아보세요.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: f4c41e86f3a98c2af076a58e311aa14be79704e9
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 336d206b3853baa2bdde5d925113dc0887919da7
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580333"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245183"
 ---
 # <a name="microsoft-365-business-premium"></a>Microsoft 365 Business Premium
 
@@ -45,5 +45,7 @@ Microsoft 365 Business Premium에 가입하면 Microsoft 365 Business Standard�
 | 비즈니스 데이터 보안 | 개인 데이터는 PIN 액세스 및 제한된 복사 및 저장을 통해 개인 장치에서 보호됩니다. 또한 정보 보호 기능을 추가하여 권한이 부여된 사용자만 중요한 정보에 액세스할 수 있도록 할 수 있습니다. |
 | 장치 보안 | 복사 및 붙여넣기와 같은 모바일 액세스를 제한하여 장치에서 작업 파일을 보호할 수 있습니다. 또한 장치를 분실하거나 도난당한 경우에 등록된 모바일 장치에서 비즈니스 데이터를 선택적으로 지울 수 있습니다. |
 | 추가 보안 기능 | Microsoft 365 Business Premium의 고급 기능을 사용하여 사이버 위협으로부터 비즈니스를 보호하고 중요한 정보를 보호할 수 있습니다. 이러한 기능에는 Office 365 Advanced Threat Protection, DLP(데이터 손실 방지 정책), Exchange Online archiving, Azure Information Protection 및 Intune이 포함됩니다. |
+
+Microsoft Business Premium이 있는 경우 보안을 설정하고 안전하게 공동 작업을 시작하는 가장 빠른 방법은 [소규모 기업 및 캠페인을 위한 Microsoft 365](../campaigns/index.md) 라이브러리의 지침을 따르는 것입니다. 이 지침은 Microsoft Defending Democracy 팀과 협력하여 정교한 해커가 시작한 사이버 위협으로부터 모든 중소기업 고객을 보호하기 위해 개발되었습니다. 
 
 자세한 세부 내용은 [Microsoft 365 Business 콘텐츠](../business/index.yml)를 참조하세요.

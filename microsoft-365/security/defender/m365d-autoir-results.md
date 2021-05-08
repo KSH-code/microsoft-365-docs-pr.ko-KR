@@ -1,6 +1,6 @@
 ---
 title: 자동화된 조사의 세부 정보 및 결과
-description: Microsoft 365 Defender에서 자동화된 조사 결과 및 주요 결과 보기
+description: Defender에서 자동화된 조사 결과 및 주요 Microsoft 365 보기
 keywords: 자동화, 조사, 결과, 분속, 세부정보, 재구성, 오토에어
 search.appverid: met150
 ms.prod: m365-security
@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: ca023ea49a8d92123467be640a097a72233d3198
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: b26574c85e498209f8d0233495d3fe0e44733909
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51592123"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245879"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>자동화된 조사의 세부 정보 및 결과
 
@@ -35,16 +35,16 @@ ms.locfileid: "51592123"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender를 [](m365d-autoir.md) 통해 자동화된 조사가 실행되는 경우 자동화된 조사 프로세스 중 및 이후에 조사에 대한 세부 정보를 사용할 수 있습니다. [필수 권한이](m365d-action-center.md#required-permissions-for-action-center-tasks)있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  조사 세부정부 보기에서 최신 상태를 확인하거나 보류중인 작업을 승인할 수 있습니다. 
+Defender를 Microsoft 365 자동화된 [](m365d-autoir.md) 조사가 실행되는 경우 자동화된 조사 프로세스 중 및 이후에 조사에 대한 세부 정보를 사용할 수 있습니다. [필수 권한이](m365d-action-center.md#required-permissions-for-action-center-tasks)있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  조사 세부정부 보기에서 최신 상태를 확인하거나 보류중인 작업을 승인할 수 있습니다. 
 
 ![조사 세부정보](../../media/mtp-air-investdetails.png)
 
 ## <a name="new-unified-investigation-page"></a>(NEW!) 통합 조사 페이지
 
-조사 페이지가 최근에 장치, 전자 메일 및 공동 작업 콘텐츠에 대한 정보를 포함하기 위해 업데이트되었습니다. 새로운 통합 조사 페이지는 공통 언어를 정의하고 [끝점용 Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 및 [Office 365용 Microsoft Defender에서](../office-365-security/defender-for-office-365.md)자동 조사를 위한 통합된 환경을 제공합니다. 통합 조사 페이지에 액세스하려면 노란색 배너의 링크를 선택합니다.
+조사 페이지가 최근에 장치, 전자 메일 및 공동 작업 콘텐츠에 대한 정보를 포함하기 위해 업데이트되었습니다. 새로운 통합 조사 페이지는 공통 언어를 정의하고 끝점용 [Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 및 Microsoft [Defender](../office-365-security/defender-for-office-365.md)for Office 365. 통합 조사 페이지에 액세스하려면 노란색 배너의 링크를 선택합니다.
 - Office 365 보안 및 준수 센터의 & 페이지( [https://protection.office.com](https://protection.office.com) )
-- Microsoft Defender 보안 센터의 모든 조사 페이지( [https://securitycenter.windows.com](https://securitycenter.windows.com) )
-- 개선된 Microsoft 365 보안 센터의 인시던트 또는 관리 센터 환경( [https://security.microsoft.com](https://security.microsoft.com) )
+- 2016의 모든 조사 Microsoft Defender 보안 센터( [https://securitycenter.windows.com](https://securitycenter.windows.com) )
+- 향상된 보안 센터의 모든 인시던트 Microsoft 365 센터 환경( [https://security.microsoft.com](https://security.microsoft.com) )
 
 ## <a name="open-the-investigation-details-view"></a>조사 세부정보 보기 열기 
 
@@ -96,12 +96,12 @@ Microsoft 365 Defender를 [](m365d-autoir.md) 통해 자동화된 조사가 실�
 조사 세부정보 보기에서 아래 테이블에 설명되어 있는 것 처럼 **조사 그래프**, **알람**, **장치**, **항목**, **주요 발견 사항**, **대상**, **로그** 및 **보류 활동** 을 확인할 수 있습니다. 
 
 > [!NOTE]
-> 조사 세부 정보 페이지에 볼 수 있는 특정 탭은 구독에 포함된 내용에 따라 다를 수 있습니다. 예를 들어 구독에 Office 365 계획 2용 Microsoft Defender가 포함되어 있지 않은 경우 사서함 탭이 **표시됩니다.**
+> 조사 세부 정보 페이지에 볼 수 있는 특정 탭은 구독에 포함된 내용에 따라 다를 수 있습니다. 예를 들어 구독에 Office 365 요금제 2에 대한 Microsoft Defender가 포함되어 있지 않은 경우 사서함 탭이 **표시되지** 않습니다.
 
 | Tab | 설명 |
 |:--------|:--------|
 | **조사 그래프**   | 조사 내용이 시각적으로 표시 됩니다. 위협 대상과 목록 알람과 현재 활동이나 보류중인 활동을 보여줍니다. <br/>그래프에서 항목을 선택하여 세부 정보를 볼 수 있습니다. 예를 들어 증거  아이콘을 선택하면 검색된 엔터티와 해당 판정을 볼 수 있는 증거 탭으로 이동됩니다.  |
-| **알람**    | 조사와 관련 된 알람목록을 보여줍니다.  경고는 사용자 장치의 위협 방지 기능, Office 앱, Cloud App Security 및 기타 Microsoft 365 Defender 기능에서 제공될 수 있습니다.|
+| **알람**    | 조사와 관련 된 알람목록을 보여줍니다.  경고는 사용자 장치의 위협 방지 기능, Office 앱, Cloud App Security 및 기타 Defender 기능에서 Microsoft 365 있습니다.|
 | **장치** | 조사에 포함된 장치를 수정 수준과 함께 나열합니다. 재구성 수준은 장치 그룹의 [자동화 수준에 해당합니다.](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) |
 | **사서함** |검색된 위협의 영향을 받는 사서함을 나열합니다.  |
 | **사용자**  | 검색된 위협의 영향을 미치는 사용자 계정을 나열합니다. |

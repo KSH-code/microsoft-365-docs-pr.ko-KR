@@ -19,12 +19,12 @@ description: 관리자는 보안 및 준수 센터의 보고서 대시보드에�
 ms.custom: ''
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 13871908c3b09660906b9233d23495830cf31ba9
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 38beac44af191a027db722ade25ca7fd0e505d9b
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206236"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245675"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>보안 및 준수 센터의 보고서 대시보드에서 & 흐름 보고서 보기
 
@@ -35,7 +35,7 @@ ms.locfileid: "51206236"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-보안 & 준수 센터의 메일 흐름 [](mail-flow-insights-v2.md) 대시보드에서 사용할 수 있는 메일 흐름 보고서 외에도 보고서 대시보드에서 다양한 추가 메일 흐름 보고서를 사용하여 Microsoft 365 조직을 모니터링할 수 있습니다.
+보안 및 준수 센터의 메일 흐름 [](mail-flow-insights-v2.md) 대시보드에서 사용할 수 있는 메일 흐름 보고서 외에도 & 조직을 모니터링하는 데 도움이 되는 다양한 추가 메일 흐름 보고서를 보고서 대시보드에서 사용할 Microsoft 365 있습니다.
 
 필요한 권한이 [](#what-permissions-are-needed-to-view-these-reports)있는 경우 보고서 대시보드로 & 보안 및 준수 [센터에서](https://protection.office.com) 이러한 보고서를 볼 **수** \> **있습니다.** 보고서 대시보드로 직접 이동하기 위해 를 를 <https://protection.office.com/insightdashboard> 습니다.
 
@@ -97,27 +97,27 @@ ms.locfileid: "51206236"
 
 ## <a name="exchange-transport-rule-report"></a>Exchange 전송 규칙 보고서
 
-**Exchange 전송 규칙 보고서는** 메일 흐름 규칙(전송 규칙)이 조직에서 들어오는 메시지와 보내고 있는 메시지에 대한 영향을 보여줍니다.
+Exchange **전송** 규칙 보고서는 메일 흐름 규칙(전송 규칙)이 조직에서 들어오는 메시지와 보낼 메시지에 대한 영향을 보여 주며, 전송 규칙이 전송 규칙에 영향을 미치게 됩니다.
 
-보고서를 표시하려면 보안 및 준수 & 를  열고 [보고서 대시보드로](https://protection.office.com)이동한 다음 \>  Exchange 전송 **규칙을 선택합니다.** 보고서로 직접 이동하기 위해 를 를 <https://protection.office.com/reportv2?id=ETRRuleReport> 습니다.
+보고서를 표시하려면 보안 및 준수 [&](https://protection.office.com)를  열고 보고서 대시보드로 이동하여 전송 \>  **Exchange 선택합니다.** 보고서로 직접 이동하기 위해 를 를 <https://protection.office.com/reportv2?id=ETRRuleReport> 습니다.
 
-![보고서 대시보드의 Exchange 전송 규칙 위젯](../../media/transport-rule-report-widget.png)
+![Exchange 대시보드의 전송 규칙 위젯](../../media/transport-rule-report-widget.png)
 
-### <a name="report-view-for-the-exchange-transport-rule-report"></a>Exchange 전송 규칙 보고서에 대한 보고서 보기
+### <a name="report-view-for-the-exchange-transport-rule-report"></a>전송 규칙 보고서의 Exchange 보기
 
 보고서 보기에서는 다음 차트를 사용할 수 있습니다.
 
-- **데이터 보기: Exchange 전송 규칙** \> **분석 결과: 방향:** 이 차트에는  전송  규칙의 영향을 받은 인바운드 및 아웃바운드 메시지 수가 표시됩니다.
+- **다음을 통해 데이터 보기: Exchange 규칙** \> **분석 결과: 방향:** 이 차트에는  전송  규칙의 영향을 받은 인바운드 및 아웃바운드 메시지 수가 표시됩니다.
 
-- **데이터 보기: Exchange 전송 규칙** \> **분석 결과: 심각도:** 이 차트는  높은 심각도 및 보통 심각도 및 낮은 심각도 **메시지의 수를** 보여줍니다. 심각도 수준을 규칙의 작업으로 설정할 수 있습니다(**심각도** 수준 또는 _SetAuditSeverity로_ 이 규칙 감사). 자세한 내용은 [Exchange Online의 메일 흐름 규칙 작업을 참조하세요.](//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
+- **다음을 통해 데이터 보기: Exchange 규칙** \> **분석 결과: 심각도:** 이 차트는  높은 심각도 및 보통 심각도 및 낮은 심각도 **메시지의 수를** 보여줍니다. 심각도 수준을 규칙의 작업으로 설정할 수 있습니다(**심각도** 수준 또는 _SetAuditSeverity로_ 이 규칙 감사). 자세한 내용은 에서 [메일 흐름 규칙 작업을 Exchange Online.](//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
 
-- **데이터 보기: DLP Exchange 전송 규칙** \> **분석 결과: 방향:** 이 차트에는  DLP(데이터 손실 방지) 전송 규칙의 영향을 받은 인바운드 및 아웃바운드 메시지 수가 표시됩니다.  다음 옵션 중 을 선택하여 차트를 구체화할 수 있습니다.
+- **다음을 통해 데이터 보기: DLP Exchange 규칙** \> **분석 결과: 방향:** 이 차트에는  DLP(데이터 손실 방지) 전송 규칙의 영향을 받은 인바운드 및 아웃바운드 메시지 수가 표시됩니다.  다음 옵션 중 을 선택하여 차트를 구체화할 수 있습니다.
 
   - **데이터 표시: 모든 DLP 전송 규칙**
   - **데이터 표시: 손상된 사용자**
   - **데이터 표시: 미국 애국법이 검색된 콘텐츠의 양이 적습니다.**
 
-- **데이터 보기: DLP Exchange 전송 규칙** \> **세분화: 방향:** 이 보기에는  높은 심각도 및 보통 심각도 및 DLP 전송 규칙의 영향을 받은 낮은 심각도 메시지 수가 표시됩니다.  다음 옵션 중 을 선택하여 차트를 구체화할 수 있습니다.
+- **다음을 통해 데이터 보기: DLP Exchange 규칙** \> **세분화: 방향:** 이 보기에는  높은 심각도 및 보통 심각도 및 DLP 전송 규칙의 영향을 받은 낮은 심각도 메시지 수가 표시됩니다.  다음 옵션 중 을 선택하여 차트를 구체화할 수 있습니다.
 
   - **데이터 표시: 모든 DLP 전송 규칙**
   - **데이터 표시: 손상된 사용자**
@@ -129,13 +129,13 @@ ms.locfileid: "51206236"
 - 방향 값
 - 심각도 값
 
-![Exchange 전송 규칙 보고서의 보고서 보기](../../media/transport-rule-report-report-view.png)
+![전송 규칙 보고서의 Exchange 보기](../../media/transport-rule-report-report-view.png)
 
-### <a name="details-table-view-for-the-exchange-transport-rule-report"></a>Exchange 전송 규칙 보고서에 대한 세부 정보 테이블 보기
+### <a name="details-table-view-for-the-exchange-transport-rule-report"></a>전송 규칙 보고서의 세부 Exchange 테이블 보기
 
 세부 정보 **표 보기를** 클릭하면 표시되는 정보가 보고 있는 차트에 따라 다를 수 있습니다.
 
-- **데이터 보기: Exchange 전송 규칙:**
+- **다음을 통해 데이터 보기: Exchange 규칙:**
 
   - **날짜**
   - **전송 규칙**
@@ -145,7 +145,7 @@ ms.locfileid: "51206236"
   - **심각도**
   - **방향**
 
-- **데이터 보기: DLP Exchange 전송 규칙:**
+- **다음을 통해 데이터 보기: DLP Exchange 규칙:**
 
   - **날짜**
   - **DLP 정책**
@@ -166,7 +166,7 @@ ms.locfileid: "51206236"
 
 ## <a name="forwarding-report"></a>전달 보고서
 
-전달 **보고서에는** Exchange Online 사서함의 외부 도메인으로 조직의 자동으로 전달된 메시지가 표시됩니다. 전달된 메시지는 보안 또는 규정 준수 위험을 내포할 수 있으며 계정이 손상된 것일 수 있습니다.
+전달 **보고서에는** 조직의 자동 전달된 메시지가 사서함의 외부 도메인으로 Exchange Online 표시됩니다. 전달된 메시지는 보안 또는 규정 준수 위험을 내포할 수 있으며 계정이 손상된 것일 수 있습니다.
 
 보고서를 표시하려면 보안 및 준수 & 를 열고 [보고서 대시보드로](https://protection.office.com)이동한 다음 보고서  \>  **전달을 선택합니다.** 보고서로 직접 이동하기 위해 를 를 <https://protection.office.com/reportv2?id=MailFlowForwarding> 습니다.
 
@@ -214,7 +214,7 @@ ms.locfileid: "51206236"
 
 ## <a name="mailflow-status-report"></a>메일 흐름 상태 보고서
 
-메일 **흐름 상태 보고서는** [](#sent-and-received-email-report)전송 및 수신 전자 메일 보고서와 유사하며, 에지에서 허용되거나 차단되는 전자 메일에 대한 추가 정보가 있습니다. 이 보고서는 에지 보호 정보를 포함하는 유일한 보고서로, EOP(Exchange Online Protection)에서 평가하기 위해 서비스에 허용되기 전에 차단되는 전자 메일의 수만 보여줍니다. 받는 사람 5명에게 메시지가 전송된 경우 하나의 메시지가 아니라 5개의 다른 메시지로 계산됩니다.
+메일 **흐름 상태 보고서는** [](#sent-and-received-email-report)전송 및 수신 전자 메일 보고서와 유사하며, 에지에서 허용되거나 차단되는 전자 메일에 대한 추가 정보가 있습니다. 이 보고서는 에지 보호 정보를 포함하는 유일한 보고서로, EOP(에지 보호)의 평가를 위해 서비스에 허용되기 전에 차단되는 전자 메일의 Exchange Online Protection 표시됩니다. 받는 사람 5명에게 메시지가 전송된 경우 하나의 메시지가 아니라 5개의 다른 메시지로 계산됩니다.
 보고서를 확인하려면 보안 및 준수 & 를 열고 보고서 [대시보드로](https://protection.office.com)이동하여 메일 흐름 상태  \>  **보고서를 선택합니다.** 메일 흐름 상태 보고서로 직접 **이동하기 위해 를** 열고 을 을 를 열 수 <https://protection.office.com/mailflowStatusReport> 있습니다.
 
 ![보고서 대시보드의 메일 흐름 상태 보고서 위젯](../../media/mail-flow-status-report-widget.png)
@@ -264,9 +264,9 @@ ms.locfileid: "51206236"
 
 세부 정보 보기의 경우 하루 동안만 데이터를 내보낼 수 있습니다. 따라서 7일 동안 데이터를 내보내는 경우 7개 내보내기 작업을 수행해야 합니다.
 
-내보낼 .csv 파일은 각각 150,000개 행으로 제한됩니다. 해당 일의 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 .csv 파일이 만들어집니다.
+내보낼 각 .csv 행은 150,000개로 제한됩니다. 해당 일의 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 개의 .csv 파일이 만들어집니다.
 
-![메일 흐름 상태 보고서에 보기 입력 ](../../media/mail-flow-status-report-type-view.png)
+![메일 흐름 상태 보고서에 보기 입력](../../media/mail-flow-status-report-type-view.png)
 
 ### <a name="direction-view-for-the-mailflow-status-report"></a>메일 흐름 상태 보고서의 방향 보기
 
@@ -284,9 +284,9 @@ ms.locfileid: "51206236"
 
 세부 정보 보기의 경우 하루 동안만 데이터를 내보낼 수 있습니다. 따라서 7일 동안 데이터를 내보내는 경우 7개 내보내기 작업을 수행해야 합니다.
 
-내보낼 .csv 파일은 각각 150,000개 행으로 제한됩니다. 해당 일의 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 .csv 파일이 만들어집니다.
+내보낼 각 .csv 행은 150,000개로 제한됩니다. 해당 일의 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 개의 .csv 파일이 만들어집니다.
 
-![메일 흐름 상태 보고서의 방향 보기 ](../../media/mail-flow-status-report-direction-view.png)
+![메일 흐름 상태 보고서의 방향 보기](../../media/mail-flow-status-report-direction-view.png)
 
 ### <a name="funnel-view-for-the-mailflow-status-report"></a>메일 흐름 상태 보고서의 유입경로 보기
 
@@ -317,9 +317,9 @@ ms.locfileid: "51206236"
 - **파일 후 전자 메일 및 URL 확인**<sup>1</sup>
 - **배달 후 보호 후 무해한 것으로 감지된 전자 메일(URL 클릭 시간 보호)**
 
-<sup>1</sup> Office 365용 Defender만
+<sup>1</sup> Defender for Office 365 전용
 
-EOP 또는 Office 365용 Defender로 필터링된 전자 메일을 별도로 보려면 차트 범례의 값을 클릭합니다.
+EOP 또는 Defender에서 필터링한 전자 메일을 개별적으로 Office 365 차트 범례의 값을 클릭합니다.
 
 데이터 테이블에는 내선 날짜 순서로 표시되는 다음 정보가 포함되어 있습니다.
 
@@ -335,10 +335,10 @@ EOP 또는 Office 365용 Defender로 필터링된 전자 메일을 별도로 보
   - **스푸핑** 방지: 받는 사람이 속한 도메인 또는 메시지 보낸 사람이 소유하지 않은 도메인을 스푸핑하려고 시도하여 필터링된 메시지입니다.
 - **스팸 방지, 대량 메일 필터링**:
   - **대량 메일 필터링:** 받는 사람에게 대량 메일을 배달하려고 하여 필터링된 메시지입니다.
-- **사용자 및 도메인 가장(Office 365용 Defender)**:
+- **사용자 및 도메인 가장(사용자** 및 도메인 Office 365) :
   - **사용자 가장:** 피싱 방지 정책의 가장 보호 설정에 정의된 사용자(메시지 보낸 사람)를 가장하려는 시도로 인해 필터링된 메시지입니다.
   - **도메인 가장:** 피싱 방지 정책의 가장 보호 설정에 정의된 도메인을 가장하려고 시도하여 필터링된 메시지입니다.
-- **파일 및 URL 확인(Office 365용 Defender)**:
+- **파일 및 URL 확인(Office 365)**:
   - **파일 검색:** 안전한 첨부 파일 정책에 의해 필터링된 메시지입니다.
   - **URL 검색:** 안전한 링크 정책에 의해 필터링된 메시지입니다.
 - **사후 배달 보호 및 ZAP(ATP) 또는 EOP(ZAP)**: ZAP는 제로 아워 자동 제거를 나타냅니다.
@@ -352,11 +352,11 @@ EOP 또는 Office 365용 Defender로 필터링된 전자 메일을 별도로 보
 - **요약(최근 90일 동안의 데이터 사용)**
 - **세부 정보(지난 30일 동안의 데이터 사용)**
 
-**날짜에서** 범위를 선택한 다음 적용을 **클릭합니다.** 현재 필터에 대한 데이터를 .csv 파일로 내보낼 수 있습니다.
+**날짜에서** 범위를 선택한 다음 적용을 **클릭합니다.** 현재 필터에 대한 데이터는 파일로 .csv 내보낼 수 있습니다.
 
-내보낼 .csv 파일은 각각 150,000개 행으로 제한됩니다. 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 .csv 파일이 만들어집니다.
+내보낼 각 .csv 행은 150,000개로 제한됩니다. 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 개의 .csv 파일이 만들어집니다.
 
- ![메일 흐름 상태 보고서의 유입경로 보기 ](../../media/mail-flow-status-report-funnel-view.png)
+ ![메일 흐름 상태 보고서의 유입경로 보기](../../media/mail-flow-status-report-funnel-view.png)
 
 ### <a name="tech-view-for-the-mailflow-status-report"></a>메일 흐름 상태 보고서의 기술 보기
 
@@ -386,7 +386,7 @@ EOP 또는 Office 365용 Defender로 필터링된 전자 메일을 별도로 보
 - **스팸 및**  **스팸 아미기**
 - **악성이 아닌 전자 메일,** **안전한 링크 검색** 및 <sup>\*</sup> **ZAP**
 
-<sup>\*</sup> Office 365용 Defender
+<sup>\*</sup>Defender for Office 365
 
 차트의 범주 위에 마우스를 대면 해당 범주의 메시지 수를 볼 수 있습니다.
 
@@ -413,11 +413,11 @@ EOP 또는 Office 365용 Defender로 필터링된 전자 메일을 별도로 보
 - **요약(최근 90일 동안의 데이터 사용)**
 - **세부 정보(지난 30일 동안의 데이터 사용)**
 
-**날짜에서** 범위를 선택한 다음 적용을 **클릭합니다.** 현재 필터에 대한 데이터를 .csv 파일로 내보낼 수 있습니다.
+**날짜에서** 범위를 선택한 다음 적용을 **클릭합니다.** 현재 필터에 대한 데이터는 파일로 .csv 내보낼 수 있습니다.
 
-내보낼 .csv 파일은 각각 150,000개 행으로 제한됩니다. 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 .csv 파일이 만들어집니다.
+내보낼 각 .csv 행은 150,000개로 제한됩니다. 데이터에 150,000개 이상의 행이 포함되어 있는 경우 여러 개의 .csv 파일이 만들어집니다.
 
- ![메일 흐름 상태 보고서의 기술 보기 ](../../media/mail-flow-status-report-Tech-view.png)
+ ![메일 흐름 상태 보고서의 기술 보기](../../media/mail-flow-status-report-Tech-view.png)
 
 ## <a name="sent-and-received-email-report"></a>보낸 전자 메일 보고서 및 받은 전자 메일 보고서
 
@@ -440,7 +440,7 @@ EOP 또는 Office 365용 Defender로 필터링된 전자 메일을 별도로 보
   - **맬웨어(맬웨어** 방지)(EOP)
   - **스팸 감지**
   - **규칙 메시지**
-  - **고급 맬웨어(Office** 365용 Microsoft Defender)
+  - **고급 맬웨어(Microsoft** Defender for Office 365)
 
   차트에서 하루(데이터 데이터 포인트)를 마우스로 마우스로 대면 해당 일자에 대한 세부 정보를 볼 수 있습니다.
 
@@ -495,7 +495,7 @@ EOP 또는 Office 365용 Defender로 필터링된 전자 메일을 별도로 보
 - **상위 메일 \> 받는 사람에 대한 데이터 표시**
 - **상위 스팸 \> 받는 사람에 대한 데이터 표시**
 - **데이터 표시 \> 상위 맬웨어** 받는 사람(EOP)
-- **상위 맬웨어 받는 사람에 대한 데이터 \> 표시(Office 365용 Defender)**
+- **상위 맬웨어 받는 사람에 대한 데이터 \> 표시(Defender for Office 365)**
 
 이러한 선택에 따라 파이 차트의 컴포지션이 변경됩니다.
 
@@ -529,9 +529,9 @@ EOP 또는 Office 365용 Defender로 필터링된 전자 메일을 별도로 보
   - **상위 맬웨어 받는 사람**
   - **개수**
 
-- **상위 맬웨어 받는 사람에 대한 데이터 \> 표시(Office 365용 Defender)**
+- **상위 맬웨어 받는 사람에 대한 데이터 \> 표시(Defender for Office 365)**
 
-  - **상위 맬웨어 받는 사람(Office 365용 Defender)**
+  - **상위 맬웨어 받는 사람(Defender for Office 365)**
   - **개수**
 
 세부 정보 테이블 보기에서 **필터를** 클릭하면 시작 날짜  및 종료 날짜로 날짜 범위를 **지정할 수 있습니다.**
@@ -560,4 +560,4 @@ EOP 또는 Office 365용 Defender로 필터링된 전자 메일을 별도로 보
 
 [보안 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)
 
-[Office 365용 Microsoft Defender에 대한 보고서 보기](view-reports-for-mdo.md)
+[Microsoft Defender for Office 365](view-reports-for-mdo.md)

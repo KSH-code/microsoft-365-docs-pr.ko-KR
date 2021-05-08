@@ -19,19 +19,21 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 2c63f668cd4ccbad55a883aaf2b245c4936e25eb
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 89a3544c390fdeceea3741a950aad8fe29da25c4
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860957"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245591"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
 > [!NOTE]
-> 앱에 보존 정책에 대한 메시지가 표시되면 IT 부서에 이러한 보존 정책이 구성된 방식에 대한 정보를 문의하세요. 이러한 메시지가 Teams 채팅 또는 채널 메시지용인 경우 [보존 정책에 대한 Teams 메시지](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)를 참조하세요.
+> Teams에서 보존 정책에 대한 메시지가 표시되거나 앱의 보존 레이블에 대한 질문이 있는 경우 IT 부서에 문의하여 구성 방법에 대한 정보를 확인하세요. 그 때까지는 다음 문서가 도움이 될 수 있습니다.
+> -  [보존 정책에 대한 Teams 메시지](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)
+> - [SharePoint 또는 OneDrive의 파일에 보존 레이블 적용](https://support.microsoft.com/office/apply-retention-labels-to-files-in-sharepoint-or-onedrive-11a6835b-ec9f-40db-8aca-6f5ef18132df)
 >
 > 이 페이지의 정보는 규정 준수를 위해 보존 정책 및 보존 레이블을 생성할 수 있는 IT 관리자를 위한 것입니다.
 
@@ -470,8 +472,4 @@ eDiscovery 보존 대상 항목도 보존의 첫 번째 원칙에 속하므로 �
 
 ## <a name="configuration-guidance"></a>구성 지침
 
-보존 정책을 만들 준비가 되었으면 [보존 정책 만들기 및 구성하기](create-retention-policies.md)를 참조하세요.
-
-보존 레이블을 만들고 적용하려면:
-- [보존 레이블을 만들고 앱에 적용하기](create-apply-retention-labels.md)
-- [보존 레이블을 콘텐츠에 자동으로 적용하기](apply-retention-labels-automatically.md)
+[보존 정책 및 보존 레이블 시작하기](get-started-with-retention.md) 참조 이 문서에는 보존 시나리오에 대한 구독, 사용 권한 및 종단 내 구성 지침에 대한 정보가 들어 있습니다.

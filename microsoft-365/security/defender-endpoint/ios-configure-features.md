@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 834ce13917237dd822bdfbb7b88967dcac4bc0f8
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: dab72da02927c3fff6025eb2d0fa9ed0fdf1d0d7
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929016"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245279"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>iOS 기능에 대한 끝점용 Microsoft Defender 구성
 
@@ -38,9 +38,12 @@ ms.locfileid: "51929016"
 > iOS의 끝점용 Defender는 VPN을 사용하여 웹 보호 기능을 제공합니다. 이는 일반 VPN이 아니며 장치 외부에서 트래픽을 취하지 않는 로컬/자체 루프 VPN입니다.
 
 ## <a name="conditional-access-with-defender-for-endpoint-on-ios"></a>iOS의 끝점용 Defender를 통해 조건부 액세스  
-Microsoft Intune 및 Azure Active Directory와 함께 iOS의 끝점용 Microsoft Defender를 사용하면 장치 위험 수준에 따라 장치 준수 및 조건부 액세스 정책을 시행할 수 있습니다. Endpoint용 Defender는 Intune을 통해 이 기능을 활용하기 위해 배포할 수 있는 MTD(Mobile Threat Defense) 솔루션입니다.
+iOS의 끝점용 Microsoft Defender 및 Microsoft Intune Azure Active Directory 장치 위험 점수를 기반으로 장치 준수 및 조건부 액세스 정책을 시행할 수 있습니다. Endpoint용 Defender는 Intune을 통해 이 기능을 활용하기 위해 배포할 수 있는 MTD(Mobile Threat Defense) 솔루션입니다.
 
 iOS에서 끝점용 Defender를 통해 조건부 액세스를 설정하는 방법에 대한 자세한 내용은 Endpoint 및 [Intune용 Defender를 참조하세요.](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection)
+
+> [!NOTE]
+> **iOS의 끝점에 대한 Microsoft Defender의** 탈옥 감지는 현재 미리 보기에 있습니다. 끝점용 Microsoft Defender에서 장치를 무단으로 차단한 것으로 감지되면 보안 센터에 높은 **위험** 경고가 보고되고, 조건부 액세스가 장치 위험 점수를 기반으로 설정되어 있는 경우 장치가 회사 데이터에 액세스하지 못하게 차단됩니다.
 
 ## <a name="web-protection-and-vpn"></a>웹 보호 및 VPN
 
@@ -48,9 +51,9 @@ iOS에서 끝점용 Defender를 통해 조건부 액세스를 설정하는 방�
 
 기본적으로 사용하도록 설정되어 있는 동안 VPN을 사용하지 않도록 설정해야 하는 경우도 있습니다. 예를 들어 VPN을 구성할 때 작동하지 않는 일부 앱을 실행하려는 경우를 예로 들 수 있습니다. 이러한 경우 아래 단계에 따라 디바이스의 앱에서 VPN을 사용하지 않도록 선택할 수 있습니다.
 
-1. iOS 장치에서 설정 앱을  열고 일반을 클릭하거나 **탭한** 다음 VPN 을 **탭합니다.**
+1. iOS 장치에서 설정 열고 **일반을 클릭하거나** **탭한** 다음 **VPN 을 클릭합니다.**
 1. 끝점용 Microsoft Defender의 "i" 단추를 클릭하거나 탭합니다.
-1. VPN을 사용하지 않도록 설정하기 **위해 연결 필요를** 해제합니다.
+1. VPN을 사용하지 **커넥트 On Demand를** 해제합니다.
 
     > [!div class="mx-imgBorder"]
     > ![VPN 구성 필요 시 연결](images/ios-vpn-config.png)
@@ -68,11 +71,11 @@ Apple iOS는 동시에 활성화하기 위해 여러 장치 전체의 VPN을 지
 무단으로 보호된 iOS 장치에서 회사 데이터에 액세스하지 못하도록 보호하기 위해 Intune에서 다음 규정 준수 정책을 설정하는 것이 좋습니다.
 
 > [!NOTE]
-> 현재 Microsoft Defender for Endpoint on iOS에서는 탈옥 시나리오에 대한 보호 기능을 제공하지 않습니다. 무단으로 보호된 장치에서 사용하는 경우 회사 전자 메일 ID 및 회사 프로필 사진(사용 가능한 경우)과 같이 응용 프로그램에서 사용하는 특정 시나리오 데이터를 로컬로 노출할 수 있습니다.
+> 현재 iOS의 끝점에 대한 Microsoft Defender의 탈옥 감지가 미리 보기에 있습니다. 이 정책을 탈옥 시나리오에 대한 추가 방어 계층으로 설정하는 것이 좋습니다.
 
 다음 단계에 따라 무단으로 보호된 장치에 대한 규정 준수 정책을 만들 수 있습니다.
 
-1. [Microsoft Endpoint Manager 관리 센터에서](https://go.microsoft.com/fwlink/?linkid=2109431)장치 **준수** 정책 정책  ->    ->  **만들기 정책으로 이동하세요.** 플랫폼으로 "iOS/iPadOS"를 선택하고 만들기를 **클릭합니다.**
+1. Microsoft Endpoint Manager [관리 센터에서](https://go.microsoft.com/fwlink/?linkid=2109431)장치 **준수** 정책 정책  ->    ->  **만들기로 이동하세요.** 플랫폼으로 "iOS/iPadOS"를 선택하고 만들기를 **클릭합니다.**
 
     > [!div class="mx-imgBorder"]
     > ![정책 만들기](images/ios-jb-policy.png)
@@ -104,6 +107,6 @@ iOS의 끝점용 Defender를 사용하면 관리자가 iOS 장치에서도 사�
 
 ## <a name="battery-consumption-issues-on-ios-when-microsoft-defender-for-endpoint-is-installed"></a>끝점용 Microsoft Defender를 설치할 때 iOS의 배터리 사용 문제
 
-앱의 배터리 사용량은 CPU 및 네트워크 사용량을 비롯한 다양한 요인에 따라 Apple에서 계산합니다. 끝점용 Microsoft Defender는 백그라운드에서 로컬/루프백 VPN을 사용하여 악성 웹 사이트 또는 연결에 대한 웹 트래픽을 확인합니다. 모든 앱에서 네트워크 패킷이 이 검사를 통과하여 끝점용 Microsoft Defender의 배터리 사용이 부정확하게 계산됩니다. 이렇게 하면 사용자에게 거짓 인상을 줍니다. 끝점용 Microsoft Defender의 실제 배터리 사용은 장치의 배터리 설정 페이지에 표시된 것보다 적습니다. 이는 배터리 소비를 이해하기 위해 끝점용 Microsoft Defender 앱에서 수행한 테스트를 기반으로 합니다.
+앱의 배터리 사용량은 CPU 및 네트워크 사용량을 비롯한 다양한 요인에 따라 Apple에서 계산합니다. 끝점용 Microsoft Defender는 백그라운드에서 로컬/루프백 VPN을 사용하여 악성 웹 사이트 또는 연결에 대한 웹 트래픽을 확인합니다. 모든 앱에서 네트워크 패킷이 이 검사를 통과하여 끝점용 Microsoft Defender의 배터리 사용이 부정확하게 계산됩니다. 이렇게 하면 사용자에게 거짓 인상을 줍니다. Endpoint용 Microsoft Defender의 실제 배터리 사용은 장치의 배터리 설정 페이지에 표시된 것보다 적습니다. 이는 배터리 소비를 이해하기 위해 끝점용 Microsoft Defender 앱에서 수행한 테스트를 기반으로 합니다.
 
 또한 사용된 VPN은 로컬 VPN으로, 기존 VPN과 달리 네트워크 트래픽은 장치 외부로 전송되지 않습니다.

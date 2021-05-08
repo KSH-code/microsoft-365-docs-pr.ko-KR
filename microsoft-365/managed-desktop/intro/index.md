@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 73ce64bd83b475cc7cc0f78b6ac4a06683264144
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 36745a0aafb70e7921c19db7c28984dcca1e2a63
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445557"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245531"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop이란 무엇인가요?
 
@@ -57,7 +57,7 @@ Microsoft Managed Desktop은 오늘 날 회사와 사람들이 직면하고 있�
 ## <a name="device-management"></a>디바이스 관리
 등록된 장치 및 사용중인 Microsoft 소프트웨어 관리에 대한 부담을 Microsoft Managed Desktop이 덜어줍니다.
 
-- **하드웨어**: IT 부서가 장치(및 드라이버)를 연구하고 검사 할 필요 없이 특정 장치는 Microsoft Managed Desktop에 의해 면밀히 검사 되어 엔터프라이즈 수준의 성능에 적합하고 서비스와 작동이 보장되는 큐레이팅 된 [장치 목록](../service-description/device-list.md)을 제공합니다. 장치를 직접(혹은 파트너와 함께) 구하거나 혹은 이미 보유한 장비가 승인된 목록에 있다면 재사용 할 수 있습니다. 등록된 장비는 쉽고 간편합니다. 배포되기 전 사용자의 고객의 경험에 맞도록 장치를 [사용자 지정](../working-with-managed-desktop/config-setting-overview.md) 할 수 있습니다.
+- **하드웨어**: 장치가 서비스와 호환되는지 조사하고 파악해야 하는 IT 부서 대신 특정 하드웨어 및 소프트웨어 요구 사항, 도구 및 프로세스를 제공하여 확신을 가지고 장치를 선택할 수 있도록 선택을 간소화했습니다. [Windows 10 Pro 비즈니스 장치 쇼핑](https://www.microsoft.com/windowsforbusiness/view-all-devices) 사이트에서 Microsoft Managed Desktop을 필터링하여 권장 장치를 찾을 수 있습니다. 장치를 직접(혹은 파트너와 함께) 구하거나 혹은 이미 보유한 장비가 승인된 목록에 있다면 재사용 할 수 있습니다. 등록된 장비는 쉽고 간편합니다. 배포되기 전 사용자의 고객의 경험에 맞도록 장치를 [사용자 지정](../working-with-managed-desktop/config-setting-overview.md) 할 수 있습니다.
 
 - **업데이트**: Microsoft Managed Desktop은 Windows 10 품질 및 기능 업데이트, 드라이버, 펌웨어, 바이러스 백신 정의 및 엔터프라이즈용 Microsoft 365 앱 업데이트 [배포 그룹](../service-description/updates.md)의 모든 것을 설정하고 관리합니다. 광범위한 검사 및 모든 업데이트 확인이 포함되어 등록된 장비가 항상 최신 상태를 유지하고 방해를 최소화 하여 상시 업무로 부터 IT 부서를 자유롭게 해줍니다.
 
@@ -66,7 +66,7 @@ Microsoft Managed Desktop은 오늘 날 회사와 사람들이 직면하고 있�
 
 ## <a name="device-monitoring"></a>장치 모니터링
 
-사용자의 장치를 모니터링 하고 Microsoft가 매월 분석하는 독특한 위협 데이터를 사용하는 전용 보안 운영 센터를 통해 사용자 장치의 보안을 유지관리 합니다. 이런 보안 기능은 나중에 추가되는 것이 아니라 기본 제공 됩니다.
+사용자의 장치를 모니터링 하고 Microsoft가 매월 분석하는 독특한 위협 데이터를 사용하는 전용 보안 운영 센터를 통해 사용자 장치의 보안을 유지관리 합니다. 이러한 보안 기능은 나중에 추가하는 대신 기본 기능으로 제공됩니다.
 
 또한 장치 상태를 모니터링 하고 장치 성능에 대한 인사이트를 제공합니다. [Microsoft Managed Desktop에 대한 작업 및 모니터링](../service-description/operations-and-monitoring.md)에서 더 자세히 알아보세요.
 

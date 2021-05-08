@@ -1,6 +1,6 @@
 ---
 title: 장치 요구 사항
-description: 장치가 Microsoft Managed Desktop에서 작동하기 위한 최소 하드웨어 및 소프트웨어 요구 사항 요약
+description: 장치와 함께 작동하기 위한 최소 하드웨어 및 소프트웨어 요구 사항에 대한 Microsoft Managed Desktop
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: baaebd185389e7ac1f2173aed092141067a5629f
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: fcd7f192ba0846e3bf3051cde927095088f32d26
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768893"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245795"
 ---
 # <a name="device-requirements"></a>장치 요구 사항
 
-Microsoft Managed Desktop은 서비스에 포함하기 위해 장치 요구 사항을 정기적으로 평가합니다. 이 문서에서는 Microsoft Managed Desktop에서 작동하기 위해 장치가 충족해야 하는 하드웨어 및 소프트웨어 요구 사항에 대해 설명합니다. 이러한 요구 사항에 따라 [](device-list.md) 서비스에서 이미 사용이 승인된 특정 장치 목록을 검토할 수 있습니다.
+Microsoft Managed Desktop 서비스에 포함하기 위한 장치 요구 사항을 정기적으로 평가합니다. 이 문서에서는 장치와 함께 작동하기 위해 장치가 충족해야 하는 하드웨어 및 소프트웨어 요구 사항에 대해 Microsoft Managed Desktop. 이러한 요구 사항에 따라 서비스에서 이미 사용이 승인된 특정 장치 목록을 검토할 수 있습니다. 쇼핑 비즈니스 Microsoft Managed Desktop 사이트에서 Windows 10 Pro [필터링](https://www.microsoft.com/windowsforbusiness/view-all-devices)
 
 > [!NOTE]
 > 이러한 요구 사항은 변경될 수 있지만 하드웨어 요구 사항 변경에 대해 30일 알림이 제공될 것입니다. 가장 최근에 변경된 요구 사항은 로 **\*** 표시됩니다. 
@@ -29,7 +29,7 @@ Microsoft Managed Desktop은 서비스에 포함하기 위해 장치 요구 사�
 
 ## <a name="minimum-requirements"></a>최소 요구 사항
 
-Microsoft Managed Desktop에 등록하려면 장치가 이러한 요구 사항을 모두 충족하거나 초과해야 합니다.
+디바이스에 등록하려면 Microsoft Managed Desktop 이러한 요구 사항을 모두 충족하거나 초과해야 합니다.
 
 ### <a name="manufacturer"></a>제조업체
 
@@ -45,7 +45,7 @@ Microsoft Managed Desktop에 등록하려면 장치가 이러한 요구 사항�
 
 디바이스에 다음 소프트웨어가 사전 설치되어야 합니다.
 
-- Windows 10 Enterprise, Pro 또는 Pro Workstation Edition
+- Windows 10 Enterprise, Pro 또는 Pro Workstation edition
 - 64비트 버전의 엔터프라이즈용 Microsoft 365 앱 
 - 적용 가능한 모든 장치 드라이버
 
@@ -59,7 +59,7 @@ Microsoft Managed Desktop에 등록하려면 장치가 이러한 요구 사항�
 - 가상화 기반 보안 지원 
 - [BIOS에서](/windows-hardware/drivers/bringup/device-guard-and-credential-guard) 지원하는 하이퍼바이서로 보호된 코드 무결성
 
-이러한 기능 및 서비스에서 사용하는 기술과 관련된 기술에 대한 자세한 내용은 [Microsoft Managed Desktop 기술을 참조합니다.](../intro/technologies.md)
+이러한 기능 및 서비스에서 사용하는 기술과 관련된 기술에 대한 자세한 내용은 Microsoft Managed Desktop [참조합니다.](../intro/technologies.md)
 
 > [!NOTE]
 > ARM 프로세서가 지원되지 않습니다.
@@ -70,7 +70,7 @@ Microsoft Managed Desktop에 등록하려면 장치가 이러한 요구 사항�
 - 부팅 드라이브의 용량은 128GB 이상입니다.
 - 내부 장치 메모리(RAM)가 8GB를 초과하거나 같아야 합니다.
 
-디바이스가 2020년 7월 1일 이후에 만들어진 경우 [Windows Hello를](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)지원하려면 IR 카메라, 지문 판독기 또는 둘 다가 필요합니다.
+디바이스가 2020년 7월 1일 이후에 만들어진 경우 Hello 를 지원하려면 IR 카메라, 지문 판독기 또는 둘 [다가 Windows 합니다.](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)
 
 ## <a name="recommended-features"></a>권장 기능
 

@@ -1,6 +1,6 @@
 ---
 title: 장치 검색 개요
-description: Microsoft 365 Defender에서 끝점 검색을 활용하여 네트워크에서 관리되지 않는 장치를 찾는 방법에 대해 자세히 알아보기
+description: Microsoft 365 Defender에서 끝점 검색을 활용하여 네트워크에서 관리되지 않는 디바이스를 찾는 방법에 대해 자세히 알아보기
 keywords: 장치 검색, 검색, 수동, 사전, 네트워크, 표시 여부, 서버, Workstation, 온보드, 관리되지 않는 장치
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,19 +20,19 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: c549d5d2a7c30892a9272b4ac3e03cb8979bc1a5
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 2dee1193e9f852e66df324927bf38d37d736d251
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764990"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245951"
 ---
 # <a name="device-discovery-overview"></a>장치 검색 개요
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2146631)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
@@ -96,7 +96,8 @@ Microsoft Defender for Endpoint는 추가 어플라이언스 또는 번거로운
 
 ![장치 인벤토리 대시보드의 이미지](images/2b62255cd3a9dd42f3219e437b956fb9.png)
 
-
+> [!TIP]
+> 항상 필터를 적용하여 관리되지 않는 장치를 장치 인벤토리 목록에서 제외할 수 있습니다. API 쿼리의 등록 상태 열을 사용하여 관리되지 않는 장치를 필터링할 수도 있습니다. 
 
 ## <a name="vulnerability-assessment-on-discovered-devices"></a>검색된 장치에 대한 취약점 평가
 네트워크에서 검색된 다른 관리되지 않는 장치뿐만 아니라 장치의 취약성 및 위험은 "보안 권장 사항"에 따라 현재 TVM 흐름의 일부로 포털의 엔터티 페이지에 표시됩니다. "SSH" 관련 보안 권장 사항을 검색하여 관리되지 않는 장치 및 관리되는 장치와 관련된 SSH 취약성을 검색합니다. 
@@ -131,7 +132,7 @@ DeviceNetworkEvents
 ```
 
 
-## <a name="changed-behaviour"></a>변경된 행동
+## <a name="changed-behavior"></a>변경된 동작
 다음 섹션에서는 이 기능을 사용하는 경우 Microsoft Defender for Endpoint 및/또는 Microsoft 365 보안 센터에서 관찰할 변경 내용을 나열합니다. 
  
 1.  Microsoft Defender에서 끝점으로 온보딩되지 않은 장치는 장치 인벤토리, 고급 헌팅 및 API 쿼리에 표시될 것으로 예상됩니다. 이렇게 하여 쿼리 결과의 크기가 크게 증가할 수 있습니다. 

@@ -16,12 +16,12 @@ ms.collection:
 localization_priority: None
 description: Microsoft 365 관리 센터에서 Microsoft Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본을 구성하는 방법을 알아보겠습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a1bbe65db9dee028f57849de8a5538c996c3e2a4
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+ms.openlocfilehash: b2e6ab6306db9a5ac9d91226431e5876cc244499
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52101100"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245423"
 ---
 # <a name="configure-learning-content-sources-for-microsoft-viva-learning-preview-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 Microsoft Viva Learning(미리 보기)에 대한 학습 콘텐츠 원본 구성
 
@@ -35,7 +35,7 @@ Microsoft 365 관리 센터의 관리자는 직접 또는 조직에서 선택한
 > [!NOTE]
 >  사용자는 브라우저 또는 포함된 뷰어에서 학습을 Pro Microsoft가 아닌 다른 사용자 및 LinkedIn Learning에 로그인합니다. 이 구성된 학습은 Viva Learning(미리 보기) 약관이 아니라 조직과 제3자 간의 별도의 사용권, 개인 정보 보호 및 서비스 약관의 적용을 하게 됩니다. 이 유형의 학습을 선택하기 전에 조직 및 사용자에 대한 계약이 있는지 확인해야 합니다.
 
-## <a name="assign-the-knowledge-admin-role-optional"></a>지식 관리자 역할 할당 [선택 사항]
+## <a name="assign-the-knowledge-admin-role-optional"></a>지식 관리자 역할 할당(선택 사항)
 
 이러한 작업을 수행하려면 Microsoft 365 전역 관리자 되어야 합니다.
 
@@ -78,11 +78,11 @@ Viva Learning에서 콘텐츠 원본을 학습하기 위한 설정을 구성하�
 
 1.  Microsoft 365 센터의 왼쪽 탐색에서 설정   >  **설정으로 이동합니다.**
 
-2.  Org **설정 페이지의** 서비스 **탭에서** 학습 앱(미리 **보기)을 선택합니다.**
+2.  Org **설정 페이지의** 서비스 **탭에서** **Viva Learning(미리 보기)을 선택합니다.**
 
      ![설정 앱을 표시하는 Microsoft 365 관리 센터의 페이지입니다.](../media/learning/learning-sharepoint-configure1.png)
 
-3.  학습 **앱(미리 보기)** 패널에서 조직에 대해 구성할 학습 콘텐츠 원본을 선택한 다음 저장을 **선택합니다.**
+3.  **Viva Learning(미리 보기)** 패널에서 조직에 대해 구성할 학습 콘텐츠 원본을 선택한 다음 저장을 **선택합니다.**
 
      ![콘텐츠 원본 옵션을 Microsoft 365 센터의 학습 패널](../media/learning/learning-sharepoint-configure2.png)
 

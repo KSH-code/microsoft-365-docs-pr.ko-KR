@@ -16,12 +16,12 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: Microsoft Lists에 대해 자세히 알아보습니다. Microsoft 목록을 사용하여 고객 유형, 주문 이행 및 주문 진행률과 같은 고객 세부 정보를 추적할 수 있습니다.
-ms.openlocfilehash: 79094c6b039e62ba88720424985814354bd299b4
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: bbe88fb5a241c5991c7f7532f3ea70930e550ab5
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509432"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245195"
 ---
 # <a name="use-microsoft-lists-to-track-business-info"></a>Microsoft 목록을 사용하여 비즈니스 정보 추적
 
@@ -29,7 +29,7 @@ ms.locfileid: "50509432"
 
 ## <a name="try-it"></a>사용해 보기
 
-Microsoft 목록으로 정보를 추적하고 작업을 구성합니다. 처음부터, Excel에서, 기존 목록에서 또는 서식 파일에서 목록을 만듭니다. Microsoft 365, Microsoft Teams 또는 SharePoint에서 시작할 수 있습니다.
+Microsoft 목록으로 정보를 추적하고 작업을 구성합니다. 처음부터 목록, Excel, 기존 목록 또는 서식 파일에서 목록을 만듭니다. 시작은 Microsoft 365, Microsoft Teams 또는 SharePoint.
 
 ### <a name="add-an-item-to-the-list"></a>목록에 항목 추가
 
@@ -72,6 +72,6 @@ Microsoft 목록으로 정보를 추적하고 작업을 구성합니다. 처음�
 
 - 항목을 두 번 클릭하여 열고 주문 진행률을 업데이트합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-content"></a>관련 콘텐츠
 
 [목록 앱에서 목록 만들기](https://support.microsoft.com/office/create-a-list-from-the-lists-app-b5e0b7f8-136f-425f-a108-699586f8e8bd)

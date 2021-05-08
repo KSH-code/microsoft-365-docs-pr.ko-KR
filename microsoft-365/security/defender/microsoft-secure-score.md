@@ -1,6 +1,6 @@
 ---
 title: Microsoft Secure Score
-description: Microsoft 365 보안 센터의 Microsoft 보안 점수, 보안 자세를 개선하는 방법 및 보안 관리자가 기대할 수 있는 방법에 대해 설명
+description: 보안 센터에서 Microsoft 보안 점수를 Microsoft 365, 보안 자세를 개선하는 방법 및 보안 관리자가 기대할 수 있는 정보를 제공합니다.
 keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 보안 센터, 개선 작업
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -21,20 +21,20 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 19b83fe7dd733bb8a0668039d4df2b692a398ad4
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 4a2c220cab15751671b9b38c3bb2fda3db12c9e1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570466"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245380"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft Secure Score는 조직의 보안 태세에 대한 평가 점수로, 점수가 높을수록 더 많은 개선 작업이 수행되었다는 뜻입니다. Microsoft https://security.microsoft.com/securescore [365](overview-security-center.md)보안 센터 에서 찾을 수 있습니다.
+Microsoft Secure Score는 조직의 보안 태세에 대한 평가 점수로, 점수가 높을수록 더 많은 개선 작업이 수행되었다는 뜻입니다. 이 사이트는 보안 센터의 https://security.microsoft.com/securescore Microsoft 365 [있습니다.](overview-security-center.md)
 
-Secure Score 권장 사항을 따르면 조직을 위협으로부터 지킬 수 있습니다. Microsoft 365 보안 센터의 중앙 집중식 대시보드에서 조직은 Microsoft 365 ID, 앱 및 장치의 보안을 모니터링하고 작업할 수 있습니다.
+Secure Score 권장 사항을 따르면 조직을 위협으로부터 지킬 수 있습니다. 조직은 Microsoft 365 센터의 중앙 집중식 대시보드에서 ID, 앱 및 Microsoft 365 보안에 대해 모니터링하고 작업할 수 있습니다.
 
 Secure Score는 조직에 다음과 같은 도움을 제공합니다.  
 
@@ -44,9 +44,9 @@ Secure Score는 조직에 다음과 같은 도움을 제공합니다.
 
 조직은 메트릭 및 추세의 강력한 시각화, 다른 Microsoft 제품과의 통합, 유사한 조직과의 점수 비교 등의 강력한 시각화에 액세스할 수 있습니다. 또한 타사 솔루션에서 권장 작업을 해결한 경우 점수가 반영될 수 있습니다.
 
-![보안 점수 홈페이지](../../media/secure-score/secure-score-homepage-new.png)
+![보안 점수 홈페이지](../../media/secure-score/secure-score-home-page.png)
 
-## <a name="how-it-works"></a>작동 방식
+## <a name="how-it-works"></a>작동 방법
 
 다음 작업에 대한 포인트가 부여됩니다.
 
@@ -77,18 +77,18 @@ Secure Score는 조직에 다음과 같은 도움을 제공합니다.
 
 현재 다음 제품에 대한 권장 사항이 있습니다.
 
-- Microsoft 365(Exchange Online 포함)
+- Microsoft 365(Exchange Online)
 - Azure Active Directory
 - 엔드포인트용 Microsoft Defender
 - ID용 Microsoft Defender
 - 클라우드 앱 보안
 - Microsoft Teams
 
-다른 보안 제품에 대한 권장 사항은 곧 제공될 예정입니다. 권장 사항은 각 제품과 연결된 모든 공격 표면을 다루지 않지만 좋은 기준선입니다. 제3자 또는 대체 완화에서 다루는 개선 작업을 표시할 수도 있습니다.
+권장 사항 보안 제품에 대한 자세한 계획은 곧 출시될 예정입니다. 권장 사항은 각 제품과 연결된 모든 공격 표면을 다루지 않지만 좋은 기준선입니다. 제3자 또는 대체 완화에서 다루는 개선 작업을 표시할 수도 있습니다.
 
 ### <a name="security-defaults"></a>보안 기본값
 
-Microsoft Secure Score는 [Azure Active Directory의](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)보안 기본값을 지원하기 위해 개선 작업을 업데이트하여 일반적인 공격에 대한 미리 구성된 보안 설정으로 조직을 보다 쉽게 보호할 수 있도록 합니다.
+Microsoft Secure Score는 일반적인 공격에 대해 미리 구성된 보안 설정으로 조직을 보다 [쉽게](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)보호할 수 있도록 Azure Active Directory 보안 기본값을 지원하기 위해 개선 작업을 업데이트했습니다.
 
 보안 기본값을 설정하면 다음과 같은 개선 작업에 대한 전체 점수가 수여됩니다.
 
@@ -99,9 +99,9 @@ Microsoft Secure Score는 [Azure Active Directory의](/azure/active-directory/fu
 >[!IMPORTANT]
 >보안 기본값에는 "로그인 위험 정책" 및 "사용자 위험 정책" 개선 작업과 유사한 보안을 제공하는 보안 기능이 포함됩니다. 보안 기본값 위에 이러한 정책을 설정하는 대신 상태를 "대체 완화를 통해 해결되었습니다."로 업데이트하는 것이 좋습니다.
 
-## <a name="required-permissions"></a>필요한 사용 권한
+## <a name="required-permissions"></a>필수 권한
 
-Microsoft 보안 점수에 액세스할 수 있는 권한을 부여하려면 Azure Active Directory에서 다음 역할 중 하나를 할당해야 합니다.
+Microsoft 보안 점수에 액세스할 수 있는 권한을 부여하려면 보안 점수에서 다음 역할 중 하나를 할당해야 Azure Active Directory.
 
 ### <a name="read-and-write-roles"></a>역할 읽기 및 쓰기
 

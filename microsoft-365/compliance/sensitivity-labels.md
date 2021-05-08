@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 1e21da114154a5258f81a48e39d46ae875ee3930
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: da660f79cd218c4b97cd2159f2811985d4651cef
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892931"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245627"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -261,3 +261,5 @@ Azure Information Protection을 처음 접하거나 레이블을 최근에 마�
 ## <a name="deployment-guidance"></a>배포 가이드
 
 라이선싱 정보, 사용 권한, 배포 전략, 지원되는 시나리오 목록 및 최종 사용자 문서를 포함한 배포 계획 및 지침에 대한 내용은 [민감도 레이블로 시작하기](get-started-with-sensitivity-labels.md)를 참조하세요.
+
+민감도 레이블을 사용하여 데이터 개인 정보 보호 규정을 준수하는 방법을 알아보려면 [Microsoft 365(aka.ms/m365dataprivacy)를 사용하여 데이터 개인 정보 보호 규정에 대한 정보 보호 배포](../solutions/information-protection-deploy.md)를 참조하세요.
