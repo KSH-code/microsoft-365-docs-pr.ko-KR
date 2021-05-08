@@ -1,0 +1,30 @@
+---
+title: 보안에 대한 스케줄러의 신뢰 및 개인 정보 Microsoft 365.
+ms.author: v-aiyengar
+author: AshaIyengar21
+manager: serdars
+audience: Admin
+ms.topic: article
+ms.service: scheduler
+localization_priority: Normal
+description: 정보 보호를 위한 스케줄러의 신뢰 및 개인 정보 Microsoft 365 AI 모델 및 사람의 보조 AI에 사용됩니다.
+ms.openlocfilehash: 07a15c4f911c577f65ca139c555ad24892221667
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52286279"
+---
+# <a name="trust-and-privacy-in-scheduler-for-microsoft-365"></a><span data-ttu-id="03845-103">보안 및 개인 정보 보호를 위한 스케줄러의 Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="03845-103">Trust and Privacy in Scheduler for Microsoft 365</span></span>
+
+<span data-ttu-id="03845-104">스케줄러는 AI 모델이 사용자의 의도에 확신이 없는 경우( 모호하거나 상황에 맞는 참조로 인해) 인공 지능이 사람의 지원으로 강화되는 고유한 제품입니다.</span><span class="sxs-lookup"><span data-stu-id="03845-104">Scheduler is a unique offering whose artificial intelligence is augmented with human assistance when the AI models are not confident in the user’s intent, often due to ambiguity or contextual references.</span></span> 
+
+## <a name="policies"></a><span data-ttu-id="03845-105">정책</span><span class="sxs-lookup"><span data-stu-id="03845-105">Policies</span></span>
+
+- <span data-ttu-id="03845-106">모든 고객 콘텐츠는 고객의 테넌트에 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="03845-106">All customer content is stored in the customer’s tenant.</span></span>
+- <span data-ttu-id="03845-107">스케줄러는 GDPR(일반 데이터 보호 규정)을 준수합니다.</span><span class="sxs-lookup"><span data-stu-id="03845-107">Scheduler is General Data Protection Regulation (GDPR) compliant.</span></span>
+- <span data-ttu-id="03845-108">모든 고객 데이터는 신뢰할 수 있는 Microsoft 365 개인 정보 보호 경계에서 처리됩니다.</span><span class="sxs-lookup"><span data-stu-id="03845-108">All customer data is processed in the Microsoft 365 Trust and Privacy Boundaries.</span></span>
+- <span data-ttu-id="03845-109">스케줄러의 휴먼 도우미는 Microsoft 지원 **담당자&** 데이터 프로세서와 유사하게 Microsoft가 개인 정보 및 기밀 정보를 위해 인증한 개인 정보 보호 및 개인 정보 보호 보증에 대해 인증된 공급자 보안 정책입니다.</span><span class="sxs-lookup"><span data-stu-id="03845-109">Scheduler’s human assistants are **Supplier Security & Privacy Assurance certified** for personal information and highly confidential information by Microsoft analogous to Microsoft support personnel / data processors.</span></span> 
+- <span data-ttu-id="03845-110">전자 메일 첨부 파일은 스케줄러 서비스에서 사용되거나 처리되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="03845-110">Email attachments are not consumed or processed by the Scheduler service.</span></span>
+- <span data-ttu-id="03845-111">암호화된 전자 메일은 스케줄러 서비스에서 사용되거나 처리되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="03845-111">Encrypted emails are not consumed or processed by the Scheduler service.</span></span>
+- <span data-ttu-id="03845-112">스케줄러는 모임 이끌이 또는 참석자의 일정이나 받은 편지함을 모니터링하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="03845-112">Scheduler does not monitor the meeting organizer’s or attendee’s calendar or inbox.</span></span> 
