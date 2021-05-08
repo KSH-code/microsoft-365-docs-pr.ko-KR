@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: '관리자: 네트워크 업로드를 사용하여 Microsoft 365의 사용자 사서함으로 여러 PST 파일을 대량으로 가져오는 방법에 대해 알아봅니다.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cf7f471a4323c4c03f232e93d2f00b930e53aefe
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 6ff645589337260cd8e29d1e1d066abdf60c1f1a
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114344"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280924"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>네트워크 업로드를 사용하여 조직의 PST 파일을 Microsoft 365로 가져오기
 
@@ -45,7 +45,7 @@ ms.locfileid: "52114344"
 
 [6단계: 데이터 필터링 및 PST 가져오기 작업 시작](#step-6-filter-data-and-start-the-pst-import-job)
 
-Microsoft 365 사서함으로 PST 파일을 가져오려면 1단계를 한 번만 수행하면 됩니다. 이러한 단계를 수행한 후 PST 파일 배치를 업로드하고 가져오려고 할 때마다 2~6단계를 수행합니다.
+PST 파일을 Microsoft 365 사서함으로 가져오려면 1단계를 한 번만 수행해야 합니다. 이러한 단계를 수행한 후 PST 파일 배치를 업로드하고 가져오고 싶을 때마다 2~6단계를 수행합니다. 
 
 ## <a name="before-you-import-pst-files"></a>PST 파일을 가져오기 전에
   
@@ -64,7 +64,7 @@ Microsoft 365 사서함으로 PST 파일을 가져오려면 1단계를 한 번�
   
 - PST 파일을 Microsoft 365로 가져오는 데 지원되는 유일한 방법은 이 항목에 설명된 대로 AzCopy 도구를 사용하는 것입니다. Azure 저장소 탐색기를 사용하여 PST 파일을 Azure 저장소 영역에 직접 업로드할 수 없습니다.
 
-- 조직의 파일 서버 또는 공유 폴더에 Microsoft 365로 가져오려는 PST 파일을 저장해야 합니다. 2단계에서는 파일 서버 또는 공유 폴더에 저장된 PST 파일을 Microsoft 365로 업로드하기 위해 AzCopy 도구를 실행합니다.
+- 조직의 파일 서버에 있는 Microsoft 365 또는 공유 폴더에 가져오려는 PST 파일을 저장해야 합니다. 2단계에서 이 파일 서버 또는 공유 폴더에 저장된 PST 파일을 Microsoft 365로 업로드하는 AzCopy 도구를 실행합니다.
 
 - 큰 PST 파일은 PST 가져오기 프로세스의 성능에 영향을 줄 수 있습니다. 따라서 2 단계에서 Azure 저장소 위치에 업로드하는 각 PST 파일의 크기는 20GB를 넘지 않는 것이 좋습니다.
 
@@ -171,9 +171,9 @@ Microsoft 365 사서함으로 PST 파일을 가져오려면 1단계를 한 번�
   
 - 조직의 공유 폴더 또는 파일 서버의 PST 파일이 Azure blob에 성공적으로 업로드되었는지 확인합니다.
 
-- Azure Blob에 업로드 된 각 PST 파일의 파일 이름(및 하위 폴더 경로 이름이 포함된 경우 해당 이름)을 확인합니다. 다음 단계에서 PST 매핑 파일을 만들 때 각 PST 파일의 폴더 경로 이름과 파일 이름을 모두 지정해야 하므로 이 정보를 유용하게 사용할 수 있습니다. 이러한 이름을 확인하면 PST 매핑 파일의 잠재적인 오류를 줄이는 데 도움이 될 수 있습니다.
+- Azure blob에 업로드된 각 PST 파일의 파일 이름(및 하위 폴더 경로 이름이 포함된 경우 해당 이름)을 확인합니다. 다음 단계에서 PST 매핑 파일을 만들 때 각 PST 파일의 폴더 경로와 파일 이름을 모두 지정해야 하므로 이러한 정보를 유용하게 사용할 수 있습니다. 이러한 이름을 확인하면 PST 매핑 파일의 잠재적인 오류를 줄이는 데 도움이 될 수 있습니다.
 
-Microsoft Azure 저장소 탐색기는 Preview에 있습니다. 
+Azure Storage Explorer 독립 실행형 응용 프로그램은 일반적으로 사용할 수 있습니다. 다음 절차의 링크를 사용하여 최신 버전을 다운로드할 수 있습니다.
   
 > [!IMPORTANT]
 > PST 파일을 업로드하거나 수정하는 데 Azure 저장소 탐색기를 사용할 수 없습니다. PST 파일을 가져오는 유일한 지원 방법은 AzCopy를 사용하는 것입니다. 또한 Azure Blob에 업로드한 PST 파일을 삭제할 수 없습니다. PST 파일을 삭제하려고 하면 필요한 권한이 없다고 설명하는 오류가 표시됩니다. 모든 PST 파일이 Azure Storage 영역에서 자동으로 삭제되는 것이 정상입니다. 가져오기 작업이 진행 중이 아니라면 **ingestiondata** 컨테이너에 포함된 모든 PST 파일이 가장 최근에 가져오기 작업이 생성된 날짜로부터 30일 후에 삭제됩니다.
@@ -218,7 +218,7 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후의 다음 단�
     Exchange,PSTFiles,zrinkam_archive.pst,zrinkam@contoso.onmicrosoft.com,TRUE,/ImportedPst,,,,
     ```
 
-    CSV 파일의 첫 번째 행 또는 머리글 행은 PST 가져오기 서비스에서 PST 파일을 사용자 사서함으로 가져오는 데 사용하는 매개 변수를 나열합니다. 각 매개 변수 이름은 쉼표로 구분됩니다. 머리글 행 아래의 각 행은 PST 파일을 특정 사서함으로 가져오기 위한 매개 변수 값을 나타냅니다. 사용자 사서함에 가져오려는 각 PST 파일에 대해 하나의 행이 필요합니다. CSV 매핑 파일에서 최대 500개의 행을 사용할 수 있습니다. 500개 이상의 PST 파일을 가져오려면 5단계에서 여러 매핑 파일을 만들고 여러 가져오기 작업을 만들어야 합니다.
+    CSV 파일의 첫 번째 행 또는 머리글 행은 PST 가져오기 서비스에서 PST 파일을 사용자 사서함으로 가져오는 데 사용하는 매개 변수를 나열합니다. 각 매개 변수 이름은 쉼표로 구분됩니다. 머리글 행 아래의 각 행은 PST 파일을 특정 사서함으로 가져오기 위한 매개 변수 값을 나타냅니다. 사용자 사서함에 가져올 각 PST 파일에 대해 하나의 행이 필요합니다. CSV 매핑 파일에는 최대 500개의 행을 포함할 수 있습니다. 500개 이상의 PST 파일을 가져오려면 5단계에서 여러 매핑 파일을 생성하고 여러 가져오기 작업을 생성해야 합니다.
 
     > [!NOTE]
     > SharePoint 매개 변수를 포함하여 머리글 행의 어떤 내용도 변경하지 않도록 합니다. 변경한 내용은 PST 가져오기 프로세스를 진행하는 동안 무시됩니다. 또한 반드시 매핑 파일의 자리 표시자 데이터를 실제 데이터로 바꾸어야 합니다.
@@ -338,7 +338,7 @@ PST 파일을 조직의 Azure Storage 위치에 업로드한 후의 다음 단�
 
   - [데이터 손실 방지 정책](dlp-learn-about-dlp.md)을 사용하여 중요한 데이터가 조직 외부로 유출되는 것을 방지합니다.
   
-- 다음은 1단계에서 획득한 SAS (공유 액세스 서명) URL의 예입니다. 이 예에서는 PST 파일을 업로드하기 위해 AzCopy.exe 도구에서 실행하는 명령 구문도 포함되어 있습니다. 암호 또는 기타 보안 관련 정보를 보호하는 것처럼 주의해서 SAS URL을 보호해야 합니다.
+- 다음은 1단계에서 얻은 공유 액세스 서명(SAS) URL의 예입니다. 이 예에는 PST 파일을 업로드하기 위해 AzCopy.exe 도구에서 실행하는 명령에 대한 구문도 포함되어 있습니다. 암호나 기타 보안 관련 정보를 보호하는 것과 마찬가지로 SAS URL을 보호하기 위한 예방 조치를 취해야 합니다.
 
     ```console
     SAS URL: https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D

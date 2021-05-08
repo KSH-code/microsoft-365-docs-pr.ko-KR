@@ -18,12 +18,12 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9964b27f29654a7cc474dc4fb8f84334ddaf381c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 998d8c500613ffa9fc6d790535e555ff9503f590
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933220"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52281020"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender의 성능 문제 해결
 
@@ -148,3 +148,6 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
 5. 성능 문제에 기여하는 프로세스 또는 디스크 위치에 대한 제외를 사용하여 Linux의 끝점에 대한 Microsoft Defender를 구성하고 실시간 보호를 다시 활성화합니다.
 
     자세한 내용은 [Linux에서 끝점용 Microsoft Defender에](linux-exclusions.md)대한 제외 구성 및 유효성 검사를 참조하세요.
+
+## <a name="see-also"></a>참고 항목
+- [에이전트 상태 문제 조사](health-status.md)

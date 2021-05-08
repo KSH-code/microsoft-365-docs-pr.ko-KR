@@ -13,12 +13,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: dc9881bf869ce013a2ff913baa97f9b7d3de9bcc
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 4532afc40c2324b77725d9ddad158587083e6e9b
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245819"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280960"
 ---
 # <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>엔터프라이즈 설계자용 Microsoft 클라우드 일러스트레이션
 
@@ -34,7 +34,16 @@ Microsoft 클라우드 서비스 및 플랫폼을 사용하는 조직용으로 I
   
 |**항목**|**설명**|
 |:-----|:-----|
-|[![Microsoft Cloud ID 모델용 축소판 이미지](../media/solutions-architecture-center/msft-cloud-identity-model-thumb.png)](../downloads/MSFT_cloud_architecture_identity.pdf) <br/> [PDF로 보기](../downloads/MSFT_cloud_architecture_identity.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.pdf) \| [앱으로 Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.vsdx)   <br/>2020년 8월에 업데이트되었습니다. | 이 모델에는 다음이 포함됩니다.  <ul> <li> Microsoft 클라우드를 사용하는 ID 소개 </li><li> Azure AD IDaaS 기능 </li><li> Azure AD와 AD DS(Active Directory 도메인 서비스) 계정 통합 </li><li> Azure IaaS에 디렉터리 구성 요소 추가 </li><li> Azure IaaS의 워크로드에 대한 AD DS 옵션 </li></ul><br/>  <br/>|
+|[![Microsoft Cloud ID 모델용 축소판 이미지](../media/solutions-architecture-center/msft-cloud-identity-model-thumb.png)](../downloads/MSFT_cloud_architecture_identity.pdf) <br/> [PDF로 보기](../downloads/MSFT_cloud_architecture_identity.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.pdf) \| [앱으로 Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.vsdx)   <br/>2020년 9월에 업데이트되었습니다. | 이 모델에는 다음이 포함됩니다.  <ul> <li> Microsoft 클라우드를 사용하는 ID 소개 </li><li> Azure AD IDaaS 기능 </li><li> Azure AD와 AD DS(Active Directory 도메인 서비스) 계정 통합 </li><li> Azure IaaS에 디렉터리 구성 요소 추가 </li><li> Azure IaaS의 워크로드에 대한 AD DS 옵션 </li></ul><br/>  <br/>|
+
+<a name="security"></a>
+### <a name="microsoft-cloud-security-for-enterprise-architects"></a>Microsoft Cloud Security for Enterprise Architects
+
+Microsoft 클라우드 서비스 및 플랫폼의 보안과 관련하여 IT 설계자가 파악해야 하는 사항
+  
+|**항목**|**설명**|
+|:-----|:-----|
+|[![엔터프라이즈 설계자 모델 축소판 그림을 위한 Microsoft 클라우드 보안](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)](https://download.microsoft.com/download/6/D/F/6DFD7614-BBCF-4572-A871-E446B8CF5D79/MSFT_cloud_architecture_security%20(1).pdf) <br/> [PDF](https://download.microsoft.com/download/6/D/F/6DFD7614-BBCF-4572-A871-E446B8CF5D79/MSFT_cloud_architecture_security%20(1).pdf)  \| <br/>2021년 4월에 업데이트되었습니다. | 이 모델에는 다음이 포함됩니다. <ul><li>Microsoft 및 고객 보안 책임</li><li>ID 및 장치 액세스</li><li>위협 방지</li><li>정보 보호 </ul><br/>|
    
 <a name="networking"></a>
 ### <a name="microsoft-cloud-networking-for-enterprise-architects"></a>Microsoft Cloud Networking for Enterprise Architects
@@ -53,34 +62,17 @@ Microsoft 서비스 및 플랫폼용 하이브리드 클라우드와 관련하�
 |**항목**|**설명**|
 |:-----|:-----|
 |[![Microsoft 하이브리드 클라우드 모델의 축소판 이미지](../media/solutions-architecture-center/msft-hybrid-cloud-model-thumb.png)](../downloads/MSFT_cloud_architecture_hybrid.pdf) <br/> [PDF로 보기](../downloads/MSFT_cloud_architecture_hybrid.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.pdf) \| [앱으로 Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.vsdx)     <br>2020년 8월에 업데이트되었습니다. | 이 모델에는 다음이 포함됩니다. <ul><li> Microsoft 클라우드 서비스(SaaS, Azure PaaS, Azure IaaS) 및 공통 요소 </li><li> Microsoft 클라우드 서비스를 위한 하이브리드 클라우드 아키텍처 </li><li> Microsoft SaaS(Office 365), Azure PaaS, Azure IaaS를 위한 하이브리드 클라우드 시나리오 </li></ul><br/>|
-   
 
 ### <a name="architecture-approaches-for-microsoft-cloud-tenant-to-tenant-migrations"></a>Microsoft 클라우드 테넌트간 마이그레이션에 대한 아키텍처 접근 방식 
 이 시리즈에서는 합병, 인수, 매각 및 기타 시나리오를 통해 새로운 클라우드 테넌트로 마이그레이션 할 수 있는 몇 가지 아키텍처 접근 방식에 대해 설명합니다. 이러한 항목에서는 Enterprise 자원 계획을 위한 시작점 지침을 제공합니다. 
 
 |**항목**|**설명**|
 |:-----|:-----|
-|[![Teams 논리 아키텍처 포스터의 축소판 그림 이미지](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>업데이트 날짜: 2020년 10월    |이 모델에는 다음이 포함됩니다. <ul><li>아키텍처 접근 방식에 대한 비즈니스 시나리오 매핑</li><li>디자인 고려 사항</li><li>단일 이벤트 마이그레이션 흐름 예</li><li>단계적 마이그레이션 흐름 예</li><li>테넌트 이동 또는 분할 흐름 예제</li></ul>|
-
-<a name="security"></a>
-### <a name="microsoft-cloud-security-for-enterprise-architects"></a>Microsoft Cloud Security for Enterprise Architects
-
->[!Note]
->이 모델은 수정 중입니다. 업데이트된 버전은 앞으로 이 문서를 확인하시기 바랍니다.
->
-
-<!--
-
-What IT architects need to know about security in Microsoft cloud services and platforms.
-  
-|**Item**|**Description**|
-|:-----|:-----|
-|[![Poster for Microsoft cloud security model](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)](https://www.microsoft.com/download/details.aspx?id=48121) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842070)  \| <br/>Updated April 2021 | This model contains: <ul><li>Microsoft and customer security responsibilities</li><li>Identity and device access</li><li>Threat protection</li><li>Information protection </ul><br/>|
-
---> 
+|[![Microsoft 클라우드 테넌트와 테넌트 마이그레이션을 위한 축소판 이미지](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>2021년 2월에 업데이트되었습니다.    |이 모델에는 다음이 포함됩니다. <ul><li>아키텍처 접근 방식에 대한 비즈니스 시나리오 매핑</li><li>디자인 고려 사항</li><li>단일 이벤트 마이그레이션 흐름 예</li><li>단계적 마이그레이션 흐름 예</li><li>테넌트 이동 또는 분할 흐름 예제</li></ul>|
 
 <a name="attacks"></a>
-### 일반적인 공격 및 조직을 보호하는 Microsoft 기능 가장 일반적인 사이버 공격과 Microsoft가 모든 공격 단계에서 조직을 지원할 수 있는 방법에 대해 자세히 알아보습니다. 
+### <a name="common-attacks-and-microsoft-capabilities-that-protect-your-organization"></a>일반적인 공격 및 조직을 보호하는 Microsoft 기능
+가장 일반적인 사이버 공격과 Microsoft가 모든 공격 단계에서 조직을 지원하는 방식을 자세히 알아봅니다. 
 
 |**항목**|**설명**|
 |:-----|:-----|

@@ -14,16 +14,16 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva Topics 개요입니다.
-ms.openlocfilehash: b37572087794055724cb9533246f83794d88fb93
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 1d66751d55c0144149fa8325e89be404e3df19ed
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275201"
+ms.locfileid: "52281032"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Microsoft Viva Topics 개요 
 
-Viva Topics는 Microsoft AI 기술, Microsoft 365, Microsoft Graph, Search 및 기타 구성 요소와 서비스를 사용하여 SharePoint 최신 페이지와 Microsoft Search를 시작으로 매일 사용하는 Microsoft 365 앱에서 사용자에게 지식을 제공합니다.
+Viva 항목에서는 Microsoft AI 기술, Microsoft 365, Microsoft Graph, 검색 및 기타 구성 요소와 서비스를 사용하여 최신 페이지, Microsoft Search 및 Word의 검색부터 Microsoft 365 매일 사용하는 SharePoint 앱의 사용자에게 지식을 PowerPoint.
 
 </br>
 
@@ -42,6 +42,7 @@ SharePoint 뉴스 및 페이지의 콘텐츠에서 한 주제가 언급된 경�
 
    ![주제 하이라이트](../media/knowledge-management/saturn.png) 
 
+Word 또는 PowerPoint 또는 상황에 맞는 메뉴에서 검색을 선택하여 검색을  사용하는 경우 표시되는 결과에 항목 요약이 표시될 수도 있습니다.
 
    ![Screenshot showing search in Word through the Search box.](../media/knowledge-management/word-search-2.png)
 

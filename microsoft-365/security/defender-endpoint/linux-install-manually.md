@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c13138f3d80a95dbda3a899507f662c081831d94
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: c50efb11ee7f884be6788b90c14e7fc639d9b8ca
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259682"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52281008"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
@@ -407,3 +407,6 @@ Options:
 ## <a name="uninstallation"></a>제거
 
 클라이언트 [장치에서](linux-resources.md#uninstall) Linux에서 Endpoint용 Defender를 제거하는 방법에 대한 자세한 내용은 제거를 참조합니다.
+
+## <a name="see-also"></a>참고 항목
+- [에이전트 상태 문제 조사](health-status.md)

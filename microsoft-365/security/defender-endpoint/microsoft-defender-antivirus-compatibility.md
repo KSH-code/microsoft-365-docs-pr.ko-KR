@@ -16,12 +16,12 @@ ms.topic: article
 manager: dansimp
 ms.technology: mde
 ms.date: 05/06/2021
-ms.openlocfilehash: 866a36828c5c83d833d66bd7ed7d32b3499cbbdf
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 885844b46d603dc318dbaf877cd445b5caaa4e46
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275159"
+ms.locfileid: "52280984"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Microsoft Defender 바이러스 백신 호환성
 
@@ -80,7 +80,7 @@ Windows Server, 버전 1803 이상 또는 Windows Server 2019를 사용하는 �
 - 값: `1`
 
 > [!NOTE]
-> 수동 모드는 수동 모드에서 지원되지 Windows Server 2016. 레지스트리 키는 레지스트리 `ForcePassiveMode` 키에 Windows Server 2016. 
+> 수동 모드는 수동 모드에서 지원되지 Windows Server 2016. 레지스트리 키는 Windows Server, 버전 1803 이상 또는 Windows Server 2019에서 사용할 수 있지만 `ForcePassiveMode` Windows Server 2016. 
 
 (<a id="fn2">2</a>) Windows Server 2016 Microsoft가 아닌 바이러스 백신 제품을 사용하는 경우 수동 모드 또는 활성 모드에서 Microsoft Defender 바이러스 백신 실행할 수 없습니다. 이러한 경우 서버에 여러 [바이러스 백신 제품을 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-on-windows-server.md#are-you-using-windows-server-2016) 문제를 방지하기 위해 수동으로 제거하거나 제거합니다.
 

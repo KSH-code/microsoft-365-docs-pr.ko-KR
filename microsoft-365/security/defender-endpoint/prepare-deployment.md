@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a59d09aa4de2644e9904eb854c183d0352aa65c9
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 00e57d03ae636837120b53c0de16861ad142ef76
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861170"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280936"
 ---
 # <a name="prepare-microsoft-defender-for-endpoint-deployment"></a>끝점 배포를 위한 Microsoft Defender 준비
 
@@ -76,16 +76,16 @@ ms.locfileid: "51861170"
 
 | 무엇                                  | 설명 |
 |---------------------------------------|-------------|
-| 끝점 수                        |             |
-| 서버 수                          |             |
-| 관리 엔진                     |             |
-| CDOC 배포                     |             |
-| SIEM(보안 정보 및 이벤트) |             |
+| 끝점 수                        |    운영 체제의 총 끝점 수입니다.         |
+| 서버 수                          |    운영 체제 버전당 총 서버 수입니다.    |
+| 관리 엔진                     |    관리 엔진 이름 및 버전(예: 현재 System Center Configuration Manager 1803)         |
+| CDOC 배포                     |    높은 수준의 CDOC 구조(예: Contoso로 아웃소싱되는 계층 1, 계층 2 및 유럽 및 아시아에 분산된 계층 3 사내로 아웃소싱).         |
+| SIEM(보안 정보 및 이벤트) |    사용 중 SIEM 기술입니다.         |
 
 
 ## <a name="role-based-access-control"></a>역할 기반 액세스 제어
 
-최소 권한의 개념을 사용하는 것이 좋습니다. Endpoint용 Defender는 Azure Active Directory 내의 기본 제공 역할을 활용합니다. Microsoft는 사용 [가능한 다양한](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal) 역할을 검토하고 이 응용 프로그램의 각 사용자에 대한 요구 사항을 해결하기 위한 올바른 역할을 선택하는 것이 좋습니다. 배포가 완료된 후 일부 역할을 일시적으로 적용하고 제거해야 할 수 있습니다.
+최소 권한의 개념을 사용하는 것이 좋습니다. Endpoint용 Defender는 기본 제공 역할을 Azure Active Directory. Microsoft는 사용 [가능한 다양한](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal) 역할을 검토하고 이 응용 프로그램의 각 사용자에 대한 요구 사항을 해결하기 위한 올바른 역할을 선택하는 것이 좋습니다. 배포가 완료된 후 일부 역할을 일시적으로 적용하고 제거해야 할 수 있습니다.
 
 | 개인                     | 역할 | Azure AD 역할(필요한 경우) | 다음에 할당 |
 |------------------------------|-------|-----------------------------|-----------|
@@ -95,11 +95,11 @@ ms.locfileid: "51861170"
 | 인프라 관리자 |       |                             |           |
 | 비즈니스 소유자/이해 관계자   |       |                             |           |
 
-디렉터리 권한이 있는 사용자에 대한 추가 감사, 제어 및 액세스 검토를 제공하려면 [Privileged Identity Management를](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure) 사용하여 역할을 관리하는 것이 좋습니다.
+Microsoft는 디렉터리 [Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure) 사용자에 대한 추가 감사, 제어 및 액세스 검토를 제공하기 위해 역할을 관리하는 것이 좋습니다.
 
 Endpoint용 Defender는 사용 권한을 관리하는 두 가지 방법을 지원합니다.
 
--   **기본 사용 권한 관리:** 모든 권한 또는 읽기 전용으로 사용 권한을 설정합니다. Azure Active Directory에서 전역 관리자 또는 보안 관리자 역할이 있는 기본 권한 관리 사용자의 경우 보안 읽기 권한자 역할이 읽기 전용으로 액세스하는 동안 모든 권한이 있습니다.
+-   **기본 사용 권한 관리:** 모든 권한 또는 읽기 전용으로 사용 권한을 설정합니다. 보안 읽기 권한자 역할이 읽기 전용인 동안 Azure Active Directory 전역 관리자 또는 보안 관리자 역할이 있는 기본 권한 관리 사용자의 경우 모든 권한이 있습니다.
 
 -   **RBAC(역할** 기반 액세스 제어) : 역할을 정의하고, 역할에 Azure AD 사용자 그룹을 할당하고, 사용자 그룹에 장치 그룹에 대한 액세스 권한을 부여하여 세분화된 사용 권한을 설정할 수 있습니다. 자세한 내용은 역할 [기반 액세스 제어를 사용하여 포털 액세스 관리를 참조합니다.](rbac.md)
 
@@ -118,7 +118,7 @@ Endpoint용 Defender는 사용 권한을 관리하는 두 가지 방법을 지�
 
 
 ## <a name="adoption-order"></a>채택 순서
-대부분의 경우 조직에는 기존 끝점 보안 제품이 있습니다. 모든 조직이 최소한 바이러스 백신 솔루션이 됐을 것입니다. 그러나 경우에 따라 조직에서 이미 EDR 솔루션을 이미 삽입한 경우도 있습니다.
+대부분의 경우 조직에는 기존 끝점 보안 제품이 있습니다. 모든 조직이 최소한 바이러스 백신 솔루션이 됐을 것입니다. 그러나 경우에 따라 조직에서 이미 솔루션 솔루션을 이미 EDR 있습니다.
 
 지금까지는 응용 프로그램 계층 및 인프라 종속성에 대한 엄격한 후크로 인해 시간이 많이 걸려서 달성하기 어려운 보안 솔루션을 교체했습니다. 그러나 Endpoint용 Defender는 운영 체제에 기본 제공되어 있기 때문에 이제 타사 솔루션을 바꾸는 것이 쉽습니다.
 
@@ -127,11 +127,11 @@ Endpoint용 Defender는 사용 권한을 관리하는 두 가지 방법을 지�
 | 구성 요소                               | 설명                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | 채택 순서 순위 |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
 | 끝점 검색 & 응답(EDR)     | Endpoint 끝점 감지 및 응답 기능에 대한 Defender는 거의 실시간으로 실행 가능한 고급 공격 감지를 제공합니다. 보안 분석가는 알림에 효과적으로 우선 순위를 지정하고, 침해의 전체 범위에 대한 가시성을 확보하고 위협을 수정하기 위한 응답 조치를 취할 수 있습니다. <br> [더 알아보세요.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-endpoint-detection-response)                                                                                                                                                                                                                                             | 1                   |
-|위협 & 취약성 관리(TVM)|위협 & 취약성 관리는 끝점용 Microsoft Defender의 구성 요소로, 다음을 비롯한 고유한 가치를 보안 관리자 및 보안 운영 팀에 제공합니다. <br> - 끝점 취약성과 상호 관련한 실시간 EDR(엔드포인트 감지 및 응답) 인사이트 <br> - 인시던트 조사 중에 의미 있는 장치 취약성 컨텍스트 <br> - Microsoft Intune 및 Microsoft System Center Configuration Manager를 통한 기본 제공 수정 프로세스 <br> [자세히 알아보세요](https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/Introducing-a-risk-based-approach-to-threat-and-vulnerability/ba-p/377845).| 2 |
-| NGP(차세대 보호)        | Microsoft Defender 바이러스 백신은 데스크톱, 휴대용 컴퓨터 및 서버에 대한 차세대 보호를 제공하는 기본 제공 맬웨어 방지 솔루션입니다. Windows Defender 바이러스 백신은 다음을 포함합니다. <br> -신규 및 새로운 위협의 거의 즉각적인 감지 및 차단을 위한 클라우드 제공 보호. 기계 학습 및 Intelligent Security Graph와 함께 클라우드 전달 보호 기능은 Microsoft Defender 바이러스 백신을 지원하는 차세대 기술의 일부입니다.   <br> - 고급 파일 및 프로세스 동작 모니터링 및 기타 기억("실시간 보호"라고도 알려지기)를 사용하여 항상 검색합니다. <br> - 기계 학습, 인간 및 자동화된 빅 데이터 분석 및 심층 위협 저항 연구를 기반으로 하는 전용 보호 업데이트. <br> [자세히 알아보세요](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10).                                                                                                                                                                                                                                                                                                                                                                       |3                   |
+|위협 & 취약성 관리(TVM)|위협 & 취약성 관리는 끝점용 Microsoft Defender의 구성 요소로, 다음을 비롯한 고유한 가치를 보안 관리자 및 보안 운영 팀에 제공합니다. <br> - 끝점 취약성과 상호 관련한 EDR 실시간 끝점 감지 및 대응(EDR) 인사이트 <br> - 인시던트 조사 중에 의미 있는 장치 취약성 컨텍스트 <br> - Microsoft Intune Microsoft 2013을 통한 기본 System Center Configuration Manager <br> [자세히 알아보기](https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/Introducing-a-risk-based-approach-to-threat-and-vulnerability/ba-p/377845).| 2 |
+| NGP(차세대 보호)        | Microsoft Defender 바이러스 백신 맬웨어 방지 솔루션으로, 데스크톱, 휴대용 컴퓨터 및 서버에 대한 차세대 보호 기능을 제공합니다. Windows Defender 바이러스 백신은 다음을 포함합니다. <br> -신규 및 새로운 위협의 거의 즉각적인 감지 및 차단을 위한 클라우드 제공 보호. 기계 학습 및 Intelligent Security Graph와 함께 클라우드 전달 보호 기능은 Microsoft Defender 바이러스 백신을 지원하는 차세대 기술의 일부입니다.   <br> - 고급 파일 및 프로세스 동작 모니터링 및 기타 기억("실시간 보호"라고도 알려지기)를 사용하여 항상 검색합니다. <br> - 기계 학습, 인간 및 자동화된 빅 데이터 분석 및 심층 위협 저항 연구를 기반으로 하는 전용 보호 업데이트. <br> [자세히 알아보기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10).                                                                                                                                                                                                                                                                                                                                                                       |3                   |
 | ASR(공격 표면 축소)          | Microsoft Defender for Endpoint의 공격 표면 감소 기능은 새로운 위협으로부터 조직의 장치 및 응용 프로그램을 보호하는 데 도움이 됩니다. <br> [더 알아보세요.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-attack-surface-reduction)                                                                                                                                                                                                                                                                                                                                                                                       | 4                    |
 | 자동 조사 & 재구성(AIR)  | Microsoft Defender for Endpoint는 자동화된 조사를 사용하여 개별적으로 조사해야 하는 경고의 양을 크게 줄입니다. 자동화된 조사 기능은 다양한 검사 알고리즘과 분석가가 사용하는 프로세스(예: 플레이북)를 활용하여 경고를 검사하고 위반을 해결하기 위해 즉시 수정 조치를 취합니다. 이렇게 하면 경고 수량이 많이 줄어들기 때문에 보안 운영 전문가가 더 복잡한 위협과 기타 높은 가치의 이니셔티브에 집중할 수 있습니다. <br>[더 알아보세요.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/automated-investigations-windows-defender-advanced-threat-protection) | 해당 사항 없음      |
-| MTE(Microsoft Threat Experts)          | Microsoft 위협 전문가는 SOC(보안 운영 센터)에 전문가 수준의 모니터링 및 분석을 제공하는 관리되는 헌팅 서비스로, 고유한 환경에서 중요한 위협이 누락되지 않도록 합니다. <br>[더 알아보세요.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/microsoft-threat-experts)                                                                                                                                                                                                                                                                                                                     | 해당 사항 없음      |
+| Microsoft 위협 전문가(MTE)          | Microsoft 위협 전문가 센터는 SOC(보안 운영 센터)에 전문가 수준의 모니터링 및 분석을 제공하는 관리되는 헌팅 서비스로, 고유한 환경에서 중요한 위협이 누락되지 않도록 합니다. <br>[더 알아보세요.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/microsoft-threat-experts)                                                                                                                                                                                                                                                                                                                     | 해당 사항 없음      |
 
 ## <a name="next-step"></a>다음 단계
 |||
