@@ -104,6 +104,8 @@
           href: get-started/enterprise-state-roaming.md
         - name: 사용자 환경 현지화
           href: get-started/localization.md
+        - name: 새 장치 유효성 검사
+          href: get-started/validate-device.md
         - name: 디바이스 설정
           href: get-started/set-up-devices.md
           items:

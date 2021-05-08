@@ -1,5 +1,5 @@
 ---
-title: 질문과 답변 찾기
+title: Docs 및 교육 찾기
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,33 +20,28 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 365 Business Premium에 대한 관리자 도움말을 찾는 방법을 배워야 합니다.
-ms.openlocfilehash: 6d16f3ece9782a33c3377e4a6bc2a93b29d54c1a
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 사용자에 대한 관리자 도움말을 찾는 방법을 Microsoft 365 Business Premium.
+ms.openlocfilehash: 18a50c34f87fa47fe5777e87f8dafa62fb0ac04b
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578906"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245231"
 ---
-# <a name="find-answers-and-help-for-admins"></a><span data-ttu-id="68658-103">관리자를 위한 답변 및 도움말 찾기</span><span class="sxs-lookup"><span data-stu-id="68658-103">Find answers and help for admins</span></span>
+# <a name="find-docs-and-training"></a><span data-ttu-id="87fab-103">Docs 및 교육 찾기</span><span class="sxs-lookup"><span data-stu-id="87fab-103">Find docs and training</span></span>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGn5?autoplay=false]
+<span data-ttu-id="87fab-104">질문이 있는 경우 또는 지원이 필요한 Microsoft 365 Business Premium 도움말을 받을 수 있는 몇 가지 옵션이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="87fab-104">If you have a question or need assistance with Microsoft 365 Business Premium, you have several options for getting help.</span></span>
 
-<span data-ttu-id="68658-104">질문이 있는 경우 또는 Microsoft 365 Business Premium에 대한 지원이 필요한 경우 도움말을 받을 수 있는 몇 가지 옵션이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="68658-104">If you have a question or need assistance with Microsoft 365 Business Premium, you have several options for getting help.</span></span>
+## <a name="browse-all-small-business-training"></a><span data-ttu-id="87fab-105">모든 중소기업 교육 찾아보기</span><span class="sxs-lookup"><span data-stu-id="87fab-105">Browse all small business training</span></span>
 
-## <a name="try-it"></a><span data-ttu-id="68658-105">사용해 보세요!</span><span class="sxs-lookup"><span data-stu-id="68658-105">Try it!</span></span>
+<span data-ttu-id="87fab-106">모든 교육 지원에 대한 링크는 중소기업과 함께 Microsoft 365 교육을 Microsoft 365 [참조하세요.](index.yml)</span><span class="sxs-lookup"><span data-stu-id="87fab-106">For links to all of the training support you'll need to use Microsoft 365 with your small business, see [Microsoft 365 small business training](index.yml).</span></span> 
 
-1. <span data-ttu-id="68658-106">작업 자격 [증명으로](https://office.com) office.com 로그인하고 관리자 를 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="68658-106">Sign in to [office.com](https://office.com) with your work credentials and select **Admin**.</span></span>
-1. <span data-ttu-id="68658-107">관리 센터 홈 페이지에서  관리자 교육을 선택하면 사용 가능한 교육 옵션을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="68658-107">On the admin center home page, choose **Training for admins** to see the training options available to you.</span></span>
-1. <span data-ttu-id="68658-108">**중소기업 교육을 위해** 비즈니스 소유자 및 관리자를 선택하세요.</span><span class="sxs-lookup"><span data-stu-id="68658-108">Choose **Business owners and admins** for small to midsize training.</span></span>
-1. <span data-ttu-id="68658-109">대규모 또는 더 복잡한 비즈니스에 대한 엔터프라이즈 **IT** 전문가를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="68658-109">Choose **Enterprise IT Professionals** for larger or more complex businesses.</span></span>
-1. <span data-ttu-id="68658-110">관리 센터로 돌아가서 이번에는 사용자 지정된 설정 지침을 선택하면 특정 설정 작업을 안내하는 많은 가이드를 볼 수 있습니다. </span><span class="sxs-lookup"><span data-stu-id="68658-110">Return to the admin center and this time choose **Customized setup guidance** to see a number of guides that walk you through specific setup tasks.</span></span>
-1. <span data-ttu-id="68658-111">관리 센터 홈 페이지로  돌아가서 사용자를 위한 교육을 선택하면 특정 앱에 대한 도움말을 얻을 수 있으며 매일 사용하는 기능을 활용하는 방법을 배울 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="68658-111">Return to the admin center home page and choose **Training for users** to get help with specific apps and learn how to get the most out of the features you use every day.</span></span>
-1. <span data-ttu-id="68658-112">관리 센터로 돌아가 **지원 도우미를 여는 데** 도움이 필요 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="68658-112">Return to the admin center and choose **Need help** to open the Support Assistant.</span></span> <span data-ttu-id="68658-113">질문 또는 도움말을 원하는 항목을 입력한 다음 보내기 를 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="68658-113">Type your question or the topic you want help with then select **Send**.</span></span> <span data-ttu-id="68658-114">관리 센터에서 링크를 선택하거나 질문에 답변하는 문서로 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="68658-114">Choose the link in the admin center or to the article that answers your question.</span></span>
-1. <span data-ttu-id="68658-115">질문에 대한 답변을 찾지 못하면 언제든지 지원 팀에 문의할 수 있으며 지원 기술자가 곧 응답합니다.</span><span class="sxs-lookup"><span data-stu-id="68658-115">If you’re not finding an answer to your question, you can always contact support, and a support technician will respond to you shortly.</span></span>
+## <a name="search-for-microsoft-365-admin-center-docs-and-resources"></a><span data-ttu-id="87fab-107">관리 Microsoft 365 및 리소스 검색</span><span class="sxs-lookup"><span data-stu-id="87fab-107">Search for Microsoft 365 admin center docs and resources</span></span>
 
-<span data-ttu-id="68658-116">다음 리소스를 사용하여 문제를 해결해 줄 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="68658-116">You can also use the following resources to get help with your issue:</span></span>
+<span data-ttu-id="87fab-108">암호 재설정 및 Microsoft 구독 할당과 같은 관리자 관련 작업 및 도움말을 검색하려면 Microsoft 365 [센터 도움말을 참조하세요.](../admin/index.yml)</span><span class="sxs-lookup"><span data-stu-id="87fab-108">To search for admin-related tasks and help, like resetting passwords and assigning Microsoft subscriptions, see [Microsoft 365 admin center help](../admin/index.yml).</span></span>
 
-- <span data-ttu-id="68658-117">[aka.ms/learn365admin](../admin/index.yml)암호를 다시 설정하고 Microsoft 구독을 할당하는 등 모든 관리자 관련 작업 및 도움말을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="68658-117">[aka.ms/learn365admin](../admin/index.yml), to search for all admin-related tasks and help, like resetting passwords and assigning Microsoft subscriptions.</span></span>
-- <span data-ttu-id="68658-118">[answers.microsoft.com](https://answers.microsoft.com)를 사용하여 답변을 검색하고, 토론을 시작하고, 다른 사용자의 질문을 합니다.</span><span class="sxs-lookup"><span data-stu-id="68658-118">[answers.microsoft.com](https://answers.microsoft.com), to search for answers, start a discussion, and ask questions from other users.</span></span>
-- <span data-ttu-id="68658-119">[techcommunity.microsoft.com](https://techcommunity.microsoft.com)를 통해 전문가 커뮤니티에 참여하고 비즈니스용 Microsoft 365를 통해 모범 사례를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="68658-119">[techcommunity.microsoft.com](https://techcommunity.microsoft.com), to join a community of experts and find best practices with Microsoft 365 for your business.</span></span>
+## <a name="join-the-community"></a><span data-ttu-id="87fab-109">커뮤니티에 참여</span><span class="sxs-lookup"><span data-stu-id="87fab-109">Join the community</span></span>
+
+<span data-ttu-id="87fab-110">Microsoft Small Business 2013에 참여하여 대화를 시작하고, 토론을 진행하고, 다른 Microsoft 365 사용자와 지식을 공유 [Community합니다.](https://smallbusiness.microsoft.com/)</span><span class="sxs-lookup"><span data-stu-id="87fab-110">Start a conversation, follow discussions, and share your knowledge with other Microsoft 365 small business users by joining the [Microsoft Small Business Community](https://smallbusiness.microsoft.com/).</span></span>
+
+<span data-ttu-id="87fab-111">다른 제품 및 서비스에 대한 특정 질문이 있는 경우 [질문을](https://answers.microsoft.com)게시하고 Microsoft Community.</span><span class="sxs-lookup"><span data-stu-id="87fab-111">If you have specific questions about other products and services, post questions and follow relevant discussions at [Ask the Microsoft Community](https://answers.microsoft.com).</span></span>

@@ -107,16 +107,30 @@
               href: create-groups/manage-guest-access-in-groups.md
             - name: 사용자 이름 및 전자 메일 주소 변경
               href: add-users/change-a-user-name-and-email-address.md
-            - name: 이전 직원 제거
-              href: add-users/remove-former-employee.md
-            - name: 액세스 권한 및 이전 사용자 데이터 백업
-              href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
             - name: 사용자 복원
               href: add-users/restore-user.md
             - name: 서식 파일을 만들어 사용자 추가
               href: add-users/create-and-use-a-template-to-add-users.md
             - name: 사용자를 최신 앱으로 업그레이드합니다.
               href: setup/upgrade-users-to-latest-office-client.md
+        - name: 이전 직원 제거
+          items:
+            - name: 개요
+              href: add-users/remove-former-employee.md
+            - name: 1단계. 직원이 로그인하지 못하게 방지 및 Microsoft 365 서비스에 대한 액세스 차단
+              href: add-users/remove-former-employee-step-1.md
+            - name: 2단계. 이전 직원 사서함의 콘텐츠 저장
+              href: add-users/remove-former-employee-step-2.md
+            - name: 3단계. 이전 직원의 전자 메일을 다른 직원에게 전달 또는 공유 사서함으로 변환
+              href: add-users/remove-former-employee-step-3.md
+            - name: 4단계. 다른 직원에게 OneDrive 및 Outlook 데이터에 대한 액세스 부여
+              href: add-users/remove-former-employee-step-4.md
+            - name: 5단계. 이전 직원의 모바일 장치 초기화 및 차단
+              href: add-users/remove-former-employee-step-5.md
+            - name: 6단계. 이전 직원의 Microsoft 365 라이선스 제거
+              href: add-users/remove-former-employee-step-6.md
+            - name: 7단계. 이전 직원의 사용자 계정 삭제
+              href: add-users/remove-former-employee-step-7.md
         - name: 그룹
           items:
             - name: 그룹 개요
