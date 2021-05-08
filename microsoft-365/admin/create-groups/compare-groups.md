@@ -22,19 +22,19 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: 사용할 수 있는 그룹 유형에 대해 알아봅니다.
-ms.openlocfilehash: 7b67fa5e7dc661163ce6c2c8933ebdafd0a5940d
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 9f36688972f00a27a274b6a974d958d1d590aa93
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023848"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52243987"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
 Microsoft 365 관리 센터의 **Groups** 구역에서 다음과 같은 유형의 그룹을 만들고 관리할 수 있습니다. 
 
 - **Microsoft 365 그룹**(이전 Office 365 그룹)은 회사 내부 및 외부의 사용자 간의 공동 작업에 사용됩니다.
-- **메일 그룹** 은 사용자 그룹에 알림을 보내는 데 사용됩니다.
+- **메일 그룹** 사용자 그룹에 전자 메일 알림을 보내는 데 사용됩니다.
 - **보안 그룹** 은 SharePoint 사이트와 같은 리소스에 대한 액세스 권한을 부여하는 데 사용됩니다.
 - **메일 사용이 가능한 보안 그룹** 은 SharePoint와 같은 리소스에 대한 액세스 권한을 부여하고 해당 사용자에게 전자 메일로 알림을 보내는 데 사용됩니다.
 - **공유 사서함** 은 여러 사용자가 같은 사서함에 액세스해야 하는 경우(예: 회사 정보 또는 지원 전자 메일 주소)에 사용됩니다.
@@ -59,13 +59,17 @@ Microsoft 365 그룹은 iOS용 Outlook 및 Android용 Outlook과 같은 모바�
 
 배포 그룹은 [Microsoft 365 groups로 업그레이드](../manage/upgrade-distribution-lists.md) 할 수 있습니다.
 
+메일 그룹은 Microsoft Teams에서 팀에 추가할 수 있습니다.
+
 ## <a name="security-groups"></a>보안 그룹
 
 [보안 그룹](../email/create-edit-or-delete-a-security-group.md)은 SharePoint와 같은 Microsoft 365 리소스에 대한 액세스 권한을 부여하는 데 사용됩니다. 각 리소스에 사용자를 개별적으로 추가하는 것이 아니라 그룹을 관리하기만 하면 되므로 관리를 더 쉽게 수행할 수 있습니다.
 
-보안 그룹에는 사용자나 장치가 포함될 수 있습니다. 장치에 대한 보안 그룹 만들기는 Intune과 같은 모바일 장치 관리 서비스와 함께 사용할 수 있습니다.
+보안 그룹에는 사용자 또는 장치가 포함될 수 있습니다. 장치에 대한 보안 그룹 만들기는 Intune과 같은 모바일 장치 관리 서비스와 함께 사용할 수 있습니다.
 
 보안 그룹은 [Azure Active Directory에서 동적 구성원에 대해 구성](/azure/active-directory/users-groups-roles/groups-change-type)할 수 있습니다. 부서, 위치, 제목 등의 사용자 특성이나 운영 체제 버전 등의 장치 속성을 기반으로 그룹 구성원을 자동으로 추가하거나 제거할 수 있습니다.
+
+보안 그룹을 팀에 추가할 수 있습니다.
 
 ## <a name="mail-enabled-security-groups"></a>메일 사용 가능 보안 그룹
 
@@ -73,11 +77,15 @@ Microsoft 365 그룹은 iOS용 Outlook 및 Android용 Outlook과 같은 모바�
 
 해당 그룹의 모든 구성원에게 메일을 보낼 수 있는 기능이 포함됩니다.
 
+메일 사용이 가능한 보안 그룹을 팀에 추가할 수 있습니다.
+
 ## <a name="shared-mailboxes"></a>공유 사서함
 
 [공유 사서함](../email/create-a-shared-mailbox.md)은 여러 사용자가 같은 사서함에 액세스해야 하는 경우(예: 회사 정보 또는 지원 전자 메일 주소, 리셉션 데스크 또는 여러 사용자에 의해 공유될 수도 있는 기타 기능)에 사용됩니다.
 
 관리자가 이 기능을 사용 가능하도록 설정한 경우 공유 사서함이 외부 전자 메일을 받을 수 있습니다.
+
+공유 사서함에는 공동 작업에 사용할 수 있는 일정이 포함되어 있습니다.
 
 그룹 사서함에 대한 권한이 있는 사용자는 관리자가 해당 사용자에게 권한을 부여한 경우 사서함 전자 메일 주소를 보내기 혹은 대신하여 보낼 수 있습니다. 이 기능은 사용자가 "Contoso 지원" 또는 “A 빌딩 리셉션 데스크"에서 전자 메일을 보낼 수 있기 때문에 도움말 및 지원 사서함에 특히 유용합니다.
 

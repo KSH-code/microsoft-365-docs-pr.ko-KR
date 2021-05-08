@@ -26,12 +26,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: 사용자 등록 프로세스를 진행하기 전에 알아야 할 Office 365.
 ms.date: 03/17/2021
-ms.openlocfilehash: 37cbe20a5cc1a7506e8db218c3e9ffe2b4e64478
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 77fe0252a267b13fda19a6842ce0e07b1b8307b1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107029"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244011"
 ---
 # <a name="how-to-sign-up---admin-help"></a>등록 방법 - 관리자 도움말
 
@@ -136,4 +136,4 @@ Office 365 운영하는 21Vianet은 중국의 안전하고 안정적이며 확�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 교육용](../../business-video/index.yml) 비디오(링크)
+[Microsoft 365 교육용 비디오(링크](../../business-video/index.yml) 페이지)

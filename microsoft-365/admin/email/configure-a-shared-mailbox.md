@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함을 만든 후 전자 메일 전달 및 자동 응답과 같은 사용자에 대한 일부 설정을 구성할 수 있습니다. 나중에 사서함 이름이나 구성원과 같은 다른 설정을 변경할 수 있습니다.
-ms.openlocfilehash: 2d0998ba2bdc95a9f78f59527bd9bd6fa98b4c45
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 01d5aaa686e1d64c9ea7d89913d8208f779dcfd1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915917"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52243975"
 ---
 # <a name="configure-shared-mailbox-settings"></a>공유 사서함 설정 구성
 
@@ -34,23 +34,7 @@ ms.locfileid: "50915917"
 
 ## <a name="change-the-name-or-email-alias-of-a-shared-mailbox-or-change-the-primary-email-address"></a>공유 사서함의 이름 또는 전자 메일 별칭을 변경하거나 기본 전자 메일 주소 변경
 
-::: moniker range="o365-worldwide"
-
 1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
 
 2. 편집할 공유 사서함을 선택한 다음  이름, 전자 메일, 전자 메일 별칭 옆에 있는 **편집을 선택합니다.**
 
@@ -62,23 +46,7 @@ ms.locfileid: "50915917"
 
 공유 사서함으로 전송된 전자 메일을 전달하기 위해 공유 사서함에 라이선스를 할당할 필요는 없습니다. 메시지를 유효한 전자 메일 주소 또는 메일로 전달할 수 있습니다.
 
-::: moniker range="o365-worldwide"
-
 1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
 
 2. 편집할 공유 사서함을 선택한 다음 전자 메일 전달 **편집 을** \> **선택합니다.**
     
@@ -88,23 +56,7 @@ ms.locfileid: "50915917"
 
 ## <a name="send-automatic-replies-from-a-shared-mailbox"></a>공유 사서함에서 자동 회신 보내기
 
-::: moniker range="o365-worldwide"
-
 1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
 
 2. 편집할 공유 사서함을 선택한 다음 자동 답장 편집 **을** \> **선택합니다.**
     
@@ -125,23 +77,7 @@ ms.locfileid: "50915917"
 
 ## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-microsoft-email"></a>공유 사서함이 Microsoft 전자 메일에 액세스하는 데 사용할 수 있는 앱 선택
 
-::: moniker range="o365-worldwide"
-
 1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
 
 2. 편집할 공유 사서함을 선택한 다음 전자 메일 앱 편집 **을** \> **선택합니다.**
 
@@ -154,23 +90,7 @@ ms.locfileid: "50915917"
 
 소송 보유에 대한 자세한 내용은 [Create a Litigation Hold를 참조합니다.](../../compliance/create-a-litigation-hold.md)
 
-::: moniker range="o365-worldwide"
-
 1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
 
 2. 편집할 공유 사서함을 선택한 다음 소송 보류 편집 **을** \> **선택합니다.**
 
@@ -183,23 +103,7 @@ ms.locfileid: "50915917"
 
 ## <a name="add-or-remove-members"></a>구성원 추가 또는 제거
 
-::: moniker range="o365-worldwide"
-
 1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
 
 2. 편집할 공유 사서함을 선택한 다음 구성원 편집 **을** \> **선택합니다.**
 
@@ -211,23 +115,7 @@ ms.locfileid: "50915917"
 
 ## <a name="add-or-remove-permissions-of-members"></a>구성원의 사용 권한 추가 또는 제거
 
-::: moniker range="o365-worldwide"
-
 1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
 
 2. 편집할 공유 사서함을 선택한 다음 구성원 **권한** 사용자 \> **지정 을 선택합니다.**
 
@@ -243,23 +131,7 @@ ms.locfileid: "50915917"
 
 전체 주소 목록에 공유 사서함을 표시하지 않는 경우 사서함은 조직의 주소 목록에 나타나지 않지만 해당 사서함으로 전송된 전자 메일을 계속 받게 됩니다. 
 
-::: moniker range="o365-worldwide"
-
 1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
-
-::: moniker-end 
-
-::: moniker range="o365-germany"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
-
-::: moniker-end
 
 2. 편집할 공유 사서함을 선택한 다음 전체 주소 목록 편집에서 **표시를** \> **선택합니다.**
 
@@ -268,16 +140,16 @@ ms.locfileid: "50915917"
 4. **저장** 을 선택합니다.
 
 > [!NOTE]
-> 주소 목록에서 공유 사서함을 숨기면 새 공유 사서함 구성원이 공유 사서함이 주소 목록에 다시 표시될 때까지 숨겨진 사서함을 Outlook 프로필에 추가할 수 없습니다. 
+> 주소 목록에서 공유 사서함을 숨기면 새 공유 사서함 구성원이 주소 목록에 공유 사서함이 다시 표시될 때까지 Outlook 프로필에 숨겨진 사서함을 추가할 수 없습니다. 
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[공유 사서함 정보](about-shared-mailboxes.md)
+[공유 사서함(문서)](about-shared-mailboxes.md)
 
-[공유 사서함 만들기](create-a-shared-mailbox.md)
+[공유 사서함](create-a-shared-mailbox.md) 만들기(문서)
 
-[사용자 사서함을 공유 사서함으로 변환](convert-user-mailbox-to-shared-mailbox.md)
+[사용자 사서함을 공유 사서함으로 변환(문서)](convert-user-mailbox-to-shared-mailbox.md)
 
-[공유 사서함에서 라이선스 제거](remove-license-from-shared-mailbox.md)
+[공유 사서함에서 라이선스](remove-license-from-shared-mailbox.md) 제거(문서)
 
-[공유 사서함의 문제 해결](resolve-issues-with-shared-mailboxes.md)
+[공유 사서함 관련 문제](resolve-issues-with-shared-mailboxes.md) 해결(문서)

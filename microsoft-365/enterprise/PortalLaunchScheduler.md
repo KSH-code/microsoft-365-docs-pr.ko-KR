@@ -17,31 +17,138 @@ search.appverid:
 - SPO160
 - MET150
 description: 이 문서에서는 포털 시작 스케줄러를 사용하여 포털을 시작 하는 방법을 설명 합니다.
-ms.openlocfilehash: e39f00dbc63ae7f1dcaf907d9c67df2c1683efc6
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1e62446054f91ff5d2c99520ca65c1681d899ac9
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926145"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52272075"
 ---
-# <a name="launch-your-portal-using-the-portal-launch-scheduler"></a>포털 시작 스케줄러를 사용하여 포털 시작
+# <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>SharePoint 포털 시작 스케줄러를 사용하여 포털 시작
 
-포털은 사이트에서 콘텐츠를 사용하는 다수의 사이트 방문자를 보유하는 인트라넷 상의 SharePoint 사이트입니다. 사용자가 새 SharePoint Online 포털에 액세스하는 원활하고 원활하게 작업할 수 있도록 하는 중요한 부분으로 포털을 시작해야 합니다. 
+포털은 트래픽이 많은 인트라넷의 SharePoint 커뮤니케이션 사이트로, 몇 주 동안 10,000명에서 10만 명 이상의 뷰어가 있는 사이트입니다. 포털 시작 스케줄러를 사용하여 포털을 시작하여 새 SharePoint 포털에 액세스할 때 사용자에게 원활한 보기 환경을 제공합니다.
+<br>
+<br>
+포털 시작 스케줄러는 뷰어를 단계적으로 일괄 처리하고 새 포털에 대한 URL 리디렉션을 관리하여 단계적 롤아웃 방식을 따르는 데 도움이 하도록 디자인됩니다. 각 웨이브가 시작되는 동안 사용자 피드백을 수집하고, 포털 성능을 모니터링하고, 실행을 일시 중지하여 다음 단계로 진행하기 전에 문제를 해결할 수 있습니다. SharePoint에서 포털 시작을 [계획하는 방법에 대해 자세히 알아보고](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out?view=o365-worldwide) 
 
-SharePoint Online에서 포털 시작 롤아웃 계획에 자세히 설명된 방식으로 시작은 포털을 롤아웃하는 [핵심적인 방법입니다.](./planportallaunchroll-out.md?view=o365-worldwide) 포털 시작 스케줄러는 새 포털에 대한 리디렉션을 관리하여 단계적/단계적 롤아웃 방식을 따르는 데 도움이 하도록 디자인됩니다. 각 단계가 진행되는 동안 각 배포 단계 동안 사용자 피드백을 수집하고 성능을 모니터링할 수 있습니다. 이 경우 포털을 느리게 도입하여 다음 단계로 진행하기 전에 문제를 일시 중지하고 해결할 수 있으며 궁극적으로 사용자에게 긍정적인 환경을 보장할 수 있는 이점이 있습니다. 
+**리디렉션에는 두 가지 유형이 있습니다.**
 
-리디렉션에는 두 가지 유형이 있습니다. 
-- 양방향: 새로운 최신 SharePoint Online 포털을 시작하여 기존 SharePoint 클래식 또는 최신 포털을 대체합니다. 
-- 임시 페이지 리디렉션: 기존 SharePoint 포털이 없는 새로운 최신 SharePoint Online 포털 시작
+- **양방향:** 새로운 최신 SharePoint 포털을 시작하여 기존 SharePoint 클래식 또는 최신 포털을 대체합니다.
+- **임시 페이지로 리디렉션:** 기존 SharePoint 포털이 없는 새 최신 SharePoint 포털 시작
 
-포털 시작 스케줄러는 최신 SharePoint Online 포털(통신 사이트)을 시작해야만 사용할 수 있습니다. 시작은 최소 7일 전에 예약해야 합니다. 필요한 물결 수는 예상되는 사용자 수에 따라 결정됩니다. 포털 시작을 설정하기 전에 [SharePoint용 페이지](./page-diagnostics-for-spo.md) 진단 도구를 실행하여 포털의 홈 페이지가 정상 상태인지 확인해야 합니다. 포털을 시작하면 사이트에 대한 사용 권한이 있는 모든 사용자가 새 사이트에 액세스할 수 있습니다. 
+사이트 사용 권한은 시작의 일부로 물결과는 별도로 설정해야 합니다. 예를 들어 조직 전체 포털을 시작하려면 사용 권한을 "외부 사용자를 제외한 모든 사용자"로 권한을 설정한 다음 보안 그룹을 사용하여 사용자를 웨이브로 구분할 수 있습니다. 보안 그룹을 웨이브에 추가하면 해당 보안 그룹이 사이트에 액세스할 수 없습니다. 
 
-성공적인 포털을 시작하는 데 대한 자세한 내용은 정상 포털 만들기, 시작 및 유지 관리에 자세히 설명된 기본 원칙, 사례 및 권장 사항을 [따르하세요.](/sharepoint/portal-health) 
 
 > [!NOTE]
-> 이 기능은 Office 365 Germany, 21Vianet에서 운영하는 Office 365(중국) 또는 Microsoft 365 Government 계획에서는 사용할 수 없습니다.
+> - 이 기능은 2021년 5월부터 대상 릴리스 고객을 위한 SharePoint 커뮤니케이션 사이트 홈 페이지의 설정 패널에서 액세스할 수 있으며 2021년 7월까지 모든 고객이 사용할 수 있습니다. 
+> - 이 도구의 PowerShell 버전을 지금 사용할 수 있습니다.
+> - 이 기능은 최신 SharePoint 통신 사이트에서만 사용할 수 있습니다.
+> - 포털 시작을 사용자 지정하고 예약하려면 사이트에 대한 사이트 소유자 권한이 있어야 합니다.
+> - 시작은 최소 7일 전에 예약해야 합니다. 각 웨이브는 1~7일 동안 지속될 수 있습니다.
+> - 필요한 물결 수는 예상되는 사용자 수에 따라 자동으로 결정됩니다. 
+> - 포털 시작을 설정하기 전에 사이트 홈 페이지가 정상 상태인지 확인하려면 [SharePoint용](https://aka.ms/perftool) 페이지 진단 도구를 실행해야 합니다.
+> - 시작이 끝나면 사이트에 대한 사용 권한이 있는 모든 사용자가 새 사이트에 액세스할 수 있습니다.
+> - 조직에서 [Viva Connections를](https://docs.microsoft.com/SharePoint/viva-connections)사용하는 경우 사용자는 Microsoft Teams 앱 바에서 조직의 아이콘을 볼 수 있습니다. 그러나 아이콘을 선택하면 사용자가 웨이브가 시작될 때까지 포털에 액세스할 수 없습니다.
+> - 이 기능은 Office 365 Germany, 21Vianet에서 운영하는 Office 365(중국) 또는 Microsoft 365 Government 계획에서는 사용할 수 없습니다.
 
-## <a name="app-setup-and-connecting-to-sharepoint-online"></a>앱 설정 및 SharePoint Online에 연결
+### <a name="understand-the-differences-between-portal-launch-scheduler-options"></a>포털 시작 스케줄러 옵션 간의 차이점을 이해합니다.
+
+이전의 포털 시작은 SharePoint PowerShell을 통해서만 예약할 수 있습니다. 이제 포털 시작을 예약하고 관리하는 데 도움이 되는 두 가지 옵션이 있습니다. 두 도구의 주요 차이점에 대해 자세히 알아보습니다.
+
+**SharePoint PowerShell 버전:**
+
+- [SharePoint PowerShell을](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps) 사용하려면 관리자 자격 증명이 필요합니다. 
+- 한 웨이브의 최소 요구 사항 
+- UTC(협정 세계시) 표준 시간대에 따라 시작 예약
+
+**제품 내 버전:**
+
+- 사이트 소유자 자격 증명 필요 
+- 두 가지 파도의 최소 요구 사항
+- 지역 설정에 표시된 포털의 현지 표준 시간대를 기준으로 시작 예약
+
+
+
+## <a name="get-started-using-the-portal-launch-scheduler"></a>포털 시작 스케줄러 사용 시작
+
+1.  포털 시작 스케줄러 도구를 사용하려면 먼저 사이트 [소유자,](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) 사이트  구성원 또는 방문자로 사이트 권한을 통해 이 사이트에 액세스해야 하는 모든 사용자를 추가합니다.
+
+2.  그런 다음 다음 두 가지 방법 중 하나를 통해 포털 시작 스케줄러에 액세스하여 포털 시작 일정을 예약합니다.
+
+    **옵션 1:** 처음 몇 번(또는 홈페이지 버전 3.0까지) 홈 페이지에 대한 변경 내용을 편집하고 다시 게시하는 경우 포털 시작 스케줄러 도구를 사용할지 묻는 메시지가 표시됩니다. 예약을 **통해** 시작 예약을 선택하여 앞으로 이동할 수 있습니다. 또는 **다시 게시를 선택하여** 시작을 설정하지 않고 페이지 편집을 다시 게시합니다.
+    
+    ![홈 페이지를 다시 게시할 때 포털 시작 스케줄러를 사용하는 프롬프트 이미지](../media/portal-launch-republish-2.png)
+    
+    **옵션 2:** SharePoint 커뮤니케이션 사이트 홈 페이지로 이동하여  설정을 선택한  다음 사이트 실행을 예약하여 포털의 시작을 예약할 수 있습니다.
+    
+    ![사이트 실행 예약이 강조 표시된 설정 창의 이미지](../media/portal-launch-settings-2.png)
+
+3.  그런 다음 포털에서 정상 점수를 받을 때까지 [SharePoint용 페이지](https://aka.ms/perftool) 진단 도구를 사용하여 포털의 상태 점수를 확인하고 필요한 경우 포털을 **개선합니다.** 그런 후 **다음** 을 선택합니다.
+
+    ![포털 시작 스케줄러 도구의 이미지](../media/portal-launch-panel-2.png)
+       
+    > [!NOTE] 
+    > 사이트 이름 및 설명은 포털 시작 스케줄러에서 편집할 수 없습니다. 대신  홈 페이지에서  설정을 선택한 다음 사이트 정보를 선택하여 변경할 수 있습니다.
+ 
+4.  **드롭다운에서** 예상 사용자 수를 선택합니다. 이 그림은 사이트에 액세스해야 하는 사용자 수를 나타내고 있습니다. 포털 시작 스케줄러는 예상되는 사용자에 따라 다음을 자동으로 결정하게 됩니다.
+    
+    - 사용자 수가 10k명 미만: 2회
+    - 10k ~ 30k 사용자: 세 가지 파도 
+    - 30k+ ~ 100k 사용자: 5회
+    - 100k 사용자 이상: 5개의 물결표로 Microsoft 계정 팀에 문의
+
+5.  그런 다음 필요한 **리디렉션 유형을** 파악합니다.
+
+    **옵션 1: 기존 SharePoint** 페이지로 사용자 보내기(양방향) – 새 최신 SharePoint 포털을 시작하여 기존 SharePoint 포털을 대체할 때 이 옵션을 사용합니다. 활성 웨이브의 사용자는 이전 사이트로 이동하는지 새 사이트로 이동하는지 여부에 관계없이 새 사이트로 리디렉션됩니다. 새 사이트에 액세스하려고 하는 시작되지 않은 웨이브의 사용자는 해당 웨이브가 시작될 때까지 이전 사이트로 다시 리디렉션됩니다.
+    
+    > [!NOTE] 
+    > 양방향 옵션을 사용하는 경우 시작을 위한 사용자가 다른 SharePoint 포털에 대한 사이트 소유자 권한도 있어야 합니다.
+       
+    **옵션 2: 사용자를** 자동 개발 임시 페이지(임시 페이지 리디렉션)로 보내기 - 기존 SharePoint 포털이 없는 경우 임시 페이지 리디렉션을 사용해야 합니다. 사용자는 새로운 최신 SharePoint 포털로 이동되고 사용자가 아직 시작되지 않은 상태인 경우 임시 페이지로 리디렉션됩니다.
+    
+    **옵션 3: 외부** 페이지로 사용자 보내기 - 사용자의 웨이브가 시작될 때까지 임시 방문 페이지 환경으로 외부 URL을 제공합니다.
+    
+6.  대상을 파도로 끊습니다. 웨이브당 최대 20개 보안 그룹을 추가합니다. 각 웨이브가 시작될 때까지 웨이브 세부 정보를 편집할 수 있습니다. 각 웨이브는 최소 1일(24시간) 및 최대 7일 동안 지속될 수 있습니다. 이를 통해 SharePoint 및 기술 환경에서는 많은 수의 사이트 사용자를 익고 확장할 수 있습니다. UI를 통해 시작을 계획할 때 표준 시간대는 사이트의 국가별 설정을 기반으로 합니다. 
+
+    >[!NOTE] 
+    > - 포털 시작 스케줄러는 자동으로 최소 2회의 웨이브로 기본 설정됩니다. 그러나 이 도구의 PowerShell 버전은 1파일을 허용합니다.
+    >  - Microsoft 365 그룹은 이 버전의 포털 시작 스케줄러에서 지원되지 않습니다.
+
+7. 사이트를 바로 보아야 하는 사용자를 결정하고 사용자가 파도에서 제외된 사용자 필드에 정보를 **입력합니다.** 이러한 사용자는 웨이브에서 제외되기 때문에 시작 전, 실행 중 또는 이후에 리디렉션되지 않습니다.
+
+8.  포털 시작 세부 정보를 확인하고 일정 을 **선택합니다.** 시작이 예약된 후 SharePoint 포털 홈 페이지에 대한 모든 변경 내용은 포털 시작이 다시 시작되기 전에 정상 진단 결과를 수신해야 합니다.
+
+
+## <a name="make-changes-to-a-scheduled-portal-launch"></a>예약된 포털 시작 변경
+
+시작 세부 정보는 웨이브가 시작된 날짜까지 각 웨이브에 대해 편집할 수 있습니다. 
+
+1.  포털 시작 세부 정보를 편집하려면 설정으로 이동하여 사이트 실행 **예약을 선택합니다.** 
+2.  그런 다음 편집 **을 선택합니다.**
+3.  편집을 마치면 업데이트를 **선택합니다.**
+
+
+## <a name="delete-a-scheduled-portal-launch"></a>예약된 포털 시작 삭제
+
+일부 웨이브가 이미 시작된 경우에도 포털 시작 스케줄러 도구를 사용하여 예약된 시작을 취소하거나 삭제할 수 있습니다.
+
+1.  포털의 시작을 취소하려면 설정  및 사이트 실행 **예약으로 이동합니다.**
+
+2.  그런 다음 **삭제를** 선택하고 아래 메시지가 표시되면 다시 **삭제를** 선택합니다.
+
+    ![포털 시작 스케줄러 도구의 이미지](../media/portal-launch-delete-2.png)
+
+
+## <a name="use-the-powershell-portal-launch-scheduler"></a>PowerShell 포털 시작 스케줄러 사용
+
+SharePoint 포털 시작 스케줄러 도구는 원래 [SharePoint PowerShell을](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps) 통해서만 사용할 수 있으며 이 방법을 선호하는 고객을 위해 PowerShell을 통해 계속 지원됩니다. 이 문서의 시작에 있는 동일한 메모는 두 버전의 포털 시작 스케줄러에 모두 적용됩니다. 
+
+>[!NOTE]
+> SharePoint PowerShell을 사용하려면 관리자 권한이 필요합니다.
+> PowerShell에서 만든 시작에 대한 포털 시작 세부 정보가 표시되고 SharePoint의 새 포털 시작 스케줄러 도구에서 관리할 수 있습니다.
+
+
+### <a name="app-setup-and-connecting-to-sharepoint-online"></a>앱 설정 및 SharePoint Online에 연결
 1. [최신 SharePoint Online 관리 셸 다운로드](https://go.microsoft.com/fwlink/p/?LinkId=255251)
 
     > [!NOTE]
@@ -50,7 +157,7 @@ SharePoint Online에서 포털 시작 롤아웃 계획에 자세히 설명된 �
 2. Microsoft 365에서 [전역 관리자 또는 SharePoint 관리자](/sharepoint/sharepoint-admin-role)로 SharePoint에 연결합니다. 자세한 방법은 [SharePoint Online 관리 셸 시작](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)을 참조하세요.
 
 
-## <a name="view-any-existing-portal-launch-setups"></a>기존 포털 시작 설정 보기
+### <a name="view-any-existing-portal-launch-setups"></a>기존 포털 시작 설정 보기
 
 기존 포털 시작 구성이 있는지 확인하려면
 
@@ -58,15 +165,15 @@ SharePoint Online에서 포털 시작 롤아웃 계획에 자세히 설명된 �
    Get-SPOPortalLaunchWaves -LaunchSiteUrl <object> -DisplayFormat <object>
    ```
 
-## <a name="schedule-a-portal-launch-on-the-site"></a>사이트에서 포털 시작 예약
+### <a name="schedule-a-portal-launch-on-the-site"></a>사이트에서 포털 시작 예약
 
 필요한 파도 수는 예상되는 시작 크기에 따라 다를 수 있습니다. 
-- 10k 사용자 미만: 1개 웨이브
-- 10k ~ 30k 사용자: 3회 
+- 10k 사용자 미만: 한 웨이브
+- 10k ~ 30k 사용자: 세 가지 파도 
 - 30k+ ~ 100k 사용자: 5회
-- 100k 사용자 5명 이상: 5회 진행하여 Microsoft 계정 팀에 문의
+- 100k 사용자 이상: 5개의 물결표로 Microsoft 계정 팀에 문의
 
-### <a name="steps-for-bidirectional-redirection"></a>양방향 리디렉션 단계
+#### <a name="steps-for-bidirectional-redirection"></a>양방향 리디렉션 단계
 
 양방향 리디렉션에는 기존 SharePoint 클래식 또는 최신 포털을 대체하는 새로운 최신 SharePoint Online 포털을 시작해야 합니다. 활성 웨이브의 사용자는 이전 사이트로 이동하는지 새 사이트로 이동하는지 여부에 관계없이 새 사이트로 리디렉션됩니다. 새 사이트에 액세스하려고 하는 시작되지 않은 웨이브의 사용자는 해당 웨이브가 시작될 때까지 이전 사이트로 다시 리디렉션됩니다. 
 
@@ -77,46 +184,49 @@ SharePoint Online에서 포털 시작 롤아웃 계획에 자세히 설명된 �
 1. 다음 명령을 실행하여 포털 시작 웨이브를 지정합니다.
    
    ```PowerShell
-    New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType Bidirectional -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
-    ```
+   New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType Bidirectional -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
+   ```
 
-예제:
+   예제:
+
    ```PowerShell
    New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType Bidirectional -RedirectUrl "https://contoso.sharepoint.com/teams/oldsite" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 
-[{Name:"Wave 1", Groups:["Viewers 1"], LaunchDateUtc:"2020/10/14"}, 
-{Name:"Wave 2", Groups:["Viewers 2"], LaunchDateUtc:"2020/10/15"}, 
-{Name:"Wave 3", Groups:["Viewers 3"], LaunchDateUtc:"2020/10/16"}]'
+   [{Name:"Wave 1", Groups:["Viewers 1"], LaunchDateUtc:"2020/10/14"}, 
+   {Name:"Wave 2", Groups:["Viewers 2"], LaunchDateUtc:"2020/10/15"}, 
+   {Name:"Wave 3", Groups:["Viewers 3"], LaunchDateUtc:"2020/10/16"}]'
    ```
 
 2. 유효성 검사를 완료합니다. 리디렉션이 서비스 전체에서 구성을 완료하는 데 5-10분 정도 걸릴 수 있습니다. 
 
-### <a name="steps-for-redirection-to-temporary-page"></a>임시 페이지로 리디렉션하는 단계
+#### <a name="steps-for-redirection-to-temporary-page"></a>임시 페이지로 리디렉션하는 단계
 
 기존 SharePoint 포털이 없는 경우 임시 페이지 리디렉션을 사용해야 합니다. 사용자는 단계적 방식으로 새로운 최신 SharePoint Online 포털로 이동됩니다. 사용자가 시작되지 않은 웨이브에 있는 경우 임시 페이지(모든 URL)로 리디렉션됩니다. 
 
 1. 다음 명령을 실행하여 포털 시작 웨이브를 지정합니다.
    
-      ```PowerShell
-    New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType ToTemporaryPage -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
-    ```
+   ```PowerShell
+   New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType ToTemporaryPage -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
+   ```
 
-예제:
+   예제:
+
    ```PowerShell
    New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType ToTemporaryPage -RedirectUrl "https://portal.contoso.com/UnderConstruction.aspx" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 
-[{Name:"Wave 1", Groups:["Viewers 1"], LaunchDateUtc:"2020/10/14"}, 
-{Name:"Wave 2", Groups:["Viewers 2"], LaunchDateUtc:"2020/10/15"}, 
-{Name:"Wave 3", Groups:["Viewers 3"], LaunchDateUtc:"2020/10/16"}]'
+   [{Name:"Wave 1", Groups:["Viewers 1"], LaunchDateUtc:"2020/10/14"}, 
+   {Name:"Wave 2", Groups:["Viewers 2"], LaunchDateUtc:"2020/10/15"}, 
+   {Name:"Wave 3", Groups:["Viewers 3"], LaunchDateUtc:"2020/10/16"}]'
    ```
 
 2. 유효성 검사를 완료합니다. 리디렉션이 서비스 전체에서 구성을 완료하는 데 5-10분 정도 걸릴 수 있습니다. 
 
-## <a name="pause-or-restart-a-portal-launch-on-the-site"></a>사이트에서 포털 시작 일시 중지 또는 다시 시작
+### <a name="pause-or-restart-a-portal-launch-on-the-site"></a>사이트에서 포털 시작 일시 중지 또는 다시 시작
 
 1. 진행 중 포털 시작을 일시 중지하고 예정된 물결 진행이 발생하지 않도록 일시적으로 차단하기 위해 다음 명령을 실행합니다.
 
    ```PowerShell
    Set-SPOPortalLaunchWaves -Status Pause - LaunchSiteUrl <object>
    ```
+
 2. 모든 사용자가 이전 사이트로 리디렉션되는지 검사합니다. 
 
 3. 일시 중지된 포털 시작을 다시 시작하려면 다음 명령을 실행합니다.
@@ -127,7 +237,7 @@ SharePoint Online에서 포털 시작 롤아웃 계획에 자세히 설명된 �
    
 4. 이제 리디렉션이 복원되어 있는지 유효성을 검사합니다. 
 
-## <a name="delete-a-portal-launch-on-the-site"></a>사이트에서 포털 시작 삭제
+### <a name="delete-a-portal-launch-on-the-site"></a>사이트에서 포털 시작 삭제
 
 1. 다음 명령을 실행하여 사이트에 대해 예약되거나 진행 중인 포털 시작을 삭제합니다.
 
@@ -137,5 +247,8 @@ SharePoint Online에서 포털 시작 롤아웃 계획에 자세히 설명된 �
 
 2. 모든 사용자에 대해 리디렉션이 진행되지 않은지 유효성을 검사합니다.
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
+
 [SharePoint Online에서 포털 시작 롤아웃 계획](./planportallaunchroll-out.md)
+
+[커뮤니케이션 사이트 계획](https://support.microsoft.com/office/plan-your-sharepoint-communication-site-35d9adfe-d5cc-462f-a63a-bae7f2529182)

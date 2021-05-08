@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 관리 모바일 앱
+title: 관리자 Microsoft 365 앱에 대한
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -22,31 +22,31 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 365 관리 앱을 다운로드하고 휴대폰 또는 태블릿에서 온라인 조직을 관리하는 방법을 배워야 합니다.
-ms.openlocfilehash: 20a44501db43b8cba7f31bcfded039b00f3ab341
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+description: Microsoft 365 앱을 다운로드하고 휴대폰 또는 태블릿에서 온라인 조직을 관리하는 방법을 배워야 합니다.
+ms.openlocfilehash: 2f6b27b409dd456a88a17a9825fae3ec24d787a4
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023944"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244023"
 ---
-# <a name="about-the-microsoft-365-admin-mobile-app"></a>Microsoft 365 관리 모바일 앱
+# <a name="about-the-microsoft-365-admin-mobile-app"></a>관리자 Microsoft 365 앱
 
-이동 중이던 관리자인가요? 그렇지 않은 경우에도 휴대폰이나 태블릿에서 Microsoft 365를 관리해야 하는 경우도 있습니다. 무료 Microsoft [365](https://go.microsoft.com/fwlink/?LinkID=627216)관리 앱인 웹 기반 Microsoft 365 관리 센터를 완벽하게 이용하세요. Apple App [Store](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8)및 Google Play 스토어에서 앱을 [다운로드할 수 있습니다.](https://play.google.com/store/apps/details?id=com.ms.office365admin&referrer=utm_source%3Ddocsaboutadminapp%26utm_campaign%25docsaboutadminapp)
+이동 중이던 관리자인가요? 그렇지 않은 경우에도 휴대폰이나 태블릿에서 Microsoft 365 때가 있을 수 있습니다. 무료 Microsoft 365 [관리](https://go.microsoft.com/fwlink/?LinkID=627216)앱인 웹 기반 관리 센터와 완벽한 Microsoft 365 확인하세요. Apple App [Store](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8)및 Google Play 스토어에서 앱을 [다운로드할 수 있습니다.](https://play.google.com/store/apps/details?id=com.ms.office365admin&referrer=utm_source%3Ddocsaboutadminapp%26utm_campaign%25docsaboutadminapp)
 
 :::image type="content" source="../../media/DocsMicrosoftFinalImage.PNG" alt-text="Screenshot: Admin mobile app's home page, displaying search, Message center, health, and quick links":::
 
-관리자 앱에는 컴퓨터에 액세스할 수 없는 경우 모바일 또는 태블릿 장치에서 Microsoft 365를 관리할 수 있는 많은 기능이 있습니다. 다음은 앱에서 수행할 수 있는 몇 가지 작업 목록입니다.
+관리자 앱에는 컴퓨터에 액세스할 수 없는 경우 모바일 Microsoft 365 태블릿 장치에서 앱을 관리할 수 있는 많은 기능이 있습니다. 다음은 앱에서 수행할 수 있는 몇 가지 작업 목록입니다.
 
 - **사용자 및 장치 관리** 사용자 추가 또는 편집, 사용자 암호 재설정, 역할 할당, 사용자 차단, 사용자 삭제, 별칭 관리, 라이선스 할당, 장치 데이터 지우기 등
 - **그룹 관리** 그룹을 추가하거나 그룹에서 사용자를 추가하거나 제거합니다.
 - **라이선스 관리 및 청구** 구매한 라이선스 및 할당된 라이선스 목록을 보고, 사용자에게 라이선스를 할당하고, 라이선스를 구입 또는 제거하고, 송장을 보고 다운로드합니다.
 - **지원** 이동 중일 때 새 서비스 요청을 만들고 서비스 요청과 관련된 모든 업데이트를 추적합니다.
-- **메시지 센터** 예정된 모든 변경 사항, 계획된 유지 관리 또는 Microsoft 365와 관련된 기타 중요 공지 사항 최신 정보 유지 관리
+- **메시지 센터** 예정된 모든 변경 내용, 계획된 유지 관리 또는 계획된 유지 관리와 관련된 기타 중요한 Microsoft 365
 - **서비스 상태** 서비스의 현재 상태와 서비스 중단 및 중단에 대한 세부 정보를 확인하여 모든 서비스의 상태를 모니터링합니다.
 - **알림** 푸시 알림을 통해 메시지 센터 게시물, 서비스 상태 및 청구와 관련된 모든 중요한 정보 및 업데이트를 확인합니다. 알림을 하려는 정보를 사용자 지정할 수도 있습니다.
 
-관리자인 경우 두 개 이상의 Microsoft 365 조직을 담당하는 경우 여러 조직에 로그인하여 신속하게 전환할 수 있습니다. 앱은 어두운 테마를 지원하며 39개 언어로 제공됩니다.
+관리자인 경우 두 개 이상의 Microsoft 365 조직에 로그인하여 조직 간에 빠르게 전환할 수 있습니다. 앱은 어두운 테마를 지원하며 39개 언어로 제공됩니다.
   
 > [!IMPORTANT]
 > iOS 또는 Android에서 관리 모바일 앱을 사용하는 데 문제가 있는 경우 에 전자 [메일을](mailto:feedback365@microsoft.com) 보내 feedback365@microsoft.com 알려주세요.
@@ -67,21 +67,21 @@ ms.locfileid: "52023944"
   
 ### <a name="what-do-i-need-to-do-to-be-able-to-use-the-app"></a>앱을 사용하려면 무엇을 해야 하나요?
 
-앱을 사용하려면 다음 Microsoft 365 구독 중 하나에 대한 관리자 권한 및 유효한 구독이 있어야 합니다.
+앱을 사용하려면 다음 구독 중 하나에 대한 관리자 권한 및 유효한 구독이 Microsoft 365 합니다.
 
 - 엔터프라이즈용 Microsoft 365 앱
-- 비즈니스용 Microsoft 365 앱
+- Microsoft 365 앱 비즈니스용 계획
 - Microsoft 365 Business Premium
 - Microsoft 365 Business Standard
 - Microsoft 365 Business Basic
 - Microsoft 365 E3/E5
 - Office 365: E1, E3/E5
 - Exchange Online 계획
-- 비즈니스용 OneDrive 계획
+- OneDrive 계획 수립
   
-### <a name="can-i-use-the-app-with-my-microsoft-365-family-subscription"></a>Microsoft 365 Family 구독에서 앱을 사용할 수 있나요?
+### <a name="can-i-use-the-app-with-my-microsoft-365-family-subscription"></a>내 앱 구독에서 앱을 사용할 Microsoft 365 Family 있나요?
 
-아니요. 앱은 Microsoft 365 Family 또는 Microsoft 365 Personal 구독에서 작동하지 않습니다.
+아니요. 앱이 Microsoft 365 Family 또는 Microsoft 365 Personal 않습니다.
 
 ### <a name="will-the-app-work-if-my-organization-has-directory-synchronization-enabled"></a>조직에서 디렉터리 동기화를 사용하는 경우 앱이 작동하나요?
 
@@ -89,7 +89,7 @@ ms.locfileid: "52023944"
   
 ### <a name="what-languages-are-supported-by-the-app"></a>앱에서 지원되는 언어는 무엇인가요?
 
-앱은 웹 기반 Microsoft 365 관리 센터에서 지원하는 39개 언어를 모두 지원합니다. 언어를 변경하려면 관리 센터의 왼쪽 탐색 메뉴에서 설정 **언어로** 이동하거나 관리 모바일 앱 홈 페이지의 빠른 링크 섹션에서 언어  >   아이콘을 선택합니다.  
+앱은 웹 기반 앱 관리 센터에서 지원하는 39개 Microsoft 365 지원됩니다. 언어를 변경하려면 관리 센터의 왼쪽 탐색 메뉴에서 설정 언어로 이동하거나 관리 모바일 앱 홈 페이지의 빠른 링크 섹션에서 언어  >   아이콘을 선택합니다.  
   
 ### <a name="how-can-i-share-the-service-incidents-and-messages-with-the-rest-of-my-organization"></a>조직의 다른 사람들과 서비스 인시던트 및 메시지를 공유하려면 어떻게 하나요?
 
@@ -105,12 +105,12 @@ ms.locfileid: "52023944"
 
 1. 앱을 닫았다가 다시 엽니다.
 1. 앱을 제거했다가 다시 설치합니다. 최신 버전의 앱을 사용 중이지 않습니다.
-1. 장치에 Microsoft Authenticator 또는 회사 포털 앱이 설치되어 있는 경우 앱을 다시 설치하거나 최신 버전으로 업데이트해 보아야 합니다.
+1. 장치에 Microsoft Authenticator 또는 회사 포털 앱이 설치되어 있는 경우 다시 설치하거나 최신 버전으로 업데이트해 보아야 합니다.
 1. 그래도 문제가 해결되지 않는 경우 에 전자 메일을 보내 feedback365@microsoft.com 알려주세요.
 
 ### <a name="how-do-i-manage-notifications-in-the-app"></a>앱에서 알림을 관리하는 방법
 
-왼쪽 탐색 메뉴에서 설정   >  **알림으로 이동합니다.** 여기에서 서비스 상태, 메시지 센터 및 청구 알림을 관리할 수 있습니다.
+왼쪽 탐색 메뉴에서 알림 **설정**  >  **로 이동하세요.** 여기에서 서비스 상태, 메시지 센터 및 청구 알림을 관리할 수 있습니다.
 
 ### <a name="what-do-i-do-if-my-question-isnt-answered"></a>답변이 없는 경우 어떻게 하나요?
 
@@ -118,4 +118,4 @@ ms.locfileid: "52023944"
   
 ## <a name="related-content"></a>관련 콘텐츠 
 
-[비즈니스용 Microsoft 365 교육](../../business-video/index.yml) 비디오(링크)
+[Microsoft 365 교육용 비디오(링크](../../business-video/index.yml) 페이지)
