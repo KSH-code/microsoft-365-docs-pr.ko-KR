@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 구성 분석기를 사용하여 Microsoft 준수 관리자를 사용하여 빠르게 시작하고 실행하는 방법을 이해합니다.
-ms.openlocfilehash: 2b91ac274d7270f5be9530742cf711a3918b287d
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 5d74d9980daf7f6ff7f013578cb11be83d18948e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570377"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244639"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>준수 관리자용 Microsoft 준수 구성 분석기(미리 보기)
 
@@ -27,27 +27,27 @@ ms.locfileid: "51570377"
 
 ## <a name="microsoft-compliance-configuration-analyzer-mcca-preview-overview"></a>MCCA(Microsoft 준수 구성 분석기)(미리 보기) 개요
 
-MCCA(Microsoft 준수 구성 분석기)는 Microsoft 준수 관리자를 시작하는 데 도움이 되는 미리 보기 [도구입니다.](compliance-manager.md) MCCA는 조직의 현재 구성을 반기하고 Microsoft 365 권장 모범 사례에 대해 유효성을 검사하는 PowerShell 기반 유틸리티입니다. 이러한 모범 사례는 데이터 보호 및 데이터 거버넌스에 대한 주요 규정 및 표준을 포함 하는 제어 집합을 기반으로 합니다.
+MCCA(Microsoft 준수 구성 분석기)는 Microsoft 준수 관리자를 시작하는 데 도움이 되는 미리 보기 [도구입니다.](compliance-manager.md) MCCA는 조직의 현재 구성을 반더하고 권장 모범 사례에 대해 유효성을 Microsoft 365 PowerShell 기반 유틸리티입니다. 이러한 모범 사례는 데이터 보호 및 데이터 거버넌스에 대한 주요 규정 및 표준을 포함 하는 제어 집합을 기반으로 합니다.
 
-MCCA를 사용하면 규정 준수 관리의 개선 작업을 현재 Microsoft 365 환경에 빠르게 볼 수 있습니다. MCCA로 식별된 각 작업은 준수 관리자에 대한 직접 링크 및 해당 솔루션에 대한 구현에 대한 권장 사항을 제공합니다.
+MCCA를 사용하면 준수 관리자의 현재 환경과 환경에 적용되는 개선 Microsoft 365 있습니다. MCCA로 식별된 각 작업은 준수 관리자에 대한 직접 링크 및 해당 솔루션에 대한 구현에 대한 권장 사항을 제공합니다.
 
-MCCA를 이해하기 위한 추가 리소스는 [GitHub의 README 지침을 방문하는 것입니다.](https://github.com/OfficeDev/MCCA#overview) 이 페이지에서는 선행 구성에 대한 자세한 정보를 제공하며 전체 설치 지침을 제공합니다. 이 페이지에 액세스하려면 GitHub 계정이 필요하지 않습니다.
+MCCA를 이해하기 위한 추가 리소스는 에 대한 [README](https://github.com/OfficeDev/MCCA#overview)지침을 GitHub. 이 페이지에서는 선행 구성에 대한 자세한 정보를 제공하며 전체 설치 지침을 제공합니다. 이 페이지에 액세스하려면 GitHub 계정이 필요하지 않습니다.
 
-**가용성:** MCCA는 Office 365 및 Microsoft 365 라이선스가 있는 모든 조직과 GCC(미국 정부 커뮤니티) 보통, GCC High 및 DoD(국방부) 고객이 사용할 수 있습니다.
+**가용성:** MCCA는 Office 365 및 Microsoft 365 라이선스가 있는 모든 조직과 미국 정부 Community(GCC) 보통, GCC High 및 DoD(국방부) 고객이 사용할 수 있습니다.
 
 ## <a name="install-mcca-and-run-a-report"></a>MCCA 설치 및 보고서 실행
 
 MCCA 도구를 설치하려면 다음을 Windows PowerShell. 도구를 다운로드하여 설치한 후 보고서를 실행하기 위해 이러한 단계를 반복할 필요가 없습니다. MCCA를 열 때마다 로그인 자격 증명을 묻고 업데이트된 새 보고서를 생성합니다.
 
 #### <a name="step-1-install-windows-powershell"></a>1단계: 설치 Windows PowerShell
-먼저 PowerShell 갤러리에서 사용할 수 있는 Exchange Online PowerShell 모듈(v2.0.3 이상)이 필요합니다. [설치 지침을 을(를) 얻습니다.](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/2.0.3)
+먼저 PowerShell 갤러리에서 사용할 Exchange Online PowerShell 모듈(v2.0.3 이상)이 필요합니다. [설치 지침을 을(를) 얻습니다.](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/2.0.3)
 
 #### <a name="step-2-install-mcca"></a>2단계: MCCA 설치
 
 MCCA를 설치하려면 관리자 모드에서 PowerShell을 사용하여 시작하십시오. 아래 단계를 따릅니다.
 
-1. Windows 시작 **단추를** 선택합니다.
-2. **PowerShell을 입력하고** 마우스 오른쪽 단추로 Windows PowerShell **를** 클릭한 다음 **관리자 권한으로 실행을 선택합니다.**
+1. 시작 Windows **선택합니다.**
+2. **PowerShell을 입력하고** 마우스 오른쪽 단추로 Windows PowerShell **를** 클릭한 다음 관리자 권한으로 **실행을 선택합니다.**
 1. 명령 프롬프트에 다음을 입력합니다.
 
     ```powershell
@@ -65,7 +65,7 @@ MCCA를 설치한 후 MCCA를 실행하고 보고서를 생성할 수 있습니�
     Get-MCCAReport
     ```
 
-   GCC High 고객인 경우 보고서를 실행하려면 추가 입력 매개 변수를 제공해야 합니다.
+   높은 고객인 GCC 보고서를 실행하려면 추가 입력 매개 변수를 제공해야 합니다.
 
     ```powershell
     Get-MCCAReport -ExchangeEnvironmentName O365USGovGCCHigh
@@ -85,7 +85,7 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
 
 #### <a name="geolocation-based-reporting"></a>지리적 위치 기반 보고
 
-참고 **섹션에는** 테넌트의 지리적 위치에 따라 보고서가 사용자 지정되어 있습니다. 도구에 나열된 권장 사항은 해당 국가 또는 지역에 따라 다를 수 있습니다.
+참고 **섹션에는** 테넌트의 지리적 위치에 따라 보고서가 사용자 지정되어 있습니다. 권장 사항 나열된 목록은 해당 국가 또는 지역에 따라 다를 수 있습니다.
 
 지리적 위치 선택은 해당 지리적 위치와 관련된 중요한 정보 유형(SITS)을 평가하고 해당 국가 또는 지역에 맞게 보고서를 생성하는 데 사용됩니다. 테넌트에 있는 데이터에 따라 지리적 지역을 선택하십시오.
 
@@ -129,11 +129,11 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
 ![MCCA - 역할](../media/compliance-manager-mcca-roles.png "MCCA 역할")
 
 예외:
-1. 사용자는 "Exchange Online에 IRM 사용" 섹션과 별도로 IP에 대한 보고서를 생성할 수 없습니다.
-2. 사용자는 "Exchange Online에 IRM 사용" 섹션과 별도로 IP에 대한 보고서를 생성할 수 있습니다.
+1. 사용자는 "IRM에 IRM 사용" 섹션과 별도로 IP에 대한 보고서를 Exchange Online 없습니다.
+2. 사용자는 "IRM을 사용하여 IRM 사용" 섹션과 별도로 IP에 대한 Exchange Online 수 있습니다.
 3. 사용자는 "O365에서 통신 규정 준수 사용" 섹션과 별도로 IP에 대한 보고서를 생성할 수 있습니다.
-4. 사용자는 "Office 365에서 감사 사용" 섹션과 별도로 IP에 대한 보고서를 생성할 수 없습니다.
-5. 사용자는 "Office 365에서 감사 사용" 섹션과 별도로 IP에 대한 보고서를 생성할 수 있습니다.
+4. 사용자는 "감사에서 감사 사용" 섹션과 별도로 IP에 대한 보고서를 Office 365 없습니다.
+5. 사용자는 "감사에서 감사 사용" 섹션과 별도로 IP에 대한 Office 365 수 있습니다.
 
 #### <a name="solutions-summary-section"></a>솔루션 요약 섹션
 
@@ -153,7 +153,7 @@ MCCA는 준수 관리자의 권장 개선 작업에 대해 현재 구성을 평�
 
 **개선 상태가 있는 항목**
 
-개선 작업 오른쪽의  개선 레이블 옆에 있는 드롭다운을 선택합니다. 현재 설정에 대한 빠른 요약 및 세부 정보 및 권장 개선 작업이 표시됩니다. 요약에는 준수 관리자에 대한 직접 링크, Microsoft 365 규정 준수 센터의 해당 솔루션 및 관련 설명서가 포함되어 있습니다.
+개선 작업 오른쪽의  개선 레이블 옆에 있는 드롭다운을 선택합니다. 현재 설정에 대한 빠른 요약 및 세부 정보 및 권장 개선 작업이 표시됩니다. 요약에는 준수 관리자에 대한 직접 링크, Microsoft 365 규정 준수 센터의 해당 솔루션 및 관련 설명서가 포함됩니다.
 
 준수 관리자 링크를 클릭하면 아직 구현하지 않은 해당 솔루션 내의 모든 개선 작업을 필터링된 보기로 볼 수 있습니다. 이 지점에서 준수 점수를 높이기 위해 달성할 [](compliance-score-calculation.md)수 있는 포인트 수와 해당 점수가 적용되는 평가, 적용 가능한 규정 및 인증을 볼 수 있습니다.
 
@@ -161,10 +161,10 @@ DLP의 경우 권장되는  정보를 기반으로 미리 생성된 PowerShell �
 
 **추천 상태가 있는 항목**
 
-개선 작업 오른쪽의  추천 레이블 옆에 있는 드롭다운을 선택합니다. 개선 작업과 관련된 조직의 현재 Microsoft 365 환경에 대한 요약과 권장 모범 사례를 볼 수 있습니다.
+개선 작업 오른쪽의  추천 레이블 옆에 있는 드롭다운을 선택합니다. 개선 작업과 관련된 조직의 현재 Microsoft 365 환경과 권장 모범 사례가 요약되어 있습니다.
 
 ## <a name="resources"></a>리소스
 
-MCCA 설치, 설정 및 사용에 대한 자세한 내용은 [GitHub의 README](https://github.com/OfficeDev/MCCA#overview) 지침을 참조하세요(GitHub 계정 필요 없음).
+MCCA 설치, 설정 및 사용에 대한 자세한 내용은 GITHUB(계정이 필요하지 GitHub 없음)의 [README](https://github.com/OfficeDev/MCCA#overview) 지침을 참조하세요.
 
 자세한 내용은 Windows PowerShell PowerShell 설명서를 사용하는 방법을 [참조하세요.](/powershell/scripting/how-to-use-docs?view=powershell-7) 자세한 내용은 [시작 Windows PowerShell](/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7)참조합니다.

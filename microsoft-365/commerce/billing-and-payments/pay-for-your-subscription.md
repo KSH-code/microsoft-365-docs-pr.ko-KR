@@ -21,14 +21,17 @@ ms.custom:
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: 582ecb0f9b46d877c30aa29334b30b9209c93993
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 65454dcc71645b370d2ebfc875474151c0954a3c
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576940"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245007"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>구독 결제 방법
+
+> [!IMPORTANT]
+> 2021년 1월 26일 현재 벨기에, 프랑스, 이탈리아, 룩셈부르크, 포르투갈, 스페인 및 미국의 고객에게는 새 은행 계좌가 더 이상 지원되지 않습니다. 해당 국가 중 하나의 기존 고객인 경우 기존 은행 계좌로 구독료를 계속 결제할 수 있으며 은행 계좌 상태가 양호한 경우에만 새 구독을 추가할 수 있습니다.
 
 신용 카드, 직불 카드 또는 은행 계좌를 사용하여 구독을 결제할 수 있습니다. 수표 또는 EFT(전자식 자금 이체)를 사용하여 송장을 결제할 수 있는 경우도 있습니다. 청구 프로필이 있는 경우 옵션이 약간 다릅니다. 자세한 내용은 [청구 프로필로 구독 결제 방법](pay-for-subscription-billing-profile.md)을 참조하세요. 계정에 청구 프로필이 있는지 잘 알지 못하는 경우 [청구 프로필 이해하기](manage-billing-profiles.md)를 참조하세요.
 
@@ -37,7 +40,7 @@ ms.locfileid: "51576940"
 ## <a name="before-you-begin"></a>시작하기 전에
 
 - 이 문서에 설명된 단계를 수행하려면 전역 또는 대금 청구 관리자여야 합니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-- 결제 중에 선택하신 결제 방법은 향후 모든 청구 기간에 사용되는 결제 방법입니다. 이는 언제든지 변경할 수 있습니다.
+- 결제 중에 선택하신 결제 방법은 향후 모든 청구 기간에 사용되는 결제 방법입니다. 이 변경은 아무 때나 할 수 있습니다.
 
 ## <a name="paying-by-credit-or-debit-card-or-bank-account"></a>신용 카드, 직불 카드 또는 은행 계좌로 결제
 

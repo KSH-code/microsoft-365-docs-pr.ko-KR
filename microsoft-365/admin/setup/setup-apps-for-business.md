@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: 비즈니스용 Microsoft 365 앱 구독을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: 56eb3eb0f28ee99aab1c50a970626c61514335cd
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 6978a5402792906ef773934e5201b3ea6671c010
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579101"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244482"
 ---
 # <a name="set-up-microsoft-365-apps-for-business"></a>비즈니스용 Microsoft 365 앱 설정
 
@@ -57,7 +57,7 @@ ms.locfileid: "51579101"
 
 2. **설정으로 이동** 을 선택해 마법사를 시작합니다.
 
-3. 첫 번째 페이지에서 컴퓨터에 Office 앱을 설치하는 옵션이 표시됩니다. 이 작업은 나중에도 수행할 수 있습니다.
+3. 첫 페이지에서 컴퓨터에 Office 앱을 설치하는 옵션을 사용할 수 있습니다. 나중에 이 작업을 수행할 수 있습니다.
 
 3. 다음 페이지에서 사용자를 추가할 수 있으며 사용자에게 자동으로 비즈니스용 Microsoft 앱 라이선스가 할당됩니다. 해당 사용자를 추가한 후 새로 추가한 사용자와 자격 증명을 공유하는 옵션도 여기에 표시됩니다. 자격 증명을 인쇄, 전자 메일로 전송 또는 다운로드할 수 있습니다.
 
@@ -99,7 +99,7 @@ Office 365 Germany를 사용하는 경우 [https://portal.office.de/OLS/MySoftwa
   
 ## <a name="store-files-online"></a>온라인에 파일 저장
 
-Microsoft를 사용하면 간편하게 온라인에 파일을 저장할 수 있습니다. 내 비즈니스에 꼭 맞는 저장소 위치를 확인하려면 [Office 365에서 문서를 저장할 수 있는 위치](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790)를 참조하세요.
+Microsoft를 사용하면 간편하게 온라인에 파일을 저장할 수 있습니다. 내 비즈니스에 꼭 맞는 저장소 위치를 확인하려면 [Office 365에서 문서를 저장할 수 있는 위치](../../business-video/store-files.md)를 참조하세요.
   
 관리자가 사용자의 Microsoft 계정을 만들면 해당 사용자에게 자동으로 **OneDrive** 클라우드 저장소 위치가 제공됩니다. OneDrive를 사용하면 컴퓨터, 휴대폰 및 태블릿에서 파일에 액세스할 수 있습니다.  
   

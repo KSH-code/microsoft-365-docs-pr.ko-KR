@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: how-to
 ms.date: 01/29/2021
 ms.technology: mde
-ms.openlocfilehash: 48674292e5a72ccc371ff4bf43dc499f19b3886d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b0c983f4ba939cee6485570af774c8a728c73944
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072092"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274931"
 ---
 # <a name="review-remediation-actions-following-an-automated-investigation"></a>자동화된 조사 후 수정 작업 검토
 
@@ -61,7 +61,7 @@ ms.locfileid: "51072092"
 
 ## <a name="review-pending-actions"></a>보류 중인 작업 검토
 
-1. Microsoft 365 보안 센터()로 이동하여 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다.
+1. 보안 Microsoft 365()로 이동하여 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다.
 2. 탐색 창에서 **작업 센터** 를 선택합니다. 
 3. 보류 중인 **탭의 항목을 검토합니다.** 
 4. 플라이아웃 창을 여는 작업을 선택합니다.
@@ -73,7 +73,7 @@ ms.locfileid: "51072092"
 
 ## <a name="review-completed-actions"></a>완료된 작업 검토
 
-1. Microsoft 365 보안 센터()로 이동하여 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다.
+1. 보안 Microsoft 365()로 이동하여 [https://security.microsoft.com](https://security.microsoft.com) 로그인합니다.
 2. 탐색 창에서 **작업 센터** 를 선택합니다. 
 3. 기록 탭의 **항목을 검토합니다.** 
 4. 해당 수정 조치에 대한 자세한 내용을 확인하려면 항목을 선택합니다.
@@ -107,11 +107,11 @@ ms.locfileid: "51072092"
 |**전체 - 위협을 자동으로** 수정(권장 설정) |악의적인 *판정은* 증거에 도달합니다. <br/><br/>적절한 수정 작업이 자동으로 수행됩니다. |[완료된 작업 검토](#review-completed-actions) |
 |**전체 - 자동으로 위협 수정** |증거에 *대한 의심스러운* 판정에 도달합니다. <br/><br/>재구성 작업은 계속하기 위해 승인을 보류 중입니다. | [보류 중인 작업 승인(또는 거부)](#review-pending-actions) |
 |**Semi - 모든 수정에 대한 승인 필요**  |증거를 위해 악성  또는 *의심스러운* 판정에 도달합니다. <br/><br/>재구성 작업은 계속하기 위해 승인을 보류 중입니다.  |[보류 중인 작업 승인(또는 거부)](#review-pending-actions) |
-|**Semi - 핵심 폴더 수정에 대한 승인 필요** |악의적인 *판정은* 증거에 도달합니다. <br/><br/>아티팩트가 파일 또는 실행 파일인 경우 Windows 폴더 또는 Program files 폴더와 같은 운영 체제 디렉터리에 있는 경우 수정 작업이 승인 보류 중입니다. <br/><br/>아티팩트가 운영 체제 *디렉터리에* 없는 경우 수정 작업이 자동으로 수행됩니다. |1. [보류 중인 작업](#review-pending-actions) 승인(또는 거부)<br/><br/>2. [완료된 작업 검토](#review-completed-actions) |
+|**Semi - 핵심 폴더 수정에 대한 승인 필요** |악의적인 *판정은* 증거에 도달합니다. <br/><br/>아티팩트가 파일 또는 실행 파일인 경우 Windows 파일 폴더와 같은 운영 체제 디렉터리에 있는 경우 수정 작업이 승인 보류 중입니다. <br/><br/>아티팩트가 운영 체제 *디렉터리에* 없는 경우 수정 작업이 자동으로 수행됩니다. |1. [보류 중인 작업](#review-pending-actions) 승인(또는 거부)<br/><br/>2. [완료된 작업 검토](#review-completed-actions) |
 |**Semi - 핵심 폴더 수정에 대한 승인 필요** |증거에 *대한 의심스러운* 판정에 도달합니다. <br/><br/>수정 작업이 승인 보류 중입니다.  |[보류 중인 작업을 승인(또는 거부) 합니다.](#review-pending-actions)|
 |**Semi - 비 임시 폴더 수정에 대한 승인 필요** |악의적인 *판정은* 증거에 도달합니다. <br/><br/>아티팩트가 사용자의 다운로드 폴더 또는 임시 폴더와 같이 임시 폴더에 없는 파일 또는 실행 파일인 경우 수정 작업은 승인 보류 중입니다. <br/><br/>아티팩트가 임시 폴더에  있는 파일 또는 실행 파일인 경우 수정 작업이 자동으로 수행됩니다.  |1. [보류 중인 작업](#review-pending-actions) 승인(또는 거부)<br/><br/>2. [완료된 작업 검토](#review-completed-actions)  |
 |**Semi - 비 임시 폴더 수정에 대한 승인 필요** |증거에 *대한 의심스러운* 판정에 도달합니다. <br/><br/>수정 작업이 승인 보류 중입니다. |[보류 중인 작업 승인(또는 거부)](#review-pending-actions)  | 
-|모든 **전체** 또는 **세미** 자동화 수준 |증거에 *대한* 위협 없음에 대한 판결이 도달했습니다. <br/><br/>재구성 작업은 수행하지 않습니다. 승인 보류 중인 작업은 없습니다. |[자동화 조사 세부정보 및 결과 보기](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/auto-investigation-action-center) |
+|모든 **전체** 또는 **세미** 자동화 수준 |증거에 *대한* 위협 없음에 대한 판결이 도달했습니다. <br/><br/>재구성 작업은 수행하지 않습니다. 승인 보류 중인 작업은 없습니다. |[자동화된 조사의 세부 정보 및 결과 보기](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/auto-investigation-action-center) |
 |**자동 응답** 없음(권장하지 않음)|자동화된 조사가 실행되지 않습니다. 따라서 판정에 도달하지 못하고 수정 작업이 수행되거나 승인을 기다리지 않습니다. |[전체 또는 세미 자동화를  사용할 수 있도록 장치 그룹을 **설정하거나 변경하는 것을 고려합니다.**](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups) |
 
 끝점용 Microsoft Defender에서 모든 판정은 관리 [센터에서 추적됩니다.](auto-investigation-action-center.md#new-a-unified-action-center)
@@ -120,7 +120,7 @@ ms.locfileid: "51072092"
 
 - [라이브 응답 기능에 대해 자세히 알아보시겠습니다.](live-response.md)
 - [고급 헌팅을 통해 위협을 사전 대응](advanced-hunting-overview.md)
-- [끝점용 Microsoft Defender에서 가짓 긍정/음수 해결](defender-endpoint-false-positives-negatives.md)
+- [Endpoint용 Microsoft Defender에서 가양성/가음성 처리](defender-endpoint-false-positives-negatives.md)
 
 ## <a name="see-also"></a>참고 항목
 

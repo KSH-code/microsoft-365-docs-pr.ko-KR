@@ -7,8 +7,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -19,12 +19,12 @@ ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.date: 01/28/2021
 ms.technology: mde
-ms.openlocfilehash: f8dd48364f60da789ac95638018245cf46434822
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: e51cc1d613e6f9e7ab96653692362ed7fe239e3e
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197640"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274847"
 ---
 # <a name="visit-the-action-center-to-see-remediation-actions"></a>관리 센터를 방문하여 수정 작업 보기
 
@@ -53,7 +53,7 @@ ms.locfileid: "51197640"
 통합 관리 센터는 끝점용 Defender 및 Office 365용 Defender에 대한 수정 작업을 통합합니다. 모든 수정 작업에 대한 공통 언어를 정의하고 통합 조사 환경을 제공합니다. 
 
 적절한 사용 권한 및 다음 구독 중 하나 이상이 있는 경우 통합 관리 센터를 사용할 수 있습니다.
-- [엔드포인트용 Defender](microsoft-defender-endpoint.md)
+- [Endpoint용 Defender](microsoft-defender-endpoint.md)
 - [Office 365용 Defender](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
 - [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 
 
@@ -82,13 +82,13 @@ ms.locfileid: "51197640"
 - 보하려는 열을 선택 합니다.
 - 각 데이터 페이지에 포함할 항목 수를 지정합니다.
 - 필터를 사용하여 보 원하는 항목만 볼 수 있습니다.
-- 내보내기 **를** 선택하여 결과를 .csv 파일로 내보낼 수 있습니다. 
+- 내보내기 **를** 선택하여 결과를 파일로 .csv 선택합니다. 
 
 ## <a name="next-steps"></a>다음 단계
 
-- [수정 작업 보기 및 승인](manage-auto-investigation.md)
+- [수정 조치 보기 및 승인](manage-auto-investigation.md)
 - [대화형 가이드를 참조하세요. Endpoint용 Microsoft Defender로 위협 조사 및 수정](https://aka.ms/MDATP-IR-Interactive-Guide)
  
 ## <a name="see-also"></a>참고 항목
 
-- [끝점용 Microsoft Defender에서 가짓 긍정/음수 해결](defender-endpoint-false-positives-negatives.md)
+- [Endpoint용 Microsoft Defender에서 가양성/가음성 처리](defender-endpoint-false-positives-negatives.md)

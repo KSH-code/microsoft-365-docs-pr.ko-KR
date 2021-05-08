@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 recommendations: false
 description: Microsoft 정보 거버넌스 기능을 구현하여 규정 준수 또는 규제 요구 사항에 대한 데이터를 관리합니다.
-ms.openlocfilehash: 6a0db63f218db72dbda9afc510cb5ef5f5e13eaa
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 304b4e57702c55242e49fae7fdf4a36e9b2f7cdb
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107706"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244567"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Microsoft 365의 Microsoft 정보 거버넌스
 
@@ -31,6 +31,8 @@ Microsoft 정보 거버넌스(MIG) 기능을 사용하여 규정 준수 또는 �
 ![데이터 관리 - 정보 거버넌스 및 레코드 관리](../media/information-governance-records-management.png)
 
 데이터 보호에 대해 찾고 있으신가요? [Microsoft 365의 Microsoft 정보 보호](information-protection.md)를 참조하세요.
+
+Microsoft는 사용자가 데이터 개인 정보 보호 규정을 준수할 수 있도록 안전한 액세스, 위협 방지, 정보 보호, 데이터 거버넌스를 비롯한 Microsoft 365 전반에서 기능을 계획하고 구현하기 위한 종단 간 프로세스를 안내하는 워크플로를 설계했습니다. 자세한 내용은 [Microsoft 365를 사용하여 데이터 개인 정보 보호 규정을 위한 정보 보호를 구현합니다](../solutions/information-protection-deploy.md)(aka.ms/m365dataprivacy)를 참조하세요. 
 
 ## <a name="information-governance"></a>정보 거버넌스
 

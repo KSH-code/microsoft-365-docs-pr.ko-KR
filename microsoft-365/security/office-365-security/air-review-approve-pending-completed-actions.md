@@ -1,10 +1,10 @@
 ---
-title: Microsoft Defender for Office 365에서 수정 작업 검토 및 관리
+title: Microsoft Defender for Office 365
 keywords: AIR, autoIR, Endpoint용 Microsoft Defender, 자동화, 조사, 대응, 수정, 위협, 고급, 위협, 보호
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
@@ -15,20 +15,20 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Microsoft Defender for Office 365 계획 2의 자동화된 조사 및 응답 기능의 수정 작업에 대해 자세히 알아보습니다.
+description: Microsoft Defender for Office 365 계획의 자동화된 조사 및 대응 기능의 수정 조치에 대해 자세히 알아보습니다.
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 01/29/2021
-ms.openlocfilehash: ce6cfd920845f5a85dbc7d7d48cfefdd6209ec3a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f0c42bef1b090412a7a6422fe029323b645e90df
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933652"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275075"
 ---
-# <a name="review-and-manage-remediation-actions-in-office-365"></a>Office 365에서 수정 작업 검토 및 관리
+# <a name="review-and-manage-remediation-actions-in-office-365"></a>관리 센터에서 재구성 작업을 검토하고 Office 365
 
-전자 메일에 대한 자동화된 조사가 & 공동 작업 콘텐츠로  인해 악성 또는 의심스러운 등의 결과가 생성되면 특정 수정 작업이 만들어집니다. Microsoft Defender for Office 365에서 수정 작업에는 다음이 포함됩니다.
+전자 메일에 대한 자동화된 조사가 & 공동 작업 콘텐츠로  인해 악성 또는 의심스러운 등의 결과가 생성되면 특정 수정 작업이 만들어집니다. Microsoft Defender for Office 365 수정 작업에는 다음이 포함됩니다.
 - URL 차단(클릭 시간)
 - 전자 메일 메시지 또는 클러스터 소프트 삭제
 - 전자 메일 또는 전자 메일 첨부 파일 Quarantining
@@ -42,7 +42,7 @@ ms.locfileid: "51933652"
 
 ## <a name="approve-or-reject-pending-actions"></a>보류 중인 작업 승인(또는 거부)
 
-1. Microsoft 365 보안 센터()로 이동하여 <https://security.microsoft.com> 로그인합니다.
+1. 보안 Microsoft 365()로 이동하여 <https://security.microsoft.com> 로그인합니다.
 2. 탐색 창에서 작업 센터 **를 선택합니다.**
 3. 보류 **중인 탭에서** 승인을 대기 중인 작업 목록을 검토합니다.
 4. 목록에서 항목을 선택합니다. 플라이아웃 창이 열립니다. 
@@ -76,4 +76,4 @@ ms.locfileid: "51933652"
 
 ## <a name="see-also"></a>참고 항목
 
-- [Office 365에서 자동화된 조사의 세부 정보 및 결과 보기](air-view-investigation-results.md)
+- [자동화된 조사의 세부 정보 및 결과를 Office 365](air-view-investigation-results.md)

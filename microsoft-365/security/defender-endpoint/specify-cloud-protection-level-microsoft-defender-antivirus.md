@@ -7,7 +7,7 @@ ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.date: 10/26/2020
@@ -15,12 +15,13 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: a0c73c8dd341c4940e3eddd4ede75240e57502d6
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: f441b1bd444cd70fb5b00dfcb5ebcddadf62b220
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764124"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274907"
 ---
 # <a name="specify-the-cloud-delivered-protection-level"></a>클라우드 제공 보호 수준 지정
 
@@ -29,7 +30,7 @@ ms.locfileid: "51764124"
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 Microsoft Endpoint Manager(권장) 또는 그룹 정책을 사용하여 Microsoft Defender 바이러스 백신에서 제공하는 클라우드 제공 보호 수준을 지정할 수 있습니다.
 

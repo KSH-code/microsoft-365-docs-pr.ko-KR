@@ -5,7 +5,6 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -13,20 +12,21 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
+- Adm_TOC
+- commerce
 ms.custom:
 - SaRA
 - AdminSurgePortfolio
-- commerce_subscriptions
-- PPM_jmueller
-search.appverid: MET150
+search.appverid:
+- MET150
+ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: 되풀이 청구를 끄거나 켜서 Microsoft 365를 갱신하는 방법에 대해 알아봅니다.
-ms.date: 05/04/2021
-ms.openlocfilehash: 25b0e4f8e94780bd301b41591cd1c06978cbd68e
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: afa899bd60b761d196df01c6f0bf18d51e546d8e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285697"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244651"
 ---
 # <a name="renew-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 갱신
 
@@ -49,19 +49,17 @@ ms.locfileid: "52285697"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
-
 ::: moniker-end
 
 2. 되풀이 청구를 관리할 구독을 선택합니다.
@@ -70,15 +68,17 @@ ms.locfileid: "52285697"
 5. **저장** 을 선택합니다.
 
     > [!NOTE]
-    >
     > - 활성 구독에 대해서만 **되풀이 청구** 설정을 변경할 수 있습니다. 구독이 이미 만료되었거나 비활성화된 경우에는 **되풀이 청구** 를 켜거나 끄기 전에 먼저 [다시 활성화](reactivate-your-subscription.md)해야 합니다.
     > - **되풀이 청구** 를 끌 경우, 구독이 바로 취소되지는 않습니다. 구독을 활성 상태로 유지하려면 청구서를 수동으로 결제해야 합니다.
     > - **되풀이 요금 청구** 를 끄면 구독이 만료될 때까지 활성 상태로 유지됩니다. **구독 및 결제 설정** 섹션의 구독 세부 정보 페이지에서 만료 날짜를 확인할 수 있습니다.
     > - 구독을 바로 취소하는 방법에 대한 자세한 내용은 [구독 취소](cancel-your-subscription.md)를 참조하세요.
 
-## <a name="related-content"></a>관련 콘텐츠
+## <a name="related-articles"></a>관련 문서
 
-[구독 다시 활성화](reactivate-your-subscription.md)(기사)\
-[구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md) (기사)\
-[제품 키 입력](../enter-your-product-key.md)(기사)\
-[비즈니스용 Microsoft 365 평가판 구입](../try-or-buy-microsoft-365.md)(기사)
+[구독 다시 활성화](reactivate-your-subscription.md)
+  
+[구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md)
+
+[제품 키 입력](../enter-your-product-key.md)
+  
+[비즈니스용 Microsoft 365의 평가판 구매](../try-or-buy-microsoft-365.md)

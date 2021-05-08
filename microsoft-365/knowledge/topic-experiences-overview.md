@@ -1,7 +1,7 @@
 ---
 title: Microsoft Viva Topics 개요
-ms.author: efrene
-author: efrene
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva Topics 개요입니다.
-ms.openlocfilehash: 4598c47b07287789a7a194914232799de5ca7b85
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+ms.openlocfilehash: b37572087794055724cb9533246f83794d88fb93
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488160"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275201"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Microsoft Viva Topics 개요 
 
@@ -40,8 +40,12 @@ Viva Topics는 AI를 사용하여 조직에서 **주제** 를 자동으로 검�
 
 SharePoint 뉴스 및 페이지의 콘텐츠에서 한 주제가 언급된 경우 해당 주제가 강조 표시됩니다. 하이라이트에서 주제 요약을 열 수 있습니다. 요약 제목에서 주제 세부 정보를 열 수 있습니다. 언급된 주제는 자동으로 식별되거나 페이지 작성자가 해당 주제를 직접 참조하여 페이지에 추가할 수 있습니다. 
 
-   ![주제 하이라이트](../media/knowledge-management/saturn.png) </br> 
+   ![주제 하이라이트](../media/knowledge-management/saturn.png) 
 
+
+   ![Screenshot showing search in Word through the Search box.](../media/knowledge-management/word-search-2.png)
+
+   ![검색 상황에 맞는 메뉴를 통해 Word에서 검색을 보여 주는 스크린샷.](../media/knowledge-management/word-search-1.png)
 
 ## <a name="knowledge-indexing"></a>지식 인덱싱
 

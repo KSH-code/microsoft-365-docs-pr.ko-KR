@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: e3e842f812c5675334cc25fa35544165129db2b4
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: f3dba2116e0f13f265937ef65fd3b69bcb1e725b
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245891"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274655"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>관리 센터에서 작업 보기 및 관리
 
@@ -36,25 +36,26 @@ ms.locfileid: "52245891"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Defender의 위협 방지 Microsoft 365 특정 수정 작업이 수행될 수 있습니다. 다음은 몇 가지 예입니다.
-- [자동화된 조사를](m365d-autoir.md) 수행하면 자동으로 수행되거나 승인 대기하는 수정 작업이 수행될 수 있습니다.
+Microsoft 365 Defender의 위협 방지 기능은 특정 수정 작업을 수행할 수 있습니다. 다음은 몇 가지 예입니다.
+
+- [자동화된 조사를](m365d-autoir.md) 수행하면 수정 작업이 자동으로 수행되거나 승인을 기다립니다.
 - 바이러스 백신, 맬웨어 방지 및 기타 위협 방지 기능은 파일, URL 또는 프로세스를 차단하거나 아티팩트를 검역에 보내는 등의 수정 작업을 수행할 수 있습니다.
 - 보안 운영 팀은 고급 헌팅 중이나 경고 [](advanced-hunting-overview.md) 또는 인시던트 [](investigate-alerts.md) 조사 중과 같은 수동으로 수정 작업을 수행할 [수 있습니다.](investigate-incidents.md)
 
 > [!NOTE]
-> 수정 작업을 승인하거나 거부하려면 [적절한 사용 권한](m365d-action-center.md#required-permissions-for-action-center-tasks)이 있어야 합니다. 자세한 내용은 Defender에서 자동화된 조사 및 대응을 위한 Microsoft 365 [참조하세요.](m365d-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)
+> 수정 작업을 승인하거나 거부하려면 [적절한 사용 권한](m365d-action-center.md#required-permissions-for-action-center-tasks)이 있어야 합니다. 자세한 내용은 선행 [준비를 참조하세요.](m365d-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)
 
 ## <a name="review-pending-actions-in-the-action-center"></a>작업 센터에서 보류 중인 작업 검토
 
 자동화된 조사가 진행되고 적시에 완료될 수 있도록 가능한 한 빨리 보류 중인 작업을 승인하거나 거부하는 것이 중요합니다. 
 
-![조치 승인 또는 거부](../../media/air-actioncenter-itemselected.png)
-
 1. [https://security.microsoft.com](https://security.microsoft.com)으로 이동하여 로그인합니다. 
 
 2. 탐색 창에서 **알림 센터** 를 선택합니다. 
 
-3. 알림 센터의 **보류 중인** 탭의 목록에서 항목을 선택합니다. 플라이아웃 창이 열립니다.
+3. 알림 센터의 **보류 중인** 탭의 목록에서 항목을 선택합니다. 플라이아웃 창이 열립니다. 다음은 예입니다.
+
+   ![조치 승인 또는 거부](../../media/air-actioncenter-itemselected.png)
 
 4. 플라이아웃 창의 정보를 검토한 후 다음 단계 중 하나를 수행합니다.
    - 조사에 대한 자세한 내용을 **확인하려면** 조사 페이지 열기 를 선택합니다.
@@ -90,11 +91,11 @@ Defender의 위협 방지 Microsoft 365 특정 수정 작업이 수행될 수 �
 
 1. Go to the Action center ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) and sign in.
 
-2. 사용 기록 **탭에서** 작업 유형이 **Quarantine** file인 파일을 선택합니다.
+2. 기록 **탭에서** 파일 **Quarantine file** Action 형식이 있는 파일을 선택합니다.
 
 3. 화면 오른쪽 창에서 이 파일의 X **추가** 인스턴스에 적용을 선택한 다음 실행 **취소를 선택합니다.**
 
 ## <a name="next-steps"></a>다음 단계
 
 - [자동화 조사 세부정보 및 결과 보기](m365d-autoir-results.md)
-- [가음성/음수 처리 방법 학습(가인 경우)](m365d-autoir-report-false-positives-negatives.md)
+- [가음성 또는 가음성 해결)](m365d-autoir-report-false-positives-negatives.md)

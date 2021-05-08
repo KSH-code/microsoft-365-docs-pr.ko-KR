@@ -25,14 +25,17 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: 비즈니스용 Microsoft 365의 청구서 또는 송장에 있는 요금, 청구, 지불 정보를 해석하는 방법과 구매 주문 번호를 변경하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 56f1ba3e7cc328593873aaf06ddfe6dc82fc1a17
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: b89ca38bf5d7b1d82982668dcd98e9979f1657be
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615378"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245019"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>비즈니스용 Microsoft 365의 청구서 또는 송장 이해
+
+> [!IMPORTANT]
+> 2021년 1월 26일 현재, 벨기에, 프랑스, 이탈리아, 룩셈부르크, 포르투갈, 스페인 및 미국의 고객은 새 은행 계좌가 더 이상 지원되지 않습니다. 해당 국가 중 하나에 있는 기존 고객인 경우 기존 은행 계좌로 구독 비용을 계속 지불할 수 있으며, 은행 계좌가 양호한 한 새 구독을 추가할 수 있습니다.
 
 월간 또는 연간(구독을 구입했을 때 선택한 옵션에 따라 다름)으로 관리 센터에서 새 명세서를 사용할 수 있다는 전자 메일을 받게 됩니다. [청구서 또는 송장을 찾아서 보는 방법을 알아봅니다](view-your-bill-or-invoice.md).
   

@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이터 분류 대시보드에서는 조직에서 중요한 데이터를 얼마나 많이 찾고 분류했는지 시각적으로 파악할 수 있습니다.
-ms.openlocfilehash: 2867e545221061f5f99bf7ff669f9655b3777ba8
-ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
+ms.openlocfilehash: d9c53d1f4679fbea9f5a7cded7f4bb6b6eb15b98
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899388"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244386"
 ---
 # <a name="learn-about-data-classification"></a>데이터 분류에 대한 자세한 정보
 
@@ -112,7 +112,7 @@ Microsoft 365 또는 AIP(Azure Information Protection)를 통해 항목에 민�
 ![적용된 상위 보존 레이블 자리 표시자 스크린샷](../media/data-classification-top-retention-labels-applied.png)
 
 > [!NOTE]
-> 이 카드에 “검색된 보존 레이블이 없음” 메시지가 표시되는 경우 사용자가 보존 레이블을 생성 또는 게시하지 않았거나, 보존 레이블이 적용된 콘텐츠가 없음을 의미합니다. 보존 레이블을 시작하려면 다음을 참조하세요.
+> 이 카드에 “검색된 보존 레이블이 없음” 메시지가 표시되는 경우 사용자가 보존 레이블을 생성 또는 게시하지 않았거나, 보존 레이블이 적용된 콘텐츠가 없음을 의미합니다. 보존 레이블을 시작하려면 다음을 참조합니다.
 >- [보존 정책 및 보존 레이블 시작하기](get-started-with-retention.md)
 
 ## <a name="top-activities-detected"></a>검색된 상위 활동
@@ -140,3 +140,5 @@ Microsoft 365 또는 AIP(Azure Information Protection)를 통해 항목에 민�
 - [중요한 정보 유형에 대해 알아보기](sensitive-information-type-learn-about.md)
 - [중요한 정보 유형 엔터티 정의](sensitive-information-type-entity-definitions.md)
 - [학습 가능한 분류자에 대한 자세한 정 (미리 보기)](classifier-learn-about.md)
+
+데이터 분류를 사용하여 데이터 개인 정보 보호 규정을 준수하는 방법을 알아보려면 [Microsoft 365(aka.ms/m365dataprivacy)를 사용하여 데이터 개인 정보 보호 규정에 대한 정보 보호 배포](../solutions/information-protection-deploy.md)를 참조하세요.

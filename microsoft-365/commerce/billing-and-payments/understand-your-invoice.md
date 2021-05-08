@@ -19,16 +19,23 @@ search.appverid:
 - MET150
 description: Microsoft 비즈니스 제품에 대한 청구서 또는 송장을 읽고 이해하는 방법에 대해 알아보세요.
 keywords: 청구 계정, 조직 정보, 송장
-ms.openlocfilehash: 3752254fc6068381cd6effed0be4d5b8295f8a27
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 344877a4b97f5c77dc3381aa49d7bf0f60bd628e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579761"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244711"
 ---
 # <a name="understand-your-bill-or-invoice"></a>청구서 또는 송장 이해하기
 
 송장에는 요금과 지불에 대한 지침이 요약되어 있습니다. Microsoft 365 관리 센터에서[온라인 송장](#view-your-online-invoice)을 확인할 수 있습니다. 휴대용 문서 형식(.pdf)으로 다운로드하여 전자 메일로 보낼 수도 있습니다.
+
+송장을 보고 인쇄하는 경우:
+
+1. **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">청구 및 결제</a> 페이지에서 송장 날짜 범위를 선택합니다.
+2. 청구서의 PDF 사본을 인쇄하거나 저장하려면 **송장 PDF 다운로드** 를 선택한 다음 PDF를 인쇄하세요.
+
+자세한 내용은 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)를 참조하세요.
 
 Microsoft 365 구독이 있는 경우에는 [비즈니스용 Microsoft 365의 청구서 또는 송장 이해](understand-your-invoice2.md)를 참조하세요.
 
@@ -133,13 +140,6 @@ Microsoft 365 구독이 있는 경우에는 [비즈니스용 Microsoft 365의 �
 
 - **서비스 기간:** 서비스 이용에 대한 요금이 청구되는 기간입니다.
 - **청구 기간:** 마지막 송장 날짜 이후의 기간입니다.
-
-### <a name="how-do-i-view-and-print-my-bill"></a>내 청구서를 보고 인쇄하려면 어떻게 해야 하나요?
-
-1. **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">청구 및 결제</a> 페이지에서 송장 날짜 범위를 선택합니다.
-2. 청구서의 PDF 사본을 인쇄하거나 저장하려면 **송장 PDF 다운로드** 를 선택한 다음 PDF를 인쇄하세요.
-
-자세한 내용은 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)를 참조하세요.
 
 ### <a name="why-dont-i-see-azure-prepayment-as-a-payment-method"></a>Azure 결제를 결제 수단으로 볼 수 없나요?
 

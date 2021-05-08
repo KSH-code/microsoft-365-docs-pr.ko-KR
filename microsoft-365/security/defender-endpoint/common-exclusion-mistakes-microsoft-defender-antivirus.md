@@ -1,35 +1,36 @@
 ---
-title: 제외를 정의할 때 피해야 하는 일반적인 실수
-description: Microsoft Defender 바이러스 백신 검사에 대한 제외를 정의할 때 일반적인 실수를 방지합니다.
+title: 제외 정의 시 피해야 하는 일반적인 실수
+description: 검사에 대한 제외를 정의할 때 일반적인 Microsoft Defender 바이러스 백신 방지합니다.
 keywords: 제외, 파일, 확장명, 파일 형식, 폴더 이름, 파일 이름, 검사
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: eb3ac89eb05b39ff3337aa8e9c5ead1c308fbefb
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: de739ca3c6a4ab305b575fa7e2f419d044d997a8
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764918"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274974"
 ---
-# <a name="common-mistakes-to-avoid-when-defining-exclusions"></a>제외를 정의할 때 피해야 하는 일반적인 실수
+# <a name="common-mistakes-to-avoid-when-defining-exclusions"></a>제외 정의 시 피해야 하는 일반적인 실수
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-Microsoft Defender 바이러스 백신을 검사하지 않는 항목에 대한 제외 목록을 정의할 수 있습니다. 이러한 제외된 항목에는 장치를 취약하게 만드는 위협이 포함될 수 있습니다. 
+검사하지 않는 항목에 대한 제외 목록을 Microsoft Defender 바이러스 백신 있습니다. 이러한 제외된 항목에는 장치를 취약하게 만드는 위협이 포함될 수 있습니다. 
 
 이 문서에서는 제외를 정의할 때 피해야 하는 몇 가지 일반적인 실수에 대해 설명합니다. 
 
-제외 목록을 정의하기 전에 제외 정의에 대한 권장 사항을 [참조하세요.](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions)
+제외 목록을 정의하기 전에 권장 사항 [정의하기를 참조하세요.](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions)
 
 ## <a name="excluding-certain-trusted-items"></a>신뢰할 수 있는 특정 항목 제외
 
@@ -50,17 +51,17 @@ Microsoft Defender 바이러스 백신을 검사하지 않는 항목에 대한 �
 
 ## <a name="using-a-single-exclusion-list-for-multiple-server-workloads"></a>여러 서버 워크로드에 단일 제외 목록 사용
 
-단일 제외 목록을 사용하여 여러 서버 워크로드에 대한 제외를 정의하지 않습니다. 서로 다른 응용 프로그램 또는 서비스 워크로드에 대한 제외를 여러 제외 목록으로 분할합니다. 예를 들어 IIS Server 작업의 제외 목록은 해당 작업 부하에 대한 제외 SQL Server 달라야 합니다.
+단일 제외 목록을 사용하여 여러 서버 워크로드에 대한 제외를 정의하지 않습니다. 서로 다른 응용 프로그램 또는 서비스 워크로드에 대한 제외를 여러 제외 목록으로 분할합니다. 예를 들어 IIS Server 작업의 제외 목록은 해당 작업 부하에 대한 제외 목록과 SQL Server 합니다.
 
 ## <a name="using-incorrect-environment-variables-as-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists"></a>파일 이름 및 폴더 경로 또는 확장명 제외 목록에서 잘못된 환경 변수를 와일드카드로 사용
 
-Microsoft Defender 바이러스 백신 서비스는 LocalSystem 계정을 사용하여 시스템 컨텍스트에서 실행됩니다. 즉, 사용자 환경 변수가 아니라 시스템 환경 변수에서 정보를 얻습니다. 제외 목록에서 환경 변수를 와일드카드로 사용하는 것은 시스템 변수 및 NT AUTHORITY\SYSTEM 계정으로 실행되는 프로세스에 해당되는 변수로 제한됩니다. 따라서 Microsoft Defender 바이러스 백신 폴더 및 프로세스 제외를 추가할 때 사용자 환경 변수를 와일드카드로 사용하지 않습니다. 시스템 환경 [변수의](configure-extension-file-exclusions-microsoft-defender-antivirus.md#system-environment-variables) 전체 목록은 시스템 환경 변수 아래 표를 참조하세요.
+Microsoft Defender 바이러스 백신 서비스는 LocalSystem 계정을 사용하여 시스템 컨텍스트에서 실행됩니다. 즉, 사용자 환경 변수가 아니라 시스템 환경 변수에서 정보를 얻게 됩니다. 제외 목록에서 환경 변수를 와일드카드로 사용하는 것은 시스템 변수 및 NT AUTHORITY\SYSTEM 계정으로 실행되는 프로세스에 해당되는 변수로 제한됩니다. 따라서 폴더 및 프로세스 제외를 추가할 때 사용자 환경 변수를 와일드카드로 Microsoft Defender 바이러스 백신 않습니다. 시스템 환경 [변수의](configure-extension-file-exclusions-microsoft-defender-antivirus.md#system-environment-variables) 전체 목록은 시스템 환경 변수 아래 표를 참조하세요.
 
 제외 [목록에서](configure-extension-file-exclusions-microsoft-defender-antivirus.md#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists) 와일드카드를 사용하는 방법에 대한 자세한 내용은 파일 이름 및 폴더 경로 또는 확장명 제외 목록에서 와일드카드 사용을 참조하세요.
 
 ## <a name="related-articles"></a>관련 문서
 
-- [Microsoft Defender 바이러스 백신 검사에서 제외 구성 및 유효성 검사](configure-exclusions-microsoft-defender-antivirus.md)
+- [검사에서 제외 구성 Microsoft Defender 바이러스 백신 유효성 검사](configure-exclusions-microsoft-defender-antivirus.md)
 - [파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 - [프로세스에서 연 파일에 대한 제외 구성 및 유효성 검사](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Windows Server에서 Microsoft Defender 바이러스 백신 제외 구성](configure-server-exclusions-microsoft-defender-antivirus.md)
+- [Microsoft Defender 바이러스 백신 서버에서 Windows 제외 구성](configure-server-exclusions-microsoft-defender-antivirus.md)

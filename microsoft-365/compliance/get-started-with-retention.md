@@ -18,19 +18,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 조직의 데이터를 관리하도록 보존 정책 및 보존 레이블 구현을 시작할 준비가 되었지만, 어디서부터 시작해야 할지 모르겠나요? 시작을 도와주는 실질적인 지침을 읽어 보세요.
-ms.openlocfilehash: 65c196f8838378a10263370b1377b3eb43b14915
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+description: 조직의 데이터를 관리하도록 보존 정책 및 보존 레이블 구현을 시작할 준비가 되었지만, 어디서부터 시작해야 할지 모르겠나요? 시작을 위한 몇 가지 실용적인 지침을 읽어보세요.
+ms.openlocfilehash: b39f6246fc9265319e0d4e5b053db6dfddc0d43a
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051910"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244591"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블 시작하기
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
-보관해야 할 콘텐츠를 보존하고 보관할 필요 없는 콘텐츠를 삭제하여 조직의 데이터 관리를 시작할 준비가 되었나요? 시작하려면 다음과 같은 개괄적인 지침을 사용하세요.
+보관해야 할 콘텐츠를 보존하고 보관할 필요 없는 콘텐츠를 삭제하여 조직의 데이터 관리를 시작할 준비가 되었나요? 시작을 위해 다음 지침을 사용하세요.
 
 1. Microsoft 365의 **보존 방식을 이해** 한 다음 보존 정책이나 보존 레이블을 사용해야 하는지 또는 조합을 사용해야 하는지 식별합니다. [보존에 대해 알아보기](retention.md)
 
@@ -56,9 +56,9 @@ ms.locfileid: "51051910"
 
 이 기본 역할을 사용하는 대신 새 역할 그룹을 생성하고 **보존 관리** 역할을 이 그룹에 추가할 수 있습니다. 읽기 전용 역할의 경우 **읽기 전용 보존 관리** 를 사용하세요. 
 
-해당 역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center)을 참조하세요.
+해당 역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center)을 참조하세요.
 
-사용자에게 역할 그룹을 추가하고 역할을 할당하는 방법에 대한 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+사용자에게 역할 그룹을 추가하고 역할을 할당하는 방법에 대한 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
 
 해당 권한은 보존 정책 및 보존 레이블을 만들고 구성하고 적용하는 경우에만 필요합니다. 해당 정책 및 레이블을 구성하는 사용자는 콘텐츠에 대한 액세스 권한이 필요하지 않습니다.
 
@@ -86,8 +86,6 @@ ms.locfileid: "51051910"
 
 대부분 보존 정책은 사용자와의 상호 작용 없이 백그라운드에서 조용히 드러나지 않게 작동하므로 사용자를 위한 문서가 거의 필요하지 않습니다. Teams 보존 정책은 [보존 정책 관련 Teams 메시지](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)로 가는 링크가 포함된 메시지가 삭제되는 경우 사용자에게 공지됩니다.
 
-Microsoft 365 앱의 경우 보전 레이블이 UI에 표시되므로 프로덕션 네트워크에 해당 레이블을 배포하기 전에 최종 사용자와 지원 센터용 지침을 제공하세요.
+Microsoft 365 앱의 경우 보전 레이블이 UI에 표시되므로 프로덕션 네트워크에 해당 레이블을 배포하기 전에 최종 사용자와 지원 센터용 지침을 제공하세요. 사용자가 SharePoint 및 OneDrive의 보존 레이블을 적용할 수 있도록 하려면 [SharePoint 또는 OneDrive의 파일에 보존 레이블 적용](https://support.microsoft.com/office/apply-retention-labels-to-files-in-sharepoint-or-onedrive-11a6835b-ec9f-40db-8aca-6f5ef18132df)을 참조하세요.
 
-가장 효과적인 최종 사용자 문서는 선택한 보존 레이블 이름 및 구성에 대한 사용자 지정 안내사항 및 지침입니다. 사용자를 교육하고 채택을 유도하는 데 사용할 수 있는 다운로드 패키지는 다음 블로그 게시물을 참조하세요 [M365의 보존 레이블에 대한 최종 사용자 교육 – 채택을 가속화하는 방법](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-retention-labels-in-m365-how-to-accelerate/ba-p/1750861).
-
-다음 섹션에서도 기본 사용자 지침을 확인할 수 있습니다. [수동으로 보존 레이블 적용](create-apply-retention-labels.md#manually-apply-retention-labels).
+그러나, 가장 효과적인 최종 사용자 문서는 선택한 보존 레이블 이름 및 구성에 대한 사용자 지정 안내사항 및 지침입니다. 사용자를 교육하고 채택을 유도하는 데 사용할 수 있는 다운로드 패키지는 다음 블로그 게시물을 참조하세요 [M365의 보존 레이블에 대한 최종 사용자 교육 – 채택을 가속화하는 방법](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-retention-labels-in-m365-how-to-accelerate/ba-p/1750861).

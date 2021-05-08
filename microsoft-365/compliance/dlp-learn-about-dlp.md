@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 데이터 손실 방지 정책 및 도구를 사용하여 Microsoft 365 보호하는 방법을 알아보고 DLP 수명 주기를 둘러보는 방법을 알아보고 있습니다.
-ms.openlocfilehash: 451622d15b1f422304dd498264ff2fe4a343bb6c
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 88cf913f62d28c89bce7054473eb577217de9489
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52127792"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244615"
 ---
 # <a name="learn-about-data-loss-prevention"></a>데이터 손실 방지에 대해 알아보기
 
@@ -212,3 +212,5 @@ DLP에 대한 Microsoft 365 자세한 내용은 다음을 참조합니다.
 - [Microsoft 365 데이터 손실 방지 온-프레미스 스캐너 알아보기(미리 보기)](dlp-on-premises-scanner-learn.md)
 - [Microsoft 규정 준수 확장(미리 보기)에 대해 알아보기](dlp-chrome-learn-about.md)
 - [데이터 손실 방지 알림 대시보드에 대한 자세한 정보](dlp-alerts-dashboard-learn.md)
+
+데이터 손실 방지를 사용하여 데이터 개인 정보 보호 규정을 준수하는 방법에 대한 자세한 내용은 [Deploy information protection for data privacy regulations with Microsoft 365](../solutions/information-protection-deploy.md) (aka.ms/m365dataprivacy)를 참조하십시오.

@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Office 생산성 앱과 사이버 위협으로부터 비즈니스를 보호하는 고급 보호 기능을 포함하는 구독 서비스인 Microsoft 365 Business Premium에 대해 알아봅니다.
-ms.openlocfilehash: d6b0ded25e0478f85e73b807789463e4d55b1bb0
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: a355c9856ead4a66f6876cc7cb5aa8eb469d7f12
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578350"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244859"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 개요
 
@@ -46,7 +46,7 @@ Microsoft 365 Business Premium에 대한 간략한 개요를 보려면 이 비�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요. 
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요. 
 
 Microsoft 365 Business Premium은 최대 300개의 라이선스용으로 만들어졌습니다. 라이선스가 더 필요한 경우 자세한 내용은 [Microsoft 365 Enterprise](../enterprise/index.yml) 설명서를 참조하세요.
 
@@ -75,7 +75,7 @@ Microsoft 365 Business Premium은 다음을 통해 **위협으로부터 보호�
 
 - 샌드박스 환경에서 전자 메일 첨부 파일에 대한 고급 분석을 수행하여 새로 개발된 맬웨어(안전한 첨부 파일)를 검색합니다. 
 
-- 기계 학습 모델 및 가장 검색을 사용하는 피싱 방지 정책을 사용하도록 설정하여 고급 공격(Office 365 인텔리전스용 Defender의 피싱 방지)을 보호합니다. 
+- 기계 학습 모델 및 가장 검색을 사용하여 고급 공격으로부터 보호하는 피싱 방지 정책을 사용하도록 설정(Office 365 인텔리전스용 Defender의 피싱 방지). 
 
 - 신뢰할 수 없는 위치에서 액세스를 비활성화하거나 사무실 네트워크와 같은 신뢰할 수 있는 위치에서 다단계 인증을 우회하는 고급 정책을 설정합니다(신뢰할 수 있는 IP, 조건부 액세스를 포함하는 Azure MFA). 
 
@@ -111,6 +111,6 @@ Microsoft 365 Business Premium은 다음을 통해 **위협으로부터 보호�
 
 - 파트너 없이 Microsoft 365 Business Premium을 받으려면 [여기에서 구매](https://www.microsoft.com/microsoft-365/business)하고 [가입](sign-up.md) 지침을 따르세요.
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 Business Premium 교육 비디오](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business Premium 비디오(링크](../business-video/index.yml) 페이지)

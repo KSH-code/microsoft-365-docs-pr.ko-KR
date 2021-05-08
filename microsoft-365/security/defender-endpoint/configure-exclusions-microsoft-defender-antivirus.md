@@ -1,12 +1,12 @@
 ---
-title: Microsoft Defender 바이러스 백신 검사에 대한 제외 설정
-description: 파일(지정된 프로세스에서 수정한 파일 포함) 및 폴더를 Microsoft Defender AV에서 검사하지 못하게 제외할 수 있습니다. PowerShell을 사용하여 제외의 유효성을 검사합니다.
+title: 검사에 대한 제외 Microsoft Defender 바이러스 백신 설정
+description: 파일(지정된 프로세스에서 수정한 파일 포함) 및 폴더가 해당 폴더에서 검색되지 Microsoft Defender 바이러스 백신. PowerShell을 사용하여 제외의 유효성을 검사합니다.
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,48 +15,50 @@ manager: dansimp
 ms.technology: mde
 ms.audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: 08f7f9d4a6e9e70d3ef071f30712b2ae53f4ea52
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 7065aa7cd1975b2f5a38e79da8618ba3efdcdac5
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764666"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275123"
 ---
-# <a name="configure-and-validate-exclusions-for-microsoft-defender-antivirus-scans"></a>Microsoft Defender 바이러스 백신 검사에 대한 제외 구성 및 유효성 검사
+# <a name="configure-and-validate-exclusions-for-microsoft-defender-antivirus-scans"></a>검사에 대한 제외 Microsoft Defender 바이러스 백신 유효성 검사
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
-Microsoft Defender 바이러스 백신 검사에서 특정 파일, 폴더, 프로세스 및 프로세스에서 연 파일을 제외할 수 있습니다. 이러한 제외는 예약된 [검사,](scheduled-catch-up-scans-microsoft-defender-antivirus.md)요구 [](run-scan-microsoft-defender-antivirus.md)시 검사 및 항상 실시간 보호 및 모니터링에 [적용됩니다.](configure-real-time-protection-microsoft-defender-antivirus.md) 처리된 파일에 대한 제외는 실시간 보호에만 적용됩니다.
+특정 파일, 폴더, 프로세스 및 프로세스에서 연 파일은 검사에서 제외할 Microsoft Defender 바이러스 백신 있습니다. 이러한 제외는 예약된 [검사,](scheduled-catch-up-scans-microsoft-defender-antivirus.md)요구 [](run-scan-microsoft-defender-antivirus.md)시 검사 및 항상 실시간 보호 및 모니터링에 [적용됩니다.](configure-real-time-protection-microsoft-defender-antivirus.md) 처리된 파일에 대한 제외는 실시간 보호에만 적용됩니다.
 
 ## <a name="configure-and-validate-exclusions"></a>제외 구성 및 유효성 검사
 
 제외를 구성하고 유효성을 검사하기 위해 다음을 참조합니다.
 
-- 파일 이름, 확장명 및 폴더 위치에 따라 제외를 [구성하고 유효성을 검사합니다.](configure-extension-file-exclusions-microsoft-defender-antivirus.md) 이렇게 하면 파일 확장명, 파일 이름 또는 위치에 따라 Microsoft Defender 바이러스 백신 검사에서 파일을 제외할 수 있습니다.
+- 파일 이름, 확장명 및 폴더 위치에 따라 제외를 [구성하고 유효성을 검사합니다.](configure-extension-file-exclusions-microsoft-defender-antivirus.md) 파일 확장명Microsoft Defender 바이러스 백신 이름 또는 위치에 따라 파일 검색에서 파일을 제외할 수 있습니다.
 
-- 프로세스에서 연 파일에 대한 제외를 [구성하고 유효성을 검사합니다.](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md) 이렇게 하면 특정 프로세스에서 연 검사에서 파일을 제외할 수 있습니다.
+- 프로세스에서 연 파일에 대한 제외를 [구성하고 유효성을 검사합니다.](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md) 특정 프로세스에서 연 검사에서 파일을 제외할 수 있습니다.
 
-## <a name="recommendations-for-defining-exclusions"></a>제외를 정의하기 위한 권장 사항
-[!IMPORTANT]
-Microsoft Defender 바이러스 백신에는 알려진 운영 체제 동작 및 일반적인 관리 파일(예: 엔터프라이즈 관리, 데이터베이스 관리 및 기타 엔터프라이즈 시나리오 및 상황에 사용되는 파일)을 기반으로 하는 많은 자동 제외가 포함되어 있습니다.  
-제외를 정의할 경우 Microsoft Defender 바이러스 백신에서 제공하는 보호가 낮아질 수 있습니다. 제외 구현과 관련된 위험을 항상 평가해야 합니다. 또한 악의적이지 않다고 확신하는 파일만 제외해야 합니다.
+## <a name="recommendations-for-defining-exclusions"></a>권장 사항 정의하는 데 사용할 수 있는 예
 
-다음은 제외를 정의할 때 유의해야 하는 권장 사항 목록입니다.  
+> [!IMPORTANT]
+> Microsoft Defender 바이러스 백신 운영 체제 동작 및 일반적인 관리 파일(예: 엔터프라이즈 관리, 데이터베이스 관리 및 기타 엔터프라이즈 시나리오 및 상황에 사용되는 파일)을 기반으로 하는 많은 자동 제외가 포함됩니다.  
+> 
+> 제외를 정의하면 제외가 제공하는 보호가 Microsoft Defender 바이러스 백신. 제외 구현과 관련된 위험을 항상 평가해야 합니다. 또한 악의적이지 않다고 확신하는 파일만 제외해야 합니다.
 
-- 제외는 기술적으로 보호 간격입니다. 제외를 정의할 때 항상 추가 완화를 고려합니다. 추가 완화는 제외된 위치에 적절한 ACL(액세스 제어 목록), 감사 정책, 최신 소프트웨어 등을 통해 처리하도록 하는 것만큼 간단할 수 있습니다.
+제외를 정의할 때 다음에 유의해야 합니다.  
 
-- 제외를 주기적으로 검토합니다. 검토 프로세스의 일부로 완화를 다시 확인하고 다시 적용합니다.
+- 제외는 기술적으로 보호 간격입니다. 제외를 정의할 때 항상 완화를 고려합니다. 다른 완화는 제외된 위치에 적절한 ACL(액세스 제어 목록), 감사 정책, 최신 소프트웨어 등을 통해 처리하도록 하는 것만큼 간단할 수 있습니다.
 
-- 사전 제외를 정의하지 않는 것이 가장 이상적입니다. 예를 들어 향후에는 문제가 될 수 있기 때문에 제외하지 말아야 합니다. 성능 관련 문제 또는 제외가 완화될 수 있는 응용 프로그램 호환성과 관련한 특정 문제에만 제외를 사용하십시오.
+- 제외를 주기적으로 검토합니다. 검토 프로세스의 일부로 완화를 다시 검토하고 다시 적용합니다.
+
+- 사전 예방적이면 제외를 정의하지 않는 것이 가장 이상적입니다. 예를 들어 향후에는 문제가 될 수 있기 때문에 제외하지 말아야 합니다. 제외를 완화할 수 있는 성능 또는 응용 프로그램 호환성과 관련한 문제와 같은 특정 문제에만 제외를 사용하십시오.
 
 - 제외 목록 변경 내용을 감사합니다. 보안 관리자는 특정 제외가 추가된 이유와 관련한 충분한 컨텍스트를 유지해야 합니다. 특정 경로가 제외된 이유에 대한 특정 이유에 대한 답변을 제공할 수 있습니다.
 
 ## <a name="related-articles"></a>관련 문서
 
-- [Windows Server 2016에서 Microsoft Defender 바이러스 백신 제외](configure-server-exclusions-microsoft-defender-antivirus.md)
-- [제외를 정의할 때 피해야 하는 일반적인 실수](common-exclusion-mistakes-microsoft-defender-antivirus.md)
+- [Microsoft Defender 바이러스 백신 제외 Windows Server 2016](configure-server-exclusions-microsoft-defender-antivirus.md)
+- [제외 정의 시 피해야 하는 일반적인 실수](common-exclusion-mistakes-microsoft-defender-antivirus.md)

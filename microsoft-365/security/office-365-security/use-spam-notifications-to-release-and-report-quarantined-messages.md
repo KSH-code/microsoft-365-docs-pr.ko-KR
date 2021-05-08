@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365의 최종 사용자 스팸 알림
+title: 2013의 최종 사용자 스팸 Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,15 +18,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 EOP(Exchange Online Protection)에서 전송된 메시지에 대한 최종 사용자 스팸 알림에 대해 배울 수 있습니다.
+description: 관리자는 EOP(2016년 8월 2일)의 최종 사용자 스팸 알림에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9cff91be399bd98eb7e6e5a2a6d91a4a8bb602ec
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3f5eafbb51cd0ff32c69fa0cff85729ef95d3d1f
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206081"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274991"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>사용자 스팸 알림을 사용하여 메시지 릴리스 및 보고
 
@@ -56,7 +56,7 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 - **날짜:** 메시지가 중단된 날짜 및 시간(UTC)입니다.
 
-- **보낸 사람 차단**: 이 링크를 클릭하여 수신 차단된 보낸 사람 목록에 보낸 사람이 추가됩니다. 자세한 내용은 메일 보낸 [사람 차단을 참조하세요.](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)
+- **보낸 사람 차단:** 이 링크를 클릭하여 사서함의 수신 차단된 보낸 사람 목록에 보낸 사람이 추가됩니다. 자세한 내용은 메일 보낸 [사람 차단을 참조하세요.](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)
 
 - **릴리스:** 스팸(피싱이 아닌) 메시지의 경우 보안 및 준수 센터를 규정하지 않고 여기에서 메시지를 & 있습니다.
 

@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Microsoft 365 Business Standard 구독을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: 9efd14af2955e85b9b13c437ad869710f69a90f6
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: ce45b4869000892b5640730e765dbfc9c21386ed
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579089"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244458"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Microsoft Business Standard 설정
 
@@ -69,7 +69,7 @@ Microsoft 365 Business Standard를 구입하면 사용자가 소유하고 있는
 
 1. Microsoft 365 Business Standard 구독에 기존 사용자가 있는 경우(예를 들어 Azure AD Connect를 사용한 경우) 해당 사용자에게 라이선스를 할당하는 옵션이 여기에 표시됩니다. 해당 사용자에게도 라이선스를 추가합니다.
 
-2. 해당 사용자를 추가한 후 새로 추가한 사용자와 자격 증명을 공유하는 옵션도 여기에 표시됩니다. 자격 증명을 인쇄, 전자 메일로 전송 또는 다운로드할 수 있습니다.
+2. 사용자를 추가한 후에는 새로 추가한 사용자와 자격 증명을 공유하는 옵션도 여기에 표시됩니다. 자격 증명을 인쇄, 전자 메일로 전송 또는 다운로드할 수 있습니다.
 
 ## <a name="connect-your-domain"></a>도메인 연결
 
@@ -139,4 +139,4 @@ Microsoft 365에는 비즈니스용 공용 웹 사이트가 포함되지 않습�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/4839abc6-9323-4cbf-a79d-2907235f9ebb]
 
-[공용 웹 사이트 사용](https://support.microsoft.com/office/3325d50e-d131-403c-a278-7f3296fe33a9)에서 자세히 알아보세요.
+[공용 웹 사이트 사용](../../business-video/create-web-site.md)에서 자세히 알아보세요.

@@ -1,46 +1,47 @@
 ---
-title: Microsoft Defender 바이러스 백신이 업데이트를 받는 방법 및 위치 관리
-description: Microsoft Defender 바이러스 백신이 보호 업데이트를 받는 방법에 대한 변경 순서를 관리합니다.
+title: 업데이트 수신 방법 및 Microsoft Defender 바이러스 백신 관리
+description: 보호 업데이트를 받는 방법에 대한 Microsoft Defender 바이러스 백신 관리합니다.
 keywords: 업데이트, 보안 기준, 보호, 변경 순서, ADL, MMPC, UNC, 파일 경로, 공유, wsus
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 9b1c9bc8c86c5b348e3c4d2a51e0bfafaf3e7174
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: c6961c4eac375ea36d801e278f5208f16d2558d9
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765470"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275027"
 ---
-# <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>Microsoft Defender 바이러스 백신 보호 업데이트 원본 관리
+# <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>Microsoft Defender 바이러스 백신 보호 업데이트의 출처 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=22154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=22154037)
 
 <a id="protection-updates"></a>
 <!-- this has been used as anchor in VDI content -->
 
-바이러스 백신 보호를 최신 상태로 유지하는 것이 중요합니다. Microsoft Defender 바이러스 백신에 대한 보호 업데이트를 관리하기 위한 두 가지 구성 요소가 있습니다. 
+바이러스 백신 보호를 최신 상태로 유지하는 것이 중요합니다. 다음 두 가지 구성 요소로 보호 업데이트를 관리할 수 Microsoft Defender 바이러스 백신. 
 - *업데이트가* 다운로드되는 위치 및 
 - *업데이트가* 다운로드되고 적용될 때 
 
-이 문서에서는 업데이트를 다운로드할 위치를 지정하는 방법에 대해 설명하고 있습니다(이를 변경 순서라고도 합니다). 업데이트 작동 방식 및 업데이트의 다른 측면(예: 업데이트 계획)을 구성하는 방법에 대한 개요는 [Microsoft Defender 바이러스](manage-updates-baselines-microsoft-defender-antivirus.md) 백신 업데이트 관리 및 기준 적용 항목을 참조하세요.
+이 문서에서는 업데이트를 다운로드할 위치를 지정하는 방법에 대해 설명하고 있습니다(이를 변경 순서라고도 합니다). 업데이트가 [Microsoft Defender 바이러스 백신](manage-updates-baselines-microsoft-defender-antivirus.md) 방법 및 업데이트의 다른 측면(예: 업데이트 계획)을 구성하는 방법에 대한 개요는 Microsoft Defender 바이러스 백신 업데이트 관리 및 기준 적용 항목을 참조하세요.
 
 > [!IMPORTANT]
-> Microsoft Defender 바이러스 백신 보안 인텔리전스 업데이트는 Windows 업데이트를 통해 전달됩니다. 2019년 10월 21일 월요일부터 모든 보안 인텔리전스 업데이트는 SHA-2로 단독 서명됩니다. 보안 인텔리전스를 업데이트하려면 SHA-2를 지원하기 위해 장치를 업데이트해야 합니다. 자세한 내용은 Windows 및 [WSUS에 대한 2019 SHA-2 코드 서명 지원 요구 사항을 참조합니다.](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)  
+> Microsoft Defender 바이러스 백신 보안 인텔리전스 업데이트는 Windows 업데이트 및 2019년 10월 21일 월요일부터 전달됩니다. 모든 보안 인텔리전스 업데이트는 SHA-2 전용으로 서명됩니다. 보안 인텔리전스를 업데이트하려면 SHA-2를 지원하기 위해 장치를 업데이트해야 합니다. 자세한 내용은 Windows [및 WSUS에 대한 2019 SHA-2 코드 서명 지원 요구 사항을 참조합니다.](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)  
 
 
 <a id="fallback-order"></a>
@@ -58,32 +59,32 @@ ms.locfileid: "51765470"
 끝점에서 업데이트를 받을 위치를 지정할 수 있는 위치는 5개입니다. 
 
 - [Microsoft 업데이트](https://support.microsoft.com/help/12373/windows-update-faq)
-- [Windows Server Update Service](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
+- [Windows 서버 업데이트 서비스](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
 - [Microsoft Endpoint Configuration Manager](/configmgr/core/servers/manage/updates)
 - [네트워크 파일 공유](#unc-share)
-- [Microsoft Defender 바이러스](https://www.microsoft.com/en-us/wdsi/defenderupdates) 백신 및 기타 Microsoft 맬웨어 방지에 대한 보안 인텔리전스 업데이트(정책 및 레지스트리에 MMPC(Microsoft 맬웨어 보호 센터) 보안 인텔리전스, 이전 이름으로 나열될 수 있습니다.
+- [Microsoft Defender 바이러스 백신 및](https://www.microsoft.com/en-us/wdsi/defenderupdates) 기타 Microsoft 맬웨어 방지에 대한 보안 인텔리전스 업데이트(정책 및 레지스트리에 MMPC(Microsoft 맬웨어 보호 센터) 보안 인텔리전스, 이전 이름으로 나열될 수 있습니다.
 
-Microsoft 업데이트는 최상의 보호 수준을 보장하기 위해 빠른 릴리스를 허용합니다. 즉, 자주 더 작은 다운로드가 가능합니다. Windows Server Update Service, Microsoft Endpoint Configuration Manager 및 Microsoft 보안 인텔리전스 업데이트 원본은 덜 자주 업데이트를 제공합니다. 따라서 델타가 커서 더 큰 다운로드가 생성될 수 있습니다. 
+Microsoft 업데이트는 최상의 보호 수준을 보장하기 위해 빠른 릴리스를 허용합니다. 즉, 자주 더 작은 다운로드가 가능합니다. Windows 서버 업데이트 서비스, Microsoft Endpoint Configuration Manager 및 Microsoft 보안 인텔리전스 업데이트 원본은 덜 자주 업데이트를 제공합니다. 따라서 델타가 커서 더 큰 다운로드가 생성될 수 있습니다. 
 
 > [!IMPORTANT]
-> Windows Server Update Service 또는 Microsoft Update 이후에 [Microsoft](https://www.microsoft.com/security/portal/definitions/adl.aspx) 보안 인텔리전스 페이지 업데이트를 폴백 원본으로 설정한 경우 현재 업데이트가 최신 버전이 아니면 보안 인텔리전스 업데이트에서만 업데이트가 다운로드됩니다. 기본적으로 이 날짜는 7일 연속으로 Windows Server Update Service 또는 Microsoft Update Services에서 업데이트를 적용할 수 없습니다.
+> Windows Server Update Service 또는 Microsoft Update 이후에 [Microsoft](https://www.microsoft.com/security/portal/definitions/adl.aspx) 보안 인텔리전스 페이지 업데이트를 폴백 원본으로 설정한 경우 현재 업데이트가 최신 버전이 아니면 보안 인텔리전스 업데이트에서만 업데이트가 다운로드됩니다. 기본적으로 이 날짜는 7일 연속으로 Windows 서버 업데이트 서비스 또는 Microsoft 업데이트 서비스에서 업데이트를 적용할 수 없습니다.
 > 그러나 보호가 기한이 지난 것으로 보고되기 전까지의 일 수를 설정할 [수 있습니다.](/windows/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#set-the-number-of-days-before-protection-is-reported-as-out-of-date)<p>
-> 2019년 10월 21일 월요일부터 보안 인텔리전스 업데이트는 SHA-2 전용으로 서명됩니다. 최신 보안 인텔리전스 업데이트를 다운로드하려면 SHA-2를 지원하기 위해 장치를 업데이트해야 합니다. 자세한 내용은 Windows 및 [WSUS에 대한 2019 SHA-2 코드 서명 지원 요구 사항을 참조합니다.](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)
+> 2019년 10월 21일 월요일부터 보안 인텔리전스 업데이트는 SHA-2 전용으로 서명됩니다. 최신 보안 인텔리전스 업데이트를 다운로드하려면 SHA-2를 지원하기 위해 장치를 업데이트해야 합니다. 자세한 내용은 Windows [및 WSUS에 대한 2019 SHA-2 코드 서명 지원 요구 사항을 참조합니다.](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)
 
 각 원본에는 다음 표에 설명된 바와 같이 네트워크 구성 방식과 업데이트를 게시하는 정도에 따라 달라지는 일반적인 시나리오가 있습니다.
 
-|위치 | 예제 시나리오 |
+|위치 | 샘플 시나리오 |
 |---|---|
-|Windows Server Update Service | Windows Server Update Service를 사용하여 네트워크에 대한 업데이트를 관리하고 있습니다.|
-|Microsoft 업데이트 | 끝점이 Microsoft 업데이트에 직접 연결하게 하려는 경우 이 기능은 엔터프라이즈 네트워크에 불규칙하게 연결되는 끝점이나 Windows Server Update Service를 사용하여 업데이트를 관리하지 않는 경우 유용할 수 있습니다.|
+|Windows 서버 업데이트 서비스 | 서버 업데이트 Windows 사용하여 네트워크의 업데이트를 관리하고 있습니다.|
+|Microsoft 업데이트 | 끝점이 Microsoft 업데이트에 직접 연결하게 하려는 경우 이 기능은 엔터프라이즈 네트워크에 불규칙하게 연결되는 끝점이나 업데이트 관리에 Windows 서버 업데이트 서비스를 사용하지 않는 경우 유용할 수 있습니다.|
 |파일 공유 | 인터넷에 연결되지 않은 장치(예: VM)가 있습니다. 인터넷에 연결된 VM 호스트를 사용하여 VM이 업데이트를 받을 수 있는 네트워크 공유에 대한 업데이트를 다운로드할 수 있습니다. [VDI(가상](deployment-vdi-microsoft-defender-antivirus.md) 데스크톱 인프라) 환경에서 파일 공유를 사용하는 방법에 대한 자세한 내용은 VDI 배포 가이드를 참조하세요.|
-|Microsoft Endpoint Manager | Microsoft Endpoint Manager를 사용하여 끝점을 업데이트하고 있습니다.|
-|Microsoft Defender 바이러스 백신 및 기타 Microsoft 맬웨어 방지(이전의 MMPC)에 대한 보안 인텔리전스 업데이트 |[SHA-2를 지원하기 위해](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)장치가 업데이트되어 있는지 확인 Microsoft Defender 바이러스 백신 보안 인텔리전스 업데이트는 Windows 업데이트를 통해 전달됩니다. 2019년 10월 21일 월요일부터 보안 인텔리전스 업데이트는 SHA-2 전용으로 서명됩니다. <br/>최근 감염으로 인하여 최신 보호 업데이트를 다운로드하거나 VDI 배포에 대한 강력한 기본 이미지를 [프로비전하는 데 도움이 됩니다.](deployment-vdi-microsoft-defender-antivirus.md) 이 옵션은 일반적으로 기본 원본이 아닌 최종 대체 원본으로만 사용해야 합니다. 지정된 일 수 동안 Windows Server Update Service 또는 Microsoft 업데이트에서 업데이트를 다운로드할 수 없는 경우만 [사용됩니다.](/windows/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#set-the-number-of-days-before-protection-is-reported-as-out-of-date)|
+|Microsoft Endpoint Manager  | 를 사용하여 Microsoft Endpoint Manager 끝점을 업데이트합니다.|
+|맬웨어 및 Microsoft Defender 바이러스 백신 Microsoft 맬웨어 방지(이전의 MMPC)에 대한 보안 인텔리전스 업데이트 |[SHA-2를 지원하기 위해](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)장치가 업데이트되어 있는지 확인 Microsoft Defender 바이러스 백신 보안 인텔리전스 업데이트는 Windows 업데이트를 통해 전달됩니다. 2019년 10월 21일 월요일부터 보안 인텔리전스 업데이트는 SHA-2만 서명됩니다. <br/>최근 감염으로 인하여 최신 보호 업데이트를 다운로드하거나 VDI 배포에 대한 강력한 기본 이미지를 [프로비전하는 데 도움이 됩니다.](deployment-vdi-microsoft-defender-antivirus.md) 이 옵션은 일반적으로 기본 원본이 아닌 최종 대체 원본으로만 사용해야 합니다. 지정된 일 수 동안 Windows 서버 업데이트 서비스 또는 Microsoft 업데이트에서 업데이트를 다운로드할 수 없는 경우만 [사용됩니다.](/windows/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#set-the-number-of-days-before-protection-is-reported-as-out-of-date)|
 
-그룹 정책, Microsoft Endpoint Configuration Manager, PowerShell cmdlet 및 WMI에서 업데이트 원본이 사용되는 순서를 관리할 수 있습니다.
+그룹 정책, 업데이트 원본, PowerShell cmdlet 및 WMI에서 업데이트 Microsoft Endpoint Configuration Manager 순서를 관리할 수 있습니다.
 
 > [!IMPORTANT]
-> Windows Server Update Service를 다운로드 위치로 설정하는 경우 위치를 지정하는 데 사용하는 관리 도구에 관계없이 업데이트를 승인해야 합니다. Windows Server Update Service를 사용하여 자동 승인 규칙을 설정할 수 있습니다. 이 규칙은 업데이트가 적어도 하루 한 번 도착할 때 유용할 수 있습니다. 자세한 내용은 독립 실행형 [Windows Server Update Service에서 끝점 보호 업데이트 동기화를 참조하세요.](/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)
+> 서버 Windows 서비스를 다운로드 위치로 설정하는 경우 위치를 지정하는 데 사용하는 관리 도구에 관계없이 업데이트를 승인해야 합니다. Windows 서버 업데이트 서비스를 사용하여 자동 승인 규칙을 설정할 수 있습니다. 이 규칙은 업데이트가 적어도 Windows 때 유용할 수 있습니다. 자세한 내용은 독립 실행형 서버 업데이트 서비스에서 끝점 보호 Windows [동기화를 참조하세요.](/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)
 
 이 문서의 절차에서는 먼저 주문을 설정하는 방법을 설명한  다음 파일 공유 옵션을 사용하도록 설정한 경우 설정하는 방법을 설명합니다.
 
@@ -95,7 +96,7 @@ Microsoft 업데이트는 최상의 보호 수준을 보장하기 위해 빠른 
 
 3. 정책을 **클릭한** 다음 **관리 템플릿을 클릭합니다.**
 
-4. Windows 구성 요소로 트리를 확장하고 **> Windows Defender > 업데이트하고** 다음 설정을 구성합니다.
+4. 트리를 확장하여 서명 Windows 구성 > Windows Defender > 구성 **요소를 확장하고** 다음 설정을 구성합니다.
 
    1.  보안 인텔리전스 업데이트 다운로드를 위한 원본 순서 정의 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 
 
@@ -112,11 +113,11 @@ Microsoft 업데이트는 최상의 보호 수준을 보장하기 위해 빠른 
    6. **확인** 을 클릭합니다. 이렇게 하면 원본이 원본 순서 **정의...** 그룹 정책 설정에서 참조될 때 파일 공유의 순서가 설정됩니다.
 
 > [!NOTE]
-> Windows 10 버전 1703에서 1809까지의 정책 경로는 **Windows 10,** 버전 1903용 Microsoft Defender 바이러스 백신 > 서명 업데이트에 대한 Windows 구성 요소 > Microsoft Defender 바이러스 백신 > Microsoft Defender 바이러스 백신 > 보안 인텔리전스 **업데이트입니다.**
+> Windows 10 버전 1703에서 1809까지의 정책 경로는 Windows **Components > Microsoft Defender 바이러스 백신 > Signature Updates** for Windows 10, version 1903인 경우 정책 경로는 Windows **Components > Microsoft Defender 바이러스 백신 > Security Intelligence Updates입니다.**
 
 ## <a name="use-configuration-manager-to-manage-the-update-location"></a>Configuration Manager를 사용하여 업데이트 위치 관리
 
-Microsoft Endpoint Manager(현재 분기) 구성에 대한 자세한 [내용은 Configure Security intelligence Updates for Endpoint Protection을](/configmgr/protect/deploy-use/endpoint-definition-updates) 참조하세요.
+보안 [인텔리전스](/configmgr/protect/deploy-use/endpoint-definition-updates) 업데이트 구성(Endpoint Protection 현재 분기)에 대한 자세한 Microsoft Endpoint Manager 구성을 참조하세요.
 
 
 ## <a name="use-powershell-cmdlets-to-manage-the-update-location"></a>PowerShell cmdlet을 사용하여 업데이트 위치 관리
@@ -130,10 +131,10 @@ Set-MpPreference -SignatureDefinitionUpdateFileSharesSource {\\UNC SHARE PATH|\\
 자세한 내용은 다음 문서를 참조하세요.
 - [Set-MpPreference -SignatureFallbackOrder](/powershell/module/defender/set-mppreference)
 - [Set-MpPreference -SignatureDefinitionUpdateFileSharesSource](/powershell/module/defender/set-mppreference#-signaturedefinitionupdatefilesharessources)
-- [PowerShell cmdlet을 사용하여 Microsoft Defender 바이러스 백신 구성 및 실행](use-powershell-cmdlets-microsoft-defender-antivirus.md)
+- [PowerShell cmdlet을 사용하여 구성 및 실행 Microsoft Defender 바이러스 백신](use-powershell-cmdlets-microsoft-defender-antivirus.md)
 - [Defender cmdlet](/powershell/module/defender/index)
 
-## <a name="use-windows-management-instruction-wmi-to-manage-the-update-location"></a>WMI(Windows Management Instruction)를 사용하여 업데이트 위치 관리
+## <a name="use-windows-management-instruction-wmi-to-manage-the-update-location"></a>WMI(Windows 관리 명령)를 사용하여 업데이트 위치 관리
 
 다음 [  속성에 MSFT_MpPreference  ](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) 클래스의 Set 메서드를 사용합니다.
 
@@ -151,12 +152,12 @@ MDM 구성에 대한 자세한 내용은 정책 [CSP - Defender/SignatureUpdateF
 
 ## <a name="what-if-were-using-a-third-party-vendor"></a>타사 공급업체를 사용 중이면 어떻게 하나요?
 
-이 문서에서는 Microsoft Defender 바이러스 백신에 대한 업데이트를 구성하고 관리하는 방법을 설명합니다. 그러나 타사 공급업체를 사용하여 이러한 작업을 수행할 수 있습니다. 
+이 문서에서는 사용자에 대한 업데이트를 구성하고 관리하는 방법을 Microsoft Defender 바이러스 백신. 그러나 타사 공급업체를 사용하여 이러한 작업을 수행할 수 있습니다. 
 
-예를 들어 Contoso가 Microsoft Defender 바이러스 백신을 포함하는 보안 솔루션을 관리하기 위해 Fabrikam을 고용했다고 가정해 보겠습니다. Fabrikam은 일반적으로 [Windows Management Instrumentation,](./use-wmi-microsoft-defender-antivirus.md) [PowerShell cmdlet](./use-powershell-cmdlets-microsoft-defender-antivirus.md)또는 [Windows](./command-line-arguments-microsoft-defender-antivirus.md) 명령줄을 사용하여 패치 및 업데이트를 배포합니다. 
+예를 들어 Contoso가 Fabrikam을 고용하여 보안 솔루션을 관리했다고 가정해 Microsoft Defender 바이러스 백신. Fabrikam은 일반적으로 Windows [관리](./use-wmi-microsoft-defender-antivirus.md)계측, [PowerShell cmdlet](./use-powershell-cmdlets-microsoft-defender-antivirus.md) [](./command-line-arguments-microsoft-defender-antivirus.md) 또는 Windows 명령줄을 사용하여 패치 및 업데이트를 배포합니다. 
 
 > [!NOTE]
-> Microsoft는 Microsoft Defender 바이러스 백신 관리를 위한 타사 솔루션을 테스트하지 않습니다.
+> Microsoft는 타사 솔루션을 관리하기 위한 타사 솔루션을 테스트하지 Microsoft Defender 바이러스 백신.
 
 <a id="unc-share"></a>
 ## <a name="create-a-unc-share-for-security-intelligence-updates"></a>보안 인텔리전스 업데이트용 UNC 공유 만들기
@@ -229,7 +230,7 @@ MDM 구성에 대한 자세한 내용은 정책 [CSP - Defender/SignatureUpdateF
        ```
 
     > [!NOTE]
-    > 예약된 작업이 만들어지면 작업 스케줄러의 Microsoft\Windows\2013에서 이러한 작업을 Windows Defender
+    > 예약된 작업이 만들어지면 작업 스케줄러의 Microsoft\Windows\Windows Defender
 9. 각 작업을 수동으로 실행하고 다음 폴더에 데이터(mpam-d.exe, mpam-fe.exe 및 nis_full.exe)가 있는지 확인합니다(다른 위치를 선택했습니다).
 
    - C:\Temp\TempSigs\x86
@@ -259,9 +260,9 @@ MDM 구성에 대한 자세한 내용은 정책 [CSP - Defender/SignatureUpdateF
 
 ## <a name="related-articles"></a>관련 문서
 
-- [Microsoft Defender 바이러스 백신 배포](deploy-manage-report-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 업데이트 관리 및 기준 적용](manage-updates-baselines-microsoft-defender-antivirus.md)
+- [배포 Microsoft Defender 바이러스 백신](deploy-manage-report-microsoft-defender-antivirus.md)
+- [업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [최신이 지난 끝점에 대한 업데이트 관리](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 - [이벤트 기반 강제 업데이트 관리](manage-event-based-updates-microsoft-defender-antivirus.md)
 - [모바일 장치 및 VM에 대한 업데이트 관리](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
-- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)

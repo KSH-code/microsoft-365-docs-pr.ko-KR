@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 93cd6331099c5c89aec2e0706f79ec7fb305b42a
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 06ee2f1cb68df0a957818e1fccb45628487c39fd
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765554"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274919"
 ---
 # <a name="prevent-users-from-seeing-or-interacting-with-the-microsoft-defender-antivirus-user-interface"></a>사용자가 Microsoft Defender 바이러스 백신 사용자 인터페이스를 보거나 상호 작용하지 못하도록 차단
 
@@ -29,7 +30,7 @@ ms.locfileid: "51765554"
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 그룹 정책을 사용하여 끝점의 사용자가 Microsoft Defender 바이러스 백신 인터페이스를 볼 수 없습니다. 또한 검사가 더이상 실행되지 않도록 차단할 수 있습니다.
 

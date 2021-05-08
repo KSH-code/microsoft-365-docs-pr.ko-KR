@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 문서의 검토 집합에 있는 문서에 대한 메타데이터 필드를 Advanced eDiscovery Microsoft 365.
-ms.openlocfilehash: e801f60b69c796dfcd2cb6d83cc4fbc721dc7658
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 77df40f4922718a7ed30431b0c1bd91f5c075425
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259466"
+ms.locfileid: "52244603"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Advanced eDiscovery의 문서 메타데이터 필드
 
@@ -119,7 +119,7 @@ ms.locfileid: "52259466"
 |모임 종료 날짜|MeetingEndDate|Meeting_end_date|모임의 모임 종료 날짜입니다.|
 |모임 시작 날짜|MeetingStartDate|Meeting_start_date|모임의 모임 시작 날짜입니다.|
 |메시지 종류|MessageKind|Message_kind|검색할 메시지 유형입니다. 가능한 **<br /> <br /> 값: 연락처 <br /> docs 전자 메일 <br /> <br /> externaldata <br /> 팩스 <br /> im <br /> 저널스 <br /> 모임 <br /> microsoftteams(Microsoft Teams에서** 채팅, 모임 및 통화의 항목 반환) 메모 게시물 **<br /> <br /> <br /> rssfeeds <br /> 작업 음성 <br /> 메일**| 
-|최신 첨부 파일 부모 ID||ModernAttachment_ParentId|문서 부모의 변경 불가능 ID입니다.|
+|ModernAttachment_ParentId||ModernAttachment_ParentId||
 |Native Extension|NativeExtension|Native_extension|항목의 기본 확장명입니다.|
 |기본 파일 이름|NativeFileName|Native_file_name|항목의 기본 파일 이름입니다.|
 |NativeMD5||Native_MD5|파일 스트림의 MD5 해시(128비트 해시 값)|
@@ -164,7 +164,6 @@ ms.locfileid: "52259466"
 |제목|제목|Doc_title|문서 메타데이터의 제목입니다.|
 |받는 사람|받는 사람|Email_to|To 메시지 유형에 대한 필드입니다. Format은 **DisplayName입니다. \<SmtpAddress>**|
 |전자 메일 집합의 고유|UniqueInEmailSet||**False이면** 첨부 파일이 전자 메일 집합에 중복되어 있습니다.|
-|버전 그룹 ID||Version_Group_Id|동일한 문서의 서로 다른 버전을 그룹화합니다.|
 |수정된 경우|WasRemediated|Was_Remediated|**True이면** 항목이 수정된 것입니다. 그렇지 않으면 **False입니다.**|
 |단어 개수|WordCount|Word_count|항목의 단어 수입니다.|
 |||||

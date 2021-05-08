@@ -1,10 +1,10 @@
 ---
-title: Microsoft Defender for Office 365
+title: Microsoft Defender for Office 365의 수정 작업
 keywords: AIR, autoIR, Endpoint용 Microsoft Defender, 자동화, 조사, 대응, 수정, 위협, 고급, 위협, 보호
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -15,20 +15,20 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Microsoft Defender for Office 365.
+description: Microsoft Defender for Office 365의 자동화된 조사에 따라 수정 작업에 대해 자세히 알아보습니다.
 ms.date: 04/30/2021
 ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ffaa7c46d81070a6443bf2233bbfdfd741ceb915
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 3be0a270bff2d75623fe5e0d6e004dd82aabf1f4
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114333"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275099"
 ---
-# <a name="remediation-actions-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
+# <a name="remediation-actions-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 수정 작업
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -38,18 +38,18 @@ ms.locfileid: "52114333"
 
 ## <a name="remediation-actions"></a>수정 작업
 
-Microsoft [Defender](defender-for-office-365.md) for Office 365 수정 작업이 포함되어 있습니다. 이러한 수정 작업은 다음을 포함할 수 있습니다.
+[Microsoft Defender for Office 365의 위협](defender-for-office-365.md) 방지 기능에는 특정 수정 작업이 포함되어 있습니다. 이러한 수정 작업은 다음을 포함할 수 있습니다.
 
 - 전자 메일 메시지 또는 클러스터의 일시 삭제
 - 차단 URL(클릭 시간)
 - 외부 메일 전달 해제
 - 위임 해제
 
-Microsoft Defender for Office 365 수정 작업은 자동으로 수행되지 않습니다. 대신, 수정 작업은 조직의 보안 운영 팀의 승인이 있는 경우만 수행됩니다.
+Microsoft Defender for Office 365에서는 수정 작업이 자동으로 수행되지 않습니다. 대신, 수정 작업은 조직의 보안 운영 팀의 승인이 있는 경우만 수행됩니다.
 
 ## <a name="threats-and-remediation-actions"></a>위협 및 수정 작업
 
-Microsoft Defender for Office 365 다양한 위협을 해결하기 위한 수정 작업이 포함되어 있습니다. 자동화된 조사를 수행하면 검토 및 승인할 수정 작업이 하나 이상 수행되는 경우가 종종 있습니다. 경우에 따라 자동화된 조사가 특정 수정 작업을 수행하지 않는 경우도 있습니다. 추가로 조사하고 적절한 조치를 취하기 위해 다음 표의 지침을 사용하세요.
+Microsoft Defender for Office 365에는 다양한 위협을 해결하기 위한 수정 작업이 포함되어 있습니다. 자동화된 조사를 수행하면 검토 및 승인할 수정 작업이 하나 이상 수행되는 경우가 종종 있습니다. 경우에 따라 자동화된 조사가 특정 수정 작업을 수행하지 않는 경우도 있습니다. 추가로 조사하고 적절한 조치를 취하기 위해 다음 표의 지침을 사용하세요.
 
 |범주|위협/위험|수정 작업|
 |:---|:---|:---|
@@ -69,10 +69,10 @@ Microsoft Defender for Office 365 다양한 위협을 해결하기 위한 수정
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Microsoft Defender for Office 365](air-view-investigation-results.md)
-- [Microsoft Defender에서 자동화된 조사 후 보류 중 또는 완료된 수정 Office 365](air-review-approve-pending-completed-actions.md)
+- [Microsoft Defender for Office 365에서 자동화된 조사의 세부 정보 및 결과 보기](air-view-investigation-results.md)
+- [Microsoft Defender for Office 365에서 자동화된 조사 후 보류 중 또는 완료된 수정 작업 보기](air-review-approve-pending-completed-actions.md)
 
 ## <a name="related-articles"></a>관련 문서
 
 - [끝점용 Microsoft Defender의 자동화된 조사에 대해 자세히 알아보시겠습니다.](/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
-- [Defender의 기능에 Microsoft 365 자세히 알아보기](/microsoft-365/security/defender/microsoft-365-defender)
+- [Microsoft 365 Defender의 기능에 대해 자세히 알아보기](/microsoft-365/security/defender/microsoft-365-defender)

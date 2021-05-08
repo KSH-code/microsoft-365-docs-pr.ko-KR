@@ -1,13 +1,13 @@
 ---
-title: Microsoft Defender 바이러스 백신 보호 기능 사용 및 구성
-description: 동작 모니터링, 학습, 기계 학습 등의 Microsoft Defender 바이러스 백신 실시간 보호 기능 사용 및 구성
+title: 보안 보호 기능 Microsoft Defender 바이러스 백신 사용 및 구성
+description: 동작 모니터링Microsoft Defender 바이러스 백신 학습과 같은 실시간 보호 기능 사용 및 구성
 keywords: 바이러스 백신, 실시간 보호, rtp, 기계 학습, 동작 모니터링,추론
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.date: 12/16/2019
@@ -15,21 +15,22 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 807348fcbf3ad4ef9698b11b194d752d8038b4c9
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 1e39e42b79a2a767473c4473434da249a0d07228
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765110"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275135"
 ---
-# <a name="enable-and-configure-microsoft-defender-antivirus-always-on-protection-in-group-policy"></a>그룹 정책에서 Microsoft Defender 바이러스 백신 항상 보호 사용 및 구성
+# <a name="enable-and-configure-microsoft-defender-antivirus-always-on-protection-in-group-policy"></a>그룹 정책에서 Microsoft Defender 바이러스 백신 항상 보호 설정 및 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 항상 보호는 알려진 의심스러운 활동 및 악의적인 활동을 기반으로 맬웨어를 식별하기 위한 실시간 보호, 동작 모니터링 및 추론으로 구성됩니다.
 
@@ -37,36 +38,36 @@ ms.locfileid: "51765110"
 
 ## <a name="enable-and-configure-always-on-protection-in-group-policy"></a>그룹 정책에서 Always-On 보호 사용 및 구성
 
-로컬 그룹 **정책** 편집기를 사용하여 Microsoft Defender 바이러스 백신 항상 보호 설정을 사용하도록 설정하고 구성할 수 있습니다.
+로컬 그룹 **정책** 편집기를 사용하여 로컬 그룹 정책 편집기를 사용하여 항상 Microsoft Defender 바이러스 백신 설정을 사용하도록 설정하고 구성할 수 있습니다.
 
 항상 보호를 사용하도록 설정하고 구성하려면
 
 1. 로컬 **그룹 정책 편집기를 열습니다.** 이렇게 하려면 다음을 수행합니다.  
 
-    1. Windows 10 작업 표시줄 검색 상자에 **gpedit 를 입력합니다.**
+    1. 작업 Windows 10 상자에 **gpedit 를 입력합니다.**
     
     1. 최상의 **일치 아래에서** 그룹 정책 **편집을 클릭하여** 로컬 그룹 정책 **편집기를 실행합니다.**
     
        ![GPEdit 작업 표시줄 검색 결과](images/gpedit-search.png)
 
-2. 로컬 그룹 정책 편집기 왼쪽 창에서 트리를 컴퓨터 구성 관리 템플릿 Windows 구성 요소 Microsoft Defender 바이러스 백신으로   >    >    >  **확장합니다.** 
+2. 로컬 그룹 정책 편집기 왼쪽 창에서 트리를 컴퓨터 구성 관리 템플릿 Windows   >    >  **구성 요소**  >  Microsoft Defender 바이러스 백신. 
 
-3. Microsoft Defender 바이러스 백신 맬웨어 방지 서비스 정책 설정을 구성합니다. 이렇게 하려면 다음을 수행합니다.  
+3. 맬웨어 Microsoft Defender 바이러스 백신 정책 설정을 구성합니다. 이렇게 하려면 다음을 수행합니다.  
 
-    1. 오른쪽의 **Microsoft Defender 바이러스** 백신 세부 정보 창에서 다음 표에 지정된 정책 설정을 두 번 클릭합니다.
+    1. 오른쪽의  Microsoft Defender 바이러스 백신 세부 정보 창에서 다음 표에 지정된 정책 설정을 두 번 클릭합니다.
 
        | 설정 | 설명 | 기본 설정 |
        |-----------------------------|------------------------|-------------------------------|
-       | 맬웨어 방지 서비스가 정상 우선 순위로 시작하도록 허용 | Microsoft Defender 바이러스 백신 엔진의 우선 순위를 낮출 수 있습니다. 이 엔진은 시작 프로세스를 최대한 줄이려 하는 경량 배포에서 유용할 수 있습니다. 이는 끝점에 대한 보호에 영향을 줄 수 있습니다. | 사용
-       | 맬웨어 방지 서비스가 항상 실행되는 상태로 유지하도록 허용 | 보호 업데이트를 사용하지 않도록 설정한 경우 Microsoft Defender 바이러스 백신을 계속 실행으로 설정할 수 있습니다. 그러면 끝점의 보호 수준이 낮아지게 됩니다. | 사용 안 함 |
+       | 맬웨어 방지 서비스가 정상 우선 순위로 시작하도록 허용 | Microsoft Defender 바이러스 백신 엔진의 우선 순위를 낮출 수 있습니다. 시작 프로세스를 최대한 줄이면 경량 배포에 유용할 수 있습니다. 이는 끝점에 대한 보호에 영향을 줄 수 있습니다. | 사용
+       | 맬웨어 방지 서비스가 항상 실행되는 상태로 유지하도록 허용 | 보호 업데이트를 사용하지 않도록 설정한 경우 계속 Microsoft Defender 바이러스 백신 수 있습니다. 그러면 끝점의 보호 수준이 낮아지게 됩니다. | 사용 안 함 |
     
     1. 설정을 적절하게 구성하고 확인 을 **클릭합니다.**
     
     1. 표의 각 설정에 대해 이전 단계를 반복합니다.
 
-4. Microsoft Defender 바이러스 백신 실시간 보호 정책 설정을 구성합니다. 이렇게 하려면 다음을 수행합니다.
+4. 실시간 Microsoft Defender 바이러스 백신 정책 설정을 구성합니다. 이렇게 하려면 다음을 수행합니다.
 
-    1. Microsoft **Defender 바이러스** 백신 세부 정보 창에서 실시간 보호를 두 **번 클릭합니다.** 또는 왼쪽 **창의 Microsoft Defender 바이러스** 백신 트리에서 실시간 보호 **를 클릭합니다.**
+    1. 세부 **Microsoft Defender 바이러스 백신** 창에서 실시간 보호를 두 **번 클릭합니다.** 또는 왼쪽 **창의** Microsoft Defender 바이러스 백신 트리에서 실시간 보호 **를 클릭합니다.**
     
     1. 오른쪽의  실시간 보호 세부 정보 창에서 다음 표에 지정된 정책 설정을 두 번 클릭합니다.  
 
@@ -76,22 +77,22 @@ ms.locfileid: "51765110"
        | 다운로드한 모든 파일 및 첨부 파일 검색 | 다운로드한 파일 및 첨부 파일이 자동으로 검색됩니다. 이 필터는 다운로드 전과 Windows Defender 검색하는 SmartScreen 필터와 함께 작동됩니다. | 사용 |
        | 컴퓨터에서 파일 및 프로그램 활동 모니터링 | Microsoft Defender 바이러스 백신 엔진은 파일 변경 내용(이동, 복사본 또는 수정과 같은 파일 쓰기) 및 일반 프로그램 활동(열리거나 실행되고 다른 프로그램이 실행되는 프로그램)을 기록합니다. | 사용 |
        | 원시 볼륨 쓰기 알림 켜기 | 원시 볼륨 쓰기에 대한 정보는 동작 모니터링을 통해 분석됩니다. | 사용 |
-       | 실시간 보호를 사용할 때마다 프로세스 검색 켜기 | Microsoft Defender 바이러스 백신 엔진에서 실행 중인 프로세스에서 의심스러운 수정 또는 동작이 검색될 수 있도록 독립적으로 설정할 수 있습니다. 이 기능은 실시간 보호를 일시적으로 사용하지 않도록 설정하고 사용하지 않도록 설정한 동안 시작된 프로세스를 자동으로 검색하려는 경우 유용합니다. | 사용 |
+       | 실시간 보호를 사용할 때마다 프로세스 검색 켜기 | 실행 중인 프로세스에서 의심스러운 수정 또는 Microsoft Defender 바이러스 백신 검색할 수 있도록 독립적으로 설정할 수 있습니다. 이 기능은 실시간 보호를 일시적으로 사용하지 않도록 설정하고 사용하지 않도록 설정한 동안 시작된 프로세스를 자동으로 검색하려는 경우 유용합니다. | 사용 |
        | 검사할 다운로드한 파일 및 첨부 파일의 최대 크기 정의 | 크기를 킬로바이트로 정의할 수 있습니다. | 사용 |
        | 동작 모니터링 켜기에 대한 로컬 설정 다시 설정 구성 | 동작 모니터링 구성에 대한 로컬 오버라이드를 구성합니다. 이 설정은 그룹 정책에서만 설정할 수 있습니다. 이 설정을 사용하면 로컬 기본 설정이 그룹 정책보다 우선합니다. 이 설정을 사용하지 않도록 설정하거나 구성하지 않는 경우 그룹 정책이 로컬 기본 설정보다 우선합니다.| 사용 |
        | 다운로드한 모든 파일 및 첨부 파일을 검사하기 위한 로컬 설정 다시 설정 구성 | 다운로드한 모든 파일 및 첨부 파일에 대한 검사 구성에 대한 로컬 다시 설정을 구성합니다. 이 설정은 그룹 정책에서만 설정할 수 있습니다. 이 설정을 사용하면 로컬 기본 설정이 그룹 정책보다 우선합니다. 이 설정을 사용하지 않도록 설정하거나 구성하지 않는 경우 그룹 정책이 로컬 기본 설정보다 우선합니다.| 사용 |
        | 컴퓨터의 파일 및 프로그램 활동 모니터링에 대한 로컬 설정 다시 설정 구성 | 컴퓨터의 파일 및 프로그램 활동에 대한 모니터링 구성에 대한 로컬 다시 설정을 구성합니다. 이 설정은 그룹 정책에서만 설정할 수 있습니다. 이 설정을 사용하면 로컬 기본 설정이 그룹 정책보다 우선합니다. 이 설정을 사용하지 않도록 설정하거나 구성하지 않는 경우 그룹 정책이 로컬 기본 설정보다 우선합니다.| 사용 |
        | 실시간 보호를 켜도록 로컬 설정 다시 설정 구성 | 실시간 보호를 켜도록 구성에 대한 로컬 다시 설정을 구성합니다. 이 설정은 그룹 정책에서만 설정할 수 있습니다. 이 설정을 사용하면 로컬 기본 설정이 그룹 정책보다 우선합니다. 이 설정을 사용하지 않도록 설정하거나 구성하지 않는 경우 그룹 정책이 로컬 기본 설정보다 우선합니다.| 사용 |
        | 들어오는 파일 및 나올 파일 활동에 대한 모니터링을 위한 로컬 설정 오버라이드 구성 | 수신 및 전송 파일 활동에 대한 모니터링 구성에 대한 로컬 오버라이드를 구성합니다. 이 설정은 그룹 정책에서만 설정할 수 있습니다. 이 설정을 사용하면 로컬 기본 설정이 그룹 정책보다 우선합니다. 이 설정을 사용하지 않도록 설정하거나 구성하지 않는 경우 그룹 정책이 로컬 기본 설정보다 우선합니다. | 사용 |
-       | 수신 및 전송 파일 및 프로그램 활동에 대한 모니터링 구성 | 들어오는 방향, 나갈 방향, 둘 다 또는 둘 다에 대해 모니터링이 진행될지 여부를 지정합니다. 이는 특정 서버를 정의한 Windows Server 설치 또는 많은 양의 파일 변경 내용이 한 방향에서만 표시되고 네트워크 성능을 향상하려는 서버 역할과 관련이 있습니다. 네트워크에서 완전히 업데이트된 끝점 및 서버는 파일 변경의 수나 방향에 따라 성능에 거의 영향을 줄 수 없습니다. | 사용(양방향) |
+       | 수신 및 전송 파일 및 프로그램 활동에 대한 모니터링 구성 | 들어오는 방향, 나갈 방향, 둘 다 또는 둘 다에 대해 모니터링이 진행될지 여부를 지정합니다. 이 설정은 특정 Windows 정의한 서버 설치 또는 많은 양의 파일 변경 내용이 한 방향으로만 표시되고 네트워크 성능을 향상하려는 서버 역할과 관련이 있습니다. 네트워크에서 완전히 업데이트된 끝점 및 서버는 파일 변경의 수나 방향에 따라 성능에 거의 영향을 줄 수 없습니다. | 사용(양방향) |
 
     1. 설정을 적절하게 구성하고 확인 을 **클릭합니다.**
     
     1. 표의 각 설정에 대해 이전 단계를 반복합니다.
 
-5. Microsoft Defender 바이러스 백신 검사 정책 설정을 구성합니다. 이렇게 하려면 다음을 수행합니다.  
+5. 검색 Microsoft Defender 바이러스 백신 설정을 구성합니다. 이렇게 하려면 다음을 수행합니다.  
 
-    1. 왼쪽 **창의 Microsoft Defender 바이러스** 백신 트리에서 검사 를 **클릭합니다.**
+    1. 왼쪽 **창의** Microsoft Defender 바이러스 백신 트리에서 스캔을 **클릭합니다.**
     
        ![Microsoft Defender 바이러스 백신 검사 옵션](images/gpedit-windows-defender-antivirus-scan.png)
 
@@ -99,7 +100,7 @@ ms.locfileid: "51765110"
 
        | 설정 | 설명 | 기본 설정 |
        |-----------------------------|------------------------|-------------------------------|    
-       | 추론 켜기 | 추론 보호는 Microsoft Defender 바이러스 백신 엔진이 활동을 감지하라는 요청이 되기 직전에 의심스러운 활동을 사용하지 않도록 설정하거나 차단합니다. | 사용 |
+       | 추론 켜기 | 추론 보호는 활동 감지를 요청하기 직전에 의심스러운 활동을 Microsoft Defender 바이러스 백신 차단합니다. | 사용 |
 
     1. 설정을 적절하게 구성하고 확인 을 **클릭합니다.**
     
@@ -117,11 +118,11 @@ ms.locfileid: "51765110"
 
 1. 로컬 **그룹 정책 편집기를 열습니다.**
 
-   1. Windows 10 작업 표시줄 검색 상자에 **gpedit 를 입력합니다.**
+   1. 작업 Windows 10 상자에 **gpedit 를 입력합니다.**
    
    1. 최상의 **일치 아래에서** 그룹 정책 **편집을 클릭하여** 로컬 그룹 정책 **편집기를 실행합니다.**
 
-2.  로컬 그룹 정책 편집기 왼쪽 창에서 트리를 컴퓨터 구성 관리 템플릿 Windows 구성   >    >  **요소**  >  **Microsoft Defender 바이러스** 백신 실시간 보호로  >  **확장합니다.**
+2.  로컬 그룹 정책 편집기 왼쪽 창에서 컴퓨터 구성 관리 템플릿 Windows 구성 요소 및 실시간 보호로 Microsoft Defender 바이러스 백신  >    >    >    >  **확장합니다.**
 
 3. 오른쪽의  실시간 보호 세부 정보 창에서 실시간 보호 끄기 를 **두 번 클릭합니다.**
 
@@ -137,5 +138,5 @@ ms.locfileid: "51765110"
 
 ## <a name="related-articles"></a>관련 문서
 
-- [동작,추론적 및 실시간 보호 구성](configure-protection-features-microsoft-defender-antivirus.md)
-- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
+- [동작, 추론 및 실시간 보호 구성](configure-protection-features-microsoft-defender-antivirus.md)
+- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)

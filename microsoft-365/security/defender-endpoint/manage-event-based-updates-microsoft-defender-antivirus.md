@@ -1,13 +1,13 @@
 ---
-title: 특정 이벤트 후 Microsoft Defender 바이러스 백신 업데이트 적용
-description: 시작 또는 클라우드 제공 검색 보고서를 받은 후 Microsoft Defender 바이러스 백신이 보안 인텔리전스 업데이트를 적용하는 방법을 관리합니다.
+title: 특정 Microsoft Defender 바이러스 백신 후 업데이트 적용
+description: 시작 또는 Microsoft Defender 바이러스 백신 검색 보고서를 받은 후 보안 인텔리전스 업데이트를 적용하는 방법을 관리합니다.
 keywords: 업데이트, 보호, 강제 업데이트, 이벤트, 시작, 최신 확인, 알림
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 09/17/2018
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 78a04105fce0a3a1f9f7ea3f9ee993dd53750f3f
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 624e32bfebfce02021f1dcb1dbdde9446472239a
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764558"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274703"
 ---
 # <a name="manage-event-based-forced-updates"></a>이벤트 기반 강제 업데이트 관리
 
@@ -29,17 +30,17 @@ ms.locfileid: "51764558"
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
-Microsoft Defender 바이러스 백신을 사용하면 시작 시 또는 클라우드 제공 보호 서비스에서 특정 보고서를 받은 후와 같은 특정 이벤트가 발생하거나 업데이트가 발생하지 않을지 여부를 결정할 수 있습니다.
+Microsoft Defender 바이러스 백신 시작 시 또는 클라우드 제공 보호 서비스에서 특정 보고서를 받은 후와 같은 특정 이벤트가 발생하거나 업데이트가 발생하면 안 되는지 여부를 결정할 수 있습니다.
 
 ## <a name="check-for-protection-updates-before-running-a-scan"></a>검사를 실행하기 전에 보호 업데이트 확인
 
-Microsoft Endpoint Configuration Manager, 그룹 정책, PowerShell cmdlet 및 WMI를 사용하여 예약된 검사를 실행하기 전에 Microsoft Defender 바이러스 백신이 보호 업데이트를 확인하고 다운로드하게 할 수 있습니다.
+그룹 정책, Microsoft Endpoint Configuration Manager, PowerShell cmdlet 및 WMI를 사용하여 예약된 검사를 실행하기 전에 Microsoft Defender 바이러스 백신 업데이트를 강제로 확인하고 다운로드할 수 있습니다.
 
 ### <a name="use-configuration-manager-to-check-for-protection-updates-before-running-a-scan"></a>Configuration Manager를 사용하여 검사를 실행하기 전에 보호 업데이트 확인
 
-1. Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을  열고(왼쪽의 탐색 창에서 자산 및 규정 준수를 클릭한 다음 트리를 끝점 보호 맬웨어 방지 정책 **개요로**  >    >  확장)
+1. Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을 열고(왼쪽의 탐색 창에서 자산 및 규정 준수를 클릭한 다음 개요 Endpoint Protection 맬웨어 방지 정책)   >    >  
 
 2. 예약된 검사 **섹션으로 이동하여** 검사를 실행하기 전에 최신 보안 인텔리전스 업데이트 확인을  **예로 설정하세요.**
 
@@ -55,7 +56,7 @@ Microsoft Endpoint Configuration Manager, 그룹 정책, PowerShell cmdlet 및 W
 
 3. 정책을 **클릭한** 다음 **관리 템플릿을 클릭합니다.**
 
-4. Windows 구성 요소 **Microsoft** Defender 바이러스 백신  >  **검사까지 트리를**  >  **확장합니다.**
+4. 검색에서 구성 **Windows**  >  **트리를 Microsoft Defender 바이러스 백신**  >  **확장합니다.**
 
 5. 예약된  검사를 실행하기 전에 최신 바이러스 및 스파이웨어 정의 확인을 두 번 클릭하고 옵션을 사용으로 **설정합니다.**
 
@@ -69,9 +70,9 @@ Microsoft Endpoint Configuration Manager, 그룹 정책, PowerShell cmdlet 및 W
 Set-MpPreference -CheckForSignaturesBeforeRunningScan
 ```
 
-자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 및 Defender cmdlet 구성 및 [실행을 참조하세요.](/powershell/module/defender/index)
+자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 [및 Defender cmdlet을 구성 및 실행을 참조하세요.](/powershell/module/defender/index)
 
-### <a name="use-windows-management-instruction-wmi-to-check-for-protection-updates-before-running-a-scan"></a>검사를 실행하기 전에 WMI(Windows Management Instruction)를 사용하여 보호 업데이트 확인
+### <a name="use-windows-management-instruction-wmi-to-check-for-protection-updates-before-running-a-scan"></a>WMI(Windows 관리 명령)를 사용하여 검사를 실행하기 전에 보호 업데이트를 확인합니다.
 
 다음 [  속성에 MSFT_MpPreference  ](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) 클래스의 Set 메서드를 사용합니다.
 
@@ -83,7 +84,7 @@ CheckForSignaturesBeforeRunningScan
 
 ## <a name="check-for-protection-updates-on-startup"></a>시작 시 보호 업데이트 확인
 
-그룹 정책을 사용하여 Microsoft Defender 바이러스 백신에서 컴퓨터 시작 시 보호 업데이트를 확인하고 다운로드할 수 있습니다.
+그룹 정책을 사용하여 컴퓨터 시작 시 Microsoft Defender 바이러스 백신 보호 업데이트를 강제로 확인하고 다운로드할 수 있습니다.
 
 1. 그룹 정책 관리 컴퓨터에서 그룹 [](/previous-versions/windows/desktop/gpmc/group-policy-management-console-portal)정책 관리 콘솔을 열고 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.**
 
@@ -91,15 +92,15 @@ CheckForSignaturesBeforeRunningScan
 
 3. 정책을 **클릭한** 다음 **관리 템플릿을 클릭합니다.**
 
-4. **Windows** 구성 요소 Microsoft Defender 바이러스 백신 보안 인텔리전스 업데이트까지  >    >  **트리를 확장합니다.**
+4. 보안 인텔리전스 **Windows 구성 Microsoft Defender 바이러스 백신**  >    >  **확장합니다.**
 
 5. 시작 시  최신 바이러스 및 스파이웨어 정의 확인을 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 
 
 6. **확인** 을 클릭합니다.
 
-그룹 정책, PowerShell 또는 WMI를 사용하여 시작 시 업데이트를 확인하도록 Microsoft Defender 바이러스 백신을 구성할 수도 있습니다(실행 중이 아는 경우).
+그룹 정책, PowerShell 또는 WMI를 사용하여 시작 시 업데이트를 Microsoft Defender 바이러스 백신 확인하도록 구성할 수도 있습니다.
 
-### <a name="use-group-policy-to-download-updates-when-microsoft-defender-antivirus-is-not-present"></a>그룹 정책을 사용하여 Microsoft Defender 바이러스 백신이 없는 경우 업데이트 다운로드
+### <a name="use-group-policy-to-download-updates-when-microsoft-defender-antivirus-is-not-present"></a>그룹 정책을 사용하여 업데이트가 없는 Microsoft Defender 바이러스 백신 다운로드
 
 1. 그룹 정책 관리 컴퓨터의 [](/previous-versions/windows/desktop/gpmc/group-policy-management-console-portal)그룹 정책 관리 콘솔을 열고 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 편집을 **클릭합니다.**
 
@@ -107,13 +108,13 @@ CheckForSignaturesBeforeRunningScan
 
 3. 정책을 **클릭한** 다음 **관리 템플릿을 클릭합니다.**
 
-4. **Windows** 구성 요소 Microsoft Defender 바이러스 백신 보안 인텔리전스 업데이트까지  >    >  **트리를 확장합니다.**
+4. 보안 인텔리전스 **Windows 구성 Microsoft Defender 바이러스 백신**  >    >  **확장합니다.**
 
 5. 시작 시 보안 **인텔리전스** 업데이트 시작을 두 번 클릭하고 옵션을 사용으로 **설정합니다.**
 
 6. **확인** 을 클릭합니다.
 
-### <a name="use-powershell-cmdlets-to-download-updates-when-microsoft-defender-antivirus-is-not-present"></a>Microsoft Defender 바이러스 백신이 없는 경우 PowerShell cmdlet을 사용하여 업데이트 다운로드
+### <a name="use-powershell-cmdlets-to-download-updates-when-microsoft-defender-antivirus-is-not-present"></a>PowerShell cmdlet을 사용하여 업데이트가 없는 Microsoft Defender 바이러스 백신 다운로드
 
 다음 cmdlet을 사용 합니다.
 
@@ -121,9 +122,9 @@ CheckForSignaturesBeforeRunningScan
 Set-MpPreference -SignatureDisableUpdateOnStartupWithoutEngine
 ```
 
-자세한 내용은 Microsoft Defender 바이러스 백신과 함께 PowerShell을 사용하는 방법에 대한 자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 및 [Defender cmdlet](/powershell/module/defender/index) 관리를 참조하세요.
+자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 및 [Defender cmdlet을](/powershell/module/defender/index) 사용하여 PowerShell을 사용하는 방법에 대한 자세한 Microsoft Defender 바이러스 백신.
 
-### <a name="use-windows-management-instruction-wmi-to-download-updates-when-microsoft-defender-antivirus-is-not-present"></a>Microsoft Defender 바이러스 백신이 없는 경우 WMI(Windows Management Instruction)를 사용하여 업데이트 다운로드
+### <a name="use-windows-management-instruction-wmi-to-download-updates-when-microsoft-defender-antivirus-is-not-present"></a>WMI(Windows Management Instruction)를 사용하여 업데이트가 없는 Microsoft Defender 바이러스 백신 다운로드
 
 다음 [  속성에 MSFT_MpPreference  ](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) 클래스의 Set 메서드를 사용합니다.
 
@@ -149,7 +150,7 @@ Microsoft Defender AV는 클라우드 제공 보호를 기반으로 보호를 �
 
 3. 정책을 **클릭한** 다음 **관리 템플릿을 클릭합니다.**
 
-4. **Windows** 구성 요소 Microsoft Defender 바이러스 백신 보안 인텔리전스 업데이트까지  >    >  **트리를 확장합니다.**
+4. 보안 인텔리전스 **Windows 구성 Microsoft Defender 바이러스 백신**  >    >  **확장합니다.**
 
 5. **Microsoft MAPS에** 대한 보고서를 기반으로 하는 실시간 보안 인텔리전스 업데이트 허용을 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 그런 다음 **확인** 을 클릭합니다.
 
@@ -160,9 +161,9 @@ Microsoft Defender AV는 클라우드 제공 보호를 기반으로 보호를 �
 
 ## <a name="see-also"></a>참고 항목
 
-- [Microsoft Defender 바이러스 백신 배포](deploy-manage-report-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 업데이트 관리 및 기준 적용](manage-updates-baselines-microsoft-defender-antivirus.md)
+- [배포 Microsoft Defender 바이러스 백신](deploy-manage-report-microsoft-defender-antivirus.md)
+- [업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [보호 업데이트를 다운로드하고 적용해야 하는 경우 관리](manage-protection-update-schedule-microsoft-defender-antivirus.md)
 - [최신이 지난 끝점에 대한 업데이트 관리](manage-outdated-endpoints-microsoft-defender-antivirus.md)
-- [모바일 장치 및 VM(가상 컴퓨터)에 대한 업데이트 관리](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
-- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
+- [모바일 장치 및 VM(가상 머신)에 대한 업데이트 관리](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
+- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)

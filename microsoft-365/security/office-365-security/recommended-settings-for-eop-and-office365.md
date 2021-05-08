@@ -19,12 +19,12 @@ ms.collection:
 description: Office 365 보안 설정에 대한 EOP(Exchange Online Protection) 및 Defender에 대한 모범 사례는 무엇입니까? 표준 보호를 위한 현재 권장 사항은 무엇입니까? 더 엄격하게 사용하려는 경우 어떻게 해야 하나요? 또한 Office 365용 Defender를 사용하는 경우 어떤 추가 기능을 사용할 수 있나요?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8ba88f9b9ebcc34e0ea146a74c01dea8f200ee0b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3a4447d6eaeeb907eb750d2ad668fdbb9031c28b
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206649"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274871"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>EOP 및 Office 365용 Microsoft Defender 보안에 대한 권장 설정
 
@@ -57,9 +57,11 @@ ms.locfileid: "51206649"
 
 스팸 방지 정책을 만들고 구성하기 위해 [Office 365에서 스팸 방지 정책 구성을 참조합니다.](configure-your-spam-filter-policies.md)
 
+<br>
+
 ****
 
-|보안 기능 이름|기본|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**스팸** 검색 작업 <p> _SpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`||
 |**높은 지수 스팸** 감지 작업 <p> _HighConfidenceSpamAction_|**정크 메일 폴더로 메시지 이동** <p> `MoveToJmf`|**메시지 검량** <p> `Quarantine`|**메시지 검량** <p> `Quarantine`||
@@ -84,9 +86,11 @@ ms.locfileid: "51206649"
 
 Standard 및 Strict 수준 모두에 대해  이러한 ASF 설정을 **해제하는 것이** 좋습니다.  ASF 설정에 대한 자세한 내용은 [Office 365의 ASF(고급 스팸 필터) 설정을 참조하세요.](advanced-spam-filtering-asf-options.md)
 
+<br>
+
 ****
 
-|보안 기능 이름|Comment|
+|보안 기능 이름|댓글|
 |---|---|
 |**원격 사이트에 대한** 이미지 링크(_IncreaseScoreWithImageLinks_)||
 |**URL의 숫자 IP 주소(** _IncreaseScoreWithNumericIps_)||
@@ -111,9 +115,11 @@ Standard 및 Strict 수준 모두에 대해  이러한 ASF 설정을 **해제하
 
 서비스의 기본 전송 제한에 대한 자세한 내용은 [보내기 제한을 참조하세요.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1)
 
+<br>
+
 ****
 
-|보안 기능 이름|기본|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**사용자당 최대 받는 사람 수: 외부 시간당 제한** <p> _RecipientLimitExternalPerHour_|0|500|400|기본값 0은 서비스 기본값을 사용하는 것입니다.|
 |**사용자당 최대 받는 사람 수: 내부 시간당 제한** <p> _RecipientLimitInternalPerHour_|0|1000|800|기본값 0은 서비스 기본값을 사용하는 것입니다.|
@@ -125,9 +131,11 @@ Standard 및 Strict 수준 모두에 대해  이러한 ASF 설정을 **해제하
 
 맬웨어 방지 정책을 만들고 구성하기 위해 [Office 365에서 맬웨어](configure-anti-malware-policies.md)방지 정책 구성을 참조합니다.
 
+<br>
+
 ****
 
-|보안 기능 이름|기본|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**받는 사람에게 메시지가 무단으로 전송된 경우 이를 알리시겠습니까?** <p> _작업_|아니요 <p> _DeleteMessage_|아니요 <p> _DeleteMessage_|아니요 <p> _DeleteMessage_|전자 메일 첨부 파일에서 맬웨어가 검색된 경우 메시지는 검지되고 관리자만 릴리스할 수 있습니다.|
 |**일반 첨부 파일 형식 필터** <p> _EnableFileFilter_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`|이 설정은 첨부 파일 콘텐츠에 관계없이 파일 형식에 따라 실행 파일이 포함된 메시지를 검지합니다.|
@@ -140,9 +148,11 @@ Standard 및 Strict 수준 모두에 대해  이러한 ASF 설정을 **해제하
 
 이러한 설정에 대한 자세한 내용은 [스푸핑 설정 을 참조하세요.](set-up-anti-phishing-policies.md#spoof-settings) 이러한 설정을 구성하려면 EOP에서 피싱 방지 [정책 구성을 참조하세요.](configure-anti-phishing-policies-eop.md)
 
+<br>
+
 ****
 
-|보안 기능 이름|기본|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**스푸핑 방지 보호 사용** <p> _EnableSpoofIntelligence_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |**비인식 보낸 사람 사용** <p> _EnableUnauthenticatedSender_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`|확인되지 않은 스푸핑된 보낸 사람에 대한 Outlook의 보낸 사람 사진에 물음표(?)를 추가합니다. 자세한 내용은 피싱 방지 정책의 [스푸핑 설정을 참조하세요.](set-up-anti-phishing-policies.md)|
@@ -171,9 +181,11 @@ EOP 고객은 앞서 설명한 기본적인 피싱 방지 기능을 제공하지
 
 이러한 설정에 대한 자세한 내용은 [Microsoft Defender for Office 365의](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)피싱 방지 정책의 가장 설정을 참조하세요. 이러한 설정을 구성하려면 [Office 365용 Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책 구성을 참조하세요.
 
+<br>
+
 ****
 
-|보안 기능 이름|기본|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |보호된 사용자: **보호할 사용자 추가** <p> _EnableTargetedUserProtection_ <p> _TargetedUsersToProtect_|해제 <p> `$false` <p> 없음|켜짐 <p> `$true` <p> \<list of users\>|켜짐 <p> `$true` <p> \<list of users\>|조직에 따라 주요 역할에 사용자(메시지 보낸 사람)를 추가하는 것이 좋습니다. 내부적으로 보호된 보낸 사람이 CEO, CFO 및 기타 고위 리더일 수 있습니다. 외부적으로 보호되는 보낸 사람에는 위원회 구성원이나 해당 이사진이 포함됩니다.|
 |보호된 도메인: **소유한 도메인 자동 포함** <p> _EnableOrganizationDomainsProtection_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
@@ -194,9 +206,11 @@ EOP 고객은 앞서 설명한 기본적인 피싱 방지 기능을 제공하지
 
 이러한 설정은 EOP의 스팸 방지 정책 설정에서 사용할 수 있는 [설정과 동일합니다.](#eop-anti-spam-policy-settings)
 
+<br>
+
 ****
 
-|보안 기능 이름|기본|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|---|---|---|---|
 |**스푸핑 방지 보호 사용** <p> _EnableSpoofIntelligence_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |**비인식 보낸 사람 사용** <p> _EnableUnauthenticatedSender_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`|확인되지 않은 스푸핑된 보낸 사람에 대한 Outlook의 보낸 사람 사진에 물음표(?)를 추가합니다. 자세한 내용은 피싱 방지 정책의 [스푸핑 설정을 참조하세요.](set-up-anti-phishing-policies.md)|
@@ -207,9 +221,11 @@ EOP 고객은 앞서 설명한 기본적인 피싱 방지 기능을 제공하지
 
 이 설정에 대한 자세한 내용은 [Microsoft Defender for Office 365의](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)피싱 방지 정책의 고급 피싱 임계값을 참조하세요. 이 설정을 구성하기 위해 [Office 365용 Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책 구성을 참조합니다.
 
+<br>
+
 ****
 
-|보안 기능 이름|기본|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**고급 피싱 임계값** <p> _PhishThresholdLevel_|**1 - 표준** <p> `1`|**2 - 적극적** <p> `2`|**3 - 보다 적극적** <p> `3`||
 |
@@ -224,9 +240,11 @@ Office 365용 Defender의 안전한 링크에는 활성 안전 링크 정책에 
 
 PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/module/exchange/set-atppolicyforo365) cmdlet을 사용합니다.
 
+<br>
+
 ****
 
-|보안 기능 이름|기본|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**안전한 링크 사용: Office 365 응용 프로그램** <p> _EnableSafeLinksForO365Clients_|켜짐 <p> `$true`|켜짐 <p> `$true`|켜짐 <p> `$true`|지원되는 Office 365 데스크톱 및 모바일(iOS 및 Android) 앱에서 안전한 링크를 사용하세요. 자세한 내용은 [Office 365](safe-links.md#safe-links-settings-for-office-365-apps)앱에 대한 안전한 링크 설정을 참조하세요.|
 |**사용자가 안전한 링크를 클릭하는 경우 추적하지 않습니다.** <p> _TrackClicks_|켜짐 <p> `$false`|해제 <p> `$true`|해제 <p> `$true`|이 설정을 _끄면(TrackClicks를_ 로 설정) 지원되는 Office 365 앱에서 사용자 클릭을 `$true` 추적합니다.|
@@ -242,9 +260,11 @@ PowerShell에서는 이러한 설정에 [New-SafeLinksPolicy](/powershell/module
 > [!NOTE]
 > 앞에서 설명한 대로 기본 안전 링크 정책은 없습니다. 기본값 열의 값은 새로 만드는 안전 링크 정책의 기본값입니다.
 
+<br>
+
 ****
 
-|보안 기능 이름|기본|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**메시지에서 알 수 없는 악의적인 URL에 대한 작업 선택** <p> _IsEnabled_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |**Microsoft Teams 내에서 알 수 없는 URL 또는 잠재적으로 악의적인 URL에 대한 작업 선택** <p> _EnableSafeLinksForTeams_|해제 <p> `$false`|켜짐 <p> `$true`|켜짐 <p> `$true`||
@@ -265,9 +285,11 @@ Microsoft Defender for Office 365의 안전한 첨부 파일에는 안전 첨부
 
 PowerShell에서는 이러한 설정에 [Set-AtpPolicyForO365](/powershell/module/exchange/set-atppolicyforo365) cmdlet을 사용합니다.
 
+<br>
+
 ****
 
-|보안 기능 이름|기본|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**SharePoint, OneDrive 및 Microsoft Teams에 대해 Office 365용 Defender 켜기** <p> _EnableATPForSPOTeamsODB_|켜짐 <p> `$true`|켜짐 <p> `$true`||
 |**Office 클라이언트에 대해 안전한 문서 설정** <p> _EnableSafeDocs_|켜짐 <p> `$true`|켜짐 <p> `$true`|이 설정은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스에서만 사용할 수 있습니다. 자세한 내용은 [Microsoft Defender for Office 365의 안전한 문서를 참조하세요.](safe-docs.md)|
@@ -283,9 +305,11 @@ PowerShell에서는 이러한 설정에 [New-SafeAttachmentPolicy](/powershell/m
 > [!NOTE]
 > 앞에서 설명한 대로 기본 안전 첨부 파일 정책은 없습니다. 기본값 열의 값은 새로 만드는 안전 첨부 파일 정책의 기본값입니다.
 
+<br>
+
 ****
 
-|보안 기능 이름|기본|Standard|Strict|Comment|
+|보안 기능 이름|기본|Standard|Strict|댓글|
 |---|:---:|:---:|:---:|---|
 |**안전한 첨부 파일 알 수 없는 맬웨어 응답** <p> _작업_|차단 <p> `Block`|차단 <p> `Block`|차단 <p> `Block`||
 |**검색 시 첨부 파일 리디렉션:** **리디렉션 사용** <p> _리디렉션_ <p> _RedirectAddress_|꺼지며 전자 메일 주소가 지정되지 않습니다. <p> `$true` <p> 없음|을 사용하여 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|을 사용하여 전자 메일 주소를 지정합니다. <p> `$true` <p> 전자 메일 주소|검토를 위해 보안 관리자에게 메시지를 리디렉션합니다.|

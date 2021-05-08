@@ -23,14 +23,17 @@ search.appverid:
 - MET150
 description: Microsoft 365 관리 센터에서 결제 방법을 관리하는 방법을 알아보세요.
 ms.date: 04/02/2021
-ms.openlocfilehash: 4b35b7b8e874915e5f9c792686ff0e368292c802
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: b69096bb05ada6ce7a1ee619aa78bc04639e7004
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107042"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244723"
 ---
 # <a name="manage-payment-methods"></a>결제 방법 관리
+
+> [!IMPORTANT]
+> 2021년 1월 26일 현재 벨기에, 프랑스, 이탈리아, 룩셈부르크, 포르투갈, 스페인 및 미국의 고객에게는 새 은행 계좌가 더 이상 지원되지 않습니다. 해당 국가 중 하나의 기존 고객인 경우 기존 은행 계좌로 구독료를 계속 결제할 수 있으며 은행 계좌 상태가 양호한 경우에만 새 구독을 추가할 수 있습니다.
 
 Microsoft에서 비즈니스 제품 또는 서비스를 구입하는 경우 기존 결제 방법을 사용하거나 새 결제 방법을 추가할 수 있습니다. 신용 카드 또는 직불 카드 또는 은행 계좌를 사용하여 구입한 금액을 지불할 수 있습니다.
 

@@ -1,13 +1,13 @@
 ---
-title: Microsoft Defender 바이러스 백신의 진단 데이터 수집
-description: 도구를 사용하여 Microsoft Defender 바이러스 백신 문제 해결
+title: 진단 데이터의 Microsoft Defender 바이러스 백신
+description: 도구를 사용하여 데이터 수집을 통해 문제 해결을 Microsoft Defender 바이러스 백신
 keywords: 문제 해결, 오류, 수정, 업데이트 준수, oms, 모니터링, 보고, Microsoft Defender av, 그룹 정책 개체, 설정, 진단 데이터
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 06/29/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: d74a8921af677f6ed66580bd00830440d59cf1aa
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: ccf6da0e1bc91a29865868305b5333f7ef9c47cc
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764726"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274787"
 ---
 # <a name="collect-microsoft-defender-av-diagnostic-data"></a>Microsoft Defender AV 진단 데이터 수집
 
@@ -29,14 +30,14 @@ ms.locfileid: "51764726"
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 이 문서에서는 Microsoft 지원 및 엔지니어링 팀에서 Microsoft Defender AV를 사용할 때 발생할 수 있는 문제를 해결하는 데 사용할 수 있는 진단 데이터를 수집하는 방법을 설명합니다.
 
 > [!NOTE]
 > 조사 또는 응답 프로세스의 일부로 장치에서 조사 패키지를 수집할 수 있습니다. 방법: 장치에서 [조사 패키지를 수집합니다.](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
 
-동일한 문제가 발생하는 두 개 이상의 장치에서 다음 단계를 수행하여 .cab 진단 파일을 얻습니다.
+동일한 문제가 발생하는 두 개 이상의 장치에서 다음 단계를 수행하여 .cab 진단 파일을 얻게 됩니다.
 
 1. 다음과 같이 관리자 수준 명령 프롬프트 버전을 열 수 있습니다.
 
@@ -57,12 +58,12 @@ ms.locfileid: "51764726"
     mpcmdrun.exe -GetFiles
     ```
   
-4. 다양한 진단 로그가 포함된 .cab 파일이 생성됩니다. 파일 위치는 명령 프롬프트의 출력에 지정됩니다. 기본적으로 위치는 `C:\ProgramData\Microsoft\Microsoft Defender\Support\MpSupportFiles.cab` 입니다.
+4. 다양한 .cab 로그가 포함된 파일도 생성됩니다. 파일 위치는 명령 프롬프트의 출력에 지정됩니다. 기본적으로 위치는 `C:\ProgramData\Microsoft\Microsoft Defender\Support\MpSupportFiles.cab` 입니다.
 
 > [!NOTE]
 > cab 파일을 다른 경로 또는 UNC 공유로 리디렉션하기 위해 다음 명령을 사용 합니다. `mpcmdrun.exe -GetFiles -SupportLogLocation <path>`  <br/>자세한 내용은 진단 데이터를 [UNC 공유로 리디렉션을 참조하세요.](#redirect-diagnostic-data-to-a-unc-share)
 
-5. 이러한 .cab 파일을 Microsoft 지원에서 액세스할 수 있는 위치에 복사합니다. 예를 들어 사용자와 공유할 수 있는 암호로 보호된 OneDrive 폴더를 들 수 있습니다.
+5. 이러한 .cab 파일을 Microsoft 지원에서 액세스할 수 있는 위치에 복사합니다. 예를 들어 사용자와 공유할 수 있는 암호로 OneDrive 폴더를 예로 들 수 있습니다.
 
 > [!NOTE]
 >업데이트 준수에 문제가 있는 경우 업데이트 준수 <a href="mailto:ucsupport@microsoft.com?subject=WDAV assessment issue&body=I%20am%20encountering%20the%20following%20issue%20when%20using%20Windows%20Defender%20AV%20in%20Update%20Compliance%3a%20%0d%0aI%20have%20provided%20at%20least%202%20support%20.cab%20files%20at%20the%20following%20location%3a%20%3Caccessible%20share%2c%20including%20access%20details%20such%20as%20password%3E%0d%0aMy%20OMS%20workspace%20ID%20is%3a%20%0d%0aPlease%20contact%20me%20at%3a"></a>지원 전자 메일 서식 파일을 사용하여 전자 메일을 보내고 다음 정보를 사용하여 서식 파일을 작성합니다.
@@ -102,7 +103,7 @@ SupportLogLocation 매개 변수를 사용하면 다음과 같은 폴더 구조�
 
 ## <a name="specify-location-where-diagnostic-data-is-created"></a>진단 데이터를 만들 위치 지정
 
-GPO(그룹 정책 개체)를 사용하여 진단 .cab 파일을 만들 위치를 지정할 수도 있습니다. 
+GPO(그룹 정책 개체).cab 진단 파일을 만들 위치를 지정할 수도 있습니다. 
 
 1. 로컬 그룹 정책 편집기를 열고 다음에서 SupportLogLocation GPO를 찾을 수 있습니다. `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\SupportLogLocation`
    
@@ -119,4 +120,4 @@ GPO(그룹 정책 개체)를 사용하여 진단 .cab 파일을 만들 위치를
 
 ## <a name="see-also"></a>참고 항목
 
-- [Microsoft Defender 바이러스 백신 보고 문제 해결](troubleshoot-reporting.md)
+- [보고 Microsoft Defender 바이러스 백신 문제 해결](troubleshoot-reporting.md)

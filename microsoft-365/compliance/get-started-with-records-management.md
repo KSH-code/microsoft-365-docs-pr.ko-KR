@@ -16,19 +16,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 법률, 비즈니스 또는 규제 의무에 대한 높은 가치의 콘텐츠를 관리하는 Microsoft 365의 레코드 관리 솔루션이 필요하지만 어디서 시작해야 하나요? 시작을 도와주는 실질적인 지침을 참조하세요.
-ms.openlocfilehash: 2ab5eaa494094dcbf0723f426fcbd644901c22bb
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+description: 법률, 비즈니스 또는 규제 의무를 위해 고부가가치 콘텐츠를 관리하는 Microsoft 365용 레코드 관리 솔루션이 필요하지만, 어디서부터 시작해야 할지 잘 모르겠나요? 시작하려면 몇 가지 실무 지침을 읽어보세요.
+ms.openlocfilehash: 0382c1419654e4c1d2c809b3a9c32252fd50f554
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051900"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244347"
 ---
 # <a name="get-started-with-records-management"></a>레코드 관리 시작
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
-Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니스 또는 규제 의무에 대한 조직의 높은 가치의 콘텐츠 관리를 시작할 준비가 되었나요? 시작하려면 다음과 같은 고급 지침을 사용하세요.
+Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니스 또는 규제 의무에 대한 조직의 높은 가치의 콘텐츠 관리를 시작할 준비가 되었나요? 시작하려면 다음 지침을 사용하세요.
 
 1. **레코드 관리 솔루션** 과 문서 및 전자 메일을 레코드로 선언할 때 허용되거나 차단되는 작업을 이해합니다. [레코드 관리에 대해 자세히 알아보세요.](records-management.md) 
 
@@ -53,9 +53,9 @@ Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니
 
 읽기 전용 역할의 경우 새 역할 그룹을 생성하고 **보기 전용 레코드 관리** 역할을 이 그룹에 추가할 수 있습니다. 
 
-역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center)을 참조하세요.
+역할 그룹 및 역할에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center)을 참조하세요.
 
-사용자에게 역할 그룹을 추가하고 역할을 할당하는 방법에 대한 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+사용자에게 역할 그룹을 추가하고 역할을 할당하는 방법에 대한 지침은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
 
 해당 권한은 레코드를 선언하고 처리를 관리하는 보존 레이블을 만들고 구성하고 적용하는 경우에만 필요합니다. 해당 레이블을 구성하는 사용자는 콘텐츠에 대한 액세스 권한이 필요하지 않습니다.
 
@@ -84,8 +84,8 @@ Microsoft 365에서 레코드 관리 솔루션을 사용하여 법률, 비즈니
 
 ## <a name="end-user-documentation-for-records"></a>레코드에 대한 최종 사용자 설명서
 
-레코드 관리에 사용되는 보존 레이블에는 Microsoft 365 앱에 UI 상태가 있습니다. 프로덕션 네트워크에 보존 레이블을 배포하기 전에 최종 사용자와 지원 센터에 대한 지침을 제공하세요.
+레코드 관리에 사용되는 보존 레이블은 Microsoft 365 앱에 UI가 있습니다. 운영 네트워크에 보존 레이블을 배포하기 전에 최종 사용자와 헬프 데스크에 대한 지침을 제공해야 합니다.
 
-가장 효과적인 최종 사용자 문서는 선택한 보존 레이블 이름 및 구성에 대한 사용자 지정 안내사항 및 지침입니다. 사용자를 교육하고 채택을 유도하는 데 사용할 수 있는 다운로드 패키지는 다음 게시물을 참조하세요 [M365의 보존 레이블에 대한 최종 사용자 교육 – 채택을 가속화하는 방법](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-retention-labels-in-m365-how-to-accelerate/ba-p/1750861).
+사용자가 편집을 위해 레코드 잠금 해제에 대한 정보를 포함하는 쉐어포인트 및 OneDrive의 보존 레이블을 적용할 수 있도록 하려면 [SharePoint 또는 OneDrive의 파일에 보존 레이블 적용](https://support.microsoft.com/office/apply-retention-labels-to-files-in-sharepoint-or-onedrive-11a6835b-ec9f-40db-8aca-6f5ef18132df)을 참조하세요.
 
-다음 섹션에서도 기본 사용자 지침을 확인할 수 있습니다. [수동으로 보존 레이블 적용](create-apply-retention-labels.md#manually-apply-retention-labels).
+그러나, 가장 효과적인 최종 사용자 문서는 선택한 보존 레이블 이름 및 구성에 대한 사용자 지정 안내사항 및 지침입니다. 사용자를 교육하고 채택을 유도하는 데 사용할 수 있는 다운로드 패키지는 다음 블로그 게시물을 참조하세요 [M365의 보존 레이블에 대한 최종 사용자 교육 – 채택을 가속화하는 방법](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-retention-labels-in-m365-how-to-accelerate/ba-p/1750861).

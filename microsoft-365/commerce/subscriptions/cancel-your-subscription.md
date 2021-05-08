@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소하는 방법에 대해 알아보세요.
 ms.date: 04/08/2021
-ms.openlocfilehash: f052a08cfe0e7582690864556cfc3039d6caf99c
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 15ab7ed31af24fa4cb1c83c6babc945871584375
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107005"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244663"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -126,7 +126,7 @@ NS 레코드를 변경하려면 [도메인 제거](../../admin/get-help-with-dom
 
 - 전자 메일, 연락처, 작업 및 일정 정보를 다른 계정으로 이동하려면 [전자 메일, 연락처, 일정을 Outlook .pst 파일로 내보내기 또는 백업](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx)을 참조하세요.
 
-- SharePoint Online 환경(비즈니스용 OneDrive 또는 팀 사이트)의 문서 라이브러리나 목록 콘텐츠(예: 연락처)를 파일 공유 또는 로컬 컴퓨터에 저장하려면 [SharePoint Online 콘텐츠 수동 마이그레이션](https://support.microsoft.com/kb/2783484)을 참조하세요.
+- SharePoint Online 환경(비즈니스용 OneDrive 또는 팀 사이트)의 문서 라이브러리나 목록 콘텐츠(예: 연락처)를 파일 공유 또는 로컬 컴퓨터에 저장하려면 [SharePoint Online 콘텐츠 수동 마이그레이션](https://docs.microsoft.com/sharepoint/troubleshoot/migration-tool/content-manual-migration)을 참조하세요.
 
 ### <a name="uninstall-office-optional"></a>Office 제거(선택 사항)
 

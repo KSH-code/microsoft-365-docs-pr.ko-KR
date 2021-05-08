@@ -48,6 +48,8 @@
           href: service-description/support.md
         - name: 운영 및 모니터링
           href: service-description/operations-and-monitoring.md
+        - name: 진단 로그
+          href: service-description/diagnostic-logs.md
         - name: 응용 프로그램의 요구 사항
           href: service-description/mmd-app-requirements.md
         - name: 응용 프로그램 제어

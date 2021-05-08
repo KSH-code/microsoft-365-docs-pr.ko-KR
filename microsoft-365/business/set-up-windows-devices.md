@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business Premium 사용자를 위한 Windows 장치 설정
+title: 사용자용 Windows 장치 Microsoft 365 Business Premium 설정
 f1.keywords:
 - CSH
 ms.author: sharik
@@ -26,35 +26,35 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: 중앙 집중식 관리 및 보안 제어를 사용하도록 설정하여 Windows 10 Pro for Microsoft 365 Business Premium 사용자를 실행하는 Windows 장치를 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 9c9ffe5bd74d9e9877a87309757c481576ee89d2
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 중앙 집중식 관리 및 보안 제어를 Windows 사용자를 위해 Windows 10 Pro Microsoft 365 Business Premium 장치를 설정하는 방법을 학습합니다.
+ms.openlocfilehash: 3e268d81ff6fb7113b7e0b0fe5d0545ff5c72b1e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578130"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244779"
 ---
-# <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Microsoft 365 Business Premium 사용자를 위한 Windows 장치 설정
+# <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>사용자용 Windows 장치 Microsoft 365 Business Premium 설정
 
-## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-premium-users"></a>Microsoft 365 Business Premium 사용자를 위한 Windows 장치 설정에 대한 사전 준비
+## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-premium-users"></a>Windows 사용자를 위한 Windows 설정하기 위한 Microsoft 365 Business Premium 선행
 
-Microsoft 365 Business Premium 사용자를 위해 Windows 장치를 설정하기 전에 모든 Windows 장치가 Windows 10 Pro 버전 1703(크리에이터스 업데이트)을 실행 중인지 확인 합니다. Windows 10 Pro는 Windows 10 Pro를 보완하고 Microsoft 365 Business Premium의 중앙 집중식 관리 및 보안 제어를 가능하게 하는 클라우드 서비스 및 장치 관리 기능 집합인 Windows 10 Business를 배포하기 위한 선행 요구입니다.
+Windows 사용자를 위해 Windows Microsoft 365 Business Premium 장치를 설정하기 전에 모든 Windows 장치가 Windows 10 Pro 버전 1703(크리에이터스 업데이트)을 실행하고 있는지 확인하십시오. Windows 10 Pro 클라우드 서비스 및 장치 관리 기능 집합인 Windows 10 Business 배포하기 위한 선행 구성 Windows 10 Pro 관리 및 보안 제어를 Microsoft 365 Business Premium.
   
-Windows 7 Pro, Windows 8 Pro 또는 Windows 8.1 Pro를 실행하는 Windows 장치가 있는 경우 Microsoft 365 Business Premium 구독에서 Windows 10 업그레이드를 사용할 수 있습니다.
+Windows 7 Pro, Windows 8 Pro Windows 또는 Windows 8.1 Pro 7을 실행하는 Microsoft 365 Business Premium 디바이스가 있는 경우 Microsoft 365 Business Premium 업그레이드를 Windows 10 있습니다.
   
 Windows 장치를 Windows 10 Pro 크리에이터 업데이트로 업그레이드하는 방법에 대한 자세한 내용은 [Windows Pro 크리에이터 업데이트로 Windows 장치 업그레이드](upgrade-to-windows-pro-creators-update.md)의 단계를 따르세요.
   
 디바이스가 [Azure AD에](#verify-the-device-is-connected-to-azure-ad) 연결되어 있는지 확인을 참조하여 업그레이드가 있는지 확인하거나 업그레이드가 올바르게 진행된지 확인합니다.
 
-Windows를 Microsoft 365에 연결하는 방법을 짧은 비디오를 시청합니다.<br><br>
+연결에 대한 Windows 비디오를 Microsoft 365.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 장치를 조직의 Azure AD에 연결
 
-조직의 모든 Windows 장치가 Windows 10 Pro 크리에이터스 업데이트로 업그레이드되거나 이미 Windows 10 Pro 크리에이터스 업데이트를 실행 중인 경우 이러한 장치를 조직의 Azure Active Directory에 가입할 수 있습니다. 디바이스가 가입된 후 Microsoft 365 Business Premium 구독의 일부인 Windows 10 Business로 자동으로 업그레이드됩니다.
+조직의 모든 Windows 장치가 Windows 10 Pro 크리에이터스 업데이트로 업그레이드되거나 Windows 10 Pro 크리에이터스 업데이트를 이미 실행 중인 경우 이러한 장치를 조직의 크리에이터스에 가입할 수 Azure Active Directory. 디바이스가 가입되고 나면 디바이스가 Windows 10 Business 구독의 일부인 Microsoft 365 Business Premium 업그레이드됩니다.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>최신 또는 새로 업그레이드된 Windows 10 Pro 장치의 경우
 
@@ -64,7 +64,7 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
     
     ![On the How would you like to set up page, choose Set up for an organization](../media/1b0b2dba-00bb-4a99-a729-441479220cb7.png)
   
-2. 여기서 조직에 대해 설정 을 **선택한** 다음 Microsoft 365 Business Premium의 사용자 이름과 암호를 입력합니다. 
+2. 여기서 조직에 대해 설정 **을 선택한** 다음 조직에 대한 사용자 이름과 암호를 Microsoft 365 Business Premium. 
     
 3. Windows 10 장치 설정을 완료합니다.
     
@@ -102,21 +102,21 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
   
    ![조직 화면에서 가입을 선택 합니다.](../media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
-비즈니스용 OneDrive에 파일을 업로드한 경우 파일을 다시 동기화합니다. 타사 도구를 사용하여 프로필 및 파일을 마이그레이션한 경우 이러한 도구를 새 프로필과 동기화합니다.
+파일을 업로드하여 비즈니스용 OneDrive 다시 동기화합니다. 타사 도구를 사용하여 프로필 및 파일을 마이그레이션한 경우 이러한 도구를 새 프로필과 동기화합니다.
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>장치가 Azure AD에 연결되었는지 확인
 
-동기화 상태를 확인하려면 설정의 **직장** 또는 학교 액세스 페이지에서 **_** _ 영역에 연결 을 선택하여 정보 및 연결 끊기 단추를 \<organization name\> **노출합니다.**  정보를 **선택하면** 동기화 상태를 확인할 수 있습니다. 
+동기화 상태를 확인하려면 설정  직장 또는 학교 액세스 페이지에서 _  _에 연결 **영역을** 선택하여 정보 및 연결 끊기 단추를 \<organization name\>  **노출합니다.** 정보를 **선택하면** 동기화 상태를 확인할 수 있습니다. 
   
 동기화 **상태 페이지에서** **동기화를** 선택하면 PC에 최신 모바일 장치 관리 정책을 다운로드할 수 있습니다.
   
-Microsoft 365 Business Premium 계정을 사용하려면 **Windows** 시작 단추로 이동하여 현재 계정 사진을 마우스 오른쪽 단추로 클릭한 다음 계정 전환 **을 클릭합니다.** 조직 전자 메일 및 암호를 사용하여 로그인합니다.
+Microsoft 365 Business Premium 계정을 사용하려면 Windows 시작 단추로 이동하여 현재 계정 사진을 **마우스** 오른쪽 단추로 클릭한 다음 계정 전환 **을 클릭합니다.** 조직 전자 메일 및 암호를 사용하여 로그인합니다.
   
 ![동기화 상태를 보려면 정보 버튼을 클릭합니다.](../media/818f7043-adbf-402a-844a-59d50034911d.png)
   
-## <a name="verify-the-pc-is-upgraded-to-windows-10-business"></a>PC가 Windows 10 Business로 업그레이드된지 확인
+## <a name="verify-the-pc-is-upgraded-to-windows-10-business"></a>PC가 서버로 업그레이드되어 있는지 Windows 10 Business
 
-Azure AD에 가입된 Windows 10 장치가 Microsoft 365 Business Premium 구독의 일부로 Windows 10 Business로 업그레이드되는지 확인
+Azure AD에 가입된 Windows 10 디바이스가 Windows 10 Business 구독의 일부로 Microsoft 365 Business Premium 합니다.
   
 1. **설정** \> **시스템** \> **정보** 로 이동합니다.
     
@@ -126,8 +126,8 @@ Azure AD에 가입된 Windows 10 장치가 Microsoft 365 Business Premium 구독
   
 ## <a name="next-steps"></a>다음 단계
 
-모바일 장치를 설정하려면 [Microsoft 365 Business Premium](set-up-mobile-devices.md)사용자를 위한 모바일 장치 설정 , 장치 보호 또는 앱 보호 정책을 설정하려면 [비즈니스용 Microsoft 365 관리를 참조하세요.](manage.md)
+모바일 장치를 설정하려면 Microsoft 365 Business Premium 사용자를 위한 모바일 장치 설정 [,](set-up-mobile-devices.md)장치 보호 또는 앱 보호 정책을 설정하려면 비즈니스용 Microsoft 365 [관리를 참조하세요.](manage.md)
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 설정 및 사용에 대한 자세한 내용은
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>설정 및 사용에 대한 자세한 내용은 Microsoft 365 Business Premium
 
-[Microsoft 365 Business 교육 비디오](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business 교육 비디오](../business-video/index.yml)

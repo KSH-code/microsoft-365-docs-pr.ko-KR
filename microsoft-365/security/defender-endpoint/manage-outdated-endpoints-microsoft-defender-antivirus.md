@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,35 +15,36 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 81c7fb2bb7cd20fea3f343097811078ed744c3eb
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 4199f55488ef0dc5989af88e8be83a3d51190d1f
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765374"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275063"
 ---
-# <a name="manage-microsoft-defender-antivirus-updates-and-scans-for-endpoints-that-are-out-of-date"></a>최신 상태로 유지된 끝점에 대한 Microsoft Defender 바이러스 백신 업데이트 및 검사 관리
+# <a name="manage-microsoft-defender-antivirus-updates-and-scans-for-endpoints-that-are-out-of-date"></a>Microsoft Defender 바이러스 백신 업데이트 및 만료된 엔드포인트에 대한 검사 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
-Microsoft Defender 바이러스 백신을 사용하면 끝점에서 업데이트를 피할 수 있는 기간 또는 끝점에서 누락할 수 있는 검사 수를 정의할 수 있습니다. 이 기능은 장치가 회사 또는 외부 네트워크에 자주 연결되지 않는 환경이나 매일 사용되지 않는 장치에서 특히 유용합니다.
+Microsoft Defender 바이러스 백신 끝점에서 업데이트를 피할 수 있는 기간 또는 끝점에서 누락할 수 있는 검색 수를 정의할 수 있습니다. 이 기능은 장치가 회사 또는 외부 네트워크에 자주 연결되지 않는 환경이나 매일 사용되지 않는 장치에서 특히 유용합니다.
 
 예를 들어 특정 PC를 사용하는 직원은 3일 동안 중단을 시하며 해당 시간 동안 PC에 로그온하지 않습니다.
 
-사용자가 직장으로 돌아와 PC에 로그온하면 Microsoft Defender 바이러스 백신은 즉시 최신 보호 업데이트를 확인하고 다운로드하고 검사를 실행합니다.
+사용자가 직장으로 돌아와 PC에 로그온하면 Microsoft Defender 바이러스 백신 즉시 최신 보호 업데이트를 확인하고 다운로드하고 검사를 실행합니다.
 
 ## <a name="set-up-catch-up-protection-updates-for-endpoints-that-havent-updated-for-a-while"></a>한 동안 업데이트되지 않은 끝점에 대한 추가 보호 업데이트 설정
 
-Microsoft Defender 바이러스 백신이 지정된 기간 동안 보호 업데이트를 다운로드하지 않은 경우 다음 로그온 시 최신 업데이트를 자동으로 확인하고 다운로드할 수 있습니다. 이 기능은 시작 시 자동 업데이트 다운로드를 전역적으로 사용하지 않도록 [설정한 경우 유용합니다.](manage-event-based-updates-microsoft-defender-antivirus.md)
+지정된 Microsoft Defender 바이러스 백신 동안 보호 업데이트를 다운로드하지 않은 경우 다음 로그온 시 최신 업데이트를 자동으로 확인하고 다운로드할 수 있습니다. 이 기능은 시작 시 자동 업데이트 다운로드를 전역적으로 사용하지 않도록 [설정한 경우 유용합니다.](manage-event-based-updates-microsoft-defender-antivirus.md)
 
 ### <a name="use-configuration-manager-to-configure-catch-up-protection-updates"></a>Configuration Manager를 사용하여 추가 보호 업데이트 구성
 
-1.  Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을  열고(왼쪽의 탐색 창에서 자산 및 규정 준수를 클릭한 다음 트리를 끝점 보호 맬웨어 방지 정책 **개요로**  >    >  확장)
+1.  Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을 열고(왼쪽의 탐색 창에서 자산 및 규정 준수를 클릭한 다음 개요 Endpoint Protection 맬웨어 방지 정책)   >    >  
 
 2.  보안 **인텔리전스 업데이트 섹션으로 이동하여** 다음 설정을 구성합니다.
 
@@ -62,7 +63,7 @@ Microsoft Defender 바이러스 백신이 지정된 기간 동안 보호 업데�
 
 3. 정책을 **클릭한** 다음 **관리 템플릿을 클릭합니다.**
 
-4. Microsoft Defender 바이러스 백신 및 서명 > Windows 구성 **> 확장합니다.**
+4. 트리를 확장하여 **서명 Windows 구성 > Microsoft Defender 바이러스 백신 > 확장합니다.**
 
 5. 추가 보안  인텔리전스 업데이트가 필요한 날짜까지의 일 수 정의 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.** Microsoft Defender AV에서 최신 보호 업데이트를 확인하고 다운로드할 일 수를 입력합니다.
 
@@ -76,7 +77,7 @@ Microsoft Defender 바이러스 백신이 지정된 기간 동안 보호 업데�
 Set-MpPreference -SignatureUpdateCatchupInterval
 ```
 
-Microsoft Defender 바이러스 백신과 함께 PowerShell을 사용하는 방법에 대한 자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md)  사용하여 Microsoft Defender 바이러스 백신 및 [Defender cmdlet](/powershell/module/defender/) 구성 및 실행을 참조하세요.
+PowerShell과 함께 PowerShell을 사용하는 방법에 대한 자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 및 [Defender cmdlet을](/powershell/module/defender/) 구성하고 실행을 Microsoft Defender 바이러스 백신.
 
 ### <a name="use-windows-management-instruction-wmi-to-configure-catch-up-protection-updates"></a>WMI(Windows Management Instruction)를 사용하여 추가 보호 업데이트 구성
 
@@ -92,7 +93,7 @@ SignatureUpdateCatchupInterval
 
 ## <a name="set-the-number-of-days-before-protection-is-reported-as-out-of-date"></a>보호가 기한이 지난 것으로 보고되기 전까지의 일 수 설정
 
-Microsoft Defender 바이러스 백신 보호가 오래되거나 오래 된 것으로 간주되는 기간(일)을 지정할 수도 있습니다. 지정된 일 수가 지난 후 클라이언트는 자체적으로 기한이 지난 것으로 보고하고 PC 사용자에게 오류를 보여 주게 됩니다. 또한 WSUS 또는 Microsoft Update를 첫 번째 원본으로 설정한 [](manage-protection-updates-microsoft-defender-antivirus.md#fallback-order)후 MMPC를 보조 원본으로 사용하는 경우와 같이 Microsoft Defender 바이러스 백신이 정의된 폴백 원본 순서에 따라 다른 원본에서 업데이트를 다운로드하려고 할 수도 있습니다.
+또한 이전 또는 오래된 보호로 간주되는 Microsoft Defender 바이러스 백신 일 수를 지정할 수도 있습니다. 지정된 일 수가 지난 후 클라이언트는 자체적으로 기한이 지난 것으로 보고하고 PC 사용자에게 오류를 보여 주게 됩니다. 또한 WSUS Microsoft Defender 바이러스 백신 Microsoft Update를 첫 번째 원본으로 설정한 [](manage-protection-updates-microsoft-defender-antivirus.md#fallback-order)후 MMPC를 보조 원본으로 사용하는 경우와 같이 정의된 폴백 원본 순서에 따라 다른 원본에서 업데이트를 다운로드하려고 시도할 수도 있습니다.
 
 ### <a name="use-group-policy-to-specify-the-number-of-days-before-protection-is-considered-out-of-date"></a>그룹 정책을 사용하여 보호가 기한이 지난 것으로 간주될 날짜 수 지정
 
@@ -102,7 +103,7 @@ Microsoft Defender 바이러스 백신 보호가 오래되거나 오래 된 것�
 
 4.  정책을 **클릭한** 다음 **관리 템플릿을 클릭합니다.**
 
-5.  **Microsoft Defender** 바이러스 백신 > Windows 구성 > 확장하고 다음 설정을 구성합니다.
+5.  트리를 확장하여 서명 Windows 구성 > Microsoft Defender 바이러스 백신 > 구성 **요소를 확장하고** 다음 설정을 구성합니다.
 
     1.  스파이웨어  정의가 기한이 지난 것으로 간주될 날짜까지의 기간(일) 정의를 두 번 클릭하고 옵션을 사용으로 **설정합니다.** Microsoft Defender AV에서 스파이웨어 보안 인텔리전스가 최신이 아 없다고 고려할 날짜 수를 입력합니다.
 
@@ -115,7 +116,7 @@ Microsoft Defender 바이러스 백신 보호가 오래되거나 오래 된 것�
 
 ## <a name="set-up-catch-up-scans-for-endpoints-that-have-not-been-scanned-for-a-while"></a>한 동안 검색되지 않은 끝점에 대한 업데이트 검사 설정
 
-Microsoft Defender 바이러스 백신에서 검색을 강제 실행하기 전에 누락될 수 있는 연속 예약된 검사 수를 설정할 수 있습니다.
+검색을 강제 실행하기 전에 누락될 수 있는 연속 예약된 Microsoft Defender 바이러스 백신 수 있습니다.
 
 이 기능을 사용하도록 설정하는 프로세스는 다음입니다.
 
@@ -135,7 +136,7 @@ Microsoft Defender 바이러스 백신에서 검색을 강제 실행하기 전�
 
 4.  정책을 **클릭한** 다음 **관리 템플릿을 클릭합니다.**
 
-5.  **Microsoft Defender** 바이러스 백신 > Windows 구성 > 확장하고 다음 설정을 구성합니다.
+5.  트리를 **확장하여** Windows 구성 > Microsoft Defender 바이러스 백신 > 설정을 구성합니다.
 
     1.  예약된 빠른 검색을 설정한 경우 빠른  검색 켜기 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 
     2. 예약된 전체 검색을 설정한 경우 전체  검사 켜기 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.** **확인** 을 클릭합니다.
@@ -155,9 +156,9 @@ Set-MpPreference -DisableCatchupQuickScan
 
 ```
 
-Microsoft Defender 바이러스 백신과 함께 PowerShell을 사용하는 방법에 대한 자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md)  사용하여 Microsoft Defender 바이러스 백신 및 [Defender cmdlet](/powershell/module/defender/) 관리를 참조하세요.
+PowerShell과 함께 PowerShell을 사용하는 방법에 대한 자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 및 [Defender cmdlet을](/powershell/module/defender/) Microsoft Defender 바이러스 백신.
 
-### <a name="use-windows-management-instruction-wmi-to-configure-catch-up-scans"></a>WMI(Windows Management Instruction)를 사용하여 업데이트 검사 구성
+### <a name="use-windows-management-instruction-wmi-to-configure-catch-up-scans"></a>WMI(Windows 관리 명령)를 사용하여 최대 검색 구성
 
 다음 [  속성에 MSFT_MpPreference  ](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) 클래스의 Set 메서드를 사용합니다.
 
@@ -172,7 +173,7 @@ DisableCatchupQuickScan
 
 ### <a name="use-configuration-manager-to-configure-catch-up-scans"></a>Configuration Manager를 사용하여 추가 검사 구성
 
-1.  Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을  열고(왼쪽의 탐색 창에서 자산 및 규정 준수를 클릭한 다음 트리를 끝점 보호 맬웨어 방지 정책 **개요로**  >    >  확장)
+1.  Microsoft Endpoint Manager 콘솔에서 변경할 맬웨어 방지 정책을 열고(왼쪽의 탐색 창에서 자산 및 규정 준수를 클릭한 다음 개요 Endpoint Protection 맬웨어 방지 정책)   >    >  
 
 2.  예약된 검사 **섹션으로 이동하고** 클라이언트 컴퓨터가 오프라인 상태인 경우 선택한 검사 유형을 강제로 **검사...를** **예로 합니다.** 
 
@@ -182,9 +183,9 @@ DisableCatchupQuickScan
 
 ## <a name="related-articles"></a>관련 문서
 
-- [Microsoft Defender 바이러스 백신 배포](deploy-manage-report-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 업데이트 관리 및 기준 적용](manage-updates-baselines-microsoft-defender-antivirus.md)
+- [배포 Microsoft Defender 바이러스 백신](deploy-manage-report-microsoft-defender-antivirus.md)
+- [업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [보호 업데이트를 다운로드하고 적용해야 하는 경우 관리](manage-protection-update-schedule-microsoft-defender-antivirus.md)
 - [이벤트 기반 강제 업데이트 관리](manage-event-based-updates-microsoft-defender-antivirus.md)
-- [모바일 장치 및 VM(가상 컴퓨터)에 대한 업데이트 관리](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
-- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
+- [모바일 장치 및 VM(가상 머신)에 대한 업데이트 관리](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
+- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)

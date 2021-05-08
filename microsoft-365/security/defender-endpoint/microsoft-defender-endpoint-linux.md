@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34274e260da2e8acc8088fcff6d324b6b31fc2ef
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 0e09a313b512135785050abd5aa61bb9576ce1d8
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935944"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274943"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender for Endpoint(Linux용)
 
@@ -39,16 +39,23 @@ ms.locfileid: "51935944"
 이 항목에서는 Linux에서 끝점용 Microsoft Defender를 설치, 구성, 업데이트 및 사용하는 방법을 설명합니다.
 
 > [!CAUTION]
-> Linux에서 끝점용 Microsoft Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 부작용이 발생할 수 있습니다. 사용자 환경에서 비 Microsoft 끝점 보호가 절대적인 요구 사항이면 수동 모드에서 실행될 바이러스 백신 기능을 구성한 후에도 Linux EDR 기능의 Endpoint용 Defender를 안전하게 활용할 [수 있습니다.](linux-preferences.md#enable--disable-passive-mode)
+> Linux에서 끝점용 Microsoft Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 부작용이 발생할 수 있습니다. 사용자 환경에서 비 Microsoft 끝점 보호가 절대적인 요구 사항이면 수동 모드에서 실행될 바이러스 백신 기능을 구성한 후에도 Linux EDR 끝점용 Defender를 안전하게 활용할 [수 있습니다.](linux-preferences.md#enable--disable-passive-mode)
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender를 설치하는 방법
 
 ### <a name="prerequisites"></a>필수 구성 요소
 
-- Microsoft Defender 보안 센터 포털에 액세스
+- 검색 포털에 Microsoft Defender 보안 센터 액세스
 - 시스템 [관리자를](https://systemd.io/) 사용하여 Linux 배포
 - Linux 및 BASH 스크립팅의 초보자 수준 환경
 - 디바이스의 관리 권한(수동 배포의 경우)
+
+> [!NOTE]
+>  Linux 에이전트의 끝점용 Microsoft Defender는 [OMS 에이전트와 독립적입니다.](/azure/azure-monitor/agents/agents-overview#log-analytics-agent) 끝점용 Microsoft Defender는 자체의 독립적인 원격 분석 파이프라인을 사용 합니다.
+> 
+> Linux의 끝점용 Microsoft Defender는 아직 Azure 보안 센터에 통합되지 않았습니다.
+
+
 
 ### <a name="installation-instructions"></a>설치 지침
 
@@ -66,6 +73,8 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
 
 설치 오류가 발생하면 [Linux의 끝점용 Microsoft Defender에서](linux-support-install.md)설치 실패 문제 해결을 참조하세요.
 
+
+
 ### <a name="system-requirements"></a>시스템 요구 사항
 
 - 지원되는 Linux 서버 배포 및 버전:
@@ -77,14 +86,23 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
   - SUSE Linux Enterprise Server 12 이상
   - Oracle Linux 7.2 이상
 
+    > [!NOTE]
+    > 명시적으로 나열되지 않은 배포 및 버전은 지원되지 않습니다(공식적으로 지원되는 배포에서 파생된 경우에도).
+
+
 - 최소 커널 버전 3.10.0-327
+
 - 커널 `fanotify` 옵션을 사용하도록 설정해야 합니다.
+
   > [!CAUTION]
   > Linux에서 끝점용 Defender를 다른 기반 보안 솔루션과 나란히 실행하는 것은 `fanotify` 지원되지 않습니다. 운영 체제 중단을 포함하여 예측할 수 없는 결과가 발생할 수 있습니다.
 
 - 디스크 공간: 1GB
+
 - /opt/microsoft/mdatp/sbin/wdavdaemon에는 실행 권한이 필요합니다. 자세한 내용은 Linux의 끝점용 Microsoft Defender 설치 문제 해결에서 "디먼이 실행 가능한 권한을 가지는지 [확인"을 참조하세요.](/microsoft-365/security/defender-endpoint/linux-support-install)
+
 - 메모리: 1GB
+
     > [!NOTE]
     > /var에 디스크 공간이 있는지 확인하시기 바랍니다.
 
@@ -117,7 +135,7 @@ Linux에서 끝점용 Microsoft Defender를 설치 및 구성하는 데 사용�
 
 다음 다운로드 가능한 스프레드시트에는 네트워크에서 연결할 수 있어야 하는 서비스 및 관련 URL이 나열됩니다. 이러한 URL에 대한 액세스를 거부하는 방화벽 또는 네트워크 필터링 규칙이 없는지 확인해야 합니다. 있는 경우 해당 규칙에 대해  특별히 허용 규칙을 만들어야 할 수 있습니다.
 
-|**도메인 목록의 스프레드시트**|**설명**|
+| 도메인 목록의 스프레드시트 | 설명 |
 |:-----|:-----|
 |![끝점 URL 스프레드시트용 Microsoft Defender의 축소판 이미지](images/mdatp-urls.png)<br/>  | 서비스 위치, 지리적 위치 및 OS에 대한 특정 DNS 레코드의 스프레드시트입니다. <br><br>[여기에서 스프레드시트를 다운로드합니다.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx)
 

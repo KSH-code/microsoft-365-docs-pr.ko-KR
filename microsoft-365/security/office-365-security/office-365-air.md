@@ -1,10 +1,10 @@
 ---
-title: Office 365용 Microsoft Defender의 자동화된 조사 및 대응
+title: Microsoft Defender에서 자동화된 조사 및 Office 365
 keywords: AIR, autoIR, Endpoint용 Microsoft Defender, 자동화, 조사, 대응, 수정, 위협, 고급, 위협, 보호
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -16,20 +16,20 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Microsoft Defender for Office 365의 자동화된 조사 및 응답 기능을 사용하여 시작해보아야 합니다.
+description: Microsoft Defender에서 자동화된 조사 및 응답 기능을 사용하여 Office 365.
 ms.custom:
 - air
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 89421348d858a869e033380802e402465949c554
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c9cd9ef649ec60fc8d880ae525469980a00f69b2
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935176"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275003"
 ---
-# <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365의 자동화된 조사 및 대응(AIR)
+# <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Microsoft Defender의 자동화된 조사 및 대응(AIR)Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "51935176"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-[Microsoft Defender for Office 365에는](defender-for-office-365.md) 보안 운영 팀의 시간과 노력을 절약할 수 있는 강력한 자동화된 조사 및 대응(AIR) 기능이 포함되어 있습니다. 경고가 트리거되면 보안 운영 팀이 해당 경고를 검토, 우선 순위 지정 및 대응해야 합니다. 들어오는 경고의 양을 따라야 하는 부담이 있을 수 있습니다. 이러한 작업 중 일부를 자동화하면 도움이 될 수 있습니다.
+[Microsoft Defender for Office 365](defender-for-office-365.md) 보안 운영 팀의 시간과 노력을 절약할 수 있는 강력한 자동화된 조사 및 대응(AIR) 기능이 포함되어 있습니다. 경고가 트리거되면 보안 운영 팀이 해당 경고를 검토, 우선 순위 지정 및 대응해야 합니다. 들어오는 경고의 양을 따라야 하는 부담이 있을 수 있습니다. 이러한 작업 중 일부를 자동화하면 도움이 될 수 있습니다.
 
 AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 작업할 수 있습니다. AIR 기능에는 현재 존재하는 잘 알려진 위협에 대응하는 자동화된 조사 프로세스가 포함됩니다. 적절한 수정 작업은 승인을 대기하여 보안 운영 팀이 감지된 위협에 효과적으로 대응할 수 있도록 합니다. AIR을 사용하여 보안 운영 팀은 트리거되는 중요한 경고를 잃지 않고 우선 순위가 높은 작업에 집중할 수 있습니다.
 
@@ -62,7 +62,7 @@ AIR을 사용하면 보안 운영 팀이 보다 효율적이고 효율적으로 
 4. 보안 운영 팀은 조사 [](air-view-investigation-results.md)결과 및 권장 사항을 검토하고 수정 작업을 승인하거나 [거부합니다.](air-review-approve-pending-completed-actions.md)
 5. 보류 중인 수정 작업이 승인되거나 거부되면 자동화된 조사가 완료됩니다.
 
-Microsoft Defender for Office 365에서는 수정 작업이 자동으로 수행되지 않습니다. 수정 작업은 조직의 보안 팀이 승인한 경우에만 적용될 수 있습니다. AIR 기능은 수정 작업을 식별하고 정보를 토대한 결정을 내리는 데 필요한 세부 정보를 제공하여 보안 운영 팀의 시간을 절약합니다.
+Microsoft Defender for Office 365 수정 작업은 자동으로 수행되지 않습니다. 수정 작업은 조직의 보안 팀이 승인한 경우에만 적용될 수 있습니다. AIR 기능은 수정 작업을 식별하고 정보를 토대한 결정을 내리는 데 필요한 세부 정보를 제공하여 보안 운영 팀의 시간을 절약합니다.
 
 자동화된 조사가 진행되는 동안 및 이후에 보안 운영 팀은 다음을 할 수 있습니다.
 
@@ -75,7 +75,7 @@ Microsoft Defender for Office 365에서는 수정 작업이 자동으로 수행�
 
 ## <a name="how-to-get-air"></a>AIR을 얻을 수 있는 방법
 
-정책 및 경고가 구성된 경우 AIR 기능은 [Microsoft Defender for Office 365에](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2)포함되어 있습니다. 도움이 필요하세요? 위협으로부터 [보호의](protect-against-threats.md) 지침에 따라 다음 보호 설정을 설정하거나 구성합니다.
+정책 및 경고가 구성된 경우 Office 365 대한 [Microsoft Defender에](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2)AIR 기능이 포함되어 있습니다. 도움이 필요하세요? 위협으로부터 [보호의](protect-against-threats.md) 지침에 따라 다음 보호 설정을 설정하거나 구성합니다.
 
 - [감사 로깅(켜져](../../compliance/turn-audit-log-search-on-or-off.md) 있어야 합니다.
 - [맬웨어 방지 정책](protect-against-threats.md#part-1---anti-malware-protection)
@@ -89,20 +89,20 @@ Microsoft Defender for Office 365에서는 수정 작업이 자동으로 수행�
 
 ## <a name="which-alert-policies-trigger-automated-investigations"></a>자동화된 조사를 트리거하는 경고 정책은 무엇입니까?
 
-Microsoft 365는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적인 외부 및 내부 위협 및 정보 거버넌스 위험을 식별하는 데 도움이 되는 다양한 기본 제공 경고 정책을 제공합니다. 일부 기본 경고 [정책은](../../compliance/alert-policies.md#default-alert-policies) 자동화된 조사를 트리거할 수 있습니다. 다음 표에서는 자동화된 조사를 트리거하는 경고, Microsoft 365 보안 센터의 심각도 및 경고 생성 방법에 대해 설명하고 있습니다.
+Microsoft 365 관리자 권한 남용, 맬웨어 활동Exchange 잠재적인 외부 및 내부 위협 및 정보 거버넌스 위험을 식별하는 데 도움이 되는 다양한 기본 제공 경고 정책을 제공합니다. 일부 기본 경고 [정책은](../../compliance/alert-policies.md#default-alert-policies) 자동화된 조사를 트리거할 수 있습니다. 다음 표에서는 자동화된 조사를 트리거하는 경고, Microsoft 365 보안 센터의 심각도 및 경고 생성 방법에 대해 설명되어 있습니다.
 
 |경고|심각도|경고 생성 방법|
 |---|---|---|
-|악의적인 URL 클릭이 감지되었습니다.|**High**|이 경고는 다음과 같은 경우 생성됩니다. <ul><li>조직에서 안전한 [링크로](safe-links.md) 보호되는 사용자가 악의적인 링크를 클릭</li><li>Url에 대한 판정 변경 내용은 Office 365용 Microsoft Defender로 식별됩니다.</li><li>사용자는 조직의 안전 링크 정책에 따라 안전한 링크 경고 [페이지를 무시합니다.](set-up-safe-links-policies.md)</li></ul> <p> 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 안전 링크 정책 [설정 을 참조하세요.](set-up-safe-links-policies.md)|
+|악의적인 URL 클릭이 감지되었습니다.|**High**|이 경고는 다음과 같은 경우 생성됩니다. <ul><li>조직에서 안전한 [링크로](safe-links.md) 보호되는 사용자가 악의적인 링크를 클릭</li><li>URL에 대한 판정 변경 내용은 Microsoft Defender에서 Office 365</li><li>사용자는 조직의 안전 링크 정책에 따라 안전한 링크 경고 [페이지를 무시합니다.](set-up-safe-links-policies.md)</li></ul> <p> 이 경고를 트리거하는 이벤트에 대한 자세한 내용은 안전 링크 정책 [설정 을 참조하세요.](set-up-safe-links-policies.md)|
 |사용자가 전자 메일 메시지를 맬웨어 또는 피싱으로 보고|**정보**|이 경고는 조직의 사용자가 보고서 메시지 추가 기능 또는 [](enable-the-report-message-add-in.md) 피싱 보고 추가 기능을 사용하여 메시지를 피싱 전자 메일로 보고할 [때 생성됩니다.](enable-the-report-phish-add-in.md)|
 |배달 후 맬웨어가 포함된 전자 메일 메시지 제거|**정보**|이 경고는 맬웨어가 포함된 전자 메일 메시지가 조직의 사서함으로 배달될 때 생성됩니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](zero-hour-auto-purge.md)|
 |배달 후 피싱 URL이 포함된 전자 메일 메시지 제거|**정보**|이 경고는 피싱이 포함된 메시지가 조직의 사서함으로 배달될 때 생성됩니다. 이 이벤트가 발생하면 Microsoft는 제로 아워 자동 제거를 사용하여 Exchange Online 사서함에서 감염된 메시지를 [제거합니다.](zero-hour-auto-purge.md)|
 |의심스러운 전자 메일 전송 패턴이 감지됩니다.|**Medium**|이 경고는 조직의 누군가가 의심스러운 전자 메일을 보낸 경우 생성되고 전자 메일을 보내지 못하도록 제한될 위험이 있습니다. 경고는 계정이 손상된 것일 수 있지만 사용자를 제한할 만큼 심각하지는 않은 동작에 대한 초기 경고입니다. <p> 드물지만 이 정책에 의해 생성된 경고는 이상일 수 있습니다. 그러나 사용자 계정이 손상 된지 여부를 확인 하는 [것이 좋습니다.](responding-to-a-compromised-email-account.md)|
-|사용자가 전자 메일을 보낼 수 없습니다.|**High**|이 경고는 조직의 사용자가 아웃바운드 메일을 보낼 수 없습니다. 이 경고는 일반적으로 전자 메일 계정이 [손상될 때 생성됩니다.](responding-to-a-compromised-email-account.md) <p> 제한된 사용자에 대한 자세한 내용은 [Microsoft 365의 제한된](removing-user-from-restricted-users-portal-after-spam.md)사용자 포털에서 차단된 사용자 제거를 참조하세요.|
+|사용자가 전자 메일을 보낼 수 없습니다.|**High**|이 경고는 조직의 사용자가 아웃바운드 메일을 보낼 수 없습니다. 이 경고는 일반적으로 전자 메일 계정이 [손상될 때 생성됩니다.](responding-to-a-compromised-email-account.md) <p> 제한된 사용자에 대한 자세한 내용은 에서 제한된 사용자 포털에서 차단된 [사용자 제거를 Microsoft 365.](removing-user-from-restricted-users-portal-after-spam.md)|
 |
 
 > [!TIP]
-> 경고 정책에 대한 자세한 내용을 보거나 기본 설정을 편집하려면 [Microsoft 365](../../compliance/alert-policies.md)규정 준수 센터의 경고 정책을 참조하세요.
+> 경고 정책에 대한 자세한 내용을 보거나 기본 설정을 편집하려면 Microsoft 365 규정 준수 센터에서 경고 [정책을 참조하세요.](../../compliance/alert-policies.md)
 
 ## <a name="required-permissions-to-use-air-capabilities"></a>AIR 기능을 사용하는 데 필요한 사용 권한
 
@@ -110,12 +110,12 @@ Microsoft 365는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적�
 
 |작업 |역할 필요|
 |---|---|
-|AIR 기능 설정|다음 역할 중 하나: <ul><li>전역 관리자</li><li>보안 관리자</li></ul> <p> 이러한 역할은 Azure [Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 보안 및 준수 [센터에서 & 있습니다.](permissions-in-the-security-and-compliance-center.md)|
-|자동화된 조사 시작 <p> --- 또는 --- <p> 권장 작업 승인 또는 거부|[Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 보안 및 준수 센터에서 할당된 다음 & 중 [하나:](permissions-in-the-security-and-compliance-center.md) <ul><li>전역 관리자</li><li>보안 관리자</li><li>보안 운영자</li><li>보안 읽기 권한자 <br> --- 및 --- </li><li>검색 및 제거(이 역할은 보안 및 준수 [센터에서 & 할당됩니다.](permissions-in-the-security-and-compliance-center.md) 새 역할 그룹을 만들어 검색 및 제거 역할을 새 역할 그룹에 추가해야 할 수 있습니다.</li></ul>|
+|AIR 기능 설정|다음 역할 중 하나: <ul><li>전역 관리자</li><li>보안 관리자</li></ul> <p> 이러한 역할은 보안 및 준수 [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 보안 & [할당할 수 있습니다.](permissions-in-the-security-and-compliance-center.md)|
+|자동화된 조사 시작 <p> --- 또는 --- <p> 권장 작업 승인 또는 거부|보안 및 준수 센터 또는 [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) Azure Active Directory 할당된 [다음 & 중 하나:](permissions-in-the-security-and-compliance-center.md) <ul><li>전역 관리자</li><li>보안 관리자</li><li>보안 운영자</li><li>보안 읽기 권한자 <br> --- 및 --- </li><li>검색 및 제거(이 역할은 보안 및 준수 [센터에서 & 할당됩니다.](permissions-in-the-security-and-compliance-center.md) 새 역할 그룹을 만들어 검색 및 제거 역할을 새 역할 그룹에 추가해야 할 수 있습니다.</li></ul>|
 
 ## <a name="required-licenses"></a>필수 라이선스
 
-[Office 365 계획 2용 Microsoft Defender](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2) 라이선스를 할당해야 합니다.
+[Microsoft Defender for Office 365 계획 2](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2) 라이선스를 할당해야 합니다.
 
 - 보안 관리자(전역 관리자 포함)
 - 조직의 보안 운영 팀(보안 독자 및 검색 및 제거 **역할이 있는** 사용자 포함)
@@ -123,11 +123,11 @@ Microsoft 365는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적�
 
 ## <a name="changes-are-coming-soon-in-your-security-center"></a>보안 센터에서 곧 변경될 예정입니다.
 
-Office 365용 Microsoft Defender에서 AIR 기능을 이미 사용하고 있는 경우 개선된 [Microsoft 365](../defender/overview-security-center.md)보안 센터의 일부 변경 내용을 보게 될 것입니다.
+If you're already using AIR capabilities in Microsoft Defender for Office 365, you're about to see some changes in the [improved Microsoft 365 security center](../defender/overview-security-center.md).
 
 :::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="통합된 동작 센터":::
 
-새 보안 센터와 향상된 보안 센터는 [Office 365용 Microsoft Defender](defender-for-office-365.md) 및 [끝점용 Microsoft Defender의](../defender-endpoint/automated-investigations.md)AIR 기능을 한 데 모습니다. 이러한 업데이트 및 개선 사항을 통해 보안 운영 팀에서는 전자 메일, 공동 작업 콘텐츠, 사용자 계정 및 장치 전체에서 자동 조사 및 수정 작업에 대한 세부 정보를 한 장소에서 볼 수 있습니다.
+새 보안 센터와 향상된 보안 센터는 Microsoft [Defender](defender-for-office-365.md) for Office 365 [끝점용 Microsoft Defender의 AIR](../defender-endpoint/automated-investigations.md)기능을 제공합니다. 이러한 업데이트 및 개선 사항을 통해 보안 운영 팀에서는 전자 메일, 공동 작업 콘텐츠, 사용자 계정 및 장치 전체에서 자동 조사 및 수정 작업에 대한 세부 정보를 한 장소에서 볼 수 있습니다.
 
 > [!TIP]
 > 새 Microsoft 365 보안 센터( <https://security.microsoft.com> )는 다음 센터를 대체합니다.
@@ -139,7 +139,7 @@ Office 365용 Microsoft Defender에서 AIR 기능을 이미 사용하고 있는 
 
 ### <a name="what-to-expect"></a>예상할 일
 
-다음 표에는 Microsoft Defender for Office 365의 AIR에 대한 변경 사항 및 개선 사항이 나열됩니다.
+다음 표에는 Microsoft Defender for Office 365.
 
 |항목|변경된 바는 무엇입니까?|
 |---|---|

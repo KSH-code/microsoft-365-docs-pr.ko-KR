@@ -20,12 +20,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 관리자는 조직의 사용자가 만든 셀프 서비스 구매를 관리하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: febf0ee470e735a454dc7a9e747de5025c7a4a51
-ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
+ms.openlocfilehash: 59d64c047ddf4f33c2ef3277f3139f1b7692b891
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51398184"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244995"
 ---
 # <a name="manage-self-service-purchases-admin"></a>셀프 서비스 구매(관리자) 관리
 
@@ -43,14 +43,13 @@ ms.locfileid: "51398184"
 
 ::: moniker range="o365-germany"
 
-1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">센터에서</a>청구 제품  > **페이지로** 이동합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">센터에서</a>청구 제품  > **페이지로** 이동합니다.
-
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
 ::: moniker-end
 
 2. 제품 **탭에서** 필터 아이콘을 선택한 다음 셀프 **서비스 를 선택합니다.**
@@ -59,7 +58,7 @@ ms.locfileid: "51398184"
 ## <a name="view-who-has-licenses-for-a-self-service-purchase-subscription"></a>셀프 서비스 구매 구독에 대한 라이선스가 있는 사용자 보기
 
 > [!NOTE]
-> 관리자는 조직의 사용자가 구입한 셀프 서비스 구매 구독에 대한 라이선스를 할당하거나 할당 취소할 수 없습니다. 셀프 [서비스](#take-over-a-self-service-purchase-subscription)구매 구독을 인계 받은 다음 라이선스를 할당하거나 할당 취소할 수 있습니다.
+> 관리자는 조직의 사용자가 구입한 셀프 서비스 구매 구독의 라이선스를 할당하거나 할당 취소할 수 없습니다. [셀프 서비스 구매 구독을 이어 받은 다음](#take-over-a-self-service-purchase-subscription)할당 또는 할당 취소할 수 있습니다.
 
 ::: moniker range="o365-worldwide"
 
@@ -69,12 +68,13 @@ ms.locfileid: "51398184"
 
 ::: moniker range="o365-germany"
 
-1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">센터에서</a>청구 라이선스  > **페이지로** 이동합니다.
+ 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">라이선스</a> 페이지로 이동합니다.
+
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">센터에서</a>청구 라이선스  > **페이지로** 이동합니다.
+ 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">라이선스</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
@@ -132,7 +132,7 @@ ms.locfileid: "51398184"
 1. 사용자를 다른 구독으로 이동하고 원래 구독을 취소합니다.
 2. 셀프 서비스 구매 구독을 취소하고 할당된 사용자에서 라이선스를 제거합니다.
 
-### <a name="move-users-to-a-different-subscription"></a>사용자를 다른 구독으로 이동
+### <a name="move-users-to-a-different-subscription"></a>다른 구독으로 사용자 이동
 
 사용자를 다른 구독으로 이동하면 이전 구독이 자동으로 취소됩니다. 셀프 서비스 구매 구독을 처음 구입한 사용자는 구독이 취소되었습니다.는 전자 메일을 받게 됩니다.
 
@@ -189,7 +189,7 @@ ms.locfileid: "51398184"
 ::: moniker-end
 
 2. 제품 **탭에서** 필터 아이콘을 선택한 다음 셀프 **서비스 를 선택합니다.**
-3. 취소할 구독을 선택합니다.
+3. 취소하려는 구독을 선택합니다.
 4. 구독 세부 정보 페이지의 구독 및 설정 **섹션에서** 이 구독 **제어 를 선택합니다.**
 5. 오른쪽 창에서 구독 **취소를 선택합니다.**
 6. 드롭다운 목록에서 취소 이유를 선택한 다음 구독 **취소를 선택합니다.**

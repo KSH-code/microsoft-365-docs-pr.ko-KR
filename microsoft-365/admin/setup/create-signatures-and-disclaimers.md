@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: 조직에 들어오거나 조직에서 나가는 모든 전자 메일 메시지에 대한 법적 고지 조항 또는 공개 설명을 포함하여 전자 메일 서명을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: b599ef8b6d0bb236b6111bae86c92409601e00d0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e1c3df235442fdc6f569825a7137c92bfc5bb044
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914237"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244530"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>조직 전체의 서명 및 고지 조항 만들기
 
@@ -40,7 +40,7 @@ ms.locfileid: "50914237"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
 
 ## <a name="create-a-signature-that-applies-to-all-messages"></a>모든 메시지에 적용되는 서명 만들기
 
@@ -49,19 +49,19 @@ ms.locfileid: "50914237"
     
 ::: moniker range="o365-worldwide"
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a> 의 관리 센터로 이동합니다.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>의 관리 센터로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn/adminportal</a> 의 관리 센터로 이동합니다.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn/adminportal</a>의 관리 센터로 이동합니다.
 
 ::: moniker-end
 
@@ -69,7 +69,7 @@ ms.locfileid: "50914237"
    
     찾고자 하는 앱을 찾을 수 없나요? 앱 시작 앱에서 모든  앱을 선택하여 사용할 수 있는 앱의 사전순 목록을 볼 수 있습니다. 거기에서 특정 앱을 검색할 수 있습니다. 
     
-2. 관리 **센터 를** 선택한 다음 Exchange 를 **선택합니다.**
+2. 관리 **센터 를** 선택한 다음 를 **Exchange.**
     
 3. 메일 흐름에서 규칙을 **선택합니다.**
     
@@ -80,14 +80,14 @@ ms.locfileid: "50914237"
 6. 이 **규칙 적용에서**[모든 메시지에 **적용] 을 선택합니다.**
     
     > [!TIP]
-    > [자세히 알아보세요](/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping). 이 문서의 전체 Exchange Server Microsoft 365에도 적용됩니다. 
+    > [자세히 알아보세요](/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping). 이 문서의 전체 Exchange Server 문서이지만 이 문서는 Microsoft 365. 
   
 7. 다음 작업 실행 아래에서 **고지 사항 추가** 를 선택된 상태로 둡니다. 
     
 8.  텍스트 **입력을 선택하고** 고지 조항을 입력합니다. 
     
     > [!TIP]
-    > [자세히 알아보세요](/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer). 이 서식 문서는 Exchange Server Microsoft 365에도 적용됩니다. 
+    > [자세히 알아보세요](/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer). 이 서식 문서는 Exchange Server 사용할 수 있지만 이 서식은 Microsoft 365. 
 
 9. 하나 **선택을 선택하고** **래핑을** 옵션으로 래핑을 선택합니다. 그런 다음, **확인** 을 선택합니다. 암호화 또는 다른 메일 설정 때문에 고지 사항을 추가할 수 없는 경우 메시지 봉투에 래핑된다는 의미입니다.
     
@@ -101,7 +101,7 @@ ms.locfileid: "50914237"
     
 ## <a name="limitations-of-organization-wide-signatures"></a>조직 전체 서명의 제한 사항
 
-Microsoft 365에서 전자 메일 서명을 관리할 때 다음을 할 수 없습니다.
+사용자 계정에서 전자 메일 서명을 관리할 때 다음을 Microsoft 365.
   
 - 최신 전자 메일 회신 또는 전달 바로 아래에 서명 삽입
     
@@ -115,4 +115,4 @@ Microsoft 365에서 전자 메일 서명을 관리할 때 다음을 할 수 없�
   
 ## <a name="more-resources"></a>추가 리소스
 
-- PowerShell 사용에 대한 자세한 내용은 [Exchange Online의](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) 조직 전체 메시지 고지, 서명, 머리글 또는 머리글을 참조하세요.
+- PowerShell 사용에 대한 자세한 내용은 조직 전체의 메시지 [고지, 서명,](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) Exchange Online 머리글을 참조하세요.

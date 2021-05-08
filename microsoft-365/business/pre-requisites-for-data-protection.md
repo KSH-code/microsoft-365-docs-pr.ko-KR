@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Microsoft 365를 사용하여 장치에서 데이터를 보호하기 위한 선행 준비
+title: 비즈니스용 디바이스에서 데이터를 보호하기 위한 Microsoft 365 선행
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -21,32 +21,32 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
-description: 비즈니스용 Microsoft 365를 사용하여 조직을 설정하고 사용자의 장치에서 작업 데이터를 보호하기 위한 요구 사항에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 73e5ebf61ca828ff79b0688ce7dcd374b77daf16
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 비즈니스용 앱으로 조직을 설정하고 사용자의 Microsoft 365 데이터를 보호하기 위한 요구 사항에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 2aadac94492af90d8b6eec7c48aeceb9a4e62533
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578290"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244819"
 ---
-# <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>비즈니스용 Microsoft 365를 사용하여 장치에서 데이터를 보호하기 위한 선행 준비
+# <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>비즈니스용 디바이스에서 데이터를 보호하기 위한 Microsoft 365 선행
 
-이 문서는 Microsoft 365 Business Premium에 적용됩니다.
+이 문서는 이 문서에 Microsoft 365 Business Premium.
 
-비즈니스용 Microsoft 365를 사용하여 조직을 설정하는 첫 번째 단계는 선행 요구 사항을 충족할 수 있도록 하는 것입니다.
+비즈니스용 Microsoft 365 사용하여 조직을 설정하는 첫 번째 단계는 선행 요구 사항을 충족할 수 있도록 하는 것입니다.
   
-## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-for-business"></a>비즈니스용 Microsoft 365를 사용하여 조직을 설정하기 위한 요구 사항
+## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-for-business"></a>비즈니스용 비즈니스 요구 사항으로 조직을 Microsoft 365 요구 사항
 
-- Windows 장치에서는 Windows 7 Professional, Windows 8 Pro 또는 Windows 8.1 Pro를 실행해야 합니다.
+- Windows 디바이스는 7 Windows, Professional 또는 Windows 8 Pro 실행해야 Windows 8.1 Pro.
     
     [Windows Pro 크리에이터 업데이트로 Windows 장치 업그레이드](upgrade-to-windows-pro-creators-update.md)
     
-    Windows 10 Home을 실행하는 경우 **Windows** 10 Pro를 구입해야 합니다. 지침은 [Windows 10 Home을 Windows 10 Pro로 업그레이드를](https://support.microsoft.com/office/0aee10c1-4d34-43ee-a325-579c6c2df90e) 참조하세요. 
+    If you're running Windows 10 Home, then you must **purchase** Windows 10 Pro. 자세한 [내용은 Windows 10 Home to Windows 10 Pro](../business-video/upgrade.md) 참조하세요. 
     
-- 모바일 관리 솔루션(Mobile Iron, AirWatch 등)에서 장치를 제거합니다. 비즈니스용 Microsoft 365 모바일 관리에 조직의 모든 인원을 등록합니다.
+- 모바일 관리 솔루션(Mobile Iron, AirWatch 등)에서 장치를 제거합니다. 비즈니스 모바일 관리를 위해 조직의 모든 Microsoft 365 등록합니다.
     
 - Apple iOS 8.0 이상.
     
     Google Android 4.0 이상(Samsung KNOX Standard 4.0 이상 포함). 자세한 내용은 [Intune 지원 장치를 참조하세요.](/mem/intune/fundamentals/supported-devices-browsers)
     
-- 사용자 컴퓨터에 기존 Office 응용 프로그램이 있는 경우 Office 클라이언트 설치 준비를 읽고 사용자 컴퓨터에 [Office](prepare-for-office-client-deployment.md) 2016을 설치하도록 비즈니스용 Microsoft 365를 설정하기 전에 필요한 단계를 이해합니다.
+- 사용자 컴퓨터에 기존 Office 응용 프로그램이 있는 [](prepare-for-office-client-deployment.md) 경우 Office 클라이언트 설치 준비를 읽어 비즈니스용 Microsoft 365 사용자 컴퓨터에 Office 2016을 설치하기 전에 따라야 할 수 있는 단계를 이해합니다.

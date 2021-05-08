@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e8084fab434246a5c9f12af40872ade66e6fa163
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1f8428c2995eec2dece290049eda67a3683b4c1e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934264"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244983"
 ---
 # <a name="troubleshoot-license-issues-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender의 라이선스 문제 해결
 
@@ -33,7 +33,7 @@ ms.locfileid: "51934264"
 **적용 대상:**
 
 - [Microsoft Defender for Endpoint(macOS용)](microsoft-defender-endpoint-mac.md)
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -46,15 +46,14 @@ ms.locfileid: "51934264"
 
 라이선스를 찾을 수 없음
 
-조직에 Microsoft 365 Enterprise 구독에 대한 라이선스가 없는 것 같아야 합니다.
+조직에 구독에 대한 라이선스가 Microsoft 365 Enterprise 것 같아야 합니다.
 
 관리자에게 문의하십시오.
 
 **원인:** 
 
-MacOS 패키지("설치 패키지 다운로드")에 끝점용 Microsoft Defender를 배포 및/또는 설치했지만 구성 스크립트("온보딩 패키지 다운로드")를 실행한 것일 수 있습니다.
+MacOS용 끝점용 Microsoft Defender 패키지("설치 패키지 다운로드")를 배포하거나 설치했으나 구성 스크립트("온보딩 패키지 다운로드")를 실행했거나 사용자에게 라이선스를 할당하지 않은 것일 수 있습니다.
 
 **해결 방법:**
 
 클라이언트 구성에 MicrosoftDefenderATPOnboardingMacOs.py [지침에 따릅니다.](mac-install-manually.md#client-configuration)
-
