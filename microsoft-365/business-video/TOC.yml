@@ -161,10 +161,10 @@
           href: create-sensitivity-labels.md
     - name: 지원
       items:
-        - name: 질문과 답변 찾기
-          href: find-help-answers.md
         - name: 도움말 및 지원 받기
           href: get-help-support.md
+        - name: 설명서 및 교육 찾기
+          href: find-help-answers.md
         - name: 직원 빠른 설정
           href: employee-quick-setup.md
     - name: Google Workspace에서 전환

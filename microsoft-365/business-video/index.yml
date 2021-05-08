@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft 365 소규모 기업 교육
-summary: 비즈니스용 Microsoft 365를 설정하고 관리하는 방법을 알아보고 있습니다.
+summary: 비즈니스를 위한 비즈니스 Microsoft 365 설정하고 관리하는 방법을 배워야 합니다.
 brand: m365
 metadata:
   title: Microsoft 365 소규모 기업 교육
-  description: Microsoft 365 관리 센터에서 Microsoft 365를 설정하고 관리합니다.
+  description: Microsoft 365 관리 센터에서 Microsoft 365 관리합니다.
   ms.service: O365-administration
   ms.prod: microsoft-365-business
   ms.topic: hub-page
@@ -15,9 +15,9 @@ metadata:
   ms.custom: AdminSurgePortfolio
 productDirectory:
   items:
-    - title: 시작하기
+    - title: 시작
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
-      summary: 비즈니스용 Microsoft 365로의 이동을 계획합니다.
+      summary: 비즈니스용 Microsoft 365 이동을 계획합니다.
       url: what-is-microsoft-365.md
     - title: 비즈니스용 Microsoft 365 설정
       imageSrc: 'https://docs.microsoft.com/office/media/icons/add-to-cloud-blue.svg'
@@ -25,15 +25,15 @@ productDirectory:
       url: sign-up.md
     - title: 컴퓨터 설정
       imageSrc: 'https://docs.microsoft.com/office/media/icons/device-desktop-download-blue.svg'
-      summary: 'Office 설치, 전자 메일 설정, 파일 마이그레이션...'
+      summary: '설치 Office, 전자 메일 설정, 파일 마이그레이션...'
       url: upgrade.md
     - title: 모바일 장치 설정
       imageSrc: 'https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg'
-      summary: 모바일 장치에 Office 앱을 설치합니다.
+      summary: 모바일 Office 앱을 설치합니다.
       url: work-from-anywhere.md
     - title: 다른 사람과 공동 작업
       imageSrc: 'https://docs.microsoft.com/office/media/icons/collaborate-blue.svg'
-      summary: Teams에서 직원 및 고객과 함께 작업합니다.
+      summary: 직원 및 고객과 함께 작업할 Teams.
       url: collab-outlook-teams.md
     - title: 파일 저장 및 공유
       imageSrc: 'https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg'
@@ -61,18 +61,18 @@ productDirectory:
       url: overview-m365-security.md
     - title: 지원 받기
       imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-blue.svg'
-      summary: 비즈니스용 Microsoft 365에 대한 도움말을 얻습니다.
-      url: find-help-answers.md
+      summary: 비즈니스용 Microsoft 365 도움말을 얻습니다.
+      url: get-help-support.md
 additionalContent:
   sections:
-    - title: 자세히 알아보기
+    - title: 자세한 정보
       items:
-        - title: Office에 대해 자세히 알아보기
-          summary: 'Word, Excel, PowerPoint 및 기타 Office 앱을 사용하는 방법을 배워야 합니다.'
+        - title: 자세한 Office
+          summary: 'Word, Excel, PowerPoint 앱 및 기타 Office 방법을 배워야 합니다.'
           url: 'https://support.microsoft.com/training'
         - title: ITPros 교육을 받을 수 있습니다.
           summary: 중소기업을 위한 학습 경로를 완료합니다.
           url: 'https://docs.microsoft.com/learn/m365/'
         - title: 추가 관리자 리소스 찾기
-          summary: Microsoft 365 관리 센터 도움말 사이트로 이동하세요.
+          summary: 관리 센터 Microsoft 365 사이트로 이동하세요.
           url: ../admin/index.yml

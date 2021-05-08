@@ -1,13 +1,13 @@
 ---
 title: Microsoft Defender 바이러스 백신 기능 구성
-description: Intune, Microsoft Endpoint Configuration Manager, 그룹 정책 및 PowerShell을 사용하여 Microsoft Defender 바이러스 백신 기능을 구성할 수 있습니다.
-keywords: Microsoft Defender 바이러스 백신, 맬웨어 방지, 보안, defender, 구성, 구성, Config Manager, Microsoft Endpoint Configuration Manager, SCCM, Intune, MDM, 모바일 장치 관리, GP, 그룹 정책, PowerShell
+description: Intune, Microsoft Defender 바이러스 백신, 그룹 정책 및 PowerShell을 사용하여 Microsoft Endpoint Configuration Manager 기능을 구성할 수 있습니다.
+keywords: Microsoft Defender 바이러스 백신, 맬웨어 방지, 보안, defender, 구성, 구성, 구성 관리자, Microsoft Endpoint Configuration Manager, SCCM, Intune, MDM, 모바일 장치 관리, GP, 그룹 정책, PowerShell
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,43 +15,44 @@ ms.date: 11/18/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 8503bb5bdd6337ec60390ef1d8e59f6f506fbce2
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 4408d5e788449c0d094008261f5e7db9bfe38758
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765170"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275111"
 ---
-# <a name="configure-microsoft-defender-antivirus-features"></a><span data-ttu-id="42815-104">Microsoft Defender 바이러스 백신 기능 구성</span><span class="sxs-lookup"><span data-stu-id="42815-104">Configure Microsoft Defender Antivirus features</span></span>
+# <a name="configure-microsoft-defender-antivirus-features"></a><span data-ttu-id="e2fd4-104">Microsoft Defender 바이러스 백신 기능 구성</span><span class="sxs-lookup"><span data-stu-id="e2fd4-104">Configure Microsoft Defender Antivirus features</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="42815-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="42815-105">**Applies to:**</span></span>
+<span data-ttu-id="e2fd4-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="e2fd4-105">**Applies to:**</span></span>
 
-- <span data-ttu-id="42815-106">[엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) </span><span class="sxs-lookup"><span data-stu-id="42815-106">[Microsoft Defender for Endpoint](/microsoft-365/security/defender-endpoint/)</span></span>
+- [<span data-ttu-id="e2fd4-106">엔드포인트용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="e2fd4-106">Microsoft Defender for Endpoint</span></span>](/microsoft-365/security/defender-endpoint/)
 
-<span data-ttu-id="42815-107">다음을 비롯한 다양한 도구를 사용하여 Microsoft Defender 바이러스 백신을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="42815-107">You can configure Microsoft Defender Antivirus with a number of tools, including:</span></span>
+<span data-ttu-id="e2fd4-107">다음을 Microsoft Defender 바이러스 백신 도구를 사용하여 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e2fd4-107">You can configure Microsoft Defender Antivirus with a number of tools, including:</span></span>
 
-- <span data-ttu-id="42815-108">Microsoft Intune</span><span class="sxs-lookup"><span data-stu-id="42815-108">Microsoft Intune</span></span>
-- <span data-ttu-id="42815-109">Microsoft Endpoint Configuration Manager</span><span class="sxs-lookup"><span data-stu-id="42815-109">Microsoft Endpoint Configuration Manager</span></span>
-- <span data-ttu-id="42815-110">그룹 정책</span><span class="sxs-lookup"><span data-stu-id="42815-110">Group Policy</span></span>
-- <span data-ttu-id="42815-111">PowerShell cmdlet</span><span class="sxs-lookup"><span data-stu-id="42815-111">PowerShell cmdlets</span></span>
-- <span data-ttu-id="42815-112">WMI(Windows Management Instrumentation)</span><span class="sxs-lookup"><span data-stu-id="42815-112">Windows Management Instrumentation (WMI)</span></span>
+- <span data-ttu-id="e2fd4-108">Microsoft Intune</span><span class="sxs-lookup"><span data-stu-id="e2fd4-108">Microsoft Intune</span></span>
+- <span data-ttu-id="e2fd4-109">Microsoft Endpoint Configuration Manager</span><span class="sxs-lookup"><span data-stu-id="e2fd4-109">Microsoft Endpoint Configuration Manager</span></span>
+- <span data-ttu-id="e2fd4-110">그룹 정책</span><span class="sxs-lookup"><span data-stu-id="e2fd4-110">Group Policy</span></span>
+- <span data-ttu-id="e2fd4-111">PowerShell cmdlet</span><span class="sxs-lookup"><span data-stu-id="e2fd4-111">PowerShell cmdlets</span></span>
+- <span data-ttu-id="e2fd4-112">WMI(Windows Management Instrumentation)</span><span class="sxs-lookup"><span data-stu-id="e2fd4-112">Windows Management Instrumentation (WMI)</span></span>
 
-<span data-ttu-id="42815-113">다음과 같은 광범위한 기능 범주를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="42815-113">The following broad categories of features can be configured:</span></span>
+<span data-ttu-id="e2fd4-113">다음과 같은 광범위한 기능 범주를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e2fd4-113">The following broad categories of features can be configured:</span></span>
 
-- <span data-ttu-id="42815-114">클라우드 제공 보호</span><span class="sxs-lookup"><span data-stu-id="42815-114">Cloud-delivered protection</span></span>
-- <span data-ttu-id="42815-115">동작, 학습 및 기계 학습 기반 보호를 비롯한 항상 실시간 보호</span><span class="sxs-lookup"><span data-stu-id="42815-115">Always-on real-time protection, including behavioral, heuristic, and machine-learning-based protection</span></span>
-- <span data-ttu-id="42815-116">최종 사용자가 개별 끝점에서 클라이언트와 상호 작용하는 방법</span><span class="sxs-lookup"><span data-stu-id="42815-116">How end users interact with the client on individual endpoints</span></span>
+- <span data-ttu-id="e2fd4-114">클라우드 제공 보호</span><span class="sxs-lookup"><span data-stu-id="e2fd4-114">Cloud-delivered protection</span></span>
+- <span data-ttu-id="e2fd4-115">동작, 학습 및 기계 학습 기반 보호를 비롯한 항상 실시간 보호</span><span class="sxs-lookup"><span data-stu-id="e2fd4-115">Always-on real-time protection, including behavioral, heuristic, and machine-learning-based protection</span></span>
+- <span data-ttu-id="e2fd4-116">최종 사용자가 개별 끝점에서 클라이언트와 상호 작용하는 방법</span><span class="sxs-lookup"><span data-stu-id="e2fd4-116">How end users interact with the client on individual endpoints</span></span>
 
-<span data-ttu-id="42815-117">다음 문서에서는 Microsoft Defender 바이러스 백신을 구성할 때 주요 작업을 수행하는 방법을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="42815-117">The following articles describe how to perform key tasks when configuring Microsoft Defender Antivirus.</span></span> <span data-ttu-id="42815-118">각 문서에는 해당 구성 도구(또는 도구)에 대한 지침이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="42815-118">Each article includes instructions for the applicable configuration tool (or tools).</span></span>
+<span data-ttu-id="e2fd4-117">다음 문서에서는 구성 시 주요 작업을 수행하는 방법을 Microsoft Defender 바이러스 백신.</span><span class="sxs-lookup"><span data-stu-id="e2fd4-117">The following articles describe how to perform key tasks when configuring Microsoft Defender Antivirus.</span></span> <span data-ttu-id="e2fd4-118">각 문서에는 해당 구성 도구(또는 도구)에 대한 지침이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e2fd4-118">Each article includes instructions for the applicable configuration tool (or tools).</span></span>
 
-|<span data-ttu-id="42815-119">문서</span><span class="sxs-lookup"><span data-stu-id="42815-119">Article</span></span>  |<span data-ttu-id="42815-120">설명</span><span class="sxs-lookup"><span data-stu-id="42815-120">Description</span></span>  |
+|<span data-ttu-id="e2fd4-119">문서</span><span class="sxs-lookup"><span data-stu-id="e2fd4-119">Article</span></span>  |<span data-ttu-id="e2fd4-120">설명</span><span class="sxs-lookup"><span data-stu-id="e2fd4-120">Description</span></span>  |
 |---------|---------|
-|[<span data-ttu-id="42815-121">Microsoft 클라우드 제공 Microsoft Defender 바이러스 백신 보호 활용</span><span class="sxs-lookup"><span data-stu-id="42815-121">Utilize Microsoft cloud-provided Microsoft Defender Antivirus protection</span></span>](cloud-protection-microsoft-defender-antivirus.md)     | <span data-ttu-id="42815-122">빠르고 강력한 바이러스 백신 탐지를 위해 클라우드 제공 보호를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="42815-122">Use cloud-delivered protection for advanced, fast, robust antivirus detection.</span></span>        |
-|[<span data-ttu-id="42815-123">동작,추론적 및 실시간 보호 구성</span><span class="sxs-lookup"><span data-stu-id="42815-123">Configure behavioral, heuristic, and real-time protection</span></span>](configure-protection-features-microsoft-defender-antivirus.md)     |<span data-ttu-id="42815-124">동작 기반,추론적 및 실시간 바이러스 백신 보호를 사용하도록 설정</span><span class="sxs-lookup"><span data-stu-id="42815-124">Enable behavior-based, heuristic, and real-time antivirus protection.</span></span>         |
-|[<span data-ttu-id="42815-125">Microsoft Defender 바이러스 백신과 최종 사용자 상호 작용 구성</span><span class="sxs-lookup"><span data-stu-id="42815-125">Configure end-user interaction with Microsoft Defender Antivirus</span></span>](configure-end-user-interaction-microsoft-defender-antivirus.md) | <span data-ttu-id="42815-126">조직의 최종 사용자가 Microsoft Defender 바이러스 백신과 상호 작용하는 방법, 사용자에게 어떤 알림이 표시될지, 설정을 오버라이드할 수 있는지 여부를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="42815-126">Configure how end users in your organization interact with Microsoft Defender Antivirus, what notifications they see, and whether they can override settings.</span></span> |
+|[<span data-ttu-id="e2fd4-121">Microsoft 클라우드 제공 보호 Microsoft Defender 바이러스 백신 활용</span><span class="sxs-lookup"><span data-stu-id="e2fd4-121">Utilize Microsoft cloud-provided Microsoft Defender Antivirus protection</span></span>](cloud-protection-microsoft-defender-antivirus.md)     | <span data-ttu-id="e2fd4-122">빠르고 강력한 바이러스 백신 탐지를 위해 클라우드 제공 보호를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="e2fd4-122">Use cloud-delivered protection for advanced, fast, robust antivirus detection.</span></span>        |
+|[<span data-ttu-id="e2fd4-123">동작, 추론 및 실시간 보호 구성</span><span class="sxs-lookup"><span data-stu-id="e2fd4-123">Configure behavioral, heuristic, and real-time protection</span></span>](configure-protection-features-microsoft-defender-antivirus.md)     |<span data-ttu-id="e2fd4-124">동작 기반,추론적 및 실시간 바이러스 백신 보호를 사용하도록 설정</span><span class="sxs-lookup"><span data-stu-id="e2fd4-124">Enable behavior-based, heuristic, and real-time antivirus protection.</span></span>         |
+|[<span data-ttu-id="e2fd4-125">사용자와의 최종 사용자 상호 작용 Microsoft Defender 바이러스 백신</span><span class="sxs-lookup"><span data-stu-id="e2fd4-125">Configure end-user interaction with Microsoft Defender Antivirus</span></span>](configure-end-user-interaction-microsoft-defender-antivirus.md) | <span data-ttu-id="e2fd4-126">조직의 최종 사용자가 사용자와 상호 작용하는 방법Microsoft Defender 바이러스 백신 사용자에게 어떤 알림이 표시되어 있는지, 설정을 오버라이드할 수 있는지 여부를 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="e2fd4-126">Configure how end users in your organization interact with Microsoft Defender Antivirus, what notifications they see, and whether they can override settings.</span></span> |
 
 > [!TIP]
-> <span data-ttu-id="42815-127">또한 관리 및 구성 도구에 대한 [참조](configuration-management-reference-microsoft-defender-antivirus.md) 항목을 검토하여 각 도구에 대한 개요와 추가 도움말에 대한 링크를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="42815-127">You can also review the [Reference topics for management and configuration tools](configuration-management-reference-microsoft-defender-antivirus.md) topic for an overview of each tool and links to further help.</span></span>
+> <span data-ttu-id="e2fd4-127">또한 관리 및 구성 도구에 대한 [참조](configuration-management-reference-microsoft-defender-antivirus.md) 항목을 검토하여 각 도구에 대한 개요와 추가 도움말에 대한 링크를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e2fd4-127">You can also review the [Reference topics for management and configuration tools](configuration-management-reference-microsoft-defender-antivirus.md) topic for an overview of each tool and links to further help.</span></span>

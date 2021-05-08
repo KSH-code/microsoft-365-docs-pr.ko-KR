@@ -1,5 +1,5 @@
 ---
-title: 도움말 및 지원 받기
+title: 지원 받기
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -15,58 +15,241 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Microsoft 365 Business Premium에서 관리자 도움말 또는 지원을 다운로드하는 방법을 배우게 됩니다.
-ms.openlocfilehash: 016e31ea12f1efeb50597cdb34391d324dc0f58d
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
-ms.translationtype: MT
+ms.openlocfilehash: 5494b51ba59304de8dde71c9c7fa0434ec5dd0c8
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580597"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244935"
 ---
-# <a name="get-help-or-support"></a><span data-ttu-id="552ac-103">도움말 및 지원 받기</span><span class="sxs-lookup"><span data-stu-id="552ac-103">Get help or support</span></span>
+# <a name="get-support"></a><span data-ttu-id="6feb5-103">지원 받기</span><span class="sxs-lookup"><span data-stu-id="6feb5-103">Get support</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOgo?autoplay=false]
 
-<span data-ttu-id="552ac-104">바로 도움이 필요하세요?</span><span class="sxs-lookup"><span data-stu-id="552ac-104">Need to speak to someone right away?</span></span> <span data-ttu-id="552ac-105">고객 지원팀에 전화하는 관리자는 계정 세부 정보를 준비하세요.</span><span class="sxs-lookup"><span data-stu-id="552ac-105">Admins, have your account details ready when you call Support.</span></span>
+<span data-ttu-id="6feb5-104">바로 도움이 필요하세요?</span><span class="sxs-lookup"><span data-stu-id="6feb5-104">Need to speak to someone right away?</span></span> <span data-ttu-id="6feb5-105">고객 지원팀에 전화하는 관리자는 계정 세부 정보를 준비하세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-105">Admins, have your account details ready when you call Support.</span></span>
 
-<span data-ttu-id="552ac-106">관리자가 아닌 경우</span><span class="sxs-lookup"><span data-stu-id="552ac-106">Not an admin?</span></span> <span data-ttu-id="552ac-107">Home 및 Business 최종 사용자의 경우 [Microsoft 지원](https://go.microsoft.com/fwlink/?linkid=860695)을 사용해 보세요.</span><span class="sxs-lookup"><span data-stu-id="552ac-107">Try [Microsoft support](https://go.microsoft.com/fwlink/?linkid=860695) for Home and business end users.</span></span>
+::: moniker range="o365-worldwide"
 
-- <span data-ttu-id="552ac-108">**미국에서는 1 800 865 9408로 전화하세요**.</span><span class="sxs-lookup"><span data-stu-id="552ac-108">**In the United States, call 1 800 865 9408**.</span></span>
-- <span data-ttu-id="552ac-109">**오스트레일리아에서는 1 800 197 503으로 전화하세요**.</span><span class="sxs-lookup"><span data-stu-id="552ac-109">**In Australia, call 1 800 197 503**.</span></span>
-- <span data-ttu-id="552ac-110">**캐나다에서는 1 800 865 9408로 전화하세요**.</span><span class="sxs-lookup"><span data-stu-id="552ac-110">**In Canada, call 1 800 865 9408**.</span></span>
-- <span data-ttu-id="552ac-111">**영국에서는 0800 032 6417로 전화하세요**.</span><span class="sxs-lookup"><span data-stu-id="552ac-111">**In the United Kingdom, call 0800 032 6417**.</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="6feb5-106">이러한 지원 방법을 사용하려면 비즈니스 구독의 관리자여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-106">You must be an admin for a business subscription to use these support methods.</span></span> <span data-ttu-id="6feb5-107">비즈니스 관리자가 아닌 경우 [이 지원 페이지](https://support.microsoft.com/contactus)를 사용하세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-107">If you're not a business admin, please use [this support page](https://support.microsoft.com/contactus).</span></span>
 
-<span data-ttu-id="552ac-112">청구 지원은 월-금 오전 9시-오후 5시(오스트레일리아에서는 오전 9시-오후 6시) 사이에 영어로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-112">Billing support is provided in English from 9 AM–5 PM (9 AM–6 PM in Australia), Monday–Friday.</span></span>
-<span data-ttu-id="552ac-113">기술 지원은 24시간 연중 무휴로 영어로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-113">Technical support is provided in English 24 hours a day, 7 days a week.</span></span>
+<span data-ttu-id="6feb5-108">[서비스의 현재 상태를 봅니다](../enterprise/view-service-health.md)로 시작하기.</span><span class="sxs-lookup"><span data-stu-id="6feb5-108">Start by [checking the current health of your services](../enterprise/view-service-health.md).</span></span> <span data-ttu-id="6feb5-109"><a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">서비스 상태 대시보드</a>에서 현재와 과거의 문제에 대한 자세한 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-109">You can view detailed information about current and past issues on the <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">Service health dashboard</a>.</span></span> <span data-ttu-id="6feb5-110">목록에 없는 문제가 발생하는 경우 다음 방법 중 하나로 지원을 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-110">If you're experiencing an issue that isn't listed, you can get support in one of the following ways:</span></span>
 
-<span data-ttu-id="552ac-114">해당 국가 또는 지역의 Microsoft 365 또는 Microsoft 365 Business Premium 지원 전화번호를 찾으려면 [비즈니스 제품 지원 서비스에 문의](https://support.microsoft.com/office/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="552ac-114">To find the Microsoft 365 or Microsoft 365 Business Premium support phone number for your country or region, see [Contact support for business products](https://support.microsoft.com/office/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span></span>
+## <a name="online-support"></a><span data-ttu-id="6feb5-111">온라인 지원</span><span class="sxs-lookup"><span data-stu-id="6feb5-111">Online support</span></span>
 
-## <a name="try-it"></a><span data-ttu-id="552ac-115">사용해 보세요!</span><span class="sxs-lookup"><span data-stu-id="552ac-115">Try it!</span></span>
+<span data-ttu-id="6feb5-p104">온라인으로 서비스 요청을 시작하여 시간을 절약합니다. 솔루션을 찾거나 기술 지원을 받을 수 있도록 도와드리겠습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p104">Save time by starting your service request online. We'll help you find a solution or connect you to technical support.</span></span>
 
-<span data-ttu-id="552ac-116">Microsoft 365 Business Premium에서 여러 가지 방법으로 도움말이나 지원을 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-116">In Microsoft 365 Business Premium, there are several ways to get help or assistance.</span></span> <span data-ttu-id="552ac-117">Microsoft 관리 센터, Microsoft 스토어 또는 Microsoft 솔루션 공급자의 도움말을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-117">You can find help in the Microsoft admin center, at a Microsoft store, or from a Microsoft solution provider.</span></span>
+1. <span data-ttu-id="6feb5-114"><a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-114">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span> <span data-ttu-id="6feb5-115">해당 페이지에 액세스 또는 해당 작업 수행에 대한 권한이 없습니다라는 메시지가 나타나는 경우, 관리자가 아닙니다. [내 비즈니스에서 관리자 권한을 가진 사용자를 알아보세요.](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview?#who-has-admin-permissions-in-my-business)</span><span class="sxs-lookup"><span data-stu-id="6feb5-115">If you get a message that says you don't have permission to access this page or perform this action, then you aren't an admin. [Who has admin permissions in my business?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview?#who-has-admin-permissions-in-my-business)</span></span>
 
-### <a name="get-help-in-the-admin-center"></a><span data-ttu-id="552ac-118">관리 센터에서 도움 받기</span><span class="sxs-lookup"><span data-stu-id="552ac-118">Get help in the admin center</span></span>
+2. <span data-ttu-id="6feb5-116">**도움이 필요하신가요?** 버튼을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-116">Select the **Need help?** button.</span></span>
 
-1. <span data-ttu-id="552ac-119">작업 자격 증명을 사용하여 office.com에 로그인하고 [관리](https://office.com)를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-119">Sign in to [office.com](https://office.com) with your work credentials, and select Admin.</span></span>
-1. <span data-ttu-id="552ac-120">페이지 맨 아래에서 **도움이 필요한가요?** 를 선택하여 지원 도우미를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-120">At the bottom of the page, choose **Need help?** to open the support assistant.</span></span>
-1. <span data-ttu-id="552ac-121">질문을 입력하고 **메시지 보내기** 아이콘을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-121">Type your question, and then select the **Send message** icon.</span></span>
-1. <span data-ttu-id="552ac-122">결과를 검토하고 원하는 옵션을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-122">Review the results, and choose the option you want.</span></span>
-1. <span data-ttu-id="552ac-123">추가 지원이 필요한 경우 **연락처** 아이콘을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-123">If you need more help, choose the **Contact** icon.</span></span>
-1. <span data-ttu-id="552ac-124">**지원 센터에 문의** 페이지에서 질문에 대 한 정보를 입력한 다음 연락처 정보를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-124">On the **Contact support** page, enter information about your question, and then enter your contact information.</span></span> <span data-ttu-id="552ac-125">연락 받을 방법을 선택한 다음 **연락 주세요** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-125">Choose how you want to be contacted, and then select **Contact me**.</span></span>
+3. <span data-ttu-id="6feb5-117">**도움이 필요하신가요?** 창에서 도움이 필요한 사항을 설명하고 **Enter** 를 누릅니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-117">In the **Need help?** pane, tell us what you need help with, and then press **Enter**.</span></span>
 
-    <span data-ttu-id="552ac-126">서비스 요청이 전송되었습니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-126">Your service request has been sent.</span></span> <span data-ttu-id="552ac-127">**서비스 요청** 페이지에 요청이 요약되어 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-127">You'll see a summary of your request on the **Service request** page.</span></span>
+4. <span data-ttu-id="6feb5-118">결과가 도움이 되지 않으면 **지원 팀에 문의하기** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-118">If the results don't help, select **Contact support**.</span></span>
 
-### <a name="work-with-a-solution-provider"></a><span data-ttu-id="552ac-128">솔루션 공급자와 작업</span><span class="sxs-lookup"><span data-stu-id="552ac-128">Work with a solution provider</span></span>
+5. <span data-ttu-id="6feb5-119">원하는 경우 문제 설명을 입력하고, 연락 번호와 전자 메일 주소를 확인합니다. 선호하는 연락 방법을 선택하고 **연락 받기** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-119">Enter a description of your issue, confirm your contact number and email address, select your preferred contact method, and then select **Contact me**.</span></span> <span data-ttu-id="6feb5-120">예상 대기 시간은 **도움이 필요하신가요?** 창에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-120">The expected wait time is indicated in the **Need help?** pane.</span></span>
 
-1. <span data-ttu-id="552ac-129">더 큰 프로젝트나 문제가 있어서 컨설턴트에게 문의하려는 경우에는 Microsoft 솔루션 공급자를 고려하세요.</span><span class="sxs-lookup"><span data-stu-id="552ac-129">If you have a larger project or problem and would like to speak with a consultant, consider a Microsoft solution provider.</span></span>
-1. <span data-ttu-id="552ac-130">솔루션 공급자를 찾으려면 브라우저에서 "Microsoft 솔루션 공급자"를 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-130">To locate a solution provider, search for "Microsoft solution providers" in your browser.</span></span>
-1. <span data-ttu-id="552ac-131">**Microsoft 솔루션 공급자** 페이지를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-131">Select the **Microsoft Solution Provider** s page.</span></span>
-1. <span data-ttu-id="552ac-132">위치, 조직의 규모 및 필요한 지원 유형을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-132">Enter your location, the size of your organization, and the type of support you are looking for.</span></span> <span data-ttu-id="552ac-133">**이동** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-133">Select **Go**.</span></span>
-1. <span data-ttu-id="552ac-134">**Microsoft 솔루션 공급자 찾기** 페이지에서 원하는 솔루션 공급자를 목록에서 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-134">On the **Find a Microsoft solution provider** page, select the solution provider you want from the list.</span></span>
+## <a name="phone-support"></a><span data-ttu-id="6feb5-121">전화 지원</span><span class="sxs-lookup"><span data-stu-id="6feb5-121">Phone support</span></span>
 
-    <span data-ttu-id="552ac-135">선택하는 서비스 공급자가 연락을 줄 것입니다.</span><span class="sxs-lookup"><span data-stu-id="552ac-135">The service provider that you choose will contact you.</span></span>
+<span data-ttu-id="6feb5-122">청구 지원은 월요일~금요일 오전 9시부터 오후 5시까지(오스트레일리아의 경우 오전 9시부터 오후 6시까지) 영어로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-122">Billing support is provided in English from 9 AM-5 PM (9 AM-6 PM in Australia), Monday-Friday.</span></span>\
+<span data-ttu-id="6feb5-123">기술 지원은 24시간 연중 무휴로 영어로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-123">Technical support is provided in English 24 hours a day, 7 days a week.</span></span>\
+<span data-ttu-id="6feb5-124">전화하는 관리자는 계정 정보를 준비하세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-124">Admins, have your account details ready when you call.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="6feb5-125">조직을 보다 효과적으로 보호하기 위해 기존 전화 기반 검증 프로세스에 PIN 기반 검증 단계를 추가했습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-125">To better protect your organization, we added a PIN-based verification step to our existing phone-based verification process.</span></span> <span data-ttu-id="6feb5-126">조직 프로필에 등록되지 않은 번호로 연락하면 Microsoft 지원 담당자가 Microsoft 365 관리 센터 프로필에 등록된 전자 메일 또는 전화 번호로 확인 코드를 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-126">If you contact us from a number that isn't registered with your organization profile, the Microsoft support representative sends a verification code to the registered email or phone number in your Microsoft 365 admin center profile.</span></span> <span data-ttu-id="6feb5-127">지원 담당자에게 조직의 계정에 대한 액세스 권한을 부여하려면 이 코드를 제공해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-127">You must provide this code to the support representative to grant them access to your organization’s account.</span></span>
+
+- <span data-ttu-id="6feb5-128">**미국에서는 1 800 865 9408로 전화하십시오.**</span><span class="sxs-lookup"><span data-stu-id="6feb5-128">**In the United States, call 1 800 865 9408.**</span></span>
+
+- <span data-ttu-id="6feb5-129">**오스트레일리아에서는 1 800 197 503으로 전화하십시오.**</span><span class="sxs-lookup"><span data-stu-id="6feb5-129">**In Australia, call 1 800 197 503.**</span></span>
+
+- <span data-ttu-id="6feb5-130">**캐나다에서는 1 800 865 9408로 전화하십시오.**</span><span class="sxs-lookup"><span data-stu-id="6feb5-130">**In Canada, call 1 800 865 9408.**</span></span>
+
+- <span data-ttu-id="6feb5-131">**영국에서는 0800 032 6417로 전화하십시오.**</span><span class="sxs-lookup"><span data-stu-id="6feb5-131">**In the United Kingdom, call 0800 032 6417.**</span></span>
+
+<span data-ttu-id="6feb5-132">지원 전화 번호가 위의 목록에 없으면, 아래 드롭다운 목록을 사용하여 국가 또는 지역 번호를 선택하세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-132">If your support phone number isn't listed above, use the drop-down menu below to find the number for your country or region.</span></span>
+
+[!INCLUDE [country-region-support-dropdown-list](../admin/includes/country-region-support-dropdown-list.md)]
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+<span data-ttu-id="6feb5-p108">21Vianet에서 운영하는 Office 365의 모든 구독에 대해 21VNetet 지원은 기술, 사전 판매, 청구 및 구독 지원을 제공합니다. 지원은 21Vianet 포털에서 운영하는 Office 365를 통해 온라인으로 제공되거나 유료 및 평가판 구독에 대한 전화를 통해 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p108">With every subscription of Office 365 operated by 21Vianet, 21Vianet support provides technical, pre-sales, billing and subscription support. Support is available both online through the Office 365 operated by 21Vianet portal, and by telephone for both paid and trial subscriptions.</span></span>
+
+<span data-ttu-id="6feb5-p109">권한이 있는 관리자는 21Vianet 포털에서 운영하는 Office 365를 사용하여 온라인으로 서비스 요청을 제출하고 지원 전화 번호에 액세스할 수 있습니다. 자세한 내용은 [고객 지원 센터 문의](#contact-support)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p109">Authorized administrators can use the Office 365 operated by 21Vianet portal to submit service requests online and access support telephone numbers. For instructions, see [Contact support](#contact-support).</span></span>
+
+<span data-ttu-id="6feb5-p110">21Vianet이 운영하는 Office 365 기술 지원 팀은 21Vianet에서 운영하는 Office 365와 관련된 문제만 해결합니다. 고객 네트워크에서 발생하는 문제는 Office 365 지원 범위를 벗어납니다. 이러한 경우 고객은 해당 네트워킹 팀에 지원을 요청해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p110">The Office 365 operated by 21Vianet technical support team troubleshoots only those issues that are related to Office 365 operated by 21Vianet. Issues that originate in customer networks fall outside of the Office 365 support boundaries, and in these cases, customers must work with their networking team for assistance.</span></span>
+
+## <a name="community-and-self-service-support-options"></a><span data-ttu-id="6feb5-139">커뮤니티 및 셀프 서비스 지원 옵션</span><span class="sxs-lookup"><span data-stu-id="6feb5-139">Community and self-service support options</span></span>
+
+<span data-ttu-id="6feb5-p111">셀프 서비스 지원은 21Vianet 사용자가 운영하는 모든 Office 365에 대해 제공되며 문제 해결 도구/비디오, 도움말 문서/비디오 및 [Office 365 커뮤니티](https://go.microsoft.com/fwlink/p/?linkid=842838)의 포럼/Wiki를 포함합니다. 셀프 서비스 지원 리소스에 대한 자세한 내용은 [21Vianet에서 운영하는 Office 365 알아보기](../admin/services-in-china/services-in-china.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p111">Self-service support is available for all Office 365 operated by 21Vianet users, and includes troubleshooting tools and videos, help articles and videos, as well as forums and wikis in the [Office 365 community](https://go.microsoft.com/fwlink/p/?linkid=842838). For more self-help resources, see [Learn about Office 365 operated by 21Vianet](../admin/services-in-china/services-in-china.md).</span></span>
+
+## <a name="pre-sales-support"></a><span data-ttu-id="6feb5-142">사전 판매 지원</span><span class="sxs-lookup"><span data-stu-id="6feb5-142">Pre-sales support</span></span>
+
+<span data-ttu-id="6feb5-p112">21Vianet에서 운영하는 Office 365에 대한 사전 판매 지원을 통해 구독 기능/혜택, 계획 비교, 가격/라이선스에 대한 지원이 제공되며 고객의 비즈니스 요구에 맞는 적합한 솔루션을 파악할 수 있습니다. 또한 사전 판매 지원을 통해 파트너 검색, 구입 및 평가판 등록에 대한 지원을 받을 수 있습니다. 현지 업무 시간(월요일~금요일) 중에 전화를 통해 지원을 받을 수 있습니다. 기술 지원과 동일한 전화 번호를 사용하여 사전 판매 지원에 액세스할 수 있습니다. 자세한 내용은 [고객 지원 센터 문의](#contact-support)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p112">Pre-sales support for Office 365 operated by 21Vianet provides assistance on subscription features and benefits, plan comparisons, pricing and licensing, and helps to identify the right solution to meet your business needs. In addition, pre-sales support can help you find a Partner, and purchase and sign up for a trial. You can call during local business hours, Monday through Friday. Pre-sales support can be accessed using the same phone number as with technical support. For instructions, see [Contact support](#contact-support).</span></span>
+
+## <a name="billing-and-subscription-management-support"></a><span data-ttu-id="6feb5-148">대금 청구 및 구독 관리 지원</span><span class="sxs-lookup"><span data-stu-id="6feb5-148">Billing and subscription management support</span></span>
+
+<span data-ttu-id="6feb5-p113">온라인을 이용하거나 중국 업무 시간(월요일 ~ 금요일/베이징 표준시 기준) 중에 전화를 통해 대금 청구 및 구독 관리 문제에 대한 지원을 받을 수 있습니다. 기술 지원과 동일한 전화 번호 및 온라인 서비스 요청 프로세스를 사용하여 대금 청구 및 구독 관리 지원에 액세스할 수 있습니다. 21Vianet에서 운영하는 Office 365 포털에서 지원 전화 번호를 찾을 수 있습니다. 자세한 내용은 [지원 센터 문의](#contact-support)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p113">Assistance for billing and subscription management issues is available online or by telephone during China business hours (Beijing Time), Monday through Friday. Billing and subscription management support can be accessed using the same phone number and online service request process as with technical support. The support telephone number can be found on the Office 365 operated by 21Vianet portal. For instructions, see [Contact support](#contact-support).</span></span>
+
+<span data-ttu-id="6feb5-153">대금 청구 및 구독 관리 문제의 몇 가지 예는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-153">Here are some examples of billing and subscription management issues:</span></span>
+
+- <span data-ttu-id="6feb5-154">평가판 등록 또는 구독 구입</span><span class="sxs-lookup"><span data-stu-id="6feb5-154">Signing up for a trial or purchasing a subscription</span></span>
+
+- <span data-ttu-id="6feb5-155">평가판 구독에서 유료 구독으로 전환</span><span class="sxs-lookup"><span data-stu-id="6feb5-155">Converting from a trial subscription to a paid subscription</span></span>
+
+- <span data-ttu-id="6feb5-156">대금 청구 이해</span><span class="sxs-lookup"><span data-stu-id="6feb5-156">Understanding the bill</span></span>
+
+- <span data-ttu-id="6feb5-157">구독 갱신</span><span class="sxs-lookup"><span data-stu-id="6feb5-157">Renewing a subscription</span></span>
+
+- <span data-ttu-id="6feb5-158">라이선스 추가 또는 제거</span><span class="sxs-lookup"><span data-stu-id="6feb5-158">Adding or removing licenses</span></span>
+
+- <span data-ttu-id="6feb5-159">유료 구독 취소</span><span class="sxs-lookup"><span data-stu-id="6feb5-159">Canceling a paid subscription</span></span>
+
+## <a name="technical-support"></a><span data-ttu-id="6feb5-160">기술 지원</span><span class="sxs-lookup"><span data-stu-id="6feb5-160">Technical support</span></span>
+
+<span data-ttu-id="6feb5-p114">21Vianet에서 운영하는 Office 365 구독에 대한 기술 지원을 통해 기본 설치, 설정 및 일반 기술 사용에 대한 지원이 제공됩니다. 이러한 문제의 몇 가지 예가 다음 표에 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p114">Technical support for Office 365 operated by 21Vianet subscriptions provides assistance with basic installation, setup, and general technical usage. Some examples of these issues are listed in the following table.</span></span>
+
+| <span data-ttu-id="6feb5-163">지원 범주</span><span class="sxs-lookup"><span data-stu-id="6feb5-163">Support category</span></span> | <span data-ttu-id="6feb5-164">예</span><span class="sxs-lookup"><span data-stu-id="6feb5-164">Examples</span></span> |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="6feb5-165">설치 및 설정</span><span class="sxs-lookup"><span data-stu-id="6feb5-165">Installation and setup</span></span> | <span data-ttu-id="6feb5-166">Exchange Online</span><span class="sxs-lookup"><span data-stu-id="6feb5-166">Exchange Online</span></span>  <ul><li><span data-ttu-id="6feb5-167">Office 365 사서함 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="6feb5-167">Office 365 mailbox migration</span></span></li><li><span data-ttu-id="6feb5-168">받는 사람 구성(사서함 권한, 메일 전달 구성, 공유 사서함 구성)</span><span class="sxs-lookup"><span data-stu-id="6feb5-168">Recipient configuration (mailbox permissions, configuring mail forwarding, configuring shared mailbox)</span></span></li><li><span data-ttu-id="6feb5-169">자동 검색 구성</span><span class="sxs-lookup"><span data-stu-id="6feb5-169">Autodiscover configuration</span></span></li></ul> <span data-ttu-id="6feb5-170">SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="6feb5-170">SharePoint Online</span></span> <ul><li><span data-ttu-id="6feb5-171">사용 권한 및 사용자 그룹</span><span class="sxs-lookup"><span data-stu-id="6feb5-171">Permissions and user groups</span></span></li><li><span data-ttu-id="6feb5-172">외부 사용자 구성</span><span class="sxs-lookup"><span data-stu-id="6feb5-172">Configuration of external users</span></span></li></ul> <span data-ttu-id="6feb5-173">비즈니스용 Skype Online</span><span class="sxs-lookup"><span data-stu-id="6feb5-173">Skype for Business Online</span></span>  <ul><li><span data-ttu-id="6feb5-174">설치 및 연락처 만들기</span><span class="sxs-lookup"><span data-stu-id="6feb5-174">Installation and creating contacts</span></span></li></ul> <span data-ttu-id="6feb5-175">엔터프라이즈용 Microsoft 365 앱</span><span class="sxs-lookup"><span data-stu-id="6feb5-175">Microsoft 365 Apps for enterprise</span></span>  <ul><li><span data-ttu-id="6feb5-176">설치 및 설정</span><span class="sxs-lookup"><span data-stu-id="6feb5-176">Installation and setup</span></span></li></ul> |
+| <span data-ttu-id="6feb5-177">구성</span><span class="sxs-lookup"><span data-stu-id="6feb5-177">Configuration</span></span> | <span data-ttu-id="6feb5-178">서비스 구성 문제</span><span class="sxs-lookup"><span data-stu-id="6feb5-178">Service configuration issues</span></span>  <ul><li><span data-ttu-id="6feb5-179">SSO(Single Sign-On)</span><span class="sxs-lookup"><span data-stu-id="6feb5-179">Single sign-on (SSO)</span></span></li><li><span data-ttu-id="6feb5-180">Active Directory 동기화</span><span class="sxs-lookup"><span data-stu-id="6feb5-180">Active Directory synchronization</span></span></li></ul> |
+
+> [!NOTE]
+> <span data-ttu-id="6feb5-p115">여기서 기술 지원 서비스에 문의하는 방법을 확인할 수 있습니다. [지원 센터 문의](#contact-support)를 참조하세요. 기술 지원에는 타사 서비스 또는 추가 기능 문제 해결이 포함되어 있지 않습니다. [커뮤니티](https://go.microsoft.com/fwlink/p/?linkid=842838)에서 다른 고객의 답변 찾기에 대해 자세히 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p115">You can learn how to contact technical support here: [Contact support](#contact-support). Technical support does not include troubleshooting third-party services or add-ins. Learn about finding answers from other customers in the [Community](https://go.microsoft.com/fwlink/p/?linkid=842838).</span></span>
+
+## <a name="technical-support-case-handling"></a><span data-ttu-id="6feb5-183">기술 지원 사례 처리</span><span class="sxs-lookup"><span data-stu-id="6feb5-183">Technical support case handling</span></span>
+
+<span data-ttu-id="6feb5-p116">21Vianet에서는 문제 유형 및 고객 영향의 평가에 따라 사례가 열릴 때 사례의 심각도 수준을 지정합니다. 다음 표에는 문제 유형 및 심각도 수준의 예가 나와 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p116">21Vianet assigns a severity level to a case when it is opened, based on an assessment of the issue type and customer impact. Examples of issue types and severity levels are shown in the following table.</span></span>
+
+| <span data-ttu-id="6feb5-186">심각도 수준</span><span class="sxs-lookup"><span data-stu-id="6feb5-186">Severity level</span></span> | <span data-ttu-id="6feb5-187">운영 및 지원 설명</span><span class="sxs-lookup"><span data-stu-id="6feb5-187">Operations and support description</span></span> | <span data-ttu-id="6feb5-188">예</span><span class="sxs-lookup"><span data-stu-id="6feb5-188">Examples</span></span> |
+|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="6feb5-189">Sev A(중요)</span><span class="sxs-lookup"><span data-stu-id="6feb5-189">Sev A (Critical)</span></span> | <span data-ttu-id="6feb5-p117">하나 이상의 서비스에 액세스할 수 없거나 서비스를 사용할 수 없습니다. 생산, 운영 또는 배포 마감일이 심각한 영향을 받거나 생산이나 수익성에 심각한 영향이 있을 수 있습니다. 여러 사용자나 서비스가 영향을 받습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p117">One or more services aren't accessible or are unusable. Production, operations, or deployment deadlines are severely affected, or there will be a severe impact on production or profitability. Multiple users or services are affected.</span></span> | <ul><li><span data-ttu-id="6feb5-193">메일 보내기 또는 받기에 광범위한 문제가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-193">Widespread problems sending or receiving mail.</span></span></li><li><span data-ttu-id="6feb5-194">SharePoint 사이트가 다운됩니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-194">SharePoint site down.</span></span></li> <li><span data-ttu-id="6feb5-195">일부 사용자가 인스턴트 메시지를 보내거나 비즈니스용 Skype 회의를 참가 또는 예약하거나 비즈니스용 Skype 호출을 수행할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-195">All users can't send instant messages, join or schedule Skype for Business Meetings, or make Skype for Business calls.</span></span></li></ul> |
+| <span data-ttu-id="6feb5-196">Sev B(높음)</span><span class="sxs-lookup"><span data-stu-id="6feb5-196">Sev B (High)</span></span> | <span data-ttu-id="6feb5-p118">이 서비스를 사용할 수 있지만 기능이 제한적입니다. 이 상황은 비즈니스에 중간 정도의 영향을 미치며 업무 시간 중에 처리될 수 있습니다. 단일 사용자, 고객 또는 서비스가 부분적으로 영향을 받습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p118">The service is usable but in an impaired fashion. The situation has moderate business impact and can be dealt with during business hours. A single user, customer, or service is partially affected.</span></span> | <ul><li><span data-ttu-id="6feb5-200">Outlook의 보내기 단추가 잘못 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-200">Send button in Outlook is garbled.</span></span></li> <li><span data-ttu-id="6feb5-201">EAC(Exchange 관리 센터)에서는 설정할 수 없지만 Windows PowerShell에서 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-201">Setting is impossible from EAC (Exchange admin center) but possible in Windows PowerShell.</span></span></li></ul> |
+| <span data-ttu-id="6feb5-202">Sev C(중요하지 않음)</span><span class="sxs-lookup"><span data-stu-id="6feb5-202">Sev C (Non-critical)</span></span> | <span data-ttu-id="6feb5-p119">이 상황은 비즈니스에 최소한의 영향을 미칩니다. 이 문제는 중요하지만 고객에 대한 현재 서비스나 생산성에 큰 영향을 미치지 않습니다. 단일 사용자에게 부분적인 중단이 발생하지만 적절한 해결 방법이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p119">The situation has minimal business impact. The issue is important but does not have a significant current service or productivity impact for the customer. A single user is experiencing partial disruption, but an acceptable workaround exists.</span></span> | <ul><li><span data-ttu-id="6feb5-206">만료되지 않는 사용자 암호 설정하는 방법입니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-206">How to set user password that never expires.</span></span></li> <li><span data-ttu-id="6feb5-207">Exchange Online의 연락처 정보를 삭제할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-207">User can't delete contact information in Exchange Online.</span></span></li></ul> |
+
+## <a name="technical-support-initial-response-times"></a><span data-ttu-id="6feb5-208">기술 지원 초기 응답 시간</span><span class="sxs-lookup"><span data-stu-id="6feb5-208">Technical support initial response times</span></span>
+
+<span data-ttu-id="6feb5-p120">초기 응답 시간은 위에서 설명한 심각도에 따라 달라집니다. 21Vianet 고객 서비스 팀은 심각도에 따라 합리적인 수준에서 후속으로 조사 및 고객 소통을 실시합니다. 또한 21Vianet은 고객이 합리적인 수준에서 적절하게 협업할 것입니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p120">Initial response time is based on the severity levels described above. 21Vianet customer service team follow up with investigation and customer communication in reasonable rhythm according to severity levels. 21Vianet also expect customer to collaborate at reasonable level accordingly.</span></span>
+
+| <span data-ttu-id="6feb5-212">보안 수준 <sup>1</sup></span><span class="sxs-lookup"><span data-stu-id="6feb5-212">Security level <sup>1</sup></span></span> | <span data-ttu-id="6feb5-213">21Viet 고객 지원팀 초기 대응</span><span class="sxs-lookup"><span data-stu-id="6feb5-213">21Vianet customer support team Initial response</span></span> | <span data-ttu-id="6feb5-214">고객 책임</span><span class="sxs-lookup"><span data-stu-id="6feb5-214">Customer responsibility</span></span> |
+|--------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="6feb5-215">심각도 A <sup>2</sup>(매우 높음)</span><span class="sxs-lookup"><span data-stu-id="6feb5-215">Sev A <sup>2</sup>  (Critical)</span></span> | <span data-ttu-id="6feb5-216">초기 대응: 1시간 이내, 후속 조치: 문제가 해결될 때까지 지속적으로 노력합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-216">Initial Response: 1 hour or less; Follow up: continues effort until problem resolution.</span></span> | <span data-ttu-id="6feb5-217">합리적인 비즈니스 영향 진술을 제공합니다(위의 심각도 A 설명 및 예 참조). 공동 조사 및 필요한 의사 소통을 위한 21Vianet 고객 지원 에이전트와의 지속적인 협력을 보장하기 위한 리소스를 할당합니다. 정확한 연락처 정보를 제공하고 서비스 요청이 종료될 때까지 안정적으로 소통할 수 있도록 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-217">Provide solid business impact statement (see the severity A description and examples above); Allocate resource to ensure continues collaboration with 21Vianet customer support agent for the joint investigation and necessary communication; Provide accurate contact information and ensure reliable communication throughout the service request lifecycle.</span></span> |
+| <span data-ttu-id="6feb5-218">Sev B(높음)</span><span class="sxs-lookup"><span data-stu-id="6feb5-218">Sev B (High)</span></span> | <span data-ttu-id="6feb5-219">최초 대응: 영업일 1일 이내.</span><span class="sxs-lookup"><span data-stu-id="6feb5-219">Initial Response: 1 business day or less.</span></span> | <span data-ttu-id="6feb5-220">정확한 연락처 정보를 제공하고 서비스 요청이 종료될 때까지 안정적으로 소통할 수 있도록 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-220">Provide accurate contact information and ensure reliable communication throughout the service request lifecycle.</span></span> |
+| <span data-ttu-id="6feb5-221">Sev C(중간)</span><span class="sxs-lookup"><span data-stu-id="6feb5-221">Sev C (Medium)</span></span> | <span data-ttu-id="6feb5-222">최초 대응: 영업일 3일 이내.</span><span class="sxs-lookup"><span data-stu-id="6feb5-222">Initial Response: 3 business day or less.</span></span> | <span data-ttu-id="6feb5-223">정확한 연락처 정보를 제공하고 서비스 요청이 종료될 때까지 안정적으로 소통할 수 있도록 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-223">Provide accurate contact information and ensure reliable communication throughout the service request lifecycle.</span></span> |
+
+<span data-ttu-id="6feb5-224"><sup>1</sup> 고객이 적절한 시간 내에 필요한 자원을 제공하거나 21Vianet고객 지원 에이전트 조사와 협력 할 수없는 경우 21Vianet 지원 팀이 서비스 요청의 심각도 수준을 낮출 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-224"><sup>1</sup> If the customer cannot provide required resource or make response for collaboration with 21Vianet customer support agent investigation in reasonable time, 21Vianet support team may lower down the severity level of a service request.</span></span>
+
+<span data-ttu-id="6feb5-p121"><sup>2</sup> 심각도 A는 영업 계정 관리자를 통해 21Vianet과 고급 온라인 서비스 계약을 체결한 고객만 사용할 수 있습니다. 심각도 A는 기술 지원에만 제공됩니다. 청구 및 구독 관리 지원의 경우 가장 높은 심각도는 B입니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p121"><sup>2</sup> Severity A is only available to customers who had signed an advanced online service agreement with 21Vianet through a sales account manager. Severity A is available only for technical support. For billing and subscription management support, the highest severity level is B.</span></span>
+
+## <a name="technical-support-working-hours"></a><span data-ttu-id="6feb5-228">기술 지원 업무 시간</span><span class="sxs-lookup"><span data-stu-id="6feb5-228">Technical support working hours</span></span>
+
+<span data-ttu-id="6feb5-229">심각도 A: 24\*7 지속적인 서비스</span><span class="sxs-lookup"><span data-stu-id="6feb5-229">Severity A: 24\*7 continuous service</span></span>
+
+<span data-ttu-id="6feb5-230">심각도 B/C: 일일 9:00 ~24:00(베이징 표준시 기준), 365일.</span><span class="sxs-lookup"><span data-stu-id="6feb5-230">Severity B/C: 9:00 ~24:00 (Beijing Time) a day, 365 days.</span></span>
+
+## <a name="contact-support"></a><span data-ttu-id="6feb5-231">지원 센터 문의</span><span class="sxs-lookup"><span data-stu-id="6feb5-231">Contact support</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="6feb5-p122">지원 옵션은 Office 365 구독 조직의 관리자만 사용할 수 있습니다. Office 365를 사용하지만 관리자가 아닌 경우에도 커뮤니티 포럼이나 관리자에게 문의하여 지원을 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p122">Assisted support options are for admins of Office 365 subscribed organizations only. If you use Office 365 but you're not an admin, you can still get support in the community forums, or by contacting your admin.</span></span>
+
+### <a name="open-an-online-request"></a><span data-ttu-id="6feb5-234">온라인 요청 열기</span><span class="sxs-lookup"><span data-stu-id="6feb5-234">Open an online request</span></span>
+
+<span data-ttu-id="6feb5-p123">온라인으로 서비스 요청을 시작하여 시간을 절약하세요. Microsoft 365 관리 센터에서 **지원** \> **새 서비스 요청** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p123">Save time by starting your service request online. In the Microsoft 365 admin center, choose **Support** \> **New service request**.</span></span>
+
+### <a name="call-support"></a><span data-ttu-id="6feb5-237">지원 서비스 문의</span><span class="sxs-lookup"><span data-stu-id="6feb5-237">Call support</span></span>
+
+<span data-ttu-id="6feb5-p124">지원 서비스에 문의합니다. 온라인 요청에 문제가 발생하면 (86) 400-089-0365으로 전화 지원을 요청할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p124">Call support. If you encounter any problem with online request, phone support is available at (86) 400-089-0365.</span></span>
+
+### <a name="shared-support-responsibilities"></a><span data-ttu-id="6feb5-240">공유 지원 책임</span><span class="sxs-lookup"><span data-stu-id="6feb5-240">Shared support responsibilities</span></span>
+
+<span data-ttu-id="6feb5-p125">21Vianet는 자격 있는 전문가로부터 시기 적절한 기술 지원을 받는 것이 클라우드 서비스의 주요 특징이라고 이해하고 있습니다. 고객의 IT 부서가 해당 사용자 지원 시 수행하는 중요 역할도 똑같이 중요합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p125">21Vianet understands that receiving timely technical support from qualified professionals is a key aspect of cloud services. Equally important is the critical role that the customer's IT department plays in the support of its users.</span></span>
+
+### <a name="administrator-roles-and-responsibilities"></a><span data-ttu-id="6feb5-243">관리자 역할 및 책임</span><span class="sxs-lookup"><span data-stu-id="6feb5-243">Administrator roles and responsibilities</span></span>
+
+<span data-ttu-id="6feb5-244">관리자 역할의 사용자는 고객의 조직에서, 21Vianet 포털이 운영하는 Office 365의 관리 섹션에 액세스하고 Office 365 서비스 요청에 대해 21Vianet과 직접 통신할 수 있는 권한을 갖습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-244">People with administrator roles are the only ones in the customer's organization authorized to access the Admin section of the Office 365 operated by 21Vianet portal and to communicate directly with 21Vianet about Office 365 service requests.</span></span>
+
+<span data-ttu-id="6feb5-p126">Office 365를 사용할 경우 서로 다른 기능을 수행하는 다양한 유형의 관리자를 지정할 수 있습니다. 이 서비스 설명에서는 모든 관리자 범주를 나타내기 위해 일반적인 직함인 관리자를 사용합니다. 관리자 역할 유형에 대한 자세한 내용은 [비즈니스용 Microsoft 365에서 관리 역할 지정하기](../admin/add-users/assign-admin-roles.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p126">With Office 365 you can designate several types of administrators who serve different functions. This service description uses the generic title administrator to refer to all categories of administrators. For more information about the types of administrator roles, see [Assign admin roles in Microsoft 365 for business](../admin/add-users/assign-admin-roles.md).</span></span>
+
+<span data-ttu-id="6feb5-248">관리자의 특징:</span><span class="sxs-lookup"><span data-stu-id="6feb5-248">The administrator is:</span></span>
+
+- <span data-ttu-id="6feb5-249">서비스 관리 및 계정 유지 관리를 담당합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-249">Responsible for service administration and account maintenance.</span></span>
+
+- <span data-ttu-id="6feb5-250">각 서비스 사용자를 설정하고 지원하는 기본 담당자입니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-250">The primary contact that sets up and supports each service user.</span></span>
+
+- <span data-ttu-id="6feb5-251">서비스 요청을 21Vianet에 제출할 권한이 부여됩니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-251">Authorized to submit service requests to 21Vianet.</span></span>
+
+<span data-ttu-id="6feb5-252">관리자의 역할:</span><span class="sxs-lookup"><span data-stu-id="6feb5-252">The administrator's role is to:</span></span>
+
+- <span data-ttu-id="6feb5-253">사용자가 서비스에 액세스할 수 있도록 사용자 계정 설정 및 구성을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-253">Provide user account setup and configuration to allow users access to the services.</span></span>
+
+- <span data-ttu-id="6feb5-254">클라이언트 연결, 클라이언트 소프트웨어 및 모바일 설치 문제를 해결합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-254">Address client connectivity, client software, and mobility installation issues.</span></span>
+
+- <span data-ttu-id="6feb5-255">고객의 조직적인 제어 범위 내에서 서비스 사용 가능 여부 문제를 해결합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-255">Address service availability issues within the customer's organizational span of control.</span></span>
+
+- <span data-ttu-id="6feb5-256">셀프 서비스 지원 리소스를 사용하여 지원 문제를 해결합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-256">Use self-service support resources to resolve support issues.</span></span>
+
+<span data-ttu-id="6feb5-p127">관리자는 고객의 사용자에 대한 초기 지원을 제공해야 합니다. 그러나 관리자가 셀프 서비스 지원 리소스를 사용하여 문제를 해결할 수 없는 경우에는 [지원 센터 문의](#contact-support)에 문의해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p127">The administrator is expected to provide initial assistance for the customer's users. However, if the administrator is unable to resolve issues with the help of self-service support resources, he or she should [Contact support](#contact-support).</span></span>
+
+### <a name="21vianet-support-role"></a><span data-ttu-id="6feb5-259">21Vianet 고객지원 역할</span><span class="sxs-lookup"><span data-stu-id="6feb5-259">21Vianet support role</span></span>
+
+<span data-ttu-id="6feb5-260">21Vianet 고객지원 역할:</span><span class="sxs-lookup"><span data-stu-id="6feb5-260">21Vianet's support role is to:</span></span>
+
+- <span data-ttu-id="6feb5-261">고객 문제 및 에스컬레이션을 해결하고 기술적 지침을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-261">Troubleshoot and provide technical guidance for customer issues and escalations.</span></span>
+
+- <span data-ttu-id="6feb5-262">특정 서비스 요청 관련 정보를 수집하고 유효성 검사합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-262">Gather and validate information related to specific service requests.</span></span>
+
+- <span data-ttu-id="6feb5-263">문제 조정 및 해결 관리를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-263">Provide issue coordination and resolution management.</span></span>
+
+- <span data-ttu-id="6feb5-264">문제가 계속 해결되고 있는지 확인할 수 있도록 관리자와의 통신을 유지 관리합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-264">Maintain communication with the administrators to help ensure that issues are addressed on an ongoing basis.</span></span>
+
+- <span data-ttu-id="6feb5-265">라이선스, 송장 및 구독 문의에 대한 지원을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-265">Provide assistance with licensing, invoicing, and subscription inquiries.</span></span>
+
+- <span data-ttu-id="6feb5-266">구매 및 평가판 문의에 대한 지원을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-266">Provide assistance with purchasing and trial inquiries.</span></span>
+
+- <span data-ttu-id="6feb5-267">설문 조사를 통해 서비스를 개선하는 방법에 대한 고객 피드백을 지속적으로 수집합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-267">Continually gather customer feedback on how to improve the service through surveys.</span></span>
+
+## <a name="feature-availability"></a><span data-ttu-id="6feb5-268">기능 가용성</span><span class="sxs-lookup"><span data-stu-id="6feb5-268">Feature availability</span></span>
+
+<span data-ttu-id="6feb5-269">Office 365 계획 간의 기능 가용성을 확인하려면 [Office 365 서비스 설명](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-269">To view feature availability across Office 365 plans, see [Office 365 Service Description](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)</span></span>
+
+## <a name="follow-us-on-wechat"></a><span data-ttu-id="6feb5-270">WeChat에서 팔로우:</span><span class="sxs-lookup"><span data-stu-id="6feb5-270">Follow us on WeChat</span></span>
+
+<span data-ttu-id="6feb5-271">이 QR 코드를 스캔하여 WeChat에서 팔로우하면 21Vianet에서 운영하는 Office 365에 대한 최신 업데이트를 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-271">Scan this QR code to follow us on WeChat and get the latest updates for Office 365 operated by 21Vianet.</span></span>
+
+![21Vianet에서 운영하는 Office 365용 업데이트 QR 코드](../media/4d8fe09c-1a11-4cd8-be4c-75add8dccddd.jpg)
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+<span data-ttu-id="6feb5-p128">이 문서는 도메인이 onmicrosoft.de로 끝나는 Office 365 Germany 고객에게 적용됩니다. 자세한 내용은 [Office 365 Germany 알아보기](../admin/admin-overview/learn-about-office-365-germany.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p128">This article applies to customers of Office 365 Germany, which has domains ending onmicrosoft.de. For more information, see [Learn about Office 365 Germany](../admin/admin-overview/learn-about-office-365-germany.md).</span></span>
+
+<span data-ttu-id="6feb5-p129">Office 365 Germany의 관리자는 Microsoft 전문 지원 에이전트로부터 판매 전 문의, 계정, 청구 관련 지원을 비롯하여 기술 문제 해결을 무료로 받을 수 있습니다. 또한 조직의 Office 365 Germany 사용자를 대신하여 고객 지원에 문의할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p129">As an admin for Office 365 Germany, you get free access to our knowledgeable support agents for help resolving technical issues, as well as for pre-sales, account, and billing support. You can also contact us on behalf of Office 365 Germany users in your organization.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="6feb5-p130">아래의 모든 지원 옵션은 Microsoft 클라우드 Germany에 대한 것입니다. 사용자가 Microsoft 지원에 문의할 때 제공하는 데이터를 Microsoft에서 사용하는 방법에 대한 자세한 내용은 [개인정보처리방침](https://go.microsoft.com/fwlink/p/?LinkId=512132)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p130">All of the support options below are for Microsoft Cloud Germany. For more information about how Microsoft uses the data that you provide when you contact Microsoft support, please see the [privacy statement](https://go.microsoft.com/fwlink/p/?LinkId=512132).</span></span>
+
+## <a name="get-assisted-support"></a><span data-ttu-id="6feb5-279">보조 지원 받기</span><span class="sxs-lookup"><span data-stu-id="6feb5-279">Get assisted support</span></span>
+
+<span data-ttu-id="6feb5-p131">지원 옵션은 Office 365 Germany 구독 조직의 관리자만 사용할 수 있습니다. 직장이나 학교에서 Office 365 Germany를 사용하지만 관리자가 아닌 경우에도 커뮤니티 포럼이나 관리자 또는 IT 부서에 문의하여 지원을 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p131">Assisted support options are for admins of Office 365 Germany subscribed organizations only. If you use Office 365 Germany at work or school, but you're not an admin, you can still get support in the community forums, or by contacting your admin or IT department.</span></span>
+
+- <span data-ttu-id="6feb5-282">**온라인 요청을 엽니다.**</span><span class="sxs-lookup"><span data-stu-id="6feb5-282">**Open an online request.**</span></span> <span data-ttu-id="6feb5-283">온라인으로 서비스 요청을 시작하여 시간을 절약하세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-283">Save time by starting your service request online.</span></span> <span data-ttu-id="6feb5-284">관리 센터에서 **지원** \> **새 서비스 요청** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-284">In the admin center, choose **Support** \> **New service request.**</span></span> <span data-ttu-id="6feb5-285">Microsoft에서 해결 방법을 찾도록 도와 드리거나 전자 메일이나 전화로 연락받을 전문가에게 연결해 드립니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-285">We'll help you find a solution or connect you to an expert who will contact you by email or phone.</span></span>
+
+- <span data-ttu-id="6feb5-p133">**지원 서비스에 문의합니다.** 여기에서 지원해드립니다. 전화하는 관리자는 지원을 문의할 때 계정 정보를 준비하세요.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p133">**Call support.** We're here to talk. Admins, have your account details ready when you call support.</span></span>
+
+| <span data-ttu-id="6feb5-289">지역</span><span class="sxs-lookup"><span data-stu-id="6feb5-289">Region</span></span> | <span data-ttu-id="6feb5-290">전화 번호</span><span class="sxs-lookup"><span data-stu-id="6feb5-290">Phone number</span></span> | <span data-ttu-id="6feb5-291">시간</span><span class="sxs-lookup"><span data-stu-id="6feb5-291">Hours</span></span> |
+|-----------------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="6feb5-292">독일</span><span class="sxs-lookup"><span data-stu-id="6feb5-292">Germany</span></span> | <span data-ttu-id="6feb5-293">0800&nbsp;589&nbsp;2330</span><span class="sxs-lookup"><span data-stu-id="6feb5-293">0800&nbsp;589&nbsp;2330</span></span> | <span data-ttu-id="6feb5-294">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="6feb5-294">Billing Support:</span></span> <ul><li><span data-ttu-id="6feb5-295">독일어: 월-금 9-5 베를린</span><span class="sxs-lookup"><span data-stu-id="6feb5-295">German: Mon-Fri 9-5 Berlin</span></span></li><li><span data-ttu-id="6feb5-296">영어: 월-금 9-5 베를린</span><span class="sxs-lookup"><span data-stu-id="6feb5-296">English: Mon-Fri 9-5 Berlin</span></span></li></ul><span data-ttu-id="6feb5-297">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="6feb5-297">Technical Support:</span></span> <ul><li><span data-ttu-id="6feb5-298">독일어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="6feb5-298">German: 24 hours a day, 7 days a week</span></span></li><li><span data-ttu-id="6feb5-299">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="6feb5-299">English: 24 hours a day, 7 days a week</span></span></li></ul><span data-ttu-id="6feb5-300">대체 전화 번호: 069 380 789 305(시내 전화 요금 적용)</span><span class="sxs-lookup"><span data-stu-id="6feb5-300">Alternative Phone Number: 069 380 789 305 (Local call charges apply)</span></span> |
+| <span data-ttu-id="6feb5-301">유럽 경제 지역 내의 다른 모든 시장</span><span class="sxs-lookup"><span data-stu-id="6feb5-301">All other markets within the European Economic Area</span></span> | <span data-ttu-id="6feb5-302">+49&nbsp;69&nbsp;380&nbsp;789&nbsp;305</span><span class="sxs-lookup"><span data-stu-id="6feb5-302">+49&nbsp;69&nbsp;380&nbsp;789&nbsp;305</span></span> | <span data-ttu-id="6feb5-303">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="6feb5-303">Billing Support:</span></span> <ul><li><span data-ttu-id="6feb5-304">독일어: 월-금 9-5 베를린(UTC+1)</span><span class="sxs-lookup"><span data-stu-id="6feb5-304">German: Mon-Fri 9-5 Berlin(UTC+1)</span></span></li><li><span data-ttu-id="6feb5-305">영어: 월-금 9-5 베를린(UTC+1)</span><span class="sxs-lookup"><span data-stu-id="6feb5-305">English: Mon-Fri 9-5 Berlin (UTC +1)</span></span></li></ul><span data-ttu-id="6feb5-306">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="6feb5-306">Technical Support:</span></span> <ul><li><span data-ttu-id="6feb5-307">독일어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="6feb5-307">German: 24 hours a day, 7 days a week</span></span></li><li><span data-ttu-id="6feb5-308">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="6feb5-308">English: 24 hours a day, 7 days a week</span></span></li></ul><span data-ttu-id="6feb5-p134">전화 지원은 독일로의 국제 전화를 통해 제공됩니다. 국제 전화 요금이 적용됩니다. 관리 센터를 통해 지원 티켓을 제출하여 전화 요금이 발생하지 않게 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p134">Telephone support is available via international call to Germany. International call charges apply. Call charges can be avoided by submitting a support ticket through the admin center.</span></span> |
+
+## <a name="let-our-community-help"></a><span data-ttu-id="6feb5-312">커뮤니티에서 도움 받기</span><span class="sxs-lookup"><span data-stu-id="6feb5-312">Let our community help</span></span>
+
+<span data-ttu-id="6feb5-p135">또한 [비즈니스용 Microsoft 365 커뮤니티 포럼을 검색](https://go.microsoft.com/fwlink/p/?LinkId=518605)하여 알려진 문제점 및 인기 주제를 찾거나 새로운 질문을 게시할 수 있습니다. 커뮤니티 포럼은 문제를 해결할 수 있는 교육을 받은 Microsoft 지원 에이전트가 모니터링합니다.</span><span class="sxs-lookup"><span data-stu-id="6feb5-p135">You can also [search the Microsoft 365 for business community forums](https://go.microsoft.com/fwlink/p/?LinkId=518605) to find known issues and trending topics, or to post a new question. The community forums are monitored by trained Microsoft support agents who can help resolve your issue.</span></span>
+
+::: moniker-end
