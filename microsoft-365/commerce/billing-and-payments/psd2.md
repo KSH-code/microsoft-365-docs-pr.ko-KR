@@ -1,54 +1,61 @@
 ---
-title: 상용 고객을 위한 결제 서비스 지시문 2 및 강력한 고객 인증
+title: 상용 고객을 위한 결제 서비스 지침 2 및 강력한 고객 인증
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jamitche
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- commerce
-ms.custom: AdminSurgePortfolio
-search.appverid:
-- MET150
-description: 2019년 9월 14일 현재 유럽 경제 지역 31개 국가의 은행은 결제를 처리하기 전에 온라인 구매를 하는 사람의 신원을 확인해야 합니다."
+- M365-subscription-management
+- Adm_O365
+ms.custom:
+- AdminSurgePortfolio
+- commerce_billing
+- PPM_jmueller
+search.appverid: MET150
+description: 2019년 9월 14일 현재 유럽 경제 지역 31개 국가의 은행은 결제를 처리하기 전에 온라인으로 구매한 사람의 신원을 확인해야 합니다."
 keywords: 결제 서비스 지시문 2, 강력한 고객 인증, 다단계 인증
-ms.openlocfilehash: d6564a8c6d31bd0758f1084e7ee9b6857aed034e
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.date: 11/03/2020
+ms.openlocfilehash: e687cac5bb1b7f1c88e9166993e29d437134e138
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906612"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280850"
 ---
-# <a name="payment-services-directive-2-and-strong-customer-authentication-for-commercial-customers"></a><span data-ttu-id="cd31d-104">상용 고객을 위한 결제 서비스 지시문 2 및 강력한 고객 인증</span><span class="sxs-lookup"><span data-stu-id="cd31d-104">Payment Services Directive 2 and Strong Customer Authentication for commercial customers</span></span>
+# <a name="payment-services-directive-2-and-strong-customer-authentication-for-commercial-customers"></a><span data-ttu-id="3ad92-104">상용 고객을 위한 결제 서비스 지침 2 및 강력한 고객 인증</span><span class="sxs-lookup"><span data-stu-id="3ad92-104">Payment Services Directive 2 and Strong Customer Authentication for commercial customers</span></span>
 
-<span data-ttu-id="cd31d-105">2019년 9월 14일 현재 유럽 경제 지역 31개 국가의 은행은 결제를 처리하기 전에 온라인 구매를 하는 사람의 신원을 확인해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="cd31d-105">As of September 14, 2019, banks in the 31 countries of the European Economic Area are required to verify the identity of the person making an online purchase before the payment can be processed.</span></span> <span data-ttu-id="cd31d-106">이 확인을 위해서는 온라인 구매가 안전하고 보호되도록 다단계 인증이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="cd31d-106">This verification requires multi-factor authentication to help ensure your online purchases are secure and protected.</span></span> <span data-ttu-id="cd31d-107">일부 국가에서는 이 확인 요구 사항의 날짜가 지연됩니다.</span><span class="sxs-lookup"><span data-stu-id="cd31d-107">The date for this verification requirement will be delayed for some countries.</span></span>
+<span data-ttu-id="3ad92-105">2019년 9월 14일 현재 유럽 경제 지역 31개 국가의 은행은 결제를 처리하기 전에 온라인으로 구매한 사람의 신원을 확인해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3ad92-105">As of September 14, 2019, banks in the 31 countries of the European Economic Area are required to verify the identity of the person making an online purchase before the payment can be processed.</span></span> <span data-ttu-id="3ad92-106">이 확인을 위해서는 온라인 구매가 안전하고 보호되도록 다단계 인증이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="3ad92-106">This verification requires multi-factor authentication to help ensure your online purchases are secure and protected.</span></span> <span data-ttu-id="3ad92-107">일부 국가에서는 이 확인 요구 사항의 날짜가 지연됩니다.</span><span class="sxs-lookup"><span data-stu-id="3ad92-107">The date for this verification requirement will be delayed for some countries.</span></span>
 
-<span data-ttu-id="cd31d-108">자세한 내용은 결제 서비스 지시문 2 및 강력한 고객 인증에 대한 [Microsoft FAQ를 참조하세요.](https://support.microsoft.com/help/4517854/microsoft-account-open-banking-customer-authentication)</span><span class="sxs-lookup"><span data-stu-id="cd31d-108">For more information, see [Microsoft FAQ about Payment Services Directive 2 and Strong Customer Authentication](https://support.microsoft.com/help/4517854/microsoft-account-open-banking-customer-authentication).</span></span>
+<span data-ttu-id="3ad92-108">자세한 내용은 결제 서비스 지시문 2 및 강력한 고객 인증에 대한 [Microsoft FAQ를 참조하세요.](https://support.microsoft.com/help/4517854/microsoft-account-open-banking-customer-authentication)</span><span class="sxs-lookup"><span data-stu-id="3ad92-108">For more information, see [Microsoft FAQ about Payment Services Directive 2 and Strong Customer Authentication](https://support.microsoft.com/help/4517854/microsoft-account-open-banking-customer-authentication).</span></span>
 
-## <a name="when-is-multi-factor-authentication-required"></a><span data-ttu-id="cd31d-109">다단계 인증은 언제 필요한가요?</span><span class="sxs-lookup"><span data-stu-id="cd31d-109">When is multi-factor authentication required?</span></span>
+## <a name="when-is-multi-factor-authentication-required"></a><span data-ttu-id="3ad92-109">다단계 인증은 언제 필요한가요?</span><span class="sxs-lookup"><span data-stu-id="3ad92-109">When is multi-factor authentication required?</span></span>
 
-<span data-ttu-id="cd31d-110">현재 다단계 인증을 사용하는 이 지시문의 확인 요구 사항은 유럽 경제 지역 31개국의 은행에서 신용 카드를 사용하는 고객에게만 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="cd31d-110">Currently, verification requirements for this directive using multi-factor authentication only apply to customers using credit cards from banks in the 31 countries of the European Economic Area.</span></span> <span data-ttu-id="cd31d-111">경우에 따라 수행한 작업으로 고객에게 메시지가 표시되거나 기존 구독 또는 서비스의 이벤트로 메시지가 표시될 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cd31d-111">Sometimes customers will be prompted because of an action that they took, and sometimes they are prompted because of events with their existing subscriptions or services.</span></span>
+<span data-ttu-id="3ad92-110">현재 다단계 인증을 사용하는 이 지시문의 확인 요구 사항은 유럽 경제 지역 31개 국가의 은행에서 신용 카드를 사용하는 고객에게만 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="3ad92-110">Currently, verification requirements for this directive using multi-factor authentication only apply to customers using credit cards from banks in the 31 countries of the European Economic Area.</span></span> <span data-ttu-id="3ad92-111">경우에 따라 수행한 작업 때문에 고객에게 메시지가 표시되거나 기존 구독 또는 서비스와 함께 이벤트로인 경우 메시지가 표시될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3ad92-111">Sometimes customers will be prompted because of an action that they took, and sometimes they are prompted because of events with their existing subscriptions or services.</span></span>
 
-### <a name="customer-actions"></a><span data-ttu-id="cd31d-112">고객 작업</span><span class="sxs-lookup"><span data-stu-id="cd31d-112">Customer Actions</span></span>
+### <a name="customer-actions"></a><span data-ttu-id="3ad92-112">고객 작업</span><span class="sxs-lookup"><span data-stu-id="3ad92-112">Customer Actions</span></span>
 
-<span data-ttu-id="cd31d-113">은행에서 다단계 인증을 통해 확인을 요구할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cd31d-113">Your bank may require verification through multi-factor authentication.</span></span> <span data-ttu-id="cd31d-114">몇 가지 예는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="cd31d-114">Some examples include:</span></span>
-- <span data-ttu-id="cd31d-115">새 구독 등록</span><span class="sxs-lookup"><span data-stu-id="cd31d-115">Signing up for a new subscription</span></span>
-- <span data-ttu-id="cd31d-116">구독에 라이선스 추가</span><span class="sxs-lookup"><span data-stu-id="cd31d-116">Adding licenses to a subscription</span></span>
-- <span data-ttu-id="cd31d-117">구독 또는 서비스에 대한 결제에 사용되는 신용 카드 추가 또는 바꾸기</span><span class="sxs-lookup"><span data-stu-id="cd31d-117">Adding or replacing the credit card used to pay for a subscription or service</span></span>
-- <span data-ttu-id="cd31d-118">청구 프로필에서 신용 카드 추가 또는 바꾸기</span><span class="sxs-lookup"><span data-stu-id="cd31d-118">Adding or replacing a credit card on a billing profile</span></span>
-- <span data-ttu-id="cd31d-119">앱 구입</span><span class="sxs-lookup"><span data-stu-id="cd31d-119">Buying apps</span></span>
+<span data-ttu-id="3ad92-113">은행에서 다단계 인증을 통한 확인이 필요할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3ad92-113">Your bank may require verification through multi-factor authentication.</span></span> <span data-ttu-id="3ad92-114">몇 가지 예는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="3ad92-114">Some examples include:</span></span>
 
-### <a name="subscription-lifecycle-events"></a><span data-ttu-id="cd31d-120">구독 수명 주기 이벤트</span><span class="sxs-lookup"><span data-stu-id="cd31d-120">Subscription lifecycle events</span></span>
+- <span data-ttu-id="3ad92-115">새 구독 등록</span><span class="sxs-lookup"><span data-stu-id="3ad92-115">Signing up for a new subscription</span></span>
+- <span data-ttu-id="3ad92-116">구독에 라이선스 추가</span><span class="sxs-lookup"><span data-stu-id="3ad92-116">Adding licenses to a subscription</span></span>
+- <span data-ttu-id="3ad92-117">구독 또는 서비스에 대한 결제에 사용되는 신용 카드 추가 또는 바꾸기</span><span class="sxs-lookup"><span data-stu-id="3ad92-117">Adding or replacing the credit card used to pay for a subscription or service</span></span>
+- <span data-ttu-id="3ad92-118">청구 프로필에서 신용 카드 추가 또는 바꾸기</span><span class="sxs-lookup"><span data-stu-id="3ad92-118">Adding or replacing a credit card on a billing profile</span></span>
+- <span data-ttu-id="3ad92-119">앱 구입</span><span class="sxs-lookup"><span data-stu-id="3ad92-119">Buying apps</span></span>
 
-<span data-ttu-id="cd31d-121">재발급 요금은 실패할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cd31d-121">Charges for recurring payments might fail.</span></span> <span data-ttu-id="cd31d-122">이 경우 따라야 할 지침이 있는 전자 메일을 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cd31d-122">If they do, you’ll receive an email with instructions to follow.</span></span> <span data-ttu-id="cd31d-123">확인 요청에 응답하고 현재 결제를 하라는 메시지가 표시될 것입니다.</span><span class="sxs-lookup"><span data-stu-id="cd31d-123">You’ll be prompted to respond to the verification request and make your current payment.</span></span>
+### <a name="subscription-lifecycle-events"></a><span data-ttu-id="3ad92-120">구독 수명 주기 이벤트</span><span class="sxs-lookup"><span data-stu-id="3ad92-120">Subscription lifecycle events</span></span>
 
-## <a name="need-more-help"></a><span data-ttu-id="cd31d-124">추가 도움이 필요하세요?</span><span class="sxs-lookup"><span data-stu-id="cd31d-124">Need more help?</span></span>
+<span data-ttu-id="3ad92-121">거치지 못하는 지급 요금이 부과될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3ad92-121">Charges for recurring payments might fail.</span></span> <span data-ttu-id="3ad92-122">이 경우 따라야 할 지침이 있는 전자 메일을 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3ad92-122">If they do, you’ll receive an email with instructions to follow.</span></span> <span data-ttu-id="3ad92-123">확인 요청에 응답하고 현재 결제를 하라는 메시지가 표시될 것입니다.</span><span class="sxs-lookup"><span data-stu-id="3ad92-123">You’ll be prompted to respond to the verification request and make your current payment.</span></span>
 
-<span data-ttu-id="cd31d-125">금융 기관은 다음 시나리오에 가장 적합한 담당자입니다.</span><span class="sxs-lookup"><span data-stu-id="cd31d-125">Your financial institution is the best contact for these scenarios:</span></span>
-- <span data-ttu-id="cd31d-126">확인 코드를 받지 못했습니다.</span><span class="sxs-lookup"><span data-stu-id="cd31d-126">You didn't receive a verification code.</span></span>  
-- <span data-ttu-id="cd31d-127">확인 코드를 제출한 후에도 확인 프로세스가 작동하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="cd31d-127">The verification process didn't work after you submitted the verification code.</span></span>
-- <span data-ttu-id="cd31d-128">신용 카드에 대한 연락처 정보가 올바른지 잘 모르겠습니다.</span><span class="sxs-lookup"><span data-stu-id="cd31d-128">You're not sure if the contact info for your credit card is correct.</span></span>
+## <a name="need-more-help"></a><span data-ttu-id="3ad92-124">추가 도움이 필요하세요?</span><span class="sxs-lookup"><span data-stu-id="3ad92-124">Need more help?</span></span>
+
+<span data-ttu-id="3ad92-125">금융 기관은 다음 시나리오에 가장 적합한 담당자입니다.</span><span class="sxs-lookup"><span data-stu-id="3ad92-125">Your financial institution is the best contact for these scenarios:</span></span>
+
+- <span data-ttu-id="3ad92-126">확인 코드를 받지 못했습니다.</span><span class="sxs-lookup"><span data-stu-id="3ad92-126">You didn't receive a verification code.</span></span>  
+- <span data-ttu-id="3ad92-127">확인 코드를 제출한 후에도 확인 프로세스가 작동하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="3ad92-127">The verification process didn't work after you submitted the verification code.</span></span>
+- <span data-ttu-id="3ad92-128">신용 카드의 연락처 정보가 올바른지 잘 모르겠습니다.</span><span class="sxs-lookup"><span data-stu-id="3ad92-128">You're not sure if the contact info for your credit card is correct.</span></span>
