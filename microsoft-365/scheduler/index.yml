@@ -1,0 +1,32 @@
+### YamlMime:Hub
+title: 예약용 Microsoft 365
+summary: Cortana를 사용하여 모임을 예약할 수 Microsoft 365 스케줄러를 설정하는 방법을 배워야 합니다.
+brand: m365
+metadata:
+  title: 예약용 Microsoft 365
+  description: Cortana를 사용하여 모임을 예약할 수 Microsoft 365 스케줄러를 설정하는 방법을 배워야 합니다.
+  ms.service: exchange-online
+  ms.topic: hub-page
+  author: AshaIyengar21
+  ms.author: v-aiyengar
+  manager: serdars
+  audience: Admin
+  ms.date: 04/23/2021
+additionalContent:
+  sections:
+    - items:
+        - title: 예약란 Microsoft 365?
+          summary: 'Microsoft 365 및 해당 기능에 대한 스케줄러, 혜택이 있는 사람 및 방법에 대해 자세히 알아보습니다.'
+          url: scheduler-overview.md
+        - title: 신뢰 및 개인 정보 보호
+          summary: 보안 스케줄러가 트러스트 및 개인 Microsoft 365 보호하는 방법에 대해 자세히 알아보습니다.
+          url: scheduler-trust-privacy.md
+        - title: 사용자에 대한 스케줄러 Microsoft 365
+          summary: 앱에 대한 스케줄러를 설정하는 데 필요한 Microsoft 365.
+          url: scheduler-setup.md
+        - title: 예약에 스케줄러 Microsoft 365
+          summary: 앱에 스케줄러를 사용하는 방법을 Microsoft 365.
+          url: scheduler-using.md
+        - title: 스케줄러에 대한 FAQ
+          summary: 스케줄러에서 질문과 대답을 Microsoft 365 자주 묻는 질문에 대해 자세히 알아보습니다.
+          url: scheduler-faqs.md

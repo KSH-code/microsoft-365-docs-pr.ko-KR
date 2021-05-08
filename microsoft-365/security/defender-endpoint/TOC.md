@@ -144,6 +144,7 @@
  
 ##### [문제 해결]()
 ###### [설치 문제 해결](linux-support-install.md)
+###### [에이전트 상태 문제 조사](health-status.md)
 ###### [클라우드 연결 문제 해결](linux-support-connectivity.md)
 ###### [성능 문제 해결](linux-support-perf.md)
 ###### [누락된 이벤트 문제 해결](linux-support-events.md)

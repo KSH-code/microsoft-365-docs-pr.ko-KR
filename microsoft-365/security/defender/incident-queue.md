@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Defender에서 인시던트 우선 순위 지정
-description: Microsoft 365 Defender의 인시던트 큐에서 인시던트 필터링 방법 학습
+title: Defender에서 인시던트 Microsoft 365 우선 순위 지정
+description: Defender의 인시던트 큐에서 인시던트 Microsoft 365 방법 학습
 keywords: 인시던트, 큐, 개요, 장치, ID, 사용자, 사서함, 전자 메일, 인시던트, 분석, 응답
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -22,29 +22,31 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c3efff1e7ebb3a5e868ede018512d12cf38e38fc
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 47d066fa20abe963f7afaa3b88cecc96fa6e87fc
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939709"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259592"
 ---
-# <a name="prioritize-incidents-in-microsoft-365-defender"></a>Microsoft 365 Defender에서 인시던트 우선 순위 지정
+# <a name="prioritize-incidents-in-microsoft-365-defender"></a>Defender에서 인시던트 Microsoft 365 우선 순위 지정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **적용 대상:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender는 상관 관계 분석을 적용하고 관련 경고 및 다양한 제품의 자동화된 조사를 인시던트에 집계합니다. 또한 Microsoft 365 Defender는 전체 제품군에 걸쳐 Microsoft 365 Defender가 보유하고 있는 종단 간 표시가 있는 경우 악성으로만 식별될 수 있는 활동에 대해 고유한 경고를 트리거합니다. 이 보기는 보안 분석가에게 보다 광범위한 공격 스토리를 제공하여 조직 전체의 복잡한 위협을 더 잘 이해하고 대응하는 데 도움이 됩니다.
+Microsoft 365 Defender는 상관 관계 분석을 적용하고 다양한 제품의 관련 경고 및 자동화된 조사를 인시던트에 집계합니다. Microsoft 365 또한 Defender는 전체 제품 제품군에서 Microsoft 365 표시가 있는 경우 악성으로만 식별될 수 있는 활동에 대해 고유한 경고를 트리거합니다. 이 보기는 보안 분석가에게 보다 광범위한 공격 스토리를 제공하여 조직 전체의 복잡한 위협을 더 잘 이해하고 대응하는 데 도움이 됩니다.
 
 **인시던트 큐에는** 장치, 사용자 및 사서함에서 만들어진 인시던트 모음이 표시됩니다. 이 기능은 사고 우선순위를 정하고 사이버 보안 반응 결정을 내리는 데 도움을 줍니다. 
 
-인시던트 및  인시던트 & Microsoft 365 보안 센터(>)의 빠른 실행에서 인시던트[큐로 security.microsoft.com.](https://security.microsoft.com)
+인시던트 및  인시던트 & (>)의 빠른 실행에 대한 인시던트 Microsoft 365 큐로[security.microsoft.com.](https://security.microsoft.com) 다음은 예입니다.
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="인시던트 큐의 예":::
 
-기본적으로 Microsoft 365 보안 센터의 인시던트 큐에는 지난 6개월 동안의 인시던트가 표시됩니다. 가장 최근 인시던트는 목록 맨 위에 있으므로 먼저 볼 수 있습니다.
+최근 **인시던트** 및 알림 섹션에는 지난 24시간 동안 수신된 경고 및 인시던트 수의 그래프가 표시됩니다.
+
+기본적으로 보안 센터의 인시던트 Microsoft 365 지난 6개월 동안의 인시던트가 표시됩니다. 가장 최근 인시던트는 목록 맨 위에 있으므로 먼저 볼 수 있습니다.
 
 인시던트 큐에는 인시던트 또는 영향을 주는 엔터티의 다양한 특성을 표시하는 사용자 지정 가능한 열이 있습니다(열 선택 선택). 이를 통해 분석을 위한 인시던트 우선 순위에 대한 정보를 통해 의사 결정을 내리는 데 도움이 됩니다.
 
@@ -74,7 +76,7 @@ Microsoft 365 Defender는 상관 관계 분석을 적용하고 관련 경고 및
 | 장치 그룹 | 정의된 장치 그룹으로 필터링합니다. |
 | 조사 상태 | 자동화된 조사 상태를 통해 인시던트 필터링  |
 | 다중 범주 | 여러 범주에 매핑된 인시던트만 표시하여 잠재적으로 더 많은 손상을 일으킬 수 있는 인시던트만 보게 선택할 수 있습니다. |
-| 다중 서비스 원인  | 다른 원본(끝점용 Microsoft Defender, Microsoft Cloud App Security, ID용 Microsoft Defender, Office 365용 Microsoft Defender)의 경고가 포함된 인시던트만 표시하기 위해 필터링합니다. |
+| 다중 서비스 원인  | 다른 원본(끝점용 Microsoft Defender, Microsoft Cloud App Security, ID용 Microsoft Defender, Microsoft Defender for Office 365)의 경고만 표시하기 위해 필터링합니다. |
 | OS 플랫폼 | 운영 체제에 따라 인시던트 큐 보기를 제한합니다. |
 | 서비스 원인 | 특정 원인을 선택 하면 해당 원인에서 최소 하나의 알림을 포함 하는 사고에 집중할 수 있습니다. |
 | 심각도 | 인시던트의 심각도는 자산에 미칠 수 있는 영향을 나타내는 것입니다. 심각도가 높을수록 영향이 클수록 일반적으로 가장 즉각적인 주의가 필요합니다. |

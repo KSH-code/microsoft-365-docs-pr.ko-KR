@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Defender의 자동화된 조사 및 대응
-description: Microsoft 365 Defender에서 자동 조사 및 응답 기능(자동 복구라고도 하는)에 대한 개요를 얻습니다.
+title: Defender의 자동화된 조사 Microsoft 365 대응
+description: 자동 조사 및 응답 기능(자동 복구라고도 하는 자동 복구)에 대한 개요를 Microsoft 365 수 있습니다.
 keywords: 자동화, 조사, 경고, 트리거, 작업, 수정, 자동 복구
 search.appverid: met150
 ms.prod: m365-security
@@ -21,21 +21,21 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 976a79be98efcbb5d7fd3749ddb0cdb282b1e3e3
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: fcb7283faed6fe8c5af59cedeeb90577b557ab34
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274571"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259538"
 ---
-# <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Microsoft 365 Defender의 자동화된 조사 및 대응
+# <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Defender의 자동화된 조사 Microsoft 365 대응
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **적용 대상:**
 - Microsoft 365 Defender
 
-조직에서 Microsoft [365 Defender를](microsoft-365-defender.md)사용하는 경우 보안 운영 팀은 악의적 또는 의심스러운 활동 또는 아티팩트가 감지될 때마다 Microsoft 365 보안 센터 내에서 경고를 수신합니다. 발생될 수 있는 위협이 끝이 없는 것처럼 보이는 경우 보안 팀은 종종 많은 수의 경고를 해결해야 하는 과제에 직면합니다. 다행히 Microsoft 365 Defender에는 보안 운영 팀이 위협을 보다 효율적으로 처리하도록 도와주는 자동화된 조사 및 대응(AIR) 기능이 포함되어 있습니다.
+조직에서 Microsoft 365 [Defender를](microsoft-365-defender.md)사용하는 경우 보안 운영 팀은 악의적 또는 의심스러운 활동 또는 아티팩트가 감지될 때마다 Microsoft 365 보안 센터 내에서 경고를 수신합니다. 발생될 수 있는 위협이 끝이 없는 것처럼 보이는 경우 보안 팀은 종종 많은 수의 경고를 해결해야 하는 과제에 직면합니다. 다행히 Microsoft 365 Defender에는 보안 운영 팀이 위협을 보다 효율적으로 처리하도록 도와주는 자동화된 조사 및 수정(AIR) 기능이 포함되어 있습니다.
 
 이 문서에서는 AIR에 대한 개요를 제공하며 다음 단계 및 추가 리소스에 대한 링크를 제공합니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "52274571"
 
 ## <a name="how-automated-investigation-and-self-healing-works"></a>자동화된 조사 및 자동 복구의 작동 방식
 
-보안 경고가 트리거되면 보안 운영 팀이 해당 경고를 보고 조직을 보호하기 위한 단계를 수행해야 합니다. 조사가 진행되는 동안 새 경고를 계속해서 받는 경우 경고 우선 순위를 설정하고 검사하는 것은 매우 시간이 오래 걸릴 수 있습니다. 보안 운영 팀은 모니터링하고 방어해야 하는 많은 위협 요소를 통해 압도될 수 있습니다. Microsoft 365 Defender에서 자동 복구를 통해 자동화된 조사 및 대응 기능이 도움이 될 수 있습니다.
+보안 경고가 트리거되면 보안 운영 팀이 해당 경고를 보고 조직을 보호하기 위한 단계를 수행해야 합니다. 조사가 진행되는 동안 새 경고를 계속해서 받는 경우 경고 우선 순위를 설정하고 검사하는 것은 매우 시간이 오래 걸릴 수 있습니다. 보안 운영 팀은 모니터링하고 방어해야 하는 많은 위협 요소를 통해 압도될 수 있습니다. 자동 복구를 통해 자동화된 조사 및 대응 Microsoft 365 Defender가 도움을 줄 수 있습니다.
 
 다음 비디오를 시청하여 자동 복구가 작동하는 방법을 볼 수 있습니다. <p>
 
@@ -53,13 +53,13 @@ ms.locfileid: "52274571"
 Microsoft 365 Defender에서 자동 치료 기능을 통해 자동화된 조사 및 대응이 장치, 전자 메일 & 및 ID에서 작동합니다.
  
 > [!TIP]
-> 이 문서에서는 자동화된 조사 및 대응이 작동하는 방식에 대해 설명하고 있습니다. 이러한 기능을 구성하기 위해 [Microsoft 365 Defender에서](m365d-configure-auto-investigation-response.md)자동화된 조사 및 응답 기능 구성을 참조합니다.
+> 이 문서에서는 자동화된 조사 및 대응이 작동하는 방식에 대해 설명하고 있습니다. 이러한 기능을 구성하는 내용은 [Configure automated investigation and response capabilities in Microsoft 365 Defender을 참조합니다.](m365d-configure-auto-investigation-response.md)
 
 ## <a name="your-own-virtual-analyst"></a>자체 가상 분석가
 
-계층 1 또는 계층 2 보안 운영 팀에 가상 분석가가 있는 경우를 상상해 보아야 합니다. 가상 분석가가 보안 운영에서 위협을 조사하고 수정하는 데 취하는 이상적인 단계를 모방합니다. 가상 분석가가 무제한의 용량으로 24x7을 작업할 수 있으며 많은 수의 조사 및 위협 수정 작업을 할 수 있습니다. 이러한 가상 분석가가 응답 시간을 크게 줄여 보안 운영 팀이 다른 중요한 위협이나 전략적 프로젝트에 대한 정보를 제공하게 할 수 있습니다. 이 시나리오가 과학 소설처럼 들리면 그렇지 않습니다. 이러한 가상 분석가가 Microsoft 365 Defender 제품군의 일부로, 해당 이름은 자동화된 조사 및 *응답입니다.*
+Imagine 계층 1 또는 계층 2 보안 운영 팀에 가상 분석가가 있는 경우 가상 분석가가 보안 운영에서 위협을 조사하고 수정하는 데 취하는 이상적인 단계를 모방합니다. 가상 분석가가 무제한의 용량으로 24x7을 작업할 수 있으며 많은 수의 조사 및 위협 수정 작업을 할 수 있습니다. 이러한 가상 분석가가 응답 시간을 크게 줄여 보안 운영 팀이 다른 중요한 위협이나 전략적 프로젝트에 대한 정보를 제공하게 할 수 있습니다. 이 시나리오가 과학 소설처럼 들리면 그렇지 않습니다. 이러한 가상 분석가는 Microsoft 365 Defender 제품군의 일부로, 해당 이름은 자동화된 조사 및 *응답입니다.*
 
-자동화된 조사 및 대응 기능을 통해 보안 운영 팀은 보안 경고 및 인시던트 처리를 위한 조직의 용량을 크게 늘려 줄 수 있습니다. 자동화된 조사 및 대응을 통해 조사 및 대응 활동을 처리하고 위협 방지 제품군을 가장 많이 사용할 수 있습니다. 자동화된 조사 및 대응 기능은 보안 운영 팀에 도움이 됩니다.
+자동화된 조사 및 대응 기능을 통해 보안 운영 팀은 보안 경고 및 인시던트 처리를 위한 조직의 용량을 크게 늘려 줄 수 있습니다. 자동화된 조사 및 대응을 통해 조사 및 수정 활동을 처리하고 위협 방지 제품군을 가장 많이 사용할 수 있습니다. 자동화된 조사 및 대응 기능은 보안 운영 팀에 도움이 됩니다.
 
 1. 위협에 조치가 필요한지 여부를 판단합니다.
 2. 필요한 수정 작업을 수행(또는 권장)합니다.
@@ -81,13 +81,13 @@ Microsoft 365 Defender에서 자동 치료 기능을 통해 자동화된 조사 
 - URL 차단 
 - 기타 작업
 
-자세한 내용은 Microsoft [365 Defender의](m365d-remediation-actions.md)수정 작업을 참조하세요.
+자세한 내용은 Defender의 수정 Microsoft 365 [참조하세요.](m365d-remediation-actions.md)
 
 조직에 [](m365d-configure-auto-investigation-response.md) 대해 자동화된 조사 및 대응 기능이 구성되는 방식에 따라 보안 운영 팀의 승인만 수행되거나 자동으로 수정 작업이 수행됩니다. 보류 중이든 완료 여부에 따라 모든 작업이 작업 센터 에 [나열됩니다.](m365d-action-center.md)
 
 조사가 실행되는 동안 발생하는 모든 관련 경고는 완료될 때까지 조사에 추가됩니다. 영향을 받는 엔터티가 다른 곳에서 볼 수 있는 경우 자동화된 조사는 해당 엔터티를 포함하기 위해 해당 범위를 확장하고 조사 프로세스가 반복됩니다. 
 
-Microsoft 365 Defender에서 각 자동화된 조사는 다음 표에 요약된 ID, 끝점용 Microsoft Defender 및 Office 365용 Microsoft Defender에 대한 Microsoft Defender의 신호와 상관 관계가 있습니다. 
+Microsoft 365 Defender에서 각 자동화된 조사는 다음 표에 요약된 ID용 Microsoft Defender, Endpoint용 Microsoft Defender 및 Office 365 Microsoft Defender의 신호와 상관 관계가 있습니다. 
 
 |엔터티 |위협 보호 서비스  |
 |:---------|:---------|

@@ -7,28 +7,29 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 826e1456de2aadf4031a91e30925a1e771d44f70
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 143b0cb4bac1d3307e440f98fa4278f38e07c7f2
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765590"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52269543"
 ---
-# <a name="manage-updates-for-mobile-devices-and-virtual-machines-vms"></a>모바일 장치 및 VM(가상 컴퓨터)에 대한 업데이트 관리
+# <a name="manage-updates-for-mobile-devices-and-virtual-machines-vms"></a>모바일 장치 및 VM(가상 머신)에 대한 업데이트 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 모바일 장치 및 VM의 경우 업데이트로 성능에 영향을 끼치지 않도록 더 많은 구성이 필요할 수 있습니다.
 
@@ -40,7 +41,7 @@ ms.locfileid: "51765590"
 다음 문서도 이러한 상황에서 유용할 수 있습니다.
 - [예약된 검사 및 최대 검색 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
 - [최신이 지난 끝점에 대한 업데이트 관리](manage-outdated-endpoints-microsoft-defender-antivirus.md)
-- [VDI(가상 데스크톱 인프라) 환경의 Microsoft Defender 바이러스 백신 배포 가이드](deployment-vdi-microsoft-defender-antivirus.md)
+- [VDI(가상 데스크톱 인프라) 환경에서 Microsoft Defender 바이러스 백신의 배포 가이드](deployment-vdi-microsoft-defender-antivirus.md)
 
 ## <a name="opt-in-to-microsoft-update-on-mobile-computers-without-a-wsus-connection"></a>WSUS 연결 없이 모바일 컴퓨터에서 Microsoft 업데이트에 옵트인
 

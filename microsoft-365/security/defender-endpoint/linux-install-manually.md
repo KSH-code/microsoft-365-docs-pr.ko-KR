@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0374c1a44a4d942ea631d97f51fa48df15d3ec13
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c13138f3d80a95dbda3a899507f662c081831d94
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929088"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259682"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Linux에서 수동으로 끝점용 Microsoft Defender 배포
 
@@ -166,10 +166,10 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
     sudo mv ./microsoft.list /etc/apt/sources.list.d/microsoft-[channel].list
     ```
     예를 들어, 프로비전 *채널을 선택한 경우:*
-    
+
     ```bash
     sudo mv ./microsoft.list /etc/apt/sources.list.d/microsoft-prod.list
-    ```   
+    ```
 
 - 아직 `gpg` 설치되지 않은 경우 패키지를 설치합니다.
 
@@ -266,9 +266,9 @@ Linux의 끝점용 Defender는 다음 채널(아래 *[채널]으로* 표시됨) 
 
 ## <a name="download-the-onboarding-package"></a>온보더링 패키지 다운로드
 
-Microsoft Defender 보안 센터에서 온보딩 패키지를 다운로드합니다.
+다음 사이트에서 온보더링 패키지를 Microsoft Defender 보안 센터.
 
-1. Microsoft Defender 보안 센터에서 설정 > 장치 관리 > **로 이동합니다.**
+1. 다음 Microsoft Defender 보안 센터 **온보드 설정 > 장치** 관리 > 로 이동하세요.
 2. 첫 번째 드롭다운 메뉴에서 **운영 체제로 Linux Server를** 선택합니다. 두 번째 드롭다운 메뉴에서 배포 방법으로 로컬 스크립트(최대 **10대의 디바이스)를** 선택합니다.
 3. **온보더링 패키지 다운로드를 선택합니다.** 파일을 다른 파일로 WindowsDefenderATPOnboardingPackage.zip.
 
@@ -341,7 +341,7 @@ Microsoft Defender 보안 센터에서 온보딩 패키지를 다운로드합니
     - 터미널 창을 니다. 다음 명령을 복사하여 실행합니다.
 
         ``` bash
-        curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
+        curl -o /tmp/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
         ```
 
     - 파일은 Linux의 끝점에 대한 Defender에 의해 고지된 것입니다. 다음 명령을 사용하여 검색된 모든 위협을 나열합니다.
@@ -352,7 +352,7 @@ Microsoft Defender 보안 센터에서 온보딩 패키지를 다운로드합니
 
 ## <a name="installer-script"></a>설치 관리자 스크립트
 
-또는 공용 [GitHub](https://github.com/microsoft/mdatp-xplat/)리포지토리에 제공된 자동화된 설치 관리자 [bash](https://github.com/microsoft/mdatp-xplat/blob/master/linux/installation/mde_installer.sh) 스크립트를 사용할 수 있습니다.
+또는 공용 설치 관리자 리포지토리에 제공된 자동화된 설치 관리자 [bash](https://github.com/microsoft/mdatp-xplat/blob/master/linux/installation/mde_installer.sh) [스크립트를 GitHub 있습니다.](https://github.com/microsoft/mdatp-xplat/)
 스크립트는 배포 및 버전을 식별하고, 최신 패키지를 끌어와 설치하도록 장치를 설정합니다.
 제공된 스크립트를 사용하여 온보딩할 수도 있습니다.
 

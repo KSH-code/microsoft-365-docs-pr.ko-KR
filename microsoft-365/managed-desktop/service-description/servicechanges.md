@@ -1,28 +1,31 @@
 ---
 title: 서비스 변경 및 커뮤니케이션
-description: ''
+description: 서비스에 대한 변경이 발생하고 전달되는 방법
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 879e5dc96cf19c8070769b62f59cca0e409bf1df
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+manager: laurawi
+ms.topic: article
+audience: Admin
+ms.openlocfilehash: 20af244d14f8f29e0175fb5e8efdabff94ff9a2b
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917761"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244107"
 ---
 # <a name="service-changes-and-communication"></a>서비스 변경 및 커뮤니케이션
 
-경우에 따라 Microsoft는 Microsoft Managed Desktop의 작동 방식에 대한 세부 정보를 변경해야 할 수 있습니다. 마찬가지로 서비스에도 영향을 주는 변경을 해야 할 수 있습니다. 이러한 변경은 해당 변경의 중요도에 따라 다르게 처리됩니다. 이 항목에서는 주요 사항을 고려하는 변경 내용을 정의하고 변경 내용을 처리하는 방법과 다른 변경 내용을 처리하는 방법에 대해 설명합니다.
+경우에 따라 Microsoft에서 작업 방식에 대한 세부 정보를 변경해야 Microsoft Managed Desktop 있습니다. 마찬가지로 서비스에도 영향을 주는 변경을 해야 할 수 있습니다. 이러한 변경은 해당 변경의 중요도에 따라 다르게 처리됩니다. 이 항목에서는 주요 사항을 고려하는 변경 내용을 정의하고 변경 내용을 처리하는 방법과 다른 변경 내용을 처리하는 방법에 대해 설명합니다.
 
 
 
 ## <a name="changes-made-by-microsoft"></a>Microsoft에서 변경한 내용
 
-조치가 필요한 주요 변경에 대해 최소 30일 전에 알립니다. Microsoft Managed Desktop Admin 포털 메시징 시스템을 사용하여 알 수 있습니다.
+조치가 필요한 주요 변경에 대해 최소 30일 전에 알립니다. 관리자 포털 메시징 시스템을 사용하여 Microsoft Managed Desktop 알 수 있습니다.
 
 **주요 변경** 사항은 이러한 영역에 영향을 줄 수 있는 변경 사항입니다.
 - 일상적인 생산성에 영향을 주는 변경 사항
@@ -40,19 +43,19 @@ ms.locfileid: "50917761"
 
 사용자 환경, 보안, 안정성 및 보고를 개선하기 위해 서비스를 정기적으로 변경합니다. 이러한 변경의 몇 가지 예는 다음과 같습니다.
 
-- Windows 및 Office 업데이트 설치
+- Windows 및 Office 설치
 - 장치에 적용된 보안 기준 업데이트
-- [Supported devices](device-list.md)
+- 지원되는 장치. 추천 장치를 표시하기 위해 비즈니스 Microsoft Managed Desktop 사이트에서 Windows 10 Pro [필터링합니다.](https://www.microsoft.com/windowsforbusiness/view-all-devices)
 
-설정한 채널을 사용하여 이러한 변경 내용을 전달할 것입니다. 변경 내용에 대한 질문이 있으면 Microsoft Managed Desktop [Operations 팀에 문의하세요.](../working-with-managed-desktop/admin-support.md) 서비스에 대한 변경 내용도 변경 기록 에 필요한 경우 [문서화됩니다.](../change-history-managed-desktop.md)
+설정한 채널을 사용하여 이러한 변경 내용을 전달할 것입니다. 변경 내용에 대한 질문이 있으면 Microsoft Managed Desktop [팀에 문의하세요.](../working-with-managed-desktop/admin-support.md) 서비스에 대한 변경 내용도 변경 기록 에 필요한 경우 [문서화됩니다.](../change-history-managed-desktop.md)
 
-Microsoft Managed Desktop 변경 및 커뮤니케이션은 두 가지 Microsoft 정책에 의해 관리됩니다.
+Microsoft Managed Desktop 및 커뮤니케이션은 다음 두 가지 Microsoft 정책에 의해 관리됩니다.
 - [최신 수명 주기 정책](https://support.microsoft.com/help/30881/modern-lifecycle-policy)
-- [Microsoft 365 변경 커뮤니케이션 정책](/office365/admin/manage/message-center?view=o365-worldwide)
+- [Microsoft 365 통신 정책 변경](/office365/admin/manage/message-center)
 
 ## <a name="changes-you-make"></a>변경한 내용
 
-환경에서 일부 변경 사항은 Microsoft Managed Desktop에 영향을 줄 수 있습니다. 이러한 주요 변경 내용의 경우 Microsoft Managed Desktop Admin 포털에서 서비스 요청을 제출하여 30일 이상의 공지 사항을 제공해 달라고 요청합니다. 지침은 [Microsoft Managed Desktop에 대한](../working-with-managed-desktop/admin-support.md) 관리자 지원을 참조하세요. 이를 통해 중단을 방지하기 위해 변경을 계획하고 준비할 수 있는 적절한 시간을 마련할 수 있습니다.
+환경에서 일부 변경 내용은 변경 내용에 영향을 Microsoft Managed Desktop. 이러한 주요 변경 내용의 경우 Microsoft Managed Desktop 관리 포털에서 서비스 요청을 제출하여 30일 이상의 공지를 Microsoft Managed Desktop 요청합니다. 자세한 [내용은 관리자 지원 Microsoft Managed Desktop](../working-with-managed-desktop/admin-support.md) 참조하세요. 이를 통해 중단을 방지하기 위해 변경을 계획하고 준비할 수 있는 적절한 시간을 마련할 수 있습니다.
 
 주요 변경 사항은 이러한 영역에 영향을 줄 수 있는 변경 사항입니다.
 
@@ -62,11 +65,11 @@ Microsoft Managed Desktop 변경 및 커뮤니케이션은 두 가지 Microsoft 
 - 네트워크 서비스의 ID 또는 보안에 사용되는 사용자 또는 장치 인증서
 - 서비스와 상호 작용하는 관리 시스템
 - 서비스와 상호 작용하는 보안 시스템 또는 에이전트
-- 서비스와 연결되거나 서비스에서 사용하는 Microsoft 365 클라우드 서비스 구성
+- 서비스와 연결되거나 Microsoft 365 클라우드 서비스 구성
 
 이러한 변경 내용이 중단되지 않을 가능성이 높기 때문에 미리 알려주지 않을 수 있습니다.
 
 - 고아 개체 정리
 - 서비스에서 사용자 추가 또는 제거
-- Microsoft Managed Desktop의 배달에 큰 영향을 끼치지 않는 시스템 구성
+- 시스템 전달에 큰 영향을 끼치지 않는 시스템 Microsoft Managed Desktop
 - VPN 또는 프록시 응용 프로그램을 제외하고 응용 프로그램 버전 업데이트

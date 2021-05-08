@@ -1,5 +1,5 @@
 ---
-title: 관리 센터의 Microsoft 365 보고서 - Yammer 활동 보고서
+title: Microsoft 365 관리 센터의 보고서 - Yammer 활동 보고서
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -14,26 +14,25 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 ms.custom: AdminSurgePortfolio
-ROBOTS: NOINDEX, NOFOLLOW
 search.appverid:
 - BCS160
 - MST160
 - MET150
 - MOE150
 description: 조직에서 Yammer 그룹 활동 보고서를 통해 조직에서 만들어 Yammer 그룹 수와 해당 활동을 알 수 있습니다.
-ms.openlocfilehash: 3d6d5b140c34855e50660df1d5a074bb8093ebac
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 470fd7dc70069688f6d0ec0bbf3ba92b40a82ae1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579449"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244059"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---yammer-groups-activity-report"></a>관리 센터의 Microsoft 365 보고서 - Yammer 활동 보고서
+# <a name="microsoft-365-reports-in-the-admin-center---yammer-groups-activity-report"></a>Microsoft 365 관리 센터의 보고서 - Yammer 활동 보고서
 
 Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Yammer 그룹 활동 보고서에서는 조직의 Yammer 그룹 활동을 파악하고, 만들어지고 사용되는 Yammer 그룹의 수를 확인할 수 있습니다.
   
 > [!NOTE]
-> Microsoft 365의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 또는 Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자인 경우 보고서를 볼 수 있어야 합니다.  
+> 보고서를 표시하려면 Microsoft 365, Exchange, SharePoint, Teams 서비스, Teams Communications 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 읽기 권한자 또는 보고서 읽기 권한자 비즈니스용 Skype 있어야 합니다.  
  
 ## <a name="how-do-i-get-to-the-yammer-groups-activity-report"></a>그룹 활동 보고서에 Yammer 어떻게 하나요?
 
@@ -47,16 +46,16 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대한
 
 열 **선택을 선택하여** 보고서에서 열을 추가하거나 제거합니다.  <br/> ![Yammer 그룹 활동 보고서 - 열 선택](../../media/54744932-34fe-48c3-9779-1d10c3f05be1.png)
 
-내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 파일로 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
+내보내기 링크를 선택하여 보고서 데이터를 Excel .csv 내보낼 **수** 있습니다. 그러면 모든 사용자의 데이터를 내보내고 향후 분석을 위해 간단하게 정렬 및 필터링을 수행할 수 있습니다. 사용자가 2,000명 미만인 경우 보고서 자체의 표에서 정렬 및 필터링할 수 있습니다. 사용자가 2,000명 이상인 경우 필터링 및 정렬하려면 데이터를 내보내야 합니다. 
   
 |항목|설명|
 |:-----|:-----|
 |**메트릭**|**정의**|
 |그룹 이름  <br/> |그룹의 이름입니다. <br/> |
 |그룹 관리자  <br/> |그룹 관리자 또는 소유자의 이름입니다.  <br/> |
-|삭제됨  <br/> |그룹에서 삭제된 Yammer 수입니다. 그룹이 삭제되었지만 보고 기간 중 활동이 있는 경우 이 플래그가 true로 설정되어 표에 표시됩니다.  <br/> |
-|타이핑  <br/> |그룹 유형(공개 또는 비공개)입니다. <br/> |
-|Office 365에 연결  <br/> |Yammer 그룹이 Microsoft 365 그룹인지 여부를 나타냅니다. <br/> |
+|삭제됨  <br/> |삭제된 그룹 Yammer 수입니다. 그룹이 삭제되었지만 보고 기간 중 활동이 있는 경우 이 플래그가 true로 설정되어 표에 표시됩니다.  <br/> |
+|유형  <br/> |그룹 유형(공개 또는 비공개)입니다. <br/> |
+|연결 Office 365  <br/> |그룹이 Yammer 그룹인지 여부를 Microsoft 365 나타냅니다. <br/> |
 |마지막 활동 날짜(UTC)  <br/> | 그룹에서 메시지를 읽거나 게시하거나 좋아하는 최근 날짜입니다.  <br/> |
 |구성원  <br/> | 그룹의 구성원 수입니다.  <br/> |
 |게시  <br/> |보고 기간 동안 Yammer 그룹에 게시된 메시지 수입니다. <br/>|

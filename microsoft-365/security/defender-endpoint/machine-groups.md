@@ -1,6 +1,6 @@
 ---
 title: 끝점용 Microsoft Defender에서 장치 그룹 만들기 및 관리
-description: 그룹에 적용되는 규칙을 준수하여 장치 그룹을 만들고 자동화된 수정 수준을 설정
+description: 그룹에 적용되는 규칙을 확인하여 장치 그룹을 만들고 자동화된 수정 수준을 설정
 keywords: 장치 그룹, 그룹, 수정, 수준, 규칙, aad 그룹, 역할, 할당, 순위
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: acd24e5c87a74bbb32835ec170a121c5c0b6bb33
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 4fc2768392e818f74600e3c2d749b6e95bf957e4
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860306"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259424"
 ---
 # <a name="create-and-manage-device-groups"></a>장치 그룹 만들기 및 관리
 
@@ -59,7 +59,7 @@ RBAC(역할 기반 액세스)의 컨텍스트에서 장치 그룹을 만들어 �
 
 ## <a name="create-a-device-group"></a>장치 그룹 만들기
 
-1. 탐색 창에서 설정 장치  >  **그룹 을 선택합니다.**
+1. 탐색 창에서 장치 **설정**  >  **선택합니다.**
 
 2. 장치 **그룹 추가를 클릭합니다.**
 
@@ -79,7 +79,9 @@ RBAC(역할 기반 액세스)의 컨텍스트에서 장치 그룹을 만들어 �
 
 ## <a name="manage-device-groups"></a>장치 그룹 관리
 
-일치하는 동안 우선 순위가 더 높거나 낮게 부여될 수 있도록 장치 그룹의 순위를 승격하거나 강등할 수 있습니다. 장치가 두 개 이상의 그룹에 일치하면 최고 순위 그룹에만 추가됩니다. 그룹을 편집하고 삭제할 수도 있습니다.
+일치하는 동안 우선 순위가 더 높거나 낮게 부여될 수 있도록 장치 그룹의 순위를 승격하거나 강등할 수 있습니다. 장치가 두 개 이상의 그룹에 일치하면 가장 높은 순위의 그룹에만 추가됩니다. 그룹을 편집하고 삭제할 수도 있습니다.
+
+
 
 >[!WARNING]
 >장치 그룹을 삭제하면 전자 메일 알림 규칙에 영향을 줄 수 있습니다. 장치 그룹이 전자 메일 알림 규칙에 따라 구성된 경우 해당 규칙에서 제거됩니다. 장치 그룹이 전자 메일 알림에 대해 구성된 유일한 그룹인 경우 해당 전자 메일 알림 규칙이 장치 그룹과 함께 삭제됩니다.
@@ -91,8 +93,22 @@ RBAC(역할 기반 액세스)의 컨텍스트에서 장치 그룹을 만들어 �
 >[!NOTE]
 > 장치 그룹 구성에 변경 내용을 적용하는 데 최대 몇 분 정도 걸릴 수 있습니다.
 
+
+### <a name="add-device-group-definitions"></a>장치 그룹 정의 추가
+장치 그룹 정의에는 각 조건에 대한 여러 값도 포함할 수 있습니다. 여러 태그, 장치 이름 및 도메인을 단일 장치 그룹의 정의로 설정할 수 있습니다.
+
+1. 새 장치 그룹을 만든 다음 장치 **탭을** 선택합니다.
+2. 조건 중 하나에 대한 첫 번째 값을 추가합니다.
+3. 같은 속성 형식의 행을 더 추가하려면 `+` 선택합니다.
+
+>[!TIP]
+> 속성당 여러 값을 허용하는 동일한 조건 유형의 행 사이에 'OR' 연산자를 사용합니다.
+> 태그, 장치 이름, 도메인 등 각 속성 유형에 대해 최대 10개 행(값)을 추가할 수 있습니다.
+
+장치 그룹 정의에 연결하는 데 대한 자세한 내용은 장치 그룹 - 보안 Microsoft 365 [참조하세요.](https://sip.security.microsoft.com/homepage)
+
 ## <a name="related-topics"></a>관련 항목
 
 - [역할 기반 액세스 제어를 사용하여 포털 액세스 관리](rbac.md)
 - [장치 태그 만들기 및 관리](machine-tags.md)
-- [Graph API를 사용하여 테넌트 장치 그룹 목록 표시](https://docs.microsoft.com/graph/api/device-list-memberof)
+- [테넌트 API를 사용하여 테넌트 Graph 목록](https://docs.microsoft.com/graph/api/device-list-memberof)

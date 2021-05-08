@@ -16,12 +16,12 @@ ms.collection:
 localization_priority: None
 description: Microsoft Viva Learning(미리 보기)SharePoint 학습 콘텐츠 원본으로 구성하는 방법을 알아보겠습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: da75ec0573519ed73507994afeac995c0461de0c
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+ms.openlocfilehash: fc702f57b75b78ab523226ba7d8a8eb6505f2975
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52101091"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244128"
 ---
 # <a name="coming-soon-configure-sharepoint-as-a-learning-content-source-for-microsoft-viva-learning-preview"></a>출시 예정: SharePoint Microsoft Viva Learning용 학습 콘텐츠 원본으로 구성(미리 보기)
 
@@ -40,11 +40,11 @@ Viva Learning(미리 보기)은 다음과 같은 문서 유형을 지원합니�
 - 오디오(.m4a)
 - 비디오(.mov, .mp4, .avi)
 
-자세한 내용은 온라인 [설명서를 SharePoint 참조하세요.](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498) 
+자세한 내용은 제한 [SharePoint 참조하세요.](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498) 
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
-문서 라이브러리 폴더 URL은 조직의 모든 SharePoint 수집할 수 있습니다. Viva Learning(미리 보기)은 모든 기존 콘텐츠 사용 권한을 따르게 됩니다. 따라서 사용자에게 액세스 권한이 있는 콘텐츠만 Viva Learning(미리 보기) 내에서 검색 및 비어 있습니다. 이러한 폴더 내의 모든 콘텐츠는 검색할 수 있지만 개별 직원이 사용 권한을 가지는 콘텐츠만 사용할 수 있습니다.
+문서 라이브러리 폴더 URL은 조직의 모든 SharePoint 수집할 수 있습니다. Viva Learning(미리 보기)은 모든 기존 콘텐츠 사용 권한을 따르게 됩니다. 따라서 사용자에게 액세스 권한이 있는 콘텐츠만 Viva Learning(미리 보기) 내에서 검색 및 표시됩니다. 이러한 폴더 내의 모든 콘텐츠는 검색할 수 있지만 개별 직원이 사용 권한을 가지는 콘텐츠만 사용할 수 있습니다.
 
 조직 리포지토리에서 콘텐츠 삭제는 현재 지원되지 않습니다.
 
@@ -70,11 +70,11 @@ Viva SharePoint(미리 보기)에서 학습 콘텐츠 원본으로 구성하기 
 
 1.  Microsoft 365 센터의 왼쪽 탐색에서 설정   >  **설정으로 이동합니다.**
  
-2.  Org **설정 페이지의** 서비스 **탭에서** 학습 앱(미리 **보기)을 선택합니다.**
+2.  Org **설정 페이지의** 서비스 **탭에서** **Viva Learning(미리 보기)을 선택합니다.**
 
      ![설정 Viva Learning이 Microsoft 365 관리 센터의 페이지입니다.](../media/learning/learning-sharepoint-configure1.png)
 
-3.  학습 **앱(미리 보기)** 패널의 SharePoint Viva Learning에서 중앙 리포지토리를 만들 SharePoint 사이트 URL을 제공합니다.
+3.  **Viva Learning(미리 보기)** 패널의 SharePoint Viva Learning(미리 보기)에서 중앙 리포지토리를 만들 SharePoint 사이트 URL을 제공합니다.
 
      ![선택한 Microsoft 365 센터의 학습 SharePoint.](../media/learning/learning-sharepoint-configure2.png)
 

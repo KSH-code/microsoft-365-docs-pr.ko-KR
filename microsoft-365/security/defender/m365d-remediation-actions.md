@@ -1,6 +1,6 @@
 ---
-title: Defender의 Microsoft 365 조치
-description: Defender에서 자동화된 조사를 따르는 수정 Microsoft 365 개요를 얻습니다.
+title: Microsoft 365 Defender의 수정 작업
+description: Microsoft 365 Defender에서 자동화된 조사를 따르는 수정 작업의 개요를 얻습니다.
 keywords: 자동화된, 조사, 경고, 트리거, 작업, 수정
 search.appverid: met150
 ms.prod: m365-security
@@ -21,14 +21,14 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 31162944f4728f2c84efbe2cd5eafbd0c70e00f6
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 80546d44bc1ba222c736b397a272f9f1f1a01d4a
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245855"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52269471"
 ---
-# <a name="remediation-actions-in-microsoft-365-defender"></a>Defender의 Microsoft 365 조치
+# <a name="remediation-actions-in-microsoft-365-defender"></a>Microsoft 365 Defender의 수정 작업
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,17 +36,15 @@ ms.locfileid: "52245855"
 **적용 대상:**
 - Microsoft 365 Defender
 
-## <a name="remediation-actions"></a>수정 작업
-
-Microsoft 365 자동화된 조사가 진행되는 동안 및 이후에 악의적 또는 의심스러운 항목에 대해 수정 작업이 식별됩니다. 일부 종류의 수정 작업은 끝점이라고도 하는 장치에서 수행됩니다. 기타 수정 작업은 전자 메일 콘텐츠에 대해 수행됩니다. 재구성 작업을 수행, 승인 또는 거부한 후에 자동화된 조사가 완료됩니다.
+Microsoft 365 Defender에서 자동화된 조사가 진행되는 동안 및 이후에 악의적 또는 의심스러운 항목에 대한 수정 작업이 식별됩니다. 일부 종류의 수정 작업은 끝점이라고도 하는 장치에서 수행됩니다. 기타 수정 작업은 전자 메일 콘텐츠에 대해 수행됩니다. 재구성 작업을 수행, 승인 또는 거부한 후에 자동화된 조사가 완료됩니다.
 
 > [!IMPORTANT]
 > 재구성 작업이 자동으로 수행될지 승인에만 수행될지는 자동화 수준과 같은 특정 설정에 따라 결정됩니다. 자세한 내용은 다음 문서를 참조합니다.
-> - [Defender에서 자동화된 조사 및 대응 Microsoft 365 구성](m365d-configure-auto-investigation-response.md)
+> - [Microsoft 365 Defender에서 자동화된 조사 및 응답 기능 구성](m365d-configure-auto-investigation-response.md)
 > - [장치에서 위협을 수정하는 방법](../defender-endpoint/automated-investigations.md)
 > - [전자 메일 및 공동 작업 콘텐츠에 & 수정 작업](../office-365-security/air-remediation-actions.md#threats-and-remediation-actions)
 
-다음 표에는 현재 Defender에서 지원되는 수정 Microsoft 365 요약되어 있습니다. 
+다음 표에는 Microsoft 365 Defender에서 현재 지원되는 수정 작업이 요약됩니다. 
 
 |장치(끝점) 수정 작업  |전자 메일 수정 작업  |
 |:---------|:---------|
@@ -60,7 +58,7 @@ Microsoft 365 자동화된 조사가 진행되는 동안 및 이후에 악의적
 
 도출 가능한 의견과 결과는 다음 테이블에서 확인할 수 있습니다. 
 
-| 의견    | 영역    | 결과|
+| 의견    | 영향을 받는 엔터티    | 결과|
 |------|------|------|
 | 악성    | 장치 (끝점)    | 재구성 작업이 자동으로 수행됩니다(조직의 장치 그룹이 전체 - 자동으로 위협 수정으로 설정되어 있는 **경우)** [](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups)|
 | 악성    | 전자 메일 콘텐츠 (Url 또는 첨부 파일) | 승인 보류 중인 재구성 활동 |
@@ -70,17 +68,17 @@ Microsoft 365 자동화된 조사가 진행되는 동안 및 이후에 악의적
 
 ## <a name="remediation-actions-that-are-taken-manually"></a>수동으로 수행한 수정 작업
 
-자동화된 조사를 따르는 수정 작업 외에도 보안 운영 팀은 특정 수정 작업을 수동으로 수행할 수 있습니다. 여기에는 다음 작업이 포함됩니다.
+자동화된 조사를 따르는 수정 작업 외에도 보안 운영 팀은 특정 수정 작업을 수동으로 수행할 수 있습니다. 이러한 경계 및 제한은 다음과 같습니다.
 
 - 장치 고리 또는 파일 검지와 같은 수동 장치 작업
 - 수동 전자 메일 작업(예: 전자 메일 메시지 소프트 삭제) 
 - [장치 또는 전자](../defender-endpoint/advanced-hunting-overview.md) 메일에 대한 고급 헌팅 작업
-- [전자](../office-365-security/threat-explorer.md) 메일을 정크 메일로 이동, 소프트 삭제 전자 메일 또는 하드 삭제 전자 메일과 같은 전자 메일 콘텐츠에 대한 탐색기 작업
+- [전자](../office-365-security/threat-explorer.md) 메일 콘텐츠에 대한 탐색기 작업(예: 정크 메일로 이동, 전자 메일 소프트 삭제 또는 하드 삭제 전자 메일)
 - 파일 [삭제,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) 프로세스 중지, 예약된 작업 제거와 같은 수동 실시간 응답 작업
-- [Microsoft Defender for Endpoint API를](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis)사용하여 실시간 응답 작업(예: 장치 차단, 바이러스 백신 검사 실행, 파일에 대한 정보 수집) 
+- [Microsoft Defender for Endpoint API를](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis)사용하여 실시간 응답 작업(예: 장치 차단, 바이러스 백신 검사 실행, 파일에 대한 정보 수집)
 
 ## <a name="next-steps"></a>다음 단계
 
 - [알림 센터 방문](m365d-action-center.md)
-- [수정 작업 보기 및 관리]( m365d-autoir-actions.md)
-- [자동화된 조사 및 응답 기능에서 가짓 긍정/부정 처리](m365d-autoir-report-false-positives-negatives.md)
+- [수정 작업 보기 및 관리](m365d-autoir-actions.md)
+- [가짓 긍정 또는 거짓 부정 해결](m365d-autoir-report-false-positives-negatives.md)
