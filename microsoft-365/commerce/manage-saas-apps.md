@@ -5,25 +5,31 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jamitche
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 ms.localizationpriority: Normal
 ms.collection:
-- commerce
-ms.custom: AdminSurgePortfolio
+- M365-subscription-management
+- Adm_O365
+ms.custom:
+- AdminSurgePortfolio
+- commerce_subscriptions
+- PPM_jmueller
 search.appverid: MET150
-description: Microsoft 365 관리 센터에서 타사 앱을 활성화하고 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 457545282801829ca34de0318dd9eb7791866214
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+description: Microsoft 365 관리 센터에서 타사 앱을 활성화하고 관리하는 방법에 대해 자세히 알아보습니다.
+ms.date: 04/15/2021
+ms.openlocfilehash: eece8154640dcdd55239511ed099abcdca39e807
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860538"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280526"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>조직의 타사 앱 구독 관리
 
-새 Microsoft 365 관리 센터에서 타사 앱에 대한 라이선스 및 청구를 관리할 수 있습니다. 업데이트된 기능에는 향상된 구독 관리, 청구 정보에 대한 액세스 향상, 청구 관리 유연성 향상이 포함됩니다. 구독 관리는 Microsoft의 업데이트된 상거래 플랫폼을 기반으로 합니다. 이는 고객이 직접 구매하는 소프트웨어 as-a-service 앱 또는 타사 공급자의 앱에 적용됩니다.
+새 관리 센터에서 타사 앱에 대한 라이선스 및 청구를 관리할 Microsoft 365 있습니다. 업데이트된 기능에는 향상된 구독 관리, 청구 정보에 대한 액세스 향상, 청구 관리 유연성 향상이 포함됩니다. 구독 관리는 Microsoft의 업데이트된 상거래 플랫폼을 기반으로 합니다. 이는 고객이 직접 구매하는 소프트웨어 as-a-service 앱 또는 타사 공급자의 앱에 적용됩니다.
 
 미리 보기 모드가 켜져 있는 Microsoft 365 관리 센터에서 타사 앱에 대한 라이선스 및 청구를 관리할 수 있습니다. 업데이트된 기능에는 향상된 구독 관리, 청구 정보에 대한 액세스 향상, 청구 관리 유연성 향상이 포함됩니다. 구독 관리는 Microsoft의 업데이트된 상거래 플랫폼을 기반으로 합니다. 이는 고객이 직접 구매하는 소프트웨어 as-a-service 앱 또는 타사 공급자의 앱에 적용됩니다.
 
@@ -35,7 +41,7 @@ ms.locfileid: "51860538"
 - **파트너 구매** – 파트너 센터를 통해 파트너와 협력하여 구독을 구매합니다.
 - **Microsoft 제안** – 타사 앱을 포함하는 Microsoft Sales의 제안에 응답합니다.
 
-고객이 앱을 구매하고 Microsoft 고객 계약에 동의하면 Microsoft 365 관리 센터 또는 비즈니스용 Microsoft Store에서 앱을 관리할 수 있습니다.
+고객이 앱을 구매하고 Microsoft 고객 계약에 동의하면 Microsoft 365 관리 센터에서 관리할 수 비즈니스용 Microsoft Store.
 
 앱 공급자는 앱을 단가로 판매하거나 사용자용 라이선스를 구입하여 판매합니다.
 
@@ -65,13 +71,13 @@ ms.locfileid: "51860538"
 
 1. 관리 센터에서 청구 제품 앱  >  **페이지로**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">이동합니다.</a>
 2. 관리할 앱을 찾아 선택합니다.
-3. 설정 **& 작업에서** 게시자의 **포털에서 관리를 선택합니다.**
+3. 다음 **설정 &** 에서 **게시자의 포털에서 관리를 선택합니다.**
 
 앱을 활성화할 수 있는 앱 게시자의 사이트로 연결됩니다.
 
 ## <a name="manage-third-party-apps"></a>타사 앱 관리
 
-관리자는 Microsoft 365 관리 센터와 타사 앱 공급자 포털의 두 위치에서 타사 앱을 관리합니다.
+관리자는 관리 센터 및 타사 Microsoft 365 포털의 두 위치에서 타사 앱을 관리합니다.
 
 다음은 각 포털에서 할 수 있는 일입니다.
 
@@ -87,7 +93,7 @@ ms.locfileid: "51860538"
 
 1. 관리 센터에서 청구 제품 앱  >  **페이지로**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">이동합니다.</a>
 2. 관리할 앱을 찾아 선택합니다.
-3. 설정 **& 작업에서** 게시자 포털에서 **관리로 연결되는 링크를 선택합니다.**
+3. 다음 **설정 &** 에서 게시자의 **포털에서 관리로 연결되는 링크를 선택합니다.**
 
 ## <a name="change-license-quantity"></a>라이선스 수량 변경
 
@@ -99,7 +105,7 @@ ms.locfileid: "51860538"
 
 ## <a name="manage-payment-methods"></a>결제 방법 관리
 
-As-a-Service 앱에는 각각 청구 프로필이 할당되어 있습니다. 청구 프로필을 사용하면 송장에 포함된 제품과 송장 결제 방법을 사용자 지정할 수 있습니다. 다음이 포함됩니다.
+As-a-Service 앱에는 각각 청구 프로필이 할당되어 있습니다. 청구 프로필을 사용하면 송장에 포함된 제품과 송장 결제 방법을 사용자 지정할 수 있습니다. 여기에는 다음이 포함됩니다.
 
 - **결제 방법** - 신용 카드 또는 수표/송금
 - **연락처 정보** - 청구 주소 및 연락처 이름
@@ -121,4 +127,4 @@ As-a-Service 앱에는 각각 청구 프로필이 할당되어 있습니다. 청
 
 1. 관리 센터에서 청구 제품 앱  >  **페이지로**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">이동합니다.</a>
 2. 관리할 앱을 찾아 선택합니다.
-3. 설정 **& 작업에서** 구독 **취소를 선택합니다.**
+3. 작업 **설정 &** 에서 구독 **취소를 선택합니다.**

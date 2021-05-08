@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -12,19 +13,22 @@ f1_keywords:
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- commerce
+- M365-subscription-management
+- Adm_O365
 ms.custom:
 - AdminSurgePortfolio
-search.appverid:
-- MET150
+- commerce_billing
+- PPM_jmueller
+search.appverid: MET150
 description: Microsoft 비즈니스 제품에 대한 청구서 또는 송장을 읽고 이해하는 방법에 대해 알아보세요.
 keywords: 청구 계정, 조직 정보, 송장
-ms.openlocfilehash: 344877a4b97f5c77dc3381aa49d7bf0f60bd628e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.date: 05/04/2021
+ms.openlocfilehash: 819db7eb999344d2736015dd766453c07f2ed86f
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244711"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280838"
 ---
 # <a name="understand-your-bill-or-invoice"></a>청구서 또는 송장 이해하기
 
@@ -103,17 +107,13 @@ Microsoft 365 구독이 있는 경우에는 [비즈니스용 Microsoft 365의 �
 온라인으로 송장을 볼 수 있습니다. 온라인 송장에 대한 링크는 PDF 송장과 전자 메일 알림에서 사용할 수 있습니다. 온라인 송장은 확장 가능하므로 송장의 요금을 확인하고 각 항목에 대한 자세한 정보를 볼 수 있습니다. 온라인 송장에는 다음이 포함됩니다.
 
 - **가격 책정**&mdash;할인 및 제품 가격에 대한 세부 장보를 포함한 추가 정보입니다.
-
 - **온라인 결제**&mdash;송장에서 온라인으로 결제하도록 선택할 수 있습니다.
-
 - **Azure 비용 관리**&mdash;Azure 고객의 경우 온라인 송장에는 Azure 비용 관리 링크가 포함되어 있습니다.
 
 ### <a name="to-view-your-online-invoice"></a>온라인 송장 확인 방법
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">청구서 및 결제</a> 페이지로 이동하십시오.
-
 2. 송장의 .pdf 버전을 다운로드하려면 보려는 송장의 행에서 **송장 PDF 다운로드** 를 선택하세요.
-
 3. 온라인 송장을 보려면 목록에서 송장을 선택하세요. 송장 세부 정보 페이지에서 .pdf를 다운로드할 수도 있습니다.
 
 ## <a name="invoice-faq"></a>송장 FAQ
@@ -145,8 +145,8 @@ Microsoft 365 구독이 있는 경우에는 [비즈니스용 Microsoft 365의 �
 
 Azure 결제는 적격 Azure 제품 및 서비스에 대해서만 결제 방법으로 사용할 수 있습니다.
 
-## <a name="need-help-contact-support"></a>도움이 필요하신가요? 고객 지원에 문의하세요.
+## <a name="need-help-contact-support"></a>도움이 필요하신가요? 지원 센터 문의
 
 Azure 크레딧에 대한 질문이 있거나 도움이 필요한 경우 <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">Azure 지원에 지원 요청을 생성하세요</a>.
 
-Microsoft 365 관리 센터의 송장에 관해 질문이 있거나 도움이 필요한 경우 [비즈니스 제품 지원팀에 문의하세요](../../admin/contact-support-for-business-products.md).
+Microsoft 365 관리 센터의 송장에 관해 질문이 있거나 도움이 필요한 경우 [비즈니스 제품 지원팀에 문의하세요](../../business-video/get-help-support.md).

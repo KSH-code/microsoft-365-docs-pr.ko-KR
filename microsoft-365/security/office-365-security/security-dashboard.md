@@ -3,7 +3,7 @@ title: 보안 대시보드 개요
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: siosulli
+author: denisebmsft
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -16,15 +16,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 새 보안 대시보드를 사용하여 Office 365 위협 방지 상태를 검토하고 보안 경고를 보고 이에 대한 행동을 할 수 있습니다.
+description: 새 보안 대시보드를 사용하여 위협 방지 Office 365 검토하고 보안 경고를 보고 이에 대한 행동을 할 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8c9a49b9b8fc1edd9b2928250e8cae135acb75f4
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 71c077853c8dbb68b78c8073f650bcb2df4d1b9a
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274415"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52246456"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
 
@@ -52,13 +52,13 @@ ms.locfileid: "52274415"
 
 ![보안 대시보드 - 위협 관리 요약 위젯](../../media/SecDash-ThreatMgmtSummary.png)
 
-위협 관리 요약에 표시될 정보는 구독에 포함된 내용에 따라 다를 수 있습니다. 다음 표에서는 Office 365 E3 및 Office 365 E5에 포함된 정보를 설명합니다.
+위협 관리 요약에 표시될 정보는 구독에 포함된 내용에 따라 다를 수 있습니다. 다음 표에서는 E3 및 E5용 Office 365 정보를 Office 365 설명되어 있습니다.
 
 |Office 365 E3|Office 365 E5|
 |---|---|
 |차단된 맬웨어 메시지<br>피싱 메시지 차단<br>사용자가 보고한 메시지<br><br><br><br>|차단된 맬웨어 메시지<br>피싱 메시지 차단<br>사용자가 보고한 메시지<br>제로 데이 맬웨어 차단<br>검색된 고급 피싱 메시지<br>악의적인 URL 차단|
 
-위협 관리 요약 위젯을 보거나 액세스하려면 Office 365용 Defender 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [Office 365용 Defender](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)보고서를 보는 데 필요한 사용 권한을 참조하세요.
+위협 관리 요약 위젯을 보거나 액세스하려면 보고서에 대한 Defender를 볼 Office 365 있어야 합니다. 자세한 내용은 [보고서용 Defender를](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)보는 데 필요한 사용 권한을 Office 365 참조하세요.
 
 ## <a name="threat-protection-status"></a>위협 방지 상태
 
@@ -66,14 +66,14 @@ ms.locfileid: "52274415"
 
 ![위협 방지 상태 위젯](../../media/tpswidget.png)
 
-세부 정보는 Microsoft 365 구독에 Office [365용 Microsoft Defender와](defender-for-office-365.md)함께 EOP(Exchange [Online Protection)를](exchange-online-protection-overview.md) 포함하는지 여부에 따라 결정됩니다.
+세부 정보는 Microsoft 365 구독에 Microsoft Defender for [Exchange Online Protection(EOP)를](exchange-online-protection-overview.md) 포함하는지 여부에 [따라 Office 365.](defender-for-office-365.md)
 
 |구독에 포함된 경우...|이러한 세부 정보가 표시|
 |---|---|
-|EOP는 있지만 Office 365용 Microsoft Defender는 지원되지 않습니다.|EOP에서 검색 및 차단된 악성 전자 메일입니다.<p> [EOP(위협 방지 상태 보고서)를 참조합니다.](view-email-security-reports.md#threat-protection-status-report)|
-|Office 365용 Microsoft Defender|EOP 및 Office 365용 Defender에서 검색 및 차단된 악성 콘텐츠 및 악의적인 전자 메일 <p> 맬웨어 방지 엔진, 제로 아워 자동 제거 및 [](zero-hour-auto-purge.md)Office 365용 Defender(안전한 [링크,](safe-links.md)안전한 첨부 파일 [](safe-attachments.md)및 Office [365용 Defender의](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)피싱 방지 포함)에 의해 차단되는 악성 콘텐츠가 있는 고유한 전자 메일 메시지의 집계된 수입니다. <p> [위협 방지 상태 보고서를 참조합니다.](view-reports-for-mdo.md#threat-protection-status-report)|
+|EOP는 있지만 Microsoft Defender for Office 365|EOP에서 검색 및 차단된 악성 전자 메일입니다.<p> [EOP(위협 방지 상태 보고서)를 참조합니다.](view-email-security-reports.md#threat-protection-status-report)|
+|Office 365용 Microsoft Defender|EOP 및 Defender에서 악의적인 콘텐츠 및 악의적인 전자 메일을 검색하고 Office 365 <p> 맬웨어 방지 엔진에 의해 차단되는 악의적인 콘텐츠가 [](zero-hour-auto-purge.md)있는 고유한 전자 메일 메시지의 집계된 수입니다.(맬웨어 방지 엔진, 제로 아워 자동 제거 및 defender for Office 365 기능(안전한 [링크,](safe-links.md)안전한 첨부 파일 [및 Defender의](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)피싱 방지 Office 365). [](safe-attachments.md) <p> [위협 방지 상태 보고서를 참조합니다.](view-reports-for-mdo.md#threat-protection-status-report)|
 
-위협 방지 상태 위젯을 보거나 액세스하려면 Office 365용 Defender 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [Office 365용 Defender](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports) 보고서를 보는 데 필요한 사용 권한을 참조하세요.
+위협 방지 상태 위젯을 보거나 액세스하려면 보고서에 대한 Defender를 볼 Office 365 있어야 합니다. 자세한 내용은 Defender for Office 365 [참조하세요.](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)
 
 ## <a name="global-weekly-threat-detections"></a>Global Weekly Threat Detections
 
@@ -87,7 +87,7 @@ Global Weekly Threat Detections 위젯은 지난 7일 동안 전자 메일 메�
 |---|---|
 |검사한 메시지|검사한 전자 메일 메시지 수에 받는 사람 수를 곱한 수|
 |위협 중지됨|맬웨어가 포함된 것으로 확인된 전자 메일 메시지 수에 받는 사람 수를 곱합니다.|
-|[Office 365용 Defender에 의해 차단됩니다.](defender-for-office-365.md)|Office 365용 Defender에서 차단한 전자 메일 메시지 수에 받는 사람 수를 곱한 수|
+|2016에 [대해 Defender가 Office 365](defender-for-office-365.md)|Defender에서 차단한 전자 메일 메시지 Office 365 수에 받는 사람 수를 곱합니다.|
 |배달 후 제거됨|제로 아워 [](zero-hour-auto-purge.md) 자동 제거로 제거된 메시지 수에 받는 사람 수를 곱한 수입니다.|
 
 ## <a name="malware"></a>맬웨어
@@ -106,9 +106,9 @@ Global Weekly Threat Detections 위젯은 지난 7일 동안 전자 메일 메�
 
 ## <a name="threat-investigation-and-response"></a>위협 조사 및 응답
 
-조직의 구독에 Office  [365 계획 2용 Microsoft Defender가](office-365-ti.md)포함되어 있는 경우 보안 대시보드에는 고급 위협 조사 및 응답 도구가 포함된 섹션이 있습니다. 이러한 도구에는 [자동화된 조사 및 응답 기능이 포함됩니다.](automated-investigation-response-office.md) 자동화된 조사 및 대응은 손상된 사용자 계정을 신속하게 해결하는 등의 [시나리오에서 유용할 수 있습니다.](address-compromised-users-quickly.md)
+조직의 구독에 Microsoft [Defender for Office 365 계획 2가](office-365-ti.md)포함되어 있는 경우 보안 대시보드에는 고급 위협 조사 및 응답 도구가 포함된 섹션이 있습니다. 이러한 도구에는 [자동화된 조사 및 응답 기능이 포함됩니다.](automated-investigation-response-office.md) 자동화된 조사 및 대응은 손상된 사용자 계정을 신속하게 해결하는 등의 [시나리오에서 유용할 수 있습니다.](address-compromised-users-quickly.md)
 
-자세한 내용은 [Office 365에서 자동화된 조사 및 응답(AIR)을 사용하여 시작을 참조합니다.](office-365-air.md)
+자세한 내용은 에서 자동화된 조사 및 [대응(AIR)](office-365-air.md)사용 시작을 Office 365.
 
 ## <a name="trends"></a>추세
 
@@ -116,9 +116,9 @@ Global Weekly Threat Detections 위젯은 지난 7일 동안 전자 메일 메�
 
 ![추세 섹션에는 조직의 전자 메일 흐름 추세가 요약됩니다.](../../media/trends.png)
 
-또한 조직의 구독에 Office [365 계획 2용 Defender가](office-365-ti.md)포함되어  있는 경우 보안 팀이 우선 순위가 높은 보안 경고를 보고 조치를 취할 수 있도록 하는 최근 위협 관리 경고 보고서도 이 섹션에 표시됩니다.
+또한 조직의 구독에 Office 365 [계획 2용 Defender가](office-365-ti.md)포함되어 있는 경우  보안 팀이 우선 순위가 높은 보안 경고를 보고 조치를 취할 수 있도록 하는 최근 위협 관리 경고 보고서도 이 섹션에 표시됩니다.
 
-보내고 받은 전자 메일 위젯을 보거나 액세스하려면 Office 365용 Defender 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [Office 365용 Defender](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)보고서를 보는 데 필요한 사용 권한을 참조하세요.
+보내고 받은 전자 메일 위젯을 보거나 액세스하려면 보고서에 대한 Defender를 볼 Office 365 있어야 합니다. 자세한 내용은 [보고서용 Defender를](view-reports-for-mdo.md#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)보는 데 필요한 사용 권한을 Office 365 참조하세요.
 
 최근 위협 관리 경고 위젯을 보거나 액세스하려면 경고를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 경고를 보는 데 필요한 [RBAC 권한을 참조합니다.](../../compliance/alert-policies.md#rbac-permissions-required-to-view-alerts)
 
@@ -126,7 +126,7 @@ Global Weekly Threat Detections 위젯은 지난 7일 동안 전자 메일 메�
 
 [보안 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)
 
-[Office 365용 Microsoft Defender에 대한 보고서 보기](view-reports-for-mdo.md)
+[Microsoft Defender for Office 365](view-reports-for-mdo.md)
 
 [Office 365용 Defender](defender-for-office-365.md)
 

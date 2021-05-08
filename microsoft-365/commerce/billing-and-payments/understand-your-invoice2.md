@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,30 +13,26 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 ms.custom:
 - TopSMBIssues
 - okr_smb
 - AdminSurgePortfolio
-search.appverid:
-- BCS160
-- MET150
-- MOE150
-- BEA160
-ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
+- commerce_billing
+- PPM_jmueller
+search.appverid: MET150
 description: 비즈니스용 Microsoft 365의 청구서 또는 송장에 있는 요금, 청구, 지불 정보를 해석하는 방법과 구매 주문 번호를 변경하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b89ca38bf5d7b1d82982668dcd98e9979f1657be
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.date: 05/04/2021
+ms.openlocfilehash: 9eb9d063b3634269600d5f6566e9e5f373ab08c2
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245019"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280490"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>비즈니스용 Microsoft 365의 청구서 또는 송장 이해
 
 > [!IMPORTANT]
-> 2021년 1월 26일 현재, 벨기에, 프랑스, 이탈리아, 룩셈부르크, 포르투갈, 스페인 및 미국의 고객은 새 은행 계좌가 더 이상 지원되지 않습니다. 해당 국가 중 하나에 있는 기존 고객인 경우 기존 은행 계좌로 구독 비용을 계속 지불할 수 있으며, 은행 계좌가 양호한 한 새 구독을 추가할 수 있습니다.
+> 2021년 1월 26일 현재 벨기에, 프랑스, 이탈리아, 룩셈부르크, 포르투갈, 스페인 및 미국의 고객에게는 새 은행 계좌가 더 이상 지원되지 않습니다. 해당 국가 중 하나의 기존 고객인 경우 기존 은행 계좌로 구독료를 계속 결제할 수 있으며 은행 계좌 상태가 양호한 경우에만 새 구독을 추가할 수 있습니다.
 
 월간 또는 연간(구독을 구입했을 때 선택한 옵션에 따라 다름)으로 관리 센터에서 새 명세서를 사용할 수 있다는 전자 메일을 받게 됩니다. [청구서 또는 송장을 찾아서 보는 방법을 알아봅니다](view-your-bill-or-invoice.md).
   
@@ -96,7 +93,7 @@ ms.locfileid: "52245019"
 |서비스 사용 주소|서비스를 사용 중인 주소로, 대개 구매자 주소와 동일합니다. 서비스 사용 주소를 업데이트하려면 [청구 주소 변경](change-your-billing-addresses.md)을 참조하세요.|
 |구매자|회사명과 주소입니다. 이 정보를 업데이트하려면 [Change your organization's address, technical contact email, and other information](../../admin/manage/change-address-contact-and-more.md)(조직 주소, 기술 담당자 전자 메일 및 기타 정보 변경)을 참조하세요.  |
 |소계|송장에 나열된 각 구독에는 모든 요금, 할인, 크레딧, 소계, 세금에 대한 별도의 소계 열과 해당 구독에 대한 합계 열이 있습니다.|
-|세금|송장의 1페이지에는 총 세금이 나와 있습니다. 2페이지에는 적용한 세율과 각 품목에 대한 총 세금이 나와 있습니다. 송장에 세금이 포함되어 있는데 회사가 세금 면제 대상이라면 [지원 서비스에 문의](../../admin/contact-support-for-business-products.md)하세요.  |
+|세금|송장의 1페이지에는 총 세금이 나와 있습니다. 2페이지에는 적용한 세율과 각 품목에 대한 총 세금이 나와 있습니다. 송장에 세금이 포함되어 있는데 회사가 세금 면제 대상이라면 [지원 서비스에 문의](../../business-video/get-help-support.md)하세요.  |
 |합계|송장 청구 기간에 지급해야 할 금액입니다.|
 
 ## <a name="change-your-purchase-order-number"></a>구매 주문 번호 변경
@@ -109,27 +106,28 @@ ms.locfileid: "52245019"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
+
 ::: moniker-end
 
 1. **제품** 탭에서 변경할 구독을 선택합니다.
 
-1. 구독 세부 정보 페이지의 구독 및 결제 **설정 섹션에서** 송장 **편집을 선택합니다.** 
+1. 구독 세부 정보 페이지의 구독 및 결제 **설정 섹션에서** 송장 **편집을 선택합니다.**
 
 1. 음성으로 결제에  대한 세부 정보 편집 창의 아래쪽에 PO 번호를 입력한 다음 저장을 **선택합니다.**
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[비즈니스용 Microsoft 365 구독 결제](pay-for-your-subscription.md)
-
-[Minecraft: Education Edition 결제 옵션](/education/windows/school-get-minecraft)
+[비즈니스용 Microsoft 365 요금](pay-for-your-subscription.md) 결제(문서)\
+[Minecraft: Education Edition 결제 옵션](/education/windows/school-get-minecraft) (문서)

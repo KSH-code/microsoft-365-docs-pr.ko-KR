@@ -130,11 +130,11 @@
               href: m365d-remediation-actions.md
             - name: 알림 센터 방문
               href: m365d-action-center.md
-            - name: 보류 중인 수정 작업 승인 또는 거부
+            - name: 수정 작업 보기 및 관리
               href: m365d-autoir-actions.md
             - name: 자동화 조사 세부정보 및 결과 보기
               href: m365d-autoir-results.md
-            - name: 가양성/가음성 보고
+            - name: 가짓 긍정/음수 해결
               href: m365d-autoir-report-false-positives-negatives.md
         - name: 고급 헌팅
           items:

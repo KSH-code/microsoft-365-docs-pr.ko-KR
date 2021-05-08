@@ -5,23 +5,28 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: presharm
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- commerce
-ms.custom: AdminSurgePortfolio
-search.appverid:
-- MET150
+- M365-subscription-management
+- Adm_O365
+ms.custom:
+- AdminSurgePortfolio
+- commerce_purchase
+- PPM_jmueller
+search.appverid: MET150
 description: Microsoft 제품 및 서비스를 구입하는 데 도움이 되는 제안에 대해 자세히 알아보습니다.
 ROBOTS: NOINDEX
-ms.openlocfilehash: b7165db7acd33f9175b6d9d3c86b1f93b2486c43
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.date: 03/17/2021
+ms.openlocfilehash: a3c91168c90b91d83a9aa116c1ff57d103b3c48c
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921807"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280874"
 ---
 # <a name="understand-the-proposal-workflow"></a>제안 워크플로 이해
 
@@ -59,23 +64,18 @@ MCA(Microsoft 고객 계약)를 통해 조직은 Microsoft 제품 및 서비스�
 
 - 제안에 명명된 사람\
     또는
-- 이미 조직의 [Azure Active Directory 전역](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 관리자인 경우
+- 이미 조직의 Azure Active Directory [전역](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 관리자인 경우
 
 ## <a name="what-is-the-overall-workflow"></a>전체 워크플로란?
 
 전체 제안 워크플로는 다음과 같습니다.
 
 - Microsoft 담당자가 제안을 만들고 전자 메일로 링크를 전송합니다.
-
 - 이 링크를 사용하여 제안 로그인 페이지로 이동합니다.
-
 - 조직의 정보를 검토합니다.
-
 - 제안을 검토하고 필요한 경우 MCA를 수락한 다음 체크 아웃 프로세스를 완료합니다.
-
     > [!IMPORTANT]
     > 조직을 대신하여 MCA에 서명할 권한이 있어야 합니다. 해당 권한이 없는 경우 해당 권한이 있는 사용자가 이 단계를 해야 합니다.
-
 - 체크 아웃이 완료되면 제품 및 서비스를 설정할 수 있는 추가 링크가 부여됩니다.
 
 ## <a name="proposal-terms"></a>제안 용어
@@ -86,7 +86,7 @@ MCA(Microsoft 고객 계약)를 통해 조직은 Microsoft 제품 및 서비스�
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 청구 계정 | 계정 설정, 송장, 결제 방법 및 제품을 관리하는 데 사용되는 계정입니다. |
 | 청구 프로필 | 송장에 포함된 항목과 송장 결제 방법을 사용자 지정할 수 있는 조직에 대한 정보입니다. 청구 프로필에는 청구 프로필을 변경하고, 청구서를 지불하고, 제품 및 서비스를 구매할 수 있는 권한, 특정 청구 프로필에 사용되는 결제 방법, 연락처 정보, 송장 설정 및 권한이 포함됩니다. |
-| 기존 계약 | 조직이 Microsoft와 이미 체결한 모든 계약 여기에는 기업계약, Microsoft 제품 & 서비스 계약 또는 Microsoft 고객 계약이 포함되거나 이에 국한되지 않습니다. |
+| 기존 계약 | 조직이 Microsoft와 이미 체결한 모든 계약 여기에는 기업계약, Microsoft 제품 & 서비스 계약 또는 Microsoft 고객 계약이 포함될 수 있지만 이에 국한되지 않습니다. |
 | MCA(Microsoft 고객 계약) | Microsoft와 함께 조직에서 사용하는 계정의 사용 약관을 간략하게 설명하는 계약입니다. |
 | Microsoft 담당자 | 사용자와 조직을 위해 제안을 준비하는 공인 Microsoft 담당자 |
 | 조직 | Microsoft 제품, 기술 또는 서비스를 사용하는 법인 |
@@ -101,7 +101,7 @@ MCA(Microsoft 고객 계약)를 통해 조직은 Microsoft 제품 및 서비스�
 
 조직 **섹션에** 연결된 청구 계정이 표시됩니다. 청구 계정 정보는 기존 청구 계정에서 끌어오거나 Microsoft 담당자가 생성합니다. 조직이 다른 조직의 계열사인 경우 해당 조직의 이름과 주소가 있는 Lead **조직** 섹션도 표시됩니다.
 
-조직에서 처음으로 Microsoft와 상업적 관계를 설정하는 경우 아직 MCA에 서명하지 않은 경우 조직 또는  잠재  고객 조직의 정보가 올바르지 않은 경우 담당자에게 문의하여 변경합니다. MCA를 수락한 후 Microsoft 365 관리 센터의 청구 [](https://go.microsoft.com/fwlink/p/?linkid=2084771) 계정 페이지에서 조직의 주소 및 연락처 정보를 검토하고 변경할 수 있습니다. 조직 이름이 변경되는 경우 서비스 요청을 열어 업데이트합니다. [서비스 요청을 여는 방법 학습](../admin/contact-support-for-business-products.md)
+조직에서 처음으로 Microsoft와 상업적 관계를 설정하는 경우 아직 MCA에 서명하지 않은 경우 조직 또는  잠재  고객 조직의 정보가 올바르지 않은 경우 담당자에게 문의하여 변경합니다. MCA를 수락한 후 Microsoft 365 관리 센터의 청구 계정 페이지에서 조직의 [](https://go.microsoft.com/fwlink/p/?linkid=2084771) 주소 및 연락처 정보를 검토하고 변경할 수 있습니다. 조직 이름이 변경되는 경우 서비스 요청을 열어 업데이트합니다. [서비스 요청을 여는 방법 학습](../business-video/get-help-support.md)
 
 ### <a name="your-information"></a>사용자 정보
 
@@ -155,18 +155,15 @@ MCA에 서명하려면 다음 단계 아래에서 **단추를 선택합니다.**
 이 섹션에는 제안에 포함된 모든 항목의 목록이 표시됩니다. 목록에는 다음 범주 중 하나 이상이 포함됩니다.
 
 - **추가 용어** 조직에 대한 용어가 포함된 MCA에 대한 모든 수정 목록입니다. 예를 들어 이 목록에 HIPAA 또는 GDPR 용어가 포함되어 있을 수 있습니다.
-
 - **지금 구매** 제안 수락 워크플로가 끝날 때 체크 아웃하는 동안 지불하는 항목 목록입니다.
-
 - **할인(향후 요금에 적용)** 제안의 일부로 받는 할인 목록입니다.
-
 - **포함** 추가 비용 없는 제안 패키지의 일부로 포함된 항목 목록입니다. 이러한 항목 중 일부는 향후 이러한 항목과 관련이 있을 수 있습니다.
 
 ### <a name="summary"></a>요약
 
 이 섹션에는 지급되는 항목 수, 부분계산, 예상 세금 및 주문의 총 금액이 표시됩니다.
 
-주문하려면 주문 주문  또는 계약서 수락을 & **주문합니다.**
+주문하려면 주문 주문 **또는** 계약서 주문 **&amp; 수락을 선택합니다.**
 
 주문한 후 다음 단계로 확인을 받게 됩니다. Azure 플랜을 구입한 경우 다음 단계는 Azure Portal에서 청구 계정을 설정하는 것입니다.
 
@@ -174,7 +171,7 @@ MCA에 서명하려면 다음 단계 아래에서 **단추를 선택합니다.**
 
 새 고객이 제안의 일부로 Azure 제품을 구입한 경우 다음 단계는 새 청구 계정을 설정하는 것입니다. 자세한 내용은 Microsoft 고객 계약에 대한 청구 [계정 설정 을 참조하세요.](/azure/cost-management-billing/manage/mca-setup-account)
 
-기존 Azure 고객인 경우 기업계약 처음으로 MCA에 서명하는 경우 다음 단계는 계약 간의 변경 내용과 새 청구 계정으로 작업을 완료하는 방법을 알아보는 것입니다. 자세한 내용은 Microsoft 고객 계약에 대한 기업계약 계정의 작업 [완료를 참조하세요.](/azure/cost-management-billing/manage/mca-enterprise-operations)
+기존 Azure 고객인 경우 기업계약 처음으로 MCA에 서명하는 경우 다음 단계는 계약 간의 변경 내용과 새 청구 계정으로 작업을 완료하는 방법을 알아보는 것입니다. 자세한 내용은 Microsoft 고객 계약에 기업계약 계정의 작업 [완료를 참조하세요.](/azure/cost-management-billing/manage/mca-enterprise-operations)
 
 ## <a name="understand-invoicing"></a>인보이스 이해
 

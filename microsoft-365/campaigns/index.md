@@ -24,18 +24,18 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: 소규모 기업, 일정 및 정치 캠페인을 포함한 소규모 기업을 위한 Microsoft 365 보안 및 공동 작업 권장 사항입니다.
-ms.openlocfilehash: 621ebe483683f68ccb9332f9c8b2802bd9b98867
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+description: 소규모 기업, 일정 및 정치 캠페인을 포함한 소규모 기업을 위한 Microsoft 365 Business Premium 보안 및 공동 작업 권장 사항입니다.
+ms.openlocfilehash: 6c836f5abb118bb3902ecdfaa37acd759faca1fe
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52100786"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245031"
 ---
 <a name="microsoft-365-for-smaller-businesses-and-campaigns"></a>소규모 기업 및 캠페인을 위한 Microsoft 365
 ===========================
 
-현 세계에서는 특히 정치 캠페인, 의료 및 법률 관행, 기타 많은 소규모 비즈니스에서 데이터와 통신의 보안을 유지하는 것이 최우선 과제입니다. 솔루션은 사용자와 데이터를 보호하기 위해 설계된 권장 사항 집합과 함께 제공됩니다. 이 라이브러리에는 비즈니스 유형에 상관없이 이 권장 환경을 설정하고 사용하는 데 도움이 있습니다.
+Microsoft 365 Business Premium이 있는 경우 이 라이브러리의 지침은 보안을 설정하고 안전하게 공동 작업을 시작하는 가장 빠른 방법입니다. 현 세계에서는 특히 정치 캠페인, 의료 및 법률 관행, 기타 많은 소규모 비즈니스에서 데이터와 통신의 보안을 유지하는 것이 최우선 과제입니다. 솔루션은 사용자와 데이터를 보호하기 위해 설계된 권장 사항 집합과 함께 제공됩니다. 이 라이브러리에는 비즈니스 유형에 상관없이 이 권장 환경을 설정하고 사용하는 데 도움이 있습니다.
 
 
 ![Microsoft 365 Business Premium은 생산성 도구, 공동 작업 도구, 파일 저장소, 전자 메일, 장치 및 ID를 보호합니다.](../media/M365-WhatIsIt-SecurityFocus.png)

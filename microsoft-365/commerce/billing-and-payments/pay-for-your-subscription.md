@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,21 +13,21 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-search.appverid:
-- MET150
-ms.assetid: 734f4aab-df2d-4e9b-8cb1-691910bde216
+search.appverid: MET150
 description: 비즈니스용 Microsoft 365 구독 결제에 사용할 수 있는 결제 옵션을 알아봅니다.
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
-- commerce
-ms.openlocfilehash: 65454dcc71645b370d2ebfc875474151c0954a3c
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+- commerce_billing
+- PPM_jmueller
+ms.date: 05/04/2021
+ms.openlocfilehash: 85fdcc0aca52b91ed34b1729f6eea805cce37ade
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245007"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280586"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>구독 결제 방법
 
@@ -89,6 +90,7 @@ ms.locfileid: "52245007"
  **아래 드롭다운 메뉴에서 “청구지” 국가 또는 지역을 선택합니다.**
 
 > [!div class="op_single_selector"]
+>
 > - **국가 또는 지역 선택**
 > - [아프가니스탄](../pay/afghanistan.md)
 > - [알바니아](../pay/albania.md)
@@ -254,7 +256,7 @@ ms.locfileid: "52245007"
 
 송장 결제에서 다른 결제 방법으로 자동 변경할 수 없습니다. 대신 신용 카드 또는 직불 카드 또는 은행 계좌로 결제된 [다른 구독을 구입](../try-or-buy-microsoft-365.md#buy-a-different-subscription)하고 [모든 사용자를 새 구독으로 이동](../subscriptions/move-users-different-subscription.md)한 다음 [이전 구독을 취소](../subscriptions/cancel-your-subscription.md)해야 합니다.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
 [결제 방법 관리](manage-payment-methods.md)(문서)\
 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)(문서)\

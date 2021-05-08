@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,19 +13,20 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-search.appverid:
-- MET150
+search.appverid: MET150
 description: 청구 프로필을 사용하여 구독 비용을 결제하는 데 사용할 수 있는 결제 방법을 알아보세요.
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-- commerce
-ms.openlocfilehash: be89c2d355202dd8ca8698ac735cbb384bb8ef06
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+- commerce_billing
+- PPM_jmueller
+ms.date: 04/02/2021
+ms.openlocfilehash: 00c1fdca0f1ba227dcd10dffb7c46b03618593e7
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579773"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280862"
 ---
 # <a name="how-to-pay-for-your-subscription-with-a-billing-profile"></a>청구 프로필을 사용하여 구독 비용을 결제하는 방법
 
@@ -62,6 +64,7 @@ ms.locfileid: "51579773"
  **아래 드롭다운 메뉴에서 “청구지” 국가 또는 지역을 선택합니다.**
 
 > [!div class="op_single_selector"]
+>
 > - **국가 또는 지역 선택**
 > - [아프가니스탄](../pay/afghanistan.md)
 > - [알바니아](../pay/albania.md)
@@ -217,7 +220,7 @@ ms.locfileid: "51579773"
 
 ## <a name="can-i-pay-my-invoice-online"></a>온라인으로 송장을 결제할 수 있나요?
 
-청구 프로필에 대해 재발급 청구가 꺼져 있는 경우 신용 카드를 사용하여 온라인으로 송장을 결제할 수 있습니다. 결제하려면 Microsoft 365 관리 센터의 송장에서 지금 결제 단추를 사용하세요.  송장을 찾으면 청구서 또는 [송장 보기를 참조합니다.](view-your-bill-or-invoice.md)
+청구 프로필에 대해 재발급 청구가 꺼져 있는 경우 신용 카드를 사용하여 온라인으로 송장을 결제할 수 있습니다. 결제하려면 Microsoft 365 관리  센터의 송장에 지금 결제 단추를 사용하세요. 송장을 찾으면 청구서 또는 [송장 보기를 참조합니다.](view-your-bill-or-invoice.md)
 
 ## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>내 현재 결제 방법에서 송장으로 결제로 변경할 수 있나요?
 

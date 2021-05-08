@@ -1,38 +1,39 @@
 ---
-title: Microsoft Defender 바이러스 백신 클라우드 차단 제한 시간 구성
-description: 클라우드 확인을 기다리는 동안 Microsoft Defender 바이러스 백신에서 파일이 실행되지 못하도록 차단하는 기간을 구성할 수 있습니다.
+title: 클라우드 Microsoft Defender 바이러스 백신 제한 시간 구성
+description: 클라우드 결정이 Microsoft Defender 바이러스 백신 동안 파일이 실행되지 못하도록 차단하는 기간을 구성할 수 있습니다.
 keywords: Microsoft Defender 바이러스 백신, 맬웨어 방지, 보안, defender, 클라우드, 시간 제한, 차단, 기간, 초
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 372d679f45d6f87392b612f757e6bdf1c6c6b9ad
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 02b8ee1c73116718d771847a43d6334e0723bd5c
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765806"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275313"
 ---
-# <a name="configure-the-cloud-block-timeout-period"></a>클라우드 차단 시간 제한 기간 구성
+# <a name="configure-the-cloud-block-timeout-period"></a>클라우드 차단 제한 시간 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
-Microsoft Defender 바이러스 백신이 의심스러운 파일을 발견하면 Microsoft Defender 바이러스 백신 클라우드 서비스를 쿼리하는 동안 파일이 실행되지 [않도록 할 수 있습니다.](cloud-protection-microsoft-defender-antivirus.md)
+사용자가 Microsoft Defender 바이러스 백신 파일을 찾은 경우 클라우드 서비스 에 쿼리하는 동안 파일이 [실행되지 Microsoft Defender 바이러스 백신 있습니다.](cloud-protection-microsoft-defender-antivirus.md)
 
-파일이 차단될 기본 기간은 10초입니다. [](configure-block-at-first-sight-microsoft-defender-antivirus.md) 파일을 실행할 수 있도록 허용되기 전에 대기할 시간을 추가로 지정할 수 있습니다. 이를 통해 Microsoft Defender 바이러스 백신 클라우드 서비스에서 적절한 확인을 받을 충분한 시간을 확보할 수 있습니다.
+파일이 차단될 기본 기간은 10초입니다. [](configure-block-at-first-sight-microsoft-defender-antivirus.md) 파일을 실행할 수 있도록 허용되기 전에 대기할 시간을 추가로 지정할 수 있습니다. 이렇게 하면 클라우드 서비스에서 적절한 확인을 받을 충분한 시간이 Microsoft Defender 바이러스 백신 수 있습니다.
 
 ## <a name="prerequisites-to-use-the-extended-cloud-block-timeout"></a>확장된 클라우드 차단 시간 제한을 사용하기 위한 선행 준비
 
@@ -46,7 +47,7 @@ Microsoft Defender 바이러스 백신이 의심스러운 파일을 발견하면
 
 2. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동하여** 관리 템플릿 **을 클릭합니다.**
 
-3. **Microsoft Defender** 바이러스 백신 > Windows 구성 > 확장
+3. **트리를** 확장하여 Windows 구성 > Microsoft Defender 바이러스 백신 > 확장
 
 4. 확장된 클라우드 확인 구성을 두 **번 클릭하고** 옵션이 사용하도록 설정되어 있는지 확인합니다. 클라우드 확인을 기다리는 동안 파일이 실행되지 않도록 추가 시간을 지정합니다. 추가 시간을 초당 1초에서 50초로 지정할 수 있습니다. 이 시간은 기본값인 10초에 추가됩니다.
 
@@ -54,7 +55,7 @@ Microsoft Defender 바이러스 백신이 의심스러운 파일을 발견하면
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
+- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)
 - [클라우드 제공 보호를 통해 차세대 바이러스 백신 기술 사용](cloud-protection-microsoft-defender-antivirus.md)
 - [최초 차단 구성](configure-block-at-first-sight-microsoft-defender-antivirus.md)
 - [클라우드 제공 보호 사용](enable-cloud-protection-microsoft-defender-antivirus.md)

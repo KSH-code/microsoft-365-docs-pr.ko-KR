@@ -3,6 +3,7 @@ title: Microsoft HUP(가정 사용 프로그램) 질문과 대답(FAQ)
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: tugu
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -10,21 +11,24 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
+- commerce_subscriptions
+- PPM_jmueller
+search.appverid: MET150
 description: 요구에 대한 FAQ(질문과 대답)Microsoft HUP(가정 사용 프로그램).
-ms.openlocfilehash: e4940460501da94960cb82eb311a1d1d6470cc63
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.date: 05/01/2021
+ms.openlocfilehash: 5f10e5fb313ec7b48605975a7e03f262fd742801
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244699"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280814"
 ---
 # <a name="microsoft-home-use-program-frequently-asked-questions-faq"></a>Microsoft HUP(가정 사용 프로그램) 질문과 대답(FAQ)
 
-볼륨 라이선스 고객은 Microsoft HUP(가정 사용 프로그램) 웹 사이트에서 [HUP(비즈니스용 Microsoft Store)를 사용 합니다.](https://go.microsoft.com/fwlink/?linkid=2139192) 
+볼륨 라이선스 고객은 Microsoft HUP(가정 사용 프로그램) 웹 사이트에서 [HUP(비즈니스용 Microsoft Store)를 사용 합니다.](https://go.microsoft.com/fwlink/?linkid=2139192)
 
 다른 모든 고객은 다음 단계를 사용하여 HUP에 액세스합니다.
 
@@ -46,12 +50,9 @@ HUP(Microsoft HUP(가정 사용 프로그램))를 사용하면 적격 회사 직
 
 직원은 Microsoft HUP(가정 사용 프로그램) 할인을 활용하려면 유효한 회사 전자 메일 주소와 활성 Microsoft 계정이 필요하며 조직은 다음 기준 중 하나를 충족해야 합니다.
 
-- 적격 인증 응용 프로그램에 대해 Software Assurance를 Office 고객 
-
+- 적격 인증 응용 프로그램에 대해 Software Assurance를 Office 고객
 - Software Assurance에서 Microsoft 365/Microsoft 365 E3/E5를 다운로드한 고객
-
 - 1개 또는 ≥ 2,000개 라이선스 또는 Microsoft 365 E3/E5를 구입한 상업 및 정부 고객
-
 - 교육 및 비영리 고객
 
 ## <a name="why-do-i-have-to-create-an-azure-active-directory-aad-account-to-use-the-home-use-program-microsoft-store-for-business"></a>AAD(Home Use Program/ Azure Active Directory) 계정을 만들어야 하는 비즈니스용 Microsoft Store?
@@ -73,11 +74,8 @@ HUP(Microsoft HUP(가정 사용 프로그램))를 사용하면 적격 회사 직
 ## <a name="what-are-the-steps-for-an-eligible-employee-to-make-a-microsoft-home-use-program-purchase"></a>적격 직원에게 구매할 수 있는 단계는 Microsoft HUP(가정 사용 프로그램) 있나요?
 
 1. **등록** Microsoft HUP(가정 사용 프로그램) [페이지로 이동하고](https://www.microsoft.com/home-use-program)시작 선택합니다. 직원은 회사 전자 메일 주소를 입력합니다.
-
 2. **확인**  프로그램에 대한 자격을 인증하는 링크가 있는 전자 메일이 회사 전자 메일 주소 받은 편지함으로 전송됩니다.
-
 3. **로그인** 인증된 사용자는 개인 전자 메일 주소와 연결된 Microsoft 계정을 제공하여 구매 프로세스를 시작하여 조직의 홈 사용 프로그램 혜택에 따라 사용 가능한 제품에 대한 할인을 볼 수 있습니다. 자세한 내용은 Microsoft 계정에 [로그인하는 방법을 참조하세요.](https://support.microsoft.com/help/4028195/microsoft-account-sign-in)
-
 4. **쇼핑** 구매는 주문서에서 처리 및 Microsoft Store.
 
 ## <a name="if-an-employee-subscribes-to-microsoft-365-through-the-microsoft-home-use-program-how-does-this-impact-our-organizations-microsoft-365-business-subscription-and-device-limit"></a>직원이 Microsoft 365 구독하는 경우 Microsoft HUP(가정 사용 프로그램) 비즈니스 구독 및 장치 제한에 Microsoft 365 영향을 미치나요?
@@ -105,23 +103,15 @@ HUP(Microsoft HUP(가정 사용 프로그램))를 사용하면 적격 회사 직
  기술 문제에 대한 도움말은 Microsoft 지원을 [참조합니다.](https://support.microsoft.com/) 다음에 대한 도움말을 찾을 수 있습니다.
 
 - 주문 상태
-
 - 청구
-
 - 설치 Office
-
 - 로그인한 Office
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 구독 .](https://www.microsoft.com/home-use-program/) (링크 페이지)
-
-[Microsoft 볼륨 라이선스 서비스 센터(링크](https://www.microsoft.com/Licensing/servicecenter/default.aspx?wa=wsignin1.0) 페이지)
-
-[비즈니스용 Microsoft Store 관리자 지원(링크](/microsoft-store/) 페이지)
-
-[비즈니스용 Microsoft Store(링크](https://go.microsoft.com/fwlink/?linkid=2139192) 페이지)
-
-[홈 사용 프로그램 직원 저장소(링크](https://www.microsoft.com/home-use-program) 페이지)
-
+[Microsoft 365 구독 .](https://www.microsoft.com/home-use-program/) (링크 페이지)\
+[Microsoft 볼륨 라이선스 서비스 센터(링크](https://www.microsoft.com/Licensing/servicecenter/default.aspx?wa=wsignin1.0) 페이지)\
+[비즈니스용 Microsoft Store 관리자 지원(링크](/microsoft-store/) 페이지)\
+[비즈니스용 Microsoft Store(링크](https://go.microsoft.com/fwlink/?linkid=2139192) 페이지)\
+[홈 사용 프로그램 직원 저장소(링크](https://www.microsoft.com/home-use-program) 페이지)\
 [Microsoft 라이선스: 홈 사용 프로그램 개요(링크](https://www.microsoft.com/licensing/licensing-programs/software-assurance-by-benefits?activetab=software-assurance-by-benefits-tab:primaryr4) 페이지)

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Teams에 적용되는 보존 정책에 대해 자세히 알아보기
-ms.openlocfilehash: b7bc84307f0db580995e039618cb01d25d6ecd66
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: db167894f32bcc1e30054b9cc4738af300b6d704
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932861"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280802"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Microsoft Teams의 보존에 대해 알아보기
 
@@ -163,13 +163,13 @@ Teams 채팅 및 채널 메시지의 이 데이터가 사서함에 저장되어 
 
 사용자가 메시지를 편집하거나 삭제하지 않은 경우 보존 결과의 예:
 
-- 5일(일반적으로 3일 보존 기간이 시작된 후 1~7일):
+- 5일(일반적으로 2일 보존 기간이 시작된 후 1~7일):
     - 메시지는 이 폴더로 이동하며 eDiscovery 도구로 검색할 수 있는 최소 1일 동안 이 폴더에 남아 있습니다.
 
 - 9일(일반적으로 SubstrateHolds 폴더에서 최소 1일 이후부터 1~7일):
     - 메시지가 영구적으로 삭제된 후 eDiscovery 검색에서 반환되지 않습니다.
 
-이 예제에서 볼 수 있는처럼, 하루만에 메시지를 삭제하도록 보존 정책을 구성할 수 있습니다. 그러나 이 서비스는 규정 준수 삭제를 보장하기 위해 여러 프로세스를 진행합니다. 결과적으로 1일 후 삭제 작업은 메시지가 영구적으로 삭제되기 까지 18일이 걸릴 수 있으므로 eDiscovery 검색에서 더 이상 반환되지 않습니다.
+이 예제에서 볼 수 있는처럼, 하루만에 메시지를 삭제하도록 보존 정책을 구성할 수 있습니다. 그러나 이 서비스는 규정 준수 삭제를 보장하기 위해 여러 프로세스를 진행합니다. 결과적으로 1일 후 삭제 작업은 메시지가 영구적으로 삭제되기 까지 16일이 걸릴 수 있으므로 eDiscovery 검색에서 더 이상 반환되지 않습니다.
 
 ## <a name="skype-for-business-and-teams-interop-chats"></a>비즈니스용 Skype 및 팀 상호 운용 채팅
 
@@ -197,7 +197,7 @@ Exchange Online에 사서함이 있는 사용자가 조직을 떠나 Microsoft 3
 
 ## <a name="limitations"></a>제한 사항
 
-Microsoft는 Teams에서 보존 기능을 최적화하기 위해 지속적으로 노력하고 있습니다. 그 동안에는 Teams 채널 메시지 및 채팅에 보존 정책을 사용하는 경우 다음 제한 사항을 유의하세요.
+Teams에서 보존 기능을 최적화하기 위해 지속적으로 작업하고 있습니다. 그 동안에는 Teams 채널 메시지 및 채팅에 보존 정책을 사용하는 경우 다음 제한 사항을 유의하세요.
 
 - **Outlook에서 잘못된 표시 문제가 발생했습니다**. Skype 또는 Teams 위치에 대한 보존 정책을 만드는 경우 사용자가 Outlook 데스크톱 클라이언트에서 사서함 폴더의 속성을 볼 때 해당 정책 중 하나가 기본 폴더 정책으로 표시됩니다. 이것은 Outlook의 잘못된 표시 문제이며 [알려진 문제](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies)입니다. 대신 폴더에 적용되는 사서함 보존 정책이 표시됩니다. Skype 또는 Teams 보존 정책은 사용자의 사서함에 적용되지 않습니다.
 

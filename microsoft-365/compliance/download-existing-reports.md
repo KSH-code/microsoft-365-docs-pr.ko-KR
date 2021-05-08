@@ -2,8 +2,8 @@
 title: 보안 및 준수 센터에서 기존 &amp; 보고서 다운로드
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: siosulli
+author: siosulli
 manager: dansimp
 ms.date: 06/01/2018
 audience: ITPro
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1372da29-f3ab-49d7-8c02-eb9305bb5fd8
 description: 보안 및 준수 센터에서 하나 이상의 기존 보고서를 다운로드하는 &amp; 방법을 학습합니다.
-ms.openlocfilehash: d912f96037727b6a152ee43133e82b625ef3e04f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: e9d3b47938f7397f5cfd5b4333800a4f4cf4f823
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198685"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275231"
 ---
 # <a name="download-existing-reports-in-the-security-amp-compliance-center"></a>보안 및 준수 센터에서 기존 &amp; 보고서 다운로드
 

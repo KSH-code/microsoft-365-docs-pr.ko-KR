@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)의 모든 사용자에 대해 분리된 메시지를 보고 관리하는 방법을 배울 수 있습니다. Office 365용 Microsoft Defender를 사용하여 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams에서 분리된 파일을 관리할 수도 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7dc7fd26d7a81bc76850af4799363c8d17fc1c83
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: c5e2d6a3729a24766652d4c7c0973c63b1dcb207
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599538"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52272207"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
@@ -74,7 +74,7 @@ Office 365용 Microsoft Defender를 사용하여 조직의 관리자는 SharePoi
 
 1. 보안 및 준수 센터에서 **위협 관리** \> **검토** \> **격리** 로 이동합니다.
 
-2. View **quarantined가** 기본값 전자 메일로 설정되어 있는지 **확인**
+2. **격리된 항목 보기** 가 기본값 **전자 메일** 로 설정되었는지 확인합니다.
 
 3. 사용 가능한 열 헤더를 클릭하여 결과를 정렬할 수 있습니다. **열 수정** 을 클릭하여 최대 7개의 열을 표시합니다. 기본값은 별표(<sup>\*</sup>)로 표시됩니다.
 
@@ -196,7 +196,7 @@ Office 365용 Microsoft Defender를 사용하여 조직의 관리자는 SharePoi
 
 - **메시지 다운로드하기**: 표시되는 플라이아웃 창에서 **이 메시지를 다운로드하는 데 따르는 위험을 알고 있습니다.** 를 선택하여 메시지의 로컬 복사본을 .eml 형식으로 저장합니다.
 
-- **보낸 사람** 차단 : 보낸 사람이 조직의 받는 사람에게 메시지를 보낼 수 없습니다.
+- **보낸 사람 차단**: 사서함의 수신 차단된 보낸 사람 목록에 보낸 사람 추가 자세한 내용은 메일 보낸 [사람 차단을 참조하세요.](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)
 
 - **메시지 제출:** 플라이아웃 창이 나타나면 다음 옵션을 선택합니다.
 

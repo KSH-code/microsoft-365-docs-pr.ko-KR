@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -16,16 +17,17 @@ ms.collection:
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
-- Commerce
-search.appverid:
-- MET150
+- commerce_billing
+- PPM_jmueller
+search.appverid: MET150
 description: 청구 프로필에서 송장을 지원하는 방법을 알아보세요.
-ms.openlocfilehash: 7f4c0aed1bccd0e5df5b09e15e6201933e937993
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.date: 04/02/2021
+ms.openlocfilehash: 57786df370246c2b4fda556a9c48eb828db1cb4f
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576952"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280790"
 ---
 # <a name="understand-billing-profiles"></a>청구 프로필 이해하기
 
@@ -47,32 +49,28 @@ Microsoft에서 제품 및 서비스를 구입하는 상용 고객의 경우 청
 
 청구 프로필의 역할에는 구매를 제어하고 송장을 보고 관리할 수 있는 권한이 있습니다. 조직의 조달 팀 구성원과 같은 송장을 추적, 구성 및 지불하는 사용자에게 이러한 역할을 할당합니다.
 
-| 역할                          | 설명                                                                       |
-|-----------------------------  |---------------------------------------------------------------------------------  |
-| 청구 프로필 소유자         | 청구 프로필에 대한 모든 정보 관리                                           |
-| 청구 프로필 참가자   | 청구 프로필의 사용 권한을 제외한 모든 정보 관리                         |
-| 청구 프로필 판독기        | 청구 프로필의 모든 내용을 읽기 전용으로 볼 수 있습니다.                                 |
-| 송장 관리자               | 청구서 보기 및 결제 및 청구 프로필의 모든 내용을 읽기 전용으로 볼 수 있습니다.   |
+| 역할                         | 설명                                                                      |
+|----------------------------- |--------------------------------------------------------------------------------- |
+| 청구 프로필 소유자        | 청구 프로필에 대한 모든 정보 관리                                          |
+| 청구 프로필 참가자  | 청구 프로필의 사용 권한을 제외한 모든 정보 관리                        |
+| 청구 프로필 판독기       | 청구 프로필의 모든 내용을 읽기 전용으로 볼 수 있습니다.                                |
+| 송장 관리자              | 청구서 보기 및 결제 및 청구 프로필의 모든 내용을 읽기 전용으로 볼 수 있습니다.  |
 
 ## <a name="view-billing-profiles"></a>청구 프로필 보기
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">청구서 및 결제</a> 페이지로 이동하십시오.
-
 2. 청구 **프로필 을 선택한** 다음 목록에서 청구 프로필을 선택합니다.
 
     - 개요 **탭에서** 청구 프로필 세부 정보를 편집하고 전자 메일로 송장 보내기를 설정하거나 해제할 수 있습니다.
-
     - 사용 **권한 탭에서** 사용자에게 송장 결제 역할을 할당할 수 있습니다.
-
     - Azure **신용 잔액** 탭에서 Azure 고객은 해당 청구 프로필에서 사용하는 Azure 크레딧에 대한 거래 잔액 기록을 볼 수 있습니다.
-
     - Azure **크레딧 탭에서 Azure** 고객은 해당 청구 프로필과 연결된 Azure 크레딧 목록과 만료 날짜를 볼 수 있습니다.
 
     > [!NOTE]
     > Azure 크레딧이 없는 경우 Azure 크레딧 잔액 또는 **Azure** 크레딧 탭이 **표시되지** 않습니다.
 
-## <a name="need-help-contact-support"></a>도움이 필요하신가요? 고객 지원에 문의하세요.
+## <a name="need-help-contact-support"></a>도움이 필요하신가요? 지원 센터 문의
 
 질문이 있는 경우 또는 Azure 요금에 대한 도움이 필요한 경우 Azure 지원으로 지원 <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">요청을 만드하세요.</a>
 
-Microsoft 365 관리 센터에서 청구 프로필에 대한 도움이 필요하거나 질문이 있는 경우 비즈니스 제품에 대한 [지원에 문의하세요.](/office365/admin/contact-support-for-business-products)
+Microsoft 365 관리 센터에서 청구 프로필에 대한 도움이 필요한 경우 비즈니스 제품에 대한 Microsoft 365 [문의하세요.](../../business-video/get-help-support.md)
