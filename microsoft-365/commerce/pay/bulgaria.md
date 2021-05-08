@@ -8,28 +8,28 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 26abfcd3b5c90da469eb29da8b631e8f7c997ad1
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 5b2bbc2a96543c432a1bd756621171ccfca26eb5
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50551827"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274091"
 ---
-# <a name="payment-information-for-bulgaria"></a><span data-ttu-id="0f3ee-103">불가리아의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="0f3ee-103">Payment information for Bulgaria</span></span>
+# <a name="payment-information-for-bulgaria"></a><span data-ttu-id="38d91-103">불가리아의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="38d91-103">Payment information for Bulgaria</span></span>
 
-<span data-ttu-id="0f3ee-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="0f3ee-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="38d91-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="38d91-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="0f3ee-105">EUR로만 결제하고 송장 번호를 송장 번호를 송금합니다.</span><span class="sxs-lookup"><span data-stu-id="0f3ee-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="38d91-105">EUR로만 결제하고 송장 번호를 송장 번호를 송금합니다.</span><span class="sxs-lookup"><span data-stu-id="38d91-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="0f3ee-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="0f3ee-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="38d91-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="38d91-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="0f3ee-107">**은행:** Citibank, London</span><span class="sxs-lookup"><span data-stu-id="0f3ee-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="0f3ee-108">**Swift Code/BIC:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="0f3ee-108">**Swift Code/BIC:** CITIGB2L</span></span>  
-<span data-ttu-id="0f3ee-109">**IBAN:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="0f3ee-109">**IBAN:** GB31CITI18500812207591</span></span>  
-<span data-ttu-id="0f3ee-110">**SORT 코드:** 185008</span><span class="sxs-lookup"><span data-stu-id="0f3ee-110">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="0f3ee-111">**계정 번호:** 12207591</span><span class="sxs-lookup"><span data-stu-id="0f3ee-111">**Account Number:** 12207591</span></span>  
-<span data-ttu-id="0f3ee-112">**계정 이름:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="0f3ee-112">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="38d91-107">**은행:** Citibank, London</span><span class="sxs-lookup"><span data-stu-id="38d91-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="38d91-108">**Swift Code/BIC:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="38d91-108">**Swift Code/BIC:** CITIGB2L</span></span>  
+<span data-ttu-id="38d91-109">**IBAN:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="38d91-109">**IBAN:** GB31CITI18500812207591</span></span>  
+<span data-ttu-id="38d91-110">**SORT 코드:** 185008</span><span class="sxs-lookup"><span data-stu-id="38d91-110">**SORT Code:** 185008</span></span>  
+<span data-ttu-id="38d91-111">**계정 번호:** 12207591</span><span class="sxs-lookup"><span data-stu-id="38d91-111">**Account Number:** 12207591</span></span>  
+<span data-ttu-id="38d91-112">**계정 이름:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="38d91-112">**Account Name:** MICROSOFT</span></span>  

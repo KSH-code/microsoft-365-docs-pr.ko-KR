@@ -8,28 +8,28 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dcab44878f1627f17a20859f92eec2964ee0b4a8
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: b78d21ca75f2d1581a13d642a5d2ce201267fd1e
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50550963"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52273635"
 ---
-# <a name="payment-information-for-hong-kong"></a><span data-ttu-id="85f9f-103">홍콩 결제 정보</span><span class="sxs-lookup"><span data-stu-id="85f9f-103">Payment information for Hong Kong</span></span>
+# <a name="payment-information-for-hong-kong"></a><span data-ttu-id="04ce0-103">홍콩 결제 정보</span><span class="sxs-lookup"><span data-stu-id="04ce0-103">Payment information for Hong Kong</span></span>
 
-<span data-ttu-id="85f9f-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="85f9f-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="04ce0-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="04ce0-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="85f9f-105">송장 및 송장 송장 번호 참조에 대한 결제 지침을 따르세요.</span><span class="sxs-lookup"><span data-stu-id="85f9f-105">Please follow payment instructions on your invoice and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="04ce0-105">송장 및 송장 송장 번호 참조에 대한 결제 지침을 따르세요.</span><span class="sxs-lookup"><span data-stu-id="04ce0-105">Please follow payment instructions on your invoice and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="85f9f-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="85f9f-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="04ce0-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="04ce0-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="85f9f-107">**은행:** HSBC, 홍콩</span><span class="sxs-lookup"><span data-stu-id="85f9f-107">**Bank:** HSBC, Hong Kong</span></span>  
-<span data-ttu-id="85f9f-108">**은행 코드:** 004</span><span class="sxs-lookup"><span data-stu-id="85f9f-108">**Bank Code:** 004</span></span>  
-<span data-ttu-id="85f9f-109">**분기 코드:** 848</span><span class="sxs-lookup"><span data-stu-id="85f9f-109">**Branch Code:** 848</span></span>  
-<span data-ttu-id="85f9f-110">**SWIFT 코드:** HSBCHKHH</span><span class="sxs-lookup"><span data-stu-id="85f9f-110">**SWIFT Code:** HSBCHKHH</span></span>  
-<span data-ttu-id="85f9f-111">**계정 번호:** 848342259001</span><span class="sxs-lookup"><span data-stu-id="85f9f-111">**Account Number:** 848342259001</span></span>    
-<span data-ttu-id="85f9f-112">**계정 이름:** Microsoft Payments Pte Ltd-Payco Invoice</span><span class="sxs-lookup"><span data-stu-id="85f9f-112">**Account Name:** Microsoft Payments Pte Ltd-Payco Invoice</span></span>
+<span data-ttu-id="04ce0-107">**은행:** HSBC, 홍콩</span><span class="sxs-lookup"><span data-stu-id="04ce0-107">**Bank:** HSBC, Hong Kong</span></span>  
+<span data-ttu-id="04ce0-108">**은행 코드:** 004</span><span class="sxs-lookup"><span data-stu-id="04ce0-108">**Bank Code:** 004</span></span>  
+<span data-ttu-id="04ce0-109">**분기 코드:** 848</span><span class="sxs-lookup"><span data-stu-id="04ce0-109">**Branch Code:** 848</span></span>  
+<span data-ttu-id="04ce0-110">**SWIFT 코드:** HSBCHKHH</span><span class="sxs-lookup"><span data-stu-id="04ce0-110">**SWIFT Code:** HSBCHKHH</span></span>  
+<span data-ttu-id="04ce0-111">**계정 번호:** 848342259001</span><span class="sxs-lookup"><span data-stu-id="04ce0-111">**Account Number:** 848342259001</span></span>    
+<span data-ttu-id="04ce0-112">**계정 이름:** Microsoft Payments Pte Ltd-Payco Invoice</span><span class="sxs-lookup"><span data-stu-id="04ce0-112">**Account Name:** Microsoft Payments Pte Ltd-Payco Invoice</span></span>

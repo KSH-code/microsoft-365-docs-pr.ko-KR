@@ -8,27 +8,27 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a88a86b3618ba84c8f1579646c07adaa1ce04608
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 5c4c57f0d0bcbcb7583087ca9e943b029709d6ea
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50551047"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52273683"
 ---
-# <a name="payment-information-for-guatemala"></a><span data-ttu-id="2cc1c-103">과테말라의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="2cc1c-103">Payment information for Guatemala</span></span>
+# <a name="payment-information-for-guatemala"></a><span data-ttu-id="cc7dc-103">과테말라의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="cc7dc-103">Payment information for Guatemala</span></span>
 
-<span data-ttu-id="2cc1c-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="2cc1c-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="cc7dc-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="cc7dc-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="2cc1c-105">미화로만 결제하고 송장 번호를 송장 번호로 결제하십시오.</span><span class="sxs-lookup"><span data-stu-id="2cc1c-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="cc7dc-105">미화로만 결제하고 송장 번호를 송장 번호로 결제하십시오.</span><span class="sxs-lookup"><span data-stu-id="cc7dc-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="2cc1c-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="2cc1c-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="cc7dc-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="cc7dc-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="2cc1c-107">**은행:** 뱅크 of America</span><span class="sxs-lookup"><span data-stu-id="2cc1c-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="2cc1c-108">**Branch:** 달라</span><span class="sxs-lookup"><span data-stu-id="2cc1c-108">**Branch:** Dallas</span></span>  
-<span data-ttu-id="2cc1c-109">**SWIFT 코드:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="2cc1c-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="2cc1c-110">**계정 번호:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="2cc1c-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="2cc1c-111">**계정 이름:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="2cc1c-111">**Account Name:** Microsoft</span></span>  
+<span data-ttu-id="cc7dc-107">**은행:** 뱅크 of America</span><span class="sxs-lookup"><span data-stu-id="cc7dc-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="cc7dc-108">**Branch:** 달라</span><span class="sxs-lookup"><span data-stu-id="cc7dc-108">**Branch:** Dallas</span></span>  
+<span data-ttu-id="cc7dc-109">**SWIFT 코드:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="cc7dc-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="cc7dc-110">**계정 번호:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="cc7dc-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="cc7dc-111">**계정 이름:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="cc7dc-111">**Account Name:** Microsoft</span></span>  
