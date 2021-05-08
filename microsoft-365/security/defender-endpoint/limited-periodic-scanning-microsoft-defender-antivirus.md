@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,12 +14,13 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 82c4bc1feec1556dc864558a843ed5e911c3ef3d
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: b2ae56c0f67501eb8603d5d28c4ed0c4af01a8c9
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764486"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274601"
 ---
 # <a name="use-limited-periodic-scanning-in-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신에서 제한된 주기적 검사 사용
 
@@ -28,7 +29,7 @@ ms.locfileid: "51764486"
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 제한된 주기적 검사는 Windows 10 장치에 다른 바이러스 백신 제품을 설치할 때 사용할 수 있는 특수한 유형의 위협 감지 및 수정입니다.
 
@@ -52,5 +53,5 @@ Microsoft Defender 바이러스 백신을 사용하도록 설정하면 일반적
 
 ## <a name="related-articles"></a>관련 문서
 
-- [동작,추론적 및 실시간 보호 구성](configure-protection-features-microsoft-defender-antivirus.md)
+- [동작, 추론 및 실시간 보호 구성](configure-protection-features-microsoft-defender-antivirus.md)
 - [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)

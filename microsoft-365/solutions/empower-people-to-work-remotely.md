@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
+title: Microsoft 365를 사용하여 원격 작업을 위한 인프라 설정
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -17,17 +17,20 @@ ms.collection:
 - m365solution-overview
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
-description: 원격 작업자의 생산성을 극대화하고 서버, 데이터 및 클라우드에 대한 보안 액세스를 유지하려면 Microsoft 365의 모든 기능을 사용하도록 설정했는지 확인합니다.
-ms.openlocfilehash: e811b0ea40c38d3c8de0dfdc17a24ce0d7aabe2f
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+keywords: 재택근무, 재택근무, 하이브리드, 원격근무, 하이브리드 근무, 원격직원, 하이브리드 연결, 원격접속, 재택근무, 재택근무, 재택근무, 원격근무, 원격근무, 원격근무, 유연한 근무 장소
+description: 원격 직원이 온-프레미스 및 Microsoft 365 리소스에 안전하게 액세스할 수 있도록 인프라 계층으로 이동합니다.
+ms.openlocfilehash: 1a8cf471cf92e1301c231f395ed0238bb35359cb
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029125"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52246323"
 ---
-# <a name="empower-remote-workers-with-microsoft-365"></a>Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
+# <a name="set-up-your-infrastructure-for-remote-work-with-microsoft-365"></a>Microsoft 365를 사용하여 원격 작업을 위한 인프라 설정
 
-직원들이 회사의 사내 구축 환경 및 클라우드 기반 정보, 도구 및 리소스에 안전하게 액세스할 수 있도록 해야 합니다. 직원이 원격으로 작업할 수 있도록 하는 것은 조직에 다음과 같은 이유로 중요합니다.
+원격 작업의 생산성 및 공동 작업을 보호하고 최적화하려면 원격 작업을 사용하도록 IT 및 클라우드 인프라를 구성하고 조직의 온-프레미스 및 클라우드 기반 정보, 도구 및 리소스에 대한 액세스를 제공해야 합니다. 이 솔루션에서는 작업자가 어디에 있든 최고의 업무를 할 수 있도록 하는 인프라의 주요 계층을 배포하는 단계를 수행합니다.
+
+직원이 원격으로 작업할 수 있도록 하는 것은 조직에 다음과 같은 이유로 중요합니다.
 
 - 사무실 공간에 저장
 - 이동할 의사가 없는 직원을 고용하고 유지할 수 있습니다.
@@ -125,8 +128,6 @@ Microsoft 365에는 직원이 원격으로 작업할 수 있도록 도와주는 
 5. [원격 작업자 생산성 앱 및 서비스 배포](empower-people-to-work-remotely-teams-productivity-apps.md)
 6. [원격 작업자 교육 및 사용 피드백 처리](empower-people-to-work-remotely-train-monitor-usage.md)
 
-[![Microsoft 365를 사용하여 원격 작업자의 역량을 강화하기 위한 단계](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
+[![Microsoft 365에서 원격 작업을 위한 인프라를 설정하는 단계](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)](empower-people-to-work-remotely-secure-sign-in.md)
 
-원격 작업자 지원에 대한 Microsoft의 최신 정보는 [Microsoft Teams 사이트에서 하이브리드 작업 사용](https://resources.techcommunity.microsoft.com/enabling-hybrid-work/)을 참조하세요.
-
-가상이지만 대표적인 다국적 조직에서 원격 작업자의 역량을 강화한 방법을 보려면 [Contoso의 COVID-19 대응 및 하이브리드 인력을 위한 인프라](contoso-remote-onsite-work.md)를 참조하세요.
+가상이지만 대표적인 다국적 조직이 원격 작업을 위해 인프라를 구축하는 방법을 보려면 [Contoso의 COVID-19 대응 및 원격 및 현장 작업을 위한 인프라](contoso-remote-onsite-work.md)를 참조하세요.

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: 사용자를 추가하고 동시에 Microsoft 365에 라이선스를 할당하는 방법을 알아보세요.
 ms.date: 07/01/2020
-ms.openlocfilehash: 6a1361d9cfebd2b305a71248fcbb461d0a68a052
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 3efa32d21a21ed12041f5731296c1b033374712f
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107089"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274391"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>사용자 추가 및 동시에 라이선스 할당
 
@@ -40,7 +40,24 @@ ms.locfileid: "52107089"
 
 :::image type="content" source="../../media/vsb-add-user-view.png" alt-text="스크린샷: 간소화된 관리 센터 보기":::
 
+::: moniker range="o365-worldwide"
+
 1. <https://admin.microsoft.com>의 관리 센터로 이동합니다.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>의 관리 센터로 이동합니다.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>의 관리 센터로 이동합니다.
+
+::: moniker-end 
+
 2. **다른 사용자를 위한 계정 만들기** 를 선택합니다.
 3. **사용자 계정 추가** 페이지에서 로그인하는 데 사용할 성과 이름, 표시 이름, 사용자 이름을 입력합니다.
 4. **최대 5개 전자 메일 주소** 텍스트 상자에 사용자의 전자 메일 주소를 추가합니다. 이렇게 하면 새 사용자가 Microsoft 365 서비스에 로그인하는 데 필요한 정보를 얻게 됩니다.
@@ -55,22 +72,15 @@ ms.locfileid: "52107089"
 
 ## <a name="add-users-one-at-a-time-in-the-dashboard-view"></a>대시보드 보기에서 한 번씩 사용자 추가
 
- ::: moniker range="o365-worldwide"
-
 :::image type="content" source="../../media/classic-admin-center.png" alt-text="스크린샷: 관리 센터 대시보드 보기":::
 
-1. <https://admin.microsoft.com>의 관리 센터로 이동합니다.
-2. **사용자** > **활성 사용자** 로 이동한 후, **사용자 추가** 를 선택합니다.
-3. **기본 설정** 창에서 사용자 정보를 입력하고 **다음** 을 택합니다.
-    - **이름** 이름과 성, 표시 이름 및 사용자 이름을 입력합니다.
-    - **도메인** 사용자 계정의 도메인을 선택합니다. 예를 들어 사용자의 사용자 이름이 Jakob이고 도메인이 contoso.com인 경우 jakob@contoso.com을 사용하여 로그인합니다.
-    - **암호 설정** 자동으로 생성되는 암호를 사용하거나 사용자에 대해 강력한 암호를 만들지 여부를 선택합니다.
-    - 사용자는 90일 후에 암호를 변경해야 합니다. 또는 **사용자가 처음 로그인할 때 암호를 변경하도록 요구** 할 수도 있습니다.
-    - 사용자가 추가될 때 암호를 전자 메일로 보낼지 여부를 선택하세요.
-4. **제품 라이선스 할당** 창에서 사용자의 위치와 적절한 라이선스를 선택합니다. 사용 가능한 라이선스가 없어도 사용자를 추가하고 추가 라이선스를 구입할 수 있습니다. **앱** 을 확장하고 앱을 선택하거나 선택을 선택 해제 사용자에게 라이선스가 있는 앱을 제한합니다. **다음** 을 선택합니다.
-5. **선택적 설정** 창에서 **역할** 을 확장하여 이 사용자를 관리자로 만듭니다. **프로필 정보** 를 확장하여 사용자에 대한 추가 정보를 추가합니다.
-6. **다음** 을 선택하고 새 사용자의 설정을 검토하고 원하는 대로 변경한 다음 **추가 완료**, **닫기** 를 차례로 선택합니다.
+::: moniker range="o365-worldwide"
 
+1. <https://admin.microsoft.com>의 관리 센터로 이동합니다.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>의 관리 센터로 이동합니다.
 

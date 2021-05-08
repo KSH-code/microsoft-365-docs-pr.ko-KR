@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: 관리자는 사용자가 자신의 검사된 메시지에 대해 할 수 있는 작업을 제어하기 위해 검지 태그를 사용하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 580cf2bad690d0fc6508d11178527ad218df763b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 512c589572502deacb5529ca9d6f2876861bf050
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205788"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274463"
 ---
 # <a name="quarantine-tags"></a>태그를 Quarantine tags
 
@@ -42,6 +42,10 @@ EOP는 일반적으로 메시지에 대해 특정 수준의 대화형 작업 [](
 - 모든 액세스
 
 사용 가능한 개별 사용 권한 및 미리 설정한 권한 그룹에 포함되거나 포함되지 않은 사용 권한에 대한 설명은 다음 표에 설명되어 있습니다.
+
+<br>
+
+****
 
 |사용 권한|권한 없음|제한된 액세스|모든 액세스|
 |---|:---:|:---:|:---:|
@@ -89,7 +93,7 @@ EOP는 일반적으로 메시지에 대해 특정 수준의 대화형 작업 [](
 
      - **받는 사람이** 다음의 값 중 일부 또는 전체를 선택하거나, 모두 또는 전혀 선택하지 않습니다.
        - **삭제**
-       - **Preview**
+       - **미리 보기**
        - **보낸 사람 허용**
        - **보낸 사람 차단**
 
@@ -126,6 +130,8 @@ _EndUserQuarantinePermissionsValue_ 매개 변수는 이진 값에서 변환된 
 
 다음 표에서는 미리 설정한 사용 권한 그룹의 각 개별 권한에 필요한 순서와 값을 설명하고 있습니다.
 
+<br>
+
 ****
 
 |사용 권한|권한 없음|제한된 액세스|모든 액세스|
@@ -140,6 +146,7 @@ _EndUserQuarantinePermissionsValue_ 매개 변수는 이진 값에서 변환된 
 |PermissionToViewHeader<sup>\*</sup>|0|0|0|
 |이진 값|00000000|01101010|11101100|
 |사용할 10진수 값|0|106|236|
+|
 
 <sup>\*</sup> 현재 이 값은 항상 0입니다. PermissionToViewHeader의 경우 값 0은 분리된 메시지의 세부 정보에서 메시지 헤더 보기 단추를 숨기지 않습니다(단추는 항상 사용 가능). 
 
@@ -225,6 +232,8 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
 메시지 _또는_ 파일을 자동으로 또는 구성 가능한 작업으로 검역하는 지원되는 보호 기능에서 사용 가능한 검역 작업에 검역 태그를 할당할 수 있습니다. 다음 표에는 메시지를 검사하는 기능과 검사 태그의 가용성이 설명되어 있습니다.
 
+<br>
+
 ****
 
 |기능|태그를 검사 지원하나요?|사용되는 기본 검지 태그|
@@ -256,7 +265,7 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
    ![스팸 방지 정책에서 태그 선택을 차단합니다.](../../media/quarantine-tags-in-anti-spam-policies.png)
 
-5. 작업을 마친 후 **저장** 을 클릭합니다.
+5. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
 #### <a name="assign-quarantine-tags-in-anti-spam-policies-in-powershell"></a>PowerShell에서 스팸 방지 정책에서 스팸 방지 태그 할당
 
@@ -266,7 +275,7 @@ PowerShell을 사용하여 스팸 방지 정책에서 검역 태그를 할당할
 <New-HostedContentFilterPolicy -Name "<Unique name>" | Set-HostedContentFilterPolicy -Identity "<Policy name>">  [-SpamAction Quarantine] [-SpamQuarantineTag <QuarantineTagName>] [-HighConfidenceSpamAction Quarantine] [-HighConfidenceSpamQuarantineTag <QuarantineTagName>] [-PhishSpamAction Quarantine] [-PhishQuarantineTag <QuarantineTagName>] [-HighConfidencePhishQuarantineTag <QuarantineTagName>] [-BulkSpamAction Quarantine] [-BulkQuarantineTag <QuarantineTagName>] ...
 ```
 
-**참고:**
+**참고**:
 
 - _HighConfidencePhishAction_ 매개 변수의 기본값은 Quarantine이기 때문에 새로운 스팸 방지 정책에서 높은 신뢰도의 피싱 검색에 대해 Quarantine 작업을 설정할 필요가 없습니다. 새 스팸 방지 정책 또는 기존 스팸 방지 정책의 다른 모든 스팸 필터링 판정에 대해, 작업 값이 Quarantine인 경우만 검지 태그가 적용됩니다. 기존 스팸 방지 정책의 작업 값을 표시하기 위해 다음 명령을 실행합니다.
 
@@ -373,7 +382,7 @@ PowerShell을 사용하여 태그를 볼 수 있는 경우 다음 단계를 수�
 
 ## <a name="remove-quarantine-tags-in-the-security--compliance-center"></a>보안 및 준수 센터에서 & 태그 제거
 
-**참고:**
+**참고**:
 
 - 기본 제공 분리 태그는 제거할 수 없습니다.
 
@@ -476,7 +485,7 @@ Quarantine 태그에 모든  액세스 권한(사용 가능한 모든 사용 권
 
 - **최종 사용자 스팸 알림:** 효과가 없습니다.
 
-수신-보낸 사람 목록에 대한 자세한 [](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) 내용은 신뢰할 수 있는 보낸 사람이 차단되지 않도록 방지 및 [Exchange Online PowerShell을](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)사용하여 사서함에 수신 목록 모음 구성을 참조하세요.
+수신 - 보낸 사람 목록에 대한 자세한 내용은 [신뢰할](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) 수 있는 보낸 사람이 차단되지 않도록 방지 및 Exchange Online [PowerShell을](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)사용하여 사서함에 수신 수신 목록 모음 구성을 참조하세요.
 
 #### <a name="block-sender-permission"></a>보낸 사람 권한 차단
 
@@ -490,7 +499,7 @@ Quarantine 태그에 모든  액세스 권한(사용 가능한 모든 사용 권
   - **보낸 사람 사용** 권한 차단 사용 안 하세요: 보낸 **사람** 차단 단추를 사용할 수 없습니다.
   - **보낸 사람 권한 차단** 사용: 보낸 **사람 차단** 단추를 사용할 수 있습니다.
 
-수신 차단된 보낸 사람 목록에 대한 자세한 내용은 [누군가의](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) 메시지 차단 및 [Exchange Online PowerShell을](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)사용하여 사서함에 수신 목록 모음 구성을 참조하세요.
+수신 차단된 보낸 사람 목록에 대한 자세한 내용은 [누군가의](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379667) 메시지 차단 및 Exchange Online [PowerShell을](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)사용하여 사서함에 수신 목록 모음 구성을 참조하세요.
 
 #### <a name="delete-permission"></a>삭제 권한
 

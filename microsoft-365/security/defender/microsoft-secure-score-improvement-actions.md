@@ -1,6 +1,6 @@
 ---
 title: Microsoft 보안 점수를 통해 보안 환경 평가
-description: Microsoft 365 보안 센터에서 Microsoft 보안 점수를 개선하기 위해 조치를 취하는 방법에 대해 설명
+description: 보안 센터에서 Microsoft 보안 점수를 개선하기 위한 조치를 Microsoft 365 설명
 keywords: Microsoft 보안 점수, 보안 점수, Office 365 보안 점수, Microsoft 보안 점수, Microsoft 365 보안 센터, 개선 작업
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -21,31 +21,31 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 0b2b9f1f01a583a96e0ae663e3f78cb0a7d846fc
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 8b321fc8883cf490cb5b2814d5c2b617a52dbb29
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570603"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52246400"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Microsoft 보안 점수를 통해 보안 환경 평가
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Microsoft Secure Score는 조직의 보안 태세에 대한 평가 점수로, 점수가 높을수록 더 많은 개선 작업이 수행되었다는 뜻입니다. Microsoft https://security.microsoft.com/securescore [365](overview-security-center.md)보안 센터 에서 찾을 수 있습니다.
+Microsoft Secure Score는 조직의 보안 태세에 대한 평가 점수로, 점수가 높을수록 더 많은 개선 작업이 수행되었다는 뜻입니다. 이 사이트는 보안 센터의 https://security.microsoft.com/securescore Microsoft 365 [있습니다.](overview-security-center.md)
 
 필요한 정보를 더 빠르게 찾을 수 있도록 Microsoft 개선 작업은 그룹으로 구성됩니다.
 
-* IDENTITY(Azure Active Directory 계정 & 역할)
+* ID(Azure Active Directory 계정 & 역할)
 * Device (Microsoft Defender for Endpoint, known [as Microsoft Secure Score for Devices)](/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices)
-* 앱(Office 365 및 Microsoft Cloud App Security를 포함한 전자 메일 및 클라우드 앱)
+* 앱(전자 메일 및 클라우드 앱(Office 365 및 Microsoft Cloud App Security)
 
 >[!NOTE]
->Microsoft 보안 점수의 최근 릴리스에서는 Microsoft 보안 점수가 ID 보안 점수 및 Graph API와 일시적으로 비호화되는 향상된 점수 모델이 릴리스되었습니다. [자세히 보기](microsoft-secure-score-whats-new.md)
+>Microsoft 보안 점수의 최근 릴리스에서는 향상된 점수 모델이 릴리스되어 Microsoft 보안 점수가 ID 보안 점수 및 Graph API와 일시적으로 Graph 있습니다. [자세히 보기](microsoft-secure-score-whats-new.md)
 
 Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가 분할된 방법과 사용 가능한 포인트를 들을 수 있습니다. 또한 총 점수, 벤치마크 비교를 통해 보안 점수의 기록 추세, 점수를 개선하기 위해 수행할 수 있는 우선 순위가 높은 개선 작업에 대한 전체 보기를 얻을 수도 있습니다.
 
-![보안 점수 홈페이지](../../media/secure-score/secure-score-homepage-new.png)
+![보안 점수 홈페이지](../../media/secure-score/secure-score-home-page.png)
 
 ## <a name="check-your-current-score"></a>현재 점수 확인
 
@@ -61,7 +61,7 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가
 
 이 보기는 가능한 모든 점수 보기를 포함하면 다음과 같이 표시됩니다.
 
-![계획된 점수, 현재 라이선스 점수 및 달성 가능한 점수를 포함한 보안 점수](../../media/secure-score/your-secure-score.png)
+![계획된 점수, 현재 라이선스 점수 및 달성 가능한 점수를 포함한 보안 점수](../../media/secure-score/secure-score-achievable.png)
 
 ## <a name="take-action-to-improve-your-score"></a>점수 향상을 위한 조치 수행
 
@@ -81,7 +81,7 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가
 
 - 관리를 **선택하여** 구성 화면으로 이동하고 변경합니다. 그런 다음 작업의 가치와 플라이아웃에 표시되는 포인트를 얻게 됩니다. 포인트는 일반적으로 업데이트하는 데 24시간 정도 소요됩니다.
 
-- **공유를** 선택하여 개선 작업으로 직접 링크를 복사합니다. 전자 메일, Microsoft Teams, Microsoft Planner 또는 ServiceNow와 같은 링크를 공유할 플랫폼을 선택할 수도 있습니다. ServiceNow를 선택하면 ServiceNow 및 Microsoft 365 보안 센터 홈에 표시되는 변경 티켓을 만들 수 있습니다. 자세한 내용은 Microsoft 365 보안 센터 및 [ServiceNow 통합을 참조합니다.](./tickets.md)
+- **공유를** 선택하여 개선 작업으로 직접 링크를 복사합니다. 전자 메일, 메일 또는 Microsoft Planner와 같은 링크를 공유할 플랫폼을 Microsoft Teams 있습니다.
 
 **메모를** 추가하여 진행 상황을 추적하거나 메모를 남기고자 하는 기타 모든 것을 추적합니다. 개선 작업에서  자체 태그를 추가하는 경우 해당 태그를 사용하여 필터링할 수 있습니다.
 
@@ -94,9 +94,9 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간에 점수가
 - **위험 수락** - 보안은 항상 사용 가능성과 균형을 조정해야 합니다. 모든 권장이 사용자 환경에 대해 작동하지는 않습니다. 이 경우 위험 또는 남은 위험을 수용할 수 있으며 개선 작업을 실행하지 않을 수 있습니다. 점은 제공되지 않지만 동작이 개선 작업 목록에 더 이상 표시되지 않습니다. 이 작업은 기록에서 보거나 실행 취소할 수 있습니다.
 - **타사를 통해** 해결되고 대체 완화를 통해 해결 **-** 개선 작업은 타사 응용 프로그램 또는 소프트웨어 또는 내부 도구를 통해 이미 해결되었습니다. 작업의 가치가 있는 점수를 얻게 있으므로 점수가 전반적인 보안 자세를 더 잘 반영합니다. 타사 또는 내부 도구가 더 이상 컨트롤을 덮지 못하면 다른 상태를 선택할 수 있습니다. 개선 작업이 이러한 상태 중 하나로 표시된 경우 Microsoft는 구현의 완전성을 확인할 수 없습니다.
 
-#### <a name="threat--vulnerability-management-improvement-actions"></a>위협 & 관리 개선 작업
+#### <a name="threat--vulnerability-management-improvement-actions"></a>위협 & 취약성 관리 개선 작업
 
-"장치" 범주의 개선 작업의 경우 상태를 선택할 수 없습니다. 대신 [Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/use) 보안 센터에서 관련 [](/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation) 위협 및 취약성 관리 보안 권장 지침으로 연결하여 조치를 취할 수 있습니다. 선택한 예외 및 작성 사당성은 해당 포털과 관련이 있습니다. Microsoft 보안 점수 포털에는 존재하지 않습니다.
+"장치" 범주의 개선 작업의 경우 상태를 선택할 수 없습니다. 대신 작업 수행을 위한 위협 및 취약성 관리 보안 [](/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation) 권장 Microsoft Defender 보안 센터 합니다. [](/windows/security/threat-protection/microsoft-defender-atp/use) 선택한 예외 및 작성 사당성은 해당 포털과 관련이 있습니다. Microsoft 보안 점수 포털에는 존재하지 않습니다.
 
 #### <a name="completed-improvement-actions"></a>개선 작업 완료
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4898081103faa27c19d3a09ffba1b59670833dd8
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: fc1c1e0d3f68016651c04521e04ce348e5ab9a65
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860800"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52246468"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>라이브 응답을 사용하여 디바이스에서 엔터티 조사
 
@@ -44,15 +44,15 @@ ms.locfileid: "51860800"
 - 기본 및 고급 명령을 실행하여 장치에서 조사 작업을 실행합니다.
 - PowerShell 스크립트의 맬웨어 샘플 및 결과와 같은 파일을 다운로드합니다.
 - 백그라운드에서 파일을 다운로드합니다(new!).
-- PowerShell 스크립트 또는 실행 파일을 라이브러리에 업로드하고 테넌트 수준에서 디바이스에서 실행합니다.
+- 업로드 PowerShell 스크립트 또는 실행을 라이브러리에 추가하고 테넌트 수준에서 디바이스에서 실행합니다.
 - 수정 작업을 수행하거나 취소합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
 장치에서 세션을 시작하려면 먼저 다음 요구 사항을 충족해야 합니다.
 
-- **지원되는 버전의 Windows를 실행 중인지 확인** <br/>
-디바이스에서 다음 Windows 버전 중 하나를 실행해야 합니다.
+- 지원되는 버전의 를 실행 **중인지 Windows.** <br/>
+장치에서 다음 버전의 디바이스 중 하나를 실행해야 Windows
 
   - **Windows 10**
     - [버전 1909](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1909) 이상  
@@ -101,20 +101,20 @@ ms.locfileid: "51860800"
 ## <a name="live-response-dashboard-overview"></a>실시간 응답 대시보드 개요
 디바이스에서 라이브 응답 세션을 시작하면 대시보드가 열립니다. 대시보드에서는 다음과 같은 세션에 대한 정보를 제공합니다. 
 
-- 세션을 만든 사람
+- Who 세션을 만들지 않습니다.
 - 세션이 시작된 시간
 - 세션 기간
 
 대시보드를 통해 다음에 액세스할 수 있습니다.
 - 세션 연결 끊기
-- 라이브러리에 파일 업로드 
+- 업로드 파일을 라이브러리에 저장 
 - 명령 콘솔
 - 명령 로그
 
 
 ## <a name="initiate-a-live-response-session-on-a-device"></a>장치에서 라이브 응답 세션 시작 
 
-1. Microsoft Defender 보안 센터에 로그인합니다.
+1. 로그인하여 Microsoft Defender 보안 센터.
 
 2. 장치 목록 페이지로 이동하여 조사할 장치를 선택합니다. 장치 페이지가 열립니다.
 
@@ -143,7 +143,6 @@ ms.locfileid: "51860800"
 |`connect` | 디바이스에 대한 라이브 응답 세션을 초기화합니다. |
 |`connections` | 모든 활성 연결을 보여 주며, |
 |`dir` | 디렉터리의 파일 및 하위 디렉터리 목록을 보여줍니다. |
-|`download <file_path> &` | 백그라운드에서 파일을 다운로드합니다. |
 |`drivers` |  장치에 설치된 모든 드라이버를 보여줍니다. |
 |`fg <command ID>` | 지정한 작업을 포그라운드의 포그라운드에 두어 현재 작업으로 지정합니다. <br> 참고: fg는 PID가 아니라 작업에서 사용할 수 있는 "명령 ID"를 취합니다. |
 |`fileinfo` | 파일에 대한 정보를 얻습니다. |
@@ -173,7 +172,7 @@ ms.locfileid: "51860800"
 
 ## <a name="use-live-response-commands"></a>라이브 응답 명령 사용
 
-콘솔에서 사용할 수 있는 명령은 Windows 명령과 [유사한 원칙을 따르고 있습니다.](https://docs.microsoft.com/windows-server/administration/windows-commands/windows-commands#BKMK_c)
+콘솔에서 사용할 수 있는 명령은 명령과 [Windows 합니다.](https://docs.microsoft.com/windows-server/administration/windows-commands/windows-commands#BKMK_c)
 
 고급 명령은 파일 다운로드 및 업로드, 장치에서 스크립트 실행, 엔터티에 대한 수정 작업 등의 보다 강력한 작업을 수행할 수 있는 보다 강력한 작업 집합을 제공합니다.
 
@@ -198,9 +197,9 @@ ms.locfileid: "51860800"
 다음은 몇 가지 예입니다.
 
 
-|명령  |속성 기능  |
+|명령  |기능  |
 |---------|---------|
-|`Download "C:\windows\some_file.exe" &`     |백그라운드에서 이름이some_file.exe *다운로드를* 시작합니다.         |
+|`getfile "C:\windows\some_file.exe" &`     |백그라운드에서 이름이some_file.exe *다운로드를* 시작합니다.         |
 |`fg 1234`     |명령 ID가 *1234인* 다운로드를 포그라운드로 반환합니다.         |
 
 
@@ -214,7 +213,7 @@ ms.locfileid: "51860800"
 
 #### <a name="to-upload-a-file-in-the-library"></a>라이브러리에서 파일을 업로드하려면
 
-1. 라이브러리에 **파일 업로드를 클릭합니다.** 
+1. 라이브러리에 **업로드 파일을 클릭합니다.** 
 
 2. **찾아보기를** 클릭하고 파일을 선택합니다.
 
@@ -234,16 +233,6 @@ ms.locfileid: "51860800"
 
 >[!WARNING]
 >이 바로 가기를 사용하면 에이전트 쪽의 명령이 중지되지 않습니다. 포털에서 명령만 취소합니다. 따라서 명령이 취소된 동안 "재구성" 등의 변경 작업이 계속될 수 있습니다. 
-
-### <a name="automatically-run-prerequisite-commands"></a>자동으로 선행 명령 실행
-
-일부 명령에는 실행할 선행 명령이 있습니다. 선행 명령을 실행하지 않는 경우 오류가 발생합니다. 예를 들어 명령을 `download` 실행하지 않고 실행하면 `fileinfo` 오류가 반환됩니다.
-
-다음과 같은 자동 플래그를 사용하여 자동으로 선행 명령을 실행할 수 있습니다.
-
-```console
-getfile c:\Users\user\Desktop\work.txt -auto
-```
 
 ## <a name="run-a-powershell-script"></a>PowerShell 스크립트 실행 
 
@@ -286,7 +275,7 @@ PowerShell 스크립트를 실행하려면 먼저 라이브러리에 업로드�
 
 ## <a name="supported-output-pipes"></a>지원되는 출력 파이프
 
-실시간 응답은 CLI 및 파일에 대한 출력 파이핑을 지원합니다. CLI는 기본 출력 동작입니다. [command] 및 [filename].txt 명령을 사용하여 > 파일을 파이프할 수 있습니다.  
+실시간 응답은 CLI 및 파일에 대한 출력 파이핑을 지원합니다. CLI는 기본 출력 동작입니다. [command] > [filename]을 사용하여 출력을 파일에 파이프할 수 .txt.  
 
 예제:
 

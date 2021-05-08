@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5f57d14427ef68280a065489e068955db9e5045a
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 18afd4aa160ec345839d23719d1b3fcce21654ec
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934804"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52246359"
 ---
 # <a name="troubleshooting-issues-on-microsoft-defender-for-endpoint-on-android"></a>Android의 끝점용 Microsoft Defender 문제 해결
 
@@ -51,11 +51,11 @@ ms.locfileid: "51934804"
 
 **원인:**
 
-장치에 "Microsoft Authenticator" 앱의 이전 버전이 설치되어 있습니다.
+이전 버전의 "Microsoft Authenticator" 앱이 장치에 설치되어 있습니다.
 
 **해결 방법:**
 
-Google Play 스토어에서 최신 버전 [및 Microsoft Authenticator를](https://play.google.com/store/apps/details?androidid=com.azure.authenticator) 설치하고 다시 시도
+Google Play 스토어에서 최신 [Microsoft Authenticator](https://play.google.com/store/apps/details?androidid=com.azure.authenticator) 설치하고 다시 시도
 
 ## <a name="sign-in-failed---invalid-license"></a>로그인 실패 - 잘못된 라이선스
 
@@ -67,11 +67,15 @@ Google Play 스토어에서 최신 버전 [및 Microsoft Authenticator를](https
 
 **원인:**
 
-Microsoft 365 라이선스가 할당되지 않은 경우 또는 조직에 Microsoft 365 Enterprise 구독 라이선스가 없습니다.
+사용자에게 Microsoft 365 라이선스가 할당되지 않은 경우 또는 조직에 Microsoft 365 Enterprise 대한 라이선스가 없습니다.
 
 **해결 방법:**
 
 관리자에게 문의하십시오.
+
+## <a name="report-unsafe-site"></a>안전하지 않은 사이트 보고
+
+피싱 웹 사이트는 개인 또는 재무 정보를 얻기 위해 신뢰할 수 있는 웹 사이트를 가장합니다. 피싱 [](https://www.microsoft.com/wdsi/filesubmission/exploitguard/networkprotection) 사이트일 수 있는 웹 사이트를 보고하려는 경우 네트워크 보호에 대한 피드백 제공 페이지를 방문하세요.
 
 ## <a name="phishing-pages-arent-blocked-on-some-oem-devices"></a>일부 OEM 장치에서 피싱 페이지가 차단되지 않습니다.
 

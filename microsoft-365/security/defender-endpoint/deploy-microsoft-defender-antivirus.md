@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 01/06/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 146447f4036d800832c75c7a59978e9571253a17
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 88a5401818c3d6f2b35675830a38b266db9627e4
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764822"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274499"
 ---
 # <a name="deploy-and-enable-microsoft-defender-antivirus"></a>Microsoft Defender 바이러스 백신 배포 및 사용
 
@@ -29,7 +30,7 @@ ms.locfileid: "51764822"
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 사용하는 관리 도구에 따라 Microsoft Defender 바이러스 백신 보호를 사용하도록 설정하거나 구성해야 할 수 있습니다. 
 
@@ -43,4 +44,4 @@ Microsoft Intune, Microsoft Endpoint Configuration Manager, 그룹 정책, Activ
 
 - [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)
 - [Microsoft Defender 바이러스 백신 배포, 업데이트 관리 및 보고](deploy-manage-report-microsoft-defender-antivirus.md)
-- [VDI(가상 데스크톱 인프라) 환경의 Microsoft Defender 바이러스 백신 배포 가이드](deployment-vdi-microsoft-defender-antivirus.md)
+- [VDI(가상 데스크톱 인프라) 환경에서 Microsoft Defender 바이러스 백신의 배포 가이드](deployment-vdi-microsoft-defender-antivirus.md)

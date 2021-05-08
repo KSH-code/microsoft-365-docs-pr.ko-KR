@@ -7,28 +7,29 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 9fc51682b659670a21c3c293ea8996beb228802a
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 53b1e1474e0870388ec1cfaf214190eb0bdf7beb
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765074"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274612"
 ---
-# <a name="configure-behavioral-heuristic-and-real-time-protection"></a>동작,추론적 및 실시간 보호 구성
+# <a name="configure-behavioral-heuristic-and-real-time-protection"></a>동작, 추론 및 실시간 보호 구성
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 Microsoft Defender 바이러스 백신은 여러 가지 방법을 사용하여 위협 방지를 제공합니다.
 
@@ -46,5 +47,5 @@ Microsoft Defender 바이러스 백신 클라우드 제공 보호를 사용하�
 
  항목 | 설명
 ---|---
-[잠재적으로 원치 않는 응용 프로그램 검색 및 차단](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md) | 애드웨어, 브라우저 수정자 및 도구 모음, 악성 또는 가짜 바이러스 백신 앱 등 네트워크에서 원치 않는 앱을 검색하고 차단합니다.
+[잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md) | 애드웨어, 브라우저 수정자 및 도구 모음, 악성 또는 가짜 바이러스 백신 앱 등 네트워크에서 원치 않는 앱을 검색하고 차단합니다.
 [Microsoft Defender 바이러스 백신 보호 기능 사용 및 구성](configure-real-time-protection-microsoft-defender-antivirus.md) | 실시간 보호,추론 및 기타 항상 Microsoft Defender 바이러스 백신 모니터링 기능 사용 및 구성

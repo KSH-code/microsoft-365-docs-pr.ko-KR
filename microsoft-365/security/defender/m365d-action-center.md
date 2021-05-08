@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 7853c6c535a9b4daf9f29a1125c805c29ca6f93f
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 7bea9a1632e7a9ed9d394c2c411123d0601a9397
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245915"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274583"
 ---
 # <a name="the-action-center"></a>알림 센터
 
@@ -35,27 +35,27 @@ ms.locfileid: "52245915"
 **적용 대상:**
 - Microsoft 365 Defender
 
-## <a name="a-single-pane-of-glass-experience"></a>"단일 창 방식" 환경
+알림 센터는 인시던트 및 경고 작업에 대해 "단일 창 창" 환경을 제공합니다.
 
-알림 센터를 통해 다음과 같은 작업에 대한 "단일 창 방식" 환경을 제공합니다.
-- 보류 중인 수정 작업 승인.
-- 이미 승인된 수정 작업의 감사 로그 보기. 그리고
+- 보류 중인 수정 작업 승인
+- 이미 승인된 수정 작업의 감사 로그 보기
 - 완료된 수정 작업을 검토
 
-보안 운영 팀은 관리 센터에서 회사에서 Defender를 포괄적으로 볼 수 Microsoft 365 운영할 수 있습니다.
+관리 센터는 직장에서 Microsoft 365 Defender를 포괄적으로 볼 수 있기 때문에 보안 운영 팀이 보다 효율적이고 효율적으로 작업할 수 있습니다.
 
-## <a name="a-new-unified-action-center"></a>새로운 통합된 동작 센터
+## <a name="the-unified-action-center"></a>통합된 동작 센터
 
-새로운 통합된 통합 동작 센터( )를 발표하게 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 됩니다. 
+통합 알림 센터()에는 장치에 대한 보류 중 및 완료된 수정 작업, 전자 메일 & 공동 작업 콘텐츠 및 ID가 한 위치에 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 나열됩니다.
 
-:::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Defender의 통합 Microsoft 365 센터":::
+:::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Microsoft 365 Defender의 통합 관리 센터":::
 
-향상된 알림 센터에는 장치에 대한 보류 중 및 완료된 수정 작업, 전자 메일 & 공동 작업 콘텐츠 및 ID가 한 위치에 나열됩니다.
-- 이전에 Office 365 보안 & 준수 센터()를 사용 중이면 Microsoft 365 보안 [https://protection.office.com](https://protection.office.com) 센터()에서 새로운 통합 Microsoft 365 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 시도합니다.
-- Microsoft Defender 보안 센터()에서 관리 센터를 사용 중이면 Microsoft 365 센터의 새로운 통합 관리 [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) 센터()를 시도해 보아야 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 합니다.
-- 이미 Microsoft 365 보안 센터()를 사용 중이면 관리 센터( )에서 몇 가지 개선된 기능을 [https://security.microsoft.com](https://security.microsoft.com) 볼 수 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 있습니다.
+예: 
 
-통합 관리 센터는 Endpoint용 Defender 및 2016용 Defender에 대한 수정 Office 365. 모든 수정 작업에 대한 공통 언어를 정의하고 통합 조사 환경을 제공합니다. 관리 센터는 보안 운영 팀에 수정 작업을 보고 관리할 수 있는 "단일 창 창" 환경을 제공합니다.  
+- 이전에 Office 365 보안 & 준수 센터()를 사용 중이면 Microsoft 365 보안 센터()의 통합된 관리 센터를 사용해 [https://protection.office.com](https://protection.office.com) 보아야 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 합니다.
+- Microsoft Defender 보안 센터()에서 관리 센터를 사용 중이면 Microsoft 365 보안 센터의 통합 [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) 관리 센터()를 사용해 보아야 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 합니다.
+- Microsoft 365 보안 센터()를 이미 사용하고 있는 경우 관리 센터()에서 몇 가지 개선된 기능을 [https://security.microsoft.com](https://security.microsoft.com) 볼 수 [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) 있습니다.
+
+통합 관리 센터는 끝점용 Defender 및 Office 365용 Defender에 대한 수정 작업을 통합합니다. 모든 수정 작업에 대한 공통 언어를 정의하고 통합 조사 환경을 제공합니다. 보안 운영 팀에는 수정 작업을 보고 관리할 수 있는 "단일 창 창" 환경이 있습니다.  
 
 적절한 사용 권한 및 다음 구독 중 하나 이상이 있는 경우 통합 관리 센터를 사용할 수 있습니다.
 
@@ -71,7 +71,7 @@ ms.locfileid: "52245915"
 1. [https://security.microsoft.com](https://security.microsoft.com)으로 이동하여 로그인합니다. 
 2. 탐색 창에서 **작업 센터** 를 선택합니다. 
 
-작업 센터를 방문하면 보류 중인 작업 및 기록의 두 개의 탭이 표시됩니다. 다음 표에서는 각 탭에 표시하는 내용을 요약하여 제공합니다.
+작업 센터를 방문하면 보류 중인 작업 및 **기록의 두 개의 탭이** **표시됩니다.** 다음 표에서는 각 탭에 표시하는 내용을 요약하여 제공합니다.
 
 |Tab  |설명  |
 |---------|---------|
@@ -114,7 +114,7 @@ ms.locfileid: "52245915"
 | **수동 장치 작업** | 디바이스에서 수행된 수동 작업입니다. [예로는 장치 고리 또는](../defender-endpoint/respond-machine-alerts.md#isolate-devices-from-the-network) 파일 검지가 [있습니다.](../defender-endpoint/respond-file-alerts.md#stop-and-quarantine-files) |
 | **수동 전자 메일 작업** | 전자 메일에 대한 수동 작업입니다. 예를 들어 전자 메일 메시지를 소프트 삭제하거나 전자 메일 [메시지를 수정합니다.](../office-365-security/remediate-malicious-email-delivered-office-365.md) |
 | **자동화된 장치 작업** | 파일 또는 프로세스와 같은 엔터티에 대한 자동화된 작업입니다. 자동화된 작업의 예로는 파일을 검지로 보내기, 프로세스 중지, 레지스트리 키 제거가 있습니다. [(Endpoint에 대한 Microsoft Defender의 수정 작업을 참조합니다.)](../defender-endpoint/manage-auto-investigation.md#remediation-actions) |
-| **자동화된 전자 메일 작업** | 전자 메일 메시지, 첨부 파일 또는 URL과 같은 전자 메일 콘텐츠에 대한 자동화된 작업입니다. 자동화된 작업의 예로는 전자 메일 메시지의 소프트 삭제, URL 차단 및 외부 메일 전달 해제가 있습니다. (자세한 [내용은 Microsoft Defender의](../office-365-security/air-remediation-actions.md)수정 Office 365 참조). |
+| **자동화된 전자 메일 작업** | 전자 메일 메시지, 첨부 파일 또는 URL과 같은 전자 메일 콘텐츠에 대한 자동화된 작업입니다. 자동화된 작업의 예로는 전자 메일 메시지의 소프트 삭제, URL 차단 및 외부 메일 전달 해제가 있습니다. (Office [365용 Microsoft Defender의](../office-365-security/air-remediation-actions.md)수정 작업을 참조합니다.) |
 | **고급 헌팅 작업** | 고급 헌팅이 있는 장치 또는 전자 [메일에 대해 수행된 작업입니다.](./advanced-hunting-overview.md) |
 | **탐색기 동작** | 탐색기를 사용하여 전자 메일 콘텐츠에 대해 수행한 [작업입니다.](../office-365-security/threat-explorer.md) |
 | **수동 실시간 응답 작업** | 라이브 응답이 있는 [디바이스에서 수행된 작업입니다.](../defender-endpoint/live-response.md) 예를 들어 파일 삭제, 프로세스 중지 및 예약된 작업 제거가 있습니다. |
@@ -126,12 +126,12 @@ ms.locfileid: "52245915"
 
 |수정 작업 |필요한 역할 및 사용 권한 할당 |
 |--|----|
-|끝점 수정을 위한 Microsoft Defender(장치) |Azure Active Directory([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 할당된 **보안 관리자** 역할<br/>--- 또는 ---<br/>**끝점용** Microsoft Defender에 할당된 활성 수정 작업 역할 <br/> <br/> 자세한 내용은 다음 리소스를 참조하세요. <br/>- [Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [역할 기반 액세스 제어에 대한 역할 만들기 및 관리(끝점용 Microsoft Defender)](../defender-endpoint/user-roles.md)  |
-|Microsoft Defender for Office 365 수정(Office 및 전자 메일)  |Azure Active Directory([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 할당된 **보안 관리자** 역할<br/>--- 및 --- <br/>**보안 및 준수** 센터에 할당된 & 제거 역할( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**중요:** Office 365 Security  & Compliance Center()에서만 보안 관리자 역할이 할당된 경우, 관리 센터 또는 Microsoft 365 [https://protection.office.com](https://protection.office.com) 액세스할 수 없습니다. 보안 관리자  역할이 Azure Active Directory 관리 센터에서 Microsoft 365 있어야 합니다. <br/><br/>자세한 내용은 다음 리소스를 참조하세요. <br/>- [Azure Active Directory의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [보안 및 준수 센터의 & 권한](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
+|끝점 수정을 위한 Microsoft Defender(장치) |Azure **AD(Azure** Active Directory) ( ) 또는 Microsoft 365 관리 센터()에서 할당된 보안 관리자 [https://portal.azure.com](https://portal.azure.com) 역할 [https://admin.microsoft.com](https://admin.microsoft.com)<br/>--- 또는 ---<br/>**끝점용** Microsoft Defender에 할당된 활성 수정 작업 역할 <br/> <br/> 자세한 내용은 다음 리소스를 참조하세요. <br/>- [Azure AD의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [역할 기반 액세스 제어에 대한 역할 만들기 및 관리(끝점용 Microsoft Defender)](../defender-endpoint/user-roles.md)  |
+|Microsoft Defender for Office 365 수정(Office 콘텐츠 및 전자 메일)  | Azure AD( ) 또는 Microsoft 365 관리 센터()에서 할당된 보안 관리자 [https://portal.azure.com](https://portal.azure.com) 역할 [https://admin.microsoft.com](https://admin.microsoft.com)<br/>--- 및 --- <br/>**보안 및 준수** 센터에서 할당된 & 제거 역할( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**중요:** Office 365 보안 & 준수 센터()에서만 보안 관리자 역할이 할당된 경우, 관리 센터 또는 Microsoft  [https://protection.office.com](https://protection.office.com) 365 Defender 기능에 액세스할 수 없습니다. Azure AD  또는 Microsoft 365 관리 센터에서 보안 관리자 역할이 할당되어 있어야 합니다. <br/><br/>자세한 내용은 다음 리소스를 참조하세요. <br/>- [Azure AD의 관리자 역할 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [보안 및 준수 센터의 & 권한](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
 
 > [!TIP]
-> Azure Active Directory에서 **전역 관리자** 역할이 할당된 사용자는 알림 센터에서 대기 중인 모든 작업을 승인하거나 거부할 수 있습니다. 그러나 조직에서는 전역 관리자 역할이 할당된 사용자 수를 제한하는 것이 가장 좋은 **모범** 사례입니다. 앞의 관리 센터 권한 표에 나열된  보안 **관리자,** 활성 수정 작업 및 검색 및 제거 역할을 사용하는 것이 좋습니다.
+> Azure AD에서 **전역** 관리자 역할이 할당된 사용자는 관리 센터에서 보류 중인 작업을 승인하거나 거부할 수 있습니다. 그러나 조직에서는 전역 관리자 역할이 할당된 사용자 수를 제한하는 것이 가장 좋은 **모범** 사례입니다. 앞의 관리 센터 권한 표에 나열된  보안 **관리자,** 활성 수정 작업 및 검색 및 제거 역할을 사용하는 것이 좋습니다.
 
 ## <a name="next-step"></a>다음 단계 
 
-- [수정 작업 검토 및 관리](m365d-autoir-actions.md)
+- [수정 작업 보기 및 관리](m365d-autoir-actions.md)

@@ -1,24 +1,25 @@
 ---
 title: 확장명, 이름 또는 위치를 기준으로 제외 구성 및 유효성 검사
-description: 파일 확장명, 파일 이름 또는 위치에 따라 Microsoft Defender 바이러스 백신 검사에서 파일을 제외합니다.
+description: 파일 확장명Microsoft Defender 바이러스 백신 이름 또는 위치에 따라 파일 검색에서 파일을 제외합니다.
 keywords: 제외, 파일, 확장명, 파일 형식, 폴더 이름, 파일 이름, 검사
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 338dc249bcd4e092f5a2be39e3d045d094ed957a
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 3d65275d504ece4ac298558e660fa70c32a76d06
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765218"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274535"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>파일 확장명 및 폴더 위치에 따라 제외 구성 및 유효성 검사
 
@@ -27,22 +28,22 @@ ms.locfileid: "51765218"
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 > [!IMPORTANT]
-> Microsoft Defender 바이러스 백신 제외는 끝점 감지 및 [응답(EDR),](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) [ASR(공격](/microsoft-365/security/defender-endpoint/attack-surface-reduction)표면 축소) 규칙 및 제어된 폴더 액세스 등 다른 끝점용 Microsoft Defender 기능에 적용되지 [않습니다.](/microsoft-365/security/defender-endpoint/controlled-folders) 이 문서에 설명된 방법을 사용하여 제외하는 파일은 여전히 EDR 경고 및 기타 검색을 트리거할 수 있습니다. 파일을 광범위하게 제외하려면 끝점 사용자 지정 표시기용 Microsoft [Defender에 추가합니다.](/microsoft-365/security/defender-endpoint/manage-indicators)
+> Microsoft Defender 바이러스 백신 끝점 감지 및 응답(EDR), [ASR(공격](/microsoft-365/security/defender-endpoint/attack-surface-reduction)표면 축소) 규칙 및 제어된 폴더 액세스 등 다른 Microsoft Defender for [Endpoint](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)기능에는 제외가 적용되지 [않습니다.](/microsoft-365/security/defender-endpoint/controlled-folders) 이 문서에 설명된 방법을 사용하여 제외하는 파일은 경고 및 기타 EDR 트리거할 수 있습니다. 파일을 광범위하게 제외하려면 끝점 사용자 지정 표시기용 Microsoft [Defender에 추가합니다.](/microsoft-365/security/defender-endpoint/manage-indicators)
 
 ## <a name="exclusion-lists"></a>제외 목록
 
-제외 목록을 수정하여 Microsoft Defender 바이러스 백신 검사에서 특정 파일을 제외할 수 있습니다. **일반적으로 제외를** 적용할 필요가 없습니다. Microsoft Defender 바이러스 백신에는 알려진 운영 체제 동작 및 일반적인 관리 파일(예: 엔터프라이즈 관리, 데이터베이스 관리 및 기타 엔터프라이즈 시나리오 및 상황에 사용되는 파일)을 기반으로 하는 많은 자동 제외가 포함되어 있습니다.
+제외 목록을 수정하여 특정 Microsoft Defender 바이러스 백신 제외할 수 있습니다. **일반적으로 제외를** 적용할 필요가 없습니다. Microsoft Defender 바이러스 백신 운영 체제 동작 및 일반적인 관리 파일(예: 엔터프라이즈 관리, 데이터베이스 관리 및 기타 엔터프라이즈 시나리오 및 상황에 사용되는 파일)을 기반으로 하는 많은 자동 제외가 포함됩니다.
 
 > [!NOTE]
 > 제외는 PUA(잠재적으로 원치 않는 앱) 검색에도 적용됩니다.
 
 > [!NOTE]
-> 자동 제외는 Windows Server 2016 이상에만 적용됩니다. 이러한 제외는 Windows 보안 앱과 PowerShell에서 표시되지 않습니다.
+> 자동 제외는 해당 Windows Server 2016 이상에만 적용됩니다. 이러한 제외는 Windows 보안 PowerShell에서 표시되지 않습니다.
 
-이 문서에서는 파일 및 폴더에 대한 제외 목록을 구성하는 방법을 설명합니다. 제외 [목록을 정의하기](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) 전에 제외를 정의하기 위한 권장 사항을 참조하세요.
+이 문서에서는 파일 및 폴더에 대한 제외 목록을 구성하는 방법을 설명합니다. 제외 [권장 사항](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) 정의하기 전에 제외를 정의하는 방법을 참조하세요.
 
 | 제외 | 예제 | 제외 목록 |
 |:---|:---|:---|
@@ -59,15 +60,15 @@ ms.locfileid: "51765218"
 > [!IMPORTANT]
 > - 와일드카드(예: Asterisk( )를 사용하는 경우 제외 규칙이 해석된 \* 방식이 변경됩니다. 와일드카드 작동 방식에 대한 중요한 정보는 파일 이름 및 폴더 경로 또는 확장명 제외 목록에서 와일드카드 사용 섹션을 참조하세요. [](#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists)
 > - 매핑된 네트워크 드라이브는 제외할 수 없습니다. 실제 네트워크 경로를 지정해야 합니다.
-> - Microsoft Defender 바이러스 백신 서비스가 시작된 후 만들어지며 제외 목록에 추가된 재분석 지점인 폴더는 포함되지 않습니다. 새 재분석 지점이 유효한 제외 대상으로 인식될 수 있는 경우 서비스를 다시 시작(Windows 다시 시작)해야 합니다.
+> - Microsoft Defender 바이러스 백신 서비스가 시작된 후 만들어지며 제외 목록에 추가된 재분석 지점인 폴더는 포함되지 않습니다. 새 재분석 지점이 유효한 제외 대상으로 인식될 Windows 서비스를 다시 시작해야 합니다.
 
 특정 프로세스에서 연 파일을 제외하려면 프로세스에서 연 파일에 대한 제외 구성 및 [유효성 검사를 참조합니다.](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
 
 제외는 예약된 [검사,](scheduled-catch-up-scans-microsoft-defender-antivirus.md)요구 시 [](run-scan-microsoft-defender-antivirus.md)검사 및 실시간 보호에 [적용됩니다.](configure-real-time-protection-microsoft-defender-antivirus.md)
 
 > [!IMPORTANT]
-> 그룹 정책으로 변경된 제외 **목록은** Windows 보안 앱의 목록에 [표시됩니다.](microsoft-defender-security-center-antivirus.md)
-> Windows 보안 앱의 변경 **내용은 그룹** 정책 목록에 표시되지 않습니다.
+> 그룹 정책으로 변경된 제외  목록은 앱의 목록에 [Windows 보안 표시됩니다.](microsoft-defender-security-center-antivirus.md)
+> 앱의 Windows 보안 **그룹** 정책 목록에는 변경 내용이 표시되지 않습니다.
 
 기본적으로 PowerShell 및 WMI를 통해 변경한 내용을 포함하여 관리자 권한이 있는 사용자에 의해 목록에 대한 로컬 변경 내용은 그룹 정책, Configuration Manager 또는 Intune에서 정의(및 배포)된 목록과 병합됩니다. 충돌이 있는 경우 그룹 정책 목록이 우선합니다.
 
@@ -78,12 +79,12 @@ ms.locfileid: "51765218"
 ### <a name="use-intune-to-configure-file-name-folder-or-file-extension-exclusions"></a>Intune을 사용하여 파일 이름, 폴더 또는 파일 확장명 제외 구성
 
 다음 문서를 참조합니다.
-- [Microsoft Intune에서 장치 제한 설정 구성](/intune/device-restrictions-configure)
-- [Intune의 Windows 10에 대한 Microsoft Defender 바이러스 백신 장치 제한 설정](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)
+- [장치에서 장치 제한 Microsoft Intune](/intune/device-restrictions-configure)
+- [Microsoft Defender 바이러스 백신 Intune의 Windows 10 장치 제한 설정](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)
 
 ### <a name="use-configuration-manager-to-configure-file-name-folder-or-file-extension-exclusions"></a>Configuration Manager를 사용하여 파일 이름, 폴더 또는 파일 확장명 제외 구성
 
-Microsoft Endpoint Manager(현재 분기)를 구성하는 방법에 대한 자세한 내용은 맬웨어 방지 정책을 만들고 배포하는 [방법:](/configmgr/protect/deploy-use/endpoint-antimalware-policies#exclusion-settings) 제외 설정을 참조하세요.
+맬웨어 방지 정책을 만들고 배포하는 [방법:](/configmgr/protect/deploy-use/endpoint-antimalware-policies#exclusion-settings) 제외 설정에서 맬웨어 방지 정책(현재 분기)Microsoft Endpoint Manager 참조하세요.
 
 ### <a name="use-group-policy-to-configure-folder-or-file-extension-exclusions"></a>그룹 정책을 사용하여 폴더 또는 파일 확장명 제외 구성
 
@@ -94,7 +95,7 @@ Microsoft Endpoint Manager(현재 분기)를 구성하는 방법에 대한 자�
 
 2. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성으로 이동하고** 관리 템플릿 **을 선택합니다.**
 
-3. **Windows** 구성 요소 Microsoft Defender 바이러스 백신 제외까지  >    >  **트리를 확장합니다.**
+3. 트리를 확장하여 **Windows 구성 요소 Microsoft Defender 바이러스 백신**  >    >  **확장합니다.**
 
 4. 편집할 **경로** 제외 설정을 열고 제외를 추가합니다.
 
@@ -143,13 +144,13 @@ cmdlet의 형식은 다음과 같습니다.
 > [!IMPORTANT]
 > 또는 를 사용하여 목록을 만든 경우 cmdlet을 다시 사용하여 기존 목록을 덮어 `Set-MpPreference` `Add-MpPreference` `Set-MpPreference` 덮어 니다.
 
-예를 들어 다음 코드는 Microsoft Defender 바이러스 백신 검사에서 파일 확장명을 사용하여 모든 파일을 `.test` 제외합니다.
+예를 들어 다음 코드 Microsoft Defender 바이러스 백신 확장명을 사용하여 모든 파일을 `.test` 제외합니다.
 
 ```PowerShell
 Add-MpPreference -ExclusionExtension ".test"
 ```
 
-자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 및 Defender cmdlet 구성 및 [실행을 참조하세요.](/powershell/module/defender/)
+자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 [및 Defender cmdlet을 구성 및 실행을 참조하세요.](/powershell/module/defender/)
 
 ### <a name="use-windows-management-instruction-wmi-to-configure-file-name-folder-or-file-extension-exclusions"></a>WMI(Windows Management Instruction)를 사용하여 파일 이름, 폴더 또는 파일 확장명 제외 구성
 
@@ -168,7 +169,7 @@ ExclusionPath
 
 ### <a name="use-the-windows-security-app-to-configure-file-name-folder-or-file-extension-exclusions"></a>Windows 보안 앱을 사용하여 파일 이름, 폴더 또는 파일 확장명 제외 구성
 
-지침은 Windows 보안 앱에서 제외 [추가를](microsoft-defender-security-center-antivirus.md) 참조하세요.
+지침은 앱의 Windows 보안 [제외 추가를](microsoft-defender-security-center-antivirus.md) 참조하세요.
 
 <a id="wildcards"></a>
 
@@ -277,13 +278,13 @@ ExclusionPath
 - [Windows 보안 앱](microsoft-defender-security-center-antivirus.md)
 
 >[!IMPORTANT]
->그룹 정책으로 변경된 제외 **목록은** Windows 보안 앱의 목록에 [표시됩니다.](microsoft-defender-security-center-antivirus.md)
+>그룹 정책으로 변경된 제외  목록은 앱의 목록에 [Windows 보안 표시됩니다.](microsoft-defender-security-center-antivirus.md)
 >
->Windows 보안 앱의 변경 **내용은 그룹** 정책 목록에 표시되지 않습니다.
+>앱의 Windows 보안 **그룹** 정책 목록에는 변경 내용이 표시되지 않습니다.
 
 PowerShell을 사용하는 경우 다음 두 가지 방법으로 목록을 검색할 수 있습니다.
 
-- 모든 Microsoft Defender 바이러스 백신 기본 설정의 상태를 검색합니다. 각 목록은 별도의 줄에 표시되지만 각 목록 내의 항목이 같은 줄로 결합됩니다.
+- 모든 기본 설정의 Microsoft Defender 바이러스 백신 검색합니다. 각 목록은 별도의 줄에 표시되지만 각 목록 내의 항목이 같은 줄로 결합됩니다.
 - 모든 기본 설정의 상태를 변수에 기록하고 해당 변수를 사용하여 관심 있는 특정 목록만 호출합니다. 각 `Add-MpPreference` 사용은 새 줄에 기록됩니다.
 
 ### <a name="validate-the-exclusion-list-by-using-mpcmdrun"></a>MpCmdRun을 사용하여 제외 목록 유효성 검사
@@ -298,9 +299,9 @@ MpCmdRun.exe -CheckExclusion -path <path>
 ```
 
 >[!NOTE]
->MpCmdRun에서 제외를 확인하려면 Microsoft Defender Antivirus CAMP 버전 4.18.1812.3(2018년 12월에 출시) 이상이 필요합니다.
+>MpCmdRun을 통해 제외를 확인하려면 MICROSOFT DEFENDER 바이러스 백신 CAMP 버전 4.18.1812.3(2018년 12월에 출시) 이상이 필요합니다.
 
-### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>PowerShell을 사용하여 다른 모든 Microsoft Defender 바이러스 백신 기본 설정과 함께 제외 목록 검토
+### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>PowerShell을 사용하여 다른 모든 Microsoft Defender 바이러스 백신 제외 목록 검토
 
 다음 cmdlet을 사용 합니다.
 
@@ -312,7 +313,7 @@ Get-MpPreference
 
 ![다른 기본 설정과 함께 Get-MpPreference 목록을 표시하는 PowerShell 출력](images/defender/wdav-powershell-get-exclusions-all.png)
 
-자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 및 Defender cmdlet 구성 및 [실행을 참조하세요.](/powershell/module/defender/)
+자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 [및 Defender cmdlet을 구성 및 실행을 참조하세요.](/powershell/module/defender/)
 
 ### <a name="retrieve-a-specific-exclusions-list-by-using-powershell"></a>PowerShell을 사용하여 특정 제외 목록 검색
 
@@ -328,7 +329,7 @@ $WDAVprefs.ExclusionPath
 
 ![제외 목록의 항목만 표시하는 PowerShell 출력](images/defender/wdav-powershell-get-exclusions-variable.png)
 
-자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 및 Defender cmdlet 구성 및 [실행을 참조하세요.](/powershell/module/defender/)
+자세한 내용은 [PowerShell cmdlet을](use-powershell-cmdlets-microsoft-defender-antivirus.md) 사용하여 Microsoft Defender 바이러스 백신 [및 Defender cmdlet을 구성 및 실행을 참조하세요.](/powershell/module/defender/)
 
 <a id="validate"></a>
 
@@ -342,7 +343,7 @@ cmdlet 또는 .NET WebClient 클래스와 함께 PowerShell을 사용하여 테�
 Invoke-WebRequest "http://www.eicar.org/download/eicar.com.txt" -OutFile "test.txt"
 ```
 
-Microsoft Defender 바이러스 백신에서 맬웨어를 보고하면 규칙이 작동하지 않습니다. 맬웨어에 대한 보고서가 없는 경우 다운로드한 파일이 있으면 제외가 작동하고 있습니다. 파일을 열어 [EICAR](http://www.eicar.org/86-0-Intended-use.html)테스트 파일 웹 사이트에 설명된 내용과 동일한지 확인할 수 있습니다.
+맬 Microsoft Defender 바이러스 백신 보고하는 경우 규칙이 작동하지 않습니다. 맬웨어에 대한 보고서가 없는 경우 다운로드한 파일이 있으면 제외가 작동하고 있습니다. 파일을 열어 [EICAR](http://www.eicar.org/86-0-Intended-use.html)테스트 파일 웹 사이트에 설명된 내용과 동일한지 확인할 수 있습니다.
 
 또한 cmdlet과 같이 .NET WebClient 클래스를 호출하여 테스트 파일을 다운로드하는 다음 PowerShell 코드를 사용할 수도 있습니다.c:\test.txt파일을 유효성을 검사하는 규칙에 따라 파일로 `Invoke-WebRequest` 대체합니다. 
 
@@ -361,7 +362,7 @@ $client.DownloadFile("http://www.eicar.org/download/eicar.com.txt","c:\test.txt"
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Microsoft Defender 바이러스 백신 검사에서 제외 구성 및 유효성 검사](configure-exclusions-microsoft-defender-antivirus.md)
+- [검사에서 제외 구성 Microsoft Defender 바이러스 백신 유효성 검사](configure-exclusions-microsoft-defender-antivirus.md)
 - [프로세스에서 연 파일에 대한 제외 구성 및 유효성 검사](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Windows Server에서 Microsoft Defender 바이러스 백신 제외 구성](configure-server-exclusions-microsoft-defender-antivirus.md)
-- [제외를 정의할 때 피해야 하는 일반적인 실수](common-exclusion-mistakes-microsoft-defender-antivirus.md)
+- [Microsoft Defender 바이러스 백신 서버에서 Windows 제외 구성](configure-server-exclusions-microsoft-defender-antivirus.md)
+- [제외 정의 시 피해야 하는 일반적인 실수](common-exclusion-mistakes-microsoft-defender-antivirus.md)

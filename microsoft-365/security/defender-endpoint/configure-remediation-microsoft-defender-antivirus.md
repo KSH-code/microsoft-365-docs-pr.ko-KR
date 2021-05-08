@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 03/16/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 98bc079bcfd772ada52d699d5f873a187d4ab4c1
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 45886b94ec5ea11f01bfe23092eef4bd72691554
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765062"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274511"
 ---
 # <a name="configure-remediation-for-microsoft-defender-antivirus-detections"></a>Microsoft Defender 바이러스 백신 검색에 대한 수정 구성
 
@@ -29,7 +30,7 @@ ms.locfileid: "51765062"
 
 **적용 대상:**
 
-- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/) 
+- [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 Microsoft Defender 바이러스 백신이 검색을 실행하면 감지된 위협을 수정하거나 제거하려고 시도합니다. Microsoft Defender 바이러스 백신이 특정 위협을 어떻게 해결해야 하는지, 수정하기 전에 복원 지점을 만들어야 하는지 여부 및 위협을 제거해야 하는 시점을 구성할 수 있습니다.
 
@@ -71,7 +72,7 @@ Microsoft Defender 바이러스 백신이 검색을 실행하면 감지된 위�
 
 - [Microsoft Defender 바이러스 백신 검사 옵션 구성](configure-advanced-scan-types-microsoft-defender-antivirus.md)
 - [예약된 Microsoft Defender 바이러스 백신 검사 구성](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 검사 구성 및 실행](run-scan-microsoft-defender-antivirus.md)
+- [요청 기반 Microsoft Defender 바이러스 백신 검사 구성 및 실행](run-scan-microsoft-defender-antivirus.md)
 - [끝점에 나타나는 알림 구성](configure-notifications-microsoft-defender-antivirus.md)
 - [최종 사용자 Microsoft Defender 바이러스 백신 상호 작용 구성](configure-end-user-interaction-microsoft-defender-antivirus.md)
 - [Microsoft Defender 바이러스 백신 검사 및 수정 사용자 지정, 시작 및 결과 검토](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)

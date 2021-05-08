@@ -9,15 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5662ca08da77e58c331a0dfc2aa301aad4bd4fd6
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 61a7e6cca7cd8e6625870ac380b56a0dbb6bf6b6
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50551599"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52273995"
 ---
 # <a name="payment-information-for-cte-divoire"></a>코트 디부아르 결제 정보
 

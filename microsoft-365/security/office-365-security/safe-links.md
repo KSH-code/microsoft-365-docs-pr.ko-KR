@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 이 문서에서 관리자는 피싱 및 악의적인 URL을 사용하는 기타 공격으로부터 조직을 보호하기 위해 Office 365용 Defender의 안전한 링크 보호에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1f27e1bbd051bd43d1f160707589db2bb7189b76
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 86ecea1e250821f6a7f08d204586db0e60052e5c
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644779"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274439"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 안전한 링크
 
@@ -57,26 +57,28 @@ ms.locfileid: "51644779"
 
   Teams의 안전한 링크 보호에 대한 자세한 내용은 이 문서 의 부분에 있는 [Microsoft Teams의](#safe-links-settings-for-microsoft-teams) 안전한 링크 설정을 참조하세요.
 
-- **Office 365 앱:** Office 365 앱에 대한 안전한 링크 보호는 지원되는 데스크톱, 모바일 및 웹 aps에서 사용할 수 있습니다. 안전 **링크 정책** 외부의 전역 설정에서 Office 365 앱에 대해 안전한 링크 보호를 구성합니다.  자세한 내용은 [Office 365용 Microsoft Defender에서](configure-global-settings-for-safe-links.md)안전한 링크 설정에 대한 전역 설정 구성을 참조하세요.
+- **Office 365 앱:** Office 365 앱에 대한 안전한 링크 보호는 지원되는 데스크톱, 모바일 및 웹 앱에서 사용할 수 있습니다. 안전 **링크 정책** 외부의 전역 설정에서 Office 365 앱에 대해 안전한 링크 보호를 구성합니다.  자세한 내용은 [Office 365용 Microsoft Defender에서](configure-global-settings-for-safe-links.md)안전한 링크 설정에 대한 전역 설정 구성을 참조하세요.
 
-  그러나 Office 365 앱에 대한  안전한 링크 보호는 활성 안전 링크 정책에 포함된 사용자에게만 적용됩니다. 사용자가 활성 안전 링크 정책에 포함되지 않은 경우 사용자는 지원되는 Office 365 앱에서 안전한 링크 보호를 받을 수 없습니다.
+  Office 365 앱의 안전한 링크 보호는 사용자가 활성 안전 링크 정책에 포함되어 있는지 여부에 관계없이 Office 365용 Defender 라이선스가 있는 조직의 모든 사용자에게 적용됩니다.
 
   Office 365 앱의 안전한 링크 보호에 대한 자세한 내용은 이 문서 의 부분에 있는 [Office 365](#safe-links-settings-for-office-365-apps) 앱의 안전 링크 설정 섹션을 참조하세요.
 
 이 문서에는 다음과 같은 유형의 안전 링크 설정에 대한 자세한 설명이 포함되어 있습니다.
 
-- **안전한 링크** 정책의 설정: 이러한 설정은 특정 정책에 포함된 사용자에게만 적용될 수 있으며 정책 간에 설정이 다를 수 있습니다. 이러한 설정은 다음과 같습니다.
+- **안전한 링크** 정책의 설정: 이러한 설정은 특정 정책에 포함된 사용자에게만 적용될 수 있으며 정책 간에 설정이 다를 수 있습니다. 이러한 설정은 다음을 포함합니다.
 
   - [전자 메일 메시지에 대한 안전한 링크 설정](#safe-links-settings-for-email-messages)
   - [Microsoft Teams의 안전한 링크 설정](#safe-links-settings-for-microsoft-teams)
   - [안전한 링크 정책의 "다음 URL을 다시 덮어치지 않습니다." 목록](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)
 
-- **전역 안전 링크 설정:** 이러한 설정은 안전한 링크 정책이 아니라 전역으로 구성됩니다. 그러나 설정은 활성 안전 링크 정책에 포함된 사용자에게만 적용됩니다. 이러한 설정은 다음과 같습니다.
+- **전역 안전 링크 설정:** 이러한 설정은 안전한 링크 정책이 아니라 전역으로 구성됩니다. 그러나 설정은 활성 안전 링크 정책에 포함된 사용자에게만 적용됩니다. 이러한 설정은 다음을 포함합니다.
 
   - [Office 365 앱의 안전한 링크 설정](#safe-links-settings-for-office-365-apps)
   - [안전한 링크에 대한 "다음 URL 차단" 목록](#block-the-following-urls-list-for-safe-links)
 
 다음 표에서는 Office 365용 Defender를 포함 하는 Microsoft 365 및 Office 365 조직의 안전 링크에 대 한 시나리오에 설명 합니다(즉, 라이선스 부족은 예에서 문제가 아닙니다).
+
+<br>
 
 ****
 
@@ -87,6 +89,7 @@ ms.locfileid: "51644779"
 |Pat의 조직에서는 관리자가 안전한 링크 정책을 만들지 않지만 Office 365 앱에 대한 안전한 링크 보호가 켜져 있습니다. Pat에서 Word 문서를 열고 파일의 URL을 클릭합니다.|Pat는 안전한 링크로 보호되지 않습니다. <p> Office 365 앱에 대한 안전한 링크 보호는 전역으로 설정되어 있는 반면, Pat는 활성 안전 링크 정책에 포함되지 않습니다. 따라서 보호를 적용할 수 없습니다.|
 |이민호의 조직은 안전한 링크에 대한 전역 설정의 다음 URL 차단 목록에서 `https://tailspintoys.com` 구성됩니다.  이민호가 포함된 안전한 링크 정책이 이미 있습니다. 이민호는 URL이 포함된 전자 메일 메시지를 `https://tailspintoys.com/aboutus/trythispage` 수신합니다. 이진수는 URL을 클릭합니다.|이민호의 URL이 자동으로 차단될 수 있습니다. 목록의 URL 항목과 이진호가 사용한 전자 메일 클라이언트에 따라 다를 수 있습니다. 자세한 내용은 이 문서 의 부분에 있는 안전한 링크에 대한 ["다음 URL 차단"](#block-the-following-urls-list-for-safe-links) 섹션을 참조하세요.|
 |Jamie와 Julia는 둘 다 contoso.com. 오래 전에 관리자는 Jamie와 Julia 모두에 적용되는 안전 링크 정책을 구성했습니다. Jamie는 전자 메일에 악의적인 URL이 포함되어 있습니다.|조지민 의원에게  적용되는 안전한 링크 정책이 내부 받는 사람 간의 메시지에 적용하도록 구성된 경우 Julia는 안전한 링크로 보호됩니다. 자세한 내용은 이 문서 [부분의](#safe-links-settings-for-email-messages) 전자 메일 메시지에 대한 안전한 링크 설정 섹션을 참조하세요.|
+|
 
 ## <a name="safe-links-settings-for-email-messages"></a>전자 메일 메시지에 대한 안전한 링크 설정
 
@@ -104,9 +107,7 @@ ms.locfileid: "51644779"
   - 유효한 신뢰도에 없는 URL은 백그라운드에서 비동기적으로 확인됩니다.
 
 - **파일을 지정하는** 의심스러운 링크 및 링크에 대한 실시간 URL 검색 적용: 다운로드 가능한 콘텐츠를 지정하는 전자 메일 메시지의 링크를 포함하여 링크를 실시간으로 검색할 수 있습니다. 권장되는 값은 사용하도록 설정되어 있습니다.
-
   - 메시지를 배달하기 전에 URL 검색이 완료될 **때까지 기다릴 수 있습니다.**
-
     - 사용: URL이 포함된 메시지는 검사가 완료될 때까지 보류됩니다. 메시지는 URL이 안전한 것으로 확인된 후에만 배달됩니다. 이 값은 권장 값입니다.
     - 사용 안 하세요: URL 검색을 완료할 수 없는 경우 메시지를 배달합니다.
 
@@ -125,7 +126,6 @@ ms.locfileid: "51644779"
   안전한 링크 정책에 대한 표준 및 엄격한 정책 설정에 대한 권장 값에 대한 자세한 내용은 안전 링크 정책 [설정 을 참조하세요.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
 
 - **받는 사람 필터:** 정책을 적용하는 사람을 결정하는 받는 사람 조건 및 예외를 지정해야 합니다. 조건 및 예외에 대해 다음 속성을 사용할 수 있습니다.
-
   - **받는 사람이 다음과 같음**
   - **받는 사람 도메인**
   - **받는 사람이 다음의 구성원임**
@@ -207,7 +207,7 @@ Office 365 앱의 안전한 링크 보호에는 다음과 같은 클라이언트
 
 - 사용자가 자신의 직장 또는 학교 계정을 사용하여 로그인합니다. 자세한 내용은 [Office에 로그인을 참조하세요.](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426)
 
-안전한 링크 정책이 아니라 안전한 링크에 대한 전역 설정에서 Office 365 앱에 대한 안전한 링크 보호를 구성합니다. 그러나 Office 365 앱에 대한 안전한 링크 보호를 적용하려면 Office 문서를 열고 링크를 클릭하는 사용자가 활성 안전 링크 정책에 포함되어야 합니다.
+안전한 링크 정책이 아니라 안전한 링크에 대한 전역 설정에서 Office 365 앱에 대한 안전한 링크 보호를 구성합니다. 보호는 사용자가 활성 안전 링크 정책에 포함되어 있는지 여부에 관계없이 Office 365용 Defender 라이선스가 있는 조직의 모든 사용자에게 적용됩니다.
 
 Office 365 앱에서 사용할 수 있는 안전한 링크 설정은 다음과 같습니다.
 
@@ -256,26 +256,23 @@ Office 365 앱에서 URL에 대해 안전한 링크 보호가 작동하는 방�
 
 안전한 링크에 대한 전역 설정에서 URL 목록을 구성합니다. 자세한 내용은 [Configure the "Block the following URLs" list을 참조하십시오.](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center)
 
-> [!NOTE]
-> 
-> - 모든 곳에서 차단되는 URL의 진정한 범용 목록은 [테넌트 허용/차단 목록 관리를 참조하세요.](tenant-allow-block-list.md)
-> 
-> - 제한:
->   - 최대 항목 수는 500개입니다.
->   - 항목의 최대 길이는 128자입니다.
->   - 모든 항목은 10,000자까지 입력할 수 있습니다.
-> 
-> - URL의 끝에 `/` 슬래시()를 포함하지 않습니다. 예를 들어 `https://www.contoso.com` 를 사용하지 `https://www.contoso.com/` 않습니다.
-> 
-> - 도메인 전용 URL(예: 또는 )은 도메인이 포함된 `contoso.com` `tailspintoys.com` 모든 URL을 차단합니다.
-> 
-> - 전체 도메인을 차단하지 않고 하위 도메인을 차단할 수 있습니다. 예를 들어 하위 도메인이 포함된 URL은 차단하지만 전체 도메인이 포함된 `toys.contoso.com*` URL은 차단하지 `contoso.com` 않습니다.
-> 
-> - URL 항목당 최대 3개의 와일드카드( `*` )를 포함할 수 있습니다.
+**참고**:
+
+- 모든 곳에서 차단되는 URL의 진정한 범용 목록은 [테넌트 허용/차단 목록 관리를 참조하세요.](tenant-allow-block-list.md)
+- 다음 URL **차단 목록에 대한 제한 사항:**
+  - 최대 항목 수는 500개입니다.
+  - 항목의 최대 길이는 128자입니다.
+  - 모든 항목은 10,000자까지 입력할 수 있습니다.
+- URL의 끝에 `/` 슬래시()를 포함하지 않습니다. 예를 들어 `https://www.contoso.com` 를 사용하지 `https://www.contoso.com/` 않습니다.
+- 도메인 전용 URL(예: 또는 )은 도메인이 포함된 `contoso.com` `tailspintoys.com` 모든 URL을 차단합니다.
+- 전체 도메인을 차단하지 않고 하위 도메인을 차단할 수 있습니다. 예를 들어 하위 도메인이 포함된 URL은 차단하지만 전체 도메인이 포함된 `toys.contoso.com*` URL은 차단하지 `contoso.com` 않습니다.
+- URL 항목당 최대 3개의 와일드카드( `*` )를 포함할 수 있습니다.
 
 ### <a name="entry-syntax-for-the-block-the-following-urls-list"></a>"다음 URL 차단" 목록에 대한 항목 구문
 
 다음 표에는 입력할 수 있는 값과 해당 결과가 설명되어 있습니다.
+
+<br>
 
 ****
 
@@ -296,24 +293,24 @@ Office 365 앱에서 URL에 대해 안전한 링크 보호가 작동하는 방�
 
 새 링크 정책 또는 기존 안전 링크 정책의 목록에 항목을 추가하려면 [안전](set-up-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) 링크 정책 만들기 또는 안전한 링크 정책 [수정을 참조하세요.](set-up-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies)
 
-> [!NOTE]
-> 
-> - 다음 클라이언트는 안전 링크 정책에서 다음 URL 목록을 다시 덮어 **들이지** 않습니다.를 인식하지 못합니다. 이러한 클라이언트에서 안전한 링크 검색 결과를 기반으로 하여 해당 사이트에 포함된 사용자는 URL에 액세스하지 차단할 수 있습니다.
-> 
->   - Microsoft Teams
->   - Office Web Apps
-> 
->   모든 곳에서 허용되는 진정한 범용 URL 목록은 [테넌트 허용/차단 목록 관리를 참조하세요.](tenant-allow-block-list.md)
-> 
-> - 사용자 환경을 개선하기 위해 일반적으로 사용되는 내부 URL을 목록에 추가하는 것이 있습니다. 예를 들어 비즈니스용 Skype 또는 SharePoint와 같은 사내 서비스가 있는 경우 해당 URL을 추가하여 검색에서 제외할 수 있습니다.
-> 
-> - 안전 링크 정책에 다음 **URL** 항목을 다시 작성하지 않은 경우 목록을 검토하고 필요한 경우 와일드카드를 추가해야 합니다. 예를 들어 목록에 다음과 같은 항목이 있으며 나중에 과 같은 하위 경로가 `https://contoso.com/a` 포함하기로 `https://contoso.com/a/b` 결정됩니다. 새 항목을 추가하는 대신 기존 항목에 와일드카드를 추가하여 와일드카드를 추가하면 와일드카드가 `https://contoso.com/a/*` 됩니다.
-> 
-> - URL 항목당 최대 3개의 와일드카드( `*` )를 포함할 수 있습니다. 와일드카드에는 명시적으로 prefixes 또는 subdomains가 포함됩니다. 예를 들어 사용자가 지정된 도메인의 하위 도메인 및 경로를 방문할 수 있기 때문에 항목은 `contoso.com` `*.contoso.com/*` 과 `*.contoso.com/*` 같지 않습니다.
+**참고**:
+
+- 다음 클라이언트는 안전 링크 정책에서 다음 URL 목록을 다시 덮어 **들이지** 않습니다.를 인식하지 못합니다. 이러한 클라이언트에서 안전한 링크 검색 결과를 기반으로 하여 해당 사이트에 포함된 사용자는 URL에 액세스하지 차단할 수 있습니다.
+  - Microsoft Teams
+  - Office Web Apps
+
+  모든 곳에서 허용되는 진정한 범용 URL 목록은 [테넌트 허용/차단 목록 관리를 참조하세요.](tenant-allow-block-list.md)
+
+- 사용자 환경을 개선하기 위해 일반적으로 사용되는 내부 URL을 목록에 추가하는 것이 있습니다. 예를 들어 비즈니스용 Skype 또는 SharePoint와 같은 사내 서비스가 있는 경우 해당 URL을 추가하여 검색에서 제외할 수 있습니다.
+- 안전 링크 정책에 다음 **URL** 항목을 다시 작성하지 않은 경우 목록을 검토하고 필요한 경우 와일드카드를 추가해야 합니다. 예를 들어 목록에 다음과 같은 항목이 있으며 나중에 과 같은 하위 경로가 `https://contoso.com/a` 포함하기로 `https://contoso.com/a/b` 결정됩니다. 새 항목을 추가하는 대신 기존 항목에 와일드카드를 추가하여 와일드카드를 추가하면 와일드카드가 `https://contoso.com/a/*` 됩니다.
+- URL 항목당 최대 3개의 와일드카드( `*` )를 포함할 수 있습니다. 와일드카드에는 명시적으로 prefixes 또는 subdomains가 포함됩니다. 예를 들어 사용자가 지정된 도메인의 하위 도메인 및 경로를 방문할 수 있기 때문에 항목은 `contoso.com` `*.contoso.com/*` 과 `*.contoso.com/*` 같지 않습니다.
+- URL에서 HTTP에서 HTTPS로의 자동 리디렉션(예: 302로 리디렉션)을 사용하는 경우 목록의 동일한 URL에 대해 HTTP 및 HTTPS 항목을 모두 입력하려고 시도하면 두 번째 URL 항목이 첫 번째 URL 항목을 대체하는 것을 알 수 `http://www.contoso.com` `https://www.contoso.com` 있습니다. URL의 HTTP 버전과 HTTPS 버전이 완전히 분리되어 있는 경우 이 동작은 발생하지 않습니다.
 
 ### <a name="entry-syntax-for-the-do-not-rewrite-the-following-urls-list"></a>"다음 URL을 다시 덮어치지 않습니다." 목록에 대한 항목 구문
 
 다음 표에는 입력할 수 있는 값과 해당 결과가 설명되어 있습니다.
+
+<br>
 
 ****
 
