@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 사용자가 전자 메일과 문서, 대화를 사용하여 생성하는 콘텐츠를 효율적으로 유지 관리할 수 있습니다. 원하는 내용을 유지하고 원하지 않는 항목을 제거하세요.
-ms.openlocfilehash: 2b2ce9670e9f297c89ed70e1b37c17aa59b80844
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9e7ab359297ef1402fa64bc754591a4be3140af0
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687274"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52269507"
 ---
 # <a name="create-and-configure-retention-policies"></a>보존 정책 만들기 및 구성
 
@@ -74,7 +74,10 @@ Microsoft 365에서의 보존 정책과 보존 레이블 작동 방식에 대한
 
    **Teams 채널 메시지** 의 경우, 표준 채널이지만 [비공개 채널](/microsoftteams/private-channels)의 메시지는 포함되지 않습니다. 현재 개인 채널은 보존 정책에서 지원되지 않습니다.
 
-   기본적으로 [모든 팀과 모든 사용자가 선택되어 있지만](#a-policy-that-applies-to-entire-locations), [**선택** 및 **배제** 옵션](#a-policy-with-specific-inclusions-or-exclusions)을 선택하여 이를 구체화할 수 있습니다.
+   기본적으로 [모든 팀과 모든 사용자가 선택되어 있지만](#a-policy-that-applies-to-entire-locations), [**선택** 및 **배제** 옵션](#a-policy-with-specific-inclusions-or-exclusions)을 선택하여 이를 구체화할 수 있습니다. 그러나 기본값을 변경하기 전에 포함 또는 제외되도록 구성할 때 메시지를 삭제하는 보존 정책의 다음과 같은 결과에 유의해야 합니다.
+    
+    - 그룹 채팅의 경우 메시지 복사본이 채팅에 포함된 각 사용자의 사서함에 저장되어 있기 때문에 정책을 할당하지 않은 사용자의 메시지 복사본이 eDiscovery 결과에 계속 반환됩니다.
+    - 정책을 할당하지 않은 사용자의 경우 삭제된 메시지가 Teams 검색 결과에 반환되지만 사용자에게 할당된 정책에서 영구적으로 삭제한 결과 메시지 내용은 표시되지 않습니다.
 
 4. **콘텐츠를 유지, 삭제 또는 둘 다 수행할지 결정** 마법사 페이지에서 컨텐츠 유지 및 삭제에 대한 구성 옵션을 지정하세요.
 
@@ -82,7 +85,9 @@ Microsoft 365에서의 보존 정책과 보존 레이블 작동 방식에 대한
 
 5. 마법사를 완료하여 설정을 저장합니다.
 
-Teams 보존 정책에 대한 자세한 내용은 Teams 설명서에서 [Microsoft Teams의 보존 정책](/microsoftteams/retention-policies)을 참조하세요.
+Teams 보존 정책 사용 시기에 대한 자세한 내용은 Teams 설명서의 [Microsoft Teams의 보존 정책](/microsoftteams/retention-policies)을 참조하세요.
+
+예제 안내를 통해 보존 및 타이밍 정보를 위해 지원되는 메시지 요소를 포함한 Teams에 대해 보존이 작동하는 방식에 대한 기술 세부 정보는 [Microsoft Teams의 보존에 대해 자세히 알아보기](retention-policies-teams.md)를 참조하세요.
 
 #### <a name="known-configuration-issues"></a>알려진 구성 문제
 

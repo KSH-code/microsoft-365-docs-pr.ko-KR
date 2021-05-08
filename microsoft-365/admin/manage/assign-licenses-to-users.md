@@ -22,12 +22,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 사용자에게 라이선스를 할당하는 방법을 알아봅니다.
-ms.openlocfilehash: 9fa8981949215c4cf7779a21ff7089d7534e1ef0
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: ae088ab5c26df9b782bd4433bbd0c9f2d0ed9348
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023752"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274379"
 ---
 # <a name="assign-licenses-to-users"></a>사용자에게 라이선스 할당
 
@@ -41,9 +41,10 @@ ms.locfileid: "52023752"
 ## <a name="before-you-begin"></a>시작하기 전에 다음의 조건을 만족해야 합니다.
 
 - 라이선스를 할당하려면 전역, 라이선스 또는 사용자 관리자여야 합니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](../add-users/about-admin-roles.md)를 참조하세요.
-- [Office 365 PowerShell을 사용하여 사용자 계정에 라이선스를 할당](../../enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)할 수 있습니다.
+- [PowerShell을 사용하여 사용자 계정에 Microsoft 365 라이선스를 할당](../../enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)할 수 있습니다.
 - 그룹 기반 라이선싱을 사용하려면 [Azure Active Directory에서 그룹 구성원으로 사용자에게 라이선스 할당](/azure/active-directory/users-groups-roles/licensing-groups-assign)을 참조하세요.
 - Sway와 같은 일부 서비스는 사용자에게 자동으로 할당되므로 개별적으로 할당할 필요가 없습니다.
+
 
 ## <a name="use-the-licenses-page-to-assign-licenses-to-users"></a>라이선스 페이지를 사용하여 사용자에게 라이선스 할당
 
@@ -128,6 +129,10 @@ ms.locfileid: "52023752"
 5. **기존 제품에 추가** 창에서 선택한 사용자에게 제공하려는 라이선스의 **설정** 위치로 토글합니다.
     기본적으로 해당 라이선스와 연결된 모든 서비스가 사용자에게 자동으로 할당됩니다. 사용자가 이용할 수 있는 서비스를 제한할 수 있습니다. 사용자에게 제공하지 않으려는 서비스의 **해제** 위치로 토글합니다.
 6. 창의 아래쪽에서 **추가** \> **닫기** 를 선택합니다.  
+
+
+> [!NOTE]
+> 많은 수의 사용자에게 라이선스를 할당하려는 경우 [Azure Active Directory에서 그룹 구성원으로 사용자에게 라이선스 할당](/azure/active-directory/enterprise-users/licensing-groups-assign)을 사용하세요.
 
 ### <a name="assign-licenses-to-one-user"></a>한 명의 사용자에게 라이선스 할당
 
