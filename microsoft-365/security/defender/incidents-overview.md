@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e2e29015d4cb5e04510577118eb847b9b596a6c5
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 93751a8297e61a969e0049e27a847324a3d16872
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114285"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300016"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Defender의 Microsoft 365 인시던트
 
@@ -62,7 +62,7 @@ Defender의 인시던트에 대한 Microsoft 365 간략한 개요를 시청하�
 - 공격 범위(예: 영향을 받는 장치, 사용자 및 사서함 수)입니다. 
 - 공격과 관련된 모든 데이터입니다.
 
-로 [설정하면](m365d-enable.md)Microsoft 365 자동화 및 인공 지능을 통해 경고를 자동으로 조사하고 해결할 수 있습니다. 추가 수정 단계를 수행하여 공격을 해결할 수도 있습니다. 
+이 [옵션을](m365d-enable.md)Microsoft 365 Defender는 [](m365d-autoir.md) 자동화 및 인공 지능을 통해 경고를 자동으로 조사하고 해결할 수 있습니다. 추가 수정 단계를 수행하여 공격을 해결할 수도 있습니다. 
 
 ## <a name="incidents-and-alerts-in-the-microsoft-365-security-center"></a>보안 센터의 인시던트 Microsoft 365 알림
 
@@ -94,11 +94,15 @@ Defender의 인시던트에 대한 Microsoft 365 간략한 개요를 시청하�
 
 - 조사
 
-  인시던트의 경고에 의해 트리거된 모든 자동화된 조사.
+  [인시던트의](m365d-autoir.md) 경고에 의해 트리거된 모든 자동화된 조사.
 
 - 증거 및 응답
 
   인시던트의 경고에서 지원되는 모든 이벤트 및 의심스러운 엔터티
+
+- Graph(미리 보기)
+
+  조직의 영향을 미치는 자산에 대한 경고의 연결을 보여 미치는 그림입니다.
 
 다음은 인시던트와 인시던트 데이터 및 인시던트 보안 센터의 인시던트 탭 Microsoft 365 관계입니다.
 
@@ -115,7 +119,7 @@ Defender의 인시던트에 대한 Microsoft 365 간략한 개요를 시청하�
 - [인시던트](incident-queue.md) 큐 필터링 및 정렬을 통해 우선 순위가 가장 높은 인시던트 결정
 - [직위를](manage-incidents.md) 수정하고, 분석가에게 할당하고, 태그와 설명을 추가하여 인시던트 관리
 
-1. 각 인시던트에 대해 공격 [및 경고 분석을 시작합니다.](investigate-incidents.md)
+1. 각 인시던트에 대해 [공격을 시작하고 조사 및 분석을 경고합니다.](investigate-incidents.md)
  
    a. 인시던트의 요약을 보고 인시던트의 범위 및 심각도와 영향을  받는 엔터티(요약 탭)를 이해합니다.
 
@@ -123,7 +127,7 @@ Defender의 인시던트에 대한 Microsoft 365 간략한 개요를 시청하�
 
    c. 필요한 경우 영향을 받는 장치, 사용자 및 사서함(장치, 사용자 및 사서함 탭)에 대한 **정보를** 수집합니다. 
 
-   d. Defender에서 Microsoft 365 경고를 자동으로 해결한 방법을 **참조합니다(조사** 탭).
+   d. Defender에서 Microsoft 365 경고를 [](m365d-autoir.md) 자동으로 해결한 방법을 참조합니다(조사 **탭).**
    
    e. 필요한 경우 인시던트에 대한 데이터 집합의 정보를 사용하여 자세한 정보(증거 및 응답 **탭)를 사용합니다.**
 
@@ -149,7 +153,7 @@ Defender의 인시던트에 대한 Microsoft 365 간략한 개요를 시청하�
 일별 작업에는 다음이 포함됩니다.
 
 - [인시던트](manage-incidents.md) 관리
-- 자동화된 조사 및 [대응(AIR)](m365d-action-center.md) 작업 검토
+- 관리 [센터에서 자동화된 조사 및 대응(AIR)](m365d-action-center.md) 작업 검토
 - 최신 위협 [분석 검토](threat-analytics.md)
 - [인시던트에](investigate-incidents.md) 응답
 
@@ -167,8 +171,19 @@ Defender의 인시던트에 대한 Microsoft 365 간략한 개요를 시청하�
 
 ## <a name="next-steps"></a>다음 단계
 
-인시던트  페이지의 인시던트 큐에 최근 인시던트가 나열됩니다. 여기에서 다음을 할 수 있습니다.
+**보안 분석 및 인시던트** 대응이 새로운 경우:
 
-- 심각도 및 기타 [](incident-queue.md) 요인에 따라 우선 순위를 지정해야 하는 사고를 참조합니다. 
-- [인시던트](manage-incidents.md)관리 워크플로의 이름 변경, 할당, 분류 및 태그 및 설명 추가를 포함하는 인시던트 관리
-- [인시던트 분석을](investigate-incidents.md) 수행 합니다.
+- 공격의 [](first-incident-overview.md) 예와 함께 Microsoft 365 보안 센터에서 일반적인 분석, 수정 및 인시던트 사후 검토 과정을 안내하는 첫 번째 인시던트에 응답을 참조하세요.
+
+**보안 분석 및 인시던트** 대응 경험이 있는 경우:
+
+- 보안 센터의 인시던트  페이지에서 인시던트 Microsoft 365 시작하세요. 여기에서 다음을 할 수 있습니다.
+
+  - 심각도 및 기타 [](incident-queue.md) 요인에 따라 우선 순위를 지정해야 하는 사고를 참조합니다. 
+
+  - [인시던트](manage-incidents.md)관리 워크플로를 기반으로 태그 및 설명을 변경, 할당, 분류 및 추가하는 인시던트 관리
+
+  - [인시던트 조사를](investigate-incidents.md) 수행합니다.
+
+- [피싱,](https://docs.microsoft.com/security/compass/incident-response-playbooks) 암호 분사 및 앱 동의 부여 공격에 대한 자세한 지침은 다음 인시던트 대응 플레이북을 참조하세요.
+

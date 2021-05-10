@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 801e42122461ecff306d35fff94ce1a346b94007
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 09820fbf6bc636f4312ba26daa85570f36ef1d2d
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547747"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298929"
 ---
 # <a name="contact-support-for-djibouti"></a>지부티 지원에 문의
 
-[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)
+[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>전화 번호
 +1 312 843 5147

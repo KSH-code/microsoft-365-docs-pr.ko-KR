@@ -12,14 +12,14 @@ search.appverid:
 ms.assetid: 1f01bc6f-5d37-4d14-bdd3-9d94a1e23e14
 f1.keywords:
 - NOCSH
-description: 핵심 데이터를 새 Office 365 데이터 센터 지역으로 이동하는 데 대한 FAQ(질문과 대답)에 대한 답변을 제공합니다.
+description: 핵심 데이터를 새 데이터 센터 지역으로 이동하는 데 대한 FAQ(질문과 대답)Office 365 있습니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e66c9f29b47c3f1bc8d6e89ebf2f077eee9f4adf
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 46dfdddc50c62970b679a130b3cccf692648cd5c
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919131"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298055"
 ---
 # <a name="data-move-general-faq"></a>데이터 이동 일반 FAQ
 
@@ -27,26 +27,26 @@ ms.locfileid: "50919131"
   
 ## <a name="what-customers-are-eligible-to-request-a-move"></a>이동을 요청할 자격이 있는 고객은 무엇입니까?
   
-새 데이터 센터 지역을 사용할 수 있는 국가를 선택한 기존 Microsoft 365 상용 고객은 이동을 요청할 수 있습니다. 이 프로그램은 Microsoft 365 테넌트에 할당된 적격 국가 코드가 있는 테넌트에게만 존재하여 적합한 워크로드에 대한 핵심 고객 데이터를 해당 Microsoft 365 데이터 센터 지역으로 마이그레이션할 수 있습니다. 국가 자격을 [](request-your-data-move.md) 확인하기 위해 데이터 이동을 요청하는 방법 페이지를 참조하세요.   
+새 Microsoft 365 지역을 선택한 기존 Microsoft 365 상용 고객은 이동을 요청할 수 있습니다. 이 프로그램은 Microsoft 365 테넌트에 할당된 적격 국가 코드가 있는 테넌트에만 존재하여 적합한 워크로드의 핵심 고객 데이터를 해당 Microsoft 365 데이터 센터 지역으로 마이그레이션합니다. 국가 자격을 [](request-your-data-move.md) 확인하기 위해 데이터 이동을 요청하는 방법 페이지를 참조하세요.   
 
 ## <a name="how-do-we-define-core-customer-data"></a>핵심 고객 데이터를 정의하는 방법
  
 핵심 고객 데이터는 다음 조건에 정의된 고객 데이터의 하위 집합을 [Microsoft Online Services 용어입니다.](https://aka.ms/ost) 
-- Exchange Online 사서함 콘텐츠(전자 메일 본문, 일정 항목 및 전자 메일 첨부 파일 콘텐츠)
-- SharePoint Online 사이트 콘텐츠 및 해당 사이트에 저장된 파일
-- 비즈니스용 OneDrive에 업로드된 파일 
+- Exchange Online 콘텐츠(전자 메일 본문, 일정 항목 및 전자 메일 첨부 파일 콘텐츠)
+- SharePoint 온라인 사이트 콘텐츠 및 해당 사이트에 저장된 파일
+- 파일에 업로드된 비즈니스용 OneDrive 
 
-## <a name="what-is-in-scope-for-teams-migration"></a>Teams 마이그레이션의 범위는 무엇입니까?
+## <a name="what-is-in-scope-for-teams-migration"></a>마이그레이션의 범위는 Teams 무엇입니까?
 
-Exchange Online, SharePoint Online 및 비즈니스용 OneDrive 외에도 Microsoft는 Teams 데이터를 로컬 데이터 센터로 마이그레이션합니다. 
-- 비공개 메시지 및 채널 메시지를 비롯한 Teams 채팅 메시지 
-- 채팅에 사용되는 Teams 이미지입니다. 
+Exchange Online, SharePoint Online 및 비즈니스용 OneDrive. Microsoft는 로컬 Teams 데이터 센터로 마이그레이션합니다. 
+- Teams 및 채널 메시지를 비롯한 채팅 메시지를 제공합니다. 
+- Teams 사용되는 이미지입니다. 
 
-Teams 파일은 SharePoint Online에 저장되고 Teams 채팅 파일은 비즈니스용 OneDrive에 저장됩니다. 음성 메일, 일정 및 연락처는 Exchange Online에 저장됩니다. 대부분의 경우 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive는 로컬 데이터 센터 지역의 고객이 이미 사용하며 적합한 고객 국가에 대한 Microsoft 365 마이그레이션 프로그램의 일부로도 사용됩니다.
+Teams 파일은 SharePoint 온라인에 저장되고 Teams 파일은 온라인 비즈니스용 OneDrive. 음성 메일, 일정 및 연락처는 Exchange Online. 대부분의 경우 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive 로컬 데이터 센터 지역의 고객이 이미 사용 중이며 적합한 고객 국가에 대한 Microsoft 365 마이그레이션 프로그램의 일부로도 사용됩니다.
 
 ## <a name="at-what-point-is-my-migration-complete-so-that-my-tenants-core-customer-data-is-being-stored-at-rest-in-my-new-geo"></a>테넌트의 핵심 고객 데이터가 새 위치에 저장될 수 있도록 마이그레이션이 완료되는 시점은 무엇입니까?
 
-Exchange Online과 SharePoint Online/비즈니스용 OneDrive 간의 공유 종속성으로 인해 두 서비스가 모두 마이그레이션될 때까지 마이그레이션이 완료된 것으로 간주할 수 없습니다. Exchange Online 및 SharePoint Online/비즈니스용 OneDrive는 종종 별도의 시간 및 독립적으로 마이그레이션됩니다. 고객 테넌트 관리자는 각 서비스 마이그레이션이 완료되면 메시지 센터에서 확인을 받고, 관리 센터에서 데이터 위치 카드를 확인하여 각 서비스의 휴지 상태의 핵심 고객 데이터를 확인할 수 있습니다.
+Exchange Online Online/SharePoint 비즈니스용 OneDrive 공유 종속성으로 인해 두 서비스가 모두 마이그레이션될 때까지 마이그레이션이 완료된 것으로 간주할 수 없습니다. Exchange Online 온라인/SharePoint/비즈니스용 OneDrive 독립적으로 별도의 시간으로 마이그레이션하는 경우가 종종 있습니다. 고객 테넌트 관리자는 각 서비스 마이그레이션이 완료되면 메시지 센터에서 확인을 받고, 관리 센터에서 데이터 위치 카드를 확인하여 각 서비스의 휴지 상태의 핵심 고객 데이터를 확인할 수 있습니다.
 
 ## <a name="how-do-you-make-sure-my-customer-data-is-safe-during-the-move-and-that-i-wont-experience-downtime"></a>이동 중에 고객 데이터를 안전하게 보호하고 다운타임이 경험하지 않는지 어떻게 확인하나요?
   
@@ -56,11 +56,11 @@ Exchange Online과 SharePoint Online/비즈니스용 OneDrive 간의 공유 종�
   
 ## <a name="what-is-the-impact-of-having-different-services-located-in-different-geos"></a>서로 다른 지리적 위치가 다른 서비스가 있는 경우의 영향은 무엇입니까?
 
-일부 Microsoft 365 서비스는 일부 기존 고객 및 이동 프로세스의 중간에 있는 고객에 대해 서로 다른 지역으로 위치할 수 있습니다. 서비스가 서로 독립적으로 실행됩니다. 이 경우 사용자 환경에는 영향이 없습니다. 그러나 데이터 상주를 위해 Exchange Online 및 SharePoint Online/비즈니스용 OneDrive를 동일한 데이터 센터 지역으로 마이그레이션해야만 테넌트 마이그레이션이 완료된 것으로 간주될 수 있습니다.
+일부 Microsoft 365 서비스는 일부 기존 고객 및 이동 프로세스의 중간에 있는 고객에 대해 서로 다른 지역으로 위치할 수 있습니다. 서비스가 서로 독립적으로 실행됩니다. 이 경우 사용자 환경에는 영향이 없습니다. 그러나 데이터 상주를 위해 테넌트 마이그레이션은 Exchange Online 및 SharePoint Online/비즈니스용 OneDrive 동일한 데이터 센터 지역으로 마이그레이션할 때까지는 완료된 것으로 간주할 수 없습니다.
 
  ## <a name="where-is-my-core-customer-data-located"></a>핵심 고객 데이터는 어디에 있나요?
 
-고객 테넌트 관리자는 관리 센터에서 데이터 위치 카드를 보고, 특히 해당 테넌트에 대한 각 서비스의 휴지 위치에 있는 핵심 고객 데이터를 확인할 수 있습니다.  [또한 Microsoft 365](https://office.com/datamaps) 대화형 데이터 센터에서 데이터 센터 지역, 데이터 센터 및 Office 365 고객 데이터의 위치도 새 테넌트의 휴지 위치에 있는 현재 기본 핵심 고객 데이터에 대한 참조로 게시합니다. Microsoft 365 관리 센터의 조직 프로필 아래 데이터 위치 섹션을 통해 휴지의 고객 데이터 위치를 확인할 수 있습니다.  
+고객 테넌트 관리자는 관리 센터에서 데이터 위치 카드를 보고, 특히 해당 테넌트에 대한 각 서비스의 휴지 위치에 있는 핵심 고객 데이터를 확인할 수 있습니다.  또한 Microsoft 365 대화형 데이터 센터에서 데이터 센터 지역, 데이터 센터 및 Office 365 [](https://office.com/datamaps) 고객 데이터의 위치도 새 테넌트의 휴지 위치에 있는 현재 기본 핵심 고객 데이터에 대한 참조로 게시합니다. 조직 관리 센터의 조직 프로필 아래 데이터 위치 섹션을 통해 미사용 고객 Microsoft 365 확인할 수 있습니다.  
  
 ## <a name="when-will-i-be-able-to-request-a-move"></a>언제 이동을 요청할 수 있나요?
   
@@ -68,7 +68,7 @@ Exchange Online과 SharePoint Online/비즈니스용 OneDrive 간의 공유 종�
   
 ## <a name="how-can-i-request-to-be-moved"></a>이동을 요청하는 방법
   
-적격 [고객에게는 Microsoft 365 관리 센터의 페이지가 표시됩니다.](https://admin.microsoft.com/) 이동을 [요청하는](request-your-data-move.md) 방법에 대한 지침은 데이터 이동을 요청하는 방법을 참조하세요. 
+적격 고객에게는 고객 센터의 Microsoft 365 [표시됩니다.](https://admin.microsoft.com/) 이동을 [요청하는](request-your-data-move.md) 방법에 대한 지침은 데이터 이동을 요청하는 방법을 참조하세요. 
   
 ## <a name="can-i-change-my-selection-after-requesting-a-move"></a>이동을 요청한 후 선택을 변경할 수 있나요?
   
@@ -80,7 +80,7 @@ Exchange Online과 SharePoint Online/비즈니스용 OneDrive 간의 공유 종�
 
 ## <a name="what-if-i-want-to-move-my-data-in-order-to-get-better-network-performance"></a>네트워크 성능을 개선하기 위해 데이터를 이동하려는 경우 어떻게 하나요?
   
-Microsoft 365 데이터 센터와의 물리적 근접성은 더 나은 네트워킹 성능을 보장하지 않습니다. 최종 사용자와 Microsoft 365 서비스 간의 네트워크 성능에 영향을 주는 요인과 구성 요소는 여러 가지가 있습니다. 이 조정 및 성능 조정에 대한 자세한 내용은 [Microsoft 365의](network-planning-and-performance.md)네트워크 계획 및 성능 조정을 참조하세요.
+데이터 센터와의 물리적 Microsoft 365 더 나은 네트워킹 성능을 보장하지는 않습니다. 최종 사용자와 최종 사용자 간의 네트워크 성능에 영향을 주는 요인과 구성 요소는 Microsoft 365 있습니다. 이 조정 및 성능 조정에 대한 자세한 내용은 에 대한 네트워크 계획 및 성능 [조정을 Microsoft 365.](network-planning-and-performance.md)
   
  ## <a name="do-all-the-services-move-their-data-on-the-same-day"></a>모든 서비스가 같은 날에 데이터를 이동하나요?
  
@@ -100,13 +100,13 @@ Microsoft는 이동의 구체적 날짜나 기간을 알려드릴 수 없습니�
   
  ## <a name="how-do-i-know-the-move-is-complete"></a>이동이 완료된 것을 어떻게 알 수 있나요?
   
-Microsoft 365 메시지 센터에서 각 서비스의 데이터 이동이 완료된지 확인을 시청합니다. 각 서비스의 데이터가 이동하면 완료 알림이 게시됩니다. 그러면 Exchange Online, SharePoint Online 및 비즈니스용 Skype Online에 대해 각각 하나씩 세 개의 완료 알림이 전송됩니다. Microsoft 365 관리 센터의 조직 프로필 아래 데이터 위치 섹션을 통해 미사시 고객 데이터의 위치를 확인할 수도 있습니다.  
+각 Microsoft 365 데이터 이동이 완료되어 있는지 확인을 위해 메시지 센터를 봐야 합니다. 각 서비스의 데이터가 이동하면 완료 알림이 게시되어 Exchange Online, SharePoint Online 및 비즈니스용 Skype Online에 대해 각각 하나씩 완료 알림이 비즈니스용 Skype 있습니다. 또한 Microsoft 365 관리 센터의 조직 프로필 아래 데이터 위치 섹션을 통해 미사용 고객 데이터의 위치를 확인할 수 있습니다.  
   
-## <a name="i-am-a-microsoft-365-customer-in-one-of-the-new-datacenter-geos-but-when-i-signed-up-i-selected-a-different-country-how-can-i-be-moved-to-the-new-datacenter-geo"></a>새 데이터 센터 지역 중 하나에 있는 Microsoft 365 고객이지만 등록할 때 다른 국가를 선택했습니다. 새 데이터 센터 지역으로 이동하는 방법
+## <a name="i-am-a-microsoft-365-customer-in-one-of-the-new-datacenter-geos-but-when-i-signed-up-i-selected-a-different-country-how-can-i-be-moved-to-the-new-datacenter-geo"></a>I am a Microsoft 365 customer in one of the new datacenter geos, but when I signed up, I selected a different country. 새 데이터 센터 지역으로 이동하는 방법
 
 테넌트와 연결된 등록 국가는 변경할 수 없습니다. 대신 새 구독을 사용하여 새 Microsoft 365 테넌트를 만들고 사용자 및 데이터를 새 테넌트로 수동으로 이동해야 합니다.
   
-## <a name="what-happens-if-we-are-in-process-of-email-data-migration-to-microsoft-365-during-the-exchange-online-move"></a>Exchange Online 이동 중에 Microsoft 365로 전자 메일 데이터 마이그레이션을 진행하는 경우 어떻게 하나요?
+## <a name="what-happens-if-we-are-in-process-of-email-data-migration-to-microsoft-365-during-the-exchange-online-move"></a>사용자가 이동하는 동안 전자 메일 데이터 마이그레이션을 Microsoft 365 경우 Exchange Online 어떻게 하나요?
 
 이 시나리오는 매우 일반적인 시나리오로, 완전히 지원됩니다.  데이터 센터 지역 간의 클라우드 마이그레이션은 클라우드 사서함 마이그레이션을 방해하지 않습니다.
   
@@ -122,9 +122,9 @@ Microsoft 365 메시지 센터에서 각 서비스의 데이터 이동이 완료
   
 ## <a name="my-customer-data-has-already-been-moved-to-a-new-datacenter-geo-can-i-move-back"></a>내 고객 데이터가 이미 새 데이터 센터 지역으로 이동되어 있습니다. 다시 이동할 수 있나요?
  
-아니요. 이 경우 불가능합니다. 새 지리적 데이터 센터로 이동된 고객은 다시 이동할 수 없습니다. 모든 지역 고객은 이전과 동일한 서비스 품질, 성능 및 보안 제어를 경험하게 됩니다. [일부 고객은 Microsoft 365 Multi Geo를](https://aka.ms/multi-geo) 추가 기능으로 사용할 수 있으며, 단일 테넌트가 여러 위성 지역을 만들고 데이터 레지던시 약정을 사용하여 사용자 데이터를 해당 지역으로 이동할 수 있습니다.
+아니요. 이 경우 불가능합니다. 새 지리적 데이터 센터로 이동된 고객은 다시 이동할 수 없습니다. 모든 지역 고객은 이전과 동일한 서비스 품질, 성능 및 보안 제어를 경험하게 됩니다. [Microsoft 365 Multi Geo는](https://aka.ms/multi-geo) 일부 고객이 추가 기능으로 사용할 수 있으며, 단일 테넌트가 여러 위성 지역을 만들고 데이터 상주 약정을 사용하여 사용자 데이터를 해당 지역으로 이동할 수 있도록 합니다.
   
-## <a name="will-microsoft-365-tenants-hosted-in-the-new-datacenters-be-available-to-users-outside-of-the-country"></a>새 데이터 센터에 호스트된 Microsoft 365 테넌트가 국가 외부의 사용자가 사용할 수 있나요?
+## <a name="will-microsoft-365-tenants-hosted-in-the-new-datacenters-be-available-to-users-outside-of-the-country"></a>Microsoft 365 외부의 사용자가 새 데이터 센터에서 호스팅되는 테넌트가 제공될 수 있나요?
   
 예. Microsoft는 2,700개가 넘는 ISP(인터넷 서비스 공급자)와 피어링 계약을 체결하여 전 세계 35개 국가에서 130개가 넘는 위치에서 공용 인터넷 연결을 통해 대규모 글로벌 네트워크를 유지 관리합니다. 사용자는 인터넷의 모든 곳에서 데이터 센터에 액세스할 수 있습니다.
 
@@ -132,21 +132,21 @@ Microsoft 365 메시지 센터에서 각 서비스의 데이터 이동이 완료
 
 예, 테넌트는 등록할 수 있지만 Multi-Geo를 구성한 고객에 대해 테넌트 수준 이동이 완전히 지원되지 않는 경우 중요한 고려 사항이 있습니다.
 
-SharePoint Online 및 비즈니스용 OneDrive는 이 프로그램을 통해 테넌트 수준에서 새 데이터 센터 지역으로 마이그레이션할 수 없습니다. 고객 관리자는 Multi-Geo를 사용하여 사용 가능한 모든 지역으로 이동하도록 비즈니스용 OneDrive 공유를 구성할 수 있지만, 테넌트에 대해 Multi-Geo를 구성한 후 테넌트의 기본 위치를 변경할 수 없습니다.
+SharePoint 온라인 및 비즈니스용 OneDrive 프로그램을 통해 테넌트 수준에서 새 데이터 센터 지역으로 마이그레이션할 수 없습니다. 고객 관리자는 multi-비즈니스용 OneDrive 사용하여 사용 가능한 모든 지역으로 이동하도록 공유 공유를 구성할 수 있지만, 테넌트에 대해 Multi-Geo를 구성한 경우 테넌트의 기본 위치를 변경할 수 없습니다.
 
-마이그레이션에 옵트인(opt in)하는 고객의 경우 모든 Exchange Online 사서함을 현재 기본 지리적 위치의 새 로컬 데이터 센터 지역으로 이동하고 기본 Exchange Online 지역을 업데이트합니다. Multi Geo 위성 지역에 구성된 EXO 사서함은 사용자가 의도한 바에 따라 위성 지역 데이터 유지를 계속 사용하도록 이동하지 않습니다. 
+마이그레이션에 옵트인(opt in)하는 고객의 경우 모든 Exchange Online 기본 지역을 새 로컬 데이터 센터 지역으로 이동하고 기본 Exchange Online 업데이트합니다. Multi Geo 위성 지역에 구성된 EXO 사서함은 사용자가 의도한 바에 따라 위성 지역 데이터 유지를 계속 사용하도록 이동하지 않습니다. 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-[새 Microsoft 365 데이터 센터 지역으로 핵심 데이터 이동](moving-data-to-new-datacenter-geos.md)
+[핵심 데이터를 새 데이터 Microsoft 365 지역으로 이동](moving-data-to-new-datacenter-geos.md)
 
 [데이터 이동을 요청하는 방법](request-your-data-move.md)
 
 [Microsoft 365 Multi Geo](https://aka.ms/multi-geo)
 
-[Microsoft 365 대화형 데이터 센터 맵](https://office.com/datamaps)
+[Microsoft 365 데이터 센터 맵](https://office.com/datamaps)
 
-[Microsoft 365 지원](../admin/contact-support-for-business-products.md)
+[Microsoft 365 지원](../business-video/get-help-support.md)
 
 [새 데이터 센터 Microsoft Dynamics CRM Online](/power-platform/admin/new-datacenter-regions)
   

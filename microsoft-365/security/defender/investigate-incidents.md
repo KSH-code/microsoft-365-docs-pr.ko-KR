@@ -1,6 +1,6 @@
 ---
-title: Defender에서 인시던트 Microsoft 365 분석
-description: 장치, 사용자 및 사서함과 관련된 인시던트를 분석합니다.
+title: Defender에서 인시던트 Microsoft 365 조사
+description: 장치, 사용자 및 사서함과 관련된 인시던트 조사
 keywords: 인시던트, 인시던트, 분석, 응답, 컴퓨터, 장치, 사용자, ID, 메일, 전자 메일, 사서함, 조사, 그래프, 증거
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 72e1efb8a06fb7fa64b83ab6522fe4cdcfd1a73e
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 7abc99a14ec538afea8cdbd4d8f3b4940bcccd9f
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259639"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300088"
 ---
-# <a name="analyze-incidents-in-microsoft-365-defender"></a>Defender에서 인시던트 Microsoft 365 분석
+# <a name="investigate-incidents-in-microsoft-365-defender"></a>Defender에서 인시던트 Microsoft 365 조사
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -41,7 +41,7 @@ Microsoft 365 Defender는 장치, 사용자 및 사서함에서 모든 관련 �
 
 인시던트 내에서 네트워크에 영향을 주는 경고를 분석하고, 경고의 의미를 이해하고, 효과적인 수정 계획을 고안할 수 있도록 증거를 수집합니다.
 
-## <a name="initial-analysis"></a>초기 분석
+## <a name="initial-investigation"></a>초기 조사
 
 세부 정보를 살펴보기 전에 인시던트의 속성과 요약을 살펴보아야 합니다.
 
@@ -88,7 +88,7 @@ Microsoft 365 Defender는 장치, 사용자 및 사서함에서 모든 관련 �
 
 기본적으로 경고는 시간이 지날 때 인시던트가 어떻게 재생되는지 볼 수 있도록 시간 순서대로 지정됩니다. 각 경고를 선택하면 경고의 기본 페이지로 이동하여 해당 경고에 대한 심층 분석을 진행할 수 있습니다. 
 
-경고 분석에서 경고 큐 및 경고 페이지를 사용하는 [방법 학습](investigate-alerts.md)
+경고 조사에서 경고 큐 및 경고 페이지를 사용하는 [방법을 학습합니다.](investigate-alerts.md)
 
 ## <a name="devices"></a>디바이스
 
@@ -123,11 +123,13 @@ Microsoft 365 Defender는 장치, 사용자 및 사서함에서 모든 관련 �
 
 ## <a name="investigations"></a>조사
 
-조사 **탭에는** 이 인시던트의 경고에 의해 트리거된 모든 자동화된 조사가 나열됩니다. 조사는 Microsoft Defender for Endpoint 및 Defender for Office 365에서 자동화된 조사를 실행하도록 구성한 방법에 따라 수정 작업을 수행하거나 분석가의 작업 승인을 Office 365.
+조사 **탭에는** 이 인시던트의 경고에 의해 트리거된 모든 자동화된 조사가 나열됩니다. [](m365d-autoir.md) 조사는 Microsoft Defender for Endpoint 및 Defender for Office 365에서 자동화된 조사를 실행하도록 구성한 방법에 따라 수정 작업을 수행하거나 분석가의 작업 승인을 Office 365.
 
 :::image type="content" source="../../media/investigate-incidents/incident-investigations.png" alt-text="인시던트에 대한 조사 페이지의 예":::
 
 조사를 선택하여 조사 세부 사항 페이지로 이동하고 조사 및 수정 상태에 대한 전체 정보를 확인하세요. 조사의 일부로 승인 보류 중인 작업이 있는 경우 보류 중인 작업 탭에 표시됩니다. 인시던트 수정의 일부로 조치를 취합니다.
+
+자세한 내용은 Defender의 자동화된 조사 [및 Microsoft 365 참조하세요.](m365d-autoir.md)
 
 ## <a name="evidence-and-response"></a>증거 및 응답
 
@@ -155,8 +157,14 @@ Microsoft 365 Defender는 경고에서 모든 인시던트 지원 이벤트 및 
 
 이제 시간이 지날 때 네트워크를 통해 공격이 확산되는 방식, 공격이 시작된 위치 및 공격이 얼마나 진행된지 이해할 수 있습니다.
 
+## <a name="next-steps"></a>다음 단계
 
-## <a name="related-topics"></a>관련 항목
+필요한 경우:
+
+- [인시던트 경고 조사](investigate-alerts.md)
+- [인시던트 사용자 조사](investigate-users.md)
+
+## <a name="see-also"></a>참고 항목
 
 - [인시던트 개요](incidents-overview.md)
 - [인시던트 우선 순위 지정](incident-queue.md)

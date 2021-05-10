@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Defender에서 전자 메일로 인시던트 알림 다운로드
-description: Microsoft 365 Defender에서 인시던트에 대한 전자 메일 알림을 받을 수 있는 규칙을 만드는 방법을 배우기
+title: Defender에서 전자 메일로 인시던트 Microsoft 365 확인
+description: Defender에서 인시던트에 대한 전자 메일 알림을 받을 수 있는 규칙을 Microsoft 365 방법
 keywords: 인시던트, 전자 메일, 전자 메일 알림, 구성, 사용자, 사서함, 전자 메일, 인시던트, 분석, 응답
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 7ba21e08f72760654993335764df00e78abc87b2
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 8d29291c63bdc437163feecce8164089d958d71d
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939721"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52299967"
 ---
 # <a name="get-incident-notifications-by-email"></a>전자 메일로 인시던트 알림 확인
 
@@ -37,13 +37,13 @@ ms.locfileid: "51939721"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender를 설정하여 새 인시던트 또는 기존 인시던트에 대한 업데이트에 대한 전자 메일을 직원에게 알릴 수 있습니다. 다음에 따라 알림을 하게 선택할 수 있습니다.
+Defender를 설정하여 Microsoft 365 인시던트 또는 기존 인시던트에 대한 업데이트에 대한 전자 메일을 직원에게 알릴 수 있습니다. 다음에 따라 알림을 하게 선택할 수 있습니다.
 
 - 인시던트 심각도.
 - 장치 그룹.
 - 인시던트당 첫 번째 업데이트에만 해당합니다.
 
-전자 메일 알림에는 인시던트 이름, 심각도, 범주 등 인시던트에 대한 중요한 세부 정보가 포함되어 있습니다. 인시던트로 바로 이동하여 분석을 바로 시작할 수도 있습니다. 자세한 내용은 인시던트 [분석 을 참조하세요.](investigate-incidents.md)
+전자 메일 알림에는 인시던트 이름, 심각도, 범주 등 인시던트에 대한 중요한 세부 정보가 포함되어 있습니다. 인시던트로 바로 이동하여 분석을 바로 시작할 수도 있습니다. 자세한 내용은 인시던트 [조사를 참조하세요.](investigate-incidents.md)
 
 전자 메일 알림에서 받는 사람을 추가하거나 제거할 수 있습니다. 새 받는 사람은 인시던트가 추가된 후 인시던트에 대한 알림을 받을 수 있습니다. 
 
@@ -55,7 +55,7 @@ Microsoft 365 Defender를 설정하여 새 인시던트 또는 기존 인시던�
 
 다음 단계에 따라 새 규칙을 만들고 전자 메일 알림 설정을 사용자 지정합니다.
 
-1. 탐색 창에서 설정 > **Microsoft 365 Defender > 알림 을 선택합니다.**
+1. 탐색 창에서 Defender 설정 > Microsoft 365 인시던트 > **알림을 선택합니다.**
 2. 항목 **추가를 선택합니다.**
 3. 기본 **페이지에서** 규칙 이름과 설명을 입력하고 다음 을 **선택합니다.**
 4. 알림 **설정 페이지에서** 다음을 구성합니다.
@@ -63,7 +63,7 @@ Microsoft 365 Defender를 설정하여 새 인시던트 또는 기존 인시던�
     - **장치 그룹 범위** - 모든 장치 그룹을 지정하거나 테넌트의 장치 그룹 목록에서 선택할 수 있습니다.
     - **인시던트당 첫** 번째 발생에만 알림 - 다른 선택과 일치하는 첫 번째 경고에만 알림을 하려는 경우를 선택합니다. 이후 업데이트 또는 인시던트와 관련된 경고는 추가 알림을 보내지 않습니다.
     - **전자 메일에** 조직 이름 포함 - 전자 메일 알림에 조직 이름을 표시하려면 선택합니다.
-    - **테넌트별** 포털 링크 포함 - 특정 Microsoft 365 테넌트에 대한 액세스를 위해 전자 메일 알림에 테넌트 ID가 포함된 링크를 추가하려는 경우를 선택합니다.
+    - **테넌트별** 포털 링크 포함 - 특정 테넌트에 대한 액세스를 위해 전자 메일 알림에 테넌트 ID가 포함된 링크를 Microsoft 365 선택합니다.
 
     :::image type="content" source="../../media/get-incident-notifications/incidents-ss-email-notification-settings.png" alt-text="인시던트 전자 메일 알림에 대한 알림 설정":::
 
@@ -77,4 +77,4 @@ Microsoft 365 Defender를 설정하여 새 인시던트 또는 기존 인시던�
 ## <a name="see-also"></a>참고 항목
 - [인시던트 개요](incidents-overview.md)
 - [인시던트 우선 순위 지정](incident-queue.md)
-- [인시던트 분석](investigate-incidents.md)
+- [인시던트 조사](investigate-incidents.md)

@@ -15,17 +15,17 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 Exchange Online 및 Exchange Online Protection의 IPv6 원본에서 익명 인바운드 전자 메일에 대한 지원을 구성하는 방법을 배울 수 있습니다.
+description: 관리자는 IPv6 원본의 익명 인바운드 전자 메일에 대한 지원을 구성하는 방법을 Exchange Online Exchange Online Protection.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: df06891401802d212cbfdb55085662901f5546e9
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 80fdcc9dcfe3006ef8b21aa19856fe8c0ea3ff70
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206476"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300052"
 ---
-# <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>Microsoft 365의 IPv6을 통해 익명 인바운드 전자 메일에 대한 지원 추가
+# <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>IPv6을 통해 익명 인바운드 전자 메일에 대한 지원을 Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -34,13 +34,13 @@ ms.locfileid: "51206476"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Exchange Online 사서함이 있는 Microsoft 365 조직 및 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직은 IPv6을 통해 익명 인바운드 전자 메일을 지원합니다. 원본 IPv6 전자 메일 서버는 다음 요구 사항을 모두 충족해야 합니다.
+Microsoft 365 사서함이 없는 Exchange Online 및 EOP(독립 실행형 Exchange Online Protection) 조직이 Exchange Online IPv6을 통해 익명 인바운드 전자 메일을 지원하는 조직입니다. 원본 IPv6 전자 메일 서버는 다음 요구 사항을 모두 충족해야 합니다.
 
 - 원본 IPv6 주소에는 대상이 IPv6 주소에서 도메인 이름을 찾을 수 있는 유효한 PTR(역방향 DNS 검색) 레코드가 있어야 합니다.
 
 - 보낸 사람은 [RFC 7208](https://tools.ietf.org/html/rfc7208)에 정의되어 있는 SPF 확인 또는 [RFC 6376](http://dkim.org/)에 정의되어 있는 [DKIM 확인](https://www.rfc-editor.org/rfc/rfc6376.txt)을 통과해야 합니다.
 
-조직에서 IPv6을 통해 익명 인바운드 전자 메일을 받으기 전에 관리자는 Microsoft 지원에 문의하여 요청해야 합니다. 지원 요청을 여는 방법에 대한 자세한 내용은 비즈니스 제품에 대한 고객 지원 [문의 - 관리자 도움말을 참조하세요.](../../admin/contact-support-for-business-products.md)
+조직에서 IPv6을 통해 익명 인바운드 전자 메일을 받으기 전에 관리자는 Microsoft 지원에 문의하여 요청해야 합니다. 지원 요청을 여는 방법에 대한 자세한 내용은 비즈니스 제품에 대한 고객 지원 [문의 - 관리자 도움말을 참조하세요.](../../business-video/get-help-support.md)
 
 조직에서 익명 인바운드 IPv6 메시지 지원이 사용하도록 설정되면 해당 메시지는 서비스에서 제공하는 일반 메시지 필터링을 거치게 됩니다.
 

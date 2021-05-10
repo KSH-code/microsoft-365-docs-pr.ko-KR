@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: fb3656a9d3f67d979c012d9cc316a10e65a72042
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 41a2c73ce5e1c3060d88572f4fa7afe63e193f46
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114788"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52299991"
 ---
 # <a name="example-of-a-phishing-email-attack"></a>피싱 전자 메일 공격의 예
 
@@ -66,6 +66,6 @@ ID 기반 [공격 조사 경로를](first-incident-path-identity.md) 참조합�
 
 ## <a name="see-also"></a>참고 항목
 
-- [인시던트 개요](incidents-overview.md)
-- [인시던트 분석](investigate-incidents.md)
+- [사고 개요](incidents-overview.md)
+- [사고 조사](investigate-incidents.md)
 - [인시던트 관리](manage-incidents.md)
