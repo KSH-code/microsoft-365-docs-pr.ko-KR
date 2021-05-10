@@ -38,8 +38,14 @@
           href: turn-on-mdo-for-spo-odb-and-teams.md
         - name: Microsoft 365 보안 센터 개요
           href: ../defender/overview-security-center.md
-        - name: 위협 탐색기(및 실시간 검출)
-          href: threat-explorer.md
+        - name: Office 365용 Microsoft Defender을 위한 위협 탐색기
+          items:
+            - name: 위협 탐색기에서 위협 헌팅
+              href: threat-hunting-in-threat-explorer.md
+            - name: 위협 탐색기를 통한 전자 메일 보안
+              href: email-security-in-microsoft-defender.md
+            - name: 위협 탐색기 및 실시간 감지 기본 정보
+              href: real-time-detections.md
         - name: 전자 메일 엔터티 페이지
           href: mdo-email-entity-page.md
         - name: AIR 개요
@@ -188,6 +194,8 @@
           href: message-trace-scc.md
         - name: Microsoft에 메시지와 파일 보고
           href: report-junk-email-messages-to-microsoft.md
+        - name: 보고서 메시지 및 보고서 피싱 추가 기능 사용
+          href: enable-the-report-message-add-in.md
         - name: 메일 흐름 규칙을 사용하여 EOP에서 실행 파일이 첨부된 메시지 차단
           href: reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
         - name: 메일 흐름 규칙을 사용하여 EOP에서 대량 전자 메일 필터링

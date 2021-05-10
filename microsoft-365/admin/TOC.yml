@@ -121,7 +121,7 @@
               href: add-users/remove-former-employee-step-1.md
             - name: 2단계. 이전 직원 사서함의 콘텐츠 저장
               href: add-users/remove-former-employee-step-2.md
-            - name: 3단계. 이전 직원의 전자 메일을 다른 직원에게 전달 또는 공유 사서함으로 변환
+            - name: '3단계: 이전 직원의 전자 메일을 다른 직원에게 전달 또는 공유 사서함으로 변환'
               href: add-users/remove-former-employee-step-3.md
             - name: 4단계. 다른 직원에게 OneDrive 및 Outlook 데이터에 대한 액세스 부여
               href: add-users/remove-former-employee-step-4.md
@@ -273,8 +273,6 @@
           href: manage/manage-office-scripts-settings.md
         - name: 파트너 또는 재판매업체 찾기
           href: manage/find-your-partner-or-reseller.md
-        - name: Microsoft Rewards 관리
-          href: manage/manage-microsoft-rewards.md
         - name: 조직에 대한 Microsoft 피드백 관리
           href: /admin/manage/manage-feedback-ms-org.md
         - name: 릴리스 옵션 설정
@@ -422,4 +420,4 @@
     - name: 문제 해결
       href: /office/troubleshoot/
     - name: 지원 센터 문의
-      href: contact-support-for-business-products.md
+      href: ../business-video/get-help-support.md
