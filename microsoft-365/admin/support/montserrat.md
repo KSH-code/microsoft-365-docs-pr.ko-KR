@@ -12,27 +12,27 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 44547a5799396880b304a47452dce935f25c2f0c
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 40488377474ee038eabc72c84066373ee5c1c3e5
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50545695"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298019"
 ---
-# <a name="contact-support-for-montserrat"></a><span data-ttu-id="c5e6e-103">몬트세라트 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="c5e6e-103">Contact support for Montserrat</span></span>
+# <a name="contact-support-for-montserrat"></a><span data-ttu-id="323af-103">몬트세라트 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="323af-103">Contact support for Montserrat</span></span>
 
-<span data-ttu-id="c5e6e-104">[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="c5e6e-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="323af-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="323af-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="c5e6e-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="c5e6e-105">Phone number</span></span>
-<span data-ttu-id="c5e6e-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="c5e6e-106">+1 312 843 5145</span></span>
+## <a name="phone-number"></a><span data-ttu-id="323af-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="323af-105">Phone number</span></span>
+<span data-ttu-id="323af-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="323af-106">+1 312 843 5145</span></span>
 
-## <a name="hours"></a><span data-ttu-id="c5e6e-107">시간</span><span class="sxs-lookup"><span data-stu-id="c5e6e-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="c5e6e-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="c5e6e-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="323af-107">시간</span><span class="sxs-lookup"><span data-stu-id="323af-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="323af-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="323af-108">Billing Support:</span></span>
 
-<span data-ttu-id="c5e6e-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="c5e6e-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="323af-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="323af-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="c5e6e-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="c5e6e-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="323af-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="323af-110">Technical Support:</span></span>
 
-<span data-ttu-id="c5e6e-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="c5e6e-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="323af-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="323af-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="c5e6e-112">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="c5e6e-112">International call charges apply</span></span>
+<span data-ttu-id="323af-112">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="323af-112">International call charges apply</span></span>
