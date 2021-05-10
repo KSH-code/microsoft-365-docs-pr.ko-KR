@@ -14,22 +14,22 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva Topics 개요입니다.
-ms.openlocfilehash: 1d66751d55c0144149fa8325e89be404e3df19ed
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: ecd090036f35a3cfdaffe532c800244c8174183b
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281032"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52302127"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Microsoft Viva Topics 개요 
 
-Viva 항목에서는 Microsoft AI 기술, Microsoft 365, Microsoft Graph, 검색 및 기타 구성 요소와 서비스를 사용하여 최신 페이지, Microsoft Search 및 Word의 검색부터 Microsoft 365 매일 사용하는 SharePoint 앱의 사용자에게 지식을 PowerPoint.
+Viva 항목에서는 Microsoft AI 기술, Microsoft 365, Microsoft Graph, 검색 및 기타 구성 요소 및 서비스를 사용하여 Word, PowerPoint SharePoint, 검색 및 검색에서 시작하여 일상적으로 사용하는 Microsoft 365 앱의 사용자에게 지식을 PowerPoint, Outlook 및 Excel.
 
-</br>
+<br/>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LhZP]  
 
-</br>
+<br/>
 
 Viva Topics를 사용하면 많은 회사에서 주요 비즈니스 문제를 해결하는 데 도움이 됩니다. 필요한 경우 사용자에게 정보를 제공합니다. 예를 들어 새 직원은 많은 새 정보를 빠르게 학습하고 회사 정보를 읽을 때 전혀 모르는 용어를 접해야 합니다. 자세히 알아보기 위해 사용자는 현재 수행하고 있는 작업을 멈추고, 해당 용어가 무엇인지, 조직에서 주제 전문가인 사람이 누구인지, 해당 용어와 관련된 사이트 및 문서와 같은 세부 정보를 검색하는 데 시간을 소비해야 할 수 있습니다.
 
@@ -42,7 +42,7 @@ SharePoint 뉴스 및 페이지의 콘텐츠에서 한 주제가 언급된 경�
 
    ![주제 하이라이트](../media/knowledge-management/saturn.png) 
 
-Word 또는 PowerPoint 또는 상황에 맞는 메뉴에서 검색을 선택하여 검색을  사용하는 경우 표시되는 결과에 항목 요약이 표시될 수도 있습니다.
+검색 상자를 통해 또는 상황에 맞는 메뉴에서 검색을 선택하여 Word, PowerPoint, Outlook 또는 Excel  검색을 사용하는 경우 표시되는 결과에 항목 요약이 표시될 수도 있습니다.
 
    ![Screenshot showing search in Word through the Search box.](../media/knowledge-management/word-search-2.png)
 
@@ -71,7 +71,7 @@ Viva Topics는 Microsoft AI 기술을 사용하여 Microsoft 365 환경에서 **
 
 지식 관리자는 테넌트의 모든 SharePoint 사이트를 크롤링하거나 특정 SharePoint 사이트를 선택할 수 있습니다.
 
-[주제 검색 및 큐레이션](./topic-experiences-discovery-curation.md) 참조
+항목 [검색 및 큐레이터를 참조하세요.](./topic-experiences-discovery-curation.md)
 
 ## <a name="roles"></a>역할
 
@@ -97,7 +97,7 @@ Microsoft 365 환경에서 Viva Topics를 사용하는 경우 사용자는 다�
 
 - 테넌트에서 검색된 주제를 확인하거나 제거합니다.
 - 필요한 경우 새 주제를 수동으로 만들 수 있습니다(예: AI를 통해 검색하기에 충분한 정보가 부족한 경우).
-- 기존 주제 페이지를 편집합니다.</br>
+- 기존 주제 페이지를 편집합니다.<br/>
 
 자세한 내용은 [주제 센터에서 주제 관리](manage-topics.md)를 참조하세요.  
 
@@ -125,7 +125,8 @@ AI는 사용자 환경이 변함에 따라 계속해서 주제를 개선하기 �
 
 또한, 적절한 권한이 있는 사용자는 주제와 관련된 Yammer 대화와 같은 항목에 태그를 지정하고 항목을 특정 주제에 추가할 수 있습니다. 
 
-[주제 검색 및 큐레이션](./topic-experiences-discovery-curation.md) 참조
+항목 [검색 및 큐레이터를 참조하세요.](./topic-experiences-discovery-curation.md)
 
-
-## <a name="see-also"></a>참고 항목
+<!--
+## See also
+-->

@@ -10,18 +10,18 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 05/07/2021
+ms.date: 05/08/2021
 ms.reviewer: ksarens, jtoole, pahuijbr
 manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: 81cba445482b1fceb8bd520f2be88d55db2a47fb
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 74f58959c22313806ebc95aef14e8ccb2d75326b
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296734"
+ms.locfileid: "52302103"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>그룹 정책 설정을 사용하여 그룹 정책 Microsoft Defender 바이러스 백신
 
@@ -55,7 +55,7 @@ ms.locfileid: "52296734"
 이 항목의 다음 표에서는 Windows 10 버전 1703에서 사용할 수 있는 그룹 정책 설정을 나열하고 이 설명서 라이브러리(해당하는 경우)의 해당 항목에 대한 링크를 제공합니다. 
 
 > [!TIP]
-> [2020년 5월 업데이트(2004년 설정](https://www.microsoft.com/download/101451)대한 그룹 정책 Windows 10 참조 스프레드시트를 다운로드합니다. 이 스프레드시트에는 Windows 10 2020년 5월 업데이트(2004년)에 대해 제공된 관리 템플릿 파일에 포함된 컴퓨터 및 사용자 구성에 대한 정책 설정이 나열되어 있습니다. 그룹 정책 개체를 편집할 때 이러한 정책 설정을 구성할 수 있습니다.
+> [2020년 5월 업데이트(2004년 설정](https://www.microsoft.com/download/101451)대한 그룹 정책 Windows 10 참조 스프레드시트를 다운로드합니다. 이 스프레드시트에는 Windows 10 2020년 5월 업데이트(2004년)에 대해 제공된 관리 템플릿 파일에 포함된 컴퓨터 및 사용자 구성에 대한 정책 설정이 나열되어 있습니다. 그룹 정책 개체를 편집할 때 스프레드시트를 참조하도록 구성할 수 있습니다.
 
 | 위치 | 설정 | 문서 |
 |:---|:---|:---|

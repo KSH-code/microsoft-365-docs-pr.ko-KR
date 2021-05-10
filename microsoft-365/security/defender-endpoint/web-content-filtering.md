@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c9a069deded237c5ded6bcd9f6c6a77f644e65a2
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 47211e187d1f9f883745f008c6d94d04ee762e98
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689344"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52302067"
 ---
 # <a name="web-content-filtering"></a>웹 컨텐츠 필터링
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
@@ -36,47 +36,44 @@ ms.locfileid: "51689344"
 > 이 미리 보기 버전은 서비스 수준 계약 없이 제공하며 프로덕션 워크로드에는 권장되지 않습니다. 일부 기능은 지원되지 않을 수도, 기능이 제한될 수도 있습니다.
 > 자세한 내용은 끝점 미리 보기 [기능용 Microsoft Defender를 참조하세요.](preview.md)
 
->끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
+> [!TIP]
+> 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
 웹 콘텐츠 필터링은 [](web-protection-overview.md) 끝점용 Microsoft Defender의 웹 보호 기능의 일부입니다. 이를 통해 조직은 해당 콘텐츠 범주에 따라 웹 사이트에 대한 액세스를 추적하고 규제할 수 있습니다. 이러한 웹 사이트 중 상당수는 악의적이지 않은 경우 규정 준수 규정, 대역폭 사용량 또는 기타 문제로 문제가 될 수 있습니다.
 
 특정 범주를 차단하도록 장치 그룹 전체에서 정책을 구성합니다. 범주를 차단하면 지정된 장치 그룹 내의 사용자가 해당 범주와 연결된 URL에 액세스할 수 없습니다. 차단되지 않은 범주에 대해 URL이 자동으로 감사됩니다. 사용자는 중단 없이 URL에 액세스할 수 있으며 액세스 통계를 수집하여 보다 사용자 지정 정책 결정을 만드는 데 도움이 됩니다. 사용자가 보고 있는 페이지의 요소가 차단된 리소스를 호출하는 경우 차단 알림이 표시됩니다.
 
-웹 콘텐츠 필터링은 Microsoft Edge(Microsoft Edge) 및 네트워크 보호(Chrome, Firefox, Brave 및 Opera)에서 Windows Defender 블록이 있는 주요 웹 브라우저에서 사용할 수 있습니다. 브라우저 지원에 대한 자세한 내용은 prerequisites 섹션을 참조하세요.
+웹 콘텐츠 필터링은 주요 웹 브라우저에서 사용할 수 있으며, Windows Defender SmartScreen(Microsoft Edge) 및 네트워크 보호(Chrome, Firefox, Brave 및 Opera)에서 수행됩니다. 브라우저 지원에 대한 자세한 내용은 prerequisites 섹션을 참조하세요.
 
 이점 요약:
 
 - 사용자가 차단된 범주의 웹 사이트에 액세스하지 못하도록 차단됩니다.
-- 끝점 역할 기반 액세스 제어 설정에 대해 [Microsoft Defender에](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/rbac) 정의된 장치 그룹을 사용하여 사용자 그룹에 정책을 편리하게 배포
-- 실제 블록 및 웹 사용 현황에 대한 가시성을 사용하여 동일한 중앙 위치에 있는 웹 보고서에 액세스
+- 보안 팀에서 끝점 역할 기반 액세스 제어 설정에 대해 Microsoft Defender에 정의된 장치 그룹을 사용하여 사용자 그룹에 정책을 편리하게 [배포할 수 있습니다.](/microsoft-365/security/defender-endpoint/rbac)
+- 보안 팀이 실제 블록 및 웹 사용 현황을 볼 수 있는 동일한 중앙 위치에서 웹 보고서에 액세스할 수 있습니다.
 
 ## <a name="user-experience"></a>사용자 환경
 
-지원되는 제3자 브라우저에 대한 차단 환경은 차단된 연결을 사용자에게 알리는 시스템 수준 알림을 제공하는 네트워크 보호를 통해 제공됩니다. 
-
-보다 친숙한 브라우저 내 환경을 위해 Microsoft Edge를 사용하는 것이 좋습니다.
+지원되는 제3자 브라우저에 대한 차단 환경은 차단된 연결을 사용자에게 알리는 시스템 수준 알림을 제공하는 네트워크 보호를 통해 제공됩니다. 보다 사용자에게 친숙한 브라우저 내 환경을 위해 브라우저 내 환경을 Microsoft Edge.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
 이 기능을 사용해 보기 전에 다음 요구 사항이 있는지 확인합니다.
 
-- Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Microsoft 365 E5 Security 추가 기능 또는 끝점 독립 실행형용 Microsoft Defender 라이선스. 
-- Microsoft Defender 보안 센터 포털에 액세스
-- 최신 MoCAMP 업데이트를 통해 Windows 10 1주년 업데이트(버전 1607) 이상을 실행하는 장치.
-
-SmartScreen을 Windows Defender 경우 네트워크 보호가 차단을 인계합니다. 디바이스에서 [네트워크 보호를](enable-network-protection.md) 사용하도록 설정해야 합니다. Chrome, Firefox, Brave 및 Opera는 현재 이 기능이 활성화된 제3자 브라우저입니다.
+- Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Microsoft 365 E5 Security 추가 기능 또는 끝점용 Microsoft Defender 독립 실행형 라이선스. 
+- Microsoft Defender 보안 센터 포털에 https://securitycenter.windows.com) 액세스합니다( .
+- 최신 moCAMP Windows 10 1주년 업데이트(버전 1607) 이상을 실행하는 장치.
 
 ## <a name="data-handling"></a>데이터 처리
 
-Microsoft Defender for Endpoint 데이터 처리 설정의 일부로 사용하기로 선택한 [지역을 따를 것입니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/data-storage-privacy) 데이터가 데이터 센터에서 나가지 않습니다. 또한 데이터 공급자를 포함하여 모든 타사와 귀하의 데이터가 공유되지 않습니다.
+Microsoft Defender for Endpoint 데이터 처리 설정의 일부로 사용하기로 선택한 [지역을 따를 것입니다.](data-storage-privacy.md) 데이터가 데이터 센터에서 나가지 않습니다. 또한 데이터 공급자를 포함하여 모든 타사와 귀하의 데이터가 공유되지 않습니다.
 
 ## <a name="turn-on-web-content-filtering"></a>웹 콘텐츠 필터링 켜기
 
-왼쪽 탐색 메뉴에서 설정 > 고급 > **선택합니다.** 웹 콘텐츠 필터링 항목이 표시될 때까지 아래로 **스크롤합니다.** 토글을 **켜기 및** 저장 기본 **설정으로 전환합니다.**
+왼쪽 탐색 메뉴에서 일반 고급 **설정**  >    >  **선택합니다.** 웹 콘텐츠 필터링 항목이 표시될 때까지 아래로 **스크롤합니다.** 토글을 **켜기 및** 저장 기본 **설정으로 전환합니다.**
 
 ### <a name="configure-web-content-filtering-policies"></a>웹 콘텐츠 필터링 정책 구성
 
-웹 콘텐츠 필터링 정책은 어떤 장치 그룹에서 차단되는 사이트 범주를 지정합니다. 정책을 관리하려면 웹 콘텐츠 필터링 **> 규칙 > 로 이동합니다.**
+웹 콘텐츠 필터링 정책은 어떤 장치 그룹에서 차단되는 사이트 범주를 지정합니다. 정책을 관리하기 위해 규칙 **웹 콘텐츠 설정**  >  **로**  >  **이동하세요.**
 
 필터를 사용하여 차단된 특정 범주를 포함하거나 특정 장치 그룹에 적용되는 정책을 찾습니다.
 
@@ -84,13 +81,18 @@ Microsoft Defender for Endpoint 데이터 처리 설정의 일부로 사용하�
 
 새 정책을 추가하는 경우:
 
-1. 설정 **에서** 웹 콘텐츠 필터링 페이지에서 **정책** 추가를 **선택합니다.**
+1. 에서 **웹 콘텐츠** 필터링 **페이지에서** 정책 **설정.**
+
 2. 이름을 지정합니다.
+
 3. 차단할 범주를 선택합니다. 확장 아이콘을 사용하여 각 상위 범주를 완전히 확장하고 특정 웹 콘텐츠 범주를 선택합니다.
+
 4. 정책 범위를 지정합니다. 정책을 적용할 위치를 지정하려면 장치 그룹을 선택합니다. 선택한 디바이스 그룹의 디바이스만 선택한 범주의 웹 사이트에 액세스할 수 없습니다.
+
 5. 요약을 검토하고 정책을 저장합니다. 선택한 장치에 정책 새로 고침을 적용하는 데 최대 2시간이 걸릴 수 있습니다.
 
-팁: 장치 그룹에서 범주를 선택하지 않고 정책을 배포할 수 있습니다. 이 작업은 차단 정책을 만들기 전에 사용자 동작을 이해하는 데 도움이 되는 감사 전용 정책을 생성합니다.
+> [!TIP]
+> 장치 그룹에서 범주를 선택하지 않고 정책을 배포할 수 있습니다. 이 작업은 차단 정책을 만들기 전에 사용자 동작을 이해하는 데 도움이 되는 감사 전용 정책을 생성합니다.
 
 >[!NOTE]
 >정책을 제거하거나 장치 그룹을 동시에 변경하는 경우 정책 배포가 지연될 수 있습니다.
@@ -102,15 +104,17 @@ Microsoft Defender for Endpoint 데이터 처리 설정의 일부로 사용하�
 
 웹 콘텐츠 필터링에서 차단된 범주를 정의하여 사용자 지정 표시기 정책을 만들어 단일 사이트를 허용할 수 있습니다. 사용자 지정 표시기 정책은 해당 디바이스 그룹에 적용될 때 웹 콘텐츠 필터링 정책을 대신합니다.
 
-1. 설정 표시기   >    >  **URL/도메인** 항목 추가로 이동하여 Microsoft Defender 보안 센터에서 사용자 지정  >  **표시기 만들기**
-2. 사이트의 도메인 입력
+1. 표시기 URL/도메인 Microsoft Defender 보안 센터 추가로 이동하여 설정 사용자 지정   >    >    >  **표시기를 만드세요.**
+
+2. 사이트의 도메인을 입력합니다.
+
 3. 정책 작업을 허용으로 **설정**  
 
 ### <a name="reporting-inaccuracies"></a>부정확성 보고
 
-잘못 분류된 도메인이 발견되는 경우 웹 콘텐츠 필터링 보고서 페이지에서 부정확한 정보를 직접 보고할 수 있습니다. 이 기능은 새로운 Microsoft 365 보안 센터(security.microsoft.com)에서만 사용할 수 있습니다.
+잘못 분류된 도메인이 발견되는 경우 웹 콘텐츠 필터링 보고서 페이지에서 부정확한 정보를 직접 보고할 수 있습니다. 이 기능은 새로운 보안 센터(Microsoft 365)에서만 사용할 수 security.microsoft.com.
 
-부정확한 내용을 보고하려면 보고서 > 웹 보호 > 도메인의 웹 콘텐츠 필터링 > **로 이동합니다.** 웹 콘텐츠 필터링 보고서의 도메인 탭에는 각 도메인 옆에 타원이 표시됩니다. 이 타원 위에 마우스를 대고 **부정확성 보고를 선택합니다.**
+부정확한 내용을 보고하려면 보고서 웹 **보호** 웹 콘텐츠 필터링 세부  >    >  **정보**  >  **도메인으로 이동합니다.** 웹 콘텐츠 필터링 보고서의 도메인 탭에는 각 도메인 옆에 타원이 표시됩니다. 이 타원 위에 마우스를 대고 **부정확성 보고를 선택합니다.**
 
 우선 순위를 선택하고 다시 분류할 수 있는 범주와 같은 추가 세부 정보를 추가할 수 있는 패널이 열립니다. 양식을 완성한 후 제출 을 **선택합니다.** 팀에서 업무일 1일 이내에 요청을 검토합니다. 즉각적인 차단 해제를 위해 사용자 지정 허용 [표시기를 만드시다.](indicator-ip-domain.md)
 
@@ -156,11 +160,11 @@ Microsoft Defender for Endpoint 데이터 처리 설정의 일부로 사용하�
 
 ### <a name="limitations-and-known-issues-in-this-preview"></a>이 미리 보기의 제한 사항 및 알려진 문제
 
-- 장치의 OS 구성이 Server(Systeminfo > OS 구성)인 > Microsoft Edge만 지원됩니다. 네트워크 보호는 지원되는 제3자 브라우저에서 트래픽을 보호하는 서버 장치의 검사 모드에서만 지원됩니다.
+- 장치의 Microsoft Edge 구성이 **Server(cmd**  >  **Systeminfo** OS 구성)인 경우  >  **지원됩니다.** 네트워크 보호는 지원되는 제3자 브라우저에서 트래픽을 보호하는 서버 장치의 검사 모드에서만 지원됩니다.
 
-- 미지정 장치에는 보고서에 잘못된 데이터가 표시됩니다. Report details > Device groups pivot, you may see a row with a blank Device Group field. 이 그룹에는 지정한 그룹에 들어가기 전에 지정되지 않은 장치가 포함되어 있습니다. 이 행에 대한 보고서에 장치 또는 액세스 수가 정확한 수를 포함하지 않을 수 있습니다.
+- 미지정 장치에는 보고서에 잘못된 데이터가 표시됩니다. 보고서 **세부 정보** 장치 그룹 피벗에서 빈 장치 그룹 필드가  >   있는 행이 표시될 수 있습니다. 이 그룹에는 지정한 그룹에 들어가기 전에 지정되지 않은 장치가 포함되어 있습니다. 이 행에 대한 보고서에 정확한 장치 수나 액세스 수가 포함되지 않을 수 있습니다.
 
-- 웹 콘텐츠 필터링 보고서는 현재 상위 5,000개 레코드를 표시하는 것으로 제한됩니다. 예를 들어 '도메인' 보고서에는 해당되는 경우 지정한 필터 쿼리에 대해 상위 5,000개 도메인만 표시됩니다. 
+- 웹 콘텐츠 필터링 보고서는 현재 상위 5,000개 레코드를 표시하는 것으로 제한됩니다. 예를 들어 도메인 보고서에는 해당되는 경우 지정한 필터 쿼리에 대해 상위 5,000개 도메인만 표시됩니다. 
 
 ## <a name="related-topics"></a>관련 항목
 

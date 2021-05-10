@@ -13,19 +13,19 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 5c7a2d943ec1813623065e70330b914a3911d1eb
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: a2bc36f9d3a3e9179f07662da8d97f4c55e72a24
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51769001"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52302055"
 ---
 # <a name="turn-on-network-protection"></a>네트워크 보호 설정 켜기
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!TIP]
@@ -43,7 +43,7 @@ ms.locfileid: "51769001"
 
 2. 사이드 **HKEY_LOCAL_MACHINE** 선택
 
-3. 중첩된 메뉴를 탐색하여   >    >  **Exploit** Guard 네트워크  >    >    >   보호를 Windows Defender Windows Defender Windows Defender 정책
+3. 중첩된 메뉴를 탐색하여 **소프트웨어** 정책 Microsoft Windows Defender  >    >    >    >  **관리자로 이동합니다.** 
 
 4. **EnableNetworkProtection을** 선택하여 장치의 현재 네트워크 보호 상태를 확인합니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "51769001"
 
 * [PowerShell](#powershell)
 * [MDM(모바일 장치 관리)](#mobile-device-management-mdm)
-* [Microsoft Endpoint Manager /Intune](#microsoft-endpoint-manager-formerly-intune)
+* [Microsoft Endpoint Manager / Intune](#microsoft-endpoint-manager-formerly-intune)
 * [그룹 정책](#group-policy)
 
 ### <a name="powershell"></a>PowerShell
@@ -79,17 +79,17 @@ ms.locfileid: "51769001"
 
     대신 `Disabled` 또는 `AuditMode` 기능을 `Enabled` 끄는 데 사용합니다.
 
-### <a name="mobile-device-management-mdm"></a>MDM(모바일 장치 관리)
+### <a name="mobile-device-management-mdm"></a>모바일 장치 관리(MDM)
 
 [./Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection) CSP(구성 서비스 공급자)를 사용하여 네트워크 보호를 사용하도록 설정하거나 감사 모드를 사용하도록 설정할 수 있습니다.
 
 ### <a name="microsoft-endpoint-manager-formerly-intune"></a>Microsoft Endpoint Manager(이전의 Intune)
 
-1. Microsoft Endpoint Manager 관리 센터에 로그인합니다.https://endpoint.microsoft.com)
+1. Microsoft Endpoint Manager 센터에 로그인합니다.https://endpoint.microsoft.com)
 
 2. 끝점 보호 구성 프로필 [만들기 또는 편집](/mem/intune/protect/endpoint-protection-configure)
 
-3. 프로필 **흐름의** 구성 설정에서 **Microsoft Defender Exploit Guard** 네트워크 필터링 네트워크 보호 사용 또는  >    >    >   **감사로 이동합니다.**
+3. 프로필 **흐름의** 구성 설정 아래에서 Microsoft Defender Exploit Guard 네트워크 필터링 네트워크 보호 사용 또는  >    >    >   **감사만 사용으로 이동하세요.**
 
 ### <a name="group-policy"></a>그룹 정책
 
@@ -101,17 +101,17 @@ ms.locfileid: "51769001"
 
     도메인에 가입된 그룹 정책 관리 컴퓨터에서 [](https://technet.microsoft.com/library/cc731212.aspx)그룹 정책 관리 콘솔을 열고 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 편집을 **선택합니다.**
 
-2. 그룹 **정책 관리 편집기에서** 컴퓨터 **구성으로 이동하여** 관리 **템플릿을 선택합니다.**
+2. **그룹 정책 관리 편집기** 에서 **컴퓨터 구성** 으로 이동하여 **관리 템플릿** 을 선택합니다.
 
-3. **Windows** 구성 요소 Microsoft Defender 바이러스 백신 및 Exploit Guard 네트워크 Windows Defender  >    >    >  **확장합니다.**
+3. Exploit Guard **네트워크 보호를 Windows 구성** Microsoft Defender 바이러스 백신  >    >  **Windows Defender**  >  **확장합니다.**
 
 > [!NOTE]
-> 이전 버전의 Windows에서 그룹 정책 경로는 "Microsoft Defender 바이러스 백신" Windows Defender "바이러스 백신"으로 표시될 수 있습니다.
+> 이전 버전의 Windows 그룹 정책 경로는 "Windows Defender 바이러스 백신"가 아니라 "Microsoft Defender 바이러스 백신"라고 말할 수 있습니다.
 
 4. 사용자 및  앱이 위험한 웹 사이트에 액세스하지 못하게 방지 설정을 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 옵션 섹션에서 다음 옵션 중 하나를 지정해야 합니다.
     * **차단** - 사용자가 악성 IP 주소 및 도메인에 액세스할 수 없습니다.
     * **사용 안 하게(기본값)** - 네트워크 보호 기능이 작동하지 않습니다. 사용자가 악의적인 도메인에 액세스하지 못하게 차단되지 않습니다.
-    * **감사 모드** - 사용자가 악성 IP 주소 또는 도메인을 방문하면 이벤트가 Windows 이벤트 로그에 기록됩니다. 그러나 사용자가 주소를 방문하지 못하도록 차단되지는 않습니다.
+    * **감사 모드** - 사용자가 악성 IP 주소 또는 도메인을 방문하면 이벤트가 Windows 기록됩니다. 그러나 사용자가 주소를 방문하지 못하도록 차단되지는 않습니다.
 
 > [!IMPORTANT]
 > 네트워크 보호를 완전히 사용하도록 설정하려면 그룹  정책 옵션을  사용으로 설정하고 옵션 드롭다운 메뉴에서 차단을 선택해야 합니다.

@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft Teams 솔루션을 사용하여 계약 관리 채널을 만드는 Microsoft 365 대해 자세히 알아보십시오.
-ms.openlocfilehash: a97f6a77818fc53aa28a5924b97e3c7309d01e3a
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: d703f6f7286a6d9584e8b18d4e283174f42a95bd
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281319"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301803"
 ---
 # <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>2단계. 이 Microsoft Teams 사용하여 계약 관리 채널 만들기
 
@@ -42,6 +42,9 @@ ms.locfileid: "52281319"
    ![목록 보기.](../media/content-understanding/list-view.png) 
 
 ## <a name="customize-your-contracts-tab-tile-view"></a>계약 탭 타일 보기 사용자 지정
+
+> [!NOTE]
+> 이 섹션에서는 솔루션 파일 zip  파일에ContractCard.js파일에 포함된 코드 **예제를** 참조합니다.
 
 타일 Teams 보기에서 계약을 볼 수 있도록 하는 동안 계약 카드에 표시하려는 계약 데이터를 보게 계약 데이터를 사용자 지정할 수 있습니다. 예를 들어 계약  탭의 경우 구성원은 계약 카드에서 클라이언트, 계약자 및 수수료 금액을 보는 것이 중요합니다. 이러한 필드는 모두 문서 라이브러리에 적용된 SharePoint Syntex 모델을 통해 각 계약에서 추출되었습니다. 또한 구성원이 승인 프로세스에서 계약의 위치를 쉽게 확인할 수 있도록 각 상태에 대해 타일 헤더 막대를 다른 색으로 변경할 수 있습니다. 예를 들어 승인된 모든 계약에는 파란색 헤더 표시줄이 있습니다.
 

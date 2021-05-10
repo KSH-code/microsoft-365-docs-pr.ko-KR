@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 05/06/2021
-ms.openlocfilehash: 22a173d39c3ab8d1afd91a33b05e02e58da24aaa
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.date: 05/08/2021
+ms.openlocfilehash: 4f2b931018d49affa2d94ddf1a147c4fd2e02085
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274559"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52302079"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -49,8 +49,8 @@ Microsoft Defender 바이러스 백신 Microsoft Advanced [](cloud-protection-mi
 
 > [!NOTE]
 > 업데이트는 아래 KB 번호에 따라 릴리스됩니다.  
-> Microsoft Defender 바이러스 백신: KB2267602  
-> System Center Endpoint Protection: KB2461484
+> - Microsoft Defender 바이러스 백신: KB2267602  
+> - System Center Endpoint Protection: KB2461484
 
 클라우드 제공 보호는 항상 설정되어 있으며 인터넷에 대한 활성 연결이 필요합니다. 보안 인텔리전스 업데이트는 예약된 일정에 따라 발생합니다(정책을 통해 구성 가능). 자세한 내용은 에서 Microsoft 클라우드 제공 보호 [Microsoft Defender 바이러스 백신.](cloud-protection-microsoft-defender-antivirus.md) 
 
@@ -83,11 +83,11 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 - 통합 개선된 기능(클라우드, Microsoft 365 Defender).
 <br/>
 <details>
-<summary> 2021년 4월(플랫폼: 4.19.2104.9| 엔진: 1.1.18100.5)</summary>
+<summary> 2021년 4월(플랫폼: 4.18.2104.9| 엔진: 1.1.18100.5)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.337.2.0**  
 &ensp;릴리스: **2021년 4월 1일**  
-&ensp;플랫폼: **4.19.2104.9**  
+&ensp;플랫폼: **4.18.2104.9**  
 &ensp;엔진: **1.1.18100.5**  
 &ensp;지원 단계: **보안 및 중요 업데이트**
     
@@ -101,11 +101,11 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 </details>
 
 <details>
-<summary> 2021년 3월(플랫폼: 4.19.2103.7 | 엔진: 1.1.18000.5)</summary>
+<summary> 2021년 3월(플랫폼: 4.18.2103.7 | 엔진: 1.1.18000.5)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.335.36.0**  
 &ensp;릴리스: **2021년 4월 1일**  
-&ensp;플랫폼: **4.19.2103.7**  
+&ensp;플랫폼: **4.18.2103.7**  
 &ensp;엔진: **1.1.18000.5**  
 &ensp;지원 단계: **보안 및 중요 업데이트**
     
@@ -119,11 +119,11 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 알려진 문제 없음  
 <br/>
 </details><details>
-<summary> 2021년 2월(플랫폼: 4.19.2102.3 | 엔진: 1.1.17900.7)</summary>
+<summary> 2021년 2월(플랫폼: 4.18.2102.3 | 엔진: 1.1.17900.7)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.333.7.0**  
 &ensp;릴리스: **2021년 3월 9일**  
-&ensp;플랫폼: **4.19.2102.3**  
+&ensp;플랫폼: **4.18.2102.3**  
 &ensp;엔진: **1.1.17900.7**  
 &ensp;지원 단계: **보안 및 중요 업데이트**
     
@@ -216,7 +216,7 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
    - Server 2019의 네트워크 보호
    - 네트워크 보호를 위한 IP 주소 제외
 - TPM 측정에 대한 가시성 향상
-- 개선된 Office VBA 모듈 검사
+- VBA 모듈 Office 향상
 
 ### <a name="known-issues"></a>알려진 문제
 
@@ -239,7 +239,7 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 - 메모리 검사에 대한 향상된 동작 모니터링
 - 향상된 매크로 스트림 검사
 - `AMRunningMode`PowerShell cmdlet에 Get-MpComputerStatus 추가
-- [DisableAntiSpyware는](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) 무시됩니다. Microsoft Defender 바이러스 백신은 다른 바이러스 백신 프로그램을 감지하면 자동으로 꺼집니다.
+- [DisableAntiSpyware는](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) 무시됩니다. Microsoft Defender 바이러스 백신 바이러스 백신 프로그램을 검색하면 자동으로 꺼집니다.
 
 
 ### <a name="known-issues"></a>알려진 문제
@@ -353,7 +353,7 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 - 프로세스 차단에 대한 알림 개선
    
 ### <a name="known-issues"></a>알려진 문제
-[**Fixed**] Microsoft Defender 바이러스 백신이 검사 실행 시 파일을 건너뛰고 있습니다.
+[**Fixed**] Microsoft Defender 바이러스 백신 실행 시 파일을 건너뛰고 있습니다.
 
 <br/>
 </details>
@@ -389,7 +389,7 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
      
 ### <a name="whats-new"></a>새로운 기능
 
-- Exchange를 통해 WS2016의 고정 BSOD
+- WS2016의 고정 BSOD 및 Exchange
 - TMP가 네트워크 경로로 리디렉션될 때 플랫폼 업데이트 지원
 - 플랫폼 및 엔진 버전이 [WDSI에 추가됩니다.](https://www.microsoft.com/en-us/wdsi/defenderupdates) <!-- The preceding URL must include "/en-us" -->
 - 긴급 서명 업데이트를 [수동 모드로 확장](./microsoft-defender-antivirus-compatibility.md)
@@ -405,7 +405,7 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 > - 문제가 있는 시스템에 대한 재부팅 플래그가 있습니다.
 > - 는 2020년 4월에 다시 출시될 예정으로, 향후 가용성을 유지하기 위해 최신 업데이트로 변경되지 않습니다.  
 > - 는 재부팅 요구 사항으로 인해 업데이트로 분류됩니다. 및
-> - 는 Windows [업데이트에서만 제공됩니다.](https://support.microsoft.com/help/4027667/windows-10-update)
+> - 는 업데이트 [에서만 Windows 있습니다.](https://support.microsoft.com/help/4027667/windows-10-update)
 <br/>
 </details>
 
@@ -438,12 +438,12 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
  
 - **기술 지원(전용) 단계** - 새 플랫폼 버전이 출시된 후 이전 버전(N-2)에 대한 지원은 기술 지원으로만 축소됩니다. N-2 이전의 플랫폼 버전은 더 이상 지원되지 않습니다.*
 
-\* Windows 10 릴리스 [버전(Windows 10](#platform-version-included-with-windows-10-releases)릴리스에 포함된 플랫폼 버전 참조)에서 최신 플랫폼 버전으로 업그레이드하기 위한 기술 지원이 계속 제공됩니다.
+\*기술 지원은 Windows 10 릴리스 버전에서 최신 플랫폼 버전으로의 업그레이드를 위해 계속 [제공됩니다(Windows 10](#platform-version-included-with-windows-10-releases)릴리스에 포함된 플랫폼 버전 참조).
 
 기술 지원(전용) 단계 중에는 상업적으로 합리적인 지원 인시던트가 Microsoft 고객 서비스 & 지원 및 Microsoft의 관리 지원 서비스(예: 프리미어 지원)를 통해 제공됩니다. 지원 인시던트가 추가 지침을 위해 개발로 에스컬레이터해야 하는 경우, 비보안 업데이트가 필요하거나, 보안 업데이트가 필요한 경우 고객에게 최신 플랫폼 버전 또는 중간 업데이트(*)로 업그레이드할지 묻는 요청이 표시됩니다.
 
-### <a name="platform-version-included-with-windows-10-releases"></a>Windows 10 릴리스에 포함된 플랫폼 버전
-아래 표에는 최신 Windows 10 릴리스와 함께 제공된 Microsoft Defender 바이러스 백신 플랫폼 및 엔진 버전이 제공됩니다.    
+### <a name="platform-version-included-with-windows-10-releases"></a>릴리스에 포함된 플랫폼 Windows 10 버전
+아래 표에는 최신 Microsoft Defender 바이러스 백신 함께 제공된 플랫폼 및 엔진 버전이 Windows 10 있습니다.    
 
 |Windows 10 릴리스  |플랫폼 버전  |엔진 버전 |지원 단계 |
 |:---|:---|:---|:---|
@@ -456,13 +456,13 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 |1703(RS2) |4.11.15603.2 |1.1.13504.0 | 기술 업그레이드 지원(전용) |
 |1607(RS1) |4.10.14393.3683 |1.1.12805.0 | 기술 업그레이드 지원(전용) |  
 
-Windows 10 릴리스 정보는 [Windows 수명 주기 팩트 시트 를 참조하세요.](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet)
+릴리스 Windows 10 자세한 내용은 수명 주기 Windows [시트를 참조하세요.](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet)
 
 ## <a name="updates-for-deployment-image-servicing-and-management-dism"></a>DISM(배포 이미지 서비스 및 관리)에 대한 업데이트
 
-최신 바이러스 백신 및 맬웨어 방지 업데이트를 사용하여 Windows 10(Enterprise, Pro 및 Home 버전), Windows Server 2019 및 Windows Server 2016 OS 설치 이미지를 업데이트하는 것이 좋습니다. OS 설치 이미지를 최신으로 유지하면 보호 격차를 방지할 수 있습니다. 
+최신 바이러스 백신 및 맬웨어 방지 업데이트로 Windows 10(Enterprise, Pro 및 Home edition), Windows Server 2019 및 Windows Server 2016 OS 설치 이미지를 업데이트하는 것이 좋습니다. OS 설치 이미지를 최신으로 유지하면 보호 격차를 방지할 수 있습니다. 
 
-자세한 내용은 Windows 운영 체제 설치 [이미지용 Microsoft Defender 업데이트를 참조하세요.](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)
+자세한 내용은 운영 체제 설치 Windows Microsoft [Defender 업데이트를 참조하세요.](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)
 
 <details>
 <summary>1.1.2105.01</summary>
@@ -588,7 +588,7 @@ Windows 10 릴리스 정보는 [Windows 수명 주기 팩트 시트 를 참조�
 - 없음
 
 ### <a name="additional-information"></a>추가 정보
-- Windows 10 RS1 이상 OS 설치 이미지에 대한 지원이 추가되었습니다.  
+- RS1 Windows 10 OS 설치 이미지에 대한 지원이 추가되었습니다.  
 <br/>
 </details>
 
@@ -596,7 +596,7 @@ Windows 10 릴리스 정보는 [Windows 수명 주기 팩트 시트 를 참조�
 
 | 문서 | 설명  |
 |:---|:---|
-|[Windows 운영 체제 설치 이미지에 대한 Microsoft Defender 업데이트](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)  | OS 설치 이미지(WIM 및 VHD 파일)에 대한 맬웨어 방지 업데이트 패키지를 검토합니다. Windows 10(Enterprise, Pro 및 Home 버전), Windows Server 2019 및 Windows Server 2016 설치 이미지에 대한 Microsoft Defender 바이러스 백신 업데이트를 다운로드합니다.  |
+|[운영 체제 설치 Windows 대한 Microsoft Defender 업데이트](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)  | OS 설치 이미지(WIM 및 VHD 파일)에 대한 맬웨어 방지 업데이트 패키지를 검토합니다. Microsoft Defender 바이러스 백신(Windows 10 Enterprise, Pro 및 Home edition), Windows Server 2019 및 Windows Server 2016 설치 이미지에 대한 Windows Server 2016 다운로드합니다.  |
 |[보호 업데이트를 다운로드하고 적용하는 방법 관리](manage-protection-updates-microsoft-defender-antivirus.md) | 보호 업데이트는 여러 소스를 통해 전달할 수 있습니다. |
 |[보호 업데이트를 다운로드하고 적용해야 하는 경우 관리](manage-protection-update-schedule-microsoft-defender-antivirus.md) | 보호 업데이트를 다운로드해야 하는 경우를 예약할 수 있습니다. |
 |[최신이 지난 끝점에 대한 업데이트 관리](manage-outdated-endpoints-microsoft-defender-antivirus.md) | 끝점에서 업데이트 또는 예약된 검사가 누락된 경우 다음에 사용자가 로그인할 때 강제로 업데이트를 실행하거나 검색할 수 있습니다. |

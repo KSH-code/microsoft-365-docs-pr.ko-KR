@@ -12,19 +12,18 @@ search.appverid: ''
 ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: ''
 localization_priority: None
-ms.openlocfilehash: 290c06d95c6569b5a446a7a7410d34ff3b57055d
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: bdb49af4ac43976a1ad734e507902781d63c5670
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904073"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301791"
 ---
 # <a name="topic-center-overview-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 항목 센터 개요
 
-
-Microsoft Viva 항목에서 항목 센터는 조직에 대한 지식의 중심 역할을 하는 최신 SharePoint 사이트입니다. Microsoft 365 관리 센터의 [Viva 항목](set-up-topic-experiences.md) 설정 중에 만들어집니다.
+Microsoft Viva 항목에서 항목 센터는 조직의 지식 SharePoint 제공하는 최신 사이트입니다. 이 이벤트는 Microsoft 365 관리 센터에서 [Viva Topics를](set-up-topic-experiences.md) 설치하는 동안 만들어집니다.
 
 항목 센터에는 사용이 허가된  모든 사용자가 연결이 있는 항목을 볼 수 있는 항목 웹 파트가 있는 기본 홈 페이지가 있습니다. 
 
@@ -35,10 +34,10 @@ Microsoft Viva 항목에서 항목 센터는 조직에 대한 지식의 중심 �
 항목 센터는 Viva 항목 설정 중에 만들어집니다. 설치가 완료되면 관리자는 항목 센터 관리 페이지에서 [URL을 찾을 수 있습니다.](./topic-experiences-administration.md#to-access-topics-management-settings)
 
 
-1. Microsoft 365 관리 센터에서 설정 을 선택한 다음 **Org 설정을 선택합니다.**
+1. Microsoft 365 관리 센터에서 설정 **를** 선택한 다음 **Org 설정을 선택합니다.**
 2. 서비스 **탭에서** 항목 환경 **을 선택합니다.**
 
-    ![지식에 사람 연결](../media/admin-org-knowledge-options-completed.png) </br>
+    ![커넥트 정보를 알 수 있습니다.](../media/admin-org-knowledge-options-completed.png) </br>
 
 3. 항목 **센터 탭을** 선택합니다. 사이트 **주소 아래에는** 항목 센터에 대한 링크가 있습니다.
 
@@ -57,7 +56,7 @@ Microsoft Viva 항목에서 항목 센터는 조직에 대한 지식의 중심 �
 
 항목 센터 홈 페이지에서 연결이 있는 조직의 항목을 볼 수 있습니다.
 
-- 제안된 연결 - 이러한 항목에 나열된 아래에 나열된 **항목을 볼 수 있습니다. 올바른가요?**. 다음은 AI를 통해 항목에 대한 연결을 제안한 항목입니다. 예를 들어 관련 파일이나 사이트의 작성자일 수 있습니다. 항목에 대한 관련 사람으로 나열되어야 하는지 확인이 요청됩니다.
+- 제안된 연결 - 이러한 항목에 나열된 아래에 나열된 **항목을 볼 수 있습니다. 올바른 시작이 했나요?** 다음은 AI를 통해 항목에 대한 연결을 제안한 항목입니다. 예를 들어 관련 파일이나 사이트의 작성자일 수 있습니다. 항목에 대한 관련 사람으로 나열되어야 하는지 확인이 요청됩니다.
 
    ![제안된 연결](../media/knowledge-management/my-topics.png) </br>
  
@@ -70,12 +69,12 @@ Microsoft Viva 항목에서 항목 센터는 조직에 대한 지식의 중심 �
 
 ## <a name="manage-topics-page"></a>항목 관리 페이지
 
-항목 센터의 **항목** 관리 섹션에서 작업하려면 기술 관리자 역할에 필요한 항목 관리 권한이 필요합니다. 관리자는 지식 관리 설정 중에 [](set-up-topic-experiences.md)사용자에게 이러한 사용 권한을 할당할 수 있습니다. 또는 관리자가 Microsoft 365 관리 센터를 통해 이후에 새 사용자를 추가할 수 있습니다. [](topic-experiences-knowledge-rules.md)
+항목 센터의 **항목** 관리 섹션에서 작업하려면 기술 관리자 역할에 필요한 항목 관리 권한이 필요합니다. 관리자는 지식 관리 설정 중에 [](set-up-topic-experiences.md)사용자에게 이러한 권한을 할당할 [](topic-experiences-knowledge-rules.md) 수 있습니다. 또는 새 사용자는 Microsoft 365 관리 센터를 통해 관리자가 추가할 수 있습니다.
 
 항목 관리 페이지에 있는 항목 대시보드에는 지정된 원본 위치에서 식별된 모든 항목(액세스 권한이 있습니다.)이 표시됩니다. 각 항목에는 항목을 검색한 날짜가 표시될 것입니다. Manage topics 권한이 할당된 사용자는 확정되지 않은 항목을 검토하고 다음을 선택할 수 있습니다.
 - Confirm the topic: Indicates to users that an AI suggested topic has been validated by a human curator. 
 - 항목 게시: 항목 정보를 편집하여 처음 식별된 항목의 품질을 개선하고 항목에 대한 보기 권한이 있는 모든 사용자에게 해당 항목을 강조합니다. 
-- Reject the topic: Makes the topic undiscoverable to end users. 이 항목은 거부된 탭으로 이동하며 필요한 경우 나중에 확인할 수 있습니다.  
+- Remove the topic: Makes the topic undiscoverable to end users. 항목은 제거됨  탭으로 이동되고 필요한 경우 나중에 확인할 수 있습니다. 
 
 > [!Note] 
 > 항목 [관리 페이지에서](manage-topics.md) 항목 관리 항목에 대한 자세한 내용은 항목 관리를 참조하세요.

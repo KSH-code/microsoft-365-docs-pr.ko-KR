@@ -1,5 +1,5 @@
 ---
-title: Intune을 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법(Windows 10)
+title: Intune을 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 Windows 10(
 description: Intune 설정을 구성하여 USB 장치와 같은 이동식 저장소의 위협을 줄일 수 있습니다.
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -12,12 +12,12 @@ ms.reviewer: dansimp
 manager: dansimp
 audience: ITPro
 ms.technology: mde
-ms.openlocfilehash: 4d5479336588a78599f8e8a868503257964adb3a
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: eb7043451c4d80e3eca8b0703703ac6d7a459161
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893828"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52302091"
 ---
 # <a name="how-to-control-usb-devices-and-other-removable-media-using-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender를 사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법
 
@@ -28,10 +28,10 @@ Microsoft는 [](https://aka.ms/devicecontrolblog)이동식 미디어를 보호�
 1. [Endpoint 고급 헌팅용 Microsoft Defender에서 주변 장치용 플러그 앤 플레이 이벤트를 검색합니다.](#discover-plug-and-play-connected-events) 의심스러운 사용 활동을 식별하거나 조사합니다.
 
 2. 특정 이동식 장치만 허용하거나 차단하고 위협을 방지하도록 구성합니다.
-    1. [세부적인](#allow-or-block-removable-devices) 구성에 따라 이동식 장치를 허용하거나 차단하여 이동식 디스크에 대한 쓰기 액세스를 거부하고 USB 장치 ID를 사용하여 디바이스를 승인하거나 거부합니다. 개별 또는 Azure AD(Azure Active Directory) 사용자 및 장치에 따라 장치 설치 설정의 유연한 정책 할당
+    1. [세부적인](#allow-or-block-removable-devices) 구성에 따라 이동식 장치를 허용하거나 차단하여 이동식 디스크에 대한 쓰기 액세스를 거부하고 USB 장치 ID를 사용하여 디바이스를 승인하거나 거부합니다. Azure AD(Azure AD) 사용자 및 디바이스의 개별 또는 Azure Active Directory 설정의 유연한 정책 할당
 
     2. [이동식 저장소 장치에서 도입된](#prevent-threats-from-removable-storage) 이동식 저장소의 위협을 방지합니다.  
-        - 이동식 저장소에서 맬웨어를 검사하는 Microsoft Defender 바이러스 백신 RTP(실시간 보호)  
+        - Microsoft Defender 바이러스 백신 RTP(실시간 보호)를 통해 이동식 저장소에서 맬웨어를 검색할 수 있습니다.  
         - USB에서 실행된 트러블 및 부호 없는 프로세스를 차단하는 ASR(공격 표면 축소) USB 규칙입니다.  
         - Thunderbolt에 대한 커널 DMA 보호를 포함한 DMA 공격을 완화하고 사용자가 로그인할 때까지 DMA를 차단하는 DMA(직접 메모리 액세스) 보호 설정  
 
@@ -40,14 +40,14 @@ Microsoft는 [](https://aka.ms/devicecontrolblog)이동식 미디어를 보호�
 4. [각 주변 장치에서](#respond-to-threats) 보고하는 속성에 따라 주변 장치 위협에 실시간으로 대응합니다.
 
 >[!Note]
->이러한 위협 감소 조치는 맬웨어가 사용자 환경에 유입되는 것을 방지하는 데 도움이 됩니다. 엔터프라이즈 데이터를 환경에서 나가지 않고 보호하기 위해 데이터 손실 방지 조치도 구성할 수 있습니다. 예를 들어 Windows 10 [장치에서는 BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview.md) 및 [Windows Information Protection을](/windows/security/information-protection/create-wip-policy-using-intune-azure.md)구성하여 개인 장치에 저장된 경우에도 회사 데이터를 암호화하거나 [Storage/RemovableDiskDenyWriteAccess CSP를](/windows/client-management/mdm/policy-csp-storage#storage-removablediskdenywriteaccess) 사용하여 이동식 디스크에 대한 쓰기 액세스를 거부할 수 있습니다. 또한 끝점용 Microsoft Defender 및 Azure Information Protection을 사용하여 [Windows](/windows/security/threat-protection/windows-defender-atp/information-protection-in-windows-overview) 디바이스(탑재된 USB 장치 포함)의 파일을 분류하고 보호할 수 있습니다.
+>이러한 위협 감소 조치는 맬웨어가 사용자 환경에 유입되는 것을 방지하는 데 도움이 됩니다. 엔터프라이즈 데이터를 환경에서 나가지 않고 보호하기 위해 데이터 손실 방지 조치도 구성할 수 있습니다. 예를 들어 Windows 10 디바이스에서 BitLocker 및 [](/windows/security/information-protection/bitlocker/bitlocker-overview.md) Windows Information [Protection을](/windows/security/information-protection/create-wip-policy-using-intune-azure.md)구성하여 회사 데이터가 개인 장치에 저장된 경우에도 암호화하거나 [Storage/RemovableDiskDenyWriteAccess CSP를](/windows/client-management/mdm/policy-csp-storage#storage-removablediskdenywriteaccess) 사용하여 이동식 디스크에 대한 쓰기 액세스를 거부할 수 있습니다. 또한 끝점용 Microsoft Defender 및 Azure [Information](/windows/security/threat-protection/windows-defender-atp/information-protection-in-windows-overview) Protection을 사용하여 Windows 장치(탑재된 USB 장치 포함)의 파일을 분류하고 보호할 수 있습니다.
 
 ## <a name="discover-plug-and-play-connected-events"></a>플러그 앤 플레이 연결된 이벤트 검색
 
 Microsoft Defender for Endpoint 고급 헌팅에서 플러그 앤 플레이 이벤트를 보고 의심스러운 사용 활동을 식별하거나 내부 조사를 수행할 수 있습니다.
-Endpoint 고급 헌팅 쿼리에 대한 Defender의 예는 [끝점 헌팅용 Microsoft Defender 헌팅 쿼리 GitHub 리포지타이저를 참조합니다.](https://github.com/Microsoft/WindowsDefenderATP-Hunting-Queries)
+Endpoint 고급 헌팅 쿼리에 대한 Defender의 예는 Microsoft [Defender for Endpoint hunting queries GitHub 참조합니다.](https://github.com/Microsoft/WindowsDefenderATP-Hunting-Queries)
 
-샘플 Power BI 보고서 서식 파일은 고급 헌팅 쿼리에 사용할 수 있는 끝점용 Microsoft Defender에 사용할 수 있습니다. 디바이스 컨트롤용 템플릿을 포함하여 이러한 샘플 템플릿을 사용하여 고급 헌팅 기능을 Power BI에 통합할 수 있습니다. 자세한 내용은 PowerBI 템플릿에 대한 [GitHub 리포지토리를](https://github.com/microsoft/MDATP-PowerBI-Templates) 참조하세요. [Power BI 통합에](/microsoft-365/security/defender-endpoint/api-power-bi) 대한 자세한 내용은 Power BI를 사용하여 사용자 지정 보고서 만들기를 참조합니다.
+샘플 Power BI 보고서 서식 파일은 고급 헌팅 쿼리에 사용할 수 있는 끝점용 Microsoft Defender에 사용할 수 있습니다. 장치 제어용 템플릿을 포함하여 이러한 샘플 템플릿을 사용하여 고급 헌팅 기능을 디바이스에 통합할 수 Power BI. 자세한 [GitHub PowerBI](https://github.com/microsoft/MDATP-PowerBI-Templates) 템플릿의 사이트 저장소를 참조하세요. 통합에 [대한 자세한 내용은 Power BI](/microsoft-365/security/defender-endpoint/api-power-bi) 사용자 지정 보고서 만들기를 Power BI 참조합니다.
 
 ## <a name="allow-or-block-removable-devices"></a>이동식 장치 허용 또는 차단
 다음 표에서는 Microsoft Defender for Endpoint가 세분화된 구성에 따라 이동식 장치를 허용하거나 차단하는 방법을 설명하고 있습니다.
@@ -60,7 +60,7 @@ Endpoint 고급 헌팅 쿼리에 대한 Defender의 예는 [끝점 헌팅용 Mic
 | [특별히 금지된 주변 장치 설치 방지](#prevent-installation-of-specifically-prohibited-peripherals) | 펌웨어에서 특정 속성을 보고하는 금지된 주변 장치를 설치하거나 사용할 수 없습니다. |
 | [일치하는 장치 인스턴스 ID를 사용하여 특별히 승인된 주변 장치의 설치 및 사용 허용](#allow-installation-and-usage-of-specifically-approved-peripherals-with-matching-device-instance-ids) | 이러한 장치 인스턴스 ID 중 하나와 일치하는 승인된 주변 장치만 설치하고 사용할 수 있습니다. |
 | [일치하는 장치 인스턴스 ID를 사용하여 특별히 금지된 주변 장치의 설치 및 사용 방지](#prevent-installation-and-usage-of-specifically-prohibited-peripherals-with-matching-device-instance-ids) | 이러한 장치 인스턴스와 일치하는 금지된 주변 장치를 설치하거나 사용할 수 없습니다. |
-| [서비스를 사용하는 서비스 Bluetooth](#limit-services-that-use-bluetooth) | 이러한 서비스를 사용할 수 있는 서비스를 제한할 수 Bluetooth. |
+| [서비스를 사용하는 서비스를 Bluetooth](#limit-services-that-use-bluetooth) | 이러한 서비스를 사용할 수 있는 서비스를 제한할 수 Bluetooth. |
 | [끝점 기준 설정에 Microsoft Defender 사용](#use-microsoft-defender-for-endpoint-baseline-settings) | 끝점용 Defender 보안 기준을 사용하여 ATP에 대한 권장 구성을 설정할 수 있습니다. |
 
 ### <a name="restrict-usb-drives-and-other-peripherals"></a>USB 드라이브 및 기타 주변 장치 제한
@@ -108,7 +108,7 @@ USB 드라이브 및 기타 주변 장치 설치 및 사용을 허용하는 한 
 
 장치 ID를 찾으면 장치 ID [찾기를 참조하세요.](#look-up-device-id) 
 
-예제:
+예를 들면 다음과 같습니다.
 
 1. 이러한 장치 설정과 일치하는 드라이버를 사용하여 디바이스 설치 허용에서 클래스 USBDevice를 **제거합니다.**
 2. 이러한 장치 ID와 일치하는 장치의 설치 허용에서 허용할 장치 **ID를 추가합니다.** 
@@ -124,11 +124,11 @@ USB 드라이브 및 기타 주변 장치 설치 및 사용을 허용하는 한 
 > [!Note]
 > 장치 설치 방지 정책이 장치 설치 허용 정책보다 우선합니다.
 
-이러한 **장치 ID와** 일치하는 장치 설치 금지 정책을 사용하면 Windows가 설치하지 못하도록 차단된 장치 목록을 지정할 수 있습니다. 
+이러한 **장치와** 일치하는 장치 설치 금지 정책을 사용하면 설치가 금지된 장치 목록을 Windows 수 있습니다. 
 
 이러한 장치 ID와 일치하는 디바이스를 설치하지 못하게 방지하려면 
 
-1. [Windows에서](#look-up-device-id) 설치를 방지하려는 장치의 장치 ID를 확인합니다.
+1. [설치하지](#look-up-device-id) 못하도록 할 디바이스에 Windows ID를 찾아보아야 합니다.
 
    ![공급업체 또는 제품 ID 찾아 보기](images/lookup-vendor-product-id.png)
 
@@ -158,7 +158,7 @@ Get-WMIObject -Class Win32_DiskDrive |
 Select-Object -Property * 
 ```
 
-이러한 **장치 설정** 클래스와 일치하는 드라이버를 사용하여 디바이스 설치 금지 정책을 사용하면 Windows에서 설치가 금지된 장치 설정 클래스를 지정할 수 있습니다. 
+이러한 **장치 설정** 클래스와 일치하는 드라이버를 사용하여 디바이스를 설치하지 못하도록 방지 정책을 사용하면 설치가 금지된 Windows 클래스를 지정할 수 있습니다. 
 
 특정 디바이스 클래스의 설치를 방지하는 경우: 
 
@@ -171,9 +171,9 @@ Select-Object -Property *
 
 ### <a name="block-installation-and-usage-of-removable-storage"></a>이동식 저장소 설치 및 사용 차단
 
-1. Microsoft Azure [Portal에 로그인합니다.](https://portal.azure.com/)
+1. Microsoft Endpoint Manager [센터에 로그인합니다.](https://endpoint.microsoft.com/)
 
-2. **Intune 장치 구성**  >    >  **프로필 프로필**  >  **만들기를 클릭합니다.**
+2. 장치 **구성**  >  **프로필 프로필**  >  **만들기를 클릭합니다.**
 
     > [!div class="mx-imgBorder"]
     > ![장치 구성 프로필 만들기](images/create-device-configuration-profile.png)
@@ -224,7 +224,7 @@ Select-Object -Property *
 
 [DeviceInstallation/PreventInstallationOfMatchingDeviceInstanceIDs](/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-preventinstallationofmatchingdeviceinstanceids) 정책 설정을 구성하여 장치 인스턴스 ID가 일치하는 금지된 주변 장치를 설치하지 못하게 할 수 있습니다.
 
-### <a name="limit-services-that-use-bluetooth"></a>서비스를 사용하는 서비스 Bluetooth
+### <a name="limit-services-that-use-bluetooth"></a>서비스를 사용하는 서비스를 Bluetooth
 
 Intune을 사용하여 "허용된 서비스" 를 통해 Bluetooth 수 있는 Bluetooth [수 있습니다.](/windows/client-management/mdm/policy-csp-bluetooth#servicesallowedlist-usage-guide) "허용된 Bluetooth" 설정의 기본 상태는 모든 것이 허용되는 것을 의미합니다.  서비스가 추가되는 즉시 허용되는 목록이 됩니다. 고객이 키보드 및 마우스 값을 추가하고 파일 전송 GUID를 추가하지 않는 경우 파일 전송이 차단됩니다.
 
@@ -255,23 +255,23 @@ USB 장치 제어에 대한 자세한 내용은 [끝점용 Microsoft Defender �
 
 | 제어  | 설명 |
 |----------|-------------|
-| [Microsoft Defender 바이러스 백신 검사 사용](#enable-microsoft-defender-antivirus-scanning) | 실시간 보호 또는 예약된 검사에 대해 Microsoft Defender 바이러스 백신 검색을 사용하도록 설정|
+| [검색 Microsoft Defender 바이러스 백신 사용](#enable-microsoft-defender-antivirus-scanning) | 실시간 Microsoft Defender 바이러스 백신 검사 또는 예약된 검사에 대한 검색을 사용하도록 설정할 수 있습니다.|
 | [USB 주변 디바이스에서 트러블되지 않은 프로세스 및 부호 없는 프로세스 차단](#block-untrusted-and-unsigned-processes-on-usb-peripherals) | 부호가 없는 USB 파일 또는 트러블되지 않은 USB 파일을 차단합니다. |
 | [DMA(직접 메모리 액세스) 공격으로부터 보호](#protect-against-direct-memory-access-dma-attacks) | DMA 공격으로부터 보호하기 위한 설정을 구성합니다. |
 
 >[!NOTE]
 >권한이 없는 USB 주변 장치가 USB 속성을 스푸핑하는 펌웨어를 사용할 수 있기 때문에 특별히 승인된 USB 주변 장치만 허용하고 액세스할 수 있는 사용자를 제한하는 것이 좋습니다.
 
-### <a name="enable-microsoft-defender-antivirus-scanning"></a>Microsoft Defender 바이러스 백신 검사 사용
+### <a name="enable-microsoft-defender-antivirus-scanning"></a>검색 Microsoft Defender 바이러스 백신 사용
 
-Microsoft Defender 바이러스 백신을 통해 권한이 [](/microsoft-365/security/defender-endpoint/configure-real-time-protection-microsoft-defender-antivirus) 부여된 이동식 저장소를 보호하려면 실시간 보호 또는 스캔을 사용하도록 설정하고 이동식 드라이브를 검사에 구성해야 합니다.
+인증된 이동식 저장소를 Microsoft Defender 바이러스 백신 실시간 [](/microsoft-365/security/defender-endpoint/configure-real-time-protection-microsoft-defender-antivirus) 보호 또는 스캔을 사용하도록 설정하고 이동식 드라이브를 검색할 수 있도록 구성해야 합니다.
 
-- 실시간 보호를 사용하도록 설정하면 파일에 액세스하고 실행하기 전에 파일을 검사합니다. 검사 범위에는 USB 드라이브와 같은 탑재된 이동식 장치에 있는 파일을 포함하여 모든 파일이 포함됩니다. [선택적으로 PowerShell](/samples/browse/?redirectedfrom=TechNet-Gallery) 스크립트를 실행하여 USB 드라이브가 탑재된 후 사용자 지정 스캔을 수행하여 Microsoft Defender 바이러스 백신이 이동식 장치가 연결되면 이동식 장치의 모든 파일 검색을 시작할 수 있습니다. 그러나 검사 성능을 향상시키는 데 실시간 보호를 사용하도록 설정하는 것이 좋습니다( 특히 큰 저장 장치).
+- 실시간 보호를 사용하도록 설정하면 파일에 액세스하고 실행하기 전에 파일을 검사합니다. 검사 범위에는 USB 드라이브와 같은 탑재된 이동식 장치에 있는 파일을 포함하여 모든 파일이 포함됩니다. [선택적으로 PowerShell](/samples/browse/?redirectedfrom=TechNet-Gallery) 스크립트를 실행하여 USB 드라이브가 탑재된 후 사용자 지정 스캔을 수행하여 이동식 장치가 Microsoft Defender 바이러스 백신 이동식 장치에서 모든 파일 검색을 시작할 수 있습니다. 그러나 검사 성능을 향상시키는 데 실시간 보호를 사용하도록 설정하는 것이 좋습니다( 특히 큰 저장 장치).
 
 - 예약된 검사가 사용되는 경우 DisableRemovableDriveScanning 설정(기본적으로 사용)을 사용하지 않도록 설정하여 전체 검사 중에 이동식 장치를 검사해야 합니다. 이동식 장치는 DisableRemovableDriveScanning 설정에 관계없이 빠른 또는 사용자 지정 검사 중에 스캔됩니다.
 
 >[!NOTE]
->검색을 위해 실시간 모니터링을 사용하도록 설정하는 것이 좋습니다. Intune에서 장치 제한 구성   >    >  **Microsoft Defender** 바이러스 백신 실시간 모니터링 구성에서 Windows 10에 대한 실시간 모니터링을 사용하도록 설정할  >  **수 있습니다.**
+>검색을 위해 실시간 모니터링을 사용하도록 설정하는 것이 좋습니다. Intune에서 장치 제한 구성 및 실시간 모니터링에서 Windows 10 모니터링에 대한 Microsoft Defender 바이러스 백신  >    >    >  **수 있습니다.**
 
 <!-- Need to build out point in the preceding note. 
 -->
@@ -283,13 +283,13 @@ Microsoft Defender 바이러스 백신을 통해 권한이 [](/microsoft-365/sec
 또는 회사에서는 공격 표면 감소 [](/microsoft-365/security/defender-endpoint/attack-surface-reduction) 규칙의 감사 기능을 활용하여 USB 주변 디바이스에서 실행되는 트러러운 프로세스 및 부호 없는 프로세스의 활동을 모니터링할 수 있습니다.
 USB에서 실행된 트러블되지 않은 프로세스와 부호 없는 프로세스는  각각 차단 또는 감사 전용으로 설정하여 수행될 수 있습니다. 
 이 규칙을 사용하여 관리자는 SD 카드를 포함하여 USB 이동식 드라이브에서 사인되지 않은 실행 파일 또는 트러블되지 않은 실행 파일이 실행되지 않도록 방지하거나 감사할 수 있습니다.
-영향을 받는 파일 형식에는 실행 파일(예: .exe, .dll 또는 .scr) 및 PowerShell(.ps), VisualBasic(.vbs) 또는 JavaScript 파일(.js)과 같은 스크립트 파일이 포함됩니다.
+영향을 받는 파일 형식에는 실행 파일(예: .exe, .dll 또는 .scr) 및 PowerShell(.ps), VisualBasic(.vbs) 또는 JavaScript(.js) 파일과 같은 스크립트 파일이 포함됩니다.
 
 이러한 설정을 사용하려면 [실시간 보호를 사용하도록 설정해야 합니다.](/microsoft-365/security/defender-endpoint/configure-real-time-protection-microsoft-defender-antivirus)
 
-1. [Microsoft 끝점 관리자에 로그인합니다.](https://endpoint.microsoft.com/)
+1. 에 [로그인합니다Microsoft Endpoint Manager.](https://endpoint.microsoft.com/)
 
-2. 장치   >  **Windows**  >  **구성 정책 프로필** 만들기  >  **를 클릭합니다.** 
+2. 구성 **정책**  >  **Windows**  >  **만들기**  >  **를 클릭합니다.** 
 
     ![장치 구성 프로필 만들기](images/create-device-configuration-profile.png)
 
@@ -318,7 +318,7 @@ DMA 공격은 PC에 있는 중요한 정보가 공개되거나 공격자가 잠�
 
    장치 메모리의 연결을 지원하는 주변 장치는 항상 연결할 수 있습니다. 사용자가 로그인한 후에만 차단, 허용 또는 허용할 수 없는 주변 장치(기본값)
 
-2. 커널 DMA 보호를 지원하지 않는 Windows 10 시스템에서는 다음을 할 수 있습니다.
+2. 커널 Windows 10 지원하지 않는 모든 시스템에서 다음을 할 수 있습니다.
 
    - [사용자가 로그인할 때까지 DMA 차단](/windows/client-management/mdm/policy-csp-dataprotection#dataprotection-allowdirectmemoryaccess)
    - [Thunderbolt 포트(USB 장치 포함)를 통해 모든 연결 차단](https://support.microsoft.com/help/2516445/blocking-the-sbp-2-driver-and-thunderbolt-controllers-to-reduce-1394-d)
@@ -333,7 +333,7 @@ WDATP 커넥터 및 사용자 지정 검색 규칙을 사용하여 사용자 지
 
 USB **장치에서 위협** 검사
 
-**미리 정의된** 설정된 MDATP 커넥터가 Outlook, Teams, Slack 등 200개가 넘는 미리 정의된 커넥터 중 하나를 제외하고 컴퓨터의 모든 응용 프로그램 실행을 제한합니다. 사용자 지정 커넥터를 만들 수 있습니다.
+**미리 정의된** MDATP 커넥터가 Outlook, Teams, Slack 등 200개가 넘는 미리 정의된 커넥터 중 하나를 제외하고 컴퓨터의 모든 응용 프로그램 실행을 제한합니다. 사용자 지정 커넥터를 만들 수 있습니다.
 - [WDATP 커넥터 응답 작업에 대한 자세한 정보](/connectors/wdatp/)
 
 **사용자 지정 검색 규칙 응답 작업:** 컴퓨터 및 파일 수준 작업을 모두 적용할 수 있습니다.
@@ -343,13 +343,13 @@ USB **장치에서 위협** 검사
 
 ## <a name="respond-to-threats"></a>위협에 대응
 
-끝점 사용자 지정 검색 규칙에 대한 [Microsoft Defender를](/microsoft-365/security/defender-endpoint/custom-detection-rules)사용하여 사용자 지정 경고 및 자동 응답 작업을 만들 수 있습니다. 사용자 지정 검색 내의 응답 작업에는 컴퓨터 및 파일 수준 작업이 모두 있습니다. [PowerApps](https://powerapps.microsoft.com/) 및 [Flow를](https://flow.microsoft.com/) 사용하여 [Microsoft Defender for Endpoint 커넥터를](/connectors/wdatp/)사용하여 경고 및 자동 응답 작업을 만들 수도 있습니다. 커넥터는 조사, 위협 검사 및 실행 중인 응용 프로그램 제한을 위한 작업을 지원합니다. 이 커넥터는 Outlook, Teams, Slack 등을 포함하여 200개가 넘는 미리 정의된 커넥터 중 하나입니다. 사용자 지정 커넥터도 만들 수 있습니다. 커넥터에 [대한](/connectors/) 자세한 내용은 커넥터를 참조합니다.
+끝점 사용자 지정 검색 규칙에 대한 [Microsoft Defender를](/microsoft-365/security/defender-endpoint/custom-detection-rules)사용하여 사용자 지정 경고 및 자동 응답 작업을 만들 수 있습니다. 사용자 지정 검색 내의 응답 작업에는 컴퓨터 및 파일 수준 작업이 모두 있습니다. [PowerApps](https://powerapps.microsoft.com/) 및 Endpoint 커넥터를 사용하여 경고 [및](https://flow.microsoft.com/) 자동 Flow 작업을 만들 [수도 있습니다.](/connectors/wdatp/) 커넥터는 조사, 위협 검사 및 실행 중인 응용 프로그램 제한을 위한 작업을 지원합니다. 이 커넥터는 Outlook, Teams, Slack 등을 포함하여 200개가 넘는 미리 정의된 커넥터 중 하나입니다. 사용자 지정 커넥터도 만들 수 있습니다. 커넥터에 [대한](/connectors/) 자세한 내용은 커넥터를 참조합니다.
  
-예를 들어 두 방법 중 하나를 사용하면 USB 장치를 컴퓨터로 탑재할 때 Microsoft Defender 바이러스 백신을 자동으로 실행할 수 있습니다.
+예를 들어 두 방법 중 하나를 사용하면 USB 장치가 Microsoft Defender 바이러스 백신 때 자동으로 실행됩니다.
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Microsoft Defender 바이러스 백신에 대한 실시간 보호 구성](/microsoft-365/security/defender-endpoint/configure-real-time-protection-microsoft-defender-antivirus)
+- [사용자에 대한 실시간 보호 Microsoft Defender 바이러스 백신](/microsoft-365/security/defender-endpoint/configure-real-time-protection-microsoft-defender-antivirus)
 - [Defender/AllowFullScanRemovableDriveScanning](/windows/client-management/mdm/policy-csp-defender#defender-allowfullscanremovabledrivescanning)
 - [Policy/DeviceInstallation CSP](/windows/client-management/mdm/policy-csp-deviceinstallation)
 - [이동식 장치의 사용자 지정 검사 수행](/samples/browse/?redirectedfrom=TechNet-Gallery)

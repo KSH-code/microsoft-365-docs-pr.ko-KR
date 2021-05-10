@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b5af93e82f72bac900682b2e231453e448b267d9
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 365fed8b5f7c7fc617ea068e324da541f7f1b187
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934192"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301779"
 ---
 # <a name="microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender
 
@@ -39,7 +39,7 @@ ms.locfileid: "51934192"
 이 항목에서는 Mac에서 끝점용 Defender를 설치, 구성, 업데이트 및 사용하는 방법을 설명합니다.
 
 > [!CAUTION]
-> Mac에서 끝점용 Microsoft Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 부작용이 발생할 수 있습니다. 사용자 환경에서 비 Microsoft 끝점 보호가 절대적인 요구 사항이면 수동 모드에서 실행될 바이러스 백신 기능을 구성한 후에도 Mac EDR 기능의 Endpoint용 Defender를 안전하게 활용할 [수 있습니다.](mac-preferences.md#enable--disable-passive-mode)
+> Mac에서 끝점용 Microsoft Defender와 함께 다른 타사 끝점 보호 제품을 실행하면 성능 문제와 예측할 수 없는 부작용이 발생할 수 있습니다. 사용자 환경에서 비 Microsoft 끝점 보호가 절대적인 요구 사항이면 수동 모드에서 실행될 바이러스 백신 기능을 구성한 후에도 Mac용 끝점용 Defender를 EDR 기능을 안전하게 활용할 [수 있습니다.](mac-preferences.md#enable--disable-passive-mode)
 
 ## <a name="whats-new-in-the-latest-release"></a>최신 릴리스의 새로운 소식
 
@@ -98,10 +98,12 @@ Mac의 끝점용 Microsoft Defender에는 다음 Microsoft 볼륨 라이선싱 �
 - Microsoft 365 E5(M365 E5)
 - Microsoft 365 E5 Security
 - Microsoft 365 A5(M365 A5)
+- Windows 10 Enterprise E5
+- 끝점용 Microsoft Defender
 
 > [!NOTE]
 > 적격 라이선스 사용자는 최대 5개의 동시 장치에서 끝점용 Microsoft Defender를 사용할 수 있습니다.
-> 끝점용 Microsoft Defender는 클라우드 솔루션 공급자(CSP)에서 구입할 수 있습니다. CSP를 통해 구매한 경우 나열된 Microsoft 볼륨 라이선스 제품은 필요하지 않습니다.
+> Microsoft Defender for Endpoint는 CSP(Microsoft Defender for Endpoint)에서 클라우드 솔루션 공급자 사용할 수 있습니다. CSP를 통해 구매한 경우 나열된 Microsoft 볼륨 라이선스 제품은 필요하지 않습니다.
 
 ### <a name="network-connections"></a>네트워크 연결
 

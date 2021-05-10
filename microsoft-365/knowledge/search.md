@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Microsoft Viva에서 항목을 검색하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 15b42c9d3689a73c865be53bb29f298fcbf896bd
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 54a143ea0960bf56a0d1c5224658bea404c7621e
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281045"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301719"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Microsoft Search를 사용하여 Microsoft Viva 항목에서 항목 찾기
 
@@ -36,7 +36,7 @@ Microsoft Search에서 특정 항목(예: "Saturn")을 검색할 때 해당 항�
 
 항목 응답 카드가 나타나지 않는 경우에도 항목 페이지를 검색 결과에 표시할 수 있습니다.
 
-Word 및 PowerPoint 검색 결과가 발견될 때 항목 응답도 표시됩니다.
+Word, PowerPoint, Outlook Excel 검색 결과가 발견될 때 항목 응답도 표시됩니다.
 
 
 ## <a name="acronyms"></a>머리글자어

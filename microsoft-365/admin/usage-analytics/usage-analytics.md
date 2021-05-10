@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: 조직에서 통신 및 공동 작업을 위해 Microsoft 365 채택하는 방법에 대한 개요를 얻습니다.
-ms.openlocfilehash: 7d267dcbbb35a03794567991fddb2e3a573d47dc
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: ac54e8bbc24393b7140fbc32efd48047beca2a1c
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297395"
+ms.locfileid: "52301743"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석
 
@@ -89,6 +89,9 @@ Microsoft 365 개요 보고서에는 다음 보고서가 포함되어 있습니�
 무료가 아니며, 라이선스가 Power BI Pro 합니다. 자세한 내용은 [템플릿](/power-bi/service-template-apps-install-distribute#prerequisites) 앱 설치, 사용자 지정 및 배포를 위한 선행 구성을 참조하세요.
 
 다른 사용자와 대시보드를 공유하기 위해 자세한 내용은 Share dashboards and reports (대시보드 및 보고서 [공유)를 참조하세요.](/power-bi/service-how-to-collaborate-distribute-dashboards-reports#share-dashboards-and-reports)
+### <a name="is-the-usage-summary-reports-reader-role-enough-to-view-the-usage-analytics"></a>사용 현황 요약 보고서 읽기 도구 역할이 사용 현황 분석을 볼 수 있을 만큼 충분한가요?
+
+사용 현황 요약 보고서 읽기 전용 역할은 사용 현황 분석에서 테넌트 수준 집계에 Microsoft 365 허용합니다.  보고서 읽기 권한자 또는 사용 현황 요약 보고서 읽기 권한자 역할은 변경 관리 및 채택을 담당하지만 반드시 IT 관리자가 아닐 수도 있는 모든 사용자에 대해 권장됩니다.
 
 ### <a name="who-can-connect-to-microsoft-365-usage-analytics"></a>누가 Microsoft 365 사용 현황 분석에 연결할 수 있나요?
 
