@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b66b5e8a0356c923537941ea5021cd69c19ef337
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 641553925d12755bfd1efbceba68fe4e39709b53
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50546427"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295978"
 ---
 # <a name="contact-support-for-korea"></a>한국 지원에 문의
 
-[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)
+[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>전화 번호
 080 495 0880

@@ -23,12 +23,12 @@ ms.custom:
 - okr_smb
 - AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2527389634cda9912f45ecdcd3213f7d987b7bb8
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 0d4c59f24f5d5979d0f63d035edd1ca668ff4314
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51221874"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296698"
 ---
 # <a name="what-is-a-domain"></a>도메인이란 무엇인가요?
 
@@ -36,17 +36,17 @@ ms.locfileid: "51221874"
   
 도메인은 전자 메일 주소에서 **@** 기호 뒤에, 그리고 웹 주소에서 **www.** 뒤에 나타나는 고유한 이름입니다. 일반적으로 조직의 이름과 표준 인터넷 접미사(예: 귀하의 부재 *중)를 사용하게 됩니다. <span> com* 또는 *stateuniversity. <span> edu*. 
   
-사용자 지정 도메인 *사용(rob@contoso. <span> com을* Microsoft 365와 함께 사용하면 브랜드에 대한 신뢰성과 인식을 구축하는 데 도움이 될 수 있습니다. 
+사용자 지정 도메인 *사용(rob@contoso. <span> com과* Microsoft 365 브랜드에 대한 신뢰와 인식을 구축하는 데 도움이 될 수 있습니다. 
   
 ## <a name="choose-the-experience-thats-best-for-you"></a>다음 중에서 가장 적합한 환경을 선택하세요.
 
  **새 도메인 구입:**
   
-Microsoft 365를 사용하여 새 도메인을 구입합니다. 모든 것이 설정됩니다. [더 알아보세요.](buy-a-domain-name.md)
+새 Microsoft 365 구입하는 데 사용 - 모든 것이 설정됩니다. [더 알아보세요.](buy-a-domain-name.md)
   
  **이미 소유한 도메인 사용:**
   
-도메인과 같은 도메인을 이미  *you@yourcompany. <span> com을*  추가하고 OneDrive 및 Microsoft 앱을 바로 사용할 수 있습니다. 메일 및 비즈니스용 Skype를 설정하는 데 몇 분 정도 걸립니다. 
+도메인과 같은 도메인을 이미 *you@yourcompany. <span> com을* 추가하고 바로 OneDrive 앱을 사용할 수 있습니다. 메일 및 비즈니스용 Skype를 설정하는 데 몇 분 정도 걸립니다. 
   
 > [!TIP]
 > 도메인이 등록되어 있는지 확실하지 않나요? - [도메인 등록 기관 찾기 도움말을 확인하세요.](find-your-domain-registrar.md)
@@ -57,6 +57,6 @@ Microsoft 365를 사용하여 새 도메인을 구입합니다. 모든 것이 �
   
 ## <a name="feeling-stuck"></a>도움이 필요하나요?
 
-Microsoft 지원에 문의 - [도메인 설정 도움말 확인](../contact-support-for-business-products.md)
+Microsoft 지원에 문의 - [도메인 설정 도움말 확인](../../business-video/get-help-support.md)
   
 

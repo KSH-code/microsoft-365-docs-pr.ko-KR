@@ -22,12 +22,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 데이터 손실 방지 참조 자료
-ms.openlocfilehash: a94dde0bba3fdfc869746f51687ed7709a96639a
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: a039b8d99bd92be0040f6207803981e8a2937c6f
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114404"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296771"
 ---
 # <a name="data-loss-prevention-reference"></a>데이터 손실 방지 참조
  
@@ -385,7 +385,7 @@ DLP 정책에서 이전에 생성 및 게시 된 [보존 레이블](retention.md
 
 ### <a name="using-a-sensitivity-label-as-a-condition-in-a-dlp-policy"></a>민감도 레이블을 DLP 정책의 조건으로 사용
 
-미리 보기에서 민감도 레이블을 DLP 정책의 조건으로 사용합니다. [자세한 정보](./dlp-sensitivity-label-as-condition.md).
+[DLP 정책에서](./dlp-sensitivity-label-as-condition.md) 민감도 레이블을 조건으로 사용하는 방법을 자세히 알아보습니다.
   
 ### <a name="how-this-feature-relates-to-other-features"></a>해당 기능이 다른 기능과 관련되는 방식
 

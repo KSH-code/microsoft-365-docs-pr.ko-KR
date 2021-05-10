@@ -94,12 +94,14 @@
               href: manage-incidents.md
             - name: 사고 대응
               items:
-                - name: 인시던트 분석
+                - name: 인시던트 조사
                   href: investigate-incidents.md
-                - name: 알림 분석
+                - name: 경고 조사
                   href: investigate-alerts.md
-                - name: 사용자 분석
+                - name: 사용자 조사
                   href: investigate-users.md
+                - name: 인시던트 대응 플레이북
+                  href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
                 - name: 첫 번째 인시던트에 응답
                   items:
                     - name: 소개

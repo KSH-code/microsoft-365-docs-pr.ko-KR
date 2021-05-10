@@ -10,18 +10,18 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 04/13/2021
+ms.date: 05/07/2021
 ms.reviewer: ksarens, jtoole, pahuijbr
 manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: 8db14b016491ac10872f29f04b8166e548d6c63b
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 81cba445482b1fceb8bd520f2be88d55db2a47fb
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275339"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296734"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>그룹 정책 설정을 사용하여 그룹 정책 Microsoft Defender 바이러스 백신
 
@@ -33,6 +33,8 @@ ms.locfileid: "52275339"
 - [엔드포인트용 Microsoft Defender](/microsoft-365/security/defender-endpoint/)
 
 그룹 정책을 [사용하여](/windows/win32/srvnodes/group-policy) 끝점에서 Microsoft Defender 바이러스 백신 관리할 수 있습니다.
+
+## <a name="configure-microsoft-defender-antivirus-using-group-policy"></a>그룹 Microsoft Defender 바이러스 백신 사용하여 구성
 
 일반적으로 다음 절차에 따라 그룹 정책 설정을 구성하거나 Microsoft Defender 바이러스 백신 수 있습니다.
 
@@ -48,7 +50,12 @@ ms.locfileid: "52275339"
 
 6. [평소처럼 업데이트된 GPO를 배포합니다.](/windows/win32/srvnodes/group-policy) 
 
-이 항목의 다음 표에서는 Windows 10 버전 1703에서 사용할 수 있는 그룹 정책 설정을 나열하고 이 설명서 라이브러리(해당하는 경우)의 해당 항목에 대한 링크를 제공합니다.
+## <a name="group-policy-settings-and-resources"></a>그룹 정책 설정 및 리소스
+
+이 항목의 다음 표에서는 Windows 10 버전 1703에서 사용할 수 있는 그룹 정책 설정을 나열하고 이 설명서 라이브러리(해당하는 경우)의 해당 항목에 대한 링크를 제공합니다. 
+
+> [!TIP]
+> [2020년 5월 업데이트(2004년 설정](https://www.microsoft.com/download/101451)대한 그룹 정책 Windows 10 참조 스프레드시트를 다운로드합니다. 이 스프레드시트에는 Windows 10 2020년 5월 업데이트(2004년)에 대해 제공된 관리 템플릿 파일에 포함된 컴퓨터 및 사용자 구성에 대한 정책 설정이 나열되어 있습니다. 그룹 정책 개체를 편집할 때 이러한 정책 설정을 구성할 수 있습니다.
 
 | 위치 | 설정 | 문서 |
 |:---|:---|:---|
@@ -66,9 +73,9 @@ ms.locfileid: "52275339"
 | MAPS | Microsoft MAPS에 보고하기 위한 로컬 설정 오버라이드 구성 | [사용자가 정책 설정을 로컬로 수정하지 못하도록 차단 또는 허용](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | MpEngine | 확장된 클라우드 검사 구성 | [클라우드 차단 제한 시간 구성](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md) |
 | MpEngine | 클라우드 보호 수준 선택 | [클라우드 제공 보호 수준 지정](specify-cloud-protection-level-microsoft-defender-antivirus.md) |
-| 네트워크 검사 시스템 | 네트워크 트래픽 검사에 대한 추가 정의 집합 지정 | 더 이상 관련이 없음 |
-| 네트워크 검사 시스템 | 정의 사용 중지 켜기 | 더 이상 관련이 없음 |
-| 네트워크 검사 시스템 | 프로토콜 인식 켜기 | 더 이상 관련이 없음 |
+| 네트워크 검사 시스템 | 네트워크 트래픽 검사에 대한 추가 정의 집합 지정 | [네트워크 트래픽 검사에 대한 추가 정의 집합 지정](specify-additional-definitions-network-traffic-inspection-mdav.md) |
+| 네트워크 검사 시스템 | 정의 사용 중지 켜기 | [정의 사용 중지 구성](turn-on-definition-retirement.md)  |
+| 네트워크 검사 시스템 | 프로토콜 인식 켜기 | [프로토콜 인식 켜기](turn-on-protocol-recognition.md)  |
 | 격리 | Quarantine 폴더에서 항목 제거를 위한 로컬 설정 오버라이드 구성 | [사용자가 정책 설정을 로컬로 수정하지 못하도록 차단 또는 허용](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | 격리 | Quarantine 폴더에서 항목 제거 구성 | [검사에 대한 Microsoft Defender 바이러스 백신 구성](configure-remediation-microsoft-defender-antivirus.md) |
 | 실시간 보호 | 컴퓨터의 파일 및 프로그램 활동 모니터링에 대한 로컬 설정 다시 설정 구성 | [사용자가 정책 설정을 로컬로 수정하지 못하도록 차단 또는 허용](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
@@ -144,8 +151,7 @@ ms.locfileid: "52275339"
 | 위협 | 감지 시 기본 작업을 수행하지 않을 위협 경고 수준 지정 | [검사에 대한 Microsoft Defender 바이러스 백신 구성](configure-remediation-microsoft-defender-antivirus.md) |
 | 위협 | 검색 시 기본 작업을 수행하지 않을 위협 지정 | [검사에 대한 Microsoft Defender 바이러스 백신 구성](configure-remediation-microsoft-defender-antivirus.md) |
 
-
-## <a name="related-articles"></a>관련 문서
+## <a name="see-also"></a>참고 항목
 
 - [관리 및 구성 도구에 대한 참조 항목](configuration-management-reference-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)

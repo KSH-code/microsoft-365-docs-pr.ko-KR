@@ -22,12 +22,12 @@ localization_priority: Priority
 description: 관리자는 스푸핑된 보낸 사람 및 도메인의 피싱 공격을 완화하는 데 도움이 되며 EOP(Exchange Online Protection)에서 사용할 수 있는 스푸핑 방지 기능에 대해 알아볼 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 20294bf00c62e59da33b54ea0c8ee85f7b1372af
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 76ad8ac14de7b176ae12dc02272e31e790b6b410
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51769025"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52291034"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>EOP의 스푸핑 방지 보호 기능
 
@@ -80,7 +80,7 @@ EOP는 표준 전자 메일 인증 방법과 보낸 사람 신뢰도 기술을 �
 
   ![Microsoft의 합법적인 암호 재설정](../../media/58a3154f-e83d-4f86-bcfe-ae9e8c87bd37.jpg)
 
-  메일은 정말로 Microsoft에서 발송되었지만 사용자는 의심하도록 훈련받았습니다. 실제 암호 재설정 메일과 가짜 메일 간의 차이점을 구별하기 어렵기 때문에 사용자는 이러한 메일을 무시하거나, 스팸으로 신고하거나, 아니면 쓸데없이 피싱 메일로 Microsoft에 신고할 수 있습니다.
+  이 메시지는 실제 Microsoft에서 전송했지만 사용자의 의심을 받기 쉽습니다. 실제 암호 재설정 메일과 가짜 메일 간의 차이점을 구별하기 어렵기 때문에 사용자는 이러한 메일을 무시하거나, 스팸으로 신고하거나, 아니면 피싱 메일로 Microsoft에 잘못 보고할 수 있습니다.
 
 ## <a name="different-types-of-spoofing"></a>다양한 스푸핑 유형
 
@@ -139,11 +139,11 @@ Office 365용 Microsoft Defender 조직은 보안 및 준수 센터의 위협 �
 
 예를 들어 Gabriela Laureano(glaureano@contoso.com)는 새 관찰에 관심이 있고 birdwatchers@fabrikam.com이라는 메일 그룹에 참여하여 그룹에 다음 메일을 전송합니다.
 
-> **보낸 사람:** "Gabriela Laureano" \<glaureano@contoso.com\> <br> **대상: Birdwatcher의 토론 목록**\<birdwatchers@fabrikam.com\> <br> **제목:** 산 정상에서 바라보는 파란색 제비의 장관 레이니어 이번 주 <p> 이번 주에 레이니어 산에서 이 광경을 확인하고 싶은  사람이 있습니까?
+> **보낸 사람:** "Gabriela Laureano" \<glaureano@contoso.com\> <br> **대상: Birdwatcher의 토론 목록**\<birdwatchers@fabrikam.com\> <br> **제목:** 산 정상에서 바라보는 파란색 제비의 장관 레이니어 이번 주 <p> 이번 주에 레이니어 산으로 경치를 구경하러 가실래요?
 
 메일 그룹 서버에서 메시지를 수신하고, 내용을 수정하며, 목록 구성원에게 재생합니다. 재생된 메시지의 보낸 사람 주소(glaureano@contoso.com)는 같지만 제목 줄에 태그가 추가되고 메일의 맨 아래에 바닥글이 추가되었습니다. 이러한 수정 유형은 메일 그룹에서 일반적이며 스푸핑 오탐지를 초래할 수 있습니다.
 
-> **보낸 사람:** "Gabriela Laureano" \<glaureano@contoso.com\> <br> **대상: Birdwatcher의 토론 목록**\<birdwatchers@fabrikam.com\> <br> **제목:** [새 구경] 산 정상에서 바라보는 파란색 제비의 장관 레이니어 이번 주 <p> 이번 주에 레이니어 산에서 이 광경을 확인하고 싶은  사람이 있습니까? <p> Birdwatchers 토론 목록에 이 메시지가 전송되었습니다. 구독은 언제든지 취소할 수 있습니다.
+> **보낸 사람:** "Gabriela Laureano" \<glaureano@contoso.com\> <br> **대상: Birdwatcher의 토론 목록**\<birdwatchers@fabrikam.com\> <br> **제목:** [새 구경] 산 정상에서 바라보는 파란색 제비의 장관 레이니어 이번 주 <p> 이번 주에 레이니어 산으로 경치를 구경하러 가실래요?<p> Birdwatchers 토론 목록에 이 메시지가 전송되었습니다. 구독은 언제든지 취소할 수 있습니다.
 
 메일 그룹 메일이 스푸핑 방지 검사를 통과할 수 있도록 메일 그룹 제어 여부에 따라 다음 단계를 수행하세요.
 
@@ -163,7 +163,7 @@ Office 365용 Microsoft Defender 조직은 보안 및 준수 센터의 위협 �
 
   - 이메일 클라이언트에서 받은 편지함 규칙을 만들어 메일을 받은 편지함으로 이동합니다. [스푸핑 인텔리전스를 사용해 인증되지 않은 전자 메일의 허용된 송신자 구성](email-validation-and-authentication.md#use-spoof-intelligence-to-configure-permitted-senders-of-unauthenticated-email)에 나온 대로 관리자에게 재정의를 구성하도록 요청할 수도 있습니다.
 
-  - Microsoft 365에서 지원 티켓을 만들면 재정의를 만들어서 메일 그룹을 합법적인 것으로 처리할 수 있습니다. 자세한 내용은 [비즈니스 제품에 대한 고객 지원팀 문의 - 관리자 도움말](../../admin/contact-support-for-business-products.md)을 참조하세요.
+  - Microsoft 365에서 지원 티켓을 만들면 재정의를 만들어서 메일 그룹을 합법적인 것으로 처리할 수 있습니다. 자세한 내용은 [비즈니스 제품에 대한 고객 지원팀 문의 - 관리자 도움말](../../business-video/get-help-support.md)을 참조하세요.
 
 그 밖의 모든 시도가 실패하면 Microsoft에 메일을 가양성으로 보고할 수 있습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 

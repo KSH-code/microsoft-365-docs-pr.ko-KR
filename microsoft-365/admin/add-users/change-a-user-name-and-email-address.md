@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: '전역 관리자가 사용자의 전자 메일 주소 및 표시 이름을 변경하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 94ed05d87fa290f2ae1059ae04c62c5d0d5e6860
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: a785ef17f0823429ad5eb216a330dc6f04dc7761
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023776"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52291022"
 ---
 # <a name="change-a-user-name-and-email-address"></a>사용자 이름 및 전자 메일 주소 변경
 
@@ -221,9 +221,9 @@ ms.locfileid: "52023776"
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>"매개 변수 이름 'EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다.”
 
-"**A parameter cannot be found that matches parameter name 'EmailAddresses**"(매개 변수 이름 'EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다.) 오류 메시지가 표시되는 경우 테넌트 또는 최근에 추가한 사용자 지정 도메인 설정을 완료하는 데 시간이 더 소요됨을 의미합니다. 설정 프로세스를 완료하는 데 최대 4시간이 걸릴 수 있습니다. 설정 프로세스가 완료될 때까지 기다린 후 다시 시도하세요. 문제가 계속되는 경우 [고객 지원](../contact-support-for-business-products.md)에 연락하여 사용자를 대신해 전체 동기화를 수행하도록 요청하세요.
+"**A parameter cannot be found that matches parameter name 'EmailAddresses**"(매개 변수 이름 'EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다.) 오류 메시지가 표시되는 경우 테넌트 또는 최근에 추가한 사용자 지정 도메인 설정을 완료하는 데 시간이 더 소요됨을 의미합니다. 설정 프로세스를 완료하는 데 최대 4시간이 걸릴 수 있습니다. 설정 프로세스가 완료될 때까지 기다린 후 다시 시도하세요. 문제가 계속되는 경우 [고객 지원](../../business-video/get-help-support.md)에 연락하여 사용자를 대신해 전체 동기화를 수행하도록 요청하세요.
   
-### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>“죄송합니다. 사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요."
+### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>“사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요.”
 
 " **사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요.** “라는 오류 메시지가 표시되는 경우 전역 관리자가 아니어서 사용자 이름을 변경할 수 있는 권한이 없다는 의미입니다. 회사의 전역 관리자를 찾아 변경해 달라고 요청하세요.
 

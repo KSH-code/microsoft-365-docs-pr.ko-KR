@@ -21,19 +21,19 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
-description: Microsoft 365에서 이전 도메인을 제거하고 사용자 및 그룹을 다른 도메인으로 이동하는 방법을 학습합니다.
-ms.openlocfilehash: 916730975e9e17c42b01d9fa0ff55b3cb7078f66
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+description: 사용자 및 그룹을 다른 도메인으로 Microsoft 365 도메인에서 이전 도메인을 제거하는 방법을 학습합니다.
+ms.openlocfilehash: ca12a886c508024bf39ae9e619744a355376a80d
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470968"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296710"
 ---
 # <a name="remove-a-domain"></a>도메인 제거
   
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.yml)** 하세요. 
   
-도메인을 다른 Microsoft 365 구독 계획에 추가하려는 경우 도메인을 제거하나요? 아니면 단지 구독을 취소하고 싶으신가요? [ 또는 구독을 변경 ](../../commerce/subscriptions/switch-to-a-different-plan.md)하거나 [구독을 취소](../../commerce/subscriptions/cancel-your-subscription.md)할 수 있습니다.
+도메인을 다른 구독 계획에 추가하려는 경우 도메인을 Microsoft 365 있나요? 아니면 단지 구독을 취소하고 싶으신가요? [ 또는 구독을 변경 ](../../commerce/subscriptions/switch-to-a-different-plan.md)하거나 [구독을 취소](../../commerce/subscriptions/cancel-your-subscription.md)할 수 있습니다.
   
 ### <a name="step-1-move-users-to-another-domain"></a>1단계: 사용자를 다른 도메인으로 이동
 
@@ -203,18 +203,18 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 ## <a name="how-long-does-it-take-for-a-domain-to-be-removed"></a>도메인을 제거하는 데 걸리는 시간은 얼마인가요?
 
-보안 그룹, 메일 그룹, 사용자 및 Microsoft 365 그룹과 같은 많은 장소에서 참조되지 않는 경우 Microsoft 365에서 도메인을 제거하는 데 5분 정도 걸릴 수 있습니다. 도메인을 사용하는 참조가 많으면 도메인을 제거하는 데 몇 시간(하루)이 걸릴 수 있습니다.
+보안 그룹, 메일 그룹Microsoft 365 사용자 및 사용자 그룹과 같은 많은 장소에서 참조되지 않는 경우 도메인을 제거하는 데 5분 정도 걸릴 Microsoft 365 있습니다. 도메인을 사용하는 참조가 많으면 도메인을 제거하는 데 몇 시간(하루)이 걸릴 수 있습니다.
   
 수백 또는 수천 명의 사용자가 있는 경우 PowerShell을 사용하여 모든 사용자에 대해 쿼리한 다음 사용자를 다른 도메인으로 이동합니다. 그러지 않으면 UI에서 몇 명의 사용자가 누락될 수 있으며, 이 경우 도메인을 제거하기 위해 이동하면 도메인을 제거할 수 없으며 이유를 알지 못하게 됩니다. 자세한 내용은 [Set-MsolUserPrincipalName](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0)을 참조하세요. 기본 도메인을 설정하려면 [Set-MsolDomain](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)을 사용하세요.
   
-## <a name="still-need-help"></a>아직 해결되지 않았습니까?
+## <a name="still-need-help"></a>여전히 도움이 필요하세요?
 
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
 > 계정에서 [". onmicrosoft.com"](../setup/domains-faq.yml) 도메인을 제거할 수 없습니다. 도메인을 제거하면 사용자 계정이 ".onmicrosoft.com" 주소로 되돌아가 기본 SMTP/UserprincipalName으로 되돌아가게 됩니다.
   
-여전히 작동하지 않나요? 도메인을 수동으로 제거해야 할 수도 있습니다. [전화로 연락주시면](../contact-support-for-business-products.md) 작업을 수행할 수 있도록 지원하겠습니다.
+여전히 작동하지 않나요? 도메인을 수동으로 제거해야 할 수도 있습니다. [전화로 연락주시면](../../business-video/get-help-support.md) 작업을 수행할 수 있도록 지원하겠습니다.
   
 ::: moniker-end
 
