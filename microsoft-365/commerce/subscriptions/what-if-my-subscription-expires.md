@@ -20,18 +20,18 @@ search.appverid:
 - MET150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Microsoft 365 비즈니스 에디션 구독이 만료되거나, 비활성화되거나, 사용자가 취소하는 경우 사용자의 데이터가 어떻게 처리되는지 알아봅니다.
-ms.openlocfilehash: 8f853000ebd20ab8f6625df9f773bbb182bdb7fd
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 45f331fd14abb2f851c8ff84e729b8443a60b59b
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644659"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297275"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?
 
 구독이 만료되거나 취소하기로 결정하여 구독이 종료되는 경우, Microsoft 365 서비스, 응용 프로그램 및 고객 데이터에 대한 액세스는 구독이 완전히 해제되거나 *삭제* 되기 전에 여러 상태를 거치게 됩니다. 이 진행 상황을 알고 있는 경우, 너무 늦기 전에 구독을 활성 상태로 되돌리거나 Microsoft 365를 종료하는 경우 최종적으로 삭제되기 전에 데이터를 백업할 수 있습니다.
 
-[Microsoft 365 지원팀](../../admin/contact-support-for-business-products.md)에 문의하기 전에 이 중요한 정보를 읽어보세요.
+[Microsoft 365 지원팀](../../business-video/get-help-support.md)에 문의하기 전에 이 중요한 정보를 읽어보세요.
   
 ## <a name="what-happens-to-data-when-a-subscription-expires"></a>구독이 만료되면 데이터는 어떻게 되나요?
 
@@ -133,7 +133,7 @@ ms.locfileid: "51644659"
 
 ### <a name="what-happens-when-my-trial-ends"></a>평가판이 종료되면 어떻게 되나요?
 
-평가판이 종료되면 Microsoft 365를 계속 무료로 사용할 수 없습니다. 다음과 같은 몇 가지 옵션이 있습니다. 
+평가판이 종료되면 Microsoft 365를 계속 무료로 사용할 수 없습니다. 다음과 같은 몇 가지 옵션이 있습니다.
 
 - **Microsoft 365를 구입하세요.** 평가판이 만료되면 Microsoft 365를 구입할 수 있도록 다음 30일(대부분 국가 및 지역에서 사용하는 거의 모든 평가판에 해당)간 만료 단계가 주어집니다. 평가판을 유료 구독으로 전환하는 방법에 대한 자세한 내용은 [무료 평가판에서 구독 구입](../try-or-buy-microsoft-365.md#buy-a-subscription-from-your-free-trial)을 참조하세요.
 

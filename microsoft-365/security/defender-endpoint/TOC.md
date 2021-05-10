@@ -344,6 +344,8 @@
 #### [장치 제어]()
 ##### [장치 제어 보고서](device-control-report.md)
 ##### [USB 장치 제어](control-usb-devices-using-intune.md)
+##### [이동식 저장소 보호](device-control-removable-storage-protection.md)
+##### [이동식 저장소 액세스 제어](device-control-removable-storage-access-control.md)
 
 #### [동작 차단 및 제약]()
 ##### [동작 차단 및 제약](behavioral-blocking-containment.md)
