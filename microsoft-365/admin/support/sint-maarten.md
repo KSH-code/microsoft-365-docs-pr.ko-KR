@@ -12,27 +12,27 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2256f5cf585a06f0071b954e0fbfe8d73783ec60
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: d8ab3b32fe52850898f91797ff737763c8f10f84
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544471"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295394"
 ---
-# <a name="contact-support-for-sint-maarten"></a><span data-ttu-id="0eda0-103">Sint Maarten 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="0eda0-103">Contact support for Sint Maarten</span></span>
+# <a name="contact-support-for-sint-maarten"></a><span data-ttu-id="716ca-103">Sint Maarten 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="716ca-103">Contact support for Sint Maarten</span></span>
 
-<span data-ttu-id="0eda0-104">[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="0eda0-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="716ca-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="716ca-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="0eda0-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="0eda0-105">Phone number</span></span>
-<span data-ttu-id="0eda0-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="0eda0-106">+1 312 843 5145</span></span>
+## <a name="phone-number"></a><span data-ttu-id="716ca-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="716ca-105">Phone number</span></span>
+<span data-ttu-id="716ca-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="716ca-106">+1 312 843 5145</span></span>
 
-## <a name="hours"></a><span data-ttu-id="0eda0-107">시간</span><span class="sxs-lookup"><span data-stu-id="0eda0-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="0eda0-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="0eda0-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="716ca-107">시간</span><span class="sxs-lookup"><span data-stu-id="716ca-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="716ca-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="716ca-108">Billing Support:</span></span>
 
-<span data-ttu-id="0eda0-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="0eda0-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="716ca-109">영어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="716ca-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="0eda0-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="0eda0-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="716ca-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="716ca-110">Technical Support:</span></span>
 
-<span data-ttu-id="0eda0-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="0eda0-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="716ca-111">영어: 연중무휴 24시간</span><span class="sxs-lookup"><span data-stu-id="716ca-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="0eda0-112">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="0eda0-112">International call charges apply</span></span>
+<span data-ttu-id="716ca-112">국제 통화 요금이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="716ca-112">International call charges apply</span></span>
