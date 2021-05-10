@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 description: 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소하는 방법에 대해 알아보세요.
 ms.date: 04/08/2021
-ms.openlocfilehash: 15ab7ed31af24fa4cb1c83c6babc945871584375
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 329bc10adbe6c2ad0efe3609e7cb72141ae346bd
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244663"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297311"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
-*자격:* : 사용자에게 할당한 라이선스가 25개 미만인 경우 Microsoft 365 관리 센터에서 비즈니스용 Microsoft 365 평가판 또는 유료 온라인 구독을 취소할 수 있습니다. 사용자에게 할당된 라이선스가 25개 이상인 경우 25개 미만으로 줄이거나 [지원팀에 문의하여 구독을 취소하세요](../../admin/contact-support-for-business-products.md).
+*자격:* : 사용자에게 할당한 라이선스가 25개 미만인 경우 Microsoft 365 관리 센터에서 비즈니스용 Microsoft 365 평가판 또는 유료 온라인 구독을 취소할 수 있습니다. 사용자에게 할당된 라이선스가 25개 이상인 경우 25개 미만으로 줄이거나 [지원팀에 문의하여 구독을 취소하세요](../../business-video/get-help-support.md).
 
 *환불:* 일할 계산된 크레딧은 다음 청구 주기 안에 반환됩니다.
 

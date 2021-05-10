@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 1ceea1dbdb3f9d149f4e5a0bd892eda2bb9128aa
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 44f583d32de166fe3d68a182406eb3a2ee814084
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114781"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297155"
 ---
 # <a name="step-3-perform-a-post-incident-review-of-your-first-incident"></a>3단계. 첫 번째 인시던트에 대한 인시던트 사후 검토 수행
 
@@ -60,6 +60,6 @@ Microsoft 365 Defender는 [MITRE ATT 및 CK Framework에 부합하는](https://a
 
 ## <a name="see-also"></a>참고 항목
 
-- [인시던트 개요](incidents-overview.md)
-- [인시던트 분석](investigate-incidents.md)
+- [사고 개요](incidents-overview.md)
+- [사고 조사](investigate-incidents.md)
 - [인시던트 관리](manage-incidents.md)

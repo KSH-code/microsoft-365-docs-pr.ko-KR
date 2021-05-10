@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: 중국에서 Office 365, 안정성 및 확장 가능한 클라우드 서비스에 대한 요구 사항을 충족하도록 설계된 21Vianet에서 운영하는 21Vianet에 의해 운영되는 비즈니스에 대해 자세히 알아보아야 합니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 1ee7ba7be2e350195350a5c00e92ed10924657ac
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 00710d53033648764ed0e55eeb51ee66518e36f7
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274367"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297059"
 ---
 # <a name="office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365
 
@@ -56,7 +56,7 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 |||
 |:-----|:-----|
 |사용자 지정 도메인  <br/> |관리자는 중국어별 도메인 공급자를 통해 등록된 사용자 지정 도메인을 만들고 사용할 수 있습니다. 사용자 지정 도메인이 없는 경우 도메인 [](../get-help-with-domains/buy-a-domain-name.md) 이름 등록 기관에서 도메인 이름을 구입하는 방법을 사용할 수 있습니다. 이미 도메인 등록 기관 또는 DNS 호스팅 공급자를 [찾으면 됩니다.](../get-help-with-domains/find-your-domain-registrar.md)  <br/> 또한 Office 365 SharePoint Online 서비스를 사용하여 공개 웹 사이트를 만드는 경우 중국 인터넷 준수 정책에 따라 ICP(인터넷 콘텐츠 공급자) 번호를 제공해야 합니다.  **참고:** 사용자 지정 도메인 이름에서 사용할 수 없는 단어에 대한 자동 유효성 검사를 사용할 수 없습니다.           |
-|구독, 청구 및 기술 지원  <br/> |21Vianet에서 제공 지원에 문의하는 방법에 대한 자세한 내용은 비즈니스용 Office 365 [문의를 참조하세요.](../contact-support-for-business-products.md)  <br/> |
+|구독, 청구 및 기술 지원  <br/> |21Vianet에서 제공 지원에 문의하는 방법에 대한 자세한 내용은 비즈니스용 Office 365 [문의를 참조하세요.](../../business-video/get-help-support.md)  <br/> |
 |셀프 서비스 암호 재설정  <br/> |관리자만 사용할 수 있습니다. 자세한 내용은 [21Vianet에서](https://support.microsoft.com/office/d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b)운영하는 Office 365 암호 변경 또는 재설정을 참조하세요.  <br/> |
 |지원 수준에 대한 보안, 개인 정보 보호, 규정 준수 및 세부 정보  <br/> |21Vianet에서 제공  <br/> |
 |Office 데스크톱 설치  <br/> |Office 2010 및 Office 데스크톱 설치를 사용할 Office 없습니다. 그러나 관리자는 데스크톱 응용 [Office](https://support.microsoft.com/office/85646aba-7e6c-4e24-a047-8fd9ce4f9d2e)현재 구성할 수 Office 365.  <br/> |
@@ -93,10 +93,10 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 
 |||
 |:-----|:-----|
-|BBCS(Blackberry Business Cloud Services)  <br/> |사용할 수 없지만, EXCHANGE ACTIVESYNC 또는 RIM(Research in Motion, BlackBerry 무선 전자 메일 솔루션)의 제품을 사용하여 BES(Blackberry Enterprise Server)를 실행할 수 있습니다.  <br/> |
+|BBCS(Blackberry Business Cloud Services)  <br/> |사용할 수 없지만 RIM(Research in Motion Exchange ActiveSync( BlackBerry 무선 전자 메일 솔루션)의 제품 또는 디바이스를 사용하여 BES(Blackberry Enterprise Server)를 실행할 수 있습니다.  <br/> |
 |정보 권한 관리  <br/> |개봉박두.  <br/> |
-|사용/사용 중 정보  <br/> |Exchange Online 사서함과 Exchange Online 사서함 간의 사용 가능한 정보  <br/> |
-|일정 공유  <br/> |Exchange Online 사서함과의 일정 공유를 사용할 수 있습니다.  <br/> |
+|사용/사용 중 정보  <br/> |현재 사서함과 사서함 간에는 Exchange Online/Busy 정보를 사용할 수 있습니다.  <br/> |
+|일정 공유  <br/> |사서함을 사용할 수 있도록 Exchange Online 일정 공유를 사용할 수 있습니다.  <br/> |
 |연락처 공유  <br/> |개봉박두.  <br/> |
 |메시지 추적  <br/> |개봉박두.  <br/> |
 |앱  <br/> |개봉박두.  <br/> |
@@ -105,20 +105,20 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
    
 ## <a name="exchange"></a>Exchange
 
- Exchange 2013 CU5(누적 업데이트 5)의 새로운 기능으로, 이제는 사내 Exchange 2013 조직과 Office 365 서비스 간에 모든 기능을 제공하는 하이브리드 배포가 지원됩니다. 하이브리드 구성 마법사의 새로운 개선된 기능을 활용하는 Exchange 2013 CU5는 다음과 같은 하이브리드 기능을 지원하며, 이러한 하이브리드 기능은 다음과 같습니다.  
+ Exchange 2013 CU5(누적 업데이트 5)의 새로운 기능으로, 이제는 Exchange 2013 조직과 Office 365 서비스 간에 모든 기능을 제공하는 하이브리드 배포가 지원됩니다. 하이브리드 구성 마법사의 새로운 개선된 기능을 활용하는 Exchange 2013 CU Exchange Online 5는 다음과 같은 하이브리드 기능을 지원하고 있습니다.  
 
 - 온-프레미스 조직과 Exchange Online 조직 간의 보안 메일 라우팅 
 - 공유 도메인 네임스페이스를 사용한 메일 라우팅. 예를 들어 온-프레미스 조직과 Exchange Online 조직 모두 @contoso.com SMTP 도메인을 사용합니다. 
 - "공유 주소록"이라고도 하는 통합 GAL(전체 주소 목록)  
 - 온-프레미스 조직과 Exchange Online 조직 간에 약속 있음/없음 및 일정 공유  
 - 중앙 집중식 인바운드 및 아웃바운드 메일 흐름 제어. 모든 인바운드 및 아웃바운드 Exchange Online 메시지를 온-프레미스 Exchange 조직을 통해 라우팅되도록 구성할 수 있습니다. 
-- 단일 Office Outlook Web App 및 Exchange Online 조직 모두에 대한 URL입니다.  
+- 단일 Office Outlook Web App 조직과 조직 모두에 대한 단일 Exchange Online URL입니다.  
 - 기존 온-프레미스 사서함을 Exchange Online 조직으로 이동할 수 있는 기능 필요한 경우 Exchange Online 사서함을 온-프레미스 조직으로 되돌릴 수도 있습니다.  
 - 온-프레미스 EAC(Exchange 관리 센터)를 사용한 중앙 집중식 사서함 관리.  
-- 메일Tips, Outlook 연락처에 대한 HD 사진 지원, 그리고온-프레미스 조직과 Exchange Online 조직 간의 다중 사서함 검색. 
+- 메일Tips, Outlook 연락처에 대한 HD 사진 지원, 그리고 조직과 조직 간의 여러 사서함 검색이 Exchange Online 있습니다. 
 - 온-프레미스 Exchange 사서함의 클라우드 기반 메시지 보관. 
 
-이전 버전 또는 혼합 버전의 Exchange Server 조직의 경우 21Vianet에서 호스팅하는 Office 365 테넌트에 대해 일부 하이브리드 기능이 완전히 지원되지 않습니다. 다음 표를 사용하여 다양한 Exchange 배포 시나리오에서 하이브리드 기능 지원에 대해 자세히 알아보겠습니다.  <br/> 
+이전 버전 또는 혼합 버전의 Exchange Server 조직의 경우 21Vianet에서 호스팅하는 Office 365 테넌트에 대해 일부 하이브리드 기능이 완전히 지원되지 않습니다. 다음 표를 사용하여 다양한 배포 시나리오에서 하이브리드 기능 지원에 Exchange 있습니다.  <br/> 
 
 
 |**On-Premises Exchange Version**|**Exchange 하이브리드 서버 버전**|**하이브리드 구성 마법사 지원 여부**|**지원되는 하이브리드 기능**|
@@ -137,9 +137,9 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 
    
 > [!IMPORTANT]
->  사용자 또는 사용자 집합이 다른 사용자의 일정에 대한 액세스 권한을 제공하면 21Vianet에서 호스팅하는 Office 365 테넌트가 있는 하이브리드 배포에서는 일정 액세스 권한을 위임할 수 없습니다. 
+>  사용자 또는 사용자 집합이 다른 사용자의 일정에 대한 액세스 권한을 제공하면 21Vianet에서 호스팅하는 Office 365 배포에서는 일정 액세스 권한을 위임할 수 없습니다. 
   
- 또한 일부 Exchange 메시징 정책 및 규정 준수 기능은 21Vianet에서 호스팅하는 Office 365 테넌트가 있는 하이브리드 배포에서 완전히 지원되지 않습니다. 이러한 기능에는 다음이 포함됩니다.
+ 또한 일부 Exchange 메시징 정책 및 규정 준수 기능은 21Vianet에서 호스팅하는 Office 365 하이브리드 배포에서 완전히 지원되지 않습니다. 이러한 기능에는 다음이 포함됩니다.
 
 - [MRM(메시징 레코드 관리)](/exchange/security-and-compliance/messaging-records-management/messaging-records-management) 
 - [원본 위치 eDiscovery](/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) 
@@ -148,7 +148,7 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 - [사서함 감사](/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports)
 - [OWA(온라인](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-on-the-web) 보관 Outlook Web App 액세스) 
 
-다음 표를 사용하여 다양한 Exchange 배포 시나리오의 기능 지원에 대해 자세히 알아보겠습니다. 
+다음 표를 사용하여 다양한 배포 시나리오의 기능 지원에 Exchange 있습니다. 
 
 |**On-Premises Exchange Version**|**MRM(분할 보관)**|**OWA 액세스(분할 보관)**|**원본 위치 eDiscovery**|**사서함 감사**|**In-Place Hold/Archiving**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -197,7 +197,7 @@ Apple Exchange 연락처 데이터를 Apple iCloud에 공유합니다. |이 설�
 |리서치 창과 서비스 Bing 통합  <br/> |사용할 수 없습니다.  <br/> |
 |접근성 검사  <br/> |사용할 수 없습니다.  <br/> |
 |수업용 전자 필기장  <br/> |사용할 수 없습니다.  <br/> |
-|Forms  <br/> |사용할 수 없습니다.  <br/> |
+|양식  <br/> |사용할 수 없습니다.  <br/> |
 |몰입형 리더  <br/> |사용할 수 없습니다.  <br/> |
 |온라인 그림 삽입  <br/> |사용할 수 없습니다.  <br/> |
 |모임 세부 정보  <br/> |사용할 수 없습니다.  <br/> |
@@ -219,25 +219,25 @@ Apple Exchange 연락처 데이터를 Apple iCloud에 공유합니다. |이 설�
 |Polycom전화 Ares 및 Tanjay와 같은 Desk 전화 장치  <br/> |사용할 수 없습니다.  <br/> |
 |신디ication 파트너  <br/> |사용할 수 없습니다.  <br/> |
 |음성 메일, PSTN 번호에서 전화를 걸고 받을 수 있는 기능, 통화 전송, 통화 전달 등의 음성 기능  <br/> |사용할 수 없습니다. 이러한 기능을 사용하려면 신디ication 파트너가 필요할 수 있습니다.  <br/> |
-|보관 또는 사용자에 태그를 지정하고 Exchange에서 해당 사용자의 전자 메일 및 IM을 보관하는 능력  <br/> |사용할 수 없습니다.  <br/> |
-|Firefox 29에 대한 LWA(비즈니스용 Skype 웹 클라이언트) 브라우저 지원  <br/> |사용할 수 없지만 이전 버전의 Firefox를 사용할 수 있습니다.  <br/> |
-|UCS(통합 연락처 저장소)  <br/> |사용자가 2013에서 비즈니스용 Skype 연락처 정보를 모두 Microsoft Exchange Server 기능을 사용할 수 없습니다.  <br/> |
+|보관 또는 사용자에 태그를 지정하고 해당 사용자의 전자 메일 및 IM을 보관하는 Exchange  <br/> |사용할 수 없습니다.  <br/> |
+|비즈니스용 Skype Firefox 29에 대한 웹 클라이언트(LWA) 브라우저 지원  <br/> |사용할 수 없지만 이전 버전의 Firefox를 사용할 수 있습니다.  <br/> |
+|UCS(통합 연락처 저장소)  <br/> |사용자가 2013년 비즈니스용 Skype 연락처 정보를 모두 보관하는 Microsoft Exchange Server 기능을 사용할 수 없습니다.  <br/> |
 | 회의 장치:  <br/>  Polycom CX5100 통합 회의 스테이션  <br/>  Logitech ConferenceCam CC3000e  <br/>  Polycom CX7000  <br/>  Polycom CX3000  <br/>  Logitech BCC950 ConferenceCam  <br/>  Polycom CX5000 HD  <br/> |사용할 수 없습니다.  <br/> |
    
 ## <a name="data-subject-requests-for-gdpr"></a>GDPR에 대한 데이터 주체 요청
 
-GDPR은 부정확한 데이터를 수정하거나, 데이터를 지우거나, 처리를 제한할 권리를 포함하여 개인(또는 데이터 주체)에게 개인 데이터 처리와 관련한 특정 권한을 부여하고, 데이터를 다른 컨트롤러에게 전송하기 위한 요청을 이행합니다. 21Vianet에서 운영하는 Office 365의 테넌트 관리자 역할은 다음과 같은 방법으로 데이터 주체 대신 데이터를 요청할 수 있습니다.
+GDPR은 부정확한 데이터를 수정하거나, 데이터를 지우거나, 처리를 제한할 권리를 포함하여 개인(또는 데이터 주체)에게 개인 데이터 처리와 관련한 특정 권한을 부여하고, 데이터를 다른 컨트롤러에게 전송하기 위한 요청을 이행합니다. 21Vianet에서 운영하는 Office 365 테넌트 관리자 역할은 다음과 같은 방법으로 데이터 주체 대신 데이터를 요청할 수 있습니다.
   
-- Azure Active Directory 관리 센터를 사용하여 테넌트 관리자는 Azure Active Directory 및 관련 서비스에서 데이터 주체를 영구적으로 삭제할 수 있습니다.
+- 테넌트 관리자는 Azure Active Directory 관리 센터를 사용하여 데이터 주체와 관련 서비스에서 Azure Active Directory 영구적으로 삭제할 수 있습니다.
     
-- 21Vianet에서 운영하는 Microsoft 서비스에 대한 시스템 생성 로그는 테넌트 관리자가 데이터 로그 내보내기 기능을 사용하여 내보낼 수 있습니다.
+- 21Vianet에서 운영하는 Microsoft 서비스 시스템 생성 로그는 테넌트 관리자가 데이터 로그 내보내기 기능을 사용하여 내보낼 수 있습니다.
     
 자세한 내용 및 지침은 [GDPR에 대한 DSR(데이터 주체 요청)을 참조하세요.](https://www.trustcenter.cn/privacy/gdpr-office365.mdl)
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[비즈니스용 Microsoft 365](../../commerce/try-or-buy-microsoft-365.md) 구독 시도 또는 구입(문서)
+[비즈니스용 Microsoft 365 구독을](../../commerce/try-or-buy-microsoft-365.md) 시도하거나 구입(문서)
 
-[21Vianet에서 운영하는 Office 365에](parity-between-azure-information-protection.md) 대한 Azure Information Protection 지원(문서)
+[21Vianet에서 운영하는](parity-between-azure-information-protection.md) Office 365 Azure Information Protection 지원(문서)
 
 [청구서 보기 또는 Fapiao](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) 보기(문서)

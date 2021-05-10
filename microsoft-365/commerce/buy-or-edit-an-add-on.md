@@ -22,12 +22,12 @@ ms.custom:
 ms.reviewer: jkinma
 description: 비즈니스용 구독에 대한 추가 기능을 구입하고 관리하는 Microsoft 365 방법을 알아보하세요.
 ms.date: 04/02/2021
-ms.openlocfilehash: c0b5a76f8690c64723782640738ac3817bc64714
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: d60503cd7ab7be219c3ed813dd1d9aef480cd4dc
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107439"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297335"
 ---
 # <a name="buy-or-manage-add-ons"></a>추가 기능 구입 또는 관리
 
@@ -61,7 +61,7 @@ ms.locfileid: "52107439"
 
 기존 추가 기능을 관리하려면 기존 추가 기능을 포함하는 구독으로 가고 해당 구독을 변경합니다. 다음 단계에 따라 기존 추가 기능을 관리합니다.
   
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 2. 제품 **탭에서** 업데이트할 추가 기능을 포함하는 구독을 선택합니다.
 3. 구독 세부 정보 페이지의  추가 기능 섹션에 구입한 추가 기능 목록이 표시됩니다. 추가 **기능 관리를 선택합니다.**
 4. 추가 기능 관리 **창의** 추가 기능  드롭다운 목록에서 변경할 추가 기능을 선택합니다.
@@ -71,7 +71,7 @@ ms.locfileid: "52107439"
 
 독립 실행형 추가 기능 구독을 [](subscriptions/cancel-your-subscription.md)제거하려면 다른 구독과 마찬가지로 구독을 취소합니다. 또는 [Recurring 청구를 해제할 수 있습니다.](subscriptions/renew-your-subscription.md)
 
-기존 추가 기능을 제거할 수 있습니다. 기존 추가 기능을 제거하려면 고객 [지원에 문의하여 도움을 문의합니다.](../admin/contact-support-for-business-products.md)
+기존 추가 기능을 제거할 수 있습니다. 기존 추가 기능을 제거하려면 고객 [지원에 문의하여 도움을 문의합니다.](../business-video/get-help-support.md)
   
 ## <a name="related-content"></a>관련 콘텐츠
 

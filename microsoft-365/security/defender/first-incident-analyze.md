@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 1890b4f9b4c71efebe833ebaee62debedbf0fb72
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 83889123067897483478aec3d881a5a7b6ec14cc
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114923"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297227"
 ---
 # <a name="step-1-triage-and-analyze-your-first-incident"></a>1단계. 첫 번째 인시던트의 세분화 및 분석
 
@@ -97,9 +97,9 @@ Severity + Impact = Priority 수식으로 Microsoft 365 Defender에서 우선 �
 
 경고를 둘러싼 컨텍스트를 이해하는 것은 똑같이 중요합니다. 경고는 단일 독립 이벤트가 아닌 경우가 종종 있습니다. 동시에 발생하지 않을 수 있는 프로세스, 명령 및 작업의 체인이 있습니다. 따라서 분석가가 장치 타임라인에서 의심스러운 엔터티의 첫 번째 및 마지막 활동을 찾아 경고의 컨텍스트를 이해해야 합니다.
 
-Microsoft 365 Defender를 사용하여 데이터를 읽고 분석하는 방법에는 여러 가지가 있지만 분석가의 최종 목표는 가능한 한 빠르게 인시던트에 대응하는 것입니다. Microsoft 365 업계 최고의 자동 수정 기능을 통해 [MTTR(평균](https://www.microsoft.com/security/blog/2020/05/04/lessons-learned-microsoft-soc-part-3c/) 재구성 시간)을 크게 줄일 수 있는 반면, 수동 분석이 필요한 경우도 항상 있습니다. 
+Microsoft 365 Defender를 사용하여 데이터를 읽고 분석하는 방법에는 여러 가지가 있지만 분석가의 최종 목표는 가능한 한 빠르게 인시던트에 대응하는 것입니다. Microsoft 365 업계 최고의 자동화 조사 및 응답 기능을 통해 [MTTR(평균](https://www.microsoft.com/security/blog/2020/05/04/lessons-learned-microsoft-soc-part-3c/) 재구성 시간)을 크게 줄일 수 있는 반면, 수동 분석이 필요한 사례는 항상 있습니다. [](m365d-autoir.md) 
 
-예를 들면 다음과 같습니다.
+다음은 예입니다.
 
 1. 우선 순위가 결정되면 분석가가 인시던트 이름을 선택하여 심층 분석을 시작합니다. 이 페이지에서는 분석을 **지원하기** 위해 데이터가 탭에 표시되는 인시던트 요약을 표시합니다. 경고 **탭 아래에** 경고 유형이 표시됩니다. 분석가가 각 경고를 클릭하여 각 검색 원본으로 드릴다운할 수 있습니다. 
 
@@ -135,6 +135,6 @@ Microsoft 365 Defender를 사용하여 데이터를 읽고 분석하는 방법�
 
 ## <a name="see-also"></a>참고 항목
 
-- [인시던트 개요](incidents-overview.md)
-- [인시던트 분석](investigate-incidents.md)
+- [사고 개요](incidents-overview.md)
+- [사고 조사](investigate-incidents.md)
 - [인시던트 관리](manage-incidents.md)

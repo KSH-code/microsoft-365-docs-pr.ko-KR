@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Defender의 경고 분석
-description: 여러 장치, 사용자 및 사서함에 걸쳐 경고를 분석합니다.
+title: Defender에서 경고 Microsoft 365 조사
+description: 여러 장치, 사용자 및 사서함에 걸쳐 경고를 조사합니다.
 keywords: 인시던트, 경고, 조사, 분석, 대응, 상관 관계, 공격, 컴퓨터, 장치, 사용자, ID, ID, 사서함, 전자 메일, 365, Microsoft, m365
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 18b4df6a2dbb22235d6781f1430f7a75e319fbcf
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: b9bbe058042a49586e8515fde85371b1487e8d25
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939545"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297131"
 ---
-# <a name="analyze-alerts-in-microsoft-365-defender"></a>Microsoft 365 Defender의 경고 분석
+# <a name="investigate-alerts-in-microsoft-365-defender"></a>Defender에서 경고 Microsoft 365 조사
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -38,13 +38,13 @@ ms.locfileid: "51939545"
 
 경고는 모든 인시던트의 기반이 며 사용자 환경에서 악의적 또는 의심스러운 이벤트가 발생하는 것을 나타냅니다. 경고는 일반적으로 더 광범위한 공격의 일부로, 인시던트에 대한 단서를 제공합니다.
 
-Microsoft 365 Defender에서 관련 경고는 인시던트 를 형성하기 위해 함께 [집계됩니다.](incidents-overview.md) 인시던트는 항상 공격의 광범위한 컨텍스트를 제공하겠지만, 심층 분석이 필요한 경우 경고를 분석하는 것이 중요할 수 있습니다. 
+Microsoft 365 관련 경고는 인시던트 를 형성하기 위해 함께 [집계됩니다.](incidents-overview.md) 인시던트는 항상 공격의 광범위한 컨텍스트를 제공하겠지만, 심층 분석이 필요한 경우 경고를 분석하는 것이 중요할 수 있습니다. 
 
-경고 **큐에는** 현재 경고 집합이 표시됩니다. Microsoft 365 보안  센터(&)의 빠른 실행에 대한 경고 > 인시던트 및 경고 큐로[security.microsoft.com.](https://security.microsoft.com)
+경고 **큐에는** 현재 경고 집합이 표시됩니다. 인시던트 및 경고  & > 보안 센터(Microsoft 365)의 빠른 실행에 대한 경고[큐로 security.microsoft.com.](https://security.microsoft.com)
 
 :::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-queue.png" alt-text="경고 큐의 예":::
 
-Endpoint용 Microsoft Defender, Office 365용 Microsoft Defender 및 Microsoft 365 Defender와 같은 다양한 Microsoft 보안 솔루션의 알림이 여기에 표시됩니다.
+Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 Microsoft 365 Microsoft Defender와 같은 다양한 Microsoft 보안 솔루션의 알림이 여기에 표시됩니다.
 
 기본적으로 Microsoft 365 보안 센터의 경고 큐에는 지난 30일 동안의 신규 및 진행 중인 경고가 표시됩니다. 가장 최근 경고는 목록 맨 위에 있으므로 먼저 볼 수 있습니다. 
 
@@ -66,7 +66,7 @@ Endpoint용 Microsoft Defender, Office 365용 Microsoft Defender 및 Microsoft 3
 
 기본 경고 페이지를 표시하려면 경고의 이름을 선택합니다. 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="Microsoft 365 보안 센터에서 경고의 세부 정보 페이지 예":::
+:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="보안 센터에서 경고의 세부 정보 Microsoft 365 예":::
 
 알림 관리 창에서 기본 경고 페이지 열기 **작업을 선택할 수도** 있습니다. 
 
@@ -77,7 +77,7 @@ Endpoint용 Microsoft Defender, Office 365용 Microsoft Defender 및 Microsoft 3
 - 관련 이벤트
 - 요약 세부 정보
 
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="Microsoft 365 보안 센터에서 경고의 세부 정보 페이지 예":::
+:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="보안 센터에서 경고의 세부 정보 Microsoft 365 예":::
 
 경고 페이지 전체에서 엔터티 옆에 있는 타원(**...**)을 선택하여 특정 자산 페이지 열기 또는 특정 수정 단계 수행과 같은 사용 가능한 작업을 볼 수 있습니다.
 
@@ -85,7 +85,7 @@ Endpoint용 Microsoft Defender, Office 365용 Microsoft Defender 및 Microsoft 3
 
 수행된 **작업** 섹션에는 사서함, 장치 및 이 경고의 영향을 받는 사용자와 같은 영향을 받는 자산 목록이 있습니다. 
 
-또한 관리 **센터에서** 보기를 선택하여  Microsoft 365 보안 센터에서 관리 센터의 기록 탭을 볼 수 있습니다.  
+또한 관리 **센터에서** 보기를 선택하여  관리 센터의 기록 탭을 볼 Microsoft 365 있습니다.  
 
 ### <a name="trace-an-alerts-role-in-the-alert-story"></a>경고 스토리에서 경고의 역할 추적
 
@@ -114,7 +114,7 @@ Endpoint용 Microsoft Defender, Office 365용 Microsoft Defender 및 Microsoft 3
 - 경고에 대한 설명입니다.
 
 > [!NOTE]
-> 한 가지 관리 방법은 태그를 사용하여 경고합니다. Office 365용 Microsoft Defender에 대한 태그 지정 기능은 증분적으로 배포되고 있으며 현재 미리 보기로 제공됩니다. <br>
+> 한 가지 관리 방법은 태그를 사용하여 경고합니다. Microsoft Defender for Office 365 태그 지정 기능은 증분적으로 배포되고 있으며 현재 미리 보기로 제공됩니다. <br>
 > 현재 수정된 태그 이름은 업데이트 후에 만들어진 *경고에만* 적용됩니다. 수정 전에 생성된 알림에는 업데이트된 태그 이름이 반영되지 않습니다. 
 
 이 창에서 다음 추가 작업을 수행할 수도 있습니다. 
@@ -128,7 +128,7 @@ Endpoint용 Microsoft Defender, Office 365용 Microsoft Defender 및 Microsoft 3
 
 다음은 예입니다.
 
-:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-actions.png" alt-text="Microsoft 365 보안 센터의 경고에 대한 작업의 예":::
+:::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-actions.png" alt-text="보안 센터의 경고에 대한 Microsoft 365 예":::
 
 추가 작업 목록은 경고 유형에 따라 다릅니다.
 
@@ -136,10 +136,14 @@ Endpoint용 Microsoft Defender, Office 365용 Microsoft Defender 및 Microsoft 3
 
 경고 분석이 완료되고 해결할 수 있는 경우 경고에  대한 경고 관리 창으로 이동하여 경고 상태를 **해결된** 것으로 표시하고 **False** 경고 또는 True 경고로 **분류합니다.** 실제 경고의 경우 결정 필드에 경고의 위협 유형을 **지정합니다.**
 
-경고를 분류하고 결정 방법을 지정하면 Microsoft 365 Defender를 조정하여 보다 실제 경고와 거짓 경고를 줄입니다.
+경고를 분류하고 결정 값을 지정하면 Defender에서 Microsoft 365 보다 실제 경고와 거짓 경고를 덜 제공하게 조정하는 데 도움이 됩니다.
+
+## <a name="next-steps"></a>다음 단계
+
+In-process 인시던트에 필요한 경우 조사를 [계속합니다.](investigate-incidents.md)
 
 ## <a name="see-also"></a>참고 항목
 
 - [인시던트 개요](incidents-overview.md)
 - [인시던트 관리](manage-incidents.md)
-- [인시던트 분석](investigate-incidents.md)
+- [인시던트 조사](investigate-incidents.md)

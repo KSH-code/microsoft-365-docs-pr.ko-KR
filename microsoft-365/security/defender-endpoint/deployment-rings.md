@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8123bdf610b30407e5d262296f9c3639bc21b12f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 5aeaa51e5ab8974c8ca26453534396dac14b5853
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893488"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297215"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-in-rings"></a>링에서 끝점용 Microsoft Defender 배포
 
@@ -82,10 +82,10 @@ ms.locfileid: "51893488"
 | 끝점     | 배포 도구                       |
 |--------------|------------------------------------------|
 | **Windows**  |  [로컬 스크립트(최대 10대의 장치)](configure-endpoints-script.md) <br> 참고: 프로덕션 환경에 10개 이상의 장치를 배포하려는 경우 그룹 정책 방법이나 아래에 나열된 다른 지원되는 도구를 대신 사용합니다.<br>  [그룹 정책](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ 모바일 장치 관리자](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [VDI 스크립트](configure-endpoints-vdi.md)   |
-| **macOS**    | [로컬 스크립트](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [모바일 장치 관리](mac-install-with-other-mdm.md) |
+| **macOS**    | [로컬 스크립트](mac-install-manually.md) <br> [Microsoft Endpoint Manager ](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [모바일 장치 관리](mac-install-with-other-mdm.md) |
 | **Linux Server** | [로컬 스크립트](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [앱 기반](ios-install.md)                                |
-| **Android**  | [Microsoft Endpoint Manager](android-intune.md)               | 
+| **Android**  | [Microsoft Endpoint Manager ](android-intune.md)               | 
 
 
 
@@ -106,7 +106,7 @@ ms.locfileid: "51893488"
 ## <a name="existing-deployments"></a>기존 배포
 
 ### <a name="windows-endpoints"></a>Windows 끝점
-Windows 및/또는 Windows Server의 경우 **SUVP(보안** 업데이트 유효성 검사 프로그램)를 사용하여 미리 테스트할 여러 컴퓨터를 선택합니다(화요일 패치 전).
+Windows 및/Windows 서버의 경우 **SUVP(보안** 업데이트 유효성 검사 프로그램)를 사용하여 미리 테스트할 여러 컴퓨터를 선택합니다(화요일 패치 전).
 
 자세한 내용은 다음을 참조하세요.
 - [보안 업데이트 유효성 검사 프로그램](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/what-is-the-security-update-validation-program/ba-p/275767)
@@ -114,16 +114,16 @@ Windows 및/또는 Windows Server의 경우 **SUVP(보안** 업데이트 유효�
 
 
 ### <a name="non-windows-endpoints"></a>비 Windows 끝점
-macOS 및 Linux에서는 몇 가지 시스템을 사용하며 "InsidersFast" 채널에서 실행할 수 있습니다.
+macOS 및 Linux에서는 몇 가지 시스템을 사용하며 베타 채널에서 실행할 수 있습니다.
 
 >[!NOTE]
->빌드가 "프로덕션" 채널로 변경되기 전에 호환성, 성능 및 안정성 문제를 찾을 수 있도록 하나 이상의 보안 관리자와 개발자 한 명 이상입니다.
+>빌드를 현재 채널로 만들기 전에 호환성, 성능 및 안정성 문제를 찾을 수 있도록 하나 이상의 보안 관리자와 개발자 한 명 이상입니다.
 
-채널 선택에 따라 장치에 제공되는 업데이트의 유형과 빈도가 결정됩니다. insiders-fast의 장치는 업데이트 및 새 기능을 수신하는 첫 번째 장치로, 그 다음에는 이후의 내부자 속도가 느려지며 마지막으로 prod가 됩니다.
+채널 선택에 따라 장치에 제공되는 업데이트의 유형과 빈도가 결정됩니다. Beta의 장치는 업데이트 및 새 기능을 수신하는 첫 번째 장치로, 나중에 미리 보기 및 마지막으로 현재가 표시됩니다.
 
 ![내부자 링의 이미지](images/insider-rings.png)
 
-새 기능을 미리 보고 초기 피드백을 제공하도록 엔터프라이즈에서 내부자 속도가 빠르거나 느리게 사용하도록 일부 장치를 구성하는 것이 좋습니다.
+새 기능을 미리 보고 초기 피드백을 제공하기 위해서는 엔터프라이즈에서 베타 또는 미리 보기를 사용하도록 일부 장치를 구성하는 것이 좋습니다.
 
 >[!WARNING]
 >초기 설치 후 채널을 전환하려면 제품을 다시 설치해야 합니다. 제품 채널을 전환하려면 기존 패키지를 제거하고 새 채널을 사용하도록 장치를 다시 구성하고 이 문서의 단계에 따라 새 위치에서 패키지를 설치합니다.

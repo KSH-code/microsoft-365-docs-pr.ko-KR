@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3ddea9fb9ead7904412b9e31e3b1bc4df51b7dbf
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 15acaf68cb72ec1b30ce4f56be72613eb03d03ac
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544963"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297839"
 ---
 # <a name="contact-support-for-qatar"></a>카타르 지원에 문의
 
-[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)
+[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>전화 번호
 44 119418

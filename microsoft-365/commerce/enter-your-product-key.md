@@ -23,12 +23,12 @@ ms.custom:
 ms.reviewer: jkinma
 description: 소매점에서 구매한 Microsoft 365 Business Standard 키를 교환하는 방법에 대해 자세히 알아보고
 ms.date: 11/13/2020
-ms.openlocfilehash: 0e647b8d52d024750b3944a03133755c1257ee4c
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: ed9fb3c1ecc02930f55ddc11c523cf5989d6bbbe
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107451"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297323"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>사용자에 대한 제품 키를 Microsoft 365 Business Standard
 
@@ -67,4 +67,4 @@ ms.locfileid: "52107451"
 
 일반적인 오류 및 해결 방법 목록( 비즈니스 제품 키에 대한 Microsoft 365 [문제) 목록을 확인하세요.](product-key-errors-and-solutions.md)
   
-또는 [Microsoft 지원에 문의합니다.](../admin/contact-support-for-business-products.md)
+또는 [Microsoft 지원에 문의합니다.](../business-video/get-help-support.md)

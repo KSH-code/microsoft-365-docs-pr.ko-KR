@@ -22,12 +22,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: 새 구독을 구입하고 두 구독이 모두 나열되어 활성화되어 있도록 하여 구독을 수동으로 변경합니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: 1dc7ff8cd6b8a43db7d70ab6c17aec16a020baac
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 7361b459e61961efbb729d80dcbb55dfdad65933
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107683"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293622"
 ---
 # <a name="change-plans-manually"></a>수동으로 계획 변경
 
@@ -59,7 +59,7 @@ ms.locfileid: "52107683"
 
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>3단계: 새 구독 및 라이선스 확인
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 
 2. **두 구독이 모두 나열 및 활성 상태인지 확인** 사용자를 이동하는 구독과 사용자를 이동하는 구독이 함께 나열되어야 합니다. 새 구독을 처음 확인할 때 해당 구독이 없는 경우 나중에 다시 시도하세요. 두 구독이 모두 활성 상태인지 검사합니다. 새 구독이 목록에 없는 경우 [또는 활성화되지 않습니다.](#the-new-subscription-isnt-listed-or-isnt-active)
 
@@ -74,7 +74,7 @@ ms.locfileid: "52107683"
 
 - **두 구독을 구매한** 경우 두 구독이 모두 여기에 나열되지 않은 경우 다른 조직에 대해 구입한 것일 수 있습니다(도메인마다 다를 수 있습니다). 구독이 조직 경계를 넘을 수 없습니다.
 
-- **추가 구독이** 있는 경우 여기에 나열되지 않은 경우 또는 활성 상태인 경우 [Microsoft 지원에 문의하세요.](../../admin/contact-support-for-business-products.md)
+- **추가 구독이** 있는 경우 여기에 나열되지 않은 경우 또는 활성 상태인 경우 [Microsoft 지원에 문의하세요.](../../business-video/get-help-support.md)
 
 ### <a name="what-about-the-old-licenses"></a>이전 라이선스는 어떻게 하나요?
 
@@ -115,4 +115,4 @@ ms.locfileid: "52107683"
 일부 사용자만 다른 구독으로 이동한 경우 [더](../licenses/buy-licenses.md) 이상 필요 없는 라이선스를 제거합니다.
 
 ## <a name="call-support-to-help-you-change-plans"></a>요금제 변경을 지원하기 위해 지원에 문의
-[Microsoft 지원에 문의](../../admin/contact-support-for-business-products.md)
+[Microsoft 지원에 문의](../../business-video/get-help-support.md)

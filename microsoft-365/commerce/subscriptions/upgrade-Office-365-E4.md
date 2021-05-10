@@ -21,12 +21,12 @@ search.appverid: MET150
 description: E4 구독에서 업그레이드하는 Office 365 대해 자세히 알아보습니다.
 ms.date: 08/14/2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f9143497ac2ee15009a3a2b3af9e76426d408d38
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 0e30ece58cfc10ea258a684f9ac6ca4dba1b8692
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280514"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297287"
 ---
 # <a name="upgrade-from-an-office-365-e4-subscription"></a>E4 구독에서 Office 365 업그레이드
 
@@ -63,7 +63,7 @@ ms.locfileid: "52280514"
 3. 업그레이드 **탭을** 선택합니다. 다른 계획이 나열되어 있는 경우 요금제가 자동으로 업그레이드될 수 있습니다.
 4. 자동으로 업그레이드할 수 없는 경우 업그레이드할 수 없는 이유를 설명하는 메시지가 표시됩니다.
 
-계획을 자동으로 업그레이드할 수 없는 이유는 여러 가지가 있습니다. 대부분의 문제는 해결할 수 있는 서비스 상태 문제와 같은 일시적인 문제입니다. 자세한 내용은 요금제 업그레이드를 할 수 없는 [이유는 무엇입니까?를 참조하세요.](upgrade-to-different-plan.md#why-cant-i-upgrade-plans) 업그레이드에 대한 도움이 필요한 경우 고객 [지원에 문의합니다.](../../admin/contact-support-for-business-products.md)
+계획을 자동으로 업그레이드할 수 없는 이유는 여러 가지가 있습니다. 대부분의 문제는 해결할 수 있는 서비스 상태 문제와 같은 일시적인 문제입니다. 자세한 내용은 요금제 업그레이드를 할 수 없는 [이유는 무엇입니까?를 참조하세요.](upgrade-to-different-plan.md#why-cant-i-upgrade-plans) 업그레이드에 대한 도움이 필요한 경우 고객 [지원에 문의합니다.](../../business-video/get-help-support.md)
 
 ## <a name="will-a-credit-check-be-required"></a>신용 검사가 필요한가요?
 

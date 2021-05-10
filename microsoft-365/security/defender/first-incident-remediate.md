@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 2fe6c5b1b0feea2163c0a2bcc871921a885abb85
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: ed597c55a646eb00d6e6d256c287b22c119f8148
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114990"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297347"
 ---
 # <a name="step-2-remediate-your-first-incident"></a>2단계. 첫 번째 인시던트 수정
 
@@ -36,7 +36,7 @@ ms.locfileid: "52114990"
 **적용 대상:**
 - Microsoft 365 Defender
 
-Microsoft 365 Defender는 검색 및 분석 기능을 제공하는 것은 물론 맬웨어를 방지하고 제거합니다. 포함에는 공격의 영향을 줄이는 단계가 포함되어 있는 반면, 제거는 공격자 활동의 모든 추적을 네트워크에서 제거합니다.  Microsoft 365 Defender는 운영 체제 및 공격 유형에 따라 자동 수정하도록 구성할 수 있는 몇 가지 수정 작업을 제공합니다.
+Microsoft 365 Defender는 검색 및 분석 기능을 제공하는 것은 물론 맬웨어를 방지하고 제거합니다. 포함에는 공격의 영향을 줄이는 단계가 포함되어 있는 반면, 제거는 공격자 활동의 모든 추적을 네트워크에서 제거합니다.  Microsoft 365 Defender는 운영 체제 및 공격 유형에 [](m365d-autoir.md) 따라 자동 수정하도록 구성할 수 있는 몇 가지 수정 작업을 제공합니다.
 
 Microsoft 365 Defender는 분석가가 수동으로 시작할 수 있는 몇 가지 수정 작업을 제공합니다. 작업은 디바이스의 작업과 파일에 대한 작업의 두 범주로 구분됩니다. 일부 작업을 사용하여 위협을 즉시 중지하고 다른 작업은 추가 포렌식 분석을 지원할 수 있습니다.
 
@@ -97,6 +97,6 @@ Microsoft 365 Defender는 분석가가 수동으로 시작할 수 있는 몇 가
 
 ## <a name="see-also"></a>참고 항목
 
-- [인시던트 개요](incidents-overview.md)
-- [인시던트 분석](investigate-incidents.md)
+- [사고 개요](incidents-overview.md)
+- [사고 조사](investigate-incidents.md)
 - [인시던트 관리](manage-incidents.md)

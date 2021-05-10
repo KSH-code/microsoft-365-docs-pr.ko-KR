@@ -22,18 +22,18 @@ search.appverid:
 ROBOTS: NOINDEX
 description: 비즈니스용 구독에 대한 라이선스를 활성화, 갱신 또는 Microsoft 365 방법을 알아보습니다.
 ms.date: 10/21/2020
-ms.openlocfilehash: e0e317dc0917876c6299fe1eea5812b7bfe0cd8b
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 04df3b24693ac92875cc667aea61e0e9b35cb270
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107595"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293634"
 ---
 # <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Microsoft Open에서 구매한 제품 키를 입력합니다.
 
 Microsoft open license Microsoft 365 비즈니스용 [](https://go.microsoft.com/fwlink/p/?LinkID=613298)라이선스를 구입한 경우 이 문서를 사용할 수 있습니다. 제품 키를 구입한 볼륨 라이선스 고객은 이 항목에 따라 구독을 정품 인증, 갱신 또는 라이선스를 추가할 수 있습니다.
   
- **즉시 도움이 필요하세요?** [Microsoft 지원에 문의합니다.](../admin/contact-support-for-business-products.md) 
+ **즉시 도움이 필요하세요?** [Microsoft 지원에 문의합니다.](..//business-video/get-help-support.md) 
   
  **다른 것이 필요하세요?**
  
@@ -67,4 +67,4 @@ Microsoft Microsoft 365 프로그램에서 라이선스를 구입한 경우 구�
   
 볼륨 라이선스 고객은 [Microsoft 볼륨 라이선스 서비스 센터 교육 및 리소스](https://go.microsoft.com/fwlink/p/?LinkId=618103)를 방문하여 자세한 내용을 알아볼 수 있습니다.
   
-또는 사용자와 대화하려는 경우 Microsoft 지원 [에 문의합니다.](../admin/contact-support-for-business-products.md)
+또는 사용자와 대화하려는 경우 Microsoft 지원 [에 문의합니다.](../business-video/get-help-support.md)

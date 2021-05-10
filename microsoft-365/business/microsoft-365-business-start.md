@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 비즈니스용 Microsoft 365 설정하는 방법 및 사용자의 장치와 PC를 비즈니스용 앱으로 보호할 수 있도록 준비하는 방법에 대해 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: cc54147e75a27fbb93255d6f706b4f9044c75858
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: ddf6f8d12587c6fb562a599a41c190ffef32c147
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245127"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293710"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 시작
 
@@ -65,7 +65,7 @@ Microsoft 365 비즈니스용 라이선스는 최대 300개 라이선스를 위�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../business-video/index.yml)를 참조하세요.
 
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: 비즈니스용 Microsoft 365 설정(관리자)
@@ -105,7 +105,7 @@ Microsoft 365 비즈니스용 라이선스는 최대 300개 라이선스를 위�
   
 - 파트너에게 문의합니다.
     
-- 비즈니스 Microsoft 365 관리자에게는 고객 지원 팀에 액세스할 수 있습니다. 비즈니스 제품에 대한 고객 지원 문의 **[- 관리자 도움말](../admin/contact-support-for-business-products.md)**
+- 비즈니스 Microsoft 365 관리자에게는 고객 지원 팀에 액세스할 수 있습니다. 비즈니스 제품에 대한 고객 지원 문의 **[- 관리자 도움말](../business-video/get-help-support.md)**
     
 ## <a name="related-content"></a>관련 콘텐츠
 

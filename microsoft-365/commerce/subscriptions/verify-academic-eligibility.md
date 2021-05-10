@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Education 구독에 대한 교육적 자격 확인
+title: 교육용 구독에 대한 Microsoft 365 Education 자격 확인
 f1.keywords:
 - CSH
 - FWLink 2135711
@@ -17,31 +17,31 @@ ms.collection:
 ms.custom: ''
 search.appverid:
 - MET150
-description: Microsoft 365 Education 교육 에디트 가격에 대한 학교의 자격을 확인하는 방법을 학습합니다.
+description: 교육용 가격 책정에 대한 학교의 자격을 Microsoft 365 Education 방법을 참조합니다.
 ms.date: 07/21/2020
-ms.openlocfilehash: 374c27283d51b97ee24dd11079a72d0a3d7429b0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ad014cd72d82413073e1e645484f2a7fd0090b3c
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920159"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293490"
 ---
-# <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>Microsoft 365 Education 구독에 대한 교육적 자격 확인
+# <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>교육용 구독에 대한 Microsoft 365 Education 자격 확인
 
-교육 기관에 참여하는 경우 Microsoft 365 Education 무료 평가판에 등록할 수 있습니다. Microsoft에서 학교의 교육적 자격을 확인한 후 교육용 가격으로 Microsoft 365 제품을 구입할 수 있습니다. 여기에는 교직원용 Office 365 A1, 학생용 Office 365 A1과 같이 무료로 사용할 수 있는 제품이 포함됩니다. 무료 평가판이 끝날 때까지 교육용 가격으로 유료 구독으로 전환할 수 있습니다.
+교육 기관에 참여하는 경우 무료 평가판을 등록할 수 Microsoft 365 Education. Microsoft에서 학교의 교육적 자격을 확인한 후 교육용 Microsoft 365 구입할 수 있습니다. 여기에는 교직원용 제품 및 학생용 Office 365 A1 같은 무료 Office 365 A1 포함됩니다. 무료 평가판이 끝날 때까지 교육용 가격으로 유료 구독으로 전환할 수 있습니다.
 
 이 문서에서는 학교의 교육 자격을 확인하고, 자격 상태를 확인하고, 학교가 승인된 후 교육용 가격으로 구독을 구입하는 방법에 대해 설명하고 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-Microsoft 365 Education 평가판 구독이 이미 있어야 합니다. 평가판 구독이 없는 경우 [이](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) 웹 페이지를 방문하여 무료로 **시작을 선택합니다.**
+평가판 구독이 Microsoft 365 Education 있어야 합니다. 평가판 구독이 없는 경우 [이](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) 웹 페이지를 방문하여 무료로 **시작을 선택합니다.**
 
 ## <a name="verify-that-you-have-a-trial-subscription"></a>평가판 구독이 있는지 확인
 
-Microsoft 365 Education 평가판 구독이 있는지 확실하지 않은 경우 다음 단계를 사용하여 해당 작업을 수행하고 있는지 확인해야 합니다.
+평가판 구독이 있는지 확실하지 Microsoft 365 Education 다음 단계에 따라 수행하고 있는지 확인해야 합니다.
 
-1. Microsoft 365 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지로 이동합니다.
-2. 교직원용 **Office 365 A1** 및 학생용 **Office 365 A1 평가판을 찾아 봐야 합니다.** 이러한 구독을 찾지 못하면 이 웹 페이지를 방문하여 무료로 **시작을 선택합니다.** [](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1)
+1. Microsoft 365 관리 센터에서 청구 제품  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">페이지로</a> 이동합니다.
+2. **교직원용 Office 365 A1 평가판** 및 Office 365 A1 **평가판을 찾아 봐야 합니다.** 이러한 구독을 찾지 못하면 이 웹 페이지를 방문하여 무료로 **시작을 선택합니다.** [](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1)
 
 ## <a name="verify-your-schools-academic-eligibility"></a>학교의 교육 자격 확인
 
@@ -56,20 +56,20 @@ Microsoft 365 Education 평가판 구독이 있는지 확실하지 않은 경우
 
 ## <a name="check-the-status-of-your-schools-academic-eligibility"></a>학교의 교육 자격 상태 확인
 
-Microsoft 365 Education 평가판을 다운로드한 후 학교의 교육 자격 상태를 확인할 수 있습니다.
+시험을 Microsoft 365 Education 학교의 교육 자격 상태를 확인할 수 있습니다.
 
-1. [Microsoft 365 관리 센터로 이동하세요.](https://go.microsoft.com/fwlink/p/?linkid=2024339)
+1. Microsoft 365 [관리 센터로 이동하세요.](https://go.microsoft.com/fwlink/p/?linkid=2024339)
 2. 홈 페이지에서 청구 카드를  찾으십시오.\
     청구 **카드는** 확인 프로세스의 상태를 나타냅니다. 이 카드에는 승인됨, 보류 중, 거부 또는 도메인 추가 중 하나의 상태가 표시됩니다.
 
     > [!NOTE]
-    > 이러한 상태 중 하나를 볼 수 없는 경우 Microsoft 365 Education 평가판 구독이 없는 것입니다. 무료 평가판을 시작하려면 이 [웹](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) 페이지를 방문하고 무료로 **시작을 선택합니다.**
+    > 이러한 상태 중 하나에 해당 상태가 없는 경우 평가판 구독이 Microsoft 365 Education 않습니다. 무료 평가판을 시작하려면 이 [웹](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) 페이지를 방문하고 무료로 **시작을 선택합니다.**
 
 ## <a name="buy-subscriptions-at-academic-prices"></a>교육용 가격으로 구독 구입
 
 학교 자격을 확인한 후 교육용 가격으로 구독을 구입할 수 있습니다. 무료 평가판을 유료 [구독으로 변환할 수도 있습니다.](../try-or-buy-microsoft-365.md) 평가판 구독을 변환하려면 평가 기간이 끝나기 전에 전환해야 합니다.
 
-1. Microsoft 365 관리 센터에서 청구  구매 서비스 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">페이지로</a> 이동합니다.
+1. Microsoft 365 관리 센터에서 청구 구매  서비스 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">페이지로</a> 이동합니다.
 2. 교육용 제품은 교육 **탭을 선택합니다.**
 
     > [!NOTE]
@@ -82,7 +82,7 @@ Microsoft 365 Education 평가판을 다운로드한 후 학교의 교육 자격
 
 무료 평가판 구독의 만료 날짜는 **제품 페이지에서 확인할 수** 있습니다. 평가판을 연장할 수 있습니다.
 
-1. Microsoft 365 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지로 이동합니다.
+1. Microsoft 365 관리 센터에서 청구 제품  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">페이지로</a> 이동합니다.
 2. 평가판 구독을 검색합니다.
 3. 청구 **섹션의** 무료 평가판 구독 **아래에** 만료 날짜가 표시됩니다.
 4. 평가판을 확장하려면 평가판 **연장 을 선택합니다.** 무료 평가판 구독당 한 번만 이 작업을 할 수 있습니다.
@@ -91,17 +91,17 @@ Microsoft 365 Education 평가판을 다운로드한 후 학교의 교육 자격
 
 학교가 Microsoft 적격 교육 기관으로 자격이 없는 경우 관리 센터의 청구  구매 서비스 페이지에서 상업용 제품을 구입할 \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">수</a> 있습니다. 조직이 비영리 그룹인 경우 그룹이 비영리 구독 자격을 받을 수 있습니다. 자세한 내용은 비영리 에 대한 할인 및 [후원을 참조합니다.](https://www.microsoft.com/nonprofits/eligibility)
 
-학교의 교육 자격 결정에 대한 질문이 있는 경우 [지원에 문의하세요.](../../admin/contact-support-for-business-products.md)
+학교의 교육 자격 결정에 대한 질문이 있는 경우 [지원에 문의하세요.](../../business-video/get-help-support.md)
 
 ## <a name="next-steps"></a>다음 단계
 
-학교용 Microsoft 365를 배포하는 방법에 대한 자세한 내용은 [Microsoft 365 Education](/microsoft-365/education/deploy/)설명서 및 리소스를 참조하세요. 다음으로 사용자를 [추가하고 동시에 라이선스를 할당할 수 있습니다.](../../admin/add-users/add-users.md) 필요한 경우 구독에 대한 추가 [라이선스를 구입할 수도 있습니다.](../licenses/buy-licenses.md)
+학교를 위해 Microsoft 365 배포하는 방법에 대한 자세한 내용은 Microsoft 365 Education [리소스 를 참조하세요.](/microsoft-365/education/deploy/) 다음으로 사용자를 [추가하고 동시에 라이선스를 할당할 수 있습니다.](../../admin/add-users/add-users.md) 필요한 경우 구독에 대한 추가 [라이선스를 구입할 수도 있습니다.](../licenses/buy-licenses.md)
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[IT 관리자를 위한 Microsoft 365 Education 설명서(문서](/education/itadmins) 링크)\
-[교육용 Microsoft Teams(제품](https://microsoft.com/education/products/teams/default.aspx) 페이지)\
-[비즈니스용 Microsoft 365의](../licenses/subscriptions-and-licenses.md) 구독 및 라이선스 이해(문서)\
+[MICROSOFT 365 EDUCATION 관리자용](/education/itadmins) 설명서(문서 링크)\
+[Microsoft Teams for Education(제품](https://microsoft.com/education/products/teams/default.aspx) 페이지)\
+[비즈니스용 Microsoft 365](../licenses/subscriptions-and-licenses.md) 구독 및 라이선스 이해(문서)\
 [사용자에게 라이선스 할당](../../admin/manage/assign-licenses-to-users.md)(문서)\
 [구독 라이선스 구입 또는](../licenses/buy-licenses.md) 제거(문서)\
 [다른 구독으로 사용자 이동](move-users-different-subscription.md)(문서)\

@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 description: Microsoft에서 계정을 닫는 방법을 알아보하세요.
 ms.date: 04/02/2021
-ms.openlocfilehash: 4fa1366186f0a37d3319208224628332d958a0ea
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 86232e3f433526cc60ef369eda03ef8d20ab08c9
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107475"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293670"
 ---
 # <a name="close-your-account"></a>계정 사용 중지 
 
@@ -69,7 +69,7 @@ Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩�
 6. 사용하지 않도록 설정한 각 구독에 대해 모든 구독이 삭제될 때까지 3-5단계를 반복합니다.
 
 > [!NOTE]
-> 사용하지 않도록 설정한 구독을 즉시 삭제할 수 없는 경우 고객 [지원에 문의하세요.](../admin/contact-support-for-business-products.md)
+> 사용하지 않도록 설정한 구독을 즉시 삭제할 수 없는 경우 고객 [지원에 문의하세요.](../business-video/get-help-support.md)
 
 ## <a name="step-4-disable-multi-factor-authentication"></a>4단계: 다단계 인증 사용 안 하도록 설정
 

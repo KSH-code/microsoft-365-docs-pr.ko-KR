@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: SharePoint 및 OneDrive의 레이블이 지정되고 암호화된 문서에 대해 데스크톱 앱에서 공동 작성 및 자동 저장을 사용할 수 있도록 설정하세요.
-ms.openlocfilehash: 990ab13508565fb910abe0d5e759a93e54766915
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 4b2c4551579d2609b66b5cd8fa8857f98b966a7d
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245723"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297263"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>민감도 레이블로 암호화된 파일에 공동 작성 사용
 
@@ -173,7 +173,7 @@ Microsoft 365 규정 준수 센터에서 이 설정에 액세스하려면, 미�
 
 ![민감도 레이블에 공동 작성 사용을 설정한 것을 나타내는 옵션](../media/co-authoring-tenant-option-set-for-sensitivity-labels.png)
 
-이 설정을 사용할 때의 스크린샷에서 볼 수 있듯이, [Microsoft 지원](/office365/admin/contact-support-for-business-products)에 연락하여 이 설정의 해제를 요청할 수 있습니다. 이 요청에는 수일이 소요될 수 있으며, 사용자가 테넌트의 전역 관리자임을 입증해야 합니다. 일반적인 지원 요금이 적용될 것입니다. 
+이 설정을 사용할 때의 스크린샷에서 볼 수 있듯이, [Microsoft 지원](../business-video/get-help-support.md)에 연락하여 이 설정의 해제를 요청할 수 있습니다. 이 요청에는 수일이 소요될 수 있으며, 사용자가 테넌트의 전역 관리자임을 입증해야 합니다. 일반적인 지원 요금이 적용될 것입니다. 
 
 지원 엔지니어가 테넌트에 이 설정을 실행 중지하는 경우:
 

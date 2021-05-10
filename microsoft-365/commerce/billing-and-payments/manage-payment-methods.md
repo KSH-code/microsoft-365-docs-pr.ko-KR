@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 description: Microsoft 365 관리 센터에서 결제 방법을 관리하는 방법을 알아보세요.
 ms.date: 04/02/2021
-ms.openlocfilehash: b69096bb05ada6ce7a1ee619aa78bc04639e7004
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 82b2880eed830bd3b65cce14635c4fa10f618740
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244723"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297371"
 ---
 # <a name="manage-payment-methods"></a>결제 방법 관리
 
@@ -129,7 +129,7 @@ Microsoft에서 비즈니스 제품 또는 서비스를 구입하는 경우 기�
 |**내 신용 카드 또는 직불 카드가 거부되었습니다.** |신용 카드나 직불 카드로 결제하는 데 카드가 거부된 경우 Microsoft에서 결제를 처리하지 못했다는 내용의 전자 메일을 받게 됩니다. 카드 세부 정보 &mdash;카드 번호, 만료 날짜, 카드에 적힌 이름, 도시, 주 및 우편 번호를 포함한 주소&mdash;가 카드 및 명세서에 표시된 것과 정확히 일치하는지 다시 확인하세요. **구독 세부 정보** 페이지의 결제 섹션에 있는 **잔액 정산** 링크를 사용하여 카드 정보를 업데이트하고 즉시 결제를 제출할 수 있습니다.. 자세한 내용은 [미지불 잔액이 있는 경우 어떻게 해야 하나요?](pay-for-your-subscription.md#what-if-i-have-an-outstanding-balance)를 참조하세요.  <br/><br/>  "거부"되었다는 메시지가 계속 표시되면 해당 은행에 문의하세요. 카드가 활성화되지 않았을 수 있습니다. 최근에 업데이트된 만료 날짜가 있는 카드를 메일에 받은 경우 카드가 활성화되어 있는지 확인합니다. 또한 해당 은행에서 카드가 온라인 거래, 국제 거래 또는 반복 거래에 대해 승인되지 않았는지 여부를 알려줄 수 있습니다. |
 |**카드 또는 은행 계좌 번호를 업데이트하려고 합니다.** |기존 결제 방법으로는 카드 또는 계좌 번호를 변경할 수 없습니다. 카드 또는 계좌 번호가 변경된 경우 [다른 결제 수단으로 교체](#replace-a-payment-method)하여 모든 활성 구독을 결제 수단에서 새 결제 수단으로 이동한 다음, [이전 결제 수단을 삭제](#delete-a-payment-method-with-no-subscriptions-or-billing-profiles-attached)합니다. |
 |**계정에 카드 또는 은행 계좌가 하나밖에 없는데 그 카드 또는 은행 계좌를 제거하고 싶습니다.** |결제 수단이 하나 뿐인 경우 삭제하기 전에 [새 결제 수단으로 교체](#replace-a-payment-method)해야 합니다. |
-|**카드 또는 은행 계좌를 추가할 수 없습니다.**  |테넌트와 동일한 국가에서 발급한 결제 방법을 사용해야 합니다. 카드 또는 은행 계좌 정보를 입력하는 데 문제가 있는 경우 [지원에 문의](../../admin/contact-support-for-business-products.md)할 수 있습니다. |
+|**카드 또는 은행 계좌를 추가할 수 없습니다.**  |테넌트와 동일한 국가에서 발급한 결제 방법을 사용해야 합니다. 카드 또는 은행 계좌 정보를 입력하는 데 문제가 있는 경우 [지원에 문의](../../business-video/get-help-support.md)할 수 있습니다. |
 
 ## <a name="related-content"></a>관련 콘텐츠
 

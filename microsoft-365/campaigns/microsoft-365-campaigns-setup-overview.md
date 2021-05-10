@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business Premium 설치 개요
+title: 설치에 대한 Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -24,33 +24,33 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: 캠페인 또는 기타 비즈니스용 Microsoft 365 Business Premium 설치 개요
-ms.openlocfilehash: e612771ca4e967462f190c41396f16c6faf9d195
-ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
+description: 캠페인 또는 Microsoft 365 Business Premium 비즈니스에 대한 설치 개요
+ms.openlocfilehash: 08fe74e519c2efab14e4362e35b89128a8442cfb
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51398268"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297383"
 ---
-# <a name="set-up-microsoft-365"></a>Microsoft 365 설정
+# <a name="set-up-microsoft-365"></a>설정 Microsoft 365
 
-이 문서에서는 Microsoft 365를 설정하는 프로세스에 대해 설명합니다. Microsoft 365 Business Premium을 사용하는 모든 사람은 이 지침을 사용하여 보안을 강화할 수 있습니다.
+이 문서에서는 설치 프로세스에 대해 Microsoft 365. 모든 사용자 Microsoft 365 Business Premium 이 지침을 사용하여 보안을 강화할 수 있습니다.
 
-## <a name="admins-set-up-microsoft-365"></a>관리자: Microsoft 365 설정
+## <a name="admins-set-up-microsoft-365"></a>관리자: 관리자 설정 Microsoft 365
 
-다음 다이어그램에서는 관리자가 Microsoft 365를 설정하는 방법을 설명하고 있습니다.
+다음 다이어그램에서는 관리자가 사용자 계정을 설정하는 Microsoft 365.
 
-![Microsoft 365 설정 단계](../media/M365-democracy-SetUpProcess.png)
+![설정 단계 Microsoft 365](../media/M365-democracy-SetUpProcess.png)
 
-특별 가격을 받을 수 있는 캠페인의 경우 [Microsoft에서](https://m365forcampaigns.microsoft.com/)초대를 요청한 다음 [캠페인용 Microsoft 365에](m365-campaigns-sign-up.md)등록하여 시작하세요. 설치를 완료하려면 [설치 마법사를 실행하여](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 핵심 설정을 구성합니다.
+특별 가격을 받을 수 있는 캠페인의 경우 [Microsoft에서](https://m365forcampaigns.microsoft.com/)초대를 요청한 다음 캠페인에 등록하여 Microsoft 365 [합니다.](m365-campaigns-sign-up.md) 설치를 완료하려면 [설치 마법사를 실행하여](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 핵심 설정을 구성합니다.
 
-다른 모든 조직의 경우 [Microsoft 365 Business Premium에](../business/sign-up.md)등록한 후 [](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 설치 마법사를 실행하여 핵심 설정을 구성하여 설치를 완료합니다.
+다른 모든 조직의 경우 Microsoft 365 Business Premium [](../business/sign-up.md)등록한 후 설치 마법사를 실행하여 핵심 설정을 구성하여 [설치를](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 완료합니다.
 
 모든 조직에서 관리자 계정 [보호,](m365-campaigns-protect-admin-accounts.md)메일 및 [](m365-campaigns-conditional-access.md)데이터에 대한 액세스 보호 및 위협 방지 증가를 통해 보안 보호를 [강화합니다.](m365-campaigns-increase-protection.md)
 
 ## <a name="everyone-set-up-your-devices"></a>모든 사용자: 장치 설정
 
-사용자는 이 환경에서 작동할 장치를 설정하는 데 몇 분 정도 걸립니다. 주요 사용자(해커에게 가장 높은 가치의 대상인 사용자)의 경우 새 장치를 설정하고 사전 구성할 수 있습니다. 이렇게 하면 Microsoft 365 자격 증명으로 로그인할 때 시작하는 데 도움이 됩니다.
+사용자는 이 환경에서 작동할 장치를 설정하는 데 몇 분 정도 걸립니다. 주요 사용자(해커에게 가장 높은 가치의 대상인 사용자)의 경우 새 장치를 설정하고 사전 구성할 수 있습니다. 이렇게 하면 사용자 자격 증명으로 로그인할 때 Microsoft 365 데 도움이 됩니다.
 
 ![사용자 장치 설정 프로세스](../media/m365-democracy-user-device-setup.png)
   
@@ -65,4 +65,4 @@ ms.locfileid: "51398268"
 
  **지원 센터에 문의해야 하는 경우:**
   
-Microsoft 365 관리자는 고객 지원 팀, 비즈니스 제품에 대한 고객 지원 문의 **[- 관리자 도움말에 액세스할 수 있습니다.](../admin/contact-support-for-business-products.md)**
+관리자 Microsoft 365 고객 지원 팀, 비즈니스 제품에 대한 고객 지원 문의 **[- 관리자 도움말에 액세스할 수 있습니다.](../business-video/get-help-support.md)**

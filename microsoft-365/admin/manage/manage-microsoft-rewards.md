@@ -1,5 +1,5 @@
 ---
-title: Microsoft 보상 관리
+title: Microsoft Rewards 관리
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -15,17 +15,18 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
+ROBOTS: NOINDEX, NOFOLLOW
 description: 개인 Microsoft 계정이 있는 사용자는 링크 AAD with Rewards 기능이 사용하도록 설정된 경우 작업 검색과 관련한 Microsoft 보상 점수를 획득할 수 있습니다.
-ms.openlocfilehash: 7ae88c9fd355251c47747ef8460bab1f0b30bbaa
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 92a319d5917c49f0457a560fe52212608bd26dc2
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929493"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297071"
 ---
-# <a name="manage-microsoft-rewards"></a>Microsoft 보상 관리
+# <a name="manage-microsoft-rewards"></a>Microsoft Rewards 관리
 
-개인 Microsoft 계정이 있는 [](https://www.microsoft.com/rewards) 사용자는 Microsoft *Azure AD(Azure Active Directory)와* 보상 링크 기능이 활성화된 경우 작업 검색과 관련한 Microsoft 보상 점수를 획득할 수 있습니다.
+개인 Microsoft 계정이 있는 사용자는 보상이 있는 *Azure AD(Link Microsoft Azure Active Directory)* 기능이 활성화된 경우 작업 검색과 관련한 [Microsoft](https://www.microsoft.com/rewards) 보상 점수를 획득할 수 있습니다.
 
 사용자가 이 기능을 옵트아웃하지 않는 한, 개인 Microsoft 계정은 회사 Azure AD 계정과 연결됩니다. Microsoft Rewards는 검색이 발생했다는 정보를 수신하고 기록하지만 검색 내용에 대한 정보는 수신하지 않습니다. 조직의 쿼리 내용은 이 기능의 일부로 Microsoft Rewards와 공유되지 않습니다.
 

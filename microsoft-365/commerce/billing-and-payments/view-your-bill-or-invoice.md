@@ -24,12 +24,12 @@ ms.custom:
 - PPM_jmueller
 description: Microsoft 365 관리 센터에서 송장 또는 청구서를 찾으십시오. 청구서 복사본을 저장하고 인쇄할 수도 있습니다.
 ms.date: 07/31/2020
-ms.openlocfilehash: f9dc6fb9be765e6e221ddf43f703d64737870f01
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: eff193689817c1c89fff7c8ffbc5335fff64ee0f
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280826"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297359"
 ---
 # <a name="view-your-bill-or-invoice"></a>청구서 또는 송장 보기
 
@@ -37,7 +37,7 @@ ms.locfileid: "52280826"
   
 청구서에 표시된 요금 내용을 해석하는 데 도움이 필요한 경우 [결제 내역 또는 청구서 이해](understand-your-invoice2.md)에서 자세한 지침을 참조하세요.
   
-**청구서에 문제가 있나요?** [비즈니스 제품에 대해서는 고객 지원 센터에 문의하세요](../../admin/contact-support-for-business-products.md).
+**청구서에 문제가 있나요?** [비즈니스 제품에 대해서는 고객 지원 센터에 문의하세요](../../business-video/get-help-support.md).
 
 ## <a name="before-you-begin"></a>시작하기 전에
 

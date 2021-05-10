@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: 비즈니스용 앱으로 이동하기 위한 요구 사항 및 고려 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: ba97253beed1544d8f993a462559037a0a1a4281
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b4d2b5d500b73b62c67d3f8126b6313484e2bc78
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244506"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297035"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 설정 계획
 
@@ -56,7 +56,7 @@ ms.locfileid: "52244506"
   
 설치 마법사를 완료하지 않은 경우 관리 센터 설치 에서 설치 작업을 원하는 [시간으로 완료할 수](https://go.microsoft.com/fwlink/p/?linkid=2024339)  >  **있습니다.** 여기에서 다른 전자 메일 서비스에서 전자 메일 및 연락처를 마이그레이션하고, 관리자 계정의 도메인을 변경하고, 청구 정보를 관리하고, 사용자를 추가 또는 제거하고, 암호를 재설정하고, 기타 비즈니스 기능을 할 수 있습니다. 설치 마법사와 설치 페이지 간의 차이점에 대한 자세한 내용은 Microsoft 365 설치 마법사와 설치 페이지 [간의 차이점을 참조하세요.](o365-setup-wizard-and-setup-page.md) 
 
-문제가 발생하면 Microsoft에 문의하세요. [Microsoft에서 도와드리겠습니다.](../contact-support-for-business-products.md)
+문제가 발생하면 Microsoft에 문의하세요. [Microsoft에서 도와드리겠습니다.](../../business-video/get-help-support.md)
   
 ## <a name="when-not-to-use-the-setup-wizard-active-directory-synchronization-and-hybrid-environments"></a>설정 마법사를 사용하면 안 되는 경우: Active Directory 동기화 및 하이브리드 환경
 
@@ -138,7 +138,7 @@ Microsoft 365, 소규모 조직 및 기업을 위한 클라우드 저장소를 �
 - **직원 수가 50명 미만인 경우:**
 
   - **도움을 요청하면 에 전화가 걸리게 될 것입니다.** After you buy Microsoft 365, you can access the admin center (you don't need to run setup to get it). At the bottom of the admin center, select **Need help?** 문제를 설명하고 문의할 것입니다. 
-  - **문의 [Microsoft 365 비즈니스 지원에](../contact-support-for-business-products.md) 문의하세요.** We're here to help! 
+  - **문의 [Microsoft 365 비즈니스 지원에](../../business-video/get-help-support.md) 문의하세요.** We're here to help! 
   - **[Microsoft 파트너](https://go.microsoft.com/fwlink/?linkid=391089)** 를 고용해 보세요. 시간이 부족하거나 고급 요구 사항이 있는 경우(예: 수천 개의 파일을 클라우드 저장소로 이동하거나 Microsoft 365 소프트웨어와 통합) 숙련된 파트너가 큰 도움이 될 수 있습니다. 
 
 - **직원 수가 50명 이상인 경우**[FastTrack 온보딩 센터](https://go.microsoft.com/fwlink/?LinkId=517115)에서 배포를 도와줄 수 있습니다.
