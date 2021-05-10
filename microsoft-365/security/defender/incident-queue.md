@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 47d066fa20abe963f7afaa3b88cecc96fa6e87fc
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: a3b6edda36d2872177d9a88f3259220dcf2e76f3
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259592"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52291318"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Defender에서 인시던트 Microsoft 365 우선 순위 지정
 
@@ -83,11 +83,14 @@ Microsoft 365 Defender는 상관 관계 분석을 적용하고 다양한 제품�
 | 상태 | 상태에 따라 표시 되는 사고의 목록을 제한하여 활성 또는 해결 완료 된 사고를 확인할 수 있습니다. |
 |||
 
-## <a name="next-step"></a>다음 단계
+## <a name="next-steps"></a>다음 단계
 
-우선 순위가 가장 높은 인시던트가 필요한 사고를 확인한 후 해당 인시던트 를 선택하고 분석을 [시작합니다.](investigate-incidents.md)
+우선 순위가 가장 높은 인시던트가 필요한 인시던트가 결정되면 선택하고 다음을 선택합니다.
+
+- [태그,](manage-incidents.md) 보안 분석가에게 할당 및 설명에 대한 인시던트 속성을 관리합니다.
+- 조사를 [시작 합니다.](investigate-incidents.md)
 
 ## <a name="see-also"></a>참고 항목
-- [인시던트 개요](incidents-overview.md)
-- [인시던트 분석](investigate-incidents.md)
+- [사고 개요](incidents-overview.md)
+- [사고 조사](investigate-incidents.md)
 - [인시던트 관리](manage-incidents.md)

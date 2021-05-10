@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 00e57d03ae636837120b53c0de16861ad142ef76
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: e3df1286c69132c960c412f6f74512bb49c32b28
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280936"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52291046"
 ---
 # <a name="prepare-microsoft-defender-for-endpoint-deployment"></a>끝점 배포를 위한 Microsoft Defender 준비
 
@@ -134,7 +134,6 @@ Endpoint용 Defender는 사용 권한을 관리하는 두 가지 방법을 지�
 | Microsoft 위협 전문가(MTE)          | Microsoft 위협 전문가 센터는 SOC(보안 운영 센터)에 전문가 수준의 모니터링 및 분석을 제공하는 관리되는 헌팅 서비스로, 고유한 환경에서 중요한 위협이 누락되지 않도록 합니다. <br>[더 알아보세요.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/microsoft-threat-experts)                                                                                                                                                                                                                                                                                                                     | 해당 사항 없음      |
 
 ## <a name="next-step"></a>다음 단계
-|||
-|:-------|:-----|
-|![2 단계: 설정](images/setup.png) <br>[2 단계: 설정](production-deployment.md) | 끝점 배포를 위한 Microsoft Defender 설정
+
+![2 단계: 설정](images/setup.png) <br>[2단계: 설치](production-deployment.md) | 끝점 배포를 위한 Microsoft Defender 설정
 

@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: da2150d14328de83648f84913cf5edbb89a57ccc
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: d4dddb33d9425bebaebc6a5e8dbb0b17e039eff1
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50543595"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295010"
 ---
 # <a name="contact-support-for-uae-united-arab-emirates"></a>아랍에미리트(아랍에미리트) 지원에 문의
 
-[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)
+[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>전화 번호
 8000 444 1578

@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 비즈니스용 구독의 사용자 암호를 다시 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: fa368c7f44d4df847cf007568853c11970e7adc1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 8720942d60b5ce4efaca8885bd5209cb3e7e7ef8
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241703"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52290998"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
@@ -50,7 +50,7 @@ ms.locfileid: "52241703"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FVVP]
 
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 완전한 교육 시리즈](../../business-video/index.yml)를 참조하세요.
   
 ## <a name="steps-reset-a-business-password-for-a-user"></a>단계: 사용자의 비즈니스 암호 다시 설정
 
@@ -86,7 +86,7 @@ ms.locfileid: "52241703"
 
 - 휴대폰 번호를 비롯한 대체 연락처 정보를 제공해야 합니다.
 
-- 또는 [Microsoft 지원에 문의합니다.](../contact-support-for-business-products.md)
+- 또는 [Microsoft 지원에 문의합니다.](../../business-video/get-help-support.md)
 
 ## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>조직의 모든 사용자에 대한 모든 비즈니스 암호를 동시에 다시 설정
 <a name="bkmk_forgot"> </a>

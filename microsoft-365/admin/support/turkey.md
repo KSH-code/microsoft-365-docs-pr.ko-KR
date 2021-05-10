@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3d3890706e0519072d363f571f9e7b9279765043
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: e80a0d5370a58ee8988ceab0b52d401afc04a7aa
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50543775"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295058"
 ---
 # <a name="contact-support-for-turkey"></a>터키 지원에 문의
 
-[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)
+[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>전화 번호
 0 850 3902777

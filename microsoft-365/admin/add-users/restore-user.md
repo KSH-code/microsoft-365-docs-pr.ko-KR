@@ -23,16 +23,16 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: 삭제된 사용자 계정 및 모든 관련 데이터를 복원하는 방법을 학습합니다.
-ms.openlocfilehash: 9cdc4100f963ed450b50caa0f07a3863bc87992d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b7d98c1f49f8252ea9fdda2d863b5b77ac5bea9d
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244035"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52291070"
 ---
 # <a name="restore-a-user"></a>사용자 복원
    
-사용자 계정을 삭제한 후 30일 이내에 복원할 경우 계정 및 모든 관련 데이터가 복원됩니다. 사용자는 같은 회사 또는 학교 계정으로 로그인할 수 있습니다. 해당 사서함이 완전히 복원됩니다. 특정 사용자 계정을 복원할 수 있는 기간이 얼마나 남았는지 확인해야 하는 경우 [Microsoft에 문의](../contact-support-for-business-products.md)하세요.
+사용자 계정을 삭제한 후 30일 이내에 복원할 경우 계정 및 모든 관련 데이터가 복원됩니다. 사용자는 같은 회사 또는 학교 계정으로 로그인할 수 있습니다. 해당 사서함이 완전히 복원됩니다. 특정 사용자 계정을 복원할 수 있는 기간이 얼마나 남았는지 확인해야 하는 경우 [Microsoft에 문의](../../business-video/get-help-support.md)하세요.
   
 다음은 몇 가지 팁입니다.
   

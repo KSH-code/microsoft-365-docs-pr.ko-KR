@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: 관리 센터를 사용하여 클라우드에서의 조직 설정, 사용자 관리, 구독 관리를 수행합니다. 관리자 권한으로 계정에 로그인하여 시작하세요.
-ms.openlocfilehash: f2b8a22019e3292c93d07161f3825dfe90629ccc
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: db88904e16cf9410d3eb4e4aac161f714993150b
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241751"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52290986"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 정보
 
@@ -64,7 +64,7 @@ ms.locfileid: "52241751"
 |**그룹** <br/> |조직에서 Microsoft 365, 메일 그룹, 보안 그룹 또는 공유 사서함과 같은 그룹을 만들고 관리합니다. 그룹 [만들기](../create-groups/create-groups.md) 및 [관리](../create-groups/manage-groups.md) 방법을 알아봅시다.   <br/> |
 |**리소스** <br/> |SharePoint 사이트 모음과 같은 리소스를 만들고 관리합니다. [사이트 모음을 만드는](/sharepoint/create-site-collection) 방법을 알아봅니다.  <br/> |
 |**청구** <br/> |조직에 대한 구독을 보거나 구입하거나 취소합니다. 과거 청구 내역을 보거나 개별 사용자에게 할당된 라이선스 수를 봅니다. [청구를 관리하는 방법](../../commerce/index.yml)에 대해 알아봅니다.  <br/> |
-|**지원** <br/> | 기존 서비스 요청을 보거나 새 서비스 요청을 만듭니다. [비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말](../contact-support-for-business-products.md)에서 자세히 알아봅니다. |
+|**지원** <br/> | 기존 서비스 요청을 보거나 새 서비스 요청을 만듭니다. [비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말](../../business-video/get-help-support.md)에서 자세히 알아봅니다. |
 |**설정** <br/> |전자 메일, 사이트 및 Office 제품군 등 앱에 대한 전역 설정을 관리합니다. 사용자 암호 정책 및 만료 날짜를 변경합니다. contoso.com과 같은 도메인 이름을 추가 및 업데이트합니다. 조직 프로필 및 릴리스 환경 설정을 변경합니다. 파트너가 관리 센터에 액세스할 수 있는지 여부를 선택합니다.  <br/> |
 |**설정** <br/> |기존 도메인을 관리하고, 다단계 인증을 설정 및 관리하고, 관리자 액세스를 관리하고, 사용자 사서함을 Office 365로 마이그레이션하고, 기능 업데이트를 관리하고, 사용자가 Office 앱을 설치하는 것을 돕습니다. |
 |**보고서** <br/> |조직에서 전자 메일 사용, Microsoft 365 및 정품 인증에 대한 자세한 보고서와 함께 Office 방법을 한눈에 확인합니다. 새로운 [활동 보고서](../activity-reports/activity-reports.md) 사용 방법을 알아봅니다.  <br/> |
