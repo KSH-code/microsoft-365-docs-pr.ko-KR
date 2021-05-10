@@ -12,25 +12,25 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b275665c62368e87832bc0e863d03875039ba427
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 2e4ee234b18a42103d4e1a7014af54090cffb015
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50548071"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296783"
 ---
-# <a name="contact-support-for-colombia"></a><span data-ttu-id="b408e-103">콜롬비아 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="b408e-103">Contact support for Colombia</span></span>
+# <a name="contact-support-for-colombia"></a><span data-ttu-id="51b51-103">콜롬비아 지원에 문의</span><span class="sxs-lookup"><span data-stu-id="51b51-103">Contact support for Colombia</span></span>
 
-<span data-ttu-id="b408e-104">[다른 국가 또는 지역 을 검색합니다.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="b408e-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="51b51-104">[다른 국가 또는 지역 을 검색합니다.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="51b51-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="b408e-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="b408e-105">Phone number</span></span>
-<span data-ttu-id="b408e-106">01 800 518 1781</span><span class="sxs-lookup"><span data-stu-id="b408e-106">01 800 518 1781</span></span>
+## <a name="phone-number"></a><span data-ttu-id="51b51-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="51b51-105">Phone number</span></span>
+<span data-ttu-id="51b51-106">01 800 518 1781</span><span class="sxs-lookup"><span data-stu-id="51b51-106">01 800 518 1781</span></span>
 
-## <a name="hours"></a><span data-ttu-id="b408e-107">시간</span><span class="sxs-lookup"><span data-stu-id="b408e-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="b408e-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="b408e-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="51b51-107">시간</span><span class="sxs-lookup"><span data-stu-id="51b51-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="51b51-108">청구 지원:</span><span class="sxs-lookup"><span data-stu-id="51b51-108">Billing Support:</span></span>
 
-<span data-ttu-id="b408e-109">스페인어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="b408e-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="51b51-109">스페인어: Mon-Fri 오전 9시-오후 5시</span><span class="sxs-lookup"><span data-stu-id="51b51-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="b408e-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="b408e-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="51b51-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="51b51-110">Technical Support:</span></span>
 
-<span data-ttu-id="b408e-111">스페인어: 연 24시간, 주 7일</span><span class="sxs-lookup"><span data-stu-id="b408e-111">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="51b51-111">스페인어: 연 24시간, 주 7일</span><span class="sxs-lookup"><span data-stu-id="51b51-111">Spanish: 24 hours a day, 7 days a week</span></span>
