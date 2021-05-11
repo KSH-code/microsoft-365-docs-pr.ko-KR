@@ -18,12 +18,12 @@ ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
 description: 조직 내에서 인덱싱된 항목(인덱싱되지 않은 항목이라고도 Exchange, SharePoint 및 비즈니스용 OneDrive 관리하는 방법을 학습합니다.
-ms.openlocfilehash: c24fb2d9b633181538d76cf35e27dae1824b311d
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 539fd2687735a5ee14be543750becca8c6c3154c
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51994807"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311457"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>eDiscovery에서 부분적으로 인덱싱된 항목 조사
 
@@ -49,9 +49,9 @@ eDiscovery 검색을 실행한 후 검색된 위치에서 부분적으로 인덱
   
 ## <a name="calculating-the-ratio-of-partially-indexed-items-in-your-organization"></a>조직에서 부분적으로 인덱싱된 항목의 비율 계산
 
-부분적으로 인덱싱된 항목에 대한 조직의 노출을 이해하기 위해 빈 키워드 쿼리를 사용하여 모든 사서함의 모든 콘텐츠에 대한 검색을 실행할 수 있습니다. 다음 예제에서는 56,208(4,830MB) 완전히 인덱싱된 항목과 부분적으로 인덱싱된 항목 470개(316MB)가 있습니다.
+부분적으로 인덱싱된 항목에 대한 조직의 노출을 이해하기 위해 빈 키워드 쿼리를 사용하여 모든 사서함의 모든 콘텐츠에 대한 검색을 실행할 수 있습니다. 다음 예제에서는 1,629,904(146.46GB) 완전히 인덱싱된 항목과 부분적으로 인덱싱된 항목 10,025개(10.27GB)가 있습니다.
   
-![부분적으로 인덱싱된 항목을 표시하는 검색 통계의 예](../media/0f6a5cf7-4c98-44a0-a0dd-5aed67124641.png)
+![부분적으로 인덱싱된 항목을 표시하는 검색 통계의 예](../media/PartiallyIndexedItemsTest.png)
   
 다음 계산을 사용하여 부분적으로 인덱싱된 항목의 백분율을 확인할 수 있습니다.
   
@@ -59,23 +59,23 @@ eDiscovery 검색을 실행한 후 검색된 위치에서 부분적으로 인덱
 
 `(Total number of partially indexed items/Total number of items) x 100`
 
-`(470/56,208) x 100 = 0.84%`
+`(10025/1629904) x 100 = 0.62%`
 
-이전 예의 검색 결과를 사용하여 모든 사서함 항목의 .84%가 부분적으로 인덱싱됩니다.
+이전 예의 검색 결과를 사용하여 모든 사서함 항목의 0.62%가 부분적으로 인덱싱됩니다.
   
  **조직에서 부분적으로 인덱싱된 항목의 크기 백분율을 계산합니다.**
 
 `(Size of all partially indexed items/Size of all items) x 100`
 
-`(316 MB/4830 MB) x 100 = 6.54%`
+`(10.27 GB/146.46 MB) x 100 = 7.0%`
 
-따라서 이전 예에서 사서함 항목의 전체 크기 중 6.54%는 부분적으로 인덱싱된 항목에서 비례합니다. 앞서 설명한 것 처럼 대부분의 조직 고객은 볼륨당 콘텐츠의 1% 미만을 차지하고 부분적으로 인덱싱된 크기에 따라 콘텐츠의 12% 미만을 차지합니다.
+따라서 이전 예에서는 사서함 항목의 전체 크기의 7%가 부분적으로 인덱싱된 항목에서 나타났습니다. 앞서 설명한 것 처럼 대부분의 조직 고객은 볼륨당 콘텐츠의 1% 미만을 차지하고 부분적으로 인덱싱된 크기에 따라 콘텐츠의 12% 미만을 차지합니다.
 
 ## <a name="working-with-partially-indexed-items"></a>부분적으로 인덱싱된 항목 작업
 
 부분적으로 항목을 검사하여 관련 정보가 없는지 검사해야 하는 경우 부분적으로 인덱싱된 항목에 대한 정보가 포함된 콘텐츠 검색 보고서를 내보낼 수 있습니다. [](export-a-content-search-report.md) 콘텐츠 검색 보고서를 내보낼 때 부분적으로 인덱싱된 항목을 포함하는 내보내기 옵션 중 하나를 선택해야 합니다.
   
-![부분적으로 인덱싱된 항목을 내보내는 두 번째 또는 세 번째 옵션 선택](../media/624a62b4-78f7-4329-ab5d-e62e3b369885.png)
+![부분적으로 인덱싱된 항목을 내보내는 두 번째 또는 세 번째 옵션 선택](../media/PartiallyIndexedItemsExportOptions.png)
   
 이러한 옵션 중 하나를 사용하여 eDiscovery 검색 결과 또는 검색 보고서를 내보낼 때 내보내기에는 Unindexed라는 보고서가 Items.csv. 이 보고서에는 파일과 대부분의 동일한 정보가 ResultsLog.csv 포함됩니다. 그러나 인덱싱되지 않은 Items.csv 파일에는 부분적으로 인덱싱된 항목과 관련된 두 개의 필드인 **오류 태그** 및 오류 **속성도 포함됩니다.** 이러한 필드에는 부분적으로 인덱싱된 각 항목에 대한 인덱싱 오류에 대한 정보가 들어 있습니다. 이러한 두 필드의 정보를 사용하면 특정 인덱싱 오류가 조사에 영향을 미치는지 여부를 결정하는 데 도움이 될 수 있습니다. 이 경우 대상 검색을 수행하고 특정 전자 메일 메시지와 SharePoint 또는 OneDrive 문서를 검색하여 내보낼 수 있으므로 조사와 관련이 있는지 확인할 수 있습니다. 단계별 지침은 에서 대상 검색을 위한 [CSV 파일 준비를 Office 365.](csv-file-for-an-id-list-content-search.md)
 
@@ -183,6 +183,6 @@ eDiscovery 검색을 실행한 후 검색된 위치에서 부분적으로 인덱
 > 
 > - 목록 오류 태그 및 오류가 발생한 해당 파일 형식
   
-## <a name="see-also"></a>기타 참고 항목
+## <a name="see-also"></a>참고 항목
 
 [eDiscovery에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)

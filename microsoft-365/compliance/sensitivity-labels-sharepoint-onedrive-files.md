@@ -17,16 +17,28 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용하도록 SharePoint OneDrive.
-ms.openlocfilehash: c3d4320937b441510424454197c4eb4ffa46d9fe
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: f610e04a9115b7654332bcc1f479144b4d100618
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245639"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311931"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
+
+> [!NOTE]
+> 레이블이 지정되고 암호화된 파일이 파일에서 열리지 못하는 현재 문제가 웹용 Office.
+>
+> 특정 문서 속성과 관련된 문제를 조사하는 동안에는 특정 문서 속성에서 많은 파일을 열 수 웹용 Office. 이러한 파일의 경우 데스크톱 및 모바일 앱에서 계속 열고 편집할 Office 있습니다. 또는 다음을 합니다.
+>
+> 1. 데스크톱 앱에서 파일을 Office 를 니다.
+> 2. 암호화를 적용하는 레이블을 제거합니다.
+> 3. 파일을 원래 위치(SharePoint 또는 OneDrive)에 저장하고 데스크톱 앱을 닫습니다.
+> 4. 파일에서 파일을 웹용 Office 암호화를 적용하는 원래 레이블을 다시 적용합니다.
+> 
+> 파일에서만 만들어 편집되는 웹용 Office 영향을 받지 않습니다.
 
 사용자가 Office 레이블을 적용할 수 있도록 SharePoint 및 OneDrive 파일에 대해 민감도 [](sensitivity-labels.md) 레이블을 웹용 Office. 이 기능을 사용하도록 설정하면 레이블을 적용할 수 있도록 리본 메뉴에 민감도 단추가 표시되고 상태 표시줄에 적용된 레이블 이름이 표시됩니다. 
 
@@ -71,14 +83,6 @@ IRM(SharePoint Information Rights Management)을 사용하여 SharePoint 문서�
 Mac에서 OneDrive 버전 19.002.0121.0008 이상 및 Windows 버전 19.002.0107.0008 이상을 사용하세요. 이 두 버전은 2019년 1월 28일 릴리스된 후 현재 모든 링에 릴리스됩니다. 자세한 내용은 릴리스 OneDrive [참조하세요.](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) Office 및 SharePoint OneDrive 파일에 대해 민감도 레이블을 사용하도록 설정하면 이전 버전의 동기화 앱을 실행한 사용자에게 업데이트하라는 메시지가 표시됩니다.
 
 ## <a name="limitations"></a>제한 사항
-
-- power Query 및 사용자 지정 추가 기능 웹용 Excel: 이러한 파일이 민감도 레이블로 암호화된 경우 SharePoint OneDrive 및 OneDrive 파일을 처리하지 못하여 사용자가 해당 파일에서 열 수 웹용 Office. 이러한 파일의 경우 암호화 없이 레이블을 적용하여 사용자가 웹용 Office 열거나 사용자에게 데스크톱 앱에서 파일을 열 수 있도록 지시합니다.
-
-- 레이블이 지정되고 암호화된 파일을 열 때 문제가 웹용 Office 다음을 시도합니다.
-    1. 데스크톱 앱에서 파일을 Office 를 니다.
-    2. 암호화를 적용하는 레이블을 제거합니다.
-    3. 파일을 원래 위치(SharePoint 또는 OneDrive)에 저장하고 데스크톱 앱을 닫습니다.
-    4. 파일에서 파일을 웹용 Office 암호화를 적용하는 원래 레이블을 다시 적용합니다.
 
 - SharePoint 및 OneDrive Azure Information Protection 레이블을 사용하여 이미 암호화한 기존 파일에 민감도 레이블을 자동으로 적용하지 않습니다. 대신, Office 파일에 대해 민감도 레이블을 사용하도록 설정한 후 기능이 SharePoint OneDrive 작업을 완료합니다.
     
@@ -173,7 +177,8 @@ PowerShell 명령을 실행하여 SharePoint 및 OneDrive 파일에서 Office �
 
 1. 전역 관리자 또는 SharePoint 관리자 권한이 있는 직장 또는 학교 계정을 Microsoft 365 계정으로 SharePoint. 자세한 방법은 [SharePoint Online 관리 셸 시작](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)을 참조하세요.
     
-    참고: Multi-Microsoft 365 있는 경우 [커넥트-SPOService와](/powershell/module/sharepoint-online/connect-sposervice)함께 -Url 매개 변수를 사용하여 지리적 위치 중 하나에 SharePoint Online Administration Center 사이트 URL을 지정합니다.
+   > [!NOTE]
+   > Multi-Microsoft 365 있는 경우 [커넥트-SPOService와](/powershell/module/sharepoint-online/connect-sposervice)함께 -Url 매개 변수를 사용하여 지리적 위치 중 하나에 SharePoint 온라인 관리 센터 사이트 URL을 지정합니다.
 
 2. 다음 명령을 실행하고 **Y를 눌러** 확인합니다.
 
@@ -243,7 +248,7 @@ PowerShell 명령을 실행하여 SharePoint 및 OneDrive 파일에서 Office �
 
 대신 전역 관리자 또는 [](/sharepoint/sharepoint-admin-role) SharePoint 관리자가 민감도 레이블과 암호화를 모두 제거하는 [Unlock-SPOSensitivityLabelEncryptedFile](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) cmdlet을 실행할 수 있습니다. 이 cmdlet은 관리자가 사이트 또는 파일에 대한 액세스 권한이 없거나 Azure 권한 관리 서비스를 사용할 수 없는 경우에도 실행됩니다. 
 
-예를 들어,
+예를 들면 다음과 같습니다.
 
 ```powershell
 Unlock-SPOSensitivityLabelEncryptedFile -FileUrl "https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx" -JustificationText "Need to decrypt this file"

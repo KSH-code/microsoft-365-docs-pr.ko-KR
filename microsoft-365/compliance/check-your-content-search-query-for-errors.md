@@ -1,5 +1,5 @@
 ---
-title: 오류에 대한 콘텐츠 검색 쿼리 확인
+title: 검색 쿼리에서 오류 확인
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,17 +15,17 @@ search.appverid:
 - MET150
 ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
 ms.custom: seo-marvel-apr2020
-description: 검색을 실행하기 전에 콘텐츠 검색에 대한 키워드 쿼리에서 오류 및 오타를 검색하는 방법을 알아보겠습니다.
-ms.openlocfilehash: 939ac3d227f176a0b74138107ced5dd5b7142bcd
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+description: 검색을 실행하기 전에 eDiscovery 검색에 대한 키워드 쿼리에서 오류 및 오타를 검색하는 방법을 학습합니다.
+ms.openlocfilehash: 9c041ca690df3306347cbca77df3ba9639801245
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488215"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311691"
 ---
-# <a name="check-your-content-search-query-for-errors"></a>오류에 대한 콘텐츠 검색 쿼리 확인
+# <a name="check-your-search-query-for-errors"></a>검색 쿼리에서 오류 확인
   
-다음은 확인한 미지원 문자의 목록입니다. 일반적으로 검색 오류를 발생하거나 의도하지 않은 결과를 반환하는 데 사용할 수 없는 문자가 숨겨집니다.
+다음은 콘텐츠 검색 및 Core eDiscovery에 대한 검색 쿼리에서 확인한 지원되지 않는 문자 목록입니다. 일반적으로 검색 오류를 발생하거나 의도하지 않은 결과를 반환하는 데 사용할 수 없는 문자가 숨겨집니다.
   
 - **똑똑한 따옴표** - 똑똑한 단일 및 이중 따옴표(희미한 따옴표라고도 부호)는 지원되지 않습니다. 검색 쿼리에는 곧은 인용 부호만 사용할 수 있습니다. 
 
@@ -45,4 +45,4 @@ ms.locfileid: "51488215"
   
 ## <a name="how-to-prevent-unsupported-characters-in-your-search-queries"></a>검색 쿼리에서 지원되지 않는 문자를 방지하는 방법
 
-지원되지 않는 문자는 일반적으로 Microsoft Word 또는 Microsoft Excel과 같은 다른 응용 프로그램에서 쿼리나 쿼리의 일부를 복사하여 콘텐츠 검색의 쿼리 페이지의 키워드 상자에 붙여 넣는 경우 쿼리에 추가됩니다. 검색되지 않는 문자를 방지하는 가장 좋은 방법은 키워드 상자에 쿼리를 입력하는 것입니다. 또는 Word 또는 Excel에서 쿼리를 복사한 다음 Microsoft 메모장과 같은 일반 텍스트 편집기에서 붙여넣을 수 있습니다. 텍스트 파일을 저장하고 인코딩  드롭다운 목록에서 **ANSI를** 선택합니다. 그러면 서식과 지원되지 않는 문자가 제거됩니다. 그런 다음 텍스트 파일에서 키워드 쿼리 상자에 쿼리를 복사하여 붙여넣을 수 있습니다. 
+지원되지 않는 문자는 일반적으로 다른 응용 프로그램(예: Microsoft Word 또는 Microsoft Excel)에서 쿼리나 쿼리 부분을 복사하여 콘텐츠 검색의 쿼리 페이지의 키워드 상자에 붙여 넣는 경우 쿼리에 추가됩니다. 검색되지 않는 문자를 방지하는 가장 좋은 방법은 키워드 상자에 쿼리를 입력하는 것입니다. 또는 Word에서 쿼리를 복사하거나 Excel Microsoft 2013과 같은 일반 텍스트 편집기에서 붙여넣을 메모장. 텍스트 파일을 저장하고 인코딩  드롭다운 목록에서 **ANSI를** 선택합니다. 그러면 서식과 지원되지 않는 문자가 제거됩니다. 그런 다음 텍스트 파일에서 키워드 쿼리 상자에 쿼리를 복사하여 붙여넣을 수 있습니다.

@@ -1,5 +1,5 @@
 ---
-title: 레거시 eDiscovery 검색 및 보류를 Microsoft 365 규정 준수 센터로 마이그레이션
+title: 레거시 eDiscovery 검색 및 보류를 Microsoft 365 센터로 마이그레이션
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,31 +14,31 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: ef5562aa6f5c7519d19452100b55dd4bc30d4126
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: aaae5e6bddc48f29cc0766fe26a1976672c7dd49
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926326"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52310813"
 ---
-# <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>레거시 eDiscovery 검색 및 보류를 Microsoft 365 규정 준수 센터로 마이그레이션
+# <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>레거시 eDiscovery 검색 및 보류를 Microsoft 365 센터로 마이그레이션
 
-Microsoft 365 규정 준수 센터는 더 높은 안정성, 더 나은 성능 및 eDiscovery 워크플로에 맞게 조정된 많은 기능(중요성별로 콘텐츠를 구성하는 경우, 검토 집합을 검토하여 중복에 가까운 그룹화, 전자 메일 스레딩, 테마 분석, 예측 코딩 등)을 검토할 수 있도록 콘텐츠 및 분석을 검토하는 데 도움이 되는 다양한 기능을 포함하여 eDiscovery 사용에 대한 향상된 환경을 제공합니다.
+Microsoft 365 규정 준수 센터는 eDiscovery 사용에 대한 향상된 환경을 제공합니다. 높은 안정성, 더 나은 성능 및 eDiscovery 워크플로에 맞게 조정된 많은 기능(문제별로 콘텐츠를 구성하는 사례, 검토용 콘텐츠 및 분석을 검토하는 집합을 검토하여 중복에 가까운 그룹화, 전자 메일 스레딩, 테마 분석 및 예측 코딩)과 같은 검토를 위해 데이터를 선회하는 데 도움이 됩니다.
 
-고객이 새 기능과 향상된 기능을 활용할 수 있도록 이 문서에서는 Exchange 관리 센터에서 Microsoft 365 준수 센터로 In-Place eDiscovery 검색 및 보류를 마이그레이션하는 방법에 대한 기본 지침을 제공합니다.
+고객이 새 기능과 향상된 기능을 활용할 수 있도록 이 문서에서는 In-Place eDiscovery 검색 및 보류를 Exchange 관리 센터에서 Microsoft 365 준수 센터로 마이그레이션하는 방법에 대한 기본 지침을 제공합니다.
 
 > [!NOTE]
-> 다양한 시나리오가 있기 때문에 이 문서에서는 Microsoft 365 규정 준수 센터에서 검색 및 보유를 핵심 eDiscovery 사례로 전환하기 위한 일반적인 지침을 제공합니다. eDiscovery 사례를 항상 사용할 필요는 없지만 조직의 eDiscovery 사례에 액세스할 수 있는 권한을 할당할 수 있도록 하여 보안 계층을 추가합니다.
+> 다양한 시나리오가 있기 때문에 이 문서에서는 검색 및 보류를 보안 및 준수 센터의 핵심 eDiscovery 사례로 전환하기 위한 일반적인 Microsoft 365 제공합니다. eDiscovery 사례를 항상 사용할 필요는 없지만 조직의 eDiscovery 사례에 액세스할 수 있는 권한을 할당할 수 있도록 하여 보안 계층을 추가합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 이 문서에 설명된 PowerShell 명령을 실행하기 위해 Security & Compliance Center에서 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다. 또한 Exchange 관리 센터에서 검색 관리 역할 그룹의 구성원이 해야 합니다.
+- 이 문서에 설명된 PowerShell 명령을 실행하기 위해 Security & Compliance Center에서 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다. 또한 Exchange 관리 센터에서 검색 관리 역할 그룹의 구성원이 되어야 합니다.
 
 - 이 문서에서는 eDiscovery 보류를 만드는 방법에 대한 지침을 제공합니다. 보류 정책은 비동기 프로세스를 통해 사서함에 적용됩니다. eDiscovery 보류를 만들 때 CaseHoldPolicy 및 CaseHoldRule을 모두 만들어야 합니다. 그렇지 않으면 보류가 만들어지지 않고 콘텐츠 위치가 보류되지 않습니다.
 
-## <a name="step-1-connect-to-exchange-online-powershell-and-security--compliance-center-powershell"></a>1단계: Exchange Online PowerShell 및 보안 및 준수 & PowerShell에 연결
+## <a name="step-1-connect-to-exchange-online-powershell-and-security--compliance-center-powershell"></a>1단계: 커넥트 PowerShell Exchange Online 보안 센터 PowerShell을 & 수 있습니다.
 
-첫 번째 단계는 Exchange Online PowerShell 및 보안 및 준수 & PowerShell에 연결하는 것입니다. 다음 스크립트를 복사하여 PowerShell 창에 붙여 넣은 다음 실행할 수 있습니다. 연결할 조직의 자격 증명을 입력하라는 메시지가 표시될 것입니다. 
+첫 번째 단계는 PowerShell 및 보안 및 Exchange Online PowerShell에 & 것입니다. 다음 스크립트를 복사하여 PowerShell 창에 붙여 넣은 다음 실행할 수 있습니다. 연결할 조직의 자격 증명을 입력하라는 메시지가 표시될 것입니다. 
 
 ```powershell
 $UserCredential = Get-Credential
@@ -81,7 +81,7 @@ $search | FL
 > [!NOTE]
 > 이 예제에서 보류 In-Place 기간은 *무기한(ItemHoldPeriod: Unlimited)입니다.* 이는 eDiscovery 및 법적 조사 시나리오에서 일반적입니다. 보존 기간의 값이 무기한과 다른 경우 보존이 보존 시나리오에서 콘텐츠를 보존하는 데 사용되고 있기 때문에 그 이유가 될 수 있습니다. 보존 시나리오를 위해 Security & Compliance Center PowerShell에서 eDiscovery cmdlet을 사용하는 대신 [New-RetentionCompliancePolicy](/powershell/module/exchange/new-retentioncompliancepolicy) 및 [New-RetentionComplianceRule을](/powershell/module/exchange/new-retentioncompliancerule) 사용하여 콘텐츠를 보존하는 것이 좋습니다. 이러한 cmdlet을 사용하는 결과는 **New-CaseHoldPolicy** 및 **New-CaseHoldRule** 사용과 비슷하지만 보존 기간 및 보존 기간이 만료된 후 콘텐츠를 삭제하는 등의 보존 작업을 지정할 수 있습니다. 또한 보존 cmdlet을 사용하면 보존 보류를 eDiscovery 사례와 연결하지 필요가 없습니다.
 
-## <a name="step-4-create-a-case-in-the-microsoft-365-compliance-center"></a>4단계: Microsoft 365 규정 준수 센터에서 사례 만들기
+## <a name="step-4-create-a-case-in-the-microsoft-365-compliance-center"></a>4단계: Microsoft 365 센터에서 사례 만들기
 
 eDiscovery 보류를 만들 경우 보류를 연결하기 위한 eDiscovery 사례를 만들어야 합니다. 다음 예제에서는 선택한 이름을 사용하여 eDiscovery 사례를 만듭니다. 나중에 사용할 변수에 새 사례의 속성을 저장합니다. 사례를 만든 후 명령을 실행하여 `$case | FL` 이러한 속성을 볼 수 있습니다.
 
@@ -130,25 +130,25 @@ New-ComplianceSearch -Name $search.Name -ExchangeLocation $search.SourceMailboxe
 
 ![PowerShell New-ComplianceSearch 예제](../media/MigrateLegacyeDiscovery6.png)
 
-## <a name="step-8-verify-the-case-hold-and-search-in-the-microsoft-365-compliance-center"></a>8단계: Microsoft 365 규정 준수 센터에서 사례 확인, 보류 및 검색
+## <a name="step-8-verify-the-case-hold-and-search-in-the-microsoft-365-compliance-center"></a>8단계: 규정 준수 센터에서 사례 확인, Microsoft 365 검색
 
-모든 것이 올바르게 설정되어 있는지 확인하려면 의 Microsoft 365 규정 준수 센터로 이동하여 [https://compliance.microsoft.com](https://compliance.microsoft.com) **eDiscovery**> 클릭합니다.
+모든 것이 올바르게 설정되어 있는지 확인하려면 의 Microsoft 365 준수 센터로 이동하여 [https://compliance.microsoft.com](https://compliance.microsoft.com) **eDiscovery**> 클릭합니다.
 
-![Microsoft 365 규정 준수 센터 eDiscovery](../media/MigrateLegacyeDiscovery7.png)
+![Microsoft 365 준수 센터 eDiscovery](../media/MigrateLegacyeDiscovery7.png)
 
-3단계에서 만든 사례는 **Core eDiscovery 페이지에 나열됩니다.** 사례를 열고 보류 탭에 나열된 4단계에서 만든 **보류를** 알 수 있습니다. 보류를 클릭하여 보류가 적용되는 사서함 수 및 배포 상태를 비롯한 세부 정보를 확인할 수 있습니다.
+3단계에서 만든 사례는 **Core eDiscovery 페이지에 나열됩니다.** 사례를 열고 4단계에서 만든 보류가 보류 탭에 **나열되어** 있습니다. 보류를 선택하여 보류가 적용되는 사서함 수 및 배포 상태를 포함하여 플라이아웃 페이지에서 세부 정보를 볼 수 있습니다.
 
-![Microsoft 365 규정 준수 센터의 eDiscovery 보류](../media/MigrateLegacyeDiscovery8.png)
+![Microsoft 365 준수 센터의 eDiscovery 보류](../media/MigrateLegacyeDiscovery8.png)
 
-7단계에서 만든 검색은 eDiscovery  사례의 검색 탭에 나열됩니다.
+7단계에서 만든 검색은 사례의 **검색** 탭에 나열됩니다.
 
-![Microsoft 365 규정 준수 센터의 eDiscovery 사례 검색](../media/MigrateLegacyeDiscovery9.png)
+![Microsoft 365 준수 센터에서 eDiscovery 사례 검색](../media/MigrateLegacyeDiscovery9.png)
 
-eDiscovery In-Place 마이그레이션하지만 eDiscovery 사례와 연결하지 않는 경우 Microsoft 365 규정 준수 센터의 콘텐츠 검색 페이지에 나열됩니다.
+In-Place eDiscovery 검색을 마이그레이션하지만 eDiscovery 사례와 연결하지 않는 경우 이 검색은 Microsoft 365 준수 센터의 콘텐츠 검색 페이지에 나열됩니다.
 
 ## <a name="more-information"></a>추가 정보
 
-- Exchange 관리 In-Place eDiscovery & 보류에 대한 자세한 내용은 다음을 참조하세요.
+- In-Place 관리 In-Place eDiscovery & 보류에 대한 자세한 내용은 Exchange 참조하세요.
   
   - [원본 위치 eDiscovery](/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
@@ -170,4 +170,4 @@ eDiscovery In-Place 마이그레이션하지만 eDiscovery 사례와 연결하�
 
   - [Start-ComplianceSearch](/powershell/module/exchange/start-compliancesearch)
 
-- Microsoft 365 규정 준수 센터에 대한 자세한 내용은 Microsoft 365 규정 준수 센터 [개요를 참조하세요.](microsoft-365-compliance-center.md)
+- 규정 준수 센터에 Microsoft 365 자세한 내용은 Microsoft 365 준수 센터 [개요를 참조하세요.](microsoft-365-compliance-center.md)

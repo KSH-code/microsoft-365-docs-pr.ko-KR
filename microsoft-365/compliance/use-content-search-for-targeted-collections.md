@@ -1,5 +1,5 @@
 ---
-title: 대상 지정 컬렉션을 위해 콘텐츠 검색 사용
+title: 대상 컬렉션에 콘텐츠 검색 사용
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 ms.custom: seo-marvel-apr2020
-description: Microsoft 365 준수 센터의 콘텐츠 검색을 사용하여 항목을 특정 사서함 또는 사이트 폴더에 배치하는 대상 컬렉션을 수행할 수 있습니다.
-ms.openlocfilehash: ea01386b7e52c05f8116caacddd6dec7baf12272
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+description: Microsoft 365 준수 센터의 콘텐츠 검색을 사용하여 특정 사서함 또는 사이트 폴더의 항목을 검색하는 대상 컬렉션을 수행할 수 있습니다.
+ms.openlocfilehash: cf0364d39a78e1bbbc062d85ce750d190fbbda5a
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51994765"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311907"
 ---
-# <a name="use-content-search-for-targeted-collections"></a>대상 지정 컬렉션을 위해 콘텐츠 검색 사용
+# <a name="use-content-search-for-targeted-collections"></a>대상 컬렉션에 콘텐츠 검색 사용
 
-Microsoft 365 준수 센터의 콘텐츠 검색 기능은 UI에서 특정 폴더를 검색하는 직접적인 Exchange 사서함 또는 SharePoint 비즈니스용 OneDrive 않습니다. 그러나 실제 검색 쿼리 구문에서 사이트의 전자 메일 또는 경로(DocumentLink) 속성에 대한 폴더 ID 속성을 지정하여 특정 폴더(대상 컬렉션이라고도 합니다.)를 검색할 수 있습니다. 콘텐츠 검색을 사용하여 대상 컬렉션을 수행하면 사례 또는 권한 있는 항목에 응답하는 항목이 특정 사서함 또는 사이트 폴더에 있다는 확신이 있는 경우 유용합니다. 이 문서의 스크립트를 사용하여 사서함 폴더의 폴더 ID를 얻을 수도 있으며, 사서함 폴더 및 폴더의 경로(DocumentLink)를 SharePoint 비즈니스용 OneDrive 있습니다. 그런 다음 검색 쿼리의 폴더 ID 또는 경로를 사용하여 폴더에 있는 항목을 반환할 수 있습니다.
+Microsoft 365 준수 센터의 콘텐츠 검색 도구는 사서함 또는 Exchange 및 SharePoint 사이트의 특정 폴더를 검색하는 직접적인 비즈니스용 OneDrive 없습니다. 그러나 실제 검색 쿼리 구문에서 사이트의 전자 메일 또는 경로(DocumentLink) 속성에 대한 폴더 ID 속성을 지정하여 특정 폴더(대상 컬렉션이라고도 합니다.)를 검색할 수 있습니다. 콘텐츠 검색을 사용하여 대상 컬렉션을 수행하면 사례 또는 권한 있는 항목에 응답하는 항목이 특정 사서함 또는 사이트 폴더에 있다는 확신이 있는 경우 유용합니다. 이 문서의 스크립트를 사용하여 사서함 폴더의 폴더 ID를 얻을 수도 있으며, 사서함 폴더 및 폴더의 경로(DocumentLink)를 SharePoint 비즈니스용 OneDrive 있습니다. 그런 다음 검색 쿼리의 폴더 ID 또는 경로를 사용하여 폴더에 있는 항목을 반환할 수 있습니다.
 
 > [!NOTE]
 > 이 항목의 스크립트는 SharePoint 비즈니스용 OneDrive 폴더에 있는 콘텐츠를 반환하기 위해 Path 속성 대신 DocumentLink 관리 속성을 사용합니다. DocumentLink 속성은 폴더의 모든 콘텐츠를 반환하기 때문에 Path 속성보다 강력하고 Path 속성은 일부 미디어 파일을 반환하지 않습니다.
@@ -37,7 +37,7 @@ Microsoft 365 준수 센터의 콘텐츠 검색 기능은 UI에서 특정 폴더
 
 - 1단계에서 스크립트를 실행하기 위해 Security & Compliance Center에서 eDiscovery 관리자 역할 그룹의 구성원이 되어야 합니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
 
-    또한 조직에서 Mail Recipients 역할을 할당해야 Exchange Online 있습니다. 스크립트에 포함된 **Get-MailboxFolderStatistics** cmdlet을 실행하려면 이 작업을 실행해야 합니다. 기본적으로 Mail Recipients 역할은 조직의 조직 관리 및 받는 사람 관리 역할 그룹에 Exchange Online. 권한 할당에 대한 자세한 내용은 역할 Exchange Online 구성원 [관리를 참조하십시오.](/exchange/manage-role-group-members-exchange-2013-help) 사용자 지정 역할 그룹을 만들고 Mail Recipients 역할을 할당한 다음 1단계에서 스크립트를 실행해야 하는 구성원을 추가할 수도 있습니다. 자세한 내용은 [역할 그룹 관리](/Exchange/permissions-exo/role-groups) 항목을 참조하십시오.
+- 조직에서 Mail Recipients 역할도 할당해야 Exchange Online. 스크립트에 포함된 **Get-MailboxFolderStatistics** cmdlet을 실행하려면 이 작업을 실행해야 합니다. 기본적으로 Mail Recipients 역할은 조직의 조직 관리 및 받는 사람 관리 역할 그룹에 Exchange Online. 권한 할당에 대한 자세한 내용은 역할 Exchange Online 구성원 [관리를 참조하십시오.](/exchange/manage-role-group-members-exchange-2013-help) 사용자 지정 역할 그룹을 만들고 Mail Recipients 역할을 할당한 다음 1단계에서 스크립트를 실행해야 하는 구성원을 추가할 수도 있습니다. 자세한 내용은 [역할 그룹 관리](/Exchange/permissions-exo/role-groups) 항목을 참조하십시오.
 
 - 이 문서의 스크립트는 최신 인증을 지원합니다. 조직 또는 조직에 있는 경우 스크립트를 있는 Microsoft 365 사용할 Microsoft 365 GCC 있습니다. 독일 Office 365, Microsoft 365 GCC High 조직 또는 Microsoft 365 DoD 조직인 경우 스크립트를 편집하여 스크립트를 성공적으로 실행해야 합니다. 특히 줄을 편집하고 `Connect-ExchangeOnline` *ExchangeEnvironmentName* 매개 변수 및 조직 유형에 적합한 값을 사용하여 PowerShell에 Exchange Online 합니다.  또한 줄을 편집하고 `Connect-IPPSSession` *ConnectionUri* 및 *AzureADAuthorizationEndpointUri* 매개 변수 및 조직 유형에 적합한 값을 사용하여 보안 & PowerShell에 연결해야 합니다. 자세한 내용은 [PowerShell을](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-without-using-mfa) 커넥트 Exchange Online 보안 및 준수 센터 PowerShell에 커넥트 예제를 & [참조하세요.](/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa)
 

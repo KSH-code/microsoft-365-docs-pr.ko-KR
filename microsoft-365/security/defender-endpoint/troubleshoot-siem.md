@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 60220d00ca1b612564b72103b9206e3d6d89dc60
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9c4f3da57796903fc22314574f389bcdd92ca4b3
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689452"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311991"
 ---
 # <a name="troubleshoot-siem-tool-integration-issues"></a>SIEM 도구 통합 문제 해결
 
@@ -29,7 +29,7 @@ ms.locfileid: "51689452"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -51,7 +51,7 @@ SIEM 도구에서 검색을 끌어오는 동안 문제를 해결해야 할 수 �
 
 4. 앱 **등록 을 클릭합니다.** 그런 다음 응용 프로그램 목록에서 응용 프로그램을 선택합니다.
 
-5. 키 **섹션을** 선택한 다음 키 설명을 제공하고 키 유효 기간을 지정합니다.
+5. 인증서 **& 섹션을** 선택하고 새 클라이언트 비밀을 클릭한 다음 설명을 제공하고 유효 기간을 지정합니다.
 
 6. **저장** 을 클릭합니다. 키 값이 표시됩니다.
 
@@ -59,7 +59,7 @@ SIEM 도구에서 검색을 끌어오는 동안 문제를 해결해야 할 수 �
 
 
 ## <a name="error-when-getting-a-refresh-access-token"></a>새로 고침 액세스 토큰을 사용할 때 오류 발생
-위협 인텔리전스 API 또는 SIEM 도구를 사용할 때 새로 고침 토큰을 얻려고 할 때 오류가 발생하는 경우 Azure Active Directory에서 관련 응용 프로그램에 대한 회신 URL을 추가해야 합니다.
+위협 인텔리전스 API 또는 SIEM 도구를 사용할 때 새로 고침 토큰을 얻려고 할 때 오류가 발생하는 경우 해당 응용 프로그램에 대한 회신 URL을 추가해야 Azure Active Directory.
 
 1. Azure 관리 [포털에 로그인합니다.](https://ms.portal.azure.com)
 

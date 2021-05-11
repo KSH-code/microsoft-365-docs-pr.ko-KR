@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 12f648ce476f6e29cbb6b038cc42f2e744d77104
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: dc1e8707dc0810c0986698674a64e969792b5fb8
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933304"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311235"
 ---
 # <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Linux의 끝점용 Microsoft Defender 설치 문제 해결
 
@@ -40,8 +40,8 @@ ms.locfileid: "51933304"
 
 설치 시 오류가 발생하거나 패키지 관리자가 의미 있는 오류 메시지를 표시하지 않을 수 있습니다. 설치가 성공적이지 확인하려면 다음을 사용하여 설치 로그를 구하고 검사합니다.
 
- ```bash
- sudo journalctl | grep 'microsoft-mdatp'  > installation.log
+```bash
+ sudo journalctl --no-pager | grep 'microsoft-mdatp' > installation.log
 ```
 
 ```bash
@@ -50,7 +50,7 @@ ms.locfileid: "51933304"
 
 ```Output
  microsoft-mdatp-installer[102243]: postinstall end [2020-03-26 07:04:43OURCE +0000] 102216
- ```
+```
 
 올바른 설치 날짜와 시간이 있는 이전 명령의 출력은 성공을 나타냅니다.
 
@@ -77,6 +77,7 @@ mdatp 서비스가 실행 중인지 확인:
 ```bash
 systemctl status mdatp
 ```
+
 ```Output
  ● mdatp.service - Microsoft Defender for Endpoint
    Loaded: loaded (/lib/systemd/system/mdatp.service; enabled; vendor preset: enabled)
@@ -119,7 +120,7 @@ systemctl status mdatp
     sudo cp /opt/microsoft/mdatp/conf/mdatp.service <systemd_path>
     ```
 
-    여기서 은 Ubuntu 및 데비안 배포를 위한 것이고 ```<systemd_path>``` ```/lib/systemd/system``` ```/usr/lib/systemd/system``` Rhel, CentOS, Oracle 및 SLES용입니다.
+    여기서 은 Ubuntu 및 데비안 배포를 위한 것이고 `<systemd_path>` `/lib/systemd/system` `/usr/lib/systemd/system` Rhel, CentOS, Oracle 및 SLES용입니다.
    그런 다음 2단계를 다시 진행합니다.
 
 4. 위의 단계가 작동하지 않는 경우 SELinux가 설치되어 있으며 실행 모드로 설정하는지 확인합니다. 이 경우 이를 사용(가급적) 또는 비활성화 모드로 설정해 보십시오. 이 매개 변수는 파일에서 매개 변수를 "사용" 또는 "사용 안 하게"로 설정한 다음 다시 부팅하여 `SELINUX` `/etc/selinux/config` 수행될 수 있습니다. 자세한 내용은 selinux의 man-page를 참조하세요.

@@ -1,12 +1,12 @@
 ---
-title: 콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
+title: eDiscovery에 대한 키워드 쿼리 및 검색 조건
 f1.keywords:
 - NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: reference
+ms.topic: article
 f1_keywords:
 - ms.o365.cc.SearchQueryLearnMore
 ms.service: O365-seccomp
@@ -21,17 +21,17 @@ search.appverid:
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
-description: 검색 및 eDiscovery 도구를 사용하여 검색할 수 있는 전자 메일 및 파일 속성에 대해 Microsoft 365.
-ms.openlocfilehash: 10b2af333d5eeef6dd70541a86b9114929c0c94c
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+description: eDiscovery 검색 도구를 사용하여 검색할 수 있는 전자 메일 및 파일 속성에 대해 Microsoft 365.
+ms.openlocfilehash: a9a178eb9b139cacd803c8ab168b3143b75b5f92
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114020"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311871"
 ---
-# <a name="keyword-queries-and-search-conditions-for-content-search-and-ediscovery"></a>콘텐츠 검색 및 eDiscovery에 대한 키워드 쿼리 및 검색 조건
+# <a name="keyword-queries-and-search-conditions-for-ediscovery"></a>eDiscovery에 대한 키워드 쿼리 및 검색 조건
 
-이 항목에서는 Exchange Online 준수 센터의 콘텐츠 검색 기능을 사용하여 Exchange Online 및 SharePoint 및 비즈니스용 OneDrive 사이트에 저장된 문서에서 검색할 수 있는 전자 메일 및 문서 속성에 대해 Microsoft 365 설명합니다. Security & Compliance Center PowerShell에서 **\* -ComplianceSearch** cmdlet을 사용하여 이러한 속성을 검색할 수도 있습니다. 이 항목에서는 다음에 대한 설명도 제공합니다.
+이 항목에서는 Exchange Online의 전자 메일 항목 및 Microsoft Teams 채팅 대화에서 검색할 수 있는 전자 메일 및 문서 속성과 SharePoint 및 비즈니스용 OneDrive 준수 센터의 eDiscovery 검색 도구를 사용하여 SharePoint 및 비즈니스용 OneDrive 사이트에 저장된 문서에 대해 Microsoft 365 있습니다. 여기에는 콘텐츠 검색, Core eDiscovery 및 Advanced eDiscovery(Advanced eDiscovery eDiscovery 검색을 *컬렉션이라고 합니다.* Security & Compliance Center PowerShell에서 **\* -ComplianceSearch** cmdlet을 사용하여 이러한 속성을 검색할 수도 있습니다. 이 항목에서는 다음에 대한 설명도 제공합니다.
   
 - 부울 검색 연산자, 검색 조건 및 기타 검색 쿼리 기술을 사용하여 검색 결과를 구체화합니다.
 
@@ -39,30 +39,36 @@ ms.locfileid: "52114020"
 
 - 조직 외부의 사용자와 공유되는 사이트 콘텐츠 검색
 
-콘텐츠 검색을 만드는 방법에 대한 단계별 지침은 [콘텐츠 검색을 참조하세요.](content-search.md)
+다른 eDiscovery 검색을 만드는 방법에 대한 단계별 지침은 다음을 참조하세요.
+
+- [콘텐츠 검색](content-search.md)
+
+- [Core eDiscovery에서 콘텐츠 검색](search-for-content-in-core-ediscovery.md)
+
+- [컬렉션에서 초안 컬렉션 Advanced eDiscovery](create-draft-collection.md)
 
 > [!NOTE]
-> Microsoft 365 준수 센터의 콘텐츠 검색 및 Security & Compliance Center PowerShell의 **\* 해당 -ComplianceSearch** cmdlet은 KQL(키워드 쿼리 언어)을 사용합니다. 자세한 내용은 키워드 쿼리 언어 [구문 참조 를 참조하세요.](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference) 
+> eDiscovery는 Microsoft 365 준수 센터에서 검색하고 Security & Compliance Center PowerShell의 해당 **\* -ComplianceSearch** cmdlet은 KQL(키워드 쿼리 언어)을 사용합니다. 자세한 내용은 키워드 쿼리 언어 [구문 참조 를 참조하세요.](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
   
 ## <a name="searchable-email-properties"></a>검색 가능한 전자 메일 속성
 
-다음 표에는 Microsoft 365 준수 센터의 콘텐츠 검색 기능을 사용하여 검색하거나 **New-ComplianceSearch 또는 Set-ComplianceSearch**  cmdlet을 사용하여 검색할 수 있는 전자 메일 메시지 속성이 나열되어 있습니다. 이 표에는 각 속성에 대한  _property:value_ 구문의 예와 예제에서 반환된 검색 결과에 대한 설명이 포함되어 있습니다. 콘텐츠 검색의 키워드 상자에 이러한  `property:value` 쌍을 입력할 수 있습니다. 
+다음 표에는 Microsoft 365 준수 센터의 eDiscovery 검색 도구를 사용하여 검색하거나 **New-ComplianceSearch 또는 Set-ComplianceSearch** cmdlet을 사용하여 검색할 수 있는 전자 메일 메시지 속성이 나열되어 있습니다.  이 표에는 각 속성에 대한  _property:value_ 구문의 예와 예제에서 반환된 검색 결과에 대한 설명이 포함되어 있습니다. eDiscovery 검색의 키워드 상자에 이러한  `property:value` 쌍을 입력할 수 있습니다. 
 
 > [!NOTE]
 > 전자 메일 속성을 검색할 때 지정한 속성이 비어 있거나 비어 있는 항목을 검색할 수 없습니다. 예를 들어 *property:value* pair of **subject:""를** 사용하여 제목 줄이 비어 있는 전자 메일 메시지를 검색하면 결과가 반환됩니다. 사이트 및 연락처 속성을 검색할 때도 적용됩니다.
   
-| 속성 | 속성 설명 | 예제 | 예제에서 반환된 검색 결과 |
+| 속성 | 속성 설명 | 예 | 예제에서 반환된 검색 결과 |
 |:-----|:-----|:-----|:-----|
 |AttachmentNames|전자 메일 메시지에 첨부되는 파일의 이름입니다.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> `attachmentnames:.pptx` |annualreport.ppt라는 파일이 첨부된 메시지입니다. 두 번째 예제에서는 와일드카드를 사용하여 첨부 파일의 파일 이름에 "annual"이라는 단어가 있는 메시지를 반환합니다. 세 번째 예제에서는 pptx 파일 확장명을 가지는 모든 첨부 파일을 반환합니다.|
 |Bcc|전자 메일 메시지의 Bcc 필드입니다. <sup>1</sup>|`bcc:pilarp@contoso.com`  <br/> `bcc:pilarp`  <br/> `bcc:"Pilar Pinilla"`|모든 예제는 숨은 참조 필드에 Pilar Pinilla가 포함된 메시지를 반환합니다.|
 |범주| 검색할 범주입니다. 범주는 웹용 웹 응용 Outlook 또는 웹 Outlook 사용하여 정의할 수 Outlook Web App. 가능한 값은 다음과 같습니다.  <br/><br/>  파랑  <br/>  녹색  <br/>  orange  <br/>  자주  <br/>  빨강  <br/>  노란색|`category:"Red Category"`|원본 사서함에서 red 범주가 지정된 메시지입니다. |
 |Cc|전자 메일 메시지의Cc 필드입니다. <sup>1</sup>|`cc:pilarp@contoso.com`  <br/> `cc:"Pilar Pinilla"`|두 예제 모두 참조 필드에 Pilar Pinilla가 지정된 메시지입니다.|
-|Folderid|특정 사서함 폴더의 폴더 ID(GUID)입니다. 이 속성을 사용하는 경우 지정된 폴더가 있는 사서함을 검색해야 합니다. 지정된 폴더만 검색됩니다. 폴더의 하위 폴더는 검색되지 않습니다. 하위 폴더를 검색하려면 검색할 하위 폴더에 Folderid 속성을 사용해야 합니다.  <br/> Folderid 속성을 검색하고 스크립트를 사용하여 특정 사서함의 폴더ID를 얻는 데 대한 자세한 내용은 [Use Content Search for targeted collections을 참조하십시오.](use-content-search-for-targeted-collections.md)|`folderid:4D6DD7F943C29041A65787E30F02AD1F00000000013A0000`  <br/> `folderid:2370FB455F82FC44BE31397F47B632A70000000001160000 AND participants:garthf@contoso.com`|첫 번째 예에서는 지정한 사서함 폴더의 모든 항목을 반환합니다. 두 번째 예에서는 지정된 사서함 폴더에서 사서함 폴더에서 보내거나 받은 모든 항목을 garthf@contoso.com.|
+|Folderid|특정 사서함 폴더의 폴더 ID(GUID)입니다. 이 속성을 사용하는 경우 지정된 폴더가 있는 사서함을 검색해야 합니다. 지정된 폴더만 검색됩니다. 폴더의 하위 폴더는 검색되지 않습니다. 하위 폴더를 검색하려면 검색할 하위 폴더에 Folderid 속성을 사용해야 합니다.  <br/> Folderid 속성을 검색하고 스크립트를 사용하여 특정 사서함의 폴더ID를 얻는 데 대한 자세한 내용은 [Use Content search for targeted collections을 참조하십시오.](use-content-search-for-targeted-collections.md)|`folderid:4D6DD7F943C29041A65787E30F02AD1F00000000013A0000`  <br/> `folderid:2370FB455F82FC44BE31397F47B632A70000000001160000 AND participants:garthf@contoso.com`|첫 번째 예에서는 지정한 사서함 폴더의 모든 항목을 반환합니다. 두 번째 예에서는 지정된 사서함 폴더에서 사서함 폴더에서 보내거나 받은 모든 항목을 garthf@contoso.com.|
 |시작|전자 메일 메시지의 보낸 사람입니다. <sup>1</sup>|`from:pilarp@contoso.com`  <br/> `from:contoso.com`|지정된 사용자가 보냈거나 지정된 도메인에서 보낸 메시지입니다.|
 |HasAttachment|메시지에 첨부 파일이 있는지 여부를 나타냅니다. true 또는 **false** 값을 **사용합니다.**|`from:pilar@contoso.com AND hasattachment:true`|첨부 파일이 있는 지정된 사용자가 보낸 메시지입니다.|
 |Importance|보낸 사람이 메시지를 보낼 때 지정할 수 있는 전자 메일 메시지의 중요도입니다. 기본적으로 보낸 사람이 중요도를 **높음** 또는 **낮음** 으로 설정하지 않았다면 메시지는 보통 중요도로 전송됩니다.|`importance:high`  <br/> `importance:medium`  <br/> `importance:low`|높음 중요도, 보통 중요도 또는 낮은 중요도로 표시된 메시지입니다.|
 |IsRead|메시지를 읽은지 여부를 나타냅니다. true 또는 **false** 값을 **사용합니다.**|`isread:true`  <br/> `isread:false`|첫 번째 예제에서는 IsRead 속성이 True로 설정된 메시지를 **반환합니다.** 두 번째 예제에서는 IsRead 속성이 False로 설정된 메시지를 **반환합니다.**|
-|ItemClass|이 속성을 사용하여 조직에서 데이터 원본으로 가져온 특정 타사 데이터 형식을 Office 365. 이 속성에는 다음 구문을 사용할 수 있습니다.  `itemclass:ipm.externaldata.<third-party data type>*`|`itemclass:ipm.externaldata.Facebook* AND subject:contoso`  <br/> `itemclass:ipm.externaldata.Twitter* AND from:"Ann Beebe" AND "Northwind Traders"`|첫 번째 예제에서는 Subject 속성에 단어 "contoso"가 포함된 Facebook 항목을 반환합니다. 두 번째 예제에서는 Ann Beebe가 게시하고 키워드 구 "Northwind Traders"가 포함된 Twitter 항목을 반환합니다.  <br/> ItemClass 속성에 대해 타사 데이터 형식에 사용할 값의 전체 목록은 Use [Content Search to search third-party data that was imported to Office 365.](use-content-search-to-search-third-party-data-that-was-imported.md)|
+|ItemClass|이 속성을 사용하여 조직에서 데이터 원본으로 가져온 특정 타사 데이터 형식을 Office 365. 이 속성에는 다음 구문을 사용할 수 있습니다.  `itemclass:ipm.externaldata.<third-party data type>*`|`itemclass:ipm.externaldata.Facebook* AND subject:contoso`  <br/> `itemclass:ipm.externaldata.Twitter* AND from:"Ann Beebe" AND "Northwind Traders"`|첫 번째 예제에서는 Subject 속성에 단어 "contoso"가 포함된 Facebook 항목을 반환합니다. 두 번째 예제에서는 Ann Beebe가 게시하고 키워드 구 "Northwind Traders"가 포함된 Twitter 항목을 반환합니다.  <br/> ItemClass 속성에 대해 타사 데이터 형식에 사용할 값의 전체 목록은 Use [Content search to search third-party data that was imported to Office 365.](use-content-search-to-search-third-party-data-that-was-imported.md)|
 |종류| 검색할 전자 메일 메시지의 유형입니다. 사용 가능한 값:  <br/>  contacts  <br/>  docs  <br/>  전자 메일  <br/>  externaldata  <br/>  팩스  <br/>  im  <br/>  journals  <br/>  모임  <br/>  microsoftteams(모임의 채팅, 모임 및 통화의 Microsoft Teams)  <br/>  notes  <br/>  posts  <br/>  rssfeeds  <br/>  작업  <br/>  voicemail|`kind:email`  <br/> `kind:email OR kind:im OR kind:voicemail`  <br/> `kind:externaldata`|첫 번째 예제에서는 검색 조건을 충족하는 전자 메일 메시지를 반환합니다. 두 번째 예제에서는 전자 메일 메시지, 인스턴트 메시징 대화(비즈니스용 Skype 대화 및 채팅 포함) 및 검색 조건에 Microsoft Teams 음성 메시지를 반환합니다. 세 번째 예에서는 Twitter Microsoft 365 Facebook 및 Cisco Jabber와 같은 타사 데이터 원본에서 검색 조건을 충족하는 사서함으로 가져온 항목을 반환합니다. 자세한 내용은 에서 타사 데이터 [보관을 Office 365.](https://www.microsoft.com/?ref=go)|
 |참가자|전자 메일 메시지의 모든 사용자 필드입니다. 이러한 필드는 From, To, Cc 및 Bcc입니다.<sup>1</sup>|`participants:garthf@contoso.com`  <br/> `participants:contoso.com`|garthf@contoso.com에서 보냈거나 이 사이트로 보낸 메시지입니다. 두 번째 예제에서는 contoso.com 도메인의 사용자가 보냈거나 이 사용자에게로 보낸 모든 메시지를 반환합니다.|
 |수신됨|받는 사람이 전자 메일 메시지를 받은 날짜입니다.|`received:04/15/2016`  <br/> `received>=01/01/2016 AND received<=03/31/2016`|2016년 4월 15일에 수신된 메시지입니다. 두 번째 예제에서는 2016년 1월 1일과 2016년 3월 31일 사이에 수신된 모든 메시지를 반환합니다.|
@@ -89,18 +95,18 @@ ms.locfileid: "52114020"
 
 ## <a name="searchable-site-properties"></a>검색 가능한 사이트 속성
 
-다음 표에는 보안 & 준수 센터의 콘텐츠 검색 기능을 사용하여 검색하거나 **New-ComplianceSearch 또는 Set-ComplianceSearch** cmdlet을 사용하여 검색할 수 있는 SharePoint 및 비즈니스용 OneDrive 속성 중 일부가 나열되어 있습니다.  이 표에는 각 속성에 대한  _property:value_ 구문의 예와 예제에서 반환된 검색 결과에 대한 설명이 포함되어 있습니다. 
+다음 표에는 Microsoft 365 준수 센터의 eDiscovery 검색 도구를 사용하여 검색하거나 **New-ComplianceSearch 또는 Set-ComplianceSearch** cmdlet을 사용하여 검색할  수 있는 SharePoint 및 비즈니스용 OneDrive 속성 중 일부가 나열되어 있습니다. 이 표에는 각 속성에 대한  _property:value_ 구문의 예와 예제에서 반환된 검색 결과에 대한 설명이 포함되어 있습니다. 
   
-검색할 수 있는 SharePoint 속성의 전체 목록은 overview [of crawled and managed properties in SharePoint.](/SharePoint/technical-reference/crawled-and-managed-properties-overview) 쿼리 가능 열에  **예로** 표시된 속성을 검색할 수 있습니다. 
+검색할 수 있는 SharePoint 속성의 전체 목록은 overview [of crawled and managed properties in SharePoint.](/SharePoint/technical-reference/crawled-and-managed-properties-overview) 쿼리 가능 열에  **예로** 표시된 속성을 검색할 수 있습니다.
   
-| 속성 | 속성 설명 | 예시 | 예제에서 반환된 검색 결과 |
+| 속성 | 속성 설명 | 예제 | 예제에서 반환된 검색 결과 |
 |:-----|:-----|:-----|:-----|
 |만든 이|문서를 복사하는 경우 유지되는 Office 문서의 만든 이 필드입니다. 예를 들어 사용자가 문서를 만든 후 다른 사람에게 전자 메일로 전자 메일을 보내면 문서가 SharePoint 원래 작성자가 유지됩니다. 이 속성에는 사용자의 표시 이름을 사용해야 합니다.|`author:"Garth Fort"`|Garth Fort가 만든 모든 문서입니다.|
 |ContentType|항목 SharePoint, 문서 또는 비디오와 같은 항목의 콘텐츠 형식을 저장합니다.|`contenttype:document`|모든 문서가 반환됩니다.|
 |만든 날짜|항목을 만든 날짜입니다.|`created>=06/01/2016`|2016년 6월 1일 이후에 만들어진 모든 항목입니다.|
 |CreatedBy|항목을 만들었거나 업로드한 사람입니다. 이 속성에는 사용자의 표시 이름을 사용해야 합니다.|`createdby:"Garth Fort"`|Garth Fort가 만들었거나 업로드한 모든 항목입니다.|
 |DetectedLanguage|항목의 언어입니다.|`detectedlanguage:english`|영어로된 모든 항목입니다.|
-|DocumentLink|사이트 또는 특정 사이트의 특정 폴더에 SharePoint 비즈니스용 OneDrive 경로입니다. 이 속성을 사용하는 경우 지정한 폴더가 있는 사이트를 검색해야 합니다.  <br/> documentlink 속성에 대해 지정한 폴더의 하위 폴더에 있는 항목을 반환하기 위해 지정한 폴더의 URL에 /를 추가해야 합니다. 예를 들면 다음과 같습니다. \*`documentlink: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/>documentlink 속성을 검색하고 스크립트를 사용하여 특정 사이트의 폴더에 대한 문서 링크 URL을 얻는 데 대한 자세한 내용은 [Use Content Search for targeted collections을 참조하십시오.](use-content-search-for-targeted-collections.md)|`documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Private"`  <br/> `documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Shared with Everyone/*" AND filename:confidential`|첫 번째 예제에서는 지정한 폴더의 모든 항목을 비즈니스용 OneDrive 예제입니다. 두 번째 예제에서는 파일 이름에 "confidential"이라는 단어가 포함된 지정한 사이트 폴더 및 모든 하위 폴더의 문서를 반환합니다.|
+|DocumentLink|사이트 또는 특정 사이트의 특정 폴더에 SharePoint 비즈니스용 OneDrive 경로입니다. 이 속성을 사용하는 경우 지정한 폴더가 있는 사이트를 검색해야 합니다.  <br/> documentlink 속성에 대해 지정한 폴더의 하위 폴더에 있는 항목을 반환하기 위해 지정한 폴더의 URL에 /를 추가해야 합니다. 예를 들면 다음과 같습니다. \*`documentlink: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/>documentlink 속성을 검색하고 스크립트를 사용하여 특정 사이트의 폴더에 대한 문서 링크 URL을 얻는 데 대한 자세한 내용은 [Use Content search for targeted collections을 참조하십시오.](use-content-search-for-targeted-collections.md)|`documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Private"`  <br/> `documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Shared with Everyone/*" AND filename:confidential`|첫 번째 예제에서는 지정한 폴더의 모든 항목을 비즈니스용 OneDrive 예제입니다. 두 번째 예제에서는 파일 이름에 "confidential"이라는 단어가 포함된 지정한 사이트 폴더 및 모든 하위 폴더의 문서를 반환합니다.|
 |FileExtension|파일의 확장명입니다. 예를 들어 docx, 1, pptx 또는 xlsx입니다.|`fileextension:xlsx`|모든 Excel 파일(Excel 2007 이상)|
 |FileName|파일의 이름입니다.|`filename:"marketing plan"`  <br/> `filename:estimate`|첫 번째 예제에서는 제목에 "marketing plan"이 정확히 포함된 제목을 반환합니다. 두 번째 예제에서는 파일 이름에 "estimate"라는 단어가 들어 있는 파일을 반환합니다.|
 |LastModifiedTime|항목을 마지막으로 변경한 날짜입니다.|`lastmodifiedtime>=05/01/2016`  <br/> `lastmodifiedtime>=05/10/2016 AND lastmodifiedtime<=06/1/2016`|첫 번째 예제에서는 2016년 5월 1일 이후에 변경된 항목을 반환합니다. 두 번째 예제에서는 2016년 5월 1일과 2016년 6월 1일 사이에 변경된 항목을 반환합니다.|
@@ -114,7 +120,7 @@ ms.locfileid: "52114020"
 
 ## <a name="searchable-contact-properties"></a>검색 가능한 연락처 속성
 
-다음 표에는 인덱싱된 연락처 속성과 콘텐츠 검색을 사용하여 검색할 수 있는 연락처 속성이 나열됩니다. 이러한 속성은 사용자가 사용자 사서함의 개인 주소장에 있는 연락처(개인 연락처라고도 합니다.)에 대해 구성할 수 있는 속성입니다. 연락처를 검색하려면 검색할 사서함을 선택한 다음 키워드 쿼리에서 하나 이상의 연락처 속성을 사용할 수 있습니다.
+다음 표에는 인덱싱된 연락처 속성과 eDiscovery 검색 도구를 사용하여 검색할 수 있는 연락처 속성이 나열됩니다. 이러한 속성은 사용자가 사용자 사서함의 개인 주소장에 있는 연락처(개인 연락처라고도 합니다.)에 대해 구성할 수 있는 속성입니다. 연락처를 검색하려면 검색할 사서함을 선택한 다음 키워드 쿼리에서 하나 이상의 연락처 속성을 사용할 수 있습니다.
   
 > [!TIP]
 > 공백이나 특수 문자가 포함된 값을 검색하기 위해 구문을 포함하기 위해 두 개의 인용 부호(" ")를 사용합니다. 예를 들면 `businessaddress:"123 Main Street"` 입니다.
@@ -216,7 +222,7 @@ Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 S
 |보낸 사람/만든 이|전자 메일의 경우 메시지를 보낸 사람입니다. 문서의 경우 Office 문서의 만든 이 필드에 지정된 사람입니다. 여러 개의 이름을 쉼표로 구분하여 입력할 수 있습니다. 두 개 이상의 값은 **OR** 연산자를 사용하여 논리적으로 연결됩니다.|
 |크기(bytes)|전자 메일 및 문서의 경우 항목의 크기(바이트)입니다.|
 |제목/제목|전자 메일의 경우 메시지 제목 줄의 텍스트입니다. 문서의 경우 문서 제목입니다. 앞서 설명한 것 처럼 Title 속성은 문서에 지정된 메타데이터 Microsoft Office 있습니다. 두 개 이상의 제목 이름을 각 제목에 각 별로 구분하여 입력할 수 있습니다. 두 개 이상의 값은 **OR** 연산자를 사용하여 논리적으로 연결됩니다.|
-|규정 준수 레이블|전자 메일과 문서 모두에서 사용자가 수동으로 할당한 자동 레이블 정책 또는 보존 레이블에 의해 메시지 및 문서에 자동으로 할당된 보존 레이블입니다. 보존 레이블은 정보 거버넌스를 위해 전자 메일 및 문서를 분류하고 레이블에 정의된 설정에 따라 보존 규칙을 적용하는 데 사용됩니다. 보존 레이블 이름의 일부를 입력하고 와일드카드를 사용하거나 전체 레이블 이름을 입력할 수 있습니다. 보존 레이블에 대한 자세한 내용은 보존 정책 및 보존 레이블에 대해 자세히를 [참조하세요.](retention.md)|
+|보존 레이블|전자 메일과 문서 모두에서 사용자가 수동으로 할당한 자동 레이블 정책 또는 보존 레이블에 의해 메시지 및 문서에 자동으로 할당된 보존 레이블입니다. 보존 레이블은 정보 거버넌스를 위해 전자 메일 및 문서를 분류하고 레이블에 정의된 설정에 따라 보존 규칙을 적용하는 데 사용됩니다. 보존 레이블 이름의 일부를 입력하고 와일드카드를 사용하거나 전체 레이블 이름을 입력할 수 있습니다. 보존 레이블에 대한 자세한 내용은 보존 정책 및 보존 레이블에 대해 자세히를 [참조하세요.](retention.md)|
 |||
   
 ### <a name="conditions-for-mail-properties"></a>메일 속성에 대한 조건
@@ -291,66 +297,66 @@ Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 S
     
 - 끌어서 놓기 컨트롤을 사용하여 조건 순서를 다시 순서대로 할 수 있습니다. 조건에 대한 컨트롤을 클릭하고 해당 조건을 업 또는 아래로 이동합니다.
     
-- 앞서 설명한 일부 조건 속성을 사용하면 여러 값을 입력할 수 있습니다. 각 값은 OR 연산자에 의해 **논리적으로 연결됩니다.** 따라서 동일한 조건의 인스턴스가 여러 개 있는 경우와 동일한 논리가 생성됩니다. 각 인스턴스에는 단일 값이 있습니다. 다음 그림에서는 값이 여러 개 있는 단일 조건의 예와 단일 값이 있는 여러 조건(동일한 속성의 경우)의 예를 보여집니다. 두 예제 모두 동일한 쿼리를 실행합니다.  `(filetype:docx) OR (filetype:pptx) OR (filetype:xlsx)`
-    
-    ![메시지는 규칙의 모든 조건과 일치해야 합니다. 하나의 조건 또는 다른 조건과 일치해야 하는 경우 각 조건에 대해 별도의 규칙을 사용합니다. 예를 들어 패턴과 일치하는 콘텐츠가 있는 메시지 및 첨부 파일이 있는 메시지에 동일한 고지 사항을 추가하려면 각 조건에 대해 하나의 규칙을 만듭니다. 규칙은 쉽게 복사할 수 있습니다.](../media/9880aa29-d117-4531-be20-6d53f1d21341.gif)
+- 앞서 설명한 일부 조건 속성을 사용하면 세미 콜론으로 구분하여 여러 값을 입력할 수 있습니다. 각 값은 **OR** 연산자에 의해 논리적으로 연결되고 쿼리가 `(filetype:docx) OR (filetype:pptx) OR (filetype:xlsx)` 됩니다. 다음 그림에서는 값이 여러 개 있는 조건의 예를 보여 주며,
+
+    ![메시지는 규칙의 모든 조건과 일치해야 합니다. 하나의 조건 또는 다른 조건과 일치해야 하는 경우 각 조건에 대해 별도의 규칙을 사용합니다. 예를 들어 패턴과 일치하는 콘텐츠가 있는 메시지 및 첨부 파일이 있는 메시지에 동일한 고지 사항을 추가하려면 각 조건에 대해 하나의 규칙을 만듭니다. 규칙은 쉽게 복사할 수 있습니다.](../media/SearchConditions1.png)
   
-    ![동일한 속성에 대한 여러 검색 조건](../media/1e63d37d-6d8d-4c9b-a509-a7e1c3a05193.gif)
-  
-> [!TIP]
-> 조건이 여러 값을 허용하는 경우 단일 조건을 사용하고 여러 값(쉼표나 세미콜론으로 구분)을 지정하는 것이 좋습니다. 이렇게 하면 적용되는 쿼리 논리가 사용자의 의도와 맞는지 확인하는 데 도움이 됩니다. 
+  > [!NOTE]
+  > 동일한 속성에 대한 조건 추가를 클릭하여 여러 조건을 **추가할** 수 없습니다. 대신 이전 예제와 같이 조건에 대해 여러 값을 제공해야 합니다(세미 콜론으로 구분).
   
 ### <a name="examples-of-using-conditions-in-search-queries"></a>예제
 
-다음 예제에서는 조건이 있는 검색 쿼리의 GUI 기반 버전, 선택한 검색의 세부 정보 창에 표시되는 검색 쿼리 **구문(Get-ComplianceSearch** cmdlet에서 반환되는 구문) 및 해당 KQL 쿼리의 논리를 보여 제공합니다. 
+다음 예제에서는 조건이 있는 검색 쿼리의 GUI 기반 버전, 선택한 검색의 세부 정보 창에 표시되는 검색 쿼리 **구문(Get-ComplianceSearch** cmdlet에서 반환되는 구문) 및 해당 KQL 쿼리의 논리를 보여 제공합니다.
   
 #### <a name="example-1"></a>예 1
 
-이 예제에서는 신용 카드 번호가 SharePoint 비즈니스용 OneDrive 2016년 1월 1일 전에 마지막으로 수정된 사이트 및 사이트의 문서를 반환합니다.
+이 예제에서는 신용 카드 번호가 SharePoint 비즈니스용 OneDrive 2021년 1월 1일 전에 마지막으로 수정된 사이트 및 사이트의 문서를 반환합니다.
   
  **GUI**
   
-![검색 조건 첫 번째 예제](../media/099515ba-d4ee-474e-af25-3aa48816b87b.gif)
+![검색 조건 첫 번째 예제](../media/SearchConditions2.png)
   
  **검색 쿼리 구문**
   
- `SensitiveType:"Credit Card Number"(c:c)(lastmodifiedtime<2016-01-01)`
+ `SensitiveType:"Credit Card Number"(c:c)(lastmodifiedtime<2021-01-01)`
   
  **검색 쿼리 논리**
   
- `SensitiveType:"Credit Card Number" AND (lastmodifiedtime<2016-01-01)`
+ `SensitiveType:"Credit Card Number" AND (lastmodifiedtime<2021-01-01)`
   
-#### <a name="example-2"></a>예제 2
+이전 스크린샷에서 검색 UI는 키워드 쿼리 및 조건이 **AND** 연산자에 의해 연결됩니다.
 
-이 예제에서는 키워드 "report"를 포함하고, 2015년 4월 1일 이전에 전송되었거나 생성되었고, 전자 메일 메시지의 제목 필드나 문서의 제목 속성에 단어 "northwind"가 포함된 전자 메일 항목 또는 문서를 반환합니다. 이 쿼리는 다른 검색 조건에 맞는 웹 페이지를 제외합니다. 
+#### <a name="example-2"></a>예 2
+
+이 예제에서는 "report"라는 키워드가 들어 있으며 2021년 4월 1일 전에 보내거나 만든 전자 메일 항목이나 전자 메일 메시지의 제목 필드나 문서의 제목 속성에 단어 "northwind"가 포함된 문서를 반환합니다. 이 쿼리는 다른 검색 조건에 맞는 웹 페이지를 제외합니다.
   
  **GUI**
   
-![검색 조건 두 번째 예제](../media/fe07d495-df81-42da-8106-3cdb409c6e7f.gif)
+![검색 조건 두 번째 예제](../media/SearchConditions3.png)
   
  **검색 쿼리 구문**
   
- `report(c:c)(date<2016-04-01)(subjecttitle:"northwind")(-filetype:aspx)`
+ `report(c:c)(date<2021-04-01)(subjecttitle:"northwind")(-filetype:aspx)`
   
  **검색 쿼리 논리**
   
- `report AND (date<2016-04-01) AND (subjecttitle:"northwind") NOT (filetype:aspx)`
+ `report AND (date<2021-04-01) AND (subjecttitle:"northwind") NOT (filetype:aspx)`
   
 #### <a name="example-3"></a>예 3
 
-이 예에서는 2016년 12월 1일과 2016년 11월 30일 사이에 전송된 전자 메일 메시지 또는 일정 모임에서 "phone" 또는 "smartphone"로 시작하는 단어를 포함하는 일정 모임을 반환합니다.
+이 예에서는 2019년 12월 1일과 2020년 11월 30일 사이에 전송된 전자 메일 메시지 또는 일정 모임에서 "phone" 또는 "smartphone"로 시작하는 단어를 포함하는 일정 모임을 반환합니다.
   
  **GUI**
   
-![검색 조건 두 번째 예제](../media/973d45fc-0923-43d6-9d0a-25e4a625f057.gif)
+![검색 조건 두 번째 예제](../media/SearchConditions4.png)
   
  **검색 쿼리 구문**
   
- `phone* OR smartphone*(c:c)(sent=2016-12-01..2016-11-30)(kind="email")(kind="meetings")`
+ `phone* OR smartphone*(c:c)(sent=2019-12-01..2020-11-30)(kind="email")(kind="meetings")`
   
  **검색 쿼리 논리**
   
- `phone* OR smartphone* AND (sent=2016-12-01..2016-11-30) AND ((kind="email") OR (kind="meetings"))`
+ `phone* OR smartphone* AND (sent=2029-12-01..2020-11-30) AND ((kind="email") OR (kind="meetings"))`
   
 ## <a name="special-characters"></a>특수 문자
 
@@ -360,32 +366,32 @@ Microsoft 365 규정 준수 센터의 eDiscovery 검색 도구를 사용하여 S
 
 ## <a name="searching-for-site-content-shared-with-external-users"></a>외부 사용자와 공유되는 사이트 콘텐츠 검색
 
-보안 및 준수 센터의 콘텐츠 검색 기능을 & 조직 외부의 사용자와 공유된 SharePoint 비즈니스용 OneDrive 사이트에 저장된 문서를 검색할 수도 있습니다. 이렇게 하면 조직 외부에서 공유되는 중요한 정보나 비공개 정보를 확인할 수 있습니다. 키워드 쿼리에서 속성을 사용하여 이  `ViewableByExternalUsers` 작업을 할 수 있습니다. 이 속성은 다음 공유 방법 중 하나를 사용하여 외부 사용자와 공유된 문서 또는 사이트를 반환합니다. 
+준수 센터에서 eDiscovery 검색 도구를 사용하여 조직 외부의 사용자와 공유된 SharePoint 비즈니스용 OneDrive 사이트에 저장된 문서를 검색할 수도 있습니다. 이렇게 하면 조직 외부에서 공유되는 중요한 정보나 비공개 정보를 확인할 수 있습니다. 키워드 쿼리에서 속성을 사용하여 이  `ViewableByExternalUsers` 작업을 할 수 있습니다. 이 속성은 다음 공유 방법 중 하나를 사용하여 외부 사용자와 공유된 문서 또는 사이트를 반환합니다. 
   
 - 사용자가 인증된 사용자로 조직에 로그인해야 하는 공유 초대입니다.
-    
+
 - 익명 게스트 링크 - 이 링크가 있는 모든 사용자가 인증 없이 리소스에 액세스할 수 있습니다.
-    
+
 다음은 몇 가지 예입니다.
   
-- 이 쿼리는 조직 외부의 사용자와 공유되고 신용 카드 번호를 포함하는 모든  `ViewableByExternalUsers:true AND SensitiveType:"Credit Card Number"` 항목을 반환합니다. 
-    
-- 이 쿼리는 외부 사용자와 공유된 조직의 모든 팀 사이트에 있는 문서  `ViewableByExternalUsers:true AND ContentType:document AND site:"https://contoso.sharepoint.com/Sites/Teams"` 목록을 반환합니다. 
-    
+- 이 쿼리는 조직 외부의 사용자와 공유되고 신용 카드 번호를 포함하는 모든  `ViewableByExternalUsers:true AND SensitiveType:"Credit Card Number"` 항목을 반환합니다.
+  
+- 이 쿼리는 외부 사용자와 공유된 조직의 모든 팀 사이트에 있는 문서  `ViewableByExternalUsers:true AND ContentType:document AND site:"https://contoso.sharepoint.com/Sites/Teams"` 목록을 반환합니다.
+
 > [!TIP]
-> 등의 검색 쿼리는 검색 결과에  `ViewableByExternalUsers:true AND ContentType:document` 많은 .aspx 파일을 반환할 수 있습니다. 이러한 파일(또는 다른 형식의 파일)을 제거하려면 이 속성을 사용하여 특정 파일 형식(예: )을  `FileExtension` 제외할 수  `ViewableByExternalUsers:true AND ContentType:document NOT FileExtension:aspx` 있습니다. 
+> 등의 검색 쿼리는 검색 결과에  `ViewableByExternalUsers:true AND ContentType:document` 많은 .aspx 파일을 반환할 수 있습니다. 이러한 파일(또는 다른 형식의 파일)을 제거하려면 이 속성을 사용하여 특정 파일 형식(예: )을  `FileExtension` 제외할 수  `ViewableByExternalUsers:true AND ContentType:document NOT FileExtension:aspx` 있습니다.
   
 조직 외부의 사용자와 공유되는 것으로 간주되는 콘텐츠는 무엇인가요? 공유 초대를 보내 공유하거나 공용 위치에서 공유되는 SharePoint 비즈니스용 OneDrive 사이트의 문서입니다. 예를 들어 다음과 같은 사용자 활동은 외부 사용자가 콘텐츠를 볼 수 있도록 만듭니다.
   
 - 사용자가 조직 외부의 사람과 파일 또는 폴더를 공유합니다.
-    
+  
 - 사용자가 공유 파일을 만든 후 조직 외부의 사람에게 공유 파일에 대한 링크를 보냅니다. 이 링크를 사용하여 외부 사용자를 파일을 보거나 편집할 수 있습니다.
-    
+  
 - 사용자가 조직 외부의 사람에게 공유 파일을 보거나 편집할 수 있는 공유 초대 메일 또는 게스트 링크를 보냅니다.
-    
+  
 ### <a name="issues-using-the-viewablebyexternalusers-property"></a>ViewableByExternalUsers 속성을 사용하는 문제
 
-이 속성은 문서 또는 사이트를 외부 사용자와 공유하는지 여부를 나타내지만 이 속성이 어떤 의미를 가지며 반영되지 않는지 몇 가지  `ViewableByExternalUsers` 주의해야 합니다. 다음 시나리오에서는 속성 값이 업데이트되지 않습니다. 이 속성을 사용하는 콘텐츠 검색 쿼리의 결과는 부정확할  `ViewableByExternalUsers` 수 있습니다. 
+이 속성은 문서 또는 사이트를 외부 사용자와 공유하는지 여부를 나타내지만 이 속성이 어떤 의미를 가지며 반영되지 않는지 몇 가지  `ViewableByExternalUsers` 주의해야 합니다. 다음 시나리오에서는 속성 값이 업데이트되지 않습니다. 이 속성을 사용하는 검색 쿼리의 결과가 부정확할  `ViewableByExternalUsers` 수 있습니다. 
   
 - 사이트 또는 조직에 대한 외부 공유 해제와 같은 공유 정책 변경 사항 이 속성은 외부 액세스가 해지된 경우에도 이전에 공유한 문서가 외부에서 액세스할 수 있는 것으로 계속 표시되어 있습니다.
     
@@ -429,7 +435,7 @@ kind:im AND subject:conversation AND (received=startdate..enddate)
 
 ## <a name="search-tips-and-tricks"></a>검색 팁과 트릭
 
-- 키워드 검색은 대소문자 구분이 없습니다. 예를 들어 **cat** 및 **CAT** 은 같은 결과를 반환합니다. 
+- 키워드 검색은 대소문자 구분이 없습니다. 예를 들어 **cat** 및 **CAT** 은 같은 결과를 반환합니다.
 
 - 부울 연산자 **AND**, **OR**, **NOT** 및 **NEAR는** 대문자되어야 합니다. 
 

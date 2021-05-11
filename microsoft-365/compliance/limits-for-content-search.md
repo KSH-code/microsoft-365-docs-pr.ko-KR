@@ -16,16 +16,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
-description: 최대 동시 검색 수와 같은 Microsoft 365 준수 센터의 콘텐츠 검색 기능에 적용된 제한에 대해 자세히 알아보겠습니다. 이러한 검색 제한은 Core eDiscovery 사례와 연결된 검색에도 적용됩니다.
-ms.openlocfilehash: e4cfc79d35b4dc6a22e8e7a872699d906b39a901
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Microsoft 365 규정 준수 센터의 콘텐츠 검색 및 Core eDiscovery 기능에 적용될 제한에 대해 자세히 알아보겠습니다.
+ms.openlocfilehash: 47004473efe3407e9123fd15a7b1bf5f23e9fb23
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244323"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311415"
 ---
-# <a name="limits-for-content-search"></a>콘텐츠 검색에 대한 제한 
-규정 준수 센터의 콘텐츠 검색 도구에 다양한 Microsoft 365 적용됩니다. 여기에는 콘텐츠 검색 페이지에서  실행되는 검색과 **Core eDiscovery** 페이지의 eDiscovery 사례와 연결된 검색이 포함됩니다. 이러한 제한은 조직에 제공된 서비스의 상태 및 품질을 유지하는 데 도움이 됩니다. 검색을 위해 전자 메일 메시지 인덱싱과 관련된 제한도 Exchange Online 있습니다. 콘텐츠 검색 또는 전자 메일 인덱싱에 대한 제한은 수정할 수 없지만 콘텐츠 검색 계획, 실행 및 문제 해결 시 이러한 제한을 고려할 수 있도록 이러한 제한을 알고 있어야 합니다.
+# <a name="limits-for-ediscovery-search"></a>eDiscovery 검색 제한 
+
+규정 준수 센터의 eDiscovery 검색 도구에 다양한 Microsoft 365 적용됩니다. 여기에는 콘텐츠 검색 페이지에서  실행되는 검색과 **Core eDiscovery** 페이지의 eDiscovery 사례와 연결된 검색이 포함됩니다. 이러한 제한은 조직에 제공된 서비스의 상태 및 품질을 유지하는 데 도움이 됩니다. 검색을 위해 전자 메일 메시지 인덱싱과 관련된 제한도 Exchange Online 있습니다. eDiscovery 검색 또는 전자 메일 인덱싱에 대한 제한은 수정할 수 없지만 eDiscovery 검색 계획, 실행 및 문제 해결 시 이러한 제한을 고려할 수 있도록 이러한 제한을 알고 있어야 합니다.
+
+Advanced eDiscovery 관련된 제한은 Advanced eDiscovery [](limits-ediscovery20.md)
   
 ## <a name="search-limits"></a>검색 제한
 
