@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블을 배포할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 08ecf97e3cb45896390c3dac9074c54a2b0bbe96
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 2e757f7f07dbb911a8d89890b1f1cce80d7247b5
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51994775"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52302115"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -97,7 +97,10 @@ ms.locfileid: "51994775"
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>민감도 레이블용 최종 사용자 설명서
 
-가장 효과적인 최종 사용자 문서는 선택한 레이블 이름 및 구성에 대한 사용자 지정 안내사항 및 지침입니다. 기본 제공 레이블 지정의 경우 레이블 정책 설정을 사용하여 **사용자에게 사용자 정의 도움말 페이지에 대한 링크를 제공** 하여 이 설명서에 대한 내부 링크를 지정할 수 있습니다. 그러면 사용자는 Word, PowerPoint, Excel 및 Outlook Office 리본에서 **민감도** 단추의 **자세한 정보** 를 선택하여 액세스할 수 있습니다.
+가장 효과적인 최종 사용자 문서는 선택한 레이블 이름 및 구성에 대한 사용자 지정 안내사항 및 지침입니다. 레이블 정책 설정인 **사용자 정의 도움말 페이지에 대한 링크를 사용자에게 제공** 을 사용하여 이 설명서에 대한 내부 링크를 지정할 수 있습니다. 그러면 사용자는 다음을 수행하여 **민감도** 단추에서 설명서로 쉽게 액세스할 수 있습니다.
+
+- 기본 제공 레이블 지정의 경우: **자세히 알아보기** 메뉴 옵션.
+- Azure Information Protection 통합 레이블 지정 클라이언트의 경우: **도움말 및 피드백** 메뉴 옵션 > **자세한 정보** 링크(Microsoft Azure Information Protection 대화 상자).
 
 사용자 정의 설명서를 작성하려면 사용자를 교육하고 채택을 유도하는 데 사용할 수 있는 다운로드 패키지를 다음 블로그 게시물에서 참조하세요 [M365의 민감도 레이블에 대한 최종 사용자 교육 – 채택을 가속화하는 방법](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-sensitivity-labels-in-m365-how-to/ba-p/1750880). 
 
