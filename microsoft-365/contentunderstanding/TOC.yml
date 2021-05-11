@@ -42,6 +42,16 @@
   items:
     - name: 서비스 도입 프레임 워크 시작
       href: adoption-getstarted.md
+    - name: Microsoft 365에서 계약 관리
+      items:
+        - name: 개요
+          href: solution-manage-contracts-in-microsoft-365.md
+        - name: 1단계. SharePoint Syntex 사용
+          href: solution-manage-contracts-step1.md
+        - name: 2단계. Microsoft Teams 사용
+          href: solution-manage-contracts-step2.md
+        - name: 3단계. Power Automate
+          href: solution-manage-contracts-step3.md
 - name: 설정 및 관리
   items:
     - name: 콘텐츠 이해 설정

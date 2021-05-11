@@ -506,54 +506,54 @@
           items:
             - name: 키워드 쿼리 및 검색 조건
               href: keyword-queries-and-search-conditions.md
-            - name: 검색 결과에 대한 키워드 통계 보기
+            - name: eDiscovery 검색 결과 미리 보기
+              href: preview-ediscovery-search-results.md
+            - name: 검색 결과에 대한 통계 보기
               href: view-keyword-statistics-for-content-search.md
             - name: 검색 결과 내보내기
               href: export-search-results.md
             - name: 검색 보고서 내보내기
               href: export-a-content-search-report.md
-            - name: Microsoft Edge를 사용하여 검색 결과 다운로드
-              href: configure-edge-to-export-search-results.md
             - name: 전자 메일 메시지 검색 및 삭제
               href: search-for-and-delete-messages-in-your-organization.md
             - name: 온-프레미스 사용자의 Teams 채팅 데이터 검색
               href: search-cloud-based-mailboxes-for-on-premises-users.md
-            - name: 여러 콘텐츠 검색 일괄 편집
-              href: bulk-edit-content-searches.md
             - name: ID 목록 검색에 대한 CSV 파일 준비
               href: csv-file-for-an-id-list-content-search.md
-            - name: 검색 쿼리에서 오류 확인
-              href: check-your-content-search-query-for-errors.md
+            - name: 콘텐츠 검색에 대한 권한 필터링 구성
+              href: permissions-filtering-for-content-search.md
             - name: 일반적인 eDiscovery 문제 해결
               href: ediscovery-troubleshooting-common-issues.md
             - name: 실패한 검색 다시 시도
               href: retry-failed-content-search.md
             - name: 검색을 위해 숨은 참조 받는 사람을 바꾸지 않음
               href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
-        - name: 콘텐츠 검색 구성
-          items:
-            - name: 콘텐츠 검색에 대한 권한 필터링 구성
-              href: permissions-filtering-for-content-search.md
-            - name: 검색 결과를 내보낼 때 PST 파일 크기 변경
-              href: change-the-size-of-pst-files-when-exporting-results.md
-            - name: 콘텐츠 보고서를 사용하지 않도록 설정
-              href: disable-reports-when-you-export-content-search-results.md
         - name: 콘텐츠 검색 참조
           items:
-            - name: 콘텐츠 검색 제한
+            - name: eDiscovery 검색 제한
               href: limits-for-content-search.md
+            - name: eDiscovery용 사서함에 저장된 콘텐츠
+              href: what-is-stored-in-exo-mailbox.md
+            - name: 예상 및 실제 검색 결과 차이
+              href: differences-between-estimated-and-actual-ediscovery-search-results.md
             - name: 부분적으로 인덱싱된 항목
               href: partially-indexed-items-in-content-search.md
             - name: 부분적으로 인덱싱된 항목 조사
               href: investigating-partially-indexed-items-in-ediscovery.md
             - name: 검색 결과에서 중복 제거
               href: de-duplication-in-ediscovery-search-results.md
-            - name: 예상 및 실제 검색 결과 차이
-              href: differences-between-estimated-and-actual-ediscovery-search-results.md
-            - name: eDiscovery용 사서함에 저장된 콘텐츠
-              href: what-is-stored-in-exo-mailbox.md
             - name: eDiscovery 도구의 암호 해독
               href: ediscovery-decryption.md
+            - name: 검색 결과를 내보낼 때 PST 파일 크기 변경
+              href: change-the-size-of-pst-files-when-exporting-results.md
+            - name: 콘텐츠 보고서를 사용하지 않도록 설정
+              href: disable-reports-when-you-export-content-search-results.md
+            - name: 검색 쿼리에서 오류 확인
+              href: check-your-content-search-query-for-errors.md
+            - name: Microsoft Edge를 사용하여 검색 결과 다운로드
+              href: configure-edge-to-export-search-results.md
+            - name: 여러 콘텐츠 검색 일괄 편집
+              href: bulk-edit-content-searches.md
         - name: 컨텐츠 검색 PowerShell 스크립트
           items:
             - name: 대상 지정 컬렉션을 위해 콘텐츠 검색 사용
@@ -578,23 +578,29 @@
           href: close-reopen-delete-core-ediscovery-cases.md
         - name: 핵심 eDiscovery 참조
           items:
+            - name: eDiscovery 검색 제한
+              href: limits-for-content-search.md
             - name: eDiscovery 사용 권한 할당
               href: assign-ediscovery-permissions.md
             - name: 키워드 쿼리 및 검색 조건
               href: keyword-queries-and-search-conditions.md
             - name: eDiscovery용 사서함에 저장된 콘텐츠
               href: what-is-stored-in-exo-mailbox.md
-            - name: 콘텐츠 검색 권한 필터링
-              href: permissions-filtering-for-content-search.md
+            - name: eDiscovery 검색 결과 미리 보기
+              href: preview-ediscovery-search-results.md
             - name: 준수 경계 설정
               href: set-up-compliance-boundaries.md
+            - name: 콘텐츠 검색 권한 필터링
+              href: permissions-filtering-for-content-search.md
+            - name: 예상 및 실제 검색 결과 차이
+              href: differences-between-estimated-and-actual-ediscovery-search-results.md
+            - name: 검색 보고서 내보내기
+              href: export-a-content-search-report.md
             - name: 스크립트를 사용하여 eDiscovery 보류에 사용자 추가
               href: use-a-script-to-add-users-to-a-hold-in-ediscovery.md
             - name: eDiscovery 보류의 보고서 만들기
               href: create-a-report-on-holds-in-ediscovery-cases.md
-            - name: 검색 보고서 내보내기
-              href: export-a-content-search-report.md
-            - name: 검색 결과에 대한 키워드 통계 보기
+            - name: 검색 결과에 대한 통계 보기
               href: view-keyword-statistics-for-content-search.md
             - name: 분산된 데이터 검색 및 제거
               href: data-spillage-scenariosearch-and-purge.md
@@ -786,18 +792,22 @@
       href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: 감사 및 경고 정책 관리
   items:
+    - name: Microsoft 365 감사 솔루션
+      href: auditing-solutions-overview.md
     - name: 기본 감사
       items:
+        - name: 기본 감사 설정
+          href: set-up-basic-auditing.md
         - name: 감사 로그 검색
           href: search-the-audit-log-in-security-and-compliance.md
         - name: PowerShell 스크립트를 사용하여 감사 로그 검색
           href: audit-log-search-script.md
-        - name: 감사 로그 검색 켜기 또는 끄기
-          href: turn-audit-log-search-on-or-off.md
         - name: 감사 로그의 자세한 속성
           href: detailed-properties-in-the-office-365-audit-log.md
         - name: '감사 로그 레코드 내보내기, 구성 및 보기'
           href: export-view-audit-log-records.md
+        - name: 감사 로그 검색 켜기 또는 끄기
+          href: turn-audit-log-search-on-or-off.md
         - name: 감사 로그를 사용하여 일반적인 문제 조사
           href: auditing-troubleshooting-scenarios.md
         - name: 감사 로그에서 공유 감사 사용
@@ -810,16 +820,18 @@
               href: /office/office-365-management-api/office-365-management-activity-api-schema
             - name: Office 365 관리 작업 API FAQ 및 문제 해결
               href: /office/office-365-management-api/troubleshooting-the-office-365-management-activity-api
-    - name: 사서함 감사
-      href: enable-mailbox-auditing.md
     - name: 고급 감사
       items:
         - name: 고급 감사 개요
           href: advanced-audit.md
+        - name: 고급 감사 설정
+          href: set-up-advanced-audit.md
         - name: 로그 보존 정책 감사 관리
           href: audit-log-retention-policies.md
         - name: 고급 감사를 사용하여 손상된 계정 조사
           href: mailitemsaccessed-forensics-investigations.md
+    - name: 사서함 감사
+      href: enable-mailbox-auditing.md
     - name: 알림 정책
       href: alert-policies.md
 - name: 규정 준수 위험 관리
