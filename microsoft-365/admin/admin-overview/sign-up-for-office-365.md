@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: seemg, pablom
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,42 +20,40 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_signup
-- PPM_pablom
-ms.reviewer: seemg
 search.appverid:
 - MET150
 ROBOTS: NOINDEX
-description: 사용자 등록 프로세스를 진행하기 전에 알아야 할 Office 365.
+description: Office 365 등록 프로세스를 진행하기 전에 알아야 할 것을 이해합니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: 77fe0252a267b13fda19a6842ce0e07b1b8307b1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 12262a2165392b9dca699605f0b86fd7f3129ef0
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244011"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332693"
 ---
 # <a name="how-to-sign-up---admin-help"></a>등록 방법 - 관리자 도움말
 
 ::: moniker range="o365-worldwide"
 
-팀 Microsoft 365이 최신 버전의 Word, Excel, PowerPoint 및 기타 Office 사용할 수 있도록 비즈니스용 Office 등록합니다.
+팀이 최신 버전의 Word, Excel, PowerPoint 및 기타 Office 프로그램을 사용할 수 있도록 비즈니스용 Microsoft 365에 등록합니다.
   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-팀이 최신 버전의 Word, Excel, PowerPoint Office 프로그램 사용을 시작할 수 있도록 비즈니스용 Microsoft 365 등록합니다.
+팀이 최신 버전의 Word, Excel, PowerPoint 및 기타 Office 프로그램을 사용할 수 있도록 비즈니스용 Microsoft 365에 등록합니다.
   
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Office 365 운영하는 21Vianet은 중국의 안전하고 안정적이며 확장 가능한 클라우드 서비스에 대한 요구를 충족하도록 디자인되어 있습니다. 이 서비스는 Microsoft가 21Vianet에 허가한 기술을 기반으로 합니다. Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet은 이 서비스의 배달을 운영, 제공 및 관리합니다. 21Vianet은 중국 최대의 이동 통신 사업자 중립 인터넷 데이터 센터 서비스 공급자로서 호스팅, 관리되는 네트워크 서비스 및 클라우드 컴퓨팅 인프라 서비스를 제공합니다. Microsoft 기술 라이선스를 통해 21Vianet은 로컬 Microsoft 데이터 센터를 운영하여 중국 내에서 데이터를 유지하면서 Microsoft 서비스 기능을 제공합니다. 21Vianet에서는 구독 및 청구 서비스뿐만 아니라 지원도 제공합니다.
+21Vianet에서 운영하는 Office 365는 중국의 안전하고 안정적이며 확장 가능한 클라우드 서비스에 대한 요구를 충족하도록 디자인됩니다. 이 서비스는 Microsoft가 21Vianet에 허가한 기술을 기반으로 합니다. Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet은 이 서비스의 배달을 운영, 제공 및 관리합니다. 21Vianet은 중국 최대의 이동 통신 사업자 중립 인터넷 데이터 센터 서비스 공급자로서 호스팅, 관리되는 네트워크 서비스 및 클라우드 컴퓨팅 인프라 서비스를 제공합니다. Microsoft 기술 라이선스를 통해 21Vianet은 로컬 Microsoft 데이터 센터를 운영하여 데이터를 중국 내에서 유지하면서 Microsoft 서비스를 사용할 수 있는 기능을 제공합니다. 21Vianet에서는 구독 및 청구 서비스뿐만 아니라 지원도 제공합니다.
   
 > [!NOTE]
 > 이러한 서비스는 중국 법을 따릅니다.
   
-팀 Office 365이 최신 버전의 Word, Excel, PowerPoint 및 기타 Office 프로그램을 사용할 수 있도록 21Vianet에서 운영하는 Office 등록합니다.
+팀이 최신 버전의 Word, Excel, PowerPoint 및 기타 Office 프로그램을 사용할 수 있도록 21Vianet에서 운영하는 Office 365에 등록합니다.
   
 등록할 준비가 되나요? [계획을 선택합니다.](https://products.office.com/zh-cn/business/compare-office-365-for-business-plans)
   
@@ -65,7 +64,7 @@ Office 365 운영하는 21Vianet은 중국의 안전하고 안정적이며 확�
 
 구입하기 전에 등록하는 계획에 대해 몇 가지 생각을 하게 합니다. 나중에 생길 수도 있는 문제를 방지하는 데 도움이 됩니다.
 
-비즈니스용 요금제 선택에 대한 Microsoft 365 비디오를 시청합니다.<br><br>
+비즈니스용 Microsoft 365 요금제 선택에 대한 짧은 비디오를 시청합니다.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
@@ -119,9 +118,9 @@ Office 365 운영하는 21Vianet은 중국의 안전하고 안정적이며 확�
   - 필요한 경우 구독에 대해 연락받을 수 있는 **전자 메일** 및 **전화 번호**. 예를 들어 암호를 잊어버린 경우 Microsoft는 이 정보를 사용하여 임시 암호를 보내 드립니다. 또한 지정한 전자 메일 주소로 청구 정보도 보내 드립니다.
 
     > [!NOTE]
-    > 여기에 입력하는 전자 메일 주소는 Microsoft 365 주소(아래 로그온 이름)가 다릅니다. 이 주소로 청구 정보도 전송되므로, 비즈니스 전자 메일을 받기에 적합한 주소를 사용하는 것이 좋습니다.
+    > 여기에 입력하는 전자 메일 주소는 Microsoft 365 전자 메일 주소(아래 로그온 이름)와 다릅니다. 이 주소로 청구 정보도 전송되므로, 비즈니스 전자 메일을 받기에 적합한 주소를 사용하는 것이 좋습니다.
   
-- **로그인 이름(사용자 ID):** 이 사용자 ID는 빠르게 Microsoft 365 전자 메일 주소의 초기 주소가 됩니다.
+- **로그인 이름(사용자 ID):** 이 사용자 ID는 빠르게 시작할 수 있도록 초기 Microsoft 365 전자 메일 주소가 됩니다.
 
     이 사용자 ID는 로그인하는 데 사용하는 전자 메일 주소입니다. 예를 들어 회사 이름이 Fourth Coffee인 경우 사용자 ID로 rob@fourthcoffee.onmicrosoft.com을 선택할 수 있습니다.
 
@@ -136,4 +135,4 @@ Office 365 운영하는 21Vianet은 중국의 안전하고 안정적이며 확�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 교육용 비디오(링크](../../business-video/index.yml) 페이지)
+[비즈니스용 Microsoft 365 교육 비디오(링크](../../business-video/index.yml) 페이지)

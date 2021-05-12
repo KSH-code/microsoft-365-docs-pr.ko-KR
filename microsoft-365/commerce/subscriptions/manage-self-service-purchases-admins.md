@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: mijeffer, pablom
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,20 +13,20 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
-- commerce
+- commerce_ssp
 search.appverid:
 - MET150
 description: 관리자는 조직의 사용자가 만든 셀프 서비스 구매를 관리하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 5378d14affd074bfad356fea4bb2adbd6ca104dd
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.date: 03/26/2021
+ms.openlocfilehash: af1786b7e3d1b3e4a03202d605d734271acb1da5
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52293574"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333341"
 ---
 # <a name="manage-self-service-purchases-admin"></a>셀프 서비스 구매(관리자) 관리
 
@@ -132,7 +133,7 @@ ms.locfileid: "52293574"
 1. 사용자를 다른 구독으로 이동하고 원래 구독을 취소합니다.
 2. 셀프 서비스 구매 구독을 취소하고 할당된 사용자에서 라이선스를 제거합니다.
 
-### <a name="move-users-to-a-different-subscription"></a>사용자를 다른 구독으로 이동
+### <a name="move-users-to-a-different-subscription"></a>다른 구독으로 사용자 이동
 
 사용자를 다른 구독으로 이동하면 이전 구독이 자동으로 취소됩니다. 셀프 서비스 구매 구독을 처음 구입한 사용자는 구독이 취소되었습니다.는 전자 메일을 받게 됩니다.
 

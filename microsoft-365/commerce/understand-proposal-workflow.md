@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: presharm
+ms.reviewer: presharm, jmueller
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -16,17 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
-- PPM_jmueller
 search.appverid: MET150
 description: Microsoft 제품 및 서비스를 구입하는 데 도움이 되는 제안에 대해 자세히 알아보습니다.
 ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: a3c91168c90b91d83a9aa116c1ff57d103b3c48c
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: c61fa53267f2fdb60e78a05cd89aa6f364cb2395
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280874"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332957"
 ---
 # <a name="understand-the-proposal-workflow"></a>제안 워크플로 이해
 
@@ -171,7 +170,7 @@ MCA에 서명하려면 다음 단계 아래에서 **단추를 선택합니다.**
 
 새 고객이 제안의 일부로 Azure 제품을 구입한 경우 다음 단계는 새 청구 계정을 설정하는 것입니다. 자세한 내용은 Microsoft 고객 계약에 대한 청구 [계정 설정 을 참조하세요.](/azure/cost-management-billing/manage/mca-setup-account)
 
-기존 Azure 고객인 경우 기업계약 처음으로 MCA에 서명하는 경우 다음 단계는 계약 간의 변경 내용과 새 청구 계정으로 작업을 완료하는 방법을 알아보는 것입니다. 자세한 내용은 Microsoft 고객 계약에 기업계약 계정의 작업 [완료를 참조하세요.](/azure/cost-management-billing/manage/mca-enterprise-operations)
+기존 Azure 고객인 경우 기업계약 처음으로 MCA에 서명하는 경우 다음 단계는 계약 간의 변경 내용과 새 청구 계정으로 작업을 완료하는 방법을 알아보는 것입니다. 자세한 내용은 Microsoft 고객 계약에 대한 기업계약 계정의 작업 [완료를 참조하세요.](/azure/cost-management-billing/manage/mca-enterprise-operations)
 
 ## <a name="understand-invoicing"></a>인보이스 이해
 

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: drjones
+ms.reviewer: drjones, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,16 +17,15 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_SMB
 - commerce_purchase
-- PPM_jmueller
 search.appverid: MET150
-description: 가격을 인하하기 위해 Microsoft 365 홍보 코드를 적용하는 방법과 오류 발생 시 홍보 코드 문제를 해결하는 방법을 배워야 합니다.
+description: Microsoft 365 구독에 홍보 코드를 적용하여 가격을 인하하는 방법과 오류 발생 시 홍보 코드 문제를 해결하는 방법을 배워야 합니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: 01cc7cd182f3e25867191c83b58016ef090c8934
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 30484915246e1d8b1389f09d71d9d67865962a7e
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280406"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332921"
 ---
 # <a name="use-your-promo-code-to-reduce-price"></a>프로모션 코드를 사용하여 가격 인하
 
@@ -43,7 +42,7 @@ ms.locfileid: "52280406"
   
 ## <a name="promo-code-terms"></a>홍보 코드 조건
 
-다음 지침은 비즈니스용 구독에 대한 Microsoft 365 코드에 적용됩니다.
+다음 지침은 비즈니스용 Microsoft 365 구독의 프로모션 코드에 적용됩니다.
   
 - **구독당 홍보 코드 수** 동일한 주문의 여러 구독에 대해 하나의 홍보 코드를 사용할 수 있지만 동일한 구독에 대해 여러 홍보 코드를 사용할 수는 없습니다.
 - **할인 기간** 홍보 코드 할인이 주문에 적용된 경우 구독 기간 동안 지속됩니다. 기간이 월별로 적용되는 구독인 경우 입력한 청구 월이 끝날 때까지 홍보 코드 할인이 지속됩니다. 기간이 연간으로 적용되는 구독(지불은 월별일 수 있음)인 경우에는 입력한 청구 연도가 끝날 때까지 홍보 코드 할인이 지속됩니다.

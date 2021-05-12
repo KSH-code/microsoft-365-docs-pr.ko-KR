@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,18 +16,15 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
-- PPM_jmueller
-ms.reviewer: jkinma
-search.appverid:
-- MET150
+search.appverid: MET150
 description: 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소하는 방법에 대해 알아보세요.
 ms.date: 04/08/2021
-ms.openlocfilehash: 329bc10adbe6c2ad0efe3609e7cb72141ae346bd
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 022981e91abc985a0540acccccd6f211b39620a4
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297311"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333317"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -126,7 +124,7 @@ NS 레코드를 변경하려면 [도메인 제거](../../admin/get-help-with-dom
 
 - 전자 메일, 연락처, 작업 및 일정 정보를 다른 계정으로 이동하려면 [전자 메일, 연락처, 일정을 Outlook .pst 파일로 내보내기 또는 백업](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx)을 참조하세요.
 
-- SharePoint Online 환경(비즈니스용 OneDrive 또는 팀 사이트)의 문서 라이브러리나 목록 콘텐츠(예: 연락처)를 파일 공유 또는 로컬 컴퓨터에 저장하려면 [SharePoint Online 콘텐츠 수동 마이그레이션](https://docs.microsoft.com/sharepoint/troubleshoot/migration-tool/content-manual-migration)을 참조하세요.
+- SharePoint Online 환경(비즈니스용 OneDrive 또는 팀 사이트)의 문서 라이브러리나 목록 콘텐츠(예: 연락처)를 파일 공유 또는 로컬 컴퓨터에 저장하려면 [SharePoint Online 콘텐츠 수동 마이그레이션](/sharepoint/troubleshoot/migration-tool/content-manual-migration)을 참조하세요.
 
 ### <a name="uninstall-office-optional"></a>Office 제거(선택 사항)
 

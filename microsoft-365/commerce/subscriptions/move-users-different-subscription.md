@@ -1,11 +1,11 @@
 ---
-title: 사용자를 다른 구독으로 이동
+title: 다른 구독으로 사용자 이동
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: micurn
+ms.reviewer: micurn, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,18 +17,17 @@ ms.custom:
 - AdminSurgePortfolio
 - manage_licenses
 - commerce_subscriptions
-- PPM_nicholak
 search.appverid: MET150
 description: 구독 간에 사용자를 이동하는 방법을 학습합니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 7adaa0eba1ccc06029ab5f4e1ada1d961155e66b
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 0261ee15d16e895cb2552320097d8e6b396d5220
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280478"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333209"
 ---
-# <a name="move-users-to-a-different-subscription"></a>사용자를 다른 구독으로 이동
+# <a name="move-users-to-a-different-subscription"></a>다른 구독으로 사용자 이동
 
 구독이 두 개 이상 있는 경우 한 구독에 대한 라이선스가 있는 사용자에게 있지만 다른 구독으로 이동하려는 경우 기존 라이선스를 다른 구독으로 바꿀 수 있습니다.
 
@@ -36,23 +35,23 @@ ms.locfileid: "52280478"
 
 라이선스를 할당하려면 전역, 라이선스 또는 사용자 관리자여야 합니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 
-## <a name="move-users-to-a-different-subscription"></a>사용자를 다른 구독으로 이동
+## <a name="move-users-to-a-different-subscription"></a>다른 구독으로 사용자 이동
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 

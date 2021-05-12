@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,18 +17,15 @@ ms.custom:
 - AdminSurgePortfolio
 - fwlink 2133922 to Delete subscription heading
 - commerce_subscription
-- PPM_jmueller
-ms.reviewer: jkinma
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Microsoft에서 계정을 닫는 방법을 알아보하세요.
 ms.date: 04/02/2021
-ms.openlocfilehash: 86232e3f433526cc60ef369eda03ef8d20ab08c9
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 767a82088500bc24c0d4755a2dafd40742fc796c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52293670"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331769"
 ---
 # <a name="close-your-account"></a>계정 사용 중지 
 
@@ -43,13 +41,13 @@ Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩�
 
 전역 관리자 한 명을 제외한 모든 사용자를 삭제합니다. 전역 관리자가 계정을 닫는 단계를 완료합니다. 이 프로세스가 끝나면 디렉터리를 삭제하려면 먼저 다른 모든 사용자를 삭제해야 합니다.
 
-사용자가 오프-프레미스에서 동기화되는 경우 먼저 동기화를 해제한 다음 Azure Portal 또는 Azure PowerShell cmdlet을 사용하여 클라우드 디렉터리의 사용자를 삭제합니다.
+사용자가 사내에서 동기화되는 경우 먼저 동기화를 해제한 다음 Azure Portal 또는 Azure PowerShell cmdlet을 사용하여 클라우드 디렉터리의 사용자를 삭제합니다.
 
 사용자를 삭제하려면 사용자 관리 관리자: 하나 이상의 사용자 [삭제를 참조하세요.](../admin/add-users/delete-a-user.md#user-management-admin-delete-one-or-more-users-from-office-365)
 
 [Remove-MsolUser](/powershell/module/msonline/remove-msoluser) PowerShell cmdlet을 사용하여 사용자를 대량으로 삭제할 수도 있습니다.
 
-조직에서 Azure AD(Active Directory)와 동기화되는 Active Directory를 Microsoft Azure Active Directory Active Directory에서 사용자 계정을 삭제합니다. 자세한 내용은 [에서 사용자 일괄 삭제를 Azure Active Directory.](/azure/active-directory/users-groups-roles/users-bulk-delete)
+조직에서 Microsoft Azure AD(Azure Active Directory)와 동기화하는 Active Directory를 사용하는 경우 대신 Active Directory에서 사용자 계정을 삭제합니다. 자세한 내용은 Azure Active Directory에서 사용자 대량 [삭제를 참조하세요.](/azure/active-directory/users-groups-roles/users-bulk-delete)
 
 ## <a name="step-2-cancel-all-active-subscriptions"></a>2단계: 활성 구독 모두 취소
 
@@ -81,7 +79,7 @@ Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩�
 PowerShell을 사용하여 여러 사용자에 대해 [다단계 인증을](/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell)사용하지 않도록 설정할 수도 있습니다.
 
 
-## <a name="step-5-delete-the-directory-in-azure-active-directory"></a>5단계: 2단계에서 디렉터리 Azure Active Directory
+## <a name="step-5-delete-the-directory-in-azure-active-directory"></a>5단계: Azure Active Directory에서 디렉터리 삭제
 
 1. 전역 관리자 계정으로 <a href="https://aad.portal.azure.com/" target="_blank">Azure AD</a> 관리 센터에 로그인합니다.
 2. **Azure Active Directory** 를 선택합니다.

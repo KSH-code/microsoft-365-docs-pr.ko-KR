@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-description: 특정 앱에 대한 라이선스를 사용자에게 자동으로 할당하는 자동 클레임 정책을 만들고 관리하는 방법을 학습합니다.
 ms.custom:
 - AdminSurgePortfolio
 - commerce_licensing
+description: 특정 앱에 대한 라이선스를 사용자에게 자동으로 할당하는 자동 클레임 정책을 만들고 관리하는 방법을 학습합니다.
 search.appverid: MET150
 ms.date: 04/06/2021
-ms.openlocfilehash: c89c8114c9a71a315d5876a0edf55d269ed2b12d
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: b104700905b3753466036411368951f12a7012d8
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327109"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331649"
 ---
 # <a name="manage-auto-claim-policies"></a>자동 클레임 정책 관리
 

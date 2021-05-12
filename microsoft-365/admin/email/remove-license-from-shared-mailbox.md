@@ -4,6 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: sharik
 author: SKjerland
+ms.reviewer: nicholak
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -12,22 +13,20 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
-- MSStore_Link
 - AdminSurgePortfolio
+- commerce_licensing
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: '공유 사서함에서 라이선스를 제거하여 다른 사용자에게 할당합니다. '
-ms.openlocfilehash: 873b50b34b9887ada92cc56f7083e3b748a52035
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 2d0e6e6b1d6222bea80265bf6cc008e21ac3239c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327225"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332657"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>공유 사서함에서 라이선스 제거
 
@@ -42,7 +41,6 @@ ms.locfileid: "52327225"
 > 3. 공유 사서함은 소송 보류에 배치됩니다.
 > 4. 공유 사서함에 Microsoft Defender 라이선스가 할당되어 있습니다.
 
-  
 ## <a name="remove-the-license"></a>라이선스 제거
 
 ::: moniker range="o365-worldwide"
@@ -50,7 +48,7 @@ ms.locfileid: "52327225"
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
    > [!NOTE]
-   > 활성 사용자 페이지에서 라이선스를 제거해야 합니다. 라이선스는 사용자 설정이기 때문에 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다. 
+   > 활성 사용자 페이지에서 라이선스를 제거해야 합니다. 라이선스는 사용자 설정이기 때문에 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다.
   
 2. 공유 사서함을 선택합니다.
 
@@ -100,9 +98,7 @@ ms.locfileid: "52327225"
 
 6. 라이선스 비용은 계속 지불하고 있습니다. 요금 지불을 중지하려면 구독에서 [라이선스를 제거합니다.](../../commerce/licenses/buy-licenses.md)
 
-::: moniker-end 
-
- 
+::: moniker-end
 
 ## <a name="related-articles"></a>관련 문서
 

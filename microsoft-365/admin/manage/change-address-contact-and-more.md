@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: tugu, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,24 +16,21 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commcerce_billing
-- PPM_jmueller
-ms.reviewer: tugu
-search.appverid:
-- MET150
+search.appverid: MET150
 description: 조직 이름, 주소, 전화, 기술 담당자 및 전자 메일과 같은 조직 프로필을 변경하는 방법을 알아보세요.
 ms.date: 03/30/2021
-ms.openlocfilehash: 05908de7c4fc899669da2ba2a3d3024855f4b394
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 880a540db8b8b1a18ddebabd335c8c2dedd36721
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297095"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332438"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>조직 주소, 기술 담당자 등 변경
   
 조직 이름, 주소, 전화 및 기술 담당자와 같은 조직 프로필을 변경할 수 있습니다. **이 정보를 업데이트하려면 전역 관리자여야 합니다.**
   
-청구서 또는 구독과 연결된 주소를 변경하려면 비즈니스용 청구 주소 Microsoft 365 [변경을 참조하세요.](../../commerce/billing-and-payments/change-your-billing-addresses.md)
+청구서 또는 구독과 연결된 주소를 변경하려면 [비즈니스용 Microsoft 365의 청구 주소 변경을 참조하세요.](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
 ## <a name="edit-organization-information"></a>조직 정보 편집
 
@@ -41,7 +39,7 @@ ms.locfileid: "52297095"
 
 회사의 프로필 페이지에서 다른 정보를 변경하려면
   
-1. 관리 센터에서 설정  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**설정 페이지로**</a> 이동합니다.
+1. 관리 센터에서 설정 구성  \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**설정 페이지로 이동합니다.**</a>
 
 2. 조직 **프로필 탭에서** 조직 **정보를 선택합니다.**
 
@@ -53,18 +51,18 @@ ms.locfileid: "52297095"
 
 |**필드**  |**설명**  |
 |---------|---------|
-|이름  <br/>   | 여기에 입력된 이름은 다음 페이지에서 사용자에게 표시됩니다.  <br/>  로그인 페이지: 사용자가 회사 또는 학교 전자 메일 주소를 사용하여 다른 Microsoft 계정을 설정했을 경우 로그인 페이지에 조직 이름이 표시될 수 있습니다. 그러면 회사 또는 학교 계정과 다른 계정을 손쉽게 구분할 수 있으므로 로그인할 때 사용할 계정을 식별할 수 있습니다.  <br/>  조직 프로필 링크 및 페이지: 조직 프로필의 링크에 조직 이름이 표시됩니다.  <br/>  Yammer 탐색: Yammer 왼쪽 탐색에서는 조직 이름을 홈 Yammer 네트워크의 이름으로 사용하게 됩니다.  <br/> OneDrive 동기화 클라이언트: 조직 이름은 Mac의 Windows 및 찾기의 파일 탐색기, 파일 경로, OneDrive 활동 센터, OneDrive 클라우드 아이콘의 도구 OneDrive 창에 표시됩니다. 현재 조직 이름을 업데이트하면 구성된 클라이언트에 대해 업데이트되지 않습니다. <br/> MS Teams: 조직의 Teams 표시 <br/>  |
-|주소, 구/군/시, 시/도, 우편 번호  <br/>     | 여기에 입력한 주소는 청구서에서 판매할 주소: 청구서의 판매자 주소는 프로필 페이지의 조직 주소와 동일합니다(비즈니스용 Microsoft 365 청구서 또는 송장 [이해 참조).](../../commerce/billing-and-payments/understand-your-invoice2.md)  <br/>        |
+|이름  <br/>   | 여기에 입력된 이름은 다음 페이지에서 사용자에게 표시됩니다.  <br/>  로그인 페이지: 사용자가 회사 또는 학교 전자 메일 주소를 사용하여 다른 Microsoft 계정을 설정했을 경우 로그인 페이지에 조직 이름이 표시될 수 있습니다. 그러면 회사 또는 학교 계정과 다른 계정을 손쉽게 구분할 수 있으므로 로그인할 때 사용할 계정을 식별할 수 있습니다.  <br/>  조직 프로필 링크 및 페이지: 조직 프로필의 링크에 조직 이름이 표시됩니다.  <br/>  Yammer 탐색: Yammer 왼쪽 탐색에서는 조직 이름을 홈 Yammer 네트워크의 이름으로 사용하게 됩니다.  <br/> OneDrive 동기화 클라이언트: 조직 이름은 Windows의 파일 탐색기 및 Mac의 찾기, 파일 경로, OneDrive 활동 센터, OneDrive 클라우드 아이콘의 도구 탐색기 및 OneDrive 설정 창에 표시됩니다. 현재 조직 이름을 업데이트하면 구성된 클라이언트에 대해 업데이트되지 않습니다. <br/> MS Teams: Teams의 조직 전환기에서 조직 이름을 표시 <br/>  |
+|주소, 구/군/시, 시/도, 우편 번호  <br/>     | 여기에 입력한 주소는 청구서에서 판매할 주소: 청구서의 판매자 주소는 프로필 페이지의 조직 주소와 같습니다(비즈니스용 [Microsoft 365의](../../commerce/billing-and-payments/understand-your-invoice2.md)청구서 또는 송장 이해 참조).  <br/>        |
 |국가 또는 지역  <br/>    | 회사의 본사가 있는 국가 또는 지역입니다. 선택한 국가 또는 지역은 사용 가능한 서비스, 해당 국가 또는 지역의 세금 및 대금 청구 통화, 가장 가까운 데이터 센터의 위치를 결정합니다( [Microsoft Office 라이선스 제한 사항](https://office.microsoft.com/redir/FX103037529) 참조).  <br/>참고: 선택한 국가 또는 지역은 변경할 수 없습니다. 선택을 변경하려면 구독을 취소하고 다시 등록해야 합니다. 이 프로세스에 대한 도움말을 원할 경우 고객 [지원에 문의합니다.](../../business-video/get-help-support.md)        |
 |전화  <br/>     | 회사의 기본 전화입니다. 일반적으로 회사 본사의 전화 번호를 말합니다.  <br/>        |
-|기술 담당자  <br/> |이 주소는 사용자 구독을 관리하는 기본 기술 Microsoft 365 주소입니다. 서비스 상태에 대한 통신을 받을 Microsoft 365 사람입니다.  <br/> |
+|기술 담당자  <br/> |Microsoft 365 구독을 관리하는 기본 기술 사용자에 대한 전자 메일 주소입니다. Microsoft 365 서비스 상태에 대한 통신을 받을 사람입니다.  <br/> |
 |기본 설정 언어  <br/> |기본 설정 언어에 따라 Microsoft에서 조직으로 보내는 모든 통신의 언어가 결정됩니다. 등록할 때 이 설정에 따라 SharePoint Online에서 사용되는 언어가 결정되며 사용자의 팀 사이트도 이 언어로 표시됩니다. 등록한 후 언어 기본 설정을 변경할 경우 이후 진행되는 모든 통신에는 최근에 선택한 언어가 사용됩니다.    <br/> 참고: SharePoint Online에서 사용하는 언어는 변경할 수 없습니다.           |
 
 ## <a name="change-your-alternate-email-address"></a>대체 전자 메일 주소 변경
 
 관리자는 암호를 다시 설정하기 위해 대체 전자 메일 주소를 변경할 수 있습니다.
 
-1. Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터로 이동하세요.</a>
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터로 이동하세요.</a>
 
 2. 헤더에서 프로필 아이콘을 선택한 다음 계정 보기 **를 선택합니다.**
 

@@ -19,14 +19,14 @@ ms.custom:
 - manage_licenses
 - commerce_licensing
 search.appverid: MET150
-description: 비즈니스용 Microsoft 365 구독에 대한 라이선스를 더 구입하거나 라이선스 수를 줄이는 방법을 알아보하세요.
+description: 비즈니스용 구독에 대한 라이선스를 더 구입하거나 라이선스 수를 줄이는 Microsoft 365 방법을 알아보하세요.
 ms.date: 04/07/2021
-ms.openlocfilehash: 6603b49ed7af8b5213141d5c2434093c3af9540a
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: a327149a780d2059cfc69068fc4b2122e549773c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327121"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331685"
 ---
 # <a name="buy-or-remove-licenses"></a>라이선스 구입 또는 제거
 
@@ -36,7 +36,7 @@ ms.locfileid: "52327121"
 
 - 이 문서에 설명된 작업을 수행하려면 전역 관리자 또는 대금 청구 관리자 되어야 합니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
 - 사용자를 추가하고 동시에 라이선스를 [할당할 수 있습니다.](../../admin/add-users/add-users.md)
-- 타사 파트너를 통해 비즈니스용 Microsoft 365 또는 Office 365 Enterprise 요금제를 구입한 경우 해당 파트너를 통해 추가 라이선스를 구입해야 합니다.
+- 타사 파트너를 통해 Microsoft 365 또는 Office 365 Enterprise 요금제에 대한 라이선스를 구입한 경우 해당 파트너를 통해 추가 라이선스를 구입해야 합니다.
 
 ## <a name="watch-buy-new-licenses"></a>시청: 새 라이선스 구입
 
@@ -108,4 +108,4 @@ ms.locfileid: "52327121"
 
 [사용자에게 라이선스 할당](../../admin/manage/assign-licenses-to-users.md)(문서)\
 [구독 및 라이선스 이해](subscriptions-and-licenses.md) (문서)\
-[Microsoft 365](../try-or-buy-microsoft-365.md) 구독 시도 또는 구입(문서)
+[구독을 시도하거나 Microsoft 365](../try-or-buy-microsoft-365.md) 구입(문서)

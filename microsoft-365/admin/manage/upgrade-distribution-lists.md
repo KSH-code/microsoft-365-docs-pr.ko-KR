@@ -1,5 +1,5 @@
 ---
-title: 메일 그룹을 Microsoft 365 그룹으로 Outlook
+title: Outlook에서 메일 그룹을 Microsoft 365 그룹으로 업그레이드
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -19,46 +19,46 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
-description: 하나 또는 여러 개의 메일 그룹을 Microsoft 365 그룹으로 업그레이드하는 방법과 powerShell을 사용하여 여러 메일 Outlook 동시에 업그레이드하는 방법을 배워야 합니다.
-ms.openlocfilehash: 72a98cdfda441dc71fcc5ae21f0042dafef3aefb
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+description: 하나 또는 여러 메일 그룹을 Outlook의 Microsoft 365 그룹으로 업그레이드하는 방법과 PowerShell을 사용하여 여러 메일 그룹을 동시에 업그레이드하는 방법을 배워야 합니다.
+ms.openlocfilehash: 8179937cafa26a2258f67baee29fcec65bd60632
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297083"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332453"
 ---
-# <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>메일 그룹을 Microsoft 365 그룹으로 Outlook
+# <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Outlook에서 메일 그룹을 Microsoft 365 그룹으로 업그레이드
 
-메일 그룹을 메일 그룹의 Microsoft 365 업그레이드할 수 Outlook. 이는 조직의 메일 그룹에 대한 모든 기능 및 기능을 조직의 메일 그룹에 제공하는 Microsoft 365 좋은 방법입니다. [Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
+메일 그룹은 Outlook에서 Microsoft 365 그룹으로 업그레이드할 수 있습니다. 이는 조직의 메일 그룹에 Microsoft 365 그룹의 모든 기능을 제공하는 좋은 방법입니다. [Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
 
 DLS를 한 번씩 업그레이드하거나 동시에 여러 DLS를 업그레이드할 수 있습니다.
 
-## <a name="upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>하나 또는 여러 메일 그룹 그룹을 Microsoft 365 그룹으로 Outlook
+## <a name="upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>Outlook에서 메일 그룹 하나 또는 여러 개를 Microsoft 365 그룹으로 업그레이드
 
 메일 그룹 그룹을 업그레이드하려면 전역 관리자 또는 Exchange 관리자 되어야 합니다. Microsoft 365 그룹으로 업그레이드하려면 메일 그룹 그룹에 사서함이 있는 소유자가 있어야 합니다.
 
-### <a name="use-the-new-eac-to-upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>새 EAC를 사용하여 하나 또는 여러 메일 그룹 그룹을 Microsoft 365 그룹으로 업그레이드할 Outlook
+### <a name="use-the-new-eac-to-upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>새 EAC를 사용하여 하나 또는 여러 메일 그룹이 Outlook의 Microsoft 365 그룹으로 업그레이드
 
-1. 새 Exchange [관리 센터로](https://admin.exchange.microsoft.com)이동하고 받는 사람 **그룹으로** \> **이동합니다.**
+1. 새 Exchange 관리 [센터로 이동하여](https://admin.exchange.microsoft.com)받는 사람 **그룹으로** \> **이동합니다.**
 
-2. 그룹 페이지에서 메일 그룹으로 업그레이드할 메일 그룹(메일 그룹이라고도 Microsoft 365 그룹)을 선택합니다. 
+2. 그룹 페이지에서 Microsoft 365 그룹으로 업그레이드할 메일 그룹(메일 그룹이라고도 하는 메일 그룹)을 선택합니다.  
 
 3. 도구 **모음에서 업그레이드** 메일 그룹을 선택합니다.
 
 4. 업그레이드 준비 대화 **상자에서** 업그레이드를 **클릭합니다.** 프로세스가 즉시 시작됩니다. 업그레이드하는 메일 그룹 그룹의 크기와 수에 따라 프로세스에 몇 분 또는 몇 시간이 걸릴 수 있습니다.
 
 > [!NOTE]
-> 맨 위에 있는 배너는 업그레이드를 나타냅니다(예: 메일 그룹이 *업그레이드된 경우). 변경 내용을 반영하는 데 5분 정도 걸립니다. 업그레이드된 Microsoft 365* 그룹으로 필터링합니다.
+> 맨 위에 있는 배너는 업그레이드를 나타냅니다(예: 메일 그룹이 *업그레이드된 경우). 변경 내용을 반영하는 데 5분 정도 걸립니다. Microsoft 365* 그룹으로 필터링하여 업그레이드된 트러블 그룹 을 볼 수 있습니다.
 
-### <a name="use-the-classic-eac-to-upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>클래식 EAC를 사용하여 하나 또는 여러 메일 그룹 그룹을 Microsoft 365 그룹으로 업그레이드할 Outlook
+### <a name="use-the-classic-eac-to-upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>클래식 EAC를 사용하여 Outlook에서 메일 그룹 하나 또는 여러 개를 Microsoft 365 그룹으로 업그레이드
 
-1. 클래식 Exchange <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">관리 센터로 이동하세요.</a>
+1. 클래식 Exchange 관리 <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">센터로 이동하세요.</a>
 
-2. 클래식 Exchange 관리 센터에서 받는 사람 **그룹으로** \> **이동하세요.**<br/>메일 그룹이라고도 하는 메일 그룹으로 업그레이드할 수 있는 메일 그룹이 있는 경우를 나타내는 알림이 Microsoft 365 있습니다.<br/> ![시작 단추 선택](../../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
+2. 클래식 Exchange 관리 센터에서 받는 사람 **그룹으로** \> **이동하세요.**<br/>Microsoft 365 그룹으로 업그레이드할 수 있는 메일 그룹(메일 그룹이라고도 하는 메일 그룹)이 있는 경우를 나타내는 알림이 표시됩니다.<br/> ![시작 단추 선택](../../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
 
 3. 그룹 페이지에서 하나 이상의 메일 그룹(메일 그룹이라고도 합니다.)을 선택합니다. <br/>![메일 그룹 선택](../../media/2c303433-d60b-4100-a6ae-5809b03a8cdb.png)
 
-4. 업그레이드 아이콘을 선택합니다.<br/>![그룹 Microsoft 365 업그레이드](../../media/1e28cb3d-bff3-4be3-8329-1902d2d54720.png)
+4. 업그레이드 아이콘을 선택합니다.<br/>![Microsoft 365 그룹으로 업그레이드 아이콘](../../media/1e28cb3d-bff3-4be3-8329-1902d2d54720.png)
 
 5. 정보 대화 상자에서 **예를** 선택하여 업그레이드를 선택합니다. 프로세스가 즉시 시작됩니다. 업그레이드하는 DLS의 크기와 수에 따라 프로세스에 몇 분 또는 몇 시간이 걸릴 수 있습니다.<br/>메일 목록을 업그레이드할 수 없는 경우 해당 대화 상자가 나타납니다. 업그레이드할 수 없는 메일 [목록을 참조하세요.](#which-distribution-lists-cant-be-upgraded)
 
@@ -67,7 +67,7 @@ DLS를 한 번씩 업그레이드하거나 동시에 여러 DLS를 업그레이�
 7. 업그레이드를 위해 DL을 선택했지만 페이지에 여전히 업그레이드 가능한 것으로 표시되어 있는 경우 업그레이드하지 못했습니다. 업그레이드가 작동하지 않는 경우 할 일 [을 참조합니다.](#what-to-do-if-the-upgrade-doesnt-work)
 
 > [!NOTE]
-> 그룹 다이제스트 전자 메일을 받고 있는 경우 소유자인 적합한 메일 그룹을 업그레이드할 수 있는 메일 그룹이 제공될 수도 있습니다. [다이제스트](https://support.microsoft.com/office/a0482e24-a769-4e39-a5ba-a7c56e828b22) 전자 메일에 대한 자세한 Outlook 그룹 대화 보기를 참조하세요.
+> 그룹 다이제스트 전자 메일을 받고 있는 경우 소유자인 적합한 메일 그룹을 업그레이드할 수 있는 메일 그룹이 제공될 수도 있습니다. 다이제스트 전자 메일에 대한 자세한 [내용은 Outlook에서](https://support.microsoft.com/office/a0482e24-a769-4e39-a5ba-a7c56e828b22) 그룹 대화하기를 참조하세요.
 
 ## <a name="what-to-do-if-the-upgrade-doesnt-work"></a>업그레이드가 작동하지 않는 경우의 작업
 
@@ -86,13 +86,13 @@ PowerShell 사용 경험이 있는 경우 UI를 사용하는 대신 이 경로�
 단일 DL을 업그레이드하려면 다음 명령을 실행합니다.
 
 ```PowerShell
-Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>`
+Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>
 ```
 
 예를 들어 SMTP 주소가 있는 DLS를 업그레이드하려면 dl1@contoso.com 명령을 실행합니다.
 
 ```PowerShell
-Upgrade-DistributionGroup -DlIdentities dl1@contoso.com`
+Upgrade-DistributionGroup -DlIdentities dl1@contoso.com
 ```
 
 > [!NOTE]
@@ -134,7 +134,7 @@ Get-DistributionGroup| Foreach-Object{
 }
 ```
 
-## <a name="faq-about-upgrading-distribution-lists-to-microsoft-365-groups-in-outlook"></a>메일 그룹을 그룹의 Microsoft 365 그룹으로 업그레이드하는 Outlook
+## <a name="faq-about-upgrading-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Outlook에서 메일 그룹을 Microsoft 365 그룹으로 업그레이드하는 데 대한 FAQ
 
 ### <a name="which-distribution-lists-cant-be-upgraded"></a>어떤 메일 목록을 업그레이드할 수 있나요?
 
@@ -165,15 +165,15 @@ DL이 적합한지 여부를 확인하려는 경우 다음 명령을 실행할 �
 
 `Get-EligibleDistributionGroupForMigration`
 
-### <a name="who-can-run-the-upgrade-scripts"></a>Who 스크립트를 실행할 수 있나요?
+### <a name="who-can-run-the-upgrade-scripts"></a>업그레이드 스크립트를 실행할 수 있는 사람
 
-전역 관리자 또는 Exchange 권한이 있는 사용자입니다.
+전역 관리자 또는 Exchange 관리자 권한이 있는 사용자
 
 ### <a name="why-is-the-contact-card-still-showing-a-distribution-list-what-should-i-do-to-prevent-an-upgraded-distribution-list-from-showing-up-in-my-auto-suggest-list"></a>연락처 카드에 메일 목록이 계속 표시된 이유는 무엇입니까? 업그레이드된 메일 목록이 자동 제안 목록에 표시되지 않도록 방지하려면 어떻게 해야 하나요?
 
-- Outlook: 마이그레이션 후 Microsoft 365 그룹 이름을 입력하여 다른 사용자가 Outlook 전자 메일을 보내면 받는 사람이 그룹이 아닌 메일 그룹으로 확인됩니다. 받는 사람의 연락처 카드는 메일 목록 연락처 카드가 됩니다. 이는 캐시에 있는 받는 사람 캐시 또는 nick 이름 캐시 Outlook. 전자 메일이 그룹에 전송되지만 보낸 사람이 혼동을 일으킬 수 있습니다.<br/>이 문서의 단계인 자동 완료 목록에 대한 Outlook 캐시를 다시 설정하여 이 [문제를](/outlook/troubleshoot/contacts/information-about-the-outlook-autocomplete-list) 해결할 수 있습니다.
+- Outlook의 경우: 마이그레이션 후 Microsoft 365 그룹 이름을 입력하여 Outlook에서 전자 메일을 보내면 받는 사람이 그룹이 아닌 메일 그룹으로 확인됩니다. 받는 사람의 연락처 카드는 메일 목록 연락처 카드가 됩니다. 이는 Outlook의 받는 사람 캐시 또는 별칭 이름 캐시 때문에입니다. 전자 메일이 그룹에 전송되지만 보낸 사람이 혼동을 일으킬 수 있습니다.<br/>이 문서의 단계인 [Outlook](/outlook/troubleshoot/contacts/information-about-the-outlook-autocomplete-list) 자동 완료 목록에 대한 정보를 수행하여 캐시를 다시 설정하면 이 문제가 해결됩니다.
 
-- 웹 Outlook: 웹 Outlook 메일 목록 받는 사람이 여전히 캐시에 남아 있습니다. 자동 완성 목록에서 [](https://support.microsoft.com/office/9E1419D9-E88F-445B-B07F-F558B8A37C58) 제안된 이름 또는 전자 메일 주소 제거의 단계에 따라 캐시를 새로 고쳐 그룹 연락처 카드를 볼 수 있습니다.
+- 웹용 Outlook: 웹용 Outlook의 경우 메일 목록 받는 사람은 여전히 캐시에 남아 있습니다. 자동 완성 목록에서 [](https://support.microsoft.com/office/9E1419D9-E88F-445B-B07F-F558B8A37C58) 제안된 이름 또는 전자 메일 주소 제거의 단계에 따라 캐시를 새로 고쳐 그룹 연락처 카드를 볼 수 있습니다.
 
 ### <a name="do-new-group-members-get-a-welcome-email-in-their-inbox"></a>새 그룹 구성원이 받은 편지함에서 환영 전자 메일을 받을 수 있나요?
 

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jamitche
+ms.reviewer: jamitche, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,16 +16,15 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
-- PPM_jmueller
 search.appverid: MET150
 description: Microsoft 365 관리 센터에서 타사 앱을 활성화하고 관리하는 방법에 대해 자세히 알아보습니다.
 ms.date: 04/15/2021
-ms.openlocfilehash: eece8154640dcdd55239511ed099abcdca39e807
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 5a486dba03fbd34fe2e409bba8ba41c1f9873141
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280526"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331625"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>조직의 타사 앱 구독 관리
 

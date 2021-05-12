@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,20 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
-ms.reviewer: jkinma
 search.appverid:
 - MET150
 - GEA150
 description: 중국의 21Vianet에서 운영하는 21Vianet에서 운영하는 Office 365 후 Fapiao 요청을 21Vianet Fapiao 관리 시스템에 제출하는 방법을 알아보습니다.
 monikerRange: o365-21vianet
 ms.date: 03/30/2021
-ms.openlocfilehash: 1f2dec1ca224b7f8c6c22d5d9d0d2a0cac8630ea
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 605e1bf001f6c6acb3a8b5044adeb66e110641b0
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107463"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332465"
 ---
 # <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365 Fapiao에 신청
 
@@ -134,7 +133,7 @@ Fapiao 제목을 변경하려는 경우 Fapiao를 다시 보내 주세요. Fapia
 
 ### <a name="how-do-i-find-my-order-id"></a>주문 ID를 찾는 방법
 
-1. 관리 [센터에서](https://go.microsoft.com/fwlink/p/?linkid=850627)청구 청구서 &  \> **페이지로** 이동합니다.
+1. [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=850627)에서 **청구** \> **청구서 및 결제** 페이지로 이동하세요.
 
 2. 원하는 송장을 찾거나 보거나 PDF를 다운로드하기로 선택합니다.
 

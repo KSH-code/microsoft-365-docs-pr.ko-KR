@@ -1,10 +1,11 @@
 ---
-title: CSP(클라우드 솔루션 공급자) 프로그램을 통해 구입한 정품 소프트웨어 및 제품 라이선스 키 다운로드
+title: CSP(클라우드 솔루션 공급자) 프로그램을 통해 구입한 소프트웨어 및 제품 라이선스 키 다운로드
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: micurn, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,22 +13,22 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-search.appverid:
-- MET150
+search.appverid: MET150
 ms.custom:
 - AdminSurgePortfolio
+- commerce_licensing
 description: CSP(클라우드 솔루션 공급자) 프로그램을 통해 구입한 정품 소프트웨어에 대한 소프트웨어 및 제품 라이선스 키를 다운로드하는 방법을 알아보십시오.
-ms.openlocfilehash: 9e55161111ae1796e8254a60ecdc693592988386
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.date: 01/27/2021
+ms.openlocfilehash: 85dfdb8952278b8c1c3dd23a2ceca7481a683989
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029401"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332405"
 ---
 # <a name="download-perpetual-software-and-product-license-keys"></a>정품 소프트웨어 및 제품 라이선스 키 다운로드
 
-이 문서에서는 CSP(클라우드 솔루션 공급자) 프로그램을 통해 구입한 정품 소프트웨어에 대한 소프트웨어 및 제품 라이선스 키를 다운로드하는 방법을 설명합니다.
+이 문서에서는 CSP(클라우드 솔루션 공급자) 프로그램을 통해 구입한 정품 소프트웨어에 대한 소프트웨어 및 제품 라이선스 키를 다운로드하는 방법에 대해 설명하고 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -36,8 +37,8 @@ ms.locfileid: "50029401"
 ## <a name="download-software-and-product-license-keys"></a>소프트웨어 및 제품 라이선스 키 다운로드
 
 1. Microsoft 365 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지로 이동합니다.
-2. 제품 **탭의** **소프트웨어** 섹션에서 다운로드할 소프트웨어를 선택합니다.
-3. 구독 세부 정보 페이지의 다운로드 & 키 섹션에서 제품 **버전,** 언어 및 **CPU**& 파일 형식을 선택한 다음 다운로드를 **선택합니다.**
+2. 제품 **탭의** 소프트웨어 **섹션에서** 다운로드할 소프트웨어를 선택합니다.
+3. 구독 세부 정보 페이지의 다운로드 & 키 섹션에서 제품 **버전,** 언어 및 CPU & **파일 형식을** 선택한 다음 다운로드를  **선택합니다.**
 4. 키를 다운로드하려면 **클립보드에 키 복사를 선택합니다.**
-5. 오른쪽 창에서 복사를 **선택한** 다음 창을 닫습니다.
-6. 파일의 키를 안전한 위치에 붙여 넣은 다음 소프트웨어 설치 중에 지시에 따라 입력합니다. 키는 다운로드한 소프트웨어를 정품 인증하는 데 필요합니다.
+5. 오른쪽 창에서 복사를 선택한 다음 창을 닫습니다.
+6. 파일에 키를 안전한 위치에 붙여 넣은 다음 소프트웨어 설치 중에 지시에 따라 입력합니다. 키는 다운로드한 소프트웨어를 정품 인증하는 데 필요합니다.

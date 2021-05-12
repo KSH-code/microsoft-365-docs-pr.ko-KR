@@ -5,28 +5,28 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: sinakassaw, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- Adm_TOC
+- Adm_O365
 ms.custom:
 - AdminSurgePortfolio
-- manage_licenses
 - okr_smb
-- commerce
-search.appverid:
-- MET150
+- manage_licenses
+- commerce_licensing
+search.appverid: MET150
 description: 사용자 계정에서 라이선스를 배정을 unassign하는 방법을 학습합니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 87bb8f6fe0e85fc4ac832f2bc4ad746e8d6386eb
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 6f2cbf65e1d6a38a4b1ed00976d4dd473d7331e9
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52310995"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332417"
 ---
 # <a name="unassign-licenses-from-users"></a>사용자의 라이선스 할당 취소
 
@@ -95,7 +95,7 @@ ms.locfileid: "52310995"
 3. 오른쪽 창에서 **라이선스 및 앱** 를 선택합니다.
 4. 라이선스 **섹션을 확장하고,** 라이선스를 취소할 라이선스의 확인란을 선택 취소한 다음 변경 **내용 저장을 선택합니다.**
 
-###  <a name="unassign-licenses-from-multiple-users"></a>여러 사용자의 라이선스를 배정하지 않습니다.
+### <a name="unassign-licenses-from-multiple-users"></a>여러 사용자의 라이선스를 배정하지 않습니다.
 
 ::: moniker range="o365-worldwide"
 
@@ -123,11 +123,11 @@ ms.locfileid: "52310995"
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>라이선스를 제거하면 사용자의 데이터가 어떻게 하나요?
 
 - 라이선스가 사용자에서 제거되면 해당 계정과 연결된 데이터는 30일 동안 보전됩니다. 30일의 유예 기간이 경과하면 데이터가 삭제되고 복구할 수 없습니다.
-- 사용자가 비즈니스용 OneDrive 관리 센터에서 삭제되거나 Active Directory 동기화를 통해 제거되지 않는 한 Microsoft 365 파일을 삭제하지 않습니다. 자세한 내용은 보존 [및 OneDrive 참조하세요.](/onedrive/retention-and-deletion)
-- 라이선스가 제거되면 콘텐츠 검색 또는 검색과 같은 eDiscovery 도구를 사용하여 사용자의 사서함을 더 이상 검색할 수 Advanced eDiscovery. 자세한 내용은 콘텐츠 검색 참조의 "연결이 끊어지거나 라이선스가 해제된 사서함 [검색"을 참조하세요.](../../compliance/content-search-reference.md#searching-disconnected-or-de-licensed-mailboxes)
-- E3와 같은 Enterprise Office 365 Enterprise 구독이 있는 경우 Exchange Online 비활성 사서함을 사용하여 삭제된 사용자 계정의 사서함 데이터를 보존할 [수 있습니다.](../../compliance/inactive-mailboxes-in-office-365.md) 자세한 내용은 [에서 비활성 사서함](../../compliance/create-and-manage-inactive-mailboxes.md)만들기 및 관리를 Exchange Online.
-- 라이선스가 제거된 후 사용자의 Microsoft 365 액세스를 차단하는 방법과 그 이후에 데이터에 액세스하는 방법에 대한 자세한 내용은 이전 직원 [제거를 참조합니다.](../add-users/remove-former-employee.md)
-- 사용자의 라이선스를 제거하고 아직 Office 앱이 설치되어 있는 경우 [](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380) 라이선스가 없는 제품 및 정품 인증 오류가 Office 앱을 사용할 때 Office 표시됩니다.
+- 사용자가 Microsoft 365 관리 센터에서 삭제되거나 Active Directory 동기화를 통해 제거되지 않는 한 비즈니스용 OneDrive에 저장된 파일은 삭제되지 않습니다. 자세한 내용은 [OneDrive 보존 및 삭제를 참조하세요.](/onedrive/retention-and-deletion)
+- 라이선스가 제거되면 콘텐츠 검색 또는 Advanced eDiscovery와 같은 eDiscovery 도구를 사용하여 사용자의 사서함을 더 이상 검색할 수 없습니다. 자세한 내용은 [Microsoft 365의](../../compliance/content-search.md)콘텐츠 검색에서 "연결이 끊어지거나 라이선스가 해제된 사서함 검색"을 참조하세요.
+- Office 365 Enterprise E3와 같은 엔터프라이즈 구독이 있는 경우 Exchange Online에서는 비활성 사서함을 사용하여 삭제된 사용자 계정의 사서함 데이터를 [보존할 수 있습니다.](../../compliance/inactive-mailboxes-in-office-365.md) 자세한 내용은 Exchange Online에서 비활성 사서함 만들기 및 [관리를 참조하세요.](../../compliance/create-and-manage-inactive-mailboxes.md)
+- 라이선스가 제거된 후 Microsoft 365 데이터에 대한 사용자의 액세스를 차단하는 방법과 이후에 데이터에 액세스하는 방법에 대한 자세한 내용은 이전 직원 [제거를 참조합니다.](../add-users/remove-former-employee.md)
+- 사용자의 라이선스를 제거하고 Office 앱이 여전히 설치되어 있는 경우 Office 앱을 사용할 때 [Office에서](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380) 사용 허가되지 않은 제품 및 정품 인증 오류가 표시됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -137,4 +137,4 @@ ms.locfileid: "52310995"
 
 [구독에서 라이선스 제거(문서)\](../../commerce/licenses/buy-licenses.md)
 [사용자에게 라이선스 할당](assign-licenses-to-users.md)(문서)\
-[비즈니스용 Microsoft 365 구독 및 라이선스](../../commerce/licenses/subscriptions-and-licenses.md) 이해(문서)
+[비즈니스용 Microsoft 365의](../../commerce/licenses/subscriptions-and-licenses.md) 구독 및 라이선스 이해(문서)

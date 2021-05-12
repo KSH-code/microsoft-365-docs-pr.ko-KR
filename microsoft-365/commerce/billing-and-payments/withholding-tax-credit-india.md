@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: martinl, melmar
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,26 +13,23 @@ localization_priority: None
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-search.appverid:
-- MET150
+search.appverid: MET150
 description: 결제한 원만한 세금에 대한 계정에 대한 크레딧을 요청하는 방법을 알아보하세요. 이 문서는 인도 고객에게만 적용됩니다.
 ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_melmar
-ms.reviewer: martinl
 monikerRange: o365-worldwide
 ms.date: 05/03/2021
-ms.openlocfilehash: 3965127bb30777f26dc04a3861167955163cd827
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 4866bcd07cb4a54088d230166f9b04f8258d7185
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246096"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331793"
 ---
 # <a name="request-a-credit-for-withholding-tax-on-your-account-india-customers"></a>계정의 원주세에 대한 크레딧 요청(인도 고객)
 
-인도의 고객은 Microsoft 지역 판매 Pte Ltd. 싱가포르(MRS)에서 청구한 웹 다이렉트(Azure 및 Microsoft 365) 송장을 받고 송장 결제를 위해 싱가포르로 국가 간 결제를 합니다. 지급을 송금할 때 세금을 원할 경우 이 문서에서는 MRS를 통해 계정에서 WHT(원불 세금)에 대한 크레딧을 청구하는 프로세스에 대해 설명하고 있습니다.
+인도의 고객은 Microsoft Regional Sales Pte Ltd. Singapore(MRS)에서 청구한 웹 다이렉트(Azure 및 Microsoft 365) 송장을 받고 송장 결제를 위해 싱가포르로 국가 간 결제를 합니다. 지급을 송금할 때 세금을 원할 경우 이 문서에서는 MRS를 통해 계정에서 WHT(원불 세금)에 대한 크레딧을 청구하는 프로세스에 대해 설명하고 있습니다.
 
 ## <a name="for-invoice-pay-customers-who-pay-by-check-and-wire"></a>수표 및 유선으로 결제하는 송장 결제 고객의 경우
 

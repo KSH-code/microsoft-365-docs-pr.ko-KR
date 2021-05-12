@@ -19,12 +19,12 @@ ms.custom:
 description: 관리자는 EOP(Exchange Online Protection)에서 아웃바운드 스팸 정책을 보고, 만들고, 수정하고, 삭제하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ceaf0d276aff4504dd34aa3229c28c9cb042742d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 2448bb7942f7694d2a6d6e9b98537a2b7ccb14d1
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206376"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331673"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>EOP에서 아웃바운드 스팸 필터링 구성
 
@@ -122,7 +122,7 @@ Security & Compliance Center에서 사용자 지정 아웃바운드 스팸 정�
 
         추가한 받는 사람은 플라이아웃의 받는 사람 **목록** 섹션에 표시됩니다. 받는 사람을 삭제하려면 제거 ![ 단추 를 ](../../media/scc-remove-icon.png) 클릭합니다.
 
-     1. 작업을 마친 후 **저장** 을 클릭합니다.
+     1. 작업을 마쳤으면 **저장** 을 클릭합니다.
 
         이 설정을 사용하지 않도록 설정하는 경우 확인란의 선택을 취소합니다.
 
@@ -163,7 +163,7 @@ Security & Compliance Center에서 사용자 지정 아웃바운드 스팸 정�
 
      - **작업 없음, 알림만:** 전자 메일 알림이 전송됩니다.
 
-6. (선택 사항) 자동 **전달 섹션을 확장하여** 사용자가 외부 보낸 사람에 대한 자동 전자 메일 전달을 제어합니다. 자세한 내용은 [Microsoft 365에서](external-email-forwarding.md)자동 외부 전자 메일 전달 제어를 참조하세요.
+6. (선택 사항) 자동 **전달 섹션을 확장하여** 사용자가 외부 보낸 사람에 대한 자동 전자 메일 전달을 제어합니다. 자세한 내용은 에서 자동 외부 전자 메일 전달 [제어를 Microsoft 365.](external-email-forwarding.md)
 
    > [!NOTE]
    >
@@ -271,11 +271,11 @@ Security & Compliance Center에서 사용자 지정 아웃바운드 스팸 정�
 
 기본 정책은 제거할 수 없습니다.
 
-## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies"></a>Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell을 사용하여 아웃바운드 스팸 정책 구성
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-outbound-spam-policies"></a>PowerShell Exchange Online 독립 실행형 EOP PowerShell을 사용하여 아웃바운드 스팸 정책 구성
 
 앞서 설명한 바와 같이 아웃바운드 스팸 정책은 아웃바운드 스팸 필터 정책과 아웃바운드 스팸 필터 규칙으로 구성됩니다.
 
-Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서는 아웃바운드 스팸 필터 정책과 아웃바운드 스팸 필터 규칙 간의 차이점이 분명합니다. **\* -HostedOutboundSpamFilterPolicy** cmdlet을 사용하여 아웃바운드 스팸 필터 정책을 관리하고 **\* -HostedOutboundSpamFilterRule** cmdlet을 사용하여 아웃바운드 스팸 필터 규칙을 관리합니다.
+PowerShell Exchange Online 독립 실행형 EOP PowerShell에서 아웃바운드 스팸 필터 정책과 아웃바운드 스팸 필터 규칙의 차이는 분명합니다. **\* -HostedOutboundSpamFilterPolicy** cmdlet을 사용하여 아웃바운드 스팸 필터 정책을 관리하고 **\* -HostedOutboundSpamFilterRule** cmdlet을 사용하여 아웃바운드 스팸 필터 규칙을 관리합니다.
 
 - PowerShell에서 아웃바운드 스팸 필터 정책을 먼저 만든 다음 규칙이 적용되는 정책을 식별하는 아웃바운드 스팸 필터 규칙을 생성합니다.
 - PowerShell에서는 아웃바운드 스팸 필터 정책 및 아웃바운드 스팸 필터 규칙의 설정을 별도로 수정합니다.
@@ -288,7 +288,7 @@ PowerShell에서 아웃바운드 스팸 정책을 만드는 과정은 다음 두
 1. 아웃바운드 스팸 필터 정책을 생성합니다.
 2. 규칙이 적용되는 아웃바운드 스팸 필터 정책을 지정하는 아웃바운드 스팸 필터 규칙을 생성합니다.
 
- **참고:**
+ **참고**:
 
 - 새 아웃바운드 스팸 필터 규칙을 만들고 기존의 통합되지 않은 아웃바운드 스팸 필터 정책을 할당할 수 있습니다. 아웃바운드 스팸 필터 규칙은 두 개 이상의 아웃바운드 스팸 필터 정책과 연결될 수 없습니다.
 
@@ -309,7 +309,7 @@ New-HostedOutboundSpamFilterPolicy -Name "<PolicyName>" [-AdminDisplayName "<Com
 
 이 예에서는 다음 설정을 사용하여 Contoso Executives라는 새 아웃바운드 스팸 필터 정책을 만듭니다.
 
-- 받는 사람 비율 제한은 기본값인 더 작은 값으로 제한됩니다. 자세한 내용은 [Microsoft 365 옵션에서 전송 제한을 참조하세요.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)
+- 받는 사람 비율 제한은 기본값인 더 작은 값으로 제한됩니다. 자세한 내용은 여러 옵션 에서 Microsoft 365 [참조하세요.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)
 
 - 제한 중 하나에 도달하면 사용자가 메시지를 보낼 수 없습니다.
 
@@ -515,6 +515,6 @@ Remove-HostedOutboundSpamFilterRule -Identity "Marketing Department"
 
 [아웃바운드 메시지용 높은 위험 배달 풀](high-risk-delivery-pool-for-outbound-messages.md)
 
-[스팸 방지 및 보호 FAQ](anti-spam-protection-faq.md)
+[스팸 방지 및 보호 FAQ](anti-spam-protection-faq.yml)
 
 [자동 전달 메시지 보고서](mfi-auto-forwarded-messages-report.md)

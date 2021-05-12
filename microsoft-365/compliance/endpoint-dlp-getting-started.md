@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft 365 Endpoint 데이터 손실 방지를 설정하여 파일 활동을 모니터링하고 해당 파일에 대한 보호 작업을 엔드포인트에 구현합니다.
-ms.openlocfilehash: 118c2f3f87df5ac9930bebd1338157d323b1e5e1
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 8fc8bef62827a5e6125565f5d7227a88cd923dcf
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259502"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332813"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>엔드포인트 데이터 손실 방지 시작하기
 
@@ -147,7 +147,7 @@ Endpoint DLP를 배포하는 데 사용할 Windows 10 장치가 다음 요구 �
     - Microsoft Endpoint Configuration Manager를 사용하여 Windows 컴퓨터 온보딩하기
     - 모바일 장치 관리 도구를 사용하여 Windows 10 컴퓨터 온보딩하기
     - 로컬 스크립트를 사용하여 Windows 10 컴퓨터 온보딩하기
-    - 비영구적 VDI(가상 데스크톱 인프라) 머신 온보딩하기
+    - 단일 세션 시나리오에서 비영구적 VDI(가상 데스크톱 인프라) 머신 온보딩하기
 
 작업이 완료되고 엔드포인트가 온보딩되면 장치 목록에 표시되고 감사 활동 로그를 활동 탐색기에 보고하기 시작해야 합니다.
 

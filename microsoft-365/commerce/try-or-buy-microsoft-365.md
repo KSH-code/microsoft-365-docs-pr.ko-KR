@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: drjones
+ms.reviewer: drjones, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,16 +16,15 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
-- PPM_jmueller
 search.appverid: MET150
 description: 무료 평가판을 얻거나 비즈니스용 구독을 구입하는 Microsoft 365 방법을 알아보하세요.
 ms.date: 08/07/2020
-ms.openlocfilehash: 592ab457dd9b393afa4ef3a3bff9f7ef89af4ea9
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 709f687b282246b90c1b1a14398174e616e0494a
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280910"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332969"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>비즈니스용 Microsoft 365 사용해 보거나 구입
 
@@ -148,5 +147,5 @@ Microsoft 365 관리 센터를 통해 구독을 추가하면 새 구독이 기�
 [사용자를 추가하고](../admin/add-users/add-users.md) 동시에 라이선스 할당(문서)\
 [사용자에게 라이선스 할당](../admin/manage/assign-licenses-to-users.md)(문서)\
 [다른 계획으로](subscriptions/upgrade-to-different-plan.md) 업그레이드(문서)\
-[비즈니스용 Microsoft 365 추가 기능 구입](buy-or-edit-an-add-on.md) 또는 편집(문서)\
+[비즈니스용 Microsoft 365](buy-or-edit-an-add-on.md) 추가 기능 구입 또는 편집(문서)\
 [구독에 대한 저장소 공간 추가](add-storage-space.md)

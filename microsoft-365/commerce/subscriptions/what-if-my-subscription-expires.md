@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Microsoft 365 비즈니스 에디션 구독이 만료되거나, 비활성화되거나, 사용자가 취소하는 경우 사용자의 데이터가 어떻게 처리되는지 알아봅니다.
 ms.date: 04/08/2021
-ms.openlocfilehash: f226514078a9f6d6bc1f4761269e2740300ef88d
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: d0821214f9a8c242306685db2ee7faf3779cecff
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52326801"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333029"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?
 
@@ -50,6 +50,7 @@ ms.locfileid: "52326801"
 *대부분의 혜택은 대부분의 국가와 지역에서 제공됩니다.
   
 > [!NOTE]
+>
 > **"고객 데이터"란?** [Microsoft 온라인 서비스 사용 약관](https://go.microsoft.com/fwlink/p/?LinkId=613649)에 정의된 바와 같이 고객 데이터는 고객의 Microsoft 365 서비스 사용을 통해 Microsoft에 제공되거나 고객을 대신하여 제공되는 모든 텍스트, 사운드 또는 이미지 파일을 포함한 모든 데이터를 의미합니다. 고객 데이터 보호에 대한 자세한 내용은 [Microsoft Service Trust Portal 시작](../../compliance/get-started-with-service-trust-portal.md)을 참조하세요.
 
 ## <a name="what-happens-if-i-cancel-a-subscription"></a>구독을 취소할 경우 어떻게 되나요?
@@ -68,6 +69,7 @@ ms.locfileid: "52326801"
 > 일반적인 사용 안 함 단계가 끝나기 전에 구독 데이터를 삭제하고 싶다면 [계정 사용 중지](../close-your-account.md)를 할 수 있습니다.
   
 > [!NOTE]
+>
 > 구독을 명시적으로 삭제할 경우 만료와 사용 안 함 단계를 건너 뛰고 OneDrive를 포함한 SharePoint 온라인 데이터와 콘텐츠가 즉시 삭제됩니다.
 
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>구독이 곧 만료되는 경우 선택할 수 있는 옵션은 무엇인가요?

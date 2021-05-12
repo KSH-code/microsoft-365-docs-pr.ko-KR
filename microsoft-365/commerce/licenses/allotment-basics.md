@@ -11,17 +11,19 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
-ms.collection: ''
+ms.collection:
+- M365-subscription-management
+- Adm_O365
 ms.custom:
 - commerce_licensing
 description: 새로운 배정 기능에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: 949e06d4bf54405e0045f8c7512a04b1b5cc22c0
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 0910673ce54f3f977ed8ecbc3d6c77ac2ebad0cc
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327133"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331697"
 ---
 # <a name="allotment-basics"></a>기본
 
@@ -38,7 +40,7 @@ ms.locfileid: "52327133"
 사용자가 사용할 수 있는 모든 제품에 대해 다음을 사용할 수 있습니다.
 
 - Office 제품군 및 독립 실행형 제품
-- Enterprise 및 모바일 제품
+- Enterprise 및 Mobility 제품
 - Dynamics 365 제품
 
 다음 제품은 사용 시에 사용할 수 없습니다.

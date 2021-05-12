@@ -5,28 +5,28 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: micurn, nicholak
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- Adm_TOC
-- commerce
+- Adm_O365
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
 - manage_licenses
-search.appverid:
-- MET150
+- commerce_licensing
+search.appverid: MET150
 description: 비즈니스용 Microsoft 365의 구독 및 라이선스에 대해 자세히 알아보습니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 6310b3e48c59da3243746cceca2d0516f511b827
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a8ec5b0716a5ceaa02526520e76dc390a6fba0f7
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911437"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331493"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>비즈니스용 Microsoft 365의 구독 및 라이선스 이해
 

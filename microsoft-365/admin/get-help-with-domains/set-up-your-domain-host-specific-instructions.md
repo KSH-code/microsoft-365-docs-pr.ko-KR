@@ -1,5 +1,5 @@
 ---
-title: 도메인 설정(호스트별 지침)
+title: 도메인 설정
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -22,22 +22,22 @@ search.appverid:
 - GEA150
 ms.assetid: ae950c9e-e8d9-4108-b0cb-449156998580
 description: 자체 DNS 레코드를 관리하거나 Microsoft에서 DNS 레코드를 관리하게 하는 방법을 배워야 합니다.
-ms.openlocfilehash: e58242feb2a881bea9d7457a2b606bd3a6989949
-ms.sourcegitcommit: d3101e0c7f4ce52fc34402c28d4acb81206532c5
+ms.openlocfilehash: 475e2c13a1b73a58cfb9f72e9d335a2d1c8b4da5
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "51880685"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332477"
 ---
-# <a name="set-up-your-domain-host-specific-instructions"></a>도메인 설정(호스트별 지침)
+# <a name="set-up-your-domain"></a>도메인 설정
 
-Microsoft 365에서 사용자 지정 도메인(contoso.com)을 사용하려면 도메인을 확인하고 도메인의 DNS 레코드를 구성해야 합니다. 
+사용자 지정 도메인(contoso.com)을 Microsoft 365 도메인을 확인하고 도메인의 DNS 레코드를 구성해야 합니다. 
   
 도메인 호스트의 관리 도구를 사용하여 DNS 레코드를 추가 및 관리하거나 Microsoft에 도메인 레코드에 대한 제어를 제공하면 해당 레코드가 설정됩니다.
 
-## <a name="let-microsoft-365-manage-your-dns-records"></a>Microsoft 365에서 DNS 레코드 관리 
+## <a name="let-microsoft-365-manage-your-dns-records"></a>DNS Microsoft 365 관리하기 
 
-도메인 등록 기관에서 이름 서퍼를 변경하여 [Microsoft 365를 설정하는 방법을 학습합니다.](change-nameservers-at-any-domain-registrar.md)
+도메인 등록 기관에서 이름 Microsoft 365 [변경하는 방법을 학습합니다.](change-nameservers-at-any-domain-registrar.md)
 
 ## <a name="manage-your-own-dns-records"></a>자체 DNS 레코드 관리
 

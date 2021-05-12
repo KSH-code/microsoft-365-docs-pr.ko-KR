@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 477f176d523fbb458ae266cad98b07a63a10050c
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: d0745ac2e4d5b78b40746fd0593a9af18e691021
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259346"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52326833"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -220,7 +220,9 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 - 자동 레이블 지정 정책에 대해 선택할 수 있는 하나 이상의 민감도 레이블이 [생성 및 게시](create-sensitivity-labels.md)(적어도 한 명의 사용자에게) 됩니다. 이러한 레이블의 경우:
     - 소개에 설명된 대로 레이블 설정은 자동 레이블 지정 정책을 보완하기 때문에 Office 앱 레이블 설정의 자동 레이블 지정 설정이 켜져 있는지 여부는 중요하지 않습니다.
     - 자동 레이블에 사용하려는 레이블이 시각적 표시(머리글, 바닥글, 워터 마크)를 사용하도록 구성된 경우 문서에는 적용되지 않습니다.
-    - 레이블이 [암호화](encryption-sensitivity-labels.md)를 적용하는 경우 **지금 권한 할당** 설정에 대해 구성해야 합니다.
+    - 레이블이 [암호화](encryption-sensitivity-labels.md)를 적용하는 경우:
+        - 자동 레이블 지정 정책에 SharePoint 또는 OneDrive의 위치가 포함된 경우, **지금 사용 권한 할당** 에 대해 레이블을 구성해야 합니다.
+        - 자동 레이블 지정 정책이 Exchange 전용인 경우 **지금 사용 권한 할당** 또는 **사용자가 사용 권한을 할당하도록 허용**(전달하지 않음 또는 암호화 전용인 경우)에 대해 레이블을 구성할 수 있습니다.
 
 ### <a name="learn-about-simulation-mode"></a>시뮬레이션 모드에 대해 알아보기
 

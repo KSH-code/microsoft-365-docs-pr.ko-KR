@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 55c22c9901f163fdf64e6148d5b2c19e51136bc1
-ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
+ms.openlocfilehash: 2cc1cb494569e054825875a4d0dc67e5c56f8146
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52086805"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52326621"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -89,7 +89,7 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 |[지금 권한 할당](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[사용자가 권한을 할당하도록 허용: <br /> - 전달하지 않음](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[사용자가 권한을 할당하도록 허용: <br /> - 암호화 전용](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | 16.48+ | 4.2112.0+  | 4.2112.0+ | 예 |
-|[사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+                        | 16.43+ <sup>\*</sup>                    | 배포 중: 4.2111+            | 배포 중: 4.2111+                | 예                |
+|[사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+                        | 16.43+ <sup>\*</sup>                    | 4.2111+            | 4.2111+                | 예                |
 |[레이블 관련 사용자 활동 감사](data-classification-activity-explorer.md) | 2011+ | 검토 중 | 검토 중           | 검토 중               | 검토 중 |
 |[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>\*</sup>                    | 검토 중           | 검토 중               | 예 |
 |[기본 레이블 및 필수 레이블에 대한 다른 설정](#outlook-specific-options-for-default-label-and-mandatory-labeling)                    | 미리 보기로 배포: [베타 채널](https://office.com/insider)                      | 16.43.1108+                   | 4.2111+           | 4.2111+               | 예 |
@@ -134,7 +134,7 @@ Microsoft Word 2016, Excel 2016, PowerPoint 2016 및 Outlook 2016에서 Azure In
 | | | 
 
 
-그룹 정책 또는 [Office 클라우드 정책 서비스](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service)를 사용하여 이 설정을 배포합니다.
+그룹 정책 또는 [Office 클라우드 정책 서비스](/DeployOffice/overview-office-cloud-policy-service)를 사용하여 이 설정을 배포합니다.
 
 > [!NOTE]
 > 그룹 정책 설정 **Office의 민감도 기능을 사용하여 민감도 레이블을 적용하고 보기** 를 사용하고 이 설정을 **1** 로 설정하는 경우 Azure Information Protection 클라이언트가 여전히 Office 앱에 로드 될 수 있는 상황이 몇 가지 있습니다. 각 앱에 추가 기능을 로드하지 못하게 차단하여 이 문제를 방지할 수 있습니다.
@@ -419,7 +419,7 @@ Outlook에 대해 다른 기본 레이블을 지정하려면 GUID 레이블을 �
 Get-Label | Format-Table -Property DisplayName, Name, Guid
 ````
 
-레이블 정책에서 이러한 고급 설정 중 하나를 제거하려면 동일한 고급 설정 매개 변수 구문을 사용하되 null 문자열 값을 지정하세요. 예를 들면 다음과 같습니다.
+레이블 정책에서 이러한 고급 설정 중 하나를 제거하려면 동일한 고급 설정 매개 변수 구문을 사용하되 null 문자열 값을 지정합니다. 예를 들면 다음과 같습니다.
 
 ````powershell
 Set-LabelPolicy -Identity Global -AdvancedSettings @{OutlookDefaultLabel=""}

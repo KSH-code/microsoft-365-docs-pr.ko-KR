@@ -2,7 +2,7 @@
 title: 교육용 구독에 대한 Microsoft 365 Education 자격 확인
 f1.keywords:
 - CSH
-- FWLink 2135711
+- FWLink-2135711
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: 교육용 가격 책정에 대한 학교의 자격을 Microsoft 365 Education 방법을 참조합니다.
 ms.date: 07/21/2020
-ms.openlocfilehash: e0e85e53ed00c1c7c23e86f380a6440038d775c9
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 7da6fbc73ece51c5d9b845487e344bbbdec679cf
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52326881"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333089"
 ---
 # <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>교육용 구독에 대한 Microsoft 365 Education 자격 확인
 
