@@ -211,7 +211,7 @@
 #### [개요](next-gen-threat-and-vuln-mgt.md)
 #### [시작]()
 ##### [권한 및 필수 구성 요소](tvm-prerequisites.md)
-##### [지원되는 운영 체제 및 플랫폼](tvm-supported-os.md)
+##### [지원되는 운영 체제 플랫폼 및 기능](tvm-supported-os.md)
 ##### [장치 값 할당](tvm-assign-device-value.md)
 #### [보안 상태 평가]()
 ##### [대시보드 인사이트](tvm-dashboard-insights.md)
