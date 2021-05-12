@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jamitche
+ms.reviewer: jamitche, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,17 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
 search.appverid: MET150
 description: 2019년 9월 14일 현재 유럽 경제 지역 31개 국가의 은행은 결제를 처리하기 전에 온라인으로 구매한 사람의 신원을 확인해야 합니다."
 keywords: 결제 서비스 지시문 2, 강력한 고객 인증, 다단계 인증
 ms.date: 11/03/2020
-ms.openlocfilehash: e687cac5bb1b7f1c88e9166993e29d437134e138
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: bbbbe9f53c11fcae9c35cda1fd4e7d4b51a9c767
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280850"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331946"
 ---
 # <a name="payment-services-directive-2-and-strong-customer-authentication-for-commercial-customers"></a>상용 고객을 위한 결제 서비스 지침 2 및 강력한 고객 인증
 

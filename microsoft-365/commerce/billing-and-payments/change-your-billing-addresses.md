@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: tugu, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,18 +17,15 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
-ms.reviewer: tugu
-search.appverid:
-- MET150
-description: 비즈니스용 앱에 대한 청구 주소를 업데이트하는 Microsoft 365 대해 자세히 알아보습니다. 청구 알림을 받는 데 사용되는 전자 메일 주소를 업데이트할 수도 있습니다.
+search.appverid: MET150
+description: 비즈니스용 Microsoft 365의 청구 주소를 업데이트하는 방법을 알아보하세요. 청구 알림을 받는 데 사용되는 전자 메일 주소를 업데이트할 수도 있습니다.
 ms.date: 04/07/2021
-ms.openlocfilehash: ea212d79ef28d5d387bdb5503c267d7cd5113786
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 8bff090353c409f4364aed63e3b48a831608be2b
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107197"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332174"
 ---
 # <a name="change-your-billing-addresses"></a>대금 청구 주소 변경
 
@@ -97,21 +95,21 @@ ms.locfileid: "52107197"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
 
-    중국의 21Vianet에서 운영하는 Office 365 사용하는 경우 청구서 보기 또는 [21Vianet에서](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md)운영하는 Office 365 Fapiaos를 참조합니다.
+    중국의 21Vianet에서 운영하는 Office 365를 사용하는 경우 청구서 보기 또는 [21Vianet에서 운영하는 Office 365용 Fapiaos](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md)보기를 참조합니다.
 
 ::: moniker-end
 
@@ -125,7 +123,7 @@ ms.locfileid: "52107197"
 
 기본적으로 조직의 청구 알림은 Microsoft 전자 메일 주소와 조직의 모든 전역 및 대금 청구 관리자의 대체 전자 메일 주소로 전송됩니다. 각 관리자는 자신의 프로필 정보를 업데이트하여 자신의 대체 전자 메일 주소를 변경할 수 있습니다.
   
-1. 전역 관리자로 Microsoft 365 또는 학교 계정으로 로그인합니다. [로그인하는 방법을 배워야 합니다.](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)
+1. 전역 관리자로 직장 또는 학교 계정으로 Microsoft 365에 로그인합니다. [로그인하는 방법을 알아보하세요.](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)
 
 2. 사용자 **아이콘 을 선택한** 다음 내 계정을 **선택합니다.**
   

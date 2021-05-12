@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: tugu
+ms.reviewer: tugu, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -14,19 +14,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 search.appverid: MET150
-description: '다른 지역의 비즈니스용 구독에 대해 Microsoft 365 세금을 알 수 있습니다. '
+description: '다른 지역의 비즈니스용 Microsoft 365 구독에 대해 부과될 세금을 확인하세요. '
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
 ms.date: 03/17/2021
-ms.openlocfilehash: fc1e2924a6b28c30841f890396d5d82ed2944bea
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 5c472615846ba6460bc829bc0157c6c6da940292
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280598"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332021"
 ---
 # <a name="tax-information"></a>세금 정보
 
@@ -101,7 +100,7 @@ When you buy Microsoft 365 products and services, the taxes that you pay are det
 
 ## <a name="europe-the-middle-east-and-africa-emea"></a>EMEA(유럽, 중동, 아프리카)
 
-EMEA 지역의 Microsoft 365 서비스를 구입하는 경우 이 구매에는 VAT(Value-Added 부가가치세)가 적용될 수 있습니다.
+EMEA 지역에서 Microsoft 365 서비스를 구입하는 경우 이 구매에는 VAT(Value-Added 부가가치세)가 적용될 수 있습니다.
   
 - 유럽 연합 회원국, 아르메니아, 벨로루시, 노르웨이, 터키 또는 아랍에미리트에 있는 경우 유효한 로컬 VAT ID를 제공하지 않는 경우 Microsoft Ireland Operations Ltd.는 계정이 설정된 청구 국가에 따라 현재 현지 VAT 세율을 적용합니다.
 
@@ -133,7 +132,7 @@ Microsoft 지역 판매 사무소에서 대금을 청구하는 경우 "Microsoft
 
 미국, 캐나다, 멕시코, 칠레 및 콜롬비아에서는 제품 특성 및 사용자의 위치에 따라 다양한 세율이 적용됩니다.
   
-Microsoft Corporation에서 청구를 수행하고(송장 참조) 미국, Microsoft 365, 푸에르토리코, 칠레 및 콜롬비아 외의 다른 국가에 등록한 경우 일반적으로 세금이 부과되지 않습니다.[](view-your-bill-or-invoice.md)
+Microsoft Corporation에서 청구를 수행하고(송장[참조)](view-your-bill-or-invoice.md)미국, 캐나다, 푸에르토리코, 칠레 및 콜롬비아 외의 Microsoft 365에 등록한 경우 일반적으로 세금이 부과되지 않습니다.
 
 ## <a name="add-your-vat-id"></a>VAT ID 추가
 
@@ -147,7 +146,7 @@ Microsoft Corporation에서 청구를 수행하고(송장 참조) 미국, Micros
 
 판매세는 단가에 대해 계산된 다음 집계됩니다.
 
-예:
+예를 들면 다음과 같습니다.
 
 >*(단가 X 세율) X 수량 = 총 판매세*
 

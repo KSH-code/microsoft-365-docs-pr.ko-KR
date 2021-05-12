@@ -13,12 +13,12 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: Security & Compliance Center의 콘텐츠 검색 eDiscovery 도구를 사용하여 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치의 문서 및 비즈니스용 Skype의 인스턴트 메시징 대화에서 전자 메일을 빠르게 찾을 수 있습니다.
-ms.openlocfilehash: a6aa416768e7910e546b39d5866f884d2d532732
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 80234a512d13deda29a61073bec62990d135f30e
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927594"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333689"
 ---
 # <a name="search-for-content-using-the-content-search-tool"></a>콘텐츠 검색 도구를 사용하여 콘텐츠 검색
 
@@ -28,7 +28,9 @@ Security & Compliance Center의 콘텐츠 검색 도구를 사용하여 Exchange
 
 첫 번째 단계는 콘텐츠 검색 도구를 사용하여 검색할 콘텐츠 위치를 선택하고 특정 항목을 검색하도록 키워드 쿼리를 구성하는 것입니다. 또는 쿼리를 비워 두고 대상 위치에 있는 모든 항목을 반환할 수 있습니다.
   
-- [콘텐츠 검색 만들기](content-search.md) 및 실행 
+- [콘텐츠 검색](content-search.md) 만들기 및 실행
+
+- 콘텐츠 검색(기능 참조 content-search-reference.md)
 
 - [검색 쿼리를 작성하고 조건을 사용하여](keyword-queries-and-search-conditions.md) 검색 범위를 좁히기 
 

@@ -303,19 +303,19 @@
     - name: FAQ
       items:
         - name: 위임된 관리 FAQ
-          href: delegated-administration-faq.md
+          href: delegated-administration-faq.yml
         - name: EOP 관련 일반 FAQ(질문과 대답)
-          href: eop-general-faq.md
+          href: eop-general-faq.yml
         - name: 'EOP 대기, 지연 및 반송 메시지 FAQ'
-          href: eop-queued-deferred-and-bounced-messages-faq.md
+          href: eop-queued-deferred-and-bounced-messages-faq.yml
         - name: 맬웨어 방지 보호 FAQ
-          href: anti-malware-protection-faq-eop.md
+          href: anti-malware-protection-faq-eop.yml
         - name: 스팸 방지 보호 FAQ
-          href: anti-spam-protection-faq.md
+          href: anti-spam-protection-faq.yml
         - name: 스푸핑 방지 보호 기능 FAQ
-          href: anti-spoofing-protection-faq.md
+          href: anti-spoofing-protection-faq.yml
         - name: 격리 FAQ
-          href: quarantine-faq.md
+          href: quarantine-faq.yml
     - name: 참조
       items:
         - name: 보안 로드맵

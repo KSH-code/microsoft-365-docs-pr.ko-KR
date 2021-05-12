@@ -13,12 +13,12 @@ ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ff3c889f3e4d6779b08584ba6537da36d6f2660e
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b30608b858f06951a8f4c250f288a8d44bd84b08
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205512"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333833"
 ---
 # <a name="eop-features"></a>EOP 기능
 
@@ -98,6 +98,6 @@ ms.locfileid: "51205512"
 |연중 무휴 24시간 전화 및 웹 기술 지원|EOP 도움말 및 지원 옵션에 대한 자세한 내용은 [EOP에 대한 도움말 및 지원](help-and-support-for-eop.md)을 참조하세요.|
 |**기타 기능**||
 |지역 중복 글로벌 서버 네트워크|EOP는 최상의 가용성을 제공하도록 설계된 데이터 센터의 전 세계 네트워크에서 실행됩니다. 자세한 내용은 [Exchange Online Protection 개요](exchange-online-protection-overview.md)에서 "EOP 데이터 센터" 섹션을 참조하세요.  |
-|온-프레미스 서버가 메일을 수락할 수 없는 경우 메시지 큐 대기|지연 메시지는 하루 동안 큐에 남아 있습니다. 메시지 다시 시도는 받는 사람의 메일 시스템에서 다시 수신된 오류를 기반으로 합니다. 평균적으로 5분마다 메시지가 다시 시도됩니다. 자세한 내용은 [EOP 대기, 지연 및 반송 메시지 FAQ](eop-queued-deferred-and-bounced-messages-faq.md)를 참조하세요.|
+|온-프레미스 서버가 메일을 수락할 수 없는 경우 메시지 큐 대기|지연 메시지는 하루 동안 큐에 남아 있습니다. 메시지 다시 시도는 받는 사람의 메일 시스템에서 다시 수신된 오류를 기반으로 합니다. 평균적으로 5분마다 메시지가 다시 시도됩니다. 자세한 내용은 [EOP 대기, 지연 및 반송 메시지 FAQ](eop-queued-deferred-and-bounced-messages-faq.yml)를 참조하세요.|
 |추가 서비스로 사용할 수 있는 Office 365 메시지 암호화|자세한 내용은 [Office 365의 암호화](../../compliance/encryption.md)를 참조하세요.|
 |

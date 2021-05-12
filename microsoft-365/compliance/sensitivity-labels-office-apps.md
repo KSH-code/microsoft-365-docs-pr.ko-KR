@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2cc1cb494569e054825875a4d0dc67e5c56f8146
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: a9755542b608c8ed7d3cd93bebbd764fd56b9768
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52326621"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332717"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -67,7 +67,7 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 |[레이블 관련 사용자 활동 감사](data-classification-activity-explorer.md)                      | 2011+ | 16.43+ | 2.46+ | 배포 중: 16.0.13628+ | 예<sup>\*</sup>                                                        |
 |[사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+             | 배포 중: 16.45+         | 배포 중: 2.47+ | 배포 중: 16.0.13628+ | 배포 중                                            
 |[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | 2009+                                  | 배포 중: 16.44+ | 검토 중 | 검토 중 | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
-|레이블이 지정되고 암호화된 문서에 대한 [공동 작성 및 자동 저장 지원](sensitivity-labels-coauthoring.md) | 미리 보기: [현재 채널(미리 보기)](https://office.com/insider) | 미리 보기: [베타 채널](https://office.com/insider) | 검토 중 | 검토 중 | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
+|레이블이 지정되고 암호화된 문서에 대한 [공동 작성 및 자동 저장 지원](sensitivity-labels-coauthoring.md) | 미리 보기: [현재 채널(미리 보기)](https://office.com/insider) | 미리 보기: [현재 채널(미리 보기)](https://office.com/insider) | 검토 중 | 검토 중 | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
 
 **각주:**

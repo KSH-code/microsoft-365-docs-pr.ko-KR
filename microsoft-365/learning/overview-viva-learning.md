@@ -4,7 +4,7 @@ ms.author: daisyfeller
 author: daisyfeller
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 04/30/2021
+ms.date: 05/12/2021
 audience: admin
 ms.topic: article
 ms.service: ''
@@ -15,13 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: None
 description: 사용자 환경의 Microsoft Viva Learning(미리 보기)에 Microsoft 365 대해 자세히 알아보습니다.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d2493c499b8dae3c766f3a94521a74648bbd2a56
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+ms.openlocfilehash: 9b0045cd769d76541b7dfb1e86b50caa2728b54c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52101147"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333533"
 ---
 # <a name="overview-of-microsoft-viva-learning-preview"></a>Microsoft Viva Learning 개요(미리 보기) 
 
@@ -66,7 +65,7 @@ Viva Learning(미리 보기)을 사용하면 하루 중 쉽게 학습을 통합�
 
 지식 관리자는 보통 기술적인 지식이 있으며 관리자 자격 증명을 SharePoint 합니다. 지식 관리자는 조직의 교육, 학습, 교육 또는 직원 경험에서 잘 교육을 쌓아야 합니다.
 
-## <a name="get-started"></a>시작
+## <a name="get-started"></a>시작하기
 
 사용자 환경에서 Viva Learning(미리 보기)을 설정하고 구성할 준비가 Microsoft 365:
 

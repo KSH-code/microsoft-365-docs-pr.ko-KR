@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,24 +16,25 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- commerce_subscriptions
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 사용자를 다른 구독으로 이동하는 방법을 학습합니다.
-ms.openlocfilehash: 4f26e890e7c3c008c807dfed75829562dbebd087
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 8d919cc4d84654a17ac52813a287da0d75590536
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578980"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332201"
 ---
 # <a name="move-users-to-different-subscriptions"></a>다른 구독으로 사용자 이동
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SBE2?autoplay=false]
 
-사용자가 역할을 변경하면 현재 Microsoft 365 Business Premium 구독에서 사용할 수 없는 기능이 필요할 수 있습니다. 이 경우 이러한 기능이 포함된 새 구독을 추가하고 필요한 사용자에게 라이선스를 할당할 수 있습니다.
+사용자가 역할을 변경하면 현재 구독에서 사용할 수 없는 기능이 필요할 Microsoft 365 Business Premium 있습니다. 이 경우 이러한 기능이 포함된 새 구독을 추가하고 필요한 사용자에게 라이선스를 할당할 수 있습니다.
 
 ## <a name="try-it"></a>사용해 보세요!
 

@@ -9,18 +9,18 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: d586eb28-b752-4c46-bf92-00a0c5ad781d
 description: Bookings 웹앱과 Bookings Teams 앱 간의 기능 차이를 보여 주는 비교 차트입니다.
-ms.openlocfilehash: 93ab228f8dc5bf14aa09b354b176d03756fc1abe
-ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+ms.openlocfilehash: de207f2f194fff07fcc07f2f278d4a2135d4585b
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47419966"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332237"
 ---
 # <a name="comparison-chart-bookings-web-app-vs-bookings-teams-app"></a>비교 차트: Bookings 웹앱과 Bookings Teams 앱 비교
 
 Teams의 Bookings 앱을 사용하면 스케줄러가 기본 작업을 처리하고 일부 설정을 변경할 수 있습니다. 그러나 Bookings 웹에는 Teams 앱에서 아직 사용할 수 없는 고급 기능 및 설정이 포함되어 있습니다.
 
-Teams 앱 기능은 계속 추가되고 있으며 이 목록은 계속 업데이트됩니다. 자세한 내용은 [FAQ에서](bookings-faq.md) **원래 Bookings 웹앱의** 모든 기능을 Microsoft Teams에서 사용할 수 있나요? 섹션을 참조하세요.
+Teams 앱 기능은 계속 추가되고 있으며 이 목록은 계속 업데이트됩니다. 자세한 내용은 [FAQ에서](bookings-faq.yml) **원래 Bookings 웹앱의** 모든 기능을 Microsoft Teams에서 사용할 수 있나요? 섹션을 참조하세요.
 
 | 기능 | Bookings 웹앱 | Bookings Teams 앱 |
 |:---|:---|:---|
@@ -34,6 +34,6 @@ Teams 앱 기능은 계속 추가되고 있으며 이 목록은 계속 업데이
 | 그룹 또는 다중 고객 예약 예약 | 예 | 아니요 |
 | 비즈니스에 대한 로고 설정 | 예 | 아니요 |
 | 업무 시간 설정 | 예 | 아니요 |
-| 셀프 서비스 일자 페이지 게시 | 예 | 아니요 |
+| 셀프 서비스컬링 페이지 게시 | 예 | 아니요 |
 | 고객 연락처 관리 | 예 | 아니요 |
-| 직원의 시간 설정 | 예 | 아니요 |
+| 직원의 시간 끄기 | 예 | 아니요 |

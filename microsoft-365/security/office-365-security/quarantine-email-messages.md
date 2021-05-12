@@ -22,12 +22,12 @@ ms.custom:
 description: 관리자는 잠재적으로 위험하거나 원치 않는 메시지를 보유하는 EOP(Exchange Online Protection)의 검역에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bd748871cc09905f9878d5917351b1c185cc1106
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b2a11f5f9e1e730a3b0cc09625ec8e8cb592d869
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205781"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333809"
 ---
 # <a name="quarantined-email-messages-in-eop"></a>EOP에서 Quarantined email messages
 
@@ -54,4 +54,4 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 - 관리자와 사용자는 Microsoft에 가짓 긍정을 검지에서 보고할 수 있습니다.
 
-Quarantine에 대한 자세한 내용은 [Quarantine FAQ 를 참조하십시오.](quarantine-faq.md)
+Quarantine에 대한 자세한 내용은 [Quarantine FAQ 를 참조하십시오.](quarantine-faq.yml)

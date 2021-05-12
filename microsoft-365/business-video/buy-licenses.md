@@ -2,9 +2,10 @@
 title: 새 라이선스 구입
 f1.keywords:
 - NOCSH
-ms.author: twerner
-author: twernermsft
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,18 +16,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- commerce_purchase
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 새 비즈니스용 Microsoft 365 라이선스를 구입하는 방법을 배워야 합니다.
-ms.openlocfilehash: 3ca503abdf35e1bef95f784b7fc19c70a8de84bd
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: c9077dbb4c653d162df97e7f7bda47d929eb67ce
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422978"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332213"
 ---
 # <a name="buy-microsoft-365-licenses"></a>Microsoft 365 라이선스 구입
 

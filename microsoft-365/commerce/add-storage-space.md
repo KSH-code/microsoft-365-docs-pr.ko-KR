@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: drjones, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,18 +19,15 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_purchase
-- PPM_jmueller
-ms.reviewer: drjones
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Microsoft 365 구독에서 파일 저장소를 추가하고 Microsoft 365 방법을 학습합니다. 추가 파일 저장소를 사용하면 추가 콘텐츠를 온라인 및 SharePoint 저장할 수 OneDrive.
 ms.date: 04/02/2021
-ms.openlocfilehash: 14f72f59493be04165f0e7b28f26b14f8ae01a08
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 98fdb4412f263bd9e0a22b6890ff66509cb3e799
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52293682"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332189"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>구독에 대한 저장소 공간 추가
 
@@ -105,5 +103,5 @@ Office 365 추가 파일 저장소는 다음 구독에서 사용할 수 있습�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사이트 저장 용량 제한](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) 관리(문서)\
+[사이트 저장 용량 제한](/sharepoint/manage-site-collection-storage-limits) 관리(문서)\
 [사용자에 대한](/onedrive/set-default-storage-space)기본 OneDrive 공간 설정(문서)
