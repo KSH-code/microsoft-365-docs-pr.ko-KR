@@ -12,15 +12,15 @@ author: denisebmsft
 ms.author: deniseb
 ms.reviewer: jcedola, dbodorin, vladiso, nixanm, anvascon
 manager: dansimp
-ms.date: 03/24/2021
+ms.date: 05/10/2021
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 0962913df63e6837664cdb8ff79710d66e66977c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: e12368b6241a2c79eead66ed77b30b7864af3955
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199918"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52326533"
 ---
 # <a name="customize-controlled-folder-access"></a>제어된 폴더 액세스 사용자 지정
 
@@ -28,12 +28,10 @@ ms.locfileid: "51199918"
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> [!TIP]
+> Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-
-제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 Windows Server 2019 및 Windows 10 클라이언트에서 지원됩니다.
-
-이 문서에서는 제어된 폴더 액세스 기능을 사용자 지정하는 방법을 설명하고 다음 섹션을 포함합니다.
+제어된 폴더 액세스는 랜섬웨어와 같은 악성 앱 및 위협으로부터 중요한 데이터를 보호하는 데 도움이 됩니다. 제어된 폴더 액세스는 Windows Server 2019 및 Windows 10 지원됩니다. 이 문서에서는 제어된 폴더 액세스 기능을 사용자 지정하는 방법을 설명하고 다음 섹션을 포함합니다.
 
 - [추가 폴더 보호](#protect-additional-folders)
 - [보호된 폴더에 액세스할 수 있도록 허용해야 하는 앱 추가](#allow-specific-apps-to-make-changes-to-controlled-folders)
@@ -45,17 +43,17 @@ ms.locfileid: "51199918"
 
 ## <a name="protect-additional-folders"></a>추가 폴더 보호
 
-제어된 폴더 액세스는 문서, 사진, 영화 등의 폴더를 비롯한 여러 시스템 폴더 및 기본 위치에 **적용됩니다.** 보호할 폴더를 추가할 수 있지만 기본 목록에서 기본 폴더를 제거할 수는 없습니다.
+제어된 폴더 액세스는 문서, 사진, 영화 등의 폴더를 비롯한 여러 시스템 폴더 및 기본 위치에 **적용됩니다.** 보호할 다른 폴더를 추가할 수 있지만 기본 목록에서 기본 폴더를 제거할 수는 없습니다.
 
-제어된 폴더 액세스에 다른 폴더를 추가하는 것이 기본 Windows 라이브러리에 파일을 저장하지 않는 경우나 라이브러리의 기본 위치를 변경한 경우에 유용할 수 있습니다.
+제어된 폴더 액세스에 다른 폴더를 추가하면 기본 Windows 라이브러리에 파일을 저장하지 않는 경우나 라이브러리의 기본 위치를 변경한 경우에 유용할 수 있습니다.
 
-네트워크 공유 및 매핑된 드라이브를 지정할 수 있습니다. 환경 변수 및 와일드카드가 지원됩니다. 와일드카드 사용에 대한 자세한 내용은 파일 이름 및 폴더 경로 또는 확장명 제외 목록에 와일드카드 사용을 [참조하세요.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-extension-file-exclusions-microsoft-defender-antivirus#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists)
+네트워크 공유 및 매핑된 드라이브를 지정할 수 있습니다. 환경 변수 및 와일드카드가 지원됩니다. 와일드카드 사용에 대한 자세한 내용은 파일 이름 및 폴더 경로 또는 확장명 제외 목록에 와일드카드 사용을 [참조하세요.](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 
-Windows 보안 앱, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관리 구성 서비스 공급자를 사용하여 보호된 폴더를 더 추가하고 제거할 수 있습니다.
+Windows 보안, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관리 구성 서비스 공급자를 사용하여 보호된 폴더를 추가 및 제거할 수 있습니다.
 
-### <a name="use-the-windows-security-app-to-protect-additional-folders"></a>Windows 보안 앱을 사용하여 추가 폴더 보호
+### <a name="use-the-windows-security-app-to-protect-additional-folders"></a>앱 Windows 보안 사용하여 추가 폴더 보호
 
-1. 작업 표시줄에서 방패 아이콘을 선택하거나 보안에 대한 시작 메뉴를 검색하여 Windows 보안 앱을 열 **수 있습니다.**
+1. 작업 Windows 보안 방패 아이콘을 선택하거나 시작 메뉴에서 보안을 검색하여  앱 앱을 열 수 있습니다.
 
 2. 바이러스 **& 보호를** 선택한 다음 **아래로 스크롤하여 랜섬웨어 보호 섹션으로 스크롤합니다.**
 
@@ -65,52 +63,56 @@ Windows 보안 앱, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관
 
 5. 사용자 **액세스** 제어 프롬프트에서 **예를** 선택 합니다. 보호된 **폴더 창이** 표시됩니다.
 
-4. 보호된 **폴더 추가를 선택하고** 프롬프트에 따라 폴더를 추가합니다.
+6. 보호된 **폴더 추가를 선택하고** 프롬프트에 따라 폴더를 추가합니다.
 
 ### <a name="use-group-policy-to-protect-additional-folders"></a>그룹 정책을 사용하여 추가 폴더 보호
 
-1. 그룹 정책 관리 컴퓨터에서 그룹 [](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11)?preserve=true)정책 관리 콘솔을 열고 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭한 다음 편집을 **선택합니다.**
+1. 그룹 정책 관리 컴퓨터에서 [그룹 정책 관리 콘솔](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11)?preserve=true)을 엽니다. 
 
-2. 그룹 **정책 관리 편집기에서** 컴퓨터 **구성으로 이동하여** 관리 **템플릿을 선택합니다.**
+2. 구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭한 다음 편집 **을 선택합니다.**
 
-3. **Windows** 구성 요소 Microsoft Defender 바이러스 백신Windows Defender  >    >  Exploit Guard 제어된 폴더 **액세스로**  >  **트리를 확장합니다.**
+3. 그룹 정책 **관리 편집기에서** 컴퓨터 **구성** 정책 관리  >    >  **템플릿으로 이동하십시오.**
 
-4. 구성된 **보호된 폴더를** 두 번 클릭하고 옵션을 사용으로 **설정합니다.** 표시를 **선택하고** 각 폴더를 입력합니다.
+4. Exploit Guard **제어된 폴더 Windows Microsoft Defender 바이러스 백신** Windows Defender 구성 요소를  >    >    >  **확장합니다.** <br/>**참고:** 이전 버전의 Windows 에 를 표시하지 않고 Windows Defender 바이러스 백신 수 **Microsoft Defender 바이러스 백신.** 
+
+5. 보호된 폴더 구성을 두 번 **클릭한** 다음 옵션을 사용으로 **설정합니다.** **표시를** 선택하고 보호할 각 폴더를 지정합니다.
+
+6. 일반적으로 그룹 정책 개체를 배포합니다.
 
 ### <a name="use-powershell-to-protect-additional-folders"></a>PowerShell을 사용하여 추가 폴더 보호
 
 1. 시작 **메뉴에 PowerShell을** 입력하고 마우스 오른쪽 단추로 Windows PowerShell **관리자** 권한으로 **실행을 선택합니다.**
 
-2. 다음 cmdlet을 입력합니다.
+2. 다음 PowerShell cmdlet을 입력하고 폴더의 경로(예: )로 `<the folder to be protected>` `"c:\apps\"` 대체합니다.
 
     ```PowerShell
     Add-MpPreference -ControlledFolderAccessProtectedFolders "<the folder to be protected>"
     ```
-3. 보호할 모든 폴더를 추가할 때까지 2단계를 반복합니다. 추가된 폴더는 Windows 보안 앱에 표시됩니다.
+3. 보호할 각 폴더에 대해 2단계를 반복합니다. 보호된 폴더는 앱의 Windows 보안 표시됩니다.
 
-   ![위의 cmdlet이 입력된 PowerShell 창의 스크린샷](/microsoft-365/security/defender-endpoint/images/cfa-allow-folder-ps)
+   :::image type="content" source="images/cfa-allow-folder-ps.png" alt-text="cmdlet이 표시된 PowerShell 창":::
 
 > [!IMPORTANT]
-> 목록에 `Add-MpPreference` 앱을 추가하거나 추가하는 데 사용할 수 있습니다. `Set-MpPreference`cmdlet을 사용하여 기존 목록을 덮어 습니다.
+> 를 사용하지 말고 목록에 `Add-MpPreference` 앱을 추가하거나 추가하는 데 사용하세요. `Set-MpPreference` `Set-MpPreference`cmdlet을 사용하여 기존 목록을 덮어 습니다.
 
 ### <a name="use-mdm-csps-to-protect-additional-folders"></a>MDM CSP를 사용하여 추가 폴더 보호
 
-[./Vendor/MSFT/Policy/Config/Defender/GuardedFoldersList](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-guardedfolderslist) CSP(구성 서비스 공급자)를 사용하여 앱이 보호된 폴더를 변경할 수 있도록 합니다.
+[./Vendor/MSFT/Policy/Config/Defender/GuardedFoldersList](/windows/client-management/mdm/policy-csp-defender#defender-guardedfolderslist) CSP(구성 서비스 공급자)를 사용하여 앱이 보호된 폴더를 변경할 수 있도록 합니다.
 
 ## <a name="allow-specific-apps-to-make-changes-to-controlled-folders"></a>특정 앱이 제어된 폴더를 변경할 수 있도록 허용
 
 특정 앱이 항상 안전한 것으로 간주되는지 지정하고 보호된 폴더의 파일에 대한 쓰기 권한을 부여할 수 있습니다. 앱 허용은 사용자가 알고 신뢰하는 특정 앱이 제어된 폴더 액세스 기능으로 차단되는 경우 유용할 수 있습니다.
 
 > [!IMPORTANT]
-> 기본적으로 Windows는 허용 목록에 친숙한 것으로 간주되는 앱을 추가합니다. 자동으로 추가되는 이러한 앱은 Windows 보안 앱에 표시된 목록이나 연결된 PowerShell cmdlet을 사용하여 기록되지 않습니다. 대부분의 앱을 추가할 필요가 없습니다. 앱이 차단되고 있으며 신뢰할 수 있는지 확인할 수 있는 앱만 추가합니다.
+> 기본적으로 Windows 목록에 친숙한 것으로 간주되는 앱을 추가합니다. 자동으로 추가되는 이러한 앱은 Windows 보안 또는 연결된 PowerShell cmdlet을 사용하여 기록되지 않습니다. 대부분의 앱을 추가할 필요가 없습니다. 앱이 차단되고 있으며 신뢰할 수 있는지 확인할 수 있는 앱만 추가합니다.
 
-앱을 추가할 때 앱의 위치를 지정해야 합니다. 해당 위치에 있는 앱만 보호된 폴더에 액세스할 수 있습니다. 이름이 같은 앱이 다른 위치에 있는 경우 허용 목록에 추가되지 않습니다. 제어된 폴더 액세스로 차단될 수 있습니다.
+앱을 추가할 때 앱의 위치를 지정해야 합니다. 해당 위치에 있는 앱만 보호된 폴더에 액세스할 수 있습니다. 이름이 같은 앱이 다른 위치에 있는 경우 앱이 허용 목록에 추가되지 않습니다. 제어된 폴더 액세스로 차단될 수 있습니다.
 
 허용된 응용 프로그램 또는 서비스는 시작된 후에만 제어된 폴더에 대한 쓰기 권한이 있습니다. 예를 들어 업데이트 서비스는 중지했다가 다시 시작할 때까지 허용된 후에도 이벤트를 계속 트리거합니다.
 
 ### <a name="use-the-windows-defender-security-app-to-allow-specific-apps"></a>보안 Windows Defender 사용하여 특정 앱 허용
 
-1. 보안의 시작 메뉴를 검색하여 Windows 보안 앱을 열 **수 있습니다.**
+1. 보안의 시작 Windows 보안 검색하여 앱 앱을 열 **수 있습니다.**
 
 2. 바이러스 & **위협** 방지 타일(또는 왼쪽 메뉴 표시줄의 방패 아이콘)을 선택한 다음 **랜섬웨어** 보호 관리를 선택합니다.
 
@@ -122,11 +124,11 @@ Windows 보안 앱, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관
 
 ### <a name="use-group-policy-to-allow-specific-apps"></a>그룹 정책을 사용하여 특정 앱 허용
 
-1. 그룹 정책 관리 장치에서 그룹 정책 관리 콘솔을 [열고](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11)?preserve=true)구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 편집을 **선택합니다.**
+1. 그룹 정책 관리 장치에서 그룹 정책 관리 콘솔을 [열고](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11)?preserve=true)구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 편집을 **선택합니다.**
 
-2. 그룹 **정책 관리 편집기에서** 컴퓨터 **구성으로 이동하여** 관리 **템플릿을 선택합니다.**
+2. **그룹 정책 관리 편집기** 에서 **컴퓨터 구성** 으로 이동하여 **관리 템플릿** 을 선택합니다.
 
-3. **Windows** 구성 요소 Microsoft Defender 바이러스 백신Windows Defender  >    >  Exploit Guard 제어된 폴더 **액세스로**  >  **트리를 확장합니다.**
+3. Exploit Guard **제어된 폴더 Windows Microsoft Defender 바이러스 백신** Windows Defender 구성 요소를  >    >    >  **확장합니다.**
 
 4. 허용되는 응용 프로그램 **구성 설정을 두** 번 클릭하고 옵션을 사용으로 **설정합니다.** 표시를 **선택하고** 각 앱을 입력합니다.
 
@@ -145,7 +147,7 @@ Windows 보안 앱, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관
     Add-MpPreference -ControlledFolderAccessAllowedApplications "c:\apps\test.exe"
     ```
 
-   계속 사용하여 목록에 앱을 `Add-MpPreference -ControlledFolderAccessAllowedApplications` 더 추가합니다. 이 cmdlet을 사용하여 추가된 앱은 Windows 보안 앱에 표시됩니다.
+   계속 사용하여 목록에 앱을 `Add-MpPreference -ControlledFolderAccessAllowedApplications` 더 추가합니다. 이 cmdlet을 사용하여 추가된 앱은 앱의 Windows 보안 표시됩니다.
 
    :::image type="content" source="images/cfa-allow-app-ps.png" alt-text="앱을 허용하는 PowerShell cmdlet":::
 
@@ -154,18 +156,18 @@ Windows 보안 앱, 그룹 정책, PowerShell cmdlet 또는 모바일 장치 관
 
 ### <a name="use-mdm-csps-to-allow-specific-apps"></a>MDM CSP를 사용하여 특정 앱 허용
 
-[./Vendor/MSFT/Policy/Config/Defender/GuardedFoldersAllowedApplications](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-guardedfoldersallowedapplications) CSP(구성 서비스 공급자)를 사용하여 앱이 보호된 폴더를 변경할 수 있도록 합니다.
+[./Vendor/MSFT/Policy/Config/Defender/GuardedFoldersAllowedApplications](/windows/client-management/mdm/policy-csp-defender#defender-guardedfoldersallowedapplications) CSP(구성 서비스 공급자)를 사용하여 앱이 보호된 폴더를 변경할 수 있도록 합니다.
 
 ## <a name="allow-signed-executable-files-to-access-protected-folders"></a>서명된 실행 파일이 보호된 폴더에 액세스하도록 허용
 
-Microsoft Defender for Endpoint 인증서 및 파일 표시기는 서명된 실행 파일이 보호된 폴더에 액세스할 수 있도록 허용할 수 있습니다. 구현에 대한 자세한 내용은 [인증서를 기반으로 지표 만들기를 참조합니다.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/indicator-certificates)
+Microsoft Defender for Endpoint 인증서 및 파일 표시기는 서명된 실행 파일이 보호된 폴더에 액세스할 수 있도록 허용할 수 있습니다. 구현에 대한 자세한 내용은 [인증서를 기반으로 지표 만들기를 참조합니다.](indicator-certificates.md)
 
 > [!Note]
 > Powershell을 포함한 스크립팅 엔진에는 적용되지 않습니다.
 
 ## <a name="customize-the-notification"></a>알림 사용자 지정
 
-규칙이 트리거된 후 앱 또는 파일을 차단할 때 알림을 사용자 지정하는 데 대한 자세한 내용은 [Configure alert notifications in Microsoft Defender for Endpoint을 참조하세요.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-email-notifications)
+규칙이 트리거된 후 앱 또는 파일을 차단할 때 알림을 사용자 지정하는 데 대한 자세한 내용은 [Configure alert notifications in Microsoft Defender for Endpoint을 참조하세요.](configure-email-notifications.md)
 
 ## <a name="see-also"></a>참고 항목
 

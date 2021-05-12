@@ -5,27 +5,28 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: argani, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
+- Adm_o365
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - manage_licenses
-- commerce
-search.appverid:
-- MET150
+- commerce_licensing
+search.appverid: MET150
 description: 비즈니스용 Microsoft 365 구독에 대한 라이선스를 더 구입하거나 라이선스 수를 줄이는 방법을 알아보하세요.
-ms.date: ''
-ms.openlocfilehash: d4d0b73fb33d27f82a02b4ae0c6ecb009eb9d38d
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.date: 04/07/2021
+ms.openlocfilehash: 6603b49ed7af8b5213141d5c2434093c3af9540a
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615138"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327121"
 ---
 # <a name="buy-or-remove-licenses"></a>라이선스 구입 또는 제거
 
@@ -53,18 +54,18 @@ ms.locfileid: "51615138"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a> 페이지로 이동합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">내 상품</a>페이지로 이동하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a> 페이지로 이동합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
 ::: moniker-end
 
 2. 제품 **탭에서** 라이선스를 구입하거나 제거할 구독을 찾아야 합니다. 추가 **작업(세** 점)을 선택한 다음 라이선스 **구입 을 선택합니다.** [라이선스 구입 또는 라이선스 제거 단추가 없는 경우 어떻게 하나요?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
@@ -79,7 +80,7 @@ ms.locfileid: "51615138"
 
 이 표에서는 라이선스 구입  또는 라이선스  제거 단추를 사용할 수 없는 이유와 가능한 해결 방법도 설명되어 있습니다.
 
-|이유  |설명  |해결 방법  |
+|이유  |설명  |솔루션  |
 |---------|---------|---------|
 |신용 검사가 보류 중입니다. |신용 검사가 보류 중인 경우 신용 검사가 완료될 때까지 라이선스를 구입하거나 제거할 수 없습니다.  | 나중에 다시 확인하여 신용 검사가 완료된지 확인할 수 있습니다. 신용 조사가 완료되려면 보통 영업일 기준 최대 2일이 걸립니다.<br/>신용 검사가 완료되면 라이선스 구입  및 라이선스 **제거 단추가** 표시됩니다. |
 |제품 키를 사용하여 구독을 활성화한 경우| 25자 제품 키를 사용하여 구독을 구입하고 정품 인증한 경우 제품 페이지의  구매 채널 열에 "선불"이라는 단어가 **표시됩니다.**  |제품 키를 사용하여 유료 [구독에 라이선스 추가를 참조하세요.](add-licenses-using-product-key.md) |

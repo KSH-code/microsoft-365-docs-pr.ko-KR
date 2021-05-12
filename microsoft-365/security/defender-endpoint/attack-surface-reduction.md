@@ -16,21 +16,22 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 461bc7c8d4d8d5c9bb8c905f3b160d0af226b077
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 56ab6c6c11bd2c0786c0d797e5302a1f06f9bd53
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023228"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327261"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
+
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 ## <a name="why-attack-surface-reduction-rules-are-important"></a>공격 표면 감소 규칙이 중요한 이유
 
@@ -48,7 +49,7 @@ ms.locfileid: "52023228"
 
 ## <a name="assess-rule-impact-before-deployment"></a>배포 전에 규칙 영향 평가
 
-위협 및 취약성 관리에서 해당 규칙에 대한 보안 권장을 열면 공격 표면 감소 규칙이 네트워크에 미칠 수 있는 영향을 [평가할 수 있습니다.](https://docs.microsoft.com/windows/security/threat-protection/#tvm)
+에서 해당 규칙에 대한 보안 권장을 열면 공격 표면 감소 규칙이 네트워크에 어떤 [영향을 줄 수](https://docs.microsoft.com/windows/security/threat-protection/#tvm)위협 및 취약성 관리.
 
 :::image type="content" source="images/asrrecommendation.png" alt-text="공격 표면 감소 규칙에 대한 보안 다시코":::
 
@@ -66,14 +67,14 @@ ms.locfileid: "52023228"
 
 ### <a name="requirements-for-warn-mode-to-work"></a>작동 경고 모드에 대한 요구 사항
 
-경고 모드는 다음 버전의 Windows를 실행하는 장치에서 지원됩니다.
+경고 모드는 다음 버전의 경고를 실행하는 장치에서 Windows.
 
-- [Windows 10 버전 1809](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1809) 이상
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809) 이상
+- [Windows 10 버전 1809 이상](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1809)
+- [Windows Server, 버전 1809 이상](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 
-Microsoft Defender 바이러스 백신은 활성 모드에서 실시간 보호를 [통해 실행되고 있어야 합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility#functionality-and-features-available-in-each-state)
+Microsoft Defender 바이러스 백신 활성 모드에서 실시간 보호를 통해 [실행해야 합니다.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility#functionality-and-features-available-in-each-state)
 
-또한 Microsoft Defender 바이러스 백신 및 [맬웨어 방지 업데이트가 설치되어 있는지](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus#monthly-platform-and-engine-versions) 확인합니다.
+또한 맬웨어 [방지 Microsoft Defender 바이러스 백신](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus#monthly-platform-and-engine-versions) 설치해야 합니다.
 
 - 최소 플랫폼 릴리스 요구 사항: `4.18.2008.9`
 - 최소 엔진 릴리스 요구 사항: `1.1.17400.5`
@@ -82,13 +83,13 @@ Microsoft Defender 바이러스 백신은 활성 모드에서 실시간 보호�
 
 ### <a name="cases-where-warn-mode-is-not-supported"></a>경고 모드가 지원되지 않는 경우
 
-경고 모드는 Microsoft 끝점 관리자에서 구성할 때 세 가지 공격 표면 감소 규칙에 대해 지원되지 않습니다. (그룹 정책을 사용하여 공격 표면 축소 규칙을 구성하는 경우 경고 모드가 지원됩니다.) Microsoft Endpoint Manager에서 경고 모드를 구성할 때 경고 모드를 지원하지 않는 세 가지 규칙은 다음과 같습니다.
+경고 모드는 3가지 공격 표면 감소 규칙에서 구성할 때 지원되지 Microsoft Endpoint Manager. (그룹 정책을 사용하여 공격 표면 축소 규칙을 구성하는 경우 경고 모드가 지원됩니다.) 경고 모드에서 구성할 때 경고 모드를 지원하지 않는 세 가지 규칙은 Microsoft Endpoint Manager 같습니다.
 
 - [JavaScript 또는 VBScript에서 다운로드한](#block-javascript-or-vbscript-from-launching-downloaded-executable-content) 실행 콘텐츠(GUID)를 시작하지 차단 `d3e037e1-3eb8-44c8-a917-57927947596d`
 - [WMI 이벤트 구독(GUID)을 통한](#block-persistence-through-wmi-event-subscription) 지속성 `e6db77e5-3df2-4cf1-b95a-636979351e5b` 차단
 - [랜섬웨어에 대한](#use-advanced-protection-against-ransomware) 고급 보호 사용(GUID) `c1db55ab-c21a-4637-bb3f-a12568109d35`
 
-또한 이전 버전의 Windows를 실행하는 디바이스에서는 경고 모드가 지원되지 않습니다. 이러한 경우 경고 모드에서 실행하도록 구성된 공격 표면 감소 규칙은 차단 모드에서 실행됩니다.
+또한 이전 버전의 버전을 실행하는 장치에서는 경고 모드가 지원되지 Windows. 이러한 경우 경고 모드에서 실행하도록 구성된 공격 표면 감소 규칙은 차단 모드에서 실행됩니다.
 
 ## <a name="notifications-and-alerts"></a>알림 및 알림
 
@@ -96,7 +97,7 @@ Microsoft Defender 바이러스 백신은 활성 모드에서 실시간 보호�
 
 또한 특정 공격 표면 감소 규칙이 트리거되면 경고가 생성됩니다.
 
-알림 및 생성된 경고는 Microsoft Defender 보안 센터( ) 및 [https://securitycenter.windows.com](https://securitycenter.windows.com) Microsoft 365 보안 센터()에서 볼 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다.
+알림 및 생성된 경고는 Microsoft Defender 보안 센터( ) 및 Microsoft 365 보안 [https://securitycenter.windows.com](https://securitycenter.windows.com) 센터()에서 볼 수 [https://security.microsoft.com](https://security.microsoft.com) 있습니다.
 
 ## <a name="advanced-hunting-and-attack-surface-reduction-events"></a>고급 헌팅 및 공격 표면 축소 이벤트
 
@@ -106,18 +107,18 @@ Microsoft Defender 바이러스 백신은 활성 모드에서 실시간 보호�
 
 고급 헌팅에 대한 자세한 내용은 고급 헌팅으로 위협을 사전 [대응적으로 헌팅을 참조하세요.](advanced-hunting-overview.md)
 
-## <a name="attack-surface-reduction-features-across-windows-versions"></a>Windows 버전 전반의 공격 표면 감소 기능
+## <a name="attack-surface-reduction-features-across-windows-versions"></a>여러 버전에서 공격 Windows 기능
 
-다음 Windows 버전 및 버전을 실행하는 장치에 대해 공격 표면 감소 규칙을 설정할 수 있습니다.
+다음 버전 및 버전의 디바이스를 실행하는 장치에 대해 공격 표면 감소 규칙을 설정할 수 Windows.
 
 - Windows 10 Pro 버전 [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows 10 Enterprise 버전 [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 이상
-- Windows Server, [버전 1803(반기 채널)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) 이상
+- Windows 서버, [버전 1803(반기 채널)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 
-공격 표면 감소 규칙에는 Windows E5 라이선스가 필요하지 [않습니다. Windows E5가](https://docs.microsoft.com/windows/deployment/deploy-enterprise-licenses)있는 경우 고급 관리 기능을 사용할 수 있습니다. Windows E5에서만 사용할 수 있는 이러한 기능에는 [끝점용 Defender에서](microsoft-defender-endpoint.md)사용할 수 있는 모니터링, 분석 및 워크플로와 [Microsoft 365](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center)보안 센터의 보고 및 구성 기능이 포함됩니다. 이러한 고급 기능은 Windows Professional 또는 Windows E3 라이선스에서 사용할 수 없습니다. 그러나 해당 라이선스가 있는 경우 이벤트 뷰어 및 Microsoft Defender 바이러스 백신 로그를 사용하여 공격 표면 축소 규칙 이벤트를 검토할 수 있습니다.
+공격 표면 감소 규칙에는 Windows E5 라이선스가 필요하지 않습니다. [E5를](https://docs.microsoft.com/windows/deployment/deploy-enterprise-licenses)Windows 고급 관리 기능을 사용할 수 있습니다. 이러한 기능은 Windows E5에서만 사용할 수 있는 기능으로는 [Endpoint용 Defender에서](microsoft-defender-endpoint.md)사용할 수 있는 모니터링, 분석 및 워크플로와 Microsoft 365 보안 센터의 보고 [및 구성 기능이 포함됩니다.](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center) 이러한 고급 기능은 E3 라이선스 또는 Windows Professional 사용할 Windows 없습니다. 그러나 해당 라이선스가 있는 경우 이벤트 뷰어 및 로그를 사용하여 Microsoft Defender 바이러스 백신 축소 규칙 이벤트를 검토할 수 있습니다.
 
-## <a name="review-attack-surface-reduction-events-in-the-microsoft-defender-security-center"></a>Microsoft Defender 보안 센터에서 공격 표면 감소 이벤트 검토
+## <a name="review-attack-surface-reduction-events-in-the-microsoft-defender-security-center"></a>공격 표면 감소 이벤트를 Microsoft Defender 보안 센터
 
 Endpoint용 Defender는 이벤트에 대한 자세한 보고를 제공하며 경고 조사 시나리오의 일부로 차단합니다.
 
@@ -130,12 +131,12 @@ DeviceEvents
 | where ActionType startswith 'Asr'
 ```
 
-## <a name="review-attack-surface-reduction-events-in-windows-event-viewer"></a>Windows 이벤트 뷰어에서 공격 표면 축소 이벤트 검토
+## <a name="review-attack-surface-reduction-events-in-windows-event-viewer"></a>이벤트 뷰어에서 공격 Windows 검토
 
-Windows 이벤트 로그를 검토하여 공격 표면 감소 규칙에 의해 생성된 이벤트를 볼 수 있습니다.
+다음과 같은 Windows 로그를 검토하여 공격 표면 감소 규칙에 의해 생성된 이벤트를 볼 수 있습니다.
 
 1. 평가 [패키지를](https://aka.ms/mp7z2w) 다운로드하고  디바이스에서cfa-events.xml쉽게 액세스할 수 있는 위치에 파일을 추출합니다.
-2. Windows 이벤트 *뷰어를* 열기 위해 시작 메뉴에 이벤트 뷰어 단어를 입력합니다.
+2. 시작 메뉴에 이벤트 *뷰어* 단어를 입력하여 이벤트 뷰어를 Windows 를 넣습니다.
 3. **작업에서** 사용자 지정 보기 **가져오기... 를 선택합니다.**
 4. 추출된 *cfa-events.xml* 파일을 선택합니다. 또는 [XML을 직접 복사합니다.](event-views.md)
 5. **확인** 을 선택합니다.
@@ -149,32 +150,60 @@ Windows 이벤트 로그를 검토하여 공격 표면 감소 규칙에 의해 �
 |1122|감사 모드에서 규칙이 발생하면 이벤트|
 |
 
-이벤트 로그의 공격 표면 축소 이벤트에 대해 나열된 "엔진 버전"은 운영 체제가 아니라 Endpoint용 Defender에 의해 생성됩니다. Endpoint용 Defender는 Windows 10과 통합되어 있으므로 이 기능은 Windows 10이 설치된 모든 장치에서 작동합니다.
+이벤트 로그의 공격 표면 축소 이벤트에 대해 나열된 "엔진 버전"은 운영 체제가 아니라 Endpoint용 Defender에 의해 생성됩니다. Endpoint용 Defender는 Windows 10 통합되어 있으므로 이 Windows 10 설치된 모든 장치에서 작동합니다.
 
 ## <a name="attack-surface-reduction-rules"></a>공격 노출 영역 축소 규칙
 
 다음 표 및 하위 섹션에서는 15개 공격 표면 감소 규칙 각각에 대해 설명하고 있습니다. 공격 표면 감소 규칙은 규칙 이름에 따라 사전순으로 나열됩니다.
 
-그룹 정책 또는 PowerShell을 사용하여 공격 표면 감소 규칙을 구성하는 경우 GUID가 필요합니다. 반면, Microsoft Endpoint Manager 또는 Microsoft Intune을 사용하는 경우 GUID가 필요하지 않습니다.
+그룹 정책 또는 PowerShell을 사용하여 공격 표면 감소 규칙을 구성하는 경우 GUID가 필요합니다. 반면에 사용자 또는 Microsoft Endpoint Manager Microsoft Intune GUID가 필요하지 않습니다.
 
 |규칙 이름|GUID|파일 & 제외|지원되는 최소 OS|
 |---|:---:|---|---|
+|[악용된 취약한 서명된 드라이버의 남용 차단](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|지원|[Windows 10 버전 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)|
 |[Adobe Reader에서 하위 프로세스를 만들지 차단](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
-|[모든 Office 응용 프로그램에서 하위 프로세스를 만들지 차단](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
-|[Windows 로컬 보안 기관 하위 체제에서 자격 증명 도용 차단(lsass.exe)](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
+|[모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
+|[로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
 |[전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단](#block-executable-content-from-email-client-and-webmail)|`BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
 |[실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)|`01443614-cd74-433a-b99e-2ecdc07bfc25`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
 |[잠재적으로 난치될 수 있는 스크립트의 실행 차단](#block-execution-of-potentially-obfuscated-scripts)|`5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
 |[JavaScript 또는 VBScript에서 다운로드한 실행 콘텐츠 시작 차단](#block-javascript-or-vbscript-from-launching-downloaded-executable-content)|`D3E037E1-3EB8-44C8-A917-57927947596D`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
-|[Office 응용 프로그램에서 실행 가능한 콘텐츠를 만들지 차단](#block-office-applications-from-creating-executable-content)|`3B576869-A4EC-4529-8536-B80A7769E899`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
-|[Office 응용 프로그램에서 다른 프로세스에 코드를 삽입하지 차단](#block-office-applications-from-injecting-code-into-other-processes)|`75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
-|[Office 통신 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-office-communication-application-from-creating-child-processes)|`26190899-1602-49e8-8b27-eb1d0a1ce869`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
+|[응용 Office 콘텐츠 만들기 차단](#block-office-applications-from-creating-executable-content)|`3B576869-A4EC-4529-8536-B80A7769E899`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
+|[응용 Office 코드 삽입 차단](#block-office-applications-from-injecting-code-into-other-processes)|`75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
+|[통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-office-communication-application-from-creating-child-processes)|`26190899-1602-49e8-8b27-eb1d0a1ce869`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
 |[WMI 이벤트 구독을 통한 지속성 차단](#block-persistence-through-wmi-event-subscription)|`e6db77e5-3df2-4cf1-b95a-636979351e5b`|지원되지 않음|[Windows 10 버전 1903(빌드](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1903) 18362) 이상|
 |[PSExec 및 WMI 명령에서 시작된 프로세스 생성 차단](#block-process-creations-originating-from-psexec-and-wmi-commands)|`d1e49aac-8f56-4280-b9ba-993a6d77406c`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
 |[USB에서 실행된 무단 및 사인되지 않은 프로세스 차단](#block-untrusted-and-unsigned-processes-that-run-from-usb)|`b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
-|[Office 매크로에서 Win32 API 호출 차단](#block-win32-api-calls-from-office-macros)|`92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
+|[매크로에서 Win32 API Office 차단](#block-win32-api-calls-from-office-macros)|`92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
 |[랜섬웨어에 대한 고급 보호 사용](#use-advanced-protection-against-ransomware)|`c1db55ab-c21a-4637-bb3f-a12568109d35`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
 |
+
+### <a name="block-abuse-of-exploited-vulnerable-signed-drivers"></a>악용된 취약한 서명된 드라이버의 남용 차단
+
+이 규칙은 응용 프로그램이 디스크에 취약한 서명된 드라이버를 작성하지 못하게 합니다. 와일드에서 취약한 서명된 드라이버는 커널에 액세스하기에 충분한 권한이 있는 로컬 응용 프로그램에 \-  \- 의해 악용될 수 있습니다. 취약한 서명된 드라이버를 사용하면 공격자가 보안 솔루션을 사용하지 않도록 설정하거나 우회할 수 있습니다. 결과적으로 시스템 손상이 일어날 수 있습니다.
+
+이 규칙은 시스템에 이미 있는 드라이버가 로드되는 것을 차단하지 않습니다.
+
+이 규칙은 ASR이 지원되는 모든 버전에서 지원됩니다. 은:
+
+- [Windows 10 Pro 버전 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 이상
+- [Windows 10 Enterprise 버전 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 이상
+- [Windows Server, 버전 1803(반기 채널)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) 이상
+- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+
+Intune 이름: `Block abuse of exploited vulnerable signed drivers`
+
+GUID:  `56a863a9-875e-4185-98a7-b882c64b5ce5`
+
+MEM [Microsoft Endpoint Manager 절차](enable-attack-surface-reduction.md#microsoft-endpoint-manager-custom-procedure) 정보에 대한 사용자 지정 프로시저를 참조하세요.
+
+명령줄에서 이 명령을 실행하여 ASR 규칙을 사용하도록 설정할 수 있습니다.
+
+```powershell
+"& {&'Add-MpPreference' -AttackSurfaceReductionRules_Ids 56a863a9-875e-4185-98a7-b882c64b5ce5 -AttackSurfaceReductionRules_Actions Enabled"}
+```
+
+이 웹 사이트를 사용하여 분석을 위해 [드라이버를 제출할 수 있습니다.](https://www.microsoft.com/en-us/wdsi/driversubmission)
 
 ### <a name="block-adobe-reader-from-creating-child-processes"></a>Adobe Reader에서 하위 프로세스를 만들지 차단
 
@@ -185,7 +214,7 @@ Windows 이벤트 로그를 검토하여 공격 표면 감소 규칙에 의해 �
 이 규칙은
 
 - [Windows 10 버전 1809](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1809)
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows 서버, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 
 Intune 이름: `Process creation from Adobe Reader (beta)`
@@ -194,16 +223,16 @@ Configuration Manager 이름: 아직 사용할 수 없습니다.
 
 GUID: `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`
 
-### <a name="block-all-office-applications-from-creating-child-processes"></a>모든 Office 응용 프로그램에서 하위 프로세스를 만들지 차단
+### <a name="block-all-office-applications-from-creating-child-processes"></a>모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단
 
-이 규칙은 Office 앱이 자식 프로세스를 만들지 않습니다. Office 앱에는 Word, Excel, PowerPoint, OneNote 및 Access가 포함됩니다.
+이 규칙은 Office 프로세스 만들기를 차단합니다. Office 앱에는 Word, Excel, PowerPoint, OneNote 및 Access가 포함됩니다.
 
-악의적인 자식 프로세스를 만드는 것은 일반적인 맬웨어 전략입니다. Office를 벡터로 남용하는 맬웨어는 VBA 매크로를 실행하고 코드를 악용하여 더 많은 페이로드를 다운로드하고 실행하려고 합니다. 그러나 일부 합법적인 업무용 응용 프로그램은 명령 프롬프트 생성 또는 PowerShell을 사용하여 레지스트리 설정을 구성하는 등 양성 목적으로 자식 프로세스를 생성할 수도 있습니다.
+악의적인 자식 프로세스를 만드는 것은 일반적인 맬웨어 전략입니다. 벡터로 Office 악용하는 맬웨어는 VBA 매크로를 실행하고 코드를 악용하여 더 많은 페이로드를 다운로드하고 실행하려고 합니다. 그러나 일부 합법적인 업무용 응용 프로그램은 명령 프롬프트 생성 또는 PowerShell을 사용하여 레지스트리 설정을 구성하는 등 양성 목적으로 자식 프로세스를 생성할 수도 있습니다.
 
 이 규칙은
 
 - [Windows 10 버전 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows 서버, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1710](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
 
@@ -213,11 +242,11 @@ Configuration Manager 이름: `Block Office application from creating child proc
 
 GUID: `D4F940AB-401B-4EFC-AADC-AD5F3C50688A`
 
-### <a name="block-credential-stealing-from-the-windows-local-security-authority-subsystem"></a>Windows 로컬 보안 기관 하위에서 자격 증명 도용 차단
+### <a name="block-credential-stealing-from-the-windows-local-security-authority-subsystem"></a>로컬 보안 기관 하위 Windows 자격 증명 도용 차단
 
 이 규칙은 LSASS(Local Security Authority Subsystem Service)를 잠가 자격 증명 도용을 방지하는 데 도움이 됩니다.
 
-LSASS는 Windows 컴퓨터에서 로그인하는 사용자를 인증합니다. Windows 10의 Microsoft Defender Credential Guard는 일반적으로 LSASS에서 자격 증명을 추출하려고 시도하지 않습니다. 그러나 일부 조직에서는 사용자 지정 스마트 카드 드라이버 또는 LSA(Local Security Authority)로 로드되는 다른 프로그램과의 호환성 문제로 인하여 모든 컴퓨터에서 Credential Guard를 사용하도록 설정할 수 없습니다. 이러한 경우 공격자는 Mimikatz와 같은 해킹 도구를 사용하여 LSASS에서 지우기 암호 및 NTLM 해시를 스크랩할 수 있습니다.
+LSASS는 Windows 인증합니다. Microsoft Defender Credential Guard는 Windows 10 LSASS에서 자격 증명을 추출하려고 시도하지 않습니다. 그러나 일부 조직에서는 사용자 지정 스마트 카드 드라이버 또는 LSA(Local Security Authority)로 로드되는 다른 프로그램과의 호환성 문제로 인하여 모든 컴퓨터에서 Credential Guard를 사용하도록 설정할 수 없습니다. 이러한 경우 공격자는 Mimikatz와 같은 해킹 도구를 사용하여 LSASS에서 지우기 암호 및 NTLM 해시를 스크랩할 수 있습니다.
 
 > [!NOTE]
 > 일부 앱에서는 코드가 실행 중인 모든 프로세스를 열기하고 모든 사용 권한으로 열려고 시도합니다. 이 규칙은 앱의 프로세스 열기 작업을 거부하고 보안 이벤트 로그에 세부 정보를 기록합니다. 이 규칙은 노이즈를 많이 생성할 수 있습니다. LSASS를 열기만 하지만 기능에는 실질적인 영향을 미치는 앱이 있는 경우 제외 목록에 앱을 추가할 필요가 없습니다. 이 이벤트 로그 항목 자체는 악의적인 위협을 나타낼 필요는 없습니다.

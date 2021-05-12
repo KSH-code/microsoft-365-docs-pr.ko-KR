@@ -15,18 +15,19 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: df77a3d6c1f66882600a200b83b3b2585473f42b
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: fc04db0c9fe8ee6d09efc9802ab4a747af0b3e9c
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995072"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52326707"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
+
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -78,7 +79,6 @@ Intune 또는 Microsoft Endpoint Manager와 같은 엔터프라이즈 수준 관
 > [!IMPORTANT]
 > 파일 또는 폴더를 제외하면 ASR 규칙에서 제공하는 보호를 심각하게 줄일 수 있습니다. 제외된 파일은 실행될 수 있으며 보고서나 이벤트는 기록되지 않습니다.
 > ASR 규칙이 검색되지 않는 것으로 생각되는 파일을 검색하는 경우 먼저 감사 모드를 사용하여 규칙을 [테스트해야 합니다.](evaluate-attack-surface-reduction.md)
-
 
 개별 파일 또는 폴더(폴더 경로 또는 정식 리소스 이름을 사용하여)를 지정할 수 있지만 제외가 적용되는 규칙을 지정할 수 없습니다. 제외는 제외된 응용 프로그램 또는 서비스가 시작될 때만 적용됩니다. 예를 들어 이미 실행 중인 업데이트 서비스에 대해 제외를 추가하는 경우 업데이트 서비스는 서비스가 중지되고 다시 시작될 때까지 이벤트를 계속 트리거합니다.
 
@@ -145,9 +145,9 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
 > [!WARNING]
 > Intune, Configuration Manager 또는 기타 엔터프라이즈 수준 관리 플랫폼을 사용하여 컴퓨터와 장치를 관리하는 경우 관리 소프트웨어가 시작 시 충돌하는 그룹 정책 설정을 덮어 덮어 덮어 사용합니다.
 
-1. 그룹 정책 관리 컴퓨터에서 그룹 정책 관리 콘솔을 [열고](https://technet.microsoft.com/library/cc731212.aspx)구성할 그룹 정책 개체를 마우스 오른쪽 단추로 클릭하고 편집을 **선택합니다.**
+1. 그룹 정책 관리 컴퓨터에서 [그룹 정책 관리 콘솔](https://technet.microsoft.com/library/cc731212.aspx)을 열고 구성하려는 그룹 정책 개체를 마우스 오른쪽 단추로 클릭한 다음 **편집** 을 선택합니다.
 
-2. 그룹 **정책 관리 편집기에서** 컴퓨터 **구성으로 이동하여** 관리 **템플릿을 선택합니다.**
+2. **그룹 정책 관리 편집기** 에서 **컴퓨터 구성** 으로 이동하여 **관리 템플릿** 을 선택합니다.
 
 3. **Windows** 구성 요소 Microsoft Defender 바이러스 백신 Microsoft Defender Exploit Guard 공격 표면 감소까지  >    >    >  **트리를 확장합니다.**
 
@@ -166,6 +166,75 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
 
    > [!WARNING]
    > 값 이름 열이나 값 열에 대해  지원되지 않는 따옴표를 사용하지 **않습니다.**
+
+## <a name="microsoft-endpoint-manager-custom-procedure"></a>Microsoft Endpoint Manager 사용자 지정 절차
+
+MEM(Microsoft Endpoint Manager) 관리 센터를 사용하여 사용자 지정 ASR 규칙을 구성할 수 있습니다.
+
+1. MEM(Microsoft Endpoint Manager) 관리 센터를 열 수 있습니다. 홈 **메뉴에서** **장치,** 구성 **프로필을** 선택한 다음 프로필 **만들기를 클릭합니다.**
+
+   ![MEM 프로필 만들기](images/mem01-create-profile.png)
+
+2. 프로필 **만들기의** 다음 두 드롭다운 목록에서 다음을 선택합니다.
+
+   - **플랫폼에서** 추가 Windows 10 **이상을 선택합니다.**
+   - 프로필 **유형에서** **템플릿을 선택합니다.**
+
+   사용자 **지정 을** 선택한 다음 만들기를 **클릭합니다.**
+
+   ![MEM 규칙 프로필 특성](images/mem02-profile-attributes.png)
+
+3. 사용자 지정 서식 파일 도구가 **1단계 기본 으로 열립니다.** **1 기본 사항 의** **이름에** 서식 파일 이름을  입력하고 설명에 선택적 설명을 입력할 수 있습니다.
+
+   ![MEM 기본 특성](images/mem03-1-basics.png)
+
+4. **다음** 을 클릭합니다. **2단계 구성 설정이** 열립니다. OMA-URI 설정 추가를 **클릭합니다.** 이제 추가 및 **내보내기의 두 가지** 옵션이 **표시됩니다.**
+
+   ![MEM 구성 설정](images/mem04-2-configuration-settings.png)
+
+5. 추가를 **다시** 클릭합니다. 행 **추가 OMA-URI** 설정 열립니다. 행 **추가에서** 다음을 합니다.
+
+   - **이름에** 규칙의 이름을 입력합니다.
+   - **설명에** 간단한 설명을 입력합니다.
+   - **OMA-URI에서** 추가하는 규칙에 대한 특정 OMA-URI 링크를 입력하거나 붙여넣습니다.
+   - 데이터 **형식에서** 문자열 을 **선택합니다.**
+   - **값에서** GUID 값, 부호 및 상태 값을 공백이 없는 상태로 입력하거나 \= 붙여넣습니다(_GUID=StateValue)._ Where: {0 : Disable (Disable the ASR rule)}, {1 : Block (Enable the ASR rule)}, {2 : Audit (Evaluate how the ASR rule would impact your organization if enabled)}, {6 : Warn (Enable the ASR rule but allow the end-user to bypass the block)}
+
+   ![MEM OMA URI 구성](images/mem05-add-row-oma-uri.png)
+
+6. **저장** 을 클릭합니다. **행 추가** 닫기 사용자 **지정에서** 다음 을 **클릭합니다.** **3단계 범위 태그에서** 범위 태그는 선택 사항입니다. 다음 중 하나를 수행합니다.
+
+   - 범위 **태그 선택을 클릭하고** 범위 태그(선택 사항)를 선택한 후 다음 을 **클릭합니다.**
+   - 또는 **다음을 클릭합니다.**
+
+7. **4단계 할당 의** **포함** 그룹 - 이 규칙을 적용할 그룹에 대해 다음 옵션에서 선택합니다.
+
+   - **그룹 추가**
+   - **모든 사용자 추가**
+   - **모든 장치 추가**
+
+   ![MEM 할당](images/mem06-4-assignments.png)
+
+8. 제외된 **그룹에서** 이 규칙에서 제외할 그룹을 선택하고 다음 을 **클릭합니다.**
+
+9. **5단계에서** 다음 설정에 대한 적용성 규칙을 적용합니다.
+
+   - **규칙에서**, 다음의 경우 프로필 할당을 **선택하거나,** 프로필 할당 안 **의 경우**
+   - **속성에서** 이 규칙을 적용할 속성을 선택합니다.
+   - **값에** 해당하는 값 또는 값 범위를 입력합니다.
+
+   ![MEM 적용성 규칙](images/mem07-5-applicability -rules.png)
+
+10. **다음** 을 클릭합니다. **6단계 검토 + 만들기에서** 선택한 후 입력한 설정 및 정보를 검토하고 만들기를 **클릭합니다.**
+
+   ![MEM 검토 및 만들기](images/mem08-6-review-create.png)
+
+>[!NOTE]
+> 규칙은 활성화된 후 몇 분 내에 활성화됩니다.
+
+>[!NOTE]
+> 충돌 처리: 디바이스에 두 개의 서로 다른 ASR 정책을 할당하는 경우 충돌이 처리되는 방식은 서로 다른 상태의 규칙이 적용되어 충돌 관리가 없는 것이고 그 결과로 오류가 발생합니다.
+> 충돌하지 않는 규칙은 오류를 발생하지 않습니다. 규칙이 올바르게 적용됩니다. 결과적으로 첫 번째 규칙이 적용되고 이후에 충돌하지 않는 규칙이 정책에 병합됩니다.
 
 ## <a name="powershell"></a>PowerShell
 

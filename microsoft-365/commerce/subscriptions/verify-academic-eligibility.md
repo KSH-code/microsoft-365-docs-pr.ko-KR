@@ -6,6 +6,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: pablom
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -13,18 +14,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- commerce
-ms.custom: ''
-search.appverid:
-- MET150
+ms.custom:
+- AdminSurgePortfolio
+- commerce_subscriptions
+search.appverid: MET150
 description: 교육용 가격 책정에 대한 학교의 자격을 Microsoft 365 Education 방법을 참조합니다.
 ms.date: 07/21/2020
-ms.openlocfilehash: ad014cd72d82413073e1e645484f2a7fd0090b3c
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: e0e85e53ed00c1c7c23e86f380a6440038d775c9
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52293490"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52326881"
 ---
 # <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>교육용 구독에 대한 Microsoft 365 Education 자격 확인
 

@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.review: yinggiy, pablom
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,15 +16,15 @@ ms.collection:
 description: 특정 앱에 대한 라이선스를 사용자에게 자동으로 할당하는 자동 클레임 정책을 만들고 관리하는 방법을 학습합니다.
 ms.custom:
 - AdminSurgePortfolio
-- commerce
-search.appverid:
-- MET150
-ms.openlocfilehash: 001b612820bb13873ec18733d68828837fcecd78
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+- commerce_licensing
+search.appverid: MET150
+ms.date: 04/06/2021
+ms.openlocfilehash: c89c8114c9a71a315d5876a0edf55d269ed2b12d
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599454"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327109"
 ---
 # <a name="manage-auto-claim-policies"></a>자동 클레임 정책 관리
 

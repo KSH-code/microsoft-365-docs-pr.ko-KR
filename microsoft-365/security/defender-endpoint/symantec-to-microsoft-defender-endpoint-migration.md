@@ -19,18 +19,18 @@ ms.collection:
 - m365solution-symantecmigrate
 - m365solution-overview
 ms.topic: article
-ms.date: 03/03/2021
+ms.date: 05/10/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 587cf49ddc8d6135047fbb5e0207ed0f94d1dbe0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3e3a30ac4d03a40157fd7ec7f06e6e2a82c685a0
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934732"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327393"
 ---
 # <a name="migrate-from-symantec-to-microsoft-defender-for-endpoint"></a>Symantec에서 끝점용 Microsoft Defender로 마이그레이션
-Symantec Endpoint Protection(Symantec)에서 [끝점용 Microsoft Defender(Endpoint용 Microsoft Defender)로](https://docs.microsoft.com/windows/security/threat-protection) 전환할 계획이면 올바른 장소에 있습니다. 이 문서를 가이드로 사용하세요.
+Symantec Endpoint Protection(Symantec)에서 [끝점용 Microsoft Defender(Endpoint용 Microsoft Defender)로](microsoft-defender-endpoint.md) 전환할 계획이면 올바른 장소에 있습니다. 이 문서를 가이드로 사용하세요.
 
 **적용 대상:**
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -49,25 +49,25 @@ Symantec에서 끝점용 Microsoft Defender로 전환하는 경우 다음 표에
 |단계 |설명 |
 |--|--|
 |[마이그레이션 준비](symantec-to-microsoft-defender-atp-prepare.md) |준비 **단계에서는** 끝점용 Microsoft Defender를 다운로드하고, 역할 및 사용 권한을 계획하고, Microsoft Defender 보안 센터에 대한 액세스 권한을 부여합니다. 또한 조직의 장치와 끝점용 Microsoft Defender 간의 통신을 사용하도록 장치 프록시 및 인터넷 설정을 구성합니다. |
-|[끝점에 대한 Microsoft Defender 설정](symantec-to-microsoft-defender-atp-setup.md) |설치 **단계에서는** Microsoft Defender 바이러스 백신, Endpoint용 Microsoft Defender 및 Symantec Endpoint Protection에 대한 설정 및 제외를 구성합니다. 장치 그룹, 컬렉션 및 조직 구성 단위도 만들 수 있습니다. 마지막으로 맬웨어 방지 정책 및 실시간 보호 설정을 구성합니다.|
+|[끝점에 대한 Microsoft Defender 설정](symantec-to-microsoft-defender-atp-setup.md) |설치 **단계에서는** Microsoft Defender 바이러스 백신 및 Symantec Endpoint Protection에 대한 설정 및 제외를 구성합니다. 장치 그룹, 컬렉션 및 조직 구성 단위도 만들 수 있습니다. 마지막으로 맬웨어 방지 정책 및 실시간 보호 설정을 구성합니다.|
 |[끝점용 Microsoft Defender에 온보딩](symantec-to-microsoft-defender-atp-onboard.md) |**온보딩** 단계에서는 디바이스를 끝점용 Microsoft Defender에 온보딩하고 해당 장치가 끝점용 Microsoft Defender와 통신하는지 확인할 수 있습니다. 마지막으로 Symantec을 제거하고 끝점용 Microsoft Defender를 통한 보호가 활성 모드에 있는지 확인 합니다. |
 
 ## <a name="whats-included-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에는 무엇이 포함되어 있나요?
 
-이 마이그레이션 가이드에서는 끝점용 Microsoft [](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) Defender로 이동하기 위한 시작점으로 차세대 보호 및 끝점 감지 및 응답 기능에 중점을 두고 있습니다. [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 그러나 끝점용 Microsoft Defender에는 바이러스 백신 및 끝점 보호보다 훨씬 더 많은 보호가 포함되어 있습니다. 엔드포인트용 Microsoft Defender는 예방적 보호, 침해 후 감지, 자동화된 조사 및 대응을 위한 통합 플랫폼입니다. 다음 표에는 끝점용 Microsoft Defender의 기능이 요약되어 있습니다. 
+이 마이그레이션 가이드에서는 끝점용 Microsoft [](overview-endpoint-detection-response.md) Defender로 이동하기 위한 시작점으로 차세대 보호 및 끝점 감지 및 응답 기능에 중점을 두고 있습니다. [](microsoft-defender-antivirus-in-windows-10.md) 그러나 끝점용 Microsoft Defender에는 바이러스 백신 및 끝점 보호보다 훨씬 더 많은 보호가 포함되어 있습니다. 엔드포인트용 Microsoft Defender는 예방적 보호, 침해 후 감지, 자동화된 조사 및 대응을 위한 통합 플랫폼입니다. 다음 표에는 끝점용 Microsoft Defender의 기능이 요약되어 있습니다. 
 
 | 기능/기능 | 설명 |
 |---|---|
-| [위협 및 취약성 관리](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) | 위협 & 관리 기능은 끝점(예: 장치)에서 약점을 식별, 평가 및 수정하는 데 도움이 됩니다. |
-| [공격 표면 감소](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction) | 공격 표면 감소 규칙은 사이버 위협 및 공격으로부터 조직의 장치 및 응용 프로그램을 보호하는 데 도움이 됩니다. |
-| [차세대 보호](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) | 차세대 보호에는 위협과 맬웨어를 차단하는 데 도움이 되는 Microsoft Defender 바이러스 백신이 포함되어 있습니다. |
-| [엔드포인트 검색 및 대응](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) | 끝점 감지 및 응답 기능은 침입 시도 및 활성 위반을 감지, 조사 및 대응합니다.  |
+| [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md) | 위협 & 관리 기능은 끝점(예: 장치)에서 약점을 식별, 평가 및 수정하는 데 도움이 됩니다. |
+| [공격 표면 감소](overview-attack-surface-reduction.md) | 공격 표면 감소 규칙은 사이버 위협 및 공격으로부터 조직의 장치 및 응용 프로그램을 보호하는 데 도움이 됩니다. |
+| [차세대 보호](microsoft-defender-antivirus-in-windows-10.md) | 차세대 보호에는 위협과 맬웨어를 차단하는 데 도움이 되는 Microsoft Defender 바이러스 백신이 포함되어 있습니다. |
+| [엔드포인트 검색 및 대응](overview-endpoint-detection-response.md) | 끝점 감지 및 응답 기능은 침입 시도 및 활성 위반을 감지, 조사 및 대응합니다.  |
 | [지능형 헌팅](advanced-hunting-overview.md) | 고급 헌팅 기능을 통해 보안 운영 팀은 알려진 위협 또는 잠재적인 위협의 지표와 엔터티를 찾을 수 있습니다. |
-| [동작 차단 및 제약](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/behavioral-blocking-containment) | 동작 차단 및 포함 기능은 위협이 실행을 시작한 경우에도 동작 및 처리 트리를 기반으로 위협을 식별하고 중지하는 데 도움이 됩니다. |
-| [자동화된 조사 및 수정](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/automated-investigations) | 자동화된 조사 및 대응 기능은 경고를 검사하고 위반을 해결하기 위해 즉시 수정 조치를 취합니다. |
-| [위협 헌팅 서비스(Microsoft](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-threat-experts) 위협 전문가) | 위협 헌팅 서비스는 보안 운영 팀에 전문가 수준의 모니터링 및 분석을 제공하고 중요한 위협이 누락되지 않도록 합니다. |
+| [동작 차단 및 제약](behavioral-blocking-containment.md) | 동작 차단 및 포함 기능은 위협이 실행을 시작한 경우에도 동작 및 처리 트리를 기반으로 위협을 식별하고 중지하는 데 도움이 됩니다. |
+| [자동화된 조사 및 수정](automated-investigations.md) | 자동화된 조사 및 대응 기능은 경고를 검사하고 위반을 해결하기 위해 즉시 수정 조치를 취합니다. |
+| [위협 헌팅 서비스(Microsoft](microsoft-threat-experts.md) 위협 전문가) | 위협 헌팅 서비스는 보안 운영 팀에 전문가 수준의 모니터링 및 분석을 제공하고 중요한 위협이 누락되지 않도록 합니다. |
 
-**자세한 내용을 원하세요? [끝점용 Microsoft Defender를 참조합니다.](https://docs.microsoft.com/windows/security/threat-protection)**
+**자세한 내용을 원하세요? [끝점용 Microsoft Defender를 참조합니다.](microsoft-defender-endpoint.md)**
 
 ## <a name="next-step"></a>다음 단계
 

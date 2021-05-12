@@ -10,7 +10,6 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
@@ -20,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 Business Premium에서 관리자 도움말 또는 지원을 다운로드하는 방법을 배우게 됩니다.
-ms.openlocfilehash: 5494b51ba59304de8dde71c9c7fa0434ec5dd0c8
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
-ms.translationtype: HT
+ms.openlocfilehash: 8db4f7675f96bac2157c9c0f93ab506c8a39e1bb
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244935"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327189"
 ---
 # <a name="get-support"></a>지원 받기
 
@@ -44,7 +43,7 @@ ms.locfileid: "52244935"
 
 온라인으로 서비스 요청을 시작하여 시간을 절약합니다. 솔루션을 찾거나 기술 지원을 받을 수 있도록 도와드리겠습니다.
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다. 해당 페이지에 액세스 또는 해당 작업 수행에 대한 권한이 없습니다라는 메시지가 나타나는 경우, 관리자가 아닙니다. [내 비즈니스에서 관리자 권한을 가진 사용자를 알아보세요.](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview?#who-has-admin-permissions-in-my-business)
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다. 이 페이지에 액세스하거나 이 작업을 수행할 수 있는 권한이 없다고 하는 메시지가 표시될 경우 관리자가 아닌 것입니다. (자세한 내용은 내 비즈니스에서 관리자 권한이 있는 [사용자?를 참조하세요.](admin-center-overview.md#who-has-admin-permissions-in-my-business)
 
 2. **도움이 필요하신가요?** 버튼을 선택합니다.
 
@@ -216,7 +215,7 @@ Office 365를 사용할 경우 서로 다른 기능을 수행하는 다양한 �
 
 ## <a name="feature-availability"></a>기능 가용성
 
-Office 365 계획 간의 기능 가용성을 확인하려면 [Office 365 서비스 설명](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)을 참조하세요.
+여러 계획에서 기능 가용성을 Office 365 서비스 설명을 Office 365 [참조하세요.](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)
 
 ## <a name="follow-us-on-wechat"></a>WeChat에서 팔로우:
 
