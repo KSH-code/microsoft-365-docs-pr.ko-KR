@@ -1,6 +1,6 @@
 ---
 title: Mac의 끝점용 Microsoft Defender에 대한 Intune 기반 배포
-description: Microsoft Intune을 사용하여 Mac에서 끝점용 Microsoft Defender를 설치합니다.
+description: Mac에서 끝점용 Microsoft Defender를 설치하고 Microsoft Intune.
 keywords: microsoft, defender, Endpoint용 Microsoft Defender, mac, 설치, 배포, 제거, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,85 +18,62 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c98ce17b7b71f2d05aeffe66dbb1e08f9046f463
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: da82b24b8a6bb6aa22028615bb3dd0c9d45acfa1
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933148"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52345987"
 ---
-# <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a><span data-ttu-id="c88ec-104">MacOS의 끝점용 Microsoft Defender용 Intune 기반 배포</span><span class="sxs-lookup"><span data-stu-id="c88ec-104">Intune-based deployment for Microsoft Defender for Endpoint on macOS</span></span>
-
+# <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a><span data-ttu-id="76dd4-104">MacOS의 끝점용 Microsoft Defender용 Intune 기반 배포</span><span class="sxs-lookup"><span data-stu-id="76dd4-104">Intune-based deployment for Microsoft Defender for Endpoint on macOS</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
+<span data-ttu-id="76dd4-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="76dd4-105">**Applies to:**</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="c88ec-105">이 설명서에서는 macOS 장치에서 끝점용 Microsoft Defender를 배포하고 구성하는 레거시 방법에 대해 설명하고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-105">This documentation explains the legacy method for deploying and configuring Microsoft Defender for Endpoint on macOS devices.</span></span> <span data-ttu-id="c88ec-106">이제 MEM 콘솔에서 기본 환경을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-106">The native experience is now available in the MEM console.</span></span> <span data-ttu-id="c88ec-107">MEM 콘솔의 기본 UI 릴리스는 관리자에게 응용 프로그램을 구성 및 배포하고 macOS 장치로 보내는 훨씬 간단한 방법을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-107">The release of the native UI in the MEM console provide admins with a much simpler way to configure and deploy the application and send it down to macOS devices.</span></span> <br> <br>
-><span data-ttu-id="c88ec-108">블로그 게시물 [MEM은 MacOS용 끝점용 Microsoft Defender](https://techcommunity.microsoft.com/t5/microsoft-endpoint-manager-blog/microsoft-endpoint-manager-simplifies-deployment-of-microsoft/ba-p/1322995) 배포를 간소화합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-108">The blog post [MEM simplifies deployment of Microsoft Defender for Endpoint for macOS](https://techcommunity.microsoft.com/t5/microsoft-endpoint-manager-blog/microsoft-endpoint-manager-simplifies-deployment-of-microsoft/ba-p/1322995) explains the new features.</span></span> <span data-ttu-id="c88ec-109">앱을 구성하려면 Microsoft [InTune에서 macOS의 끝점용 Microsoft Defender 설정으로 이동합니다.](https://docs.microsoft.com/mem/intune/protect/antivirus-microsoft-defender-settings-macos)</span><span class="sxs-lookup"><span data-stu-id="c88ec-109">To configure the app, go to [Settings for Microsoft Defender for Endpoint on macOS in Microsoft InTune](https://docs.microsoft.com/mem/intune/protect/antivirus-microsoft-defender-settings-macos).</span></span> <span data-ttu-id="c88ec-110">앱을 배포하기 위해 [Microsoft Intune을 사용하여 MacOS 장치에 끝점용 Microsoft Defender 추가로 이동하세요.](https://docs.microsoft.com/mem/intune/apps/apps-advanced-threat-protection-macos)</span><span class="sxs-lookup"><span data-stu-id="c88ec-110">To deploy the app, go to [Add Microsoft Defender for Endpoint to macOS devices using Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-advanced-threat-protection-macos).</span></span>
+- [<span data-ttu-id="76dd4-106">Microsoft Defender for Endpoint(macOS용)</span><span class="sxs-lookup"><span data-stu-id="76dd4-106">Microsoft Defender for Endpoint on macOS</span></span>](microsoft-defender-endpoint-mac.md)
 
-<span data-ttu-id="c88ec-111">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="c88ec-111">**Applies to:**</span></span>
+<span data-ttu-id="76dd4-107">이 항목에서는 Intune을 통해 macOS에서 끝점용 Microsoft Defender를 배포하는 방법을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-107">This topic describes how to deploy Microsoft Defender for Endpoint on macOS through Intune.</span></span> <span data-ttu-id="76dd4-108">배포를 성공적으로 수행하려면 다음 단계를 모두 완료해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-108">A successful deployment requires the completion of all of the following steps:</span></span>
 
-- [<span data-ttu-id="c88ec-112">Microsoft Defender for Endpoint(macOS용)</span><span class="sxs-lookup"><span data-stu-id="c88ec-112">Microsoft Defender for Endpoint on macOS</span></span>](microsoft-defender-endpoint-mac.md)
+1. [<span data-ttu-id="76dd4-109">온보더링 패키지 다운로드</span><span class="sxs-lookup"><span data-stu-id="76dd4-109">Download the onboarding package</span></span>](#download-the-onboarding-package)
+1. [<span data-ttu-id="76dd4-110">클라이언트 장치 설정</span><span class="sxs-lookup"><span data-stu-id="76dd4-110">Client device setup</span></span>](#client-device-setup)
+1. [<span data-ttu-id="76dd4-111">시스템 확장 승인</span><span class="sxs-lookup"><span data-stu-id="76dd4-111">Approve system extensions</span></span>](#approve-system-extensions)
+1. [<span data-ttu-id="76dd4-112">시스템 구성 프로필 만들기</span><span class="sxs-lookup"><span data-stu-id="76dd4-112">Create System Configuration profiles</span></span>](#create-system-configuration-profiles)
+1. [<span data-ttu-id="76dd4-113">응용 프로그램 게시</span><span class="sxs-lookup"><span data-stu-id="76dd4-113">Publish application</span></span>](#publish-application)
 
-<span data-ttu-id="c88ec-113">이 항목에서는 Intune을 통해 macOS에서 끝점용 Microsoft Defender를 배포하는 방법을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-113">This topic describes how to deploy Microsoft Defender for Endpoint on macOS through Intune.</span></span> <span data-ttu-id="c88ec-114">배포를 성공적으로 수행하려면 다음 단계를 모두 완료해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-114">A successful deployment requires the completion of all of the following steps:</span></span>
+## <a name="prerequisites-and-system-requirements"></a><span data-ttu-id="76dd4-114">선행 조건 및 시스템 요구 사항</span><span class="sxs-lookup"><span data-stu-id="76dd4-114">Prerequisites and system requirements</span></span>
 
-1. [<span data-ttu-id="c88ec-115">설치 및 온보더링 패키지 다운로드</span><span class="sxs-lookup"><span data-stu-id="c88ec-115">Download installation and onboarding packages</span></span>](#download-installation-and-onboarding-packages)
-1. [<span data-ttu-id="c88ec-116">클라이언트 장치 설정</span><span class="sxs-lookup"><span data-stu-id="c88ec-116">Client device setup</span></span>](#client-device-setup)
-1. [<span data-ttu-id="c88ec-117">시스템 확장 승인</span><span class="sxs-lookup"><span data-stu-id="c88ec-117">Approve system extensions</span></span>](#approve-system-extensions)
-1. [<span data-ttu-id="c88ec-118">시스템 구성 프로필 만들기</span><span class="sxs-lookup"><span data-stu-id="c88ec-118">Create System Configuration profiles</span></span>](#create-system-configuration-profiles)
-1. [<span data-ttu-id="c88ec-119">응용 프로그램 게시</span><span class="sxs-lookup"><span data-stu-id="c88ec-119">Publish application</span></span>](#publish-application)
+<span data-ttu-id="76dd4-115">시작하기 전에 [MacOS의 주 Microsoft Defender for Endpoint](microsoft-defender-endpoint-mac.md) 페이지에서 현재 소프트웨어 버전에 대한 선행 조건 및 시스템 요구 사항에 대한 설명을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="76dd4-115">Before you get started, see [the main Microsoft Defender for Endpoint on macOS page](microsoft-defender-endpoint-mac.md) for a description of prerequisites and system requirements for the current software version.</span></span>
 
-## <a name="prerequisites-and-system-requirements"></a><span data-ttu-id="c88ec-120">선행 조건 및 시스템 요구 사항</span><span class="sxs-lookup"><span data-stu-id="c88ec-120">Prerequisites and system requirements</span></span>
+## <a name="overview"></a><span data-ttu-id="76dd4-116">개요</span><span class="sxs-lookup"><span data-stu-id="76dd4-116">Overview</span></span>
 
-<span data-ttu-id="c88ec-121">시작하기 전에 [MacOS의 주 Microsoft Defender for Endpoint](microsoft-defender-endpoint-mac.md) 페이지에서 현재 소프트웨어 버전에 대한 선행 조건 및 시스템 요구 사항에 대한 설명을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="c88ec-121">Before you get started, see [the main Microsoft Defender for Endpoint on macOS page](microsoft-defender-endpoint-mac.md) for a description of prerequisites and system requirements for the current software version.</span></span>
+<span data-ttu-id="76dd4-117">다음 표에는 Intune을 통해 Mac에서 끝점용 Microsoft Defender를 배포하고 관리하는 데 필요한 단계가 요약됩니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-117">The following table summarizes the steps you would need to take to deploy and manage Microsoft Defender for Endpoint on Macs, via Intune.</span></span> <span data-ttu-id="76dd4-118">자세한 단계는 아래에서 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-118">More detailed steps are available below.</span></span>
 
-
-## <a name="overview"></a><span data-ttu-id="c88ec-122">개요</span><span class="sxs-lookup"><span data-stu-id="c88ec-122">Overview</span></span>
-
-<span data-ttu-id="c88ec-123">다음 표에는 Intune을 통해 Mac에서 끝점용 Microsoft Defender를 배포하고 관리하는 데 필요한 단계가 요약됩니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-123">The following table summarizes the steps you would need to take to deploy and manage Microsoft Defender for Endpoint on Macs, via Intune.</span></span> <span data-ttu-id="c88ec-124">자세한 단계는 아래에서 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-124">More detailed steps are available below.</span></span>
-
-| <span data-ttu-id="c88ec-125">단계</span><span class="sxs-lookup"><span data-stu-id="c88ec-125">Step</span></span> | <span data-ttu-id="c88ec-126">예제 파일 이름</span><span class="sxs-lookup"><span data-stu-id="c88ec-126">Sample file names</span></span> | <span data-ttu-id="c88ec-127">BundleIdentifier</span><span class="sxs-lookup"><span data-stu-id="c88ec-127">BundleIdentifier</span></span> |
+| <span data-ttu-id="76dd4-119">단계</span><span class="sxs-lookup"><span data-stu-id="76dd4-119">Step</span></span> | <span data-ttu-id="76dd4-120">예제 파일 이름</span><span class="sxs-lookup"><span data-stu-id="76dd4-120">Sample file names</span></span> | <span data-ttu-id="76dd4-121">BundleIdentifier</span><span class="sxs-lookup"><span data-stu-id="76dd4-121">BundleIdentifier</span></span> |
 |-|-|-|
-| [<span data-ttu-id="c88ec-128">설치 및 온보더링 패키지 다운로드</span><span class="sxs-lookup"><span data-stu-id="c88ec-128">Download installation and onboarding packages</span></span>](#download-installation-and-onboarding-packages) | <span data-ttu-id="c88ec-129">WindowsDefenderATPOnboarding__MDATP_wdav.atp.xml</span><span class="sxs-lookup"><span data-stu-id="c88ec-129">WindowsDefenderATPOnboarding__MDATP_wdav.atp.xml</span></span> | <span data-ttu-id="c88ec-130">com.microsoft.wdav.atp</span><span class="sxs-lookup"><span data-stu-id="c88ec-130">com.microsoft.wdav.atp</span></span> |
-| [<span data-ttu-id="c88ec-131">끝점에 대한 Microsoft Defender에 대한 시스템 확장 승인</span><span class="sxs-lookup"><span data-stu-id="c88ec-131">Approve System Extension for Microsoft Defender for Endpoint</span></span>](#approve-system-extensions) | <span data-ttu-id="c88ec-132">MDATP_SysExt.xml</span><span class="sxs-lookup"><span data-stu-id="c88ec-132">MDATP_SysExt.xml</span></span> | <span data-ttu-id="c88ec-133">해당 없음</span><span class="sxs-lookup"><span data-stu-id="c88ec-133">N/A</span></span> |
-| [<span data-ttu-id="c88ec-134">끝점용 Microsoft Defender에 대한 커널 확장 승인</span><span class="sxs-lookup"><span data-stu-id="c88ec-134">Approve Kernel Extension for Microsoft Defender for Endpoint</span></span>](#download-installation-and-onboarding-packages) | <span data-ttu-id="c88ec-135">MDATP_KExt.xml</span><span class="sxs-lookup"><span data-stu-id="c88ec-135">MDATP_KExt.xml</span></span> | <span data-ttu-id="c88ec-136">해당 없음</span><span class="sxs-lookup"><span data-stu-id="c88ec-136">N/A</span></span> |
-| [<span data-ttu-id="c88ec-137">끝점용 Microsoft Defender에 대한 전체 디스크 액세스 권한 부여</span><span class="sxs-lookup"><span data-stu-id="c88ec-137">Grant full disk access to Microsoft Defender for Endpoint</span></span>](#create-system-configuration-profiles-step-8) | <span data-ttu-id="c88ec-138">MDATP_tcc_Catalina_or_newer.xml</span><span class="sxs-lookup"><span data-stu-id="c88ec-138">MDATP_tcc_Catalina_or_newer.xml</span></span> | <span data-ttu-id="c88ec-139">com.microsoft.wdav.tcc</span><span class="sxs-lookup"><span data-stu-id="c88ec-139">com.microsoft.wdav.tcc</span></span> |
-| [<span data-ttu-id="c88ec-140">네트워크 확장 정책</span><span class="sxs-lookup"><span data-stu-id="c88ec-140">Network Extension policy</span></span>](#create-system-configuration-profiles-step-9) | <span data-ttu-id="c88ec-141">MDATP_NetExt.xml</span><span class="sxs-lookup"><span data-stu-id="c88ec-141">MDATP_NetExt.xml</span></span> | <span data-ttu-id="c88ec-142">해당 없음</span><span class="sxs-lookup"><span data-stu-id="c88ec-142">N/A</span></span> |
-| [<span data-ttu-id="c88ec-143">MAU(Microsoft 자동 업데이트) 구성</span><span class="sxs-lookup"><span data-stu-id="c88ec-143">Configure Microsoft AutoUpdate (MAU)</span></span>](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/mac-updates#intune) | <span data-ttu-id="c88ec-144">MDATP_Microsoft_AutoUpdate.xml</span><span class="sxs-lookup"><span data-stu-id="c88ec-144">MDATP_Microsoft_AutoUpdate.xml</span></span> | <span data-ttu-id="c88ec-145">com.microsoft.autoupdate2</span><span class="sxs-lookup"><span data-stu-id="c88ec-145">com.microsoft.autoupdate2</span></span> |
-| [<span data-ttu-id="c88ec-146">끝점 구성 설정용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="c88ec-146">Microsoft Defender for Endpoint configuration settings</span></span>](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/mac-preferences#intune-profile-1)<br/><br/> <span data-ttu-id="c88ec-147">**참고:** macOS용 타사 AV를 실행하고자 하는 경우 로 `passiveMode` `true` 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-147">**Note:** If you're planning to run a third-party AV for macOS, set `passiveMode` to `true`.</span></span> | <span data-ttu-id="c88ec-148">MDATP_WDAV_and_exclusion_settings_Preferences.xml</span><span class="sxs-lookup"><span data-stu-id="c88ec-148">MDATP_WDAV_and_exclusion_settings_Preferences.xml</span></span> | <span data-ttu-id="c88ec-149">com.microsoft.wdav</span><span class="sxs-lookup"><span data-stu-id="c88ec-149">com.microsoft.wdav</span></span> |
-| [<span data-ttu-id="c88ec-150">끝점 및 MS 자동 업데이트(MAU) 알림에 대해 Microsoft Defender 구성</span><span class="sxs-lookup"><span data-stu-id="c88ec-150">Configure Microsoft Defender for Endpoint and MS AutoUpdate (MAU) notifications</span></span>](#create-system-configuration-profiles-step-10) | <span data-ttu-id="c88ec-151">MDATP_MDAV_Tray_and_AutoUpdate2.mobileconfig</span><span class="sxs-lookup"><span data-stu-id="c88ec-151">MDATP_MDAV_Tray_and_AutoUpdate2.mobileconfig</span></span> | <span data-ttu-id="c88ec-152">com.microsoft.autoupdate2 또는 com.microsoft.wdav.tray</span><span class="sxs-lookup"><span data-stu-id="c88ec-152">com.microsoft.autoupdate2 or com.microsoft.wdav.tray</span></span> |
+| [<span data-ttu-id="76dd4-122">온보더링 패키지 다운로드</span><span class="sxs-lookup"><span data-stu-id="76dd4-122">Download the onboarding package</span></span>](#download-the-onboarding-package) | <span data-ttu-id="76dd4-123">WindowsDefenderATPOnboarding__MDATP_wdav.atp.xml</span><span class="sxs-lookup"><span data-stu-id="76dd4-123">WindowsDefenderATPOnboarding__MDATP_wdav.atp.xml</span></span> | <span data-ttu-id="76dd4-124">com.microsoft.wdav.atp</span><span class="sxs-lookup"><span data-stu-id="76dd4-124">com.microsoft.wdav.atp</span></span> |
+| [<span data-ttu-id="76dd4-125">끝점에 대한 Microsoft Defender에 대한 시스템 확장 승인</span><span class="sxs-lookup"><span data-stu-id="76dd4-125">Approve System Extension for Microsoft Defender for Endpoint</span></span>](#approve-system-extensions) | <span data-ttu-id="76dd4-126">MDATP_SysExt.xml</span><span class="sxs-lookup"><span data-stu-id="76dd4-126">MDATP_SysExt.xml</span></span> | <span data-ttu-id="76dd4-127">해당 없음</span><span class="sxs-lookup"><span data-stu-id="76dd4-127">N/A</span></span> |
+| [<span data-ttu-id="76dd4-128">끝점용 Microsoft Defender에 대한 커널 확장 승인</span><span class="sxs-lookup"><span data-stu-id="76dd4-128">Approve Kernel Extension for Microsoft Defender for Endpoint</span></span>](#download-the-onboarding-package) | <span data-ttu-id="76dd4-129">MDATP_KExt.xml</span><span class="sxs-lookup"><span data-stu-id="76dd4-129">MDATP_KExt.xml</span></span> | <span data-ttu-id="76dd4-130">해당 없음</span><span class="sxs-lookup"><span data-stu-id="76dd4-130">N/A</span></span> |
+| [<span data-ttu-id="76dd4-131">끝점용 Microsoft Defender에 대한 전체 디스크 액세스 권한 부여</span><span class="sxs-lookup"><span data-stu-id="76dd4-131">Grant full disk access to Microsoft Defender for Endpoint</span></span>](#full-disk-access) | <span data-ttu-id="76dd4-132">MDATP_tcc_Catalina_or_newer.xml</span><span class="sxs-lookup"><span data-stu-id="76dd4-132">MDATP_tcc_Catalina_or_newer.xml</span></span> | <span data-ttu-id="76dd4-133">com.microsoft.wdav.tcc</span><span class="sxs-lookup"><span data-stu-id="76dd4-133">com.microsoft.wdav.tcc</span></span> |
+| [<span data-ttu-id="76dd4-134">네트워크 확장 정책</span><span class="sxs-lookup"><span data-stu-id="76dd4-134">Network Extension policy</span></span>](#network-filter) | <span data-ttu-id="76dd4-135">MDATP_NetExt.xml</span><span class="sxs-lookup"><span data-stu-id="76dd4-135">MDATP_NetExt.xml</span></span> | <span data-ttu-id="76dd4-136">해당 없음</span><span class="sxs-lookup"><span data-stu-id="76dd4-136">N/A</span></span> |
+| [<span data-ttu-id="76dd4-137">MAU(Microsoft 자동 업데이트) 구성</span><span class="sxs-lookup"><span data-stu-id="76dd4-137">Configure Microsoft AutoUpdate (MAU)</span></span>](mac-updates.md#intune) | <span data-ttu-id="76dd4-138">MDATP_Microsoft_AutoUpdate.xml</span><span class="sxs-lookup"><span data-stu-id="76dd4-138">MDATP_Microsoft_AutoUpdate.xml</span></span> | <span data-ttu-id="76dd4-139">com.microsoft.autoupdate2</span><span class="sxs-lookup"><span data-stu-id="76dd4-139">com.microsoft.autoupdate2</span></span> |
+| [<span data-ttu-id="76dd4-140">끝점 구성 설정용 Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="76dd4-140">Microsoft Defender for Endpoint configuration settings</span></span>](mac-preferences.md#intune-profile-1)<br/><br/> <span data-ttu-id="76dd4-141">**참고:** macOS용 타사 AV를 실행하고자 하는 경우 로 `passiveMode` `true` 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-141">**Note:** If you're planning to run a third-party AV for macOS, set `passiveMode` to `true`.</span></span> | <span data-ttu-id="76dd4-142">MDATP_WDAV_and_exclusion_settings_Preferences.xml</span><span class="sxs-lookup"><span data-stu-id="76dd4-142">MDATP_WDAV_and_exclusion_settings_Preferences.xml</span></span> | <span data-ttu-id="76dd4-143">com.microsoft.wdav</span><span class="sxs-lookup"><span data-stu-id="76dd4-143">com.microsoft.wdav</span></span> |
+| [<span data-ttu-id="76dd4-144">끝점 및 MS 자동 업데이트(MAU) 알림에 대해 Microsoft Defender 구성</span><span class="sxs-lookup"><span data-stu-id="76dd4-144">Configure Microsoft Defender for Endpoint and MS AutoUpdate (MAU) notifications</span></span>](mac-updates.md) | <span data-ttu-id="76dd4-145">MDATP_MDAV_Tray_and_AutoUpdate2.mobileconfig</span><span class="sxs-lookup"><span data-stu-id="76dd4-145">MDATP_MDAV_Tray_and_AutoUpdate2.mobileconfig</span></span> | <span data-ttu-id="76dd4-146">com.microsoft.autoupdate2 또는 com.microsoft.wdav.tray</span><span class="sxs-lookup"><span data-stu-id="76dd4-146">com.microsoft.autoupdate2 or com.microsoft.wdav.tray</span></span> |
 
-## <a name="download-installation-and-onboarding-packages"></a><span data-ttu-id="c88ec-153">설치 및 온보더링 패키지 다운로드</span><span class="sxs-lookup"><span data-stu-id="c88ec-153">Download installation and onboarding packages</span></span>
 
-<span data-ttu-id="c88ec-154">Microsoft Defender 보안 센터에서 설치 및 온보딩 패키지를 다운로드합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-154">Download the installation and onboarding packages from Microsoft Defender Security Center:</span></span>
+## <a name="download-the-onboarding-package"></a><span data-ttu-id="76dd4-147">온보더링 패키지 다운로드</span><span class="sxs-lookup"><span data-stu-id="76dd4-147">Download the onboarding package</span></span>
 
-1. <span data-ttu-id="c88ec-155">Microsoft Defender 보안 센터에서 설정 **장치** 관리  >    >  **온보딩으로 이동합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-155">In Microsoft Defender Security Center, go to **Settings** > **Device Management** > **Onboarding**.</span></span>
+<span data-ttu-id="76dd4-148">다음 사이트에서 온보더링 패키지를 Microsoft Defender 보안 센터.</span><span class="sxs-lookup"><span data-stu-id="76dd4-148">Download the onboarding packages from Microsoft Defender Security Center:</span></span>
 
-2. <span data-ttu-id="c88ec-156">운영 체제를 **macOS로** 설정하고 배포 방법을 모바일 장치 **관리/Microsoft Intune으로 설정**</span><span class="sxs-lookup"><span data-stu-id="c88ec-156">Set the operating system to **macOS** and the deployment method to **Mobile Device Management / Microsoft Intune**.</span></span>
+1. <span data-ttu-id="76dd4-149">다음 Microsoft Defender 보안 센터 장치 관리 **온보** 설정  >  **로**  >  **이동하세요.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-149">In Microsoft Defender Security Center, go to **Settings** > **Device Management** > **Onboarding**.</span></span>
+
+2. <span data-ttu-id="76dd4-150">운영 체제를 **macOS로** 설정하고 배포 방법을 모바일 장치 관리 **/Microsoft Intune.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-150">Set the operating system to **macOS** and the deployment method to **Mobile Device Management / Microsoft Intune**.</span></span>
 
     ![등록 설정 스크린샷](images/atp-mac-install.png)
 
-3. <span data-ttu-id="c88ec-158">설치 **패키지 다운로드를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-158">Select **Download installation package**.</span></span> <span data-ttu-id="c88ec-159">로컬 디렉터리에 _wdav.pkg로_ 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-159">Save it as _wdav.pkg_ to a local directory.</span></span>
+3. <span data-ttu-id="76dd4-152">**온보더링 패키지 다운로드를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-152">Select **Download onboarding package**.</span></span> <span data-ttu-id="76dd4-153">동일한 _디렉터리에_ WindowsDefenderATPOnboardingPackage.zip저장합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-153">Save it as _WindowsDefenderATPOnboardingPackage.zip_ to the same directory.</span></span>
 
-4. <span data-ttu-id="c88ec-160">**온보더링 패키지 다운로드를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-160">Select **Download onboarding package**.</span></span> <span data-ttu-id="c88ec-161">동일한 _디렉터리에_ WindowsDefenderATPOnboardingPackage.zip저장합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-161">Save it as _WindowsDefenderATPOnboardingPackage.zip_ to the same directory.</span></span>
-
-5. <span data-ttu-id="c88ec-162">에서 **IntuneAppUtil을** 다운로드합니다. [https://docs.microsoft.com/intune/lob-apps-macos](https://docs.microsoft.com/intune/lob-apps-macos)</span><span class="sxs-lookup"><span data-stu-id="c88ec-162">Download **IntuneAppUtil** from [https://docs.microsoft.com/intune/lob-apps-macos](https://docs.microsoft.com/intune/lob-apps-macos).</span></span>
-
-6. <span data-ttu-id="c88ec-163">명령 프롬프트에서 세 개의 파일이 있는지 확인해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-163">From a command prompt, verify that you have the three files.</span></span>
-  
-
-    ```bash
-    ls -l
-    ```
-
-    ```Output
-    total 721688
-    -rw-r--r--  1 test  staff     269280 Mar 15 11:25 IntuneAppUtil
-    -rw-r--r--  1 test  staff      11821 Mar 15 09:23 WindowsDefenderATPOnboardingPackage.zip
-    -rw-r--r--  1 test  staff  354531845 Mar 13 08:57 wdav.pkg
-    ```
-7. <span data-ttu-id="c88ec-164">.zip 파일의 내용을 추출합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-164">Extract the contents of the .zip files:</span></span>
+4. <span data-ttu-id="76dd4-154">파일 콘텐츠의 .zip 추출합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-154">Extract the contents of the .zip file:</span></span>
 
     ```bash
     unzip WindowsDefenderATPOnboardingPackage.zip
@@ -109,179 +86,203 @@ ms.locfileid: "51933148"
       inflating: jamf/WindowsDefenderATPOnboarding.plist
     ```
 
-8. <span data-ttu-id="c88ec-165">IntuneAppUtil을 실행 가능으로 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-165">Make IntuneAppUtil an executable:</span></span>
+## <a name="create-system-configuration-profiles"></a><span data-ttu-id="76dd4-155">시스템 구성 프로필 만들기</span><span class="sxs-lookup"><span data-stu-id="76dd4-155">Create System Configuration profiles</span></span>
 
-    ```bash
-    chmod +x IntuneAppUtil
-    ```
+<span data-ttu-id="76dd4-156">다음 단계는 끝점용 Microsoft Defender에 필요한 시스템 구성 프로필을 만드는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-156">The next step is to create system configuration profiles that Microsoft Defender for Endpoint needs.</span></span>
+<span data-ttu-id="76dd4-157">Microsoft Endpoint Manager [관리 센터에서](https://endpoint.microsoft.com/)장치 구성   >  **프로필 을 열 수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-157">In the [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/), open **Devices** > **Configuration profiles**.</span></span>
 
-9. <span data-ttu-id="c88ec-166">wdav.pkg에서 wdav.pkg.intunemac 패키지를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-166">Create the wdav.pkg.intunemac package from wdav.pkg:</span></span>
+### <a name="onboarding-blob"></a><span data-ttu-id="76dd4-158">온보더링 Blob</span><span class="sxs-lookup"><span data-stu-id="76dd4-158">Onboarding blob</span></span>
 
-    ```bash
-    ./IntuneAppUtil -c wdav.pkg -o . -i "com.microsoft.wdav" -n "1.0.0"
-    ```
-    ```Output
-    Microsoft Intune Application Utility for Mac OS X
-    Version: 1.0.0.0
-    Copyright 2018 Microsoft Corporation
+<span data-ttu-id="76dd4-159">이 프로필에는 사용이 허가되지 않았다고 보고하지 않고 끝점용 Microsoft Defender에 대한 라이선스 정보가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-159">This profile contains a license information for Microsoft Defender for Endpoint, without it it will report that it is not licensed.</span></span>
 
-    Creating intunemac file for /Users/test/Downloads/wdav.pkg
-    Composing the intunemac file output
-    Output written to ./wdav.pkg.intunemac.
+1. <span data-ttu-id="76dd4-160">구성 **프로필에서** **프로필 만들기를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-160">Select **Create Profile** under **Configuration Profiles**.</span></span>
+1. <span data-ttu-id="76dd4-161">플랫폼  = **macOS,** **프로필 유형** = **템플릿을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-161">Select **Platform**=**macOS**, **Profile type**=**Templates**.</span></span> <span data-ttu-id="76dd4-162">**서식 파일 이름** = **사용자 지정**.</span><span class="sxs-lookup"><span data-stu-id="76dd4-162">**Template name**=**Custom**.</span></span> <span data-ttu-id="76dd4-163">**만들기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-163">Click **Create**.</span></span>
 
-    IntuneAppUtil successfully processed "wdav.pkg",
-    to deploy refer to the product documentation.
-    ```
+    > [!div class="mx-imgBorder"]
+    > <span data-ttu-id="76dd4-164">![사용자 지정 구성 프로필 만들기](images/mdatp-6-systemconfigurationprofiles-1.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-164">![Custom Configuration Profile creation](images/mdatp-6-systemconfigurationprofiles-1.png)</span></span>
 
-## <a name="client-device-setup"></a><span data-ttu-id="c88ec-167">클라이언트 장치 설정</span><span class="sxs-lookup"><span data-stu-id="c88ec-167">Client device setup</span></span>
+1. <span data-ttu-id="76dd4-165&quot;>프로필의 이름(예: &quot;macOS용 MDATP")을 선택하세요.</span><span class="sxs-lookup"><span data-stu-id="76dd4-165">Choose a name for the profile, e.g., "MDATP onboarding for macOS".</span></span> <span data-ttu-id="76dd4-166">**다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-166">Click **Next**.</span></span>
 
-<span data-ttu-id="c88ec-168">표준 회사 포털 설치 이상으로 Mac 장치에 대한 특별한 프로비저닝이 [필요하지 않습니다.](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos-cp)</span><span class="sxs-lookup"><span data-stu-id="c88ec-168">You don't need any special provisioning for a Mac device beyond a standard [Company Portal installation](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-macos-cp).</span></span>
+    > [!div class="mx-imgBorder"]
+    > <span data-ttu-id="76dd4-167">![사용자 지정 구성 프로필 - 이름](images/mdatp-6-systemconfigurationprofiles-2.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-167">![Custom Configuration Profile - name](images/mdatp-6-systemconfigurationprofiles-2.png)</span></span>
 
-1. <span data-ttu-id="c88ec-169">장치 관리를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-169">Confirm device management.</span></span>
+1. <span data-ttu-id="76dd4-168&quot;>구성 프로필 이름(예: &quot;macOS용 MDATP 이름")을 선택하세요.</span><span class="sxs-lookup"><span data-stu-id="76dd4-168">Choose a name for the configuration profile name, e.g., "MDATP onboarding for macOS".</span></span>
+1. <span data-ttu-id="76dd4-169">위 온보드 패키지에서 추출한 intune/WindowsDefenderATPOnboarding.xml 프로필 파일로 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-169">Select intune/WindowsDefenderATPOnboarding.xml that you extracted from the onboarding package above as configuration profile file.</span></span>
 
-   ![장치 관리 스크린샷 확인](images/mdatp-3-confirmdevicemgmt.png)
+    > [!div class="mx-imgBorder"]
+    > <span data-ttu-id="76dd4-170">![사용자 지정 구성 프로필에 대한 파일에서 구성 가져오기](images/mdatp-6-systemconfigurationprofiles.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-170">![Import a configuration from a file for Custom Configuration Profile](images/mdatp-6-systemconfigurationprofiles.png)</span></span>
 
-    <span data-ttu-id="c88ec-171">시스템 **기본 설정 열기** 를 선택하고 목록에서 **관리** 프로필을 찾은 다음 **승인... 을 선택합니다.** 관리 프로필이 확인된 **것으로 표시됩니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-171">Select **Open System Preferences**, locate **Management Profile** on the list, and select **Approve...**. Your Management Profile would be displayed as **Verified**:</span></span>
+1. <span data-ttu-id="76dd4-171">**다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-171">Click **Next**.</span></span>
+1. <span data-ttu-id="76dd4-172">할당 탭에서 **디바이스를 할당합니다.** 다음 을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-172">Assign devices on the **Assignment** tab. Click **Next**.</span></span>
+
+    > [!div class="mx-imgBorder"]
+    > <span data-ttu-id="76dd4-173">![사용자 지정 구성 프로필 - 할당](images/mdatp-6-systemconfigurationprofiles-2.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-173">![Custom Configuration Profile - assignment](images/mdatp-6-systemconfigurationprofiles-2.png)</span></span>
+
+1. <span data-ttu-id="76dd4-174">검토 및 **만들기.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-174">Review and **Create**.</span></span>
+1. <span data-ttu-id="76dd4-175">장치 **구성** 프로필을  >  **열면** 생성된 프로필을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-175">Open **Devices** > **Configuration profiles**, you can see your created profile there.</span></span>
+
+    > [!div class="mx-imgBorder"]
+    > <span data-ttu-id="76dd4-176">![사용자 지정 구성 프로필 - 완료](images/mdatp-6-systemconfigurationprofiles-3.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-176">![Custom Configuration Profile - done](images/mdatp-6-systemconfigurationprofiles-3.png)</span></span>
+
+### <a name="approve-system-extensions"></a><span data-ttu-id="76dd4-177">시스템 확장 승인</span><span class="sxs-lookup"><span data-stu-id="76dd4-177">Approve System Extensions</span></span>
+
+<span data-ttu-id="76dd4-178">이 프로필은 macOS 10.15(카탈리나) 이상에 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-178">This profile is needed for macOS 10.15 (Catalina) or newer.</span></span> <span data-ttu-id="76dd4-179">이전 macOS에서는 무시됩니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-179">It will be ignored on older macOS.</span></span>
+
+1. <span data-ttu-id="76dd4-180">구성 **프로필에서** **프로필 만들기를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-180">Select **Create Profile** under **Configuration Profiles**.</span></span>
+1. <span data-ttu-id="76dd4-181">플랫폼  = **macOS,** **프로필 유형** = **템플릿을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-181">Select **Platform**=**macOS**, **Profile type**=**Templates**.</span></span> <span data-ttu-id="76dd4-182">**서식 파일 이름** = **확장.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-182">**Template name**=**Extensions**.</span></span> <span data-ttu-id="76dd4-183">**만들기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-183">Click **Create**.</span></span>
+1. <span data-ttu-id="76dd4-184">기본 **탭에서** 이 새 프로필에 이름을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-184">In the **Basics** tab, give a name to this new profile.</span></span>
+1. <span data-ttu-id="76dd4-185">구성 **설정 탭에서** 시스템 확장을 **확장하고** 허용되는 시스템 확장 섹션에 다음 **항목을 추가합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-185">In the **Configuration settings** tab, expand **System Extensions** add the following entries in the **Allowed system extensions** section:</span></span>
+
+    <span data-ttu-id="76dd4-186">번들 식별자</span><span class="sxs-lookup"><span data-stu-id="76dd4-186">Bundle identifier</span></span>         | <span data-ttu-id="76dd4-187">팀 식별자</span><span class="sxs-lookup"><span data-stu-id="76dd4-187">Team identifier</span></span>
+    --------------------------|----------------
+    <span data-ttu-id="76dd4-188">com.microsoft.wdav.epsext</span><span class="sxs-lookup"><span data-stu-id="76dd4-188">com.microsoft.wdav.epsext</span></span> | <span data-ttu-id="76dd4-189">UBF8T346G9</span><span class="sxs-lookup"><span data-stu-id="76dd4-189">UBF8T346G9</span></span>
+    <span data-ttu-id="76dd4-190">com.microsoft.wdav.netext</span><span class="sxs-lookup"><span data-stu-id="76dd4-190">com.microsoft.wdav.netext</span></span> | <span data-ttu-id="76dd4-191">UBF8T346G9</span><span class="sxs-lookup"><span data-stu-id="76dd4-191">UBF8T346G9</span></span>
+
+    > [!div class="mx-imgBorder"]
+    > <span data-ttu-id="76dd4-192">![시스템 확장 설정](images/mac-system-extension-intune2.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-192">![System extension settings](images/mac-system-extension-intune2.png)</span></span>
+
+1. <span data-ttu-id="76dd4-193">할당 **탭에서** 이 프로필을 모든 사용자 및 모든 & **할당합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-193">In the **Assignments** tab, assign this profile to **All Users & All devices**.</span></span>
+1. <span data-ttu-id="76dd4-194">이 구성 프로필을 검토하고 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-194">Review and create this configuration profile.</span></span>
+
+### <a name="kernel-extensions"></a><span data-ttu-id="76dd4-195">커널 확장</span><span class="sxs-lookup"><span data-stu-id="76dd4-195">Kernel Extensions</span></span>
+
+<span data-ttu-id="76dd4-196">이 프로필은 macOS 10.15(카탈로니아) 이상에 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-196">This profile is needed for macOS 10.15 (Catalina) or older.</span></span> <span data-ttu-id="76dd4-197">새로운 macOS에서는 무시됩니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-197">It will be ignored on newer macOS.</span></span>
+
+> [!CAUTION]
+> <span data-ttu-id="76dd4-198">Apple 실리콘(M1) 장치는 KEXT를 지원하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-198">Apple Silicon (M1) devices do not support KEXT.</span></span> <span data-ttu-id="76dd4-199">이러한 장치에서는 KEXT 정책으로 구성된 구성 프로필을 설치하지 못합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-199">Installation of a configuration profile consisting KEXT policies will fail on these devices.</span></span>
+
+1. <span data-ttu-id="76dd4-200">구성 **프로필에서** **프로필 만들기를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-200">Select **Create Profile** under **Configuration Profiles**.</span></span>
+1. <span data-ttu-id="76dd4-201">플랫폼  = **macOS,** **프로필 유형** = **템플릿을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-201">Select **Platform**=**macOS**, **Profile type**=**Templates**.</span></span> <span data-ttu-id="76dd4-202">**서식 파일 이름** = **확장.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-202">**Template name**=**Extensions**.</span></span> <span data-ttu-id="76dd4-203">**만들기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-203">Click **Create**.</span></span>
+1. <span data-ttu-id="76dd4-204">기본 **탭에서** 이 새 프로필에 이름을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-204">In the **Basics** tab, give a name to this new profile.</span></span>
+1. <span data-ttu-id="76dd4-205">구성 **설정 탭에서** 커널 **확장을 확장합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-205">In the **Configuration settings** tab, expand **Kernel Extensions**.</span></span>
+1. <span data-ttu-id="76dd4-206">팀 **식별자를** **UBF8T346G9로** 설정하고 다음 을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-206">Set **Team identifier** to **UBF8T346G9** and click **Next**.</span></span>
+
+    > [!div class="mx-imgBorder"]
+    > <span data-ttu-id="76dd4-207">![커널 확장 설정](images/mac-kernel-extension-intune2.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-207">![Kernel extension settings](images/mac-kernel-extension-intune2.png)</span></span>
+
+1. <span data-ttu-id="76dd4-208">할당 **탭에서** 이 프로필을 모든 사용자 및 모든 & **할당합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-208">In the **Assignments** tab, assign this profile to **All Users & All devices**.</span></span>
+1. <span data-ttu-id="76dd4-209">이 구성 프로필을 검토하고 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-209">Review and create this configuration profile.</span></span>
+
+### <a name="full-disk-access"></a><span data-ttu-id="76dd4-210">전체 디스크 액세스</span><span class="sxs-lookup"><span data-stu-id="76dd4-210">Full Disk Access</span></span>
+
+   > [!CAUTION]
+   > <span data-ttu-id="76dd4-211">macOS 10.15(카탈로니아)에는 새로운 보안 및 개인 정보 보호 향상 기능이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-211">macOS 10.15 (Catalina) contains new security and privacy enhancements.</span></span> <span data-ttu-id="76dd4-212">이 버전부터 응용 프로그램은 기본적으로 명시적 동의 없이 디스크의 특정 위치(예: 문서, 다운로드, 데스크톱 등)에 액세스할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-212">Beginning with this version, by default, applications are not able to access certain locations on disk (such as Documents, Downloads, Desktop, etc.) without explicit consent.</span></span> <span data-ttu-id="76dd4-213">이 동의가 없는 경우 끝점용 Microsoft Defender는 장치를 완전히 보호할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-213">In the absence of this consent, Microsoft Defender for Endpoint is not able to fully protect your device.</span></span>
+   >
+   > <span data-ttu-id="76dd4-214">이 구성 프로필은 끝점용 Microsoft Defender에 대한 모든 디스크 액세스 권한을 부여합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-214">This configuration profile grants Full Disk Access to Microsoft Defender for Endpoint.</span></span> <span data-ttu-id="76dd4-215">Intune을 통해 이전에 Endpoint용 Microsoft Defender를 구성한 경우 이 구성 프로필을 사용하여 배포를 업데이트하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-215">If you previously configured Microsoft Defender for Endpoint through Intune, we recommend you update the deployment with this configuration profile.</span></span>
+
+<span data-ttu-id="76dd4-216">GitHub 리포지토리에서 [**fulldisk.mobileconfig를**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/kext.mobileconfig) [다운로드합니다.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)</span><span class="sxs-lookup"><span data-stu-id="76dd4-216">Download [**fulldisk.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/kext.mobileconfig) from [our GitHub repository](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles).</span></span>
+
+<span data-ttu-id="76dd4-217">"MDATP 전체 디스크 액세스"를 프로필 이름으로 사용하고 구성 프로필 이름으로 **fulldisk.mobileconfig를** 다운로드하여 위의 온보드 [Blob에](#onboarding-blob) 대한 지침을 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-217">Follow the instructions for [Onboarding blob](#onboarding-blob) from above, using "MDATP Full Disk Access" as profile name, and downloaded **fulldisk.mobileconfig** as Configuration profile name.</span></span>
+
+### <a name="network-filter"></a><span data-ttu-id="76dd4-218">네트워크 필터</span><span class="sxs-lookup"><span data-stu-id="76dd4-218">Network Filter</span></span>
+
+<span data-ttu-id="76dd4-219">끝점 검색 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-219">As part of the Endpoint Detection and Response capabilities, Microsoft Defender for Endpoint on macOS inspects socket traffic and reports this information to the Microsoft Defender Security Center portal.</span></span> <span data-ttu-id="76dd4-220">다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-220">The following policy allows the network extension to perform this functionality.</span></span>
+
+<span data-ttu-id="76dd4-221">GitHub 저장소에서 [**netfilter.mobileconfig를**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/kext.mobileconfig) [다운로드합니다.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles)</span><span class="sxs-lookup"><span data-stu-id="76dd4-221">Download [**netfilter.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/kext.mobileconfig) from [our GitHub repository](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles).</span></span>
+
+<span data-ttu-id="76dd4-222">"MDATP 네트워크 필터"를 프로필 이름으로 사용하고, 구성 프로필 이름으로 **netfilter.mobileconfig를** 다운로드하여 위의 [Blob](#onboarding-blob) 온보드에 대한 지침을 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-222">Follow the instructions for [Onboarding blob](#onboarding-blob) from above, using "MDATP Network Filter" as profile name, and downloaded **netfilter.mobileconfig** as Configuration profile name.</span></span>
+
+### <a name="notifications"></a><span data-ttu-id="76dd4-223">알림</span><span class="sxs-lookup"><span data-stu-id="76dd4-223">Notifications</span></span>
+
+<span data-ttu-id="76dd4-224">이 프로필은 MacOS의 끝점용 Microsoft Defender 및 Microsoft 자동 업데이트에서 macOS 10.15(카탈로니아) 이상에서 UI에 알림을 표시할 수 있도록 하는 데 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-224">This profile is used to allow Microsoft Defender for Endpoint on macOS and Microsoft Auto Update to display notifications in UI on macOS 10.15 (Catalina) or newer.</span></span>
+
+<span data-ttu-id="76dd4-225">GitHub 리포지토리에서 [notif.mobileconfig를 다운로드합니다.](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles) [](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/kext.mobileconfig)</span><span class="sxs-lookup"><span data-stu-id="76dd4-225">Download [**notif.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/kext.mobileconfig) from [our GitHub repository](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles).</span></span>
+
+<span data-ttu-id="76dd4-226">"MDATP 네트워크 필터"를 프로필 이름으로 사용하고 구성 프로필 이름으로 **notif.mobileconfig를** 다운로드하여 위의 [Blob에](#onboarding-blob) 대한 지침을 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-226">Follow the instructions for [Onboarding blob](#onboarding-blob) from above, using "MDATP Network Filter" as profile name, and downloaded **notif.mobileconfig** as Configuration profile name.</span></span>
+
+### <a name="view-status"></a><span data-ttu-id="76dd4-227">상태 보기</span><span class="sxs-lookup"><span data-stu-id="76dd4-227">View Status</span></span>
+
+<span data-ttu-id="76dd4-228">Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니터링에 나열된 내용을 볼  >  **수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-228">Once the Intune changes are propagated to the enrolled devices, you can see them listed under **Monitor** > **Device status**:</span></span>
+
+> [!div class="mx-imgBorder"]
+> <span data-ttu-id="76dd4-229">![모니터의 장치 상태 보기](images/mdatp-7-devicestatusblade.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-229">![View of Device Status in Monitor](images/mdatp-7-devicestatusblade.png)</span></span>
+
+## <a name="publish-application"></a><span data-ttu-id="76dd4-230">응용 프로그램 게시</span><span class="sxs-lookup"><span data-stu-id="76dd4-230">Publish application</span></span>
+
+<span data-ttu-id="76dd4-231">이 단계를 통해 등록된 컴퓨터로 끝점용 Microsoft Defender를 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-231">This step enables deploying Microsoft Defender for Endpoint to enrolled machines.</span></span>
+
+1. <span data-ttu-id="76dd4-232">Microsoft Endpoint Manager [관리 센터에서](https://endpoint.microsoft.com/)앱을 **열 수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-232">In the [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/), open **Apps**.</span></span>
+
+    > [!div class="mx-imgBorder"]
+    > <span data-ttu-id="76dd4-233">![응용 프로그램을 만들 준비가 완료되었습니다.](images/mdatp-8-app-before.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-233">![Ready to create application](images/mdatp-8-app-before.png)</span></span>
+
+1. <span data-ttu-id="76dd4-234">플랫폼에서 macOS > 추가를 > 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-234">Select By platform > macOS > Add.</span></span>
+1. <span data-ttu-id="76dd4-235">앱 **유형** = **macOS를 선택하고** 선택을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-235">Choose **App type**=**macOS**, click **Select**.</span></span>
+
+    > [!div class="mx-imgBorder"]
+    > <span data-ttu-id="76dd4-236">![응용 프로그램 유형 지정](images/mdatp-9-app-type.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-236">![Specify application type](images/mdatp-9-app-type.png)</span></span>
+
+1. <span data-ttu-id="76dd4-237">기본값을 유지하고 다음 을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-237">Keep default values, click **Next**.</span></span>
+
+    > [!div class="mx-imgBorder"]
+    > <span data-ttu-id="76dd4-238">![응용 프로그램 속성](images/mdatp-10-properties.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-238">![Application properties](images/mdatp-10-properties.png)</span></span>
+
+1. <span data-ttu-id="76dd4-239">배정을 추가하고 다음 을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-239">Add assignments, click **Next**.</span></span>
+
+    > [!div class="mx-imgBorder"]
+    > <span data-ttu-id="76dd4-240">![Intune 할당 정보 스크린샷](images/mdatp-11-assignments.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-240">![Intune assignments info screenshot](images/mdatp-11-assignments.png)</span></span>
+
+1. <span data-ttu-id="76dd4-241">검토 및 **만들기.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-241">Review and **Create**.</span></span>
+1. <span data-ttu-id="76dd4-242">플랫폼   >    >  **macOS에서** 앱을 방문하여 모든 응용 프로그램 목록에서 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-242">You can visit **Apps** > **By platform** > **macOS** to see it on the list of all applications.</span></span>
+
+    > [!div class="mx-imgBorder"]
+    > <span data-ttu-id="76dd4-243">![응용 프로그램 목록](images/mdatp-12-applications.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-243">![Applications list](images/mdatp-12-applications.png)</span></span>
+
+<span data-ttu-id="76dd4-244">(Defender 배포에 대한 [Intune의](/mem/intune/apps/apps-advanced-threat-protection-macos)페이지에서 자세한 정보를 찾을 수 있습니다.)</span><span class="sxs-lookup"><span data-stu-id="76dd4-244">(You can find detailed information on the [Intune's page for Defender deployment](/mem/intune/apps/apps-advanced-threat-protection-macos).)</span></span>
+
+   > [!CAUTION]
+   > <span data-ttu-id="76dd4-245">위에서 설명한 대로 필요한 구성 프로필을 모두 만들어 모든 컴퓨터로 푸시해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-245">You have to create all required configuration profiles and push them to all machines, as explained above.</span></span>
+
+## <a name="client-device-setup"></a><span data-ttu-id="76dd4-246">클라이언트 장치 설정</span><span class="sxs-lookup"><span data-stu-id="76dd4-246">Client device setup</span></span>
+
+<span data-ttu-id="76dd4-247">표준 장치 설치 이상으로 Mac 디바이스에 대한 특별한 [프로비저닝이 회사 포털 없습니다.](/intune-user-help/enroll-your-device-in-intune-macos-cp)</span><span class="sxs-lookup"><span data-stu-id="76dd4-247">You don't need any special provisioning for a Mac device beyond a standard [Company Portal installation](/intune-user-help/enroll-your-device-in-intune-macos-cp).</span></span>
+
+1. <span data-ttu-id="76dd4-248">장치 관리를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-248">Confirm device management.</span></span>
+
+    > [!div class="mx-imgBorder"]
+    > <span data-ttu-id="76dd4-249">![장치 관리 스크린샷 확인](images/mdatp-3-confirmdevicemgmt.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-249">![Confirm device management screenshot](images/mdatp-3-confirmdevicemgmt.png)</span></span>
+
+    <span data-ttu-id="76dd4-250">시스템 **기본 설정 열기** 를 선택하고 목록에서 **관리** 프로필을 찾은 다음 **승인... 을 선택합니다.** 관리 프로필이 확인된 **것으로 표시됩니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-250">Select **Open System Preferences**, locate **Management Profile** on the list, and select **Approve...**. Your Management Profile would be displayed as **Verified**:</span></span>
 
     ![관리 프로필 스크린샷](images/mdatp-4-managementprofile.png)
 
-2. <span data-ttu-id="c88ec-173">**계속을** 선택하고 등록을 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-173">Select **Continue** and complete the enrollment.</span></span>
+2. <span data-ttu-id="76dd4-252">**계속을** 선택하고 등록을 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-252">Select **Continue** and complete the enrollment.</span></span>
 
-   <span data-ttu-id="c88ec-174">이제 더 많은 장치를 등록할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-174">You may now enroll more devices.</span></span> <span data-ttu-id="c88ec-175">시스템 구성 및 응용 프로그램 패키지 프로비전을 완료한 후 나중에 등록할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-175">You can also enroll them later, after you have finished provisioning system configuration and application packages.</span></span>
+   <span data-ttu-id="76dd4-253">이제 더 많은 장치를 등록할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-253">You may now enroll more devices.</span></span> <span data-ttu-id="76dd4-254">시스템 구성 및 응용 프로그램 패키지 프로비전을 완료한 후 나중에 등록할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-254">You can also enroll them later, after you have finished provisioning system configuration and application packages.</span></span>
 
-3. <span data-ttu-id="c88ec-176">Intune에서 장치 모든  >  **장치 관리를** 열 수  >  **있습니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-176">In Intune, open **Manage** > **Devices** > **All devices**.</span></span> <span data-ttu-id="c88ec-177">여기에 나열된 장치 중 디바이스를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-177">Here you can see your device among those listed:</span></span>
+3. <span data-ttu-id="76dd4-255">Intune에서 장치 모든  >  **장치 관리를** 열 수  >  **있습니다.**</span><span class="sxs-lookup"><span data-stu-id="76dd4-255">In Intune, open **Manage** > **Devices** > **All devices**.</span></span> <span data-ttu-id="76dd4-256">여기에 나열된 장치 중 디바이스를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-256">Here you can see your device among those listed:</span></span>
 
    > [!div class="mx-imgBorder"]
-   > <span data-ttu-id="c88ec-178">![장치 추가 스크린샷](images/mdatp-5-alldevices.png)</span><span class="sxs-lookup"><span data-stu-id="c88ec-178">![Add Devices screenshot](images/mdatp-5-alldevices.png)</span></span>
+   > <span data-ttu-id="76dd4-257">![장치 추가 스크린샷](images/mdatp-5-alldevices.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-257">![Add Devices screenshot](images/mdatp-5-alldevices.png)</span></span>
 
-## <a name="approve-system-extensions"></a><span data-ttu-id="c88ec-179">시스템 확장 승인</span><span class="sxs-lookup"><span data-stu-id="c88ec-179">Approve System Extensions</span></span>
+## <a name="verify-client-device-state"></a><span data-ttu-id="76dd4-258">클라이언트 장치 상태 확인</span><span class="sxs-lookup"><span data-stu-id="76dd4-258">Verify client device state</span></span>
 
-<span data-ttu-id="c88ec-180">시스템 확장을 승인합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-180">To approve the system extensions:</span></span>
-
-1. <span data-ttu-id="c88ec-181">Intune에서 장치 구성  >  **관리를 열고**</span><span class="sxs-lookup"><span data-stu-id="c88ec-181">In Intune, open **Manage** > **Device configuration**.</span></span> <span data-ttu-id="c88ec-182">프로필 **만들기**  >  **를**  >  **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-182">Select **Manage** > **Profiles** > **Create Profile**.</span></span>
-
-2. <span data-ttu-id="c88ec-183">프로필 이름을 선택하세요.</span><span class="sxs-lookup"><span data-stu-id="c88ec-183">Choose a name for the profile.</span></span> <span data-ttu-id="c88ec-184">**Platform=macOS를** **프로필 유형=확장으로 변경합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-184">Change **Platform=macOS** to **Profile type=Extensions**.</span></span> <span data-ttu-id="c88ec-185">**만들기** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-185">Select **Create**.</span></span>
-
-3. <span data-ttu-id="c88ec-186">기본 **탭에서** 이 새 프로필에 이름을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-186">In the **Basics** tab, give a name to this new profile.</span></span>
-
-4. <span data-ttu-id="c88ec-187">구성 **설정 탭의** 허용되는 시스템 확장 섹션에 다음 **항목을 추가합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-187">In the **Configuration settings** tab, add the following entries in the **Allowed system extensions** section:</span></span>
-
-    <span data-ttu-id="c88ec-188">번들 식별자</span><span class="sxs-lookup"><span data-stu-id="c88ec-188">Bundle identifier</span></span>         | <span data-ttu-id="c88ec-189">팀 식별자</span><span class="sxs-lookup"><span data-stu-id="c88ec-189">Team identifier</span></span>
-    --------------------------|----------------
-    <span data-ttu-id="c88ec-190">com.microsoft.wdav.epsext</span><span class="sxs-lookup"><span data-stu-id="c88ec-190">com.microsoft.wdav.epsext</span></span> | <span data-ttu-id="c88ec-191">UBF8T346G9</span><span class="sxs-lookup"><span data-stu-id="c88ec-191">UBF8T346G9</span></span>
-    <span data-ttu-id="c88ec-192">com.microsoft.wdav.netext</span><span class="sxs-lookup"><span data-stu-id="c88ec-192">com.microsoft.wdav.netext</span></span> | <span data-ttu-id="c88ec-193">UBF8T346G9</span><span class="sxs-lookup"><span data-stu-id="c88ec-193">UBF8T346G9</span></span>
+1. <span data-ttu-id="76dd4-259">구성 프로필을 장치에 배포한 후 Mac 장치에서 **시스템** 기본 설정  >   프로필을 여는 방법을 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-259">After the configuration profiles are deployed to your devices, open **System Preferences** > **Profiles** on your Mac device.</span></span>
 
     > [!div class="mx-imgBorder"]
-    > <span data-ttu-id="c88ec-194">![기본 탭의 구성 설정에 있는 확장 설정 스크린샷](images/mac-system-extension-intune2.png)</span><span class="sxs-lookup"><span data-stu-id="c88ec-194">![Screenshot of the extension settings in Configuration settings on the Basics tab](images/mac-system-extension-intune2.png)</span></span>
+    > <span data-ttu-id="76dd4-260">![시스템 기본 설정 스크린샷](images/mdatp-13-systempreferences.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-260">![System Preferences screenshot](images/mdatp-13-systempreferences.png)</span></span>
 
-5. <span data-ttu-id="c88ec-195">할당 **탭에서** 이 프로필을 모든 사용자 및 모든 & **할당합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-195">In the **Assignments** tab, assign this profile to **All Users & All devices**.</span></span>
+    ![시스템 기본 설정 프로필 스크린샷](images/mdatp-14-systempreferencesprofiles.png)
 
-6. <span data-ttu-id="c88ec-196">이 구성 프로필을 검토하고 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-196">Review and create this configuration profile.</span></span>
+2. <span data-ttu-id="76dd4-262">다음 구성 프로필이 존재하고 설치되어 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-262">Verify that the following configuration profiles are present and installed.</span></span> <span data-ttu-id="76dd4-263">관리 **프로필은** Intune 시스템 프로필입니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-263">The **Management Profile** should be the Intune system profile.</span></span> <span data-ttu-id="76dd4-264">_Wdav-config_ 및 _wdav-kext는_ Intune에 추가된 시스템 구성 프로필입니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-264">_Wdav-config_ and _wdav-kext_ are system configuration profiles that were added in Intune:</span></span>
 
-## <a name="create-system-configuration-profiles"></a><span data-ttu-id="c88ec-197">시스템 구성 프로필 만들기</span><span class="sxs-lookup"><span data-stu-id="c88ec-197">Create System Configuration profiles</span></span>
+    ![프로필 스크린샷](images/mdatp-15-managementprofileconfig.png)
 
-1. <span data-ttu-id="c88ec-198">Intune에서 장치 구성  >  **관리를 열고**</span><span class="sxs-lookup"><span data-stu-id="c88ec-198">In Intune, open **Manage** > **Device configuration**.</span></span> <span data-ttu-id="c88ec-199">프로필 **만들기**  >  **를**  >  **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-199">Select **Manage** > **Profiles** > **Create Profile**.</span></span>
-
-2. <span data-ttu-id="c88ec-200">프로필 이름을 선택하세요.</span><span class="sxs-lookup"><span data-stu-id="c88ec-200">Choose a name for the profile.</span></span> <span data-ttu-id="c88ec-201">**Platform=macOS를** **프로필 유형=사용자 지정으로 변경합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-201">Change **Platform=macOS** to **Profile type=Custom**.</span></span> <span data-ttu-id="c88ec-202">구성을 **선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-202">Select **Configure**.</span></span>
-
-3. <span data-ttu-id="c88ec-203">구성 프로필을 열고 intune/kext.xml.</span><span class="sxs-lookup"><span data-stu-id="c88ec-203">Open the configuration profile and upload intune/kext.xml.</span></span> <span data-ttu-id="c88ec-204">이 파일은 이전 섹션 중 하나에서 만들어졌습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-204">This file was created in one of the preceding sections.</span></span>
-
-4. <span data-ttu-id="c88ec-205">**확인** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-205">Select **OK**.</span></span>
-
-    ![사용자 지정 구성 프로필에 대한 파일에서 구성 가져오기](images/mdatp-6-systemconfigurationprofiles.png)
-
-5. <span data-ttu-id="c88ec-207">배정   >  **관리를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-207">Select **Manage** > **Assignments**.</span></span> <span data-ttu-id="c88ec-208">포함 **탭에서** 모든 사용자 및 모든 & **할당을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-208">In the **Include** tab, select **Assign to All Users & All devices**.</span></span>
-
-6. <span data-ttu-id="c88ec-209">프로필을 더 추가하려면 1-5단계를 반복합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-209">Repeat steps 1 through 5 for more profiles.</span></span>
-
-7. <span data-ttu-id="c88ec-210">다른 프로필을 만들고 이름을 지정한 다음 intune/WindowsDefenderATPOnboarding.xml 업로드합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-210">Create another profile, give it a name, and upload the intune/WindowsDefenderATPOnboarding.xml file.</span></span>
-
-8. <span data-ttu-id="c88ec-211">[GitHub](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) 리포지토리에서 **fulldisk.mobileconfig를** 다운로드하고 에서 으로 **tcc.xml.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-211">Download **fulldisk.mobileconfig** from [our GitHub repository](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) and save it as **tcc.xml**.</span></span> <span data-ttu-id="c88ec-212">다른 프로필을 만들고 이름을 지정하고 이 파일을 해당 프로필에 업로드합니다.<a name="create-system-configuration-profiles-step-8" id = "create-system-configuration-profiles-step-8"></a></span><span class="sxs-lookup"><span data-stu-id="c88ec-212">Create another profile, give it any name and upload this file to it.<a name="create-system-configuration-profiles-step-8" id = "create-system-configuration-profiles-step-8"></a></span></span>
-
-   > [!CAUTION]
-   > <span data-ttu-id="c88ec-213">macOS 10.15(카탈로니아)에는 새로운 보안 및 개인 정보 보호 향상 기능이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-213">macOS 10.15 (Catalina) contains new security and privacy enhancements.</span></span> <span data-ttu-id="c88ec-214">이 버전부터 응용 프로그램은 기본적으로 명시적 동의 없이 디스크의 특정 위치(예: 문서, 다운로드, 데스크톱 등)에 액세스할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-214">Beginning with this version, by default, applications are not able to access certain locations on disk (such as Documents, Downloads, Desktop, etc.) without explicit consent.</span></span> <span data-ttu-id="c88ec-215">이 동의가 없는 경우 끝점용 Microsoft Defender는 장치를 완전히 보호할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-215">In the absence of this consent, Microsoft Defender for Endpoint is not able to fully protect your device.</span></span>
-   >
-   > <span data-ttu-id="c88ec-216">이 구성 프로필은 끝점용 Microsoft Defender에 대한 모든 디스크 액세스 권한을 부여합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-216">This configuration profile grants Full Disk Access to Microsoft Defender for Endpoint.</span></span> <span data-ttu-id="c88ec-217">Intune을 통해 이전에 Endpoint용 Microsoft Defender를 구성한 경우 이 구성 프로필을 사용하여 배포를 업데이트하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-217">If you previously configured Microsoft Defender for Endpoint through Intune, we recommend you update the deployment with this configuration profile.</span></span>
-
-9. <span data-ttu-id="c88ec-218">끝점 감지 및 응답 기능의 일부로 macOS의 끝점용 Microsoft Defender는 소켓 트래픽을 검사하고 이 정보를 Microsoft Defender 보안 센터 포털에 보고합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-218">As part of the Endpoint Detection and Response capabilities, Microsoft Defender for Endpoint on macOS inspects socket traffic and reports this information to the Microsoft Defender Security Center portal.</span></span> <span data-ttu-id="c88ec-219">다음 정책은 네트워크 확장에서 이 기능을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-219">The following policy allows the network extension to perform this functionality.</span></span> <span data-ttu-id="c88ec-220">[GitHub](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig)리포지토리에서 **netfilter.mobileconfig를** 다운로드하여 netext.xml 저장하고 이전 섹션과 동일한 단계를 사용하여 배포합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-220">Download **netfilter.mobileconfig** from [our GitHub repository](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig), save it as netext.xml and deploy it using the same steps as in the previous sections.</span></span> <a name = "create-system-configuration-profiles-step-9" id = "create-system-configuration-profiles-step-9"></a>
-
-10. <span data-ttu-id="c88ec-221">MacOS 및 Microsoft 자동 업데이트에서 MacOS 10.15(카탈로니아)의 UI에 알림을 표시하도록 Microsoft Defender를 허용하려면 GitHub 리포지토리에서 다운로드하여 사용자 지정 페이로드로 `notif.mobileconfig` 가져와야 [](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) 합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-221">To allow Microsoft Defender for Endpoint on macOS and Microsoft Auto Update to display notifications in UI on macOS 10.15 (Catalina), download `notif.mobileconfig` from [our GitHub repository](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) and import it as a custom payload.</span></span> <a name = "create-system-configuration-profiles-step-10" id = "create-system-configuration-profiles-step-10"></a>
-
-11. <span data-ttu-id="c88ec-222">배정 **관리 > 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-222">Select **Manage > Assignments**.</span></span>  <span data-ttu-id="c88ec-223">포함 **탭에서** 모든 사용자 및 모든 & **할당을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-223">In the **Include** tab, select **Assign to All Users & All devices**.</span></span>
-
-<span data-ttu-id="c88ec-224">Intune 변경 내용이 등록된 장치로 전파된 후 장치 상태 모니터링에 나열된 내용을 볼  >  **수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-224">Once the Intune changes are propagated to the enrolled devices, you can see them listed under **Monitor** > **Device status**:</span></span>
-
-> [!div class="mx-imgBorder"]
-> <span data-ttu-id="c88ec-225">![모니터의 장치 상태 보기](images/mdatp-7-devicestatusblade.png)</span><span class="sxs-lookup"><span data-stu-id="c88ec-225">![View of Device Status in Monitor](images/mdatp-7-devicestatusblade.png)</span></span>
-
-## <a name="publish-application"></a><span data-ttu-id="c88ec-226">응용 프로그램 게시</span><span class="sxs-lookup"><span data-stu-id="c88ec-226">Publish application</span></span>
-
-1. <span data-ttu-id="c88ec-227">Intune에서 Manage **> Client apps 블레이드를 열고**</span><span class="sxs-lookup"><span data-stu-id="c88ec-227">In Intune, open the **Manage > Client apps** blade.</span></span> <span data-ttu-id="c88ec-228">추가를 **> 앱을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-228">Select **Apps > Add**.</span></span>
-
-2. <span data-ttu-id="c88ec-229">**앱 유형=기타/업무 앱 을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-229">Select **App type=Other/Line-of-business app**.</span></span>
-
-3. <span data-ttu-id="c88ec-230">**file=wdav.pkg.intunemac를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-230">Select **file=wdav.pkg.intunemac**.</span></span> <span data-ttu-id="c88ec-231">확인을 **선택하여** 업로드합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-231">Select **OK** to upload.</span></span>
-
-4. <span data-ttu-id="c88ec-232">**구성을** 선택하고 필요한 정보를 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-232">Select **Configure** and add the required information.</span></span>
-
-5. <span data-ttu-id="c88ec-233">macOS **High Sierra 10.14를** 최소 OS로 사용</span><span class="sxs-lookup"><span data-stu-id="c88ec-233">Use **macOS High Sierra 10.14** as the minimum OS.</span></span>
-
-6. <span data-ttu-id="c88ec-234">앱 *버전 무시를* **예로 설정하세요.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-234">Set *Ignore app version* to **Yes**.</span></span> <span data-ttu-id="c88ec-235">다른 설정은 임의의 값일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-235">Other settings can be any arbitrary value.</span></span>
-
-    > [!CAUTION]
-    > <span data-ttu-id="c88ec-236">앱 *버전 무시를* **아니요로** 설정하면 응용 프로그램이 Microsoft 자동 업데이트를 통해 업데이트를 받을 수 있는 능력이 영향을 받지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-236">Setting *Ignore app version* to **No** impacts the ability of the application to receive updates through Microsoft AutoUpdate.</span></span> <span data-ttu-id="c88ec-237">제품 업데이트 방법에 대한 자세한 내용은 [MacOS에서 끝점용 Microsoft Defender](mac-updates.md) 업데이트 배포를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="c88ec-237">See [Deploy updates for Microsoft Defender for Endpoint on macOS](mac-updates.md) for additional information about how the product is updated.</span></span>
-    >
-    > <span data-ttu-id="c88ec-238">Intune에서 업로드한 버전이 디바이스의 버전보다 낮을 경우 더 낮은 버전이 설치됩니다. 그러면 끝점용 Microsoft Defender가 다운그레이딩됩니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-238">If the version uploaded by Intune is lower than the version on the device, then the lower version will be installed, effectively downgrading Microsoft Defender for Endpoint.</span></span> <span data-ttu-id="c88ec-239">이로 인해 응용 프로그램이 작동하지 않는 것일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-239">This could result in a non-functioning application.</span></span> <span data-ttu-id="c88ec-240">제품 업데이트 방법에 대한 자세한 내용은 [MacOS에서 끝점용 Microsoft Defender](mac-updates.md) 업데이트 배포를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="c88ec-240">See [Deploy updates for Microsoft Defender for Endpoint on macOS](mac-updates.md) for additional information about how the product is updated.</span></span> <span data-ttu-id="c88ec-241">앱 버전 무시를 아니요로  설정하여 끝점용 Microsoft Defender를 배포한 경우 **를** 예로 **변경하세요.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-241">If you deployed Microsoft Defender for Endpoint with *Ignore app version* set to **No**, please change it to **Yes**.</span></span> <span data-ttu-id="c88ec-242">끝점용 Microsoft Defender를 클라이언트 장치에 설치할 수 없는 경우 끝점용 Microsoft Defender를 제거하고 업데이트된 정책을 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-242">If Microsoft Defender for Endpoint still cannot be installed on a client device, then uninstall Microsoft Defender for Endpoint and push the updated policy.</span></span>
-     
-    > [!div class="mx-imgBorder"]
-    > <span data-ttu-id="c88ec-243">![앱 추가에서 앱 정보 표시](images/mdatp-8-intuneappinfo.png)</span><span class="sxs-lookup"><span data-stu-id="c88ec-243">![Display of App information in App add](images/mdatp-8-intuneappinfo.png)</span></span>
-
-7. <span data-ttu-id="c88ec-244">확인을 **선택하고** **추가를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-244">Select **OK** and **Add**.</span></span>
+3. <span data-ttu-id="76dd4-266">오른쪽 위 모서리에 끝점용 Microsoft Defender 아이콘도 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-266">You should also see the Microsoft Defender for Endpoint icon in the top-right corner:</span></span>
 
     > [!div class="mx-imgBorder"]
-    > <span data-ttu-id="c88ec-245">![알림 창에 표시되는 장치 상태](images/mdatp-9-intunepkginfo.png)</span><span class="sxs-lookup"><span data-stu-id="c88ec-245">![Device status shown in Notifications window](images/mdatp-9-intunepkginfo.png)</span></span>
+    > <span data-ttu-id="76dd4-267">![상태 표시줄의 끝점용 Microsoft Defender 아이콘 스크린샷](images/mdatp-icon-bar.png)</span><span class="sxs-lookup"><span data-stu-id="76dd4-267">![Microsoft Defender for Endpoint icon in status bar screenshot](images/mdatp-icon-bar.png)</span></span>
 
-8. <span data-ttu-id="c88ec-246">패키지를 업로드하는 데 몇 분 정도 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-246">It may take a few moments to upload the package.</span></span> <span data-ttu-id="c88ec-247">완료된 후 목록에서 패키지를 선택하고 **과제** 및 그룹 **추가 로 이동하세요.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-247">After it's done, select the package from the list and go to **Assignments** and **Add group**.</span></span>
+## <a name="troubleshooting"></a><span data-ttu-id="76dd4-268">문제 해결</span><span class="sxs-lookup"><span data-stu-id="76dd4-268">Troubleshooting</span></span>
 
-    > [!div class="mx-imgBorder"]
-    > <span data-ttu-id="c88ec-248">![클라이언트 앱 스크린샷](images/mdatp-10-clientapps.png)</span><span class="sxs-lookup"><span data-stu-id="c88ec-248">![Client apps screenshot](images/mdatp-10-clientapps.png)</span></span>
+<span data-ttu-id="76dd4-269">문제: 라이선스를 찾을 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-269">Issue: No license found.</span></span>
 
-9. <span data-ttu-id="c88ec-249">배정 **유형을 필수로** **변경합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-249">Change **Assignment type** to **Required**.</span></span>
+<span data-ttu-id="76dd4-270">해결 방법: 위의 단계에 따라 사용자 계정을 사용하여 장치 프로필을 WindowsDefenderATPOnboarding.xml.</span><span class="sxs-lookup"><span data-stu-id="76dd4-270">Solution: Follow the steps above to create a device profile using WindowsDefenderATPOnboarding.xml.</span></span>
 
-10. <span data-ttu-id="c88ec-250">포함된 **그룹을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-250">Select **Included Groups**.</span></span> <span data-ttu-id="c88ec-251">모든 **디바이스에 이 앱을 필수로 만들기=예 를 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-251">Select **Make this app required for all devices=Yes**.</span></span> <span data-ttu-id="c88ec-252">그룹 **선택을 선택하여** 대상을 지정하려는 사용자가 포함된 그룹을 포함하고 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-252">Select **Select group to include** and add a group that contains the users you want to target.</span></span> <span data-ttu-id="c88ec-253">확인 **및** **저장을 선택합니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-253">Select **OK** and **Save**.</span></span>
+## <a name="logging-installation-issues"></a><span data-ttu-id="76dd4-271">로깅 설치 문제</span><span class="sxs-lookup"><span data-stu-id="76dd4-271">Logging installation issues</span></span>
 
-    > [!div class="mx-imgBorder"]
-    > <span data-ttu-id="c88ec-254">![Intune 할당 정보 스크린샷](images/mdatp-11-assignments.png)</span><span class="sxs-lookup"><span data-stu-id="c88ec-254">![Intune assignments info screenshot](images/mdatp-11-assignments.png)</span></span>
+<span data-ttu-id="76dd4-272">오류가 발생할 때 설치 관리자에서 자동으로 생성된 로그를 찾는 방법에 대한 자세한 내용은 로깅 설치 [문제 를 참조하세요.](mac-resources.md#logging-installation-issues)</span><span class="sxs-lookup"><span data-stu-id="76dd4-272">For more information on how to find the automatically generated log that is created by the installer when an error occurs, see [Logging installation issues](mac-resources.md#logging-installation-issues).</span></span>
 
-11. <span data-ttu-id="c88ec-255">시간이 지난 후 응용 프로그램이 등록된 모든 장치에 게시됩니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-255">After some time the application will be published to all enrolled devices.</span></span> <span data-ttu-id="c88ec-256">장치 모니터링 에 나열된  >  **장치** 설치 **상태 아래에서 볼 수 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="c88ec-256">You can see it listed in **Monitor** > **Device**, under **Device install status**:</span></span>
+## <a name="uninstallation"></a><span data-ttu-id="76dd4-273">제거</span><span class="sxs-lookup"><span data-stu-id="76dd4-273">Uninstallation</span></span>
 
-    > [!div class="mx-imgBorder"]
-    > <span data-ttu-id="c88ec-257">![Intune 장치 상태 스크린샷](images/mdatp-12-deviceinstall.png)</span><span class="sxs-lookup"><span data-stu-id="c88ec-257">![Intune device status screenshot](images/mdatp-12-deviceinstall.png)</span></span>
-
-## <a name="verify-client-device-state"></a><span data-ttu-id="c88ec-258">클라이언트 장치 상태 확인</span><span class="sxs-lookup"><span data-stu-id="c88ec-258">Verify client device state</span></span>
-
-1. <span data-ttu-id="c88ec-259">구성 프로필을 장치에 배포한 후 Mac 장치에서 **시스템** 기본 설정  >   프로필을 여는 방법을 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-259">After the configuration profiles are deployed to your devices, open **System Preferences** > **Profiles** on your Mac device.</span></span>
-
-    <span data-ttu-id="c88ec-260">![시스템 기본 설정 스크린샷](images/mdatp-13-systempreferences.png)</span><span class="sxs-lookup"><span data-stu-id="c88ec-260">![System Preferences screenshot](images/mdatp-13-systempreferences.png)</span></span><br/>
-    <span data-ttu-id="c88ec-261">![시스템 기본 설정 프로필 스크린샷](images/mdatp-14-systempreferencesprofiles.png)</span><span class="sxs-lookup"><span data-stu-id="c88ec-261">![System Preferences Profiles screenshot](images/mdatp-14-systempreferencesprofiles.png)</span></span>
-
-2. <span data-ttu-id="c88ec-262">다음 구성 프로필이 존재하고 설치되어 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-262">Verify that the following configuration profiles are present and installed.</span></span> <span data-ttu-id="c88ec-263">관리 **프로필은** Intune 시스템 프로필입니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-263">The **Management Profile** should be the Intune system profile.</span></span> <span data-ttu-id="c88ec-264">_Wdav-config_ 및 _wdav-kext는_ Intune: 프로필 스크린샷에 추가된 시스템 구성 ![ 프로필입니다.](images/mdatp-15-managementprofileconfig.png)</span><span class="sxs-lookup"><span data-stu-id="c88ec-264">_Wdav-config_ and _wdav-kext_ are system configuration profiles that were added in Intune: ![Profiles screenshot](images/mdatp-15-managementprofileconfig.png)</span></span>
-
-3. <span data-ttu-id="c88ec-265">오른쪽 위에 Microsoft Defender 아이콘도 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-265">You should also see the Microsoft Defender icon in the top-right corner:</span></span>
-
-    > [!div class="mx-imgBorder"]
-    > <span data-ttu-id="c88ec-266">![상태 표시줄의 Microsoft Defender 아이콘 스크린샷](images/mdatp-icon-bar.png)</span><span class="sxs-lookup"><span data-stu-id="c88ec-266">![Microsoft Defender icon in status bar screenshot](images/mdatp-icon-bar.png)</span></span>
-
-## <a name="troubleshooting"></a><span data-ttu-id="c88ec-267">문제 해결</span><span class="sxs-lookup"><span data-stu-id="c88ec-267">Troubleshooting</span></span>
-
-<span data-ttu-id="c88ec-268">문제: 라이선스를 찾을 수 없음</span><span class="sxs-lookup"><span data-stu-id="c88ec-268">Issue: No license found</span></span>
-
-<span data-ttu-id="c88ec-269">해결 방법: 위의 단계에 따라 장치를 사용하여 장치 프로필을 WindowsDefenderATPOnboarding.xml</span><span class="sxs-lookup"><span data-stu-id="c88ec-269">Solution: Follow the steps above to create a device profile using WindowsDefenderATPOnboarding.xml</span></span>
-
-## <a name="logging-installation-issues"></a><span data-ttu-id="c88ec-270">로깅 설치 문제</span><span class="sxs-lookup"><span data-stu-id="c88ec-270">Logging installation issues</span></span>
-
-<span data-ttu-id="c88ec-271">오류가 발생할 때 설치 관리자에서 자동으로 생성된 로그를 찾는 방법에 대한 자세한 내용은 로깅 설치 [문제 를 참조하세요.](mac-resources.md#logging-installation-issues)</span><span class="sxs-lookup"><span data-stu-id="c88ec-271">For more information on how to find the automatically generated log that is created by the installer when an error occurs, see [Logging installation issues](mac-resources.md#logging-installation-issues).</span></span>
-
-## <a name="uninstallation"></a><span data-ttu-id="c88ec-272">제거</span><span class="sxs-lookup"><span data-stu-id="c88ec-272">Uninstallation</span></span>
-
-<span data-ttu-id="c88ec-273">클라이언트 [장치에서](mac-resources.md#uninstalling) macOS에서 끝점용 Microsoft Defender를 제거하는 방법에 대한 자세한 내용은 제거를 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="c88ec-273">See [Uninstalling](mac-resources.md#uninstalling) for details on how to remove Microsoft Defender for Endpoint on macOS from client devices.</span></span>
+<span data-ttu-id="76dd4-274">클라이언트 [장치에서](mac-resources.md#uninstalling) macOS에서 끝점용 Microsoft Defender를 제거하는 방법에 대한 자세한 내용은 제거를 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="76dd4-274">See [Uninstalling](mac-resources.md#uninstalling) for details on how to remove Microsoft Defender for Endpoint on macOS from client devices.</span></span>
