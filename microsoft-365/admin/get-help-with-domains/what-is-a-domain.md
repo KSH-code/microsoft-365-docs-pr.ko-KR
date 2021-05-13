@@ -23,12 +23,12 @@ ms.custom:
 - okr_smb
 - AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0d4c59f24f5d5979d0f63d035edd1ca668ff4314
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: eac7de88e6d4c09e6807edbbd35d6ccc4718c671
+ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296698"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52464336"
 ---
 # <a name="what-is-a-domain"></a>도메인이란 무엇인가요?
 
@@ -58,5 +58,13 @@ ms.locfileid: "52296698"
 ## <a name="feeling-stuck"></a>도움이 필요하나요?
 
 Microsoft 지원에 문의 - [도메인 설정 도움말 확인](../../business-video/get-help-support.md)
-  
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[도메인](buy-a-domain-name.md) 구입(문서)
+
+[도메인을 도메인에](../setup/add-domain.md) Microsoft 365(문서)
+
+[사용자 지정 Microsoft 365 파일럿](../misc/pilot-microsoft-365-from-my-custom-domain.md) 테스트(문서)
+
 

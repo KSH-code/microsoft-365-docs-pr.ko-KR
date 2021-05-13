@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender 고급 헌팅 스위마의 이름 변경 사항
+title: Defender 고급 헌팅 Microsoft 365 이름 변경 사항
 description: 고급 헌팅 스위마의 변경 테이블 및 열 이름 변경 추적 및 검토
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마 참조, kusto, 표, 데이터, 명명 변경, 이름 변경
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 데이터, 명명 변경, 이름 변경
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: eb6dfa628488239e3953d19d5e78b338e76f50a2
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: a387892dde0fbe96e4a523b2247448a3c7e374b8
+ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023788"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52470499"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>고급 헌팅 스마 - 이름 변경
 
@@ -67,7 +67,7 @@ ms.locfileid: "52023788"
 | `DetectionSource` | AutomatedInvestigation |자동화된 조사 | Rebranding |
 | `DetectionSource` | ThreatExperts | Microsoft 위협 전문가 | Rebranding |
 | `DetectionSource` | 제3자 TI | 제3자 센서 | Rebranding |
-| `ServiceSource` | Microsoft Defender ATP| 엔드포인트용 Microsoft Defender | Rebranding |
+| `ServiceSource` | Microsoft Defender ATP| 끝점용 Microsoft Defender | Rebranding |
 |`ServiceSource` |Microsoft Threat Protection   | Microsoft 365 Defender | Rebranding |
 | `ServiceSource` | Office 365 ATP  |Office 365용 Microsoft Defender | Rebranding |
 | `ServiceSource` |Azure ATP    |ID용 Microsoft Defender | Rebranding |
@@ -78,12 +78,12 @@ ms.locfileid: "52023788"
 
 1. [EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md) 및 [EmailEvents](advanced-hunting-emailevents-table.md) 테이블에서 및 열이 `MalwareFilterVerdict` `PhishFilterVerdict` 열로 `ThreatTypes` 대체됩니다. 및 `MalwareDetectionMethod` `PhishDetectionMethod` 열도 열로 `DetectionMethods` 대체했습니다. 이 간소화를 통해 새 열 아래에 추가 정보를 제공할 수 있습니다. 매핑은 아래에 제공됩니다.
 
-| 테이블 이름 | 원래 열 이름 | 새 열 이름 | 변경 이유
-|--|--|--|--|
-| `EmailAttachmentInfo` | `MalwareDetectionMethod` <br> `PhishDetectionMethod` | `DetectionMethods` | 추가 검색 방법 포함 |
-| `EmailAttachmentInfo`  | `MalwareFilterVerdict` <br>`PhishFilterVerdict` | `ThreatTypes` | 더 많은 위협 유형 포함 |
-| `EmailEvents` | `MalwareDetectionMethod` <br> `PhishDetectionMethod` | `DetectionMethods` | 추가 검색 방법 포함 |
-| `EmailEvents` | `MalwareFilterVerdict` <br>`PhishFilterVerdict` | `ThreatTypes` | 더 많은 위협 유형 포함 |
+    | 테이블 이름 | 원래 열 이름 | 새 열 이름 | 변경 이유
+    |--|--|--|--|
+    | `EmailAttachmentInfo` | `MalwareDetectionMethod` <br> `PhishDetectionMethod` | `DetectionMethods` | 추가 검색 방법 포함 |
+    | `EmailAttachmentInfo`  | `MalwareFilterVerdict` <br>`PhishFilterVerdict` | `ThreatTypes` | 더 많은 위협 유형 포함 |
+    | `EmailEvents` | `MalwareDetectionMethod` <br> `PhishDetectionMethod` | `DetectionMethods` | 추가 검색 방법 포함 |
+    | `EmailEvents` | `MalwareFilterVerdict` <br>`PhishFilterVerdict` | `ThreatTypes` | 더 많은 위협 유형 포함 |
 
 
 2. 및 테이블에 전자 메일 위협에 대한 자세한 정보를 제공하기 위해 `EmailAttachmentInfo` `EmailEvents` `ThreatNames` 열이 추가되었습니다. 이 열에는 스팸 또는 피싱과 같은 값이 포함되어 있습니다.
@@ -92,18 +92,20 @@ ms.locfileid: "52023788"
 
 4. [DeviceEvents](advanced-hunting-deviceevents-table.md) 테이블에서는 작업 설명을 보다 잘 반영하기 위해 여러 ActionType 이름이 수정되었습니다. 변경 내용에 대한 자세한 내용은 아래에서 찾을 수 있습니다.
 
-| 테이블 이름 | Original ActionType 이름 | 새 ActionType 이름 | 변경 이유
-|--|--|--|--|
-| `DeviceEvents` | `DlpPocPrintJob` | `FilePrinted` | 고객 피드백 |
-| `DeviceEvents` | `UsbDriveMount` | `UsbDriveMounted` | 고객 피드백 |
-| `DeviceEvents` | `UsbDriveUnmount` | `UsbDriveUnmounted` | 고객 피드백 |
-| `DeviceEvents` | `WriteProcessMemoryApiCall` | `WriteToLsassProcessMemory` | 고객 피드백 |
+    | 테이블 이름 | Original ActionType 이름 | 새 ActionType 이름 | 변경 이유
+    |--|--|--|--|
+    | `DeviceEvents` | `DlpPocPrintJob` | `FilePrinted` | 고객 피드백 |
+    | `DeviceEvents` | `UsbDriveMount` | `UsbDriveMounted` | 고객 피드백 |
+    | `DeviceEvents` | `UsbDriveUnmount` | `UsbDriveUnmounted` | 고객 피드백 |
+    | `DeviceEvents` | `WriteProcessMemoryApiCall` | `WriteToLsassProcessMemory` | 고객 피드백 |
 
 ## <a name="march-2021"></a>2021년 3월
 
 테이블이 `DeviceTvmSoftwareInventoryVulnerabilities` 사용되지 않습니다. 및 테이블을 `DeviceTvmSoftwareInventory` `DeviceTvmSoftwareVulnerabilities` 바꾸는 것입니다.
 
+## <a name="may-2021"></a>2021년 5월
 
+테이블이 `AppFileEvents` 사용되지 않습니다. 이 표에는 테이블에 사용된 정보와 클라우드 서비스의 다른 `CloudAppEvents` `AppFileEvents` 활동이 포함되어 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 - [지능형 헌팅 개요](advanced-hunting-overview.md)

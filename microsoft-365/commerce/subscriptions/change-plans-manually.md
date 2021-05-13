@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Microsoft 365 요금제 수동 변경
+title: 비즈니스 Microsoft 365 계획에 대한 변경
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -17,15 +17,15 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
 search.appverid: MET150
-ROBOTS: NOINDEX
 description: 새 구독을 구입하고 두 구독이 모두 나열되어 활성화되어 있도록 하여 구독을 수동으로 변경합니다.
+ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: 99bb732405d6420e430adad3ece7ea7f0c93579b
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 4935301c6d2a530f34d628f946032b7007e5c907
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333305"
+ms.locfileid: "52345181"
 ---
 # <a name="change-plans-manually"></a>수동으로 계획 변경
 
@@ -50,7 +50,7 @@ ms.locfileid: "52333305"
 
 또는
 
-**새 구독 및 라이선스를 구입합니다.** 다른 비즈니스용 [Microsoft 365](../try-or-buy-microsoft-365.md) 구독 구입의 단계에 따라 새 구독을 구입합니다.
+**새 구독 및 라이선스를 구입합니다.** 비즈니스용 다른 [](../try-or-buy-microsoft-365.md) 구독 Microsoft 365 구입의 단계에 따라 새 구독을 구입합니다.
 
 사용자가 현재 있는 조직과 동일한 조직에 대한 구독을 구입해야 합니다. 예를 들어 이동할 사용자의 전자 메일 주소를 확인할 수 있습니다. 해당 전자 메일 주소에 contoso.com 구독을 구입해야 \@ contoso.com.
 이동할 각 사용자에 대한 라이선스를 포함합니다.
@@ -61,7 +61,7 @@ ms.locfileid: "52333305"
 
 2. **두 구독이 모두 나열 및 활성 상태인지 확인** 사용자를 이동하는 구독과 사용자를 이동하는 구독이 함께 나열되어야 합니다. 새 구독을 처음 확인할 때 해당 구독이 없는 경우 나중에 다시 시도하세요. 두 구독이 모두 활성 상태인지 검사합니다. 새 구독이 목록에 없는 경우 [또는 활성화되지 않습니다.](#the-new-subscription-isnt-listed-or-isnt-active)
 
-3. **각 사용자에 대한 라이선스가 충분한지 확인** 각 사용자에게는 구독과 일치하는 라이선스가 필요합니다. 따라서 10명 사용자를 Microsoft 365 Business Premium으로 이동하려면 10개 라이선스를 사용할 수 있는지 확인해야 합니다.
+3. **각 사용자에 대한 라이선스가 충분한지 확인** 각 사용자에게는 구독과 일치하는 라이선스가 필요합니다. 따라서 10명 사용자를 다른 사용자로 Microsoft 365 Business Premium 10개 라이선스를 사용할 수 있는지 확인해야 합니다.
 
 4. **새 구독에 대한 라이선스가 더 필요하세요?**
    제품 **페이지로 이동하여** 추가 [라이선스를 구입합니다.](../licenses/buy-licenses.md)
@@ -101,7 +101,7 @@ ms.locfileid: "52333305"
 5. 토글을 해당 사용자에게 할당하려는 제품의 **On** 위치로 전환합니다.
 
     > [!TIP]
-    > - 사용자가 사용할 수 있는 서비스를 제한하려면 해당 사용자에  대해 제거할 서비스에 대해 해제 위치로 토글합니다. 예를 들어 사용자가 비즈니스용 Skype Online을 제외한 모든 사용 가능한 서비스에 액세스할 수 있도록 하려는 경우 비즈니스용 Skype Online 서비스의 토글을 해제 위치로 전환할 **수** 있습니다.
+    > - 사용자가 사용할 수 있는 서비스를 제한하려면 해당 사용자에  대해 제거할 서비스에 대해 해제 위치로 토글합니다. 예를 들어 사용자가 비즈니스용 Skype Online을 제외한 모든 사용 가능한 서비스에 액세스할 수 있도록 하려는 경우 비즈니스용 Skype Online 서비스에 대한 토글을 해제 위치로 전환할 **수** 있습니다.
     > - 선택한 사용자에 대한 모든 이전 라이선스 할당이 제거됩니다.
 
 6. **기존 제품 바꾸기** 창의 아래쪽에서 **바꾸기** \> **닫기** 를 선택합니다.

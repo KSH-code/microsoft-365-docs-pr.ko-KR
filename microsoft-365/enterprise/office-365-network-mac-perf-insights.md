@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 네트워크 인사이트(미리 보기)
+title: Microsoft 365 네트워크 인사이트
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,15 +13,15 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: Microsoft 365 네트워크 인사이트(미리 보기)
-ms.openlocfilehash: ca665f4e492b071e5a387ffde0efae8336bd96bc
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Microsoft 365 네트워크 인사이트
+ms.openlocfilehash: 10b1c66a8f9aae555c2841b2b290f341bec3c7ec
+ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245783"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52470559"
 ---
-# <a name="microsoft-365-network-insights-preview"></a>Microsoft 365 네트워크 인사이트(미리 보기)
+# <a name="microsoft-365-network-insights"></a>Microsoft 365 네트워크 인사이트
 
 **네트워크 인사이트는** Microsoft 365 테넌트에서 수집된 성능 메트릭으로, 테넌트의 관리 사용자만 볼 수 있습니다. 인사이트는 의 Microsoft 365 관리 센터에 <https://portal.microsoft.com/adminportal/home#/networkperformance> 표시됩니다.
 

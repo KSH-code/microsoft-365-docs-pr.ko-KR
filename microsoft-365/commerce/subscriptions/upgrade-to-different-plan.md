@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: 다른 계획으로 업그레이드하는 방법에 대해 자세히 알아보습니다.
 ms.date: 04/21/2021
-ms.openlocfilehash: 2cfb5c3c6c5052a813e7dd078f15b6c0c943b004
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 4882ad4296eb05faf0bb549ebf850562a7ebf780
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333109"
+ms.locfileid: "52344617"
 ---
 # <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드
 
@@ -99,7 +99,7 @@ ms.locfileid: "52333109"
 
 #### <a name="you-have-two-or-more-plans-for-the-same-product"></a>동일한 제품에 대한 계획이 두 개 이상 있습니다.
 
-모든 사용자가 동일한  요금제에 가입한 경우 업그레이드 탭만 사용할 수 있습니다. 예를 들어 두 개의 Microsoft 365 Business Standard 요금제가 있는 경우 이러한 요금제 중 하나를 다른 요금제로 자동으로 업그레이드할 수 없습니다.
+모든 사용자가 동일한  요금제에 가입한 경우 업그레이드 탭만 사용할 수 있습니다. 예를 들어 두 개의 Microsoft 365 Business Standard 계획이 있는 경우 해당 요금제 중 하나를 다른 요금제로 자동으로 업그레이드할 수 없습니다.
 
 #### <a name="you-have-a-prepaid-plan"></a>선불 요금제를 사용 중인 경우
 
@@ -117,7 +117,7 @@ ms.locfileid: "52333109"
 
 #### <a name="the-plan-that-you-want-to-upgrade-to-isnt-a-supported-option"></a>업그레이드할 계획이 지원되는 옵션이 아닙니다.
 
-계획을 업그레이드할 때 업그레이드할 수 있는 계획은 현재 계획의 서비스에 따라 표시됩니다. Exchange Online 또는 SharePoint Online과 같은 데이터 관련 서비스가 동일한 요금제 또는 상위 버전으로만 업그레이드할 수 있습니다. 이렇게 하면 사용자가 업그레이드 중에 해당 서비스와 관련된 데이터를 \' 손실하지 않습니다.
+계획을 업그레이드할 때 업그레이드할 수 있는 계획은 현재 계획의 서비스에 따라 표시됩니다. 데이터 관련 서비스가 동일한 요금제(예: Exchange Online 또는 SharePoint Online)로만 업그레이드하거나 상위 버전으로 업그레이드할 수 있습니다. 이렇게 하면 사용자가 업그레이드 중에 해당 서비스와 관련된 데이터를 \' 손실하지 않습니다.
 
 계획을 자동으로 업그레이드할 수 없는 경우 대신 계획을 수동으로 [](change-plans-manually.md)변경할 수 있습니다. 지원을 문의하여 [도움을 줄](../../business-video/get-help-support.md) 수 있습니다.
 

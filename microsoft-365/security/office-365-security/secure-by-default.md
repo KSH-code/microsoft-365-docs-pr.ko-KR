@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 기본적으로 보안
+title: 기본적으로 보안은 Office 365
 f1.keywords:
 - NOCSH
 ms.author: dansimp
@@ -14,17 +14,17 @@ search.appverid:
 - MOE150
 ms.collection:
 - M365-security-compliance
-description: EOP(Exchange Online Protection)의 보안 기본 설정에 대해 자세히 알아보시다.
+description: EOP(보안 기본 설정)에 대해 Exchange Online Protection 자세히 알아보시다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f1b495a9c985077dfc88d1da7a221bb60ca10df9
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 957ca3b563d4f1466dd537c3ae974a4fd61aa6f2
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205649"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346319"
 ---
-# <a name="secure-by-default-in-office-365"></a>Office 365에서 기본적으로 보안
+# <a name="secure-by-default-in-office-365"></a>기본적으로 보안은 Office 365
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -38,21 +38,21 @@ ms.locfileid: "51205649"
 
 그러나 보안은 생산성과 균형을 조정해야 합니다. 여기에는 다음과 같은 분산이 포함됩니다.
 
-- **사용 가능성:** 설정이 사용자 생산성에 영향을 주면 안 됩니다.
+- **사용 가능성:** 설정 생산성을 높이지 못합니다.
 - **위험:** 보안이 중요한 활동을 차단할 수 있습니다.
 - **레거시 설정:** 새 최신 설정이 개선된 경우에도 비즈니스상의 이유로 이전 제품 및 기능에 대한 일부 구성을 유지 관리해야 할 수 있습니다.
 
-Exchange Online에 사서함이 있는 Microsoft 365 조직은 EOP(Exchange Online Protection)를 통해 보호됩니다. 이 보호에는 다음이 포함됩니다.
+Microsoft 365 사서함이 있는 Exchange Online EOP(Exchange Online Protection 보호됩니다. 이 보호에는 다음이 포함됩니다.
 
 - 의심되는 맬웨어가 있는 전자 메일은 자동으로 고지되고 받는 사람에게 알림이 전송됩니다. [EOP에서 맬웨어 방지 정책 구성을 참조합니다.](configure-anti-malware-policies.md)
 - 높은 신뢰도 피싱으로 식별된 전자 메일은 스팸 방지 정책 조치에 따라 처리됩니다. [EOP에서 스팸 방지 정책 구성을 참조합니다.](configure-your-spam-filter-policies.md)
 
-EOP에 대한 자세한 내용은 [Exchange Online Protection 개요를 참조하세요.](exchange-online-protection-overview.md)
+EOP에 대한 자세한 내용은 Exchange Online Protection [개요를 참조하세요.](exchange-online-protection-overview.md)
 
 Microsoft는 기본적으로 고객의 보안을 유지하기를 원하기 때문에 일부 테넌트는 맬웨어 또는 높은 신뢰도 피싱에 적용되지 않습니다. 이러한 오버라이드에는 다음이 포함됩니다.
 
 - 허용된 보낸 사람 목록 또는 허용된 도메인 목록(스팸 방지 정책)
-- Outlook 수신 - 보낸 사람
+- Outlook 수신이 안전한 보낸 사람
 - IP 허용 목록(연결 필터링)
 
 이러한 오버라이드에 대한 자세한 내용은 안전한 보낸 사람 목록 만들기 [에서 찾을 수 있습니다.](create-safe-sender-lists-in-office-365.md)
@@ -68,17 +68,20 @@ Microsoft는 기본적으로 고객의 보안을 유지하기를 원하기 때�
 
 이 데이터는 사용자가 정크 메일 폴더와 Quarantine의 메시지에서 악의적인 링크를 클릭할 가능성이 30배 더 높을 수 있습니다. 또한 이 데이터는 높은 신뢰도의 피싱 메시지에 대한 가음성 비율(양호한 메시지)이 매우 낮고 관리자가 관리자 제출을 통해 가짓 긍정을 해결할 수 있다는 것입니다.
 
-또한 Outlook의 스팸 방지 정책 및 수신 허용 도메인 목록이 너무 광범위하여 양호한 것보다 더 많은 손상을 초래하는 것으로 확인되었습니다.
+또한 스팸 방지 정책 및 수신 허용 정책의 허용된 보낸 사람 및 허용된 도메인 목록이 Outlook 너무 광범위하여 양호한 것보다 더 많은 손상을 초래하는 것으로 확인되었습니다.
 
-또 다른 방법으로 말해서, 보안 서비스로, 사용자가 손상되지 않도록 사용자를 대신하여 행동하고 있습니다. 
+또 다른 방법으로 말해서, 보안 서비스로, 사용자가 손상되지 않도록 사용자를 대신하여 행동하고 있습니다.
 
 ## <a name="exceptions"></a>예외
 
-신뢰도 높은 피싱 메시지가 필터링을 무시할 수 있는 유일한 무시는 Exchange 메일 흐름 규칙(전송 규칙)입니다. 메일 흐름 규칙을 사용하여 필터링을 무시하는 경우 메일 흐름 규칙을 사용하여 [메시지에서 SCL 설정을 참조합니다.](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
+> [!NOTE]
+> 2021년 7월에는 기본적으로 보안이 Exchange 메일 흐름 규칙(전송 규칙)으로 확장됩니다. 메일 흐름 규칙을 사용하여 타사 피싱 시뮬레이션 또는 필터되지 않은 배달을 보안 작업 사서함으로 허용하는 경우 결국 이러한 [](configure-advanced-delivery.md) 규칙을 제거하고 기능을 사용할 수 있는 경우 고급 배달 정책을 사용하여 _전환해야 합니다._
+
+높은 신뢰도의 피싱 메시지가 필터링을 무시할 수 있는 유일한 무시는 메일 흐름 규칙입니다. 메일 흐름 규칙을 사용하여 필터링을 무시하는 경우 메일 흐름 규칙을 사용하여 [메시지에서 SCL 설정을 참조합니다.](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
 
 다음과 같은 시나리오에서만 오버라이드를 사용하는 것이 좋습니다.
 
 - 피싱 시뮬레이션: 시뮬레이션된 공격은 실제 공격이 조직에 영향을 미치기 전에 취약한 사용자를 식별하는 데 도움이 될 수 있습니다.
-- 보안/SecOps 사서함: 보안 팀에서 필터되지 않은 메시지를 받는 데 사용하는 전용 사서함(좋음 및 불량) 그런 다음 Teams에서 검토하여 악성 콘텐츠가 포함되어 있는지 검토할 수 있습니다.
-- 타사 필터: 도메인의 MX 레코드가 Office 365를 지정하지 않는 경우 기본적으로 보안이 적용되지 않습니다.
+- 보안/SecOps 사서함: 보안 팀에서 필터되지 않은 메시지를 받는 데 사용하는 전용 사서함(좋음 및 불량) Teams 검토하여 악성 콘텐츠가 포함되어 있는지 검토할 수 있습니다.
+- 타사 필터: 도메인의 MX 레코드가 기본 설정을 지정하지 않는 경우 기본적으로 보안이 적용되지 Office 365.
 - 가양성: 관리자 제출을 통해 Microsoft에서 여전히 분석하고 있는 특정 메시지를 일시적으로 [허용할 수 있습니다.](admin-submission.md) 모든 재지정과 함께 임시로 지정하는 것이 좋습니다.

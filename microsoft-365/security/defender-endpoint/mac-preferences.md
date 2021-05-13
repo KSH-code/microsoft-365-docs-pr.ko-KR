@@ -18,17 +18,16 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f13734392e4975738a0d60d38e618595b5175667
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b706cb8dbd43d545768c1c573021b5ef401e3c09
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934564"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346405"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점에 대한 Microsoft Defender 기본 설정 설정
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **적용 대상:**
 
@@ -106,6 +105,7 @@ ms.locfileid: "51934564"
 #### <a name="scan-exclusions"></a>제외 검사
 
 검사에서 제외된 엔터티를 지정합니다. 제외는 전체 경로, 확장명 또는 파일 이름으로 지정할 수 있습니다.
+제외는 항목 배열로 지정됩니다. 관리자는 필요한 수의 요소를 순서에 따라 지정할 수 있습니다.
 
 |섹션|값|
 |:---|:---|
@@ -136,6 +136,27 @@ ms.locfileid: "51934564"
 | **Data type** | String |
 | **사용 가능한 값:** | 유효한 경로 |
 | **Comments** | 제외된 *$type* 적용 *가능* |
+
+## <a name="supported-exclusion-types"></a>지원되는 제외 유형
+
+다음 표에는 Mac의 끝점용 Defender에서 지원하는 제외 유형이 표시됩니다.
+
+제외 | 정의 | 예
+---|---|---
+파일 확장명 | 디바이스의 아무 곳이나 확장명을 사용하여 모든 파일 | `.test`
+파일 | 전체 경로로 식별된 특정 파일 | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
+폴더 | 지정된 폴더에 있는 모든 파일(재발성) | `/var/log/`<br/>`/var/*/`
+프로세스 | 전체 경로 또는 파일 이름으로 지정된 특정 프로세스 및 이 프로세스에서 연 모든 파일 | `/bin/cat`<br/>`cat`<br/>`c?t`
+
+> [!IMPORTANT]
+> 위의 경로는 기호 링크가 아니라 하드 링크되어야만 성공적으로 제외됩니다. 를 실행하여 경로가 기호 링크인지 확인할 수 `file <path-name>` 있습니다.
+
+파일, 폴더 및 프로세스 제외는 다음 와일드카드를 지원합니다.
+
+와일드카드 | 설명 | 예제 | 일치 | 일치하지 않습니다.
+---|---|---|---|---
+\* |    none을 포함한 모든 문자와 일치합니다(경로 내에서 이 와일드카드를 사용하는 경우 폴더 하나만 대체). | `/var/\*/\*.log` | `/var/log/system.log` | `/var/log/nested/system.log`
+? | 단일 문자와 일치 | `file?.log` | `file1.log`<br/>`file2.log` | `file123.log`
 
 ##### <a name="path-type-file--directory"></a>경로 유형(파일/디렉터리)
 
@@ -358,7 +379,7 @@ macOS에서 끝점용 Microsoft Defender의 사용자 인터페이스에 대한 
 
 ### <a name="endpoint-detection-and-response-preferences"></a>끝점 검색 및 응답 기본 설정
 
-macOS의 끝점에 대한 Microsoft Defender의 끝점 검색 및 응답(EDR) 구성 요소의 기본 설정을 관리합니다.
+macOS에서 끝점용 Microsoft Defender의 끝점 EDR(검색 및 응답) 구성 요소의 기본 설정을 관리합니다.
 
 |섹션|값|
 |:---|:---|
@@ -577,6 +598,14 @@ macOS의 끝점에 대한 Microsoft Defender의 끝점 검색 및 응답(EDR) �
             </dict>
             <dict>
                 <key>$type</key>
+                <string>excludedPath</string>
+                <key>isDirectory</key>
+                <true/>
+                <key>path</key>
+                <string>/Users/*/git</string>
+            </dict>
+            <dict>
+                <key>$type</key>
                 <string>excludedFileExtension</string>
                 <key>extension</key>
                 <string>pdf</string>
@@ -719,6 +748,14 @@ macOS의 끝점에 대한 Microsoft Defender의 끝점 검색 및 응답(EDR) �
                         </dict>
                         <dict>
                             <key>$type</key>
+                            <string>excludedPath</string>
+                            <key>isDirectory</key>
+                            <true/>
+                            <key>path</key>
+                            <string>/Users/*/git</string>
+                        </dict>
+                        <dict>
+                            <key>$type</key>
                             <string>excludedFileExtension</string>
                             <key>extension</key>
                             <string>pdf</string>
@@ -812,7 +849,7 @@ com.microsoft.wdav.plist: OK
 
 ### <a name="jamf-deployment"></a>JAMF 배포
 
-JAMF 콘솔에서 컴퓨터 구성 프로필을 열고 사용할 구성 프로필로 이동한 다음  >  사용자 지정 **설정을 선택합니다.** 기본 설정 도메인으로 항목을 만들고 앞에서 생성한 `com.microsoft.wdav` *.plist를* 업로드합니다.
+JAMF 콘솔에서 컴퓨터 구성 프로필을 열고 사용할 구성 프로필로 이동한 다음 사용자 지정 프로필을  >   **설정.** 기본 설정 도메인으로 항목을 만들고 앞에서 생성한 `com.microsoft.wdav` *.plist를* 업로드합니다.
 
 >[!CAUTION]
 >올바른 기본 설정 도메인( )을 입력해야 합니다. 그렇지 않으면 끝점용 Microsoft Defender에서 기본 설정이 `com.microsoft.wdav` 인식되지 않습니다.

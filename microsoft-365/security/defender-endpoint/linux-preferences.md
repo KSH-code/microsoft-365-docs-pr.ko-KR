@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 42b15edd933d80dd397f4681c4f0fdb035f030f2
-ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
+ms.openlocfilehash: 29505a6e975fdfa2283efe3391c615e40e678164
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51943020"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346381"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender에 대한 기본 설정 설정
 
@@ -105,6 +105,7 @@ ms.locfileid: "51943020"
 #### <a name="scan-exclusions"></a>제외 검사
 
 검사에서 제외된 엔터티입니다. 제외는 전체 경로, 확장명 또는 파일 이름으로 지정할 수 있습니다.
+제외는 항목 배열로 지정됩니다. 관리자는 필요한 수의 요소를 순서에 따라 지정할 수 있습니다.
 
 |||
 |:---|:---|
@@ -387,7 +388,12 @@ path *속성이* 파일 또는 디렉터리를 참조하는지 나타냅니다.
          {
             "$type":"excludedPath",
             "isDirectory":true,
-            "path":"/home"
+            "path":"/run"
+         },
+         {
+            "$type":"excludedPath",
+            "isDirectory":true,
+            "path":"/home/*/git"
          },
          {
             "$type":"excludedFileExtension",

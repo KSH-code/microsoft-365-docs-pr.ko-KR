@@ -1,5 +1,5 @@
 ---
-title: 콘텐츠 검색 참조
+title: 콘텐츠 검색에 대한 기능 참조
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -20,14 +20,16 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 이 게시물은 Microsoft 365 규정 준수 센터의 콘텐츠 검색 eDiscovery 도구에 대한 참조 정보를 포함하며, 콘텐츠 검색 세부 정보를 제공하여 사용자의 이해를 돕습니다.
-ms.openlocfilehash: c345cf00bddba30cb543ad9682a2a332607d31fe
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: f3545cc4644ca8b0a96ee37713d8fe62be7466e5
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52314318"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332897"
 ---
-# <a name="content-search-reference"></a>콘텐츠 검색 참조
+# <a name="feature-reference-for-content-search"></a>콘텐츠 검색에 대한 기능 참조
+
+이 문서는 콘텐츠 검색의 특징 및 기능을 설명합니다.
 
 ## <a name="content-search-limits"></a>콘텐츠 검색 제한
 
@@ -71,6 +73,10 @@ ms.locfileid: "52314318"
     
 - 영문자가 아닌 문자(예: 한자)에 대한 키워드가 포함된 검색 쿼리가 있는 경우 **쿼리 언어-국가/지역**![콘텐츠 검색에서 쿼리 언어-국가/지역 아이콘](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png)을 클릭하고 언어-국가 문화 코드 값을 선택합니다. 기본 언어/지역은 중립입니다. 콘텐츠 검색에 대해 언어 설정을 변경해야 하는지 어떻게 알 수 있나요? 특정 콘텐츠 위치에 검색 중인 영어 이외의 문자가 포함되어 있지만 검색 결과가 나타나지 않으면 언어 설정이 원인일 수 있습니다. 
   
+## <a name="partially-indexed-items"></a>부분적으로 인덱싱된 항목
+
+- 앞서 설명한 것처럼 사서함의 부부분적으로 인덱싱된 항목은 예상 검색 결과에 포함됩니다. SharePoint 및 OneDrive의 부분적으로 인덱싱된 항목은 예상 검색 결과에 포함되지 않습니다. 자세한 내용은 [eDiscovery에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)을 참조하세요.
+
 ## <a name="searching-onedrive-accounts"></a>OneDrive 계정 검색
 
 - 조직의 OneDrive 사이트에 대한 URL 목록을 수집하려면 [조직의 모든 OneDrive 위치 목록 만들기](/onedrive/list-onedrive-urls)를 참조하세요. 이 문서의 스크립트는 모든 OneDrive 사이트 목록이 포함된 텍스트 파일을 만듭니다. 이 스크립트를 실행하려면 SharePoint Online 관리 셸을 설치하고 사용해야 합니다. 조직의 MySite 도메인에 대한 URL을 검색하려는 각 OneDrive 사이트 앞에 붙입니다. 이것은 모든 OneDrive 도메인을 포함하는 도메인입니다(예: `https://contoso-my.sharepoint.com`). 사용자의 OneDrive 사이트에 대한 URL의 예는 다음과 같습니다.  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
@@ -228,12 +234,6 @@ Exchange Online 라이선스(또는 전체 Microsoft 365 라이선스)가 사용
 - **New-ComplianceSearch** cmdlet을 사용하여 콘텐츠 검색을 만들고 연결이 끊어진 사서함을 Exchange 콘텐츠 위치로 지정하여 검색한 경우 콘텐츠 검색에서 연결이 끊어진 사서함의 검색 결과를 반환하지 않습니다.
 
 검색이 가능할 수 있도록 연결이 끊어진 사서함에서 데이터를 보존해야 하는 경우 라이선스를 제거하기 전에 사서함을 보류 설정해야 합니다. 이렇게 하면 데이터가 보존되고 보류 설정이 해제될 때까지 연결이 끊어진 사서함이 검색 가능한 상태로 유지됩니다. 보류에 대한 자세한 내용은 [Exchange Online 사서함의 보류 유형을 식별하는 방법](identify-a-hold-on-an-exchange-online-mailbox.md)을 참조하세요.
-
-## <a name="partially-indexed-items"></a>부분적으로 인덱싱된 항목
-
-- 앞서 설명한 것처럼 사서함의 부부분적으로 인덱싱된 항목은 예상 검색 결과에 포함됩니다. SharePoint 및 OneDrive의 부분적으로 인덱싱된 항목은 예상 검색 결과에 포함되지 않습니다.
-
-- 부분적으로 인덱싱된 항목이 검색 쿼리와 일치하는 경우(다른 메시지 또는 문서 속성이 검색 조건에 부합되기 때문) 이 항목은 예상되는 인덱싱되지 않은 항목 수에 포함되지 않습니다. 부분적으로 인덱싱된 항목이 검색 조건에 의해 제외되는 경우 인덱싱되지 않은 항목의 예상 수에 포함되지 않습니다. 자세한 내용은 [Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)을 참조하세요.
 
 ## <a name="searching-for-content-in-a-sharepoint-multi-geo-environment"></a>SharePoint 다중 지역 환경에서 콘텐츠 검색
 

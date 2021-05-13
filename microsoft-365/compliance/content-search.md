@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 규정 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용하여 다양한 Microsoft 365 서비스의 콘텐츠를 검색합니다.
-ms.openlocfilehash: a058c07d080962723e9f6bc7a150cbfb5074e7db
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 5f48418882d5d4c7589b3ef394a0a306c0675f34
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311664"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332849"
 ---
 # <a name="create-a-content-search"></a>콘텐츠 검색 만들기
 
@@ -88,7 +88,7 @@ Microsoft 365 규정 준수의 **콘텐츠 검색** 페이지에 액세스(하�
 7. 검색 설정을 검토하고 필요한 경우 편집한 다음 검색을 제출하여 시작하세요.
   
 이 콘텐츠 검색에 다시 액세스하거나 **콘텐츠 검색** 페이지에 나열된 다른 콘텐츠 검색에 액세스하려면 검색을 선택한 다음 **열기** 를 클릭합니다.
-  
+
 ## <a name="next-steps"></a>다음 단계
 
 다음은 콘텐츠 검색을 만들고 실행한 후 수행할 다음 단계 목록입니다.
@@ -100,3 +100,7 @@ Microsoft 365 규정 준수의 **콘텐츠 검색** 페이지에 액세스(하�
 - [검색 결과 내보내기](export-search-results.md)
 
 - [검색 보고서 내보내기](export-a-content-search-report.md)
+
+## <a name="more-information"></a>자세한 정보
+
+다른 Microsoft 365 서비스의 콘텐츠 검색과 같은 콘텐츠 검색에 대한 자세한 내용은 [콘텐츠 검색 기능 참조](content-search-reference.md)를 보세요.

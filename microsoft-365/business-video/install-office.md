@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 앱 설치 방법을 Microsoft Office 대해 자세히 알아보아야 합니다.
-ms.openlocfilehash: 4970fa2698c413aad24aa94c16031823a16e9001
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 3626b21a3c98fba1830350568440467869577ccb
+ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578870"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52464372"
 ---
 # <a name="install-office-apps"></a>Office 앱 설치 
 
@@ -33,12 +33,23 @@ ms.locfileid: "51578870"
 
 ## <a name="try-it"></a>사용해 보세요!
 
-Microsoft Office 메뉴에서 앱을 찾을  **수** 있습니다. If you don't see them&#39;, you can install them yourself.
+Microsoft Office 시작 메뉴에서 앱을 찾을 **수** 있습니다. If you don't see them&#39;, you can install them yourself.
 
 1. 이동하여 office.com. 직장 계정으로 로그인해야 할 수 있습니다.
-2. **Office Microsoft**   >   **365 앱** 실행 설치를   >   **선택하고** 예를 **선택합니다.**
-3. Office 앱이 설치됩니다. 프로세스는 몇 분 정도 걸릴 수 있습니다. 완료되면 닫기 **를 선택합니다.**
-4. Microsoft Teams를 설치하려면 앱 페이지로 office.com Teams 를 **선택합니다.**
-5. Windows 앱을 다운로드한 다음 실행을 **선택합니다.** Teams는 설치가 완료되면 프롬프트를 표시합니다.
+2. 앱 **실행 Office** Microsoft 365   >   **설치를** 선택하고   >    예를 **선택합니다.**
+3. 앱 Office 설치됩니다. 프로세스는 몇 분 정도 걸릴 수 있습니다. 완료되면 닫기 **를 선택합니다.**
+4. To install Microsoft Teams, go to the office.com page, and choose **Teams.**
+5. 앱 Windows 다운로드한 다음 실행을 **선택합니다.** Teams 완료되면 프롬프트가 표시됩니다.
 
-이제 설치한 Office 앱이 시작  **메뉴에** 표시됩니다.
+설치한 Office 앱이 시작 **메뉴에** 표시됩니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[콘텐츠 마이그레이션을](/sharepointmigration/migrate-to-sharepoint-online.md) Microsoft 365(문서)
+
+[휴대폰에 Microsoft 365 관리 모바일](admin-mobile.md) 앱 설치(동영상)
+
+[중소기업에서 Microsoft Teams](get-started-teams-small-business.md) 시작(동영상)
+
+[외부에서 파일을 쉽게 공유할](share-files-externally.md) 수 있습니다(비디오)
+

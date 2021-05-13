@@ -21,17 +21,19 @@ search.appverid:
 - MET150
 - MOE150
 description: 자세한 내용은 Microsoft 365 관리 센터를하세요.
-ms.openlocfilehash: 47eafbf49ac70d86b4065d3a67672c79abc16e63
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 7d355b5064c2a0344ac62653afcae8712dbfc73f
+ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332249"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52470427"
 ---
 # <a name="overview-of-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 개요
 
 - [간소화된 보기의 관리 센터](#the-admin-center-in-simplified-view)
 - [대시보드 보기의 관리 센터](#the-admin-center-in-dashboard-view)
+
+Microsoft 365 관리 센터에는 두 가지 보기가 있습니다. 간소화된 보기는 소규모 조직이 가장 일반적인 작업을 관리하는 데 도움이 됩니다. 대시보드 보기에는 더 복잡한 설정 및 작업이 포함됩니다. 관리 센터의 맨 위에 있는 단추에서 전환할 수 있습니다.
 
 ## <a name="the-admin-center-in-simplified-view"></a>간소화된 보기의 관리 센터
 

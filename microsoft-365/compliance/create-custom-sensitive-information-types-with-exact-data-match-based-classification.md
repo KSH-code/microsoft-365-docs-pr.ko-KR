@@ -9,7 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.date: ''
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 search.appverid:
@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6e4429718de05362bd6bd3336c9d19ceeec64b9
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
-ms.translationtype: HT
+ms.openlocfilehash: 0bb75db5b6bb1f3a3b18033b5327f014748f6512
+ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114000"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52464396"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -610,6 +610,7 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 - Microsoft Teams(대화)
 - SharePoint용 DLP(파일)
 - Microsoft Cloud App Security DLP 정책
+- 서버 쪽 자동 레이블 지정 정책
 
 다음 시나리오에 대한 EDM 중요 정보 유형은 현재 개발 중이지만, 아직 사용할 수는 없습니다.
 

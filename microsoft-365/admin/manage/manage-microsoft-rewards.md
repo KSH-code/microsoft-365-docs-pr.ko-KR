@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: 개인 Microsoft 계정이 있는 사용자는 링크 AAD with Rewards 기능이 사용하도록 설정된 경우 작업 검색과 관련한 Microsoft 보상 점수를 획득할 수 있습니다.
-ms.openlocfilehash: 92a319d5917c49f0457a560fe52212608bd26dc2
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 8cbd88de530ec4aa566962bb74715dc9c417f296
+ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297071"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52464345"
 ---
 # <a name="manage-microsoft-rewards"></a>Microsoft Rewards 관리
 
@@ -33,3 +33,13 @@ ms.locfileid: "52297071"
 미성년자가 있는 교육 조직의 관리자는 자녀가 Microsoft 보상에 참여하려면 부모 Microsoft 계정이 필요합니다. 부모 계정은 학생의 조직 계정과 연결되지 않습니다. 자식용 Microsoft 계정에 대한 자세한 내용은 부모 동의 및 Microsoft 자식 계정을 [참조하세요.](https://support.microsoft.com/account-billing/c6951746-8ee5-8461-0809-fbd755cd902e)
 
 정부 사용자는 이 기능을 사용할 수 없습니다. 관리자는 조직의 규정 준수 정책으로 개인 Microsoft Rewards 계정과 작업 검색을 사용할 수 있도록 허용해야 합니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Microsoft Search](/microsoftsearch/setup-microsoft-search.md) 설정(문서)
+
+보안 팀이 집에서 작업할 수 있는 상위 [12개](../../security/top-security-tasks-for-remote-work.md) 작업(문서)
+
+[새로운](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-365-95c8d81d-08ba-42c1-914f-bca4603e1426) Microsoft 365(문서)
+
+

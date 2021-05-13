@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 관리 센터의 네트워크 연결(미리 보기)
+title: Microsoft 365 관리 센터의 네트워크 연결
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -14,15 +14,15 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
-description: Microsoft 365 관리 센터의 네트워크 연결 개요(미리 보기)
-ms.openlocfilehash: 4f88b3ad5bf8f0c32059a26348a651a6024ad544
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Microsoft 365 관리 센터의 네트워크 연결 개요
+ms.openlocfilehash: 75451a73ed56dade796f6de288f7f4acfb147960
+ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245771"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52470669"
 ---
-# <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Microsoft 365 관리 센터의 네트워크 연결(미리 보기)
+# <a name="network-connectivity-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 네트워크 연결
 
 Microsoft 365 관리 센터에는 이제 Microsoft 365 테넌트에서 수집된 집계된 네트워크 연결 메트릭이 포함되고 테넌트의 관리 사용자만 볼 수 있습니다.
 

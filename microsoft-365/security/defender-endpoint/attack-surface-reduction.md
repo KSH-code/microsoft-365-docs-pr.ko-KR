@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 56ab6c6c11bd2c0786c0d797e5302a1f06f9bd53
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 3ca8f5234f90624c8570cbfb10e75bd0ee9380ae
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327261"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52345839"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
 
@@ -180,7 +180,7 @@ DeviceEvents
 
 ### <a name="block-abuse-of-exploited-vulnerable-signed-drivers"></a>악용된 취약한 서명된 드라이버의 남용 차단
 
-이 규칙은 응용 프로그램이 디스크에 취약한 서명된 드라이버를 작성하지 못하게 합니다. 와일드에서 취약한 서명된 드라이버는 커널에 액세스하기에 충분한 권한이 있는 로컬 응용 프로그램에 \-  \- 의해 악용될 수 있습니다. 취약한 서명된 드라이버를 사용하면 공격자가 보안 솔루션을 사용하지 않도록 설정하거나 우회할 수 있습니다. 결과적으로 시스템 손상이 일어날 수 있습니다.
+이 규칙은 응용 프로그램이 취약한 서명된 드라이버를 디스크에 쓰지 못하게 합니다. 와일드에서 취약한 서명된 드라이버는 커널에 액세스하기에 충분한 권한이 있는 로컬 응용 프로그램에 \-  \- 의해 악용될 수 있습니다. 취약한 서명된 드라이버를 사용하면 공격자가 보안 솔루션을 사용하지 않도록 설정하거나 우회할 수 있습니다. 결과적으로 시스템 손상이 일어날 수 있습니다.
 
 이 규칙은 시스템에 이미 있는 드라이버가 로드되는 것을 차단하지 않습니다.
 
@@ -254,7 +254,7 @@ LSASS는 Windows 인증합니다. Microsoft Defender Credential Guard는 Windows
 이 규칙은
 
 - [Windows 10 버전 1803](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows 서버, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1802](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
 
@@ -266,7 +266,7 @@ GUID: `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`
 
 ### <a name="block-executable-content-from-email-client-and-webmail"></a>전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠 차단
 
-이 규칙은 다음 파일 형식이 Microsoft Outlook 응용 프로그램 내에서 연 전자 메일에서 시작되지 Outlook.com 및 기타 인기 있는 웹 메일 공급자에서 시작되지 않습니다.
+이 규칙은 Microsoft Outlook 응용 프로그램 또는 Outlook.com 및 기타 인기 있는 웹 메일 공급자에서 연 전자 메일에서 다음 파일 형식이 시작되지 Outlook 차단합니다.
 
 - 실행 파일(예: .exe, .dll 또는 .scr)
 - 스크립트 파일(예: PowerShell .ps, Visual Basic .vbs 또는 JavaScript .js 파일)
@@ -274,13 +274,13 @@ GUID: `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`
 이 규칙은
 
 - [Windows 10 버전 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows 서버, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 - [Microsoft Endpoint Manager CB 1710](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
 
 Intune 이름: `Execution of executable content (exe, dll, ps, js, vbs, etc.) dropped from email (webmail/mail client) (no exceptions)`
 
-Microsoft Endpoint Manager 이름: `Block executable content from email client and webmail`
+Microsoft Endpoint Manager 이름:`Block executable content from email client and webmail`
 
 GUID: `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`
 
@@ -288,7 +288,7 @@ GUID: `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`
 > 전자 **메일 클라이언트 및 웹** 메일에서 실행 가능한 콘텐츠 차단 규칙에는 사용하는 응용 프로그램에 따라 다음과 같은 대체 설명이 있습니다.
 >
 > - Intune(구성 프로필): 전자 메일(webmail/mail client)에서 삭제된 실행 가능한 콘텐츠(예: dll, ps, js, vbs 등)의 실행입니다(예외 없음).
-> - 끝점 관리자: 전자 메일 및 웹 메일 클라이언트에서 실행 가능한 콘텐츠 다운로드를 차단합니다.
+> - Endpoint Manager: 전자 메일 및 웹 메일 클라이언트에서 실행 가능한 콘텐츠 다운로드를 차단합니다.
 > - 그룹 정책: 전자 메일 클라이언트 및 웹 메일에서 실행 가능한 콘텐츠를 차단합니다.
 
 ### <a name="block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion"></a>실행 파일이 보전, 보존 또는 신뢰할 수 있는 목록 기준을 충족하지 않는 한 실행 파일이 실행되지 못하게 차단
@@ -309,7 +309,7 @@ GUID: `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`
 이 규칙은
 
 - [Windows 10 버전 1803](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows 서버, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1802](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
 
@@ -328,7 +328,7 @@ GUID: `01443614-cd74-433a-b99e-2ecdc07bfc25`
 이 규칙은
 
 - [Windows 10 버전 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows 서버, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1710](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
 
@@ -347,7 +347,7 @@ GUID: `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`
 이 규칙은
 
 - [Windows 10 버전 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows 서버, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1710](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
 
@@ -357,18 +357,18 @@ Configuration Manager 이름: `Block JavaScript or VBScript from launching downl
 
 GUID: `D3E037E1-3EB8-44C8-A917-57927947596D`
 
-### <a name="block-office-applications-from-creating-executable-content"></a>Office 응용 프로그램에서 실행 가능한 콘텐츠를 만들지 차단
+### <a name="block-office-applications-from-creating-executable-content"></a>응용 Office 콘텐츠 만들기 차단
 
-이 규칙은 Word, Excel 및 PowerPoint를 비롯한 Office 앱이 악성 코드가 디스크에 기록되지 않도록 차단하여 잠재적으로 악의적인 실행 파일을 만들지 못하게 합니다.
+이 규칙은 word, Excel 및 PowerPoint 등의 Office 앱이 악성 코드가 디스크에 기록되지 않도록 차단하여 잠재적으로 악의적인 실행 콘텐츠를 만들지 못하게 합니다.
 
-벡터로 Office를 남용하는 맬웨어는 Office를 중단하고 악성 구성 요소를 디스크에 저장하려고 할 수 있습니다. 이러한 악성 구성 요소는 컴퓨터 재부팅에서 유지되고 시스템에서 지속됩니다. 따라서 이 규칙은 일반적인 지속성 기술에 대해 방어합니다.
+벡터로 Office 악용하는 맬웨어는 악의적인 구성 요소를 Office 디스크에 저장하려고 할 수 있습니다. 이러한 악성 구성 요소는 컴퓨터 재부팅에서 유지되고 시스템에서 지속됩니다. 따라서 이 규칙은 일반적인 지속성 기술에 대해 방어합니다.
 
 이 규칙은
 
 - [Windows 10 버전 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows 서버, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
-- [System Center Configuration](https://docs.microsoft.com/configmgr/core/servers/manage/updates) Manager(SCCM) CB 1710(SCCM은 이제 Microsoft Endpoint Configuration Manager임)
+- [](https://docs.microsoft.com/configmgr/core/servers/manage/updates) System Center Configuration Manager(SCCM) CB 1710(SCCM이 현재 Microsoft Endpoint Configuration Manager)
 
 Intune 이름: `Office apps/macros creating executable content`
 
@@ -376,20 +376,20 @@ SCCM 이름: `Block Office applications from creating executable content`
 
 GUID: `3B576869-A4EC-4529-8536-B80A7769E899`
 
-### <a name="block-office-applications-from-injecting-code-into-other-processes"></a>Office 응용 프로그램에서 다른 프로세스에 코드를 삽입하지 차단
+### <a name="block-office-applications-from-injecting-code-into-other-processes"></a>응용 Office 코드 삽입 차단
 
-이 규칙은 Office 앱에서 다른 프로세스로의 코드 삽입 시도를 차단합니다.
+이 규칙은 앱을 다른 프로세스로 Office 코드 삽입 시도를 차단합니다.
 
-공격자는 Office 앱을 사용하여 코드 삽입을 통해 악성 코드를 다른 프로세스로 마이그레이션하려고 할 수 있으므로 코드가 깔끔한 프로세스로 당황할 수 있습니다.
+공격자는 앱의 Office 사용하여 코드 삽입을 통해 악성 코드를 다른 프로세스로 마이그레이션하려고 시도할 수 있으므로 코드가 깔끔한 프로세스로 악의적으로 처리될 수 있습니다.
 
 코드 삽입을 사용하는 데 알려진 합법적인 비즈니스 목적이 없습니다.
 
-이 규칙은 Word, Excel 및 PowerPoint에 적용됩니다.
+이 규칙은 Word, Excel 및 PowerPoint.
 
 이 규칙은
 
 - [Windows 10 버전 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows 서버, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1710](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
 
@@ -399,19 +399,19 @@ Configuration Manager 이름: `Block Office applications from injecting code int
 
 GUID: `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`
 
-### <a name="block-office-communication-application-from-creating-child-processes"></a>Office 통신 응용 프로그램에서 자식 프로세스를 만들지 차단
+### <a name="block-office-communication-application-from-creating-child-processes"></a>통신 Office 응용 프로그램에서 자식 프로세스를 만들지 차단
 
-이 규칙은 합법적인 Outlook 기능을 허용하면서 Outlook에서 하위 프로세스를 만들지 못하게 합니다.
+이 규칙은 Outlook 자식 프로세스를 만들지 못하게 하지만 합법적인 Outlook 합니다.
 
-이 규칙은 사회 엔지니어링 공격으로부터 보호하고 코드 악용이 Outlook의 취약성을 악용하는 것을 방지합니다. 또한 사용자의 자격 증명이 손상될 때 공격자가 사용할 수 있는 [Outlook](https://blogs.technet.microsoft.com/office365security/defending-against-rules-and-forms-injection/) 규칙 및 양식 악용으로부터 보호합니다.
+이 규칙은 사회 엔지니어링 공격으로부터 보호하고 코드 악용을 통해 보안상 취약성을 악용하지 Outlook. 또한 사용자의 자격 [Outlook](https://blogs.technet.microsoft.com/office365security/defending-against-rules-and-forms-injection/) 공격자가 사용할 수 있는 규칙 및 양식 악용으로부터 보호합니다.
 
 > [!NOTE]
-> 이 규칙은 Outlook 및 Outlook.com 적용됩니다.
+> 이 규칙은 Outlook Outlook.com에만 적용됩니다.
 
 이 규칙은
 
 - [Windows 10 버전 1809](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1809)
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows 서버, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 
 Intune 이름: `Process creation from Office communication products (beta)`
@@ -445,12 +445,12 @@ GUID: `e6db77e5-3df2-4cf1-b95a-636979351e5b`
 이 규칙은 [PsExec](https://docs.microsoft.com/sysinternals/downloads/psexec) 및 [WMI를](https://docs.microsoft.com/windows/win32/wmisdk/about-wmi) 통해 만든 프로세스의 실행을 차단합니다. PsExec과 WMI 모두 코드를 원격으로 실행할 수 있으므로 맬웨어가 명령 및 제어 목적으로 이 기능을 남용하거나 조직의 네트워크 전체에 감염을 전파할 위험이 있습니다.
 
 > [!WARNING]
-> [Intune](https://docs.microsoft.com/intune) 또는 다른 MDM 솔루션으로 장치를 관리하는 경우 이 규칙만 사용 이 규칙은 Configuration Manager 클라이언트가 올바르게 작동하기 위해 사용하는 WMI 명령을 차단하기 때문에 [Microsoft Endpoint Configuration Manager를](https://docs.microsoft.com/configmgr) 통한 관리와는 무관합니다.
+> [Intune](https://docs.microsoft.com/intune) 또는 다른 MDM 솔루션으로 장치를 관리하는 경우 이 규칙만 사용 이 규칙은 Configuration Manager 클라이언트가 올바르게 Microsoft Endpoint Configuration Manager WMI 명령을 차단하기 때문에 이 규칙은 관리자를 [통해](https://docs.microsoft.com/configmgr) 관리와 비호환합니다.
 
 이 규칙은
 
 - [Windows 10 버전 1803](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows 서버, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 
 Intune 이름: `Process creation from PSExec and WMI commands`
@@ -466,7 +466,7 @@ GUID: `d1e49aac-8f56-4280-b9ba-993a6d77406c`
 이 규칙은
 
 - [Windows 10 버전 1803](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows 서버, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1802](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
 
@@ -476,7 +476,7 @@ Configuration Manager 이름: `Block untrusted and unsigned processes that run f
 
 GUID: `b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`
 
-### <a name="block-win32-api-calls-from-office-macros"></a>Office 매크로에서 Win32 API 호출 차단
+### <a name="block-win32-api-calls-from-office-macros"></a>매크로에서 Win32 API Office 차단
 
 이 규칙은 VBA 매크로가 Win32 API를 호출하지 못하게 합니다.
 
@@ -485,7 +485,7 @@ Office VBA는 Win32 API 호출을 가능하게 합니다. 맬웨어는 [Win32 AP
 이 규칙은
 
 - [Windows 10 버전 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows 서버, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1710](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
 
@@ -511,7 +511,7 @@ GUID: `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`
 이 규칙은
 
 - [Windows 10 버전 1803](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows Server, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows 서버, 버전 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 - [Configuration Manager CB 1802](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
 
@@ -526,4 +526,4 @@ GUID: `c1db55ab-c21a-4637-bb3f-a12568109d35`
 - [공격 표면 감소 FAQ](attack-surface-reduction-faq.md)
 - [공격 표면 감소 규칙 사용](enable-attack-surface-reduction.md)
 - [공격 표면 감소 규칙 평가](evaluate-attack-surface-reduction.md)
-- [다른 바이러스 백신/맬웨어 방지 솔루션과 Microsoft Defender 바이러스 백신의 호환성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+- [다른 Microsoft Defender 바이러스 백신/맬웨어 방지 솔루션과의 호환성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)

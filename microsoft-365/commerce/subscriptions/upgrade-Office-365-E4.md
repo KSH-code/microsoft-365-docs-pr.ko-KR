@@ -20,12 +20,12 @@ search.appverid: MET150
 description: E4 구독에서 업그레이드하는 Office 365 대해 자세히 알아보습니다.
 ms.date: 08/14/2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 59add18b8f6ede3d8696ee8e443c21ac4d6d3549
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: ee90038bb80120ed727cd2dee0c43a894053440f
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333125"
+ms.locfileid: "52344629"
 ---
 # <a name="upgrade-from-an-office-365-e4-subscription"></a>E4 구독에서 Office 365 업그레이드
 

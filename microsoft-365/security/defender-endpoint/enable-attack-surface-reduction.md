@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: fc04db0c9fe8ee6d09efc9802ab4a747af0b3e9c
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: fc952ceec7d26d853e39cab0a803daace62a4767
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52326707"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52345891"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>공격 표면 감소 규칙 사용
 
@@ -36,14 +36,14 @@ ms.locfileid: "52326707"
 
 ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨어가 장치 및 네트워크를 손상하기 위해 자주 남용되는 작업을 방지하는 데 도움이 됩니다.
 
-**요구 사항** 다음 Windows 버전 및 버전을 실행하는 장치에 대해 공격 표면 감소 규칙을 설정할 수 있습니다.
+**요구 사항** 다음 버전 및 버전의 디바이스를 실행하는 장치에 대해 공격 표면 감소 규칙을 설정할 수 Windows.
 
 - Windows 10 Pro 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
 - Windows 10 Enterprise 버전 [1709](/windows/whats-new/whats-new-windows-10-version-1709) 이상
-- Windows Server, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
+- Windows 서버, [버전 1803(반기 채널)](/windows-server/get-started/whats-new-in-windows-server-1803) 이상
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-공격 표면 감소 규칙에는 Windows E5 라이선스가 필요하지 [않습니다. Windows E5가](/windows/deployment/deploy-enterprise-licenses)있는 경우 고급 관리 기능을 사용할 수 있습니다. Windows E5에서만 사용할 수 있는 이러한 기능에는 [끝점용 Defender에서](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide&preserve-view=true)사용할 수 있는 모니터링, 분석 및 워크플로와 [Microsoft 365](/microsoft-365/security/defender/overview-security-center?view=o365-worldwide&preserve-view=true)보안 센터의 보고 및 구성 기능이 포함됩니다. 이러한 고급 기능은 Windows Professional 또는 Windows E3 라이선스에서 사용할 수 없습니다. 그러나 해당 라이선스가 있는 경우 이벤트 뷰어 및 Microsoft Defender 바이러스 백신 로그를 사용하여 공격 표면 축소 규칙 이벤트를 검토할 수 있습니다.
+공격 표면 감소 규칙에는 Windows E5 라이선스가 필요하지 않습니다. [E5를](/windows/deployment/deploy-enterprise-licenses)Windows 고급 관리 기능을 사용할 수 있습니다. 이러한 기능은 Windows E5에서만 사용할 수 있는 기능으로는 [Endpoint용 Defender에서](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide&preserve-view=true)사용할 수 있는 모니터링, 분석 및 워크플로와 Microsoft 365 보안 센터의 보고 [및 구성 기능이 포함됩니다.](/microsoft-365/security/defender/overview-security-center?view=o365-worldwide&preserve-view=true) 이러한 고급 기능은 E3 라이선스 또는 Windows Professional 사용할 Windows 없습니다. 그러나 해당 라이선스가 있는 경우 이벤트 뷰어 및 로그를 사용하여 Microsoft Defender 바이러스 백신 축소 규칙 이벤트를 검토할 수 있습니다.
 
 각 ASR 규칙에는 다음 네 가지 설정 중 하나가 포함되어 있습니다.
 
@@ -53,12 +53,12 @@ ASR [규칙(공격](attack-surface-reduction.md) 표면 축소 규칙)은 맬웨
 - **경고:** ASR 규칙을 사용하도록 설정하지만 최종 사용자가 차단을 무시하도록 허용
 
 > [!IMPORTANT]
-> 현재 MEM(Microsoft Endpoint Manager)에서 ASR 규칙을 구성할 때 세 가지 ASR 규칙에 대해 경고 모드가 지원되지 않습니다. 자세한 내용은 경고 모드가 지원되지 [않는 경우를 참조합니다.](attack-surface-reduction.md#cases-where-warn-mode-is-not-supported)
+> 현재 MEM(2013)에서 ASR 규칙을 구성할 때 세 가지 ASR 규칙에 대해 경고 Microsoft Endpoint Manager 지원되지 않습니다. 자세한 내용은 경고 모드가 지원되지 [않는 경우를 참조합니다.](attack-surface-reduction.md#cases-where-warn-mode-is-not-supported)
 
-Windows E5 라이선스(또는 유사한 라이선스 SKU)와 함께 ASR 규칙을 사용하여 [끝점용 Microsoft Defender(Endpoint용 Defender)에서](https://docs.microsoft.com/windows/security/threat-protection) 사용할 수 있는 고급 모니터링 및 보고 기능을 활용하는 것이 좋습니다. 그러나 고급 모니터링 및 보고 기능에 액세스할 수 없는 Windows Professional 또는 E3와 같은 다른 라이선스의 경우 ASR 규칙이 트리거될 때 각 끝점에서 생성되는 이벤트(예: 이벤트 전달)를 통해 자체 모니터링 및 보고 도구를 개발할 수 있습니다.
+끝점용 [Microsoft Defender(Endpoint용 Defender)에서](https://docs.microsoft.com/windows/security/threat-protection) 사용할 수 있는 고급 모니터링 및 보고 기능을 활용하기 위해 Windows E5 라이선스(또는 유사한 라이선스 SKU)와 함께 ASR 규칙을 사용하는 것이 좋습니다. 그러나 고급 모니터링 및 보고 기능에 액세스할 수 없는 Windows Professional 또는 E3와 같은 다른 라이선스의 경우 ASR 규칙이 트리거될 때 각 끝점에서 생성되는 이벤트(예: 이벤트 전달) 위에 자체 모니터링 및 보고 도구를 개발할 수 있습니다.
 
 > [!TIP]
-> Windows 라이선스에 대한 자세한 내용은 Windows 10 라이선스를 참조하고 Windows [10용](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) 볼륨 라이선스 [가이드를 참조하세요.](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf)
+> 라이선스 라이선스에 대한 Windows 자세한 내용은 [](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) Windows 10 라이선스를 참조하고 에 대한 볼륨 라이선스 [가이드를 Windows 10.](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf)
 
 다음 방법을 사용하여 공격 표면 감소 규칙을 사용하도록 설정할 수 있습니다.
 
@@ -68,7 +68,7 @@ Windows E5 라이선스(또는 유사한 라이선스 SKU)와 함께 ASR 규칙�
 - [그룹 정책](#group-policy)
 - [PowerShell](#powershell)
 
-Intune 또는 Microsoft Endpoint Manager와 같은 엔터프라이즈 수준 관리가 권장됩니다. 엔터프라이즈 수준 관리는 시작 시 충돌하는 그룹 정책 또는 PowerShell 설정을 덮어 덮어 덮어 들이게 됩니다.
+Enterprise Intune 또는 Microsoft Endpoint Manager 수준의 관리가 권장됩니다. Enterprise 수준 관리는 시작 시 충돌하는 그룹 정책 또는 PowerShell 설정을 덮어 덮어 덮어 야 합니다.
 
 ## <a name="exclude-files-and-folders-from-asr-rules"></a>ASR 규칙에서 파일 및 폴더 제외
 
@@ -88,7 +88,7 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
 
 ## <a name="intune"></a>Intune
 
-1. 장치 **구성**  >  **프로필을 선택합니다.** 기존 끝점 보호 프로필을 선택하거나 새 끝점 보호 프로필을 만들 수 있습니다. 새 프로필을 만들하려면 프로필 만들기를 **선택하고** 이 프로필에 대한 정보를 입력합니다. 프로필 **유형에서** **끝점 보호를 선택합니다.** 기존 프로필을 선택한 경우 속성을 선택한 **다음** 설정을 **선택합니다.**
+1. 장치 **구성**  >  **프로필을 선택합니다.** 기존 끝점 보호 프로필을 선택하거나 새 끝점 보호 프로필을 만들 수 있습니다. 새 프로필을 만들하려면 프로필 만들기를 **선택하고** 이 프로필에 대한 정보를 입력합니다. 프로필 **유형에서** **끝점 보호를 선택합니다.** 기존 프로필을 선택한 경우 속성을  선택한 다음 을 **설정.**
 
 2. 끝점 보호 창에서 **Exploit** **Guard** Windows Defender 선택하고 공격 표면 **감소를 선택합니다.** 각 ASR 규칙에 대해 원하는 설정을 선택합니다.
 
@@ -128,7 +128,7 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
 
 ## <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
 
-1. Microsoft Endpoint Configuration Manager에서 Exploit **Guard의** 자산 및 준수 끝점 보호  >    >  **Windows Defender 로 이동합니다.**
+1. 이 Microsoft Endpoint Configuration Manager Exploit **Guard에서** 자산 및 규정 준수 Endpoint Protection  >    >  **Windows Defender 로 이동합니다.**
 
 2. 홈 **Exploit**  >  **Guard 정책 만들기 를 선택합니다.**
 
@@ -149,7 +149,7 @@ ASR 규칙을 사용하도록 설정하는 다음 절차에는 파일 및 폴더
 
 2. **그룹 정책 관리 편집기** 에서 **컴퓨터 구성** 으로 이동하여 **관리 템플릿** 을 선택합니다.
 
-3. **Windows** 구성 요소 Microsoft Defender 바이러스 백신 Microsoft Defender Exploit Guard 공격 표면 감소까지  >    >    >  **트리를 확장합니다.**
+3. 공격 표면 **감소를 Windows 구성**  >  **Microsoft Defender 바이러스 백신**  >  **Microsoft Defender Exploit Guard**  >  **트리를 확장합니다.**
 
 4. 공격 **표면 축소 규칙 구성을 선택하고** 사용 을 **선택합니다.** 그런 다음 옵션 섹션에서 각 규칙에 대한 개별 상태를 설정할 수 있습니다.
 
@@ -184,7 +184,7 @@ MEM(Microsoft Endpoint Manager) 관리 센터를 사용하여 사용자 지정 A
 
    ![MEM 규칙 프로필 특성](images/mem02-profile-attributes.png)
 
-3. 사용자 지정 서식 파일 도구가 **1단계 기본 으로 열립니다.** **1 기본 사항 의** **이름에** 서식 파일 이름을  입력하고 설명에 선택적 설명을 입력할 수 있습니다.
+3. 사용자 지정 서식 파일 도구가 **1단계 기본 으로 열립니다.** **1 기본 사항 에서** **이름에** 서식 파일 이름을  입력하고 설명에 설명을 입력할 수 있습니다(선택 사항).
 
    ![MEM 기본 특성](images/mem03-1-basics.png)
 
@@ -223,7 +223,7 @@ MEM(Microsoft Endpoint Manager) 관리 센터를 사용하여 사용자 지정 A
    - **속성에서** 이 규칙을 적용할 속성을 선택합니다.
    - **값에** 해당하는 값 또는 값 범위를 입력합니다.
 
-   ![MEM 적용성 규칙](images/mem07-5-applicability -rules.png)
+   ![MEM 적용성 규칙](images/mem07-5-applicability-rules.png)
 
 10. **다음** 을 클릭합니다. **6단계 검토 + 만들기에서** 선택한 후 입력한 설정 및 정보를 검토하고 만들기를 **클릭합니다.**
 
@@ -260,6 +260,12 @@ MEM(Microsoft Endpoint Manager) 관리 센터를 사용하여 사용자 지정 A
     ```PowerShell
     Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReductionRules_Actions Warn
     ```
+
+    악용된 취약한 드라이버의 남용을 ASR로 차단하려면 다음 cmdlet을 사용 합니다.
+
+   ```PowerShell
+   "& {&'Add-MpPreference' -AttackSurfaceReductionRules_Ids 56a863a9-875e-4185-98a7-b882c64b5ce5 -AttackSurfaceReductionRules_Actions Enabled"}
+   ```
 
     ASR 규칙을 끄기 위해 다음 cmdlet을 사용 합니다.
 

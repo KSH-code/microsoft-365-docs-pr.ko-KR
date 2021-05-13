@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용하여 추가 기능을 배포할 수 있도록 테넌트와 사용자가 요구 사항을 Office 확인합니다.
-ms.openlocfilehash: 8f73deb1059097640946fcf7dad1ca97cb2831b1
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 482f2231c0c2c9fa30e863f25f474d90a22f52fa
+ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296722"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52464408"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 적합한지 확인
 
@@ -155,5 +155,16 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
   
 |**플랫폼**|**디버그 정보**|
 |:-----|:-----|
-|Office  <br/> | Charles/Fiddler 로그  <br/>  테넌트 ID( [방법 알아보기](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id))  <br/>  CorrelationID. 사무실 페이지 중 하나의 원본을 보고 상관 관계 ID 값을 찾아서 지원에 전송합니다.  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
+|Office  <br/> | Charles/Fiddler 로그  <br/>  테넌트 ID( [방법 알아보기](/onedrive/find-your-office-365-tenant-id.md))  <br/>  CorrelationID. 사무실 페이지 중 하나의 원본을 보고 상관 관계 ID 값을 찾아서 지원에 전송합니다.  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
 |리치 클라이언트(Windows, Mac)  <br/> | Charles/Fiddler 로그  <br/>  클라이언트 앱의 빌드 번호(파일/계정의 스크린샷으로 **가급적)**  <br/> |
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[관리 센터에서](../manage/manage-deployment-of-add-ins.md) 추가 기능 배포(문서)
+
+[관리 센터에서](manage-addins-in-the-admin-center.md) 추가 기능 관리(문서)
+
+[중앙 집중식 배포 FAQ(문서)](../manage/centralized-deployment-faq.md)
+
+[비즈니스 Microsoft 365 사용자를](../setup/upgrade-users-to-latest-office-client.md) 최신 Office 클라이언트로 업그레이드(문서)
+ 

@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender 고급 헌팅 schema의 데이터 테이블
+title: Defender 고급 헌팅 Microsoft 365 데이터 테이블
 description: 고급 헌팅 스키마의 표에 대해 알아보고 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, 검색, 쿼리, 원격 분석,
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, Microsoft 365, m365, 검색, 쿼리, 원격 분석, schema reference, kusto, table, data
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마 참조, kusto, 표, 데이터
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0313d1e95682d52e44cf90360c8ef322f0cad5db
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3c8c65d012467317bf8335f47c3f686a5d7255d1
+ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932920"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52470583"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>고급 헌팅 스키마 이해
 
@@ -58,8 +58,7 @@ ms.locfileid: "51932920"
 | 테이블 이름 | 설명 |
 |------------|-------------|
 | **[AlertEvidence](advanced-hunting-alertevidence-table.md)** | 경고와 연결된 파일, IP 주소, URL, 사용자 또는 장치 |
-| **[AlertInfo](advanced-hunting-alertinfo-table.md)** | 심각도 정보 및 위협 분류를 포함하여 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, Microsoft Cloud App Security 및 ID에 대한 Microsoft Defender의 알림  |
-| **[AppFileEvents](advanced-hunting-appfileevents-table.md)** | 클라우드 앱 및 서비스의 파일 관련 활동 |
+| **[AlertInfo](advanced-hunting-alertinfo-table.md)** | 심각도 정보 및 위협 분류를 포함하여 Microsoft Defender for endpoint, Office 365, Microsoft Cloud App Security 및 ID에 대한 Microsoft Defender의 경고  |
 | **[CloudAppEvents](advanced-hunting-cloudappevents-table.md)** | Office 365 및 기타 클라우드 앱 및 서비스의 계정 및 개체 관련 이벤트 |
 | **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Windows Defender Antivirus 및 익스플로잇 보호와 같은 보안 컨트롤에서 트리거되는 이벤트를 포함한 여러 이벤트 유형 |
 | **[DeviceFileCertificateInfo](advanced-hunting-DeviceFileCertificateInfo-table.md)** | 끝점의 인증서 확인 이벤트에서 얻은 서명된 파일의 인증서 정보 |
@@ -77,11 +76,11 @@ ms.locfileid: "51932920"
 | **[DeviceTvmSoftwareVulnerabilities](advanced-hunting-devicetvmsoftwarevulnerabilities-table.md)** | 장치에서 발견되는 소프트웨어 취약성 및 각 취약점을 해결하기 위한 사용 가능한 보안 업데이트 목록 |
 | **[DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md)** | 익스플로잇 코드를 공개적으로 사용할 수 있는지를 포함하여 공개적으로 보고된 취약성에 대한 기술 자료 |
 | **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | 전자 메일에 첨부된 파일에 대한 정보 |
-| **[EmailEvents](advanced-hunting-emailevents-table.md)** | 전자 메일 배달 및 차단 이벤트를 포함한 Microsoft 365 전자 메일 이벤트 |
-| **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | Microsoft 365에서 받는 사람 사서함에 전자 메일을 배달한 후의 배달 후 발생하는 보안 이벤트 |
+| **[EmailEvents](advanced-hunting-emailevents-table.md)** | Microsoft 365 및 차단 이벤트를 비롯한 전자 메일 이벤트 확인 |
+| **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | 배달 후 발생하는 보안 Microsoft 365 받는 사람 사서함에 전자 메일을 배달한 후 |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | 전자 메일의 URL에 대한 정보 |
 | **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | AD(Active Directory)를 실행하는 사내 도메인 컨트롤러와 관련된 이벤트입니다. 이 표에는 도메인 컨트롤러의 ID 관련 이벤트 및 시스템 이벤트 범위가 포함됩니다. |
-| **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Azure Active Directory를 비롯한 다양한 원본의 계정 정보 |
+| **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | 계정 정보를 비롯한 다양한 원본의 Azure Active Directory |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Active Directory 및 Microsoft 온라인 서비스의 인증 이벤트 |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | 사용자, 그룹, 장치 및 도메인과 같은 Active Directory 개체에 대한 쿼리 |
 

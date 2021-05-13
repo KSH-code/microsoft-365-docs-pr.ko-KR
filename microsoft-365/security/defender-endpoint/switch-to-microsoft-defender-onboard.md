@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.custom: migrationguides
 ms.topic: article
-ms.date: 05/10/2021
+ms.date: 05/11/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 6b3b9fda0060108bd6a3c48188ff6e89261be096
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 66d24f5a479a903c8d42d509f1bbe956293c9ac3
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327249"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346343"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Endpoint용 Microsoft Defender로 전환 - 3단계: 온보딩
 
@@ -42,15 +42,21 @@ ms.locfileid: "52327249"
 **끝점용 Microsoft [Defender로](switch-to-microsoft-defender-migration.md#the-migration-process)전환하는 3단계입니다.** 이 마이그레이션 단계에는 다음 단계가 포함됩니다.
 
 1. [끝점용 Microsoft Defender에 장치를 온보딩합니다.](#onboard-devices-to-microsoft-defender-for-endpoint)
+
 2. [검색 테스트를 실행합니다.](#run-a-detection-test)
+
 3. [Microsoft가 아닌 솔루션을 제거합니다.](#uninstall-your-non-microsoft-solution)
+
 4. [끝점용 Microsoft Defender가](#make-sure-microsoft-defender-for-endpoint-is-in-active-mode)활성 모드에 있는지 확인
 
 ## <a name="onboard-devices-to-microsoft-defender-for-endpoint"></a>엔드포인트용 Microsoft Defender에 장치 온보딩
 
-1. Microsoft Defender 보안 센터()로 이동하여 [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) 로그인합니다.
-2. 설정 **장치**  >  **관리**  >  **온보더링을 선택합니다.** 
+1. Microsoft Defender 보안 센터 [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ()로 이동하여 로그인합니다.
+
+2. 장치 **설정**  >  **온보더링**  >  **을 선택하세요.** 
+
 3. **온보더링 프로세스를** 시작할 운영 체제 선택 목록에서 운영 체제를 선택합니다. 
+
 4. 배포 **방법에서** 옵션을 선택합니다. 링크 및 프롬프트에 따라 조직의 장치를 온보드합니다. 도움이 필요하신가요? [온보더링 방법(이](#onboarding-methods) 문서의)을 참조하세요.
 
 ### <a name="onboarding-methods"></a>온보더링 방법
@@ -60,7 +66,7 @@ ms.locfileid: "52327249"
 |운영 체제  |메서드  |
 |---------|---------|
 |Windows 10     |- [그룹 정책](configure-endpoints-gp.md)<br/>- [Configuration Manager](configure-endpoints-sccm.md)<br/>- [모바일 장치 관리(Intune)](configure-endpoints-mdm.md)<br/>- [로컬 스크립트](configure-endpoints-script.md) <p>**참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.         |
-|- Windows 8.1 Enterprise <br/>- Windows 8.1 Pro <br/>- Windows 7 SP1 Enterprise <br/>- Windows 7 SP1 Pro     | [Microsoft 모니터링 에이전트](onboard-downlevel.md)<p>**참고:** Microsoft 모니터링 에이전트는 이제 Azure Log Analytics 에이전트입니다. 자세한 내용은 Log Analytics 에이전트 [개요를 참조하세요.](/azure/azure-monitor/platform/log-analytics-agent)        |
+|- Windows 8.1 Enterprise <br/>- Windows 8.1 Pro <br/>- Windows 7 SP1 Enterprise <br/>- Windows 7 SP1 Pro     | [Microsoft Monitoring Agent](onboard-downlevel.md)<p>**참고:** Microsoft Monitoring Agent Azure Log Analytics 에이전트가 됩니다. 자세한 내용은 Log Analytics 에이전트 [개요를 참조하세요.](/azure/azure-monitor/platform/log-analytics-agent)        |
 |- Windows Server 2019 이상 <br/>- Windows Server 2019 Core Edition <br/>- Windows Server 버전 1803 이상 |- [로컬 스크립트](configure-endpoints-script.md) <br/>- [그룹 정책](configure-endpoints-gp.md) <br/>- [Configuration Manager](configure-endpoints-sccm.md) <br/>- [System Center Configuration Manager](configure-endpoints-sccm.md) <br/>- [비영구 장치에 대한 VDI 온보딩 스크립트](configure-endpoints-vdi.md) <p>**참고:** 로컬 스크립트는 개념 증명에 적합하지만 프로덕션 배포에는 사용되지 않습니다. 프로덕션 배포의 경우 그룹 정책, Microsoft Endpoint Configuration Manager 또는 Intune을 사용하는 것이 좋습니다.    |
 |- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Microsoft Defender 보안 센터](configure-server-endpoints.md)<br/>- [Azure Defender](/azure/security-center/security-center-wdatp) |
 |macOS<br/>- 11.3.1(Big Sur) <br/>- 10.15(카탈로나)<br/>- 10.14(Mojave)<p>iOS<p>Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS 이상<br/>- SLES 12+<br/>- 데비안 9+<br/>- Oracle Linux 7.2 |[Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)  |
@@ -98,4 +104,5 @@ Microsoft가 아닌 끝점 보호 솔루션을 제거한 후 다음 단계는 �
 **축하합니다!** 끝점용 [Microsoft Defender로의 마이그레이션을 완료했습니다!](switch-to-microsoft-defender-migration.md#the-migration-process) 
 
 - [에서 보안 작업](security-operations-dashboard.md) 대시보드를 방문하세요Microsoft Defender 보안 센터. [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) 
+
 - [마이그레이션 후 끝점에 대한 Microsoft Defender를 관리합니다.](manage-atp-post-migration.md)

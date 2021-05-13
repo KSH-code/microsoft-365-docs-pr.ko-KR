@@ -17,19 +17,19 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8e861055067a55630da458e87b7376a607dc69c4
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: bd506caa041af2585778fb3ecd7a40562463b17e
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934300"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346417"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-linux"></a>Linux에서 끝점용 Microsoft Defender 제외 구성 및 유효성 검사
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-
 **적용 대상:**
+
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -38,7 +38,7 @@ ms.locfileid: "51934300"
 이 문서에서는 요구 시 검사에 적용되는 제외를 정의하는 방법과 실시간 보호 및 모니터링에 대한 정보를 제공합니다.
 
 > [!IMPORTANT]
-> 이 문서에 설명된 제외는 끝점 검색 및 응답(EDR)을 포함하여 Linux 기능의 다른 Defender for Endpoint에 적용되지 않습니다. 이 문서에 설명된 방법을 사용하여 제외하는 파일은 여전히 EDR 경고 및 기타 검색을 트리거할 수 있습니다.
+> 이 문서에 설명된 제외는 끝점 감지 및 응답(EDR)을 포함하여 Linux 기능의 다른 Endpoint용 Defender에는 적용되지 EDR. 이 문서에 설명된 방법을 사용하여 제외하는 파일은 경고 및 기타 EDR 트리거할 수 있습니다.
 
 Linux 검사에서 Endpoint용 Defender에서 특정 파일, 폴더, 프로세스 및 프로세스 열기 파일을 제외할 수 있습니다.
 
@@ -51,7 +51,7 @@ Linux 검사에서 Endpoint용 Defender에서 특정 파일, 폴더, 프로세�
 
 다음 표에는 Linux의 Endpoint용 Defender에서 지원하는 제외 유형이 표시됩니다.
 
-제외 | 정의 | 예제
+제외 | 정의 | 예
 ---|---|---
 파일 확장명 | 디바이스의 아무 곳이나 확장명을 사용하여 모든 파일 | `.test`
 파일 | 전체 경로로 식별된 특정 파일 | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`

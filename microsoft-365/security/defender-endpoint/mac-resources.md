@@ -18,18 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34feeec0f8c34748678862b9aa7b20f84087eb5e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 29e9eefdf85c80b6d3c44eba01d0df57be0193a4
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934528"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346393"
 ---
 # <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>macOS의 끝점용 Microsoft Defender 리소스
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
+
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -51,7 +52,7 @@ ms.locfileid: "51934528"
 
 2. 문제 재현
 
-3. 를 `sudo mdatp diagnostic create` 실행하여 끝점 로그에 대한 Microsoft Defender를 백업합니다. 파일은 .zip 보관 파일 안에 저장됩니다. 또한 이 명령은 작업이 성공한 후 백업에 대한 파일 경로를 출력합니다.
+3. 를 `sudo mdatp diagnostic create` 실행하여 끝점 로그에 대한 Microsoft Defender를 백업합니다. 파일은 보관 파일 내부에 .zip 저장됩니다. 또한 이 명령은 작업이 성공한 후 백업에 대한 파일 경로를 출력합니다.
 
    > [!TIP]
    > 기본적으로 진단 로그는 에 `/Library/Application Support/Microsoft/Defender/wdavdiag/` 저장됩니다. 진단 로그가 저장되는 디렉터리를 변경하려면 아래 명령으로 전달하여 원하는 디렉터리로 `--path [directory]` `[directory]` 바꿔야 합니다.
@@ -59,6 +60,7 @@ ms.locfileid: "51934528"
    ```bash
    sudo mdatp diagnostic create
    ```
+
    ```console
    Diagnostic file created: "/Library/Application Support/Microsoft/Defender/wdavdiag/932e68a8-8f2e-4ad0-a7f2-65eb97c0de01.zip"
    ```
@@ -68,6 +70,7 @@ ms.locfileid: "51934528"
    ```bash
    mdatp log level set --level info
    ```
+
    ```console
    Log level configured successfully
    ```
@@ -80,7 +83,7 @@ ms.locfileid: "51934528"
 
 ## <a name="uninstalling"></a>Uninstalling
 
-macOS에서 끝점용 Microsoft Defender를 제거하는 방법에는 여러 가지가 있습니다. JAMF에서는 중앙에서 관리되는 제거를 사용할 수 있는 반면 Microsoft Intune에서는 아직 사용할 수 없습니다.
+macOS에서 끝점용 Microsoft Defender를 제거하는 방법에는 여러 가지가 있습니다. JAMF에서 중앙에서 관리되는 제거를 사용할 수 있는 동안에는 아직 제거되지 Microsoft Intune.
 
 ### <a name="interactive-uninstallation"></a>대화형 제거
 
@@ -88,8 +91,7 @@ macOS에서 끝점용 Microsoft Defender를 제거하는 방법에는 여러 가
 
 ### <a name="from-the-command-line"></a>명령줄에서
 
-- ```sudo rm -rf '/Applications/Microsoft Defender ATP.app'```
-- ```sudo rm -rf '/Library/Application Support/Microsoft/Defender/'```
+- ```sudo '/Library/Application Support/Microsoft/Defender/uninstall/uninstall'```
 
 ## <a name="configuring-from-the-command-line"></a>명령줄에서 구성
 
@@ -158,4 +160,4 @@ zsh에서 자동completion을 사용하도록 설정하려면
 
 ## <a name="microsoft-defender-for-endpoint-portal-information"></a>끝점 포털 정보용 Microsoft Defender
 
-[MacOS용 EDR](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/edr-capabilities-for-macos-have-now-arrived/ba-p/1047801)기능이 끝점용 Microsoft Defender 블로그에 도착했습니다. 끝점용 Microsoft Defender 보안 센터에서 기대할 수 있는 기능에 대한 자세한 지침을 제공합니다.
+[EDR macOS의](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/edr-capabilities-for-macos-have-now-arrived/ba-p/1047801)새로운 기능이 도착했습니다. 끝점용 Microsoft Defender 블로그에서는 끝점용 Microsoft Defender 보안 센터에서 기대할 수 있는 기능에 대한 자세한 지침을 제공합니다.
