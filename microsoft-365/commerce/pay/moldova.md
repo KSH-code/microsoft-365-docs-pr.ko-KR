@@ -1,23 +1,24 @@
 ---
 title: 몰도바의 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f99d4cb7e62a436bcc8bce7cd789880bd36fa500
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: c8ec5612d2f5e7f1dfcad4c2bb7a6017692996c0
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273287"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535413"
 ---
 # <a name="payment-information-for-moldova"></a>몰도바의 결제 정보
 
@@ -31,4 +32,4 @@ ms.locfileid: "52273287"
 **SWIFT 코드:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **계정 번호:** 12510049  
-**계정 이름:** MICROSOFT  
+**계정 이름:** MICROSOFT

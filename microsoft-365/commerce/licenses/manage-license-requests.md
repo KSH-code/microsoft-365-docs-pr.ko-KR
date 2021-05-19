@@ -18,19 +18,19 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_licensing
 search.appverid: MET150
-description: 비즈니스용 Microsoft 365 구독에 대한 사용자의 라이선스 요청을 검토하고 승인하거나 거부하는 방법을 학습합니다.
+description: 비즈니스용 구독에 대한 사용자 라이선스 요청을 검토하고 승인하거나 거부하는 Microsoft 365 방법을 알아보습니다.
 ms.date: 08/07/2020
-ms.openlocfilehash: 06ee210b39c19c1f2c8a2041c463568e55001b6e
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 6cbfd81f4f6deba642729f1fef0b826b07a99f56
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331553"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535677"
 ---
 # <a name="manage-license-requests"></a>라이선스 요청 관리
 
 > [!NOTE]
-> 이 문서의 정보는 셀프 서비스 구매 제품에만 적용됩니다. 자세한 내용은 셀프 서비스 [구매 FAQ 를 참조합니다.](../subscriptions/self-service-purchase-faq.md)
+> 이 문서의 정보는 셀프 서비스 구매 제품에만 적용됩니다. 자세한 내용은 셀프 서비스 [구매 FAQ 를 참조합니다.](../subscriptions/self-service-purchase-faq.yml)
 
 조직에서 셀프 서비스 구매를 사용하지 않도록 설정한 경우 라이선스 요청을 사용하여 사용자의 라이선스 요청 프로세스를 관리할 수 있습니다. 사용자가 차단한 제품에 대해 셀프 서비스 구매를 만들 때 라이선스 요청을 관리자에게 제출할 수 있습니다. 사용자가 요청을 할 때 제품에 대한 라이선스도 필요한 다른 사용자의 이름을 추가할 수 있습니다.
 

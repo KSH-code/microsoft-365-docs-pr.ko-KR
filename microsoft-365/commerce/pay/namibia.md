@@ -1,23 +1,24 @@
 ---
 title: 나미비아의 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bae9cf39d1a25446175304f50b29daf309af1377
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 49a78fc43616ed1e179142948bc5ca6284a3b6b8
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273227"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535377"
 ---
 # <a name="payment-information-for-namibia"></a>나미비아의 결제 정보
 
@@ -31,4 +32,4 @@ ms.locfileid: "52273227"
 **SWIFT 코드:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **계정 번호:** 12510049  
-**계정 이름:** MICROSOFT  
+**계정 이름:** MICROSOFT

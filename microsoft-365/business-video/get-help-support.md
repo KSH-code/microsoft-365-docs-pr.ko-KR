@@ -18,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 365 Business Premium에서 관리자 도움말 또는 지원을 다운로드하는 방법을 배우게 됩니다.
-ms.openlocfilehash: 8db4f7675f96bac2157c9c0f93ab506c8a39e1bb
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
-ms.translationtype: HT
+description: 비즈니스 구독에서 관리자 도움말 또는 온라인 또는 전화 지원을 받을 수 있도록 비즈니스 구독의 관리자 Microsoft 365 Business Premium.
+ms.openlocfilehash: e6308a9728731052d540cf3e872b6e153b64aae2
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327189"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535713"
 ---
 # <a name="get-support"></a>지원 받기
 
@@ -252,3 +252,12 @@ Office 365 Germany의 관리자는 Microsoft 전문 지원 에이전트로부터
 또한 [비즈니스용 Microsoft 365 커뮤니티 포럼을 검색](https://go.microsoft.com/fwlink/p/?LinkId=518605)하여 알려진 문제점 및 인기 주제를 찾거나 새로운 질문을 게시할 수 있습니다. 커뮤니티 포럼은 문제를 해결할 수 있는 교육을 받은 Microsoft 지원 에이전트가 모니터링합니다.
 
 ::: moniker-end
+
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[문서 및 교육](find-help-answers.md) 찾기(문서)
+
+[직원 빠른](employee-quick-setup.md) 설정(문서)
+
+[설치 Microsoft 365 Business Premium](setup-overview.md) 개요(동영상)

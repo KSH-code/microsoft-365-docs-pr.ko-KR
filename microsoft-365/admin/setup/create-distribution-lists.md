@@ -22,13 +22,13 @@ ms.custom:
 - seo-marvel-may2020
 - AdminSurgePortfolio
 - okr_smb
-description: 각 받는 사람의 이름을 입력하지 않고도 그룹에 전자 메일을 보낼 수 있도록 Microsoft 365 관리 센터에서 메일 그룹 또는 목록을 만드는 방법을 학습합니다.
-ms.openlocfilehash: 5c4781653a5f18b7a41dc20212771368132801cd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 각 받는 사람 이름을 입력하지 않고도 그룹에 전자 메일을 보낼 수 있도록 Microsoft 365 관리 센터에서 메일 그룹 또는 목록을 만드는 방법을 배워야 합니다.
+ms.openlocfilehash: bd5e246caa8d1b56a33db21d70eb5cbdb7b5ed92
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914249"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535821"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 메일 그룹 만들기
   
@@ -40,19 +40,19 @@ ms.locfileid: "50914249"
 
 ::: moniker range="o365-worldwide"
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a> 의 관리 센터로 이동합니다.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>의 관리 센터로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn/adminportal</a> 의 관리 센터로 이동합니다.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn/adminportal</a>의 관리 센터로 이동합니다.
 
 ::: moniker-end
 
@@ -70,6 +70,6 @@ ms.locfileid: "50914249"
     
 6. 메일 그룹에 사용자를 추가하는 경우 메일 그룹에 사용자 또는 [연락처 추가를 참조하세요.](../email/add-user-or-contact-to-distribution-list.md)
     
-Outlook의 연락처 그룹(이전의 메일 그룹) 사용 항목에서 Outlook 2016 및 웹용 [Outlook에서](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39) 그룹을 사용하는 방법을 참조하세요. 
+Outlook 2016 및 웹 Outlook 그룹에서 그룹을 사용하는 [방법을](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39)Outlook. 
   
 메일 그룹 [문제에 대한 도움말은](/office365/troubleshoot/groups/distribution-list-issues) 메일 그룹 문제를 확인해 하세요. 

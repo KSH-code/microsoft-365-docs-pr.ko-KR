@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 09c391d6b02e1273f55070283a6e11454f677114
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 725e6226a56b3aae3670cde18969afdda1ec1940
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300004"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52530841"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Defender에서 인시던트 Microsoft 365 관리
 
@@ -45,12 +45,12 @@ ms.locfileid: "52300004"
 
 인시던트 관리 방법은 다음과 같습니다.
 
-- 인시던트 이름 변경
-- 인시던트 태그를 추가합니다.
-- 사용자 계정에 인시던트 할당
-- 해결 
-- 분류 및 결정 설정
-- 설명을 추가합니다.
+- [인시던트 이름 편집](#edit-the-incident-name)
+- [인시던트 태그 추가](#add-incident-tags)
+- [사용자 계정에 인시던트 할당](#assign-incidents)
+- [해결](#resolve-an-incident)
+- [분류 및 결정 설정](#set-the-classification-and-determination)
+- [메모 추가](#add-comments)
 
 인시던트에 대한  인시던트 관리 창에서 인시던트 관리를 할 수 있습니다. 다음은 예입니다.
 
@@ -61,7 +61,7 @@ ms.locfileid: "52300004"
 - 인시던트 큐에 있는 인시던트의 속성 창입니다.
 - **인시던트의** 요약 페이지입니다.
 
-분석하는 동안 한 인시던트에서 다른 인시던트로 경고를 이동하는  경우 경고 탭에서 알림을 이동하여 모든 관련 알림을 포함하는 더 크거나 작은 인시던트가 생성될 수도 있습니다.
+한 인시던트에서 다른 인시던트로 경고를 이동하려는  경우 경고 탭에서 알림을 이동하여 모든 관련 알림을 포함하는 더 크거나 작은 인시던트가 생성될 수도 있습니다.
 
 ## <a name="edit-the-incident-name"></a>인시던트 이름 편집
 
@@ -82,7 +82,7 @@ Microsoft 365 Defender는 영향을 받는 끝점 수, 영향을 받는 사용�
 
 인시던트가 아직 할당되지 않은  경우 할당을 선택하고 사용자 계정을 지정할 수 있습니다. 이렇게 하면 인시던트 및 인시던트와 연결된 모든 경고의 소유권이 할당됩니다.
 
-## <a name="resolve-incident"></a>인시던트 해결
+## <a name="resolve-an-incident"></a>인시던트 해결
 
 인시던트가 수정된 경우 인시던트 해결을 **선택하여** 토글을 오른쪽으로 이동합니다. 인시던트 해결을 통해 인시던트와 관련된 연결된 경고 및 활성 경고도 모두 해결됩니다.
 

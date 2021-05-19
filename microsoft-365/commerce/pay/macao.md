@@ -1,23 +1,24 @@
 ---
 title: 마카오 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 33ead33ef3b7b0bf0bb79c87b81b14836109c4c5
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: fe06472c56456809172e2c85bd753cf98c4e74a3
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273359"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535473"
 ---
 # <a name="payment-information-for-macao"></a>마카오 결제 정보
 
@@ -30,4 +31,4 @@ ms.locfileid: "52273359"
 **은행:** Citibank, Singapore  
 **SWIFT 코드:** C 조지민 의원  
 **계정 번호:** 0-817543-138  
-**계정 이름:** MICROSOFT REGIONAL SALES CORP  
+**계정 이름:** MICROSOFT REGIONAL SALES CORP

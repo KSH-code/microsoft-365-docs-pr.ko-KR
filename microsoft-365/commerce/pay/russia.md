@@ -1,23 +1,24 @@
 ---
 title: 러시아의 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c6f1e6617431d155cfd8282bcaaf3cfd4bc86dfd
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 8da92008caaa9539fd1ad17adab519e32e18ac40
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52272999"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535257"
 ---
 # <a name="payment-information-for-russia"></a>러시아의 결제 정보
 

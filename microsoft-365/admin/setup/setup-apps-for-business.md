@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: 비즈니스용 Microsoft 365 앱 구독을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: 6978a5402792906ef773934e5201b3ea6671c010
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 9c973866a3bf1008a8c8062e2a5b9e101494d5f9
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244482"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535737"
 ---
 # <a name="set-up-microsoft-365-apps-for-business"></a>비즈니스용 Microsoft 365 앱 설정
 
@@ -45,13 +45,13 @@ ms.locfileid: "52244482"
 
 ::: moniker range="o365-germany"
 
-1. Office 365 Germany를 사용하는 경우 [이 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=848041)로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>의 관리 센터로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 21Vianet에서 운영하는 Office 365를 사용하는 경우 [이 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=850627)로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>의 관리 센터로 이동합니다.
 
 ::: moniker-end 
 

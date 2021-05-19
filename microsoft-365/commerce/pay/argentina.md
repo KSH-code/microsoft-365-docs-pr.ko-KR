@@ -1,23 +1,24 @@
 ---
 title: 아르헨티나의 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4673182312391891b851c56a21b0d14f07d2bf04
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f6fe73b603f826aad60af8703d2cfd3716e84d71
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274307"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535617"
 ---
 # <a name="payment-information-for-argentina"></a>아르헨티나의 결제 정보
 
@@ -31,4 +32,4 @@ USD로만 결제하고 송장 번호를 송장 번호로 송장으로 결제합�
 **Branch** 달라  
 **SWIFT 코드:** BOFAUS3N  
 **계정 번호:** 4426587954  
-**계정 이름:** Microsoft  
+**계정 이름:** Microsoft

@@ -1,5 +1,5 @@
 ---
-title: 청구 계정 관리
+title: 청구 계정 이해
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -17,22 +17,22 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
 search.appverid: MET150
-description: 청구 계정 및 관리 방법에 대해 자세히 알아보습니다.
+description: 청구 계정과 이러한 계정이 계정 설정, 송장, 결제 방법 및 구매를 관리하는 데 사용되는 방법에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: 05ab759f300cb7fa6b02e06714d7d98e64890be8
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 1eb01ace2fe8b84b813793168cb50db2508b4ebb
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331601"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535641"
 ---
-# <a name="manage-billing-accounts"></a>청구 계정 관리
+# <a name="understand-billing-accounts"></a>청구 계정 이해
 
-Microsoft 제품을 사용해 보거나 구입하기 위해 등록하면 청구 계정이 만들어집니다. 청구 계정을 사용하여 계정 설정, 송장, 결제 방법 및 구매를 관리합니다. 여러 청구 계정에 액세스할 수 있습니다. 예를 들어 Microsoft 365에 직접 등록하거나 조직의 기업계약 Microsoft 제품 & 서비스 계약 또는 Microsoft 고객 계약에 액세스할 수 있습니다. 이러한 각 시나리오에 대해 별도의 청구 계정이 있습니다.
+Microsoft 제품을 사용해 보거나 구입하기 위해 등록하면 청구 계정이 만들어집니다. 청구 계정을 사용하여 계정 설정, 송장, 결제 방법 및 구매를 관리합니다. 여러 청구 계정에 액세스할 수 있습니다. 예를 들어 직접 Microsoft 365 등록하거나 조직의 기업계약, Microsoft 제품 & 서비스 계약 또는 Microsoft 고객 계약에 액세스할 수 있습니다. 이러한 각 시나리오에 대해 별도의 청구 계정이 있습니다.
 
-Microsoft 365 관리 센터는 현재 다음 유형의 청구 계정을 지원하고 있습니다.
+Microsoft 365 관리 센터에서는 현재 다음과 같은 유형의 청구 계정을 지원하고 있습니다.
 
-- Microsoft Online Services 프로그램: 이 청구 계정은 Microsoft 365 구독에 직접 등록할 때 만들어집니다.
+- Microsoft Online Services 프로그램: 이 청구 계정은 Microsoft 365 등록할 때 만들어집니다.
 - Microsoft 제품 & 서비스 계약(MPSA) 프로그램: 이 청구 계정은 조직이 소프트웨어 및 온라인 서비스를 구입하기 위해 MPSA 볼륨 라이선스 계약에 서명할 때 만들어집니다.
 - Microsoft 고객 계약: 이 청구 계정은 조직이 Microsoft 담당자, 공인 파트너 또는 독립적으로 구매할 때 만들어집니다.
 
@@ -67,14 +67,14 @@ Microsoft 365 관리 센터는 현재 다음 유형의 청구 계정을 지원�
 
 ## <a name="understand-access-to-billing-accounts"></a>청구 계정에 대한 액세스 이해
 
-역할 및 권한을 통해 Microsoft 365 관리 센터에서 다른 사용자에게 청구 계정에 대한 액세스 권한을 제공할 수 있습니다. 청구 계정 소유자만 청구 계정에 대한 액세스 권한을 부여할 수 있습니다. 사용자에게 다음 역할 중 하나를 할당할 수 있습니다.
+역할 및 사용 권한을 통해 Microsoft 365 계정에 대한 액세스 권한을 다른 사용자에게 제공할 수 있습니다. 청구 계정 소유자만 청구 계정에 대한 액세스 권한을 부여할 수 있습니다. 사용자에게 다음 역할 중 하나를 할당할 수 있습니다.
 
 - **청구 계정 소유자** &mdash; 사용 권한을 할당하고, 계정을 편집하고, 계약에 서명하고, 계정을 볼 수 있습니다.
 - **청구 계정 참가자** &mdash; 계정을 편집하고 계약에 서명하고 계정을 볼 수 있습니다.
 - **청구 계정 판독기** &mdash; 계정을 볼 수 있습니다.
 
 > [!Note]
-> 청구 계정 역할은 청구 계정에만 적용될 뿐 다른 Microsoft 365 관리 센터 시나리오에는 적용되지 않습니다.
+> 청구 계정 역할은 청구 계정에만 적용될 뿐, 다른 Microsoft 365 관리 센터 시나리오에는 적용되지 않습니다.
 
 ## <a name="related-content"></a>관련 콘텐츠
 

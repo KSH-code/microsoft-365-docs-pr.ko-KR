@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
-description: DNS 호스트에서 DNS 레코드를 추가하여 Microsoft 365 관리 센터의 Microsoft 365에 도메인을 추가합니다. 설치 마법사가 프로세스를 안내합니다.
-ms.openlocfilehash: 747de5f61dc9fce53f82f52b65f701572a56f8d4
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+description: DNS 호스트에서 DNS 레코드를 추가하여 Microsoft 365 관리 Microsoft 365 추가하려면 설정 마법사를 사용하여 도메인을 추가합니다.
+ms.openlocfilehash: 96849e90a420dc31dbde8c55d5a1108f73f85978
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470884"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535833"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Microsoft 365에 도메인 추가
 
@@ -39,51 +39,43 @@ ms.locfileid: "51470884"
   
  *도메인을 추가, 수정 또는 제거하려면  **비즈니스** 또는 엔터프라이즈 계획의 전역 관리자 [되어야 합니다.](https://products.office.com/business/office) 이러한 변경 내용은 전체 테넌트,   사용자 지정된 관리자 또는 일반 사용자에게 영향을 미치며 이러한 변경을 할 수 없습니다.*  
 
- 다음 단계에 따라 도메인을 추가, 설정 또는 계속합니다. 
+ ## <a name="add-a-domain"></a>도메인 추가
 
-::: moniker range="o365-worldwide"
-  
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/dda6df6d-37b0-41ff-905b-089448355a31?autoplay=false]
-  
-::: moniker-end
+다음 단계에 따라 도메인을 추가, 설정 또는 계속합니다. 
 
 ::: moniker range="o365-worldwide"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
 
 ::: moniker-end
 ::: moniker range="o365-germany"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a> 의 관리 센터로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>의 관리 센터로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a> 의 관리 센터로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>의 관리 센터로 이동합니다.
 
 ::: moniker-end
     
-2. 설정 도메인   >  **페이지로** 이동합니다. 
+2. 도메인 **설정**  >  **이동합니다.** 
 
-3. 도메인 **추가를 선택합니다.**
+3. **도메인 추가** 를 선택합니다.
     
 4. 추가할 도메인의 이름을 입력하고 다음 을 **선택합니다.**
     
 5. 도메인을 소유하고 있는지 확인하는 방법을 선택 합니다.
     
-    1. 도메인 등록 기관에서 [Domain Connect를](#domain-connect-registrars-integrating-with-microsoft-365)사용하는 경우 [Microsoft는](../get-help-with-domains/domain-connect.md) 등록 기관에 로그인하고 Microsoft 365에 대한 연결을 확인하여 레코드를 자동으로 설정합니다. You'll be returned to the admin center and Microsoft will automatically verify your domain.
+    1. 도메인 등록 기관에서 [Domain 커넥트](#domain-connect-registrars-integrating-with-microsoft-365)사용하는 경우 Microsoft는 등록 기관에 로그인하고 등록 기관에 대한 연결을 확인하여 레코드를 Microsoft 365. [](../get-help-with-domains/domain-connect.md) You'll be returned to the admin center and Microsoft will automatically verify your domain.
     2. TXT 레코드를 사용하여 도메인을 확인할 수 있습니다. 이 옵션을 선택하고 **다음을** 선택하여 등록 기관의 웹 사이트에 이 DNS 레코드를 추가하는 방법에 대한 지침을 참조하세요. 레코드를 추가한 후 확인하는 데 최대 30분이 걸릴 수 있습니다. 
     3. 도메인의 웹 사이트에 텍스트 파일을 추가할 수 있습니다. 설치 마법사에서 .txt 파일을 선택하고 다운로드한 다음 웹 사이트의 최상위 폴더에 파일을 업로드합니다. 파일의 경로는 다음과 유사해야 `http://mydomain.com/ms39978200.txt` 합니다. 웹 사이트에서 파일을 찾아 도메인을 소유하고 있는 것을 확인할 것입니다.
     
 6. Microsoft에서 도메인을 사용하는 데 필요한 DNS를 변경하는 방법을 선택하십시오.
     
-    1. 등록 **기관에서** [도메인](#domain-connect-registrars-integrating-with-microsoft-365)연결을 지원하는 경우 DNS 레코드 추가를 선택하면 [Microsoft에서](../get-help-with-domains/domain-connect.md) 등록 기관에 로그인하고 Microsoft 365에 대한 연결을 확인하여 레코드를 자동으로 설정합니다.
-    2. 도메인에 특정 Microsoft 365 서비스만 연결하려는 경우 또는 지금 건너뛰고 나중에 이렇게 하려는 경우 **DNS** 레코드를 바로 추가합니다를 선택하세요. **무엇을 할지 정확히 아는 경우에만 이 옵션을 선택하세요.**
+    1. 등록 **기관에서** [Domain 커넥트](#domain-connect-registrars-integrating-with-microsoft-365)지원하는 경우 Dns 레코드 추가를 선택하면 [Microsoft에서](../get-help-with-domains/domain-connect.md) 등록 기관에 로그인하고 등록 기관에 대한 연결을 확인하여 자동으로 레코드를 Microsoft 365.
+    2. 도메인에 특정 Microsoft 365 서비스만 연결하려는 경우 또는 지금 건너뛰고 나중에 이 작업을 하려는 경우 **DNS** 레코드를 추가합니다.를 선택하세요. **무엇을 할지 정확히 아는 경우에만 이 옵션을 선택하세요.**
 
 7. *DNS* 레코드를 직접 추가하기로  선택한 경우 다음을 선택하면 도메인을 설정하기 위해 등록 기관 웹 사이트에 추가해야 하는 모든 레코드가 있는 페이지가 표시됩니다. 
 
@@ -103,7 +95,7 @@ ms.locfileid: "51470884"
 
 1. 에서 Microsoft 관리 센터에 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 로그인합니다.
 
-2. 설정 도메인    >  **페이지로** 이동합니다.
+2. 도메인 **설정**   >  **이동합니다.**
 
 3. **도메인** 페이지에서 도메인을 선택합니다. 
     
@@ -113,16 +105,16 @@ ms.locfileid: "51470884"
     
 6. **저장** 을 선택합니다.
 
-## <a name="registrars-with-domain-connect"></a>도메인 연결을 사용하여 등록자
+## <a name="registrars-with-domain-connect"></a>도메인 등록자가 있는 커넥트
 
-[도메인 연결](https://www.domainconnect.org/) 사용 등록 기관을 사용하면 몇 분 정도 걸리는 3단계 프로세스에서 Microsoft 365에 도메인을 추가할 수 있습니다. 
+[도메인 커넥트](https://www.domainconnect.org/) 등록 기관을 사용하면 몇 분 정도 Microsoft 365 3단계 프로세스에서 도메인을 추가할 수 있습니다. 
   
-마법사에서 사용자가 도메인을 소유하고 있는 것을 확인한 다음 도메인의 레코드를 자동으로 설정하기만 하여 전자 메일이 Microsoft 365 및 Teams와 같은 기타 Microsoft 365 서비스에서 도메인과 함께 작동하게 됩니다.
+마법사에서 사용자가 도메인을 소유하고 있는 것을 확인한 다음 도메인의 레코드를 자동으로 설정하기만 하여 전자 메일이 도메인과 Microsoft 365 Microsoft 365 서비스와 Teams 합니다.
   
 > [!NOTE]
 > 설정 마법사를 시작하기 전에 브라우저의 팝업 차단 기능을 해제하세요.
   
-### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Microsoft 365와 통합하는 도메인 연결 등록자
+### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>도메인 커넥트 통합하는 도메인 Microsoft 365
 
 - [1 &amp; 1 IONOS](https://www.1and1.com/)
 - [EuroDNS](https://www.eurodns.com/)
@@ -138,16 +130,16 @@ ms.locfileid: "51470884"
 
 ### <a name="what-happens-to-my-email-and-website"></a>전자 메일 및 웹 사이트는 어떻게 하나요?
 
-설치를 완료하면 도메인의 MX 레코드가 Microsoft 365를 지점으로 업데이트하고 도메인의 모든 전자 메일이 Microsoft 365로 전송됩니다. 도메인에서 전자 메일을 받는 모든 사용자에 대해 Microsoft 365에서 사용자를 추가하고 사서함을 설정해야 합니다.
+설정이 완료되면 도메인의 MX 레코드가 도메인을 Microsoft 365 도메인의 모든 전자 메일이 Microsoft 365. 도메인에서 전자 메일을 받는 모든 Microsoft 365 사용자를 추가하고 사서함을 설정해야 합니다.
   
-업무에 사용하는 웹 사이트가 있는 경우 어디에 있든 작동이 유지됩니다. 도메인 연결 설정 단계는 웹 사이트에 영향을 주지 않습니다.
+업무에 사용하는 웹 사이트가 있는 경우 어디에 있든 작동이 유지됩니다. Domain 커넥트 설정 단계는 웹 사이트에 영향을 주지 않습니다.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[도메인 FAQ](domains-faq.yml)
+[도메인 FAQ(문서)](domains-faq.yml)
 
-[도메인이 무엇인가요?](../get-help-with-domains/what-is-a-domain.md)
+[도메인이 무엇인가요?](../get-help-with-domains/what-is-a-domain.md) (문서)
 
-[Microsoft 365에서 도메인 이름 구입하기](../get-help-with-domains/buy-a-domain-name.md)
+[Microsoft 365 도메인](../get-help-with-domains/buy-a-domain-name.md) 이름 구입(문서)
 
-[도메인 설정(호스트별 지침)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md)
+[도메인](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) 설정(문서)

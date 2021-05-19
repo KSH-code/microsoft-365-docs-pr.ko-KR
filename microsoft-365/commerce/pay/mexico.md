@@ -1,23 +1,24 @@
 ---
 title: 멕시코의 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 71762b16925a21238894af7d241e4f1ed112cbdd
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 5300552fdd2b33986c96ad5f59e827e3e309ca47
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244687"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535425"
 ---
 # <a name="payment-information-by-deposit-or-electronic-transfer-only-for-mexico"></a>입금 또는 전자 전송으로 결제 정보(멕시코에만 해당)
 

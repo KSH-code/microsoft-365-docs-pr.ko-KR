@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 623717e7b1a3149dbccf07d32200820a7f9083cb
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d69c7dc30a4cf6a3078f510a02e5572fe8b36cbb
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934252"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52530913"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-macos"></a>macOS에서 끝점용 Microsoft Defender의 성능 문제 해결
 
@@ -94,7 +94,7 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
       현재 통계를 수집하기 위해 다음을 실행합니다.
 
       ```bash
-      mdatp config real-time-protection --value enabled
+      mdatp config real-time-protection-statistics --output json > real_time_protection.json
       ```
 
       > [!NOTE]
@@ -104,7 +104,7 @@ RTP(실시간 보호)는 지속적으로 위협으로부터 장치를 모니터�
 1. Mac 시스템에서 다음 명령을 사용하여 샘플 Python 파서 high_cpu_parser.py를 다운로드합니다.
 
     ```bash
-    wget -c https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/linux/diagnostic/high_cpu_parser.py
+    curl -O https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/linux/diagnostic/high_cpu_parser.py
     ```
 
     이 명령의 출력은 다음과 유사해야 합니다.

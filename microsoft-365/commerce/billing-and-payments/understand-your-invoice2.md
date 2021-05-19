@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 비즈니스용 Microsoft 365의 청구서 또는 송장에 있는 요금, 청구, 지불 정보를 해석하는 방법과 구매 주문 번호를 변경하는 방법에 대해 알아봅니다.
 ms.date: 05/04/2021
-ms.openlocfilehash: 3b183c219e25bcef21add70e2c704a7a0f3fe354
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: febcbdee563c18b3f17ee35b98f2d68b15f456d8
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331961"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535689"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>비즈니스용 Microsoft 365의 청구서 또는 송장 이해
 
@@ -128,5 +128,12 @@ ms.locfileid: "52331961"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[비즈니스용 Microsoft 365](pay-for-your-subscription.md) 구독 결제(문서)\
+[청구서 또는 송장을 찾아서 보는](view-your-bill-or-invoice.md) 방법 학습(문서)
+
+[대금 청구 주소](change-your-billing-addresses.md) 변경(문서)
+
+[조직의 주소, 기술](../../admin/manage/change-address-contact-and-more.md) 담당자 전자 메일 및 기타 정보 변경(문서)
+
+[비즈니스용 Microsoft 365 요금](pay-for-your-subscription.md) 결제(문서)\
+
 [Minecraft: Education Edition 결제 옵션](/education/windows/school-get-minecraft) (문서)

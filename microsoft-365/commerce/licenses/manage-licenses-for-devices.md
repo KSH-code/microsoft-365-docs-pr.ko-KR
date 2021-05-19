@@ -20,12 +20,12 @@ ms.custom:
 - commerce_licensing
 search.appverid: MET150
 ms.date: 03/17/2021
-ms.openlocfilehash: 67bd0734953c64f51390aac949a7da477914c7b4
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: c590c2d47699c4c3cbea4b5145bea9e7c9fc79ec
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331661"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535665"
 ---
 # <a name="manage-licenses-for-devices"></a>장치에 대한 라이선스 관리
 
@@ -55,5 +55,5 @@ ms.locfileid: "52331661"
 
 1. 관리 센터에서 청구 라이선스   >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">페이지로</a> 이동합니다.
 2. 라이선스 **페이지에서** 교육용 **Microsoft 365 앱(장치)** 또는 **엔터프라이즈용 Microsoft 365 앱(장치)를 선택합니다.**
-3. On the next page, choose a subscription, choose **More actions**, then choose **Unassign licenses**.
+3. 다음 페이지에서 구독을 선택하고 세 개의 점(추가 작업)을 선택한 다음 라이선스 배포 **취소를 선택합니다.**
 4. 라이선스의 사용 허가 **안 함 대화** 상자에서 **Unassign 을 선택합니다.**

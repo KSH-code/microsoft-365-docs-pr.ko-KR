@@ -1,23 +1,24 @@
 ---
 title: 아프가니스탄 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 241d93522e8237e8bea6092d1e31b240706f169f
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 4fddd6e6744c9bd6a27ac13acbf1a9c269878359
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274355"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535653"
 ---
 # <a name="payment-information-for-afghanistan"></a>아프가니스탄 결제 정보
 
@@ -31,4 +32,4 @@ USD로만 결제하고 송장 번호를 송장 번호로 송장으로 결제합�
 **SWIFT 코드:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **계정 번호:** 12510049  
-**계정 이름:** MICROSOFT  
+**계정 이름:** MICROSOFT
