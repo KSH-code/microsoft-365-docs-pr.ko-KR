@@ -1,23 +1,24 @@
 ---
 title: 보츠와나의 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cea5e7abb1c2ae041b32e1b9edea1ba7192e4493
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: c728456fc4052f4ec8dfca29ddc28f6e26decd19
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274127"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537069"
 ---
 # <a name="payment-information-for-botswana"></a>보츠와나의 결제 정보
 
@@ -31,4 +32,4 @@ USD로만 결제하고 송장 번호를 참조하시기 바랍니다.
 **SWIFT 코드:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **계정 번호:** 12510049  
-**계정 이름:** MICROSOFT  
+**계정 이름:** MICROSOFT

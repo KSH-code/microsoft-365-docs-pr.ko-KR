@@ -1,23 +1,24 @@
 ---
 title: 브루나이의 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 065c05f581ec2d4a1bc3d91564f47b90ce4d4318
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 8ecd425076507cb00d763d9e57f9fef1e6779035
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274103"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537045"
 ---
 # <a name="payment-information-for-brunei"></a>브루나이의 결제 정보
 
@@ -27,7 +28,7 @@ ms.locfileid: "52274103"
 
 ## <a name="electronic-funds-transfer"></a>전자 자금 이체
 
-**은행:** Citibank, Singapore   
+**은행:** Citibank, Singapore  
 **SWIFT 코드:** C 조지민 의원  
 **계정 번호** 0-817543-138,  
-**계정 이름:** MICROSOFT REGIONAL SALES CORP  
+**계정 이름:** MICROSOFT REGIONAL SALES CORP

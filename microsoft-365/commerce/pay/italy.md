@@ -1,23 +1,24 @@
 ---
 title: 이탈리아 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 493d971f38e0c442a62f61fd18f4fa1bddf4ebe0
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: b11b5897dad07407b4381af69c124faf2299265f
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273539"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536589"
 ---
 # <a name="payment-information-for-italy"></a>이탈리아 결제 정보
 
@@ -32,4 +33,4 @@ EUR로만 결제하고 송장 번호를 송장 번호를 송금합니다.
 **IBAN:** GB31CITI18500812207591  
 **SORT 코드:** 185008  
 **계정 번호:** 12207591  
-**계정 이름:** MICROSOFT  
+**계정 이름:** MICROSOFT

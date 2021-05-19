@@ -1,23 +1,24 @@
 ---
 title: 아일랜드의 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 03a7013700cd0bf75585c7ee449b91ce11be7d3d
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 801296a2c50978100340107b70672e8dafb627cf
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273551"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536613"
 ---
 # <a name="payment-information-for-ireland"></a>아일랜드의 결제 정보
 
@@ -27,8 +28,8 @@ EUR로만 결제하고 송장 번호를 송장 번호를 송금합니다.
 
 ## <a name="electronic-funds-transfer"></a>전자 자금 이체
 
-**은행:** Citibank, London    
-**SWIFT 코드/BIC:** CITIGB2L   
+**은행:** Citibank, London  
+**SWIFT 코드/BIC:** CITIGB2L  
 **IBAN:** GB31CITI18500812207591  
 **SORT 코드:** 185008  
 **계정 번호:** 12207591  

@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 비즈니스 구독에 대한 청구되는 기간을 변경하는 방법에 대해 자세히 알아보습니다.
 ms.date: 04/02/2021
-ms.openlocfilehash: b8a0341f8cd5f4788bf2eea93394b33e8079abc5
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 010857d9092ef62d11e1b7c6019f2fe0eaafb58f
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332173"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537346"
 ---
 # <a name="change-your-billing-frequency"></a>청구 주기 변경
 
@@ -36,3 +36,13 @@ ms.locfileid: "52332173"
 2. **제품** 탭에서 변경할 구독을 선택합니다.
 3. 구독 세부 정보 페이지의 구독 및 결제 설정 **섹션에서** 청구 주기 **편집을 선택합니다.**
 4. 청구 **주기 편집** 창에서 청구 빈도에 대한 옵션을 선택한 다음 변경을 **선택합니다.**
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[청구서 또는 송장](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) 보기(문서)
+
+[구독 결제(문서)](../../commerce/billing-and-payments/pay-for-your-subscription.md)
+
+[청구서 또는 송장을 찾아서 보는](view-your-bill-or-invoice.md) 방법 학습(문서)
+
+[대금 청구 주소](change-your-billing-addresses.md) 변경(문서)

@@ -19,14 +19,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
 search.appverid: MET150
-description: Microsoft 365 관리 센터에서 결제 방법을 관리하는 방법을 알아보세요.
+description: 기존 결제 방법을 사용하거나 Microsoft 365 관리 센터에서 새 결제 방법을 추가하여 Microsoft에서 비즈니스 제품 또는 서비스를 구매하세요.
 ms.date: 04/02/2021
-ms.openlocfilehash: b6fe62a70d478a98eb13a17fafb4320afc6b5952
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: bda7eca29b92cdf131c6d3f5a6069ea2be77f6fa
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332009"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537322"
 ---
 # <a name="manage-payment-methods"></a>결제 방법 관리
 
@@ -87,7 +87,7 @@ Microsoft에서 비즈니스 제품 또는 서비스를 구입하는 경우 기�
 
 1. 관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.
 2. **제품** 탭에서 대체 결제 방법으로 결제하려는 구독을 찾으세요.
-3. **추가 작업**(점 3개)을 선택한 다음 **결제 방법 교체** 를 선택합니다.
+3. 점 3개(추가 작업)를 선택한 다음 **결제 방법 교체** 를 선택합니다.
 4. **결제 방법** 드롭다운 목록에서 대체 결제 방법을 선택하거나 결제 방법을 추가합니다.
 5. 결제 방법을 추가하는 경우 카드 또는 계좌 정보를 입력한 다음 **저장** 을 선택합니다.
 6. 선택한 결제 방법이 올바른지 확인한 다음 **교체** 를 선택합니다.

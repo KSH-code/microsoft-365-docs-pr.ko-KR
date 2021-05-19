@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 비즈니스용 구독에 대한 라이선스를 더 구입하거나 라이선스 수를 줄이는 Microsoft 365 방법을 알아보하세요.
 ms.date: 04/07/2021
-ms.openlocfilehash: a327149a780d2059cfc69068fc4b2122e549773c
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: a20e89ff28c582018c55281a85dbe115b58f9d74
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331685"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537274"
 ---
 # <a name="buy-or-remove-licenses"></a>라이선스 구입 또는 제거
 
@@ -68,7 +68,7 @@ ms.locfileid: "52331685"
 1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">내 상품</a>페이지로 이동하세요.
 ::: moniker-end
 
-2. 제품 **탭에서** 라이선스를 구입하거나 제거할 구독을 찾아야 합니다. 추가 **작업(세** 점)을 선택한 다음 라이선스 **구입 을 선택합니다.** [라이선스 구입 또는 라이선스 제거 단추가 없는 경우 어떻게 하나요?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
+2. 제품 **탭에서** 라이선스를 구입하거나 제거할 구독을 찾아야 합니다. 세 점(추가 작업)을 선택한 다음 라이선스 **구입 을 선택합니다.** [라이선스 구입 또는 라이선스 제거 단추가 없는 경우 어떻게 하나요?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
 3. 라이선스 수를 줄이면 라이선스 구입 창 위쪽에서 라이선스 **제거를 선택합니다.** 
 4. 라이선스를 구입하거나 제거하려면  총 라이선스  수량 상자에 이 구독에 대해 원하는 총 라이선스 수를 입력합니다. 예를 들어 라이선스가 100개가 있으며 5개 이상 추가하려는 경우 105를 입력합니다. 이 중 5개만 제거하려면 95를 입력합니다.
 5. **저장** 을 선택합니다.

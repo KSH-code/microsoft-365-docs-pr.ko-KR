@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: 변경 관리에 Microsoft 365 메시지 센터의 역할에 대한 개요를 얻습니다.
-ms.openlocfilehash: af65db32edd56b11adede0e4e690b3f69b07180e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 01e43eb6fa9502c138bfc9ab3595c47ec33ad098
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244422"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537526"
 ---
 # <a name="message-center"></a>메시지 센터
 
@@ -249,66 +249,21 @@ ms.locfileid: "52244422"
 
 다른 관리자에게 문의하여 변경 사항을 인지하고 조치를 취해야 합니까? 예를 들어, 사용자를 해당 메시지에 직접 연결하는 전자 메일 또는 인스턴트 메시징에서 공유할 링크를 생성할 수 있습니다. 링크를 공유하는 사람은 메시지 센터에 대한 액세스 권한을 가지고 있어야 합니다. 자세한 정보는 [메시지 센터에 액세스 권한이 없는 관리자 역할](message-center.md#admin-roles-that-dont-have-access-to-the-message-center)을 확인하세요.
 
-::: moniker range="o365-worldwide"
-
 1. 열려고 하는 메시지를 선택합니다.
 
 2. **링크 복사** 를 선택합니다.
 
 3. Ctrl+V를 사용하거나 마우스 오른쪽 버튼을 클릭하고 **붙여넣기** 를 선택하여 원하는 문서에 링크를 삽입합니다.
 
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. 메시지를 선택하여 엽니다.
-
-2. 작업 표시줄에서 **추가** \> **링크 가져오기** 를 선택합니다.
-
-3. 웹 페이지가 사용자의 클립보드에 액세스하도록 허용합니다. 직접 링크가 클립보드에 복사됩니다.
-
-4. Ctrl+V를 사용하거나 마우스 오른쪽 버튼을 클릭하고 **붙여넣기** 를 선택하여 링크를 삽입합니다.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. 메시지를 선택하여 엽니다.
-
-2. **링크 복사** 를 선택합니다.
-
-3. Ctrl+V를 사용하거나 마우스 오른쪽 버튼을 클릭하고 **붙여넣기** 를 선택하여 원하는 문서에 링크를 삽입합니다.
-
-::: moniker-end
-
 ## <a name="read-and-unread-states"></a>읽기 및 읽지 않은 상태
 
 메시지 센터의 읽지 않은 메시지는 굵게 표시됩니다. 메시지를 열면 읽은 것으로 표시됩니다. 메시지를 읽지 않은 문서로 표시할 수 있습니다.
 
-::: moniker range="o365-worldwide"
 
 - 메시지 센터의 기본 페이지에서 메시지 옆의 **기타 옵션** 줄임표를 선택하고, **읽지 않음으로 표시** 를 선택합니다.
 
 아니면 메시지를 열고 세부 정보 창에서 읽지 않음으로 표시할 수도 있습니다.
   
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. 메시지를 선택하여 엽니다.
-
-2. **추가** \> **읽지 않음으로 표시** 를 선택합니다.
-
-3. 메시지를 닫습니다.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-- 메시지 센터의 기본 페이지에서 메시지 옆의 **기타 옵션** 줄임표를 선택하고, **읽지 않음으로 표시** 를 선택합니다.
-
-::: moniker-end
-
 ## <a name="archive-and-restore"></a>보관 및 복원
 
 자신과 관련이 없는 메시지가 보이거나 이미 작업을 수행한 경우 메시지를 보관하여 받은 편지함에서 제거할 수 있습니다. 메시지 센터에 표시되는 보기는 사용자 계정 전용이므로 보기에서 보관하는 보기는 다른 관리자에게 영향을 미치지 않습니다. 메시지를 보관하는 방법에는 두 가지가 있습니다.

@@ -1,23 +1,24 @@
 ---
 title: 홍콩 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b78d21ca75f2d1581a13d642a5d2ce201267fd1e
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: b813ec63f2cd91671f5e265cdac5c023a75dbe71
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273635"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536697"
 ---
 # <a name="payment-information-for-hong-kong"></a>홍콩 결제 정보
 
@@ -31,5 +32,5 @@ ms.locfileid: "52273635"
 **은행 코드:** 004  
 **분기 코드:** 848  
 **SWIFT 코드:** HSBCHKHH  
-**계정 번호:** 848342259001    
+**계정 번호:** 848342259001  
 **계정 이름:** Microsoft Payments Pte Ltd-Payco Invoice

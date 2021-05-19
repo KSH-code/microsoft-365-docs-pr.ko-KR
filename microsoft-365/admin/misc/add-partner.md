@@ -20,32 +20,32 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
-description: Microsoft 365 구매 시 구독 고문 파트너를 레코드 파트너로 추가하거나, 파트너를 변경하거나, 구독에서 파트너를 삭제하는 방법을 학습합니다.
-ms.openlocfilehash: 913b0e14e1bc08cfd4037775aa4b72b7280c704c
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 구독을 구매하거나, 파트너를 변경하거나, 구독에서 파트너를 삭제하는 Microsoft 365 구독 고문 파트너를 레코드의 파트너로 추가하는 방법을 학습합니다.
+ms.openlocfilehash: d45f9e3278b0a25cc5603d322c96f40eee45e6f8
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579233"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537478"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>구독 관리자 파트너 추가, 변경, 삭제
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> 이 문서는 중국의 21Vianet에서 운영하는 Office 365에 적용됩니다. 21Vianet 파트너가 Office 365 구독을 관리할 수 있도록 하려는 조직을 위한 것입니다.
+> 이 문서는 중국의 Office 365 운영하는 21Vianet에 적용됩니다. 21Vianet 파트너가 21Vianet 파트너의 구독을 관리하도록 Office 365 위한 것입니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-구독 관리자 역할을 하는 Microsoft 공인 파트너는 구독을 설정하고 유지 관리하는 데 도움이 되는 판매, 지원, 기술 전문 지식을 제공합니다. Microsoft 365를 구매하거나 다른 시기에 구독 고문 파트너를 레코드 파트너로 추가할 수 있습니다. 현재 파트너와 작업하고 있지 않은 경우 [Microsoft Pinpoint](https://pinpoint.microsoft.com) 웹 사이트에서 파트너를 찾을 수 있습니다.
+구독 관리자 역할을 하는 Microsoft 공인 파트너는 구독을 설정하고 유지 관리하는 데 도움이 되는 판매, 지원, 기술 전문 지식을 제공합니다. 구독 고문 파트너는 구독을 구매할 때 또는 다른 Microsoft 365 파트너로 추가할 수 있습니다. 현재 파트너와 작업하고 있지 않은 경우 [Microsoft Pinpoint](https://pinpoint.microsoft.com) 웹 사이트에서 파트너를 찾을 수 있습니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-선택하는 파트너는 사용하는 Microsoft 서비스와 해당 서비스를 사용할 국가 또는 지역에 따라 다를 수 있습니다. 구독 파트너를 추가하거나 변경하려면 먼저 파트너에게 Microsoft 파트너 ID를 문의해야 합니다.
+선택한 파트너는 사용하는 Microsoft 서비스 및 해당 서비스를 사용할 국가 또는 지역에 따라 다를 수 있습니다. 구독 파트너를 추가하거나 변경하려면 먼저 파트너에게 Microsoft 파트너 ID를 문의해야 합니다.
 
 ::: moniker-end
 
@@ -63,7 +63,7 @@ ms.locfileid: "51579233"
 
 ::: moniker range="o365-21vianet"
 
-Office 365의 관리자는 특히 사용자를 만들거나 편집하고, 사용자 암호를 재설정하고, 사용자 라이선스를 관리하고, 도메인을 관리하고, 조직의 다른 사용자에게 관리자 권한을 할당할 수 있습니다. 그러나 다른 사용자가 이러한 관리 작업을 수행하게 하려는 경우 파트너 관계를 만들어 이 역할을 21Vianet의 공인 파트너에게 위임할 수 있습니다.
+조직의 관리자는 Office 365 만들기 또는 편집하고, 사용자 암호를 다시 설정하고, 사용자 라이선스를 관리하고, 도메인을 관리하고, 조직의 다른 사용자에게 관리자 권한을 할당할 수 있습니다. 그러나 다른 사용자가 이러한 관리 작업을 수행하게 하려는 경우 파트너 관계를 만들어 이 역할을 21Vianet의 공인 파트너에게 위임할 수 있습니다.
 
 ::: moniker-end
 
@@ -99,7 +99,7 @@ Office 365의 관리자는 특히 사용자를 만들거나 편집하고, 사용
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 2. 제품 **탭에서** 편집할 구독을 선택합니다.
 3. 구독 세부 정보 페이지의 **파트너 정보에서** 파트너 네트워크 **ID 를 입력합니다.** 파트너에게 요청하여 파트너의 Microsoft 파트너 네트워크 ID를 얻을 수 있습니다.
 4. **추가** 를 선택합니다.
@@ -110,7 +110,7 @@ Office 365의 관리자는 특히 사용자를 만들거나 편집하고, 사용
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 2. 구독이 두 개 이상 있는 경우 편집할 구독을 선택합니다.
-3. 오른쪽의 구독 비용에서 추가 작업 **레코드** 파트너 > **추가 를 선택합니다.**
+3. 오른쪽의 구독 비용에서 레코드 파트너 추가에서 세 점(추가 작업)> **선택합니다.**
 4. 추가할 파트너의 Microsoft 파트너 ID를 입력하고 **ID 검사** 를 선택한 다음 **제출** 을 선택합니다. 해당 파트너에게 문의하면 Microsoft 파트너 ID를 얻을 수 있습니다.
 5. 파트너 ID가 **구독** 페이지에 표시됩니다.
 
@@ -123,7 +123,7 @@ Office 365의 관리자는 특히 사용자를 만들거나 편집하고, 사용
 이 제안을 수락하는 경우
   
 1. 전자 메일에서 파트너의 약관을 읽습니다.
-2. 계약에 권한을 부여하려면 Office 365의 권한 부여 페이지로 이동하는 링크를 선택합니다.
+2. 계약에 권한을 부여하려면 해당 링크(2016년 8월 1일)의 권한 부여 페이지로 Office 365.
 3. 파트너 **관계에서** **예를** 선택하여 파트너에게 위임된 관리자로 권한을 할당하고 다음 을 **선택합니다.**
 4. 파트너 관계에 대한 제안이 평가판 구독 또는 구매 제안과 함께 제공된 경우 평가판 또는 구독 계정을 생성합니다.
 
@@ -133,7 +133,7 @@ Office 365의 관리자는 특히 사용자를 만들거나 편집하고, 사용
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 2. 구독 세부 정보 페이지의 **파트너 정보에서** 제거를 **선택합니다.**
 3. 새 **파트너의 Microsoft 파트너** 네트워크 ID를 입력합니다. 파트너에게 요청하여 파트너의 Microsoft 파트너 ID를 얻을 수 있습니다.
 4. **추가** 를 선택합니다.
@@ -160,7 +160,7 @@ Office 365의 관리자는 특히 사용자를 만들거나 편집하고, 사용
 
 ## <a name="view-your-partner-relationships"></a>파트너 관계 보기
 
-- 관리 센터에서 설정 파트너 관계  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">페이지로</a> 이동합니다. 파트너가 이 페이지에 나열됩니다.
+- 관리 센터에서 파트너 **관계** 설정  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">이동합니다.</a> 파트너가 이 페이지에 나열됩니다.
 
   파트너가 없는 경우 "아무 것도 없습니다."라는 메시지가 표시됩니다.
   
@@ -168,7 +168,7 @@ Office 365의 관리자는 특히 사용자를 만들거나 편집하고, 사용
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
+1. 관리 센터에서 **결제**\> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a>페이지로 이동하세요.
 2. 제품 **탭에서** 편집할 구독을 선택합니다.
 3. 구독 세부 정보 페이지의 **파트너 정보에서** 제거를 **선택합니다.**
 
@@ -220,4 +220,4 @@ Office 365의 관리자는 특히 사용자를 만들거나 편집하고, 사용
 
 ## <a name="related-articles"></a>관련 문서
 
-[Microsoft 365 파트너 또는 대리점 찾기](../manage/find-your-partner-or-reseller.md)
+[파트너 Microsoft 365 대리업체 찾기](../manage/find-your-partner-or-reseller.md)

@@ -22,12 +22,12 @@ search.appverid: MET150
 description: Microsoft 비즈니스 제품에 대한 청구서 또는 송장을 읽고 이해하는 방법에 대해 알아보세요.
 keywords: 청구 계정, 조직 정보, 송장
 ms.date: 05/04/2021
-ms.openlocfilehash: dc83db458d1d91942352795c9b67578e9f1a2fc2
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: d173df1eac827eb835b8544f64858c28ccf0fb75
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331938"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537310"
 ---
 # <a name="understand-your-bill-or-invoice"></a>청구서 또는 송장 이해하기
 
@@ -143,6 +143,17 @@ Microsoft 365 구독이 있는 경우에는 [비즈니스용 Microsoft 365의 �
 ### <a name="why-dont-i-see-azure-prepayment-as-a-payment-method"></a>Azure 결제를 결제 수단으로 볼 수 없나요?
 
 Azure 결제는 적격 Azure 제품 및 서비스에 대해서만 결제 방법으로 사용할 수 있습니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[비즈니스용 청구서 또는](understand-your-invoice2.md) 송장 Microsoft 365 이해(문서)
+
+[Microsoft 고객 계약 Azure 크레딧 잔액](/azure/billing/billing-mca-check-azure-credits-balance) 추적(문서)
+
+[Microsoft 고객 계약 송장](/azure/cost-management-billing/understand/review-customer-agreement-bill) 검토(문서)
+
+[Microsoft 고객 계약 청구](/azure/billing/billing-mca-overview) 계정 시작(문서)
+
 
 ## <a name="need-help-contact-support"></a>도움이 필요하신가요? 지원 센터 문의
 

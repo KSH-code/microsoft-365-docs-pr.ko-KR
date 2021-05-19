@@ -1,23 +1,24 @@
 ---
 title: 중국(PRC) 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3f71407e837b9a623caa84494aa4ee529133ba18
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: ba47c83a81797f30c956ca16023b299e167566e5
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274019"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536961"
 ---
 # <a name="payment-information-for-china-prc"></a>중국(PRC) 결제 정보
 
@@ -30,7 +31,7 @@ CNY로 결제하고 회사 이름 및 송장 번호를 송금에 참조합니다
 **은행:** Citibank  
 **Branch:** 홍콩  
 **SWIFT 코드:** CITIHKHX  
-**CNAP 코드:** 989584000600   
+**CNAP 코드:** 989584000600  
 **계정 번호:** 1199527009  
 **계정 이름:** MICROSOFT REGIONAL SALES CORP  
-**주의: HK의 RMB RTGS 채널을 통해 결제합니다.**  
+**주의: HK의 RMB RTGS 채널을 통해 결제합니다.**

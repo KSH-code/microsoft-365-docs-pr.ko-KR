@@ -1,23 +1,24 @@
 ---
 title: 자메이카의 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b3c17956fe9b2aac019f084a49cd7cec38f624bc
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: e27136b860c13dbb8ec2290e819482b196ba7d21
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273527"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536577"
 ---
 # <a name="payment-information-for-jamaica"></a>자메이카의 결제 정보
 
@@ -31,4 +32,4 @@ ms.locfileid: "52273527"
 **Branch:** 달라  
 **SWIFT 코드:** BOFAUS3N  
 **계정 번호:** 4426587954  
-**계정 이름:** Microsoft  
+**계정 이름:** Microsoft
