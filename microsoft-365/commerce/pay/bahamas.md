@@ -1,34 +1,35 @@
 ---
 title: 바하마의 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 94d6ab14a58a4635a6881aac2cc4b32a6e10a972
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 5923d572f73b188d8ef2b706db7f61afe9421061
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274235"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537178"
 ---
-# <a name="payment-information-for-bahamas"></a><span data-ttu-id="437cb-103">바하마의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="437cb-103">Payment information for Bahamas</span></span>
+# <a name="payment-information-for-bahamas"></a><span data-ttu-id="5b83c-103">바하마의 결제 정보</span><span class="sxs-lookup"><span data-stu-id="5b83c-103">Payment information for Bahamas</span></span>
 
-<span data-ttu-id="437cb-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="437cb-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="5b83c-104">[다른 국가 또는 지역 을 검색합니다.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="5b83c-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="437cb-105">USD로만 결제하고 송장 번호를 참조하시기 바랍니다.</span><span class="sxs-lookup"><span data-stu-id="437cb-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="5b83c-105">USD로만 결제하고 송장 번호를 참조하시기 바랍니다.</span><span class="sxs-lookup"><span data-stu-id="5b83c-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="437cb-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="437cb-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="5b83c-106">전자 자금 이체</span><span class="sxs-lookup"><span data-stu-id="5b83c-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="437cb-107">**은행:** 뱅크 of America</span><span class="sxs-lookup"><span data-stu-id="437cb-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="437cb-108">**Branch:** 달라</span><span class="sxs-lookup"><span data-stu-id="437cb-108">**Branch:** Dallas</span></span>  
-<span data-ttu-id="437cb-109">**SWIFT 코드:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="437cb-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="437cb-110">**계정 번호:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="437cb-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="437cb-111">**계정 이름:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="437cb-111">**Account Name:** Microsoft</span></span>  
+<span data-ttu-id="5b83c-107">**은행:** 뱅크 of America</span><span class="sxs-lookup"><span data-stu-id="5b83c-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="5b83c-108">**Branch:** 달라</span><span class="sxs-lookup"><span data-stu-id="5b83c-108">**Branch:** Dallas</span></span>  
+<span data-ttu-id="5b83c-109">**SWIFT 코드:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="5b83c-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="5b83c-110">**계정 번호:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="5b83c-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="5b83c-111">**계정 이름:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="5b83c-111">**Account Name:** Microsoft</span></span>
