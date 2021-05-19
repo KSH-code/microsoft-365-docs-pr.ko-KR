@@ -17,14 +17,14 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: 사용자를 추가하고 동시에 Microsoft 365에 라이선스를 할당하는 방법을 알아보세요.
+description: 각 팀 구성원에게는 비즈니스용 Microsoft 365에 로그인하고 액세스할 수 있는 사용자 계정이 필요합니다. 사용자를 추가하고 라이선스를 할당하는 방법을 알아보세요.
 ms.date: 07/01/2020
-ms.openlocfilehash: 3efa32d21a21ed12041f5731296c1b033374712f
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 390576f46bed57929471b16848f9e1fd7e95304d
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274391"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536001"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>사용자 추가 및 동시에 라이선스 할당
 

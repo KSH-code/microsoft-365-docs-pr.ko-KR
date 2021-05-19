@@ -1,23 +1,24 @@
 ---
 title: 네팔의 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bc48c53d6f293dc5d25eb8d509beb45811d58b46
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 1f6db897a89588e0e89fa4b2a8317537a106ba7c
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273215"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535365"
 ---
 # <a name="payment-information-for-nepal"></a>네팔의 결제 정보
 
@@ -30,4 +31,4 @@ ms.locfileid: "52273215"
 **은행:** Citibank, Singapore  
 **SWIFT 코드:** C 조지민 의원  
 **계정 번호:** 0-817543-138  
-**계정 이름:** MICROSOFT REGIONAL SALES CORP  
+**계정 이름:** MICROSOFT REGIONAL SALES CORP

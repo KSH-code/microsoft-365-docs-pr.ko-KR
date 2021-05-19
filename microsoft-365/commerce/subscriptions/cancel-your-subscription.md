@@ -17,14 +17,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
 search.appverid: MET150
-description: 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소하는 방법에 대해 알아보세요.
+description: 사용자 라이선스가 25개 미만인 경우 관리 센터에서 비즈니스용 Microsoft 365 평가판 또는 유료 구독을 취소할 수 있습니다.
 ms.date: 04/08/2021
-ms.openlocfilehash: 022981e91abc985a0540acccccd6f211b39620a4
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 583433e2c2cc939724f772c1cd699cc5763cb21c
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333317"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536121"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -46,7 +46,7 @@ ms.locfileid: "52333317"
 ::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">내 상품</a> 페이지로 이동합니다.
-2. 취소하려는 구독을 찾습니다. **추가 작업**(점 3개)을 선택한 다음 **구독 취소** 를 선택합니다.
+2. 취소하려는 구독을 찾습니다. 점 3개(추가 작업)를 선택한 다음 **구독 취소** 를 선택합니다.
 3. **구독 취소** 창에서 취소 이유를 선택합니다. 원하는 경우, 피드백을 제공하세요.
 4. **저장** 을 선택합니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "52333317"
 ::: moniker-end
 
 2. **상품** 탭을 선택합니다.
-3. 취소하려는 구독을 찾습니다. **추가 작업**(점 3개)을 선택한 다음 **구독 취소** 를 선택합니다.
+3. 취소하려는 구독을 찾습니다. 점 3개(추가 작업)를 선택한 다음 **구독 취소** 를 선택합니다.
 4. **구독 취소** 창에서 취소 이유를 선택합니다. 원하는 경우, 피드백을 제공하세요.
 5. **저장** 을 선택합니다.
 

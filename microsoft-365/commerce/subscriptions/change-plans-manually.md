@@ -20,12 +20,12 @@ search.appverid: MET150
 description: 새 구독을 구입하고 두 구독이 모두 나열되어 활성화되어 있도록 하여 구독을 수동으로 변경합니다.
 ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: 4935301c6d2a530f34d628f946032b7007e5c907
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: f5a44b7a3c01883ed42ca4ed203b63ccf77f9b72
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345181"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536109"
 ---
 # <a name="change-plans-manually"></a>수동으로 계획 변경
 
@@ -94,7 +94,7 @@ ms.locfileid: "52345181"
 
 2. 기존 라이선스를 바꿀 사용자의 이름 옆에 있는 원을 선택합니다.
 
-3. At the top, select **More options** ( (**...**), and then choose Manage **product licenses**.
+3. At the top, select the three dots (more actions), and then choose **Manage product licenses**.
 
 4. **기존 제품 라이선스 할당 바꾸기** \> **다음** 을 선택합니다.
 

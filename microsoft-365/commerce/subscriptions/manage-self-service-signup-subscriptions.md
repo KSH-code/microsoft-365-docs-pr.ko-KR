@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: 조직의 무료 셀프 서비스 등록 구독을 관리하는 방법에 대해 자세히 알아보습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: 9c29d36ff28e312fa3782b60f89fa755d4df9bf3
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 741c9e0b45f127ffc0753b34982073f90c525d5b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345133"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536073"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>셀프 서비스 등록 구독 관리
 
@@ -39,7 +39,7 @@ ms.locfileid: "52345133"
 
 ## <a name="how-are-these-subscriptions-different-from-self-service-purchase-subscriptions"></a>이러한 구독은 셀프 서비스 구매 구독과 어떻게 다른가요?
 
-셀프 서비스 등록 구독은 무료이며 셀프 서비스 구매 구독보다 더 큰 제품 목록에서 사용할 수 있습니다. 사용자가 셀프 서비스 구매 구독에 등록하면 해당 구독 비용을 지불해야 합니다. 셀프 서비스 구매 구독은 Power Platform 제품(Power BI, Power Apps 및 Power Automate), Project 및 Visio 사용할 수 Visio. 자세한 내용은 셀프 서비스 [구매 FAQ 를 참조하세요.](self-service-purchase-faq.md)
+셀프 서비스 등록 구독은 무료이며 셀프 서비스 구매 구독보다 더 큰 제품 목록에서 사용할 수 있습니다. 사용자가 셀프 서비스 구매 구독에 등록하면 해당 구독 비용을 지불해야 합니다. 셀프 서비스 구매 구독은 Power Platform 제품(Power BI, Power Apps 및 Power Automate), Project 및 Visio 사용할 수 Visio. 자세한 내용은 셀프 서비스 [구매 FAQ 를 참조하세요.](self-service-purchase-faq.yml)
 
 ## <a name="block-users-from-signing-up"></a>사용자의 등록 차단
 

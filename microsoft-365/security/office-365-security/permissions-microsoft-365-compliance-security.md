@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 보안 및 규정 준수 센터의 권한
+title: Microsoft 365 규정 준수 센터 및 보안 센터의 권한
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -19,12 +19,12 @@ description: Microsoft 365 보안 센터나 Microsoft 365 규정 준수 센터�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7cc0c69008d942e213f3a86e2852265969dd1971
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: cc2808ffe5d0acd3a5c3c3a6252503ee5e2cf94e
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205829"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52530829"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 권한
 
@@ -35,7 +35,7 @@ ms.locfileid: "51205829"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-조직에서는 모든 Microsoft 365 서비스에 적용되는 보안 및 규정 준수 시나리오를 관리해야 합니다. 조직의 IT 그룹에 속한 적절한 사용자에게 올바른 관리자 권한을 유연하게 부여할 수 있어야 합니다. Microsoft 365 보안 센터나 Microsoft 365 규정 준수 센터를 사용하여 보안 또는 규정 준수와 관련된 모든 작업에 대한 권한을 중앙에서 관리할 수 있습니다.
+조직에서는 모든 Microsoft 365 서비스에 적용되는 규정 준수 및 보안 시나리오를 관리해야 합니다. 조직의 IT 그룹에 속한 적절한 사용자에게 올바른 관리자 권한을 유연하게 부여할 수 있어야 합니다. Microsoft 365 보안 센터나 Microsoft 365 규정 준수 센터를 사용하여 보안 또는 규정 준수와 관련된 모든 작업에 대한 권한을 중앙에서 관리할 수 있습니다.
 
 전역 관리자가 이러한 관리자 역할에 사용자를 추가하면, 이러한 관리자는 Microsoft 365 보안 센터, Microsoft 365 규정 준수 센터, Azure, Office 365, Enterprise Mobility + Security와 같은 Microsoft 365의 모든 서비스에 적용되는 기능과 데이터에 액세스할 수 있습니다.
 

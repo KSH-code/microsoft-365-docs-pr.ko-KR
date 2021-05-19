@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: 관리자는 조직의 사용자가 만든 셀프 서비스 구매를 관리하는 방법을 배울 수 있습니다.
 ms.date: 03/26/2021
-ms.openlocfilehash: af1786b7e3d1b3e4a03202d605d734271acb1da5
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: a4ac4b79a9a73f80fc22e6f14696e25925df9faf
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333341"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536097"
 ---
 # <a name="manage-self-service-purchases-admin"></a>셀프 서비스 구매(관리자) 관리
 
@@ -200,6 +200,6 @@ ms.locfileid: "52333341"
 
 ## <a name="need-help-contact-us"></a>도움이 필요하신가요? 문의해 주시기 바랍니다.
 
-셀프 서비스 구매에 대한 일반적인 질문은 셀프 서비스 [구매 FAQ를 참조하세요.](self-service-purchase-faq.md)
+셀프 서비스 구매에 대한 일반적인 질문은 셀프 서비스 [구매 FAQ를 참조하세요.](self-service-purchase-faq.yml)
 
 셀프 서비스 구매에 대한 질문이나 도움이 필요한 경우 고객 [지원에 문의하세요.](../../business-video/get-help-support.md)

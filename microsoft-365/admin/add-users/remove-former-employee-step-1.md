@@ -24,18 +24,21 @@ search.appverid:
 - MET150
 - MOE150
 description: 이전 직원의 로그인을 차단하고 Microsoft 365 차단합니다.
-ms.openlocfilehash: 60f4cf6b5c9a0b5dc2023b3ef7b6460685142d07
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 8eb41c3b449e63284371aaf168262307a4c21941
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244248"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535953"
 ---
 # <a name="step-1---prevent-a-former-employee-from-logging-in-and-block-access-to-microsoft-365-services"></a>1단계 - 이전 직원이 로그인하지 못하게 방지하고 Microsoft 365 액세스 차단
 
 사용자의 로그인 액세스를 즉시 차단해야 하는 경우 암호를 다시 설정해야 합니다. 이 단계에서는 사용자의 로그인을 강제로 Microsoft 365.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+> [!NOTE]
+> 전역 관리자가 로그인을 시작해야 합니다.
+
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 2. 사용자 이름 옆의 상자를 선택한 다음 암호 다시 설정을 **선택합니다.**
 3. 새 암호를 입력한 다음 다시 설정을 **선택합니다.** (보내지 않습니다.)
 4. 사용자의 이름을 선택하여 속성 창으로 이동하고 계정 탭에서 로그인 시작 **을 선택합니다.** 
@@ -54,7 +57,7 @@ PowerShell을 사용하여 사용자를 즉시 로그인하기 위해 [Revoke-Az
 > [!IMPORTANT]
  > 계정을 차단하는 데 최대 24시간이 걸릴 수 있습니다. 사용자의 로그인 액세스를 즉시 차단해야 하는 경우 위의 단계를 수행하고 암호를 다시 설정하세요.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 2. 차단할 직원의 이름을 선택하고 사용자 이름에서 이 사용자 차단의 **기호를 선택합니다.**
 3. 사용자가 로그인할 수 **없습니다.를** 선택한 다음 저장 을 **선택합니다.**
 

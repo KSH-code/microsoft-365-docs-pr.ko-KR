@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Microsoft 365 Business Basic 구독을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: a4636006a6819769752ef6ae61a5cb7155d5289e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 51a83d4cc230fa4bdb78bba71c9c7193a36fd391
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244470"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535725"
 ---
 # <a name="set-up-microsoft-365-business-basic"></a>Microsoft 365 Business Basic 설정
 
@@ -53,13 +53,13 @@ Microsoft 365 Business Basic을 구입하면 사용자가 소유하고 있는 �
 
 ::: moniker range="o365-germany"
 
-1. Office 365 Germany를 사용하는 경우 [이 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=848041)로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>의 관리 센터로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 21Vianet에서 운영하는 Office 365를 사용하는 경우 [이 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=850627)로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>의 관리 센터로 이동합니다.
 
 ::: moniker-end 
 
@@ -68,7 +68,7 @@ Microsoft 365 Business Basic을 구입하면 사용자가 소유하고 있는 �
 3. **도메인 추가** 단계에서 사용할 도메인 이름(예: contoso.com)을 입력합니다.
 
     > [!IMPORTANT]
-    > 등록할 때 도메인을 구입한 경우에는 **도메인 추가** 단계가 표시되지 않습니다. 대신 [사용자 추가](#add-users-and-assign-licenses)로 이동합니다.
+    > 등록할 때 도메인을 구입한 경우에는 **도메인 추가** 단계가 표시되지 않습니다. 대신 [사용자 추가](#add-users-and-assign-licenses)로 이동하세요.
 
     
 4. 마법사의 단계에 따라 도메인을 소유하고 있는지 확인하는 [DNS 호스팅 공급자에 상관없이 Office 365용 DNS 레코드 만들기](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 완료합니다. 도메인 호스트를 알고 있는 경우 [호스트 관련 지침](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions)을 참조하세요.

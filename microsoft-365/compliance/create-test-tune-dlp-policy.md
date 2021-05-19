@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 이 문서에서는 조직의 요구에 따라 DLP 정책을 만들고 테스트하고 조정하는 방법을 배우게 됩니다.
-ms.openlocfilehash: bd4857a2baefb22d789fc713a537d7e4a656718d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e252c7328c59c246f739caf4b70acd44de010e42
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052086"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52532521"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 
@@ -36,9 +36,9 @@ DLP는 전자 메일 메시지와 파일에 신용 카드 번호와 같은 중�
 - 전자 메일을 보내거나 파일을 공유하는 최종 사용자에게 경고 표시
 - 전자 메일 또는 파일 공유가 사용되지 않습니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
-DLP 정책을 만드는 규정 준수 팀 구성원에게는 준수 센터에 대한 사용 권한이 필요합니다. 기본적으로 테넌트 관리자는 규정 준수 관리자 및 기타 사용자 액세스 권한을 부여할 수 있습니다. 다음 단계를 따릅니다:
+DLP 정책을 만드는 규정 준수 팀 구성원에게는 준수 센터에 대한 사용 권한이 필요합니다. 기본적으로 테넌트 관리자는 규정 준수 관리자 및 기타 사용자 액세스 권한을 부여할 수 있습니다. 다음 단계를 따르세요.
   
 1. Microsoft 365에서 그룹을 생성하고 규정 준수 책임자를 추가하십시오.
     
@@ -50,7 +50,7 @@ DLP 정책을 만드는 규정 준수 팀 구성원에게는 준수 센터에 �
 
 보기 전용 **DLP 준수 관리** 역할을 사용하여 DLP 정책 및 DLP 보고서에 대한 보기 전용 권한이 있는 역할 그룹을 만들 수 있습니다.
 
-더 자세한 내용은 [Office 365 준수 센터 액세스 권한 부여하기](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md)를 참고하십시오.
+더 자세한 내용은 [Office 365 준수 센터 액세스 권한 부여하기](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참고하십시오.
   
 이러한 사용 권한은 정책을 적용하지 않는 DLP 정책을 만들고 적용하는 데 필요합니다.
 
@@ -73,9 +73,9 @@ DLP가 신용 카드 만료 날짜일 수 있는 "VISA" 또는 "AMEX"과 같은 
 
 데이터 누출 위험이 완전히 명확하지 않은 경우 DLP 구현을 정확히 어디서 시작해야 하는지 해결하기가 어렵습니다. 다행히 DLP 정책을 "테스트 모드"로 실행하여 켜기 전에 효율성과 정확성을 측정할 수 있습니다.
 
-Exchange Online에 대한 DLP 정책은 Exchange 관리 센터를 통해 관리할 수 있습니다. 그러나 보안 및 준수 센터를 통해 모든 & DLP 정책을 구성할 수 있으므로 이 문서의 데모에 사용할 수 있습니다. 보안 및 & 센터에서 데이터 손실 방지 정책 아래에 DLP **정책을 찾을 수**  >  **있습니다.** 정책 **만들기를 선택하면** 시작할 수 있습니다.
+사용자에 대한 DLP Exchange Online 관리 센터를 통해 관리할 Exchange 있습니다. 그러나 보안 및 준수 센터를 통해 모든 & DLP 정책을 구성할 수 있으므로 이 문서의 데모에 사용할 수 있습니다. 보안 및 & 센터에서 데이터 손실 방지 정책 아래에 DLP **정책을 찾을 수**  >  **있습니다.** 정책 **만들기를 선택하면** 시작할 수 있습니다.
 
-Microsoft 365는 정책을 만드는 데 사용할 수 있는 [다양한 DLP](what-the-dlp-policy-templates-include.md) 정책 템플릿을 제공합니다. 오스트레일리아 비즈니스를 하고 있습니다. 오스트레일리아에서 템플릿을 필터링하고 재무, 의료 및 건강 및 개인 정보를 선택할 수 있습니다.
+Microsoft 365 정책을 만드는 데 사용할 수 있는 [다양한 DLP](what-the-dlp-policy-templates-include.md) 정책 템플릿을 제공합니다. 오스트레일리아 비즈니스를 하고 있습니다. 오스트레일리아에서 템플릿을 필터링하고 재무, 의료 및 건강 및 개인 정보를 선택할 수 있습니다.
 
 ![국가 또는 지역 선택 옵션](../media/DLP-create-test-tune-choose-country.png)
 
@@ -87,17 +87,17 @@ Microsoft 365는 정책을 만드는 데 사용할 수 있는 [다양한 DLP](wh
 
 ![정책 이름을 지정하는 옵션](../media/DLP-create-test-tune-name-policy.png)
 
-정책을 적용할 위치를 선택하세요. DLP 정책은 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive에 적용할 수 있습니다. 이 정책을 모든 위치에 적용하도록 구성한 그대로 두도록 하세요.
+정책을 적용할 위치를 선택하세요. DLP 정책은 온라인, Exchange Online, SharePoint 정책에 적용할 비즈니스용 OneDrive. 이 정책을 모든 위치에 적용하도록 구성한 그대로 두도록 하세요.
 
 ![모든 위치를 선택하는 옵션](../media/DLP-create-test-tune-choose-locations.png)
 
-첫 번째 정책 **설정 단계에서** 지금 기본값을 적용합니다. DLP 정책을 사용자 지정할 수 있지만 기본값은 시작할 수 있는 좋은 위치입니다.
+첫 번째 **정책** 설정 지금은 기본값을 적용합니다. DLP 정책을 사용자 지정할 수 있지만 기본값은 시작할 수 있는 좋은 위치입니다.
 
 ![보호할 콘텐츠 형식을 사용자 지정하는 옵션](../media/DLP-create-test-tune-default-customization-settings.png)
 
 다음을 클릭하면 추가 사용자 지정 옵션이 있는  추가 정책 설정 페이지가 표시됩니다. 방금 테스트하는 정책의 경우 조정을 시작할 수 있는 위치는 다음과 같습니다.
 
-- 지금은 정책 팁을 해제했습니다. 이 단계는 단지 테스트만 하고 사용자에게 아무것도 표시하지 않고 싶지 않은 경우 취할 적절한 단계입니다. 정책 팁은 DLP 정책을 위반할 것 같은 경고를 사용자에게 표시합니다. 예를 들어 Outlook 사용자는 첨부한 파일에 신용 카드 번호가 포함되어 있으며 전자 메일이 거부된다는 경고가 표시됩니다. 정책 팁의 목표는 비규준 행동이 발생하기 전에 중지하는 것입니다.
+- 지금은 정책 팁을 해제했습니다. 이 단계는 단지 테스트만 하고 사용자에게 아무것도 표시하지 않고 싶지 않은 경우 취할 적절한 단계입니다. 정책 팁은 DLP 정책을 위반할 것 같은 경고를 사용자에게 표시합니다. 예를 들어 Outlook 파일에 신용 카드 번호가 포함되어 있으며 전자 메일이 거부될 것 같은 경고가 표시됩니다. 정책 팁의 목표는 비규준 행동이 발생하기 전에 중지하는 것입니다.
 - 또한 인스턴스 수를 10에서 1로 줄이면 이 정책은 데이터의 대량 공유가 아니라 오스트레일리아 PII 데이터 공유를 검색합니다.
 - 또한 문제 보고서 전자 메일에 다른 받는 사람을 추가하기도 합니다.
 
@@ -152,7 +152,7 @@ DLP 정책 내에서 규칙을 편집할 때 다음을 변경할 수 있습니�
 - 규칙을 트리거할 중요한 데이터의 인스턴스 유형 및 수를 비롯한 조건입니다.
 - 콘텐츠에 대한 액세스 제한과 같은 수행되는 작업입니다.
 - 사용자 알림 - 전자 메일 클라이언트 또는 웹 브라우저에서 사용자에게 표시되는 정책 팁입니다.
-- 사용자가 전자 메일 또는 파일 공유를 계속할 수 있는지 여부를 결정하는 사용자 오버라이드입니다.
+- 사용자 오버라이드는 사용자가 전자 메일 또는 파일 공유를 계속할지 여부를 결정합니다.
 - 관리자에게 알리기 위해 문제 보고서를 제공합니다.
 
 ![규칙의 일부를 편집하는 옵션](../media/DLP-create-test-tune-editing-options.png)
@@ -173,9 +173,9 @@ DLP 정책 내에서 규칙을 편집할 때 다음을 변경할 수 있습니�
 
 ![테스트 모드에서 정책 팁을 표시하는 옵션](../media/DLP-create-test-tune-show-policy-tips.png)
 
-서버 쪽(또는 원하는 경우 클라우드 쪽)에서는 다양한 처리 간격으로 인해 변경이 즉시 적용되지 않을 수 있습니다. 사용자에게 새 정책 팁을 표시하는 DLP 정책을 변경하는 경우 Outlook 클라이언트에서 변경 내용이 즉시 적용되지 않을 수 있습니다. 이 경우 24시간마다 정책 변경 사항을 확인할 수 있습니다. 테스트 속도를 향상하려면 이 레지스트리 수정을 사용하여 [PolicyNudges](https://support.microsoft.com/en-au/help/2823261/changes-to-a-data-loss-prevention-policy-don-t-take-effect-in-outlook?__hstc=18650278.46377037dc0a82baa8a30f0ef07a7b2f.1538687978676.1538693509953.1540315763430.3&__hssc=18650278.1.1540315763430&__hsfp=3446956451)키에서 마지막 다운로드 타임스탬프를 지우면 됩니다. Outlook은 다음에 다시 시작하고 전자 메일 메시지 작성을 시작할 때 최신 정책 정보를 다운로드합니다.
+서버 쪽(또는 원하는 경우 클라우드 쪽)에서는 다양한 처리 간격으로 인해 변경이 즉시 적용되지 않을 수 있습니다. 사용자에게 새 정책 팁을 표시하는 DLP 정책을 변경하는 경우 사용자가 24시간마다 정책 변경을 검사하는 Outlook 클라이언트에서 변경 내용이 즉시 적용되지 않을 수 있습니다. 테스트 속도를 향상하려면 이 레지스트리 수정을 사용하여 [PolicyNudges](https://support.microsoft.com/en-au/help/2823261/changes-to-a-data-loss-prevention-policy-don-t-take-effect-in-outlook?__hstc=18650278.46377037dc0a82baa8a30f0ef07a7b2f.1538687978676.1538693509953.1540315763430.3&__hssc=18650278.1.1540315763430&__hsfp=3446956451)키에서 마지막 다운로드 타임스탬프를 지우면 됩니다. Outlook 다음에 다시 시작하고 전자 메일 메시지 작성을 시작할 때 최신 정책 정보를 다운로드합니다.
 
-정책 팁을 사용하도록 설정한 경우 사용자는 Outlook에서 팁을 보기 시작하고 발생할 때 가짓 긍정을 보고할 수 있습니다.
+정책 팁을 사용하도록 설정한 경우 사용자는 정책 팁을 Outlook 보고할 수 있습니다.
 
 ![가짓 긍정 보고 옵션이 있는 정책 팁](../media/DLP-create-test-tune-policy-tip-in-outlook.png)
 
@@ -199,14 +199,12 @@ DLP 정책 템플릿이 바로 완벽한 것은 아니며, 사용자 환경에�
 
 
 한 가지 옵션은 정책에서 오스트레일리아 운전 면허 정보 유형을 제거하는 것입니다. 이 템플릿은 DLP 정책 템플릿의 일부이기 때문에 이 템플릿에 있지만 강제로 사용할 수 없습니다. 세금 파일 번호에만 관심이 있으며 운전 면허증이 아닌 경우 제거할 수 있습니다. 예를 들어 정책의 낮은 볼륨 규칙에서 제거하 고 볼륨 규칙에 그대로 두면 여러 드라이버 라이선스 목록이 계속 검색됩니다.
-
-![규칙에서 중요한 정보 유형을 삭제하는 옵션](../media/DLP-create-test-tune-delete-low-volume-rule.png)
  
-또 다른 옵션은 인스턴스 수를 늘리기만 하여 여러 인스턴스가 있을 때만 적은 볼륨의 드라이버 라이선스가 검색될 수 있도록 하는 것입니다.
+또 다른 옵션은 인스턴스 수를 늘려 인스턴스가 여러 개 있을 때만 적은 볼륨의 드라이버 라이선스가 검색될 수 있도록 하는 것입니다.
 
 ![인스턴스 수 편집 옵션](../media/DLP-create-test-tune-edit-instance-count.png)
 
-인스턴스 수를 변경하는 것 외에도 일치 정확도(또는 신뢰도)를 조정할 수 있습니다. 중요한 정보 유형에 여러 패턴이 있는 경우 규칙이 특정 패턴과만 일치하도록 규칙에서 일치 정확도를 조정할 수 있습니다. 예를 들어 가짓 긍정을 줄이기 위해 신뢰 수준이 가장 높은 패턴만 일치하게 규칙의 일치 정확도를 설정할 수 있습니다. 신뢰도 계산 방법을 이해하기가 약간 까다롭고 이 게시물의 범위를 벗어남이지만 다음은 신뢰 수준을 사용하여 규칙을 조정하는 방법에 대한 좋은 [설명입니다.](data-loss-prevention-policies.md#match-accuracy)
+인스턴스 수를 변경하는 것 외에도 일치 정확도(또는 신뢰도)를 조정할 수 있습니다. 중요한 정보 유형에 여러 패턴이 있는 경우 규칙이 특정 패턴과만 일치하도록 규칙에서 일치 정확도를 조정할 수 있습니다. 예를 들어 가짓 긍정을 줄이기 위해 신뢰 수준이 가장 높은 패턴만 일치하게 규칙의 일치 정확도를 설정할 수 있습니다. 신뢰 수준에 대한 자세한 내용은 신뢰 수준을 사용하여 규칙을 조정하는 [방법을 참조하세요.](data-loss-prevention-policies.md#match-accuracy)
 
 마지막으로 좀 더 고급화하려는 경우 중요한 정보 유형을 사용자 지정할 수 있습니다. 예를 들어 호주 운전 면허 번호에 대한 [](sensitive-information-type-entity-definitions.md#australia-drivers-license-number)키워드 목록에서 "Sydney NSW"를 제거하여 위에 트리거된 가긍성 문제를 제거할 수 있습니다. XML 및 PowerShell을 사용하여 이 작업을 하는 방법에 대한 자세한 내용은 기본 제공 중요한 정보 유형 사용자 [지정을 참조하세요.](customize-a-built-in-sensitive-information-type.md)
 
@@ -216,7 +214,7 @@ DLP 정책이 중요한 정보 유형을 정확하고 효과적으로 감지하�
 
 ![정책을 켜는 옵션](../media/DLP-create-test-tune-turn-on-policy.png)
  
-정책이 언제 적용될지 기다리는 중이면 보안 및 준수 센터 [PowerShell에](/powershell/exchange/connect-to-scc-powershell) & [Get-DlpCompliancePolicy cmdlet을](/powershell/module/exchange/get-dlpcompliancepolicy) 실행하여 DistributionStatus를 봐야 합니다.
+정책이 언제 적용될지 기다리는 경우 보안 커넥트 준수 센터 [PowerShell로](/powershell/exchange/connect-to-scc-powershell) & [Get-DlpCompliancePolicy cmdlet을](/powershell/module/exchange/get-dlpcompliancepolicy) 실행하여 DistributionStatus를 봐야 합니다.
 
 ![PowerShell에서 cmdlet 실행](../media/DLP-create-test-tune-PowerShell.png)
 

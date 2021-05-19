@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자 및 관리자 활동을 확인해 보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f61a67b29dec114d222dfc7b25e44c163859ba41
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: dfda69e5695d2097de5bfae48b580e23799edf87
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051740"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536049"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>준수 센터에서 감사 로그 검색
 
@@ -501,7 +501,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 
 - Microsoft 365 그룹 사용자 또는 관리자가 새 그룹을 만들 때 사이트 수집, 목록 업데이트 및 SharePoint 그룹에 구성원을 추가하기 위한 감사 레코드가 생성됩니다. 이 작업은 그룹을 만든 사용자를 대신하여 응용 프로그램을 수행합니다.
 
-- Microsoft Teams. Microsoft 365 그룹과 마찬가지로 팀이 생성될 때 사이트 수집을 생성하고, 목록을 업데이트하고, SharePoint 그룹에 구성원을 추가하는 감사 레코드가 생성됩니다.
+- Microsoft Teams. Microsoft 365 그룹과 마찬가지로 팀이 생성될 때 사이트 수집을 생성하고, 목록을 업데이트하고, SharePoint 그룹에 구성원을 추가하는 감사 기록이 생성됩니다.
 
 - 규정 준수 기능 관리자가 보존 정책과 같은 컴플라이언스 기능을 구현할 때 eDiscovery가 유지되고 감도 레이블이 자동으로 적용됩니다.
 
@@ -575,7 +575,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 |액세스 요청 거부됨 |AccessRequestDenied|사이트, 폴더 또는 문서에 대한 액세스 요청을 거부했습니다.|
 |회사에서 공유할 수 있는 링크 제거됨|CompanyLinkRemoved|사용자가 리소스에 대한 회사 차원의 링크를 제거했습니다. 더 이상 링크를 사용하여 리소스에 액세스할 수 없습니다.|
 |익명 링크 제거됨|AnonymousLinkRemoved|사용자가 리소스에 대한 익명 링크를 제거했습니다. 더 이상 링크를 사용하여 리소스에 액세스할 수 없습니다.|
-|공유 파일, 폴더 또는 사이트|SharingSet|사용자(구성원 또는 게스트)가 SharePoint Online 또는 비즈니스용 OneDrive에서 조직의 디렉터리에 있는 사용자와 파일, 폴더 또는 사이트를 공유했습니다. 이 활동에 대한 **세부 정보** 열의 값은 리소스가 공유된 사용자의 이름과 이 사용자가 구성원인지, 게스트인지를 식별합니다. <br/><br/> 이 활동에는 대체로 사용자에게 리소스에 대한 액세스 권한이 어떻게 부여되었는지를 설명하는 두 번째 이벤트가 수반됩니다. 예를 들어, 리소스에 대한 액세스 권한이 있는 그룹에 사용자를 추가합니다.|
+|공유 파일, 폴더 또는 사이트|SharingSet|사용자(구성원 또는 게스트)가 SharePoint Online 또는 비즈니스용 OneDrive에서 조직의 디렉터리에 있는 사용자와 파일, 폴더 또는 사이트를 공유했습니다. 이 활동에 대한 **세부 정보** 열의 값은 리소스가 공유된 사용자의 이름과 이 사용자가 구성원인지, 게스트인지를 식별합니다. <br/><br/> 이 활동에는 대체로 사용자에게 리소스에 대한 액세스 권한이 어떻게 부여되었는지를 설명(예: 리소스에 대한 액세스 권한이 있는 그룹에 사용자 추가)하는 두 번째 이벤트가 수반됩니다.|
 |액세스 요청 업데이트됨|AccessRequestUpdated|항목에 대한 액세스 요청이 업데이트되었습니다.|
 |익명 링크 업데이트됨 |AnonymousLinkUpdated|사용자가 리소스에 대한 익명 링크를 업데이트했습니다. 업데이트된 필드는 검색 결과를 내보낼 때 EventData 속성에 포함됩니다.|
 |공유 초대 업데이트됨|SharingInvitationUpdated|외부 공유 초대가 업데이트되었습니다.|
@@ -648,7 +648,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 |받는 사람 연결 삭제됨|SendToConnectionRemoved|SharePoint 또는 전역 관리자가 SharePoint 관리 센터의 레코드 관리 페이지에서 보내기 연결을 삭제합니다.|
 |사이트 삭제됨|SiteDeleted|사이트 관리자가 사이트를 삭제합니다.|
 |문서 미리 보기가 사용하도록 설정됨|PreviewModeEnabledSet|사이트 관리자가 사이트에 대해 문서 미리 보기를 사용하도록 설정합니다.|
-|레거시 워크플로가 사용하도록 설정됨|LegacyWorkflowEnabledSet|사이트 관리자 또는 소유자가 SharePoint 2013 워크플로 작업 콘텐츠 형식을 사이트에 추가합니다. 전역 관리자는 SharePoint 관리 센터에서 전체 조직에 대해 워크플로를 사용하도록 설정할 수도 있습니다.|
+|레거시 워크플로가 사용하도록 설정됨|LegacyWorkflowEnabledSet|사이트 관리자 또는 소유자가 사이트에 SharePoint 2013 워크플로 작업 콘텐츠 형식을 추가합니다. 또한 전역 관리자는 SharePoint 관리 센터에서 전체 조직에 대한 워크플로를 사용하도록 설정할 수 있습니다.|
 |Office on Demand가 사용하도록 설정됨|OfficeOnDemandSet|사이트 관리자가 최신 버전의 Office 데스크톱 응용 프로그램에 액세스할 수 있도록 하는 Office on Demand를 사용하도록 설정합니다. Office on Demand는 SharePoint 관리 센터에서 사용되도록 설정되며 설치된 전체 Office 응용 프로그램을 포함하는 Microsoft 365 구독이 있어야 사용할 수 있습니다.|
 |사용자 검색 결과 원본이 사용하도록 설정됨|PeopleResultsScopeSet|사이트 관리자가 사이트에 대한 사용자 검색 결과 원본을 만듭니다.|
 |RSS 피드가 사용하도록 설정됨|NewsFeedEnabledSet|사이트 관리자 또는 소유자가 사이트에 대해 RSS 피드를 사용하도록 설정합니다. 전역 관리자는 SharePoint 관리 센터에서 전체 조직에 대해 RSS 피드를 사용하도록 설정할 수 있습니다.|
@@ -673,7 +673,7 @@ FilePreviewed 및 FileAccessed 이벤트 모두 사용자의 통화에서 파일
 |이름|작업|설명|
 |:-----|:-----|:-----|
 |액세스한 사서함 항목|MailItemsAccessed|사서함에서 메시지를 읽거나 액세스했습니다. 이 활동에 대한 감사 레코드는 메일 클라이언트(예: Outlook)가 메시지에 대한 바인드 작업을 수행하는 경우 또는 메일 프로토콜(예: Exchange ActiveSync 또는 IMAP)이 메일 폴더의 항목을 동기화하는 경우의 두 가지 방법 중 하나로 트리거됩니다. 이 활동은 Office 365 또는 Microsoft 365 E5 라이선스가 있는 사용자에게만 기록됩니다. 이 활동에 대한 감사 레코드를 분석하면 손상된 전자 메일 계정을 조사할 때 유용합니다. 자세한 내용은 [고급 감사](advanced-audit.md#access-to-crucial-events-for-investigations)의 "조사에 대한 중요 이벤트 액세스" 섹션을 참조하세요. |
-|대리인 사서함 사용 권한 추가됨|AddMailboxPermissions|관리자가 다른 사람의 사서함에 사용자(대리인)에 대한 FullAcess 사서함 사용 권한을 부여했습니다. FullAccess 사용 권한이 부여된 대리인은 다른 사람의 사서함을 열고 사서함의 콘텐츠를 읽거나 관리할 수 있습니다.|
+|대리인 사서함 사용 권한 추가됨|Add-MailboxPermission|관리자가 다른 사람의 사서함에 사용자(대리인)에 대한 FullAcess 사서함 사용 권한을 부여했습니다. FullAccess 사용 권한이 부여된 대리인은 다른 사람의 사서함을 열고 사서함의 콘텐츠를 읽거나 관리할 수 있습니다.|
 |일정 폴더에 대한 대리인 액세스 권한이 있는 사용자 추가 또는 제거 됨|UpdateCalendarDelegation|사용자가 다른 사용자의 사서함 일정에 대리인으로 추가 또는 제거되었습니다. 일정 위임 기능을 사용하여 같은 조직의 다른 사용자가 사서함 소유자의 일정을 관리할 수 있습니다.|
 |폴더에 사용 권한 추가됨|AddFolderPermissions|폴더 사용 권한이 추가되었습니다. 폴더 사용 권한은 사서함의 폴더와 해당 폴더에 있는 메시지에 액세스할 수 있는 조직의 사용자를 제어합니다.|
 |메시지가 다른 폴더에 복사됨|복사|메시지가 다른 폴더에 복사되었습니다.|
@@ -900,7 +900,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 ### <a name="quarantine-activities"></a>격리 활동
 
-다음 표에는 감사 로그에서 검색 할 수 있는 격리 활동이 나와 있습니다. 격리에 대한 자세한 내용은 [ㅡMicrosoft Office 365에서 전자 메일 메시지 격리](../security/defender-365-security/quarantine-email-messages.md)를 참조하세요.
+다음 표에는 감사 로그에서 검색 할 수 있는 격리 활동이 나와 있습니다. 격리에 대한 자세한 내용은 [ㅡMicrosoft Office 365에서 전자 메일 메시지 격리](../security/office-365-security/quarantine-email-messages.md)를 참조하세요.
 
 |이름|작업|설명|
 |:-----|:-----|:-----|
@@ -999,7 +999,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 ### <a name="briefing-email-activities"></a>브리핑 전자 메일 활동
 
-다음 표에 Office 365 감사 로그에 기록되는 브리핑 전자 메일 활동이 나와 있습니다. 브리핑 전자 메일에 대한 자세한 내용은 다음을 참조하세요.
+다음 표에 Office 365 감사 로그에 기록되는 브리핑 전자 메일 활동이 나와 있습니다. 전자 메일 요약에 대한 자세한 내용은 다음을 참조하세요.
 
 - [브리핑 자 메일 개요](/Briefing/be-overview)
 

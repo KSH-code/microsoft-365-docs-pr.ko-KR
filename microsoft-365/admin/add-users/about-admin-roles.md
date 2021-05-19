@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
-description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어, 서비스 관리자는 관리 센터를 통해 지원 티켓을 열 수 있습니다.
-ms.openlocfilehash: d220ee918f70a56ba27bdad9d7d0f45025fad451
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+description: 서비스 관리자와 같은 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
+ms.openlocfilehash: 7ba8b6fd483901fde31a9bceca189797b4f2e16d
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759411"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536013"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 
@@ -43,7 +43,7 @@ Microsoft 365 관리 센터에서 관리할 수 있는 자세한 Intune 역할 �
 
 Microsoft 365 관리 센터에서 역할을 할당하는 방법에 대한 자세한 내용은 [관리자 역할 할당하기](assign-admin-roles.md)를 참조하세요.
 
-### <a name="watch-what-is-an-admin"></a>시청: 관리자란 무언인가요?
+## <a name="watch-what-is-an-admin"></a>시청: 관리자란 무언인가요?
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SRc0]
 
@@ -70,7 +70,7 @@ Microsoft 365 관리 센터에서 **역할** 로 이동한 다음 아무 역할�
 |청구 관리자     |   구매를 진행하고 구독 및 서비스 요청을 관리하고 서비스 상태를 모니터링을 하는 사용자에게 청구 관리자 역할을 할당합니다. <br><br> 청구 관리자는 다음 기능을 수행할 수 있습니다.<br> - 청구의 모든 측면 관리 <br> - Azure Portal에서 지원 티켓 만들기 및 관리 <br>  |
 |Exchange 관리자     |   사용자의 전자 메일 사서함, Microsoft 365 그룹 및 Exchange Online을 확인하고 관리 해야 하는 사용자에게 Exchange 관리자 역할을 할당합니다. <br><br> Exchange 관리자는 다음 작업도 수행할 수 있습니다.<br> - 사용자의 사서함에서 삭제된 항목 복구 <br> - "다른 사람 이름으로 보내기" 및 "대신 보내기" 대리인 설정 <br>  |
 |전역 관리자     |   Microsoft 온라인 서비스를 통해 대부분의 관리 기능과 데이터에 대한 전역 액세스 권한을 필요로 하는 사용자에게 전역 관리자 역할을 할당합니다. <br><br> 사용자에게 너무 많은 전역 액세스 권한을 부여 하는 것은 보안상 위험하며 2~4명의 전역 관리자를 사용하는 것이 좋습니다. <br><br> 다음 작업은 전역 관리자만 수행할 수 있습니다.<br> - 관리자 암호 다시 설정 <br> - 도메인 추가 및 관리 <br> <br> **참고**: Microsoft 온라인 서비스에 등록하는 사람은 자동으로 전역 관리자가 됩니다. |
-|전역 읽기 권한자    |   관리자 센터에서 전역 관리자가 볼 수 있는 관리자 기능 및 설정을 보아야 하는 사용자에게 전역 읽기 권한자 역할을 할당합니다. 전역 읽기 권한자 관리자는 설정을 편집할 수 없습니다.   |
+|전역 읽기 권한자    |   관리자 센터에서 전역 관리자가 볼 수 있는 관리자 기능 및 설정을 보아야 하는 사용자에게 전역 읽기 권한자 역할을 할당합니다. 전역 리더 관리자는 설정을 편집할 수 없습니다.   |
 |그룹 관리자     |   Microsoft 365 관리 센터 및 Azure Active Directory 포털을 포함하여 관리 센터 전체에서 모든 그룹 설정을 관리해야 하는 사용자에게 그룹 관리자 역할을 할당합니다. <br><br> 그룹 관리자는 다음을 수행할 수 있습니다.<br> - Microsoft 365 그룹 만들기, 편집, 삭제 및 복원 <br> - 그룹 생성, 만료 및 명명 정책 만들기 및 업데이트 <br> - Azure Active Directory 보안 그룹 만들기, 편집, 삭제 및 복원| 
 |헬프데스크 관리자     |   다음 작업을 수행해야 하는 사용자에게 헬프데스크 관리자 역할을 할당합니다.<br> - 암호 초기화 <br> - 강제로 사용자에게 로그 아웃 <br> - 서비스 요청 관리 <br> - 서비스 상태 모니터링 <br> <br> **참고**: 헬프 데스크 관리자는 관리자 이외의 사용자와 디렉터리 읽기 권한자, 게스트 초대자, 헬프 데스크 관리자, 메시지 센터 읽기 권한자 및 보고서 읽기 권한자와 같은 역할을 할당 받은 사용자만 도울 수 있습니다.      |
 |라이선스 관리자    |   사용자 라이선스를 할당 및 제거하고 사용 위치를 편집해야 하는 사용자에게 라이선스 관리자 역할을 할당합니다. <br/><br/> 라이선스 관리자도 다음 기능을 수행할 수 있습니다. <br> - 그룹 기반 라이선스에 대한 라이선스 할당 다시 처리 <br> - 그룹 기반 라이선스를 위해 그룹에 제품 라이선스 할당  |
@@ -93,12 +93,12 @@ Microsoft 파트너와 함께 업무를 진행하는 경우에는 파트너에�
 
 파트너가 이러한 역할을 사용자에게 할당하기 전에 파트너를 사용자 계정에 위임된 관리자로 추가해야 합니다. 이 프로세스는 공인 파트너가 시작 합니다. 파트너는 사용자가 파트너에게 위임된 관리자 역할을 수행할 권한을 부여할 것인지 묻는 전자 메일을 보냅니다. 안내 사항은 [파트너 관계 승인 또는 제거](../misc/add-partner.md)를 참조하십시오.
   
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[관리자 역할 할당](assign-admin-roles.md)
+[관리자 역할 할당](assign-admin-roles.md)(문서)
 
-[Microsoft 365 관리 센터의 Azure AD 역할](azure-ad-roles-in-the-mac.md)
+[Microsoft 365 관리 센터의 Azure AD](azure-ad-roles-in-the-mac.md)(문서)
 
-[Exchange Online 관리자 역할](about-exchange-online-admin-role.md)
+[Exchange Online 관리자 역할](about-exchange-online-admin-role.md)(문서)
   
-[Office 365 관리 센터의 활동 보고서](../activity-reports/activity-reports.md)
+[Microsoft 365 관리 센터의 활동](../activity-reports/activity-reports.md)(문서)

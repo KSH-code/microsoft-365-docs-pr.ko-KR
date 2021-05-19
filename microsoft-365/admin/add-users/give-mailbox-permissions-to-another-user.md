@@ -22,13 +22,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
-description: '사용자에게 다른 사용자의 사서함에 액세스할 수 있는 권한을 부여하는 방법에 대해 알아봅니다. 이를 통해 사용자에게 다른 사용자의 사서함에서 메일을 읽고 보낼 수 있는 권한을 부여합니다. '
-ms.openlocfilehash: e6b94d4e24b0ff1d5dc397ccbcfba98929a303f2
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: 사용자에게 다른 사용자의 사서함에 액세스할 수 있는 권한을 부여합니다. 그러면 사용자가 다른 사용자의 사서함에서 전자 메일을 읽고 보낼 수 있습니다.
+ms.openlocfilehash: 3514be02f2ef82b727edfcf86c0bd3f6b8515510
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925545"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535965"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>다른 사용자에게 사서함 권한 제공 - 관리자 도움말
 
@@ -205,11 +205,11 @@ ms.locfileid: "49925545"
 ::: moniker-end
 
 
-## <a name="send-and-read-from-outlook-and-outlook-on-the-web-for-business"></a>Outlook 및 웹용 Outlook 비즈니스 에디션에서 보내기 및 읽기
-
-
-다른 사용자의 사서함에서 전자 메일을 보내는 방법을 알고 싶으세요? 다음 항목을 확인하세요.
+## <a name="related-content"></a>관련 콘텐츠
   
-- [다른 사용자의 메일 및 일정 항목 관리](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)
+[다른 사용자의 메일 및 일정 항목 관리](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)(문서)
     
-- [다른 사용자 또는 그룹 이름으로 전자 메일 보내기](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b)
+[다른 사용자 또는 그룹 이름으로 전자 메일 보내기](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b)(문서)
+
+[사용자 이름 및 전자 메일 주소 변경](../add-users/change-a-user-name-and-email-address.md)(비디오)
+

@@ -14,19 +14,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 search.appverid: MET150
-description: 비즈니스용 Microsoft 365 구독 결제에 사용할 수 있는 결제 옵션을 알아봅니다.
+description: 신용 카드 또는 직불 카드 또는 은행 계좌를 사용하여 Microsoft 365 비즈니스 에디션 구독 비용을 지불하거나 경우에 따라 청구서로 결제할 수 있습니다.
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
 - commerce_billing
 ms.date: 05/04/2021
-ms.openlocfilehash: 282e8106e75a94b3c9693a2aba9bfa2edf72f6ed
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: eb1e8ed9e932b09a82dc8529f933a1926868319d
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331973"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535701"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>구독 결제 방법
 

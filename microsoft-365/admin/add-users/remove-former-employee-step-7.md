@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 다음 단계에 따라 이전 직원의 사용자 계정을 삭제합니다.
-ms.openlocfilehash: 0afa9b112919d2668d7553ac5bcf08e664bc1749
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 5ca428079091c4af44ef1efa9be3d7340e254995
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244237"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535941"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>7단계 - 이전 직원의 사용자 계정 삭제
 
@@ -38,12 +38,18 @@ ms.locfileid: "52244237"
 > [!IMPORTANT]
 > 전자 메일 전달을 설정했거나 공유 사서함으로 변환한 경우 계정을 삭제하지 마세요. 전달 또는 공유 사서함의 기준 위치가 되는 계정이 필요합니다.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 2. 삭제할 직원의 이름을 선택합니다.
 3. 사용자 이름에서 사용자 **삭제 를 선택합니다.** 이 사용자에 대해 원하는 옵션을 선택한 다음 사용자 삭제 **를 선택합니다.** 이 사용자의 전자 메일 및 OneDrive 다른 사용자에게 이미 액세스 권한을 부여한 경우 여기에서 다시 할 수 없습니다.
 
 사용자를 삭제하면 해당 계정은 약 30일간 비활성 상태가 됩니다. 이 기간에 계정을 복원하지 않으면 영구적으로 삭제됩니다.
-  
+
+## <a name="watch-delete-a-former-employees-user-account"></a>감시: 이전 직원의 사용자 계정 삭제
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR]
+
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
+
 ## <a name="does-your-organization-use-active-directory"></a>조직에서 Active Directory를 사용하나요?
 
 조직에서 사용자 계정을 로컬 Active Directory Microsoft 365 사용자 계정을 동기화하는 경우 로컬 Active Directory 서비스에서 해당 사용자 계정을 삭제하고 복원해야 합니다. Office 365에서는 해당 사용자 계정을 삭제하거나 복원할 수 없습니다.
@@ -81,3 +87,5 @@ Active Directory에서 사용자 계정을 삭제 및 복원하는 방법에 대
 ## <a name="related-articles"></a>관련 문서
 
 [사용자 복원](restore-user.md)
+
+[암호 초기화](reset-passwords.md)

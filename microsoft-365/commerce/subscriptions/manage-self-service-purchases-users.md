@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 description: 사용자는 셀프 서비스 구매를 관리하는 방법을 배울 수 있습니다.
 ms.date: 03/17/2021
-ms.openlocfilehash: 0f9832f69d7e89346e82e3acef0e626fc7f6c4de
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: ed6f2fc3b55756fb88dccd748fd4a4a9a34a5c81
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333257"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536085"
 ---
 # <a name="manage-self-service-purchases-users"></a>셀프 서비스 구매(사용자) 관리
 
@@ -75,7 +75,7 @@ ms.locfileid: "52333257"
 ## <a name="cancel-a-subscription"></a>구독 취소
 
 1. 관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.
-2. **제품** 탭에서 취소하려는 구독을 찾으세요. **추가 작업**(점 3개)을 선택한 다음 **구독 취소** 를 선택합니다.
+2. **제품** 탭에서 취소하려는 구독을 찾으세요. 세 점(추가 작업)을 선택한 다음 구독 취소 **를 선택합니다.**
 3. **구독 취소** 창에서 취소 이유를 선택합니다. 원하는 경우 피드백을 제공합니다.
 4. **저장** 을 선택합니다.
 
@@ -108,6 +108,6 @@ ms.locfileid: "52333257"
 
 ## <a name="need-help-contact-us"></a>도움이 필요하신가요? 문의해 주시기 바랍니다.
 
-셀프 서비스 구매에 대한 일반적인 질문은 셀프 서비스 [구매 FAQ를 참조하세요.](self-service-purchase-faq.md)
+셀프 서비스 구매에 대한 일반적인 질문은 셀프 서비스 [구매 FAQ를 참조하세요.](self-service-purchase-faq.yml)
 
 셀프 서비스 구매에 대한 질문이나 도움이 필요한 경우 고객 [지원에 문의하세요.](../../business-video/get-help-support.md)

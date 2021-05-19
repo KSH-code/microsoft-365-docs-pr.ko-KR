@@ -24,41 +24,29 @@ search.appverid:
 - MET150
 - MOE150
 description: 이 솔루션의 단계에 따라 이전 직원을 제거하고 Microsoft 365 데이터를 보호합니다.
-ms.openlocfilehash: 4b4cf59fdce81b3098ee333095daa8e1af1cd5c5
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 79baf5cbd94d555c1dff1859f5045cde3dbcfdc0
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241739"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535914"
 ---
 # <a name="overview-remove-a-former-employee-and-secure-data"></a>개요: 이전 직원 및 보안 데이터 제거
 
 자주 묻는 질문은 "직원이 퇴사할 때 데이터를 보호하고 액세스를 보호하기 위해 어떻게 해야 나요?"입니다. 이 문서 시리즈에서는 사용자 Microsoft 365 차단하는 방법, 데이터를 보호하기 위해 취해야 하는 단계 및 다른 직원이 데이터에 액세스할 수 있도록 허용하는 방법에 대해 설명했습니다.
 
-직원 제거에 대한 짧은 비디오를 시청합니다. <br><br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR] 
-
-이 비디오가 도움이 된 경우에는 [소규모 비즈니스와 Microsoft 365를 처음 사용하는 사용자를 위한 전체 교육 시리즈](../../business-video/index.yml)를 참조하세요.
-
-직원이 로그인하지 못하게 방지:
-
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
-2. 사용자 이름 옆의 상자를 선택한 다음 암호 다시 설정을 **선택합니다.**
-3. 새 암호를 입력한 다음 다시 설정을 **선택합니다.** (보내지 않습니다.)
-4. 사용자의 이름을 선택하여 속성 창으로 이동하고 계정 탭에서 로그인 시작 **을 선택합니다.** 
-
-> [!NOTE]
-> 전역 관리자가 로그인을 시작해야 합니다.
-
-1시간 이내에 또는 현재 Microsoft 365 페이지에서 나면 다시 로그인하라는 메시지가 표시됩니다. 액세스 토큰은 한 시간 동안 양호하기 때문에 시간 표시 막대는 해당 토큰에 남아 있는 시간 및 현재 웹 페이지를 탐색하는지 여부에 따라 결정됩니다.
-
-> [!IMPORTANT]
-> 이 솔루션의 단계에 번호를 매기며 정확한 순서를 사용하여 솔루션을 완료할 것은 아니어도 됩니다. 이러한 방식으로 단계를 수행해보는 것이 좋습니다.
+:::image type="content" source="../../media/delete-user-overview.png" alt-text="Screenshot: Overview steps for removing a former employee":::
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
 이 솔루션의 단계를 완료하려면 전역 관리자로 설정해야 합니다.
+
+## <a name="solution-remove-a-former-employee"></a>해결 방법: 이전 직원 제거
+
+> [!IMPORTANT]
+> 이 솔루션의 단계에 번호를 매기며 정확한 순서를 사용하여 솔루션을 완료할 것은 아니어도 됩니다. 이러한 방식으로 단계를 수행해보는 것이 좋습니다.
+
+:::image type="content" source="../../media/delete-user-account.png" alt-text="Screenshot: Steps for removing a former employee from your organization":::
 
 |||
 |:-----|:-----|

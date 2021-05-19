@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 준수 센터의 콘텐츠 검색에서 Microsoft 365 검색 결과를 로컬 컴퓨터로 내보낼 수 있습니다. 전자 메일 결과는 PST 파일로 내보낼 수 있습니다. 사이트 SharePoint 비즈니스용 OneDrive 콘텐츠는 기본 Office 내보낼 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b5e900d44e59c2c37263c1162a7e631b1635cb06
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 8ec09706fecbe703fa2ab38cad5f8f8304484f44
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52311982"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536061"
 ---
 # <a name="export-content-search-results"></a>콘텐츠 검색 결과 내보내기
 
@@ -122,7 +122,7 @@ ms.locfileid: "52311982"
   
 5. 다음과 같은 추가 옵션을 구성합니다.
 
-   ![Exchange 옵션](../media/OtherExportOptions.png)
+   ![다른 내보내기 옵션 구성](../media/OtherExportOptions.png)
 
    1. 중복 **메시지를** 제외하려면 콘텐츠에 Exchange 사용 확인란을 선택합니다.
   
@@ -173,7 +173,7 @@ ms.locfileid: "52311982"
   
     **eDiscovery 내보내기 도구** 는 다운로드할 남은 항목의 예상 개수(크기)를 포함하여 내보내기 프로세스에 대한 상태 정보를 표시합니다. 내보내기 프로세스가 완료되면 다운로드된 위치에 있는 파일에 액세스할 수 있습니다.
 
-## <a name="more-information"></a>추가 정보
+## <a name="more-information"></a>자세한 정보
 
 검색 결과 내보내기에 대한 자세한 내용은 다음과 같은 정보를 제공합니다.
   

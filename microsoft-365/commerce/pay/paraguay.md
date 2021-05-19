@@ -1,23 +1,24 @@
 ---
 title: 파라과이 지급 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bba77a2b12331f01997e8e2308f916d217188961
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: b5a9f1d027becff30a9f9cb6eff2fa1244f856de
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273095"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536373"
 ---
 # <a name="payment-information-for-paraguay"></a>파라과이 지급 정보
 
@@ -31,4 +32,4 @@ ms.locfileid: "52273095"
 **Branch:** 달라  
 **SWIFT 코드:** BOFAUS3N  
 **계정 번호:** 4426587954  
-**계정 이름:** Microsoft  
+**계정 이름:** Microsoft

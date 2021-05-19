@@ -22,13 +22,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
-description: '전역 관리자가 사용자의 전자 메일 주소 및 표시 이름을 변경하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: a785ef17f0823429ad5eb216a330dc6f04dc7761
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+description: 'Microsoft 365 전역 관리자가 이름이 변경될 때 사용자의 전자 메일 주소와 표시 이름을 변경하는 방법에 대해 알아봅니다. '
+ms.openlocfilehash: 2614e0ae53e5ff1cf08ded384e7470cc5967e682
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52291022"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535989"
 ---
 # <a name="change-a-user-name-and-email-address"></a>사용자 이름 및 전자 메일 주소 변경
 
@@ -251,8 +251,10 @@ Set-MsolUserPrincipalName -UserPrincipalName anne.wallace@contoso.onmicrosoft.co
   
 Windows Server 2003 및 이전 버전의 Active Directory에서 사용자 이름을 변경하는 방법을 알아보려면 [사용자 계정 이름 바꾸기](/previous-versions/windows/it-pro/windows-server-2003/cc772952(v=ws.10))를 참조하세요.
   
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[관리자: 한 명 이상의 사용자에 대한 암호 재설정](reset-passwords.md)
+[관리자: 한 명 이상의 사용자에 대한 암호 재설정](reset-passwords.md)(문서)
   
-[사용자에게 다른 전자 메일 주소 추가](../email/add-another-email-alias-for-a-user.md)
+[사용자에게 다른 전자 메일 주소 추가](../email/add-another-email-alias-for-a-user.md)(문서)
+
+[공유 사서함 만들기](../email/create-a-shared-mailbox.md)(문서)
