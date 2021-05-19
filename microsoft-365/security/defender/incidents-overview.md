@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 93751a8297e61a969e0049e27a847324a3d16872
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: cc2fcd7410c2f3122fb3ce49a40e93bfa0767331
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300016"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539026"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Defender의 Microsoft 365 인시던트
 
@@ -135,7 +135,7 @@ Defender의 인시던트에 대한 Microsoft 365 간략한 개요를 시청하�
 
 3. 테넌트 리소스를 인시던트 이전 상태로 복원하여 공격으로부터 복구합니다.
 
-4. [인시던트](manage-incidents.md#resolve-incident) 문제를 해결하고 인시던트 사후 학습을 통해 다음을 할 수 있습니다.
+4. [인시던트](manage-incidents.md#resolve-an-incident) 문제를 해결하고 인시던트 사후 학습을 통해 다음을 할 수 있습니다.
 
    - 공격의 유형과 그 영향에 대해 이해합니다.
    - [위협](threat-analytics.md) 분석 및 보안 커뮤니티에서 공격을 조사하여 보안 공격 추세를 조사합니다.
@@ -148,7 +148,7 @@ Defender의 인시던트에 대한 Microsoft 365 간략한 개요를 시청하�
 
 다음은 Defender에 대한 보안 작업의 Microsoft 365 예입니다.
 
-:::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="Micosoft 365 Defender의 보안 작업 예":::
+:::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="Defender에 대한 보안 작업 Microsoft 365 예":::
 
 일별 작업에는 다음이 포함됩니다.
 
@@ -177,7 +177,7 @@ Defender의 인시던트에 대한 Microsoft 365 간략한 개요를 시청하�
 
 **보안 분석 및 인시던트** 대응 경험이 있는 경우:
 
-- 보안 센터의 인시던트  페이지에서 인시던트 Microsoft 365 시작하세요. 여기에서 다음을 할 수 있습니다.
+- 보안 센터의 인시던트  페이지에서 인시던트 Microsoft 365 시작하세요. 여기에서 다음 작업을 실행할 수 있습니다.
 
   - 심각도 및 기타 [](incident-queue.md) 요인에 따라 우선 순위를 지정해야 하는 사고를 참조합니다. 
 

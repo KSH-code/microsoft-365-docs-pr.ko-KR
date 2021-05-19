@@ -20,13 +20,14 @@ ms.custom:
 - Ent_Architecture
 - seo-marvel-jun2020
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
+recommendations: false
 description: 세 가지 보호 수준을 사용하여 보안을 강화하기 위해 Teams를 구성하는 방법에 대해 알아보고, 공동 작업을 쉽게 수행할 수 있습니다.
-ms.openlocfilehash: 37d59d968d3a8e83a5b42fcce4c0400940314a41
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ab2dd4cbf2b9cfc7b285f049eeaa876371574202
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916217"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539218"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>세 가지 보호 계층으로 Teams 구성
 
@@ -87,7 +88,7 @@ ms.locfileid: "50916217"
 
 기본적으로 팀 소유자와 구성원은 팀 외부의 사용자를 실제로 팀에 추가하지 않고도 이들과 사이트를 공유할 수 있습니다. 그러나 이는 사용자 관리를 복잡하게 만들고 팀 구성원이 아닌 사용자가 팀 소유자의 허락없이 팀 파일에 액세스할 수 있는 상황이 발생할 수 있으므로 권장하지 않습니다. 이를 방지하려면 기준 보호 수준에서 시작하여 소유자만 사이트를 직접 공유할 수 있도록 하는 것이 좋습니다.
 
-팀에는 읽기 전용 권한 옵션이 없지만 SharePoint 사이트에는 읽기 전용 권한 옵션이 있습니다. 팀 파일을 확인해야 하지만 편집할 필요는 없는 파트너 그룹의 이해관계자가 있는 경우 읽기 권한을 사용하여 SharePoint 사이트에 이들을 직접 추가하는 것이 좋습니다.
+팀에는 읽기 전용 권한 옵션이 없지만 SharePoint 사이트에는 해당 옵션이 있습니다. 팀 파일을 볼 수 있고 편집할 수는 없어야 하는 파트너 그룹의 이해 관계자가 있는 경우 읽기 권한을 사용하여 SharePoint 사이트에 직접 추가하는 것이 좋습니다.
 
 ## <a name="sharing-files-and-folders"></a>파일 및 폴더 공유
 
@@ -115,7 +116,7 @@ ms.locfileid: "50916217"
 
 중요한 계층 및 매우 중요한 계층의 경우 민감도 레이블이 포함된 SharePoint 콘텐츠에 대한 액세스를 제한합니다. Azure AD 조건부 액세스는 위치, 위험, 장치 호환성 및 기타 요인에 따른 제한을 비롯하여 사용자가 Microsoft 365에 액세스하는 방법을 결정하는 데 사용할 수 있는 다양한 옵션을 제공합니다. [조건부 액세스란 무엇인가요?](/azure/active-directory/conditional-access/overview)를 읽는 것을 권장합니다. 또한 조직에 적합한 추가 정책을 고려하세요.
 
-게스트에는 조직에서 관리하는 장치가 없는 경우가 많습니다. 계층에서 게스트를 허용하는 경우 게스트가 팀 및 사이트에 액세스하는 데 사용할 디바이스 유형을 고려하고 그에 따라 관리되지 않는 디바이스 정책을 설정합니다.
+게스트에게는 조직에서 관리하는 장치가없는 경우가 많습니다. 계층에서 게스트를 허용하는 경우 게스트가 팀 및 사이트에 액세스하는 데 사용할 디바이스 유형을 고려하고 그에 따라 관리되지 않는 디바이스 정책을 설정합니다.
 
 ## <a name="next-step"></a>다음 단계
 

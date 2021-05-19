@@ -18,13 +18,14 @@ search.appverid:
 f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
+recommendations: false
 description: Microsoft 365에서 공유를 제한하거나 해제할 수 있는 옵션에 대해 알아봅니다.
-ms.openlocfilehash: 46cef1aac6d3387366a5e8ce9f9c1129f6c83e61
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f237df883bb401342a3a5c93432beeb5028cfce6
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920207"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539194"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Microsoft 365에서의 공유 제한
 
@@ -211,7 +212,7 @@ Microsoft 365의 파일 및 폴더에 대한 액세스 권한이 있는 사용�
 
 Azure Active Directory 조건부 액세스에서는 네트워크 위치, 장치 상태, 로그인 위험 및 기타 요소를 기준으로 사용자와의 공유를 제한하거나 방지할 수 있는 옵션을 제공합니다. [조건부 액세스란?](/azure/active-directory/conditional-access/overview)을 참조하세요.
 
-SharePoint에서는 관리되지 않는 장치와 네트워크 위치를 위해 Azure AD 조건부 액세스와 직접 통합을 제공합니다. 자세한 내용은 다음 사항을 참조하세요.
+SharePoint에서는 관리되지 않는 장치와 네트워크 위치를 위해 Azure AD 조건부 액세스와 직접 통합을 제공합니다. 자세한 내용은 다음 참조 자료를 확인하세요.
 
 - [관리되지 않는 장치에서 액세스 제어](/sharepoint/control-access-from-unmanaged-devices)
 - [네트워크 위치에 따라 SharePoint 및 OneDrive 데이터에 대한 액세스 제어](/sharepoint/control-access-based-on-network-location)

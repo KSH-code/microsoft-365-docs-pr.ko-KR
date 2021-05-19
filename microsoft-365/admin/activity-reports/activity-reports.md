@@ -19,13 +19,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
-description: 조직의 사용자가 Microsoft 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 3133e468ef99114b1c89e16fbd0f4b5170af30d0
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+description: 조직의 사용자들이 Microsoft 365 서비스를 어떻게 사용하고 있는지에 대한 주기적인 보고서를 받고 더 많은 인사이트를 얻기 위해 각 차트를 심층적으로 분석합니다.
+ms.openlocfilehash: 917a44f4b6f7458c50ac193b95c7751c66c9e7cd
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759813"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52530973"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -63,7 +63,7 @@ ms.locfileid: "51759813"
 
 다음 권한이 있는 사용자:
   
-- 전역 관리자: 회사에서 몇 명에게만 이 역할을 할당하는 것이 좋습니다. 그렇게 해야 비즈니스 위험이 줄어듭니다.
+- 전역 관리자: 회사에서 몇 명에게만 이 역할을 할당하는 것이 좋습니다. 그렇게 해야 비즈니스 위험이 줄어듭니다. 
     
 - Exchange 관리자
     
@@ -199,6 +199,10 @@ ms.locfileid: "51759813"
   
 그러나 현재 날짜로부터 최대 28일까지 특정 날짜를 선택(3번 참조)하면 이 보고서에는 사용자 세부 정보 표(2번 참조)에 해당 날짜에 대한 사용자의 사용량이 표시됩니다.
   
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[보안 &amp; 준수 센터의 보고서](../../compliance/reports-in-security-and-compliance.md)
+[보안 &amp; 준수 센터의 보고서](../../compliance/reports-in-security-and-compliance.md)(문서)
+
+[Microsoft 365 사용 현황 분석](../usage-analytics/usage-analytics.md)(문서)
+
+[Microsoft 365 사용 현황 분석 도구에서 보고서 사용자 지정](../usage-analytics/customize-reports.md)(문서)

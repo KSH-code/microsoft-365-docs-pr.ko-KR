@@ -8,19 +8,19 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 규정 준수 센터에서 정책에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
-ms.openlocfilehash: 18679e171fa704341094dee582124f36a950f8a5
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
-ms.translationtype: HT
+ms.openlocfilehash: 75e767b0ea5ebe4940af5ee0fbfa85f858f65e9c
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113990"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538709"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -176,7 +176,7 @@ ms.locfileid: "52113990"
   
 결과가 충족되면 패턴은 해당 개수 및 신뢰도를 반환합니다. 이 결과를 정책의 조건에서 사용할 수 있습니다. 중요한 정보 유형을 감지하는 조건을 정책에 추가하면 여기에 표시된 것처럼 개수 및 신뢰도를 편집할 수 있습니다. 신뢰도(일치 정확도라고도 함)는 이 항목의 뒷부분에서 설명합니다.
   
-![인스턴스 개수 및 일치 정확도 옵션](../media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
+![인스턴스 개수 및 일치 정확도 옵션](../media/sit-confidence-level.png)
   
 정규식을 만들 때 인식해야 하는 잠재적인 문제가 있을 수 있다는 사실을 고려해야 합니다. 예를 들어, 너무 많은 콘텐츠를 식별하는 regex를 작성하여 업로드하는 경우 성능에 영향을 줄 수 있습니다. 이러한 잠재적인 문제에 대한 자세한 내용은 뒷부분에 나오는 [인식해야 하는 잠재적인 유효성 검사 문제](#potential-validation-issues-to-be-aware-of)를 참조하세요.
   
@@ -296,7 +296,7 @@ Any 요소에는 패턴이 일치되기 위해 충족되어야 하는 자식 Mat
   
 Pattern 요소에는 필수 confidencelevel 특성이 있습니다. confidenceLevel 값(1에서 100 사이의 정수)을 엔터티의 각 패턴에 대한 고유 ID로 생각할 수 있습니다. 즉, 엔터티의 패턴에는 다른 신뢰도가 할당되어야 합니다. 정수 정밀도 값은 중요하지 않습니다. 준수 팀에서 허용하는 숫자만 선택하면 됩니다. 사용자 지정 중요한 정보 유형을 업로드한 후 DLP 정책을 만든 후에 생성한 규칙의 조건에서 이러한 신뢰도를 참조할 수 있습니다.
   
-![다른 confidenceLevel 특성 값을 갖는 Pattern 요소를 보여 주는 XML 태그](../media/301e0ba1-2deb-4add-977b-f6e9e18fba8b.png)
+![다른 confidenceLevel 특성 값을 갖는 Pattern 요소를 보여 주는 XML 태그](../media/sit-xml-markedup-2.png)
   
 Entity는 각 Pattern에 대핸 confidenceLevel 외에도 recommendedConfidence 속성을 갖습니다. 권장 신뢰도 속성은 규칙의 신뢰도 수준 기본값이라고 생각하면 됩니다. 정책에서 규칙을 만들 때 규칙에서 사용할 신뢰도 수준을 지정하지 않은 경우에는 규칙이 해당 엔터티의 권장 신뢰도 수준을 사용하여 매치를 수행합니다. RecommendedConfidence 속성은 규칙 패키지의 각 Entity ID에 대한 필수 항목입니다. 이 값이 없는 경우 중요한 정보 유형을 사용 하는 정책을 저장하지 못할 수 있습니다. 
   

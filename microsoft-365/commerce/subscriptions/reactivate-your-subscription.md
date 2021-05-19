@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 구독이 만료되거나, 비활성화되거나, 취소될 때 구독을 다시 활성화하는 방법에 대해 자세히 알아보고
 ms.date: 04/07/2021
-ms.openlocfilehash: 902be48b32acdff5173a0dd5cc84dbd5972e1ba9
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 63c65e90d01bfd2c67d1d2ecfed32a4d4ff8d27a
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345145"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538462"
 ---
 # <a name="reactivate-your-subscription"></a>구독 다시 활성화
 
@@ -58,7 +58,7 @@ ms.locfileid: "52345145"
 
 ::: moniker-end
 
-2. **제품** 탭에서 다시 활성화하려는 구독을 찾으세요. 추가 **작업(3개** 점)을 선택한 다음 이 구독 다시 **활성화를 선택합니다.**
+2. **제품** 탭에서 다시 활성화하려는 구독을 찾으세요. 세 개의 점(추가 작업)을 선택한 다음 이 구독 **다시 활성화를 선택합니다.**
     이 구독 다시 활성화가 **표시되지 않는 경우** 고객 [지원에 문의하세요.](../../business-video/get-help-support.md)
 3. **이 구독 다시 활성화** 창의 드롭다운 목록에서 결제 방법을 선택하거나 **결제 방법 추가** 를 선택합니다.
 4. **저장** 을 선택합니다.

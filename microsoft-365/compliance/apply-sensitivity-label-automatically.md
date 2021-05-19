@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 파일 또는 전자 메일에 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: f5281255db48b61e7cf21a1ac8d6b5bdd18ebc20
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: d7559e5fa75db1fb23592dec1a3a5f35bad603df
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332981"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538541"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>콘텐츠에 민감도 레이블을 자동으로 적용
 
@@ -133,7 +133,7 @@ Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection
 
 DLP 정책을 구성할 때와 마찬가지로 인스턴스 수와 일치 정확성을 변경하여 조건을 구체화할 수 있습니다. 다음은 그 예시입니다.
 
-![일치 정확도 및 인스턴스 수 옵션](../media/sensitivity-labels-instance-count-match-accuracy.png)
+![일치 정확도 및 인스턴스 수 옵션](../media/sit-confidence-level.png)
 
 이러한 구성 옵션에 대한 자세한 내용은 DLP 설명서 [일치하기 더욱 쉽게 혹은 어렵게 만드는 튜닝 규칙](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match)을 참조하세요.
 
@@ -189,7 +189,7 @@ Office 앱의 자동 및 권장 레이블 지정 구현은 Office 기본 제공 
 
 - 데스크톱 버전의 Word에서 권장되는 레이블의 경우 사용자가 권장되는 민감도 레이블을 적용하는 대신, 중요한 콘텐츠를 검토하고 제거할 수 있도록 권장 사항을 트리거한 중요한 콘텐츠에 플래그가 지정됩니다.
 
-- Office 앱에서 이러한 레이블을 적용하는 방법에 대한 자세한 내용과 예제 스크린샷 및 중요한 정보를 검색하는 방법에 대한 자세한 내용은 [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/ko-KR/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)을 참조하세요.
+- Office 앱에서 이러한 레이블을 적용하는 방법에 대한 자세한 내용과 예제 스크린샷 및 중요한 정보를 검색하는 방법에 대한 자세한 내용은 [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)을 참조하세요.
 
 Azure Information Protection 통합 레이블 지정 클라이언트와 관련된 내용:
 

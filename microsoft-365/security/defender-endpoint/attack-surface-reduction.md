@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 3ca8f5234f90624c8570cbfb10e75bd0ee9380ae
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: da4b7fce66a6c51da61edd7c44216ee268c3156a
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345839"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538666"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>공격 표면 감소 규칙을 사용하여 맬웨어 감염 방지
 
@@ -160,7 +160,7 @@ DeviceEvents
 
 |규칙 이름|GUID|파일 & 제외|지원되는 최소 OS|
 |---|:---:|---|---|
-|[악용된 취약한 서명된 드라이버의 남용 차단](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|지원|[Windows 10 버전 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)|
+|[악용된 취약한 서명된 드라이버의 남용 차단](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상 |
 |[Adobe Reader에서 하위 프로세스를 만들지 차단](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
 |[모든 Office 응용 프로그램에서 자식 프로세스를 만들지 차단](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
 |[로컬 보안 기관 하위 Windows(lsass.exe)에서 자격 증명 도용 차단](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|지원|[Windows 10 버전 1709(RS3,](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 빌드 16299) 이상|
@@ -184,6 +184,14 @@ DeviceEvents
 
 이 규칙은 시스템에 이미 있는 드라이버가 로드되는 것을 차단하지 않습니다.
 
+>[!NOTE]
+>
+> 이 규칙은 [MEM OMA-URI](enable-attack-surface-reduction.md#mem) 사용자 지정 규칙 프로시저 정보에 대해 MEM OMA-URI를 사용하여 구성할 수 있습니다.
+>
+> 이 규칙은 PowerShell 을 사용하여 [구성할 수도 있습니다.](enable-attack-surface-reduction.md#powershell)
+>
+> 이 웹 사이트를 사용하여 분석을 위해 [드라이버를 제출할 수 있습니다.](https://www.microsoft.com/en-us/wdsi/driversubmission)
+
 이 규칙은 ASR이 지원되는 모든 버전에서 지원됩니다. 은:
 
 - [Windows 10 Pro 버전 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) 이상
@@ -194,16 +202,6 @@ DeviceEvents
 Intune 이름: `Block abuse of exploited vulnerable signed drivers`
 
 GUID:  `56a863a9-875e-4185-98a7-b882c64b5ce5`
-
-MEM [Microsoft Endpoint Manager 절차](enable-attack-surface-reduction.md#microsoft-endpoint-manager-custom-procedure) 정보에 대한 사용자 지정 프로시저를 참조하세요.
-
-명령줄에서 이 명령을 실행하여 ASR 규칙을 사용하도록 설정할 수 있습니다.
-
-```powershell
-"& {&'Add-MpPreference' -AttackSurfaceReductionRules_Ids 56a863a9-875e-4185-98a7-b882c64b5ce5 -AttackSurfaceReductionRules_Actions Enabled"}
-```
-
-이 웹 사이트를 사용하여 분석을 위해 [드라이버를 제출할 수 있습니다.](https://www.microsoft.com/en-us/wdsi/driversubmission)
 
 ### <a name="block-adobe-reader-from-creating-child-processes"></a>Adobe Reader에서 하위 프로세스를 만들지 차단
 

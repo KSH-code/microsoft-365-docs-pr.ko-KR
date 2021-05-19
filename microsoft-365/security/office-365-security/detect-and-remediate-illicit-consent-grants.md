@@ -14,16 +14,16 @@ ms.collection:
 localization_priority: Normal
 search.appverid:
 - MET150
-description: 365에서 부적격 동의 권한 부여 공격을 인식하고 수정하는 Microsoft Office 방법을 배워야 합니다.
+description: 개인 정보에서 위조 동의 권한 부여 공격을 인식하고 수정하는 Microsoft Office 365.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7869419677ba1d5d6b480b7f0dea7f67880af0c7
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: e5675a7a83bb62bae80f20e8e7c86fde38599ec6
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644683"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538306"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>위조 동의 권한 부여 감지 및 수정
 
@@ -42,7 +42,7 @@ ms.locfileid: "51644683"
 이러한 공격은 정보를 호출하는 엔터티가 사용자가 아니라 자동화임을 가정하는 상호 작용 모델을 활용합니다.
 
 > [!IMPORTANT]
-> 현재 앱에서의 부적격 동의 권한 부여에 문제가 발생하고 있는 것으로 의심하나요? MCAS(Microsoft Cloud App Security)에는 OAuth 앱을 검색, 조사 및 수정하는 도구가 있습니다. 이 MCAS 문서에는 위험한 OAuth 앱 조사 방법을 간략하게 [설명하는 자습서가 있습니다.](/cloud-app-security/investigate-risky-oauth) [OAuth](/cloud-app-security/app-permission-policy) 앱 정책을 설정하여 앱 요청 권한을 조사하고, 사용자가 이러한 앱을 승인하고, 이러한 사용 권한 요청을 광범위하게 승인하거나 금지할 수도 있습니다.
+> 현재 앱에서의 부적격 동의 권한 부여에 문제가 발생하고 있는 것으로 의심하나요? Microsoft Cloud App Security(MCAS)에는 OAuth 앱을 검색, 조사 및 수정하는 도구가 있습니다. 이 MCAS 문서에는 위험한 OAuth 앱 조사 방법을 간략하게 [설명하는 자습서가 있습니다.](/cloud-app-security/investigate-risky-oauth) [OAuth](/cloud-app-security/app-permission-policy) 앱 정책을 설정하여 앱 요청 권한을 조사하고, 사용자가 이러한 앱을 승인하고, 이러한 사용 권한 요청을 광범위하게 승인하거나 금지할 수도 있습니다.
 
 ## <a name="what-does-an-illicit-consent-grant-attack-look-like-in-office-365"></a>불법 동의 권한 부여는 Office 365에서 어떻게 보이나요?
 
@@ -64,7 +64,7 @@ ms.locfileid: "51644683"
 >
 > 이벤트가 발생한 후 해당 감사 로그 항목이 검색 결과에 표시될 때 30분에서 24시간까지 걸릴 수 있습니다.
 >
-> 감사 기록을 보존하고 감사 로그에서 검색할 수 있는 시간은 Microsoft 365 구독, 특히 특정 사용자에게 할당된 라이선스 유형에 따라 다릅니다. 자세한 내용은 [감사 로그](../../compliance/search-the-audit-log-in-security-and-compliance.md)를 참조하세요.
+> 감사 기록을 보존하고 감사 로그에서 검색할 수 있는 기간은 Microsoft 365 구독, 특히 특정 사용자에게 할당된 라이선스 유형에 따라 다릅니다. 자세한 내용은 [감사 로그](../../compliance/search-the-audit-log-in-security-and-compliance.md)를 참조하세요.
 >
 > 이 값이 true이면 전역 관리자 액세스 권한이 있는 사용자가 데이터에 대한 광범위한 액세스 권한을 부여할 수 있음을 나타냅니다. 예기치 않은 상황이라면 [공격을 확인](#how-to-confirm-an-attack)하는 단계를 수행하세요.
 
@@ -119,7 +119,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 1. 로컬 관리자 권한으로 스크립트를 실행할 컴퓨터에 로그인합니다.
 
-2. GitHub에서Get-AzureADPSPermissions.ps1스크립트를 실행할 폴더로 다운로드하거나 복사합니다. [](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) 이 폴더는 "permissions.csv" 출력 파일이 작성되는 폴더와 동일합니다.
+2. 스크립트를Get-AzureADPSPermissions.ps1[폴더로](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) GitHub 스크립트를 다운로드하거나 복사합니다. 이 폴더는 "permissions.csv" 출력 파일이 작성되는 폴더와 동일합니다.
 
 3. PowerShell 인스턴스를 관리자로 열고 스크립트를 저장한 폴더를 엽니다.
 
@@ -133,7 +133,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 스크립트가 Permissions.csv라는 파일 하나를 생성합니다. 다음 단계를 수행하여 불법 응용 프로그램 권한 부여를 찾습니다.
 
-1. ConsentType 열(G열)에서 값 "AllPrinciples"을 검색합니다. AllPrincipals 권한을 사용하면 클라이언트 응용 프로그램에서 테넌시의 모든 콘텐츠에 액세스할 수 있습니다. 네이티브 Microsoft 365 응용 프로그램이 제대로 작동하려면 이 권한이 필요합니다. 이 권한을 가진 Microsoft가 아닌 모든 응용 프로그램은 신중하게 검토해야 합니다.
+1. ConsentType 열(G열)에서 값 "AllPrinciples"을 검색합니다. AllPrincipals 권한을 사용하면 클라이언트 응용 프로그램에서 테넌시의 모든 콘텐츠에 액세스할 수 있습니다. 네이티브 Microsoft 365 제대로 작동하려면 이 권한이 필요합니다. 이 권한을 가진 Microsoft가 아닌 모든 응용 프로그램은 신중하게 검토해야 합니다.
 
 2. 사용 권한 열(F열)에서 각 위임된 응용 프로그램에 대한 콘텐츠 사용 권한을 확인합니다. "읽기" 및 "쓰기" 권한 또는 "*.All" 권한을 찾아 적절하지 않을 수 있으므로 신중하게 검토합니다.
 
@@ -143,7 +143,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 ## <a name="determine-the-scope-of-the-attack"></a>공격 범위 확인
 
-응용 프로그램 액세스 인벤토리 작성을  완료한 후 감사 로그를 검토하여 위반의 전체 범위를 파악합니다. 영향을 받는 사용자, 불법 응용 프로그램에서 조직에 액세스한 시간 프레임, 앱에 대한 사용 권한을 검색합니다. [Microsoft 365 보안 및 준수 센터](../../compliance/search-the-audit-log-in-security-and-compliance.md)에서 **감사 로그** 를 검색할 수 있습니다.
+응용 프로그램 액세스 인벤토리 작성을  완료한 후 감사 로그를 검토하여 위반의 전체 범위를 파악합니다. 영향을 받는 사용자, 불법 응용 프로그램에서 조직에 액세스한 시간 프레임, 앱에 대한 사용 권한을 검색합니다. 보안 및 준수 **센터에서** 감사 [로그를 & 있습니다.](../../compliance/search-the-audit-log-in-security-and-compliance.md)
 
 > [!IMPORTANT]
 > 이 정보를 받으려면 공격 전에 [사서함 감사](../../compliance/enable-mailbox-auditing.md) 및 [관리자 및 사용자 활동에 대한 감사](../../compliance/turn-audit-log-search-on-or-off.md)가 설정되어 있어야 합니다.

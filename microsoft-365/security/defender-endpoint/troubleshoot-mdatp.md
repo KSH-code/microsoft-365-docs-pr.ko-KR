@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 81f1b4154de25f6186679adc5b1f24f78f302415
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 8aaea65c617300a16f99a9a3e3a62d94b7983198
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933760"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538354"
 ---
 # <a name="troubleshoot-service-issues"></a>서비스 문제 해결
 
@@ -34,14 +34,14 @@ ms.locfileid: "51933760"
 > Endpoint용 Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
-이 섹션에서는 Microsoft Defender Advanced Threat 서비스를 사용할 때 발생할 수 있는 문제를 설명합니다.
+이 섹션에서는 Microsoft Defender for Endpoint 서비스를 사용할 때 발생할 수 있는 문제를 설명합니다.
 
 ## <a name="server-error---access-is-denied-due-to-invalid-credentials"></a>서버 오류 - 잘못된 자격 증명으로 인해 액세스가 거부되었습니다.
 서비스에 액세스하려고 할 때 서버 오류가 발생하는 경우 브라우저 쿠키 설정을 변경해야 합니다.
 쿠키를 허용하도록 브라우저를 구성합니다.
 
 ## <a name="elements-or-data-missing-on-the-portal"></a>포털에 누락된 요소 또는 데이터
-Microsoft Defender 보안 센터에 일부 요소 또는 데이터가 없는 경우 프록시 설정으로 차단할 수 있습니다.
+일부 요소 또는 데이터가 누락된 Microsoft Defender 보안 센터 프록시 설정으로 차단할 수 있습니다.
 
 프록시 허용 `*.securitycenter.windows.com` 목록에 포함해야 합니다.
 
@@ -55,9 +55,9 @@ Microsoft Defender [for](event-error-codes.md) Endpoint 서비스에서 보고�
 
 ## <a name="microsoft-defender-for-endpoint-service-fails-to-start-after-a-reboot-and-shows-error-577"></a>다시 시작한 후 끝점용 Microsoft Defender 서비스가 시작되지 못하고 오류 577이 표시
 
-장치 온보딩이 성공적으로 완료되지만 재부팅 후 Microsoft Defender for Endpoint가 시작되지 않는 경우 오류 577이 표시되어 있는 경우 정책에 Windows Defender 사용하지 않도록 설정되어 있지 않은지 검사합니다.
+장치 온보딩이 성공적으로 완료되지만 다시 시작한 후 끝점용 Microsoft Defender가 시작되지 않는 경우 오류 577이 표시될 경우 정책에 Windows Defender 사용하지 않도록 설정되어 있지 않은지 검사합니다.
 
-자세한 내용은 정책에서 Microsoft Defender 바이러스 백신이 사용하지 [않도록 설정되지 않은지 확인을 참조하세요.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
+자세한 내용은 [정책에 Microsoft Defender 바이러스 백신 사용하지 않도록 설정되어 있지 않은지 확인을 참조하세요.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
 
 ## <a name="known-issues-with-regional-formats"></a>지역별 형식의 알려진 문제
 

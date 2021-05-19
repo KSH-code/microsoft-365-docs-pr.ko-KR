@@ -16,19 +16,20 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
-description: 게스트와 공동 작업을 위해 SharePoint 사이트를 설정하는 데 필요한 Microsoft 365 구성 단계에 대해 자세히 알아보십시오.
-ms.openlocfilehash: fd3cf55b3d95a5c79b9bd4d7c55855f7d73fc0d2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+recommendations: false
+description: 게스트와 공동 작업하기 위해 Microsoft 365 사이트 설정에 필요한 SharePoint 구성 단계에 대해 자세히 알아보십시오.
+ms.openlocfilehash: f91b9c64dbdca8ed7e3ada3315cb57f1c728f838
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904651"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539254"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>게스트와 현장에서 공동 작업하기
 
-문서, 데이터 및 목록에서 게스트와 공동 작업을 해야 하는 경우 SharePoint 사이트를 사용할 수 있습니다. 최신 SharePoint 사이트는 Microsoft 365 그룹에 연결되고 사이트 구성원을 관리하고 공유 사서함 및 일정과 같은 추가 공동 작업 도구를 제공할 수 있습니다.
+문서, 데이터 및 목록에서 게스트와 공동 작업을 해야 하는 경우 SharePoint 있습니다. 최신 SharePoint 사이트는 Microsoft 365 그룹에 연결되고 사이트 구성원을 관리하고 공유 사서함 및 일정과 같은 추가 공동 작업 도구를 제공할 수 있습니다.
 
-이 문서에서는 게스트와 공동 작업을 위해 SharePoint 사이트를 설정하는 데 필요한 Microsoft 365 구성 단계를 단계적으로 진행합니다.
+이 문서에서는 게스트와 공동 작업을 위해 Microsoft 365 사이트 설정에 필요한 SharePoint 구성 단계를 단계적으로 진행합니다.
 
 ## <a name="video-demonstration"></a>동영상 데모
 
@@ -42,7 +43,7 @@ Microsoft 365의 공유는 [Azure Active Directory의 B2B 외부 공동 작업 �
 
 B2B 외부 공동 작업 설정을 확인하여 게스트와의 공유가 차단되지 않는지 확인합니다.
 
-![Azure Active Directory 외부 공동 작업 설정 페이지의 스크린샷](../media/azure-ad-organizational-relationships-settings.png)
+![Screenshot of Azure Active Directory External collaboration 설정 page](../media/azure-ad-organizational-relationships-settings.png)
 
 외부 공동 작업 설정을 지정하려면
 
@@ -59,7 +60,7 @@ B2B 외부 공동 작업 설정을 확인하여 게스트와의 공유가 차단
 
 ## <a name="microsoft-365-groups-guest-settings"></a>Microsoft 365 그룹 게스트 설정
 
-최신 SharePoint 사이트는 Microsoft 365 그룹을 사용하여 사이트 액세스를 제어합니다. SharePoint 사이트의 게스트 액세스가 작동하려면 Microsoft 365 그룹 게스트 설정을 설정해야 합니다.
+최신 SharePoint 사이트는 Microsoft 365 그룹을 사용하여 사이트 액세스를 제어합니다. Microsoft 365 사이트의 게스트 액세스가 작동하려면 SharePoint 그룹 게스트 설정을 설정해야 합니다.
 
 ![Microsoft 365 관리 센터의 Microsoft 365 그룹 게스트 설정 스크린샷](../media/office-365-groups-guest-settings.png)
 
@@ -71,9 +72,9 @@ Microsoft 365 Groups 게스트 설정을 설정하려면
 4. **그룹 소유자가 조직 외부의 사용자를 Microsoft 365 그룹에 게스트로 추가하도록 허용** 및 **게스트 그룹 구성원이 그룹 콘텐츠에 액세스하도록 허용** 확인란이 모두 선택되어 있는지 확인합니다.
 5. 변경한 내용이 있으면 **변경 내용 저장** 을 클릭합니다.
 
-## <a name="sharepoint-organization-level-sharing-settings"></a>SharePoint 조직 수준 공유 설정
+## <a name="sharepoint-organization-level-sharing-settings"></a>SharePoint 수준 공유 설정
 
-게스트가 SharePoint 사이트에 액세스할 수 있도록 SharePoint 조직 수준 공유 설정에서 게스트와 공유하도록 허용해야 합니다.
+게스트가 SharePoint 액세스할 수 있도록 SharePoint 조직 수준 공유 설정에서 게스트와 공유할 수 있어야 합니다.
 
 조직 수준 설정에 따라 개별 사이트에 사용할 수 있는 설정이 결정됩니다. 사이트 설정은 조직 수준 설정보다 더 제한될 수 없습니다.
 
@@ -110,7 +111,7 @@ SharePoint 조직 수준 공유 설정을 설정하려면
 
 사이트는 모든 사용자(모든 사용자 설정)와 공유할 수 없지만 개별 파일 및 폴더는 공유할 수 있습니다.
 
-민감도 레이블을 사용하여 SharePoint 사이트에 대한 외부 공유 [설정을 제어할 수도 있습니다.](../compliance/sensitivity-labels-teams-groups-sites.md)
+민감도 레이블을 사용하여 사이트의 외부 공유 [설정을 SharePoint 있습니다.](../compliance/sensitivity-labels-teams-groups-sites.md)
 
 ![SharePoint 사이트 외부 공유 설정 스크린샷](../media/sharepoint-site-external-sharing-settings.png)
 
@@ -123,7 +124,7 @@ SharePoint 조직 수준 공유 설정을 설정하려면
 
 ## <a name="invite-users"></a>사용자 초대하기
 
-이제 게스트 공유 설정이 구성되어 내부 사용자 및 게스트를 사이트에 추가할 수 있습니다. 사이트 액세스는 연결된 Microsoft 365 그룹을 통해 제어하기 때문에 여기에 사용자를 추가할 것입니다.
+이제 게스트 공유 설정이 구성되어 내부 사용자 및 게스트를 사이트에 추가할 수 있습니다. 사이트 액세스는 연결된 Microsoft 365 통해 제어되어 있으므로 여기에 사용자를 추가할 것입니다.
 
 내부 사용자를 그룹에 초대
 1. 사용자를 추가할 사이트로 이동합니다.
@@ -131,7 +132,7 @@ SharePoint 조직 수준 공유 설정을 설정하려면
 3. **구성원 추가** 를 클릭합니다.
 4. 사이트에 초대할 사용자의 이름 또는 전자 메일 주소를 입력한 다음 저장을 **클릭합니다.**
 
-사이트에서 게스트를 추가할 수 없습니다. 웹용 Outlook을 사용하여 추가해야 합니다. 따라서 게스트를 그룹에 추가하고 그룹에 초대하려면 URL 열에서 사이트의 **URL을**  클릭하여 사이트별 페이지로 이동합니다. 이 페이지에서 앱 시작 프로그램 **아이콘을 클릭하고** Outlook 을 **선택합니다.** 아래 절차에 설명된 그룹으로 게스트를 초대할 수 있는 화면입니다.
+사이트에서 게스트를 추가할 수 없습니다. 웹용 웹 응용 Outlook 추가해야 합니다. 따라서 게스트를 그룹에 추가하고 그룹에 초대하려면 URL 열에서 사이트의 **URL을**  클릭하여 사이트별 페이지로 이동합니다. 이 페이지에서 앱 시작 **프로그램** 아이콘을 클릭하고 를 **Outlook.** 아래 절차에 설명된 그룹으로 게스트를 초대할 수 있는 화면입니다.
 
 게스트를 그룹에 초대
 1. **그룹에서** 게스트를 초대할 그룹을 클릭합니다.

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ec5cfa78852d65db808c4e853f90f5639df25d6f
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: c9b97c2157ba8090628af23b2ab54cf38f04d8c6
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300273"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538390"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-protection"></a>Microsoft Defender for Endpoint Device Control 이동식 Storage 보호
 
@@ -29,15 +29,73 @@ ms.locfileid: "52300273"
 
 Microsoft Defender for Endpoint Device Control 이동식 Storage 보호는 사용자 또는 컴퓨터 또는 둘 다 권한이 없는 이동식 저장소 미디어를 사용하지 못하도록 방지합니다.
 
-**끝점 이동식 보호를 위한 Microsoft Defender Storage 보호**
+## <a name="protection-policies"></a>보호 정책
 
+### <a name="device-installation"></a>장치 설치
 
-|정책  |기능 |설명  |
-|---------|---------|---------|
-|장치 설치    |  제외를 포함하거나 제외하지 않고 설치 금지 - 다양한 속성을 기반으로 특정 장치를 허용합니다. 자세한 내용은 아래 [장치 속성 섹션을](#device-properties) 참조하세요.        |    컴퓨터 작업: 동일한 컴퓨터에 로그인하는 여러 사용자가 동일한 정책에 의해 제한됩니다. 자세한 내용은 [Endpoint용 Microsoft Defender를](control-usb-devices-using-intune.md)사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법을 참조하세요.     |
-|이동식 저장소 액세스 제어      | (1) 예외 또는 예외 없이 다양한 장치 속성을 기반으로 이동식 저장소에 대한 읽기 또는 쓰기 또는 실행 액세스를 감사합니다. 자세한 내용은 아래 [장치 속성 섹션을](#device-properties) 참조하세요. (2) 읽기 또는 쓰기 또는 제외 없이 액세스 실행 금지 - 다양한 장치 속성에 따라 특정 장치를 허용합니다. 장치 속성에 대한 자세한 내용은 아래 [장치 속성 섹션을](#device-properties) 참조하세요.     |     컴퓨터 또는 사용자 또는 둘 다에서 작동합니다. 특정 컴퓨터의 특정 이동식 저장소에 대한 읽기/쓰기/실행 액세스를 수행하는 특정 사용자만 허용합니다. 이동식 저장소 Windows 액세스 제어를 [참조합니다.](device-control-removable-storage-access-control.md) Mac의 기능에 대한 자세한 내용은 [macOS용 장치 제어를 참조하세요.](mac-device-control-overview.md)     |
-|끝점 DLP 이동식 저장소      |    사용자가 이동식 미디어 또는 USB 장치에 항목이나 정보를 복사하지 못하도록 감사하거나 경고합니다.     |  자세한 내용은 [Microsoft Endpoint DLP 를 참조하세요.](/compliance/endpoint-dlp-learn-about.md)       |
-|BitLocker    |     보호되지 않는 이동식 드라이브에 기록할 데이터를 차단합니다BitLocker: 이동식 드라이브에 대한 액세스 차단(조직이 소유한 컴퓨터에서 암호화되지 않은 경우)    |   자세한 내용은 BitLocker – [이동식](/mem/intune/protect/endpoint-security-disk-encryption-profile-settings#bitlocker---removable-drive-settings.md)드라이브 설정.      |
+**기능** - 다양한 장치 속성에 따라 제외를 포함하거나 제외하지 않고 설치하지 못하게 합니다.
+
+**설명**
+- 컴퓨터 수준에서 적용: 로그온한 사용자에 대해 동일한 정책이 적용됩니다.
+- MEM 및 GPO를 지원합니다.
+- 나열된['장치 속성'이](#device-properties)지원됩니다.
+- 자세한 내용은 Windows [Microsoft Defender for Endpoint를](control-usb-devices-using-intune.md)사용하여 USB 장치 및 기타 이동식 미디어를 제어하는 방법을 참조하세요.
+
+**지원되는 플랫폼** - Windows 10
+
+**설명**
+- 컴퓨터 수준에서 적용: 로그온한 사용자에 대해 동일한 정책이 적용됩니다.
+- macOS 관련 정보는 [macOS용 장치 제어를 참조하세요.](mac-device-control-overview.md)
+ 
+**지원되는 플랫폼** - macOS 카탈로니아 10.15.4+(시스템 확장 사용 가능)
+
+### <a name="removable-storage-access-control"></a>이동식 저장소 액세스 제어
+
+**기능**
+- *감사* 제외를 포함하거나 제외하지 않고 다양한 장치 속성을 기반으로 이동식 저장소에 대한 액세스를 읽거나 쓰기 또는 실행합니다.
+- *방지* 제외를 포함하거나 제외하지 않고 액세스 읽기 또는 쓰기 또는 실행 - 다양한 장치 속성에 따라 특정 장치를 허용합니다.
+
+**설명**
+- 컴퓨터 또는 사용자 또는 둘 다에서 적용 - 특정 컴퓨터의 특정 이동식 저장소에 대한 읽기/쓰기/실행 액세스를 수행하는 특정 사용자만 허용합니다.
+- MEM OMA-URI 및 GPO를 지원합니다.
+- 나열된['장치 속성'이](#device-properties)지원됩니다.
+- 이 기능의 Windows [이동식 저장소 액세스 제어를 참조합니다.](device-control-removable-storage-access-control.md)
+
+**지원되는 플랫폼** - Windows 10
+
+**설명**
+- 컴퓨터 수준에서 적용: 로그온한 사용자에 대해 동일한 정책이 적용됩니다.
+- macOS 관련 정보는 [macOS용 장치 제어를 참조하세요.](mac-device-control-overview.md)
+ 
+**지원되는 플랫폼** - macOS 카탈로니아 10.15.4+(시스템 확장 사용 가능)
+
+### <a name="windows-portable-device-access-control"></a>Windows 휴대용 장치 액세스 제어
+
+**기능** - 태블릿, 휴대용 장치와 [](/windows-hardware/drivers/portable/)같은 Windows 읽기 또는 쓰기 액세스 iPhone.
+
+**설명**
+- 컴퓨터나 사용자 또는 둘 다에서 적용됩니다.
+- MEM OMA-URI 및 GPO를 지원합니다.
+
+**지원되는 플랫폼** - Windows 10
+
+### <a name="endpoint-dlp-removable-storage"></a>끝점 DLP 이동식 저장소
+
+**기능** - 사용자가 이동식 미디어 또는 USB 장치에 항목 또는 정보를 복사하지 못하도록 감사 또는 경고 또는 방지
+
+**설명** - 자세한 내용은 Windows 끝점 데이터 손실 Microsoft 365 [정보를 참조하세요.](../../compliance/endpoint-dlp-learn-about.md)
+
+**지원되는 플랫폼** - Windows 10
+
+### <a name="bitlocker"></a>BitLocker 
+
+**기능**
+- 보호되지 않은 이동식 드라이브에 기록할 데이터를 BitLocker 차단합니다.
+- 이동식 드라이브에 대한 액세스 차단(조직이 소유한 컴퓨터에서 암호화되지 않은 경우)
+ 
+**설명** - 자세한 내용은 Windows - 이동식 [BitLocker 드라이브를 설정.](/mem/intune/protect/endpoint-security-disk-encryption-profile-settings)
+
+**지원되는 플랫폼** - Windows 10
 
 ## <a name="device-properties"></a>장치 속성
 
@@ -58,3 +116,4 @@ Microsoft Defender for Endpoint Device Control 이동식 Storage 보호를 사�
 ## <a name="related-topic"></a>관련 항목
 
 - [Microsoft Defender for Endpoint Device Control 이동식 Storage 액세스 제어](device-control-removable-storage-access-control.md)
+

@@ -16,13 +16,14 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 f1.keywords: NOCSH
+recommendations: false
 description: Teams에서 게스트와 작업, 대화 및 문서 공동 작업을 위한 팀을 설정하는 데 필요한 Microsoft 365 구성 단계에 대해 자세히 알아보세요.
-ms.openlocfilehash: 4e734af198563d0bc4599b4476b3823384989212
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c17732705c1d88ff70e56f5d26d9e268e3ff7c19
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904663"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539266"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>게스트와 팀으로 공동 작업하기
 
@@ -61,7 +62,7 @@ Microsoft 365의 공유는 [Azure Active Directory의 B2B 외부 공동 작업 �
 
 Teams에는 게스트 액세스에 대한 마스터 켜기/끄기 스위치와 게스트가 팀에서 할 수 있는 작업을 제어할 수 있는 다양한 설정이 있습니다. 마스터 스위치인 **Teams에서 게스트 액세스 허용** 은 게스트 액세스가 Teams에서 작동하기 위해 반드시 **켜짐** 상태가 되어야 합니다.
 
-Teams에서 게스트 액세스를 사용하도록 설정하고 비즈니스 요구에 따라 게스트 설정을 조정합니다. 이러한 설정은 모든 팀에 영향을 미치게 됩니다.
+Teams에서 게스트 액세스가 활성화되어 있는지 확인하고 비즈니스 요구 사항에 따라 게스트 설정을 조정하세요. 이러한 설정은 모든 팀에 영향을 미칩니다.
 
 ![Teams의 게스트 액세스 토글의 스크린샷](../media/teams-guest-access-toggle-on.png)
 
@@ -81,7 +82,7 @@ Teams 게스트 액세스가 설정되어 있는 경우, 민감도 레이블을 
 
 ## <a name="microsoft-365-groups-guest-settings"></a>Microsoft 365 그룹 게스트 설정
 
-Teams는 팀 멤버십을 위해 Microsoft 365 그룹을 사용합니다. Teams에서 게스트 액세스가 작동하려면 Microsoft 365 그룹 게스트 설정이 켜져 있어야 합니다.
+Teams는 팀 멤버십에 Microsoft 365 그룹을 사용합니다. Teams에서 게스트 액세스가 작동하려면 Microsoft 365 그룹 게스트 설정이 켜져 있어야 합니다.
 
 ![Microsoft 365 관리 센터의 Microsoft 365 그룹 게스트 설정 스크린샷](../media/office-365-groups-guest-settings.png)
 
@@ -146,7 +147,7 @@ SharePoint 조직 수준 기본 링크 설정을 설정하려면
 5. 팀의 이름과 설명을 입력한 다음 **만들기** 를 클릭합니다.
 6. **건너뛰기** 를 클릭합니다.
 
-나중에 사용자를 초대할 것입니다. 다음으로, 팀과 연결된 SharePoint 사이트에 대한 사이트 수준 공유 설정을 확인합니다.
+나중에 사용자를 초대합니다. 다음으로, 팀과 연결된 SharePoint 사이트에 대한 사이트 수준 공유 설정을 확인합니다.
 
 ## <a name="sharepoint-site-level-sharing-settings"></a>SharePoint 사이트 수준 공유 설정
 

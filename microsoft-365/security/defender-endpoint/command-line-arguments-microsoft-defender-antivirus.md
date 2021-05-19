@@ -12,20 +12,17 @@ ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ksarens
 manager: dansimp
-ms.date: 03/19/2021
+ms.date: 05/17/2021
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 85fb60d8d4504ba3a4aa8744c1183d094da01a9b
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: eb7fa7fdf5b88bd9361176003817116bcbb1a087
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274751"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538906"
 ---
 # <a name="configure-and-manage-microsoft-defender-antivirus-with-the-mpcmdrunexe-command-line-tool"></a>명령줄 Microsoft Defender 바이러스 백신 사용하여 mpcmdrun.exe 구성 및 관리
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **적용 대상:**
 
@@ -35,13 +32,15 @@ ms.locfileid: "52274751"
 
 > [!NOTE]
 > 명령 프롬프트의 관리자 수준 버전을 열 필요가 있을 수 있습니다. 시작 메뉴에서 **명령** 프롬프트를 검색할 때 관리자 권한으로 실행 **을 선택합니다.**
-> 업데이트된 Microsoft Defender 플랫폼 버전을 실행 중인 경우 다음 위치에서 `**MpCmdRun**` `C:\ProgramData\Microsoft\Windows Defender\Platform\<version>` 실행합니다. .
+> 업데이트된 Microsoft Defender 플랫폼 버전을 실행 중인 경우 다음 위치에서 `**MpCmdRun**` `C:\ProgramData\Microsoft\Windows Defender\Platform\<antimalware platform version>` 실행합니다. .
+> 맬웨어 방지 플랫폼에 대한 자세한 내용은 Microsoft Defender 바이러스 백신 [및 기준을 참조하세요.](manage-updates-baselines-microsoft-defender-antivirus.md)
 
-유틸리티에는 다음 명령이 있습니다.
+MpCmdRun 유틸리티는 다음 구문을 사용 합니다.
 
 ```console
 MpCmdRun.exe [command] [-options]
 ```
+
 다음은 예입니다.
 
 ```console
@@ -50,8 +49,8 @@ MpCmdRun.exe -Scan -ScanType 2
 
 | 명령  | 설명   |
 |:----|:----|
-| `-?`**또는**`-h`   | 이 도구에 사용할 수 있는 모든 옵션 표시 |
-| `-Scan [-ScanType [0\|1\|2\|3]] [-File <path> [-DisableRemediation] [-BootSectorScan] [-CpuThrottling]] [-Timeout <days>] [-Cancel]` | 악성 소프트웨어를 검사합니다. **ScanType의** 값은 **구성에 따라 기본값 0,** **-1** 빠른 검사, **-2** 전체 검사, **-3** 파일 및 디렉터리 사용자 지정 검사입니다.  CpuThrottling은 정책에서 구성된 CPU 스로틀을 적용합니다. |
+| `-?` **또는** `-h`   | 이 도구에 사용할 수 있는 모든 옵션 표시 |
+| `-Scan [-ScanType [0\|1\|2\|3]] [-File <path> [-DisableRemediation] [-BootSectorScan] [-CpuThrottling]] [-Timeout <days>] [-Cancel]` | 악성 소프트웨어를 검사합니다. **ScanType의 값은:**<p>**0** 구성에 따라 기본값<p>**-1** 빠른 검사<p>**-2** 전체 검사<p>**-3** 파일 및 디렉터리 사용자 지정 검사.<p>CpuThrottling은 정책에서 구성된 CPU 스로틀을 적용합니다. |
 | `-Trace [-Grouping #] [-Level #]` | 진단 추적 시작 |
 | `-GetFiles [-SupportLogLocation <path>]` | 지원 정보를 수집합니다. '진단[데이터 수집'](collect-diagnostic-data.md)참조  |
 | `-GetFilesDiagTrack`  | 과 `-GetFiles` 동일하지만 임시 DiagTrack 폴더로 출력 |
@@ -71,7 +70,7 @@ MpCmdRun.exe -Scan -ScanType 2
 
 |오류 메시지 | 가능한 이유
 |:----|:----|
-| `ValidateMapsConnection failed (800106BA) or 0x800106BA` | Microsoft Defender 바이러스 백신 서비스를 사용할 수 없습니다. 서비스를 사용하도록 설정하고 다시 시도합니다. <br>   **참고:**  Windows 10 1909 또는 Windows Server 2019 이상에서는 서비스를 "Windows Defender 바이러스 백신" 서비스라고 합니다.|
+| `ValidateMapsConnection failed (800106BA) or 0x800106BA` | Microsoft Defender 바이러스 백신 서비스를 사용할 수 없습니다. 서비스를 사용하도록 설정하고 다시 시도합니다. <br>   **참고:**  Windows 10 1909 이상 및 Windows Server 2019 이상에서는 서비스를 Windows Defender 바이러스 백신 *서비스라고* 합니다.|
 | `0x80070667` | 버전 1607 또는 Windows 10 또는 Windows Server 2016 `-ValidateMapsConnection` 컴퓨터에서 명령을 실행하고 있습니다. 1703 이상 Windows 10 또는 Server 2019 이상 버전인 Windows 명령을 실행합니다.|
 | `'MpCmdRun' is not recognized as an internal or external command, operable program or batch file.` | 도구는 다음 중 하나에서 실행해야 합니다. (플랫폼 업데이트는 월별을 제외하고 다를 `%ProgramFiles%\Windows Defender` `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2012.4-0` 수 `2012.4-0` 있습니다).|
 | `ValidateMapsConnection failed to establish a connection to MAPS (hr=80070005 httpcode=450)` | 권한이 부족합니다. 명령 프롬프트(cmd.exe)를 관리자 권한으로 사용|
@@ -86,4 +85,4 @@ MpCmdRun.exe -Scan -ScanType 2
 - [Microsoft Defender 바이러스 백신 기능 구성](configure-microsoft-defender-antivirus-features.md)
 - [비즈니스 Microsoft Defender 바이러스 백신 관리](configuration-management-reference-microsoft-defender-antivirus.md)
 - [관리 및 구성 도구에 대한 참조 항목](configuration-management-reference-microsoft-defender-antivirus.md)
-- [Microsoft Defender 바이러스 백신 Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Windows 10의 Microsoft Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md)

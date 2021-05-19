@@ -1,7 +1,7 @@
 ---
 title: 제로 데이 취약성 완화 - 위협 및 취약성 관리
-description: 위협 및 취약성 관리를 통해 환경에서 제로 데이 취약성을 찾아 완화하는 방법을 학습합니다.
-keywords: Endpoint tvm 제로 데이 취약성, tvm, 위협 & 취약성 관리, 제로 데이, 0일, 0일 취약성 완화, 취약한 CVE
+description: 사용자 환경의 제로 데이 취약성을 찾아서 완화하는 방법을 위협 및 취약성 관리.
+keywords: Endpoint tvm 제로 데이 취약성, tvm, 위협 & 취약성 관리, 0일, 0일, 0일 취약성 완화, 취약한 CVE
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: be508e646a67f01887814a0e72170e438ee86212
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2c746a74899a34827e089f4c9c2f6ecc396bb69c
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933064"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538774"
 ---
 # <a name="mitigate-zero-day-vulnerabilities---threat-and-vulnerability-management"></a>제로 데이 취약성 완화 - 위협 및 취약성 관리
 
@@ -32,18 +32,21 @@ ms.locfileid: "51933064"
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
+- [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
 제로 데이 취약성은 공식 패치 또는 보안 업데이트가 릴리스되지 않은 공개된 취약성입니다. 제로 데이 취약성은 심각도 수준이 높고 적극적으로 악용되는 경우가 종종 있습니다.
 
-위협 및 취약성 관리는 제로 데이 취약성 정보만 표시합니다.
+위협 및 취약성 관리 정보가 있는 제로 데이 취약성만 표시합니다.
 
 ## <a name="find-information-about-zero-day-vulnerabilities"></a>제로 데이 취약성에 대한 정보 찾기
 
-제로 데이 취약점이 발견된 후 Microsoft Defender 보안 센터의 다음 환경을 통해 해당 정보에 대한 정보가 전달됩니다.
+제로 데이 취약점이 발견된 후 이 취약점에 대한 정보는 제로 데이의 다음 경험을 통해 Microsoft Defender 보안 센터.
+
+>[!NOTE]
+> 0일 기능은 현재 비영구 제품(Mac, Linux Windows 사용할 수 없습니다. 그러나 향후에 추가될 예정입니다.
 
 ### <a name="threat-and-vulnerability-management-dashboard"></a>위협 및 취약성 관리 대시보드
 
@@ -69,13 +72,13 @@ ms.locfileid: "51933064"
 
 제로 데이 태그가 있는 소프트웨어를 검색합니다. "제로 데이" 태그로 필터링하여 제로 데이 취약점이 있는 소프트웨어만 볼 수 있습니다.
 
-![소프트웨어 인벤토리 페이지의 Windows Server 2016 제로 데이 예제입니다.](images/tvm-zero-day-software-inventory.png)
+![소프트웨어 인벤토리 Windows Server 2016 예제입니다.](images/tvm-zero-day-software-inventory.png)
 
 ### <a name="software-page"></a>소프트웨어 페이지
 
 제로 데이 취약성의 영향을 받은 각 소프트웨어에 대해 제로 데이 태그를 찾아야 합니다.
 
-![Windows Server 2016 소프트웨어 페이지의 제로 데이 예제입니다.](images/tvm-zero-day-software-page.png)
+![소프트웨어 페이지의 Windows Server 2016 예입니다.](images/tvm-zero-day-software-page.png)
 
 ### <a name="security-recommendations-page"></a>보안 권장 사항 페이지
 
@@ -83,7 +86,7 @@ ms.locfileid: "51933064"
 
 제로 데이 취약성 및 추가 취약점이 있는 소프트웨어가 있는 경우 모든 취약성에 대한 하나의 권장을 받을 수 있습니다.
 
-![보안 권장 사항 페이지의 Windows Server 2016 제로 데이 예제입니다.](images/tvm-zero-day-security-recommendation.png)
+![보안 권장 사항 Windows Server 2016 예제입니다.](images/tvm-zero-day-security-recommendation.png)
 
 ## <a name="addressing-zero-day-vulnerabilities"></a>제로 데이 취약성 해결
 
@@ -93,11 +96,11 @@ ms.locfileid: "51933064"
 
 수정 옵션을 열고 주의 유형을 선택합니다. 업데이트가 아직 릴리스되지 않았기 때문에 제로 데이 취약성에 대해 "주의 필요" 수정 옵션을 사용하는 것이 좋습니다. 수행할 특정 작업이 아니기 때문에 기한을 선택할 수 없습니다. 수정하고자 하는 이 소프트웨어에 대한 이전 취약점이 있는 경우 "주의 필요" 수정 옵션을 다시 적용하고 "업데이트"를 선택할 수 있습니다.
 
-![보안 권장 사항 페이지에서 Windows Server 2016의 제로 데이 플라이아웃 예](images/tvm-zero-day-recommendation-flyout400.png)
+![보안 권장 사항 페이지에서 Windows Server 2016 날 플라이아웃 예제입니다.](images/tvm-zero-day-recommendation-flyout400.png)
 
 ## <a name="track-zero-day-remediation-activities"></a>제로 데이 재구성 활동 추적
 
-위협 및 취약성 관리 [](tvm-remediation.md) 수정 페이지로 이동하여 수정 활동 항목을 하세요. "주의 필요" 수정 옵션을 선택한 경우 모니터링할 수 있는 실제 작업이 아니기 때문에 진행률 표시줄, 티켓 상태 또는 기한이 없습니다. "소프트웨어 업데이트" 또는 "주의 필요" 같은 수정 유형별로 필터링하여 동일한 범주의 모든 활동 항목을 볼 수 있습니다.
+재구성 위협 및 취약성 관리 페이지로 [이동하여](tvm-remediation.md) 재구성 활동 항목을 하세요. "주의 필요" 수정 옵션을 선택한 경우 모니터링할 수 있는 실제 작업이 아니기 때문에 진행률 표시줄, 티켓 상태 또는 기한이 없습니다. "소프트웨어 업데이트" 또는 "주의 필요" 같은 수정 유형별로 필터링하여 동일한 범주의 모든 활동 항목을 볼 수 있습니다.
 
 ## <a name="patching-zero-day-vulnerabilities"></a>제로 데이 취약성 패치
 

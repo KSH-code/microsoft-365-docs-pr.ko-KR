@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender for Office 365(MDO) 전자 메일 엔터티 페이지
+title: MDO(Microsoft Defender for Office 365) 전자 메일 엔터티 페이지
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -14,13 +14,13 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Office 365 E5 및 P1 및 P2용 Microsoft Defender는 이제 전자 메일 엔터티 페이지가 있는 각 전자 메일을 360도로 볼 수 있습니다.
-ms.openlocfilehash: 8b531980852336679aad5f2013d63269c238e49c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+description: Microsoft Defender for Office 365 E5 및 P1 및 P2 고객은 이제 전자 메일 엔터티 페이지가 있는 각 전자 메일을 360도로 볼 수 있습니다.
+ms.openlocfilehash: aa5d7effb66c4805f6983fa1afac19255bc996e4
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933364"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539098"
 ---
 # <a name="the-email-entity-page"></a>전자 메일 엔터티 페이지
 
@@ -30,11 +30,11 @@ ms.locfileid: "51933364"
 - [전자 메일 엔터티 페이지 탭 사용](#use-email-entity-page-tabs)
 - [전자 메일 엔터티 페이지를 새로 만듭니다.](#new-to-the-email-entity-page)
 
-Office 365(또는 MDO) E5용 Microsoft Defender 및 MDO P1 및 P2의 관리자는 전자 메일 엔터티 페이지를 사용하여 360도로 전자 메일을 볼 **수 있습니다.** 이 전자 메일로 이동 페이지는 위협 [탐색기 '전자](threat-explorer-views.md)메일 세부 정보' 플라이아웃에서 전달되는 정보를 향상하기 위해 만들어졌습니다.
+Microsoft Defender for Office 365(또는 MDO) E5 및 MDO P1 및 P2의 관리자는 전자 메일 엔터티 페이지를 사용하여 전자 메일을 360도로 볼 **수 있습니다.** 이 전자 메일로 이동 페이지는 위협 [탐색기 '전자](threat-explorer-views.md)메일 세부 정보' 플라이아웃에서 전달되는 정보를 향상하기 위해 만들어졌습니다.
 
 ## <a name="reach-the-email-entity-page"></a>전자 메일 엔터티 페이지로 이동
 
-기존 Office 보안 및 준수 센터(protection.office.com) 또는 새 Microsoft 365 보안 센터(security.microsoft.com)를 통해 전자 메일 엔터티 페이지를 보고 사용할 수 있습니다.
+기존 보안 & 준수 센터(protection.office.com) 또는 새로운 Microsoft 365 보안 센터(security.microsoft.com)를 통해 전자 메일 엔터티 페이지를 보고 사용할 수 있습니다.
 
 |가운데|URL|탐색|
 |---|---|---|
@@ -111,7 +111,7 @@ Office 365(또는 MDO) E5용 Microsoft Defender 및 MDO P1 및 P2의 관리자�
 
 *전자 메일 세부 정보:* 분석 탭에서 사용할 수 있는 전자 메일을 더 자세히 이해하는 데 필요한 *세부 정보입니다.*
 
-- *ETRS(Exchange* 전송 규칙 또는 메일 흐름 규칙) : 이러한 규칙은 전송 계층의 메시지에 적용되고 피싱 및 스팸 판정보다 우선합니다. 이러한 ETR은 Exchange 관리 센터에서만 만들어 수정할 수 있지만 ETR이 메시지에 적용되는 경우 여기에 ETR 이름과 GUID가 표시됩니다. 추적을 위한 중요한 정보입니다.
+- Exchange 전송 *규칙(ETRS* 또는 메일 흐름 규칙) : 이러한 규칙은 전송 계층의 메시지에 적용되고 피싱 및 스팸 판정보다 우선합니다. 이러한 ETR은 Exchange 관리 센터에서만 만들어 수정할 수 있지만 ETR이 메시지에 적용되는 경우 여기에 ETR 이름과 GUID가 표시됩니다. 추적을 위한 중요한 정보입니다.
 
 - *시스템 오버라이드:* 위협 및 감지 기술에 따라 시스템에서 제공한 배달 위치를 의회하여 메시지에 의도된 배달 위치를 예외로 만드는 수단입니다.
 
@@ -131,7 +131,7 @@ Office 365(또는 MDO) E5용 Microsoft Defender 및 MDO P1 및 P2의 관리자�
 
 - *도메인 생성 날짜:* 보내는 도메인을 만든 날짜를 지정합니다. 새로 만든 도메인은 다른 신호가 의심스러운 동작을 나타내는지의 신중할 수 있습니다.
 
-*전자 메일 인증:* Microsoft 365에서 사용하는 전자 메일 인증 방법에는 SPF, DKIM 및 DMARC가 포함됩니다.
+*전자 메일 인증:* SPF, DKIM Microsoft 365 전자 메일 인증 방법이 포함됩니다.
 
 - SPF(SenderPolicy Framework): 메시지에 대한 SPF 검사 결과를 설명합니다. 가능한 값은 다음이 될 수 있습니다.
   - 통과(IP 주소): 전달된 메시지에 대한 SPF 검사로 보낸 사람 IP 주소가 포함됩니다. 클라이언트는 보낸 사람의 도메인을 대신하여 전자 메일을 보내거나 릴레이할 수 있습니다.
@@ -153,4 +153,4 @@ Office 365(또는 MDO) E5용 Microsoft Defender 및 MDO P1 및 P2의 관리자�
   - Bestguesspass: 도메인에 대한 DMARC TXT 레코드가 없지만 있는 경우 메시지에 대한 DMARC 검사가 통과된 것입니다.
   - 없음: DNS의 보내는 도메인에 대한 DMARC TXT 레코드가 없음을 나타냅니다.
 
-*복합 인증:* 이 값은 Microsoft 365에서 SPF, DKIM 및 DMARC와 같은 전자 메일 인증을 결합하여 메시지의 인증 여부를 확인하는 데 사용됩니다. 메일의 *보낸 사람:* 도메인을 평가의 기준으로 사용 합니다.
+*복합 인증:* 이 값은 전자 메일 Microsoft 365 SPF, DKIM 및 DMARC와 같은 전자 메일 인증을 결합하여 메시지의 인증 여부를 확인하는 데 사용됩니다. 메일의 *보낸 사람:* 도메인을 평가의 기준으로 사용 합니다.

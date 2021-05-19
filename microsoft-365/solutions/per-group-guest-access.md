@@ -14,25 +14,26 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
+recommendations: false
 description: 게스트가 특정 그룹에 추가되지 않도록 하는 방법에 대해 자세히 알아보기
-ms.openlocfilehash: 572746a666586920ad85dafddbd78997940490d7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1db2055f3e546c05905dbf4c854333387112f06e
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907943"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538930"
 ---
-# <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>게스트가 특정 Microsoft 365 그룹 또는 Microsoft Teams 팀에 추가되지 않도록 방지
+# <a name="prevent-guests-from-being-added-to-a-specific-microsoft-365-group-or-microsoft-teams-team"></a>게스트가 특정 Microsoft 365 또는 팀에 추가되지 Microsoft Teams 방지
 
 대부분의 그룹 및 팀에 대한 게스트 액세스를 허용하지만 게스트 액세스를 차단하려는 경우 개별 그룹 및 팀에 대한 게스트 액세스를 차단할 수 있습니다. (팀에 대한 게스트 액세스를 차단하는 것은 연결된 그룹에 대한 게스트 액세스를 차단하여 수행됩니다.) 이렇게 하면 새 게스트가 추가되지 않지만 그룹 또는 팀에 이미 있는 게스트는 제거되지 않습니다.
 
-조직에서 민감도 레이블을 사용하는 경우 그룹 기준으로 게스트 액세스를 제어하는 데 사용하는 것이 좋습니다. 이 작업을 하는 방법에 대한 자세한 내용은 민감도 레이블을 사용하여 [Microsoft Teams, Microsoft 365](../compliance/sensitivity-labels-teams-groups-sites.md)그룹 및 SharePoint 사이트의 콘텐츠를 보호합니다. 가능한 한 이 방법을 사용하는 것이 좋습니다.
+조직에서 민감도 레이블을 사용하는 경우 그룹 기준으로 게스트 액세스를 제어하는 데 사용하는 것이 좋습니다. 이 작업을 하는 방법에 대한 자세한 내용은 민감도 레이블을 사용하여 Microsoft Teams, 그룹 및 Microsoft 365 사이트의 콘텐츠를 [SharePoint 합니다.](../compliance/sensitivity-labels-teams-groups-sites.md) 가능한 한 이 방법을 사용하는 것이 좋습니다.
 
 ## <a name="change-group-settings-using-microsoft-powershell"></a>Microsoft PowerShell을 사용하여 그룹 설정 변경
 
-PowerShell을 사용하여 개별 그룹에 새 게스트를 추가하지 못하게 할 수도 있습니다. 팀의 연결된 SharePoint 사이트에는 별도의 게스트 공유 [컨트롤이 있습니다.](/sharepoint/change-external-sharing-site)
+PowerShell을 사용하여 개별 그룹에 새 게스트를 추가하지 못하게 할 수도 있습니다. 팀의 연결된 SharePoint 별도의 게스트 공유 [컨트롤이 있습니다.](/sharepoint/change-external-sharing-site)
 
-그룹 수준 게스트 액세스 설정을 변경하려면 [Azure Active Directory PowerShell for Graph(모듈](/powershell/azure/active-directory/install-adv2) 이름 **AzureADPreview)의** 미리 보기 버전을 사용하여 다음을 변경해야 합니다.
+그룹 수준 게스트 액세스 설정을 변경하려면 Azure Active Directory [PowerShell의](/powershell/azure/active-directory/install-adv2) Graph(모듈 이름 **AzureADPreview)를** 사용하여 다음을 변경해야 합니다.
 
 - 이전에 Azure AD PowerShell 모듈의 어떠한 버전도 설치하지 않은 경우 [Azure AD 모듈 설치](/powershell/azure/active-directory/install-adv2?preserve-view=true&view=azureadps-2.0-preview)를 참조하고 지침에 따라 공개 미리 보기 릴리스를 설치합니다.
 
@@ -75,7 +76,7 @@ Get-AzureADObjectSetting -TargetObjectId $groupID -TargetType Groups | fl Values
 
 ## <a name="add-guests-to-the-global-address-list"></a>전체 주소 목록에 게스트 추가
 
-기본적으로 게스트는 Exchange 전체 주소 목록에 표시되지 않습니다. 아래에 나열된 단계를 사용하여 게스트를 전체 주소 목록에 표시하세요.
+기본적으로 게스트는 전체 주소 Exchange 표시되지 않습니다. 아래에 나열된 단계를 사용하여 게스트를 전체 주소 목록에 표시하세요.
 
 다음을 실행하여 게스트의 ObjectID를 검색합니다.
 
@@ -89,7 +90,7 @@ Get-AzureADUser -Filter "userType eq 'Guest'"
 Set-AzureADUser -ObjectId cfcbd1a0-ed18-4210-9b9d-cf0ba93cf6b2 -ShowInAddressList $true -GivenName 'Megan' -Surname 'Bowen' -DisplayName 'Megan Bowen' -TelephoneNumber '555-555-5555'
 ```
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 

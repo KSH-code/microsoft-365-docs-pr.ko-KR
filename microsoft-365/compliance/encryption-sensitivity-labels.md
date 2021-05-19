@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 액세스 및 사용을 제한하여 데이터를 보호하는 암호화를 위한 민감도 레이블을 구성합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6163e48e3e80b76506d970b77d6cd66f7a050d51
-ms.sourcegitcommit: 8c89bc1d106b4716b07a1977d57e4d9ef98aecb3
+ms.openlocfilehash: 804cfa9da39b5dc9b9dffdcd68fb196e8676f9af
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52079261"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52532089"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한
 
@@ -65,7 +65,9 @@ ms.locfileid: "52079261"
 
 4.  마법사의 **암호화** 페이지에서 다음 옵션 중 하나를 선택하세요.
     
-    - **파일이 암호화 된 경우 암호화 제거**: 이 시나리오에 대한 자세한 내용은 [레이블이 적용되는 경우 기존 암호화에 발생하는 영향](#what-happens-to-existing-encryption-when-a-labels-applied) 섹션을 참조하세요. 이 설정을 사용하면 사용자에게 충분한 권한이 없는 경우, 적용하지 못할 수 있는 민감도 레이블이 있다는 것을 이해하는 것이 중요합니다.
+    - **파일이 암호화된 경우 암호화 제거**: 이 옵션은 Azure Information Protection 통합 레이블 지정 클라이언트에서만 지원됩니다. 이 옵션을 선택하고 기본 제공 레이블을 사용하면 레이블이 앱에 표시되지 않거나 앱에 표시되지만 암호화를 변경하지 않을 수 있습니다.
+        
+        이 시나리오에 대한 자세한 내용은 [레이블이 적용되는 경우 기존 암호화에 발생하는 영향](#what-happens-to-existing-encryption-when-a-labels-applied) 섹션을 참조하세요. 이 설정을 사용하면 사용자에게 충분한 권한이 없는 경우, 적용하지 못할 수 있는 민감도 레이블이 있다는 것을 이해하는 것이 중요합니다.
     
     - **암호화 설정 구성**: 암호화를 켜고 암호화 설정을 표시합니다.
         
@@ -85,11 +87,15 @@ ms.locfileid: "52079261"
 
 다음 테이블에서는 민감도 레이블이 해당 콘텐츠에 적용되는 경우 기존 암호화가 어떻게 되는지에 대해 설명합니다.
 
-| | 암호화: 선택되지 않음 | 암호화: 구성됨 | 암호화: 제거 |
+| | 암호화: 선택되지 않음 | 암호화: 구성됨 | 암호화: 제거<sup>\*</sup> |
 |:-----|:-----|:-----|:-----|
 |**사용자가 지정하는 사용 권한**|원래 암호화가 유지됨|새 레이블 암호화가 적용됨|원래 암호화가 제거됨|
 |**보호 서식 파일**|원래 암호화가 유지됨|새 레이블 암호화가 적용됨|원래 암호화가 제거됨|
 |**관리자 정의 권한이 있는 레이블**|원래 암호화가 제거됨|새 레이블 암호화가 적용됨|원래 암호화가 제거됨|
+
+**각주:**
+
+<sup>\*</sup>Azure Information Protection 통합 레이블 클라이언트에서만 지원됩니다.
 
 새 레이블 암호화가 적용되거나 원래 암호화가 제거된 경우, 레이블을 적용하는 사용자에게 이 작업을 지원하는 사용 권한 또는 역할이 있는 경우에만 발생합니다.
 
@@ -269,11 +275,11 @@ Outlook에서, 사용자가 메시지에 권한을 할당하도록 허용하는 
 
 - **전달하지 않음**: 받는 사람이 전자 메일을 전달하거나, 인쇄하거나, 복사할 수 없습니다. 예를 들어, Outlook 클라이언트에서 전달 단추를 사용할 수 없고, 다른 이름으로 저장 및 인쇄 메뉴 옵션도 사용할 수 없으며, 받는 사람, 참조 또는 숨은 참조 상자에서 받는 사람을 추가하거나 변경할 수 없습니다.
     
-    이 옵션이 작동하는 방식에 대한 자세한 내용은 [전자 메일에 대한 전달하지 않음 옵션](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails)을 참조하세요.
+    이 옵션이 작동하는 방식에 대한 자세한 내용은 [전자 메일에 대한 전달하지 않음 옵션](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails)을 참조하세요.
 
 - **암호화 전용**: 받는 사람은 다른 이름으로 저장, 내보내기 및 모든 권한을 제외한 모든 사용 권한을 갖습니다. 이 사용 권한 조합은 받는 사람에게는 보호를 제거할 수 없다는 것 외에는 제한이 없다는 뜻입니다. 예를 들어 받는 사람은 전자 메일에서 복사하여 인쇄한 다음 전달할 수 있습니다.
     
-    이 옵션이 작동하는 방식에 대한 자세한 내용은 [전자 메일에 대한 암호화 전용 옵션](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails)을 참조하세요.
+    이 옵션이 작동하는 방식에 대한 자세한 내용은 [전자 메일에 대한 암호화 전용 옵션](/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails)을 참조하세요.
 
 전자 메일에 첨부된 암호화되지 않은 Office 문서는 자동으로 동일한 제한 사항을 상속합니다. 전달하지 않음의 경우 이 문서에 적용되는 사용 권한은 콘텐츠 편집, 편집, 저장, 보기, 열기, 읽기, 매크로 허용입니다. 사용자가 첨부 파일에 대해 다른 권한을 요구하는 경우 또는 첨부 파일이 상속된 보호를 지원하는 Office 문서가 아닌 경우, 사용자가 파일을 전자 메일에 첨부하기 전에 파일을 암호화해야 합니다.
 

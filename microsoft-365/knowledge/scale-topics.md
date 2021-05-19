@@ -13,18 +13,18 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Viva 항목을 사용하여 조직의 여러 항목을 관리하는 모범 사례에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 3246c7e91c315dadb6c2b14008c9a4da378409d5
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: dd9fe658d4f698ac50563b5c9ea141a090f6141d
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52334112"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538414"
 ---
 # <a name="manage-topics-at-scale-in-microsoft-viva-topics"></a>Microsoft Viva 항목에서 대규모로 항목 관리
 
-Viva 항목에 대해 SharePoint 사이트 또는 전체 조직을 인덱싱할 때 많은 주제가 생성될 수 있습니다. 이 경우 항목 관리 페이지에서 수천 개의 제안된 주제가 표시될 경우 어디서부터 시작해야 할지 알기 어려울 수 있습니다.  이 문서에서는 많은 수의 주제가 있는 대규모 조직에서도 Viva Topics를 통해 정보를 검색하는 사용자에게 표시되는 항목과 정보를 최적화하는 방법에 대해 설명하고 있습니다.
+Viva SharePoint 사이트 또는 전체 조직을 인덱싱할 때 많은 주제가 생성될 수 있습니다. 이 경우 항목 관리 페이지에서 수천 개의 제안된 주제가 표시될 경우 어디서부터 시작해야 할지 알기 어려울 수 있습니다.  이 문서에서는 많은 수의 주제가 있는 대규모 조직에서도 Viva Topics를 통해 정보를 검색하는 사용자에게 표시되는 항목과 정보를 최적화하는 방법에 대해 설명하고 있습니다.
 
-먼저 항목에 대한 네 가지 상태 미리 알림입니다.
+먼저 항목에 대한 네 가지 [단계에 대한 미리 알림입니다.](manage-topics.md#topic-stages)
 
 - **추천 항목**: AI에 의해 식별되어 있으며 충분한 지원 리소스, 연결 및 속성을 가지고 있습니다. 이러한 항목은 UI에서 추천 **항목으로** 표시됩니다.
 
@@ -98,7 +98,7 @@ AI에서 항목을 검색하면 항목 관리 페이지와 사용자에게 제�
 
 항목의 광범위한 크라우드소싱을 허용하는 경우 다음 요인을 고려해야 합니다.
 
--   사용자는 항목  페이지에서 편집 옵션을 볼 수 있으며 다른 최신 SharePoint 페이지와 동일한 환경의 페이지를 편집할 수 있습니다.
+-   사용자는 항목  페이지에서 편집 옵션을 볼 수 있으며 다른 최신 페이지와 동일한 환경의 페이지를 SharePoint 있습니다.
 
 -   일부 **추천 항목** 웹 파트는 제거할 수 없습니다. 항목 이름, 대체 이름, 정의, 제안된 사용자 및 추천 리소스는 제거할 수 없습니다.
 
@@ -126,7 +126,7 @@ AI에서 항목을 검색하면 항목 관리 페이지와 사용자에게 제�
 
 -   조직에서 제공하는 제품 및 서비스
 
--   조직의 Teams
+-   Teams 조직 내 사용자 관리
 
 -   프로필이 높은 프로젝트
 

@@ -1,6 +1,6 @@
 ---
 title: 전자 메일 보호의 순서 및 우선 순위
-keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 끝점용 Microsoft Defender, Office 365용 Microsoft Defender, ID용 Microsoft Defender
+keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 끝점용 Microsoft Defender, Office 365 Microsoft Defender, ID용 Microsoft Defender
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,15 +14,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 EOP(Exchange Online Protection)의 보호 적용 순서와 보호 정책의 우선 순위 값이 적용되는 정책을 결정하는 방법에 대해 배울 수 있습니다.
+description: 관리자는 EOP(Exchange Online Protection 보호)의 응용 프로그램 순서와 보호 정책의 우선 순위 값이 적용되는 정책을 결정하는 방법을 알 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8cd2809fa69064c2058516f459eeba60683c91b9
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 24d43aeb70e2cdef4bdf65fd3943cdfda9ec3862
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51930380"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539014"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>전자 메일 보호의 순서 및 우선 순위
 
@@ -33,7 +33,7 @@ ms.locfileid: "51930380"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직에서 인바운드 전자 메일은 여러 형태의 보호로 플래그가 지정될 수 있습니다. 예를 들어 모든 Microsoft 365 고객이 사용할 수 있는 EOP의 기본 제공 피싱 방지 정책과 Office 365 고객용 Microsoft Defender에서 사용할 수 있는 보다 강력한 피싱 방지 정책이 있습니다. 또한 메시지는 맬웨어, 스팸, 피싱 등에 대한 여러 검색 검색을 통과합니다. 이 모든 활동이 제공될 경우 어떤 정책이 적용되는지 혼동될 수 있습니다.
+Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Exchange Online Protection)에 사서함이 있는 Exchange Online 조직에서 인바운드 전자 메일은 여러 형태의 보호로 플래그가 지정될 수 있습니다. 예를 들어 모든 Microsoft 365 고객에게 제공되는 EOP의 기본 제공 피싱 방지 정책과 Microsoft Defender에서 사용할 수 있는 보다 강력한 피싱 방지 정책이 Office 365 있습니다. 또한 메시지는 맬웨어, 스팸, 피싱 등에 대한 여러 검색 검색을 통과합니다. 이 모든 활동이 제공될 경우 어떤 정책이 적용되는지 혼동될 수 있습니다.
 
 일반적으로 메시지에 적용되는 정책은 **CAT(Category)** 속성의 **X-Forefront-Antispam-Report** 헤더에서 식별됩니다. 자세한 내용은 [스팸 방지 메시지 헤더](anti-spam-message-headers.md)를 참조하세요.
 
@@ -50,20 +50,20 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
   |1|맬웨어|CAT:MALW|[EOP에서 맬웨어 방지 정책 구성](configure-anti-malware-policies.md)|
   |2|피싱|CAT:PHSH|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
   |3|높은 정확도 스팸|CAT:HSPM|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
-  |4 |스푸핑|CAT:SPOOF|[EOP에서 스푸핑 인텔리전스 구성](learn-about-spoof-intelligence.md)|
-  |5<sup>\*</sup>|사용자 가장(보호된 사용자)|UIMP|[Microsoft Defender for Office 365에서 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)|
-  |6<sup>\*</sup>|도메인 가장(보호된 도메인)|DIMP|[Microsoft Defender for Office 365에서 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)|
+  |4 |스푸핑|CAT:SPOOF|[EOP의 스푸핑 인텔리전스 정보](learn-about-spoof-intelligence.md)|
+  |5<sup>\*</sup>|사용자 가장(보호된 사용자)|UIMP|[Microsoft Defender에서 피싱 방지 정책 Office 365](configure-atp-anti-phishing-policies.md)|
+  |6<sup>\*</sup>|도메인 가장(보호된 도메인)|DIMP|[Microsoft Defender에서 피싱 방지 정책 Office 365](configure-atp-anti-phishing-policies.md)|
   |7 |스팸|CAT:SPM|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
   |8 |대량|CAT:BULK|[EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
   |
 
-  <sup>\*</sup> 이러한 기능은 Microsoft Defender for Office 365의 피싱 방지 정책에서만 사용할 수 있습니다.
+  <sup>\*</sup>이러한 기능은 Microsoft Defender for Office 365.
 
 - **정책 우선** 순위: 각 정책 유형(스팸 방지, 맬웨어 방지, 피싱 방지 등)에 대해 모든 사용자에게 적용되는 기본 정책이 있지만 특정 사용자에게 적용되는 사용자 지정 정책을 만들 수 있습니다. 각 사용자 지정 정책에는 정책이 적용되는 순서를 결정하는 우선 순위 값이 있습니다. 기본 정책은 항상 마지막에 적용됩니다.
 
   사용자가 동일한 유형의 여러 정책에 정의되어 있는 경우 우선 순위가 가장 높은 정책만 적용됩니다. 해당 유형의 나머지 정책은 사용자에 대해 평가되지 않습니다(기본 정책 포함).
 
-예를 들어 동일한 사용자에게 적용되는 Microsoft Defender for Office 365의 다음과 같은 피싱 방지 정책과 사용자 가장 및 스푸핑으로 식별된 메시지를 고려합니다. 
+예를 들어 동일한 사용자에게 적용되는 Office 365 Microsoft Defender의 다음 피싱 방지 정책과 사용자 가장 및 스푸핑으로 식별된 메시지를 고려합니다. 
 
 <br>
 

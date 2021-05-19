@@ -16,13 +16,14 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
-description: Microsoft 365 그룹에 대한 이름 정책을 만드는 방법을 배워야 합니다.
-ms.openlocfilehash: 7fd2ea36b536924d85c7ca09b55593161a24dbe4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+recommendations: false
+description: 사용자 그룹에 대한 이름 정책을 만드는 Microsoft 365 대해 자세히 알아보습니다.
+ms.openlocfilehash: 5ab5f252e2b81470413b4efea17b131613aabc18
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921051"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538174"
 ---
 # <a name="microsoft-365-groups-naming-policy"></a>Microsoft 365 그룹 이름 정책
 
@@ -31,7 +32,7 @@ ms.locfileid: "50921051"
 이름 정책은 모든 그룹 작업(예: Outlook, Microsoft Teams, SharePoint, Planner, Yammer 등)에서 만들어진 그룹에 적용됩니다. 그룹 이름과 그룹 별칭에 모두 적용됩니다. 또한 사용자가 그룹을 만들고 기존 그룹에 대해 그룹 이름, 별칭, 설명 또는 아바타를 편집할 때도 적용됩니다.
 
 > [!TIP]
-> Microsoft 365 그룹 이름 정책은 Microsoft 365 그룹에만 적용됩니다. Exchange Online에서 만든 메일 그룹에는 적용되지 않습니다. 메일 그룹에 대한 이름 정책은 메일 그룹 이름 정책 [만들기를 참조합니다.](/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy)
+> Microsoft 365 그룹 이름 정책은 그룹 Microsoft 365 적용됩니다. 메일 그룹에서 만든 메일 그룹에는 적용되지 Exchange Online. 메일 그룹에 대한 이름 정책은 메일 그룹 이름 정책 [만들기를 참조합니다.](/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy)
 
 그룹 이름 정책은 다음 기능으로 구성됩니다.
 
@@ -39,7 +40,7 @@ ms.locfileid: "50921051"
 
 - **사용자 지정** 차단 단어: 사용자가 만든 그룹에서 차단되는 조직 관련 차단된 단어 집합을 업로드할 수 있습니다. (예: "CEO, 급여, HR").
 
-## <a name="licensing-requirements"></a>라이선스 요구 사항
+## <a name="licensing-requirements"></a>라이선스 요구사항
 
 Microsoft 365 그룹에 대해 Azure AD 이름 지정 정책을 사용하려면 사용자가 소유해야 하지만 하나 이상의 Microsoft 365 그룹의 구성원인 각 고유 사용자(게스트 포함)에 대해 Azure Active Directory Premium P1 라이선스 또는 Azure AD Basic EDU 라이선스를 할당할 필요는 없습니다.
 
@@ -63,7 +64,7 @@ GAL 및 그룹 워크로드의 왼쪽 탐색에서 그룹을 차별화하는 데
 - 사용자 부서 = 엔지니어링
 - 만든 그룹 이름 = "GRP 내 그룹 엔지니어링"
 
-지원되는 Azure AD(Azure Active Directory) 특성은 [Department], [Company], [Office], [StateOrProvince], [CountryOrRegion], [Title]입니다.
+지원되는 Azure Active Directory (Azure AD) 특성은 [부서], [회사], [Office], [StateOrProvince], [CountryOrRegion], [Title]입니다.
 
 - 지원되지 않는 사용자 특성은 고정 문자열(예: [postalCode])로 간주됩니다.
 
@@ -80,13 +81,13 @@ GAL 및 그룹 워크로드의 왼쪽 탐색에서 그룹을 차별화하는 데
   > [!NOTE]
   > 이름의 시작 또는 끝을 제외하고 그룹 이름의 아무 곳에나 1000자(.) 또는 하이픈(-)을 사용할 수 있습니다. 이름의 시작 또는 끝을 포함하여 그룹 이름의 아무 곳에나 밑선(_)이 허용됩니다.
 
-- Office 365 Yammer 그룹을 사용하는 경우 이름 정책에 @, , 에 다음 문자를 사용하지 \# \[ 않도록 \] \<, and \> 합니다. 이러한 문자가 이름 정책에 있는 경우 일반 Yammer 그룹을 만들 수 없습니다.
+- 연결된 Yammer Office 365 사용하는 경우 이름 정책에 @, 에 다음 문자를 사용하지 \# \[ \] 않도록 \<, and \> 합니다. 이러한 문자가 이름 정책에 있는 경우 일반 Yammer 그룹을 만들 수 없습니다.
 
 > [!Tip]
 > - 짧은 문자열을 접미사로 사용
 > - 값과 함께 특성을 사용합니다.
 > - 창의적이지 않은 경우 총 이름 길이는 최대 264자입니다.
-> - 조직에서 차단된 단어를 업로드하여 사용을 제한합니다.
+> - 업로드 차단된 단어를 조직에서 지정하여 사용을 제한할 수 있습니다.
 
 ## <a name="custom-blocked-words"></a>사용자 지정 차단된 단어
 
@@ -120,19 +121,19 @@ GAL 및 그룹 워크로드의 왼쪽 탐색에서 그룹을 차별화하는 데
 
 이름 정책을 설정하는 경우:
 
-1. [Azure Active Directory의](https://aad.portal.azure.com) **관리에서** 그룹을 **클릭합니다.**
-2. **설정에서** 이름 정책 **을 클릭합니다.**
+1. 에서 [Azure Active Directory](https://aad.portal.azure.com) **에서 그룹을** **클릭합니다.**
+2. 이 **설정** 에서 **이름 정책 을 클릭합니다.**
 3. 그룹 이름 **정책 탭을** 선택합니다.
 4. 현재 **정책에서** 접두사나 접미사 또는 둘 다를 요구할지 선택하고 적절한 확인란을 선택합니다.
 5. 각 **줄에 대해 Attribute** 및 **String을** 선택한 다음 특성 또는 문자열을 지정합니다.
 6. 필요한 접두사와 접미사를 추가한 후 저장을 **클릭합니다.**
 
-![Azure Active Directory의 그룹 이름 정책 설정 스크린샷](../media/groups-naming-policy-azure.png)
+![Screenshot of the groups naming policy settings in Azure Active Directory](../media/groups-naming-policy-azure.png)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
 [공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 
-[그룹 설정 구성을 위한 Azure Active Directory cmdlet](/azure/active-directory/enterprise-users/groups-settings-cmdlets)
+[Azure Active Directory 구성하기 위한 cmdlet](/azure/active-directory/enterprise-users/groups-settings-cmdlets)

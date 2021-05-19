@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 보안 센터에서 사용자 조사
-description: 보안 센터에서 Microsoft 365 조사
+title: Defender에서 Microsoft 365 조사
+description: 보안 센터에서 인시던트가 Microsoft 365 조사합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터링, 보고서, ID, 데이터, 장치, 앱, 인시던트, 분석, 응답
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -19,14 +19,14 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: c03e4d5bd94eb6105ffab91c6dad2b74d7159dde
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 7084b9370a0dd83265b37ff1d152e2164fe32813
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300064"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539134"
 ---
-# <a name="investigate-users-in-microsoft-365-security-center"></a>Microsoft 365 보안 센터에서 사용자 조사
+# <a name="investigate-users-in-microsoft-365-defender"></a>Defender에서 Microsoft 365 조사
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

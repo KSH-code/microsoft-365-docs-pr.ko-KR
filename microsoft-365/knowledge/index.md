@@ -1,7 +1,7 @@
 ---
 title: Microsoft Viva Topics 소개
-ms.author: efrene
-author: efrene
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: cjtan
 audience: ''
@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Microsoft Viva Topics에 대한 리소스를 찾는 방법을 알아봅니다.
-ms.openlocfilehash: 31031697b7825b725c020952a6217b278aa09f02
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
-ms.translationtype: HT
+ms.openlocfilehash: 4596f703f86465e4d2d37e2744493bcaef440b7b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454126"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538918"
 ---
 # <a name="introduction-to-microsoft-viva-topics"></a>Microsoft Viva Topics 소개
 
@@ -29,13 +29,13 @@ ms.locfileid: "50454126"
 </br>
 
 
-Viva Topics는 조직이 정보를 지식으로 전환할 수 있도록 지원하는 Office 365 서비스입니다.
+Viva Topics는 Microsoft 365 정보를 지식으로 변환하는 데 도움이 되는 서비스입니다.
 
 이 페이지의 리소스는 조직에서 Viva Topics를 배우고 사용하기 시작하는 데 도움을 주기 위해 설계되었습니다.
 
 ## <a name="get-started"></a>시작하기
 
-이 섹션의 리소스는 Viva Topics가 무엇인지, Viva Topics가 도움이 되는 방법에 대해 자세히 알아보는 데 도움이 됩니다.
+이 섹션의 리소스는 Viva 항목의 무엇과 어떻게 도움이 될 수 있는가에 대해 자세히 알아보는 데 도움이 됩니다.
 
 | 이 정보를 찾고 있는 경우 다음을 수행하세요. | 방문할 리소스: |
 |:-----|:-----|

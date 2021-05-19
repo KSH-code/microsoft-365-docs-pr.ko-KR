@@ -16,33 +16,34 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
-description: 그룹 구성원이 Microsoft 365 그룹으로 전자 메일을 보내거나 Microsoft 365 그룹을 대신하여 전자 메일을 보낼 수 있도록 허용하는 방법을 학습합니다.
-ms.openlocfilehash: cc0a9472f127fae94d77f618ed7347d844879ba8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+recommendations: false
+description: 그룹 구성원이 전자 메일을 그룹으로 보내거나 Microsoft 365 그룹을 대신하여 전자 메일을 보낼 수 있도록 허용하는 Microsoft 365 있습니다.
+ms.openlocfilehash: 07db8f415da46e6235c051e262237de79e61c8b9
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904747"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538258"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>구성원이 그룹으로 보내거나 그룹을 대신하여 보내기 허용
 
-다른 사람으로 보내기 또는 대신 보내기  권한이 부여된 Microsoft 365 그룹의 구성원은 그룹으로 또는 그룹을 대신하여 전자 메일을 보낼 수 있습니다.  그룹의 게스트에게 이러한 사용 권한을 부여할 수 없습니다.
+다른 사람 Microsoft 365 또는 대신 보내기 권한이  부여된  Microsoft 365 그룹의 구성원은 그룹으로 또는 그룹을 대신하여 전자 메일을 보낼 수 있습니다. 그룹의 게스트에게 이러한 사용 권한을 부여할 수 없습니다.
 
 이 문서에서는 전역 또는 Exchange 관리자가 이러한 사용 권한을 설정하는 방법에 대해 설명하고 있습니다.
   
-예를 들어 Megan Bowen이 **교육** Microsoft 365 그룹의  일부이고 그룹에 대한 다른 사람으로 보내기 권한이 있는 경우 그룹으로  전자 메일을 보내는 경우 교육 그룹이 전자 메일을 보낸 것 같습니다. 
+예를 들어 Megan Bowen이 **Training** Microsoft 365 그룹의 일부이고  그룹에 대한 다른 사람으로 보내기 권한이 있는 경우 그룹으로 전자  메일을 보내는 경우 교육 그룹이 전자 메일을 보낸 것 같습니다. 
   
-대신 **보내기 권한을** 사용하면 사용자가 Microsoft 365 그룹을 대신하여 전자 메일을 보낼 수 있습니다. 예를 들어 Alex Wilber가 **마케팅** Microsoft 365 그룹의 일부인 경우 대신 보내기 권한이 있으며 그룹으로 전자 메일을 보내는 경우 전자 메일은 **Alex Wilber가 마케팅을** 대신하여 보낸 것 같습니다. 
+대신 **보내기 권한을** 사용하면 사용자가 그룹 대신 전자 메일을 보낼 Microsoft 365 있습니다. 예를 들어 Alex Wilber가 **Marketing** Microsoft 365 그룹의 일부인 경우  대신 보내기 권한이 있으며 그룹으로 전자 메일을 보내는 경우 전자 메일은 **Alex Wilber가 Marketing을** 대신하여 보낸 것 같습니다.
 
 > [!IMPORTANT]
 > 특정 **사용자에 대해 다른 사람으로** 보내기 또는 대신 보내기 를 구성할 수 있지만 둘 다 구성할 수 없습니다.  둘 다 구성하는 경우 기본적으로 다른 사람으로 **보내기 으로 설정됩니다.**
 
 > [!TIP]
-> Outlook 및 웹용 Outlook을 사용하여 그룹에서 전자 메일을 보내는 방법에 대한 자세한 내용은 [Microsoft 365](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) 그룹에서 전자 메일 보내기 또는 대신 보내기를 참조하세요.
+> [그룹에서](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) 전자 메일을 보내기 Microsoft 365 그룹에서 전자 메일을 보내거나 대신하여 웹에서 Outlook Outlook 전자 메일을 보내는 방법을 알아보는 방법을 참조하세요.
     
 ## <a name="allow-members-to-send-email-as-a-group"></a>구성원이 전자 메일을 그룹으로 보낼 수 있도록 허용
 
-이 섹션에서는 사용자가 [Exchange](https://go.microsoft.com/fwlink/p/?linkid=2059104) Online의 EAC(Exchange 관리 센터)에서 그룹으로 전자 메일을 보낼 수 있도록 허용하는 방법에 대해 설명합니다.
+이 섹션에서는 사용자가 EAC(Exchange 관리 센터)에서 그룹으로 전자 메일을 보낼 수 있도록 허용하는 Exchange Online. [](https://go.microsoft.com/fwlink/p/?linkid=2059104)
   
 1. Exchange <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">관리 센터에서</a>받는 사람 **그룹으로** \> **이동하세요.**
     
@@ -60,7 +61,7 @@ ms.locfileid: "50904747"
   
 ## <a name="allow-members-to-send-email-on-behalf-of-a-group"></a>구성원이 그룹을 대신하여 전자 메일을 보낼 수 있도록 허용
 
-이 섹션에서는 사용자가 Exchange Online의 EAC(Exchange 관리 센터)에서 그룹을 대신하여 전자 메일을 보낼 수 있도록 허용하는 방법에 대해 설명합니다.
+이 섹션에서는 사용자가 EAC(Exchange 관리 센터)의 그룹을 대신하여 전자 메일을 보낼 수 있도록 허용하는 Exchange Online.
   
 1. Exchange <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">관리 센터에서</a>받는 사람 **그룹으로** \> **이동하세요.**
     
@@ -82,7 +83,7 @@ ms.locfileid: "50904747"
 
 [공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
 
-[Microsoft 365 그룹에 대해 자세히 알아보시다](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[그룹에 대해 Microsoft 365 자세히 알아보시고](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 [Add-RecipientPermission](/powershell/module/exchange/add-recipientpermission)
 

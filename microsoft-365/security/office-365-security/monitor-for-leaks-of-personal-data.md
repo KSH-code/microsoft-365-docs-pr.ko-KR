@@ -19,12 +19,12 @@ search.appverid:
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b51bc5d5d3cbfa8951392f88edc6e178778206df
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 0976c0d1c0c8d3ebb25ebf423f1d9df2f71fc852
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205277"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538282"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -79,7 +79,7 @@ DLP 보고서는 보안 센터 및 규정 준수 센터에 있습니다. 보고�
 
 - 감사 정책 직접 검색 - 지정한 날짜 범위의 모든 이벤트를 검색하거나, 작업을 수행한 사용자 작업 또는 대상 개체와 같은 특정 기준에 따라 결과를 필터링합니다.
 
-정보 보안 및 준수 팀은 이러한 도구를 사용하여 서비스에서 최종 사용자 및 관리자가 수행한 활동을 사전에 검토할 수 있습니다. 특정 사이트 모음에 대해 특정 활동이 수행될 때, 특히 GDPR 관련 정보를 포함하는 것으로 알려진 사이트에서 콘텐츠가 공유될 때 전자 메일 알림을 전송하도록 자동 경고를 구성할 수 있습니다. 이를 통해 해당 팀은 사용자에 대해 후속 조치를 취하여 회사 보안 정책이 준수되도록 하거나 추가 교육을 제공할 수 있습니다.
+정보 규정 준수 및 보안 팀은 이러한 도구를 사용하여 서비스에서 최종 사용자 및 관리자가 수행한 활동을 사전에 검토할 수 있습니다. 특정 사이트 모음에 대해 특정 활동이 수행될 때, 특히 GDPR 관련 정보를 포함하는 것으로 알려진 사이트에서 콘텐츠가 공유될 때 전자 메일 알림을 전송하도록 자동 경고를 구성할 수 있습니다. 이를 통해 해당 팀은 사용자에 대해 후속 조치를 취하여 회사 보안 정책이 준수되도록 하거나 추가 교육을 제공할 수 있습니다.
 
 또한 정보 보안 팀은 감사 로그를 검색하여 의심되는 데이터 침해를 조사하고, 침해의 근본 원인과 범위를 확인할 수 있습니다. 이러한 기본 제공 기능은 GDPR 감독 기관 및 데이터 주체 자체에 특정 기간 동안 데이터 침해가 발생했음을 알리는 알림을 제공하도록 요구하는 GDPR 33 및 34절을 통해 규정이 준수되도록 합니다. 감사 로그 항목은 권장 지침대로 서비스 내에서 90일 동안만 유지되며, 많은 조직은 이러한 로그를 더 오랫 동안 보관해야 합니다.
 
@@ -87,7 +87,7 @@ Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 �
 
 경고 정책 및 감사 로그 검색에 대한 자세한 정보:
 
-- [Microsoft 365 보안 및 규정 준수 센터의 알림 정책](../../compliance/alert-policies.md)
+- [Microsoft 365의 알림 정책](../../compliance/alert-policies.md)
 
 - [Office 365의 감사 로그에서 사용자 및 관리자 활동 검색](../../compliance/search-the-audit-log-in-security-and-compliance.md)(소개)
 

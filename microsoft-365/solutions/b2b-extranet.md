@@ -15,17 +15,18 @@ ms.collection:
 ms.custom: ''
 localization_priority: Normal
 f1.keywords: NOCSH
+recommendations: false
 description: 파트너 조직의 관리되는 게스트를 사용하여 B2B 엑스트라넷 사이트 또는 팀을 만드는 방법을 학습합니다.
-ms.openlocfilehash: f9b8d9326f302233ed85c9d168fdf6f343dc6cbf
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d76951da5d8affa1dac08cbdc68a91329ca069ed
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904759"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538246"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>관리 대상 게스트와 B2B 엑스트라넷 작성
 
-Azure Active Directory 권리 부여 관리를 사용하여 Azure [Active Directory를](/azure/active-directory/governance/entitlement-management-overview) 사용하는 파트너 조직과 공동 작업을 하는 B2B 엑스트라넷을 만들 수 있습니다. 이를 통해 사용자는 엑스트라넷 사이트 또는 팀에 자체 등록하고 승인 워크플로를 통해 액세스 권한을 받을 수 있습니다.
+권한 [부여](/azure/active-directory/governance/entitlement-management-overview) 관리에서 Azure Active Directory 사용하여 B2B 엑스트라넷을 만들어 사용자 자격 관리를 사용하는 파트너 조직과 공동 작업을 Azure Active Directory. 이를 통해 사용자는 엑스트라넷 사이트 또는 팀에 자체 등록하고 승인 워크플로를 통해 액세스 권한을 받을 수 있습니다.
 
 파트너 조직은 공동 작업을 위해 리소스를 공유하는 이 방법을 통해 게스트를 끝에 유지 관리하고 승인하여 IT 부서의 부담을 줄이고 공동 작업 계약에 가장 익숙한 사용자가 사용자 액세스를 관리할 수 있도록 할 수 있습니다.
 
@@ -45,45 +46,45 @@ Azure Germany 및 Azure China 21Vianet과 같은 특수 클라우드는 현재 �
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wKUj?autoplay=false]
 
-## <a name="connect-the-partner-organization"></a>파트너 조직 연결
+## <a name="connect-the-partner-organization"></a>커넥트 조직 구성
 
-파트너 조직에서 게스트를 초대하려면 Azure Active Directory에서 파트너의 도메인을 연결된 조직으로 추가해야 합니다.
+파트너 조직에서 게스트를 초대하려면 파트너의 도메인을 파트너의 도메인에 연결된 조직으로 Azure Active Directory.
 
 연결된 조직을 추가하려면
-1. [Azure Active Directory에서](https://aad.portal.azure.com)ID 거버넌스를 **클릭합니다.**
+1. 에서 [Azure Active Directory](https://aad.portal.azure.com)ID **거버넌스 를 클릭합니다.**
 2. 연결된 **조직 을 클릭합니다.**
 4. 연결된 **조직 추가를 클릭합니다.**
 5. 조직의 이름과 설명을 입력하고 **다음: 디렉터리 + 도메인 을 클릭합니다.**
 6. 디렉터리 **+ 도메인 추가를 클릭합니다.**
 7. 연결할 조직의 도메인을 입력한 다음 추가를 **클릭합니다.**
-8. 연결을 **클릭하고** **다음: 스폰서 를 클릭합니다.**
+8. 를 **커넥트** **다음: 스폰서 를 클릭합니다.**
 9. 게스트에 대한 액세스를 승인할 사용자에 연결하려는 조직 또는 조직의 사람을 추가합니다.
 10. **다음: 검토 + 만들기** 를 클릭합니다.
 11. 선택한 설정을 검토하고 만들기를 **클릭합니다.**
 
-    ![Azure Active Directory의 연결된 조직 페이지 스크린샷](../media/identity-governance-connected-organizations.png)
+    ![조직의 연결된 조직 페이지 Azure Active Directory](../media/identity-governance-connected-organizations.png)
 
 ## <a name="choose-the-resources-to-share"></a>공유할 리소스 선택
 
 파트너 조직과 공유할 리소스를 선택하는 첫 번째 단계는 포함할 카탈로그를 만드는 것입니다.
 
 카탈로그를 만들면
-1. [Azure Active Directory에서](https://aad.portal.azure.com)ID 거버넌스를 **클릭합니다.**
+1. 에서 [Azure Active Directory](https://aad.portal.azure.com)ID **거버넌스 를 클릭합니다.**
 2. 카탈로그를 **클릭합니다.**
 3. 새 **카탈로그 를 클릭합니다.**
 4. 카탈로그의 이름과 설명을 입력하고 외부  사용자에 대해 **사용** 및 사용이 모두 예로 설정되어 있도록 **합니다.**
 5. **만들기** 를 클릭합니다.
 
-   ![Azure Active Directory ID 거버넌스의 카탈로그 페이지 스크린샷](../media/identity-governance-catalogs.png)
+   ![ID 거버넌스에서 카탈로그 Azure Active Directory 스크린샷](../media/identity-governance-catalogs.png)
 
-카탈로그를 만든 후 파트너 조직과 공유할 SharePoint 사이트 또는 팀을 추가합니다.
+카탈로그를 만든 후 파트너 SharePoint 공유할 사이트 또는 팀을 추가합니다.
 
 카탈로그에 리소스를 추가하는 경우
 1. Azure AD ID 거버넌스에서 카탈로그를 **클릭한** 다음 리소스를 추가할 카탈로그를 클릭합니다.
 2. 리소스를 **클릭한** 다음 리소스 **추가 를 클릭합니다.**
 3. 엑스트라넷에 포함할 팀 또는 SharePoint 사이트를 선택한 다음 추가를 **클릭합니다.**
 
-   ![Azure Active Directory ID 거버넌스의 카탈로그 리소스 페이지 스크린샷](../media/identity-governance-catalog-resource.png)
+   ![ID 관리의 카탈로그 리소스 Azure Active Directory 스크린샷](../media/identity-governance-catalog-resource.png)
 
 공유할 리소스를 정의한 다음에는 파트너 사용자에게 부여되는 액세스 유형과 액세스를 요청하는 새 파트너 사용자의 승인 프로세스를 정의하는 액세스 패키지를 만들어야 합니다.
 
@@ -105,7 +106,7 @@ Azure Germany 및 Azure China 21Vianet과 같은 특수 클라우드는 현재 �
 15. 사용할 만료 및 액세스 검토 설정을 선택하고 **다음: 검토 + 만들기를 클릭합니다.**
 16. 설정을 검토하고 만들기를 **클릭합니다.**
 
-    ![Azure Active Directory ID 거버넌스의 액세스 패키지 화면 스크린샷](../media/identity-governance-access-packages.png)
+    ![ID 거버넌스에서 액세스 패키지 Azure Active Directory 스크린샷](../media/identity-governance-access-packages.png)
 
 대규모 조직과 파트너가 될 경우 액세스 패키지를 숨길 수 있습니다. 패키지가 숨겨져 있는 경우 파트너 조직의 사용자는 내 액세스 포털에 패키지를 볼 *수* 없습니다. 대신 패키지에 등록하려면 직접 링크를 전송해야 합니다. 액세스 패키지를 숨기면 부적절한 액세스 요청 수가 줄어들고 파트너 조직의 포털에서 사용 가능한 액세스 패키지를 구성하여 유지하는 데도 도움이 될 수 있습니다.
 

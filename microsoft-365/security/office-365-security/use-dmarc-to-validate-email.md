@@ -1,5 +1,5 @@
 ---
-title: DMARC를 사용하여 전자 메일의 유효성 검사
+title: DMARC를 사용하여 전자 메일, 설정 단계의 유효성 검사
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -7,6 +7,7 @@ author: MSFTTracyP
 manager: dansimp
 audience: ITPro
 ms.topic: article
+ms.date: 05/10/2021
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -17,12 +18,12 @@ ms.collection:
 description: 사용자의 조직에서 보낸 메시지의 유효성을 검사하기 위해 도메인 기반 메시지 인증, 보고 및 적합성(DMARC)을 구성하는 방법에 대해 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ec17ebadb40f2032e36cc6d4d74db445897c40b4
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9beada6e0fb61e503392b0bd379f02bd1c025464
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206112"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538678"
 ---
 # <a name="use-dmarc-to-validate-email"></a>DMARC를 사용하여 전자 메일의 유효성 검사
 
@@ -91,15 +92,15 @@ _dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=
 
 Microsoft는 자사의 DMARC 보고서를 타사인 [Agari](https://agari.com)에게 보냅니다. Agari는 DMARC 보고서를 수집하고 분석합니다. [MISA 카탈로그](https://www.microsoft.com/misapartnercatalog)에 방문하여 Microsoft 365에 대해 DMARC 보고를 제공하는 타사 공급 업체를 확인하세요.
 
-## <a name="implement-dmarc-for-inbound-mail"></a>인바운드 메일에 대한 DMARC 구현
+## <a name="set-up-dmarc-for-inbound-mail"></a>인바운드 메일에 대해 DMARC 설정
 
 Microsoft 365에서 받는 메일에 대해 DMARC를 설정하지 않아도 됩니다. Microsoft가 사용자를 위해 모든 것을 담당합니다. DMARC 검사를 통과하지 못한 메일에 대해 알아보려면 [Microsoft 365에서 DMARC에 실패한 인바운드 전자 메일을 처리하는 방법](#how-microsoft-365-handles-inbound-email-that-fails-dmarc)을 참조하세요.
 
-## <a name="implement-dmarc-for-outbound-mail-from-microsoft-365"></a>Microsoft 365의 아웃바운드 메일에 대한 DMARC 구현
+## <a name="set-up-dmarc-for-outbound-mail-from-microsoft-365"></a>Microsoft 365에서 아웃바운드 메일에 대해 DMARC 설정
 
 Microsoft 365를 사용하지만 사용자 지정 도메인을 사용하지 않는 경우(즉, onmicrosoft.com을 사용하는 경우), 사용자 조직의 DMARC를 구성하거나 구현하기 위해 다른 작업을 수행할 필요가 없습니다. SPF는 이미 설정되어 있으며 Microsoft 365는 보내는 메일에 대해 DKIM 서명을 자동으로 생성합니다. 이 서명에 대한 자세한 내용은 [DKIM 및 Microsoft 365의 기본 동작](use-dkim-to-validate-outbound-email.md#DefaultDKIMbehavior)을 참조하세요.
 
- 사용자 지정 도메인이 있거나 Microsoft 365 외에 온-프레미스 Exchange 서버를 사용하는 경우 아웃바운드 메일에 대해 DMARC를 수동으로 구현해야 합니다. 사용자 정의 도메인에 DMARC를 구현하는 단계는 다음과 같습니다.
+ 사용자 지정 도메인이 있거나 Microsoft 365 외에 온-프레미스 Exchange 서버를 사용하는 경우 아웃바운드 메일에 대해 DMARC를 수동으로 구현해야 합니다. 사용자 지정 도메인에 대한 DMARC 구현에는 다음 단계가 포함됩니다.
 
 - [1단계: 사용자 도메인의 유효한 메일 출처 식별](#step-1-identify-valid-sources-of-mail-for-your-domain)
 
@@ -179,6 +180,15 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
 
 레코드를 구성한 후에는 도메인 등록 기관에서 레코드를 업데이트해야 합니다. Microsoft 365의 DNS 레코드에 DMARC TXT 레코드를 추가하는 방법에 대한 지침은 [DNS 레코드를 관리할 때 Microsoft 365용 DNS 레코드 만들기](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)를 참조하세요.
 
+## <a name="dmarc-mail-public-preview-feature"></a>DMARC 메일(공개 미리 보기 기능)
+> [!CAUTION]
+> 매일 메일을 보내지 않을 수 있으며 공개 미리 보기 중에 보고서 자체가 변경될 수 있습니다.  DMARC 집계 보고서 전자 메일은 소비자 계정(예: hotmail.com, outlook.com 또는 live.com 계정)에서 예상할 수 있습니다.
+
+이 DMARC TXT 레코드 **_dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1"** 예제에서, 이 경우에는 타사인 Agari가 처리한 *rua* 주소를 확인할 수 있습니다. 이 주소는 분석을 위해 '집계 피드백'을 보내는 데 사용되며 보고서를 생성하는 데 사용됩니다.
+
+> [!TIP]
+> [MISA 카탈로그](https://www.microsoft.com/misapartnercatalog)에 방문하여 Microsoft 365에 대해 DMARC 보고를 제공하는 타사 공급 업체를 확인하세요. DMARC 'rua' 주소에 대한 자세한 내용은 [ IETF.org의 '도메인 기반 메시지 인증, 보고 및 적합성(DMARC)'](https://datatracker.ietf.org/doc/html/rfc7489)을 참조하세요.
+
 ## <a name="best-practices-for-implementing-dmarc-in-microsoft-365"></a>Microsoft 365에서 DMARC를 구현하기 위한 모범 사례
 
 나머지 메일 흐름에 영향을 주지 않고 DMARC를 점진적으로 구현할 수 있습니다. 이 단계를 따르는 롤아웃 계획을 만들고 구현합니다. 아래 단계를 진행하기 전에 먼저 하위 도메인, 다른 하위 도메인을 차례로 수행하고, 마지막으로 사용자 조직의 최상위 도메인을 수행합니다.
@@ -221,7 +231,7 @@ DMARC 거부 정책(p=reject)을 게시하면 서비스를 통해 아웃바운�
 
 - 사용자가 전자 메일 클라이언트를 사용하여 개별적으로 수신 허용 - 보낸 사람을 추가합니다.
 
-- 관리자는 스푸핑을 허용하도록 [스푸핑 인텔리전스](learn-about-spoof-intelligence.md) 보고를 업데이트할 수 있습니다.
+- 관리자는 [스푸핑 인텔리전스 인사이트](learn-about-spoof-intelligence.md) 또는 [테넌트 허용/차단 목록](tenant-allow-block-list.md)을 사용하여 스푸핑된 발신자의 메시지를 허용할 수 있습니다.
 
 - 관리자는 특정 보낸 사람의 메시지를 허용하는 모든 사용자에 대해 Exchange 메일 흐름 규칙 (전송 규칙이라고도 함)을 만듭니다.
 

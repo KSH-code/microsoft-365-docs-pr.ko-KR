@@ -14,22 +14,23 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
+recommendations: false
 description: 그룹 서비스 상호 작용
-ms.openlocfilehash: 331c30c86481b1729251c685de2d663fb14f390b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f9b0d7ca61d55e3d23aa94577fc8257073b26675
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921027"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539206"
 ---
 # <a name="groups-services-interactions"></a>그룹 서비스 상호 작용
 
-Microsoft 365 그룹은 최종 사용자에게 연결된 환경을 제공하기 위해 Microsoft 365 플랫폼 내의 다양한 서비스 및 워크로드에 공통 패브릭을 제공합니다. 핵심적인 Microsoft 365 그룹은 다음을 제공합니다.
+Microsoft 365 그룹은 최종 사용자에게 연결된 환경을 제공하기 위해 Microsoft 365 플랫폼 내의 여러 서비스 및 워크로드에 공통 패브릭을 제공합니다. 핵심적으로, Microsoft 365 그룹을 통해 다음을 제공할 수 있습니다.
 
 - 멤버 자격을 관리하는 방법(Azure AD)
-- 메시징 및 대화가 이행되는 장소(Exchange 사서함, Microsoft Teams, Yammer)
+- 메시징 및 대화가 열리기 위한 장소(Exchange 사서함, Microsoft Teams Yammer)
 - 파일을 저장할 위치(SharePoint)
-- 일정을 위한 일정(Exchange)
+- 일정(일정 Exchange)
 - 메모 캡처용 전자 필기장(OneNote)
 
 그룹 만들기 시점에는 여러 다른 리소스도 프로비전됩니다. 그러나 서비스에서 처음으로 액세스할 때까지는 표시되지 않습니다.
@@ -39,13 +40,13 @@ Microsoft 365 그룹은 최종 사용자에게 연결된 환경을 제공하기 
 - 공유 비디오 영역(Microsoft Stream)
 - 공유 양식의 영역(Forms)
 
-Microsoft 365에서 다른 서비스는 Microsoft 365 그룹과 상호 작용하여 그룹 구성원에게 추가 기능을 제공할 수 있습니다.
+다른 Microsoft 365 그룹과 상호 작용하여 그룹 구성원에게 추가 Microsoft 365 기능을 제공할 수 있습니다.
 예를 들면 다음과 같습니다.
 
-- 앱용 Power Apps
-- 워크플로용 Power Automate
-- 웹용 프로젝트 및 워터파일 기반 프로젝트 관리를 위한 로드맵
-- 채널 기반 대화를 위한 Teams
+- Power Apps 앱용 앱
+- Power Automate 워크플로에 대한 설명
+- Project 웹용 로드맵 및 워터파일 기반 프로젝트 관리를 위한 로드맵
+- Teams 기반 대화에 대한 설정
 - Yammer 커뮤니티를 위한 지원
 
 ## <a name="user-interactions-with-groups"></a>사용자와 그룹 상호 작용
@@ -54,7 +55,7 @@ Microsoft 365 그룹은 관리자와 최종 사용자가 모두 다양한 인터
 
 ### <a name="administrative-experiences"></a>관리 환경
 
-관리자는 여러 작업 관리 센터, 스크립팅을 지원하는 명령줄 인터페이스, Graph API와 상호 작용하는 사용자 지정 앱에서 Microsoft 365 그룹을 만들고 관리할 수 있습니다. 이 예외는 Yammer 웹 인터페이스 내에서 만들어야 하는 Yammer 있습니다.
+관리자는 작업 관리 센터의 여러 Microsoft 365, 스크립팅을 지원하는 명령줄 인터페이스, Graph API와 상호 작용하는 사용자 지정 앱을 만들고 관리할 수 있습니다. 이 예외는 Yammer 웹 인터페이스 내에서 만들어야 하는 Yammer 있습니다.
 
 **관련 설정**
 
@@ -68,23 +69,23 @@ Microsoft 365 관리 센터에서는 소유자가 게스트를 추가할 수 있
 
 Azure AD 관리 센터는 사용자가 Azure Portal에서 그룹을 만들거나 소유자를 할당할 수 있는지 여부와 만료 및 이름 지정 정책 설정에 대한 컨트롤을 제공합니다.
 
-또한 관리 센터는 비소유자도 게스트를 초대할 수 있는지 여부를 제한하는 등 Microsoft 365 관리 센터를 넘어서는 다양한 게스트 초대 제어 방안을 제공합니다.
+또한 관리 센터는 비소유자도 게스트를 초대할 수 있는지 여부를 제한하는 등 Microsoft 365 관리 센터보다 더 많은 게스트 초대 제어 방안을 제공합니다.
 
 **SharePoint**
 
-SharePoint 사이트는 소유자, 구성원 및 방문자 보안 그룹으로 만들어지며 처음 두 사이트는 해당 Microsoft 365 그룹과 일치합니다. SharePoint Online 사이트의 멤버 자격은 일반적으로 연결된 Microsoft 365 그룹에 의해 관리되는 반면 양방향 관계는 않습니다. Microsoft 365 그룹 수준의 구성원에 대한 변경 내용은 SharePoint에 반영됩니다. 그러나 SharePoint 그룹에서 구성원이 변경된 경우 이는 Microsoft 365 그룹에 반영되지 않습니다.
+SharePoint 사이트는 소유자, 구성원 및 방문자 보안 그룹으로 만들어지며 처음 두 사이트는 해당 그룹 Microsoft 365 일치합니다. SharePoint Online 사이트의 멤버 자격은 일반적으로 연결된 Microsoft 365 그룹에서 관리하기는 하지만 양방향 관계는 않습니다. Microsoft 365 그룹의 구성원에 대한 변경 내용은 SharePoint 반영됩니다. 그러나 SharePoint 그룹에서 구성원을 변경하면 Microsoft 365 그룹에 반영되지 않습니다.
 
 ### <a name="user-experiences"></a>사용자 환경
 
-최종 사용자는 Microsoft 365 내의 여러 서비스에서 그룹을 만들 수 있으며, 다른 서비스에서는 그룹과만 공유할 수 있습니다.
+최종 사용자는 여러 서비스에서 그룹을 만들 수 Microsoft 365 그룹과만 공유할 수 있습니다.
 
 다음 서비스를 사용하면 최종 사용자가 그룹을 만들 수 있습니다.
                          
-웹용 Outlook Planner Project SharePoint Stream Microsoft Teams Yammer
+Outlook 웹 Project Stream SharePoint Planner Microsoft Teams Yammer
 
 **그룹 만들기 제한**
 
-팀의 돌출을 제어하는 일반적인 방법은 팀을 만들 수 있는 사용자를 제한하는 것입니다. 그룹 만들기를 제한해야만 이행할 수 있습니다. 이렇게 하면 최종 사용자에게 필요한 다른 서비스에서 그룹을 만드는 능력에 영향을 미치게 됩니다. Microsoft 365 그룹은 일부 앱 또는 서비스에서 그룹을 만들지 못하도록 제한하는 기능을 지원하지 않습니다.
+팀의 돌출을 제어하는 일반적인 방법은 팀을 만들 수 있는 사용자를 제한하는 것입니다. 그룹 만들기를 제한해야만 이행할 수 있습니다. 이렇게 하면 최종 사용자에게 필요한 다른 서비스에서 그룹을 만드는 능력에 영향을 미치게 됩니다. Microsoft 365 그룹은 일부 앱이나 서비스에서 그룹을 만들지 못하도록 제한하는 기능을 지원하지 않습니다.
 
 그룹 만들기 제한의 환경은 앱과 서비스에 따라 다릅니다.
 
@@ -93,7 +94,7 @@ SharePoint 사이트는 소유자, 구성원 및 방문자 보안 그룹으로 �
 |:-------------|:---------|
 |Outlook|**새 그룹** 옵션이 사람 페이지의 새 메뉴에서 제거됨|
 |Planner|**새 계획은** 그룹 만들기가 꺼져 있으며 기존 그룹에 계획을 추가하기 위한 제안에 대해 설명|
-|웹용 프로젝트 및 로드맵|**그룹 만들기** 메뉴에서는 그룹 만들기가 제한되어 있으며 기존 그룹을 사용하는 것이 제안됩니다.|
+|Project 및 로드맵에 대한 추가|**그룹 만들기** 메뉴에서는 그룹 만들기가 제한되어 있으며 기존 그룹을 사용하는 것이 제안됩니다.|
 |SharePoint|그룹에 연결되지 않은 팀 사이트를 계속 만들 수 있습니다.|
 |Stream|**그룹** 옵션이 만들기 메뉴 에 **나타나지 않습니다.**|
 |Teams|사용자는 새 그룹으로 팀을 만들 수 없지만 기존 그룹을 활용하는 팀을 만들 수 있습니다.<br><br>**팀 만들기 단추가** 그룹에서 팀 **만들기로 대체됩니다.**|
@@ -101,7 +102,7 @@ SharePoint 사이트는 소유자, 구성원 및 방문자 보안 그룹으로 �
 
 ## <a name="services-interactions-with-groups"></a>그룹과의 서비스 상호 작용
 
-다양한 유형의 그룹, 그룹이 생성 및 관리되는 방식 및 몇 가지 거버넌스 권장 사항에 대한 자세한 내용은 Microsoft 365의 그룹 포스터를 참조하세요.
+다양한 유형의 Microsoft 365, 그룹이 생성 및 관리되는 방식 및 몇 가지 거버넌스 권장 사항에 대한 자세한 내용은 Microsoft 365 그룹의 그룹 포스터를 참조하세요.
 
 [![그룹 인포그래픽용 축소판 이미지](../downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-m365-groups.pdf)
 
@@ -113,29 +114,29 @@ SharePoint 사이트는 소유자, 구성원 및 방문자 보안 그룹으로 �
 |:---|:---|:---|:---|:---|
 |Azure AD|멤버 자격, 그룹 컨트롤, 게스트|예|예|예|
 |Exchange|일정, 사서함|예|예|예|
-|Forms|폼|예|아니요|아니요|
+|양식|폼|예|아니요|아니요|
 |OneNote|전자 필기장|예|아니요|아니요|
 |Planner|작업 보드|아니요|예|예|
 |Power Apps 앱|앱|예|아니요|아니요|
 |Power Automate|워크플로|예|아니요|아니요|
 |Power BI(클래식)|Workspace|아니요|예|예|
 |Power BI(신규)|Workspace|예|아니요|예|
-|웹용 Project|프로젝트 계획|예|예|아니요|
+|웹용 Project|Project 계획|예|예|아니요|
 |로드맵|로드맵|예|예|아니요|
 |SharePoint|사이트|예|예|예|
 |Stream|채널, 비디오|예|예|예|
 |Teams|팀|아니요|예|예|
 |Yammer|Group|예|예|예|
 
-위의 표에서는 Microsoft 365 서비스와의 그룹 상호 작용에 대한 간략한 개요를 제공하나, 이해해야 할 미소와 복잡도도 다수 있습니다. 다음 섹션에서는 특정 워크로드 및 그룹과의 상호 작용에 대해 좀 더 깊이 있게 살펴 봐야 합니다.
+위의 표에서는 Microsoft 365 서비스와의 그룹 상호 작용에 대한 개략적인 개요를 제공하나, 이해해야 할 미소와 복잡도는 매우 높습니다. 다음 섹션에서는 특정 워크로드 및 그룹과의 상호 작용에 대해 좀 더 깊이 있게 살펴 봐야 합니다.
 
 ## <a name="azure-ad"></a>Azure AD
 
-Azure AD는 Microsoft 365 전반에 걸쳐 주된 ID 관리 기능을 제공합니다.
+Azure AD는 여러 응용 프로그램은 다양한 기능에 대한 Microsoft 365.
 
 **그룹에 제공되는 주요 기능**
 
-- 그룹 구성원 자격
+- 그룹 멤버십
 - 이름 정책
 - 만료 정책
 - 게스트
@@ -143,11 +144,11 @@ Azure AD는 Microsoft 365 전반에 걸쳐 주된 ID 관리 기능을 제공합�
 
 **Azure AD에서 그룹을 만들 수 있나요?**
 
-예, 관리 웹 포털, PowerShell 또는 Graph API를 통해 Azure AD에서 Microsoft 365 그룹을 만들 수 있습니다.
+예Microsoft 365 관리 웹 포털, PowerShell 또는 API를 통해 Azure AD에서 그룹을 만들 Graph 있습니다.
 
 **그룹이 없는 Azure AD가 있나요?**
 
-예, Azure AD는 Microsoft 365 그룹과 관련이 없는 많은 서비스를 수행합니다. 각 Microsoft 365 그룹은 Azure AD에서 개체로 표시됩니다.
+예, Azure AD는 그룹과 관련이 없는 많은 서비스를 Microsoft 365 있습니다. 각 Microsoft 365 그룹은 Azure AD에서 개체로 표시됩니다.
 
 **그룹당 Azure AD 인스턴스가 여러 개 있을 수 있나요?**
 
@@ -167,9 +168,9 @@ Azure AD에서 그룹을 삭제하면 관련 그룹 관련 서비스 및 콘텐�
 
 ## <a name="teams"></a>Teams
 
-Teams는 다양한 Microsoft 및 타사 서비스와 상호 작용할 수 있는 단수 인터페이스를 제공하여 공동 작업을 향상하기 위한 채팅 중심 작업 영역입니다.
+Teams Microsoft 및 타사 서비스와 상호 작용할 수 있는 단수 인터페이스를 제공하여 공동 작업을 향상하기 위한 채팅 중심 작업 영역입니다.
 
-기본적으로 팀을 만들면 Microsoft 365 그룹과 연결된 사서함 및 일정이 Exchange의 전체 주소 목록과 Outlook 모두에서 숨겨집니다. 사용자가 동일한 Microsoft 365 그룹에서 Outlook과 Teams를 모두 사용하려면 관리자가 이를 수동으로 다시 정할 수 있습니다.
+기본적으로 팀을 만들면 Microsoft 365 그룹과 연결된 사서함 및 일정이 Exchange 전체 주소 목록과 Outlook. 사용자가 동일한 그룹에서 Outlook 및 Teams 둘 다 사용하려면 관리자가 수동으로 Microsoft 365 있습니다.
 
 **그룹에 제공되는 주요 기능**
 
@@ -177,9 +178,9 @@ Teams는 다양한 Microsoft 및 타사 서비스와 상호 작용할 수 있는
 - 채널 & 탭
 - 모임
 
-**Teams에서 그룹을 만들 수 있나요?**
+**그룹을 Teams 수 있나요?**
 
-예. 새 팀을 만들면 새 Microsoft 365 그룹이 생성됩니다. 현재 팀이 없는 기존 그룹에 대한 팀을 만들 수도 있습니다.
+예. 새 팀을 만들면 새 팀이 Microsoft 365 생성됩니다. 현재 팀이 없는 기존 그룹에 대한 팀을 만들 수도 있습니다.
 
 **팀이 그룹 없이 존재하나요?**
 
@@ -199,43 +200,43 @@ Teams는 다양한 Microsoft 및 타사 서비스와 상호 작용할 수 있는
 
 **팀을 삭제하면 그룹이 삭제하나요?**
 
-예, Microsoft Teams에서 팀을 삭제하면 그룹, 그룹 관련 서비스 및 콘텐츠가 삭제됩니다.
+예, 그룹에서 팀을 Microsoft Teams 그룹, 그룹 관련 서비스 및 콘텐츠가 삭제됩니다.
 
 ## <a name="exchange"></a>Exchange
 
-Exchange Online에서는 메시징, 일정, 연락처 및 관련 기능을 제공합니다. Group의 컨텍스트에서는 전체 서비스 인스턴스가 아니라 단일 리소스만 연결됩니다.
+Exchange Online, 일정, 연락처 및 관련 기능을 제공합니다. Group의 컨텍스트에서는 전체 서비스 인스턴스가 아니라 단일 리소스만 연결됩니다.
 
 **그룹에 제공되는 주요 기능**
 
 - 사서함 및 일정
 - 모든 그룹 구성원에게 전자 메일 보내기
-- eDiscovery 목적에 대한 Teams 채널 대화 저장소, Planner 설명
+- Storage Teams 채널 대화의 수, Planner 설명
 
-**Exchange에서 그룹을 만들 수 있나요?**
+**그룹을 Exchange 수 있나요?**
 
-예. Exchange Online 관리 센터뿐만 아니라 Outlook에서도 그룹을 만들 수 있습니다. Exchange 메일 그룹을 Microsoft 365 그룹으로 변환할 수 있습니다.
+예. Exchange Online 관리 센터에서 그룹을 만들 수도 Outlook. 메일 그룹을 Exchange 그룹으로 변환할 Microsoft 365 있습니다.
 
-**Exchange가 그룹 없이 존재하나요?**
+**그룹이 Exchange 없는지 여부**
 
-예. Exchange Online에서는 그룹 연결 없이 공유 사서함 및 일정을 비롯한 다양한 서비스를 제공합니다.
+예Exchange Online 그룹 연결 없이 공유 사서함 및 일정을 비롯한 여러 서비스를 제공합니다.
 
-**그룹당 Exchange 사서함 또는 일정 인스턴스가 여러 개 있을 수 있나요?**
+**그룹당 사서함 또는 일정 Exchange 인스턴스가 여러 개 있을 수 있나요?**
 
-아니요. 그룹에 대한 단일 Exchange Online 사서함 및 일정만 있을 수 있습니다.
+아니요. 그룹에 대해 사서함 및 일정을 Exchange Online 수 있습니다.
 
-**Exchange 사서함 및 일정을 여러 그룹과 연결할 수 있나요?**
+**사서함 Exchange 일정을 여러 그룹에 연결해야 하나요?**
 
 아니요. 사서함과 일정은 그룹과 1:1 관계를 맺습니다. 사서함을 다른 사용자 또는 그룹과 공유할 수 있습니다. 그러나 이 경우 어떤 형식의 서비스 연결도 설정되지 않습니다.
 
-**Exchange 사서함 또는 일정과 그룹과의 연결은 변경될 수 있나요?**
+**그룹 Exchange 사서함 또는 일정의 연결에 대한 변경이 있나요?**
 
-아니요. 사서함과 일정을 다른 그룹으로 변경할 수 없습니다. 그러나 콘텐츠를 Outlook 내에서 또는 타사 도구를 사용하여 한 사서함에서 다른 사서함으로 이동할 수 있습니다.
+아니요. 사서함과 일정을 다른 그룹으로 변경할 수 없습니다. 그러나 콘텐츠는 사서함 내에서 또는 타사 도구를 사용하여 Outlook 이동할 수 있습니다.
 
 **사서함을 삭제하면 그룹이 삭제하나요?**
 
-예, Exchange에서 사서함을 삭제하면 그룹 및 그룹 관련 서비스 및 콘텐츠가 삭제됩니다.
+예, Exchange 사서함을 삭제하면 그룹 및 그룹 관련 서비스 및 콘텐츠가 삭제됩니다.
 
-## <a name="forms"></a>Forms
+## <a name="forms"></a>양식
 
 양식은 웹 기반 설문 조사 및 퀴즈를 제공합니다.
 
@@ -269,31 +270,31 @@ Exchange Online에서는 메시징, 일정, 연락처 및 관련 기능을 제�
 
 ## <a name="onenote"></a>OneNote
 
-OneNote는 디지털 전자 필기장 응용 프로그램입니다. 그룹으로 만든 OneNote 전자 필기장은 그룹 연결 서비스가 아니라 연결된 SharePoint 사이트의 파일입니다.
+OneNote 전자 필기장 응용 프로그램입니다. 그룹으로 OneNote 전자 필기장은 그룹 연결 서비스가 SharePoint 사이트와 연결된 사이트의 파일입니다.
 
 **그룹에 제공되는 주요 기능**
 
-- 공유 전자 필기장(그룹 연결 SharePoint 라이브러리에 저장)
+- 공유 전자 필기장(그룹 관련 전자 필기장 라이브러리에 SharePoint 저장)
 
-**OneNote에서 그룹을 만들 수 있나요?**
+**그룹을 OneNote 수 있나요?**
 
 아니요. OneNote 응용 프로그램에서 그룹을 만들 수 없습니다.
 
-**OneNote 전자 필기장은 그룹이 없는가요?**
+**전자 OneNote 없는 전자 필기장을 사용할 수 있나요?**
 
-예. OneDrive 또는 다른 공유 위치에서 직접 전자 필기장을 만들 수 있습니다.
+예. 전자 필기장은 전자 필기장 또는 OneDrive 위치에서 직접 만들 수 있습니다.
 
-**그룹당 OneNote 전자 필기장을 여러 개 사용할 수 있나요?**
+**그룹당 전자 OneNote 전자 필기장을 여러 개 사용할 수 있나요?**
 
 예. 전자 필기장은 기본적으로 만들어지며 다른 전자 필기장은 추가할 수 있습니다. 그러나 그룹 관련 서비스의 OneNote 링크는 항상 기본 전자 필기장으로 이동됩니다.
 
-**OneNote 전자 필기장을 여러 그룹에 연결해야 하나요?**
+**전자 OneNote 여러 그룹에 연결될 수 있나요?**
 
-아니요. 전자 필기장은 그룹 연결 SharePoint 사이트 라이브러리에 저장되고 다양한 인터페이스에서 연결됩니다. 그러나 개인과 공유할 수 있는 방식으로 다른 그룹과 공유할 수 있습니다.
+아니요. 전자 필기장은 그룹 관련 사이트 라이브러리에 저장되고 SharePoint 인터페이스에서 연결됩니다. 그러나 개인과 공유할 수 있는 방식으로 다른 그룹과 공유할 수 있습니다.
 
 **전자 필기장과 그룹과의 연결은 변경될 수 있나요?**
 
-아니요. 전자 필기장 자체는 그룹에 연결되어 있으며 다른 그룹 연결 서비스에서 직접 액세스할 수 있습니다. 그러나 콘텐츠는 OneNote 응용 프로그램 내에서 전자 필기장에서 다른 전자 필기장으로 이동할 수 있습니다.
+아니요. 전자 필기장 자체는 그룹에 연결되어 있으며 다른 그룹에 연결된 서비스에서 직접 액세스할 수 있습니다. 그러나 콘텐츠는 전자 필기장 응용 프로그램 내에서 전자 필기장에서 다른 전자 필기장으로 OneNote 있습니다.
 
 **전자 필기장을 삭제하면 그룹이 삭제하나요?**
 
@@ -328,7 +329,7 @@ Planner는 간단한 그룹 작업 관리 서비스입니다.
 아니요. 그러나 계획을 복사하면 새 그룹이 생성됩니다.
 
 > [!NOTE]
-> 다른 응용 프로그램에서 만든 그룹은 사용자의 Planner에 자동으로 표시되지 않습니다. 보드에 처음 액세스하려면 Outlook과 같은 다른 그룹 기반 인터페이스에서 보드를 열 필요가 있습니다.
+> 다른 응용 프로그램에서 만든 그룹은 사용자의 Planner에 자동으로 표시되지 않습니다. 초기에 보드에 액세스하려면 보드와 같은 다른 그룹 기반 인터페이스에서 보드를 열 Outlook.
 
 **계획을 삭제하면 그룹이 삭제하나요?**
 
@@ -336,19 +337,19 @@ Planner는 간단한 그룹 작업 관리 서비스입니다.
 
 ## <a name="power-apps"></a>Power Apps
 
-Power Apps는 코드 없이 앱 개발을 위한 캔버스를 제공합니다.
+Power Apps 코드 없이 앱 개발을 위한 캔버스를 제공 합니다.
 
 **그룹에 제공되는 주요 기능**
 
 - 실행 및 수정할 그룹과 앱을 공유할 수 있습니다.
 
-**Power Apps에서 그룹을 만들 수 있나요?**
+**그룹을 Power Apps 수 있나요?**
 
-아니요. Power Apps는 Microsoft 365 그룹을 만들 수 없습니다.
+아니요. Power Apps 그룹을 만들 Microsoft 365 없습니다.
 
-**Power Apps가 그룹 없이 존재하나요?**
+**그룹이 Power Apps 없는지 여부**
 
-예, 앱을 Power Apps 내에서 만들 수 있으며 공유 또는 게시될 때까지 크리에이터스 계정 내에 있을 수 있습니다.
+예, 공유 또는 게시될 때까지 Power Apps 크리에이터스 계정 내에 앱을 만들 수 있습니다.
 
 **그룹당 앱이 여러 개 있을 수 있나요?**
 
@@ -360,7 +361,7 @@ Power Apps는 코드 없이 앱 개발을 위한 캔버스를 제공합니다.
 
 **그룹과 앱의 연결은 변경될 수 있나요?**
 
-예, Power Apps와 Microsoft 365 그룹 간의 연결은 공유 전용이기에 따라 앱은 여전히 작성자와 함께 있습니다.
+예, Power Apps 그룹과 Microsoft 365 그룹 간의 연결은 공유 전용이기 때문에 앱은 여전히 작성자와 상주합니다.
 
 > [!IMPORTANT]
 > [앱을 공유하려면 먼저 그룹을 보안을 사용하도록 설정해야 합니다.](/powerapps/maker/canvas-apps/share-app#share-an-app-with-office-365-groups)
@@ -377,15 +378,15 @@ Power Automate(이전의 Microsoft Flow)는 워크플로 및 자동화 서비스
 
 - 워크플로를 실행 및 수정할 그룹과 공유할 수 있습니다.
 
-**Power Automate에서 그룹을 만들 수 있나요?**
+**그룹을 Power Automate 수 있나요?**
 
-아니요. Power Automate는 연결된 컨텍스트에서 Microsoft 365 그룹을 만들 수 없습니다.
+아니요. Power Automate 연결된 컨텍스트에서 Microsoft 365 그룹을 만들 수 없습니다.
 
-그러나 Azure AD 보안 그룹을 만들거나 Microsoft 365 그룹의 구성원을 업데이트하는 등의 다양한 작업을 수행하는 흐름을 만들 수 있습니다.
+그러나 Azure AD 보안 그룹을 만들거나 그룹 구성원을 업데이트하는 등의 다양한 작업을 수행하는 흐름을 Microsoft 365 있습니다.
 
 **흐름이 그룹 없이 존재하나요?**
 
-예. 흐름은 Power Automate 내에서 만들 수 있으며 공유 또는 게시될 때까지 작성자 계정 내에 있을 수 있습니다.
+예. 흐름은 공유 또는 Power Automate 크리에이터스 계정 내에 있을 수 있습니다.
 
 **그룹당 흐름이 여러 개 있을 수 있나요?**
 
@@ -397,27 +398,27 @@ Power Automate(이전의 Microsoft Flow)는 워크플로 및 자동화 서비스
 
 **그룹과 흐름의 연결은 변경될 수 있나요?**
 
-예. Power Automate와 Microsoft 365 그룹 간의 연결은 공유 전용으로, 흐름은 여전히 작성자와 함께 있습니다.
+예, Power Automate 그룹과 Microsoft 365 그룹 간의 연결은 공유만 가능하기에 흐름은 여전히 작성자와 상주합니다.
 
 **흐름을 삭제하면 그룹이 삭제하나요?**
 
-아니요. Power Apps와 마찬가지로 흐름은 공유되는 것 외의 그룹에 연결되지 않습니다.
+아니요. Power Apps 마찬가지로 흐름은 공유되는 것 외의 그룹에 연결되지 않습니다.
 
 ## <a name="power-bi-classic"></a>Power BI(클래식)
 
-Power BI는 대화형 데이터 기반 대시보드 및 보고서를 제공합니다.
+Power BI 데이터 기반의 대화형 대시보드 및 보고서를 제공합니다.
 
 **그룹에 제공되는 주요 기능**
 
 - 데이터 보고
 
-**Power BI에서 그룹을 만들 수 있나요?**
+**그룹을 Power BI 수 있나요?**
 
-예, 클래식 작업 환경을 만들면 Microsoft 365 그룹이 생성됩니다.
+예, 클래식 작업 환경을 만들면 Microsoft 365 생성됩니다.
 
-**Power BI 클래식 작업 영역이 그룹 없이 존재하나요?**
+**그룹이 Power BI 없는 클래식 작업 영역이 있습니까?**
 
-아니요. Power BI의 클래식 작업 영역은 [그룹과 연결되어야 합니다.](/power-bi/collaborate-share/service-collaborate-power-bi-workspace)
+아니요. 그룹의 클래식 작업 [Power BI 그룹과 연결해야 합니다.](/power-bi/collaborate-share/service-collaborate-power-bi-workspace)
 
 **그룹당 여러 Power BI 작업 영역이 있을 수 있나요?**
 
@@ -429,60 +430,60 @@ Power BI는 대화형 데이터 기반 대시보드 및 보고서를 제공합�
 
 **작업 영역과 그룹과의 연결은 변경될 수 있나요?**
 
-아니요. 클래식 작업 영역 자체는 Group과 연결되어 있습니다. 그러나 콘텐츠는 Power BI 인터페이스 내의 작업 영역 하나에서 다른 작업 영역으로 이동하거나 로컬로 콘텐츠를 내보낼 수 있습니다.
+아니요. 클래식 작업 영역 자체는 Group과 연결되어 있습니다. 그러나 콘텐츠는 작업 영역 중 하나에서 Power BI 또는 로컬로 내보낼 수 있습니다.
 
 **작업 영역이 삭제되면 그룹이 삭제하나요?**
 
-예. Power BI에서 작업 영역이 삭제되면 그룹 및 그룹 관련 서비스 및 콘텐츠가 삭제됩니다.
+예. Power BI 작업 영역이 삭제되면 그룹 및 그룹 관련 서비스 및 콘텐츠가 삭제됩니다.
 
 ## <a name="power-bi-new"></a>Power BI(신규)
 
-Power BI는 대화형 데이터 기반 대시보드 및 보고서를 제공합니다.
+Power BI 데이터 기반의 대화형 대시보드 및 보고서를 제공합니다.
 
-Power BI에서 새 작업 환경을 만들면 Microsoft 365 그룹이 만들어지지는 않습니다. 다른 수단으로 그룹을 만들면 Power BI에 새로운(클래식이 아닌) 작업 영역이 생성됩니다.
+Power BI 새 작업 환경을 만들면 Microsoft 365 Group이 만들어지지는 않습니다. 다른 수단으로 그룹을 만들면 새 작업 영역(클래식이 아닌 작업 영역)이 Power BI.
 
 **그룹에 제공되는 주요 기능**
 
 - 데이터 보고
 
-**Power BI에서 그룹을 만들 수 있나요?**
+**그룹을 Power BI 수 있나요?**
 
-아니요. 새 Power BI 인터페이스에서 Microsoft 365 그룹을 만들 수 없습니다.
+아니요. 새 Microsoft 365 인터페이스에서 Power BI 없습니다.
 
 **새 Power BI 작업 영역이 그룹 없이 존재하나요?**
 
-예. Power BI에서 Microsoft 365 그룹과 연결되지 않은 보고서 및 작업 영역이 만들어지게 할 수 있습니다.
+예. 보고서 및 작업 영역은 Power BI 그룹과 연결되지 않은 보고서 및 작업 Microsoft 365 있습니다.
 
 **그룹당 여러 작업 영역이 있을 수 있나요?**
 
-예, Power BI에서 만든 여러 작업 영역은 단일 그룹과 [공유할 수 있습니다.](/power-bi/collaborate-share/service-create-the-new-workspaces#give-access-to-your-workspace)
+예, 단일 그룹으로 만든 여러 작업 Power BI 공유할 [수 있습니다.](/power-bi/collaborate-share/service-create-the-new-workspaces#give-access-to-your-workspace)
 
 **작업 영역이 여러 그룹과 연결될 수 있나요?**
 
-아니요. Power BI에서 만든 작업 영역은 단일 그룹에만 연결될 수 있습니다.
+아니요. 단일 Power BI 작업 영역은 단일 그룹에만 연결될 수 있습니다.
 
 **작업 영역과 그룹과의 연결은 변경될 수 있나요?**
 
-그렇기도 하고 그렇지 않기도 하고. Power BI에서 만든 작업 영역은 한 번만 단일 그룹에만 연결될 수 있지만, 이 경우 해당 연결은 변경될 수 있습니다. 그룹이 Power BI에서 만든 작업 영역은 해당 그룹에 영구적으로 연결됩니다.
+그렇기도 하고 그렇지 않기도 하고. 사용자 Power BI 한 그룹에만 연결될 수 있지만 연결은 변경할 수 있습니다. 그룹에서 만든 작업 Power BI 해당 그룹에 영구적으로 연결됩니다.
 
 **작업 영역이 삭제되면 그룹이 삭제하나요?**
 
-예. Power BI에서 작업 영역이 삭제되면 그룹 및 그룹 관련 서비스 및 콘텐츠가 삭제됩니다.
+예, 작업 영역의 Power BI 그룹과 그룹 관련 서비스 및 콘텐츠가 삭제됩니다.
 
 ## <a name="project-for-the-web"></a>웹용 Project
 
-웹용 Project는 프로젝트 계획, Gantt 차트 및 로드맵을 만드는 기능을 제공합니다.
+Project 프로젝트 계획, Gantt 차트 및 로드맵을 만들 수 있는 기능을 제공합니다.
 그룹에 제공되는 주요 기능
 
-- 프로젝트 계획
+- Project 계획
 
-**웹용 Project에서 그룹을 만들 수 있나요?**
+**웹 Project 그룹을 만들 수 있나요?**
 
-예. 웹용 Project에서 직접 새 Microsoft 365 그룹을 만들 수 있습니다.
+예. 웹용 웹 응용 Microsoft 365 직접 새 Project 수 있습니다.
 
 **프로젝트가 그룹 없이 존재하나요?**
 
-예. 프로젝트는 Microsoft 365 그룹과 연결되지 않고 존재할 수 있습니다. 그러나 작업을 배정하려면 그룹 연결이 필요합니다.
+예, 프로젝트는 그룹과 연결되지 않고도 Microsoft 365 수 있습니다. 그러나 작업을 배정하려면 그룹 연결이 필요합니다.
 
 **그룹당 여러 프로젝트가 있을 수 있나요?**
 
@@ -498,23 +499,23 @@ Power BI에서 새 작업 환경을 만들면 Microsoft 365 그룹이 만들어�
 
 **프로젝트를 삭제하면 그룹이 삭제하나요?**
 
-아니요. 웹용 Project에서 프로젝트를 삭제하면 그룹이 삭제되지 않습니다.
+아니요. 웹용 Project 프로젝트를 삭제하면 그룹이 삭제되지 않습니다.
 
 ## <a name="roadmap"></a>로드맵
 
-로드맵은 웹용 Project 및 Project Online을 사용하여 프로젝트 로드맵을 만드는 기능을 제공합니다.
+로드맵은 웹 및 웹 응용 Project 프로젝트 로드맵을 만드는 Project Online.
 
 **그룹에 제공되는 주요 기능**
 
-- 프로젝트 로드맵
+- Project 로드맵
 
 **로드맵에서 그룹을 만들 수 있나요?**
 
-예. 로드맵에서 직접 새 Microsoft 365 그룹을 만들 수 있습니다.
+예, 로드맵에서 직접 새 Microsoft 365 만들 수 있습니다.
 
 **로드맵이 그룹 없이 존재하나요?**
 
-예. 로드맵은 Microsoft 365 그룹에 연결되지 않고 존재할 수 있습니다. 그러나 로드맵을 공유하려면 그룹 연결이 필요합니다.
+예. 로드맵은 Microsoft 365 연결하지 않고도 존재할 수 있습니다. 그러나 로드맵을 공유하려면 그룹 연결이 필요합니다.
 
 **그룹당 여러 로드맵이 있을 수 있나요?**
 
@@ -534,25 +535,25 @@ Power BI에서 새 작업 환경을 만들면 Microsoft 365 그룹이 만들어�
 
 ## <a name="sharepoint"></a>SharePoint
 
-SharePoint는 다양한 Microsoft 365 서비스에 대한 저장소 서비스를 제공하는 웹 기반 콘텐츠 관리 플랫폼입니다.
+SharePoint 다양한 서비스용 저장소 서비스를 제공하는 웹 기반 콘텐츠 Microsoft 365 플랫폼입니다.
 
 **그룹에 제공되는 주요 기능**
 
 - 문서 라이브러리
-- OneNote 전자 필기장 저장소 라이브러리
-- Teams 위키 파일 저장소
+- 전자 필기장 저장용 OneNote 라이브러리
+- Storage Teams 파일 수
 
-**SharePoint에서 그룹을 만들 수 있나요?**
+**그룹을 SharePoint 수 있나요?**
 
-예. SharePoint에서 팀 사이트를 만들면 기본적으로 Microsoft 365 그룹이 생성됩니다. 그룹 및 기존 사이트에 대한 팀(선택 사항)을 만들 수도 있습니다.
+예. SharePoint 팀 사이트를 만들면 기본적으로 Microsoft 365 그룹이 생성됩니다. 그룹 및 기존 사이트에 대한 팀(선택 사항)을 만들 수도 있습니다.
 
-**SharePoint 사이트가 그룹 없이 존재하나요?**
+**사이트 SharePoint 없는 사이트가 있습니까?**
 
-예, SharePoint는 통신 및 허브 사이트와 같은 그룹과 관련되지 않은 여러 서비스 및 사이트를 제공합니다. 
+예SharePoint, 통신 및 허브 사이트와 같은 그룹과 관련되지 않은 여러 서비스 및 사이트를 제공합니다. 
 
 **그룹당 여러 사이트가 있을 수 있나요?**
 
-아니요. 그룹당 사이트가 하나만 있을 수 있습니다. Teams의 비공개 채널은 그룹에 연결되지 않은 추가 사이트를 사용 합니다.
+아니요. 그룹당 사이트가 하나만 있을 수 있습니다. 그룹의 비공개 Teams 그룹에 연결되지 않은 추가 사이트를 사용 합니다.
 
 **사이트가 여러 그룹과 연결될 수 있나요?**
 
@@ -560,11 +561,11 @@ SharePoint는 다양한 Microsoft 365 서비스에 대한 저장소 서비스를
 
 **사이트와 그룹과의 연결은 변경될 수 있나요?**
 
-아니요. 사이트 자체는 그룹과 연결됩니다. 그러나 콘텐츠를 SharePoint 인터페이스 내에서 한 사이트에서 다른 사이트로 이동하거나 로컬로 내보내거나 타사 도구를 사용하여 콘텐츠를 이동할 수 있습니다.
+아니요. 사이트 자체는 그룹과 연결됩니다. 그러나 콘텐츠는 SharePoint 인터페이스 내의 한 사이트에서 다른 사이트로 이동하거나, 콘텐츠를 로컬로 내보내거나, 타사 도구를 사용하여 이동할 수 있습니다.
 
 **사이트를 삭제하면 그룹이 삭제하나요?**
 
-예. SharePoint에서 사이트를 삭제하면 그룹 및 그룹 관련 서비스 및 콘텐츠가 삭제됩니다.
+예, 사이트가 삭제되면 SharePoint 그룹 관련 서비스 및 콘텐츠가 삭제됩니다.
 
 ## <a name="stream"></a>Stream
 
@@ -573,12 +574,12 @@ Microsoft Stream은 비디오 호스팅 및 공유 플랫폼입니다.
 **그룹에 제공되는 주요 기능**
 
 - 비디오 저장소
-- Teams 모임 녹음/녹화
+- Teams 녹음/녹화
 - 비디오 채널
 
 **Stream에서 그룹을 만들 수 있나요?**
 
-예. Stream에서 직접 새 Microsoft 365 그룹을 만들 수 있습니다.
+예. Stream에서 직접 새 Microsoft 365 만들 수 있습니다.
 
 **Stream이 그룹 없이 존재하나요?**
 
@@ -602,37 +603,37 @@ Microsoft Stream은 비디오 호스팅 및 공유 플랫폼입니다.
 
 ## <a name="yammer"></a>Yammer
 
-Yammer 조직 내에서 그리고 조직 간에 커뮤니티 참여를 유도하도록 설계된 엔터프라이즈 소셜 플랫폼입니다.
+Yammer 조직 내부 및 조직 간의 커뮤니티 참여를 유도하도록 설계된 엔터프라이즈 소셜 플랫폼입니다.
 
-사서함에서 커뮤니티(이전의 "그룹"Yammer 만들기)를 만들면 사서함이 만들어지지만 현재는 사용되지 않습니다.
+사서함에서 커뮤니티(이전의 "그룹"Yammer 만들면 사서함이 만들어지지만 현재는 사용되지 않습니다.
 
-사용자와 연결된 Microsoft 365 Yammer Microsoft Teams의 팀과 함께 사용할 수 없습니다.
+사용자 Microsoft 365 연결된 그룹은 Yammer 팀과 함께 사용할 수 Microsoft Teams.
 
 **그룹에 제공되는 주요 기능**
 
 - 대화 영역
 
-**Microsoft Yammer 그룹을 만들 수 있나요?**
+**그룹 Yammer 만들 Microsoft 365 수 있나요?**
 
-예, Yammer 플랫폼이 연결되어 있으며 사용자가 그룹을 만들 수 있는 경우 새 Microsoft 365 그룹이 생성됩니다.
+예, Yammer 플랫폼이 연결되어 있으며 사용자가 그룹을 만들 수 있는 경우 Microsoft 365 그룹이 새로 생성됩니다.
 
-연결된 Yammer 그룹이 있는 그룹은 해당 그룹 자체가 아니라 다른 인터페이스나 서비스에서 만들 Yammer 없습니다.
+연결된 Yammer 그룹이 있는 Microsoft 365 그룹은 해당 그룹 자체가 아니라 다른 인터페이스나 서비스에서 Yammer 없습니다.
 
-**Microsoft Yammer 없는 그룹이 있나요?**
+**Yammer 그룹이 없는 Microsoft 365 있습니까?**
 
-예, Microsoft 365 그룹 없이 Yammer 그룹을 만들 수 있습니다.
+예. 그룹이 없는 Yammer 그룹을 만들 Microsoft 365 있습니다.
 
-Yammer 플랫폼이 Microsoft 365 그룹에 연결되지 않은 경우 또는 사용자가 Microsoft 365 그룹을 만들 수 없는 경우 Yammer 그룹이 Microsoft 365 그룹 연결 없이 만들어집니다.
+Yammer 플랫폼이 Microsoft 365 그룹에 연결되지 않은 경우 또는 사용자가 Microsoft 365 그룹을 만들 수 없는 경우 Yammer 그룹은 그룹 연결 없이 Microsoft 365 만들어집니다.
 
-**Microsoft 365 그룹당 Yammer 그룹이 여러 개 있을 수 있나요?**
+**각 그룹당 Yammer 그룹이 여러 개 Microsoft 365 있습니까?**
 
-아니요. Yammer 그룹과 Microsoft 365 그룹 간의 관계는 1:1입니다.
+아니요. Yammer 그룹과 Microsoft 365 관계는 1:1입니다.
 
-**특정 Yammer Microsoft 365 그룹과 연결될 수 있나요?**
+**여러 Yammer 그룹과 연결될 Microsoft 365 있습니까?**
 
-아니요. Yammer 그룹은 단일 Microsoft 365 그룹과만 연결될 수 있습니다. 게시물을 다른 사용자 그룹과 공유하거나 다른 그룹으로 Yammer 있습니다.
+아니요. Yammer 그룹은 단일 그룹과만 Microsoft 365 수 있습니다. 게시물을 다른 사용자 그룹과 공유하거나 다른 그룹으로 Yammer 있습니다.
 
-**Microsoft Yammer 그룹과의 연결은 변경될 수 있나요?**
+**그룹 Yammer 그룹과의 연결은 변경될 Microsoft 365 있습니까?**
 
 아니요. Yammer 그룹은 원래 연결된 Microsoft 365 그룹과만 연결될 수 있습니다.
 
@@ -640,7 +641,7 @@ Yammer 플랫폼이 Microsoft 365 그룹에 연결되지 않은 경우 또는 �
 
 예, 그룹에서 그룹을 삭제하면 Yammer Microsoft 그룹 및 그룹 관련 서비스 및 콘텐츠가 삭제됩니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 

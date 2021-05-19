@@ -16,15 +16,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 EOP(Exchange Online Protection)의 모든 사용자에 대해 분리된 메시지를 보고 관리하는 방법을 배울 수 있습니다. Office 365용 Microsoft Defender를 사용하여 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams에서 분리된 파일을 관리할 수도 있습니다.
+description: 관리자는 EOP(전자 메일 그룹)의 모든 사용자에 대해 분리된 메시지를 보고 관리하는 Exchange Online Protection 있습니다. Microsoft Defender for Office 365 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 파일에서 비즈니스용 OneDrive 관리할 Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c5e2d6a3729a24766652d4c7c0973c63b1dcb207
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 508866fd66e4cbd00f559446d4ce52a4be063c94
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52272207"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539110"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>EOP에서 관리자 권한으로 격리된 메시지 및 파일 관리하기
 
@@ -39,9 +39,9 @@ Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 
 
 관리자는 모든 사용자에 대해 모든 유형의 메시지를 보고, 해제하고, 삭제할 수 있습니다. 관리자만 맬웨어, 높은 신뢰도 피싱 또는 메일 흐름 규칙(전송 규칙)의 결과로 고지된 메시지를 관리할 수 있습니다. 관리자는 Microsoft에 가의성도 보고할 수 있습니다.
 
-Office 365용 Microsoft Defender를 사용하여 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams에서 분리된 파일을 보고, 다운로드하고, 삭제할 수도 있습니다.
+Microsoft Defender for Office 365 조직의 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 파일에서 분리된 파일을 보고 다운로드하고 삭제할 Microsoft Teams.
 
-보안 & 준수 센터 또는 PowerShell(Exchange Online에 사서함이 있는 Microsoft 365 조직용 Exchange Online PowerShell, Exchange Online 사서함이 없는 조직의 독립 실행형 EOP PowerShell)에서 분리된 메시지를 보고 관리합니다.
+보안 & 준수 센터 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 Exchange Online 조직, Exchange Online 사서함이 없는 조직의 경우 독립 실행형 EOP PowerShell)에서 분리된 메시지를 보고 관리합니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
@@ -59,12 +59,12 @@ Office 365용 Microsoft Defender를 사용하여 조직의 관리자는 SharePoi
 
   - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   - [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.
-  - <sup>\*</sup>Exchange Online PowerShell에서 절차를 수행하려면 **Quarantine Administrator** 역할 그룹의 구성원도 [Exchange Online의](/Exchange/permissions-exo/permissions-exo#role-groups) **Hygiene Management** 역할 그룹의 구성원이 해야 합니다.
+  - <sup>\*</sup>또한 **PowerShell에서** 절차를 수행하려면 Exchange Online 관리자 역할  그룹의 구성원이 [](/Exchange/permissions-exo/permissions-exo#role-groups) Exchange Online 해야 합니다.
 
 - Quarantined messages are retained for a default period of time before they're automatically deleted:
   - 스팸 방지 정책(스팸, 피싱 및 대량 전자 메일)으로 차단된 메시지에 대해 30일 이 값은 기본값 및 최대값입니다. 이 값을 구성(더 낮음)으로 설정하는 내용은 스팸 방지 정책 [구성을 참조합니다.](configure-your-spam-filter-policies.md)
   - 맬웨어가 포함된 메시지의 경우 15일
-  - Office 365용 Defender의 SharePoint, OneDrive 및 Microsoft Teams에 대한 안전한 첨부 파일로 15일간의 파일
+  - SharePoint, OneDrive 및 Microsoft Teams에 대해 안전한 첨부 파일로 Microsoft Teams 15일 동안 Office 365.
 
   메시지가 검지에서 만료되면 복구할 수 없습니다.
 
@@ -72,7 +72,7 @@ Office 365용 Microsoft Defender를 사용하여 조직의 관리자는 SharePoi
 
 ### <a name="view-quarantined-email"></a>quarantined email 보기
 
-1. 보안 및 준수 센터에서 **위협 관리** \> **검토** \> **격리** 로 이동합니다.
+1. 보안 및 & 센터에서 **위협** 관리 검토 \>  \> **Quarantine 로 이동합니다.**
 
 2. **격리된 항목 보기** 가 기본값 **전자 메일** 로 설정되었는지 확인합니다.
 
@@ -196,7 +196,7 @@ Office 365용 Microsoft Defender를 사용하여 조직의 관리자는 SharePoi
 
 - **메시지 다운로드하기**: 표시되는 플라이아웃 창에서 **이 메시지를 다운로드하는 데 따르는 위험을 알고 있습니다.** 를 선택하여 메시지의 로컬 복사본을 .eml 형식으로 저장합니다.
 
-- **보낸 사람 차단**: 사서함의 수신 차단된 보낸 사람 목록에 보낸 사람 추가 자세한 내용은 메일 보낸 [사람 차단을 참조하세요.](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)
+- **보낸 사람 차단**: 사서함의 수신 거부 목록에 보낸 사람을 추가합니다. 자세한 내용은 [메일 보낸 사람 차단](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)을 참조하세요.
 
 - **메시지 제출:** 플라이아웃 창이 나타나면 다음 옵션을 선택합니다.
 
@@ -225,16 +225,16 @@ Office 365용 Microsoft Defender를 사용하여 조직의 관리자는 SharePoi
 
 작업을 마쳤으면 **닫기** 를 클릭합니다.
 
-## <a name="microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files"></a>Office 365용 Microsoft Defender만: 보안 & 준수 센터를 사용하여 분리된 파일 관리
+## <a name="microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files"></a>Microsoft Defender for Office 365 전용: 보안 & 준수 센터를 사용하여 분리된 파일 관리
 
 > [!NOTE]
-> 이 섹션의 quarantined files에 대한 절차는 Microsoft Defender for Office 365 계획 1 및 계획 2 구독자만 사용할 수 있습니다.
+> 이 섹션의 quarantined files에 대한 절차는 Microsoft Defender for Office 365 Plan 1 및 Plan 2 구독자만 사용할 수 있습니다.
 
-Office 365용 Defender가 있는 조직에서 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams에서 분리된 파일을 관리할 수 있습니다. 이러한 파일에 대한 보호를 사용하도록 설정하려면 [SharePoint, OneDrive](turn-on-mdo-for-spo-odb-and-teams.md)및 Microsoft Teams에 대한 안전한 첨부 파일 설정을 참조합니다.
+Defender for Office 365 조직에서 관리자는 SharePoint Online, 비즈니스용 OneDrive 및 관리에서 Microsoft Teams. 이러한 파일에 대한 보호를 사용하도록 설정하려면 에 대한 안전 첨부 파일 [SharePoint,](turn-on-mdo-for-spo-odb-and-teams.md)OneDrive 및 Microsoft Teams.
 
 ### <a name="view-quarantined-files"></a>quarantined files(Quarantined Files 보기)
 
-1. 보안 및 준수 센터에서 **위협 관리** \> **검토** \> **격리** 로 이동합니다.
+1. 보안 및 & 센터에서 **위협** 관리 검토 \>  \> **Quarantine 로 이동합니다.**
 
 2. 값 **파일로 quarantined 보기를** **변경합니다.** 사용 가능한 열 헤더를 클릭하여 필드를 정렬할 수 있습니다.
 
@@ -268,10 +268,10 @@ Office 365용 Defender가 있는 조직에서 관리자는 SharePoint Online, �
 목록에서 파일을 선택하면 세부 정보 플라이아웃 창에 다음 파일 **세부** 정보가 표시됩니다.
 
 - **File Name**
-- **파일 URL:** 파일 위치(예: SharePoint Online)를 정의하는 URL입니다.
+- **파일 URL:** 파일의 위치를 정의하는 URL입니다(예: SharePoint Online).
 - **검색된 악성 콘텐츠** 파일이 대리된 날짜/시간입니다.
 - **만료 날짜:** 파일이 검지에서 삭제되는 날짜입니다.
-- **검색:** Office 365용 Defender 또는 Microsoft의 맬웨어 방지 엔진입니다.
+- **검색:** 맬웨어 Office 365 맬웨어 방지 엔진에 대한 Defender.
 - **해제되었나요?**
 - **맬웨어 이름**
 - **문서 ID:** 문서의 고유 식별자입니다.
@@ -298,7 +298,7 @@ Office 365용 Defender가 있는 조직에서 관리자는 SharePoint Online, �
 - **파일 릴리스**
 - **파일 삭제:** 나타나는 경고에서 **예를** 클릭하면 파일이 즉시 삭제됩니다.
 
-## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-view-and-manage-quarantined-messages-and-files"></a>Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell을 사용하여 독립 실행형 메시지 및 파일 보기 및 관리
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-view-and-manage-quarantined-messages-and-files"></a>PowerShell Exchange Online 독립 실행형 EOP PowerShell을 사용하여 독립 실행형 메시지 및 파일 보기 및 관리
 
 메시지와 파일을 확인 및 관리하는 데 사용하는 cmdlet은 다음을 제공합니다.
 
@@ -308,6 +308,6 @@ Office 365용 Defender가 있는 조직에서 관리자는 SharePoint Online, �
 
 - [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage)
 
-- [Preview-QuarantineMessage:](/powershell/module/exchange/preview-quarantinemessage)이 cmdlet은 메시지 전용으로, SharePoint, OneDrive 및 Microsoft Teams에 대한 안전한 첨부 파일에서 고지된 파일이 아니라 메시지에 한합니다.
+- [Preview-QuarantineMessage:](/powershell/module/exchange/preview-quarantinemessage)이 cmdlet은 메시지 전용으로, 메시지, SharePoint, OneDrive 및 메시지에 대해 안전한 첨부 파일에서 OneDrive 않습니다Microsoft Teams.
 
 - [Release-QuarantineMessage](/powershell/module/exchange/release-quarantinemessage)

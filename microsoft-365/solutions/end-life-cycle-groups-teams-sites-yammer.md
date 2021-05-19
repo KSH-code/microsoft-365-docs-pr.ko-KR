@@ -14,13 +14,14 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
+recommendations: false
 description: 그룹, 팀 및 팀에 대한 수명 주기 종료 옵션 Yammer.
-ms.openlocfilehash: 468f41df747b6cf12d3f6619d79cb97248eba1d1
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: fccdf838b7ebec6a1ab1fae2f709824bfbd3b6d1
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346429"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538834"
 ---
 # <a name="end-of-lifecycle-options-for-groups-teams-and-yammer"></a>그룹, 팀 및 팀에 대한 수명 주기 종료 옵션 Yammer
 
@@ -197,7 +198,7 @@ Power BI 및 작업 영역은 그룹 및 팀과 독립적으로 작동할 수 �
 
 대신 보고서를 더 이상 활성 상태일 필요는 없지만 데이터를 보존해야 하는 경우 에서 으로 [내보낼 수 Excel.](/power-bi/visuals/power-bi-visualization-export-data)
 
-## <a name="project"></a>Project
+## <a name="project"></a>프로젝트
 
 웹용 Project 프로젝트 및 로드맵은 Microsoft 365 그룹과 연결되어 있으며 오프보드(off-boarding)와 유사한 Power BI.
 
@@ -265,3 +266,7 @@ Microsoft Teams 대화와 Yammer 이동하거나 내보내기 위한 사용자 �
 **네트워크 데이터 내보내기**
 
 Yammer 네트워크 관리자가 네트워크 [데이터를 내보낼 수 있습니다.](/yammer/manage-security-and-compliance/export-yammer-enterprise-data) 그러나 이렇게 하면 전체 네트워크의 모든 대화가 내보내됩니다. 결과 내보내기에는 그룹 ID가 나열됩니다. 이 ID에 따라 대화를 필터링할 수 있습니다.
+
+## <a name="related-topics"></a>관련 항목
+
+[이전 직원 제거 및 보안 데이터](/microsoft-365/admin/add-users/remove-former-employee)

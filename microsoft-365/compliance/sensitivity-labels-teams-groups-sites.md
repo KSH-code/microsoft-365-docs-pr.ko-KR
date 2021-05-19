@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: 4914a5911ffb493eded46631d7682c1e48cf1426
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ef4559a278ce83f429790efcd20517b5c8545cb3
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860877"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52531045"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>민감도 레이블을 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 콘텐츠 보호하기
 
@@ -34,9 +34,10 @@ ms.locfileid: "51860877"
 - 외부 사용자 액세스
 - SharePoint 사이트에서의 외부 공유
 - 관리되지 않는 장치에서 액세스
+- 인증 컨텍스트(미리 보기)
 
 > [!IMPORTANT]
-> **관리되지 않는 장치에서 액세스** 설정은 SharePoint 기능과 함께 작동하여 [관리되지 않는 장치에서 액세스를 제어](/sharepoint/control-access-from-unmanaged-devices)합니다. 이 설정이 구성되어 있는 민감도 레이블을 사용하도록 해당 종속 SharePoint 기능을 구성해야 합니다. 추가 정보는 다음 지침에 포함되어 있습니다.
+> 관리되지 않는 장치 및 인증 컨텍스트에 대한 설정은 Azure Active Directory 조건부 액세스와 함께 작동합니다. 이러한 설정에 민감도 레이블을 사용하려면 이 종속 기능을 구성해야 합니다. 추가 정보는 다음 지침에 포함되어 있습니다.
 
 지원되는 컨테이너에 이 민감도 레이블을 적용하는 경우, 레이블은 사이트 또는 그룹에 분류 및 구성된 보호 설정을 자동으로 적용합니다.
 
@@ -47,7 +48,7 @@ ms.locfileid: "51860877"
 
 ## <a name="using-sensitivity-labels-for-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 민감도 레이블 사용하기
 
-컨테이너에 민감도 레이블을 사용하도록 설정하고 새 설정에 대한 민감도 레이블을 구성하기 전에 사용자는 앱에서 민감도 레이블을 보고 적용할 수 있습니다. 예를 들어 Word의 경우 다음과 같습니다.
+컨테이너에서 민감도 레이블을 사용하도록 설정하고 새 설정에 대한 민감도 레이블을 구성하기 전에 사용자는 앱에서 민감도 레이블을 보고 적용할 수 있습니다. 예를 들어, Word에서 다음을 수행할 수 있습니다.
 
 ![Word 데스크톱 앱에 표시되는 민감도 레이블](../media/sensitivity-label-word.png)
 
@@ -56,6 +57,8 @@ ms.locfileid: "51860877"
 ![SharePoint에서 팀 사이트를 만들 때의 민감도 레이블](../media/sensitivity-labels-new-team-site.png)
 
 ## <a name="how-to-enable-sensitivity-labels-for-containers-and-synchronize-labels"></a>컨테이너에서 민감도 레이블을 사용하도록 설정하고 레이블을 동기화하는 방법
+
+컨테이너에 대한 민감도 레이블을 아직 활성화하지 않은 경우 일회성 절차로 다음 단계를 수행하세요.
 
 1. 이 기능은 Azure AD 기능을 사용하므로 Azure AD 설명서의 지침에 따라 민감도 레이블 지원을 사용하도록 설정하세요. [Azure Active Directory의 Microsoft 365 그룹에 민감도 레이블 지정하기](/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
 
@@ -71,7 +74,7 @@ ms.locfileid: "51860877"
 
 ## <a name="how-to-configure-groups-and-site-settings"></a>그룹 및 사이트 설정을 구성하는 방법
 
-컨테이너에 민감도 레이블을 사용하도록 설정하는 것은 이제 민감도 레이블 마법사에서 그룹과 사이트에 대한 보호 설정을 구성할 수 있다는 의미입니다. 이 지원을 사용할 때까지 설정은 마법사에 표시되지만 구성할 수는 없습니다.
+이전 섹션에서 설명한대로 컨테이너에 대해 민감도 레이블을 활성화한 후 민감도 레이블 지정 마법사에서 그룹 및 사이트에 대한 보호 설정을 구성할 수 있습니다. 컨테이너에 대해 민감도 레이블이 활성화될 때까지 설정이 마법사에 표시되지만 구성할 수는 없습니다.
 
 1. 일반 지침에 따라 [민감도 레이블을 만들거나 편집](create-sensitivity-labels.md#create-and-configure-sensitivity-labels)하고 레이블 범위에 대한 **그룹 및 사이트** 를 반드시 선택합니다. 
     
@@ -84,7 +87,7 @@ ms.locfileid: "51860877"
 2. 그런 다음 **그룹 및 사이트에 대 한 보호 설정 정의** 페이지에서 사용 가능한 옵션 중 하나 또는 모두를 선택합니다.
     
     - **개인 정보** 및 **외부 사용자 액세스** 설정을 구성하기 위한 **개인 정보 및 외부 사용자 액세스 설정** 입니다. 
-    - **레이블이 지정된 SharePoint 사이트에서의 외부 공유 제어** 및 **관리되지 않는 장치에서의 액세스** 설정을 구성하기 위한 **장치 액세스 및 외부 공유 설정** 입니다.
+    - **외부 공유 및 조건부 액세스 설정** 을 사용하여 **레이블이 지정된 SharePoint 사이트에서 외부 공유 제어** 및 **Azure AD 조건부 액세스를 사용하여 레이블이 지정된 SharePoint 사이트 보호** 설정을 구성합니다.
 
 3. **개인 정보 및 외부 사용자 액세스설정** 을 선택한 경우, 이제 다음 설정을 구성합니다.
     
@@ -98,13 +101,25 @@ ms.locfileid: "51860877"
     
     - **외부 사용자 액세스**: 그룹 소유자가 [그룹에 게스트를 추가](/office365/admin/create-groups/manage-guest-access-in-groups)할 수 있는지를 제어합니다.
 
-4. **장치 액세스 및 외부 공유 설정** 을 선택한 경우, 이제 다음 설정을 구성합니다.
+4. **장치 외부 공유 및 장치 액세스 설정** 을 선택한 경우 이제 다음 설정을 구성합니다.
     
     - **레이블이 지정된 SharePoint 사이트에서 외부 공유 제어**: 이 옵션을 선택하고, 모든 사용자, 신규 및 기존 게스트, 기존 게스트, 조직 내부 사용자만 중 원하는 외부 공유 옵션을 선택합니다. 이 구성 및 설정에 대한 자세한 내용은 SharePoint 설명서, [사이트에 대해 외부 공유 설정 또는 해제](/sharepoint/change-external-sharing-site)를 참조 하세요.
     
-    - **관리되지 않는 장치에서의 액세스**: 이 옵션은 Azure AD 조건부 액세스를 사용하여 관리되지 않는 장치에서의 SharePoint 및 OneDrive 콘텐츠에 대한 액세스를 차단하거나 제한하는 SharePoint 기능을 사용합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](/sharepoint/control-access-from-unmanaged-devices)를 참조하세요. SharePoint 지침의 [특정 SharePoint 사이트 또는 OneDrive에 대한 액세스 차단 혹은 제한](/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) 섹션 3-5단계에서 설명한 대로 이 레이블 설정에 지정하는 옵션은 사이트에 대해 PowerShell 명령을 실행하는 것과 동일합니다.
-        
-        추가 정보는 이 섹션의 끝에 있는 [관리되지 않는 장치 옵션의 종속성에 대한 자세한 정보](#more-information-about-the-dependencies-for-the-unmanaged-devices-option)를 참조하세요.
+    - **Azure AD 조건부 액세스를 사용하여 레이블이 지정된 SharePoint 사이트 보호**: 이 옵션은 조직에서 [Azure Active Directory 조건부 액세스](/azure/active-directory/conditional-access/overview)를 구성하고 사용하는 경우에만 선택합니다. 그런 다음, 다음 설정 중 하나를 선택합니다.
+    
+        - **사용자가 관리되지 않는 장치에서 SharePoint 사이트에 액세스할 수 있는지 여부 결정**: 이 옵션은 Azure AD 조건부 액세스를 사용하는 SharePoint 기능을 사용하여 관리되지 않는 장치에서 SharePoint 및 OneDrive 콘텐츠에 대한 액세스를 차단하거나 제한합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](/sharepoint/control-access-from-unmanaged-devices)를 참조하세요. SharePoint 지침의 [특정 SharePoint 사이트 또는 OneDrive에 대한 액세스 차단 혹은 제한](/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) 섹션 3-5단계에서 설명한 대로 이 레이블 설정에 지정하는 옵션은 사이트에 대해 PowerShell 명령을 실행하는 것과 동일합니다.
+            
+            추가 구성 정보는 이 섹션의 끝에 있는 [관리되지 않는 장치 옵션의 종속성에 대한 자세한 정보](#more-information-about-the-dependencies-for-the-unmanaged-devices-option)를 참조하세요.
+            
+        - **기존 인증 컨텍스트 선택**: 현재 미리 보기에서 이 옵션을 사용하면 사용자가 이 레이블이 적용된 SharePoint 사이트에 액세스할 때 더 엄격한 액세스 조건을 적용할 수 있습니다. 이러한 조건은 조직의 조건부 액세스 배포를 위해 생성 및 게시된 기존 인증 컨텍스트를 선택할 때 적용됩니다. 사용자가 구성된 조건을 충족하지 않거나 인증 컨텍스트를 지원하지 않는 앱을 ​​사용하는 경우 액세스가 거부됩니다.
+            
+            추가 구성 정보는 이 섹션의 끝에 있는 [인증 컨텍스트 옵션의 종속성에 대한 자세한 정보](#more-information-about-the-dependencies-for-the-authentication-context-option)를 참조하세요.
+            
+            이 레이블 구성의 예:
+            
+             - [다단계 인증(MFA)](/azure/active-directory/conditional-access/untrusted-networks)을 요구하도록 구성된 인증 컨텍스트를 선택합니다. 그런 다음 이 레이블은 기밀 항목이 포함된 SharePoint 사이트에 적용됩니다. 결과적으로 신뢰할 수 없는 네트워크의 사용자가 이 사이트의 문서에 액세스하려고 하면 문서에 액세스하기 전에 완료해야 한다는 MFA 프롬프트가 표시됩니다.
+             
+             - [사용 약관(ToU) 정책](/azure/active-directory/conditional-access/terms-of-use)에 대해 구성된 인증 컨텍스트를 선택합니다. 그런 다음 이 레이블은 법률 또는 규정 준수 이유로 사용 약관 동의가 필요한 항목이 포함된 SharePoint 사이트에 적용됩니다. 따라서 사용자가 이 사이트의 문서에 액세스하려고하면 원본 문서에 액세스하기 전에 동의해야 하는 사용 약관 문서가 표시됩니다.
 
 > [!IMPORTANT]
 > 팀, 그룹 또는 사이트에 레이블을 적용할 때 이러한 사이트 및 그룹 설정에만 적용됩니다. [레이블의 범위](sensitivity-labels.md#label-scopes)에 파일 및 전자 메일이 포함되는 경우, 팀, 그룹 또는 사이트 내의 콘텐츠에는 암호화 및 콘텐츠 표시와 같은 그 외 레이블 설정이 적용되지 않습니다.
@@ -118,6 +133,43 @@ ms.locfileid: "51860877"
 예를 들어 테넌트가 **제한된 웹 전용 액세스 허용** 으로 구성된 경우 전체 액세스를 허용하는 레이블 설정은 제한 수준이 더 낮기 때문에 효과가 없습니다. 이 테넌트 수준 설정의 경우 액세스를 차단하는 레이블 설정(제한 수준이 더 높음) 또는 제한된 액세스에 대한 레이블 설정(테넌트 설정과 동일)을 선택합니다.
 
 SharePoint 설정은 레이블 구성과 독립적으로 구성할 수 있기 때문에 민감도 레이블 마법사에서 종속성이 설정되어 있는지 확인하지 않습니다. 이러한 종속성은 레이블이 만들어지고 게시된 후와 레이블이 적용된 후에도 구성할 수 있습니다. 그러나 레이블이 이미 적용된 경우 사용자가 다음에 인증할 때까지 레이블 설정이 적용되지 않습니다.
+
+##### <a name="more-information-about-the-dependencies-for-the-authentication-context-option"></a>인증 컨텍스트 옵션의 종속성에 대한 추가 정보
+
+선택을 위해 드롭다운 목록에 표시하려면 인증 컨텍스트를 Azure Active Directory 조건 액세스 구성의 일부로 생성, 구성 및 게시해야 합니다. 자세한 내용 및 지침은 Azure AD 조건부 액세스 문서에서 [인증 컨텍스트 구성](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#configure-authentication-contexts) 섹션을 참조하세요.
+
+모든 앱이 인증 컨텍스트를 지원하는 것은 아닙니다. 지원되지 않는 앱을 지닌 사용자가 인증 컨텍스트에 대해 구성된 사이트에 연결하면 액세스 거부 메시지가 표시되거나 인증하라는 메시지가 표시되지만 거부됩니다. 현재 인증 컨텍스트를 지원하는 앱:
+
+- 웹용 Outlook이 포함된 웹용 Office
+
+- Microsoft Planner
+
+- Word, Excel 및 PowerPoint 용 Microsoft 365 앱 최소 버전:
+    - Windows: 2103
+    - macOS: 16.45.1202
+    - iOS: 2.48.303
+    - Android: 16.0.13924.10000
+
+- Outlook용 Microsoft 365 앱; 최소 버전:
+    - Windows: 2103
+    - macOS: 16.45.1202
+    - iOS: 4.2109.0
+    - Android: 4.2025.1
+
+- OneDrive 동기화 앱, 최소 버전:
+    - Windows: 21.002
+    - macOS: 21.002
+    - iOS: 12.30에 배포 중
+    - Android: 아직 지원되지 않음
+
+이 미리 보기에 대해 알려진 제한 사항:
+
+- OneDrive 동기화 앱의 경우 OneDrive에서만 지원되며 다른 사이트에서는 지원되지 않습니다.
+
+- 다음 기능 및 앱은 인증 컨텍스트와 호환되지 않을 수 있으므로 사용자가 인증 컨텍스트를 사용하여 사이트에 성공적으로 액세스한 후에도 계속 작동하는지 확인하는 것이 좋습니다.
+    
+    - PowerApps 또는 Power Automate를 사용하는 워크플로
+    - 타사 앱
 
 ## <a name="sensitivity-label-management"></a>민감도 레이블 관리
 

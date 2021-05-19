@@ -1,7 +1,7 @@
 ---
 title: 지원 종료 소프트웨어 및 소프트웨어 버전 계획
 description: 더 이상 지원되지 않는 소프트웨어 및 소프트웨어 버전을 검색하고 계획하여 보안 업데이트를 받을 수 없습니다.
-keywords: 위협 및 취약성 관리, 끝점 tvm 보안 권장, 사이버 보안 권장, 실행 가능한 보안 권장
+keywords: 위협 및 취약성 관리 Microsoft Defender for Endpoint tvm 보안 권장, 사이버 보안 권장, 실행 가능한 보안 권장
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,21 +18,21 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8e8fc228b8856df03b580e748bf00efc8d4333c3
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: bb436cbd2d0fa453872760c1d2656585e02d1767
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934132"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538870"
 ---
-# <a name="plan-for-end-of-support-software-and-software-versions-with-threat-and-vulnerability-management"></a>위협 및 취약성 관리를 사용하여 지원 종료 소프트웨어 및 소프트웨어 버전 계획
+# <a name="plan-for-end-of-support-software-and-software-versions-with-threat-and-vulnerability-management"></a>지원 종료 소프트웨어 및 소프트웨어 버전을 계획하고 위협 및 취약성 관리
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **적용 대상:**
 
 - [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [위협 및 취약점 관리](next-gen-threat-and-vuln-mgt.md)
+- [위협 및 취약성 관리](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
@@ -41,16 +41,19 @@ ms.locfileid: "51934132"
 
 보안 및 IT 관리자가 함께 작업하고 최적의 결과, 규정 준수 및 건전한 네트워크 에코시스템을 위해 조직의 소프트웨어 인벤토리를 구성하는 것이 중요합니다. 지원 종료에 도달한 앱을 제거하거나 교체하고 더 이상 지원되지 않는 버전을 업데이트하는 옵션을 검사해야 합니다. 지원 날짜가 끝나기 전에  계획을 만들고 구현하는 것이 가장 좋은 것입니다.
 
+>[!NOTE]
+> EOS 기능은 현재 비영리 제품(Mac, Linux Windows 사용할 수 없습니다. 그러나 향후에 추가될 예정입니다.
+
 ## <a name="find-software-or-software-versions-that-are-no-longer-supported"></a>더 이상 지원되지 않는 소프트웨어 또는 소프트웨어 버전 찾기
 
-1. 위협 및 취약성 관리 메뉴에서 보안 권장 [**사항으로 이동합니다.**](tvm-security-recommendation.md)
+1. 보안 위협 및 취약성 관리 보안 권장 [**사항으로 이동합니다.**](tvm-security-recommendation.md)
 2. 필터 **패널로** 이동하여 태그 섹션을 검색합니다. EOS 태그 옵션 중 하나 이상을 선택합니다. 그런 다음 **을 적용합니다.**
 
     ![Screenshot tags that say EOS software, EOS versions, and Upcoming EOS versions.](images/tvm-eos-tag.png)
 
 3. 지원이 종료된 소프트웨어, 지원 종료된 소프트웨어 버전 또는 예정된 지원 종료 버전과 관련된 권장 사항 목록이 표시됩니다. 이러한 태그는 소프트웨어 인벤토리 [페이지에도 표시됩니다.](tvm-software-inventory.md)
 
-    ![EOS 태그가 있는 권장 사항.](images/tvm-eos-tags-column.png)
+    ![권장 사항 EOS 태그와 함께 사용할 수 있습니다.](images/tvm-eos-tags-column.png)
 
 ## <a name="list-of-versions-and-dates"></a>버전 및 날짜 목록
 

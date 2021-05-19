@@ -19,12 +19,12 @@ ms.custom:
 description: Office 365에서 사용자 지정 도메인과 함께 SPF(Sender Policy Framework)를 사용할 수 있도록 DNS(도메인 이름 서비스) 레코드를 업데이트하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1d200c4cf17a3d42ddafca301fecbf18c249ac37
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 828d76b95a1e3f8d1a1851121d28603a1922f486
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245687"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538990"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>스푸핑을 방지할 수 있도록 SPF 설정
 
@@ -45,6 +45,13 @@ ms.locfileid: "52245687"
 이 문서에서는 Office 365에서 사용자 지정 도메인과 함께 SPF(Sender Policy Framework) 전자 메일 인증을 사용할 수 있도록 DNS(Domain Name Service) 레코드를 업데이트하는 방법에 대해 설명합니다.
 
 SPF는 사용자 지정 도메인에서 보낸 아웃바운드 전자 메일의 *유효성을 검사* 하는 데 도움이 됩니다. SPF, [DKIM](use-dkim-to-validate-outbound-email.md) 및 [DMARC](use-dmarc-to-validate-email.md)의 전체 권장 전자 메일 인증 방법을 설정하는 첫 번째 단계입니다.
+
+- [필수 구성 요소](#prerequisites)
+- [SPF TXT 레코드 생성 또는 업데이트](#create-or-update-your-spf-txt-record)
+  - [하위 도메인을 어떻게 처리하나요?](#how-to-handle-subdomains)
+- [SPF 전자 메일 인증이 실제로 하는 일은 무엇인가요?](#what-does-spf-email-authentication-actually-do)
+  - [SPF 문제 해결](#troubleshooting-spf)
+- [SPF에 대한 자세한 정보](#more-information-about-spf)
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -118,7 +125,6 @@ Office 365용 SPF TXT 레코드는 모든 사용자 지정 도메인 또는 하�
 ## <a name="troubleshooting-spf"></a>SPF 문제 해결
 
 SPF TXT 레코드에 문제가 있나요? [문제 해결: Office 365의 SPF에 대한 모범 사례](how-office-365-uses-spf-to-prevent-spoofing.md#SPFTroubleshoot)를 읽으세요.
-
 
 ## <a name="what-does-spf-email-authentication-actually-do"></a>SPF 전자 메일 인증이 실제로 하는 일은 무엇인가요?
 

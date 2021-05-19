@@ -14,13 +14,14 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
+recommendations: false
 description: 사용자 그룹, Microsoft 365 및 Teams 준수 옵션에 대해 SharePoint 대해 자세히 알아보습니다.
-ms.openlocfilehash: a9a94f0c1886ac5b60292f5f4d4b9b9d6d84380c
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 236b977b22066830e1b36bc87676fd5fa2c9d3f5
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241679"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538126"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Microsoft 365, Teams 및 SharePoint 준수 옵션
 
@@ -38,7 +39,7 @@ Microsoft 365 사용자는 공동 작업을 할 때 규정 준수를 유지하�
 ||중요한 콘텐츠 자동 분류|[민감도 레이블을 콘텐츠에 자동으로 적용](../compliance/apply-sensitivity-label-automatically.md)|
 ||중요한 콘텐츠 암호화|[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](../compliance/encryption-sensitivity-labels.md)|
 |정보 보호|||
-||중요한 정보 손실 방지|[데이터 손실 방지에 대해 자세한 알아보기](../compliance/dlp-learn-about-dlp.md)|
+||중요한 정보 손실 방지|[데이터 손실 방지에 대해 알아보기](../compliance/dlp-learn-about-dlp.md)|
 ||채팅에서 중요한 정보를 보호합니다.|[데이터 손실 방지 및 Microsoft Teams](../compliance/dlp-microsoft-teams.md)|
 ||조직의 중요한 정보 정의|[사용자 지정 중요한 정보 유형](../compliance/sensitive-information-type-learn-about.md)|
 |사용자 분할|||
@@ -66,7 +67,7 @@ Microsoft 365 그룹에 대한 보존 정책을 구성하면 그룹 사서함 �
 
 추가 리소스:
 
-- [보존 정책에 대한 자세한 정보](../compliance/retention.md)
+- [보존 정책에 대해 자세히 알아보기](../compliance/retention.md)
 
 - [보존 태그 및](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies) 보존 정책 Exchange
 
@@ -95,7 +96,7 @@ Microsoft 365 그룹에 대한 보존 정책을 구성하면 그룹 사서함 �
 
 DLP 정책은 사용자, 사용자 및 사용자 SharePoint 중요한 정보를 실수로 Exchange 방지할 수 Teams. 규칙 집합에 따라 수행할 작업(예: 액세스 차단)을 지정하는 정책을 만들 수 있습니다.
 
-- [데이터 손실 방지에 대해 자세한 알아보기](../compliance/dlp-learn-about-dlp.md)
+- [데이터 손실 방지에 대해 알아보기](../compliance/dlp-learn-about-dlp.md)
 
 DLP는 Teams 포함된 메시지를 삭제하여 Teams 및 채널 메시지의 중요한 정보를 보호하는 데 도움이 될 수 있습니다.
 

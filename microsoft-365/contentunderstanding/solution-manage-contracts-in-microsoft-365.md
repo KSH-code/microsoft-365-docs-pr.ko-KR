@@ -13,12 +13,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Syntex, Microsoft 365 및 SharePoint 솔루션을 사용하여 계약을 Microsoft Teams 방법을 Power Automate.
-ms.openlocfilehash: 806ea9fd048dec198a19fa79f3b60f3f3cb81018
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 057c581559aa2e5cfd6e98b379783a7d73e0bccc
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281311"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538570"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>관리 솔루션을 사용하여 Microsoft 365 관리
 
@@ -67,6 +67,10 @@ ms.locfileid: "52281311"
 4. 이 Power Automate 사용하여 계약은 Teams 채널의 승인 프로세스를 통해 이동됩니다. 구성원이 계약을 승인하면 계약 상태가 승인으로 변경되고, 모든 구성원이 Teams 게시를 통해 알림을 하게 되고, 계약이 지급될 준비가 됐는지 표시하는 품목이 만들어집니다. 이 프로세스를 확장하여 결제를 위해 타사 금융 응용 프로그램에 직접 쓸 수 있습니다.
 
 5.  구성원이 계약을 거부하면 상태가 거부로 변경되고 모든 구성원은 해당 게시물을 통해 Teams 않습니다.
+
+6. 이 솔루션의 최종 결과는 조직에 대한 자동화된 비즈니스 프로세스입니다. 직원은 문서의 승인 워크플로를 시작하고 Teams 사용자 지정 타일 보기를 쉽게 사용할 수 있습니다. 
+
+     ![계약 탭](../media/content-understanding/tile-view.png)
 
 ## <a name="create-the-solution"></a>솔루션 만들기
 

@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: 콘텐츠 검색 또는 Microsoft 365 규정 준수 센터의 Core eDiscovery 검색에서 반환한 결과 샘플 미리 보기.
-ms.openlocfilehash: ebe4aa0d5f08ab97376cfde63eb59351fccd1911
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: a89c8c9ed2500b4e2a859c75be3da177203d1406
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52314309"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538598"
 ---
 # <a name="preview-ediscovery-search-results"></a>eDiscovery 검색 결과 미리 보기
 
@@ -39,9 +39,25 @@ Core eDiscovery 케이스와 관련된 콘텐츠 검색 또는 검색을 실행�
 
 3. 플라이아웃 페이지 아래에서 **샘플 검토** 를 클릭합니다.
 
-   검색 결과 샘플을 포함한 페이지가 표시됩니다.
+   ![결과를 미리 보려면 플라이아웃 페이지에서 샘플 검토를 클릭합니다.](../media/PreviewSearchResults1.png)
+
+   검색 결과의 샘플이 포함된 페이지가 표시됩니다.
 
 4. 항목을 선택해서 읽기 창을 열고 콘텐츠를 검토합니다.
+
+   ![읽기 창에서 항목 미리 보기](../media/PreviewSearchResults2.png)
+
+   이전 스크린샷에서는 항목을 미리 볼 때 검색 쿼리의 키워드가 강조 표시됩니다.
+
+## <a name="how-the-search-result-samples-are-selected"></a>검색 결과의 샘플 선택 방법
+
+최대 1,000개의 무작위로 선택된 항목을 미리 볼 수 있습니다. 무작위로 선택되는 것 외에도 미리 보기가 가능한 항목은 다음 기준을 충족해야 합니다.
+
+- 단일 콘텐츠 위치(사서함 또는 사이트)에서 최대 100개의 항목을 미리 볼 수 있습니다. 즉, 미리 보기에 사용할 수 있는 항목이 1,000개 미만일 수 있습니다. 예를 들어 4개의 사서함을 검색하고 검색 결과 1,500개의 예상 항목이 반환되는 경우 각 사서함의 항목 100개만 미리 볼 수 있으므로 400개만 미리 보기에 사용할 수 있습니다.
+
+- 사서함 항목의 경우 전자 메일 메시지만 미리 볼 수 있습니다. 작업, 일정 항목 및 연락처와 같은 항목은 미리 볼 수 없습니다.
+
+- 사이트 항목의 경우에는 문서만 미리 볼 수 있습니다. 폴더, 목록 또는 목록 첨부 파일과 같은 항목은 미리 볼 수 없습니다.
 
 ## <a name="file-types-supported-when-previewing-search-results"></a>검색 결과 미리 보기에서 지원되는 파일 형식
 
