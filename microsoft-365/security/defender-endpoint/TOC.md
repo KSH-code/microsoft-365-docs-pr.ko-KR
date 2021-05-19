@@ -120,6 +120,10 @@
  
 ##### [구성]()
 ###### [iOS 기능 구성](ios-configure-features.md)
+
+##### [문제 해결]()
+###### [문제 해결](ios-troubleshoot.md)
+
 ##### [개인 정보](ios-privacy.md)
  
  
