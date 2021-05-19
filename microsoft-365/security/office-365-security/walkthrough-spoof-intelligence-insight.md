@@ -1,5 +1,5 @@
 ---
-title: 연습 - 스푸핑 인텔리전스 인사이트
+title: 스푸핑 인텔리전스 정책 및 스푸핑 인텔리전스 정보를 사용하여 스푸핑된 보낸 사람 관리
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,121 +15,237 @@ search.appverid:
 ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
 ms.collection:
 - M365-security-compliance
-description: 관리자는 스푸핑 인텔리전스 정보의 작동 방법을 배울 수 있습니다. SPF, DKIM 또는 DMARC(전자 메일 인증 확인)를 통과하지 않는 도메인에서 조직에 합법적으로 전자 메일을 보내는 보낸 사람이 있는지 빠르게 확인할 수 있습니다.
+description: 관리자는 스푸핑 인텔리전스 정책 및 스푸핑 인텔리전스 인사이트를 사용하여 검색된 스푸핑된 보낸 사람 허용 또는 차단 방법을 배울 수 있습니다.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d2b48b8540fb71404a0636120a5884d381b08cd1
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 821488f79186e1b5c306b587764377989346eea5
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206776"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52530889"
 ---
-# <a name="walkthrough---spoof-intelligence-insight-in-microsoft-defender-for-office-365"></a><span data-ttu-id="d6718-104">Walkthrough - Spoof intelligence insight in Microsoft Defender for Office 365</span><span class="sxs-lookup"><span data-stu-id="d6718-104">Walkthrough - Spoof intelligence insight in Microsoft Defender for Office 365</span></span>
+# <a name="manage-spoofed-senders-using-the-spoof-intelligence-policy-and-spoof-intelligence-insight-in-eop"></a><span data-ttu-id="9c4fe-103">EOP에서 스푸핑 인텔리전스 정책 및 스푸핑 인텔리전스 인사이트를 사용하여 스푸핑된 보낸 사람 관리</span><span class="sxs-lookup"><span data-stu-id="9c4fe-103">Manage spoofed senders using the spoof intelligence policy and spoof intelligence insight in EOP</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-<span data-ttu-id="d6718-105">**적용 대상**</span><span class="sxs-lookup"><span data-stu-id="d6718-105">**Applies to**</span></span>
-- [<span data-ttu-id="d6718-106">Office 365용 Microsoft Defender 플랜 1 및 플랜 2</span><span class="sxs-lookup"><span data-stu-id="d6718-106">Microsoft Defender for Office 365 plan 1 and plan 2</span></span>](defender-for-office-365.md)
-- [<span data-ttu-id="d6718-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="d6718-107">Microsoft 365 Defender</span></span>](../defender/microsoft-365-defender.md)
-
-<span data-ttu-id="d6718-108">Office 365용 Defender가 있는 Microsoft 365 조직에서는 스푸핑 인텔리전스 인사이트를 사용하여 사용자가 합법적으로 확인되지 않은 전자 메일을 보내는 외부 보낸 사람(SPF, DKIM 또는 DMARC 검사를 통과하지 않는 도메인의 메시지)을 빠르게 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-108">In Microsoft 365 organizations with Defender for Office 365, you can use the Spoof intelligence insight to quickly determine which external senders are legitimately sending you unauthenticated email (messages from domains that don't pass SPF, DKIM, or DMARC checks).</span></span>
-
-<span data-ttu-id="d6718-109">알려진 외부 보낸 사람이 알려진 위치에서 스푸핑된 메시지를 보낼 수 있도록 허용하면 가음성(나쁜 것으로 표시된 좋은 전자 메일)을 줄일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-109">By allowing known external senders to send spoofed messages from known locations, you can reduce false positives (good email marked as bad).</span></span> <span data-ttu-id="d6718-110">허용된 스푸핑된 보낸 사람 모니터링을 통해 안전하지 않은 메시지가 조직에 도착하지 않도록 추가 보안 계층을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-110">By monitoring the allowed spoofed senders, you provide an additional layer of security to prevent unsafe messages from arriving in your organization.</span></span>
-
-<span data-ttu-id="d6718-111">보고서 및 인사이트에 대한 자세한 내용은 보안 및 준수 센터의 보고서 [및 & 참조하세요.](reports-and-insights-in-security-and-compliance.md)</span><span class="sxs-lookup"><span data-stu-id="d6718-111">For more information about reports and insights, see [Reports and insights in the Security & Compliance Center](reports-and-insights-in-security-and-compliance.md).</span></span>
-
-<span data-ttu-id="d6718-112">이 Walkthrough is one of several for the Security & Compliance Center.</span><span class="sxs-lookup"><span data-stu-id="d6718-112">This walkthrough is one of several for the Security & Compliance Center.</span></span> <span data-ttu-id="d6718-113">보고서 및 인사이트를 진행하는 데 대한 자세한 내용은 관련 항목 섹션의 Walkthroughs를 [참조하십시오.](#related-topics)</span><span class="sxs-lookup"><span data-stu-id="d6718-113">To about navigating reports and insights, see the walkthroughs in the [Related topics](#related-topics) section.</span></span>
+<span data-ttu-id="9c4fe-104">**적용 대상**</span><span class="sxs-lookup"><span data-stu-id="9c4fe-104">**Applies to**</span></span>
+- [<span data-ttu-id="9c4fe-105">Office 365용 Microsoft Defender 플랜 1 및 플랜 2</span><span class="sxs-lookup"><span data-stu-id="9c4fe-105">Microsoft Defender for Office 365 plan 1 and plan 2</span></span>](defender-for-office-365.md)
+- [<span data-ttu-id="9c4fe-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="9c4fe-106">Microsoft 365 Defender</span></span>](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> <span data-ttu-id="d6718-114">스푸핑 인텔리전스 인사이트는 지난 7일간의 데이터를 보여줍니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-114">The spoof intelligence insight shows data from the last 7 days.</span></span> <span data-ttu-id="d6718-115">Exchange Online PowerShell의 [스푸핑](learn-about-spoof-intelligence.md) 인텔리전스 정책 및 해당 [Get-PhishFilterPolicy](/powershell/module/exchange/get-phishfilterpolicy) cmdlet은 지난 30일간의 데이터를 보여줍니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-115">The [spoof intelligence policy](learn-about-spoof-intelligence.md) and the corresponding [Get-PhishFilterPolicy](/powershell/module/exchange/get-phishfilterpolicy) cmdlet in Exchange Online PowerShell shows data from the last 30 days.</span></span> <span data-ttu-id="d6718-116">[Get-SpoofMailReport는](/powershell/module/exchange/get-spoofmailreport) 최대 90일간의 데이터를 보여줍니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-116">The [Get-SpoofMailReport](/powershell/module/exchange/get-spoofmailreport) shows data for up to 90 days.</span></span>
+> <span data-ttu-id="9c4fe-107">이 문서에서는 대체되는 이전 스푸핑된 보낸 사람 관리 환경을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-107">This article describes the older spoofed sender management experience that's being replaced.</span></span> <span data-ttu-id="9c4fe-108">새 경험에 대한 자세한 내용은 [EOP의 스푸핑 인텔리전스 인사이트를 참조하세요.](learn-about-spoof-intelligence.md)</span><span class="sxs-lookup"><span data-stu-id="9c4fe-108">For more information about the new experience, see [Spoof intelligence insight in EOP](learn-about-spoof-intelligence.md)</span></span>
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="d6718-117">시작하기 전에 알아야 할 내용은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="d6718-117">What do you need to know before you begin?</span></span>
+<span data-ttu-id="9c4fe-109">Microsoft 365 사서함이 없는 Exchange Online 또는 EOP(독립 실행형 Exchange Online Protection) 조직에서 인바운드 전자 메일 메시지는 Exchange Online 2018년 10월부로 EOP의 스푸핑으로부터 자동으로 보호됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-109">In Microsoft 365 organizations with mailboxes in Exchange Online or standalone Exchange Online Protection (EOP) organizations without Exchange Online mailboxes, inbound email messages are automatically protected against spoofing by EOP as of October 2018.</span></span> <span data-ttu-id="9c4fe-110">EOP는 피싱에 **대한** 조직의 전반적인 방어의 일부로 스푸핑 인텔리전스를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-110">EOP uses **spoof intelligence** as part of your organization's overall defense against phishing.</span></span> <span data-ttu-id="9c4fe-111">자세한 내용은 EOP의 스푸핑 방지 보호 [기능을 참조하세요.](anti-spoofing-protection.md)</span><span class="sxs-lookup"><span data-stu-id="9c4fe-111">For more information, see [Anti-spoofing protection in EOP](anti-spoofing-protection.md).</span></span>
 
-- <span data-ttu-id="d6718-118"><https://protection.office.com/>에서 보안 및 준수 센터를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-118">You open the Security & Compliance Center at <https://protection.office.com/>.</span></span> <span data-ttu-id="d6718-119">보안 대시보드 페이지로 직접 **이동하기 위해** 를 <https://protection.office.com/searchandinvestigation/dashboard> 사용하세요.</span><span class="sxs-lookup"><span data-stu-id="d6718-119">To go directly to the **Security dashboard** page, use <https://protection.office.com/searchandinvestigation/dashboard>.</span></span>
+<span data-ttu-id="9c4fe-112">기본(유일한)  스푸핑 인텔리전스 정책은 합법적인 보낸 사람이 보낸 스푸핑된 전자 메일이 스팸 또는 피싱 공격으로부터 사용자를 보호하면서 EOP 스팸 필터에 걸려오지 않도록 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-112">The default (and only) **spoof intelligence policy** helps ensure that the spoofed email sent by legitimate senders doesn't get caught up in EOP spam filters while protecting your users from spam or phishing attacks.</span></span> <span data-ttu-id="9c4fe-113">또한 스푸핑  인텔리전스 정보를 사용하여 외부 보낸 사람이 사용자에게 합법적으로 확인되지 않은 전자 메일(SPF, DKIM 또는 DMARC 검사를 통과하지 않은 도메인의 메시지)을 빠르게 보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-113">You can also use the **Spoof intelligence insight** to quickly determine which external senders are legitimately sending you unauthenticated email (messages from domains that don't pass SPF, DKIM, or DMARC checks).</span></span>
 
-  <span data-ttu-id="d6718-120">보안 및 준수 센터의 두 개 이상의 대시보드에서 스푸핑 인텔리전스 & 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-120">You can view the Spoof intelligence insight from more than one dashboard in the Security & Compliance Center.</span></span> <span data-ttu-id="d6718-121">보고 있는 대시보드에 관계없이 인사이트는 동일한 세부 정보를 제공하며 동일한 작업을 빠르게 수행할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-121">Regardless of which dashboard you're looking at, the insight provides the same details and allows you to quickly do the same tasks.</span></span>
+<span data-ttu-id="9c4fe-114">보안 & 준수 센터 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직의 경우 Exchange Online, 사서함이 없는 조직의 독립 실행형 EOP PowerShell Exchange Online PowerShell)에서 스푸핑 인텔리전스를 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-114">You can manage spoof intelligence in the Security & Compliance Center, or in PowerShell (Exchange Online PowerShell for Microsoft 365 organizations with mailboxes in Exchange Online; standalone EOP PowerShell for organizations without Exchange Online mailboxes).</span></span>
 
-- <span data-ttu-id="d6718-122">이 문서의 절차를 수행하려면 먼저 보안 및 준수 센터에서 사용 권한을 받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-122">You need to be assigned permissions in the Security & Compliance Center before you can do the procedures in this article:</span></span>
-  - <span data-ttu-id="d6718-123">**조직 관리**</span><span class="sxs-lookup"><span data-stu-id="d6718-123">**Organization Management**</span></span>
-  - <span data-ttu-id="d6718-124">**보안 관리자**</span><span class="sxs-lookup"><span data-stu-id="d6718-124">**Security Administrator**</span></span>
-  - <span data-ttu-id="d6718-125">**보안 읽기**</span><span class="sxs-lookup"><span data-stu-id="d6718-125">**Security Reader**</span></span>
-  - <span data-ttu-id="d6718-126">**전역 읽기**</span><span class="sxs-lookup"><span data-stu-id="d6718-126">**Global Reader**</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="9c4fe-115">시작하기 전에 알아야 할 내용은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="9c4fe-115">What do you need to know before you begin?</span></span>
 
-  <span data-ttu-id="d6718-127">자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="d6718-127">For more information, see [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
+- <span data-ttu-id="9c4fe-116"><https://protection.office.com/>에서 보안 및 준수 센터를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-116">You open the Security & Compliance Center at <https://protection.office.com/>.</span></span>
+  - <span data-ttu-id="9c4fe-117">스푸핑 인텔리전스 정책에 대한 스팸 방지 설정 페이지로 직접 이동하려면 를  <https://protection.office.com/antispam> 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-117">To go directly to the **Anti-spam settings** page for the spoof intelligence policy, use <https://protection.office.com/antispam>.</span></span>
+  - <span data-ttu-id="9c4fe-118">스푸핑 **인텔리전스** 인사이트를 위해 보안 대시보드 페이지로 직접 이동하기 위해 를 <https://protection.office.com/searchandinvestigation/dashboard> 사용하세요.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-118">To go directly to the **Security dashboard** page for the spoof intelligence insight, use <https://protection.office.com/searchandinvestigation/dashboard>.</span></span>
 
-  <span data-ttu-id="d6718-128">**참고:** Microsoft 365 관리 센터에서 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 보안  및 준수 센터에서 필요한 사용 & 권한과 Microsoft 365의 다른 기능에 대한 사용 권한이 부여됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-128">**Note**: Adding users to the corresponding Azure Active Directory role in the Microsoft 365 admin center gives users the required permissions in the Security & Compliance Center _and_ permissions for other features in Microsoft 365.</span></span> <span data-ttu-id="d6718-129">자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="d6718-129">For more information, see [About admin roles](../../admin/add-users/about-admin-roles.md).</span></span>
+- <span data-ttu-id="9c4fe-119">Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-119">To connect to Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).</span></span> <span data-ttu-id="9c4fe-120">독립 실행형 EOP PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-protection-powershell)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-120">To connect to standalone EOP PowerShell, see [Connect to Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell).</span></span>
 
-- <span data-ttu-id="d6718-130">Office 365용 Microsoft Defender의 피싱 방지 정책에서 스푸핑 인텔리전스를 사용하도록 설정하고 사용하지 않도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-130">You enable and disable spoof intelligence in anti-phishing policies in Microsoft Defender for Office 365.</span></span> <span data-ttu-id="d6718-131">스푸핑 인텔리전스가 기본적으로 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-131">Spoof intelligence is enabled by default.</span></span> <span data-ttu-id="d6718-132">자세한 내용은 [Office 365용 Microsoft Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책 구성을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="d6718-132">For more information, see [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-atp-anti-phishing-policies.md).</span></span>
+- <span data-ttu-id="9c4fe-121">이 게시물의 절차를 수행하려면 먼저 **Exchange Online** 에서 사용 권한을 할당받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-121">You need to be assigned permissions in **Exchange Online** before you can do the procedures in this article:</span></span>
+  - <span data-ttu-id="9c4fe-122">스푸핑 인텔리전스 정책을 수정하거나 스푸핑 인텔리전스를 사용하거나  사용하지 않도록 설정하려면 조직 관리 또는 보안 관리자 역할 그룹의 **구성원이** 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-122">To modify the spoof intelligence policy or enable or disable spoof intelligence, you need to be a member of the **Organization Management** or **Security Administrator** role groups.</span></span>
+  - <span data-ttu-id="9c4fe-123">스푸핑 인텔리전스 정책에 대한 읽기 전용 액세스 권한을  사용하려면 전역 읽기 사용자 또는 보안 읽기 권한이 있는 역할 그룹의 **구성원이** 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-123">For read-only access to the spoof intelligence policy, you need to be a member of the **Global Reader** or **Security Reader** role groups.</span></span>
 
-- <span data-ttu-id="d6718-133">스푸핑 인텔리전스를 사용하여 사용자에게 확인되지 않은 메시지를 보내는 보낸 사람 모니터링 및 관리하기 위해 [Microsoft 365에서](learn-about-spoof-intelligence.md)스푸핑 인텔리전스 구성을 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-133">To use spoof intelligence to monitor and manage senders who are sending you unauthenticated messages, see [Configure spoof intelligence in Microsoft 365](learn-about-spoof-intelligence.md).</span></span>
+  <span data-ttu-id="9c4fe-124">자세한 내용은 [Exchange Online의 사용 권한](/exchange/permissions-exo/permissions-exo)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-124">For more information, see [Permissions in Exchange Online](/exchange/permissions-exo/permissions-exo).</span></span>
 
-## <a name="open-the-spoof-intelligence-insight-in-the-security--compliance-center"></a><span data-ttu-id="d6718-134">보안 및 준수 센터에서 스푸핑 인텔리전스 & 열기</span><span class="sxs-lookup"><span data-stu-id="d6718-134">Open the spoof intelligence insight in the Security & Compliance Center</span></span>
+  <span data-ttu-id="9c4fe-125">**참고**:</span><span class="sxs-lookup"><span data-stu-id="9c4fe-125">**Notes**:</span></span>
 
-1. <span data-ttu-id="d6718-135">보안 및 & 센터에서 위협 관리 **대시보드로** \> **이동하세요.**</span><span class="sxs-lookup"><span data-stu-id="d6718-135">In the Security & Compliance Center, go to **Threat Management** \> **Dashboard.**</span></span>
+  - <span data-ttu-id="9c4fe-126">Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-126">Adding users to the corresponding Azure Active Directory role in the Microsoft 365 admin center gives users the required permissions _and_ permissions for other features in Microsoft 365.</span></span> <span data-ttu-id="9c4fe-127">자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-127">For more information, see [About admin roles](../../admin/add-users/about-admin-roles.md).</span></span>
+  - <span data-ttu-id="9c4fe-128">[Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups)의 **보기 전용 조직 관리** 역할 그룹에도 기능에 대한 읽기 전용 권한을 부여합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-128">The **View-Only Organization Management** role group in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) also gives read-only access to the feature.</span></span>
 
-2. <span data-ttu-id="d6718-136">**Insights 행에서** 다음 항목 중 하나를 찾아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-136">In the **Insights** row, look for one of the following items:</span></span>
+- <span data-ttu-id="9c4fe-129">스푸핑 인텔리전스에 대한 옵션은 피싱 방지 정책의 스푸핑 설정에 [설명되어 있습니다.](set-up-anti-phishing-policies.md#spoof-settings)</span><span class="sxs-lookup"><span data-stu-id="9c4fe-129">The options for spoof intelligence are described in [Spoof settings in anti-phishing policies](set-up-anti-phishing-policies.md#spoof-settings).</span></span>
 
-   - <span data-ttu-id="d6718-137">**지난 7일** 동안의 스푸핑된 도메인 가능성 : 이 인사이트는 스푸핑 인텔리전스가 활성화되어 있는 것으로 나타냅니다(기본적으로 사용 가능).</span><span class="sxs-lookup"><span data-stu-id="d6718-137">**Likely spoofed domains over the past seven days**: This insight indicates that spoof intelligence is enabled (it's enabled by default).</span></span>
-   - <span data-ttu-id="d6718-138">**스푸핑** 보호 사용 : 이 인사이트는 스푸핑 인텔리전스가 사용되지 않도록 설정되어 있으며, 정보를 클릭하면 스푸핑 인텔리전스를 사용하도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-138">**Enable Spoof Protection**: This insight indicates that spoof intelligence is disabled, and clicking on the insight allows you to enable spoof intelligence.</span></span>
+- <span data-ttu-id="9c4fe-130">피싱 방지 정책에서 스푸핑 인텔리전스 설정을 사용하도록 설정, 비활성화 및 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-130">You can enable, disable, and configure the spoof intelligence settings in anti-phishing policies.</span></span> <span data-ttu-id="9c4fe-131">구독에 기반한 지침은 다음 항목 중 하나를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-131">For instructions based on your subscription, see one of the following topics:</span></span>
 
-3. <span data-ttu-id="d6718-139">대시보드의 인사이트에는 다음 정보가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-139">The insight on the dashboard shows you information like this:</span></span>
+  - <span data-ttu-id="9c4fe-132">[EOP에서 피싱 방지 정책을 구성합니다.](configure-anti-phishing-policies-eop.md)</span><span class="sxs-lookup"><span data-stu-id="9c4fe-132">[Configure anti-phishing policies in EOP](configure-anti-phishing-policies-eop.md).</span></span>
+  - <span data-ttu-id="9c4fe-133">[Microsoft Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책을 Office 365.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-133">[Configure anti-phishing policies in Microsoft Defender for Office 365](configure-atp-anti-phishing-policies.md).</span></span>
+
+- <span data-ttu-id="9c4fe-134">스푸핑 인텔리전스에 대한 권장 설정은 EOP 기본 피싱 방지 정책 설정을 [참조하세요.](recommended-settings-for-eop-and-office365.md#eop-default-anti-phishing-policy-settings)</span><span class="sxs-lookup"><span data-stu-id="9c4fe-134">For our recommended settings for spoof intelligence, see [EOP default anti-phishing policy settings](recommended-settings-for-eop-and-office365.md#eop-default-anti-phishing-policy-settings).</span></span>
+
+## <a name="manage-spoofed-senders"></a><span data-ttu-id="9c4fe-135">스푸핑된 보낸 사람 관리</span><span class="sxs-lookup"><span data-stu-id="9c4fe-135">Manage spoofed senders</span></span>
+
+<span data-ttu-id="9c4fe-136">스푸핑된 보낸 사람은 다음 두 가지 방법으로 허용하고 차단할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-136">There are two ways to allow and block spoofed senders:</span></span>
+
+- [<span data-ttu-id="9c4fe-137">스푸핑 인텔리전스 정책 사용</span><span class="sxs-lookup"><span data-stu-id="9c4fe-137">Use the spoof intelligence policy</span></span>](#manage-spoofed-senders-in-the-spoof-intelligence-policy)
+- [<span data-ttu-id="9c4fe-138">스푸핑 인텔리전스 인사이트 사용</span><span class="sxs-lookup"><span data-stu-id="9c4fe-138">Use the spoof intelligence insight</span></span>](#manage-spoofed-senders-in-the-spoof-intelligence-insight)
+
+### <a name="manage-spoofed-senders-in-the-spoof-intelligence-policy"></a><span data-ttu-id="9c4fe-139">스푸핑 인텔리전스 정책에서 스푸핑된 보낸 사람 관리</span><span class="sxs-lookup"><span data-stu-id="9c4fe-139">Manage spoofed senders in the spoof intelligence policy</span></span>
+
+1. <span data-ttu-id="9c4fe-140">보안 및 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지** 로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-140">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam**.</span></span>
+
+2. <span data-ttu-id="9c4fe-141">스팸 **방지 설정 페이지에서** 확장 아이콘을 ![ 클릭하여 스푸핑 인텔리전스 정책을 ](../../media/scc-expand-icon.png) **확장합니다.**</span><span class="sxs-lookup"><span data-stu-id="9c4fe-141">On the **Anti-spam settings** page, click ![Expand icon](../../media/scc-expand-icon.png) to expand **Spoof intelligence policy**.</span></span>
+
+   ![스푸핑 인텔리전스 정책 선택](../../media/anti-spam-settings-spoof-intelligence-policy.png)
+
+3. <span data-ttu-id="9c4fe-143">다음 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-143">Make one of the following selections:</span></span>
+
+   - <span data-ttu-id="9c4fe-144">**새 보낸 사람 검토**</span><span class="sxs-lookup"><span data-stu-id="9c4fe-144">**Review new senders**</span></span>
+   - <span data-ttu-id="9c4fe-145">**이미 검토한 보낸 사람 표시**</span><span class="sxs-lookup"><span data-stu-id="9c4fe-145">**Show me senders I already reviewed**</span></span>
+
+4. <span data-ttu-id="9c4fe-146">이러한 **보낸 사람이** 나타나는 사용자 플라이아웃을 스푸핑할 수 있도록 허용할지 결정에서 다음 탭 중 하나를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-146">In the **Decide if these senders are allowed to spoof your users** flyout that appears, select one of the following tabs:</span></span>
+
+   - <span data-ttu-id="9c4fe-147">**도메인:** 보낸 사람이 내부 도메인의 사용자를 스푸핑합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-147">**Your Domains**: Senders spoofing users in your internal domains.</span></span>
+   - <span data-ttu-id="9c4fe-148">**외부 도메인:** 보낸 사람이 외부 도메인의 사용자를 스푸핑합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-148">**External Domains**: Senders spoofing users in external domains.</span></span>
+
+5. <span data-ttu-id="9c4fe-149">스푸핑 허용 여부 열에서 확장 ![ ](../../media/scc-expand-icon.png) **아이콘을** 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-149">Click ![Expand icon](../../media/scc-expand-icon.png) in the **Allowed to spoof?** column.</span></span> <span data-ttu-id="9c4fe-150">예를 **선택하면** 스푸핑된 보낸 사람이 허용되거나 아니요를 선택하고 메시지를 스푸핑된 메시지로 표시합니다. </span><span class="sxs-lookup"><span data-stu-id="9c4fe-150">Choose **Yes** to allow the spoofed sender, or choose **No** to mark the message as spoofed.</span></span> <span data-ttu-id="9c4fe-151">이 작업은 기본 피싱 방지 정책 또는 사용자 지정 피싱 방지 정책(기본값은 정크 메일 폴더로 메시지 이동)에 의해 **제어됩니다.**</span><span class="sxs-lookup"><span data-stu-id="9c4fe-151">The action is controlled by the default anti-phishing policy or custom anti-phishing policies (the default value is **Move message to Junk Email folder**).</span></span> <span data-ttu-id="9c4fe-152">자세한 내용은 피싱 방지 정책의 [스푸핑 설정을 참조하세요.](set-up-anti-phishing-policies.md#spoof-settings)</span><span class="sxs-lookup"><span data-stu-id="9c4fe-152">For more information, see [Spoof settings in anti-phishing policies](set-up-anti-phishing-policies.md#spoof-settings).</span></span>
+
+   ![스푸핑된 보낸 사람 플라이아웃 및 보낸 사람이 스푸핑할 수 있는지 여부를 보여 주는 스크린샷](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
+
+   <span data-ttu-id="9c4fe-154">다음 목록에는 열과 값이 설명됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-154">The columns and values that you see are explained in the following list:</span></span>
+
+   - <span data-ttu-id="9c4fe-155">**스푸핑된 사용자:** 스푸핑되는 사용자 계정입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-155">**Spoofed user**: The user account that's being spoofed.</span></span> <span data-ttu-id="9c4fe-156">전자 메일 클라이언트에 표시된 보낸 사람 주소(주소라고도 알려지음)의 메시지 보낸 `5322.From` 사람입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-156">This is the message sender in the From address (also known as the `5322.From` address) that's shown in email clients.</span></span> <span data-ttu-id="9c4fe-157">SPF에서 이 주소의 유효성을 확인하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-157">The validity of this address is not checked by SPF.</span></span>
+     - <span data-ttu-id="9c4fe-158">도메인 **탭에서** 값에 단일 전자 메일 주소가 포함되어 있습니다. 또는 원본 전자 메일 서버가 여러 사용자 계정을 스푸핑하는 경우 이 값에는 두 개 **이상이 포함되어 있습니다.**</span><span class="sxs-lookup"><span data-stu-id="9c4fe-158">On the **Your Domains** tab, the value contains a single email address, or if the source email server is spoofing multiple user accounts, it contains **More than one**.</span></span>
+     - <span data-ttu-id="9c4fe-159">외부 **도메인 탭의** 값에는 스푸핑된 사용자의 도메인이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-159">On the **External Domains** tab, the value contains the domain of the spoofed user, not the full email address.</span></span>
+
+   - <span data-ttu-id="9c4fe-160">**보내는 인프라:** 원본 전자 메일 서버의 IP 주소에 대한 역방향 DNS 검색(PTR 레코드)에 있는 도메인입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-160">**Sending Infrastructure**: The domain found in a reverse DNS lookup (PTR record) of the source email server's IP address.</span></span> <span data-ttu-id="9c4fe-161">원본 IP 주소에 PTR 레코드가 없는 경우 보내는 인프라는 \<source IP\> /24(예: 192.168.100.100/24)로 식별됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-161">If the source IP address has no PTR record, then the sending infrastructure is identified as \<source IP\>/24 (for example, 192.168.100.100/24).</span></span>
+
+     <span data-ttu-id="9c4fe-162">메시지 원본 및 메시지 보낸 사람에 대한 자세한 내용은 전자 메일 메시지 표준 [개요를 참조하세요.](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)</span><span class="sxs-lookup"><span data-stu-id="9c4fe-162">For more information about message sources and message senders, see [An overview of email message standards](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards).</span></span>
+
+   - <span data-ttu-id="9c4fe-163">**메시지** 수: 지난 30일 이내에 지정된 스푸핑된 보낸 사람 또는 보낸 사람이 포함된 조직으로 보내는 인프라에서 보내는 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-163">**# of messages**: The number of messages from the sending infrastructure to your organization that contain the specified spoofed sender or senders within the last 30 days.</span></span>
+
+   - <span data-ttu-id="9c4fe-164">**# of user complaints:** 지난 30일 이내에 이 보낸 사람에 대해 사용자가 제출한 불만 사항</span><span class="sxs-lookup"><span data-stu-id="9c4fe-164">**# of user complaints**: Complaints filed by your users against this sender within the last 30 days.</span></span> <span data-ttu-id="9c4fe-165">불만은 일반적으로 Microsoft에 대한 정크 제출 형식입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-165">Complaints are usually in the form of junk submissions to Microsoft.</span></span>
+
+   - <span data-ttu-id="9c4fe-166">**인증 결과:** 다음 값 중 하나</span><span class="sxs-lookup"><span data-stu-id="9c4fe-166">**Authentication result**: One of the following values:</span></span>
+      - <span data-ttu-id="9c4fe-167">**통과:** 보낸 사람이 SPF 또는 DKIM(보낸 사람 전자 메일 인증 검사)을 통과했습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-167">**Passed**: The sender passed sender email authentication checks (SPF or DKIM).</span></span>
+      - <span data-ttu-id="9c4fe-168">**실패:** 보낸 사람이 EOP 보낸 사람 인증 검사를 실패했습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-168">**Failed**: The sender failed EOP sender authentication checks.</span></span>
+      - <span data-ttu-id="9c4fe-169">**알** 수 없음: 이러한 검사의 결과를 알 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-169">**Unknown**: The result of these checks isn't known.</span></span>
+
+   - <span data-ttu-id="9c4fe-170">**다음에 의해 설정된 결정**: 보내는 인프라가 사용자를 스푸핑할 수 있도록 허용할지 결정한 사용자를 보여줍니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-170">**Decision set by**: Shows who determined if the sending infrastructure is allowed to spoof the user:</span></span>
+       - <span data-ttu-id="9c4fe-171">**스푸핑 인텔리전스** 정책(자동)</span><span class="sxs-lookup"><span data-stu-id="9c4fe-171">**Spoof intelligence policy** (automatic)</span></span>
+       - <span data-ttu-id="9c4fe-172">**관리자(수동)**</span><span class="sxs-lookup"><span data-stu-id="9c4fe-172">**Admin** (manual)</span></span>
+
+   - <span data-ttu-id="9c4fe-173">**마지막 확인** 날짜: 스푸핑된 사용자가 포함된 보내는 인프라에서 메시지를 받은 마지막 날짜입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-173">**Last seen**: The last date when a message was received from the sending infrastructure that contains the spoofed user.</span></span>
+
+   - <span data-ttu-id="9c4fe-174">**스푸핑이 허용되는 경우:** 여기에 있는 값은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-174">**Allowed to spoof?**: The values that you see here are:</span></span>
+     - <span data-ttu-id="9c4fe-175">**예:** 스푸핑된 사용자와 보내는 인프라의 조합에서 보낸 메시지는 허용될 수 있으며 스푸핑된 전자 메일로 처리되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-175">**Yes**: Messages from the combination of spoofed user and sending infrastructure are allowed and not treated as spoofed email.</span></span>
+     - <span data-ttu-id="9c4fe-176">**No:** 스푸핑된 사용자와 보내는 인프라의 조합에서 보낸 메시지가 스푸핑된 것으로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-176">**No**: Messages from the combination of spoofed user and sending infrastructure are marked as spoofed.</span></span> <span data-ttu-id="9c4fe-177">이 작업은 기본 피싱 방지 정책 또는 사용자 지정 피싱 방지 정책(기본값은 정크 메일 폴더로 메시지 이동)에 의해 **제어됩니다.**</span><span class="sxs-lookup"><span data-stu-id="9c4fe-177">The action is controlled by the default anti-phishing policy or custom anti-phishing policies (the default value is **Move message to Junk Email folder**).</span></span> <span data-ttu-id="9c4fe-178">자세한 내용은 다음 섹션을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-178">See the next section for more information.</span></span>
+
+     - <span data-ttu-id="9c4fe-179">**일부 사용자(** **도메인** 탭에만 해당): 보내는 인프라가 여러 사용자를 스푸핑하고, 일부 스푸핑된 사용자가 허용되는 경우 및 다른 사용자는 스푸핑되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-179">**Some users** (**Your Domains** tab only): A sending infrastructure is spoofing multiple users, where some spoofed users are allowed and others are not.</span></span> <span data-ttu-id="9c4fe-180">자세한 **탭을 사용하여** 특정 주소를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-180">Use the **Detailed** tab to see the specific addresses.</span></span>
+
+6. <span data-ttu-id="9c4fe-181">페이지 아래쪽에서 저장을 **클릭합니다.**</span><span class="sxs-lookup"><span data-stu-id="9c4fe-181">At the bottom of the page, click **Save**.</span></span>
+
+#### <a name="use-powershell-to-manage-spoofed-senders"></a><span data-ttu-id="9c4fe-182">PowerShell을 사용하여 스푸핑된 보낸 사람 관리</span><span class="sxs-lookup"><span data-stu-id="9c4fe-182">Use PowerShell to manage spoofed senders</span></span>
+
+<span data-ttu-id="9c4fe-183">허용 및 차단된 보낸 사람이 스푸핑 인텔리전스에서 볼 수 있도록 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-183">To view allowed and blocked senders in spoof intelligence, use the following syntax:</span></span>
+
+```powershell
+Get-PhishFilterPolicy [-AllowedToSpoof <Yes | No | Partial>] [-ConfidenceLevel <Low | High>] [-DecisionBy <Admin | SpoofProtection>] [-Detailed] [-SpoofType <Internal | External>]
+```
+
+<span data-ttu-id="9c4fe-184">이 예에서는 도메인의 사용자를 스푸핑할 수 있는 모든 보낸 사람에 대한 자세한 정보를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-184">This example returns detailed information about all senders that are allowed to spoof users in your domains.</span></span>
+
+```powershell
+Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
+```
+
+<span data-ttu-id="9c4fe-185">구문과 매개 변수에 대한 자세한 내용은 [Get-PhishFilterPolicy를 참조하십시오.](/powershell/module/exchange/get-phishfilterpolicy)</span><span class="sxs-lookup"><span data-stu-id="9c4fe-185">For detailed syntax and parameter information, see [Get-PhishFilterPolicy](/powershell/module/exchange/get-phishfilterpolicy).</span></span>
+
+<span data-ttu-id="9c4fe-186">스푸핑 인텔리전스에서 허용 및 차단된 보낸 사람 구성을 구성하기 위해 다음 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-186">To configure allowed and blocked senders in spoof intelligence, follow these steps:</span></span>
+
+1. <span data-ttu-id="9c4fe-187">다음 명령을 실행하여 **Get-PhishFilterPolicy** cmdlet의 출력을 CSV 파일에 기록하여 검색된 스푸핑된 보낸 사람의 현재 목록을 캡처합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-187">Capture the current list of detected spoofed senders by writing the output of the **Get-PhishFilterPolicy** cmdlet to a CSV file by running the following command:</span></span>
+
+   ```powershell
+   Get-PhishFilterPolicy -Detailed | Export-CSV "C:\My Documents\Spoofed Senders.csv"
+   ```
+
+2. <span data-ttu-id="9c4fe-188">CSV 파일을 편집하여 다음 값을 추가하거나 수정합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-188">Edit the CSV file to add or modify the following values:</span></span>
+   - <span data-ttu-id="9c4fe-189">**보낸 사람(원본** 서버의 PTR 레코드 또는 IP/24 주소의 도메인)</span><span class="sxs-lookup"><span data-stu-id="9c4fe-189">**Sender** (domain in source server's PTR record or IP/24 address)</span></span>
+   - <span data-ttu-id="9c4fe-190">**SpoofedUser**: 다음 값 중 하나</span><span class="sxs-lookup"><span data-stu-id="9c4fe-190">**SpoofedUser**: One of the following values:</span></span>
+     - <span data-ttu-id="9c4fe-191">내부 사용자의 전자 메일 주소입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-191">The internal user's email address.</span></span>
+     - <span data-ttu-id="9c4fe-192">외부 사용자의 전자 메일 도메인입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-192">The external user's email domain.</span></span>
+     - <span data-ttu-id="9c4fe-193">스푸핑된 전자 메일 주소에 관계없이 지정된 보낸 사람이 보낸 모든 스푸핑 메시지를 차단하거나 허용할지 나타내는 빈 값입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-193">A blank value that indicates you want to block or allow any and all spoofed messages from the specified **Sender**, regardless of the spoofed email address.</span></span>
+   - <span data-ttu-id="9c4fe-194">**AllowedToSpoof(예** 또는 아니요)</span><span class="sxs-lookup"><span data-stu-id="9c4fe-194">**AllowedToSpoof** (Yes or No)</span></span>
+   - <span data-ttu-id="9c4fe-195">**SpoofType(내부** 또는 외부)</span><span class="sxs-lookup"><span data-stu-id="9c4fe-195">**SpoofType** (Internal or External)</span></span>
+
+   <span data-ttu-id="9c4fe-196">다음 명령을 실행하여 파일을 저장하고 파일을 읽은 다음 이름을 지정한 변수로 `$UpdateSpoofedSenders` 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-196">Save the file, read the file, and store the contents as a variable named `$UpdateSpoofedSenders` by running the following command:</span></span>
+
+   ```powershell
+   $UpdateSpoofedSenders = Get-Content -Raw "C:\My Documents\Spoofed Senders.csv"
+   ```
+
+3. <span data-ttu-id="9c4fe-197">변수를 사용하여 다음 명령을 실행하여 스푸핑 인텔리전스 `$UpdateSpoofedSenders` 정책을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-197">Use the `$UpdateSpoofedSenders` variable to configure the spoof intelligence policy by running the following command:</span></span>
+
+   ```powershell
+   Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSenders
+   ```
+
+<span data-ttu-id="9c4fe-198">구문과 매개 변수에 대한 자세한 내용은 [Set-PhishFilterPolicy를 참조하십시오.](/powershell/module/exchange/set-phishfilterpolicy)</span><span class="sxs-lookup"><span data-stu-id="9c4fe-198">For detailed syntax and parameter information, see [Set-PhishFilterPolicy](/powershell/module/exchange/set-phishfilterpolicy).</span></span>
+
+### <a name="manage-spoofed-senders-in-the-spoof-intelligence-insight"></a><span data-ttu-id="9c4fe-199">스푸핑 인텔리전스 인사이트에서 스푸핑된 보낸 사람 관리</span><span class="sxs-lookup"><span data-stu-id="9c4fe-199">Manage spoofed senders in the spoof intelligence insight</span></span>
+
+1. <span data-ttu-id="9c4fe-200">보안 및 & 센터에서 위협 관리 **대시보드로** \> **이동하세요.**</span><span class="sxs-lookup"><span data-stu-id="9c4fe-200">In the Security & Compliance Center, go to **Threat Management** \> **Dashboard**.</span></span>
+
+2. <span data-ttu-id="9c4fe-201">**Insights 행에서** 다음 항목 중 하나를 찾아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-201">In the **Insights** row, look for one of the following items:</span></span>
+
+   - <span data-ttu-id="9c4fe-202">**지난 7일** 동안의 스푸핑된 도메인 가능성 : 이 인사이트는 스푸핑 인텔리전스가 활성화되어 있는 것으로 나타냅니다(기본적으로 사용 가능).</span><span class="sxs-lookup"><span data-stu-id="9c4fe-202">**Likely spoofed domains over the past seven days**: This insight indicates that spoof intelligence is enabled (it's enabled by default).</span></span>
+   - <span data-ttu-id="9c4fe-203">**스푸핑** 보호 사용 : 이 인사이트는 스푸핑 인텔리전스가 사용되지 않도록 설정되어 있으며, 정보를 클릭하면 스푸핑 인텔리전스를 사용하도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-203">**Enable Spoof Protection**: This insight indicates that spoof intelligence is disabled, and clicking on the insight allows you to enable spoof intelligence.</span></span>
+
+3. <span data-ttu-id="9c4fe-204">대시보드의 인사이트에는 다음 정보가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-204">The insight on the dashboard shows you information like this:</span></span>
 
    ![스푸핑 인텔리전스 정보의 스크린샷](../../media/28aeabac-c1a1-4d16-9fbe-14996f742a9a.png)
 
-   <span data-ttu-id="d6718-141">이 인사이트에는 두 가지 모드가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-141">This insight has two modes:</span></span>
+   <span data-ttu-id="9c4fe-206">이 인사이트에는 두 가지 모드가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-206">This insight has two modes:</span></span>
 
-   - <span data-ttu-id="d6718-142">**인사이트** 모드: 스푸핑 인텔리전스를 사용하도록 설정하면 지난 7일 동안의 스푸핑 인텔리전스 기능에 영향을 미치게 된 메시지 수가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-142">**Insight mode**: If spoof intelligence is enabled, the insight shows you how many messages were impacted by our spoof intelligence capabilities over the past seven days.</span></span>
-   - <span data-ttu-id="d6718-143">**모드인 경우:** 스푸핑 인텔리전스를 사용하지 않도록 설정하면  지난 7일 동안의 스푸핑 인텔리전스 기능에 의해 영향을 났을 메시지 수가 인사이트에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-143">**What if mode**: If spoof intelligence is disabled, then the insight shows you how many messages *would* have been impacted by our spoof intelligence capabilities over the past seven days.</span></span>
+   - <span data-ttu-id="9c4fe-207">**인사이트** 모드: 스푸핑 인텔리전스를 사용하도록 설정하면 지난 7일 동안의 스푸핑 인텔리전스 기능에 영향을 미치게 된 메시지 수가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-207">**Insight mode**: If spoof intelligence is enabled, the insight shows you how many messages were impacted by our spoof intelligence capabilities over the past seven days.</span></span>
+   - <span data-ttu-id="9c4fe-208">**모드인 경우:** 스푸핑 인텔리전스를 사용하지 않도록 설정하면  지난 7일 동안의 스푸핑 인텔리전스 기능에 의해 영향을 났을 메시지 수가 인사이트에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-208">**What if mode**: If spoof intelligence is disabled, then the insight shows you how many messages *would* have been impacted by our spoof intelligence capabilities over the past seven days.</span></span>
 
-   <span data-ttu-id="d6718-144">어느 경우든 인사이트에 표시되는 스푸핑된 도메인은 의심스러운  도메인과 의심하지 않는 도메인의 두 가지 범주로 **구분됩니다.**</span><span class="sxs-lookup"><span data-stu-id="d6718-144">Either way, the spoofed domains displayed in the insight are separated into two categories: **Suspicious domains** and **Non-suspicious domains**.</span></span>
+   <span data-ttu-id="9c4fe-209">어느 경우든 인사이트에 표시되는 스푸핑된 도메인은 의심스러운  도메인과 의심하지 않는 도메인의 두 가지 범주로 **구분됩니다.**</span><span class="sxs-lookup"><span data-stu-id="9c4fe-209">Either way, the spoofed domains displayed in the insight are separated into two categories: **Suspicious domains** and **Non-suspicious domains**.</span></span>
 
-   - <span data-ttu-id="d6718-145">**의심스러운 도메인은 다음과** 같습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-145">**Suspicious domains** include:</span></span>
+   - <span data-ttu-id="9c4fe-210">**의심스러운 도메인**:</span><span class="sxs-lookup"><span data-stu-id="9c4fe-210">**Suspicious domains**:</span></span>
+     - <span data-ttu-id="9c4fe-211">**높은** 신뢰도 스푸핑: 이전 전송 패턴 및 도메인의 신뢰도 점수에 따라 도메인이 스푸핑하고 이러한 도메인의 메시지가 악의적일 가능성이 높습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-211">**High-confidence spoof**: Based on the historical sending patterns and the reputation score of the domains, we're highly confident that the domains are spoofing, and messages from these domains are more likely to be malicious.</span></span>
+     - <span data-ttu-id="9c4fe-212">**보통** 신뢰도 스푸핑: 이전 전송 패턴과 도메인의 신뢰도 점수를 기반으로 도메인이 스푸핑하고 이러한 도메인에서 보낸 메시지가 합법적이라고 신뢰합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-212">**Moderate confidence spoof**: Based on historical sending patterns and the reputation score of the domains, we're moderately confident that the domains are spoofing, and that messages sent from these domains are legitimate.</span></span> <span data-ttu-id="9c4fe-213">가음성은 높은 신뢰도 스푸핑보다 이 범주에서 더 높습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-213">False positives are more likely in this category than high-confidence spoof.</span></span>
+   - <span data-ttu-id="9c4fe-214">**의심스러운** 도메인이 아닌 도메인: 도메인이 명시적 전자 메일 인증 검사 [SPF,](how-office-365-uses-spf-to-prevent-spoofing.md) [DKIM](use-dkim-to-validate-outbound-email.md)및 [DMARC를](use-dmarc-to-validate-email.md)확인하지 못했습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-214">**Non-suspicious domains**: The domain failed explicit email authentication checks [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [DKIM](use-dkim-to-validate-outbound-email.md), and [DMARC](use-dmarc-to-validate-email.md)).</span></span> <span data-ttu-id="9c4fe-215">그러나 도메인이 암시적 전자 메일 인증[확인(복합 인증)을 통과했습니다.](email-validation-and-authentication.md#composite-authentication)</span><span class="sxs-lookup"><span data-stu-id="9c4fe-215">However, the domain passed our implicit email authentication checks ([composite authentication](email-validation-and-authentication.md#composite-authentication)).</span></span> <span data-ttu-id="9c4fe-216">따라서 메시지에 대한 스푸핑 방지 작업이 수행하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-216">As a result, no anti-spoofing action was taken on the message.</span></span>
 
-     - <span data-ttu-id="d6718-146">높은 신뢰도 스푸핑: 기록 전송 패턴 및 도메인의 신뢰도 점수에 따라 도메인이 스푸핑하고 이러한 도메인의 메시지가 악의적일 가능성이 높습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-146">High-confidence spoof: Based on the historical sending patterns and the reputation score of the domains, we're highly confident that the domains are spoofing, and messages from these domains are more likely to be malicious.</span></span>
+#### <a name="view-detailed-information-about-suspicious-and-nonsuspicious-domains"></a><span data-ttu-id="9c4fe-217">의심스러우며 의심스러운 도메인에 대한 자세한 정보 보기</span><span class="sxs-lookup"><span data-stu-id="9c4fe-217">View detailed information about suspicious and nonsuspicious domains</span></span>
 
-     - <span data-ttu-id="d6718-147">보통 신뢰도 스푸핑: 이전 전송 패턴과 도메인의 신뢰도 점수를 기반으로 도메인이 스푸핑하고 이러한 도메인에서 보낸 메시지는 합법적이라고 신뢰합니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-147">Moderate confidence spoof: Based on historical sending patterns and the reputation score of the domains, we're moderately confident that the domains are spoofing, and that messages sent from these domains are legitimate.</span></span> <span data-ttu-id="d6718-148">가음성은 높은 신뢰도 스푸핑보다 이 범주에서 더 높습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-148">False positives are more likely in this category than high-confidence spoof.</span></span>
+1. <span data-ttu-id="9c4fe-218">스푸핑 인텔리전스  인사이트에서 의심스러운  도메인 또는 의심스러운 도메인을 클릭하여 스푸핑 인텔리전스 인사이트 **페이지로** 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-218">On the Spoof intelligence insight, click **Suspicious domains** or **Non-suspicious domains** to go to the **Spoof intelligence insight** page.</span></span> <span data-ttu-id="9c4fe-219">**스푸핑 인텔리전스 인사이트 페이지에는** 다음 정보가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-219">The **Spoof Intelligence insight** page contains the following information:</span></span>
 
-   <span data-ttu-id="d6718-149">**의심스러운** 도메인이 아닌 도메인: 도메인이 명시적 전자 메일 인증 검사 [SPF,](how-office-365-uses-spf-to-prevent-spoofing.md) [DKIM](use-dkim-to-validate-outbound-email.md)및 [DMARC를](use-dmarc-to-validate-email.md)확인하지 못했습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-149">**Non-suspicious domains**: The domain failed explicit email authentication checks [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [DKIM](use-dkim-to-validate-outbound-email.md), and [DMARC](use-dmarc-to-validate-email.md)).</span></span> <span data-ttu-id="d6718-150">그러나 도메인이 암시적 전자 메일 인증[확인(복합 인증)을 통과했습니다.](email-validation-and-authentication.md#composite-authentication)</span><span class="sxs-lookup"><span data-stu-id="d6718-150">However, the domain passed our implicit email authentication checks ([composite authentication](email-validation-and-authentication.md#composite-authentication)).</span></span> <span data-ttu-id="d6718-151">따라서 메시지에 대한 스푸핑 방지 작업이 수행하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-151">As a result, no anti-spoofing action was taken on the message.</span></span>
+   - <span data-ttu-id="9c4fe-220">**스푸핑된 도메인**: 전자 메일 클라이언트의 시작 상자에  표시되는 스푸핑된 사용자의 도메인입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-220">**Spoofed domain**: The domain of the spoofed user that's displayed in the **From** box in email clients.</span></span> <span data-ttu-id="9c4fe-221">이 주소를 `5322.From` 주소라고도 합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-221">This address is also known as the `5322.From` address.</span></span>
+   - <span data-ttu-id="9c4fe-222">**인프라:** 보내는 _인프라라고도 합니다._</span><span class="sxs-lookup"><span data-stu-id="9c4fe-222">**Infrastructure**: Also known as the _sending infrastructure_.</span></span> <span data-ttu-id="9c4fe-223">원본 전자 메일 서버의 IP 주소에 대한 역방향 DNS 검색(PTR 레코드)에 있는 도메인입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-223">The domain found in a reverse DNS lookup (PTR record) of the source email server's IP address.</span></span> <span data-ttu-id="9c4fe-224">원본 IP 주소에 PTR 레코드가 없는 경우 보내는 인프라는 \<source IP\> /24(예: 192.168.100.100/24)로 식별됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-224">If the source IP address has no PTR record, then the sending infrastructure is identified as \<source IP\>/24 (for example, 192.168.100.100/24).</span></span>
+   - <span data-ttu-id="9c4fe-225">**메시지 수:** 지난 7일 이내에 지정된 스푸핑된 도메인을 포함하는 조직으로 보내는 인프라에서 조직으로 보내는 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-225">**Message count**: The number of messages from the sending infrastructure to your organization that contain the specified spoofed domain within the last 7 days.</span></span>
+   - <span data-ttu-id="9c4fe-226">**마지막으로 확인한** 날짜: 스푸핑된 도메인이 포함된 보내는 인프라에서 메시지를 받은 마지막 날짜입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-226">**Last seen**: The last date when a message was received from the sending infrastructure that contains the spoofed domain.</span></span>
+   - <span data-ttu-id="9c4fe-227">**스푸핑 유형**: 이 값은 **External입니다.**</span><span class="sxs-lookup"><span data-stu-id="9c4fe-227">**Spoof type**: This value is **External**.</span></span>
+   - <span data-ttu-id="9c4fe-228">**스푸핑이 허용되는 경우:** 여기에 있는 값은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-228">**Allowed to spoof?**: The values that you see here are:</span></span>
+     - <span data-ttu-id="9c4fe-229">**예:** 스푸핑된 사용자의 도메인과 보내는 인프라의 조합에서 보낸 메시지는 허용될 수 있으며 스푸핑된 전자 메일로 처리되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-229">**Yes**: Messages from the combination of spoofed user's domain and sending infrastructure are allowed and not treated as spoofed email.</span></span>
+     - <span data-ttu-id="9c4fe-230">**No:** 스푸핑된 사용자의 도메인과 보내는 인프라의 조합에서 보낸 메시지가 스푸핑된 것으로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-230">**No**: Messages from the combination of spoofed user's domain and sending infrastructure are marked as spoofed.</span></span> <span data-ttu-id="9c4fe-231">이 작업은 기본 피싱 방지 정책 또는 사용자 지정 피싱 방지 정책(기본값은 정크 메일 폴더로 메시지 이동)에 의해 **제어됩니다.**</span><span class="sxs-lookup"><span data-stu-id="9c4fe-231">The action is controlled by the default anti-phishing policy or custom anti-phishing policies (the default value is **Move message to Junk Email folder**).</span></span>
 
-### <a name="view-detailed-information-about-suspicious-domains-from-the-spoof-intelligence-insight"></a><span data-ttu-id="d6718-152">스푸핑 인텔리전스 인사이트에서 의심스러운 도메인에 대한 자세한 정보 보기</span><span class="sxs-lookup"><span data-stu-id="d6718-152">View detailed information about suspicious domains from the Spoof intelligence insight</span></span>
+2. <span data-ttu-id="9c4fe-232">플라이아웃에서 도메인/보내는 인프라 쌍에 대한 세부 정보를 확인하려면 목록에서 항목을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-232">Select an item in the list to view details about the domain/sending infrastructure pair in a flyout.</span></span> <span data-ttu-id="9c4fe-233">이 정보에는 다음이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-233">The information includes:</span></span>
+   - <span data-ttu-id="9c4fe-234">이 경우 이유가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-234">Why we caught this.</span></span>
+   - <span data-ttu-id="9c4fe-235">해야 할 일.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-235">What you need to do.</span></span>
+   - <span data-ttu-id="9c4fe-236">도메인 요약입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-236">A domain summary.</span></span>
+   - <span data-ttu-id="9c4fe-237">보낸 사람에 대한 데이터입니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-237">WhoIs data about the sender.</span></span>
+   - <span data-ttu-id="9c4fe-238">동일한 보낸 사람으로부터 테넌트에 비슷한 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-238">Similar messages we have seen in your tenant from the same sender.</span></span>
 
-1. <span data-ttu-id="d6718-153">스푸핑 인텔리전스  인사이트에서 의심스러운  도메인 또는 의심스러운 도메인을 클릭하여 스푸핑 인텔리전스 인사이트 **페이지로** 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-153">On the Spoof intelligence insight, click **Suspicious domains** or **Non-suspicious domains** to go to the **Spoof intelligence insight** page.</span></span> <span data-ttu-id="d6718-154">**스푸핑 인텔리전스 인사이트 페이지에는** 다음 정보가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-154">The **Spoof Intelligence insight** page contains the following information:</span></span>
-
-   - <span data-ttu-id="d6718-155">**스푸핑된 도메인**: 전자 메일 클라이언트의 시작 상자에  표시되는 스푸핑된 사용자의 도메인입니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-155">**Spoofed domain**: The domain of the spoofed user that's displayed in the **From** box in email clients.</span></span> <span data-ttu-id="d6718-156">이 주소를 `5322.From` 주소라고도 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-156">This address is also known as the `5322.From` address.</span></span>
-   - <span data-ttu-id="d6718-157">**인프라:** 보내는 _인프라라고도 합니다._</span><span class="sxs-lookup"><span data-stu-id="d6718-157">**Infrastructure**: Also known as the _sending infrastructure_.</span></span> <span data-ttu-id="d6718-158">원본 전자 메일 서버의 IP 주소에 대한 역방향 DNS 검색(PTR 레코드)에 있는 도메인입니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-158">The domain found in a reverse DNS lookup (PTR record) of the source email server's IP address.</span></span> <span data-ttu-id="d6718-159">원본 IP 주소에 PTR 레코드가 없는 경우 보내는 인프라는 \<source IP\> /24(예: 192.168.100.100/24)로 식별됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-159">If the source IP address has no PTR record, then the sending infrastructure is identified as \<source IP\>/24 (for example, 192.168.100.100/24).</span></span>
-   - <span data-ttu-id="d6718-160">**메시지 수:** 지난 7일 이내에 지정된 스푸핑된 도메인을 포함하는 조직으로 보내는 인프라에서 조직으로 보내는 메시지 수입니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-160">**Message count**: The number of messages from the sending infrastructure to your organization that contain the specified spoofed domain within the last 7 days.</span></span>
-   - <span data-ttu-id="d6718-161">**마지막으로 확인한** 날짜: 스푸핑된 도메인이 포함된 보내는 인프라에서 메시지를 받은 마지막 날짜입니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-161">**Last seen**: The last date when a message was received from the sending infrastructure that contains the spoofed domain.</span></span>
-   - <span data-ttu-id="d6718-162">**스푸핑 유형**: 이 값은 **External입니다.**</span><span class="sxs-lookup"><span data-stu-id="d6718-162">**Spoof type**: This value is **External**.</span></span>
-   - <span data-ttu-id="d6718-163">**스푸핑이 허용되는 경우:** 여기에 있는 값은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-163">**Allowed to spoof?**: The values that you see here are:</span></span>
-     - <span data-ttu-id="d6718-164">**예:** 스푸핑된 사용자의 도메인과 보내는 인프라의 조합에서 보낸 메시지는 허용될 수 있으며 스푸핑된 전자 메일로 처리되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-164">**Yes**: Messages from the combination of spoofed user's domain and sending infrastructure are allowed and not treated as spoofed email.</span></span>
-     - <span data-ttu-id="d6718-165">**No:** 스푸핑된 사용자의 도메인과 보내는 인프라의 조합에서 보낸 메시지가 스푸핑된 것으로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-165">**No**: Messages from the combination of spoofed user's domain and sending infrastructure are marked as spoofed.</span></span> <span data-ttu-id="d6718-166">이 작업은 기본 피싱 방지 정책 또는 사용자 지정 피싱 방지 정책(기본값은 정크 메일 폴더로 메시지 이동)에 의해 **제어됩니다.**</span><span class="sxs-lookup"><span data-stu-id="d6718-166">The action is controlled by the default anti-phishing policy or custom anti-phishing policies (the default value is **Move message to Junk Email folder**).</span></span>
-
-     <span data-ttu-id="d6718-167">자세한 내용은 [Office 365용 Microsoft Defender에서](configure-atp-anti-phishing-policies.md)피싱 방지 정책 구성을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="d6718-167">For more information, see [Configure anti-phishing policies in Microsoft Defender for Office 365](configure-atp-anti-phishing-policies.md).</span></span>
-
-2. <span data-ttu-id="d6718-168">플라이아웃에서 도메인/보내는 인프라 쌍에 대한 세부 정보를 확인하려면 목록에서 항목을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-168">Select an item in the list to view details about the domain/sending infrastructure pair in a flyout.</span></span> <span data-ttu-id="d6718-169">이 정보에는 다음이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-169">The information includes:</span></span>
-   - <span data-ttu-id="d6718-170">이 경우 이유가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-170">Why we caught this.</span></span>
-   - <span data-ttu-id="d6718-171">해야 할 일.</span><span class="sxs-lookup"><span data-stu-id="d6718-171">What you need to do.</span></span>
-   - <span data-ttu-id="d6718-172">도메인 요약입니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-172">A domain summary.</span></span>
-   - <span data-ttu-id="d6718-173">보낸 사람에 대한 데이터입니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-173">WhoIs data about the sender.</span></span>
-   - <span data-ttu-id="d6718-174">동일한 보낸 사람으로부터 테넌트에 비슷한 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-174">Similar messages we have seen in your tenant from the same sender.</span></span>
-
-   <span data-ttu-id="d6718-175">여기에서 허용된 보낸 사람 스푸핑 허용 목록에서 도메인/보내는 인프라 쌍을 추가하거나 제거하도록 선택할 수도 있습니다. </span><span class="sxs-lookup"><span data-stu-id="d6718-175">From here, you can also choose to add or remove the domain/sending infrastructure pair from the **Allowed to spoof** sender allow list.</span></span> <span data-ttu-id="d6718-176">그에 따라 토글을 설정하기만 합니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-176">Simply set the toggle accordingly.</span></span>
+   <span data-ttu-id="9c4fe-239">여기에서 허용된 보낸 사람 스푸핑 허용 목록에서 도메인/보내는 인프라 쌍을 추가하거나 제거하도록 선택할 수도 있습니다. </span><span class="sxs-lookup"><span data-stu-id="9c4fe-239">From here, you can also choose to add or remove the domain/sending infrastructure pair from the **Allowed to spoof** sender allow list.</span></span> <span data-ttu-id="9c4fe-240">그에 따라 토글을 설정하기만 합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-240">Simply set the toggle accordingly.</span></span>
 
    ![스푸핑 인텔리전스 인사이트 세부 정보 창의 도메인 스크린샷](../../media/03ad3e6e-2010-4e8e-b92e-accc8bbebb79.png)
 
-### <a name="adding-a-domain-to-the-allowed-to-spoof-list"></a><span data-ttu-id="d6718-178">스푸핑 허용 목록에 도메인 추가</span><span class="sxs-lookup"><span data-stu-id="d6718-178">Adding a domain to the Allowed to spoof list</span></span>
+## <a name="how-do-you-know-these-procedures-worked"></a><span data-ttu-id="9c4fe-242">이 절차가 제대로 수행되었는지 어떻게 확인하나요?</span><span class="sxs-lookup"><span data-stu-id="9c4fe-242">How do you know these procedures worked?</span></span>
 
-<span data-ttu-id="d6718-179">스푸핑 인텔리전스 인사이트에서 허용된 스푸핑 목록에 도메인을 추가하면 스푸핑된 도메인과 보내는 인프라의 조합만 허용됩니다. </span><span class="sxs-lookup"><span data-stu-id="d6718-179">Adding a domain to the Allowed to spoof list from the spoof intelligence insight only allows the combination of the spoofed domain *and* the sending infrastructure.</span></span> <span data-ttu-id="d6718-180">모든 원본에서 스푸핑된 도메인의 전자 메일을 허용하지 않으며 도메인에 대한 보내는 인프라의 전자 메일을 허용하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-180">It does not allow email from the spoofed domain from any source, nor does it allow email from the sending infrastructure for any domain.</span></span>
+<span data-ttu-id="9c4fe-243">스푸핑이 허용 및 스푸핑이 허용되지 않는 보낸 사람에 대해 스푸핑 인텔리전스를 구성해야 하는지 확인을 위해 다음 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-243">To verify that you've configured spoof intelligence with senders who are allowed and not allowed to spoof, use any of the following steps:</span></span>
 
-<span data-ttu-id="d6718-181">예를 들어 다음 도메인을 스푸핑 허용 목록에 허용합니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-181">For example, you allow the following domain to the Allowed to spoof list:</span></span>
+- <span data-ttu-id="9c4fe-244">보안 & 준수 센터에서 위협 관리  정책 스팸 방지 확장 스푸핑 \>  \>  \> **인텔리전스** \>  \>    정책으로 이동하여 이미 검토한 보낸 사람 표시를 선택하고 사용자의 도메인 또는 외부 도메인 탭을 선택하고 보낸 사람에 대해 스푸핑 허용 여부 값을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-244">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam** \> expand **Spoof intelligence policy** \> select **Show me senders I already reviewed** \> select the **Your Domains** or **External Domains** tab, and verify the **Allowed to spoof?** value for the sender.</span></span>
 
-- <span data-ttu-id="d6718-182">**도메인**: gmail.com</span><span class="sxs-lookup"><span data-stu-id="d6718-182">**Domain**: gmail.com</span></span>
-- <span data-ttu-id="d6718-183">**인프라:** tms.mx.com</span><span class="sxs-lookup"><span data-stu-id="d6718-183">**Infrastructure**: tms.mx.com</span></span>
+- <span data-ttu-id="9c4fe-245">PowerShell에서 다음 명령을 실행하여 스푸핑이 허용 및 허용되지 않은 보낸 사람 보기</span><span class="sxs-lookup"><span data-stu-id="9c4fe-245">In PowerShell, run the following commands to view the senders who are allowed and not allowed to spoof:</span></span>
 
-<span data-ttu-id="d6718-184">해당 도메인/보내는 인프라 쌍의 전자 메일만 스푸핑할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-184">Only email from that domain/sending infrastructure pair will be allowed to spoof.</span></span> <span data-ttu-id="d6718-185">스푸핑을 시도하는 gmail.com 허용되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-185">Other senders attempting to spoof gmail.com aren't allowed.</span></span> <span data-ttu-id="d6718-186">다른 도메인의 메시지는 tms.mx.com 인텔리전스를 통해 확인됩니다.</span><span class="sxs-lookup"><span data-stu-id="d6718-186">Messages in other domains from tms.mx.com are checked by spoof intelligence.</span></span>
+  ```powershell
+  Get-PhishFilterPolicy -AllowedToSpoof Yes -SpoofType Internal
+  Get-PhishFilterPolicy -AllowedToSpoof No -SpoofType Internal
+  Get-PhishFilterPolicy -AllowedToSpoof Yes -SpoofType External
+  Get-PhishFilterPolicy -AllowedToSpoof No -SpoofType External
+  ```
 
-## <a name="related-topics"></a><span data-ttu-id="d6718-187">관련 항목</span><span class="sxs-lookup"><span data-stu-id="d6718-187">Related topics</span></span>
+- <span data-ttu-id="9c4fe-246">PowerShell에서 다음 명령을 실행하여 스푸핑된 모든 보낸 사람 목록을 CSV 파일로 내보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9c4fe-246">In PowerShell, run the following command to export the list of all spoofed senders to a CSV file:</span></span>
 
-[<span data-ttu-id="d6718-188">Microsoft 365의 스푸핑 방지 보호 기능</span><span class="sxs-lookup"><span data-stu-id="d6718-188">Anti-spoofing protection in Microsoft 365</span></span>](anti-spoofing-protection.md)
+   ```powershell
+   Get-PhishFilterPolicy -Detailed | Export-CSV "C:\My Documents\Spoofed Senders.csv"
+   ```
