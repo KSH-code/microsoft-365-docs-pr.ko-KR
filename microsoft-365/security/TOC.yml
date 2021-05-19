@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: 시작하기
+    - name: 시작
       items:
         - name: 재택 근무 지원을 위한 주요 작업
           href: top-security-tasks-for-remote-work.md
