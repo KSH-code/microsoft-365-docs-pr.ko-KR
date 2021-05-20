@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 수비수의 사용자 조사
-description: Microsoft 365 보안 센터에서 발생한 사건에 대해 사용자를 조사합니다.
-keywords: 보안, 악성 코드, Microsoft 365, M365, 보안 센터, 모니터, 보고서, 신원, 데이터, 장치, 앱, 사고, 분석, 응답
+title: Defender에서 Microsoft 365 조사
+description: 보안 센터에서 인시던트가 Microsoft 365 조사합니다.
+keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터링, 보고서, ID, 데이터, 장치, 앱, 인시던트, 분석, 응답
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -26,51 +26,51 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572804"
 ---
-# <a name="investigate-users-in-microsoft-365-defender"></a><span data-ttu-id="3b824-104">Microsoft 365 수비수의 사용자 조사</span><span class="sxs-lookup"><span data-stu-id="3b824-104">Investigate users in Microsoft 365 Defender</span></span>
+# <a name="investigate-users-in-microsoft-365-defender"></a><span data-ttu-id="6c62c-104">Defender에서 Microsoft 365 조사</span><span class="sxs-lookup"><span data-stu-id="6c62c-104">Investigate users in Microsoft 365 Defender</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-<span data-ttu-id="3b824-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="3b824-105">**Applies to:**</span></span>
+<span data-ttu-id="6c62c-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="6c62c-105">**Applies to:**</span></span>
 
-- <span data-ttu-id="3b824-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="3b824-106">Microsoft 365 Defender</span></span>
+- <span data-ttu-id="6c62c-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="6c62c-106">Microsoft 365 Defender</span></span>
 
-<span data-ttu-id="3b824-107">인시던트 조사의 일부로 사용자 계정이 포함될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-107">Part of your incident investigation can include user accounts.</span></span> <span data-ttu-id="3b824-108">사용자> **인시던트 & 인시던트에서** *인시던트에* 대한 **사용자** 탭 >으로 **시작합니다.**</span><span class="sxs-lookup"><span data-stu-id="3b824-108">Start with the **Users** tab for an incident from **Incidents & alerts >** *incident* **> Users**.</span></span> 
+<span data-ttu-id="6c62c-107">인시던트 조사의 일부에는 사용자 계정이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="6c62c-107">Part of your incident investigation can include user accounts.</span></span> <span data-ttu-id="6c62c-108">사용자 탭에서 인시던트  및 인시던트 & 인시던트에 대한 사용자 >*>* **합니다.** </span><span class="sxs-lookup"><span data-stu-id="6c62c-108">Start with the **Users** tab for an incident from **Incidents & alerts >** *incident* **> Users**.</span></span> 
 
 :::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="인시던트에 대한 사용자 페이지의 예":::
 
-<span data-ttu-id="3b824-110">인시던트에 대한 사용자 계정의 간략한 요약을 얻으려면 사용자 계정 이름 옆에 있는 확인 란을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-110">To get a quick summary of a user account for the incident, select the check mark next to the user account name.</span></span> <span data-ttu-id="3b824-111">다음은 예입니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-111">Here's an example.</span></span>
+<span data-ttu-id="6c62c-110">인시던트에 대한 사용자 계정을 빠르게 요약하려면 사용자 계정 이름 옆의 확인 표시를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="6c62c-110">To get a quick summary of a user account for the incident, select the check mark next to the user account name.</span></span> <span data-ttu-id="6c62c-111">다음은 예입니다.</span><span class="sxs-lookup"><span data-stu-id="6c62c-111">Here's an example.</span></span>
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="Microsoft 365 보안 센터의 인시던트에 대한 사용자 계정 요약 창의 예":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="보안 센터의 인시던트에 대한 사용자 계정 Microsoft 365 창의 예":::
 
 > [!NOTE]
-> <span data-ttu-id="3b824-113">사용자 페이지에는 Azure Active Directory(Azure AD) 조직과 그룹이 표시되어 사용자와 연결된 그룹 및 권한을 이해할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-113">The User page shows Azure Active Directory (Azure AD) organization as well as groups, helping you understand the groups and permissions associated with a user.</span></span>
+> <span data-ttu-id="6c62c-113">사용자 페이지에 Azure Active Directory(Azure AD) 조직 및 그룹이 표시되어 사용자와 연결된 그룹 및 사용 권한을 이해하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6c62c-113">The User page shows Azure Active Directory (Azure AD) organization as well as groups, helping you understand the groups and permissions associated with a user.</span></span>
 
-<span data-ttu-id="3b824-114">이 플라이아웃 페이지에서는 현재 인시던트, 활성 경고 및 위험 수준뿐만 아니라 사용자 노출, 계정, 장치 등을 포함한 사용자 위협 정보를 검토할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-114">In this fly-out page, you can review user threat information, including any current incidents, active alerts, and risk level as well as user exposure, accounts, devices, and more.</span></span>
+<span data-ttu-id="6c62c-114">이 플라이아웃 페이지에서 현재 인시던트, 활성 경고, 위험 수준, 사용자 노출, 계정, 장치 등을 비롯한 사용자 위협 정보를 검토할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c62c-114">In this fly-out page, you can review user threat information, including any current incidents, active alerts, and risk level as well as user exposure, accounts, devices, and more.</span></span>
 
-<span data-ttu-id="3b824-115">또한 Microsoft 365 보안 센터에서 직접 조치를 취해 손상된 사용자를 해결하거나, 사용자가 손상된지 확인하거나, 다시 로그인하도록 요구할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-115">In addition, you can take action directly in the Microsoft 365 security center to address a compromised user, confirming the user is compromised or requiring them to sign in again.</span></span>
+<span data-ttu-id="6c62c-115">또한 보안 센터에서 직접 Microsoft 365 조치를 취하여 손상된 사용자를 해결하고, 사용자가 손상된 것을 확인하거나 다시 로그인하도록 요구할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c62c-115">In addition, you can take action directly in the Microsoft 365 security center to address a compromised user, confirming the user is compromised or requiring them to sign in again.</span></span>
 
-<span data-ttu-id="3b824-116">여기에서 사용자 계정의 세부 정보를 보려면 **사용자 페이지로 이동을** 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-116">From here, you can select **Go to user page** to see the details of a user account.</span></span> <span data-ttu-id="3b824-117">다음은 예입니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-117">Here's an example.</span></span>
+<span data-ttu-id="6c62c-116">여기에서 사용자 페이지로  이동을 선택하여 사용자 계정의 세부 정보를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c62c-116">From here, you can select **Go to user page** to see the details of a user account.</span></span> <span data-ttu-id="6c62c-117">다음은 예입니다.</span><span class="sxs-lookup"><span data-stu-id="6c62c-117">Here's an example.</span></span>
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-details.png" alt-text="Microsoft 365 보안 센터의 인시던트에 대한 사용자 계정 페이지의 예":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-details.png" alt-text="보안 센터의 인시던트에 대한 사용자 계정 Microsoft 365 예":::
 
-<span data-ttu-id="3b824-119">**사용자** 페이지의 목록에서 사용자 계정이름을 선택하여 이 페이지를 볼 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-119">You can also see this page by selecting the name of the user account from the list on the **Users** page.</span></span>
+<span data-ttu-id="6c62c-119">사용자 페이지의 목록에서 사용자 계정의 이름을 선택하여 이 페이지를 볼 **수** 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c62c-119">You can also see this page by selecting the name of the user account from the list on the **Users** page.</span></span>
 
-<span data-ttu-id="3b824-120">Microsoft 365 보안 센터 사용자 페이지는 엔드포인트용 Microsoft Defender, 신원 에 대한 Microsoft Defender 및 Microsoft Cloud App Security(보유한 라이선스에 따라 다름)의 정보를 결합합니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-120">The Microsoft 365 security center user page combines information from Microsoft Defender for Endpoint, Microsoft Defender for Identity, and Microsoft Cloud App Security (depending on what licenses you have).</span></span> 
+<span data-ttu-id="6c62c-120">Microsoft 365 보안 센터 사용자 페이지는 끝점용 Microsoft Defender, ID용 Microsoft Defender 및 Microsoft Cloud App Security 정보를 결합합니다(사용중인 라이선스에 따라 다를 수 있습니다).</span><span class="sxs-lookup"><span data-stu-id="6c62c-120">The Microsoft 365 security center user page combines information from Microsoft Defender for Endpoint, Microsoft Defender for Identity, and Microsoft Cloud App Security (depending on what licenses you have).</span></span> 
 
-<span data-ttu-id="3b824-121">이 페이지에는 사용자 계정의 보안 위험과 관련된 정보가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-121">This page shows information specific to the security risk of a user account.</span></span> <span data-ttu-id="3b824-122">여기에는 사용자의 전반적인 위험에 기여한 위험 및 최근 이벤트 및 경고를 평가하는 데 도움이 되는 점수가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-122">This includes a score that helps assess risk and recent events and alerts that contributed to the overall risk of the user.</span></span>
+<span data-ttu-id="6c62c-121">이 페이지에는 사용자 계정의 보안 위험과 관련한 정보가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="6c62c-121">This page shows information specific to the security risk of a user account.</span></span> <span data-ttu-id="6c62c-122">여기에는 위험 및 최근 이벤트를 평가하는 데 도움이 되는 점수와 사용자의 전반적인 위험에 기여한 경고가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="6c62c-122">This includes a score that helps assess risk and recent events and alerts that contributed to the overall risk of the user.</span></span>
 
-<span data-ttu-id="3b824-123">이 페이지에서 다음과 같은 추가 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-123">From this page, you can do these additional actions:</span></span> 
+<span data-ttu-id="6c62c-123">이 페이지에서는 다음 추가 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c62c-123">From this page, you can do these additional actions:</span></span> 
 
-- <span data-ttu-id="3b824-124">사용자 계정을 손상된 계정으로 표시</span><span class="sxs-lookup"><span data-stu-id="3b824-124">Mark the user account as compromised</span></span>
-- <span data-ttu-id="3b824-125">사용자가 다시 로그인하도록 요구</span><span class="sxs-lookup"><span data-stu-id="3b824-125">Require the user to sign in again</span></span>
-- <span data-ttu-id="3b824-126">사용자 계정 일시 중단</span><span class="sxs-lookup"><span data-stu-id="3b824-126">Suspend the user account</span></span>
-- <span data-ttu-id="3b824-127">Azure Active Directory(Azure AD) 사용자 계정 설정 보기</span><span class="sxs-lookup"><span data-stu-id="3b824-127">See the Azure Active Directory (Azure AD) user account settings</span></span>
-- <span data-ttu-id="3b824-128">사용자 계정이 소유한 파일 보기</span><span class="sxs-lookup"><span data-stu-id="3b824-128">View the files owned by the user account</span></span>
-- <span data-ttu-id="3b824-129">이 사용자와 공유된 파일을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-129">View files shared with this user.</span></span> 
+- <span data-ttu-id="6c62c-124">사용자 계정을 손상된 것으로 표시</span><span class="sxs-lookup"><span data-stu-id="6c62c-124">Mark the user account as compromised</span></span>
+- <span data-ttu-id="6c62c-125">사용자에게 다시 로그인하도록 요구</span><span class="sxs-lookup"><span data-stu-id="6c62c-125">Require the user to sign in again</span></span>
+- <span data-ttu-id="6c62c-126">사용자 계정 일시 중단</span><span class="sxs-lookup"><span data-stu-id="6c62c-126">Suspend the user account</span></span>
+- <span data-ttu-id="6c62c-127">Azure AD(Azure Active Directory 계정 설정) 참조</span><span class="sxs-lookup"><span data-stu-id="6c62c-127">See the Azure Active Directory (Azure AD) user account settings</span></span>
+- <span data-ttu-id="6c62c-128">사용자 계정이 소유한 파일 보기</span><span class="sxs-lookup"><span data-stu-id="6c62c-128">View the files owned by the user account</span></span>
+- <span data-ttu-id="6c62c-129">이 사용자와 공유된 파일을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c62c-129">View files shared with this user.</span></span> 
 
-<span data-ttu-id="3b824-130">다음은 예입니다.</span><span class="sxs-lookup"><span data-stu-id="3b824-130">Here's an example.</span></span>
+<span data-ttu-id="6c62c-130">다음은 예입니다.</span><span class="sxs-lookup"><span data-stu-id="6c62c-130">Here's an example.</span></span>
 
-:::image type="content" source="../../media/investigate-users/incidents-ss-user-details-actions.png" alt-text="Microsoft 365 보안 센터에서 발생한 사고에 대한 사용자 계정의 작업 예":::
+:::image type="content" source="../../media/investigate-users/incidents-ss-user-details-actions.png" alt-text="Microsoft 365 보안 센터에서 인시던트에 대한 사용자 계정에 대한 작업의 예":::
 
 
 <!--
@@ -80,12 +80,12 @@ Learn more about how to investigate users and potential risk [in this Cloud App 
 
 --> 
 
-## <a name="next-steps"></a><span data-ttu-id="3b824-132">다음 단계</span><span class="sxs-lookup"><span data-stu-id="3b824-132">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="6c62c-132">다음 단계</span><span class="sxs-lookup"><span data-stu-id="6c62c-132">Next steps</span></span>
 
-<span data-ttu-id="3b824-133">프로세스 내 인시던트에 필요한 경우 [조사를](investigate-incidents.md)계속하십시오.</span><span class="sxs-lookup"><span data-stu-id="3b824-133">As needed for in-process incidents, continue your [investigation](investigate-incidents.md).</span></span>
+<span data-ttu-id="6c62c-133">In-process 인시던트에 필요한 경우 조사를 [계속합니다.](investigate-incidents.md)</span><span class="sxs-lookup"><span data-stu-id="6c62c-133">As needed for in-process incidents, continue your [investigation](investigate-incidents.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="3b824-134">참고 항목</span><span class="sxs-lookup"><span data-stu-id="3b824-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6c62c-134">참고 항목</span><span class="sxs-lookup"><span data-stu-id="6c62c-134">See also</span></span>
 
-- [<span data-ttu-id="3b824-135">인시던트 개요</span><span class="sxs-lookup"><span data-stu-id="3b824-135">Incidents overview</span></span>](incidents-overview.md)
-- [<span data-ttu-id="3b824-136">인시던트 우선 순위 지정</span><span class="sxs-lookup"><span data-stu-id="3b824-136">Prioritize incidents</span></span>](incident-queue.md)
-- [<span data-ttu-id="3b824-137">인시던트 관리</span><span class="sxs-lookup"><span data-stu-id="3b824-137">Manage incidents</span></span>](manage-incidents.md)
+- [<span data-ttu-id="6c62c-135">인시던트 개요</span><span class="sxs-lookup"><span data-stu-id="6c62c-135">Incidents overview</span></span>](incidents-overview.md)
+- [<span data-ttu-id="6c62c-136">인시던트 우선 순위 지정</span><span class="sxs-lookup"><span data-stu-id="6c62c-136">Prioritize incidents</span></span>](incident-queue.md)
+- [<span data-ttu-id="6c62c-137">인시던트 관리</span><span class="sxs-lookup"><span data-stu-id="6c62c-137">Manage incidents</span></span>](manage-incidents.md)
