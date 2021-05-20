@@ -23,13 +23,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 다음 단계에 따라 다른 직원에게 이전 직원의 회사 및 OneDrive 액세스 권한을 Outlook 합니다.
-ms.openlocfilehash: 451f8f7f50098c280e3925ef4efe5ad491ac54fa
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: 이 문서의 단계에 따라 다른 직원에게 이전 직원의 회사 및 OneDrive 액세스 권한을 Outlook.
+ms.openlocfilehash: cb5c27cbc7f1c184af8f0d1ad32b822660e93791
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244212"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582695"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>4단계 - 다른 직원에게 데이터 및 OneDrive 액세스 Outlook 부여
 
@@ -41,7 +41,7 @@ ms.locfileid: "52244212"
 
 이전 사용자의 OneDrive 파일을 보존하려면 먼저 해당 사용자 OneDrive 액세스 권한을 부여한 다음 유지하려는 파일을 이동하십시오.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
 
 2. 사용자를 선택합니다.
 
@@ -113,7 +113,7 @@ ms.locfileid: "52244212"
   
 9. 기존 Outlook 데이터 파일(.pst)로 내보내는 경우 **옵션** 에서 파일에 이미 있는 항목을 내보낼 때 수행할 작업을 지정합니다.
 
-10. **마침** 을 선택합니다.
+10. **완료** 를 선택합니다.
 
 Outlook 새 Outlook 파일(.pst)을 만들거나 암호로 보호된 파일을 사용하는 경우를 아니면 내보내기 즉시 시작됩니다.
   
@@ -153,7 +153,7 @@ Outlook 새 Outlook 파일(.pst)을 만들거나 암호로 보호된 파일을 �
 
 8. 항목 가져오기 옵션을 설정할 수 있습니다. 기본 설정은 일반적으로 변경할 필요가 없습니다.
 
-9. **마침** 을 선택합니다.
+9. **완료** 를 선택합니다.
 
 > [!NOTE]
 > 이 단계는 기존 사용자의 데이터 및 전자 메일 데이터에 액세스하는 OneDrive 동일하게 유지됩니다.
@@ -161,10 +161,10 @@ Outlook 새 Outlook 파일(.pst)을 만들거나 암호로 보호된 파일을 �
 > [!TIP]
 > Outlook 데이터 파일(.pst)에서 몇 가지 항목만 가져오거나 복원하려는 경우 Outlook 열 수 있습니다. 그런 다음 탐색 창에서 데이터 파일 폴더의 Outlook 기존 폴더로 Outlook 끌어 놓습니다. 
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[관리자 계정에서 관리자 OneDrive 제거](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive)
+[계정에서 관리자](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) 추가 및 OneDrive(문서)
 
-[삭제된 파일 OneDrive](/onedrive/restore-deleted-onedrive)
+[삭제된 데이터 OneDrive](/onedrive/restore-deleted-onedrive) 복원(문서)
   
-[OneDrive 보존 및 삭제](/onedrive/retention-and-deletion)
+[OneDrive 및](/onedrive/retention-and-deletion) 삭제(문서)

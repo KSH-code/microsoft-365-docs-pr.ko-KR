@@ -20,13 +20,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 공유 사서함을 만든 후 전자 메일 전달 및 자동 응답과 같은 사용자에 대한 일부 설정을 구성할 수 있습니다. 나중에 사서함 이름이나 구성원과 같은 다른 설정을 변경할 수 있습니다.
-ms.openlocfilehash: 01d5aaa686e1d64c9ea7d89913d8208f779dcfd1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: 공유 사서함을 만들고 전자 메일 전달 및 자동 응답과 같은 사용자에 대한 일부 설정을 구성합니다.
+ms.openlocfilehash: ab23353f07a24f06d43172e8087819dd915ab720
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52243975"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582671"
 ---
 # <a name="configure-shared-mailbox-settings"></a>공유 사서함 설정 구성
 
@@ -144,12 +144,12 @@ ms.locfileid: "52243975"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[공유 사서함(문서)](about-shared-mailboxes.md)
+[공유 사서함 정보](about-shared-mailboxes.md)(문서)
 
-[공유 사서함](create-a-shared-mailbox.md) 만들기(문서)
+[공유 사서함 만들기](create-a-shared-mailbox.md)(문서)
 
-[사용자 사서함을 공유 사서함으로 변환(문서)](convert-user-mailbox-to-shared-mailbox.md)
+[사용자 사서함을 공유 사서함으로 변환](convert-user-mailbox-to-shared-mailbox.md)(문서)
 
-[공유 사서함에서 라이선스](remove-license-from-shared-mailbox.md) 제거(문서)
+[공유 사서함에서 라이선스 제거](remove-license-from-shared-mailbox.md)(문서)
 
-[공유 사서함 관련 문제](resolve-issues-with-shared-mailboxes.md) 해결(문서)
+[공유 사서함 문제 해결](resolve-issues-with-shared-mailboxes.md)(문서)

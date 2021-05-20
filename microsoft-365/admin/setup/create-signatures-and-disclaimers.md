@@ -24,13 +24,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
-description: 조직에 들어오거나 조직에서 나가는 모든 전자 메일 메시지에 대한 법적 고지 조항 또는 공개 설명을 포함하여 전자 메일 서명을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: e1c3df235442fdc6f569825a7137c92bfc5bb044
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: 조직에 들어오거나 조직에서 나가는 모든 전자 메일 메시지에 대한 법적 고지 조항 또는 공개 설명을 포함하여 전자 메일 서명을 관리합니다.
+ms.openlocfilehash: 05cfeeb01231e7f99d2a96fc37581b4c9a23f5aa
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244530"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582755"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>조직 전체의 서명 및 고지 조항 만들기
 
@@ -115,4 +115,13 @@ ms.locfileid: "52244530"
   
 ## <a name="more-resources"></a>추가 리소스
 
-- PowerShell 사용에 대한 자세한 내용은 조직 전체의 메시지 [고지, 서명,](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) Exchange Online 머리글을 참조하세요.
+PowerShell 사용에 대한 자세한 내용은 에서 조직 전체 메시지 고지, 서명, 머리글 또는 [머리글을 Exchange Online.](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers)
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[전자 메일 및 연락처를 Microsoft 365](migrate-email-and-contacts-admin.md) 마이그레이션(동영상)
+
+[사용자 전자 메일](../email/office-365-user-email-settings.md) 설정(문서)
+
+[Microsoft 365 관리 센터 개요](../../business-video/admin-center-overview.md)(동영상)
+

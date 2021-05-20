@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Microsoft 365의 구독 및 라이선스 이해
+title: 비즈니스용 구독 및 라이선스 Microsoft 365 이해
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -19,26 +19,26 @@ ms.custom:
 - manage_licenses
 - commerce_licensing
 search.appverid: MET150
-description: 비즈니스용 Microsoft 365의 구독 및 라이선스에 대해 자세히 알아보습니다.
+description: '받는 응용 프로그램 및 서비스는 구입한 Microsoft 365(예: 비즈니스용 Microsoft 365 앱.'
 ms.date: 07/01/2020
-ms.openlocfilehash: a8ec5b0716a5ceaa02526520e76dc390a6fba0f7
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 4e93a84df106475417289da168ca472ed5a07475
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331493"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582731"
 ---
-# <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>비즈니스용 Microsoft 365의 구독 및 라이선스 이해
+# <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>비즈니스용 구독 및 라이선스 Microsoft 365 이해
 
-비즈니스용 Microsoft 365 구독을 구입하면 월간 또는 연간 기준으로 결제하는 앱 및 서비스 집합에 등록합니다. 구독의 일부로 받는 응용 프로그램 및 서비스는 비즈니스용 Microsoft 365 앱 또는 Microsoft 365 Business Standard와 같이 구매한 제품에 따라 다를 수 있습니다. 중소기업용 [Microsoft 365](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1) 페이지에서 각 제품과 함께 사용할 수 있는 제품을 볼 수 있습니다.
+비즈니스용 Microsoft 365 구독을 구입하는 경우 월간 또는 연간 기준으로 결제하는 앱 및 서비스 집합에 등록합니다. 구독의 일부로 받는 응용 프로그램 및 서비스는 구입한 제품(예: 비즈니스용 Microsoft 365 앱 또는 Microsoft 365 Business Standard. 각 제품에 대한 내용은 [중소기업용](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1) Microsoft 365 페이지에서 볼 수 있습니다.
 
 구독을 구입할 때 조직의 사용자 수를 기준으로 필요한 라이선스 수를 지정합니다. 구독을 구입한 후 조직의 사용자에 대한 계정을 만든 다음 각 사용자에게 라이선스를 할당합니다. 조직의 요구가 변경될 경우 새 사용자를 수용할 수 있도록 라이선스를 더 구입하거나 다른 사용자가 조직을 떠날 때 다른 사용자에게 라이선스를 다시 배포할 수 있습니다.
 
-구독이 두 개 이상 있는 경우 각 구독에 대해 다른 사용자에게 라이선스를 할당할 수 있습니다. 예를 들어 모든 사용자를 Microsoft 365 Business Standard 구독의 일부로 모든 Microsoft 365 응용 프로그램 및 서비스에 할당할 수 있습니다. 별도의 Visio 구독을 통해 일부 사용자를 Visio Online에 할당할 수도 있습니다.
+구독이 두 개 이상 있는 경우 각 구독에 대해 다른 사용자에게 라이선스를 할당할 수 있습니다. 예를 들어 모든 사용자를 모든 Microsoft 365 구독의 일부로 할당할 Microsoft 365 Business Standard 있습니다. 별도의 온라인 구독을 통해 Visio 사용자 하위 집합을 할당할 Visio 있습니다.
 
 ## <a name="how-many-devices-can-people-install-office-on"></a>사용자가 Office를 설치할 수 있는 장치는 몇 개인가요?
 
-구독에 다음 제품이 포함되어 있는 경우 각 사용자가 최대 5대의 PC 또는 Mac, 태블릿 5대 및 휴대폰 5대에 Office를 설치할 수 있습니다.
+구독에 다음 제품이 포함되어 있는 경우 각 사용자가 최대 Office PC 또는 Mac, 태블릿 5대 및 휴대폰 5대에 설치할 수 있습니다.
 
 :::row:::
    :::column span="":::
@@ -55,10 +55,10 @@ ms.locfileid: "52331493"
   
 |**구독에 이 서비스가 있는 경우**|**자동으로 일어나는 일**|
 |:-----|:-----|
-|Exchange Online  <br/> |해당 사용자의 사서함이 만들어집니다. <br/> 이 작업을 완료하기 위한 SLA에 대한 자세한 내용은 ["설정 중..."을 참조합니다. Microsoft 365 관리 센터의 메시지](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center) |
+|Exchange Online  <br/> |해당 사용자의 사서함이 만들어집니다. <br/> 이 작업을 완료하기 위한 SLA에 대한 자세한 내용은 ["설정 중..."을 참조합니다. Microsoft 365 센터의 메시지입니다.](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center) |
 |SharePoint Online  <br/> |기본 SharePoint Online 팀 사이트에 대한 편집 권한이 해당 사용자에게 할당됩니다.  <br/> |
 |비즈니스용 Skype Online  <br/> |라이선스와 관련된 기능에 액세스할 수 있습니다.  <br/> |
-|엔터프라이즈용 Microsoft 365 앱  <br/> |최대 5대의 Mac 또는 PC, 태블릿 5대, 스마트폰 5대에서 Office 앱을 다운로드할 수 있습니다.  <br/> |
+|엔터프라이즈용 Microsoft 365 앱  <br/> |최대 5대의 Mac Office PC, 태블릿 5대, 스마트폰 5대에 앱을 다운로드할 수 있습니다.  <br/> |
 
 ## <a name="understand-licenses-for-non-user-mailboxes"></a>비사용자 사서함의 라이선스 이해
 
@@ -66,11 +66,11 @@ ms.locfileid: "52331493"
   
 - [공유 사서함 만들기](../../admin/email/create-a-shared-mailbox.md)
 - [공유 사서함에서 라이선스 제거](../../admin/email/remove-license-from-shared-mailbox.md)
-- 다른 모든 Microsoft 365 계획에 대한 [Exchange Online의](/exchange/collaboration-exo/shared-mailboxes) 공유 사서함
+- [다른 모든 Exchange Online](/exchange/collaboration-exo/shared-mailboxes) 계획에 대한 공유 Microsoft 365 있습니다.
 - [대화방 사서함 만들기 및 관리](/exchange/recipients-in-exchange-online/manage-room-mailboxes)
 - [장비 사서함 관리](/exchange/recipients-in-exchange-online/manage-equipment-mailboxes)
 
-## <a name="who-can-assign-licenses"></a>라이선스를 할당할 수 있는 사람
+## <a name="who-can-assign-licenses"></a>Who 라이선스를 할당할 수 있나요?
 
 여러 유형의 관리자가 해당 역할에 따라 서로 다른 방법으로 라이선스를 사용할 수 있습니다. 다음 표에는 가장 일반적인 옵션이 나열되어 있습니다. 관리자 역할 및 권한의 전체 목록은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
   
@@ -87,4 +87,4 @@ ms.locfileid: "52331493"
 [비즈니스 구독에 대한](buy-licenses.md) 라이선스 구입 또는 제거(문서)\
 [사용자에게 라이선스 할당](../../admin/manage/assign-licenses-to-users.md)(문서)\
 [사용자의 라이선스 할당 취소](../../admin/manage/remove-licenses-from-users.md) (문서)\
-[공유 사서함에서 라이선스](../../admin/email/remove-license-from-shared-mailbox.md) 제거(문서)
+[공유 사서함에서 라이선스 제거](../../admin/email/remove-license-from-shared-mailbox.md)(문서)
