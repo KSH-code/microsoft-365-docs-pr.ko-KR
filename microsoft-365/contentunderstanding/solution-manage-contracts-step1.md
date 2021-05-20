@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Syntex를 사용하여 SharePoint 솔루션을 사용하여 계약 파일을 식별하고 데이터를 추출하는 Microsoft 365 대해 알아보십시오.
-ms.openlocfilehash: f246dd4ed619dd9885d2c45c69d607cfa9c2483f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 67c0a072b070cd414f5079fe4fb61e7391839951
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538558"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583571"
 ---
 # <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>1단계. Syntex를 SharePoint 사용하여 계약 파일을 식별하고 데이터 추출
 
@@ -42,7 +42,7 @@ ms.locfileid: "52538558"
 ## <a name="steps-to-create-and-train-your-model"></a>모델을 만들고 교육하는 단계
 
 > [!NOTE]
-> 이러한 단계의 경우 Microsoft SharePoint 샘플 리포지토리의 예제 파일을 사용할 [수 있습니다.](https://github.com/pnp/syntex-samples) 이 리포지토리의 샘플에는 문서 이해 모델 파일과 모델을 학습하는 데 사용되는 파일이 모두 포함되어 있습니다.
+> 이러한 단계의 경우 계약 관리 솔루션 자산 리포지토리의 예제 [파일을 사용할 수 있습니다.](https://github.com/pnp/syntex-samples/tree/main/scenario%20assets/Contracts%20Management) 이 리포지토리의 예제에는 문서 이해 모델 파일과 모델을 학습하는 데 사용되는 파일이 모두 포함되어 있습니다.
 
 ### <a name="create-a-contract-model"></a>계약 모델 만들기
 

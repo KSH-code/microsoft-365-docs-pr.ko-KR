@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Viva 항목 계획 방법 학습
-ms.openlocfilehash: d64e4b341fe96d7aa3636f58bffe3dd8f388838e
-ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
+ms.openlocfilehash: de7534ce58a7888ac822826ef4ef1b4934ed8cb1
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51957542"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583115"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Microsoft Viva 항목 계획
 
@@ -23,7 +23,7 @@ ms.locfileid: "51957542"
 
 이 문서에서는 이러한 계획 결정에 대해 살펴보아야 합니다.
 
-- 항목에 대해 크롤링할 SharePoint 사이트
+- 항목에 SharePoint 크롤링할 사이트
 - 항목 환경에서 제외하려는 항목(있는 경우)
 - 항목을 표시하려는 사용자
 - 항목 센터에서 항목을 관리할 수 있는 권한을 부여하려는 사용자
@@ -32,26 +32,28 @@ ms.locfileid: "51957542"
 
 데이터의 보안 및 개인 정보는 준수하며, 항목 환경은 사용자에게 권한이 없는 파일에 대한 추가 액세스 권한을 부여하지 않습니다. 또한 계획 프로세스의 일부로 [Microsoft Viva 항목](topic-experiences-security-privacy.md) 보안 및 개인 정보 보호를 읽어보는 것이 좋습니다.
 
+Viva 항목 뒤에 있는 AI 기술에 대한 자세한 내용은 [Microsoft Viva의 Alexandria 항목:](https://www.microsoft.com/research/blog/alexandria-in-microsoft-viva-topics-from-big-data-to-big-knowledge)큰 데이터에서 큰 지식으로 읽습니다.
+
 ## <a name="requirements"></a>요구 사항
 
-Microsoft 365 관리 센터에 액세스하고 항목을 설정하려면 [Viva](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 전역 관리자 또는 SharePoint 관리자 되어야 합니다.
+Viva [](https://www.microsoft.com/microsoft-viva/topics) 항목을 구독하고 전역 관리자 또는 SharePoint 관리자로서 Microsoft 365 센터에 액세스하고 항목을 설정해야 합니다.
 
 항목을 사용하려면 모든 사용자에게 항목 환경 **라이선스가** 필요합니다. 라이선스 할당은 Microsoft [Viva 항목 설정에서 다를 수 있습니다.](set-up-topic-experiences.md)
 
 ## <a name="topic-discovery"></a>항목 검색
 
-항목 검색 설정은 항목의 원본으로 사용되는 SharePoint 사이트를 지정합니다. 모든 SharePoint 사이트, 특정 사이트 목록 또는 사이트를 포함하지하도록 선택할 수 있습니다. 항목 환경이 사용자에게 많은 좋은 항목을 검색할 수 있도록 모든 사이트를 선택하는 것이 좋습니다.
+토픽 검색 설정은 토픽의 원본으로 사용되는 SharePoint 사이트를 지정합니다. 모든 SharePoint 사이트, 특정 사이트 목록 또는 사이트 없음을 포함하도록 선택할 수 있습니다. 항목 환경이 사용자에게 많은 좋은 항목을 검색할 수 있도록 모든 사이트를 선택하는 것이 좋습니다.
 
-항목을 설정할 때 다음 옵션 중 선택할 수 있습니다.
+토픽을 설정할 때 다음 옵션 중에서 선택할 수 있습니다.
 
-- **모든 사이트:** 조직의 모든 SharePoint 사이트 여기에는 현재 및 향후 사이트가 포함됩니다.
-- **선택한 사이트를 제외한** 모든 사이트: 지정한 사이트를 제외한 모든 사이트 향후 만들어진 사이트는 항목 검색을 위한 원본으로 포함됩니다. 
-- **선택한 사이트만:** 지정한 사이트만 향후 만들어진 사이트는 항목 검색을 위한 원본으로 포함되지 않습니다.
-- **사이트 없음:** SharePoint 사이트를 포함하지 않습니다.
+- **모든 사이트**: 조직의 모든 SharePoint 사이트입니다. 여기에는 현재 사이트와 향후 사이트가 포함됩니다.
+- **선택한 사이트를 제외한 모든 사이트**: 지정한 사이트를 제외한 모든 사이트입니다. 향후 만들어진 사이트는 항목 검색을 위한 원본으로 포함됩니다. 
+- **선택한 사이트만:** 지정한 사이트만 이후에 생성된 사이트는 토픽 검색의 원본으로 포함되지 않습니다.
+- **사이트 없음**: SharePoint 사이트는 포함하지 않습니다.
 
 선택한 사이트 또는  선택한 사이트만 제외한 모두를 선택하는 경우 사이트 목록이 있는 .csv 파일을 업로드할 수 있습니다. 이러한 옵션은 파일럿을 수행 중일 때 시작할 제한된 수의 사이트를 포함하려는 경우 유용합니다.
 
-아래 .csv 템플릿을 복사할 수 있습니다.
+아래 서식 파일을 .csv 수 있습니다.
 
 ``` csv
 Site name,URL
@@ -63,7 +65,7 @@ Site name,URL
 
 ### <a name="multi-geo"></a>Multi-geo
 
-조직에서 [Microsoft 365 Multi-Geo를](/microsoft-365/enterprise/microsoft-365-multi-geo)배포한 경우 항목 센터가 중앙 위치에 프로비전됩니다. 이 항목 센터는 중앙 위치에 있는 SharePoint 사이트만 항목의 원본으로 사용할 수 있습니다. (모든 **사이트를** 선택하면 Viva 항목은 중앙 위치의 모든 사이트를 사용하게 됩니다.)
+조직에서 [multi-geo를 Microsoft 365](/microsoft-365/enterprise/microsoft-365-multi-geo)경우 항목 센터가 중앙 위치에 프로비전되어 SharePoint 사이트의 원본으로 사용할 수 있습니다. (모든 **사이트를** 선택하면 Viva 항목은 중앙 위치의 모든 사이트를 사용하게 됩니다.)
 
 콘텐츠의 모든 처리 및 저장은 중앙 위치에서 수행됩니다.
 
@@ -90,9 +92,9 @@ Site name,URL
 
 누구도 항목에 참여하지 못하도록 선택할 수 있습니다. 그러나 이는 권장되지 않습니다. 이 옵션을 선택하는 경우 지식 관리자는 여전히 항목을 편집하고 만들 수 있습니다.
 
-*주제 뷰어*
+*항목 뷰어*
 
-항목 뷰어는 항목 페이지, 검색 결과 및 SharePoint 페이지와 같은 콘텐츠에서 항목을 강조 표시하는 경우의 정보를 볼 수 있습니다. 사용자는 항목에서 검색된 파일 및 페이지에 액세스할 수 있는 경우 검색된 항목만 볼 수 있습니다.
+항목 뷰어는 항목 페이지에 대한 정보, 검색 결과 및 콘텐츠에서 항목을 강조 표시하는 경우(SharePoint 수 있습니다. 사용자는 항목에서 검색된 파일 및 페이지에 액세스할 수 있는 경우 검색된 항목만 볼 수 있습니다.
 
 주제 뷰어를 설정할 때 다음 중 선택할 수 있습니다.
 
@@ -106,11 +108,11 @@ Site name,URL
 
 관리자는 항목 환경에서 특정 항목을 제외할 수 있습니다. 이 기능은 중요한 데이터가 항목에 나타나지 못하게 하려는 경우 유용합니다. 지식 관리자는 항목 센터에서 항목을 제외할 수 있는 반면, 관리자가 제외한 항목은 지식 관리자에게도 표시되지 않습니다. (기술 관리자는 검색 후 항목 센터에서 항목을 제거할 수 있습니다.)
 
-관리자 수준에서 항목을 제외하려면 .csv 파일에 항목을 추가하고 파일을 업로드해야 합니다. 설치하는 동안 또는 나중에 이 작업을 할 수 있습니다.
+관리자 수준에서 항목을 제외하려면 항목을 .csv 파일을 업로드해야 합니다. 설치하는 동안 또는 나중에 이 작업을 할 수 있습니다.
 
-.csv 파일에는 다음 매개 변수가 포함되어야 합니다.
+파일 .csv 매개 변수를 포함해야 합니다.
 
-- **이름:** 제외할 항목의 이름을 입력합니다. 이 작업은 다음 두 가지 방법으로 수행할 수 있습니다.
+- **이름**: 제외할 토픽의 이름을 입력합니다. 이 작업을 수행하는 방법은 다음 두 가지입니다.
 - **MatchType-Exact/Partial**: 입력한 이름이 정확히  일치 유형인지 또는 부분 일치 *유형인지 여부를* 입력합니다.
     - 정확한 일치: 정확한 이름 또는 약어(예: *Contoso* 또는 ATL)를 포함할 *수 있습니다.*
     - 부분 일치: 특정 단어가 있는 모든 항목을 제외할 수 있습니다.  예를 들어 *호는* 호 원, 4도분의 호, 교육 호 등 호 단어가 있는 모든 항목을 *제외합니다.*  아키텍처와 같이 텍스트가 단어의 일부로 포함된 항목은 제외되지 *않습니다.*
@@ -126,17 +128,17 @@ Name (required),Expansion,MatchType- Exact/Partial (required)
 
 ## <a name="administration"></a>관리
 
-항목을 설정할 때 설치 프로세스의 일부로 항목 센터가 자동으로 만들어집니다. 항목 센터의 이름을 지정하는 항목과 URL을 지정하려는 항목을 생각해 세요. 설치 프로세스의 일부로 이름과 URL을 설정할 수 있으며, 나중에 Microsoft 365 관리 센터에서 이름(URL은 아미는 것)을 변경할 수 있습니다. 하나의 항목 센터만 사용할 수 있습니다.
+항목을 설정할 때 설치 프로세스의 일부로 항목 센터가 자동으로 만들어집니다. 항목 센터의 이름을 지정하는 항목과 URL을 지정하려는 항목을 생각해 세요. 설치 프로세스의 일부로 이름과 URL을 설정할 수 있으며 나중에 Microsoft 365 관리 센터에서 이름을 변경할 수 있습니다. 하나의 항목 센터만 사용할 수 있습니다.
 
 ## <a name="setup-checklist"></a>설치 검사 목록
 
 항목 환경을 설정할 때 설정 마법사를 진행할 때 다음 항목이 필요합니다.
 
 > [!div class="checklist"]
-> * 항목 검색을 위한 모든 사이트를 포함하지 않을 경우 포함하거나 제외할 사이트 목록
-> * 모든 사용자가 항목을 볼 수 있도록 허용하지 않는 경우 항목 보기를 위한 보안 그룹
-> * 모든 사용자가 항목을 만들고 편집할 수 있도록 허용하지 않는 경우 항목 참가자를 위한 보안 그룹
-> * 모든 사용자가 항목을 관리할 수 있도록 허용하지 않는 경우 항목 지식 관리자를 위한 보안 그룹
+> * 주제 검색을 위한 모든 사이트를 포함하지 않을 경우, 포함하거나 제외할 사이트 목록
+> * 모든 사용자에게 주제 보기를 허용하지 않는 경우, 주제 뷰어에 대한 보안 그룹
+> * 모든 사용자가 주제를 만들고 편집할 수 없는 경우, 주제 기여자를 위한 보안 그룹
+> * 모든 사용자에게 주제 관리를 허용하지 않을 경우, 주제 지식 관리자의 보안 그룹
 > * 항목 검색에서 제외할 중요한 항목 목록
 > * 항목 센터 사이트의 이름
 
@@ -144,10 +146,10 @@ Name (required),Expansion,MatchType- Exact/Partial (required)
 
 [주제 경험 설정](set-up-topic-experiences.md)
 
-[Microsoft 365에서 항목 검색 관리](topic-experiences-discovery.md)
+[2013에서 항목 검색 Microsoft 365](topic-experiences-discovery.md)
 
-[Microsoft 365에서 항목 표시 관리](topic-experiences-knowledge-rules.md)
+[2016에서 항목 표시 Microsoft 365](topic-experiences-knowledge-rules.md)
 
-[Microsoft 365에서 항목 사용 권한 관리](topic-experiences-user-permissions.md)
+[2013에서 항목 사용 권한 Microsoft 365](topic-experiences-user-permissions.md)
 
-[Microsoft 365에서 항목 센터의 이름 변경](topic-experiences-administration.md)
+[2013에서 항목 센터의 이름을 Microsoft 365](topic-experiences-administration.md)

@@ -14,48 +14,74 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: 이제 채팅 및 채널에 DLP Microsoft Teams 적용할 수 있습니다. 이 문서의 작동 방식에 대해 자세히 알아보면 이 문서를 읽어보아야 합니다.
-ms.openlocfilehash: 9fdce86473dcfbb7ec75b9d371b8782d4141ef57
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+description: Microsoft Teams 채널은 DLP(데이터 손실 방지) 정책을 지원합니다.
+ms.openlocfilehash: e55bfa34b2495465f573bcede3ebda2308dbbbbc
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572468"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583391"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft Teams
 
-> [!NOTE]
-> 데이터 손실 방지 기능은 Microsoft Teams E5/A5, Microsoft 365 E5/A5, Microsoft 365 정보 보호 및 거버넌스 또는 Office 365 라이선스가 부여된 사용자를 위한 Microsoft 365 채팅 및 채널 메시지에 Office 365 Advanced Compliance. Office 365 Microsoft 365 E3 온라인, OneDrive 및 SharePoint DLP 보호가 Exchange Online. 이 파일에는 Teams Online을 사용하여 Teams 공유하기 때문에 SharePoint 공유하는 OneDrive 포함됩니다.
-채팅에서 DLP 보호를 지원하려면 Teams E5가 필요합니다.
-라이선스 요구 사항에 대한 자세한 내용은 [Microsoft 365 테넌트 수준 서비스 라이선스 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance)을 참고하십시오.
-
-## <a name="overview-of-dlp-for-microsoft-teams"></a>Microsoft Teams용 DLP 개요
-
-최근에는 [](dlp-learn-about-dlp.md) 비공개 채널 메시지를 포함하여 Microsoft Teams 및 채널 메시지를 포함하기 위해 데이터 손실 방지 **기능이 확장되어 있습니다.** 
-
-> [!IMPORTANT]
-> DLP는 현재 채팅 또는 채널 스레드의 실제 메시지에만 적용됩니다. 짧은 메시지 미리 보기를 포함하며 사용자의 알림 설정에 따라 나타나는 활동  알림은 현재 Teams DLP에 포함되지 않습니다. 미리 보기에 표시되는 메시지 부분에 있는 모든 중요한 정보는 DLP 정책이 적용되고 메시지 자체를 제거한 후에도 알림에 계속 표시됩니다.
-
-조직에 DLP가 있는 경우 이제 사용자가 특정 채널 또는 채팅 세션에서 중요한 정보를 공유하지 못하게 하는 Microsoft Teams 수 있습니다. 다음은 이 보호가 작동하는 방식의 몇 가지 예입니다.
+조직에 DLP(데이터 손실 방지)가 있는 경우 사용자가 특정 채널 또는 채팅 세션에서 중요한 정보를 공유하지 Microsoft Teams 정의할 수 있습니다. 다음은 이 보호가 작동하는 방식의 몇 가지 예입니다.
 
 - **예제 1: 메시지의 중요한 정보 보호** 누군가가 게스트(외부 사용자)와 Teams 채팅 또는 채널에서 중요한 정보를 공유하려고 시도하는 경우를 가정해 보세요. 이를 방지하는 DLP 정책이 정의되어 있는 경우 외부 사용자에게 전송되는 중요한 정보가 있는 메시지는 삭제됩니다. 이 문제는 DLP 정책이 구성된 방식에 따라 자동으로 몇 초 내에 발생합니다.
 
     > [!NOTE]
     > 다음을 Microsoft Teams 사용자와 공유하는 경우 중요한 Microsoft Teams 차단하는 DLP입니다.<br/>- [팀 및](/MicrosoftTeams/guest-access) 채널의 게스트 액세스 또는<br/>- [모임 및](/MicrosoftTeams/manage-external-access) 채팅 세션의 외부 액세스 <p>외부 채팅 세션에 대한 DLP는 보낸 사람 및 수신자가 모두 Teams 전용 모드에 있으며 기본 Microsoft Teams [사용하는 경우만 사용할 수 있습니다.](/microsoftteams/manage-external-access) Teams 대한 DLP는 비즈니스용 Skype 비 네이티브 페더러드 채팅 세션과 상호 연결되는 메시지를 차단하지 않습니다. [](/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability#interoperability-of-teams-and-skype-for-business)
 
-- **예제 2: 문서의 중요한 정보 보호** 다른 사용자가 특정 채널 또는 채팅에서 게스트와 문서를 공유하려고 Microsoft Teams 중요한 정보가 포함된 경우를 가정해 보세요. 이를 방지하는 DLP 정책이 정의되어 있는 경우 해당 사용자에 대해 문서가 열리지 않습니다. 이 경우 보호를 적용하려면 DLP 정책에 SharePoint OneDrive 정책이 포함되어야 합니다. 이 예는 SharePoint에 표시되어 사용자에게 Microsoft Teams Office 365 DLP(Office 365 E3에 포함)에 대한 라이선스가 필요하지만 사용자에게 Office 365 Advanced Compliance.
+- **예제 2: 문서의 중요한 정보 보호** 다른 사용자가 특정 채널 또는 채팅에서 게스트와 문서를 공유하려고 Microsoft Teams 중요한 정보가 포함된 경우를 가정해 보세요. 이를 방지하는 DLP 정책이 정의되어 있는 경우 해당 사용자에 대해 문서가 열리지 않습니다. 이 보호 기능을 사용하려면, DLP 정책에 SharePoint 및 OneDrive가 포함되어야 합니다. SharePoint DLP의 예로 Microsoft Teams 에 표시하므로 사용자에게 Office 365 DLP(Office 365 E3에 포함)에 대한 라이선스가 필요하지만 사용자에게 Office 365 Advanced Compliance.
+
+## <a name="dlp-licensing-for-microsoft-teams"></a>사용자에 대한 DLP Microsoft Teams
+
+[데이터 손실 방지](dlp-learn-about-dlp.md) 기능은 다음에 대한 비공개 채널 Microsoft Teams 및 채널 메시지를 포함하기 위해 **확장했습니다.**
+
+- Office 365 E5/A5
+- Microsoft 365 E5/A5
+- Microsoft 365 정보 보호 및 거버넌스
+- Office 365 Advanced Compliance
+
+Office 365 Microsoft 365 E3 온라인, OneDrive 및 SharePoint DLP 보호가 Exchange Online. 이 파일에는 Teams Online을 사용하여 Teams 공유하기 때문에 SharePoint 공유하는 OneDrive 포함됩니다.
+
+채팅에서 DLP 보호를 지원하려면 Teams E5가 필요합니다.
+
+라이선스 요구 사항에 대한 자세한 내용은 [Microsoft 365 테넌트 수준 서비스 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)을 참고하십시오.
+
+> [!IMPORTANT]
+> DLP는 채팅 또는 채널 스레드의 실제 메시지에만 적용됩니다. 짧은 메시지 미리 보기를 포함하며 사용자의 알림 설정에 따라 나타나는 활동  알림은 DLP에 Teams 없습니다. 미리 보기에 표시되는 메시지 부분에 있는 모든 중요한 정보는 DLP 정책이 적용되고 메시지 자체를 제거한 후에도 알림에 계속 표시됩니다.
+
+## <a name="scope-of-dlp-protection"></a>DLP 보호 범위
+
+DLP 보호는 엔터티에 Teams 다르게 적용됩니다.
+
+|사용자 계정/그룹/목록  |Teams 엔터티 |DLP 보호 사용 가능|
+|---------|---------|---------|
+|개별 사용자 계정     |1:1/n 채팅         |예         |
+|     |일반 채팅         |아니요         |
+|     |공유 채널         |아니요         |
+|     |비공개 채널         |예         |
+|보안 그룹/메일 그룹  | 1:1/n 채팅         |예         |
+|     |일반 채팅         |아니요         |
+|     |공유 채널         |아니요      |
+|     |비공개 채널         |예        |
+|Microsoft 365 그룹    |1:1/n 채팅          |아니요         |
+|     |일반 채팅          |예        |
+|     |공유 채널|예 |
+|     |비공개 채널|아니요| 
+
 
 ## <a name="policy-tips-help-educate-users"></a>정책 팁은 사용자를 교육하는 데 도움이 됩니다.
 
-Exchange, [Outlook,](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web)웹 Outlook, SharePoint [Online,](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites)비즈니스용 OneDrive 사이트 및 Office 데스크톱 클라이언트에서 DLP가 작동하는 방식과 마찬가지로 작업이 DLP 정책과 충돌하면 정책 팁이 표시됩니다. [](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs) 정책 팁의 예는 다음과 같습니다.
+웹, [Exchange, Outlook,](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web)Outlook, SharePoint [Online,](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites)비즈니스용 OneDrive 사이트 및 Office 데스크톱 클라이언트에서 DLP가 작동하는 방식과 마찬가지로 DLP 정책을 사용하여 작업이 트리거될 때 정책 [팁이](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs)표시됩니다. 정책 팁의 예는 다음과 같습니다.
 
 ![차단된 메시지 알림의 Teams](../media/dlp-teams-blockedmessage-notification.png)
 
-이 경우 보낸 사람이 공유 채널에서 주민 Microsoft Teams 하려고 합니다. What **can I do?** 링크를 클릭하면 보낸 사람이 문제를 해결할 수 있는 옵션을 제공하는 대화 상자가 열립니다. 이 경우 보낸 사람이 정책을 다시 설정하거나 관리자에게 검토 및 해결을 알리도록 할 수 있습니다.
+여기서 보낸 사람이 공유 채널에서 주민 Microsoft Teams 하려고 했습니다. What **can I do?** 링크를 클릭하면 보낸 사람이 문제를 해결할 수 있는 옵션을 제공하는 대화 상자가 열립니다. 보낸 사람이 정책을 다시 설정하거나 관리자에게 검토 및 해결을 알리도록 선택할 수 있습니다.
 
 ![차단된 메시지 해결 옵션](../media/dlp-teams-blockedmessage-possibleactions.png)
 
-조직에서 사용자가 DLP 정책을 다시 설정하도록 선택할 수 있습니다. 또한 DLP 정책을 구성할 때 기본 정책 팁을 사용하거나 조직의 정책 팁을 사용자 [지정할](#to-customize-policy-tips) 수 있습니다.
+조직에서 사용자가 DLP 정책을 다시 설정하도록 선택할 수 있습니다. DLP 정책을 구성할 때 기본 정책 팁을 사용하거나 조직의 정책 팁을 [사용자 지정할](#to-customize-policy-tips) 수 있습니다.
 
 보낸 사람이 Teams 채널에서 사회 보장 번호를 공유한 예제로 돌아가면 받는 사람이 본 예는 다음과 같습니다.
 
@@ -66,7 +92,7 @@ Exchange, [Outlook,](data-loss-prevention-policies.md#policy-evaluation-in-excha
 
 이 작업을 수행하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할이 할당되어야 합니다. 자세한 내용은 사용 권한을 [참조합니다.](data-loss-prevention-policies.md#permissions)
 
-1. 보안 및 준수 &()로 이동하여 [https://protection.office.com](https://protection.office.com) 로그인합니다.
+1. 준수 센터()로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동하여 로그인합니다.
 
 2. **데이터 손실 방지** > **정책** 을 선택합니다.
 
@@ -93,7 +119,7 @@ Exchange, [Outlook,](data-loss-prevention-policies.md#policy-evaluation-in-excha
 
 이 작업을 수행하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할이 할당되어야 합니다. 자세한 내용은 사용 권한을 [참조합니다.](data-loss-prevention-policies.md#permissions)
 
-1. 보안 및 준수 &()로 이동하여 [https://protection.office.com](https://protection.office.com) 로그인합니다.
+1. 준수 센터()로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동하여 로그인합니다.
 
 2. **데이터 손실 방지** > **정책** 을 선택합니다.
 
@@ -124,7 +150,7 @@ Exchange, [Outlook,](data-loss-prevention-policies.md#policy-evaluation-in-excha
 
 이 작업을 수행하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할이 할당되어야 합니다. 자세한 내용은 사용 권한을 [참조합니다.](data-loss-prevention-policies.md#permissions)
 
-1. 보안 및 준수 &()로 이동하여 [https://protection.office.com](https://protection.office.com) 로그인합니다.
+1. 준수 센터()로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동하여 로그인합니다.
 
 2. **데이터 손실 방지** > **정책** > **+ 정책 만들기** 를 선택합니다.
 
@@ -148,9 +174,9 @@ Exchange, [Outlook,](data-loss-prevention-policies.md#policy-evaluation-in-excha
     > [!NOTE]
     > 중요한 정보가 포함된 문서가 Teams 부적절하게 공유되지 않는지 확인하려는 경우 SharePoint  사이트 및 OneDrive  계정과 채팅 및 채널 메시지와 **함께** Teams 설정해야 합니다.
 
-6. 정책 **설정 탭의** 보호할 콘텐츠 형식 사용자 지정에서 **기본** 단순 설정을 유지하거나 고급 설정 사용을 선택한 후 다음 을 **선택합니다.** 고급 설정을 선택하는 경우 정책에 대한 규칙을 만들거나 편집할 수 있습니다. 이에 대한 도움말을 얻은 경우 간단한 설정과 고급 설정을 [참조하세요.](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings)
+6. 정책 **설정 탭의** 보호할 콘텐츠 형식 사용자 지정에서 **기본** 단순 설정을 유지하거나 고급 설정 사용을 선택한 후 다음 을 **선택합니다.** 고급 설정을 선택하는 경우 정책에 대한 규칙을 만들거나 편집할 수 있습니다. 이에 대한 도움말은 단순 설정 및 고급 설정 [을 참조하세요.](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings)
 
-7.  정책 **설정 탭의** 중요한 정보를 검색하는 경우 어떤 작업을 하고 **싶나요?** 아래에서 설정을 검토합니다. (다음은 기본 정책 팁 및 전자 메일 알림을 유지하거나 [사용자](use-notifications-and-policy-tips.md)지정할 수 있는 위치입니다.)
+7.  정책 **설정 탭의** 중요한 정보를 검색하는 경우 어떤 작업을 하고 **싶나요?** 아래에서 설정을 검토합니다. 다음은 기본 정책 팁 및 [](use-notifications-and-policy-tips.md)전자 메일 알림을 유지하거나 사용자 지정할 수 있는 위치입니다.
 
     > [!div class="mx-imgBorder"]
     > ![팁 및 알림이 있는 DLP 정책 설정](../media/dlp-teams-policysettings-tipsemails.png)
@@ -205,6 +231,5 @@ Exchange, [Outlook,](data-loss-prevention-policies.md#policy-evaluation-in-excha
 
 ## <a name="related-articles"></a>관련 문서
 
-[DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
-
-[DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시](use-notifications-and-policy-tips.md)
+- [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
+- [DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시](use-notifications-and-policy-tips.md)

@@ -17,14 +17,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
 search.appverid: MET150
-description: 무료 평가판을 얻거나 비즈니스용 구독을 구입하는 Microsoft 365 방법을 알아보하세요.
+description: 30일 무료 평가판에 등록하여 Microsoft 365 Business Standard, Microsoft 365 Business Premium 또는 비즈니스용 Microsoft 365 앱.
 ms.date: 08/07/2020
-ms.openlocfilehash: 78716d78745616530729ff2fa5cfa31202e056c8
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 20ceb683c6224e572a1c532330d45fa8fa5c8416
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344689"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583451"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>비즈니스용 Microsoft 365 사용해 보거나 구입
 
@@ -143,9 +143,9 @@ Microsoft 365 관리 센터를 통해 구독을 추가하면 새 구독이 기�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 교육 비디오(교육](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 비디오)\
+[Microsoft 365 교육](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 비디오(비디오)\
 [사용자를 추가하고](../admin/add-users/add-users.md) 동시에 라이선스 할당(문서)\
 [사용자에게 라이선스 할당](../admin/manage/assign-licenses-to-users.md)(문서)\
 [다른 계획으로](subscriptions/upgrade-to-different-plan.md) 업그레이드(문서)\
 [비즈니스용 Microsoft 365 추가 기능 구입](buy-or-edit-an-add-on.md) 또는 편집(문서)\
-[구독에 대한 저장소 공간 추가](add-storage-space.md)
+[구독에 대한 저장소 공간](add-storage-space.md) 추가(문서)

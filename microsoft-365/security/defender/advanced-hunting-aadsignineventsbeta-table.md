@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스위마의 AADSignInEventsBeta 테이블
-description: 고급 헌팅 스마의 Azure Active Directory 로그인 이벤트 테이블과 관련된 정보에 대해 자세히 알아보십시오.
-keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, 스마 참조, kusto, 표, 열, 데이터 형식, 설명, 파일, IP 주소, 장치, 컴퓨터, 사용자, 계정, ID, AAD
+description: 고급 헌팅 Azure Active Directory 로그인 이벤트 테이블과 관련된 정보에 대해 자세히 알아보시고
+keywords: 고급 헌팅, 위협 헌팅, 사이버 위협 헌팅, Microsoft 365 Defender, microsoft 365, m365, 검색, 쿼리, 원격 분석, schema 참조, kusto, 표, 열, 데이터 형식, 설명, 파일, IP 주소, 장치, 컴퓨터, 사용자, 계정, ID, AAD
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 93735ee3bf8d9b95ab320c2bc158d6ebfe27186c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 704752951c453a3fe872b814e7364ef1699226bf
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932610"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582983"
 ---
 # <a name="aadsignineventsbeta"></a>AADSignInEventsBeta
 
@@ -34,12 +34,11 @@ ms.locfileid: "51932610"
 - Microsoft 365 Defender
 
 >[!IMPORTANT]
-> 이 표는 현재 베타 상태이며 AAD(Azure Active Directory) 로그인 이벤트를 검색할 수 있도록 단기적으로 `AADSignInEventsBeta` 제공됩니다. 결국 모든 로그인 Schema 정보를 테이블로 `IdentityLogonEvents` 이동하게 됩니다.<br><br>
-> Azure Defender의 통합된 끝점용 Microsoft Defender 솔루션을 통해 Microsoft 365 Defender에 액세스할 수 있지만 Office용 Microsoft Defender, ID용 Microsoft Defender 또는 Microsoft Cloud App Security에 대한 라이선스가 없는 고객은 이 스마마를 볼 수 없습니다. 
+> 이 표는 현재 베타 버전이며 AAD(로그인 이벤트)를 Azure Active Directory 수 있도록 `AADSignInEventsBeta` 단기적으로 제공됩니다. 결국 모든 로그인 Schema 정보를 테이블로 `IdentityLogonEvents` 이동하게 됩니다.
 
  
 
-고급 헌팅 구조의 표에는 Azure Active Directory 대화형 및 비대화형 로그인에 대한 정보가 `AADSignInEventsBeta` 포함되어 있습니다. Azure Active Directory 로그인 활동 보고서의 로그인 - 미리 [보기에 대해 자세히 알아보십시오.](/azure/active-directory/reports-monitoring/concept-all-sign-ins)
+고급 헌팅chema의 표에는 대화형 Azure Active Directory 비대화형 로그인에 대한 정보가 `AADSignInEventsBeta` 포함되어 있습니다. 자세한 내용은 Azure Active Directory 활동 보고서의 로그인 - 미리 [보기를 통해 자세히 알아보실 수 있습니다.](/azure/active-directory/reports-monitoring/concept-all-sign-ins)
 
 이 참조를 사용하여 표의 정보를 반환하는 쿼리를 생성합니다.
 고급 헌팅 스키마의 다른 표에 대한 자세한 내용은 [고급 헌팅 참조](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-reference)를 참조하세요.
@@ -75,7 +74,7 @@ ms.locfileid: "51932610"
 | `IsCompliant`                     | int       | 로그인을 시작한 장치가 호환(1) 또는 비호응(0)하는지 나타냅니다.                                                                                       |
 | `AuthenticationProcessingDetails` | 문자열        | 인증 프로세서에 대한 세부 정보                                                                                                                                          |
 | `AuthenticationRequirement`       | 문자열        | 로그인에 필요한 인증 유형입니다. 가능한 값: multiFactorAuthentication(MFA 필요) 및 singleFactorAuthentication(MFA가 필요 없음)                |
-| `TokenIssuerType`                 | int        | 토큰 발급자 가 Azure Active Directory(0) 또는 Active Directory Federation Services(1)인지 나타냅니다.                                                                             |
+| `TokenIssuerType`                 | int        | 토큰 발급자에 Azure Active Directory (0) 또는 Active Directory Federation Services (1)                                                                             |
 | `RiskLevelAggregated`                       | int        | 로그인 중 집계된 위험 수준입니다. 가능한 값: 0(집계된 위험 수준이 설정되지 않은 경우), 1(없음), 10(낮음), 50(중간) 또는 100(높음)입니다.                               |
 | `RiskDetails`                      | int        | 로그인한 사용자의 위험 상태 세부 정보                                                                                                                            |
 | `RiskState`                       | int        | 위험한 사용자 상태를 나타냅니다. 가능한 값: 0(없음), 1(안전 확인), 2(수정), 3(해지), 4(위험) 또는 5(손상된 것으로 확인)                                |

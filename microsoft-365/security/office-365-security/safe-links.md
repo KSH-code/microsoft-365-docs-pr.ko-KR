@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 이 문서에서 관리자는 피싱 및 악의적인 URL을 사용하는 Office 365 공격으로부터 조직을 보호하기 위해 Defender의 안전한 링크 보호에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c93ed2ec46cd0fd82ae1808ff7cfdb4a4f758117
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 573fd5b92400996fa595b5953028e20fcecec976
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246504"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583583"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender의 안전한 Office 365
 
@@ -52,6 +52,9 @@ ms.locfileid: "52246504"
 - **전자 메일 메시지:** 전자 메일 메시지의 링크에 대한 안전한 링크 보호는 안전한 링크 정책에 의해 제어됩니다. 기본 안전 링크 정책은 없습니다. 따라서 전자 메일 메시지의 안전한 링크 보호를 위해 하나 이상의 안전한 링크 정책을 **만들어야 합니다.** 자세한 내용은 [Set up Safe Links policies in Microsoft Defender for Office 365.](set-up-safe-links-policies.md)
 
   전자 메일 메시지의 안전한 링크 보호에 [](#safe-links-settings-for-email-messages) 대한 자세한 내용은 이 문서 의 부분에 있는 전자 메일 메시지에 대한 안전한 링크 설정 섹션을 참조하세요.
+  
+  > [!NOTE]
+  > 메일 사용이 가능한 공용 폴더에서는 판매 링크가 작동하지 않습니다.
 
 - **Microsoft Teams(현재 TAP** 미리 보기에서): Teams, 그룹 채팅 또는 채널의 링크에 대한 안전한 링크 보호는 안전한 링크 정책에 의해 제어됩니다. 기본 안전 링크 정책은 없습니다. 따라서 에서 안전한 링크 보호를 Teams 하나 이상의 안전한 링크 정책을 **만들어야 합니다.**
 
@@ -107,9 +110,7 @@ ms.locfileid: "52246504"
   - 유효한 신뢰도에 없는 URL은 백그라운드에서 비동기적으로 확인됩니다.
 
 - **파일을 지정하는** 의심스러운 링크 및 링크에 대한 실시간 URL 검색 적용: 다운로드 가능한 콘텐츠를 지정하는 전자 메일 메시지의 링크를 포함하여 링크를 실시간으로 검색할 수 있습니다. 권장되는 값은 사용하도록 설정되어 있습니다.
-
   - 메시지를 배달하기 전에 URL 검색이 완료될 **때까지 기다릴 수 있습니다.**
-
     - 사용: URL이 포함된 메시지는 검사가 완료될 때까지 보류됩니다. 메시지는 URL이 안전한 것으로 확인된 후에만 배달됩니다. 이 값은 권장 값입니다.
     - 사용 안 하세요: URL 검색을 완료할 수 없는 경우 메시지를 배달합니다.
 
@@ -128,7 +129,6 @@ ms.locfileid: "52246504"
   안전한 링크 정책에 대한 표준 및 엄격한 정책 설정에 대한 권장 값에 대한 자세한 내용은 안전 링크 정책 [설정 을 참조하세요.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
 
 - **받는 사람 필터:** 정책을 적용하는 사람을 결정하는 받는 사람 조건 및 예외를 지정해야 합니다. 조건 및 예외에 대해 다음 속성을 사용할 수 있습니다.
-
   - **받는 사람이 다음과 같음**
   - **받는 사람 도메인**
   - **받는 사람이 다음의 구성원임**
@@ -138,7 +138,7 @@ ms.locfileid: "52246504"
 - **우선** 순위: 여러 정책을 만드는 경우 정책이 적용되는 순서를 지정할 수 있습니다. 두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.
 
   우선순위 및 여러 정책을 평가하고 적용하는 방법에 대 한 자세한 내용은 전자 메일의 [전자 메일의 우선순위 및 보호](how-policies-and-protections-are-combined.md)를 참조하세요.
-
+  
 ### <a name="how-safe-links-works-in-email-messages"></a>전자 메일 메시지에서 안전한 링크가 작동하는 방식
 
 높은 수준에서 안전한 링크 보호가 전자 메일 메시지의 URL에서 작동하는 방식은 다음과 같습니다.
@@ -259,26 +259,23 @@ Office 365 앱의 안전한 링크 보호는 전자 메일 메시지의 링크�
 
 안전한 링크에 대한 전역 설정에서 URL 목록을 구성합니다. 자세한 내용은 [Configure the "Block the following URLs" list을 참조하십시오.](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center)
 
-> [!NOTE]
-> 
-> - 모든 곳에서 차단되는 URL의 진정한 범용 목록은 [테넌트 허용/차단 목록 관리를 참조하세요.](tenant-allow-block-list.md)
-> 
-> - 제한:
->   - 최대 항목 수는 500개입니다.
->   - 항목의 최대 길이는 128자입니다.
->   - 모든 항목은 10,000자까지 입력할 수 있습니다.
-> 
-> - URL의 끝에 `/` 슬래시()를 포함하지 않습니다. 예를 들어 `https://www.contoso.com` 를 사용하지 `https://www.contoso.com/` 않습니다.
-> 
-> - 도메인 전용 URL(예: 또는 )은 도메인이 포함된 `contoso.com` `tailspintoys.com` 모든 URL을 차단합니다.
-> 
-> - 전체 도메인을 차단하지 않고 하위 도메인을 차단할 수 있습니다. 예를 들어 하위 도메인이 포함된 URL은 차단하지만 전체 도메인이 포함된 `toys.contoso.com*` URL은 차단하지 `contoso.com` 않습니다.
-> 
-> - URL 항목당 최대 3개의 와일드카드( `*` )를 포함할 수 있습니다.
+**참고**:
+
+- 모든 곳에서 차단되는 URL의 진정한 범용 목록은 [테넌트 허용/차단 목록 관리를 참조하세요.](tenant-allow-block-list.md)
+- 다음 URL **차단 목록에 대한 제한 사항:**
+  - 최대 항목 수는 500개입니다.
+  - 항목의 최대 길이는 128자입니다.
+  - 모든 항목은 10,000자까지 입력할 수 있습니다.
+- URL의 끝에 `/` 슬래시()를 포함하지 않습니다. 예를 들어 `https://www.contoso.com` 를 사용하지 `https://www.contoso.com/` 않습니다.
+- 도메인 전용 URL(예: 또는 )은 도메인이 포함된 `contoso.com` `tailspintoys.com` 모든 URL을 차단합니다.
+- 전체 도메인을 차단하지 않고 하위 도메인을 차단할 수 있습니다. 예를 들어 하위 도메인이 포함된 URL은 차단하지만 전체 도메인이 포함된 `toys.contoso.com*` URL은 차단하지 `contoso.com` 않습니다.
+- URL 항목당 최대 3개의 와일드카드( `*` )를 포함할 수 있습니다.
 
 ### <a name="entry-syntax-for-the-block-the-following-urls-list"></a>"다음 URL 차단" 목록에 대한 항목 구문
 
 다음 표에는 입력할 수 있는 값과 해당 결과가 설명되어 있습니다.
+
+<br>
 
 ****
 
@@ -299,24 +296,24 @@ Office 365 앱의 안전한 링크 보호는 전자 메일 메시지의 링크�
 
 새 링크 정책 또는 기존 안전 링크 정책의 목록에 항목을 추가하려면 [안전](set-up-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) 링크 정책 만들기 또는 안전한 링크 정책 [수정을 참조하세요.](set-up-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies)
 
-> [!NOTE]
-> 
-> - 다음 클라이언트는 안전 링크 정책에서 다음 URL 목록을 다시 덮어 **들이지** 않습니다.를 인식하지 못합니다. 이러한 클라이언트에서 안전한 링크 검색 결과를 기반으로 하여 해당 사이트에 포함된 사용자는 URL에 액세스하지 차단할 수 있습니다.
-> 
->   - Microsoft Teams
->   - Office 웹앱
-> 
->   모든 곳에서 허용되는 진정한 범용 URL 목록은 [테넌트 허용/차단 목록 관리를 참조하세요.](tenant-allow-block-list.md)
-> 
-> - 사용자 환경을 개선하기 위해 일반적으로 사용되는 내부 URL을 목록에 추가하는 것이 있습니다. 예를 들어 프레미스 서비스(예: 비즈니스용 Skype 또는 SharePoint)가 있는 경우 해당 URL을 추가하여 검색에서 제외할 수 있습니다.
-> 
-> - 안전 링크 정책에 다음 **URL** 항목을 다시 작성하지 않은 경우 목록을 검토하고 필요한 경우 와일드카드를 추가해야 합니다. 예를 들어 목록에 다음과 같은 항목이 있으며 나중에 과 같은 하위 경로가 `https://contoso.com/a` 포함하기로 `https://contoso.com/a/b` 결정됩니다. 새 항목을 추가하는 대신 기존 항목에 와일드카드를 추가하여 와일드카드를 추가하면 와일드카드가 `https://contoso.com/a/*` 됩니다.
-> 
-> - URL 항목당 최대 3개의 와일드카드( `*` )를 포함할 수 있습니다. 와일드카드에는 명시적으로 prefixes 또는 subdomains가 포함됩니다. 예를 들어 사용자가 지정된 도메인의 하위 도메인 및 경로를 방문할 수 있기 때문에 항목은 `contoso.com` `*.contoso.com/*` 과 `*.contoso.com/*` 같지 않습니다.
+**참고**:
+
+- 다음 클라이언트는 안전 링크 정책에서 다음 URL 목록을 다시 덮어 **들이지** 않습니다.를 인식하지 못합니다. 이러한 클라이언트에서 안전한 링크 검색 결과를 기반으로 하여 해당 사이트에 포함된 사용자는 URL에 액세스하지 차단할 수 있습니다.
+  - Microsoft Teams
+  - Office 웹앱
+
+  모든 곳에서 허용되는 진정한 범용 URL 목록은 [테넌트 허용/차단 목록 관리를 참조하세요.](tenant-allow-block-list.md)
+
+- 사용자 환경을 개선하기 위해 일반적으로 사용되는 내부 URL을 목록에 추가하는 것이 있습니다. 예를 들어 프레미스 서비스(예: 비즈니스용 Skype 또는 SharePoint)가 있는 경우 해당 URL을 추가하여 검색에서 제외할 수 있습니다.
+- 안전 링크 정책에 다음 **URL** 항목을 다시 작성하지 않은 경우 목록을 검토하고 필요한 경우 와일드카드를 추가해야 합니다. 예를 들어 목록에 다음과 같은 항목이 있으며 나중에 과 같은 하위 경로가 `https://contoso.com/a` 포함하기로 `https://contoso.com/a/b` 결정됩니다. 새 항목을 추가하는 대신 기존 항목에 와일드카드를 추가하여 와일드카드를 추가하면 와일드카드가 `https://contoso.com/a/*` 됩니다.
+- URL 항목당 최대 3개의 와일드카드( `*` )를 포함할 수 있습니다. 와일드카드에는 명시적으로 prefixes 또는 subdomains가 포함됩니다. 예를 들어 사용자가 지정된 도메인의 하위 도메인 및 경로를 방문할 수 있기 때문에 항목은 `contoso.com` `*.contoso.com/*` 과 `*.contoso.com/*` 같지 않습니다.
+- URL에서 HTTP에서 HTTPS로의 자동 리디렉션(예: 302로 리디렉션)을 사용하는 경우 목록의 동일한 URL에 대해 HTTP 및 HTTPS 항목을 모두 입력하려고 시도하면 두 번째 URL 항목이 첫 번째 URL 항목을 대체하는 것을 알 수 `http://www.contoso.com` `https://www.contoso.com` 있습니다. URL의 HTTP 버전과 HTTPS 버전이 완전히 분리되어 있는 경우 이 동작은 발생하지 않습니다.
 
 ### <a name="entry-syntax-for-the-do-not-rewrite-the-following-urls-list"></a>"다음 URL을 다시 덮어치지 않습니다." 목록에 대한 항목 구문
 
 다음 표에는 입력할 수 있는 값과 해당 결과가 설명되어 있습니다.
+
+<br>
 
 ****
 

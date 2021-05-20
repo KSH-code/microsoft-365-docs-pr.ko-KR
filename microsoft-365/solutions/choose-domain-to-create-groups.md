@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
 recommendations: false
 description: PowerShell을 사용하여 전자 메일 주소 정책을 구성하여 Microsoft 365 그룹을 만들 때 사용할 도메인을 선택하는 방법을 학습합니다.
-ms.openlocfilehash: a0142ea5f5aa088c4be79fc8699a616d9cdd9390
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 4d620c3344f83f56afd05c00d78615331dd413ed
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538222"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583151"
 ---
 # <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>그룹을 만들 때 사용할 도메인 Microsoft 365 선택
 
@@ -119,10 +119,10 @@ EAP를 변경하는 경우 이미 프로비전된 그룹에는 영향이 없습�
     
 - 조직에 대해 최대 100개 전자 메일 주소 정책을 구성할 수 있습니다.
     
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[공동 작업 거버넌스 계획 단계별](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[공동 작업 거버넌스 계획](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step) 단계별(문서)
 
-[공동 작업 거버넌스 계획 만들기](collaboration-governance-first.md)
+[공동 작업 거버넌스 계획](collaboration-governance-first.md) 만들기(문서)
 
-[관리 Microsoft 365 그룹 만들기](../admin/create-groups/create-groups.md)
+[관리 Microsoft 365 그룹](../admin/create-groups/create-groups.md) 만들기(문서)

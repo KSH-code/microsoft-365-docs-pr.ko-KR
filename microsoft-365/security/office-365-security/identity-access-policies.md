@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 2bd719377e36cf608a0fe75078ab8bef004ad92e
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 42ab124f3026cf0b7441edf44c0e6433be5f0ecd
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346331"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583671"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 
@@ -42,7 +42,7 @@ ms.locfileid: "52346331"
 
 다음 다이어그램에서는 권장되는 정책 집합을 보여 제공합니다. 이 매크로는 각 정책이 적용되는 보호 계층과 정책이 PC 또는 휴대폰 및 태블릿에 적용되는지 또는 두 장치 범주에 적용되는지 여부를 보여 주며, 또한 이러한 정책을 구성하는 위치도 나타냅니다.
 
-[![ID 및 장치 액세스를 구성하기 위한 일반적인 정책](../../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
+[![ID 및 장치 액세스를 구성하기 위한 일반적인 정책](../../media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)
 
 다음은 개별 정책에 대한 링크가 있는 한 페이지 PDF 요약입니다.
 
@@ -197,7 +197,7 @@ Access **컨트롤 섹션에서 다음을** 설명합니다.
 
 |유형|속성|값|작업|
 |---|---|---|---|
-|접근|**액세스 허용**||선택|
+|Access|**액세스 허용**||선택|
 |||**암호 변경 필요**|수표|
 |
 

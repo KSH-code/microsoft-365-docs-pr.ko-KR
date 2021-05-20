@@ -6,18 +6,18 @@ manager: pamgreen
 ms.reviewer: ssquires
 audience: admin
 ms.topic: article
-ms.date: 05/10/2021
+ms.date: 05/19/2021
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사용자 계정을 사용하여 Power Automate 솔루션을 사용하여 계약을 처리하기 위한 흐름을 만드는 Microsoft 365 알아보십시오.
-ms.openlocfilehash: d9892110d6aebd3eaae6fbc21d453b7eb14d7f7e
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 54e92f36b19cefde92111cdbc960fad7715cf8b0
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281366"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583103"
 ---
 # <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a>3단계. 이 Power Automate 사용하여 계약 처리 흐름 만들기
 
@@ -36,11 +36,11 @@ ms.locfileid: "52281366"
 
 ## <a name="prepare-your-contract-for-review"></a>검토를 위한 계약 준비
 
-SharePoint Syntex 문서 이해 모델에 의해 계약이 식별 및 분류되면 Power Automate 흐름은 먼저 상태를 "검토 중"으로 변경합니다.
+SharePoint Syntex 문서 이해 모델에 의해 계약이 식별 및 분류되면 Power Automate 흐름은 먼저 상태를 검토 중으로 **변경합니다.**
 
 ![업데이트 상태.](../media/content-understanding/flow-overview.png)
 
-파일을 체크 아웃한 후 상태 값을 "검토 중"으로 변경합니다.
+파일을 체크 아웃한 후 상태 값을 검토 중으로 **변경합니다.**
 
 ![검토 상태입니다.](../media/content-understanding/in-review.png)
 
@@ -141,7 +141,7 @@ SharePoint Syntex 문서 이해 모델에 의해 계약이 식별 및 분류되�
 
    ![카드 상태가 승인되었습니다.](../media/content-understanding/approved-contracts-tab.png)
 
-- 흐름에서 상태가 "승인됨"으로 변경됩니다.
+- 흐름에서 상태가 **승인됨으로 변경됩니다.**
 
    ![Flow 상태 승인됨.](../media/content-understanding/status-approved.png)
 

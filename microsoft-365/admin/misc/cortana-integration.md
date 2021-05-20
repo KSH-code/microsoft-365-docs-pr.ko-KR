@@ -18,13 +18,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
-description: 유효한 직장 또는 학교 계정으로 로그인하면 사용자는 엔터프라이즈 수준의 개인 정보 Office 365 Microsoft 365 보안 및 규정 준수 약속을 충족하는 Microsoft 365 Cortana를 사용하여 클라우드 기반 지원 서비스를 받을 수 있습니다.
-ms.openlocfilehash: dd00972f6e84f5d430ad860ea9cbf637bd7c790f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: 유효한 직장 또는 학교 계정이 있는 사용자는 엔터프라이즈 수준의 보안 약속을 Microsoft 365 환경의 Cortana를 Office 365 수 있습니다.
+ms.openlocfilehash: aad371fc531a03f42e1756a41405082b6b528b06
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537466"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582779"
 ---
 # <a name="cortana-in-microsoft-365"></a>Microsoft 365
 
@@ -183,3 +183,12 @@ Cortana는 작업을 완료로 표시하거나 포커스 시간을 예약하여 
 3. **변경 내용 저장** 을 선택합니다.
 
 Microsoft 서비스 계약 및 [Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=2109174) 개인정보처리방침이 제어하는 서비스의 경우 [Microsoft는](https://privacy.microsoft.com/privacystatement)데이터 컨트롤러입니다. 데이터 컨트롤러인 Microsoft는 Microsoft 개인 정보 취급 방침에 따라 데이터를 사용하여 제품 및 서비스를 [개선합니다.](https://privacy.microsoft.com/privacystatement)
+
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Teams Cortana](/microsoftteams/cortana-in-teams) 음성 지원(문서)
+
+[Windows 10 Cortana](/windows/configuration/cortana-at-work/cortana-at-work-overview) 구성(문서)
+
+[Cortana에서 내 전자 메일 재생으로 무엇을 할 수 있나요?](https://support.microsoft.com/help/4558256)

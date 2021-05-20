@@ -21,13 +21,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
-description: 사용자 및 그룹을 다른 도메인으로 Microsoft 365 도메인에서 이전 도메인을 제거하는 방법을 학습합니다.
-ms.openlocfilehash: 3586cc8b288b77725c0dd3484629688e98e0a218
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+description: 이전 도메인에서 이전 도메인을 제거하고 Microsoft 365 다른 도메인으로 이동하거나 구독을 취소하는 방법을 학습합니다.
+ms.openlocfilehash: 089f0378109dd2a5abdf922694390bfdc943693a
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572120"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582935"
 ---
 # <a name="remove-a-domain"></a>도메인 제거
   
@@ -218,10 +218,10 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
   
 ::: moniker-end
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[도메인 FAQ](../setup/domains-faq.yml)
+[도메인 FAQ(문서)](../setup/domains-faq.yml)
 
-[다른 비즈니스용 Microsoft 365 요금제로 전환](../../commerce/subscriptions/switch-to-a-different-plan.md)
+[다른 비즈니스용 Microsoft 365 요금제로](../../commerce/subscriptions/switch-to-a-different-plan.md) 전환(문서)
 
-[구독 취소](../../commerce/subscriptions/cancel-your-subscription.md)
+[구독 취소(문서)](../../commerce/subscriptions/cancel-your-subscription.md)

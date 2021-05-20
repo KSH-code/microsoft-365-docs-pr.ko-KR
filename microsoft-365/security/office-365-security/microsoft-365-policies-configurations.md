@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: 948f4515b37f27695e1e66730134aa19114ca1cf
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: aa12cc4ad885c3d4b9d1c35fba9f38747f24077d
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539002"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583197"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -93,7 +93,7 @@ ID 및 장치 액세스 설정 및 정책은 기준 보호, 중요한 보호, �
 
 Microsoft 365 **아키텍처** 모델에 대한 ID 및 장치 보호는 비교할 수 있는 기능을 보여줍니다.
 
-[![사용자용 ID 및 장치 보호를 위한 축소판 Microsoft 365 포스터](../../media/microsoft-365-policies-configurations/O365_Identity_device_protection_thumb.png)](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br> [PDF로 보기](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [앱으로 Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)  
+[![사용자용 ID 및 장치 보호를 위한 축소판 Microsoft 365 포스터](../../media/microsoft-365-policies-configurations/o365-identity-device-protection-thumb.png)](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) <br> [PDF로 보기](../../downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [PDF로 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.pdf) \| [앱으로 Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity&device_protection.vsdx)  
 
 또한 데이터 개인 [](../../solutions/information-protection-deploy.md) 정보 보호 규정에 대한 정보 보호 배포 솔루션을 참조하여 데이터 보호에 저장된 정보를 Microsoft 365.
 

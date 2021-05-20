@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 사용자 계정에서 라이선스를 배정을 unassign하는 방법을 학습합니다.
 ms.date: 07/01/2020
-ms.openlocfilehash: 5ef28b3065703ec224e6426c4fdbfffdb5269b22
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 4ff6a0e5554117cd1fc2d818c04edabc9e33b2a1
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537502"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582911"
 ---
 # <a name="unassign-licenses-from-users"></a>사용자의 라이선스 할당 취소
 
@@ -117,13 +117,13 @@ ms.locfileid: "52537502"
 ::: moniker-end
 
 2. 라이선스를 배포할 사용자의 이름 옆에 있는 원을 선택합니다.
-3. At the top, select the three dots (more actions), then select **Manage product licenses**.
+3. 맨 위에 있는 3개의 점(추가 작업)을 선택한 다음 **제품 라이선스 관리** 를 선택합니다.
 4. **제품 라이선스 관리** 창에서 **기존 제품 라이선스 할당 바꾸기** \> **다음** 을 선택합니다.
 5. 기존 제품 바꾸기 창의 아래쪽에서  선택한 사용자에서 모든 제품 라이선스 제거 확인란을 선택한 다음 **바꾸기 닫기를**  \> **선택합니다.**
 
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>라이선스를 제거하면 사용자의 데이터가 어떻게 하나요?
 
-- 라이선스가 사용자에서 제거되면 해당 계정과 연결된 데이터는 30일 동안 보전됩니다. 30일의 유예 기간이 경과하면 데이터가 삭제되고 복구할 수 없습니다.
+- 사용자에서 라이선스가 제거되면 해당 Exchange 연결된 온라인 데이터는 30일 동안 저장됩니다. 30일의 유예 기간이 경과하면 데이터가 삭제되고 복구할 수 없습니다.
 - 사용자가 비즈니스용 OneDrive 관리 센터에서 삭제되거나 Active Directory 동기화를 통해 제거되지 않는 한 Microsoft 365 파일을 삭제하지 않습니다. 자세한 내용은 보존 [및 OneDrive 참조하세요.](/onedrive/retention-and-deletion)
 - 라이선스가 제거되면 콘텐츠 검색 또는 검색과 같은 eDiscovery 도구를 사용하여 사용자의 사서함을 더 이상 검색할 수 Advanced eDiscovery. 자세한 내용은 에서 콘텐츠 검색의 "연결이 끊어지거나 라이선스가 해제된 사서함 [검색"을 Microsoft 365.](../../compliance/content-search.md)
 - E3와 같은 Enterprise Office 365 Enterprise 구독이 있는 경우 Exchange Online 비활성 사서함을 사용하여 삭제된 사용자 계정의 사서함 데이터를 보존할 [수 있습니다.](../../compliance/inactive-mailboxes-in-office-365.md) 자세한 내용은 [에서 비활성 사서함](../../compliance/create-and-manage-inactive-mailboxes.md)만들기 및 관리를 Exchange Online.
