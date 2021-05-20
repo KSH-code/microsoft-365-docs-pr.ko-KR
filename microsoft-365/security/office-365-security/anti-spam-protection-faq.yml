@@ -17,15 +17,15 @@ metadata:
   - m365initiative-defender-office365
   ms.custom:
   - seo-marvel-apr2020
-  description: 관리자는 EOP(Exchange Online Protection)에서 스팸 방지 보호에 대한 질문과 대답을 볼 수 있습니다.
+  description: 관리자는 EOP(EOP)에서 스팸 방지 보호에 대한 질문과 Exchange Online Protection 수 있습니다.
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: 430ed10d74dea909415ee0ca32d33ad8d006ae6b
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: e632ab1183c43cd50da7c2cf7832a5a18fa64d50
+  ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52334051"
+  ms.lasthandoff: 05/20/2021
+  ms.locfileid: "52583619"
 title: 스팸 방지 보호 FAQ
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -40,7 +40,7 @@ summary: >
   - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-  이 항목에서는 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직을 위한 맬웨어 방지 보호에 대한 질문과 대답을 제공합니다.
+  이 항목에서는 Microsoft 365 사서함이 있는 Exchange Online 또는 사서함이 없는 독립 실행형 EOP(독립 실행형 Exchange Online Protection) 조직에 대한 맬웨어 방지 Exchange Online 질문과 대답을 제공합니다.
 
 
   격리에 대한 질문과 대답은 [격리 FAQ](quarantine-faq.yml)를 참조하세요.
@@ -61,7 +61,7 @@ sections:
 
       > [!IMPORTANT]
 
-      > EOP가 사내 사서함을 보호하는 하이브리드 배포에서는 메시지에 추가된 EOP 스팸 필터링 헤더를 검색하도록 두 개의 Exchange 메일 흐름 규칙(전송 규칙)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.
+      > EOP가 사내 사서함을 보호하는 하이브리드 배포에서는 메시지에 추가된 EOP 스팸 필터링 헤더를 검색하도록 Exchange 조직에서 두 개의 Exchange 메일 흐름 규칙(전송 규칙)을 Exchange 조직에 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.
 
        **아웃바운드 메시지의 경우:** 이 메시지는 위험이 높은 [](high-risk-delivery-pool-for-outbound-messages.md) 배달 풀을 통해 라우팅되거나 배달되지 않은 보고서(NDR 또는 반송 메시지라고도 알려지음)에서 보낸 사람으로 반환됩니다. 아웃바운드 스팸 보호에 대한 자세한 내용은 [아웃바운드 스팸 컨트롤을 참조하세요.](outbound-spam-controls.md)
   - question: >
@@ -70,7 +70,9 @@ sections:
       제로 데이 스팸 변형은 이전에 알 수 없는 1세대의 스팸 변형으로 캡처 또는 분석되지 않았기 때문에 스팸 방지 필터는 이를 검색하는 데 사용할 수 있는 정보가 아직 없습니다. 스팸 분석가가 제로 데이 스팸 샘플을 캡처하고 분석한 후 스팸 분류 기준을 충족하면 스팸 방지 필터가 검색하기 위해 업데이트되고 더 이상 "제로 데이"로 간주되지 않습니다.
 
 
-      **참고:** 제로 데이 스팸 변형일 수 있는 메시지를 받으면 서비스를 개선하는 데 도움이 될 수 있도록 Microsoft에 메시지 및 파일 보고에 설명된 방법 중 하나를 사용하여 [Microsoft에](report-junk-email-messages-to-microsoft.md)메시지를 제출하십시오.
+      > [!NOTE]
+
+      > 제로 데이 스팸 변형일 수 있는 메시지를 받으면 서비스를 개선하는 데 도움이 될 수 있도록 Microsoft에 메시지 및 파일 보고에 설명된 방법 중 하나를 사용하여 [Microsoft에](report-junk-email-messages-to-microsoft.md)메시지를 제출하십시오.
   - question: >
       스팸 방지 보호 기능을 제공하도록 서비스를 구성해야 합니까?
     answer: >
@@ -80,7 +82,7 @@ sections:
       자세한 내용은 아래 항목을 참조하세요.
 
 
-      [EOP 및 Office 365용 Microsoft Defender 보안에 대한 권장 설정](recommended-settings-for-eop-and-office365.md)
+      [EOP 및 Microsoft Defender 보안에 대한 Office 365 설정](recommended-settings-for-eop-and-office365.md)
 
 
       [EOP에서 연결 필터링 구성](configure-the-connection-filter-policy.md)
@@ -97,7 +99,7 @@ sections:
   - question: >
       대량 전자 메일 필터링은 자동으로 사용하도록 설정됩니까?
     answer: >
-      예. 대량 전자 메일에 대한 자세한 내용은 정크 메일과 대량 전자 메일의 [차이점을 참조하세요.](what-s-the-difference-between-junk-email-and-bulk-email.md)
+      예. 대량 전자 메일에 대한 자세한 내용은 [정크 메일과 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md)을 참조하세요.
   - question: >
       서비스에서 URL 필터링 기능을 제공합니까?
     answer: >
@@ -109,13 +111,13 @@ sections:
   - question: >
       스팸 보고서를 확인할 수 있습니까?
     answer: >
-      예, 예를 들어 Microsoft 365 관리 센터에서 스팸 검색 보고서를 받을 수 있습니다. 이 보고서에는 스팸 볼륨이 고유한 메시지 수로 표시됩니다. 보고에 대한 자세한 내용은 다음 링크를 참조하십시오.
+      예, 예를 들어 관리자 센터에서 스팸 검색 보고서를 Microsoft 365 있습니다. 이 보고서에는 스팸 볼륨이 고유한 메시지 수로 표시됩니다. 보고에 대한 자세한 내용은 다음 링크를 참조하십시오.
 
 
-      Exchange Online 고객: [Exchange Online의 모니터링,](/exchange/monitoring/monitoring) 보고 및 메시지 추적
+      Exchange Online 고객: 모니터링, 보고 및 메시지 [추적을](/exchange/monitoring/monitoring) Exchange Online
 
 
-      독립 실행형 EOP 고객: [Exchange Online Protection의](reporting-and-message-trace-in-exchange-online-protection.md) 보고 및 메시지 추적
+      독립 실행형 EOP 고객: 독립 실행형 EOP의 보고 [및 Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md)
   - question: >
       누군가 메시지를 보냈기만 찾을 수 없습니다. 스팸으로 검색된 것으로 의심합니다. 찾을 수 있는 도구가 있나요?
     answer: >
@@ -133,10 +135,10 @@ sections:
       예. MX 레코드를 Microsoft를 설정하는 것이 좋습니다. 그러나 먼저 전자 메일을 Microsoft가 다른 곳으로 라우팅해야 하는 합법적인 비즈니스 이유가 있습니다.
 
 
-      - **인바운드:** 타사 공급자를 지점으로 MX 레코드를 변경한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션합니다. 자세한 내용은 Exchange Online의 커넥터에 대한 향상된 [필터링을 참조하세요.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
+      - **인바운드:** 타사 공급자를 지점으로 MX 레코드를 변경한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션합니다. 자세한 내용은 에서 커넥터에 대한 향상된 [필터링을 Exchange Online.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
 
 
-      - **아웃바운드:** Microsoft 365에서 대상 타사 공급자로의 스마트 호스트 라우팅을 구성합니다.
+      - **아웃바운드:** 대상 타사 Microsoft 365 스마트 호스트 라우팅을 구성합니다.
   - question: >
       Microsoft에 피싱 메일로부터 자기 자신을 보호할 수 있는 방법에 대한 설명서가 있습니까?
     answer: >
