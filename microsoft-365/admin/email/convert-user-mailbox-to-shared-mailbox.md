@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
-description: '개인 사서함을 여러 사용자가 액세스할 수 있는 공유 사서함으로 변환하는 방법을 학습합니다. '
-ms.openlocfilehash: d5b33731908d2d555a8dd12d5d7fbbd462bd83ad
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: '개인 사서함을 한 사람이 아닌 여러 사람이 액세스할 수 있는 공유 사서함으로 변환하는 방법을 학습합니다. '
+ms.openlocfilehash: 73e2bad40037e1343f4e08c07ca6b26df16b1a30
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915869"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537622"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>사용자 사서함을 공유 사서함으로 변환
 
@@ -49,7 +49,7 @@ ms.locfileid: "50915869"
 
 3. 사용자 사서함을 선택합니다. 공유 **사서함으로 변환에서** 변환을 **선택합니다.**
 
-4. 사서함이 50GB보다 작은 경우 사용자 에서 [](../manage/remove-licenses-from-users.md)라이선스를 제거하고 비용 지불을 중지할 수 있습니다. 사용자 계정을 삭제하지 않습니다. 공유 사서함은 앵커로 필요합니다. 조직을 떠나는 직원의 사서함을 변환하는 경우 추가 단계를 수행하여 더 이상 로그인할 수 없는지 해야 합니다. Microsoft [365에서 이전 직원 제거를 참조하시기 바랍니다.](../add-users/remove-former-employee.md)
+4. 사서함이 50GB보다 작은 경우 사용자 에서 [](../manage/remove-licenses-from-users.md)라이선스를 제거하고 비용 지불을 중지할 수 있습니다. 사용자 계정을 삭제하지 않습니다. 공유 사서함은 앵커로 필요합니다. 조직을 떠나는 직원의 사서함을 변환하는 경우 추가 단계를 수행하여 더 이상 로그인할 수 없는지 해야 합니다. 에서 [이전 직원 제거를 Microsoft 365.](../add-users/remove-former-employee.md)
     
 > [!NOTE]
 > 사서함 변환 중에 사용자 암호를 다시 설정할 필요는 없습니다. 그러나 암호를 다시 설정하지  않은 경우 사서함 변환이 완료된 후에도 원래 사용자 이름과 암호가 계속 작동됩니다.
@@ -66,7 +66,7 @@ ms.locfileid: "50915869"
 
 1. [사용자 계정을 복원합니다.](../add-users/restore-user.md)
 
-2. Microsoft 365 라이선스가 할당되어 있는지 확인
+2. 라이선스가 Microsoft 365 할당되어 있는지 확인
 
 3. 사용자의 암호를 다시 설정하십시오.
     
@@ -93,23 +93,23 @@ ms.locfileid: "50915869"
 
 ## <a name="convert-a-users-mailbox-in-a-hybrid-environment"></a>하이브리드 환경에서 사용자의 사서함 변환
 
-Exchange 하이브리드 환경에서 사용자 사서함을 공유 사서함으로 변환하는 데 대한 자세한 내용은 다음을 참조하세요.
+하이브리드 환경에서 사용자 사서함을 공유 사서함으로 변환하는 Exchange 자세한 내용은 다음을 참조하세요.
 
- - [Cmdlet - 사내 Exchange 환경에서 원격 공유 사서함을 만들거나 수정](https://support.microsoft.com/office/cmdlets-to-create-or-modify-a-remote-shared-mailbox-in-an-on-premises-exchange-environment-9e83fb59-c001-729c-a4c0-b2964c154b49)
- - [Exchange 하이브리드 배포에서 디렉터리 동기화가 실행된 후 공유 사서함이 예기치 않게 사용자 사서함으로 변환됩니다.](/exchange/troubleshoot/user-and-shared-mailboxes/shared-mailboxes-unexpectedly-converted-to-user-mailboxes)
+ - [Cmdlet - 프레미스 환경의 원격 공유 사서함을 만들거나 수정하는 Exchange 있습니다.](https://support.microsoft.com/office/cmdlets-to-create-or-modify-a-remote-shared-mailbox-in-an-on-premises-exchange-environment-9e83fb59-c001-729c-a4c0-b2964c154b49)
+ - [공유 사서함은 하이브리드 배포에서 디렉터리 동기화가 실행된 후 예기치 않게 Exchange 변환됩니다.](/exchange/troubleshoot/user-and-shared-mailboxes/shared-mailboxes-unexpectedly-converted-to-user-mailboxes)
  
 
 > [!NOTE]
 > 조직 관리 또는 받는 사람 관리 역할 그룹의 구성원인 경우 Exchange 관리 셸을 사용하여 사용자 사서함을 공유 사서함을 사내 공유 사서함으로 변경할 수 있습니다. 예를 들면 `Set-Mailbox -Identity mailbox1@contoso.com -Type Shared`와 같습니다.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[공유 사서함 정보](about-shared-mailboxes.md)
+[공유 사서함(문서)](about-shared-mailboxes.md)
 
-[공유 사서함 만들기](create-a-shared-mailbox.md)
+[공유 사서함](create-a-shared-mailbox.md) 만들기(문서)
 
-[공유 사서함 구성](configure-a-shared-mailbox.md)
+[공유 사서함](configure-a-shared-mailbox.md) 구성(문서)
 
-[공유 사서함에서 라이선스 제거](remove-license-from-shared-mailbox.md)
+[공유 사서함에서 라이선스](remove-license-from-shared-mailbox.md) 제거(문서)
 
-[공유 사서함의 문제 해결](resolve-issues-with-shared-mailboxes.md)
+[공유 사서함 관련 문제](resolve-issues-with-shared-mailboxes.md) 해결(문서)

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: IT 관리자가 데스크톱, 모바일 및 웹용 Office 앱에서 민감도 레이블을 관리하기 위한 정보입니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f280cae2364a3ad76a3a3ff91ce382fdf69eab2b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: bca8efa15bdfe2f4b7c8c90e7a4706f40b19f85d
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52532053"
+ms.locfileid: "52572612"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 관리
 
@@ -46,7 +46,7 @@ Windows 컴퓨터에서 이러한 독립 실행형 버전의 Office와 함께 �
 > [!NOTE]
 > Office 앱의 업데이트 채널 이름이 최근에 변경되었습니다. 예를 들어 월별 채널은 이제 현재 채널이며 Office 내부자는 베타 채널이 됩니다. 자세한 내용은 [Microsoft 365 앱의 업데이트 채널에 대한 변경 내용](/deployoffice/update-channels-changes)을 참조하세요.
 
-iOS 및 Office for Android: 민감도 레이블은 [Office 앱](https://www.microsoft.com/ko-KR/microsoft-365/blog/2020/02/19/new-office-app-android-ios-available/)에 내장되어 있습니다.
+iOS 및 Office for Android: 민감도 레이블은 [Office 앱](https://www.microsoft.com/en-us/microsoft-365/blog/2020/02/19/new-office-app-android-ios-available/)에 내장되어 있습니다.
 
 Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레이블 지정 클라이언트를 설치할 때 추가 기능을 사용할 수 있습니다. 자세한 내용은 [Windows 컴퓨터에 대한 레이블 지정 클라이언트 비교](/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers)를 참조하세요.
 
@@ -56,7 +56,7 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 
 |기능                                                                                                        |Windows |Mac |iOS    |Android      |웹                                                         |
 |------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
-|[수동으로 레이블 적용, 변경 또는 제거](https://support.microsoft.com/ko-KR/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[수동으로 레이블 적용, 변경 또는 제거](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[기본 레이블 적용](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md)                                                        |
 |[레이블을 변경하기 위한 사유 요구](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[사용자 지정 도움말 페이지에 도움말 링크 제공](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [예 - 옵트인](sensitivity-labels-sharepoint-onedrive-files.md) |
@@ -80,7 +80,7 @@ Windows 컴퓨터에서만 실행되는 Azure Information Protection 통합 레�
 
 |기능                                                                                                        |Windows용 Outlook |Outlook for Mac |iOS에서의 Outlook |Android에서의 Outlook |웹용 Outlook |
 |------------------------------------------------------------------------------------------------------------------|---------------------------|------------------------|---------------|-------------------|-------------------|
-|[수동으로 레이블 적용, 변경 또는 제거](https://support.microsoft.com/ko-KR/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
+|[수동으로 레이블 적용, 변경 또는 제거](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[기본 레이블 적용](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[레이블을 변경하기 위한 사유 요구](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
 |[사용자 지정 도움말 페이지에 도움말 링크 제공](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | 예               |
@@ -194,7 +194,7 @@ Office 365 메시지 암호화에 대해 정의하는 경우처럼 [관리자 �
         - [Mac용 Outlook 환경 설정 지정](/DeployOffice/mac/preferences-outlook)에 문서화된 *DisableEncryptOnly* 및 *DisableDoNotForward* 키 보안 설정
     - 웹용 Outlook: 
         - [Set-IRMConfiguration](/powershell/module/exchange/set-irmconfiguration)에 대해 문서화된 매개 변수 *SimplifiedClientAccessDoNotForwardDisabled* 및 *SimplifiedClientAccessEncryptOnlyDisabled*
-        - iOS 및 Android 용 Outlook: 이러한 앱은 레이블 없이 암호화를 적용하는 사용자를 지원하지 않으므로 비활성화할 사항이 없습니다.
+    - iOS 및 Android 용 Outlook: 이러한 앱은 레이블 없이 암호화를 적용하는 사용자를 지원하지 않으므로 비활성화할 사항이 없습니다.
 
 > [!NOTE]
 > 사용자가 SharePoint 또는 OneDrive에 저장된 레이블이 지정된 문서에서 암호화를 수동으로 제거하고 [SharePoint 및 OneDrive의 Office 파일에 대해 민감도 레이블을 사용하도록 설정](sensitivity-labels-sharepoint-onedrive-files.md)한 경우, 레이블 암호화는 다음에 문서에 액세스하거나 다운로드할 때 자동으로 복원됩니다. 
@@ -438,8 +438,8 @@ Set-LabelPolicy -Identity Global -AdvancedSettings @{OutlookDefaultLabel=""}
 
 ## <a name="end-user-documentation"></a>최종 사용자 설명서
 
-- [Office에서 파일 및 전자 메일에 민감도 레이블 적용](https://support.microsoft.com/ko-KR/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
-    - [Office의 민감도 레이블과 관련된 알려진 문제점](https://support.microsoft.com/ko-KR/office/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
+- [Office에서 파일 및 전자 메일에 민감도 레이블 적용](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+    - [Office의 민감도 레이블과 관련된 알려진 문제점](https://support.microsoft.com/en-us/office/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
 
 - [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)
     - [민감도 레이블 자동 적용 또는 추천에 대한 알려진 문제](https://support.office.com/article/known-issues-with-automatically-applying-or-recommending-sensitivity-labels-451698ae-311b-4d28-83aa-a839a66f6efc)

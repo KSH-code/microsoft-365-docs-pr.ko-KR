@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: 중요한 데이터를 보호하는 팀을 배치하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 16b60230c18f4a4f5e10b4bd421fd1bf02b39779
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: a775727882dd71a168f4049d2af6a9feb20f944c
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538186"
+ms.locfileid: "52572720"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>중요한 데이터를 보호하는 팀 구성하기
 
@@ -105,7 +105,7 @@ Teams에서 민감도 레이블을 사용하도록 설정한 후 다음 단계�
 
 중요 레이블을 사용하여 새 팀을 만들 때마다 SharePoint에서 다음 두 단계를 수행해야 합니다.
 
-- SharePoint 관리 센터에서 사이트에 대한 게스트 공유 설정을 업데이트하여 레이블을 만들 때 선택한 내용과 맞게 설정하고, 기본 공유 링크를 *특정 사용자* 로 업데이트합니다.
+- SharePoint 관리 센터에서 사이트의 게스트 공유 설정을 업데이트하여 기본 공유 링크를 *특정 사용자* 에게 업데이트합니다.
 - 구성원이 사이트를 공유하지 못하도록 사이트의 사이트 공유 설정을 업데이트합니다.
 
 ### <a name="site-guest-sharing-settings"></a>사이트 게스트 공유 설정

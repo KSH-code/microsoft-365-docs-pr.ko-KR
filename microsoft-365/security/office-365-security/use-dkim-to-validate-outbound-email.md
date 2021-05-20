@@ -20,12 +20,12 @@ ms.custom:
 description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1fc811fb513935645fa596c5a9d2e3e552b50324
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 2cd04911e3663bb6b9fa00d4946b26086dc8094d
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245363"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538270"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 
@@ -59,7 +59,7 @@ ms.locfileid: "52245363"
 > [!NOTE]
 > Microsoft 365는 초기 'onmicrosoft.com' 도메인에 대해 DKIM을 자동으로 설정합니다. 즉, 초기 도메인 이름(예: litware.onmicrosoft.com)의 DKIM을 설정하기 위한 작업을 수행하지 않아도 됩니다. 도메인에 대한 자세한 내용은 [도메인 FAQ](../../admin/setup/domains-faq.yml#why-do-i-have-an--onmicrosoft-com--domain)를 참조하세요.
 
-DKIM은 스푸핑이 도메인에서 발송된 것 같은 메시지를 보내지 못하도록 도와주는 SPF, DKIM 및 DMARC(인증 방법) 중 하나입니다.
+DKIM은 공격이 도메인에서 발송된 것 같은 메시지를 보내지 못하도록 도와주는 SPF, DKIM 및 DMARC(인증 방법) 중 하나입니다.
 
 DKIM을 사용하면 보내는 전자 메일 메시지의 머리글에 디지털 서명을 첨부할 수 있습니다. DKIM을 구성할 때 암호화 인증을 사용하여 전자 메일 메시지에 해당 이름을 연결하거나 서명할 수 있는 권한을 도메인에 부여합니다. 도메인에서 전자 메일을 받는 전자 메일 시스템은 이 디지털 서명을 사용하여 받는 전자 메일이 합법적인지 여부를 확인할 수 있습니다.
 

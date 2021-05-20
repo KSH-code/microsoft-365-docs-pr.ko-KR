@@ -16,13 +16,14 @@ f1.keywords: NOCSH
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
+recommendations: false
 description: 조직 외부 사용자와의 공유에 영향을 줄 수 있는 Microsoft 365에서 사용할 수 있는 게스트 공유 설정에 대해 알아봅니다.
-ms.openlocfilehash: bdb86dd7545c00f0ed24552b22062a983e450b47
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: 60ebff4f564e7046a54cb707781acc0151aa8ad9
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215567"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538114"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 게스트 공유 설정 참조
 

@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 배달된 악성 전자 메일 수정
+title: 전자 메일로 배달된 악성 전자 메일을 Office 365
 author: msfttracyp
 ms.author: tracyp
 manager: dansimp
@@ -15,14 +15,14 @@ appliesto:
 - Microsoft 365 Defender
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 202ebc8b79368c8d41fd3727b67359ddcb8a08fa
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: a59b24cd29ab8bf3b9b08c7818813a7ab89f7ce2
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206616"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537886"
 ---
-# <a name="remediate-malicious-email-delivered-in-office-365"></a>Office 365에서 배달된 악성 전자 메일 수정
+# <a name="remediate-malicious-email-delivered-in-office-365"></a>전자 메일로 배달된 악성 전자 메일 Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -32,7 +32,7 @@ ms.locfileid: "51206616"
 수정은 위협에 대해 정해진 조치를 취하는 것을 의미합니다. 조직에 전송된 악성 전자 메일은 시스템에서, ZAP(제로 아워 자동 제거)를 통해 또는 보안 팀에서 받은 편지함으로 이동, 정크로 이동, 삭제된 항목으로 *이동,* 소프트 삭제 또는 영구 삭제와 같은 수정 작업을 통해 정리할 수 *있습니다.* Microsoft Defender for Office 365 P2/E5를 사용하면 보안 팀이 수동 및 자동화된 조사를 통해 전자 메일 및 공동 작업 기능의 위협을 해결합니다.
 
 > [!NOTE]
-> 악의적인 전자 메일을 수정하려면 보안 팀에 할당된 검색 및 제거 *역할이* 필요합니다. 역할 할당은 보안 및 규정 준수 센터의 사용 권한을 통해 수행됩니다.
+> 악의적인 전자 메일을 수정하려면 보안 팀에 할당된 검색 및 제거 *역할이* 필요합니다. 역할 할당은 보안 및 준수 [센터의 & 수행됩니다.](permissions-in-the-security-and-compliance-center.md)
 
 ## <a name="what-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 것
 
@@ -43,7 +43,7 @@ ms.locfileid: "51206616"
 *보안 팀이* 위협 탐색기에서 검색 및 필터링 기능을 사용하여 위협을 수동으로 식별할 때 수동 헌팅이 수행됩니다. 수정해야 하는 전자 메일 집합을 식별한 후 모든 전자 메일 보기(맬웨어, 피싱 또는 모든 전자 메일)를 통해 수동 전자 메일 수정을 트리거할 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> [![날짜에 대한 Office 365 위협 탐색기 수동 헌팅](../../media/tp-RemediationArticle1.png)](../../media/tp-RemediationArticle1.png#lightbox)
+> [![날짜를 Office 365 위협 탐색기에서 수동 헌팅](../../media/tp-RemediationArticle1.png)](../../media/tp-RemediationArticle1.png#lightbox)
 
 보안 팀은 위협 탐색기를 사용하여 여러 가지 방법으로 전자 메일을 선택할 수 있습니다.
 
@@ -104,7 +104,7 @@ ms.locfileid: "51206616"
   > [!NOTE]
   > 최상의 결과를 얻기 위해 50,000개 이하의 일괄 수정을 수행해야 합니다.
 
-  수정할 수 있는 전자 메일만 수정 중에 행동합니다. 관리되지 않는 전자 메일은 클라우드 사서함에 저장되지 않는 Office 365 전자 메일 시스템에 의해 수정될 수 없습니다.
+  수정할 수 있는 전자 메일만 수정 중에 행동합니다. 관리되지 않는 전자 메일은 클라우드 사서함에 저장되지 Office 365 전자 메일 시스템에 의해 수정될 수 없습니다.
 
   관리자는 필요한 경우 전자 메일에 대해 작업을 수행할 수 있지만, 전자 메일이 수동으로 제거되지 않은 경우 해당 전자 메일은 검지에서 만료됩니다. 악의적인 콘텐츠로 인하여 검사된 전자 메일은 사용자가 액세스할 수 없습니다. 따라서 보안 담당자는 검사에서 위협을 제거하기 위해 조치를 취할 필요가 없습니다. 전자 메일이 사내 또는 외부인 경우 의심스러운 전자 메일을 해결하기 위해 사용자에게 연락할 수 있습니다. 또는 관리자는 별도의 전자 메일 서버/보안 도구를 사용하여 제거를 할 수 있습니다. 이러한 전자 메일은 위협 탐색기에서 배달 위치 *=* 프레미스 외부 필터를 적용하여 식별할 수 있습니다. 실패하거나 삭제된 전자 메일 또는 사용자가 액세스할 수 없는 전자 메일의 경우 이러한 메일이 사서함에 도달하지 못하기 때문에 완화할 전자 메일이 없습니다.
 

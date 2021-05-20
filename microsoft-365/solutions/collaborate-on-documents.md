@@ -1,5 +1,5 @@
 ---
-title: 게스트와 문서 상 공동 작업하기
+title: 게스트와 문서에서 공동 작업하기
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -16,17 +16,18 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
-description: 이 문서에서는 SharePoint 및 OneDrive의 문서에서 게스트와 공동 작업하는 방법을 배우게 됩니다.
-ms.openlocfilehash: 9158ec7692ef90eb2e270242472fceb10d0e60b7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+recommendations: false
+description: 이 문서에서는 게스트와 공동 작업하는 방법을 SharePoint OneDrive.
+ms.openlocfilehash: 338c7f32944bccb766ed923c12a9fceee4d81db8
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920231"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537838"
 ---
-# <a name="collaborate-with-guests-on-a-document"></a>게스트와 문서 상 공동 작업하기
+# <a name="collaborate-with-guests-on-a-document"></a>게스트와 문서에서 공동 작업하기
 
-SharePoint 또는 OneDrive의 문서에 대해 조직 외부의 사용자와 공동 작업을 해야 하는 경우 문서에 대한 공유 링크를 보낼 수 있습니다. 이 문서에서는 조직의 요구에 따라 SharePoint 및 OneDrive에 대한 공유 링크를 설정하는 데 필요한 Microsoft 365 구성 단계를 단계적으로 진행합니다.
+조직 외부의 사용자와 공동 작업을 해야 하는 경우 SharePoint OneDrive 문서에 대한 공유 링크를 보낼 수 있습니다. 이 문서에서는 조직의 요구에 Microsoft 365 및 사용자에 대한 공유 SharePoint OneDrive 설정하는 데 필요한 OneDrive 구성 단계를 단계적으로 수행합니다.
 
 ## <a name="video-demonstration"></a>동영상 데모
 
@@ -36,7 +37,7 @@ SharePoint 또는 OneDrive의 문서에 대해 조직 외부의 사용자와 공
 
 ## <a name="azure-external-collaboration-settings"></a>Azure 외부 공동 작업 설정
 
-Microsoft 365의 공유는 [Azure Active Directory의 B2B 외부 공동 작업 설정](/azure/active-directory/external-identities/delegate-invitations)에 따라 가자 높은 수준에서 관리됩니다. Azure AD에서 게스트 공유를 사용하지 않도록 설정하거나 제한하는 경우 이 설정은 Microsoft 365에서 구성한 모든 공유 설정을 다시 적용합니다.
+Microsoft 365의 공유는 [Azure Active Directory의 B2B 외부 공동 작업 설정](/azure/active-directory/external-identities/delegate-invitations)에 따라 가자 높은 수준에서 관리됩니다. Azure AD에서 게스트 공유를 사용하지 않도록 설정하거나 제한하는 경우 이 설정은 Azure AD에서 구성한 모든 공유 Microsoft 365.
 
 B2B 외부 공동 작업 설정을 확인하여 게스트와의 공유가 차단되지 않는지 확인합니다.
 
@@ -55,15 +56,15 @@ B2B 외부 공동 작업 설정을 확인하여 게스트와의 공유가 차단
 
 여러 조직의 게스트와 함께 작업하는 경우 디렉터리 데이터에 액세스하는 기능을 제한해야 할 수 있습니다. 이 작업을 수행하면 게스트가 디렉터리에 다른 게스트가 누구인지 볼 수 없습니다. 이 작업을 수행하려면, **게스트 사용자 액세스 제한** 아래에서 **디렉터리 개체 설정의 속성 및 멤버십에 대한 게스트 사용자의 액세스가 제한됨** 또는 **게스트 사용자 액세스가 해당 디렉터리 개체의 속성 및 멤버십으로 제한됨** 을 선택합니다.
 
-## <a name="sharepoint-organization-level-sharing-settings"></a>SharePoint 조직 수준 공유 설정
+## <a name="sharepoint-organization-level-sharing-settings"></a>SharePoint 수준 공유 설정
 
-조직 외부의 사용자가 SharePoint 또는 OneDrive의 문서에 액세스할 수 있도록 SharePoint 및 OneDrive 조직 수준 공유 설정을 통해 조직 외부의 사용자와 공유할 수 있어야 합니다.
+조직 외부의 사용자가 SharePoint 또는 OneDrive 문서에 액세스할 수 있도록 SharePoint OneDrive 조직 수준 공유 설정을 통해 조직 외부의 사용자와 공유할 수 있어야 합니다.
 
-SharePoint의 조직 수준 설정에 따라 개별 SharePoint 사이트에 사용할 수 있는 설정이 결정됩니다. 사이트 설정은 조직 수준 설정보다 더 제한될 수 없습니다. OneDrive의 조직 수준 설정에 따라 사용자의 OneDrive 라이브러리에서 사용할 수 있는 공유 수준이 결정됩니다.
+조직의 조직 수준 설정에 SharePoint 사이트에 대해 사용할 수 있는 SharePoint 결정됩니다. 사이트 설정은 조직 수준 설정보다 더 제한될 수 없습니다. 조직의 수준 설정에 따라 OneDrive 라이브러리에서 사용할 수 있는 공유 OneDrive 결정됩니다.
 
-SharePoint 및 OneDrive의 경우, 허용되지 않은 파일 및 폴더 공유를 허용하려는 경우 모든 사람을 **선택하십시오.** 조직 외부의 사용자가 인증을 하도록 하려는 경우 신규 및 기존 게스트 **를 선택 합니다.** *모든* 사용자 링크는 가장 쉽게 공유할 수 있는 방법입니다. 조직 외부의 사람은 인증 없이 링크를 열 수 있으며 다른 사용자에게 링크를 무료로 전달할 수 있습니다.
+이 SharePoint OneDrive 및 폴더 공유를 허용하려는 경우 모든 를 **선택하십시오.** 조직 외부의 사용자가 인증을 하도록 하려는 경우 신규 및 기존 게스트 **를 선택 합니다.** *모든* 사용자 링크는 가장 쉽게 공유할 수 있는 방법입니다. 조직 외부의 사람은 인증 없이 링크를 열 수 있으며 다른 사용자에게 링크를 무료로 전달할 수 있습니다.
 
-SharePoint의 경우 조직의 모든 사이트에서 필요한 가장 적합한 설정을 선택하세요.
+이 SharePoint 조직의 모든 사이트에서 필요한 가장 적합한 설정을 선택하세요.
 
 ![SharePoint 조직 수준 공유 설정의 스크린샷](../media/sharepoint-organization-external-sharing-controls.png)
 
@@ -72,14 +73,14 @@ SharePoint 조직 수준 공유 설정을 설정하려면
 
 1. Microsoft 365 관리 센터의 왼쪽 탐색 창에 있는 **관리 센터** 에서 **SharePoint** 를 클릭합니다.
 2. SharePoint 관리 센터의 왼쪽 탐색 창에 있는 **정책에서** 공유를 **클릭합니다.**
-3. SharePoint 또는 OneDrive의 외부 공유가 **모든** 사용자 또는 신규 및 기존 **게스트로 설정되어 있도록 합니다.** OneDrive 설정은 SharePoint 설정보다 더 제한적일 수 없습니다.
+3. 모든 사용자 또는 SharePoint OneDrive 및 기존 게스트로  외부 공유가 **설정되어 있도록 합니다.** 이 설정은 OneDrive 설정보다 더 SharePoint 않습니다.
 4. 변경한 내용이 있으면 **저장** 을 클릭합니다.
 
 ## <a name="sharepoint-organization-level-default-link-settings"></a>SharePoint 조직 수준 기본 링크 설정
 
 기본 파일 및 폴더 링크 설정에 따라 사용자가 파일 또는 폴더를 공유할 때 기본적으로 사용자에게 표시되는 링크 옵션이 결정됩니다. 원하는 경우 공유하기 전에 링크 유형을 다른 옵션 중 하나로 변경할 수 있습니다.
 
-이 설정은 OneDrive뿐만 아니라 조직의 SharePoint 사이트에도 영향을 미치게 됩니다.
+이 설정은 조직의 SharePoint 사이트에 영향을 미치며, OneDrive.
 
 사용자가 파일 및 폴더를 공유할 때 기본적으로 선택되는 다음 유형의 링크를 선택하십시오.
 
@@ -90,7 +91,7 @@ SharePoint 조직 수준 공유 설정을 설정하려면
 ![SharePoint 조직 수준 파일 및 폴더 공유 설정 스크린샷](../media/sharepoint-organization-files-folders-sharing-settings.png)
 
 
-SharePoint 및 OneDrive 조직 수준 기본 링크 설정을 지정하려면
+조직 수준의 SharePoint 설정 OneDrive 설정하려면
 
 1. SharePoint 관리 센터의 공유 페이지로 이동합니다.
 2. **파일 및 폴더 링크** 에서 사용하려는 기본 공유 링크를 선택합니다.
@@ -131,7 +132,7 @@ SharePoint 사이트에 있는 파일 및 폴더를 공유하는 경우 해당 �
 
 ## <a name="invite-users"></a>사용자 초대하기
 
-이제 게스트 공유 설정이 구성됩니다. 따라서 사용자는 이제 조직 외부의 사용자와 파일 및 폴더를 공유할 수 있습니다. 자세한 [내용은 OneDrive](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) 파일 및 폴더 공유 및 [SharePoint 파일 또는 폴더 공유를](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) 참조하세요.
+이제 게스트 공유 설정이 구성됩니다. 따라서 사용자는 이제 조직 외부의 사용자와 파일 및 폴더를 공유할 수 있습니다. 자세한 [OneDrive](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) 파일 및 폴더 공유 및 SharePoint 파일 또는 폴더 [공유를](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

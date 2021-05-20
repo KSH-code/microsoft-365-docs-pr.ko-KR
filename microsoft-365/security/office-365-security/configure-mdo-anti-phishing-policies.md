@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender for Office 365에서 피싱 방지 정책 구성
+title: Microsoft Defender에서 피싱 방지 정책 Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,17 +12,17 @@ localization_priority: Normal
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: 관리자는 Office 365용 Microsoft Defender를 사용하여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
+description: 관리자는 Microsoft Defender를 사용하여 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고 수정하고 삭제하는 방법을 Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1c8d61aee9afb332a8426890560ad221a9c87c7d
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: 3660b9574f4faf4ee9c0602ac23b36f8634650dc
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218822"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537910"
 ---
-# <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에서 피싱 방지 정책 구성
+# <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 피싱 방지 정책 Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -30,13 +30,13 @@ ms.locfileid: "51218822"
 - [Office 365용 Microsoft Defender 플랜 1 및 플랜 2](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-[Microsoft Defender for Office 365의](defender-for-office-365.md) 피싱 방지 정책은 악의적인 가장 기반 피싱 공격 및 기타 유형의 피싱 공격으로부터 조직을 보호하는 데 도움이 될 수 있습니다. EOP(Exchange Online Protection)의 피싱 방지 정책과 Office 365용 Microsoft Defender의 피싱 방지 정책 간의 차이점에 대한 자세한 내용은 피싱 방지 보호를 [참조하세요.](anti-phishing-protection.md)
+[Microsoft Defender](defender-for-office-365.md) for Office 365 피싱 방지 정책은 악의적인 가장 기반 피싱 공격 및 기타 유형의 피싱 공격으로부터 조직을 보호하는 데 도움이 될 수 있습니다. EOP(Exchange Online Protection)의 피싱 방지 정책과 Microsoft Defender의 피싱 방지 정책 간의 차이점에 대한 자세한 내용은 Office 365 피싱 방지 보호를 [참조하세요.](anti-phishing-protection.md)
 
 관리자는 기본 피싱 방지 정책을 보고 편집하고 구성할 수 있지만 삭제할 수 없습니다. 세분성을 강화하기 위해 조직의 특정 사용자, 그룹 또는 도메인에 적용되는 사용자 지정 피싱 방지 정책을 만들 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.
 
-보안 및 준수 센터 또는 Exchange Online PowerShell에서 피싱 & 구성할 수 있습니다.
+보안 및 준수 센터 또는 PowerShell에서 피싱 & 구성할 Exchange Online 있습니다.
 
-Exchange Online Protection 조직(즉, Office 365용 Microsoft Defender가 없는 조직)에서 사용할 수 있는 피싱 방지 정책에서 더 제한적인 구성에 대한 자세한 내용은 [EOP에서](configure-anti-phishing-policies-eop.md)피싱 방지 정책 구성을 참조하세요.
+Exchange Online Protection 조직(즉, microsoft Defender for Office 365 없는 조직)에서 더 제한적인 피싱 방지 정책을 구성하는 데 대한 자세한 내용은 [EOP에서](configure-anti-phishing-policies-eop.md)피싱 방지 정책 구성을 참조하세요.
 
 피싱 방지 정책의 기본 요소는 다음입니다.
 
@@ -49,19 +49,19 @@ Exchange Online Protection 조직(즉, Office 365용 Microsoft Defender가 없�
 - 정책을 수정할 때 이름, 우선 순위, 사용 또는 사용 안 하도록 설정 및 받는 사람 필터와 관련된 설정은 피싱 방지 규칙을 수정합니다. 다른 모든 설정은 연결된 피싱 방지 정책을 수정합니다.
 - 정책을 제거하면 피싱 방지 규칙 및 연결된 피싱 방지 정책이 제거됩니다.
 
-Exchange Online PowerShell에서는 정책과 규칙을 별도로 관리합니다. 자세한 내용은 이 문서 부분의 [Microsoft Defender for Office 365에서 Exchange Online PowerShell을](#use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365) 사용하여 피싱 방지 정책 구성 섹션을 참조하세요.
+PowerShell Exchange Online 정책과 규칙을 별도로 관리합니다. 자세한 내용은 이 문서의 [Exchange Online PowerShell을 사용하여 Microsoft Defender에서](#use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365) 피싱 방지 정책 구성을 Office 365 섹션을 참조하세요.
 
-모든 Microsoft Defender for Office 365 조직에는 다음 속성이 있는 Office365 AntiPhish Default라는 기본 제공 피싱 방지 정책이 있습니다.
+모든 Office 365 Microsoft Defender에는 Office365 AntiPhish Default라는 기본 제공 피싱 방지 정책이 있습니다. 이 정책은 다음 속성을 가 있습니다.
 
 - 이 정책은 정책과 연결된 피싱 방지 규칙(받는 사람 필터)이 없는 경우에도 조직의 모든 받는 사람에게 적용됩니다.
 - 정책의 사용자 지정 우선순위 값은 **가장 낮음** 이며 변경할 수 없습니다(이 정책은 항상 마지막으로 적용됨). 사용자가 만든 모든 사용자 지정 정책은 항상 더 높은 우선순위를 갖습니다.
 - 그 정책이 기본 정책(**IsDefault** 속성의 값은 `True`)이고, 기본 정책은 삭제할 수 없습니다.
 
-Microsoft Defender for Office 365에서 피싱 방지 보호의 효율성을 높이기 위해 특정 사용자 또는 사용자 그룹에 적용되는 더 엄격한 설정을 사용하여 사용자 지정 피싱 방지 정책을 만들 수 있습니다.
+Microsoft Defender for Office 365 피싱 방지 보호의 효율성을 높이기 위해 특정 사용자 또는 사용자 그룹에 적용되는 더 엄격한 설정을 사용하여 사용자 지정 피싱 방지 정책을 만들 수 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **ATP** 피싱 방지 페이지로 직접 이동하기 위해 를 <https://protection.office.com/antiphishing> 사용하세요.
+- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. 피싱 방지 페이지로 직접 **이동하기** 위해 를 <https://protection.office.com/antiphishing> 사용하세요.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell)을 참조하세요.
 
@@ -74,22 +74,22 @@ Microsoft Defender for Office 365에서 피싱 방지 보호의 효율성을 높
   **참고**:
 
   - Microsoft 365 관리 센터의 해당 Azure Active Directory 역할에 사용자를 추가하면 사용자에게 필요한 권한 _및_ Microsoft 365의 다른 기능에 대한 권한이 부여됩니다. 자세한 내용은 [관리자 역할 정보](../../admin/add-users/about-admin-roles.md)를 참조하세요.
-  - [또한 Exchange Online의](/Exchange/permissions-exo/permissions-exo#role-groups) 보기 **전용 조직** 관리 역할 그룹은 기능에 대한 읽기 전용 액세스 권한을 <sup>\*</sup> 제공합니다.
+  - 또한 **조직의 보기** 전용 조직 관리 역할 Exchange Online 기능에 대한 읽기 [전용](/Exchange/permissions-exo/permissions-exo#role-groups) 액세스 권한을 <sup>\*</sup> 제공합니다.
   - <sup>\*</sup> 보안 & 준수 센터에서 읽기 전용 액세스를 통해 사용자는 사용자 지정 피싱 방지 정책의 설정을 볼 수 있습니다. 읽기 전용 사용자는 기본 피싱 방지 정책의 설정을 볼 수 없습니다.
 
-- Microsoft Defender for Office 365의 피싱 방지 정책에 대한 권장 설정은 [Defender for Office 365 설정의](recommended-settings-for-eop-and-office365.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365)피싱 방지 정책을 참조하세요.
+- Microsoft Defender for Office 365 피싱 방지 정책에 대한 권장 설정은 Office 365 설정에 대한 [Defender의 피싱 Office 365 참조하세요.](recommended-settings-for-eop-and-office365.md#anti-phishing-policy-settings-in-microsoft-defender-for-office-365)
 
 - 새 정책 또는 업데이트된 정책을 적용하는 데 최대 30분을 허용합니다.
 
 - 필터링 파이프라인에서 피싱 방지 정책이 적용되는 위치는 전자 메일 보호의 순서 및 우선 [순위를 참조하세요.](how-policies-and-protections-are-combined.md)
 
-## <a name="use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>보안 및 & 센터를 사용하여 Microsoft Defender for Office 365에서 피싱 방지 정책 만들기
+## <a name="use-the-security--compliance-center-to-create-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>보안 및 & 센터를 사용하여 Microsoft Defender에서 피싱 방지 정책을 Office 365
 
 보안 & 준수 센터에서 사용자 지정 피싱 방지 정책을 만들면 동일한 이름을 사용하여 피싱 방지 규칙과 연결된 피싱 방지 정책이 동시에 생성됩니다.
 
 피싱 방지 정책을 만들 때 정책이 적용되는 사람을 식별하는 정책 이름, 설명 및 받는 사람 필터만 지정할 수 있습니다. 정책을 만든 후 기본 피싱 방지 설정을 변경하거나 검토하도록 정책을 수정할 수 있습니다.
 
-1. 보안 및 & 센터에서 위협 **관리** 정책 ATP 피싱 방지 로 \>  \> **이동합니다.**
+1. 보안 및 & 센터에서 위협 **관리** 정책 피싱 방지 로 이동 \>  \> **합니다.**
 
 2. 피싱 **방지 페이지에서** 만들기를 **클릭합니다.**
 
@@ -133,11 +133,11 @@ Microsoft Defender for Office 365에서 피싱 방지 보호의 효율성을 높
 
 이러한 일반 설정을 사용하여 피싱 방지 정책을 만든 후 다음 섹션의 지침을 사용하여 정책의 보호 설정을 구성합니다.
 
-## <a name="use-the-security--compliance-center-to-modify-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>보안 및 & 센터를 사용하여 Microsoft Defender for Office 365에서 피싱 방지 정책 수정
+## <a name="use-the-security--compliance-center-to-modify-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>보안 및 & 센터를 사용하여 Microsoft Defender에서 피싱 방지 정책을 Office 365
 
 다음 절차에 따라 피싱 방지 정책(만든 새 정책 또는 이미 사용자 지정한 기존 정책)을 수정합니다.
 
-1. 아직 없는 경우 보안 및 준수 센터를 & 위협 **관리** 정책 ATP 피싱 방지 \>  \> **로 이동 합니다.**
+1. 아직 없는 경우 보안 및 준수 센터를 & 위협 **관리** 정책 피싱 \>  \> **방지 로 이동 합니다.**
 
 2. 수정할 사용자 지정 피싱 방지 정책을 선택합니다. 이미 선택되어 있는 경우 선택을 선택하고 다시 선택합니다.
 
@@ -156,9 +156,9 @@ Microsoft Defender for Office 365에서 피싱 방지 보호의 효율성을 높
 
    완료되면 페이지에서 **저장을** 클릭합니다.
 
-5. **가장: 편집을** **클릭하여** 정책에서 보호된 보낸 사람 및 보호된 도메인을 수정합니다. 이러한 설정은 인바운드 메시지의 보낸 사람 주소에서 검색할 스푸핑된 보낸 사람(개별적으로 또는 도메인별)을 식별하는 정책의 조건입니다. 자세한 내용은 [Microsoft Defender for Office 365의](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)피싱 방지 정책의 가장 설정을 참조하세요.
+5. **가장: 편집을** **클릭하여** 정책에서 보호된 보낸 사람 및 보호된 보낸 사람 도메인을 수정합니다. 이러한 설정은 인바운드 메시지의 보낸 사람 주소에서 검색할 특정 보낸 사람(개별적으로 또는 도메인별)을 식별하는 정책의 조건입니다. 자세한 내용은 Microsoft Defender for [Office 365.](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 
-   - **보호할 사용자 추가**: 기본값은 **Off입니다.** 이 기능을 켜려면 토글을 **켜고** 나타나는 사용자  추가 단추를 클릭합니다.
+   - **보호할 사용자 추가**: 기본값은 **Off** ![ Toggle Off입니다. ](../../media/scc-toggle-off.png) 토글을 켜려면 토글을 **켜기 켜기 으로** 밀고 나타나는 사용자 추가 ![ ](../../media/scc-toggle-on.png) 단추를 클릭합니다. 
 
      나타나는 **사용자 추가** 플라이아웃에서 다음 값을 구성합니다.
 
@@ -182,43 +182,48 @@ Microsoft Defender for Office 365에서 피싱 방지 보호의 효율성을 높
 
    - **보호할 도메인** 추가: 다음 설정 중 하나 또는 둘 다를 구성합니다.
 
-     - **소유한 도메인** 자동 포함: 기본값은 **Off입니다.** 켜기 위해 토글을 켜고 으로 **전환합니다.**
-     - **사용자 지정 도메인 포함**: 기본값은 **Off입니다.** 켜기하려면 토글을 **켜고** 도메인 추가 상자에 도메인 이름(예: contoso.com)을 입력하고 Enter를 누르고 필요에 따라 반복합니다. 
+     - **소유한 도메인** 자동 포함: 기본값은 **Off** ![ Toggle ](../../media/scc-toggle-off.png) Off입니다. 켜기 위해 토글을 **켜고 켜기 설정으로** ![ ](../../media/scc-toggle-on.png) 전환합니다.
+
+       소유한 도메인을 확인하려면 **소유한 도메인 보기를 선택합니다.**
+
+     - **사용자 지정 도메인 포함:** 기본값은 **Off** ![ Toggle ](../../media/scc-toggle-off.png) Off입니다. 토글을 설정하려면 토글을 **켜고** 도메인 추가 상자에 도메인 이름(예: contoso.com)을 입력하고 Enter를 누르고 필요에 따라 ![ ](../../media/scc-toggle-on.png) 반복합니다. 
 
      > [!NOTE]
      > 모든 피싱 방지 정책에는 최대 50개 도메인을 사용할 수 있습니다.
 
    - **작업:** 편집 **클릭**
 
-     - **가장된** 사용자가 전자 메일을 보낸 경우: 스푸핑된 보낸 사람이 보호할 사용자 추가에서 지정한 보호된 사용자 중 하나인 메시지에 대해 다음 작업 중 하나를 **구성합니다.**
+     - **가장된** 사용자가 전자 메일을 보낸 경우: 보낸 사람이 사용자 추가에서 지정한 보호된 사용자 중 하나인 메시지에 대해 다음 작업 중 하나를 **구성하여** 보호합니다.
 
        - **어떤 작업도 적용하지 않습니다.**
        - **메시지를 다른 전자 메일 주소로 리디렉션**
-       - **정크 메일 폴더로 메시지 이동**
+       - **받는 사람의 정크 메일 폴더로 메시지 이동**
        - **메시지 Quarantine the message**
        - **메시지를 배달하고 Bcc 줄에 다른 주소를 추가합니다.**
        - **배달되기 전에 메시지 삭제**
 
-     - **가장된** 도메인에서 전자 메일을 보내는 경우: 스푸핑된 보낸 사람이 보호할 도메인 추가에서 지정한 보호된 도메인 중 하나에 있는 메시지에 대해 다음 작업 중 하나를 **구성합니다.**
+     - **가장된** 도메인에서 전자 메일을 보내는 경우: 보낸 사람 도메인이 보호할 도메인 추가에서 지정한 보호된 도메인 중 하나에 있는 메시지에 대해 다음 작업 중 하나를 **구성합니다.**
 
        - **어떤 작업도 적용하지 않습니다.**
        - **메시지를 다른 전자 메일 주소로 리디렉션**
-       - **정크 메일 폴더로 메시지 이동**
+       - **받는 사람의 정크 메일 폴더로 메시지 이동**
        - **메시지 Quarantine the message**
        - **메시지를 배달하고 Bcc 줄에 다른 주소를 추가합니다.**
        - **배달되기 전에 메시지 삭제**
 
    - 가장 보안 팁 켜기 를 **클릭하고** 다음 설정을 구성합니다.
 
-     - **가장된** 사용자에 대한 팁 표시 : 기본값은 **Off입니다.** 켜기 위해 토글을 켜고 으로 **전환합니다.**
-     - **가장된** 도메인에 대한 팁 표시 : 기본값은 **Off입니다.** 켜기 위해 토글을 켜고 으로 **전환합니다.**
-     - **비정상적인 문자에 대한** 팁 표시 : 기본값은 **Off입니다.** 켜기 위해 토글을 켜고 으로 **전환합니다.**
+     - **가장된 사용자를 위한 팁 표시**
+     - **가장된 도메인에 대한 팁 표시**
+     - **비정상적인 문자에 대한 팁 표시**
 
-     작업을 마친 후 **저장** 을 클릭합니다.
+     모든 팁의 기본값은 **해제** ![ 토글 입니다. ](../../media/scc-toggle-off.png) 토글을 켜기 위해 토글을 **켜고 켜기 켜기 으로** [전환합니다.](../../media/scc-toggle-on.png)
+
+     작업을 마쳤으면 **저장** 을 클릭합니다.
 
    - **사서함 인텔리전스**:
 
-     - **사서함 인텔리전스 사용:** 기본값은 **입니다.** 끄기 위해 토글을 끄기 로 **밀어 끄기합니다.**
+     - **사서함 인텔리전스 사용:** 기본값은 **On** [Toggle On입니다.](../../media/scc-toggle-on.png) 이 기능을 끄기 위해 토글을 해제  ![ 토글 으로 밀어 끄기 를 ](../../media/scc-toggle-off.png) 합니다.
 
      - **사서함 인텔리전스 기반** 가장 보호 사용: 이 설정은 사서함 인텔리전스 사용이 설정되어 있는 **경우** 에서만 사용할 수 **있습니다.** 사서함 인텔리전스 결과에서 가장 검색에 대해 메시지에 대해 수행되는 작업을 지정하기 위해 이 설정을 으로 지정합니다.
 
@@ -226,7 +231,7 @@ Microsoft Defender for Office 365에서 피싱 방지 보호의 효율성을 높
 
        - 아무 작업도 **적용하지** 않습니다. 이 값은 사서함 인텔리전스 사용 설정과 결과가 같지만 사서함 인텔리전스 기반 가장 보호 사용은 **해제합니다.** 
        - **메시지를 다른 전자 메일 주소로 리디렉션**
-       - **정크 메일 폴더로 메시지 이동**
+       - **받는 사람의 정크 메일 폴더로 메시지 이동**
        - **메시지 Quarantine the message**
        - **메시지를 배달하고 Bcc 줄에 다른 주소를 추가합니다.**
        - **배달되기 전에 메시지 삭제**
@@ -253,18 +258,20 @@ Microsoft Defender for Office 365에서 피싱 방지 보호의 효율성을 높
 
    완료되면 페이지에서 **저장을** 클릭합니다.
 
-6. **스푸핑:**  편집을 클릭하여 스푸핑 인텔리전스를 켜거나 끄고, Outlook에서 확인되지 않은 보낸 사람 ID를 켜거나 끄고, 차단된 스푸핑된 보낸 사람이 보낸 메시지에 적용할 작업을 구성합니다. 자세한 내용은 피싱 방지 정책의 [스푸핑 설정을 참조하세요.](set-up-anti-phishing-policies.md#spoof-settings)
+6. **스푸핑:**  편집을 클릭하여 스푸핑 인텔리전스를 켜거나 끄고, Outlook 보낸 사람 ID를 켜거나 끄고, 차단된 스푸핑된 보낸 사람이 보낸 메시지에 적용할 작업을 구성합니다. 이러한 설정에 대한 자세한 내용은 피싱 방지 정책의 [스푸핑 설정을 참조하세요.](set-up-anti-phishing-policies.md#spoof-settings)
 
    이러한 동일한 설정은 EOP의 피싱 방지 정책에서도 사용할 수 있습니다.
 
-   - **스푸핑 필터 설정:** 기본값은 **On** 으로, 그대로 두는 것이 좋습니다. 끄기 위해 토글을 끄기 로 **밀어 끄기합니다.** 자세한 내용은 [EOP에서 스푸핑 인텔리전스 구성을 참조하세요.](learn-about-spoof-intelligence.md)
+   - **스푸핑 필터 설정:** 스푸핑 인텔리전스 사용 **설정을** 사용하여 스푸핑 인텔리전스를 설정하거나 해제합니다. 기본값은 **On** 으로 설정되어 있으며 그대로 두는 것이 좋습니다. 이 기능을 끄기 위해 토글을 해제  ![ 토글 으로 밀어 끄기 를 ](../../media/scc-toggle-off.png) 합니다.
 
      > [!NOTE]
-     > MX 레코드가 Microsoft 365를 사용하지 않는 경우 스푸핑 방지 보호 기능을 사용하지 않도록 설정할 필요가 없습니다. 대신 커넥터에 대해 향상된 필터링을 사용하도록 설정할 수 있습니다. 자세한 내용은 Exchange Online에서 커넥터에 대한 [향상된 필터링을 참조하세요.](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
+     > MX 레코드가 스푸핑 방지를 설정하지 않는 경우 스푸핑 방지 보호 기능을 해제할 Microsoft 365. 대신 커넥터에 대해 향상된 필터링을 사용하도록 설정할 수 있습니다. 자세한 내용은 [에서 커넥터에](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)대한 향상된 필터링을 Exchange Online.
 
-   - **Enable Unauthenticated Sender feature**: The default value is **On**. 끄기 위해 토글을 끄기 로 **밀어 끄기합니다.**
+   - **비인식 보낸** 사람 설정: 다음 설정을 구성할 수 있습니다.
+     - 인증되지 않은 보낸 사람 물음표(?) 기호 사용: 메시지가 SPF 또는 DKIM 확인을 통과하지 못하고 메시지가 DMARC 또는 복합  인증을 통과하지 않는 경우 Outlook 상자에 보낸 사람 사진에 물음표를 추가합니다. [](email-validation-and-authentication.md#composite-authentication) 기본값은 **설정** 입니다. 이 기능을 끄기 위해 토글을 해제  ![ 토글 으로 밀어 끄기 를 ](../../media/scc-toggle-off.png) 합니다.
+     - **"via"** 태그 사용: 보낸 편지함의 전자 메일 주소가 DKIM 서명의 도메인 또는 **MAIL FROM** 주소와 다른 경우 (chris@contoso.com 통해 fabrikam.com)를 추가합니다. 기본값은 **설정** 입니다. 이 기능을 끄기 위해 토글을 해제  ![ 토글 으로 밀어 끄기 를 ](../../media/scc-toggle-off.png) 합니다.
 
-   - **작업:** 스푸핑 인텔리전스에 실패한 메시지에 대해 수행할 작업을 지정합니다.
+   - **작업:** 차단된 스푸핑된 보낸 사람이 보낸 메시지에 대해 수행할 작업을 지정합니다.
 
      **도메인을 스푸핑할** 수 없는 사람이 전자 메일을 보낸 경우:
 
@@ -275,12 +282,13 @@ Microsoft Defender for Office 365에서 피싱 방지 보호의 효율성을 높
 
      - 각 **섹션에서 편집을** 클릭하여 관련 페이지로 다시 이동하면 됩니다.
      - 이 페이지에서 직접 다음 설정을  **설정 또는** 해제할 수 있습니다.
-       - **스푸핑 방지 보호 사용**
-       - **비인식 보낸 사람 기능 사용**
+       - **스푸핑 필터 설정**
+       - **비인식 보낸 사람 설정**
+       - **작업**
 
    완료되면 페이지에서 **저장을** 클릭합니다.
 
-7. **고급 설정:** **편집을 클릭하여** 고급 피싱 임계값을 구성합니다. 자세한 내용은 [Microsoft Defender for Office 365의](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)피싱 방지 정책의 고급 피싱 임계값을 참조하세요.
+7. **고급 설정:** **편집을 클릭하여** 고급 피싱 임계값을 구성합니다. 자세한 내용은 Microsoft Defender for [Office 365.](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 
    - **고급 피싱 임계값:** 다음 값 중 하나를 선택합니다.
 
@@ -295,11 +303,11 @@ Microsoft Defender for Office 365에서 피싱 방지 보호의 효율성을 높
 
 8. 정책 편집 **\<Name\> 페이지에서** 설정을 검토한 다음 닫기 를 **클릭합니다.**
 
-### <a name="use-the-security--compliance-center-to-modify-the-default-anti-phishing-policy-in-microsoft-defender-for-office-365"></a>보안 및 & 센터를 사용하여 Microsoft Defender for Office 365의 기본 피싱 방지 정책 수정
+### <a name="use-the-security--compliance-center-to-modify-the-default-anti-phishing-policy-in-microsoft-defender-for-office-365"></a>보안 및 & 센터를 사용하여 Microsoft Defender for Office 365
 
-Microsoft Defender for Office 365의 기본 피싱 방지 정책의 이름은 Office365 AntiPhish Default로 지정되어 있으며 정책 목록에는 나타나지 않습니다. 기본 피싱 방지 정책을 수정하려면 다음 단계를 수행합니다.
+Microsoft Defender for Office 365 기본 피싱 방지 정책의 이름은 Office365 AntiPhish Default로 지정되어 있으며 정책 목록에는 나타나지 않습니다. 기본 피싱 방지 정책을 수정하려면 다음 단계를 수행합니다.
 
-1. 보안 및 & 센터에서 위협 **관리** 정책 ATP 피싱 방지 로 \>  \> **이동합니다.**
+1. 보안 및 & 센터에서 위협 **관리** 정책 피싱 방지 로 이동 \>  \> **합니다.**
 
 2. 피싱 **방지 페이지에서** 기본 정책 **을 클릭합니다.**
 
@@ -317,19 +325,19 @@ Microsoft Defender for Office 365의 기본 피싱 방지 정책의 이름은 Of
 
 4. 정책 **편집 Office365 AntiPhish Default 페이지에서** 설정을 검토하고 닫기 를 **클릭합니다.**
 
-### <a name="enable-or-disable-custom-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에서 사용자 지정 피싱 방지 정책 사용 또는 사용 안 하도록 설정
+### <a name="enable-or-disable-custom-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 사용자 지정 피싱 방지 정책을 사용하도록 설정하거나 사용하지 않도록 Office 365
 
-1. 보안 및 & 센터에서 위협 **관리** 정책 ATP 피싱 방지 로 \>  \> **이동합니다.**
+1. 보안 및 & 센터에서 위협 **관리** 정책 피싱 방지 로 이동 \>  \> **합니다.**
 
 2. 상태 열의 **값을 확인할 수** 있습니다.
 
-   - 토글을 해제로 **밀어** 정책을 사용하지 않도록 설정합니다.
+   - 토글을 해제  ![ 토글 해제로 ](../../media/scc-toggle-off.png) 밀어 정책을 사용하지 않도록 합니다.
 
-   - 토글을 **으로 밀어 정책을** 사용하도록 설정합니다.
+   - 토글을 On  ![ Toggle On으로 ](../../media/scc-toggle-on.png) 밀어 정책을 사용하도록 설정합니다.
 
 기본 피싱 방지 정책은 사용하지 않도록 설정할 수 없습니다.
 
-### <a name="set-the-priority-of-custom-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365에서 사용자 지정 피싱 방지 정책의 우선 순위 설정
+### <a name="set-the-priority-of-custom-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Defender for Office 365
 
 기본적으로 피싱 방지 정책에는 만들어진 순서에 따라 우선 순위가 부여됩니다(새 정책은 이전 정책보다 우선 순위가 낮음). 낮은 우선순위 번호는 정책의 높은 우선순위(0이 가장 높음)를 나타내고 정책은 우선순위 순서에 따라 처리됩니다(높은 우선순위 정책은 낮은 우선순위 정책보다 먼저 처리됨). 두 정책의 우선순위는 동일 할 수 없으며, 첫 번째 정책이 적용된 후에는 정책 처리가 중지됩니다.
 
@@ -341,7 +349,7 @@ Microsoft Defender for Office 365의 기본 피싱 방지 정책의 이름은 Of
 
 정책의 우선 순위를 변경하려면 정책  속성에서 우선 순위 늘리기 또는 우선 순위  감소를 클릭합니다(보안 및 준수 센터에서 우선 순위 번호를 직접 수정할 & 없습니다).  정책의 우선 순위를 변경하는 것은 여러 정책이 있는 경우만 의미가 있습니다.
 
-1. 보안 및 & 센터에서 위협 **관리** 정책 ATP 피싱 방지 로 \>  \> **이동합니다.**
+1. 보안 및 & 센터에서 위협 **관리** 정책 피싱 방지 로 이동 \>  \> **합니다.**
 
 2. 수정할 정책을 선택합니다. 이미 선택되어 있는 경우 선택을 선택하고 다시 선택합니다.
 
@@ -357,11 +365,11 @@ Microsoft Defender for Office 365의 기본 피싱 방지 정책의 이름은 Of
 
 5. 작업을 마쳤으면 **닫기** 를 클릭합니다.
 
-## <a name="use-the-security--compliance-center-to-view-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>보안 및 & 센터를 사용하여 Microsoft Defender for Office 365에서 피싱 방지 정책 보기
+## <a name="use-the-security--compliance-center-to-view-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>보안 및 & 센터를 사용하여 Microsoft Defender에서 피싱 방지 정책을 Office 365
 
-1. 보안 & 준수 센터에서 위협 관리  정책 ATP 피싱 방지 \>  \> **로 이동 합니다.**
+1. 보안 및 & 센터에서 위협 관리  정책 피싱 방지 \>  \> **로 이동 합니다.**
 
-2. 다음 단계 중 하나를 수행합니다.
+2. 다음 단계 중 하나를 실행합니다.
 
    - 보하려는 사용자 지정 피싱 방지 정책을 선택합니다. 이미 선택되어 있는 경우 선택을 선택하고 다시 선택합니다.
 
@@ -369,9 +377,9 @@ Microsoft Defender for Office 365의 기본 피싱 방지 정책의 이름은 Of
 
 3. 설정 **및 \<name\> 값을** 볼 수 있는 정책 편집 플라이아웃이 나타납니다.
 
-## <a name="use-the-security--compliance-center-to-remove-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>보안 및 & 센터를 사용하여 Microsoft Defender for Office 365에서 피싱 방지 정책 제거
+## <a name="use-the-security--compliance-center-to-remove-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>보안 및 & 센터를 사용하여 Microsoft Defender에서 피싱 방지 정책을 Office 365
 
-1. 보안 및 & 센터에서 위협 **관리** 정책 ATP 피싱 방지 로 \>  \> **이동합니다.**
+1. 보안 및 & 센터에서 위협 **관리** 정책 피싱 방지 로 이동 \>  \> **합니다.**
 
 2. 제거할 정책을 선택합니다. 이미 선택되어 있는 경우 선택을 선택하고 다시 선택합니다.
 
@@ -379,11 +387,11 @@ Microsoft Defender for Office 365의 기본 피싱 방지 정책의 이름은 Of
 
 기본 정책은 제거할 수 없습니다.
 
-## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Exchange Online PowerShell을 사용하여 Office 365용 Microsoft Defender에서 피싱 방지 정책 구성
+## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Microsoft Exchange Online PowerShell을 사용하여 Microsoft Defender에서 피싱 방지 정책을 Office 365
 
 앞서 설명한 바와 같이 스팸 방지 정책은 피싱 방지 정책과 피싱 방지 규칙으로 구성됩니다.
 
-Exchange Online PowerShell에서는 피싱 방지 정책과 피싱 방지 규칙의 차이점이 분명합니다. **\* -AntiPhishPolicy** cmdlet을 사용하여 피싱 방지 정책을 관리하고 - **\* AntiPhishRule** cmdlet을 사용하여 피싱 방지 규칙을 관리합니다.
+PowerShell에서 Exchange Online 피싱 방지 정책과 피싱 방지 규칙의 차이는 분명합니다. **\* -AntiPhishPolicy** cmdlet을 사용하여 피싱 방지 정책을 관리하고 - **\* AntiPhishRule** cmdlet을 사용하여 피싱 방지 규칙을 관리합니다.
 
 - PowerShell에서 먼저 피싱 방지 정책을 만든 다음 규칙이 적용되는 정책을 식별하는 피싱 방지 규칙을 생성합니다.
 - PowerShell에서는 피싱 방지 정책 및 피싱 방지 규칙의 설정을 별도로 수정합니다.
@@ -396,7 +404,7 @@ PowerShell에서 피싱 방지 정책을 만드는 과정은 다음 두 단계�
 1. 피싱 방지 정책을 생성합니다.
 2. 규칙이 적용되는 피싱 방지 정책을 지정하는 피싱 방지 규칙을 생성합니다.
 
- **참고:**
+ **참고**:
 
 - 새 피싱 방지 규칙을 만들고 기존의 통합되지 않은 피싱 방지 정책을 할당할 수 있습니다. 피싱 방지 규칙은 두 개 이상의 피싱 방지 정책과 연결될 수 없습니다.
 
@@ -619,14 +627,14 @@ Remove-AntiPhishRule -Identity "Marketing Department"
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 
-Microsoft Defender for Office 365에서 피싱 방지 정책을 성공적으로 구성한 경우 다음 단계를 수행합니다.
+Microsoft Defender에서 피싱 방지 정책을 성공적으로 구성한 Office 365 다음 단계를 수행합니다.
 
-- 보안 및 & 센터에서 위협 **관리** 정책 ATP 피싱 방지 로 \>  \> **이동합니다.** 정책 목록, 해당 **상태 값** 및 우선 순위 값을 **검증합니다.** 자세한 내용을 확인하기 위해 다음 단계 중 하나를 수행합니다.
+- 보안 및 & 센터에서 위협 **관리** 정책 피싱 방지 로 이동 \>  \> **합니다.** 정책 목록, 해당 **상태 값** 및 우선 순위 값을 **검증합니다.** 자세한 내용을 확인하기 위해 다음 단계 중 하나를 수행합니다.
 
   - 목록에서 정책을 선택하고 플라이아웃에서 세부 정보를 볼 수 있습니다.
   - 기본 **정책을 클릭하고** 플라이아웃에서 세부 정보를 하세요.
 
-- Exchange Online PowerShell에서 정책 또는 규칙의 이름으로 바꾸고 다음 명령을 실행하고 \<Name\> 설정을 확인합니다.
+- PowerShell Exchange Online 정책 또는 규칙의 이름으로 바꾸고 다음 명령을 실행하여 \<Name\> 설정을 확인합니다.
 
   ```PowerShell
   Get-AntiPhishPolicy -Identity "<Name>"

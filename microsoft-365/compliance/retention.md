@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 89a3544c390fdeceea3741a950aad8fe29da25c4
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 2695d34e29492a88da86c2511ce32e4036031e9d
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245591"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572660"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
 > [!NOTE]
-> Teams에서 보존 정책에 대한 메시지가 표시되거나 앱의 보존 레이블에 대한 질문이 있는 경우 IT 부서에 문의하여 구성 방법에 대한 정보를 확인하세요. 그 때까지는 다음 문서가 도움이 될 수 있습니다.
+> Teams에서 보존 정책에 대한 메시지가 표시되거나 앱의 보존 레이블에 대한 질문이 있는 경우 IT 부서에 문의하여 구성 방법에 대한 정보를 확인하세요. 그동안에는 다음 문서가 도움이 될 수 있습니다.
 > -  [보존 정책에 대한 Teams 메시지](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)
 > - [SharePoint 또는 OneDrive의 파일에 보존 레이블 적용](https://support.microsoft.com/office/apply-retention-labels-to-files-in-sharepoint-or-onedrive-11a6835b-ec9f-40db-8aca-6f5ef18132df)
 >
@@ -64,7 +64,7 @@ ms.locfileid: "52245591"
 
 ## <a name="how-retention-settings-work-with-content-in-place"></a>보존 설정이 콘텐츠와 함께 작동하는 방법
 
-콘텐츠에 보존 설정이 할당된 경우 해당 콘텐츠는 원래 위치에 그대로 유지됩니다. 사용자는 아무것도 변경된 사항이 없는 것처럼 계속해서 문서나 사서함을 사용하여 작업할 수 있습니다. 그러나 보존 정책에 포함되는 콘텐츠를 편집하거나 삭제하는 경우 해당 콘텐츠의 사본은 자동으로 보존됩니다.
+콘텐츠에 할당된 보존 설정이 있는 경우 해당 콘텐츠는 원래 위치에 유지됩니다. 사용자는 문서 또는 메일을 변경하지 않은 것처럼 계속 작업할 수 있습니다. 그러나 보존 정책에 포함된 내용을 편집하거나 삭제하면 콘텐츠의 복사본이 자동으로 유지됩니다.
   
 - SharePoint 및 OneDrive 사이트의 경우: 사본은 **자료 보존** 라이브러리에 보존됩니다.
 
@@ -394,11 +394,15 @@ eDiscovery 보존 대상 항목도 보존의 첫 번째 원칙에 속하므로 �
 
 - [Get-ComplianceTagStorage](/powershell/module/exchange/get-compliancetagstorage)
 
+- [Get-RecordReviewNotificationTemplateConfig](/powershell/module/exchange/get-recordreviewnotificationtemplateconfig)
+
 - [Get-RetentionCompliancePolicy](/powershell/module/exchange/get-retentioncompliancepolicy)
 
 - [New-RetentionCompliancePolicy](/powershell/module/exchange/new-retentioncompliancepolicy)
 
 - [Remove-RetentionCompliancePolicy](/powershell/module/exchange/remove-retentioncompliancepolicy)
+
+- [Set-RecordReviewNotificationTemplateConfig](/powershell/module/exchange/set-recordreviewnotificationtemplateconfig )
 
 - [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy)
 
@@ -409,6 +413,7 @@ eDiscovery 보존 대상 항목도 보존의 첫 번째 원칙에 속하므로 �
 - [Remove-RetentionComplianceRule](/powershell/module/exchange/remove-retentioncompliancerule)
 
 - [Set-RetentionComplianceRule](/powershell/module/exchange/set-retentioncompliancerule)
+
 
 ## <a name="when-to-use-retention-policies-and-retention-labels-or-ediscovery-holds"></a>보존 정책 및 보존 레이블 또는 eDiscovery 보류를 사용하는 경우
 

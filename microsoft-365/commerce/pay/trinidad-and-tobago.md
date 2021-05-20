@@ -1,23 +1,24 @@
 ---
 title: 트리니다드 토바고의 결제 정보
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: 구독에 대한 결제를 보낼 위치를 자세히 알아보습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9493182a1e4287e0f91e95a9f0f0f41404cf9ed6
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 87803ce852e9124918feeb332bcb107532da8587
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52272723"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537718"
 ---
 # <a name="payment-information-for-trinidad-and-tobago"></a>트리니다드 토바고의 결제 정보
 
@@ -31,4 +32,4 @@ ms.locfileid: "52272723"
 **SWIFT 코드:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **계정 번호:** 12510049  
-**계정 이름:** MICROSOFT  
+**계정 이름:** MICROSOFT

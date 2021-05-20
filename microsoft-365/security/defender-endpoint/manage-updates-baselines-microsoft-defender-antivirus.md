@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 05/10/2021
-ms.openlocfilehash: 5b599e9d5a5c3d098033af1f1df96ee9f26025ee
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.date: 05/13/2021
+ms.openlocfilehash: 17a76b39b51293de82cf9b3e5f0e323ec3d28844
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52312015"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538042"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>업데이트 Microsoft Defender 바이러스 백신 관리하고 기준 적용
 
@@ -83,11 +83,11 @@ Microsoft Defender 바이러스 백신  [업데이트(KB4052623)(플랫폼](http
 - 통합 개선된 기능(클라우드, Microsoft 365 Defender).
 <br/>
 <details>
-<summary> 2021년 4월(플랫폼: 4.18.2104.9 | 엔진: 1.1.18100.5)</summary>
+<summary> 2021년 4월(플랫폼: 4.18.2104.14 | 엔진: 1.1.18100.5)</summary>
 
 &ensp;보안 인텔리전스 업데이트 버전: **1.337.2.0**  
 &ensp;릴리스: **2021년 4월 1일**  
-&ensp;플랫폼: **4.18.2104.9**  
+&ensp;플랫폼: **4.18.2104.14**  
 &ensp;엔진: **1.1.18100.5**  
 &ensp;지원 단계: **보안 및 중요 업데이트**
     

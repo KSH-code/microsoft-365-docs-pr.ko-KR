@@ -1,7 +1,7 @@
 ---
 title: Microsoft SharePoint Syntex 소개
-ms.author: efrene
-author: efrene
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: ssquires, toresing
 audience: admin
@@ -13,16 +13,16 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Microsoft SharePoint Syntex에 대한 리소스를 찾는 방법을 알아봅니다.
-ms.openlocfilehash: 4282da5ca1027eaf041241e90011ead8f2942985
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 350dd1a526b56525f0aca7a167841e3a77833533
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905731"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538078"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Microsoft SharePoint Syntex 소개
 
-Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이 되는 Office 365 서비스입니다.
+Microsoft SharePoint Syntex는 조직에서 다음을 수행하는 데 도움이 되는 Microsoft 365 서비스입니다.
 
 - 고급 인공 지능 및 컴퓨터 교육을 사용하여 인간의 경험을 확대
 - 콘텐츠 처리 자동화

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: 공유 사서함을 만들어 회사의 여러 사용자가 하나의 주소로 전송된 전자 메일을 읽고 답장하는 업무를 나눌 수 있습니다.
-ms.openlocfilehash: 004473b329b14be9287f249b1d640c3b0803412a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 808b98b45c3d6f5ba3cd9847ba2aa843ff53d106
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915881"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537610"
 ---
 # <a name="create-a-shared-mailbox"></a>공유 사서함 만들기 
 
@@ -198,14 +198,14 @@ Outlook의 공유 사서함에 대한 자세한 내용은 다음을 참조하세
 
 3. 공유 사서함의 모든 구성원은 개인 약속과 마찬가지로 일정에 대한 약속을 만들고보고 관리할 수 있습니다. 공유 사서함의 구성원인 모든 사용자는 공유 일정에 따른 변경 내용을 볼 수 있습니다.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[공유 사서함 정보](about-shared-mailboxes.md)
+[공유 사서함 정보](about-shared-mailboxes.md)(문서)
 
-[공유 사서함 구성](configure-a-shared-mailbox.md)
+[공유 사서함 구성](configure-a-shared-mailbox.md)(문서)
 
-[사용자 사서함을 공유 사서함으로 변환](convert-user-mailbox-to-shared-mailbox.md)
+[사용자 사서함을 공유 사서함으로 변환](convert-user-mailbox-to-shared-mailbox.md)(문서)
 
-[공유 사서함에서 라이선스 제거](remove-license-from-shared-mailbox.md)
+[공유 사서함에서 라이선스 제거](remove-license-from-shared-mailbox.md)(문서)
 
-[공유 사서함의 문제 해결](resolve-issues-with-shared-mailboxes.md)
+[공유 사서함 문제 해결](resolve-issues-with-shared-mailboxes.md)(문서)

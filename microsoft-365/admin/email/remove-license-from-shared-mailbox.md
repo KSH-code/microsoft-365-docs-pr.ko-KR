@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: '공유 사서함에서 라이선스를 제거하여 다른 사용자에게 할당합니다. '
-ms.openlocfilehash: 2d0e6e6b1d6222bea80265bf6cc008e21ac3239c
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: d552cfb77ff0ab2853939c6cb25fd4737f8c17d3
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332657"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537586"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>공유 사서함에서 라이선스 제거
 
@@ -47,6 +47,20 @@ ms.locfileid: "52332657"
 
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+
+::: moniker-end
+
    > [!NOTE]
    > 활성 사용자 페이지에서 라이선스를 제거해야 합니다. 라이선스는 사용자 설정이기 때문에 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다.
   
@@ -59,46 +73,6 @@ ms.locfileid: "52332657"
 5. 활성 사용자 페이지로 **돌아오면** 공유 사서함의 상태가 라이선스가 없는 **상태가 됩니다.**
 
 6. 라이선스 비용은 계속 지불하고 있습니다. 요금 지불을 중지하려면 구독에서 [라이선스를 제거합니다.](../../commerce/licenses/buy-licenses.md)
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
-
-    > [!NOTE]
-    > 활성 사용자 페이지에서 라이선스를 제거해야 합니다. 라이선스는 사용자 설정이기 때문에 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다.
-
-2. 공유 사서함을 선택한 다음 제품 **라이선스** 옆에 있는 **편집을 선택합니다.**
-
-3. 제품 라이선스 **페이지 중** 하나를 제거하려는  라이선스에 대해 토글을 해제로 설정하십시오.
-
-4. **저장** 을 선택합니다.
-
-5. 활성 사용자 페이지로 **돌아오면** 공유 사서함의 상태가 라이선스가 없는 **상태가 됩니다.**
-
-6. 라이선스 비용은 계속 지불하고 있습니다. 요금 지불을 중지하려면 구독에서 [라이선스를 제거합니다.](../../commerce/licenses/buy-licenses.md)
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
-
-    > [!NOTE]
-    > 활성 사용자 페이지에서 라이선스를 제거해야 합니다. 라이선스는 사용자 설정이기 때문에 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다.
-
-2. 공유 사서함을 선택한 다음 제품 **라이선스** 옆에 있는 **편집을 선택합니다.**
-
-3. 제품 라이선스 **페이지 중** 하나를 제거하려는  라이선스에 대해 토글을 해제로 설정하십시오.
-
-4. **저장** 을 선택합니다.
-
-5. 활성 사용자 페이지로 **돌아오면** 공유 사서함의 상태가 라이선스가 없는 **상태가 됩니다.**
-
-6. 라이선스 비용은 계속 지불하고 있습니다. 요금 지불을 중지하려면 구독에서 [라이선스를 제거합니다.](../../commerce/licenses/buy-licenses.md)
-
-::: moniker-end
 
 ## <a name="related-articles"></a>관련 문서
 

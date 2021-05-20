@@ -68,7 +68,7 @@
       href: billing-and-payments/psd2.md
 - name: 청구 계정
   items:
-    - name: 청구 계정 관리
+    - name: 청구 계정 이해
       href: manage-billing-accounts.md
     - name: 테넌트를 내 청구 계정에 연결
       href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business

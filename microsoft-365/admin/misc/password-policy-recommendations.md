@@ -20,13 +20,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
-description: 암호 공격으로부터 조직을 더 안전하게 보호하는 방법과 일반적인 암호를 금지하고 위험 기반 다단계 인증을 사용해야 하는 이유를 알아봅니다.
-ms.openlocfilehash: d3f86a6e85ab2f8e469a57ea98a661e4cc453673
-ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
+description: 암호 공격에 대한 조직의 보안을 강화하고 공통 암호를 금지하고 위험 기반 다단계 인증을 사용하세요.
+ms.openlocfilehash: 1927e481625e93afa8aa064666e75ea8f891669e
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52073868"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572300"
 ---
 # <a name="password-policy-recommendations"></a>권장 암호 정책
 
@@ -74,7 +74,7 @@ Microsoft 365 암호에 대한 자세한 내용은 다음을 참조 하세요.
 
 ### <a name="password-guidance-for-your-users"></a>사용자를 위한 암호 지침
 
-조직의 사용자를 위한 몇 가지 암호 지침입니다. 사용자가 이러한 권장 사항을 알고 있어야 하며 조직 수준에서 권장 암호 정책을 시행해야 합니다.
+다음은 조직의 사용자를 위한 몇 가지 암호 지침입니다. 사용자가 이러한 권장 사항을 알고 있어야 하며 조직 수준에서 권장 암호 정책을 시행해야 합니다.
   
 - 다른 웹 사이트에서 사용하는 것과 같거나 비슷한 암호를 사용하지 마세요.
 

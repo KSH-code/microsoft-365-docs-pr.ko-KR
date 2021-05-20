@@ -17,13 +17,14 @@ ms.collection:
 - m365solution-securecollab
 ms.custom:
 - Ent_Solutions
+recommendations: false
 description: 매우 중요한 데이터를 보호하는 팀을 배치하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: fdc3c1ab2c780289b7405623779b8af89da8ba17
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d83c10df50d02f47a6d70ee80b2ddbf89fff37d0
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916289"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538198"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>매우 중요한 데이터를 보호하는 팀 구성하기
 
@@ -33,7 +34,7 @@ ms.locfileid: "50916289"
 
 매우 중요 계층에서는 초기 계층에 대한 다음과 같은 추가 보호를 제공합니다.
 
-- 게스트 공유를 설정하거나 해제하고 관리되지 않는 장치의 SharePoint 콘텐츠에 대한 액세스를 차단하는 팀의 민감도 레이블입니다. 이 레이블은 파일을 분류하고 암호화하는 데도 사용할 수 있습니다.
+- 게스트 공유를 설정하거나 해제하고 관리되지 않는 장치의 SharePoint 콘텐츠에 대한 액세스를 제한하는 팀의 민감도 레이블입니다. 이 레이블은 파일을 분류하고 암호화하는 데도 사용할 수 있습니다.
 - 더욱 제한적인 기본 공유 링크 유형
 - 팀 소유자만 비공개 채널을 만들 수 있습니다.
 - 연결된 SharePoint 사이트에 대한 액세스 요청은 꺼져 있습니다.

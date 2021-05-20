@@ -21,18 +21,18 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: 데이터 손실 방지 참조 자료
-ms.openlocfilehash: a039b8d99bd92be0040f6207803981e8a2937c6f
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+description: 데이터 손실 방지 기준 자료
+ms.openlocfilehash: a6dc0b2702899e05f78c54331fb33b87495672d8
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296771"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572564"
 ---
 # <a name="data-loss-prevention-reference"></a>데이터 손실 방지 참조
  
 > [!IMPORTANT]
-> 이 참조 항목은 더 이상 DLP(데이터 손실 방지) 정보의 기본 Microsoft 365 않습니다. DLP 콘텐츠 집합이 업데이트 및 재구성 중입니다. 이 문서에서 다루는 항목은 업데이트된 새로운 문서로 이동될 것입니다. DLP에 대한 자세한 내용은 데이터 손실 [방지에 대한 자세한 정보를 참조하세요.](dlp-learn-about-dlp.md)
+> 이는 참조 주제가 더 이상 데이터 손실 방지(DLP) 정보를 Microsoft 365 주요 리소스가 아닙니다. DLP 콘텐츠 집합이 업데이트되고 재구성되고 있습니다. 이 문서에서 다루는 주제는 업데이트된 새 문서로 이동합니다. DLP에 대한 자세한 내용은 [데이터 손실 방지에 대해 알아보십시오.](dlp-learn-about-dlp.md)
 
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
 <!-- move this note to a more appropriate place, no topic should start with a note -->
@@ -385,7 +385,7 @@ DLP 정책에서 이전에 생성 및 게시 된 [보존 레이블](retention.md
 
 ### <a name="using-a-sensitivity-label-as-a-condition-in-a-dlp-policy"></a>민감도 레이블을 DLP 정책의 조건으로 사용
 
-[DLP 정책에서](./dlp-sensitivity-label-as-condition.md) 민감도 레이블을 조건으로 사용하는 방법을 자세히 알아보습니다.
+DLP 정책의 조건으로 감도 라벨을 사용하는 방법에 대해 [자세히 알아보세요.](./dlp-sensitivity-label-as-condition.md)
   
 ### <a name="how-this-feature-relates-to-other-features"></a>해당 기능이 다른 기능과 관련되는 방식
 
@@ -441,28 +441,30 @@ DLP 정책을 생성하는 첫 번째 단계는 보호할 정보를 선택하는
   
 조직에 고유한 요구 사항이 있을 경우 **사용자 지정 정책** 옵션을 선택하여 DLP 정책을 처음부터 새로 만들 수 있습니다. 사용자 지정 정책은 비어 있으며, 미리 구성된 규칙이 포함되어 있지 않습니다. 
   
-## <a name="roll-out-dlp-policies-gradually-with-test-mode"></a>테스트 모드를 사용하여 점차적으로 DLP 정책 롤아웃
+<!-- ## Roll out DLP policies gradually with test mode
 
-DLP 정책을 만든 후에는 완전히 적용하기 전에 서서히 롤아웃하면서 영향을 평가하고 효율성을 테스트하는 것이 좋습니다. 예를 들어 새 DLP 정책으로 인해 사용자들이 작업을 완료하기 위해 액세스해야 하는 많은 문서에 대한 액세스를 실수로 차단하는 것을 원치 않을 것입니다.
+rehomed to Plan for DLP
+
+When you create your DLP policies, you should consider rolling them out gradually to assess their impact and test their effectiveness before fully enforcing them. For example, you don't want a new DLP policy to unintentionally block access to thousands of documents that people require access to in order to get their work done.
   
-영향이 클 수 있는 DLP 정책을 생성하는 경우에는 다음과 같은 순서를 따르는 것이 좋습니다:
+If you're creating DLP policies with a large potential impact, we recommend following this sequence:
   
-1. **정책 팁이 없는 테스트 모드에서 시작** 하고 DLP 보고서 및 모든 사고 보고서를 사용하여 영향을 평가합니다. DLP 보고서를 사용하여 정책 일치의 횟수, 위치, 유형 및 심각도를 확인할 수 있습니다. 결과에 따라 필요에 맞게 규칙을 미세 조정할 수 있습니다. 테스트 모드에서 DLP 정책은 조직에서 작업하는 사용자의 생산성에 영향을 주지 않습니다. 
+1. **Start in test mode without Policy Tips** and then use the DLP reports and any incident reports to assess the impact. You can use DLP reports to view the number, location, type, and severity of policy matches. Based on the results, you can fine tune the rules as needed. In test mode, DLP policies will not impact the productivity of people working in your organization. 
     
-2. **알림 및 정책 팁을 사용하여 테스트 모드로 전환** 하여 사용자에게 규정 준수 정책을 교육하고 적용될 규칙을 준비하도록 할 수 있습니다. 이 단계에서 규칙을 미세 조정할 수 있도록 사용자에게 가양성을 보고하도록 요청할 수도 있습니다. 
+2. **Move to Test mode with notifications and Policy Tips** so that you can begin to teach users about your compliance policies and prepare them for the rules that are going to be applied. At this stage, you can also ask users to report false positives so that you can further refine the rules. 
     
-3. 규칙에서 작업이 적용되고 콘텐츠가 보호되도록 **정책에 대한 전체 적용을 시작합니다**. DLP 보고서 및 모든 사고 보고서나 알림을 계속 모니터링하여 결과가 의도한 대로 나타나는지 확인합니다. 
+3. **Start full enforcement on the policies** so that the actions in the rules are applied and the content's protected. Continue to monitor the DLP reports and any incident reports or notifications to make sure that the results are what you intend. 
 
-    ![테스트 모드를 사용하고 정책을 설정하기 위한 옵션](../media/49fafaac-c6cb-41de-99c4-c43c3e380c3a.png)
+    ![Options for using test mode and turning on policy](../media/49fafaac-c6cb-41de-99c4-c43c3e380c3a.png)
 
-    언제든지 DLP 정책을 종료할 수 있습니다. 이 경우 정책의 모든 규칙들이 영향을 받습니다. 하지만 규칙 편집기에서 상태를 전환하여 각 규칙을 개별적으로 종료할 수도 있습니다.
+    You can turn off a DLP policy at any time, which affects all rules in the policy. However, each rule can also be turned off individually by toggling its status in the rule editor.
 
-    ![정책에서 규칙을 종료하기 위한 옵션](../media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
+    ![Options for turning off a rule in a policy](../media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
 
-    정책에서 여러 규칙의 우선 순위를 변경할 수도 있습니다. 이를 위해 편집할 정책을 엽니다. 규칙의 행에서 줄임표(**...**)를 선택하고 **아래로 이동** 또는 **마지막 규칙 가져오기** 와 같은 옵션을 선택하십시오.
+    You can also change the priority of multiple rules in a policy. To do that, open a policy for editing. In a row for a rule, choose the ellipses (**...**), and then choose an option, such as **Move down** or **Bring to last**.
 
     > [!div class="mx-imgBorder"]
-    > ![규칙 우선 순위 설정](../media/dlp-set-rule-priority.png)
+    > ![Set rule priority](../media/dlp-set-rule-priority.png)-->
   
 ## <a name="dlp-reports"></a>DLP 보고서
 
@@ -518,7 +520,7 @@ SharePoint Online 사이트 및 비즈니스용 OneDrive 사이트 전체에 걸
 DLP는 인덱스를 지정할 수 있는 모든 콘텐츠를 평가합니다. 기본적으로 크롤링되는 파일 형식에 대한 자세한 내용은 [SharePoint Server의 크롤링되는 기본 파일 이름의 확장명 및 구문 분석되는 파일 형식](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)을 참고하십시오.
 
 > [!NOTE]
-> DLP 정책이 문서를 분석하기 전에 문서를 공유하지 못하게 하기 위해 콘텐츠가 인덱싱될 때까지 SharePoint 파일의 공유를 차단할 수 있습니다. 자세한 내용은 [신규 파일을 기본으로 민감하게 설정하기](/sharepoint/sensitive-by-default)를 참고하세요. 
+> DLP 정책이 문서를 분석하기 전에 문서를 공유하지 못하도록 하기 위해 SharePoint 새 파일을 공유하는 것이 콘텐츠가 인덱싱될 때까지 차단될 수 있습니다. 자세한 내용은 [신규 파일을 기본으로 민감하게 설정하기](/sharepoint/sensitive-by-default)를 참고하세요. 
   
 ### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Exchange, Outlook 및 웹 상 Outlook의 정책 평가
 

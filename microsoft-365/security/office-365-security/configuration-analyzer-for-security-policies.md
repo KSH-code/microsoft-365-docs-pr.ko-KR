@@ -18,14 +18,14 @@ ms.collection:
 description: 관리자는 구성 분석기를 사용하여 표준 보호 및 엄격한 보호 미리 설정 보안 정책 아래에 있는 보안 정책을 찾아 수정하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 65fd67c93711dc847a25be485b4b016af55e4a31
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: fd0cf4f3194a7a8eec39f2d0c447dca2dae5948b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205062"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537934"
 ---
-# <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Office 365용 Microsoft Defender의 보호 정책에 대한 구성 분석기
+# <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>EOP 및 Microsoft Defender for Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -38,15 +38,15 @@ ms.locfileid: "51205062"
 
 구성 분석기에서는 다음과 같은 유형의 정책을 분석합니다.
 
-- **EOP(Exchange Online Protection)** 정책: Exchange Online 사서함이 있는 Microsoft 365 조직과 Exchange Online 사서함이 없는 독립 실행형 EOP 조직이 포함됩니다.
+- **Exchange Online Protection(EOP)** 정책: Microsoft 365 사서함이 없는 Exchange Online 독립 실행형 EOP Exchange Online 포함됩니다.
 
   - [스팸 방지 정책](configure-your-spam-filter-policies.md).
   - [맬웨어 방지 정책](configure-anti-malware-policies.md).
   - [EOP 피싱 방지 정책](set-up-anti-phishing-policies.md#spoof-settings).
 
-- **Microsoft Defender for Office 365 정책:** 여기에는 Microsoft 365 E5 또는 Office 365용 Defender 추가 기능 구독이 있는 조직이 포함됩니다.
+- **Microsoft Defender for Office 365** 정책: Microsoft 365 E5 추가 기능 구독에 대한 Office 365 조직이 포함됩니다.
 
-  - Office 365용 Microsoft Defender의 피싱 방지 정책에는 다음이 포함됩니다.
+  - Microsoft Defender for Office 365 피싱 방지 정책에는 다음이 포함됩니다.
 
     - EOP [](set-up-anti-phishing-policies.md#spoof-settings) 피싱 방지 정책에서 사용할 수 있는 동일한 스푸핑 설정입니다.
     - [가장 설정](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
@@ -56,7 +56,7 @@ ms.locfileid: "51205062"
 
   - [안전한 첨부 파일 정책](set-up-safe-attachments-policies.md).
 
-기준으로  사용되는 표준 및 엄격한 정책 설정 값은 [EOP 및 Office 365용 Microsoft Defender](recommended-settings-for-eop-and-office365.md)보안에 대한 권장 설정에 설명되어 있습니다. 
+기준으로  사용되는 **표준** 및 엄격한 정책 설정 값은 EOP 및 Microsoft Defender for [Office 365 설정에 설명되어 있습니다.](recommended-settings-for-eop-and-office365.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
@@ -92,15 +92,15 @@ ms.locfileid: "51205062"
 
 기본적으로 표준 보호 프로필과 비교할 때 탭이 열립니다. 엄격한 권장 사항 보기를 클릭하여 Strict protection 프로필 **비교로 전환할 수 있습니다.** 다시 전환하려면 표준 권장 **사항 보기 를 선택합니다.**
 
-![구성 분석기에서 설정 및 권장 사항 보기](../../media/configuration-analyzer-settings-and-recommendations-view.png)
+![설정 분석기에서 보기 및 추천 보기](../../media/configuration-analyzer-settings-and-recommendations-view.png)
 
 기본적으로 정책 **그룹/설정** 이름 열에는 다양한 유형의 보안 정책 및 개선이 필요한 설정 수(있는 경우)의 축소된 보기가 포함되어 있습니다. 정책의 유형은 다음입니다.
 
 - **스팸 방지**
 - **피싱 방지**
 - **맬웨어 방지**
-- **ATP 안전한 첨부** 파일(구독에 Office 365용 Microsoft Defender가 포함된 경우)
-- **ATP 안전한** 링크(구독에 Office 365용 Microsoft Defender가 포함된 경우)
+- **ATP 안전한 첨부** 파일(구독에 Microsoft Defender for Office 365)
+- **ATP 안전한** 링크(구독에 Microsoft Defender for Office 365)
 
 기본 보기에서는 모든 것이 축소됩니다. 각 정책 옆에는 정책(수정할 수 있는)과 표준 또는 엄격한 보호 프로필에 대한 해당 정책의 설정(수정할 수 없는)의 비교 결과가 요약됩니다. 비교할 보호 프로필에 대한 다음 정보가 표시됩니다.
 
@@ -124,7 +124,7 @@ ms.locfileid: "51205062"
 
 - **마지막으로 수정한** 날짜: 정책이 마지막으로 수정된 날짜입니다.
 
-- **권장** 사항: 표준 또는 엄격한 보호 프로필의 설정 값입니다. 정책의 설정 값을 보호 프로필의 권장 값과 일치하게 변경하려면 채택을 **클릭합니다.** 변경에 성공하면 다음 메시지가 **표시됩니다. Recommendations successfully adopted**. 새로 **고침을** 클릭하여 감소된 권장 사항 수와 결과에서 특정 설정/정책 행을 제거합니다.
+- **권장 사항**: 표준 또는 엄격한 보호 프로필의 설정 값입니다. 정책의 설정 값을 보호 프로필의 권장 값과 일치하게 변경하려면 채택을 **클릭합니다.** 변경에 성공하면 다음 메시지가 **표시됩니다. 권장 사항 성공적으로 채택했습니다.** 새로 **고침을** 클릭하여 감소된 권장 사항 수와 결과에서 특정 설정/정책 행을 제거합니다.
 
 ### <a name="configuration-drift-analysis-and-history-tab-in-the-configuration-analyzer"></a>구성 분석기에서 구성 드리프트 분석 및 기록 탭
 
@@ -141,6 +141,6 @@ ms.locfileid: "51205062"
 - **시작 시간** 및 **종료 시간(날짜)**
 - **표준 보호** 또는 **엄격한 보호**
 
-결과를 .csv 파일로 내보내려면 내보내기 를 **클릭합니다.**
+결과를 파일로 내보내려면 .csv 를 **클릭합니다.**
 
 ![구성 분석기에서 구성 드리프트 분석 및 기록 보기](../../media/configuration-analyzer-configuration-drift-analysis-view.png)

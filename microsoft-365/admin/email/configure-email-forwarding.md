@@ -22,13 +22,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
-description: Office365를 사용하여 하나 이상의 전자 메일 계정으로 전자 메일 전달을 설정할 수 있습니다.
-ms.openlocfilehash: 4b205c0a21f076b9c7858c8a8fc46e240920cd32
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+description: 전자 메일 전달을 사용하면 조직 내부 또는 외부의 다른 사서함으로 Microsoft 365 전자 메일 메시지를 전달할 수 있습니다.
+ms.openlocfilehash: 7389651cbbec5316c307cd10b331fda6812c1cd4
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332633"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537634"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>전자 메일 전달 구성 Microsoft 365
 
@@ -95,7 +95,15 @@ ms.locfileid: "52332633"
 
    또는 관리 센터에서 [](../setup/create-distribution-lists.md)메일 그룹 을 만들고 주소를 추가한 다음 이 문서의 지침을 사용하여 DL을 안내하는 전달을 설정할 수 있습니다. [](add-user-or-contact-to-distribution-list.md)
 
-5. 전달할 전자 메일인 사용자의 계정을 삭제하거나 라이선스를 제거하지 않습니다.  이렇게 하면 전자 메일 전달이 중지됩니다.
+5. 전달할 전자 메일인 사용자의 계정을 삭제하거나 라이선스를 제거하지 않습니다. 이렇게 하면 전자 메일 전달이 중지됩니다.
 
 ::: moniker-end
+
+## <a name="related-content"></a>관련 콘텐츠 
+
+[공유 사서함](../email/create-a-shared-mailbox.md) 만들기(문서)
+
+[다른 주소에서 전자 메일 보내기(문서)](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e)
+
+[사용자 이름 및 전자 메일 주소](../add-users/change-a-user-name-and-email-address.md) 변경(문서)
 
