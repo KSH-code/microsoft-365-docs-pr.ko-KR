@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 그룹에서 게스트 액세스 관리
+title: 그룹에서 게스트 Microsoft 365 관리
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
-description: 게스트를 Microsoft 365 그룹에 추가하고 게스트 사용자를 보고 PowerShell을 사용하여 게스트 액세스를 제어하는 방법을 알아보세요.
+description: 게스트 그룹에 게스트를 추가하고, Microsoft 365 사용자를 보고, PowerShell을 사용하여 게스트 액세스를 제어하는 방법을 학습합니다.
 ms.openlocfilehash: c52f0094e724040b71d5d72cded049fed57e3969
 ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
@@ -26,53 +26,53 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52571940"
 ---
-# <a name="manage-guest-access-in-microsoft-365-groups"></a>Microsoft 365 그룹에서 게스트 액세스 관리
+# <a name="manage-guest-access-in-microsoft-365-groups"></a>그룹에서 게스트 Microsoft 365 관리
 
-기본적으로 Microsoft 365 그룹에 대한 게스트 액세스는 조직에 대해 켜져 있습니다. 관리자는 전체 조직에 대한 그룹에 대한 게스트 액세스를 허용할지 또는 개별 그룹에 대한 액세스를 허용할지 여부를 제어할 수 있습니다.
+기본적으로 Microsoft 365 그룹에 대한 게스트 액세스는 조직에 대해 설정됩니다. 관리자는 전체 조직에 대한 그룹 또는 개별 그룹에 대한 게스트 액세스를 허용할지 여부를 제어할 수 있습니다.
 
-그룹이 켜져 있는 경우 그룹 구성원은 웹에서 Outlook 통해 게스트 사용자를 Microsoft 365 그룹에 초대할 수 있습니다. 초대장은 승인을 위해 그룹 소유자에게 전송됩니다.
+이 설정이 켜져 있는 경우 그룹 구성원은 웹에서 사이트를 통해 Microsoft 365 사용자를 Outlook 수 있습니다. 승인을 위해 그룹 소유자에게 초대가 전송됩니다.
 
 승인되면 게스트 사용자가 디렉터리 및 그룹에 추가됩니다.
 
 > [!Note]
-> 네이티브 모드 또는 [EU Geo에](/yammer/manage-security-and-compliance/manage-data-compliance) 있는 Yammer Enterprise 네트워크는 네트워크 게스트를 지원하지 않습니다.
-> Microsoft 365 연결된 Yammer 그룹은 현재 게스트 액세스를 지원하지 않지만 Yammer 네트워크에서 연결되지 않은 외부 그룹을 만들 수 있습니다. 지침은 [Yammer 외부 그룹 만들기 및 관리를](/yammer/work-with-external-users/create-and-manage-external-groups) 참조하십시오.
+> Yammer Enterprise 또는 [EU 지역은](/yammer/manage-security-and-compliance/manage-data-compliance) 네트워크 게스트를 지원하지 않습니다.
+> Microsoft 365 연결된 Yammer 그룹은 현재 게스트 액세스를 지원하지 않지만 연결되지 않은 외부 그룹을 Yammer 있습니다. 자세한 [내용은 2013에서](/yammer/work-with-external-users/create-and-manage-external-groups) 외부 그룹 만들기 및 Yammer 참조하세요.
 
-그룹의 게스트 액세스는 종종 SharePoint 또는 Teams 포함하는 광범위한 시나리오의 일부로 사용됩니다. 이러한 서비스에는 자체 게스트 공유 설정이 있습니다. 그룹, SharePoint 및 Teams 통해 게스트 공유를 설정하는 전체 지침은 다음을 참조하십시오.
+그룹에서 게스트 액세스는 일반적으로 그룹 또는 그룹이 포함된 더 광범위한 시나리오의 일부로 SharePoint Teams. 이러한 서비스에는 자체 게스트 공유 설정이 있습니다. 그룹, 그룹 및 그룹별 게스트 공유를 설정하기 위한 전체 SharePoint Teams 참조하세요.
 
 - [게스트와 현장에서 공동 작업하기](../../solutions/collaborate-in-site.md)
 - [게스트와 팀으로 공동 작업하기](../../solutions/collaborate-as-team.md)
 
 ## <a name="manage-groups-guest-access"></a>그룹 게스트 액세스 관리
 
-그룹에서 게스트 액세스를 사용하도록 설정하거나 사용하지 않도록 설정하려면 Microsoft 365 관리 센터에서 게스트 액세스를 사용하도록 설정할 수 있습니다.
+그룹에서 게스트 액세스를 사용하도록 설정하거나 사용하지 않도록 설정하려면 Microsoft 365 있습니다.
 
-1. 관리 센터에서 **모든** 설정 조직 설정 표시 \>  \>  및 **서비스** 탭에서 Microsoft 365 **그룹을 선택합니다.**
+1. 관리 센터에서 모든  설정 설정 표시로 이동하고 서비스 탭에서 그룹 Microsoft 365 \>  \>  **선택합니다.** 
   
-2. Microsoft 365 **그룹** 페이지에서 조직 외부의 사람들이 그룹 리소스에 액세스하도록 할지 또는 그룹 소유자가 조직 외부의 사람들을 그룹에 추가하도록 할지 선택합니다.
+2. Microsoft 365 **그룹** 페이지에서 조직 외부의 사람이 그룹 리소스에 액세스할 수 있도록 할지 아니면 그룹 소유자가 조직 외부의 사용자 그룹을 그룹에 추가할 수 있도록 할지 선택합니다.
 
-## <a name="add-guests-to-a-microsoft-365-group-from-the-admin-center"></a>관리자 센터에서 Microsoft 365 그룹에 게스트 추가
+## <a name="add-guests-to-a-microsoft-365-group-from-the-admin-center"></a>관리 센터에서 Microsoft 365 그룹에 게스트 추가
 
-게스트가 디렉터리에 이미 있는 경우 Microsoft 365 관리 센터에서 그룹에 게스트를 추가할 수 있습니다. (동적 멤버십이 있는 그룹은 [Azure Active Directory.)](/azure/active-directory/enterprise-users/groups-create-rule)
+게스트가 디렉터리에 이미 있는 경우 게스트를 관리자 센터에서 그룹에 Microsoft 365 있습니다. 동적 구성원이 있는 그룹은 에서 [관리해야 Azure Active Directory.](/azure/active-directory/enterprise-users/groups-create-rule)
   
-1. 관리 센터에서 그룹 그룹   >  페이지로 **이동합니다.**
+1. 관리 센터에서 그룹 그룹   >  **페이지로** 이동합니다.
   
-2. 게스트를 추가할 그룹을 클릭하고 **멤버** 탭에서 **모두 보기 및 구성원 관리를** 선택합니다. 
+2. 게스트를 추가할 그룹을 클릭하고 구성원 탭에서 모두 보기 및 **구성원** **관리를** 선택합니다. 
   
-4. **멤버 추가를** 선택하고 추가할 게스트의 이름을 선택합니다.
+4. 구성원 **추가를** 선택하고 추가할 게스트의 이름을 선택합니다.
     
 5. **저장** 을 선택합니다.
 
-디렉터리에 게스트를 직접 추가하려면 [Azure 포털에서 Azure Active Directory B2B 공동 작업 사용자를 추가할](/azure/active-directory/b2b/add-users-administrator)수 있습니다.
+디렉터리에 게스트를 직접 추가하려는 경우 Azure Portal에서 Azure Active Directory [B2B](/azure/active-directory/b2b/add-users-administrator)공동 작업 사용자를 추가할 수 있습니다.
 
-게스트의 정보를 편집하려면 Azure Active Directory 사용하여 사용자의 프로필 [정보를 추가하거나 업데이트할](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)수 있습니다.
+게스트의 정보를 편집하려는 경우 를 사용하여 사용자의 프로필 정보를 추가하거나 업데이트할 [Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[특정 그룹에서 게스트 사용자를](../../solutions/per-group-guest-access.md) 차단합니다(기사)
+[특정 그룹에서 게스트 사용자](../../solutions/per-group-guest-access.md) 차단(문서)
 
-[Microsoft 365 관리 센터의 그룹 구성원](add-or-remove-members-from-groups.md) 관리(문서)
+[Microsoft 365](add-or-remove-members-from-groups.md) 관리 센터에서 그룹 구성원 관리(문서)
   
-[Azure Active Directory 액세스](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review) 리뷰(기사)
+[Azure Active Directory 액세스](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review) 검토(문서)
 
-[세트-AzureADUser(문서)](/powershell/module/azuread/set-azureaduser)
+[Set-AzureADUser(문서)](/powershell/module/azuread/set-azureaduser)

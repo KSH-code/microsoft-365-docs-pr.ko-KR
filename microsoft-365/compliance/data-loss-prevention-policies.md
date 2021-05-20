@@ -21,7 +21,7 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: 데이터 손실 방지 기준 자료
+description: 데이터 손실 방지 참조 자료
 ms.openlocfilehash: a6dc0b2702899e05f78c54331fb33b87495672d8
 ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "52572564"
 # <a name="data-loss-prevention-reference"></a>데이터 손실 방지 참조
  
 > [!IMPORTANT]
-> 이는 참조 주제가 더 이상 데이터 손실 방지(DLP) 정보를 Microsoft 365 주요 리소스가 아닙니다. DLP 콘텐츠 집합이 업데이트되고 재구성되고 있습니다. 이 문서에서 다루는 주제는 업데이트된 새 문서로 이동합니다. DLP에 대한 자세한 내용은 [데이터 손실 방지에 대해 알아보십시오.](dlp-learn-about-dlp.md)
+> 이 참조 항목은 더 이상 DLP(데이터 손실 방지) 정보의 기본 Microsoft 365 않습니다. DLP 콘텐츠 집합이 업데이트 및 재구성 중입니다. 이 문서에서 다루는 항목은 업데이트된 새로운 문서로 이동될 것입니다. DLP에 대한 자세한 내용은 데이터 손실 [방지에 대한 자세한 정보를 참조하세요.](dlp-learn-about-dlp.md)
 
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
 <!-- move this note to a more appropriate place, no topic should start with a note -->
@@ -385,7 +385,7 @@ DLP 정책에서 이전에 생성 및 게시 된 [보존 레이블](retention.md
 
 ### <a name="using-a-sensitivity-label-as-a-condition-in-a-dlp-policy"></a>민감도 레이블을 DLP 정책의 조건으로 사용
 
-DLP 정책의 조건으로 감도 라벨을 사용하는 방법에 대해 [자세히 알아보세요.](./dlp-sensitivity-label-as-condition.md)
+[DLP 정책에서](./dlp-sensitivity-label-as-condition.md) 민감도 레이블을 조건으로 사용하는 방법을 자세히 알아보습니다.
   
 ### <a name="how-this-feature-relates-to-other-features"></a>해당 기능이 다른 기능과 관련되는 방식
 
@@ -520,7 +520,7 @@ SharePoint Online 사이트 및 비즈니스용 OneDrive 사이트 전체에 걸
 DLP는 인덱스를 지정할 수 있는 모든 콘텐츠를 평가합니다. 기본적으로 크롤링되는 파일 형식에 대한 자세한 내용은 [SharePoint Server의 크롤링되는 기본 파일 이름의 확장명 및 구문 분석되는 파일 형식](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)을 참고하십시오.
 
 > [!NOTE]
-> DLP 정책이 문서를 분석하기 전에 문서를 공유하지 못하도록 하기 위해 SharePoint 새 파일을 공유하는 것이 콘텐츠가 인덱싱될 때까지 차단될 수 있습니다. 자세한 내용은 [신규 파일을 기본으로 민감하게 설정하기](/sharepoint/sensitive-by-default)를 참고하세요. 
+> DLP 정책이 문서를 분석하기 전에 문서를 공유하지 못하게 하기 위해 콘텐츠가 인덱싱될 때까지 SharePoint 파일의 공유를 차단할 수 있습니다. 자세한 내용은 [신규 파일을 기본으로 민감하게 설정하기](/sharepoint/sensitive-by-default)를 참고하세요. 
   
 ### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Exchange, Outlook 및 웹 상 Outlook의 정책 평가
 

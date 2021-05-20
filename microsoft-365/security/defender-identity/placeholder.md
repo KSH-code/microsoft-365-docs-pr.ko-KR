@@ -1,6 +1,6 @@
 ---
-title: 삭제할 마스터에서 폴더를 만드는 자리 표시자 항목
-description: 삭제할 마스터에서 폴더를 만드는 자리 표시자 항목
+title: 삭제할 마스터 폴더를 만드는 자리 표시자 항목
+description: 삭제할 마스터 폴더를 만드는 자리 표시자 항목
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -29,5 +29,5 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572823"
 ---
-# <a name="placeholder-topic-to-create-the-folder-in-master-to-be-deleted"></a>삭제할 마스터에서 폴더를 만드는 자리 표시자 항목
+# <a name="placeholder-topic-to-create-the-folder-in-master-to-be-deleted"></a>삭제할 마스터 폴더를 만드는 자리 표시자 항목
 

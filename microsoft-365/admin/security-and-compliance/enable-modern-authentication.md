@@ -21,7 +21,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
-description: 레지스트리 키를 설정하여 2013년 Microsoft Office 설치된 장치에 대한 최신 인증을 사용하도록 설정하는 방법을 알아봅니다.
+description: 2013이 설치된 장치에 대해 최신 인증을 사용하도록 레지스트리 Microsoft Office 방법을 학습합니다.
 ms.openlocfilehash: d358cb2ffb4284a51779e5a7c1dc894052b9ebc0
 ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
@@ -45,7 +45,7 @@ Microsoft Office 2013이 설치되었고 Windows를 실행 중인 장치(예: �
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  |REG_DWORD  |1  |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |1 |
    
-레지스트리 키를 설정한 후 2013년 Office 장치 앱을 설정하여 Microsoft 365 [다단계 인증(MFA)을](set-up-multi-factor-authentication.md) 사용하도록 설정할 수 있습니다. 
+레지스트리 키를 설정한 후 Office 2013 장치 앱에서 [MFA(다단계](set-up-multi-factor-authentication.md) 인증)를 사용할 수 Microsoft 365. 
   
 현재 클라이언트 앱에 로그인한 경우 변경 내용을 적용하려면 로그아웃 후 다시 로그인해야 합니다. 그러지 않으면 ADAL ID가 설정될 때까지 MRU 및 로밍 설정을 사용할 수 없습니다.
   
@@ -59,7 +59,7 @@ Microsoft Office 2013이 설치되었고 Windows를 실행 중인 장치(예: �
    
 ## <a name="related-content"></a>관련 콘텐츠
 
-[두 번째 확인 방법(문서)으로 2013년 Office 로그인](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
+두 번째 확인 [방법으로 Office 2013에 로그인합니다(문서)](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
 
-[Outlook 암호에 대 한 프롬프트 하 고 Office 365 연결 하는 현대 인증을 사용 하지 않습니다](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled) (문서)
+[Outlook](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled) 암호를 입력하라는 메시지가 표시되어 있으며 최신 인증을 사용하여 암호에 연결하지 Office 365(문서)
 
