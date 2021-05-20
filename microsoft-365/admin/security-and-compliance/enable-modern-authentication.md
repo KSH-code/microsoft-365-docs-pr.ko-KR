@@ -21,44 +21,45 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
-description: 2013이 설치된 장치에 대해 최신 인증을 사용하도록 레지스트리 Microsoft Office 방법을 학습합니다.
-ms.openlocfilehash: f803cf9a30be63e71ef3c4293d0d1ba5b2355e75
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: 레지스트리 키를 설정하여 2013년 Microsoft Office 설치된 장치에 대한 최신 인증을 사용하도록 설정하는 방법을 알아봅니다.
+ms.openlocfilehash: d358cb2ffb4284a51779e5a7c1dc894052b9ebc0
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580837"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572288"
 ---
-# <a name="enable-modern-authentication-for-office-2013-on-windows-devices"></a><span data-ttu-id="183ad-103">Windows 장치에서 Office 2013에 대해 최신 인증 사용</span><span class="sxs-lookup"><span data-stu-id="183ad-103">Enable Modern Authentication for Office 2013 on Windows devices</span></span>
+# <a name="enable-modern-authentication-for-office-2013-on-windows-devices"></a><span data-ttu-id="22ea3-103">Windows 장치에서 Office 2013에 대해 최신 인증 사용</span><span class="sxs-lookup"><span data-stu-id="22ea3-103">Enable Modern Authentication for Office 2013 on Windows devices</span></span>
 
-<span data-ttu-id="183ad-104">Office 2013이 설치되어 있는 Windows 장치에 대해 최신 인증을 사용하려면 특정 레지스트리 키를 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="183ad-104">To enable modern authentication for any Windows devices that have Office 2013 installed, you need to set specific registry keys.</span></span>
+<span data-ttu-id="22ea3-104">Office 2013이 설치되어 있는 Windows 장치에 대해 최신 인증을 사용하려면 특정 레지스트리 키를 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="22ea3-104">To enable modern authentication for any Windows devices that have Office 2013 installed, you need to set specific registry keys.</span></span>
   
-## <a name="enable-modern-authentication-for-office-2013-clients"></a><span data-ttu-id="183ad-105">Office 2013 클라이언트에 대해 최신 인증 사용</span><span class="sxs-lookup"><span data-stu-id="183ad-105">Enable modern authentication for Office 2013 clients</span></span>
+## <a name="enable-modern-authentication-for-office-2013-clients"></a><span data-ttu-id="22ea3-105">Office 2013 클라이언트에 대해 최신 인증 사용</span><span class="sxs-lookup"><span data-stu-id="22ea3-105">Enable modern authentication for Office 2013 clients</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="183ad-106">Office 2016 클라이언트에 대해 이미 최신 인증이 사용되고 있는 경우 Office 2016에 대해 레지스트리 키를 설정할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="183ad-106">Modern authentication is already enabled for Office 2016 clients, you do not need to set registry keys for Office 2016.</span></span> 
+> <span data-ttu-id="22ea3-106">Office 2016 클라이언트에 대해 이미 최신 인증이 사용되고 있는 경우 Office 2016에 대해 레지스트리 키를 설정할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="22ea3-106">Modern authentication is already enabled for Office 2016 clients, you do not need to set registry keys for Office 2016.</span></span> 
   
-<span data-ttu-id="183ad-p101">Microsoft Office 2013이 설치되었고 Windows를 실행 중인 장치(예: 노트북 및 태블릿)에 대해 최신 인증을 사용하려면 다음 레지스트리 키를 설정해야 합니다. 최신 인증을 사용할 각 장치에서 키를 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="183ad-p101">To enable modern authentication for any devices running Windows (for example on laptops and tablets), that have Microsoft Office 2013 installed, you need to set the following registry keys. The keys have to be set on each device that you want to enable for modern authentication:</span></span>
+<span data-ttu-id="22ea3-p101">Microsoft Office 2013이 설치되었고 Windows를 실행 중인 장치(예: 노트북 및 태블릿)에 대해 최신 인증을 사용하려면 다음 레지스트리 키를 설정해야 합니다. 최신 인증을 사용할 각 장치에서 키를 설정해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="22ea3-p101">To enable modern authentication for any devices running Windows (for example on laptops and tablets), that have Microsoft Office 2013 installed, you need to set the following registry keys. The keys have to be set on each device that you want to enable for modern authentication:</span></span>
   
-|<span data-ttu-id="183ad-109">**레지스트리 키**</span><span class="sxs-lookup"><span data-stu-id="183ad-109">**Registry key**</span></span>|<span data-ttu-id="183ad-110">**유형**</span><span class="sxs-lookup"><span data-stu-id="183ad-110">**Type**</span></span>|<span data-ttu-id="183ad-111">**값**</span><span class="sxs-lookup"><span data-stu-id="183ad-111">**Value**</span></span> |
+|<span data-ttu-id="22ea3-109">**레지스트리 키**</span><span class="sxs-lookup"><span data-stu-id="22ea3-109">**Registry key**</span></span>|<span data-ttu-id="22ea3-110">**유형**</span><span class="sxs-lookup"><span data-stu-id="22ea3-110">**Type**</span></span>|<span data-ttu-id="22ea3-111">**값**</span><span class="sxs-lookup"><span data-stu-id="22ea3-111">**Value**</span></span> |
 |:-------|:------:|--------:|
-|<span data-ttu-id="183ad-112">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL</span><span class="sxs-lookup"><span data-stu-id="183ad-112">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL</span></span>  |<span data-ttu-id="183ad-113">REG_DWORD</span><span class="sxs-lookup"><span data-stu-id="183ad-113">REG_DWORD</span></span>  |<span data-ttu-id="183ad-114">1</span><span class="sxs-lookup"><span data-stu-id="183ad-114">1</span></span>  |
-|<span data-ttu-id="183ad-115">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version</span><span class="sxs-lookup"><span data-stu-id="183ad-115">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version</span></span> |<span data-ttu-id="183ad-116">REG_DWORD</span><span class="sxs-lookup"><span data-stu-id="183ad-116">REG_DWORD</span></span> |<span data-ttu-id="183ad-117">1</span><span class="sxs-lookup"><span data-stu-id="183ad-117">1</span></span> |
+|<span data-ttu-id="22ea3-112">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL</span><span class="sxs-lookup"><span data-stu-id="22ea3-112">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL</span></span>  |<span data-ttu-id="22ea3-113">REG_DWORD</span><span class="sxs-lookup"><span data-stu-id="22ea3-113">REG_DWORD</span></span>  |<span data-ttu-id="22ea3-114">1</span><span class="sxs-lookup"><span data-stu-id="22ea3-114">1</span></span>  |
+|<span data-ttu-id="22ea3-115">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version</span><span class="sxs-lookup"><span data-stu-id="22ea3-115">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version</span></span> |<span data-ttu-id="22ea3-116">REG_DWORD</span><span class="sxs-lookup"><span data-stu-id="22ea3-116">REG_DWORD</span></span> |<span data-ttu-id="22ea3-117">1</span><span class="sxs-lookup"><span data-stu-id="22ea3-117">1</span></span> |
    
-<span data-ttu-id="183ad-118">레지스트리 키를 설정한 후 Office 2013 장치 앱이 Microsoft 365에서 [MFA(다단계](set-up-multi-factor-authentication.md) 인증)를 사용하도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="183ad-118">Once you have set the registry keys, you can set Office 2013 devices apps to use [multifactor authentication (MFA)](set-up-multi-factor-authentication.md) with Microsoft 365.</span></span> 
+<span data-ttu-id="22ea3-118">레지스트리 키를 설정한 후 2013년 Office 장치 앱을 설정하여 Microsoft 365 [다단계 인증(MFA)을](set-up-multi-factor-authentication.md) 사용하도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22ea3-118">Once you have set the registry keys, you can set Office 2013 devices apps to use [multifactor authentication (MFA)](set-up-multi-factor-authentication.md) with Microsoft 365.</span></span> 
   
-<span data-ttu-id="183ad-p102">현재 클라이언트 앱에 로그인한 경우 변경 내용을 적용하려면 로그아웃 후 다시 로그인해야 합니다. 그러지 않으면 ADAL ID가 설정될 때까지 MRU 및 로밍 설정을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="183ad-p102">If you're currently signed-in with any of the client apps, you need to sign out and sign back in for the change to take effect. Otherwise, the MRU and roaming settings will be unavailable until the ADAL identity is established.</span></span>
+<span data-ttu-id="22ea3-p102">현재 클라이언트 앱에 로그인한 경우 변경 내용을 적용하려면 로그아웃 후 다시 로그인해야 합니다. 그러지 않으면 ADAL ID가 설정될 때까지 MRU 및 로밍 설정을 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="22ea3-p102">If you're currently signed-in with any of the client apps, you need to sign out and sign back in for the change to take effect. Otherwise, the MRU and roaming settings will be unavailable until the ADAL identity is established.</span></span>
   
-## <a name="disable-modern-authentication-on-devices"></a><span data-ttu-id="183ad-121">장치에서 최신 인증을 사용하지 않음</span><span class="sxs-lookup"><span data-stu-id="183ad-121">Disable modern authentication on devices</span></span>
+## <a name="disable-modern-authentication-on-devices"></a><span data-ttu-id="22ea3-121">장치에서 최신 인증을 사용하지 않음</span><span class="sxs-lookup"><span data-stu-id="22ea3-121">Disable modern authentication on devices</span></span>
 
-<span data-ttu-id="183ad-122">장치에서 최신 인증을 사용하지 않으려면 장치의 다음 레지스트리 키를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="183ad-122">To disable modern authentication on a device, set the following registry keys on the device:</span></span>
+<span data-ttu-id="22ea3-122">장치에서 최신 인증을 사용하지 않으려면 장치의 다음 레지스트리 키를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="22ea3-122">To disable modern authentication on a device, set the following registry keys on the device:</span></span>
   
-|<span data-ttu-id="183ad-123">**레지스트리 키**</span><span class="sxs-lookup"><span data-stu-id="183ad-123">**Registry key**</span></span>|<span data-ttu-id="183ad-124">**유형**</span><span class="sxs-lookup"><span data-stu-id="183ad-124">**Type**</span></span>|<span data-ttu-id="183ad-125">**값**</span><span class="sxs-lookup"><span data-stu-id="183ad-125">**Value**</span></span>|
+|<span data-ttu-id="22ea3-123">**레지스트리 키**</span><span class="sxs-lookup"><span data-stu-id="22ea3-123">**Registry key**</span></span>|<span data-ttu-id="22ea3-124">**유형**</span><span class="sxs-lookup"><span data-stu-id="22ea3-124">**Type**</span></span>|<span data-ttu-id="22ea3-125">**값**</span><span class="sxs-lookup"><span data-stu-id="22ea3-125">**Value**</span></span>|
 |:-------|:------:|--------:|
-|<span data-ttu-id="183ad-126">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL</span><span class="sxs-lookup"><span data-stu-id="183ad-126">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL</span></span> |<span data-ttu-id="183ad-127">REG_DWORD</span><span class="sxs-lookup"><span data-stu-id="183ad-127">REG_DWORD</span></span>|<span data-ttu-id="183ad-128">0</span><span class="sxs-lookup"><span data-stu-id="183ad-128">0</span></span>|
+|<span data-ttu-id="22ea3-126">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL</span><span class="sxs-lookup"><span data-stu-id="22ea3-126">HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL</span></span> |<span data-ttu-id="22ea3-127">REG_DWORD</span><span class="sxs-lookup"><span data-stu-id="22ea3-127">REG_DWORD</span></span>|<span data-ttu-id="22ea3-128">0</span><span class="sxs-lookup"><span data-stu-id="22ea3-128">0</span></span>|
    
-## <a name="related-articles"></a><span data-ttu-id="183ad-129">관련 문서</span><span class="sxs-lookup"><span data-stu-id="183ad-129">Related articles</span></span>
-[<span data-ttu-id="183ad-130">두 번째 확인 방법으로 Office 2013에 로그인</span><span class="sxs-lookup"><span data-stu-id="183ad-130">Sign in to Office 2013 with a second verification method</span></span>](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
+## <a name="related-content"></a><span data-ttu-id="22ea3-129">관련 콘텐츠</span><span class="sxs-lookup"><span data-stu-id="22ea3-129">Related content</span></span>
 
-[<span data-ttu-id="183ad-131">Outlook에 암호를 입력하라는 메시지가 표시되어 최신 인증을 사용하여 Office 365에 연결하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="183ad-131">Outlook prompts for password and doesn't use Modern Authentication to connect to Office 365</span></span>](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled)
+<span data-ttu-id="22ea3-130">[두 번째 확인 방법(문서)으로 2013년 Office 로그인](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)</span><span class="sxs-lookup"><span data-stu-id="22ea3-130">[Sign in to Office 2013 with a second verification method](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb) (article)</span></span>
+
+<span data-ttu-id="22ea3-131">[Outlook 암호에 대 한 프롬프트 하 고 Office 365 연결 하는 현대 인증을 사용 하지 않습니다](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled) (문서)</span><span class="sxs-lookup"><span data-stu-id="22ea3-131">[Outlook prompts for password and doesn't use Modern Authentication to connect to Office 365](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled) (article)</span></span>
 
