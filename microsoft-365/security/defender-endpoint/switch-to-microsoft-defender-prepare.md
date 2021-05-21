@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 05/14/2021
+ms.date: 05/20/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 6d3f1e2b0986fe12f0bf318b53100ca31f1ed700
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 92dfc279344b003ab651110375982b0f065dfb0d
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538378"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594172"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-1-prepare"></a>끝점용 Microsoft Defender로 전환 - 1단계: 준비
 
@@ -43,11 +43,8 @@ ms.locfileid: "52538378"
 이 마이그레이션 단계에는 다음 단계가 포함됩니다.
 
 1. [조직 장치에 업데이트 다운로드 및 배포](#get-and-deploy-updates-across-your-organizations-devices)
-
 2. [끝점용 Defender를 을(를) 얻습니다.](#get-microsoft-defender-for-endpoint)
-
 3. [에 대한 액세스 권한을 Microsoft Defender 보안 센터.](#grant-access-to-the-microsoft-defender-security-center)
-
 4. [장치 프록시 및 인터넷 연결 설정을 구성합니다.](#configure-device-proxy-and-internet-connectivity-settings)
 
 ## <a name="get-and-deploy-updates-across-your-organizations-devices"></a>조직 장치에 업데이트 다운로드 및 배포
@@ -84,14 +81,14 @@ ms.locfileid: "52538378"
 
 4. 조직의 끝점(예: 장치)이 프록시를 사용하여 인터넷에 액세스하는 경우 Endpoint 설치용 [Defender: 네트워크 구성을 참조합니다.](production-deployment.md#network-configuration)
  
-이제 Microsoft Defender 보안 센터()를 사용할 보안 관리자 및 보안 운영자에 대한 액세스 권한을 부여할 준비가 [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) Microsoft Defender 보안 센터. 
+이제 Microsoft Defender 보안 센터()를 사용할 보안 관리자 및 보안 운영자에 대한 액세스 권한을 부여할 준비가 [https://securitycenter.windows.com](https://securitycenter.windows.com) Microsoft Defender 보안 센터. 
 
 > [!NOTE]
-> 이 Microsoft Defender 보안 센터 끝점용 Defender 포털이라고도 하며 에서 액세스할 수 [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) 있습니다. 
+> 이 Microsoft Defender 보안 센터 끝점용 Defender 포털이라고도 하며 에서 액세스할 수 [https://securitycenter.windows.com](https://securitycenter.windows.com) 있습니다. 
 
 ## <a name="grant-access-to-the-microsoft-defender-security-center"></a>사용자 액세스 권한 Microsoft Defender 보안 센터
 
-Microsoft Defender 보안 센터 ()는 끝점용 Defender의 기능에 액세스하고 구성하는 [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) 위치입니다. 자세한 내용은 의 [개요를 Microsoft Defender 보안 센터.](use.md)
+Microsoft Defender 보안 센터 ()는 끝점용 Defender의 기능에 액세스하고 구성하는 [https://securitycenter.windows.com](https://securitycenter.windows.com) 위치입니다. 자세한 내용은 의 [개요를 Microsoft Defender 보안 센터.](use.md)
 
 기본 사용 Microsoft Defender 보안 센터 RBAC(역할 기반 액세스 제어)를 사용하여 사용 권한을 부여할 수 있습니다. 사용 권한을 보다 세밀하게 제어할 수 있도록 RBAC를 사용하는 것이 좋습니다.
 
@@ -102,9 +99,7 @@ Microsoft Defender 보안 센터 ()는 끝점용 Defender의 기능에 액세스
     조직에서 Intune 외의 방법이 필요한 경우 다음 옵션 중 하나를 선택합니다.
 
     - [Configuration Manager](/mem/configmgr/core/servers/deploy/configure/configure-role-based-administration)
-
     - [고급 그룹 정책 관리](/microsoft-desktop-optimization-pack/agpm)
-
     - [Windows 관리 센터](/windows-server/manage/windows-admin-center/overview)
 
 3. 앱에 대한 액세스 권한을 Microsoft Defender 보안 센터. (도움이 필요하세요? [RBAC를 사용하여 포털 액세스 관리를 참조합니다.](rbac.md)
@@ -113,14 +108,14 @@ Microsoft Defender 보안 센터 ()는 끝점용 Defender의 기능에 액세스
 
 장치와 끝점용 Defender 간의 통신을 사용하도록 설정하려면 프록시 및 인터넷 설정을 구성합니다. 다음 표에는 다양한 운영 체제 및 기능에 대한 프록시 및 인터넷 설정을 구성하는 데 사용할 수 있는 리소스에 대한 링크가 포함되어 있습니다.
 
-|기능  | 운영 체제 | 리소스 |
-|--|--|--|
-|[끝점 검색 및](overview-endpoint-detection-response.md) 응답(EDR) |[Windows 10](/windows/release-health/release-information) <p>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p>[Windows 서버 1803 이상](/windows-server/get-started/whats-new-in-windows-server-1803)  |[컴퓨터 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md) |
-|EDR |[Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016) <p>[Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<p>[Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<p>[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<p>[Windows 7 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |[프록시 및 인터넷 연결 설정 구성](onboard-downlevel.md#configure-proxy-and-internet-connectivity-settings) |
-|EDR  |macOS: <p>11.3.1(Big Sur)<p>10.15(카탈로나)<p>10.14(모잡)   |[MacOS의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-mac.md#network-connections)  |
-|[Windows Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md) |[Windows 10](/windows/release-health/release-information) <p>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p>[Windows 서버 1803 이상](/windows-server/get-started/whats-new-in-windows-server-1803) <p>[Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) |[Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사](configure-network-connections-microsoft-defender-antivirus.md)<br/> |
-|바이러스 검사 |macOS: <p>11.3.1(Big Sur)<p>10.15(카탈로나)<p>10.14(모잡) |[MacOS의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-mac.md#network-connections) |
-|바이러스 검사 |Linux: <p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS 이상<p>SLES 12+<p>데비안 9+<p>Oracle Linux 7.2 |[Linux의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-linux.md#network-connections) |
+| 기능  | 운영 체제 | 리소스 |
+|:--|:--|:--|
+| [끝점 검색 및](overview-endpoint-detection-response.md) 응답(EDR) | [Windows 10](/windows/release-health/release-information) <p>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p>[Windows 서버 1803 이상](/windows-server/get-started/whats-new-in-windows-server-1803)  | [컴퓨터 프록시 및 인터넷 연결 설정 구성](configure-proxy-internet.md) |
+| EDR | [Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016) <p>[Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<p>[Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<p>[Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<p>[Windows 7 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |[프록시 및 인터넷 연결 설정 구성](onboard-downlevel.md#configure-proxy-and-internet-connectivity-settings) |
+| EDR  | macOS:<p>11.3.1(Big Sur)<p>10.15(카탈로나)<p>10.14(모잡)   | [MacOS의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-mac.md#network-connections)  |
+| [Windows Defender 바이러스 백신](microsoft-defender-antivirus-in-windows-10.md) | [Windows 10](/windows/release-health/release-information) <p>[Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<p>[Windows 서버 1803 이상](/windows-server/get-started/whats-new-in-windows-server-1803) <p>[Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) | [Microsoft Defender 바이러스 백신 네트워크 연결 구성 및 유효성 검사](configure-network-connections-microsoft-defender-antivirus.md)<br/> |
+| 바이러스 검사 | macOS:<p>11.3.1(Big Sur)<p>10.15(카탈로나)<p>10.14(모잡) | [MacOS의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-mac.md#network-connections) |
+| 바이러스 검사 | Linux: <p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS 이상<p>SLES 12+<p>데비안 9+<p>Oracle Linux 7.2 | [Linux의 끝점용 Defender: 네트워크 연결](microsoft-defender-endpoint-linux.md#network-connections) |
 
 ## <a name="next-step"></a>다음 단계
 

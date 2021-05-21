@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Microsoft 365에서 도메인에 가입된 Windows 10 장치를 관리하도록 설정
+title: 비즈니스용 Windows 10 통해 도메인에 가입된 Microsoft 365 장치를 관리하도록 설정
 f1.keywords:
 - CSH
 ms.author: efrene
@@ -23,18 +23,18 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: 몇 단계만 수행하면 Microsoft 365에서 로컬 Active-Directory에 가입된 Windows 10 장치를 보호하는 방법을 알아보십시오.
-ms.openlocfilehash: c9f5a21d993200abcf9ecf1fa236879245e1c153
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+description: 몇 단계만 Microsoft 365 Active-Directory에 가입된 Windows 10 보호할 수 있도록 설정하는 방법을 알아보십시오.
+ms.openlocfilehash: f16962dd3c33c3c228da507bc5c4a902d76a8a08
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939505"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593896"
 ---
-# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Microsoft 365 Business Premium에서 도메인에 가입된 Windows 10 장치를 관리하도록 설정
+# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>도메인에 가입된 Windows 10 장치를 관리하도록 Microsoft 365 Business Premium
 
-조직에서 Windows Server Active Directory를 사용하는 경우 Microsoft 365 Business Premium을 설정하여 Windows 10 장치를 보호하는 동시에 로컬 인증이 필요한 사내 리소스에 대한 액세스는 유지 관리합니다.
-이 보호를 설정하기 위해 하이브리드 Azure AD 가입 장치를 **구현할 수 있습니다.** 이러한 디바이스는 Azure Active Directory와 On-프레미스 Active Directory에 모두 가입됩니다.
+조직에서 Windows Server Active Directory Windows 사용하는 경우 로컬 인증이 필요한 Windows 10 리소스에 대한 액세스는 유지 관리하면서 Microsoft 365 Business Premium 장치를 보호하도록 Windows 10 설정할 수 있습니다.
+이 보호를 설정하기 위해 하이브리드 Azure AD 가입 장치를 **구현할 수 있습니다.** 이러한 디바이스는 사용자 장치와 사용자 프레미스 Active Directory 모두에 Azure Active Directory.
 
 이 비디오에서는 가장 일반적인 시나리오에 대해 이 설정 방법을 설정하는 단계에 대해 설명합니다. 또한 다음 단계에 자세히 설명되어 있습니다.
 
@@ -42,23 +42,23 @@ ms.locfileid: "51939505"
   
 
 ## <a name="before-you-get-started-make-sure-you-complete-these-steps"></a>시작하기 전에 다음 단계를 완료해야 합니다.
-- Azure AD Connect를 사용하여 사용자를 Azure AD에 동기화합니다.
-- Azure AD Connect OU(조직 구성 단위) 동기화를 완료합니다.
-- 동기화하는 모든 도메인 사용자에게 Microsoft 365 Business Premium에 대한 라이선스가 있는지 확인
+- 사용자를 Azure AD와 Azure AD 커넥트.
+- Azure AD 커넥트 OU(조직 구성 단위) 동기화를 완료합니다.
+- 동기화하는 모든 도메인 사용자에게 동기화할 라이선스가 있는지 Microsoft 365 Business Premium.
 
 단계는 [도메인 사용자를 Microsoft에 동기화를](manage-domain-users.md) 참조하세요.
 
 ## <a name="1-verify-mdm-authority-in-intune"></a>1. Intune에서 MDM 기관 확인
 
-[끝점 관리자로](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Enrollment/EnrollmentMenu/overview) 이동하고 Microsoft Intune 페이지에서 장치 등록 을 선택한 다음 개요 페이지에서 **MDM 기관이** **Intune인지 확인합니다.** 
+Endpoint Manager [](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Enrollment/EnrollmentMenu/overview) 이동하고 Microsoft Intune 페이지에서 장치 등록을 선택한 다음 개요 페이지에서 **MDM** 기관이  **Intune** 인지 확인합니다.
 
 - **MDM 기관이** **없음인** 경우 **MDM** 기관을 클릭하여 **Intune으로 설정합니다.**
-- **MDM** 기관이 **Microsoft Office 365인** 경우 장치 등록 장치로 이동한 후 오른쪽의 MDM 기관 추가 대화 상자를 사용하여  >   **Intune MDM** 기관을 추가합니다(MDM 기관 추가 대화 상자는  **MDM** 기관이 Microsoft Office 365로 설정된 경우만 사용할 수 있습니다). 
+- **MDM** 기관이 Microsoft Office 365 장치 등록 장치로 이동한 후 오른쪽의 MDM 기관 추가 대화 상자를 사용하여  >   **Intune MDM** 기관을 추가합니다(MDM 기관 추가 대화 상자는  **MDM** 기관이  Microsoft Office 365.
 
 ## <a name="2-verify-azure-ad-is-enabled-for-joining-computers"></a>2. Azure AD가 컴퓨터에 가입할 수 있는지 확인
 
-- 관리 센터 목록에서 관리 센터로 이동하고 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> **Azure Active Directory(Azure Active Directory가** 표시되지 않는 경우 모두 표시 선택)를 선택합니다.  
-- Azure **Active Directory 관리 센터에서** **Azure Active Directory로** 이동하여 장치를 선택한 **다음** 장치 **설정을 선택합니다.**
+- 관리 센터 목록에서 관리 센터로 이동하고 Azure Active Directory (Azure Active Directory 표시되지 않는 경우 모두 표시 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> **선택)를** 선택합니다.  
+- in the **Azure Active Directory admin center**, go to **Azure Active Directory** , choose **Devices** and then **Device settings**.
 - 사용자가 **장치를 Azure AD에 가입할** 수 있는지 확인 
     1. 모든 사용자를 사용하도록 설정하려면 모두 로 **설정합니다.**
     2. 특정 사용자를 사용하도록 설정하려면 특정 사용자 그룹을 사용하도록 설정하려면 **선택으로** 설정해야 합니다.
@@ -67,11 +67,11 @@ ms.locfileid: "51939505"
 
 ## <a name="3-verify-azure-ad-is-enabled-for-mdm"></a>3. Azure AD가 MDM에 대해 사용하도록 설정되어 있는지 확인
 
-- 관리 센터로 이동하여 Endpoint Managemen t(끝점 관리자가 표시되지 않는 경우 모두 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> **표시** 선택)를 선택합니다. 
-- Microsoft **Endpoint Manager 관리 센터에서** 장치 Windows Windows 등록 자동  >    >    >  **등록으로 이동하세요.**
+- 에서 관리 센터로 이동하고 Endpoint Managemen t(표시가 표시되지 않는 경우 모두 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> **Endpoint Manager** 선택)를 선택합니다. 
+- Microsoft Endpoint Manager **관리** 센터에서 장치 **Windows**  >    >  **Windows**  >  **등록으로 이동하세요.**
 - MDM 사용자 범위가 사용하도록 설정되어 있는지 확인합니다.
 
-    1. 모든 컴퓨터를 등록하려면  사용자가 Windows에 직장 계정을 추가할 때 Azure AD에 가입된 모든 사용자 컴퓨터와 새 컴퓨터를 자동으로 등록하려면 모두로 설정하세요.
+    1. 모든 컴퓨터를 등록하려면  사용자가 작업 계정을 추가할 때 Azure AD에 가입된 모든 사용자 컴퓨터와 새 컴퓨터를 자동으로 등록하려면 모두로 Windows.
     2. 특정 사용자 **그룹의** 컴퓨터를 등록하도록 일부로 설정
         -  Azure AD에서 동기화된 원하는 도메인 사용자를 보안 그룹에 [추가합니다.](../admin/create-groups/create-groups.md)
         -  그룹 **선택을** 선택하여 해당 보안 그룹에 대해 MDM 사용자 범위를 사용하도록 설정할 수 있습니다.
@@ -87,16 +87,16 @@ Install-Module SecMgmt
 ```
 
 > [!IMPORTANT]
-> Azure AD Connect를 실행하는 Windows Server에 이 모듈을 설치하는 것이 좋습니다.
+> Azure AD 서버를 실행하는 Windows 서버에 이 모듈을 설치하는 커넥트.
 
-필요한 서비스 연결 지점 및 그룹 정책을 만들기 위해  [Initialize-SecMgmtHybirdDeviceEnrollment](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) cmdlet을 호출합니다. 이 작업을 수행할 때 Microsoft 365 Business Premium 전역 관리자 자격 증명이 필요합니다. 리소스를 만들 준비가 되면 다음을 호출합니다.
+필요한 서비스 연결 지점 및 그룹 정책을 만들기 위해  [Initialize-SecMgmtHybirdDeviceEnrollment](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) cmdlet을 호출합니다. 이 작업을 수행할 Microsoft 365 Business Premium 전역 관리자 자격 증명이 필요합니다. 리소스를 만들 준비가 되면 다음을 호출합니다.
 
 ```powershell
 PS C:\> Connect-SecMgmtAccount
 PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device Management'
 ```
 
-첫 번째 명령은 Microsoft 클라우드와 연결을 설정하고 메시지가 표시될 때 Microsoft 365 Business Premium 전역 관리자 자격 증명을 지정합니다.
+첫 번째 명령은 Microsoft 클라우드와 연결을 설정하고 메시지가 표시될 때 전역 관리자 자격 Microsoft 365 Business Premium 지정합니다.
 
 ## <a name="5-link-the-group-policy"></a>5. 그룹 정책 연결
 
@@ -105,9 +105,9 @@ PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device
 
 ## <a name="get-the-latest-administrative-templates"></a>최신 관리 템플릿 다운로드
 
-기본 Azure AD 자격 증명을 사용하여 자동 **MDM** 등록 사용 정책이 표시되지 않는 경우 Windows 10 버전 1803 이상에 대해 ADMX가 설치되지 않은 것일 수 있습니다. 이 문제를 해결하기 위해 다음 단계를 수행합니다(참고: 최신 MDM.admx는 역과 호환됨).
+기본 Azure AD 자격 증명을 사용하여 자동 **MDM** 등록 사용 정책이 표시되지 않는 경우, Windows 10 버전 1803 이상에 대해 ADMX가 설치되지 않은 것일 수 있습니다. 이 문제를 해결하기 위해 다음 단계를 수행합니다(참고: 최신 MDM.admx는 역과 호환됨).
 
-1.  다운로드: [Windows 10 2020년 10월 업데이트(20H2)용 관리 템플릿(.admx)](https://www.microsoft.com/download/102157).
+1.  다운로드: [2020년 10월 업데이트(Windows 10)에 대한 관리 템플릿(.admx)입니다.](https://www.microsoft.com/download/102157)
 2.  도메인 컨트롤러에 패키지를 설치합니다.
 3.  관리 템플릿 버전에 따라 **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 2020 Update (20H2)** 폴더로 이동합니다.
 4.  위의 경로에 있는 **정책** 정의 폴더의 이름을 **PolicyDefinitions로 다시 지정합니다.**
@@ -119,4 +119,8 @@ PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[도메인 사용자를 Microsoft 365에](manage-domain-users.md) 동기화(문서) [](../admin/create-groups/create-groups.md) 관리 센터에서 그룹 만들기(문서) [자습서:](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) 관리되는 도메인에 대한 하이브리드 Azure Active Directory 가입 구성(문서)
+[도메인 사용자를 도메인 사용자와](manage-domain-users.md) Microsoft 365 동기화(문서)
+
+[관리 센터에서](../admin/create-groups/create-groups.md) 그룹 만들기(문서)
+
+[자습서: 관리되는 도메인에 Azure Active Directory 하이브리드](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) 연결 구성(문서)

@@ -26,17 +26,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: 중앙 집중식 관리 및 보안 제어를 Windows 사용자를 위해 Windows 10 Pro Microsoft 365 Business Premium 장치를 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 3e268d81ff6fb7113b7e0b0fe5d0545ff5c72b1e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: 중앙 집중식 Windows 제어를 Windows 10 Pro Microsoft 365 Business Premium 실행되는 디바이스를 설정하십시오.
+ms.openlocfilehash: 3d32a033a1a1c89d7d4d557cea6a28e24543ab2c
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244779"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594024"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>사용자용 Windows 장치 Microsoft 365 Business Premium 설정
 
-## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-premium-users"></a>Windows 사용자를 위한 Windows 설정하기 위한 Microsoft 365 Business Premium 선행
+## <a name="before-you-begin"></a>시작하기 전에
 
 Windows 사용자를 위해 Windows Microsoft 365 Business Premium 장치를 설정하기 전에 모든 Windows 장치가 Windows 10 Pro 버전 1703(크리에이터스 업데이트)을 실행하고 있는지 확인하십시오. Windows 10 Pro 클라우드 서비스 및 장치 관리 기능 집합인 Windows 10 Business 배포하기 위한 선행 구성 Windows 10 Pro 관리 및 보안 제어를 Microsoft 365 Business Premium.
   
@@ -128,6 +128,6 @@ Azure AD에 가입된 Windows 10 디바이스가 Windows 10 Business 구독의 �
 
 모바일 장치를 설정하려면 Microsoft 365 Business Premium 사용자를 위한 모바일 장치 설정 [,](set-up-mobile-devices.md)장치 보호 또는 앱 보호 정책을 설정하려면 비즈니스용 Microsoft 365 [관리를 참조하세요.](manage.md)
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>설정 및 사용에 대한 자세한 내용은 Microsoft 365 Business Premium
+## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 Business 교육 비디오](../business-video/index.yml)
+[Microsoft 365 교육용 비디오(링크](../business-video/index.yml) 페이지)

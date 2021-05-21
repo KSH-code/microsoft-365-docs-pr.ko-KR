@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용하여 추가 기능을 배포할 수 있도록 테넌트와 사용자가 요구 사항을 Office 확인합니다.
-ms.openlocfilehash: 482f2231c0c2c9fa30e863f25f474d90a22f52fa
-ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
+ms.openlocfilehash: e5d3337cdf1bbb0dc18ee6940ab8bd289d2e5f65
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52464408"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593924"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 적합한지 확인
 
@@ -43,7 +43,7 @@ ms.locfileid: "52464408"
 
 추가 기능을 모든 사용자의 클라이언트에 표시하는 데 최대 24시간이 걸릴 수 있습니다.
   
-## <a name="requirements"></a>요구 사항
+## <a name="before-you-begin"></a>시작하기 전에
 
 추가 기능을 중앙 집중식으로 배포하려면 사용자가 Microsoft 365 Enterprise SKUS( E3/E5/F3 또는 Business SKUS: Business Basic, Business Standard, Business Premium(조직 ID를 사용하여 Office 로그인)를 사용하고 Exchange Online 및 활성 상태의 Exchange Online 사서함이 필요합니다. 구독 디렉터리가 에 있어야 합니다. 또는 구독 디렉터리에 Azure Active Directory.
 아래에서 배포 및 Office 요구 Exchange 또는 중앙 집중식 배포 호환성 검사 를 사용할 [수 있습니다.](#centralized-deployment-compatibility-checker)

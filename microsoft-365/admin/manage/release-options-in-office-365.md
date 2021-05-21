@@ -21,31 +21,31 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
-description: Microsoft 365 관리 센터에서 새 제품 및 기능 업데이트에 대한 릴리스 옵션을 설정하는 방법을 학습합니다.
-ms.openlocfilehash: d3692f2e1cca58fec81f2ad492b9232d5576f99b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Microsoft 365 관리 센터에서 새 제품 및 기능 업데이트에 대한 릴리스 옵션을 설정하는 Microsoft 365 방법을 학습합니다.
+ms.openlocfilehash: 5060e2dc99355d89928ec91c96b7d25e2016c7c4
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579257"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593948"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>표준 또는 대상 지정 릴리스 옵션 설정
 
 > [!IMPORTANT]
-> 이 문서에 설명된 Microsoft 365 업데이트는 Microsoft 365, SharePoint Online 및 Exchange Online에 적용됩니다. 이러한 릴리스 옵션은 Microsoft 365에 대한 변경 내용을 릴리스하는 가장 좋은 방법인 대상이지만, 어떤 경우나 모든 업데이트에 대해 보장할 수는 없습니다. Microsoft 365 앱, 비즈니스용 Skype, Microsoft Teams 및 관련 서비스에는 적용되지 않습니다. Microsoft 365 앱의 릴리스 옵션에 대한 자세한 내용은 Microsoft 365 앱 업데이트 채널 [개요를 참조하세요.](/deployoffice/overview-update-channels)
+> 이 Microsoft 365 설명하는 업데이트는 Microsoft 365, SharePoint Online 및 Exchange Online. 이러한 릴리스 옵션은 대상이 지정되어 있는 최상의 방법으로 Microsoft 365 변경 내용을 릴리스하는 가장 좋은 방법이지만 모든 업데이트에 대해 보장할 수는 없습니다. 이러한 서비스는 Microsoft 365 앱, 비즈니스용 Skype, Microsoft Teams 적용되지 않습니다. 에 대한 릴리스 옵션에 대한 Microsoft 365 앱 에 대한 업데이트 채널 [개요를 Microsoft 365 앱.](/deployoffice/overview-update-channels)
 
-Microsoft 365를 사용하면 몇 년마다 비용이 많이 드는 업데이트를 수행하지 않고 새로운 제품 업데이트 및 기능을 사용할 수 있습니다. 관리자는 조직에서 이러한 업데이트를 받는 방법을 관리할 수 있습니다. 예를 들어, 조직에서 먼저 업데이트를 받도록 초기 릴리스에 등록할 수 있습니다. 특정 개인만 업데이트를 받도록 지정할 수 있습니다. 또는 기본 릴리스 일정을 유지하고 나중에 업데이트를 받을 수도 있습니다. 이 문서에서는 다양한 릴리스 옵션과 조직에 사용할 수 있는 방법에 대해 설명합니다.
+이 Microsoft 365 사용하면 몇 년마다 비용이 많이 드는 업데이트를 수행하지 않고 사용할 수 있는 새로운 제품 업데이트 및 기능을 받게 됩니다. 관리자는 조직에서 이러한 업데이트를 받는 방법을 관리할 수 있습니다. 예를 들어, 조직에서 먼저 업데이트를 받도록 초기 릴리스에 등록할 수 있습니다. 특정 개인만 업데이트를 받도록 지정할 수 있습니다. 또는 기본 릴리스 일정을 유지하고 나중에 업데이트를 받을 수도 있습니다. 이 문서에서는 다양한 릴리스 옵션과 조직에 사용할 수 있는 방법에 대해 설명합니다.
 
 ## <a name="how-it-works---release-validation"></a>방법 - 릴리스 유효성 검사
 
-모든 새 릴리스는 먼저 기능 팀에서 테스트하고 유효성을 검사한 다음 전체 Microsoft 365 기능 팀이 유효성을 검사한 다음 모든 Microsoft가 테스트합니다. 내부 테스트 및 유효성 검사 후 다음 단계는 선택한 고객에게 **대상 지정된 릴리스**(이전의 첫 번째 릴리스)입니다. 각 릴리스 링에서 Microsoft는 주요 사용 메트릭을 모니터링하여 피드백을 수집하고 품질을 더 확인합니다. 이러한 일련의 점진적인 유효성 검사는 전 세계 릴리스가 가능한 한 견고하도록 하기 위한 것입니다. 릴리스는 다음 그림과 같습니다. 
+모든 새 릴리스는 먼저 기능 팀에서 테스트하고 유효성을 검사한 다음 전체 Microsoft 365 기능 팀이 테스트한 다음 모든 Microsoft가 검증합니다. 내부 테스트 및 유효성 검사 후 다음 단계는 선택한 고객에게 **대상 지정된 릴리스**(이전의 첫 번째 릴리스)입니다. 각 릴리스 링에서 Microsoft는 주요 사용 메트릭을 모니터링하여 피드백을 수집하고 품질을 더 확인합니다. 이러한 일련의 점진적인 유효성 검사는 전 세계 릴리스가 가능한 한 견고하도록 하기 위한 것입니다. 릴리스는 다음 그림과 같습니다. 
   
-![Microsoft 365용 릴리스 유효성 검사 링](../../media/73611ed3-2d8c-4e7b-8074-9f03b239f9ed.png)
+![사용자에 대한 유효성 검사 Microsoft 365](../../media/73611ed3-2d8c-4e7b-8074-9f03b239f9ed.png)
   
-중요한 업데이트의 경우 처음에 Microsoft [365 로드맵에 의해 고객에게 통보됩니다.](https://products.office.com/business/office-365-roadmap) 업데이트가 배포될수록 [Microsoft 365 메시지 센터를 통해 전달됩니다.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter)
+중요한 업데이트의 경우 초기에는 2016년 8월 1일 [로드맵을 통해 Microsoft 365 합니다.](https://products.office.com/business/office-365-roadmap) 업데이트가 롤아웃에 가까워지고 나면 업데이트가 메시지 센터 를 [통해 Microsoft 365 전달됩니다.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter)
 
 > [!NOTE]
-> 관리 센터를 통해 메시지 센터에 액세스하려면 Microsoft 365 또는 Azure AD [계정이 필요합니다.](/office365/admin/admin-overview/about-the-admin-center) Microsoft 365 Home 요금제 사용자에게는 관리 센터가 없습니다.
+> 관리 센터를 Microsoft 365 액세스하려면 관리자 또는 Azure AD [계정이 필요합니다.](/office365/admin/admin-overview/about-the-admin-center) Microsoft 365 요금제 사용자에게 관리 센터가 없습니다.
 
 
 ## <a name="standard-release"></a>표준 릴리스
@@ -88,12 +88,12 @@ Microsoft 365를 사용하면 몇 년마다 비용이 많이 드는 업데이트
     
 ## <a name="set-up-the-release-option-in-the-admin-center"></a>관리 센터에서 릴리스 옵션 설정
 
-다음 단계에 따라 조직에서 Microsoft 365 업데이트를 받는 방법을 변경할 수 있습니다. 옵트인하려면 Microsoft 365에서 전역 관리자 를 선택해야 합니다.
+다음 단계를 수행하여 조직에서 업데이트 Microsoft 365 방법을 변경할 수 있습니다. 옵트인하려면 옵트인(opt in)에서 전역 Microsoft 365 합니다.
   
 > [!IMPORTANT]
-> 아래 변경 내용이 Microsoft 365에 적용될 경우 최대 24시간이 걸릴 수 있습니다. 대상 지정된 릴리스를 설정한 후에 취소하는 경우 사용자가 아직 예정된 릴리스에 도달하지 않은 기능에 액세스하지 못할 수 있습니다. 
+> 아래 변경 내용을 적용하는 데 최대 24시간이 걸릴 수 Microsoft 365. 대상 지정된 릴리스를 설정한 후에 취소하는 경우 사용자가 아직 예정된 릴리스에 도달하지 않은 기능에 액세스하지 못할 수 있습니다. 
   
-1. 관리 센터에서 설정 조직 설정으로 이동하고 조직 프로필 탭에서  >  릴리스 기본 설정 **을 선택합니다.** 
+1. 관리 센터에서 조직 **설정** 로 이동하고 조직 프로필 탭에서 릴리스 기본 설정  >   **을 선택합니다.** 
 
 5. 대상 지정 릴리스를 사용하지 않도록 설정하려면 **표준** 릴리스 를 선택한 다음 변경 **내용 저장 을 선택합니다.** 
     
@@ -101,16 +101,14 @@ Microsoft 365를 사용하면 몇 년마다 비용이 많이 드는 업데이트
     
 7. 조직의 일부 사용자에 대해 대상 지정 릴리스를 사용하도록 설정하려면 선택한 사용자에 대해 대상 지정 릴리스를 선택한 다음 변경 내용 저장 **을 선택합니다.** 
     
-8. 사용자를 **한** 번씩 추가하려면 사용자 선택을 선택하거나, 사용자를 대량으로 **추가하려면** 사용자 업로드를 선택합니다.
+8. 사용자를 **한에** 하나씩 추가하려면 사용자 선택을 선택하거나, 업로드 **대량으로** 추가할 수 있도록 합니다.
     
 9. 사용자 추가가 완료되면 변경 **내용 저장 을 선택합니다.**
-
-
   
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="next-steps"></a>다음 단계
 
-[Microsoft 365](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter) 메시지 센터에서 메시지를 관리하여 예정된 Microsoft 365 업데이트 및 릴리스에 대한 알림을 다운로드하는 방법을 확인합니다. [](/office365/admin/manage/message-center)
+예정된 [](/office365/admin/manage/message-center) 업데이트 및 릴리스에 대한 알림을 Microsoft 365 메시지 센터에서 메시지를 관리하는 Microsoft 365 방법을 확인합니다. [](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter)
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[Office 참가자](https://insider.office.com/join/windows)
+[Office 프로그램](https://insider.office.com/join/windows) 참가(문서)

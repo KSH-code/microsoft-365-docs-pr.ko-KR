@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
-description: Microsoft 365에서 관리되지 않는 테넌트를 소유하기 위해 전자 메일 및 도메인 소유권을 확인하는 방법에 대해 자세히 알아보기
-ms.openlocfilehash: 72278fd0e373848a79f9823e186b19bc1cb47770
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 전자 메일 및 도메인 소유권을 확인하여 해당 도메인에서 셀프 서비스 사용자 등록으로 만든 관리되지 않는 테넌트의 소유권을 Microsoft 365.
+ms.openlocfilehash: c37bf153edf39f53b5c10f020b0cbb8d630eb4a6
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914849"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593936"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>내부 관리자 인계 수행
 
@@ -39,9 +39,9 @@ ms.locfileid: "50914849"
 ## <a name="step-1-verify-your-email-address"></a>1단계: 전자 메일 주소 확인
 
 > [!NOTE]
-> 테넌트에서 셀프 서비스가 사용하도록 설정된 경우 사용자는 Power BI와 같은 무료 서비스를 직접 구독할 수 있습니다. 이 단계에서는 셀프 서비스 사용자 구독이 관리자 권한으로 인계할 관리되지 않는 테넌트가 만들어졌다고 가정합니다. 첫 번째 단계에서는 Power BI를 사용하여 관리되지 않는 테넌트에서 사용자 컨텍스트를 만들어 관리자 인계 경로를 보여야 합니다.
+> 테넌트에서 셀프 서비스가 사용하도록 설정된 경우 사용자는 자체적으로 무료 서비스(예: Power BI 구독할 수 있습니다. 이 단계에서는 셀프 서비스 사용자 구독이 관리자 권한으로 인계할 관리되지 않는 테넌트가 만들어졌다고 가정합니다. 첫 번째 단계에서는 관리되지 않는 테넌트에서 사용자 컨텍스트를 만들고 관리자 Power BI 방법을 보여 주게 됩니다.
 
-1. Power BI에 등록하려면 Power [BI](https://powerbi.com) 사이트로 이동하여 무료 시작 무료 평가판 시작(Power BI Pro와 공유  >   상자)을 선택합니다. 
+1. 등록하려면 Power BI 사이트로 이동하여 무료 [](https://powerbi.com) Power BI 시작 무료 평가판 시작(공유 대상 Power BI Pro  >   상자)을 선택합니다. 
 
 2. 조직의 도메인 이름(예: )을 사용하는 사용자 계정으로 `powerbiadmin@contoso.com` 등록합니다. 계정이 이미 사용 중인 경우 현재 암호를 사용하여 로그인합니다.
 
@@ -66,12 +66,12 @@ ms.locfileid: "50914849"
 > [!NOTE]
 > 섀도 테넌트의 인계는 기존 정보나 서비스에 영향을 미치지 않습니다. 그러나 도메인의 사용자가 라이선스가 필요한 서비스에 등록한 경우 관리자 역할의 일부로 해당 사용자에 대한 라이선스를 구입해야 합니다. 관리자 설정 프로세스가 완료되면 라이선스를 구입하거나 제거할 수 있습니다.
   
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-YouTube: Power BI 및 [Microsoft 365에 대한 IT 관리자 인계를 수행하기 위한 3단계](https://www.youtube.com/watch?v=xt5EsrQBZZk)
+YouTube: 사용자 및 [사용자에](https://www.youtube.com/watch?v=xt5EsrQBZZk) 대한 IT 관리자 인계를 Power BI Microsoft 365 단계(동영상)
 
-[Azure AD의 관리자 인계](/azure/active-directory/users-groups-roles/domains-admin-takeover)
+[Azure AD의 관리자](/azure/active-directory/users-groups-roles/domains-admin-takeover) 인계(문서)
 
-[조직에서 셀프 서비스 등록 사용](self-service-sign-up.md)
+[조직에서 셀프 서비스](self-service-sign-up.md) 등록 사용(문서)
   
-[Power BI 서비스 관리자 역할 이해](/power-bi/service-admin-role)
+[서비스 Power BI 역할](/power-bi/service-admin-role) 이해(문서)

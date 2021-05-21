@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
-description: 변경 관리에 Microsoft 365 메시지 센터의 역할에 대한 개요를 얻습니다.
-ms.openlocfilehash: 01e43eb6fa9502c138bfc9ab3595c47ec33ad098
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: 새로운 기능 및 Microsoft 365 및 기타 중요한 공지 사항을 추적하는 데 대한 메시지 센터의 역할에 대한 개요를 얻습니다.
+ms.openlocfilehash: edef3bb5a9016cf6f65f307fcd7c706bf4424d2f
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537526"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593960"
 ---
 # <a name="message-center"></a>메시지 센터
 
@@ -58,7 +58,7 @@ ms.locfileid: "52537526"
 메시지 센터 전자 메일의 구독을 취소하려면 이 문서의 메시지 센터 전자 메일 구독 [취소를](#unsubscribe-from-message-center-emails) 참조하세요.
 
   
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 |**질문**|**응답**|
 |:-----|:-----|
