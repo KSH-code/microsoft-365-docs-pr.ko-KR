@@ -19,19 +19,19 @@ ms.custom:
 search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
-description: 사용자 계정을 삭제하는 방법을 배워야 합니다. 사용자의 전자 메일 및 전자 메일로 할 작업을 OneDrive. 또한 제품 라이선스를 유지할지 아니면 비용 지불을 중지할지 여부를 결정하십시오.
-ms.openlocfilehash: f4b1e0b1fb591d369cc09010db86dd995d7d4896
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: 사용자 계정을 삭제하는 방법과 사용자의 전자 메일 및 전자 메일로 할 OneDrive 콘텐츠 및 제품 라이선스를 유지할지 여부에 대해 자세히 알아보겠습니다.
+ms.openlocfilehash: c30edb598f659337778ec956737934da5fedad18
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535977"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593408"
 ---
 # <a name="delete-a-user-from-your-organization"></a>조직에서 사용자 삭제
   
 **직장이나 학교에서  사용하는 Microsoft 365 계정을 삭제하는 방법을 찾고 있나요? 이 단계를 수행하기 위해 직장이나 대학의 기술 지원에 문의하세요.**
 
-## <a name="what-you-need-to-know-about-deleting-users"></a>사용자 삭제에 대해 알아야 할 사항
+## <a name="before-you-begin"></a>시작하기 전에
 
 - 전역 관리자 [](about-admin-roles.md) 또는 Microsoft 365 사용자 관리 권한이 있는 사용자만 사용자 계정을 삭제할 수 있습니다.
 - 30일 내에 계정을 [복원](restore-user.md)하지 않으면 사용자 데이터가 영구적으로 삭제됩니다.
@@ -169,14 +169,14 @@ ms.locfileid: "52535977"
 
 **컴퓨터에서 Microsoft 365 삭제하고 싶나요? 구독 [취소로 이동하세요.](../../commerce/subscriptions/cancel-your-subscription.md)**
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[사용자 복원](restore-user.md)
+[사용자](restore-user.md) 복원(문서)
   
-[사서함을 영구적으로 삭제](/exchange/permanently-delete-a-mailbox-exchange-2013-help)
+[사서함 영구](/exchange/permanently-delete-a-mailbox-exchange-2013-help) 삭제(문서)
 
-[Office 365에서 이전 직원 제거](remove-former-employee.md)
+[2013에서 이전](remove-former-employee.md) 직원 Office 365 제거(문서)
 
-[Office 365에 새 직원 추가](add-new-employee.md)
+[새 직원을 추가하여](add-new-employee.md) 새 Office 365(문서)
 
-[사용자 계정 삭제:](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))비즈니스에서 Azure AD와 동기화되는 **Active Directory를** 사용하는 경우 다음 지침을 사용하세요. Office 365를 통해서는 이렇게 할 수 없습니다.
+[사용자 계정 삭제:](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))비즈니스에서 Azure AD와 동기화되는 **Active Directory를** 사용하는 경우 다음 지침을 사용하세요. Office 365를 통해서는 이렇게 할 수 없습니다. (문서)

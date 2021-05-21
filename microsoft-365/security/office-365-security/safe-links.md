@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 이 문서에서 관리자는 피싱 및 악의적인 URL을 사용하는 Office 365 공격으로부터 조직을 보호하기 위해 Defender의 안전한 링크 보호에 대해 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 573fd5b92400996fa595b5953028e20fcecec976
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 407f04685e41269c0e8436d3b68db7d755fce129
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583583"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593572"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Microsoft Defender의 안전한 Office 365
 
@@ -54,7 +54,7 @@ ms.locfileid: "52583583"
   전자 메일 메시지의 안전한 링크 보호에 [](#safe-links-settings-for-email-messages) 대한 자세한 내용은 이 문서 의 부분에 있는 전자 메일 메시지에 대한 안전한 링크 설정 섹션을 참조하세요.
   
   > [!NOTE]
-  > 메일 사용이 가능한 공용 폴더에서는 판매 링크가 작동하지 않습니다.
+  > 안전한 링크는 메일 사용이 가능한 공용 폴더에서 작동하지 않습니다.
 
 - **Microsoft Teams(현재 TAP** 미리 보기에서): Teams, 그룹 채팅 또는 채널의 링크에 대한 안전한 링크 보호는 안전한 링크 정책에 의해 제어됩니다. 기본 안전 링크 정책은 없습니다. 따라서 에서 안전한 링크 보호를 Teams 하나 이상의 안전한 링크 정책을 **만들어야 합니다.**
 

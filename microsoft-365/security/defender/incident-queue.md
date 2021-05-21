@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: a3b6edda36d2872177d9a88f3259220dcf2e76f3
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: dba96a43f976353251b5530233667933088f6f29
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52291318"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594088"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Defender에서 인시던트 Microsoft 365 우선 순위 지정
 
@@ -87,7 +87,7 @@ Microsoft 365 Defender는 상관 관계 분석을 적용하고 다양한 제품�
 
 우선 순위가 가장 높은 인시던트가 필요한 인시던트가 결정되면 선택하고 다음을 선택합니다.
 
-- [태그,](manage-incidents.md) 보안 분석가에게 할당 및 설명에 대한 인시던트 속성을 관리합니다.
+- [태그,](manage-incidents.md) 할당, 가짓 긍정 인시던트에 대한 즉각적인 해결 및 설명에 대한 인시던트의 속성을 관리합니다.
 - 조사를 [시작 합니다.](investigate-incidents.md)
 
 ## <a name="see-also"></a>참고 항목

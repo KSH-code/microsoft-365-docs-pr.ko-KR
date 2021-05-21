@@ -1,5 +1,5 @@
 ---
-title: Microsoft가 아닌 다른 끝점 솔루션에서 끝점용 Microsoft Defender로 전환
+title: Microsoft가 아닌 엔드포인트 보호에서 끝점용 Microsoft Defender로 전환
 description: 끝점용 Microsoft Defender로 전환합니다. 개요는 이 문서를 읽어 읽습니다.
 keywords: migration, windows defender advanced endpoint protection, for Endpoint, edr
 search.product: eADQiWindows 10XVcnh
@@ -19,23 +19,23 @@ ms.collection:
 - m365solution-overview
 ms.topic: conceptual
 ms.custom: migrationguides
-ms.date: 05/14/2021
+ms.date: 05/20/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: 013205a1b5b9db204f626a6fe6ab76ad07378558
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2a2b78089486b432ebf9492de26396b2bb96f94d
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538006"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593504"
 ---
-# <a name="make-the-switch-from-a-non-microsoft-endpoint-solution-to-microsoft-defender-for-endpoint"></a>Microsoft가 아닌 다른 끝점 솔루션에서 끝점용 Microsoft Defender로 전환
+# <a name="make-the-switch-from-non-microsoft-endpoint-protection-to-microsoft-defender-for-endpoint"></a>Microsoft가 아닌 엔드포인트 보호에서 끝점용 Microsoft Defender로 전환
 
-Microsoft가 아닌 끝점 보호 솔루션에서 [끝점용 Microsoft Defender(Endpoint용 Defender)로](microsoft-defender-endpoint.md) 전환할 계획이면 올바른 장소에 있습니다. 이 문서를 가이드로 사용하세요.
+Microsoft가 아닌 끝점 보호에서 [끝점용 Microsoft Defender(Endpoint용 Defender)로](microsoft-defender-endpoint.md) 전환하는 것을 생각하고 있는 경우 올바른 장소에 있습니다. 이 문서를 가이드로 사용하세요.
 
 :::image type="content" source="images/nonms-mde-migration.png" alt-text="끝점용 Defender로의 마이그레이션 개요":::
 
-Endpoint용 Defender로 전환할 때 활성 모드에서 Microsoft가 아닌 솔루션으로 시작하고, 수동 모드에서 끝점에 대한 Defender를 구성하고, 끝점용 Defender에 온보딩한 다음 끝점용 Defender를 활성 모드로 설정하고 Microsoft가 아닌 솔루션을 제거합니다.
+Endpoint용 Defender로 전환할 때 먼저 활성 모드에서 작동하고, 수동 모드에서 끝점용 Defender를 구성하고, Endpoint용 Defender에 온보딩하고, Endpoint용 Defender를 활성 모드로 설정한 다음 Microsoft가 아닌 솔루션을 제거합니다.
 
 > [!TIP]
 > - 현재 McAfee 끝점 보안(McAfee)을 사용 중인 경우 [Migrate from McAfee to Defender for Endpoint를 참조합니다.](mcafee-to-microsoft-defender-migration.md)
@@ -43,15 +43,15 @@ Endpoint용 Defender로 전환할 때 활성 모드에서 Microsoft가 아닌 �
 
 ## <a name="the-migration-process"></a>마이그레이션 프로세스
 
-Endpoint용 Defender로 전환할 때 다음 표에 설명된 세 단계로 나눌 수 있는 프로세스를 따를 수 있습니다.
+다음 표에 설명된 바와 같이 끝점용 Defender로 마이그레이션하는 프로세스는 세 단계로 나눌 수 있습니다.
 
 ![마이그레이션 단계 - 준비, 설정, 온보드](images/phase-diagrams/migration-phases.png)
 
 |단계 |설명 |
 |--|--|
-|[마이그레이션 준비](switch-to-microsoft-defender-prepare.md) |준비 [ **단계에서는**](switch-to-microsoft-defender-prepare.md)조직의 장치를 업데이트하고, 끝점에 대한 Defender를 다운로드하고, 역할 및 권한을 계획하고, 조직에 대한 액세스 권한을 Microsoft Defender 보안 센터. 또한 조직의 장치와 Endpoint용 Defender 간의 통신을 사용하도록 장치 프록시 및 인터넷 설정을 구성합니다. |
-|[끝점에 대한 Defender 설정](switch-to-microsoft-defender-setup.md) |설치 [ **단계 중에는**](switch-to-microsoft-defender-setup.md)를 사용하도록 Microsoft Defender 바이러스 백신 수동 모드로 설정할 수 있습니다. 또한 기존 끝점 & 솔루션에 Microsoft Defender 바이러스 백신 제외에 대한 설정을 구성할 수 있습니다. 그런 다음 장치 그룹, 컬렉션 및 조직 구성 단위를 생성합니다. 마지막으로 맬웨어 방지 정책 및 실시간 보호 설정을 구성합니다.|
-|[끝점용 Defender에 온보딩](switch-to-microsoft-defender-onboard.md) |[ **온보딩**](switch-to-microsoft-defender-onboard.md)단계에서 끝점용 Defender에 장치를 온보딩하고, Microsoft Defender 바이러스 백신 모드로 실행 중인지 확인하고, 끝점이 끝점용 Defender와 통신하는지 확인할 수 있습니다. 그런 다음 기존 끝점 보호 솔루션을 제거하고 끝점용 Defender가 제대로 작동하고 있는지 확인합니다. |
+|[마이그레이션 준비](switch-to-microsoft-defender-prepare.md) |[준비 **단계 중:**](switch-to-microsoft-defender-prepare.md) <p>1. 조직의 장치를 업데이트합니다. <p>2. 끝점용 Defender를 얻습니다. <p>3. 역할 및 사용 권한을 계획하고 역할에 대한 액세스 권한을 Microsoft Defender 보안 센터. <p>4. 조직의 장치와 Endpoint용 Defender 간의 통신을 사용하도록 장치 프록시 및 인터넷 설정을 구성합니다. |
+|[끝점에 대한 Defender 설정](switch-to-microsoft-defender-setup.md) |설치 [ **단계 중:**](switch-to-microsoft-defender-setup.md) <p>1. 설치를 사용하도록 설정/다시 Microsoft Defender 바이러스 백신. <p>2. 끝점에 대한 Defender를 구성합니다. <p>3. 기존 솔루션의 제외 목록에 끝점용 Defender를 추가합니다. <p>4. 기존 솔루션을 기존 솔루션의 제외 목록에 Microsoft Defender 바이러스 백신. <p>5. 장치 그룹, 컬렉션 및 조직 구성 단위를 설치합니다. <p>6. 맬웨어 방지 정책 및 실시간 보호 설정을 구성합니다.|
+|[끝점용 Defender에 온보딩](switch-to-microsoft-defender-onboard.md) |[ **온보더 단계 중:**](switch-to-microsoft-defender-onboard.md) <p>1. 끝점용 Defender에 장치를 온보딩합니다. <p>2. 검색 테스트를 실행합니다. <p>3. 수동 Microsoft Defender 바이러스 백신 실행 중인지 확인 <p>4. 설치에 대한 업데이트를 Microsoft Defender 바이러스 백신. <p>5. 기존 끝점 보호 솔루션을 제거합니다. <p>6. 끝점에 대한 Defender가 제대로 작동하고 있는지 확인합니다. |
 
 ## <a name="whats-included-in-microsoft-defender-for-endpoint"></a>끝점용 Microsoft Defender에는 무엇이 포함되어 있나요?
 

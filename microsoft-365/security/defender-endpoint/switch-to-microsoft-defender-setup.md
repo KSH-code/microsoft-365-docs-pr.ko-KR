@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 05/14/2021
+ms.date: 05/20/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: e8abf10bd036b5e6e76d08e86ab4963629d2f994
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2ea8cc323220024406a49eda8d6a7c0b42ca71a4
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537994"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594052"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Endpoint용 Microsoft Defender로 전환 - 2단계: 설치
 
@@ -41,35 +41,31 @@ ms.locfileid: "52537994"
 **끝점용 [Defender로 전환하는 설치 단계에 오신 것을 환영합니다.](switch-to-microsoft-defender-migration.md#the-migration-process)** 이 단계에는 다음 단계가 포함됩니다.
 
 1. [끝점에서 Microsoft Defender 바이러스 백신 다시 설치/사용하도록 설정](#reinstallenable-microsoft-defender-antivirus-on-your-endpoints)
-
 2. [끝점에 대한 Defender를 구성합니다.](#configure-defender-for-endpoint)
-
 3. 기존 솔루션의 제외 목록에 [끝점용 Defender를 추가합니다.](#add-microsoft-defender-for-endpoint-to-the-exclusion-list-for-your-existing-solution)
-
 4. [에 대한](#add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-antivirus)제외 목록에 기존 솔루션을 Microsoft Defender 바이러스 백신.
-
 5. 장치 그룹, 장치 컬렉션 및 조직 [구성 단위를 설치합니다.](#set-up-your-device-groups-device-collections-and-organizational-units)
-
 6. [맬웨어 방지 정책 및 실시간 보호를 구성합니다.](#configure-antimalware-policies-and-real-time-protection)
 
 
 ## <a name="reinstallenable-microsoft-defender-antivirus-on-your-endpoints"></a>끝점에서 Microsoft Defender 바이러스 백신 다시 설치/사용
 
-특정 버전의 Windows, Microsoft Defender 바이러스 백신 Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션이 설치될 때 제거되거나 비활성화될 수 있습니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조하세요.](microsoft-defender-antivirus-compatibility.md)
+특정 버전의 Windows, Microsoft Defender 바이러스 백신 Microsoft 바이러스 백신/맬웨어 방지 솔루션이 설치될 때 제거되거나 비활성화된 것일 수 있습니다. 장치가 Endpoint용 Defender에 온보딩될 때까지 Microsoft Defender 바이러스 백신 Microsoft가 아닌 바이러스 백신 솔루션과 함께 활성 모드에서 실행되지 않습니다. 자세한 내용은 호환성 [Microsoft Defender 바이러스 백신 참조합니다.](microsoft-defender-antivirus-compatibility.md)
 
-Windows 클라이언트에서 Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션이 설치되면 해당 Microsoft Defender 바이러스 백신 끝점용 Defender에 온보딩될 때까지 자동으로 사용하지 않도록 설정됩니다. 클라이언트 끝점이 Endpoint용 Defender에 Microsoft Defender 바이러스 백신 Microsoft가 아닌 바이러스 백신 솔루션이 제거될 때까지 수동 모드로 전환됩니다. Microsoft Defender 바이러스 백신 설치해야 하지만 마이그레이션 프로세스의 이 시점에서는 사용하지 않도록 설정되어 있을 수 있습니다. 제거된 Microsoft Defender 바이러스 백신 않은 경우 클라이언트에 대해 작업을 수행하지 Windows 없습니다.
+이제 끝점용 Defender로 전환할 계획이기 때문에 이제 추가 기능을 다시 설치하거나 사용하도록 설정하기 위한 특정 단계를 Microsoft Defender 바이러스 백신. 
 
-설치 Windows Microsoft가 아닌 바이러스 백신/맬웨어 방지가 설치되어 있는 경우 Microsoft Defender 바이러스 백신 사용하지 않도록 설정됩니다(제거되지 않은 경우). 다음 작업을 수행하면 서버의 Microsoft Defender 바이러스 백신 설치 및 수동 모드로 Windows 있습니다.
 
-- [Windows Server에서 DisableAntiSpyware를 false로 설정(필요한](#set-disableantispyware-to-false-on-windows-server) 경우만 해당)
+| 끝점 유형  | 수행할 작업  |
+|---------|---------|
+| Windows 클라이언트(예: Windows 10)     | 일반적으로 클라이언트가 제거되지 않은 경우 Windows 작업을 수행하지 Microsoft Defender 바이러스 백신 않습니다. 그 이유는 다음과 같습니다. <p>Microsoft Defender 바이러스 백신 설치해야 하지만 마이그레이션 프로세스의 이 시점에서는 사용하지 않도록 설정되어 있을 가능성이 습니다.<p> Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션이 설치되고 클라이언트가 끝점용 Defender에 아직 온보딩되지 않은 경우 Microsoft Defender 바이러스 백신 사용하지 않도록 설정됩니다. <p>나중에 클라이언트 끝점이 Endpoint용 Defender에 온보딩될 때 해당 끝점이 Microsoft가 아닌 바이러스 백신 솔루션을 실행하는 경우 Microsoft Defender 바이러스 백신 모드로 전환됩니다. <p>Microsoft가 아닌 바이러스 백신 솔루션을 제거하면 Microsoft Defender 바이러스 백신 모드로 전환됩니다.  |
+|Windows 서버     | Windows 서버에서 서버를 다시 설치하고 수동으로 Microsoft Defender 바이러스 백신 수동 모드로 설정해야 합니다. 그 이유는 다음과 같습니다. <p>모든 Windows Microsoft가 아닌 바이러스 백신/맬웨어 방지가 설치되어 있는 경우 microsoft가 아닌 Microsoft Defender 바이러스 백신 솔루션과 함께 실행할 수 없습니다. 이러한 경우 수동으로 Microsoft Defender 바이러스 백신 제거하거나 사용하지 않도록 설정됩니다. <p>Microsoft Defender 바이러스 백신 서버에서 Windows 사용하려면 다음을 수행하십시오. <p>- [Windows Server에서 DisableAntiSpyware를 false로 설정(필요한](#set-disableantispyware-to-false-on-windows-server) 경우만 해당)<br/>- [Microsoft Defender 바이러스 백신 서버에서 Windows 다시 설치](#reinstall-microsoft-defender-antivirus-on-windows-server)<br/>- [Microsoft Defender 바이러스 백신 서버에서 수동 모드로 Windows 설정](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)       |
 
-- [Microsoft Defender 바이러스 백신 서버에서 Windows 다시 설치](#reinstall-microsoft-defender-antivirus-on-windows-server) 
 
-- [Microsoft Defender 바이러스 백신 서버에서 수동 모드로 Windows 설정](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)
+Microsoft가 아닌 바이러스 백신 Microsoft Defender 바이러스 백신 상태와 관련한 자세한 내용은 Microsoft Defender 바이러스 백신 [참조합니다.](microsoft-defender-antivirus-compatibility.md)
 
 ### <a name="set-disableantispyware-to-false-on-windows-server"></a>Windows Server에서 DisableAntiSpyware를 false로 설정
 
-[DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) 레지스트리 키는 과거에 사용되어 Microsoft Defender 바이러스 백신 McAfee, Symantec 등의 다른 바이러스 백신 제품을 배포했습니다. 일반적으로 장치 및 끝점에서 이 레지스트리 Windows 안 됩니다. 그러나 구성한 경우 값을 `DisableAntiSpyware` false로 설정하는 방법에는 다음이 있습니다.
+[DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) 레지스트리 키는 과거에 사용되어 Microsoft Defender 바이러스 백신 McAfee, Symantec 등의 다른 바이러스 백신 제품을 배포했습니다. 일반적으로 장치 및 끝점에 이 레지스트리 **Windows 안 됩니다.** 그러나 *구성한 경우* 값을 `DisableAntiSpyware` false로 설정하는 방법에는 다음이 있습니다.
 
 1. Windows 서버에서 레지스트리 편집기를 여는 방법을 확인합니다.
 
@@ -100,11 +96,11 @@ Windows 클라이언트에서 Microsoft가 아닌 바이러스 백신/맬웨어 
    `Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features` <p>
    `Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender` <br/>
  
-    > [!NOTE]
-    > PS를 실행하는 작업 순서 내에서 DISM 명령을 사용하는 경우 다음 경로에 cmd.exe 필요합니다.
-    > 예제:<br/>
-    > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<p>
-    > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender`<br/>
+   > [!NOTE]
+   > PS를 실행하는 작업 순서 내에서 DISM 명령을 사용하는 경우 다음 경로에 cmd.exe 필요합니다.
+   > 예제:<br/>
+   > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<p>
+   > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender`<br/>
 
 3. 실행 중인 Microsoft Defender 바이러스 백신 확인을 위해 다음 PowerShell cmdlet을 사용 합니다. <br/>
    `Get-Service -Name windefend`
@@ -127,11 +123,14 @@ Windows 클라이언트에서 Microsoft가 아닌 바이러스 백신/맬웨어 
 
 끝점을 실행 중인 Windows Server 2016 Microsoft가 아닌 다른 Microsoft Defender 바이러스 백신 맬웨어 방지 솔루션과 함께 실행할 수 없습니다. Microsoft Defender 바이러스 백신 수동 모드에서 실행할 수 Windows Server 2016. 이 경우 Microsoft가 아닌 바이러스 백신/맬웨어 방지 솔루션을 제거하고 대신 맬웨어 방지 솔루션을 설치/Microsoft Defender 바이러스 백신 합니다. 자세한 내용은 [Endpoint용 Defender와의 바이러스 백신 솔루션 호환성을 참조합니다.](microsoft-defender-antivirus-compatibility.md)
 
-사용자 Windows Server 2016 사용하도록 설정하는 데 문제가 Microsoft Defender 바이러스 백신 다음 PowerShell cmdlet을 사용 합니다.
+사용 중일 때 Windows Server 2016 사용하도록 설정하는 데 문제가 Microsoft Defender 바이러스 백신 다음 단계를 따르세요.
 
-`mpcmdrun -wdenable`
+1. 장치에서 관리자 권한으로 PowerShell을 여는 것입니다.
 
-자세한 내용은 Microsoft Defender 바이러스 백신 [Server의 Windows 참조하세요.](microsoft-defender-antivirus-on-windows-server.md)
+2. 다음 PowerShell cmdlet을 입력합니다. `mpcmdrun -wdenable`
+
+> [!TIP]
+> 자세한 내용은 Microsoft Defender 바이러스 백신 [Server의 Windows 참조하세요.](microsoft-defender-antivirus-on-windows-server.md)
 
 ## <a name="configure-defender-for-endpoint"></a>끝점에 대한 Defender 구성
 
@@ -171,14 +170,13 @@ Windows 클라이언트에서 Microsoft가 아닌 바이러스 백신/맬웨어 
 
 ### <a name="keep-the-following-points-about-exclusions-in-mind"></a>제외에 대해 다음 점에 유의합니다.
 
-검사에 제외를 [Microsoft Defender 바이러스 백신](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus)경로 및 프로세스 제외를 추가해야 합니다. 다음 점에 유의하십시오.
+검사에 제외를 [Microsoft Defender 바이러스 백신](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus)경로 및 프로세스 제외를 추가해야 합니다. 
+
+다음 점에 유의하십시오.
 
 - *경로 제외는* 특정 파일과 해당 파일이 액세스하는 모든 파일을 제외합니다.
-
 - *프로세스 제외는* 프로세스 터치를 제외하지만 프로세스 자체는 제외하지 않습니다.
-
 - 이름만 사용하지 말고 전체 경로를 사용하여 프로세스 제외를 나열합니다. 이름 전용 메서드는 안전하지 않습니다.
-
 - 각 실행(.exe)을 경로 제외 및 프로세스 제외로 나열하면 프로세스와 터치하는 항목은 모두 제외됩니다.
 
 
@@ -197,7 +195,6 @@ Windows 클라이언트에서 Microsoft가 아닌 바이러스 백신/맬웨어 
 Configuration Manager 및 장치 컬렉션을 사용하여 맬웨어 방지 정책을 구성합니다.
 
 - Configuration Manager에서 맬웨어 방지 정책 [만들기 및 Endpoint Protection 배포를 참조하세요.](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies)
-
 - 맬웨어 방지 정책을 만들고 구성하는 동안 실시간 [](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies#real-time-protection-settings) 보호 설정을 검토하고 차단을 사용하면 [됩니다.](configure-block-at-first-sight-microsoft-defender-antivirus.md)
 
 > [!TIP]

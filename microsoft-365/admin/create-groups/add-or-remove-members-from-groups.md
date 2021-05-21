@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 그룹에서 구성원 추가 또는 제거
+title: 그룹에서 구성원 Microsoft 365 제거
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -17,20 +17,20 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
-description: Microsoft 365 관리 센터에서 그룹에 구성원을 추가하고, 그룹에서 구성원을 제거하고, 그룹 소유자 상태를 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 997145b85d2990d5bf7184f5e97a0a8d1c86dae9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 그룹 관리 센터에서 그룹에 구성원을 추가하고, 그룹에서 구성원을 제거하고, 그룹 소유자 상태를 관리하는 Microsoft 365 방법을 학습합니다.
+ms.openlocfilehash: 3ab3ebe21caa2d9d3dfa381dd3b68c9d2512cb79
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907919"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593384"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>관리 센터를 사용하여 Microsoft 365 그룹에서 구성원 추가 또는 제거
 
-Microsoft 365에서 그룹 구성원은 일반적으로 자체 그룹을 만들거나, 참가하려는 그룹에 자신을 추가하거나, 그룹 소유자가 초대합니다. 그룹 소유권이 변경되거나 구성원을 추가 또는 제거해야 한다고 결정한 경우 관리자로 변경을 할 수도 있습니다. 전역 관리자, Exchange 관리자, 그룹 관리자 또는 사용자 관리자만 이러한 변경을 할 수 있습니다. [Microsoft 365 그룹이란?](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+이 Microsoft 365 그룹 구성원은 일반적으로 자체 그룹을 만들거나, 참가하려는 그룹에 자신을 추가하거나, 그룹 소유자가 초대합니다. 그룹 소유권이 변경되거나 구성원을 추가 또는 제거해야 한다고 결정한 경우 관리자로 변경을 할 수도 있습니다. 전역 관리자, Exchange, 그룹 관리자 또는 사용자 관리자만 이러한 변경을 할 수 있습니다. [그룹이란 Microsoft 365 무엇입니까?](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 > [!TIP]
-> 관리자가 아닌 경우 Outlook 을 사용하여 구성원을 [추가하거나 제거할 수 있습니다.](https://support.microsoft.com/office/3b650f4a-5c9b-4f94-a1bb-0cca4b1091de)
+> 관리자가 아닌 경우 를 사용하여 구성원을 추가하거나 제거할 [수 Outlook.](https://support.microsoft.com/office/3b650f4a-5c9b-4f94-a1bb-0cca4b1091de)
   
 ## <a name="add-a-member-to-a-group-in-the-admin-center"></a>관리 센터의 그룹에 구성원 추가
 
@@ -109,14 +109,14 @@ Microsoft 365에서 그룹 구성원은 일반적으로 자체 그룹을 만들�
 
 - [분리된 그룹에 새 소유자 할당](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
-## <a name="articles-about-managing-groups"></a>그룹 관리에 대한 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-- [Outlook에서 메일 그룹을 Microsoft 365 그룹으로 업그레이드](../manage/upgrade-distribution-lists.md)
+[메일 그룹을 Microsoft 365 그룹으로 업그레이드(Outlook)](../manage/upgrade-distribution-lists.md)
 
-- [Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
+[Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)(기사)
 
-- [Microsoft 365 그룹에서 게스트 액세스 관리](manage-guest-access-in-groups.md)
+[Microsoft 365 그룹에서](manage-guest-access-in-groups.md) 게스트 액세스 관리(문서)
 
-- [PowerShell을 사용하여 Microsoft 365](../../enterprise/manage-microsoft-365-groups-with-powershell.md)그룹 관리 : 이 문서에서는 주요 cmdlet을 소개하고 예제를 제공합니다.
+[PowerShell을](../../enterprise/manage-microsoft-365-groups-with-powershell.md)사용하여 Microsoft 365 관리 : 이 문서에서는 주요 cmdlet을 소개하고 예제(문서)를 제공합니다.
 
-- [Microsoft 365 그룹 이름 정책](../../solutions/groups-naming-policy.md)
+[Microsoft 365 그룹 이름 정책(문서)](../../solutions/groups-naming-policy.md)

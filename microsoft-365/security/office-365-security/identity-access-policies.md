@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 42ab124f3026cf0b7441edf44c0e6433be5f0ecd
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: e7148e666b7d96d6de328089fccc4bb444b9f502
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583671"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594008"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 
@@ -63,9 +63,9 @@ ms.locfileid: "52583671"
 ||[APP(응용 프로그램 보호 정책) 데이터 보호 적용](#apply-app-data-protection-policies)|플랫폼당 하나의 Intune 앱 보호 정책(Windows, iOS/iPadOS, Android).|Microsoft 365 E3 혹은 E5|
 ||[승인된 앱 및 앱 보호 필요](#require-approved-apps-and-app-protection)|iOS, iPadOS 또는 Android를 사용하여 휴대폰 및 태블릿에 대해 모바일 앱 보호를 적용합니다.|Microsoft 365 E3 혹은 E5|
 ||[장치 준수 정책 정의](#define-device-compliance-policies)|각 플랫폼에 대한 하나의 정책입니다.|Microsoft 365 E3 혹은 E5|
-||[호환 PC 필요](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Windows MacOS를 사용하여 PC의 Intune 관리를 적용합니다.|Microsoft 365 E3 혹은 E5|
+||[호환 PC 필요](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Windows MACOS를 사용하여 PC의 Intune 관리를 적용합니다.|Microsoft 365 E3 혹은 E5|
 |**중요**|[로그인 위험이 낮음, 보통 또는 높음인 경우 MFA *필요*](#require-mfa-based-on-sign-in-risk)||Microsoft 365 E5 추가 Microsoft 365 E3 또는 E5 보안 추가 기능을 사용할 수 있습니다.|
-||[호환 PC 및 *모바일* 장치 필요](#require-compliant-pcs-and-mobile-devices)|PC(Windows 또는 MacOS) 및 휴대폰 또는 태블릿(iOS, iPadOS 또는 Android)에 대해 Intune 관리를 적용합니다.|Microsoft 365 E3 혹은 E5|
+||[호환 PC 및 *모바일* 장치 필요](#require-compliant-pcs-and-mobile-devices)|PC(Windows 또는 macOS) 및 휴대폰 또는 태블릿(iOS, iPadOS 또는 Android)에 대해 Intune 관리를 적용합니다.|Microsoft 365 E3 혹은 E5|
 |**매우 엄격한 규제**|[*항상* MFA 필요](#assigning-policies-to-groups-and-users)||Microsoft 365 E3 혹은 E5|
 |
 

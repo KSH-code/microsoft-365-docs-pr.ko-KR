@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business Standard의 제품 키를 입력합니다.
+title: 사용자에 대한 제품 키를 Microsoft 365 Business Standard
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -19,22 +19,22 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_purchase
-description: 소매점에서 구입한 Microsoft 365 Business Standard 제품 키를 교환하는 방법에 대해 자세히 알아보습니다.
+description: 소매점에서 Microsoft 365 Business Standard 구입한 경우 제품 키를 교환하고 구독을 활성화하는 방법을 알아보하세요.
 ms.date: 11/13/2020
-ms.openlocfilehash: b313b38fbb4fff332bb13402dc5af5db4e0bf676
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: bc2b07b5a98c13a919596bdbf85a21bdc6c8d2bf
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331723"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593396"
 ---
-# <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Microsoft 365 Business Standard의 제품 키를 입력합니다.
+# <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>사용자에 대한 제품 키를 Microsoft 365 Business Standard
 
-소매점에서 Microsoft 365 Business Standard를 구입한 경우 이 문서는 구독을 활성화하는 데 도움이 됩니다.
+소매점에서 Microsoft 365 Business Standard 구입한 경우 이 문서는 구독을 활성화하는 데 도움이 됩니다.
   
  **다른 것이 필요하세요?**
- **Microsoft 365 Family 또는 Microsoft 365 Personal에** 대한 도움말은 Office에서 제품 키 [사용을 참조합니다.](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx)  
- **볼륨 라이선스 고객인가요?** Microsoft Open License 프로그램을 통해 비즈니스용 Microsoft 365를 구입한 경우 [Microsoft Open에서](https://go.microsoft.com/fwlink/p/?LinkID=613298)구매한 제품 키 입력 문서를 [참조하세요.](purchases-from-microsoft-open.md)
+ **Microsoft 365 Family 또는 Microsoft 365 Personal** 에 대한 도움말은 에서 제품 [키 Office.](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx)  
+ **볼륨 라이선스 고객인가요?** Microsoft open license Microsoft 365 통해 비즈니스용 제품을 구입한 경우 [Microsoft Open에서](https://go.microsoft.com/fwlink/p/?LinkID=613298)구매한 제품 키를 입력하십시오. 문서를 [참조하세요.](purchases-from-microsoft-open.md)
   
 ## <a name="activate-a-new-subscription"></a>새 구독 활성화
 
@@ -55,14 +55,22 @@ ms.locfileid: "52331723"
 
 ## <a name="extend-the-expiration-date-or-add-a-license-to-an-existing-subscription"></a>만료 날짜를 연장하거나 기존 구독에 라이선스 추가
 
-만료 날짜를 연장하거나 기존 Microsoft 365 Business Standard 구독에 라이선스를 추가하려면 동일한 Microsoft 365 요금제에 대해 새 키와 사용되지 않은 키를 사용하세요. 이미 교환된 키를 다시 사용할 수 없는 원래 Microsoft 365 제품 키를 입력하면 작동하지 않습니다. 제품 키를 사용하여 유료 구독에 라이선스 추가 또는 [확장을 참조하세요.](licenses/add-licenses-using-product-key.md)
+만료 날짜를 연장하거나 기존 Microsoft 365 Business Standard 구독에 라이선스를 추가하려면 동일한 구독 계획에 새 키와 사용되지 않은 키를 Microsoft 365. 이미 교환된 키를 다시 사용할 수 Microsoft 365 원래 제품 키를 입력하면 작동하지 않습니다. 제품 키를 사용하여 유료 구독에 라이선스 추가 또는 [확장을 참조하세요.](licenses/add-licenses-using-product-key.md)
 
 ## <a name="whats-next"></a>다음 작업
 
-비즈니스용 Microsoft 365를 잘 아는 경우 [Microsoft 365를 설정하는 방법을 알아보아야 합니다.](../admin/setup/setup.md)
+비즈니스용 Microsoft 365 새로운 경우 에서 를 [설정하는 Microsoft 365.](../admin/setup/setup.md)
   
 ## <a name="still-having-trouble-with-product-keys"></a>여전히 제품 키에 문제가 있나요?
 
-이 일반적인 오류 및 해결 방법 목록은 비즈니스용 [Microsoft 365](product-key-errors-and-solutions.md) 제품 키에 문제가 있나요?
+일반적인 오류 및 해결 방법 목록( 비즈니스 제품 키에 대한 Microsoft 365 [문제) 목록을 확인하세요.](product-key-errors-and-solutions.md)
   
 또는 [Microsoft 지원에 문의합니다.](../business-video/get-help-support.md)
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[다른 계획으로](./subscriptions/upgrade-to-different-plan.md) 업그레이드(문서)
+
+[Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](./subscriptions/what-if-my-subscription-expires.md) (문서)
+
+[비즈니스용 Microsoft 365 구독 및 라이선스](./licenses/subscriptions-and-licenses.md) 이해(문서)
