@@ -27,6 +27,11 @@
 #### [온보딩 지원 장치](onboard-configure.md)
 
 ## [마이그레이션 가이드](migration-guides.md)
+### [타사 엔드포인트 보호에서 끝점용 Defender로 전환]()
+#### [마이그레이션 개요](switch-to-microsoft-defender-migration.md)
+#### [1 단계: 준비](switch-to-microsoft-defender-prepare.md)
+#### [2 단계: 설정](switch-to-microsoft-defender-setup.md)
+#### [3 단계: 온보딩](switch-to-microsoft-defender-onboard.md)
 ### [McAfee에서 엔드포인트용 Microsoft Defender로 전환]()
 #### [마이그레이션 개요](mcafee-to-microsoft-defender-migration.md)
 #### [1 단계: 준비](mcafee-to-microsoft-defender-prepare.md) 
@@ -37,11 +42,6 @@
 #### [1 단계: 준비](symantec-to-microsoft-defender-atp-prepare.md)
 #### [2 단계: 설정](symantec-to-microsoft-defender-atp-setup.md)
 #### [3 단계: 온보딩](symantec-to-microsoft-defender-atp-onboard.md)
-### [Microsoft 제품이 아닌 엔드포인트 보안 솔루션에서 엔드포인트용 Microsoft Defender로 전환]()
-#### [마이그레이션 개요](switch-to-microsoft-defender-migration.md)
-#### [1 단계: 준비](switch-to-microsoft-defender-prepare.md)
-#### [2 단계: 설정](switch-to-microsoft-defender-setup.md)
-#### [3 단계: 온보딩](switch-to-microsoft-defender-onboard.md)
 ### [마이그레이션 후 엔드포인트용 Microsoft Defender 관리]()
 #### [엔드포인트용 Microsoft Defender 관리 개요](manage-atp-post-migration.md)
 #### [Intune(권장)](manage-atp-post-migration-intune.md)
@@ -74,7 +74,7 @@
 #### [Windows가 아닌 장치 온보딩](configure-endpoints-non-windows.md)
 
 #### [Microsoft Defender for Endpoint(macOS용)]()
-##### [macOS의 Microsoft Defender for Endpoint 개요](microsoft-defender-endpoint-mac.md)
+##### [macOS의 Microsoft Defender for Endpoint 개요](microsoft-defender-endpoint-mac.md)
 ##### [새로운 기능](mac-whatsnew.md)
  
 ##### [배포]()

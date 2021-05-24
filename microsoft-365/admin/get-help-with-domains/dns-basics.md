@@ -23,13 +23,13 @@ search.appverid:
 - BSA160
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
-description: 도메인 관리에 도움이 되는 도메인 및 관련 DNS 레코드에 대해 알아봅니다.
-ms.openlocfilehash: f8d8171e306a0206facec1621bf2b1a9f8085757
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: 도메인 이름 시스템은 컴퓨터 호스트 이름을 IP 주소에 매핑하며 DNS 및 도메인 등록 기관의 기본 기능을 이해하면 도메인을 관리하는 데 도움이 됩니다.
+ms.openlocfilehash: f9982ad55652eac9faf33986bb1481e29897a48e
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915665"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582947"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
 
@@ -78,7 +78,7 @@ ms.locfileid: "50915665"
 |**NS(이름 서버) 레코드**|**특정 도메인에 대해 "신뢰할 수 있는 이름 서버"를 식별합니다. 도메인의 이름 서버를 변경하면 DNS 레코드가 관리되는 위치 및 DNS 시스템이 메일 서버 등에 관한 정보를 찾는 위치가 변경됩니다. Microsoft에는 자체 이름 서버가 있지만, 도메인에 이미 설정되어 있는 이름 서버를 계속 사용할 수도 있습니다.**|
 |:-----|:-----|
 |레코드(주소 레코드)  <br/> |IP 주소와 도메인 이름을 연결합니다.  <br/> |
-|CNAME(별칭 또는 정식 이름) 레코드  <br/> |DNS 시스템에서 한 도메인을 다른 도메인으로 리디렉션합니다. 이름 서버가 도메인을 조회하여 CNAME 레코드가 있다는 것을 발견하면 첫 번째 도메인 이름을 CNAME으로 대체하고 새 이름을 조회합니다.  <br/> |
+|CNAME(별칭 또는 정식 이름) 레코드  <br/> |DNS 시스템의 한 도메인을 다른 도메인으로 리디렉션합니다. 이름 서버가 도메인을 조회하여 CNAME 레코드가 있다는 것을 발견하면 첫 번째 도메인 이름을 CNAME으로 대체하고 새 이름을 조회합니다.  <br/> |
 |MX(메일 교환기) 레코드  <br/> |전자 메일을 보낼 위치를 가리킵니다. 여기에는 우선 순위 필드도 있어 우선 순위대로 여러 서버에 메일을 전송할 수 있습니다.  <br/> |
 |SPF(Sender Policy Framework) 레코드  <br/> |전자 메일 스푸핑 및 피싱을 방지하는 데 도움이 되는 TXT 레코드입니다.  <br/> |
 |SRV(서비스) 레코드  <br/> |비즈니스용 Skype Online 및 Exchange Online에서 Microsoft 서비스 간의 정보 흐름을 조정하는 데 사용됩니다. 예를 들어 SRV 레코드는 Outlook Web App에서 현재 상태를 확인하고 비즈니스용 Skype Online, Skype 또는 다른 회사의 사용자와 기타 인스턴트 메시징 도구를 사용하는 데 필요합니다.  <br/> |
@@ -102,7 +102,7 @@ DNS 레코드는 도메인에 대한 정보의 데이터베이스와 유사합�
   
  *다음 단계에서 도메인의 MX 레코드를 업데이트하여 전자 메일을 Microsoft 365로 변경하면 해당 도메인으로 전송된 모든 전자 메일이 Microsoft 365로 배달되기 시작합니다.*  다른 사용자가 해당 도메인을 전자 메일에 사용하는 경우 해당 사용자 각각에 대해 Microsoft 365 사서함을 설정해야 합니다. 
   
-복잡하게 보이나요? 그럴 수도 있지만 Microsoft 도메인 설정의 단계별로 자세히 안내됩니다.
+복잡하게 들리나요? 물론 Microsoft 도메인 설정의 각 단계가 설명될 수 있습니다.
   
 ### <a name="dns-tells-the-internet-where-to-look-for-websites-too"></a>DNS는 또한 인터넷에 웹 사이트를 찾을 위치를 알립니다.
 
@@ -186,7 +186,7 @@ Microsoft 365에서 이러한 모든 설정이 제대로 작동하기 위해 입
 
 ## <a name="the-dns-records-required-for-microsoft-365"></a>Microsoft 365에 필요한 DNS 레코드
 
-Microsoft 365에서 도메인이 작동하려면 많은 DNS 레코드가 필요합니다. Microsoft 365로 전자 메일이 전송되도록 도메인의 MX 레코드를 설정하는 것 외에, Outlook을 올바른 Exchange Server에 자동으로 연결하고, 메신저를 설정하고, 스팸 메일을 방지하는 등의 작업에 유용한 레코드도 있습니다.
+Microsoft 365에서 도메인을 사용하려면 많은 DNS 레코드가 필요합니다. 전자 메일이 Microsoft 365로 전송될 수 있도록 도메인의 MX 레코드를 설정하는 것 외에도 Outlook이 올바른 Exchange 서버에 자동으로 연결되고 메신저를 설정하고 스팸 전자 메일을 방지하는 데 도움이 되는 레코드가 있습니다.
   
 도메인을 설정하기 위한 [값 목록을 찾을](information-for-dns-records.md) 수 있습니다. Microsoft 365 관리 센터에 바로 포함되어 있습니다. 
   
@@ -198,3 +198,11 @@ Microsoft 365에서 도메인이 작동하려면 많은 DNS 레코드가 필요�
   
 - 도메인이 어디에 등록되어 있는지 잘 모르시나요? [도메인 등록 기관 찾기 도움말을 확인하세요.](find-your-domain-registrar.md)
 - Microsoft 365에서 도메인을 사용하기 전에 먼저 [마법사 단계를 완료해야 하는 이유](../setup/add-domain.md)를 알아보세요.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[도메인 FAQ](../setup/domains-faq.yml) (문서)
+
+[도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 수정](find-and-fix-issues.md)(문서)
+
+[도메인 관리](index.yml)(링크 페이지)

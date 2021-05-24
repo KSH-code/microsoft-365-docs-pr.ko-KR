@@ -22,13 +22,13 @@ search.appverid:
 - MOE150
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
-description: Microsoft 365의 다단계 인증에 대한 자세한 정보
-ms.openlocfilehash: 080251efa7d7d3bda6ad89e95960e43dd38d076d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+description: MFA(다단계 인증)는 강력한 암호와 추가 확인 방법을 모두 사용합니다.
+ms.openlocfilehash: 84d26d0a9908e51ce734e71961d4643a2df3471b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050669"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623692"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Microsoft 365에 대한 다단계 인증 사용
 
@@ -127,7 +127,7 @@ Enterprises는 [공통 조건부 액세스 정책](/azure/active-directory/condi
 
 ### <a name="azure-ad-identity-protection"></a>Azure AD ID 보호
 
-Azure AD ID 보호 기능을 사용하여 [로그인 위험이 중간에서 높음일 때 MFA를 요구](../../security/defender-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk)하는 추가 조건부 액세스 정책을 만들 수 있습니다.
+Azure AD ID 보호 기능을 사용하여 [로그인 위험이 중간에서 높음일 때 MFA를 요구](../../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk)하는 추가 조건부 액세스 정책을 만들 수 있습니다.
 
 다음에서는 Azure AD ID 보호 및 위험 기반 조건부 액세스 정책을 사용할 수 있습니다.
 
@@ -174,8 +174,7 @@ Microsoft 365 관리 센터에서 사용자별 및 서비스 MFA 설정을 구�
 
 [Microsoft 365 MFA 설정](set-up-multi-factor-authentication.md)
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-content"></a>관련 콘텐츠
 
-[비디오: 다단계 인증 켜기](../../business-video/turn-on-mfa.md)
-
-[비디오: 휴대폰의 다단계 인증 켜기](../../business-video/set-up-mfa.md)
+[다단계](../../business-video/turn-on-mfa.md) 인증 켜기(비디오)\
+[휴대폰의 다단계 인증 켜기](../../business-video/set-up-mfa.md)(비디오)

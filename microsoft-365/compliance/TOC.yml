@@ -245,6 +245,10 @@
               href: dlp-chrome-learn-about.md
             - name: 데이터 손실 방지 알림 대시보드에 대한 자세한 정보
               href: dlp-alerts-dashboard-learn.md
+        - name: DLP 계획
+          items:
+            - name: 데이터 손실 방지 계획
+              href: dlp-overview-plan-for-dlp.md
         - name: DLP를 사용하여 시작
           items:
             - name: 기본 DLP 정책을 사용하여 시작

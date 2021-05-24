@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: 중요한 데이터를 보호하는 팀을 배치하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a775727882dd71a168f4049d2af6a9feb20f944c
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 0590e63aa0feb5b699eca98c0056604fe09b77f5
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572720"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583655"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>중요한 데이터를 보호하는 팀 구성하기
 
@@ -108,28 +108,18 @@ Teams에서 민감도 레이블을 사용하도록 설정한 후 다음 단계�
 - SharePoint 관리 센터에서 사이트의 게스트 공유 설정을 업데이트하여 기본 공유 링크를 *특정 사용자* 에게 업데이트합니다.
 - 구성원이 사이트를 공유하지 못하도록 사이트의 사이트 공유 설정을 업데이트합니다.
 
-### <a name="site-guest-sharing-settings"></a>사이트 게스트 공유 설정
+### <a name="site-default-sharing-link-settings"></a>사이트 기본 공유 링크 설정
 
-레이블을 만들 때 선택한 게스트 공유 설정(팀 구성원에게만 영향을 미침)은 다음과 같이 연결된 SharePoint 사이트의 게스트 공유 설정과 일치해야 합니다.
+사이트 기본 공유 링크 유형 업데이트하기
 
-|레이블 설정|SharePoint 사이트 설정|
-|:------------|:----------------------|
-|**Office 365 그룹 소유자가 조직 외부의 사용자를 그룹에 추가할 수 있도록 허용** 선택됨|**신규 및 기존 게스트**(새 팀의 기본값)|
-|**Office 365 그룹 소유자가 조직 외부의 사용자를 그룹에 추가할 수 있도록 허용** 선택 안 됨|**조직 내부 사용자만**|
-
-사이트 설정을 업데이트하려면
 1. [SharePoint 관리 센터](https://admin.microsoft.com/sharepoint)를 엽니다.
 2. **사이트** 에서 **활성 사이트** 를 클릭합니다.
 3. 팀과 연결된 사이트를 클릭합니다.
 4. **정책** 탭의 **외부 공유** 에서 **편집** 을 클릭합니다.
-5. 중요 레이블을 만들 때 게스트 공유를 허용한 경우 **신규 및 기존 게스트** 가 선택되어 있는지 확인합니다. 레이블을 만들 때 공유를 허용하지 않은 경우 **조직 내부 사용자만** 을 선택합니다.
-6. 기본 공유 링크 유형사람만 **조직 수준 설정과 동일** 확인란을 선택 취소하고 **특정 사특정(사용자가 지정하는 사람만)** 를 선택합니다.
-7. **저장** 을 클릭합니다.
+5. 기본 공유 링크 유형사람만 **조직 수준 설정과 동일** 확인란을 선택 취소하고 **특정 사특정(사용자가 지정하는 사람만)** 를 선택합니다.
+6. **저장** 을 클릭합니다.
 
-팀 만들기 프로세스의 일부로 이를 스크립팅하려면 다음 매개 변수와 함께 [Set-Get-sposite](/powershell/module/sharepoint-online/set-sposite)를 사용할 수 있습니다.
-
-- 게스트 공유를 해제하려면 `-SharingCapability Disabled`(기본적으로 켜져 있음)
-- 기본 공유 링크를 *특정 사용자* 로 변경하려면 `-DefaultSharingLinkType Internal`
+팀 만들기 프로세스의 일부로 이 스크립트를 작성하려면 [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) `-DefaultSharingLinkType Direct` 매개 변수를 사용하여 특정 사용자와 공유 *특정 사용자* 와 기본 공유 링크를 변경합니다.
 
 #### <a name="private-channels"></a>비공개 채널
 
