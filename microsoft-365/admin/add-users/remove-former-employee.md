@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이 솔루션의 단계에 따라 이전 직원을 제거하고 Microsoft 365 데이터를 보호합니다.
-ms.openlocfilehash: 44741382a84cca15277308a44b3fd20470aa3a08
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: a613d4931c730dffe195954da97af86c683041bf
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572048"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634247"
 ---
 # <a name="overview-remove-a-former-employee-and-secure-data"></a>개요: 이전 직원 및 보안 데이터 제거
 
@@ -61,4 +61,7 @@ ms.locfileid: "52572048"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사용자](restore-user.md) 복원(문서)
+[사용자](restore-user.md) 복원(문서)\
+[Microsoft 365에 새 직원 추가](add-new-employee.md)(문서)\
+[사용자에게 라이선스 할당](../manage/assign-licenses-to-users.md)(문서)\
+[사용자로부터 라이선스를 배포하지](../manage/remove-licenses-from-users.md) 않습니다(문서)

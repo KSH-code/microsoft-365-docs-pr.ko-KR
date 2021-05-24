@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: 조직에서 통신 및 공동 작업을 위해 Microsoft 365 채택하는 방법에 대한 개요를 얻습니다.
-ms.openlocfilehash: f641e2b99e2d61881eb86506a1770f4401cb98bc
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: db61ed4d4c087b76895d08e43f6b1a2c00ed8172
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572336"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635393"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석
 
@@ -213,8 +213,6 @@ Microsoft 다운로드 센터에서 pbit 파일에 [액세스할 수 있습니�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 사용 현황 분석 사용](enable-usage-analytics.md)(문서)
-
-[사용 현황 분석에서 보고서를 Microsoft 365](navigate-and-utilize-reports.md) 활용(문서)
-
+[Microsoft 365 사용 현황 분석 사용](enable-usage-analytics.md)(게시물)
+[사용 현황 분석에서 보고서를 Microsoft 365](navigate-and-utilize-reports.md) 활용(문서)\
 [Microsoft 365 사용 현황 보고서](../../business-video/act-on-report.md) 검토(동영상)

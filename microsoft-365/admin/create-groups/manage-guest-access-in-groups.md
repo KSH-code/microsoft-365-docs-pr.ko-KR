@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: 게스트 그룹에 게스트를 추가하고, Microsoft 365 사용자를 보고, PowerShell을 사용하여 게스트 액세스를 제어하는 방법을 학습합니다.
-ms.openlocfilehash: c52f0094e724040b71d5d72cded049fed57e3969
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 00a6353f02ae7f3675961c3ee2ee31e3715652f2
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571940"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635765"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>그룹에서 게스트 Microsoft 365 관리
 
@@ -69,10 +69,7 @@ ms.locfileid: "52571940"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[특정 그룹에서 게스트 사용자](../../solutions/per-group-guest-access.md) 차단(문서)
-
-[Microsoft 365](add-or-remove-members-from-groups.md) 관리 센터에서 그룹 구성원 관리(문서)
-  
-[Azure Active Directory 액세스](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review) 검토(문서)
-
+[특정 그룹에서](../../solutions/per-group-guest-access.md) 게스트 사용자 차단(문서)\
+Microsoft 365 관리 [센터에서 그룹](add-or-remove-members-from-groups.md) 구성원 관리(문서)\
+[Azure Active Directory 액세스](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review) 검토(문서)\
 [Set-AzureADUser(문서)](/powershell/module/azuread/set-azureaduser)

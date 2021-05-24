@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 60b9577c2a42ef080fa6a734e0207225bf197cab
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: eed486120673abc513490f4892069ee8fd9bba21
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624272"
+ms.locfileid: "52636161"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
 
@@ -128,7 +128,7 @@ ms.locfileid: "52624272"
 
 | **정책 구성원** | **지원되는 그룹** | **미지원 그룹** |
 |:-----|:-----|:-----|
-|감독된 사용자 <br> 감독되지 않는 사용자 | 메일 그룹 <br> Microsoft 365 그룹 | 동적 메일 그룹 <br> 중첩된 메일 그룹 <br> 메일 사용 가능 보안 그룹 <br> Microsoft 365 구성원으로 그룹화 |
+|감독된 사용자 <br> 제외된 사용자 | 메일 그룹 <br> Microsoft 365 그룹 | 동적 메일 그룹 <br> 중첩된 메일 그룹 <br> 메일 사용 가능 보안 그룹 <br> Microsoft 365 구성원으로 그룹화 |
 | 검토자 | 없음 | 메일 그룹 <br> 동적 메일 그룹 <br> 중첩된 메일 그룹 <br> 메일 사용 가능 보안 그룹 |
   
 정책에서 메일 그룹을 할당하면 정책은 메일 그룹의 각 사용자의 모든 전자 메일 Teams 모니터링합니다. 정책에서 Microsoft 365 그룹을 할당하면 정책은 각 그룹 구성원이 수신한 개별 전자 메일 및 Teams 아닌 해당 그룹에 전송된 모든 전자 메일 및 Teams 채팅을 모니터링합니다.

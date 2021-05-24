@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: 사용자가 관리 센터에서 특정 작업을 수행할 수 있도록 비즈니스의 사용자 또는 여러 사용자에게 관리자 역할을 할당하는 방법을 설명합니다.
-ms.openlocfilehash: f23a30cfd1be53982572d745d476558c3be615e6
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 8a9da12a8ebc01a02e4362f09ccaa9e92c21b7e9
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571868"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634175"
 ---
 # <a name="assign-admin-roles"></a>관리자 역할 할당
 
@@ -42,7 +42,7 @@ Microsoft 비즈니스 구독을 구입한 사람인 경우 전역 관리자입�
 
 새 사용자를 추가할 때 관리자 역할을 할당하지 않은 경우 해당  사용자는 사용자 역할에 있으며 Microsoft 관리 센터에 대한 관리자 권한이 없습니다. 하지만 작업을 완료하는 데 도움이 필요한 경우 사용자에게 관리자 역할을 할당할 수 있습니다. 예를 들어 암호를 다시 설정하는 데 도움이 되는 누군가가 필요한 경우 전역 관리자 역할을 할당하지 말고 암호 관리자 역할을 할당해야 합니다. 데이터 및 온라인 비즈니스에 무제한으로 액세스할 수 있는 전역 관리자가 너무 많을 경우 보안의 위험이 있습니다.
 
-## <a name="watch-add-an-adminbrbr"></a>시청: 관리자 추가.<br><br>
+## <a name="watch-add-an-adminbrbr"></a>시청: 관리자 추가<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
@@ -121,10 +121,7 @@ PowerShell을 알고 있는 경우 PowerShell을 통해 사용자 계정에 역�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[관리자 Microsoft 365 정보를](about-admin-roles.md) 제공합니다(문서)
-
-[Azure Active Directory 관리자](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 역할 권한(문서)
-
-[PowerShell을 통해 사용자](../../enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell.md) 계정에 역할 할당(문서)
-
+[관리자 Microsoft 365](about-admin-roles.md) (문서)\
+[Azure Active Directory 관리자](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 역할 권한(문서)\
+[PowerShell을 통해](../../enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell.md) 사용자 계정에 역할 할당(문서)\
 [파트너 관계 승인 또는](../misc/add-partner.md) 제거(문서)

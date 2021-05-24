@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: 사용자 계정을 삭제하는 방법과 사용자의 전자 메일 및 전자 메일로 할 OneDrive 콘텐츠 및 제품 라이선스를 유지할지 여부에 대해 자세히 알아보겠습니다.
-ms.openlocfilehash: c30edb598f659337778ec956737934da5fedad18
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: ff10d3289eae87f84685c22b81db03798ca9d7eb
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593408"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634211"
 ---
 # <a name="delete-a-user-from-your-organization"></a>조직에서 사용자 삭제
   
@@ -171,12 +171,8 @@ ms.locfileid: "52593408"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사용자](restore-user.md) 복원(문서)
-  
-[사서함 영구](/exchange/permanently-delete-a-mailbox-exchange-2013-help) 삭제(문서)
-
-[2013에서 이전](remove-former-employee.md) 직원 Office 365 제거(문서)
-
-[새 직원을 추가하여](add-new-employee.md) 새 Office 365(문서)
-
+[사용자](restore-user.md) 복원(문서)\
+[사서함 영구](/exchange/permanently-delete-a-mailbox-exchange-2013-help) 삭제(문서)\
+[이전 직원을 제거합니다Office 365(문서)\](remove-former-employee.md)
+[새 직원을 추가하여](add-new-employee.md) Office 365(문서)\
 [사용자 계정 삭제:](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))비즈니스에서 Azure AD와 동기화되는 **Active Directory를** 사용하는 경우 다음 지침을 사용하세요. Office 365를 통해서는 이렇게 할 수 없습니다. (문서)

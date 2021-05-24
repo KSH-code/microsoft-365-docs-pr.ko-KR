@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: 전자 메일 전달을 사용하면 조직 내부 또는 외부의 다른 사서함으로 Microsoft 365 전자 메일 메시지를 전달할 수 있습니다.
-ms.openlocfilehash: 7389651cbbec5316c307cd10b331fda6812c1cd4
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: eb72204211a8eff929c024fbcede66dfe1f4b879
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537634"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635489"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>전자 메일 전달 구성 Microsoft 365
 
@@ -101,9 +101,7 @@ ms.locfileid: "52537634"
 
 ## <a name="related-content"></a>관련 콘텐츠 
 
-[공유 사서함](../email/create-a-shared-mailbox.md) 만들기(문서)
-
-[다른 주소에서 전자 메일 보내기(문서)](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e)
-
+[공유 사서함](../email/create-a-shared-mailbox.md) 만들기(문서)\
+[다른 주소에서 전자 메일](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) 보내기(문서)\
 [사용자 이름 및 전자 메일 주소](../add-users/change-a-user-name-and-email-address.md) 변경(문서)
 

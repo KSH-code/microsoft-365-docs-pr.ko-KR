@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7abf1c9e4115c928ae581da3789270fd8ed036d3
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: 6b49565c45c1f38d0d2ce71b097af079782ba4de
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476313"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636197"
 ---
 # <a name="set-up-microsoft-defender-for-endpoint-deployment"></a>끝점 배포를 위한 Microsoft Defender 설정
 
@@ -32,7 +32,7 @@ ms.locfileid: "51476313"
 
 
 **적용 대상:**
-- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037) 
+- [엔드포인트용 Microsoft Defender](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > 끝점용 Microsoft Defender를 경험하고 싶나요? [무료 평가판에 등록합니다.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -52,13 +52,13 @@ ms.locfileid: "51476313"
 
 
 >[!NOTE]
->일반적인 배포를 안내하기 위해 이 시나리오에서는 Microsoft Endpoint Configuration Manager만 사용할 수 있습니다. Endpoint용 Defender는 다른 온보딩 도구를 사용할 수 있지만 배포 가이드에서 이러한 시나리오를 다루지 않습니다. 자세한 내용은 [끝점용 Microsoft Defender에 장치 온보딩을 참조하세요.](onboard-configure.md)
+>일반적인 배포를 안내하기 위해 이 시나리오는 일반적인 배포를 안내하는 용도로만 Microsoft Endpoint Configuration Manager. Endpoint용 Defender는 다른 온보딩 도구를 사용할 수 있지만 배포 가이드에서 이러한 시나리오를 다루지 않습니다. 자세한 내용은 [끝점용 Microsoft Defender에 장치 온보딩을 참조하세요.](onboard-configure.md)
 
 ## <a name="check-license-state"></a>라이선스 상태 확인
 
-라이선스 상태를 확인하고 적절히 프로비전되었는지 여부는 관리 센터 또는 Microsoft **Azure Portal을 통해 완료할 수 있습니다.**
+라이선스 상태를 확인하고 적절히 프로비전되었는지 여부는 관리 센터 또는 라이선스 **포털을 통해** Microsoft Azure 있습니다.
 
-1. 라이선스를 확인한 후 **Microsoft Azure Portal로** 이동하여 [Microsoft Azure Portal 라이선스 섹션으로 이동합니다.](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products)
+1. 라이선스를 확인하기 위해 Microsoft Azure **포털로** 이동하여 Microsoft Azure 포털 라이선스 섹션으로 [이동합니다.](https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products)
 
    ![Azure 라이선스 페이지의 이미지](images/atp-licensing-azure-portal.png)
 
@@ -73,7 +73,7 @@ ms.locfileid: "51476313"
 
 회사에 프로비전된 라이선스에 액세스하고 라이선스 상태를 확인하려면 관리 센터로 이동하세요.
 
-1. 파트너 **포털에서** **Office 365에서 > 를 선택합니다.**
+1. 파트너 **포털에서** 서비스 관리 **를 > Office 365.**
 
 2. 파트너 포털 **링크를** 클릭하면 관리자  대신 관리 옵션이 열리며 고객 관리 센터에 액세스할 수 있습니다.
 
@@ -82,36 +82,9 @@ ms.locfileid: "51476313"
 
 
 ## <a name="tenant-configuration"></a>테넌트 구성
+끝점용 Microsoft Defender에 쉽게 온보딩할 수 있습니다. 탐색 메뉴에서 끝점 섹션 아래에 있는 항목을 선택하거나 인시던트, 헌팅Microsoft 365 센터 또는 위협 분석과 같은 Microsoft 365 Defender 기능을 선택하여 온보딩 프로세스를 시작할 수 있습니다.
 
-처음으로 Microsoft Defender 보안 센터에 액세스할 때 몇 가지 초기 단계를 안내하는 마법사입니다. 설치 마법사가 끝나면 끝점용 Defender의 전용 클라우드 인스턴스가 만들어집니다. 가장 쉬운 방법은 Windows 10 클라이언트 장치에서 이러한 단계를 수행하는 것입니다.
-
-1. 웹 브라우저에서 로 <https://securitycenter.windows.com> 이동합니다.
-
-    ![Endpoint용 Microsoft Defender에 대한 사용 권한 설정 이미지](images/atp-setup-permissions-wdatp-portal.png)
-
-2. 평가판 라이선스를 진행하는 경우 <https://signup.microsoft.com/Signup?OfferId=6033e4b5-c320-4008-a936-909c2825d83c&dl=WIN_DEF_ATP&pc=xxxxxxx-xxxxxx-xxx-x> 링크()로 이동하세요.
-
-    인증 단계가 완료되면 시작 **화면이** 표시됩니다.
-3. 권한 부여 단계를 진행합니다.
-
-    ![포털 설정 시작 화면 이미지](images/welcome1.png)
-
-4. 기본 설정을 설치합니다.
-
-   **데이터 저장소 위치** - 이를 올바르게 설정하는 것이 중요합니다. 고객이 주로 호스팅할 위치(미국, EU 또는 영국)를 결정해야 합니다. 이 설정 후 위치를 변경할 수 없습니다. Microsoft는 지정된 지리적 위치에서 데이터를 전송하지 않습니다. 
-
-    **데이터 보존** - 기본값은 6개월입니다.
-
-    **미리 보기 기능 사용** - 기본값이 설정되어 있습니다. 나중에 변경할 수 있습니다.
-
-    ![설정 시 지리적 위치 이미지](images/setup-preferences.png)
-
-5. **다음** 을 선택합니다.
-
-     ![최종 기본 설정 이미지](images/setup-preferences2.png)
-
-6. 계속을 **선택합니다.**
-
+웹 브라우저에서 보안 센터 [Microsoft 365 이동합니다.](https://security.microsoft.com)
 
 ## <a name="network-configuration"></a>네트워크 구성
 조직에서 끝점이 인터넷에 액세스하기 위해 프록시를 사용할 필요가 없는 경우 이 섹션을 건너뜁니다.
@@ -139,15 +112,15 @@ ms.locfileid: "51476313"
  - 관리 템플릿 Windows 구성 요소 데이터 수집 및 Preview 빌드 연결된 사용자 환경 및 원격 분석 서비스에 대해 인증된 프록시 사용 \> \> \> 구성
      - 이 설정을 **사용으로 설정하고** 인증된 프록시 사용 안 **를 선택합니다.**
 
-1. 그룹 정책 관리 콘솔을 니다.
+1. 그룹 정책 관리 콘솔을 엽니다.
 2. 조직 관행에 따라 정책을 만들거나 기존 정책을 편집합니다.
-3. 그룹 정책을 편집하고 관리 템플릿 Windows 구성 요소 데이터 수집 및 Preview 빌드 연결된 사용자 환경 및 원격 분석 서비스에 대해 인증된 프록시 사용 구성으로 **\> \> \> 이동합니다.** 
+3. 그룹 정책을 편집하고 관리 템플릿 Windows 데이터 수집 및 Preview 빌드 연결된 사용자 환경 및 원격 분석 서비스에 대해 인증된 프록시 사용 구성 으로 **\> \> \> 이동합니다.** 
     ![그룹 정책 구성 이미지](images/atp-gpo-proxy1.png)
 
 4. **사용하도록 설정** 을 선택합니다.
 5. 인증된 **프록시 사용 안 을 선택합니다.**
    
-6. 관리 템플릿 Windows 구성 요소 데이터 수집 및 Preview 빌드 연결된 사용자 환경 및 원격 분석 구성으로 **\> \> \> 이동합니다.**
+6. 관리 템플릿 구성 요소 Windows 및 Preview 빌드 연결된 사용자 환경 및 원격 분석 구성으로 **\> \> \> 이동합니다.**
     ![그룹 정책 구성 설정의 이미지](images/atp-gpo-proxy2.png)
 7. **사용하도록 설정** 을 선택합니다.
 8. 프록시 서버 **이름을 입력합니다.**
@@ -189,10 +162,10 @@ netsh를 사용하여 시스템 전체의 정적 프록시를 구성합니다.
 
 ###  <a name="proxy-configuration-for-down-level-devices"></a>다운 수준 장치에 대한 프록시 구성
 
-Down-Level 디바이스에는 Windows Server CB 1803 이전의 Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2 및 Windows Server 2016 버전뿐만 아니라 Windows 7 SP1 및 Windows 8.1 workstation이 포함됩니다. 이러한 운영 체제는 끝점에서 Azure로의 통신을 처리하도록 Microsoft 관리 에이전트의 일부로 구성됩니다. 이러한 장치에서 프록시를 구성하는 방법에 대한 자세한 내용은 Microsoft Management Agent Fast Deployment Guide를 참조하십시오.
+Down-Level 장치에는 Windows 7 SP1 및 Windows 8.1 Workstation과 Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2 및 Windows Server 2016 Windows Server CB 1803 이전의 Windows Server 2016 버전이 포함됩니다. 이러한 운영 체제는 끝점에서 Azure로의 통신을 처리하도록 Microsoft 관리 에이전트의 일부로 구성됩니다. 이러한 장치에서 프록시를 구성하는 방법에 대한 자세한 내용은 Microsoft Management Agent Fast Deployment Guide를 참조하십시오.
 
 ### <a name="proxy-service-urls"></a>프록시 서비스 URL
-v20이 포함된 URL은 Windows 10 버전 1803 이상 디바이스가 있는 경우만 필요합니다. 예를 들어 ```us-v20.events.data.microsoft.com``` 디바이스가 Windows 10 버전 1803 이상에 있는 경우만 필요합니다.
+v20이 포함된 URL은 버전 1803 이상을 Windows 10 있는 경우 필요합니다. 예를 들어 디바이스가 버전 1803 이상에 있는 Windows 10만 ```us-v20.events.data.microsoft.com``` 필요합니다.
  
 
 프록시 또는 방화벽이 익명 트래픽을 차단하는 경우, Endpoint용 Microsoft Defender 센서가 시스템 컨텍스트에서 연결하고 있는 경우 나열된 URL에서 익명 트래픽이 허용되어 있는지 확인하십시오.

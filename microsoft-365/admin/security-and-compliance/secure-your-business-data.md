@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 랜섬웨어, 피싱 및 악의적인 첨부 파일을 포함하여 사이버 위협으로부터 비즈니스 전자 메일 및 데이터를 보호합니다.
-ms.openlocfilehash: 12bdb9f12c1b0d3072a4c84c006787c26050cc8b
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: b274bb6bcdf71641ff8b196921a501bae9cbba28
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582803"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635965"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>비즈니스용 요금제의 보안 Microsoft 365 10가지 방법
 
@@ -348,8 +348,6 @@ Microsoft 365 사용자 지정 도메인을 하나 이상 구성한 경우 대�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사용자에 대한 다단계](multi-factor-authentication-microsoft-365.md) Microsoft 365(문서)
-
-[우선 순위 계정 관리](../setup/priority-accounts.md) 및 모니터링(문서)
-
+[Microsoft 365 다단계](multi-factor-authentication-microsoft-365.md) 인증(문서)\
+[우선 순위 계정 관리](../setup/priority-accounts.md) 및 모니터링(문서)\
 [Microsoft 365 센터의 보고서(동영상)](../activity-reports/activity-reports.md)

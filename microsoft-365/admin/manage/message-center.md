@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: 새로운 기능 및 Microsoft 365 및 기타 중요한 공지 사항을 추적하는 데 대한 메시지 센터의 역할에 대한 개요를 얻습니다.
-ms.openlocfilehash: edef3bb5a9016cf6f65f307fcd7c706bf4424d2f
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 51cdf1924b3aaa507a6b41f903a6aea5d81d68f1
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593960"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636049"
 ---
 # <a name="message-center"></a>메시지 센터
 
@@ -303,8 +303,6 @@ Microsoft 365 서비스 변경 내용에 대해 조치 가능한 많은 정보�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[표준 또는](../manage/release-options-in-office-365.md) 대상 지정 릴리스 옵션 설정(문서)
-
-[새로운 기능에 Office](../manage/show-hide-new-features.md) 기능 관리(문서)
-
-[비즈니스 구독 및 청구](../../commerce/index.yml) 설명서(링크)
+[표준 또는 대상 지정 릴리스 옵션](../manage/release-options-in-office-365.md) 설정(문서)\
+[새로운](../manage/show-hide-new-features.md) Office(문서)에 나타나는 새 기능 관리\
+[비즈니스 구독 및 청구 설명서(링크](../../commerce/index.yml) 페이지)

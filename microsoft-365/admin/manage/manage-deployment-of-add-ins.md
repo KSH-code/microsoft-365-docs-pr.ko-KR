@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용하여 조직의 사용자 및 그룹에 추가 기능을 배포하는 방법을 설명합니다.
-ms.openlocfilehash: 2d3b90a75f38a2c1146c0b0e5470c80b0af2c63f
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 8cc4f29cd2593d9651edaf87791f46dabdcc30b2
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572276"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636025"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>관리 센터에서 추가 기능 배포
 
@@ -131,12 +131,7 @@ Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 [Office 
   
 ## <a name="related-content"></a>관련 콘텐츠
 
-[관리 센터에서](manage-addins-in-the-admin-center.md) 추가 기능 관리(문서)
-
-[첫 번째 Word 작업 창 추가 기능](/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator) 빌드(문서)
-
-[스토어에서](minors-and-acquiring-addins-from-the-store.md) 미성년자 및 추가 기능 다운로드(문서)
-  
-[중앙 집중식 배포 PowerShell cmdlet을](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) 사용하여 추가 기능 관리(문서)
-  
+[관리 센터에서](manage-addins-in-the-admin-center.md) 추가 기능 관리(문서)\
+[첫 번째 Word 작업 창](/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator) 추가 기능 빌드(문서\
+[스토어에서](minors-and-acquiring-addins-from-the-store.md) 미성년자 및 추가 기능 다운로드(문서)\ 중앙 집중식 배포 [PowerShell cmdlet을](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) 사용하여 추가 기능 관리(문서)\  
 [문제 해결: 추가](/office365/troubleshoot/access-management/user-not-seeing-add-ins) 기능을 볼 수 없는 사용자(문서)

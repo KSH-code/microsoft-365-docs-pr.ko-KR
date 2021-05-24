@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9f7c2ff2-af65-4557-8840-0b84ce96d9bc
 description: 메시지 센터 게시물은 영어로만 표시되지만 메시지 센터에 대해 지정한 언어로 자동으로 Microsoft 365.
-ms.openlocfilehash: 88b34fcca1d4cedfd6e1a7cb4ee19aef5c3262b7
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: f500baccbf3c78b9d775629d38864444c78fb2e3
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582923"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636037"
 ---
 # <a name="language-translation-for-message-center-posts"></a>메시지 센터 게시물에 대한 언어 번역
 
@@ -49,10 +49,8 @@ ms.locfileid: "52582923"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 관리 센터 개요](../../business-video/admin-center-overview.md)(동영상)
-
-[내가 구독한 것은 무엇인가요?](../admin-overview/what-subscription-do-i-have.md) (문서)
-
+[Microsoft 365 관리](../../business-video/admin-center-overview.md) 센터 개요(비디오)\
+[내가 구독한 것은 무엇인가요?](../admin-overview/what-subscription-do-i-have.md) (기사)\
 [변경 내용에 대한 최신 내용](../manage/stay-on-top-of-updates.md) 유지(문서)
 
 

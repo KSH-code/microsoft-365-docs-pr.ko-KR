@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: 중앙 집중식 배포를 사용하여 추가 기능을 배포할 수 있도록 테넌트와 사용자가 요구 사항을 Office 확인합니다.
-ms.openlocfilehash: e5d3337cdf1bbb0dc18ee6940ab8bd289d2e5f65
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 25fe217a41274b6a239e4ee482ee105238465999
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593924"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635453"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 적합한지 확인
 
@@ -160,11 +160,8 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[관리 센터에서](../manage/manage-deployment-of-add-ins.md) 추가 기능 배포(문서)
-
-[관리 센터에서](manage-addins-in-the-admin-center.md) 추가 기능 관리(문서)
-
-[중앙 집중식 배포 FAQ(문서)](../manage/centralized-deployment-faq.md)
-
+[관리 센터에서](../manage/manage-deployment-of-add-ins.md) 추가 기능 배포(문서)\
+[관리 센터에서](manage-addins-in-the-admin-center.md) 추가 기능 관리(문서)\
+[중앙 집중식 배포](../manage/centralized-deployment-faq.md) FAQ(문서)\
 [비즈니스 Microsoft 365 사용자를](../setup/upgrade-users-to-latest-office-client.md) 최신 Office 클라이언트로 업그레이드(문서)
  

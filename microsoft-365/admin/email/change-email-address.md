@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: 도메인 이름을 구입하고 도메인에 tom@fourthcoffee.com 전자 메일 주소와 같은 친숙한 전자 메일 주소로 Microsoft 365.
-ms.openlocfilehash: d5e70856c9200cd7e5df0eded25b6ff460e5d1fe
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 1a248cb67bab5d0467cad35dc5be8023b8013a12
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572096"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635525"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>사용자 지정 도메인을 사용하도록 전자 메일 주소 변경
 
@@ -91,4 +91,6 @@ You'll be guided to get everything set up correctly with your domain in Microsof
   
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사용자 지정 도메인을 사용하여 Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) 구입(문서)
+[사용자 지정 도메인을 사용하여](../get-help-with-domains/buy-a-domain-name.md) 사용자 지정 도메인 Microsoft 365(문서)\
+[도메인 관리(링크](../get-help-with-domains/index.yml) 페이지)\
+[도메인 FAQ](../setup/domains-faq.yml) (문서)

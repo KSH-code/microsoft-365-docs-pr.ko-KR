@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 도메인을 Microsoft 365 DNS 레코드를 만드는 데 필요한 값/정보를 수집합니다.
-ms.openlocfilehash: c8ff30c27e67c8a29b7122ea80a6a33f0594b1b9
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: e65d53269f5fb8625b12c4eb22f78516818045be
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582959"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635729"
 ---
 # <a name="gather-the-information-you-need-to-create-dns-records"></a>DNS 레코드를 만드는 데 필요한 정보 수집
 
@@ -100,8 +100,6 @@ ms.locfileid: "52582959"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[도메인 FAQ(문서)](../setup/domains-faq.yml)
-
-[도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 수정](find-and-fix-issues.md)(문서)
-
+[도메인](../setup/domains-faq.yml) FAQ(문서)\
+[도메인 또는 DNS 레코드를 추가한 후](find-and-fix-issues.md) 문제 찾기 및 해결(문서)\
 [도메인 관리](index.yml)(링크 페이지)

@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: 셀프 서비스 암호 재설정 도구를 사용하여 사용자가 암호를 직접 재설정할 수 있도록 하는 정책을 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: 2c79d5611ab2db00f4de5f227b0ec2f411955558
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 81fbe1949b8d5e4a601411703d86165f95cc7b7f
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571856"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634271"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
@@ -74,8 +74,6 @@ ms.locfileid: "52571856"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[조직의 암호 만료 정책](../manage/set-password-expiration-policy.md) 설정(문서)
-
-[개별 사용자의 암호를 만료 기한 없음으로 설정](set-password-to-never-expire.md) (문서)
-
+[조직의 암호 만료 정책](../manage/set-password-expiration-policy.md) 설정(문서)\
+[개별 사용자의 암호가](set-password-to-never-expire.md) 만료되지 않는 것으로 설정(문서)\
 [Microsoft 365 Business 비디오(링크](../../business-video/index.yml) 페이지)

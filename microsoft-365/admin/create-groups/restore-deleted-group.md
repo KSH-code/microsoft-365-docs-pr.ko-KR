@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: 삭제된 그룹은 30일 동안 보존되고 그룹을 복원할 수 있습니다. 30일이 지난 후 그룹 및 해당 콘텐츠는 영구적으로 삭제됩니다.
-ms.openlocfilehash: 285796ec45b1e6d77d46d7a0c39706f566bb8cf6
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 2c20c2bd3ce91331e7160132047dbf3ecd79c4b8
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582683"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635741"
 ---
 # <a name="restore-a-deleted-microsoft-365-group"></a>삭제된 그룹 Microsoft 365 복원
 
@@ -83,10 +83,7 @@ Microsoft [Tech Community](https://techcommunity.microsoft.com/t5/Office-365-Gro
   
 ## <a name="related-content"></a>관련 콘텐츠
 
-[PowerShell을 Microsoft 365 그룹](../../enterprise/manage-microsoft-365-groups-with-powershell.md) 관리(문서)
-  
-[cmdlet을 사용하여 Remove-UnifiedGroup 삭제(문서)](/powershell/module/exchange/remove-unifiedgroup)
-  
-[그룹에 연결된 팀 사이트 설정](https://support.microsoft.com/office/8376034d-d0c7-446e-9178-6ab51c58df42) 관리(문서)
-  
+[PowerShell을 Microsoft 365 그룹](../../enterprise/manage-microsoft-365-groups-with-powershell.md) 관리(문서)\
+[Remove-UnifiedGroup cmdlet을](/powershell/module/exchange/remove-unifiedgroup) 사용하여 그룹 삭제(문서)\
+[그룹에 연결된 팀 사이트 설정](https://support.microsoft.com/office/8376034d-d0c7-446e-9178-6ab51c58df42) 관리(문서)\
 [사용자 계정에서 Outlook](https://support.microsoft.com/office/ca7f5a9e-ae4f-4cbe-a4bc-89c469d1726f) 삭제(문서)

@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 이 문서의 단계에 따라 다른 직원에게 이전 직원의 회사 및 OneDrive 액세스 권한을 Outlook.
-ms.openlocfilehash: cb5c27cbc7f1c184af8f0d1ad32b822660e93791
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 55bc2c3d8530e5cb7702f99a77b3918bfb7c0dee
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582695"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634259"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>4단계 - 다른 직원에게 데이터 및 OneDrive 액세스 Outlook 부여
 
@@ -163,8 +163,6 @@ Outlook 새 Outlook 파일(.pst)을 만들거나 암호로 보호된 파일을 �
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[계정에서 관리자](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) 추가 및 OneDrive(문서)
-
-[삭제된 데이터 OneDrive](/onedrive/restore-deleted-onedrive) 복원(문서)
-  
+[OneDrive 계정의](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) 관리자 추가 및 제거(문서)\
+[삭제된 파일 OneDrive](/onedrive/restore-deleted-onedrive) 복원(문서)\
 [OneDrive 및](/onedrive/retention-and-deletion) 삭제(문서)

@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/12/2021
+ms.date: 05/24/2021
 audience: admin
 ms.topic: article
 ms.service: ''
@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: None
 description: Teams 관리 센터에서 Microsoft Viva Learning(미리 보기)을 구성하는 방법을 자세히 알아보습니다.
-ms.openlocfilehash: e5af676752064738e26f9b934a60973cb9b0200d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: a96a2f3ecf7d4e1ee0c136ae155868218f08aaf4
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625312"
+ms.locfileid: "52636137"
 ---
 # <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Teams 관리 센터에서 Microsoft Viva Learning(미리 보기) 설정
 
@@ -29,7 +29,7 @@ ms.locfileid: "52625312"
 
 Teams 관리자는 Viva Learning(미리 보기)을 설치하고 Teams 관리 센터를 통해 권한 정책을 적용합니다.
 
-1. 공개 미리 보기의 경우 먼저 업데이트 정책을 설정해야 합니다. 자세한 내용은 Teams 사이트 Microsoft Teams 공개 [미리 보기를 참조하세요.](/MicrosoftTeams/public-preview-doc-updates)
+1. Viva Learning(미리 보기)의 경우 먼저 업데이트 정책에서 Teams. 자세한 내용은 공개 미리 [Microsoft Teams 참조하세요.](/MicrosoftTeams/public-preview-doc-updates)
 
     1. Teams 센터에 로그인합니다.
 
@@ -39,17 +39,17 @@ Teams 관리자는 Viva Learning(미리 보기)을 설치하고 Teams 관리 센
 
     4. 업데이트 정책의 이름을 지정하고 정책을 추가한 다음 미리 보기 기능 **표시를 켜야 합니다.**
 
-2. 관리자는 사용자에게 정책 업데이트를 알리고 사용자가 해당 빌드를 공용 미리 보기로 이동하기 위해 Teams. 
+2. 관리자는 사용자에게 정책 업데이트를 알려 해당 빌드를 공용 미리 보기로 이동해야 Teams. 
 
-    1. 사용자는 자신의 프로필 이미지 --> --> 선택해야 합니다.
+    1. 사용자는 공개 미리 보기 정보에서 > **이미지를**  >  **선택해야 합니다.**
    
         ![사용자 프로필을 Teams 응용 프로그램의 위쪽 탐색](../media/learning/learning-app-select-profile-teams.png)
     
-    2. 사용자는 공개 미리 보기 약관에 동의해야 합니다.
+    2. 사용자는 공개 미리 보기 **사용 약관에** 동의해야 합니다.
 
         ![공개 미리 보기 빌드로 전환](../media/learning/learning-app-switch-to-public-preview.png)
  
-3. 제한적인 정책이 적용되어 있으며 Viva Learning을 사용하도록 설정해야 하는 조직의 경우 다음 섹션의 프로세스를 따르십시오.
+3. 제한적인 정책이 적용되어 있으며 Viva Learning(미리 보기)을 사용하도록 설정해야 하는 조직의 경우 다음 섹션의 프로세스를 따르십시오.
 
 ## <a name="manage-settings-for-viva-learning-preview"></a>Viva Learning 설정 관리(미리 보기)
 

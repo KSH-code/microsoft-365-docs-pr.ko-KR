@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 중앙 집중식 Windows 제어를 Windows 10 Pro Microsoft 365 Business Premium 실행되는 디바이스를 설정하십시오.
-ms.openlocfilehash: 3d32a033a1a1c89d7d4d557cea6a28e24543ab2c
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 7a9c75f6ec14605225d40c103c18e62937e773bf
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594024"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635877"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>사용자용 Windows 장치 Microsoft 365 Business Premium 설정
 
@@ -46,7 +46,7 @@ Windows 장치를 Windows 10 Pro 크리에이터 업데이트로 업그레이드
   
 디바이스가 [Azure AD에](#verify-the-device-is-connected-to-azure-ad) 연결되어 있는지 확인을 참조하여 업그레이드가 있는지 확인하거나 업그레이드가 올바르게 진행된지 확인합니다.
 
-연결에 대한 Windows 비디오를 Microsoft 365.<br><br>
+## <a name="watch-connect-your-pc-to-microsoft-365-business"></a>시청: 커넥트 PC를 Microsoft 365 Business
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 

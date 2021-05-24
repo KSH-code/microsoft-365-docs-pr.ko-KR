@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: DNS 호스트에서 DNS 레코드를 추가하여 Microsoft 365 관리 Microsoft 365 추가하려면 설정 마법사를 사용하여 도메인을 추가합니다.
-ms.openlocfilehash: 96849e90a420dc31dbde8c55d5a1108f73f85978
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 152144737b0ff8cb8b0c27db2a4fc1051fb2a8a7
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535833"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635681"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Microsoft 365에 도메인 추가
 
@@ -136,10 +136,7 @@ ms.locfileid: "52535833"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[도메인 FAQ(문서)](domains-faq.yml)
-
-[도메인이 무엇인가요?](../get-help-with-domains/what-is-a-domain.md) (문서)
-
-[Microsoft 365 도메인](../get-help-with-domains/buy-a-domain-name.md) 이름 구입(문서)
-
+[도메인](domains-faq.yml) FAQ(문서)\
+[도메인이 무엇인가요?](../get-help-with-domains/what-is-a-domain.md) (기사)\
+[Microsoft 365 도메인](../get-help-with-domains/buy-a-domain-name.md) 이름 구입(문서)\
 [도메인](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) 설정(문서)

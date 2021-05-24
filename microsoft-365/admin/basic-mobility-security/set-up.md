@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: 기본 모바일 및 보안을 설정하여 원격으로 장치 지우기 등의 작업을 수행하여 사용자의 모바일 장치를 보호하고 관리합니다.
-ms.openlocfilehash: 830baa79838818501101c0c4f2d3163f57d47611
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 02ba28deca6286456af5f87841a741262c1a135d
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593420"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634295"
 ---
 # <a name="set-up-basic-mobility-and-security"></a>기본 이동성 및 보안 설정
 
@@ -129,6 +129,5 @@ Android 또는 iOS 장치를 사용 하는 사용자는 등록 프로세스의 �
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[기본 이동성 및 보안](capabilities.md) 기능(문서)
-
+[기본 이동성 및 보안](capabilities.md) 기능(문서)\
 [기본 모바일 및 보안에서](create-device-security-policies.md) 장치 보안 정책 만들기(문서)

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 그룹 Microsoft 365 사용하면 사용자 그룹에 공유 리소스 모음에 대한 액세스 권한을 Microsoft 365 팀워크를 주도할 수 있습니다.
-ms.openlocfilehash: bfcd2d27bc1d63fcc8b306267efe21c3f9564522
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: f940872a3e4ba2aeeb62247c2898d5a4c0dec85f
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582743"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635753"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>관리자를 위한 Microsoft 365 그룹 개요
 
@@ -119,12 +119,8 @@ Microsoft 365 그룹은 사용자와 함께 Azure Active Directory. 사용할 �
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[그룹 Microsoft 365 대해 자세히](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) 알아보시다(문서)
-
-[메일 그룹을 Microsoft 365](../manage/upgrade-distribution-lists.md) 업그레이드(문서)
-
-[PowerShell을 Microsoft 365 그룹](../../enterprise/manage-microsoft-365-groups-with-powershell.md) 관리(문서)
-
-[SharePoint 온라인](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) 제한(문서)
-
+[Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) 그룹(문서)에 대해 자세히 알아보시고
+[메일 그룹을 Microsoft 365 그룹으로](../manage/upgrade-distribution-lists.md) 업그레이드(문서)\
+[PowerShell을 Microsoft 365 그룹](../../enterprise/manage-microsoft-365-groups-with-powershell.md) 관리(문서)\
+[SharePoint 온라인](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) 제한(문서)\
 [Microsoft Stream에서 그룹 및 채널](/stream/groups-channels-organization) 구성(문서)

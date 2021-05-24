@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 회사 로고 또는 색에 맞게 Microsoft 365 모음 위쪽의 기본 테마를 변경하는 방법을 알아보고 사용자 지정합니다.
-ms.openlocfilehash: b2177eebc31f34f7067c8464724623e4bf7d4870
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 5f6536d575ef055cda7a97a0860315c491100a1d
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593832"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635929"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>조직의 Microsoft 365 테마 사용자 지정
 
@@ -156,6 +156,5 @@ You can add or update a default theme that applies to everyone within your org. 
   
 ## <a name="related-content"></a>관련 콘텐츠
 
-[내 앱 페이지 및](../manage/customize-the-app-launcher.md) 앱 시작커에 사용자 지정 타일 추가(문서)
-
+[내 앱 페이지 및](../manage/customize-the-app-launcher.md) 앱 시작 프로그램(문서)에 사용자 지정 타일 추가\
 [관리자 Microsoft 365 그룹](../create-groups/office-365-groups.md) 개요(문서)

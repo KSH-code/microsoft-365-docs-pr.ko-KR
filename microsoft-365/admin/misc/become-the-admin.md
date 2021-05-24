@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: 전자 메일 및 도메인 소유권을 확인하여 해당 도메인에서 셀프 서비스 사용자 등록으로 만든 관리되지 않는 테넌트의 소유권을 Microsoft 365.
-ms.openlocfilehash: c37bf153edf39f53b5c10f020b0cbb8d630eb4a6
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: aa44023ffdc2b59e4db024706323c5b872566260
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593936"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635989"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>내부 관리자 인계 수행
 
@@ -68,10 +68,7 @@ ms.locfileid: "52593936"
   
 ## <a name="related-content"></a>관련 콘텐츠
 
-YouTube: 사용자 및 [사용자에](https://www.youtube.com/watch?v=xt5EsrQBZZk) 대한 IT 관리자 인계를 Power BI Microsoft 365 단계(동영상)
-
-[Azure AD의 관리자](/azure/active-directory/users-groups-roles/domains-admin-takeover) 인계(문서)
-
-[조직에서 셀프 서비스](self-service-sign-up.md) 등록 사용(문서)
-  
+YouTube: 사용자 및 사용자에 대한 IT 관리자 인계를 Power BI [3단계(Microsoft 365)\](https://www.youtube.com/watch?v=xt5EsrQBZZk)
+[Azure AD의 관리자](/azure/active-directory/users-groups-roles/domains-admin-takeover) 인계(문서)\
+[조직에서 셀프 서비스](self-service-sign-up.md) 등록 사용(문서)\
 [서비스 Power BI 역할](/power-bi/service-admin-role) 이해(문서)

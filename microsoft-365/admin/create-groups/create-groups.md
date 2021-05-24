@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: 그룹 만들기 및 Microsoft 365 그룹 구성원을 추가 및 제거하고 그룹 작동 방법을 사용자 지정하는 방법을 학습합니다.
-ms.openlocfilehash: b3fb637867229489a3e3abe93373cc46fbce365f
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b8cbd194825ef114fa8e4ce999355248a61e7830
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241727"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635585"
 ---
 # <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 센터에서 그룹 만들기
   
@@ -80,14 +80,12 @@ ms.locfileid: "52241727"
   
 그룹 사서함에서 전자 메일이 삭제되면 그룹 구성원의 개인 사서함에서 전자 메일이 삭제되지 않습니다.
 
-## <a name="next-step-manage-your-group"></a>다음 단계: 그룹 관리
+## <a name="next-steps"></a>다음 단계
 
 새 그룹을 만들고 구성원을 추가한 후 그룹 이름 또는 설명 편집, 소유자 또는 구성원 변경, 외부 보낸 사람이 그룹에 전자 메일을 보낼 수 있는지 여부 및 구성원에게 그룹 대화 복사본을 보낼지 여부를 지정하는 등 그룹을 추가로 구성할 수 있습니다. 자세한 [내용은 Microsoft 365 그룹 관리를](manage-groups.md) 참조하세요.
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 대한 게스트 액세스](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6) 관리(문서)
-
-사용자 그룹을 만들 때 사용할 [도메인을 Microsoft 365(문서)](../../solutions/choose-domain-to-create-groups.md)
-
+[Microsoft 365](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6) 그룹에 대한 게스트 액세스 관리(문서)\
+[그룹(문서)을](../../solutions/choose-domain-to-create-groups.md) 만들 때 Microsoft 365 도메인 선택\
 [메일 그룹을 Microsoft 365](../manage/upgrade-distribution-lists.md) 업그레이드(문서)

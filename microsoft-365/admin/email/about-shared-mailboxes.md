@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함은 여러 사용자가 동일한 사서함에 액세스해야 하는 경우 사용됩니다. 공유 사서함을 만들기 전에 알아야 할 내용을 알아보세요.
-ms.openlocfilehash: 156ba100cb2c51d1e54a2ee82c45db20845931f9
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 601636f03bee93224025d286b7a74fa0f24782fb
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535857"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635537"
 ---
 # <a name="about-shared-mailboxes"></a>공유 사서함 정보
 
@@ -67,12 +67,8 @@ ms.locfileid: "52535857"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[공유 사서함](create-a-shared-mailbox.md) 만들기(문서)
-
-[공유 사서함](configure-a-shared-mailbox.md) 구성(문서)
-
-[사용자 사서함을 공유 사서함으로 변환(문서)](convert-user-mailbox-to-shared-mailbox.md)
-
-[공유 사서함에서 라이선스](remove-license-from-shared-mailbox.md) 제거(문서)
-
-[공유 사서함 관련 문제](resolve-issues-with-shared-mailboxes.md) 해결(문서)
+[공유 사서함](create-a-shared-mailbox.md) 만들기(문서)\
+[공유 사서함](configure-a-shared-mailbox.md) 구성(문서)\
+[사용자 사서함을 공유 사서함으로](convert-user-mailbox-to-shared-mailbox.md) 변환(문서)\
+[공유 사서함에서 라이선스](remove-license-from-shared-mailbox.md) 제거(문서)\
+[공유 사서함 문제 해결](resolve-issues-with-shared-mailboxes.md)(문서)

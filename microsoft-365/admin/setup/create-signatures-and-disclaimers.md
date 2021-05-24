@@ -25,18 +25,18 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: 조직에 들어오거나 조직에서 나가는 모든 전자 메일 메시지에 대한 법적 고지 조항 또는 공개 설명을 포함하여 전자 메일 서명을 관리합니다.
-ms.openlocfilehash: 05cfeeb01231e7f99d2a96fc37581b4c9a23f5aa
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: f72d522c7dc592a7f719d716e22ecf726d00a6de
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582755"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635657"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>조직 전체의 서명 및 고지 조항 만들기
 
  조직에 들어오거나 조직에서 나가는 전자 메일 메시지에 전자 메일 서명, 법적 고지 조항 또는 공개 문을 추가하여 전자 메일 서명을 관리할 수 있습니다. 아래에 표시된 것처럼 모든 수신 및 발신 메시지에 적용하도록 설정할 수 있습니다. 특정 단어나 텍스트 패턴이 포함된 메시지처럼 특정 메시지에 적용할 수도 있습니다.
 
- 회사 전체 전자 메일 서명 만들기에 대한 짧은 비디오를 시청하세요. <br><br>
+## <a name="watch-create-a-company-wide-email-signature"></a>감시: 회사 전체 전자 메일 서명 만들기
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
@@ -119,9 +119,7 @@ PowerShell 사용에 대한 자세한 내용은 에서 조직 전체 메시지 �
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[전자 메일 및 연락처를 Microsoft 365](migrate-email-and-contacts-admin.md) 마이그레이션(동영상)
-
-[사용자 전자 메일](../email/office-365-user-email-settings.md) 설정(문서)
-
+[전자 메일 및 연락처를 Microsoft 365](migrate-email-and-contacts-admin.md) 마이그레이션(비디오)\
+[사용자 전자 메일](../email/office-365-user-email-settings.md) 설정(문서)\
 [Microsoft 365 관리 센터 개요](../../business-video/admin-center-overview.md)(동영상)
 

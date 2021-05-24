@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함을 만들고 전자 메일 전달 및 자동 응답과 같은 사용자에 대한 일부 설정을 구성합니다.
-ms.openlocfilehash: ab23353f07a24f06d43172e8087819dd915ab720
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: c1d8007a2fcc45fbdd1a6943ee464e5aae8917b9
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582671"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635513"
 ---
 # <a name="configure-shared-mailbox-settings"></a>공유 사서함 설정 구성
 
@@ -144,12 +144,8 @@ ms.locfileid: "52582671"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[공유 사서함 정보](about-shared-mailboxes.md)(문서)
-
-[공유 사서함 만들기](create-a-shared-mailbox.md)(문서)
-
-[사용자 사서함을 공유 사서함으로 변환](convert-user-mailbox-to-shared-mailbox.md)(문서)
-
-[공유 사서함에서 라이선스 제거](remove-license-from-shared-mailbox.md)(문서)
-
+[공유 사서함(문서)\](about-shared-mailboxes.md)
+[공유 사서함](create-a-shared-mailbox.md) 만들기(문서)\
+[사용자 사서함을 공유 사서함으로](convert-user-mailbox-to-shared-mailbox.md) 변환(문서)\
+[공유 사서함에서 라이선스](remove-license-from-shared-mailbox.md) 제거(문서)\
 [공유 사서함 문제 해결](resolve-issues-with-shared-mailboxes.md)(문서)

@@ -24,24 +24,26 @@ search.appverid:
 - BCS160
 - MET150
 description: 몇 단계만 Microsoft 365 Active-Directory에 가입된 Windows 10 보호할 수 있도록 설정하는 방법을 알아보십시오.
-ms.openlocfilehash: f16962dd3c33c3c228da507bc5c4a902d76a8a08
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: ec80159bdceffd8a13d09a297a2acc1b78c9b1b3
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593896"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636089"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>도메인에 가입된 Windows 10 장치를 관리하도록 Microsoft 365 Business Premium
 
 조직에서 Windows Server Active Directory Windows 사용하는 경우 로컬 인증이 필요한 Windows 10 리소스에 대한 액세스는 유지 관리하면서 Microsoft 365 Business Premium 장치를 보호하도록 Windows 10 설정할 수 있습니다.
 이 보호를 설정하기 위해 하이브리드 Azure AD 가입 장치를 **구현할 수 있습니다.** 이러한 디바이스는 사용자 장치와 사용자 프레미스 Active Directory 모두에 Azure Active Directory.
 
+## <a name="watch-configure-hybrid-azure-active-directory-join"></a>시청: 하이브리드 하이브리드 Azure Active Directory 구성
+
 이 비디오에서는 가장 일반적인 시나리오에 대해 이 설정 방법을 설정하는 단계에 대해 설명합니다. 또한 다음 단계에 자세히 설명되어 있습니다.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
   
+## <a name="before-you-begin"></a>시작하기 전에
 
-## <a name="before-you-get-started-make-sure-you-complete-these-steps"></a>시작하기 전에 다음 단계를 완료해야 합니다.
 - 사용자를 Azure AD와 Azure AD 커넥트.
 - Azure AD 커넥트 OU(조직 구성 단위) 동기화를 완료합니다.
 - 동기화하는 모든 도메인 사용자에게 동기화할 라이선스가 있는지 Microsoft 365 Business Premium.
@@ -119,8 +121,6 @@ PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[도메인 사용자를 도메인 사용자와](manage-domain-users.md) Microsoft 365 동기화(문서)
-
-[관리 센터에서](../admin/create-groups/create-groups.md) 그룹 만들기(문서)
-
+[도메인 사용자를 도메인 사용자와 Microsoft 365](manage-domain-users.md) 동기화(문서)\
+[관리 센터에서](../admin/create-groups/create-groups.md) 그룹 만들기(문서)\
 [자습서: 관리되는 도메인에 Azure Active Directory 하이브리드](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) 연결 구성(문서)

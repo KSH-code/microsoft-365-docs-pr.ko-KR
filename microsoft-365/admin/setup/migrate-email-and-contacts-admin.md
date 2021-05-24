@@ -28,12 +28,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: Gmail 또는 다른 전자 메일 공급자에서 연락처, 일정 및 전자 메일을 가져와서 전자 메일로 마이그레이션하는 Microsoft 365.
-ms.openlocfilehash: 56075c19e15621755a1500d37513430842ac99e8
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 9f775135e739c91a0fb48a060136728f901159f5
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297047"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635917"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>Microsoft 365로 전자 메일 및 연락처 마이그레이션
 
@@ -52,6 +52,8 @@ Gmail 또는 다른 전자 메일 공급자에서 전자 메일을 가져오거�
 - [Outlook으로 연락처 가져오기](https://support.microsoft.com/office/bb796340-b58a-46c1-90c7-b549b8f3c5f8)
     
 - [Google 캘린더 가져오기](https://support.microsoft.com/office/098ed60c-936b-41fb-83d6-7e3786437330)
+
+## <a name="watch-import-calendars"></a>감시: 일정 가져오기
     
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c1e45708-9a92-475b-910b-f5aa40614d92?autoplay=false]
   
@@ -90,3 +92,9 @@ Gmail 또는 다른 전자 메일 공급자에서 전자 메일을 가져오거�
 ## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-microsoft-365"></a>여러 사서함: 관리자는 전자 메일, 연락처 및 일정을 대량으로 가져올 수 Microsoft 365
 
 원본 전자 메일 시스템에 따라 여러 가지 대량 마이그레이션 방법 중 선택할 수 있습니다. 여러 전자 메일 [계정을](/Exchange/mailbox-migration/mailbox-migration) 마이그레이션하는 방법을 Microsoft 365 방법을 결정하십시오.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[비즈니스용 Microsoft 365 설정](plan-your-setup.md) 계획(문서)\
+[응용 Office 설치(링크](install-applications.md) 페이지)\
+[Microsoft 365 관리 센터 개요](../../business-video/admin-center-overview.md)(동영상)

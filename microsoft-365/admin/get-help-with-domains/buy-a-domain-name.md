@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: 2016에서 도메인 이름을 구입하는 Microsoft 365.
-ms.openlocfilehash: 53c71796c09f08d1f50c58704b8dd95c1a241518
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 3d5a5568a0e75a06f0880d82ea8e4a1a8d003689
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537574"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635465"
 ---
 # <a name="buy-a-domain-name"></a>도메인 이름 구매
 
@@ -119,8 +119,6 @@ ms.locfileid: "52537574"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[도메인을 도메인에](../setup/add-domain.md) Microsoft 365(문서)
-
-[도메인 FAQ(문서)](../setup/domains-faq.yml)
-
+[도메인을 도메인에](../setup/add-domain.md) Microsoft 365(문서)\
+[도메인](../setup/domains-faq.yml) FAQ(문서)\
 [DNS 레코드를 업데이트하여 웹 사이트를](../dns/update-dns-records-to-retain-current-hosting-provider.md) 현재 호스팅 공급자와 함께 유지(문서)

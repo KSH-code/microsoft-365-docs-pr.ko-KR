@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: 전자 메일 및 Microsoft 365 같은 서비스가 자체 도메인 이름을 사용할 수 있도록 비즈니스용 Skype 도메인을 추가하고 설정하는 방법을 학습합니다.
-ms.openlocfilehash: 447cc69aa2c4c3edcf1c4c6a2435cdc27fc22cd2
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: c6394b505e025c565713aae753879601f5a6aecf
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582995"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635441"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>도메인 등록 기관에서 이름 Microsoft 365 설정
 
@@ -198,8 +198,6 @@ Microsoft를 지점으로 이름 서비스 레코드가 업데이트된 후 도�
   
 ## <a name="related-content"></a>관련 콘텐츠
 
-[도메인을 연결하기 위해 DNS](create-dns-records-at-any-dns-hosting-provider.md) 레코드 추가(문서)
-
-[도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 수정](find-and-fix-issues.md)(문서)
-
+[도메인을 연결하기](create-dns-records-at-any-dns-hosting-provider.md) 위해 DNS 레코드 추가(문서)\
+[도메인 또는 DNS 레코드를 추가한 후](find-and-fix-issues.md) 문제 찾기 및 해결(문서)\
 [도메인 관리](index.yml)(링크 페이지)

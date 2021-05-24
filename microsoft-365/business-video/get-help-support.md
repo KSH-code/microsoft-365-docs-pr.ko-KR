@@ -19,14 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: 비즈니스 구독에서 관리자 도움말 또는 온라인 또는 전화 지원을 받을 수 있도록 비즈니스 구독의 관리자 Microsoft 365 Business Premium.
-ms.openlocfilehash: e6308a9728731052d540cf3e872b6e153b64aae2
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: e1250d5c291832e5a337f34e49ce0b7cf68fb08d
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535713"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635905"
 ---
 # <a name="get-support"></a>지원 받기
+
+## <a name="watch-get-help-or-support"></a>시청: 도움말 또는 지원하기 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOgo?autoplay=false]
 
@@ -256,8 +258,6 @@ Office 365 Germany의 관리자는 Microsoft 전문 지원 에이전트로부터
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[문서 및 교육](find-help-answers.md) 찾기(문서)
-
-[직원 빠른](employee-quick-setup.md) 설정(문서)
-
+[문서 및 교육](find-help-answers.md) 찾기(문서)\
+[직원 빠른](employee-quick-setup.md) 설정(문서)\
 [설치 Microsoft 365 Business Premium](setup-overview.md) 개요(동영상)

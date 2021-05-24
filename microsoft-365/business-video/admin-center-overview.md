@@ -20,22 +20,22 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 자세한 내용은 Microsoft 365 관리 센터를하세요.
-ms.openlocfilehash: 6d7fe36345ebd9234027e943d11266b7bcc2b30f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: 보다 복잡한 설정 및 작업에 Microsoft 365 대시보드 보기를 관리하려면 이 보기의 간소화된 보기를 사용합니다.
+ms.openlocfilehash: bca3aa7bb071d9334f7a5162a78db89690421f1a
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537394"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635893"
 ---
 # <a name="overview-of-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 개요
 
-- [간소화된 보기의 관리 센터](#the-admin-center-in-simplified-view)
-- [대시보드 보기의 관리 센터](#the-admin-center-in-dashboard-view)
+- [간소화된 보기의 관리 센터](#watch-the-admin-center-in-simplified-view)
+- [대시보드 보기의 관리 센터](#watch-the-admin-center-in-dashboard-view)
 
 Microsoft 365 관리 센터에는 두 가지 보기가 있습니다. 간소화된 보기는 소규모 조직이 가장 일반적인 작업을 관리하는 데 도움이 됩니다. 대시보드 보기에는 더 복잡한 설정 및 작업이 포함됩니다. 관리 센터의 맨 위에 있는 단추에서 전환할 수 있습니다.
 
-## <a name="the-admin-center-in-simplified-view"></a>간소화된 보기의 관리 센터
+## <a name="watch-the-admin-center-in-simplified-view"></a>감시: 간소화된 보기의 관리 센터
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWD3sq?autoplay=false]
 
@@ -57,7 +57,7 @@ Teams **탭에서** 새 팀을 만들거나 기존 팀을 관리합니다. 팀�
 
 도움이 필요한 경우 **지원에 대한 & 선택합니다.** 도움이 필요한 항목을 검색하여 권장 솔루션을 확인하거나 지원에 문의할 헤드셋을 선택한 다음 질문과 연락처 정보를 입력합니다. 
 
-## <a name="the-admin-center-in-dashboard-view"></a>대시보드 보기의 관리 센터
+## <a name="watch-the-admin-center-in-dashboard-view"></a>시청: 대시보드 보기의 관리 센터
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfvDL?autoplay=false]
 
@@ -117,7 +117,7 @@ Microsoft 365 센터로 이동하려면 admin.microsoft.com 이동하거나, [](
 
 관리 센터에서 모든 페이지의 맨 아래에 있는 도움이  **필요하세요?** 단추 옆에 있는 피드백 보내기 단추를 선택하여 사용자 환경과 관련한 Microsoft 피드백을 제공하면 됩니다. 원하는 것을 말하고 더 나은 작업을 알려 주시고. 또한 전체 노출 또는 새로 릴리스된 특정 경험에 대해 묻는 팝업 설문 조사를 수시로 받을 수 있습니다. 이 문서의 끝부분에서 이 정보가 도움이 었습니까?를 선택하여 **피드백을 줄 수 있습니다.**
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 여기에 답변된 질문이 없는가요? 이 페이지 **아래쪽의** 피드백 섹션으로 이동하여 질문을 합니다. 
   
@@ -188,4 +188,10 @@ Microsoft 365 관리 센터는 40개 언어로 완전히 지역화됩니다.
 |베트남어 | vi |
 |Chinese Simplified | zh-hans |
 |Chinese Traditional | zh-hant |
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[관리자란 Microsoft 365 무엇입니까?](what-is-admin.md) (비디오)\
+[관리자](add-admin.md) 추가(동영상)\
+[조직의 Microsoft 365 테마](../admin/setup/customize-your-organization-theme.md) 사용자 지정(문서)
   

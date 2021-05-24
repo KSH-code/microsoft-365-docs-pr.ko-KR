@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
 description: 전자 메일을 메일 Microsoft 365 메일 Microsoft 365 메일 목록에서 보낸 것으로 표시될 때 해당 메시지에 응답할 수 있도록 합니다.
-ms.openlocfilehash: 01bff7e1d2515670c5a6faa199355e7de591f1fb
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: eb5ce4a08fae13ee0d2631499a8df1724ef3ef66
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624540"
+ms.locfileid: "52635717"
 ---
 # <a name="send-email-as-a-distribution-list"></a>메일로 전자 메일 보내기
 
@@ -66,4 +66,4 @@ ms.locfileid: "52624540"
 
 Microsoft 365 관리 센터에서 보안 [그룹 만들기Microsoft 365](../email/create-edit-or-delete-a-security-group.md) 편집 또는 삭제\
 [전자 메일 공동](../email/email-collaboration.md) 작업(문서)\
-[메일 그룹에 사용자 또는 연락처 추가](../email/add-user-or-contact-to-distribution-list.md)
+[메일 그룹에](../email/add-user-or-contact-to-distribution-list.md) 사용자 또는 연락처 추가(문서)

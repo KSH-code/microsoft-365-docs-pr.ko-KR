@@ -20,16 +20,18 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: '개인 사서함을 한 사람이 아닌 여러 사람이 액세스할 수 있는 공유 사서함으로 변환하는 방법을 학습합니다. '
-ms.openlocfilehash: 73e2bad40037e1343f4e08c07ca6b26df16b1a30
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 0beb85e5a69b72bcd244cd654c399e91ded06ba7
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537622"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635477"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>사용자 사서함을 공유 사서함으로 변환
 
 사용자의 사서함을 공유 사서함으로 변환하면 모든 기존 전자 메일 및 일정이 보존됩니다. 이제 한 사람이 아닌 여러 사람이 액세스할 수 있는 공유 사서함에 있습니다. 나중에 공유 사서함을 사용자(개인) 사서함으로 다시 변환할 수 있습니다.
+
+## <a name="before-you-begin"></a>시작하기 전에
 
 **다음은 알아야 할 몇 가지 중요한 사항입니다.**
 
@@ -59,7 +61,6 @@ ms.locfileid: "52537622"
 > [!NOTE]
 > 공유 사서함에는 별도의 라이선스가 필요하지 않습니다. 그러나 원본 위치 보관을 사용하도록 설정하거나 공유 사서함에 원본 위치 유지 또는 소송 보존을 적용하려는 경우 Exchange Online Archiving이 있는 Exchange Online 계획 1 또는 Exchange Online 계획 2 라이선스를 사서함에 할당해야 입니다.
 
-
 ## <a name="convert-the-mailbox-of-a-deleted-user"></a>삭제된 사용자의 사서함 변환
 
 사용자 계정을 삭제하고 이제 이전 사서함을 공유 사서함으로 변환하려는 경우를 고려합니다. 다음 작업을 해야 합니다.
@@ -77,7 +78,6 @@ ms.locfileid: "52537622"
 6. 그런 다음 사용자 사서함에서 라이선스를 제거할 수 있습니다. 사용자의 이전 사서함을 삭제하지 않습니다. 공유 사서함은 앵커로 필요합니다.
     
 7. 공유 사서함에 구성원을 추가합니다.
-
 
 ## <a name="convert-a-shared-mailbox-back-to-a-users-private-mailbox"></a>공유 사서함을 사용자의 (개인) 사서함으로 다시 변환
 
@@ -104,12 +104,8 @@ ms.locfileid: "52537622"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[공유 사서함(문서)](about-shared-mailboxes.md)
-
-[공유 사서함](create-a-shared-mailbox.md) 만들기(문서)
-
-[공유 사서함](configure-a-shared-mailbox.md) 구성(문서)
-
-[공유 사서함에서 라이선스](remove-license-from-shared-mailbox.md) 제거(문서)
-
-[공유 사서함 관련 문제](resolve-issues-with-shared-mailboxes.md) 해결(문서)
+[공유 사서함(문서)\](about-shared-mailboxes.md)
+[공유 사서함](create-a-shared-mailbox.md) 만들기(문서)\
+[공유 사서함](configure-a-shared-mailbox.md) 구성(문서)\
+[공유 사서함에서 라이선스](remove-license-from-shared-mailbox.md) 제거(문서)\
+[공유 사서함 문제 해결](resolve-issues-with-shared-mailboxes.md)(문서)

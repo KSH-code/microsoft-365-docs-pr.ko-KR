@@ -29,18 +29,18 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: 파일 공유를 위해 OneDrive 및 팀 사이트를 Microsoft 365 방법을 Microsoft 365 대해 자세히 알아보습니다.
-ms.openlocfilehash: 9e739b1f90296167fc47bdd5f19bacd73c43f9e2
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: f94ff8a60b1b4691b36ec2e1bd04088d96b1af8c
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572180"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635645"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>파일 저장소 및 공유를 Microsoft 365
 
 비즈니스에 대한 파일 저장 및 공유를 설정하는 가장 좋은 방법 중 하나는 사이트와 팀 OneDrive 사용하는 것입니다. 이 방법은 직원 수가 적은 중소기업에 이상적입니다.
 
-클라우드의 클라우드에 파일을 저장하는 Microsoft 365 비디오를 시청합니다.<br><br>
+## <a name="watch-where-to-store-files-in-office-365"></a>시청: 파일 저장소 Office 365 위치
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
@@ -207,8 +207,6 @@ ms.locfileid: "52572180"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[구독에 대한 저장소 공간](../../commerce/add-storage-space.md) 추가(문서)
-
-[파일 및 폴더를 공유하는](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65) Microsoft 365 Business(비디오)
-
+[구독에 대한 저장소 공간 추가(문서)\](../../commerce/add-storage-space.md)
+[파일 및 폴더를 공유하는](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65) Microsoft 365 Business(비디오)\
 [파일 저장 및 공유를 위한](customize-team-site.md) 팀 사이트 사용자 지정(문서)

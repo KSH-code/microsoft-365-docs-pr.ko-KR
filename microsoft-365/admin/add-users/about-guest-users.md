@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 관리 센터에서 게스트와 함께 팀을 만드는 방법과 팀을 게스트로 참여하는 방법을 배워야 합니다.
-ms.openlocfilehash: c05a8d7e10b40c22bb041ce88748eb3dd919d83d
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: b458aaba464121e2e408013d4c8f32cd8a6852c5
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593868"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634187"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 게스트 사용자
 
@@ -65,4 +65,4 @@ Azure AD 포털에서 사용자를 제거하려면 게스트 사용자 및 리�
 ## <a name="related-content"></a>관련 콘텐츠
 
 [Microsoft 365 그룹에서 게스트](../create-groups/manage-guest-access-in-groups.md) 액세스 관리(문서)\
-[게스트가 특정 Microsoft 365 또는 팀에 추가되지 Microsoft Teams 방지](../../solutions/per-group-guest-access.md)
+[게스트가 특정 Microsoft 365](../../solutions/per-group-guest-access.md) 그룹 또는 Microsoft Teams 추가되지 않도록 방지(문서)

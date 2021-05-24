@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: MFA(다단계 인증)는 강력한 암호와 추가 확인 방법을 모두 사용합니다.
-ms.openlocfilehash: 84d26d0a9908e51ce734e71961d4643a2df3471b
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 6e1c43bdd66849a0043c0a1a927f48d925e0806e
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623692"
+ms.locfileid: "52635777"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Microsoft 365에 대한 다단계 인증 사용
 
@@ -170,7 +170,7 @@ Azure 포털에서 다음을 할 수 있습니다.
 
 Microsoft 365 관리 센터에서 사용자별 및 서비스 MFA 설정을 구성할 수 있습니다.
 
-## <a name="your-next-step"></a>다음 단계
+## <a name="next-steps"></a>다음 단계
 
 [Microsoft 365 MFA 설정](set-up-multi-factor-authentication.md)
 

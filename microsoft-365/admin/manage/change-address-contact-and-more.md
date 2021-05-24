@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: 조직 이름, 주소, 전화, 기술 담당자 및 전자 메일과 같은 조직 프로필을 변경합니다.
 ms.date: 03/30/2021
-ms.openlocfilehash: 9fc985f640f1544bf30ea1a6ccdd5c1ca19aa81f
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 2646d2d83c72caa8a56f6658f005812f087101cb
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572134"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635405"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>조직 주소, 기술 담당자 등 변경
   
@@ -81,8 +81,6 @@ Outlook Web App에서 전자 메일 서명을 변경할 수 있습니다. 자세
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[다른 주소에서 전자 메일 보내기(문서)](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e)
-
-[사용자 이름 및 전자 메일 주소](../add-users/change-a-user-name-and-email-address.md) 변경(문서)
-
+[다른 주소에서 전자 메일](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) 보내기(문서)\
+[사용자 이름 및 전자 메일 주소](../add-users/change-a-user-name-and-email-address.md) 변경(문서)\
 [Microsoft 365에서 전자 메일 전달 구성](../email/configure-email-forwarding.md)(문서)

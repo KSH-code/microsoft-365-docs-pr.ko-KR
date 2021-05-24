@@ -23,12 +23,12 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 description: 각 받는 사람 이름을 입력하지 않고 Microsoft 365 전자 메일을 보낼 수 있도록 Microsoft 365 관리 센터에서 메일 그룹 또는 목록을 만들 수 있습니다.
-ms.openlocfilehash: 7c04ca3e17959afd4138a6ddf9d9cbcd6c4dbafb
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 845aa04e5e26beb14fca0fa3bc08c0599077b152
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572252"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635669"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 메일 그룹 만들기
   
@@ -76,8 +76,6 @@ Outlook 2016 및 웹 Outlook 그룹에서 그룹을 사용하는 [방법을](htt
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사용자 전자 메일](../email/office-365-user-email-settings.md) 설정(문서)
-
-Microsoft 365 관리 센터에서 보안 [그룹 만들기,](../email/create-edit-or-delete-a-security-group.md) 편집 또는 삭제(문서)
-
+[사용자 전자 메일](../email/office-365-user-email-settings.md) 설정(문서)\
+Microsoft 365 관리 센터에서 보안 [그룹 만들기Microsoft 365](../email/create-edit-or-delete-a-security-group.md) 편집 또는 삭제\
 [공유 사서함 만들기](../email/create-a-shared-mailbox.md)(문서)

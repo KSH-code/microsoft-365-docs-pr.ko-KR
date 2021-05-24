@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
 description: 사용자 Microsoft 365 로그인 페이지를 사용자 Azure Active Directory. 로그인 페이지에 그림, 로고 및 텍스트를 추가할 수 있습니다.
-ms.openlocfilehash: dba75d5178f3c4a879ae2cdc9694697df45f6b8b
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 6c873409a06d824c7b63f5ea02e178e22337a345
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624444"
+ms.locfileid: "52635941"
 ---
 # <a name="add-your-company-branding-to-the-sign-in-page"></a>로그인 페이지에 회사 브랜드 추가
 
@@ -49,6 +49,8 @@ ms.locfileid: "52624444"
     
 로그인 페이지 외에도 Azure에서 액세스 패널 페이지를 사용자 지정할 수 있습니다.
   
+## <a name="next-steps"></a>다음 단계
+
 브랜드를 추가할 준비가 되면 Azure 콘텐츠 집합의 사용자 지정 옵션인 로그인 및 액세스 패널 페이지에 회사 브랜드 [추가를 탐색합니다.](/azure/active-directory/fundamentals/customize-branding)
 
 ## <a name="related-content"></a>관련 콘텐츠

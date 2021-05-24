@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 비즈니스용 Microsoft 365 사용자에 대한 암호를 다시 설정하려면 Microsoft 365 계정으로 로그인합니다.
-ms.openlocfilehash: 8d4666eb70b1d5349f71c906f05510a8a54ded74
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 0cec6c7874b51c76fca60c6c237395c940c47bbe
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571976"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635573"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
@@ -122,12 +122,8 @@ Microsoft MVP인 Vasil Michev의 유용한 블로그 게시물을 확인하세�
   
 ## <a name="related-content"></a>관련 콘텐츠
   
-[사용자가 암호를 직접 재설정할 수 있도록 허용](../add-users/let-users-reset-passwords.md)(문서)
-
-[암호 다시 설정](../add-users/reset-passwords.md) (문서)
-
-[개별 사용자의 암호를 만료 기한 없음으로 설정](set-password-to-never-expire.md) (문서)
-
-[조직의 암호 만료 정책](../manage/set-password-expiration-policy.md) 설정(문서)
-
+[사용자가 암호를 직접 재설정할 수 있도록](../add-users/let-users-reset-passwords.md) 합니다(문서)\
+[암호 재설정(문서)\](../add-users/reset-passwords.md)
+[개별 사용자의 암호가](set-password-to-never-expire.md) 만료되지 않는 것으로 설정(문서)\
+[조직의 암호 만료 정책](../manage/set-password-expiration-policy.md) 설정(문서)\
 [Microsoft 365 교육용 비디오(링크](../../business-video/index.yml) 페이지)

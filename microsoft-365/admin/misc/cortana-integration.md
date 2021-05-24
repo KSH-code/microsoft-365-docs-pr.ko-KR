@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 유효한 직장 또는 학교 계정이 있는 사용자는 엔터프라이즈 수준의 보안 약속을 Microsoft 365 환경의 Cortana를 Office 365 수 있습니다.
-ms.openlocfilehash: aad371fc531a03f42e1756a41405082b6b528b06
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: f626ba0d0295655dcdb3d4df2b332dcf05f1a6b5
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582779"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635801"
 ---
 # <a name="cortana-in-microsoft-365"></a>Microsoft 365
 
@@ -187,8 +187,6 @@ Microsoft 서비스 계약 및 [Microsoft](https://go.microsoft.com/fwlink/p/?Li
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Teams Cortana](/microsoftteams/cortana-in-teams) 음성 지원(문서)
-
-[Windows 10 Cortana](/windows/configuration/cortana-at-work/cortana-at-work-overview) 구성(문서)
-
+[Teams Cortana](/microsoftteams/cortana-in-teams) 음성 지원
+[Windows 10 Cortana](/windows/configuration/cortana-at-work/cortana-at-work-overview) 구성(문서)\
 [Cortana에서 내 전자 메일 재생으로 무엇을 할 수 있나요?](https://support.microsoft.com/help/4558256)

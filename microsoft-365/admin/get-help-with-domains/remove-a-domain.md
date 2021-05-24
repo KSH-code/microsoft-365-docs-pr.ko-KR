@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: 이전 도메인에서 이전 도메인을 제거하고 Microsoft 365 다른 도메인으로 이동하거나 구독을 취소하는 방법을 학습합니다.
-ms.openlocfilehash: 089f0378109dd2a5abdf922694390bfdc943693a
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: a8e636059a84a2086844a8ff139d240268ee5b19
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582935"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635705"
 ---
 # <a name="remove-a-domain"></a>도메인 제거
   
@@ -207,7 +207,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
   
 수백 또는 수천 명의 사용자가 있는 경우 PowerShell을 사용하여 모든 사용자에 대해 쿼리한 다음 사용자를 다른 도메인으로 이동합니다. 그러지 않으면 UI에서 몇 명의 사용자가 누락될 수 있으며, 이 경우 도메인을 제거하기 위해 이동하면 도메인을 제거할 수 없으며 이유를 알지 못하게 됩니다. 자세한 내용은 [Set-MsolUserPrincipalName](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0)을 참조하세요. 기본 도메인을 설정하려면 [Set-MsolDomain](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)을 사용하세요.
   
-## <a name="still-need-help"></a>여전히 도움이 필요하세요?
+## <a name="still-need-help"></a>아직 해결되지 않았습니까?
 
 ::: moniker range="o365-worldwide"
 
@@ -220,8 +220,6 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[도메인 FAQ(문서)](../setup/domains-faq.yml)
-
-[다른 비즈니스용 Microsoft 365 요금제로](../../commerce/subscriptions/switch-to-a-different-plan.md) 전환(문서)
-
+[도메인](../setup/domains-faq.yml) FAQ(문서)\
+[비즈니스용 Microsoft 365 다른](../../commerce/subscriptions/switch-to-a-different-plan.md) 계획으로 전환(문서)\
 [구독 취소(문서)](../../commerce/subscriptions/cancel-your-subscription.md)

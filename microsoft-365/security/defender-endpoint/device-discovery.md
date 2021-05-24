@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2dee1193e9f852e66df324927bf38d37d736d251
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: ed4e0c477bd2a8840e920b337f05c8730965bcff
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245951"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636245"
 ---
 # <a name="device-discovery-overview"></a>장치 검색 개요
 
@@ -62,7 +62,7 @@ Microsoft Defender for Endpoint는 추가 어플라이언스 또는 번거로운
 
 
 > [!IMPORTANT]
-> 검색이 기본 모드로 설정됩니다. 설정 페이지를 통해 이 구성을 보존할 수 있습니다. 표준 검색은 이 날짜 전에 설정 페이지를 통해 수정하지 않는 한 2021년 5월 10일부터 모든 미리 보기 고객의 기본 모드가 됩니다.
+> 검색이 기본 모드로 설정됩니다. 설정 페이지를 통해 이 구성을 보존할 수 있습니다. 표준 검색은 이 날짜 전에 설정 페이지를 통해 수정하지 않는 한 2021년 7월 19일부터 모든 고객의 기본 모드가 됩니다.
 
 ### <a name="basic-discovery"></a>기본 검색 
 

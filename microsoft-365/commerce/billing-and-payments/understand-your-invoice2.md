@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: 비즈니스 청구서 또는 송장에 대한 Microsoft 365 청구서 및 결제 정보와 구매 주문 번호를 변경하는 방법을 해석합니다.
 ms.date: 05/04/2021
-ms.openlocfilehash: aa898f570fb17f2d9e2ebba769e285cb9d507c31
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 63d532ddfb86eb80a1cdeb6001fff683c5999146
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593528"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635837"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>비즈니스용 Microsoft 365의 청구서 또는 송장 이해
 
@@ -128,12 +128,8 @@ ms.locfileid: "52593528"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[청구서 또는 송장을 찾아서 보는](view-your-bill-or-invoice.md) 방법 학습(문서)
-
-[대금 청구 주소](change-your-billing-addresses.md) 변경(문서)
-
-[조직의 주소, 기술](../../admin/manage/change-address-contact-and-more.md) 담당자 전자 메일 및 기타 정보 변경(문서)
-
-[비즈니스용 Microsoft 365 요금](pay-for-your-subscription.md) 결제(문서)
-
+[청구서 또는 송장을](view-your-bill-or-invoice.md) 찾아서 보는 방법(문서)\
+[대금 청구 주소](change-your-billing-addresses.md) 변경(문서)\
+[조직의 주소, 기술](../../admin/manage/change-address-contact-and-more.md) 담당자 전자 메일 및 기타 정보 변경(문서)\
+[비즈니스용 Microsoft 365 요금](pay-for-your-subscription.md) 결제(문서)\
 [Minecraft: Education Edition 결제 옵션](/education/windows/school-get-minecraft) (문서)

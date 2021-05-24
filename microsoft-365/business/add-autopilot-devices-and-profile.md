@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: AutoPilot을 사용하여 Windows 사용할 수 있도록 비즈니스용 Windows 10 디바이스를 설정하는 방법을 배워야 합니다.
-ms.openlocfilehash: cc5495f42214b222a70b281a713be782b1bf5c4f
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: e178e7df220e89605502d9ed400265bcd963e57e
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623676"
+ms.locfileid: "52636109"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가
 
@@ -45,8 +45,6 @@ AutoPilot을 Windows 사용하여 비즈니스용  새 Windows 10 디바이스�
 - 2016년 1월 환경을 Windows 새 장치
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>설정 가이드를 사용하여 장치와 프로필 만들기
-
-[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](/office365/admin/microsoft-365-admin-center-preview)
 
 장치 그룹 또는 프로필을 아직 만들지 않은 경우 시작하는 가장 좋은 방법은 단계별 가이드를 사용하는 것입니다. 가이드를 [사용하지](create-and-edit-autopilot-devices.md) 않고 [](create-and-edit-autopilot-profiles.md) 디바이스를 추가하고 프로필을 할당할 수도 있습니다. 
   

@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: 그룹 관리 센터에서 그룹에 구성원을 추가하고, 그룹에서 구성원을 제거하고, 그룹 소유자 상태를 관리하는 Microsoft 365 방법을 학습합니다.
-ms.openlocfilehash: 3ab3ebe21caa2d9d3dfa381dd3b68c9d2512cb79
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: b5b0a398a5ebb47a5f27066f1daea1a822adbff2
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593384"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635609"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>관리 센터를 사용하여 Microsoft 365 그룹에서 구성원 추가 또는 제거
 
@@ -101,7 +101,7 @@ ms.locfileid: "52593384"
 
 5. **저장** 을 선택합니다.
 
-## <a name="more-on-managing-membership"></a>멤버 자격 관리에 대한 추가 정보
+## <a name="next-steps"></a>다음 단계
 
 - [Azure Active Directory에서 동적으로 그룹 관리](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal): "그룹 멤버 자격을 어떻게 동적으로 관리할 수 있나요?" 단원을 참조하세요.
 
@@ -111,12 +111,8 @@ ms.locfileid: "52593384"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[메일 그룹을 Microsoft 365 그룹으로 업그레이드(Outlook)](../manage/upgrade-distribution-lists.md)
-
-[Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)(기사)
-
-[Microsoft 365 그룹에서](manage-guest-access-in-groups.md) 게스트 액세스 관리(문서)
-
+[메일 그룹을 Microsoft 365 그룹으로](../manage/upgrade-distribution-lists.md) 업그레이드 Outlook(문서)\
+[메일 그룹을 메일 그룹의](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188) 그룹으로 업그레이드해야 하는 Outlook(문서)\
+[Microsoft 365 그룹에서 게스트](manage-guest-access-in-groups.md) 액세스 관리(문서)\
 [PowerShell을](../../enterprise/manage-microsoft-365-groups-with-powershell.md)사용하여 Microsoft 365 관리 : 이 문서에서는 주요 cmdlet을 소개하고 예제(문서)를 제공합니다.
-
 [Microsoft 365 그룹 이름 정책(문서)](../../solutions/groups-naming-policy.md)

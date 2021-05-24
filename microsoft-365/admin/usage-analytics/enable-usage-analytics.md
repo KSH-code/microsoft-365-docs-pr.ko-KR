@@ -20,22 +20,22 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Microsoft 365 사용 현황 분석 템플릿 앱을 사용하여 테넌트에 대한 데이터 수집을 시작하는 방법을 Power BI.
-ms.openlocfilehash: 329878365aa07da4615a849ad04cde7f75a07872
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 01923887b4af143d1490e14d59a6174700e6ae93
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593372"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635417"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
 Microsoft 365 미국 Government 2013에서는 아직 Microsoft 365 수 Community.
   
-## <a name="steps-to-enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용 설정 단계
+## <a name="before-you-begin"></a>시작하기 전에
 
 사용 현황 Microsoft 365 시작하려면 먼저 Microsoft 365 관리 센터에서 데이터를 사용할 수 있도록 설정한 다음 Power BI.
   
-### <a name="get-power-bi"></a>Power BI 가져오기
+## <a name="get-power-bi"></a>Power BI 가져오기
 
 아직 등록하지 않은 Power BI 에 등록할 [Power BI Pro.](https://go.microsoft.com/fwlink/p/?linkid=845347) 무료 **평가판** 등록을 선택하거나  지금 구입을 선택하여 평가판을 Power BI Pro.
   
@@ -47,7 +47,7 @@ Microsoft 365 미국 Government 2013에서는 아직 Microsoft 365 수 Community
 
 데이터를 공유하려면 사용자와 데이터를 공유하는 사람이 모두 Power BI Pro 라이선스가 필요하거나 콘텐츠가 Power BI 프리미엄 서비스의 작업 Power BI [합니다.](/power-bi/service-premium-what-is) 
   
-### <a name="enable-the-template-app"></a>템플릿 앱 사용
+## <a name="enable-the-template-app"></a>템플릿 앱 사용
 
 템플릿 앱을 사용하도록 설정하려면 전역 관리자 **를 으로 설정해야 합니다.**
   
@@ -61,7 +61,7 @@ Microsoft 365 미국 Government 2013에서는 아직 Microsoft 365 수 Community
   
 데이터 수집 프로세스는 테넌트의 크기에 따라 2~48시간 만에 완료됩니다. 데이터 **수집이 Power BI** 이동 단추가 활성화됩니다(더 이상 회색 아 없음). 
     
-### <a name="start-the-template-app"></a>템플릿 앱 시작
+## <a name="start-the-template-app"></a>템플릿 앱 시작
 
 템플릿 앱을 시작하기 위해 전역 관리자, 보고서 읽기 프로그램 관리자, Exchange  **관리자,** 비즈니스용 Skype 관리자 또는 SharePoint **합니다.** 
   
@@ -99,8 +99,6 @@ Microsoft 365 미국 Government 2013에서는 아직 Microsoft 365 수 Community
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사용 현황 분석(문서)](usage-analytics.md)
-
-[최신 버전의 사용 현황 분석](get-the-latest-version-of-usage-analytics.md) 다운로드(문서)
-
+[사용 현황 분석(문서)\](usage-analytics.md)
+[최신 버전의 사용 현황 분석](get-the-latest-version-of-usage-analytics.md) 다운로드(문서)\
 [사용 현황 분석에서 보고서를 Microsoft 365](navigate-and-utilize-reports.md) 활용(문서)

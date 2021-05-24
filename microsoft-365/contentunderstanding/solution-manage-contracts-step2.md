@@ -6,18 +6,18 @@ manager: pamgreen
 ms.reviewer: ssquires
 audience: admin
 ms.topic: article
-ms.date: 05/19/2021
+ms.date: ''
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: ''
 description: Microsoft Teams 솔루션을 사용하여 계약 관리 채널을 만드는 Microsoft 365 대해 자세히 알아보십시오.
-ms.openlocfilehash: 20ace5d17550c8dd800368957dd940c9857bce5d
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 81d5fe34383453b187363b13c21ef47844948193
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583139"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636185"
 ---
 # <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>2단계. 이 Microsoft Teams 사용하여 계약 관리 채널 만들기
 

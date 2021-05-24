@@ -6,18 +6,18 @@ manager: pamgreen
 ms.reviewer: ssquires
 audience: admin
 ms.topic: article
-ms.date: 05/19/2021
+ms.date: ''
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: ''
 description: 사용자 계정을 사용하여 Power Automate 솔루션을 사용하여 계약을 처리하기 위한 흐름을 만드는 Microsoft 365 알아보십시오.
-ms.openlocfilehash: 54e92f36b19cefde92111cdbc960fad7715cf8b0
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 0ddcbeff6c8bd119850e3e4ea45db2513e774433
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583103"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636257"
 ---
 # <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a>3단계. 이 Power Automate 사용하여 계약 처리 흐름 만들기
 

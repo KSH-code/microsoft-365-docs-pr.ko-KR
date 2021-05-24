@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Microsoft 365 사용하여 일부 개별 사용자 암호를 만료하지 못하도록 설정하려면 Windows PowerShell.
-ms.openlocfilehash: 0747e0bfe8a7389db554d5d6a7f685605e013306
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 12c717d8d625b0135f185b1af131db00e9762c73
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571928"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635561"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>사용자 암호를 만료 기한 제한 없음으로 설정
 
@@ -128,6 +128,6 @@ Run one of the following commands:
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사용자가 암호를 직접 재설정할 수 있도록 허용](../add-users/let-users-reset-passwords.md)(문서)
-
-[암호 다시 설정](../add-users/reset-passwords.md)(문서)
+[사용자가 암호를 직접 재설정할 수 있도록](../add-users/let-users-reset-passwords.md) 합니다(문서)\
+[암호 재설정(문서)\](../add-users/reset-passwords.md)
+[조직의 암호 만료 정책](../manage/set-password-expiration-policy.md) 설정(문서)

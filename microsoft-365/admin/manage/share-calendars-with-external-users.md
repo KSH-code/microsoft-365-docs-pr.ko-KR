@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb00dd4e-2d5f-4e8d-8ff4-94b2cf002bdd
 description: 사용자가 조직 Microsoft 365 외부의 사용자와 일정을 공유할 수 있도록 조직 관리 센터에서 일정 공유를 사용하도록 설정하세요.
-ms.openlocfilehash: 6f4c215403e16ac6658619e50e6115606f106397
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: ee2b48182efec3e8bc22f47fd1657cd123ec65f8
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582719"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635813"
 ---
 # <a name="share-calendars-with-external-users"></a>외부 사용자와 일정 공유
 
@@ -50,12 +50,10 @@ ms.locfileid: "52582719"
 
 ## <a name="invite-people-to-access-calendars"></a>일정에 액세스할 수 있도록 사용자 초대
 
-공유를 사용하도록 설정하면 일정 소유자가 특정 사용자로 초대를 확장할 수 있습니다. 자세한 내용은 [Outlook Web App에서 일정 공유](https://support.microsoft.com/office/7ecef8ae-139c-40d9-bae2-a23977ee58d5)를 참고하세요.
+공유를 사용하도록 설정하면 일정 소유자가 특정 사용자로 초대를 확장할 수 있습니다. 자세한 내용은 [에서 일정 공유를 Outlook Web App.](https://support.microsoft.com/office/7ecef8ae-139c-40d9-bae2-a23977ee58d5)
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사이트에 대한](/sharepoint/change-external-sharing-site) 외부 공유 설정 또는 해제(문서)
-
-[Microsoft 365 관리 센터 개요](../../business-video/admin-center-overview.md)(동영상)
-
+사이트에 대한 외부 공유 설정 또는 [해제(문서)\](/sharepoint/change-external-sharing-site)
+[Microsoft 365 관리](../../business-video/admin-center-overview.md) 센터 개요(비디오)\
 [전자 메일 및 일정 관리(링크](../email/index.yml) 페이지)

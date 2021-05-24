@@ -21,12 +21,12 @@ ms.custom:
 - commerce_purchase
 description: 소매점에서 Microsoft 365 Business Standard 구입한 경우 제품 키를 교환하고 구독을 활성화하는 방법을 알아보하세요.
 ms.date: 11/13/2020
-ms.openlocfilehash: bc2b07b5a98c13a919596bdbf85a21bdc6c8d2bf
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: e075a9d06b45f823540a3a99a1943caa9d116954
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593396"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636125"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>사용자에 대한 제품 키를 Microsoft 365 Business Standard
 
@@ -57,11 +57,9 @@ ms.locfileid: "52593396"
 
 만료 날짜를 연장하거나 기존 Microsoft 365 Business Standard 구독에 라이선스를 추가하려면 동일한 구독 계획에 새 키와 사용되지 않은 키를 Microsoft 365. 이미 교환된 키를 다시 사용할 수 Microsoft 365 원래 제품 키를 입력하면 작동하지 않습니다. 제품 키를 사용하여 유료 구독에 라이선스 추가 또는 [확장을 참조하세요.](licenses/add-licenses-using-product-key.md)
 
-## <a name="whats-next"></a>다음 작업
+## <a name="next-steps"></a>다음 단계
 
 비즈니스용 Microsoft 365 새로운 경우 에서 를 [설정하는 Microsoft 365.](../admin/setup/setup.md)
-  
-## <a name="still-having-trouble-with-product-keys"></a>여전히 제품 키에 문제가 있나요?
 
 일반적인 오류 및 해결 방법 목록( 비즈니스 제품 키에 대한 Microsoft 365 [문제) 목록을 확인하세요.](product-key-errors-and-solutions.md)
   
@@ -69,8 +67,6 @@ ms.locfileid: "52593396"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[다른 계획으로](./subscriptions/upgrade-to-different-plan.md) 업그레이드(문서)
-
-[Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](./subscriptions/what-if-my-subscription-expires.md) (문서)
-
+[다른 계획으로](./subscriptions/upgrade-to-different-plan.md) 업그레이드(문서)\
+[Microsoft 365 비즈니스 에디션 구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](./subscriptions/what-if-my-subscription-expires.md) (기사)\
 [비즈니스용 Microsoft 365 구독 및 라이선스](./licenses/subscriptions-and-licenses.md) 이해(문서)
