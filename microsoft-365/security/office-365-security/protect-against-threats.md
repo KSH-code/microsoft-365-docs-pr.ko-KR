@@ -1,5 +1,5 @@
 ---
-title: 위협에 대한 보호
+title: 위협으로부터 보호
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -20,14 +20,14 @@ description: 관리자는 조직의 위협 방지에 대해 Microsoft 365 조직
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3381ce66433f1f4e32f0251c45601e3cb84865b6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 438200f3f8a6a846d49bc397d6a4b0a0a33cad40
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538726"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624624"
 ---
-# <a name="protect-against-threats"></a>위협에 대한 보호
+# <a name="protect-against-threats"></a>위협으로부터 보호
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -277,7 +277,7 @@ SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft Teams 파일이 악
 
 - 스팸 작업은 스팸 방지 정책에서 메시지를 **정크** 메일 폴더로 [이동으로 설정됩니다.](anti-spam-protection.md)
 
-- 사용자는 기본 정크 메일 설정을 유지하며 정크 메일 보호를 해제하지 않습니다. [](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)
+- 사용자는 기본 정크 메일 설정을 유지하며 정크 메일 보호를 해제하지 않습니다. [](configure-junk-email-settings-on-exo-mailboxes.md)
 
 자세한 내용은 제로 아워 자동 제거 - 스팸 및 맬웨어로부터 [보호를 참조합니다.](zero-hour-auto-purge.md)
 

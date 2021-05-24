@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 3e84c3266dd802fb6cab12db0c20773838b4e2a9
-ms.sourcegitcommit: b169f6ad3e44a7fcebf77f43be9eb5edd84ea5ef
+ms.openlocfilehash: 60b9577c2a42ef080fa6a734e0207225bf197cab
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52077191"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624272"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
 
@@ -181,7 +181,7 @@ Exchange 배포 또는 외부 전자 메일 공급자가 있는 조직에서 사
 ## <a name="step-5-required-create-a-communication-compliance-policy"></a>5단계(필수): 통신 준수 정책 만들기
   
 >[!Important]
->PowerShell을 사용하여 통신 준수 정책을 만들고 관리하는 것은 지원되지 않습니다. 이러한 정책을 만들고 관리하려면 통신 규정 준수 솔루션의 정책 관리 [Microsoft 365 합니다.](https://compliance.microsoft.com/supervisoryreview)
+>PowerShell을 사용하여 커뮤니케이션 규정 준수 정책을 만들고 관리하는 것은 지원되지 않습니다. 이러한 정책을 만들고 관리하려면 통신 규정 준수 솔루션의 정책 관리 [Microsoft 365 합니다.](https://compliance.microsoft.com/supervisoryreview)
 
 1. 조직에서 관리자 계정의 자격 [https://compliance.microsoft.com](https://compliance.microsoft.com) 증명을 사용하여 Microsoft 365 로그인합니다.
 
@@ -202,7 +202,7 @@ Exchange 배포 또는 외부 전자 메일 공급자가 있는 조직에서 사
     - 제한된 조건 필드(일반적으로 정책에 적용할 중요한 정보 유형 또는 키워드 사전)를 선택하십시오.
 
     >[!NOTE]
-    >[OCR(광학](communication-compliance-feature-reference.md#optical-character-recognition-ocr-preview) 문자 인식)을 사용하여 메시지에 포함된 이미지나 첨부된 이미지를 정책 조건과 일치하는 인쇄 또는 필기 텍스트로 스캔하려면 정책 조건 및 백분율 사용자 지정을 선택하고 평가를 위해 이미지에서 인쇄 또는 필기 텍스트 추출을 사용하도록 설정을  >   선택합니다. 
+    >[OCR(광학](communication-compliance-feature-reference.md#optical-character-recognition-ocr) 문자 인식)을 사용하여 메시지에 포함된 이미지나 첨부된 이미지를 정책 조건과 일치하는 인쇄 또는 필기 텍스트로 스캔하려면 정책 조건 및 백분율 사용자 지정을 선택하고 평가를 위해 이미지에서 인쇄 또는 필기 텍스트 추출을 사용하도록 설정을  >   선택합니다. 
 
     정책 마법사를 사용하여 사용자 지정 정책을 만들면 다음을 실행합니다.
 
@@ -222,7 +222,7 @@ Exchange 배포 또는 외부 전자 메일 공급자가 있는 조직에서 사
 
     - 분류자 사용 하도록 설정 하도록 선택 합니다. 분류기는 전자 메일 메시지의 본문이나 다른 유형의 텍스트로 보내거나 받은 부적절한 언어 및 이미지를 검색할 수 있습니다. 위협, 비언어, 대상 괴롭음,  성인 *이미지,* 인종 이미지 및 고리 이미지의 기본 제공 분류자 *를* 선택할 *수 있습니다.* 
 
-    - [OCR(광학](communication-compliance-feature-reference.md#optical-character-recognition-ocr-preview) 문자 인식)을 사용하면 메시지에 포함되거나 첨부된 이미지에서 정책 조건과 일치하는 인쇄 또는 필기 텍스트를 검색할 수 있습니다. 사용자 지정 정책의 경우 광학 문자 인식 검색을 선택하려면 정책에서 텍스트, 키워드, 분류자 또는 중요한 정보 유형과 관련된 조건부 설정을 하나 이상 구성해야 합니다.
+    - [OCR(광학](communication-compliance-feature-reference.md#optical-character-recognition-ocr) 문자 인식)을 사용하면 메시지에 포함되거나 첨부된 이미지에서 정책 조건과 일치하는 인쇄 또는 필기 텍스트를 검색할 수 있습니다. 사용자 지정 정책의 경우 광학 문자 인식 검색을 선택하려면 정책에서 텍스트, 키워드, 분류자 또는 중요한 정보 유형과 관련된 조건부 설정을 하나 이상 구성해야 합니다.
 
     - 리뷰할 통신의 %를 정의합니다.
 

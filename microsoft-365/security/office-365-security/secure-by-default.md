@@ -17,12 +17,12 @@ ms.collection:
 description: EOP(보안 기본 설정)에 대해 Exchange Online Protection 자세히 알아보시다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 957ca3b563d4f1466dd537c3ae974a4fd61aa6f2
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 2d5cdc8f8faa9c2d5772fd1572134ea49cdd77da
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346319"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624052"
 ---
 # <a name="secure-by-default-in-office-365"></a>기본적으로 보안은 Office 365
 
@@ -77,7 +77,7 @@ Microsoft는 기본적으로 고객의 보안을 유지하기를 원하기 때�
 > [!NOTE]
 > 2021년 7월에는 기본적으로 보안이 Exchange 메일 흐름 규칙(전송 규칙)으로 확장됩니다. 메일 흐름 규칙을 사용하여 타사 피싱 시뮬레이션 또는 필터되지 않은 배달을 보안 작업 사서함으로 허용하는 경우 결국 이러한 [](configure-advanced-delivery.md) 규칙을 제거하고 기능을 사용할 수 있는 경우 고급 배달 정책을 사용하여 _전환해야 합니다._
 
-높은 신뢰도의 피싱 메시지가 필터링을 무시할 수 있는 유일한 무시는 메일 흐름 규칙입니다. 메일 흐름 규칙을 사용하여 필터링을 무시하는 경우 메일 흐름 규칙을 사용하여 [메시지에서 SCL 설정을 참조합니다.](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
+높은 신뢰도의 피싱 메시지가 필터링을 무시할 수 있는 유일한 무시는 메일 흐름 규칙입니다. 메일 흐름 규칙을 사용하여 필터링을 무시하는 경우 메일 흐름 규칙을 사용하여 [메시지에서 SCL 설정을 참조합니다.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl)
 
 다음과 같은 시나리오에서만 오버라이드를 사용하는 것이 좋습니다.
 

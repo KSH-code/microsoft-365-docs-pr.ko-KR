@@ -22,25 +22,25 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
-description: '앱 시작커에 사용자 지정 타일을 추가하여 전자 메일, 문서, 앱, SharePoint 사이트, 외부 사이트 및 기타 리소스에 대한 빠른 링크를 만들 수 있습니다. '
-ms.openlocfilehash: 598cfeb75fc811c87519c4479fa8fcab450466c3
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+description: 앱 시작커에 사용자 지정 타일을 추가하여 전자 메일, 문서, 앱, SharePoint 사이트, 외부 사이트 및 기타 리소스에 대한 빠른 링크를 만들 수 있습니다.
+ms.openlocfilehash: 47f871d66f180225e877a521ef159fc745960507
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327213"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623776"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>앱 시작 관리자에 사용자 지정 타일 추가
 
-Microsoft 365에서는 앱 시작커를 사용하여 전자 메일, 일정, 문서 및 앱에 쉽고 빠르게 액세스 할 수 있습니다([자세한 내용은).](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a) SharePoint 스토어 또는 Azure AD에서 추가하는 사용자 지정 앱뿐만 [](https://support.microsoft.com/office/dd98e50e-d3db-4ecb-9bb7-82b189822d43) 아니라 Microsoft 365에서 다운로드하는 [앱입니다.](/previous-versions/office/office-365-api/)
+이 Microsoft 365 앱 시작커를 사용하여 전자 메일, 일정, 문서 및 앱에 쉽고 빠르게 액세스 할 수 있습니다([자세한 내용은](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a)). 이러한 앱은 Microsoft 365 또는 [Azure AD에서](/previous-versions/office/office-365-api/)추가하는 사용자 지정 앱뿐만 [SharePoint 있습니다.](https://support.microsoft.com/office/dd98e50e-d3db-4ecb-9bb7-82b189822d43)
   
-SharePoint 사이트, 외부 사이트, 레거시 앱 등을 가리키는 앱 시작 관리자에 사용자 지정 타일을 추가할 수 있습니다. 사용자 지정 타일은 앱 시작 사용자의 **모든** 앱 아래에 나타나지만  홈 앱에 고정하고 사용자에게 동일한 작업을 하게 지시할 수 있습니다. 이렇게 하면 작업을 할 관련 사이트, 앱 및 리소스를 쉽게 찾을 수 있습니다. 아래 예제에서는 "Contoso Portal"이라는 사용자 지정 타일을 사용하여 조직의 SharePoint 인트라넷 사이트에 액세스합니다. 
+SharePoint 사이트, 외부 사이트, 레거시 앱 등을 가리키는 앱 시작 관리자에 사용자 지정 타일을 추가할 수 있습니다. 사용자 지정 타일은 앱 시작 사용자의 **모든** 앱 아래에 나타나지만  홈 앱에 고정하고 사용자에게 동일한 작업을 하게 지시할 수 있습니다. 이렇게 하면 작업을 할 관련 사이트, 앱 및 리소스를 쉽게 찾을 수 있습니다. 아래 예제에서는 "Contoso Portal"이라는 사용자 지정 타일을 사용하여 조직의 SharePoint 사이트에 액세스합니다. 
   
 ![앱 시작 관리자](../../media/7acc06cc-ac7a-4c6e-8ea7-81570a5bdbab.png)
   
 ## <a name="add-a-custom-tile-to-the-app-launcher"></a>앱 시작러에 사용자 지정 타일 추가
 
-1. 전역 관리자로 관리 센터에 로그인하고 설정 조직 설정으로 이동한 다음 조직  >  프로필 **탭을** 선택합니다.
+1. 전역 관리자로 관리 센터에 로그인하고 설정 조직 설정 으로 이동한 다음 조직 프로필  >   **탭을** 선택합니다.
     
 2. 조직 **프로필 탭에서** 사용자 지정 **앱 시작 프로그램 타일 을 선택합니다.**
   
@@ -51,7 +51,7 @@ SharePoint 사이트, 외부 사이트, 레거시 앱 등을 가리키는 앱 �
 5. 타일에 **대한 웹 사이트의 URL을** 입력합니다. 이 위치는 사용자가 앱 시작커에서 타일을 선택할 때 이동하려는 위치입니다. URL에 HTTPS를 사용합니다.
 
     > [!TIP]
-    > SharePoint 사이트에 대한 타일을 만드는 경우 해당 사이트로 이동하여 URL을 복사한 다음 여기에 붙여넣습니다. 기본 팀 사이트의 URL은 다음과 같습니다. `https://<company_name>.sharepoint.com` 
+    > 사이트용 타일을 만드는 SharePoint 사이트로 이동하여 URL을 복사한 다음 여기에 붙여넣습니다. 기본 팀 사이트의 URL은 다음과 같습니다. `https://<company_name>.sharepoint.com` 
   
 6. 타일 **이미지의 URL을** 입력합니다. 이미지가 내 앱 페이지 및 앱 시작커에 표시됩니다.
 
@@ -65,11 +65,11 @@ SharePoint 사이트, 외부 사이트, 레거시 앱 등을 가리키는 앱 �
     이제 사용자 지정 타일이 사용자와 사용자를  위해 모두 탭의 앱 시작커에 표시됩니다. 
 
     > [!NOTE]
-    > 이전 단계에서 만든 사용자 지정 타일이 없는 경우 Exchange Online 사서함이 할당되어 있으며 사서함에 한 번 이상 로그인해야 합니다. 이러한 단계는 Microsoft 365의 사용자 지정 타일에 필요합니다. 
+    > 이전 단계에서 만든 사용자 지정 타일이 없는 경우 사용자에게 할당된 Exchange Online 사서함이 있는지와 사서함에 적어도 한 번 이상 로그인해야 합니다. 이러한 단계는 사용자 지정 타일에 Microsoft 365. 
   
 ## <a name="edit-or-delete-a-custom-tile"></a>사용자 지정 타일 편집 또는 삭제
 
-1. 관리 센터에서 설정 조직 설정 조직 프로필  >    >  **탭으로** 이동합니다.
+1. 관리 센터에서 조직 프로필 **설정** 조직 설정  >    >  **이동하세요.**
     
 2. 조직 **프로필 페이지의** 조직에 대한 사용자 지정 타일 추가 옆에 **있는** 편집 을 **선택합니다.**
 
@@ -79,6 +79,12 @@ SharePoint 사이트, 외부 사이트, 레거시 앱 등을 가리키는 앱 �
     
 사용자 지정 타일을 삭제하려면 사용자 지정 타일 창에서 타일을 선택하고 타일 **삭제를**   >  **선택합니다.** 
   
-## <a name="whats-next"></a>다음 작업
+## <a name="next-steps"></a>다음 단계
 
-앱 시작커에 타일을 추가하는 것 외에도 탐색 모음에 앱 시작 프로그램 타일을 추가할 수 있습니다([자세한 내용은).](https://support.microsoft.com/office/eb34a21b-52fa-4fbf-a8d5-146132242985) 조직의 브랜드에 맞게 Microsoft 365의 모양과 느낌을 사용자 지정하기 위해 Microsoft 365 테마 사용자 [지정을 참조합니다.](../setup/customize-your-organization-theme.md)
+앱 시작커에 타일을 추가하는 것 외에도 탐색 모음에 앱 시작 프로그램 타일을 추가할 수 있습니다([자세한 내용은).](https://support.microsoft.com/office/eb34a21b-52fa-4fbf-a8d5-146132242985) 조직의 브랜드에 맞게 Microsoft 365 모양과 느낌을 사용자 지정하기 위해 Microsoft 365 [테마 사용자 지정을 참조합니다.](../setup/customize-your-organization-theme.md)
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[사용자의 앱 시작커에](pin-apps-to-app-launcher.md) 앱 고정(문서)\
+[비즈니스 Microsoft 365 사용자를](../setup/upgrade-users-to-latest-office-client.md) 최신 Office 클라이언트로 업그레이드(문서)\
+[관리 센터에서](../manage/manage-addins-in-the-admin-center.md) 추가 기능 관리(문서)

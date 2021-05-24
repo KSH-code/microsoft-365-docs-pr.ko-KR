@@ -1,5 +1,5 @@
 ---
-title: Office 365용 Microsoft Defender의 공격 시뮬레이터
+title: Microsoft Defender에서 공격 시뮬레이터를 Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,35 +17,35 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 공격 시뮬레이터를 사용하여 Microsoft 365 E5 또는 Microsoft Defender for Office 365 계획 2 조직에서 시뮬레이션된 피싱 및 암호 공격을 실행하는 방법을 배울 수 있습니다.
+description: 관리자는 공격 시뮬레이터를 사용하여 계획 2 조직용 Microsoft Defender 또는 Microsoft 365 E5 Microsoft Defender에서 시뮬레이션된 피싱 Office 365 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 637e84281b85e8c859207ae81342a3c6ab3d00be
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 73ad3501ed9818261c9fbec6ba12b4dc884da84f
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205427"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624828"
 ---
-# <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Office 365용 Microsoft Defender의 공격 시뮬레이터
+# <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Microsoft Defender에서 공격 시뮬레이터를 Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Microsoft** [Defender for Office 365 요금제 2에 적용](defender-for-office-365.md)
 
-조직에 위협 조사 및 대응 기능이 포함된 Microsoft Defender [](office-365-ti.md)for Office 365 계획 2가 있는 경우 보안 및 준수 센터의 공격 시뮬레이터를 & 조직의 실제 공격 시나리오를 실행할 수 있습니다. 이러한 시뮬레이션된 공격은 실제 공격이 아래쪽에 영향을 미치기 전에 취약한 사용자를 식별하고 찾는 데 도움이 될 수 있습니다. 자세한 내용은 이 문서를 읽어 보아야 합니다.
+조직에 위협 조사 및 대응 기능이 포함된 Office 365 [](office-365-ti.md)계획 & 2용 Microsoft Defender가 있는 경우 보안 및 준수 센터의 공격 시뮬레이터를 사용하여 조직에서 실제적인 공격 시나리오를 실행할 수 있습니다. 이러한 시뮬레이션된 공격은 실제 공격이 아래쪽에 영향을 미치기 전에 취약한 사용자를 식별하고 찾는 데 도움이 될 수 있습니다. 자세한 내용은 이 문서를 읽어 보아야 합니다.
 
 > [!NOTE]
 >
-> 이 문서에 설명된 공격 시뮬레이터는 이제 읽기 전용으로, [Microsoft 365](https://security.microsoft.com)보안 센터의 전자 메일 & 공동 작업 노드에서 공격 시뮬레이션 **교육으로** 대체됩니다.  자세한 내용은 공격 시뮬레이션 교육 사용 [시작을 참조하세요.](attack-simulation-training-get-started.md)
+> 이 문서에 설명된 공격 시뮬레이터는 이제 읽기 전용으로, 보안  센터의 전자 메일 & 공동 작업 노드에서 공격 시뮬레이션 [Microsoft 365 대체했습니다.](https://security.microsoft.com)  자세한 내용은 공격 시뮬레이션 교육 사용 [시작을 참조하세요.](attack-simulation-training-get-started.md)
 >
 > 이 버전의 공격 시뮬레이터에서 새 시뮬레이션을 시작 하는 기능을 사용할 수 없습니다. 그러나 2021년 1월 24일 이후 최대 90일 동안 보고서에 액세스할 수 있습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
-- 보안 및 준수 센터를 열려면 <https://protection.office.com/>로 이동하세요. 공격 시뮬레이터는 **위협** 관리 공격 \> **시뮬레이터에서 사용할 수 있습니다.** 공격 시뮬레이터로 직접 이동하여 를 를 <https://protection.office.com/attacksimulator> 습니다.
+- 보안 및 준수 센터를 열려면 <https://protection.office.com/>로 이동하세요. 공격 시뮬레이터는 **위협** 관리 공격 \> **시뮬레이터에서 사용할 수 있습니다.** 공격 시뮬레이터로 직접 이동하기 위해 를 를 <https://protection.office.com/attacksimulator> 습니다.
 
-- 여러 Microsoft 365 구독의 공격 시뮬레이터 가용성에 대한 자세한 내용은 [Microsoft Defender for Office 365 서비스 설명을 참조하세요.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+- 여러 Microsoft 365 구독의 공격 시뮬레이터 가용성에 대한 자세한 내용은 Microsoft [Defender for Office 365 참조하세요.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
 - 조직 관리 또는 보안 관리자 역할 **그룹의** **구성원이면** 됩니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
@@ -55,7 +55,7 @@ ms.locfileid: "51205427"
 
 - 피싱 캠페인은 30일 동안 이벤트를 수집하고 처리합니다. 이전 캠페인 데이터는 캠페인을 시작한 후 최대 90일 동안 사용할 수 있습니다.
 
-- 공격 시뮬레이션 및 교육 관련 데이터는 Microsoft 365 서비스의 다른 고객 데이터와 함께 저장됩니다. 자세한 내용은 [Microsoft 365 데이터 위치를 참조하세요.](../../enterprise/o365-data-locations.md)
+- 공격 시뮬레이션 및 교육 관련 데이터는 다른 고객 데이터와 함께 Microsoft 365 저장됩니다. 자세한 내용은 데이터 [Microsoft 365 참조하세요.](../../enterprise/o365-data-locations.md)
 
 - 공격 시뮬레이터에 해당하는 PowerShell cmdlet은 없습니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "51205427"
 
   - 지정한 사용자 지정 페이지(URL)입니다.
 
-- **스피어 피싱(첨부 파일)**: 공격은 받는 사람이 메시지에 .docx 또는 .pdf 첨부 파일을 열게 설득합니다. 첨부 파일에는 기본 피싱 링크의 동일한 콘텐츠가 포함되어 있지만 첫 번째 문장은 " 로 시작합니다. 이 메시지가 최근에 연 전자 메일 메시지로 \<Display Name\> 표시됩니다...".
+- **스피어 피싱(첨부 파일)**: 공격은 받는 사람이 메시지에 첨부 파일을 .docx .pdf 설득합니다. 첨부 파일에는 기본 피싱 링크의 동일한 콘텐츠가 포함되어 있지만 첫 번째 문장은 " 로 시작합니다. 이 메시지가 최근에 연 전자 메일 메시지로 \<Display Name\> 표시됩니다...".
 
 > [!NOTE]
 > 현재 공격 시뮬레이터의 스피어 피싱 캠페인은 만료되지 않습니다.
@@ -170,7 +170,7 @@ ms.locfileid: "51205427"
 
 4. 받는 **사람 대상 단계에서** 다음 단계 중 하나를 수행합니다.
 
-   - 주소 **책을 클릭하여** 캠페인의 받는 사람(사용자 또는 그룹)을 선택합니다. 각 대상 받는 사람에게는 Exchange Online 사서함이 있어야 합니다. 검색 조건을 **입력하지** 않고 필터 및 적용을 클릭하면 모든 받는 사람이 반환되어 캠페인에 추가됩니다. 
+   - 주소 **책을 클릭하여** 캠페인의 받는 사람(사용자 또는 그룹)을 선택합니다. 각 대상 받는 사람에게는 사서함이 Exchange Online 있어야 합니다. 검색 조건을 **입력하지** 않고 필터 및 적용을 클릭하면 모든 받는 사람이 반환되어 캠페인에 추가됩니다. 
 
    - **가져오기,** **파일 가져오기** 를 클릭하여 CSV(콤보로 구분된 값) 또는 줄로 구분된 전자 메일 주소 파일을 가져올 수 있습니다. 각 줄에는 받는 사람의 전자 메일 주소가 포함되어야 합니다.
 
@@ -207,9 +207,9 @@ ms.locfileid: "51205427"
      >
      > - URL을 선택해야 합니다. **스피어 피싱(첨부 파일)** 캠페인의 경우 다음 단계에서 메시지 본문에서 링크를 제거할 수 있습니다. 그렇지 않으면  메시지에 링크와 첨부 파일이 모두 포함되어 있습니다.
 
-   - **첨부 파일 형식:** 이 설정은 **스피어 피싱(첨부 파일)** 캠페인에서만 사용할 수 있습니다. 드롭다운을 클릭하고 를 **선택합니다. DOCX** 또는 **. 목록의 PDF입니다.**
+   - **첨부 파일 형식:** 이 설정은 **스피어 피싱(첨부 파일)** 캠페인에서만 사용할 수 있습니다. 드롭다운을 클릭하고 **목록에서**.DOCX **.PDF** 선택합니다.
 
-   - **첨부 파일 이름:** 이 설정은 스피어 피싱(첨부 **파일)** 캠페인에서만 사용할 수 있습니다. .docx 또는 .pdf 첨부 파일의 파일 이름을 입력합니다.
+   - **첨부 파일 이름:** 이 설정은 스피어 피싱(첨부 **파일)** 캠페인에서만 사용할 수 있습니다. 첨부 파일 또는 첨부 파일의 파일 .docx .pdf 입력합니다.
 
    - 사용자 지정 방문 페이지 **URL:** 피싱 링크를 클릭하고 자격 증명을 입력할 경우 사용자가 이동되는 선택적 방문 페이지를 입력합니다. 이 링크는 기본 방문 페이지를 대체합니다. 예를 들어 내부 인식 교육이 있는 경우 여기에서 해당 URL을 지정할 수 있습니다.
 
@@ -265,7 +265,7 @@ ms.locfileid: "51205427"
 
 4. 대상 사용자 **단계에서** 다음 단계 중 하나를 수행합니다.
 
-   - 주소 **책을 클릭하여** 캠페인의 받는 사람(사용자 또는 그룹)을 선택합니다. 각 대상 받는 사람에게는 Exchange Online 사서함이 있어야 합니다. 검색 조건을 **입력하지** 않고 필터 및 적용을 클릭하면 모든 받는 사람이 반환되어 캠페인에 추가됩니다. 
+   - 주소 **책을 클릭하여** 캠페인의 받는 사람(사용자 또는 그룹)을 선택합니다. 각 대상 받는 사람에게는 사서함이 Exchange Online 있어야 합니다. 검색 조건을 **입력하지** 않고 필터 및 적용을 클릭하면 모든 받는 사람이 반환되어 캠페인에 추가됩니다. 
 
    - **가져오기,** **파일 가져오기** 를 클릭하여 CSV(콤보로 구분된 값) 또는 줄로 구분된 전자 메일 주소 파일을 가져올 수 있습니다. 각 줄에는 받는 사람의 전자 메일 주소가 포함되어야 합니다.
 
@@ -277,7 +277,7 @@ ms.locfileid: "51205427"
 
      - **암호를 수동으로 입력:** Enter enter to add a password(암호를 추가하려면 **Enter를 누르기)** 상자에 암호를 입력한 다음 Enter(Enter)를 입력합니다. 필요한 만큼 이 단계를 반복합니다.
 
-     - **사전 파일에서** 암호 업로드: **업로드를** 클릭하여 각 줄에 암호 하나와 빈 마지막 줄이 포함된 기존 텍스트 파일을 가져올 수 있습니다. 텍스트 파일은 10MB 이하의 크기와 30000개 이상의 암호를 포함할 수 없습니다.
+     - **업로드** 파일에서 암호 저장: 업로드  줄마다 암호가 하나씩 포함된 기존 텍스트 파일을 가져오고 마지막 줄에는 빈 텍스트 파일을 가져올 수 있습니다. 텍스트 파일은 10MB 이하의 크기와 30000개 이상의 암호를 포함할 수 없습니다.
 
    - **암호 분사 공격:** **공격** 상자에 사용할 암호 상자에 암호 하나를 입력합니다.
 
@@ -335,7 +335,7 @@ ms.locfileid: "51205427"
 
   - 클라이언트 IP 주소입니다.
 
-  - 사용자 버전의 Windows 및 웹 브라우저에 대한 세부 정보
+  - 사용자 버전 및 웹 브라우저에 Windows 세부 정보입니다.
 
   내보내기 **를 클릭하여** 결과를 CSV 파일로 내보낼 수 있습니다.
 

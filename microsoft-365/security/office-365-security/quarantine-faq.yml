@@ -20,12 +20,12 @@ metadata:
   ms.custom: seo-marvel-apr2020
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: f146cd9eba6e333376bcfeb6e8c74b3378387b5b
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: 42e848309589fa8786346b5921d1cade0ed074b9
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52334058"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52625416"
 title: Quarantined messages FAQ
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -64,7 +64,7 @@ sections:
   - question: >
       사용자에게 검지 액세스 권한을 부여하는 방법
     answer: >
-      사용자는 자신의 메시지에 액세스하려면 유효한 계정이 있어야 합니다. 독립 실행형 EOP를 사용하려면 사용자가 EOP에서 메일 사용자로 표시됩니다(디렉터리 동기화를 통해 수동으로 만들거나 생성). 독립 실행형 EOP 환경에서 사용자를 관리하는 데 대한 자세한 내용은 [EOP에서 메일 사용자 관리를 참조하세요.](manage-mail-users-in-eop.md)
+      사용자는 자신의 메시지에 액세스하려면 유효한 계정이 있어야 합니다. 독립 실행형 EOP를 사용하려면 사용자가 EOP에서 메일 사용자로 표시됩니다(디렉터리 동기화를 통해 수동으로 만들거나 생성). 독립 실행형 EOP 환경에서 사용자를 관리하는 데 대한 자세한 내용은 독립 실행형 EOP에서 메일 사용자 [관리를 참조하세요.](/exchange/standalone-eop/manage-mail-users-in-eop)
   - question: >
       최종 사용자가 검지에서 액세스할 수 있는 메시지는 무엇입니까?
     answer: >

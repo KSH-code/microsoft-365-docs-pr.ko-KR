@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5d73b54a60b22ac74a55c301b3bd9344ee83352f
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: ec66115bc5ad0c8031be7117d2d8282e5c7d5041
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52298821"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623884"
 ---
 # <a name="contact-support-for-georgia"></a>조지아 지원에 문의
 
@@ -26,11 +26,9 @@ ms.locfileid: "52298821"
 ## <a name="phone-number"></a>전화 번호
 032 297 0124
 
-옵션 2 선택
+비즈니스용 2를 누르기
 
-옵션 9 선택
-
-코드 7700 입력
+1을 눌러 Microsoft 365
 
 ## <a name="hours"></a>시간
 ### <a name="billing-support"></a>청구 지원:

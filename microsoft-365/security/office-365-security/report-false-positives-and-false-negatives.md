@@ -13,12 +13,12 @@ ms.collection:
 description: 보고서 메시지 기능을 사용하여 가짓 긍정 및 Outlook 보고하는 방법을 배워야 합니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e848595035501f5da7b6099efd2700ebac6f17e3
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 6f8c4fc327bfd467cdd1d0043c454e222e84125c
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52291166"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625116"
 ---
 # <a name="report-false-positives-and-false-negatives-in-outlook"></a>Outlook에서 가양성 및 가음성 보고
 
@@ -34,7 +34,7 @@ ms.locfileid: "52291166"
 
 하이브리드 최신 인증을 사용하는 Microsoft 365 Exchange Online 사서함이 있는 Microsoft 365 조직에서는 가음성(차단되거나 정크 폴더로 전송된 양호한 전자 메일) 및 거짓 부정(받은 편지함으로 배달된 원치 않는 전자 메일 또는 피싱)을 EOP(Exchange Online Protection)에 제출할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
 - 최상의 사용자 제출 환경을 위해 보고서 메시지 추가 기능 또는 피싱 보고 추가 기능을 사용하세요.
 
@@ -55,7 +55,7 @@ ms.locfileid: "52291166"
 받은 편지함 또는 정크 메일을 제외한 다른 전자 메일 폴더에 있는 메시지의 경우 다음 방법을 사용하여 스팸 및 피싱 메시지를 보고합니다.
 
 1. 선택한 **메시지의** 오른쪽 위에 있는 추가 작업 줄임표를  클릭하고 드롭다운 메뉴에서 메시지  보고를 클릭한 다음 정크 또는 피싱 **을 선택합니다.**
-  
+
    > [!div class="mx-imgBorder"]
    > ![보고서 메시지 - 추가 작업](../../media/report-message-more-actions.png)
 
@@ -67,10 +67,10 @@ ms.locfileid: "52291166"
    - 스팸으로 보고된 경우 정크 메일 폴더로 이동되었습니다.
 
    - 피싱으로 보고된 경우 삭제되었습니다.
-   
+
 ### <a name="report-messages-that-are-not-junk"></a>정크 메일이 아닌 메시지 보고
 
-1. 선택한 **메시지의** 오른쪽 위 모서리에 있는 추가 작업 줄임표를 클릭하고 드롭다운 메뉴에서 메시지 보고를 클릭한 다음 정크 메일 아님 **을 클릭합니다.**   
+1. 선택한 **메시지의** 오른쪽 위 모서리에 있는 추가 작업 줄임표를 클릭하고 드롭다운 메뉴에서 메시지 보고를 클릭한 다음 정크 메일 아님 **을 클릭합니다.** 
 
    > [!div class="mx-imgBorder"]
    > ![보고서 메시지 - 추가 작업](../../media/report-message-more-actions.png)
@@ -86,4 +86,4 @@ ms.locfileid: "52291166"
 
 - 관리 제출 포털을 사용하세요. 자세한 내용은 [Microsoft에 대한 사용자 제출 보기를 참조하세요.](admin-submission.md#view-user-submissions-to-microsoft)
 
-- 메일 흐름 규칙(전송 규칙)을 만들어 보고된 메시지의 복사본을 전송합니다. 자세한 내용은 메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고하는 것을 [참조하세요.](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)
+- 메일 흐름 규칙(전송 규칙)을 만들어 보고된 메시지의 복사본을 전송합니다. 자세한 내용은 메일 흐름 규칙을 사용하여 Microsoft에 보고하는 사용자 [확인을 참조하세요.](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft)

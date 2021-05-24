@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 사용자가 보고하는 스팸 및 피싱 전자 메일을 수집하도록 사서함을 구성하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a23f27478d01092705a47d49884f200478348182
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 852e87ee76d9692b789ca217720ac3efb08f31a8
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583715"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624612"
 ---
 # <a name="user-submissions-policy"></a>사용자 제출 정책
 
@@ -39,22 +39,18 @@ ms.locfileid: "52583715"
 
 - [피싱 보고 추가 기능](enable-the-report-phish-add-in.md)
 
-- [웹용 Outlook](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md) 기본 제공 보고(이전의 Outlook Web App)
+- [타사 보고 도구](#third-party-reporting-tools)
 
-- [iOS 및 Android용 Outlook 기본 제공 보고](report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md)
+사용자가 보고한 메시지를 Microsoft에 직접 전달하는 대신 사용자 지정 사서함으로 배달하면 관리자가 관리자 제출을 사용하여 메시지를 선택적으로 수동으로 Microsoft에 보고할 [수 있습니다.](admin-submission.md)
 
   > [!NOTE]
   > 웹용 웹 Outlook 보고를 사용하지 않도록 설정한 경우 [여기에서](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web)사용자 제출을 사용하도록 설정하면 해당 설정이 다시 Outlook 웹에서 메시지를 보고할 수 있습니다.
-
-지정한 사서함으로 메시지를 전달하도록 타사 메시지 보고 도구를 구성할 수도 있습니다.
-
-사용자가 보고한 메시지를 Microsoft에 직접 전달하는 대신 사용자 지정 사서함으로 배달하면 관리자가 관리자 제출을 사용하여 메시지를 선택적으로 수동으로 Microsoft에 보고할 [수 있습니다.](admin-submission.md)
 
 ## <a name="custom-mailbox-prerequisites"></a>사용자 지정 사서함 선행 준비
 
 다음 문서를 사용하여 사용자가 보고한 메시지가 사용자 지정 사서함으로 이동하도록 필수 구성을 구성합니다.
 
-- 스팸 지수 설정 Exchange 메일 흐름 규칙을 만들어 사용자 지정 사서함에서 스팸 필터링을 건너뜁. SCL을 스팸 필터링 무시로 설정하는 [메시지의 SCL을](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message) 설정하는 메일 흐름 규칙 만들기를 **참조합니다.**
+- 스팸 지수 설정 Exchange 메일 흐름 규칙을 만들어 사용자 지정 사서함에서 스팸 필터링을 건너뜁. SCL을 스팸 필터링 무시로 설정하는 [메시지의 SCL을](/exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message) 설정하는 메일 흐름 규칙 만들기를 **참조합니다.**
 
 - 사용자 지정 사서함에서 맬웨어에 대한 첨부 파일 검색을 끄면 됩니다. [Defender에서](set-up-safe-attachments-policies.md) 안전한 첨부 파일 정책 Office 365 설정 을 사용하여 안전한 첨부  파일 알 수 없는 맬웨어 응답에 대해 끄기 설정을 사용하여 안전한 첨부 파일 정책을 **만들 수 있습니다.**
 
@@ -141,9 +137,17 @@ ms.locfileid: "52583715"
 
        완료되면 확인 을 **클릭합니다.**
 
+## <a name="third-party-reporting-tools"></a>타사 보고 도구
+
+보고된 메시지를 사용자 지정 사서함으로 보내도록 타사 메시지 보고 도구를 구성할 수 있습니다. 유일한 요구 사항은 원본 메시지가 사용자 지정 사서함으로 전송되는 메시지에 첨부 파일로 포함되는 것입니다(원본 메시지를 사용자 지정 사서함으로만 전달하는 것이 아니라).
+
+메시지 서식 요구 사항은 다음 섹션에 설명되어 있습니다.
+
 ## <a name="message-submission-format"></a>메시지 전송 형식
 
-사용자 지정 사서함으로 전송되는 메시지는 특정 전송 메일 형식을 따라야 합니다. 제출의 제목(봉투 제목)은 다음 형식입니다.
+원래 첨부된 메시지를 올바르게 식별하려면 사용자 지정 사서함으로 전송되는 메시지에 특정 서식이 필요합니다. 메시지가 이 형식을 사용하지 않는 경우 원래 첨부된 메시지는 항상 피싱 전송으로 식별됩니다.
+
+원래 첨부된 메시지를 올바르게 식별하려면 사용자 지정 사서함으로 전송되는 메시지는 제목(봉투 제목)에 대해 다음 구문을 사용해야 합니다.
 
 `SafetyAPIAction|NetworkMessageId|SenderIp|FromAddress|(Message Subject)`
 
@@ -153,7 +157,7 @@ ms.locfileid: "52583715"
 - 2: 정크 아님
 - 3: 피싱
 
-다음 예제에서는 다음을 들 수 있습니다.
+이 예제에서는 다음 값을 사용합니다.
 
 - 메시지가 피싱으로 보고되고 있습니다.
 - 네트워크 메시지 ID는 49871234-6dc6-43e8-abcd-08d797f20abe입니다.

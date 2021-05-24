@@ -24,17 +24,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
-description: Windows AutoPilot을 사용하여 직원이 사용할 수 있도록 비즈니스용 새 Windows 10 디바이스를 설정하는 방법을 학습합니다.
-ms.openlocfilehash: cd8777e6ae2e395506d2bf308c99309de1e24805
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: AutoPilot을 사용하여 Windows 사용할 수 있도록 비즈니스용 Windows 10 디바이스를 설정하는 방법을 배워야 합니다.
+ms.openlocfilehash: cc5495f42214b222a70b281a713be782b1bf5c4f
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578530"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623676"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가
 
-Windows AutoPilot을 사용하여 비즈니스용 **새** Windows 10 장치를 설정하여 직원들에게 제공될 때 사용할 준비가 될 수 있습니다.
+AutoPilot을 Windows 사용하여 비즈니스용  새 Windows 10 디바이스를 설정할 수 있으므로 직원들에게 제공될 때 사용할 준비가 됩니다.
   
 ## <a name="device-requirements"></a>장치 요구 사항
 
@@ -42,7 +42,7 @@ Windows AutoPilot을 사용하여 비즈니스용 **새** Windows 10 장치를 �
   
 - Windows 10 버전 1703 이상
     
-- Windows에서 바로 사용할 수 있는 환경을 통해 제공되지 않은 새 장치
+- 2016년 1월 환경을 Windows 새 장치
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>설정 가이드를 사용하여 장치와 프로필 만들기
 
@@ -50,7 +50,7 @@ Windows AutoPilot을 사용하여 비즈니스용 **새** Windows 10 장치를 �
 
 장치 그룹 또는 프로필을 아직 만들지 않은 경우 시작하는 가장 좋은 방법은 단계별 가이드를 사용하는 것입니다. 가이드를 [사용하지](create-and-edit-autopilot-devices.md) 않고 [](create-and-edit-autopilot-profiles.md) 디바이스를 추가하고 프로필을 할당할 수도 있습니다. 
   
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>의 관리 센터로 이동합니다.
 
 2. 왼쪽 탐색 창에서 **장치** \> **AutoPilot 을 선택 합니다.**
 
@@ -60,7 +60,7 @@ Windows AutoPilot을 사용하여 비즈니스용 **새** Windows 10 장치를 �
     
     ![Click Start guide for step-by-step instructions for Autopilot.](../media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
-3. 장치 **목록이 있는 .csv** 파일 업로드 페이지에서 준비된 위치로 이동합니다. CSV 파일,  다음 \> **열기**. 파일에는 다음 세 개의 헤더가 있어야 합니다.
+3. 장치 **업로드 .csv** 파일 페이지에서 준비된 .CSV 위치로 이동한 후 다음  \> **열기 를 클릭합니다.** 파일에는 다음 세 개의 헤더가 있어야 합니다.
     
     - A 열: 장치 일련 번호
     
@@ -73,7 +73,7 @@ Windows AutoPilot을 사용하여 비즈니스용 **새** Windows 10 장치를 �
     자세한 내용은 [장치 목록 CSV 파일](../admin/misc/device-list.md)을 참조하세요. **장치 목록이 포함된 .csv 파일 업로드** 페이지에서 샘플 파일을 다운로드할 수도 있습니다. 
     
 > [!NOTE]
-> 이 스크립트는 WMI를 사용하여 고객이 Windows Autopilot에 디바이스를 등록하는 데 필요한 속성을 검색합니다. 디바이스를 등록할 필요는 아니며 출력 CSV에서 NULL인 PKID가 완전히 괜찮기 때문에 결과 CSV 파일이 Windows PKID(제품 ID) 값을 수집하지 않는 것은 일반적입니다. 일련 번호와 하드웨어 해시만 채워지기만 합니다.
+> 이 스크립트는 WMI를 사용하여 고객이 Autopilot을 사용하여 디바이스를 등록하는 데 Windows 검색합니다. 디바이스를 등록할 필요는 아니며 출력 CSV에 NULL인 PKID가 완전히 괜찮기 때문에 결과 CSV 파일이 PKID(Windows 제품 ID) 값을 수집하지 않는 것은 일반적입니다. 일련 번호와 하드웨어 해시만 채워지기만 합니다.
     
 4. 프로필 **할당 페이지에서** 기존 프로필을 선택하거나 새 프로필을 만들 수 있습니다. 아직 만들지 않은 경우 하나를 만들지 묻는 메시지가 표시될 것입니다. 
     
@@ -85,7 +85,7 @@ Windows AutoPilot을 사용하여 비즈니스용 **새** Windows 10 장치를 �
     
     - 회사 브랜드의 로그인 환경을 만듭니다.
     
-    - 디바이스를 Azure Active Directory 계정에 연결하고 Microsoft 365 Business Premium에서 관리하기 위해 자동으로 등록합니다.
+    - 커넥트 계정을 Azure Active Directory 등록하고 자동으로 등록하여 계정을 Microsoft 365 Business Premium.
     
     자세한 내용은 [AutoPilot 프로필 설정 정보를 참조하세요.](autopilot-profile-settings.md) 
     
@@ -94,3 +94,8 @@ Windows AutoPilot을 사용하여 비즈니스용 **새** Windows 10 장치를 �
     **다음** 을 선택합니다.
     
 6. **사용자가 만든(또는** 선택) 프로필이 장치 목록을 업로드하여 만든 디바이스 그룹에 적용될 것 같다고 나타냅니다. 설정은 장치 사용자가 다음에 로그인할 때 적용됩니다. **닫기** 를 선택합니다.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[AutoPilot 프로필 설정](autopilot-profile-settings.md) 정보(문서)\
+[장치 및 앱 데이터 보호](../admin/devices/choose-device-security.md) 옵션(문서)

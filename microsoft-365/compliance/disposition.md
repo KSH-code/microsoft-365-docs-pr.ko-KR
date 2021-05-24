@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용하거나 사용자가 구성한 설정에 따라 레코드로 표시된 항목이 자동으로 삭제되는 경우에 대한 콘텐츠 폐기 작업을 모니터링하고 관리합니다.
-ms.openlocfilehash: 3c5d178b4eab267759506dcd86d66fb2bf4d93ee
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 99ab789b99385af9ad2677995606d21ece54705c
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583475"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594076"
 ---
 # <a name="disposition-of-content"></a>콘텐츠의 처리
 
@@ -30,7 +30,7 @@ ms.locfileid: "52583475"
 Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 페이지을 사용하여 처리 검토를 관리하고 보존 기간이 끝날 때 자동으로 삭제된 [레코드](records-management.md#records)의 메타데이터를 봅니다.
 
 > [!NOTE]
-> 미리 보기에서 원격 설치: **다중 스테이지 처리 검토**
+> 미리 보기에서: **다중 스테이지 처리 검토**
 > 
 > 관리자는 이제 보존 레이블에 최대 5단계의 연속적인 처리 검토 스테이지를 추가할 수 있으며, 검토자는 다른 사용자를 처리 검토 단계에 추가할 수 있습니다. 또한 전자 메일 알림 및 미리 알림을 사용자 지정할 수 있습니다. 다음 섹션에는 이 미리 보기의 변경사항에 대한 자세한 정보가 나와 있습니다.
 >

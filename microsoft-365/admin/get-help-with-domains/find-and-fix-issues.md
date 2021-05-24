@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: DNS 레코드가 올바르게 설정되어 있는지 확인하여 사용자 지정 도메인을 설정하는 동안 발생할 수 있는 문제를 추적하는 방법을 학습합니다.
-ms.openlocfilehash: 5959cae02b87cf481fc06edd941a6da284b71736
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 70beb877251c333766a0963316287796eb81d595
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537550"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623968"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결
 
@@ -103,5 +103,6 @@ DNS 문제를 해결한 경우에도 여전히 문제가 있는 경우 다음 �
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[문제 해결: 확인된 도메인 변경에 대한 데이터 감사](/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain)
+[문제 해결: 확인된 도메인 변경에 대한](/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain) 데이터 감사(문서)\
+[도메인 FAQ](../setup/domains-faq.yml) (문서)
 

@@ -20,12 +20,12 @@ ms.collection:
 description: 관리자는 Microsoft Defender for Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ab3fd89c02186dfbdb6c9a3d754a4902d8b945f8
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: cc5fabf7b0bb4a649aeb7c4e09155037fc09e9f9
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246383"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625008"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Microsoft Defender의 안전한 첨부 Office 365
 
@@ -124,7 +124,7 @@ ms.locfileid: "52246383"
 - 메시지가 삭제되었습니다.
 - 사용자의 사서함 검색 폴더가 오류 상태입니다.
 - Exchange Online 조직에서 Exclaimer를 사용할 수 있습니다. 이 문제를 해결하기 위해 [KB4014438을 참조합니다.](https://support.microsoft.com/help/4014438)
-- [S/MIME)](s-mime-for-message-signing-and-encryption.md) 암호화된 메시지입니다.
+- [S/MIME)](/exchange/security-and-compliance/smime-exo/smime-exo) 암호화된 메시지입니다.
 - 안전 첨부 파일 정책에서 동적 배달 작업을 구성했지만 받는 사람이 동적 배달을 지원하지 않습니다(예: 받는 사람이 Exchange 조직에 있는 사서함). 그러나 [](configure-global-settings-for-safe-links.md) [Microsoft Defender for Office 365](set-up-safe-links-policies.md) 안전한 링크는 URL이 포함된 Office 첨부 파일을 검색할 수 있습니다(안전한 링크에 대한 전역 설정 구성 방법에 따라 다를 수 있습니다.
 
 ## <a name="submitting-files-for-malware-analysis"></a>맬웨어 분석을 위한 파일 제출

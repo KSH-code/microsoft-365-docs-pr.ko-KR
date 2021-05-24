@@ -20,12 +20,12 @@ metadata:
   description: 관리자는 EOP(EOP)에서 스팸 방지 보호에 대한 질문과 Exchange Online Protection 수 있습니다.
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: e632ab1183c43cd50da7c2cf7832a5a18fa64d50
-  ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+  ms.openlocfilehash: b15e7409c275810a9d5e70d1376a9c3accd07ab9
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/20/2021
-  ms.locfileid: "52583619"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52624918"
 title: 스팸 방지 보호 FAQ
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -61,7 +61,7 @@ sections:
 
       > [!IMPORTANT]
 
-      > EOP가 사내 사서함을 보호하는 하이브리드 배포에서는 메시지에 추가된 EOP 스팸 필터링 헤더를 검색하도록 Exchange 조직에서 두 개의 Exchange 메일 흐름 규칙(전송 규칙)을 Exchange 조직에 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.
+      > EOP가 Exchange 사서함을 보호하는 하이브리드 배포에서는 메시지에 추가된 EOP 스팸 필터링 헤더를 검색하도록 Exchange 조직에서 두 개의 Exchange 메일 흐름 규칙(전송 규칙)을 구성해야 합니다. 자세한 내용은 하이브리드 환경의 정크 메일 폴더에 스팸을 배달하도록 [EOP 구성을 참조하세요.](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)
 
        **아웃바운드 메시지의 경우:** 이 메시지는 위험이 높은 [](high-risk-delivery-pool-for-outbound-messages.md) 배달 풀을 통해 라우팅되거나 배달되지 않은 보고서(NDR 또는 반송 메시지라고도 알려지음)에서 보낸 사람으로 반환됩니다. 아웃바운드 스팸 보호에 대한 자세한 내용은 [아웃바운드 스팸 컨트롤을 참조하세요.](outbound-spam-controls.md)
   - question: >

@@ -16,12 +16,12 @@ metadata:
   description: EOP(클라우드 호스팅 전자 메일 Exchange Online Protection 서비스에 대한 가장 일반적인 질문과 대답을 얻습니다.
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: 9929bd9d90f4e63e130fc478ce974fc373dea396
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: e7ae5858841384c31acf9b785fc0071607ba5f1d
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52334028"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52625368"
 title: EOP 관련 일반 FAQ(질문과 대답)
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -69,7 +69,7 @@ sections:
   - question: >
       EOP를 프로덕션에 배치하는 데 얼마나 소요됩니까?
     answer: >
-      MX 레코드를 변경할 경우 [EOP 서비스 설정](set-up-your-eop-service.md) 및 EOP를 통한 메일 흐름에 설명된 단계에 따라 필터링이 즉시 시작됩니다. MX 레코드가 DNS를 통해 전파되려면 24~48시간 정도 소요될 수 있습니다. 이 프로세스 중에 어떤 경우든 보호 설정을 세부 조정할 수 있습니다.
+      MX 레코드를 변경할 경우 [EOP 서비스 설정](/exchange/standalone-eop/set-up-your-eop-service) 및 EOP를 통한 메일 흐름에 설명된 단계에 따라 필터링이 즉시 시작됩니다. MX 레코드가 DNS를 통해 전파되려면 24~48시간 정도 소요될 수 있습니다. 이 프로세스 중에 어떤 경우든 보호 설정을 세부 조정할 수 있습니다.
   - question: >
       EOP를 사용하기 위해 모든 Microsoft 365 해야 하나요? EOP 보호만 하고 싶으면 어떻게 하나요?
     answer: >

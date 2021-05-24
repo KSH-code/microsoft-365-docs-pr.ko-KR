@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c536987035743f9a640d427375efaedfce21fbb8
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 455959c8b11a3cfaf293052d2c23251771ac7456
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296554"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623580"
 ---
 # <a name="contact-support-for-belarus"></a>Belarus 지원에 문의
 
@@ -26,9 +26,9 @@ ms.locfileid: "52296554"
 ## <a name="phone-number"></a>전화 번호
 8 820 0071 0003
 
-옵션 9 선택
+비즈니스용 2를 누르기
 
-코드 7707 입력
+1을 눌러 Microsoft 365
 
 ## <a name="hours"></a>시간
 ### <a name="billing-support"></a>청구 지원:

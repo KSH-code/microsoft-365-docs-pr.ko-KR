@@ -18,14 +18,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
 search.appverid: MET150
-description: 다른 계획으로 업그레이드하는 방법에 대해 자세히 알아보습니다.
+description: 계획을 업그레이드하는 가장 쉬운 방법은 관리 센터의 업그레이드 탭을 사용하는 것입니다. 그러나 업그레이드 탭이 항상 지원되지는 않습니다.
 ms.date: 04/21/2021
-ms.openlocfilehash: 4882ad4296eb05faf0bb549ebf850562a7ebf780
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: da0b0a826087ea7e963dde85f9b4612acf0eaf99
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344617"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624316"
 ---
 # <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드
 

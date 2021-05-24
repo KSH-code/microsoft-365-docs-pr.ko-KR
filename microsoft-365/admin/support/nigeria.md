@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 해당 국가 또는 지역에 대한 고객 지원에 문의하는 방법을 배워야 합니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: eef1b091b2b705a5ae83cba8dc7d5c22bd021856
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: bc500ff4418787648ee213d6f0f28bdda194e2ca
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297935"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623848"
 ---
 # <a name="contact-support-for-nigeria"></a>나이지리아 지원에 문의
 
@@ -26,9 +26,9 @@ ms.locfileid: "52297935"
 ## <a name="phone-number"></a>전화 번호
 01 912 5070
 
-옵션 9 선택
+비즈니스용 2를 누르기
 
-코드 7705 입력
+1을 눌러 Microsoft 365
 
 ## <a name="hours"></a>시간
 ### <a name="billing-support"></a>청구 지원:

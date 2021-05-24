@@ -20,13 +20,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
-description: 구독을 구매하거나, 파트너를 변경하거나, 구독에서 파트너를 삭제하는 Microsoft 365 구독 고문 파트너를 레코드의 파트너로 추가하는 방법을 학습합니다.
-ms.openlocfilehash: d45f9e3278b0a25cc5603d322c96f40eee45e6f8
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: 구매 시 레코드의 파트너를 Microsoft 365 파트너를 변경하거나 구독에서 파트너를 삭제합니다.
+ms.openlocfilehash: e21c324bc84e360b80deae2abeec610e73834819
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537478"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624528"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>구독 관리자 파트너 추가, 변경, 삭제
 
@@ -42,6 +42,8 @@ ms.locfileid: "52537478"
 구독 관리자 역할을 하는 Microsoft 공인 파트너는 구독을 설정하고 유지 관리하는 데 도움이 되는 판매, 지원, 기술 전문 지식을 제공합니다. 구독 고문 파트너는 구독을 구매할 때 또는 다른 Microsoft 365 파트너로 추가할 수 있습니다. 현재 파트너와 작업하고 있지 않은 경우 [Microsoft Pinpoint](https://pinpoint.microsoft.com) 웹 사이트에서 파트너를 찾을 수 있습니다.
 
 ::: moniker-end
+
+## <a name="before-you-begin"></a>시작하기 전에
 
 ::: moniker range="o365-worldwide"
 
@@ -218,6 +220,7 @@ ms.locfileid: "52537478"
   
 ::: moniker-end
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[파트너 Microsoft 365 대리업체 찾기](../manage/find-your-partner-or-reseller.md)
+[파트너 Microsoft 365 대리업체](../manage/find-your-partner-or-reseller.md) 찾기(문서)\
+[비즈니스용 Microsoft 365 설정](../setup/plan-your-setup.md) 계획(문서)

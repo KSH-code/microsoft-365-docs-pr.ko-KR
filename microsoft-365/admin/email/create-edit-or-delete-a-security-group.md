@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: 보안 그룹을 만들거나 편집하거나 삭제하는 방법을 학습합니다.
-ms.openlocfilehash: 8f76b5fa803ea43e53e89cf6479eb7572a2857c2
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7887a6371287ebef3a91cc1a37f2ed696df1948d
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537598"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624004"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 보안 그룹 만들기, 편집 또는 삭제
 
@@ -99,3 +99,9 @@ Exchange 관리 센터에서 메일 그룹 및 메일 사용이 가능한 보안
 ## <a name="can-i-send-email-to-a-security-group"></a>보안 그룹에 전자 메일을 보낼 수 있나요?
 
 예. 그러나 전자 메일 및 공동 작업용 그룹을 사용하려는 경우 대신 그룹 Microsoft 365 [만드는](../create-groups/create-groups.md) 것이 좋습니다. 
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[Microsoft 365](../create-groups/create-groups.md) 관리 센터에서 그룹 만들기(문서)\
+[사용자에게 Microsoft 365](../create-groups/explain-groups-knowledge-worker.md) 설명(문서)\
+[Microsoft 365 관리](../create-groups/manage-groups.md) 센터에서 그룹 관리(문서)

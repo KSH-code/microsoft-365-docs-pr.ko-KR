@@ -30,14 +30,16 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: 도메인 및 사용자 추가, Microsoft 365 Business Premium 정책 설정 등을 포함하여 사용자 지정에 대한 설정 단계를 검색합니다.
-ms.openlocfilehash: 37607b483686fc12ac6253ae9f693ec86c073c4e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 3e15f16db2a233d2e11d444600398102b075932d
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245047"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624392"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>설치 Microsoft 365 Business Premium 설정
+
+## <a name="watch-overview-of-microsoft-365-setup"></a>시청: 설치 Microsoft 365 개요
 
 설치에 대한 개요를 확인하려면 이 Microsoft 365 Business Premium 시청하세요.<br><br>
 
@@ -62,7 +64,7 @@ ms.locfileid: "52245047"
 4. **도메인 추가** 단계에서 사용할 도메인 이름(예: contoso.com)을 입력합니다.
 
     > [!IMPORTANT]
-    > 등록할 때 도메인을 구입한 경우에는 **도메인 추가** 단계가 표시되지 않습니다. 대신 [사용자 추가](#add-users-and-assign-licenses)로 이동합니다.
+    > 등록할 때 도메인을 구입한 경우에는 **도메인 추가** 단계가 표시되지 않습니다. 대신 [사용자 추가](#add-users-and-assign-licenses)로 이동하세요.
 
     ![Screenshot of the Personalize your sign-in page.](../media/adddomain.png)
 
@@ -85,7 +87,7 @@ ms.locfileid: "52245047"
 
 1. Microsoft 365 Business Premium 구독에 기존 사용자가 있는 경우(예: Azure AD 커넥트 사용하는 경우) 라이선스를 사용자에게 지금 할당할 수 있는 옵션이 제공됩니다. 해당 사용자에게도 라이선스를 추가합니다.
 
-2. 해당 사용자를 추가한 후 새로 추가한 사용자와 자격 증명을 공유하는 옵션도 여기에 표시됩니다. 자격 증명을 인쇄, 전자 메일로 전송 또는 다운로드할 수 있습니다.
+2. 사용자를 추가한 후에는 새로 추가한 사용자와 자격 증명을 공유하는 옵션도 여기에 표시됩니다. 자격 증명을 인쇄, 전자 메일로 전송 또는 다운로드할 수 있습니다.
 
 ### <a name="connect-your-domain"></a>도메인 연결
 
@@ -131,6 +133,6 @@ ms.locfileid: "52245047"
 
 또한 개별적으로 설치 Office 수 있습니다. 지침은 Office PC 또는 [Mac에](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) 설치를 참조하세요.
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 Business 교육 비디오](../business-video/index.yml)
+[Microsoft 365 교육용 비디오(링크](../business-video/index.yml) 페이지)

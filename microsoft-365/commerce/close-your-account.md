@@ -1,5 +1,5 @@
 ---
-title: 계정 닫기
+title: '계정 사용 중지 '
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -18,16 +18,16 @@ ms.custom:
 - fwlink 2133922 to Delete subscription heading
 - commerce_subscription
 search.appverid: MET150
-description: Microsoft에서 계정을 닫는 방법을 알아보하세요.
+description: Microsoft 계정을 닫을 때 라이선스, 사용자 및 사용자 데이터를 포함하여 계정과 관련된 모든 정보가 삭제됩니다.
 ms.date: 04/02/2021
-ms.openlocfilehash: ed73c191063a328490945c54dc2f5101c88f17e8
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: b212911707b5d6a967ab833a5a06bc76f5ceeb3b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537298"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624328"
 ---
-# <a name="close-your-account"></a>계정 닫기
+# <a name="close-your-account"></a>계정 사용 중지 
 
 Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩니다. 이 정보에는 구독, 라이선스, 지불 방법, 사용자 및 사용자 데이터가 포함됩니다.
 
@@ -51,15 +51,15 @@ Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩�
 
 ## <a name="step-2-cancel-all-active-subscriptions"></a>2단계: 활성 구독 모두 취소
 
-1. 관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.
-2. 제품 **탭에서** 활성 구독을 찾을 수 있습니다. 세 점(추가 작업)을 선택한 다음 구독 취소 **를 선택합니다.**
-3. **구독 취소** 창에서 취소 이유를 선택합니다. 원하는 경우, 피드백을 제공하세요.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지로 이동하세요.
+2. 제품 **탭에서** 활성 구독을 찾을 수 있습니다. 점 3개(추가 작업)를 선택한 다음 **구독 취소** 를 선택합니다.
+3. **구독 취소** 창에서 취소 이유를 선택합니다. 또는 피드백을 입력합니다.
 4. **저장** 을 선택합니다.
 5. 활성 구독을 모두 취소하려면 1~4단계를 반복합니다.
 
 ## <a name="step-3-delete-all-disabled-subscriptions"></a>3단계: 사용하지 않도록 설정한 모든 구독 삭제
 
-1. 관리 센터에서 **빌링** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a>페이지로 이동합니다.
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지로 이동하세요.
 2. 제품 **탭에서** 비활성화된 구독을 선택합니다.
 3. 구독 세부 정보 페이지의 구독 및 결제 설정 **섹션에서** 구독 **삭제를 선택합니다.**
 4. 구독 **삭제 창에서** 구독 **삭제를 선택합니다.**
@@ -88,3 +88,9 @@ PowerShell을 사용하여 여러 사용자에 대해 [다단계 인증을](/azu
 5. 조직에서 하나 이상의 검사에 실패하면 검사를 통과하는 방법에 대한 추가 정보 링크가 표시됩니다. 모든 검사를 통과한 후 삭제를 **선택하여** 프로세스를 완료합니다.
 
 이 마지막 단계를 완료하면 Microsoft 계정이 닫히고 삭제됩니다.
+
+## <a name="related-content"></a>관련 콘텐츠 
+
+[비즈니스용 Microsoft 365 청구서](./billing-and-payments/understand-your-invoice2.md) 또는 송장 이해(문서)\
+[구독 취소(문서)](./subscriptions/cancel-your-subscription.md)
+

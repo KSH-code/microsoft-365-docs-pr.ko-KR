@@ -21,13 +21,13 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: E3에서 비즈니스를 E3로 Microsoft 365 Business Premium Office 365 방법을 알아보습니다.
-ms.openlocfilehash: 990ca8bdae979f1efb8a60a3460add2953a51892
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+description: E3 구독이 Office 365 직원 수가 300명을 넘지 않는 경우 E3 구독으로 전환하는 Microsoft 365 Business Premium.
+ms.openlocfilehash: d139d07c946ff3efed3db3a73eb5e1a4ae66c190
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327173"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623608"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>E3에서 Office 365 마이그레이션하는 Microsoft 365 Business Premium
 
@@ -125,3 +125,12 @@ Microsoft 365 Business Premium 계획 1을 사용할 때 50GB의 Exchange Online
 ### <a name="sensitivity-labels"></a>민감도 레이블
 
 민감도 레이블 사용을 시작하기 위해 민감도 레이블 개요를 [참조하고](../compliance/sensitivity-labels.md) 민감도 레이블 비디오를 만들고 [관리하세요.](../business-video/create-sensitivity-labels.md)
+
+## <a name="related-content"></a>관련 콘텐츠
+
+[수동으로 계획](../commerce/subscriptions/change-plans-manually.md) 변경(문서)\
+[Windows 장치를 Windows 10 Pro](upgrade-to-windows-pro-creators-update.md) 업그레이드(동영상)\
+[Android 또는 iOS 장치에](app-protection-settings-for-android-and-ios.md) 대한 앱 보호 설정 설정(문서)\
+[Windows 10 장치에](protection-settings-for-windows-10-devices.md) 대한 응용 프로그램 보호 설정 또는 편집(문서)\
+[]
+

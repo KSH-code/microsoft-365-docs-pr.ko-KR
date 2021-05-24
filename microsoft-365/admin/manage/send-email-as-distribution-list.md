@@ -20,27 +20,27 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
-description: Microsoft 365에서 메일로 전자 메일을 보내는 방법을 배워야 합니다.
-ms.openlocfilehash: bb1d5a62d2b1a3bbfae87849e8aa96cef14c173e
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+description: 전자 메일을 메일 Microsoft 365 메일 Microsoft 365 메일 목록에서 보낸 것으로 표시될 때 해당 메시지에 응답할 수 있도록 합니다.
+ms.openlocfilehash: 01bff7e1d2515670c5a6faa199355e7de591f1fb
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332429"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624540"
 ---
 # <a name="send-email-as-a-distribution-list"></a>메일로 전자 메일 보내기
 
-Microsoft 365에서 메일로 전자 메일을 보낼 수 있습니다. 메일 목록의 구성원인 사용자가 메일 목록에 보낸 메시지에 응답하면 전자 메일은 개별 사용자가 아닌 메일 목록에서 보낸 것으로 표시됩니다. 이 항목에서는 이 작업을 하는 방법을 보여 합니다.
+이 Microsoft 365 메일로 전자 메일을 보낼 수 있습니다. 메일 목록의 구성원인 사용자가 메일 목록에 보낸 메시지에 응답하면 전자 메일은 개별 사용자가 아닌 메일 목록에서 보낸 것으로 표시됩니다. 이 항목에서는 이 작업을 하는 방법을 보여 합니다.
   
-## <a name="send-email-as-a-distribution-list"></a>메일로 전자 메일 보내기
+## <a name="before-you-begin"></a>시작하기 전에
 
-이러한 단계를 수행하기 전에 Microsoft 365 메일 목록에 추가한 후 다른 사람으로 보내기 권한을 부여받은지 확인하세요.
+이러한 단계를 수행하기 전에 Microsoft 365 메일 목록에 추가되고 다른 사람 권한으로 보내기 권한이 부여되어 있는지 확인하십시오.
   
- **관리자:** [목록에 Microsoft 365](../email/add-user-or-contact-to-distribution-list.md) 사용자 또는 연락처 추가 및 구성원이 [Microsoft 365](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md#allow-members-to-send-email-as-a-group) 그룹으로 전자 메일을 보낼 수 있도록 허용 항목의 단계를 수행하고 메일 그룹에 올바른 사용자를 추가해야 합니다.
+ **관리자:** 목록에 Microsoft 365 사용자 또는 연락처 추가 [](../email/add-user-or-contact-to-distribution-list.md) 및 구성원이 전자 메일을 Microsoft 365 [그룹으로](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md#allow-members-to-send-email-as-a-group) 전자 메일을 보낼 수 있도록 허용 항목의 단계를 수행하고 메일 그룹에 올바른 사용자를 추가해야 합니다.
   
 ## <a name="outlook-on-the-web"></a>웹용 Outlook
 
-1. 웹에서 Outlook을 열고 받은 편지함으로 이동하세요. 
+1. 웹 Outlook 열고 받은 편지함으로 이동하세요. 
     
 2. 메일로 전송된 메시지를 열 수 있습니다. 
     
@@ -54,10 +54,16 @@ Microsoft 365에서 메일로 전자 메일을 보낼 수 있습니다. 메일 �
 
 ## <a name="outlook"></a>Outlook
 
-1. Outlook 데스크톱 클라이언트를 여는 경우
+1. 데스크톱 Outlook 열기.
 
 2. 새 전자 메일을 작성합니다. 시작 **필드를 클릭하고** 기타 전자 **메일 주소를 선택합니다.** 시작 필드가 없는 경우 옵션으로  이동한  다음 필드 표시 섹션에서 시작을 선택합니다.
 
 3. 전체 **주소 목록에서** 메일 목록 주소를 선택합니다.
 
 4. 전자 메일을 보내기.
+
+## <a name="related-content"></a>관련 콘텐츠
+
+Microsoft 365 관리 센터에서 보안 [그룹 만들기Microsoft 365](../email/create-edit-or-delete-a-security-group.md) 편집 또는 삭제\
+[전자 메일 공동](../email/email-collaboration.md) 작업(문서)\
+[메일 그룹에 사용자 또는 연락처 추가](../email/add-user-or-contact-to-distribution-list.md)

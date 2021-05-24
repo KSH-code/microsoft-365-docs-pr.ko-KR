@@ -22,13 +22,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
-description: 삭제된 사용자 계정 및 모든 관련 데이터를 복원하는 방법을 학습합니다.
-ms.openlocfilehash: b7d98c1f49f8252ea9fdda2d863b5b77ac5bea9d
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+description: 사용자 계정을 삭제한 후 30일 이내에 계정 및 모든 데이터를 복원할 수 있으며 사용자는 동일한 계정으로 로그인할 수 있습니다.
+ms.openlocfilehash: 83852136ee22ab3f63d8ada6a5a7290883c392e5
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52291070"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623824"
 ---
 # <a name="restore-a-user"></a>사용자 복원
    
@@ -91,6 +91,8 @@ ms.locfileid: "52291070"
     
 4. 결과를 검토한 다음 **닫기** 를 선택합니다.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-content"></a>관련 콘텐츠
 
-[사용자 삭제](delete-a-user.md)
+[사용자](delete-a-user.md) 삭제(문서)\
+[관리자 역할](assign-admin-roles.md) 할당(비디오)\
+[사용자에게 라이선스](../manage/assign-licenses-to-users.md) 할당(문서)
