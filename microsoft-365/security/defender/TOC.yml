@@ -68,7 +68,7 @@
           href: deploy-supported-services.md
         - name: Microsoft 365 Defender 활성화하기
           href: m365d-enable-faq.md
-    - name: 위협에 대한 보호
+    - name: 위협으로부터 보호
       items:
         - name: Microsoft 보안 점수
           items:
@@ -92,7 +92,7 @@
               href: incident-queue.md
             - name: 관리
               href: manage-incidents.md
-            - name: 조사하기
+            - name: 조사
               items:
                 - name: 개요
                   href: investigate-incidents.md
@@ -282,42 +282,42 @@
               items:
                 - name: ServiceNow 통합 개요
                   href: ./tickets.md
-            - name: Microsoft 365 Defender API(미리 보기)
+        - name: Microsoft 365 Defender API(미리 보기)
+          items:
+            - name: Microsoft 365 Defender API 개요(미리 보기)
+              href: api-overview.md
+            - name: Microsoft 365 Defender API 시작(미리 보기)
               items:
-                - name: Microsoft 365 Defender API 개요(미리 보기)
-                  href: api-overview.md
-                - name: Microsoft 365 Defender API 시작(미리 보기)
+                - name: Microsoft 365 Defender API 라이선스 및 사용 약관
+                  href: api-terms.md
+                - name: Microsoft 365 Defender API에 액세스
+                  href: api-access.md
+                - name: Hello World 예제
+                  href: api-hello-world.md
+                - name: 응용 프로그램 컨텍스트를 사용하여 액세스
+                  href: api-create-app-web.md
+                - name: 사용자 컨텍스트를 사용하여 액세스
+                  href: api-create-app-user-context.md
+                - name: 파트너 응용 프로그램 액세스 받기
+                  href: api-partner-access.md
+                - name: 기타 API 리소스
+                  href: api-articles.md
+            - name: Microsoft 365 Defender API 및 스키마(미리 보기)
+              items:
+                - name: 지원되는 Microsoft 365 Defender API
+                  href: api-supported.md
+                - name: 일반적인 REST API 오류 코드
+                  href: api-error-codes.md
+                - name: 고급 헌팅 API
+                  href: api-advanced-hunting.md
+                - name: 인시던트 API
                   items:
-                    - name: Microsoft 365 Defender API 라이선스 및 사용 약관
-                      href: api-terms.md
-                    - name: Microsoft 365 Defender API에 액세스
-                      href: api-access.md
-                    - name: Hello World 예제
-                      href: api-hello-world.md
-                    - name: 응용 프로그램 컨텍스트를 사용하여 액세스
-                      href: api-create-app-web.md
-                    - name: 사용자 컨텍스트를 사용하여 액세스
-                      href: api-create-app-user-context.md
-                    - name: 파트너 응용 프로그램 액세스 받기
-                      href: api-partner-access.md
-                    - name: 기타 API 리소스
-                      href: api-articles.md
-                - name: Microsoft 365 Defender API 및 스키마(미리 보기)
-                  items:
-                    - name: 지원되는 Microsoft 365 Defender API
-                      href: api-supported.md
-                    - name: 일반적인 REST API 오류 코드
-                      href: api-error-codes.md
-                    - name: 고급 헌팅 API
-                      href: api-advanced-hunting.md
-                    - name: 인시던트 API
-                      items:
-                        - name: 인시던트 메서드 및 속성
-                          href: api-incident.md
-                        - name: 인시던트 열거
-                          href: api-list-incidents.md
-                        - name: 인시던트 업데이트
-                          href: api-update-incidents.md
+                    - name: 인시던트 메서드 및 속성
+                      href: api-incident.md
+                    - name: 인시던트 열거
+                      href: api-list-incidents.md
+                    - name: 인시던트 업데이트
+                      href: api-update-incidents.md
     - name: Office 365용 Microsoft Defender
       href: ../office-365-security/index.yml
     - name: 엔드포인트용 Microsoft Defender
