@@ -93,13 +93,11 @@
             - name: 관리
               href: manage-incidents.md
             - name: 조사
-              items:
-                - name: 개요
-                  href: investigate-incidents.md
-                - name: 경고
-                  href: investigate-alerts.md
-                - name: 사용자
-                  href: investigate-users.md
+              href: investigate-incidents.md
+            - name: 인시던트 경고
+              href: investigate-alerts.md
+            - name: 인시던트 사용자
+              href: investigate-users.md
             - name: 첫 번째 인시던트에 응답
               items:
                 - name: 소개
