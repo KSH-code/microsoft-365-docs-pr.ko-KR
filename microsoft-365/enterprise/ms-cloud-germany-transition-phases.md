@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치란드 Microsoft 클라우드)에서 새 독일 데이터 센터 지역의 Office 365 서비스로 이동하는 마이그레이션 단계 작업 및 영향을 이해합니다.'
-ms.openlocfilehash: a99103083c8fabae3934a6622acc55a59ff5c9a0
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: df2407deeaa3cd6e0b0925b48f888a25c0435042
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346295"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651116"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>마이그레이션 단계 도이클란드 Microsoft 클라우드에서 마이그레이션에 대한 작업 및 영향
 
@@ -36,7 +36,7 @@ ms.locfileid: "52346295"
 > [!NOTE]
 > Azure 서비스의 마이그레이션은 이 설명서의 일부가 아니며, 해당 정보는 Azure Germany에 대한 [마이그레이션 지침을 참조하세요.](/azure/germany/germany-migration-main)
 
-|단계|Duration|책임자|설명|
+|단계|기간|책임자|설명|
 |:--------|:--------|:--------|:--------|
 |Opt-In|시간|고객|조직을 마이그레이션에 옵트인합니다.|
 |사전 작업|일|고객|마이그레이션을 위해 사용자, 작업소 및 네트워크를 준비하는 데 필요한 작업을 완료합니다.|
@@ -169,7 +169,7 @@ Office 365 전역 서비스 지역이 기본값으로 설정되어 내부 부하
 ### <a name="exchange-online-powershell"></a>Exchange Online PowerShell
 **적용 사항:** Exchange Online PowerShell을 Exchange Online 관리자
 
-마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예를 들면 다음과 같습니다.
+마이그레이션 단계에서 PowerShell cmdlet **New-MigrationEndpoint, Set-MigrationEndpoint** 및 **Test-MigrationsServerAvailability를** 사용하면 오류가 발생할 수 있습니다(프록시 오류).  이 문제는 중재 사서함이 전 세계로 마이그레이션했지만 관리자 사서함이 전 세계로 마이그레이션되지 않은 경우 또는 그 반대의 경우 발생합니다. 이 문제를 해결하기 위해 테넌트 PowerShell 세션을 만드는 동안 ConnectionUri의 라우팅 힌트로 중재 **사서함을 사용 합니다.** 예:
 
 ```powershell
 New-PSSession 
@@ -305,12 +305,15 @@ Office 365 "Germany" 지역으로 전환하는 테넌트는 모든 사용자가 
 
 **다음에 적용됩니다.** 모든 고객
 
-테넌트가 Office 365 마이그레이션의 마지막 단계(Azure AD 마무리(9단계))가 완료되면 모든 서비스가 전 세계로 전환됩니다. 응용 프로그램이나 사용자는 도이치랜드 Microsoft 클라우드 끝점에 대해 테넌트의 리소스에 액세스하지 말아야 합니다. 완료가 완료되고 30일 후에 자동으로 Microsoft 클라우드 도이치랜드 Azure AD 서비스가 전환된 테넌트에 대한 끝점 액세스를 중지합니다. 인증과 같은 끝점 요청은 도이치랜드 Microsoft 클라우드 서비스에 대해 이 시점부터 실패합니다. 
+테넌트가 Office 365 최종 단계(9단계: Azure AD 완료)를 완료하면 모든 서비스가 전 세계로 전환됩니다. 응용 프로그램이나 사용자는 도이치랜드 Microsoft 클라우드 끝점에 대해 테넌트의 리소스에 액세스하지 말아야 합니다. 완료가 완료되고 30일 후에 자동으로 Microsoft 클라우드 도이치랜드 Azure AD 서비스가 전환된 테넌트에 대한 끝점 액세스를 중지합니다. 인증과 같은 끝점 요청은 도이치랜드 Microsoft 클라우드 서비스에 대해 이 시점부터 실패합니다.  
+
+Microsoft Azure 테넌트가 전 세계로의 마이그레이션을 완료하는 즉시 Azure 마이그레이션 플레이북에 설명된 단계에 따라 [Azure](/azure/germany/germany-migration-main) 워크로드를 전환해야 합니다(9단계).  
 
 | Step(s) | 설명 | 영향 |
 |:-------|:-------|:-------|
 | 사용자 끝점 업데이트 | 모든 사용자가 적절한 Microsoft 전 세계 끝점을 사용하여 서비스에 액세스하도록 보장 |마이그레이션이 완료된 후 30일이 지난 후 Microsoft 클라우드 도이클랜드 끝점은 요청의 존중을 중지합니다. 클라이언트 또는 응용 프로그램 트래픽이 실패합니다.  |
 | Azure AD 응용 프로그램 끝점 업데이트 | 응용 프로그램의 인증, Azure Active Directory(Azure AD) Graph 및 MS Graph 끝점을 Microsoft Worldwide 서비스의 끝점으로 업데이트해야 합니다. | 마이그레이션이 완료된 후 30일이 지난 후 Microsoft 클라우드 도이클랜드 끝점은 요청의 존중을 중지합니다. 클라이언트 또는 응용 프로그램 트래픽이 실패합니다. |
+| Azure Workloads 마이그레이션 | Azure 서비스 고객은 Azure 서비스에 대한 새 전 세계 구독을 프로비전하고 Azure 마이그레이션 플레이북당 [마이그레이션을 실행해야 합니다.](/azure/germany/germany-migration-main) | 전 세계 서비스로 완전히 전환하면(10단계) 고객은 더 이상 Microsoft 클라우드 도이치랜드 Azure 포털에 있는 Azure 워크로드에 액세스할 수 없습니다. |
 ||||
 
 ### <a name="azure-ad-connect"></a>Azure AD Connect

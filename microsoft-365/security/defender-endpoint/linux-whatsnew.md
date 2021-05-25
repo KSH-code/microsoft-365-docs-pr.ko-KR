@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 21eaf1c0e0d3f61bb5798c8a4de6fe8f97ce4a0b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 0adcecefc19c681ef68498a3e7c375913d85985d
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538798"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651131"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-linux"></a>Linux의 끝점용 Microsoft Defender의 새로운
 
@@ -31,6 +31,10 @@ ms.locfileid: "52538798"
 
 ## <a name="1012964-30121042129640"></a>101.29.64 (30.121042.12964.0)
 
+- 이 버전부터 명령줄 클라이언트를 통해 트리거된 요청 시 바이러스 백신 검사 중에 감지된 위협이 자동으로 수정됩니다. 사용자 인터페이스를 통해 트리거된 검사 중에 검색된 위협에는 여전히 수동 작업이 필요 합니다.
+- `mdatp diagnostic real-time-protection-statistics` 이제 다음 두 가지 추가 스위치를 지원합니다.
+  - `--sort`: 검색된 총 파일 수를 통해 출력의 내선 번호를 정렬합니다.
+  - `--top N`: 상위 N 결과를 표시하고(또한 지정한 `--sort` 경우만 작동)
 - 버그 수정을 & 성능 개선
 
 ## <a name="1012572-30121022125630"></a>101.25.72 (30.121022.12563.0)

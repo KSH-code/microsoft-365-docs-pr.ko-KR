@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b9bbe058042a49586e8515fde85371b1487e8d25
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 6a34269c414f59d40c9160d5728159ed9cddf976
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297131"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651355"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>Defender에서 경고 Microsoft 365 조사
 
@@ -72,14 +72,12 @@ Endpoint용 Microsoft Defender, Microsoft Defender for Office 365 및 Microsoft 
 
 경고 페이지는 다음 섹션으로 구성됩니다. 
 
-- 경고 스토리
-- 수행된 작업(영향을 미치는 자산 포함)
-- 관련 이벤트
+- 경고 스토리 - 이 경고와 관련된 이벤트 및 경고의 체인을 일련 순서로 표시
 - 요약 세부 정보
 
 :::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="보안 센터에서 경고의 세부 정보 Microsoft 365 예":::
 
-경고 페이지 전체에서 엔터티 옆에 있는 타원(**...**)을 선택하여 특정 자산 페이지 열기 또는 특정 수정 단계 수행과 같은 사용 가능한 작업을 볼 수 있습니다.
+경고 페이지 전체에서 모든 엔터티 옆에 있는 타원(**...**)을 선택하여 경고 페이지를 열거나 경고를 다른 인시던트에 연결하는 등의 사용 가능한 작업을 볼 수 있습니다.
 
 ### <a name="analyze-affected-assets"></a>영향을 받는 자산 분석
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 7abc99a14ec538afea8cdbd4d8f3b4940bcccd9f
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 865aa9dc34a91be251d6f7772da5cc686f9641a4
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300088"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651319"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>Defender에서 인시던트 Microsoft 365 조사
 
@@ -86,7 +86,19 @@ Microsoft 365 Defender는 장치, 사용자 및 사서함에서 모든 관련 �
 
 :::image type="content" source="../../media/investigate-incidents/incident-alerts.png" alt-text="인시던트에 대한 경고 페이지 예":::
 
-기본적으로 경고는 시간이 지날 때 인시던트가 어떻게 재생되는지 볼 수 있도록 시간 순서대로 지정됩니다. 각 경고를 선택하면 경고의 기본 페이지로 이동하여 해당 경고에 대한 심층 분석을 진행할 수 있습니다. 
+기본적으로 경고는 시간이 지날 때 인시던트가 어떻게 재생되는지 볼 수 있도록 시간 순서대로 지정됩니다. 인시던트 내에서 경고를 선택하면 Microsoft 365 상황과 관련한 경고 정보가 표시됩니다. 
+
+경고의 이벤트, 즉 다른 트리거된 경고로 인해 현재 경고가 발생하고 파일, 사용자 및 사서함을 포함하여 공격에 관련된 모든 엔터티 및 활동을 볼 수 있습니다.
+
+다음은 예입니다.
+
+:::image type="content" source="../../media/investigate-incidents/incident-alert-example.png" alt-text="인시던트 내의 경고 세부 정보 페이지 예":::
+
+이 인시던트 경고 페이지는 다음 섹션으로 구성됩니다.
+
+- 경고 스토리 - 발생된 일에 대한 요약을 포함합니다.
+- 관련 이벤트 및 경고
+- 요약 세부 정보
 
 경고 조사에서 경고 큐 및 경고 페이지를 사용하는 [방법을 학습합니다.](investigate-alerts.md)
 
@@ -112,6 +124,9 @@ Microsoft 365 Defender는 장치, 사용자 및 사서함에서 모든 관련 �
 :::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="인시던트에 대한 사용자 페이지의 예":::
 
 사용자의 확인 표시를 선택하여 사용자 계정 위협, 노출 및 연락처 정보에 대한 세부 정보를 볼 수 있습니다. 사용자 이름을 선택하여 추가 사용자 계정 세부 정보를 볼 수 있습니다.
+
+사용자 조사에서 추가 사용자 정보를 보고 인시던트의 사용자를 관리하는 [방법을 학습합니다.](investigate-users.md)
+
 
 ## <a name="mailboxes"></a>사서함
 

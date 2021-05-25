@@ -16,15 +16,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: 관리자는 EOP(Exchange Online Protection)의 스팸 방지 정책에서 사용할 수 있는 ASF(고급 스팸 필터) 설정에 대해 배울 수 있습니다.
+description: 관리자는 EOP(스팸 방지 정책)에서 사용할 수 있는 ASF(고급 스팸 필터) 설정에 대해 Exchange Online Protection 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5ade36086d1503b89b506730b98ac7965845e86b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3639b12c0003c958681671fce6bb2b857b3931b8
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206726"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651203"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>EOP의 ASF(고급 스팸 필터) 설정
 
@@ -49,7 +49,7 @@ ms.locfileid: "51206726"
 >
 > - 이 문서에 설명된 바와 같이 메시지에 추가되는 특정 `X-CustomSpam:` X-헤더 필드입니다.
 
-다음 섹션에서는 보안 & 준수 센터 및 Exchange Online PowerShell 또는 독립 실행형 EOP[PowerShell(New-HostedContentFilterPolicy 및 Set-HostedContentFilterPolicy)의](/powershell/module/exchange/new-hostedcontentfilterpolicy) 스팸 방지 정책에서 사용할 수 있는 ASF 설정 및 옵션에 대해 설명합니다. [](/powershell/module/exchange/set-hostedcontentfilterpolicy) 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+다음 섹션에서는 보안 & 준수 센터의 스팸 방지 정책 및 Exchange Online PowerShell 또는 독립 실행형 EOP[PowerShell(New-HostedContentFilterPolicy 및 Set-HostedContentFilterPolicy)에서](/powershell/module/exchange/new-hostedcontentfilterpolicy) 사용할 수 있는 ASF 설정 및 옵션에 대해 설명합니다. [](/powershell/module/exchange/set-hostedcontentfilterpolicy) 자세한 내용은 [EOP에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 ## <a name="enable-disable-or-test-asf-settings"></a>ASF 설정 사용, 사용 안 하도록 설정 또는 테스트
 
@@ -67,7 +67,7 @@ ms.locfileid: "51206726"
 
   - **Bcc 메시지 보내기(*BccMessage*)**: 지정된 전자 메일 주소(PowerShell의 *TestModeBccToRecipients* 매개 변수 값)가 메시지의 Bcc 필드에 추가되어 추가 Bcc 받는 사람에게 메시지가 배달됩니다. 보안 & 준수 센터에서는 여러 전자 메일 주소를 세미 ;). PowerShell에서는 전자 메일 주소가 여러 개인 경우 각 주소를 각 전자 메일 주소로 구분합니다.
 
-  **참고:**
+  **참고**:
 
   - 다음 ASF 설정에는 테스트 모드를 사용할 수 없습니다.
 
@@ -80,6 +80,8 @@ ms.locfileid: "51206726"
 ## <a name="increase-spam-score-settings"></a>스팸 점수 설정 늘리기
 
 다음 ASF 설정은 검색된 메시지의 SCL(스팸 지수)을 5 또는 6으로 설정하며, 이 수준은 스팸 필터 판정 및 스팸 방지 정책의 해당 동작에 해당합니다. 
+
+<br>
 
 ****
 
@@ -95,6 +97,8 @@ ms.locfileid: "51206726"
 
 다음 ASF 설정은 검색된 메시지의 SCL을 9로 설정하며, 이 SCL은 스팸 방지 정책의 높은 지수 스팸 필터 판정 및 해당 동작에 해당합니다. 
 
+<br>
+
 ****
 
 |스팸 방지 정책 설정|설명|추가된 X-헤더|
@@ -109,5 +113,5 @@ ms.locfileid: "51206726"
 |**민감한 단어 목록 적용** <p> *MarkAsSpamSensitiveWordList*|Microsoft는 잠재적으로 공격적인 메시지와 연관된 동적이지만 편집할 수 없는 단어 목록을 유지 관리합니다. <p> 제목 또는 메시지 본문에 있는 중요한 단어 목록의 단어가 포함된 메시지는 높은 스팸 지수로 표시됩니다.|`X-CustomSpam: Sensitive word in subject/body`|
 |**SPF 레코드: 영구 실패** <p> *MarkAsSpamSpfRecordHardFail*|원본 전자 메일 도메인에 대한 DNS의 SPF(SpF Sender Policy Framework) 레코드에 지정되지 않은 IP 주소에서 보낸 메시지는 높은 스팸 지수로 표시됩니다. <p> 이 설정에는 테스트 모드를 사용할 수 없습니다.|`X-CustomSpam: SPF Record Fail`|
 |**조건부 보낸 사람 ID 필터링: 영구 실패** <p> *MarkAsSpamFromAddressAuthFail*|조건부 보낸 사람 ID 확인에 실패한 메시지는 스팸으로 표시됩니다. <p> 이 설정은 SPF 검사와 보낸 사람 ID 검사를 결합하여 보낸 사람이 포함된 메시지 헤더를 보호합니다. <p> 이 설정에는 테스트 모드를 사용할 수 없습니다.|`X-CustomSpam: SPF From Record Fail`|
-|**NDR 후방 분산** <p> *MarkAsSpamNdrBackscatter*|*후방산은* 전자 메일 메시지의 보낸 사람에 의해 무용지물 배달되지 않는 보고서(NDRs 또는 반송 메시지라고도 알려지기)입니다. 자세한 내용은 [후방산자 메시지 및 EOP 를 참조하세요.](backscatter-messages-and-eop.md) <p> 합법적인 NDRS가 배달되어 후방 스캐터가 스팸으로 표시되어 있기 때문에 다음 환경에서는 이 설정을 구성할 필요가 없습니다. <ul><li>Exchange Online 사서함이 있는 Microsoft 365 조직</li><li>EOP를 통해 아웃바운드 전자 메일을 라우팅하는 사내 전자 메일 조직 </li></ul> <p> 인바운드 전자 메일을 보호하는 독립 실행형 EOP 환경에서는 이 설정을 켜거나 끄면 다음과 같은 결과가 나타납니다. <ul><li> **On**: 합법적인 NDRS가 배달되어 후방 스캐터가 스팸으로 표시됩니다.</li><li>**Off:** 합법적인 NDRS 및 후방 스캐터는 일반 스팸 필터링을 거치게 됩니다. 대부분의 합법적인 NDRS는 원본 메시지 보낸 사람으로 배달됩니다. 일부 후방산은 스팸 지수인 것으로 표시되어 있습니다. 정의상 후방 스캐터는 스푸핑된 보낸 사람만 배달할 수 있습니다.</li></ul> <p> 이 설정에는 테스트 모드를 사용할 수 없습니다.|`X-CustomSpam: Backscatter NDR`|
+|**NDR 후방 분산** <p> *MarkAsSpamNdrBackscatter*|*후방산은* 전자 메일 메시지의 보낸 사람에 의해 무용지물 배달되지 않는 보고서(NDRs 또는 반송 메시지라고도 알려지기)입니다. 자세한 내용은 [후방산자 메시지 및 EOP 를 참조하세요.](backscatter-messages-and-eop.md) <p> 합법적인 NDRS가 배달되어 후방 스캐터가 스팸으로 표시되어 있기 때문에 다음 환경에서는 이 설정을 구성할 필요가 없습니다. <ul><li>Microsoft 365 사서함이 있는 Exchange Online 조직입니다.</li><li>EOP를 통해 아웃바운드 전자 메일을 라우팅하는 사내 전자 메일 조직 </li></ul> <p> 인바운드 전자 메일을 보호하는 독립 실행형 EOP 환경에서는 이 설정을 켜거나 끄면 다음과 같은 결과가 나타납니다. <ul><li> **On**: 합법적인 NDRS가 배달되어 후방 스캐터가 스팸으로 표시됩니다.</li><li>**Off:** 합법적인 NDRS 및 후방 스캐터는 일반 스팸 필터링을 거치게 됩니다. 대부분의 합법적인 NDRS는 원본 메시지 보낸 사람으로 배달됩니다. 일부 후방산은 스팸 지수인 것으로 표시되어 있습니다. 정의상 후방 스캐터는 스푸핑된 보낸 사람만 배달할 수 있습니다.</li></ul> <p> 이 설정에는 테스트 모드를 사용할 수 없습니다.|`X-CustomSpam: Backscatter NDR`|
 |

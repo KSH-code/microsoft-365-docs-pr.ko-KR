@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: '요약: 독일 Microsoft 클라우드(도이치클란드 Microsoft 클라우드)에서 독일 신규 데이터 센터 Office 365 서비스로 전환할 때 사전 작업입니다.'
-ms.openlocfilehash: f872a75ed11bfd53c2100f1370a4e22426437bff
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 66f23d33e9e55c432c33e9d90549d33ea42536db
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344701"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651023"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>도이클란드 Microsoft 클라우드에서 마이그레이션하기 위한 마이그레이션 전 활동
 
@@ -205,7 +205,7 @@ Office 365 통합된 타사 서비스 또는 LOB(LOB) 앱을 사용하는 경우
 Microsoft 클라우드 Azure Active Directory 및 Office 365 Microsoft Azure 동일한 Microsoft Azure ID 파티션을 사용하는 경우 Microsoft Azure 서비스의 고객 기반 마이그레이션을 준비해야 합니다.
 
 > [!NOTE]
-> Microsoft Azure 테넌트가 마이그레이션 단계 3에 도달하기 전에 Office 365 서비스 마이그레이션을 시작하지 말고 마이그레이션 8단계가 완료되기 전에 완료해야 합니다.
+> Microsoft Azure 테넌트가 마이그레이션 단계 9에 도달하기 전에 Office 365 서비스 마이그레이션이 시작되지 않을 수 있으며 마이그레이션 단계 10이 완료되기 전에 완료해야 합니다.
 
 네트워크, Office 365 및 Azure 리소스(예: 네트워킹, 계산 및 저장소)를 사용하는 고객은 리소스의 마이그레이션을 Office 365 서비스 인스턴스로 마이그레이션합니다. 이 마이그레이션은 고객의 책임입니다. 메시지 센터 게시물에 시작 신호가 표시됩니다. 마이그레이션은 서비스 환경에서 Azure AD 조직을 완료하기 Office 365 합니다. Azure 마이그레이션의 경우 Azure 마이그레이션 플레이북, Azure Germany에 대한 마이그레이션 [지침 개요를 참조하세요.](https://docs.microsoft.com/azure/germany/germany-migration-main)
 

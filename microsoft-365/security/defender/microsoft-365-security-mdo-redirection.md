@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 40d86f9f3a4896bbe788f0a9894a7e08efe3a690
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 2a4b122b3ef3a1ddaf61d8f9373bec3e721db177
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52301731"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651383"
 ---
 # <a name="redirecting-accounts-from-microsoft-defender-for-office-365-to-the-microsoft-365-security-center"></a>Microsoft Defender에서 Office 365 보안 센터로 Microsoft 365 리디렉션
 
@@ -64,13 +64,13 @@ ms.locfileid: "52301731"
 > 리디렉션을 사용하도록 설정한 후 이 설정이 적용되는 동안 활성 세션의 계정은 세션에서출되지 않습니다. 현재 세션을 종료하고 다시 로그인한 후에 Microsoft 365 보안 센터로만 라우팅됩니다.
 
 ## <a name="can-i-go-back-to-using-the-former-portal"></a>이전 포털을 사용하여 다시 돌아갈 수 있나요?
-문제가 작동하지 않는 경우 또는 Microsoft 365 보안 센터 포털을 통해 완료할 수 없는 경우 포털 피드백 옵션을 사용하여 해당 정보를 듣고 싶을 것입니다. 리디렉션에 문제가 발생하면 비공개 미리 보기를 통해 직접 PM 친구에게 연락하거나 피드백 제출 보내기 양식을 통해 알려주세요.
+문제가 작동하지 않는 경우 또는 Microsoft 365 보안 센터 포털을 통해 완료할 수 없는 경우 포털 피드백 옵션을 사용하여 해당 정보를 듣고 싶을 것입니다. 리디렉션에 문제가 발생하면 알려주세요.
 
 이전 포털로 되버리기:
 
 1. [전역 관리자로](https://security.microsoft.com/) Microsoft 365 Azure Active Directory의 보안 관리자 권한을 사용하여 보안 센터에 로그인합니다.
 
-2. 끝점 **설정**  >    >  **포털**  >  **리디렉션으로 이동합니다.**  
+2. 전자 **메일 설정**  >  **포털 리디렉션으로**  >  **& 이동합니다.**   
 
 3. 자동 리디렉션 설정을 끄기 로 **전환합니다.**
 

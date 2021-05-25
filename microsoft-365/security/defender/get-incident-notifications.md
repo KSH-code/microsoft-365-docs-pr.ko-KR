@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 8d29291c63bdc437163feecce8164089d958d71d
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 2e47b35646a1cd6e1075d80f9ed0550e8e1e819f
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52299967"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651395"
 ---
 # <a name="get-incident-notifications-by-email"></a>전자 메일로 인시던트 알림 확인
 
@@ -72,7 +72,7 @@ Defender를 설정하여 Microsoft 365 인시던트 또는 기존 인시던트�
 
 기존 규칙을 편집하려면 규칙 목록에서 해당 규칙을 선택합니다. 규칙 이름이 있는 창에서 규칙  편집을 선택하고 **기본,** 알림 설정 및 받는 사람 페이지에서 **변경합니다.**
 
-기존 규칙을 편집하려면 규칙 목록에서 해당 규칙을 선택합니다. 규칙 이름이 있는 창에서 삭제를 **선택합니다.**
+규칙을 삭제하려면 규칙 목록에서 규칙을 선택합니다. 규칙 이름이 있는 창에서 삭제를 **선택합니다.**
 
 ## <a name="see-also"></a>참고 항목
 - [인시던트 개요](incidents-overview.md)

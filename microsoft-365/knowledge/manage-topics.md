@@ -13,12 +13,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: ba8f27c90f9c84729a10f461e85b2e1441b49549
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: f2429b0ffdd4a238bc9322ae9199eebbbfd407b5
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625404"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651163"
 ---
 # <a name="manage-topics-in-the-topic-center-in-microsoft-viva-topics"></a>Microsoft Viva 항목의 항목 센터에서 항목 관리
 
@@ -119,3 +119,11 @@ Viva Topics 항목 센터에서 기술 관리자는  항목 관리 페이지를 
 게시된 항목은 편집된 항목으로, 특정 정보가 페이지를 방문하는 모든 사용자에 대해 항상 표시됩니다. 수동적으로 생성된 항목 또한 여기에 나열됩니다.
 
    ![항목 관리](../media/knowledge-management/manage-topics-new.png)
+
+## <a name="topic-count-dashboard"></a>항목 수 대시보드
+
+대시보드 보기의 이 차트를 사용하면 Viva 항목 항목 센터에서 항목 수를 볼 수 있습니다. 이 차트는 항목 수명 주기 단계당 항목 수를 보여 주며, 시간 경과에 따라 항목 수가 어떻게 추세가 났는가를 보여 주기도 합니다. 지식 관리자는 AI에서 새 항목을 검색하는 속도와 지식 관리자 또는 사용자 작업에서 항목을 확인하거나 게시하는 비율을 시각적으로 모니터링할 수 있습니다.
+
+기술 관리자는 항목 관리 페이지의 항목 목록에 표시될 수 있는  항목 수와 대시보드에 표시될 수 있는 항목의 수가 다를 수 있습니다. 이는 지식 관리자가 모든 항목에 액세스할 수 없는 경우도 있기 때문에입니다. 대시보드 보기에 표시된 개수는 사용 권한 트리밍을 적용하기 전에 계산됩니다. 
+
+   ![항목 수 대시보드 스크린샷](../media/knowledge-management/topic-count-dashboard.png)

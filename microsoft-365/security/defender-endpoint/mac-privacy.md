@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b2897766570c6ef8979a7944a687ba024e55b3ce
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2884ffc695abc1c6b4b5be9bbd7c9ad37ad05439
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934552"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651299"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-macos"></a>MacOS의 끝점용 Microsoft Defender 개인 정보
 
@@ -133,7 +133,8 @@ IT 관리자인 경우 엔터프라이즈 수준에서 이러한 컨트롤을 �
 | cloud_service.service_uri                           | 클라우드와 통신하는 데 사용되는 URI입니다. |
 | cloud_service.diagnostic_level                      | 디바이스의 진단 수준(필수, 선택 사항) |
 | cloud_service.automatic_sample_submission           | 자동 샘플 제출이 켜져 있는지 여부입니다. |
-| edr.early_preview                                   | 디바이스에서 EDR 초기 미리 보기 기능을 실행해야 하는지 여부입니다. |
+| cloud_service.automatic_definition_update_enabled   | 자동 정의 업데이트가 켜져 있는지 여부입니다. |
+| edr.early_preview                                   | 디바이스가 초기 미리 보기 EDR 실행해야 하는지 여부입니다. |
 | edr.group_id                                        | 검색 및 응답 구성 요소에서 사용하는 그룹 식별자입니다. |
 | edr.tags                                            | 사용자 정의 태그. |
 | 기능을 제공합니다. \[ 선택적 기능 이름\]                  | 미리 보기 기능 목록과 해당 기능의 사용 여부 |
@@ -165,7 +166,7 @@ IT 관리자인 경우 엔터프라이즈 수준에서 이러한 컨트롤을 �
 | ------------------------------ | ----------- |
 | v1_crash_count                 | 클라이언트 컴퓨터의 V1 엔진 프로세스가 매시간 중단된 횟수  |
 | v2_crash_count                 | 클라이언트 컴퓨터의 V2 엔진 프로세스가 매시간 중단된 횟수  |
-| EDR_crash_count                | 클라이언트 컴퓨터의 EDR 프로세스가 매시간 중단된 횟수        |
+| EDR_crash_count                | 클라이언트 EDR 프로세스가 중단된 횟수        |
 
 **커널 확장 통계**
 
@@ -219,6 +220,7 @@ IT 관리자인 경우 엔터프라이즈 수준에서 이러한 컨트롤을 �
 | antivirus_engine.scan_cache_maximum                | 제품 캐시의 크기입니다. |
 | antivirus_engine.maximum_scan_threads              | 검색에 사용되는 최대 스레드 수입니다. |
 | antivirus_engine.threat_restoration_exclusion_time | 파일에서 복원된 파일을 다시 검색하기 전의 시간입니다. |
+| antivirus_engine.threat_type_settings              | 제품에서 다양한 위협 유형을 처리하는 방법에 대한 구성입니다. |
 | filesystem_scanner.full_scan_directory             | 전체 검사 디렉터리. |
 | filesystem_scanner.quick_scan_directories          | 빠른 검사에 사용되는렉터리 목록입니다. |
 | edr.latency_mode                                   | 검색 및 응답 구성 요소에서 사용되는 대기 시간 모드입니다. |

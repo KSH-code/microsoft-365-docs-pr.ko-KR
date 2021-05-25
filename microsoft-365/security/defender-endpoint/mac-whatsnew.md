@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a1e07ac2e2e544605f04e9090177004db64d2f04
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: d01e1d847a8932d95e645a89eff15cf0793491e5
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995000"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651275"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Mac의 끝점용 Microsoft Defender의 새로운
 
@@ -37,6 +37,14 @@ ms.locfileid: "51995000"
 
 > [!IMPORTANT]
 > macOS 11(Big Sur)에서는 끝점용 Microsoft Defender에 추가 구성 프로필이 필요합니다. 이전 버전의 macOS에서 업그레이드하는 기존 고객인 경우 이 페이지에 나열된 추가 구성 프로필을 [배포해야 합니다.](mac-sysext-policies.md)
+
+## <a name="1012964-20121042129640"></a>101.29.64 (20.121042.12964.0)
+
+- 이 버전부터 명령줄 클라이언트를 통해 트리거된 요청 시 바이러스 백신 검사 중에 감지된 위협이 자동으로 수정됩니다. 사용자 인터페이스를 통해 트리거된 검사 중에 검색된 위협에는 여전히 수동 작업이 필요 합니다.
+- `mdatp diagnostic real-time-protection-statistics` 이제 다음 두 가지 추가 스위치를 지원합니다.
+  - `--sort`: 검색된 총 파일 수를 통해 출력의 내선 번호를 정렬합니다.
+  - `--top N`: 상위 N 결과를 표시하고(또한 지정한 `--sort` 경우만 작동)
+- YARN을 사용하는 경우의 성능 향상(특히& 수정
 
 ## <a name="1012750-20121022127500"></a>101.27.50 (20.121022.12750.0)
 
@@ -114,7 +122,7 @@ ms.locfileid: "51995000"
 
 ## <a name="1010723"></a>101.07.23
 
-- 수동 모드 및 EDR 그룹 ID의 상태를 확인할 수 있는 새 필드가 출력에 `mdatp --health` 추가되었습니다.
+- 수동 모드 및 수동 모드의 상태 확인을 위해 출력에 새 필드가 `mdatp --health` EDR 추가되었습니다.
 
   > [!NOTE]
   > `mdatp --health` 는 향후 제품 업데이트에서 `mdatp health` 대체될 예정입니다.
@@ -178,7 +186,7 @@ ms.locfileid: "51995000"
 ## <a name="1008691"></a>100.86.91
 
 > [!CAUTION]
-> To ensure the most complete protection for your macOS devices and in alignment with Apple stopping delivery of macOS native security updates to OS versions older than [current – 2], MDATP for Mac deployment and updates will no longer be supported on macOS Sierra [10.12]. Mac용 MDATP 업데이트 및 향상된 기능은 카탈로나[10.15], Mojave [10.14] 및 High Sierra [10.13]을 실행하는 장치에 제공됩니다. 
+> To ensure the most complete protection for your macOS devices and in alignment with Apple stopping delivery of macOS native security updates to OS versions older than [current – 2], MDATP for Mac deployment and updates will no longer be supported on macOS Sierra [10.12]. MDATP 업데이트 및 향상된 기능은 카탈로니아어[10.15], Mojave [10.14] 및 High Sierra [10.13]을 실행하는 장치에 제공됩니다. 
 >
 > If you already have MDATP for Mac deployed to your Sierra [10.12] devices, please upgrade to the latest macOS version to eliminate risks of losing protection.
 
@@ -231,6 +239,6 @@ ms.locfileid: "51995000"
   > 이 동의를 부여하는 메커니즘은 끝점용 Microsoft Defender를 배포한 방법에 따라 달라 습니다.
   >
   > - 수동 배포에 대한 자세한 내용은 수동 배포 항목의 [업데이트된 지침을 참조하세요.](mac-install-manually.md#how-to-allow-full-disk-access)
-  > - 관리되는 배포에 대한 자세한 내용은 [JAMF 기반](mac-install-with-jamf.md) 배포 및 [Microsoft Intune](mac-install-with-intune.md#create-system-configuration-profiles) 기반 배포 항목의 업데이트된 지침을 참조하세요.
+  > - 관리되는 배포에 대한 자세한 내용은 [JAMF](mac-install-with-jamf.md) 기반 배포 및 Microsoft Intune 배포 항목의 업데이트된 [지침을 참조하세요.](mac-install-with-intune.md#create-system-configuration-profiles)
 
 - 버그 수정을 & 성능 개선

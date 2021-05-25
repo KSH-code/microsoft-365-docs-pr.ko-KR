@@ -12,17 +12,19 @@ ms.collection: m365solution-managecontracts
 search.appverid: ''
 localization_priority: None
 ROBOTS: ''
-description: Syntex, Microsoft 365 및 SharePoint 솔루션을 사용하여 계약을 Microsoft Teams 방법을 Power Automate.
-ms.openlocfilehash: 18866425cb331b01525dd488a6688608a3d1e559
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: Syntex, Microsoft 365 목록, SharePoint 및 SharePoint 솔루션을 사용하여 계약을 관리하는 Microsoft Teams 방법을 Power Automate.
+ms.openlocfilehash: 219ab13eb5787bef566ede0c5dc856da29d96837
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636221"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651287"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>관리 솔루션을 사용하여 Microsoft 365 관리
 
 이 문서에서는 조직의 Syntex 및 구성 요소를 사용하여 조직에 SharePoint 관리 솔루션을 만드는 Microsoft 365. 또한 고유한 비즈니스 요구에 맞는 솔루션을 계획하고 만드는 데 도움이 되는 프레임워크를 제공합니다. 이 솔루션이 비즈니스 요구에 전체적으로 적합하지 않은 경우에도 사용자 지정 계약 관리 솔루션을 만들기 위한 계획에서 솔루션의 일부를 채택할 수 있습니다.
+
+*이 콘텐츠 집합은 Microsoft의 최신 Microsoft 365 솔루션 전략 팀과 함께 Thomas Molbach가 개발한 새로운 솔루션에 대해 문서화합니다.*
 
 ## <a name="identify-the-business-problem"></a>비즈니스 문제 식별
 
