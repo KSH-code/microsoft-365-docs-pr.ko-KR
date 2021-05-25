@@ -21,12 +21,12 @@ description: Microsoft 365 관리 센터 - 이번 달에 추가된 기능에 대
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: b75c6be901dfe2bcfe9a0d8fad8fbb56eecd34d6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 964689c431b45671a92dda62ccf8a083291213a3
+ms.sourcegitcommit: ddf6c25d1ed6387d07614f7042e033bad7f406f9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535749"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52639561"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운
 
@@ -49,6 +49,24 @@ We're continuously adding new features to [the Microsoft 365 admin center,](../b
 - [SharePoint 관리 센터의 새로운](/sharepoint/what-s-new-in-admin-center)
 - [Office 업데이트](/OfficeUpdates/)
 - [릴리스 상태 Windows 방법](/windows/deployment/update/check-release-health)
+
+## <a name="may-2021"></a>2021년 5월
+
+### <a name="admin-mobile-app"></a>관리자 모바일 앱
+
+### <a name="keep-track-of-support-ticket-updates-using-the-admin-mobile-app"></a>관리 모바일 앱을 사용하여 지원 티켓 업데이트 추적
+
+테넌트에서 만든 모든 서비스 요청에 대해 이제 티켓 상태를 추적하고, 티켓 세부 정보를 보고, 메모와 첨부 파일을 추가하여 추가 정보를 & 수 있습니다. 
+
+:::image type="content" source="../media/whats-new-track-support-tickets.png" alt-text="스크린샷: 지원 티켓 업데이트 추적":::
+
+### <a name="stay-on-top-of-all-the-major-updates-to-the-app-and-your-microsoft-365-subscription"></a>앱 및 앱 구독에 대한 모든 주요 업데이트 Microsoft 365 유지 
+
+- 메시지 센터 푸시 알림을 통해 Microsoft 365 구독에 대한 모든 주요 업데이트를 계속 확인합니다(현재는 기본적으로 사용 가능). 
+
+- 새로운 기능 섹션을 사용하여 앱에서 사용할 수 있는 최신 **기능을 추적합니다.** Go to **설정**  >  **What's new?**
+
+:::image type="content" source="../media/whats-new-updates.png" alt-text="스크린샷: 주요 업데이트 및 기능 추적":::
 
 ## <a name="april-2021"></a>2021년 4월
 
