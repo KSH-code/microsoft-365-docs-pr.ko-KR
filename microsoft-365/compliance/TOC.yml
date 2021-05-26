@@ -798,7 +798,7 @@
           href: detailed-properties-in-the-office-365-audit-log.md
         - name: '감사 로그 레코드 내보내기, 구성 및 보기'
           href: export-view-audit-log-records.md
-        - name: 감사 로그 검색 켜기 또는 끄기
+        - name: 감사 켜기 또는 끄기
           href: turn-audit-log-search-on-or-off.md
         - name: 감사 로그를 사용하여 일반적인 문제 조사
           href: auditing-troubleshooting-scenarios.md
