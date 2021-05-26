@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 관리자가 Microsoft 365 관리 센터에서 비즈니스, 학교 또는 비영리 단체에 대한 암호 만료 정책을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: 5469d4dcd75bee2e6f8a188aa6f50d18ce6e06c4
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7f12918211718b91313c0c89b11eaeb0a8cc3181
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537490"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635825"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>조직의 암호 만료 정책 설정
 
@@ -63,7 +63,7 @@ ms.locfileid: "52537490"
   
 ## <a name="important-things-you-need-to-know-about-the-password-expiration-feature"></a>암호 만료 기능에 대해 알아야 할 중요 사항
   
-- Outlook 앱만 사용하는 사용자는 Microsoft 365 암호가 캐시에서 만료될 때까지 해당 암호를 강제로 재설정할 수 없습니다. 이는 실제 만료 날짜의 몇 일 이후일 수 있습니다. 관리자 수준에서는 이 문제의 해결 방법이 없습니다.
+Outlook 앱만 사용하는 사용자는 Microsoft 365 암호가 캐시에서 만료될 때까지 해당 암호를 강제로 재설정할 수 없습니다. 이는 실제 만료 날짜의 몇 일 이후일 수 있습니다. 관리자 수준에서는 이 문제의 해결 방법이 없습니다.
 
 ## <a name="prevent-last-password-from-being-used-again"></a>마지막 암호가 다시 사용되지 않도록 방지
 
@@ -89,6 +89,5 @@ Set-MsolPasswordPolicy cmdlet은 지정된 도메인 또는 테넌트의 암호 
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사용자가 암호를 직접 재설정할 수 있도록 허용](../add-users/let-users-reset-passwords.md)(문서)
-
+[사용자가 암호를 직접 재설정할 수 있도록 허용](../add-users/let-users-reset-passwords.md)(문서)\
 [암호 다시 설정](../add-users/reset-passwords.md)(문서)

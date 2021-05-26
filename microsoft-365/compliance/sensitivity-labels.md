@@ -22,12 +22,12 @@ description: 중요한 콘텐츠를 분류하고 보호하기 위해 Microsoft I
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: bd3cc0a71fab9f2ceb6d3219a371bb4d5c030744
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 171f449a8b73ff42113358d50dbe8bde909f5d4d
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297251"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625188"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -209,7 +209,7 @@ Microsoft Information Protection 솔루션의 민감도 레이블을 사용하�
 
 사용자 및 그룹에 새 민감도 레이블을 할당하는 레이블 정책을 만들면 사용자는 Office 앱에서 해당 레이블을 볼 수 있습니다. 조직 전체에 걸쳐 최신 변경 내용이 복제될 때까지 최대 24시간 이 소요됩니다.
 
-생성 및 게시가 가능한 민감도 레이블의 수에는 제한이 없지만 한 가지 예외적인 경우가 있습니다. 레이블에 암호화가 적용되는 경우 최대 레이블의 수는 500개입니다. 하지만 최상의 방식은 관리자 오버헤드를 낮추고 사용자의 복잡성을 줄이기 위해 레이블의 수를 최소로 유지하는 것입니다. 사용자에게 6개 이상의 주 레이블 또는 주 레이블당 6개 이상의 하위 레이블이 있는 경우 효과가 확연하게 감소하는 것이 실제 배포 결과를 통해 입증되었습니다.
+만들고 게시할 수 있는 민감도 레이블의 수에는 제한이 없지만 한 가지 예외가 있습니다. 레이블에서 사용자와 사용 권한을 지정하는 암호화를 적용하는 경우, 이 구성에서 지원하는 레이블 최대 개수는 500개입니다. 하지만 최상의 방식은 관리자 오버헤드를 낮추고 사용자의 복잡성을 줄이기 위해 레이블의 수를 최소로 유지하는 것입니다. 사용자에게 6개 이상의 주 레이블 또는 주 레이블당 6개 이상의 하위 레이블이 있는 경우 효과가 확연하게 감소하는 것이 실제 배포 결과를 통해 입증되었습니다.
 
 ### <a name="label-policy-priority-order-matters"></a>레이블 정책 우선 순위(순서 중요)
 
@@ -253,7 +253,7 @@ Azure Information Protection을 처음 접하거나 레이블을 최근에 마�
 > [!NOTE]
 > Azure Portal의 Azure Information Protection 레이블에 대한 레이블 관리는 **2021년 3월 31일** 부로 더 이상 사용되지 않습니다. 공식 [사용 중단 통지](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179)에서 자세히 알아봅니다.
 
-테넌트가 아직 [통합 레이블 지정 플랫폼](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)에 있지 않은 경우 먼저 통합 레이블을 활성화해야 민감도 레이블을 사용할 수 있습니다. 자세한 내용은 [Azure Information Protection 레이블을 통합 민감도 레이블로 마이그레이션하는 방법](/azure/information-protection/configure-policy-migrate-labels)을 참조하세요. 
+테넌트가 아직 [통합 레이블 지정 플랫폼](/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)에 있지 않은 경우 먼저 통합 레이블을 활성화해야 민감도 레이블을 사용할 수 있습니다. 자세한 내용은 [Azure Information Protection 레이블을 통합 민감도 레이블로 마이그레이션하는 방법](/azure/information-protection/configure-policy-migrate-labels)을 참조하세요. 
 
 ## <a name="sensitivity-labels-and-the-microsoft-information-protection-sdk"></a>민감도 레이블 및 Microsoft 정보 보호 SDK
 

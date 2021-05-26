@@ -22,16 +22,16 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: 서비스 관리자와 같은 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
-ms.openlocfilehash: 7ba8b6fd483901fde31a9bceca189797b4f2e16d
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 3163b7a4037a923122d2da170ac5ea9e8c2d0185
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536013"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634199"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 
-Microsoft 365 또는 Office 365 구독은 Microsoft 365 관리 센터를 사용하여 조직의 사용자에게 할당할 수 있는 관리자 역할의 집합과 함께 제공됩니다. 각 관리자 역할은 공통 비즈니스 기능에 매핑되며 조직의 직원에게 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
+Microsoft 365 또는 Office 365 구독은 Microsoft 365 관리 센터를 사용해 조직의 사용자에게 할당할 수 있는 관리자 역할 집합과 함께 제공됩니다. 각 관리자 역할은 일반적인 비즈니스 기능에 해당하며, 조직의 구성원에게 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다.
 
 Microsoft 365 관리 센터를 통해 Azure AD 역할과 Microsoft Intune 역할을 관리할 수 있습니다. 그러나 해당 역할은 Azure AD 포털과 Intune 관리 센터에서 사용할 수 있는 역할의 하위 집합입니다.
 
@@ -83,7 +83,7 @@ Microsoft 365 관리 센터에서 **역할** 로 이동한 다음 아무 역할�
 
 ## <a name="delegated-administration-for-microsoft-partners"></a>Microsoft 파트너를 위한 위임 된 관리
 
-Microsoft 파트너와 함께 업무를 진행하는 경우에는 파트너에게 관리자 역할을 할당할 수 있습니다. 파트너 또한 사용자 회사 또는 파트너 회사의 사용자들에게 관리자 역할을 할당할 수 있습니다. 예를 들어 파트너가 사용자를 위해 온라인 조직을 설정하고 관리하는 경우 이 기능이 필요할 수 있습니다.
+Microsoft 파트너와 함께 업무를 진행하는 경우에는 파트너에게 관리자 역할을 할당할 수 있습니다. 파트너 또한 사용자 회사 또는 파트너 회사의 사용자들에게 관리자 역할을 할당할 수 있습니다. 예를 들어 파트너가 대신 사용자의 온라인 조직을 설정하고 관리하는 경우 이 기능이 필요할 수 있습니다.
   
 파트너는 다음과 같은 역할을 할당할 수 있습니다. 
   
@@ -95,10 +95,6 @@ Microsoft 파트너와 함께 업무를 진행하는 경우에는 파트너에�
   
 ## <a name="related-content"></a>관련 콘텐츠
 
-[관리자 역할 할당](assign-admin-roles.md)(문서)
-
-[Microsoft 365 관리 센터의 Azure AD](azure-ad-roles-in-the-mac.md)(문서)
-
-[Exchange Online 관리자 역할](about-exchange-online-admin-role.md)(문서)
-  
-[Microsoft 365 관리 센터의 활동](../activity-reports/activity-reports.md)(문서)
+[관리자 역할 할당](assign-admin-roles.md)(문서)\
+[Microsoft 365 관리 센터의 Azure Active Directory 역할](azure-ad-roles-in-the-mac.md)(문서)\
+[Exchange Online 관리자 역할](about-exchange-online-admin-role.md)(문서)\ [Microsoft 365 관리 센터의 활동 보고서](../activity-reports/activity-reports.md)(문서)

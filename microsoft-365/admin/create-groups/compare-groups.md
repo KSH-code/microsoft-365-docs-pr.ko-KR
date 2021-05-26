@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Microsoft 365 그룹 구성원은 대화, 파일, 일정 이벤트, Stream 및 플래너에 대한 그룹 전자 메일 및 공유 작업 영역을 가져옵니다.
-ms.openlocfilehash: d8bf2e20b428063b99d540896bac3e6e1ae59481
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 3e4fa36520247179b653f799f7b2a061b9d9f4a9
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535869"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635597"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
@@ -93,6 +93,5 @@ Microsoft 365 그룹은 iOS용 Outlook 및 Android용 Outlook과 같은 모바�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[Microsoft 365 그룹에 대한 자세한 정보](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)(기사)
-
+[Microsoft 365 그룹에 대한 자세한 정보](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)(기사)\
 [Outlook에서 배포 목록을 그룹으로 업그레이드해야 하는 이유](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)(기사)

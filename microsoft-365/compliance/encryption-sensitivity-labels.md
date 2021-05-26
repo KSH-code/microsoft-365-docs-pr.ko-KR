@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 액세스 및 사용을 제한하여 데이터를 보호하는 암호화를 위한 민감도 레이블을 구성합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 804cfa9da39b5dc9b9dffdcd68fb196e8676f9af
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: f6fff2bc595e9317ef037929a8a6828935b15bbf
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52532089"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624684"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한
 
@@ -427,6 +427,10 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 - Azure Information Protection에서 보호 활성화
     
     민감도 레이블이 암호화를 적용하려면 테넌트에 대해 Azure Information Protection의 보호 서비스(Azure 권한 관리)가 활성화되어 있어야 합니다. 새 테넌트에서는 이것이 기본 설정이지만 서비스를 수동으로 활성화해야 할 수도 있습니다. 자세한 내용은 [Azure Information Protection에서 보호 서비스 활성화](/azure/information-protection/activate-service)를 참조하세요.
+
+- 네트워크 요구 사항을 확인합니다.
+    
+    방화벽 등 네트워크 장치를 일부 변경해야 할 수 있습니다. 세부 정보는 Azure Information Protection 설명서의 [방화벽 및 네트워크 인프라](/azure/information-protection/requirements#firewalls-and-network-infrastructure)에서 확인하세요.
 
 - Azure Information Protection에 대한 Exchange 구성
     

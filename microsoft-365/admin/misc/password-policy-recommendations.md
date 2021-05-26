@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: 암호 공격에 대한 조직의 보안을 강화하고 공통 암호를 금지하고 위험 기반 다단계 인증을 사용하세요.
-ms.openlocfilehash: f2b9b9188a6f05bbcdae45dcc22d401e1eb6f1a8
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: f42905c6bf7769e558581338fd122f26d530423e
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593912"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635977"
 ---
 # <a name="password-policy-recommendations"></a>권장 암호 정책
 
@@ -128,7 +128,9 @@ Microsoft 365 암호에 대한 자세한 내용은 다음을 참조 하세요.
 
 위험 기반 다단계 인증을 사용하면 시스템에서 의심스러운 작업이 감지되면 사용자가 합법적 계정 소유자인지 확인하도록 요구할 수 있습니다. 
   
-## <a name="want-to-know-more-recommended-reading"></a>추가 정보 추천 읽기
+## <a name="next-steps"></a>다음 단계
+
+암호 관리에 대해 더 알고 싶으세요? 다음 문서를 읽어보세요.
 
 - [강력한 웹 암호는 어떤 작업을 수행하나요?](https://go.microsoft.com/fwlink/p/?linkid=861008)
 
@@ -144,10 +146,7 @@ Microsoft 365 암호에 대한 자세한 내용은 다음을 참조 하세요.
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[암호 다시 설정](../add-users/reset-passwords.md) (문서)
-
-[개별 사용자의 암호를 만료 기한 없음으로 설정](../add-users/set-password-to-never-expire.md) (문서)
-
-[사용자가 암호를 직접 재설정할 수 있도록 허용](../add-users/let-users-reset-passwords.md) (문서)
-
+[암호 다시 설정](../add-users/reset-passwords.md)(문서)\
+[개별 사용자의 암호를 만료 기한 없음으로 설정](../add-users/set-password-to-never-expire.md)(문서)\
+[사용자가 암호를 직접 재설정할 수 있도록 허용](../add-users/let-users-reset-passwords.md)(문서)\
 [사용자 암호 다시 전송 - 관리자 도움말](../add-users/resend-user-password.md) (문서)

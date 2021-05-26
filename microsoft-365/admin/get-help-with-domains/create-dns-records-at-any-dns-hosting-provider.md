@@ -20,12 +20,12 @@ description: 도메인을 확인하고 등록 기관 계정에서 DNS 레코드�
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: facdd460bd3197e39dd6d4d9f4a5450dc972bf03
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 62b6793dd97e146b703c82e0ba23f4d7414025b6
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537562"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623980"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>DNS 레코드를 추가하여 도메인 연결하기
 
@@ -169,8 +169,6 @@ SPF는 스푸핑 차단을 돕지만 SPF가 방어할 수 없는 스푸핑 기�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[모든 도메인 등록 기관에서 Microsoft 365를 설정하도록 네임 서버 변경 ](change-nameservers-at-any-domain-registrar.md)(문서)
-
-[도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 수정](find-and-fix-issues.md)(문서)
-
+[모든 도메인 등록 기관에서 Microsoft 365를 설정하도록 네임 서버 변경](change-nameservers-at-any-domain-registrar.md)(문서)\
+[도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 수정](find-and-fix-issues.md)(문서)\
 [도메인 관리](index.yml)(링크 페이지)

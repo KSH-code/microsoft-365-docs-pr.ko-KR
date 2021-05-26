@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: '**사서함을 찾을 수 없음** 오류는 웹에서 Outlook에 연결하는 데 사용한 계정에 Exchange Online 라이선스가 없음을 의미합니다.'
-ms.openlocfilehash: 5ae850da3b9a4022c01f8bf4469f5e86f44b10bd
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: cb82f917adca8f1fc183fd9516321a524c63eb69
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537442"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635789"
 ---
 # <a name="getting-a-mailbox-not-found-error-in-outlook-on-the-web"></a>웹용 Outlook에서 사서함을 찾을 수 없음 오류가 발생하나요?
 
@@ -37,8 +37,6 @@ ms.locfileid: "52537442"
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[사용자의 다른 전자 메일 별칭 추가](../email/add-another-email-alias-for-a-user.md) (문서)
-
-[Microsoft 365에서 전자 메일 전달 구성](../email/configure-email-forwarding.md)(문서)
-
+[사용자의 다른 전자 메일 별칭 추가](../email/add-another-email-alias-for-a-user.md)(문서)\
+[Microsoft 365에서 전자 메일 전달 구성](../email/configure-email-forwarding.md)(문서)\
 [공유 사서함 만들기](../email/create-a-shared-mailbox.md)(문서)

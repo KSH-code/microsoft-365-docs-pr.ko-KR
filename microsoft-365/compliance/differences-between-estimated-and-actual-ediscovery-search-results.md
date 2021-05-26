@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: 예상 검색 결과 및 실제 검색 결과가 각기 다른 이유에 대해 이해합니다. 검색에서 eDiscovery 도구를 사용하여 Office 365.
-ms.openlocfilehash: d530b083b2353b66ee5d4fd4bb72b175aef28be8
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 17a4c2eea9833afa2112fa8ab918dcda074eeb36
+ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52532120"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52653514"
 ---
 # <a name="differences-between-estimated-and-actual-ediscovery-search-results"></a>예상 및 실제 eDiscovery 검색 결과 차이
 
@@ -81,7 +81,7 @@ eDiscovery 검색을 실행하면 사용하는 도구는 검색 조건과 일치
 
 - **내보낼 때 Exchange 항목을 중복 제거합니다.** Exchange 항목의 경우 중복 제거를 통해 내보낼 항목 수가 줄어듭됩니다. 검색 결과를 내보낼 때 중복을 제거하는 옵션이 있습니다. Exchange 메시지의 경우 여러 사서함에서 해당 메시지를 찾을 수 있는 경우에도 하나의 메시지 인스턴스만 내보낼 수 있습니다. 예상 검색 결과에는 메시지의 모든 인스턴스가 포함됩니다. 따라서 검색 결과를 내보낼 때 중복 제거 옵션을 선택하는 경우 내보낼 실제 항목 수가 예상 항목 수보다 훨씬 적을 수 있습니다.
 
-    중복 제거 옵션을 선택하는 경우 모든 Exchange 항목이 단일 PST 파일로 내보내지며 원본 사서함의 폴더 구조가 보존되지 않습니다. 내보낼 PST 파일에는 전자 메일 항목만 포함되어 있습니다. 그러나 검색 결과 보고서에는 메시지가 있는 원본 사서함을 식별하는 내보낼 각 메시지에 대한 항목이 포함되어 있습니다. 이렇게 하면 중복 메시지가 포함된 모든 사서함을 식별할 수 있습니다. 중복 제거를 사용하도록 설정하지 않으면 별도의 PST 파일이 검색에 포함된 각 사서함으로 내보내집니다.
+검색 결과 보고서(Results.csv 파일)에는 각 중복 메시지에 대한 항목이 포함되어 있으며 중복 메시지가 있는 원본 사서함을 식별합니다. 이렇게 하면 중복 메시지가 포함된 모든 사서함을 식별할 수 있습니다.
 
 > [!NOTE]
 > 검색 결과를 내보내거나  보고서를 다운로드할 때 암호화되거나 인식할 수 없는 형식이 있는 항목 포함 옵션을 선택하지 않은 경우 인덱스 오류 보고서가 다운로드되지만 항목이 없습니다. 이는 인덱싱 오류가 존재하지 않는다는 의미는 아니며, 이는 인덱서되지 않은 항목이 내보내기에 포함되지 않음을 의미하기만 합니다.

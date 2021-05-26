@@ -23,18 +23,18 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Microsoft 365 전역 관리자가 이름이 변경될 때 사용자의 전자 메일 주소와 표시 이름을 변경하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 2614e0ae53e5ff1cf08ded384e7470cc5967e682
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 1aa3fd3b67333937e64aab825e64533ccb09eea9
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535989"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634223"
 ---
 # <a name="change-a-user-name-and-email-address"></a>사용자 이름 및 전자 메일 주소 변경
 
 예를 들어 사용자가 결혼하여 성이 바뀌는 경우 해당 사용자의 전자 메일 주소 및 표시 이름을 변경해야 할 수 있습니다.
 
-사용자의 전자 메일 주소를 변경하는 방법에 대한 짧은 비디오를 시청하세요. <br><br>
+## <a name="watch-change-a-users-name-or-email-address"></a>시청: 사용자 이름 또는 전자 메일 주소 변경
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SJuc] 
 
@@ -253,8 +253,6 @@ Windows Server 2003 및 이전 버전의 Active Directory에서 사용자 이름
   
 ## <a name="related-content"></a>관련 콘텐츠
 
-[관리자: 한 명 이상의 사용자에 대한 암호 재설정](reset-passwords.md)(문서)
-  
-[사용자에게 다른 전자 메일 주소 추가](../email/add-another-email-alias-for-a-user.md)(문서)
-
+[관리자: 한 명 이상의 사용자에 대한 암호 재설정](reset-passwords.md)(문서)\
+[사용자에게 다른 전자 메일 주소 추가](../email/add-another-email-alias-for-a-user.md)(문서)\
 [공유 사서함 만들기](../email/create-a-shared-mailbox.md)(문서)

@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: 도메인 이름 시스템은 컴퓨터 호스트 이름을 IP 주소에 매핑하며 DNS 및 도메인 등록 기관의 기본 기능을 이해하면 도메인을 관리하는 데 도움이 됩니다.
-ms.openlocfilehash: f9982ad55652eac9faf33986bb1481e29897a48e
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 19fc444c056bbf3e1ea1f601d20a9b9cbd75bec8
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582947"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635429"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
 
@@ -38,6 +38,8 @@ ms.locfileid: "52582947"
 ::: moniker range="o365-worldwide"
 
 도메인 이름(예: contoso.com)은 전 세계 도메인 등록 기관 및 데이터베이스 시스템을 사용하여 관리됩니다. DNS(Domain Name System)는 사람이 읽을 수 있는 컴퓨터 호스트 이름과 네트워킹 장비에서 사용하는 IP 주소 간의 매핑을 제공합니다. DNS 및 도메인 등록 기관 기본 사항을 이해하면 도메인을 관리하는 데 도움이 될 수 있습니다.
+
+## <a name="watch-domains--dns-an-overview"></a>시청: 도메인 및 DNS: 개요
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c005f2a4-90ad-46fe-b1ab-90f41f2a9d53?autoplay=false]
   
@@ -46,6 +48,8 @@ ms.locfileid: "52582947"
 ::: moniker range="o365-germany"
 
 도메인 이름(예: contoso.com)은 전 세계 도메인 등록 기관 및 데이터베이스 시스템을 사용하여 관리됩니다. DNS(Domain Name System)는 사람이 읽을 수 있는 컴퓨터 호스트 이름과 네트워킹 장비에서 사용하는 IP 주소 간의 매핑을 제공합니다. DNS 및 도메인 등록 기관 기본 사항을 이해하면 도메인을 관리하는 데 도움이 될 수 있습니다.
+
+## <a name="watch-domains--dns-an-overview"></a>시청: 도메인 및 DNS: 개요
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c005f2a4-90ad-46fe-b1ab-90f41f2a9d53?autoplay=false]
   
@@ -192,7 +196,7 @@ Microsoft 365에서 도메인을 사용하려면 많은 DNS 레코드가 필요�
   
 또는 배포를 계획하고 있는 경우 Microsoft 365에 필요한 모든 DNS 레코드, 해당 기능, 예시 값 목록을 검토해 볼 수 있습니다. [Microsoft 365에 대한 외부 Domain Name System 레코드](../../enterprise/external-domain-name-system-records.md)를 참조하세요.
   
-## <a name="how-can-i-learn-more"></a>자세한 내용을 알고 싶은 경우
+## <a name="next-steps"></a>다음 단계
 
 다음 중 하나를 확인하세요. 
   
@@ -201,8 +205,6 @@ Microsoft 365에서 도메인을 사용하려면 많은 DNS 레코드가 필요�
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[도메인 FAQ](../setup/domains-faq.yml) (문서)
-
-[도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 수정](find-and-fix-issues.md)(문서)
-
+[도메인 FAQ](../setup/domains-faq.yml)(문서)\
+[도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 수정](find-and-fix-issues.md)(문서)\
 [도메인 관리](index.yml)(링크 페이지)

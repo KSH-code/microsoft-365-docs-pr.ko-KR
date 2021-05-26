@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
-description: '조직의 모든 사용자나 특정 사용자에 대해 중요 받은 편지함을 구성하는 방법을 알아봅니다. '
-ms.openlocfilehash: 62a38f911e4e1b878af6489f096f17644e070978
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+description: 비즈니스 내 모든 사용자의 전자 메일 설정 구성 책임을 맡고 있다면 이 문서에서 사용자의 중요 받은 편지함 구성 방법에 대해 알아보세요.
+ms.openlocfilehash: ddd0886988072139a199bfc3f6e8adbbf25ad58b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644515"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623704"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>조직의 모든 사용자에 대해 중요 받은 편지함 구성
 
@@ -169,7 +169,7 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
   
 ### <a name="is-the-focused-inbox-feature-only-available-for-office-2016-clients"></a>중요 받은 편지함은 Office 2016 클라이언트에서만 사용할 수 있는 기능인가요?
 
-예, Office 2016을 이용하는 사용자만 영향을 받습니다. 이 기능은 Outlook 2013 또는 이전 버전에는 적용되지 않습니다.
+예, Office 2016을 사용하는 사용자만 영향을 받습니다. 이 기능은 Outlook 2013 또는 이전 버전에는 적용되지 않습니다.
   
 ### <a name="how-long-does-it-take-for-focused-inbox-changes-to-take-place-in-outlook"></a>Outlook에서 중요 받은 편지함 변경 사항을 적용하려면 시간이 얼마나 걸리나요?
 
@@ -207,5 +207,10 @@ Outlook은 최신 타임스탬프가 있는 cmdlet을 선택하여 환경 표시
   
 ### <a name="can-i-run-a-script-to-see-who-has-turned-on-focused-inbox"></a>스크립트를 실행하여 중요 받은 편지함을 설정한 사용자를 확인할 수 있나요?
 
-아니요. 불가능하도록 설계되어 있습니다. 중요 받은 편지함 사용 설정은 클라이언트 쪽 설정이므로 cmdlet에서는 사용자의 사서함을 클라이언트 환경에 사용할 수 있는지만 알려 줄 수 있습니다. 동시에 어떤 클라이언트에서는 사용하도록 설정하고 어떤 클라이언트에서는 사용하지 않도록 설정할 수 있습니다. 예를 들어 Outlook 앱과 Outlook Mobile에서는 사용하지만 웹용 Outlook에서는 사용하지 않도록 설정할 수 있습니다.
+아니요. 불가능하도록 설계되어 있습니다. 중요 받은 편지함 사용 여부는 클라이언트 쪽 설정이므로 cmdlet에서는 사용자의 사서함을 클라이언트 환경에 사용할 수 있는지만 알려 줄 수 있습니다. 동시에 어떤 클라이언트에서는 사용하도록 설정하고 어떤 클라이언트에서는 사용하지 않도록 설정할 수도 있습니다. 예를 들어 Outlook 앱과 Outlook 모바일에서는 사용하지만 웹용 Outlook에서는 사용하지 않도록 설정할 수 있습니다.
 
+## <a name="related-content"></a>관련 콘텐츠
+
+[조직에 대한 낮은 우선 순위 메일 구성](../email/configure-clutter.md)(문서)\
+[공유 사서함 설정 구성](../email/configure-a-shared-mailbox.md)(문서)\
+[서명 및 고지 사항 만들기](create-signatures-and-disclaimers.md)(비디오)

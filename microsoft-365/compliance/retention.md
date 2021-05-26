@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 필요한 항목을 보존하고 필요하지 않은 항목을 삭제하는 데 도움을 주는 보존 정책과 보존 레이블에 대해 알아봅니다.
-ms.openlocfilehash: 2695d34e29492a88da86c2511ce32e4036031e9d
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: ba17a94fa4ae0d12405cc7e38d7d74e90fa7ad02
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572660"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625224"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>보존 정책 및 보존 레이블에 대해 자세히 알아보기
 
@@ -368,7 +368,7 @@ eDiscovery 보존 대상 항목도 보존의 첫 번째 원칙에 속하므로 �
 
 보존 정책의 제공에는 유지 잠금이 포함되어 있지 않으므로 언제든지 정책을 삭제할 수 있어 이전에 적용된 보존 설정을 효과적으로 해제할 수 있습니다. 정책을 유지하지만 SharePoint 사이트나 OneDrive 계정을 제거하거나 위치 상태를 해제로 변경하거나 정책을 실행 중지할 수도 있습니다.
  
-이러한 작업을 수행할 때 정책의 보존 대상이 되는 SharePoint 또는 OneDrive 콘텐츠는 의도하지 않은 데이터 손실을 방지하기 위해 30일 동안 유지됩니다. 이 30일 유예 기간 동안에는 사이트를 삭제할 수 없으며 삭제된 파일은 보존 보류 라이브러리에 계속 추가되지만 보존 보류 라이브러리를 주기적으로 정리하는 타이머 작업은 이러한 파일에 대해 일시 중단되므로 필요할 경우 복원할 수 있습니다.
+이러한 작업을 수행할 때 정책의 보존 대상이 되는 SharePoint 또는 OneDrive 콘텐츠는 의도하지 않은 데이터 손실을 방지하기 위해 30일 동안 유지됩니다. 이 30일 유예 기간 동안에는 삭제된 파일은 보존되며 자료 보존 라이브러리에 계속 추가되지만, 보존 보류 라이브러리를 주기적으로 정리하는 타이머 작업은 이러한 파일에 대해 일시 중단되므로 필요할 경우 복원할 수 있습니다.
 
 보존 보류 라이브러리에 대한 자세한 내용은 [SharePoint 및 단일 드라이브에 대한 보존 작동 방식](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive)을 참조하세요.
 

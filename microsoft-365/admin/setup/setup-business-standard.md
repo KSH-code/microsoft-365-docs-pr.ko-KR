@@ -23,13 +23,13 @@ search.appverid:
 - MET150
 - MOE150
 - BEA160
-description: Microsoft 365 Business Standard 구독을 설정하는 방법을 알아보세요.
-ms.openlocfilehash: ce45b4869000892b5640730e765dbfc9c21386ed
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Microsoft 365 Business Standard를 구입하면 본인 소유 도메인을 사용하거나 가입 중 도메인을 구매할 수 있습니다.
+ms.openlocfilehash: cee91edaab09506dca90cf5ed64ee9bc669c98cf
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244458"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624420"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Microsoft Business Standard 설정
 
@@ -50,7 +50,7 @@ Microsoft 365 Business Standard를 구입하면 사용자가 소유하고 있는
 4. **도메인 추가** 단계에서 사용할 도메인 이름(예: contoso.com)을 입력합니다.
 
     > [!IMPORTANT]
-    > 등록할 때 도메인을 구입한 경우에는 **도메인 추가** 단계가 표시되지 않습니다. 대신 [사용자 추가](#add-users-and-assign-licenses)로 이동합니다.
+    > 등록할 때 도메인을 구입한 경우에는 **도메인 추가** 단계가 표시되지 않습니다. 대신 [사용자 추가](#add-users-and-assign-licenses)로 이동하세요.
 
     
 4. 마법사의 단계에 따라 도메인을 소유하고 있는지 확인하는 [DNS 호스팅 공급자에 상관없이 Office 365용 DNS 레코드 만들기](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 완료합니다. 도메인 호스트를 알고 있는 경우 [호스트 관련 지침](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions)을 참조하세요.
@@ -139,4 +139,7 @@ Microsoft 365에는 비즈니스용 공용 웹 사이트가 포함되지 않습�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/4839abc6-9323-4cbf-a79d-2907235f9ebb]
 
-[공용 웹 사이트 사용](../../business-video/create-web-site.md)에서 자세히 알아보세요.
+## <a name="related-content"></a>관련 콘텐츠
+
+[웹 사이트 만들기](../../business-video/create-web-site.md)(비디오)\
+[비즈니스용 Microsoft 365](../../business-video/index.yml)(링크 페이지)

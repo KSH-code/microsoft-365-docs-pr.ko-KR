@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 조직에 대한 다단계 인증을 설정하는 방법에 대해 알아 보십시오.
 monikerRange: o365-worldwide
-ms.openlocfilehash: de5f8ffbc5c26015f6ff0eb2863b622273f96ca1
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 480e09e42ea53cc78cd738a6e0650feae7a9f8c8
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408516"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635953"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
 
@@ -104,6 +104,5 @@ Azure AD P1 및 P2에 대한 자세한 내용은 [Azure Active Directory 가격]
 
 ## <a name="related-content"></a>관련 콘텐츠
 
-[다단계 인증 켜기](../../business-video/turn-on-mfa.md)(비디오)
-
+[다단계 인증 켜기](../../business-video/turn-on-mfa.md)(비디오)\
 [휴대폰의 다단계 인증 켜기](../../business-video/set-up-mfa.md)(비디오)

@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: DLP 정책에서 민감도 레이블을 조건으로 사용할 수 있는 서비스 및 항목 형식에 대해 배워봅니다.
-ms.openlocfilehash: 19bd80de225f703b5c280163e94826498fa097bd
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: b33e6704a3311740c1e386f77f1c751382ee6958
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876297"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651095"
 ---
 # <a name="use-sensitivity-labels-as-conditions-in-dlp-policies"></a>DLP 정책에서 민감도 레이블을 조건으로 사용
 
@@ -54,7 +54,7 @@ ms.locfileid: "51876297"
 |서비스  |항목 종류  |사용 가능한 정책 팁  |적용 가능  |
 |---------|---------|---------|---------|
 |Exchange    |전자 메일 메시지         |예         |예         |
-|Exchange    |전자 메일 첨부 파일         |아니요 *         |예*         |
+|Exchange    |전자 메일 첨부 파일         |아니요         |예*         |
 |SharePoint Online     |SharePoint Online의 항목         |예         |예         |
 |비즈니스용 OneDrive     |항목         |예         |예         |
 |Teams     |Teams 채팅 및 채널 메시지         |해당 없음         |해당 없음         |
@@ -62,7 +62,7 @@ ms.locfileid: "51876297"
 |Windows 10 장치     |항목         |예         |예         |
 |MCAS (미리 보기) |항목         |예         |예         |
 
-\* DLP 감지 및 전자 메일 및 첨부 파일에 대한 민감도 레이블 적용이 전송 중에 지원됩니다. DLP 정책 팁에 레이블이 지정되어 있는 전자 메일 첨부 파일에 대한 팁은 표시되어 있지 않습니다.
+민감도 레이블이 부착된 전자 메일 첨부 파일의 \* DLP 감지는 Office 파일 형식에만 지원됩니다.
 
 \** 1:1 채팅 혹은 채널을 통해 Teams 로 보낸 첨부 파일은 비즈니스용 One drive 및 SharePoint에 자동으로 업로드 됩니다. 따라서 SharePoint Online 또는 비즈니스용 One Drive가 DLP 정책에서 위치로 포함되는 경우, Teams에서 보낸 레이블이 지정된 첨부 파일은 이 조건의 범위에 자동으로 포함됩니다. DLP 정책에서 Teams를 위치로 선택할 필요가 없습니다.
 
