@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Microsoft 365 Business Standard를 구입하면 본인 소유 도메인을 사용하거나 가입 중 도메인을 구매할 수 있습니다.
-ms.openlocfilehash: cee91edaab09506dca90cf5ed64ee9bc669c98cf
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: ca9cc359aaabfc16a5d0c57a75362c7826dea0db
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624420"
+ms.locfileid: "52635633"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Microsoft Business Standard 설정
 
@@ -103,6 +103,8 @@ Microsoft 365 Business Standard를 구입하면 사용자가 소유하고 있는
 
 3. Microsoft 전자 메일 주소를 입력하고 **연결** 을 선택합니다.
 
+## <a name="watch-set-up-outlook-for-email"></a>시청: 전자 메일용 Outlook 설정
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/9fe86884-8a83-42cc-bca9-61a12e6dad31?autoplay=false]
   
 [Outlook을 전자 메일로 설정](https://support.microsoft.com/office/f5bf0cd1-e1f3-4b0d-a022-ecab17efe86f)에서 자세히 알아보세요.
@@ -123,6 +125,8 @@ Microsoft 365 Business Standard를 구입하면 사용자가 소유하고 있는
 
     이번에는 **다른 프로그램 또는 파일에서 가져 오기** 를 선택하고 다음 단계에 따라 이전 이메일을 내보낼 때 생성한 백업 파일을 가져옵니다.
 
+## <a name="watch-import-and-redirect-email"></a>시청: 전자 메일 가져오기 및 리디렉션
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/40f7df36-9e24-44e5-8791-e9ed0dd8fd21?autoplay=false]
   
 [Outlook으로 전자 메일을 가져오기](https://support.microsoft.com/office/6a3771d4-4c1d-4a25-92a6-0b8e476335de)에서 자세히 알아보세요.
@@ -136,6 +140,8 @@ Microsoft 365에는 비즈니스용 공용 웹 사이트가 포함되지 않습�
 1. 관리 센터에서 **리소스** 로 이동한 다음, **공용 웹 사이트** 를 선택합니다.
 
 2. 옵션 중 하나에서 **자세한 정보** 를 선택한 다음, 웹 사이트 파트너에 등록하고 해당 도구를 사용하여 사이트를 설정하고 디자인합니다.
+
+## <a name="watch-create-your-business-website"></a>시청: 비즈니스 웹 사이트 만들기
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/4839abc6-9323-4cbf-a79d-2907235f9ebb]
 

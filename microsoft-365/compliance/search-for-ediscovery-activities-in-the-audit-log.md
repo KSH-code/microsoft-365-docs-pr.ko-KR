@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: eDiscovery 권한이 할당된 사용자가 콘텐츠 검색, Core eDiscovery 및 Advanced eDiscovery 준수 센터에서 작업을 수행할 때 로깅되는 Microsoft 365 설명합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ce0dcc50c13ad705cb36f065639a4e971d032f22
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: 8b1f3f235f3411e2f637e4e32104c6179643757d
+ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653502"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52657696"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>감사 로그에서 eDiscovery 활동 검색
 
@@ -112,7 +112,7 @@ Microsoft 365 준수 센터에서 수행하거나 해당 PowerShell cmdlet을 �
 |콘텐츠 검색 내보내기 시작  <br/> |SearchExported  <br/> |New-ComplianceSearchAction  <br/> |사용자가 콘텐츠 검색 결과를 내보낼 수 있습니다.  <br/> |
 |시작된 내보내기 보고서  <br/> |SearchReport  <br/> |New-ComplianceSearchAction  <br/> |사용자가 콘텐츠 검색 보고서를 내보낼 때  <br/> |
 |중지된 콘텐츠 검색  <br/> |SearchStopped  <br/> |Stop-ComplianceSearch  <br/> |사용자가 콘텐츠 검색을 중지한 경우  <br/> |
-|(없음)|CaseViewed|Get-ComplianceCase|사용자가 준수 센터의 **Core eDiscovery** 페이지에서 또는 cmdlet을 실행하여 사례 Get-ComplianceCase 보게 됩니다.|
+|(없음)|CaseViewed|Get-ComplianceCase|사용자가 준수 센터의 **Core eDiscovery** 페이지 또는  Advanced eDiscovery 페이지에서 또는 Get-ComplianceCase cmdlet을 실행하여 사례 목록을 확인했습니다.|
 |(없음)|SearchViewed|Get-ComplianceSearch|사용자가 준수 센터의 콘텐츠 검색(검색 탭에 나열)에서 또는 cmdlet을 실행하여 목록을 보게 됩니다.  또한 이 활동은 사용자가 eDiscovery 사례와 연결된 콘텐츠 검색 목록을 보거나(사례의  검색 탭을 클릭) **Get-ComplianceSearch -Case** 명령을 실행하여 기록됩니다.|
 |(없음)|ViewedSearchExported|Get-ComplianceSearchAction -Export|사용자가 준수 센터에서 또는 cmdlet을 실행하여  콘텐츠 검색 내보내기 작업 목록을 보게 되었습니다(내보내기 탭에 나열). 이 활동은 사용자가 eDiscovery 사례(경우에 따라 내보내기 탭에 나열)에서 내보내기 작업 목록을 보거나 **Get-ComplianceSearchAction -Case -Export** 명령을 실행하여 기록됩니다. |
 |(없음)|ViewedSearchPreviewed|Get-ComplianceSearchAction -Preview|사용자는 준수 센터에서 또는 cmdlet을 실행하여 콘텐츠 검색 결과를 미리 볼 수 있습니다.|
