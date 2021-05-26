@@ -17,12 +17,12 @@ ms.collection:
 description: 관리자는 Exchange Online Protection(EOP)에서 스팸 방지 정책을 보고, 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5cd6a1a2ce1ca6c6ce3741674945a1e2a43694b7
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1241e6ebb838938f82fce5dc08ea93a3038f4ace
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206021"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624236"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>EOP에서 스팸 방지 정책 구성하기
 
@@ -35,7 +35,7 @@ ms.locfileid: "51206021"
 
 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 조직의 경우, 인바운드 전자 메일 메시지가 EOP를 통해 자동으로 스팸으로부터 보호됩니다. EOP는 스팸에 대한 조직의 전반적인 방어책의 일부로 스팸 방지 정책(스팸 필터 정책 또는 콘텐츠 필터 정책)을 사용합니다. 자세한 내용은 [스팸 방지 보호](anti-spam-protection.md)를 참조하세요.
 
-관리자는 기본 스팸 방지 정책을 보고, 편집하고, 구성할 수 있습니다. 세분성을 높이기 위해 사용자 지정 스팸 방지 정책을 만들어 조직의 특정 사용자, 그룹 또는 도메인에 적용할 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.
+관리자는 기본 스팸 방지 정책을 보고, 편집하고, 구성할 수 있습니다(삭제는 할 수 없음). 세분성을 높이기 위해 사용자 지정 스팸 방지 정책을 만들어 조직의 특정 사용자, 그룹 또는 도메인에 적용할 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.
 
 보안 및 준수 센터 또는 PowerShell(Exchange Online 사서함이 있는 Microsoft 365 조직의 경우 Exchange Online PowerShell; Exchange Online 사서함이 없는 조직의 경우 독립 실행형 EOP PowerShell)에서 스팸 방지 정책을 구성할 수 있습니다.
 
@@ -89,7 +89,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
 3. 열리는 **새 스팸 필터 정책** 플라이아웃에서 다음 설정을 구성합니다.
 
-   - **이름**: 정책을 설명하는 고유한 이름을 입력합니다. `\ % & * + / = ? { } | < > ( ) ; : , [ ] "` 문자를 사용하지 마세요.
+   - **이름**: 정책을 설명하는 고유한 이름을 입력합니다. `\ % & * + / = ? { } | < > ( ) ; : , [ ] "` 문자를 사용하지 마세요.
 
       이전에 EAC(Exchange 관리 센터)에서 이러한 문자가 포함된 스팸 방지 정책을 만들었다면 PowerShell에서 스팸 방지 정책의 이름을 바꾸어야 합니다. 자세한 내용은 이 문서 뒷부분의 [PowerShell을 사용하여 스팸 필터 규칙 수정](#use-powershell-to-modify-spam-filter-rules) 섹션을 참조하세요.
 
@@ -118,14 +118,14 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
      |**X-헤더 추가**: 메시지 헤더에 X-헤더를 추가하고, 메시지를 사서함에 배달합니다. <p> 나중에 **이 X-헤더 텍스트를 추가** 상자에서 X-헤더 필드 이름(값 아님)을 입력합니다. <p> **스팸** 및 **높은 정확도의 스팸** 결과의 경우, 메시지가 정크 메일 폴더로 이동됩니다.<sup>1, 2</sup>|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)||![확인 표시](../../media/checkmark.png)<sup>\*</sup>|
      |**텍스트를 제목 줄 앞에 추가**: 메시지의 제목 줄 앞에 텍스트를 추가합니다. 메시지가 사서함으로 배달되고, 정크 메일 폴더로 이동됩니다.<sup>1,2</sup> <p> **이 텍스트를 제목 줄 앞에 추가** 상자에 텍스트를 입력합니다.|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)||![확인 표시](../../media/checkmark.png)|
      |**전자 메일 주소로 메시지 리디렉션**: 메시지를 의도된 받는 사람 대신 다른 받는 사람에게 보냅니다. <p> 나중에 **이 전자 메일 주소로 메시지 리디렉션** 상자에 받는 사람을 지정합니다.|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
-     |**메시지 삭제**: 모든 첨부 파일을 포함하여 전체 메시지를 자동으로 삭제합니다.|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)||![확인 표시](../../media/checkmark.png)|
-     |**메시지 격리**: 메시지를 의도된 받는 사람에게 보내는 대신 격리로 보냅니다. <p> 나중에 **격리** 상자에 메시지가 격리되는 기간을 지정합니다.|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)<sup>\*</sup>|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
+     |**메시지 삭제**: 모든 첨부 파일을 포함하여 전체 메시지를 자동으로 삭제합니다.|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)||![확인 표시](../../media/checkmark.png)|
+     |**메시지 격리**: 메시지를 의도된 받는 사람에게 보내는 대신 격리로 보냅니다. <p> 나중에 **격리** 상자에 메시지가 격리되는 기간을 지정합니다.|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)<sup>\*</sup>|![확인 표시](../../media/checkmark.png)|![확인 표시](../../media/checkmark.png)|
      |**작업 없음**|||||![확인 표시](../../media/checkmark.png)|
      |
 
      > <sup>1</sup> Exchange Online에서 사서함에 정크 메일 규칙이 활성화되어 있으면 메시지는 정크 메일 폴더로 이동합니다(기본적으로 활성화되어 있음). 자세한 내용은 [Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
      >
-     > EOP로 온-프레미스 Exchange 사서함을 보호하는 독립 실행형 EOP 환경에서는 EOP 스팸 필터링 결과를 변환하여 정크 메일 규칙에 따라 메시지를 정크 메일 폴더로 이동하기 위해 온-프레미스 Exchange에서 메일 흐름 규칙(전송 규칙이라고도 함)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.
+     > EOP로 온-프레미스 Exchange 사서함을 보호하는 하이브리드 환경에서는 EOP 스팸 필터링 평가 결과를 변환하여 정크 메일 규칙에 따라 메시지를 정크 메일 폴더로 이동하기 위해 온-프레미스 Exchange에서 메일 흐름 규칙(전송 규칙이라고도 함)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 EOP 구성하기](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)를 참조하세요.
      >
      > <sup>2</sup> 메일 흐름 규칙에서 해당 값을 조건으로 사용하여 메시지를 필터링하거나 경로 지정할 수 있습니다.
 
@@ -185,7 +185,7 @@ Exchange Online PowerShell 또는 독립 실행형 EOP PowerShell에서 정책�
 
    - **허용할 도메인**: **편집** 을 클릭합니다. 표시되는 **허용되는 도메인 목록** 플라이아웃에서 다음 단계를 수행합니다.
 
-      a. 도메인을 입력합니다. 여러 개의 도메인을 세미콜론(;)으로 구분하여 지정할 수 있습니다.
+      a. 도메인을 입력합니다. 여러 도메인을 세미콜론(;)으로 구분하여 지정할 수 있습니다.
 
       b. 이 ![추가 아이콘](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) 을 클릭하여 도메인을 추가합니다.
 
@@ -639,7 +639,7 @@ Remove-HostedContentFilterRule -Identity "Marketing Department"
 ### <a name="send-a-gtube-message-to-test-your-spam-policy-settings"></a>GTUBE 메시지를 보내서 스팸 정책 설정을 테스트합니다.
 
 > [!NOTE]
-> 이 단계는 GTUBE 메시지를 보내는 전자 메일 조직이 아웃바운드 스팸을 검사하지 않는 경우에만 작동합니다. 검사하는 경우에는 테스트 메시지를 보낼 수 없습니다.
+> 이 단계는 GTUBE 메시지를 보내는 전자 메일 조직이 아웃바운드 스팸을 검사하지 않는 경우에만 작동합니다. 검사를 시행하는 경우에는 테스트 메시지를 보낼 수 없습니다.
 
 GTUBE(원치 않는 대량 전자 메일용 제네릭 테스트)는 조직에서 스팸 방지 설정을 확인하기 위해 테스트 메시지에 포함하는 텍스트 문자열입니다. GTUBE 메시지는 맬웨어 설정을 테스트하기 위한 EICAR(European Institute for Computer Antivirus Research) 텍스트 파일과 유사합니다.
 
