@@ -122,7 +122,7 @@
 ###### [iOS 기능 구성](ios-configure-features.md)
 
 ##### [문제 해결]()
-###### [문제 해결](ios-troubleshoot.md)
+###### [FAQ 및 문제 해결](ios-troubleshoot.md)
 
 ##### [개인 정보](ios-privacy.md)
  
@@ -134,7 +134,8 @@
 ###### [수동 배포](linux-install-manually.md)
 ###### [Puppet 기반 배포](linux-install-with-puppet.md)
 ###### [Ansible 기반 배포](linux-install-with-ansible.md)
- 
+###### [Chef를 통해 Microsoft Defender for Endpoint(Linux용) 배포](linux-deploy-defender-for-endpoint-with-chef.md)
+
 ##### [업데이트](linux-updates.md)
  
 ##### [구성]()
@@ -144,7 +145,7 @@
 ###### [잠재적으로 원하지 않는 응용 프로그램 검색 및 차단](linux-pua.md)
 ###### [Microsoft Defender for Endpoint(Linux용) 검사 예약](linux-schedule-scan-atp.md)
 ###### [엔드포인트용 Microsoft Defender(Linux) 업데이트 예약](linux-update-MDE-Linux.md)
-###### [Chef를 통해 Microsoft Defender for Endpoint(Linux용) 배포](linux-deploy-defender-for-endpoint-with-chef.md)
+
  
 ##### [문제 해결]()
 ###### [설치 문제 해결](linux-support-install.md)
@@ -480,6 +481,12 @@
 ####### [경고 관련 IP 정보 가져오기](get-alert-related-ip-info.md)
 ####### [경고 관련 장치 정보 가져오기](get-alert-related-machine-info.md)
 ####### [경고 관련 사용자 정보 가져오기](get-alert-related-user-info.md)
+
+###### [취약성 및 보안 구성 평가]()
+####### [평가 방법 및 속성 내보내기](get-assessmnt-1methods-properties.md)
+####### [보안 구성 평가 내보내기](get-assessmnt-secure-cfg.md)
+####### [소프트웨어 인벤토리 재고 내보내기](get-assessmnt-software-inventory.md)
+####### [소프트웨어 취약점 평가 내보내기](get-assessmnt-software-vulnerabilities.md)
 
 ###### [자동화된 조사]()
 ####### [조사 방법 및 속성](investigation.md)
